@@ -56,7 +56,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "OPÉRATIONS & PERSONNES",
-          "title": "Dirigez le floor pendant que le service est encore en cours.",
+          "title": "Pilotez la salle pendant que le service est encore en cours.",
           "description": "Intelligence opérationnelle en temps réel pour les personnes les plus proches du client, du planning et du service.",
           "seeSolutionPrefix": "Voir",
           "personas": [
@@ -332,7 +332,7 @@ export const generatedLocalCopy = {
       "formats": [
         "QSR",
         "Casual Dining",
-        "Fijnproeverij",
+        "Fine dining",
         "Cloudkeukens",
         "Horecagroepen",
         "Multi-merk Operators"
@@ -433,7 +433,7 @@ export const generatedLocalCopy = {
       "description": "ذكاء القرار مبني حول الشخص الذي يقرأه - من المكتب التنفيذي إلى أرضية العمل.",
       "nowShowingPrefix": "يعرض الآن:",
       "primaryCta": "احجز جلسة عمل",
-      "secondaryCta": "Start with Report Lite",
+      "secondaryCta": "ابدأ مع Report Lite",
       "shapedByLabel": "شكلها مشغلو المطاعم عبر",
       "formats": [
         "مطاعم سريعة",
@@ -443,7 +443,7 @@ export const generatedLocalCopy = {
         "مجموعات الضيافة",
         "مشغلو العلامات التجارية المتعددة"
       ],
-      "closingEyebrow": "لَا تَكُون مُتَأَكِّدًا مِنْ أَيٍّ مِنْهُم",
+      "closingEyebrow": "لست متأكدًا من أيها",
       "closingTitle": "سنخصص الجلسة لفريقك.",
       "closingDescription": "30 دقيقة. بياناتك. العرض الذي سيكون الأكثر أهمية للأشخاص في الغرفة.",
       "closingPrimaryCta": "احجز جولة إرشادية",
@@ -466,7 +466,7 @@ export const generatedLocalCopy = {
           "personas": [
             {
               "title": "المديرون التنفيذيون والمالكون",
-              "tagline": "تحديثات يومية بالذكاء الاصطناعي عبر كل علامة تجارية. تباين الهامش في يوم حدوثه."
+              "tagline": "تحديثات يومية من AI عبر كل علامة تجارية. تباين الهامش في يوم حدوثه."
             },
             {
               "title": "المالية والتخطيط والتحليل المالي",
@@ -480,13 +480,13 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "العمليات والأشخاص",
-          "title": "قم بتوجيه الطابق بينما لا يزال التحول جاريًا.",
+          "title": "وجّه صالة الخدمة بينما لا تزال المناوبة جارية.",
           "description": "ذكاء تشغيلي مباشر للأشخاص الأقرب إلى الضيف، والجدول الزمني، والخدمة.",
           "seeSolutionPrefix": "شاهد",
           "personas": [
             {
-              "title": "مديرو المناطق والمناطق",
-              "tagline": "قم بإدارة اثني عشر منفذًا كما لو كنت واقفًا في واحد. ترفع الأعلام المواقع التي تحتاجك الآن."
+              "title": "مديرو الأقاليم والمناطق",
+              "tagline": "أدِر اثني عشر فرعًا كأنك واقف في واحد. وتيرة الخدمة تُعلِم الموقع الذي يحتاجك الآن."
             },
             {
               "title": "الموارد البشرية والأشخاص",
@@ -768,7 +768,7 @@ export const generatedLocalCopy = {
       "closingSecondaryCta": "प्लेटफ़ॉर्म अवलोकन देखें",
       "rotatingLabels": [
         "सी-स्वीट और मालिक",
-        "वित्त और एफपीए",
+        "वित्त और FP&A",
         "संचालन",
         "मार्केटिंग",
         "लोग और एचआर",
@@ -787,7 +787,7 @@ export const generatedLocalCopy = {
               "tagline": "हर ब्रांड में दैनिक एआई ब्रीफिंग। जिस दिन यह होता है, उस दिन का मार्जिन भिन्नता।"
             },
             {
-              "title": "वित्त और एफपी एंड ए",
+              "title": "वित्त और FP&A",
               "tagline": "घंटों में बंद करें। हर डॉलर को उस घटना तक ट्रेस करें जिसने इसे स्थानांतरित किया।"
             },
             {
@@ -883,7 +883,7 @@ export const generatedLocalCopy = {
       ],
       "groups": [
         {
-          "eyebrow": "LEADERSHIP & STRATEGY",
+          "eyebrow": "LEADERSHIP & STRATEGIA",
           "title": "Gestisci il portafoglio con una fonte di verità.",
           "description": "Intelligenza decisionale progettata per l'ufficio esecutivo, la funzione finanziaria e il gruppo che possiede i marchi.",
           "seeSolutionPrefix": "Vedi",
@@ -957,7 +957,7 @@ export const generatedLocalCopy = {
       ]
     },
     "tr": {
-      "badge": "ÇÖZÜMLER · ROL GÖRE",
+      "badge": "ÇÖZÜMLER · ROLE GÖRE",
       "titleLine1": "Tek bir platform.",
       "titleLine2": "Yürüttüğünüz her rol.",
       "description": "Okuyucu etrafında inşa edilmiş karar zekası - yönetim ofisinden zemin katına kadar.",
@@ -1069,7 +1069,7 @@ export const generatedLocalCopy = {
       "description": "围绕阅读它的人构建的决策智能--从高管办公室到工作现场。",
       "nowShowingPrefix": "现在显示：",
       "primaryCta": "预约工作会议",
-      "secondaryCta": "Start with Report Lite",
+      "secondaryCta": "从 Report Lite 开始",
       "shapedByLabel": "由餐厅运营商塑造的",
       "formats": [
         "快餐",
@@ -1435,7 +1435,7 @@ export const generatedLocalCopy = {
         {
           "eyebrow": "OPERASI & ORANG",
           "title": "Arahkan lantai sementara shift masih berjalan.",
-          "description": "Intelligence operasional langsung untuk orang-orang terdekat dengan tamu, jadwal, dan layanan.",
+          "description": "Intelijen operasional langsung untuk orang-orang terdekat dengan tamu, jadwal, dan layanan.",
           "seeSolutionPrefix": "Lihat",
           "personas": [
             {
@@ -1471,7 +1471,7 @@ export const generatedLocalCopy = {
         {
           "eyebrow": "FORMAT KHUSUS",
           "title": "Dirancang untuk cara restoran beroperasi saat ini.",
-          "description": "Intelligence spesifik format untuk dapur cloud, merek virtual, dan jaringan waralaba.",
+          "description": "Intelijen spesifik format untuk dapur cloud, merek virtual, dan jaringan waralaba.",
           "seeSolutionPrefix": "Lihat",
           "personas": [
             {
@@ -1625,7 +1625,7 @@ export const generatedLocalCopy = {
       ],
       "groups": [
         {
-          "eyebrow": "LEADERSHIP & STRATEGY",
+          "eyebrow": "LEADERSHIP & STRATEGIE",
           "title": "Gestionează portofoliul cu o sursă unică de adevăr.",
           "description": "Inteligență decizională construită pentru biroul executiv, funcția financiară și grupul care deține brandurile.",
           "seeSolutionPrefix": "Vezi",
@@ -1645,7 +1645,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "eyebrow": "OPERATIVĂ ȘI OAMENI",
+          "eyebrow": "OPERAȚIUNI ȘI OAMENI",
           "title": "Coordonează sala în timp ce schimbul este încă activ.",
           "description": "Inteligență operațională în timp real pentru persoanele cele mai apropiate de oaspeți, program și serviciu.",
           "seeSolutionPrefix": "Vezi",
@@ -1659,7 +1659,7 @@ export const generatedLocalCopy = {
               "tagline": "Varianta de muncă în timp real. Riscul de ore suplimentare semnalat înainte de a apărea. Programe construite pe baza cererii."
             },
             {
-              "title": "Operatori de Hospitality",
+              "title": "Operatori de Ospitalitate",
               "tagline": "Fiecare locație F&B - restaurant, banchet, IRD, hol - într-o vedere unificată în timp real."
             }
           ]
@@ -1676,7 +1676,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Tehnologie & Date",
-              "tagline": "12 surse, un schema guvernată. RBAC, trail-uri de audit, API public, webhooks."
+              "tagline": "12 surse, o schemă guvernată. RBAC, piste de audit, API public, webhooks."
             }
           ]
         },
@@ -1917,11 +1917,11 @@ export const generatedLocalCopy = {
       "description": "ফয়সালা বুদ্ধিমত্তা এমনভাবে তৈরি করা হয়েছে যে এটি পড়া ব্যক্তির চারপাশে - নির্বাহী অফিস থেকে মেঝে পর্যন্ত।",
       "nowShowingPrefix": "এখন দেখানো হচ্ছে:",
       "primaryCta": "একটি কাজের সেশন বুক করুন",
-      "secondaryCta": "Start with Report Lite",
+      "secondaryCta": "Report Lite দিয়ে শুরু করুন",
       "shapedByLabel": "রেস্তোরাঁর অপারেটরদের দ্বারা গঠিত",
       "formats": [
         "কিউএসআর",
-        "অফিসের খাবার",
+        "ক্যাজুয়াল ডাইনিং",
         "ফাইন ডাইনিং",
         "ক্লাউড কিচেন",
         "হাসপাতালিটি গ্রুপ",
@@ -1934,7 +1934,7 @@ export const generatedLocalCopy = {
       "closingSecondaryCta": "প্ল্যাটফর্মের সারসংক্ষেপ দেখুন",
       "rotatingLabels": [
         "সি-সুইট ও মালিকরা",
-        "অর্থ ও এফপি অ্যান্ড এ",
+        "অর্থ ও FP&A",
         "অপারেশনস",
         "মার্কেটিং",
         "মানুষ ও এইচআর",
@@ -1958,7 +1958,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "বহু-অবস্থান গ্রুপ",
-              "tagline": "পোর্টফোলিও রোলআপ, ব্র্যান্ড-বিরোধী ব্র্যান্ড বেঞ্চমার্ক, গ্রুপ-স্তরের কৌশলগত সংকেত।"
+              "tagline": "পোর্টফোলিও রোলআপ, ব্র্যান্ড-বনাম-ব্র্যান্ড বেঞ্চমার্ক, গ্রুপ-স্তরের কৌশলগত সংকেত।"
             }
           ]
         },
@@ -2023,7 +2023,7 @@ export const generatedLocalCopy = {
       "description": "Inteligensi keputusan dibina di sekitar orang yang membacanya - dari pejabat eksekutif hingga ke lantai.",
       "nowShowingPrefix": "Sedang ditayangkan:",
       "primaryCta": "Tempah Sesi Kerja",
-      "secondaryCta": "Start with Report Lite",
+      "secondaryCta": "Mulakan dengan Report Lite",
       "shapedByLabel": "Dibentuk oleh pengendali restoran di seluruh",
       "formats": [
         "QSR",
@@ -2071,7 +2071,7 @@ export const generatedLocalCopy = {
         {
           "eyebrow": "OPERASI & ORANG",
           "title": "Arahkan lantai semasa syif masih berjalan.",
-          "description": "Intelligence operasi secara langsung untuk orang yang paling dekat dengan tetamu, jadual, dan perkhidmatan.",
+          "description": "Inteligensi operasi secara langsung untuk orang yang paling dekat dengan tetamu, jadual, dan perkhidmatan.",
           "seeSolutionPrefix": "Lihat",
           "personas": [
             {
@@ -2146,7 +2146,7 @@ export const generatedLocalCopy = {
       "closingSecondaryCta": "ดูภาพรวมแพลตฟอร์ม",
       "rotatingLabels": [
         "ผู้บริหารระดับสูง & เจ้าของ",
-        "การเงิน & การวางแผนทางการเงิน",
+        "การเงิน & FP&A",
         "การดำเนินงาน",
         "การตลาด",
         "บุคคล & ทรัพยากรมนุษย์",
@@ -2176,7 +2176,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "การดำเนินงาน & บุคคล",
-          "title": "ควบคุมพื้นที่ในขณะที่การเปลี่ยนกะยังดำเนินอยู่.",
+          "title": "ควบคุมพื้นที่ในขณะที่กะยังดำเนินอยู่.",
           "description": "ข้อมูลเชิงปฏิบัติการแบบเรียลไทม์สำหรับผู้ที่ใกล้ชิดกับแขก, ตารางเวลา, และการบริการ.",
           "seeSolutionPrefix": "ดู",
           "personas": [

@@ -4,11 +4,11 @@ export const generatedLocalCopy = {
   "localizedCopy": {
     "es": {
       "badge": "Para ejecutivos y propietarios",
-      "titleLine1": "Dirige la cartera.",
+      "titleLine1": "Gestiona la cartera.",
       "titleLine2": "No la hoja de cálculo.",
       "description": "Briefings diarios de IA en todas las marcas. Variación de margen el mismo día en que ocurre. Señal de mercado antes de que llegue a tus números.",
       "primaryCta": "Agenda una sesión ejecutiva",
-      "secondaryCta": "Ver demo ejecutiva",
+      "secondaryCta": "Ver la demo ejecutiva",
       "problemsEyebrow": "LO QUE DETIENE A LOS EJECUTIVOS",
       "problemsTitle": "¿Qué frena a los ejecutivos hoy?",
       "problemsDescription": "Tres días de retraso, tres reuniones para profundizar y ninguna fuente única de verdad.",
@@ -38,7 +38,7 @@ export const generatedLocalCopy = {
       "howDescription": "Una fuente de verdad para cada marca, cada ubicación, cada turno.",
       "howSundaeHelps": [
         {
-          "title": "Comando de cartera en tiempo real",
+          "title": "Centro de mando de cartera en tiempo real",
           "description": "Ingresos, márgenes y mano de obra en vivo en todos los locales. Pulse señala qué ubicación necesita atención antes de que termine el turno.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
@@ -62,7 +62,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         }
       ],
-      "outcomesTitle": "¿Qué cambios para la oficina ejecutiva?",
+      "outcomesTitle": "¿Qué cambia para la oficina ejecutiva?",
       "outcomesDescription": "Decisiones más rápidas, cartera más precisa, pronósticos defendibles.",
       "outcomes": [
         {
@@ -92,80 +92,80 @@ export const generatedLocalCopy = {
     },
     "ar": {
       "badge": "للجناح التنفيذي والمالكين",
-      "titleLine1": "قم بتشغيل المحفظة.",
-      "titleLine2": "ليس جدول البيانات.",
-      "description": "ملخصات يومية للذكاء الاصطناعي عبر كل علامة تجارية. تباين الهامش في يوم حدوثه. إشارة السوق قبل أن تصل إلى أرقامك.",
-      "primaryCta": "حجز إحاطة تنفيذية",
-      "secondaryCta": "انظر العرض التنفيذي",
-      "problemsEyebrow": "ما الذي يبطئ المديرين التنفيذيين؟",
-      "problemsTitle": "ما يبطئ المديرين التنفيذيين اليوم",
-      "problemsDescription": "تأخرت ثلاثة أيام، وثلاثة اجتماعات عميقة، ولا يوجد مصدر واحد للحقيقة.",
+      "titleLine1": "أدِر المحفظة.",
+      "titleLine2": "لا جدول البيانات.",
+      "description": "ملخصات يومية بالذكاء الاصطناعي عبر كل علامة تجارية. تباين الهامش في اليوم نفسه الذي يحدث فيه. إشارة السوق قبل أن تصل إلى أرقامك.",
+      "primaryCta": "احجز جلسة إحاطة تنفيذية",
+      "secondaryCta": "شاهد العرض التوضيحي التنفيذي",
+      "problemsEyebrow": "ما الذي يبطئ المديرين التنفيذيين",
+      "problemsTitle": "ما الذي يبطئ المديرين التنفيذيين اليوم",
+      "problemsDescription": "تأخّر ثلاثة أيام، وثلاثة اجتماعات للتعمّق، ولا مصدر واحد للحقيقة.",
       "challenges": [
         {
-          "title": "قرارات بشأن الأرقام التي لا معنى لها",
-          "description": "ملخص الخميس يصل يوم الجمعة. وبحلول ذلك الوقت، يكون الهامش محجوزًا بالفعل.",
+          "title": "قرارات مبنية على أرقام قديمة",
+          "description": "ملخص الخميس يصل يوم الجمعة. وبحلول ذلك الوقت يكون الهامش قد ضاع بالفعل.",
           "icon": "benchmarking"
         },
         {
-          "title": "12 نظامًا للبائعين، بدون محاذاة",
-          "description": "POS، والعمالة، والمخزون، والتسليم - كل نظام يتحدث لهجة مختلفة.",
+          "title": "12 نظامًا من الموردين، بلا أي مواءمة",
+          "description": "POS، والعمالة، والمخزون، والتوصيل - كل نظام يتحدث لهجة مختلفة.",
           "icon": "integration"
         },
         {
-          "title": "لا يوجد عرض بعد الربع الأخير",
-          "description": "ترى ما حدث. ليس ما هو قادم. ليس ما يجب القيام به حيال ذلك.",
+          "title": "لا رؤية لما بعد الربع الأخير",
+          "description": "ترى ما حدث. لا ما هو قادم. ولا ما ينبغي فعله حياله.",
           "icon": "forecasting"
         },
         {
-          "title": "فقدت الاستراتيجية لمكافحة الحرائق",
-          "description": "المحفظة تحتاج إلى التوجيه. العمليات تحتاج إلى إخماد. كلاهما يخسر.",
+          "title": "الاستراتيجية تضيع في إطفاء الحرائق",
+          "description": "المحفظة بحاجة إلى توجيه. والعمليات بحاجة إلى استقرار. وحين يتنافسان على الانتباه، يخسر كلاهما.",
           "icon": "balance"
         }
       ],
       "howTitle": "كيف يعمل Sundae للمكتب التنفيذي",
-      "howDescription": "مصدر واحد للحقيقة عبر كل علامة تجارية، وكل موقع، وكل نوبة عمل.",
+      "howDescription": "مصدر واحد للحقيقة عبر كل علامة تجارية، وكل موقع، وكل وردية عمل.",
       "howSundaeHelps": [
         {
-          "title": "أمر المحفظة في الوقت الحقيقي",
-          "description": "الإيرادات المباشرة والهامش والعمالة عبر كل منفذ. تشير السرعة إلى الموقع الذي يحتاج إلى اهتمامك قبل انتهاء الوردية.",
+          "title": "قيادة المحفظة في الوقت الفعلي",
+          "description": "الإيرادات والهامش والعمالة مباشرةً عبر كل فرع. يشير Pulse إلى الموقع الذي يحتاج إلى اهتمامك قبل أن تنتهي الوردية.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "إشارة السوق قبل أن تصل",
-          "description": "المنافسون، والطقس، والأحداث، والإقبال - تم تجميعهم في ملخص صباحي حتى تتمكن من التصرف قبل أن يصل التأثير إلى P&L.",
+          "description": "المنافسون، والطقس، والفعاليات، وحركة الزوار - مجمَّعة في ملخص صباحي لتتصرف قبل أن يصل الأثر إلى P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
-          "title": "الإجابات المذكورة بالمصدر في ثوانٍ",
-          "description": "اسأل عن سبب ضغط هامش العلامة التجارية C أو ما هي المنافذ التي تخسرها أمام العروض الترويجية المنافسة. احصل على إجابة مرقمة بالبيانات المستمدة منها.",
+          "title": "إجابات موثَّقة بمصدرها في ثوانٍ",
+          "description": "اسأل عن سبب انضغاط هامش العلامة التجارية C أو أي الفروع تخسر أمام عروض المنافسين الترويجية. احصل على إجابة مدعومة بالبيانات التي تستند إليها.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
-          "title": "توقعات 14-90 يومًا يمكنك الدفاع عنها",
-          "description": "إيرادات المشاريع الاستشرافية والعمالة والأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك. قم بتشغيل \"ماذا لو\" في سوق جديدة، أو حركة سعر، أو برنامج تكلفة - قبل الالتزام برأس المال. (Foresight) (EBITDA)",
+          "title": "توقعات من 14 إلى 90 يومًا يمكنك الدفاع عنها",
+          "description": "يتوقّع Foresight الإيرادات والعمالة وEBITDA. شغّل سيناريوهات \"ماذا لو\" حول سوق جديدة، أو تغيير سعر، أو برنامج خفض تكاليف - قبل أن تلتزم برأس المال.",
           "product": "Foresight",
           "icon": "forecasting"
         }
       ],
-      "outcomesTitle": "ما التغييرات للمكتب التنفيذي",
-      "outcomesDescription": "قرارات أسرع، ومحفظة أكثر وضوحًا، وتوقعات يمكن الدفاع عنها.",
+      "outcomesTitle": "ما الذي يتغيّر للمكتب التنفيذي",
+      "outcomesDescription": "قرارات أسرع، ومحفظة أكثر إحكامًا، وتوقعات يمكن الدفاع عنها.",
       "outcomes": [
         {
-          "title": "اتخذ قرارك خلال ساعات وليس أسابيع",
-          "description": "الانتقال من الإغلاق الشهري إلى الهامش المباشر. القرار يهبط بينما لا يزال مهمًا.",
+          "title": "قرّر في ساعات لا في أسابيع",
+          "description": "انتقل من إغلاق الهامش الشهري إلى الهامش المباشر. يُتخذ القرار بينما لا يزال مهمًا.",
           "icon": "speed"
         },
         {
-          "title": "محفظة أكثر إحكاما ومفاجآت أقل",
-          "description": "تظهر المواقع ذات الأداء الضعيف في الموجز الصباحي - وليس المراجعة ربع السنوية.",
+          "title": "محفظة أكثر إحكامًا ومفاجآت أقل",
+          "description": "تظهر المواقع ضعيفة الأداء في الموجز الصباحي - لا في المراجعة الربع سنوية.",
           "icon": "performance"
         },
         {
-          "title": "يتنبأ بثقة مجلس الإدارة الخاص بك",
-          "description": "توقعات من 14 إلى 90 يومًا ترتكز على بيانات التشغيل الخاصة بك بالإضافة إلى إشارة السوق.",
+          "title": "توقعات يثق بها مجلس إدارتك",
+          "description": "توقعات من 14 إلى 90 يومًا ترتكز على بيانات تشغيلك الخاصة إضافةً إلى إشارة السوق.",
           "icon": "owners"
         },
         {
@@ -175,12 +175,12 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "شاهد محفظتك في عرض واحد.",
-      "ctaDescription": "30 دقيقة. البيانات الخاصة بك. ما الذي سيغيره Sundae فعليًا بالنسبة للمكتب التنفيذي.",
-      "ctaButton": "حجز إحاطة تنفيذية"
+      "ctaDescription": "30 دقيقة. بياناتك أنت. ما الذي سيغيّره Sundae فعليًا بالنسبة للمكتب التنفيذي.",
+      "ctaButton": "احجز جلسة إحاطة تنفيذية"
     },
     "pt": {
       "badge": "Para executivos e proprietários",
-      "titleLine1": "Execute o portfólio.",
+      "titleLine1": "Comande o portfólio.",
       "titleLine2": "Não a planilha.",
       "description": "Briefings diários de IA para todas as marcas. Variação da margem no dia em que isso acontece. Sinal do mercado antes de atingir seus números.",
       "primaryCta": "Agende um Briefing Executivo",
@@ -205,8 +205,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Estratégia perdida para o combate a incêndios",
-          "description": "O portfólio precisa de orientação. As operações precisam ser lançadas. Ambos perdem.",
+          "title": "A estratégia se perde apagando incêndios",
+          "description": "O portfólio precisa de direção. As operações precisam de estabilidade. Quando disputam atenção, ambos perdem.",
           "icon": "balance"
         }
       ],
@@ -215,19 +215,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Comando de portfólio em tempo real",
-          "description": "Receita, margem e mão de obra em tempo real em todos os pontos de venda. O ritmo sinaliza o local que precisa de sua atenção antes do término do turno.",
+          "description": "Receita, margem e mão de obra em tempo real em todos os pontos de venda. O Pulse sinaliza o local que precisa de sua atenção antes do término do turno.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Sinal do mercado antes de atingir",
-          "description": "Concorrentes, clima, eventos, passos - sintetizados em um resumo matinal para que você aja antes que o impacto chegue ao seu P&L.",
+          "description": "Concorrentes, clima, eventos, fluxo de clientes - sintetizados em um resumo matinal para que você aja antes que o impacto chegue ao seu P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Respostas citadas pela fonte em segundos",
-          "description": "Pergunte por que a Marca C comprimiu a margem ou quais pontos de venda perdem para as promoções dos concorrentes. Obtenha uma resposta numerada com os dados extraídos.",
+          "description": "Pergunte por que a Marca C comprimiu a margem ou quais pontos de venda perdem para as promoções dos concorrentes. Obtenha uma resposta com citação da fonte, junto dos dados que a sustentam.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -243,7 +243,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Decida em horas, não em semanas",
-          "description": "Passe da margem próxima mensal para a margem ativa. A decisão chega enquanto ainda importa.",
+          "description": "Saia do fechamento mensal de margem para a margem ao vivo. A decisão chega enquanto ainda importa.",
           "icon": "speed"
         },
         {
@@ -263,12 +263,12 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Veja seu portfólio em uma única visualização.",
-      "ctaDescription": "30 minutos. Seus dados. O que o Sundae realmente mudaria para o cargo executivo.",
+      "ctaDescription": "30 minutos. Seus dados. O que o Sundae realmente mudaria para a diretoria.",
       "ctaButton": "Agende um Briefing Executivo"
     },
     "de": {
       "badge": "Für C-Suite und Eigentümer",
-      "titleLine1": "Führen Sie das Portfolio aus.",
+      "titleLine1": "Steuern Sie das Portfolio.",
       "titleLine2": "Nicht die Tabelle.",
       "description": "Tägliche KI-Briefings für alle Marken. Margenvarianz an dem Tag, an dem sie auftritt. Marktsignal, bevor es Ihre Zahlen erreicht.",
       "primaryCta": "Buchen Sie ein Executive Briefing",
@@ -283,8 +283,8 @@ export const generatedLocalCopy = {
           "icon": "benchmarking"
         },
         {
-          "title": "12 Anbietersysteme, Nullausrichtung",
-          "description": "POS, Arbeit, Inventar, Lieferung - jedes System spricht einen anderen Dialekt.",
+          "title": "12 Anbietersysteme, keine Abstimmung",
+          "description": "POS, Personal, Inventar, Lieferung - jedes System spricht einen anderen Dialekt.",
           "icon": "integration"
         },
         {
@@ -293,8 +293,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strategie geht durch die Brandbekämpfung verloren",
-          "description": "Das Portfolio braucht Steuerung. Der Betrieb muss gelöscht werden. Beide verlieren.",
+          "title": "Strategie geht im Krisenmanagement unter",
+          "description": "Das Portfolio braucht Steuerung. Der Betrieb braucht Stabilität. Konkurrieren beide um Aufmerksamkeit, verlieren beide.",
           "icon": "balance"
         }
       ],
@@ -302,8 +302,8 @@ export const generatedLocalCopy = {
       "howDescription": "Eine Quelle der Wahrheit für jede Marke, jeden Standort, jede Schicht.",
       "howSundaeHelps": [
         {
-          "title": "Portfolio-Befehl in Echtzeit",
-          "description": "Live-Umsatz, Marge und Arbeitsaufwand in jeder Filiale. Pacing markiert den Ort, der Ihre Aufmerksamkeit erfordert, bevor die Schicht endet.",
+          "title": "Portfolio-Steuerung in Echtzeit",
+          "description": "Live-Umsatz, Marge und Personalkosten in jeder Filiale. Pulse markiert den Standort, der Ihre Aufmerksamkeit erfordert, bevor die Schicht endet.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -315,7 +315,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Quellenzitierte Antworten in Sekundenschnelle",
-          "description": "Fragen Sie, warum die Marge von Marke C gesunken ist oder welche Filialen aufgrund der Werbeaktionen der Konkurrenz verlieren. Erhalten Sie eine nummerierte Antwort mit den Daten, aus denen sie stammt.",
+          "description": "Fragen Sie, warum die Marge von Marke C gesunken ist oder welche Filialen aufgrund der Werbeaktionen der Konkurrenz verlieren. Erhalten Sie eine quellenbelegte Antwort samt der Daten, aus denen sie stammt.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -326,7 +326,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         }
       ],
-      "outcomesTitle": "Was sich für das Vorstandsamt ändert",
+      "outcomesTitle": "Was sich für die Geschäftsleitung ändert",
       "outcomesDescription": "Schnellere Entscheidungen, schärferes Portfolio, vertretbare Prognosen.",
       "outcomes": [
         {
@@ -351,12 +351,12 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Sehen Sie Ihr Portfolio auf einen Blick.",
-      "ctaDescription": "30 Minuten. Ihre Daten. Was Sundae eigentlich für das Chefamt ändern würde.",
+      "ctaDescription": "30 Minuten. Ihre Daten. Was Sundae für die Geschäftsleitung tatsächlich ändern würde.",
       "ctaButton": "Buchen Sie ein Executive Briefing"
     },
     "fr": {
       "badge": "Pour les cadres supérieurs et les propriétaires",
-      "titleLine1": "Exécutez le portefeuille.",
+      "titleLine1": "Pilotez le portefeuille.",
       "titleLine2": "Pas la feuille de calcul.",
       "description": "Briefings quotidiens sur l'IA pour chaque marque. Variation de marge le jour où cela se produit. Signal du marché avant qu’il n’atteigne vos chiffres.",
       "primaryCta": "Réservez un briefing exécutif",
@@ -366,8 +366,8 @@ export const generatedLocalCopy = {
       "problemsDescription": "Trois jours de retard, trois réunions en profondeur et aucune source unique de vérité.",
       "challenges": [
         {
-          "title": "Décisions sur des numéros obsolètes",
-          "description": "Le récapitulatif de jeudi arrive vendredi. La marge est alors déjà réservée.",
+          "title": "Des décisions sur des chiffres périmés",
+          "description": "Le récapitulatif de jeudi arrive vendredi. La marge est alors déjà perdue.",
           "icon": "benchmarking"
         },
         {
@@ -376,13 +376,13 @@ export const generatedLocalCopy = {
           "icon": "integration"
         },
         {
-          "title": "Aucune vue au-delà du dernier trimestre",
-          "description": "Vous voyez ce qui s'est passé. Pas ce qui s'en vient. Je ne sais pas quoi faire à ce sujet.",
+          "title": "Aucune visibilité au-delà du dernier trimestre",
+          "description": "Vous voyez ce qui s'est passé. Pas ce qui arrive. Ni quoi faire à ce sujet.",
           "icon": "forecasting"
         },
         {
-          "title": "Stratégie perdue face à la lutte contre les incendies",
-          "description": "Le portefeuille a besoin d’être piloté. Les opérations doivent être arrêtées. Les deux perdent.",
+          "title": "La stratégie se perd à éteindre des incendies",
+          "description": "Le portefeuille a besoin d’une direction. Les opérations ont besoin de stabilité. Quand les deux se disputent l’attention, les deux y perdent.",
           "icon": "balance"
         }
       ],
@@ -390,26 +390,26 @@ export const generatedLocalCopy = {
       "howDescription": "Une source de vérité pour chaque marque, chaque site, chaque équipe.",
       "howSundaeHelps": [
         {
-          "title": "Commande de portefeuille en temps réel",
-          "description": "Revenus, marges et main-d'œuvre en direct dans chaque point de vente. La stimulation signale l'emplacement qui nécessite votre attention avant la fin du quart de travail.",
+          "title": "Pilotage du portefeuille en temps réel",
+          "description": "Revenus, marges et main-d'œuvre en direct dans chaque point de vente. Pulse signale l'établissement qui nécessite votre attention avant la fin du service.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Signal du marché avant qu’il n’atteigne",
-          "description": "Concurrents, météo, événements, fréquentation - synthétisés dans un briefing matinal afin que vous agissez avant que l'impact n'affecte votre P&L.",
+          "description": "Concurrents, météo, événements, fréquentation - synthétisés dans un briefing matinal afin que vous agissiez avant que l'impact n'atteigne votre P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Réponses citées par la source en quelques secondes",
-          "description": "Demandez pourquoi la marque C a comprimé la marge ou quels points de vente perdent face aux promotions des concurrents. Obtenez une réponse numérotée avec les données dont elle est tirée.",
+          "description": "Demandez pourquoi la marque C a comprimé la marge ou quels points de vente perdent face aux promotions des concurrents. Obtenez une réponse sourcée, accompagnée des données dont elle est tirée.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Des prévisions sur 14 à 90 jours que vous pouvez défendre",
-          "description": "La prospective projette les revenus, la main-d'œuvre et l'EBITDA. Exécutez des simulations sur un nouveau marché, une évolution des prix ou un programme de coûts - avant d’engager du capital. (Foresight)",
+          "description": "Foresight projette les revenus, la main-d'œuvre et l'EBITDA. Testez des scénarios sur un nouveau marché, une évolution des prix ou un programme de coûts - avant d’engager du capital.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -459,8 +459,8 @@ export const generatedLocalCopy = {
           "icon": "benchmarking"
         },
         {
-          "title": "12 leverancierssystemen, nuluitlijning",
-          "description": "POS, arbeid, inventaris, levering: elk systeem spreekt een ander dialect.",
+          "title": "12 leverancierssystemen, geen afstemming",
+          "description": "POS, personeel, voorraad, bezorging: elk systeem spreekt een ander dialect.",
           "icon": "integration"
         },
         {
@@ -469,8 +469,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strategie verloren door brandbestrijding",
-          "description": "De portefeuille heeft sturing nodig. Operaties moeten worden uitgevoerd. Beiden verliezen.",
+          "title": "Strategie sneuvelt door brandjes blussen",
+          "description": "De portefeuille heeft sturing nodig. De operatie heeft stabiliteit nodig. Strijden ze om aandacht, dan verliezen ze allebei.",
           "icon": "balance"
         }
       ],
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portfoliobeheer in realtime",
-          "description": "Live omzet, marge en arbeid in elk verkooppunt. Pacing markeert de locatie die uw aandacht nodig heeft voordat de dienst eindigt.",
+          "description": "Live omzet, marge en arbeid in elk verkooppunt. Pulse markeert de locatie die uw aandacht nodig heeft voordat de dienst eindigt.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -491,7 +491,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bronvermelde antwoorden in seconden",
-          "description": "Vraag waarom merk C de marge heeft gecomprimeerd of welke verkooppunten verliezen door promoties van concurrenten. Krijg een genummerd antwoord met de gegevens waaruit het is afgeleid.",
+          "description": "Vraag waarom merk C de marge heeft gecomprimeerd of welke verkooppunten verliezen door promoties van concurrenten. Krijg een antwoord met bronvermelding, inclusief de gegevens waaruit het is afgeleid.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -516,7 +516,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Voorspelt dat uw bestuur vertrouwt",
+          "title": "Voorspellingen waar uw bestuur op vertrouwt",
           "description": "Projecties voor 14-90 dagen gebaseerd op uw eigen bedrijfsgegevens plus marktsignaal.",
           "icon": "owners"
         },
@@ -527,14 +527,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Bekijk uw portefeuille in één oogopslag.",
-      "ctaDescription": "30 minuten. Jouw gegevens. Wat Sundae eigenlijk zou veranderen voor het directiekantoor.",
+      "ctaDescription": "30 minuten. Uw gegevens. Wat Sundae werkelijk zou veranderen voor het directiekantoor.",
       "ctaButton": "Boek een Executive Briefing"
     },
     "ur": {
       "badge": "C-Suite اور مالکان کے لیے",
       "titleLine1": "پورٹ فولیو چلائیں۔",
       "titleLine2": "اسپریڈشیٹ نہیں۔",
-      "description": "ہر برانڈ میں روزانہ AI بریفنگ۔ مارجن میں فرق جس دن یہ ہوتا ہے۔ آپ کے نمبروں کو مارنے سے پہلے مارکیٹ سگنل۔",
+      "description": "ہر برانڈ میں روزانہ AI بریفنگ۔ مارجن میں فرق اُسی دن جس دن یہ ہوتا ہے۔ آپ کے اعداد و شمار تک پہنچنے سے پہلے مارکیٹ کا سگنل۔",
       "primaryCta": "ایک ایگزیکٹو بریفنگ بک کرو",
       "secondaryCta": "ایگزیکٹو ڈیمو دیکھیں",
       "problemsEyebrow": "جو ایگزیکٹوز کو سست کرتا ہے۔",
@@ -547,8 +547,8 @@ export const generatedLocalCopy = {
           "icon": "benchmarking"
         },
         {
-          "title": "12 وینڈر سسٹمز، صفر سیدھ",
-          "description": "POS, labor, inventory, delivery - every system speaks a different dialect.",
+          "title": "12 وینڈر سسٹمز، صفر ہم آہنگی",
+          "description": "POS، عملہ، انوینٹری، ڈیلیوری - ہر سسٹم ایک الگ زبان بولتا ہے۔",
           "icon": "integration"
         },
         {
@@ -557,8 +557,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "حکمت عملی آگ بجھانے میں ہار گئی۔",
-          "description": "پورٹ فولیو کو اسٹیئرنگ کی ضرورت ہے۔ آپریشنز کی ضرورت ہے۔ دونوں ہار جاتے ہیں۔",
+          "title": "حکمت عملی آگ بجھانے میں ضائع ہو جاتی ہے۔",
+          "description": "پورٹ فولیو کو سمت کی ضرورت ہے۔ آپریشنز کو استحکام کی ضرورت ہے۔ جب دونوں توجہ کے لیے مقابلہ کرتے ہیں، تو دونوں ہار جاتے ہیں۔",
           "icon": "balance"
         }
       ],
@@ -567,25 +567,25 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "حقیقی وقت میں پورٹ فولیو کمانڈ",
-          "description": "لائیو ریونیو، مارجن، اور لیبر ہر آؤٹ لیٹ میں۔ Pacing اس جگہ کو جھنڈا لگاتا ہے جس پر شفٹ ختم ہونے سے پہلے آپ کی توجہ کی ضرورت ہوتی ہے۔",
+          "description": "ہر آؤٹ لیٹ میں لائیو ریونیو، مارجن، اور لیبر۔ Pulse اُس مقام کی نشاندہی کرتا ہے جسے شفٹ ختم ہونے سے پہلے آپ کی توجہ درکار ہوتی ہے۔",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
-          "title": "اس سے پہلے کہ مارکیٹ کا سگنل مارا جائے۔",
-          "description": "حریف، موسم، واقعات، فٹ فال - کو صبح کے بریف میں ترکیب کیا گیا تاکہ آپ اپنے P&L میں اثر انداز ہونے سے پہلے عمل کریں۔",
+          "title": "مارکیٹ کا سگنل پہنچنے سے پہلے",
+          "description": "حریف، موسم، تقریبات، اور گاہکوں کی آمد - سب کو صبح کی بریفنگ میں یکجا کیا جاتا ہے تاکہ اثر آپ کے P&L تک پہنچنے سے پہلے آپ عمل کر سکیں۔",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "سیکنڈوں میں ماخذ کے حوالے سے جوابات",
-          "description": "پوچھیں کہ برانڈ C کمپریسڈ مارجن کیوں یا کون سے آؤٹ لیٹس حریف پروموز سے ہارتے ہیں۔ اس ڈیٹا کے ساتھ ایک نمبر والا جواب حاصل کریں جس سے یہ اخذ کیا گیا ہے۔",
+          "description": "پوچھیں کہ برانڈ C کا مارجن کیوں دب گیا یا کون سے آؤٹ لیٹس حریفوں کے پروموز سے ہار رہے ہیں۔ اُس ڈیٹا کے ساتھ ماخذ کا حوالہ دیا گیا جواب حاصل کریں جس سے یہ اخذ کیا گیا ہے۔",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "14-90 دن کی پیشین گوئیاں جن کا آپ دفاع کر سکتے ہیں۔",
-          "description": "دور اندیشی پراجیکٹس ریونیو، لیبر، اور ای بی آئی ٹی ڈی اے۔ اس سے پہلے کہ آپ سرمایہ کا ارتکاب کریں گے - کسی نئی مارکیٹ، قیمت کی منتقلی، یا لاگت کے پروگرام پر کیا ہو تو چلائیں۔ (Foresight) (EBITDA)",
+          "description": "Foresight ریونیو، لیبر، اور EBITDA کا تخمینہ لگاتا ہے۔ سرمایہ لگانے سے پہلے کسی نئی مارکیٹ، قیمت کی تبدیلی، یا لاگت کے پروگرام پر \"کیا ہو اگر\" کے منظرنامے چلائیں۔",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -604,7 +604,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "آپ کے بورڈ ٹرسٹ کی پیش گوئی کرتا ہے۔",
+          "title": "ایسی پیش گوئیاں جن پر آپ کا بورڈ بھروسہ کرے",
           "description": "14-90 دن کے تخمینے آپ کے اپنے آپریٹنگ ڈیٹا اور مارکیٹ سگنل پر مبنی ہیں۔",
           "icon": "owners"
         },
@@ -645,8 +645,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "अग्निशमन की भेंट चढ़ गई रणनीति",
-          "description": "पोर्टफोलियो को मार्गदर्शन की जरूरत है. संचालन की आवश्यकता है। दोनों हारे.",
+          "title": "रणनीति आग बुझाने में खो जाती है",
+          "description": "पोर्टफोलियो को दिशा चाहिए। संचालन को स्थिरता चाहिए। जब दोनों ध्यान के लिए होड़ करते हैं, तो दोनों हार जाते हैं।",
           "icon": "balance"
         }
       ],
@@ -655,25 +655,25 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "वास्तविक समय में पोर्टफोलियो कमांड",
-          "description": "हर आउटलेट पर लाइव राजस्व, मार्जिन और श्रम। शिफ्ट समाप्त होने से पहले पेसिंग उस स्थान को चिह्नित करता है जिस पर आपका ध्यान चाहिए।",
+          "description": "हर आउटलेट पर लाइव राजस्व, मार्जिन और श्रम। शिफ्ट समाप्त होने से पहले Pulse उस स्थान को चिह्नित करता है जिस पर आपका ध्यान चाहिए।",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "हिट होने से पहले बाजार का संकेत",
-          "description": "प्रतिस्पर्धी, मौसम, घटनाएँ, लोगों की संख्या - सुबह की संक्षिप्त जानकारी में संश्लेषित किया गया है ताकि आप अपने पी एंड एल पर प्रभाव पड़ने से पहले कार्य कर सकें। (P&L)",
+          "description": "प्रतिस्पर्धी, मौसम, घटनाएँ, लोगों की संख्या - सुबह की संक्षिप्त जानकारी में संश्लेषित किया गया है ताकि आप अपने P&L पर प्रभाव पड़ने से पहले कार्य कर सकें।",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "स्रोत-उद्धृत उत्तर सेकंडों में",
-          "description": "पूछें कि ब्रांड सी का मार्जिन क्यों कम हुआ या कौन से आउटलेट प्रतिस्पर्धी प्रोमो से हार गए। जिस डेटा से यह लिया गया है, उसके साथ क्रमांकित उत्तर प्राप्त करें।",
+          "description": "पूछें कि ब्रांड सी का मार्जिन क्यों कम हुआ या कौन से आउटलेट प्रतिस्पर्धी प्रोमो से हार गए। जिस डेटा से यह लिया गया है, उसके साथ स्रोत-उद्धृत उत्तर प्राप्त करें।",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "14-90 दिन के पूर्वानुमान का आप बचाव कर सकते हैं",
-          "description": "दूरदर्शिता राजस्व, श्रम और EBITDA को प्रोजेक्ट करती है। पूंजी लगाने से पहले किसी नए बाज़ार, कीमत में उतार-चढ़ाव या लागत कार्यक्रम पर क्या करें, चलाएँ। (Foresight)",
+          "description": "Foresight राजस्व, श्रम और EBITDA का अनुमान लगाता है। पूंजी लगाने से पहले किसी नए बाज़ार, कीमत में बदलाव या लागत कार्यक्रम पर \"क्या-अगर\" परिदृश्य चलाएँ।",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -692,7 +692,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "आपके बोर्ड के विश्वासों का पूर्वानुमान",
+          "title": "ऐसे पूर्वानुमान जिन पर आपका बोर्ड भरोसा करे",
           "description": "14-90 दिन का अनुमान आपके अपने ऑपरेटिंग डेटा और बाज़ार सिग्नल पर आधारित है।",
           "icon": "owners"
         },
@@ -733,8 +733,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strategia persa a causa degli incendi",
-          "description": "Il portafoglio ha bisogno di essere guidato. Le operazioni devono essere interrotte. Entrambi perdono.",
+          "title": "La strategia si perde a spegnere incendi",
+          "description": "Il portafoglio ha bisogno di una direzione. Le operazioni hanno bisogno di stabilità. Quando si contendono l'attenzione, perdono entrambe.",
           "icon": "balance"
         }
       ],
@@ -743,19 +743,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Comando del portafoglio in tempo reale",
-          "description": "Entrate, margini e manodopera in tempo reale in ogni punto vendita. Il ritmo segnala la posizione che richiede la tua attenzione prima della fine del turno.",
+          "description": "Entrate, margini e manodopera in tempo reale in ogni punto vendita. Pulse segnala la sede che richiede la tua attenzione prima della fine del turno.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Segnale di mercato prima che colpisca",
-          "description": "Concorrenti, meteo, eventi, affluenza: sintetizzati in un brief mattutino in modo da poter agire prima che l'impatto si ripercuota sui tuoi profitti e perdite. (P&L)",
+          "description": "Concorrenti, meteo, eventi, affluenza: sintetizzati in un brief mattutino in modo da poter agire prima che l'impatto si ripercuota sul tuo P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Risposte citate dalla fonte in pochi secondi",
-          "description": "Chiedi perché il marchio C ha compresso il margine o quali punti vendita perdono a causa delle promozioni della concorrenza. Ottieni una risposta numerata con i dati da cui è tratta.",
+          "description": "Chiedi perché il marchio C ha compresso il margine o quali punti vendita perdono a causa delle promozioni della concorrenza. Ottieni una risposta con citazione della fonte, insieme ai dati da cui è tratta.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -796,9 +796,9 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "badge": "对于最高管理层和所有者",
-      "titleLine1": "运行投资组合。",
-      "titleLine2": "不是电子表格。",
-      "description": "每个品牌的每日人工智能简报。发生当天的保证金差异。在达到您的数字之前发出市场信号。",
+      "titleLine1": "掌管投资组合。",
+      "titleLine2": "而不是电子表格。",
+      "description": "覆盖每个品牌的每日 AI 简报。利润率波动当天即可掌握。市场信号在影响到您的数字之前就已送达。",
       "primaryCta": "预约执行简报",
       "secondaryCta": "查看执行演示",
       "problemsEyebrow": "是什么让高管们放慢脚步",
@@ -806,8 +806,8 @@ export const generatedLocalCopy = {
       "problemsDescription": "迟到了三天，召开了三次深入的会议，却没有任何单一的真相来源。",
       "challenges": [
         {
-          "title": "关于过时号码的决定",
-          "description": "周四回顾将于周五到来。那时保证金已经被预订了。",
+          "title": "基于过时数字的决策",
+          "description": "周四的复盘到周五才送达。到那时利润率已经流失了。",
           "icon": "benchmarking"
         },
         {
@@ -821,8 +821,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "策略输给了救火",
-          "description": "投资组合需要指导。运营需要推出。双方都输了。",
+          "title": "战略在救火中迷失",
+          "description": "投资组合需要方向，运营需要稳定。当两者争夺注意力时，双双落败。",
           "icon": "balance"
         }
       ],
@@ -830,20 +830,20 @@ export const generatedLocalCopy = {
       "howDescription": "每个品牌、每个地点、每个班次都有一个真实来源。",
       "howSundaeHelps": [
         {
-          "title": "实时投资组合命令",
-          "description": "每个网点的实时收入、利润和劳动力。节奏会标记轮班结束前需要您注意的位置。",
+          "title": "实时投资组合掌控",
+          "description": "每个网点的实时收入、利润率和人力成本。Pulse 会在轮班结束前标记出需要您关注的门店。",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "市场信号到来之前",
-          "description": "竞争对手、天气、活动、客流量--综合到早间简报中，以便您在影响影响损益表之前采取行动。 (P&L)",
+          "description": "竞争对手、天气、活动、客流量——综合到早间简报中，以便您在影响波及到您的 P&L 之前采取行动。",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "几秒钟内引用来源的答案",
-          "description": "询问为什么品牌 C 会压缩利润，或者哪些商店会输给竞争对手的促销活动。使用从中提取的数据获取带编号的答案。",
+          "description": "询问品牌 C 为何利润率受压，或哪些门店在竞争对手的促销中失利。获得一个标注来源的答案，并附上其依据的数据。",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -859,7 +859,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "在几小时而不是几周内做出决定",
-          "description": "从每月平仓保证金转向实时保证金。这个决定在它仍然重要的时候就已经做出了。",
+          "description": "从每月结算利润率转向实时利润率。决策在仍然重要的时刻就已做出。",
           "icon": "speed"
         },
         {
@@ -868,7 +868,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "预测您的董事会信任度",
+          "title": "让董事会信赖的预测",
           "description": "基于您自己的运营数据和市场信号的 14-90 天预测。",
           "icon": "owners"
         },
@@ -899,8 +899,8 @@ export const generatedLocalCopy = {
           "icon": "benchmarking"
         },
         {
-          "title": "Systemy 12 dostawców, wyrównanie zerowe",
-          "description": "POS, labor, inventory, delivery - every system speaks a different dialect.",
+          "title": "12 systemów dostawców, zero spójności",
+          "description": "POS, personel, magazyn, dostawa - każdy system mówi innym dialektem.",
           "icon": "integration"
         },
         {
@@ -909,8 +909,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strategia przegrana z gaszeniem pożarów",
-          "description": "Portfel wymaga sterowania. Operacje wymagają zaangażowania. Obaj przegrywają.",
+          "title": "Strategia ginie w gaszeniu pożarów",
+          "description": "Portfel potrzebuje kierunku. Operacje potrzebują stabilności. Gdy rywalizują o uwagę, tracą oba.",
           "icon": "balance"
         }
       ],
@@ -918,26 +918,26 @@ export const generatedLocalCopy = {
       "howDescription": "Jedno źródło prawdy dla każdej marki, każdej lokalizacji i każdej zmiany.",
       "howSundaeHelps": [
         {
-          "title": "Polecenie portfela w czasie rzeczywistym",
-          "description": "Przychody, marża i siła robocza na żywo w każdym punkcie sprzedaży. Tempo oznacza lokalizację, która wymaga Twojej uwagi przed zakończeniem zmiany.",
+          "title": "Sterowanie portfelem w czasie rzeczywistym",
+          "description": "Przychody, marża i koszty pracy na żywo w każdym punkcie sprzedaży. Pulse wskazuje lokalizację, która wymaga Twojej uwagi przed zakończeniem zmiany.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Sygnał rynkowy, zanim uderzy",
-          "description": "Konkurencja, pogoda, wydarzenia, liczba odwiedzających - zebrane w poranny brief, dzięki czemu możesz działać, zanim wpływ odnotuje Twoje zyski i straty. (P&L)",
+          "description": "Konkurencja, pogoda, wydarzenia, liczba odwiedzających - zebrane w poranny brief, dzięki czemu możesz działać, zanim wpływ dotrze do Twojego P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Odpowiedzi cytowane w źródle w ciągu kilku sekund",
-          "description": "Zapytaj, dlaczego Marka C obniżyła marżę lub które sklepy przegrywają z promocjami konkurencji. Uzyskaj numerowaną odpowiedź wraz z danymi, z których została pobrana.",
+          "description": "Zapytaj, dlaczego marża Marki C spadła lub które punkty sprzedaży przegrywają z promocjami konkurencji. Uzyskaj odpowiedź z cytowanym źródłem wraz z danymi, z których została wyciągnięta.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Prognozy na 14-90 dni, których możesz obronić",
-          "description": "Projekty Foresight dotyczą przychodów, pracy i EBITDA. Zanim zainwestujesz kapitał, przeprowadź analizę typu „co by było, gdyby” na nowym rynku, w przypadku zmiany cen lub programu kosztowego.",
+          "description": "Foresight prognozuje przychody, koszty pracy i EBITDA. Zanim zainwestujesz kapitał, przeprowadź analizę „co, jeśli” na nowym rynku, przy zmianie cen lub programie kosztowym.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Podejmij decyzję w ciągu godzin, a nie tygodni",
-          "description": "Przejdź z miesięcznej marży blisko do aktualnej marży. Decyzja zostaje podjęta, póki jest nadal istotna.",
+          "description": "Przejdź od miesięcznego zamknięcia marży do marży na żywo. Decyzja zapada, póki jeszcze ma znaczenie.",
           "icon": "speed"
         },
         {
@@ -956,7 +956,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Prognozuje zaufanie zarządu",
+          "title": "Prognozy, którym ufa Twój zarząd",
           "description": "Prognozy na okres 14-90 dni oparte na własnych danych operacyjnych i sygnałach rynkowych.",
           "icon": "owners"
         },
@@ -972,8 +972,8 @@ export const generatedLocalCopy = {
     },
     "tr": {
       "badge": "Üst Düzey Yöneticiler ve Sahipler İçin",
-      "titleLine1": "Portföyü çalıştırın.",
-      "titleLine2": "Elektronik tablo değil.",
+      "titleLine1": "Portföyü yönetin.",
+      "titleLine2": "Elektronik tabloyu değil.",
       "description": "Her marka için günlük AI brifingleri. Marj sapması gerçekleştiği gün. Rakamlarınıza ulaşmadan önce piyasa sinyali.",
       "primaryCta": "Yönetici Brifingi Rezervasyonu Yapın",
       "secondaryCta": "Yönetici Demosunu Görün",
@@ -997,8 +997,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strateji yangınla mücadelede kaybedildi",
-          "description": "Portföyün yönlendirilmeye ihtiyacı var. Operasyonların başlatılması gerekiyor. Her ikisi de kaybeder.",
+          "title": "Strateji yangın söndürmede kayboluyor",
+          "description": "Portföyün yön verilmesine ihtiyacı var. Operasyonların istikrara ihtiyacı var. İkisi dikkat için yarıştığında, ikisi de kaybeder.",
           "icon": "balance"
         }
       ],
@@ -1007,25 +1007,25 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Gerçek zamanlı portföy komutu",
-          "description": "Her satış noktasında canlı gelir, marj ve iş gücü. İlerleme hızı, vardiya sona ermeden önce ilgilenmeniz gereken konumu işaretler.",
+          "description": "Her satış noktasında canlı gelir, marj ve iş gücü. Pulse, vardiya sona ermeden önce ilgilenmeniz gereken konumu işaretler.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Piyasa sinyali gelmeden önce",
-          "description": "Rakipler, hava durumu, etkinlikler, yaya sesleri; bir sabah brifinginde sentezlenir, böylece etki P&L'nize ulaşmadan önce harekete geçersiniz.",
+          "description": "Rakipler, hava durumu, etkinlikler, müşteri trafiği; bir sabah brifinginde sentezlenir, böylece etki P&L'nize ulaşmadan önce harekete geçersiniz.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Kaynaktan alıntılanan yanıtlar saniyeler içinde",
-          "description": "C Markasının marjını neden sıkıştırdığını veya hangi satış noktalarının rakip promosyonlara karşı kaybettiğini sorun. Alındığı verilerle numaralı bir yanıt alın.",
+          "description": "C Markasının marjının neden daraldığını veya hangi satış noktalarının rakip promosyonlara karşı kaybettiğini sorun. Dayandığı verilerle birlikte kaynak gösterilen bir yanıt alın.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Savunabileceğiniz 14-90 günlük tahminler",
-          "description": "Foresight, geliri, işgücünü ve FAVÖK'ü yansıtır. Sermaye taahhüdünde bulunmadan önce yeni bir pazarda, bir fiyat hareketinde veya bir maliyet programında ne olursa olsun çalıştırın. (EBITDA)",
+          "description": "Foresight; geliri, işgücünü ve EBITDA'yı öngörür. Sermaye taahhüdünde bulunmadan önce yeni bir pazar, bir fiyat hareketi veya bir maliyet programı için \"ne olursa\" senaryolarını çalıştırın.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1044,7 +1044,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Yönetim kurulunuzun güvenini tahmin eder",
+          "title": "Yönetim kurulunuzun güvendiği tahminler",
           "description": "Kendi işletme verilerinize ve piyasa sinyaline dayanan 14-90 günlük tahminler.",
           "icon": "owners"
         },
@@ -1060,9 +1060,9 @@ export const generatedLocalCopy = {
     },
     "ja": {
       "badge": "経営幹部とオーナー向け",
-      "titleLine1": "ポートフォリオを実行します。",
-      "titleLine2": "スプレッドシートではありません。",
-      "description": "すべてのブランドにわたる毎日の AI ブリーフィング。それが起こった日の証拠金の差異。数字に到達する前に市場シグナルを受け取ります。",
+      "titleLine1": "ポートフォリオを動かす。",
+      "titleLine2": "スプレッドシートではなく。",
+      "description": "すべてのブランドにわたる毎日の AI ブリーフィング。利益率の変動を、それが起きた当日に。市場シグナルを、数字に届く前に。",
       "primaryCta": "エグゼクティブブリーフィングを予約する",
       "secondaryCta": "エグゼクティブデモを見る",
       "problemsEyebrow": "何が経営幹部の仕事を遅らせるのか",
@@ -1070,8 +1070,8 @@ export const generatedLocalCopy = {
       "problemsDescription": "3 日遅れ、3 回の会議が行われましたが、真実の情報源は 1 つもありませんでした。",
       "challenges": [
         {
-          "title": "古い数字に関する決定",
-          "description": "木曜日の総集編は金曜日に配信されます。その時点でマージンはすでに予約されています。",
+          "title": "古い数字に基づく意思決定",
+          "description": "木曜日のまとめは金曜日に届きます。その時点で利益率はすでに失われています。",
           "icon": "benchmarking"
         },
         {
@@ -1085,8 +1085,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "消火活動で戦略が失われた",
-          "description": "ポートフォリオには舵取りが必要です。作戦は鎮火する必要がある。どちらも負けます。",
+          "title": "戦略が火消しに追われて見失われる",
+          "description": "ポートフォリオには舵取りが必要です。オペレーションには安定が必要です。両者が注目を奪い合うと、どちらも失われます。",
           "icon": "balance"
         }
       ],
@@ -1094,20 +1094,20 @@ export const generatedLocalCopy = {
       "howDescription": "すべてのブランド、すべての場所、すべてのシフトにわたる 1 つの真実の情報源。",
       "howSundaeHelps": [
         {
-          "title": "リアルタイムのポートフォリオ コマンド",
-          "description": "すべての販売店における実際の収益、マージン、労働力。ペーシングは、シフトが終了する前に注意が必要な場所にフラグを立てます。",
+          "title": "リアルタイムのポートフォリオ管理",
+          "description": "すべての販売店におけるリアルタイムの収益、利益率、人件費。Pulse は、シフトが終了する前に注意が必要な拠点にフラグを立てます。",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "ヒットする前の市場シグナル",
-          "description": "競合他社、天気、イベント、客足などを朝のブリーフにまとめて、損益に影響が出る前に行動できるようにします。 (P&L)",
+          "description": "競合他社、天気、イベント、客足などを朝のブリーフにまとめ、影響が P&L に及ぶ前に行動できるようにします。",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "出典を引用した回答を数秒で表示",
-          "description": "ブランド C がなぜ利益率を圧縮したのか、どの販売店が競合他社のプロモーションに負けたのかを尋ねます。抽出されたデータを使用して、番号付きの回答を取得します。",
+          "description": "ブランド C がなぜ利益率を圧縮したのか、どの販売店が競合他社のプロモーションに負けたのかを尋ねます。根拠となるデータを添えた、出典付きの回答が得られます。",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -1123,7 +1123,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "数週間ではなく数時間で決める",
-          "description": "月次終値マージンからライブマージンに移行します。決定はまだ重要なままである。",
+          "description": "月次決算の利益率から、リアルタイムの利益率へ。意思決定は、まだ間に合ううちに下せます。",
           "icon": "speed"
         },
         {
@@ -1132,7 +1132,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "取締役会の信頼を予測します",
+          "title": "取締役会が信頼できる予測",
           "description": "独自の運用データと市場シグナルに基づいた 14 ～ 90 日間の予測。",
           "icon": "owners"
         },
@@ -1153,7 +1153,7 @@ export const generatedLocalCopy = {
       "description": "Briefing-uri zilnice de AI pentru fiecare brand. Variația marjei în ziua în care se întâmplă. Semnal de piață înainte de a vă atinge cifrele.",
       "primaryCta": "Rezervați un briefing executiv",
       "secondaryCta": "Vedeți Executive Demo",
-      "problemsEyebrow": "CE ÎNTINEȘTE EXECUTII",
+      "problemsEyebrow": "CE ÎNCETINEȘTE DIRECTORII",
       "problemsTitle": "Ceea ce îi încetinește pe directori astăzi",
       "problemsDescription": "Trei zile întârziere, trei întâlniri adânci și nicio sursă unică de adevăr.",
       "challenges": [
@@ -1169,39 +1169,39 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Nicio vedere în ultimul trimestru",
-          "description": "Vezi ce sa întâmplat. Nu ce urmează. Nu ce să faci în privința asta.",
+          "description": "Vezi ce s-a întâmplat. Nu ce urmează. Nici ce să faci în privința asta.",
           "icon": "forecasting"
         },
         {
-          "title": "Strategia pierdută din cauza stingerii incendiilor",
-          "description": "Portofoliul are nevoie de conducere. Operațiunile necesită stingere. Ambii pierd.",
+          "title": "Strategia se pierde stingând incendii",
+          "description": "Portofoliul are nevoie de direcție. Operațiunile au nevoie de stabilitate. Când se luptă pentru atenție, pierd amândouă.",
           "icon": "balance"
         }
       ],
       "howTitle": "Cum lucrează Sundae pentru biroul executiv",
-      "howDescription": "O sursă de adevăr pentru fiecare marcă, fiecare locație, fiecare schimbare.",
+      "howDescription": "O sursă de adevăr pentru fiecare marcă, fiecare locație, fiecare tură.",
       "howSundaeHelps": [
         {
           "title": "Comandă portofoliu în timp real",
-          "description": "Venituri reale, marjă și forță de muncă în fiecare punct de vânzare. Stimularea semnalează locația care necesită atenția dvs. înainte de sfârșitul turei.",
+          "description": "Venituri, marjă și forță de muncă în timp real în fiecare punct de vânzare. Pulse semnalează locația care necesită atenția dvs. înainte de sfârșitul turei.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Semnal de piață înainte de a lovi",
-          "description": "Concurenți, vreme, evenimente, picior - sintetizat într-un brief de dimineață, astfel încât să acționați înainte ca impactul să aterizeze în P&L.",
+          "description": "Concurenți, vreme, evenimente, trafic de clienți - sintetizate într-un brief de dimineață, astfel încât să acționați înainte ca impactul să ajungă în P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Răspunsuri citate de sursă în câteva secunde",
-          "description": "Întrebați de ce marca C a comprimat marja sau ce magazine pierd în fața promoțiilor concurenților. Obțineți un răspuns numerotat cu datele din care este extras.",
+          "description": "Întrebați de ce marca C a comprimat marja sau ce puncte de vânzare pierd în fața promoțiilor concurenților. Obțineți un răspuns cu sursă citată, însoțit de datele din care este extras.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Prognoze pe 14-90 de zile pe care le puteți apăra",
-          "description": "Foresight proiectează venituri, forță de muncă și EBITDA. Rulați ce se întâmplă pe o piață nouă, o schimbare de preț sau un program de costuri - înainte de a angaja capital.",
+          "description": "Foresight proiectează venituri, forță de muncă și EBITDA. Rulați scenarii „ce-ar fi dacă” pentru o piață nouă, o schimbare de preț sau un program de costuri - înainte de a angaja capital.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1220,7 +1220,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Prognozele încrederea consiliului dumneavoastră",
+          "title": "Prognoze în care consiliul dumneavoastră are încredere",
           "description": "Proiecții de 14-90 de zile bazate pe propriile date de operare plus semnalul pieței.",
           "icon": "owners"
         },
@@ -1261,17 +1261,17 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "소방으로 인해 전략이 상실됨",
-          "description": "포트폴리오에는 조정이 필요합니다. 운영을 중단해야 합니다. 둘 다 잃습니다.",
+          "title": "전략이 급한 불 끄기에 묻혀 사라집니다",
+          "description": "포트폴리오에는 방향이 필요합니다. 운영에는 안정이 필요합니다. 둘이 관심을 두고 경쟁하면 둘 다 잃습니다.",
           "icon": "balance"
         }
       ],
-      "howTitle": "How Sundae works for the executive office",
+      "howTitle": "Sundae가 경영진을 위해 작동하는 방식",
       "howDescription": "모든 브랜드, 모든 위치, 모든 근무조에 걸쳐 하나의 정보 소스를 제공합니다.",
       "howSundaeHelps": [
         {
           "title": "실시간 포트폴리오 명령",
-          "description": "모든 매장에서 실시간 수익, 마진 및 인력을 제공합니다. 페이싱은 근무가 끝나기 전에 주의가 필요한 위치를 표시합니다.",
+          "description": "모든 매장의 실시간 수익, 마진 및 인건비. Pulse는 근무가 끝나기 전에 주의가 필요한 위치를 표시합니다.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1283,7 +1283,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "몇 초 만에 출처 인용 답변",
-          "description": "브랜드 C가 마진을 압축한 이유 또는 경쟁업체 프로모션에 패한 매장이 무엇인지 물어보세요. 가져온 데이터를 사용하여 번호가 매겨진 답변을 얻으세요.",
+          "description": "브랜드 C의 마진이 왜 줄었는지, 어떤 매장이 경쟁업체 프로모션에 밀리는지 물어보세요. 근거가 된 데이터와 함께 출처가 표시된 답변을 받으세요.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -1308,7 +1308,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "이사회 신탁 예측",
+          "title": "이사회가 신뢰하는 예측",
           "description": "자체 운영 데이터와 시장 신호를 기반으로 한 14~90일 예측입니다.",
           "icon": "owners"
         },
@@ -1319,7 +1319,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "포트폴리오를 한 화면에서 확인하세요.",
-      "ctaDescription": "30 minutes. Your data. What Sundae would actually change for the executive office.",
+      "ctaDescription": "30분. 귀사의 데이터. Sundae가 경영진을 위해 실제로 바꿀 수 있는 것.",
       "ctaButton": "경영진 브리핑 예약"
     },
     "sv": {
@@ -1329,7 +1329,7 @@ export const generatedLocalCopy = {
       "description": "Dagliga AI-genomgångar över alla märken. Marginalavvikelse dagen det händer. Marknadssignal innan den når dina siffror.",
       "primaryCta": "Boka en Executive Briefing",
       "secondaryCta": "Se Executive Demo",
-      "problemsEyebrow": "VAD STRÄMMER BEFATTNINGSHAVARE",
+      "problemsEyebrow": "VAD SOM BROMSAR CHEFER",
       "problemsTitle": "Det som bromsar cheferna i dag",
       "problemsDescription": "Tre dagar för sent, tre möten djupa och ingen enda källa till sanning.",
       "challenges": [
@@ -1349,8 +1349,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strategi förlorad till brandbekämpning",
-          "description": "Portföljen behöver styras. Verksamheten behöver läggas ut. Båda förlorar.",
+          "title": "Strategin går förlorad i brandsläckning",
+          "description": "Portföljen behöver riktning. Verksamheten behöver stabilitet. När de tävlar om uppmärksamheten förlorar båda.",
           "icon": "balance"
         }
       ],
@@ -1359,19 +1359,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portföljkommando i realtid",
-          "description": "Live intäkter, marginal och arbetskraft i alla butiker. Pacing flaggar platsen som behöver din uppmärksamhet innan skiftet slutar.",
+          "description": "Live intäkter, marginal och arbetskraft i alla butiker. Pulse flaggar platsen som behöver din uppmärksamhet innan skiftet slutar.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Marknadssignal innan den slår",
-          "description": "Konkurrenter, väder, evenemang, fotfall - syntetiserat till en morgonkalas så att du agerar innan nedslaget landar i din P&L.",
+          "description": "Konkurrenter, väder, evenemang, kundflöde - sammanfattat i en morgonbriefing så att du agerar innan effekten landar i din P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Källangivna svar på några sekunder",
-          "description": "Fråga varför Brand C komprimerad marginal eller vilka butiker som förlorar mot konkurrenters kampanjer. Få ett numrerat svar med uppgifterna det är hämtat från.",
+          "description": "Fråga varför Brand C pressade marginalen eller vilka butiker som förlorar mot konkurrenters kampanjer. Få ett källhänvisat svar med uppgifterna det är hämtat från.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -1387,7 +1387,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Bestäm i timmar, inte veckor",
-          "description": "Flytta från månatlig nära till livemarginal. Beslutet landar medan det fortfarande gäller.",
+          "description": "Gå från månadsbokslutets marginal till marginal i realtid. Beslutet landar medan det fortfarande gäller.",
           "icon": "speed"
         },
         {
@@ -1414,7 +1414,7 @@ export const generatedLocalCopy = {
       "badge": "Dành cho C-Suite & Chủ sở hữu",
       "titleLine1": "Chạy danh mục đầu tư.",
       "titleLine2": "Không phải bảng tính.",
-      "description": "Cuộc họp giao ban AI hàng ngày trên mọi thương hiệu. Phương sai ký quỹ vào ngày nó xảy ra. Tín hiệu thị trường trước khi nó chạm đến con số của bạn.",
+      "description": "Cuộc họp giao ban AI hàng ngày trên mọi thương hiệu. Biến động biên lợi nhuận ngay trong ngày nó xảy ra. Tín hiệu thị trường trước khi nó chạm đến con số của bạn.",
       "primaryCta": "Đặt một cuộc họp điều hành",
       "secondaryCta": "Xem bản demo điều hành",
       "problemsEyebrow": "ĐIỀU GÌ LÀM CHẬM CÁC ĐIỀU HÀNH",
@@ -1422,8 +1422,8 @@ export const generatedLocalCopy = {
       "problemsDescription": "Trễ ba ngày, ba cuộc họp sâu sắc và không có một nguồn sự thật nào.",
       "challenges": [
         {
-          "title": "Quyết định về số cũ",
-          "description": "Bản tóm tắt thứ Năm đến thứ Sáu. Đến lúc đó tiền ký quỹ đã được đặt trước.",
+          "title": "Quyết định dựa trên số liệu cũ",
+          "description": "Bản tóm tắt thứ Năm đến vào thứ Sáu. Đến lúc đó biên lợi nhuận đã mất rồi.",
           "icon": "benchmarking"
         },
         {
@@ -1437,8 +1437,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Chiến lược thất bại trong việc chữa cháy",
-          "description": "Danh mục đầu tư cần được chỉ đạo. Hoạt động cần đưa ra. Cả hai đều thua.",
+          "title": "Chiến lược lạc lối trong việc chữa cháy",
+          "description": "Danh mục đầu tư cần định hướng. Vận hành cần sự ổn định. Khi cả hai tranh giành sự chú ý, cả hai đều thua.",
           "icon": "balance"
         }
       ],
@@ -1446,8 +1446,8 @@ export const generatedLocalCopy = {
       "howDescription": "Một nguồn thông tin đáng tin cậy cho mọi thương hiệu, mọi địa điểm, mọi ca làm việc.",
       "howSundaeHelps": [
         {
-          "title": "Lệnh danh mục đầu tư trong thời gian thực",
-          "description": "Doanh thu trực tiếp, lợi nhuận và lao động trên mọi cửa hàng. Đánh dấu nhịp độ vị trí cần bạn chú ý trước khi ca làm việc kết thúc.",
+          "title": "Điều hành danh mục đầu tư theo thời gian thực",
+          "description": "Doanh thu, biên lợi nhuận và lao động trực tiếp trên mọi cửa hàng. Pulse đánh dấu địa điểm cần bạn chú ý trước khi ca làm việc kết thúc.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1459,13 +1459,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Câu trả lời được trích dẫn nguồn trong vài giây",
-          "description": "Hỏi tại sao lợi nhuận của Thương hiệu C bị nén hoặc cửa hàng nào thua các chương trình khuyến mãi của đối thủ cạnh tranh. Nhận câu trả lời được đánh số với dữ liệu được rút ra từ đó.",
+          "description": "Hỏi tại sao biên lợi nhuận của Thương hiệu C bị nén hoặc cửa hàng nào thua các chương trình khuyến mãi của đối thủ cạnh tranh. Nhận câu trả lời có trích dẫn nguồn, kèm theo dữ liệu mà nó được rút ra.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Dự báo 14-90 ngày bạn có thể bảo vệ",
-          "description": "Dự báo tầm nhìn xa về doanh thu, lao động và EBITDA. Thực hiện giả định trên một thị trường mới, biến động giá hoặc chương trình chi phí - trước khi bạn cam kết vốn. (Foresight)",
+          "description": "Foresight dự báo doanh thu, lao động và EBITDA. Chạy các kịch bản \"điều gì xảy ra nếu\" trên một thị trường mới, một biến động giá hoặc một chương trình chi phí - trước khi bạn cam kết vốn.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1475,7 +1475,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Quyết định trong vài giờ, không phải vài tuần",
-          "description": "Chuyển từ mức đóng hàng tháng sang mức ký quỹ trực tiếp. Quyết định được đưa ra khi nó vẫn còn quan trọng.",
+          "description": "Chuyển từ biên lợi nhuận chốt sổ hàng tháng sang biên lợi nhuận trực tiếp. Quyết định được đưa ra khi nó vẫn còn quan trọng.",
           "icon": "speed"
         },
         {
@@ -1484,7 +1484,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Dự báo sự tin tưởng của hội đồng quản trị của bạn",
+          "title": "Dự báo mà hội đồng quản trị của bạn tin tưởng",
           "description": "Dự báo 14-90 ngày dựa trên dữ liệu hoạt động của chính bạn cộng với tín hiệu thị trường.",
           "icon": "owners"
         },
@@ -1502,10 +1502,10 @@ export const generatedLocalCopy = {
       "badge": "সি-স্যুট এবং মালিকদের জন্য",
       "titleLine1": "পোর্টফোলিও চালান।",
       "titleLine2": "স্প্রেডশীট নয়।",
-      "description": "প্রতিটি ব্র্যান্ড জুড়ে দৈনিক এআই ব্রিফিং। মার্জিন ভ্যারিয়েন্স যেদিন এটা ঘটে। এটি আপনার সংখ্যা হিট আগে বাজার সংকেত.",
+      "description": "প্রতিটি ব্র্যান্ড জুড়ে দৈনিক AI ব্রিফিং। মার্জিনের তারতম্য যেদিন ঘটে সেদিনই। আপনার সংখ্যায় পৌঁছানোর আগেই বাজারের সংকেত।",
       "primaryCta": "একটি এক্সিকিউটিভ ব্রিফিং বুক করুন",
       "secondaryCta": "এক্সিকিউটিভ ডেমো দেখুন",
-      "problemsEyebrow": "কি কার্যনির্বাহী নিচে ধীর",
+      "problemsEyebrow": "কী নির্বাহীদের ধীর করে দেয়",
       "problemsTitle": "যা আজ নির্বাহীদের ধীর করে দেয়",
       "problemsDescription": "তিন দিন দেরি, তিনটি সভা গভীর, এবং সত্যের কোন একক উৎস।",
       "challenges": [
@@ -1525,35 +1525,35 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "অগ্নিনির্বাপণের কাছে কৌশল হেরে গেছে",
-          "description": "পোর্টফোলিও স্টিয়ারিং প্রয়োজন. অপারেশন আউট নির্বাণ প্রয়োজন. দুজনেই হেরে যায়।",
+          "title": "কৌশল আগুন নেভাতে গিয়ে হারিয়ে যায়",
+          "description": "পোর্টফোলিওর দিকনির্দেশনা প্রয়োজন। অপারেশনের স্থিতিশীলতা প্রয়োজন। যখন দুটোই মনোযোগের জন্য প্রতিযোগিতা করে, তখন দুটোই হেরে যায়।",
           "icon": "balance"
         }
       ],
       "howTitle": "কিভাবে Sundae নির্বাহী অফিসের জন্য কাজ করে",
-      "howDescription": "প্রতিটি ব্র্যান্ড, প্রতিটি অবস্থান, প্রতিটি স্থানান্তর জুড়ে সত্যের একটি উত্স৷",
+      "howDescription": "প্রতিটি ব্র্যান্ড, প্রতিটি অবস্থান, প্রতিটি শিফট জুড়ে সত্যের একটি উৎস।",
       "howSundaeHelps": [
         {
           "title": "রিয়েল টাইমে পোর্টফোলিও কমান্ড",
-          "description": "প্রতিটি আউটলেট জুড়ে লাইভ আয়, মার্জিন এবং শ্রম। স্থানান্তর শেষ হওয়ার আগে যে অবস্থানে আপনার মনোযোগ প্রয়োজন তা পেসিং পতাকা দেয়।",
+          "description": "প্রতিটি আউটলেট জুড়ে লাইভ আয়, মার্জিন এবং শ্রম। শিফট শেষ হওয়ার আগে যে অবস্থানে আপনার মনোযোগ প্রয়োজন তা Pulse চিহ্নিত করে।",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
-          "title": "এটা হিট আগে বাজার সংকেত",
-          "description": "প্রতিযোগী, আবহাওয়া, ইভেন্ট, ফুটফল - একটি সকালের সংক্ষিপ্ত আকারে সংশ্লেষিত হয় যাতে আপনি আপনার P&L-এ প্রভাব পড়ার আগে কাজ করেন।",
+          "title": "প্রভাব পড়ার আগেই বাজারের সংকেত",
+          "description": "প্রতিযোগী, আবহাওয়া, ইভেন্ট, গ্রাহক-আগমন - একটি সকালের ব্রিফে সংশ্লেষিত হয় যাতে প্রভাব আপনার P&L-এ পৌঁছানোর আগেই আপনি কাজ করতে পারেন।",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "সেকেন্ডের মধ্যে উৎস-উদ্ধৃত উত্তর",
-          "description": "কেন ব্র্যান্ড সি সংকুচিত মার্জিন বা কোন আউটলেটগুলি প্রতিযোগী প্রচারের কাছে হেরেছে তা জিজ্ঞাসা করুন। এটি যে ডেটা থেকে আঁকা হয়েছে তার সাথে একটি সংখ্যাযুক্ত উত্তর পান।",
+          "description": "কেন ব্র্যান্ড সি-এর মার্জিন কমেছে বা কোন আউটলেটগুলি প্রতিযোগীদের প্রচারের কাছে হারছে তা জিজ্ঞাসা করুন। এটি যে ডেটা থেকে নেওয়া, তার সাথে উৎস-উদ্ধৃত একটি উত্তর পান।",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "14-90 দিনের পূর্বাভাস আপনি রক্ষা করতে পারেন",
-          "description": "দূরদর্শিতা প্রকল্প রাজস্ব, শ্রম, এবং EBITDA. আপনি মূলধন কমিট করার আগে - একটি নতুন বাজারে, একটি মূল্য সরানো, বা একটি খরচ প্রোগ্রামে কি-যদি চালান। (Foresight)",
+          "description": "Foresight রাজস্ব, শ্রম এবং EBITDA প্রক্ষেপণ করে। মূলধন বিনিয়োগ করার আগে একটি নতুন বাজার, একটি মূল্য পরিবর্তন, বা একটি খরচ প্রোগ্রামে \"কী হলে\" পরিস্থিতি চালান।",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1572,8 +1572,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "আপনার বোর্ড ট্রাস্ট পূর্বাভাস",
-          "description": "14-90 দিনের অনুমান আপনার নিজস্ব অপারেটিং ডেটা প্লাস মার্কেট সিগন্যালে ভিত্তি করে।",
+          "title": "পূর্বাভাস যা আপনার বোর্ড বিশ্বাস করে",
+          "description": "14-90 দিনের অনুমান আপনার নিজস্ব অপারেটিং ডেটা এবং মার্কেট সিগন্যালের উপর ভিত্তি করে।",
           "icon": "owners"
         },
         {
@@ -1613,8 +1613,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "กลยุทธ์พ่ายแพ้ในการดับเพลิง",
-          "description": "พอร์ตโฟลิโอจำเป็นต้องมีการบังคับเลี้ยว การดำเนินการจำเป็นต้องนำออกไป แพ้ทั้งคู่",
+          "title": "กลยุทธ์สูญหายไปกับการดับไฟ",
+          "description": "พอร์ตโฟลิโอต้องการทิศทาง การดำเนินงานต้องการความมั่นคง เมื่อทั้งสองแย่งความสนใจกัน ก็แพ้ทั้งคู่",
           "icon": "balance"
         }
       ],
@@ -1629,7 +1629,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "สัญญาณตลาดก่อนโดน",
-          "description": "คู่แข่ง สภาพอากาศ กิจกรรม การก้าวเท้า - สังเคราะห์เป็นสรุปช่วงเช้าเพื่อให้คุณดำเนินการก่อนที่ผลกระทบจะเข้าสู่ P&L ของคุณ",
+          "description": "คู่แข่ง สภาพอากาศ กิจกรรม จำนวนลูกค้าที่เข้าร้าน - สังเคราะห์เป็นสรุปช่วงเช้าเพื่อให้คุณดำเนินการก่อนที่ผลกระทบจะเข้าสู่ P&L ของคุณ",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1641,7 +1641,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การคาดการณ์ 14-90 วันที่คุณสามารถปกป้องได้",
-          "description": "การมองการณ์ไกลคาดการณ์รายได้ แรงงาน และ EBITDA ดำเนินการแบบ what-if ในตลาดใหม่ การเคลื่อนไหวของราคา หรือโปรแกรมต้นทุน ก่อนที่คุณจะตัดสินใจลงทุน (Foresight)",
+          "description": "Foresight คาดการณ์รายได้ แรงงาน และ EBITDA ดำเนินการแบบ what-if ในตลาดใหม่ การเปลี่ยนแปลงราคา หรือโปรแกรมต้นทุน ก่อนที่คุณจะตัดสินใจลงทุน",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1651,7 +1651,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "ตัดสินใจเป็นชั่วโมง ไม่ใช่เป็นสัปดาห์",
-          "description": "ย้ายจากราคาใกล้เคียงรายเดือนเป็นมาร์จิ้นสด การตัดสินใจเกิดขึ้นในขณะที่ยังมีความสำคัญอยู่",
+          "description": "เปลี่ยนจากมาร์จิ้นปิดงบรายเดือนเป็นมาร์จิ้นแบบเรียลไทม์ การตัดสินใจเกิดขึ้นในขณะที่ยังมีความสำคัญอยู่",
           "icon": "speed"
         },
         {
@@ -1686,8 +1686,8 @@ export const generatedLocalCopy = {
       "problemsDescription": "Terlambat tiga hari, tiga pertemuan mendalam, dan tidak ada satu pun sumber kebenaran.",
       "challenges": [
         {
-          "title": "Keputusan tentang nomor basi",
-          "description": "Rekap hari Kamis tiba pada hari Jumat. Pada saat itu margin sudah dipesan.",
+          "title": "Keputusan berdasarkan angka basi",
+          "description": "Rekap hari Kamis tiba pada hari Jumat. Pada saat itu margin sudah hilang.",
           "icon": "benchmarking"
         },
         {
@@ -1701,35 +1701,35 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strategi kalah dengan pemadaman kebakaran",
-          "description": "Portofolio memerlukan arahan. Operasi perlu dihentikan. Keduanya kalah.",
+          "title": "Strategi tenggelam dalam pemadaman kebakaran",
+          "description": "Portofolio memerlukan arahan. Operasi memerlukan stabilitas. Ketika keduanya bersaing memperebutkan perhatian, keduanya kalah.",
           "icon": "balance"
         }
       ],
       "howTitle": "Bagaimana Sundae bekerja untuk kantor eksekutif",
-      "howDescription": "Satu sumber kebenaran di setiap merek, setiap lokasi, setiap perubahan.",
+      "howDescription": "Satu sumber kebenaran di setiap merek, setiap lokasi, setiap sif.",
       "howSundaeHelps": [
         {
           "title": "Perintah portofolio secara real time",
-          "description": "Pendapatan langsung, margin, dan tenaga kerja di setiap outlet. Mondar-mandir menandai lokasi yang memerlukan perhatian Anda sebelum giliran kerja berakhir.",
+          "description": "Pendapatan, margin, dan tenaga kerja secara langsung di setiap outlet. Pulse menandai lokasi yang memerlukan perhatian Anda sebelum sif berakhir.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
         {
           "title": "Sinyal pasar sebelum terjadi",
-          "description": "Pesaing, cuaca, acara, langkah kaki - disintesis menjadi ringkasan pagi sehingga Anda bertindak sebelum dampaknya mencapai P&L Anda.",
+          "description": "Pesaing, cuaca, acara, lalu lintas pengunjung - disintesis menjadi ringkasan pagi sehingga Anda bertindak sebelum dampaknya mencapai P&L Anda.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
         {
           "title": "Jawaban yang dikutip sumber dalam hitungan detik",
-          "description": "Tanyakan mengapa Brand C menekan margin atau outlet mana yang kalah dari promo kompetitor. Dapatkan jawaban bernomor dengan data yang diambil.",
+          "description": "Tanyakan mengapa margin Brand C menyusut atau outlet mana yang kalah dari promo kompetitor. Dapatkan jawaban dengan kutipan sumber, beserta data yang menjadi dasarnya.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Prakiraan 14-90 hari yang dapat Anda pertahankan",
-          "description": "Pandangan ke depan memproyeksikan pendapatan, tenaga kerja, dan EBITDA. Jalankan bagaimana-jika di pasar baru, pergerakan harga, atau program biaya - sebelum Anda memberikan modal. (Foresight)",
+          "description": "Foresight memproyeksikan pendapatan, tenaga kerja, dan EBITDA. Jalankan skenario bagaimana-jika di pasar baru, pergerakan harga, atau program biaya - sebelum Anda mengikat modal.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1774,8 +1774,8 @@ export const generatedLocalCopy = {
       "problemsDescription": "Tiga hari lewat, tiga pertemuan mendalam, dan tiada satu pun sumber kebenaran.",
       "challenges": [
         {
-          "title": "Keputusan mengenai nombor lapuk",
-          "description": "Rekap hari Khamis tiba hari Jumaat. Pada masa itu margin sudah ditempah.",
+          "title": "Keputusan berdasarkan angka lapuk",
+          "description": "Rekap hari Khamis tiba pada hari Jumaat. Menjelang itu margin sudah hilang.",
           "icon": "benchmarking"
         },
         {
@@ -1789,8 +1789,8 @@ export const generatedLocalCopy = {
           "icon": "forecasting"
         },
         {
-          "title": "Strategi kalah kepada memadam kebakaran",
-          "description": "Portfolio memerlukan pemanduan. Operasi perlu dipadamkan. Kedua-duanya kalah.",
+          "title": "Strategi lenyap dalam memadam kebakaran",
+          "description": "Portfolio memerlukan hala tuju. Operasi memerlukan kestabilan. Apabila kedua-duanya bersaing merebut perhatian, kedua-duanya kalah.",
           "icon": "balance"
         }
       ],
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Perintah portfolio dalam masa nyata",
-          "description": "Hasil langsung, margin dan buruh di setiap cawangan. Pacing menandakan lokasi yang memerlukan perhatian anda sebelum syif tamat.",
+          "description": "Hasil, margin dan buruh secara langsung di setiap cawangan. Pulse menandakan lokasi yang memerlukan perhatian anda sebelum syif tamat.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1811,7 +1811,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Jawapan yang dipetik sumber dalam beberapa saat",
-          "description": "Tanya mengapa Jenama C memampatkan margin atau cawangan mana yang kalah kepada promosi pesaing. Dapatkan jawapan bernombor dengan data ia diambil.",
+          "description": "Tanya mengapa margin Jenama C mengecil atau cawangan mana yang kalah kepada promosi pesaing. Dapatkan jawapan yang memetik sumber, berserta data yang menjadi asasnya.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         },
@@ -1832,11 +1832,11 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portfolio yang lebih ketat, lebih sedikit kejutan",
-          "description": "Lokasi yang kurang berprestasi muncul pada waktu pagi - bukan ulasan suku tahunan.",
+          "description": "Lokasi yang kurang berprestasi muncul dalam taklimat pagi - bukan ulasan suku tahunan.",
           "icon": "performance"
         },
         {
-          "title": "Meramalkan kepercayaan lembaga anda",
+          "title": "Ramalan yang dipercayai oleh lembaga anda",
           "description": "Unjuran 14-90 hari berdasarkan data operasi anda sendiri serta isyarat pasaran.",
           "icon": "owners"
         },

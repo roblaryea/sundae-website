@@ -145,7 +145,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "التنبؤ الاستراتيجي على مستوى المجموعة",
-          "description": "المشاريع الاستشرافية EBITDA لكل علامة تجارية وعبر المحفظة. قم بتشغيل ماذا لو في سوق جديد، أو مفهوم، أو التزام CapEx. (Foresight)",
+          "description": "يتوقع Foresight قيمة EBITDA لكل علامة تجارية وعبر المحفظة بأكملها. شغّل سيناريوهات \"ماذا لو\" لسوق جديدة أو مفهوم جديد أو التزام CapEx قبل ضخ رأس المال.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -170,12 +170,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "تخصيص رأس المال يعتمد على التوقعات",
-          "description": "EBITDA projections by brand inform where to invest, where to slow, where to exit.",
+          "description": "تُظهر توقعات EBITDA لكل علامة تجارية أين تستثمر، وأين تتمهل، وأين تخرج.",
           "icon": "support"
         }
       ],
       "ctaTitle": "شاهد محفظتك عبر كل علامة تجارية.",
-      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
+      "ctaDescription": "30 دقيقة. مجموعتك. رؤية العلامة التجارية مقابل العلامة التجارية التي لا يمكنك الحصول عليها من أي P&L منفردة.",
       "ctaButton": "احجز جولة جماعية"
     },
     "nl": {
@@ -293,7 +293,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "Die Gruppenstrategie reagiert auf die monatliche P&L",
           "description": "Markeninvestitionen, Markteintritt, Formatentscheidungen - alles gesteuert durch Q+1-Daten, nicht durch Live-Signale.",
           "icon": "performance"
         }
@@ -321,7 +321,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Strategische Prognose auf Gruppenebene",
-          "description": "Foresight prognostiziert das EBITDA pro Marke und für das gesamte Portfolio. Führen Sie eine Was-wäre-wenn-Analyse für einen neuen Markt, ein Konzept oder eine Investitionsverpflichtung durch. (CapEx)",
+          "description": "Foresight prognostiziert das EBITDA pro Marke und für das gesamte Portfolio. Führen Sie eine Was-wäre-wenn-Analyse für einen neuen Markt, ein Konzept oder eine CapEx-Verpflichtung durch, bevor Sie Kapital binden.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -351,14 +351,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Sehen Sie sich Ihr Portfolio für jede Marke an.",
-      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
+      "ctaDescription": "30 Minuten. Ihre Gruppe. Der Marke-gegen-Marke-Einblick, den Ihnen keine einzelne P&L liefern kann.",
       "ctaButton": "Buchen Sie einen Gruppenrundgang"
     },
     "fr": {
       "badge": "Pour les groupes multi-sites",
       "titleLine1": "Une seule plateforme.",
       "titleLine2": "Chaque marque. Chaque marché.",
-      "description": "Regroupement du portefeuille entre les marques, les régions et les concepts. Benchmarks marque par marque. La vue stratégique que votre groupe ne peut obtenir d'un seul point de vente. (POS)",
+      "description": "Regroupement du portefeuille entre les marques, les régions et les concepts. Benchmarks marque par marque. La vue stratégique que votre groupe ne peut obtenir d'un seul POS.",
       "primaryCta": "Réservez une visite de groupe",
       "secondaryCta": "Voir la démo de groupe",
       "problemsEyebrow": "LÀ OÙ LE GROUPE PERD L’EFFET",
@@ -381,8 +381,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "La stratégie du Groupe réagit au P&L mensuel",
-          "description": "Investissement dans la marque, entrée sur le marché, décisions de format : tous motivés par les données du premier trimestre et non par un signal en direct.",
+          "title": "La stratégie du groupe réagit au P&L mensuel",
+          "description": "Investissement dans la marque, entrée sur le marché, décisions de format : tout est piloté par les données du mois suivant (Q+1) et non par un signal en direct.",
           "icon": "performance"
         }
       ],
@@ -460,7 +460,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sem comparação entre marca e marca",
-          "description": "Você não pode dizer se a% de mão de obra da Marca B é boa ou ruim sem contexto. Os benchmarks internos mudariam a conversa.",
+          "description": "Você não consegue dizer se o % de mão de obra da Marca B é bom ou ruim sem contexto. Os benchmarks internos mudariam a conversa.",
           "icon": "balance"
         },
         {
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "ہر برانڈ اپنے طریقے سے رپورٹ کرتا ہے۔",
-          "description": "Toast پر برانڈ A، مربع پر برانڈ B، Lightspeed پر برانڈ C۔ گروپ آفس ہاتھ سے صلح کرتا ہے - یا نہیں کرتا۔ (Square)",
+          "description": "Toast پر برانڈ A، Square پر برانڈ B، Lightspeed پر برانڈ C۔ گروپ آفس ہاتھ سے ملاپ کرتا ہے - یا بالکل نہیں۔",
           "icon": "integration"
         },
         {
@@ -585,7 +585,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "گروپ کی سطح پر اسٹریٹجک پیشن گوئی",
-          "description": "دور اندیشی پروجیکٹس EBITDA فی برانڈ اور پورے پورٹ فولیو میں۔ ایک نئی مارکیٹ، ایک تصور، یا CapEx عزم پر کیا ہو تو چلائیں۔ (Foresight)",
+          "description": "Foresight ہر برانڈ کے لیے اور پورے پورٹ فولیو میں EBITDA کا تخمینہ لگاتا ہے۔ سرمایہ لگانے سے پہلے کسی نئی مارکیٹ، تصور یا CapEx عزم پر \"کیا ہو اگر\" منظرنامے چلائیں۔",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
       "badge": "Dla grup o wielu lokalizacjach",
       "titleLine1": "Jedna platforma.",
       "titleLine2": "Każda marka. Każdy rynek.",
-      "description": "Podsumowanie portfolio obejmujące marki, regiony i koncepcje. Porównanie marki z marką. Widok strategiczny, którego Twoja grupa nie może uzyskać z żadnego pojedynczego punktu sprzedaży. (POS)",
+      "description": "Podsumowanie portfolio obejmujące marki, regiony i koncepcje. Porównanie marki z marką. Widok strategiczny, którego Twoja grupa nie uzyska z żadnego pojedynczego POS.",
       "primaryCta": "Zarezerwuj spacer grupowy",
       "secondaryCta": "Zobacz Demo grupowe",
       "problemsEyebrow": "GDY GRUPA TRACI DŹWIGNIE",
@@ -631,7 +631,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Każda marka raportuje na swój sposób",
-          "description": "Marka A na Toście, Marka B na Kwadracie, Marka C na Lightspeed. Biuro grupy uzgadnia ręcznie - lub nie. (Toast) (Square)",
+          "description": "Marka A na Toast, Marka B na Square, Marka C na Lightspeed. Biuro grupy uzgadnia ręcznie - lub wcale.",
           "icon": "integration"
         },
         {
@@ -645,7 +645,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "Strategia grupy reaguje na miesięczny P&L",
           "description": "Inwestycje w markę, wejście na rynek, decyzje dotyczące formatu - wszystko na podstawie danych z Q+1, a nie sygnału na żywo.",
           "icon": "performance"
         }
@@ -667,7 +667,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Transfer praktyk między markami",
-          "description": "To, co sprawdza się w marce A, trafia do marki B w ciągu kilku dni, a nie co kwartał poza siedzibą firmy. Wywiad krzyżowy znajduje wzór, Sundae go wyznacza. (Cross-Intelligence)",
+          "description": "To, co sprawdza się w marce A, trafia do marki B w ciągu kilku dni, a nie dopiero na kwartalnym spotkaniu wyjazdowym. Cross-Intelligence znajduje wzorzec, a Sundae go kieruje do właściwego zespołu.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -703,7 +703,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Zobacz swoje portfolio dla każdej marki.",
-      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
+      "ctaDescription": "30 minut. Twoja grupa. Porównanie marki z marką, którego nie uzyskasz z żadnego pojedynczego P&L.",
       "ctaButton": "Zarezerwuj spacer grupowy"
     },
     "it": {
@@ -821,7 +821,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "集团战略只能对每月的 P&L 做出反应",
           "description": "品牌投资、市场进入、业态决策--所有这些都是由 Q+1 数据驱动的，而不是实时信号。",
           "icon": "performance"
         }
@@ -843,7 +843,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "跨品牌实践转移",
-          "description": "品牌 A 的有效方法会在几天内传播到品牌 B，而不是每季度异地传播一次。交叉智能发现模式，Sundae则路线它。 (Cross-Intelligence)",
+          "description": "品牌 A 行之有效的做法会在几天内传播到品牌 B，而不是每季度异地传播一次。Cross-Intelligence 发现规律，Sundae 将其推送给合适的团队。",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "集团范围内的最佳实践",
-          "description": "交叉情报加速了跨品牌线的运作--而不是季度知识转移。 (Cross-Intelligence)",
+          "description": "Cross-Intelligence 加速了跨品牌行之有效的做法的推广--而不是每季度才做一次知识转移。",
           "icon": "owners"
         },
         {
@@ -879,7 +879,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "查看您的每个品牌的产品组合。",
-      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
+      "ctaDescription": "30 分钟。您的集团。任何单一 P&L 都无法给您的品牌对比洞察。",
       "ctaButton": "预约团体演练"
     },
     "tr": {
@@ -895,7 +895,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Her marka kendi yöntemini bildirir",
-          "description": "Toast'ta A Markası, Square'de B Markası, Işık Hızı'nda C Markası. Grup ofisi uzlaştırmayı elle yapıyor ya da yapmıyor. (Lightspeed)",
+          "description": "Toast'ta A Markası, Square'de B Markası, Lightspeed'de C Markası. Grup ofisi mutabakatı elle yapıyor ya da hiç yapmıyor.",
           "icon": "integration"
         },
         {
@@ -909,7 +909,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "Grup stratejisi aylık P&L'ye tepki veriyor",
           "description": "Marka yatırımı, pazara giriş, format kararlarının tümü canlı sinyale değil, Q+1 verilerine göre belirlenir.",
           "icon": "performance"
         }
@@ -931,13 +931,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Markalar arası uygulama aktarımı",
-          "description": "A Markasında işe yarayan şey, üç ayda bir saha dışında değil, birkaç gün içinde Marka B'ye yayılır. Çapraz İstihbarat modeli bulur, Sundae onu yönlendirir. (Cross-Intelligence)",
+          "description": "A Markasında işe yarayan şey, üç ayda bir yapılan saha dışı toplantıda değil, birkaç gün içinde B Markasına yayılır. Cross-Intelligence örüntüyü bulur, Sundae onu doğru ekibe yönlendirir.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Grup düzeyinde stratejik tahmin",
-          "description": "Foresight projeleri marka başına ve portföy genelinde FAVÖK'tür. Yeni bir pazarda, bir konseptte veya bir Yatırım Harcama Taahhüdünde What-If'i çalıştırın. (EBITDA) (CapEx)",
+          "description": "Foresight, marka başına ve portföy genelinde EBITDA'yı öngörür. Sermayeyi bağlamadan önce yeni bir pazar, bir konsept ya da bir CapEx taahhüdü için what-if senaryoları çalıştırın.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -957,12 +957,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Grup çapında en iyi uygulama",
-          "description": "Çapraz Zeka, üç ayda bir bilgi aktarımı yerine marka hatları genelinde işe yarayan işlemleri hızlandırır. (Cross-Intelligence)",
+          "description": "Cross-Intelligence, üç ayda bir bilgi aktarımı yerine markalar genelinde işe yarayan uygulamaları hızlandırır.",
           "icon": "owners"
         },
         {
           "title": "Tahmine dayalı sermaye tahsisi",
-          "description": "EBITDA projections by brand inform where to invest, where to slow, where to exit.",
+          "description": "Marka bazında EBITDA tahminleri nereye yatırım yapılacağını, nerede yavaşlanacağını, nereden çıkılacağını gösterir.",
           "icon": "support"
         }
       ],
@@ -983,7 +983,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "प्रत्येक ब्रांड अपने तरीके से रिपोर्ट करता है",
-          "description": "Toast पर ब्रांड ए, स्क्वायर पर ब्रांड बी, Lightspeed पर ब्रांड सी। समूह कार्यालय हाथ से समाधान करता है - या नहीं। (Square)",
+          "description": "Toast पर ब्रांड ए, Square पर ब्रांड बी, Lightspeed पर ब्रांड सी। समूह कार्यालय हाथ से मिलान करता है - या बिल्कुल नहीं।",
           "icon": "integration"
         },
         {
@@ -1025,7 +1025,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "समूह स्तर पर रणनीतिक पूर्वानुमान",
-          "description": "दूरदर्शिता प्रति ब्रांड और संपूर्ण पोर्टफोलियो में EBITDA का अनुमान लगाती है। किसी नए बाज़ार, अवधारणा या CapEx प्रतिबद्धता पर व्हाट-इफ़ चलाएँ। (Foresight)",
+          "description": "Foresight प्रति ब्रांड और संपूर्ण पोर्टफोलियो में EBITDA का अनुमान लगाता है। पूंजी लगाने से पहले किसी नए बाज़ार, अवधारणा या CapEx प्रतिबद्धता पर व्हाट-इफ़ परिदृश्य चलाएँ।",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1065,7 +1065,7 @@ export const generatedLocalCopy = {
       "description": "Portföljupprullning över varumärken, regioner och koncept. Varumärke kontra varumärke riktmärken. Den strategiska vy som din grupp inte kan få från någon enskild POS.",
       "primaryCta": "Boka en gruppgenomgång",
       "secondaryCta": "Se Gruppdemo",
-      "problemsEyebrow": "DÄR GRUPPEN FÖRLÖR HÄVSTÄVNINGEN",
+      "problemsEyebrow": "DÄR GRUPPEN FÖRLORAR HÄVSTÅNGEN",
       "problemsTitle": "Där gruppen tappar sin skalfördel",
       "problemsDescription": "Varumärkesrapportering, ingen jämförelse med andra, beslut fattade på varumärkesnivå istället för portföljnivå.",
       "challenges": [
@@ -1085,7 +1085,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "Koncernstrategin reagerar på den månatliga P&L",
           "description": "Varumärkesinvesteringar, marknadsinträde, formatbeslut - allt drivs av Q+1-data, inte livesignal.",
           "icon": "performance"
         }
@@ -1173,7 +1173,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "グループ戦略は月次の P&L に後追いで反応する",
           "description": "ブランドへの投資、市場参入、フォーマットの決定はすべて、ライブシグナルではなく Q+1 データによって推進されます。",
           "icon": "performance"
         }
@@ -1201,7 +1201,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "グループレベルでの戦略的予測",
-          "description": "Foresight は、ブランドごとおよびポートフォリオ全体の EBITDA を予測します。新しい市場、コンセプト、または設備投資のコミットメントについて、仮定を実行します。 (CapEx)",
+          "description": "Foresight は、ブランドごとおよびポートフォリオ全体の EBITDA を予測します。資本を投じる前に、新しい市場、コンセプト、または CapEx のコミットメントについて what-if シナリオを実行できます。",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1231,13 +1231,13 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "すべてのブランドのポートフォリオを確認してください。",
-      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
+      "ctaDescription": "30 分。あなたのグループ。単一の P&L からは決して得られない、ブランド対ブランドの洞察を。",
       "ctaButton": "グループウォークスルーを予約する"
     },
     "ro": {
       "badge": "Pentru grupuri cu mai multe locații",
       "titleLine1": "O singură platformă.",
-      "titleLine2": "Fiecare marcă. Fiecare piata.",
+      "titleLine2": "Fiecare marcă. Fiecare piață.",
       "description": "Gruparea portofoliului pe mărci, regiuni și concepte. Benchmark-uri de brand-vs-brand. Viziunea strategică pe care grupul dvs. nu o poate obține de la un singur POS.",
       "primaryCta": "Rezervați o prezentare de grup",
       "secondaryCta": "Vedeți demonstrația grupului",
@@ -1349,12 +1349,12 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "그룹 전략이 월간 P&L에 뒤늦게 반응합니다",
           "description": "브랜드 투자, 시장 진입, 형식 결정 등 모두 실시간 신호가 아닌 Q+1 데이터를 기반으로 합니다.",
           "icon": "performance"
         }
       ],
-      "howTitle": "How Sundae works for multi-brand groups",
+      "howTitle": "Sundae가 멀티 브랜드 그룹을 위해 작동하는 방식",
       "howDescription": "포트폴리오 진실, 브랜드 대 브랜드 벤치마크, 그룹 수준의 전략적 신호.",
       "howSundaeHelps": [
         {
@@ -1407,7 +1407,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "모든 브랜드의 포트폴리오를 확인하세요.",
-      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
+      "ctaDescription": "30분. 당신의 그룹. 단일 P&L에서는 얻을 수 없는 브랜드 대 브랜드 인사이트.",
       "ctaButton": "그룹 워크스루 예약"
     },
     "id": {
@@ -1423,7 +1423,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Setiap merek melaporkan dengan caranya sendiri",
-          "description": "Merek A pada Toast, Merek B pada Kotak, Merek C pada Lightspeed. Kantor kelompok melakukan rekonsiliasi secara manual - atau tidak. (Square)",
+          "description": "Merek A pada Toast, Merek B pada Square, Merek C pada Lightspeed. Kantor grup melakukan rekonsiliasi secara manual - atau tidak sama sekali.",
           "icon": "integration"
         },
         {
@@ -1437,7 +1437,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "Strategi grup hanya bereaksi terhadap P&L bulanan",
           "description": "Investasi merek, masuknya pasar, keputusan format - semuanya didorong oleh data Q+1, bukan sinyal langsung.",
           "icon": "performance"
         }
@@ -1459,13 +1459,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Transfer praktik lintas merek",
-          "description": "Apa yang berhasil di Merek A menyebar ke Merek B dalam hitungan hari, bukan triwulanan di luar lokasi. Lintas Intelijen menemukan polanya, Sundae mengarahkannya. (Cross-Intelligence)",
+          "description": "Apa yang berhasil di Merek A menyebar ke Merek B dalam hitungan hari, bukan pada pertemuan triwulanan di luar lokasi. Cross-Intelligence menemukan polanya, Sundae mengarahkannya ke tim yang tepat.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Peramalan strategis di tingkat kelompok",
-          "description": "Pandangan ke depan memproyeksikan EBITDA per merek dan seluruh portofolio. Jalankan bagaimana-jika di pasar, konsep, atau komitmen Belanja Modal yang baru. (Foresight) (CapEx)",
+          "description": "Foresight memproyeksikan EBITDA per merek dan di seluruh portofolio. Jalankan skenario what-if untuk pasar baru, konsep, atau komitmen CapEx sebelum mengikat modal.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1505,7 +1505,7 @@ export const generatedLocalCopy = {
       "description": "Tổng hợp danh mục đầu tư trên các thương hiệu, khu vực và khái niệm. Điểm chuẩn thương hiệu so với thương hiệu. Tầm nhìn chiến lược mà nhóm của bạn không thể có được từ bất kỳ POS nào.",
       "primaryCta": "Đặt một buổi hướng dẫn nhóm",
       "secondaryCta": "Xem bản demo nhóm",
-      "problemsEyebrow": "Ở ĐÂU TẬP ĐOÀN MẤT Đòn bẩy",
+      "problemsEyebrow": "NƠI TẬP ĐOÀN ĐÁNH MẤT ĐÒN BẨY",
       "problemsTitle": "Trường hợp nhóm mất đi lợi thế về quy mô",
       "problemsDescription": "Báo cáo theo từng thương hiệu, không so sánh ngang hàng, các quyết định được đưa ra ở cấp độ thương hiệu thay vì cấp độ danh mục đầu tư.",
       "challenges": [
@@ -1553,7 +1553,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Dự báo chiến lược ở cấp độ nhóm",
-          "description": "Tầm nhìn xa dự đoán EBITDA cho mỗi thương hiệu và trên toàn bộ danh mục đầu tư. Chạy what-if trên một thị trường mới, một khái niệm hoặc cam kết CapEx. (Foresight)",
+          "description": "Foresight dự báo EBITDA cho mỗi thương hiệu và trên toàn bộ danh mục đầu tư. Chạy các kịch bản what-if cho một thị trường mới, một khái niệm hoặc một cam kết CapEx trước khi rót vốn.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1573,7 +1573,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Phương pháp thực hành tốt nhất trên toàn nhóm",
-          "description": "Trí tuệ chéo tăng tốc những gì hoạt động giữa các dòng thương hiệu - thay vì chuyển giao kiến thức hàng quý. (Cross-Intelligence)",
+          "description": "Cross-Intelligence tăng tốc những gì hiệu quả giữa các thương hiệu - thay vì chuyển giao kiến thức theo từng quý.",
           "icon": "owners"
         },
         {
@@ -1599,7 +1599,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "প্রতিটি ব্র্যান্ড তার নিজস্ব উপায় রিপোর্ট",
-          "description": "টোস্টে ব্র্যান্ড এ, স্কোয়ারে ব্র্যান্ড বি, লাইটস্পিডে ব্র্যান্ড সি। গ্রুপ অফিস হাত দ্বারা মিলন - বা না. (Toast) (Square) (Lightspeed)",
+          "description": "Toast-এ ব্র্যান্ড এ, Square-এ ব্র্যান্ড বি, Lightspeed-এ ব্র্যান্ড সি। গ্রুপ অফিস হাতে হাতে মেলায় - অথবা একদমই করে না।",
           "icon": "integration"
         },
         {
@@ -1635,13 +1635,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ক্রস-ব্র্যান্ড অনুশীলন স্থানান্তর",
-          "description": "ব্র্যান্ড A-তে যা কাজ করছে তা দিনে দিনে ব্র্যান্ড B-তে প্রচার করে, ত্রৈমাসিক অফ-সাইট নয়। ক্রস-ইনটেলিজেন্স প্যাটার্ন খুঁজে পায়, Sundae এটিকে রুট করে। (Cross-Intelligence)",
+          "description": "ব্র্যান্ড A-তে যা কাজ করছে তা কয়েক দিনের মধ্যে ব্র্যান্ড B-তে ছড়িয়ে পড়ে, ত্রৈমাসিক অফ-সাইট বৈঠকে নয়। Cross-Intelligence প্যাটার্ন খুঁজে পায়, Sundae তা সঠিক দলের কাছে পাঠায়।",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "গ্রুপ পর্যায়ে কৌশলগত পূর্বাভাস",
-          "description": "দূরদর্শিতা প্রজেক্ট প্রতি ব্র্যান্ড এবং পোর্টফোলিও জুড়ে EBITDA। একটি নতুন বাজারে, একটি ধারণা, বা একটি CapEx প্রতিশ্রুতিতে যা-ই হোক চালান৷ (Foresight)",
+          "description": "Foresight প্রতিটি ব্র্যান্ডের জন্য এবং সম্পূর্ণ পোর্টফোলিও জুড়ে EBITDA-এর পূর্বাভাস দেয়। মূলধন প্রতিশ্রুতিবদ্ধ করার আগে কোনো নতুন বাজার, ধারণা বা CapEx প্রতিশ্রুতির জন্য what-if পরিস্থিতি চালান।",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1661,7 +1661,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "গ্রুপ-ব্যাপী সেরা অনুশীলন",
-          "description": "ক্রস-ইনটেলিজেন্স ব্র্যান্ড লাইন জুড়ে যা কাজ করে তা ত্বরান্বিত করে - ত্রৈমাসিক জ্ঞান স্থানান্তরের পরিবর্তে। (Cross-Intelligence)",
+          "description": "Cross-Intelligence ব্র্যান্ড লাইন জুড়ে যা কাজ করে তা ত্বরান্বিত করে - ত্রৈমাসিক জ্ঞান স্থানান্তরের পরিবর্তে।",
           "icon": "owners"
         },
         {
@@ -1687,7 +1687,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "แต่ละแบรนด์ก็รายงานแนวทางของตัวเอง",
-          "description": "แบรนด์ A บนขนมปังปิ้ง, แบรนด์ B บน Square, แบรนด์ C บน Lightspeed สำนักงานกลุ่มจะตกลงกันด้วยมือ - หรือไม่ก็ได้ (Toast)",
+          "description": "แบรนด์ A บน Toast, แบรนด์ B บน Square, แบรนด์ C บน Lightspeed สำนักงานกลุ่มกระทบยอดด้วยมือ - หรือไม่ทำเลย",
           "icon": "integration"
         },
         {
@@ -1701,7 +1701,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "กลยุทธ์ของกลุ่มตอบสนองต่อ P&L รายเดือน",
           "description": "การลงทุนในแบรนด์ การเข้าสู่ตลาด การตัดสินใจด้านรูปแบบ ทั้งหมดนี้ขับเคลื่อนโดยข้อมูล Q+1 ไม่ใช่สัญญาณสด",
           "icon": "performance"
         }
@@ -1723,13 +1723,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การถ่ายโอนการปฏิบัติข้ามแบรนด์",
-          "description": "สิ่งที่ได้ผลที่แบรนด์ A จะเผยแพร่ไปยังแบรนด์ B ภายในไม่กี่วัน ไม่ใช่นอกสถานที่รายไตรมาส Cross-Intelligence ค้นหารูปแบบ ซุนแดกำหนดเส้นทาง (Sundae)",
+          "description": "สิ่งที่ได้ผลที่แบรนด์ A จะเผยแพร่ไปยังแบรนด์ B ภายในไม่กี่วัน ไม่ใช่ในการประชุมนอกสถานที่รายไตรมาส Cross-Intelligence ค้นหารูปแบบ Sundae ส่งต่อให้ทีมที่ใช่",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "การพยากรณ์เชิงกลยุทธ์ในระดับกลุ่ม",
-          "description": "การมองการณ์ไกลจะคาดการณ์ EBITDA ต่อแบรนด์และทั่วทั้งพอร์ตโฟลิโอ ดำเนินการแบบ what-if ในตลาดใหม่ แนวคิด หรือความมุ่งมั่น CapEx (Foresight)",
+          "description": "Foresight คาดการณ์ EBITDA ต่อแบรนด์และทั่วทั้งพอร์ตโฟลิโอ ดำเนินการแบบ what-if สำหรับตลาดใหม่ แนวคิด หรือการลงทุน CapEx ก่อนที่จะผูกมัดเงินทุน",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1775,7 +1775,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Setiap jenama melaporkan caranya sendiri",
-          "description": "Jenama A pada Toast, Jenama B pada Dataran, Jenama C pada Lightspeed. Pejabat kumpulan mendamaikan dengan tangan - atau tidak. (Square)",
+          "description": "Jenama A pada Toast, Jenama B pada Square, Jenama C pada Lightspeed. Pejabat kumpulan membuat penyesuaian secara manual - atau tidak langsung.",
           "icon": "integration"
         },
         {
@@ -1789,7 +1789,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         },
         {
-          "title": "Group strategy reacts to monthly P&L",
+          "title": "Strategi kumpulan hanya bertindak balas terhadap P&L bulanan",
           "description": "Pelaburan jenama, kemasukan pasaran, keputusan format - semuanya didorong oleh data Q+1, bukan isyarat langsung.",
           "icon": "performance"
         }
@@ -1811,7 +1811,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pemindahan amalan merentas jenama",
-          "description": "Perkara yang berfungsi di Jenama A disebarkan kepada Jenama B dalam beberapa hari, bukan suku tahunan di luar tapak. Kepintaran Silang mencari corak, laluan Sundae. (Cross-Intelligence)",
+          "description": "Perkara yang berfungsi di Jenama A disebarkan kepada Jenama B dalam beberapa hari, bukan pada mesyuarat luar tapak suku tahunan. Cross-Intelligence mencari corak, Sundae menghalakannya kepada pasukan yang betul.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1837,7 +1837,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Amalan terbaik seluruh kumpulan",
-          "description": "Kepintaran Silang mempercepatkan perkara yang berfungsi merentas barisan jenama - bukannya pemindahan pengetahuan suku tahunan. (Cross-Intelligence)",
+          "description": "Cross-Intelligence mempercepatkan perkara yang berfungsi merentas jenama - bukannya pemindahan pengetahuan suku tahunan.",
           "icon": "owners"
         },
         {

@@ -4,8 +4,8 @@ export const generatedLocalCopy = {
   "localizedCopy": {
     "ar": {
       "badge": "لفرق الموارد البشرية والأفراد",
-      "titleLine1": "الجدول الزمني للتحول.",
-      "titleLine2": "ليس للأسبوع الماضي.",
+      "titleLine1": "جدول زمني مبني على الوردية.",
+      "titleLine2": "ليس على الأسبوع الماضي.",
       "description": "تباين العمالة الحية حسب الموقع. تم وضع علامة على مخاطر العمل الإضافي قبل حدوثها. يتم قياس الإنتاجية لكل ساعة FOH، وليس لكل فترة دفع.",
       "primaryCta": "احجز جولة عمل",
       "secondaryCta": "انظر عرض العمل",
@@ -56,8 +56,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "جدولة التوصيات من الطلب",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "توصيات الجدولة من الطلب",
+          "description": "يتوقع Foresight أعداد الضيوف قبل 14 يومًا - وتقترح Sundae خطة العمالة المطابقة.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -81,8 +81,8 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "الجداول الزمنية التي تتناسب مع الكلمة",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "جداول زمنية تتناسب مع صالة المطعم",
+          "description": "جداول زمنية مبنية على الطلب وعلى توقعات Foresight - وليس على نمط الأسبوع الماضي.",
           "icon": "support"
         }
       ],
@@ -92,7 +92,7 @@ export const generatedLocalCopy = {
         "description": "يدير Crew الجدولة والوقت والحضور وكشوف المرتبات متعددة المناطق (الولايات المتحدة وكندا والمملكة المتحدة والاتحاد الأوروبي ودول مجلس التعاون الخليجي - محرك واحد)، وأكثر من 60 سطحًا للموارد البشرية - تصبح كل نوبة عمل وساعة ودورة دفع إشارة تدعم ذكاء العمل في هذه الصفحة. اختياري: قم بإحضار HR الخاص بك (Bayzat، Personio، Gusto) وستظل Sundae تقرأ نفس الإشارة.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "شاهد مخاضك أثناء الحركة.",
+      "ctaTitle": "شاهد عمالتك أثناء الحركة.",
       "ctaDescription": "30 دقيقة. الجدول الزمني الخاص بك. OT الذي كنت ستلتقطه قبل أن تهبط.",
       "ctaButton": "احجز جولة عمل"
     },
@@ -103,8 +103,8 @@ export const generatedLocalCopy = {
       "description": "Variación de mano de obra viva por ubicación. Riesgo de horas extras señalado antes de que suceda. Productividad medida por hora FOH, no por período de pago.",
       "primaryCta": "Agenda una sesión laboral",
       "secondaryCta": "Ver demostración laboral",
-      "problemsEyebrow": "DONDE SE FUGA LABORAL",
-      "problemsTitle": "Donde gotea el presupuesto laboral",
+      "problemsEyebrow": "DONDE SE FUGA LA MANO DE OBRA",
+      "problemsTitle": "Donde se fuga el presupuesto de personal",
       "problemsDescription": "Horarios basados en el instinto, variación descubierta después de la nómina.",
       "challenges": [
         {
@@ -113,13 +113,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Horarios basados en las portadas de la semana pasada",
-          "description": "La demanda se ha movido. El horario no. El porcentaje de mano de obra varía con él.",
+          "title": "Horarios basados en los comensales de la semana pasada",
+          "description": "La demanda se ha movido. El horario no. El porcentaje de mano de obra se desvía con ella.",
           "icon": "operators"
         },
         {
-          "title": "Productividad reportada, no procesable",
-          "description": "Ya conoces las coberturas por hora de FOH por mes. Ni por turno, ni por servidor, ni a tiempo para entrenar.",
+          "title": "Productividad reportada, no accionable",
+          "description": "Conoces los comensales por hora FOH al mes. Ni por turno, ni por camarero, ni a tiempo para formar.",
           "icon": "performance"
         },
         {
@@ -144,14 +144,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Productividad por hora FOH, por servidor",
-          "description": "Coberturas/hora, ventas/hora, tasa de ventas adicionales: por servidor, por turno. Entrenador con números, no impresiones.",
+          "title": "Productividad por hora FOH, por camarero",
+          "description": "Comensales/hora, ventas/hora, tasa de venta adicional: por camarero, por turno. Forma con números, no con impresiones.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Programar recomendaciones a partir de la demanda.",
-          "description": "Los proyectos de Foresight cubren 14 días: Sundae sugiere el plan laboral que coincida.",
+          "title": "Recomendaciones de horario a partir de la demanda",
+          "description": "Foresight proyecta los comensales con 14 días de antelación: Sundae sugiere el plan de personal que coincide.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -170,8 +170,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Productividad del servidor que puedes comparar",
-          "description": "Productividad en vivo por turno que respalda la capacitación, las revisiones y las llamadas de promoción.",
+          "title": "Productividad del camarero que puedes comparar",
+          "description": "Productividad en vivo por turno que respalda la formación, las evaluaciones y las decisiones de ascenso.",
           "icon": "owners"
         },
         {
@@ -186,7 +186,7 @@ export const generatedLocalCopy = {
         "description": "Crew ejecuta programación, tiempo y asistencia, nómina multirregional (EE. UU., Canadá, Reino Unido, UE, CCG: un motor) y más de 60 superficies de recursos humanos: cada turno, hora y ciclo de pago se convierte en una señal que impulsa la inteligencia laboral en esta página. Opcional: traiga su propio HR (Bayzat, Personio, Gusto) y Sundae seguirá leyendo la misma señal.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "Vea su parto en movimiento.",
+      "ctaTitle": "Vea su personal en movimiento.",
       "ctaDescription": "30 minutos. Tu horario. El OT que habrías atrapado antes de que aterrizara.",
       "ctaButton": "Agenda una sesión laboral"
     },
@@ -207,8 +207,8 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Zeitpläne, die auf den Covern der letzten Woche basieren",
-          "description": "Die Nachfrage hat sich bewegt. Der Zeitplan hat es nicht. Der Arbeitsprozentsatz schwankt damit.",
+          "title": "Zeitpläne, die auf den Gästezahlen der letzten Woche basieren",
+          "description": "Die Nachfrage hat sich verschoben. Der Zeitplan nicht. Der Personalkostenanteil driftet mit.",
           "icon": "operators"
         },
         {
@@ -223,11 +223,11 @@ export const generatedLocalCopy = {
         }
       ],
       "howTitle": "Wie Sundae für HR & People funktioniert",
-      "howDescription": "Live-Wehensignal, OT-Prävention, Produktivität bei Schichtgranularität.",
+      "howDescription": "Live-Personalsignal, OT-Prävention, Produktivität auf Schichtebene.",
       "howSundaeHelps": [
         {
-          "title": "Lebendarbeit in % nach Standort",
-          "description": "Arbeitskosten pro Stunde im Verhältnis zur Nachfrage. Die Website, deren Budget überschritten wird, wird markiert, während Sie noch kürzen können.",
+          "title": "Live-Personalkosten in % nach Standort",
+          "description": "Personalkosten pro Stunde im Verhältnis zur Nachfrage. Der Standort, der das Budget überschreitet, wird markiert, solange Sie noch kürzen können.",
           "product": "Pulse · Labor",
           "icon": "operators"
         },
@@ -238,14 +238,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Produktivität pro FOH-Stunde und pro Server",
-          "description": "Deckungen/Stunde, Verkäufe/Stunde, Upsell-Rate - pro Server, pro Schicht. Coachen Sie mit Zahlen, nicht mit Eindrücken.",
+          "title": "Produktivität pro FOH-Stunde und pro Kellner",
+          "description": "Gäste/Stunde, Umsatz/Stunde, Upsell-Rate - pro Kellner, pro Schicht. Coachen Sie mit Zahlen, nicht mit Eindrücken.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Planen Sie Empfehlungen basierend auf der Nachfrage",
-          "description": "Foresight-Projekte umfassen einen Zeitraum von 14 Tagen - Sundae schlägt den passenden Arbeitsplan vor.",
+          "title": "Schichtempfehlungen aus der Nachfrage",
+          "description": "Foresight prognostiziert die Gästezahlen 14 Tage im Voraus - Sundae schlägt den passenden Personalplan vor.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -264,20 +264,20 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Vergleichbare Serverproduktivität",
-          "description": "Live-Produktivität pro Schicht, die Coaching, Bewertungen und Werbeanrufe unterstützt.",
+          "title": "Vergleichbare Kellnerproduktivität",
+          "description": "Live-Produktivität pro Schicht als Grundlage für Coaching, Beurteilungen und Beförderungsentscheidungen.",
           "icon": "owners"
         },
         {
-          "title": "Zeitpläne, die zum Boden passen",
-          "description": "Nachfragegesteuerte Zeitpläne, die auf Prognosen von Foresight basieren - nicht das Muster der letzten Woche.",
+          "title": "Zeitpläne, die zum Geschehen im Lokal passen",
+          "description": "Nachfragegesteuerte Zeitpläne auf Basis der Foresight-Prognosen - nicht das Muster der letzten Woche.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "UNTERSTÜTZT VON SUNDAE CREW",
         "title": "Das operative Substrat, das diese Intelligenz speist.",
-        "description": "Das Team kümmert sich um Planung, Zeiterfassung, Gehaltsabrechnung in mehreren Regionen (USA, Kanada, Großbritannien, EU, GCC - eine Engine) und über 60 HR-Oberflächen - jede Schicht, jede Stunde und jeder Lohnzyklus wird zum Signal, das die Arbeitsinformationen auf dieser Seite antreibt. Optional: Bringen Sie Ihre eigene Personalabteilung mit (Bayzat, Personio, Gusto) und Sundae liest immer noch das gleiche Signal.",
+        "description": "Crew übernimmt Dienstplanung, Zeiterfassung, Gehaltsabrechnung in mehreren Regionen (USA, Kanada, Großbritannien, EU, GCC - eine Engine) und über 60 HR-Oberflächen - jede Schicht, jede Stunde und jeder Lohnzyklus wird zum Signal, das die Personalinformationen auf dieser Seite antreibt. Optional: Bringen Sie Ihre eigene Personalabteilung mit (Bayzat, Personio, Gusto) und Sundae liest weiterhin dasselbe Signal.",
         "ctaText": "Entdecken Sie Sundae Crew"
       },
       "ctaTitle": "Erleben Sie Ihre Arbeit in Bewegung.",
@@ -285,8 +285,8 @@ export const generatedLocalCopy = {
       "ctaButton": "Buchen Sie einen Arbeitsrundgang"
     },
     "fr": {
-      "badge": "Pour les équipes RH et RH",
-      "titleLine1": "Calendrier du quart de travail.",
+      "badge": "Pour les équipes RH et People",
+      "titleLine1": "Un planning calé sur le service.",
       "titleLine2": "Pas pour la semaine dernière.",
       "description": "Variation du travail en direct par emplacement. Le risque d’heures supplémentaires est signalé avant qu’il ne se produise. Productivité mesurée par heure FOH et non par période de paie.",
       "primaryCta": "Réservez une visite guidée du travail",
@@ -301,13 +301,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Horaires construits sur les couvertures de la semaine dernière",
-          "description": "La demande a évolué. Ce n’est pas le cas du calendrier. Le % de travail dérive avec cela.",
+          "title": "Horaires bâtis sur les couverts de la semaine dernière",
+          "description": "La demande a évolué. Pas le planning. Le % de main-d'œuvre dérive avec elle.",
           "icon": "operators"
         },
         {
           "title": "Productivité signalée, non exploitable",
-          "description": "Vous connaissez les couvertures par heure de FOH et par mois. Pas par équipe, pas par serveur, pas à temps pour coacher.",
+          "description": "Vous connaissez les couverts par heure FOH et par mois. Pas par service, pas par serveur, pas à temps pour coacher.",
           "icon": "performance"
         },
         {
@@ -333,13 +333,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Productivité par heure FOH et par serveur",
-          "description": "Couvertures/heure, ventes/heure, taux de vente incitative - par serveur, par équipe. Entraînez-vous avec des chiffres, pas des impressions.",
+          "description": "Couverts/heure, ventes/heure, taux de vente incitative - par serveur, par service. Coachez avec des chiffres, pas des impressions.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Planifier des recommandations à partir de la demande",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Recommandations de planning à partir de la demande",
+          "description": "Foresight projette les couverts à 14 jours - Sundae suggère le plan de personnel correspondant.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -363,15 +363,15 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "Des horaires adaptés au sol",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Des horaires adaptés à la salle",
+          "description": "Des horaires pilotés par la demande, bâtis sur les projections Foresight - pas le schéma de la semaine dernière.",
           "icon": "support"
         }
       ],
       "crewCallout": {
-        "eyebrow": "SOUTENU PAR L'ÉQUIPAGE SUNDAE",
+        "eyebrow": "PROPULSÉ PAR SUNDAE CREW",
         "title": "Le substrat opérationnel qui alimente cette intelligence.",
-        "description": "L'équipe gère la planification, le temps et les présences, la paie multirégionale (États-Unis, Canada, Royaume-Uni, UE, GCC - un seul moteur) et plus de 60 surfaces RH - chaque équipe, heure et cycle de paie devient le signal qui alimente l'intelligence du travail sur cette page. Facultatif : apportez votre propre HR (Bayzat, Personio, Gusto) et Sundae lit toujours le même signal.",
+        "description": "Crew gère la planification, le temps et les présences, la paie multirégionale (États-Unis, Canada, Royaume-Uni, UE, GCC - un seul moteur) et plus de 60 surfaces RH - chaque quart, chaque heure et chaque cycle de paie devient le signal qui alimente l'intelligence de la main-d'œuvre sur cette page. Facultatif : apportez votre propre HR (Bayzat, Personio, Gusto) et Sundae lit toujours le même signal.",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "Voyez votre travail en mouvement.",
@@ -385,8 +385,8 @@ export const generatedLocalCopy = {
       "description": "Variação de mão de obra ativa por local. Risco de horas extras sinalizado antes de acontecer. Produtividade medida por hora FOH, não por período de pagamento.",
       "primaryCta": "Agende uma avaliação trabalhista",
       "secondaryCta": "Veja Demonstração Trabalhista",
-      "problemsEyebrow": "ONDE O TRABALHO VAZ",
-      "problemsTitle": "Onde o orçamento trabalhista vaza",
+      "problemsEyebrow": "ONDE A MÃO DE OBRA VAZA",
+      "problemsTitle": "Onde o orçamento de mão de obra vaza",
       "problemsDescription": "Cronogramas construídos por instinto, variações descobertas após a folha de pagamento.",
       "challenges": [
         {
@@ -395,13 +395,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Programações baseadas nas capas da semana passada",
-          "description": "A demanda mudou. O cronograma não. A % de mão de obra acompanha isso.",
+          "title": "Escalas baseadas nos clientes da semana passada",
+          "description": "A demanda mudou. A escala não. A % de mão de obra desvia junto.",
           "icon": "operators"
         },
         {
           "title": "Produtividade relatada, não acionável",
-          "description": "Você conhece as coberturas por hora FOH por mês. Nem por turno, nem por servidor, nem na hora de treinar.",
+          "description": "Você conhece os clientes por hora FOH por mês. Nem por turno, nem por garçom, nem a tempo de treinar.",
           "icon": "performance"
         },
         {
@@ -426,14 +426,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Produtividade por hora FOH, por servidor",
-          "description": "Coberturas/hora, vendas/hora, taxa de upsell - por servidor, por turno. Treine com números, não com impressões.",
+          "title": "Produtividade por hora FOH, por garçom",
+          "description": "Clientes/hora, vendas/hora, taxa de upsell - por garçom, por turno. Treine com números, não com impressões.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Programe recomendações a partir da demanda",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Recomendações de escala a partir da demanda",
+          "description": "O Foresight projeta os clientes com 14 dias de antecedência - o Sundae sugere o plano de mão de obra correspondente.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -452,20 +452,20 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Produtividade do servidor que você pode comparar",
-          "description": "Produtividade ao vivo por turno que oferece suporte a coaching, avaliações e ligações promocionais.",
+          "title": "Produtividade do garçom que você pode comparar",
+          "description": "Produtividade ao vivo por turno que embasa treinamento, avaliações e decisões de promoção.",
           "icon": "owners"
         },
         {
-          "title": "Horários que combinam com o andar",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Escalas que combinam com o salão",
+          "description": "Escalas orientadas pela demanda, construídas sobre as projeções do Foresight - não sobre o padrão da semana passada.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "APOIADO PELA EQUIPE DO SUNDAE",
         "title": "O substrato operacional que alimenta esta inteligência.",
-        "description": "A equipe administra agendamento, horário e presença, folha de pagamento multirregional (EUA, Canadá, Reino Unido, UE, GCC - um mecanismo) e mais de 60 superfícies de RH - cada turno, hora e ciclo de pagamento tornando-se um sinal que alimenta a inteligência trabalhista nesta página. Opcional: traga seu próprio RH (Bayzat, Personio, Gusto) e o Sundae ainda lê o mesmo sinal.",
+        "description": "O Crew administra escala, ponto e presença, folha de pagamento multirregional (EUA, Canadá, Reino Unido, UE, GCC - um motor) e mais de 60 superfícies de RH - cada turno, hora e ciclo de pagamento se torna um sinal que alimenta a inteligência de mão de obra nesta página. Opcional: traga seu próprio RH (Bayzat, Personio, Gusto) e o Sundae continua lendo o mesmo sinal.",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "Veja seu trabalho em movimento.",
@@ -489,13 +489,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Schema's gebaseerd op de covers van vorige week",
-          "description": "De vraag is verplaatst. Het schema niet. Het percentage arbeid drijft mee.",
+          "title": "Schema's gebaseerd op de gasten van vorige week",
+          "description": "De vraag is verschoven. Het rooster niet. Het arbeidspercentage drijft mee.",
           "icon": "operators"
         },
         {
           "title": "Productiviteit gerapporteerd, niet uitvoerbaar",
-          "description": "U kent de dekkingen per FOH-uur per maand. Niet per dienst, niet per server, niet op tijd om te coachen.",
+          "description": "U kent de gasten per FOH-uur per maand. Niet per dienst, niet per bediening, niet op tijd om te coachen.",
           "icon": "performance"
         },
         {
@@ -520,8 +520,8 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Productiviteit per FOH-uur, per server",
-          "description": "Covers/uur, verkoop/uur, upsell-percentage - per server, per dienst. Coach met cijfers, niet met indrukken.",
+          "title": "Productiviteit per FOH-uur, per bediening",
+          "description": "Gasten/uur, omzet/uur, upsell-percentage - per bediening, per dienst. Coach met cijfers, niet met indrukken.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
@@ -546,23 +546,23 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Serverproductiviteit die u kunt vergelijken",
-          "description": "Live productiviteit per ploegendienst die coaching, beoordelingen en promotiegesprekken ondersteunt.",
+          "title": "Bedieningsproductiviteit die u kunt vergelijken",
+          "description": "Live productiviteit per dienst die coaching, beoordelingen en promotiebeslissingen ondersteunt.",
           "icon": "owners"
         },
         {
-          "title": "Schema’s passend bij de vloer",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Roosters die passen bij de vloer",
+          "description": "Vraaggestuurde roosters gebouwd op Foresight-projecties - niet het patroon van vorige week.",
           "icon": "support"
         }
       ],
       "crewCallout": {
-        "eyebrow": "GESTEUND DOOR SUNDAE-BEMANNING",
+        "eyebrow": "AANGEDREVEN DOOR SUNDAE CREW",
         "title": "Het operationele substraat dat deze intelligentie voedt.",
         "description": "Crew beheert planning, tijdregistratie, loonadministratie voor meerdere regio's (VS, Canada, VK, EU, GCC - één engine) en meer dan 60 HR-oppervlakken - elke dienst, uur en betaalcyclus wordt een signaal dat de arbeidsintelligentie op deze pagina aanstuurt. Optioneel: neem je eigen HR mee (Bayzat, Personio, Gusto) en Sundae leest nog steeds hetzelfde signaal.",
         "ctaText": "Ontdek Sundae Crew"
       },
-      "ctaTitle": "Zie uw bevalling in beweging.",
+      "ctaTitle": "Zie uw personeel in beweging.",
       "ctaDescription": "30 minuten. Jouw schema. De OT die je zou hebben gepakt voordat hij landde.",
       "ctaButton": "Boek een Labor Walk-through"
     },
@@ -594,7 +594,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "غیر حاضری پر کوئی ابتدائی انتباہ نہیں۔",
-          "description": "خراب تبدیلی اس وقت شروع ہوتی ہے جب شام 4:15 پر کوئی شو نہیں آتا ہے۔ آپ کل کے ریکاپ میں اس کے بارے میں سنیں گے۔",
+          "description": "خراب شفٹ اس وقت شروع ہوتی ہے جب شام 4:15 پر کوئی نو-شو ہوتا ہے۔ آپ کل کے خلاصے میں اس کے بارے میں سنیں گے۔",
           "icon": "support"
         }
       ],
@@ -620,8 +620,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "مانگ سے سفارشات کا شیڈول بنائیں",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "مانگ سے شیڈول کی سفارشات",
+          "description": "Foresight 14 دن پہلے مہمانوں کی تعداد کی پیش گوئی کرتا ہے - Sundae اس سے مماثل لیبر پلان تجویز کرتا ہے۔",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -645,8 +645,8 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "شیڈول جو فرش سے ملتے ہیں۔",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "شیڈول جو ہال سے میل کھاتے ہیں۔",
+          "description": "مانگ پر مبنی شیڈول جو Foresight کی پیش گوئیوں پر بنائے گئے ہیں - نہ کہ پچھلے ہفتے کے انداز پر۔",
           "icon": "support"
         }
       ],
@@ -688,7 +688,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "अनुपस्थिति पर कोई पूर्व चेतावनी नहीं",
-          "description": "ख़राब बदलाव तब शुरू होता है जब शाम 4:15 बजे कोई शो नहीं आता। आप इसके बारे में कल के पुनर्कथन में सुनेंगे।",
+          "description": "ख़राब शिफ्ट तब शुरू होती है जब शाम 4:15 बजे कोई नो-शो होता है। आप इसके बारे में कल के सारांश में सुनेंगे।",
           "icon": "support"
         }
       ],
@@ -714,8 +714,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "मांग से अनुसूची अनुशंसाएँ",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "मांग से शेड्यूल की अनुशंसाएँ",
+          "description": "Foresight 14 दिन पहले मेहमानों की संख्या का पूर्वानुमान लगाता है - Sundae उससे मेल खाने वाली श्रम योजना सुझाता है।",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -739,8 +739,8 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "अनुसूचियाँ जो फर्श से मेल खाती हैं",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "शेड्यूल जो फ़्लोर से मेल खाते हैं",
+          "description": "मांग-संचालित शेड्यूल जो Foresight के पूर्वानुमानों पर बने हैं - न कि पिछले सप्ताह के पैटर्न पर।",
           "icon": "support"
         }
       ],
@@ -761,8 +761,8 @@ export const generatedLocalCopy = {
       "description": "Różnice w pracy na żywo według lokalizacji. Ryzyko wystąpienia nadgodzin jest sygnalizowane, zanim do nich dojdzie. Produktywność mierzona na godzinę FOH, a nie na okres rozliczeniowy.",
       "primaryCta": "Zarezerwuj spacer po pracy",
       "secondaryCta": "Zobacz Demo Pracy",
-      "problemsEyebrow": "GDZIE WYCIEKA PRACY",
-      "problemsTitle": "Gdzie przecieka budżet pracy",
+      "problemsEyebrow": "GDZIE WYCIEKA ROBOCIZNA",
+      "problemsTitle": "Gdzie przecieka budżet na personel",
       "problemsDescription": "Harmonogramy tworzone na podstawie instynktu, rozbieżności wykryte po rozliczeniu płac.",
       "challenges": [
         {
@@ -771,13 +771,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Harmonogramy zbudowane na okładkach z zeszłego tygodnia",
-          "description": "Popyt się przesunął. Harmonogram nie. % pracy dryfuje wraz z nim.",
+          "title": "Harmonogramy oparte na gościach z zeszłego tygodnia",
+          "description": "Popyt się przesunął. Harmonogram nie. % robocizny dryfuje wraz z nim.",
           "icon": "operators"
         },
         {
           "title": "Produktywność zgłoszona, brak możliwości podjęcia działań",
-          "description": "Znasz okładki na FOH godzina po miesiącu. Nie na zmianę, nie na serwerze, nie na czas, aby trenować.",
+          "description": "Znasz liczbę gości na godzinę FOH w skali miesiąca. Nie na zmianę, nie na kelnera, nie na czas, by coachować.",
           "icon": "performance"
         },
         {
@@ -802,14 +802,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Wydajność na godzinę FOH na serwer",
-          "description": "Obejmuje/godzinę, sprzedaż/godzinę, stawkę dodatkowej sprzedaży - na serwer, na zmianę. Trenuj liczbami, a nie wrażeniami.",
+          "title": "Wydajność na godzinę FOH, na kelnera",
+          "description": "Goście/godzinę, sprzedaż/godzinę, wskaźnik dosprzedaży - na kelnera, na zmianę. Coachuj liczbami, a nie wrażeniami.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Zaplanuj rekomendacje na podstawie zapotrzebowania",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Rekomendacje grafiku na podstawie popytu",
+          "description": "Foresight prognozuje liczbę gości na 14 dni naprzód - Sundae sugeruje dopasowany plan personelu.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -828,8 +828,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Produktywność serwerów, którą możesz porównać",
-          "description": "Produktywność na żywo na zmianę, która wspiera coaching, recenzje i rozmowy promocyjne.",
+          "title": "Produktywność kelnerów, którą możesz porównać",
+          "description": "Produktywność na żywo na zmianę, która wspiera coaching, oceny i decyzje o awansie.",
           "icon": "owners"
         },
         {
@@ -839,9 +839,9 @@ export const generatedLocalCopy = {
         }
       ],
       "crewCallout": {
-        "eyebrow": "WSPARCIE PRZEZ ZAŁOGĘ SUNDAE",
-        "title": "Podłoże operacyjne, które zasila tę inteligencję.",
-        "description": "Załoga zarządza harmonogramem, czasem i frekwencją, listą płac w wielu regionach (USA, Kanada, Wielka Brytania, UE, GCC - jeden silnik) i ponad 60 powierzchni HR - każda zmiana, godzina i cykl płac stają się sygnałem napędzającym wywiad pracowniczy na tej stronie. Opcjonalnie: przynieś swój własny HR (Bayzat, Personio, Gusto), a Sundae nadal odczytuje ten sam sygnał.",
+        "eyebrow": "NAPĘDZANE PRZEZ SUNDAE CREW",
+        "title": "Operacyjne podłoże, które zasila tę inteligencję.",
+        "description": "Crew zarządza grafikiem, czasem i obecnością, listą płac w wielu regionach (USA, Kanada, Wielka Brytania, UE, GCC - jeden silnik) i ponad 60 powierzchniami HR - każda zmiana, godzina i cykl płac staje się sygnałem napędzającym inteligencję personalną na tej stronie. Opcjonalnie: przynieś własne HR (Bayzat, Personio, Gusto), a Sundae nadal odczytuje ten sam sygnał.",
         "ctaText": "Poznaj Sundae Crew"
       },
       "ctaTitle": "Zobacz swoją pracę w ruchu.",
@@ -855,8 +855,8 @@ export const generatedLocalCopy = {
       "description": "Variazione della manodopera viva in base alla località. Il rischio di straordinario è segnalato prima che si verifichi. Produttività misurata per ora FOH, non per periodo di paga.",
       "primaryCta": "Prenota una visita guidata del lavoro",
       "secondaryCta": "Vedi Demo del lavoro",
-      "problemsEyebrow": "DOVE LA LAVORO PERDE",
-      "problemsTitle": "Dove il bilancio del lavoro perde",
+      "problemsEyebrow": "DOVE SI DISPERDE LA MANODOPERA",
+      "problemsTitle": "Dove si disperde il budget del personale",
       "problemsDescription": "Orari costruiti sull'istinto, varianza scoperta dopo il libro paga.",
       "challenges": [
         {
@@ -865,13 +865,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Orari basati sulle copertine della settimana scorsa",
-          "description": "La domanda si è spostata. Il programma no. La percentuale di lavoro va alla deriva con esso.",
+          "title": "Orari basati sui coperti della settimana scorsa",
+          "description": "La domanda si è spostata. L'orario no. La percentuale di manodopera va alla deriva con essa.",
           "icon": "operators"
         },
         {
           "title": "Produttività segnalata, non utilizzabile",
-          "description": "Conosci le coperture per ora FOH per mese. Non per turno, non per server, non in tempo per allenare.",
+          "description": "Conosci i coperti per ora FOH al mese. Non per turno, non per cameriere, non in tempo per fare coaching.",
           "icon": "performance"
         },
         {
@@ -881,7 +881,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howTitle": "Come funziona Sundae per le risorse umane e le persone",
-      "howDescription": "Segnale di travaglio in tempo reale, prevenzione OT, produttività alla granularità dei turni.",
+      "howDescription": "Segnale di manodopera in tempo reale, prevenzione OT, produttività alla granularità del turno.",
       "howSundaeHelps": [
         {
           "title": "% manodopera viva per località",
@@ -896,14 +896,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Produttività per ora FOH, per server",
-          "description": "Coperti/ora, vendite/ora, tasso di upselling: per server, per turno. Allenatore con numeri, non impressioni.",
+          "title": "Produttività per ora FOH, per cameriere",
+          "description": "Coperti/ora, vendite/ora, tasso di upselling: per cameriere, per turno. Fai coaching con i numeri, non con le impressioni.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Pianifica i consigli dalla domanda",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Consigli di turnazione dalla domanda",
+          "description": "Foresight proietta i coperti con 14 giorni di anticipo - Sundae suggerisce il piano del personale corrispondente.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -922,30 +922,30 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Produttività del server che puoi confrontare",
-          "description": "Produttività in tempo reale, per turno, che supporta coaching, revisioni e chiamate promozionali.",
+          "title": "Produttività del cameriere che puoi confrontare",
+          "description": "Produttività in tempo reale, per turno, che supporta coaching, valutazioni e decisioni di promozione.",
           "icon": "owners"
         },
         {
-          "title": "Orari che corrispondono al pavimento",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Orari che rispecchiano la sala",
+          "description": "Orari guidati dalla domanda, costruiti sulle proiezioni di Foresight - non sul ritmo della settimana scorsa.",
           "icon": "support"
         }
       ],
       "crewCallout": {
-        "eyebrow": "SUPPORTATO DALL'EQUIPAGGIO DEL SUNDAE",
+        "eyebrow": "ALIMENTATO DA SUNDAE CREW",
         "title": "Il substrato operativo che alimenta questa intelligenza.",
-        "description": "Il team gestisce la pianificazione, orari e presenze, buste paga multi-regione (Stati Uniti, Canada, Regno Unito, UE, GCC - un motore) e oltre 60 superfici HR: ogni turno, ora e ciclo di retribuzione diventa un segnale che alimenta l'intelligence sul lavoro in questa pagina. Opzionale: porta il tuo HR (Bayzat, Personio, Gusto) e Sundae leggerà ancora lo stesso segnale.",
+        "description": "Crew gestisce la pianificazione dei turni, orari e presenze, buste paga multi-regione (Stati Uniti, Canada, Regno Unito, UE, GCC - un solo motore) e oltre 60 superfici HR: ogni turno, ora e ciclo di retribuzione diventa un segnale che alimenta l'intelligence sulla manodopera in questa pagina. Opzionale: porta il tuo HR (Bayzat, Personio, Gusto) e Sundae continuerà a leggere lo stesso segnale.",
         "ctaText": "Esplora Sundae Crew"
       },
-      "ctaTitle": "Guarda il tuo travaglio in movimento.",
+      "ctaTitle": "Guarda la tua manodopera in movimento.",
       "ctaDescription": "30 minuti. Il tuo programma. L'OT che avresti catturato prima che atterrasse.",
       "ctaButton": "Prenota una visita guidata del lavoro"
     },
     "zh-Hans": {
       "badge": "对于人力资源和人员团队",
-      "titleLine1": "轮班时间表。",
-      "titleLine2": "上周还没有。",
+      "titleLine1": "为当前班次排班。",
+      "titleLine2": "而非沿用上周。",
       "description": "不同地点的实时劳动力差异。加班风险在发生之前就被标记出来。生产力是按 FOH 小时而不是按工资周期来衡量的。",
       "primaryCta": "预约劳工演练",
       "secondaryCta": "查看劳动演示",
@@ -959,18 +959,18 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "根据上周封面制定的时间表",
-          "description": "需求发生了变化。时间表还没有。劳动力百分比随之变化。",
+          "title": "根据上周客流量制定的排班",
+          "description": "需求已经变化，排班却没有。劳动力百分比随之偏移。",
           "icon": "operators"
         },
         {
           "title": "已报告生产力，但不可采取行动",
-          "description": "您可以了解每月每个 FOH 小时的覆盖范围。不是轮班，不是服务员，不是及时指导。",
+          "description": "您只知道每月每个 FOH 小时的客流量。不分班次，不分服务员，也来不及辅导。",
           "icon": "performance"
         },
         {
           "title": "没有缺勤预警",
-          "description": "当下午 4:15 没有出现时，糟糕的转变就开始了。你会在明天的回顾中听到这一点。",
+          "description": "当下午 4:15 有人缺勤未到时，糟糕的班次就开始了。你要到明天的回顾里才会知道。",
           "icon": "support"
         }
       ],
@@ -990,8 +990,8 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "每台服务器每 FOH 小时的生产力",
-          "description": "覆盖/小时、销售/小时、追加销售率--每台服务器、每班次。用数字而不是印象来指导。",
+          "title": "每位服务员每 FOH 小时的生产力",
+          "description": "客流/小时、销售额/小时、追加销售率——按服务员、按班次。用数字而非印象来辅导。",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
@@ -1011,13 +1011,13 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "工党每周接近计划的百分比",
-          "description": "方差从每月的混乱缩小到每周的精确度。",
+          "title": "劳动力百分比每周更贴近计划",
+          "description": "差异从每月的混乱收窄到每周的精确。",
           "icon": "performance"
         },
         {
-          "title": "您可以比较的服务器生产力",
-          "description": "实时的、每班次的生产力，支持辅导、审查和晋升电话。",
+          "title": "可供横向对比的服务员生产力",
+          "description": "实时、按班次的生产力，支撑辅导、绩效评估和晋升决策。",
           "icon": "owners"
         },
         {
@@ -1027,8 +1027,8 @@ export const generatedLocalCopy = {
         }
       ],
       "crewCallout": {
-        "eyebrow": "由圣代团队支持",
-        "title": "提供这种情报的操作基础。",
+        "eyebrow": "由 SUNDAE CREW 提供支持",
+        "title": "支撑这套智能的运营底座。",
         "description": "Crew 负责调度、考勤、多地区薪资（美国、加拿大、英国、欧盟、海湾合作委员会 - 一个引擎）和 60 多个 HR 界面 - 每个班次、每个小时和薪资周期都成为为该页面上的劳动力情报提供动力的信号。可选：带上您自己的 HR（Bayzat、Personio、Gusto），Sundae仍然读取相同的信号。",
         "ctaText": "Explore Sundae Crew"
       },
@@ -1053,18 +1053,18 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Geçen haftanın kapaklarına göre oluşturulan programlar",
-          "description": "Talep taşındı. Programda öyle değil. İşgücü yüzdesi de onunla birlikte sürükleniyor.",
+          "title": "Geçen haftanın misafir sayısına göre oluşturulan programlar",
+          "description": "Talep değişti. Program değişmedi. İşgücü yüzdesi de onunla birlikte kayıyor.",
           "icon": "operators"
         },
         {
           "title": "Üretkenlik rapor edildi, işlem yapılabilir değil",
-          "description": "Aylık FOH saati başına teminatları biliyorsunuz. Vardiyaya göre değil, sunucuya göre değil, antrenöre zamanında değil.",
+          "description": "Aylık FOH saati başına misafir sayısını biliyorsunuz. Vardiyaya göre değil, garsona göre değil, koçluk yapmaya yetişecek zamanda değil.",
           "icon": "performance"
         },
         {
           "title": "Devamsızlık konusunda erken uyarı yok",
-          "description": "Kötü vardiya, rezervasyonun kullanılmaması saat 16:15'e indiğinde başlar. Yarınki özette bunu duyacaksınız.",
+          "description": "Kötü vardiya, saat 16:15'te bir gelmeme (no-show) yaşandığında başlar. Bunu yarınki özette duyarsınız.",
           "icon": "support"
         }
       ],
@@ -1084,14 +1084,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Sunucu başına FOH saati başına üretkenlik",
-          "description": "Kapsam/saat, satış/saat, ek satış oranı - sunucu başına, vardiya başına. Gösterimlerle değil, rakamlarla koçluk yapın.",
+          "title": "Garson başına FOH saati başına üretkenlik",
+          "description": "Misafir/saat, satış/saat, ek satış oranı - garson başına, vardiya başına. İzlenimlerle değil, rakamlarla koçluk yapın.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Talepten gelen önerileri planlayın",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Talepten gelen vardiya önerileri",
+          "description": "Foresight misafir sayısını 14 gün öncesinden tahmin eder - Sundae buna uyan işgücü planını önerir.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1110,24 +1110,24 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Karşılaştırabileceğiniz sunucu üretkenliği",
-          "description": "Koçluk, incelemeler ve promosyon çağrılarını destekleyen canlı, vardiya başına üretkenlik.",
+          "title": "Karşılaştırabileceğiniz garson üretkenliği",
+          "description": "Koçluğu, değerlendirmeleri ve terfi kararlarını destekleyen canlı, vardiya başına üretkenlik.",
           "icon": "owners"
         },
         {
-          "title": "Zemine uygun programlar",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Salona uygun programlar",
+          "description": "Foresight tahminlerine dayalı, talep odaklı programlar - geçen haftanın düzeni değil.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "SUNDAE EKİP TARAFINDAN DESTEKLENİYOR",
         "title": "Bu zekayı besleyen operasyonel alt tabaka.",
-        "description": "Mürettebat planlama, zaman ve katılım, çok bölgeli maaş bordrosu (ABD, Kanada, İngiltere, AB, GCC - tek motor) ve 60'tan fazla İK yüzeyini çalıştırır; her vardiya, saat ve maaş döngüsü bu sayfadaki iş zekasını güçlendiren bir sinyal haline gelir. İsteğe bağlı: Kendi HR'nizi (Bayzat, Personio, Gusto) getirin ve Sundae hala aynı sinyali okusun.",
+        "description": "Crew; vardiya planlamasını, zaman ve devam takibini, çok bölgeli bordroyu (ABD, Kanada, İngiltere, AB, GCC - tek motor) ve 60'tan fazla İK yüzeyini çalıştırır; her vardiya, saat ve bordro döngüsü bu sayfadaki işgücü zekasını besleyen bir sinyale dönüşür. İsteğe bağlı: kendi HR'nizi (Bayzat, Personio, Gusto) getirin, Sundae yine aynı sinyali okur.",
         "ctaText": "Sundae Crew'u keşfedin"
       },
       "ctaTitle": "Emeğinizi hareket halinde görün.",
-      "ctaDescription": "30 dakika. Programınız. Uzatma'yı inmeden önce yakalardınız.",
+      "ctaDescription": "30 dakika. Sizin programınız. İnmeden önce yakalayacağınız OT.",
       "ctaButton": "İşçilik İncelemesi Rezervasyonu Yapın"
     },
     "ja": {
@@ -1135,8 +1135,8 @@ export const generatedLocalCopy = {
       "titleLine1": "シフトのスケジュール。",
       "titleLine2": "先週のことではありません。",
       "description": "場所ごとの実際の労働力の差異。残業のリスクが発生する前にフラグが立てられます。生産性は給与期間ごとではなく、FOH 時間ごとに測定されます。",
-      "primaryCta": "分娩ウォークスルーを予約する",
-      "secondaryCta": "労働デモを見る",
+      "primaryCta": "労務ウォークスルーを予約する",
+      "secondaryCta": "労務デモを見る",
       "problemsEyebrow": "労働力が漏れる場所",
       "problemsTitle": "労働予算が漏れる場所",
       "problemsDescription": "スケジュールは本能に基づいて作成され、差異は給与計算後に判明します。",
@@ -1147,13 +1147,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "先週の表紙に基づいて作成されたスケジュール",
-          "description": "需要が移動しました。スケジュールは決まっていない。労働率はそれに伴い変動します。",
+          "title": "先週の客数に基づいて作成されたスケジュール",
+          "description": "需要は変化しました。スケジュールは変わっていません。労働率もそれに伴ってずれていきます。",
           "icon": "operators"
         },
         {
           "title": "生産性は報告されましたが、実用的ではありません",
-          "description": "FOH 時間ごとのカバーを月ごとに把握できます。シフトごとではなく、サーバーごとでも、コーチングに間に合いません。",
+          "description": "FOH 時間あたりの客数を月単位で把握できます。シフトごとでも、接客スタッフごとでもなく、コーチングに間に合いません。",
           "icon": "performance"
         },
         {
@@ -1178,14 +1178,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "サーバーごとの FOH 時間あたりの生産性",
-          "description": "カバー/時間、売上/時間、アップセル率 - サーバーごと、シフトごと。印象ではなく数字でコーチングする。",
+          "title": "接客スタッフごと・FOH 時間あたりの生産性",
+          "description": "客数/時間、売上/時間、アップセル率 - 接客スタッフごと、シフトごと。印象ではなく数字でコーチングする。",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "需要に応じた推奨事項をスケジュールする",
-          "description": "Foresightの明のあるプロジェクトは 14 日間をカバーします。Sundaeは、それに合った労働計画を提案します。",
+          "title": "需要に応じたシフトの推奨",
+          "description": "Foresight は 14 日先までの客数を予測します。Sundae はそれに合った人員計画を提案します。",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1204,8 +1204,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "比較できるサーバーの生産性",
-          "description": "コーチング、レビュー、プロモーションコールをサポートする、シフトごとのライブ生産性。",
+          "title": "比較できる接客スタッフの生産性",
+          "description": "コーチング、評価、昇進の判断を支える、シフトごとのライブ生産性。",
           "icon": "owners"
         },
         {
@@ -1215,14 +1215,14 @@ export const generatedLocalCopy = {
         }
       ],
       "crewCallout": {
-        "eyebrow": "サンデークルーがサポート",
-        "title": "このインテリジェンスを供給する運用基盤。",
-        "description": "乗務員は、スケジュール、勤怠管理、複数地域の給与計算 (米国、カナダ、英国、EU、GCC - 1 つのエンジン)、および 60 以上の HR サーフェスを実行します。すべてのシフト、時間、給与サイクルが、このページの労働インテリジェンスを強化するシグナルとなります。オプション: 独自の HR (Bayzat、Personalio、Gusto) を持参しても、Sundae は同じ信号を読み取ります。",
+        "eyebrow": "SUNDAE CREW によるサポート",
+        "title": "このインテリジェンスを支える運用基盤。",
+        "description": "Crew は、シフト管理、勤怠管理、複数地域の給与計算 (米国、カナダ、英国、EU、GCC - 1 つのエンジン)、および 60 以上の HR サーフェスを実行します。すべてのシフト、時間、給与サイクルが、このページの労務インテリジェンスを支えるシグナルとなります。オプション: 独自の HR (Bayzat、Personio、Gusto) を持参しても、Sundae は同じシグナルを読み取ります。",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "あなたの出産の動きを見てください。",
-      "ctaDescription": "30分。あなたのスケジュール。着地する前に捕まえたはずのOT。",
-      "ctaButton": "分娩ウォークスルーを予約する"
+      "ctaTitle": "あなたの労務をリアルタイムで見てください。",
+      "ctaDescription": "30分。あなたのスケジュール。着地する前に捕まえられたはずのOT。",
+      "ctaButton": "労務ウォークスルーを予約する"
     },
     "sv": {
       "badge": "För HR & People Teams",
@@ -1231,8 +1231,8 @@ export const generatedLocalCopy = {
       "description": "Skillnad i levande arbete efter plats. Övertidsrisk flaggad innan den inträffar. Produktivitet mätt per FOH-timme, inte per löneperiod.",
       "primaryCta": "Boka en Labor Walk-through",
       "secondaryCta": "Se Labor Demo",
-      "problemsEyebrow": "DÄR ARBETSLÄCKA",
-      "problemsTitle": "Där arbetsbudgeten läcker",
+      "problemsEyebrow": "DÄR ARBETSKRAFTEN LÄCKER",
+      "problemsTitle": "Där personalbudgeten läcker",
       "problemsDescription": "Scheman byggda på instinkt, varians upptäckt efter löneutbetalning.",
       "challenges": [
         {
@@ -1241,13 +1241,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Scheman bygger på förra veckans omslag",
-          "description": "Efterfrågan har flyttat. Schemat har inte. Arbetskraft % driver med det.",
+          "title": "Scheman byggda på förra veckans gäster",
+          "description": "Efterfrågan har flyttat sig. Schemat har inte. Arbetskraftsprocenten driver med den.",
           "icon": "operators"
         },
         {
           "title": "Produktivitet rapporterad, inte åtgärdsbar",
-          "description": "Du vet täckningar per FOH timme för månad. Inte per skift, inte per server, inte i tid för att coacha.",
+          "description": "Du känner till gäster per FOH-timme per månad. Inte per skift, inte per servitör, inte i tid för att coacha.",
           "icon": "performance"
         },
         {
@@ -1272,14 +1272,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Produktivitet per FOH-timme, per server",
-          "description": "Täcker/timme, försäljning/timme, merförsäljningshastighet - per server, per skift. Coach med siffror, inte intryck.",
+          "title": "Produktivitet per FOH-timme, per servitör",
+          "description": "Gäster/timme, försäljning/timme, merförsäljningsgrad - per servitör, per skift. Coacha med siffror, inte intryck.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Schemalägg rekommendationer från efterfrågan",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Schemarekommendationer från efterfrågan",
+          "description": "Foresight prognostiserar gästantalet 14 dagar framåt - Sundae föreslår den personalplan som matchar.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1298,20 +1298,20 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Serverproduktivitet du kan jämföra",
-          "description": "Live produktivitet per skift som stödjer coaching, recensioner och marknadsföringssamtal.",
+          "title": "Servitörsproduktivitet du kan jämföra",
+          "description": "Live produktivitet per skift som stödjer coaching, utvärderingar och befordringsbeslut.",
           "icon": "owners"
         },
         {
-          "title": "Schema som matchar golvet",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Scheman som matchar verksamheten",
+          "description": "Efterfrågestyrda scheman byggda på Foresight-prognoser - inte förra veckans mönster.",
           "icon": "support"
         }
       ],
       "crewCallout": {
-        "eyebrow": "UPPSATS AV SUNDAE CREW",
+        "eyebrow": "DRIVS AV SUNDAE CREW",
         "title": "Det operativa substratet som matar denna intelligens.",
-        "description": "Besättningen kör schemaläggning, tid och närvaro, lönelista i flera regioner (USA, Kanada, Storbritannien, EU, GCC - en motor) och 60+ HR-ytor - varje skift, timme och lönecykel blir en signal som driver arbetsinformationen på den här sidan. Valfritt: ta med din egen HR (Bayzat, Personio, Gusto) och Sundae läser fortfarande samma signal.",
+        "description": "Crew sköter schemaläggning, tid och närvaro, lönehantering i flera regioner (USA, Kanada, Storbritannien, EU, GCC - en motor) och 60+ HR-ytor - varje skift, timme och lönecykel blir en signal som driver arbetskraftsintelligensen på den här sidan. Valfritt: ta med din egen HR (Bayzat, Personio, Gusto) och Sundae läser fortfarande samma signal.",
         "ctaText": "Utforska Sundae Crew"
       },
       "ctaTitle": "Se ditt arbete i rörelse.",
@@ -1330,18 +1330,18 @@ export const generatedLocalCopy = {
       "problemsDescription": "Jadwal dibangun berdasarkan insting, varians ditemukan setelah pembayaran gaji.",
       "challenges": [
         {
-          "title": "Eksposur PL tidak terlihat sampai gajian",
+          "title": "Eksposur OT tidak terlihat sampai gajian",
           "description": "Pada saat Anda melihat garis lembur, Anda sudah membayarnya.",
           "icon": "balance"
         },
         {
-          "title": "Jadwal dibuat berdasarkan sampul minggu lalu",
-          "description": "Permintaan telah berpindah. Jadwalnya belum. % tenaga kerja ikut terbawa arus.",
+          "title": "Jadwal dibuat berdasarkan jumlah tamu minggu lalu",
+          "description": "Permintaan telah bergeser. Jadwalnya belum. % tenaga kerja ikut bergeser bersamanya.",
           "icon": "operators"
         },
         {
           "title": "Produktivitas dilaporkan, tidak dapat ditindaklanjuti",
-          "description": "Anda tahu cakupan per FOH jam per bulan. Tidak berdasarkan shift, tidak berdasarkan server, tidak berdasarkan waktu untuk melatih.",
+          "description": "Anda tahu jumlah tamu per jam FOH per bulan. Bukan per shift, bukan per pelayan, bukan tepat waktu untuk membina.",
           "icon": "performance"
         },
         {
@@ -1360,20 +1360,20 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Paparan PL sebelum terjadi",
-          "description": "Sundae memperkirakan jalur Lembur berdasarkan lokasi untuk sisa minggu ini - jadi Anda mendistribusikan ulang jam kerja, bukan menanggung biayanya.",
+          "title": "Eksposur OT sebelum terjadi",
+          "description": "Sundae memperkirakan garis OT berdasarkan lokasi untuk sisa minggu ini - jadi Anda mendistribusikan ulang jam kerja, bukan menanggung biayanya.",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
-          "title": "Produktivitas per jam FOH, per server",
-          "description": "Penutupan/jam, penjualan/jam, tingkat penjualan - per server, per shift. Pelatih dengan angka, bukan kesan.",
+          "title": "Produktivitas per jam FOH, per pelayan",
+          "description": "Tamu/jam, penjualan/jam, tingkat upsell - per pelayan, per shift. Bina dengan angka, bukan kesan.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Jadwalkan rekomendasi dari permintaan",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Rekomendasi jadwal dari permintaan",
+          "description": "Foresight memproyeksikan jumlah tamu 14 hari ke depan - Sundae menyarankan rencana tenaga kerja yang sesuai.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1382,7 +1382,7 @@ export const generatedLocalCopy = {
       "outcomesDescription": "Jadwal yang lebih ketat, lebih sedikit kejutan, produktivitas dapat Anda tunjukkan.",
       "outcomes": [
         {
-          "title": "Potong paparan PL sebelum mendarat",
+          "title": "Pangkas eksposur OT sebelum terjadi",
           "description": "Alokasikan kembali jam kerja pada pertengahan minggu, bukan setelah proses penggajian.",
           "icon": "speed"
         },
@@ -1392,8 +1392,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Produktivitas server dapat Anda bandingkan",
-          "description": "Produktivitas langsung per shift yang mendukung pelatihan, ulasan, dan panggilan promosi.",
+          "title": "Produktivitas pelayan yang dapat Anda bandingkan",
+          "description": "Produktivitas langsung per shift yang mendukung pembinaan, evaluasi, dan keputusan promosi.",
           "icon": "owners"
         },
         {
@@ -1405,11 +1405,11 @@ export const generatedLocalCopy = {
       "crewCallout": {
         "eyebrow": "DIDUKUNG OLEH CREW SUNDAE",
         "title": "Substrat operasional yang mendukung kecerdasan ini.",
-        "description": "Kru menjalankan penjadwalan, waktu & kehadiran, penggajian multi-wilayah (AS, Kanada, Inggris, UE, GCC - satu mesin), dan 60+ permukaan SDM - setiap shift, jam, dan siklus pembayaran menjadi sinyal yang mendukung intelijen ketenagakerjaan di halaman ini. Opsional: bawa HR sendiri (Bayzat, Personio, Gusto) dan Sundae tetap membaca sinyal yang sama.",
+        "description": "Crew menjalankan penjadwalan, waktu & kehadiran, penggajian multi-wilayah (AS, Kanada, Inggris, UE, GCC - satu mesin), dan 60+ permukaan SDM - setiap shift, jam, dan siklus pembayaran menjadi sinyal yang mendukung intelijen ketenagakerjaan di halaman ini. Opsional: bawa HR sendiri (Bayzat, Personio, Gusto) dan Sundae tetap membaca sinyal yang sama.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "Lihat proses persalinan Anda.",
-      "ctaDescription": "30 menit. Jadwal Anda. PL yang pasti Anda tangkap sebelum mendarat.",
+      "ctaTitle": "Lihat tenaga kerja Anda bergerak.",
+      "ctaDescription": "30 menit. Jadwal Anda. OT yang pasti Anda tangkap sebelum terjadi.",
       "ctaButton": "Pesan Panduan Ketenagakerjaan"
     },
     "ko": {
@@ -1429,13 +1429,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "지난주 표지를 바탕으로 만들어진 일정",
-          "description": "수요가 이동했습니다. 일정이 안 나왔네요. 노동 %는 그것과 함께 표류합니다.",
+          "title": "지난주 손님 수를 바탕으로 만들어진 일정",
+          "description": "수요는 이동했습니다. 일정은 그대로입니다. 노동 %도 그에 따라 흔들립니다.",
           "icon": "operators"
         },
         {
           "title": "생산성이 보고되었으나 실행 불가",
-          "description": "FOH 시간당 보장 금액을 월별로 알 수 있습니다. 교대 근무도 아니고, 서버 근무도 아니고, 코치할 시간도 아닙니다.",
+          "description": "FOH 시간당 손님 수를 월별로만 알 수 있습니다. 교대별도, 서버(접객 직원)별도 아니고, 코칭할 시간에 맞춰서도 아닙니다.",
           "icon": "performance"
         },
         {
@@ -1444,7 +1444,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "howTitle": "How Sundae works for HR & People",
+      "howTitle": "Sundae가 HR 및 인력 부문에서 작동하는 방식",
       "howDescription": "실시간 노동 신호, OT 예방, 교대 단위의 생산성.",
       "howSundaeHelps": [
         {
@@ -1460,14 +1460,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "FOH 시간당, 서버당 생산성",
-          "description": "커버/시간, 판매/시간, 상향 판매율 - 서버당, 교대당. 노출이 아닌 숫자로 코치하세요.",
+          "title": "FOH 시간당, 서버(접객 직원)당 생산성",
+          "description": "손님 수/시간, 매출/시간, 상향 판매율 - 서버당, 교대당. 인상이 아닌 숫자로 코칭하세요.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "수요에 따른 추천 예약",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "수요 기반 일정 추천",
+          "description": "Foresight는 14일 앞선 손님 수를 예측합니다 - Sundae는 이에 맞는 인력 계획을 제안합니다.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1486,13 +1486,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "비교할 수 있는 서버 생산성",
-          "description": "코칭, 검토, 프로모션 전화를 지원하는 실시간 교대근무 생산성입니다.",
+          "title": "비교할 수 있는 서버(접객 직원) 생산성",
+          "description": "코칭, 평가, 승진 결정을 뒷받침하는 실시간 교대별 생산성입니다.",
           "icon": "owners"
         },
         {
-          "title": "층에 맞는 일정",
-          "description": "지난주 패턴이 아닌 Foresight Foresight을 바탕으로 구축된 수요 중심 일정입니다.",
+          "title": "매장 상황에 맞는 일정",
+          "description": "지난주 패턴이 아닌 Foresight 예측을 바탕으로 구축된 수요 중심 일정입니다.",
           "icon": "support"
         }
       ],
@@ -1513,8 +1513,8 @@ export const generatedLocalCopy = {
       "description": "Variația forței de muncă în viață în funcție de locație. Riscul de ore suplimentare a fost semnalat înainte de a se întâmpla. Productivitatea măsurată pe oră FOH, nu pe perioadă de plată.",
       "primaryCta": "Rezervați o prezentare a forței de muncă",
       "secondaryCta": "Vezi Demo Muncii",
-      "problemsEyebrow": "UNDE SURGE MUNCĂ",
-      "problemsTitle": "Unde se scurge bugetul muncii",
+      "problemsEyebrow": "UNDE SE SCURGE FORȚA DE MUNCĂ",
+      "problemsTitle": "Unde se scurge bugetul de personal",
       "problemsDescription": "Programe construite pe instinct, varianță descoperită după salarizare.",
       "challenges": [
         {
@@ -1523,13 +1523,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Programe construite pe copertele de săptămâna trecută",
-          "description": "Cererea s-a mutat. Programul nu are. % forța de muncă derivă cu ea.",
+          "title": "Programe construite pe clienții de săptămâna trecută",
+          "description": "Cererea s-a mutat. Programul nu. % forței de muncă derivă odată cu ea.",
           "icon": "operators"
         },
         {
           "title": "Productivitatea raportată, nu poate fi acționată",
-          "description": "Știți acoperiri pe oră FOH de lună. Nu prin schimb, nu pe server, nu la timp pentru a antrena.",
+          "description": "Știți clienții pe oră FOH pe lună. Nu pe tură, nu pe ospătar, nu la timp pentru a face coaching.",
           "icon": "performance"
         },
         {
@@ -1554,14 +1554,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Productivitate pe oră FOH, pe server",
-          "description": "Acoperiri/oră, vânzări/oră, rată de vânzare în plus - pe server, pe tură. Antrenor cu cifre, nu cu impresii.",
+          "title": "Productivitate pe oră FOH, pe ospătar",
+          "description": "Clienți/oră, vânzări/oră, rată de upsell - pe ospătar, pe tură. Faceți coaching cu cifre, nu cu impresii.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Programează recomandări de la cerere",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Recomandări de program din cerere",
+          "description": "Foresight proiectează numărul de clienți cu 14 zile înainte - Sundae sugerează planul de personal care se potrivește.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1580,20 +1580,20 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Productivitatea serverului pe care o puteți compara",
-          "description": "Productivitate live, pe tură, care susține instruirea, recenziile și apelurile de promovare.",
+          "title": "Productivitatea ospătarului pe care o puteți compara",
+          "description": "Productivitate live, pe tură, care susține coaching-ul, evaluările și deciziile de promovare.",
           "icon": "owners"
         },
         {
-          "title": "Programe care se potrivesc cu etajul",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Programe care se potrivesc cu sala",
+          "description": "Programe ghidate de cerere, construite pe proiecțiile Foresight - nu pe tiparul de săptămâna trecută.",
           "icon": "support"
         }
       ],
       "crewCallout": {
-        "eyebrow": "SPRIJUT DE ECHIPAJUL SUNDAE",
+        "eyebrow": "SUSȚINUT DE SUNDAE CREW",
         "title": "Substratul operațional care alimentează această inteligență.",
-        "description": "Echipa rulează programare, timp și prezență, salarizare în mai multe regiuni (SUA, Canada, Marea Britanie, UE, GCC - un singur motor) și peste 60 de suprafețe HR - fiecare tură, oră și ciclu de plată devenind un semnal care alimentează inteligența muncii de pe această pagină. Opțional: aduceți-vă propriul HR (Bayzat, Personio, Gusto) și Sundae citește în continuare același semnal.",
+        "description": "Crew rulează planificarea, pontajul și prezența, salarizarea în mai multe regiuni (SUA, Canada, Marea Britanie, UE, GCC - un singur motor) și peste 60 de suprafețe HR - fiecare tură, oră și ciclu de plată devine un semnal care alimentează inteligența forței de muncă de pe această pagină. Opțional: aduceți-vă propriul HR (Bayzat, Personio, Gusto) și Sundae citește în continuare același semnal.",
         "ctaText": "Explorați Sundae Crew"
       },
       "ctaTitle": "Vedeți-vă munca în mișcare.",
@@ -1617,13 +1617,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "গত সপ্তাহের কভারে নির্মিত সময়সূচী",
-          "description": "চাহিদা সরে গেছে। শিডিউল নেই. শ্রম % এর সাথে প্রবাহিত হয়।",
+          "title": "গত সপ্তাহের অতিথি সংখ্যার ভিত্তিতে তৈরি সময়সূচী",
+          "description": "চাহিদা সরে গেছে। সময়সূচী সরেনি। শ্রম % তার সাথে প্রবাহিত হয়।",
           "icon": "operators"
         },
         {
           "title": "উৎপাদনশীলতা রিপোর্ট করা হয়েছে, কর্মযোগ্য নয়",
-          "description": "আপনি প্রতি মাসে FOH ঘন্টা কভার জানেন। শিফট দ্বারা নয়, সার্ভার দ্বারা নয়, কোচিং করার সময় নয়।",
+          "description": "আপনি প্রতি মাসে FOH ঘন্টা প্রতি অতিথি সংখ্যা জানেন। শিফট অনুযায়ী নয়, পরিবেশনকর্মী অনুযায়ী নয়, কোচিং করার মতো সময়মতো নয়।",
           "icon": "performance"
         },
         {
@@ -1648,14 +1648,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "প্রতি FOH ঘন্টা, সার্ভার প্রতি উত্পাদনশীলতা",
-          "description": "কভার/ঘন্টা, বিক্রয়/ঘণ্টা, আপসেল রেট - প্রতি সার্ভার, প্রতি শিফট। সংখ্যা দিয়ে কোচ, ইমপ্রেশন নয়।",
+          "title": "প্রতি FOH ঘন্টা, প্রতি পরিবেশনকর্মী উৎপাদনশীলতা",
+          "description": "অতিথি/ঘন্টা, বিক্রয়/ঘণ্টা, আপসেল রেট - প্রতি পরিবেশনকর্মী, প্রতি শিফট। সংখ্যা দিয়ে কোচ করুন, ইমপ্রেশন দিয়ে নয়।",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "চাহিদা থেকে সুপারিশ সময়সূচী",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "চাহিদা থেকে সময়সূচীর সুপারিশ",
+          "description": "Foresight 14 দিন আগে অতিথি সংখ্যার পূর্বাভাস দেয় - Sundae তার সাথে মানানসই শ্রম পরিকল্পনা সুপারিশ করে।",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1674,23 +1674,23 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "আপনি তুলনা করতে পারেন সার্ভার উত্পাদনশীলতা",
-          "description": "লাইভ, প্রতি-শিফ্ট উত্পাদনশীলতা যা কোচিং, পর্যালোচনা এবং প্রচার কল সমর্থন করে।",
+          "title": "পরিবেশনকর্মীর উৎপাদনশীলতা যা আপনি তুলনা করতে পারেন",
+          "description": "লাইভ, প্রতি-শিফট উৎপাদনশীলতা যা কোচিং, মূল্যায়ন এবং পদোন্নতির সিদ্ধান্তকে সমর্থন করে।",
           "icon": "owners"
         },
         {
-          "title": "মেঝে মেলে যে সময়সূচী",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "ফ্লোরের সাথে মানানসই সময়সূচী",
+          "description": "চাহিদা-চালিত সময়সূচী যা Foresight পূর্বাভাসের উপর তৈরি - গত সপ্তাহের প্যাটার্নে নয়।",
           "icon": "support"
         }
       ],
       "crewCallout": {
-        "eyebrow": "SUNDAE ক্রু দ্বারা ব্যাকড",
-        "title": "অপারেশনাল সাবস্ট্রেট যে এই বুদ্ধিমত্তা ফিড.",
-        "description": "ক্রু সময়সূচী, সময় এবং উপস্থিতি, বহু-অঞ্চল বেতন (ইউএস, কানাডা, ইউকে, ইইউ, জিসিসি - একটি ইঞ্জিন), এবং 60+ এইচআর সারফেস চালায় - প্রতিটি শিফট, ঘন্টা, এবং বেতন-চক্র এই পৃষ্ঠায় শ্রম বুদ্ধিমত্তাকে শক্তি দেয় এমন সংকেত হয়ে উঠছে। ঐচ্ছিক: আপনার নিজস্ব HR (বায়যাত, পারসোনিও, গুস্টো) আনুন এবং Sundae এখনও একই সংকেত পড়ে।",
+        "eyebrow": "SUNDAE CREW দ্বারা চালিত",
+        "title": "অপারেশনাল সাবস্ট্রেট যা এই বুদ্ধিমত্তাকে শক্তি জোগায়।",
+        "description": "Crew সময়সূচী, সময় ও উপস্থিতি, বহু-অঞ্চল বেতন (US, Canada, UK, EU, GCC - একটি ইঞ্জিন), এবং 60+ HR সারফেস চালায় - প্রতিটি শিফট, ঘন্টা এবং বেতন-চক্র এই পৃষ্ঠায় শ্রম বুদ্ধিমত্তাকে শক্তি জোগানো সংকেতে পরিণত হয়। ঐচ্ছিক: আপনার নিজস্ব HR (Bayzat, Personio, Gusto) আনুন এবং Sundae এখনও একই সংকেত পড়ে।",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "গতিশীল আপনার শ্রম দেখুন.",
+      "ctaTitle": "আপনার শ্রমকে চলমান অবস্থায় দেখুন।",
       "ctaDescription": "30 মিনিট আপনার সময়সূচী. আপনি যে OTটি অবতরণ করার আগেই ধরতেন।",
       "ctaButton": "একটি লেবার ওয়াক-থ্রু বুক করুন"
     },
@@ -1699,8 +1699,8 @@ export const generatedLocalCopy = {
       "titleLine1": "Lên lịch cho ca làm việc.",
       "titleLine2": "Không phải cho tuần trước.",
       "description": "Chênh lệch lao động trực tiếp theo địa điểm. Rủi ro ngoài giờ được gắn cờ trước khi nó xảy ra. Năng suất được đo theo giờ FOH, không phải theo kỳ lương.",
-      "primaryCta": "Đặt một buổi hướng dẫn chuyển dạ",
-      "secondaryCta": "Xem Demo lao động",
+      "primaryCta": "Đặt buổi hướng dẫn về nhân sự",
+      "secondaryCta": "Xem demo nhân sự",
       "problemsEyebrow": "Ở ĐÂU LAO ĐỘNG RÒ RỈ",
       "problemsTitle": "Trường hợp ngân sách lao động bị rò rỉ",
       "problemsDescription": "Lịch trình được xây dựng theo bản năng, sự khác biệt được phát hiện sau khi trả lương.",
@@ -1711,13 +1711,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Lịch trình được xây dựng trên trang bìa của tuần trước",
-          "description": "Nhu cầu đã di chuyển. Lịch trình thì không. % lao động trôi theo nó.",
+          "title": "Lịch trình xây trên lượng khách của tuần trước",
+          "description": "Nhu cầu đã dịch chuyển. Lịch trình thì không. % lao động trôi theo nó.",
           "icon": "operators"
         },
         {
           "title": "Báo cáo năng suất, không thể thực hiện được",
-          "description": "Bạn biết chi phí bảo hiểm theo giờ FOH theo tháng. Không theo ca, không theo máy chủ, không kịp huấn luyện.",
+          "description": "Bạn biết lượng khách theo giờ FOH theo tháng. Không theo ca, không theo nhân viên phục vụ, không kịp để huấn luyện.",
           "icon": "performance"
         },
         {
@@ -1742,14 +1742,14 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Năng suất mỗi giờ FOH, trên mỗi máy chủ",
-          "description": "Bìa/giờ, doanh số/giờ, tỷ lệ bán thêm - trên mỗi máy chủ, mỗi ca. Huấn luyện bằng những con số, không phải ấn tượng.",
+          "title": "Năng suất mỗi giờ FOH, trên mỗi nhân viên phục vụ",
+          "description": "Khách/giờ, doanh số/giờ, tỷ lệ bán thêm - trên mỗi nhân viên phục vụ, mỗi ca. Huấn luyện bằng những con số, không phải cảm nhận.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Lên lịch đề xuất từ nhu cầu",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Đề xuất lịch trình từ nhu cầu",
+          "description": "Foresight dự báo lượng khách trước 14 ngày - Sundae đề xuất kế hoạch nhân sự phù hợp.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1768,25 +1768,25 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Năng suất máy chủ bạn có thể so sánh",
-          "description": "Năng suất trực tiếp trên mỗi ca hỗ trợ các cuộc gọi huấn luyện, đánh giá và quảng cáo.",
+          "title": "Năng suất nhân viên phục vụ bạn có thể so sánh",
+          "description": "Năng suất trực tiếp theo từng ca, hỗ trợ huấn luyện, đánh giá và quyết định thăng chức.",
           "icon": "owners"
         },
         {
-          "title": "Lịch trình phù hợp với sàn",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "Lịch trình khớp với thực tế nhà hàng",
+          "description": "Lịch trình điều phối theo nhu cầu, xây trên dự báo Foresight - không phải khuôn mẫu của tuần trước.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "ĐƯỢC HỖ TRỢ BỞI SUNDAE CREW",
         "title": "Chất nền hoạt động nuôi dưỡng trí thông minh này.",
-        "description": "Phi hành đoàn chạy lập kế hoạch, chấm công và chấm công, bảng lương đa khu vực (Hoa Kỳ, Canada, Vương quốc Anh, EU, GCC - một công cụ) và hơn 60 bề mặt nhân sự - mỗi ca, giờ và chu kỳ trả lương trở thành tín hiệu cung cấp năng lượng cho thông tin lao động trên trang này. Tùy chọn: mang theo HR của riêng bạn (Bayzat, Personio, Gusto) và Sundae vẫn đọc tín hiệu tương tự.",
+        "description": "Crew vận hành lập lịch, chấm công và điểm danh, bảng lương đa khu vực (Hoa Kỳ, Canada, Vương quốc Anh, EU, GCC - một engine) và hơn 60 bề mặt nhân sự - mỗi ca, giờ và chu kỳ trả lương trở thành tín hiệu tiếp sức cho trí tuệ lao động trên trang này. Tùy chọn: mang theo HR của riêng bạn (Bayzat, Personio, Gusto) và Sundae vẫn đọc cùng một tín hiệu.",
         "ctaText": "Khám phá Sundae Crew"
       },
-      "ctaTitle": "Xem quá trình chuyển dạ của bạn đang diễn ra.",
-      "ctaDescription": "30 phút. Lịch trình của bạn. OT bạn có thể đã bắt được trước khi nó hạ cánh.",
-      "ctaButton": "Đặt một buổi hướng dẫn chuyển dạ"
+      "ctaTitle": "Xem nhân sự của bạn vận hành theo thời gian thực.",
+      "ctaDescription": "30 phút. Lịch trình của bạn. OT bạn có thể đã bắt được trước khi nó xảy ra.",
+      "ctaButton": "Đặt buổi hướng dẫn về nhân sự"
     },
     "th": {
       "badge": "สำหรับทีมงานทรัพยากรบุคคลและบุคลากร",
@@ -1805,13 +1805,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "กำหนดการที่สร้างจากปกของสัปดาห์ที่แล้ว",
-          "description": "ความต้องการมีการเคลื่อนไหว กำหนดการไม่ได้ %แรงงานก็ลอยตามไปด้วย",
+          "title": "กำหนดการที่สร้างจากจำนวนลูกค้าของสัปดาห์ที่แล้ว",
+          "description": "ความต้องการเปลี่ยนไปแล้ว กำหนดการยังไม่เปลี่ยน % แรงงานก็เลื่อนตามไปด้วย",
           "icon": "operators"
         },
         {
           "title": "รายงานประสิทธิภาพการทำงานแล้ว ไม่สามารถดำเนินการได้",
-          "description": "คุณรู้ครอบคลุมต่อชั่วโมง FOH ต่อเดือน ไม่ใช่ตามกะ ไม่ใช่ตามเซิร์ฟเวอร์ ไม่ทันเวลาโค้ช",
+          "description": "คุณรู้จำนวนลูกค้าต่อชั่วโมง FOH เป็นรายเดือน ไม่ใช่ตามกะ ไม่ใช่ตามพนักงานเสิร์ฟ ไม่ทันเวลาที่จะโค้ช",
           "icon": "performance"
         },
         {
@@ -1836,8 +1836,8 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "ผลผลิตต่อชั่วโมง FOH ต่อเซิร์ฟเวอร์",
-          "description": "ครอบคลุม/ชั่วโมง ยอดขาย/ชั่วโมง อัตราการขายต่อยอด - ต่อเซิร์ฟเวอร์ ต่อกะ โค้ชด้วยตัวเลข ไม่ใช่ความประทับใจ",
+          "title": "ผลผลิตต่อชั่วโมง FOH ต่อพนักงานเสิร์ฟ",
+          "description": "ลูกค้า/ชั่วโมง ยอดขาย/ชั่วโมง อัตราการขายต่อยอด - ต่อพนักงานเสิร์ฟ ต่อกะ โค้ชด้วยตัวเลข ไม่ใช่ความรู้สึก",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
@@ -1862,20 +1862,20 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "ประสิทธิภาพการทำงานของเซิร์ฟเวอร์ที่คุณสามารถเปรียบเทียบได้",
-          "description": "ประสิทธิภาพการทำงานแบบสดต่อกะที่รองรับการฝึกสอน การตรวจทาน และการโทรเพื่อส่งเสริมการขาย",
+          "title": "ประสิทธิภาพการทำงานของพนักงานเสิร์ฟที่คุณสามารถเปรียบเทียบได้",
+          "description": "ประสิทธิภาพการทำงานแบบสดต่อกะ ที่รองรับการโค้ช การประเมินผล และการตัดสินใจเลื่อนตำแหน่ง",
           "icon": "owners"
         },
         {
-          "title": "ตารางที่ตรงกับพื้น",
-          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
+          "title": "ตารางที่ตรงกับหน้างานจริง",
+          "description": "ตารางที่ขับเคลื่อนด้วยความต้องการ สร้างบนการคาดการณ์ของ Foresight - ไม่ใช่รูปแบบของสัปดาห์ที่แล้ว",
           "icon": "support"
         }
       ],
       "crewCallout": {
-        "eyebrow": "ได้รับการสนับสนุนจากทีมงานซันเดย์",
-        "title": "สารตั้งต้นในการปฏิบัติงานที่ป้อนความฉลาดนี้",
-        "description": "ทีมงานดำเนินการจัดกำหนดการ เวลาและการเข้างาน บัญชีเงินเดือนหลายภูมิภาค (สหรัฐอเมริกา แคนาดา สหราชอาณาจักร สหภาพยุโรป GCC - หนึ่งเครื่องยนต์) และพื้นผิวด้านทรัพยากรบุคคลมากกว่า 60 แห่ง - ทุกกะ ชั่วโมง และรอบการจ่ายเงิน กลายเป็นสัญญาณที่ขับเคลื่อนความฉลาดด้านแรงงานในหน้านี้ ทางเลือก: นำ HR ของคุณมาเอง (Bayzat, Personio, Gusto) และ Sundae ยังคงอ่านสัญญาณเดียวกัน",
+        "eyebrow": "ขับเคลื่อนโดย SUNDAE CREW",
+        "title": "ฐานการปฏิบัติงานที่ป้อนข้อมูลให้กับความฉลาดนี้",
+        "description": "Crew ดำเนินการจัดกำหนดการ เวลาและการเข้างาน บัญชีเงินเดือนหลายภูมิภาค (สหรัฐอเมริกา แคนาดา สหราชอาณาจักร สหภาพยุโรป GCC - เอ็นจินเดียว) และพื้นผิวด้านทรัพยากรบุคคลมากกว่า 60 แห่ง - ทุกกะ ชั่วโมง และรอบการจ่ายเงิน กลายเป็นสัญญาณที่ขับเคลื่อนความฉลาดด้านแรงงานในหน้านี้ ทางเลือก: นำ HR ของคุณมาเอง (Bayzat, Personio, Gusto) และ Sundae ยังคงอ่านสัญญาณเดียวกัน",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "ดูแรงงานของคุณเคลื่อนไหว",
@@ -1899,13 +1899,13 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Jadual yang dibina pada kulit minggu lepas",
-          "description": "Permintaan telah berpindah. Jadual belum. % buruh hanyut dengannya.",
+          "title": "Jadual yang dibina pada jumlah tetamu minggu lepas",
+          "description": "Permintaan telah beralih. Jadual belum. % buruh hanyut dengannya.",
           "icon": "operators"
         },
         {
           "title": "Produktiviti dilaporkan, tidak boleh diambil tindakan",
-          "description": "Anda tahu perlindungan setiap jam FOH mengikut bulan. Bukan mengikut syif, bukan oleh pelayan, tidak dalam masa untuk melatih.",
+          "description": "Anda tahu jumlah tetamu setiap jam FOH mengikut bulan. Bukan mengikut syif, bukan mengikut pelayan, tidak cukup masa untuk membimbing.",
           "icon": "performance"
         },
         {
@@ -1931,13 +1931,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Produktiviti setiap jam FOH, setiap pelayan",
-          "description": "Perlindungan/jam, jualan/jam, kadar kenaikan jualan - setiap pelayan, setiap syif. Jurulatih dengan nombor, bukan teraan.",
+          "description": "Tetamu/jam, jualan/jam, kadar upsell - setiap pelayan, setiap syif. Bimbing dengan nombor, bukan tanggapan.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
-          "title": "Jadualkan cadangan daripada permintaan",
-          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
+          "title": "Cadangan jadual daripada permintaan",
+          "description": "Foresight meramalkan jumlah tetamu 14 hari lebih awal - Sundae mencadangkan pelan buruh yang sepadan.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1969,7 +1969,7 @@ export const generatedLocalCopy = {
       "crewCallout": {
         "eyebrow": "DISOKONG OLEH SUNDAE CREW",
         "title": "Substrat operasi yang membekalkan kecerdasan ini.",
-        "description": "Krew menjalankan penjadualan, masa & kehadiran, senarai gaji berbilang wilayah (AS, Kanada, UK, EU, GCC - satu enjin) dan 60+ permukaan HR - setiap syif, jam dan kitaran gaji menjadi isyarat yang menguatkan kecerdasan buruh pada halaman ini. Pilihan: bawa HR anda sendiri (Bayzat, Personio, Gusto) dan Sundae masih membaca isyarat yang sama.",
+        "description": "Crew menjalankan penjadualan, masa & kehadiran, senarai gaji berbilang wilayah (AS, Kanada, UK, EU, GCC - satu enjin) dan 60+ permukaan HR - setiap syif, jam dan kitaran gaji menjadi isyarat yang menguatkan kecerdasan buruh pada halaman ini. Pilihan: bawa HR anda sendiri (Bayzat, Personio, Gusto) dan Sundae masih membaca isyarat yang sama.",
         "ctaText": "Terokai Sundae Crew"
       },
       "ctaTitle": "Lihat kerja anda bergerak.",

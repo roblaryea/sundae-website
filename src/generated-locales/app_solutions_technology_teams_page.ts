@@ -9,8 +9,8 @@ export const generatedLocalCopy = {
       "description": "POS, main-d'œuvre, inventaire, livraison, comptabilité - unifié. RBAC, pistes d'audit, API publique, webhooks. Pas un autre projet d'intégration.",
       "primaryCta": "Réservez une démonstration technique",
       "secondaryCta": "Voir les documents API et schéma",
-      "problemsEyebrow": "QU'EST-CE QUI RALENTIT LE RETARD",
-      "problemsTitle": "Qu'est-ce qui mange le retard de données",
+      "problemsEyebrow": "CE QUI ENGLOUTIT VOTRE BACKLOG",
+      "problemsTitle": "Ce qui engloutit le backlog de données",
       "problemsDescription": "Chaque nouvelle demande de tableau de bord devient un projet d'intégration de six semaines.",
       "challenges": [
         {
@@ -38,14 +38,14 @@ export const generatedLocalCopy = {
       "howDescription": "Une plateforme, douze domaines, zéro plomberie.",
       "howSundaeHelps": [
         {
-          "title": "Modèles de données de restaurant gouvernés 500+",
+          "title": "500+ modèles de données de restaurant gouvernés",
           "description": "Schéma unifié à travers POS, main-d'œuvre, inventaire, livraison, réservations, comptabilité. Chaque métrique définie une fois, utilisée partout.",
           "product": "Sundae Core",
           "icon": "data"
         },
         {
           "title": "API publique + webhooks prêts à l'emploi",
-          "description": "Points de terminaison REST pour chaque entité. Événements de webhook sur commande, shift, annulation, compensation. RBAC et pistes d'audit intégrés.",
+          "description": "Points de terminaison REST pour chaque entité. Événements de webhook sur commande, service, annulation, offert. RBAC et pistes d'audit intégrés.",
           "product": "Sundae Core · API",
           "icon": "integration"
         },
@@ -185,7 +185,7 @@ export const generatedLocalCopy = {
       "description": "POS، العمالة، المخزون، التوصيل، المحاسبة - موحد. التحكم في الوصول القائم على الدور، سجلات التدقيق، واجهة برمجة التطبيقات العامة، الويب هوكس. ليس مشروع تكامل آخر.",
       "primaryCta": "احجز جولة تقنية",
       "secondaryCta": "اطلع على وثائق API والمخططات",
-      "problemsEyebrow": "ما الذي يستهلك المتأخرات",
+      "problemsEyebrow": "ما الذي يستهلك قائمة المهام المتراكمة",
       "problemsTitle": "ما الذي يستهلك تراكم البيانات",
       "problemsDescription": "كل طلب لوحة معلومات جديدة يصبح مشروع تكامل يستغرق ستة أسابيع.",
       "challenges": [
@@ -221,12 +221,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "واجهة برمجة التطبيقات العامة + الويب هوكس جاهزة للاستخدام",
-          "description": "نقاط نهاية REST لكل كيان. أحداث الويب هوك عند الطلب، التحول، الإلغاء، التعويض. التحكم في الوصول القائم على الأدوار ومسارات التدقيق مدمجة.",
+          "description": "نقاط نهاية REST لكل كيان. أحداث الويب هوك عند الطلب، الوردية، الإلغاء، التعويض. التحكم في الوصول القائم على الأدوار ومسارات التدقيق مدمجة.",
           "product": "Sundae Core · API",
           "icon": "integration"
         },
         {
-          "title": "تحديث مباشر للنواة",
+          "title": "تحديث مباشر لـ Core",
           "description": "Pulse يعمل على تحديث كل 5 دقائق على Core Pro. لا معالجة دفعات ETL، لا وظائف ليلية، لا \"لماذا لوحة المعلومات متأخرة 6 ساعات\".",
           "product": "Pulse",
           "icon": "speed"
@@ -257,7 +257,7 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "ذكاء اصطناعي يشرح reasoning الخاص به",
+          "title": "ذكاء اصطناعي يشرح منطق استدلاله",
           "description": "استشهادات، نطاقات الثقة، فحص الاستعلام. أطلق ميزات الذكاء الاصطناعي التي سيوافق عليها CISO الخاص بك.",
           "icon": "support"
         }
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
       "primaryCta": "ایک تکنیکی واک تھرو بک کریں",
       "secondaryCta": "API اور اسکیما دستاویزات دیکھیں",
       "problemsEyebrow": "کیا چیز بیک لاگ کو کھا رہی ہے",
-      "problemsTitle": "ڈیٹا بیک لاک کو کیا کھاتا ہے",
+      "problemsTitle": "ڈیٹا بیک لاگ کو کیا کھاتا ہے",
       "problemsDescription": "ہر نئی ڈیش بورڈ کی درخواست ایک چھ ہفتے کا انضمام منصوبہ بن جاتی ہے۔",
       "challenges": [
         {
@@ -572,8 +572,8 @@ export const generatedLocalCopy = {
           "icon": "data"
         },
         {
-          "title": "پبلک API + ویب ہکس باکس سے باہر",
-          "description": "ہر ادارے کے لیے REST اینڈ پوائنٹس۔ آرڈر، شفٹ، وائیڈ، کمپ پر ویب ہک ایونٹس۔ RBAC اور آڈٹ ٹریلز شامل ہیں۔",
+          "title": "پبلک API + ویب ہکس، بغیر کسی سیٹ اپ کے تیار",
+          "description": "ہر ادارے کے لیے REST اینڈ پوائنٹس۔ آرڈر، شفٹ، منسوخی، مفت پیشکش پر ویب ہک ایونٹس۔ RBAC اور آڈٹ ٹریلز شامل ہیں۔",
           "product": "Sundae Core · API",
           "icon": "integration"
         },
@@ -667,7 +667,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "लाइव कोर रिफ्रेश",
-          "description": "Pulse कोर प्रो पर 5-मिनट के रिफ्रेश पर चलता है। कोई बैच ETL नहीं, कोई रात का काम नहीं, कोई \"डैशबोर्ड 6 घंटे पीछे क्यों है\" नहीं। (Core Pro)",
+          "description": "Pulse, Core Pro पर 5-मिनट के रिफ्रेश पर चलता है। कोई बैच ETL नहीं, कोई रात का काम नहीं, कोई \"डैशबोर्ड 6 घंटे पीछे क्यों है\" नहीं।",
           "product": "Pulse",
           "icon": "speed"
         },
@@ -679,7 +679,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "डेटा टीम के लिए क्या बदलता है",
-      "outcomesDescription": "छोटी बैकलॉग, साफ़ शासन, AI जिसे आप बचा सकते हैं।",
+      "outcomesDescription": "छोटी बैकलॉग, साफ़ शासन, ऐसा AI जिसका आप बचाव कर सकते हैं।",
       "outcomes": [
         {
           "title": "इंटीग्रेशन बनाना बंद करें",
@@ -693,11 +693,11 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ऑडिट-ग्रेड ट्रेसबिलिटी",
-          "description": "हर संख्या → स्रोत पंक्ति → क्वेरी → मीट्रिक परिभाषा। वित्त, ऑडिट, और AI सभी इसे बचा सकते हैं।",
+          "description": "हर संख्या → स्रोत पंक्ति → क्वेरी → मीट्रिक परिभाषा। वित्त, ऑडिट, और AI सभी इसका बचाव कर सकते हैं।",
           "icon": "owners"
         },
         {
-          "title": "AI जो अपनी तर्क को समझाता है",
+          "title": "AI जो अपने तर्क को समझाता है",
           "description": "उद्धरण, विश्वास बैंड, क्वेरी निरीक्षण। AI सुविधाएँ भेजें जिन पर आपका CISO हस्ताक्षर करेगा।",
           "icon": "support"
         }
@@ -742,7 +742,7 @@ export const generatedLocalCopy = {
       "howDescription": "Una piattaforma, dodici domini, zero tubature.",
       "howSundaeHelps": [
         {
-          "title": "Modelli di dati ristorativi governati 500+",
+          "title": "500+ modelli di dati per ristoranti governati",
           "description": "Schema unificato tra POS, lavoro, inventario, consegne, prenotazioni, contabilità. Ogni metrica definita una sola volta, utilizzata ovunque.",
           "product": "Sundae Core",
           "icon": "data"
@@ -797,11 +797,11 @@ export const generatedLocalCopy = {
     "pl": {
       "badge": "Dla zespołów technologicznych i danych",
       "titleLine1": "Dwanaście źródeł.",
-      "titleLine2": "Jedna zarządzana schemat.",
+      "titleLine2": "Jeden zarządzany schemat.",
       "description": "POS, praca, zapasy, dostawa, księgowość - zintegrowane. RBAC, ścieżki audytu, publiczne API, webhooki. Nie kolejny projekt integracyjny.",
       "primaryCta": "Zarezerwuj techniczne wprowadzenie",
       "secondaryCta": "Zobacz dokumentację API i schematów",
-      "problemsEyebrow": "CO ZJADA ZAPASY",
+      "problemsEyebrow": "CO ZJADA TWÓJ BACKLOG",
       "problemsTitle": "Co zjada zaległości danych",
       "problemsDescription": "Każda nowa prośba o pulpit staje się sześciotygodniowym projektem integracyjnym.",
       "challenges": [
@@ -879,14 +879,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Zobacz schemat, a nie slajd.",
-      "ctaDescription": "30 minut. Twój stos. Integracja, którą Sundae zaoszczędziłby Twojemu zespołowi w tygodniach.",
+      "ctaDescription": "30 minut. Twój stack. Tygodnie integracji, które Sundae zaoszczędziłby Twojemu zespołowi.",
       "ctaButton": "Zarezerwuj techniczne wprowadzenie"
     },
     "tr": {
       "badge": "Teknoloji ve Veri Ekipleri için",
       "titleLine1": "On iki kaynak.",
       "titleLine2": "Tek bir yönetilen şema.",
-      "description": "POS, iş gücü, envanter, teslimat, muhasebe - birleşik. RBAC, denetim izleri, kamu API'si, web kancaları. Başka bir entegrasyon projesi değil.",
+      "description": "POS, iş gücü, envanter, teslimat, muhasebe - birleşik. RBAC, denetim izleri, herkese açık API, webhook'lar. Başka bir entegrasyon projesi değil.",
       "primaryCta": "Teknik Geçiş Randevusu Al",
       "secondaryCta": "API ve Şema Belgelerini Görüntüle",
       "problemsEyebrow": "GERİDEKİ İŞLERİ NE YİYOR?",
@@ -905,7 +905,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Yönetim elektronik tablolar içinde",
-          "description": "Metrek tanımları PM'lerin kafasında yaşıyor. \"Net gelir\" üç farklı raporda üç farklı anlama geliyor.",
+          "description": "Metrik tanımları PM'lerin kafasında yaşıyor. \"Net gelir\" üç farklı raporda üç farklı anlama geliyor.",
           "icon": "balance"
         },
         {
@@ -924,7 +924,7 @@ export const generatedLocalCopy = {
           "icon": "data"
         },
         {
-          "title": "Kutudan çıkan Kamu API'si + webhook'lar",
+          "title": "Kullanıma hazır herkese açık API + webhook'lar",
           "description": "Her varlık için REST uç noktaları. Sipariş, vardiya, iptal, ikram üzerine webhook olayları. RBAC ve denetim izleri dahildir.",
           "product": "Sundae Core · API",
           "icon": "integration"
@@ -967,14 +967,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Şemayı görün, slaytı değil.",
-      "ctaDescription": "30 dakika. Sizin yığınınız. Sundae'in ekibinize kazandıracağı entegrasyon haftaları.",
+      "ctaDescription": "30 dakika. Sizin yığınınız. Sundae'nin ekibinize kazandıracağı entegrasyon haftaları.",
       "ctaButton": "Teknik Geçiş Randevusu Al"
     },
     "zh-Hans": {
       "badge": "针对技术和数据团队",
       "titleLine1": "十二个来源。",
       "titleLine2": "一个受管控的模式。",
-      "description": "POS、劳动力、库存、配送、会计--统一。RBAC、审计日志、公共API、webhooks。不是另一个集成项目。",
+      "description": "POS、劳动力、库存、配送、会计——统一。RBAC、审计日志、公共API、webhooks。不是另一个集成项目。",
       "primaryCta": "预约技术演示",
       "secondaryCta": "查看 API 和架构文档",
       "problemsEyebrow": "什么导致了积压",
@@ -1143,7 +1143,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "スライドではなく、スキーマを確認してください。",
-      "ctaDescription": "30分。あなたのスタック。Sundaeがあなたのチームを救う統合の週。",
+      "ctaDescription": "30分。あなたのスタック。Sundaeがあなたのチームに節約する統合の数週間。",
       "ctaButton": "技術的なウォークスルーを予約する"
     },
     "id": {
@@ -1241,7 +1241,7 @@ export const generatedLocalCopy = {
       "description": "POS, lao động, tồn kho, giao hàng, kế toán - thống nhất. RBAC, nhật ký kiểm toán, API công khai, webhooks. Không phải là một dự án tích hợp khác.",
       "primaryCta": "Đặt lịch Hướng dẫn Kỹ thuật",
       "secondaryCta": "Xem Tài liệu API & Sơ đồ",
-      "problemsEyebrow": "CÁI GÌ KHIẾN ĐẦU CÔNG VIỆC BỊ ĐÌNH TRỆ",
+      "problemsEyebrow": "ĐIỀU GÌ NGỐN HẾT TỒN ĐỌNG CÔNG VIỆC",
       "problemsTitle": "Điều gì làm chậm lại dữ liệu",
       "problemsDescription": "Mỗi yêu cầu bảng điều khiển mới trở thành một dự án tích hợp kéo dài sáu tuần.",
       "challenges": [
@@ -1407,7 +1407,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "슬라이드가 아닌 스키마를 확인하세요.",
-      "ctaDescription": "30분. 당신의 스택. Sundae가 귀하의 팀을 위해 절약할 통합 주수.",
+      "ctaDescription": "30분. 당신의 스택. Sundae가 귀하의 팀에게 절약해 줄 통합 작업 몇 주.",
       "ctaButton": "기술 안내 예약하기"
     },
     "sv": {
@@ -1427,7 +1427,7 @@ export const generatedLocalCopy = {
           "icon": "integration"
         },
         {
-          "title": "Ingen enhetlig restaurangschema",
+          "title": "Inget enhetligt restaurangschema",
           "description": "POS-leverantörer modellerar beställningar olika. Arbetskraftssystem modellerar skift olika. Du översätter för alltid.",
           "icon": "data"
         },
@@ -1501,11 +1501,11 @@ export const generatedLocalCopy = {
     "ro": {
       "badge": "Pentru echipele de tehnologie și date",
       "titleLine1": "Douăsprezece surse.",
-      "titleLine2": "Un schemă guvernată.",
+      "titleLine2": "O schemă guvernată.",
       "description": "POS, muncă, inventar, livrare, contabilitate - unificate. RBAC, trailuri de audit, API public, webhooks. Nu un alt proiect de integrare.",
       "primaryCta": "Rezervați o prezentare tehnică",
       "secondaryCta": "Vezi documentația API și Schema",
-      "problemsEyebrow": "CE MĂNÂNCĂ ÎNAPOIEREA",
+      "problemsEyebrow": "CE ÎȚI CONSUMĂ BACKLOG-UL",
       "problemsTitle": "Ce mănâncă stocul de date",
       "problemsDescription": "Fiecare solicitare de tablou de bord devine un proiect de integrare de șase săptămâni.",
       "challenges": [
@@ -1515,17 +1515,17 @@ export const generatedLocalCopy = {
           "icon": "integration"
         },
         {
-          "title": "Fără un schema unificată pentru restaurante",
+          "title": "Fără o schemă unificată pentru restaurante",
           "description": "Furnizorii de POS modelează comenzile diferit. Sistemele de muncă modelează turele diferit. Traduci pentru totdeauna.",
           "icon": "data"
         },
         {
           "title": "Guvernanță construită în foi de calcul",
-          "description": "Definițiile metricalor trăiesc în mințile PM-ilor. \"Venit net\" înseamnă trei lucruri diferite în trei rapoarte.",
+          "description": "Definițiile metricilor trăiesc în mințile PM-ilor. \"Venit net\" înseamnă trei lucruri diferite în trei rapoarte.",
           "icon": "balance"
         },
         {
-          "title": "Timp real este un proiect personalizat",
+          "title": "Timpul real este un proiect personalizat",
           "description": "Fiecare întrebare \"putem să avem asta live?\" se transformă într-o construcție de șase săptămâni.",
           "icon": "speed"
         }
@@ -1583,7 +1583,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Vezi schema, nu diapozitivul.",
-      "ctaDescription": "30 de minute. Tehnologia ta. Săptămânile de integrare pe care Sundae le-ar economisi echipei tale.",
+      "ctaDescription": "30 de minute. Stack-ul tău. Săptămânile de integrare pe care Sundae le-ar economisi echipei tale.",
       "ctaButton": "Rezervați un tur tehnic"
     },
     "bn": {
@@ -1622,7 +1622,7 @@ export const generatedLocalCopy = {
       "howDescription": "একটি প্ল্যাটফর্ম, বারো ডোমেইন, শূন্য প্লাম্বিং।",
       "howSundaeHelps": [
         {
-          "title": "১৭৯+ পরিচালিত রেস্টুরেন্ট ডেটা মডেল",
+          "title": "৫০০+ পরিচালিত রেস্টুরেন্ট ডেটা মডেল",
           "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি, রিজার্ভেশন, হিসাবরক্ষণ জুড়ে একক স্কিমা। প্রতিটি মেট্রিক একবার সংজ্ঞায়িত, সর্বত্র ব্যবহৃত।",
           "product": "Sundae Core",
           "icon": "data"

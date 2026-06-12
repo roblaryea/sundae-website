@@ -3,28 +3,28 @@
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
-      "badge": "Pour les prospects marketing",
+      "badge": "Pour les responsables marketing",
       "titleLine1": "Réaffectez les dépenses.",
       "titleLine2": "Avant la clôture du budget.",
-      "description": "ROI de la campagne lié aux couvertures et à la marge nette dans les 24 heures. Mix de chaînes, attribution et que faire ensuite - pas un récapitulatif mensuel.",
+      "description": "ROI de la campagne lié aux couverts et à la marge nette en 24 heures. Mix de canaux, attribution et que faire ensuite - pas un récapitulatif mensuel.",
       "primaryCta": "Réservez une visite marketing",
       "secondaryCta": "Voir la démo marketing",
       "problemsEyebrow": "OÙ LE BUDGET FUITE",
       "problemsTitle": "Où le budget marketing fuit",
-      "problemsDescription": "Le retour sur investissement arrive avec une semaine de retard. Le plan du mois prochain arrive avant les données de ce mois-ci.",
+      "problemsDescription": "Le ROI arrive avec une semaine de retard. Le plan du mois prochain est lancé avant les données de ce mois-ci.",
       "challenges": [
         {
-          "title": "Le retour sur investissement arrive après la dépense",
-          "description": "L'attribution arrive la semaine après la campagne. Vous planifiez déjà le prochain.",
+          "title": "Le ROI arrive après la dépense",
+          "description": "L'attribution arrive la semaine après la campagne. Vous planifiez déjà la suivante.",
           "icon": "marketing"
         },
         {
-          "title": "Marge nette manquante dans les calculs",
-          "description": "Vous voyez les couvertures et les revenus. Vous ne voyez pas si la campagne a coûté plus que ce qu'elle a gagné.",
+          "title": "Marge nette absente des calculs",
+          "description": "Vous voyez les couverts et le chiffre d'affaires. Vous ne voyez pas si la campagne a coûté plus qu'elle n'a rapporté.",
           "icon": "balance"
         },
         {
-          "title": "Mixage des chaînes décidé à l'instinct",
+          "title": "Mix de canaux décidé à l'instinct",
           "description": "Fidélité, réseaux sociaux payants, recherche, courrier électronique : le mix de la semaine dernière se poursuit par défaut et non par analyse.",
           "icon": "performance"
         },
@@ -35,35 +35,35 @@ export const generatedLocalCopy = {
         }
       ],
       "howTitle": "Comment Sundae fonctionne pour les prospects marketing",
-      "howDescription": "Attribution en direct de la marge nette, retour sur investissement canal par canal, planification adaptée au marché.",
+      "howDescription": "Attribution en direct à la marge nette, ROI canal par canal, planification adaptée au marché.",
       "howSundaeHelps": [
         {
-          "title": "Attribution à la marge nette, pas seulement aux couvertures",
-          "description": "Chaque campagne est liée aux couvertures attribuées, au chèque moyen et à la marge réellement gagnée par ces couvertures. Dépensez par dollar de marge acquis, et non par clic.",
+          "title": "Attribution à la marge nette, pas seulement aux couverts",
+          "description": "Chaque campagne est liée aux couverts attribués, au ticket moyen et à la marge réellement générée par ces couverts. Dépensez par dollar de marge acquis, et non par clic.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "Mixage de chaînes que vous pouvez réaffecter en direct",
-          "description": "Fidélité, paiement, recherche, e-mail : chacun avec un ROAS en direct, des couvertures attribuées et un coût par couverture. Déplacez le budget pendant que la campagne est encore en cours.",
+          "title": "Un mix de canaux que vous pouvez réaffecter en direct",
+          "description": "Fidélité, paiement, recherche, e-mail : chacun avec un ROAS en direct, des couverts attribués et un coût par couvert. Déplacez le budget pendant que la campagne est encore en cours.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
           "title": "Cross-Intelligence trouve la synergie",
-          "description": "Le combo fidélité + déjeuner se convertit en 2,3 × recherche seule. Cross-Intelligence présente ces appariements afin que vous empiliez les canaux et non que vous les exécutiez en parallèle.",
+          "description": "Le combo fidélité + déjeuner convertit 2,3× mieux que la recherche seule. Cross-Intelligence fait ressortir ces associations pour que vous empiliez les canaux au lieu de les lancer en parallèle.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "Signal de marché dans le brief",
-          "description": "Promotions des concurrents, événements locaux, météo - le tout dans la matinée afin que le plan de campagne reflète le marché, pas seulement le calendrier.",
+          "description": "Promotions des concurrents, événements locaux, météo - le tout dans le brief du matin, pour que le plan de campagne reflète le marché, et pas seulement le calendrier.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
       ],
-      "outcomesTitle": "Quels changements pour le marketing",
-      "outcomesDescription": "Réaffectez tant que cela compte, prouvez que la marge ne se contente pas de couvrir.",
+      "outcomesTitle": "Ce qui change pour le marketing",
+      "outcomesDescription": "Réaffectez tant que cela compte, prouvez la marge et pas seulement les couverts.",
       "outcomes": [
         {
           "title": "Réaffecter le budget dans la campagne",
@@ -72,7 +72,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prouver que les campagnes ont été rentables",
-          "description": "Le retour sur investissement attribué à la marge permet de financer les dépenses marketing avec les mêmes chiffres que ceux dans lesquels ils vivent.",
+          "description": "Le ROI attribué à la marge défend les dépenses marketing avec les chiffres mêmes dans lesquels l'équipe travaille.",
           "icon": "owners"
         },
         {
@@ -91,29 +91,29 @@ export const generatedLocalCopy = {
       "ctaButton": "Réservez une visite marketing"
     },
     "es": {
-      "badge": "Para clientes potenciales de marketing",
+      "badge": "Para responsables de marketing",
       "titleLine1": "Reasignar el gasto.",
       "titleLine2": "Antes de que se cierre el presupuesto.",
-      "description": "ROI de la campaña ligado a coberturas y margen neto en 24 horas. Combinación de canales, atribución y qué hacer a continuación, no un resumen mensual.",
+      "description": "ROI de la campaña ligado a comensales y margen neto en 24 horas. Mix de canales, atribución y qué hacer a continuación, no un resumen mensual.",
       "primaryCta": "Agenda una sesión de marketing",
       "secondaryCta": "Ver demostración de marketing",
       "problemsEyebrow": "DONDE SE FUGA EL PRESUPUESTO",
-      "problemsTitle": "Donde gotea el presupuesto de marketing",
-      "problemsDescription": "El retorno de la inversión llega con una semana de retraso. El plan del próximo mes entra antes que los datos de este mes.",
+      "problemsTitle": "Donde se fuga el presupuesto de marketing",
+      "problemsDescription": "El ROI llega con una semana de retraso. El plan del próximo mes entra antes que los datos de este mes.",
       "challenges": [
         {
-          "title": "El retorno de la inversión llega después del gasto",
-          "description": "La atribución llega la semana después de la campaña. Ya estás planeando el próximo.",
+          "title": "El ROI llega después del gasto",
+          "description": "La atribución llega la semana posterior a la campaña. Ya estás planificando la siguiente.",
           "icon": "marketing"
         },
         {
-          "title": "Falta margen neto en los cálculos",
-          "description": "Ves coberturas e ingresos. No ve si la campaña costó más de lo que ganó.",
+          "title": "Falta el margen neto en las cuentas",
+          "description": "Ves comensales e ingresos. No ves si la campaña costó más de lo que generó.",
           "icon": "balance"
         },
         {
-          "title": "Mezcla de canales decidida por instinto",
-          "description": "Fidelización, redes sociales pagas, búsqueda, correo electrónico: la combinación de la semana pasada continúa por defecto, no por análisis.",
+          "title": "Mix de canales decidido por instinto",
+          "description": "Fidelización, social de pago, búsqueda, e-mail: el mix de la semana pasada continúa por defecto, no por análisis.",
           "icon": "performance"
         },
         {
@@ -122,24 +122,24 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "Cómo funciona Sundae para los clientes potenciales de marketing",
+      "howTitle": "Cómo funciona Sundae para los responsables de marketing",
       "howDescription": "Atribución en vivo al margen neto, ROI canal por canal, planificación consciente del mercado.",
       "howSundaeHelps": [
         {
-          "title": "Atribución al margen neto, no sólo a las coberturas",
-          "description": "Cada campaña se vincula con las coberturas atribuidas, el cheque promedio y el margen que realmente obtuvieron esas coberturas. Gaste por dólar de margen adquirido, no por clic.",
+          "title": "Atribución al margen neto, no solo a los comensales",
+          "description": "Cada campaña se vincula con los comensales atribuidos, el ticket medio y el margen que esos comensales generaron realmente. Gasta por dólar de margen conseguido, no por clic.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "Mezcla de canales que puedes reasignar en vivo",
-          "description": "Fidelización, pago, búsqueda y correo electrónico: cada uno con ROAS en vivo, coberturas atribuidas y costo por cobertura. Mover el presupuesto mientras la campaña aún está activa.",
+          "title": "Mix de canales que puedes reasignar en vivo",
+          "description": "Fidelización, pago, búsqueda y e-mail: cada uno con ROAS en vivo, comensales atribuidos y coste por comensal. Mueve el presupuesto mientras la campaña sigue activa.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "El combo de lealtad + almuerzo convierte 2,3 veces solo la búsqueda. Cross-Intelligence muestra estos emparejamientos para que usted pueda apilar canales, no ejecutarlos en paralelo.",
+          "title": "Cross-Intelligence encuentra la sinergia",
+          "description": "El combo fidelización + almuerzo convierte 2,3 veces más que la búsqueda sola. Cross-Intelligence saca a la luz estos emparejamientos para que apiles canales en lugar de ejecutarlos en paralelo.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -150,8 +150,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "outcomesTitle": "¿Qué cambios para el marketing?",
-      "outcomesDescription": "Reasigne mientras sea necesario, demuestre que el margen no solo cubre.",
+      "outcomesTitle": "Qué cambia para el marketing",
+      "outcomesDescription": "Reasigna mientras importa, demuestra el margen y no solo los comensales.",
       "outcomes": [
         {
           "title": "Reasignar presupuesto en campaña",
@@ -159,8 +159,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Demuestre que las campañas se pagaron solas",
-          "description": "El ROI atribuido al margen defiende el gasto en marketing para financiar con las mismas cifras en las que viven.",
+          "title": "Demuestra que las campañas se pagaron solas",
+          "description": "El ROI atribuido al margen defiende el gasto en marketing con las mismas cifras con las que trabaja finanzas.",
           "icon": "owners"
         },
         {
@@ -181,22 +181,22 @@ export const generatedLocalCopy = {
     "de": {
       "badge": "Für Marketing-Leads",
       "titleLine1": "Ordnen Sie die Ausgaben neu zu.",
-      "titleLine2": "Bevor der Haushalt endet.",
-      "description": "Der Kampagnen-ROI ist an Deckungen und Nettomarge innerhalb von 24 Stunden gebunden. Kanalmix, Zuordnung und was als nächstes zu tun ist - keine monatliche Zusammenfassung.",
+      "titleLine2": "Bevor das Budget schließt.",
+      "description": "Kampagnen-ROI, innerhalb von 24 Stunden mit Gästen und Nettomarge verknüpft. Kanalmix, Attribution und was als Nächstes zu tun ist - keine monatliche Zusammenfassung.",
       "primaryCta": "Buchen Sie einen Marketing-Rundgang",
       "secondaryCta": "Siehe Marketing-Demo",
-      "problemsEyebrow": "Wo das Budget ausläuft",
-      "problemsTitle": "Wo das Marketingbudget ausläuft",
-      "problemsDescription": "Der ROI erreicht eine Woche zu spät. Der Plan für den nächsten Monat geht vor den Daten für diesen Monat ein.",
+      "problemsEyebrow": "WO DAS BUDGET VERSICKERT",
+      "problemsTitle": "Wo das Marketingbudget versickert",
+      "problemsDescription": "Der ROI kommt eine Woche zu spät. Der Plan für den nächsten Monat steht, bevor die Daten dieses Monats da sind.",
       "challenges": [
         {
           "title": "Der ROI kommt nach den Ausgaben",
-          "description": "Die Namensnennung landet eine Woche nach der Kampagne. Du planst bereits das nächste.",
+          "description": "Die Attribution landet eine Woche nach der Kampagne. Sie planen schon die nächste.",
           "icon": "marketing"
         },
         {
-          "title": "In der Berechnung fehlt die Nettomarge",
-          "description": "Sie sehen Deckungen und Einnahmen. Es wird nicht angezeigt, ob die Kampagne mehr gekostet hat, als sie eingenommen hat.",
+          "title": "In der Rechnung fehlt die Nettomarge",
+          "description": "Sie sehen Gäste und Umsatz. Sie sehen nicht, ob die Kampagne mehr gekostet als eingebracht hat.",
           "icon": "balance"
         },
         {
@@ -214,20 +214,20 @@ export const generatedLocalCopy = {
       "howDescription": "Live-Zuordnung zur Nettomarge, kanalweiser ROI, marktbewusste Planung.",
       "howSundaeHelps": [
         {
-          "title": "Zuordnung zur Nettomarge, nicht nur zur Deckung",
-          "description": "Jede Kampagne hängt von den zugeordneten Umschlägen, dem durchschnittlichen Scheck und der tatsächlich erzielten Marge dieser Umschläge ab. Geben Sie pro erworbenem Dollar Marge aus - nicht pro Klick.",
+          "title": "Attribution zur Nettomarge, nicht nur zu Gästen",
+          "description": "Jede Kampagne ist mit den zugeordneten Gästen, dem durchschnittlichen Bon und der tatsächlich erzielten Marge dieser Gäste verknüpft. Geben Sie pro erwirtschaftetem Dollar Marge aus - nicht pro Klick.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kanalmix, den Sie live neu zuordnen können",
-          "description": "Treue, bezahlt, Suche, E-Mail - jeweils mit Live-ROAS, zugeordneten Abdeckungen und Kosten pro Abdeckung. Verschieben Sie das Budget, während die Kampagne noch läuft.",
+          "description": "Treue, bezahlt, Suche, E-Mail - jeweils mit Live-ROAS, zugeordneten Gästen und Kosten pro Gast. Verschieben Sie das Budget, während die Kampagne noch läuft.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
           "title": "Cross-Intelligence findet die Synergie",
-          "description": "Die Kombination aus Treueprogramm und Mittagessen führt allein bei der 2,3-fachen Suche zu Conversions. Cross-Intelligence zeigt diese Paarungen an, sodass Sie Kanäle stapeln und nicht parallel ausführen können.",
+          "description": "Die Kombination aus Treueprogramm und Mittagessen konvertiert 2,3-mal besser als die Suche allein. Cross-Intelligence zeigt diese Paarungen, sodass Sie Kanäle stapeln, statt sie parallel laufen zu lassen.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -239,7 +239,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Was sich für das Marketing ändert",
-      "outcomesDescription": "Führen Sie eine Umverteilung durch, solange es darauf ankommt, und beweisen Sie, dass die Marge nicht nur abdeckt.",
+      "outcomesDescription": "Schichten Sie um, solange es zählt, und weisen Sie die Marge nach - nicht nur die Gäste.",
       "outcomes": [
         {
           "title": "Budget innerhalb der Kampagne neu zuweisen",
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Beweisen Sie, dass sich Kampagnen bezahlt gemacht haben",
-          "description": "Durch den margenbezogenen ROI werden Marketingausgaben mit den gleichen Zahlen finanziert, in denen sie leben.",
+          "description": "Der margenbezogene ROI verteidigt die Marketingausgaben mit denselben Zahlen, mit denen das Finanzteam arbeitet.",
           "icon": "owners"
         },
         {
@@ -267,10 +267,10 @@ export const generatedLocalCopy = {
       "ctaButton": "Buchen Sie einen Marketing-Rundgang"
     },
     "ar": {
-      "badge": "للتسويق يؤدي",
+      "badge": "لمسؤولي التسويق",
       "titleLine1": "إعادة تخصيص الإنفاق.",
-      "titleLine2": "قبل أن تغلق الميزانية.",
-      "description": "يرتبط عائد استثمار الحملة بالتغطية والهامش الصافي خلال 24 ساعة. مزيج القنوات، والإسناد، وما يجب فعله بعد ذلك - وليس ملخصًا شهريًا.",
+      "titleLine2": "قبل أن تُغلق الميزانية.",
+      "description": "يرتبط عائد استثمار الحملة بعدد الضيوف والهامش الصافي خلال 24 ساعة. مزيج القنوات، والإسناد، وما يجب فعله بعد ذلك - وليس ملخصًا شهريًا.",
       "primaryCta": "احجز جولة تسويقية",
       "secondaryCta": "انظر العرض التوضيحي للتسويق",
       "problemsEyebrow": "حيث تتسرب الميزانية",
@@ -283,8 +283,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "صافي الهامش مفقود من الرياضيات",
-          "description": "ترى الأغطية والإيرادات. لا ترى ما إذا كانت تكلفة الحملة أكثر مما كسبته.",
+          "title": "الهامش الصافي غائب عن الحسابات",
+          "description": "ترى عدد الضيوف والإيرادات. لا ترى ما إذا كانت تكلفة الحملة أكثر مما كسبته.",
           "icon": "balance"
         },
         {
@@ -302,20 +302,20 @@ export const generatedLocalCopy = {
       "howDescription": "الإسناد المباشر إلى صافي الهامش، وعائد الاستثمار لكل قناة على حدة، والتخطيط المدرك للسوق.",
       "howSundaeHelps": [
         {
-          "title": "الإسناد إلى صافي الهامش، وليس فقط الأغطية",
-          "description": "ترتبط كل حملة بالأغطية المنسوبة، ومتوسط الشيك، والهامش الذي كسبته تلك الأغطية بالفعل. أنفق على كل دولار مكتسب من الهامش، وليس على كل نقرة.",
+          "title": "الإسناد إلى الهامش الصافي، وليس عدد الضيوف فقط",
+          "description": "ترتبط كل حملة بالضيوف المنسوبين، ومتوسط الفاتورة، والهامش الذي حققه هؤلاء الضيوف فعليًا. أنفق على كل دولار هامش مكتسب، وليس على كل نقرة.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "مزيج القنوات يمكنك إعادة تخصيصه مباشرة",
-          "description": "الولاء، والمدفوع، والبحث، والبريد الإلكتروني - كل منها يتضمن عائد الإنفاق الإعلاني المباشر، والأغطية المنسوبة، والتكلفة لكل تغطية. قم بنقل الميزانية بينما لا تزال الحملة قيد التشغيل.",
+          "description": "الولاء، والمدفوع، والبحث، والبريد الإلكتروني - كل منها مع ROAS مباشر، وضيوف منسوبين، وتكلفة لكل ضيف. انقل الميزانية بينما لا تزال الحملة قيد التشغيل.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "يتم تحويل مجموعة الولاء + الغداء بمعدل 2.3 × البحث وحده. تعمل تقنية Cross-Intelligence على عرض هذه الاقترانات بحيث تقوم بتكديس القنوات، وليس تشغيلها بالتوازي.",
+          "title": "Cross-Intelligence يكشف التآزر",
+          "description": "تحقق مجموعة الولاء + الغداء معدل تحويل يفوق البحث وحده بمقدار 2.3 ×. يُبرز Cross-Intelligence هذه الاقترانات لتكدّس القنوات بدلًا من تشغيلها بالتوازي.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -327,7 +327,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "ما التغييرات للتسويق",
-      "outcomesDescription": "قم بإعادة التخصيص عندما يكون الأمر مهمًا، وأثبت الهامش وليس فقط الأغطية.",
+      "outcomesDescription": "أعد التخصيص بينما لا يزال الأمر مهمًا، وأثبت الهامش وليس عدد الضيوف فقط.",
       "outcomes": [
         {
           "title": "إعادة تخصيص الميزانية داخل الحملة",
@@ -335,8 +335,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "إثبات الحملات المدفوعة عن نفسها",
-          "description": "يدافع عائد الاستثمار المنسوب إلى الهامش عن الإنفاق التسويقي للتمويل بنفس الأرقام التي يعيشون فيها.",
+          "title": "أثبت أن الحملات سدّدت تكلفتها بنفسها",
+          "description": "يدافع عائد الاستثمار المنسوب إلى الهامش عن الإنفاق التسويقي بالأرقام نفسها التي يعمل بها فريق المالية.",
           "icon": "owners"
         },
         {
@@ -358,26 +358,26 @@ export const generatedLocalCopy = {
       "badge": "Para leads de marketing",
       "titleLine1": "Realoque os gastos.",
       "titleLine2": "Antes que o orçamento feche.",
-      "description": "ROI da campanha vinculado a coberturas e margem líquida em 24 horas. Mix de canais, atribuição e o que fazer a seguir - não uma recapitulação mensal.",
+      "description": "ROI da campanha vinculado a clientes e margem líquida em 24 horas. Mix de canais, atribuição e o que fazer a seguir - não uma recapitulação mensal.",
       "primaryCta": "Agende um guia de marketing",
       "secondaryCta": "Veja a demonstração de marketing",
-      "problemsEyebrow": "ONDE O ORÇAMENTO VAGA",
+      "problemsEyebrow": "ONDE O ORÇAMENTO VAZA",
       "problemsTitle": "Onde o orçamento de marketing vaza",
       "problemsDescription": "O ROI chega com uma semana de atraso. O plano do próximo mês entra antes dos dados deste mês.",
       "challenges": [
         {
           "title": "O ROI chega após o gasto",
-          "description": "A atribuição chega na semana seguinte à campanha. Você já está planejando o próximo.",
+          "description": "A atribuição chega na semana seguinte à campanha. Você já está planejando a próxima.",
           "icon": "marketing"
         },
         {
-          "title": "Margem líquida faltando na matemática",
-          "description": "Você vê capas e receitas. Você não vê se a campanha custou mais do que rendeu.",
+          "title": "Margem líquida faltando nas contas",
+          "description": "Você vê clientes e receita. Você não vê se a campanha custou mais do que rendeu.",
           "icon": "balance"
         },
         {
           "title": "Mix de canais decidido por instinto",
-          "description": "Fidelidade, redes sociais pagas, busca, e-mail - o mix da semana passada continua por padrão, não por análise.",
+          "description": "Fidelidade, social pago, busca, e-mail - o mix da semana passada continua por padrão, não por análise.",
           "icon": "performance"
         },
         {
@@ -390,20 +390,20 @@ export const generatedLocalCopy = {
       "howDescription": "Atribuição em tempo real à margem líquida, ROI canal por canal, planejamento consciente do mercado.",
       "howSundaeHelps": [
         {
-          "title": "Atribuição à margem líquida, não apenas às coberturas",
-          "description": "Cada campanha está vinculada às coberturas atribuídas, ao cheque médio e à margem que essas coberturas realmente ganharam. Gaste por dólar de margem adquirido - não por clique.",
+          "title": "Atribuição à margem líquida, não apenas aos clientes",
+          "description": "Cada campanha está vinculada aos clientes atribuídos, ao ticket médio e à margem que esses clientes realmente geraram. Gaste por dólar de margem conquistado - não por clique.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Mix de canais que você pode realocar ao vivo",
-          "description": "Fidelidade, pago, pesquisa, e-mail - cada um com ROAS ativo, coberturas atribuídas e custo por cobertura. Mova o orçamento enquanto a campanha ainda está em execução.",
+          "description": "Fidelidade, pago, busca, e-mail - cada um com ROAS ativo, clientes atribuídos e custo por cliente. Mova o orçamento enquanto a campanha ainda está em execução.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
           "title": "Cross-Intelligence encontra a sinergia",
-          "description": "A combinação fidelidade + almoço converte apenas em 2,3 × pesquisa. O Cross-Intelligence apresenta esses pares para que você empilhe canais, e não os execute em paralelo.",
+          "description": "A combinação fidelidade + almoço converte 2,3× mais do que a busca sozinha. O Cross-Intelligence revela esses pares para que você empilhe canais, em vez de executá-los em paralelo.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -415,7 +415,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "O que muda para o marketing",
-      "outcomesDescription": "Realoque enquanto for importante, prove que a margem não apenas cobre.",
+      "outcomesDescription": "Realoque enquanto importa, prove a margem e não apenas os clientes.",
       "outcomes": [
         {
           "title": "Realocar orçamento na campanha",
@@ -424,7 +424,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prove que as campanhas se pagaram por si mesmas",
-          "description": "O ROI atribuído à margem defende os gastos com marketing para financiar com os mesmos números em que vivem.",
+          "description": "O ROI atribuído à margem defende os gastos com marketing com os mesmos números que o time de finanças usa.",
           "icon": "owners"
         },
         {
@@ -446,12 +446,12 @@ export const generatedLocalCopy = {
       "badge": "Voor marketingleads",
       "titleLine1": "Verdeel de uitgaven opnieuw.",
       "titleLine2": "Voordat de begroting sluit.",
-      "description": "Campagne-ROI gekoppeld aan covers en nettomarge binnen 24 uur. Kanaalmix, attributie en wat je vervolgens moet doen - geen maandelijkse samenvatting.",
+      "description": "Campagne-ROI gekoppeld aan gasten en nettomarge binnen 24 uur. Kanaalmix, attributie en wat je vervolgens moet doen - geen maandelijkse samenvatting.",
       "primaryCta": "Boek een Marketing Walk-through",
-      "secondaryCta": "Zie Marketingdemo",
-      "problemsEyebrow": "WAAR DE BEGROTING LEKT",
-      "problemsTitle": "Waar het marketingbudget lekt",
-      "problemsDescription": "ROI komt een week te laat binnen. Het abonnement van volgende maand gaat eerder in dan de gegevens van deze maand.",
+      "secondaryCta": "Bekijk de marketingdemo",
+      "problemsEyebrow": "WAAR HET BUDGET WEGLEKT",
+      "problemsTitle": "Waar het marketingbudget weglekt",
+      "problemsDescription": "ROI komt een week te laat binnen. Het plan voor volgende maand gaat eerder in dan de gegevens van deze maand.",
       "challenges": [
         {
           "title": "ROI arriveert na de uitgaven",
@@ -459,13 +459,13 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Nettomarge ontbreekt in de wiskunde",
-          "description": "Je ziet covers en inkomsten. Je ziet niet of de campagne meer heeft gekost dan dat het opleverde.",
+          "title": "Nettomarge ontbreekt in de berekening",
+          "description": "Je ziet gasten en omzet. Je ziet niet of de campagne meer heeft gekost dan ze opleverde.",
           "icon": "balance"
         },
         {
-          "title": "Kanaalmix beslist op instinct",
-          "description": "Loyaliteit, betaalde sociale media, zoeken, e-mail: de mix van vorige week gaat standaard door, niet door analyse.",
+          "title": "Kanaalmix bepaald op instinct",
+          "description": "Loyaliteit, betaalde social, zoeken, e-mail: de mix van vorige week loopt standaard door, niet op basis van analyse.",
           "icon": "performance"
         },
         {
@@ -478,20 +478,20 @@ export const generatedLocalCopy = {
       "howDescription": "Live toewijzing aan nettomarge, ROI per kanaal, marktbewuste planning.",
       "howSundaeHelps": [
         {
-          "title": "Toerekening aan de nettomarge, niet alleen aan de dekkingen",
-          "description": "Elke campagne houdt verband met toegekende covers, gemiddelde cheques en de marge die deze covers daadwerkelijk hebben verdiend. Besteed per verworven dollar aan marge - niet per klik.",
+          "title": "Toerekening aan de nettomarge, niet alleen aan gasten",
+          "description": "Elke campagne is gekoppeld aan toegekende gasten, de gemiddelde besteding en de marge die deze gasten daadwerkelijk opleverden. Besteed per verdiende dollar marge - niet per klik.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kanaalmix die u live opnieuw kunt toewijzen",
-          "description": "Loyaliteit, betaald, zoeken, e-mail - elk met live ROAS, toegekende covers en kosten per dekking. Verplaats het budget terwijl de campagne nog loopt.",
+          "description": "Loyaliteit, betaald, zoeken, e-mail - elk met live ROAS, toegekende gasten en kosten per gast. Verplaats het budget terwijl de campagne nog loopt.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
           "title": "Cross-Intelligence vindt de synergie",
-          "description": "Loyaliteit + lunchcombinatie converteert alleen al bij 2,3× zoeken. Cross-Intelligence brengt deze koppelingen aan het licht, zodat u kanalen kunt stapelen en niet parallel kunt laten lopen.",
+          "description": "De combinatie loyaliteit + lunch converteert 2,3× beter dan zoeken alleen. Cross-Intelligence brengt deze koppelingen aan het licht, zodat u kanalen stapelt in plaats van ze parallel te laten lopen.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -503,7 +503,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Wat verandert er voor marketing?",
-      "outcomesDescription": "Herverdeel nu het er toe doet, bewijs dat de marge niet alleen dekking biedt.",
+      "outcomesDescription": "Herverdeel zolang het ertoe doet, bewijs de marge en niet alleen de gasten.",
       "outcomes": [
         {
           "title": "Budget opnieuw toewijzen in de campagne",
@@ -512,7 +512,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bewijs dat campagnes zichzelf hebben terugverdiend",
-          "description": "Marge-toegeschreven ROI verdedigt marketinguitgaven om te financieren met dezelfde cijfers waarin ze leven.",
+          "description": "De aan marge toegeschreven ROI verdedigt de marketinguitgaven met dezelfde cijfers waarmee finance werkt.",
           "icon": "owners"
         },
         {
@@ -531,10 +531,10 @@ export const generatedLocalCopy = {
       "ctaButton": "Boek een Marketing Walk-through"
     },
     "ur": {
-      "badge": "مارکیٹنگ لیڈز کے لیے",
+      "badge": "مارکیٹنگ کے ذمہ داروں کے لیے",
       "titleLine1": "خرچ کو دوبارہ مختص کریں۔",
       "titleLine2": "بجٹ بند ہونے سے پہلے۔",
-      "description": "مہم کا ROI 24 گھنٹوں کے اندر کور اور خالص مارجن سے منسلک ہے۔ چینل مکس، انتساب، اور آگے کیا کرنا ہے - ماہانہ ریکاپ نہیں۔",
+      "description": "مہم کا ROI 24 گھنٹوں کے اندر مہمانوں اور خالص مارجن سے منسلک ہے۔ چینل مکس، انتساب، اور آگے کیا کرنا ہے - ماہانہ ریکاپ نہیں۔",
       "primaryCta": "مارکیٹنگ واک تھرو بک کریں۔",
       "secondaryCta": "مارکیٹنگ ڈیمو دیکھیں",
       "problemsEyebrow": "جہاں بجٹ لیک ہوتا ہے۔",
@@ -547,8 +547,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "خالص مارجن ریاضی سے غائب ہے۔",
-          "description": "آپ کو کور اور آمدنی نظر آتی ہے۔ آپ یہ نہیں دیکھتے ہیں کہ آیا مہم کی لاگت اس کی کمائی سے زیادہ ہے۔",
+          "title": "خالص مارجن حساب سے غائب ہے۔",
+          "description": "آپ کو مہمان اور آمدنی نظر آتی ہے۔ آپ یہ نہیں دیکھ پاتے کہ آیا مہم کی لاگت اس کی کمائی سے زیادہ تھی۔",
           "icon": "balance"
         },
         {
@@ -562,24 +562,24 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "How Sundae works for marketing leads",
+      "howTitle": "Sundae مارکیٹنگ کے ذمہ داروں کے لیے کیسے کام کرتا ہے",
       "howDescription": "نیٹ مارجن سے براہ راست انتساب، چینل بہ چینل ROI، مارکیٹ سے آگاہی کی منصوبہ بندی۔",
       "howSundaeHelps": [
         {
-          "title": "خالص مارجن سے انتساب، نہ صرف احاطہ کرتا ہے۔",
-          "description": "ہر مہم کا تعلق منسوب کور، اوسط چیک، اور مارجن سے ہوتا ہے جو ان کوروں نے اصل میں کمایا تھا۔ مارجن کا فی حاصل شدہ ڈالر خرچ کریں - فی کلک نہیں۔",
+          "title": "خالص مارجن سے انتساب، نہ صرف مہمانوں سے",
+          "description": "ہر مہم کا تعلق منسوب مہمانوں، اوسط بل، اور اس مارجن سے ہوتا ہے جو ان مہمانوں نے واقعی کمایا۔ ہر حاصل شدہ ڈالر مارجن پر خرچ کریں - فی کلک نہیں۔",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "چینل مکس آپ دوبارہ لائیو ایلوکیٹ کر سکتے ہیں۔",
-          "description": "وفاداری، ادائیگی، تلاش، ای میل - ہر ایک لائیو ROAS، منسوب کور، اور لاگت فی کور کے ساتھ۔ جب مہم چل رہی ہو بجٹ کو منتقل کریں۔",
+          "title": "چینل مکس جسے آپ لائیو دوبارہ مختص کر سکتے ہیں",
+          "description": "وفاداری، ادائیگی، تلاش، ای میل - ہر ایک لائیو ROAS، منسوب مہمانوں، اور فی مہمان لاگت کے ساتھ۔ مہم چلتے ہوئے ہی بجٹ منتقل کریں۔",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "وفاداری + دوپہر کے کھانے کا کمبو 2.3× تلاش میں تبدیل ہوتا ہے۔ Cross-Intelligence ان جوڑیوں کو ظاہر کرتی ہے تاکہ آپ چینلز کو اسٹیک کریں، متوازی طور پر نہ چلائیں۔",
+          "title": "Cross-Intelligence ہم آہنگی تلاش کرتا ہے",
+          "description": "وفاداری + دوپہر کے کھانے کا کمبو اکیلی تلاش سے 2.3× زیادہ تبدیل ہوتا ہے۔ Cross-Intelligence ان جوڑیوں کو سامنے لاتا ہے تاکہ آپ چینلز کو متوازی چلانے کے بجائے ایک پر ایک رکھیں۔",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -622,12 +622,12 @@ export const generatedLocalCopy = {
       "badge": "Per i lead di marketing",
       "titleLine1": "Ridistribuire la spesa.",
       "titleLine2": "Prima della chiusura del bilancio.",
-      "description": "ROI della campagna legato alle coperture e al margine netto entro 24 ore. Mix di canali, attribuzione e cosa fare dopo: non un riepilogo mensile.",
+      "description": "ROI della campagna legato ai coperti e al margine netto entro 24 ore. Mix di canali, attribuzione e cosa fare dopo: non un riepilogo mensile.",
       "primaryCta": "Prenota una visita guidata di marketing",
-      "secondaryCta": "Vedi Demo di marketing",
-      "problemsEyebrow": "DOVE PERDE IL BILANCIO",
-      "problemsTitle": "Dove il budget di marketing perde",
-      "problemsDescription": "Il ROI arriva con una settimana di ritardo. Il piano del mese prossimo verrà presentato prima dei dati di questo mese.",
+      "secondaryCta": "Guarda la demo di marketing",
+      "problemsEyebrow": "DOVE SI DISPERDE IL BUDGET",
+      "problemsTitle": "Dove si disperde il budget di marketing",
+      "problemsDescription": "Il ROI arriva con una settimana di ritardo. Il piano del mese prossimo parte prima dei dati di questo mese.",
       "challenges": [
         {
           "title": "Il ROI arriva dopo la spesa",
@@ -635,12 +635,12 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Margine netto mancante dai calcoli",
-          "description": "Vedi copertine ed entrate. Non puoi vedere se la campagna è costata più di quanto ha guadagnato.",
+          "title": "Manca il margine netto nei conti",
+          "description": "Vedi coperti e ricavi. Non vedi se la campagna è costata più di quanto ha reso.",
           "icon": "balance"
         },
         {
-          "title": "Il mix dei canali è stato deciso d'istinto",
+          "title": "Il mix dei canali deciso d'istinto",
           "description": "Fedeltà, social a pagamento, ricerca, e-mail: il mix della scorsa settimana continua per impostazione predefinita, non per analisi.",
           "icon": "performance"
         },
@@ -654,14 +654,14 @@ export const generatedLocalCopy = {
       "howDescription": "Attribuzione in tempo reale del margine netto, ROI canale per canale, pianificazione market-aware.",
       "howSundaeHelps": [
         {
-          "title": "Attribuzione al margine netto, non solo alle coperture",
-          "description": "Ogni campagna è legata alle coperture attribuite, al controllo medio e al margine effettivamente guadagnato da tali coperture. Spesa per dollaro di margine acquisito, non per clic.",
+          "title": "Attribuzione al margine netto, non solo ai coperti",
+          "description": "Ogni campagna è legata ai coperti attribuiti, allo scontrino medio e al margine effettivamente generato da quei coperti. Spendi per dollaro di margine acquisito, non per clic.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Mix di canali che puoi riallocare dal vivo",
-          "description": "Fedeltà, a pagamento, ricerca, e-mail: ciascuno con ROAS in tempo reale, coperture attribuite e costo per copertura. Sposta il budget mentre la campagna è ancora in corso.",
+          "description": "Fedeltà, a pagamento, ricerca, e-mail: ciascuno con ROAS in tempo reale, coperti attribuiti e costo per coperto. Sposta il budget mentre la campagna è ancora in corso.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -679,7 +679,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Cosa cambia per il marketing",
-      "outcomesDescription": "Riallocare finché è importante, dimostrare che il margine non si limita a coprire.",
+      "outcomesDescription": "Rialloca finché conta, dimostra il margine e non solo i coperti.",
       "outcomes": [
         {
           "title": "Riallocare il budget nella campagna",
@@ -688,7 +688,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Dimostra che le campagne si sono ripagate da sole",
-          "description": "Il ROI attribuito al margine difende la spesa di marketing per finanziare con gli stessi numeri in cui vivono.",
+          "description": "Il ROI attribuito al margine difende la spesa di marketing con gli stessi numeri che usa il team finance.",
           "icon": "owners"
         },
         {
@@ -710,7 +710,7 @@ export const generatedLocalCopy = {
       "badge": "मार्केटिंग लीड के लिए",
       "titleLine1": "खर्च को पुनः आवंटित करें.",
       "titleLine2": "बजट ख़त्म होने से पहले.",
-      "description": "अभियान आरओआई 24 घंटों के भीतर कवर और शुद्ध मार्जिन से जुड़ा हुआ है। चैनल मिश्रण, एट्रिब्यूशन, और आगे क्या करना है - मासिक पुनर्कथन नहीं।",
+      "description": "अभियान ROI 24 घंटों के भीतर मेहमानों और शुद्ध मार्जिन से जुड़ा हुआ है। चैनल मिक्स, एट्रिब्यूशन, और आगे क्या करना है - मासिक पुनर्कथन नहीं।",
       "primaryCta": "मार्केटिंग वॉक-थ्रू बुक करें",
       "secondaryCta": "मार्केटिंग डेमो देखें",
       "problemsEyebrow": "बजट कहां लीक हो गया",
@@ -723,8 +723,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "गणित से शुद्ध मार्जिन गायब है",
-          "description": "आप कवर और राजस्व देखते हैं। आप यह नहीं देखते कि अभियान की लागत कमाई से अधिक है या नहीं।",
+          "title": "गणना से शुद्ध मार्जिन गायब है",
+          "description": "आप मेहमान और राजस्व देखते हैं। आप यह नहीं देखते कि अभियान की लागत उसकी कमाई से अधिक रही या नहीं।",
           "icon": "balance"
         },
         {
@@ -742,20 +742,20 @@ export const generatedLocalCopy = {
       "howDescription": "शुद्ध मार्जिन, चैनल-दर-चैनल आरओआई, बाजार-जागरूक योजना का लाइव एट्रिब्यूशन।",
       "howSundaeHelps": [
         {
-          "title": "शुद्ध मार्जिन का श्रेय, न कि केवल कवर का",
-          "description": "प्रत्येक अभियान जिम्मेदार कवर, औसत जांच और उन कवरों द्वारा वास्तव में अर्जित मार्जिन से जुड़ा होता है। मार्जिन के प्रति अर्जित डॉलर खर्च करें - प्रति क्लिक नहीं।",
+          "title": "शुद्ध मार्जिन का श्रेय, न कि केवल मेहमानों का",
+          "description": "प्रत्येक अभियान आरोपित मेहमानों, औसत बिल और उन मेहमानों द्वारा वास्तव में अर्जित मार्जिन से जुड़ा होता है। मार्जिन के प्रति अर्जित डॉलर खर्च करें - प्रति क्लिक नहीं।",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "चैनल मिक्स को आप लाइव पुनः आवंटित कर सकते हैं",
-          "description": "वफादारी, भुगतान, खोज, ईमेल - प्रत्येक लाइव आरओएएस, जिम्मेदार कवर और लागत-प्रति-कवर के साथ। जब अभियान अभी भी चल रहा हो तो बजट स्थानांतरित करें।",
+          "title": "चैनल मिक्स जिसे आप लाइव पुनः आवंटित कर सकते हैं",
+          "description": "वफादारी, भुगतान, खोज, ईमेल - प्रत्येक लाइव ROAS, आरोपित मेहमानों और प्रति-मेहमान लागत के साथ। जब अभियान अभी भी चल रहा हो तब बजट स्थानांतरित करें।",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "लॉयल्टी + लंच कॉम्बो अकेले 2.3× खोज पर परिवर्तित होता है। Cross-Intelligence इन जोड़ियों को सतह पर लाता है ताकि आप चैनलों को ढेर कर दें, उन्हें समानांतर में न चलाएं।",
+          "title": "Cross-Intelligence तालमेल ढूँढता है",
+          "description": "लॉयल्टी + लंच कॉम्बो अकेले खोज से 2.3× अधिक रूपांतरित होता है। Cross-Intelligence इन जोड़ियों को सामने लाता है ताकि आप चैनलों को समानांतर चलाने के बजाय एक पर एक रखें।",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -767,7 +767,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "मार्केटिंग के लिए क्या बदलाव",
-      "outcomesDescription": "जब यह मायने रखता है तब पुनः आवंटित करें, मार्जिन साबित करें न कि केवल कवर।",
+      "outcomesDescription": "जब तक यह मायने रखता है तब तक पुनः आवंटित करें, मार्जिन साबित करें न कि केवल मेहमान।",
       "outcomes": [
         {
           "title": "अभियान में बजट पुनः आवंटित करें",
@@ -775,8 +775,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "साबित करें कि अभियानों का भुगतान स्वयं के लिए किया गया है",
-          "description": "मार्जिन-आधारित आरओआई उसी संख्या के साथ वित्त पोषण के लिए विपणन खर्च का बचाव करता है जिसमें वे रहते हैं।",
+          "title": "साबित करें कि अभियानों ने अपनी लागत खुद चुकाई",
+          "description": "मार्जिन-आधारित ROI उन्हीं आँकड़ों के साथ मार्केटिंग खर्च का बचाव करता है जिनके साथ वित्त टीम काम करती है।",
           "icon": "owners"
         },
         {
@@ -795,29 +795,29 @@ export const generatedLocalCopy = {
       "ctaButton": "मार्केटिंग वॉक-थ्रू बुक करें"
     },
     "zh-Hans": {
-      "badge": "对于营销线索",
+      "badge": "面向营销负责人",
       "titleLine1": "重新分配支出。",
-      "titleLine2": "在预算结束之前。",
-      "description": "活动投资回报率与 24 小时内的封面和净利润相关。渠道组合、归因以及下一步该做什么--而不是每月回顾。",
+      "titleLine2": "在预算关闭之前。",
+      "description": "活动 ROI 在 24 小时内与客流和净利润挂钩。渠道组合、归因以及下一步该做什么——而不是每月回顾。",
       "primaryCta": "预约营销演练",
       "secondaryCta": "查看营销演示",
-      "problemsEyebrow": "预算泄漏的地方",
-      "problemsTitle": "营销预算泄露的地方",
-      "problemsDescription": "投资回报率晚一周到达。下个月的计划先于本月的数据制定。",
+      "problemsEyebrow": "预算从哪里流失",
+      "problemsTitle": "营销预算从哪里流失",
+      "problemsDescription": "ROI 晚一周才到。下个月的计划在本月数据出来之前就已确定。",
       "challenges": [
         {
-          "title": "投资回报率在支出之后到达",
-          "description": "归因在活动结束后一周生效。你已经在计划下一个了。",
+          "title": "ROI 在支出之后才到",
+          "description": "归因在活动结束一周后才出现。你已经在计划下一个活动了。",
           "icon": "marketing"
         },
         {
-          "title": "数学中缺少净利润",
-          "description": "您可以看到封面和收入。您看不到该活动的成本是否高于其收入。",
+          "title": "账目中缺少净利润",
+          "description": "你能看到客流和收入，却看不到这次活动的成本是否高于它带来的收入。",
           "icon": "balance"
         },
         {
-          "title": "渠道组合取决于直觉",
-          "description": "忠诚度、付费社交、搜索、电子邮件--默认情况下，而不是分析，上周的组合仍在继续。",
+          "title": "渠道组合凭直觉决定",
+          "description": "忠诚度、付费社交、搜索、电子邮件——上周的组合默认延续，而非基于分析。",
           "icon": "performance"
         },
         {
@@ -826,36 +826,36 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "Sundae如何吸引营销线索",
-      "howDescription": "实时归因于净利润、逐个渠道的投资回报率、市场意识规划。",
+      "howTitle": "Sundae 如何为营销负责人服务",
+      "howDescription": "净利润的实时归因、逐渠道 ROI、市场感知型规划。",
       "howSundaeHelps": [
         {
-          "title": "归因于净利润，而不仅仅是涵盖",
-          "description": "每个活动都与归因封面、平均支票以及这些封面实际赚取的利润有关。花费每一美元的保证金--而不是每次点击。",
+          "title": "归因到净利润，而不仅仅是客流",
+          "description": "每个活动都与归因客流、客单价以及这些客流实际赚取的利润挂钩。按每赚得一美元利润来投放——而非按每次点击。",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "您可以重新分配直播频道组合",
-          "description": "忠诚度、付费、搜索、电子邮件--每项都具有实时 ROAS、归因封面和每次封面成本。在广告系列仍在运行时调整预算。",
+          "title": "你可以实时重新分配的渠道组合",
+          "description": "忠诚度、付费、搜索、电子邮件——每项都带有实时 ROAS、归因客流和每客流成本。在活动仍在进行时调整预算。",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "忠诚度 + 午餐组合的转化率仅为搜索量的 2.3 倍。交叉智能显示这些配对，以便您堆叠通道，而不是并行运行它们。 (Cross-Intelligence)",
+          "title": "Cross-Intelligence 发现协同效应",
+          "description": "忠诚度 + 午餐组合的转化率是单独搜索的 2.3 倍。Cross-Intelligence 揭示这些组合，让你叠加渠道，而不是并行投放。",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
         {
           "title": "简报中的市场信号",
-          "description": "竞争对手的促销、当地活动、天气--所有这些都在早上进行简要介绍，因此活动计划反映了市场，而不仅仅是日历。",
+          "description": "竞争对手的促销、本地活动、天气——全部汇入晨间简报，让活动计划反映市场，而不仅仅是日历。",
           "product": "Watchtower",
           "icon": "watchtower"
         }
       ],
       "outcomesTitle": "营销有哪些变化",
-      "outcomesDescription": "在重要的时候重新分配，证明保证金不仅仅是覆盖。",
+      "outcomesDescription": "在还来得及时重新分配，证明利润，而不仅仅是客流。",
       "outcomes": [
         {
           "title": "重新分配广告活动中的预算",
@@ -863,13 +863,13 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "证明营销活动是物有所值的",
-          "description": "保证金归因的投资回报率以与他们生活中相同的数字来捍卫营销支出和融资。",
+          "title": "证明营销活动已收回成本",
+          "description": "归因到利润的 ROI 用财务团队所用的同一套数字为营销支出辩护。",
           "icon": "owners"
         },
         {
-          "title": "复合的堆栈通道",
-          "description": "交叉智能显示哪些渠道组合可以相互叠加--而不仅仅是哪些单独发挥作用。 (Cross-Intelligence)",
+          "title": "叠加可复合的渠道",
+          "description": "Cross-Intelligence 显示哪些渠道组合能相互倍增——而不仅仅是哪些单独有效。",
           "icon": "performance"
         },
         {
@@ -878,15 +878,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "查看动态的频道组合。",
+      "ctaTitle": "实时查看你的渠道组合。",
       "ctaDescription": "30分钟。您的活动。您上周将重新分配的预算。",
       "ctaButton": "预约营销演练"
     },
     "tr": {
-      "badge": "Pazarlama Potansiyel Müşterileri İçin",
+      "badge": "Pazarlama Sorumluları İçin",
       "titleLine1": "Harcamayı yeniden tahsis edin.",
       "titleLine2": "Bütçe kapanmadan önce.",
-      "description": "Kampanya yatırım getirisi 24 saat içinde teminatlara ve net marja bağlandı. Kanal karışımı, ilişkilendirme ve bundan sonra yapılacaklar; aylık bir özet değil.",
+      "description": "Kampanya ROI'si 24 saat içinde misafir sayısına ve net marja bağlanır. Kanal karması, ilişkilendirme ve bundan sonra yapılacaklar; aylık bir özet değil.",
       "primaryCta": "Pazarlama Gezintisi rezervasyonu yaptırın",
       "secondaryCta": "Pazarlama Demosunu Görün",
       "problemsEyebrow": "BÜTÇE NEREDE SIZIYOR",
@@ -899,13 +899,13 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Matematikte net marj eksik",
-          "description": "Kapakları ve geliri görüyorsunuz. Kampanyanın maliyetinin kazandığından fazla olup olmadığını göremezsiniz.",
+          "title": "Hesapta net marj eksik",
+          "description": "Misafir sayısını ve geliri görüyorsunuz. Kampanyanın maliyetinin kazandığından fazla olup olmadığını göremezsiniz.",
           "icon": "balance"
         },
         {
-          "title": "Kanal karışımı içgüdüsel olarak belirlendi",
-          "description": "Sadakat, ücretli sosyal medya, arama, e-posta - geçen haftanın karışımı analizle değil, varsayılan olarak devam ediyor.",
+          "title": "Kanal karması içgüdüsel olarak belirlendi",
+          "description": "Sadakat, ücretli sosyal, arama, e-posta - geçen haftanın karması analizle değil, varsayılan olarak devam ediyor.",
           "icon": "performance"
         },
         {
@@ -918,20 +918,20 @@ export const generatedLocalCopy = {
       "howDescription": "Net marjın canlı olarak ilişkilendirilmesi, kanal bazında yatırım getirisi, pazara duyarlı planlama.",
       "howSundaeHelps": [
         {
-          "title": "Sadece kapsama değil, net marja atıf",
-          "description": "Her kampanya, atfedilen teminatlara, ortalama çeke ve bu teminatların gerçekte kazanılan marjına bağlıdır. Tıklama başına değil, elde edilen kâr marjı başına harcama yapın.",
+          "title": "Sadece misafir sayısına değil, net marja atıf",
+          "description": "Her kampanya, atfedilen misafirlere, ortalama adisyona ve bu misafirlerin gerçekte kazandırdığı marja bağlanır. Tıklama başına değil, elde edilen marjın her doları başına harcama yapın.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "Canlı olarak yeniden tahsis edebileceğiniz kanal karışımı",
-          "description": "Sadakat, ücretli, arama, e-posta - her biri canlı ROAS'a, atfedilen teminatlara ve teminat başına maliyete sahiptir. Kampanya devam ederken bütçeyi taşıyın.",
+          "title": "Canlı olarak yeniden tahsis edebileceğiniz kanal karması",
+          "description": "Sadakat, ücretli, arama, e-posta - her biri canlı ROAS, atfedilen misafirler ve misafir başına maliyet ile gelir. Kampanya devam ederken bütçeyi taşıyın.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "Sadakat + öğle yemeği kombinasyonu yalnızca 2,3 kat aramayla dönüşüm sağlıyor. Cross-Intelligence bu eşleştirmeleri ortaya çıkarır, böylece kanalları paralel olarak çalıştırmazsınız.",
+          "title": "Cross-Intelligence sinerjiyi bulur",
+          "description": "Sadakat + öğle yemeği kombinasyonu, tek başına aramaya göre 2,3 kat daha fazla dönüşüm sağlar. Cross-Intelligence bu eşleştirmeleri ortaya çıkarır, böylece kanalları paralel çalıştırmak yerine üst üste yığarsınız.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -943,21 +943,21 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Pazarlamada neler değişir?",
-      "outcomesDescription": "Önemliyken yeniden tahsis edin, marjın yalnızca kapsamadığını kanıtlayın.",
+      "outcomesDescription": "Hâlâ önemliyken yeniden tahsis edin, sadece misafir sayısını değil marjı kanıtlayın.",
       "outcomes": [
         {
           "title": "Kampanya içi bütçeyi yeniden tahsis edin",
-          "description": "Harcamaları ay kapanmadan önce düşük performans gösteren kanaldan uzaklaştırın, ay kapanmadan önce değil.",
+          "description": "Harcamaları ay kapandıktan sonra değil, kapanmadan önce düşük performanslı kanaldan uzaklaştırın.",
           "icon": "speed"
         },
         {
           "title": "Kampanyaların kendileri için ödendiğini kanıtlayın",
-          "description": "Marjla atfedilen yatırım getirisi, pazarlama harcamalarını yaşadıkları rakamlarla finanse etmek için savunuyor.",
+          "description": "Marja atfedilen ROI, pazarlama harcamasını finans ekibinin kullandığı aynı rakamlarla savunur.",
           "icon": "owners"
         },
         {
-          "title": "Birleşen kanalları yığınlayın",
-          "description": "Çapraz Zeka, yalnızca hangilerinin tek başına işe yaradığını değil, hangi kanal kombinasyonlarının birbirini çoğalttığını gösterir. (Cross-Intelligence)",
+          "title": "Birbirini güçlendiren kanalları üst üste yığın",
+          "description": "Cross-Intelligence, yalnızca hangilerinin tek başına işe yaradığını değil, hangi kanal kombinasyonlarının birbirini çoğalttığını gösterir.",
           "icon": "performance"
         },
         {
@@ -974,12 +974,12 @@ export const generatedLocalCopy = {
       "badge": "Dla leadów marketingowych",
       "titleLine1": "Zmień alokację wydatków.",
       "titleLine2": "Przed zamknięciem budżetu.",
-      "description": "ROI kampanii powiązane z pokryciem i marżą netto w ciągu 24 godzin. Zestaw kanałów, atrybucja i dalsze działania - a nie miesięczne podsumowanie.",
-      "primaryCta": "Zarezerwuj spacer marketingowy",
-      "secondaryCta": "Zobacz Demo marketingowe",
+      "description": "ROI kampanii powiązany z liczbą gości i marżą netto w ciągu 24 godzin. Miks kanałów, atrybucja i dalsze działania - a nie miesięczne podsumowanie.",
+      "primaryCta": "Zarezerwuj prezentację marketingową",
+      "secondaryCta": "Zobacz demo marketingowe",
       "problemsEyebrow": "GDZIE WYCIEKA BUDŻET",
       "problemsTitle": "Gdzie wycieka budżet marketingowy",
-      "problemsDescription": "ROI pojawia się z tygodniowym opóźnieniem. Plan na przyszły miesiąc zostanie opublikowany przed danymi za ten miesiąc.",
+      "problemsDescription": "ROI pojawia się z tygodniowym opóźnieniem. Plan na przyszły miesiąc rusza przed danymi za bieżący miesiąc.",
       "challenges": [
         {
           "title": "ROI pojawia się po wydatkach",
@@ -988,7 +988,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Brak marży netto w obliczeniach",
-          "description": "Widzisz okładki i przychody. Nie widzisz, czy kampania kosztowała więcej, niż zarobiła.",
+          "description": "Widzisz gości i przychody. Nie widzisz, czy kampania kosztowała więcej, niż zarobiła.",
           "icon": "balance"
         },
         {
@@ -1006,20 +1006,20 @@ export const generatedLocalCopy = {
       "howDescription": "Atrybucja na żywo do marży netto, zwrot z inwestycji dla każdego kanału, planowanie uwzględniające świadomość rynku.",
       "howSundaeHelps": [
         {
-          "title": "Przypisanie do marży netto, a nie tylko pokrycia",
-          "description": "Każda kampania jest powiązana z przypisanymi okładkami, średnim czekiem i marżą faktycznie zarobioną przez te okładki. Wydatki na pozyskanego dolara marży - nie na kliknięcie.",
+          "title": "Przypisanie do marży netto, a nie tylko do liczby gości",
+          "description": "Każda kampania jest powiązana z przypisanymi gośćmi, średnim rachunkiem i marżą, którą ci goście faktycznie wypracowali. Wydawaj za każdego pozyskanego dolara marży - a nie za kliknięcie.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Miks kanałów, który możesz zmieniać na żywo",
-          "description": "Lojalność, płatne, wyszukiwanie, poczta e-mail - każda z rzeczywistym ROAS, przypisanymi osłonami i kosztem osłony. Zmień budżet, gdy kampania jest nadal aktywna.",
+          "description": "Lojalność, płatne, wyszukiwanie, e-mail - każdy z bieżącym ROAS, przypisanymi gośćmi i kosztem na gościa. Przesuń budżet, gdy kampania jeszcze trwa.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "Kombinacja lojalność + lunch konwertuje przy samym wyszukiwaniu 2,3×. Cross-Intelligence ujawnia te pary, dzięki czemu kanały można układać w stosy, a nie uruchamiać je równolegle.",
+          "title": "Cross-Intelligence znajduje synergię",
+          "description": "Kombinacja lojalność + lunch konwertuje 2,3× lepiej niż samo wyszukiwanie. Cross-Intelligence ujawnia te pary, dzięki czemu kanały układasz w stos, zamiast uruchamiać je równolegle.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1031,7 +1031,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Jakie zmiany dla marketingu",
-      "outcomesDescription": "Zmień alokację, gdy ma to znaczenie, udowodnij, że marża to nie tylko pokrycie.",
+      "outcomesDescription": "Zmień alokację, gdy ma to znaczenie, udowodnij marżę, a nie tylko liczbę gości.",
       "outcomes": [
         {
           "title": "Zmień alokację budżetu w kampanii",
@@ -1040,7 +1040,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Udowodnij, że kampanie same się opłacają",
-          "description": "ROI przypisany marży chroni wydatki marketingowe na finansowanie w tych samych liczbach, w których żyją.",
+          "description": "ROI przypisany do marży broni wydatków marketingowych tymi samymi liczbami, którymi posługuje się zespół finansowy.",
           "icon": "owners"
         },
         {
@@ -1054,15 +1054,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz miks swojego kanału w ruchu.",
+      "ctaTitle": "Zobacz swój miks kanałów w ruchu.",
       "ctaDescription": "30 minut. Twoje kampanie. Budżet, który przesunąłbyś w zeszłym tygodniu.",
-      "ctaButton": "Zarezerwuj spacer marketingowy"
+      "ctaButton": "Zarezerwuj prezentację marketingową"
     },
     "ko": {
-      "badge": "마케팅 리드의 경우",
+      "badge": "마케팅 책임자를 위해",
       "titleLine1": "지출을 재할당하세요.",
-      "titleLine2": "예산이 마감되기 전.",
-      "description": "24시간 이내의 커버리지 및 순마진과 연결된 캠페인 ROI. 채널 믹스, 기여도, 다음에 해야 할 일 - 월간 요약이 아닙니다.",
+      "titleLine2": "예산이 마감되기 전에.",
+      "description": "24시간 이내에 고객 수 및 순마진과 연결되는 캠페인 ROI. 채널 믹스, 기여도, 다음에 해야 할 일 - 월간 요약이 아닙니다.",
       "primaryCta": "마케팅 둘러보기 예약",
       "secondaryCta": "마케팅 데모 보기",
       "problemsEyebrow": "예산이 누출되는 곳",
@@ -1076,7 +1076,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "계산에서 순마진이 누락됨",
-          "description": "표지와 수익이 표시됩니다. 캠페인 비용이 수익보다 더 많은지는 확인할 수 없습니다.",
+          "description": "고객 수와 매출은 보입니다. 캠페인 비용이 벌어들인 것보다 많았는지는 보이지 않습니다.",
           "icon": "balance"
         },
         {
@@ -1090,24 +1090,24 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "How Sundae works for marketing leads",
-      "howDescription": "순마진, 채널별 ROI, 시장 인식 계획에 대한 실시간 기여입니다.",
+      "howTitle": "Sundae가 마케팅 책임자를 위해 작동하는 방식",
+      "howDescription": "순마진에 대한 실시간 기여, 채널별 ROI, 시장을 고려한 계획.",
       "howSundaeHelps": [
         {
-          "title": "커버뿐만 아니라 순이익에 대한 귀속",
-          "description": "모든 캠페인은 기여된 표지, 평균 확인 및 해당 표지가 실제로 얻은 마진과 연결됩니다. 클릭당이 아닌 획득한 마진 1달러당 지출합니다.",
+          "title": "고객 수뿐만 아니라 순마진에 대한 기여",
+          "description": "모든 캠페인은 기여된 고객, 객단가, 그리고 그 고객이 실제로 벌어들인 마진과 연결됩니다. 클릭당이 아니라 획득한 마진 1달러당 지출합니다.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "실시간으로 재할당할 수 있는 채널 믹스",
-          "description": "충성도, 유료, 검색, 이메일 - 각각 실시간 ROAS, 기여 보장, 보장당 비용이 포함됩니다. 캠페인이 진행되는 동안 예산을 이동하세요.",
+          "description": "충성도, 유료, 검색, 이메일 - 각각 실시간 ROAS, 기여된 고객, 고객당 비용이 포함됩니다. 캠페인이 진행되는 동안 예산을 이동하세요.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence가 시너지 효과를 찾다",
-          "description": "로열티 + 점심 콤보는 검색만으로 전환율이 2.3배입니다. Cross-Intelligence는 이러한 쌍을 표면화하여 채널을 병렬로 실행하지 않고 스택으로 구성합니다.",
+          "title": "Cross-Intelligence가 시너지를 찾아냅니다",
+          "description": "로열티 + 점심 콤보는 검색 단독 대비 전환율이 2.3배입니다. Cross-Intelligence는 이러한 조합을 드러내, 채널을 병렬로 실행하는 대신 쌓아 올리도록 해줍니다.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1119,7 +1119,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "마케팅의 변화",
-      "outcomesDescription": "중요한 순간에 재할당하고 마진이 단지 커버하는 것이 아니라는 것을 증명하십시오.",
+      "outcomesDescription": "중요한 순간에 재할당하고, 고객 수가 아니라 마진을 증명하십시오.",
       "outcomes": [
         {
           "title": "캠페인 내 예산 재할당",
@@ -1127,8 +1127,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "캠페인이 스스로 비용을 지불했음을 증명",
-          "description": "마진 기여 ROI는 현재와 동일한 숫자로 자금 조달에 대한 마케팅 지출을 방어합니다.",
+          "title": "캠페인이 스스로 비용을 회수했음을 증명",
+          "description": "마진에 기여된 ROI는 재무팀이 사용하는 것과 동일한 숫자로 마케팅 지출을 방어합니다.",
           "icon": "owners"
         },
         {
@@ -1147,10 +1147,10 @@ export const generatedLocalCopy = {
       "ctaButton": "마케팅 둘러보기 예약"
     },
     "ja": {
-      "badge": "マーケティングリード向け",
+      "badge": "マーケティング責任者向け",
       "titleLine1": "支出を再配分します。",
-      "titleLine2": "予算が終了する前に。",
-      "description": "キャンペーンの ROI は 24 時間以内のカバーと純利益に結びつきます。チャンネルミックス、アトリビューション、次に何をすべきか - 毎月の総括ではありません。",
+      "titleLine2": "予算が締まる前に。",
+      "description": "キャンペーンの ROI は 24 時間以内に客数と純利益に結びつきます。チャネルミックス、アトリビューション、次に何をすべきか - 毎月の総括ではありません。",
       "primaryCta": "マーケティングウォークスルーを予約する",
       "secondaryCta": "マーケティングデモを見る",
       "problemsEyebrow": "予算が漏れる場所",
@@ -1163,8 +1163,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "純マージンが計算に含まれていません",
-          "description": "表紙と収益が表示されます。キャンペーンのコストが収益を上回ったかどうかはわかりません。",
+          "title": "純マージンが計算に含まれていない",
+          "description": "客数と売上は見えます。キャンペーンのコストが売上を上回ったかどうかは見えません。",
           "icon": "balance"
         },
         {
@@ -1182,20 +1182,20 @@ export const generatedLocalCopy = {
       "howDescription": "純マージン、チャネルごとの ROI、市場を意識した計画へのライブ アトリビューション。",
       "howSundaeHelps": [
         {
-          "title": "カバーだけでなく純利益への帰属",
-          "description": "すべてのキャンペーンは、属性付き表紙、平均チェック、および表紙が実際に獲得したマージンに関連付けられています。クリックごとではなく、獲得したマージン 1 ドルごとに支出します。",
+          "title": "客数だけでなく純利益への帰属",
+          "description": "すべてのキャンペーンは、帰属した客数、客単価、そしてその客が実際に生み出したマージンに結びついています。クリックごとではなく、獲得したマージン 1 ドルごとに支出します。",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "ライブで再割り当てできるチャンネルミックス",
-          "description": "ロイヤルティ、有料、検索、電子メール - それぞれにライブ ROAS、属性付きカバー、カバーあたりのコストが表示されます。キャンペーンの実行中に予算を移動します。",
+          "description": "ロイヤルティ、有料、検索、電子メール - それぞれにライブ ROAS、帰属した客数、客あたりのコストが表示されます。キャンペーンの実行中に予算を移動します。",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "ロイヤルティ + ランチのコンボは、検索だけでも 2.3 倍でコンバージョンします。 Cross-Intelligence はこれらのペアを明らかにするので、チャネルを並行して実行するのではなくスタックします。",
+          "title": "Cross-Intelligence が相乗効果を見つける",
+          "description": "ロイヤルティ + ランチのコンボは、検索単独より 2.3 倍コンバージョンします。Cross-Intelligence はこうした組み合わせを浮かび上がらせ、チャネルを並行実行するのではなく積み重ねられるようにします。",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1207,7 +1207,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "マーケティングにとって何が変わるのか",
-      "outcomesDescription": "重要なときに再配分し、カバーだけでなくマージンを証明します。",
+      "outcomesDescription": "間に合ううちに再配分し、客数だけでなくマージンを証明します。",
       "outcomes": [
         {
           "title": "キャンペーン中に予算を再配分する",
@@ -1215,8 +1215,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "キャンペーン自体の費用が支払われたことを証明する",
-          "description": "マージンに起因する ROI は、マーケティング支出を擁護し、同じ数字で資金調達を行います。",
+          "title": "キャンペーンがそれ自体で元を取ったことを証明する",
+          "description": "マージンに帰属した ROI は、財務チームが使うのと同じ数字でマーケティング支出を擁護します。",
           "icon": "owners"
         },
         {
@@ -1238,12 +1238,12 @@ export const generatedLocalCopy = {
       "badge": "Untuk Pemimpin Pemasaran",
       "titleLine1": "Alokasikan kembali pembelanjaan.",
       "titleLine2": "Sebelum anggaran ditutup.",
-      "description": "ROI kampanye terkait dengan sampul dan margin bersih dalam waktu 24 jam. Campuran saluran, atribusi, dan tindakan selanjutnya - bukan rekap bulanan.",
+      "description": "ROI kampanye terkait dengan jumlah tamu dan margin bersih dalam waktu 24 jam. Bauran saluran, atribusi, dan tindakan selanjutnya - bukan rekap bulanan.",
       "primaryCta": "Pesan Panduan Pemasaran",
       "secondaryCta": "Lihat Demo Pemasaran",
-      "problemsEyebrow": "DIMANA ANGGARANNYA KEBOCORAN",
-      "problemsTitle": "Dimana anggaran pemasaran bocor",
-      "problemsDescription": "ROI terlambat seminggu. Paket bulan depan masuk sebelum data bulan ini masuk.",
+      "problemsEyebrow": "DI MANA ANGGARAN BOCOR",
+      "problemsTitle": "Di mana anggaran pemasaran bocor",
+      "problemsDescription": "ROI terlambat seminggu. Rencana bulan depan masuk sebelum data bulan ini ada.",
       "challenges": [
         {
           "title": "ROI tiba setelah pembelanjaan",
@@ -1251,13 +1251,13 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Margin bersih tidak dihitung",
-          "description": "Anda melihat sampul dan pendapatan. Anda tidak melihat apakah biaya kampanye lebih besar daripada pendapatannya.",
+          "title": "Margin bersih hilang dari hitungan",
+          "description": "Anda melihat jumlah tamu dan pendapatan. Anda tidak melihat apakah biaya kampanye lebih besar daripada hasilnya.",
           "icon": "balance"
         },
         {
-          "title": "Pencampuran saluran ditentukan berdasarkan insting",
-          "description": "Loyalitas, sosial berbayar, pencarian, email - campuran minggu lalu berlanjut secara default, bukan berdasarkan analisis.",
+          "title": "Bauran saluran ditentukan berdasarkan insting",
+          "description": "Loyalitas, sosial berbayar, penelusuran, email - bauran minggu lalu berlanjut secara default, bukan berdasarkan analisis.",
           "icon": "performance"
         },
         {
@@ -1270,20 +1270,20 @@ export const generatedLocalCopy = {
       "howDescription": "Atribusi langsung terhadap margin bersih, ROI saluran demi saluran, perencanaan yang sadar pasar.",
       "howSundaeHelps": [
         {
-          "title": "Atribusi pada margin bersih, bukan sekedar cakupan",
-          "description": "Setiap kampanye terkait dengan sampul yang diatribusikan, cek rata-rata, dan margin yang sebenarnya diperoleh dari sampul tersebut. Belanjakan per dolar margin yang diperoleh - bukan per klik.",
+          "title": "Atribusi ke margin bersih, bukan sekadar jumlah tamu",
+          "description": "Setiap kampanye terkait dengan tamu yang diatribusikan, rata-rata transaksi, dan margin yang sebenarnya dihasilkan tamu tersebut. Belanjakan per dolar margin yang diperoleh - bukan per klik.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "Campuran saluran yang dapat Anda alokasikan ulang secara langsung",
-          "description": "Loyalitas, berbayar, penelusuran, email - masing-masing dengan ROAS langsung, sampul yang diatribusikan, dan biaya per sampul. Pindahkan anggaran saat kampanye masih berjalan.",
+          "title": "Bauran saluran yang dapat Anda alokasikan ulang secara langsung",
+          "description": "Loyalitas, berbayar, penelusuran, email - masing-masing dengan ROAS langsung, tamu yang diatribusikan, dan biaya per tamu. Pindahkan anggaran saat kampanye masih berjalan.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "Kombo loyalitas + makan siang dikonversi dengan 2,3× pencarian saja. Cross-Intelligence menampilkan pasangan ini sehingga Anda menumpuk saluran, bukan menjalankannya secara paralel.",
+          "title": "Cross-Intelligence menemukan sinerginya",
+          "description": "Kombo loyalitas + makan siang menghasilkan konversi 2,3× lebih tinggi daripada penelusuran saja. Cross-Intelligence memunculkan pasangan ini sehingga Anda menumpuk saluran, bukan menjalankannya secara paralel.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1295,7 +1295,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Apa perubahan untuk pemasaran",
-      "outcomesDescription": "Alokasikan ulang meskipun penting, buktikan margin tidak hanya menutupi.",
+      "outcomesDescription": "Alokasikan ulang selagi masih penting, buktikan margin dan bukan hanya jumlah tamu.",
       "outcomes": [
         {
           "title": "Alokasi ulang anggaran dalam kampanye",
@@ -1303,8 +1303,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Buktikan bahwa kampanye membuahkan hasil",
-          "description": "ROI yang dikaitkan dengan margin melindungi pembelanjaan pemasaran untuk membiayai dengan jumlah yang sama dengan yang mereka jalani.",
+          "title": "Buktikan bahwa kampanye menutup biayanya sendiri",
+          "description": "ROI yang dikaitkan dengan margin membela pembelanjaan pemasaran dengan angka yang sama yang digunakan tim keuangan.",
           "icon": "owners"
         },
         {
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
       "badge": "Dành cho trưởng nhóm tiếp thị",
       "titleLine1": "Phân bổ lại chi tiêu.",
       "titleLine2": "Trước khi đóng ngân sách.",
-      "description": "ROI của chiến dịch được gắn với bìa và lợi nhuận ròng trong vòng 24 giờ. Kết hợp kênh, phân bổ và việc cần làm tiếp theo - không phải là bản tóm tắt hàng tháng.",
+      "description": "ROI của chiến dịch được gắn với lượt khách và lợi nhuận ròng trong vòng 24 giờ. Kết hợp kênh, phân bổ và việc cần làm tiếp theo - không phải là bản tóm tắt hàng tháng.",
       "primaryCta": "Đặt một buổi hướng dẫn tiếp thị",
       "secondaryCta": "Xem bản trình diễn tiếp thị",
       "problemsEyebrow": "NƠI Rò Rỉ NGÂN SÁCH",
@@ -1339,8 +1339,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Tỷ lệ lợi nhuận ròng bị thiếu trong phép toán",
-          "description": "Bạn thấy bìa và doanh thu. Bạn không biết liệu chi phí của chiến dịch có cao hơn số tiền kiếm được hay không.",
+          "title": "Biên lợi nhuận ròng bị thiếu trong phép tính",
+          "description": "Bạn thấy lượt khách và doanh thu. Bạn không biết liệu chi phí của chiến dịch có cao hơn số tiền kiếm được hay không.",
           "icon": "balance"
         },
         {
@@ -1358,20 +1358,20 @@ export const generatedLocalCopy = {
       "howDescription": "Phân bổ trực tiếp cho tỷ suất lợi nhuận ròng, ROI theo từng kênh, lập kế hoạch nhận biết thị trường.",
       "howSundaeHelps": [
         {
-          "title": "Ghi nhận lợi nhuận ròng, không chỉ bao gồm",
-          "description": "Mọi chiến dịch đều liên quan đến các bìa được phân bổ, số tiền trung bình và số tiền ký quỹ mà các bìa đó thực sự kiếm được. Chi tiêu cho mỗi đô la tiền ký quỹ thu được - không phải cho mỗi lần nhấp chuột.",
+          "title": "Phân bổ theo lợi nhuận ròng, không chỉ lượt khách",
+          "description": "Mọi chiến dịch đều gắn với lượt khách được phân bổ, hóa đơn trung bình và biên lợi nhuận mà các lượt khách đó thực sự tạo ra. Chi tiêu cho mỗi đô la biên lợi nhuận thu được - không phải cho mỗi lần nhấp chuột.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kết hợp kênh bạn có thể phân bổ lại trực tiếp",
-          "description": "Mức độ trung thành, trả phí, tìm kiếm, email - mỗi loại đều có ROAS trực tiếp, bìa được phân bổ và giá mỗi bìa. Di chuyển ngân sách trong khi chiến dịch vẫn đang chạy.",
+          "description": "Trung thành, trả phí, tìm kiếm, email - mỗi loại đều có ROAS trực tiếp, lượt khách được phân bổ và chi phí mỗi lượt khách. Di chuyển ngân sách trong khi chiến dịch vẫn đang chạy.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "Mức độ trung thành + combo bữa trưa chuyển đổi chỉ ở mức tìm kiếm 2,3×. Cross-Intelligence hiển thị các cặp này để bạn xếp chồng các kênh chứ không chạy chúng song song.",
+          "title": "Cross-Intelligence tìm ra sự cộng hưởng",
+          "description": "Combo trung thành + bữa trưa chuyển đổi cao gấp 2,3× so với chỉ tìm kiếm. Cross-Intelligence làm nổi bật các cặp này để bạn xếp chồng các kênh thay vì chạy chúng song song.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1383,7 +1383,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Những thay đổi nào cho hoạt động tiếp thị",
-      "outcomesDescription": "Tái phân bổ khi cần thiết, chứng minh mức ký quỹ không chỉ đủ trang trải.",
+      "outcomesDescription": "Tái phân bổ khi còn kịp, chứng minh biên lợi nhuận chứ không chỉ lượt khách.",
       "outcomes": [
         {
           "title": "Phân bổ lại ngân sách trong chiến dịch",
@@ -1391,8 +1391,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Chứng minh các chiến dịch được trả tiền cho chính họ",
-          "description": "ROI được phân bổ theo tỷ suất lợi nhuận bảo vệ chi tiêu tiếp thị để tài trợ với cùng số lượng mà họ có.",
+          "title": "Chứng minh các chiến dịch tự hoàn vốn",
+          "description": "ROI được phân bổ theo biên lợi nhuận bảo vệ chi tiêu tiếp thị bằng chính những con số mà đội tài chính sử dụng.",
           "icon": "owners"
         },
         {
@@ -1414,12 +1414,12 @@ export const generatedLocalCopy = {
       "badge": "Pentru clienți potențiali de marketing",
       "titleLine1": "Realocați cheltuielile.",
       "titleLine2": "Înainte să se închidă bugetul.",
-      "description": "Rentabilitatea investiției campaniei este legată de acoperiri și marja netă în 24 de ore. Mix de canale, atribuire și ce trebuie făcut în continuare - nu o recapitulare lunară.",
+      "description": "ROI-ul campaniei este legat de clienți și de marja netă în 24 de ore. Mix de canale, atribuire și ce trebuie făcut în continuare - nu o recapitulare lunară.",
       "primaryCta": "Rezervați o prezentare de marketing",
-      "secondaryCta": "Vedeți Demo de marketing",
-      "problemsEyebrow": "UNDE SURGE BUGETUL",
+      "secondaryCta": "Vedeți demo de marketing",
+      "problemsEyebrow": "UNDE SE SCURGE BUGETUL",
       "problemsTitle": "Unde se scurge bugetul de marketing",
-      "problemsDescription": "ROI aterizează cu o săptămână întârziere. Planul de luna viitoare va intra înainte ca datele din această lună.",
+      "problemsDescription": "ROI-ul ajunge cu o săptămână întârziere. Planul de luna viitoare pornește înainte să apară datele din această lună.",
       "challenges": [
         {
           "title": "ROI ajunge după cheltuire",
@@ -1427,8 +1427,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Marja netă lipsește din matematică",
-          "description": "Vedeți coperți și venituri. Nu vezi dacă campania a costat mai mult decât a câștigat.",
+          "title": "Marja netă lipsește din calcule",
+          "description": "Vedeți clienți și venituri. Nu vedeți dacă campania a costat mai mult decât a adus.",
           "icon": "balance"
         },
         {
@@ -1446,20 +1446,20 @@ export const generatedLocalCopy = {
       "howDescription": "Atribuire în direct la marja netă, rentabilitatea investiției canal cu canal, planificarea conștientă de piață.",
       "howSundaeHelps": [
         {
-          "title": "Atribuire marjei nete, nu doar acoperiri",
-          "description": "Fiecare campanie se leagă de acoperirile atribuite, de verificarea medie și de marja pe care aceștia au câștigat efectiv. Cheltuiește pe dolar dobândit de marjă - nu pe clic.",
+          "title": "Atribuire marjei nete, nu doar clienților",
+          "description": "Fiecare campanie se leagă de clienții atribuiți, de bonul mediu și de marja pe care acei clienți au generat-o efectiv. Cheltuiește pe fiecare dolar de marjă obținut - nu pe clic.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Mix de canale pe care îl puteți realoca în direct",
-          "description": "Fidelitate, plătit, căutare, e-mail - fiecare cu rentabilitate live a cheltuielilor publicitare, acoperiri atribuite și cost-pe-acoperire. Mutați bugetul cât timp campania este încă în desfășurare.",
+          "description": "Fidelitate, plătit, căutare, e-mail - fiecare cu ROAS live, clienți atribuiți și cost pe client. Mutați bugetul cât timp campania este încă în desfășurare.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
           "title": "Cross-Intelligence găsește sinergia",
-          "description": "Combo de loialitate + prânz se convertește doar la căutare de 2,3 ori. Cross-Intelligence evidențiază aceste perechi astfel încât să stivuiți canalele, nu să le rulați în paralel.",
+          "description": "Combo-ul fidelitate + prânz convertește de 2,3 ori mai bine decât căutarea singură. Cross-Intelligence evidențiază aceste perechi astfel încât să stivuiți canalele, nu să le rulați în paralel.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1471,7 +1471,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Ce se schimbă pentru marketing",
-      "outcomesDescription": "Realocați cât contează, dovedeți marja nu doar acoperiri.",
+      "outcomesDescription": "Realocați cât timp contează, dovediți marja, nu doar clienții.",
       "outcomes": [
         {
           "title": "Realocați bugetul în campanie",
@@ -1480,7 +1480,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Demonstrați că campaniile sunt plătite singure",
-          "description": "ROI atribuit marjelor apără cheltuielile de marketing pentru finanțare cu aceleași cifre în care trăiesc.",
+          "description": "ROI-ul atribuit marjei apără cheltuielile de marketing cu aceleași cifre pe care le folosește echipa financiară.",
           "icon": "owners"
         },
         {
@@ -1489,7 +1489,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Slipurile de marcă bazate pe semnalul pieței",
+          "title": "Brief-uri de brand bazate pe semnalul pieței",
           "description": "Planuri construite știind ce fac concurenții și piața locală - nu doar cheltuielile de luna trecută.",
           "icon": "support"
         }
@@ -1499,10 +1499,10 @@ export const generatedLocalCopy = {
       "ctaButton": "Rezervați o prezentare de marketing"
     },
     "sv": {
-      "badge": "För marknadsledare",
+      "badge": "För marknadschefer",
       "titleLine1": "Omfördela utgifterna.",
       "titleLine2": "Innan budgeten stänger.",
-      "description": "Kampanjens ROI kopplad till omslag och nettomarginal inom 24 timmar. Kanalmix, tillskrivning och vad du ska göra härnäst - inte en månatlig sammanfattning.",
+      "description": "Kampanjens ROI kopplad till gäster och nettomarginal inom 24 timmar. Kanalmix, attribution och vad du ska göra härnäst - inte en månatlig sammanfattning.",
       "primaryCta": "Boka en marknadsföringsgenomgång",
       "secondaryCta": "Se marknadsföringsdemo",
       "problemsEyebrow": "DÄR BUDGETEN LÄCKAR",
@@ -1511,12 +1511,12 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "ROI kommer efter spenderingen",
-          "description": "Attribution landar veckan efter kampanjen. Du planerar redan nästa.",
+          "description": "Attributionen landar veckan efter kampanjen. Du planerar redan nästa.",
           "icon": "marketing"
         },
         {
-          "title": "Nettomarginal saknas i matematiken",
-          "description": "Du ser omslag och intäkter. Du ser inte om kampanjen kostade mer än den tjänade in.",
+          "title": "Nettomarginal saknas i kalkylen",
+          "description": "Du ser gäster och intäkter. Du ser inte om kampanjen kostade mer än den drog in.",
           "icon": "balance"
         },
         {
@@ -1530,24 +1530,24 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "Hur Sundae fungerar för potentiella kunder",
-      "howDescription": "Live attribution till nettomarginal, kanal för kanal ROI, marknadsmedveten planering.",
+      "howTitle": "Hur Sundae fungerar för marknadschefer",
+      "howDescription": "Live attribution till nettomarginal, kanal-för-kanal-ROI, marknadsmedveten planering.",
       "howSundaeHelps": [
         {
-          "title": "Tillskrivning till nettomarginal, inte bara omslag",
-          "description": "Varje kampanj är kopplad till tillskrivna omslag, genomsnittlig check och marginalen som dessa omslag faktiskt tjänat in. Spendera per förvärvad dollar av marginal - inte per klick.",
+          "title": "Attribution till nettomarginal, inte bara gäster",
+          "description": "Varje kampanj är kopplad till attribuerade gäster, snittnotan och marginalen som dessa gäster faktiskt genererade. Spendera per intjänad dollar i marginal - inte per klick.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kanalmix du kan omfördela live",
-          "description": "Lojalitet, betald, sökning, e-post - alla med live-ROAS, tillskrivna täckningar och kostnad per täckning. Flytta budget medan kampanjen fortfarande körs.",
+          "description": "Lojalitet, betald, sökning, e-post - alla med live-ROAS, attribuerade gäster och kostnad per gäst. Flytta budget medan kampanjen fortfarande körs.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
           "title": "Cross-Intelligence hittar synergin",
-          "description": "Lojalitet + lunch combo konverterar vid 2,3× sökning enbart. Cross-Intelligence lägger fram dessa parningar så att du staplar kanaler, inte kör dem parallellt.",
+          "description": "Kombinationen lojalitet + lunch konverterar 2,3× bättre än sökning enbart. Cross-Intelligence lyfter fram dessa parningar så att du staplar kanaler i stället för att köra dem parallellt.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1559,7 +1559,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Vilka förändringar för marknadsföring",
-      "outcomesDescription": "Omfördela medan det är viktigt, bevisa att marginalen inte bara täcker.",
+      "outcomesDescription": "Omfördela medan det räknas, bevisa marginalen och inte bara gästerna.",
       "outcomes": [
         {
           "title": "Omfördela budget i kampanjen",
@@ -1568,7 +1568,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bevisa att kampanjer betalat för sig själva",
-          "description": "Marginaltillskriven ROI försvarar marknadsföringsutgifter för att finansiera med samma siffror som de lever i.",
+          "description": "Den marginalattribuerade ROI:n försvarar marknadsföringsutgifterna med samma siffror som finansteamet använder.",
           "icon": "owners"
         },
         {
@@ -1577,7 +1577,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Varumärkestrosor grundade i marknadssignal",
+          "title": "Varumärkesbriefer grundade i marknadssignal",
           "description": "Planer byggda med att veta vad konkurrenterna och den lokala marknaden gör - inte bara förra månadens utgifter.",
           "icon": "support"
         }
@@ -1587,10 +1587,10 @@ export const generatedLocalCopy = {
       "ctaButton": "Boka en marknadsföringsgenomgång"
     },
     "bn": {
-      "badge": "মার্কেটিং লিড জন্য",
-      "titleLine1": "খরচ পুনরায় বরাদ্দ.",
+      "badge": "মার্কেটিং প্রধানদের জন্য",
+      "titleLine1": "খরচ পুনরায় বরাদ্দ করুন।",
       "titleLine2": "বাজেট বন্ধ হওয়ার আগেই।",
-      "description": "ক্যাম্পেইন ROI 24 ঘন্টার মধ্যে কভার এবং নেট মার্জিনের সাথে সংযুক্ত। চ্যানেল মিক্স, অ্যাট্রিবিউশন এবং পরবর্তীতে কী করতে হবে - মাসিক রিক্যাপ নয়।",
+      "description": "ক্যাম্পেইন ROI 24 ঘণ্টার মধ্যে অতিথি এবং নেট মার্জিনের সাথে সংযুক্ত। চ্যানেল মিক্স, অ্যাট্রিবিউশন এবং পরবর্তীতে কী করতে হবে - মাসিক রিক্যাপ নয়।",
       "primaryCta": "একটি মার্কেটিং ওয়াক-থ্রু বুক করুন",
       "secondaryCta": "মার্কেটিং ডেমো দেখুন",
       "problemsEyebrow": "যেখানে বাজেট ফাঁস হয়",
@@ -1603,8 +1603,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "গণিত থেকে নেট মার্জিন অনুপস্থিত",
-          "description": "আপনি কভার এবং রাজস্ব দেখতে. আপনি দেখতে পাচ্ছেন না যে প্রচারাভিযানটি আয়ের চেয়ে বেশি ব্যয় করেছে কিনা।",
+          "title": "হিসাব থেকে নেট মার্জিন অনুপস্থিত",
+          "description": "আপনি অতিথি এবং রাজস্ব দেখেন। আপনি দেখতে পান না ক্যাম্পেইনটির খরচ তার আয়ের চেয়ে বেশি ছিল কিনা।",
           "icon": "balance"
         },
         {
@@ -1622,20 +1622,20 @@ export const generatedLocalCopy = {
       "howDescription": "নেট মার্জিনে লাইভ অ্যাট্রিবিউশন, চ্যানেল-বাই-চ্যানেল ROI, বাজার-সচেতন পরিকল্পনা।",
       "howSundaeHelps": [
         {
-          "title": "নেট মার্জিনে অ্যাট্রিবিউশন, শুধু কভার নয়",
-          "description": "প্রতিটি প্রচারাভিযান অ্যাট্রিবিউটেড কভার, গড় চেক এবং সেই কভারগুলি আসলে অর্জিত মার্জিনের সাথে সম্পর্কযুক্ত। মার্জিনের অর্জিত ডলার প্রতি ব্যয় করুন - প্রতি ক্লিকে নয়।",
+          "title": "নেট মার্জিনে অ্যাট্রিবিউশন, শুধু অতিথি নয়",
+          "description": "প্রতিটি ক্যাম্পেইন অ্যাট্রিবিউটেড অতিথি, গড় বিল এবং সেই অতিথিরা আসলে যে মার্জিন অর্জন করেছে তার সাথে সম্পর্কযুক্ত। প্রতি অর্জিত মার্জিন ডলারে ব্যয় করুন - প্রতি ক্লিকে নয়।",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "চ্যানেল মিক্স আপনি লাইভ পুনরায় বরাদ্দ করতে পারেন",
-          "description": "আনুগত্য, অর্থপ্রদান, অনুসন্ধান, ইমেল - প্রতিটি লাইভ ROAS, অ্যাট্রিবিউটেড কভার এবং কভার-প্রতি খরচ সহ। প্রচারণা চালানোর সময় বাজেট সরান।",
+          "title": "চ্যানেল মিক্স যা আপনি লাইভ পুনরায় বরাদ্দ করতে পারেন",
+          "description": "আনুগত্য, অর্থপ্রদান, অনুসন্ধান, ইমেল - প্রতিটি লাইভ ROAS, অ্যাট্রিবিউটেড অতিথি এবং প্রতি-অতিথি খরচ সহ। ক্যাম্পেইন চলাকালীনই বাজেট সরান।",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "আনুগত্য + লাঞ্চ কম্বো 2.3× এ একা অনুসন্ধানে রূপান্তরিত হয়। ক্রস-ইনটেলিজেন্স এই পেয়ারিংগুলিকে সারফেস করে যাতে আপনি চ্যানেলগুলিকে স্ট্যাক করেন, সেগুলিকে সমান্তরালে না চালান৷ (Cross-Intelligence)",
+          "title": "Cross-Intelligence সমন্বয় খুঁজে বের করে",
+          "description": "আনুগত্য + লাঞ্চ কম্বো একা অনুসন্ধানের চেয়ে 2.3× বেশি রূপান্তরিত হয়। Cross-Intelligence এই জোড়াগুলিকে সামনে আনে যাতে আপনি চ্যানেলগুলিকে সমান্তরালে না চালিয়ে একটির উপর একটি সাজান।",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1647,7 +1647,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "বিপণনের জন্য কি পরিবর্তন",
-      "outcomesDescription": "এটি গুরুত্বপূর্ণ থাকাকালীন পুনঃনির্ধারণ করুন, শুধুমাত্র কভার নয় মার্জিন প্রমাণ করুন।",
+      "outcomesDescription": "যতক্ষণ গুরুত্বপূর্ণ ততক্ষণ পুনঃবরাদ্দ করুন, শুধু অতিথি নয় মার্জিন প্রমাণ করুন।",
       "outcomes": [
         {
           "title": "প্রচারাভিযানে বাজেট পুনরায় বরাদ্দ করুন",
@@ -1655,13 +1655,13 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "নিজেদের জন্য অর্থ প্রদান প্রচারাভিযান প্রমাণ",
-          "description": "মার্জিন-অ্যাট্রিবিউটেড ROI বিপণন খরচ রক্ষা করে যাতে তারা বসবাস করে সেই একই সংখ্যার সাথে অর্থায়ন করতে।",
+          "title": "প্রমাণ করুন ক্যাম্পেইন নিজেই নিজের খরচ তুলে এনেছে",
+          "description": "মার্জিন-অ্যাট্রিবিউটেড ROI অর্থ বিভাগ যে সংখ্যাগুলি ব্যবহার করে সেই একই সংখ্যা দিয়ে বিপণন খরচকে রক্ষা করে।",
           "icon": "owners"
         },
         {
-          "title": "স্ট্যাক চ্যানেল যে যৌগ",
-          "description": "ক্রস-ইনটেলিজেন্স দেখায় কোন চ্যানেলের সংমিশ্রণগুলি একে অপরকে বহুগুণ করে - শুধুমাত্র কোনটি একা কাজ করে না। (Cross-Intelligence)",
+          "title": "যেসব চ্যানেল একসাথে যৌগিক হয় সেগুলি সাজান",
+          "description": "Cross-Intelligence দেখায় কোন চ্যানেল সংমিশ্রণগুলি একে অপরকে বহুগুণ করে - শুধু কোনটি একা কাজ করে তা নয়।",
           "icon": "performance"
         },
         {
@@ -1677,8 +1677,8 @@ export const generatedLocalCopy = {
     "th": {
       "badge": "สำหรับผู้นำทางการตลาด",
       "titleLine1": "จัดสรรการใช้จ่ายใหม่",
-      "titleLine2": "ก่อนปิดงบ..",
-      "description": "ROI ของแคมเปญเชื่อมโยงกับความคุ้มครองและกำไรสุทธิภายใน 24 ชั่วโมง การผสมผสานช่อง การระบุแหล่งที่มา และสิ่งที่ต้องทำถัดไป ไม่ใช่สรุปรายเดือน",
+      "titleLine2": "ก่อนปิดงบ",
+      "description": "ROI ของแคมเปญเชื่อมโยงกับจำนวนลูกค้าและกำไรสุทธิภายใน 24 ชั่วโมง การผสมช่องทาง การระบุแหล่งที่มา และสิ่งที่ต้องทำต่อไป ไม่ใช่สรุปรายเดือน",
       "primaryCta": "จองคำแนะนำทางการตลาด",
       "secondaryCta": "ดูการสาธิตการตลาด",
       "problemsEyebrow": "งบประมาณรั่วไหลที่ไหน",
@@ -1691,8 +1691,8 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "อัตรากำไรสุทธิหายไปจากคณิตศาสตร์",
-          "description": "คุณเห็นความคุ้มครองและรายได้ คุณไม่เห็นว่าแคมเปญมีค่าใช้จ่ายมากกว่าที่ได้รับหรือไม่",
+          "title": "อัตรากำไรสุทธิหายไปจากการคำนวณ",
+          "description": "คุณเห็นจำนวนลูกค้าและรายได้ คุณไม่เห็นว่าแคมเปญมีค่าใช้จ่ายมากกว่าที่ทำได้หรือไม่",
           "icon": "balance"
         },
         {
@@ -1710,20 +1710,20 @@ export const generatedLocalCopy = {
       "howDescription": "การระบุแหล่งที่มาสดของกำไรสุทธิ, ROI แบบช่องต่อช่อง, การวางแผนโดยคำนึงถึงตลาด",
       "howSundaeHelps": [
         {
-          "title": "การระบุแหล่งที่มาของกำไรสุทธิ ไม่ใช่แค่ครอบคลุมเท่านั้น",
-          "description": "ทุกแคมเปญเชื่อมโยงกับความคุ้มครองที่ระบุ เช็คเฉลี่ย และส่วนต่างที่ได้รับตามจริง ใช้จ่ายต่อกำไรที่ได้มา - ไม่ใช่ต่อคลิก",
+          "title": "การระบุแหล่งที่มาของกำไรสุทธิ ไม่ใช่แค่จำนวนลูกค้า",
+          "description": "ทุกแคมเปญเชื่อมโยงกับจำนวนลูกค้าที่ระบุ ยอดบิลเฉลี่ย และกำไรที่ลูกค้าเหล่านั้นทำได้จริง ใช้จ่ายต่อทุกดอลลาร์ของกำไรที่ได้มา - ไม่ใช่ต่อคลิก",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "มิกซ์ช่องที่คุณสามารถจัดสรรสดได้",
-          "description": "ความภักดี การชำระเงิน การค้นหา อีเมล - แต่ละรายการมี ROAS แบบสด หน้าปกที่นำมาประกอบ และราคาต่อหน้าปก ย้ายงบประมาณในขณะที่แคมเปญยังทำงานอยู่",
+          "title": "การผสมช่องทางที่คุณจัดสรรใหม่ได้แบบเรียลไทม์",
+          "description": "ความภักดี การชำระเงิน การค้นหา อีเมล - แต่ละรายการมี ROAS แบบสด จำนวนลูกค้าที่ระบุ และต้นทุนต่อลูกค้า ย้ายงบประมาณในขณะที่แคมเปญยังทำงานอยู่",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
           "title": "Cross-Intelligence ค้นหาการทำงานร่วมกัน",
-          "description": "คอมโบความภักดี + อาหารกลางวันแปลงที่ 2.3× ค้นหาเพียงอย่างเดียว Cross-Intelligence จะแสดงการจับคู่เหล่านี้เพื่อให้คุณซ้อนช่องสัญญาณได้ ไม่ใช่เรียกใช้แบบคู่ขนาน",
+          "description": "คอมโบความภักดี + มื้อกลางวันมีอัตราแปลงสูงกว่าการค้นหาเพียงอย่างเดียว 2.3 เท่า Cross-Intelligence จะเผยการจับคู่เหล่านี้เพื่อให้คุณซ้อนช่องทางแทนที่จะเรียกใช้แบบคู่ขนาน",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1735,7 +1735,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "การเปลี่ยนแปลงด้านการตลาดคืออะไร",
-      "outcomesDescription": "จัดสรรใหม่ในขณะที่มีความสำคัญ พิสูจน์ว่ามาร์จิ้นไม่ใช่แค่ครอบคลุมเท่านั้น",
+      "outcomesDescription": "จัดสรรใหม่ในขณะที่ยังสำคัญ พิสูจน์มาร์จิ้น ไม่ใช่แค่จำนวนลูกค้า",
       "outcomes": [
         {
           "title": "จัดสรรงบประมาณใหม่ในแคมเปญ",
@@ -1743,8 +1743,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "พิสูจน์แคมเปญที่จ่ายเอง",
-          "description": "ROI ที่เกิดจากหลักประกันจะปกป้องการใช้จ่ายทางการตลาดเพื่อจัดหาเงินทุนด้วยตัวเลขเดียวกันกับที่พวกเขาอยู่",
+          "title": "พิสูจน์ว่าแคมเปญคืนทุนด้วยตัวมันเอง",
+          "description": "ROI ที่อิงกับมาร์จิ้นปกป้องการใช้จ่ายทางการตลาดด้วยตัวเลขชุดเดียวกับที่ทีมการเงินใช้",
           "icon": "owners"
         },
         {
@@ -1753,12 +1753,12 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "กางเกงในแบรนด์มีสายดินในสัญญาณตลาด",
+          "title": "บรีฟแบรนด์ที่ยึดกับสัญญาณตลาด",
           "description": "แผนสร้างขึ้นโดยรู้ว่าคู่แข่งและตลาดท้องถิ่นกำลังทำอะไรอยู่ ไม่ใช่แค่การใช้จ่ายของเดือนที่แล้ว",
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูช่องของคุณมิกซ์เคลื่อนไหว",
+      "ctaTitle": "ดูการผสมช่องทางของคุณขณะกำลังเคลื่อนไหว",
       "ctaDescription": "30 นาที แคมเปญของคุณ งบประมาณที่คุณจะจัดสรรใหม่เมื่อสัปดาห์ที่แล้ว",
       "ctaButton": "จองคำแนะนำทางการตลาด"
     },
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Pemimpin Pemasaran",
       "titleLine1": "Agihkan semula perbelanjaan.",
       "titleLine2": "Sebelum bajet ditutup.",
-      "description": "ROI kempen terikat pada muka depan dan margin bersih dalam masa 24 jam. Campuran saluran, atribusi dan perkara yang perlu dilakukan seterusnya - bukan rekap bulanan.",
+      "description": "ROI kempen terikat pada jumlah tetamu dan margin bersih dalam masa 24 jam. Campuran saluran, atribusi dan perkara yang perlu dilakukan seterusnya - bukan rekap bulanan.",
       "primaryCta": "Tempah Walk-through Pemasaran",
       "secondaryCta": "Lihat Demo Pemasaran",
       "problemsEyebrow": "MANA BAJET BOCOR",
@@ -1779,12 +1779,12 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Margin bersih hilang daripada matematik",
-          "description": "Anda melihat perlindungan dan hasil. Anda tidak melihat sama ada kos kempen lebih tinggi daripada yang diperolehi.",
+          "title": "Margin bersih hilang daripada pengiraan",
+          "description": "Anda melihat jumlah tetamu dan hasil. Anda tidak melihat sama ada kos kempen lebih tinggi daripada yang diperolehnya.",
           "icon": "balance"
         },
         {
-          "title": "Campuran saluran memutuskan naluri",
+          "title": "Campuran saluran diputuskan ikut naluri",
           "description": "Kesetiaan, sosial berbayar, carian, e-mel - campuran minggu lalu diteruskan secara lalai, bukan melalui analisis.",
           "icon": "performance"
         },
@@ -1798,20 +1798,20 @@ export const generatedLocalCopy = {
       "howDescription": "Atribusi langsung kepada margin bersih, ROI saluran demi saluran, perancangan sedar pasaran.",
       "howSundaeHelps": [
         {
-          "title": "Atribusi kepada margin bersih, bukan hanya penutup",
-          "description": "Setiap kempen berkaitan dengan perlindungan yang diatributkan, semakan purata dan margin yang sebenarnya diperoleh oleh perlindungan tersebut. Perbelanjaan setiap dolar margin yang diperoleh - bukan setiap klik.",
+          "title": "Atribusi kepada margin bersih, bukan hanya tetamu",
+          "description": "Setiap kempen berkaitan dengan tetamu yang diatribusikan, purata bil dan margin yang sebenarnya dijana oleh tetamu tersebut. Belanjakan bagi setiap dolar margin yang diperoleh - bukan setiap klik.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
-          "title": "Campuran saluran anda boleh mengagihkan semula secara langsung",
-          "description": "Kesetiaan, berbayar, carian, e-mel - masing-masing dengan ROAS langsung, perlindungan dikaitkan dan kos setiap perlindungan. Alihkan belanjawan semasa kempen masih berjalan.",
+          "title": "Campuran saluran yang boleh anda agihkan semula secara langsung",
+          "description": "Kesetiaan, berbayar, carian, e-mel - masing-masing dengan ROAS langsung, tetamu yang diatribusikan dan kos setiap tetamu. Alihkan belanjawan semasa kempen masih berjalan.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
         {
-          "title": "Cross-Intelligence finds the synergy",
-          "description": "Kombo kesetiaan + makan tengah hari bertukar pada 2.3× carian sahaja. Kepintaran Silang memaparkan gandingan ini supaya anda menyusun saluran, bukan menjalankannya secara selari. (Cross-Intelligence)",
+          "title": "Cross-Intelligence menemukan sinergi",
+          "description": "Kombo kesetiaan + makan tengah hari menukar 2.3× lebih tinggi berbanding carian sahaja. Cross-Intelligence memaparkan gandingan ini supaya anda menyusun saluran, bukan menjalankannya secara selari.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1823,7 +1823,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Apakah perubahan untuk pemasaran",
-      "outcomesDescription": "Agihkan semula semasa ia penting, buktikan margin bukan sekadar penutup.",
+      "outcomesDescription": "Agihkan semula semasa ia masih penting, buktikan margin bukan sekadar jumlah tetamu.",
       "outcomes": [
         {
           "title": "Agihkan semula belanjawan dalam kempen",
@@ -1831,17 +1831,17 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Buktikan kempen dibayar untuk diri mereka sendiri",
-          "description": "ROI yang diatribusikan margin mempertahankan perbelanjaan pemasaran untuk membiayai dengan jumlah yang sama yang mereka tinggali.",
+          "title": "Buktikan kempen membayar kembali kosnya sendiri",
+          "description": "ROI yang diatribusikan kepada margin mempertahankan perbelanjaan pemasaran dengan angka yang sama yang digunakan pasukan kewangan.",
           "icon": "owners"
         },
         {
-          "title": "Susun saluran yang kompaun",
-          "description": "Kepintaran Silang menunjukkan gabungan saluran yang mendarab antara satu sama lain - bukan sahaja yang berfungsi secara bersendirian. (Cross-Intelligence)",
+          "title": "Susun saluran yang saling mengukuhkan",
+          "description": "Cross-Intelligence menunjukkan gabungan saluran yang mendarab antara satu sama lain - bukan sahaja yang berfungsi secara bersendirian.",
           "icon": "performance"
         },
         {
-          "title": "Seluar jenama berasaskan isyarat pasaran",
+          "title": "Ringkasan jenama berasaskan isyarat pasaran",
           "description": "Rancangan dibina mengetahui perkara yang pesaing dan pasaran tempatan lakukan - bukan hanya perbelanjaan bulan lepas.",
           "icon": "support"
         }

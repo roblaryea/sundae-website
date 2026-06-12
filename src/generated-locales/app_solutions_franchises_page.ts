@@ -3,14 +3,14 @@
 export const generatedLocalCopy = {
   "localizedCopy": {
     "ar": {
-      "badge": "لأصحاب الامتياز وأصحاب الامتياز",
+      "badge": "لأصحاب الامتياز ومانحي الامتياز",
       "titleLine1": "معايير العلامة التجارية.",
       "titleLine2": "الحقيقة على مستوى الشبكة.",
       "description": "أداء الامتياز مرتبة حسب النظير. اتساق العلامة التجارية قابل للقياس، وليس مفترضًا. مصدر واحد للحقيقة عبر كل مالك ومشغل.",
       "primaryCta": "حجز جولة الامتياز",
       "secondaryCta": "انظر العرض التوضيحي للامتياز",
-      "problemsEyebrow": "حيث تنقطع ذكاء الامتياز",
-      "problemsTitle": "حيث ينكسر ذكاء الامتياز",
+      "problemsEyebrow": "حيث ينهار ذكاء الامتياز",
+      "problemsTitle": "حيث ينهار ذكاء الامتياز",
       "problemsDescription": "بيانات غير متناسقة من أصحاب الامتياز، ومعايير العلامة التجارية غير مطبقة، وأقوى المشغلين لا يتعلمون من أحد.",
       "challenges": [
         {
@@ -25,7 +25,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "تظل كتيبات اللعب الخاصة بأفضل الأداء صامتة",
-          "description": "صاحب الامتياز الذي يسحق إنتاجية العمل لا يشارك. المجاهد لا يسأل.",
+          "description": "صاحب الامتياز الذي يتفوق في إنتاجية العمالة لا يشارك خبرته. والمتعثر لا يطلب المساعدة.",
           "icon": "support"
         },
         {
@@ -87,7 +87,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "شاهد شبكتك في تصنيف واحد.",
-      "ctaDescription": "30 دقيقة. أصحاب الامتياز الخاص بك. المعايير التي كنت قد رصدت الانزلاق.",
+      "ctaDescription": "30 دقيقة. أصحاب الامتياز لديك. المعايير التي كنت ستلاحظ تراجعها.",
       "ctaButton": "حجز جولة الامتياز"
     },
     "fr": {
@@ -97,7 +97,7 @@ export const generatedLocalCopy = {
       "description": "Performance des franchisés classée par pairs. Cohérence de la marque mesurable, non supposée. Une source de vérité pour chaque propriétaire-exploitant.",
       "primaryCta": "Réservez une visite guidée de votre franchise",
       "secondaryCta": "Voir la démo de la franchise",
-      "problemsEyebrow": "LÀ OÙ L’INTELLIGENCE DES FRANCHISES PAUSE",
+      "problemsEyebrow": "LÀ OÙ L’INTELLIGENCE DES FRANCHISES S’ARRÊTE",
       "problemsTitle": "Là où l’intelligence des franchises s’arrête",
       "problemsDescription": "Données incohérentes des franchisés, normes de marque non appliquées, les opérateurs les plus solides n'apprenant de personne.",
       "challenges": [
@@ -108,7 +108,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Les normes de marque ne sont pas mesurées",
-          "description": "Vous les définissez dans le manuel d'exploitation. Vous ne pouvez pas dire quel point de vente les rencontre.",
+          "description": "Vous les définissez dans le manuel d'exploitation. Impossible de savoir quel point de vente les respecte.",
           "icon": "performance"
         },
         {
@@ -145,7 +145,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Rapprochement des redevances, automatisé",
-          "description": "Revenu net calculé à partir de la même source pour chaque franchisé. La royauté devient un calcul, pas une négociation.",
+          "description": "Revenu net calculé à partir de la même source pour chaque franchisé. La redevance devient un calcul, pas une négociation.",
           "product": "Sundae Core",
           "icon": "balance"
         }
@@ -175,7 +175,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Visualisez votre réseau sur un seul classement.",
-      "ctaDescription": "30 minutes. Vos franchisés. Les normes que vous auriez repérées dérapent.",
+      "ctaDescription": "30 minutes. Vos franchisés. Les normes que vous auriez vues déraper.",
       "ctaButton": "Réservez une visite guidée de votre franchise"
     },
     "es": {
@@ -183,7 +183,7 @@ export const generatedLocalCopy = {
       "titleLine1": "Estándares de marca.",
       "titleLine2": "La verdad en toda la red.",
       "description": "Desempeño del franquiciado clasificado por pares. La coherencia de la marca es mensurable, no supuesta. Una fuente de verdad para cada propietario-operador.",
-      "primaryCta": "Agenda una sesión por la franquicia",
+      "primaryCta": "Agenda un recorrido por la franquicia",
       "secondaryCta": "Ver demostración de franquicia",
       "problemsEyebrow": "DONDE SE ROMPE LA INTELIGENCIA DE FRANQUICIA",
       "problemsTitle": "Donde falla la inteligencia de franquicias",
@@ -196,12 +196,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Los estándares de marca no se miden",
-          "description": "Los configuras en el manual de operaciones. No se puede saber qué salida los cumple.",
+          "description": "Los configuras en el manual de operaciones. No puedes saber qué establecimiento los cumple.",
           "icon": "performance"
         },
         {
-          "title": "Los manuales de juego de los mejores jugadores permanecen aislados",
-          "description": "El franquiciado que aplasta la productividad laboral no comparte. El que lucha no pregunta.",
+          "title": "Los playbooks de los de mejor desempeño quedan aislados",
+          "description": "El franquiciado que destaca en productividad laboral no lo comparte. El que tiene dificultades no pregunta.",
           "icon": "support"
         },
         {
@@ -233,7 +233,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Conciliación de regalías, automatizada",
-          "description": "Ingresos netos calculados a partir de la misma fuente para todos los franquiciados. La realeza se convierte en un cálculo, no en una negociación.",
+          "description": "Ingresos netos calculados a partir de la misma fuente para todos los franquiciados. Las regalías se convierten en un cálculo, no en una negociación.",
           "product": "Sundae Core",
           "icon": "balance"
         }
@@ -243,7 +243,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Los franquiciados compiten en lo correcto",
-          "description": "Los referencias comparativas anónimos convierten la presión de los pares en un volante positivo: la red se eleva en conjunto.",
+          "description": "Las referencias comparativas anónimas convierten la presión de los pares en un volante positivo: la red se eleva en conjunto.",
           "icon": "speed"
         },
         {
@@ -253,18 +253,18 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Las mejores prácticas se propagan orgánicamente",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligence detecta lo que funciona en el de mejor desempeño y lo distribuye al resto.",
           "icon": "owners"
         },
         {
-          "title": "Las disputas por derechos de autor caen a casi cero",
+          "title": "Las disputas por regalías caen a casi cero",
           "description": "Una fuente de verdad sobre los ingresos netos. La conversación se convierte en coaching, no en auditoría.",
           "icon": "support"
         }
       ],
       "ctaTitle": "Vea su red en un ranking.",
-      "ctaDescription": "30 minutos. Tus franquiciados. Los estándares que usted habría visto caer.",
-      "ctaButton": "Agenda una sesión por la franquicia"
+      "ctaDescription": "30 minutos. Tus franquiciados. Los estándares que habrías visto deslizarse.",
+      "ctaButton": "Agenda un recorrido por la franquicia"
     },
     "de": {
       "badge": "Für Franchiseunternehmen und Franchisegeber",
@@ -273,8 +273,8 @@ export const generatedLocalCopy = {
       "description": "Die Leistung des Franchisenehmers wird nach Mitbewerbern geordnet. Markenkonsistenz messbar, nicht vorausgesetzt. Eine Quelle der Wahrheit für jeden Eigentümer/Betreiber.",
       "primaryCta": "Buchen Sie einen Franchise-Rundgang",
       "secondaryCta": "Siehe Franchise-Demo",
-      "problemsEyebrow": "WO DIE FRANCHISE-INTELLIGENZ bricht",
-      "problemsTitle": "Wo Franchise-Intelligenz bricht",
+      "problemsEyebrow": "WO FRANCHISE-INTELLIGENZ ZUSAMMENBRICHT",
+      "problemsTitle": "Wo Franchise-Intelligenz zusammenbricht",
       "problemsDescription": "Inkonsistente Daten von Franchisenehmern, nicht durchgesetzte Markenstandards, die stärksten Betreiber lernen von niemandem.",
       "challenges": [
         {
@@ -284,12 +284,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Markenstandards werden nicht gemessen",
-          "description": "Sie legen sie im Betriebshandbuch fest. Man kann nicht sagen, welche Verkaufsstelle sie trifft.",
+          "description": "Sie legen sie im Betriebshandbuch fest. Man kann nicht erkennen, welche Filiale sie einhält.",
           "icon": "performance"
         },
         {
           "title": "Die Spielpläne der Top-Performer bleiben isoliert",
-          "description": "Der Franchisenehmer, der die Arbeitsproduktivität zerstört, teilt nicht. Derjenige, der kämpft, fragt nicht.",
+          "description": "Der Franchisenehmer mit herausragender Arbeitsproduktivität teilt sein Wissen nicht. Der Kämpfende fragt nicht danach.",
           "icon": "support"
         },
         {
@@ -372,12 +372,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Os padrões da marca não são medidos",
-          "description": "Você os define no manual de operações. Você não pode dizer qual canal os atende.",
+          "description": "Você os define no manual de operações. Você não consegue dizer qual unidade os cumpre.",
           "icon": "performance"
         },
         {
           "title": "Os manuais dos melhores desempenhos permanecem isolados",
-          "description": "O franqueado que esmaga a produtividade do trabalho não compartilha. Aquele que luta não pergunta.",
+          "description": "O franqueado que se destaca na produtividade da mão de obra não compartilha. Aquele que tem dificuldades não pergunta.",
           "icon": "support"
         },
         {
@@ -409,7 +409,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Reconciliação de royalties, automatizada",
-          "description": "Receita líquida calculada da mesma fonte para todos os franqueados. A realeza se torna um cálculo, não uma negociação.",
+          "description": "Receita líquida calculada da mesma fonte para todos os franqueados. Os royalties se tornam um cálculo, não uma negociação.",
           "product": "Sundae Core",
           "icon": "balance"
         }
@@ -552,12 +552,12 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "سرفہرست اداکاروں کی پلے بکس خاموش رہتی ہیں۔",
-          "description": "فرنچائزی کرشنگ لیبر کی پیداواری صلاحیت کا اشتراک نہیں کرتی ہے۔ جدوجہد کرنے والا نہیں پوچھتا۔",
+          "title": "بہترین کارکردگی والوں کے پلے بکس الگ تھلگ رہتے ہیں۔",
+          "description": "وہ فرنچائزی جو لیبر پیداواری صلاحیت میں نمایاں ہے اپنا تجربہ شیئر نہیں کرتا۔ اور جو مشکل میں ہے وہ پوچھتا نہیں۔",
           "icon": "support"
         },
         {
-          "title": "رائلٹی آڈٹ رشتہ کھاتے ہیں۔",
+          "title": "رائلٹی آڈٹ تعلق کو ختم کر دیتے ہیں۔",
           "description": "سہ ماہی مفاہمتیں مخالفانہ تنازعات میں بدل جاتی ہیں۔ اعتماد ختم ہو جاتا ہے۔",
           "icon": "balance"
         }
@@ -578,7 +578,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "ٹاپ پرفارمر پلے بکس پروپیگنڈہ کرتے ہیں۔",
+          "title": "بہترین کارکردگی والے پلے بکس پھیل جاتے ہیں۔",
           "description": "جب سائٹ 12 اپ سیل کی شرح کو 18% اٹھا لیتی ہے، تو Sundae پیٹرن کو ظاہر کرتا ہے تاکہ باقی نیٹ ورک سیکھے - بغیر میمو کے۔",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
@@ -605,7 +605,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "بہترین طرز عمل نامیاتی طور پر پھیلاتے ہیں۔",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligence یہ معلوم کرتا ہے کہ بہترین کارکردگی والے کے ہاں کیا کام کر رہا ہے اور اسے باقیوں تک پہنچاتا ہے۔",
           "icon": "owners"
         },
         {
@@ -615,7 +615,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "اپنے نیٹ ورک کو ایک درجہ بندی پر دیکھیں۔",
-      "ctaDescription": "30 منٹ آپ کی فرنچائزز۔ جن معیارات کو آپ نے پھسلتے ہوئے دیکھا ہوگا۔",
+      "ctaDescription": "30 منٹ۔ آپ کی فرنچائزز۔ وہ معیارات جنہیں آپ نے گرتے ہوئے دیکھا ہوتا۔",
       "ctaButton": "فرنچائز واک تھرو بک کریں۔"
     },
     "it": {
@@ -636,12 +636,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Gli standard del marchio non vengono misurati",
-          "description": "Li imposti nel manuale delle operazioni. Non puoi dire quale sbocco li incontra.",
+          "description": "Li imposti nel manuale delle operazioni. Non puoi sapere quale punto vendita li rispetta.",
           "icon": "performance"
         },
         {
           "title": "I programmi dei top performer restano nascosti",
-          "description": "L'affiliato che schiaccia la produttività del lavoro non condivide. Chi lotta non chiede.",
+          "description": "L'affiliato che eccelle nella produttività del lavoro non condivide. Chi è in difficoltà non chiede.",
           "icon": "support"
         },
         {
@@ -697,7 +697,7 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "Le controversie sui diritti d'autore scendono quasi a zero",
+          "title": "Le controversie sulle royalty scendono quasi a zero",
           "description": "Una fonte di verità sulle entrate nette. La conversazione diventa coaching, non auditing.",
           "icon": "support"
         }
@@ -724,12 +724,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ब्रांड मानक मापे नहीं जाते",
-          "description": "आप उन्हें संचालन मैनुअल में सेट करें. आप यह नहीं बता सकते कि कौन सा आउटलेट उनसे मिलता है।",
+          "description": "आप उन्हें संचालन मैनुअल में निर्धारित करते हैं। आप यह नहीं बता सकते कि कौन सा आउटलेट उन्हें पूरा करता है।",
           "icon": "performance"
         },
         {
           "title": "शीर्ष कलाकारों की प्लेबुक खामोश रहती हैं",
-          "description": "श्रम उत्पादकता को कुचलने वाली फ्रेंचाइजी साझा नहीं करती। संघर्ष करने वाला नहीं पूछता.",
+          "description": "जो फ्रेंचाइजी श्रम उत्पादकता में बेहतरीन प्रदर्शन करती है, वह साझा नहीं करती। जो संघर्ष कर रहा है, वह नहीं पूछता।",
           "icon": "support"
         },
         {
@@ -776,12 +776,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "मानकों को लगातार मापा जाता है",
-          "description": "आप देख सकते हैं कि कौन से आउटलेट सेवा, मेनू या स्वच्छता पर ध्यान केंद्रित करते हैं - बिना त्रैमासिक ऑडिट के।",
+          "description": "आप देख सकते हैं कि कौन से आउटलेट सेवा, मेनू या स्वच्छता में भटक रहे हैं - बिना त्रैमासिक ऑडिट के।",
           "icon": "performance"
         },
         {
           "title": "सर्वोत्तम प्रथाएँ व्यवस्थित रूप से प्रचारित होती हैं",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligence यह पता लगाता है कि सर्वश्रेष्ठ प्रदर्शन करने वाले के यहाँ क्या काम कर रहा है और उसे बाकी सभी तक पहुँचाता है।",
           "icon": "owners"
         },
         {
@@ -812,12 +812,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Marka standartları ölçülmüyor",
-          "description": "Bunları kullanım kılavuzunda ayarlarsınız. Hangi prizin onları karşıladığını söyleyemezsiniz.",
+          "description": "Bunları operasyon el kitabında belirlersiniz. Hangi şubenin bunları karşıladığını söyleyemezsiniz.",
           "icon": "performance"
         },
         {
           "title": "En iyi performans gösterenlerin taktik kitapları bir kenara bırakılıyor",
-          "description": "İşgücü verimliliğini ezen franchise sahibi paylaşmaz. Mücadele eden sormaz.",
+          "description": "İşgücü verimliliğinde öne çıkan franchise sahibi bunu paylaşmaz. Zorlanan da sormaz.",
           "icon": "support"
         },
         {
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "En iyi uygulamalar organik olarak yayılıyor",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligence en iyi performans gösteren işletmede neyin işe yaradığını bulur ve bunu diğerlerine iletir.",
           "icon": "owners"
         },
         {
@@ -883,7 +883,7 @@ export const generatedLocalCopy = {
       "ctaButton": "Bayilik Gezintisi rezervasyonu yapın"
     },
     "pl": {
-      "badge": "Dla franczyzodawców i franczyzodawców",
+      "badge": "Dla franczyzobiorców i franczyzodawców",
       "titleLine1": "Standardy marki.",
       "titleLine2": "Prawda w całej sieci.",
       "description": "Wyniki franczyzobiorcy w rankingu porównawczym. Spójność marki jest mierzalna, ale nie zakładana. Jedno źródło prawdy dla każdego właściciela-operatora.",
@@ -900,12 +900,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standardy marki nie są mierzone",
-          "description": "Ustawiasz je w instrukcji operacyjnej. Nie można powiedzieć, który outlet je spełnia.",
+          "description": "Ustawiasz je w instrukcji operacyjnej. Nie można stwierdzić, który punkt sprzedaży je spełnia.",
           "icon": "performance"
         },
         {
           "title": "Podręczniki najlepszych wykonawców pozostają ukryte",
-          "description": "Franczyzobiorca miażdżący produktywność pracy nie podziela się. Ten, który zmaga się z trudnościami, nie pyta.",
+          "description": "Franczyzobiorca, który wyróżnia się produktywnością pracy, nie dzieli się tym. Ten, który zmaga się z trudnościami, nie pyta.",
           "icon": "support"
         },
         {
@@ -961,13 +961,13 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "Spory dotyczące praw autorskich spadły niemal do zera",
+          "title": "Spory dotyczące tantiem spadły niemal do zera",
           "description": "Jedno źródło prawdy na temat przychodów netto. Rozmowa staje się coachingiem, a nie audytem.",
           "icon": "support"
         }
       ],
       "ctaTitle": "Zobacz swoją sieć w jednym rankingu.",
-      "ctaDescription": "30 minut. Twoi franczyzobiorcy. Standardy, które można by zauważyć, spadają.",
+      "ctaDescription": "30 minut. Twoi franczyzobiorcy. Standardy, których spadek byś zauważył.",
       "ctaButton": "Zarezerwuj przewodnik po franczyzie"
     },
     "zh-Hans": {
@@ -977,8 +977,8 @@ export const generatedLocalCopy = {
       "description": "加盟商绩效按同行排名。品牌一致性是可衡量的，而不是假设的。每个业主兼经营者的一个真相来源。",
       "primaryCta": "预订特许经营演练",
       "secondaryCta": "查看特许经营演示",
-      "problemsEyebrow": "特许经营情报的突破点",
-      "problemsTitle": "特许经营情报的突破点",
+      "problemsEyebrow": "特许经营情报失灵之处",
+      "problemsTitle": "特许经营情报失灵之处",
       "problemsDescription": "加盟商的数据不一致，品牌标准未得到执行，最强大的运营商没有向任何人学习。",
       "challenges": [
         {
@@ -988,12 +988,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "品牌标准未衡量",
-          "description": "您可以在操作手册中设置它们。你无法判断哪个出口与它们相遇。",
+          "description": "您在运营手册中设定了它们。但您无法判断哪个门店达到了标准。",
           "icon": "performance"
         },
         {
-          "title": "顶尖员工的剧本保持孤立",
-          "description": "压榨劳动生产率的加盟商不分享。挣扎的人不问。",
+          "title": "顶尖加盟商的实战手册被孤立",
+          "description": "在劳动生产率上表现出色的加盟商不会分享。陷入困境的加盟商不会求助。",
           "icon": "support"
         },
         {
@@ -1045,12 +1045,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "最佳实践有机传播",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligence 会发现表现最佳者的有效做法，并将其推送给其他门店。",
           "icon": "owners"
         },
         {
           "title": "特许权使用费纠纷降至接近于零",
-          "description": "净收入的真实来源之一。谈话变成了辅导，而不是审核。",
+          "description": "净收入的唯一真实来源。谈话变成了辅导，而不是审核。",
           "icon": "support"
         }
       ],
@@ -1071,26 +1071,26 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "각 가맹점마다 다른 데이터를 보냅니다.",
-          "description": "다양한 POS, 다양한 케이던스, \"순수익\"에 대한 다양한 정의. 브랜드는 사과와 오렌지를 비교합니다.",
+          "description": "서로 다른 POS, 서로 다른 주기, \"순수익\"에 대한 서로 다른 정의. 브랜드는 사과와 오렌지를 비교하는 셈입니다.",
           "icon": "integration"
         },
         {
           "title": "브랜드 표준은 측정되지 않습니다",
-          "description": "운영 매뉴얼에서 설정합니다. 어떤 콘센트가 해당 제품을 충족하는지 알 수 없습니다.",
+          "description": "운영 매뉴얼에서 설정합니다. 어떤 매장이 이를 충족하는지 알 수 없습니다.",
           "icon": "performance"
         },
         {
           "title": "최고 성과자의 플레이북은 고립되어 있습니다.",
-          "description": "노동생산성을 짓밟는 가맹점은 공유하지 않습니다. 어려움을 겪는 사람은 묻지 않습니다.",
+          "description": "노동 생산성이 뛰어난 가맹점은 그 비결을 공유하지 않습니다. 어려움을 겪는 가맹점은 묻지 않습니다.",
           "icon": "support"
         },
         {
-          "title": "로열티 감사는 관계를 먹습니다",
-          "description": "분기별 화해는 적대적 분쟁으로 변한다. 신뢰가 침식됩니다.",
+          "title": "로열티 감사가 관계를 갉아먹습니다",
+          "description": "분기별 정산이 적대적인 분쟁으로 변합니다. 신뢰가 무너집니다.",
           "icon": "balance"
         }
       ],
-      "howTitle": "How Sundae works for franchise networks",
+      "howTitle": "Sundae가 프랜차이즈 네트워크에서 작동하는 방식",
       "howDescription": "네트워크 전반의 가시성, 동종 벤치마크, 자동화된 로열티 조정.",
       "howSundaeHelps": [
         {
@@ -1143,7 +1143,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "하나의 순위로 네트워크를 확인하세요.",
-      "ctaDescription": "30분. 귀하의 프랜차이즈. 당신이 미끄러지는 것을 발견했을 표준.",
+      "ctaDescription": "30분. 귀하의 프랜차이즈. 흔들리는 것을 미리 발견했을 표준들.",
       "ctaButton": "프랜차이즈 둘러보기 예약"
     },
     "id": {
@@ -1169,7 +1169,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Buku pedoman yang berkinerja terbaik tetap dirahasiakan",
-          "description": "Pewaralaba yang menghancurkan produktivitas tenaga kerja tidak berbagi. Orang yang sedang berjuang tidak bertanya.",
+          "description": "Pewaralaba yang unggul dalam produktivitas tenaga kerja tidak berbagi. Yang sedang kesulitan tidak bertanya.",
           "icon": "support"
         },
         {
@@ -1241,23 +1241,23 @@ export const generatedLocalCopy = {
       "description": "フランチャイズ加盟店の業績を同業者別にランク付けしたもの。ブランドの一貫性は測定可能ですが、想定されるものではありません。すべての所有者兼経営者に存在する 1 つの真実の情報源。",
       "primaryCta": "フランチャイズのウォークスルーを予約する",
       "secondaryCta": "フランチャイズのデモを見る",
-      "problemsEyebrow": "フランチャイズインテリジェンスが機能する場所",
-      "problemsTitle": "フランチャイズインテリジェンスが壊れる場所",
+      "problemsEyebrow": "フランチャイズインテリジェンスが破綻する場所",
+      "problemsTitle": "フランチャイズインテリジェンスが破綻する場所",
       "problemsDescription": "フランチャイズ加盟者からの一貫性のないデータ、強制されていないブランド基準、誰からも学んでいない最強のオペレーター。",
       "challenges": [
         {
           "title": "各フランチャイズ加盟者は異なるデータを送信します",
-          "description": "異なる POS、異なるペース、異なる「純収益」の定義。同ブランドはリンゴとオレンジの対立を考えている。",
+          "description": "異なる POS、異なるペース、異なる「純収益」の定義。ブランド側はまるでリンゴとオレンジを比べているような状態です。",
           "icon": "integration"
         },
         {
           "title": "ブランド基準は測定されない",
-          "description": "操作マニュアルで設定します。どの出口がそれらを満たすのかわかりません。",
+          "description": "運用マニュアルで設定します。どの店舗がそれらを満たしているのかはわかりません。",
           "icon": "performance"
         },
         {
           "title": "トップパフォーマーの戦略はサイロ化されたまま",
-          "description": "労働生産性を押しつぶすフランチャイズ加盟者は共有しません。苦労している人は尋ねません。",
+          "description": "労働生産性で抜きん出ているフランチャイズ加盟者はそのノウハウを共有しません。苦戦している加盟者は尋ねません。",
           "icon": "support"
         },
         {
@@ -1309,12 +1309,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ベストプラクティスは有機的に伝播する",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligenceは最も成績の良い加盟者で何が効果を上げているかを見つけ出し、それを他の加盟者へ届けます。",
           "icon": "owners"
         },
         {
           "title": "ロイヤルティ紛争はほぼゼロに減少",
-          "description": "純収益に関する真実の情報源の 1 つ。会話は監査ではなくコーチングになります。",
+          "description": "純収益に関する唯一の信頼できる情報源。会話は監査ではなくコーチングになります。",
           "icon": "support"
         }
       ],
@@ -1329,7 +1329,7 @@ export const generatedLocalCopy = {
       "description": "Performanța francizatului clasificată în funcție de egal. Consecvența mărcii măsurabilă, nu asumată. O sursă de adevăr pentru fiecare proprietar-operator.",
       "primaryCta": "Rezervați o prezentare a francizei",
       "secondaryCta": "Vedeți Demo de franciză",
-      "problemsEyebrow": "UNDE SE RUPE FRANCIZE INTELLIGENCE",
+      "problemsEyebrow": "UNDE SE RUPE INTELIGENȚA FRANCIZEI",
       "problemsTitle": "Unde se sparge inteligența francizei",
       "problemsDescription": "Date inconsecvente de la francizați, standardele de brand neaplicate, cei mai puternici operatori nu învață de la nimeni.",
       "challenges": [
@@ -1340,12 +1340,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standardele mărcii nu sunt măsurate",
-          "description": "Le setați în manualul de operațiuni. Nu poți spune ce priză le întâlnește.",
+          "description": "Le setați în manualul de operațiuni. Nu poți spune care punct de vânzare le respectă.",
           "icon": "performance"
         },
         {
           "title": "Cărțile de joc ale celor mai buni performanți rămân izolate",
-          "description": "Francizatul care zdrobește productivitatea muncii nu împărtășește. Cel care se zbate nu întreabă.",
+          "description": "Francizatul care excelează la productivitatea muncii nu împărtășește. Cel care se zbate nu întreabă.",
           "icon": "support"
         },
         {
@@ -1377,7 +1377,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Reconcilierea redevențelor, automatizată",
-          "description": "Venitul net calculat din aceeași sursă pentru fiecare francizat. Regalitatea devine un calcul, nu o negociere.",
+          "description": "Venitul net calculat din aceeași sursă pentru fiecare francizat. Redevența devine un calcul, nu o negociere.",
           "product": "Sundae Core",
           "icon": "balance"
         }
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standarde măsurate continuu",
-          "description": "Vedeți ce puncte de vânzare se orientează către serviciu, meniu sau igienă - fără un audit trimestrial.",
+          "description": "Vedeți care puncte de vânzare deviază la serviciu, meniu sau igienă - fără un audit trimestrial.",
           "icon": "performance"
         },
         {
@@ -1411,13 +1411,13 @@ export const generatedLocalCopy = {
       "ctaButton": "Rezervați o prezentare a francizei"
     },
     "vi": {
-      "badge": "Dành cho bên nhượng quyền & bên nhượng quyền",
+      "badge": "Dành cho bên nhận quyền & bên nhượng quyền",
       "titleLine1": "Tiêu chuẩn thương hiệu.",
       "titleLine2": "Sự thật trên toàn mạng.",
       "description": "Hiệu suất của bên nhượng quyền được xếp hạng theo ngang hàng. Tính nhất quán của thương hiệu có thể đo lường được, không phải giả định. Một nguồn sự thật xuyên suốt mọi chủ sở hữu-người điều hành.",
       "primaryCta": "Đặt một buổi hướng dẫn nhượng quyền thương mại",
       "secondaryCta": "Xem bản demo nhượng quyền thương mại",
-      "problemsEyebrow": "NƠI TRÍ TUỆ NHƯỢNG QUYỀN PHÁT HIỆN",
+      "problemsEyebrow": "NƠI TRÍ TUỆ NHƯỢNG QUYỀN BỊ PHÁ VỠ",
       "problemsTitle": "Nơi thông tin nhượng quyền thương mại bị phá vỡ",
       "problemsDescription": "Dữ liệu không nhất quán từ các bên nhận quyền, các tiêu chuẩn thương hiệu không được thực thi, các nhà điều hành mạnh nhất không học được gì từ ai.",
       "challenges": [
@@ -1428,12 +1428,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tiêu chuẩn thương hiệu không được đo lường",
-          "description": "Bạn đặt chúng trong hướng dẫn vận hành. Bạn không thể biết cửa hàng nào gặp họ.",
+          "description": "Bạn đặt chúng trong hướng dẫn vận hành. Bạn không thể biết cửa hàng nào đáp ứng được chúng.",
           "icon": "performance"
         },
         {
-          "title": "Sách vở của những người biểu diễn hàng đầu vẫn được giữ im lặng",
-          "description": "Bên nhận quyền nghiền nát năng suất lao động không chia sẻ. Người đang gặp khó khăn không hỏi.",
+          "title": "Cẩm nang của những đơn vị xuất sắc nhất vẫn bị giữ kín",
+          "description": "Bên nhận quyền vượt trội về năng suất lao động không chia sẻ. Người đang gặp khó khăn thì không hỏi.",
           "icon": "support"
         },
         {
@@ -1458,7 +1458,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Những vở kịch có hiệu suất cao nhất được tuyên truyền",
+          "title": "Cẩm nang hiệu quả nhất được lan tỏa",
           "description": "Khi Trang 12 nâng tỷ lệ bán thêm lên 18%, Sundae sẽ hiển thị mô hình để phần còn lại của mạng tìm hiểu - mà không cần bản ghi nhớ.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
@@ -1520,13 +1520,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "শীর্ষস্থানীয় অভিনয়শিল্পীদের প্লেবুক চুপচাপ থাকে",
-          "description": "ফ্র্যাঞ্চাইজি ক্রাশিং শ্রম উৎপাদনশীলতা ভাগ করে না। সংগ্রামী একজন জিজ্ঞাসা করে না।",
+          "title": "সেরা পারফর্মারদের প্লেবুক আলাদা হয়ে থাকে",
+          "description": "যে ফ্র্যাঞ্চাইজি শ্রম উৎপাদনশীলতায় দারুণ করছে, সে তা ভাগ করে না। যে সংগ্রাম করছে, সে জিজ্ঞাসা করে না।",
           "icon": "support"
         },
         {
-          "title": "রয়্যালটি অডিট খায় সম্পর্ক",
-          "description": "ত্রৈমাসিক মিলন প্রতিপক্ষ বিরোধে পরিণত হয়। বিশ্বাস নষ্ট হয়।",
+          "title": "রয়্যালটি অডিট সম্পর্ককে ক্ষয় করে",
+          "description": "ত্রৈমাসিক সমন্বয় বৈরী বিরোধে পরিণত হয়। বিশ্বাস ক্ষয়ে যায়।",
           "icon": "balance"
         }
       ],
@@ -1568,12 +1568,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "মান ক্রমাগত পরিমাপ",
-          "description": "আপনি দেখতে পাচ্ছেন কোন আউটলেটগুলি পরিষেবা, মেনু বা স্বাস্থ্যবিধিতে প্রবাহিত হয়েছে - ত্রৈমাসিক অডিট ছাড়াই৷",
+          "description": "আপনি দেখতে পাচ্ছেন কোন আউটলেটগুলি পরিষেবা, মেনু বা স্বাস্থ্যবিধিতে বিচ্যুত হচ্ছে - ত্রৈমাসিক অডিট ছাড়াই।",
           "icon": "performance"
         },
         {
           "title": "সর্বোত্তম অনুশীলনগুলি জৈবভাবে প্রচার করে",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligence সেরা পারফর্মারের ক্ষেত্রে কী কাজ করছে তা খুঁজে বের করে এবং তা বাকিদের কাছে পৌঁছে দেয়।",
           "icon": "owners"
         },
         {
@@ -1583,7 +1583,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "এক র্যাঙ্কিংয়ে আপনার নেটওয়ার্ক দেখুন।",
-      "ctaDescription": "30 মিনিট আপনার ফ্র্যাঞ্চাইজি. মান আপনি স্খলন দাগ হবে.",
+      "ctaDescription": "৩০ মিনিট। আপনার ফ্র্যাঞ্চাইজি। যেসব মান পিছলে যাচ্ছে তা আপনি আগেই ধরতে পারতেন।",
       "ctaButton": "একটি ফ্র্যাঞ্চাইজ ওয়াক-থ্রু বুক করুন"
     },
     "sv": {
@@ -1604,16 +1604,16 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Varumärkesstandarder mäts inte",
-          "description": "Du ställer in dem i bruksanvisningen. Du kan inte säga vilket uttag som möter dem.",
+          "description": "Du anger dem i driftshandboken. Du kan inte se vilken butik som uppfyller dem.",
           "icon": "performance"
         },
         {
-          "title": "Bästa artisters spelböcker förblir nedstämda",
-          "description": "Franchisetagaren som krossar arbetsproduktiviteten delar inte. Den som kämpar frågar inte.",
+          "title": "De bästa aktörernas spelböcker förblir isolerade",
+          "description": "Franchisetagaren som utmärker sig i arbetsproduktivitet delar inte med sig. Den som kämpar frågar inte.",
           "icon": "support"
         },
         {
-          "title": "Royalty revisioner äter relationen",
+          "title": "Royaltyrevisioner tär på relationen",
           "description": "Kvartalsvisa avstämningar förvandlas till motstridiga tvister. Förtroendet urholkas.",
           "icon": "balance"
         }
@@ -1656,7 +1656,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standarder mäts kontinuerligt",
-          "description": "Du ser vilka butiker som driver på service, meny eller hygien - utan en kvartalsvis revision.",
+          "description": "Du ser vilka butiker som avviker på service, meny eller hygien - utan en kvartalsvis revision.",
           "icon": "performance"
         },
         {
@@ -1675,14 +1675,14 @@ export const generatedLocalCopy = {
       "ctaButton": "Boka en Franchise-genomgång"
     },
     "th": {
-      "badge": "สำหรับแฟรนไชส์และแฟรนไชส์",
+      "badge": "สำหรับผู้รับสิทธิ์แฟรนไชส์และผู้ให้สิทธิ์แฟรนไชส์",
       "titleLine1": "มาตรฐานแบรนด์",
       "titleLine2": "ความจริงทั่วทั้งเครือข่าย",
       "description": "ผลงานแฟรนไชส์จัดอันดับโดยเพื่อน ความสม่ำเสมอของแบรนด์สามารถวัดได้ แต่ไม่ได้สันนิษฐานไว้ แหล่งความจริงแหล่งเดียวจากเจ้าของและผู้ดำเนินการทุกคน",
       "primaryCta": "จองแฟรนไชส์แบบ Walk-through",
       "secondaryCta": "ดูการสาธิตแฟรนไชส์",
-      "problemsEyebrow": "ที่ซึ่งความฉลาดของแฟรนไชส์แตกสลาย",
-      "problemsTitle": "เมื่อข่าวกรองแฟรนไชส์แตกสลาย",
+      "problemsEyebrow": "จุดที่ข่าวกรองแฟรนไชส์พังทลาย",
+      "problemsTitle": "จุดที่ข่าวกรองแฟรนไชส์พังทลาย",
       "problemsDescription": "ข้อมูลที่ไม่สอดคล้องกันจากผู้รับสิทธิ์แฟรนไชส์ มาตรฐานของแบรนด์ไม่มีการบังคับใช้ ผู้ดำเนินการที่แข็งแกร่งที่สุดเรียนรู้จากไม่มีใคร",
       "challenges": [
         {
@@ -1696,13 +1696,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Playbooks ของนักแสดงชั้นนำจะถูกเก็บเป็นความลับ",
-          "description": "ผลผลิตแรงงานบดขยี้แฟรนไชส์ไม่แบ่งปัน ผู้ดิ้นรนไม่ถาม",
+          "title": "Playbooks ของผู้ที่ทำได้ดีที่สุดถูกเก็บไว้อย่างโดดเดี่ยว",
+          "description": "แฟรนไชส์ที่โดดเด่นด้านผลิตภาพแรงงานไม่แบ่งปัน ส่วนผู้ที่กำลังลำบากก็ไม่ถาม",
           "icon": "support"
         },
         {
-          "title": "การตรวจสอบราชวงศ์กินความสัมพันธ์",
-          "description": "การปรองดองรายไตรมาสกลายเป็นข้อพิพาทที่ขัดแย้งกัน ความเชื่อใจก็ถดถอย",
+          "title": "การตรวจสอบค่าลิขสิทธิ์บั่นทอนความสัมพันธ์",
+          "description": "การกระทบยอดรายไตรมาสกลายเป็นข้อพิพาทที่เป็นปฏิปักษ์ ความเชื่อใจก็ถดถอย",
           "icon": "balance"
         }
       ],
@@ -1763,7 +1763,7 @@ export const generatedLocalCopy = {
       "ctaButton": "จองแฟรนไชส์แบบ Walk-through"
     },
     "ms": {
-      "badge": "Untuk Francais & Francaisor",
+      "badge": "Untuk Francaisi & Pemberi Francais",
       "titleLine1": "Piawaian jenama.",
       "titleLine2": "Kebenaran seluruh rangkaian.",
       "description": "Prestasi penerima francais diberi kedudukan mengikut rakan sebaya. Konsistensi jenama boleh diukur, tidak diandaikan. Satu sumber kebenaran merentas setiap pemilik-pengendali.",
@@ -1780,12 +1780,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Piawaian jenama tidak diukur",
-          "description": "Anda menetapkannya dalam manual operasi. Anda tidak boleh memberitahu cawangan mana yang menemui mereka.",
+          "description": "Anda menetapkannya dalam manual operasi. Anda tidak dapat mengetahui cawangan mana yang memenuhinya.",
           "icon": "performance"
         },
         {
           "title": "Buku permainan berprestasi tinggi kekal senyap",
-          "description": "Pemegang francais yang menghancurkan produktiviti buruh tidak berkongsi. Yang bersusah payah tidak bertanya.",
+          "description": "Pemegang francais yang cemerlang dalam produktiviti buruh tidak berkongsi. Yang bersusah payah tidak bertanya.",
           "icon": "support"
         },
         {
@@ -1816,7 +1816,7 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Penyesuaian diraja, automatik",
+          "title": "Penyesuaian royalti, automatik",
           "description": "Hasil bersih dikira daripada sumber yang sama merentas setiap pemegang francais. Royalti menjadi pengiraan, bukan rundingan.",
           "product": "Sundae Core",
           "icon": "balance"
@@ -1832,12 +1832,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Piawaian diukur secara berterusan",
-          "description": "Anda melihat kedai mana yang bergantung pada perkhidmatan, menu atau kebersihan - tanpa audit suku tahunan.",
+          "description": "Anda melihat kedai mana yang menyimpang dalam perkhidmatan, menu atau kebersihan - tanpa audit suku tahunan.",
           "icon": "performance"
         },
         {
           "title": "Amalan terbaik disebarkan secara organik",
-          "description": "Cross-Intelligence finds what's working at the top performer and routes it to the rest.",
+          "description": "Cross-Intelligence menemukan apa yang berkesan pada pemain terbaik dan menyalurkannya kepada yang lain.",
           "icon": "owners"
         },
         {
@@ -1847,7 +1847,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Lihat rangkaian anda pada satu kedudukan.",
-      "ctaDescription": "30 minit. francaisi anda. Piawaian yang anda akan nampak tergelincir.",
+      "ctaDescription": "30 minit. Francaisi anda. Piawaian yang anda akan nampak tergelincir.",
       "ctaButton": "Tempah Walk-through Francais"
     }
   }

@@ -28,7 +28,7 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "title": "ملٹی لوکیشن ریستوراں گروپس - ہر سائٹ پر متحد انٹیلی جنس",
-      "description": "Sundae ملٹی لوکیشن ریستوراں آپریٹرز کو تمام سائٹس پر کارکردگی کا ایک ہی نظارہ فراہم کرتا ہے - بینچ مارک لوکیشنز، اسپاٹ آؤٹ لیرز، اور معیاری بنائیں کہ کیا کام کرتا ہے۔"
+      "description": "Sundae ملٹی لوکیشن ریستوراں آپریٹرز کو تمام آؤٹ لیٹس پر کارکردگی کا ایک ہی منظر فراہم کرتا ہے - لوکیشنز کا موازنہ کریں، غیر معمولی اقدار کی نشاندہی کریں، اور جو کام کرتا ہے اسے معیاری بنائیں۔"
     },
     "it": {
       "title": "Gruppi di ristoranti multisede: intelligenza unificata in ogni sito",
@@ -40,7 +40,7 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "title": "बहु-स्थान रेस्तरां समूह - प्रत्येक साइट पर एकीकृत इंटेलिजेंस",
-      "description": "Sundae मल्टी-लोकेशन रेस्तरां संचालकों को सभी साइटों पर प्रदर्शन का एक ही दृष्टिकोण देता है - बेंचमार्क स्थान, स्पॉट आउटलेर, और जो काम करता है उसका मानकीकरण करता है।"
+      "description": "Sundae मल्टी-लोकेशन रेस्तरां संचालकों को सभी आउटलेट के प्रदर्शन का एक ही दृष्टिकोण देता है - लोकेशन की तुलना करें, असामान्य मानों को पहचानें, और जो काम करता है उसका मानकीकरण करें।"
     },
     "ja": {
       "title": "複数の場所にあるレストラン グループ - すべてのサイトにわたる統合されたインテリジェンス",
@@ -52,15 +52,15 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "title": "多地点餐厅集团 - 每个地点的统一智能",
-      "description": "Sundae 为多地点餐厅经营者提供了所有地点绩效的单一视图 - 基准地点、发现异常值以及标准化有效措施。"
+      "description": "Sundae 为多地点餐厅经营者提供所有门店绩效的单一视图 - 对各门店进行基准对比、发现异常值，并将有效做法标准化。"
     },
     "bn": {
       "title": "মাল্টি-লোকেশন রেস্তোরাঁ গ্রুপ - প্রতিটি সাইট জুড়ে ইউনিফাইড ইন্টেলিজেন্স",
-      "description": "Sundae মাল্টি-লোকেশন রেস্তোরাঁ অপারেটরদের সমস্ত সাইট জুড়ে পারফরম্যান্সের একক দৃষ্টিভঙ্গি দেয় - বেঞ্চমার্ক অবস্থান, স্পট আউটলায়ার এবং যা কাজ করে তা মানক।"
+      "description": "Sundae মাল্টি-লোকেশন রেস্তোরাঁ অপারেটরদের সমস্ত আউটলেট জুড়ে পারফরম্যান্সের একক দৃষ্টিভঙ্গি দেয় - অবস্থানগুলির তুলনা করুন, অস্বাভাবিক মান শনাক্ত করুন এবং যা কাজ করে তা মানসম্মত করুন।"
     },
     "vi": {
-      "title": "Nhóm nhà hàng đa địa điểm - Thông tin thống nhất trên mọi trang web",
-      "description": "Sundae cung cấp cho các nhà điều hành nhà hàng đa địa điểm một cái nhìn duy nhất về hiệu suất trên tất cả các địa điểm - các địa điểm chuẩn, phát hiện các điểm ngoại lệ và tiêu chuẩn hóa những gì hiệu quả."
+      "title": "Nhóm nhà hàng đa địa điểm - Thông tin thống nhất trên mọi địa điểm",
+      "description": "Sundae cung cấp cho các nhà điều hành nhà hàng đa địa điểm một cái nhìn duy nhất về hiệu suất trên tất cả các địa điểm - so sánh các địa điểm, phát hiện các điểm ngoại lệ và chuẩn hóa những gì hiệu quả."
     },
     "ko": {
       "title": "다중 위치 레스토랑 그룹 - 모든 사이트에 걸친 통합 인텔리전스",
@@ -75,16 +75,16 @@ export const generatedLocalCopy = {
       "description": "Sundae oferă operatorilor de restaurante cu mai multe locații o vedere unică a performanței pe toate site-urile - comparați locațiile, identificați valorile aberante și standardizați ceea ce funcționează."
     },
     "sv": {
-      "title": "Restauranggrupper på flera platser - enhetlig intelligens på alla webbplatser",
-      "description": "Sundae ger restaurangoperatörer på flera ställen en enda bild av prestanda på alla webbplatser - riktmärken på platser, märk avvikelser och standardisera vad som fungerar."
+      "title": "Restauranggrupper på flera platser - enhetlig intelligens på alla platser",
+      "description": "Sundae ger restaurangoperatörer på flera platser en enda bild av prestanda på alla platser - jämför platser, upptäck avvikelser och standardisera vad som fungerar."
     },
     "ms": {
       "title": "Kumpulan Restoran Berbilang Lokasi - Kecerdasan Bersatu Merentasi Setiap Tapak",
-      "description": "Sundae memberikan operator restoran berbilang lokasi satu paparan prestasi merentas semua tapak - lokasi penanda aras, tempat terpencil dan menyeragamkan perkara yang berkesan."
+      "description": "Sundae memberikan operator restoran berbilang lokasi satu paparan prestasi merentas semua lokasi - menanda aras lokasi, mengesan nilai terpencil dan menyeragamkan perkara yang berkesan."
     },
     "th": {
-      "title": "กลุ่มร้านอาหารที่มีหลายสถานที่ตั้ง - ระบบอัจฉริยะแบบครบวงจรในทุกไซต์",
-      "description": "Sundae ช่วยให้ผู้ประกอบการร้านอาหารที่มีสถานที่ตั้งหลายแห่งสามารถดูประสิทธิภาพการทำงานในทุกไซต์ได้ในที่เดียว - สถานที่ตั้งเปรียบเทียบ ระบุจุดที่ผิดปกติ และสร้างมาตรฐานว่าสิ่งใดใช้ได้ผล"
+      "title": "กลุ่มร้านอาหารที่มีหลายสาขา - ระบบอัจฉริยะแบบครบวงจรในทุกสาขา",
+      "description": "Sundae ช่วยให้ผู้ประกอบการร้านอาหารที่มีหลายสาขาสามารถดูประสิทธิภาพการทำงานของทุกสาขาได้ในที่เดียว - เปรียบเทียบสาขา ระบุจุดที่ผิดปกติ และสร้างมาตรฐานว่าสิ่งใดใช้ได้ผล"
     }
   }
 } as const

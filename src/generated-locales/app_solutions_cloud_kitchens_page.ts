@@ -39,7 +39,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Marge nette par plateforme, par marque",
-          "description": "Commandes, commissions, emballages, main-d'œuvre allouée et coût des aliments - pour la marge nette à l'intersection du canal × marque. La vérité que aucun tableau de bord de plateforme ne montre.",
+          "description": "Commandes, commissions, emballages, main-d'œuvre allouée et coût des aliments - pour la marge nette à l'intersection canal × marque. La vérité qu'aucun tableau de bord de plateforme ne montre.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -77,7 +77,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Détectez les changements de plateforme en 24 heures",
-          "description": "Modifiez les changements, les variations de classement, les mises à jour de frais - visibles le matin suivant, pas la semaine prochaine.",
+          "description": "Modifications de réglages, variations de classement, mises à jour de frais - visibles le lendemain matin, pas la semaine prochaine.",
           "icon": "performance"
         },
         {
@@ -91,14 +91,14 @@ export const generatedLocalCopy = {
       "ctaButton": "Réservez une visite de cuisine cloud"
     },
     "es": {
-      "badge": "Para Cocinas en la Nube y Marcas Virtuales",
+      "badge": "Para Cocinas Fantasma y Marcas Virtuales",
       "titleLine1": "Cada plataforma.",
       "titleLine2": "Cada marca. Un libro mayor.",
       "description": "Datos en vivo de pedidos, canales y comisiones a través de DoorDash, UberEats, Talabat y tus canales directos. Margen por plataforma, no solo por marca.",
-      "primaryCta": "Reserva una visita guiada a la cocina en la nube",
+      "primaryCta": "Reserva un recorrido por la cocina fantasma",
       "secondaryCta": "Ver demostración de entrega",
-      "problemsEyebrow": "DÓNDE LAS COCINAS EN LA NUBE PIERDEN MARGEN",
-      "problemsTitle": "Dónde las cocinas en la nube pierden margen",
+      "problemsEyebrow": "DÓNDE LAS COCINAS FANTASMA PIERDEN MARGEN",
+      "problemsTitle": "Dónde las cocinas fantasma pierden margen",
       "problemsDescription": "Comisiones acumuladas, caos de canales, sin una vista única de qué marca virtual es realmente rentable.",
       "challenges": [
         {
@@ -122,7 +122,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "Cómo funciona Sundae para cocinas en la nube",
+      "howTitle": "Cómo funciona Sundae para cocinas fantasma",
       "howDescription": "Margen a nivel de canal, contribución a nivel de marca, salud operativa en tiempo real.",
       "howSundaeHelps": [
         {
@@ -165,7 +165,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Detecta cambios en la plataforma en 24 horas",
-          "description": "Activa cambios, ajustes de clasificación, actualizaciones de tarifas - visibles la mañana siguiente, no la próxima semana.",
+          "description": "Cambios de configuración, variaciones de clasificación, actualizaciones de tarifas - visibles a la mañana siguiente, no la próxima semana.",
           "icon": "performance"
         },
         {
@@ -176,7 +176,7 @@ export const generatedLocalCopy = {
       ],
       "ctaTitle": "Ver el margen neto por plataforma.",
       "ctaDescription": "30 minutos. Tus cocinas. El canal que podrías querer eliminar.",
-      "ctaButton": "Reserva una visita guiada a la cocina en la nube"
+      "ctaButton": "Reserva un recorrido por la cocina fantasma"
     },
     "de": {
       "badge": "Für Cloud Kitchens & virtuelle Marken",
@@ -185,7 +185,7 @@ export const generatedLocalCopy = {
       "description": "Echte Bestellungen, Kanal- und Provisionsdaten über DoorDash, UberEats, Talabat und Ihre direkten Kanäle. Marge pro Plattform, nicht nur pro Marke.",
       "primaryCta": "Buchen Sie eine Cloud-Kitchen-Besichtigung",
       "secondaryCta": "Lieferdemo ansehen",
-      "problemsEyebrow": "WO CLOUD KÜCHEN MARGEN VERLIEREN",
+      "problemsEyebrow": "WO CLOUD-KÜCHEN MARGE VERLIEREN",
       "problemsTitle": "Wo Cloud-Küchen ihre Marge verlieren",
       "problemsDescription": "Kommissionen stapeln sich, Kanalchaos, keine einheitliche Sicht darauf, welche virtuelle Marke tatsächlich profitabel ist.",
       "challenges": [
@@ -289,7 +289,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "أداء العلامة التجارية الافتراضية غير واضح",
-          "description": "خمسة علامات تجارية من مطبخ واحد - لكن أي واحدة تساهم فعلاً؟ مخفية بتكاليف مشتركة وإنتاجية مشتركة.",
+          "description": "خمس علامات تجارية من مطبخ واحد - لكن أيها تساهم فعلاً؟ مخفية بتكاليف مشتركة وإنتاجية مشتركة.",
           "icon": "performance"
         },
         {
@@ -341,7 +341,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "التقاط تغييرات المنصة خلال 24 ساعة",
-          "description": "قم بتبديل التغييرات، وتحولات الترتيب، وتحديثات الرسوم - تظهر في صباح اليوم التالي، وليس الأسبوع المقبل.",
+          "description": "تغييرات الإعدادات، وتحولات الترتيب، وتحديثات الرسوم - تظهر في صباح اليوم التالي، وليس الأسبوع المقبل.",
           "icon": "performance"
         },
         {
@@ -356,14 +356,14 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "badge": "Voor Cloud Kitchens & Virtuele Merken",
-      "titleLine1": "Elke platform.",
+      "titleLine1": "Elk platform.",
       "titleLine2": "Elk merk. Eén grootboek.",
       "description": "Live bestellingen, kanaal- en commissiedata van DoorDash, UberEats, Talabat en je directe kanalen. Marge per platform, niet alleen per merk.",
       "primaryCta": "Boek een rondleiding door de Cloud Kitchen",
       "secondaryCta": "Bekijk Leveringsdemo",
       "problemsEyebrow": "WAAR CLOUD KITCHENS MARGE VERLIEZEN",
       "problemsTitle": "Waar cloudkeukens marge verliezen",
-      "problemsDescription": "Commissies stapelen zich op, chaos in kanalen, geen enkel overzicht van welke virtuele merk daadwerkelijk winstgevend is.",
+      "problemsDescription": "Commissies stapelen zich op, chaos in kanalen, geen enkel overzicht van welk virtueel merk daadwerkelijk winstgevend is.",
       "challenges": [
         {
           "title": "Commissie slokt de marge op",
@@ -429,11 +429,11 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Vang platformwijzigingen binnen 24 uur",
-          "description": "Schakel wijzigingen, rangschikkingsverschuivingen, kostenupdates in - zichtbaar de ochtend erna, niet volgende week.",
+          "description": "Instellingswijzigingen, rangschikkingsverschuivingen, tariefupdates - zichtbaar de ochtend erna, niet volgende week.",
           "icon": "performance"
         },
         {
-          "title": "Voer een slanker keukenbeheer",
+          "title": "Beheer een efficiëntere keuken",
           "description": "Voorbereidingstijd, doorvoer, arbeidsproductiviteit per uur - zichtbaar terwijl de shift nog loopt.",
           "icon": "support"
         }
@@ -517,7 +517,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Detecte mudanças na plataforma em 24 horas",
-          "description": "Ative mudanças, alterações de classificação, atualizações de taxas - visíveis na manhã seguinte, não na próxima semana.",
+          "description": "Mudanças de configuração, alterações de classificação, atualizações de taxas - visíveis na manhã seguinte, não na próxima semana.",
           "icon": "performance"
         },
         {
@@ -534,7 +534,7 @@ export const generatedLocalCopy = {
       "badge": "کلاؤڈ کچنز اور ورچوئل برانڈز کے لیے",
       "titleLine1": "ہر پلیٹ فارم۔",
       "titleLine2": "ہر برانڈ۔ ایک کھاتا۔",
-      "description": "دروازہ ڈیش، اوبر ایٹس، طلبات، اور آپ کے براہ راست چینلز کے ذریعے لائیو آرڈر، چینل، اور کمیشن کا ڈیٹا۔ ہر پلیٹ فارم کے لیے مارجن، صرف برانڈ کے لیے نہیں۔",
+      "description": "DoorDash، UberEats، Talabat، اور آپ کے براہ راست چینلز کے ذریعے لائیو آرڈر، چینل، اور کمیشن کا ڈیٹا۔ ہر پلیٹ فارم کے لیے مارجن، صرف برانڈ کے لیے نہیں۔",
       "primaryCta": "کلاؤڈ کچن کا دورہ بک کریں",
       "secondaryCta": "ترسیل کا مظاہرہ دیکھیں",
       "problemsEyebrow": "کہاں کلاؤڈ کچنز مارجن کھو دیتے ہیں",
@@ -562,7 +562,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "How Sundae works for cloud kitchens",
+      "howTitle": "Sundae کلاؤڈ کچنز کے لیے کیسے کام کرتا ہے",
       "howDescription": "چینل کی سطح کا مارجن، برانڈ کی سطح کا تعاون، براہ راست آپریشنل صحت۔",
       "howSundaeHelps": [
         {
@@ -605,7 +605,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24 گھنٹوں میں پلیٹ فارم کی تبدیلیاں پکڑیں",
-          "description": "تبدیلیاں، درجہ بندی کی تبدیلیاں، فیس کی تازہ کاریوں کو ٹوگل کریں - صبح کے بعد سامنے آئیں، اگلے ہفتے نہیں۔",
+          "description": "ترتیبات کی تبدیلیاں، درجہ بندی کی تبدیلیاں، فیس کی تازہ کاریاں - اگلی صبح سامنے آئیں، اگلے ہفتے نہیں۔",
           "icon": "performance"
         },
         {
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Rileva i cambiamenti della piattaforma in 24 ore",
-          "description": "Attiva cambiamenti, spostamenti di ranking, aggiornamenti delle commissioni - visibili la mattina dopo, non la settimana prossima.",
+          "description": "Modifiche alle impostazioni, spostamenti di ranking, aggiornamenti delle commissioni - visibili la mattina dopo, non la settimana prossima.",
           "icon": "performance"
         },
         {
@@ -710,7 +710,7 @@ export const generatedLocalCopy = {
       "badge": "क्लाउड किचन और वर्चुअल ब्रांड्स के लिए",
       "titleLine1": "हर प्लेटफ़ॉर्म।",
       "titleLine2": "हर ब्रांड। एक खाता।",
-      "description": "डोरडैश, उबरईट्स, तालाबात और आपके सीधे चैनलों के माध्यम से लाइव ऑर्डर, चैनल और कमीशन डेटा। प्रत्येक प्लेटफॉर्म के लिए मार्जिन, केवल ब्रांड के लिए नहीं।",
+      "description": "DoorDash, UberEats, Talabat और आपके सीधे चैनलों के माध्यम से लाइव ऑर्डर, चैनल और कमीशन डेटा। प्रत्येक प्लेटफॉर्म के लिए मार्जिन, केवल ब्रांड के लिए नहीं।",
       "primaryCta": "क्लाउड किचन वॉक-थ्रू बुक करें",
       "secondaryCta": "डिलीवरी डेमो देखें",
       "problemsEyebrow": "जहाँ क्लाउड किचन मार्जिन खोते हैं",
@@ -770,7 +770,7 @@ export const generatedLocalCopy = {
       "outcomesDescription": "हर चैनल पर वास्तविक मार्जिन, लाभदायक ब्रांड मिश्रण, कम प्लेटफ़ॉर्म आश्चर्य।",
       "outcomes": [
         {
-          "title": "असफल चैनलों को सब्सिडी देना बंद करें",
+          "title": "घाटे वाले चैनलों को सब्सिडी देना बंद करें",
           "description": "नेट मार्जिन के आधार पर कटौती करें, पुनः बातचीत करें या संतुलन बनाएं - ऑर्डर मात्रा नहीं।",
           "icon": "speed"
         },
@@ -781,7 +781,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24 घंटे में प्लेटफ़ॉर्म परिवर्तनों को पकड़ें",
-          "description": "परिवर्तनों, रैंकिंग में बदलाव, शुल्क अपडेट को टॉगल करें - अगले सप्ताह नहीं, बल्कि सुबह के बाद।",
+          "description": "सेटिंग में बदलाव, रैंकिंग में बदलाव, शुल्क अपडेट - अगली सुबह दिखें, अगले सप्ताह नहीं।",
           "icon": "performance"
         },
         {
@@ -799,11 +799,11 @@ export const generatedLocalCopy = {
       "titleLine1": "Każda platforma.",
       "titleLine2": "Każda marka. Jeden rejestr.",
       "description": "Dane na żywo dotyczące zamówień, kanałów i prowizji z DoorDash, UberEats, Talabat oraz Twoich bezpośrednich kanałów. Marża na platformę, a nie tylko na markę.",
-      "primaryCta": "Zarezerwuj spacer po chmurze kuchennej",
+      "primaryCta": "Zarezerwuj prezentację kuchni w chmurze",
       "secondaryCta": "Zobacz demo dostawy",
-      "problemsEyebrow": "GDZIE CHMURNE KUCHNIE TRACĄ MARGINES",
-      "problemsTitle": "Gdzie chmurne kuchnie tracą marżę",
-      "problemsDescription": "Stosowanie prowizji, chaos kanałów, brak jednego widoku, która wirtualna marka jest rzeczywiście rentowna.",
+      "problemsEyebrow": "GDZIE KUCHNIE W CHMURZE TRACĄ MARŻĘ",
+      "problemsTitle": "Gdzie kuchnie w chmurze tracą marżę",
+      "problemsDescription": "Nawarstwiające się prowizje, chaos kanałów, brak jednego widoku, która wirtualna marka jest rzeczywiście rentowna.",
       "challenges": [
         {
           "title": "Prowizja zjada marżę",
@@ -826,7 +826,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "Jak działa Sundae dla chmur kuchennych",
+      "howTitle": "Jak Sundae działa dla kuchni w chmurze",
       "howDescription": "Marża na poziomie kanału, wkład na poziomie marki, bieżące zdrowie operacyjne.",
       "howSundaeHelps": [
         {
@@ -848,7 +848,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Na żywo operacyjne tempo",
+          "title": "Operacyjne tempo na żywo",
           "description": "Wolumen zamówień, czas przygotowania, spóźnione zamówienia według godziny. Kuchnia widzi formujący się szczyt - a nie analizę po fakcie.",
           "product": "Pulse",
           "icon": "chart"
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Złap zmiany na platformie w 24 godziny",
-          "description": "Przełącz zmiany, przesunięcia w rankingach, aktualizacje opłat - ujawnione rano po, a nie w przyszłym tygodniu.",
+          "description": "Zmiany ustawień, przesunięcia w rankingach, aktualizacje opłat - widoczne następnego ranka, a nie w przyszłym tygodniu.",
           "icon": "performance"
         },
         {
@@ -889,12 +889,12 @@ export const generatedLocalCopy = {
       "description": "DoorDash, UberEats, Talabat ve doğrudan kanallarınız üzerinden canlı sipariş, kanal ve komisyon verileri. Sadece marka başına değil, her platform için marj.",
       "primaryCta": "Bir Bulut Mutfağı Turu Rezervasyonu Yapın",
       "secondaryCta": "Teslimat Demolarını Görüntüle",
-      "problemsEyebrow": "BULUT MUTFAKLARININ MARGİN KAYBETTİĞİ YER",
+      "problemsEyebrow": "BULUT MUTFAKLARININ MARJ KAYBETTİĞİ YER",
       "problemsTitle": "Bulut mutfaklarının marj kaybettiği yer",
       "problemsDescription": "Komisyon yığınları, kanal karmaşası, hangi sanal markanın gerçekten kârlı olduğuna dair tek bir görünüm yok.",
       "challenges": [
         {
-          "title": "Komisyon marjı yer",
+          "title": "Komisyon marjı yiyor",
           "description": "Her platformda sipariş başına %20-30. Kanal başına net marj görünmez - brütü optimize edersiniz ve para kaybedersiniz.",
           "icon": "balance"
         },
@@ -910,7 +910,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Platform düzeyinde sağlık görünmüyor",
-          "description": "UberEats'teki ayarlar dün gece değiştirildi. Dönüşüm %18 düştü. Bunu gelecek hafta göreceksiniz.",
+          "description": "UberEats'teki ayarlar dün gece değiştirildi. Dönüşüm %18 düştü. Bunu gelecek haftaya kadar göremeyeceksiniz.",
           "icon": "watchtower"
         }
       ],
@@ -1133,7 +1133,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24時間以内にプラットフォームの変更をキャッチ",
-          "description": "変更、ランキングのシフト、料金の更新を切り替え - 翌朝に表示、来週ではありません。",
+          "description": "設定の変更、ランキングの変動、料金の更新 - 翌朝に表示、来週ではありません。",
           "icon": "performance"
         },
         {
@@ -1174,7 +1174,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tidak ada pandangan kesehatan tingkat platform",
-          "description": "Pengaturan toggle di UberEats dipindahkan semalam. Konversi turun 18%. Anda tidak akan melihatnya sampai minggu depan.",
+          "description": "Pengaturan di UberEats diubah semalam. Konversi turun 18%. Anda tidak akan melihatnya sampai minggu depan.",
           "icon": "watchtower"
         }
       ],
@@ -1221,7 +1221,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tangkap perubahan platform dalam 24 jam",
-          "description": "Ubah toggle, pergeseran peringkat, pembaruan biaya - muncul pagi setelahnya, bukan minggu depan.",
+          "description": "Perubahan pengaturan, pergeseran peringkat, pembaruan biaya - muncul keesokan paginya, bukan minggu depan.",
           "icon": "performance"
         },
         {
@@ -1309,7 +1309,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Detectați schimbările platformei în 24 de ore",
-          "description": "Comutați schimbările, modificările de clasament, actualizările de taxe - afișate dimineața după, nu săptămâna viitoare.",
+          "description": "Modificări de setări, schimbări de clasament, actualizări de taxe - afișate a doua zi dimineața, nu săptămâna viitoare.",
           "icon": "performance"
         },
         {
@@ -1319,7 +1319,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Vezi marja netă pe platformă.",
-      "ctaDescription": "30 de minute. Bucătăriile tale. Canalul pe care s-ar putea să vrei să-l renunți.",
+      "ctaDescription": "30 de minute. Bucătăriile tale. Canalul la care s-ar putea să vrei să renunți.",
       "ctaButton": "Rezervați o prezentare a bucătăriei Cloud"
     },
     "vi": {
@@ -1329,7 +1329,7 @@ export const generatedLocalCopy = {
       "description": "Dữ liệu đơn hàng, kênh và hoa hồng trực tiếp từ DoorDash, UberEats, Talabat và các kênh trực tiếp của bạn. Biên lợi nhuận theo từng nền tảng, không chỉ theo từng thương hiệu.",
       "primaryCta": "Đặt lịch tham quan Bếp Đám Mây",
       "secondaryCta": "Xem bản demo giao hàng",
-      "problemsEyebrow": "NƠI CÁC NHÀ BẾP ĐIỆN MẤT BIÊN LỢI NHUẬN",
+      "problemsEyebrow": "NƠI CÁC BẾP MÂY MẤT BIÊN LỢI NHUẬN",
       "problemsTitle": "Nơi các bếp mây mất biên lợi nhuận",
       "problemsDescription": "Các khoản hoa hồng chồng chéo, sự hỗn loạn giữa các kênh, không có cái nhìn tổng quan nào về thương hiệu ảo nào thực sự có lãi.",
       "challenges": [
@@ -1391,13 +1391,13 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Giết bỏ các thương hiệu không mang lại lợi nhuận cho bếp",
+          "title": "Loại bỏ các thương hiệu không mang lại lợi nhuận cho bếp",
           "description": "Bỏ thương hiệu ảo trông bận rộn nhưng không đóng góp gì khi đã phân bổ chi phí.",
           "icon": "owners"
         },
         {
           "title": "Phát hiện thay đổi nền tảng trong 24 giờ",
-          "description": "Chuyển đổi thay đổi, thay đổi xếp hạng, cập nhật phí - được hiển thị vào sáng hôm sau, không phải tuần sau.",
+          "description": "Thay đổi cài đặt, thay đổi xếp hạng, cập nhật phí - hiển thị vào sáng hôm sau, không phải tuần sau.",
           "icon": "performance"
         },
         {
@@ -1419,7 +1419,7 @@ export const generatedLocalCopy = {
       "secondaryCta": "Se leveransdemonstration",
       "problemsEyebrow": "DÄR MOLNKÖK FÖRLORAR MARGINAL",
       "problemsTitle": "Där molnkök förlorar marginal",
-      "problemsDescription": "Kommisioner staplas, kanalröran, ingen enhetlig översikt över vilken virtuell varumärke som faktiskt är lönsam.",
+      "problemsDescription": "Provisioner staplas på varandra, kanalkaos, ingen enhetlig översikt över vilket virtuellt varumärke som faktiskt är lönsamt.",
       "challenges": [
         {
           "title": "Provisioner äter upp marginalen",
@@ -1479,13 +1479,13 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Avveckla varumärken som inte tjänar sin kök",
+          "title": "Avveckla varumärken som inte förtjänar sitt kök",
           "description": "Ta bort det virtuella varumärket som ser upptaget ut men inte bidrar med något när kostnaden har fördelats.",
           "icon": "owners"
         },
         {
           "title": "Fånga plattformsändringar inom 24 timmar",
-          "description": "Växla ändringar, rangordningsskift, avgiftsuppdateringar - synliga morgonen efter, inte nästa vecka.",
+          "description": "Inställningsändringar, rangordningsskift, avgiftsuppdateringar - synliga morgonen efter, inte nästa vecka.",
           "icon": "performance"
         },
         {
@@ -1729,7 +1729,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การติดตามการดำเนินงานแบบสด",
-          "description": "ปริมาณคำสั่งซื้อ เวลาการเตรียมการ คำสั่งซื้อที่ล่าชาตามชั่วโมง ครัวจะเห็นการเพิ่มขึ้นที่กำลังเกิดขึ้น - ไม่ใช่การวิเคราะห์หลังเหตุการณ์",
+          "description": "ปริมาณคำสั่งซื้อ เวลาการเตรียม คำสั่งซื้อที่ล่าช้าตามชั่วโมง ครัวจะเห็นการเพิ่มขึ้นที่กำลังเกิดขึ้น - ไม่ใช่การวิเคราะห์หลังเหตุการณ์",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1749,7 +1749,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "จับการเปลี่ยนแปลงแพลตฟอร์มใน 24 ชั่วโมง",
-          "description": "เปลี่ยนแปลง, การจัดอันดับ, การปรับค่าธรรมเนียม - แสดงผลในเช้าวันถัดไป ไม่ใช่สัปดาห์หน้า.",
+          "description": "การเปลี่ยนการตั้งค่า การเปลี่ยนอันดับ การปรับค่าธรรมเนียม - แสดงผลในเช้าวันถัดไป ไม่ใช่สัปดาห์หน้า.",
           "icon": "performance"
         },
         {
@@ -1790,7 +1790,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tiada pandangan kesihatan peringkat platform",
-          "description": "Tetapan togol pada UberEats dipindahkan malam tadi. Penukaran jatuh 18%. Anda tidak akan melihatnya sehingga minggu depan.",
+          "description": "Tetapan pada UberEats diubah malam tadi. Penukaran jatuh 18%. Anda tidak akan melihatnya sehingga minggu depan.",
           "icon": "watchtower"
         }
       ],
@@ -1837,7 +1837,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tangkap perubahan platform dalam 24 jam",
-          "description": "Togol perubahan, pergeseran ranking, kemas kini yuran - muncul pada pagi selepas, bukan minggu depan.",
+          "description": "Perubahan tetapan, pergeseran ranking, kemas kini yuran - muncul keesokan paginya, bukan minggu depan.",
           "icon": "performance"
         },
         {
