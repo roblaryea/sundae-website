@@ -871,7 +871,7 @@ export const generatedLocalCopy = {
         "actualPlaceholder": "t.ex. 25000",
         "revenueLabel": "Totala Intäkter ($)",
         "revenuePlaceholder": "t.ex. 100000",
-        "targetLabel": "Målarbets % (valfritt)",
+        "targetLabel": "Mål för arbetskostnad % (valfritt)",
         "targetHint": "Branschstandard ligger vanligtvis mellan 25-35% för fullservice-restauranger.",
         "targetPlaceholder": "t.ex. 30",
         "buttonIdle": "Analysera Arbetsavvikelse"
