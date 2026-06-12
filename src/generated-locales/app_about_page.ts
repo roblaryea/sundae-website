@@ -29,7 +29,7 @@ export const generatedLocalCopy = {
       "builtDescription": "Sechs verbundene Ebenen, die Betreibern helfen, von der Echtzeitplanung zu 90-Tage-Prognosen zu wechseln, ohne zwischen Systemen zu springen.",
       "missionTitle": "Warum Sundae existiert",
       "missionDescription": "Betriebe mit mehreren Standorten führen komplexe, umsatzstarke Geschäfte über Dutzende von voneinander getrennten Systemen. Das Ergebnis: Millionenentscheidungen basieren auf Bauchgefühl, Margenverluste sind unsichtbar, bis es zu spät ist, und es fehlt an Marktkenntnis für die Leistungsbewertung.",
-      "missionSupport": "Wir haben Sundae gegründet, weil wir das Problem selbst erlebt haben. Unser Gründer hat Restaurantkonzepte auf über 10 Millionen Dollar Jahresumsatz skaliert und stieß immer wieder auf dasselbe Problem: zu viele Systeme, zu wenig Entscheidungs Klarheit.",
+      "missionSupport": "Wir haben Sundae gegründet, weil wir das Problem selbst erlebt haben. Unser Gründer hat Restaurantkonzepte auf über 10 Millionen Dollar Jahresumsatz skaliert und stieß immer wieder auf dasselbe Problem: zu viele Systeme, zu wenig Klarheit bei Entscheidungen.",
       "missionSteps": [
         {
           "title": "Vereinen Sie 12+ Datenquellen",
@@ -49,9 +49,9 @@ export const generatedLocalCopy = {
       "strengthsTitle": "Teamstärken",
       "journeyTitle": "Die Sundae-Reise",
       "journeyDescription": "Das Unternehmen entstand aus den Herausforderungen der Betreiber und entwickelte sich dann zu einer Plattform, die in mehreren Märkten genutzt wird.",
-      "valuesTitle": "Wofür Wir Stehen",
+      "valuesTitle": "Wofür wir stehen",
       "valuesDescription": "Prinzipien, die Produktentscheidungen prägen und sich in unserer Bauweise widerspiegeln.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Wo Sundae präsent ist",
       "presenceDescription": "Aktiv im Nahen Osten und Nordamerika. Expansion in wichtige globale Gastmärkte.",
       "ctaTitle": "Sehen Sie, wie vereinheitlichte Intelligenz aussieht",
       "ctaDescription": "30 Minuten, um Ihre Daten gemeinsam zu überprüfen und zu sehen, wo Sundae wirklich nützlich sein könnte.",
@@ -160,7 +160,7 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligenz zuerst",
           "description": "Zerstreute Daten sind teuer. Wir verwandeln 12 Systeme in eine intelligente Schicht, die tatsächlich Entscheidungen trifft.",
-          "proof": "Über 30 Module in 12 operativen Bereichen - von Einnahmen bis Reservierungen.",
+          "proof": "12 Module in 12 operativen Bereichen - von Einnahmen bis Reservierungen.",
           "icon": "insights"
         },
         {
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "L'entreprise est née de la douleur des opérateurs, puis est devenue une plateforme utilisée sur plusieurs marchés.",
       "valuesTitle": "Ce que nous défendons",
       "valuesDescription": "Principes qui façonnent les décisions produit et se reflètent dans notre manière de construire.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Où Sundae est présent",
       "presenceDescription": "Actif au Moyen-Orient et en Amérique du Nord. Expansion sur les principaux marchés mondiaux de l'hôtellerie.",
       "ctaTitle": "Découvrez à quoi ressemble l'intelligence unifiée",
       "ctaDescription": "30 minutes pour examiner vos données ensemble et voir où Sundae pourrait être réellement utile.",
@@ -266,7 +266,7 @@ export const generatedLocalCopy = {
         "Opérations en temps réel",
         "Intelligence concurrentielle",
         "Intelligence de marché",
-        "Plus de 30 modules d'analyse",
+        "12 modules d'analyse",
         "IA conversationnelle",
         "Intelligence prédictive"
       ],
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
         {
           "title": "L'Intelligence d'abord",
           "description": "Des données éparpillées coûtent cher. Nous transformons 12 systèmes en une couche intelligente qui prend réellement des décisions.",
-          "proof": "Plus de 30 modules dans 12 domaines opérationnels - des revenus aux réservations.",
+          "proof": "12 modules dans 12 domaines opérationnels - des revenus aux réservations.",
           "icon": "insights"
         },
         {
@@ -445,7 +445,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "La empresa surgió de las dificultades de los operadores y luego se convirtió en una plataforma utilizada en múltiples mercados.",
       "valuesTitle": "Lo Que Representamos",
       "valuesDescription": "Principios que moldean las decisiones de producto y se reflejan en cómo construimos.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Dónde está presente Sundae",
       "presenceDescription": "Activo en Oriente Medio y América del Norte. Expandiéndose a los principales mercados globales de hospitalidad.",
       "ctaTitle": "Vea cómo es la Inteligencia Unificada",
       "ctaDescription": "30 minutos para revisar tus datos juntos y ver dónde Sundae podría ser realmente útil.",
@@ -463,7 +463,7 @@ export const generatedLocalCopy = {
         "Operaciones en Tiempo Real",
         "Inteligencia Competitiva",
         "Inteligencia de Mercado",
-        "Más de 30 Módulos de Análisis",
+        "12 Módulos de Análisis",
         "IA Conversacional",
         "Inteligencia Predictiva"
       ],
@@ -554,7 +554,7 @@ export const generatedLocalCopy = {
         {
           "title": "Inteligencia Primero",
           "description": "Los datos dispersos son costosos. Convertimos 12 sistemas en una capa inteligente que realmente impulsa decisiones.",
-          "proof": "Más de 30 módulos en 12 dominios operativos, desde ingresos hasta reservas.",
+          "proof": "12 módulos en 12 dominios operativos, desde ingresos hasta reservas.",
           "icon": "insights"
         },
         {
@@ -642,7 +642,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "نشأت الشركة من معاناة المشغلين، ثم تحولت إلى منصة تُستخدم في أسواق متعددة.",
       "valuesTitle": "ما نمثله",
       "valuesDescription": "المبادئ التي تشكل قرارات المنتج وتظهر في كيفية بنائنا.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "أين تتواجد Sundae",
       "presenceDescription": "نشط في الشرق الأوسط وأمريكا الشمالية. يتوسع في الأسواق العالمية الكبرى للضيافة.",
       "ctaTitle": "شاهد كيف تبدو الذكاء الموحد",
       "ctaDescription": "30 دقيقة لمراجعة بياناتك معًا ورؤية كيف يمكن أن تكون Sundae مفيدة حقًا.",
@@ -660,7 +660,7 @@ export const generatedLocalCopy = {
         "عمليات في الوقت الحقيقي",
         "ذكاء تنافسي",
         "ذكاء السوق",
-        "أكثر من 30 وحدة تحليلية",
+        "12 وحدة تحليلية",
         "ذكاء محادثاتي",
         "ذكاء تنبؤي"
       ],
@@ -751,7 +751,7 @@ export const generatedLocalCopy = {
         {
           "title": "الذكاء أولاً",
           "description": "البيانات المتناثرة مكلفة. نحن نحول 12 نظامًا إلى طبقة ذكية واحدة تدفع فعليًا القرارات.",
-          "proof": "أكثر من 30 وحدة عبر 12 مجالًا تشغيليًا - من الإيرادات إلى الحجوزات.",
+          "proof": "12 وحدة عبر 12 مجالًا تشغيليًا - من الإيرادات إلى الحجوزات.",
           "icon": "insights"
         },
         {
@@ -839,7 +839,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Het bedrijf is ontstaan uit de pijn van de operator en is uitgegroeid tot een platform dat in meerdere markten wordt gebruikt.",
       "valuesTitle": "Waar We Voor Staan",
       "valuesDescription": "Principes die productbeslissingen vormgeven en zichtbaar zijn in hoe we bouwen.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Waar Sundae aanwezig is",
       "presenceDescription": "Actief in het Midden-Oosten en Noord-Amerika. Uitbreiding naar belangrijke wereldwijde horecamarkten.",
       "ctaTitle": "Bekijk hoe Unified Intelligence eruitziet",
       "ctaDescription": "30 minuten om samen uw gegevens te bekijken en te zien waar Sundae echt nuttig kan zijn.",
@@ -1036,7 +1036,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "A empresa surgiu da dor dos operadores e, em seguida, se transformou em uma plataforma utilizada em vários mercados.",
       "valuesTitle": "O Que Defendemos",
       "valuesDescription": "Princípios que moldam as decisões de produto e se refletem em como construímos.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Onde a Sundae está presente",
       "presenceDescription": "Ativo no Oriente Médio e na América do Norte. Expandindo para os principais mercados globais de hospitalidade.",
       "ctaTitle": "Veja Como é a Inteligência Unificada",
       "ctaDescription": "30 minutos para revisar seus dados juntos e ver onde o Sundae pode ser realmente útil.",
@@ -1145,7 +1145,7 @@ export const generatedLocalCopy = {
         {
           "title": "Inteligência em Primeiro Lugar",
           "description": "Dados dispersos são caros. Transformamos 12 sistemas em uma camada inteligente que realmente orienta decisões.",
-          "proof": "Mais de 30 módulos em 12 domínios operacionais - de receita a reservas.",
+          "proof": "12 módulos em 12 domínios operacionais - de receita a reservas.",
           "icon": "insights"
         },
         {
@@ -1185,9 +1185,9 @@ export const generatedLocalCopy = {
       ]
     },
     "ur": {
-      "metadataTitle": "About Sundae - The Decision Intelligence Platform for Restaurants",
+      "metadataTitle": "Sundae کے بارے میں - ریستورانوں کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
       "metadataDescription": "Sundae 12+ ڈیٹا ذرائع کو ایک واحد ذہانت کی تہہ میں یکجا کرتا ہے جو کثیر یونٹ ریستوراں گروپوں کے لیے ہے۔ یہ آپریٹرز کے ذریعہ بنایا گیا ہے جو اس مسئلے کا سامنا کر چکے ہیں۔ 3 ممالک میں فعال ہے۔",
-      "badge": "About Sundae",
+      "badge": "Sundae کے بارے میں",
       "description": "ریستوران کا ڈیٹا عام طور پر درجن بھر غیر مربوط نظاموں میں موجود ہوتا ہے۔ Sundae اس آپریٹنگ تصویر کو ایک جگہ پر لاتا ہے تاکہ ٹیمیں موجودہ اعداد و شمار، مارکیٹ کے سیاق و سباق، اور مستقبل کی نشانیوں کے ساتھ فیصلے کر سکیں۔",
       "stats": [
         {
@@ -1209,7 +1209,7 @@ export const generatedLocalCopy = {
       ],
       "builtTitle": "ہم نے کیا بنایا ہے",
       "builtDescription": "چھ جڑے ہوئے تہیں جو آپریٹرز کو حقیقی وقت کی رفتار سے 90 دن کی پیش گوئیوں میں منتقل ہونے میں مدد کرتی ہیں بغیر سسٹمز کے درمیان چھلانگ لگائے۔",
-      "missionTitle": "Why Sundae Exists",
+      "missionTitle": "Sundae کیوں موجود ہے",
       "missionDescription": "کئی یونٹ والے ریستوراں کے آپریٹرز پیچیدہ، بڑے حجم کے کاروبار چلاتے ہیں جو درجنوں غیر مربوط نظاموں میں بکھرے ہوئے ہیں۔ نتیجہ: لاکھوں ڈالر کے فیصلے احساس پر کیے جاتے ہیں، مارجن کی کمی نظر نہیں آتی جب تک کہ بہت دیر نہ ہو جائے، اور کارکردگی کی پیمائش کے لیے مارکیٹ کا کوئی سیاق و سباق نہیں ہوتا۔",
       "missionSupport": "ہم نے Sundae اس لیے بنایا کیونکہ ہم نے اس مسئلے کا سامنا کیا۔ ہمارے بانی نے ریستوران کے تصورات کو سالانہ آمدنی میں 10 ملین ڈالر سے زیادہ تک بڑھایا اور ہمیشہ ایک ہی مسئلے کا سامنا کیا: بہت سے نظام، فیصلہ سازی میں بہت کم وضاحت۔",
       "missionSteps": [
@@ -1233,7 +1233,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "یہ کمپنی آپریٹر کی مشکلات سے نکلی، پھر ایک ایسا پلیٹ فارم بن گئی جو متعدد مارکیٹوں میں استعمال ہوتا ہے۔",
       "valuesTitle": "ہم کس چیز کی نمائندگی کرتے ہیں",
       "valuesDescription": "وہ اصول جو مصنوعات کے فیصلوں کو تشکیل دیتے ہیں اور یہ ظاہر کرتے ہیں کہ ہم کس طرح تعمیر کرتے ہیں۔",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae کہاں موجود ہے",
       "presenceDescription": "مشرق وسطی اور شمالی امریکہ میں فعال۔ بڑے عالمی مہمان نوازی کے بازاروں میں توسیع کر رہے ہیں۔",
       "ctaTitle": "یکجا ذہانت کیسی نظر آتی ہے یہ دیکھیں",
       "ctaDescription": "آپ کے ڈیٹا کا جائزہ لینے اور یہ دیکھنے کے لیے 30 منٹ کہ Sundae واقعی کس طرح مددگار ہو سکتا ہے۔",
@@ -1277,7 +1277,7 @@ export const generatedLocalCopy = {
             "5 بار کے بانی جن کے 2 کامیاب اخراجات ہیں اور $100M سے زیادہ کاروبار بنانے کا تجربہ",
             "0→1 زمرہ تخلیق اور پروڈکٹ کی قیادت میں ترقی میں ماہر",
             "پروڈکٹ، مارکیٹنگ، اور مارکیٹ میں جانے کے عمل میں 18+ سال",
-            "Leads Sundae's market position across restaurant intelligence and growth"
+            "ریستوراں ذہانت اور نمو کے میدان میں Sundae کی مارکیٹ پوزیشن کی قیادت کرتے ہیں"
           ]
         },
         {
@@ -1293,7 +1293,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "نوید نadir",
+          "name": "نوید نادر",
           "role": "ہیڈ آف ٹیکنالوجی",
           "location": "ٹورنٹو",
           "image": "/team/naveed-nadir.jpg",
@@ -1301,7 +1301,7 @@ export const generatedLocalCopy = {
             "ایسی انٹرپرائز SaaS پلیٹ فارم بنائے جو 10M+ روزانہ ٹرانزیکشنز کو سنبھالتے ہیں",
             "عالمی پیمانے پر آٹوموٹو اور انٹرپرائز SaaS میں تجربہ کار انجینئر",
             "محفوظ، تعمیل کرنے والے سسٹمز کی تعمیر میں ماہر",
-            "Owns Sundae's infrastructure reliability and real-time data pipeline"
+            "Sundae کی انفراسٹرکچر کی قابل اعتمادی اور حقیقی وقت کے ڈیٹا پائپ لائن کے ذمہ دار"
           ]
         }
       ],
@@ -1430,7 +1430,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "यह कंपनी ऑपरेटर की समस्याओं से विकसित हुई, फिर कई बाजारों में उपयोग होने वाले प्लेटफ़ॉर्म में बदल गई।",
       "valuesTitle": "हम किसके लिए खड़े हैं",
       "valuesDescription": "उन्हीं सिद्धांतों के आधार पर उत्पाद निर्णय लिए जाते हैं और यही हमारे निर्माण में दिखाई देते हैं।",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae कहाँ मौजूद है",
       "presenceDescription": "मध्य पूर्व और उत्तरी अमेरिका में सक्रिय। प्रमुख वैश्विक आतिथ्य बाजारों में विस्तार कर रहा है।",
       "ctaTitle": "एकीकृत बुद्धिमत्ता कैसी दिखती है यह देखें",
       "ctaDescription": "आपके डेटा की समीक्षा करने और यह देखने के लिए 30 मिनट कि Sundae वास्तव में कहाँ उपयोगी हो सकता है।",
@@ -1580,7 +1580,7 @@ export const generatedLocalCopy = {
     },
     "it": {
       "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per ristoranti",
-      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un'unica layer di intelligenza per gruppi di ristoranti multi-unità. Creato da operatori che hanno vissuto il problema. Attivo in 3 paesi.",
+      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un unico livello di intelligenza per gruppi di ristoranti multi-unità. Creato da operatori che hanno vissuto il problema. Attivo in 3 paesi.",
       "badge": "Informazioni su Sundae",
       "description": "I dati del ristorante di solito risiedono in una dozzina di sistemi disconnessi. Sundae raccoglie quell'immagine operativa in un unico posto, così i team possono prendere decisioni con numeri aggiornati, contesto di mercato e segnali futuri.",
       "stats": [
@@ -1621,13 +1621,13 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Costruito da operatori che hanno vissuto il problema",
-      "teamDescription": "Il nostro team vanta oltre 60 anni di esperienza nei ristoranti, nella tecnologia e nei dati. Non abbiamo studiato questo problema dalla sidelines. Abbiamo gestito operazioni, scalato concetti e affrontato le stesse lacune di reporting che gli operatori devono affrontare ogni settimana.",
+      "teamDescription": "Il nostro team vanta oltre 60 anni di esperienza nei ristoranti, nella tecnologia e nei dati. Non abbiamo studiato questo problema da spettatori. Abbiamo gestito operazioni, scalato concetti e affrontato le stesse lacune di reporting che gli operatori devono affrontare ogni settimana.",
       "strengthsTitle": "Punti di Forza del Team",
       "journeyTitle": "Il Viaggio di Sundae",
       "journeyDescription": "L'azienda è nata da un'esigenza degli operatori, per poi evolversi in una piattaforma utilizzata in diversi mercati.",
       "valuesTitle": "Cosa Rappresentiamo",
       "valuesDescription": "Principi che plasmano le decisioni sui prodotti e si riflettono nel modo in cui costruiamo.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Dove Sundae è presente",
       "presenceDescription": "Attivo in Medio Oriente e Nord America. In espansione nei principali mercati globali dell'ospitalità.",
       "ctaTitle": "Scopri come appare l'intelligenza unificata",
       "ctaDescription": "30 minuti per rivedere insieme i tuoi dati e vedere dove Sundae potrebbe essere davvero utile.",
@@ -1735,8 +1735,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenza Prima",
-          "description": "I dati sparsi sono costosi. Trasformiamo 12 sistemi in un'unica layer intelligente che guida realmente le decisioni.",
-          "proof": "Oltre 30 moduli in 12 domini operativi - dalle entrate alle prenotazioni.",
+          "description": "I dati sparsi sono costosi. Trasformiamo 12 sistemi in un unico livello intelligente che guida realmente le decisioni.",
+          "proof": "12 moduli in 12 domini operativi - dalle entrate alle prenotazioni.",
           "icon": "insights"
         },
         {
@@ -1824,7 +1824,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Firma powstała z bólu operatorów, a następnie przekształciła się w platformę wykorzystywaną na wielu rynkach.",
       "valuesTitle": "Za czym stoimy",
       "valuesDescription": "Zasady, które kształtują decyzje produktowe i wpływają na sposób, w jaki budujemy.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Gdzie działa Sundae",
       "presenceDescription": "Aktywni na Bliskim Wschodzie i w Ameryce Północnej. Rozszerzamy działalność na główne globalne rynki hotelarskie.",
       "ctaTitle": "Zobacz, jak wygląda Zjednoczona Inteligencja",
       "ctaDescription": "30 minut na wspólne przeglądanie danych i zobaczenie, gdzie Sundae może być naprawdę przydatne.",
@@ -1842,7 +1842,7 @@ export const generatedLocalCopy = {
         "Operacje w czasie rzeczywistym",
         "Inteligencja konkurencyjna",
         "Inteligencja rynkowa",
-        "Ponad 30 modułów analitycznych",
+        "12 modułów analitycznych",
         "AI konwersacyjne",
         "Inteligencja predykcyjna"
       ],
@@ -1933,7 +1933,7 @@ export const generatedLocalCopy = {
         {
           "title": "Pierwszeństwo Inteligencji",
           "description": "Rozproszone dane są kosztowne. Przekształcamy 12 systemów w jedną inteligentną warstwę, która rzeczywiście podejmuje decyzje.",
-          "proof": "Ponad 30 modułów w 12 obszarach operacyjnych - od przychodów po rezerwacje.",
+          "proof": "12 modułów w 12 obszarach operacyjnych - od przychodów po rezerwacje.",
           "icon": "insights"
         },
         {
@@ -2021,7 +2021,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Şirket, operatör acılarından doğdu ve ardından birden fazla pazarda kullanılan bir platforma dönüştü.",
       "valuesTitle": "Ne Temsil Ediyoruz",
       "valuesDescription": "Ürün kararlarını şekillendiren ve nasıl inşa ettiğimizde kendini gösteren ilkeler.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae'nin faaliyet gösterdiği yerler",
       "presenceDescription": "Orta Doğu ve Kuzey Amerika'da aktifiz. Büyük küresel konaklama pazarlarına açılıyoruz.",
       "ctaTitle": "Birleşik Zekanın Nasıl Göründüğünü Görün",
       "ctaDescription": "Verilerinizi birlikte gözden geçirmek ve Sundae'nin gerçekten faydalı olabileceği yerleri görmek için 30 dakika.",
@@ -2136,7 +2136,7 @@ export const generatedLocalCopy = {
         {
           "title": "Gerçek Zamanlı Kararlar",
           "description": "Haftalık raporlar size para kaybettirir. Kazanan operatörler, sorunları hala çözebilecekleri sırada görebilenlerdir.",
-          "proof": "Pulse refreshes every 5 minutes across every location.",
+          "proof": "Pulse her lokasyonda her 5 dakikada bir güncellenir.",
           "icon": "speed"
         },
         {
@@ -2218,7 +2218,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "公司源于运营商的痛点，随后发展成为一个在多个市场中使用的平台。",
       "valuesTitle": "我们所代表的",
       "valuesDescription": "塑造产品决策并体现在我们构建方式的原则。",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae 的业务覆盖",
       "presenceDescription": "活跃于中东和北美。正在扩展到主要的全球酒店市场。",
       "ctaTitle": "看看统一智能的样子",
       "ctaDescription": "30分钟一起审查您的数据，看看Sundae在哪里可以真正发挥作用。",
@@ -2327,7 +2327,7 @@ export const generatedLocalCopy = {
         {
           "title": "以智能为先",
           "description": "分散的数据是昂贵的。我们将12个系统转变为一个真正推动决策的智能层。",
-          "proof": "跨越12个运营领域的30多个模块 - 从收入到预订。",
+          "proof": "跨越12个运营领域的12个模块 - 从收入到预订。",
           "icon": "insights"
         },
         {
@@ -2377,7 +2377,7 @@ export const generatedLocalCopy = {
           "label": "プラットフォームの柱"
         },
         {
-          "value": "30以上",
+          "value": "12",
           "label": "インテリジェンスモジュール"
         },
         {
@@ -2415,7 +2415,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "この会社はオペレーターの苦痛から生まれ、次第に複数の市場で使用されるプラットフォームへと成長しました。",
       "valuesTitle": "私たちの信念",
       "valuesDescription": "製品の決定を形作り、私たちの構築方法に現れる原則。",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae の展開地域",
       "presenceDescription": "中東と北米で活動中。主要なグローバルホスピタリティ市場に拡大中。",
       "ctaTitle": "統合されたインテリジェンスがどのようなものかをご覧ください",
       "ctaDescription": "30分でデータを一緒に確認し、Sundaeがどのように役立つかを見てみましょう。",
@@ -2433,7 +2433,7 @@ export const generatedLocalCopy = {
         "リアルタイムオペレーション",
         "競争インテリジェンス",
         "市場インテリジェンス",
-        "30以上の分析モジュール",
+        "12の分析モジュール",
         "会話型AI",
         "予測インテリジェンス"
       ],
@@ -2500,7 +2500,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30以上のモジュール稼働",
+          "title": "12モジュール稼働",
           "description": "収益、労働、在庫、配送、予約、購買、マーケティング、利益インテリジェンス - 12の運用ドメイン全体で統合。"
         },
         {
@@ -2524,7 +2524,7 @@ export const generatedLocalCopy = {
         {
           "title": "インテリジェンス優先",
           "description": "散在するデータはコストがかかります。12のシステムを1つのインテリジェントなレイヤーに統合し、実際に意思決定を促進します。",
-          "proof": "収益から予約まで、12の運用ドメインにわたる30以上のモジュール。",
+          "proof": "収益から予約まで、12の運用ドメインにわたる12のモジュール。",
           "icon": "insights"
         },
         {
@@ -2612,7 +2612,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Perusahaan ini lahir dari kesulitan operator, kemudian berkembang menjadi platform yang digunakan di berbagai pasar.",
       "valuesTitle": "Apa yang Kami Dukung",
       "valuesDescription": "Prinsip yang membentuk keputusan produk dan terlihat dalam cara kami membangunnya.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Di mana Sundae hadir",
       "presenceDescription": "Aktif di Timur Tengah dan Amerika Utara. Memperluas ke pasar perhotelan global utama.",
       "ctaTitle": "Lihat Bagaimana Kecerdasan Terpadu Tampil",
       "ctaDescription": "30 menit untuk meninjau data Anda bersama dan melihat di mana Sundae bisa benar-benar berguna.",
@@ -2719,7 +2719,7 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "Intelligence Pertama",
+          "title": "Kecerdasan Pertama",
           "description": "Data yang tersebar itu mahal. Kami mengubah 12 sistem menjadi satu lapisan cerdas yang benar-benar mendorong keputusan.",
           "proof": "12 modul di 12 domain operasional - dari pendapatan hingga reservasi.",
           "icon": "insights"
@@ -2733,7 +2733,7 @@ export const generatedLocalCopy = {
         {
           "title": "Tingkatkan Standar",
           "description": "Kami ingin tim restoran mengharapkan lebih dari tumpukan data mereka daripada hanya dasbor statis lainnya.",
-          "proof": "Aktif di 3 negara dengan grup perusahaan yang mengadopsi secara platform-wide.",
+          "proof": "Aktif di 3 negara dengan grup perusahaan yang mengadopsi di seluruh platform.",
           "icon": "growth"
         }
       ],
@@ -2809,7 +2809,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Công ty phát triển từ nỗi đau của nhà điều hành, sau đó trở thành một nền tảng được sử dụng trên nhiều thị trường.",
       "valuesTitle": "Những gì chúng tôi đại diện",
       "valuesDescription": "Các nguyên tắc định hình quyết định sản phẩm và thể hiện trong cách chúng tôi xây dựng.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Nơi Sundae hiện diện",
       "presenceDescription": "Hoạt động tại Trung Đông và Bắc Mỹ. Mở rộng vào các thị trường khách sạn lớn trên toàn cầu.",
       "ctaTitle": "Xem Trí Tuệ Tích Hợp Trông Như Thế Nào",
       "ctaDescription": "30 phút để cùng xem xét dữ liệu của bạn và xem Sundae có thể thực sự hữu ích ở đâu.",
@@ -2894,7 +2894,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "Hơn 30 Mô-đun Hoạt Động",
+          "title": "12 Mô-đun Hoạt Động",
           "description": "Doanh thu, lao động, tồn kho, giao hàng, đặt chỗ, mua sắm, tiếp thị và trí tuệ lợi nhuận - tất cả được thống nhất trên 12 lĩnh vực hoạt động."
         },
         {
@@ -2918,7 +2918,7 @@ export const generatedLocalCopy = {
         {
           "title": "Trí Tuệ Trước Tiên",
           "description": "Dữ liệu phân tán là tốn kém. Chúng tôi biến 12 hệ thống thành một lớp thông minh thực sự thúc đẩy quyết định.",
-          "proof": "Hơn 30 mô-đun trên 12 lĩnh vực hoạt động - từ doanh thu đến đặt chỗ.",
+          "proof": "12 mô-đun trên 12 lĩnh vực hoạt động - từ doanh thu đến đặt chỗ.",
           "icon": "insights"
         },
         {
@@ -3006,7 +3006,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "회사는 운영자의 고통에서 시작되어 여러 시장에서 사용되는 플랫폼으로 성장했습니다.",
       "valuesTitle": "우리가 지향하는 것",
       "valuesDescription": "제품 결정을 형성하고 우리가 구축하는 방식에 나타나는 원칙.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae가 진출한 지역",
       "presenceDescription": "중동과 북미에서 활동 중입니다. 주요 글로벌 환대 시장으로 확장하고 있습니다.",
       "ctaTitle": "통합 인텔리전스가 어떻게 생겼는지 확인해 보세요",
       "ctaDescription": "30분 동안 데이터를 함께 검토하고 Sundae가 실제로 유용할 수 있는 부분을 확인하세요.",
@@ -3024,7 +3024,7 @@ export const generatedLocalCopy = {
         "실시간 운영",
         "경쟁 정보",
         "시장 정보",
-        "30개 이상의 분석 모듈",
+        "12개 분석 모듈",
         "대화형 AI",
         "예측 정보"
       ],
@@ -3091,7 +3091,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30개 이상의 모듈 운영 중",
+          "title": "12개 모듈 운영 중",
           "description": "수익, 인력, 재고, 배달, 예약, 구매, 마케팅 및 이익 인텔리전스 - 12개의 운영 도메인 전반에 걸쳐 통합되었습니다."
         },
         {
@@ -3115,13 +3115,13 @@ export const generatedLocalCopy = {
         {
           "title": "지능 우선",
           "description": "분산된 데이터는 비용이 많이 듭니다. 우리는 12개의 시스템을 실제로 결정을 내리는 하나의 지능형 레이어로 통합합니다.",
-          "proof": "수익에서 예약까지 12개의 운영 도메인에 걸쳐 30개 이상의 모듈이 있습니다.",
+          "proof": "수익에서 예약까지 12개의 운영 도메인에 걸쳐 12개의 모듈이 있습니다.",
           "icon": "insights"
         },
         {
           "title": "실시간 결정",
           "description": "주간 보고서는 비용이 발생합니다. 문제를 해결할 수 있을 때 문제를 볼 수 있는 운영자가 승리합니다.",
-          "proof": "Pulse refreshes every 5 minutes across every location.",
+          "proof": "Pulse는 모든 지점에서 5분마다 새로고침됩니다.",
           "icon": "speed"
         },
         {
@@ -3203,7 +3203,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Compania a crescut din durerea operatorilor, apoi într-o platformă utilizată în mai multe piețe.",
       "valuesTitle": "Ce Reprezentăm",
       "valuesDescription": "Principiile care conturează deciziile de produs și se reflectă în modul în care construim.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Unde este prezent Sundae",
       "presenceDescription": "Activ în Orientul Mijlociu și America de Nord. Ne extindem în piețele globale majore de ospitalitate.",
       "ctaTitle": "Vezi cum arată Inteligența Unificată",
       "ctaDescription": "30 de minute pentru a revizui împreună datele tale și a vedea unde Sundae ar putea fi cu adevărat util.",
@@ -3312,7 +3312,7 @@ export const generatedLocalCopy = {
         {
           "title": "Inteligență Primul",
           "description": "Datele dispersate sunt costisitoare. Transformăm 12 sisteme într-un singur strat inteligent care ia cu adevărat decizii.",
-          "proof": "Peste 30 de module în 12 domenii operaționale - de la venituri la rezervări.",
+          "proof": "12 module în 12 domenii operaționale - de la venituri la rezervări.",
           "icon": "insights"
         },
         {
@@ -3359,7 +3359,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "6",
-          "label": "Plattformssäkerheter"
+          "label": "Plattformspelare"
         },
         {
           "value": "12",
@@ -3400,7 +3400,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Företaget växte fram ur operatörers smärta och blev sedan en plattform som används på flera marknader.",
       "valuesTitle": "Vad vi står för",
       "valuesDescription": "Principer som formar produktbeslut och syns i hur vi bygger.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Var Sundae finns",
       "presenceDescription": "Aktiv i Mellanöstern och Nordamerika. Expanderar till stora globala hotellmarknader.",
       "ctaTitle": "Se hur enhetlig intelligens ser ut",
       "ctaDescription": "30 minuter för att granska dina data tillsammans och se hur Sundae verkligen kan vara till nytta.",
@@ -3509,7 +3509,7 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligens Först",
           "description": "Spridd data är dyrt. Vi omvandlar 12 system till ett intelligent lager som faktiskt driver beslut.",
-          "proof": "Över 30 moduler inom 12 operativa områden - från intäkter till bokningar.",
+          "proof": "12 moduler inom 12 operativa områden - från intäkter till bokningar.",
           "icon": "insights"
         },
         {
@@ -3549,9 +3549,9 @@ export const generatedLocalCopy = {
       ]
     },
     "bn": {
-      "metadataTitle": "About Sundae - The Decision Intelligence Platform for Restaurants",
+      "metadataTitle": "Sundae সম্পর্কে - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
       "metadataDescription": "Sundae 12+ ডেটা সোর্সকে একক বুদ্ধিমত্তা স্তরে একত্রিত করে বহু ইউনিট রেস্তোরাঁ গ্রুপের জন্য। যারা সমস্যাটি অনুভব করেছেন তাদের দ্বারা নির্মিত। ৩টি দেশে সক্রিয়।",
-      "badge": "About Sundae",
+      "badge": "Sundae সম্পর্কে",
       "description": "রেস্টুরেন্টের তথ্য সাধারণত এক ডজন বিচ্ছিন্ন সিস্টেমে থাকে। Sundae সেই কার্যকরী চিত্রটিকে এক জায়গায় নিয়ে আসে যাতে দলগুলি বর্তমান সংখ্যা, বাজারের প্রেক্ষাপট এবং ভবিষ্যত সংকেতের সাথে সিদ্ধান্ত নিতে পারে।",
       "stats": [
         {
@@ -3573,7 +3573,7 @@ export const generatedLocalCopy = {
       ],
       "builtTitle": "আমরা কী তৈরি করেছি",
       "builtDescription": "ছয়টি সংযুক্ত স্তর যা অপারেটরদের বাস্তব সময়ের গতি থেকে 90 দিনের পূর্বাভাসে যেতে সাহায্য করে, সিস্টেমগুলির মধ্যে ঝাঁপিয়ে না গিয়ে।",
-      "missionTitle": "Why Sundae Exists",
+      "missionTitle": "Sundae কেন রয়েছে",
       "missionDescription": "মাল্টি-ইউনিট রেস্টুরেন্ট অপারেটররা অসংখ্য বিচ্ছিন্ন সিস্টেম জুড়ে জটিল, উচ্চ-পরিমাণ ব্যবসা পরিচালনা করেন। ফলস্বরূপ: অন্তর্দৃষ্টি ভিত্তিক মিলিয়ন ডলারের সিদ্ধান্ত, মার্জিন লিকেজ যা খুব দেরিতে দেখা যায়, এবং কর্মক্ষমতার বেঞ্চমার্কিংয়ের জন্য শূন্য বাজারের প্রেক্ষাপট।",
       "missionSupport": "আমরা Sundae তৈরি করেছি কারণ আমরা সমস্যাটি অনুভব করেছি। আমাদের প্রতিষ্ঠাতা রেস্তোরাঁর ধারণাগুলিকে বার্ষিক $10M রাজস্বের বেশি বৃদ্ধি করেছিলেন এবং একই সমস্যার মুখোমুখি হচ্ছিলেন: অনেক বেশি সিস্টেম, সিদ্ধান্তের স্বচ্ছতার অভাব।",
       "missionSteps": [
@@ -3593,11 +3593,11 @@ export const generatedLocalCopy = {
       "teamTitle": "সমস্যাটি যাঁরা অনুভব করেছেন, তাঁদের দ্বারা নির্মিত",
       "teamDescription": "আমাদের দলের সদস্যদের রেস্তোরাঁ, প্রযুক্তি এবং ডেটাতে ৬০ বছরেরও বেশি অভিজ্ঞতা রয়েছে। আমরা এই সমস্যাটি পাশ থেকে অধ্যয়ন করিনি। আমরা অপারেশন পরিচালনা করেছি, ধারণাগুলি সম্প্রসারিত করেছি এবং প্রতি সপ্তাহে অপারেটরদের মুখোমুখি হওয়া একই রিপোর্টিং ফাঁকগুলির সাথে মোকাবিলা করেছি।",
       "strengthsTitle": "দলীয় শক্তি",
-      "journeyTitle": "The Sundae Journey",
+      "journeyTitle": "Sundae-এর যাত্রা",
       "journeyDescription": "এই কোম্পানিটি অপারেটরের সমস্যার কারণে গড়ে উঠেছিল, পরে এটি একাধিক বাজারে ব্যবহৃত একটি প্ল্যাটফর্মে পরিণত হয়।",
       "valuesTitle": "আমরা কী জন্য দাঁড়িয়ে আছি",
       "valuesDescription": "পণ্য সিদ্ধান্ত গঠনের নীতি এবং আমরা কিভাবে নির্মাণ করি তা প্রদর্শন করে।",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae কোথায় সক্রিয়",
       "presenceDescription": "মধ্যপ্রাচ্য এবং উত্তর আমেরিকায় সক্রিয়। প্রধান বৈশ্বিক আতিথেয়তা বাজারে সম্প্রসারণ করছে।",
       "ctaTitle": "একত্রিত বুদ্ধিমত্তা কেমন দেখায় তা দেখুন",
       "ctaDescription": "আপনার ডেটা একসাথে পর্যালোচনা করতে এবং দেখতে ৩০ মিনিট সময় নিন যে Sundae কোথায় সত্যিই উপকারী হতে পারে।",
@@ -3615,7 +3615,7 @@ export const generatedLocalCopy = {
         "রিয়েল-টাইম অপারেশন",
         "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
         "বাজার বুদ্ধিমত্তা",
-        "৩০+ বিশ্লেষণ মডিউল",
+        "১২টি বিশ্লেষণ মডিউল",
         "কনভারসেশনাল এআই",
         "পূর্বাভাসমূলক বুদ্ধিমত্তা"
       ],
@@ -3672,7 +3672,7 @@ export const generatedLocalCopy = {
       "milestones": [
         {
           "year": "2025",
-          "title": "Sundae Founded",
+          "title": "Sundae প্রতিষ্ঠিত",
           "description": "সরাসরি অপারেটরের সমস্যার ভিত্তিতে তৈরি - খণ্ডিত তথ্য যা বহু ইউনিট গ্রুপের জন্য অদৃশ্য মার্জিন ক্ষতির কারণে মিলিয়ন ডলার খরচ করে।"
         },
         {
@@ -3706,13 +3706,13 @@ export const generatedLocalCopy = {
         {
           "title": "বুদ্ধিমত্তার প্রথম",
           "description": "বিক্ষিপ্ত তথ্য ব্যয়বহুল। আমরা ১২টি সিস্টেমকে একটি বুদ্ধিমান স্তরে পরিণত করি যা সত্যিই সিদ্ধান্ত গ্রহণে সহায়তা করে।",
-          "proof": "রাজস্ব থেকে রিজার্ভেশন পর্যন্ত ১২টি অপারেশনাল ডোমেইনে ৩০+ মডিউল।",
+          "proof": "রাজস্ব থেকে রিজার্ভেশন পর্যন্ত ১২টি অপারেশনাল ডোমেইনে ১২টি মডিউল।",
           "icon": "insights"
         },
         {
           "title": "রিয়েল-টাইম সিদ্ধান্ত",
           "description": "সাপ্তাহিক রিপোর্ট আপনাকে অর্থ ব্যয় করে। যারা জিতেন তারা হলেন সেই অপারেটররা যারা সমস্যাগুলি দেখতে পান যখন তারা এখনও সেগুলি সমাধান করতে পারেন।",
-          "proof": "Pulse refreshes every 5 minutes across every location.",
+          "proof": "প্রতিটি লোকেশনে Pulse প্রতি ৫ মিনিটে রিফ্রেশ হয়।",
           "icon": "speed"
         },
         {
@@ -3794,7 +3794,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "บริษัทเกิดจากความเจ็บปวดของผู้ดำเนินการ ก่อนที่จะพัฒนาเป็นแพลตฟอร์มที่ใช้ในหลายตลาด.",
       "valuesTitle": "สิ่งที่เรายืนหยัด",
       "valuesDescription": "หลักการที่กำหนดการตัดสินใจเกี่ยวกับผลิตภัณฑ์และสะท้อนในวิธีที่เราสร้างขึ้น.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Sundae ให้บริการที่ใดบ้าง",
       "presenceDescription": "ทำงานในตะวันออกกลางและอเมริกาเหนือ ขยายเข้าสู่ตลาดการบริการระดับโลกที่สำคัญ",
       "ctaTitle": "ดูว่าปัญญารวมดูเป็นอย่างไร",
       "ctaDescription": "30 นาทีในการตรวจสอบข้อมูลของคุณร่วมกันและดูว่า Sundae จะมีประโยชน์จริง ๆ ได้อย่างไร.",
@@ -3903,7 +3903,7 @@ export const generatedLocalCopy = {
         {
           "title": "ปัญญาเป็นอันดับแรก",
           "description": "ข้อมูลที่กระจัดกระจายมีค่าใช้จ่ายสูง เราเปลี่ยน 12 ระบบให้เป็นชั้นข้อมูลอัจฉริยะชั้นเดียวที่ขับเคลื่อนการตัดสินใจได้จริง",
-          "proof": "โมดูลกว่า 30 ตัวใน 12 ด้านการดำเนินงาน - ตั้งแต่รายได้ไปจนถึงการจอง",
+          "proof": "12 โมดูลใน 12 ด้านการดำเนินงาน - ตั้งแต่รายได้ไปจนถึงการจอง",
           "icon": "insights"
         },
         {
@@ -3914,7 +3914,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ยกระดับมาตรฐาน",
-          "description": "เราต้องการให้ทีมร้านอาหารคาดหวังมากกว่าจากข้อมูลของพวกเขา มากกว่าดashboard แบบคงที่อีกอันหนึ่ง",
+          "description": "เราต้องการให้ทีมร้านอาหารคาดหวังจากชุดข้อมูลของพวกเขามากกว่าแดชบอร์ดแบบคงที่อีกอันหนึ่ง",
           "proof": "ดำเนินการใน 3 ประเทศโดยกลุ่มองค์กรที่นำแพลตฟอร์มไปใช้ทั่วทั้งองค์กร",
           "icon": "growth"
         }
@@ -3991,7 +3991,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Syarikat ini berkembang daripada kesakitan pengendali, kemudian menjadi platform yang digunakan di pelbagai pasaran.",
       "valuesTitle": "Apa Yang Kami Perjuangkan",
       "valuesDescription": "Prinsip yang membentuk keputusan produk dan ditunjukkan dalam cara kami membangunnya.",
-      "presenceTitle": "Where Sundae shows up",
+      "presenceTitle": "Di mana Sundae beroperasi",
       "presenceDescription": "Aktif di Timur Tengah dan Amerika Utara. Mengembangkan ke pasaran hospitaliti global yang utama.",
       "ctaTitle": "Lihat Apa Itu Kecerdasan Terpadu",
       "ctaDescription": "30 minit untuk menyemak data anda bersama dan melihat di mana Sundae boleh menjadi berguna.",
@@ -4093,7 +4093,7 @@ export const generatedLocalCopy = {
       "values": [
         {
           "title": "Pengendali Pertama",
-          "description": "Setiap ciri wujud kerana pengendali memerlukannya. Kami tidak membina untuk demo - kami membina untuk syifts.",
+          "description": "Setiap ciri wujud kerana pengendali memerlukannya. Kami tidak membina untuk demo - kami membina untuk syif kerja.",
           "proof": "Dibina oleh pasukan yang mengembangkan restoran hingga $10M+ sebelum menulis satu baris kod.",
           "icon": "owners"
         },
@@ -4112,7 +4112,7 @@ export const generatedLocalCopy = {
         {
           "title": "Tingkatkan Standard",
           "description": "Kami mahu pasukan restoran mengharapkan lebih daripada tumpukan data mereka daripada papan pemuka statik yang lain.",
-          "proof": "Aktif di 3 negara dengan kumpulan perusahaan yang mengadopsi secara platform.",
+          "proof": "Aktif di 3 negara dengan kumpulan perusahaan yang mengadopsi di seluruh platform.",
           "icon": "growth"
         }
       ],

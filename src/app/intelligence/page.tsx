@@ -426,7 +426,7 @@ export default function ChatWithDataPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {ui.commandFeatures.map((feature) => (
               <StaggerItem key={feature.title} className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center">
+                <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#F4A259] to-[#C2410C] rounded-lg flex items-center justify-center">
                   <SundaeIcon name={feature.icon as SundaeIconName} size="md" className="text-white" />
                 </div>
                 <div>

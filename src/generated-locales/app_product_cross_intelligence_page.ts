@@ -3376,7 +3376,7 @@ export const generatedLocalCopy = {
           "الكشف الآلي عن استجابات الإيرادات المتأخرة"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "قاعدة"
       },
       {
@@ -3390,7 +3390,7 @@ export const generatedLocalCopy = {
           "مطابقة النمط التاريخي للأسباب المتكررة"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "قاعدة"
       },
       {
@@ -3405,7 +3405,7 @@ export const generatedLocalCopy = {
           "قواعد وحدود الارتباط المخصصة"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "الموالية"
       },
       {
@@ -3419,7 +3419,7 @@ export const generatedLocalCopy = {
           "اتجاهات الإسناد من فترة إلى أخرى"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "الموالية"
       },
       {
@@ -3492,7 +3492,7 @@ export const generatedLocalCopy = {
           "Detección automatizada de respuestas de ingresos retrasadas"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "base"
       },
       {
@@ -3506,7 +3506,7 @@ export const generatedLocalCopy = {
           "Coincidencia de patrones históricos para causas recurrentes"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "base"
       },
       {
@@ -3521,7 +3521,7 @@ export const generatedLocalCopy = {
           "Reglas y umbrales de correlación personalizados"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "profesional"
       },
       {
@@ -3535,7 +3535,7 @@ export const generatedLocalCopy = {
           "Tendencias de atribución de un período a otro"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "profesional"
       },
       {
@@ -3608,7 +3608,7 @@ export const generatedLocalCopy = {
           "Détection automatisée des réponses retardées en matière de revenus"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "base"
       },
       {
@@ -3622,7 +3622,7 @@ export const generatedLocalCopy = {
           "Correspondance de modèles historiques pour des causes récurrentes"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "base"
       },
       {
@@ -3637,7 +3637,7 @@ export const generatedLocalCopy = {
           "Règles et seuils de corrélation personnalisés"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -3651,7 +3651,7 @@ export const generatedLocalCopy = {
           "Tendances d'attribution d'une période à l'autre"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -3724,7 +3724,7 @@ export const generatedLocalCopy = {
           "Geautomatiseerde detectie van vertraagde inkomstenreacties"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "basis"
       },
       {
@@ -3738,7 +3738,7 @@ export const generatedLocalCopy = {
           "Historische patroonmatching voor terugkerende oorzaken"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "basis"
       },
       {
@@ -3753,7 +3753,7 @@ export const generatedLocalCopy = {
           "Aangepaste correlatieregels en drempels"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -3767,7 +3767,7 @@ export const generatedLocalCopy = {
           "Toeschrijvingstrends van periode tot periode"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -3840,7 +3840,7 @@ export const generatedLocalCopy = {
           "Detecção automatizada de respostas de receita atrasadas"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "básico"
       },
       {
@@ -3854,7 +3854,7 @@ export const generatedLocalCopy = {
           "Correspondência de padrões históricos para causas recorrentes"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "básico"
       },
       {
@@ -3869,7 +3869,7 @@ export const generatedLocalCopy = {
           "Regras e limites de correlação customizados"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "profissional"
       },
       {
@@ -3883,7 +3883,7 @@ export const generatedLocalCopy = {
           "Tendências de atribuição período a período"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "profissional"
       },
       {
@@ -3956,7 +3956,7 @@ export const generatedLocalCopy = {
           "Automatische Erkennung verspäteter Umsatzantworten"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "Basis"
       },
       {
@@ -3970,7 +3970,7 @@ export const generatedLocalCopy = {
           "Historischer Musterabgleich für wiederkehrende Ursachen"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "Basis"
       },
       {
@@ -3985,7 +3985,7 @@ export const generatedLocalCopy = {
           "Benutzerdefinierte Korrelationsregeln und Schwellenwerte"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "Profi"
       },
       {
@@ -3999,7 +3999,7 @@ export const generatedLocalCopy = {
           "Attributionstrends im Zeitverlauf"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "Profi"
       },
       {
@@ -4072,7 +4072,7 @@ export const generatedLocalCopy = {
           "تاخیری ریونیو کے جوابات کا خودکار پتہ لگانا"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "بنیاد"
       },
       {
@@ -4086,7 +4086,7 @@ export const generatedLocalCopy = {
           "بار بار آنے والی وجوہات کے لیے تاریخی پیٹرن کا ملاپ"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "بنیاد"
       },
       {
@@ -4101,7 +4101,7 @@ export const generatedLocalCopy = {
           "حسب ضرورت ارتباط کے اصول اور حد"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "پرو"
       },
       {
@@ -4115,7 +4115,7 @@ export const generatedLocalCopy = {
           "مدت سے زیادہ مدت کے انتساب کے رجحانات"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "پرو"
       },
       {
@@ -4188,7 +4188,7 @@ export const generatedLocalCopy = {
           "Rilevamento automatico delle risposte ritardate sulle entrate"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "base"
       },
       {
@@ -4202,7 +4202,7 @@ export const generatedLocalCopy = {
           "Corrispondenza di modelli storici per cause ricorrenti"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "base"
       },
       {
@@ -4217,7 +4217,7 @@ export const generatedLocalCopy = {
           "Regole e soglie di correlazione personalizzate"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -4231,7 +4231,7 @@ export const generatedLocalCopy = {
           "Tendenze di attribuzione periodo per periodo"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -4304,7 +4304,7 @@ export const generatedLocalCopy = {
           "विलंबित राजस्व प्रतिक्रियाओं का स्वचालित पता लगाना"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "आधार"
       },
       {
@@ -4318,7 +4318,7 @@ export const generatedLocalCopy = {
           "आवर्ती कारणों से मेल खाने वाला ऐतिहासिक पैटर्न"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "आधार"
       },
       {
@@ -4333,7 +4333,7 @@ export const generatedLocalCopy = {
           "कस्टम सहसंबंध नियम और सीमाएँ"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "प्रो"
       },
       {
@@ -4347,7 +4347,7 @@ export const generatedLocalCopy = {
           "समय-समय पर एट्रिब्यूशन रुझान"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "प्रो"
       },
       {
@@ -4420,7 +4420,7 @@ export const generatedLocalCopy = {
           "Geciken gelir yanıtlarının otomatik tespiti"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "baz"
       },
       {
@@ -4434,7 +4434,7 @@ export const generatedLocalCopy = {
           "Yinelenen nedenler için tarihsel model eşleştirmesi"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "baz"
       },
       {
@@ -4449,7 +4449,7 @@ export const generatedLocalCopy = {
           "Özel korelasyon kuralları ve eşikler"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "profesyonel"
       },
       {
@@ -4463,7 +4463,7 @@ export const generatedLocalCopy = {
           "Dönemden döneme ilişkilendirme eğilimleri"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "profesyonel"
       },
       {
@@ -4536,7 +4536,7 @@ export const generatedLocalCopy = {
           "自动检测延迟的收入响应"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "基地"
       },
       {
@@ -4550,7 +4550,7 @@ export const generatedLocalCopy = {
           "重复原因的历史模式匹配"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "基地"
       },
       {
@@ -4565,7 +4565,7 @@ export const generatedLocalCopy = {
           "自定义关联规则和阈值"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "亲"
       },
       {
@@ -4579,7 +4579,7 @@ export const generatedLocalCopy = {
           "不同时期归因趋势"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "亲"
       },
       {
@@ -4652,7 +4652,7 @@ export const generatedLocalCopy = {
           "Automatyczne wykrywanie opóźnionych reakcji na przychody"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "baza"
       },
       {
@@ -4666,7 +4666,7 @@ export const generatedLocalCopy = {
           "Dopasowanie wzorców historycznych dla powtarzających się przyczyn"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "baza"
       },
       {
@@ -4681,7 +4681,7 @@ export const generatedLocalCopy = {
           "Niestandardowe reguły i progi korelacji"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "profesjonalista"
       },
       {
@@ -4695,7 +4695,7 @@ export const generatedLocalCopy = {
           "Trendy atrybucji w poszczególnych okresach"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "profesjonalista"
       },
       {
@@ -4768,7 +4768,7 @@ export const generatedLocalCopy = {
           "지연된 수익 응답 자동 감지"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "베이스"
       },
       {
@@ -4782,7 +4782,7 @@ export const generatedLocalCopy = {
           "반복되는 원인에 대한 과거 패턴 매칭"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "베이스"
       },
       {
@@ -4797,7 +4797,7 @@ export const generatedLocalCopy = {
           "사용자 정의 상관 관계 규칙 및 임계값"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "프로"
       },
       {
@@ -4811,7 +4811,7 @@ export const generatedLocalCopy = {
           "기간별 귀인 추세"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "프로"
       },
       {
@@ -4884,7 +4884,7 @@ export const generatedLocalCopy = {
           "Tự động phát hiện phản hồi doanh thu bị trì hoãn"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "cơ sở"
       },
       {
@@ -4898,7 +4898,7 @@ export const generatedLocalCopy = {
           "Kết hợp mô hình lịch sử cho các nguyên nhân định kỳ"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "cơ sở"
       },
       {
@@ -4913,7 +4913,7 @@ export const generatedLocalCopy = {
           "Các quy tắc và ngưỡng tương quan tùy chỉnh"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "chuyên nghiệp"
       },
       {
@@ -4927,7 +4927,7 @@ export const generatedLocalCopy = {
           "Xu hướng phân bổ theo từng thời kỳ"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "chuyên nghiệp"
       },
       {
@@ -5000,7 +5000,7 @@ export const generatedLocalCopy = {
           "Deteksi otomatis atas respons pendapatan yang tertunda"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "dasar"
       },
       {
@@ -5014,7 +5014,7 @@ export const generatedLocalCopy = {
           "Pencocokan pola historis untuk penyebab yang berulang"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "dasar"
       },
       {
@@ -5029,7 +5029,7 @@ export const generatedLocalCopy = {
           "Aturan dan ambang batas korelasi khusus"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5043,7 +5043,7 @@ export const generatedLocalCopy = {
           "Tren atribusi dari periode ke periode"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -5116,7 +5116,7 @@ export const generatedLocalCopy = {
           "遅延した収益応答の自動検出"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "ベース"
       },
       {
@@ -5130,7 +5130,7 @@ export const generatedLocalCopy = {
           "再発原因に対する過去のパターンマッチング"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "ベース"
       },
       {
@@ -5145,7 +5145,7 @@ export const generatedLocalCopy = {
           "カスタム相関ルールとしきい値"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "プロ"
       },
       {
@@ -5159,7 +5159,7 @@ export const generatedLocalCopy = {
           "前期比のアトリビューションの傾向"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "プロ"
       },
       {
@@ -5232,7 +5232,7 @@ export const generatedLocalCopy = {
           "বিলম্বিত রাজস্ব প্রতিক্রিয়া স্বয়ংক্রিয় সনাক্তকরণ"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "ভিত্তি"
       },
       {
@@ -5246,7 +5246,7 @@ export const generatedLocalCopy = {
           "পুনরাবৃত্ত কারণগুলির জন্য ঐতিহাসিক প্যাটার্ন ম্যাচিং"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "ভিত্তি"
       },
       {
@@ -5261,7 +5261,7 @@ export const generatedLocalCopy = {
           "কাস্টম পারস্পরিক সম্পর্ক নিয়ম এবং থ্রেশহোল্ড"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "প্রো"
       },
       {
@@ -5275,7 +5275,7 @@ export const generatedLocalCopy = {
           "পিরিয়ড-ওভার-পিরিয়ড অ্যাট্রিবিউশন প্রবণতা"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "প্রো"
       },
       {
@@ -5348,7 +5348,7 @@ export const generatedLocalCopy = {
           "Automatisk upptäckt av försenade intäktssvar"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "bas"
       },
       {
@@ -5362,7 +5362,7 @@ export const generatedLocalCopy = {
           "Historisk mönstermatchning för återkommande orsaker"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "bas"
       },
       {
@@ -5377,7 +5377,7 @@ export const generatedLocalCopy = {
           "Anpassade korrelationsregler och trösklar"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5391,7 +5391,7 @@ export const generatedLocalCopy = {
           "Tillskrivningstrender för period över period"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -5464,7 +5464,7 @@ export const generatedLocalCopy = {
           "Detectarea automată a răspunsurilor întârziate pentru venituri"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "baza"
       },
       {
@@ -5478,7 +5478,7 @@ export const generatedLocalCopy = {
           "Potrivirea modelului istoric pentru cauze recurente"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "baza"
       },
       {
@@ -5493,7 +5493,7 @@ export const generatedLocalCopy = {
           "Reguli și praguri personalizate de corelare"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5507,7 +5507,7 @@ export const generatedLocalCopy = {
           "Tendințele de atribuire de-a lungul perioadei"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -5580,7 +5580,7 @@ export const generatedLocalCopy = {
           "การตรวจจับการตอบสนองรายได้ที่ล่าช้าโดยอัตโนมัติ"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "ฐาน"
       },
       {
@@ -5594,7 +5594,7 @@ export const generatedLocalCopy = {
           "การจับคู่รูปแบบในอดีตสำหรับสาเหตุที่เกิดซ้ำ"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "ฐาน"
       },
       {
@@ -5609,7 +5609,7 @@ export const generatedLocalCopy = {
           "กฎและเกณฑ์ความสัมพันธ์ที่กำหนดเอง"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "โปร"
       },
       {
@@ -5623,7 +5623,7 @@ export const generatedLocalCopy = {
           "แนวโน้มการระบุแหล่งที่มาแบบช่วงต่อช่วง"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "โปร"
       },
       {
@@ -5696,7 +5696,7 @@ export const generatedLocalCopy = {
           "Pengesanan automatik bagi respons hasil tertangguh"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "asas"
       },
       {
@@ -5710,7 +5710,7 @@ export const generatedLocalCopy = {
           "Padanan corak sejarah untuk sebab berulang"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "asas"
       },
       {
@@ -5725,7 +5725,7 @@ export const generatedLocalCopy = {
           "Peraturan korelasi tersuai dan ambang"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5739,7 +5739,7 @@ export const generatedLocalCopy = {
           "Aliran atribusi tempoh atas tempoh"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {

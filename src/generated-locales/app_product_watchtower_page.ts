@@ -76,7 +76,7 @@ export const generatedLocalCopy = {
             "التكامل مع أهداف Pulse من أجل سرعة إدراك الحدث"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "السوق والاتجاهات",
@@ -158,7 +158,7 @@ export const generatedLocalCopy = {
       "heroNote": "Disponible sur les niveaux Core. Choisissez des types d’intelligence individuels ou le pack complet Watchtower.",
       "heroPrimary": "Ajouter une Watchtower",
       "heroSecondary": "Réservez une démo",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Qu'est-ce que Watchtower ?",
       "introDescription": "Votre couche d'intelligence externe : visibilité sur tout ce qui se trouve à l'extérieur de vos quatre murs et qui a un impact sur votre entreprise. Tandis que Pulse vous informe de ce qui se passe au sein de votre entreprise, Watchtower couvre le paysage concurrentiel, l'environnement local et le marché plus large.",
       "introCards": [
         {
@@ -226,7 +226,7 @@ export const generatedLocalCopy = {
             "Intégration avec les cibles Pulse pour une stimulation sensible aux événements"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Marché et tendances",
@@ -245,7 +245,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Tarifs Watchtower",
       "pricingDescription": "Disponible sur les niveaux Core. Choisissez des composants individuels ou économisez environ 18 % avec l'ensemble complet.",
       "pricingCards": [
         {
@@ -376,7 +376,7 @@ export const generatedLocalCopy = {
             "Integración con objetivos Pulse para estimulación consciente de eventos"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Mercado y tendencias",
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
             "Integration mit Pulse-Zielen für ereignisbezogene Stimulation"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Market & Trends",
@@ -545,7 +545,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower-Preise",
       "pricingDescription": "Verfügbar auf den Core-Stufen. Wählen Sie einzelne Komponenten oder sparen Sie ~18 % mit dem Komplettpaket.",
       "pricingCards": [
         {
@@ -606,9 +606,9 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Prijswijzigingen van concurrenten worden dagelijks bijgehouden. Dit weekend een concert. Volgende week begint de Ramadan. Watchtower synthetiseert externe signalen met uw interne gegevens tot een dagelijkse inlichtingenbriefing: wat er gebeurt, waarom het ertoe doet en wat u eraan kunt doen. Signalen worden automatisch omgezet in Foresight-aannames.",
       "heroNote": "Beschikbaar op Core-lagen. Kies individuele intelligentietypes of de volledige Watchtower-bundel.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Watchtower toevoegen",
       "heroSecondary": "Boek een demo",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Wat is Watchtower?",
       "introDescription": "Uw externe intelligentielaag: inzicht in alles buiten uw vier muren dat van invloed is op uw bedrijf. Terwijl Pulse u vertelt wat er binnen uw bedrijf gebeurt, behandelt Watchtower het concurrentielandschap, de lokale omgeving en de bredere markt.",
       "introCards": [
         {
@@ -676,7 +676,7 @@ export const generatedLocalCopy = {
             "Integratie met Pulse-doelen voor gebeurtenisbewuste stimulatie"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Markt & Trends",
@@ -695,7 +695,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower-prijzen",
       "pricingDescription": "Beschikbaar op Core-lagen. Kies afzonderlijke componenten of bespaar ~18% met de volledige bundel.",
       "pricingCards": [
         {
@@ -826,7 +826,7 @@ export const generatedLocalCopy = {
             "Integração com alvos Pulse para ritmo com reconhecimento de eventos"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Mercado e Tendências",
@@ -976,7 +976,7 @@ export const generatedLocalCopy = {
             "واقعہ سے آگاہی کے لیے Pulse اہداف کے ساتھ انضمام"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "مارکیٹ اور رجحانات",
@@ -1056,15 +1056,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "प्रतिस्पर्धियों के मूल्य निर्धारण परिवर्तन को प्रतिदिन ट्रैक किया जाता है। इस सप्ताह के अंत में एक संगीत कार्यक्रम। अगले सप्ताह से रमज़ान शुरू हो रहा है. Watchtower आपके आंतरिक डेटा के साथ बाहरी संकेतों को दैनिक खुफिया ब्रीफिंग में संश्लेषित करता है - क्या हो रहा है, यह क्यों मायने रखता है, और इसके बारे में क्या करना है। सिग्नल स्वचालित रूप से Foresight धारणाओं में प्रवाहित होते हैं।",
       "heroNote": "Available on Core tiers. Choose individual intelligence types or the full Watchtower bundle.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Watchtower जोड़ें",
       "heroSecondary": "एक डेमो बुक करें",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower क्या है?",
       "introDescription": "आपकी बाहरी खुफिया परत - आपकी चार दीवारों के बाहर की हर चीज़ की दृश्यता जो आपके व्यवसाय को प्रभावित करती है। जबकि Pulse आपको बताता है कि आपके ऑपरेशन के अंदर क्या हो रहा है, Watchtower प्रतिस्पर्धी परिदृश्य, स्थानीय वातावरण और व्यापक बाजार को कवर करता है।",
       "introCards": [
         {
           "icon": "visibility",
           "title": "बाहरी खुफिया",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "अधिकांश प्लेटफ़ॉर्म आपको केवल आपका डेटा दिखाते हैं। Watchtower आपको पूरा बाज़ार दिखाता है।"
         },
         {
           "icon": "speed",
@@ -1126,7 +1126,7 @@ export const generatedLocalCopy = {
             "घटना-जागरूक गति के लिए Pulse लक्ष्यों के साथ एकीकरण"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "बाज़ार और रुझान",
@@ -1145,7 +1145,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower मूल्य निर्धारण",
       "pricingDescription": "कोर टियर पर उपलब्ध है। अलग-अलग घटक चुनें या पूरे बंडल के साथ ~18% बचाएं।",
       "pricingCards": [
         {
@@ -1184,7 +1184,7 @@ export const generatedLocalCopy = {
           "a": "परिवर्तन का पता लगाने के साथ दैनिक स्वचालित निगरानी। महत्वपूर्ण परिवर्तन (जैसे प्रमुख रेटिंग बदलाव या नए प्रतिस्पर्धी) तत्काल अलर्ट ट्रिगर करते हैं।"
         },
         {
-          "q": "Does Watchtower require Core tier?",
+          "q": "क्या Watchtower के लिए Core टियर आवश्यक है?",
           "a": "हाँ. Watchtower Core Lite, Core Pro और एंटरप्राइज़ स्तरों पर उपलब्ध है। इसके लिए वास्तविक समय डेटा अवसंरचना की आवश्यकता होती है जो कोर बाहरी संकेतों के साथ आंतरिक प्रदर्शन को संश्लेषित करने के लिए प्रदान करता है।"
         },
         {
@@ -1206,15 +1206,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Rakip fiyat değişiklikleri günlük olarak takip edilir. Bu hafta sonu konser var. Önümüzdeki hafta Ramazan başlıyor. Watchtower, harici sinyalleri dahili verilerinizle sentezleyerek günlük bir istihbarat brifingine dönüştürür: neler oluyor, neden önemli ve bu konuda ne yapılması gerekiyor. Sinyaller otomatik olarak Foresight aktarılır.",
       "heroNote": "Çekirdek katmanlarında mevcuttur. Bireysel zeka türlerini veya Watchtower paketinin tamamını seçin.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Watchtower Ekle",
       "heroSecondary": "Demo Rezervasyonu Yapın",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower nedir?",
       "introDescription": "Dış zeka katmanınız: Dört duvarınızın dışında işinizi etkileyen her şeyin görünürlüğü. Pulse size operasyonunuzda neler olup bittiğini anlatırken Watchtower rekabet ortamını, yerel ortamı ve daha geniş pazarı kapsar.",
       "introCards": [
         {
           "icon": "visibility",
           "title": "Dış İstihbarat",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "Çoğu platform yalnızca SİZİN verilerinizi gösterir. Watchtower size PAZARI gösterir."
         },
         {
           "icon": "speed",
@@ -1276,7 +1276,7 @@ export const generatedLocalCopy = {
             "Olaya duyarlı ilerleme hızı için Pulse hedefleriyle entegrasyon"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Pazar ve Trendler",
@@ -1295,7 +1295,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower Fiyatlandırması",
       "pricingDescription": "Çekirdek katmanlarında mevcuttur. Bileşenleri tek tek seçin veya tam paketle ~%18 tasarruf edin.",
       "pricingCards": [
         {
@@ -1356,9 +1356,9 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - Motore di intelligence esterna",
       "heroDescription": "Le modifiche ai prezzi della concorrenza vengono monitorate quotidianamente. Un concerto questo fine settimana. Il Ramadan inizierà la prossima settimana. La Watchtower sintetizza i segnali esterni con i tuoi dati interni in un briefing quotidiano di intelligence: cosa sta succedendo, perché è importante e cosa fare al riguardo. I segnali si riversano automaticamente nelle ipotesi di Foresight.",
       "heroNote": "Disponibile sui livelli Core. Scegli i singoli tipi di intelligence o il pacchetto completo Watchtower.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Aggiungi Watchtower",
       "heroSecondary": "Prenota una dimostrazione",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Cos'è Watchtower?",
       "introDescription": "Il tuo livello di intelligenza esterna: visibilità su tutto ciò che si trova al di fuori delle tue quattro mura e che ha un impatto sulla tua attività. Mentre Pulse ti dice cosa sta succedendo all'interno della tua attività, Watchtower copre il panorama competitivo, l'ambiente locale e il mercato più ampio.",
       "introCards": [
         {
@@ -1426,7 +1426,7 @@ export const generatedLocalCopy = {
             "Integrazione con target Pulse per la stimolazione sensibile agli eventi"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Mercato e tendenze",
@@ -1445,7 +1445,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Prezzi di Watchtower",
       "pricingDescription": "Disponibile sui livelli Core. Scegli i singoli componenti o risparmia circa il 18% con il pacchetto completo.",
       "pricingCards": [
         {
@@ -1506,15 +1506,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Zmiany cen konkurencji śledzone codziennie. Koncert już w ten weekend. Ramadan zaczyna się w przyszłym tygodniu. Watchtower łączy sygnały zewnętrzne z Twoimi danymi wewnętrznymi w codzienną odprawę wywiadowczą - co się dzieje, dlaczego jest to ważne i co z tym zrobić. Sygnały automatycznie kaskadują się do założeń Foresight.",
       "heroNote": "Dostępne na poziomach podstawowych. Wybierz indywidualne typy inteligencji lub pełny pakiet Watchtower.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Dodaj Watchtower",
       "heroSecondary": "Zarezerwuj wersję demonstracyjną",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Czym jest Watchtower?",
       "introDescription": "Twoja zewnętrzna warstwa inteligencji - wgląd we wszystko, co ma wpływ na Twój biznes poza Twoimi czterema ścianami. Podczas gdy Pulse informuje Cię, co dzieje się w Twojej firmie, Watchtower opisuje krajobraz konkurencyjny, środowisko lokalne i szerszy rynek.",
       "introCards": [
         {
           "icon": "visibility",
           "title": "Inteligencja zewnętrzna",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "Większość platform pokazuje tylko TWOJE dane. Watchtower pokazuje Ci CAŁY RYNEK."
         },
         {
           "icon": "speed",
@@ -1573,10 +1573,10 @@ export const generatedLocalCopy = {
             "Public holidays and religious observance calendar",
             "Inteligencja specyficzna dla Ramadanu (pośpiech Iftar, nabożeństwo Suhur, dostosowanie pory dnia)",
             "Oceny skutków wraz z zaleceniami dotyczącymi personelu i przygotowań",
-            "Integration with Pulse targets for event-aware pacing"
+            "Integracja z celami Pulse dla tempa uwzględniającego wydarzenia"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Rynek i trendy",
@@ -1595,7 +1595,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Cennik Watchtower",
       "pricingDescription": "Dostępne na poziomach podstawowych. Wybierz poszczególne komponenty lub zaoszczędź ~18% przy pełnym pakiecie.",
       "pricingCards": [
         {
@@ -1656,15 +1656,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower--外部情报引擎",
       "heroDescription": "每天跟踪竞争对手的定价变化。这个周末有一场音乐会。斋月下周开始。 Watchtower 将外部信号与您的内部数据合成为每日情报简报 - 正在发生什么、为什么重要以及如何应对。信号自动级联成 Foresight 假设。",
       "heroNote": "在核心层可用。 Choose individual intelligence types or the full Watchtower bundle.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "添加 Watchtower",
       "heroSecondary": "预订演示",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower 是什么？",
       "introDescription": "Your external intelligence layer - visibility into everything outside your four walls that impacts your business. Pulse 告诉您运营内部发生的情况，而 Watchtower 则涵盖竞争格局、当地环境和更广阔的市场。",
       "introCards": [
         {
           "icon": "visibility",
           "title": "外部情报",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "大多数平台只向您展示您自己的数据。Watchtower 让您看到整个市场。"
         },
         {
           "icon": "speed",
@@ -1674,7 +1674,7 @@ export const generatedLocalCopy = {
         {
           "icon": "intelligence",
           "title": "综合简报",
-          "text": "Daily intelligence briefings that combine internal performance with external signals."
+          "text": "每日情报简报，将内部绩效与外部信号结合在一起。"
         }
       ],
       "internalEyebrow": "内部+外部",
@@ -1726,7 +1726,7 @@ export const generatedLocalCopy = {
             "与 Pulse 目标集成以实现事件感知节奏"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "市场与趋势",
@@ -1745,7 +1745,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower 定价",
       "pricingDescription": "在核心层可用。选择单个组件或使用完整捆绑包可节省约 18%。",
       "pricingCards": [
         {
@@ -1784,7 +1784,7 @@ export const generatedLocalCopy = {
           "a": "通过变化检测进行日常自动监控。重大变化（例如重大评级变化或新竞争对手）会立即触发警报。"
         },
         {
-          "q": "Does Watchtower require Core tier?",
+          "q": "Watchtower 是否需要 Core 层级？",
           "a": "是的。 Watchtower 适用于 Core Lite、Core Pro 和 Enterprise 级别。它需要 Core 提供的实时数据基础设施来综合内部性能与外部信号。"
         },
         {
@@ -1806,15 +1806,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - 外部インテリジェンス エンジン",
       "heroDescription": "競合他社の価格変更は毎日追跡されます。今週末はコンサート。来週からラマダンが始まります。 Watchtower は、外部シグナルと内部データを合成して、何が起こっているのか、なぜそれが重要なのか、そしてそれに対して何をすべきなのかを毎日の情報ブリーフィングにまとめます。シグナルは自動的に Foresight の仮定にカスケードされます。",
       "heroNote": "コア層で利用可能です。個別のインテリジェンス タイプまたは完全な Watchtower バンドルを選択します。",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Watchtower を追加",
       "heroSecondary": "デモを予約する",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower とは？",
       "introDescription": "外部インテリジェンス層 - ビジネスに影響を与える四方の壁の外側のあらゆるものを可視化します。 Pulse が事業内部で何が起こっているかを伝えるのに対し、Watchtower は競争環境、ローカル環境、より広範な市場をカバーします。",
       "introCards": [
         {
           "icon": "visibility",
           "title": "外部インテリジェンス",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "ほとんどのプラットフォームは自社のデータしか見せてくれません。Watchtower は市場全体を見せてくれます。"
         },
         {
           "icon": "speed",
@@ -1876,7 +1876,7 @@ export const generatedLocalCopy = {
             "イベント対応ペーシングのための Pulse ターゲットとの統合"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "市場とトレンド",
@@ -1895,7 +1895,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower の料金",
       "pricingDescription": "コア層で利用可能です。個別のコンポーネントを選択するか、フルバンドルで最大 18% 割引します。",
       "pricingCards": [
         {
@@ -1956,9 +1956,9 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "경쟁사 가격 변동은 매일 추적됩니다. 이번 주말에 콘서트가 있어요. 다음주부터 라마단이 시작됩니다. Watchtower는 외부 신호와 내부 데이터를 종합하여 무슨 일이 일어나고 있는지, 그것이 왜 중요한지, 이에 대해 무엇을 해야 하는지에 대한 일일 정보 브리핑을 제공합니다. 신호는 Foresight 가정에 자동으로 적용됩니다.",
       "heroNote": "코어 계층에서 사용할 수 있습니다. 개별 정보 유형 또는 전체 Watchtower 번들을 선택하십시오.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Watchtower 추가",
       "heroSecondary": "데모 예약",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower란 무엇인가요?",
       "introDescription": "외부 인텔리전스 계층 - 비즈니스에 영향을 미치는 외부의 모든 것에 대한 가시성을 제공합니다. Pulse가 귀하의 사업장 내부에서 일어나는 일을 알려주는 반면 Watchtower는 경쟁 환경, 현지 환경 및 더 넓은 시장을 다룹니다.",
       "introCards": [
         {
@@ -2026,7 +2026,7 @@ export const generatedLocalCopy = {
             "이벤트 인식 속도를 위한 Pulse 목표와의 통합"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "시장 및 동향",
@@ -2045,7 +2045,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower 요금제",
       "pricingDescription": "코어 계층에서 사용할 수 있습니다. 개별 구성 요소를 선택하거나 전체 번들로 최대 18%를 절약하세요.",
       "pricingCards": [
         {
@@ -2106,15 +2106,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Perubahan harga pesaing dilacak setiap hari. Konser akhir pekan ini. Ramadhan dimulai minggu depan. Watchtower menyatukan sinyal eksternal dengan data internal Anda ke dalam pengarahan intelijen harian - apa yang terjadi, mengapa hal itu penting, dan apa yang harus dilakukan untuk mengatasinya. Sinyal secara otomatis mengalir ke asumsi Foresight.",
       "heroNote": "Tersedia di tingkat Inti. Pilih jenis kecerdasan individu atau paket lengkap Watchtower.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Tambahkan Watchtower",
       "heroSecondary": "Pesan Demo",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Apa itu Watchtower?",
       "introDescription": "Lapisan intelijen eksternal Anda - visibilitas terhadap segala sesuatu di luar empat dinding Anda yang berdampak pada bisnis Anda. Meskipun Pulse memberi tahu Anda apa yang terjadi dalam operasi Anda, Watchtower mencakup lanskap persaingan, lingkungan lokal, dan pasar yang lebih luas.",
       "introCards": [
         {
           "icon": "visibility",
           "title": "Intelijen Eksternal",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "Sebagian besar platform hanya menampilkan data ANDA. Watchtower menunjukkan kepada Anda PASARNYA."
         },
         {
           "icon": "speed",
@@ -2176,7 +2176,7 @@ export const generatedLocalCopy = {
             "Integrasi dengan target Pulse untuk kecepatan yang sadar akan peristiwa"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Pasar & Tren",
@@ -2195,7 +2195,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Harga Watchtower",
       "pricingDescription": "Tersedia di tingkat Inti. Pilih masing-masing komponen atau hemat ~18% dengan paket lengkap.",
       "pricingCards": [
         {
@@ -2234,7 +2234,7 @@ export const generatedLocalCopy = {
           "a": "Pemantauan otomatis harian dengan deteksi perubahan. Perubahan penting (seperti perubahan peringkat besar atau pesaing baru) segera memicu peringatan."
         },
         {
-          "q": "Does Watchtower require Core tier?",
+          "q": "Apakah Watchtower memerlukan tingkat Core?",
           "a": "Ya. Watchtower tersedia pada tingkat Core Lite, Core Pro, dan Enterprise. Hal ini memerlukan infrastruktur data real-time yang disediakan Core untuk mensintesis kinerja internal dengan sinyal eksternal."
         },
         {
@@ -2256,7 +2256,7 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Modificările prețurilor concurenței sunt urmărite zilnic. Un concert în acest weekend. Ramadanul începe săptămâna viitoare. Watchtower sintetizează semnalele externe cu datele tale interne într-un briefing zilnic de informații - ce se întâmplă, de ce contează și ce să faci în acest sens. Semnalele se încadrează automat în ipoteze de Foresight.",
       "heroNote": "Disponibil pe nivelurile de bază. Alegeți tipuri individuale de informații sau pachetul complet Watchtower.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Adăugați Watchtower",
       "heroSecondary": "Rezervați o demonstrație",
       "introHeading": "Ce este Watchtower?",
       "introDescription": "Stratul dvs. de inteligență extern - vizibilitate în tot ceea ce se află în afara celor patru pereți care vă afectează afacerea. În timp ce Pulse vă spune ce se întâmplă în cadrul operațiunii dvs., Watchtower acoperă peisajul competitiv, mediul local și piața mai largă.",
@@ -2326,7 +2326,7 @@ export const generatedLocalCopy = {
             "Integrare cu ținte Pulse pentru ritmul conștient de eveniment"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Piață și tendințe",
@@ -2406,15 +2406,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Thay đổi giá của đối thủ cạnh tranh được theo dõi hàng ngày. Một buổi hòa nhạc vào cuối tuần này. Tháng Ramadan bắt đầu vào tuần tới. Watchtower tổng hợp các tín hiệu bên ngoài với dữ liệu nội bộ của bạn thành bản tóm tắt thông tin hàng ngày - điều gì đang xảy ra, tại sao nó quan trọng và phải làm gì với nó. Tín hiệu tự động chuyển thành các giả định Foresight.",
       "heroNote": "Có sẵn trên các tầng Core. Chọn loại trí thông minh riêng lẻ hoặc gói Watchtower đầy đủ.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Thêm Watchtower",
       "heroSecondary": "Đặt bản demo",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower là gì?",
       "introDescription": "Lớp thông tin bên ngoài của bạn - khả năng hiển thị mọi thứ bên ngoài bốn bức tường có tác động đến doanh nghiệp của bạn. Trong khi Pulse cho bạn biết điều gì đang diễn ra bên trong hoạt động của bạn thì Watchtower lại đề cập đến bối cảnh cạnh tranh, môi trường địa phương và thị trường rộng lớn hơn.",
       "introCards": [
         {
           "icon": "visibility",
           "title": "Trí tuệ bên ngoài",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "Hầu hết các nền tảng chỉ cho bạn thấy dữ liệu CỦA BẠN. Watchtower cho bạn thấy TOÀN BỘ THỊ TRƯỜNG."
         },
         {
           "icon": "speed",
@@ -2476,7 +2476,7 @@ export const generatedLocalCopy = {
             "Tích hợp với các mục tiêu Pulse để điều chỉnh nhịp độ nhận biết sự kiện"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Thị trường & Xu hướng",
@@ -2495,7 +2495,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Bảng giá Watchtower",
       "pricingDescription": "Có sẵn trên các tầng Core. Chọn các thành phần riêng lẻ hoặc tiết kiệm ~18% với gói đầy đủ.",
       "pricingCards": [
         {
@@ -2534,7 +2534,7 @@ export const generatedLocalCopy = {
           "a": "Giám sát tự động hàng ngày với khả năng phát hiện thay đổi. Những thay đổi quan trọng (như thay đổi lớn về xếp hạng hoặc đối thủ cạnh tranh mới) sẽ kích hoạt cảnh báo ngay lập tức."
         },
         {
-          "q": "Does Watchtower require Core tier?",
+          "q": "Watchtower có yêu cầu gói Core không?",
           "a": "Vâng. Watchtower có sẵn trên các cấp Core Lite, Core Pro và Enterprise. Nó yêu cầu cơ sở hạ tầng dữ liệu thời gian thực mà Core cung cấp để tổng hợp hiệu suất bên trong với các tín hiệu bên ngoài."
         },
         {
@@ -2558,13 +2558,13 @@ export const generatedLocalCopy = {
       "heroNote": "Tillgänglig på Core-nivåer. Välj individuella intelligenstyper eller hela Watchtower-paketet.",
       "heroPrimary": "Lägg till Watchtower",
       "heroSecondary": "Boka en demo",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Vad är Watchtower?",
       "introDescription": "Ditt externa intelligensskikt - insyn i allt utanför dina fyra väggar som påverkar ditt företag. Medan Pulse berättar vad som händer i din verksamhet, täcker Watchtower det konkurrensutsatta landskapet, den lokala miljön och den bredare marknaden.",
       "introCards": [
         {
           "icon": "visibility",
           "title": "Extern intelligens",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "De flesta plattformar visar bara DINA data. Watchtower visar dig HELA MARKNADEN."
         },
         {
           "icon": "speed",
@@ -2623,10 +2623,10 @@ export const generatedLocalCopy = {
             "Allmänna helgdagar och religiös helgdagskalender",
             "Ramadan-specifik intelligens (Iftar rush, Suhoor-tjänst, dagtidsjustering)",
             "Konsekvensanalyser med bemanning och förberedande rekommendationer",
-            "Integration with Pulse targets for event-aware pacing"
+            "Integration med Pulse-mål för händelseanpassad takt"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Marknad & Trender",
@@ -2645,7 +2645,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower-priser",
       "pricingDescription": "Tillgänglig på Core-nivåer. Välj enskilda komponenter eller spara ~18 % med hela paketet.",
       "pricingCards": [
         {
@@ -2706,15 +2706,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "প্রতিযোগী মূল্য পরিবর্তন প্রতিদিন ট্র্যাক করা হয়. এই সপ্তাহান্তে একটি কনসার্ট। আগামী সপ্তাহে শুরু হচ্ছে রমজান মাস। Watchtower আপনার অভ্যন্তরীণ ডেটা সহ বাহ্যিক সংকেতগুলিকে একটি দৈনিক গোয়েন্দা ব্রিফিং-এ সংশ্লেষিত করে - কী ঘটছে, কেন এটি গুরুত্বপূর্ণ এবং এটি সম্পর্কে কী করতে হবে৷ সংকেত স্বয়ংক্রিয়ভাবে Foresight অনুমানের মধ্যে ক্যাসকেড হয়।",
       "heroNote": "মূল স্তরে উপলব্ধ। পৃথক বুদ্ধিমত্তার ধরন বা সম্পূর্ণ Watchtower বান্ডিল বেছে নিন।",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Watchtower যোগ করুন",
       "heroSecondary": "একটি ডেমো বুক করুন",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower কী?",
       "introDescription": "আপনার বাহ্যিক বুদ্ধিমত্তা স্তর - আপনার চার দেয়ালের বাইরের সমস্ত কিছুতে দৃশ্যমানতা যা আপনার ব্যবসাকে প্রভাবিত করে। যখন Pulse আপনাকে বলে যে আপনার অপারেশনের ভিতরে কী ঘটছে, Watchtower প্রতিযোগিতামূলক ল্যান্ডস্কেপ, স্থানীয় পরিবেশ এবং বিস্তৃত বাজারকে কভার করে।",
       "introCards": [
         {
           "icon": "visibility",
           "title": "বাহ্যিক বুদ্ধিমত্তা",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "বেশিরভাগ প্ল্যাটফর্ম আপনাকে শুধু আপনার ডেটা দেখায়। Watchtower আপনাকে গোটা বাজার দেখায়।"
         },
         {
           "icon": "speed",
@@ -2773,10 +2773,10 @@ export const generatedLocalCopy = {
             "সরকারি ছুটির দিন এবং ধর্মীয় পালন ক্যালেন্ডার",
             "রমজান-নির্দিষ্ট বুদ্ধিমত্তা (ইফতারের ভিড়, সুহুর সেবা, দিনের বেলায় সমন্বয়)",
             "স্টাফিং এবং প্রস্তুতির সুপারিশ সহ প্রভাব মূল্যায়ন",
-            "Integration with Pulse targets for event-aware pacing"
+            "ইভেন্ট-সচেতন গতির জন্য Pulse লক্ষ্যমাত্রার সাথে ইন্টিগ্রেশন"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "বাজার এবং প্রবণতা",
@@ -2795,7 +2795,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Watchtower মূল্য নির্ধারণ",
       "pricingDescription": "মূল স্তরে উপলব্ধ। পৃথক উপাদান চয়ন করুন বা সম্পূর্ণ বান্ডেল সহ ~18% সংরক্ষণ করুন।",
       "pricingCards": [
         {
@@ -2834,7 +2834,7 @@ export const generatedLocalCopy = {
           "a": "পরিবর্তন সনাক্তকরণ সহ দৈনিক স্বয়ংক্রিয় পর্যবেক্ষণ। গুরুতর পরিবর্তনগুলি (যেমন বড় রেটিং শিফট বা নতুন প্রতিযোগী) অবিলম্বে সতর্কতা ট্রিগার করে।"
         },
         {
-          "q": "Does Watchtower require Core tier?",
+          "q": "Watchtower-এর জন্য কি Core টিয়ার প্রয়োজন?",
           "a": "হ্যাঁ। Watchtower Core Lite, Core Pro এবং এন্টারপ্রাইজ স্তরগুলিতে উপলব্ধ। বাহ্যিক সংকেতগুলির সাথে অভ্যন্তরীণ কর্মক্ষমতা সংশ্লেষণ করার জন্য কোর সরবরাহ করে এমন রিয়েল-টাইম ডেটা অবকাঠামোর প্রয়োজন।"
         },
         {
@@ -2856,15 +2856,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "ติดตามการเปลี่ยนแปลงราคาของคู่แข่งทุกวัน คอนเสิร์ตสุดสัปดาห์นี้ รอมฎอนเริ่มสัปดาห์หน้า Watchtowerสังเคราะห์สัญญาณภายนอกด้วยข้อมูลภายในของคุณในการสรุปข่าวกรองรายวัน - เกิดอะไรขึ้น เหตุใดจึงสำคัญ และต้องทำอย่างไร สัญญาณจะไหลเข้าสู่สมมติฐานForesightโดยอัตโนมัติ",
       "heroNote": "มีให้ใช้งานในระดับ Core เลือกประเภทสติปัญญาส่วนบุคคลหรือชุดรวมWatchtowerทั้งหมด",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "เพิ่ม Watchtower",
       "heroSecondary": "จองการสาธิต",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Watchtower คืออะไร?",
       "introDescription": "ชั้นข่าวกรองภายนอกของคุณ - มองเห็นทุกสิ่งที่อยู่นอกกำแพงทั้งสี่ของคุณที่ส่งผลกระทบต่อธุรกิจของคุณ แม้ว่า Pulse จะบอกคุณว่าเกิดอะไรขึ้นภายในการดำเนินงานของคุณ แต่ Watchtower ก็ครอบคลุมภาพรวมการแข่งขัน สภาพแวดล้อมในท้องถิ่น และตลาดที่กว้างขึ้น",
       "introCards": [
         {
           "icon": "visibility",
           "title": "หน่วยสืบราชการลับภายนอก",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "แพลตฟอร์มส่วนใหญ่แสดงเฉพาะข้อมูลของคุณเท่านั้น Watchtower แสดงให้คุณเห็นทั้งตลาด"
         },
         {
           "icon": "speed",
@@ -2926,7 +2926,7 @@ export const generatedLocalCopy = {
             "การบูรณาการกับเป้าหมาย Pulse เพื่อการเว้นจังหวะตามเหตุการณ์"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "ตลาดและแนวโน้ม",
@@ -2945,7 +2945,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "ราคา Watchtower",
       "pricingDescription": "มีให้ใช้งานในระดับ Core เลือกส่วนประกอบแต่ละชิ้นหรือประหยัด ~18% เมื่อซื้อครบชุด",
       "pricingCards": [
         {
@@ -2984,7 +2984,7 @@ export const generatedLocalCopy = {
           "a": "การตรวจสอบอัตโนมัติรายวันพร้อมการตรวจจับการเปลี่ยนแปลง การเปลี่ยนแปลงที่สำคัญ (เช่น การเปลี่ยนแปลงอันดับเครดิตที่สำคัญหรือคู่แข่งรายใหม่) จะทำให้เกิดการแจ้งเตือนทันที"
         },
         {
-          "q": "Does Watchtower require Core tier?",
+          "q": "Watchtower ต้องใช้ระดับ Core หรือไม่?",
           "a": "ใช่ Watchtower มีให้บริการบนระดับ Core Lite, Core Pro และ Enterprise ต้องใช้โครงสร้างพื้นฐานข้อมูลแบบเรียลไทม์ที่ Core จัดเตรียมไว้ให้เพื่อสังเคราะห์ประสิทธิภาพภายในด้วยสัญญาณภายนอก"
         },
         {
@@ -3006,15 +3006,15 @@ export const generatedLocalCopy = {
       "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Perubahan harga pesaing dijejaki setiap hari. Konsert hujung minggu ini. Ramadan bermula minggu hadapan. Watchtower mensintesis isyarat luaran dengan data dalaman anda ke dalam taklimat risikan harian - perkara yang berlaku, sebab ia penting dan perkara yang perlu dilakukan mengenainya. Isyarat secara automatik mengalir ke dalam andaian Foresight.",
       "heroNote": "Tersedia pada peringkat Teras. Pilih jenis kecerdasan individu atau himpunan penuh Watchtower.",
-      "heroPrimary": "Add Watchtower",
+      "heroPrimary": "Tambah Watchtower",
       "heroSecondary": "Tempah Demo",
-      "introHeading": "What is Watchtower?",
+      "introHeading": "Apakah Watchtower?",
       "introDescription": "Lapisan kecerdasan luaran anda - keterlihatan ke dalam semua perkara di luar empat dinding anda yang memberi kesan kepada perniagaan anda. Walaupun Pulse memberitahu anda apa yang berlaku dalam operasi anda, Watchtower merangkumi landskap yang kompetitif, persekitaran tempatan dan pasaran yang lebih luas.",
       "introCards": [
         {
           "icon": "visibility",
           "title": "Kecerdasan Luaran",
-          "text": "Most platforms only show you YOUR data. Watchtower shows you THE MARKET."
+          "text": "Kebanyakan platform hanya menunjukkan data ANDA. Watchtower menunjukkan kepada anda PASARAN."
         },
         {
           "icon": "speed",
@@ -3076,7 +3076,7 @@ export const generatedLocalCopy = {
             "Penyepaduan dengan sasaran Pulse untuk pacing yang sedar peristiwa"
           ],
           "icon": "growth",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Pasaran & Trend",
@@ -3095,7 +3095,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         }
       ],
-      "pricingHeading": "Watchtower Pricing",
+      "pricingHeading": "Harga Watchtower",
       "pricingDescription": "Tersedia pada peringkat Teras. Pilih komponen individu atau jimat ~18% dengan berkas penuh.",
       "pricingCards": [
         {
@@ -3134,7 +3134,7 @@ export const generatedLocalCopy = {
           "a": "Pemantauan automatik harian dengan pengesanan perubahan. Perubahan kritikal (seperti peralihan penarafan utama atau pesaing baharu) mencetuskan makluman segera."
         },
         {
-          "q": "Does Watchtower require Core tier?",
+          "q": "Adakah Watchtower memerlukan peringkat Core?",
           "a": "ya. Watchtower tersedia pada peringkat Core Lite, Core Pro dan Perusahaan. Ia memerlukan infrastruktur data masa nyata yang Core sediakan untuk mensintesis prestasi dalaman dengan isyarat luaran."
         },
         {

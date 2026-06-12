@@ -834,7 +834,7 @@ export default function ReportVsCorePage() {
               <Card variant="elevated" className="h-full border-2 border-purple-500/30">
                 <CardHeader>
                   <div className="flex items-center space-x-3 mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#F2B45C] to-[#C2410C] rounded-xl flex items-center justify-center">
                       <SundaeIcon name="speed" size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-[var(--text-primary)]">{copy.coreSummaryTitle}</CardTitle>
@@ -1046,7 +1046,7 @@ export default function ReportVsCorePage() {
                 </div>
                 <div className="text-3xl text-[var(--text-muted)]">→</div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#F2B45C] to-[#E03E48] rounded-full flex items-center justify-center mx-auto mb-2">
                     <SundaeIcon name="speed" size="xl" className="text-white" />
                   </div>
                   <p className="font-semibold text-[var(--text-primary)]">{copy.upgradeLabels.core}</p>

@@ -190,7 +190,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Overtime early warnings"
       ],
       category: "Core Operations",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "Inventory Intelligence",
@@ -205,7 +205,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Inventory turn optimization"
       ],
       category: "Core Operations",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "Purchasing Intelligence",
@@ -289,7 +289,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Delivery menu optimization"
       ],
       category: "Channel",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "Guest Experience",
@@ -303,7 +303,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Guest satisfaction scoring"
       ],
       category: "Insight",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "Guest CRM Intelligence",
@@ -331,7 +331,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Multi-module health scoring"
       ],
       category: "Platform",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ],
   ar: [
@@ -351,7 +351,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "حوّل العمالة من أكبر تكلفة إلى أصل أكثر كفاءة مع توصيات الجدولة والتنبؤ بالطلب المدعومة بالذكاء الاصطناعي.",
       capabilities: ["جداول موصى بها بالذكاء الاصطناعي", "تتبع تكلفة العمالة لحظياً", "توقع الطلب لـ 14 إلى 30 يوماً", "تحليل أداء الورديات", "إنذارات مبكرة للعمل الإضافي"],
       category: "العمليات الأساسية",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "ذكاء المخزون",
@@ -360,7 +360,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "حوّل إدارة المخزون من عبء يومي إلى نظام محسّن عبر التتبع اللحظي والتوصيات الآلية.",
       capabilities: ["تتبع الهدر لحظياً", "تعديل تلقائي لمستويات الحد", "تسعير الوصفات", "مراقبة أداء الموردين", "تحسين دوران المخزون"],
       category: "العمليات الأساسية",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "ذكاء المشتريات",
@@ -414,7 +414,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "افهم اقتصاديات التوصيل الحقيقية عبر المنصات وتتبّع العمولات وربحية القنوات وحسّن مزيج التوصيل.",
       capabilities: ["تتبع التكلفة لكل منصة", "مقارنة ربحية القنوات", "تحليل أثر العمولات", "تحسين قائمة التوصيل"],
       category: "القنوات",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "تجربة الضيف",
@@ -423,7 +423,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "اجمع آراء الضيوف من التقييمات والاستبيانات والذكر الاجتماعي في رؤية موحدة للمشاعر مع اكتشاف الاتجاهات بالذكاء الاصطناعي.",
       capabilities: ["تجميع التقييمات من مصادر متعددة", "تحليل المشاعر بالذكاء الاصطناعي", "تتبع اتجاهات الجودة", "تقييم رضا الضيوف"],
       category: "الرؤى",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "ذكاء CRM للضيوف",
@@ -441,7 +441,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "يكشف تلقائياً الارتباطات المخفية بين الوحدات النشطة مثل العمالة والإيرادات أو المخزون والهدر أو التسويق والزيارات.",
       capabilities: ["تحليل الارتباطات بين المجالات", "إظهار الرؤى تلقائياً", "كشف الإسناد والتآكل", "تقييم صحة متعدد الوحدات"],
       category: "المنصة",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ],
   fr: [
@@ -461,7 +461,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Transformez la main-d oeuvre, souvent votre plus grand cout, en un levier optimise grace aux recommandations IA.",
       capabilities: ["Plannings recommandes par IA", "Suivi du cout main-d oeuvre en temps reel", "Prevision de la demande sur 14 a 30 jours", "Analyse de performance par shift", "Alertes precoces sur les heures sup"],
       category: "Operations coeur",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "Intelligence stock",
@@ -470,7 +470,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Faites passer la gestion des stocks d'un casse-tete quotidien a un systeme optimise avec suivi temps reel et recommandations automatiques.",
       capabilities: ["Suivi du gaspillage en temps reel", "Ajustement automatique des niveaux", "Cout recette par recette", "Suivi de performance fournisseur", "Optimisation de la rotation"],
       category: "Operations coeur",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "Intelligence achats",
@@ -524,7 +524,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Comprenez l'economie reelle de la livraison selon les plateformes et optimisez votre mix.",
       capabilities: ["Suivi des couts par plateforme", "Comparaison de rentabilite des canaux", "Analyse de l'impact des commissions", "Optimisation du menu livraison"],
       category: "Canal",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "Experience client",
@@ -533,7 +533,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Agregez avis, sondages et signaux sociaux dans une vue unifiee du sentiment avec detection de tendances par IA.",
       capabilities: ["Aggregation multi-source des avis", "Analyse de sentiment par IA", "Suivi des tendances qualite", "Score de satisfaction client"],
       category: "Insight",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "Intelligence CRM client",
@@ -551,7 +551,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Fait ressortir automatiquement les correlations cachees entre modules actifs comme la main-d'oeuvre et le revenu ou le stock et le gaspillage.",
       capabilities: ["Analyse de correlation inter-domaines", "Remontee automatique des insights", "Detection d'attribution et de cannibalisation", "Score de sante multi-modules"],
       category: "Plateforme",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ],
   es: [
@@ -571,7 +571,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Convierte la mano de obra en un activo optimizado con recomendaciones de horarios y pronostico de demanda con IA.",
       capabilities: ["Horarios recomendados por IA", "Seguimiento del coste laboral en tiempo real", "Pronostico de demanda de 14 a 30 dias", "Analisis de rendimiento por turno", "Alertas tempranas de horas extra"],
       category: "Operaciones clave",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "Inteligencia de inventario",
@@ -580,7 +580,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Convierte la gestion diaria de inventario en un sistema optimizado con seguimiento en tiempo real y recomendaciones automaticas.",
       capabilities: ["Seguimiento de mermas en tiempo real", "Ajustes automaticos de niveles", "Costeo por receta", "Monitoreo de proveedores", "Optimizacion de rotacion"],
       category: "Operaciones clave",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "Inteligencia de compras",
@@ -634,7 +634,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Entiende la economia real del delivery entre plataformas y optimiza tu mezcla de canales.",
       capabilities: ["Seguimiento de costes por plataforma", "Comparacion de rentabilidad por canal", "Analisis del impacto de comisiones", "Optimizacion del menu delivery"],
       category: "Canal",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "Experiencia del cliente",
@@ -643,7 +643,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Agrupa reseñas, encuestas y señales sociales en una vista unificada del sentimiento con deteccion de tendencias por IA.",
       capabilities: ["Agregacion de reseñas multifuente", "Analisis de sentimiento con IA", "Seguimiento de calidad del servicio", "Puntuacion de satisfaccion"],
       category: "Insight",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "Inteligencia CRM de clientes",
@@ -661,7 +661,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Saca automaticamente correlaciones ocultas entre modulos activos como mano de obra e ingresos o inventario y merma.",
       capabilities: ["Analisis de correlacion entre dominios", "Deteccion automatica de insights", "Atribucion y deteccion de canibalizacion", "Puntuacion de salud multi-modulo"],
       category: "Plataforma",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ]
 };

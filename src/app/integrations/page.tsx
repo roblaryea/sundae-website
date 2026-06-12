@@ -207,7 +207,7 @@ export default function IntegrationsPage() {
 
             <StaggerItem>
               <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#F2B45C] to-[#C2410C] rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="data" size="lg" className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">{copy.publicApi}</h3>

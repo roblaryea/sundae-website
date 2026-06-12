@@ -27,7 +27,7 @@ export const generatedLocalCopy = {
           "name": "Desempenho de vendas",
           "metrics": [
             "Revenue per Square Foot",
-            "Tamanho médio do cheque",
+            "Ticket médio",
             "Contagem diária de transações",
             "Análise do horário de pico"
           ],
@@ -145,7 +145,7 @@ export const generatedLocalCopy = {
           "name": "أداء المبيعات",
           "metrics": [
             "Revenue per Square Foot",
-            "متوسط حجم الشيك",
+            "متوسط قيمة الفاتورة",
             "عدد المعاملات اليومية",
             "تحليل ساعة الذروة"
           ],
@@ -243,7 +243,7 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "Obtenga un informe de evaluación comparativa gratuito que compara el desempeño de su restaurante con los estándares de la industria. Vea exactamente dónde se encuentra y qué puede mejorar.",
       "primary": "Generar informe gratuito",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "Descubra Sundae Core",
       "compareTitle": "Vea cómo se compara",
       "compareDescription": "Compare su restaurante en categorías de rendimiento clave con empresas similares",
       "howTitle": "Cómo funciona",
@@ -263,7 +263,7 @@ export const generatedLocalCopy = {
           "name": "Rendimiento de ventas",
           "metrics": [
             "Revenue per Square Foot",
-            "Tamaño promedio del cheque",
+            "Ticket promedio",
             "Recuento diario de transacciones",
             "Análisis de horas pico"
           ],
@@ -381,7 +381,7 @@ export const generatedLocalCopy = {
           "name": "Performances commerciales",
           "metrics": [
             "Revenue per Square Foot",
-            "Taille moyenne des chèques",
+            "Ticket moyen",
             "Nombre de transactions quotidiennes",
             "Analyse des heures de pointe"
           ],
@@ -480,7 +480,7 @@ export const generatedLocalCopy = {
       "description": "Erhalten Sie einen kostenlosen Benchmarking-Bericht, der die Leistung Ihres Restaurants mit Branchenstandards vergleicht. Sehen Sie genau, wo Sie stehen und was Sie verbessern können.",
       "primary": "Erstellen Sie einen kostenlosen Bericht",
       "secondary": "Erfahren Sie mehr über Sundae Core",
-      "compareTitle": "Sehen Sie, wie Sie vergleichen",
+      "compareTitle": "Sehen Sie, wie Sie im Vergleich abschneiden",
       "compareDescription": "Vergleichen Sie Ihr Restaurant in wichtigen Leistungskategorien mit ähnlichen Unternehmen",
       "howTitle": "Wie es funktioniert",
       "howDescription": "Erhalten Sie Ihren kostenlosen Benchmarking-Bericht innerhalb von Minuten, nicht Tagen",
@@ -496,10 +496,10 @@ export const generatedLocalCopy = {
       "ctaDescription": "Schließen Sie sich Tausenden von Restaurantbetreibern an, die Sundae Report nutzen, um ihre Leistung zu verstehen. Keine Kreditkarte erforderlich, keine Verpflichtungen - nur Einblicke.",
       "benchmarkCategories": [
         {
-          "name": "Vertriebsleistung",
+          "name": "Umsatzleistung",
           "metrics": [
             "Revenue per Square Foot",
-            "Durchschnittliche Scheckgröße",
+            "Durchschnittlicher Bonwert",
             "Tägliche Transaktionsanzahl",
             "Analyse der Spitzenzeiten"
           ],
@@ -529,9 +529,9 @@ export const generatedLocalCopy = {
           "color": "bg-orange-500"
         },
         {
-          "name": "Betriebsmetriken",
+          "name": "Betriebskennzahlen",
           "metrics": [
-            "Tischdrehzeit",
+            "Tischumschlagzeit",
             "Bestellgenauigkeit",
             "Kundenzufriedenheit",
             "Servicegeschwindigkeit"
@@ -598,7 +598,7 @@ export const generatedLocalCopy = {
       "description": "Ontvang een gratis benchmarkrapport waarin u de prestaties van uw restaurant vergelijkt met branchenormen. Bekijk precies waar u staat en wat u kunt verbeteren.",
       "primary": "Genereer een gratis rapport",
       "secondary": "Meer informatie over Sundae Core",
-      "compareTitle": "Bekijk hoe u vergelijkt",
+      "compareTitle": "Zie hoe u zich verhoudt",
       "compareDescription": "Benchmark uw restaurant in de belangrijkste prestatiecategorieën met vergelijkbare bedrijven",
       "howTitle": "Hoe het werkt",
       "howDescription": "Ontvang binnen enkele minuten in plaats van dagen uw gratis benchmarkrapport",
@@ -617,8 +617,8 @@ export const generatedLocalCopy = {
           "name": "Verkoopprestaties",
           "metrics": [
             "Revenue per Square Foot",
-            "Gemiddelde chequegrootte",
-            "Dagelijkse transactietelling",
+            "Gemiddelde bonwaarde",
+            "Aantal transacties per dag",
             "Analyse van piekuren"
           ],
           "icon": "finance",
@@ -834,8 +834,8 @@ export const generatedLocalCopy = {
       "description": "Ottieni un rapporto di benchmarking gratuito che confronta le prestazioni del tuo ristorante rispetto agli standard del settore. Scopri esattamente a che punto sei e cosa migliorare.",
       "primary": "Genera report gratuito",
       "secondary": "Scopri di più sul Sundae Core",
-      "compareTitle": "Guarda come confronti",
-      "compareDescription": "Confronta il tuo ristorante in categorie di performance chiave con attività simili",
+      "compareTitle": "Scopri come ti posizioni",
+      "compareDescription": "Confronta il tuo ristorante con attività simili nelle principali categorie di performance",
       "howTitle": "Come funziona",
       "howDescription": "Ottieni il tuo report di benchmarking gratuito in pochi minuti, non in giorni",
       "howStepLabel": "Passo",
@@ -853,7 +853,7 @@ export const generatedLocalCopy = {
           "name": "Andamento delle vendite",
           "metrics": [
             "Revenue per Square Foot",
-            "Dimensione media dell'assegno",
+            "Scontrino medio",
             "Conteggio delle transazioni giornaliere",
             "Analisi delle ore di punta"
           ],
@@ -885,7 +885,7 @@ export const generatedLocalCopy = {
         {
           "name": "Metriche operative",
           "metrics": [
-            "Orario di rotazione del tavolo",
+            "Tempo di rotazione del tavolo",
             "Precisione dell'ordine",
             "Soddisfazione del cliente",
             "Velocità del servizio"
@@ -1069,7 +1069,7 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "उद्योग मानकों के विरुद्ध अपने रेस्तरां के प्रदर्शन की तुलना करने वाली एक निःशुल्क बेंचमार्किंग रिपोर्ट प्राप्त करें। ठीक से देखें कि आप कहां खड़े हैं और क्या सुधार करना है।",
       "primary": "निःशुल्क रिपोर्ट जनरेट करें",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "Sundae Core के बारे में जानें",
       "compareTitle": "देखें आप कैसे तुलना करते हैं",
       "compareDescription": "समान व्यवसायों के मुकाबले प्रमुख प्रदर्शन श्रेणियों में अपने रेस्तरां को बेंचमार्क करें",
       "howTitle": "यह कैसे काम करता है",
@@ -1187,7 +1187,7 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "获取免费的基准测试报告，将您餐厅的绩效与行业标准进行比较。准确了解您的立场以及需要改进的地方。",
       "primary": "生成免费报告",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "了解 Sundae Core",
       "compareTitle": "看看你如何比较",
       "compareDescription": "根据类似企业的关键绩效类别对您的餐厅进行基准测试",
       "howTitle": "它是如何运作的",
@@ -1207,8 +1207,8 @@ export const generatedLocalCopy = {
           "name": "销售业绩",
           "metrics": [
             "Revenue per Square Foot",
-            "平均支票尺寸",
-            "每日交易数",
+            "平均客单价",
+            "每日交易笔数",
             "高峰时段分析"
           ],
           "icon": "finance",
@@ -1265,8 +1265,8 @@ export const generatedLocalCopy = {
       "sampleInsights": [
         {
           "category": "人工成本警报",
-          "insight": "您的人工成本比同类餐厅低8%。",
-          "recommendation": "考虑优化下午 2 点至 4 点期间的员工排班。",
+          "insight": "您的人工成本比同类餐厅高出 8%。",
+          "recommendation": "建议优化下午 2 点至 4 点期间的员工排班。",
           "impact": "潜在节省：2,400 美元/月"
         },
         {
@@ -1305,9 +1305,9 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "Uzyskaj bezpłatny raport porównawczy porównujący wyniki Twojej restauracji ze standardami branżowymi. Zobacz dokładnie na czym stoisz i co poprawić.",
       "primary": "Wygeneruj bezpłatny raport",
-      "secondary": "Learn About Sundae Core",
-      "compareTitle": "Zobacz, jak się porównujesz",
-      "compareDescription": "Porównaj swoją restaurację pod względem kluczowych kategorii wyników z podobnymi firmami",
+      "secondary": "Poznaj Sundae Core",
+      "compareTitle": "Zobacz, jak wypadasz na tle innych",
+      "compareDescription": "Porównaj swoją restaurację z podobnymi firmami w kluczowych kategoriach wyników",
       "howTitle": "Jak to działa",
       "howDescription": "Uzyskaj bezpłatny raport porównawczy w ciągu kilku minut, a nie dni",
       "howStepLabel": "Krok",
@@ -1318,8 +1318,8 @@ export const generatedLocalCopy = {
       "potentialImpactLabel": "Potencjalny wpływ:",
       "whyTitle": "Dlaczego za darmo?",
       "whyDescription": "Wierzymy, że każda restauracja powinna wiedzieć, jak sobie radzi. Nasz bezpłatny raport daje przedsmak inteligencji decyzyjnej, która napędza Sundae Core.",
-      "ctaTitle": "Gotowy, aby zobaczyć swoje testy porównawcze?",
-      "ctaDescription": "Dołącz do tysięcy operatorów restauracji, którzy korzystają z raportu Sundae, aby zrozumieć swoje wyniki. Nie jest wymagana żadna karta kredytowa, żadnych zobowiązań - wystarczy wgląd. (Sundae Report)",
+      "ctaTitle": "Gotowy, aby zobaczyć swoje benchmarki?",
+      "ctaDescription": "Dołącz do tysięcy restauratorów, którzy korzystają z Sundae Report, aby zrozumieć swoje wyniki. Bez karty kredytowej, bez zobowiązań - tylko wartościowe wnioski.",
       "benchmarkCategories": [
         {
           "name": "Wyniki sprzedaży",
@@ -1422,8 +1422,8 @@ export const generatedLocalCopy = {
       "badge": "無料のレストランベンチマーク",
       "title": "Sundae Report",
       "description": "レストランのパフォーマンスを業界標準と比較するベンチマーク レポートを無料で入手できます。自分の現状と改善すべき点を正確に確認します。",
-      "primary": "無料レポートの生成",
-      "secondary": "Learn About Sundae Core",
+      "primary": "無料レポートを生成",
+      "secondary": "Sundae Core について詳しく見る",
       "compareTitle": "比較方法を確認してください",
       "compareDescription": "主要な業績カテゴリ全体でレストランを類似のビジネスと比較してベンチマークします。",
       "howTitle": "仕組み",
@@ -1443,9 +1443,9 @@ export const generatedLocalCopy = {
           "name": "販売実績",
           "metrics": [
             "Revenue per Square Foot",
-            "平均小切手サイズ",
-            "日次トランザクション数",
-            "ピーク時間の分析"
+            "平均客単価",
+            "1日あたりの取引件数",
+            "ピーク時間帯の分析"
           ],
           "icon": "finance",
           "color": "bg-green-500"
@@ -1539,9 +1539,9 @@ export const generatedLocalCopy = {
     "ko": {
       "badge": "무료 레스토랑 벤치마킹",
       "title": "Sundae Report",
-      "description": "레스토랑의 성과를 업계 표준과 비교하는 무료 벤치마킹 보고서를 받아보세요. 현재 현재 위치와 개선할 점을 정확히 확인하세요.",
+      "description": "레스토랑의 성과를 업계 표준과 비교하는 무료 벤치마킹 보고서를 받아보세요. 현재 위치와 개선할 점을 정확히 확인하세요.",
       "primary": "무료 보고서 생성",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "Sundae Core 자세히 알아보기",
       "compareTitle": "비교 방법 확인",
       "compareDescription": "유사한 비즈니스와 비교하여 주요 성과 카테고리에 걸쳐 레스토랑을 벤치마킹하세요.",
       "howTitle": "작동 방식",
@@ -1561,9 +1561,9 @@ export const generatedLocalCopy = {
           "name": "판매실적",
           "metrics": [
             "Revenue per Square Foot",
-            "평균 수표 크기",
-            "일일 거래 수",
-            "피크시간 분석"
+            "평균 객단가",
+            "일일 거래 건수",
+            "피크 시간대 분석"
           ],
           "icon": "finance",
           "color": "bg-green-500"
@@ -1659,7 +1659,7 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "Dapatkan laporan tolok ukur gratis yang membandingkan kinerja restoran Anda dengan standar industri. Lihat dengan tepat posisi Anda dan apa yang perlu ditingkatkan.",
       "primary": "Hasilkan Laporan Gratis",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "Pelajari Tentang Sundae Core",
       "compareTitle": "Lihat Bagaimana Anda Membandingkannya",
       "compareDescription": "Tolok ukur restoran Anda di seluruh kategori kinerja utama dibandingkan dengan bisnis serupa",
       "howTitle": "Cara Kerjanya",
@@ -1777,7 +1777,7 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "Nhận báo cáo điểm chuẩn miễn phí so sánh hiệu suất của nhà hàng của bạn với các tiêu chuẩn ngành. Xem chính xác vị trí của bạn và những gì cần cải thiện.",
       "primary": "Tạo báo cáo miễn phí",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "Tìm hiểu về Sundae Core",
       "compareTitle": "Xem cách bạn so sánh",
       "compareDescription": "Đánh giá nhà hàng của bạn theo các danh mục hiệu suất chính so với các doanh nghiệp tương tự",
       "howTitle": "Nó hoạt động như thế nào",
@@ -1797,7 +1797,7 @@ export const generatedLocalCopy = {
           "name": "Hiệu suất bán hàng",
           "metrics": [
             "Revenue per Square Foot",
-            "Kích thước kiểm tra trung bình",
+            "Giá trị hóa đơn trung bình",
             "Số lượng giao dịch hàng ngày",
             "Phân tích giờ cao điểm"
           ],
@@ -2013,7 +2013,7 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "শিল্পের মানগুলির সাথে আপনার রেস্তোরাঁর কর্মক্ষমতা তুলনা করে একটি বিনামূল্যের বেঞ্চমার্কিং রিপোর্ট পান৷ আপনি ঠিক কোথায় দাঁড়িয়ে আছেন এবং কী উন্নতি করবেন তা দেখুন।",
       "primary": "বিনামূল্যে রিপোর্ট তৈরি করুন",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "Sundae Core সম্পর্কে জানুন",
       "compareTitle": "আপনি কিভাবে তুলনা দেখুন",
       "compareDescription": "একই ধরনের ব্যবসার বিপরীতে আপনার রেস্তোরাঁর মূল পারফরম্যান্স বিভাগ জুড়ে বেঞ্চমার্ক করুন",
       "howTitle": "কিভাবে এটা কাজ করে",
@@ -2025,7 +2025,7 @@ export const generatedLocalCopy = {
       "recommendationLabel": "সুপারিশ:",
       "potentialImpactLabel": "সম্ভাব্য প্রভাব:",
       "whyTitle": "কেন বিনামূল্যে?",
-      "whyDescription": "আমরা বিশ্বাস করি প্রতিটি রেস্তোরাঁর বোঝা উচিত যে তারা কীভাবে পারফর্ম করছে৷ আমাদের বিনামূল্যের প্রতিবেদন আপনাকে সিদ্ধান্তের বুদ্ধিমত্তার স্বাদ দেয় যা Sundae কোরকে শক্তি দেয়। (Sundae Core)",
+      "whyDescription": "আমরা বিশ্বাস করি প্রতিটি রেস্তোরাঁর বোঝা উচিত যে তারা কেমন পারফর্ম করছে। আমাদের বিনামূল্যের প্রতিবেদন আপনাকে সেই ডিসিশন ইন্টেলিজেন্সের একটি স্বাদ দেয় যা Sundae Core-কে শক্তি জোগায়।",
       "ctaTitle": "আপনার বেঞ্চমার্ক দেখতে প্রস্তুত?",
       "ctaDescription": "হাজার হাজার রেস্টুরেন্ট অপারেটরদের সাথে যোগ দিন যারা তাদের কর্মক্ষমতা বোঝার জন্য Sundae Report ব্যবহার করে। কোন ক্রেডিট কার্ডের প্রয়োজন নেই, কোন বাধ্যবাধকতা নেই - শুধু অন্তর্দৃষ্টি।",
       "benchmarkCategories": [
@@ -2151,9 +2151,9 @@ export const generatedLocalCopy = {
           "name": "Försäljningsprestanda",
           "metrics": [
             "Revenue per Square Foot",
-            "Genomsnittlig kontrollstorlek",
+            "Genomsnittlig notastorlek",
             "Antal dagliga transaktioner",
-            "Högtidsanalys"
+            "Analys av högtrafik"
           ],
           "icon": "finance",
           "color": "bg-green-500"
@@ -2208,8 +2208,8 @@ export const generatedLocalCopy = {
       ],
       "sampleInsights": [
         {
-          "category": "Labor Cost Alert",
-          "insight": "Din arbetskostnad är 8 % över liknande restauranger.",
+          "category": "Varning för arbetskostnad",
+          "insight": "Din arbetskostnad är 8 % högre än hos liknande restauranger.",
           "recommendation": "Överväg att optimera personalens schemaläggning under 14-16.",
           "impact": "Potentiella besparingar: $2 400/månad"
         },
@@ -2367,7 +2367,7 @@ export const generatedLocalCopy = {
       "title": "Sundae Report",
       "description": "Dapatkan laporan penanda aras percuma yang membandingkan prestasi restoran anda dengan piawaian industri. Lihat dengan tepat kedudukan anda dan perkara yang perlu diperbaiki.",
       "primary": "Jana Laporan Percuma",
-      "secondary": "Learn About Sundae Core",
+      "secondary": "Ketahui Lebih Lanjut tentang Sundae Core",
       "compareTitle": "Lihat Bagaimana Anda Membandingkan",
       "compareDescription": "Tanda aras restoran anda merentas kategori prestasi utama berbanding perniagaan yang serupa",
       "howTitle": "Bagaimana Ia Berfungsi",
@@ -2379,7 +2379,7 @@ export const generatedLocalCopy = {
       "recommendationLabel": "Syor:",
       "potentialImpactLabel": "Potensi Kesan:",
       "whyTitle": "Kenapa Percuma?",
-      "whyDescription": "Kami percaya setiap restoran harus memahami prestasi mereka. Laporan percuma kami memberi anda rasa perisikan keputusan yang menguatkan Teras Sundae. (Sundae Core)",
+      "whyDescription": "Kami percaya setiap restoran harus memahami prestasi mereka. Laporan percuma kami memberi anda gambaran tentang perisikan keputusan yang menggerakkan Sundae Core.",
       "ctaTitle": "Bersedia untuk Melihat Penanda Aras Anda?",
       "ctaDescription": "Sertai beribu-ribu pengendali restoran yang menggunakan Sundae Report untuk memahami prestasi mereka. Tiada kad kredit diperlukan, tiada kewajipan - hanya cerapan.",
       "benchmarkCategories": [

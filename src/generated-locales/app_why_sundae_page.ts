@@ -24,7 +24,7 @@ export const generatedLocalCopy = {
           "title": "Modèle d'intelligence 4D",
           "description": "Ce qui s'est passé. Comment cela se compare au plan. Où vous vous situez sur le marché. Que faire ensuite. Quatre dimensions de chaque décision.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Opérations en temps réel via Pulse",
@@ -112,7 +112,7 @@ export const generatedLocalCopy = {
             "pain": "Votre point de vente le moins performant est invisible jusqu'à jeudi.",
             "description": "Tableaux de bord de portefeuille, briefings quotidiens, intelligence concurrentielle et vues de décisions stratégiques.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Équipes technologiques",
@@ -152,7 +152,7 @@ export const generatedLocalCopy = {
           "title": "Modelo de Inteligencia 4D",
           "description": "Qué sucedió. Cómo se compara con el plan. Dónde te encuentras en el mercado. Qué hacer a continuación. Cuatro dimensiones de cada decisión.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operaciones en Tiempo Real a través de Pulse",
@@ -240,7 +240,7 @@ export const generatedLocalCopy = {
             "pain": "Tu local de peor rendimiento es invisible hasta el jueves.",
             "description": "Tableros de portfolio, informes diarios, inteligencia competitiva y vistas de decisiones estratégicas.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Equipos de Tecnología",
@@ -280,7 +280,7 @@ export const generatedLocalCopy = {
           "title": "4D Inlichtingenmodel",
           "description": "Wat er is gebeurd. Hoe het zich verhoudt tot het plan. Waar je staat in de markt. Wat je nu moet doen. Vier dimensies van elke beslissing.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Realtime Operaties via Pulse",
@@ -368,7 +368,7 @@ export const generatedLocalCopy = {
             "pain": "Je slecht presterende vestiging is onzichtbaar tot donderdag.",
             "description": "Portfolio-dashboards, dagelijkse briefings, concurrentie-informatie en strategische besluitvormingsweergaven.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Technologieteams",
@@ -408,7 +408,7 @@ export const generatedLocalCopy = {
           "title": "نموذج الذكاء الرباعي الأبعاد",
           "description": "ما حدث. كيف يقارن بالخطة. أين تقف في السوق. ماذا تفعل بعد ذلك. أربعة أبعاد لكل قرار.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "العمليات في الوقت الحقيقي عبر Pulse",
@@ -496,7 +496,7 @@ export const generatedLocalCopy = {
             "pain": "أضعف منفذ لديك غير مرئي حتى يوم الخميس.",
             "description": "لوحات معلومات المحفظة، الإحاطات اليومية، ذكاء تنافسي، ووجهات نظر اتخاذ القرار الاستراتيجي.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "فرق التكنولوجيا",
@@ -536,7 +536,7 @@ export const generatedLocalCopy = {
           "title": "4D-Intelligenzmodell",
           "description": "Was passiert ist. Wie es im Vergleich zum Plan steht. Wo Sie im Markt stehen. Was als Nächstes zu tun ist. Vier Dimensionen jeder Entscheidung.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Echtzeit-Betrieb über Pulse",
@@ -624,7 +624,7 @@ export const generatedLocalCopy = {
             "pain": "Ihr schwächster Standort ist bis Donnerstag unsichtbar.",
             "description": "Portfolio-Dashboards, tägliche Briefings, Wettbewerbsintelligenz und strategische Entscheidungsansichten.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Technologie-Teams",
@@ -664,7 +664,7 @@ export const generatedLocalCopy = {
           "title": "Modelo de Inteligência 4D",
           "description": "O que aconteceu. Como se compara ao plano. Onde você está no mercado. O que fazer a seguir. Quatro dimensões de cada decisão.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operações em Tempo Real via Pulse",
@@ -752,7 +752,7 @@ export const generatedLocalCopy = {
             "pain": "Seu ponto de venda com pior desempenho é invisível até quinta-feira.",
             "description": "Painéis de controle do portfólio, briefings diários, inteligência competitiva e visões de decisões estratégicas.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Equipes de Tecnologia",
@@ -792,7 +792,7 @@ export const generatedLocalCopy = {
           "title": "4D انٹیلیجنس ماڈل",
           "description": "کیا ہوا۔ یہ منصوبے کے ساتھ کیسے موازنہ کرتا ہے۔ آپ مارکیٹ میں کہاں کھڑے ہیں۔ اگلا کیا کرنا ہے۔ ہر فیصلے کے چار ابعاد۔",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse کے ذریعے حقیقی وقت کی کارروائیاں",
@@ -880,7 +880,7 @@ export const generatedLocalCopy = {
             "pain": "آپ کا سب سے کم کارکردگی والا آؤٹ لیٹ جمعرات تک نظر نہیں آتا۔",
             "description": "پورٹ فولیو ڈیش بورڈز، روزانہ کی بریفنگ، مسابقتی ذہانت، اور اسٹریٹجک فیصلہ سازی کے مناظر۔",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "ٹیکنالوجی کی ٹیمیں",
@@ -920,7 +920,7 @@ export const generatedLocalCopy = {
           "title": "4D इंटेलिजेंस मॉडल",
           "description": "क्या हुआ। यह योजना से कैसे तुलना करता है। आप बाजार में कहाँ खड़े हैं। अगला कदम क्या है। हर निर्णय के चार आयाम।",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse के माध्यम से वास्तविक समय संचालन",
@@ -1008,7 +1008,7 @@ export const generatedLocalCopy = {
             "pain": "आपका सबसे खराब प्रदर्शन करने वाला आउटलेट गुरुवार तक अदृश्य है।",
             "description": "पोर्टफोलियो डैशबोर्ड, दैनिक ब्रीफिंग, प्रतिस्पर्धात्मक इंटेलिजेंस, और रणनीतिक निर्णय दृश्य।",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "प्रौद्योगिकी टीमें",
@@ -1048,7 +1048,7 @@ export const generatedLocalCopy = {
           "title": "Modello di Intelligenza 4D",
           "description": "Cosa è successo. Come si confronta con il piano. Dove ti trovi nel mercato. Cosa fare dopo. Quattro dimensioni di ogni decisione.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operazioni in Tempo Reale tramite Pulse",
@@ -1136,7 +1136,7 @@ export const generatedLocalCopy = {
             "pain": "Il tuo punto vendita con le peggiori performance è invisibile fino a giovedì.",
             "description": "Dashboard del portfolio, briefing giornalieri, intelligenza competitiva e viste per decisioni strategiche.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Team Tecnologici",
@@ -1176,7 +1176,7 @@ export const generatedLocalCopy = {
           "title": "4D Zeka Modeli",
           "description": "Ne oldu. Planla nasıl karşılaştırılıyor. Pazar konumunuz nedir. Sonraki adım ne olmalı. Her kararın dört boyutu.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse ile Gerçek Zamanlı Operasyonlar",
@@ -1264,7 +1264,7 @@ export const generatedLocalCopy = {
             "pain": "En kötü performans gösteren şubeniz Perşembe'ye kadar görünmez.",
             "description": "Portföy panoları, günlük brifingler, rekabetçi zeka ve stratejik karar görünümleri.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Teknoloji Ekipleri",
@@ -1304,7 +1304,7 @@ export const generatedLocalCopy = {
           "title": "4D智能模型",
           "description": "发生了什么。与计划的比较。您在市场中的位置。接下来该做什么。每个决策的四个维度。",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "通过Pulse实时运营",
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
             "pain": "您表现最差的门店在周四之前是不可见的。",
             "description": "投资组合仪表板、每日简报、竞争情报和战略决策视图。",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "技术团队",
@@ -1432,7 +1432,7 @@ export const generatedLocalCopy = {
           "title": "Model Inteligencji 4D",
           "description": "Co się wydarzyło. Jak to się ma do planu. Gdzie stoisz na rynku. Co robić dalej. Cztery wymiary każdej decyzji.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operacje w Czasie Rzeczywistym dzięki Pulse",
@@ -1520,7 +1520,7 @@ export const generatedLocalCopy = {
             "pain": "Najgorzej działający punkt jest niewidoczny do czwartku.",
             "description": "Pulpity nawigacyjne portfolio, codzienne briefingi, inteligencja konkurencyjna i widoki decyzji strategicznych.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Zespoły Technologiczne",
@@ -1560,7 +1560,7 @@ export const generatedLocalCopy = {
           "title": "4Dインテリジェンスモデル",
           "description": "何が起こったのか。計画とどう比較されるか。市場での立ち位置。次に何をすべきか。すべての決定の四つの次元。",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulseによるリアルタイムオペレーション",
@@ -1648,7 +1648,7 @@ export const generatedLocalCopy = {
             "pain": "最もパフォーマンスが悪い店舗は木曜日まで見えません。",
             "description": "ポートフォリオダッシュボード、日次ブリーフィング、競争インテリジェンス、戦略的意思決定ビュー。",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "テクノロジーチーム",
@@ -1688,7 +1688,7 @@ export const generatedLocalCopy = {
           "title": "Mô Hình Trí Tuệ 4D",
           "description": "Điều gì đã xảy ra. So sánh với kế hoạch như thế nào. Bạn đang ở đâu trên thị trường. Cần làm gì tiếp theo. Bốn chiều của mỗi quyết định.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Hoạt Động Thực Thời Qua Pulse",
@@ -1776,7 +1776,7 @@ export const generatedLocalCopy = {
             "pain": "Cửa hàng hoạt động kém nhất của bạn không thể nhìn thấy cho đến thứ Năm.",
             "description": "Bảng điều khiển danh mục, báo cáo hàng ngày, thông tin cạnh tranh, và cái nhìn quyết định chiến lược.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Đội ngũ Công nghệ",
@@ -1816,7 +1816,7 @@ export const generatedLocalCopy = {
           "title": "Model Intelijen 4D",
           "description": "Apa yang terjadi. Bagaimana perbandingannya dengan rencana. Di mana posisi Anda di pasar. Apa yang harus dilakukan selanjutnya. Empat dimensi dari setiap keputusan.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operasi Waktu Nyata melalui Pulse",
@@ -1904,7 +1904,7 @@ export const generatedLocalCopy = {
             "pain": "Outlet dengan kinerja terburuk Anda tidak terlihat sampai Kamis.",
             "description": "Dasbor portfolio, pengarahan harian, intelijen kompetitif, dan tampilan keputusan strategis.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Tim Teknologi",
@@ -1944,7 +1944,7 @@ export const generatedLocalCopy = {
           "title": "4D 인텔리전스 모델",
           "description": "무슨 일이 있었는지. 계획과의 비교. 시장에서의 위치. 다음에 무엇을 해야 하는지. 모든 결정의 네 가지 차원.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse를 통한 실시간 운영",
@@ -2032,7 +2032,7 @@ export const generatedLocalCopy = {
             "pain": "최악의 성과를 내는 매장은 목요일까지 보이지 않습니다.",
             "description": "포트폴리오 대시보드, 일일 브리핑, 경쟁 인텔리전스, 전략적 의사결정 뷰.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "기술 팀",
@@ -2072,7 +2072,7 @@ export const generatedLocalCopy = {
           "title": "Model de Inteligență 4D",
           "description": "Ce s-a întâmplat. Cum se compară cu planul. Unde te situezi pe piață. Ce să faci în continuare. Patru dimensiuni ale fiecărei decizii.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operațiuni în Timp Real prin Pulse",
@@ -2160,7 +2160,7 @@ export const generatedLocalCopy = {
             "pain": "Cel mai slab punct de vânzare este invizibil până joi.",
             "description": "Dashboard-uri de portofoliu, briefing-uri zilnice, inteligență competitivă și viziuni strategice pentru decizii.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Echipe Tehnologice",
@@ -2200,7 +2200,7 @@ export const generatedLocalCopy = {
           "title": "4D-intelligensmodell",
           "description": "Vad hände. Hur det står sig mot planen. Var du står på marknaden. Vad du ska göra härnäst. Fyra dimensioner av varje beslut.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Verksamhet i realtid via Pulse",
@@ -2288,7 +2288,7 @@ export const generatedLocalCopy = {
             "pain": "Din sämst presterande enhet är osynlig tills torsdag.",
             "description": "Portföljdashboards, dagliga sammanfattningar, konkurrensanalys och strategiska beslutsvyer.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Teknikteam",
@@ -2328,7 +2328,7 @@ export const generatedLocalCopy = {
           "title": "৪D ইন্টেলিজেন্স মডেল",
           "description": "কি ঘটেছে। এটি পরিকল্পনার সাথে কিভাবে তুলনা করে। আপনি বাজারে কোথায় দাঁড়িয়ে আছেন। পরবর্তী কি করা উচিত। প্রতিটি সিদ্ধান্তের চারটি মাত্রা।",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Real-Time Operations via Pulse",
@@ -2416,7 +2416,7 @@ export const generatedLocalCopy = {
             "pain": "আপনার সবচেয়ে খারাপ পারফর্মিং আউটলেট বৃহস্পতিবার পর্যন্ত অদৃশ্য।",
             "description": "পোর্টফোলিও ড্যাশবোর্ড, দৈনিক ব্রিফিং, প্রতিযোগিতামূলক বুদ্ধিমত্তা, এবং কৌশলগত সিদ্ধান্তের দৃশ্য।",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "প্রযুক্তি দল",
@@ -2456,7 +2456,7 @@ export const generatedLocalCopy = {
           "title": "โมเดลปัญญา 4D",
           "description": "เกิดอะไรขึ้น เปรียบเทียบกับแผนอย่างไร คุณอยู่ในตลาดที่ไหน และควรทำอะไรต่อไป สี่มิติของการตัดสินใจทุกอย่าง.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "การดำเนินงานแบบเรียลไทม์ผ่าน Pulse",
@@ -2544,7 +2544,7 @@ export const generatedLocalCopy = {
             "pain": "สาขาที่มีผลการดำเนินงานแย่ที่สุดของคุณมองไม่เห็นจนถึงวันพฤหัสบดี.",
             "description": "แดชบอร์ด Portfolio, การบรรยายประจำวัน, ข้อมูลเชิงกลยุทธ์, และมุมมองการตัดสินใจเชิงกลยุทธ์.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "ทีมเทคโนโลยี",
@@ -2584,7 +2584,7 @@ export const generatedLocalCopy = {
           "title": "Model Kecerdasan 4D",
           "description": "Apa yang berlaku. Bagaimana ia dibandingkan dengan pelan. Di mana anda berada di pasaran. Apa yang perlu dilakukan seterusnya. Empat dimensi setiap keputusan.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operasi Masa Nyata melalui Pulse",
@@ -2672,7 +2672,7 @@ export const generatedLocalCopy = {
             "pain": "Outlet yang paling tidak berprestasi anda tidak dapat dilihat sehingga Khamis.",
             "description": "Papan pemuka portfolio, taklimat harian, intelligence kompetitif, dan pandangan keputusan strategik.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Pasukan Teknologi",

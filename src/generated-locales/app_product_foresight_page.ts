@@ -65,7 +65,7 @@ export const generatedLocalCopy = {
             "التفاصيل من فترات زمنية مدتها 15 دقيقة إلى المجاميع الشهرية"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "ماذا لو منشئ السيناريو",
@@ -79,7 +79,7 @@ export const generatedLocalCopy = {
             "تحليل الحساسية مع الرسوم البيانية اعصار"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "سجل الافتراض",
@@ -106,7 +106,7 @@ export const generatedLocalCopy = {
             "الجدولة والشراء المبنية على التنبؤ"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "دقة التصحيح الذاتي",
@@ -133,7 +133,7 @@ export const generatedLocalCopy = {
             "تصدير PDF لتوزيعها على أصحاب المصلحة"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "تكامل الإشارة الخارجية",
@@ -424,7 +424,7 @@ export const generatedLocalCopy = {
             "Granularidad desde espacios de 15 minutos hasta agregados mensuales"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Generador de escenarios hipotéticos",
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
             "Análisis de sensibilidad con diagramas de tornado."
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Registro de Asunción",
@@ -465,7 +465,7 @@ export const generatedLocalCopy = {
             "Programación y compras basadas en pronósticos"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Autocorrección de precisión",
@@ -492,7 +492,7 @@ export const generatedLocalCopy = {
             "Exportación de PDF para distribución a las partes interesadas"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Integración de señal externa",
@@ -783,7 +783,7 @@ export const generatedLocalCopy = {
             "Granularidade desde slots de 15 minutos até agregados mensais"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Construtor de cenários hipotéticos",
@@ -797,7 +797,7 @@ export const generatedLocalCopy = {
             "Análise de sensibilidade com diagramas de tornado"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Registro de Suposição",
@@ -824,7 +824,7 @@ export const generatedLocalCopy = {
             "Programação e compras orientadas por previsão"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Autocorreção de precisão",
@@ -851,7 +851,7 @@ export const generatedLocalCopy = {
             "Exportação de PDF para distribuição às partes interessadas"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Integração de sinal externo",
@@ -1142,7 +1142,7 @@ export const generatedLocalCopy = {
             "Granularität von 15-Minuten-Slots bis hin zu monatlichen Aggregaten"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Was-wäre-wenn-Szenario-Builder",
@@ -1156,7 +1156,7 @@ export const generatedLocalCopy = {
             "Sensitivitätsanalyse mit Tornadodiagrammen"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Annahmeregister",
@@ -1183,7 +1183,7 @@ export const generatedLocalCopy = {
             "Prognosegesteuerte Terminplanung und Einkauf"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Genauigkeit der Selbstkorrektur",
@@ -1210,7 +1210,7 @@ export const generatedLocalCopy = {
             "PDF-Export zur Stakeholder-Verteilung"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Externe Signalintegration",
@@ -1501,7 +1501,7 @@ export const generatedLocalCopy = {
             "Granularité des créneaux de 15 minutes aux agrégats mensuels"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Générateur de scénarios de simulation",
@@ -1515,7 +1515,7 @@ export const generatedLocalCopy = {
             "Analyse de sensibilité avec des diagrammes de tornade"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Registre des hypothèses",
@@ -1542,7 +1542,7 @@ export const generatedLocalCopy = {
             "Planification et achats basés sur des prévisions"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Auto-correction de précision",
@@ -1569,7 +1569,7 @@ export const generatedLocalCopy = {
             "Exportation PDF pour la distribution aux parties prenantes"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Intégration de signaux externes",
@@ -1860,7 +1860,7 @@ export const generatedLocalCopy = {
             "Granulariteit van slots van 15 minuten tot maandelijkse aggregaten"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "What-If-scenariobouwer",
@@ -1874,7 +1874,7 @@ export const generatedLocalCopy = {
             "Gevoeligheidsanalyse met tornadodiagrammen"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Aanname Register",
@@ -1901,7 +1901,7 @@ export const generatedLocalCopy = {
             "Prognosegestuurde planning en inkoop"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Nauwkeurigheid Zelfcorrectie",
@@ -1928,7 +1928,7 @@ export const generatedLocalCopy = {
             "PDF-export voor distributie onder belanghebbenden"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Externe signaalintegratie",
@@ -2219,7 +2219,7 @@ export const generatedLocalCopy = {
             "15 منٹ کے سلاٹس سے ماہانہ مجموعوں تک گرانورٹی"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "کیا-اگر منظر نامہ بلڈر",
@@ -2233,7 +2233,7 @@ export const generatedLocalCopy = {
             "ٹورنیڈو ڈایاگرام کے ساتھ حساسیت کا تجزیہ"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "مفروضہ رجسٹری",
@@ -2260,7 +2260,7 @@ export const generatedLocalCopy = {
             "پیشن گوئی پر مبنی شیڈولنگ اور خریداری"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "درستگی خود تصحیح",
@@ -2287,7 +2287,7 @@ export const generatedLocalCopy = {
             "اسٹیک ہولڈر کی تقسیم کے لیے پی ڈی ایف ایکسپورٹ"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "بیرونی سگنل انٹیگریشن",
@@ -2578,7 +2578,7 @@ export const generatedLocalCopy = {
             "Granularità da intervalli di 15 minuti ad aggregati mensili"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Costruttore di scenari what-if",
@@ -2592,7 +2592,7 @@ export const generatedLocalCopy = {
             "Analisi di sensitività con diagrammi tornado"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Registro delle ipotesi",
@@ -2619,7 +2619,7 @@ export const generatedLocalCopy = {
             "Programmazione e acquisti basati sulle previsioni"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Autocorrezione della precisione",
@@ -2646,7 +2646,7 @@ export const generatedLocalCopy = {
             "Esportazione in PDF per la distribuzione alle parti interessate"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Integrazione del segnale esterno",
@@ -2937,7 +2937,7 @@ export const generatedLocalCopy = {
             "15 मिनट के स्लॉट से लेकर मासिक समुच्चय तक विवरणात्मकता"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "क्या-क्या परिदृश्य निर्माता",
@@ -2951,7 +2951,7 @@ export const generatedLocalCopy = {
             "बवंडर आरेखों के साथ संवेदनशीलता विश्लेषण"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "अनुमान रजिस्ट्री",
@@ -2978,7 +2978,7 @@ export const generatedLocalCopy = {
             "पूर्वानुमान-संचालित शेड्यूलिंग और खरीदारी"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "सटीकता स्व-सुधार",
@@ -3005,7 +3005,7 @@ export const generatedLocalCopy = {
             "हितधारक वितरण के लिए पीडीएफ निर्यात"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "बाहरी सिग्नल एकीकरण",
@@ -3296,7 +3296,7 @@ export const generatedLocalCopy = {
             "15 dakikalık aralıklarla aylık toplamlara kadar ayrıntı düzeyi"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Olursa Senaryo Oluşturucu",
@@ -3310,7 +3310,7 @@ export const generatedLocalCopy = {
             "Kasırga diyagramlarıyla duyarlılık analizi"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Varsayım Kaydı",
@@ -3337,7 +3337,7 @@ export const generatedLocalCopy = {
             "Tahmine dayalı planlama ve satın alma"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Doğruluk Kendini Düzeltme",
@@ -3364,7 +3364,7 @@ export const generatedLocalCopy = {
             "Paydaş dağıtımı için PDF dışa aktarımı"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Harici Sinyal Entegrasyonu",
@@ -3655,7 +3655,7 @@ export const generatedLocalCopy = {
             "粒度从 15 分钟时段到每月汇总"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "假设情景生成器",
@@ -3669,7 +3669,7 @@ export const generatedLocalCopy = {
             "使用龙卷风图进行敏感性分析"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "假设登记处",
@@ -3696,7 +3696,7 @@ export const generatedLocalCopy = {
             "预测驱动的调度和采购"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "精度自校正",
@@ -3723,7 +3723,7 @@ export const generatedLocalCopy = {
             "PDF 导出以供利益相关者分发"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "外部信号集成",
@@ -4014,7 +4014,7 @@ export const generatedLocalCopy = {
             "Szczegółowość od przedziałów 15-minutowych do agregatów miesięcznych"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Kreator scenariuszy „co by było, gdyby”.",
@@ -4028,7 +4028,7 @@ export const generatedLocalCopy = {
             "Analiza wrażliwości za pomocą diagramów tornad"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Rejestr założeń",
@@ -4055,7 +4055,7 @@ export const generatedLocalCopy = {
             "Planowanie i zakupy oparte na prognozach"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Samokorekta dokładności",
@@ -4082,7 +4082,7 @@ export const generatedLocalCopy = {
             "Eksport plików PDF do dystrybucji wśród zainteresowanych stron"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Integracja sygnału zewnętrznego",
@@ -4373,7 +4373,7 @@ export const generatedLocalCopy = {
             "15 分のスロットから月ごとの集計までの粒度"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "What-If シナリオ ビルダー",
@@ -4387,7 +4387,7 @@ export const generatedLocalCopy = {
             "トルネード図による感度分析"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "仮定レジストリ",
@@ -4414,7 +4414,7 @@ export const generatedLocalCopy = {
             "予測に基づいたスケジューリングと購入"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "精度の自己補正",
@@ -4441,7 +4441,7 @@ export const generatedLocalCopy = {
             "関係者配布用の PDF エクスポート"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "外部信号の統合",
@@ -4732,7 +4732,7 @@ export const generatedLocalCopy = {
             "Mức độ chi tiết từ các khoảng thời gian 15 phút đến tổng hợp hàng tháng"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Trình tạo kịch bản What-If",
@@ -4746,7 +4746,7 @@ export const generatedLocalCopy = {
             "Phân tích độ nhạy với sơ đồ lốc xoáy"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Sổ đăng ký giả định",
@@ -4773,7 +4773,7 @@ export const generatedLocalCopy = {
             "Lập kế hoạch và mua hàng theo dự báo"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Tự sửa lỗi chính xác",
@@ -4800,7 +4800,7 @@ export const generatedLocalCopy = {
             "Xuất PDF để phân phối cho các bên liên quan"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Tích hợp tín hiệu bên ngoài",
@@ -5091,7 +5091,7 @@ export const generatedLocalCopy = {
             "Perincian dari slot 15 menit hingga agregat bulanan"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Pembuat Skenario Bagaimana-Jika",
@@ -5105,7 +5105,7 @@ export const generatedLocalCopy = {
             "Analisis sensitivitas dengan diagram tornado"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Pendaftaran Asumsi",
@@ -5132,7 +5132,7 @@ export const generatedLocalCopy = {
             "Penjadwalan dan pembelian berdasarkan perkiraan"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Koreksi Diri Akurasi",
@@ -5159,7 +5159,7 @@ export const generatedLocalCopy = {
             "Ekspor PDF untuk distribusi pemangku kepentingan"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Integrasi Sinyal Eksternal",
@@ -5450,7 +5450,7 @@ export const generatedLocalCopy = {
             "Granularitet från 15-minutersslots till månatliga aggregat"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "What-If Scenario Builder",
@@ -5464,7 +5464,7 @@ export const generatedLocalCopy = {
             "Känslighetsanalys med tornadodiagram"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Antaganderegistret",
@@ -5491,7 +5491,7 @@ export const generatedLocalCopy = {
             "Prognosdriven schemaläggning och inköp"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Noggrannhet Självkorrigering",
@@ -5518,7 +5518,7 @@ export const generatedLocalCopy = {
             "PDF-export för spridning av intressenter"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Extern signalintegration",
@@ -5809,7 +5809,7 @@ export const generatedLocalCopy = {
             "15분 슬롯부터 월별 집계까지 세분성"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "What-If 시나리오 빌더",
@@ -5823,7 +5823,7 @@ export const generatedLocalCopy = {
             "토네이도 다이어그램을 이용한 민감도 분석"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "가정 등록",
@@ -5850,7 +5850,7 @@ export const generatedLocalCopy = {
             "예측 기반 일정 및 구매"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "정확도 자가 교정",
@@ -5877,7 +5877,7 @@ export const generatedLocalCopy = {
             "이해관계자 배포를 위한 PDF 내보내기"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "외부 신호 통합",
@@ -6168,7 +6168,7 @@ export const generatedLocalCopy = {
             "Granularitate de la intervale de 15 minute la agregate lunare"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Generatorul de scenarii ce se întâmplă",
@@ -6182,7 +6182,7 @@ export const generatedLocalCopy = {
             "Analiza de sensibilitate cu diagrame tornade"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Registrul Adormirii",
@@ -6209,7 +6209,7 @@ export const generatedLocalCopy = {
             "Programare și achiziție bazate pe prognoze"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Autocorecție de precizie",
@@ -6236,7 +6236,7 @@ export const generatedLocalCopy = {
             "Export PDF pentru distribuirea părților interesate"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Integrarea semnalului extern",
@@ -6527,7 +6527,7 @@ export const generatedLocalCopy = {
             "15-মিনিটের স্লট থেকে মাসিক সমষ্টিতে গ্রানুলারিটি"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "কি-যদি দৃশ্যকল্প নির্মাতা",
@@ -6541,7 +6541,7 @@ export const generatedLocalCopy = {
             "টর্নেডো ডায়াগ্রাম সহ সংবেদনশীলতা বিশ্লেষণ"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "অনুমান রেজিস্ট্রি",
@@ -6568,7 +6568,7 @@ export const generatedLocalCopy = {
             "পূর্বাভাস-চালিত সময়সূচী এবং ক্রয়"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "নির্ভুলতা স্ব-সংশোধন",
@@ -6595,7 +6595,7 @@ export const generatedLocalCopy = {
             "স্টেকহোল্ডার বিতরণের জন্য PDF রপ্তানি"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "এক্সটার্নাল সিগন্যাল ইন্টিগ্রেশন",
@@ -6886,7 +6886,7 @@ export const generatedLocalCopy = {
             "Kebutiran daripada slot 15 minit kepada agregat bulanan"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "Bagaimana-Jika Pembina Senario",
@@ -6900,7 +6900,7 @@ export const generatedLocalCopy = {
             "Analisis sensitiviti dengan gambar rajah puting beliung"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Pendaftaran Andaian",
@@ -6927,7 +6927,7 @@ export const generatedLocalCopy = {
             "Penjadualan dan pembelian berasaskan ramalan"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "Ketepatan Pembetulan Kendiri",
@@ -6954,7 +6954,7 @@ export const generatedLocalCopy = {
             "Eksport PDF untuk pengedaran pihak berkepentingan"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "Integrasi Isyarat Luaran",
@@ -7245,7 +7245,7 @@ export const generatedLocalCopy = {
             "รายละเอียดตั้งแต่ช่อง 15 นาทีไปจนถึงยอดรวมรายเดือน"
           ],
           "icon": "forecasting",
-          "color": "from-cyan-500 to-blue-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
           "title": "ตัวสร้างสถานการณ์แบบ What-If",
@@ -7259,7 +7259,7 @@ export const generatedLocalCopy = {
             "การวิเคราะห์ความไวด้วยแผนภาพทอร์นาโด"
           ],
           "icon": "data",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "ทะเบียนอัสสัมชัญ",
@@ -7286,7 +7286,7 @@ export const generatedLocalCopy = {
             "การจัดกำหนดการและการจัดซื้อตามการคาดการณ์"
           ],
           "icon": "architecture",
-          "color": "from-violet-500 to-purple-600"
+          "color": "from-[#F4A259] to-[#C2410C]"
         },
         {
           "title": "การแก้ไขตนเองอย่างแม่นยำ",
@@ -7313,7 +7313,7 @@ export const generatedLocalCopy = {
             "การส่งออก PDF เพื่อการกระจายผู้มีส่วนได้ส่วนเสีย"
           ],
           "icon": "intelligence",
-          "color": "from-blue-500 to-indigo-600"
+          "color": "from-[#FF7E6F] to-[#E03E48]"
         },
         {
           "title": "การรวมสัญญาณภายนอก",

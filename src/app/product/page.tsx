@@ -291,7 +291,7 @@ export default function ProductPage() {
                     <div className={index % 2 === 1 ? 'md:col-start-2' : ''}><Mockup /></div>
                     <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                       <div className="flex items-center gap-3 mb-4">
-                        <div className={`w-12 h-12 bg-gradient-to-br ${index === 0 ? 'from-red-500 to-rose-600' : index === 1 ? 'from-blue-500 to-blue-600' : index === 2 ? 'from-amber-500 to-orange-600' : index === 3 ? 'from-purple-500 to-purple-600' : index === 4 ? 'from-green-500 to-emerald-600' : 'from-cyan-500 to-blue-600'} rounded-xl flex items-center justify-center`}>
+                        <div className={`w-12 h-12 bg-gradient-to-br ${index === 0 ? 'from-red-500 to-rose-600' : index === 1 ? 'from-[#FF7E6F] to-[#FF5C4D]' : index === 2 ? 'from-amber-500 to-orange-600' : index === 3 ? 'from-[#F2B45C] to-[#C2410C]' : index === 4 ? 'from-green-500 to-emerald-600' : 'from-[#E9A24A] to-[#FF5C4D]'} rounded-xl flex items-center justify-center`}>
                           <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                         </div>
                         <div>

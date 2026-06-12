@@ -118,7 +118,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
         capabilities: ["Real-time waste tracking", "Automated par level adjustments", "Recipe-level costing", "Vendor performance monitoring", "Inventory turn optimization"],
         roi: "Typical ROI: 5-7% food cost reduction",
         bestFor: "High COGS operations with complex menus",
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         name: "Purchasing Intelligence",
@@ -151,7 +151,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
         capabilities: ["Table optimization recommendations", "AI-powered no-show prediction", "Demand forecasting (7-30 days)", "Waitlist management optimization", "Dynamic pricing suggestions"],
         roi: "Typical ROI: 10-15% covers increase",
         bestFor: "Reservation-driven restaurants and fine dining",
-        color: "from-indigo-500 to-indigo-600",
+        color: "from-[#FF6B5B] to-[#E03E48]",
       },
     ],
     faqs: [
@@ -228,10 +228,10 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     contactSales: "تواصل مع المبيعات",
     modules: [
       { name: "ذكاء العمالة", icon: "benchmarking", headline: "حسّن الجدولة، وقلل العمل الإضافي، وتنبأ بالطلب.", description: "حوّل العمالة من أكبر مصاريفك إلى أكثر أصولك تحسينًا.", capabilities: ["جداول موصى بها بالذكاء الاصطناعي", "تتبع تكلفة العمالة لحظيًا", "تنبؤ 14-30 يومًا", "تحليل أداء الورديات", "تنبيهات مبكرة للعمل الإضافي"], roi: "عائد نموذجي: خفض 8-12% في تكلفة العمالة", bestFor: "العمليات عالية الحجم ذات الجدولة المعقدة", color: "from-[#FF5C4D] to-[#E9A24A]" },
-      { name: "ذكاء المخزون", icon: "insights", headline: "تتبع الهدر، أتمتة المستويات المثلى، وخفض التكاليف.", description: "حوّل إدارة المخزون إلى نظام محسّن مع تتبع لحظي وتوصيات آلية.", capabilities: ["تتبع الهدر لحظيًا", "تعديل تلقائي للمستويات المثلى", "تكلفة على مستوى الوصفة", "مراقبة أداء الموردين", "تحسين دوران المخزون"], roi: "عائد نموذجي: خفض 5-7% في تكلفة الغذاء", bestFor: "عمليات عالية التكلفة وقوائم معقدة", color: "from-purple-500 to-purple-600" },
+      { name: "ذكاء المخزون", icon: "insights", headline: "تتبع الهدر، أتمتة المستويات المثلى، وخفض التكاليف.", description: "حوّل إدارة المخزون إلى نظام محسّن مع تتبع لحظي وتوصيات آلية.", capabilities: ["تتبع الهدر لحظيًا", "تعديل تلقائي للمستويات المثلى", "تكلفة على مستوى الوصفة", "مراقبة أداء الموردين", "تحسين دوران المخزون"], roi: "عائد نموذجي: خفض 5-7% في تكلفة الغذاء", bestFor: "عمليات عالية التكلفة وقوائم معقدة", color: "from-[#F2B45C] to-[#C2410C]" },
       { name: "ذكاء المشتريات", icon: "marketing", headline: "قارن الموردين، حسّن الأسعار، وأدر العقود.", description: "حوّل الشراء من طلب تفاعلي إلى توريد استراتيجي.", capabilities: ["مقارنة أسعار متعددة الموردين", "تتبع الأسعار التاريخية", "إدارة شروط العقود", "إنشاء أوامر شراء آليًا", "رؤية سلسلة الإمداد"], roi: "عائد نموذجي: خفض 3-5% في تكاليف الشراء", bestFor: "المجموعات متعددة المواقع ذات قوة الشراء", color: "from-green-500 to-green-600" },
       { name: "أداء التسويق", icon: "growth", headline: "تتبع عائد الحملات، حسّن الإنفاق، وافهم الإسناد.", description: "حوّل التسويق إلى محرك نمو قابل للقياس.", capabilities: ["تتبع عائد الحملات", "إسناد متعدد اللمسات", "تحليل تكلفة الاكتساب", "فعالية العروض الترويجية", "تقسيم الضيوف"], roi: "عائد نموذجي: تحسن 15-25% في كفاءة التسويق", bestFor: "العلامات التي تعتمد على التسويق متعدد القنوات", color: "from-orange-500 to-orange-600" },
-      { name: "ذكاء الحجوزات", icon: "operators", headline: "حسّن الطاولات، تنبأ بعدم الحضور، وتنبأ بالطلب.", description: "حوّل الحجوزات إلى أداة لتحسين الإيرادات.", capabilities: ["توصيات تحسين الطاولات", "تنبؤ بعدم الحضور بالذكاء الاصطناعي", "تنبؤ بالطلب 7-30 يومًا", "تحسين إدارة الانتظار", "اقتراحات تسعير ديناميكية"], roi: "عائد نموذجي: زيادة 10-15% في إشغال الطاولات", bestFor: "المطاعم التي تعتمد على الحجوزات والمطاعم الراقية", color: "from-indigo-500 to-indigo-600" },
+      { name: "ذكاء الحجوزات", icon: "operators", headline: "حسّن الطاولات، تنبأ بعدم الحضور، وتنبأ بالطلب.", description: "حوّل الحجوزات إلى أداة لتحسين الإيرادات.", capabilities: ["توصيات تحسين الطاولات", "تنبؤ بعدم الحضور بالذكاء الاصطناعي", "تنبؤ بالطلب 7-30 يومًا", "تحسين إدارة الانتظار", "اقتراحات تسعير ديناميكية"], roi: "عائد نموذجي: زيادة 10-15% في إشغال الطاولات", bestFor: "المطاعم التي تعتمد على الحجوزات والمطاعم الراقية", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
       { q: "هل أحتاج Core لاستخدام الوحدات؟", a: "نعم، الوحدات متاحة فقط في Core." },
@@ -307,10 +307,10 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     contactSales: "Contacter les ventes",
     modules: [
       { name: "Intelligence de la main-d oeuvre", icon: "benchmarking", headline: "Optimisez la planification et reduisez les heures sup.", description: "Transformez la main-d oeuvre en actif optimise avec planification et previsions IA.", capabilities: ["Plannings recommandes par IA", "Suivi des couts en temps reel", "Previsions 14-30 jours", "Analyse de performance des services", "Alertes heures sup"], roi: "ROI typique : reduction de 8 à 12 % du cout main-d oeuvre", bestFor: "Operations à fort volume avec planification complexe", color: "from-[#FF5C4D] to-[#E9A24A]" },
-      { name: "Intelligence inventaire", icon: "insights", headline: "Suivez le gaspillage, automatisez les niveaux et optimisez les couts.", description: "Transformez la gestion des stocks en systeme optimise.", capabilities: ["Suivi du gaspillage en temps reel", "Ajustements automatiques des niveaux", "Cout par recette", "Suivi des performances fournisseurs", "Optimisation de la rotation"], roi: "ROI typique : reduction de 5 à 7 % du cout nourriture", bestFor: "Operations à cout matiere eleve", color: "from-purple-500 to-purple-600" },
+      { name: "Intelligence inventaire", icon: "insights", headline: "Suivez le gaspillage, automatisez les niveaux et optimisez les couts.", description: "Transformez la gestion des stocks en systeme optimise.", capabilities: ["Suivi du gaspillage en temps reel", "Ajustements automatiques des niveaux", "Cout par recette", "Suivi des performances fournisseurs", "Optimisation de la rotation"], roi: "ROI typique : reduction de 5 à 7 % du cout nourriture", bestFor: "Operations à cout matiere eleve", color: "from-[#F2B45C] to-[#C2410C]" },
       { name: "Intelligence achats", icon: "marketing", headline: "Comparez les fournisseurs, optimisez les prix et gerez les contrats.", description: "Passez des commandes reactives à l approvisionnement strategique.", capabilities: ["Comparaison multi-fournisseurs", "Suivi historique des prix", "Gestion des contrats", "Generation automatique des commandes", "Visibilite supply chain"], roi: "ROI typique : reduction de 3 à 5 % des couts d achat", bestFor: "Groupes multi-sites avec pouvoir d achat", color: "from-green-500 to-green-600" },
       { name: "Performance marketing", icon: "growth", headline: "Suivez le ROI des campagnes et optimisez les depenses.", description: "Transformez le marketing en moteur de croissance mesurable.", capabilities: ["Suivi du ROI des campagnes", "Attribution multi-touch", "Analyse du CAC", "Efficacite des promotions", "Segmentation clients"], roi: "ROI typique : gain d efficacite de 15 à 25 %", bestFor: "Concepts multi-canaux", color: "from-orange-500 to-orange-600" },
-      { name: "Intelligence reservations", icon: "operators", headline: "Optimisez les tables, predisez les no-shows et la demande.", description: "Transformez les reservations en outil d optimisation du revenu.", capabilities: ["Recommandations d optimisation des tables", "Prediction IA des no-shows", "Prevision de la demande (7-30 jours)", "Optimisation de la liste d attente", "Suggestions de tarification"], roi: "ROI typique : hausse de 10 à 15 % du taux d occupation", bestFor: "Restaurants reserves et gastronomiques", color: "from-indigo-500 to-indigo-600" },
+      { name: "Intelligence reservations", icon: "operators", headline: "Optimisez les tables, predisez les no-shows et la demande.", description: "Transformez les reservations en outil d optimisation du revenu.", capabilities: ["Recommandations d optimisation des tables", "Prediction IA des no-shows", "Prevision de la demande (7-30 jours)", "Optimisation de la liste d attente", "Suggestions de tarification"], roi: "ROI typique : hausse de 10 à 15 % du taux d occupation", bestFor: "Restaurants reserves et gastronomiques", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
       { q: "Ai-je besoin de Core pour utiliser les modules ?", a: "Oui, les modules sont reserves à Core." },
@@ -386,10 +386,10 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     contactSales: "Contactar ventas",
     modules: [
       { name: "Inteligencia laboral", icon: "benchmarking", headline: "Optimiza la planificacion, reduce el overtime y pronostica la demanda.", description: "Convierte la mano de obra en tu activo mejor optimizado con planificacion y pronosticos de IA.", capabilities: ["Horarios recomendados por IA", "Seguimiento de costos laborales en tiempo real", "Pronostico de demanda 14-30 dias", "Analisis de rendimiento de turnos", "Alertas tempranas de overtime"], roi: "ROI tipico: reduccion del 8-12% en costos laborales", bestFor: "Operaciones de alto volumen con planificacion compleja", color: "from-[#FF5C4D] to-[#E9A24A]" },
-      { name: "Inteligencia de inventario", icon: "insights", headline: "Seguimiento de desperdicio, niveles automáticos y costos optimizados.", description: "Convierte la gestion de inventario en un sistema optimizado.", capabilities: ["Seguimiento de desperdicio en tiempo real", "Ajustes automaticos de niveles", "Costo por receta", "Monitoreo de proveedores", "Optimizacion de rotacion"], roi: "ROI tipico: reduccion del 5-7% en costo de alimentos", bestFor: "Operaciones con alto costo de inventario", color: "from-purple-500 to-purple-600" },
+      { name: "Inteligencia de inventario", icon: "insights", headline: "Seguimiento de desperdicio, niveles automáticos y costos optimizados.", description: "Convierte la gestion de inventario en un sistema optimizado.", capabilities: ["Seguimiento de desperdicio en tiempo real", "Ajustes automaticos de niveles", "Costo por receta", "Monitoreo de proveedores", "Optimizacion de rotacion"], roi: "ROI tipico: reduccion del 5-7% en costo de alimentos", bestFor: "Operaciones con alto costo de inventario", color: "from-[#F2B45C] to-[#C2410C]" },
       { name: "Inteligencia de compras", icon: "marketing", headline: "Compara proveedores, optimiza precios y gestiona contratos.", description: "Pasa de pedidos reactivos a abastecimiento estrategico.", capabilities: ["Comparacion de precios multi-proveedor", "Seguimiento historico de precios", "Gestion de contratos", "Generacion automatica de pedidos", "Visibilidad de la cadena de suministro"], roi: "ROI tipico: reduccion del 3-5% en compras", bestFor: "Grupos multiubicacion con poder de compra", color: "from-green-500 to-green-600" },
       { name: "Rendimiento de marketing", icon: "growth", headline: "Seguimiento del ROI de campañas y optimizacion del gasto.", description: "Convierte el marketing en un motor de crecimiento medible.", capabilities: ["Seguimiento del ROI de campañas", "Atribucion multi-touch", "Analisis de CAC", "Efectividad de promociones", "Segmentacion de clientes"], roi: "ROI tipico: mejora del 15-25% en eficiencia de marketing", bestFor: "Conceptos con presencia multicanal", color: "from-orange-500 to-orange-600" },
-      { name: "Inteligencia de reservas", icon: "operators", headline: "Optimiza mesas, predice no-shows y pronostica la demanda.", description: "Convierte las reservas en una herramienta de optimizacion de ingresos.", capabilities: ["Recomendaciones de optimizacion de mesas", "Prediccion de no-shows con IA", "Pronostico de demanda (7-30 dias)", "Optimizacion de lista de espera", "Sugerencias de precios dinamicos"], roi: "ROI tipico: aumento del 10-15% en ocupacion", bestFor: "Restaurantes con reservas y alta cocina", color: "from-indigo-500 to-indigo-600" },
+      { name: "Inteligencia de reservas", icon: "operators", headline: "Optimiza mesas, predice no-shows y pronostica la demanda.", description: "Convierte las reservas en una herramienta de optimizacion de ingresos.", capabilities: ["Recomendaciones de optimizacion de mesas", "Prediccion de no-shows con IA", "Pronostico de demanda (7-30 dias)", "Optimizacion de lista de espera", "Sugerencias de precios dinamicos"], roi: "ROI tipico: aumento del 10-15% en ocupacion", bestFor: "Restaurantes con reservas y alta cocina", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
       { q: "¿Necesito Core para usar los modulos?", a: "Si, los modulos estan disponibles solo en Core." },
@@ -577,8 +577,8 @@ export default function ModulesPage() {
               <h3 className="font-semibold text-[var(--text-primary)] mb-2">{page.pillars[0].title}</h3>
               <p className="text-sm text-[var(--text-supporting)]">{page.pillars[0].description}</p>
             </div>
-            <div className="text-center p-6 bg-purple-50 rounded-xl">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="text-center p-6 bg-[#FF5C4D]/10 rounded-xl">
+              <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="network" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <h3 className="font-semibold text-[var(--text-primary)] mb-2">{page.pillars[1].title}</h3>
@@ -709,7 +709,7 @@ export default function ModulesPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-indigo-50 to-orange-50 rounded-xl p-8">
+            <div className="bg-gradient-to-br from-[#FFF1EC] to-orange-50 rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-[#FF5C4D] rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   2
@@ -736,7 +736,7 @@ export default function ModulesPage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-50 to-orange-50 rounded-xl p-8">
+          <div className="bg-gradient-to-r from-[#FFF1EC] to-orange-50 rounded-xl p-8">
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-4 text-center">{page.crossModuleTitle}</h3>
             <p className="text-[var(--text-secondary)] text-center mb-6">{page.crossModuleDescription}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -785,7 +785,7 @@ export default function ModulesPage() {
             </div>
           </motion.div>
             ))}
-            <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl p-6 shadow-lg text-white">
+            <div className="bg-gradient-to-br from-[#FF6B5B] to-[#C2410C] rounded-xl p-6 shadow-lg text-white">
               <p className="text-lg font-bold mb-2">{page.wantItAll}</p>
               <p className="font-semibold mb-2">→ {page.fullSuite}</p>
               <p className="text-sm opacity-90">{page.fullSuiteDescription}</p>
@@ -862,7 +862,7 @@ export default function ModulesPage() {
               </a>
             </div>
             <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="conversation" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <h3 className="font-semibold text-[var(--text-primary)] mb-2">{page.contactSales}</h3>

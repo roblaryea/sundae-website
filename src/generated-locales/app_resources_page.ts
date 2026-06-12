@@ -105,7 +105,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "ar": [
@@ -211,7 +211,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "fr": [
@@ -317,7 +317,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "pt": [
@@ -423,7 +423,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "de": [
@@ -529,7 +529,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "ur": [
@@ -635,7 +635,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "nl": [
@@ -741,7 +741,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "tr": [
@@ -847,7 +847,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "hi": [
@@ -953,7 +953,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "it": [
@@ -1059,7 +1059,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "zh-Hans": [
@@ -1165,7 +1165,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "pl": [
@@ -1271,7 +1271,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "ja": [
@@ -1377,7 +1377,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "ko": [
@@ -1483,7 +1483,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "id": [
@@ -1589,7 +1589,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "bn": [
@@ -1695,7 +1695,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "ro": [
@@ -1801,7 +1801,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "vi": [
@@ -1907,7 +1907,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "sv": [
@@ -2013,7 +2013,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "th": [
@@ -2119,7 +2119,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ],
     "ms": [
@@ -2225,7 +2225,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-purple-600"
+        "color": "bg-[#FF5C4D]"
       }
     ]
   },

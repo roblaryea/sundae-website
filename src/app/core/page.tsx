@@ -30,8 +30,8 @@ const localizedCoreCopy = {
       description:
         "Built for operators who can't wait for end-of-day reports. Whether you manage 10 locations or 100+, Core gives you the speed to see what's happening now, understand why it matters, and get recommended actions before problems escalate.",
       cards: [
-        { title: "Predictive, Not Reactive", desc: "Get alerts before problems become expensive. Sundae Coach recommendations for immediate action - not dashboards that update.", icon: "forecasting" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { title: "Every Location, One View", desc: "Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.", icon: "multiLocation" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { title: "Predictive, Not Reactive", desc: "Get alerts before problems become expensive. Sundae Coach recommendations for immediate action - not dashboards that update.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Every Location, One View", desc: "Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "Grows With You", desc: "From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise - the platform scales as you do.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
@@ -49,7 +49,7 @@ const localizedCoreCopy = {
           description: "For restaurant groups scaling from single-location to multi-location operations. 4-hour refresh cycles and single POS integration.",
           features: ["4-hour refresh (6x daily)", "600 base credits + 120/location", "30 custom dashboards", "2-year retention", "Single POS integration", "Email + Chat + Phone support"],
           bestFor: "1-10 locations, single-brand portfolios",
-          color: "from-blue-500 to-blue-600",
+          color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
           name: "Core Pro",
@@ -58,7 +58,7 @@ const localizedCoreCopy = {
           description: "For established multi-location operators who need faster refresh cycles and advanced forecasting across brands.",
           features: ["2-hour refresh (12x daily)", "1,200 base credits + 240/location", "75 custom dashboards", "3-year retention", "Multi-POS support", "Priority phone support (2hr SLA)"],
           bestFor: "30-100 locations, multi-brand operators",
-          color: "from-purple-500 to-purple-600",
+          color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
           name: "Enterprise",
@@ -75,8 +75,8 @@ const localizedCoreCopy = {
       heading: "The 4D Intelligence Model",
       description: "Core delivers all four dimensions - expanded.",
       items: [
-        { dimension: "1D", title: "What Happened", status: "Real-Time", description: "Complete operational truth, updated every 2-4 hours. Near real-time visibility for same-shift interventions.", icon: "report" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { dimension: "2D", title: "Plan vs. Actual", status: "Real-Time", description: "Real-time budget variance tracking. Flash reporting for finance teams. Week-to-date and month-to-date visibility.", icon: "marketing" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { dimension: "1D", title: "What Happened", status: "Real-Time", description: "Complete operational truth, updated every 2-4 hours. Near real-time visibility for same-shift interventions.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { dimension: "2D", title: "Plan vs. Actual", status: "Real-Time", description: "Real-time budget variance tracking. Flash reporting for finance teams. Week-to-date and month-to-date visibility.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { dimension: "3D", title: "Market Context", status: "Expanded", description: "Full benchmarking suite (30+ metrics). Portfolio comparisons. Competitive context via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
         { dimension: "4D", title: "What's Next", status: "Expanded", description: "14-30 day forecasting. Proactive alerts before problems escalate. Sundae Coach recommendations with confidence scores.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
@@ -158,8 +158,8 @@ const localizedCoreCopy = {
       description:
         "مصمم للمشغلين الذين لا يستطيعون انتظار تقارير نهاية اليوم. سواء كنت تدير 10 مواقع او 100+، يمنحك Core السرعة لترى ما يحدث الان، وتفهم لماذا يهم، وتحصل على توصيات قبل تفاقم المشكلات.",
       cards: [
-        { title: "استباقي لا تفاعلي", desc: "تنبيهات قبل ان تتحول المشكلات الى تكلفة. توصيات Sundae Coach للعمل الفوري - لا لوحات تحكم تتحدث متأخرة.", icon: "forecasting" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { title: "كل موقع في عرض واحد", desc: "رؤية موحدة عبر كل المواقع. أنماط على مستوى المحفظة وتفاصيل على مستوى الموقع في لوحة واحدة.", icon: "multiLocation" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { title: "استباقي لا تفاعلي", desc: "تنبيهات قبل ان تتحول المشكلات الى تكلفة. توصيات Sundae Coach للعمل الفوري - لا لوحات تحكم تتحدث متأخرة.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "كل موقع في عرض واحد", desc: "رؤية موحدة عبر كل المواقع. أنماط على مستوى المحفظة وتفاصيل على مستوى الموقع في لوحة واحدة.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "ينمو معك", desc: "من 10 الى اكثر من 1,000 موقع. Core Lite او Pro او Enterprise - المنصة تتوسع معك.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
@@ -177,7 +177,7 @@ const localizedCoreCopy = {
           description: "للمجموعات التي تتوسع من موقع واحد الى عمليات متعددة المواقع. دورات تحديث كل 4 ساعات وتكامل POS واحد.",
           features: ["تحديث كل 4 ساعات (6 مرات يومياً)", "600 رصيد اساسي + 120 لكل موقع", "30 لوحة مخصصة", "احتفاظ لمدة سنتين", "تكامل POS واحد", "دعم عبر البريد والدردشة والهاتف"],
           bestFor: "1-10 مواقع، محافظ بعلامة واحدة",
-          color: "from-blue-500 to-blue-600",
+          color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
           name: "Core Pro",
@@ -186,7 +186,7 @@ const localizedCoreCopy = {
           description: "للمشغلين متعددي المواقع الذين يحتاجون دورات تحديث اسرع وتوقعات متقدمة عبر العلامات.",
           features: ["تحديث كل ساعتين (12 مرة يومياً)", "1,200 رصيد اساسي + 240 لكل موقع", "75 لوحة مخصصة", "احتفاظ لمدة 3 سنوات", "دعم Multi-POS", "دعم هاتفي مميز (SLA ساعتان)"],
           bestFor: "30-100 موقع، مشغلون متعددو العلامات",
-          color: "from-purple-500 to-purple-600",
+          color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
           name: "Enterprise",
@@ -203,8 +203,8 @@ const localizedCoreCopy = {
       heading: "نموذج الذكاء الرباعي",
       description: "Core يقدم جميع الابعاد الاربعة - وبشكل موسع.",
       items: [
-        { dimension: "1D", title: "ماذا حدث", status: "فوري", description: "حقيقة تشغيلية كاملة تحدث كل 2-4 ساعات. رؤية شبه فورية للتدخل داخل الوردية.", icon: "report" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { dimension: "2D", title: "الخطة مقابل الفعلي", status: "فوري", description: "تتبع فوري لانحرافات الميزانية. تقارير سريعة لفرق المالية. رؤية من بداية الاسبوع حتى اليوم ومن بداية الشهر حتى اليوم.", icon: "marketing" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { dimension: "1D", title: "ماذا حدث", status: "فوري", description: "حقيقة تشغيلية كاملة تحدث كل 2-4 ساعات. رؤية شبه فورية للتدخل داخل الوردية.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { dimension: "2D", title: "الخطة مقابل الفعلي", status: "فوري", description: "تتبع فوري لانحرافات الميزانية. تقارير سريعة لفرق المالية. رؤية من بداية الاسبوع حتى اليوم ومن بداية الشهر حتى اليوم.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { dimension: "3D", title: "سياق السوق", status: "موسع", description: "مجموعة مقارنات كاملة (30+ مقياس). مقارنات المحفظة. سياق تنافسي عبر Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
         { dimension: "4D", title: "ما التالي", status: "موسع", description: "توقعات 14-30 يوماً. تنبيهات استباقية قبل تفاقم المشكلات. توصيات Sundae Coach مع درجات ثقة.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
@@ -286,8 +286,8 @@ const localizedCoreCopy = {
       description:
         "Concu pour les exploitants qui ne peuvent pas attendre les rapports de fin de journee. Que vous gériez 10 sites ou 100+, Core vous donne la vitesse pour voir ce qui se passe maintenant, comprendre pourquoi c est important et obtenir des actions recommandees avant que les problemes ne s aggravent.",
       cards: [
-        { title: "Predictif, pas reactif", desc: "Recevez des alertes avant que les problemes ne deviennent couteux. Les recommandations de Sundae Coach passent a l action - pas des tableaux qui se mettent a jour plus tard.", icon: "forecasting" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { title: "Chaque site, une seule vue", desc: "Visibilite unifiee sur tous les sites. Tendances au niveau du portefeuille et detail au niveau du site dans un seul panneau.", icon: "multiLocation" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { title: "Predictif, pas reactif", desc: "Recevez des alertes avant que les problemes ne deviennent couteux. Les recommandations de Sundae Coach passent a l action - pas des tableaux qui se mettent a jour plus tard.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Chaque site, une seule vue", desc: "Visibilite unifiee sur tous les sites. Tendances au niveau du portefeuille et detail au niveau du site dans un seul panneau.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "Grandit avec vous", desc: "De 10 a plus de 1,000 sites. Core Lite, Pro ou Enterprise - la plateforme evolue avec vous.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
@@ -305,7 +305,7 @@ const localizedCoreCopy = {
           description: "Pour les groupes qui passent d un seul site a des operations multi-sites. Rafraichissement toutes les 4 heures et une seule integration POS.",
           features: ["Rafraichissement toutes les 4 heures (6 fois/jour)", "600 credits de base + 120/site", "30 tableaux de bord personnalises", "Retention 2 ans", "Une seule integration POS", "Support e-mail, chat et telephone"],
           bestFor: "1 a 10 sites, portefeuilles mono-marque",
-          color: "from-blue-500 to-blue-600",
+          color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
           name: "Core Pro",
@@ -314,7 +314,7 @@ const localizedCoreCopy = {
           description: "Pour les exploitants multi-sites etablis qui ont besoin de cycles plus rapides et de previsions avancees sur plusieurs marques.",
           features: ["Rafraichissement toutes les 2 heures (12 fois/jour)", "1,200 credits de base + 240/site", "75 tableaux de bord personnalises", "Retention 3 ans", "Support Multi-POS", "Support telephone prioritaire (SLA 2 h)"],
           bestFor: "30 a 100 sites, exploitants multi-marques",
-          color: "from-purple-500 to-purple-600",
+          color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
           name: "Enterprise",
@@ -331,8 +331,8 @@ const localizedCoreCopy = {
       heading: "Le modele d intelligence 4D",
       description: "Core livre les quatre dimensions - en version etendue.",
       items: [
-        { dimension: "1D", title: "Ce qui s est passe", status: "Temps reel", description: "Verite operationnelle complete, mise a jour toutes les 2 a 4 heures. Visibilite quasi temps reel pour intervenir pendant le service.", icon: "report" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { dimension: "2D", title: "Plan vs reel", status: "Temps reel", description: "Suivi en temps reel des ecarts de budget. Flash reporting pour les equipes finance. Visibilite semaine a date et mois a date.", icon: "marketing" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { dimension: "1D", title: "Ce qui s est passe", status: "Temps reel", description: "Verite operationnelle complete, mise a jour toutes les 2 a 4 heures. Visibilite quasi temps reel pour intervenir pendant le service.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { dimension: "2D", title: "Plan vs reel", status: "Temps reel", description: "Suivi en temps reel des ecarts de budget. Flash reporting pour les equipes finance. Visibilite semaine a date et mois a date.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { dimension: "3D", title: "Contexte marche", status: "Etendu", description: "Suite complete de benchmarking (30+ indicateurs). Comparaisons de portefeuille. Contexte concurrentiel via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
         { dimension: "4D", title: "Et ensuite ?", status: "Etendu", description: "Previsions 14 a 30 jours. Alertes proactives avant que les problemes ne s aggravent. Recommandations Sundae Coach avec scores de confiance.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
@@ -414,8 +414,8 @@ const localizedCoreCopy = {
       description:
         "Hecho para operadores que no pueden esperar al cierre del dia. Tanto si gestionas 10 locales como 100+, Core te ayuda a ver lo que pasa ahora, entender por que importa y actuar antes de que los problemas se hagan mas caros.",
       cards: [
-        { title: "Predictivo, no reactivo", desc: "Recibe alertas antes de que los problemas se vuelvan costosos. Recomendaciones de Sundae Coach para actuar al momento - no paneles que se actualizan tarde.", icon: "forecasting" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { title: "Cada local, una sola vista", desc: "Visibilidad unificada en todos los locales. Patrones a nivel cartera y detalle a nivel local en un solo panel.", icon: "multiLocation" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { title: "Predictivo, no reactivo", desc: "Recibe alertas antes de que los problemas se vuelvan costosos. Recomendaciones de Sundae Coach para actuar al momento - no paneles que se actualizan tarde.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Cada local, una sola vista", desc: "Visibilidad unificada en todos los locales. Patrones a nivel cartera y detalle a nivel local en un solo panel.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "Crece contigo", desc: "De 10 a mas de 1,000 locales. Core Lite, Pro o Enterprise - la plataforma escala contigo.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
@@ -433,7 +433,7 @@ const localizedCoreCopy = {
           description: "Para grupos que escalan de un local a operaciones multi-local. Ciclos de actualizacion de 4 horas y una sola integracion POS.",
           features: ["Actualizacion cada 4 horas (6 veces al dia)", "600 creditos base + 120 por local", "30 paneles personalizados", "Retencion de 2 anos", "Una integracion POS", "Soporte por email, chat y telefono"],
           bestFor: "1 a 10 locales, carteras de una sola marca",
-          color: "from-blue-500 to-blue-600",
+          color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
           name: "Core Pro",
@@ -442,7 +442,7 @@ const localizedCoreCopy = {
           description: "Para operadores multi-local establecidos que necesitan ciclos de actualizacion mas rapidos y pronosticos avanzados entre marcas.",
           features: ["Actualizacion cada 2 horas (12 veces al dia)", "1,200 creditos base + 240 por local", "75 paneles personalizados", "Retencion de 3 anos", "Soporte Multi-POS", "Soporte telefonico prioritario (SLA de 2 h)"],
           bestFor: "30 a 100 locales, operadores multi-marca",
-          color: "from-purple-500 to-purple-600",
+          color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
           name: "Enterprise",
@@ -459,8 +459,8 @@ const localizedCoreCopy = {
       heading: "El modelo de inteligencia 4D",
       description: "Core entrega las cuatro dimensiones - ampliadas.",
       items: [
-        { dimension: "1D", title: "Que paso", status: "Tiempo real", description: "Verdad operativa completa, actualizada cada 2 a 4 horas. Visibilidad casi en tiempo real para intervenir durante el turno.", icon: "report" as SundaeIconName, color: "from-blue-500 to-blue-600" },
-        { dimension: "2D", title: "Plan vs real", status: "Tiempo real", description: "Seguimiento en tiempo real de la variacion presupuestaria. Flash reporting para equipos financieros. Visibilidad semana a la fecha y mes a la fecha.", icon: "marketing" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+        { dimension: "1D", title: "Que paso", status: "Tiempo real", description: "Verdad operativa completa, actualizada cada 2 a 4 horas. Visibilidad casi en tiempo real para intervenir durante el turno.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { dimension: "2D", title: "Plan vs real", status: "Tiempo real", description: "Seguimiento en tiempo real de la variacion presupuestaria. Flash reporting para equipos financieros. Visibilidad semana a la fecha y mes a la fecha.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { dimension: "3D", title: "Contexto de mercado", status: "Ampliado", description: "Suite completa de benchmarking (30+ metricas). Comparaciones de cartera. Contexto competitivo via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
         { dimension: "4D", title: "Que sigue", status: "Ampliado", description: "Pronosticos de 14 a 30 dias. Alertas proactivas antes de que los problemas escalen. Recomendaciones de Sundae Coach con puntuaciones de confianza.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
@@ -733,7 +733,7 @@ export default function CoreProductPage() {
             {ui.pulse.features.map((feature) => (
               <StaggerItem key={feature.name}>
                 <div className="flex items-start gap-3 p-4 bg-[var(--surface-subtle)] rounded-xl border border-[var(--border-default)] h-full">
-                  <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#F2B45C] to-[#C2410C] rounded-lg flex items-center justify-center flex-shrink-0">
                     <SundaeIcon name={feature.icon} size="md" className="text-white" />
                   </div>
                   <div>

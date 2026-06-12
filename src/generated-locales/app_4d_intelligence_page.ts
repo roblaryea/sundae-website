@@ -57,7 +57,7 @@ export const generatedLocalCopy = {
             "تتبع دقة التنبؤ"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "النص-الأرجواني-600",
           "bgColor": "بي جي-أرجواني-50"
         },
@@ -227,7 +227,7 @@ export const generatedLocalCopy = {
             "Suivi de la précision des prévisions"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "texte-violet-600",
           "bgColor": "bg-violet-50"
         },
@@ -397,7 +397,7 @@ export const generatedLocalCopy = {
             "Acompanhamento de precisão de previsão"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "texto-roxo-600",
           "bgColor": "bg-roxo-50"
         },
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
             "Verfolgung der Prognosegenauigkeit"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "text-lila-600",
           "bgColor": "bg-lila-50"
         },
@@ -737,7 +737,7 @@ export const generatedLocalCopy = {
             "Nauwkeurigheid van prognoses bijhouden"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "tekst-paars-600",
           "bgColor": "bg-paars-50"
         },
@@ -907,7 +907,7 @@ export const generatedLocalCopy = {
             "Seguimiento de la precisión del pronóstico"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "texto-púrpura-600",
           "bgColor": "bg-púrpura-50"
         },
@@ -1077,9 +1077,9 @@ export const generatedLocalCopy = {
             "پیشن گوئی کی درستگی سے باخبر رہنا"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "متن-جامنی-600",
-          "bgColor": "bg-purple-50"
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -1247,7 +1247,7 @@ export const generatedLocalCopy = {
             "पूर्वानुमान सटीकता ट्रैकिंग"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "पाठ-बैंगनी-600",
           "bgColor": "बीजी-बैंगनी-50"
         },
@@ -1417,7 +1417,7 @@ export const generatedLocalCopy = {
             "预测准确度跟踪"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "文字-紫色-600",
           "bgColor": "bg-紫色-50"
         },
@@ -1587,7 +1587,7 @@ export const generatedLocalCopy = {
             "Śledzenie dokładności prognoz"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "tekst-fioletowy-600",
           "bgColor": "bg-fioletowy-50"
         },
@@ -1757,7 +1757,7 @@ export const generatedLocalCopy = {
             "Monitoraggio dell'accuratezza delle previsioni"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "testo-viola-600",
           "bgColor": "bg-viola-50"
         },
@@ -1927,7 +1927,7 @@ export const generatedLocalCopy = {
             "Tahmin doğruluğu takibi"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "metin-mor-600",
           "bgColor": "bg-mor-50"
         },
@@ -2097,7 +2097,7 @@ export const generatedLocalCopy = {
             "예측 정확도 추적"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "텍스트-보라색-600",
           "bgColor": "bg-보라색-50"
         },
@@ -2267,7 +2267,7 @@ export const generatedLocalCopy = {
             "予測精度の追跡"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "テキスト-パープル-600",
           "bgColor": "bg-パープル-50"
         },
@@ -2437,7 +2437,7 @@ export const generatedLocalCopy = {
             "Pelacakan keakuratan perkiraan"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "teks-ungu-600",
           "bgColor": "bg-ungu-50"
         },
@@ -2607,7 +2607,7 @@ export const generatedLocalCopy = {
             "Theo dõi độ chính xác dự báo"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "văn bản-tím-600",
           "bgColor": "bg-tím-50"
         },
@@ -2777,7 +2777,7 @@ export const generatedLocalCopy = {
             "Urmărirea preciziei prognozei"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "text-violet-600",
           "bgColor": "bg-violet-50"
         },
@@ -2947,7 +2947,7 @@ export const generatedLocalCopy = {
             "Spårning av prognosnoggrannhet"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "text-lila-600",
           "bgColor": "bg-lila-50"
         },
@@ -3117,7 +3117,7 @@ export const generatedLocalCopy = {
             "পূর্বাভাস নির্ভুলতা ট্র্যাকিং"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "টেক্সট-বেগুনি-600",
           "bgColor": "bg-বেগুনি-50"
         },
@@ -3287,7 +3287,7 @@ export const generatedLocalCopy = {
             "การคาดการณ์การติดตามความแม่นยำ"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "ข้อความ-สีม่วง-600",
           "bgColor": "บีจี-ม่วง-50"
         },
@@ -3457,7 +3457,7 @@ export const generatedLocalCopy = {
             "Penjejakan ketepatan ramalan"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "textColor": "teks-ungu-600",
           "bgColor": "bg-ungu-50"
         },

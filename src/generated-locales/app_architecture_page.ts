@@ -203,7 +203,7 @@ export const generatedLocalCopy = {
         {
           "title": "الذكاء الاصطناعي متعدد الوكلاء",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "محرك الذكاء الاصطناعي متعدد الوكلاء",
             "نماذج التعلم المستمر",
@@ -247,7 +247,7 @@ export const generatedLocalCopy = {
         {
           "title": "طبقة التسليم",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "لوحات المعلومات التفاعلية",
             "استعلامات اللغة الطبيعية",
@@ -469,7 +469,7 @@ export const generatedLocalCopy = {
         {
           "title": "IA multiagente",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Motor de IA multiagente",
             "Modelos de aprendizaje continuo",
@@ -513,7 +513,7 @@ export const generatedLocalCopy = {
         {
           "title": "Capa de entrega",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Paneles interactivos",
             "Consultas en lenguaje natural",
@@ -735,7 +735,7 @@ export const generatedLocalCopy = {
         {
           "title": "IA multi-agents",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Moteur d'IA multi-agents",
             "Modèles d'apprentissage continu",
@@ -779,7 +779,7 @@ export const generatedLocalCopy = {
         {
           "title": "Couche de livraison",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Tableaux de bord interactifs",
             "Requêtes en langage naturel",
@@ -1001,7 +1001,7 @@ export const generatedLocalCopy = {
         {
           "title": "Multi-Agent-KI",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Multiagenten-KI-Engine",
             "Kontinuierliche Lernmodelle",
@@ -1045,7 +1045,7 @@ export const generatedLocalCopy = {
         {
           "title": "Lieferschicht",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Interaktive Dashboards",
             "Abfragen in natürlicher Sprache",
@@ -1267,7 +1267,7 @@ export const generatedLocalCopy = {
         {
           "title": "IA multiagente",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Mecanismo de IA multiagente",
             "Modelos de aprendizagem contínua",
@@ -1311,7 +1311,7 @@ export const generatedLocalCopy = {
         {
           "title": "Camada de entrega",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Painéis interativos",
             "Consultas em linguagem natural",
@@ -1533,7 +1533,7 @@ export const generatedLocalCopy = {
         {
           "title": "AI met meerdere agenten",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Multi-agent AI-engine",
             "Modellen voor continu leren",
@@ -1577,7 +1577,7 @@ export const generatedLocalCopy = {
         {
           "title": "Leveringslaag",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Interactieve dashboards",
             "Vragen in natuurlijke taal",
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
         {
           "title": "ملٹی ایجنٹ AI",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "ملٹی ایجنٹ AI انجن",
             "مسلسل سیکھنے کے ماڈل",
@@ -1843,7 +1843,7 @@ export const generatedLocalCopy = {
         {
           "title": "ڈیلیوری پرت",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "انٹرایکٹو ڈیش بورڈز",
             "فطری زبان کے سوالات",
@@ -2065,7 +2065,7 @@ export const generatedLocalCopy = {
         {
           "title": "IA multiagente",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Motore AI multi-agente",
             "Modelli di apprendimento continuo",
@@ -2109,7 +2109,7 @@ export const generatedLocalCopy = {
         {
           "title": "Livello di consegna",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Cruscotti interattivi",
             "Query in linguaggio naturale",
@@ -2331,7 +2331,7 @@ export const generatedLocalCopy = {
         {
           "title": "मल्टी-एजेंट एआई",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "मल्टी-एजेंट एआई इंजन",
             "सतत सीखने के मॉडल",
@@ -2375,7 +2375,7 @@ export const generatedLocalCopy = {
         {
           "title": "डिलिवरी परत",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "इंटरैक्टिव डैशबोर्ड",
             "प्राकृतिक भाषा संबंधी प्रश्न",
@@ -2597,7 +2597,7 @@ export const generatedLocalCopy = {
         {
           "title": "Çok Aracılı Yapay Zeka",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Çok aracılı yapay zeka motoru",
             "Sürekli öğrenme modelleri",
@@ -2641,7 +2641,7 @@ export const generatedLocalCopy = {
         {
           "title": "Teslimat Katmanı",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Etkileşimli kontrol panelleri",
             "Doğal dil sorguları",
@@ -2863,7 +2863,7 @@ export const generatedLocalCopy = {
         {
           "title": "Wieloagentowa sztuczna inteligencja",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Wieloagentowy silnik AI",
             "Modele uczenia się ciągłego",
@@ -2907,7 +2907,7 @@ export const generatedLocalCopy = {
         {
           "title": "Warstwa dostawy",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Interaktywne dashboardy",
             "Zapytania w języku naturalnym",
@@ -3129,7 +3129,7 @@ export const generatedLocalCopy = {
         {
           "title": "多智能体人工智能",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "多智能体人工智能引擎",
             "持续学习模式",
@@ -3173,7 +3173,7 @@ export const generatedLocalCopy = {
         {
           "title": "交付层",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "交互式仪表板",
             "自然语言查询",
@@ -3395,7 +3395,7 @@ export const generatedLocalCopy = {
         {
           "title": "다중 에이전트 AI",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "다중 에이전트 AI 엔진",
             "지속적인 학습 모델",
@@ -3439,7 +3439,7 @@ export const generatedLocalCopy = {
         {
           "title": "전달 계층",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "대화형 대시보드",
             "자연어 쿼리",
@@ -3661,7 +3661,7 @@ export const generatedLocalCopy = {
         {
           "title": "AI multi-agent",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Motor AI multi-agent",
             "Modele de învățare continuă",
@@ -3705,7 +3705,7 @@ export const generatedLocalCopy = {
         {
           "title": "Stratul de livrare",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Tablouri de bord interactive",
             "Interogări în limbaj natural",
@@ -3927,7 +3927,7 @@ export const generatedLocalCopy = {
         {
           "title": "マルチエージェント AI",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "マルチエージェントAIエンジン",
             "継続学習モデル",
@@ -3971,7 +3971,7 @@ export const generatedLocalCopy = {
         {
           "title": "配信層",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "インタラクティブなダッシュボード",
             "自然言語クエリ",
@@ -4193,7 +4193,7 @@ export const generatedLocalCopy = {
         {
           "title": "AI Multi-Agen",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Mesin AI multi-agen",
             "Model pembelajaran berkelanjutan",
@@ -4237,7 +4237,7 @@ export const generatedLocalCopy = {
         {
           "title": "Lapisan Pengiriman",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Dasbor interaktif",
             "Kueri bahasa alami",
@@ -4459,7 +4459,7 @@ export const generatedLocalCopy = {
         {
           "title": "AI đa tác nhân",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Công cụ AI đa tác nhân",
             "Mô hình học tập liên tục",
@@ -4503,7 +4503,7 @@ export const generatedLocalCopy = {
         {
           "title": "Lớp phân phối",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Trang tổng quan tương tác",
             "Truy vấn ngôn ngữ tự nhiên",
@@ -4725,7 +4725,7 @@ export const generatedLocalCopy = {
         {
           "title": "মাল্টি-এজেন্ট এআই",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "মাল্টি-এজেন্ট এআই ইঞ্জিন",
             "ক্রমাগত শেখার মডেল",
@@ -4769,7 +4769,7 @@ export const generatedLocalCopy = {
         {
           "title": "ডেলিভারি লেয়ার",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "ইন্টারেক্টিভ ড্যাশবোর্ড",
             "প্রাকৃতিক ভাষা প্রশ্ন",
@@ -4991,7 +4991,7 @@ export const generatedLocalCopy = {
         {
           "title": "Multi-Agent AI",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Multiagent AI-motor",
             "Modeller för kontinuerligt lärande",
@@ -5035,7 +5035,7 @@ export const generatedLocalCopy = {
         {
           "title": "Leveranslager",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Interaktiva instrumentpaneler",
             "Naturliga språkfrågor",
@@ -5257,7 +5257,7 @@ export const generatedLocalCopy = {
         {
           "title": "AI หลายตัวแทน",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "เอ็นจิ้น AI หลายตัวแทน",
             "รูปแบบการเรียนรู้อย่างต่อเนื่อง",
@@ -5301,7 +5301,7 @@ export const generatedLocalCopy = {
         {
           "title": "ชั้นจัดส่ง",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "แดชบอร์ดแบบโต้ตอบ",
             "แบบสอบถามภาษาธรรมชาติ",
@@ -5523,7 +5523,7 @@ export const generatedLocalCopy = {
         {
           "title": "AI Berbilang Ejen",
           "icon": "intelligence",
-          "color": "from-purple-500 to-purple-600",
+          "color": "from-[#F2B45C] to-[#C2410C]",
           "features": [
             "Enjin AI berbilang ejen",
             "Model pembelajaran berterusan",
@@ -5567,7 +5567,7 @@ export const generatedLocalCopy = {
         {
           "title": "Lapisan Penghantaran",
           "icon": "canvas",
-          "color": "from-cyan-500 to-cyan-600",
+          "color": "from-[#F2C078] to-[#E9A24A]",
           "features": [
             "Papan pemuka interaktif",
             "Pertanyaan bahasa semula jadi",

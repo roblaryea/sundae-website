@@ -17,13 +17,13 @@ export const generatedLocalCopy = {
             "title": "Prédictif, pas réactif",
             "desc": "Recevez des alertes avant que les problèmes ne deviennent coûteux. Recommandations de Sundae Coach pour une action immédiate - pas de tableaux de bord qui se mettent à jour.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Chaque emplacement, une vue",
             "desc": "Visibilité unifiée sur tous les emplacements. Modèles au niveau du portefeuille et détails au niveau des emplacements dans une seule vue.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Évolue avec vous",
@@ -54,7 +54,7 @@ export const generatedLocalCopy = {
               "Support par Email + Chat + Téléphone"
             ],
             "bestFor": "1-10 lieux, portefeuilles de marques uniques",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -70,7 +70,7 @@ export const generatedLocalCopy = {
               "Support téléphonique prioritaire (SLA de 2h)"
             ],
             "bestFor": "30-100 lieux, opérateurs multi-marques",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -100,7 +100,7 @@ export const generatedLocalCopy = {
             "status": "Temps Réel",
             "description": "Vérité opérationnelle complète, mise à jour toutes les 2-4 heures. Visibilité quasi temps réel pour les interventions de même quart.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -108,7 +108,7 @@ export const generatedLocalCopy = {
             "status": "Temps Réel",
             "description": "Suivi des écarts budgétaires en temps réel. Rapports flash pour les équipes financières. Visibilité semaine à ce jour et mois à ce jour.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -304,13 +304,13 @@ export const generatedLocalCopy = {
             "title": "Predictivo, No Reactivo",
             "desc": "Recibe alertas antes de que los problemas se vuelvan costosos. Recomendaciones de Sundae Coach para acción inmediata - no paneles que se actualizan.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Cada Ubicación, Una Vista",
             "desc": "Visibilidad unificada en todas las ubicaciones. Patrones a nivel de cartera y detalles a nivel de ubicación en un solo panel.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Crecemos Contigo",
@@ -341,7 +341,7 @@ export const generatedLocalCopy = {
               "Soporte por Email + Chat + Teléfono"
             ],
             "bestFor": "1-10 ubicaciones, carteras de marca única",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
               "Soporte telefónico prioritario (SLA de 2 horas)"
             ],
             "bestFor": "30-100 ubicaciones, operadores de múltiples marcas",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -387,7 +387,7 @@ export const generatedLocalCopy = {
             "status": "En Tiempo Real",
             "description": "Verdad operativa completa, actualizada cada 2-4 horas. Visibilidad casi en tiempo real para intervenciones en el mismo turno.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -395,7 +395,7 @@ export const generatedLocalCopy = {
             "status": "En Tiempo Real",
             "description": "Seguimiento de variaciones presupuestarias en tiempo real. Informes rápidos para equipos financieros. Visibilidad de la semana hasta la fecha y del mes hasta la fecha.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -591,13 +591,13 @@ export const generatedLocalCopy = {
             "title": "Prädiktiv, nicht reaktiv",
             "desc": "Erhalten Sie Warnungen, bevor Probleme teuer werden. Sundae Coach Empfehlungen für sofortige Maßnahmen - keine Dashboards, die aktualisiert werden.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Jeder Standort, eine Ansicht",
             "desc": "Vereinheitlichte Sichtbarkeit über alle Standorte hinweg. Portfolio-Ebenen-Muster und standortspezifische Details in einem einzigen Fenster.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Wächst mit Ihnen",
@@ -628,7 +628,7 @@ export const generatedLocalCopy = {
               "E-Mail + Chat + Telefon-Support"
             ],
             "bestFor": "1-10 Standorte, Einzelmarken-Portfolios",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -644,7 +644,7 @@ export const generatedLocalCopy = {
               "Priorisierter Telefon-Support (2 Std. SLA)"
             ],
             "bestFor": "30-100 Standorte, Mehrmarkenbetreiber",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
             "status": "Echtzeit",
             "description": "Vollständige betriebliche Wahrheit, alle 2-4 Stunden aktualisiert. Nahezu Echtzeit-Sichtbarkeit für Interventionen zur gleichen Schicht.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -682,7 +682,7 @@ export const generatedLocalCopy = {
             "status": "Echtzeit",
             "description": "Echtzeit-Überwachung der Budgetabweichungen. Blitzberichte für Finanzteams. Sichtbarkeit bis zur Woche und bis zum Monat.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -878,13 +878,13 @@ export const generatedLocalCopy = {
             "title": "Voorspellend, Niet Reactief",
             "desc": "Ontvang waarschuwingen voordat problemen duur worden. Sundae Coach aanbevelingen voor onmiddellijke actie - geen dashboards die bijwerken.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Elke Locatie, Eén Weergave",
             "desc": "Geünificeerde zichtbaarheid over alle locaties. Portfolio-niveau patronen en locatie-niveau details in één venster.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Groeit Met Jou Mee",
@@ -915,7 +915,7 @@ export const generatedLocalCopy = {
               "E-mail + Chat + Telefoon ondersteuning"
             ],
             "bestFor": "1-10 locaties, single-brand portefeuilles",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -931,7 +931,7 @@ export const generatedLocalCopy = {
               "Prioriteit telefoon ondersteuning (2u SLA)"
             ],
             "bestFor": "30-100 locaties, multi-brand operators",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -961,7 +961,7 @@ export const generatedLocalCopy = {
             "status": "Realtime",
             "description": "Volledige operationele waarheid, elke 2-4 uur bijgewerkt. Bijna realtime zichtbaarheid voor interventies in dezelfde shift.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -969,7 +969,7 @@ export const generatedLocalCopy = {
             "status": "Realtime",
             "description": "Realtime budgetafwijking tracking. Flashrapportage voor financiële teams. Zichtbaarheid van week tot nu en maand tot nu.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -1165,13 +1165,13 @@ export const generatedLocalCopy = {
             "title": "تنبؤية، وليست تفاعلية",
             "desc": "احصل على تنبيهات قبل أن تصبح المشاكل مكلفة. توصيات Sundae Coach للعمل الفوري - وليس لوحات معلومات تتحديث.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "كل موقع، عرض واحد",
             "desc": "رؤية موحدة عبر جميع المواقع. أنماط على مستوى المحفظة وتفاصيل على مستوى الموقع في نافذة واحدة.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "تنمو معك",
@@ -1202,7 +1202,7 @@ export const generatedLocalCopy = {
               "دعم عبر البريد الإلكتروني + الدردشة + الهاتف"
             ],
             "bestFor": "1-10 مواقع، محافظ علامة تجارية واحدة",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -1218,7 +1218,7 @@ export const generatedLocalCopy = {
               "دعم هاتفي ذو أولوية (2 ساعة SLA)"
             ],
             "bestFor": "30-100 مواقع، مشغلين متعددين العلامات التجارية",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -1248,7 +1248,7 @@ export const generatedLocalCopy = {
             "status": "في الوقت الحقيقي",
             "description": "حقيقة تشغيلية كاملة، يتم تحديثها كل 2-4 ساعات. رؤية شبه حقيقية للتدخلات في نفس الوردية.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -1256,7 +1256,7 @@ export const generatedLocalCopy = {
             "status": "في الوقت الحقيقي",
             "description": "تتبع فرق الميزانية في الوقت الحقيقي. تقارير سريعة لفرق المالية. رؤية للأسبوع حتى الآن والشهر حتى الآن.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -1452,13 +1452,13 @@ export const generatedLocalCopy = {
             "title": "Previsivo, Não Reativo",
             "desc": "Receba alertas antes que os problemas se tornem caros. Recomendações do Sundae Coach para ação imediata - não painéis que atualizam.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Cada Local, Uma Visão",
             "desc": "Visibilidade unificada em todos os locais. Padrões em nível de portfólio e detalhes em nível de local em um único painel.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Cresce Com Você",
@@ -1489,7 +1489,7 @@ export const generatedLocalCopy = {
               "Suporte por Email + Chat + Telefone"
             ],
             "bestFor": "1-10 localizações, portfólios de marca única",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -1505,7 +1505,7 @@ export const generatedLocalCopy = {
               "Suporte telefônico prioritário (SLA de 2h)"
             ],
             "bestFor": "30-100 localizações, operadores de múltiplas marcas",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -1535,7 +1535,7 @@ export const generatedLocalCopy = {
             "status": "Em Tempo Real",
             "description": "Verdade operacional completa, atualizada a cada 2-4 horas. Visibilidade quase em tempo real para intervenções no mesmo turno.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -1543,7 +1543,7 @@ export const generatedLocalCopy = {
             "status": "Em Tempo Real",
             "description": "Rastreamento de variação orçamentária em tempo real. Relatórios rápidos para equipes financeiras. Visibilidade da semana até a data e do mês até a data.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -1739,13 +1739,13 @@ export const generatedLocalCopy = {
             "title": "Predittivo, Non Reattivo",
             "desc": "Ricevi avvisi prima che i problemi diventino costosi. Raccomandazioni di Sundae Coach per azioni immediate - non dashboard che si aggiornano.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Ogni Sede, Un'unica Vista",
             "desc": "Visibilità unificata su tutte le sedi. Modelli a livello di portafoglio e dettagli a livello di sede in un'unica visualizzazione.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Cresce Con Te",
@@ -1776,7 +1776,7 @@ export const generatedLocalCopy = {
               "Supporto via Email + Chat + Telefono"
             ],
             "bestFor": "1-10 località, portafogli a marchio singolo",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -1792,7 +1792,7 @@ export const generatedLocalCopy = {
               "Supporto telefonico prioritario (SLA di 2 ore)"
             ],
             "bestFor": "30-100 località, operatori multi-marchio",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -1822,7 +1822,7 @@ export const generatedLocalCopy = {
             "status": "In Tempo Reale",
             "description": "Verità operativa completa, aggiornata ogni 2-4 ore. Visibilità quasi in tempo reale per interventi nella stessa turno.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -1830,7 +1830,7 @@ export const generatedLocalCopy = {
             "status": "In Tempo Reale",
             "description": "Monitoraggio delle variazioni di budget in tempo reale. Report flash per i team finanziari. Visibilità settimana fino ad oggi e mese fino ad oggi.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -2026,13 +2026,13 @@ export const generatedLocalCopy = {
             "title": "पूर्वानुमानित, प्रतिक्रियाशील नहीं",
             "desc": "समस्याएँ महंगी होने से पहले अलर्ट प्राप्त करें। तत्काल कार्रवाई के लिए Sundae Coach की अनुशंसाएँ - अपडेट होने वाले डैशबोर्ड नहीं।",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "हर स्थान, एक दृश्य",
             "desc": "सभी स्थानों में एकीकृत दृश्यता। एकल पैन में पोर्टफोलियो-स्तरीय पैटर्न और स्थान-स्तरीय विवरण।",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "आपके साथ बढ़ता है",
@@ -2063,7 +2063,7 @@ export const generatedLocalCopy = {
               "ईमेल + चैट + फोन समर्थन"
             ],
             "bestFor": "1-10 स्थान, एकल-ब्रांड पोर्टफोलियो",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -2079,7 +2079,7 @@ export const generatedLocalCopy = {
               "प्राथमिकता फोन समर्थन (2 घंटे SLA)"
             ],
             "bestFor": "30-100 स्थान, बहु-ब्रांड ऑपरेटर",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -2109,7 +2109,7 @@ export const generatedLocalCopy = {
             "status": "वास्तविक समय",
             "description": "पूर्ण परिचालन सत्य, हर 2-4 घंटे में अपडेट किया गया। समान-शिफ्ट हस्तक्षेपों के लिए निकट वास्तविक समय दृश्यता।",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -2117,7 +2117,7 @@ export const generatedLocalCopy = {
             "status": "वास्तविक समय",
             "description": "वास्तविक समय बजट भिन्नता ट्रैकिंग। वित्त टीमों के लिए फ्लैश रिपोर्टिंग। सप्ताह-दिन और महीने-दिन दृश्यता।",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -2313,13 +2313,13 @@ export const generatedLocalCopy = {
             "title": "پیش گوئی، ردعمل نہیں",
             "desc": "مسائل مہنگے ہونے سے پہلے الرٹس حاصل کریں۔ فوری کارروائی کے لیے Sundae Coach کی تجاویز - نہ کہ اپ ڈیٹ ہونے والے ڈیش بورڈز۔",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "ہر مقام، ایک نظر",
             "desc": "تمام مقامات پر متحدہ بصیرت۔ پورٹ فولیو کی سطح کے پیٹرن اور مقام کی سطح کی تفصیلات ایک ہی پین میں۔",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "آپ کے ساتھ بڑھتا ہے",
@@ -2350,7 +2350,7 @@ export const generatedLocalCopy = {
               "ای میل + چیٹ + فون سپورٹ"
             ],
             "bestFor": "1-10 مقامات، سنگل برانڈ پورٹ فولیو",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -2366,7 +2366,7 @@ export const generatedLocalCopy = {
               "ترجیحی فون سپورٹ (2 گھنٹے SLA)"
             ],
             "bestFor": "30-100 مقامات، ملٹی برانڈ آپریٹرز",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -2396,7 +2396,7 @@ export const generatedLocalCopy = {
             "status": "حقیقی وقت",
             "description": "مکمل عملیاتی حقیقت، ہر 2-4 گھنٹے میں اپ ڈیٹ۔ ایک ہی شفٹ میں مداخلت کے لیے قریب حقیقی وقت کی بصیرت۔",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -2404,7 +2404,7 @@ export const generatedLocalCopy = {
             "status": "حقیقی وقت",
             "description": "حقیقی وقت میں بجٹ کی تغیرات کی نگرانی۔ مالیاتی ٹیموں کے لیے فلیش رپورٹنگ۔ ہفتے اور مہینے کی تاریخ کی بصیرت۔",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -2600,13 +2600,13 @@ export const generatedLocalCopy = {
             "title": "Predykcyjne, a nie Reaktywne",
             "desc": "Otrzymuj powiadomienia zanim problemy staną się kosztowne. Rekomendacje Sundae Coach do natychmiastowego działania - a nie pulpity nawigacyjne, które się aktualizują.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Każda Lokalizacja, Jeden Widok",
             "desc": "Zjednoczona widoczność we wszystkich lokalizacjach. Wzorce na poziomie portfela i szczegóły na poziomie lokalizacji w jednym oknie.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Rośnie z Tobą",
@@ -2637,7 +2637,7 @@ export const generatedLocalCopy = {
               "Wsparcie przez e-mail + czat + telefon"
             ],
             "bestFor": "1-10 lokalizacji, portfele jednobrandowe",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -2653,7 +2653,7 @@ export const generatedLocalCopy = {
               "Priorytetowe wsparcie telefoniczne (2 godziny SLA)"
             ],
             "bestFor": "30-100 lokalizacji, operatorzy wielobrandowi",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -2683,7 +2683,7 @@ export const generatedLocalCopy = {
             "status": "Czas rzeczywisty",
             "description": "Pełna prawda operacyjna, aktualizowana co 2-4 godziny. Prawie rzeczywista widoczność dla interwencji w tej samej zmianie.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -2691,7 +2691,7 @@ export const generatedLocalCopy = {
             "status": "Czas rzeczywisty",
             "description": "Śledzenie odchyleń budżetowych w czasie rzeczywistym. Raportowanie błyskawiczne dla zespołów finansowych. Widoczność od początku tygodnia i miesiąca.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -2887,13 +2887,13 @@ export const generatedLocalCopy = {
             "title": "Öngörücü, Tepkisel Değil",
             "desc": "Sorunlar maliyetli hale gelmeden önce uyarılar alın. Hızlı eylem için Sundae Coach önerileri - güncellenen panolar değil.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Her Lokasyon, Tek Görünüm",
             "desc": "Tüm lokasyonlar arasında birleşik görünürlük. Portföy düzeyinde kalıplar ve lokasyon düzeyinde detaylar tek bir pencerede.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Sizinle Büyür",
@@ -2924,7 +2924,7 @@ export const generatedLocalCopy = {
               "E-posta + Sohbet + Telefon desteği"
             ],
             "bestFor": "1-10 lokasyon, tek marka portföyleri",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -2940,7 +2940,7 @@ export const generatedLocalCopy = {
               "Öncelikli telefon desteği (2 saat SLA)"
             ],
             "bestFor": "30-100 lokasyon, çoklu marka operatörleri",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -2970,7 +2970,7 @@ export const generatedLocalCopy = {
             "status": "Gerçek Zamanlı",
             "description": "Tam operasyonel gerçeklik, her 2-4 saatte bir güncellenir. Aynı vardiya müdahaleleri için neredeyse gerçek zamanlı görünürlük.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -2978,7 +2978,7 @@ export const generatedLocalCopy = {
             "status": "Gerçek Zamanlı",
             "description": "Gerçek zamanlı bütçe sapması takibi. Finans ekipleri için hızlı raporlama. Haftalık ve aylık görünürlük.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -3174,13 +3174,13 @@ export const generatedLocalCopy = {
             "title": "预测，而非反应",
             "desc": "在问题变得昂贵之前获得警报。Sundae Coach提供立即行动的建议，而不是更新的仪表板。",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "每个地点，一览无余",
             "desc": "跨所有地点的统一可见性。组合级别的模式和地点级别的细节在一个视窗中。",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "与您共同成长",
@@ -3211,7 +3211,7 @@ export const generatedLocalCopy = {
               "电子邮件 + 聊天 + 电话支持"
             ],
             "bestFor": "1-10个地点，单品牌组合",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -3227,7 +3227,7 @@ export const generatedLocalCopy = {
               "优先电话支持（2小时服务水平协议）"
             ],
             "bestFor": "30-100个地点，多品牌运营商",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -3257,7 +3257,7 @@ export const generatedLocalCopy = {
             "status": "实时",
             "description": "完整的运营真相，每2-4小时更新一次。近实时的同班干预可见性。",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -3265,7 +3265,7 @@ export const generatedLocalCopy = {
             "status": "实时",
             "description": "实时预算差异跟踪。财务团队的快速报告。本周和本月的可见性。",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -3461,13 +3461,13 @@ export const generatedLocalCopy = {
             "title": "予測的、反応的ではない",
             "desc": "問題が高額になる前にアラートを受け取ります。ダッシュボードの更新ではなく、即時アクションのためのSundae Coachの推奨。",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "すべてのロケーション、1つのビュー",
             "desc": "すべてのロケーションにわたる統一された可視性。ポートフォリオレベルのパターンとロケーションレベルの詳細を1つの画面で。",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "あなたと共に成長",
@@ -3498,7 +3498,7 @@ export const generatedLocalCopy = {
               "メール + チャット + 電話サポート"
             ],
             "bestFor": "1-10店舗、単一ブランドポートフォリオ",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -3514,7 +3514,7 @@ export const generatedLocalCopy = {
               "優先電話サポート（2時間SLA）"
             ],
             "bestFor": "30-100店舗、複数ブランド運営者",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -3544,7 +3544,7 @@ export const generatedLocalCopy = {
             "status": "リアルタイム",
             "description": "完全な運用の真実、2〜4時間ごとに更新。シフト内介入のためのほぼリアルタイムの可視性。",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -3552,7 +3552,7 @@ export const generatedLocalCopy = {
             "status": "リアルタイム",
             "description": "リアルタイムの予算差異追跡。財務チーム向けのフラッシュレポート。週ごとのおよび月ごとの可視性。",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -3748,13 +3748,13 @@ export const generatedLocalCopy = {
             "title": "예측적, 반응적이지 않음",
             "desc": "문제가 비용이 많이 들기 전에 경고를 받으세요. 대시보드가 아닌 즉각적인 조치를 위한 Sundae Coach 추천.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "모든 위치, 하나의 보기",
             "desc": "모든 위치에 대한 통합 가시성. 포트폴리오 수준의 패턴과 위치 수준의 세부정보를 단일 창에서 제공합니다.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "당신과 함께 성장합니다",
@@ -3785,7 +3785,7 @@ export const generatedLocalCopy = {
               "이메일 + 채팅 + 전화 지원"
             ],
             "bestFor": "1-10개 위치, 단일 브랜드 포트폴리오",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -3801,7 +3801,7 @@ export const generatedLocalCopy = {
               "우선 전화 지원 (2시간 SLA)"
             ],
             "bestFor": "30-100개 위치, 다중 브랜드 운영자",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -3831,7 +3831,7 @@ export const generatedLocalCopy = {
             "status": "실시간",
             "description": "완전한 운영 진실, 2-4시간마다 업데이트됩니다. 같은 교대 근무 중 개입을 위한 거의 실시간 가시성.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -3839,7 +3839,7 @@ export const generatedLocalCopy = {
             "status": "실시간",
             "description": "실시간 예산 변동 추적. 재무 팀을 위한 플래시 보고서. 주간 및 월간 가시성.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -4035,13 +4035,13 @@ export const generatedLocalCopy = {
             "title": "Prediktif, Bukan Reaktif",
             "desc": "Dapatkan peringatan sebelum masalah menjadi mahal. Rekomendasi Sundae Coach untuk tindakan segera - bukan dasbor yang diperbarui.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Setiap Lokasi, Satu Tampilan",
             "desc": "Visibilitas terpadu di semua lokasi. Pola tingkat portofolio dan detail tingkat lokasi dalam satu tampilan.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Berkembang Bersama Anda",
@@ -4072,7 +4072,7 @@ export const generatedLocalCopy = {
               "Dukungan Email + Chat + Telepon"
             ],
             "bestFor": "1-10 lokasi, portofolio merek tunggal",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -4088,7 +4088,7 @@ export const generatedLocalCopy = {
               "Dukungan telepon prioritas (SLA 2 jam)"
             ],
             "bestFor": "30-100 lokasi, operator multi-merek",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -4118,7 +4118,7 @@ export const generatedLocalCopy = {
             "status": "Waktu Nyata",
             "description": "Kebenaran operasional lengkap, diperbarui setiap 2-4 jam. Visibilitas hampir waktu nyata untuk intervensi dalam shift yang sama.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -4126,7 +4126,7 @@ export const generatedLocalCopy = {
             "status": "Waktu Nyata",
             "description": "Pelacakan varians anggaran waktu nyata. Laporan cepat untuk tim keuangan. Visibilitas minggu ini dan bulan ini.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -4322,13 +4322,13 @@ export const generatedLocalCopy = {
             "title": "Dự Đoán, Không Phản Ứng",
             "desc": "Nhận thông báo trước khi vấn đề trở nên tốn kém. Đề xuất hành động ngay lập tức từ Sundae Coach - không phải bảng điều khiển cập nhật.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Mỗi Địa Điểm, Một Cái Nhìn",
             "desc": "Tầm nhìn thống nhất trên tất cả các địa điểm. Mô hình cấp danh mục và chi tiết cấp địa điểm trong một khung nhìn duy nhất.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Phát Triển Cùng Bạn",
@@ -4359,7 +4359,7 @@ export const generatedLocalCopy = {
               "Hỗ trợ qua Email + Chat + Điện thoại"
             ],
             "bestFor": "1-10 địa điểm, danh mục thương hiệu đơn",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -4375,7 +4375,7 @@ export const generatedLocalCopy = {
               "Hỗ trợ điện thoại ưu tiên (2 giờ SLA)"
             ],
             "bestFor": "30-100 địa điểm, nhà điều hành đa thương hiệu",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -4405,7 +4405,7 @@ export const generatedLocalCopy = {
             "status": "Thời Gian Thực",
             "description": "Sự thật vận hành hoàn chỉnh, được cập nhật mỗi 2-4 giờ. Tầm nhìn gần thời gian thực cho các can thiệp cùng ca.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -4413,7 +4413,7 @@ export const generatedLocalCopy = {
             "status": "Thời Gian Thực",
             "description": "Theo dõi biến động ngân sách theo thời gian thực. Báo cáo nhanh cho các đội tài chính. Tầm nhìn từ đầu tuần đến nay và từ đầu tháng đến nay.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -4609,13 +4609,13 @@ export const generatedLocalCopy = {
             "title": "Predictiv, Nu Reacționar",
             "desc": "Primește alerte înainte ca problemele să devină costisitoare. Recomandările Sundae Coach pentru acțiuni imediate - nu tablouri de bord care se actualizează.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Fiecare Locație, O Viziune",
             "desc": "Vizibilitate unificată în toate locațiile. Modele la nivel de portofoliu și detalii la nivel de locație într-o singură fereastră.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Crește Împreună cu Tine",
@@ -4646,7 +4646,7 @@ export const generatedLocalCopy = {
               "Asistență prin Email + Chat + Telefon"
             ],
             "bestFor": "1-10 locații, portofolii de marcă unică",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -4662,7 +4662,7 @@ export const generatedLocalCopy = {
               "Asistență telefonică prioritară (SLA de 2 ore)"
             ],
             "bestFor": "30-100 locații, operatori multi-marcă",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -4692,7 +4692,7 @@ export const generatedLocalCopy = {
             "status": "În timp real",
             "description": "Adevărul operațional complet, actualizat la fiecare 2-4 ore. Vizibilitate aproape în timp real pentru intervenții în aceeași tură.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -4700,7 +4700,7 @@ export const generatedLocalCopy = {
             "status": "În timp real",
             "description": "Urmărirea variației bugetare în timp real. Raportare rapidă pentru echipele financiare. Vizibilitate săptămânală și lunară.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -4896,13 +4896,13 @@ export const generatedLocalCopy = {
             "title": "Prediktiv, inte reaktiv",
             "desc": "Få varningar innan problemen blir kostsamma. Sundae Coach-rekommendationer för omedelbar åtgärd - inte instrumentpaneler som uppdateras.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Varje plats, en vy",
             "desc": "Enhetlig synlighet över alla platser. Mönster på portföljnivå och detaljer på platsnivå i en enda vy.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Växer med dig",
@@ -4933,7 +4933,7 @@ export const generatedLocalCopy = {
               "E-post + Chatt + Telefon support"
             ],
             "bestFor": "1-10 platser, enstaka varumärkesportföljer",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -4949,7 +4949,7 @@ export const generatedLocalCopy = {
               "Prioriterad telefon support (2 tim SLA)"
             ],
             "bestFor": "30-100 platser, fler varumärkesoperatörer",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -4979,7 +4979,7 @@ export const generatedLocalCopy = {
             "status": "Realtid",
             "description": "Fullständig operationell sanning, uppdaterad var 2-4 timme. Nära realtidsinsyn för insatser under samma skift.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -4987,7 +4987,7 @@ export const generatedLocalCopy = {
             "status": "Realtid",
             "description": "Realtidsövervakning av budgetavvikelser. Snabbrapportering för ekonomiteam. Veckans och månadens insyn.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -5183,13 +5183,13 @@ export const generatedLocalCopy = {
             "title": "পূর্বাভাসমূলক, প্রতিক্রিয়াশীল নয়",
             "desc": "সমস্যাগুলি ব্যয়বহুল হওয়ার আগে সতর্কতা পান। তাত্ক্ষণিক পদক্ষেপের জন্য Sundae Coach সুপারিশ - আপডেট হওয়া ড্যাশবোর্ড নয়।",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "প্রতিটি স্থান, একটি দৃশ্য",
             "desc": "সমস্ত স্থানের মধ্যে একক দৃশ্যমানতা। একটি একক প্যানেলে পোর্টফোলিও-স্তরের প্যাটার্ন এবং স্থান-স্তরের বিস্তারিত।",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "আপনার সাথে বৃদ্ধি পায়",
@@ -5220,7 +5220,7 @@ export const generatedLocalCopy = {
               "ইমেইল + চ্যাট + ফোন সমর্থন"
             ],
             "bestFor": "১-১০ লোকেশন, একক-ব্র্যান্ড পোর্টফোলিও",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -5236,7 +5236,7 @@ export const generatedLocalCopy = {
               "প্রাধিকার ফোন সমর্থন (২ ঘন্টা SLA)"
             ],
             "bestFor": "৩০-১০০ লোকেশন, বহু-ব্র্যান্ড অপারেটর",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -5266,7 +5266,7 @@ export const generatedLocalCopy = {
             "status": "রিয়েল-টাইম",
             "description": "সম্পূর্ণ অপারেশনাল সত্য, প্রতি ২-৪ ঘন্টায় আপডেট হয়। একই শিফটে হস্তক্ষেপের জন্য নিকট রিয়েল-টাইম দৃশ্যমানতা।",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -5274,7 +5274,7 @@ export const generatedLocalCopy = {
             "status": "রিয়েল-টাইম",
             "description": "রিয়েল-টাইম বাজেট ভেরিয়েন্স ট্র্যাকিং। ফাইন্যান্স টিমের জন্য ফ্ল্যাশ রিপোর্টিং। সপ্তাহের এবং মাসের জন্য দৃশ্যমানতা।",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -5470,13 +5470,13 @@ export const generatedLocalCopy = {
             "title": "คาดการณ์ ไม่ใช่ตอบสนอง",
             "desc": "รับการแจ้งเตือนก่อนที่ปัญหาจะกลายเป็นค่าใช้จ่ายสูง Sundae Coach แนะนำการดำเนินการทันที - ไม่ใช่แดชบอร์ดที่อัปเดต.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "ทุกสถานที่ มุมมองเดียว",
             "desc": "การมองเห็นที่รวมกันทั่วทุกสถานที่ รูปแบบในระดับพอร์ตโฟลิโอและรายละเอียดในระดับสถานที่ในหน้าต่างเดียว.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "เติบโตไปพร้อมกับคุณ",
@@ -5507,7 +5507,7 @@ export const generatedLocalCopy = {
               "การสนับสนุนทางอีเมล + แชท + โทรศัพท์"
             ],
             "bestFor": "1-10 สถานที่, พอร์ตโฟลิโอแบรนด์เดียว",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -5523,7 +5523,7 @@ export const generatedLocalCopy = {
               "การสนับสนุนทางโทรศัพท์ลำดับความสำคัญ (SLA 2 ชั่วโมง)"
             ],
             "bestFor": "30-100 สถานที่, ผู้ดำเนินการหลายแบรนด์",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -5553,7 +5553,7 @@ export const generatedLocalCopy = {
             "status": "เรียลไทม์",
             "description": "ความจริงในการดำเนินงานที่ครบถ้วน อัปเดตทุก 2-4 ชั่วโมง มองเห็นใกล้เรียลไทม์สำหรับการแทรกแซงในกะเดียวกัน.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -5561,7 +5561,7 @@ export const generatedLocalCopy = {
             "status": "เรียลไทม์",
             "description": "ติดตามความแปรปรวนของงบประมาณแบบเรียลไทม์ รายงานด่วนสำหรับทีมการเงิน มองเห็นตั้งแต่ต้นสัปดาห์ถึงปัจจุบันและต้นเดือนถึงปัจจุบัน.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",
@@ -5757,13 +5757,13 @@ export const generatedLocalCopy = {
             "title": "Prediktif, Bukan Reaktif",
             "desc": "Dapatkan amaran sebelum masalah menjadi mahal. Cadangan Sundae Coach untuk tindakan segera - bukan papan pemuka yang dikemas kini.",
             "icon": "forecasting",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "title": "Setiap Lokasi, Satu Pandangan",
             "desc": "Keterlihatan bersatu di semua lokasi. Corak peringkat portfolio dan butiran peringkat lokasi dalam satu paparan.",
             "icon": "multiLocation",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "title": "Berkembang Bersama Anda",
@@ -5794,7 +5794,7 @@ export const generatedLocalCopy = {
               "Sokongan Email + Chat + Telefon"
             ],
             "bestFor": "1-10 lokasi, portfolio jenama tunggal",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "name": "Core Pro",
@@ -5810,7 +5810,7 @@ export const generatedLocalCopy = {
               "Sokongan telefon keutamaan (SLA 2 jam)"
             ],
             "bestFor": "30-100 lokasi, pengendali pelbagai jenama",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "name": "Enterprise",
@@ -5840,7 +5840,7 @@ export const generatedLocalCopy = {
             "status": "Masa Nyata",
             "description": "Kebenaran operasi lengkap, dikemas kini setiap 2-4 jam. Keterlihatan hampir masa nyata untuk intervensi dalam syif yang sama.",
             "icon": "report",
-            "color": "from-blue-500 to-blue-600"
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
             "dimension": "2D",
@@ -5848,7 +5848,7 @@ export const generatedLocalCopy = {
             "status": "Masa Nyata",
             "description": "Pengesanan varians bajet masa nyata. Laporan kilat untuk pasukan kewangan. Keterlihatan minggu hingga kini dan bulan hingga kini.",
             "icon": "marketing",
-            "color": "from-purple-500 to-purple-600"
+            "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
             "dimension": "3D",

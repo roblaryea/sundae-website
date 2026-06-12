@@ -167,7 +167,14 @@ p + p { margin-top: 1rem; }
 
 .card-title { font-size: 20px; font-weight: 600; line-height: 1.4; color: var(--text-primary); }
 .card-description { font-size: 16px; line-height: 1.6; color: var(--text-supporting); }
-button, .btn { font-weight: 600; font-size: 16px; }
+/* Button text default lives in @layer base so Tailwind text-size / font-weight
+   utilities (e.g. nav items styled text-sm font-medium) correctly override it.
+   Unlayered, this rule beat the utilities and forced every utility-styled button
+   to 16px/600 — which is why nav <button> triggers (Products/Solutions/Resources)
+   rendered larger/bolder than the <a> links (Pricing/About). */
+@layer base {
+  button, .btn { font-weight: 600; font-size: 16px; }
+}
 .cta-link { font-size: 16px; font-weight: 500; color: var(--accent-warm); }
 .testimonial-text { font-size: 17px; line-height: 1.65; color: var(--text-secondary); }
 

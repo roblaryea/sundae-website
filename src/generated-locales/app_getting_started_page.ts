@@ -42,7 +42,7 @@ export const generatedLocalCopy = {
           "cta": "تعرف على التقرير",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "قرر مسار الترقية",
@@ -91,7 +91,7 @@ export const generatedLocalCopy = {
           "cta": "تعرف على Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "التوسع في المؤسسة",
@@ -108,7 +108,7 @@ export const generatedLocalCopy = {
           "cta": "اتصل بالمبيعات",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "لا الجداول الزمنية القسرية",
@@ -191,7 +191,7 @@ export const generatedLocalCopy = {
           "description": "توصيات مخصصة",
           "button": "عرض الكتاب →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -236,7 +236,7 @@ export const generatedLocalCopy = {
           "cta": "En savoir plus sur le rapport",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Décider du chemin de mise à niveau",
@@ -285,7 +285,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Passer à l'entreprise",
@@ -302,7 +302,7 @@ export const generatedLocalCopy = {
           "cta": "Contacter le service commercial",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Pas de délais forcés",
@@ -385,7 +385,7 @@ export const generatedLocalCopy = {
           "description": "Recommandations personnalisées",
           "button": "Livre Démo →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -430,7 +430,7 @@ export const generatedLocalCopy = {
           "cta": "Más información sobre el informe",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Decidir la ruta de actualización",
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
           "cta": "Más información sobre la Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Escalar a la empresa",
@@ -496,7 +496,7 @@ export const generatedLocalCopy = {
           "cta": "Contacto Ventas",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Sin líneas de tiempo forzadas",
@@ -579,7 +579,7 @@ export const generatedLocalCopy = {
           "description": "Recomendaciones personalizadas",
           "button": "Reservar demostración →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -624,7 +624,7 @@ export const generatedLocalCopy = {
           "cta": "Meer informatie over rapport",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Bepaal het upgradepad",
@@ -673,7 +673,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Schaal naar onderneming",
@@ -690,7 +690,7 @@ export const generatedLocalCopy = {
           "cta": "Neem contact op met Verkoop",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Geen gedwongen tijdlijnen",
@@ -773,7 +773,7 @@ export const generatedLocalCopy = {
           "description": "Aangepaste aanbevelingen",
           "button": "Boekdemo →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -818,7 +818,7 @@ export const generatedLocalCopy = {
           "cta": "Saiba mais sobre o relatório",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Decida o caminho de atualização",
@@ -867,7 +867,7 @@ export const generatedLocalCopy = {
           "cta": "Saiba mais sobre a Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Dimensione para empresas",
@@ -884,7 +884,7 @@ export const generatedLocalCopy = {
           "cta": "Entre em contato com vendas",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Sem cronogramas forçados",
@@ -967,7 +967,7 @@ export const generatedLocalCopy = {
           "description": "Recomendações personalizadas",
           "button": "Demonstração do livro →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -1012,7 +1012,7 @@ export const generatedLocalCopy = {
           "cta": "Erfahren Sie mehr über den Bericht",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Legen Sie den Upgrade-Pfad fest",
@@ -1061,7 +1061,7 @@ export const generatedLocalCopy = {
           "cta": "Erfahren Sie mehr über den Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Auf Unternehmen skalieren",
@@ -1078,7 +1078,7 @@ export const generatedLocalCopy = {
           "cta": "Kontaktieren Sie den Vertrieb",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Keine erzwungenen Zeitpläne",
@@ -1161,7 +1161,7 @@ export const generatedLocalCopy = {
           "description": "Individuelle Empfehlungen",
           "button": "Demo buchen →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -1206,7 +1206,7 @@ export const generatedLocalCopy = {
           "cta": "رپورٹ کے بارے میں جانیں۔",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "اپ گریڈ پاتھ کا فیصلہ کریں۔",
@@ -1255,7 +1255,7 @@ export const generatedLocalCopy = {
           "cta": "Watchtower کے بارے میں جانیں۔",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "انٹرپرائز تک پیمانہ",
@@ -1272,7 +1272,7 @@ export const generatedLocalCopy = {
           "cta": "سیلز سے رابطہ کریں۔",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "کوئی زبردستی ٹائم لائنز نہیں۔",
@@ -1355,7 +1355,7 @@ export const generatedLocalCopy = {
           "description": "اپنی مرضی کے مطابق سفارشات",
           "button": "بک ڈیمو →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -1400,7 +1400,7 @@ export const generatedLocalCopy = {
           "cta": "了解报告",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "决定升级路径",
@@ -1449,7 +1449,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "扩展到企业级",
@@ -1466,7 +1466,7 @@ export const generatedLocalCopy = {
           "cta": "联系销售人员",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "无强制时间表",
@@ -1549,7 +1549,7 @@ export const generatedLocalCopy = {
           "description": "定制推荐",
           "button": "预订演示 →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -1594,7 +1594,7 @@ export const generatedLocalCopy = {
           "cta": "रिपोर्ट के बारे में जानें",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "अपग्रेड पथ तय करें",
@@ -1643,7 +1643,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "उद्यम के लिए स्केल",
@@ -1660,7 +1660,7 @@ export const generatedLocalCopy = {
           "cta": "बिक्री से संपर्क करें",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "कोई ज़बरदस्ती समयसीमा नहीं",
@@ -1743,7 +1743,7 @@ export const generatedLocalCopy = {
           "description": "कस्टम सिफ़ारिशें",
           "button": "बुक डेमो →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -1788,7 +1788,7 @@ export const generatedLocalCopy = {
           "cta": "Informazioni sul rapporto",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Decidi il percorso di aggiornamento",
@@ -1837,7 +1837,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Scalabilità aziendale",
@@ -1854,7 +1854,7 @@ export const generatedLocalCopy = {
           "cta": "Contatta le vendite",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Nessuna sequenza temporale forzata",
@@ -1937,7 +1937,7 @@ export const generatedLocalCopy = {
           "description": "Raccomandazioni personalizzate",
           "button": "Dimostrazione del libro →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -1982,7 +1982,7 @@ export const generatedLocalCopy = {
           "cta": "Rapor Hakkında Bilgi Edinin",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Yükseltme Yoluna Karar Verin",
@@ -2031,7 +2031,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Kurumsal Ölçeklendirme",
@@ -2048,7 +2048,7 @@ export const generatedLocalCopy = {
           "cta": "Satış Ekibiyle İletişime Geçin",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Zorunlu Zaman Çizelgesi Yok",
@@ -2131,7 +2131,7 @@ export const generatedLocalCopy = {
           "description": "Özel öneriler",
           "button": "Kitap Demosu →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -2176,7 +2176,7 @@ export const generatedLocalCopy = {
           "cta": "Dowiedz się więcej o raporcie",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Wybierz ścieżkę aktualizacji",
@@ -2225,7 +2225,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Skaluj do poziomu przedsiębiorstwa",
@@ -2242,7 +2242,7 @@ export const generatedLocalCopy = {
           "cta": "Skontaktuj się z działem sprzedaży",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Żadnych wymuszonych terminów",
@@ -2325,7 +2325,7 @@ export const generatedLocalCopy = {
           "description": "Niestandardowe rekomendacje",
           "button": "Książka Demo →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -2370,7 +2370,7 @@ export const generatedLocalCopy = {
           "cta": "보고서에 대해 알아보기",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "업그레이드 경로 결정",
@@ -2419,7 +2419,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "엔터프라이즈로 확장",
@@ -2436,7 +2436,7 @@ export const generatedLocalCopy = {
           "cta": "영업팀에 문의",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "강제 일정 없음",
@@ -2519,7 +2519,7 @@ export const generatedLocalCopy = {
           "description": "맞춤 추천",
           "button": "데모 예약 →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -2564,7 +2564,7 @@ export const generatedLocalCopy = {
           "cta": "Aflați despre raport",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Decideți calea de actualizare",
@@ -2613,7 +2613,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Scala la Enterprise",
@@ -2630,7 +2630,7 @@ export const generatedLocalCopy = {
           "cta": "Contactați vânzări",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Fără cronologie forțate",
@@ -2713,7 +2713,7 @@ export const generatedLocalCopy = {
           "description": "Recomandări personalizate",
           "button": "Demo carte →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -2758,7 +2758,7 @@ export const generatedLocalCopy = {
           "cta": "レポートについて学ぶ",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "アップグレード パスの決定",
@@ -2807,7 +2807,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "エンタープライズに合わせて拡張する",
@@ -2824,7 +2824,7 @@ export const generatedLocalCopy = {
           "cta": "営業担当者へのお問い合わせ",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "強制的なタイムラインはありません",
@@ -2907,7 +2907,7 @@ export const generatedLocalCopy = {
           "description": "カスタムの推奨事項",
           "button": "デモを予約 →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -2952,7 +2952,7 @@ export const generatedLocalCopy = {
           "cta": "Pelajari Tentang Laporan",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Putuskan Jalur Peningkatan",
@@ -3001,7 +3001,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Skalakan ke Perusahaan",
@@ -3018,7 +3018,7 @@ export const generatedLocalCopy = {
           "cta": "Hubungi Penjualan",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Tidak Ada Garis Waktu yang Dipaksakan",
@@ -3101,7 +3101,7 @@ export const generatedLocalCopy = {
           "description": "Rekomendasi khusus",
           "button": "Demo Buku →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -3146,7 +3146,7 @@ export const generatedLocalCopy = {
           "cta": "Tìm hiểu về báo cáo",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Quyết định đường dẫn nâng cấp",
@@ -3195,7 +3195,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Mở rộng quy mô sang doanh nghiệp",
@@ -3212,7 +3212,7 @@ export const generatedLocalCopy = {
           "cta": "Liên hệ bán hàng",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Không có mốc thời gian bắt buộc",
@@ -3295,7 +3295,7 @@ export const generatedLocalCopy = {
           "description": "Đề xuất tùy chỉnh",
           "button": "Giới thiệu sách →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -3340,7 +3340,7 @@ export const generatedLocalCopy = {
           "cta": "রিপোর্ট সম্পর্কে জানুন",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "আপগ্রেড পাথ সিদ্ধান্ত নিন",
@@ -3389,7 +3389,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "এন্টারপ্রাইজে স্কেল করুন",
@@ -3406,7 +3406,7 @@ export const generatedLocalCopy = {
           "cta": "যোগাযোগ বিক্রয়",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "কোন জোরপূর্বক সময়রেখা নেই",
@@ -3489,7 +3489,7 @@ export const generatedLocalCopy = {
           "description": "কাস্টম সুপারিশ",
           "button": "বুক ডেমো →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -3534,7 +3534,7 @@ export const generatedLocalCopy = {
           "cta": "Lär dig om rapport",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Bestäm uppgraderingsväg",
@@ -3583,7 +3583,7 @@ export const generatedLocalCopy = {
           "cta": "Lär dig mer om Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Skala till Enterprise",
@@ -3600,7 +3600,7 @@ export const generatedLocalCopy = {
           "cta": "Kontakta försäljning",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Inga tvingade tidslinjer",
@@ -3683,7 +3683,7 @@ export const generatedLocalCopy = {
           "description": "Anpassade rekommendationer",
           "button": "Bokdemo →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -3728,7 +3728,7 @@ export const generatedLocalCopy = {
           "cta": "เรียนรู้เกี่ยวกับรายงาน",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "ตัดสินใจเลือกเส้นทางการอัพเกรด",
@@ -3777,7 +3777,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "ปรับขนาดเป็นองค์กร",
@@ -3794,7 +3794,7 @@ export const generatedLocalCopy = {
           "cta": "ติดต่อฝ่ายขาย",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "ไม่มีไทม์ไลน์บังคับ",
@@ -3877,7 +3877,7 @@ export const generatedLocalCopy = {
           "description": "คำแนะนำที่กำหนดเอง",
           "button": "หนังสือสาธิต →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]
@@ -3922,7 +3922,7 @@ export const generatedLocalCopy = {
           "cta": "Ketahui Mengenai Laporan",
           "ctaLink": "/report",
           "icon": "benchmarking",
-          "color": "from-purple-500 to-purple-600"
+          "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
           "title": "Tentukan Laluan Naik Taraf",
@@ -3971,7 +3971,7 @@ export const generatedLocalCopy = {
           "cta": "Learn About Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
-          "color": "from-indigo-500 to-indigo-600"
+          "color": "from-[#FF6B5B] to-[#E03E48]"
         },
         {
           "title": "Skala kepada Perusahaan",
@@ -3988,7 +3988,7 @@ export const generatedLocalCopy = {
           "cta": "Hubungi Jualan",
           "ctaLink": "/contact",
           "icon": "multiLocation",
-          "color": "from-purple-500 to-pink-600"
+          "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
       "noForcedTitle": "Tiada Garis Masa Paksa",
@@ -4071,7 +4071,7 @@ export const generatedLocalCopy = {
           "description": "Pengesyoran tersuai",
           "button": "Demo Buku →",
           "icon": "conversation",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "href": "/demo"
         }
       ]

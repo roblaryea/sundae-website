@@ -189,7 +189,7 @@ const pricingAddOns: PricingAddon[] = [
       "12 specialized modules including Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, Cross-Intelligence, Foresight Intelligence, and Executive Summary.",
     note: "Requires Core tier. Priced per module.",
     icon: "data",
-    color: "from-purple-500 to-purple-600",
+    color: "from-[#F2B45C] to-[#C2410C]",
   },
   {
     name: "Cross-Intelligence",
@@ -197,7 +197,7 @@ const pricingAddOns: PricingAddon[] = [
       "A correlation layer that starts working once you activate three or more modules. Base covers core correlations; Pro adds attribution and cannibalization detection.",
     note: "Requires Core tier with 3+ modules. Pro: $199/mo + $19/loc",
     icon: "crossIntelligence",
-    color: "from-purple-500 to-cyan-600",
+    color: "from-[#E9A24A] to-[#F2C078]",
   },
   {
     name: "Credit Top-Ups",

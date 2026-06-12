@@ -86,7 +86,7 @@ const localizedWatchtowerCopy = {
           "Integration with Pulse targets for event-aware pacing",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "Market & Trends",
@@ -216,7 +216,7 @@ const localizedWatchtowerCopy = {
           "تكامل مع أهداف Pulse للإيقاع الواعي بالأحداث",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "السوق والاتجاهات",
@@ -328,7 +328,7 @@ const localizedWatchtowerCopy = {
           "Integration avec Pulse pour un pacing sensible aux evenements",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "Marche et tendances",
@@ -440,7 +440,7 @@ const localizedWatchtowerCopy = {
           "Integracion con Pulse para ritmo sensible a eventos",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "Mercado y tendencias",
@@ -689,7 +689,7 @@ export default function WatchtowerPage() {
             </Button>
           </StaggerItem>
           <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
-            <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="conversation" size="lg" className="text-white" />
             </div>
             <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaSales}</h3>

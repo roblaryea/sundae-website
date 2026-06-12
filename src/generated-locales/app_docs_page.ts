@@ -51,7 +51,7 @@ export const generatedLocalCopy = {
           "title": "Guide de Sundae Core",
           "description": "Maîtrisez l'intelligence d'affaires conversationnelle avec des requêtes en langage naturel",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Poser des questions en anglais simple",
             "Explorer les tableaux de bord et graphiques",
@@ -77,7 +77,7 @@ export const generatedLocalCopy = {
           "title": "Insights & Tableaux de bord",
           "description": "Construisez et personnalisez des tableaux de bord pour chaque équipe",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Créer des tableaux de bord personnalisés",
             "Configurer des widgets et KPI",
@@ -176,7 +176,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Anleitung",
           "description": "Meistern Sie konversationelle Business Intelligence mit natürlichen Sprachabfragen",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Fragen in einfachem Englisch stellen",
             "Dashboards und Diagramme erkunden",
@@ -202,7 +202,7 @@ export const generatedLocalCopy = {
           "title": "Einblicke & Dashboards",
           "description": "Erstellen und passen Sie Dashboards für jedes Team an",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Erstellen von benutzerdefinierten Dashboards",
             "Konfigurieren von Widgets und KPIs",
@@ -301,7 +301,7 @@ export const generatedLocalCopy = {
           "title": "Guía de Sundae Core",
           "description": "Domina la inteligencia empresarial conversacional con consultas en lenguaje natural",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Hacer preguntas en inglés sencillo",
             "Explorar paneles y gráficos",
@@ -327,7 +327,7 @@ export const generatedLocalCopy = {
           "title": "Insights y Paneles",
           "description": "Construye y personaliza paneles para cada equipo",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crear paneles personalizados",
             "Configurar widgets y KPIs",
@@ -426,7 +426,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Gids",
           "description": "Beheers conversatiegerichte business intelligence met natuurlijke taalvragen",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Vragen stellen in eenvoudig Engels",
             "Dashboards en grafieken verkennen",
@@ -452,7 +452,7 @@ export const generatedLocalCopy = {
           "title": "Inzichten & Dashboards",
           "description": "Bouw en pas dashboards aan voor elk team",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Aangepaste dashboards maken",
             "Widgets en KPI's configureren",
@@ -551,7 +551,7 @@ export const generatedLocalCopy = {
           "title": "دليل Sundae Core",
           "description": "إتقان ذكاء الأعمال التفاعلي مع استفسارات اللغة الطبيعية",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "طرح الأسئلة باللغة الإنجليزية البسيطة",
             "استكشاف لوحات المعلومات والمخططات",
@@ -577,7 +577,7 @@ export const generatedLocalCopy = {
           "title": "الرؤى ولوحات المعلومات",
           "description": "إنشاء وتخصيص لوحات المعلومات لكل فريق",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "إنشاء لوحات معلومات مخصصة",
             "تكوين الأدوات ومؤشرات الأداء الرئيسية",
@@ -676,7 +676,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Guide",
           "description": "قدرتی زبان کے سوالات کے ساتھ کاروباری ذہانت میں مہارت حاصل کریں",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "سادہ انگریزی میں سوالات پوچھنا",
             "ڈیش بورڈز اور چارٹس کا جائزہ لینا",
@@ -702,7 +702,7 @@ export const generatedLocalCopy = {
           "title": "بصیرت اور ڈیش بورڈز",
           "description": "ہر ٹیم کے لیے ڈیش بورڈز بنائیں اور اپنی مرضی کے مطابق بنائیں",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "حسب ضرورت ڈیش بورڈز بنانا",
             "ویجٹس اور KPI کو ترتیب دینا",
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
           "title": "Guia do Sundae Core",
           "description": "Domine a inteligência de negócios conversacional com consultas em linguagem natural",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Fazendo perguntas em inglês simples",
             "Explorando painéis e gráficos",
@@ -827,7 +827,7 @@ export const generatedLocalCopy = {
           "title": "Insights & Dashboards",
           "description": "Crie e personalize painéis para cada equipe",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Criando painéis personalizados",
             "Configurando widgets e KPIs",
@@ -926,7 +926,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Guide",
           "description": "प्राकृतिक भाषा प्रश्नों के साथ संवादात्मक व्यावसायिक बुद्धिमत्ता में महारत हासिल करें",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "साधारण अंग्रेजी में प्रश्न पूछना",
             "डैशबोर्ड और चार्ट का अन्वेषण करना",
@@ -952,7 +952,7 @@ export const generatedLocalCopy = {
           "title": "अंतर्दृष्टियाँ और डैशबोर्ड",
           "description": "हर टीम के लिए डैशबोर्ड बनाएं और अनुकूलित करें",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "कस्टम डैशबोर्ड बनाना",
             "विजेट और KPI कॉन्फ़िगर करना",
@@ -1051,7 +1051,7 @@ export const generatedLocalCopy = {
           "title": "Guida a Sundae Core",
           "description": "Padroneggia l'intelligenza aziendale conversazionale con query in linguaggio naturale",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Porre domande in inglese semplice",
             "Esplorare dashboard e grafici",
@@ -1077,7 +1077,7 @@ export const generatedLocalCopy = {
           "title": "Intuizioni & Dashboard",
           "description": "Crea e personalizza dashboard per ogni team",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Creare dashboard personalizzate",
             "Configurare widget e KPI",
@@ -1176,7 +1176,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Guide",
           "description": "掌握自然语言查询的对话式商业智能",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "用简单英语提问",
             "探索仪表板和图表",
@@ -1202,7 +1202,7 @@ export const generatedLocalCopy = {
           "title": "洞察与仪表板",
           "description": "为每个团队构建和自定义仪表板",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "创建自定义仪表板",
             "配置小部件和KPI",
@@ -1301,7 +1301,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Kılavuzu",
           "description": "Doğal dil sorguları ile konuşma tabanlı iş zekasını ustalaşın",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sade İngilizce ile soru sorma",
             "Gösterge panellerini ve grafiklerini keşfetme",
@@ -1327,7 +1327,7 @@ export const generatedLocalCopy = {
           "title": "İçgörüler & Gösterge Panelleri",
           "description": "Her ekip için gösterge panelleri oluşturun ve özelleştirin",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Özel gösterge panelleri oluşturma",
             "Widget'ları ve KPI'ları yapılandırma",
@@ -1426,7 +1426,7 @@ export const generatedLocalCopy = {
           "title": "Przewodnik po Sundae Core",
           "description": "Opanuj konwersacyjną inteligencję biznesową za pomocą zapytań w naturalnym języku",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Zadawanie pytań w prostym angielskim",
             "Eksplorowanie pulpitów nawigacyjnych i wykresów",
@@ -1452,7 +1452,7 @@ export const generatedLocalCopy = {
           "title": "Spostrzeżenia i Pulpity nawigacyjne",
           "description": "Twórz i dostosowuj pulpity nawigacyjne dla każdego zespołu",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tworzenie niestandardowych pulpitów nawigacyjnych",
             "Konfigurowanie widgetów i KPI",
@@ -1551,7 +1551,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Coreガイド",
           "description": "自然言語クエリで会話型ビジネスインテリジェンスをマスターする",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "平易な英語で質問する",
             "ダッシュボードとチャートの探索",
@@ -1577,7 +1577,7 @@ export const generatedLocalCopy = {
           "title": "インサイトとダッシュボード",
           "description": "すべてのチームのためにダッシュボードを構築およびカスタマイズする",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "カスタムダッシュボードの作成",
             "ウィジェットとKPIの設定",
@@ -1676,7 +1676,7 @@ export const generatedLocalCopy = {
           "title": "Panduan Sundae Core",
           "description": "Kuasi kecerdasan bisnis percakapan dengan kueri bahasa alami",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Mengajukan pertanyaan dalam bahasa Inggris biasa",
             "Menjelajahi dasbor dan grafik",
@@ -1702,7 +1702,7 @@ export const generatedLocalCopy = {
           "title": "Wawasan & Dasbor",
           "description": "Membangun dan menyesuaikan dasbor untuk setiap tim",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat dasbor kustom",
             "Mengonfigurasi widget dan KPI",
@@ -1801,7 +1801,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core 가이드",
           "description": "자연어 쿼리로 대화형 비즈니스 인텔리전스를 마스터하세요",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "일반 영어로 질문하기",
             "대시보드 및 차트 탐색하기",
@@ -1827,7 +1827,7 @@ export const generatedLocalCopy = {
           "title": "인사이트 & 대시보드",
           "description": "모든 팀을 위한 대시보드 구축 및 사용자 정의하기",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "맞춤형 대시보드 만들기",
             "위젯 및 KPI 구성하기",
@@ -1926,7 +1926,7 @@ export const generatedLocalCopy = {
           "title": "Hướng dẫn Sundae Core",
           "description": "Làm chủ trí tuệ kinh doanh hội thoại với các truy vấn ngôn ngữ tự nhiên",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Đặt câu hỏi bằng tiếng Anh đơn giản",
             "Khám phá bảng điều khiển và biểu đồ",
@@ -1952,7 +1952,7 @@ export const generatedLocalCopy = {
           "title": "Thông tin & Bảng điều khiển",
           "description": "Xây dựng và tùy chỉnh bảng điều khiển cho mọi đội nhóm",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tạo bảng điều khiển tùy chỉnh",
             "Cấu hình widget và KPI",
@@ -2051,7 +2051,7 @@ export const generatedLocalCopy = {
           "title": "Ghidul Sundae Core",
           "description": "Stăpâniți inteligența de afaceri conversațională cu întrebări în limbaj natural",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Puneți întrebări în engleză simplă",
             "Explorarea tablourilor de bord și graficelor",
@@ -2077,7 +2077,7 @@ export const generatedLocalCopy = {
           "title": "Informații & Tablouri de bord",
           "description": "Construiți și personalizați tablouri de bord pentru fiecare echipă",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crearea tablourilor de bord personalizate",
             "Configurarea widget-urilor și KPI-urilor",
@@ -2176,7 +2176,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Guide",
           "description": "Behärska konverserande affärsintelligens med naturliga språkfrågor",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Ställa frågor på enkel engelska",
             "Utforska instrumentpaneler och diagram",
@@ -2202,7 +2202,7 @@ export const generatedLocalCopy = {
           "title": "Insikter & Instrumentpaneler",
           "description": "Bygg och anpassa instrumentpaneler för varje team",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Skapa anpassade instrumentpaneler",
             "Konfigurera widgets och KPI:er",
@@ -2301,7 +2301,7 @@ export const generatedLocalCopy = {
           "title": "คู่มือ Sundae Core",
           "description": "เชี่ยวชาญการวิเคราะห์ธุรกิจด้วยการตั้งคำถามด้วยภาษาธรรมชาติ",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "ตั้งคำถามเป็นภาษาอังกฤษธรรมดา",
             "สำรวจแดชบอร์ดและกราฟ",
@@ -2327,7 +2327,7 @@ export const generatedLocalCopy = {
           "title": "ข้อมูลเชิงลึก & แดชบอร์ด",
           "description": "สร้างและปรับแต่งแดชบอร์ดสำหรับทุกทีม",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "สร้างแดชบอร์ดที่กำหนดเอง",
             "กำหนดค่าวิดเจ็ตและ KPI",
@@ -2426,7 +2426,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Guide",
           "description": "প্রাকৃতিক ভাষার প্রশ্নের মাধ্যমে কথোপকথনমূলক ব্যবসায়িক বুদ্ধিমত্তা মাস্টার করুন",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "সাধারণ ইংরেজিতে প্রশ্ন করা",
             "ড্যাশবোর্ড এবং চার্ট অনুসন্ধান করা",
@@ -2452,7 +2452,7 @@ export const generatedLocalCopy = {
           "title": "অন্তর্দৃষ্টি ও ড্যাশবোর্ড",
           "description": "প্রতিটি দলের জন্য ড্যাশবোর্ড তৈরি এবং কাস্টমাইজ করুন",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "কাস্টম ড্যাশবোর্ড তৈরি করা",
             "উইজেট এবং KPI কনফিগার করা",
@@ -2551,7 +2551,7 @@ export const generatedLocalCopy = {
           "title": "Panduan Sundae Core",
           "description": "Kuasi kecerdasan perniagaan perbualan dengan pertanyaan bahasa semula jadi",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Mengajukan soalan dalam bahasa Inggeris biasa",
             "Meneroka papan pemuka dan carta",
@@ -2577,7 +2577,7 @@ export const generatedLocalCopy = {
           "title": "Pandangan & Papan Pemuka",
           "description": "Bina dan sesuaikan papan pemuka untuk setiap pasukan",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat papan pemuka tersuai",
             "Mengkonfigurasi widget dan KPI",

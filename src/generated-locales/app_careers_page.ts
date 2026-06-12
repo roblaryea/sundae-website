@@ -44,7 +44,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "تحفيز اعتماد منصة استخبارات القرار الخاصة بـ Sundae بين مجموعات المطاعم وشركات الضيافة.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "مدير نجاح العملاء",
@@ -71,7 +71,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "تصميم واجهات بديهية لمنصة ذكاء القرار لدينا. أنشئ تجارب رائعة وسهلة الاستخدام للمشغل.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -171,7 +171,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Favoriser l'adoption de la plateforme d'intelligence décisionnelle de Sundae parmi les groupes de restauration d'entreprise et les entreprises hôtelières.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Responsable de la réussite client",
@@ -198,7 +198,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Concevez des interfaces intuitives pour notre plateforme d’intelligence décisionnelle. Créez de belles expériences conviviales pour l’opérateur.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -298,7 +298,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Impulsar la adopción de la plataforma de inteligencia de decisiones de Sundae entre grupos empresariales de restaurantes y empresas hoteleras.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Gerente de Éxito del Cliente",
@@ -325,7 +325,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Diseñe interfaces intuitivas para nuestra plataforma de inteligencia de decisiones. Cree experiencias hermosas y fáciles de usar para el operador.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -425,7 +425,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Fördern Sie die Akzeptanz der Entscheidungsintelligenzplattform von Sundae bei Restaurantgruppen und Hotelunternehmen.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Kundenerfolgsmanager",
@@ -452,7 +452,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Entwerfen Sie intuitive Schnittstellen für unsere Decision-Intelligence-Plattform. Schaffen Sie schöne, bedienerfreundliche Erlebnisse.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -552,7 +552,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Impulsionar a adoção da plataforma de inteligência de decisão da Sundae entre grupos empresariais de restaurantes e empresas de hospitalidade.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Gerente de sucesso do cliente",
@@ -579,7 +579,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Projete interfaces intuitivas para nossa plataforma de inteligência de decisão. Crie experiências lindas e fáceis de operar.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -679,7 +679,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Stimuleer de adoptie van Sundae's beslissingsinformatieplatform onder grote restaurantgroepen en horecabedrijven.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Klantsuccesmanager",
@@ -706,7 +706,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Ontwerp intuïtieve interfaces voor ons beslissingsinformatieplatform. Creëer prachtige, gebruiksvriendelijke ervaringen.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -806,7 +806,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "انٹرپرائز ریستوراں گروپس اور مہمان نوازی کمپنیوں کے درمیان Sundae کے فیصلہ کن انٹیلی جنس پلیٹ فارم کو اپنانے کی کوشش کریں۔",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "کسٹمر کامیابی مینیجر",
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ہمارے فیصلہ کن انٹیلی جنس پلیٹ فارم کے لیے بدیہی انٹرفیس ڈیزائن کریں۔ خوبصورت، آپریٹر دوستانہ تجربات تخلیق کریں۔",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -933,7 +933,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "उद्यम रेस्तरां समूहों और आतिथ्य कंपनियों के बीच Sundae के निर्णय खुफिया मंच को अपनाने के लिए प्रेरित करें।",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "ग्राहक सफलता प्रबंधक",
@@ -960,7 +960,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "हमारे निर्णय इंटेलिजेंस प्लेटफ़ॉर्म के लिए सहज ज्ञान युक्त इंटरफ़ेस डिज़ाइन करें। सुंदर, ऑपरेटर-अनुकूल अनुभव बनाएं।",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1060,7 +1060,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Kurumsal restoran grupları ve konaklama şirketleri arasında Sundae'nin karar zekası platformunun benimsenmesini teşvik edin.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Müşteri Başarısı Yöneticisi",
@@ -1087,7 +1087,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Karar zekası platformumuz için sezgisel arayüzler tasarlayın. Güzel, operatör dostu deneyimler yaratın.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1187,7 +1187,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Promuovi l'adozione della piattaforma di decision intelligence di Sundae tra i gruppi di ristoranti aziendali e le società di ospitalità.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Responsabile del successo del cliente",
@@ -1214,7 +1214,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Progetta interfacce intuitive per la nostra piattaforma di decision intelligence. Crea esperienze straordinarie e intuitive per l'operatore.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1314,7 +1314,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Promuj przyjęcie platformy analizy decyzji Sundae wśród korporacyjnych grup restauracyjnych i firm z branży hotelarsko-gastronomicznej.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Menedżer sukcesu klienta",
@@ -1341,7 +1341,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Projektuj intuicyjne interfejsy dla naszej platformy analizy decyzji. Twórz piękne, przyjazne dla operatora doświadczenia.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1441,7 +1441,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "推动企业餐饮集团和酒店公司采用Sundae的决策智能平台。",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "客户成功经理",
@@ -1468,7 +1468,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "为我们的决策智能平台设计直观的界面。创造优美、操作友好的体验。",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1568,7 +1568,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "エンタープライズ レストラン グループやホスピタリティ企業における Sundae の意思決定インテリジェンス プラットフォームの導入を促進します。",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "カスタマーサクセスマネージャー",
@@ -1595,7 +1595,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "意思決定インテリジェンス プラットフォームの直感的なインターフェイスを設計します。美しく、オペレーターに優しいエクスペリエンスを作成します。",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1695,7 +1695,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "엔터프라이즈 레스토랑 그룹과 호텔 기업 사이에서 Sundae의 의사결정 인텔리전스 플랫폼 채택을 촉진하세요.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "고객 성공 관리자",
@@ -1722,7 +1722,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "의사결정 인텔리전스 플랫폼을 위한 직관적인 인터페이스를 디자인하세요. 아름답고 운영자 친화적인 경험을 만들어 보세요.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1822,7 +1822,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Stimulați adoptarea platformei de informare a deciziilor Sundae în rândul grupurilor de restaurante și companiilor de ospitalitate.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manager succes al clienților",
@@ -1849,7 +1849,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Proiectați interfețe intuitive pentru platforma noastră de informare a deciziilor. Creați experiențe frumoase, prietenoase cu operatorul.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1949,7 +1949,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Thúc đẩy việc áp dụng nền tảng thông tin quyết định của Sundae giữa các nhóm nhà hàng doanh nghiệp và công ty khách sạn.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Người quản lý thành công của khách hàng",
@@ -1976,7 +1976,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Thiết kế giao diện trực quan cho nền tảng thông tin quyết định của chúng tôi. Tạo ra những trải nghiệm đẹp đẽ, thân thiện với người vận hành.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2076,7 +2076,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Mendorong adopsi platform intelijen keputusan Sundae di antara grup restoran perusahaan dan perusahaan perhotelan.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manajer Kesuksesan Pelanggan",
@@ -2103,7 +2103,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Rancang antarmuka intuitif untuk platform intelijen keputusan kami. Ciptakan pengalaman yang indah dan ramah operator.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2203,7 +2203,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Driv införandet av Sundaes beslutsunderrättelseplattform bland företagsrestauranggrupper och hotellföretag. (Sundae)",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Customer Success Manager",
@@ -2230,7 +2230,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Designa intuitiva gränssnitt för vår beslutsunderrättelseplattform. Skapa vackra, operatörsvänliga upplevelser.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2330,7 +2330,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "এন্টারপ্রাইজ রেস্তোরাঁ গোষ্ঠী এবং আতিথেয়তা সংস্থাগুলির মধ্যে Sundae-এর সিদ্ধান্তের বুদ্ধিমত্তা প্ল্যাটফর্ম গ্রহণ করুন।",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "কাস্টমার সাকসেস ম্যানেজার",
@@ -2357,7 +2357,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "আমাদের সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্মের জন্য স্বজ্ঞাত ইন্টারফেস ডিজাইন করুন। সুন্দর, অপারেটর-বান্ধব অভিজ্ঞতা তৈরি করুন।",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2457,7 +2457,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ขับเคลื่อนการนำแพลตฟอร์มข้อมูลการตัดสินใจของ Sundae ไปใช้ในกลุ่มร้านอาหารระดับองค์กรและบริษัทด้านการบริการ",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "ผู้จัดการความสำเร็จของลูกค้า",
@@ -2484,7 +2484,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ออกแบบอินเทอร์เฟซที่ใช้งานง่ายสำหรับแพลตฟอร์มข้อมูลการตัดสินใจของเรา สร้างประสบการณ์ที่สวยงามและเป็นมิตรกับผู้ปฏิบัติงาน",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2584,7 +2584,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Dorong penggunaan platform risikan keputusan Sundae di kalangan kumpulan restoran perusahaan dan syarikat perhotelan.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pengurus Kejayaan Pelanggan",
@@ -2611,7 +2611,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Reka bentuk antara muka intuitif untuk platform risikan keputusan kami. Cipta pengalaman yang indah dan mesra pengendali.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [

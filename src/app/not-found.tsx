@@ -78,7 +78,7 @@ export default function NotFound() {
               className="drop-shadow-lg rounded-full"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-[#FF8473]/10 to-purple-400/10 rounded-full blur-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#FF8473]/10 to-[#F2B45C]/10 rounded-full blur-xl"></div>
           </motion.div>
         </motion.div>
 

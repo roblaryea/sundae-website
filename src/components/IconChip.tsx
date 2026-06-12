@@ -46,7 +46,7 @@ const gradientMap: Record<NonNullable<GradientIconChipProps["gradient"]>, string
  blue: "bg-gradient-to-br from-[#FF5C4D] to-[#E03E48]",
  green: "bg-gradient-to-br from-green-500 to-green-600",
  orange: "bg-gradient-to-br from-orange-500 to-red-500",
- purple: "bg-gradient-to-br from-purple-500 to-purple-600",
+ purple: "bg-gradient-to-br from-[#F2B45C] to-[#C2410C]",
 };
 
 export function GradientIconChip({ icon, gradient = "blue", size = "md" }: GradientIconChipProps) {

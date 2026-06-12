@@ -96,7 +96,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Sundae Core Guide",
         description: "Master conversational business intelligence with natural language queries",
         icon: "intelligence",
-        color: "bg-purple-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Asking questions in plain English",
           "Exploring dashboards and charts",
@@ -122,7 +122,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Insights & Dashboards",
         description: "Build and customize dashboards for every team",
         icon: "chart",
-        color: "bg-indigo-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Creating custom dashboards",
           "Configuring widgets and KPIs",
@@ -222,7 +222,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "دليل Sundae Core",
         description: "أتقن ذكاء الأعمال الحواري باستخدام أسئلة باللغة الطبيعية",
         icon: "intelligence",
-        color: "bg-purple-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "طرح الأسئلة بلغة طبيعية",
           "استكشاف اللوحات والرسوم",
@@ -248,7 +248,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "الرؤى ولوحات المعلومات",
         description: "أنشئ لوحات معلومات قابلة للتخصيص لكل فريق",
         icon: "chart",
-        color: "bg-indigo-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "إنشاء لوحات معلومات مخصصة",
           "تهيئة الأدوات ومؤشرات الأداء",
@@ -348,7 +348,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Guide Sundae Core",
         description: "Maitrisez l'intelligence decisionnelle conversationnelle en langage naturel",
         icon: "intelligence",
-        color: "bg-purple-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Poser des questions en langage simple",
           "Explorer tableaux de bord et graphiques",
@@ -374,7 +374,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Insights et tableaux de bord",
         description: "Construisez et adaptez des tableaux de bord pour chaque equipe",
         icon: "chart",
-        color: "bg-indigo-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Creer des tableaux de bord personnalises",
           "Configurer widgets et KPI",
@@ -474,7 +474,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Guia de Sundae Core",
         description: "Domina la inteligencia conversacional de negocio con preguntas en lenguaje natural",
         icon: "intelligence",
-        color: "bg-purple-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Hacer preguntas en lenguaje claro",
           "Explorar paneles y graficos",
@@ -500,7 +500,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Insights y paneles",
         description: "Crea y personaliza paneles para cada equipo",
         icon: "chart",
-        color: "bg-indigo-600",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Crear paneles personalizados",
           "Configurar widgets y KPI",
