@@ -32,7 +32,7 @@ interface TrioItem {
 const TRIO_SRCS: [string, string, string] = [
   '/images/editorial/plating.jpg',
   '/images/editorial/kitchen-flame.jpg',
-  '/images/editorial/service-warm.jpg',
+  '/images/editorial/dining-room.jpg',
 ];
 
 const cherry = { color: 'var(--warm-cherry)' } as const;
@@ -142,12 +142,6 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
                     }}
                   />
                 </div>
-                <figcaption
-                  className="mt-3 text-[11px] font-semibold uppercase tracking-[0.16em]"
-                  style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}
-                >
-                  {t.cap}
-                </figcaption>
               </figure>
             </FadeUp>
           ))}

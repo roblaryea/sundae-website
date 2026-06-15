@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getWebsiteIntlLocale } from "@/lib/i18n";
 import { heroDashboardCopy } from "./heroDashboardCopy";
 
 /**
@@ -48,6 +49,7 @@ export function HeroLiveDashboard() {
   const [serviceProgress, setServiceProgress] = useState(0.62);
   const [tickKey, setTickKey] = useState(0);
   const [coachIdx, setCoachIdx] = useState(0);
+  const [now, setNow] = useState<string | null>(null);
 
   useEffect(() => {
     if (reduceMotion) return;
@@ -67,6 +69,26 @@ export function HeroLiveDashboard() {
     const id = setInterval(() => setCoachIdx((i) => i + 1), COACH_MS);
     return () => clearInterval(id);
   }, [reduceMotion]);
+
+  // Live "updated at": the real current day + time in the active locale, so the
+  // header reads as genuinely live instead of a frozen timestamp. Set on mount
+  // via rAF (no synchronous setState in the effect body) and refreshed so the
+  // minute rolls over as the visitor watches. Falls back to copy.updatedAt for
+  // SSR + first paint (no hydration mismatch).
+  useEffect(() => {
+    const fmt = () =>
+      new Date().toLocaleString(getWebsiteIntlLocale(locale), {
+        weekday: "long",
+        hour: "numeric",
+        minute: "2-digit",
+      });
+    const raf = requestAnimationFrame(() => setNow(fmt()));
+    const id = reduceMotion ? undefined : setInterval(() => setNow(fmt()), 15000);
+    return () => {
+      cancelAnimationFrame(raf);
+      if (id) clearInterval(id);
+    };
+  }, [locale, reduceMotion]);
 
   // Derived - every figure flows from the three state values
   const avgCheck = revenue / covers;
@@ -106,7 +128,7 @@ export function HeroLiveDashboard() {
             {copy.paceLabel}
           </div>
           <div className="text-[9px] sm:text-[10px] text-[var(--text-muted)] font-mono mt-0.5">
-            {copy.updatedAt}
+            {now ?? copy.updatedAt}
           </div>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0">
