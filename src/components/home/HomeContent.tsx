@@ -437,7 +437,7 @@ export default function HomeContent() {
         ════════════════════════════════════════════════ */}
         <SectionEditorialSplit
           src="/images/editorial/service-warm.jpg"
-          light="/images/editorial/service-plates.jpg"
+          light="/images/editorial/dining-candlelit.jpg"
           alt={editorial.closer.alt}
           eyebrow={editorial.closer.eyebrow}
           headline={

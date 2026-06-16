@@ -30,7 +30,7 @@ interface TrioItem {
 }
 
 const TRIO_SRCS: [string, string, string] = [
-  '/images/editorial/plating.jpg',
+  '/images/editorial/service-plates.jpg',
   '/images/editorial/kitchen-flame.jpg',
   '/images/editorial/dining-room.jpg',
 ];
