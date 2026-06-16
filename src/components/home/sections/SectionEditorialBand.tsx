@@ -30,6 +30,8 @@ export interface EditorialBandProps {
   priority?: boolean;
   /** Section vertical padding. Default roomy. */
   padded?: boolean;
+  /** CSS object-position to bias the crop (e.g. "center 70%") on the wide band. */
+  objectPosition?: string;
 }
 
 export function SectionEditorialBand({
@@ -42,6 +44,7 @@ export function SectionEditorialBand({
   ratio = 'aspect-[16/10] sm:aspect-[2/1] lg:aspect-[21/9]',
   priority = false,
   padded = true,
+  objectPosition,
 }: EditorialBandProps) {
   return (
     <section aria-label={alt} className={`relative px-4 sm:px-6 lg:px-8 ${padded ? 'py-16 sm:py-20' : 'py-8 sm:py-10'}`}>
@@ -56,6 +59,7 @@ export function SectionEditorialBand({
             rounded="rounded-[24px]"
             priority={priority}
             parallax
+            objectPosition={objectPosition}
           >
             <div className="max-w-2xl">
               {/* Legible premium kicker - white copy + a blue accent rule.

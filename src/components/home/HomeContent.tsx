@@ -375,7 +375,8 @@ export default function HomeContent() {
             3a-band. HUMAN MOMENT - the brigade on the line
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
-          src="/images/editorial/kitchen-pass.jpg"
+          src="/images/editorial/kitchen-brigade.jpg"
+          objectPosition="center 72%"
           alt={editorial.band2.alt}
           eyebrow={editorial.band2.eyebrow}
           headline={withWordmark(
@@ -436,7 +437,7 @@ export default function HomeContent() {
             6d. CLOSER - the floor, before we ask for the meeting (split)
         ════════════════════════════════════════════════ */}
         <SectionEditorialSplit
-          src="/images/editorial/service-warm.jpg"
+          src="/images/editorial/dining-night.jpg"
           light="/images/editorial/dining-candlelit.jpg"
           alt={editorial.closer.alt}
           eyebrow={editorial.closer.eyebrow}

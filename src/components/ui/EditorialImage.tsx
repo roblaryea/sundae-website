@@ -36,6 +36,8 @@ interface EditorialImageProps {
   hover?: boolean;
   /** Subtle scroll-linked vertical parallax on the photo (cinematic, opt-in). Default false. Auto-disabled under prefers-reduced-motion. */
   parallax?: boolean;
+  /** CSS object-position for the photo (e.g. "center 70%") - bias the crop on extreme aspect ratios. */
+  objectPosition?: string;
   /** Extra classes on the outer frame. */
   className?: string;
   /** Overlaid content (kicker / quote), rendered above the scrim. */
@@ -68,6 +70,7 @@ export function EditorialImage({
   grain = true,
   hover = true,
   parallax = false,
+  objectPosition,
   className = '',
   children,
   sizes = '(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1200px',
@@ -91,6 +94,7 @@ export function EditorialImage({
         priority={priority}
         loading={priority ? undefined : 'lazy'}
         sizes={sizes}
+        style={objectPosition ? { objectPosition } : undefined}
         className={`object-cover ${light ? 'block [html.light_&]:hidden' : ''} ${
           hover ? 'transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]' : ''
         }`}

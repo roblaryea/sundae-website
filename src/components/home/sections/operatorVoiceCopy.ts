@@ -38,7 +38,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae closes that gap. The signal you need arrives while the shift is still yours to change - not buried in tomorrow’s report.',
     attribution: 'What we hear on every floor we build for',
     cta: 'See how it works',
-    alt: 'A restaurant kitchen brigade working the line during evening service',
+    alt: 'A server attending guests in a warmly lit dining room during evening service',
   },
   ar: {
     eyebrow: 'المشكلة التي تشغلنا',
