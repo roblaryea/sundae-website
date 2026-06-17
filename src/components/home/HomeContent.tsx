@@ -172,8 +172,9 @@ export default function HomeContent() {
             {/* Eyebrow badge */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0, ease: [0.25, 0.4, 0.25, 1] }}
               className="flex justify-center mb-8"
             >
               <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.28)] text-[#FF8473]">
@@ -185,8 +186,9 @@ export default function HomeContent() {
             {/* Headline */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <h2 className="section-h2 mb-5 max-w-3xl mx-auto" aria-label={`${home.titleTop} ${home.titleBottom}`}>
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
@@ -202,8 +204,9 @@ export default function HomeContent() {
             {/* Tagline */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.9, ease: [0.25, 0.4, 0.25, 1] }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <p className="body-xl max-w-2xl mx-auto mb-10">
                 {home.description}
@@ -215,8 +218,9 @@ export default function HomeContent() {
             <motion.div
               className="flex flex-col sm:flex-row gap-3 justify-center mb-4"
               initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1.1, ease: [0.25, 0.4, 0.25, 1] }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <Button
                 variant="cta"
@@ -230,8 +234,9 @@ export default function HomeContent() {
             {home.noCard ? (
               <motion.p
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.6, delay: 1.3 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
                 className="text-xs text-[var(--text-muted)]"
               >
                 {home.noCard}
@@ -244,16 +249,18 @@ export default function HomeContent() {
             id="pulse-live"
             className="max-w-5xl mx-auto mt-16 relative z-20 px-4 scroll-mt-24"
             initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             style={{ perspective: '1200px' }}
           >
             <div className="absolute -inset-x-10 bottom-0 h-48 bg-gradient-to-t from-[rgba(255,92,77,0.10)] via-[rgba(242,166,90,0.05)] to-transparent blur-2xl pointer-events-none rounded-full" />
 
             <motion.div
               initial={{ rotateX: 8, scale: 0.95, opacity: 0 }}
-              animate={{ rotateX: 1.5, scale: 1, opacity: 1 }}
-              transition={{ duration: 1.2, delay: 1.1, ease: [0.25, 0.1, 0.25, 1] }}
+              whileInView={{ rotateX: 1.5, scale: 1, opacity: 1 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             >
               <MockupFrame label={heroDash.frameLabel} glow>
                 <HeroLiveDashboard />
@@ -265,8 +272,9 @@ export default function HomeContent() {
           <motion.div
             className="max-w-4xl mx-auto mt-16 relative z-20"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 1.4 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, delay: 0.45 }}
           >
             <div className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center divide-x divide-[var(--border-default)] overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] backdrop-blur">
               {home.proofStats.map((item) => (

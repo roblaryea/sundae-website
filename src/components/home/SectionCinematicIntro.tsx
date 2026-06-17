@@ -266,14 +266,14 @@ function Glass() {
               <motion.text
                 key={`gl${i}`}
                 x={120}
-                y={yc + 2.3}
+                y={yc + 2.5}
                 textAnchor="middle"
-                fontSize="6.2"
+                fontSize="7"
                 fontWeight="700"
-                fill={onCream ? "#5A2417" : "#FFFFFF"}
-                style={{ textTransform: "uppercase", letterSpacing: "1.6px", fontFamily: "var(--font-sans)" }}
+                fill={onCream ? "#5A2417" : "#FFF6EC"}
+                style={{ textTransform: "uppercase", letterSpacing: "1.1px", fontFamily: "var(--font-sans)" }}
                 initial={reduce ? false : { opacity: 0 }}
-                animate={{ opacity: isActive ? 0.92 : onCream ? 0.32 : 0.16 }}
+                animate={{ opacity: isActive ? 1 : onCream ? 0.62 : 0.46 }}
                 transition={{ delay: reduce ? 0 : 1.15 + i * 0.13, duration: 0.5 }}
               >
                 {copy.layers[i].name}
@@ -305,43 +305,15 @@ function Glass() {
         {/* cherry - the signal, glossy + 3-D */}
         <motion.g initial={reduce ? false : { y: -56, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.85, duration: 0.9, ease: EASE }}>
           <ellipse cx="116" cy="83" rx="15" ry="3.6" fill="rgba(58,18,8,.4)" filter="url(#ci-soft)" />
-          <path d="M118 68 C118 48 132 43 142 33" stroke="#7d1f12" strokeWidth="3.4" fill="none" strokeLinecap="round" />
+          {/* stem - refined: a slim, graceful arc with a faint sheen, not a thick symbol */}
+          <path d="M117 67 C115 49 127 41 138 30" stroke="#79301C" strokeWidth="2.1" fill="none" strokeLinecap="round" />
+          <path d="M117 66 C115 49 127 42 138 31" stroke="rgba(255,186,156,.4)" strokeWidth="0.7" fill="none" strokeLinecap="round" />
           <circle cx="114" cy="70" r="14" fill="url(#ci-cherry)" />
           <motion.ellipse cx="108" cy="64" rx="4.8" ry="3.2" fill="url(#ci-glint)"
             animate={reduce ? undefined : { opacity: [0.95, 0.55, 0.95] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
           <circle cx="120" cy="76" r="2" fill="rgba(255,255,255,.35)" />
         </motion.g>
 
-        {/* product signal - a projection lifts off the LIQUID SURFACE (clear of
-            the cherry) to the upper left: the "every layer" metaphor turning into
-            a forecast + a "now" pulse, so the first viewport hints at the product.
-            Starts left of the cherry so it never reads as a line on the fruit. */}
-        <motion.path
-          d="M84 80 L72 71 L60 75 L47 55 L36 40"
-          fill="none"
-          stroke="#F6C66B"
-          strokeWidth="1.4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          initial={reduce ? false : { pathLength: 0, opacity: 0 }}
-          animate={{ pathLength: 1, opacity: 0.72 }}
-          transition={{ delay: reduce ? 0 : BEAT, duration: 1.1, ease: EASE }}
-        />
-        <motion.circle
-          cx="36" cy="40" r="2.8" fill="#FFE9B0"
-          initial={reduce ? false : { opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          style={{ transformBox: "fill-box", transformOrigin: "center" }}
-          transition={{ delay: reduce ? 0 : BEAT + 0.85, duration: 0.4, ease: EASE }}
-        />
-        {!reduce && (
-          <motion.circle
-            cx="36" cy="40" r="2.8" fill="none" stroke="#F6C66B" strokeWidth="1.1"
-            style={{ transformBox: "fill-box", transformOrigin: "center" }}
-            animate={{ scale: [1, 3], opacity: [0.7, 0] }}
-            transition={{ duration: 1.8, repeat: Infinity, delay: BEAT + 1, ease: "easeOut" }}
-          />
-        )}
       </svg>
 
       {/* layer labels - each anchored to its band's exact center */}
@@ -467,6 +439,13 @@ export function SectionCinematicIntro() {
         aria-hidden
         className="pointer-events-none absolute inset-0 z-0"
         style={{ background: "radial-gradient(120% 120% at 50% 42%, transparent 52%, rgba(8,5,3,.55))" }}
+      />
+      {/* seam bridge - the strata's warmth bleeds down into the restaurant section
+          below so the hand-off reads as one continuous space, not a hard cut. */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-44"
+        style={{ background: "linear-gradient(to top, rgba(255,92,77,.12), rgba(233,162,74,.05) 45%, transparent)" }}
       />
 
       <motion.div
