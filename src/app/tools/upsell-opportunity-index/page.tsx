@@ -17,13 +17,101 @@
  * directional read.
  */
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, type ReactNode } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon } from "@/components/icons";
 import { CURRENCIES, CURRENCY_REGIONS, getCurrencySymbol } from "@/lib/currencies";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { type RequiredEnglishLocalizedRecord } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from "@/lib/generatedLocalCopy";
+import { generatedLocalCopy } from "@/generated-locales/app_tools_upsell_opportunity_index_page";
 
 type CategoryId = "appetizers" | "sides" | "drinks" | "desserts" | "addons";
+
+type UpsellCopy = {
+  back: string;
+  hero: { badge: string; title: string; description: string };
+  baseline: { title: string; subtitle: string };
+  fields: { dailyCovers: string; outletCount: string; currency: string };
+  attach: { title: string; subtitle: string; healthy: string }; // healthy: "Healthy: {min}-{max}%"
+  categories: Record<CategoryId, string>;
+  index: { title: string; strong: string; several: string; significant: string };
+  recoverable: {
+    title: string;
+    to: string;
+    multiOutlet: string; // "across {outlets} outlets"
+    singleOutlet: string; // "per outlet"
+    daysSuffix: string; // "{days} operating days/yr"
+    assumes: string; // "Assumes {low}-{high}% ..."
+  };
+  priorities: { label: string; item: string }; // item: "Lift attach from {current} → {healthy} · recover {range}"
+  cta: string;
+  footnoteLabel: string;
+  footnote: string; // "... {low}-{high}% ... {days} ..."
+};
+
+const localizedCopy: RequiredEnglishLocalizedRecord<UpsellCopy> = {
+  en: {
+    back: "Back to Tools",
+    hero: {
+      badge: "INSIGHT-GRADE · GUEST + REVENUE INTELLIGENCE",
+      title: "Upsell Opportunity Index",
+      description:
+        "Most operators feel they're under-attaching desserts, drinks, or add-ons - but can't put a number on it. This estimator scores your menu attach health 0-100 and quantifies the revenue gap to industry-healthy attach rates.",
+    },
+    baseline: { title: "Operation baseline", subtitle: "Per outlet, current operating average." },
+    fields: { dailyCovers: "Daily covers / outlet", outletCount: "Outlet count", currency: "Currency" },
+    attach: {
+      title: "Current attach rates",
+      subtitle: "% of orders that include the category. Healthy bands shown in grey.",
+      healthy: "Healthy: {min}-{max}%",
+    },
+    categories: {
+      appetizers: "Appetizers / Starters",
+      sides: "Sides",
+      drinks: "Beverages (non-alc)",
+      desserts: "Desserts",
+      addons: "Add-ons / Upgrades",
+    },
+    index: {
+      title: "Upsell Opportunity Index",
+      strong: "Strong attach health across the menu",
+      several: "Several categories underperforming",
+      significant: "Significant attach-rate gaps across the menu",
+    },
+    recoverable: {
+      title: "Recoverable annual revenue · range",
+      to: "to",
+      multiOutlet: "across {outlets} outlets",
+      singleOutlet: "per outlet",
+      daysSuffix: "{days} operating days/yr",
+      assumes:
+        "Assumes {low}-{high}% of the identified attach-gap closes in the first 6 months with training + nudges.",
+    },
+    priorities: {
+      label: "What Sundae would do - top 3 priorities",
+      item: "Lift attach from {current} → {healthy} · recover {range}",
+    },
+    cta: "See this on your menu mix",
+    footnoteLabel: "Methodology (conservative defaults):",
+    footnote:
+      "Index = average of each category’s (current / healthy-floor) ratio, capped at 1. Gap-close revenue = covers × (healthy-floor − current) ÷ 100 × avg ticket impact × close-rate range ({low}-{high}% - what training + nudges actually move) × {days} operating days/yr. Output is a range, not a single optimistic figure. Healthy attach ranges are full-service / fast-casual industry medians; Sundae Guest CRM + Revenue Intelligence calibrate against your specific menu mix, daypart, and tenure cohort in production.",
+  },
+};
+
+/** Plain string interpolation: replaces {token} with the matching value. */
+function tpl(s: string, v: Record<string, string | number>): string {
+  return s.replace(/\{(\w+)\}/g, (_, k) => (k in v ? String(v[k]) : `{${k}}`));
+}
+
+/** Token interpolation that keeps dynamic values bold while leaving word order to the translation. */
+function interpolateNodes(s: string, v: Record<string, ReactNode>): ReactNode[] {
+  return s.split(/(\{\w+\})/g).map((part, i) => {
+    const m = part.match(/^\{(\w+)\}$/);
+    return m && m[1] in v ? <span key={i}>{v[m[1]]}</span> : <span key={i}>{part}</span>;
+  });
+}
 
 type CategoryInput = {
   id: CategoryId;
@@ -53,6 +141,11 @@ const CLOSE_RATE_HIGH = 0.45;
 const OPERATING_DAYS = 350;
 
 export default function UpsellOpportunityIndexPage() {
+  const { locale } = useWebsiteI18n();
+  const copy =
+    localizedCopy[locale as keyof typeof localizedCopy] ??
+    getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ??
+    localizedCopy.en;
   const [dailyCovers, setDailyCovers] = useState("280");
   const [outletCount, setOutletCount] = useState("1");
   const [currency, setCurrency] = useState("USD");
@@ -103,19 +196,16 @@ export default function UpsellOpportunityIndexPage() {
         <div className="max-w-4xl mx-auto">
           <Link href="/tools" className="inline-flex items-center gap-2 text-sm text-[var(--text-muted)] hover:text-[var(--text-primary)] mb-6 transition-colors">
             <SundaeIcon name="balance" size="sm" />
-            Back to Tools
+            {copy.back}
           </Link>
           <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-3">
-            INSIGHT-GRADE · GUEST + REVENUE INTELLIGENCE
+            {copy.hero.badge}
           </span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] mb-3 text-balance">
-            Upsell Opportunity Index
+            {copy.hero.title}
           </h1>
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl">
-            Most operators feel they're under-attaching desserts, drinks, or add-ons
-            - but can't put a number on it. This estimator scores your menu attach
-            health 0-100 and quantifies the revenue gap to industry-healthy
-            attach rates.
+            {copy.hero.description}
           </p>
         </div>
       </section>
@@ -124,19 +214,19 @@ export default function UpsellOpportunityIndexPage() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-3 space-y-6">
             <div className="rounded-2xl border border-[var(--border-default)] bg-white/[0.02] p-6">
-              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">Operation baseline</h2>
-              <p className="text-xs text-[var(--text-muted)] mb-4">Per outlet, current operating average.</p>
+              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">{copy.baseline.title}</h2>
+              <p className="text-xs text-[var(--text-muted)] mb-4">{copy.baseline.subtitle}</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 <div>
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">Daily covers / outlet</label>
+                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">{copy.fields.dailyCovers}</label>
                   <input type="number" value={dailyCovers} onChange={(e) => setDailyCovers(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]" />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">Outlet count</label>
+                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">{copy.fields.outletCount}</label>
                   <input type="number" min="1" value={outletCount} onChange={(e) => setOutletCount(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]" />
                 </div>
                 <div>
-                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">Currency</label>
+                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">{copy.fields.currency}</label>
                   <select value={currency} onChange={(e) => setCurrency(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]">
                     {CURRENCY_REGIONS.map((region) => (
                       <optgroup key={region} label={region}>
@@ -149,14 +239,14 @@ export default function UpsellOpportunityIndexPage() {
             </div>
 
             <div className="rounded-2xl border border-[var(--border-default)] bg-white/[0.02] p-6">
-              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">Current attach rates</h2>
-              <p className="text-xs text-[var(--text-muted)] mb-4">% of orders that include the category. Healthy bands shown in grey.</p>
+              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">{copy.attach.title}</h2>
+              <p className="text-xs text-[var(--text-muted)] mb-4">{copy.attach.subtitle}</p>
               <div className="space-y-3">
                 {categories.map((cat, i) => (
                   <div key={cat.id} className="grid grid-cols-3 gap-3 items-center">
                     <div>
-                      <div className="text-sm font-semibold text-[var(--text-primary)]">{cat.label}</div>
-                      <div className="text-[10px] text-[var(--text-muted)]">Healthy: {cat.healthyMin}-{cat.healthyMax}%</div>
+                      <div className="text-sm font-semibold text-[var(--text-primary)]">{copy.categories[cat.id]}</div>
+                      <div className="text-[10px] text-[var(--text-muted)]">{tpl(copy.attach.healthy, { min: cat.healthyMin, max: cat.healthyMax })}</div>
                     </div>
                     <div className="col-span-2">
                       <div className="flex items-center gap-2">
@@ -196,32 +286,32 @@ export default function UpsellOpportunityIndexPage() {
                 {/* Index score */}
                 <div className="rounded-2xl border-2 border-[var(--warm-coral)]/40 bg-gradient-to-br from-[var(--warm-coral)]/8 to-transparent p-6 text-center">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--warm-coral)] mb-2">
-                    Upsell Opportunity Index
+                    {copy.index.title}
                   </p>
                   <div className="text-5xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
                     {analysis.indexScore}
                     <span className="text-2xl text-[var(--text-muted)]">/100</span>
                   </div>
                   <div className="text-xs text-[var(--text-muted)]">
-                    {analysis.indexScore >= 85 ? "Strong attach health across the menu" :
-                     analysis.indexScore >= 65 ? "Several categories underperforming" :
-                     "Significant attach-rate gaps across the menu"}
+                    {analysis.indexScore >= 85 ? copy.index.strong :
+                     analysis.indexScore >= 65 ? copy.index.several :
+                     copy.index.significant}
                   </div>
                 </div>
 
                 {/* Annual recoverable revenue · range */}
                 <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/[0.04] p-5">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-emerald-300 mb-2">
-                    Recoverable annual revenue · range
+                    {copy.recoverable.title}
                   </p>
                   <div className="text-xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
-                    {fmt(analysis.totalAnnualLow)} <span className="text-base text-[var(--text-muted)] font-medium">to</span> {fmt(analysis.totalAnnualHigh)}
+                    {fmt(analysis.totalAnnualLow)} <span className="text-base text-[var(--text-muted)] font-medium">{copy.recoverable.to}</span> {fmt(analysis.totalAnnualHigh)}
                   </div>
                   <div className="text-xs text-[var(--text-muted)]">
-                    {analysis.outlets > 1 ? <>across {analysis.outlets} outlets</> : <>per outlet</>} · {OPERATING_DAYS} operating days/yr
+                    {analysis.outlets > 1 ? tpl(copy.recoverable.multiOutlet, { outlets: analysis.outlets }) : copy.recoverable.singleOutlet} · {tpl(copy.recoverable.daysSuffix, { days: OPERATING_DAYS })}
                   </div>
                   <p className="text-[10px] text-[var(--text-muted)] italic mt-2 leading-snug">
-                    Assumes {Math.round(CLOSE_RATE_LOW * 100)}-{Math.round(CLOSE_RATE_HIGH * 100)}% of the identified attach-gap closes in the first 6 months with training + nudges.
+                    {tpl(copy.recoverable.assumes, { low: Math.round(CLOSE_RATE_LOW * 100), high: Math.round(CLOSE_RATE_HIGH * 100) })}
                   </p>
                 </div>
 
@@ -231,7 +321,7 @@ export default function UpsellOpportunityIndexPage() {
                     <div className="flex items-center gap-2 mb-3">
                       <SundaeIcon name="performance" size="sm" className="text-[var(--warm-coral)]" />
                       <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)]">
-                        What Sundae would do - top 3 priorities
+                        {copy.priorities.label}
                       </p>
                     </div>
                     <ol className="space-y-3">
@@ -241,9 +331,13 @@ export default function UpsellOpportunityIndexPage() {
                             {i + 1}
                           </span>
                           <div className="flex-1 min-w-0">
-                            <div className="text-sm font-semibold text-[var(--text-primary)]">{r.label}</div>
+                            <div className="text-sm font-semibold text-[var(--text-primary)]">{copy.categories[r.id]}</div>
                             <div className="text-[11px] text-[var(--text-muted)] leading-snug">
-                              Lift attach from <span className="text-[var(--text-secondary)] font-semibold">{r.current.toFixed(0)}%</span> → <span className="text-emerald-300 font-semibold">{r.healthyMin}%</span> · recover <span className="text-emerald-300 font-semibold">{fmt(r.annualLow)}-{fmt(r.annualHigh)}/yr</span>
+                              {interpolateNodes(copy.priorities.item, {
+                                current: <span className="text-[var(--text-secondary)] font-semibold">{r.current.toFixed(0)}%</span>,
+                                healthy: <span className="text-emerald-300 font-semibold">{r.healthyMin}%</span>,
+                                range: <span className="text-emerald-300 font-semibold">{fmt(r.annualLow)}-{fmt(r.annualHigh)}/yr</span>,
+                              })}
                             </div>
                           </div>
                         </li>
@@ -253,7 +347,7 @@ export default function UpsellOpportunityIndexPage() {
                 )}
 
                 <Button href="/demo" variant="primary" className="w-full">
-                  See this on your menu mix
+                  {copy.cta}
                 </Button>
               </div>
             )}
@@ -264,14 +358,12 @@ export default function UpsellOpportunityIndexPage() {
       <section className="px-4 sm:px-6 lg:px-8 pb-16">
         <div className="max-w-4xl mx-auto rounded-xl border border-[var(--border-default)] bg-white/[0.015] p-4">
           <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
-            <strong className="text-[var(--text-secondary)]">Methodology (conservative defaults):</strong>{" "}
-            Index = average of each category&rsquo;s (current / healthy-floor) ratio, capped at 1.
-            Gap-close revenue = covers × (healthy-floor − current) ÷ 100 × avg ticket impact ×
-            close-rate range ({Math.round(CLOSE_RATE_LOW * 100)}-{Math.round(CLOSE_RATE_HIGH * 100)}% - what training + nudges actually move) ×
-            {OPERATING_DAYS} operating days/yr. Output is a range, not a single optimistic figure.
-            Healthy attach ranges are full-service / fast-casual industry medians; Sundae Guest CRM +
-            Revenue Intelligence calibrate against your specific menu mix, daypart, and tenure cohort
-            in production.
+            <strong className="text-[var(--text-secondary)]">{copy.footnoteLabel}</strong>{" "}
+            {tpl(copy.footnote, {
+              low: Math.round(CLOSE_RATE_LOW * 100),
+              high: Math.round(CLOSE_RATE_HIGH * 100),
+              days: OPERATING_DAYS,
+            })}
           </p>
         </div>
       </section>
