@@ -1,129 +1,87 @@
 "use client";
 
 /**
- * TEMPORARY wordmark exploration lab - not linked in nav. Lets us compare
- * candidate Sundae logotypes (Fraunces display variants, with/without the
- * cherry "signal", plus the fully custom hand-drawn SVG) side by side, in
- * light and dark, at lockup + display sizes. Delete once the wordmark is locked.
- *
- * View at /wordmark-lab.
+ * TEMPORARY wordmark exploration lab - not linked in nav. Compares ways to
+ * INTEGRATE the cherry into a letterform (the d-bowl = "discovered"; the e-eye =
+ * "memorable") vs a plain control, so the wordmark feels crafted, not "typed word
+ * + decorative dot". View at /wordmark-lab. Delete once locked.
  */
 import { SundaeMark } from "@/components/ui/SundaeMark";
-import { SundaeWordmark } from "@/components/home/sections/SundaeWordmark";
 
-type Accent = "none" | "period" | "raised";
+const CRISP: React.CSSProperties = { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 };
 
-/** Stalk-free cherry: a glossy coral/red sphere with a soft glint (reads as a
- *  cherry, not a flat dot, but without the twee stem). */
-function Cherry({ d = "0.26em" }: { d?: string }) {
+/** Flat coral cherry that FILLS a glyph counter (the negative space becomes the
+ *  cherry) - reads as part of the letter, not a 3-D ball stuck on top. */
+function Cherry({ d, left, top, glossy = false }: { d: string; left: string; top: string; glossy?: boolean }) {
   return (
     <span
       aria-hidden
       style={{
-        display: "inline-block",
+        position: "absolute",
+        left,
+        top,
         width: d,
         height: d,
         borderRadius: "50%",
-        background:
-          "radial-gradient(circle at 34% 30%, #FF8275 0%, #E8404A 52%, #A81B29 100%)",
-        boxShadow: "inset 0 -0.02em 0.04em rgba(120,20,12,0.45)",
-        position: "relative",
+        background: glossy
+          ? "radial-gradient(circle at 34% 30%, #FF8275 0%, #E8404A 52%, #A81B29 100%)"
+          : "#E8404A",
       }}
-    >
-      <span
-        style={{
-          position: "absolute",
-          left: "22%",
-          top: "18%",
-          width: "26%",
-          height: "26%",
-          borderRadius: "50%",
-          background: "rgba(255,255,255,0.85)",
-          filter: "blur(0.2px)",
-        }}
-      />
-    </span>
+    />
   );
 }
 
-function Accentize({ accent }: { accent: Accent }) {
-  if (accent === "none") return null;
-  if (accent === "period") {
-    // cherry sits on the baseline as the full-stop
-    return (
-      <span style={{ marginLeft: "0.04em", verticalAlign: "baseline", display: "inline-block" }}>
-        <Cherry d="0.24em" />
-      </span>
-    );
-  }
-  // raised: cherry floats at the top-right (the "signal" on top), no stalk
+type Mode = "none" | "d-bowl" | "e-eye" | "e-aperture";
+
+/**
+ * Renders "sundae" with the target letter wrapped in its own relative box so a
+ * cherry can be nested precisely in that glyph's counter (positions are em-based
+ * so they scale with the wordmark). Tuned for Fraunces crisp display.
+ */
+function Word({ size, mode }: { size: number; mode: Mode }) {
+  const base: React.CSSProperties = {
+    fontFamily: "var(--font-display)", fontOpticalSizing: "none",
+    letterSpacing: "-0.018em", lineHeight: 1.3, fontSize: size, ...CRISP,
+  };
+  const letter = (ch: string, cherry?: React.ReactNode) => (
+    <span style={{ position: "relative", display: "inline-block" }}>{ch}{cherry}</span>
+  );
   return (
-    <span style={{ position: "relative", display: "inline-block", width: 0, height: 0 }}>
-      <span style={{ position: "absolute", left: "0.06em", bottom: "0.6em" }}>
-        <Cherry d="0.28em" />
-      </span>
+    <span style={base}>
+      {mode === "d-bowl" ? (
+        <>sun{letter("d", <Cherry d="0.2em" left="0.12em" top="0.625em" />)}ae</>
+      ) : mode === "e-eye" ? (
+        <>sunda{letter("e", <Cherry d="0.16em" left="0.135em" top="0.45em" />)}</>
+      ) : mode === "e-aperture" ? (
+        <>sunda{letter("e", <Cherry d="0.2em" left="0.265em" top="0.6em" />)}</>
+      ) : (
+        <>sundae</>
+      )}
     </span>
   );
 }
 
-const CANDIDATES: { id: string; label: string; style: React.CSSProperties; accent: Accent }[] = [
-  { id: "1", label: "Crisp + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 }, accent: "period" },
-  { id: "2", label: "Crisp + raised cherry", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 }, accent: "raised" },
-  { id: "3", label: "Italic + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 70,'WONK' 1", fontWeight: 600, fontStyle: "italic" }, accent: "period" },
-  { id: "4", label: "Soft display + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 90,'WONK' 1", fontWeight: 600 }, accent: "period" },
-  { id: "5", label: "Heavier + tight + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 40,'WONK' 1", fontWeight: 720, letterSpacing: "-0.03em" } as React.CSSProperties, accent: "period" },
-  { id: "6", label: "Crisp, no cherry (control)", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 }, accent: "none" },
+const ROWS: { id: string; label: string; mode: Mode }[] = [
+  { id: "D", label: "Cherry in the d-bowl (discovered)", mode: "d-bowl" },
+  { id: "E1", label: "Cherry in the e-eye (memorable)", mode: "e-eye" },
+  { id: "E2", label: "Cherry in the e-aperture", mode: "e-aperture" },
+  { id: "0", label: "Control (no cherry)", mode: "none" },
 ];
-
-function Word({ style, accent, size }: { style: React.CSSProperties; accent: Accent; size: number }) {
-  return (
-    <span
-      style={{
-        fontFamily: "var(--font-display)",
-        fontOpticalSizing: "none",
-        letterSpacing: "-0.018em",
-        lineHeight: 1.25,
-        fontSize: size,
-        ...style,
-      }}
-    >
-      sundae
-      <Accentize accent={accent} />
-    </span>
-  );
-}
 
 function Panel({ dark }: { dark: boolean }) {
   return (
-    <div
-      style={{
-        background: dark ? "#15110D" : "#FFFFFF",
-        color: dark ? "#FBF8F4" : "#2A2320",
-        padding: "32px 40px",
-        borderRadius: 18,
-      }}
-    >
-      <div style={{ fontSize: 12, letterSpacing: "0.1em", textTransform: "uppercase", opacity: 0.5, marginBottom: 18 }}>
-        {dark ? "Dark" : "Light"}
-      </div>
-      {CANDIDATES.map((c) => (
-        <div key={c.id} style={{ display: "flex", alignItems: "center", gap: 28, padding: "16px 0", borderBottom: `1px solid ${dark ? "rgba(255,255,255,0.08)" : "#eee"}` }}>
-          <div style={{ width: 180, fontSize: 12, opacity: 0.6, fontFamily: "var(--font-hanken)" }}>{c.id} · {c.label}</div>
-          {/* lockup size (navbar) */}
+    <div style={{ background: dark ? "#15110D" : "#FFFFFF", color: dark ? "#FBF8F4" : "#2A2320", padding: "32px 40px", borderRadius: 18 }}>
+      <div style={{ fontSize: 12, letterSpacing: "0.1em", textTransform: "uppercase", opacity: 0.5, marginBottom: 18, fontFamily: "var(--font-hanken)" }}>{dark ? "Dark" : "Light"}</div>
+      {ROWS.map((r) => (
+        <div key={r.id} style={{ display: "flex", alignItems: "center", gap: 28, padding: "20px 0", borderBottom: `1px solid ${dark ? "rgba(255,255,255,0.08)" : "#eee"}` }}>
+          <div style={{ width: 220, fontSize: 12, opacity: 0.6, fontFamily: "var(--font-hanken)" }}>{r.id} · {r.label}</div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <SundaeMark size={28} />
-            <Word style={c.style} accent={c.accent} size={26} />
+            <Word size={26} mode={r.mode} />
           </div>
-          {/* display size, standalone */}
-          <Word style={c.style} accent={c.accent} size={56} />
+          <Word size={68} mode={r.mode} />
         </div>
       ))}
-      {/* existing fully custom geometric SVG wordmark, for reference */}
-      <div style={{ display: "flex", alignItems: "center", gap: 28, paddingTop: 20 }}>
-        <div style={{ width: 180, fontSize: 12, opacity: 0.6, fontFamily: "var(--font-hanken)" }}>C · Custom SVG (existing, geometric sans)</div>
-        <SundaeWordmark className="h-7 w-auto" style={{ color: dark ? "#FBF8F4" : "#2A2320" }} />
-        <SundaeWordmark className="h-12 w-auto" style={{ color: dark ? "#FBF8F4" : "#2A2320" }} />
-      </div>
     </div>
   );
 }
@@ -131,9 +89,7 @@ function Panel({ dark }: { dark: boolean }) {
 export default function WordmarkLab() {
   return (
     <div style={{ minHeight: "100vh", background: "#0b0b0d", padding: "80px 40px 120px", display: "grid", gap: 28, maxWidth: 1100, margin: "0 auto" }}>
-      <h1 style={{ fontFamily: "var(--font-display)", color: "#FBF8F4", fontSize: 32, fontVariationSettings: "'opsz' 144" }}>
-        Wordmark lab
-      </h1>
+      <h1 style={{ fontFamily: "var(--font-display)", color: "#FBF8F4", fontSize: 32, fontVariationSettings: "'opsz' 144" }}>Wordmark lab · cherry integrated into the letterform</h1>
       <Panel dark={false} />
       <Panel dark />
     </div>
