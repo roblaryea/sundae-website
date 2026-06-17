@@ -25,11 +25,13 @@ type LocalizedSQC = {
   oldRule: string;
   sundaeRule: string;
   closing: string;
+  costMetric: string;
   vertices: { label: string; headline: string; body: string; chips: [string, string, string] }[];
 };
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   en: {
+    costMetric: "Free to start",
     eyebrow: "THE FALSE CHOICE IS OVER",
     headline: "Fast. Right. Affordable. Pick all three.",
     description: "Getting real restaurant intelligence used to mean a tradeoff - fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once - that's the entire point.",
@@ -43,6 +45,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     ],
   },
   ar: {
+    costMetric: "مجاناً للبدء",
     eyebrow: "انتهى زمن الاختيار الزائف",
     headline: "سريع. صحيح. ميسور. اختر الثلاثة.",
     description: "كان الحصول على ذكاء مطاعم حقيقي يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
@@ -56,6 +59,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     ],
   },
   fr: {
+    costMetric: "Gratuit pour démarrer",
     eyebrow: "LE FAUX DILEMME, C'EST FINI",
     headline: "Rapide. Juste. Abordable. Prenez les trois.",
     description: "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
@@ -69,6 +73,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     ],
   },
   es: {
+    costMetric: "Gratis para empezar",
     eyebrow: "SE ACABÓ LA FALSA DISYUNTIVA",
     headline: "Rápido. Correcto. Asequible. Elige los tres.",
     description: "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
@@ -168,7 +173,7 @@ function ballAt(progress: number) {
  * the side card (not on the triangle - r7 removed vertex stat-callouts because
  * they collided with the active-vertex glow). Reduced-motion → static value.
  */
-function VertexStat({ idx, reduceMotion }: { idx: number; reduceMotion: boolean }) {
+function VertexStat({ idx, reduceMotion, text }: { idx: number; reduceMotion: boolean; text?: string }) {
   const m = VERTEX_METRICS[idx];
   const [display, setDisplay] = useState(m.value);
   useEffect(() => {
@@ -184,6 +189,15 @@ function VertexStat({ idx, reduceMotion }: { idx: number; reduceMotion: boolean 
     });
     return () => controls.stop();
   }, [idx, m, reduceMotion]);
+  // A localized phrase (Cost = "Free to start") reads honestly where a bare "$0"
+  // would misleadingly imply the whole product is free. Sized down as it's words.
+  if (text) {
+    return (
+      <span className="font-display text-2xl sm:text-[28px] font-bold leading-tight text-[var(--warm-coral)] text-right">
+        {text}
+      </span>
+    );
+  }
   return (
     <span className="font-display text-3xl sm:text-4xl font-bold leading-none text-[var(--warm-coral)] tabular-nums">
       {m.prefix}
@@ -795,7 +809,7 @@ export function SectionSpeedQualityCost() {
                       <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mt-1.5">
                         {vertices[activeIdx].label}
                       </div>
-                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} />
+                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} text={activeIdx === 2 ? copy.costMetric : undefined} />
                     </div>
                     <h3 className="section-h3 mb-4">
                       {vertices[activeIdx].headline}

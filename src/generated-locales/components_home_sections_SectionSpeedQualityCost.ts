@@ -9,6 +9,7 @@ export const generatedLocalCopy = {
       "oldRule": "القاعدة القديمة: اختر اثنين",
       "sundaeRule": "↓  قاعدة Sundae: اختر الثلاثة",
       "closing": "هذا ليس تبادلاً. هذه هي ميزتك التشغيلية.",
+      "costMetric": "مجاناً للبدء",
       "vertices": [
         {
           "label": "السرعة",
@@ -49,6 +50,7 @@ export const generatedLocalCopy = {
       "oldRule": "Ancienne règle : choisissez deux",
       "sundaeRule": "↓  Règle Sundae : choisissez les trois",
       "closing": "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
+      "costMetric": "Gratuit pour démarrer",
       "vertices": [
         {
           "label": "Vitesse",
@@ -89,6 +91,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regla antigua: elige dos",
       "sundaeRule": "↓  Regla Sundae: elige los tres",
       "closing": "Eso no es un compromiso. Esa es tu ventaja operativa.",
+      "costMetric": "Gratis para empezar",
       "vertices": [
         {
           "label": "Velocidad",
@@ -129,6 +132,7 @@ export const generatedLocalCopy = {
       "oldRule": "Alte Regel: Wählen Sie zwei",
       "sundaeRule": "↓  Sundae-Regel: Wählen Sie alle drei",
       "closing": "Das ist kein Kompromiss. Das ist Ihr Betriebsvorteil.",
+      "costMetric": "Kostenlos starten",
       "vertices": [
         {
           "label": "Geschwindigkeit",
@@ -169,6 +173,7 @@ export const generatedLocalCopy = {
       "oldRule": "Oude regel: kies er twee",
       "sundaeRule": "↓  Sundae regel: kies ze allemaal",
       "closing": "Dat is geen afweging. Dat is jouw operationeel voordeel.",
+      "costMetric": "Gratis starten",
       "vertices": [
         {
           "label": "Snelheid",
@@ -209,6 +214,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regra antiga: escolha dois",
       "sundaeRule": "↓ Regra Sundae: escolha os três",
       "closing": "Isso não é uma troca. Essa é sua vantagem operacional.",
+      "costMetric": "Grátis para começar",
       "vertices": [
         {
           "label": "Velocidade",
@@ -249,6 +255,7 @@ export const generatedLocalCopy = {
       "oldRule": "पुराना नियम: दो चुनें",
       "sundaeRule": "↓  Sundae नियम: तीनों चुनें",
       "closing": "यह कोई ट्रेडऑफ नहीं है। यह आपका संचालन लाभ है।",
+      "costMetric": "मुफ़्त में शुरू करें",
       "vertices": [
         {
           "label": "गति",
@@ -289,6 +296,7 @@ export const generatedLocalCopy = {
       "oldRule": "پرانا اصول: دو منتخب کریں",
       "sundaeRule": "↓  Sundae اصول: تینوں منتخب کریں",
       "closing": "یہ کوئی سمجھوتہ نہیں ہے۔ یہ آپ کا آپریٹنگ فائدہ ہے۔",
+      "costMetric": "مفت میں شروع کریں",
       "vertices": [
         {
           "label": "رفتار",
@@ -329,6 +337,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regola vecchia: scegli due",
       "sundaeRule": "↓  Regola Sundae: scegli tutti e tre",
       "closing": "Non è un compromesso. È il tuo vantaggio operativo.",
+      "costMetric": "Gratis per iniziare",
       "vertices": [
         {
           "label": "Velocità",
@@ -369,6 +378,7 @@ export const generatedLocalCopy = {
       "oldRule": "Stara zasada: wybierz dwa",
       "sundaeRule": "↓  Zasada Sundae: wybierz wszystkie trzy",
       "closing": "To nie jest kompromis. To twoja przewaga operacyjna.",
+      "costMetric": "Za darmo na start",
       "vertices": [
         {
           "label": "Szybkość",
@@ -409,6 +419,7 @@ export const generatedLocalCopy = {
       "oldRule": "Eski kural: iki tanesini seçin",
       "sundaeRule": "↓  Sundae kuralı: üçünü de seçin",
       "closing": "Bu bir denge değil. Bu, işletme avantajınızdır.",
+      "costMetric": "Ücretsiz başlayın",
       "vertices": [
         {
           "label": "Hız",
@@ -449,6 +460,7 @@ export const generatedLocalCopy = {
       "oldRule": "旧规则：选择两个",
       "sundaeRule": "↓  Sundae 规则：三者兼得",
       "closing": "这不是权衡。这是你的运营优势。",
+      "costMetric": "免费起步",
       "vertices": [
         {
           "label": "速度",
@@ -489,6 +501,7 @@ export const generatedLocalCopy = {
       "oldRule": "古いルール：2つを選ぶ",
       "sundaeRule": "↓  Sundaeのルール：すべてを選ぶ",
       "closing": "それはトレードオフではありません。それがあなたの運営上の優位性です。",
+      "costMetric": "無料で始められる",
       "vertices": [
         {
           "label": "スピード",
@@ -529,6 +542,7 @@ export const generatedLocalCopy = {
       "oldRule": "구식 규칙: 두 가지 선택",
       "sundaeRule": "↓  Sundae 규칙: 세 가지 모두 선택",
       "closing": "이것은 트레이드오프가 아닙니다. 이것이 귀하의 운영 우위입니다.",
+      "costMetric": "무료로 시작",
       "vertices": [
         {
           "label": "속도",
@@ -569,6 +583,7 @@ export const generatedLocalCopy = {
       "oldRule": "Aturan lama: pilih dua",
       "sundaeRule": "↓  Aturan Sundae: pilih ketiganya",
       "closing": "Itu bukan kompromi. Itu adalah keunggulan operasional Anda.",
+      "costMetric": "Gratis untuk memulai",
       "vertices": [
         {
           "label": "Kecepatan",
@@ -609,6 +624,7 @@ export const generatedLocalCopy = {
       "oldRule": "Quy tắc cũ: chọn hai",
       "sundaeRule": "↓  Quy tắc Sundae: chọn cả ba",
       "closing": "Đó không phải là sự trao đổi. Đó là lợi thế hoạt động của bạn.",
+      "costMetric": "Miễn phí để bắt đầu",
       "vertices": [
         {
           "label": "Tốc độ",
@@ -649,6 +665,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regula veche: alege două",
       "sundaeRule": "↓  Regula Sundae: alege toate trei",
       "closing": "Asta nu este un compromis. Asta este avantajul tău operațional.",
+      "costMetric": "Gratuit la început",
       "vertices": [
         {
           "label": "Viteză",
@@ -689,6 +706,7 @@ export const generatedLocalCopy = {
       "oldRule": "Gammal regel: välj två",
       "sundaeRule": "↓  Sundae-regel: välj alla tre",
       "closing": "Det är ingen avvägning. Det är din operativa fördel.",
+      "costMetric": "Gratis att komma igång",
       "vertices": [
         {
           "label": "Hastighet",
@@ -729,6 +747,7 @@ export const generatedLocalCopy = {
       "oldRule": "পুরনো নিয়ম: দুটি বেছে নিন",
       "sundaeRule": "↓  Sundae নিয়ম: তিনটি বেছে নিন",
       "closing": "এটি ট্রেডঅফ নয়। এটি আপনার কার্যকরী সুবিধা।",
+      "costMetric": "বিনামূল্যে শুরু করুন",
       "vertices": [
         {
           "label": "গতি",
@@ -769,6 +788,7 @@ export const generatedLocalCopy = {
       "oldRule": "กฎเก่า: เลือกสองอย่าง",
       "sundaeRule": "↓  กฎของ Sundae: เลือกทั้งสามอย่าง",
       "closing": "นั่นไม่ใช่การแลกเปลี่ยน นั่นคือข้อได้เปรียบในการดำเนินงานของคุณ",
+      "costMetric": "เริ่มต้นฟรี",
       "vertices": [
         {
           "label": "ความเร็ว",
@@ -809,6 +829,7 @@ export const generatedLocalCopy = {
       "oldRule": "Peraturan lama: pilih dua",
       "sundaeRule": "↓  Peraturan Sundae: pilih ketiga-tiganya",
       "closing": "Itu bukan kompromi. Itu adalah kelebihan operasi anda.",
+      "costMetric": "Percuma untuk bermula",
       "vertices": [
         {
           "label": "Kelajuan",
