@@ -328,7 +328,7 @@ export function SectionCinematicIntro() {
             transition={{ delay: 0.9, duration: 0.9, ease: EASE }}
           >
             <a
-              href="/book-a-demo"
+              href="/demo"
               className="inline-flex items-center rounded-full px-6 py-3.5 text-[15px] font-semibold text-white transition-transform duration-300 hover:-translate-y-0.5"
               style={{ background: "linear-gradient(180deg,#FF7E6F,#E03E48)", boxShadow: "0 14px 38px -12px rgba(224,62,72,.6)" }}
             >

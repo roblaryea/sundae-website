@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { cookies } from 'next/headers';
 import { Button } from '@/components/ui/Button';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
+import { DemoDiagnosticPromo } from '@/components/marketing/DemoDiagnosticPromo';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { getWebsiteMessages, resolveWebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL } from '@/lib/links';
@@ -36,35 +37,8 @@ export default async function DemoPage() {
         </div>
       </section>
 
-      {/* AI Operations Diagnostic - primary path */}
-      <section className="px-4 sm:px-6 lg:px-8 pb-16">
-        <div className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[var(--warm-coral)]/15 via-[var(--warm-coral)]/8 to-emerald-500/8 border border-[var(--warm-coral)]/30 p-6 md:p-10 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--warm-coral)]/15 border border-[var(--warm-coral)]/30 mb-4">
-            <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
-              ✦ Recommended · 10 minutes · Premium report
-            </span>
-          </div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-3 text-balance">
-            Want substance before the call?
-          </h2>
-          <p className="text-base text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
-            Take the Sundae Operations Diagnostic - 20 strategic questions →
-            personalized report showing the margin leaks we&rsquo;d surface, the
-            recommended stack, and a 30/60/90 plan. Same outcome as a discovery
-            call, on your time, with a shareable artifact at the end.
-          </p>
-          <a
-            href="/diagnostic"
-            className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white font-bold rounded-xl shadow-xl shadow-[var(--warm-coral)]/20 hover:shadow-[var(--warm-coral)]/40 transition-all"
-          >
-            Start your diagnostic
-            <span aria-hidden>→</span>
-          </a>
-          <p className="text-[11px] text-[var(--text-muted)] mt-3">
-            No credit card · Output is a directional read, never a promise
-          </p>
-        </div>
-      </section>
+      {/* AI Operations Diagnostic - primary path (localized client component) */}
+      <DemoDiagnosticPromo />
 
       {/* Demo Form */}
       <section id="demo-form" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
