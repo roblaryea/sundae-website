@@ -26,6 +26,7 @@ import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
 import { SectionThreeMoats } from "./sections/SectionThreeMoats";
 import { Section4DScene } from "./sections/Section4DScene";
+import { SectionCrewSubstrate } from "./sections/SectionCrewSubstrate";
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
 import { SectionTrustStrip } from "./sections/SectionTrustStrip";
@@ -391,6 +392,11 @@ export default function HomeContent() {
             3c. 4D INTELLIGENCE MODEL - scenario walk-through
         ════════════════════════════════════════════════ */}
         <Section4DScene />
+
+        {/* ════════════════════════════════════════════════
+            3d. CREW - the operational substrate that feeds the intelligence
+        ════════════════════════════════════════════════ */}
+        <SectionCrewSubstrate />
 
         {/* ════════════════════════════════════════════════
             4b-relief. SECOND CREAM BREAK - keeps warmth alive through the lower half
