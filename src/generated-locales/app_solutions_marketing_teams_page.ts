@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
       "badge": "面向营销负责人",
       "titleLine1": "重新分配支出。",
       "titleLine2": "在预算关闭之前。",
-      "description": "活动 ROI 在 24 小时内与客流和净利润挂钩。渠道组合、归因以及下一步该做什么 -  - 而不是每月回顾。",
+      "description": "活动 ROI 在 24 小时内与客流和净利润挂钩。渠道组合、归因以及下一步该做什么 - 而不是每月回顾。",
       "primaryCta": "预约营销演练",
       "secondaryCta": "查看营销演示",
       "problemsEyebrow": "预算从哪里流失",
@@ -817,7 +817,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "渠道组合凭直觉决定",
-          "description": "忠诚度、付费社交、搜索、电子邮件 -  - 上周的组合默认延续，而非基于分析。",
+          "description": "忠诚度、付费社交、搜索、电子邮件 - 上周的组合默认延续，而非基于分析。",
           "icon": "performance"
         },
         {
@@ -831,13 +831,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "归因到净利润，而不仅仅是客流",
-          "description": "每个活动都与归因客流、客单价以及这些客流实际赚取的利润挂钩。按每赚得一美元利润来投放 -  - 而非按每次点击。",
+          "description": "每个活动都与归因客流、客单价以及这些客流实际赚取的利润挂钩。按每赚得一美元利润来投放 - 而非按每次点击。",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "你可以实时重新分配的渠道组合",
-          "description": "忠诚度、付费、搜索、电子邮件 -  - 每项都带有实时 ROAS、归因客流和每客流成本。在活动仍在进行时调整预算。",
+          "description": "忠诚度、付费、搜索、电子邮件 - 每项都带有实时 ROAS、归因客流和每客流成本。在活动仍在进行时调整预算。",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -849,7 +849,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "简报中的市场信号",
-          "description": "竞争对手的促销、本地活动、天气 -  - 全部汇入晨间简报，让活动计划反映市场，而不仅仅是日历。",
+          "description": "竞争对手的促销、本地活动、天气 - 全部汇入晨间简报，让活动计划反映市场，而不仅仅是日历。",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "叠加可复合的渠道",
-          "description": "Cross-Intelligence 显示哪些渠道组合能相互倍增 -  - 而不仅仅是哪些单独有效。",
+          "description": "Cross-Intelligence 显示哪些渠道组合能相互倍增 - 而不仅仅是哪些单独有效。",
           "icon": "performance"
         },
         {

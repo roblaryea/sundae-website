@@ -6132,7 +6132,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "决策智能平台",
       "titleTop": "决策智能",
       "titleBottom": "为多门店餐厅打造",
-      "description": "你的数据散落在 POS、外卖、预订、用工、库存和财务之间。Sundae 将它们汇入一个 AI 原生的运营层 -  - 发现变化、解释原因，并",
+      "description": "你的数据散落在 POS、外卖、预订、用工、库存和财务之间。Sundae 将它们汇入一个 AI 原生的运营层 - 发现变化、解释原因，并",
       "descriptionEmphasis": "在班次结束前给出下一步该怎么做。",
       "narrativeAnchor": "从报告滞后到运营提速。",
       "startFree": "预约演示",
@@ -6222,13 +6222,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "对话式 AI",
-            "description": "向你的数据问任何问题 -  - 在网页、WhatsApp、Telegram、Slack 或 Teams 上数秒内给出带来源的答案。",
+            "description": "向你的数据问任何问题 - 在网页、WhatsApp、Telegram、Slack 或 Teams 上数秒内给出带来源的答案。",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "预测智能",
-            "description": "预测、预算与假设情景 -  - 配自我校正的高管简报。",
+            "description": "预测、预算与假设情景 - 配自我校正的高管简报。",
             "href": "/product/foresight"
           }
         ]
@@ -6236,7 +6236,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "智能模块",
         "heading": "12个领域的12个模块",
-        "description": "餐厅绩效的每个维度 -  - 经过分析、基准对比，并可付诸行动。",
+        "description": "餐厅绩效的每个维度 - 经过分析、基准对比，并可付诸行动。",
         "categories": [
           {
             "name": "收入智能",
@@ -6296,7 +6296,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "运营领导",
             "pain": "你不可能同时在每个餐厅。",
-            "outcome": "实时掌握每个门店的运营节奏和服务员表现 -  - 查看谁现在需要帮助。",
+            "outcome": "实时掌握每个门店的运营节奏和服务员表现 - 查看谁现在需要帮助。",
             "attribution": "多地点运营商的模式"
           },
           {
@@ -6308,7 +6308,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C级高管与所有者",
             "pain": "你最差的门店在周四之前是看不见的。",
-            "outcome": "投资组合视图，每日AI简报，市场信号 -  - 涵盖你运营的每个品牌。",
+            "outcome": "投资组合视图，每日AI简报，市场信号 - 涵盖你运营的每个品牌。",
             "attribution": "创始人和集团CEO的模式"
           },
           {
@@ -6874,7 +6874,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "意思決定インテリジェンスプラットフォーム",
       "titleTop": "意思決定インテリジェンス",
       "titleBottom": "多店舗レストランのための",
-      "description": "あなたのデータは POS、デリバリー、予約、労務、在庫、会計に散らばっています。Sundae はそれらを一つの AI ネイティブな運用レイヤーにまとめ -  - 何が変わったかを捉え、理由を説明し、",
+      "description": "あなたのデータは POS、デリバリー、予約、労務、在庫、会計に散らばっています。Sundae はそれらを一つの AI ネイティブな運用レイヤーにまとめ - 何が変わったかを捉え、理由を説明し、",
       "descriptionEmphasis": "シフトが終わる前に次の一手を示します。",
       "narrativeAnchor": "報告の遅延から運営のスピードへ。",
       "startFree": "デモを予約",
@@ -6964,13 +6964,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "会話型AI",
-            "description": "データに何でも質問 -  - Web、WhatsApp、Telegram、Slack、Teams で数秒、出典付きの回答。",
+            "description": "データに何でも質問 - Web、WhatsApp、Telegram、Slack、Teams で数秒、出典付きの回答。",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "予測情報",
-            "description": "予測、予算、What-ifシナリオ -  - 自己修正する経営層向けブリーフィング付き。",
+            "description": "予測、予算、What-ifシナリオ - 自己修正する経営層向けブリーフィング付き。",
             "href": "/product/foresight"
           }
         ]

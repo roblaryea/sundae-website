@@ -1,9 +1,46 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
+
+// useLayoutEffect on the client, useEffect on the server (avoids the SSR warning).
+const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
+
+// Measure the largest font (px) at which the hero headline still fits the column
+// on ONE row, so every language stays single-line (English at the cap, longer
+// locales scaled down). Mutates fontSize as a side effect of measuring.
+function fitHeadlinePx(el: HTMLElement): number | null {
+  const h1 = el.closest("h1");
+  if (!h1) return null;
+  const avail = h1.clientWidth;
+  const REF = 100;
+  el.style.fontSize = `${REF}px`;
+  const natural = el.scrollWidth;
+  if (!natural || !avail) return null;
+  const cap = Math.min(104, window.innerWidth * 0.071); // mirrors clamp(_, 7.1vw, 104)
+  const fitted = Math.min(cap, (REF * avail) / natural);
+  el.style.fontSize = `${fitted}px`;
+  return fitted;
+}
+
+// Largest font (px) at which the sub-paragraph's WIDEST clause fits the column on
+// one row (desktop only) - keeps the clause-per-line wrap identical across locales.
+function fitSubPx(el: HTMLElement): number | null {
+  if (window.innerWidth < 1024) return null; // mobile: let the sentence flow naturally
+  const avail = el.clientWidth;
+  const REF = 100;
+  el.style.fontSize = `${REF}px`;
+  let maxW = 0;
+  el.querySelectorAll(":scope > span").forEach((s) => {
+    maxW = Math.max(maxW, (s as HTMLElement).scrollWidth);
+  });
+  el.style.fontSize = "";
+  if (!maxW || !avail) return null;
+  const cap = Math.min(18.5, window.innerWidth * 0.0155); // mirrors clamp(_, 1.55vw, 18.5)
+  return Math.min(cap, (REF * avail) / maxW);
+}
 
 /**
  * Cinematic brand intro - the "glass" moment that opens the homepage and then
@@ -187,6 +224,31 @@ function Glass() {
 export function SectionCinematicIntro() {
   const { locale } = useWebsiteI18n();
   const copy = cinematicIntroCopy[locale] ?? cinematicIntroCopy.en;
+  const headlineRef = useRef<HTMLSpanElement>(null);
+  const [headlinePx, setHeadlinePx] = useState<number | null>(null);
+  const subRef = useRef<HTMLParagraphElement>(null);
+  const [subPx, setSubPx] = useState<number | null>(null);
+
+  useIsoLayoutEffect(() => {
+    const el = headlineRef.current;
+    if (!el) return;
+    const fit = () => setHeadlinePx(fitHeadlinePx(el));
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(document.documentElement);
+    return () => ro.disconnect();
+  }, [copy.headline]);
+
+  useIsoLayoutEffect(() => {
+    const el = subRef.current;
+    if (!el) return;
+    const fit = () => setSubPx(fitSubPx(el));
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(document.documentElement);
+    return () => ro.disconnect();
+  }, [copy.sub]);
+
   return (
     <section
       className="surface-always-dark relative flex min-h-svh items-center overflow-hidden px-6 pt-24 pb-14 sm:px-10"
@@ -197,7 +259,9 @@ export function SectionCinematicIntro() {
       aria-label="Sundae - see every layer, act in time"
     >
       <div className="mx-auto grid w-full max-w-[1320px] items-center gap-8 lg:grid-cols-[1.12fr_.88fr]">
-        <div>
+        {/* min-w-0 so the nowrap headline can't expand this grid track past its
+            fr share (lets the fit-to-width hook measure the real column width). */}
+        <div className="min-w-0">
           <motion.div
             className="text-[11.5px] font-semibold uppercase tracking-[0.24em]"
             style={{ color: "#FF5C4D" }}
@@ -214,13 +278,14 @@ export function SectionCinematicIntro() {
           >
             <span className="block overflow-hidden">
               <motion.span
+                ref={headlineRef}
                 className="block whitespace-nowrap"
-                style={{ fontSize: "clamp(44px,7.1vw,104px)" }}
+                style={{ fontSize: headlinePx ? `${headlinePx}px` : "clamp(44px,7.1vw,104px)" }}
                 initial={{ y: "110%" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 1.1, ease: EASE }}
               >
-                See every layer.
+                {copy.headline}
               </motion.span>
             </span>
             <motion.span
@@ -230,23 +295,28 @@ export function SectionCinematicIntro() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.9, ease: EASE }}
             >
-              Act in time.
+              {copy.tagline}
             </motion.span>
           </h1>
 
           <motion.p
-            className="mt-7 max-w-[44rem] text-[clamp(15.5px,1.55vw,18.5px)] leading-[1.62]"
-            style={{ color: "rgba(251,248,244,0.86)" }}
+            ref={subRef}
+            className="mt-7 leading-[1.62]"
+            style={{
+              color: "rgba(251,248,244,0.86)",
+              fontSize: subPx ? `${subPx}px` : "clamp(15.5px,1.55vw,18.5px)",
+            }}
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.9, ease: EASE }}
           >
-            {/* break the sentence at its clause dashes so each clause lands on its
-                own line on desktop; flows naturally when the locale has no dashes */}
+            {/* Break the sentence at its clause dashes: each clause on its own row
+                on desktop (nowrap + per-locale fit keeps it to one line), flowing
+                naturally on mobile. The \u00A0 before the dash glues it to the preceding word
+                so it can never wrap onto a line by itself. */}
             {copy.sub.split(" - ").map((part, i, arr) => (
-              <span key={i} className="lg:block">
-                {part}
-                {i < arr.length - 1 ? " - " : ""}
+              <span key={i} className="lg:block lg:whitespace-nowrap">
+                {i < arr.length - 1 ? `${part}\u00A0- ` : part}
               </span>
             ))}
           </motion.p>

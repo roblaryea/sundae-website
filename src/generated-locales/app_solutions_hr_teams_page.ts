@@ -991,7 +991,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "每位服务员每 FOH 小时的生产力",
-          "description": "客流/小时、销售额/小时、追加销售率 -  - 按服务员、按班次。用数字而非印象来辅导。",
+          "description": "客流/小时、销售额/小时、追加销售率 - 按服务员、按班次。用数字而非印象来辅导。",
           "product": "Pulse · Server view",
           "icon": "performance"
         },

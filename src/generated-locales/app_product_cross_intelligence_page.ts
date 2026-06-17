@@ -4528,7 +4528,7 @@ export const generatedLocalCopy = {
       {
         "title": "营销影响时间表",
         "headline": "查看每一笔营销费用的延迟效果",
-        "description": "将营销支出、活动和促销叠加到您的收入时间线上。Cross-Intelligence 揭示营销动作与收入影响之间 3 至 7 天的滞后 -  - 这是传统仪表板完全错过的。",
+        "description": "将营销支出、活动和促销叠加到您的收入时间线上。Cross-Intelligence 揭示营销动作与收入影响之间 3 至 7 天的滞后 - 这是传统仪表板完全错过的。",
         "capabilities": [
           "收入+营销支出叠加，具有可调整的滞后窗口",
           "具有统计置信度得分的营销活动投资回报率归因",

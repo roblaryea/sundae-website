@@ -1,12 +1,14 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
-// Locale copy for the cinematic intro. The "See every layer. / Act in time."
-// headline stays English as the fixed brand signature; everything else localizes.
+// Locale copy for the cinematic intro. Everything localizes, including the
+// "See every layer. / Act in time." headline (native transcreation per locale).
 export type CinematicLayer = { name: string; sub: string };
-export type CinematicIntroCopy = { eyebrow: string; sub: string; cta: string; layers: CinematicLayer[] };
+export type CinematicIntroCopy = { headline: string; tagline: string; eyebrow: string; sub: string; cta: string; layers: CinematicLayer[] };
 
 export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
   en: {
+    headline: 'See every layer.',
+    tagline: 'Act in time.',
     eyebrow: 'Decision intelligence for multi-location operators',
     sub: 'Sundae connects every layer of the business - revenue, labor, inventory, guests, marketing, and outlet performance - so teams can see what changed and act while it still matters.',
     cta: 'Book a demo',
@@ -21,6 +23,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ar: {
+    headline: 'اطّلع على كل طبقة.',
+    tagline: 'وتحرّك في الوقت المناسب.',
     eyebrow: 'ذكاء قراري لمشغّلي المواقع المتعددة',
     sub: 'يربط Sundae كل طبقة من نشاطك - الإيرادات والعمالة والمخزون والضيوف والتسويق وأداء الفروع - ليرى الفريق ما تغيّر ويتصرّف وهو ما زال مهماً.',
     cta: 'احجز عرضاً',
@@ -35,6 +39,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   fr: {
+    headline: 'Voyez chaque couche.',
+    tagline: 'Agissez à temps.',
     eyebrow: 'Intelligence décisionnelle pour opérateurs multi-sites',
     sub: 'Sundae relie chaque couche de l’activité - revenu, main-d’œuvre, stocks, clients, marketing et performance des points de vente - pour que les équipes voient ce qui a changé et agissent tant que ça compte.',
     cta: 'Réserver une démo',
@@ -49,6 +55,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   es: {
+    headline: 'Ve cada capa.',
+    tagline: 'Actúa a tiempo.',
     eyebrow: 'Inteligencia de decisión para operadores multilocal',
     sub: 'Sundae conecta cada capa del negocio - ingresos, personal, inventario, clientes, marketing y rendimiento de locales - para que los equipos vean qué cambió y actúen cuando aún importa.',
     cta: 'Reservar una demo',
@@ -63,6 +71,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   de: {
+    headline: 'Sieh jede Ebene.',
+    tagline: 'Handle rechtzeitig.',
     eyebrow: 'Entscheidungsintelligenz für Betreiber mit mehreren Standorten',
     sub: 'Sundae verbindet jede Ebene des Betriebs - Umsatz, Personal, Inventar, Gäste, Marketing und Standortleistung - damit Teams sehen, was sich geändert hat, und handeln, solange es zählt.',
     cta: 'Demo buchen',
@@ -77,6 +87,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   nl: {
+    headline: 'Zie elke laag.',
+    tagline: 'Handel op tijd.',
     eyebrow: 'Decision intelligence voor operators met meerdere vestigingen',
     sub: 'Sundae verbindt elke laag van de zaak - omzet, personeel, voorraad, gasten, marketing en vestigingsprestaties - zodat teams zien wat veranderde en handelen terwijl het nog telt.',
     cta: 'Demo boeken',
@@ -91,6 +103,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   pt: {
+    headline: 'Veja cada camada.',
+    tagline: 'Aja a tempo.',
     eyebrow: 'Decision intelligence para operadores multiunidade',
     sub: 'O Sundae conecta cada camada do negócio - receita, equipe, estoque, clientes, marketing e desempenho das unidades - para as equipes verem o que mudou e agirem enquanto ainda importa.',
     cta: 'Agendar demo',
@@ -105,6 +119,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   hi: {
+    headline: 'हर परत देखें।',
+    tagline: 'समय रहते कदम उठाएँ।',
     eyebrow: 'मल्टी-लोकेशन ऑपरेटरों के लिए डिसीज़न इंटेलिजेंस',
     sub: 'Sundae कारोबार की हर परत को जोड़ता है - रेवेन्यू, लेबर, इन्वेंटरी, मेहमान, मार्केटिंग और आउटलेट परफ़ॉर्मेंस - ताकि टीमें देखें क्या बदला और तब कदम उठाएँ जब यह मायने रखता है।',
     cta: 'डेमो बुक करें',
@@ -119,6 +135,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ur: {
+    headline: 'ہر پرت دیکھیں۔',
+    tagline: 'وقت پر عمل کریں۔',
     eyebrow: 'متعدد مقامات والے آپریٹرز کے لیے ڈیسیژن انٹیلیجنس',
     sub: 'Sundae کاروبار کی ہر پرت کو جوڑتا ہے - ریونیو، لیبر، انوینٹری، مہمان، مارکیٹنگ اور آؤٹ لیٹ کارکردگی - تاکہ ٹیمیں دیکھیں کیا بدلا اور تب عمل کریں جب یہ اہم ہو۔',
     cta: 'ڈیمو بُک کریں',
@@ -133,6 +151,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   it: {
+    headline: 'Vedi ogni livello.',
+    tagline: 'Agisci in tempo.',
     eyebrow: 'Decision intelligence per operatori multi-sede',
     sub: 'Sundae collega ogni livello dell’attività - ricavi, personale, magazzino, clienti, marketing e performance dei locali - così i team vedono cosa è cambiato e agiscono finché conta.',
     cta: 'Prenota una demo',
@@ -147,6 +167,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   pl: {
+    headline: 'Zobacz każdą warstwę.',
+    tagline: 'Działaj na czas.',
     eyebrow: 'Decision intelligence dla operatorów wielolokalizacyjnych',
     sub: 'Sundae łączy każdą warstwę biznesu - przychód, kadry, magazyn, gości, marketing i wyniki lokali - by zespoły widziały, co się zmieniło, i działały, póki to ma znaczenie.',
     cta: 'Umów demo',
@@ -161,6 +183,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   tr: {
+    headline: 'Her katmanı gör.',
+    tagline: 'Zamanında harekete geç.',
     eyebrow: 'Çok şubeli işletmeciler için decision intelligence',
     sub: 'Sundae işin her katmanını birbirine bağlar - gelir, personel, envanter, misafirler, pazarlama ve şube performansı - böylece ekipler neyin değiştiğini görür ve hâlâ önemliyken harekete geçer.',
     cta: 'Demo planlayın',
@@ -175,8 +199,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   'zh-Hans': {
+    headline: '看见每一层。',
+    tagline: '及时行动。',
     eyebrow: '面向多门店运营者的决策智能',
-    sub: 'Sundae 连接业务的每一层 -  - 营收、用工、库存、客人、营销与门店表现 -  - 让团队看清变化，并在仍来得及时采取行动。',
+    sub: 'Sundae 连接业务的每一层 - 营收、用工、库存、客人、营销与门店表现 - 让团队看清变化，并在仍来得及时采取行动。',
     cta: '预约演示',
     layers: [
       { name: '根基', sub: '组织拓扑' },
@@ -189,8 +215,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ja: {
+    headline: 'すべてのレイヤーを見る。',
+    tagline: '間に合ううちに動く。',
     eyebrow: '多店舗オペレーター向けの意思決定インテリジェンス',
-    sub: 'Sundae はビジネスのあらゆるレイヤー -  - 売上、労務、在庫、ゲスト、マーケティング、店舗パフォーマンス -  - をつなぎ、何が変わったかをチームが把握し、間に合ううちに動けるようにします。',
+    sub: 'Sundae はビジネスのあらゆるレイヤー - 売上、労務、在庫、ゲスト、マーケティング、店舗パフォーマンス - をつなぎ、何が変わったかをチームが把握し、間に合ううちに動けるようにします。',
     cta: 'デモを予約',
     layers: [
       { name: '基盤', sub: '組織トポロジー' },
@@ -203,6 +231,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ko: {
+    headline: '모든 계층을 보세요.',
+    tagline: '제때 움직이세요.',
     eyebrow: '다점포 운영자를 위한 의사결정 인텔리전스',
     sub: 'Sundae는 비즈니스의 모든 계층 - 매출, 인력, 재고, 고객, 마케팅, 매장 성과 - 을 연결해 팀이 무엇이 바뀌었는지 보고 늦기 전에 움직이게 합니다.',
     cta: '데모 예약',
@@ -217,6 +247,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   id: {
+    headline: 'Lihat setiap lapisan.',
+    tagline: 'Bertindak tepat waktu.',
     eyebrow: 'Decision intelligence untuk operator multi-lokasi',
     sub: 'Sundae menghubungkan setiap lapisan bisnis - pendapatan, tenaga kerja, inventaris, tamu, pemasaran, dan kinerja outlet - agar tim melihat apa yang berubah dan bertindak selagi masih penting.',
     cta: 'Pesan demo',
@@ -231,6 +263,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   vi: {
+    headline: 'Thấy mọi tầng.',
+    tagline: 'Hành động kịp thời.',
     eyebrow: 'Decision intelligence cho nhà điều hành nhiều chi nhánh',
     sub: 'Sundae kết nối mọi tầng của doanh nghiệp - doanh thu, nhân sự, tồn kho, khách, marketing và hiệu suất chi nhánh - để đội ngũ thấy điều gì đã đổi và hành động khi còn kịp.',
     cta: 'Đặt demo',
@@ -245,6 +279,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ro: {
+    headline: 'Vezi fiecare strat.',
+    tagline: 'Acționează la timp.',
     eyebrow: 'Decision intelligence pentru operatori multi-locație',
     sub: 'Sundae conectează fiecare strat al afacerii - venit, personal, stocuri, clienți, marketing și performanța locațiilor - ca echipele să vadă ce s-a schimbat și să acționeze cât încă contează.',
     cta: 'Programează un demo',
@@ -259,6 +295,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   sv: {
+    headline: 'Se varje lager.',
+    tagline: 'Agera i tid.',
     eyebrow: 'Decision intelligence för operatörer med flera enheter',
     sub: 'Sundae kopplar ihop varje lager av verksamheten - intäkter, personal, lager, gäster, marknadsföring och enhetsprestanda - så att team ser vad som ändrades och agerar medan det fortfarande spelar roll.',
     cta: 'Boka en demo',
@@ -273,6 +311,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   bn: {
+    headline: 'প্রতিটি স্তর দেখুন।',
+    tagline: 'সময় থাকতেই পদক্ষেপ নিন।',
     eyebrow: 'মাল্টি-লোকেশন অপারেটরদের জন্য ডিসিশন ইন্টেলিজেন্স',
     sub: 'Sundae ব্যবসার প্রতিটি স্তর - রাজস্ব, কর্মী, ইনভেন্টরি, অতিথি, মার্কেটিং ও আউটলেট পারফরম্যান্স - যুক্ত করে, যাতে টিম দেখে কী বদলালো এবং সময় থাকতেই পদক্ষেপ নেয়।',
     cta: 'ডেমো বুক করুন',
@@ -287,6 +327,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   th: {
+    headline: 'เห็นทุกชั้น',
+    tagline: 'ลงมือทันเวลา',
     eyebrow: 'Decision intelligence สำหรับผู้ดำเนินการหลายสาขา',
     sub: 'Sundae เชื่อมทุกชั้นของธุรกิจ - รายได้ แรงงาน สินค้าคงคลัง ลูกค้า การตลาด และผลงานสาขา - เพื่อให้ทีมเห็นว่าอะไรเปลี่ยนและลงมือก่อนจะสาย',
     cta: 'จองเดโม',
@@ -301,6 +343,8 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ms: {
+    headline: 'Lihat setiap lapisan.',
+    tagline: 'Bertindak tepat pada masanya.',
     eyebrow: 'Decision intelligence untuk pengendali berbilang lokasi',
     sub: 'Sundae menghubungkan setiap lapisan perniagaan - hasil, tenaga kerja, inventori, tetamu, pemasaran dan prestasi outlet - supaya pasukan nampak apa yang berubah dan bertindak semasa ia masih penting.',
     cta: 'Tempah demo',

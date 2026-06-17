@@ -473,7 +473,7 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "eyebrow": "由运营商构建",
       "headline": "由各类餐厅运营商塑造。",
-      "description": "快餐、休闲餐饮、高档餐饮、云厨房和餐饮集团共同塑造了餐厅真正需要的智能层 -  - 从单店经营者到多品牌集团。",
+      "description": "快餐、休闲餐饮、高档餐饮、云厨房和餐饮集团共同塑造了餐厅真正需要的智能层 - 从单店经营者到多品牌集团。",
       "stats": [
         {
           "value": "200+",

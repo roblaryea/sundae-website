@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       "badge": "针对技术和数据团队",
       "titleLine1": "十二个来源。",
       "titleLine2": "一个受管控的模式。",
-      "description": "POS、劳动力、库存、配送、会计 -  - 统一。RBAC、审计日志、公共API、webhooks。不是另一个集成项目。",
+      "description": "POS、劳动力、库存、配送、会计 - 统一。RBAC、审计日志、公共API、webhooks。不是另一个集成项目。",
       "primaryCta": "预约技术演示",
       "secondaryCta": "查看 API 和架构文档",
       "problemsEyebrow": "什么导致了积压",

@@ -290,7 +290,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     band1: {
       eyebrow: '从出菜口到 P&L',
       headline: '为你真正在经营的餐厅打造的智能层。',
-      sub: '不是又一个要查看的仪表盘。Sundae 读取每一个班次、每一位客人、每一笔条目 -  - 并在时机错过之前，为你点出下一步的正确动作。',
+      sub: '不是又一个要查看的仪表盘。Sundae 读取每一个班次、每一位客人、每一笔条目 - 并在时机错过之前，为你点出下一步的正确动作。',
       alt: '服务期间，厨师在出菜口完成摆盘',
     },
     band2: {
@@ -311,7 +311,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     band1: {
       eyebrow: 'パスからP&Lまで',
       headline: 'あなたが実際に切り盛りする店のためのインテリジェンス層。',
-      sub: '確認すべきダッシュボードがまた増えるわけではありません。Sundae はすべてのシフト、すべての客数、すべての明細を読み取り -  - その瞬間を逃す前に、次の最善手を浮かび上がらせます。',
+      sub: '確認すべきダッシュボードがまた増えるわけではありません。Sundae はすべてのシフト、すべての客数、すべての明細を読み取り - その瞬間を逃す前に、次の最善手を浮かび上がらせます。',
       alt: 'サービス中、パスで一皿を仕上げるシェフ',
     },
     band2: {
@@ -332,7 +332,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     band1: {
       eyebrow: '패스에서 P&L까지',
       headline: '당신이 실제로 운영하는 레스토랑을 위한 인텔리전스 레이어.',
-      sub: '확인해야 할 대시보드가 하나 더 느는 게 아닙니다. Sundae는 모든 근무, 모든 손님, 모든 항목을 읽어내고 -  - 그 순간이 지나가기 전에 다음 최선의 수를 짚어 줍니다.',
+      sub: '확인해야 할 대시보드가 하나 더 느는 게 아닙니다. Sundae는 모든 근무, 모든 손님, 모든 항목을 읽어내고 - 그 순간이 지나가기 전에 다음 최선의 수를 짚어 줍니다.',
       alt: '서비스 중 패스에서 요리를 마무리하는 셰프',
     },
     band2: {
