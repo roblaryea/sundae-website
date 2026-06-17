@@ -9,8 +9,8 @@ import {
   useMotionValue,
   useMotionValueEvent,
   useTransform,
-  useReducedMotion,
 } from "framer-motion";
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'

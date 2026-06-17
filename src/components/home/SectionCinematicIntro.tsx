@@ -88,6 +88,14 @@ const BOKEH = [
 
 function Glass() {
   const reduce = useReducedMotion();
+  // SSR and the first client render must match, but useReducedMotion() is false
+  // on the server and true on a reduced-motion client. Gate every SSR-affecting
+  // motion guard (element presence / initial / style) behind `mounted` so the
+  // first render is always the full-motion path; reduced users settle after mount.
+  const [mounted, setMounted] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMounted(true), []);
+  const rm = mounted && reduce;
   const [hover, setHover] = useState<number | null>(null);
   const [tour, setTour] = useState<number | null>(null);
   const { locale } = useWebsiteI18n();
@@ -143,7 +151,7 @@ function Glass() {
       {/* restaurant-scene atmosphere - drifting service-light bokeh, a kitchen-
           pass glow from the lower left, and a table light-pool under the foot, so
           the glass sits in a room instead of floating. */}
-      {!reduce &&
+      {!rm &&
         BOKEH.map((dot, i) => (
           <motion.span
             key={`bok${i}`}
@@ -167,7 +175,7 @@ function Glass() {
 
       {/* climax pulse-ring - radiates from the cherry as "Act in time." lands,
           then beats slowly at rest. The payoff beat the hero was missing. */}
-      {!reduce && (
+      {!rm && (
         <motion.span
           aria-hidden
           className="absolute rounded-full border"
@@ -221,7 +229,7 @@ function Glass() {
                 height={BAND + 0.8}
                 fill={L.c}
                 style={{ transformBox: "fill-box", transformOrigin: "center bottom" }}
-                initial={reduce ? false : { scaleY: 0, opacity: 1 }}
+                initial={rm ? false : { scaleY: 0, opacity: 1 }}
                 animate={{ scaleY: 1, opacity: active === null || active === i ? 1 : 0.28 }}
                 transition={{ scaleY: { delay: 0.5 + i * 0.13, duration: 0.8, ease: EASE }, opacity: { duration: 0.35, ease: "easeOut" } }}
               />
@@ -232,7 +240,7 @@ function Glass() {
             const y = BOT - (i + 1) * BAND;
             return (
               <motion.ellipse key={`m${i}`} cx="120" cy={y + 1.4} rx="60" ry="3.4" fill="rgba(255,255,255,.20)"
-                initial={reduce ? false : { opacity: 0 }} animate={{ opacity: active === null || active === i ? 0.9 : 0.25 }}
+                initial={rm ? false : { opacity: 0 }} animate={{ opacity: active === null || active === i ? 0.9 : 0.25 }}
                 transition={{ delay: 0.65 + i * 0.13, duration: 0.5 }} />
             );
           })}
@@ -241,14 +249,14 @@ function Glass() {
           <ellipse cx="80" cy="180" rx="13" ry="118" fill="rgba(255,255,255,.16)" filter="url(#ci-blur)" />
           <ellipse cx="164" cy="172" rx="5" ry="88" fill="rgba(255,255,255,.07)" filter="url(#ci-blur)" />
           {/* rising bubbles */}
-          {!reduce && [0, 1, 2].map((bi) => (
+          {!rm && [0, 1, 2].map((bi) => (
             <motion.circle key={`b${bi}`} cx={96 + bi * 20} cy={300} r={1.5 + bi * 0.5} fill="rgba(255,255,255,.45)"
               style={{ transformBox: "fill-box" }}
               animate={{ y: [0, -185], opacity: [0, 0.6, 0] }}
               transition={{ duration: 4.6 + bi, repeat: Infinity, delay: 3 + bi * 1.4, ease: "easeOut" }} />
           ))}
           {/* light sweep */}
-          {!reduce && (
+          {!rm && (
             <g transform="skewX(-14)">
               <motion.rect x={42} y={55} width={46} height={288} fill="rgba(255,255,255,.4)" style={{ transformBox: "fill-box" }}
                 animate={{ x: [-95, 150, 150], opacity: [0, 0.5, 0] }}
@@ -259,6 +267,10 @@ function Glass() {
               carries even where the external label rail is hidden (mobile/laptop).
               Whisper-quiet by default; they surface as a layer becomes active. */}
           {LAYERS.map((L, i) => {
+            // The bowl tapers to a point, so the bottom band is too narrow for
+            // text - skip its in-band label (its name is carried by the caption
+            // beneath the glass + the external rail) to avoid a clipped, lost look.
+            if (i === 0) return null;
             const yc = BOT - (i + 0.5) * BAND;
             const isActive = active === i;
             const onCream = i === LAYERS.length - 1; // top "Next move" band is light
@@ -272,7 +284,7 @@ function Glass() {
                 fontWeight="700"
                 fill={onCream ? "#5A2417" : "#FFF6EC"}
                 style={{ textTransform: "uppercase", letterSpacing: "1.1px", fontFamily: "var(--font-sans)" }}
-                initial={reduce ? false : { opacity: 0 }}
+                initial={rm ? false : { opacity: 0 }}
                 animate={{ opacity: isActive ? 1 : onCream ? 0.62 : 0.46 }}
                 transition={{ delay: reduce ? 0 : 1.15 + i * 0.13, duration: 0.5 }}
               >
@@ -296,14 +308,14 @@ function Glass() {
         <ellipse cx="120" cy="378" rx="40" ry="7" fill="none" stroke="rgba(251,248,244,.4)" strokeWidth="2.5" />
 
         {/* surface splash ring - radiates at the rim when the cherry lands */}
-        {!reduce && (
+        {!rm && (
           <motion.ellipse cx="120" cy="84" rx="40" ry="9" fill="none" stroke="rgba(255,160,136,.7)" strokeWidth="1.6"
             initial={{ scale: 0.5, opacity: 0 }} style={{ transformBox: "fill-box", transformOrigin: "center" }}
             animate={{ scale: [0.5, 1.7], opacity: [0, 0.7, 0] }}
             transition={{ duration: 1.5, ease: "easeOut", delay: BEAT, repeat: Infinity, repeatDelay: 4.7 }} />
         )}
         {/* cherry - the signal, glossy + 3-D */}
-        <motion.g initial={reduce ? false : { y: -56, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.85, duration: 0.9, ease: EASE }}>
+        <motion.g initial={rm ? false : { y: -56, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.85, duration: 0.9, ease: EASE }}>
           <ellipse cx="116" cy="83" rx="15" ry="3.6" fill="rgba(58,18,8,.4)" filter="url(#ci-soft)" />
           {/* stem - refined: a slim, graceful arc with a faint sheen, not a thick symbol */}
           <path d="M117 67 C115 49 127 41 138 30" stroke="#79301C" strokeWidth="2.1" fill="none" strokeLinecap="round" />
@@ -314,6 +326,21 @@ function Glass() {
           <circle cx="120" cy="76" r="2" fill="rgba(255,255,255,.35)" />
         </motion.g>
 
+        {/* active-layer caption beneath the glass - full-width room for every name
+            (incl. the narrow base band's "Foundation"), surfacing as hover / the
+            auto-tour lands on each layer. */}
+        {active !== null && (
+          <motion.g key={`cap-${active}`} initial={rm ? false : { opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.35 }}>
+            <text x="120" y="402" textAnchor="middle" fontSize="10" fontWeight="700" fill="#FFF6EC"
+              style={{ textTransform: "uppercase", letterSpacing: "1.6px", fontFamily: "var(--font-sans)" }}>
+              {copy.layers[active].name}
+            </text>
+            <text x="120" y="414" textAnchor="middle" fontSize="7.5" fill="rgba(251,248,244,0.6)"
+              style={{ fontFamily: "var(--font-sans)" }}>
+              {copy.layers[active].sub}
+            </text>
+          </motion.g>
+        )}
       </svg>
 
       {/* layer labels - each anchored to its band's exact center */}
@@ -333,7 +360,7 @@ function Glass() {
                   color: isActive ? "rgba(251,248,244,1)" : active !== null ? "rgba(251,248,244,0.34)" : "rgba(251,248,244,0.9)",
                   transition: "color .25s ease",
                 }}
-                initial={reduce ? false : { opacity: 0, x: -8 }}
+                initial={rm ? false : { opacity: 0, x: -8 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1.0 + i * 0.16, duration: 0.55, ease: EASE }}
                 onMouseEnter={() => setHover(i)}
@@ -342,7 +369,7 @@ function Glass() {
                 {/* keyline - draws in from the glass, lengthens + colors when active */}
                 <motion.span
                   style={{ height: 2, borderRadius: 2, transformOrigin: "left center", width: isActive ? 44 : 26, background: isActive ? L.c : "rgba(251,248,244,.3)", transition: "width .25s ease, background .25s ease" }}
-                  initial={reduce ? false : { scaleX: 0 }}
+                  initial={rm ? false : { scaleX: 0 }}
                   animate={{ scaleX: 1 }}
                   transition={{ delay: 1.05 + i * 0.16, duration: 0.5, ease: EASE }}
                 />
@@ -362,6 +389,13 @@ function Glass() {
 export function SectionCinematicIntro() {
   const { locale } = useWebsiteI18n();
   const reduceMotion = useReducedMotion();
+  // See Glass: gate SSR-affecting motion guards behind `mounted` so the first
+  // render always matches the server (full-motion path), avoiding a reduced-
+  // motion hydration mismatch. `rm` settles to the real preference after mount.
+  const [mounted, setMounted] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMounted(true), []);
+  const rm = mounted && reduceMotion;
   const copy = cinematicIntroCopy[locale] ?? cinematicIntroCopy.en;
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLSpanElement>(null);
@@ -410,7 +444,7 @@ export function SectionCinematicIntro() {
     >
       {/* drifting warm light - two large blurred fields that slowly cross, giving
           the flat navy real depth and motion behind the content. */}
-      {!reduceMotion && (
+      {!rm && (
         <>
           <motion.div
             aria-hidden
@@ -450,7 +484,7 @@ export function SectionCinematicIntro() {
 
       <motion.div
         className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-4 sm:gap-8 lg:grid-cols-[1.12fr_.88fr]"
-        style={reduceMotion ? undefined : { opacity: sceneOpacity, y: sceneY }}
+        style={rm ? undefined : { opacity: sceneOpacity, y: sceneY }}
       >
         {/* min-w-0 so the nowrap headline can't expand this grid track past its
             fr share (lets the fit-to-width hook measure the real column width). */}
@@ -541,7 +575,7 @@ export function SectionCinematicIntro() {
 
         <motion.div
           className="relative flex min-h-[300px] items-center justify-center sm:min-h-[420px] lg:min-h-[640px]"
-          style={reduceMotion ? undefined : { scale: glassScale, y: glassLift }}
+          style={rm ? undefined : { scale: glassScale, y: glassLift }}
         >
           <Glass />
         </motion.div>

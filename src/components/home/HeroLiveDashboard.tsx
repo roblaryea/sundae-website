@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getWebsiteIntlLocale } from "@/lib/i18n";
 import { heroDashboardCopy, currencyByLocale } from "./heroDashboardCopy";

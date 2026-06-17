@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { Button } from "@/components/ui/Button";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SundaeWordmark } from "./SundaeWordmark";

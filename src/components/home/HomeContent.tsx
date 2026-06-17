@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { motion, MotionConfig } from "framer-motion";
@@ -27,6 +28,46 @@ import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
 import { SectionThreeMoats } from "./sections/SectionThreeMoats";
 import { Section4DScene } from "./sections/Section4DScene";
 import { SectionCrewSubstrate } from "./sections/SectionCrewSubstrate";
+import { HomeScrollSpine, type HomeChapter } from "./HomeScrollSpine";
+
+// The homepage's seven chapters, mirroring the hero glass's seven strata. As the
+// reader descends, the spine fills with this warm palette - the page becomes the
+// glass filling up - and each node jumps to its chapter.
+const HOME_CHAPTERS: Omit<HomeChapter, "label">[] = [
+  { id: "chapter-overview", color: "#E03E48" },
+  { id: "chapter-shift", color: "#FF5C4D" },
+  { id: "chapter-platform", color: "#FF7E6F" },
+  { id: "chapter-moats", color: "#F7A088" },
+  { id: "chapter-crew", color: "#E9A24A" },
+  { id: "chapter-proof", color: "#F6C66B" },
+  { id: "chapter-cta", color: "#F6F1E8" },
+];
+
+// Localized chapter labels (order matches HOME_CHAPTERS). Short, native nav
+// labels - "Crew" is the product name, kept literal in every locale.
+const CHAPTER_LABELS: Record<string, string[]> = {
+  en: ["Every layer", "The shift", "The platform", "The moat", "Crew", "Proof", "Your move"],
+  fr: ["Chaque couche", "Le service", "La plateforme", "L'avantage", "Crew", "Preuves", "À vous de jouer"],
+  es: ["Cada capa", "El turno", "La plataforma", "La ventaja", "Crew", "Pruebas", "Te toca"],
+  de: ["Jede Ebene", "Die Schicht", "Die Plattform", "Der Vorsprung", "Crew", "Belege", "Ihr Zug"],
+  nl: ["Elke laag", "De dienst", "Het platform", "De voorsprong", "Crew", "Bewijs", "Jouw beurt"],
+  pt: ["Cada camada", "O turno", "A plataforma", "A vantagem", "Crew", "Provas", "É a sua vez"],
+  it: ["Ogni livello", "Il turno", "La piattaforma", "Il vantaggio", "Crew", "Prove", "Tocca a te"],
+  pl: ["Każda warstwa", "Zmiana", "Platforma", "Przewaga", "Crew", "Dowody", "Twój ruch"],
+  ro: ["Fiecare strat", "Tura", "Platforma", "Avantajul", "Crew", "Dovezi", "Rândul tău"],
+  sv: ["Varje lager", "Passet", "Plattformen", "Försprånget", "Crew", "Bevis", "Din tur"],
+  tr: ["Her katman", "Vardiya", "Platform", "Avantaj", "Crew", "Kanıt", "Sıra sizde"],
+  id: ["Setiap lapisan", "Shift", "Platform", "Keunggulan", "Crew", "Bukti", "Giliran Anda"],
+  ms: ["Setiap lapisan", "Syif", "Platform", "Kelebihan", "Crew", "Bukti", "Giliran anda"],
+  vi: ["Mọi tầng", "Ca làm", "Nền tảng", "Lợi thế", "Crew", "Bằng chứng", "Lượt của bạn"],
+  hi: ["हर परत", "शिफ्ट", "प्लेटफ़ॉर्म", "बढ़त", "Crew", "प्रमाण", "आपकी बारी"],
+  ur: ["ہر پرت", "شفٹ", "پلیٹ فارم", "برتری", "Crew", "ثبوت", "آپ کی باری"],
+  bn: ["প্রতিটি স্তর", "শিফট", "প্ল্যাটফর্ম", "সুবিধা", "Crew", "প্রমাণ", "আপনার পালা"],
+  th: ["ทุกชั้น", "กะ", "แพลตฟอร์ม", "ความได้เปรียบ", "Crew", "หลักฐาน", "ตาคุณแล้ว"],
+  "zh-Hans": ["每一层", "营业班次", "平台", "护城河", "Crew", "实证", "该你了"],
+  ja: ["すべての層", "シフト", "プラットフォーム", "優位性", "Crew", "実証", "あなたの番"],
+  ko: ["모든 계층", "시프트", "플랫폼", "우위", "Crew", "증거", "당신 차례"],
+};
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
 import { SectionTrustStrip } from "./sections/SectionTrustStrip";
@@ -69,6 +110,13 @@ export default function HomeContent() {
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const closerLine = closerLineCopy[locale as keyof typeof closerLineCopy] ?? closerLineCopy.en;
   const cta = useCta();
+  // Defer reduced-motion to after mount so SSR and the first client render
+  // always take the full-motion path (framer's reducedMotion="user" strips
+  // transform-initials on a reduced client, which otherwise mismatches the
+  // server-rendered HTML and forces a full client regeneration).
+  const [motionReady, setMotionReady] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMotionReady(true), []);
 
   // The six Intelligence Layers, rendered as one stacked operating layer
   // (the glass metaphor). Keyed by layer.name (brand names stay constant
@@ -92,12 +140,18 @@ export default function HomeContent() {
   };
 
   return (
-    <MotionConfig reducedMotion="user">
+    <MotionConfig reducedMotion={motionReady ? "user" : "never"}>
       <>
+        <HomeScrollSpine
+          chapters={HOME_CHAPTERS.map((c, i) => ({
+            ...c,
+            label: (CHAPTER_LABELS[locale] ?? CHAPTER_LABELS.en)[i],
+          }))}
+        />
         {/* ════════════════════════════════════════════════
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
-        <section className="relative pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section id="chapter-overview" className="relative scroll-mt-24 pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
           {/* Background layers */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
@@ -171,8 +225,8 @@ export default function HomeContent() {
           <div className="max-w-5xl mx-auto text-center relative z-20">
             {/* Eyebrow badge */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0, ease: [0.25, 0.4, 0.25, 1] }}
               className="flex justify-center mb-8"
@@ -185,8 +239,8 @@ export default function HomeContent() {
 
             {/* Headline */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
             >
@@ -203,8 +257,8 @@ export default function HomeContent() {
 
             {/* Tagline */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
             >
@@ -217,8 +271,8 @@ export default function HomeContent() {
             {/* CTAs */}
             <motion.div
               className="flex flex-col sm:flex-row gap-3 justify-center mb-4"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
             >
@@ -248,8 +302,8 @@ export default function HomeContent() {
           <motion.div
             id="pulse-live"
             className="max-w-5xl mx-auto mt-16 relative z-20 px-4 scroll-mt-24"
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ perspective: '1200px' }}
@@ -257,8 +311,8 @@ export default function HomeContent() {
             <div className="absolute -inset-x-10 bottom-0 h-48 bg-gradient-to-t from-[rgba(255,92,77,0.10)] via-[rgba(242,166,90,0.05)] to-transparent blur-2xl pointer-events-none rounded-full" />
 
             <motion.div
-              initial={{ rotateX: 8, scale: 0.95, opacity: 0 }}
-              whileInView={{ rotateX: 1.5, scale: 1, opacity: 1 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             >
@@ -297,7 +351,9 @@ export default function HomeContent() {
             Scrub a service night; at 7:15 Sundae surfaces the signal you can
             still act on. The interactive proof of the manifesto/operator copy.
         ════════════════════════════════════════════════ */}
-        <SectionShiftMoment />
+        <div id="chapter-shift" className="scroll-mt-24">
+          <SectionShiftMoment />
+        </div>
 
         {/* ════════════════════════════════════════════════
             2a. HUMANIZED EDITORIAL BAND - the real restaurant world
@@ -324,7 +380,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             3. SIX LAYERS - Platform pillars
         ════════════════════════════════════════════════ */}
-        <section aria-labelledby="platform-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
+        <section id="chapter-platform" aria-labelledby="platform-heading" className="scroll-mt-24 py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-mesh" />
 
           <div className="max-w-7xl mx-auto relative z-10">
@@ -394,7 +450,9 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             3b. BEYOND DASHBOARDS - Three Moats (Pulse / Watchtower / Benchmarks)
         ════════════════════════════════════════════════ */}
-        <SectionThreeMoats />
+        <div id="chapter-moats" className="scroll-mt-24">
+          <SectionThreeMoats />
+        </div>
 
         {/* ════════════════════════════════════════════════
             3c. 4D INTELLIGENCE MODEL - scenario walk-through
@@ -404,7 +462,9 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             3d. CREW - the operational substrate that feeds the intelligence
         ════════════════════════════════════════════════ */}
-        <SectionCrewSubstrate />
+        <div id="chapter-crew" className="scroll-mt-24">
+          <SectionCrewSubstrate />
+        </div>
 
         {/* ════════════════════════════════════════════════
             4b-relief. SECOND CREAM BREAK - keeps warmth alive through the lower half
@@ -424,7 +484,9 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             6. PROOF - Industry vs Sundae + capability stats
         ════════════════════════════════════════════════ */}
-        <SectionProof />
+        <div id="chapter-proof" className="scroll-mt-24">
+          <SectionProof />
+        </div>
 
         {/* ════════════════════════════════════════════════
             6a-eco. ECOSYSTEM STRIP - honest external-credibility (Live POS + roadmap)
@@ -457,7 +519,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section className="relative py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
+        <section id="chapter-cta" className="relative scroll-mt-24 py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
           {/* photographic base - the floor, warm-graded */}
           <Image
             src="/images/editorial/dining-night.jpg"

@@ -124,7 +124,7 @@ export function SectionProof() {
         <div className="mt-10 sm:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 max-w-4xl mx-auto">
           {copy.stats.map((s) => (
             <div key={s.label} className="text-center p-5 sm:p-7 rounded-2xl bg-[var(--surface-subtle)] border border-[var(--border-default)]">
-              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] tabular-nums">
+              <div className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-[var(--text-primary)] tabular-nums">
                 {s.value}
                 {s.footnoteMarker && (
                   <sup className="text-base text-[var(--text-muted)] ml-0.5">{s.footnoteMarker}</sup>
