@@ -11,33 +11,71 @@
 import { SundaeMark } from "@/components/ui/SundaeMark";
 import { SundaeWordmark } from "@/components/home/sections/SundaeWordmark";
 
-/** Raised coral cherry "signal" accent that perches at the top-right of the word. */
-function CherrySignal({ size = 0.46 }: { size?: number }) {
+type Accent = "none" | "period" | "raised";
+
+/** Stalk-free cherry: a glossy coral/red sphere with a soft glint (reads as a
+ *  cherry, not a flat dot, but without the twee stem). */
+function Cherry({ d = "0.26em" }: { d?: string }) {
   return (
-    <span style={{ position: "relative", display: "inline-block", width: 0, height: 0 }} aria-hidden>
-      <svg
-        width={`${size}em`}
-        height={`${size * 1.18}em`}
-        viewBox="0 0 22 26"
-        style={{ position: "absolute", left: "0.06em", bottom: "0.42em" }}
-      >
-        <path d="M5 11 C7 6 12 4 19 3" stroke="#7d1f12" strokeWidth="2.2" fill="none" strokeLinecap="round" />
-        <circle cx="6.5" cy="16" r="5.6" fill="#E8404A" />
-        <ellipse cx="4.8" cy="13.8" rx="1.6" ry="1" fill="#FF8275" />
-      </svg>
+    <span
+      aria-hidden
+      style={{
+        display: "inline-block",
+        width: d,
+        height: d,
+        borderRadius: "50%",
+        background:
+          "radial-gradient(circle at 34% 30%, #FF8275 0%, #E8404A 52%, #A81B29 100%)",
+        boxShadow: "inset 0 -0.02em 0.04em rgba(120,20,12,0.45)",
+        position: "relative",
+      }}
+    >
+      <span
+        style={{
+          position: "absolute",
+          left: "22%",
+          top: "18%",
+          width: "26%",
+          height: "26%",
+          borderRadius: "50%",
+          background: "rgba(255,255,255,0.85)",
+          filter: "blur(0.2px)",
+        }}
+      />
     </span>
   );
 }
 
-const CANDIDATES: { id: string; label: string; style: React.CSSProperties; cherry?: boolean }[] = [
-  { id: "1", label: "Crisp display", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 } },
-  { id: "2", label: "Crisp + cherry signal (recommended)", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 }, cherry: true },
-  { id: "3", label: "Italic display", style: { fontVariationSettings: "'opsz' 144,'SOFT' 70,'WONK' 1", fontWeight: 600, fontStyle: "italic" } },
-  { id: "4", label: "Italic + cherry signal", style: { fontVariationSettings: "'opsz' 144,'SOFT' 70,'WONK' 1", fontWeight: 600, fontStyle: "italic" }, cherry: true },
-  { id: "5", label: "Soft display + cherry (current direction)", style: { fontVariationSettings: "'opsz' 144,'SOFT' 90,'WONK' 1", fontWeight: 600 }, cherry: true },
+function Accentize({ accent }: { accent: Accent }) {
+  if (accent === "none") return null;
+  if (accent === "period") {
+    // cherry sits on the baseline as the full-stop
+    return (
+      <span style={{ marginLeft: "0.04em", verticalAlign: "baseline", display: "inline-block" }}>
+        <Cherry d="0.24em" />
+      </span>
+    );
+  }
+  // raised: cherry floats at the top-right (the "signal" on top), no stalk
+  return (
+    <span style={{ position: "relative", display: "inline-block", width: 0, height: 0 }}>
+      <span style={{ position: "absolute", left: "0.06em", bottom: "0.6em" }}>
+        <Cherry d="0.28em" />
+      </span>
+    </span>
+  );
+}
+
+const CANDIDATES: { id: string; label: string; style: React.CSSProperties; accent: Accent }[] = [
+  { id: "1", label: "Crisp + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 }, accent: "period" },
+  { id: "2", label: "Crisp + raised cherry", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 }, accent: "raised" },
+  { id: "3", label: "Italic + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 70,'WONK' 1", fontWeight: 600, fontStyle: "italic" }, accent: "period" },
+  { id: "4", label: "Soft display + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 90,'WONK' 1", fontWeight: 600 }, accent: "period" },
+  { id: "5", label: "Heavier + tight + cherry period", style: { fontVariationSettings: "'opsz' 144,'SOFT' 40,'WONK' 1", fontWeight: 720, letterSpacing: "-0.03em" } as React.CSSProperties, accent: "period" },
+  { id: "6", label: "Crisp, no cherry (control)", style: { fontVariationSettings: "'opsz' 144,'SOFT' 0,'WONK' 0", fontWeight: 640 }, accent: "none" },
 ];
 
-function Word({ style, cherry, size }: { style: React.CSSProperties; cherry?: boolean; size: number }) {
+function Word({ style, accent, size }: { style: React.CSSProperties; accent: Accent; size: number }) {
   return (
     <span
       style={{
@@ -50,7 +88,7 @@ function Word({ style, cherry, size }: { style: React.CSSProperties; cherry?: bo
       }}
     >
       sundae
-      {cherry && <CherrySignal />}
+      <Accentize accent={accent} />
     </span>
   );
 }
@@ -74,10 +112,10 @@ function Panel({ dark }: { dark: boolean }) {
           {/* lockup size (navbar) */}
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <SundaeMark size={28} />
-            <Word style={c.style} cherry={c.cherry} size={26} />
+            <Word style={c.style} accent={c.accent} size={26} />
           </div>
           {/* display size, standalone */}
-          <Word style={c.style} cherry={c.cherry} size={56} />
+          <Word style={c.style} accent={c.accent} size={56} />
         </div>
       ))}
       {/* existing fully custom geometric SVG wordmark, for reference */}
