@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
@@ -75,6 +75,17 @@ const BAND = (BOT - TOP) / LAYERS.length;
 // Climax / heartbeat beat (s) - when the cherry lands and the pulse radiates.
 const BEAT = 2.7;
 
+// Out-of-focus "service lights" - soft warm bokeh that drifts behind the glass
+// so the hero reads as a room, not a standalone object. Positions are relative
+// to the glass wrapper; a few spill beyond it into the section.
+const BOKEH = [
+  { x: -64, y: 40, s: 26, b: 9, c: "rgba(255,150,110,.5)", o: 0.5, dx: 18, dy: -14, d: 13, delay: 0 },
+  { x: 280, y: 90, s: 34, b: 12, c: "rgba(246,198,107,.45)", o: 0.42, dx: -22, dy: 16, d: 16, delay: 1.4 },
+  { x: 250, y: 360, s: 22, b: 8, c: "rgba(255,124,111,.45)", o: 0.4, dx: -16, dy: -18, d: 14, delay: 0.8 },
+  { x: -40, y: 320, s: 30, b: 11, c: "rgba(233,162,74,.4)", o: 0.38, dx: 20, dy: 14, d: 18, delay: 2.1 },
+  { x: 150, y: -30, s: 18, b: 7, c: "rgba(255,170,120,.5)", o: 0.45, dx: -12, dy: 10, d: 12, delay: 1.0 },
+];
+
 function Glass() {
   const reduce = useReducedMotion();
   const [hover, setHover] = useState<number | null>(null);
@@ -129,6 +140,31 @@ function Glass() {
         animate={reduce ? undefined : { scale: [1, 1.12, 1], opacity: [0.7, 1, 0.7] }}
         transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
       />
+      {/* restaurant-scene atmosphere - drifting service-light bokeh, a kitchen-
+          pass glow from the lower left, and a table light-pool under the foot, so
+          the glass sits in a room instead of floating. */}
+      {!reduce &&
+        BOKEH.map((dot, i) => (
+          <motion.span
+            key={`bok${i}`}
+            aria-hidden
+            className="absolute rounded-full"
+            style={{ width: dot.s, height: dot.s, left: dot.x, top: dot.y, background: dot.c, filter: `blur(${dot.b}px)` }}
+            animate={{ x: [0, dot.dx, 0], y: [0, dot.dy, 0], opacity: [dot.o * 0.55, dot.o, dot.o * 0.55] }}
+            transition={{ duration: dot.d, repeat: Infinity, ease: "easeInOut", delay: dot.delay }}
+          />
+        ))}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -left-24 bottom-3 h-44 w-72 rounded-full"
+        style={{ background: "radial-gradient(circle, rgba(255,140,90,.16), transparent 70%)", filter: "blur(28px)" }}
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute bottom-[7%] h-10 w-56 rounded-[50%]"
+        style={{ background: "radial-gradient(ellipse, rgba(255,170,120,.2), transparent 72%)", filter: "blur(13px)" }}
+      />
+
       {/* climax pulse-ring - radiates from the cherry as "Act in time." lands,
           then beats slowly at rest. The payoff beat the hero was missing. */}
       {!reduce && (
@@ -141,7 +177,7 @@ function Glass() {
           transition={{ duration: 2.6, ease: "easeOut", delay: BEAT, repeat: Infinity, repeatDelay: 3.6 }}
         />
       )}
-      <svg width="360" viewBox="0 0 240 430" fill="none" className="relative z-10" aria-label="A glass of business layers - every layer, visible at once">
+      <svg viewBox="0 0 240 430" fill="none" className="relative z-10 w-[224px] sm:w-[290px] lg:w-[360px]" aria-label="A glass of business layers - every layer, visible at once">
         <defs>
           <clipPath id="ci-bowl">
             <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84 Z" />
@@ -219,6 +255,31 @@ function Glass() {
                 transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 2.6, times: [0, 0.34, 1] }} />
             </g>
           )}
+          {/* ghosted domain signals inside the strata - the narrative the glass
+              carries even where the external label rail is hidden (mobile/laptop).
+              Whisper-quiet by default; they surface as a layer becomes active. */}
+          {LAYERS.map((L, i) => {
+            const yc = BOT - (i + 0.5) * BAND;
+            const isActive = active === i;
+            const onCream = i === LAYERS.length - 1; // top "Next move" band is light
+            return (
+              <motion.text
+                key={`gl${i}`}
+                x={120}
+                y={yc + 2.3}
+                textAnchor="middle"
+                fontSize="6.2"
+                fontWeight="700"
+                fill={onCream ? "#5A2417" : "#FFFFFF"}
+                style={{ textTransform: "uppercase", letterSpacing: "1.6px", fontFamily: "var(--font-sans)" }}
+                initial={reduce ? false : { opacity: 0 }}
+                animate={{ opacity: isActive ? 0.92 : onCream ? 0.32 : 0.16 }}
+                transition={{ delay: reduce ? 0 : 1.15 + i * 0.13, duration: 0.5 }}
+              >
+                {copy.layers[i].name}
+              </motion.text>
+            );
+          })}
         </g>
 
         {/* glass body gloss + outline */}
@@ -250,6 +311,36 @@ function Glass() {
             animate={reduce ? undefined : { opacity: [0.95, 0.55, 0.95] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
           <circle cx="120" cy="76" r="2" fill="rgba(255,255,255,.35)" />
         </motion.g>
+
+        {/* product signal - a projection lifts off the cherry: the cinematic
+            "every layer" metaphor turning into intelligence + a "now" pulse, so
+            the first viewport already hints at the product, not just the brand. */}
+        <motion.path
+          d="M110 60 L94 52 L80 56 L64 40 L50 31"
+          fill="none"
+          stroke="#F6C66B"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          initial={reduce ? false : { pathLength: 0, opacity: 0 }}
+          animate={{ pathLength: 1, opacity: 0.8 }}
+          transition={{ delay: reduce ? 0 : BEAT, duration: 1.1, ease: EASE }}
+        />
+        <motion.circle
+          cx="50" cy="31" r="3" fill="#FFE9B0"
+          initial={reduce ? false : { opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          style={{ transformBox: "fill-box", transformOrigin: "center" }}
+          transition={{ delay: reduce ? 0 : BEAT + 0.85, duration: 0.4, ease: EASE }}
+        />
+        {!reduce && (
+          <motion.circle
+            cx="50" cy="31" r="3" fill="none" stroke="#F6C66B" strokeWidth="1.1"
+            style={{ transformBox: "fill-box", transformOrigin: "center" }}
+            animate={{ scale: [1, 3], opacity: [0.7, 0] }}
+            transition={{ duration: 1.8, repeat: Infinity, delay: BEAT + 1, ease: "easeOut" }}
+          />
+        )}
       </svg>
 
       {/* layer labels - each anchored to its band's exact center */}
@@ -299,7 +390,17 @@ export function SectionCinematicIntro() {
   const { locale } = useWebsiteI18n();
   const reduceMotion = useReducedMotion();
   const copy = cinematicIntroCopy[locale] ?? cinematicIntroCopy.en;
+  const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLSpanElement>(null);
+
+  // Theatrical hand-off: as the glass scene scrolls away the content dissolves
+  // and the glass pushes in + lifts, so the restaurant DI section waiting below
+  // is "entered" rather than abruptly cut to. Identity values for reduced motion.
+  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
+  const sceneOpacity = useTransform(scrollYProgress, [0, 0.62], [1, 0]);
+  const sceneY = useTransform(scrollYProgress, [0, 1], [0, -56]);
+  const glassScale = useTransform(scrollYProgress, [0, 1], [1, 1.22]);
+  const glassLift = useTransform(scrollYProgress, [0, 1], [0, -70]);
   const [headlinePx, setHeadlinePx] = useState<number | null>(null);
   const subRef = useRef<HTMLParagraphElement>(null);
   const [subPx, setSubPx] = useState<number | null>(null);
@@ -326,6 +427,7 @@ export function SectionCinematicIntro() {
 
   return (
     <section
+      ref={sectionRef}
       className="surface-always-dark relative flex min-h-svh items-center overflow-hidden px-6 pt-24 pb-14 sm:px-10"
       style={{
         background:
@@ -366,7 +468,10 @@ export function SectionCinematicIntro() {
         style={{ background: "radial-gradient(120% 120% at 50% 42%, transparent 52%, rgba(8,5,3,.55))" }}
       />
 
-      <div className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-8 lg:grid-cols-[1.12fr_.88fr]">
+      <motion.div
+        className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-4 sm:gap-8 lg:grid-cols-[1.12fr_.88fr]"
+        style={reduceMotion ? undefined : { opacity: sceneOpacity, y: sceneY }}
+      >
         {/* min-w-0 so the nowrap headline can't expand this grid track past its
             fr share (lets the fit-to-width hook measure the real column width). */}
         <div className="min-w-0">
@@ -454,10 +559,13 @@ export function SectionCinematicIntro() {
           </motion.div>
         </div>
 
-        <div className="relative flex min-h-[460px] items-center justify-center lg:min-h-[640px]">
+        <motion.div
+          className="relative flex min-h-[300px] items-center justify-center sm:min-h-[420px] lg:min-h-[640px]"
+          style={reduceMotion ? undefined : { scale: glassScale, y: glassLift }}
+        >
           <Glass />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
 
       <motion.a
         href="#home-main"

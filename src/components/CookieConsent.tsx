@@ -126,22 +126,22 @@ export function CookieConsent() {
     <div
       role="dialog"
       aria-label={copy.ariaLabel}
-      className="fixed bottom-0 left-0 right-0 z-[9999] border-t border-[var(--border-default)] bg-[var(--navy-surface)]/95 backdrop-blur-md"
+      className="animate-fade-in-up fixed bottom-3 left-3 right-3 z-[9999] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] motion-reduce:animate-none"
     >
-      <div className="mx-auto flex max-w-5xl flex-row items-center gap-3 px-4 py-2.5 sm:gap-4 sm:py-3.5 sm:px-6">
-        <p className="flex-1 text-[12px] leading-snug text-[var(--text-secondary)] text-left sm:text-sm sm:leading-normal">
+      <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy-surface)]/85 px-4 py-3.5 shadow-[0_18px_50px_-16px_rgba(0,0,0,0.7)] backdrop-blur-xl">
+        <p className="text-[12.5px] leading-relaxed text-[var(--text-secondary)]">
           {copy.message}
         </p>
-        <div className="flex shrink-0 gap-2 sm:gap-3">
+        <div className="mt-3 flex justify-end gap-2">
           <button
             onClick={handleDecline}
-            className="rounded-lg border border-[var(--border-emphasis)] px-3 py-1.5 text-[13px] font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--electric-blue)]/40 sm:px-4 sm:py-2 sm:text-sm"
+            className="rounded-lg px-3 py-1.5 text-[13px] font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--electric-blue)]/40"
           >
             {copy.decline}
           </button>
           <button
             onClick={handleAccept}
-            className="rounded-lg bg-[#FF5C4D] px-3 py-1.5 text-[13px] font-medium text-white transition-colors hover:bg-[#FF5C4D] focus:outline-none focus:ring-2 focus:ring-[#FF8473] sm:px-4 sm:py-2 sm:text-sm"
+            className="rounded-lg bg-[#FF5C4D] px-4 py-1.5 text-[13px] font-semibold text-white transition-transform hover:-translate-y-px focus:outline-none focus:ring-2 focus:ring-[#FF8473]"
           >
             {copy.accept}
           </button>
