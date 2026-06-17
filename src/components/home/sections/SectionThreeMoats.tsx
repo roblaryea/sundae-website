@@ -12,7 +12,7 @@ import { generatedLocalCopy } from '@/generated-locales/components_home_sections
  */
 function PulseThumb() {
   return (
-    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
+    <div className="mockup-dark rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
       <div className="flex items-center justify-between mb-2">
         <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
           Lunch pacing
@@ -46,7 +46,7 @@ function PulseThumb() {
 
 function WatchtowerThumb() {
   return (
-    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden space-y-1.5">
+    <div className="mockup-dark rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden space-y-1.5">
       <div className="flex items-center justify-between mb-1">
         <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
           Active signals
@@ -74,7 +74,7 @@ function WatchtowerThumb() {
 
 function BenchmarkThumb() {
   return (
-    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
+    <div className="mockup-dark rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
       <div className="flex items-center justify-between mb-2">
         <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
           RevPASH index

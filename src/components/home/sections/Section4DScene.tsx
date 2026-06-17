@@ -322,7 +322,9 @@ export function Section4DScene() {
  */
 function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header: string; labels: LocalizedFourD["visualLabels"] }) {
   return (
-    <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(255,92,77,0.12)]">
+    // Product-UI mockup: pinned to dark tokens in BOTH site themes (.mockup-dark)
+    // so its light/white content never washes out in light mode.
+    <div className="mockup-dark rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(255,92,77,0.12)]">
       <div className="flex items-center gap-2 px-4 py-2.5 bg-black/40 border-b border-[var(--border-default)]">
         <span className="w-[10px] h-[10px] rounded-full bg-[#FF5F57]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
