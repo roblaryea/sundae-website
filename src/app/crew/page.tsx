@@ -119,7 +119,7 @@ type LocalizedCrew = {
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
   en: {
-    badge: "CREW · OPERATIONAL SUBSTRATE",
+    badge: "CREW · WORKFORCE OPERATIONS",
     heroLine1: "Every shift",
     heroLine2: "becomes signal.",
     description: "Crew runs your people, schedules, time, HR operations, payroll readiness, and employee support. Every action becomes operating data that feeds Sundae's decision intelligence - a loop standalone HR or payroll vendors cannot close.",
@@ -236,7 +236,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     ctaSecondary: "See Sundae Platform",
   },
   ar: {
-    badge: "Crew · الركيزة التشغيلية",
+    badge: "CREW · عمليات الموارد البشرية",
     heroLine1: "كل وردية",
     heroLine2: "تصبح إشارة.",
     description: "Crew يدير موظفيك وجداولك وحضورك ورواتبك. كل فعل يصبح بيانات تشغيلية تغذي ذكاء قرارات Sundae - حلقة لا يستطيع موردو HR أو الرواتب القائمون بذاتهم إغلاقها.",
@@ -353,7 +353,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     ctaSecondary: "شاهد منصة Sundae",
   },
   fr: {
-    badge: "CREW · SUBSTRAT OPÉRATIONNEL",
+    badge: "CREW · OPÉRATIONS RH",
     heroLine1: "Chaque service",
     heroLine2: "devient signal.",
     description: "Crew fait tourner vos équipes, plannings, temps et paie. Chaque action devient donnée opérationnelle qui nourrit l'intelligence décisionnelle de Sundae - une boucle qu'aucun fournisseur RH ou paie autonome ne peut fermer.",
@@ -470,7 +470,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     ctaSecondary: "Voir la plateforme Sundae",
   },
   es: {
-    badge: "CREW · SUSTRATO OPERATIVO",
+    badge: "CREW · OPERACIONES DE PERSONAL",
     heroLine1: "Cada turno",
     heroLine2: "se vuelve señal.",
     description: "Crew opera tu personal, horarios, tiempo y nómina. Cada acción se vuelve dato operativo que alimenta la inteligencia de decisión de Sundae - un bucle que ningún proveedor de RR.HH. o nómina por sí solo puede cerrar.",

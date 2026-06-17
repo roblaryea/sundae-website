@@ -3,7 +3,7 @@
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
-      "badge": "ÉQUIPE · SUBSTRAT OPÉRATIONNEL",
+      "badge": "CREW · OPÉRATIONS RH",
       "heroLine1": "Chaque service",
       "heroLine2": "devient un signal.",
       "description": "Crew gère vos équipes, plannings, temps, opérations RH, préparation de la paie et support aux employés. Chaque action devient une donnée opérationnelle qui alimente l'intelligence décisionnelle de Sundae - une boucle que les fournisseurs RH ou de paie autonomes ne peuvent pas fermer.",
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Voir la plateforme Sundae"
     },
     "es": {
-      "badge": "CREW · SUSTRATO OPERATIVO",
+      "badge": "CREW · OPERACIONES DE PERSONAL",
       "heroLine1": "Cada turno",
       "heroLine2": "se convierte en señal.",
       "description": "Crew gestiona a tu personal, horarios, tiempo, operaciones de recursos humanos, preparación de nómina y soporte a empleados. Cada acción se convierte en datos operativos que alimentan la inteligencia de decisiones de Sundae, un ciclo que los proveedores de recursos humanos o nómina independientes no pueden cerrar.",
@@ -711,7 +711,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ver la Plataforma Sundae"
     },
     "de": {
-      "badge": "CREW · BETRIEBSSUBSTRAT",
+      "badge": "CREW · PERSONALOPERATIONS",
       "heroLine1": "Jede Schicht",
       "heroLine2": "wird zum Signal.",
       "description": "Crew verwaltet Ihre Mitarbeiter, Zeitpläne, Zeit, HR-Operationen, die Bereitschaft zur Gehaltsabrechnung und die Unterstützung der Mitarbeiter. Jede Aktion wird zu Betriebsdaten, die die Entscheidungsintelligenz von Sundae speisen - ein Kreislauf, den eigenständige HR- oder Gehaltsabrechnungsanbieter nicht schließen können.",
@@ -1065,7 +1065,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae Plattform ansehen"
     },
     "nl": {
-      "badge": "CREW · OPERATIONEEL SUBSTRAAT",
+      "badge": "CREW · PERSONEELSOPERATIES",
       "heroLine1": "Elke dienst",
       "heroLine2": "wordt signaal.",
       "description": "Crew beheert uw personeel, planningen, tijd, HR-operaties, salarisgereedheid en werknemersondersteuning. Elke actie wordt operationele data die de besluitvormingsintelligentie van Sundae voedt - een cyclus die zelfstandige HR- of salarisleveranciers niet kunnen sluiten.",
@@ -1419,7 +1419,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Bekijk Sundae Platform"
     },
     "ar": {
-      "badge": "Crew · الركيزة التشغيلية",
+      "badge": "CREW · عمليات الموارد البشرية",
       "heroLine1": "كل وردية",
       "heroLine2": "تصبح إشارة.",
       "description": "تدير Crew موظفيك، والجداول الزمنية، والوقت، وعمليات الموارد البشرية، وجاهزية الرواتب، ودعم الموظفين. يصبح كل إجراء بيانات تشغيلية تغذي ذكاء اتخاذ القرار في Sundae - حلقة لا يمكن لموردي الموارد البشرية أو الرواتب المستقلين إغلاقها.",
@@ -1773,7 +1773,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "شاهد منصة Sundae"
     },
     "ur": {
-      "badge": "Crew · عملیاتی بنیادی ڈھانچہ",
+      "badge": "CREW · افرادی قوت آپریشنز",
       "heroLine1": "ہر شفٹ",
       "heroLine2": "سگنل بن جاتی ہے۔",
       "description": "Crew آپ کے لوگوں، شیڈولز، وقت، HR آپریشنز، تنخواہ کی تیاری، اور ملازم کی معاونت کو چلاتا ہے۔ ہر عمل آپریٹنگ ڈیٹا بن جاتا ہے جو Sundae کی فیصلہ سازی کی ذہانت کو فراہم کرتا ہے - ایک ایسا لوپ جسے خود مختار HR یا تنخواہ کے فراہم کنندگان بند نہیں کر سکتے۔",
@@ -2127,7 +2127,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae پلیٹ فارم دیکھیں"
     },
     "pt": {
-      "badge": "CREW · SUBSTRATO OPERACIONAL",
+      "badge": "CREW · OPERAÇÕES DE PESSOAL",
       "heroLine1": "Todo turno",
       "heroLine2": "torna-se sinal.",
       "description": "O Crew gerencia seu pessoal, horários, tempo, operações de RH, prontidão da folha de pagamento e suporte aos funcionários. Cada ação se torna um dado operacional que alimenta a inteligência de decisão da Sundae - um ciclo que fornecedores de RH ou folha de pagamento independentes não conseguem fechar.",
@@ -2481,7 +2481,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Veja a Plataforma Sundae"
     },
     "it": {
-      "badge": "CREW · SOTTOSTRATO OPERATIVO",
+      "badge": "CREW · OPERAZIONI DEL PERSONALE",
       "heroLine1": "Ogni turno",
       "heroLine2": "diventa segnale.",
       "description": "Crew gestisce il tuo personale, i programmi, il tempo, le operazioni HR, la preparazione delle buste paga e il supporto ai dipendenti. Ogni azione diventa dato operativo che alimenta l'intelligenza decisionale di Sundae - un ciclo che i fornitori HR o di buste paga standalone non possono chiudere.",
@@ -2835,7 +2835,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Vedi la piattaforma Sundae"
     },
     "hi": {
-      "badge": "Crew · संचालन आधार",
+      "badge": "CREW · कार्यबल संचालन",
       "heroLine1": "हर शिफ्ट",
       "heroLine2": "संकेत बन जाती है।",
       "description": "Crew आपके लोगों, शेड्यूल, समय, HR संचालन, पेरोल तैयारी और कर्मचारी समर्थन का प्रबंधन करता है। हर क्रिया संचालन डेटा बन जाती है जो Sundae की निर्णय बुद्धिमत्ता को पोषित करती है - एक ऐसा चक्र जिसे स्वतंत्र HR या पेरोल विक्रेता बंद नहीं कर सकते।",
@@ -3189,7 +3189,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae प्लेटफ़ॉर्म देखें"
     },
     "tr": {
-      "badge": "CREW · OPERASYON ALT YAPISI",
+      "badge": "CREW · PERSONEL OPERASYONLARI",
       "heroLine1": "Her vardiya",
       "heroLine2": "sinyale dönüşür.",
       "description": "Crew, insan kaynaklarınızı, programlarınızı, zamanı, İK operasyonlarını, maaş hazırlığını ve çalışan desteğini yönetir. Her eylem, Sundae'nin karar alma zekasına beslenen işletme verisi haline gelir - bağımsız bir İK veya maaş sağlayıcısının kapatamayacağı bir döngü.",
@@ -3543,7 +3543,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae Platformunu Gör"
     },
     "zh-Hans": {
-      "badge": "Crew · 运营基础",
+      "badge": "CREW · 人力运营",
       "heroLine1": "每个班次",
       "heroLine2": "成为信号。",
       "description": "Crew 管理您的人员、排班、工时、HR 运营、薪资准备和员工支持。每个操作都成为运营数据，为 Sundae 的决策智能提供支持--这是独立的 HR 或薪资供应商无法闭合的循环。",
@@ -3897,7 +3897,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "查看Sundae平台"
     },
     "pl": {
-      "badge": "CREW · PODSTAWA OPERACYJNA",
+      "badge": "CREW · OPERACJE KADROWE",
       "heroLine1": "Każda zmiana",
       "heroLine2": "staje się sygnałem.",
       "description": "Crew zarządza Twoimi pracownikami, harmonogramami, czasem, operacjami HR, gotowością płac oraz wsparciem dla pracowników. Każda akcja staje się danymi operacyjnymi, które zasilają inteligencję decyzyjną Sundae - pętla, której niezależni dostawcy HR lub płac nie mogą zamknąć.",
@@ -4251,7 +4251,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Zobacz platformę Sundae"
     },
     "ja": {
-      "badge": "Crew · オペレーショナルサブストレート",
+      "badge": "CREW · 人材オペレーション",
       "heroLine1": "すべてのシフトが",
       "heroLine2": "シグナルになる。",
       "description": "Crewは、あなたの人材、スケジュール、勤怠、HR業務、給与準備、従業員サポートを管理します。すべてのアクションがSundaeの意思決定インテリジェンスに供給される運用データとなります。これは、独立したHRまたは給与ベンダーが閉じることのできないループです。",
@@ -4605,7 +4605,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundaeプラットフォームを見る"
     },
     "vi": {
-      "badge": "CREW · NỀN TẢNG VẬN HÀNH",
+      "badge": "CREW · VẬN HÀNH NHÂN SỰ",
       "heroLine1": "Mỗi ca",
       "heroLine2": "trở thành tín hiệu.",
       "description": "Crew quản lý nhân sự, lịch trình, thời gian, hoạt động nhân sự, chuẩn bị bảng lương và hỗ trợ nhân viên. Mỗi hành động trở thành dữ liệu hoạt động cung cấp cho trí tuệ quyết định của Sundae - một vòng lặp mà các nhà cung cấp HR hoặc bảng lương độc lập không thể khép lại.",
@@ -4959,7 +4959,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Xem Nền tảng Sundae"
     },
     "ro": {
-      "badge": "CREW · SUBSTRAT OPERAȚIONAL",
+      "badge": "CREW · OPERAȚIUNI DE PERSONAL",
       "heroLine1": "Fiecare tură",
       "heroLine2": "devine semnal.",
       "description": "Crew gestionează oamenii tăi, programările, timpul, operațiunile HR, pregătirea pentru salarii și suportul angajaților. Fiecare acțiune devine date operaționale care alimentează inteligența decizională a Sundae - un ciclu pe care furnizorii de HR sau salarii independenți nu îl pot închide.",
@@ -5313,7 +5313,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Vezi platforma Sundae"
     },
     "id": {
-      "badge": "CREW · SUBSTRAT OPERASIONAL",
+      "badge": "CREW · OPERASI TENAGA KERJA",
       "heroLine1": "Setiap shift",
       "heroLine2": "menjadi sinyal.",
       "description": "Crew mengelola orang, jadwal, waktu, operasi SDM, kesiapan penggajian, dan dukungan karyawan Anda. Setiap tindakan menjadi data operasional yang memberi informasi pada kecerdasan keputusan Sundae - sebuah siklus yang tidak dapat ditutup oleh vendor SDM atau penggajian mandiri.",
@@ -5667,7 +5667,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Lihat Platform Sundae"
     },
     "ko": {
-      "badge": "Crew · 운영 기초",
+      "badge": "CREW · 인력 운영",
       "heroLine1": "모든 근무가",
       "heroLine2": "신호가 됩니다.",
       "description": "Crew는 귀하의 인력, 일정, 근무 시간, HR 운영, 급여 준비 및 직원 지원을 관리합니다. 모든 작업은 Sundae의 의사 결정 인텔리전스에 공급되는 운영 데이터가 됩니다. 이는 독립적인 HR 또는 급여 공급업체가 닫을 수 없는 루프입니다.",
@@ -6021,7 +6021,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae 플랫폼 보기"
     },
     "sv": {
-      "badge": "CREW · OPERATIVT UNDERLAG",
+      "badge": "CREW · PERSONALDRIFT",
       "heroLine1": "Varje skift",
       "heroLine2": "blir signal.",
       "description": "Crew hanterar dina medarbetare, scheman, tid, HR-operationer, löneberedskap och medarbetarstöd. Varje åtgärd blir driftsdata som matar Sundae beslutsintelligens - en loop som fristående HR- eller löneleverantörer inte kan stänga.",
@@ -6375,7 +6375,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Se Sundae-plattformen"
     },
     "bn": {
-      "badge": "Crew · অপারেশনাল সাবস্ট্রেট",
+      "badge": "CREW · কর্মীবাহিনী পরিচালনা",
       "heroLine1": "প্রতিটি শিফট",
       "heroLine2": "সিগন্যাল হয়ে ওঠে।",
       "description": "Crew আপনার কর্মী, সময়সূচী, সময়, HR কার্যক্রম, বেতন প্রস্তুতি এবং কর্মচারী সহায়তা পরিচালনা করে। প্রতিটি কার্যকলাপ অপারেটিং ডেটায় পরিণত হয় যা Sundae-র সিদ্ধান্ত বুদ্ধিমত্তাকে পরিচালিত করে - একটি লুপ যা স্বতন্ত্র HR বা বেতন বিক্রেতারা বন্ধ করতে পারে না।",
@@ -6729,7 +6729,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae প্ল্যাটফর্ম দেখুন"
     },
     "th": {
-      "badge": "Crew · ฐานการดำเนินงาน",
+      "badge": "CREW · การบริหารกำลังคน",
       "heroLine1": "ทุกกะ",
       "heroLine2": "กลายเป็นสัญญาณ.",
       "description": "Crew จัดการคนของคุณ ตารางเวลา เวลา การดำเนินงาน HR ความพร้อมในการจ่ายเงินเดือน และการสนับสนุนพนักงาน ทุกการกระทำกลายเป็นข้อมูลการดำเนินงานที่ช่วยเสริมสร้างปัญญาในการตัดสินใจของ Sundae - วงจรที่ผู้ให้บริการ HR หรือเงินเดือนแบบสแตนด์อโลนไม่สามารถปิดได้.",
@@ -7083,7 +7083,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "ดูแพลตฟอร์ม Sundae"
     },
     "ms": {
-      "badge": "CREW · SUBSTRAT OPERASI",
+      "badge": "CREW · OPERASI TENAGA KERJA",
       "heroLine1": "Setiap syif",
       "heroLine2": "menjadi isyarat.",
       "description": "Crew menguruskan orang, jadual, masa, operasi HR, kesiapan gaji, dan sokongan pekerja anda. Setiap tindakan menjadi data operasi yang memberi maklumat kepada kecerdasan keputusan Sundae - satu gelung yang tidak dapat ditutup oleh vendor HR atau gaji yang berdiri sendiri.",

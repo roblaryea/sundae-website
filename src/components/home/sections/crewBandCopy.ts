@@ -17,7 +17,7 @@ export type CrewBandCopy = {
 
 export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
   en: {
-    "eyebrow": "CREW · THE OPERATIONAL SUBSTRATE",
+    "eyebrow": "CREW · WORKFORCE OPERATIONS",
     "headline": "Run the people side of the business.",
     "accent": "Every shift becomes signal.",
     "sub": "Scheduling, time and attendance, payroll readiness, and the full hire-to-retire lifecycle - run natively in Sundae, or bring your own HR. Every shift, punch, and pay run becomes operating data that makes Pulse, Labor Intelligence, and Foresight sharper.",
@@ -43,7 +43,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Explore Sundae Crew"
   },
   ar: {
-    "eyebrow": "CREW · الأساس التشغيلي",
+    "eyebrow": "CREW · عمليات الموارد البشرية",
     "headline": "أدِر الجانب البشري من العمل.",
     "accent": "كل وردية تتحول إلى إشارة.",
     "sub": "جدولة الورديات، وتتبع الوقت والحضور، وتجهيز الرواتب، ودورة التوظيف الكاملة من التعيين حتى المغادرة - تُدار أصلاً داخل Sundae، أو عبر نظام HR الخاص بك. كل وردية وكل تسجيل دخول وكل دورة رواتب تتحول إلى بيانات تشغيلية تجعل Pulse وLabor Intelligence وForesight أكثر دقة.",
@@ -69,7 +69,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "اكتشف Sundae Crew"
   },
   fr: {
-    "eyebrow": "CREW · LE SOCLE OPÉRATIONNEL",
+    "eyebrow": "CREW · OPÉRATIONS RH",
     "headline": "Pilotez le volet humain de votre activité.",
     "accent": "Chaque service devient un signal.",
     "sub": "Planning, gestion du temps et des présences, préparation de la paie et tout le cycle du recrutement au départ - gérés nativement dans Sundae, ou avec votre propre solution HR. Chaque service, chaque pointage et chaque paie devient une donnée d'exploitation qui affine Pulse, Labor Intelligence et Foresight.",
@@ -95,7 +95,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Découvrir Sundae Crew"
   },
   es: {
-    "eyebrow": "CREW · EL SUSTRATO OPERATIVO",
+    "eyebrow": "CREW · OPERACIONES DE PERSONAL",
     "headline": "Gestiona el lado humano del negocio.",
     "accent": "Cada turno se convierte en señal.",
     "sub": "Planificación de turnos, control horario y de presencia, preparación de la nómina y todo el ciclo de la contratación a la salida - gestionados de forma nativa en Sundae, o con tu propio HR. Cada turno, cada fichaje y cada nómina se convierte en dato operativo que hace más precisos a Pulse, Labor Intelligence y Foresight.",
@@ -121,7 +121,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Descubrir Sundae Crew"
   },
   de: {
-    "eyebrow": "CREW · DAS OPERATIVE FUNDAMENT",
+    "eyebrow": "CREW · PERSONALOPERATIONS",
     "headline": "Führen Sie die Personalseite des Geschäfts.",
     "accent": "Jede Schicht wird zum Signal.",
     "sub": "Dienstplanung, Zeit- und Anwesenheitserfassung, Lohnvorbereitung und der gesamte Zyklus von der Einstellung bis zum Austritt - nativ in Sundae geführt, oder mit Ihrem eigenen HR. Jede Schicht, jede Stempelung und jeder Lohnlauf wird zu Betriebsdaten, die Pulse, Labor Intelligence und Foresight schärfer machen.",
@@ -147,7 +147,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Sundae Crew entdecken"
   },
   nl: {
-    "eyebrow": "CREW · HET OPERATIONELE FUNDAMENT",
+    "eyebrow": "CREW · PERSONEELSOPERATIES",
     "headline": "Stuur de menskant van het bedrijf aan.",
     "accent": "Elke dienst wordt een signaal.",
     "sub": "Roosters, tijd- en aanwezigheidsregistratie, salarisvoorbereiding en de volledige cyclus van indiensttreding tot uitdiensttreding - native gedraaid in Sundae, of met je eigen HR. Elke dienst, klokking en loonronde wordt operationele data die Pulse, Labor Intelligence en Foresight scherper maakt.",
@@ -173,7 +173,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Ontdek Sundae Crew"
   },
   pt: {
-    "eyebrow": "CREW · A BASE OPERACIONAL",
+    "eyebrow": "CREW · OPERAÇÕES DE PESSOAL",
     "headline": "Faça a gestão do lado humano do negócio.",
     "accent": "Cada turno vira sinal.",
     "sub": "Escalas, controlo de ponto e presença, preparação da folha de pagamento e todo o ciclo da contratação à saída - geridos nativamente no Sundae, ou com o seu próprio HR. Cada turno, marcação e processamento de folha vira dado operacional que torna o Pulse, o Labor Intelligence e o Foresight mais precisos.",
@@ -199,7 +199,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Explorar o Sundae Crew"
   },
   hi: {
-    "eyebrow": "CREW · संचालन का आधार",
+    "eyebrow": "CREW · कार्यबल संचालन",
     "headline": "बिज़नेस के लोगों वाले हिस्से को संभालिए।",
     "accent": "हर शिफ्ट बन जाती है सिग्नल।",
     "sub": "शेड्यूलिंग, टाइम और अटेंडेंस, पेरोल की तैयारी, और भर्ती से लेकर रिटायरमेंट तक का पूरा सफ़र - सब Sundae में सीधे चलाइए, या अपना खुद का HR साथ लाइए। हर शिफ्ट, हर पंच और हर पे रन ऐसा ऑपरेटिंग डेटा बनता है जो Pulse, Labor Intelligence और Foresight को और पैना बनाता है।",
@@ -225,7 +225,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Sundae Crew देखें"
   },
   ur: {
-    "eyebrow": "CREW · آپریشنل بنیاد",
+    "eyebrow": "CREW · افرادی قوت آپریشنز",
     "headline": "کاروبار کا عملے والا پہلو سنبھالیے۔",
     "accent": "ہر شفٹ سگنل بن جاتی ہے۔",
     "sub": "شیڈولنگ، ٹائم اور اٹینڈنس، پے رول کی تیاری، اور بھرتی سے ریٹائرمنٹ تک کا پورا سفر - سب Sundae میں براہِ راست چلائیے، یا اپنا HR ساتھ لائیے۔ ہر شفٹ، ہر پنچ اور ہر پے رن ایسا آپریٹنگ ڈیٹا بنتا ہے جو Pulse، Labor Intelligence اور Foresight کو مزید گہرا کرتا ہے۔",
@@ -251,7 +251,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Sundae Crew دیکھیے"
   },
   it: {
-    "eyebrow": "CREW · LA BASE OPERATIVA",
+    "eyebrow": "CREW · OPERAZIONI DEL PERSONALE",
     "headline": "Gestisci il lato umano dell'attività.",
     "accent": "Ogni turno diventa un segnale.",
     "sub": "Pianificazione dei turni, rilevazione di presenze e timbrature, preparazione delle buste paga e l'intero ciclo dall'assunzione all'uscita - gestiti nativamente in Sundae, o con il tuo HR. Ogni turno, timbratura ed elaborazione paga diventa un dato operativo che rende più precisi Pulse, Labor Intelligence e Foresight.",
@@ -277,7 +277,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Scopri Sundae Crew"
   },
   pl: {
-    "eyebrow": "CREW · OPERACYJNY FUNDAMENT",
+    "eyebrow": "CREW · OPERACJE KADROWE",
     "headline": "Zarządzaj ludźmi w swoim biznesie.",
     "accent": "Każda zmiana staje się sygnałem.",
     "sub": "Grafiki, czas pracy i obecność, gotowość do wypłat oraz pełen cykl od zatrudnienia po odejście pracownika - prowadzone natywnie w Sundae albo z własnym systemem HR. Każda zmiana, odbicie karty i naliczenie wynagrodzeń stają się danymi operacyjnymi, które wyostrzają Pulse, Labor Intelligence i Foresight.",
@@ -303,7 +303,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Poznaj Sundae Crew"
   },
   tr: {
-    "eyebrow": "CREW · OPERASYONEL ZEMİN",
+    "eyebrow": "CREW · PERSONEL OPERASYONLARI",
     "headline": "İşin insan tarafını yönetin.",
     "accent": "Her vardiya sinyale dönüşür.",
     "sub": "Vardiya planlama, mesai ve devam takibi, bordro hazırlığı ve işe alımdan ayrılışa kadar tüm çalışan döngüsü - doğrudan Sundae içinde ya da kendi HR sisteminizle yürütün. Her vardiya, her kayıt ve her bordro çalışması, Pulse, Labor Intelligence ve Foresight'ı keskinleştiren operasyon verisine dönüşür.",
@@ -329,7 +329,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Sundae Crew'i Keşfedin"
   },
   "zh-Hans": {
-    "eyebrow": "CREW · 运营底座",
+    "eyebrow": "CREW · 人力运营",
     "headline": "把团队管理交给一套系统。",
     "accent": "每个班次都化为信号。",
     "sub": "排班、考勤、薪资就绪以及从入职到离职的完整员工周期 - 既可在 Sundae 中原生运行，也可对接你自己的 HR。每一次排班、每一次打卡、每一轮发薪，都会变成运营数据，让 Pulse、Labor Intelligence 和 Foresight 更加敏锐。",
@@ -355,7 +355,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "了解 Sundae Crew"
   },
   ja: {
-    "eyebrow": "CREW · 運用の基盤",
+    "eyebrow": "CREW · 人材オペレーション",
     "headline": "人に関わる業務を、ひとつに。",
     "accent": "すべてのシフトが、シグナルになる。",
     "sub": "シフト管理、勤怠、給与計算の準備、そして採用から退職までの一連の従業員ライフサイクル - Sundae でネイティブに運用することも、自社の HR を併用することもできます。あらゆるシフト、打刻、給与処理が運用データとなり、Pulse、Labor Intelligence、Foresight をより鋭くします。",
@@ -381,7 +381,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Sundae Crew を見る"
   },
   ko: {
-    "eyebrow": "CREW · 운영의 토대",
+    "eyebrow": "CREW · 인력 운영",
     "headline": "사람을 관리하는 일, 한곳에서.",
     "accent": "모든 근무가 신호가 됩니다.",
     "sub": "근무 스케줄, 근태, 급여 준비, 그리고 채용부터 퇴직까지 이어지는 전체 직원 라이프사이클 - Sundae에서 직접 운영하거나, 사용하던 HR을 그대로 연결하세요. 모든 근무와 출퇴근 기록, 급여 처리가 운영 데이터가 되어 Pulse, Labor Intelligence, Foresight를 더 예리하게 만듭니다.",
@@ -407,7 +407,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Sundae Crew 살펴보기"
   },
   id: {
-    "eyebrow": "CREW · FONDASI OPERASIONAL",
+    "eyebrow": "CREW · OPERASI TENAGA KERJA",
     "headline": "Kelola sisi manusia dari bisnis Anda.",
     "accent": "Setiap shift menjadi sinyal.",
     "sub": "Penjadwalan, kehadiran dan absensi, kesiapan penggajian, dan seluruh perjalanan dari rekrut hingga pensiun - jalankan langsung di Sundae, atau bawa HR Anda sendiri. Setiap shift, absen, dan siklus gaji menjadi data operasional yang membuat Pulse, Labor Intelligence, dan Foresight makin tajam.",
@@ -433,7 +433,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Jelajahi Sundae Crew"
   },
   vi: {
-    "eyebrow": "CREW · NỀN TẢNG VẬN HÀNH",
+    "eyebrow": "CREW · VẬN HÀNH NHÂN SỰ",
     "headline": "Quản lý mảng con người của doanh nghiệp.",
     "accent": "Mỗi ca làm đều thành tín hiệu.",
     "sub": "Xếp lịch, chấm công, sẵn sàng tính lương, và toàn bộ vòng đời từ tuyển dụng đến nghỉ hưu - chạy trực tiếp trong Sundae, hoặc dùng HR của riêng bạn. Mỗi ca làm, mỗi lần chấm công và mỗi kỳ lương đều trở thành dữ liệu vận hành giúp Pulse, Labor Intelligence và Foresight sắc bén hơn.",
@@ -459,7 +459,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Khám phá Sundae Crew"
   },
   ro: {
-    "eyebrow": "CREW · BAZA OPERAȚIONALĂ",
+    "eyebrow": "CREW · OPERAȚIUNI DE PERSONAL",
     "headline": "Gestionează latura umană a afacerii.",
     "accent": "Fiecare tură devine semnal.",
     "sub": "Planificarea turelor, pontajul, pregătirea pentru salarizare și întregul ciclu de la angajare la plecare - rulate nativ în Sundae sau cu propriul sistem HR. Fiecare tură, fiecare pontaj și fiecare rulaj de salarii devin date operaționale care fac Pulse, Labor Intelligence și Foresight mai precise.",
@@ -485,7 +485,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Descoperă Sundae Crew"
   },
   sv: {
-    "eyebrow": "CREW · DEN OPERATIVA GRUNDEN",
+    "eyebrow": "CREW · PERSONALDRIFT",
     "headline": "Sköt personalsidan av verksamheten.",
     "accent": "Varje pass blir en signal.",
     "sub": "Schemaläggning, tid och närvaro, löneunderlag och hela resan från anställning till avslut - körs direkt i Sundae eller med ditt eget HR-system. Varje pass, varje stämpling och varje lönekörning blir driftdata som gör Pulse, Labor Intelligence och Foresight skarpare.",
@@ -511,7 +511,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Utforska Sundae Crew"
   },
   bn: {
-    "eyebrow": "CREW · পরিচালনার ভিত্তি",
+    "eyebrow": "CREW · কর্মীবাহিনী পরিচালনা",
     "headline": "ব্যবসার মানুষ সংক্রান্ত দিকটি সামলান।",
     "accent": "প্রতিটি শিফট হয়ে ওঠে সিগন্যাল।",
     "sub": "শিডিউলিং, টাইম ও অ্যাটেনডেন্স, পেরোল প্রস্তুতি, এবং নিয়োগ থেকে অবসর পর্যন্ত পুরো যাত্রা - সব Sundae-তে সরাসরি চালান, কিংবা নিজের HR সঙ্গে আনুন। প্রতিটি শিফট, প্রতিটি পাঞ্চ আর প্রতিটি পে রান এমন পরিচালন ডেটা হয়ে ওঠে যা Pulse, Labor Intelligence ও Foresight-কে আরও তীক্ষ্ণ করে।",
@@ -537,7 +537,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "Sundae Crew দেখুন"
   },
   th: {
-    "eyebrow": "CREW · รากฐานการดำเนินงาน",
+    "eyebrow": "CREW · การบริหารกำลังคน",
     "headline": "ดูแลด้านบุคลากรของธุรกิจ",
     "accent": "ทุกกะกลายเป็นสัญญาณ",
     "sub": "การจัดตาราง การลงเวลาเข้างาน ความพร้อมด้านเงินเดือน และวงจรตั้งแต่จ้างจนเกษียณอย่างครบถ้วน - ใช้งานได้โดยตรงใน Sundae หรือนำระบบ HR ของคุณเองมาเชื่อมก็ได้ ทุกกะ ทุกการลงเวลา และทุกรอบจ่ายเงินเดือนกลายเป็นข้อมูลการดำเนินงานที่ทำให้ Pulse, Labor Intelligence และ Foresight คมชัดยิ่งขึ้น",
@@ -563,7 +563,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "cta": "สำรวจ Sundae Crew"
   },
   ms: {
-    "eyebrow": "CREW · ASAS OPERASI",
+    "eyebrow": "CREW · OPERASI TENAGA KERJA",
     "headline": "Urus bahagian manusia dalam perniagaan.",
     "accent": "Setiap syif menjadi isyarat.",
     "sub": "Penjadualan, masa dan kehadiran, kesediaan gaji, dan keseluruhan kitaran dari pengambilan hingga persaraan - jalankan terus dalam Sundae, atau bawa HR anda sendiri. Setiap syif, daftar masuk dan kitaran gaji menjadi data operasi yang menjadikan Pulse, Labor Intelligence dan Foresight lebih tajam.",
