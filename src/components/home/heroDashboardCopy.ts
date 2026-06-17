@@ -1,6 +1,38 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
 /**
+ * Per-locale display currency for the hero dashboard. `scale` converts the
+ * USD-based figures to a plausible local magnitude (rough, not live FX) so a
+ * Dutch operator sees EUR, a Japanese operator JPY, etc. - relatable, not a
+ * literal symbol swap. Formatting/symbol placement is handled by Intl.
+ */
+export const currencyByLocale: Record<WebsiteLocale, { code: string; scale: number }> = {
+  en: { code: "USD", scale: 1 },
+  ar: { code: "AED", scale: 3.67 },
+  fr: { code: "EUR", scale: 1 },
+  es: { code: "EUR", scale: 1 },
+  de: { code: "EUR", scale: 1 },
+  nl: { code: "EUR", scale: 1 },
+  pt: { code: "EUR", scale: 1 },
+  it: { code: "EUR", scale: 1 },
+  ro: { code: "RON", scale: 4.6 },
+  pl: { code: "PLN", scale: 4 },
+  sv: { code: "SEK", scale: 10.5 },
+  tr: { code: "TRY", scale: 32 },
+  hi: { code: "INR", scale: 83 },
+  ur: { code: "PKR", scale: 278 },
+  bn: { code: "BDT", scale: 110 },
+  th: { code: "THB", scale: 36 },
+  ms: { code: "MYR", scale: 4.7 },
+  id: { code: "IDR", scale: 15800 },
+  vi: { code: "VND", scale: 25000 },
+  ja: { code: "JPY", scale: 150 },
+  ko: { code: "KRW", scale: 1350 },
+  "zh-Hans": { code: "CNY", scale: 7.2 },
+};
+
+
+/**
  * Localized copy for the animated hero mockup (the live Pulse "Sales Pacing"
  * dashboard + Sundae Coach rail). This is the ONE product mockup we localize
  * fully across all 22 locales - it's the key above-the-fold surface, so seeing
@@ -67,8 +99,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Labor %', trend: 'Under 30% target' },
     ],
     coachItems: [
-      { tag: 'Upsell', text: 'James K. upsell rate is 14% below shift average. Consider pairing with Sarah for the next 2 tables.', impact: '+$420 / shift' },
-      { tag: 'Labor', text: "Hold the 9 PM cut - you're tracking 1.5 labor hours under budget.", impact: '-$280 cost' },
+      { tag: 'Upsell', text: 'James K. upsell rate is 14% below shift average. Consider pairing with Sarah for the next 2 tables.', impact: '+{up} / shift' },
+      { tag: 'Labor', text: "Hold the 9 PM cut - you're tracking 1.5 labor hours under budget.", impact: '-{lab} cost' },
       { tag: 'Inventory', text: 'Ribeye is selling 22% ahead of forecast - 86 risk by 8:30 PM. Prep 6 more.', impact: '6 covers at risk' },
       { tag: 'Service', text: 'Table 12 seated 47 min with no entrée fired - nudge the kitchen.', impact: 'guest NPS' },
       { tag: 'Marketing', text: "Repeat last Tuesday's happy-hour - it lifted covers 9%.", impact: '+9% covers' },
@@ -98,8 +130,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'نسبة العمالة', trend: 'دون هدف 30%' },
     ],
     coachItems: [
-      { tag: 'بيع إضافي', text: 'معدل البيع الإضافي لدى James K. أقل بـ 14% من متوسط الوردية. فكّر في إقرانه مع Sarah للطاولتين القادمتين.', impact: '+$420 / وردية' },
-      { tag: 'العمالة', text: 'أجّل تقليص فريق التاسعة مساءً - أنت متقدّم بـ 1.5 ساعة عمل تحت الميزانية.', impact: '-$280 تكلفة' },
+      { tag: 'بيع إضافي', text: 'معدل البيع الإضافي لدى James K. أقل بـ 14% من متوسط الوردية. فكّر في إقرانه مع Sarah للطاولتين القادمتين.', impact: '+{up} / وردية' },
+      { tag: 'العمالة', text: 'أجّل تقليص فريق التاسعة مساءً - أنت متقدّم بـ 1.5 ساعة عمل تحت الميزانية.', impact: '-{lab} تكلفة' },
       { tag: 'المخزون', text: 'الريب آي يُباع بنسبة 22% فوق التوقّع - خطر نفاد بحلول 8:30 مساءً. حضّر 6 إضافية.', impact: '6 ضيوف في خطر' },
       { tag: 'الخدمة', text: 'الطاولة 12 جالسة منذ 47 دقيقة دون إرسال طبق رئيسي - نبّه المطبخ.', impact: 'NPS الضيف' },
       { tag: 'التسويق', text: 'كرّر هابي آور الثلاثاء الماضي - رفع الضيوف 9%.', impact: '+9% ضيوف' },
@@ -129,8 +161,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Main-d’œuvre %', trend: 'Sous l’objectif 30%' },
     ],
     coachItems: [
-      { tag: 'Vente add.', text: 'Le taux d’upsell de James K. est 14% sous la moyenne du service. Faites-le travailler avec Sarah pour les 2 prochaines tables.', impact: '+$420 / service' },
-      { tag: 'Main-d’œuvre', text: 'Repoussez la coupe de 21 h - vous êtes 1,5 h de main-d’œuvre sous le budget.', impact: '-$280 de coût' },
+      { tag: 'Vente add.', text: 'Le taux d’upsell de James K. est 14% sous la moyenne du service. Faites-le travailler avec Sarah pour les 2 prochaines tables.', impact: '+{up} / service' },
+      { tag: 'Main-d’œuvre', text: 'Repoussez la coupe de 21 h - vous êtes 1,5 h de main-d’œuvre sous le budget.', impact: '-{lab} de coût' },
       { tag: 'Stock', text: 'Le faux-filet se vend 22% au-dessus des prévisions - rupture probable à 20 h 30. Préparez-en 6 de plus.', impact: '6 couverts à risque' },
       { tag: 'Service', text: 'Table 12 assise depuis 47 min sans plat envoyé - relancez la cuisine.', impact: 'NPS client' },
       { tag: 'Marketing', text: 'Renouvelez l’happy hour de mardi dernier - il a fait +9% de couverts.', impact: '+9% couverts' },
@@ -160,8 +192,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Personal %', trend: 'Bajo objetivo 30%' },
     ],
     coachItems: [
-      { tag: 'Venta adic.', text: 'La tasa de upsell de James K. está 14% por debajo del promedio del turno. Ponlo con Sarah en las próximas 2 mesas.', impact: '+$420 / turno' },
-      { tag: 'Personal', text: 'Retrasa el recorte de las 9 PM - vas 1,5 horas de personal por debajo del presupuesto.', impact: '-$280 coste' },
+      { tag: 'Venta adic.', text: 'La tasa de upsell de James K. está 14% por debajo del promedio del turno. Ponlo con Sarah en las próximas 2 mesas.', impact: '+{up} / turno' },
+      { tag: 'Personal', text: 'Retrasa el recorte de las 9 PM - vas 1,5 horas de personal por debajo del presupuesto.', impact: '-{lab} coste' },
       { tag: 'Inventario', text: 'El ribeye se vende 22% por encima del pronóstico - riesgo de agotarse para las 8:30 PM. Prepara 6 más.', impact: '6 comensales en riesgo' },
       { tag: 'Servicio', text: 'Mesa 12 sentada 47 min sin plato principal enviado - avisa a la cocina.', impact: 'NPS del cliente' },
       { tag: 'Marketing', text: 'Repite el happy hour del martes pasado - subió comensales 9%.', impact: '+9% comensales' },
@@ -191,8 +223,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Personal %', trend: 'Unter Ziel 30%' },
     ],
     coachItems: [
-      { tag: 'Upsell', text: 'Die Upsell-Rate von James K. liegt 14% unter dem Schichtschnitt. Stellen Sie ihn für die nächsten 2 Tische zu Sarah.', impact: '+$420 / Schicht' },
-      { tag: 'Personal', text: 'Verschieben Sie den 21-Uhr-Schichtschluss - Sie liegen 1,5 Arbeitsstunden unter Budget.', impact: '-$280 Kosten' },
+      { tag: 'Upsell', text: 'Die Upsell-Rate von James K. liegt 14% unter dem Schichtschnitt. Stellen Sie ihn für die nächsten 2 Tische zu Sarah.', impact: '+{up} / Schicht' },
+      { tag: 'Personal', text: 'Verschieben Sie den 21-Uhr-Schichtschluss - Sie liegen 1,5 Arbeitsstunden unter Budget.', impact: '-{lab} Kosten' },
       { tag: 'Bestand', text: 'Ribeye verkauft sich 22% über Prognose - Engpass bis 20:30. Bereiten Sie 6 weitere vor.', impact: '6 Gedecke gefährdet' },
       { tag: 'Service', text: 'Tisch 12 sitzt seit 47 Min ohne Hauptgang - die Küche anstoßen.', impact: 'Gast-NPS' },
       { tag: 'Marketing', text: 'Wiederholen Sie die Happy Hour vom letzten Dienstag - sie brachte 9% mehr Gedecke.', impact: '+9% Gedecke' },
@@ -222,8 +254,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Personeel %', trend: 'Onder doel 30%' },
     ],
     coachItems: [
-      { tag: 'Bijverkoop', text: 'De bijverkoopratio van James K. ligt 14% onder het dienstgemiddelde. Zet hem bij Sarah voor de volgende 2 tafels.', impact: '+$420 / dienst' },
-      { tag: 'Personeel', text: 'Stel de afbouw van 21.00 uur uit - je zit 1,5 arbeidsuur onder budget.', impact: '-$280 kosten' },
+      { tag: 'Bijverkoop', text: 'De bijverkoopratio van James K. ligt 14% onder het dienstgemiddelde. Zet hem bij Sarah voor de volgende 2 tafels.', impact: '+{up} / dienst' },
+      { tag: 'Personeel', text: 'Stel de afbouw van 21.00 uur uit - je zit 1,5 arbeidsuur onder budget.', impact: '-{lab} kosten' },
       { tag: 'Voorraad', text: 'Ribeye verkoopt 22% boven prognose - risico op uitverkoop om 20.30. Bereid er 6 extra.', impact: '6 couverts risico' },
       { tag: 'Bediening', text: 'Tafel 12 zit al 47 min zonder hoofdgerecht - seinde de keuken in.', impact: 'gast-NPS' },
       { tag: 'Marketing', text: 'Herhaal de happy hour van afgelopen dinsdag - die gaf 9% meer couverts.', impact: '+9% couverts' },
@@ -253,8 +285,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Mão de obra %', trend: 'Abaixo da meta 30%' },
     ],
     coachItems: [
-      { tag: 'Venda adicional', text: 'A taxa de venda adicional de James K. está 14% abaixo da média do turno. Coloque-o com a Sarah nas próximas 2 mesas.', impact: '+$420 / turno' },
-      { tag: 'Equipe', text: 'Adie o corte das 21h - você está 1,5 hora de equipe abaixo do orçamento.', impact: '-$280 custo' },
+      { tag: 'Venda adicional', text: 'A taxa de venda adicional de James K. está 14% abaixo da média do turno. Coloque-o com a Sarah nas próximas 2 mesas.', impact: '+{up} / turno' },
+      { tag: 'Equipe', text: 'Adie o corte das 21h - você está 1,5 hora de equipe abaixo do orçamento.', impact: '-{lab} custo' },
       { tag: 'Estoque', text: 'O ribeye está vendendo 22% acima da previsão - risco de acabar até as 20h30. Prepare mais 6.', impact: '6 clientes em risco' },
       { tag: 'Serviço', text: 'Mesa 12 sentada há 47 min sem prato principal enviado - cutuque a cozinha.', impact: 'NPS do cliente' },
       { tag: 'Marketing', text: 'Repita o happy hour da última terça - ele elevou os clientes em 9%.', impact: '+9% clientes' },
@@ -284,8 +316,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'श्रम %', trend: '30% लक्ष्य से नीचे' },
     ],
     coachItems: [
-      { tag: 'अपसेल', text: 'James K. की अपसेल दर शिफ्ट औसत से 14% कम है। अगली 2 टेबल के लिए उसे Sarah के साथ रखें।', impact: '+$420 / शिफ्ट' },
-      { tag: 'श्रम', text: 'रात 9 बजे की कटौती रोकें - आप बजट से 1.5 श्रम-घंटे नीचे चल रहे हैं।', impact: '-$280 लागत' },
+      { tag: 'अपसेल', text: 'James K. की अपसेल दर शिफ्ट औसत से 14% कम है। अगली 2 टेबल के लिए उसे Sarah के साथ रखें।', impact: '+{up} / शिफ्ट' },
+      { tag: 'श्रम', text: 'रात 9 बजे की कटौती रोकें - आप बजट से 1.5 श्रम-घंटे नीचे चल रहे हैं।', impact: '-{lab} लागत' },
       { tag: 'इन्वेंटरी', text: 'रिबआई पूर्वानुमान से 22% आगे बिक रहा है - 8:30 बजे तक खत्म होने का जोखिम। 6 और तैयार करें।', impact: '6 कवर जोखिम में' },
       { tag: 'सर्विस', text: 'टेबल 12 पर 47 मिनट से बैठे हैं, कोई मुख्य व्यंजन नहीं गया - किचन को टोकें।', impact: 'गेस्ट NPS' },
       { tag: 'मार्केटिंग', text: 'पिछले मंगलवार का हैपी-आवर दोहराएँ - इसने कवर 9% बढ़ाए।', impact: '+9% कवर' },
@@ -315,8 +347,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'لیبر %', trend: '30% ہدف سے کم' },
     ],
     coachItems: [
-      { tag: 'اپ سیل', text: 'James K. کی اپ سیل شرح شفٹ اوسط سے 14% کم ہے۔ اگلی 2 میزوں کے لیے اسے Sarah کے ساتھ رکھیں۔', impact: '+$420 / شفٹ' },
-      { tag: 'لیبر', text: 'رات 9 بجے کی کٹوتی روکیں - آپ بجٹ سے 1.5 لیبر گھنٹے کم چل رہے ہیں۔', impact: '-$280 لاگت' },
+      { tag: 'اپ سیل', text: 'James K. کی اپ سیل شرح شفٹ اوسط سے 14% کم ہے۔ اگلی 2 میزوں کے لیے اسے Sarah کے ساتھ رکھیں۔', impact: '+{up} / شفٹ' },
+      { tag: 'لیبر', text: 'رات 9 بجے کی کٹوتی روکیں - آپ بجٹ سے 1.5 لیبر گھنٹے کم چل رہے ہیں۔', impact: '-{lab} لاگت' },
       { tag: 'انوینٹری', text: 'ریب آئی پیش گوئی سے 22% آگے بک رہا ہے - 8:30 تک ختم ہونے کا خطرہ۔ 6 مزید تیار کریں۔', impact: '6 کور خطرے میں' },
       { tag: 'سروس', text: 'میز 12 پر 47 منٹ سے بیٹھے ہیں، کوئی مین ڈش نہیں گئی - کچن کو یاد دلائیں۔', impact: 'گیسٹ NPS' },
       { tag: 'مارکیٹنگ', text: 'پچھلے منگل کا ہیپی آور دہرائیں - اس نے کور 9% بڑھائے۔', impact: '+9% کور' },
@@ -346,8 +378,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Personale %', trend: 'Sotto obiettivo 30%' },
     ],
     coachItems: [
-      { tag: 'Vendita extra', text: 'Il tasso di vendita extra di James K. è 14% sotto la media del turno. Affiancalo a Sarah per i prossimi 2 tavoli.', impact: '+$420 / turno' },
-      { tag: 'Personale', text: 'Rinvia il taglio delle 21 - sei 1,5 ore di personale sotto budget.', impact: '-$280 costo' },
+      { tag: 'Vendita extra', text: 'Il tasso di vendita extra di James K. è 14% sotto la media del turno. Affiancalo a Sarah per i prossimi 2 tavoli.', impact: '+{up} / turno' },
+      { tag: 'Personale', text: 'Rinvia il taglio delle 21 - sei 1,5 ore di personale sotto budget.', impact: '-{lab} costo' },
       { tag: 'Scorte', text: 'La ribeye vende 22% sopra le previsioni - rischio esaurimento per le 20:30. Preparane altre 6.', impact: '6 coperti a rischio' },
       { tag: 'Servizio', text: 'Tavolo 12 seduto da 47 min senza un secondo inviato - sollecita la cucina.', impact: 'NPS cliente' },
       { tag: 'Promozione', text: 'Ripeti l’happy hour di martedì scorso - ha alzato i coperti del 9%.', impact: '+9% coperti' },
@@ -377,8 +409,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Praca %', trend: 'Poniżej celu 30%' },
     ],
     coachItems: [
-      { tag: 'Dosprzedaż', text: 'Wskaźnik dosprzedaży James K. jest 14% poniżej średniej zmiany. Połącz go z Sarah przy następnych 2 stolikach.', impact: '+$420 / zmiana' },
-      { tag: 'Praca', text: 'Wstrzymaj redukcję o 21:00 - jesteś 1,5 godziny pracy poniżej budżetu.', impact: '-$280 koszt' },
+      { tag: 'Dosprzedaż', text: 'Wskaźnik dosprzedaży James K. jest 14% poniżej średniej zmiany. Połącz go z Sarah przy następnych 2 stolikach.', impact: '+{up} / zmiana' },
+      { tag: 'Praca', text: 'Wstrzymaj redukcję o 21:00 - jesteś 1,5 godziny pracy poniżej budżetu.', impact: '-{lab} koszt' },
       { tag: 'Magazyn', text: 'Ribeye sprzedaje się 22% powyżej prognozy - ryzyko braku do 20:30. Przygotuj 6 więcej.', impact: '6 gości zagrożonych' },
       { tag: 'Obsługa', text: 'Stolik 12 siedzi 47 min bez wydanego dania głównego - popędź kuchnię.', impact: 'NPS gościa' },
       { tag: 'Marketing', text: 'Powtórz happy hour z zeszłego wtorku - podniósł liczbę gości o 9%.', impact: '+9% gości' },
@@ -408,8 +440,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'İş gücü %', trend: '30% hedefin altında' },
     ],
     coachItems: [
-      { tag: 'Ek satış', text: 'James K.’nin ek satış oranı vardiya ortalamasının 14% altında. Sonraki 2 masa için onu Sarah ile eşleştir.', impact: '+$420 / vardiya' },
-      { tag: 'İş gücü', text: '21.00 çıkışını ertele - bütçenin 1,5 iş saati altındasın.', impact: '-$280 maliyet' },
+      { tag: 'Ek satış', text: 'James K.’nin ek satış oranı vardiya ortalamasının 14% altında. Sonraki 2 masa için onu Sarah ile eşleştir.', impact: '+{up} / vardiya' },
+      { tag: 'İş gücü', text: '21.00 çıkışını ertele - bütçenin 1,5 iş saati altındasın.', impact: '-{lab} maliyet' },
       { tag: 'Stok', text: 'Ribeye tahminin 22% üzerinde satıyor - 20.30’a kadar tükenme riski. 6 tane daha hazırla.', impact: '6 misafir riskte' },
       { tag: 'Servis', text: 'Masa 12, 47 dakikadır oturuyor ve ana yemek çıkmadı - mutfağı uyar.', impact: 'misafir NPS' },
       { tag: 'Pazarlama', text: 'Geçen salının happy hour’unu tekrarla - misafiri 9% artırdı.', impact: '+9% misafir' },
@@ -439,8 +471,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: '人力占比', trend: '低于 30% 目标' },
     ],
     coachItems: [
-      { tag: '增销', text: 'James K. 的增销率比本班次平均低 14%。接下来 2 桌可安排他与 Sarah 搭配。', impact: '+$420 / 班次' },
-      { tag: '人力', text: '推迟晚 9 点的收班--你目前比预算少用 1.5 个工时。', impact: '-$280 成本' },
+      { tag: '增销', text: 'James K. 的增销率比本班次平均低 14%。接下来 2 桌可安排他与 Sarah 搭配。', impact: '+{up} / 班次' },
+      { tag: '人力', text: '推迟晚 9 点的收班--你目前比预算少用 1.5 个工时。', impact: '-{lab} 成本' },
       { tag: '库存', text: '肋眼销量超预测 22%--8:30 前可能售罄。再备 6 份。', impact: '6 客有风险' },
       { tag: '服务', text: '12 号桌已就座 47 分钟仍未出主菜--提醒厨房。', impact: '宾客 NPS' },
       { tag: '营销', text: '复刻上周二的欢乐时光--它带来 9% 的客数增长。', impact: '+9% 客数' },
@@ -470,8 +502,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: '人件費率', trend: '30% 目標未満' },
     ],
     coachItems: [
-      { tag: 'アップセル', text: 'James K. のアップセル率はシフト平均より 14% 低い。次の2卓は Sarah と組ませましょう。', impact: '+$420 / シフト' },
-      { tag: '人員', text: '21時の人員削減は保留に--予算より 1.5 労働時間少なく進んでいます。', impact: '-$280 コスト' },
+      { tag: 'アップセル', text: 'James K. のアップセル率はシフト平均より 14% 低い。次の2卓は Sarah と組ませましょう。', impact: '+{up} / シフト' },
+      { tag: '人員', text: '21時の人員削減は保留に--予算より 1.5 労働時間少なく進んでいます。', impact: '-{lab} コスト' },
       { tag: '在庫', text: 'リブアイが予測を 22% 上回る売れ行き--20:30 までに品切れの恐れ。あと6人前を仕込んでください。', impact: '6客がリスク' },
       { tag: 'サービス', text: '12番卓は着席47分、メインが未提供--厨房に促しを。', impact: 'ゲスト NPS' },
       { tag: 'マーケ', text: '先週火曜のハッピーアワーを再実施--客数を 9% 押し上げました。', impact: '+9% 客数' },
@@ -501,8 +533,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: '인건비 %', trend: '30% 목표 미만' },
     ],
     coachItems: [
-      { tag: '업셀', text: 'James K.의 업셀 비율이 근무 평균보다 14% 낮습니다. 다음 2개 테이블은 Sarah와 함께 배치하세요.', impact: '+$420 / 근무' },
-      { tag: '인력', text: '오후 9시 인력 감축을 보류하세요 - 예산보다 1.5 근무시간 적게 운영 중입니다.', impact: '-$280 비용' },
+      { tag: '업셀', text: 'James K.의 업셀 비율이 근무 평균보다 14% 낮습니다. 다음 2개 테이블은 Sarah와 함께 배치하세요.', impact: '+{up} / 근무' },
+      { tag: '인력', text: '오후 9시 인력 감축을 보류하세요 - 예산보다 1.5 근무시간 적게 운영 중입니다.', impact: '-{lab} 비용' },
       { tag: '재고', text: '립아이가 예측보다 22% 빠르게 팔립니다 - 8:30까지 소진 위험. 6인분 더 준비하세요.', impact: '6명 위험' },
       { tag: '서비스', text: '12번 테이블이 47분째 착석, 메인 미발주 - 주방에 알리세요.', impact: '고객 NPS' },
       { tag: '마케팅', text: '지난 화요일 해피아워를 반복하세요 - 내점객을 9% 늘렸습니다.', impact: '+9% 내점객' },
@@ -532,8 +564,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Tenaga kerja %', trend: 'Di bawah target 30%' },
     ],
     coachItems: [
-      { tag: 'Jual tambah', text: 'Tingkat jual tambah James K. 14% di bawah rata-rata giliran kerja. Pasangkan dengan Sarah untuk 2 meja berikutnya.', impact: '+$420 / giliran kerja' },
-      { tag: 'Tenaga kerja', text: 'Tunda pemulangan pukul 21.00 - Anda 1,5 jam kerja di bawah anggaran.', impact: '-$280 biaya' },
+      { tag: 'Jual tambah', text: 'Tingkat jual tambah James K. 14% di bawah rata-rata giliran kerja. Pasangkan dengan Sarah untuk 2 meja berikutnya.', impact: '+{up} / giliran kerja' },
+      { tag: 'Tenaga kerja', text: 'Tunda pemulangan pukul 21.00 - Anda 1,5 jam kerja di bawah anggaran.', impact: '-{lab} biaya' },
       { tag: 'Stok', text: 'Ribeye terjual 22% di atas perkiraan - risiko habis pukul 20.30. Siapkan 6 lagi.', impact: '6 tamu berisiko' },
       { tag: 'Layanan', text: 'Meja 12 sudah duduk 47 menit tanpa hidangan utama - ingatkan dapur.', impact: 'NPS tamu' },
       { tag: 'Pemasaran', text: 'Ulangi happy hour Selasa lalu - menaikkan tamu 9%.', impact: '+9% tamu' },
@@ -563,8 +595,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Nhân công %', trend: 'Dưới mục tiêu 30%' },
     ],
     coachItems: [
-      { tag: 'Bán thêm', text: 'Tỷ lệ bán thêm của James K. thấp hơn 14% so với trung bình ca. Hãy ghép cậu ấy với Sarah cho 2 bàn tới.', impact: '+$420 / ca' },
-      { tag: 'Nhân công', text: 'Hoãn cắt ca 21h - bạn đang dưới ngân sách 1,5 giờ công.', impact: '-$280 chi phí' },
+      { tag: 'Bán thêm', text: 'Tỷ lệ bán thêm của James K. thấp hơn 14% so với trung bình ca. Hãy ghép cậu ấy với Sarah cho 2 bàn tới.', impact: '+{up} / ca' },
+      { tag: 'Nhân công', text: 'Hoãn cắt ca 21h - bạn đang dưới ngân sách 1,5 giờ công.', impact: '-{lab} chi phí' },
       { tag: 'Tồn kho', text: 'Ribeye bán nhanh hơn dự báo 22% - nguy cơ hết hàng trước 20h30. Chuẩn bị thêm 6 phần.', impact: '6 lượt khách rủi ro' },
       { tag: 'Phục vụ', text: 'Bàn 12 đã ngồi 47 phút chưa ra món chính - nhắc bếp.', impact: 'NPS khách' },
       { tag: 'Tiếp thị', text: 'Lặp lại happy hour thứ Ba tuần trước - đã tăng 9% lượt khách.', impact: '+9% lượt khách' },
@@ -594,8 +626,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Forță de muncă %', trend: 'Sub ținta 30%' },
     ],
     coachItems: [
-      { tag: 'Vânzare extra', text: 'Rata de vânzare extra a lui James K. este cu 14% sub media turei. Pune-l cu Sarah pentru următoarele 2 mese.', impact: '+$420 / tură' },
-      { tag: 'Personal', text: 'Amână reducerea echipei de la 21:00 - ești cu 1,5 ore de muncă sub buget.', impact: '-$280 costuri' },
+      { tag: 'Vânzare extra', text: 'Rata de vânzare extra a lui James K. este cu 14% sub media turei. Pune-l cu Sarah pentru următoarele 2 mese.', impact: '+{up} / tură' },
+      { tag: 'Personal', text: 'Amână reducerea echipei de la 21:00 - ești cu 1,5 ore de muncă sub buget.', impact: '-{lab} costuri' },
       { tag: 'Stoc', text: 'Ribeye se vinde cu 22% peste prognoză - risc de epuizare până la 20:30. Mai pregătește 6.', impact: '6 clienți serviți la risc' },
       { tag: 'Servire', text: 'Masa 12 stă de 47 min fără fel principal trimis - împinge bucătăria.', impact: 'NPS client' },
       { tag: 'Promovare', text: 'Repetă happy hour-ul de marțea trecută - a crescut clienții serviți cu 9%.', impact: '+9% clienți serviți' },
@@ -625,8 +657,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Personal %', trend: 'Under mål 30%' },
     ],
     coachItems: [
-      { tag: 'Merförsälj.', text: 'James K.:s merförsäljning ligger 14% under passets snitt. Sätt honom med Sarah för de nästa 2 borden.', impact: '+$420 / pass' },
-      { tag: 'Personal', text: 'Skjut upp nedtrappningen kl. 21 - du ligger 1,5 arbetstimmar under budget.', impact: '-$280 kostnad' },
+      { tag: 'Merförsälj.', text: 'James K.:s merförsäljning ligger 14% under passets snitt. Sätt honom med Sarah för de nästa 2 borden.', impact: '+{up} / pass' },
+      { tag: 'Personal', text: 'Skjut upp nedtrappningen kl. 21 - du ligger 1,5 arbetstimmar under budget.', impact: '-{lab} kostnad' },
       { tag: 'Lager', text: 'Ribeye säljer 22% över prognos - risk att ta slut till 20:30. Förbered 6 till.', impact: '6 gäster i risk' },
       { tag: 'Service', text: 'Bord 12 har suttit 47 min utan utskickad varmrätt - knuffa köket.', impact: 'gäst-NPS' },
       { tag: 'Marknad', text: 'Upprepa förra tisdagens happy hour - den lyfte gästerna 9%.', impact: '+9% gäster' },
@@ -656,8 +688,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'শ্রম %', trend: '30% লক্ষ্যের নিচে' },
     ],
     coachItems: [
-      { tag: 'আপসেল', text: 'James K.-এর আপসেল হার শিফট গড়ের চেয়ে 14% কম। পরের 2টি টেবিলের জন্য তাকে Sarah-র সঙ্গে রাখুন।', impact: '+$420 / শিফট' },
-      { tag: 'শ্রম', text: 'রাত 9টার ছাঁটাই স্থগিত করুন - আপনি বাজেটের চেয়ে 1.5 শ্রম-ঘণ্টা নিচে আছেন।', impact: '-$280 খরচ' },
+      { tag: 'আপসেল', text: 'James K.-এর আপসেল হার শিফট গড়ের চেয়ে 14% কম। পরের 2টি টেবিলের জন্য তাকে Sarah-র সঙ্গে রাখুন।', impact: '+{up} / শিফট' },
+      { tag: 'শ্রম', text: 'রাত 9টার ছাঁটাই স্থগিত করুন - আপনি বাজেটের চেয়ে 1.5 শ্রম-ঘণ্টা নিচে আছেন।', impact: '-{lab} খরচ' },
       { tag: 'ইনভেন্টরি', text: 'রিবআই পূর্বাভাসের 22% বেশি বিক্রি হচ্ছে - 8:30-এর মধ্যে শেষ হওয়ার ঝুঁকি। আরও 6টি প্রস্তুত করুন।', impact: '6 কভার ঝুঁকিতে' },
       { tag: 'সার্ভিস', text: 'টেবিল 12 47 মিনিট ধরে বসে, কোনো মূল পদ যায়নি - রান্নাঘরকে মনে করিয়ে দিন।', impact: 'গেস্ট NPS' },
       { tag: 'মার্কেটিং', text: 'গত মঙ্গলবারের হ্যাপি আওয়ার আবার করুন - এটি কভার 9% বাড়িয়েছে।', impact: '+9% কভার' },
@@ -687,8 +719,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'ต้นทุนแรงงาน %', trend: 'ต่ำกว่าเป้า 30%' },
     ],
     coachItems: [
-      { tag: 'อัปเซล', text: 'อัตราอัปเซลของ James K. ต่ำกว่าค่าเฉลี่ยกะ 14% ลองจับคู่กับ Sarah ใน 2 โต๊ะถัดไป', impact: '+$420 / กะ' },
-      { tag: 'แรงงาน', text: 'ชะลอการลดคนตอน 3 ทุ่ม - คุณใช้แรงงานต่ำกว่างบ 1.5 ชั่วโมง', impact: '-$280 ต้นทุน' },
+      { tag: 'อัปเซล', text: 'อัตราอัปเซลของ James K. ต่ำกว่าค่าเฉลี่ยกะ 14% ลองจับคู่กับ Sarah ใน 2 โต๊ะถัดไป', impact: '+{up} / กะ' },
+      { tag: 'แรงงาน', text: 'ชะลอการลดคนตอน 3 ทุ่ม - คุณใช้แรงงานต่ำกว่างบ 1.5 ชั่วโมง', impact: '-{lab} ต้นทุน' },
       { tag: 'สต๊อก', text: 'ริบอายขายเกินคาดการณ์ 22% - เสี่ยงหมดก่อน 20:30 เตรียมเพิ่มอีก 6 ที่', impact: 'เสี่ยง 6 ลูกค้า' },
       { tag: 'บริการ', text: 'โต๊ะ 12 นั่งมา 47 นาทียังไม่ได้จานหลัก - เตือนครัว', impact: 'NPS ลูกค้า' },
       { tag: 'การตลาด', text: 'จัดแฮปปี้อาวร์แบบอังคารที่แล้วอีกครั้ง - เพิ่มลูกค้า 9%', impact: '+9% ลูกค้า' },
@@ -718,8 +750,8 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
       { label: 'Tenaga kerja %', trend: 'Bawah sasaran 30%' },
     ],
     coachItems: [
-      { tag: 'Jual tambah', text: 'Kadar jualan tambah James K. 14% di bawah purata syif. Pasangkan dengan Sarah untuk 2 meja seterusnya.', impact: '+$420 / syif' },
-      { tag: 'Tenaga kerja', text: 'Tangguh pemotongan jam 9 malam - anda 1.5 jam kerja di bawah bajet.', impact: '-$280 kos' },
+      { tag: 'Jual tambah', text: 'Kadar jualan tambah James K. 14% di bawah purata syif. Pasangkan dengan Sarah untuk 2 meja seterusnya.', impact: '+{up} / syif' },
+      { tag: 'Tenaga kerja', text: 'Tangguh pemotongan jam 9 malam - anda 1.5 jam kerja di bawah bajet.', impact: '-{lab} kos' },
       { tag: 'Inventori', text: 'Ribeye terjual 22% melebihi ramalan - risiko habis menjelang 8:30 malam. Sedia 6 lagi.', impact: '6 tetamu berisiko' },
       { tag: 'Servis', text: 'Meja 12 duduk 47 minit tanpa hidangan utama dihantar - kejutkan dapur.', impact: 'NPS tetamu' },
       { tag: 'Pemasaran', text: 'Ulang happy hour Selasa lepas - ia menaikkan tetamu 9%.', impact: '+9% tetamu' },

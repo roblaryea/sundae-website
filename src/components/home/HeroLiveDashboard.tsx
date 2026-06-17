@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getWebsiteIntlLocale } from "@/lib/i18n";
-import { heroDashboardCopy } from "./heroDashboardCopy";
+import { heroDashboardCopy, currencyByLocale } from "./heroDashboardCopy";
 
 /**
  * The hero dashboard's TEXT is fully localized via heroDashboardCopy (resolved
@@ -100,12 +100,22 @@ export function HeroLiveDashboard() {
   const isAhead = aheadBy >= 0;
   const fillPct = Math.min(100, (revenue / TARGET) * 100);
   const expectedPct = Math.min(100, (expected / TARGET) * 100);
-  const fmt = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
+  // Display currency follows the active locale (relatable, not a literal symbol
+  // swap): the USD figures are scaled to a plausible local magnitude and Intl
+  // handles the symbol + grouping + placement. Ratios (labor %, pace) are
+  // currency-agnostic, so only fmt() applies the scale.
+  const cur = currencyByLocale[locale as keyof typeof currencyByLocale] ?? currencyByLocale.en;
+  const money = new Intl.NumberFormat(getWebsiteIntlLocale(locale), {
+    style: "currency",
+    currency: cur.code,
+    maximumFractionDigits: 0,
+  });
+  const fmt = (n: number) => money.format(n * cur.scale);
 
   const liveValues: string[] = [
     fmt(revenue),
     covers.toString(),
-    `$${avgCheck.toFixed(2)}`,
+    fmt(avgCheck),
     `${laborPct.toFixed(1)}%`,
   ];
 
@@ -294,7 +304,7 @@ export function HeroLiveDashboard() {
                       {c.tag}
                     </span>
                     <span className="ml-auto text-[10px] sm:text-[10.5px] font-mono tabular-nums text-[var(--text-supporting)]">
-                      {c.impact}
+                      {c.impact.replace("{up}", fmt(420)).replace("{lab}", fmt(280))}
                     </span>
                   </div>
                   <p className="text-[12.5px] sm:text-[13px] leading-snug text-[var(--text-primary)]">
