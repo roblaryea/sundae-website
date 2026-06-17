@@ -362,6 +362,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
 
         {/* Dimension 2: forecast variance */}
         <motion.div
+          initial={false}
           animate={{ opacity: activeIdx >= 1 ? 1 : 0.12 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
@@ -391,6 +392,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
 
         {/* Dimension 3: market context */}
         <motion.div
+          initial={false}
           animate={{ opacity: activeIdx >= 2 ? 1 : 0.12 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
@@ -416,6 +418,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
 
         {/* Dimension 4: Sundae Coach recommendation */}
         <motion.div
+          initial={false}
           animate={{ opacity: activeIdx >= 3 ? 1 : 0.12 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"

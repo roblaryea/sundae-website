@@ -28,8 +28,21 @@ export default async function DemoPage() {
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-4">{copy.badge}</span>
-          <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
-            {copy.title}
+          {/* Keep each sentence atomic so line breaks fall BETWEEN sentences
+              (e.g. "Real Answers." never splits across rows) - handles Latin and
+              CJK/Arabic punctuation. Titles with no sentence boundaries (e.g. Thai)
+              fall back to normal wrapping so they never overflow. */}
+          <h1 className="hero-h1 text-[var(--text-primary)] mb-6 text-balance">
+            {(() => {
+              const parts = copy.title.split(/(?<=[.!?。！？؟])\s*/).filter(Boolean);
+              if (parts.length <= 1) return copy.title;
+              return parts.map((sentence, i) => (
+                <span key={i} className="inline-block whitespace-nowrap">
+                  {sentence}
+                  {i < parts.length - 1 ? " " : ""}
+                </span>
+              ));
+            })()}
           </h1>
           <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
             {copy.description}

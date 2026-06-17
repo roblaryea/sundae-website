@@ -131,7 +131,7 @@ function Glass() {
                 height={BAND + 0.8}
                 fill={L.c}
                 style={{ transformBox: "fill-box", transformOrigin: "center bottom" }}
-                initial={{ scaleY: 0 }}
+                initial={{ scaleY: 0, opacity: 1 }}
                 animate={{ scaleY: 1, opacity: hover === null || hover === i ? 1 : 0.3 }}
                 transition={{ scaleY: { delay: 0.45 + i * 0.15, duration: 0.85, ease: EASE }, opacity: { duration: 0.3, ease: "easeOut" } }}
               />
@@ -190,7 +190,11 @@ function Glass() {
       </svg>
 
       {/* layer labels - each anchored to its band's exact center */}
-      <div className="absolute left-[calc(50%+100px)] top-0 hidden h-full w-[210px] lg:block">
+      {/* Label rail sits to the right of the glass; it needs a wide canvas or it
+          clips off-screen (the labels can't fit beside the glass below ~1440px
+          without overlapping it). Show only where it fits; the glass alone is the
+          hero visual on narrower laptops. */}
+      <div className="absolute left-[calc(50%+100px)] top-0 hidden h-full w-[210px] min-[1460px]:block">
         {LAYERS.map((L, i) => {
           const topPct = ((BOT - (i + 0.5) * BAND) / 430) * 100;
           return (
@@ -275,6 +279,7 @@ export function SectionCinematicIntro() {
           <h1
             className="mt-5 font-light leading-[0.94] tracking-[-0.04em]"
             style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
+            aria-label={`${copy.headline} ${copy.tagline}`}
           >
             <span className="block overflow-hidden">
               <motion.span

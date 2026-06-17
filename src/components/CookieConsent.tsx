@@ -128,20 +128,20 @@ export function CookieConsent() {
       aria-label={copy.ariaLabel}
       className="fixed bottom-0 left-0 right-0 z-[9999] border-t border-[var(--border-default)] bg-[var(--navy-surface)]/95 backdrop-blur-md"
     >
-      <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 px-4 py-4 sm:flex-row sm:justify-between sm:px-6">
-        <p className="text-sm text-[var(--text-secondary)] text-center sm:text-left">
+      <div className="mx-auto flex max-w-5xl flex-row items-center gap-3 px-4 py-2.5 sm:gap-4 sm:py-3.5 sm:px-6">
+        <p className="flex-1 text-[12px] leading-snug text-[var(--text-secondary)] text-left sm:text-sm sm:leading-normal">
           {copy.message}
         </p>
-        <div className="flex shrink-0 gap-3">
+        <div className="flex shrink-0 gap-2 sm:gap-3">
           <button
             onClick={handleDecline}
-            className="rounded-lg border border-[var(--border-emphasis)] px-4 py-2 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--electric-blue)]/40"
+            className="rounded-lg border border-[var(--border-emphasis)] px-3 py-1.5 text-[13px] font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--electric-blue)]/40 sm:px-4 sm:py-2 sm:text-sm"
           >
             {copy.decline}
           </button>
           <button
             onClick={handleAccept}
-            className="rounded-lg bg-[#FF5C4D] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#FF5C4D] focus:outline-none focus:ring-2 focus:ring-[#FF8473]"
+            className="rounded-lg bg-[#FF5C4D] px-3 py-1.5 text-[13px] font-medium text-white transition-colors hover:bg-[#FF5C4D] focus:outline-none focus:ring-2 focus:ring-[#FF8473] sm:px-4 sm:py-2 sm:text-sm"
           >
             {copy.accept}
           </button>

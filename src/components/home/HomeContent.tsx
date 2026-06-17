@@ -182,7 +182,7 @@ export default function HomeContent() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
             >
-              <h2 className="section-h2 mb-5 max-w-3xl mx-auto">
+              <h2 className="section-h2 mb-5 max-w-3xl mx-auto" aria-label={`${home.titleTop} ${home.titleBottom}`}>
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
                   {home.titleTop}
                 </span>

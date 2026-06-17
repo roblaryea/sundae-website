@@ -1,5 +1,7 @@
 'use client';
 
+import { Fragment } from "react";
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -438,12 +440,12 @@ function CorrelationMatrixMockup({ copy }: { copy: CrossIntelligenceMockupCopy }
             <div key={m} className="text-[8px] text-center text-[var(--text-muted)] font-medium">{m}</div>
           ))}
           {modules.map((row, ri) => (
-            <>
-              <div key={`label-${row}`} className="text-[8px] text-[var(--text-muted)] font-medium flex items-center">{row}</div>
+            <Fragment key={`row-${row}`}>
+              <div className="text-[8px] text-[var(--text-muted)] font-medium flex items-center">{row}</div>
               {colors[ri].map((color, ci) => (
                 <div key={`${ri}-${ci}`} className={`h-6 rounded-sm ${color} ${ri === ci ? 'opacity-100' : 'opacity-50'}`} />
               ))}
-            </>
+            </Fragment>
           ))}
         </div>
         <div className="flex justify-between text-[9px] text-[var(--text-muted)]">
