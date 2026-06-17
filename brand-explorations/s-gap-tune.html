@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#15110D;color:#FBF8F4;font-family:'Hanken Grotesk',sans-serif;padding:42px}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:23px;margin:0 0 2px}
+  h2{font-family:'Fraunces',serif;font-weight:500;font-size:17px;margin:34px 0 8px;border-top:1px solid rgba(255,255,255,.1);padding-top:22px}
+  .note{color:rgba(255,255,255,.5);font-size:12.5px;margin:0 0 16px;max-width:80ch}
+  .row{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-start}
+  .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:20px;text-align:center;width:188px}
+  .lbl{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#FF5C4D;font-weight:600;margin-bottom:12px}
+  .big{height:140px;display:flex;align-items:center;justify-content:center}
+  .favs{display:flex;gap:14px;justify-content:center;align-items:flex-end;margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.07)}
+  .favs .s{font-size:9.5px;color:rgba(255,255,255,.4);margin-top:5px}
+  .pick{box-shadow:0 0 0 1px #FF5C4D,0 16px 40px -20px rgba(255,92,77,.5)}
+  .desc{font-size:11px;color:rgba(255,255,255,.5);margin-top:10px;line-height:1.4}
+</style></head><body>
+<h1>S × cherry — gap tuning + small-size legibility</h1>
+
+<h2>1 · Gap tuning (large) — which feels like the natural missing terminal?</h2>
+<div class="note">All cut-arm S + cherry. Varying where the berry sits and how big the gap is. Looking for: the cherry reads as where the stroke would have ended, not a pasted dot.</div>
+<div class="row" id="gapRow"></div>
+
+<h2>2 · Small-size legibility — scaled-down vs size-aware favicon</h2>
+<div class="note">Left group: the large mark just scaled down (thin stem + gap can break). Right group: a size-aware favicon (berry flush to the cut, bigger, no hairline stem) so the cherry still reads at 16px.</div>
+<div class="row" id="smallRow"></div>
+<script>
+const HS=`<stop offset="0" stop-color="#F6C66B"/><stop offset=".17" stop-color="#F6C66B"/><stop offset=".17" stop-color="#E9A24A"/><stop offset=".34" stop-color="#E9A24A"/><stop offset=".34" stop-color="#F7A088"/><stop offset=".52" stop-color="#F7A088"/><stop offset=".52" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#E03E48"/><stop offset=".86" stop-color="#E03E48"/><stop offset=".86" stop-color="#B23A1E"/><stop offset="1" stop-color="#B23A1E"/>`;
+// cut S variants — different cut lengths to vary the gap
+const S_CUT_S="M124,48 C104,42 72,46 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149"; // smaller cut (tighter gap)
+const S_CUT_M="M118,46 C100,41 72,45 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149"; // medium
+const S_CUT_L="M112,44 C96,40 72,46 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149";  // larger cut (bigger gap)
+function frame(px,inner){return `<svg width="${px}" height="${px}" viewBox="0 0 200 200" style="overflow:visible"><defs><clipPath id="c${px}_${inner.length}"><rect width="200" height="200" rx="46"/></clipPath><radialGradient id="cg${px}_${inner.length}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hs${px}_${inner.length}" x1="0" y1="0" x2="0" y2="1">${HS}</linearGradient><radialGradient id="gl${px}_${inner.length}" cx="0.5" cy="0" r="0.95"><stop offset="0" stop-color="rgba(255,124,90,.3)"/><stop offset="1" stop-color="rgba(255,124,90,0)"/></radialGradient></defs><g clip-path="url(#c${px}_${inner.length})"><rect width="200" height="200" fill="#1C1712"/><rect width="200" height="200" fill="url(#gl${px}_${inner.length})"/>${inner(px)}</g></svg>`;}
+const berry=(cx,cy,r,id)=>`<circle cx="${cx}" cy="${cy}" r="${r}" fill="url(#cg${id})"/><ellipse cx="${cx-r*0.34}" cy="${cy-r*0.4}" rx="${r*0.3}" ry="${r*0.2}" fill="rgba(255,255,255,.55)"/>`;
+function stroke(path,px,inner){return `<path d="${path}" fill="none" stroke="url(#hs${px}_${inner})" stroke-width="32" stroke-linecap="round"/>`;}
+
+const gaps=[
+  {lbl:'G1 · tight gap',cut:S_CUT_S,bx:138,by:52,br:16,stem:'M138,38 C143,26 151,22 158,14',pick:false},
+  {lbl:'G2 · balanced',cut:S_CUT_M,bx:140,by:50,br:16,stem:'M140,36 C145,24 153,20 160,12',pick:true},
+  {lbl:'G3 · open gap',cut:S_CUT_L,bx:142,by:46,br:15,stem:'M142,33 C147,22 155,18 162,10',pick:false},
+  {lbl:'G4 · bead-weight (r=stroke/2)',cut:S_CUT_M,bx:140,by:50,br:16,stem:null,pick:false},
+];
+document.getElementById('gapRow').innerHTML = gaps.map(g=>{
+  const inner=(px)=>{const id=px+'_'+(stroke(g.cut,px,px).length);return '';};
+  const f=(px)=>stroke(g.cut,px,(stroke(g.cut,px,'x').length))+ '' ;
+  // build inner directly
+  const build=(px)=>{const idlen=(g.cut+g.lbl).length;return `<path d="${g.cut}" fill="none" stroke="url(#hs${px}_${idlen})" stroke-width="32" stroke-linecap="round"/>${g.stem?`<path d="${g.stem}" stroke="#7d1f12" stroke-width="4.5" fill="none" stroke-linecap="round"/>`:''}${berry(g.bx,g.by,g.br,px+'_'+idlen)}`;};
+  // custom frame with matching ids
+  const frame2=(px)=>{const idlen=(g.cut+g.lbl).length;return `<svg width="${px}" height="${px}" viewBox="0 0 200 200" style="overflow:visible"><defs><clipPath id="c${px}_${idlen}"><rect width="200" height="200" rx="46"/></clipPath><radialGradient id="cg${px}_${idlen}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hs${px}_${idlen}" x1="0" y1="0" x2="0" y2="1">${HS}</linearGradient><radialGradient id="gl${px}_${idlen}" cx="0.5" cy="0" r="0.95"><stop offset="0" stop-color="rgba(255,124,90,.3)"/><stop offset="1" stop-color="rgba(255,124,90,0)"/></radialGradient></defs><g clip-path="url(#c${px}_${idlen})"><rect width="200" height="200" fill="#1C1712"/><rect width="200" height="200" fill="url(#gl${px}_${idlen})"/>${build(px)}</g></svg>`;};
+  return `<div class="card ${g.pick?'pick':''}"><div class="lbl">${g.lbl}${g.pick?' ✓':''}</div><div class="big">${frame2(150)}</div></div>`;
+}).join('');
+
+// small-size: scaled large vs size-aware favicon
+function scaledLarge(px){const idlen=('scaled'+px);return `<svg width="${px}" height="${px}" viewBox="0 0 200 200"><defs><clipPath id="cl${idlen}"><rect width="200" height="200" rx="46"/></clipPath><radialGradient id="cgl${idlen}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hsl${idlen}" x1="0" y1="0" x2="0" y2="1">${HS}</linearGradient></defs><g clip-path="url(#cl${idlen})"><rect width="200" height="200" fill="#1C1712"/><path d="${S_CUT_M}" fill="none" stroke="url(#hsl${idlen})" stroke-width="32" stroke-linecap="round"/><path d="M140,36 C145,24 153,20 160,12" stroke="#7d1f12" stroke-width="4.5" fill="none" stroke-linecap="round"/><circle cx="140" cy="50" r="16" fill="url(#cgl${idlen})"/></g></svg>`;}
+// size-aware: full S, berry flush capping the terminal, NO hairline stem, slightly bigger berry
+function favAware(px){const idlen=('fav'+px);return `<svg width="${px}" height="${px}" viewBox="0 0 200 200"><defs><clipPath id="cf${idlen}"><rect width="200" height="200" rx="46"/></clipPath><radialGradient id="cgf${idlen}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hsf${idlen}" x1="0" y1="0" x2="0" y2="1">${HS}</linearGradient></defs><g clip-path="url(#cf${idlen})"><rect width="200" height="200" fill="#1C1712"/><path d="M132,52 C112,46 72,48 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149" fill="none" stroke="url(#hsf${idlen})" stroke-width="34" stroke-linecap="round"/><circle cx="140" cy="50" r="22" fill="url(#cgf${idlen})"/><path d="M140,30 C144,22 150,19 156,13" stroke="#7d1f12" stroke-width="7" fill="none" stroke-linecap="round"/></g></svg>`;}
+document.getElementById('smallRow').innerHTML = `
+  <div class="card"><div class="lbl">scaled-down large</div><div class="favs"><div>${scaledLarge(32)}<div class="s">32</div></div><div>${scaledLarge(24)}<div class="s">24</div></div><div>${scaledLarge(16)}<div class="s">16</div></div></div><div class="desc">Hairline stem + gap thin out; berry can detach / vanish.</div></div>
+  <div class="card pick"><div class="lbl">size-aware favicon ✓</div><div class="favs"><div>${favAware(32)}<div class="s">32</div></div><div>${favAware(24)}<div class="s">24</div></div><div>${favAware(16)}<div class="s">16</div></div></div><div class="desc">Berry bigger & flush to the terminal, thick short stem — the cherry still reads at 16px.</div></div>`;
+</script>
+</body></html>

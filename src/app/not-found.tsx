@@ -71,14 +71,14 @@ export default function NotFound() {
             className="relative"
           >
             <Image
-              src="/logos/sundae-orb.png"
+              src="/logos/sundae-app-icon.png"
               alt={copy.orbAlt}
               width={120}
               height={120}
-              className="drop-shadow-lg rounded-full"
+              className="drop-shadow-lg rounded-[22px]"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-[#FF8473]/10 to-[#F2B45C]/10 rounded-full blur-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#FF8473]/10 to-[#F2B45C]/10 rounded-[22px] blur-xl"></div>
           </motion.div>
         </motion.div>
 

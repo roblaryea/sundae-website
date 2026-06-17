@@ -35,7 +35,7 @@ export const generatedLocalCopy = {
           "title": "معالجة الذكاء الاصطناعي",
           "subtitle": "طبقة الذكاء",
           "description": "الذكاء الاصطناعي متعدد الوكلاء، اكتشاف الأنماط، اكتشاف الشذوذ، الاستدلال",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -301,7 +301,7 @@ export const generatedLocalCopy = {
           "title": "Procesamiento de IA",
           "subtitle": "Capa de inteligencia",
           "description": "IA multiagente, detección de patrones, detección de anomalías, razonamiento",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
           "title": "Traitement de l'IA",
           "subtitle": "Couche de renseignement",
           "description": "IA multi-agents, détection de modèles, détection d'anomalies, raisonnement",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
           "title": "KI-Verarbeitung",
           "subtitle": "Intelligenzschicht",
           "description": "Multi-Agent-KI, Mustererkennung, Anomalieerkennung, Argumentation",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -1099,7 +1099,7 @@ export const generatedLocalCopy = {
           "title": "Processamento de IA",
           "subtitle": "Camada de Inteligência",
           "description": "IA multiagente, detecção de padrões, detecção de anomalias, raciocínio",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -1365,7 +1365,7 @@ export const generatedLocalCopy = {
           "title": "AI-verwerking",
           "subtitle": "Intelligentielaag",
           "description": "Multi-agent AI, patroondetectie, detectie van afwijkingen, redenering",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -1631,7 +1631,7 @@ export const generatedLocalCopy = {
           "title": "AI پروسیسنگ",
           "subtitle": "انٹیلی جنس پرت",
           "description": "ملٹی ایجنٹ AI، پیٹرن کا پتہ لگانا، بے ضابطگی کا پتہ لگانا، استدلال",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -1897,7 +1897,7 @@ export const generatedLocalCopy = {
           "title": "Elaborazione dell'intelligenza artificiale",
           "subtitle": "Livello di intelligenza",
           "description": "IA multi-agente, rilevamento di pattern, rilevamento di anomalie, ragionamento",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -2163,7 +2163,7 @@ export const generatedLocalCopy = {
           "title": "एआई प्रोसेसिंग",
           "subtitle": "खुफिया परत",
           "description": "मल्टी-एजेंट एआई, पैटर्न का पता लगाना, विसंगति का पता लगाना, तर्क करना",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -2429,7 +2429,7 @@ export const generatedLocalCopy = {
           "title": "Yapay Zeka İşleme",
           "subtitle": "Zeka Katmanı",
           "description": "Çok aracılı yapay zeka, model tespiti, anormallik tespiti, muhakeme",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -2695,7 +2695,7 @@ export const generatedLocalCopy = {
           "title": "Przetwarzanie AI",
           "subtitle": "Warstwa inteligencji",
           "description": "Wieloagentowa sztuczna inteligencja, wykrywanie wzorców, wykrywanie anomalii, wnioskowanie",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -2961,7 +2961,7 @@ export const generatedLocalCopy = {
           "title": "人工智能处理",
           "subtitle": "智能层",
           "description": "多智能体人工智能、模式检测、异常检测、推理",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -3227,7 +3227,7 @@ export const generatedLocalCopy = {
           "title": "AI 처리",
           "subtitle": "인텔리전스 레이어",
           "description": "멀티에이전트 AI, 패턴탐지, 이상탐지, 추론",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -3493,7 +3493,7 @@ export const generatedLocalCopy = {
           "title": "Procesare AI",
           "subtitle": "Stratul de inteligență",
           "description": "AI multi-agent, detectarea modelelor, detectarea anomaliilor, raționament",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -3759,7 +3759,7 @@ export const generatedLocalCopy = {
           "title": "AI処理",
           "subtitle": "インテリジェンス層",
           "description": "マルチエージェントAI、パターン検出、異常検出、推論",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -4025,7 +4025,7 @@ export const generatedLocalCopy = {
           "title": "Pemrosesan AI",
           "subtitle": "Lapisan Intelijen",
           "description": "AI multi-agen, deteksi pola, deteksi anomali, penalaran",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -4291,7 +4291,7 @@ export const generatedLocalCopy = {
           "title": "Xử lý AI",
           "subtitle": "Lớp thông minh",
           "description": "AI đa tác nhân, phát hiện mẫu, phát hiện bất thường, lý luận",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -4557,7 +4557,7 @@ export const generatedLocalCopy = {
           "title": "এআই প্রসেসিং",
           "subtitle": "বুদ্ধিমত্তা স্তর",
           "description": "মাল্টি-এজেন্ট এআই, প্যাটার্ন সনাক্তকরণ, অসঙ্গতি সনাক্তকরণ, যুক্তি",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -4823,7 +4823,7 @@ export const generatedLocalCopy = {
           "title": "AI-bearbetning",
           "subtitle": "Intelligenslager",
           "description": "Multi-agent AI, mönsterdetektering, anomalidetektering, resonemang",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -5089,7 +5089,7 @@ export const generatedLocalCopy = {
           "title": "การประมวลผลเอไอ",
           "subtitle": "ชั้นสติปัญญา",
           "description": "AI หลายตัวแทน การตรวจจับรูปแบบ การตรวจจับความผิดปกติ การให้เหตุผล",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -5355,7 +5355,7 @@ export const generatedLocalCopy = {
           "title": "Pemprosesan AI",
           "subtitle": "Lapisan Perisikan",
           "description": "AI berbilang ejen, pengesanan corak, pengesanan anomali, penaakulan",
-          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
+          "color": "bg-gradient-to-r from-stone-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },

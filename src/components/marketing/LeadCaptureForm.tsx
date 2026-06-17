@@ -403,7 +403,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     `w-full rounded-lg border-2 px-4 py-3 outline-none transition-all duration-200 focus:ring-2 ${
       hasError
         ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
-        : 'border-white/[0.1] bg-[var(--surface-subtle)] text-[var(--text-primary)] focus:border-blue-600 focus:ring-blue-600/20'
+        : 'border-white/[0.1] bg-[var(--surface-subtle)] text-[var(--text-primary)] focus:border-[#FF5C4D] focus:ring-[#FF5C4D]/20'
     }`;
 
   return (

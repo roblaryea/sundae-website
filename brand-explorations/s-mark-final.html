@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=general-sans@500,600&display=swap" rel="stylesheet">
+<style>
+  :root{--deep:#15110D;--cream:#F6F1E8}
+  body{margin:0;background:var(--deep);color:#FBF8F4;font-family:'General Sans',sans-serif;padding:44px}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:24px;margin:0 0 26px}
+  .row{display:flex;gap:40px;align-items:flex-start;flex-wrap:wrap;margin-bottom:46px}
+  .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:30px;text-align:center}
+  .lbl{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#FF5C4D;font-weight:600;margin-bottom:20px}
+  .favs{display:flex;gap:16px;align-items:flex-end;justify-content:center;margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.07)}
+  .favs .c{text-align:center}.favs .s{font-size:10px;color:rgba(251,248,244,.4);margin-top:6px}
+  .onlight{background:var(--cream);border-radius:14px;padding:18px;display:inline-block;margin-top:14px}
+  .lock{display:flex;align-items:center;gap:16px;margin-top:30px}
+  .wm{font-family:'Fraunces',serif;font-weight:500;font-size:52px;letter-spacing:-.03em}
+</style></head><body>
+<h1>The layered tile — refined finalists</h1>
+<div class="row" id="root"></div>
+<script>
+function cherry(w,stemDark){return `<svg width="${w}" viewBox="0 0 64 80" fill="none">
+  <path d="M35 47 C35 27 49 20 58 9" stroke="${stemDark||'#7d1f12'}" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <circle cx="28" cy="56" r="20" fill="#E03E48"/>
+  <circle cx="28" cy="56" r="20" fill="url(#cg)"/>
+  <ellipse cx="20" cy="48" rx="6.5" ry="4.2" fill="rgba(255,255,255,.5)"/></svg>`;}
+
+// the tile: rounded square, discrete strata bands, cream S, cherry on top, depth
+function tile(px, cherrySize, radius){
+  const r = radius||(px*0.226);
+  return `<svg width="${px}" height="${px}" viewBox="0 0 200 200" style="overflow:visible">
+    <defs>
+      <clipPath id="tc${px}"><rect width="200" height="200" rx="${200*0.226}"/></clipPath>
+      <radialGradient id="cg" cx="0.35" cy="0.32" r="0.8"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient>
+      <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(255,255,255,.22)"/><stop offset=".4" stop-color="rgba(255,255,255,0)"/></linearGradient>
+      <filter id="ds" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#3a0f08" flood-opacity="0.45"/></filter>
+    </defs>
+    <g clip-path="url(#tc${px})">
+      <rect y="0"   width="200" height="30" fill="#F6C66B"/>
+      <rect y="30"  width="200" height="32" fill="#E9A24A"/>
+      <rect y="62"  width="200" height="32" fill="#F7A088"/>
+      <rect y="94"  width="200" height="34" fill="#FF5C4D"/>
+      <rect y="128" width="200" height="36" fill="#E03E48"/>
+      <rect y="164" width="200" height="40" fill="#B23A1E"/>
+      <rect width="200" height="200" fill="url(#sh)"/>
+      <text x="100" y="142" font-family="'Clash Display',sans-serif" font-weight="700" font-size="150" fill="#F8F3EA" text-anchor="middle" filter="url(#ds)">S</text>
+    </g>
+    <g transform="translate(${cherrySize?138:140},${cherrySize?-2:-4})">${cherry(cherrySize||52)}</g>
+  </svg>`;
+}
+// standalone layered S (no tile) for mono/transparent
+function layeredS(px){
+  return `<svg width="${px}" viewBox="0 0 200 220" style="overflow:visible">
+    <defs><clipPath id="sclip"><text x="100" y="170" font-family="'Clash Display',sans-serif" font-weight="700" font-size="210" text-anchor="middle">S</text></clipPath></defs>
+    <g clip-path="url(#sclip)">
+      <rect y="0" width="200" height="34" fill="#F6C66B"/><rect y="34" width="200" height="34" fill="#E9A24A"/>
+      <rect y="68" width="200" height="34" fill="#F7A088"/><rect y="102" width="200" height="36" fill="#FF5C4D"/>
+      <rect y="138" width="200" height="40" fill="#E03E48"/><rect y="178" width="200" height="42" fill="#B23A1E"/></g>
+    <g transform="translate(126,-6)">${cherry(50)}</g></svg>`;
+}
+
+const root=document.getElementById('root');
+root.innerHTML = `
+  <div class="card"><div class="lbl">Primary symbol · the layered tile</div>
+    <div>${tile(180)}</div>
+    <div class="onlight">${tile(120)}</div>
+    <div class="favs">
+      <div class="c">${tile(40)}<div class="s">40px</div></div>
+      <div class="c">${tile(28)}<div class="s">28px</div></div>
+      <div class="c">${tile(18)}<div class="s">18px favicon</div></div>
+    </div>
+  </div>
+  <div class="card"><div class="lbl">Standalone layered S · mono / transparent</div>
+    <div style="height:200px;display:flex;align-items:center;justify-content:center">${layeredS(150)}</div>
+    <div class="onlight">${layeredS(110)}</div>
+  </div>
+  <div class="card" style="text-align:left"><div class="lbl">The lockup</div>
+    <div class="lock">${tile(72,30)}<span class="wm">sundae</span></div>
+    <div class="lock" style="margin-top:24px">${tile(56,24)}<span class="wm" style="font-size:40px">sundae</span></div>
+    <div class="onlight" style="display:block;margin-top:24px"><div class="lock" style="margin:0"><div>${tile(56,24)}</div><span class="wm" style="font-size:40px;color:#1a120c">sundae</span></div></div>
+  </div>`;
+</script>
+</body></html>

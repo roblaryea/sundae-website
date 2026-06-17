@@ -354,7 +354,7 @@ export default function ReportProductPage() {
                 <Card variant="elevated" className="hover:scale-105 transition-transform duration-300">
                   <CardHeader>
                     <div className="flex items-center space-x-4">
-                      <div className={`w-12 h-12 ${['bg-green-500','bg-blue-500','bg-orange-500','bg-purple-500'][idx]} rounded-lg flex items-center justify-center`}>
+                      <div className={`w-12 h-12 ${['bg-green-500','bg-[#FF5C4D]','bg-orange-500','bg-purple-500'][idx]} rounded-lg flex items-center justify-center`}>
                         <SundaeIcon name={['finance','labor','decrease','speed'][idx] as SundaeIconName} size="lg" className="text-white" />
                       </div>
                       <CardTitle className="text-[var(--text-primary)]">{category}</CardTitle>

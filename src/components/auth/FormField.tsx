@@ -55,7 +55,7 @@ export const FormField: React.FC<FormFieldProps> = ({
           className={`w-full px-4 py-3 rounded-xl border-2 text-sm transition-all duration-200 outline-none bg-[var(--surface-subtle)] text-[var(--text-primary)] placeholder:text-[var(--text-muted)] ${
             error
               ? 'border-red-500 focus:border-red-500 focus:ring-2 focus:ring-red-500/20'
-              : 'border-[var(--border-default)] focus:border-slate-900 focus:ring-2 focus:ring-slate-900/20'
+              : 'border-[var(--border-default)] focus:border-stone-900 focus:ring-2 focus:ring-stone-900/20'
           } ${disabled ? 'opacity-50 cursor-not-allowed' : ''} ${
             isPassword ? 'pr-12' : ''
           }`}

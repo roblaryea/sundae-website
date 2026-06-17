@@ -21,7 +21,7 @@ import { watchtowerConviction } from "@/components/home/sections/routeConviction
 const localizedWatchtowerCopy = {
   en: {
     heroBadge: "Watchtower - External Intelligence Engine",
-    heroTitle: <>10+ Competitors Tracked Daily.<br />Zero Manual Research.</>,
+    heroTitle: '10+ Competitors Tracked Daily. Zero Manual Research.',
     heroDescription:
       "Competitor pricing changes tracked daily. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing - what's happening, why it matters, and what to do about it. Signals automatically cascade into Foresight assumptions.",
     heroNote: "Available on Core tiers. Choose individual intelligence types or the full Watchtower bundle.",

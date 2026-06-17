@@ -151,7 +151,7 @@ export default async function BlogPostPage({
       name: 'Sundae',
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/logos/sundae-wordmark.png`,
+        url: `${baseUrl}/logos/sundae-app-icon.png`,
       },
     },
     mainEntityOfPage: {

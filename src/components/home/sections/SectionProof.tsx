@@ -27,10 +27,9 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     headline: "Shaped by restaurant operators across every format.",
     description: "QSR, casual dining, fine dining, cloud kitchens, and hospitality groups inform the intelligence layer restaurants actually need - from single-shop operators to multi-brand portfolios.",
     stats: [
-      { value: "12", label: "data domains unified" },
-      { value: "500+", label: "restaurant-specific data models" },
-      { value: "12", label: "analytics modules", footnoteMarker: "†" },
-      { value: "5-min", label: "shift refresh on Core Pro", footnoteMarker: "*" },
+      { value: "200+", label: "integrations — every POS, delivery & finance tool" },
+      { value: "12", label: "intelligence modules, each with AI recommendations" },
+      { value: "Seconds", label: "from question to source-cited answer" },
     ],
     industryEyebrow: "WHAT WE HEAR FROM OPERATORS",
     industryHeadline: "The data exists. The decision still arrives late.",
@@ -42,17 +41,16 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they can create between 1-3% of revenue and margin leakage.", sundae: "Pulse flags exception patterns during the shift, attributed to the server, daypart, location, or behavior driving them." },
       { industry: "Margin variance is often explained at month-end, after the costs are already booked.", sundae: "Insights connects revenue, labor, food cost, discounts, and pricing so teams can see the cause while it is still actionable." },
     ],
-    footnote: "*Refresh frequency varies by Core tier. See pricing for details. †12 analytics modules across the platform; 12 specialized modules included in the current pricing bundle. ‡Industry observations are general restaurant-industry patterns drawn from public research and advisory feedback. Named pilot results and validated customer outcomes will replace this section as they become available.",
+    footnote: "Industry observations are general restaurant-industry patterns drawn from public research and advisory feedback. Named pilot results and validated customer outcomes will replace this section as they become available.",
   },
   ar: {
     eyebrow: "مبني مع المشغلين",
     headline: "صاغته مجموعات مطاعم عبر كل صيغة.",
     description: "QSR والمطاعم العائلية والمطاعم الراقية والمطابخ السحابية ومجموعات الضيافة تُلهم طبقة الذكاء التي يحتاجها المطاعم - من مشغل واحد إلى محافظ متعددة العلامات.",
     stats: [
-      { value: "12", label: "مجال بيانات موحد" },
-      { value: "+500", label: "نموذج بيانات مطعم" },
-      { value: "12", label: "وحدة تحليلية", footnoteMarker: "†" },
-      { value: "5 د", label: "تحديث وردية على Core Pro", footnoteMarker: "*" },
+      { value: "+200", label: "تكامل — كل أنظمة POS والتوصيل والمالية" },
+      { value: "12", label: "وحدة ذكاء، كل منها بتوصيات بالذكاء الاصطناعي" },
+      { value: "ثوانٍ", label: "من السؤال إلى إجابة موثّقة المصدر" },
     ],
     industryEyebrow: "ما نسمعه من المشغلين",
     industryHeadline: "البيانات موجودة. القرار ما زال يصل متأخراً.",
@@ -64,17 +62,16 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "التجاوزات والتعويضات والخصومات وحالات POS الشاذة صغيرة بذاتها. تركها بلا مراجعة قد ينتج عنه تسرب 1-3% من الإيرادات والهامش.", sundae: "Pulse يكشف أنماط الحالات الشاذة خلال الوردية، منسوبة إلى الموظف أو الفترة أو الموقع." },
       { industry: "غالباً ما يُفسر تباين الهامش في نهاية الشهر، بعد تسجيل التكاليف.", sundae: "Insights يربط الإيرادات والعمالة وتكلفة الطعام والخصومات والتسعير ليرى الفريق السبب وهو ما زال قابلاً للتنفيذ." },
     ],
-    footnote: "*يختلف معدل التحديث بحسب طبقة Core. راجع التسعير. † أكثر من 30 وحدة تحليلية عبر المنصة؛ 12 وحدة متخصصة في الحزمة الحالية. ‡ ملاحظات الصناعة أنماط عامة لصناعة المطاعم من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ستحل محل هذا القسم عند توفرها.",
+    footnote: "ملاحظات الصناعة أنماط عامة لصناعة المطاعم من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها.",
   },
   fr: {
     eyebrow: "CONSTRUIT AVEC LES OPÉRATEURS",
     headline: "Façonné par des opérateurs de restaurants dans tous les formats.",
     description: "QSR, restauration décontractée, gastronomie, cuisines virtuelles et groupes hôteliers nourrissent la couche d'intelligence dont les restaurants ont vraiment besoin - du single-shop aux portefeuilles multi-marques.",
     stats: [
-      { value: "12", label: "domaines de données unifiés" },
-      { value: "500+", label: "modèles de données restaurant" },
-      { value: "12", label: "modules analytiques", footnoteMarker: "†" },
-      { value: "5 min", label: "refresh service sur Core Pro", footnoteMarker: "*" },
+      { value: "200+", label: "intégrations — chaque système POS, livraison & finance" },
+      { value: "12", label: "modules d'intelligence, chacun avec recommandations IA" },
+      { value: "Secondes", label: "de la question à une réponse sourcée" },
     ],
     industryEyebrow: "CE QUE NOUS ENTENDONS DES OPÉRATEURS",
     industryHeadline: "Les données existent. La décision arrive encore en retard.",
@@ -86,17 +83,16 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "Annulations, comps, remises et exceptions POS sont petites individuellement. Non revues, elles peuvent créer 1-3% de fuite de revenu et marge.", sundae: "Pulse signale les motifs d'exception pendant le service, attribués au serveur, à la tranche horaire, au site ou au comportement." },
       { industry: "La variance de marge est souvent expliquée en fin de mois, après que les coûts soient passés.", sundae: "Insights connecte revenu, main-d'œuvre, coût matière, remises et prix pour que l'équipe voit la cause pendant qu'elle est encore actionnable." },
     ],
-    footnote: "*Fréquence de refresh selon le tier Core. Voir les prix. †12 modules analytiques sur la plateforme ; 12 modules spécialisés inclus dans le bundle actuel. ‡Observations industrielles : motifs généraux de la restauration tirés de recherche publique et de retours conseil. Résultats pilotes nommés remplaceront cette section dès disponibles.",
+    footnote: "Observations sectorielles : motifs généraux de la restauration tirés de recherche publique et de retours conseil. Des résultats pilotes nommés et des résultats clients validés remplaceront cette section dès qu'ils seront disponibles.",
   },
   es: {
     eyebrow: "CONSTRUIDO CON OPERADORES",
     headline: "Forjado por operadores de restaurantes en cada formato.",
     description: "QSR, casual, alta cocina, cocinas en la nube y grupos de hospitalidad informan la capa de inteligencia que los restaurantes realmente necesitan - desde operadores de un solo local hasta portafolios multi-marca.",
     stats: [
-      { value: "12", label: "dominios de datos unificados" },
-      { value: "500+", label: "modelos de datos de restaurante" },
-      { value: "12", label: "módulos analíticos", footnoteMarker: "†" },
-      { value: "5 min", label: "refresco de turno en Core Pro", footnoteMarker: "*" },
+      { value: "200+", label: "integraciones — cada sistema POS, delivery y finanzas" },
+      { value: "12", label: "módulos de inteligencia, cada uno con recomendaciones IA" },
+      { value: "Segundos", label: "de la pregunta a una respuesta con fuente" },
     ],
     industryEyebrow: "LO QUE ESCUCHAMOS DE OPERADORES",
     industryHeadline: "Los datos existen. La decisión sigue llegando tarde.",
@@ -108,7 +104,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "Anulaciones, comps, descuentos y excepciones POS son pequeños por sí solos. Sin revisar, pueden crear 1-3% de fuga de ingresos y margen.", sundae: "Pulse señala los patrones de excepción durante el turno, atribuidos al mesero, daypart, local o comportamiento." },
       { industry: "La varianza de margen suele explicarse a fin de mes, después de que los costes se registraron.", sundae: "Insights conecta ingresos, personal, coste alimentos, descuentos y precios para que el equipo vea la causa mientras aún es accionable." },
     ],
-    footnote: "*Frecuencia de refresco varía por tier Core. Ver precios. †12 módulos analíticos en la plataforma; 12 módulos especializados incluidos en el bundle actual. ‡Observaciones de industria: patrones generales de la restauración basados en investigación pública y feedback de asesoría. Resultados de pilotos nombrados reemplazarán esta sección cuando estén disponibles.",
+    footnote: "Observaciones de industria: patrones generales de la restauración basados en investigación pública y feedback de asesoría. Resultados de pilotos nombrados y resultados de clientes validados reemplazarán esta sección cuando estén disponibles.",
   },
 };
 
@@ -125,7 +121,7 @@ export function SectionProof() {
           <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </div>
 
-        <div className="mt-10 sm:mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5">
+        <div className="mt-10 sm:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 max-w-4xl mx-auto">
           {copy.stats.map((s) => (
             <div key={s.label} className="text-center p-5 sm:p-7 rounded-2xl bg-[var(--surface-subtle)] border border-[var(--border-default)]">
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] tabular-nums">

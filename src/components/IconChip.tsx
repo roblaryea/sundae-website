@@ -15,7 +15,7 @@ const sizeMap: Record<NonNullable<IconChipProps["size"]>, { container: string; i
 };
 
 const variantMap: Record<NonNullable<IconChipProps["variant"]>, string> = {
- default: "bg-slate-100 text-slate-700",
+ default: "bg-stone-100 text-stone-700",
  primary: "bg-[#FFEAE4] text-[#C2410C]",
  success: "bg-green-100 text-green-700",
  warning: "bg-amber-100 text-amber-700",

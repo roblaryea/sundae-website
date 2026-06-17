@@ -8,22 +8,16 @@ export const generatedLocalCopy = {
       "description": "QSR, Casual Dining, Fine Dining, Cloud Kitchens und Gastronomiegruppen prägen die Intelligenzschicht, die Restaurants wirklich brauchen - vom Einzelbetrieb bis zum Multi-Brand-Portfolio.",
       "stats": [
         {
-          "value": "12",
-          "label": "Datenbereiche vereinheitlicht"
-        },
-        {
-          "value": "500+",
-          "label": "restaurantspezifische Datenmodelle"
+          "value": "200+",
+          "label": "Integrationen – jedes POS-, Liefer- & Finanzsystem"
         },
         {
           "value": "12",
-          "label": "Analysemodule",
-          "footnoteMarker": "†"
+          "label": "Intelligenz-Module, jedes mit KI-Empfehlungen"
         },
         {
-          "value": "5 Min",
-          "label": "Schicht-Aktualisierung mit Core Pro",
-          "footnoteMarker": "*"
+          "value": "Sekunden",
+          "label": "von der Frage zur quellenbelegten Antwort"
         }
       ],
       "industryEyebrow": "WAS WIR VON BETREIBERN HÖREN",
@@ -45,7 +39,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights verbindet Umsatz, Arbeitskosten, Lebensmittelkosten, Rabatte und Preisgestaltung, damit Teams die Ursache sehen können, während sie noch handlungsfähig ist."
         }
       ],
-      "footnote": "*Die Aktualisierungsfrequenz variiert je nach Core-Stufe. Siehe Preisgestaltung für Details. †Über 30 Analyse-Module auf der Plattform; 12 spezialisierte Module sind im aktuellen Preisbundle enthalten. ‡Brancheneinsichten sind allgemeine Muster der Restaurantbranche, die aus öffentlichen Forschungen und Beratungsfeedback abgeleitet wurden. Benannte Pilotresultate und validierte Kundenergebnisse werden diesen Abschnitt ersetzen, sobald sie verfügbar sind."
+      "footnote": "Brancheneinsichten sind allgemeine Muster der Restaurantbranche aus öffentlicher Forschung und Beratungsfeedback. Benannte Pilotergebnisse und validierte Kundenergebnisse ersetzen diesen Abschnitt, sobald sie verfügbar sind."
     },
     "fr": {
       "eyebrow": "CONSTRUIT AVEC DES OPÉRATEURS",
@@ -53,22 +47,16 @@ export const generatedLocalCopy = {
       "description": "Le QSR, la restauration décontractée, la haute cuisine, les cuisines cloud et les groupes de restauration façonnent la couche d'intelligence dont les restaurants ont vraiment besoin - de l'établissement unique aux portefeuilles multi-marques.",
       "stats": [
         {
-          "value": "12",
-          "label": "domaines de données unifiés"
-        },
-        {
-          "value": "500+",
-          "label": "modèles de données spécifiques aux restaurants"
+          "value": "200+",
+          "label": "intégrations — chaque système POS, livraison & finance"
         },
         {
           "value": "12",
-          "label": "modules d'analyse",
-          "footnoteMarker": "†"
+          "label": "modules d'intelligence, chacun avec recommandations IA"
         },
         {
-          "value": "5-min",
-          "label": "actualisation par service avec Core Pro",
-          "footnoteMarker": "*"
+          "value": "Secondes",
+          "label": "de la question à une réponse sourcée"
         }
       ],
       "industryEyebrow": "CE QUE NOUS ENTENDONS DES OPÉRATEURS",
@@ -90,7 +78,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights relie chiffre d'affaires, main-d'œuvre, coût matière, remises et prix pour que les équipes voient la cause tant qu'on peut encore agir."
         }
       ],
-      "footnote": "*La fréquence de rafraîchissement varie selon le niveau de Core. Voir les tarifs pour plus de détails. †Plus de 30 modules d'analyse sur la plateforme ; 12 modules spécialisés inclus dans le forfait tarifaire actuel. ‡Les observations sectorielles sont des tendances générales de l'industrie de la restauration tirées de recherches publiques et de retours d'experts. Les résultats des pilotes nommés et les résultats validés des clients remplaceront cette section dès qu'ils seront disponibles."
+      "footnote": "Observations sectorielles : motifs généraux de la restauration tirés de recherche publique et de retours conseil. Des résultats pilotes nommés et des résultats clients validés remplaceront cette section dès qu'ils seront disponibles."
     },
     "es": {
       "eyebrow": "CONSTRUIDO CON OPERADORES",
@@ -98,22 +86,16 @@ export const generatedLocalCopy = {
       "description": "Los QSR, los restaurantes informales, la alta cocina, las cocinas cloud y los grupos de hostelería dan forma a la capa de inteligencia que los restaurantes realmente necesitan, desde operadores de un solo local hasta carteras de múltiples marcas.",
       "stats": [
         {
-          "value": "12",
-          "label": "dominios de datos unificados"
-        },
-        {
-          "value": "500+",
-          "label": "modelos de datos específicos para restaurantes"
+          "value": "200+",
+          "label": "integraciones — cada sistema POS, delivery y finanzas"
         },
         {
           "value": "12",
-          "label": "módulos de análisis",
-          "footnoteMarker": "†"
+          "label": "módulos de inteligencia, cada uno con recomendaciones IA"
         },
         {
-          "value": "5-min",
-          "label": "actualización de turno en Core Pro",
-          "footnoteMarker": "*"
+          "value": "Segundos",
+          "label": "de la pregunta a una respuesta con fuente"
         }
       ],
       "industryEyebrow": "LO QUE ESCUCHAMOS DE LOS OPERADORES",
@@ -135,7 +117,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights conecta ingresos, mano de obra, coste de alimentos, descuentos y precios para que los equipos vean la causa mientras todavía se puede actuar."
         }
       ],
-      "footnote": "*La frecuencia de actualización varía según el nivel de Core. Consulta los precios para más detalles. †Más de 30 módulos de análisis en la plataforma; 12 módulos especializados incluidos en el paquete de precios actual. ‡Las observaciones de la industria son patrones generales de la industria restaurantera extraídos de investigaciones públicas y comentarios de asesoría. Los resultados de pilotos nombrados y los resultados validados de clientes reemplazarán esta sección a medida que estén disponibles."
+      "footnote": "Observaciones de industria: patrones generales de la restauración basados en investigación pública y feedback de asesoría. Resultados de pilotos nombrados y resultados de clientes validados reemplazarán esta sección cuando estén disponibles."
     },
     "nl": {
       "eyebrow": "GEBOUWD MET OPERATORS",
@@ -143,22 +125,16 @@ export const generatedLocalCopy = {
       "description": "QSR, casual dining, fine dining, cloudkeukens en horecagroepen geven vorm aan de intelligentielaag die restaurants echt nodig hebben - van zelfstandige zaken tot multi-merkportefeuilles.",
       "stats": [
         {
-          "value": "12",
-          "label": "geünificeerde datadomeinen"
-        },
-        {
-          "value": "500+",
-          "label": "restaurantspecifieke datamodellen"
+          "value": "200+",
+          "label": "integraties – elk POS-, bezorg- & financieel systeem"
         },
         {
           "value": "12",
-          "label": "analysemodules",
-          "footnoteMarker": "†"
+          "label": "intelligentiemodules, elk met AI-aanbevelingen"
         },
         {
-          "value": "5-min",
-          "label": "shiftverversing op Core Pro",
-          "footnoteMarker": "*"
+          "value": "Seconden",
+          "label": "van vraag naar bronvermeld antwoord"
         }
       ],
       "industryEyebrow": "WAT WE VAN OPERATORS HOREN",
@@ -180,7 +156,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights verbindt omzet, arbeid, voedselkosten, kortingen en prijzen, zodat teams de oorzaak kunnen zien terwijl deze nog actiegericht is."
         }
       ],
-      "footnote": "*De verversingsfrequentie varieert per Core-niveau. Zie de prijsinformatie voor details. †Meer dan 30 analysemodules op het platform; 12 gespecialiseerde modules zijn inbegrepen in de huidige prijsbundel. ‡Sectorobservaties zijn algemene patronen uit de restaurantsector, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten zullen deze sectie vervangen zodra ze beschikbaar komen."
+      "footnote": "Brancheobservaties zijn algemene patronen uit de restaurantbranche, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten vervangen dit gedeelte zodra ze beschikbaar zijn."
     },
     "pt": {
       "eyebrow": "CONSTRUÍDO COM OPERADORES",
@@ -188,22 +164,16 @@ export const generatedLocalCopy = {
       "description": "QSR, restaurantes informais, alta gastronomia, cozinhas cloud e grupos de hospitalidade moldam a camada de inteligência de que os restaurantes realmente precisam - desde operadores de uma única casa até portfólios de várias marcas.",
       "stats": [
         {
-          "value": "12",
-          "label": "domínios de dados unificados"
-        },
-        {
-          "value": "500+",
-          "label": "modelos de dados específicos para restaurantes"
+          "value": "200+",
+          "label": "integrações – cada sistema POS, delivery e financeiro"
         },
         {
           "value": "12",
-          "label": "módulos de análise",
-          "footnoteMarker": "†"
+          "label": "módulos de inteligência, cada um com recomendações de IA"
         },
         {
-          "value": "5-min",
-          "label": "atualização de turno no Core Pro",
-          "footnoteMarker": "*"
+          "value": "Segundos",
+          "label": "da pergunta à resposta com fonte"
         }
       ],
       "industryEyebrow": "O QUE OUVIMOS DOS OPERADORES",
@@ -225,7 +195,7 @@ export const generatedLocalCopy = {
           "sundae": "O Insights conecta receita, mão de obra, custo de alimentos, descontos e preços para que as equipes possam ver a causa enquanto ainda é acionável."
         }
       ],
-      "footnote": "*A frequência de atualização varia de acordo com o nível do Core. Veja os preços para mais detalhes. †Mais de 30 módulos de análise na plataforma; 12 módulos especializados incluídos no pacote de preços atual. ‡As observações da indústria são padrões gerais do setor de restaurantes extraídos de pesquisas públicas e feedback de consultoria. Resultados de pilotos nomeados e resultados validados de clientes substituirão esta seção à medida que se tornarem disponíveis."
+      "footnote": "Observações do setor são padrões gerais da restauração, com base em pesquisas públicas e feedback consultivo. Resultados de pilotos nomeados e resultados validados de clientes substituirão esta seção assim que estiverem disponíveis."
     },
     "hi": {
       "eyebrow": "ऑपरेटरों के साथ निर्मित",
@@ -233,22 +203,16 @@ export const generatedLocalCopy = {
       "description": "QSR, कैजुअल डाइनिंग, फाइन डाइनिंग, क्लाउड किचन और हॉस्पिटैलिटी समूहों से मिली जानकारी वह बुद्धिमत्ता परत है जिसकी रेस्तरां को वास्तव में आवश्यकता है - एकल-शॉप ऑपरेटर से लेकर मल्टी-ब्रांड पोर्टफोलियो तक।",
       "stats": [
         {
-          "value": "12",
-          "label": "डेटा डोमेन एकीकृत"
-        },
-        {
-          "value": "500+",
-          "label": "रेस्टोरेंट-विशिष्ट डेटा मॉडल"
+          "value": "200+",
+          "label": "इंटीग्रेशन — हर POS, डिलीवरी और फाइनेंस सिस्टम"
         },
         {
           "value": "12",
-          "label": "विश्लेषणात्मक मॉड्यूल",
-          "footnoteMarker": "†"
+          "label": "इंटेलिजेंस मॉड्यूल, हर एक AI सुझावों के साथ"
         },
         {
-          "value": "5-मिनट",
-          "label": "Core Pro पर शिफ्ट रिफ्रेश",
-          "footnoteMarker": "*"
+          "value": "सेकंड",
+          "label": "सवाल से स्रोत-सहित जवाब तक"
         }
       ],
       "industryEyebrow": "हम जो ऑपरेटरों से सुनते हैं",
@@ -270,7 +234,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights राजस्व, श्रम, खाद्य लागत, छूट और मूल्य निर्धारण को जोड़ता है ताकि टीमें कारण देख सकें जब यह अभी भी कार्रवाई योग्य हो।"
         }
       ],
-      "footnote": "*रीफ्रेश आवृत्ति Core स्तर के अनुसार भिन्न होती है। विवरण के लिए मूल्य निर्धारण देखें। †प्लेटफ़ॉर्म पर 30 से अधिक एनालिटिक्स मॉड्यूल; वर्तमान मूल्य निर्धारण बंडल में 12 विशेष मॉड्यूल शामिल हैं। ‡उद्योग अवलोकन सामान्य रेस्तरां-उद्योग पैटर्न हैं जो सार्वजनिक अनुसंधान और सलाहकार फीडबैक से निकाले गए हैं। नामित पायलट परिणाम और मान्यताप्राप्त ग्राहक परिणाम इस अनुभाग को तब प्रतिस्थापित करेंगे जब वे उपलब्ध होंगे।"
+      "footnote": "इंडस्ट्री अवलोकन सार्वजनिक शोध और सलाहकार फीडबैक से लिए गए रेस्टोरेंट इंडस्ट्री के सामान्य पैटर्न हैं। नामित पायलट नतीजे और सत्यापित ग्राहक परिणाम उपलब्ध होते ही इस सेक्शन की जगह लेंगे।"
     },
     "it": {
       "eyebrow": "CREATO CON GLI OPERATORI",
@@ -278,22 +242,16 @@ export const generatedLocalCopy = {
       "description": "QSR, ristorazione informale, alta cucina, cucine cloud e gruppi di ospitalità danno forma al livello di intelligenza di cui i ristoranti hanno davvero bisogno - dal locale singolo ai portafogli multi-brand.",
       "stats": [
         {
-          "value": "12",
-          "label": "domini dati unificati"
-        },
-        {
-          "value": "500+",
-          "label": "modelli di dati specifici per ristoranti"
+          "value": "200+",
+          "label": "integrazioni – ogni sistema POS, delivery e contabilità"
         },
         {
           "value": "12",
-          "label": "moduli di analisi",
-          "footnoteMarker": "†"
+          "label": "moduli di intelligence, ognuno con raccomandazioni IA"
         },
         {
-          "value": "5-min",
-          "label": "aggiornamento del turno su Core Pro",
-          "footnoteMarker": "*"
+          "value": "Secondi",
+          "label": "dalla domanda alla risposta con fonte"
         }
       ],
       "industryEyebrow": "COSA SENTIAMO DAGLI OPERATORI",
@@ -315,7 +273,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights collega ricavi, lavoro, costo del cibo, sconti e prezzi così che i team vedano la causa mentre si può ancora agire."
         }
       ],
-      "footnote": "*La frequenza di aggiornamento varia in base al livello di Core. Vedi i prezzi per i dettagli. †Oltre 30 moduli di analisi sulla piattaforma; 12 moduli specializzati inclusi nel pacchetto di prezzo attuale. ‡Le osservazioni del settore sono modelli generali dell'industria della ristorazione tratti da ricerche pubbliche e feedback di consulenza. I risultati dei progetti pilota nominati e gli esiti dei clienti convalidati sostituiranno questa sezione man mano che saranno disponibili."
+      "footnote": "Le osservazioni di settore sono pattern generali della ristorazione tratti da ricerche pubbliche e feedback di consulenza. Risultati di pilot nominativi e risultati validati dei clienti sostituiranno questa sezione non appena disponibili."
     },
     "ar": {
       "eyebrow": "مبني مع المشغلين",
@@ -323,22 +281,16 @@ export const generatedLocalCopy = {
       "description": "تساعد مطاعم الوجبات السريعة، والمطاعم غير الرسمية، والمطاعم الراقية، والمطابخ السحابية، ومجموعات الضيافة في تشكيل طبقة الذكاء التي تحتاجها المطاعم فعليًا - من مشغلي المتاجر الفردية إلى محافظ العلامات التجارية المتعددة.",
       "stats": [
         {
-          "value": "12",
-          "label": "مجالات البيانات الموحدة"
-        },
-        {
-          "value": "500+",
-          "label": "نماذج بيانات خاصة بالمطاعم"
+          "value": "+200",
+          "label": "تكامل — كل أنظمة POS والتوصيل والمالية"
         },
         {
           "value": "12",
-          "label": "وحدات التحليلات",
-          "footnoteMarker": "†"
+          "label": "وحدة ذكاء، كل منها بتوصيات بالذكاء الاصطناعي"
         },
         {
-          "value": "5 دقائق",
-          "label": "تحديث كل وردية على Core Pro",
-          "footnoteMarker": "*"
+          "value": "ثوانٍ",
+          "label": "من السؤال إلى إجابة موثّقة المصدر"
         }
       ],
       "industryEyebrow": "ماذا نسمع من المشغلين",
@@ -360,7 +312,7 @@ export const generatedLocalCopy = {
           "sundae": "تربط Insights الإيرادات، والعمالة، وتكاليف الطعام، والخصومات، والأسعار حتى تتمكن الفرق من رؤية السبب بينما لا يزال قابلاً للتنفيذ."
         }
       ],
-      "footnote": "*تختلف ترددات التحديث حسب مستوى Core. راجع التسعير للحصول على التفاصيل. †أكثر من 30 وحدة تحليلية عبر المنصة؛ 12 وحدة متخصصة مدرجة في حزمة التسعير الحالية. ‡الملاحظات الصناعية هي أنماط عامة في صناعة المطاعم مستمدة من الأبحاث العامة وتعليقات الاستشاريين. ستستبدل نتائج التجارب المسماة والنتائج المعتمدة من العملاء هذا القسم عند توفرها."
+      "footnote": "ملاحظات الصناعة أنماط عامة لصناعة المطاعم من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها."
     },
     "ur": {
       "eyebrow": "آپریٹرز کے ساتھ بنایا گیا",
@@ -368,22 +320,16 @@ export const generatedLocalCopy = {
       "description": "QSR، غیر رسمی کھانے، عمدہ کھانے، کلاؤڈ کچنز، اور مہمان نوازی کے گروپ وہ ذہانت کی تہہ فراہم کرتے ہیں جس کی ریستورانوں کو واقعی ضرورت ہے - ایک دکان کے آپریٹرز سے لے کر کثیر برانڈ پورٹ فولیوز تک۔",
       "stats": [
         {
-          "value": "12",
-          "label": "ڈیٹا ڈومینز متحد"
-        },
-        {
-          "value": "500+",
-          "label": "ریستوران کے مخصوص ڈیٹا ماڈلز"
+          "value": "+200",
+          "label": "انٹیگریشنز — ہر POS، ڈیلیوری اور فنانس سسٹم"
         },
         {
           "value": "12",
-          "label": "تجزیاتی ماڈیولز",
-          "footnoteMarker": "†"
+          "label": "انٹیلیجنس ماڈیولز، ہر ایک AI سفارشات کے ساتھ"
         },
         {
-          "value": "5 منٹ",
-          "label": "Core Pro پر فی شفٹ ریفریش",
-          "footnoteMarker": "*"
+          "value": "سیکنڈ",
+          "label": "سوال سے باحوالہ جواب تک"
         }
       ],
       "industryEyebrow": "ہمیں آپریٹرز سے کیا سننے کو ملتا ہے",
@@ -405,7 +351,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights آمدنی، مزدوری، خوراک کی قیمت، رعایتیں، اور قیمتوں کو جوڑتا ہے تاکہ ٹیمیں دیکھ سکیں کہ وجہ کیا ہے جب یہ ابھی بھی عمل درآمد کے قابل ہو۔"
         }
       ],
-      "footnote": "*تازہ کاری کی فریکوئنسی Core کی سطح کے لحاظ سے مختلف ہوتی ہے۔ تفصیلات کے لیے قیمتوں کو دیکھیں۔ †پلیٹ فارم پر 30 سے زائد تجزیاتی ماڈیولز؛ موجودہ قیمتوں کے پیکج میں 12 خصوصی ماڈیول شامل ہیں۔ ‡صنعتی مشاہدات عمومی ریستوراں کی صنعت کے پیٹرن ہیں جو عوامی تحقیق اور مشاورتی فیڈبیک سے حاصل کیے گئے ہیں۔ نامزد پائلٹ کے نتائج اور تصدیق شدہ صارف کے نتائج اس سیکشن کی جگہ لیں گے جب وہ دستیاب ہوں گے۔"
+      "footnote": "صنعتی مشاہدات عوامی تحقیق اور مشاورتی فیڈ بیک سے اخذ کردہ ریستوران انڈسٹری کے عمومی نمونے ہیں۔ نامزد پائلٹ نتائج اور تصدیق شدہ کسٹمر نتائج دستیاب ہوتے ہی اس حصے کی جگہ لے لیں گے۔"
     },
     "tr": {
       "eyebrow": "OPERATÖRLERLE İNŞA EDİLDİ",
@@ -413,22 +359,16 @@ export const generatedLocalCopy = {
       "description": "QSR, rahat yemek, fine dining, bulut mutfaklar ve konaklama grupları, restoranların gerçekten ihtiyaç duyduğu zeka katmanını şekillendirir - tek şubeli işletmelerden çok markalı portföylere kadar.",
       "stats": [
         {
-          "value": "12",
-          "label": "veri alanları birleştirildi"
-        },
-        {
-          "value": "500+",
-          "label": "restoran spesifik veri modelleri"
+          "value": "200+",
+          "label": "entegrasyon — her POS, teslimat ve finans sistemi"
         },
         {
           "value": "12",
-          "label": "analitik modüller",
-          "footnoteMarker": "†"
+          "label": "zeka modülü, her biri yapay zekâ önerileriyle"
         },
         {
-          "value": "5-dk",
-          "label": "Core Pro'da vardiya yenileme",
-          "footnoteMarker": "*"
+          "value": "Saniye",
+          "label": "sorudan kaynak gösterilen yanıta"
         }
       ],
       "industryEyebrow": "OPERATÖRLERDEN DUYDUĞUMUZ",
@@ -450,7 +390,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights; geliri, iş gücünü, gıda maliyetini, indirimleri ve fiyatlandırmayı birbirine bağlar; böylece ekipler hâlâ aksiyon alınabilirken nedeni görebilir."
         }
       ],
-      "footnote": "*Yenileme sıklığı Core katmanına göre değişir. Detaylar için fiyatlandırmaya bakın. †Platform genelinde 30'dan fazla analiz modülü; mevcut fiyatlandırma paketine dahil 12 özel modül. ‡Sektör gözlemleri, kamu araştırmaları ve danışmanlık geri bildirimlerinden elde edilen genel restoran endüstrisi kalıplarıdır. İsimlendirilmiş pilot sonuçlar ve doğrulanmış müşteri sonuçları mevcut oldukça bu bölümü değiştirecektir."
+      "footnote": "Sektör gözlemleri, kamuya açık araştırmalar ve danışmanlık geri bildirimlerinden derlenen genel restoran sektörü kalıplarıdır. İsimli pilot sonuçlar ve doğrulanmış müşteri sonuçları, kullanıma sunulduğunda bu bölümün yerini alacaktır."
     },
     "pl": {
       "eyebrow": "TWORZONE Z OPERATORAMI",
@@ -458,22 +398,16 @@ export const generatedLocalCopy = {
       "description": "QSR, casual dining, fine dining, kuchnie w chmurze i grupy gastronomiczne kształtują warstwę inteligencji, której restauracje naprawdę potrzebują - od pojedynczych lokali po portfele wielomarkowe.",
       "stats": [
         {
-          "value": "12",
-          "label": "zunifikowane domeny danych"
-        },
-        {
-          "value": "500+",
-          "label": "specyficzne modele danych dla restauracji"
+          "value": "200+",
+          "label": "integracji — każdy system POS, dostaw i finansów"
         },
         {
           "value": "12",
-          "label": "moduły analityczne",
-          "footnoteMarker": "†"
+          "label": "modułów inteligencji, każdy z rekomendacjami AI"
         },
         {
-          "value": "5-min",
-          "label": "odświeżenie zmiany w Core Pro",
-          "footnoteMarker": "*"
+          "value": "Sekundy",
+          "label": "od pytania do odpowiedzi ze źródłem"
         }
       ],
       "industryEyebrow": "CO SŁYSZYMY OD OPERATORÓW",
@@ -495,7 +429,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights łączy przychody, koszty pracy, koszty żywności, zniżki i ceny, aby zespoły mogły zobaczyć przyczynę, gdy jest jeszcze możliwa do działania."
         }
       ],
-      "footnote": "*Częstotliwość odświeżania różni się w zależności od poziomu Core. Zobacz cennik, aby uzyskać szczegóły. †Ponad 30 modułów analitycznych w całej platformie; 12 specjalistycznych modułów wchodzi w skład bieżącego pakietu cenowego. ‡Obserwacje branżowe to ogólne wzorce w branży restauracyjnej oparte na publicznych badaniach i opiniach doradczych. Wyniki nazwanych pilotaży i zweryfikowane wyniki klientów zastąpią tę sekcję, gdy będą dostępne."
+      "footnote": "Obserwacje branżowe to ogólne wzorce branży restauracyjnej oparte na publicznych badaniach i opiniach doradczych. Nazwane wyniki pilotaży i zweryfikowane wyniki klientów zastąpią tę sekcję, gdy będą dostępne."
     },
     "ja": {
       "eyebrow": "オペレーターによって構築されました",
@@ -503,22 +437,16 @@ export const generatedLocalCopy = {
       "description": "QSR、カジュアルダイニング、ファインダイニング、クラウドキッチン、ホスピタリティグループは、単一店舗のオペレーターからマルチブランドポートフォリオまで、レストランが実際に必要とするインテリジェンスレイヤーを提供します。",
       "stats": [
         {
-          "value": "12",
-          "label": "データドメインの統合"
-        },
-        {
-          "value": "500+",
-          "label": "レストラン特化型データモデル"
+          "value": "200+",
+          "label": "連携 — あらゆるPOS・デリバリー・会計システム"
         },
         {
           "value": "12",
-          "label": "分析モジュール",
-          "footnoteMarker": "†"
+          "label": "インテリジェンスモジュール、各AIレコメンド付き"
         },
         {
-          "value": "5分",
-          "label": "Core Proのシフトリフレッシュ",
-          "footnoteMarker": "*"
+          "value": "数秒",
+          "label": "質問から出典付きの回答まで"
         }
       ],
       "industryEyebrow": "オペレーターからの声",
@@ -540,7 +468,7 @@ export const generatedLocalCopy = {
           "sundae": "Insightsは、収益、労働、食材コスト、割引、価格設定を接続し、チームがまだ行動可能なうちに原因を把握できるようにします。"
         }
       ],
-      "footnote": "*リフレッシュ頻度はCoreティアによって異なります。詳細は価格をご覧ください。†プラットフォーム全体で30以上の分析モジュール；現在の価格バンドルには12の専門モジュールが含まれています。‡業界の観察は、公開された研究とアドバイザリーのフィードバックから得られた一般的なレストラン業界のパターンです。名前付きのパイロット結果と検証済みの顧客成果が利用可能になると、このセクションに置き換わります。"
+      "footnote": "業界の観察は、公開調査とアドバイザリーからのフィードバックに基づく飲食業界の一般的な傾向です。指名されたパイロット結果と検証済みの顧客成果が、利用可能になり次第このセクションを置き換えます。"
     },
     "zh-Hans": {
       "eyebrow": "由运营商构建",
@@ -548,22 +476,16 @@ export const generatedLocalCopy = {
       "description": "快餐、休闲餐饮、高档餐饮、云厨房和餐饮集团共同塑造了餐厅真正需要的智能层——从单店经营者到多品牌集团。",
       "stats": [
         {
-          "value": "12",
-          "label": "数据领域统一"
-        },
-        {
-          "value": "500+",
-          "label": "餐厅特定数据模型"
+          "value": "200+",
+          "label": "集成：覆盖每个 POS、外卖和财务系统"
         },
         {
           "value": "12",
-          "label": "分析模块",
-          "footnoteMarker": "†"
+          "label": "智能模块，每个都带 AI 建议"
         },
         {
-          "value": "5分钟",
-          "label": "Core Pro 刷新班次",
-          "footnoteMarker": "*"
+          "value": "数秒",
+          "label": "从提问到带来源的答案"
         }
       ],
       "industryEyebrow": "我们从运营商那里听到的",
@@ -585,7 +507,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights 连接收入、劳动力、食品成本、折扣和定价，以便团队在仍然可以采取行动时看到原因。"
         }
       ],
-      "footnote": "*刷新频率因Core等级而异。有关详细信息，请参阅定价。†平台上有30多个分析模块；当前定价套餐中包含12个专业模块。‡行业观察是基于公开研究和咨询反馈得出的餐饮行业一般模式。命名的试点结果和验证的客户成果将在可用时替换此部分。"
+      "footnote": "行业观察是基于公开研究与顾问反馈的餐饮行业通用模式。具名的试点结果与经验证的客户成果将在可用时取代本节内容。"
     },
     "id": {
       "eyebrow": "DIBANGUN DENGAN OPERATOR",
@@ -593,22 +515,16 @@ export const generatedLocalCopy = {
       "description": "QSR, santapan kasual, santapan mewah, dapur awan, dan grup perhotelan membentuk lapisan intelijen yang sungguh-sungguh dibutuhkan restoran - dari operator satu gerai hingga portofolio multi-merek.",
       "stats": [
         {
-          "value": "12",
-          "label": "domain data yang terintegrasi"
-        },
-        {
-          "value": "500+",
-          "label": "model data khusus restoran"
+          "value": "200+",
+          "label": "integrasi — setiap sistem POS, pengiriman & keuangan"
         },
         {
           "value": "12",
-          "label": "modul analitik",
-          "footnoteMarker": "†"
+          "label": "modul inteligensi, masing-masing dengan rekomendasi AI"
         },
         {
-          "value": "5-menit",
-          "label": "pembaruan shift di Core Pro",
-          "footnoteMarker": "*"
+          "value": "Detik",
+          "label": "dari pertanyaan ke jawaban bersumber"
         }
       ],
       "industryEyebrow": "APA YANG KAMI DENGAR DARI OPERATOR",
@@ -630,7 +546,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights menghubungkan pendapatan, tenaga kerja, biaya makanan, diskon, dan harga sehingga tim dapat melihat penyebabnya saat masih dapat ditindaklanjuti."
         }
       ],
-      "footnote": "*Frekuensi penyegaran bervariasi berdasarkan tingkat Core. Lihat harga untuk detailnya. †Lebih dari 30 modul analitik di seluruh platform; 12 modul khusus termasuk dalam paket harga saat ini. ‡Observasi industri adalah pola umum industri restoran yang diambil dari penelitian publik dan umpan balik penasihat. Hasil pilot yang dinamai dan hasil pelanggan yang divalidasi akan menggantikan bagian ini saat tersedia."
+      "footnote": "Observasi industri adalah pola umum industri restoran yang diambil dari riset publik dan masukan konsultatif. Hasil pilot bernama dan hasil pelanggan tervalidasi akan menggantikan bagian ini begitu tersedia."
     },
     "ko": {
       "eyebrow": "운영자와 함께 구축됨",
@@ -638,22 +554,16 @@ export const generatedLocalCopy = {
       "description": "QSR, 캐주얼 다이닝, 파인 다이닝, 클라우드 키친, 그리고 호스피탈리티 그룹이 단일 매장 운영자부터 멀티 브랜드 포트폴리오까지 레스토랑이 실제로 필요로 하는 인텔리전스 레이어를 만들어 갑니다.",
       "stats": [
         {
-          "value": "12",
-          "label": "통합된 데이터 도메인"
-        },
-        {
-          "value": "500+",
-          "label": "레스토랑 전용 데이터 모델"
+          "value": "200+",
+          "label": "개 연동 — 모든 POS·배달·재무 시스템"
         },
         {
           "value": "12",
-          "label": "분석 모듈",
-          "footnoteMarker": "†"
+          "label": "개 인텔리전스 모듈, 각각 AI 추천 제공"
         },
         {
-          "value": "5분",
-          "label": "Core Pro의 교대 새로 고침",
-          "footnoteMarker": "*"
+          "value": "초 단위",
+          "label": "질문에서 출처 있는 답변까지"
         }
       ],
       "industryEyebrow": "운영자들이 전하는 이야기",
@@ -675,7 +585,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights는 수익, 노동, 식품 비용, 할인 및 가격을 연결하여 팀이 여전히 조치 가능한 상태에서 원인을 볼 수 있도록 합니다."
         }
       ],
-      "footnote": "*새로 고침 빈도는 Core 등급에 따라 다릅니다. 자세한 내용은 가격을 참조하세요. †플랫폼 전반에 걸쳐 30개 이상의 분석 모듈; 현재 가격 번들에 포함된 12개의 전문 모듈. ‡산업 관찰은 공개 연구 및 자문 피드백에서 도출된 일반적인 레스토랑 산업 패턴입니다. 이름이 붙은 파일럿 결과 및 검증된 고객 결과가 제공되면 이 섹션을 대체합니다."
+      "footnote": "업계 관찰은 공개 조사와 자문 피드백에서 도출한 외식업계의 일반적 패턴입니다. 지명된 파일럿 결과와 검증된 고객 성과가 제공되는 즉시 이 섹션을 대체합니다."
     },
     "vi": {
       "eyebrow": "XÂY DỰNG BỞI CÁC NHÀ VẬN HÀNH",
@@ -683,22 +593,16 @@ export const generatedLocalCopy = {
       "description": "QSR, ẩm thực bình dân, ẩm thực cao cấp, bếp đám mây và các nhóm khách sạn cung cấp thông tin cho lớp trí tuệ mà các nhà hàng thực sự cần - từ các nhà điều hành cửa hàng đơn lẻ đến các danh mục đa thương hiệu.",
       "stats": [
         {
-          "value": "12",
-          "label": "miền dữ liệu thống nhất"
-        },
-        {
-          "value": "500+",
-          "label": "mô hình dữ liệu cụ thể cho nhà hàng"
+          "value": "200+",
+          "label": "tích hợp — mọi hệ thống POS, giao hàng & tài chính"
         },
         {
           "value": "12",
-          "label": "mô-đun phân tích",
-          "footnoteMarker": "†"
+          "label": "mô-đun trí tuệ, mỗi mô-đun kèm gợi ý AI"
         },
         {
-          "value": "5-phút",
-          "label": "làm mới ca trên Core Pro",
-          "footnoteMarker": "*"
+          "value": "Vài giây",
+          "label": "từ câu hỏi đến câu trả lời có nguồn"
         }
       ],
       "industryEyebrow": "NHỮNG GÌ CHÚNG TÔI NGHE TỪ CÁC NHÀ VẬN HÀNH",
@@ -720,7 +624,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights kết nối doanh thu, lao động, chi phí thực phẩm, giảm giá và giá cả để các nhóm có thể thấy nguyên nhân khi nó vẫn còn có thể hành động."
         }
       ],
-      "footnote": "*Tần suất làm mới thay đổi theo cấp độ Core. Xem giá để biết chi tiết. †Hơn 30 mô-đun phân tích trên toàn nền tảng; 12 mô-đun chuyên biệt được bao gồm trong gói giá hiện tại. ‡Những quan sát trong ngành là các mẫu chung của ngành nhà hàng được rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm đã đặt tên và kết quả khách hàng đã xác thực sẽ thay thế phần này khi có sẵn."
+      "footnote": "Quan sát ngành là các mô hình chung của ngành nhà hàng, rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm có tên và kết quả khách hàng đã xác thực sẽ thay thế phần này ngay khi có."
     },
     "ro": {
       "eyebrow": "CONSTRUIT CU OPERATORI",
@@ -728,22 +632,16 @@ export const generatedLocalCopy = {
       "description": "QSR, dining casual, dining rafinat, bucătării cloud și grupuri de ospitalitate informează stratul de inteligență de care au nevoie restaurantele - de la operatori unici la portofolii multi-brand.",
       "stats": [
         {
-          "value": "12",
-          "label": "domenii de date unificate"
-        },
-        {
-          "value": "500+",
-          "label": "modele de date specifice restaurantelor"
+          "value": "200+",
+          "label": "integrări — fiecare sistem POS, livrare & financiar"
         },
         {
           "value": "12",
-          "label": "module de analiză",
-          "footnoteMarker": "†"
+          "label": "module de inteligență, fiecare cu recomandări AI"
         },
         {
-          "value": "5-min",
-          "label": "actualizare per tură pe Core Pro",
-          "footnoteMarker": "*"
+          "value": "Secunde",
+          "label": "de la întrebare la un răspuns cu sursă"
         }
       ],
       "industryEyebrow": "CE AUZIM DE LA OPERATORI",
@@ -765,7 +663,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights conectează veniturile, forța de muncă, costul alimentelor, reducerile și prețurile, astfel încât echipele să poată vedea cauza în timp ce este încă acționabilă."
         }
       ],
-      "footnote": "*Frecvența de actualizare variază în funcție de nivelul Core. Consultați prețurile pentru detalii. †Peste 30 de module de analiză pe întreaga platformă; 12 module specializate incluse în pachetul de prețuri actual. ‡Observațiile din industrie sunt modele generale din industria restaurantelor extrase din cercetări publice și feedback de consultanță. Rezultatele pilot numite și rezultatele validate ale clienților vor înlocui această secțiune pe măsură ce devin disponibile."
+      "footnote": "Observațiile din industrie sunt tipare generale ale industriei restaurantelor, extrase din cercetări publice și feedback de consultanță. Rezultatele piloților nominalizați și rezultatele validate ale clienților vor înlocui această secțiune de îndată ce devin disponibile."
     },
     "sv": {
       "eyebrow": "BYGGD MED OPERATÖRER",
@@ -773,22 +671,16 @@ export const generatedLocalCopy = {
       "description": "QSR, casual dining, fine dining, molnkök och restauranggrupper formar det intelligenslager som restauranger verkligen behöver - från enskilda krögare till portföljer med flera varumärken.",
       "stats": [
         {
-          "value": "12",
-          "label": "dataområden enade"
-        },
-        {
-          "value": "500+",
-          "label": "restaurangspecifika datamodeller"
+          "value": "200+",
+          "label": "integrationer — varje POS-, leverans- & ekonomisystem"
         },
         {
           "value": "12",
-          "label": "analysmoduler",
-          "footnoteMarker": "†"
+          "label": "intelligensmoduler, var och en med AI-rekommendationer"
         },
         {
-          "value": "5-min",
-          "label": "skiftuppdatering på Core Pro",
-          "footnoteMarker": "*"
+          "value": "Sekunder",
+          "label": "från fråga till källhänvisat svar"
         }
       ],
       "industryEyebrow": "VAD VI HÖR FRÅN OPERATÖRER",
@@ -810,7 +702,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights kopplar samman intäkter, arbetskraft, matkostnader, rabatter och prissättning så att team kan se orsaken medan den fortfarande är handlingsbar."
         }
       ],
-      "footnote": "*Uppdateringsfrekvensen varierar beroende på Core-nivå. Se prissättning för detaljer. †Över 30 analysmoduler på plattformen; 12 specialiserade moduler ingår i det aktuella prispaketet. ‡Branschobservationer är allmänna mönster inom restaurangbranschen baserade på offentlig forskning och rådgivande feedback. Namngivna pilotresultat och validerade kundresultat kommer att ersätta denna sektion när de blir tillgängliga."
+      "footnote": "Branschobservationer är generella mönster i restaurangbranschen hämtade från offentlig forskning och rådgivande feedback. Namngivna pilotresultat och validerade kundresultat ersätter detta avsnitt så snart de finns tillgängliga."
     },
     "bn": {
       "eyebrow": "অপারেটরদের দ্বারা নির্মিত",
@@ -818,22 +710,16 @@ export const generatedLocalCopy = {
       "description": "QSR, ক্যাজুয়াল ডাইনিং, ফাইন ডাইনিং, ক্লাউড কিচেন এবং হসপিটালিটি গ্রুপগুলি সেই বুদ্ধিমত্তা স্তরকে জানায় যা রেস্তোরাঁগুলোর আসলে প্রয়োজন - একক দোকানের অপারেটর থেকে শুরু করে বহু ব্র্যান্ডের পোর্টফোলিও পর্যন্ত।",
       "stats": [
         {
-          "value": "১২",
-          "label": "ডেটা ডোমেইন একত্রিত"
+          "value": "200+",
+          "label": "ইন্টিগ্রেশন — প্রতিটি POS, ডেলিভারি ও ফিনান্স সিস্টেম"
         },
         {
-          "value": "৫০০+",
-          "label": "রেস্তোরাঁ-নির্দিষ্ট ডেটা মডেল"
+          "value": "12",
+          "label": "ইন্টেলিজেন্স মডিউল, প্রতিটিতে AI সুপারিশ"
         },
         {
-          "value": "১২",
-          "label": "বিশ্লেষণ মডিউল",
-          "footnoteMarker": "†"
-        },
-        {
-          "value": "৫-মিনিট",
-          "label": "Core Pro-এ শিফট রিফ্রেশ",
-          "footnoteMarker": "*"
+          "value": "সেকেন্ড",
+          "label": "প্রশ্ন থেকে সূত্রসহ উত্তর পর্যন্ত"
         }
       ],
       "industryEyebrow": "আমরা অপারেটরদের কাছ থেকে যা শুনি",
@@ -855,7 +741,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights রাজস্ব, শ্রম, খাদ্য খরচ, ডিসকাউন্ট এবং মূল্য নির্ধারণকে সংযুক্ত করে যাতে টিমগুলো কারণটি দেখতে পারে যখন এটি এখনও কার্যকর।"
         }
       ],
-      "footnote": "*রিফ্রেশ ফ্রিকোয়েন্সি Core স্তরের দ্বারা পরিবর্তিত হয়। বিস্তারিত জানার জন্য মূল্য নির্ধারণ দেখুন। †প্ল্যাটফর্ম জুড়ে ৩০টির বেশি বিশ্লেষণ মডিউল; বর্তমান মূল্য প্যাকেজে ১২টি বিশেষায়িত মডিউল অন্তর্ভুক্ত। ‡শিল্প পর্যবেক্ষণ সাধারণ রেস্তোরাঁ শিল্পের প্যাটার্ন যা পাবলিক গবেষণা এবং পরামর্শমূলক প্রতিক্রিয়া থেকে নেওয়া হয়েছে। নামকৃত পাইলট ফলাফল এবং যাচাইকৃত গ্রাহক ফলাফলগুলি উপলব্ধ হলে এই বিভাগটি প্রতিস্থাপন করবে।"
+      "footnote": "ইন্ডাস্ট্রি পর্যবেক্ষণ হলো সর্বজনীন গবেষণা ও পরামর্শমূলক ফিডব্যাক থেকে নেওয়া রেস্তোরাঁ শিল্পের সাধারণ প্যাটার্ন। নামসহ পাইলট ফলাফল ও যাচাইকৃত গ্রাহক ফলাফল উপলব্ধ হওয়ামাত্র এই অংশটির স্থান নেবে।"
     },
     "th": {
       "eyebrow": "สร้างขึ้นโดยผู้ดำเนินการ",
@@ -863,22 +749,16 @@ export const generatedLocalCopy = {
       "description": "QSR, ร้านอาหารสบายๆ, ร้านอาหารหรู, ครัวคลาวด์, และกลุ่มการบริการให้ข้อมูลชั้นเชิงที่ร้านอาหารต้องการจริงๆ - ตั้งแต่ผู้ประกอบการร้านเดียวไปจนถึงพอร์ตโฟลิโอหลายแบรนด์.",
       "stats": [
         {
-          "value": "12",
-          "label": "โดเมนข้อมูลที่รวมกัน"
-        },
-        {
-          "value": "500+",
-          "label": "โมเดลข้อมูลเฉพาะร้านอาหาร"
+          "value": "200+",
+          "label": "การเชื่อมต่อ — ทุกระบบ POS, เดลิเวอรี และการเงิน"
         },
         {
           "value": "12",
-          "label": "โมดูลการวิเคราะห์",
-          "footnoteMarker": "†"
+          "label": "โมดูลอัจฉริยะ แต่ละโมดูลพร้อมคำแนะนำ AI"
         },
         {
-          "value": "5 นาที",
-          "label": "รีเฟรชทุกกะบน Core Pro",
-          "footnoteMarker": "*"
+          "value": "วินาที",
+          "label": "จากคำถามสู่คำตอบที่อ้างอิงแหล่งที่มา"
         }
       ],
       "industryEyebrow": "สิ่งที่เราฟังจากผู้ดำเนินการ",
@@ -900,7 +780,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights เชื่อมโยงรายได้ แรงงาน ต้นทุนอาหาร ส่วนลด และการตั้งราคา เพื่อให้ทีมสามารถเห็นสาเหตุในขณะที่ยังสามารถดำเนินการได้."
         }
       ],
-      "footnote": "*ความถี่ในการรีเฟรชจะแตกต่างกันไปตามระดับ Core ดูรายละเอียดราคาได้ที่นี่ †โมดูลการวิเคราะห์กว่า 30 โมดูลทั่วทั้งแพลตฟอร์ม; โมดูลเฉพาะทาง 12 โมดูลรวมอยู่ในแพ็คเกจราคาปัจจุบัน ‡การสังเกตอุตสาหกรรมเป็นรูปแบบทั่วไปในอุตสาหกรรมร้านอาหารที่ได้มาจากการวิจัยสาธารณะและข้อเสนอแนะแบบที่ปรึกษา ผลลัพธ์จากการทดลองที่ตั้งชื่อและผลลัพธ์ที่ได้รับการตรวจสอบจากลูกค้าจะมาแทนที่ส่วนนี้เมื่อมีให้บริการ."
+      "footnote": "ข้อสังเกตของอุตสาหกรรมเป็นรูปแบบทั่วไปของอุตสาหกรรมร้านอาหาร ซึ่งได้จากงานวิจัยสาธารณะและความเห็นที่ปรึกษา ผลลัพธ์นำร่องที่ระบุชื่อและผลลัพธ์ลูกค้าที่ผ่านการตรวจสอบจะมาแทนที่ส่วนนี้ทันทีที่พร้อมใช้งาน"
     },
     "ms": {
       "eyebrow": "DIBINA BERSAMA PENGENDALI",
@@ -908,22 +788,16 @@ export const generatedLocalCopy = {
       "description": "QSR, makan santai, makan mewah, dapur awan, dan kumpulan hospitaliti membentuk lapisan kecerdasan yang sememangnya diperlukan restoran - daripada pengendali satu gerai hingga portfolio pelbagai jenama.",
       "stats": [
         {
-          "value": "12",
-          "label": "domain data disatukan"
-        },
-        {
-          "value": "500+",
-          "label": "model data khusus restoran"
+          "value": "200+",
+          "label": "integrasi — setiap sistem POS, penghantaran & kewangan"
         },
         {
           "value": "12",
-          "label": "modul analitik",
-          "footnoteMarker": "†"
+          "label": "modul kecerdasan, setiap satu dengan cadangan AI"
         },
         {
-          "value": "5-min",
-          "label": "penyegaran setiap syif di Core Pro",
-          "footnoteMarker": "*"
+          "value": "Saat",
+          "label": "daripada soalan ke jawapan bersumber"
         }
       ],
       "industryEyebrow": "APA YANG KAMI DENGAR DARIPADA PENGENDALI",
@@ -945,7 +819,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights menghubungkan hasil, buruh, kos makanan, diskaun, dan penetapan harga supaya pasukan dapat melihat punca semasa ia masih boleh diambil tindakan."
         }
       ],
-      "footnote": "*Kekerapan penyegaran berbeza mengikut tahap Core. Lihat harga untuk butiran. †Lebih daripada 30 modul analitik di seluruh platform; 12 modul khusus termasuk dalam pakej harga semasa. ‡Pemerhatian industri adalah corak umum industri restoran yang diambil dari penyelidikan awam dan maklum balas penasihat. Hasil percubaan yang dinamakan dan hasil pelanggan yang disahkan akan menggantikan bahagian ini apabila ia tersedia."
+      "footnote": "Pemerhatian industri ialah corak umum industri restoran yang diambil daripada penyelidikan awam dan maklum balas perundingan. Keputusan perintis bernama dan hasil pelanggan yang disahkan akan menggantikan bahagian ini sebaik sahaja tersedia."
     }
   }
 } as const

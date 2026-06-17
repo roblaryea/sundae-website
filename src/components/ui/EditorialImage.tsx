@@ -59,6 +59,33 @@ interface EditorialImageProps {
  * Theme behaviour matches <ThemedShot>: swaps are pure CSS off `html.light`, so
  * dark and light each keep their own first-class look with no flash and no JS race.
  */
+/**
+ * Scroll-linked parallax wrapper. Isolated into its own component so the
+ * `useScroll` hook only ever mounts for images that actually opt into parallax
+ * (`parallax`), never for the many static editorial images — which keeps
+ * framer's scroll-offset tracking (and its console warning) scoped to the few
+ * places that need it.
+ */
+function ParallaxPhoto({
+  targetRef,
+  children,
+}: {
+  targetRef: React.RefObject<HTMLElement | null>;
+  children: React.ReactNode;
+}) {
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+    offset: ['start end', 'end start'],
+  });
+  // Photo drifts slightly against the scroll for a subtle cinematic parallax.
+  const y = useTransform(scrollYProgress, [0, 1], ['-7%', '7%']);
+  return (
+    <motion.div className="absolute inset-x-0 -top-[9%] h-[118%]" style={{ y }}>
+      {children}
+    </motion.div>
+  );
+}
+
 export function EditorialImage({
   src,
   light,
@@ -77,12 +104,6 @@ export function EditorialImage({
 }: EditorialImageProps) {
   const figureRef = useRef<HTMLElement>(null);
   const reduce = useReducedMotion();
-  const { scrollYProgress } = useScroll({
-    target: figureRef,
-    offset: ['start end', 'end start'],
-  });
-  // Photo drifts slightly against the scroll for a subtle cinematic parallax.
-  const y = useTransform(scrollYProgress, [0, 1], ['-7%', '7%']);
   const useParallax = parallax && !reduce;
 
   const photography = (
@@ -123,9 +144,7 @@ export function EditorialImage({
       {/* Photography ---------------------------------------------------- */}
       {useParallax ? (
         // Oversized + overflowing so the scroll-driven drift never reveals an edge.
-        <motion.div className="absolute inset-x-0 -top-[9%] h-[118%]" style={{ y }}>
-          {photography}
-        </motion.div>
+        <ParallaxPhoto targetRef={figureRef}>{photography}</ParallaxPhoto>
       ) : (
         photography
       )}

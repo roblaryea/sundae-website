@@ -581,7 +581,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core wird alle 2-4 Stunden aktualisiert, damit Sie während der Schicht handeln können - nicht erst, nachdem der Schaden angerichtet wurde.",
         "primary": "Core-Tarife erkunden",
-        "secondary": "Demo buchen"
+        "secondary": "Demo buchen",
+        "title": "Echtzeit-Betrieb. Keine Tagesabschlussberichte."
       },
       "realTime": {
         "heading": "Die Echtzeit-Intelligenzschicht",
@@ -868,7 +869,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core ververst elke 2-4 uur, zodat je tijdens de shift kunt handelen - niet nadat de schade is aangericht.",
         "primary": "Ontdek Core Tiers",
-        "secondary": "Boek een Demo"
+        "secondary": "Boek een Demo",
+        "title": "Realtime operatie. Geen eindedagrapporten."
       },
       "realTime": {
         "heading": "De Real-Time Informatie Laag",
@@ -1442,7 +1444,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core é atualizado a cada 2-4 horas para que você possa agir durante o turno - e não depois que o dano já foi feito.",
         "primary": "Explore os Níveis do Core",
-        "secondary": "Agende uma Demonstração"
+        "secondary": "Agende uma Demonstração",
+        "title": "Operações em tempo real. Não relatórios de fim de dia."
       },
       "realTime": {
         "heading": "A Camada de Inteligência em Tempo Real",
@@ -1729,7 +1732,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core si aggiorna ogni 2-4 ore così puoi agire durante il turno - non dopo che il danno è fatto.",
         "primary": "Esplora i livelli di Core",
-        "secondary": "Prenota una demo"
+        "secondary": "Prenota una demo",
+        "title": "Operazioni in tempo reale. Non report di fine giornata."
       },
       "realTime": {
         "heading": "Il Livello di Intelligenza in Tempo Reale",
@@ -2016,7 +2020,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core हर 2-4 घंटे में अपडेट होता है ताकि आप शिफ्ट के दौरान कार्रवाई कर सकें - नुकसान होने के बाद नहीं।",
         "primary": "Core स्तरों का अन्वेषण करें",
-        "secondary": "डेमो बुक करें"
+        "secondary": "डेमो बुक करें",
+        "title": "रियल-टाइम ऑपरेशन। दिन के अंत की रिपोर्ट नहीं।"
       },
       "realTime": {
         "heading": "वास्तविक समय की बुद्धिमत्ता परत",
@@ -2303,7 +2308,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core ہر 2-4 گھنٹے میں تازہ ہوتا ہے تاکہ آپ شفٹ کے دوران عمل کر سکیں - نقصان کے بعد نہیں۔",
         "primary": "Core سطحوں کا جائزہ لیں",
-        "secondary": "ڈیمو بک کریں"
+        "secondary": "ڈیمو بک کریں",
+        "title": "ریئل ٹائم آپریشن۔ دن کے اختتام کی رپورٹیں نہیں۔"
       },
       "realTime": {
         "heading": "حقیقی وقت کی ذہانت کی پرت",
@@ -2590,7 +2596,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core odświeża się co 2-4 godziny, abyś mógł działać w trakcie zmiany - a nie po wyrządzeniu szkód.",
         "primary": "Poznaj poziomy Core",
-        "secondary": "Umów się na demo"
+        "secondary": "Umów się na demo",
+        "title": "Operacje w czasie rzeczywistym. Nie raporty na koniec dnia."
       },
       "realTime": {
         "heading": "Warstwa Inteligencji w Czasie Rzeczywistym",
@@ -2877,7 +2884,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, vardiya sırasında harekete geçebilmeniz için her 2-4 saatte bir yenilenir - hasar verildikten sonra değil.",
         "primary": "Core Katmanlarını Keşfedin",
-        "secondary": "Demo Rezervasyonu Yap"
+        "secondary": "Demo Rezervasyonu Yap",
+        "title": "Gerçek zamanlı operasyon. Gün sonu raporları değil."
       },
       "realTime": {
         "heading": "Gerçek Zamanlı Zeka Katmanı",
@@ -3164,7 +3172,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "连接到您的POS、劳动力、库存和所有重要系统。Core每2-4小时刷新一次，让您在班次期间采取行动，而不是在损害发生后再处理。",
         "primary": "探索Core层级",
-        "secondary": "预约演示"
+        "secondary": "预约演示",
+        "title": "实时运营，而非日终报表。"
       },
       "realTime": {
         "heading": "实时智能层",
@@ -3451,7 +3460,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続されています。Coreは2〜4時間ごとに更新されるため、被害が出た後ではなく、シフト中に行動できます。",
         "primary": "Coreティアを探る",
-        "secondary": "デモを予約"
+        "secondary": "デモを予約",
+        "title": "リアルタイムの運営。日次レポートではなく。"
       },
       "realTime": {
         "heading": "リアルタイムインテリジェンスレイヤー",
@@ -3738,7 +3748,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 2-4시간마다 새로 고쳐져서 피해가 발생한 후가 아닌 근무 중에 조치를 취할 수 있습니다.",
         "primary": "Core 티어 탐색",
-        "secondary": "데모 예약"
+        "secondary": "데모 예약",
+        "title": "실시간 운영. 마감 보고서가 아닙니다."
       },
       "realTime": {
         "heading": "실시간 인텔리전스 레이어",
@@ -4025,7 +4036,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core diperbarui setiap 2-4 jam sehingga Anda dapat bertindak selama shift - bukan setelah kerusakan terjadi.",
         "primary": "Jelajahi Tingkatan Core",
-        "secondary": "Pesan Demo"
+        "secondary": "Pesan Demo",
+        "title": "Operasi waktu nyata. Bukan laporan akhir hari."
       },
       "realTime": {
         "heading": "Lapisan Intelijen Waktu Nyata",
@@ -4312,7 +4324,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core được làm mới mỗi 2-4 giờ để bạn có thể hành động trong ca làm việc - không phải sau khi thiệt hại đã xảy ra.",
         "primary": "Khám phá các cấp độ Core",
-        "secondary": "Đặt lịch Demo"
+        "secondary": "Đặt lịch Demo",
+        "title": "Vận hành thời gian thực. Không phải báo cáo cuối ngày."
       },
       "realTime": {
         "heading": "Lớp Thông Tin Thời Gian Thực",
@@ -4599,7 +4612,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core se actualizează la fiecare 2-4 ore, astfel încât să poți acționa în timpul schimbului - nu după ce daunele sunt făcute.",
         "primary": "Explorează nivelurile Core",
-        "secondary": "Programează o demonstrație"
+        "secondary": "Programează o demonstrație",
+        "title": "Operațiuni în timp real. Nu rapoarte de final de zi."
       },
       "realTime": {
         "heading": "Stratul de Inteligență în Timp Real",
@@ -4886,7 +4900,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core uppdateras var 2-4 timme så att du kan agera under skiftet - inte efter att skadan är skedd.",
         "primary": "Utforska Core-nivåer",
-        "secondary": "Boka en demo"
+        "secondary": "Boka en demo",
+        "title": "Drift i realtid. Inte dagsavslutsrapporter."
       },
       "realTime": {
         "heading": "Intelligenslag i realtid",
@@ -5173,7 +5188,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core প্রতি ২-৪ ঘণ্টায় রিফ্রেশ হয় যাতে আপনি শিফটের সময় কাজ করতে পারেন - ক্ষতি হওয়ার পরে নয়।",
         "primary": "Core স্তর অন্বেষণ করুন",
-        "secondary": "একটি ডেমো বুক করুন"
+        "secondary": "একটি ডেমো বুক করুন",
+        "title": "রিয়েল-টাইম অপারেশন। দিনশেষের রিপোর্ট নয়।"
       },
       "realTime": {
         "heading": "রিয়েল-টাইম ইন্টেলিজেন্স লেয়ার",
@@ -5460,7 +5476,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core จะรีเฟรชทุก 2-4 ชั่วโมง เพื่อให้คุณสามารถดำเนินการได้ในระหว่างการทำงาน - ไม่ใช่หลังจากที่เกิดความเสียหายแล้ว.",
         "primary": "สำรวจระดับ Core",
-        "secondary": "จองการสาธิต"
+        "secondary": "จองการสาธิต",
+        "title": "การดำเนินงานแบบเรียลไทม์ ไม่ใช่รายงานสิ้นวัน"
       },
       "realTime": {
         "heading": "ชั้นข้อมูลเชิงลึกแบบเรียลไทม์",
@@ -5747,7 +5764,8 @@ export const generatedLocalCopy = {
         "badge": "Sundae Core",
         "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core menyegarkan setiap 2-4 jam supaya anda boleh bertindak semasa waktu kerja - bukan selepas kerosakan berlaku.",
         "primary": "Terokai Tahap Core",
-        "secondary": "Tempah Demo"
+        "secondary": "Tempah Demo",
+        "title": "Operasi masa nyata. Bukan laporan hujung hari."
       },
       "realTime": {
         "heading": "Lapisan Kecerdasan Masa Nyata",

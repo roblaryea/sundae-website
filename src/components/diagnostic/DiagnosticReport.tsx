@@ -34,18 +34,18 @@ interface DiagnosticReportProps {
 
 const layerColor: Record<string, string> = {
   core: "from-violet-500/20 to-violet-600/5 border-violet-500/40",
-  crew: "from-cyan-500/20 to-cyan-600/5 border-cyan-500/40",
+  crew: "from-[#5E9E96]/20 to-[#4A7E78]/5 border-[#5E9E96]/40",
   watchtower: "from-amber-500/20 to-amber-600/5 border-amber-500/40",
   intelligence: "from-pink-500/20 to-pink-600/5 border-pink-500/40",
-  foresight: "from-sky-500/20 to-sky-600/5 border-sky-500/40",
+  foresight: "from-[#FF5C4D]/20 to-[#C7401F]/5 border-[#FF5C4D]/40",
 };
 
 const layerAccent: Record<string, string> = {
   core: "text-violet-300",
-  crew: "text-cyan-300",
+  crew: "text-[#7FB8B0]",
   watchtower: "text-amber-300",
   intelligence: "text-pink-300",
-  foresight: "text-sky-300",
+  foresight: "text-[#FF8473]",
 };
 
 const impactBandStyle: Record<string, string> = {

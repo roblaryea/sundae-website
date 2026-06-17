@@ -6,7 +6,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/Button';
-import Image from 'next/image';
+import { SundaeLogotype } from './ui/SundaeLogotype';
+import { SundaeMark } from './ui/SundaeMark';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
@@ -222,44 +223,36 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo - Left Aligned with Animation */}
-          <Link href={localizeHref('/')} className="flex items-center group">
-            <div className="relative">
-              {/* dark-mode wordmark (white letters) */}
-              <Image
-                src="/logos/sundae-wordmark-white.svg"
-                alt="Sundae - Decision Intelligence for Restaurants"
-                width={160}
-                height={46}
-                className={`block [html.light_&]:hidden transition-all duration-300 ${
-                  isLogoHovered ? 'opacity-85' : 'opacity-100'
-                }`}
-                style={{ height: '46px', width: 'auto' }}
-                onMouseEnter={() => setIsLogoHovered(true)}
-                onMouseLeave={() => setIsLogoHovered(false)}
-                priority
-              />
-              {/* light-mode wordmark (warm ink letters) */}
-              <Image
-                src="/logos/sundae-wordmark.svg"
-                alt="Sundae - Decision Intelligence for Restaurants"
-                width={160}
-                height={46}
-                className={`hidden [html.light_&]:block transition-all duration-300 ${
-                  isLogoHovered ? 'opacity-85' : 'opacity-100'
-                }`}
-                style={{ height: '46px', width: 'auto' }}
-                onMouseEnter={() => setIsLogoHovered(true)}
-                onMouseLeave={() => setIsLogoHovered(false)}
-                priority
-              />
-              {/* Subtle shimmer effect on hover - theme-aware via --shape-tint */}
-              <div
-                style={{ background: 'linear-gradient(to right, transparent, color-mix(in srgb, var(--shape-tint) 20%, transparent), transparent)' }}
-                className={`absolute inset-0 transition-all duration-600 ease-out ${
-                  isLogoHovered ? 'translate-x-full opacity-15' : '-translate-x-full opacity-0'
-                }`}
-              ></div>
-            </div>
+          {/* Inner flex span: `nav a { display:inline-block }` (accessibility.css,
+              unlayered) overrides Tailwind's flex on the anchor itself, so the
+              mark + wordmark lockup must flex on a child element. */}
+          <Link href={localizeHref('/')} className="group" aria-label="Sundae — Decision Intelligence for Restaurants">
+            <span
+              className="flex items-center gap-2.5"
+              onMouseEnter={() => setIsLogoHovered(true)}
+              onMouseLeave={() => setIsLogoHovered(false)}
+            >
+              <SundaeMark size={30} className="flex-shrink-0 transition-transform duration-300 group-hover:-translate-y-px group-hover:scale-[1.06]" />
+              <span className="relative inline-block">
+                {/* Clean Fraunces wordmark — rebrand primary register (theme-aware: white on dark, warm ink on light) */}
+                <span
+                  className={`block select-none text-[27px] font-medium leading-none tracking-[-0.02em] text-[#FBF8F4] [html.light_&]:text-[#2A2320] transition-opacity duration-300 ${
+                    isLogoHovered ? 'opacity-80' : 'opacity-100'
+                  }`}
+                  style={{ fontFamily: 'var(--font-display)' }}
+                >
+                  sundae
+                </span>
+                {/* Subtle shimmer effect on hover - theme-aware via --shape-tint */}
+                <span
+                  aria-hidden
+                  style={{ background: 'linear-gradient(to right, transparent, color-mix(in srgb, var(--shape-tint) 20%, transparent), transparent)' }}
+                  className={`absolute inset-0 transition-all duration-600 ease-out ${
+                    isLogoHovered ? 'translate-x-full opacity-15' : '-translate-x-full opacity-0'
+                  }`}
+                />
+              </span>
+            </span>
           </Link>
 
           {/* Desktop Navigation - tighter spacing (space-x-6) so the right-side
@@ -572,22 +565,10 @@ const Navbar = () => {
         >
           {/* Drawer Header with Close Button */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-[var(--border-default)] flex-shrink-0">
-            <Image
-              src="/logos/sundae-wordmark-white.svg"
-              alt="Sundae"
-              width={130}
-              height={38}
-              className="block [html.light_&]:hidden"
-              style={{ height: '36px', width: 'auto' }}
-            />
-            <Image
-              src="/logos/sundae-wordmark.svg"
-              alt="Sundae"
-              width={130}
-              height={38}
-              className="hidden [html.light_&]:block"
-              style={{ height: '36px', width: 'auto' }}
-            />
+            <span className="flex items-center gap-2.5">
+              <SundaeMark size={28} className="flex-shrink-0" />
+              <SundaeLogotype className="text-[24px] text-[#FBF8F4] [html.light_&]:text-[#2A2320]" />
+            </span>
             <button
               type="button"
               onClick={() => setIsMenuOpen(false)}

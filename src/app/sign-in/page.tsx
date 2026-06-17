@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FormField } from '@/components/auth/FormField';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
-import { useTheme } from '@/components/ui/ThemeProvider';
+import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
 import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { APP_URL, SIGNIN_URL, SIGNUP_URL } from '@/lib/urls';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -63,8 +63,6 @@ export default function SignInPage() {
  const { messages, locale } = useWebsiteI18n();
  const copy = messages.pages.signIn;
  const shellCopy = localizedShellCopy[locale as keyof typeof localizedShellCopy] ?? getGeneratedLocalCopy(localizedShellCopy, generatedLocalCopy.localizedShellCopy, locale) ?? localizedShellCopy.en;
- const { theme } = useTheme();
- const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
  const [email, setEmail] = useState('');
  const [password, setPassword] = useState('');
  const [remember, setRemember] = useState(false);
@@ -146,20 +144,13 @@ async function handleSubmit(e: FormEvent) {
  }}
  />
  {/* Glow accent */}
- <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-slate-700/30 rounded-full blur-[120px]" />
+ <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-stone-700/30 rounded-full blur-[120px]" />
 
  <div className="relative z-10 flex flex-col justify-between p-10 xl:p-12 w-full">
  {/* Logo */}
  <div>
  <Link href="/" aria-label={shellCopy.homeLabel}>
- <Image
- src={logoSrc}
- alt="Sundae"
- width={140}
- height={40}
- style={{ height: '36px', width: 'auto' }}
- priority
- />
+ <SundaeLogotype className="text-[26px] text-[var(--text-primary)]" />
  </Link>
  </div>
 
@@ -206,14 +197,7 @@ async function handleSubmit(e: FormEvent) {
  {/* Mobile header */}
  <div className="lg:hidden flex items-center justify-between px-6 pt-6">
  <Link href="/" aria-label={shellCopy.homeLabel}>
- <Image
- src={logoSrc}
- alt="Sundae"
- width={120}
- height={34}
- style={{ height: '30px', width: 'auto' }}
- priority
- />
+ <SundaeLogotype className="text-[22px] text-[var(--text-primary)]" />
  </Link>
  </div>
 
@@ -317,7 +301,7 @@ async function handleSubmit(e: FormEvent) {
  type="checkbox"
  checked={remember}
  onChange={(e) => setRemember(e.target.checked)}
- className="w-4 h-4 rounded border-white/[0.1] text-[var(--text-primary)] focus:ring-slate-900/30 bg-[var(--navy-deep)]"
+ className="w-4 h-4 rounded border-white/[0.1] text-[var(--text-primary)] focus:ring-stone-900/30 bg-[var(--navy-deep)]"
  />
  <span className="text-sm text-[var(--text-supporting)]">{copy.rememberMe}</span>
  </label>
@@ -333,7 +317,7 @@ async function handleSubmit(e: FormEvent) {
  <button
  type="submit"
  disabled={isLoading}
- className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-[var(--text-primary)] bg-[var(--navy-deep)] shadow-lg shadow-slate-900/25 hover:shadow-xl hover:shadow-slate-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-lg"
+ className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-[var(--text-primary)] bg-[var(--navy-deep)] shadow-lg shadow-stone-900/25 hover:shadow-xl hover:shadow-stone-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-lg"
  >
  {isLoading ? (
  <>
@@ -359,7 +343,7 @@ async function handleSubmit(e: FormEvent) {
  </div>
  <a
  href={SIGNIN_URL}
- className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-[var(--text-primary)] bg-[var(--navy-deep)] shadow-lg shadow-slate-900/25 hover:shadow-xl hover:shadow-slate-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900"
+ className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-[var(--text-primary)] bg-[var(--navy-deep)] shadow-lg shadow-stone-900/25 hover:shadow-xl hover:shadow-stone-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-900"
  >
  {copy.continueToApp}
  </a>

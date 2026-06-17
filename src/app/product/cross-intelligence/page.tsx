@@ -99,7 +99,7 @@ const localizedCrossIntelligenceMockups: Record<'en' | 'ar' | 'fr' | 'es', Cross
       label: "Revenue Attribution Waterfall",
       netRevenueChange: "Net Revenue Change",
       bars: [
-        { label: "Base", h: 60, color: "bg-slate-500" },
+        { label: "Base", h: 60, color: "bg-stone-500" },
         { label: "Promo", h: 25, color: "bg-green-500" },
         { label: "Menu", h: 15, color: "bg-green-400" },
         { label: "Labor", h: -10, color: "bg-red-400" },
@@ -174,7 +174,7 @@ const localizedCrossIntelligenceMockups: Record<'en' | 'ar' | 'fr' | 'es', Cross
       label: "شلال إسناد الإيرادات",
       netRevenueChange: "صافي تغير الإيرادات",
       bars: [
-        { label: "الأساس", h: 60, color: "bg-slate-500" },
+        { label: "الأساس", h: 60, color: "bg-stone-500" },
         { label: "العروض", h: 25, color: "bg-green-500" },
         { label: "القائمة", h: 15, color: "bg-green-400" },
         { label: "العمالة", h: -10, color: "bg-red-400" },
@@ -249,7 +249,7 @@ const localizedCrossIntelligenceMockups: Record<'en' | 'ar' | 'fr' | 'es', Cross
       label: "Waterfall d'attribution revenu",
       netRevenueChange: "Variation nette de revenu",
       bars: [
-        { label: "Base", h: 60, color: "bg-slate-500" },
+        { label: "Base", h: 60, color: "bg-stone-500" },
         { label: "Promo", h: 25, color: "bg-green-500" },
         { label: "Menu", h: 15, color: "bg-green-400" },
         { label: "Main-d'oeuvre", h: -10, color: "bg-red-400" },
@@ -324,7 +324,7 @@ const localizedCrossIntelligenceMockups: Record<'en' | 'ar' | 'fr' | 'es', Cross
       label: "Cascada de atribucion de ingresos",
       netRevenueChange: "Cambio neto de ingresos",
       bars: [
-        { label: "Base", h: 60, color: "bg-slate-500" },
+        { label: "Base", h: 60, color: "bg-stone-500" },
         { label: "Promo", h: 25, color: "bg-green-500" },
         { label: "Menu", h: 15, color: "bg-green-400" },
         { label: "Mano de obra", h: -10, color: "bg-red-400" },
@@ -424,10 +424,10 @@ function CorrelationMatrixMockup({ copy }: { copy: CrossIntelligenceMockupCopy }
   const modules = copy.correlationMatrix.modules;
   const colors = [
     ["bg-purple-500", "bg-red-400", "bg-green-400", "bg-purple-400", "bg-yellow-400"],
-    ["bg-red-400", "bg-purple-500", "bg-orange-400", "bg-blue-300", "bg-slate-400"],
-    ["bg-green-400", "bg-orange-400", "bg-purple-500", "bg-slate-400", "bg-green-300"],
-    ["bg-purple-400", "bg-blue-300", "bg-slate-400", "bg-purple-500", "bg-orange-300"],
-    ["bg-yellow-400", "bg-slate-400", "bg-green-300", "bg-orange-300", "bg-purple-500"],
+    ["bg-red-400", "bg-purple-500", "bg-orange-400", "bg-[#7FB8B0]", "bg-stone-400"],
+    ["bg-green-400", "bg-orange-400", "bg-purple-500", "bg-stone-400", "bg-green-300"],
+    ["bg-purple-400", "bg-[#7FB8B0]", "bg-stone-400", "bg-purple-500", "bg-orange-300"],
+    ["bg-yellow-400", "bg-stone-400", "bg-green-300", "bg-orange-300", "bg-purple-500"],
   ];
   return (
     <MockupFrame label={copy.correlationMatrix.label}>
@@ -712,7 +712,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
         "Custom alert rules for key movements",
       ],
       icon: "search",
-      color: "from-slate-500 to-slate-700",
+      color: "from-stone-500 to-stone-700",
       tier: 'base',
     },
   ],
@@ -786,7 +786,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "عندما يتحرك أي مؤشر بشكل ملحوظ، يحدد المحرك الأسباب الأرجح عبر تحليل كل مصادر البيانات المرتبطة.",
       capabilities: ["كشف الشذوذات تلقائياً", "تحليل سببي متعدد العوامل", "ملخص أسبوعي لأهم التغيرات", "قواعد تنبيه مخصصة"],
       icon: "search",
-      color: "from-slate-500 to-slate-700",
+      color: "from-stone-500 to-stone-700",
       tier: 'base',
     },
   ],
@@ -860,7 +860,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Quand un indicateur bouge fortement, le moteur identifie les causes probables en analysant toutes les sources reliees.",
       capabilities: ["Detection automatique d'anomalies", "Analyse causale multifactorielle", "Digest hebdomadaire des changements majeurs", "Regles d'alerte personnalisees"],
       icon: "search",
-      color: "from-slate-500 to-slate-700",
+      color: "from-stone-500 to-stone-700",
       tier: 'base',
     },
   ],
@@ -934,7 +934,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Cuando una metrica se mueve de forma relevante, el motor identifica las causas mas probables analizando todas las fuentes conectadas.",
       capabilities: ["Deteccion automatica de anomalias", "Analisis causal multifactor", "Resumen semanal de cambios importantes", "Reglas de alerta personalizadas"],
       icon: "search",
-      color: "from-slate-500 to-slate-700",
+      color: "from-stone-500 to-stone-700",
       tier: 'base',
     },
   ],
@@ -1006,7 +1006,7 @@ const localizedTierComparison: Record<'en' | 'ar' | 'fr' | 'es', { feature: stri
 const crossIntelligenceCopy = {
   en: {
     heroBadge: 'Auto-enabled with 3+ modules',
-    heroTitle: <>Cross-Intelligence<br />Correlation Engine</>,
+    heroTitle: 'Cross-Intelligence Correlation Engine',
     heroDescription:
       'Cross-Intelligence shows where your operating signals move together, from marketing to revenue, labor to sales, and inventory to waste.',
     heroSupport:

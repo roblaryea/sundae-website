@@ -961,9 +961,9 @@ function renderSectionBody(section: SectionCopy) {
 function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="pt-28 pb-6 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center">
             <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="owners" size="md" />
               <span>{copy.badge}</span>
@@ -978,7 +978,7 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
+      <section className="pt-4 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg max-w-none">
             <div className="bg-[rgba(255,92,77,0.1)] border-l-4 border-[#FF8473] p-6 mb-8">
@@ -993,7 +993,7 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
                   </svg>
                 </div>
                 <div className="ml-3">
-                  <p className="text-sm text-[#FF8473]">
+                  <p className="text-sm text-[#FF8473] [html.light_&]:text-[#C8392A]">
                     <strong>{copy.noticeTitle}:</strong> {copy.noticeBody}
                   </p>
                 </div>
@@ -1088,9 +1088,9 @@ export default async function PrivacyPage() {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="pt-28 pb-6 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center">
             <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="owners" size="md" />
               <span>Privacy</span>
@@ -1106,7 +1106,7 @@ export default async function PrivacyPage() {
       </section>
 
       {/* Privacy Content */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
+      <section className="pt-4 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg max-w-none">
             <div className="bg-[rgba(255,92,77,0.1)] border-l-4 border-[#FF8473] p-6 mb-8">

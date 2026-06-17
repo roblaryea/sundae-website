@@ -275,7 +275,7 @@ export default function LaborCostCalculator() {
                   onChange={(e) => setLaborCost(e.target.value)}
                   placeholder="e.g., 25000"
                   aria-describedby="laborCost-hint"
-                  className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-600 focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-600 focus:border-transparent"
                   min="0"
                   step="0.01"
                 />
@@ -295,7 +295,7 @@ export default function LaborCostCalculator() {
                   onChange={(e) => setTotalSales(e.target.value)}
                   placeholder="e.g., 100000"
                   aria-describedby="totalSales-hint"
-                  className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-600 focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-600 focus:border-transparent"
                   min="0"
                   step="0.01"
                 />

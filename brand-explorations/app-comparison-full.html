@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sundae app — current vs warm (desktop · mobile · icon)</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#0c0a08;color:#fff;font-family:'General Sans',sans-serif;padding:32px}
+  .wrap{max-width:1660px;margin:0 auto}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:25px;margin:0 0 4px}
+  .lead{color:rgba(255,255,255,.5);font-size:13px;margin:0 0 26px;max-width:90ch}
+  h2{font-family:'Fraunces',serif;font-weight:500;font-size:19px;margin:38px 0 14px;border-top:1px solid rgba(255,255,255,.1);padding-top:26px}
+  .cap{display:flex;align-items:center;gap:9px;margin-bottom:10px;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:600}
+  .cap .dot{width:8px;height:8px;border-radius:50%}
+  .cap.cur{color:#8aa0c8}.cap.cur .dot{background:#1E2FAA}
+  .cap.warm{color:#E9A24A}.cap.warm .dot{background:#FF5C4D}
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  @media(max-width:1380px){.twocol{grid-template-columns:1fr}}
+  .mobrow{display:flex;gap:40px;flex-wrap:wrap;align-items:flex-start}
+
+  /* ===== desktop app shell ===== */
+  .app{border-radius:15px;overflow:hidden;border:1px solid rgba(255,255,255,.1);display:grid;grid-template-columns:206px 1fr;height:660px;background:var(--canvas);color:var(--ink);font-family:var(--ui)}
+  .app *{box-sizing:border-box}
+  .sb{background:var(--sb);border-right:1px solid var(--bd);padding:18px 14px;display:flex;flex-direction:column;gap:3px}
+  .logo{display:flex;align-items:center;gap:8px;padding:4px 6px 20px;height:52px}
+  .nav{font-size:13.5px;color:var(--mut);padding:9px 10px;border-radius:9px;display:flex;align-items:center;gap:10px;font-weight:500}
+  .nav .ic{width:15px;height:15px;border-radius:4px;background:var(--mut);opacity:.45}
+  .nav.active{background:var(--activebg);color:var(--activeink);font-weight:600}
+  .nav.active .ic{background:var(--accent);opacity:1}
+  .tier{margin-top:auto;border:1px solid var(--bd);border-radius:10px;padding:11px;font-size:11px;color:var(--mut)}
+  .tier b{color:var(--ink);display:block;font-size:12.5px;margin-bottom:2px}
+  .main{display:flex;flex-direction:column;overflow:hidden}
+  .top{display:flex;align-items:center;justify-content:space-between;padding:15px 22px;border-bottom:1px solid var(--bd);background:var(--topbar)}
+  .top h2x{all:unset}
+  .ttl{font-family:var(--headfont);font-weight:var(--headwt);font-size:20px;letter-spacing:-.01em;color:var(--ink)}
+  .sub{font-size:11.5px;color:var(--mut);margin-top:1px}
+  .actions{display:flex;gap:9px;align-items:center}
+  .pill{font-size:12px;padding:7px 11px;border-radius:8px;border:1px solid var(--bd);color:var(--mut);background:var(--card)}
+  .btn{font-size:12.5px;font-weight:600;padding:8px 14px;border-radius:8px;background:var(--accent);color:#fff;border:0}
+  .av{width:30px;height:30px;border-radius:50%;background:var(--accent);opacity:.85}
+  .body{padding:18px 22px;overflow:auto}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-bottom:15px}
+  .kpi{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px}
+  .kpi .l{font-size:11.5px;color:var(--mut);font-weight:500}
+  .kpi .v{font-family:var(--numfont);font-size:25px;font-weight:700;margin:6px 0 4px;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+  .kpi .d{font-size:12px;font-weight:600}
+  .up{color:#16A34A}.down{color:#DC2626}
+  .grid2{display:grid;grid-template-columns:1.6fr 1fr;gap:13px;margin-bottom:15px}
+  .panel{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:15px}
+  .panel .pt{font-family:var(--headfont);font-weight:var(--headwt);font-size:14.5px;letter-spacing:-.01em;color:var(--ink)}
+  .panel .ph{font-size:11px;color:var(--mut);margin:1px 0 13px}
+  .cat{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:12.5px}
+  .cat .nm{width:70px;color:var(--ink)}
+  .cat .track{flex:1;height:8px;background:var(--bartrack);border-radius:5px;overflow:hidden}
+  .cat .fill{height:100%;border-radius:5px}
+  .cat .vv{color:var(--mut);font-size:11.5px;width:38px;text-align:right;font-variant-numeric:tabular-nums}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{text-align:left;color:var(--mut);font-weight:500;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;padding:0 0 9px}
+  td{padding:9px 0;border-top:1px solid var(--bd);color:var(--ink);font-variant-numeric:tabular-nums}
+  td.r,th.r{text-align:right}
+  .tag2{font-size:10.5px;padding:2px 7px;border-radius:100px;background:var(--activebg);color:var(--activeink);font-weight:600}
+
+  /* ===== phone ===== */
+  .phone{width:300px;border-radius:40px;background:#000;padding:11px;box-shadow:0 30px 70px -25px rgba(0,0,0,.8)}
+  .screen{border-radius:30px;overflow:hidden;height:620px;background:var(--canvas);color:var(--ink);font-family:var(--ui);position:relative;display:flex;flex-direction:column}
+  .statusbar{height:30px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;font-size:11px;font-weight:600;color:var(--ink);background:var(--topbar)}
+  .mhead{display:flex;align-items:center;justify-content:space-between;padding:6px 18px 12px;background:var(--topbar)}
+  .mbody{padding:14px 16px 0;overflow:auto;flex:1}
+  .mttl{font-family:var(--headfont);font-weight:var(--headwt);font-size:21px;letter-spacing:-.01em}
+  .mkpis{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:14px 0}
+  .mtabs{display:flex;justify-content:space-around;padding:12px 0 20px;border-top:1px solid var(--bd);background:var(--topbar)}
+  .mtab{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:10px;color:var(--mut)}
+  .mtab .mi{width:20px;height:20px;border-radius:6px;background:var(--mut);opacity:.4}
+  .mtab.on{color:var(--accent)}.mtab.on .mi{background:var(--accent);opacity:1}
+
+  /* ===== home screen / icon ===== */
+  .home{width:300px;border-radius:40px;background:#000;padding:11px}
+  .hscreen{border-radius:30px;overflow:hidden;height:620px;background:linear-gradient(160deg,#2a211b,#15110d);position:relative;padding:54px 24px 0}
+  .htime{position:absolute;top:18px;left:0;right:0;text-align:center;color:#fff;font-size:15px;font-weight:600}
+  .iconsgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px 18px}
+  .appicon{display:flex;flex-direction:column;align-items:center;gap:6px}
+  .appicon .ph2{width:54px;height:54px;border-radius:14px;background:rgba(255,255,255,.12)}
+  .appicon .nm{font-size:10px;color:rgba(255,255,255,.85)}
+  .iconsizes{display:flex;gap:18px;align-items:flex-end;margin-top:8px}
+  .iconsizes .c{text-align:center}.iconsizes .s{font-size:10px;color:rgba(255,255,255,.4);margin-top:6px}
+  .tabbar{display:flex;align-items:center;gap:8px;background:#211a14;border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:8px 12px;max-width:300px;margin-top:8px}
+  .tabbar .fv{flex:0 0 auto}.tabbar .tt{font-size:12px;color:#ddd}.tabbar .x{margin-left:auto;color:#888;font-size:13px}
+  .note{font-size:12.5px;color:rgba(255,255,255,.55);line-height:1.6;max-width:60ch;margin-top:10px}
+</style></head><body>
+<div class="wrap">
+  <h1>The Sundae app — current vs warm-neutral</h1>
+  <p class="lead">Same screen, same data, real logos. Current = today’s cool/blue UI with the actual wordmark. Warm = warm-neutral base + coral accent + Fraunces titles + tabular-sans numbers + the proposed wordmark. Data colour stays functional (green up / red down) in both.</p>
+
+  <h2>Desktop</h2>
+  <div class="twocol">
+    <div><div class="cap cur"><span class="dot"></span>Current · real wordmark · blue</div><div class="app" id="dCur"></div></div>
+    <div><div class="cap warm"><span class="dot"></span>Proposed · warm-neutral · coral</div><div class="app" id="dWarm"></div></div>
+  </div>
+
+  <h2>Mobile / PWA</h2>
+  <div class="mobrow">
+    <div><div class="cap cur"><span class="dot"></span>Current</div><div class="phone"><div class="screen" id="mCur"></div></div></div>
+    <div><div class="cap warm"><span class="dot"></span>Proposed</div><div class="phone"><div class="screen" id="mWarm"></div></div></div>
+    <div style="flex:1;min-width:300px">
+      <div class="cap warm"><span class="dot"></span>The dark tile’s real home — the app icon</div>
+      <div class="home"><div class="hscreen">
+        <div class="htime">9:41</div>
+        <div class="iconsgrid" id="homegrid"></div>
+      </div></div>
+    </div>
+    <div style="flex:1;min-width:300px">
+      <div class="cap warm"><span class="dot"></span>Favicon &amp; icon sizes</div>
+      <div class="tabbar"><span class="fv" id="favtab"></span><span class="tt">Sundae · Pulse</span><span class="x">×</span></div>
+      <div class="iconsizes" id="iconsizes"></div>
+      <p class="note">Inside the app we use the <b>wordmark</b> (no dark tile blob). The dark tile is reserved for the <b>app icon &amp; favicon</b>, where it has high contrast on any OS background — that’s what you were reacting to, now placed correctly.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function sTile(px,rad){const r=rad===undefined?46:rad; var sm=px<42;
+  var sPath=sm?"M132,52 C112,46 72,48 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149":"M118,46 C100,41 72,45 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149";
+  var sw=sm?34:32, br=sm?22:16, stemW=sm?7:4.5, stem=sm?"M140,30 C144,22 150,19 156,13":"M140,36 C145,24 153,20 160,12";
+  return `<svg width="${px}" height="${px}" viewBox="0 0 200 200"><defs><clipPath id="tx${px}"><rect width="200" height="200" rx="${r}"/></clipPath><radialGradient id="cx${px}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hx${px}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6C66B"/><stop offset=".17" stop-color="#F6C66B"/><stop offset=".17" stop-color="#E9A24A"/><stop offset=".34" stop-color="#E9A24A"/><stop offset=".34" stop-color="#F7A088"/><stop offset=".52" stop-color="#F7A088"/><stop offset=".52" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#E03E48"/><stop offset=".86" stop-color="#E03E48"/><stop offset=".86" stop-color="#B23A1E"/><stop offset="1" stop-color="#B23A1E"/></linearGradient></defs><g clip-path="url(#tx${px})"><rect width="200" height="200" fill="#1C1712"/><path d="${sPath}" fill="none" stroke="url(#hx${px})" stroke-width="${sw}" stroke-linecap="round"/><path d="${stem}" stroke="#7d1f12" stroke-width="${stemW}" fill="none" stroke-linecap="round"/><circle cx="140" cy="50" r="${br}" fill="url(#cx${px})"/></g></svg>`;}
+function cherryEnd(w){return `<svg width="${w}" viewBox="0 0 40 50" fill="none" style="vertical-align:baseline"><path d="M22 30 C22 18 30 14 36 7" stroke="#B23A1E" stroke-width="3.4" fill="none" stroke-linecap="round"/><circle cx="17" cy="36" r="12" fill="#E03E48"/><ellipse cx="13" cy="31" rx="3.6" ry="2.4" fill="rgba(255,255,255,.5)"/></svg>`;}
+const realWM = (h)=>`<img src="https://www.sundae.io/logos/sundae-wordmark.png" alt="sundae" style="height:${h}px;display:block">`;
+const propWM = (sz)=>`<span style="font-family:'Fraunces',serif;font-weight:500;font-size:${sz}px;letter-spacing:-.03em;color:var(--ink);line-height:1">sundae</span>`;
+
+function deskApp(t){
+  const cats=[['Food','64%'],['Beverage','22%'],['Dessert','9%'],['Retail','5%']];
+  return `<div class="sb"><div class="logo">${t.logo}</div>
+    ${['Pulse','Insights','Watchtower','Benchmark','Crew','Intelligence'].map((n,i)=>`<div class="nav ${i===0?'active':''}"><span class="ic"></span>${n}</div>`).join('')}
+    <div class="tier"><b>Core Pro</b>3 outlets · renews May 14</div></div>
+    <div class="main"><div class="top"><div><div class="ttl">Pulse</div><div class="sub">Today · all outlets · live</div></div>
+      <div class="actions"><span class="pill">Today ▾</span><button class="btn">Export</button><span class="av"></span></div></div>
+      <div class="body">
+        <div class="kpis">
+          <div class="kpi"><div class="l">Net Sales</div><div class="v">$48,210</div><div class="d up">▲ 12.4%</div></div>
+          <div class="kpi"><div class="l">Covers</div><div class="v">1,284</div><div class="d up">▲ 6.0%</div></div>
+          <div class="kpi"><div class="l">Avg Check</div><div class="v">$37.55</div><div class="d down">▼ 2.1%</div></div>
+          <div class="kpi"><div class="l">Labor %</div><div class="v">28.3%</div><div class="d down">▲ 1.2pt</div></div></div>
+        <div class="grid2">
+          <div class="panel"><div class="pt">Net sales · hourly</div><div class="ph">vs. 7-day average</div>${area(t.chartAccent)}</div>
+          <div class="panel"><div class="pt">Sales by category</div><div class="ph">share of net sales</div>
+            ${cats.map((c,i)=>`<div class="cat"><span class="nm">${c[0]}</span><span class="track"><span class="fill" style="width:${c[1]};background:${t.data[i]}"></span></span><span class="vv">${c[1]}</span></div>`).join('')}</div></div>
+        <div class="panel"><div class="pt">Top outlets</div><div class="ph">net sales today</div>
+          <table><thead><tr><th>Outlet</th><th class="r">Net sales</th><th class="r">Covers</th><th class="r">vs avg</th></tr></thead><tbody>
+          <tr><td>Downtown <span class="tag2">live</span></td><td class="r">$21,940</td><td class="r">612</td><td class="r up">+14%</td></tr>
+          <tr><td>Marina</td><td class="r">$16,180</td><td class="r">438</td><td class="r up">+9%</td></tr>
+          <tr><td>Airport</td><td class="r">$10,090</td><td class="r">234</td><td class="r down">−3%</td></tr></tbody></table></div>
+      </div></div>`;}
+
+function mobApp(t){
+  return `<div class="statusbar"><span>9:41</span><span>● ▼ ▢</span></div>
+    <div class="mhead">${t.mlogo}<span class="av" style="width:28px;height:28px"></span></div>
+    <div class="mbody">
+      <div class="mttl">Pulse</div><div class="sub">Today · all outlets · live</div>
+      <div class="mkpis">
+        <div class="kpi"><div class="l">Net Sales</div><div class="v">$48,210</div><div class="d up">▲ 12.4%</div></div>
+        <div class="kpi"><div class="l">Covers</div><div class="v">1,284</div><div class="d up">▲ 6.0%</div></div>
+        <div class="kpi"><div class="l">Avg Check</div><div class="v">$37.55</div><div class="d down">▼ 2.1%</div></div>
+        <div class="kpi"><div class="l">Labor %</div><div class="v">28.3%</div><div class="d down">▲ 1.2pt</div></div></div>
+      <div class="panel"><div class="pt">Net sales · hourly</div><div class="ph">vs 7-day avg</div>${area(t.chartAccent)}</div>
+      <div class="panel" style="margin-top:12px"><div class="pt">Top outlets</div>
+        <table style="margin-top:8px"><tbody>
+        <tr><td>Downtown</td><td class="r">$21,940</td><td class="r up">+14%</td></tr>
+        <tr><td>Marina</td><td class="r">$16,180</td><td class="r up">+9%</td></tr></tbody></table></div>
+      <div style="height:14px"></div>
+    </div>
+    <div class="mtabs">
+      ${['Pulse','Insights','Crew','More'].map((n,i)=>`<div class="mtab ${i===0?'on':''}"><span class="mi"></span>${n}</div>`).join('')}</div>`;}
+
+function area(stroke){const id=stroke.replace('#','');return `<svg width="100%" height="120" viewBox="0 0 520 120" preserveAspectRatio="none"><defs><linearGradient id="ag${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${stroke}" stop-opacity=".32"/><stop offset="1" stop-color="${stroke}" stop-opacity="0"/></linearGradient></defs><path d="M0,88 C60,78 90,56 140,60 C190,65 210,32 260,36 C320,42 340,24 400,18 C450,13 480,32 520,24 L520,120 L0,120 Z" fill="url(#ag${id})"/><path d="M0,88 C60,78 90,56 140,60 C190,65 210,32 260,36 C320,42 340,24 400,18 C450,13 480,32 520,24" fill="none" stroke="${stroke}" stroke-width="2.5"/></svg>`;}
+
+const CUR={ui:"'Inter',sans-serif",headfont:"'Inter',sans-serif",numfont:"'Inter',sans-serif",headwt:700,
+  canvas:'#F6F7F9',card:'#fff',sb:'#fff',topbar:'#fff',ink:'#363636',mut:'#737373',bd:'#E5E7EB',
+  accent:'#1E2FAA',chartAccent:'#1E2FAA',activebg:'#EEF0FF',activeink:'#1E2FAA',bartrack:'#EEF0F3',data:['#6366F1','#22C55E','#F59E0B','#0EA5E9'],
+  logo:realWM(22),mlogo:realWM(20)};
+const WARM={ui:"'Hanken Grotesk',sans-serif",headfont:"'Fraunces',serif",numfont:"'Hanken Grotesk',sans-serif",headwt:500,
+  canvas:'#F4EFE7',card:'#FFFFFF',sb:'#FBF7F0',topbar:'#FFFFFF',ink:'#2A2320',mut:'#8B8076',bd:'#EAE2D6',
+  accent:'#FF5C4D',chartAccent:'#E9A24A',activebg:'#FCE9E2',activeink:'#C2410C',bartrack:'#EFE7DA',data:['#E9A24A','#3CC8E2','#A855F7','#16A34A'],
+  logo:propWM(23),mlogo:propWM(21)};
+function vars(t){return Object.entries({'--canvas':t.canvas,'--card':t.card,'--sb':t.sb,'--topbar':t.topbar,'--ink':t.ink,'--mut':t.mut,'--bd':t.bd,'--accent':t.accent,'--activebg':t.activebg,'--activeink':t.activeink,'--ui':t.ui,'--headfont':t.headfont,'--numfont':t.numfont,'--headwt':t.headwt,'--bartrack':t.bartrack}).map(([k,v])=>`${k}:${v}`).join(';');}
+function mount(id,t,fn){const el=document.getElementById(id);el.style.cssText+=';'+vars(t);el.innerHTML=fn(t);}
+mount('dCur',CUR,deskApp);mount('dWarm',WARM,deskApp);
+mount('mCur',CUR,mobApp);mount('mWarm',WARM,mobApp);
+
+// home screen icons
+const grid=document.getElementById('homegrid');
+let cells='';for(let i=0;i<11;i++){cells+=`<div class="appicon"><div class="ph2"></div></div>`;}
+// insert Sundae icon at position 5
+const sCell=`<div class="appicon"><div style="width:54px;height:54px">${sTile(54,14)}</div><div class="nm">Sundae</div></div>`;
+grid.innerHTML = cells.split('</div></div>').slice(0,5).join('</div></div>')+'</div></div>'+sCell+cells.split('</div></div>').slice(5).join('</div></div>');
+// favicon + sizes
+document.getElementById('favtab').innerHTML=sTile(18,4);
+document.getElementById('iconsizes').innerHTML=[120,64,32,16].map(s=>`<div class="c"><div>${sTile(s,Math.max(3,s*0.23))}</div><div class="s">${s}px</div></div>`).join('');
+</script>
+</body></html>

@@ -64,6 +64,9 @@ export default function HomeContent() {
   const closerLine = closerLineCopy[locale as keyof typeof closerLineCopy] ?? closerLineCopy.en;
   const cta = useCta();
 
+  // The six Intelligence Layers, rendered as one stacked operating layer
+  // (the glass metaphor). Keyed by layer.name (brand names stay constant
+  // across locales, so the icon/accent lookup holds).
   const layerIcons: Record<string, SundaeIconName> = {
     Pulse: "pulse",
     Benchmarks: "benchmarking",
@@ -88,7 +91,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
-        <section className="relative min-h-[90vh] flex flex-col justify-center pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section className="relative pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
           {/* Background layers */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
@@ -179,7 +182,7 @@ export default function HomeContent() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
             >
-              <h1 className="hero-h1 mb-6 max-w-4xl mx-auto">
+              <h2 className="section-h2 mb-5 max-w-3xl mx-auto">
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
                   {home.titleTop}
                 </span>
@@ -187,7 +190,7 @@ export default function HomeContent() {
                 <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-[#E9A24A] via-[#FF7E6F] to-[#FF5C4D]">
                   {home.titleBottom}
                 </span>
-              </h1>
+              </h2>
             </motion.div>
 
             {/* Tagline */}
@@ -212,32 +215,28 @@ export default function HomeContent() {
               <Button
                 variant="cta"
                 size="lg"
-                href={SIGNUP_URL}
-                onClick={(e) => { e.preventDefault(); cta(SIGNUP_URL, "start_free_hero", { page: "/home" }); }}
+                href="/demo"
+                onClick={(e) => { e.preventDefault(); cta("/demo", "book_walkthrough_hero", { page: "/home" }); }}
               >
                 {home.startFree}
               </Button>
-              <Button
-                variant="outline-light"
-                size="lg"
-                onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
-              >
-                {home.bookDemo}
-              </Button>
             </motion.div>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 1.3 }}
-              className="text-xs text-[var(--text-muted)]"
-            >
-              {home.noCard}
-            </motion.p>
+            {home.noCard ? (
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.6, delay: 1.3 }}
+                className="text-xs text-[var(--text-muted)]"
+              >
+                {home.noCard}
+              </motion.p>
+            ) : null}
           </div>
 
           {/* Hero CSS Mockup - Pulse Dashboard */}
           <motion.div
-            className="max-w-5xl mx-auto mt-16 relative z-20 px-4"
+            id="pulse-live"
+            className="max-w-5xl mx-auto mt-16 relative z-20 px-4 scroll-mt-24"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
@@ -325,11 +324,13 @@ export default function HomeContent() {
               </p>
             </FadeUp>
 
-            {/* Top row: 3 pillars */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
-              {platform.layers.slice(0, 3).map((layer, i) => (
-                <div key={layer.name}>
+            {/* One vessel, six layers - the modules stack like the strata in
+                the glass: a single operating system, not a grid of products. */}
+            <FadeUp>
+              <div className="relative mx-auto max-w-4xl rounded-3xl border border-[var(--border-default)] overflow-hidden divide-y divide-[var(--border-default)] bg-[var(--navy-deep)]/40 backdrop-blur shadow-[0_40px_90px_-50px_rgba(0,0,0,0.7)]">
+                {platform.layers.map((layer, i) => (
                   <LayerCard
+                    key={layer.name}
                     layer={layer}
                     icon={layerIcons[layer.name]}
                     accent={layerAccents[layer.name]}
@@ -338,26 +339,9 @@ export default function HomeContent() {
                     countLabel={platform.countLabel}
                     cta={cta}
                   />
-                </div>
-              ))}
-            </div>
-
-            {/* Bottom row: 3 pillars */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-              {platform.layers.slice(3).map((layer, i) => (
-                <div key={layer.name}>
-                  <LayerCard
-                    layer={layer}
-                    icon={layerIcons[layer.name]}
-                    accent={layerAccents[layer.name]}
-                    learnMoreLabel={platform.learnMore}
-                    indexLabel={`0${i + 4}`}
-                    countLabel={platform.countLabel}
-                    cta={cta}
-                  />
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            </FadeUp>
 
             <FadeUp delay={0.2} className="text-center mt-14">
               <Button
@@ -526,34 +510,45 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel
 }) {
   return (
     <div
-      className="group cursor-pointer h-full"
+      className="group relative flex items-stretch cursor-pointer bg-white/[0.02] hover:bg-[var(--surface-hover)] transition-colors duration-300"
       role="button"
       tabIndex={0}
       onClick={() => cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" })}
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" }); } }}
     >
-      <div className="relative h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,92,77,0.10)]">
-        {/* Layer count indicator - top right */}
-        <div className="absolute top-4 right-5 text-[10px] font-mono tracking-wider text-[var(--text-muted)]/70">
-          <span className="text-[var(--text-secondary)]">{indexLabel}</span>
-          <span className="opacity-50"> {countLabel}</span>
+      {/* Meniscus rail - this layer's colour, the edge of the stratum */}
+      <div className={`w-1.5 flex-shrink-0 bg-gradient-to-b ${accent} opacity-70 group-hover:w-2.5 group-hover:opacity-100 transition-all duration-300`} aria-hidden />
+
+      <div className="flex-1 grid grid-cols-[1fr_auto] md:grid-cols-[2.5rem_minmax(11rem,15rem)_1fr_auto] items-center gap-x-5 gap-y-2 px-5 md:px-7 py-5 md:py-6">
+        {/* Index - the stratum number */}
+        <div className="hidden md:block font-mono text-[11px] tracking-widest text-[var(--text-muted)]/70 tabular-nums">
+          {indexLabel}<span className="opacity-40"> {countLabel}</span>
         </div>
 
-        <div className="flex items-center gap-3 mb-4 pr-12">
-          <div className={`w-10 h-10 bg-gradient-to-br ${accent} rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
-            <SundaeIcon name={icon} size="sm" className="text-[var(--text-primary)]" />
+        {/* Icon + name + subtitle */}
+        <div className="flex items-center gap-3 min-w-0">
+          <div className={`w-10 h-10 bg-gradient-to-br ${accent} rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg`}>
+            <SundaeIcon name={icon} size="sm" className="text-white" />
           </div>
-          <div>
-            <h3 className="text-base font-semibold text-[var(--text-primary)] leading-tight">{layer.name}</h3>
-            <p className="text-xs text-[var(--text-muted)] font-medium">{layer.subtitle}</p>
+          <div className="min-w-0">
+            <h3 className="text-[15px] font-semibold text-[var(--text-primary)] leading-tight truncate">{layer.name}</h3>
+            <p className="text-xs text-[var(--text-muted)] font-medium truncate">{layer.subtitle}</p>
           </div>
         </div>
 
-        <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4">{layer.description}</p>
+        {/* Description - hidden on mobile, shown full-width below instead */}
+        <p className="hidden md:block text-sm text-[var(--text-muted)] leading-relaxed">{layer.description}</p>
 
-        <span className="text-sm font-medium text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors">
+        {/* Learn more */}
+        <span className="hidden md:inline-flex items-center gap-1.5 text-sm font-medium text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors whitespace-nowrap justify-self-end">
           {learnMoreLabel} <span className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
         </span>
+
+        {/* Mobile arrow */}
+        <span className="md:hidden text-[#FF8473] group-hover:translate-x-1 transition-transform justify-self-end" aria-hidden>&rarr;</span>
+
+        {/* Mobile description - spans full row */}
+        <p className="md:hidden col-span-2 text-sm text-[var(--text-muted)] leading-relaxed">{layer.description}</p>
       </div>
     </div>
   );

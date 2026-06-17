@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@500;600;700&family=Hanken+Grotesk:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&family=Schibsted+Grotesk:wght@500;600;700&family=Instrument+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,700&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#15110D;color:#FBF8F4;font-family:'General Sans',sans-serif;padding:40px}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:24px;margin:0 0 2px}
+  h2{font-family:'Fraunces',serif;font-weight:500;font-size:18px;margin:36px 0 6px;border-top:1px solid rgba(255,255,255,.1);padding-top:24px}
+  .note{color:rgba(255,255,255,.5);font-size:12.5px;margin:0 0 16px;max-width:80ch}
+  .row{display:flex;gap:20px;flex-wrap:wrap;align-items:flex-start}
+  .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:22px;text-align:center;width:210px}
+  .lbl{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:#FF5C4D;font-weight:600;margin-bottom:14px}
+  .big{height:150px;display:flex;align-items:center;justify-content:center}
+  .favs{display:flex;gap:14px;justify-content:center;margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.07)}
+  .favs .s{font-size:10px;color:rgba(255,255,255,.4)}
+  .desc{font-size:11.5px;color:rgba(255,255,255,.55);margin-top:10px;line-height:1.45}
+  /* number specimens */
+  .num{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:20px 24px;width:300px}
+  .num .nm{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#E9A24A;font-weight:600;margin-bottom:14px}
+  .num .v{font-size:40px;font-weight:700;letter-spacing:-.015em;font-variant-numeric:tabular-nums;line-height:1}
+  .num .sub{font-size:18px;font-weight:600;color:rgba(255,255,255,.7);margin-top:8px;font-variant-numeric:tabular-nums}
+  /* bg swatches */
+  .bg{width:240px;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.1)}
+  .bg .field{padding:18px}
+  .bg .mc{background:#FDFBF7;border:1px solid #EAE2D6;border-radius:10px;padding:14px}
+  .bg .mc .l{font-size:11px;color:#8B8076}.bg .mc .v{font-family:'General Sans';font-weight:700;font-size:22px;color:#2A2320;font-variant-numeric:tabular-nums}
+  .bg .mc .d{font-size:12px;color:#16A34A;font-weight:600}
+  .bg .cta{margin-top:10px;background:#FF5C4D;color:#fff;font-size:12px;font-weight:600;padding:8px;border-radius:7px;text-align:center}
+  .bg .cap{font-size:11px;color:rgba(255,255,255,.55);padding:10px 4px 0;text-align:center}
+  /* wordmark */
+  .wm{font-family:'Fraunces',serif;font-weight:500;font-size:46px;letter-spacing:-.03em;color:#FBF8F4;display:inline-flex;align-items:flex-end;line-height:1}
+</style></head><body>
+<h1>Refinement study</h1>
+<div class="note">Validating four things you raised — rendered, not guessed.</div>
+
+<h2>1 · The cherry should COMPLETE the S (cut + margin), not sit on it</h2>
+<div class="note">Your idea: cut the S short and let the cherry finish it across a small gap. Shown on the dark tile + favicon.</div>
+<div class="row" id="sRow"></div>
+
+<h2>2 · Big-number font — beat the current Inter</h2>
+<div class="note">Same KPI in each candidate, tabular. Current app uses Inter. Looking for more character but equal/better openness (not condensed like General Sans).</div>
+<div class="row" id="numRow"></div>
+
+<h2>3 · App background — does the warm field work?</h2>
+<div class="note">A white card + coral CTA on each warm-neutral candidate. Too yellow = muddy; too grey = loses warmth.</div>
+<div class="row" id="bgRow"></div>
+
+<h2>4 · Wordmark cherry placement</h2>
+<div class="row" id="wmRow" style="align-items:center"></div>
+
+<script>
+const HS=`<stop offset="0" stop-color="#F6C66B"/><stop offset=".17" stop-color="#F6C66B"/><stop offset=".17" stop-color="#E9A24A"/><stop offset=".34" stop-color="#E9A24A"/><stop offset=".34" stop-color="#F7A088"/><stop offset=".52" stop-color="#F7A088"/><stop offset=".52" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#E03E48"/><stop offset=".86" stop-color="#E03E48"/><stop offset=".86" stop-color="#B23A1E"/><stop offset="1" stop-color="#B23A1E"/>`;
+const CG=`<radialGradient id="CG" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient>`;
+const berry=(cx,cy,r)=>`<circle cx="${cx}" cy="${cy}" r="${r}" fill="url(#CG)"/><ellipse cx="${cx-r*0.34}" cy="${cy-r*0.4}" rx="${r*0.3}" ry="${r*0.2}" fill="rgba(255,255,255,.55)"/>`;
+
+// S variants (200 box). Full + cut versions.
+const S_FULL="M140,60 C140,40 72,39 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149";
+const S_CUT ="M118,46 C100,41 72,45 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149"; // top arm cut short
+
+function tileS(px,inner){return `<svg width="${px}" height="${px}" viewBox="0 0 200 200" style="overflow:visible"><defs><clipPath id="tcS${px}"><rect width="200" height="200" rx="46"/></clipPath>${CG}<linearGradient id="hsS${px}" x1="0" y1="0" x2="0" y2="1">${HS}</linearGradient><radialGradient id="glS${px}" cx="0.5" cy="0" r="0.95"><stop offset="0" stop-color="rgba(255,124,90,.32)"/><stop offset="1" stop-color="rgba(255,124,90,0)"/></radialGradient></defs><g clip-path="url(#tcS${px})"><rect width="200" height="200" fill="#1C1712"/><rect width="200" height="200" fill="url(#glS${px})"/>${inner(px)}</g></svg>`;}
+
+const opts=[
+  {lbl:'A · cut + gap, berry completes', f:px=>`<path d="${S_CUT}" fill="none" stroke="url(#hsS${px})" stroke-width="30" stroke-linecap="round"/>${berry(140,52,16)}<path d="M140,38 C145,26 153,22 160,14" stroke="#7d1f12" stroke-width="4.5" fill="none" stroke-linecap="round"/>`,
+   desc:'S arm cut short; cherry sits across a small gap, completing the arc. The cherry IS the missing terminal.'},
+  {lbl:'B · stem-continuation', f:px=>`<path d="${S_FULL}" fill="none" stroke="url(#hsS${px})" stroke-width="30" stroke-linecap="round"/><path d="M140,58 C150,40 158,32 165,22" stroke="#B23A1E" stroke-width="6" fill="none" stroke-linecap="round"/>${berry(168,18,14)}`,
+   desc:'The S’s line tapers out into the cherry stem, berry on the end. The cherry grows from the letter.'},
+  {lbl:'C · bigger gap, floating bead', f:px=>`<path d="${S_CUT}" fill="none" stroke="url(#hsS${px})" stroke-width="30" stroke-linecap="round"/>${berry(148,44,15)}<path d="M148,31 C152,20 159,17 166,9" stroke="#7d1f12" stroke-width="4.5" fill="none" stroke-linecap="round"/>`,
+   desc:'Same cut, cherry lifted further up-right — more “cherry on top”, larger margin.'},
+  {lbl:'D · capped (current — control)', f:px=>`<path d="${S_FULL}" fill="none" stroke="url(#hsS${px})" stroke-width="30" stroke-linecap="round"/>${berry(140,60,17)}<path d="M140,44 C145,30 154,26 161,17" stroke="#7d1f12" stroke-width="5" fill="none" stroke-linecap="round"/>`,
+   desc:'What we have now — berry caps the terminal. The “sitting on it” version, for comparison.'},
+  {lbl:'E · clean S · cherry lives elsewhere', f:px=>`<path d="${S_FULL}" fill="none" stroke="url(#hsS${px})" stroke-width="30" stroke-linecap="round"/>`,
+   desc:'No cherry on the mark. Clean layered S; the cherry stays the separate particle (favicon, accents, wordmark).'},
+];
+document.getElementById('sRow').innerHTML = opts.map(o=>`<div class="card"><div class="lbl">${o.lbl}</div><div class="big">${tileS(140,o.f)}</div><div class="favs"><div>${tileS(40,o.f)}<div class="s">40</div></div><div>${tileS(24,o.f)}<div class="s">24</div></div></div><div class="desc">${o.desc}</div></div>`).join('');
+
+// number fonts
+const fonts=[['Inter (current)',"'Inter'"],['Hanken Grotesk',"'Hanken Grotesk'"],['Space Grotesk',"'Space Grotesk'"],['Schibsted Grotesk',"'Schibsted Grotesk'"],['Instrument Sans',"'Instrument Sans'"],['General Sans (was using)',"'General Sans'"]];
+document.getElementById('numRow').innerHTML = fonts.map(f=>`<div class="num"><div class="nm">${f[0]}</div><div class="v" style="font-family:${f[1]},sans-serif">$48,210</div><div class="sub" style="font-family:${f[1]},sans-serif">1,284 · $37.55 · 28.3%</div></div>`).join('');
+
+// bg swatches
+const bgs=[['#F4EFE7','current cream'],['#FAF7F1','warm off-white'],['#F3F1EC','warm stone'],['#F6F2EA','soft sand']];
+document.getElementById('bgRow').innerHTML = bgs.map(b=>`<div class="bg"><div class="field" style="background:${b[0]}"><div class="mc"><div class="l">Net Sales</div><div class="v">$48,210</div><div class="d">▲ 12.4%</div><div class="cta">Export</div></div></div><div class="cap">${b[1]} · ${b[0]}</div></div>`).join('');
+
+// wordmark cherry placement
+function wmCherry(w){return `<svg width="${w}" viewBox="0 0 40 60" fill="none" style="display:inline-block">${CG.replace('CG','CGw')}<path d="M22 34 C22 20 31 15 37 7" stroke="#B23A1E" stroke-width="3.4" fill="none" stroke-linecap="round"/><circle cx="16" cy="40" r="12" fill="url(#CGw)"/><ellipse cx="12" cy="35" rx="3.6" ry="2.4" fill="rgba(255,255,255,.55)"/></svg>`;}
+document.getElementById('wmRow').innerHTML = `
+  <div class="card" style="width:auto;padding:30px 36px"><div class="lbl">baseline-aligned</div><div class="wm">sundae<span style="margin-left:.04em">${wmCherry(26)}</span></div></div>
+  <div class="card" style="width:auto;padding:30px 36px"><div class="lbl">raised (rests on top)</div><div class="wm">sundae<span style="margin:0 0 .42em .03em;align-self:flex-start">${wmCherry(24)}</span></div></div>
+  <div class="card" style="width:auto;padding:30px 36px"><div class="lbl">clean — no cherry</div><div class="wm">sundae</div></div>`;
+</script>
+</body></html>

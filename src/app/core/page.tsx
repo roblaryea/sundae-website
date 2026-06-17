@@ -19,7 +19,7 @@ const localizedCoreCopy = {
   en: {
     hero: {
       badge: "Sundae Core",
-      title: <>Real-Time Operations. Not End-of-Day Reports.</>,
+      title: 'Real-Time Operations. Not End-of-Day Reports.',
       description:
         "Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift - not after the damage is done.",
       primary: "Explore Core Tiers",

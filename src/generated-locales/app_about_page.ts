@@ -197,7 +197,8 @@ export const generatedLocalCopy = {
           "countries": "Australien, Singapur",
           "label": "Ziel"
         }
-      ]
+      ],
+      "title": "Die Intelligenzebene, die Restaurants nie hatten"
     },
     "fr": {
       "metadataTitle": "À propos de Sundae - La plateforme d'intelligence décisionnelle pour les restaurants",
@@ -985,7 +986,8 @@ export const generatedLocalCopy = {
           "countries": "Australië, Singapore",
           "label": "Doel"
         }
-      ]
+      ],
+      "title": "De intelligentielaag die restaurants nooit hadden"
     },
     "pt": {
       "metadataTitle": "Sobre a Sundae - A Plataforma de Inteligência de Decisão para Restaurantes",
@@ -1182,7 +1184,8 @@ export const generatedLocalCopy = {
           "countries": "Austrália, Cingapura",
           "label": "Alvo"
         }
-      ]
+      ],
+      "title": "A camada de inteligência que os restaurantes nunca tiveram"
     },
     "ur": {
       "metadataTitle": "Sundae کے بارے میں - ریستورانوں کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
@@ -1379,7 +1382,8 @@ export const generatedLocalCopy = {
           "countries": "آسٹریلیا، سنگاپور",
           "label": "ہدف"
         }
-      ]
+      ],
+      "title": "وہ انٹیلیجنس پرت جو ریستورانوں کے پاس کبھی نہ تھی"
     },
     "hi": {
       "metadataTitle": "Sundae के बारे में - रेस्तरां के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
@@ -1576,7 +1580,8 @@ export const generatedLocalCopy = {
           "countries": "ऑस्ट्रेलिया, सिंगापुर",
           "label": "लक्ष्य"
         }
-      ]
+      ],
+      "title": "वह इंटेलिजेंस लेयर जो रेस्टोरेंट के पास कभी नहीं थी"
     },
     "it": {
       "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per ristoranti",
@@ -1773,7 +1778,8 @@ export const generatedLocalCopy = {
           "countries": "Australia, Singapore",
           "label": "Obiettivo"
         }
-      ]
+      ],
+      "title": "Lo strato di intelligence che i ristoranti non hanno mai avuto"
     },
     "pl": {
       "metadataTitle": "O Sundae - Platforma Inteligencji Decyzyjnej dla Restauracji",
@@ -1970,7 +1976,8 @@ export const generatedLocalCopy = {
           "countries": "Australia, Singapur",
           "label": "Docelowy"
         }
-      ]
+      ],
+      "title": "Warstwa inteligencji, której restauracje nigdy nie miały"
     },
     "tr": {
       "metadataTitle": "Sundae Hakkında - Restoranlar için Karar Zeka Platformu",
@@ -2167,7 +2174,8 @@ export const generatedLocalCopy = {
           "countries": "Avustralya, Singapur",
           "label": "Hedef"
         }
-      ]
+      ],
+      "title": "Restoranların hiç sahip olmadığı zeka katmanı"
     },
     "zh-Hans": {
       "metadataTitle": "关于Sundae - 餐厅决策智能平台",
@@ -2364,7 +2372,8 @@ export const generatedLocalCopy = {
           "countries": "澳大利亚, 新加坡",
           "label": "目标"
         }
-      ]
+      ],
+      "title": "餐厅从未拥有的智能层"
     },
     "ja": {
       "metadataTitle": "Sundaeについて - レストラン向けの意思決定インテリジェンスプラットフォーム",
@@ -2561,7 +2570,8 @@ export const generatedLocalCopy = {
           "countries": "オーストラリア, シンガポール",
           "label": "ターゲット"
         }
-      ]
+      ],
+      "title": "レストランがこれまで持てなかったインテリジェンス層"
     },
     "id": {
       "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
@@ -2758,7 +2768,8 @@ export const generatedLocalCopy = {
           "countries": "Australia, Singapura",
           "label": "Target"
         }
-      ]
+      ],
+      "title": "Lapisan inteligensi yang tak pernah dimiliki restoran"
     },
     "vi": {
       "metadataTitle": "Giới thiệu về Sundae - Nền tảng Trí tuệ Quyết định cho Nhà hàng",
@@ -2955,7 +2966,8 @@ export const generatedLocalCopy = {
           "countries": "Úc, Singapore",
           "label": "Mục tiêu"
         }
-      ]
+      ],
+      "title": "Tầng trí tuệ mà nhà hàng chưa từng có"
     },
     "ko": {
       "metadataTitle": "Sundae - 레스토랑을 위한 의사결정 인텔리전스 플랫폼",
@@ -3152,7 +3164,8 @@ export const generatedLocalCopy = {
           "countries": "호주, 싱가포르",
           "label": "목표"
         }
-      ]
+      ],
+      "title": "레스토랑이 갖지 못했던 인텔리전스 레이어"
     },
     "ro": {
       "metadataTitle": "Despre Sundae - Platforma de Inteligență Decizională pentru Restaurante",
@@ -3349,7 +3362,8 @@ export const generatedLocalCopy = {
           "countries": "Australia, Singapore",
           "label": "Țintă"
         }
-      ]
+      ],
+      "title": "Stratul de inteligență pe care restaurantele nu l-au avut niciodată"
     },
     "sv": {
       "metadataTitle": "Om Sundae - Plattformen för Beslutsintelligens för Restauranger",
@@ -3546,7 +3560,8 @@ export const generatedLocalCopy = {
           "countries": "Australien, Singapore",
           "label": "Mål"
         }
-      ]
+      ],
+      "title": "Intelligenslagret som restauranger aldrig haft"
     },
     "bn": {
       "metadataTitle": "Sundae সম্পর্কে - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
@@ -3743,7 +3758,8 @@ export const generatedLocalCopy = {
           "countries": "অস্ট্রেলিয়া, সিঙ্গাপুর",
           "label": "লক্ষ্য"
         }
-      ]
+      ],
+      "title": "যে ইন্টেলিজেন্স লেয়ার রেস্তোরাঁর কখনও ছিল না"
     },
     "th": {
       "metadataTitle": "เกี่ยวกับ Sundae - แพลตฟอร์มการตัดสินใจอัจฉริยะสำหรับร้านอาหาร",
@@ -3940,7 +3956,8 @@ export const generatedLocalCopy = {
           "countries": "ออสเตรเลีย, สิงคโปร์",
           "label": "เป้าหมาย"
         }
-      ]
+      ],
+      "title": "ชั้นอัจฉริยะที่ร้านอาหารไม่เคยมี"
     },
     "ms": {
       "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
@@ -4137,7 +4154,8 @@ export const generatedLocalCopy = {
           "countries": "Australia, Singapura",
           "label": "Sasaran"
         }
-      ]
+      ],
+      "title": "Lapisan kecerdasan yang restoran tidak pernah miliki"
     }
   }
 } as const

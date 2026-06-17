@@ -84,7 +84,7 @@ export function LocaleSwitcher() {
         aria-label={messages.layout.languageSelector}
       >
         {websiteLocales.map((item) => (
-          <option key={item} value={item} className="text-slate-900">
+          <option key={item} value={item} className="text-stone-900">
             {`${websiteLocaleNames[item]} · ${localeShortCode(item)}`}
           </option>
         ))}
