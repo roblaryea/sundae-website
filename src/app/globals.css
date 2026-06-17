@@ -22,6 +22,10 @@ html {
   background-color: var(--navy-deep);
   color-scheme: dark;
   transition: background-color 0.3s ease, color 0.3s ease;
+  /* The window scroll container (documentElement) must be non-static so
+     framer-motion's useScroll can measure parallax targets without warning.
+     html has no offset, so fixed/absolute positioning is unaffected. */
+  position: relative;
 }
 
 html.light {

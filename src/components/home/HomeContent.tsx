@@ -45,7 +45,12 @@ import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 function withWordmark(text: string, markClassName: string) {
   return text.split(/(\bSundae\b(?!\s+Intelligence))/g).map((part, i) =>
     part === "Sundae" ? (
-      <SundaeWordmark key={i} className={markClassName} />
+      // aria-hidden wordmark + sr-only text so screen readers announce "Sundae"
+      // once AND raw textContent (SEO / extraction) still reads the brand name.
+      <span key={i} className="inline-flex items-baseline">
+        <SundaeWordmark aria-hidden className={markClassName} />
+        <span className="sr-only">Sundae</span>
+      </span>
     ) : (
       <span key={i}>{part}</span>
     )
@@ -185,7 +190,7 @@ export default function HomeContent() {
               <h2 className="section-h2 mb-5 max-w-3xl mx-auto" aria-label={`${home.titleTop} ${home.titleBottom}`}>
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
                   {home.titleTop}
-                </span>
+                </span>{" "}
                 <br />
                 <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-[#E9A24A] via-[#FF7E6F] to-[#FF5C4D]">
                   {home.titleBottom}

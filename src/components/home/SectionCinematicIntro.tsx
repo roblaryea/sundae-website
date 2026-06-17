@@ -292,7 +292,7 @@ export function SectionCinematicIntro() {
               >
                 {copy.headline}
               </motion.span>
-            </span>
+            </span>{" "}
             <motion.span
               className="mt-[0.1em] block italic"
               style={{ color: "#F6C66B", fontSize: "clamp(30px,5vw,62px)" }}
