@@ -122,13 +122,13 @@ export default function HomeContent() {
               alt=""
               fill
               sizes="100vw"
-              className="object-cover object-center hidden [html.light_&]:block opacity-[0.32]"
+              className="object-cover object-center hidden [html.light_&]:block opacity-[0.55]"
             />
             <div
               className="absolute inset-0 hidden [html.light_&]:block"
               style={{
                 background:
-                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.16) 0%, transparent 52%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.22) 0%, transparent 54%), radial-gradient(ellipse 66% 56% at 50% 42%, rgba(255,250,245,0.92) 0%, rgba(255,246,239,0.5) 48%, transparent 74%), linear-gradient(180deg, rgba(255,246,239,0.5) 0%, #FFFFFF 78%)',
+                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.16) 0%, transparent 52%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.22) 0%, transparent 54%), radial-gradient(ellipse 62% 52% at 50% 40%, rgba(255,250,245,0.86) 0%, rgba(255,246,239,0.42) 46%, transparent 72%), linear-gradient(180deg, rgba(255,246,239,0.32) 0%, rgba(255,255,255,0.55) 60%, #FFFFFF 96%)',
               }}
             />
             <Image

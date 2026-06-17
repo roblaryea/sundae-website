@@ -273,7 +273,7 @@ export function HeroLiveDashboard() {
                 <motion.div
                   key={`${coachIdx}-${slot}`}
                   initial={reduceMotion ? false : { opacity: 0, y: -8 }}
-                  animate={{ opacity: slot === 0 ? 1 : 0.5, y: 0 }}
+                  animate={{ opacity: slot === 0 ? 1 : 0.72, y: 0 }}
                   exit={reduceMotion ? undefined : { opacity: 0 }}
                   transition={{ duration: 0.4, ease: "easeOut" }}
                   className={`rounded-lg border p-2.5 ${
@@ -288,16 +288,16 @@ export function HeroLiveDashboard() {
                       style={{ backgroundColor: COACH_COLORS[c.idx] ?? "#FF8473" }}
                     />
                     <span
-                      className="text-[8.5px] sm:text-[9px] font-bold uppercase tracking-wider"
+                      className="text-[10px] sm:text-[10.5px] font-bold uppercase tracking-wider"
                       style={{ color: COACH_COLORS[c.idx] ?? "#FF8473" }}
                     >
                       {c.tag}
                     </span>
-                    <span className="ml-auto text-[8.5px] sm:text-[9px] font-mono tabular-nums text-[var(--text-supporting)]">
+                    <span className="ml-auto text-[10px] sm:text-[10.5px] font-mono tabular-nums text-[var(--text-supporting)]">
                       {c.impact}
                     </span>
                   </div>
-                  <p className="text-[10.5px] sm:text-[11px] leading-snug text-[var(--text-primary)]">
+                  <p className="text-[12.5px] sm:text-[13px] leading-snug text-[var(--text-primary)]">
                     {c.text}
                   </p>
                 </motion.div>
@@ -342,11 +342,11 @@ function LiveKPITile({
       transition={{ duration: 0.7, ease: "easeOut" }}
       className="rounded-lg p-2.5 border border-[var(--border-default)] min-w-0 overflow-hidden"
     >
-      <div className="text-[8.5px] sm:text-[9.5px] text-[var(--text-muted)] uppercase tracking-wider mb-1 truncate">
+      <div className="text-[10px] sm:text-[10.5px] text-[var(--text-muted)] uppercase tracking-wider mb-1 truncate">
         {label}
       </div>
       <div
-        className="text-sm sm:text-base font-bold font-mono tabular-nums truncate"
+        className="text-base sm:text-lg font-bold font-mono tabular-nums truncate"
         style={{ color }}
         aria-live="polite"
         aria-atomic="true"
@@ -355,7 +355,7 @@ function LiveKPITile({
       </div>
       {trend && (
         <div
-          className={`text-[9px] mt-0.5 truncate ${
+          className={`text-[10px] mt-0.5 truncate ${
             trendUp ? "text-[#22C55E]" : "text-[#FF5450]"
           }`}
         >
