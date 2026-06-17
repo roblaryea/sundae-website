@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Chaque service, heure, échange, attestation et cycle de paie devient un signal. Labor Intelligence le lit. Pulse l'alerte. Foresight l'utilise pour prévoir. Toute la plateforme gagne en précision.",
       "loopClosing": "Mêmes données sur la main-d'œuvre. Intelligence cumulative.",
       "pillarsEyebrow": "QU'EST-CE QUI EST EXPÉDIÉ AUJOURD'HUI",
-      "pillarsTitle": "Six surfaces. Un substrat opérationnel.",
+      "pillarsTitle": "Six surfaces. Une seule couche opérationnelle.",
       "pillarsDescription": "Chaque page d'équipage est conforme à la norme de profondeur 5 ou figure sur la liste de reconstruction suivie publiquement. Pas d'écrans uniquement pour la démonstration.",
       "pillars": [
         {
@@ -372,7 +372,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Cada turno, hora, cambio, certificación y ciclo de nómina se convierte en una señal. Labor Intelligence la lee. Pulse la alerta. Foresight la usa para proyectar. Toda la plataforma gana precisión.",
       "loopClosing": "Los mismos datos de la fuerza laboral. Inteligencia acumulativa.",
       "pillarsEyebrow": "¿QUÉ SE ENVÍA HOY?",
-      "pillarsTitle": "Seis superficies. Un sustrato operativo.",
+      "pillarsTitle": "Seis superficies. Una sola capa operativa.",
       "pillarsDescription": "Cada página de Crew está en estándar de profundidad 5 o en la lista de reconstrucción rastreada públicamente. No hay pantallas solo para demostración.",
       "pillars": [
         {
@@ -726,7 +726,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Jede Schicht, jede Stunde, jeder Tausch, jede Bestätigung und jeder Abrechnungszyklus wird zum Signal. Labor Intelligence liest es. Pulse meldet es. Foresight prognostiziert darauf aufbauend. Die gesamte Plattform wird präziser.",
       "loopClosing": "Die gleichen Mitarbeiterdaten. Verknüpfte Intelligenz.",
       "pillarsEyebrow": "WAS HEUTE VERSCHICKT WIRD",
-      "pillarsTitle": "Sechs Oberflächen. Ein operatives Substrat.",
+      "pillarsTitle": "Sechs Oberflächen. Eine operative Ebene.",
       "pillarsDescription": "Jede Crew-Seite entspricht dem Standard der Tiefe 5 oder befindet sich auf der öffentlich verfolgten Wiederaufbau-Rückstandsliste. Keine nur für Demos vorgesehenen Bildschirme.",
       "pillars": [
         {
@@ -1080,7 +1080,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Elke dienst, elk uur, elke ruil, elke attestatie en elke looncyclus wordt een signaal. Labor Intelligence leest het. Pulse meldt het. Foresight voorspelt erop. Het hele platform wordt scherper.",
       "loopClosing": "Dezelfde personeelsgegevens. Samengestelde intelligentie.",
       "pillarsEyebrow": "WAT WORDT VANDAAG VERZONDEN",
-      "pillarsTitle": "Zes oppervlakken. Eén operationeel substraat.",
+      "pillarsTitle": "Zes oppervlakken. Eén operationele laag.",
       "pillarsDescription": "Elke Crew-pagina voldoet aan de diepte-5 standaard of staat op de openbare herbouwlijst. Geen demo-schermen.",
       "pillars": [
         {
@@ -1434,7 +1434,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "كل وردية وساعة وتبديل وإقرار ودورة رواتب تصبح إشارة. Labor Intelligence يقرؤها. Pulse ينبّه إليها. Foresight يستخدمها للتنبؤ. وتصبح المنصة كلها أكثر دقة.",
       "loopClosing": "نفس بيانات القوى العاملة. ذكاء متزايد.",
       "pillarsEyebrow": "ما الذي سيتم شحنه اليوم",
-      "pillarsTitle": "ستة أسطح. ركيزة تشغيلية واحدة.",
+      "pillarsTitle": "ست واجهات. طبقة تشغيلية واحدة.",
       "pillarsDescription": "كل صفحة في Crew تتوافق مع معيار العمق-5 أو ضمن قائمة إعادة البناء المتعقّبة علنًا. لا توجد شاشات للعرض التوضيحي فقط.",
       "pillars": [
         {
@@ -1788,7 +1788,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "ہر شفٹ، گھنٹہ، تبادلہ، تصدیق اور پے رول سائیکل ایک سگنل بن جاتا ہے۔ Labor Intelligence اسے پڑھتا ہے۔ Pulse اس پر الرٹ کرتا ہے۔ Foresight اسی بنیاد پر پیش گوئی کرتا ہے۔ پوری پلیٹ فارم زیادہ درست ہو جاتی ہے۔",
       "loopClosing": "ایک ہی ورک فورس کا ڈیٹا۔ جمع شدہ ذہانت۔",
       "pillarsEyebrow": "آج کیا روانہ ہو رہا ہے",
-      "pillarsTitle": "چھ سطحیں۔ ایک عملی بنیاد۔",
+      "pillarsTitle": "چھ سطحیں۔ ایک آپریشنل پرت۔",
       "pillarsDescription": "Crew کا ہر صفحہ گہرائی-5 کے معیار پر ہے یا عوامی طور پر ٹریک کردہ دوبارہ تعمیر کے بیک لاگ میں ہے۔ صرف ڈیمو اسکرینیں نہیں ہیں۔",
       "pillars": [
         {
@@ -2142,7 +2142,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Cada turno, hora, troca, atestado e ciclo de folha vira um sinal. Labor Intelligence lê. Pulse alerta. Foresight projeta a partir dele. Toda a plataforma fica mais precisa.",
       "loopClosing": "Os mesmos dados da força de trabalho. Inteligência acumulada.",
       "pillarsEyebrow": "O QUE EMBARCA HOJE",
-      "pillarsTitle": "Seis superfícies. Um substrato operacional.",
+      "pillarsTitle": "Seis superfícies. Uma só camada operacional.",
       "pillarsDescription": "Toda página da Crew está no padrão de profundidade 5 ou na lista de reconstrução acompanhada publicamente. Sem telas apenas para demonstração.",
       "pillars": [
         {
@@ -2496,7 +2496,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Ogni turno, ora, cambio, attestazione e ciclo paghe diventa un segnale. Labor Intelligence lo legge. Pulse lo segnala. Foresight lo usa per prevedere. L'intera piattaforma diventa più precisa.",
       "loopClosing": "Stessi dati sulla forza lavoro. Intelligenza combinata.",
       "pillarsEyebrow": "COSA SPEDISCE OGGI",
-      "pillarsTitle": "Sei superfici. Un substrato operativo.",
+      "pillarsTitle": "Sei superfici. Un solo livello operativo.",
       "pillarsDescription": "Ogni pagina Crew è conforme allo standard di profondità 5 o è nella lista di ricostruzione monitorata pubblicamente. Nessuno schermo solo per demo.",
       "pillars": [
         {
@@ -2850,7 +2850,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "हर शिफ्ट, घंटा, बदलाव, प्रमाणन और पेरोल चक्र एक संकेत बन जाता है। Labor Intelligence उसे पढ़ती है। Pulse उस पर अलर्ट करता है। Foresight उसी आधार पर पूर्वानुमान बनाता है। पूरा प्लेटफ़ॉर्म अधिक सटीक होता जाता है।",
       "loopClosing": "एक ही कार्यबल डेटा। संचित बुद्धिमत्ता।",
       "pillarsEyebrow": "आज क्या भेजा जा रहा है",
-      "pillarsTitle": "छह सतहें। एक परिचालन आधार।",
+      "pillarsTitle": "छह सतहें। एक ऑपरेशनल परत।",
       "pillarsDescription": "प्रत्येक Crew पृष्ठ गहराई-5 मानक पर है या पुनर्निर्माण बैकलॉग में सार्वजनिक रूप से ट्रैक किया गया है। कोई डेमो-केवल स्क्रीन नहीं।",
       "pillars": [
         {
@@ -3204,7 +3204,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Her vardiya, saat, değişim, onay ve bordro döngüsü bir sinyale dönüşür. Labor Intelligence bunu okur. Pulse uyarır. Foresight bunun üzerinden tahmin üretir. Tüm platform daha isabetli hale gelir.",
       "loopClosing": "Aynı iş gücü verisi. Birikimli zeka.",
       "pillarsEyebrow": "BUGÜN NE GÖNDERİLİYOR",
-      "pillarsTitle": "Altı yüzey. Bir operasyonel alt zemin.",
+      "pillarsTitle": "Altı yüzey. Tek operasyonel katman.",
       "pillarsDescription": "Her Crew sayfası derinlik-5 standardında veya kamuya açık olarak takip edilen yeniden inşa bekleme listesinde yer almaktadır. Sadece demo ekranları yoktur.",
       "pillars": [
         {
@@ -3558,7 +3558,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "每个班次、小时、换班、确认和薪资周期都会成为信号。Labor Intelligence 读取它。Pulse 发出提醒。Foresight 基于它预测。整个平台会越来越精准。",
       "loopClosing": "相同的员工数据。复合智能。",
       "pillarsEyebrow": "今天发货的是什么",
-      "pillarsTitle": "六个表面。一个操作基底。",
+      "pillarsTitle": "六大界面，一个运营层。",
       "pillarsDescription": "每个 Crew 页面都符合深度-5 标准或在公开跟踪的重建待办事项中。没有仅供演示的屏幕。",
       "pillars": [
         {
@@ -3912,7 +3912,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Każda zmiana, godzina, zamiana, potwierdzenie i cykl płacowy staje się sygnałem. Labor Intelligence go odczytuje. Pulse alarmuje. Foresight prognozuje na tej podstawie. Cała platforma staje się dokładniejsza.",
       "loopClosing": "Te same dane dotyczące pracowników. Złożona inteligencja.",
       "pillarsEyebrow": "CO WYPŁYWA DZISIAJ",
-      "pillarsTitle": "Sześć powierzchni. Jeden substrat operacyjny.",
+      "pillarsTitle": "Sześć obszarów. Jedna warstwa operacyjna.",
       "pillarsDescription": "Każda strona Crew jest na standardzie głębokości 5 lub znajduje się na liście do odbudowy, śledzonej publicznie. Brak ekranów tylko do demonstracji.",
       "pillars": [
         {
@@ -4266,7 +4266,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "すべてのシフト、時間、交代、証明、給与サイクルがシグナルになります。Labor Intelligence が読み取り、Pulse が通知し、Foresight がそれを基に予測します。プラットフォーム全体の精度が高まります。",
       "loopClosing": "同じ労働力データ。複合的なインテリジェンス。",
       "pillarsEyebrow": "今日出荷されるもの",
-      "pillarsTitle": "6つの表面。1つの運用基盤。",
+      "pillarsTitle": "6 つの画面。1 つの運用レイヤー。",
       "pillarsDescription": "すべてのCrewページは、深さ5の標準に準拠しているか、公開されている再構築バックログにあります。デモ専用の画面はありません。",
       "pillars": [
         {
@@ -4620,7 +4620,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Mỗi ca làm, giờ, lần đổi ca, xác nhận và chu kỳ lương đều trở thành một tín hiệu. Labor Intelligence đọc tín hiệu đó. Pulse cảnh báo. Foresight dự báo dựa trên tín hiệu đó. Toàn bộ nền tảng ngày càng chính xác hơn.",
       "loopClosing": "Dữ liệu lực lượng lao động giống nhau. Trí tuệ tích lũy.",
       "pillarsEyebrow": "CÁI GÌ ĐƯỢC GỬI ĐI HÔM NAY",
-      "pillarsTitle": "Sáu bề mặt. Một nền tảng hoạt động.",
+      "pillarsTitle": "Sáu bề mặt. Một lớp vận hành.",
       "pillarsDescription": "Mỗi trang Crew đều đạt tiêu chuẩn độ sâu 5 hoặc nằm trong danh sách tái xây dựng được theo dõi công khai. Không có màn hình chỉ dành cho demo.",
       "pillars": [
         {
@@ -4974,7 +4974,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Fiecare tură, oră, schimb, atestare și ciclu de plată devine un semnal. Labor Intelligence îl citește. Pulse alertează. Foresight prognozează pe baza lui. Întreaga platformă devine mai precisă.",
       "loopClosing": "Aceleași date despre forța de muncă. Inteligență compusă.",
       "pillarsEyebrow": "CE SE EXPEDIEAZĂ ASTĂZI",
-      "pillarsTitle": "Șase suprafețe. Un substrat operațional.",
+      "pillarsTitle": "Șase suprafețe. Un singur strat operațional.",
       "pillarsDescription": "Fiecare pagină Crew este la standardul de adâncime-5 sau pe lista de reconstrucție urmărită public. Fără ecrane doar pentru demonstrație.",
       "pillars": [
         {
@@ -5328,7 +5328,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Setiap shift, jam, pertukaran, pernyataan, dan siklus penggajian menjadi sinyal. Labor Intelligence membacanya. Pulse memberi peringatan. Foresight membuat prediksi dari sinyal itu. Seluruh platform menjadi lebih akurat.",
       "loopClosing": "Data tenaga kerja yang sama. Kecerdasan yang saling menguatkan.",
       "pillarsEyebrow": "APA YANG DILAYANAN HARI INI",
-      "pillarsTitle": "Enam permukaan. Satu substrat operasional.",
+      "pillarsTitle": "Enam permukaan. Satu lapisan operasional.",
       "pillarsDescription": "Setiap halaman Crew berada pada standar kedalaman-5 atau dalam daftar pemulihan yang dilacak secara publik. Tidak ada layar demo saja.",
       "pillars": [
         {
@@ -5682,7 +5682,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "모든 근무, 시간, 교대, 확인, 급여 주기는 신호가 됩니다. Labor Intelligence가 이를 읽고, Pulse가 알림을 보내며, Foresight가 이를 바탕으로 예측합니다. 전체 플랫폼은 더 정교해집니다.",
       "loopClosing": "동일한 인력 데이터. 복합 지능.",
       "pillarsEyebrow": "오늘 배송되는 것",
-      "pillarsTitle": "여섯 개의 표면. 하나의 운영 기초.",
+      "pillarsTitle": "여섯 개의 화면. 하나의 운영 레이어.",
       "pillarsDescription": "모든 Crew 페이지는 깊이 5 표준에 해당하거나 공개적으로 추적되는 재구성 대기열에 있습니다. 데모 전용 화면은 없습니다.",
       "pillars": [
         {
@@ -6036,7 +6036,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Varje skift, timme, byte, intyg och lönecykel blir en signal. Labor Intelligence läser den. Pulse varnar. Foresight prognostiserar utifrån den. Hela plattformen blir mer träffsäker.",
       "loopClosing": "Samma arbetskraftdata. Sammanlagd intelligens.",
       "pillarsEyebrow": "VAD SKICKAS IDAG",
-      "pillarsTitle": "Sex ytor. Ett operativt substrat.",
+      "pillarsTitle": "Sex ytor. Ett operativt lager.",
       "pillarsDescription": "Varje Crew-sida är på djup-5 standard eller på återuppbyggnadsbackloggen som spåras offentligt. Inga demovyer.",
       "pillars": [
         {
@@ -6390,7 +6390,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "প্রতিটি শিফট, ঘণ্টা, বদলি, স্বীকৃতি ও পে-রোল চক্র একটি সংকেতে পরিণত হয়। Labor Intelligence সেটি পড়ে। Pulse সতর্ক করে। Foresight সেটির ওপর ভিত্তি করে পূর্বাভাস দেয়। পুরো প্ল্যাটফর্ম আরও নির্ভুল হয়।",
       "loopClosing": "একই কর্মশক্তির তথ্য। জটিল বুদ্ধিমত্তা।",
       "pillarsEyebrow": "আজ কি জাহাজে যাচ্ছে",
-      "pillarsTitle": "ছয়টি পৃষ্ঠ। একটি কার্যকরী সাবস্ট্রেট।",
+      "pillarsTitle": "ছয়টি পৃষ্ঠ। একটি অপারেশনাল স্তর।",
       "pillarsDescription": "প্রতিটি Crew পৃষ্ঠা গভীরতা-৫ মানের বা পুনর্নির্মাণ ব্যাকলগে পাবলিকভাবে ট্র্যাক করা হয়। শুধুমাত্র ডেমো স্ক্রীন নেই।",
       "pillars": [
         {
@@ -6744,7 +6744,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "ทุกกะ ทุกชั่วโมง การสลับกะ การรับรอง และรอบเงินเดือนกลายเป็นสัญญาณ Labor Intelligence อ่านสัญญาณนั้น Pulse แจ้งเตือน Foresight ใช้สัญญาณนั้นเพื่อคาดการณ์ แพลตฟอร์มทั้งหมดจึงแม่นยำขึ้น",
       "loopClosing": "ข้อมูลแรงงานเดียวกัน ความฉลาดที่เพิ่มขึ้น.",
       "pillarsEyebrow": "เรือออกวันนี้",
-      "pillarsTitle": "หกพื้นผิว หนึ่งฐานการดำเนินงาน.",
+      "pillarsTitle": "หกพื้นผิว หนึ่งชั้นการดำเนินงาน",
       "pillarsDescription": "ทุกหน้า Crew อยู่ในมาตรฐานระดับ 5 หรืออยู่ในรายการซ่อมแซมที่ติดตามสาธารณะ ไม่มีหน้าจอสำหรับสาธิตเท่านั้น.",
       "pillars": [
         {
@@ -7098,7 +7098,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Setiap syif, jam, pertukaran, pengesahan dan kitaran gaji menjadi isyarat. Labor Intelligence membacanya. Pulse memberi amaran. Foresight membuat ramalan berdasarkannya. Seluruh platform menjadi lebih tepat.",
       "loopClosing": "Data tenaga kerja yang sama. Kecerdasan yang bertambah.",
       "pillarsEyebrow": "APA YANG DILAYAN HARI INI",
-      "pillarsTitle": "Enam permukaan. Satu substrat operasi.",
+      "pillarsTitle": "Enam permukaan. Satu lapisan operasi.",
       "pillarsDescription": "Setiap halaman Crew adalah pada standard kedalaman-5 atau dalam senarai pembinaan semula yang dipantau secara awam. Tiada skrin demo sahaja.",
       "pillars": [
         {

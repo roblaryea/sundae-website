@@ -142,7 +142,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     loopClosing: "Same workforce data. Compounding intelligence.",
 
     pillarsEyebrow: "WHAT SHIPS TODAY",
-    pillarsTitle: "Six surfaces. One operational substrate.",
+    pillarsTitle: "Six surfaces. One operational layer.",
     pillarsDescription: "Production-grade surfaces with audit-ready workflows - built for daily operator use, not for demos.",
     pillars: [
       { title: "Scheduling", body: "AI Builder composes the schedule from demand forecast, role mix, and eligibility - then the manager edits the four view modes that matter (overview, by-person, by-shift, by-role). Recurrence, eligibility checks, conflict warnings, public-holiday overlays.", chips: ["AI Builder", "4 view modes", "Demand-matched", "Recurrence"] },
@@ -166,7 +166,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     retiresEyebrow: "WHAT CREW RETIRES",
     retiresTitle: "Stop running workforce ops in parallel systems.",
-    retiresDescription: "Most operators run scheduling, T&A, payroll readiness, HR casework, employee comms, and workforce analytics in separate tools that don't talk to each other. Crew consolidates the operational substrate so the same workforce data flows through to decision intelligence.",
+    retiresDescription: "Most operators run scheduling, T&A, payroll readiness, HR casework, employee comms, and workforce analytics in separate tools that don't talk to each other. Crew consolidates the operational layer so the same workforce data flows through to decision intelligence.",
     retiresItems: [
       { label: "Scheduling", title: "Stand-alone scheduler", body: "Recurring shifts, AI builder, eligibility checks, swap marketplace, public-holiday overlays. One source of truth for the schedule." },
       { label: "Time & Attendance", title: "Punch clock + spreadsheet variance", body: "Mobile PWA clock-in with geo-fence + WebAuthn biometric. Trust scores feed Workforce Health automatically." },
@@ -259,7 +259,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     loopClosing: "نفس بيانات القوى العاملة. ذكاء مركّب.",
 
     pillarsEyebrow: "ما يُشحن اليوم",
-    pillarsTitle: "ست واجهات. ركيزة تشغيلية واحدة.",
+    pillarsTitle: "ست واجهات. طبقة تشغيلية واحدة.",
     pillarsDescription: "واجهات بمستوى الإنتاج وسير عمل جاهز للتدقيق - مبنية للاستخدام التشغيلي اليومي، لا للعروض.",
     pillars: [
       { title: "الجدولة", body: "AI Builder يؤلف الجدول من توقع الطلب ومزيج الأدوار والأهلية - ثم يحرر المدير الأنماط الأربعة (نظرة عامة، حسب الشخص، حسب الوردية، حسب الدور). تكرار، فحص أهلية، تحذيرات تعارض، تداخل عطل رسمية.", chips: ["AI Builder", "4 أنماط عرض", "متطابق مع الطلب", "تكرار"] },
@@ -283,7 +283,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     retiresEyebrow: "ما يستغني عنه Crew",
     retiresTitle: "أوقف تشغيل عمليات القوى العاملة في أنظمة متوازية.",
-    retiresDescription: "معظم المشغلين يديرون الجدولة، الوقت والحضور، جاهزية الرواتب، حالات HR، اتصالات الموظفين، وتحليلات القوى العاملة في أدوات منفصلة لا تتحدث. Crew يدمج الركيزة التشغيلية لتتدفق نفس البيانات إلى ذكاء القرار.",
+    retiresDescription: "يدير معظم المشغّلين جدولة المناوبات وT&A والتحضير لكشوف الرواتب وملفات الموارد البشرية والتواصل مع الموظفين وتحليلات القوى العاملة عبر أدوات منفصلة لا يتحدث بعضها إلى بعض. يوحّد Crew الطبقة التشغيلية بحيث تتدفق بيانات القوى العاملة نفسها إلى ذكاء القرار.",
     retiresItems: [
       { label: "الجدولة", title: "مجدول مستقل", body: "ورديات متكررة، AI Builder، فحوص أهلية، سوق تبديل، عُطل رسمية. مصدر واحد للجدول." },
       { label: "الوقت والحضور", title: "ساعة دق + تباين Excel", body: "PWA جوال للتسجيل مع geo-fence وبيومتري WebAuthn. درجات الثقة تغذي Workforce Health تلقائياً." },
@@ -376,7 +376,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     loopClosing: "Mêmes données main-d'œuvre. Intelligence composée.",
 
     pillarsEyebrow: "CE QUI EXPÉDIE AUJOURD'HUI",
-    pillarsTitle: "Six surfaces. Un seul substrat opérationnel.",
+    pillarsTitle: "Six surfaces. Une seule couche opérationnelle.",
     pillarsDescription: "Surfaces production-grade et workflows audit-ready - conçues pour l'usage opérateur quotidien, pas pour les démos.",
     pillars: [
       { title: "Planification", body: "AI Builder compose le planning depuis prévision demande, mix de rôles et éligibilité - puis le manager édite les quatre modes (vue d'ensemble, par personne, par service, par rôle). Récurrence, contrôles d'éligibilité, alertes conflits, jours fériés.", chips: ["AI Builder", "4 modes", "Demande-adapté", "Récurrence"] },
@@ -400,7 +400,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     retiresEyebrow: "CE QUE CREW RETIRE",
     retiresTitle: "Arrêtez de faire tourner les ops main-d'œuvre en systèmes parallèles.",
-    retiresDescription: "La plupart des opérateurs gèrent planification, T&A, préparation paie, casework RH, comms employés et analytics main-d'œuvre dans des outils séparés qui ne se parlent pas. Crew consolide le substrat opérationnel pour que les mêmes données alimentent la décision intelligence.",
+    retiresDescription: "La plupart des exploitants gèrent le planning, le T&A, la préparation de la paie, les dossiers RH, la communication interne et l'analyse des effectifs dans des outils distincts qui ne communiquent pas entre eux. Crew réunit la couche opérationnelle pour que les mêmes données sur les effectifs alimentent directement la décision intelligente.",
     retiresItems: [
       { label: "Planning", title: "Planificateur autonome", body: "Récurrences, AI Builder, vérifs éligibilité, marketplace swap, jours fériés. Une seule source de vérité." },
       { label: "Temps & Présence", title: "Pointage + variance tableur", body: "Pointage PWA mobile avec géo-fence + biométrie WebAuthn. Scores de confiance alimentent Workforce Health." },
@@ -493,7 +493,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     loopClosing: "Los mismos datos. Inteligencia compuesta.",
 
     pillarsEyebrow: "LO QUE SE ENVÍA HOY",
-    pillarsTitle: "Seis superficies. Un sustrato operativo.",
+    pillarsTitle: "Seis superficies. Una sola capa operativa.",
     pillarsDescription: "Superficies de producción con flujos auditables - construidas para el uso operativo diario, no para demos.",
     pillars: [
       { title: "Horarios", body: "AI Builder compone el horario desde pronóstico de demanda, mix de roles y elegibilidad - luego el manager edita los cuatro modos (vista general, por persona, por turno, por rol). Recurrencia, verificación elegibilidad, alertas conflicto, festivos.", chips: ["AI Builder", "4 modos", "Demanda-ajustado", "Recurrencia"] },
@@ -517,7 +517,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     retiresEyebrow: "QUÉ RETIRA CREW",
     retiresTitle: "Deja de operar la fuerza laboral en sistemas paralelos.",
-    retiresDescription: "La mayoría de operadores corren horarios, T&A, readiness de nómina, casework RR.HH., comms de empleados y analítica laboral en herramientas separadas que no se hablan. Crew consolida el sustrato operativo para que los mismos datos fluyan a la inteligencia de decisión.",
+    retiresDescription: "La mayoría de los operadores gestionan la planificación de turnos, el T&A, la preparación de nóminas, los casos de RR. HH., la comunicación interna y la analítica de plantilla en herramientas separadas que no se hablan entre sí. Crew unifica la capa operativa para que los mismos datos de la plantilla fluyan hacia la inteligencia de decisión.",
     retiresItems: [
       { label: "Horarios", title: "Programador independiente", body: "Recurrencias, AI Builder, verificación de elegibilidad, marketplace de swap, festivos. Una fuente de verdad." },
       { label: "Tiempo & Asistencia", title: "Reloj + varianza Excel", body: "Fichaje PWA móvil con geo-cerca + biometría WebAuthn. Scores de confianza alimentan Workforce Health." },
