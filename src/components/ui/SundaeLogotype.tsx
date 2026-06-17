@@ -19,8 +19,16 @@ export function SundaeLogotype({
   return (
     <span
       aria-label="Sundae"
-      className={`block select-none font-medium leading-none tracking-[-0.02em] ${className}`}
-      style={{ fontFamily: "var(--font-display)", ...style }}
+      className={`block select-none leading-none tracking-[-0.018em] ${className}`}
+      style={{
+        fontFamily: "var(--font-display)",
+        fontWeight: 600,
+        // Force the warm display cut + soft, slightly wonky letterforms at any
+        // size so the wordmark reads as a crafted logotype, not a plain serif.
+        fontOpticalSizing: "none",
+        fontVariationSettings: "'opsz' 144, 'SOFT' 90, 'WONK' 1",
+        ...style,
+      }}
     >
       sundae
     </span>

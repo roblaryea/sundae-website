@@ -234,15 +234,12 @@ const Navbar = () => {
             >
               <SundaeMark size={30} className="flex-shrink-0 transition-transform duration-300 group-hover:-translate-y-px group-hover:scale-[1.06]" />
               <span className="relative inline-block">
-                {/* Clean Fraunces wordmark - rebrand primary register (theme-aware: white on dark, warm ink on light) */}
-                <span
-                  className={`block select-none text-[27px] font-medium leading-none tracking-[-0.02em] text-[#FBF8F4] [html.light_&]:text-[#2A2320] transition-opacity duration-300 ${
+                {/* Finessed Fraunces logotype - rebrand primary register (theme-aware: white on dark, warm ink on light) */}
+                <SundaeLogotype
+                  className={`text-[27px] text-[#FBF8F4] [html.light_&]:text-[#2A2320] transition-opacity duration-300 ${
                     isLogoHovered ? 'opacity-80' : 'opacity-100'
                   }`}
-                  style={{ fontFamily: 'var(--font-display)' }}
-                >
-                  sundae
-                </span>
+                />
                 {/* Subtle shimmer effect on hover - theme-aware via --shape-tint */}
                 <span
                   aria-hidden

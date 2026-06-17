@@ -30,6 +30,11 @@ const fraunces = Fraunces({
   subsets: ["latin"],
   style: ["normal", "italic"],
   display: "swap",
+  // Expose Fraunces' character axes so the logotype can force the warm display
+  // cut (high opsz) + soft, wonky letterforms even at small navbar sizes -
+  // otherwise automatic optical sizing falls back to the plain "text" cut and
+  // the wordmark reads bland / generic-serif.
+  axes: ["opsz", "SOFT", "WONK"],
 });
 
 // Body / UI - friendly, legible grotesk; the default sans (replaces Geist).
