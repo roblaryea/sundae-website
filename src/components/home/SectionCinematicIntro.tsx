@@ -312,22 +312,23 @@ function Glass() {
           <circle cx="120" cy="76" r="2" fill="rgba(255,255,255,.35)" />
         </motion.g>
 
-        {/* product signal - a projection lifts off the cherry: the cinematic
-            "every layer" metaphor turning into intelligence + a "now" pulse, so
-            the first viewport already hints at the product, not just the brand. */}
+        {/* product signal - a projection lifts off the LIQUID SURFACE (clear of
+            the cherry) to the upper left: the "every layer" metaphor turning into
+            a forecast + a "now" pulse, so the first viewport hints at the product.
+            Starts left of the cherry so it never reads as a line on the fruit. */}
         <motion.path
-          d="M110 60 L94 52 L80 56 L64 40 L50 31"
+          d="M84 80 L72 71 L60 75 L47 55 L36 40"
           fill="none"
           stroke="#F6C66B"
-          strokeWidth="1.5"
+          strokeWidth="1.4"
           strokeLinecap="round"
           strokeLinejoin="round"
           initial={reduce ? false : { pathLength: 0, opacity: 0 }}
-          animate={{ pathLength: 1, opacity: 0.8 }}
+          animate={{ pathLength: 1, opacity: 0.72 }}
           transition={{ delay: reduce ? 0 : BEAT, duration: 1.1, ease: EASE }}
         />
         <motion.circle
-          cx="50" cy="31" r="3" fill="#FFE9B0"
+          cx="36" cy="40" r="2.8" fill="#FFE9B0"
           initial={reduce ? false : { opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
           style={{ transformBox: "fill-box", transformOrigin: "center" }}
@@ -335,7 +336,7 @@ function Glass() {
         />
         {!reduce && (
           <motion.circle
-            cx="50" cy="31" r="3" fill="none" stroke="#F6C66B" strokeWidth="1.1"
+            cx="36" cy="40" r="2.8" fill="none" stroke="#F6C66B" strokeWidth="1.1"
             style={{ transformBox: "fill-box", transformOrigin: "center" }}
             animate={{ scale: [1, 3], opacity: [0.7, 0] }}
             transition={{ duration: 1.8, repeat: Infinity, delay: BEAT + 1, ease: "easeOut" }}
