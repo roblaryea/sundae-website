@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "你无法同时身处每一家餐厅",
-          "description": "等到糟糕的班次结束，你只能从回顾中发现问题——而不是在现场。",
+          "description": "等到糟糕的班次结束，你只能从回顾中发现问题 -  - 而不是在现场。",
           "icon": "operators"
         },
         {
@@ -817,7 +817,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "流失隐藏在噪音中",
-          "description": "作废、赠送、折扣、人手过剩——单个班次微不足道，但一个月下来代价高昂。",
+          "description": "作废、赠送、折扣、人手过剩 -  - 单个班次微不足道，但一个月下来代价高昂。",
           "icon": "balance"
         },
         {
@@ -831,7 +831,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "整个地区的实时节奏",
-          "description": "每家门店的营收、客流和人工——随班次实时更新。下滑的门店会在你的早间简报中标记出来，而不是周五的回顾中。",
+          "description": "每家门店的营收、客流和人工 -  - 随班次实时更新。下滑的门店会在你的早间简报中标记出来，而不是周五的回顾中。",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -843,7 +843,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "班次中发现流失",
-          "description": "作废、赠送集中、异常折扣——在仍有时间与总经理沟通时，就在该门店浮现出来。",
+          "description": "作废、赠送集中、异常折扣 -  - 在仍有时间与总经理沟通时，就在该门店浮现出来。",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },

@@ -9,7 +9,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "Integrationen – jedes POS-, Liefer- & Finanzsystem"
+          "label": "Integrationen - jedes POS-, Liefer- & Finanzsystem"
         },
         {
           "value": "12",
@@ -48,7 +48,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "intégrations — chaque système POS, livraison & finance"
+          "label": "intégrations - chaque système POS, livraison & finance"
         },
         {
           "value": "12",
@@ -87,7 +87,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integraciones — cada sistema POS, delivery y finanzas"
+          "label": "integraciones - cada sistema POS, delivery y finanzas"
         },
         {
           "value": "12",
@@ -126,7 +126,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integraties – elk POS-, bezorg- & financieel systeem"
+          "label": "integraties - elk POS-, bezorg- & financieel systeem"
         },
         {
           "value": "12",
@@ -165,7 +165,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integrações – cada sistema POS, delivery e financeiro"
+          "label": "integrações - cada sistema POS, delivery e financeiro"
         },
         {
           "value": "12",
@@ -204,7 +204,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "इंटीग्रेशन — हर POS, डिलीवरी और फाइनेंस सिस्टम"
+          "label": "इंटीग्रेशन - हर POS, डिलीवरी और फाइनेंस सिस्टम"
         },
         {
           "value": "12",
@@ -243,7 +243,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integrazioni – ogni sistema POS, delivery e contabilità"
+          "label": "integrazioni - ogni sistema POS, delivery e contabilità"
         },
         {
           "value": "12",
@@ -282,7 +282,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "+200",
-          "label": "تكامل — كل أنظمة POS والتوصيل والمالية"
+          "label": "تكامل - كل أنظمة POS والتوصيل والمالية"
         },
         {
           "value": "12",
@@ -321,7 +321,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "+200",
-          "label": "انٹیگریشنز — ہر POS، ڈیلیوری اور فنانس سسٹم"
+          "label": "انٹیگریشنز - ہر POS، ڈیلیوری اور فنانس سسٹم"
         },
         {
           "value": "12",
@@ -360,7 +360,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "entegrasyon — her POS, teslimat ve finans sistemi"
+          "label": "entegrasyon - her POS, teslimat ve finans sistemi"
         },
         {
           "value": "12",
@@ -399,7 +399,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integracji — każdy system POS, dostaw i finansów"
+          "label": "integracji - każdy system POS, dostaw i finansów"
         },
         {
           "value": "12",
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "連携 — あらゆるPOS・デリバリー・会計システム"
+          "label": "連携 - あらゆるPOS・デリバリー・会計システム"
         },
         {
           "value": "12",
@@ -473,7 +473,7 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "eyebrow": "由运营商构建",
       "headline": "由各类餐厅运营商塑造。",
-      "description": "快餐、休闲餐饮、高档餐饮、云厨房和餐饮集团共同塑造了餐厅真正需要的智能层——从单店经营者到多品牌集团。",
+      "description": "快餐、休闲餐饮、高档餐饮、云厨房和餐饮集团共同塑造了餐厅真正需要的智能层 -  - 从单店经营者到多品牌集团。",
       "stats": [
         {
           "value": "200+",
@@ -516,7 +516,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integrasi — setiap sistem POS, pengiriman & keuangan"
+          "label": "integrasi - setiap sistem POS, pengiriman & keuangan"
         },
         {
           "value": "12",
@@ -555,7 +555,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "개 연동 — 모든 POS·배달·재무 시스템"
+          "label": "개 연동 - 모든 POS·배달·재무 시스템"
         },
         {
           "value": "12",
@@ -594,7 +594,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "tích hợp — mọi hệ thống POS, giao hàng & tài chính"
+          "label": "tích hợp - mọi hệ thống POS, giao hàng & tài chính"
         },
         {
           "value": "12",
@@ -633,7 +633,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integrări — fiecare sistem POS, livrare & financiar"
+          "label": "integrări - fiecare sistem POS, livrare & financiar"
         },
         {
           "value": "12",
@@ -672,7 +672,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integrationer — varje POS-, leverans- & ekonomisystem"
+          "label": "integrationer - varje POS-, leverans- & ekonomisystem"
         },
         {
           "value": "12",
@@ -711,7 +711,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "ইন্টিগ্রেশন — প্রতিটি POS, ডেলিভারি ও ফিনান্স সিস্টেম"
+          "label": "ইন্টিগ্রেশন - প্রতিটি POS, ডেলিভারি ও ফিনান্স সিস্টেম"
         },
         {
           "value": "12",
@@ -750,7 +750,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "การเชื่อมต่อ — ทุกระบบ POS, เดลิเวอรี และการเงิน"
+          "label": "การเชื่อมต่อ - ทุกระบบ POS, เดลิเวอรี และการเงิน"
         },
         {
           "value": "12",
@@ -789,7 +789,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "value": "200+",
-          "label": "integrasi — setiap sistem POS, penghantaran & kewangan"
+          "label": "integrasi - setiap sistem POS, penghantaran & kewangan"
         },
         {
           "value": "12",

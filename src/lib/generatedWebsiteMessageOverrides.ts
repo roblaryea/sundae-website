@@ -196,7 +196,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Entscheidungsintelligenz-Plattform",
       "titleTop": "Entscheidungsintelligenz",
       "titleBottom": "für Restaurants mit mehreren Standorten",
-      "description": "Ihre Daten liegen in POS, Lieferung, Reservierungen, Personal, Inventar und Finanzen. Sundae führt sie in einer KI-nativen Betriebsschicht zusammen — erkennt, was sich geändert hat, erklärt warum und",
+      "description": "Ihre Daten liegen in POS, Lieferung, Reservierungen, Personal, Inventar und Finanzen. Sundae führt sie in einer KI-nativen Betriebsschicht zusammen - erkennt, was sich geändert hat, erklärt warum und",
       "descriptionEmphasis": "zeigt den nächsten Schritt, solange die Schicht noch läuft.",
       "narrativeAnchor": "Von Reporting-Lücken zu operativem Tempo.",
       "startFree": "Demo buchen",
@@ -938,7 +938,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Beslissingsintelligentieplatform",
       "titleTop": "Beslissingsintelligentie",
       "titleBottom": "voor restaurants met meerdere vestigingen",
-      "description": "Uw data zit verspreid over POS, bezorging, reserveringen, personeel, voorraad en financiën. Sundae brengt het samen in één AI-native operationele laag — signaleert wat er veranderde, legt uit waarom en",
+      "description": "Uw data zit verspreid over POS, bezorging, reserveringen, personeel, voorraad en financiën. Sundae brengt het samen in één AI-native operationele laag - signaleert wat er veranderde, legt uit waarom en",
       "descriptionEmphasis": "toont de volgende zet terwijl de dienst nog loopt.",
       "narrativeAnchor": "Van rapportagevertraging naar operationeel tempo.",
       "startFree": "Demo boeken",
@@ -1680,7 +1680,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Plataforma de Inteligência de Decisão",
       "titleTop": "Inteligência de Decisão",
       "titleBottom": "para restaurantes multiunidade",
-      "description": "Seus dados vivem em PDV, delivery, reservas, equipe, estoque e finanças. O Sundae reúne tudo numa camada operacional nativa de IA — detecta o que mudou, explica por quê e",
+      "description": "Seus dados vivem em PDV, delivery, reservas, equipe, estoque e finanças. O Sundae reúne tudo numa camada operacional nativa de IA - detecta o que mudou, explica por quê e",
       "descriptionEmphasis": "mostra o próximo passo enquanto o turno ainda é seu.",
       "narrativeAnchor": "Da lentidão na geração de relatórios à agilidade nas operações.",
       "startFree": "Agendar demo",
@@ -2422,7 +2422,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
       "titleTop": "निर्णय बुद्धिमत्ता",
       "titleBottom": "मल्टी-लोकेशन रेस्टोरेंट के लिए",
-      "description": "आपका डेटा POS, डिलीवरी, रिज़र्वेशन, लेबर, इन्वेंटरी और फाइनेंस में बिखरा रहता है। Sundae इसे एक AI-नेटिव ऑपरेटिंग लेयर में लाता है — पकड़ता है क्या बदला, बताता है क्यों, और",
+      "description": "आपका डेटा POS, डिलीवरी, रिज़र्वेशन, लेबर, इन्वेंटरी और फाइनेंस में बिखरा रहता है। Sundae इसे एक AI-नेटिव ऑपरेटिंग लेयर में लाता है - पकड़ता है क्या बदला, बताता है क्यों, और",
       "descriptionEmphasis": "शिफ्ट खत्म होने से पहले अगला कदम सामने रखता है।",
       "narrativeAnchor": "रिपोर्टिंग में देरी से संचालन की गति तक।",
       "startFree": "डेमो बुक करें",
@@ -3164,7 +3164,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "فیصلہ سازی کی ذہانت کا پلیٹ فارم",
       "titleTop": "فیصلہ سازی کی ذہانت",
       "titleBottom": "متعدد مقامات والے ریستورانوں کے لیے",
-      "description": "آپ کا ڈیٹا POS، ڈیلیوری، ریزرویشن، لیبر، انوینٹری اور فنانس میں بکھرا رہتا ہے۔ Sundae اسے ایک AI-نیٹو آپریٹنگ پرت میں لاتا ہے — پہچانتا ہے کیا بدلا، بتاتا ہے کیوں، اور",
+      "description": "آپ کا ڈیٹا POS، ڈیلیوری، ریزرویشن، لیبر، انوینٹری اور فنانس میں بکھرا رہتا ہے۔ Sundae اسے ایک AI-نیٹو آپریٹنگ پرت میں لاتا ہے - پہچانتا ہے کیا بدلا، بتاتا ہے کیوں، اور",
       "descriptionEmphasis": "شفٹ ختم ہونے سے پہلے اگلا قدم سامنے لاتا ہے۔",
       "narrativeAnchor": "رپورٹنگ کی تاخیر سے آپریشن کی رفتار تک۔",
       "startFree": "ڈیمو بُک کریں",
@@ -3906,7 +3906,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Piattaforma di Intelligenza Decisionale",
       "titleTop": "Intelligenza Decisionale",
       "titleBottom": "per ristoranti multi-sede",
-      "description": "I tuoi dati vivono tra POS, delivery, prenotazioni, personale, magazzino e contabilità. Sundae li unisce in un unico livello operativo nativo IA — coglie cosa è cambiato, spiega perché e",
+      "description": "I tuoi dati vivono tra POS, delivery, prenotazioni, personale, magazzino e contabilità. Sundae li unisce in un unico livello operativo nativo IA - coglie cosa è cambiato, spiega perché e",
       "descriptionEmphasis": "fa emergere la prossima mossa prima che il servizio finisca.",
       "narrativeAnchor": "Dalla lentezza dei report alla velocità operativa.",
       "startFree": "Prenota una demo",
@@ -4648,7 +4648,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platforma Inteligencji Decyzyjnej",
       "titleTop": "Inteligencja Decyzyjna",
       "titleBottom": "dla restauracji wielolokalizacyjnych",
-      "description": "Twoje dane żyją w POS, dostawach, rezerwacjach, kadrach, magazynie i finansach. Sundae łączy je w jedną natywnie opartą na AI warstwę operacyjną — wykrywa, co się zmieniło, wyjaśnia dlaczego i",
+      "description": "Twoje dane żyją w POS, dostawach, rezerwacjach, kadrach, magazynie i finansach. Sundae łączy je w jedną natywnie opartą na AI warstwę operacyjną - wykrywa, co się zmieniło, wyjaśnia dlaczego i",
       "descriptionEmphasis": "pokazuje następny ruch, póki zmiana wciąż trwa.",
       "narrativeAnchor": "Od opóźnień w raportowaniu do szybkości operacji.",
       "startFree": "Umów demo",
@@ -5390,7 +5390,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Karar Zekası Platformu",
       "titleTop": "Karar Zekası",
       "titleBottom": "çok şubeli restoranlar için",
-      "description": "Verileriniz POS, teslimat, rezervasyon, personel, envanter ve finans arasında dağılır. Sundae bunları tek bir AI-doğal operasyon katmanında birleştirir — neyin değiştiğini yakalar, nedenini açıklar ve",
+      "description": "Verileriniz POS, teslimat, rezervasyon, personel, envanter ve finans arasında dağılır. Sundae bunları tek bir AI-doğal operasyon katmanında birleştirir - neyin değiştiğini yakalar, nedenini açıklar ve",
       "descriptionEmphasis": "vardiya bitmeden bir sonraki adımı önünüze koyar.",
       "narrativeAnchor": "Raporlama gecikmesinden operasyon hızına.",
       "startFree": "Demo planlayın",
@@ -6132,7 +6132,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "决策智能平台",
       "titleTop": "决策智能",
       "titleBottom": "为多门店餐厅打造",
-      "description": "你的数据散落在 POS、外卖、预订、用工、库存和财务之间。Sundae 将它们汇入一个 AI 原生的运营层——发现变化、解释原因，并",
+      "description": "你的数据散落在 POS、外卖、预订、用工、库存和财务之间。Sundae 将它们汇入一个 AI 原生的运营层 -  - 发现变化、解释原因，并",
       "descriptionEmphasis": "在班次结束前给出下一步该怎么做。",
       "narrativeAnchor": "从报告滞后到运营提速。",
       "startFree": "预约演示",
@@ -6222,13 +6222,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "对话式 AI",
-            "description": "向你的数据问任何问题——在网页、WhatsApp、Telegram、Slack 或 Teams 上数秒内给出带来源的答案。",
+            "description": "向你的数据问任何问题 -  - 在网页、WhatsApp、Telegram、Slack 或 Teams 上数秒内给出带来源的答案。",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "预测智能",
-            "description": "预测、预算与假设情景——配自我校正的高管简报。",
+            "description": "预测、预算与假设情景 -  - 配自我校正的高管简报。",
             "href": "/product/foresight"
           }
         ]
@@ -6236,7 +6236,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "智能模块",
         "heading": "12个领域的12个模块",
-        "description": "餐厅绩效的每个维度——经过分析、基准对比，并可付诸行动。",
+        "description": "餐厅绩效的每个维度 -  - 经过分析、基准对比，并可付诸行动。",
         "categories": [
           {
             "name": "收入智能",
@@ -6296,7 +6296,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "运营领导",
             "pain": "你不可能同时在每个餐厅。",
-            "outcome": "实时掌握每个门店的运营节奏和服务员表现——查看谁现在需要帮助。",
+            "outcome": "实时掌握每个门店的运营节奏和服务员表现 -  - 查看谁现在需要帮助。",
             "attribution": "多地点运营商的模式"
           },
           {
@@ -6308,7 +6308,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C级高管与所有者",
             "pain": "你最差的门店在周四之前是看不见的。",
-            "outcome": "投资组合视图，每日AI简报，市场信号——涵盖你运营的每个品牌。",
+            "outcome": "投资组合视图，每日AI简报，市场信号 -  - 涵盖你运营的每个品牌。",
             "attribution": "创始人和集团CEO的模式"
           },
           {
@@ -6874,7 +6874,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "意思決定インテリジェンスプラットフォーム",
       "titleTop": "意思決定インテリジェンス",
       "titleBottom": "多店舗レストランのための",
-      "description": "あなたのデータは POS、デリバリー、予約、労務、在庫、会計に散らばっています。Sundae はそれらを一つの AI ネイティブな運用レイヤーにまとめ——何が変わったかを捉え、理由を説明し、",
+      "description": "あなたのデータは POS、デリバリー、予約、労務、在庫、会計に散らばっています。Sundae はそれらを一つの AI ネイティブな運用レイヤーにまとめ -  - 何が変わったかを捉え、理由を説明し、",
       "descriptionEmphasis": "シフトが終わる前に次の一手を示します。",
       "narrativeAnchor": "報告の遅延から運営のスピードへ。",
       "startFree": "デモを予約",
@@ -6964,13 +6964,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "会話型AI",
-            "description": "データに何でも質問——Web、WhatsApp、Telegram、Slack、Teams で数秒、出典付きの回答。",
+            "description": "データに何でも質問 -  - Web、WhatsApp、Telegram、Slack、Teams で数秒、出典付きの回答。",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "予測情報",
-            "description": "予測、予算、What-ifシナリオ——自己修正する経営層向けブリーフィング付き。",
+            "description": "予測、予算、What-ifシナリオ -  - 自己修正する経営層向けブリーフィング付き。",
             "href": "/product/foresight"
           }
         ]
@@ -7616,7 +7616,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "결정 지능 플랫폼",
       "titleTop": "결정 지능",
       "titleBottom": "다점포 레스토랑을 위한",
-      "description": "당신의 데이터는 POS, 배달, 예약, 인력, 재고, 재무에 흩어져 있습니다. Sundae는 이를 하나의 AI 네이티브 운영 레이어로 모아 — 무엇이 바뀌었는지 포착하고, 이유를 설명하며,",
+      "description": "당신의 데이터는 POS, 배달, 예약, 인력, 재고, 재무에 흩어져 있습니다. Sundae는 이를 하나의 AI 네이티브 운영 레이어로 모아 - 무엇이 바뀌었는지 포착하고, 이유를 설명하며,",
       "descriptionEmphasis": "근무가 끝나기 전에 다음 수를 보여 줍니다.",
       "narrativeAnchor": "보고 지연에서 운영 속도로.",
       "startFree": "데모 예약",
@@ -8358,7 +8358,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platform Intelijen Keputusan",
       "titleTop": "Intelijen Keputusan",
       "titleBottom": "untuk restoran multi-lokasi",
-      "description": "Data Anda tersebar di POS, pengiriman, reservasi, tenaga kerja, inventaris, dan keuangan. Sundae menyatukannya dalam satu lapisan operasi AI-native — menangkap apa yang berubah, menjelaskan mengapa, dan",
+      "description": "Data Anda tersebar di POS, pengiriman, reservasi, tenaga kerja, inventaris, dan keuangan. Sundae menyatukannya dalam satu lapisan operasi AI-native - menangkap apa yang berubah, menjelaskan mengapa, dan",
       "descriptionEmphasis": "memunculkan langkah berikutnya sebelum shift berakhir.",
       "narrativeAnchor": "Dari keterlambatan pelaporan ke kecepatan operasional.",
       "startFree": "Pesan demo",
@@ -9100,7 +9100,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Nền tảng Trí tuệ Quyết định",
       "titleTop": "Trí tuệ Quyết định",
       "titleBottom": "cho nhà hàng nhiều chi nhánh",
-      "description": "Dữ liệu của bạn nằm rải rác ở POS, giao hàng, đặt bàn, nhân sự, kho và tài chính. Sundae gộp tất cả vào một lớp vận hành thuần AI — phát hiện điều gì đã thay đổi, giải thích vì sao, và",
+      "description": "Dữ liệu của bạn nằm rải rác ở POS, giao hàng, đặt bàn, nhân sự, kho và tài chính. Sundae gộp tất cả vào một lớp vận hành thuần AI - phát hiện điều gì đã thay đổi, giải thích vì sao, và",
       "descriptionEmphasis": "đưa ra nước đi tiếp theo khi ca làm vẫn còn kịp.",
       "narrativeAnchor": "Từ độ trễ báo cáo đến tốc độ vận hành.",
       "startFree": "Đặt demo",
@@ -9842,7 +9842,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platforma de Inteligență Decizională",
       "titleTop": "Inteligența Decizională",
       "titleBottom": "pentru restaurante multi-locație",
-      "description": "Datele tale trăiesc în POS, livrare, rezervări, personal, stocuri și finanțe. Sundae le aduce într-un singur strat operațional nativ AI — sesizează ce s-a schimbat, explică de ce și",
+      "description": "Datele tale trăiesc în POS, livrare, rezervări, personal, stocuri și finanțe. Sundae le aduce într-un singur strat operațional nativ AI - sesizează ce s-a schimbat, explică de ce și",
       "descriptionEmphasis": "scoate la iveală următoarea mișcare cât tura încă e a ta.",
       "narrativeAnchor": "De la întârzierea raportării la viteza operațiunilor.",
       "startFree": "Programează un demo",
@@ -10584,7 +10584,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Beslutsintelligensplattform",
       "titleTop": "Beslutsintelligens",
       "titleBottom": "för restauranger med flera enheter",
-      "description": "Din data lever i POS, leverans, bokningar, personal, lager och ekonomi. Sundae samlar allt i ett AI-nativt driftslager — fångar vad som ändrades, förklarar varför och",
+      "description": "Din data lever i POS, leverans, bokningar, personal, lager och ekonomi. Sundae samlar allt i ett AI-nativt driftslager - fångar vad som ändrades, förklarar varför och",
       "descriptionEmphasis": "lyfter fram nästa drag medan passet fortfarande pågår.",
       "narrativeAnchor": "Från rapporteringsfördröjning till operativ hastighet.",
       "startFree": "Boka en demo",
@@ -11326,7 +11326,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
       "titleTop": "সিদ্ধান্ত বুদ্ধিমত্তা",
       "titleBottom": "মাল্টি-লোকেশন রেস্তোরাঁর জন্য",
-      "description": "আপনার ডেটা POS, ডেলিভারি, রিজার্ভেশন, কর্মী, ইনভেন্টরি ও ফিনান্সে ছড়িয়ে থাকে। Sundae সেগুলোকে একটি AI-নেটিভ অপারেটিং লেয়ারে আনে — কী বদলালো ধরে, কেন তা ব্যাখ্যা করে, এবং",
+      "description": "আপনার ডেটা POS, ডেলিভারি, রিজার্ভেশন, কর্মী, ইনভেন্টরি ও ফিনান্সে ছড়িয়ে থাকে। Sundae সেগুলোকে একটি AI-নেটিভ অপারেটিং লেয়ারে আনে - কী বদলালো ধরে, কেন তা ব্যাখ্যা করে, এবং",
       "descriptionEmphasis": "শিফট শেষ হওয়ার আগেই পরের পদক্ষেপ সামনে আনে।",
       "narrativeAnchor": "রিপোর্টিং বিলম্ব থেকে অপারেশন গতি।",
       "startFree": "ডেমো বুক করুন",
@@ -12068,7 +12068,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "แพลตฟอร์มการตัดสินใจอัจฉริยะ",
       "titleTop": "ปัญญาการตัดสินใจ",
       "titleBottom": "สำหรับร้านอาหารหลายสาขา",
-      "description": "ข้อมูลของคุณกระจายอยู่ใน POS เดลิเวอรี การจอง แรงงาน สินค้าคงคลัง และการเงิน Sundae รวมทุกอย่างไว้ในชั้นปฏิบัติการที่เป็น AI โดยกำเนิด — จับว่าอะไรเปลี่ยน อธิบายว่าทำไม และ",
+      "description": "ข้อมูลของคุณกระจายอยู่ใน POS เดลิเวอรี การจอง แรงงาน สินค้าคงคลัง และการเงิน Sundae รวมทุกอย่างไว้ในชั้นปฏิบัติการที่เป็น AI โดยกำเนิด - จับว่าอะไรเปลี่ยน อธิบายว่าทำไม และ",
       "descriptionEmphasis": "เสนอก้าวต่อไปก่อนกะจะจบลง",
       "narrativeAnchor": "จากความล่าช้าในการรายงานสู่ความเร็วในการดำเนินงาน.",
       "startFree": "จองเดโม",
@@ -12810,7 +12810,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platform Kecerdasan Keputusan",
       "titleTop": "Kecerdasan Keputusan",
       "titleBottom": "untuk restoran berbilang lokasi",
-      "description": "Data anda tersebar merentas POS, penghantaran, tempahan, tenaga kerja, inventori dan kewangan. Sundae menyatukannya dalam satu lapisan operasi asli AI — mengesan apa yang berubah, menjelaskan sebabnya, dan",
+      "description": "Data anda tersebar merentas POS, penghantaran, tempahan, tenaga kerja, inventori dan kewangan. Sundae menyatukannya dalam satu lapisan operasi asli AI - mengesan apa yang berubah, menjelaskan sebabnya, dan",
       "descriptionEmphasis": "mengetengahkan langkah seterusnya sebelum syif berakhir.",
       "narrativeAnchor": "Dari kelewatan laporan kepada kelajuan operasi.",
       "startFree": "Tempah demo",

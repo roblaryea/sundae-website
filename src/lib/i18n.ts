@@ -344,7 +344,7 @@ export const websiteMessages = {
       titleTop: 'Decision Intelligence',
       titleBottom: 'for multi-location restaurants',
       description:
-        'Your data lives across POS, delivery, reservations, labor, inventory, and finance. Sundae brings it into one AI-native operating layer — spotting what changed, explaining why, and',
+        'Your data lives across POS, delivery, reservations, labor, inventory, and finance. Sundae brings it into one AI-native operating layer - spotting what changed, explaining why, and',
       descriptionEmphasis: 'surfacing the next move before the shift is over.',
       narrativeAnchor: 'From reporting lag to ops speed.',
       startFree: 'Book a demo',
@@ -808,7 +808,7 @@ export const websiteMessages = {
       titleTop: 'ذكاء القرار',
       titleBottom: 'للمطاعم متعددة الفروع',
       description:
-        'بياناتك موزّعة على أنظمة الـ POS والتوصيل والحجوزات والعمالة والمخزون والمالية. يجمعها صنداي في طبقة تشغيل واحدة قائمة على الذكاء الاصطناعي — ترصد ما تغيّر، وتشرح السبب، و',
+        'بياناتك موزّعة على أنظمة الـ POS والتوصيل والحجوزات والعمالة والمخزون والمالية. يجمعها صنداي في طبقة تشغيل واحدة قائمة على الذكاء الاصطناعي - ترصد ما تغيّر، وتشرح السبب، و',
       descriptionEmphasis: 'تُبرز الخطوة التالية قبل أن تنتهي الوردية.',
       narrativeAnchor: 'من تأخر التقارير إلى سرعة العمليات.',
       startFree: 'احجز عرضاً',
@@ -1252,7 +1252,7 @@ export const websiteMessages = {
       titleTop: 'Intelligence décisionnelle',
       titleBottom: 'pour les restaurants multi-sites',
       description:
-        'Vos données vivent dans le POS, la livraison, les réservations, le personnel, les stocks et la finance. Sundae les réunit dans une seule couche opérationnelle native IA — repère ce qui a changé, explique pourquoi et',
+        'Vos données vivent dans le POS, la livraison, les réservations, le personnel, les stocks et la finance. Sundae les réunit dans une seule couche opérationnelle native IA - repère ce qui a changé, explique pourquoi et',
       descriptionEmphasis: 'fait remonter le prochain geste avant la fin du service.',
       narrativeAnchor: 'Du reporting en retard à la réactivité opérationnelle.',
       startFree: 'Réserver une démo',
@@ -1715,7 +1715,7 @@ export const websiteMessages = {
       titleTop: 'Inteligencia de decisión',
       titleBottom: 'para restaurantes multilocal',
       description:
-        'Tus datos viven en el POS, el delivery, las reservas, el personal, el inventario y las finanzas. Sundae los reúne en una sola capa operativa nativa de IA — detecta qué cambió, explica por qué y',
+        'Tus datos viven en el POS, el delivery, las reservas, el personal, el inventario y las finanzas. Sundae los reúne en una sola capa operativa nativa de IA - detecta qué cambió, explica por qué y',
       descriptionEmphasis: 'te muestra el siguiente movimiento antes de que acabe el turno.',
       narrativeAnchor: 'Del retraso del reporting a la velocidad operativa.',
       startFree: 'Reservar una demo',

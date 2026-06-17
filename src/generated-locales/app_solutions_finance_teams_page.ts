@@ -952,7 +952,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "在班次内捕捉利润率泄漏",
-          "description": "作废、赠送、过度排班——在仍有时间采取行动时就地标记。",
+          "description": "作废、赠送、过度排班 -  - 在仍有时间采取行动时就地标记。",
           "icon": "owners"
         },
         {

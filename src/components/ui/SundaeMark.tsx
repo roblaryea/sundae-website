@@ -3,7 +3,7 @@
 import { useId } from 'react';
 
 /**
- * The Sundae brand mark — the layered-S tile: warm strata (the business layers)
+ * The Sundae brand mark - the layered-S tile: warm strata (the business layers)
  * cut into an S, topped by the cherry (the signal). Ported from the locked
  * brand concept (the `tile()` glyph). Self-contained dark tile, so it reads on
  * both light and dark surfaces like an app icon beside the wordmark.

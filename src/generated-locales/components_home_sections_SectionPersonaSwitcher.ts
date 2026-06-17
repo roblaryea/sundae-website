@@ -16,7 +16,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Betriebsleiter",
           "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
-          "painCopy": "Fünfzig Standorte, nur ein Sie — und kein einziger Live-Blick darauf, welcher heute Abend kippt.",
+          "painCopy": "Fünfzig Standorte, nur ein Sie - und kein einziger Live-Blick darauf, welcher heute Abend kippt.",
           "outcome": "Echtzeit-Transparenz für jede Schicht.",
           "outcomeCopy": "Ob Sie der Filialleiter vor Ort sind oder der COO von fünfzig Standorten - Pulse zeigt Ihnen, welcher Standort gerade jetzt Hilfe braucht: Tempo, Personal, Verluste, alles wird während der Schicht aktualisiert."
         },
@@ -76,7 +76,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Responsables des opérations",
           "pain": "Vous ne pouvez pas être dans chaque restaurant en même temps.",
-          "painCopy": "Cinquante salles, un seul vous — et aucune vue live de celle qui décroche ce soir.",
+          "painCopy": "Cinquante salles, un seul vous - et aucune vue live de celle qui décroche ce soir.",
           "outcome": "Visibilité en temps réel sur chaque service.",
           "outcomeCopy": "Que vous soyez le directeur sur le terrain ou le COO de cinquante points de vente, Pulse montre quel emplacement a besoin d'aide en ce moment - cadence, main-d'œuvre, fuites, le tout mis à jour pendant le service."
         },
@@ -136,7 +136,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Operationele Leiders",
           "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
-          "painCopy": "Vijftig vloeren, één u — en geen enkel live beeld van welke vanavond wegzakt.",
+          "painCopy": "Vijftig vloeren, één u - en geen enkel live beeld van welke vanavond wegzakt.",
           "outcome": "Live inzicht in elke shift.",
           "outcomeCopy": "Of u nu de bedrijfsleider op de vloer bent of de COO over vijftig vestigingen - Pulse toont u welke locatie nu hulp nodig heeft: tempo, personeel, lekkage, allemaal bijgewerkt tijdens de shift."
         },
@@ -196,7 +196,7 @@ export const generatedLocalCopy = {
           "shortLabel": "المدير التنفيذي للعمليات",
           "pluralLabel": "قادة العمليات",
           "pain": "لا يمكنك أن تكون في كل مطعم في آن واحد.",
-          "painCopy": "خمسون صالة، وأنت وحدك — ولا رؤية حية واحدة تكشف أيها يتعثّر الليلة.",
+          "painCopy": "خمسون صالة، وأنت وحدك - ولا رؤية حية واحدة تكشف أيها يتعثّر الليلة.",
           "outcome": "رؤية حية لكل وردية.",
           "outcomeCopy": "سواء كنت مدير الفرع على أرض الواقع أو الرئيس التنفيذي للعمليات على خمسين فرعاً، يُظهر لك Pulse أي موقع يحتاج إلى مساعدة الآن - الإيقاع، العمالة، التسرب، كل ذلك يُحدَّث أثناء الوردية."
         },
@@ -256,7 +256,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Líderes de Operaciones",
           "pain": "No puedes estar en cada restaurante a la vez.",
-          "painCopy": "Cincuenta locales, un solo tú — y ninguna vista en vivo de cuál se está cayendo esta noche.",
+          "painCopy": "Cincuenta locales, un solo tú - y ninguna vista en vivo de cuál se está cayendo esta noche.",
           "outcome": "Visibilidad en tiempo real de cada turno.",
           "outcomeCopy": "Ya seas el gerente en el local o el COO de cincuenta sucursales, Pulse te muestra qué ubicación necesita ayuda ahora mismo: ritmo, mano de obra, pérdidas, todo actualizado durante el turno."
         },
@@ -316,7 +316,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Líderes de Operações",
           "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
-          "painCopy": "Cinquenta salões, só você — e nenhuma visão ao vivo de qual está escorregando hoje à noite.",
+          "painCopy": "Cinquenta salões, só você - e nenhuma visão ao vivo de qual está escorregando hoje à noite.",
           "outcome": "Visibilidade em tempo real de cada turno.",
           "outcomeCopy": "Seja você o gerente no salão ou o COO de cinquenta unidades, o Pulse mostra qual local precisa de ajuda agora - ritmo, mão de obra, vazamentos, tudo atualizado durante o turno."
         },
@@ -376,7 +376,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "آپریشنز کے رہنما",
           "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
-          "painCopy": "پچاس فلور، اور اکیلے آپ — اور یہ دیکھنے کا کوئی لائیو منظر نہیں کہ آج رات کون سا پھسل رہا ہے۔",
+          "painCopy": "پچاس فلور، اور اکیلے آپ - اور یہ دیکھنے کا کوئی لائیو منظر نہیں کہ آج رات کون سا پھسل رہا ہے۔",
           "outcome": "ہر شفٹ میں براہ راست نظر۔",
           "outcomeCopy": "چاہے آپ فلور پر جنرل مینیجر ہوں یا پچاس آؤٹ لیٹس کے سی او او، Pulse آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے - رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
         },
@@ -436,7 +436,7 @@ export const generatedLocalCopy = {
           "shortLabel": "सीओओ",
           "pluralLabel": "ऑपरेशंस लीडर्स",
           "pain": "आप एक समय में हर रेस्तरां में नहीं हो सकते।",
-          "painCopy": "पचास फ्लोर, और अकेले आप — और यह देखने का कोई लाइव नज़रिया नहीं कि आज रात कौन-सा फिसल रहा है।",
+          "painCopy": "पचास फ्लोर, और अकेले आप - और यह देखने का कोई लाइव नज़रिया नहीं कि आज रात कौन-सा फिसल रहा है।",
           "outcome": "हर शिफ्ट में लाइव दृश्यता।",
           "outcomeCopy": "चाहे आप फ्लोर पर जीएम हों या पचास आउटलेट्स के सीओओ, Pulse आपको दिखाता है कि अभी किस लोकेशन को मदद की ज़रूरत है - गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
         },
@@ -496,7 +496,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Operasyon Liderleri",
           "pain": "Her restoranda aynı anda olamazsınız.",
-          "painCopy": "Elli salon, tek bir siz — ve bu gece hangisinin kaydığını gösteren tek bir canlı görünüm bile yok.",
+          "painCopy": "Elli salon, tek bir siz - ve bu gece hangisinin kaydığını gösteren tek bir canlı görünüm bile yok.",
           "outcome": "Her vardiya için canlı görünürlük.",
           "outcomeCopy": "İster sahadaki müdür olun ister elli şubenin COO'su, Pulse hangi lokasyonun şu anda yardıma ihtiyacı olduğunu gösterir - tempo, iş gücü, kayıplar, hepsi vardiya boyunca güncellenir."
         },
@@ -556,7 +556,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Leader delle Operazioni",
           "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
-          "painCopy": "Cinquanta sale, un solo tu — e nessuna vista live di quale stia scivolando stasera.",
+          "painCopy": "Cinquanta sale, un solo tu - e nessuna vista live di quale stia scivolando stasera.",
           "outcome": "Visibilità in tempo reale su ogni turno.",
           "outcomeCopy": "Che tu sia il direttore in sala o il COO di cinquanta punti vendita, Pulse ti mostra quale sede ha bisogno di aiuto proprio adesso - ritmo, personale, perdite, tutto aggiornato durante il turno."
         },
@@ -616,7 +616,7 @@ export const generatedLocalCopy = {
           "shortLabel": "首席运营官",
           "pluralLabel": "运营领导",
           "pain": "您无法同时在每个餐厅。",
-          "painCopy": "五十家门店，只有你一个人——却没有一个实时视图告诉你今晚哪家正在下滑。",
+          "painCopy": "五十家门店，只有你一个人 -  - 却没有一个实时视图告诉你今晚哪家正在下滑。",
           "outcome": "实时查看每个班次。",
           "outcomeCopy": "无论你是店面经理，还是管着五十家门店的首席运营官，Pulse 都会告诉你此刻哪个门店需要帮助--节奏、人力、损耗，全部在班次中实时更新。"
         },
@@ -676,7 +676,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Liderzy Operacji",
           "pain": "Nie możesz być w każdej restauracji jednocześnie.",
-          "painCopy": "Pięćdziesiąt lokali, jeden ty — i żadnego podglądu na żywo, który dziś wieczorem się osuwa.",
+          "painCopy": "Pięćdziesiąt lokali, jeden ty - i żadnego podglądu na żywo, który dziś wieczorem się osuwa.",
           "outcome": "Widoczność każdej zmiany na żywo.",
           "outcomeCopy": "Niezależnie od tego, czy jesteś kierownikiem na sali, czy COO pięćdziesięciu lokali, Pulse pokazuje, która lokalizacja potrzebuje pomocy właśnie teraz - tempo, obsada, straty, wszystko aktualizowane w trakcie zmiany."
         },
@@ -736,7 +736,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "オペレーションリーダー",
           "pain": "すべてのレストランに同時にいることはできません。",
-          "painCopy": "五十の客席に、あなたは一人——今夜どこが崩れかけているかを映すライブな視界は、どこにもない。",
+          "painCopy": "五十の客席に、あなたは一人 -  - 今夜どこが崩れかけているかを映すライブな視界は、どこにもない。",
           "outcome": "すべてのシフトをリアルタイムで把握できます。",
           "outcomeCopy": "現場の店長でも、50店舗を統括するCOOでも、Pulseは今どの店舗が支援を必要としているかを示します--ペース、人員、漏れ、すべてシフトを通じて更新されます。"
         },
@@ -796,7 +796,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "운영 리더",
           "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
-          "painCopy": "쉰 개의 매장, 당신은 한 명 — 오늘 밤 어디가 무너지고 있는지 보여 주는 실시간 화면은 하나도 없습니다.",
+          "painCopy": "쉰 개의 매장, 당신은 한 명 - 오늘 밤 어디가 무너지고 있는지 보여 주는 실시간 화면은 하나도 없습니다.",
           "outcome": "모든 근무에 대한 실시간 가시성.",
           "outcomeCopy": "현장의 점장이든 매장 50곳을 총괄하는 COO든, Pulse는 지금 어느 매장이 도움이 필요한지 보여줍니다 - 속도, 인력, 누수까지 모두 근무 중에 업데이트됩니다."
         },
@@ -856,7 +856,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Lãnh đạo Vận hành",
           "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
-          "painCopy": "Năm mươi sàn phục vụ, chỉ mình bạn — và không một khung nhìn trực tiếp nào cho thấy nơi nào đang sa sút tối nay.",
+          "painCopy": "Năm mươi sàn phục vụ, chỉ mình bạn - và không một khung nhìn trực tiếp nào cho thấy nơi nào đang sa sút tối nay.",
           "outcome": "Khả năng nhìn thấy trực tiếp mọi ca làm việc.",
           "outcomeCopy": "Dù bạn là quản lý tại cửa hàng hay COO của năm mươi chi nhánh, Pulse cho biết địa điểm nào cần giúp đỡ ngay lúc này - nhịp độ, nhân sự, thất thoát, tất cả được cập nhật trong ca làm việc."
         },
@@ -916,7 +916,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Pemimpin Operasi",
           "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
-          "painCopy": "Lima puluh ruang, hanya Anda seorang — dan tak ada satu pun tampilan langsung tentang mana yang sedang merosot malam ini.",
+          "painCopy": "Lima puluh ruang, hanya Anda seorang - dan tak ada satu pun tampilan langsung tentang mana yang sedang merosot malam ini.",
           "outcome": "Visibilitas langsung ke setiap shift.",
           "outcomeCopy": "Baik Anda manajer di lantai maupun COO atas lima puluh outlet, Pulse menunjukkan lokasi mana yang membutuhkan bantuan saat ini - kecepatan, tenaga kerja, kebocoran, semua diperbarui sepanjang shift."
         },
@@ -976,7 +976,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Lideri de Operațiuni",
           "pain": "Nu poți fi în fiecare restaurant în același timp.",
-          "painCopy": "Cincizeci de săli, doar tu — și nicio vedere live a celei care alunecă în seara asta.",
+          "painCopy": "Cincizeci de săli, doar tu - și nicio vedere live a celei care alunecă în seara asta.",
           "outcome": "Vizibilitate în timp real asupra fiecărei ture.",
           "outcomeCopy": "Fie că ești managerul din locație, fie COO peste cincizeci de locații, Pulse îți arată ce locație are nevoie de ajutor chiar acum - ritm, personal, pierderi, toate actualizate pe parcursul turei."
         },
@@ -1036,7 +1036,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "অপারেশন নেতারা",
           "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-          "painCopy": "পঞ্চাশটি ফ্লোর, আর আপনি একা — আজ রাতে কোনটি পিছলে যাচ্ছে তা দেখার একটিও লাইভ চিত্র নেই।",
+          "painCopy": "পঞ্চাশটি ফ্লোর, আর আপনি একা - আজ রাতে কোনটি পিছলে যাচ্ছে তা দেখার একটিও লাইভ চিত্র নেই।",
           "outcome": "প্রতিটি শিফটে লাইভ দৃশ্যমানতা।",
           "outcomeCopy": "আপনি ফ্লোরের জিএম হোন বা পঞ্চাশটি আউটলেটের সিওও, Pulse আপনাকে দেখায় এই মুহূর্তে কোন লোকেশনের সাহায্য দরকার - গতি, শ্রম, লিকেজ, সব শিফটের মধ্যেই আপডেট হয়।"
         },
@@ -1096,7 +1096,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "ผู้นำฝ่ายปฏิบัติการ",
           "pain": "คุณไม่สามารถอยู่ในทุกร้านอาหารได้ในครั้งเดียว.",
-          "painCopy": "ห้าสิบหน้าร้าน มีคุณเพียงคนเดียว — และไม่มีมุมมองสดสักภาพที่บอกว่าคืนนี้สาขาไหนกำลังร่วง",
+          "painCopy": "ห้าสิบหน้าร้าน มีคุณเพียงคนเดียว - และไม่มีมุมมองสดสักภาพที่บอกว่าคืนนี้สาขาไหนกำลังร่วง",
           "outcome": "มองเห็นการทำงานแบบเรียลไทม์ในทุกกะ.",
           "outcomeCopy": "ไม่ว่าคุณจะเป็นผู้จัดการหน้าร้านหรือ COO ที่ดูแลห้าสิบสาขา Pulse ก็แสดงให้เห็นว่าสาขาไหนต้องการความช่วยเหลือในตอนนี้ - จังหวะ กำลังคน การรั่วไหล ทั้งหมดอัปเดตตลอดกะ"
         },
@@ -1156,7 +1156,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Operationsledare",
           "pain": "Du kan inte vara på varje restaurang samtidigt.",
-          "painCopy": "Femtio golv, en enda du — och ingen enda livebild av vilket som glider ikväll.",
+          "painCopy": "Femtio golv, en enda du - och ingen enda livebild av vilket som glider ikväll.",
           "outcome": "Live-insyn i varje skift.",
           "outcomeCopy": "Oavsett om du är platschefen på golvet eller COO över femtio enheter visar Pulse vilken plats som behöver hjälp just nu - takt, bemanning, läckage, allt uppdaterat under skiftet."
         },
@@ -1216,7 +1216,7 @@ export const generatedLocalCopy = {
           "shortLabel": "COO",
           "pluralLabel": "Pemimpin Operasi",
           "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
-          "painCopy": "Lima puluh ruang, hanya anda seorang — dan tiada satu pun paparan langsung tentang yang mana sedang merosot malam ini.",
+          "painCopy": "Lima puluh ruang, hanya anda seorang - dan tiada satu pun paparan langsung tentang yang mana sedang merosot malam ini.",
           "outcome": "Keterlihatan langsung ke dalam setiap shift.",
           "outcomeCopy": "Sama ada anda pengurus di lantai atau COO bagi lima puluh cawangan, Pulse menunjukkan lokasi mana yang memerlukan bantuan sekarang - rentak, tenaga kerja, kebocoran, semua dikemas kini sepanjang shift."
         },

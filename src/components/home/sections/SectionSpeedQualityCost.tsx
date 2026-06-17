@@ -120,18 +120,18 @@ const trianglePoints: { x: number; y: number; labelX: number; labelY: number; an
   { x: 190, y: 380, labelX: 175, labelY: 416, anchor: "end"    }, // Cost (bottom-left)
 ];
 
-// Centroid — the convergence point where the three tradeoffs collapse into one.
+// Centroid - the convergence point where the three tradeoffs collapse into one.
 const CENTROID = {
   x: (trianglePoints[0].x + trianglePoints[1].x + trianglePoints[2].x) / 3,
   y: (trianglePoints[0].y + trianglePoints[1].y + trianglePoints[2].y) / 3,
 };
 
 // Edges, in orbit order. Segment k of the tracer's orbit IS edge k, so an edge
-// brightens as the ball crosses it and stays lit until the loop resets — by the
+// brightens as the ball crosses it and stays lit until the loop resets - by the
 // end of one orbit all three glow at once ("pick all three", not two).
 const EDGES: [number, number][] = [[0, 1], [1, 2], [2, 0]];
 
-// Per-vertex headline metric (language-neutral — number + universal unit, so no
+// Per-vertex headline metric (language-neutral - number + universal unit, so no
 // new localized strings). Each maps to a real proof point: Speed = signal→action
 // time, Quality = governed data models, Cost = free to start (Report Lite).
 const VERTEX_METRICS: { value: number; prefix: string; suffix: string; count: boolean }[] = [
@@ -165,7 +165,7 @@ function ballAt(progress: number) {
 
 /**
  * Headline metric that counts up each time its vertex becomes active. Lives in
- * the side card (not on the triangle — r7 removed vertex stat-callouts because
+ * the side card (not on the triangle - r7 removed vertex stat-callouts because
  * they collided with the active-vertex glow). Reduced-motion → static value.
  */
 function VertexStat({ idx, reduceMotion }: { idx: number; reduceMotion: boolean }) {
@@ -249,7 +249,7 @@ export function SectionSpeedQualityCost() {
   const ballY = useTransform(progress, (p) => ballAt(p).y);
 
   // Progressive edge accumulation (#2): edge k brightens as the ball crosses
-  // segment k, then stays lit until the loop wraps — all three end lit.
+  // segment k, then stays lit until the loop wraps - all three end lit.
   const edge0Opacity = useTransform(progress, (p) => (p >= 1 ? 0.95 : p >= 0 ? 0.22 + 0.73 * Math.min(1, p) : 0.16));
   const edge1Opacity = useTransform(progress, (p) => (p >= 2 ? 0.95 : p >= 1 ? 0.22 + 0.73 * (p - 1) : 0.16));
   const edge2Opacity = useTransform(progress, (p) => (p >= 2 ? 0.22 + 0.73 * (p - 2) : 0.16));
@@ -298,7 +298,7 @@ export function SectionSpeedQualityCost() {
     lastProgressRef.current = latest;
   });
 
-  // Autonomous drift (#4) — subtle ±1.3° Z-sway, mirror-looping. Honors reduced motion.
+  // Autonomous drift (#4) - subtle ±1.3° Z-sway, mirror-looping. Honors reduced motion.
   useEffect(() => {
     if (!useAnimated) return;
     const c = animate(driftZ, [-1.3, 1.3], {
@@ -539,7 +539,7 @@ export function SectionSpeedQualityCost() {
                 }}
               />
 
-              {/* Progressive edge accumulation (#2) — each edge brightens as the
+              {/* Progressive edge accumulation (#2) - each edge brightens as the
                   tracer crosses it and stays lit through the loop. */}
               {useAnimated && EDGES.map(([a, c], k) => (
                 <motion.line
@@ -555,7 +555,7 @@ export function SectionSpeedQualityCost() {
                 />
               ))}
 
-              {/* Convergence (#1) — inward beams + glowing core where the three
+              {/* Convergence (#1) - inward beams + glowing core where the three
                   tradeoffs collapse into one. Beams re-key each loop wrap. */}
               {useAnimated && (
                 <g>
@@ -634,7 +634,7 @@ export function SectionSpeedQualityCost() {
               {/* Tracer ball - position bound to motion value, perfect sync with activeIdx */}
               {useAnimated && (
                 <>
-                  {/* Comet trail (#3) — energy streak behind the ball */}
+                  {/* Comet trail (#3) - energy streak behind the ball */}
                   <motion.line
                     stroke="#FF8473"
                     strokeWidth="6"

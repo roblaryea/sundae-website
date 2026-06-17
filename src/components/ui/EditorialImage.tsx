@@ -62,7 +62,7 @@ interface EditorialImageProps {
 /**
  * Scroll-linked parallax wrapper. Isolated into its own component so the
  * `useScroll` hook only ever mounts for images that actually opt into parallax
- * (`parallax`), never for the many static editorial images — which keeps
+ * (`parallax`), never for the many static editorial images - which keeps
  * framer's scroll-offset tracking (and its console warning) scoped to the few
  * places that need it.
  */

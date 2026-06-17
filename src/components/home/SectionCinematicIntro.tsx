@@ -6,7 +6,7 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
 
 /**
- * Cinematic brand intro — the "glass" moment that opens the homepage and then
+ * Cinematic brand intro - the "glass" moment that opens the homepage and then
  * hands off into the live product site below. Locked brand: warm strata in a
  * glass (every layer of the business), the cherry as the signal, and the master
  * line "See every layer. Act in time." Fraunces (--font-display) + warm tokens.
@@ -50,12 +50,12 @@ function Glass() {
         animate={{ scale: [1, 1.12, 1], opacity: [0.7, 1, 0.7] }}
         transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
       />
-      <svg width="304" viewBox="0 0 240 430" fill="none" className="relative z-10" aria-label="A glass of business layers — every layer, visible at once">
+      <svg width="304" viewBox="0 0 240 430" fill="none" className="relative z-10" aria-label="A glass of business layers - every layer, visible at once">
         <defs>
           <clipPath id="ci-bowl">
             <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84 Z" />
           </clipPath>
-          {/* curved glass gloss — bright on both edges, clear in the middle */}
+          {/* curved glass gloss - bright on both edges, clear in the middle */}
           <linearGradient id="ci-gloss" x1="0" y1="0" x2="1" y2="0">
             <stop offset="0" stopColor="rgba(255,255,255,.30)" />
             <stop offset=".17" stopColor="rgba(255,255,255,.05)" />
@@ -63,7 +63,7 @@ function Glass() {
             <stop offset=".84" stopColor="rgba(255,255,255,.05)" />
             <stop offset="1" stopColor="rgba(255,255,255,.16)" />
           </linearGradient>
-          {/* liquid depth — light at the surface, darker toward the base */}
+          {/* liquid depth - light at the surface, darker toward the base */}
           <linearGradient id="ci-depth" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stopColor="rgba(255,255,255,.14)" />
             <stop offset=".1" stopColor="rgba(255,255,255,0)" />
@@ -131,7 +131,7 @@ function Glass() {
         {/* glass body gloss + outline */}
         <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84" fill="url(#ci-gloss)" />
         <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84" fill="none" stroke="rgba(251,248,244,.55)" strokeWidth="2" />
-        {/* rim — surface + bright catch-light arc */}
+        {/* rim - surface + bright catch-light arc */}
         <ellipse cx="120" cy="84" rx="64" ry="11" fill="rgba(246,241,232,.55)" />
         <ellipse cx="120" cy="84" rx="64" ry="11" fill="none" stroke="rgba(255,255,255,.65)" strokeWidth="2" />
         <path d="M60,80 A64 11 0 0 1 150 77" fill="none" stroke="rgba(255,255,255,.85)" strokeWidth="2" strokeLinecap="round" />
@@ -141,7 +141,7 @@ function Glass() {
         <ellipse cx="120" cy="378" rx="40" ry="7" fill="rgba(255,255,255,.05)" />
         <ellipse cx="120" cy="378" rx="40" ry="7" fill="none" stroke="rgba(251,248,244,.4)" strokeWidth="2.5" />
 
-        {/* cherry — the signal, glossy + 3-D */}
+        {/* cherry - the signal, glossy + 3-D */}
         <motion.g initial={{ y: -56, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.85, duration: 0.9, ease: EASE }}>
           <ellipse cx="116" cy="83" rx="15" ry="3.6" fill="rgba(58,18,8,.4)" filter="url(#ci-soft)" />
           <path d="M118 68 C118 48 132 43 142 33" stroke="#7d1f12" strokeWidth="3.4" fill="none" strokeLinecap="round" />
@@ -152,7 +152,7 @@ function Glass() {
         </motion.g>
       </svg>
 
-      {/* layer labels — each anchored to its band's exact center */}
+      {/* layer labels - each anchored to its band's exact center */}
       <div className="absolute left-[calc(50%+100px)] top-0 hidden h-full w-[210px] lg:block">
         {LAYERS.map((L, i) => {
           const topPct = ((BOT - (i + 0.5) * BAND) / 430) * 100;
@@ -189,14 +189,14 @@ export function SectionCinematicIntro() {
   const copy = cinematicIntroCopy[locale] ?? cinematicIntroCopy.en;
   return (
     <section
-      className="relative flex min-h-[88vh] items-center overflow-hidden px-6 pt-24 pb-14 sm:px-10"
+      className="surface-always-dark relative flex min-h-svh items-center overflow-hidden px-6 pt-24 pb-14 sm:px-10"
       style={{
         background:
           "radial-gradient(115% 75% at 82% 14%, rgba(255,92,77,.16), transparent 55%), radial-gradient(80% 60% at 8% 92%, rgba(233,162,74,.12), transparent 55%), var(--navy-deep)",
       }}
-      aria-label="Sundae — see every layer, act in time"
+      aria-label="Sundae - see every layer, act in time"
     >
-      <div className="mx-auto grid w-full max-w-[1200px] items-center gap-10 lg:grid-cols-[1.08fr_.92fr]">
+      <div className="mx-auto grid w-full max-w-[1320px] items-center gap-8 lg:grid-cols-[1.12fr_.88fr]">
         <div>
           <motion.div
             className="text-[11.5px] font-semibold uppercase tracking-[0.24em]"
@@ -209,21 +209,22 @@ export function SectionCinematicIntro() {
           </motion.div>
 
           <h1
-            className="mt-5 font-light leading-[0.88] tracking-[-0.04em]"
-            style={{ fontFamily: "var(--font-display)", fontSize: "clamp(56px,9.5vw,138px)", color: "var(--text-primary)" }}
+            className="mt-5 font-light leading-[0.94] tracking-[-0.04em]"
+            style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
           >
             <span className="block overflow-hidden">
-              <motion.span className="block" initial={{ y: "110%" }} animate={{ y: 0 }} transition={{ duration: 1.1, ease: EASE }}>
-                See every
-              </motion.span>
-            </span>
-            <span className="block overflow-hidden">
-              <motion.span className="block" initial={{ y: "110%" }} animate={{ y: 0 }} transition={{ delay: 0.12, duration: 1.1, ease: EASE }}>
-                layer.
+              <motion.span
+                className="block whitespace-nowrap"
+                style={{ fontSize: "clamp(44px,7.1vw,104px)" }}
+                initial={{ y: "110%" }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1.1, ease: EASE }}
+              >
+                See every layer.
               </motion.span>
             </span>
             <motion.span
-              className="mt-[0.12em] block italic"
+              className="mt-[0.1em] block italic"
               style={{ color: "#F6C66B", fontSize: "clamp(30px,5vw,62px)" }}
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
@@ -234,13 +235,20 @@ export function SectionCinematicIntro() {
           </h1>
 
           <motion.p
-            className="mt-7 max-w-[52ch] text-[clamp(15.5px,1.55vw,18.5px)] leading-[1.62]"
+            className="mt-7 max-w-[44rem] text-[clamp(15.5px,1.55vw,18.5px)] leading-[1.62]"
             style={{ color: "rgba(251,248,244,0.86)" }}
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.9, ease: EASE }}
           >
-            {copy.sub}
+            {/* break the sentence at its clause dashes so each clause lands on its
+                own line on desktop; flows naturally when the locale has no dashes */}
+            {copy.sub.split(" - ").map((part, i, arr) => (
+              <span key={i} className="lg:block">
+                {part}
+                {i < arr.length - 1 ? " - " : ""}
+              </span>
+            ))}
           </motion.p>
 
           <motion.div

@@ -83,11 +83,17 @@ html.light .theme-hero-surface {
     linear-gradient(180deg, #FBF7F0 0%, #FFFFFF 100%);
 }
 
-/* Embedded product-UI mockups stay dark in BOTH site themes. Their content
-   uses light/white text + strokes, so pinning the theme tokens to dark values
-   keeps them legible in light mode (otherwise the card flips white and the
-   white content washes out). Apply to any embedded dashboard mockup/thumbnail. */
-.mockup-dark {
+/* Surfaces that are dark BY DESIGN in both site themes. Two cases:
+   1. .mockup-dark — embedded product-UI mockups/thumbnails whose content uses
+      light/white text + strokes (otherwise the card flips white and washes out).
+   2. .surface-always-dark — full cinematic sections authored dark-only (the hero
+      glass moment): the SVG glass is drawn in white strokes, labels and sub-copy
+      are cream, and the radial glows read only on a dark base.
+   Both pin the theme tokens to their dark values for the subtree, so any
+   var(--navy-deep) / var(--text-primary) / cream-on-dark content stays legible
+   even when the surrounding page is in light mode. */
+.mockup-dark,
+.surface-always-dark {
   --navy-deep: #15110D;
   --navy: #1F1A15;
   --navy-surface: #251E18;

@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 
 /**
- * The Sundae logotype — the rebrand's primary register: a clean Fraunces
+ * The Sundae logotype - the rebrand's primary register: a clean Fraunces
  * wordmark set in the display face. Single source of truth so the navbar,
  * mobile drawer, footer, and auth screens all render one identical wordmark.
  *

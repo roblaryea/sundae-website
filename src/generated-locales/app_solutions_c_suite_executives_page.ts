@@ -837,7 +837,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "市场信号到来之前",
-          "description": "竞争对手、天气、活动、客流量——综合到早间简报中，以便您在影响波及到您的 P&L 之前采取行动。",
+          "description": "竞争对手、天气、活动、客流量 -  - 综合到早间简报中，以便您在影响波及到您的 P&L 之前采取行动。",
           "product": "Watchtower",
           "icon": "watchtower"
         },

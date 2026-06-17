@@ -27,7 +27,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     headline: "Shaped by restaurant operators across every format.",
     description: "QSR, casual dining, fine dining, cloud kitchens, and hospitality groups inform the intelligence layer restaurants actually need - from single-shop operators to multi-brand portfolios.",
     stats: [
-      { value: "200+", label: "integrations — every POS, delivery & finance tool" },
+      { value: "200+", label: "integrations - every POS, delivery & finance tool" },
       { value: "12", label: "intelligence modules, each with AI recommendations" },
       { value: "Seconds", label: "from question to source-cited answer" },
     ],
@@ -48,7 +48,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     headline: "صاغته مجموعات مطاعم عبر كل صيغة.",
     description: "QSR والمطاعم العائلية والمطاعم الراقية والمطابخ السحابية ومجموعات الضيافة تُلهم طبقة الذكاء التي يحتاجها المطاعم - من مشغل واحد إلى محافظ متعددة العلامات.",
     stats: [
-      { value: "+200", label: "تكامل — كل أنظمة POS والتوصيل والمالية" },
+      { value: "+200", label: "تكامل - كل أنظمة POS والتوصيل والمالية" },
       { value: "12", label: "وحدة ذكاء، كل منها بتوصيات بالذكاء الاصطناعي" },
       { value: "ثوانٍ", label: "من السؤال إلى إجابة موثّقة المصدر" },
     ],
@@ -69,7 +69,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     headline: "Façonné par des opérateurs de restaurants dans tous les formats.",
     description: "QSR, restauration décontractée, gastronomie, cuisines virtuelles et groupes hôteliers nourrissent la couche d'intelligence dont les restaurants ont vraiment besoin - du single-shop aux portefeuilles multi-marques.",
     stats: [
-      { value: "200+", label: "intégrations — chaque système POS, livraison & finance" },
+      { value: "200+", label: "intégrations - chaque système POS, livraison & finance" },
       { value: "12", label: "modules d'intelligence, chacun avec recommandations IA" },
       { value: "Secondes", label: "de la question à une réponse sourcée" },
     ],
@@ -90,7 +90,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     headline: "Forjado por operadores de restaurantes en cada formato.",
     description: "QSR, casual, alta cocina, cocinas en la nube y grupos de hospitalidad informan la capa de inteligencia que los restaurantes realmente necesitan - desde operadores de un solo local hasta portafolios multi-marca.",
     stats: [
-      { value: "200+", label: "integraciones — cada sistema POS, delivery y finanzas" },
+      { value: "200+", label: "integraciones - cada sistema POS, delivery y finanzas" },
       { value: "12", label: "módulos de inteligencia, cada uno con recomendaciones IA" },
       { value: "Segundos", label: "de la pregunta a una respuesta con fuente" },
     ],
