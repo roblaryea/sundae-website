@@ -329,8 +329,8 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         <span className="w-[10px] h-[10px] rounded-full bg-[#FF5F57]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#28C840]" />
-        <span className="ml-3 text-[11px] text-[var(--text-muted)] font-medium">{header}</span>
-        <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">{labels.illustrative}</span>
+        <span className="ml-3 text-[12px] text-[var(--text-muted)] font-medium">{header}</span>
+        <span className="ml-auto text-[10px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">{labels.illustrative}</span>
       </div>
 
       {/* Fixed "screen": all four panels are ALWAYS present (constant height),
@@ -339,10 +339,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
       <div className="p-5 space-y-4">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
-            <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+            <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
               {labels.coversChart}
             </div>
-            <span className="text-[10px] text-[#FF5450] font-mono">{labels.coversTrend}</span>
+            <span className="text-[12px] text-[#FF5450] font-mono">{labels.coversTrend}</span>
           </div>
           <svg viewBox="0 0 320 80" className="w-full h-20" preserveAspectRatio="none" aria-hidden>
             <path
@@ -367,24 +367,24 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
           className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
         >
           <div className="flex items-center justify-between mb-2">
-            <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+            <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
               {labels.planVsActual}
             </div>
-            <span className="text-[10px] text-[#FF5450] font-mono">
+            <span className="text-[12px] text-[#FF5450] font-mono">
               {labels.planVsActualVariance}
             </span>
           </div>
-          <div className="grid grid-cols-2 gap-3 text-[12px]">
+          <div className="grid grid-cols-2 gap-3 text-[14px]">
             <div>
-              <div className="text-[10px] text-[var(--text-muted)]">{labels.forecast}</div>
+              <div className="text-[12px] text-[var(--text-muted)]">{labels.forecast}</div>
               <div className="font-mono text-[var(--text-secondary)]">$18,620</div>
             </div>
             <div>
-              <div className="text-[10px] text-[var(--text-muted)]">{labels.actualRunRate}</div>
+              <div className="text-[12px] text-[var(--text-muted)]">{labels.actualRunRate}</div>
               <div className="font-mono text-[#FF5450]">$14,820</div>
             </div>
           </div>
-          <div className="mt-3 pt-3 border-t border-[var(--border-default)] text-[11px] text-[var(--text-muted)]">
+          <div className="mt-3 pt-3 border-t border-[var(--border-default)] text-[13px] text-[var(--text-muted)]">
             {labels.laborNote}
           </div>
         </motion.div>
@@ -400,11 +400,11 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
           }}
         >
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-[10px] uppercase tracking-wider font-bold text-[#F59E0B]">
+            <span className="text-[12px] uppercase tracking-wider font-bold text-[#F59E0B]">
               {labels.watchtower}
             </span>
           </div>
-          <ul className="text-[12px] text-[var(--text-secondary)] space-y-1">
+          <ul className="text-[14px] text-[var(--text-secondary)] space-y-1">
             <li>
               <span className="text-[var(--text-muted)]">·</span> {labels.watchtowerItem1}
             </li>
@@ -424,10 +424,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
             borderLeft: "3px solid #FF5C4D",
           }}
         >
-          <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
+          <div className="text-[12px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
             {labels.coach}
           </div>
-          <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
+          <p className="text-[15px] text-[var(--text-primary)] leading-relaxed">
             {labels.coachBody}{" "}
             <span className="text-[var(--text-secondary)]">
               {labels.coachProjection}
