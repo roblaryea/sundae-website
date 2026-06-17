@@ -9,6 +9,7 @@ import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_benchmarking_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
@@ -293,11 +294,7 @@ export default function BenchmarkingPage() {
       <SectionProductGallery
         productFilter="/benchmarking"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE BENCHMARK IN ACTION",
-          title: "Every Benchmark surface, in detail.",
-          subtitle: "Real peer-comparison surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("benchmarking", locale)}
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>

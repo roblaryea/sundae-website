@@ -7,6 +7,7 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
@@ -923,11 +924,7 @@ export default function InsightsPage() {
       <SectionProductGallery
         productFilter="/insights"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE INSIGHTS IN ACTION",
-          title: "Every Insights module, in detail.",
-          subtitle: "Real analytics surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("insights", locale)}
       />
 
       {/* CTA Band - warm closer (matches the shared PageCTA scheme) */}

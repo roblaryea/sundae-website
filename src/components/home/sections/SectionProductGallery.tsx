@@ -23,6 +23,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, X, Maximize2, ChevronLeft, ChevronRight } from "lucide-react";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { ThemedShot } from "@/components/ui/ThemedShot";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from "@/lib/generatedLocalCopy";
+import { generatedLocalCopy } from "@/generated-locales/components_home_sections_SectionProductGallery";
 
 // Cards whose dark twin can't be captured cleanly fall back to the light shot
 // in both themes: the Watchtower detail subroutes render an empty shell
@@ -529,6 +532,59 @@ const PERSONA_FILTERS: { id: Persona | "all"; label: string }[] = [
   { id: "marketing",  label: "Marketing" },
 ];
 
+// All translatable copy for the gallery. en lives here; the other 21 locales are
+// natively transcreated in the generated pack and merged via getGeneratedLocalCopy
+// (structural card fields - id/src/href/personas - are preserved from en).
+type LocalizedGallery = {
+  heading: { eyebrow: string; title: string; subtitle: string };
+  filterLabels: Record<Persona | "all", string>;
+  ui: {
+    openFull: string; // "{x}" is replaced with the card caption
+    footerLead: string;
+    footerLink: string;
+    footerTail: string;
+    closeLightbox: string;
+    prevImage: string;
+    nextImage: string;
+    lightboxHint: string;
+  };
+  cards: GalleryItem[];
+};
+
+const localizedCopy: Record<"en", LocalizedGallery> = {
+  en: {
+    heading: {
+      eyebrow: "SEE THE PRODUCT",
+      title: "This is what your team actually sees.",
+      subtitle:
+        "Filter by who's logging in. Every surface deep-links to the relevant product page so you can dig in.",
+    },
+    filterLabels: {
+      all: "All views",
+      operations: "Operations",
+      c_suite: "C-Suite",
+      cfo: "Finance",
+      multi_loc: "Multi-location",
+      topology: "Topology-aware",
+      hr: "HR",
+      marketing: "Marketing",
+      tech: "Technology",
+    },
+    ui: {
+      openFull: "Open {x} at full size",
+      footerLead:
+        "Screenshots represent live in-product surfaces. Click any image to enlarge. Synthetic data shown for illustration. Take the",
+      footerLink: "Operations Diagnostic",
+      footerTail: "to see what your view would look like.",
+      closeLightbox: "Close lightbox",
+      prevImage: "Previous image",
+      nextImage: "Next image",
+      lightboxHint: "Esc to close · ← → to navigate",
+    },
+    cards: GALLERY,
+  },
+};
+
 interface SectionProductGalleryProps {
   /**
    * When set, restricts the gallery to cards whose productHref matches
@@ -552,14 +608,17 @@ export function SectionProductGallery({
 }: SectionProductGalleryProps = {}) {
   const [activePersona, setActivePersona] = useState<Persona | "all">(defaultPersona);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const { locale } = useWebsiteI18n();
+  const copy =
+    getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   // First apply productFilter (if set), then persona filter
   const productScoped = useMemo(
     () =>
       productFilter
-        ? GALLERY.filter((item) => item.productHref.startsWith(productFilter))
-        : GALLERY,
-    [productFilter],
+        ? copy.cards.filter((item) => item.productHref.startsWith(productFilter))
+        : copy.cards,
+    [productFilter, copy.cards],
   );
 
   const filtered = useMemo(() => {
@@ -599,15 +658,15 @@ export function SectionProductGallery({
     >
       <div className="max-w-7xl mx-auto">
         <FadeUp className="text-center mb-10">
-          <p className="eyebrow mb-3">{headingOverride?.eyebrow ?? "SEE THE PRODUCT"}</p>
+          <p className="eyebrow mb-3">{headingOverride?.eyebrow ?? copy.heading.eyebrow}</p>
           <h2
             id="product-gallery-headline"
             className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] text-balance mb-3"
           >
-            {headingOverride?.title ?? "This is what your team actually sees."}
+            {headingOverride?.title ?? copy.heading.title}
           </h2>
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-            {headingOverride?.subtitle ?? "Filter by who's logging in. Every surface deep-links to the relevant product page so you can dig in."}
+            {headingOverride?.subtitle ?? copy.heading.subtitle}
           </p>
         </FadeUp>
 
@@ -623,7 +682,7 @@ export function SectionProductGallery({
                   : "bg-white/[0.04] text-[var(--text-secondary)] border border-[var(--border-default)] hover:border-[var(--electric-blue)]/40"
               }`}
             >
-              {p.label}
+              {copy.filterLabels[p.id] ?? p.label}
             </button>
           ))}
         </div>
@@ -651,7 +710,7 @@ export function SectionProductGallery({
                 <button
                   onClick={() => setLightboxIndex(i)}
                   className="relative aspect-[16/10] bg-black overflow-hidden w-full block cursor-zoom-in"
-                  aria-label={`Open ${item.caption} at full size`}
+                  aria-label={copy.ui.openFull.replace("{x}", item.caption)}
                 >
                   <ThemedShot
                     fill
@@ -682,7 +741,7 @@ export function SectionProductGallery({
                           key={p}
                           className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/30 font-bold"
                         >
-                          {PERSONA_FILTERS.find((f) => f.id === p)?.label ?? p}
+                          {copy.filterLabels[p] ?? p}
                         </span>
                       ))}
                     </div>
@@ -705,12 +764,11 @@ export function SectionProductGallery({
 
         {/* Footer note */}
         <p className="text-center text-xs text-[var(--text-muted)] mt-10 italic max-w-2xl mx-auto">
-          Screenshots represent live in-product surfaces. Click any image to enlarge.
-          Synthetic data shown for illustration. Take the{" "}
+          {copy.ui.footerLead}{" "}
           <Link href="/diagnostic" className="text-[var(--electric-blue)] hover:underline font-semibold not-italic">
-            Operations Diagnostic
+            {copy.ui.footerLink}
           </Link>{" "}
-          to see what your view would look like.
+          {copy.ui.footerTail}
         </p>
       </div>
 
@@ -729,7 +787,7 @@ export function SectionProductGallery({
             <button
               onClick={() => setLightboxIndex(null)}
               className="absolute top-4 right-4 md:top-6 md:right-6 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
-              aria-label="Close lightbox"
+              aria-label={copy.ui.closeLightbox}
             >
               <X className="w-5 h-5 text-white" />
             </button>
@@ -743,7 +801,7 @@ export function SectionProductGallery({
                     setLightboxIndex((i) => (i === null ? null : (i - 1 + filtered.length) % filtered.length));
                   }}
                   className="absolute left-4 md:left-8 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
-                  aria-label="Previous image"
+                  aria-label={copy.ui.prevImage}
                 >
                   <ChevronLeft className="w-6 h-6 text-white" />
                 </button>
@@ -753,7 +811,7 @@ export function SectionProductGallery({
                     setLightboxIndex((i) => (i === null ? null : (i + 1) % filtered.length));
                   }}
                   className="absolute right-4 md:right-8 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
-                  aria-label="Next image"
+                  aria-label={copy.ui.nextImage}
                 >
                   <ChevronRight className="w-6 h-6 text-white" />
                 </button>
@@ -785,7 +843,7 @@ export function SectionProductGallery({
                 <p className="text-sm text-white/70 max-w-2xl mx-auto">{lightboxItem.whatYouSee}</p>
                 {lightboxIndex !== null && (
                   <p className="text-[10px] text-white/40 mt-3 uppercase tracking-wider">
-                    {lightboxIndex + 1} / {filtered.length} · Esc to close · ← → to navigate
+                    {lightboxIndex + 1} / {filtered.length} · {copy.ui.lightboxHint}
                   </p>
                 )}
               </div>

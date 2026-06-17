@@ -10,6 +10,7 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { watchtowerCreamCopy } from "../watchtowerCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -659,11 +660,7 @@ export default function WatchtowerPage() {
       <SectionProductGallery
         productFilter="/product/watchtower"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE WATCHTOWER IN ACTION",
-          title: "Every Watchtower surface, in detail.",
-          subtitle: "Real competitive-intelligence surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("watchtower", locale)}
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>

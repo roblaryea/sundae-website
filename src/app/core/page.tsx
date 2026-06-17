@@ -10,6 +10,7 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
@@ -860,11 +861,7 @@ export default function CoreProductPage() {
       <SectionProductGallery
         productFilter="/core"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE CORE IN ACTION",
-          title: "Every Core surface, in detail.",
-          subtitle: "Real operator-workspace surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("core", locale)}
       />
 
       {/* CTA */}

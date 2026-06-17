@@ -10,6 +10,7 @@ import { ThemedShot } from "@/components/ui/ThemedShot";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
@@ -966,11 +967,7 @@ export default function CrewPage() {
         <SectionProductGallery
           productFilter="/crew"
           hideFilter
-          headingOverride={{
-            eyebrow: "SEE CREW IN ACTION",
-            title: "Every Crew surface, in detail.",
-            subtitle: "Real workforce-ops surfaces from the live product.",
-          }}
+          headingOverride={galleryHeading("crew", locale)}
         />
 
         {/* ════════════════════════════════════════════════

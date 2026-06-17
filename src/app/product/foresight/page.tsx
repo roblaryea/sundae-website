@@ -9,6 +9,7 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { foresightCreamCopy } from "../foresightCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -706,11 +707,7 @@ export default function ForesightPage() {
       <SectionProductGallery
         productFilter="/product/foresight"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE FORESIGHT IN ACTION",
-          title: "Every Foresight surface, in detail.",
-          subtitle: "Real predictive-modelling surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("foresight", locale)}
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
