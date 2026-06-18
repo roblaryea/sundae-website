@@ -37,13 +37,15 @@ interface TrioItem {
 const TRIO_TONES: [SignalTone, SignalTone, SignalTone] = ['caution', 'caution', 'good'];
 const TONE_COLOR: Record<SignalTone, string> = { caution: '#FF8A4C', good: '#46C97E' };
 
-// Three distinct, strong frames - none reused elsewhere on the page (the old
-// Room shared dining-room.jpg with the hero backdrop). Pass uses the literal
-// kitchen pass; Room a premium candlelit dining room.
+// Dedicated trio slots - independent of every other section's imagery, so these
+// three frames can be art-directed for the exact moments (Floor / Pass / Room)
+// without touching the hero, proof or closer. Seeded with the current best-fit
+// photos; drop a stronger generated/sourced image at the same path to replace a
+// frame with zero code changes. See the generation briefs in docs (or the PR).
 const TRIO_SRCS: [string, string, string] = [
-  '/images/editorial/service-plates.jpg', // Floor - service crossing the floor
-  '/images/editorial/kitchen-pass.jpg',   // Pass  - finishing a plate at the pass
-  '/images/editorial/dining-candlelit.jpg', // Room - the dining room, set
+  '/images/editorial/trio-floor.jpg', // Floor - service in motion, wait time rising
+  '/images/editorial/trio-pass.jpg',  // Pass  - the line under heat, fire time slipping
+  '/images/editorial/trio-room.jpg',  // Room  - the dining room in service, margin holding
 ];
 
 const cherry = { color: 'var(--warm-cherry)' } as const;
