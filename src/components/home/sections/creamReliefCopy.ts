@@ -34,9 +34,27 @@ export type CreamReliefVariantCopy = {
    * component (0,1 = caution, 2 = good), so it isn't localized here.
    */
   trio: [TrioFrame, TrioFrame, TrioFrame];
+  /**
+   * 'decisions' beat only - the quiet proof line + CTA above the frames, and the
+   * labels for the in-card "Sundae would flag" receipt revealed on hover/tap.
+   * Optional so the 'truth' variant (no frames) can omit them.
+   */
+  proof?: string;
+  ctaLabel?: string;
+  /** Receipt header - the only coral text in the reveal. */
+  flagLabel?: string;
+  causeLabel?: string;
+  moveLabel?: string;
+  /** Resting affordance hinting the card is interactive. */
+  viewSignal?: string;
 };
 
-export type TrioFrame = { label: string; signal: string };
+/**
+ * A frame = a place (label) + the live signal Sundae reads there, plus the
+ * compact receipt it would surface: the cause and the next move (both used by
+ * the 'decisions' beat only; optional for the empty 'truth' frames).
+ */
+export type TrioFrame = { label: string; signal: string; cause?: string; move?: string };
 
 export type UnifyVisualCopy = {
   scattered: string;
@@ -63,10 +81,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Every plate, every cover, every shift is a *decision.* Sundae is in all of them - with you, on the floor.',
       lede: 'The work happens on the line, not in a dashboard. Sundae turns the live shift into the next right move - for the person who has to make it.',
       trio: [
-        { label: 'Floor', signal: 'Wait time rising' },
-        { label: 'Pass', signal: 'Fire time slipping' },
-        { label: 'Room', signal: 'Covers on pace' },
+        { label: 'Floor', signal: 'Wait time rising', cause: 'Section 3 is 18 minutes behind pace.', move: 'Shift one server from prep to floor.' },
+        { label: 'Pass', signal: 'Fire time slipping', cause: 'Ribeye and salmon tickets are backing up.', move: 'Hold ribeye pushes, move one cook to expo.' },
+        { label: 'Room', signal: 'Covers on pace', cause: 'Pace is healthy, but average check is soft.', move: 'Prompt wine pairing on the next 12 two-tops.' },
       ],
+      proof: 'A signal, a cause, and a next move - while the shift is still live.',
+      ctaLabel: 'See Pulse live',
+      flagLabel: 'Sundae would flag',
+      causeLabel: 'Cause',
+      moveLabel: 'Move',
+      viewSignal: 'View signal',
     },
     truth: {
       eyebrow: 'One source of truth',
@@ -92,10 +116,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'كل طبق وكل ضيف وكل وردية هو *قرار.* Sundae حاضر فيها جميعاً - معك، على أرض الخدمة.',
       lede: 'العمل يجري على خط الخدمة، لا في لوحة معلومات. Sundae يحوّل الوردية الجارية إلى الخطوة الصحيحة التالية - لمن عليه أن يتخذها.',
       trio: [
-        { label: 'الصالة', signal: 'وقت الانتظار يرتفع' },
-        { label: 'الباس', signal: 'توقيت التحضير يتأخر' },
-        { label: 'القاعة', signal: 'عدد الضيوف على المسار' },
+        { label: 'الصالة', signal: 'وقت الانتظار يرتفع', cause: 'القسم 3 متأخّر 18 دقيقة عن الإيقاع.', move: 'انقل نادلاً من التحضير إلى الصالة.' },
+        { label: 'الباس', signal: 'توقيت التحضير يتأخر', cause: 'طلبات الريب آي والسلمون تتراكم.', move: 'أوقف دفعات الريب آي وانقل طاهياً إلى نقطة التسليم.' },
+        { label: 'القاعة', signal: 'عدد الضيوف على المسار', cause: 'الإيقاع جيد لكن متوسط الفاتورة منخفض.', move: 'اقترح إقران النبيذ على الطاولات الثنائية الـ12 التالية.' },
       ],
+      proof: 'إشارة، وسبب، والخطوة التالية - والوردية ما زالت جارية.',
+      ctaLabel: 'شاهد Pulse مباشرة',
+      flagLabel: 'Sundae سيُنبّه',
+      causeLabel: 'السبب',
+      moveLabel: 'الإجراء',
+      viewSignal: 'عرض الإشارة',
     },
     truth: {
       eyebrow: 'مصدر واحد للحقيقة',
@@ -121,10 +151,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Chaque assiette, chaque couvert, chaque service est une *décision.* Sundae est dans toutes - avec vous, en salle.',
       lede: "Le travail se joue en salle, pas dans un tableau de bord. Sundae transforme le service en cours en la bonne décision suivante - pour celui qui doit la prendre.",
       trio: [
-        { label: 'Service', signal: 'Attente en hausse' },
-        { label: 'Passe', signal: 'Timing qui glisse' },
-        { label: 'Salle', signal: 'Couverts dans les temps' },
+        { label: 'Service', signal: 'Attente en hausse', cause: 'La section 3 a 18 minutes de retard sur le rythme.', move: 'Faites passer un serveur de la prépa à la salle.' },
+        { label: 'Passe', signal: 'Timing qui glisse', cause: "Les tickets entrecôte et saumon s'accumulent.", move: 'Suspendez les entrecôtes et envoyez un cuisinier à la passe.' },
+        { label: 'Salle', signal: 'Couverts dans les temps', cause: 'Le rythme est bon, mais le ticket moyen est faible.', move: 'Proposez un accord mets-vins aux 12 prochaines tables de deux.' },
       ],
+      proof: 'Un signal, une cause, et la prochaine action - pendant que le service tourne encore.',
+      ctaLabel: 'Voir Pulse en direct',
+      flagLabel: 'Sundae signalerait',
+      causeLabel: 'Cause',
+      moveLabel: 'Action',
+      viewSignal: 'Voir le signal',
     },
     truth: {
       eyebrow: 'Une seule source de vérité',
@@ -150,10 +186,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Cada plato, cada comensal, cada turno es una *decisión.* Sundae está en todas - contigo, en la sala.',
       lede: 'El trabajo ocurre en la sala, no en un panel. Sundae convierte el turno en vivo en el siguiente movimiento acertado - para quien tiene que tomarlo.',
       trio: [
-        { label: 'Sala', signal: 'Espera al alza' },
-        { label: 'Pase', signal: 'Tiempos retrasados' },
-        { label: 'Comedor', signal: 'Comensales en ritmo' },
+        { label: 'Sala', signal: 'Espera al alza', cause: 'La sección 3 va 18 minutos por detrás del ritmo.', move: 'Pasa a un camarero de preparación a la sala.' },
+        { label: 'Pase', signal: 'Tiempos retrasados', cause: 'Las comandas de ribeye y salmón se acumulan.', move: 'Frena los ribeye y manda un cocinero al pase.' },
+        { label: 'Comedor', signal: 'Comensales en ritmo', cause: 'El ritmo es bueno, pero el ticket medio es bajo.', move: 'Sugiere maridaje de vino en las próximas 12 mesas de dos.' },
       ],
+      proof: 'Una señal, una causa y el siguiente paso - con el turno aún en marcha.',
+      ctaLabel: 'Ver Pulse en vivo',
+      flagLabel: 'Sundae avisaría',
+      causeLabel: 'Causa',
+      moveLabel: 'Acción',
+      viewSignal: 'Ver señal',
     },
     truth: {
       eyebrow: 'Una sola fuente de verdad',
@@ -179,10 +221,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Jeder Teller, jedes Gedeck, jede Schicht ist eine *Entscheidung.* Sundae steckt in allen - mit Ihnen, im Gastraum.',
       lede: 'Die Arbeit passiert im Gastraum, nicht im Dashboard. Sundae macht aus der laufenden Schicht den nächsten richtigen Schritt - für die Person, die ihn gehen muss.',
       trio: [
-        { label: 'Fläche', signal: 'Wartezeit steigt' },
-        { label: 'Anrichte', signal: 'Anrichtzeit kippt' },
-        { label: 'Gastraum', signal: 'Gedecke im Plan' },
+        { label: 'Fläche', signal: 'Wartezeit steigt', cause: 'Bereich 3 liegt 18 Minuten hinter dem Takt.', move: 'Setzen Sie eine Servicekraft von der Vorbereitung in den Gastraum.' },
+        { label: 'Anrichte', signal: 'Anrichtzeit kippt', cause: 'Ribeye- und Lachs-Bons stauen sich.', move: 'Ribeye stoppen, einen Koch an die Anrichte holen.' },
+        { label: 'Gastraum', signal: 'Gedecke im Plan', cause: 'Das Tempo passt, aber der Durchschnittsbon ist schwach.', move: 'Weinbegleitung an den nächsten 12 Zweiertischen anbieten.' },
       ],
+      proof: 'Ein Signal, eine Ursache und der nächste Schritt - während die Schicht noch läuft.',
+      ctaLabel: 'Pulse live ansehen',
+      flagLabel: 'Sundae würde warnen',
+      causeLabel: 'Ursache',
+      moveLabel: 'Maßnahme',
+      viewSignal: 'Signal ansehen',
     },
     truth: {
       eyebrow: 'Eine einzige Quelle der Wahrheit',
@@ -208,10 +256,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Elk bord, elke gast, elke dienst is een *beslissing.* Sundae zit in allemaal - met u, op de vloer.',
       lede: 'Het werk gebeurt op de vloer, niet in een dashboard. Sundae maakt van de lopende dienst de juiste volgende stap - voor wie hem moet zetten.',
       trio: [
-        { label: 'Vloer', signal: 'Wachttijd loopt op' },
-        { label: 'Doorgeef', signal: 'Baktiming loopt uit' },
-        { label: 'Zaal', signal: 'Couverts op schema' },
+        { label: 'Vloer', signal: 'Wachttijd loopt op', cause: 'Sectie 3 loopt 18 minuten achter op schema.', move: 'Zet één medewerker van de mise-en-place naar de vloer.' },
+        { label: 'Doorgeef', signal: 'Baktiming loopt uit', cause: 'Ribeye- en zalmbonnen stapelen zich op.', move: 'Houd ribeye even vast, zet een kok bij de doorgeef.' },
+        { label: 'Zaal', signal: 'Couverts op schema', cause: 'Het tempo is goed, maar de gemiddelde besteding is laag.', move: 'Bied wijnarrangement aan bij de volgende 12 tweepersoonstafels.' },
       ],
+      proof: 'Een signaal, een oorzaak en de volgende stap - terwijl de dienst nog loopt.',
+      ctaLabel: 'Bekijk Pulse live',
+      flagLabel: 'Sundae zou waarschuwen',
+      causeLabel: 'Oorzaak',
+      moveLabel: 'Actie',
+      viewSignal: 'Signaal bekijken',
     },
     truth: {
       eyebrow: 'Eén bron van waarheid',
@@ -237,10 +291,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Cada prato, cada cliente, cada turno é uma *decisão.* O Sundae está em todas - com você, no salão.',
       lede: 'O trabalho acontece no salão, não em um painel. O Sundae transforma o turno ao vivo no próximo passo certo - para quem precisa dá-lo.',
       trio: [
-        { label: 'Salão', signal: 'Espera a subir' },
-        { label: 'Passe', signal: 'Tempos a atrasar' },
-        { label: 'Sala', signal: 'Couverts no ritmo' },
+        { label: 'Salão', signal: 'Espera a subir', cause: 'A seção 3 está 18 minutos atrás do ritmo.', move: 'Passe um garçom da pré-produção para o salão.' },
+        { label: 'Passe', signal: 'Tempos a atrasar', cause: 'As comandas de ribeye e salmão estão se acumulando.', move: 'Segure os ribeyes e leve um cozinheiro para o passe.' },
+        { label: 'Sala', signal: 'Couverts no ritmo', cause: 'O ritmo está bom, mas o ticket médio está baixo.', move: 'Sugira harmonização de vinhos nas próximas 12 mesas de dois.' },
       ],
+      proof: 'Um sinal, uma causa e o próximo passo - com o turno ainda em andamento.',
+      ctaLabel: 'Ver o Pulse ao vivo',
+      flagLabel: 'O Sundae sinalizaria',
+      causeLabel: 'Causa',
+      moveLabel: 'Ação',
+      viewSignal: 'Ver sinal',
     },
     truth: {
       eyebrow: 'Uma única fonte de verdade',
@@ -266,10 +326,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'हर प्लेट, हर मेहमान, हर शिफ्ट एक *फैसला* है। Sundae इन सबमें मौजूद है - आपके साथ, फ्लोर पर।',
       lede: 'काम फ्लोर पर होता है, डैशबोर्ड में नहीं। Sundae चालू शिफ्ट को अगले सही कदम में बदल देता है - उस शख्स के लिए जिसे वह कदम उठाना है।',
       trio: [
-        { label: 'फ्लोर', signal: 'वेट टाइम बढ़ रहा' },
-        { label: 'पास', signal: 'फायर टाइम फिसल रहा' },
-        { label: 'डाइनिंग रूम', signal: 'मेहमान लक्ष्य पर' },
+        { label: 'फ्लोर', signal: 'वेट टाइम बढ़ रहा', cause: 'सेक्शन 3 तय रफ्तार से 18 मिनट पीछे है।', move: 'एक सर्वर को प्रेप से फ्लोर पर भेजें।' },
+        { label: 'पास', signal: 'फायर टाइम फिसल रहा', cause: 'रिबआय और सैल्मन के ऑर्डर जमा हो रहे हैं।', move: 'रिबआय रोकें, एक कुक को एक्सपो पर लगाएं।' },
+        { label: 'डाइनिंग रूम', signal: 'मेहमान लक्ष्य पर', cause: 'रफ्तार ठीक है, पर औसत बिल कम है।', move: 'अगली 12 दो-सीटर टेबलों पर वाइन पेयरिंग सुझाएं।' },
       ],
+      proof: 'एक सिग्नल, एक वजह, और अगला कदम - जब शिफ्ट अब भी चल रही हो।',
+      ctaLabel: 'Pulse लाइव देखें',
+      flagLabel: 'Sundae बताएगा',
+      causeLabel: 'वजह',
+      moveLabel: 'कदम',
+      viewSignal: 'सिग्नल देखें',
     },
     truth: {
       eyebrow: 'सच का एक ही स्रोत',
@@ -295,10 +361,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'ہر پلیٹ، ہر مہمان، ہر شفٹ ایک *فیصلہ* ہے۔ Sundae اِن سب میں موجود ہے - آپ کے ساتھ، فلور پر۔',
       lede: 'کام فلور پر ہوتا ہے، ڈیش بورڈ میں نہیں۔ Sundae جاری شفٹ کو اگلے درست قدم میں بدل دیتا ہے - اُس شخص کے لیے جسے وہ قدم اٹھانا ہے۔',
       trio: [
-        { label: 'فلور', signal: 'ویٹ ٹائم بڑھ رہا ہے' },
-        { label: 'پاس', signal: 'فائر ٹائم پھسل رہا ہے' },
-        { label: 'ڈائننگ روم', signal: 'مہمانوں کی تعداد ہدف پر' },
+        { label: 'فلور', signal: 'ویٹ ٹائم بڑھ رہا ہے', cause: 'سیکشن 3 مقررہ رفتار سے 18 منٹ پیچھے ہے۔', move: 'ایک سرور کو پریپ سے فلور پر بھیجیں۔' },
+        { label: 'پاس', signal: 'فائر ٹائم پھسل رہا ہے', cause: 'رِب آئی اور سالمن کے آرڈر جمع ہو رہے ہیں۔', move: 'رِب آئی روکیں، ایک کُک کو ایکسپو پر لگائیں۔' },
+        { label: 'ڈائننگ روم', signal: 'مہمانوں کی تعداد ہدف پر', cause: 'رفتار ٹھیک ہے، مگر اوسط بل کم ہے۔', move: 'اگلی 12 دو نشست میزوں پر وائن پیئرنگ تجویز کریں۔' },
       ],
+      proof: 'ایک سگنل، ایک وجہ، اور اگلا قدم - جب شفٹ ابھی جاری ہو۔',
+      ctaLabel: 'Pulse لائیو دیکھیں',
+      flagLabel: 'Sundae نشاندہی کرے گا',
+      causeLabel: 'وجہ',
+      moveLabel: 'اقدام',
+      viewSignal: 'سگنل دیکھیں',
     },
     truth: {
       eyebrow: 'سچ کا واحد ماخذ',
@@ -324,10 +396,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Ogni piatto, ogni coperto, ogni turno è una *decisione.* Sundae è in tutte - con te, in sala.',
       lede: 'Il lavoro accade in sala, non in una dashboard. Sundae trasforma il turno in corso nella prossima mossa giusta - per chi deve prenderla.',
       trio: [
-        { label: 'Servizio', signal: 'Attesa in aumento' },
-        { label: 'Passe', signal: 'Tempi in ritardo' },
-        { label: 'Sala', signal: 'Coperti in linea' },
+        { label: 'Servizio', signal: 'Attesa in aumento', cause: 'La sezione 3 è in ritardo di 18 minuti sul ritmo.', move: 'Sposta un cameriere dalla preparazione alla sala.' },
+        { label: 'Passe', signal: 'Tempi in ritardo', cause: 'Le comande di ribeye e salmone si accumulano.', move: 'Ferma i ribeye e sposta un cuoco al passe.' },
+        { label: 'Sala', signal: 'Coperti in linea', cause: 'Il ritmo è buono, ma lo scontrino medio è basso.', move: "Proponi l'abbinamento vino ai prossimi 12 tavoli da due." },
       ],
+      proof: 'Un segnale, una causa e la prossima mossa - mentre il servizio è ancora in corso.',
+      ctaLabel: 'Vedi Pulse in diretta',
+      flagLabel: 'Sundae segnalerebbe',
+      causeLabel: 'Causa',
+      moveLabel: 'Mossa',
+      viewSignal: 'Vedi il segnale',
     },
     truth: {
       eyebrow: "Un'unica fonte di verità",
@@ -353,10 +431,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Każdy talerz, każdy gość, każda zmiana to *decyzja.* Sundae jest w każdej z nich - z tobą, na sali.',
       lede: 'Praca dzieje się na sali, nie na pulpicie. Sundae zamienia trwającą zmianę w kolejny właściwy ruch - dla osoby, która musi go wykonać.',
       trio: [
-        { label: 'Obsługa', signal: 'Czas oczekiwania rośnie' },
-        { label: 'Wydawka', signal: 'Timing się sypie' },
-        { label: 'Sala', signal: 'Goście zgodnie z planem' },
+        { label: 'Obsługa', signal: 'Czas oczekiwania rośnie', cause: 'Sekcja 3 jest 18 minut za tempem.', move: 'Przesuń jednego kelnera z przygotowalni na salę.' },
+        { label: 'Wydawka', signal: 'Timing się sypie', cause: 'Zamówienia na ribeye i łososia się piętrzą.', move: 'Wstrzymaj ribeye, przesuń kucharza na wydawkę.' },
+        { label: 'Sala', signal: 'Goście zgodnie z planem', cause: 'Tempo jest dobre, ale średni rachunek jest niski.', move: 'Zaproponuj parowanie wina przy kolejnych 12 stolikach dla dwojga.' },
       ],
+      proof: 'Sygnał, przyczyna i następny ruch - gdy zmiana wciąż trwa.',
+      ctaLabel: 'Zobacz Pulse na żywo',
+      flagLabel: 'Sundae zwróciłby uwagę',
+      causeLabel: 'Przyczyna',
+      moveLabel: 'Ruch',
+      viewSignal: 'Zobacz sygnał',
     },
     truth: {
       eyebrow: 'Jedno źródło prawdy',
@@ -382,10 +466,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Her tabak, her misafir, her vardiya bir *karardır.* Sundae hepsinin içinde - sizinle, sahada.',
       lede: 'İş, gösterge panelinde değil, sahada olur. Sundae devam eden vardiyayı bir sonraki doğru hamleye dönüştürür - o hamleyi yapacak kişi için.',
       trio: [
-        { label: 'Salon', signal: 'Bekleme süresi artıyor' },
-        { label: 'Servis Ağzı', signal: 'Pişirme zamanı kayıyor' },
-        { label: 'Masalar', signal: 'Misafir sayısı hedefte' },
+        { label: 'Salon', signal: 'Bekleme süresi artıyor', cause: 'Bölge 3 tempodan 18 dakika geride.', move: 'Bir garsonu hazırlıktan salona alın.' },
+        { label: 'Servis Ağzı', signal: 'Pişirme zamanı kayıyor', cause: 'Antrikot ve somon adisyonları birikiyor.', move: 'Antrikotu bekletin, bir aşçıyı servis ağzına alın.' },
+        { label: 'Masalar', signal: 'Misafir sayısı hedefte', cause: 'Tempo iyi ama ortalama adisyon düşük.', move: 'Sonraki 12 iki kişilik masaya şarap eşleştirmesi önerin.' },
       ],
+      proof: 'Bir sinyal, bir neden ve sıradaki hamle - vardiya hâlâ sürerken.',
+      ctaLabel: "Pulse'u canlı izleyin",
+      flagLabel: 'Sundae işaret ederdi',
+      causeLabel: 'Neden',
+      moveLabel: 'Hamle',
+      viewSignal: 'Sinyali gör',
     },
     truth: {
       eyebrow: 'Tek bir doğru kaynağı',
@@ -410,10 +500,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       statement: '每一道菜、每一位客人、每一个班次都是一次*决策。* Sundae 贯穿其中--与你同在，在一线。',
       lede: '工作发生在一线，而不是仪表盘里。Sundae 把正在进行的班次变成下一步的正确动作--交到真正要做决定的人手中。',
       trio: [
-        { label: '前厅', signal: '等位时间上升' },
-        { label: '出品口', signal: '出餐节奏延后' },
-        { label: '餐厅', signal: '客流达标' },
+        { label: '前厅', signal: '等位时间上升', cause: '3 区比正常节奏慢了 18 分钟。', move: '把一名服务员从备餐区调到前厅。' },
+        { label: '出品口', signal: '出餐节奏延后', cause: '肋眼牛排和三文鱼的订单正在积压。', move: '暂停肋眼出餐，调一名厨师到出品口。' },
+        { label: '餐厅', signal: '客流达标', cause: '节奏正常，但客单价偏低。', move: '为接下来 12 张双人桌推荐配酒。' },
       ],
+      proof: '一个信号、一个原因、下一步动作--在班次仍在进行时。',
+      ctaLabel: '实时查看 Pulse',
+      flagLabel: 'Sundae 会提示',
+      causeLabel: '原因',
+      moveLabel: '动作',
+      viewSignal: '查看信号',
     },
     truth: {
       eyebrow: '唯一的事实来源',
@@ -438,10 +534,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       statement: 'どの一皿も、どの一席も、どのシフトも、ひとつの*決断。* Sundae はそのすべてに--あなたとともに、現場で。',
       lede: '仕事は現場で起きる。ダッシュボードの中ではない。Sundae は進行中のシフトを次の最善手に変える--それを下す当人のために。',
       trio: [
-        { label: 'フロア', signal: '待ち時間が増加' },
-        { label: 'パス', signal: '提供タイミング遅延' },
-        { label: '客席', signal: '客数は順調' },
+        { label: 'フロア', signal: '待ち時間が増加', cause: 'セクション3はペースより18分遅れ。', move: 'スタッフを1名、仕込みからフロアへ。' },
+        { label: 'パス', signal: '提供タイミング遅延', cause: 'リブアイとサーモンの注文が滞留中。', move: 'リブアイを一旦止め、調理1名をパスへ。' },
+        { label: '客席', signal: '客数は順調', cause: 'ペースは順調だが客単価が低め。', move: '次の2名席12卓にワインペアリングを提案。' },
       ],
+      proof: 'シグナル、原因、次の一手--シフトがまだ動いているうちに。',
+      ctaLabel: 'Pulse をライブで見る',
+      flagLabel: 'Sundae なら指摘',
+      causeLabel: '原因',
+      moveLabel: '次の一手',
+      viewSignal: 'シグナルを見る',
     },
     truth: {
       eyebrow: 'ひとつの真実',
@@ -466,10 +568,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       statement: '접시 하나, 손님 한 명, 근무 한 번이 모두 하나의 *결정입니다.* Sundae는 그 모든 순간에 있습니다 - 당신과 함께, 현장에서.',
       lede: '일은 대시보드가 아니라 현장에서 일어납니다. Sundae는 진행 중인 근무를 다음 옳은 한 수로 바꿔줍니다 - 그 결정을 내려야 하는 사람을 위해.',
       trio: [
-        { label: '홀', signal: '대기 시간 증가' },
-        { label: '패스', signal: '조리 타이밍 지연' },
-        { label: '다이닝룸', signal: '고객 수 순항 중' },
+        { label: '홀', signal: '대기 시간 증가', cause: '3번 구역이 페이스보다 18분 늦습니다.', move: '직원 한 명을 준비에서 홀로 이동하세요.' },
+        { label: '패스', signal: '조리 타이밍 지연', cause: '립아이와 연어 주문이 밀리고 있습니다.', move: '립아이를 잠시 멈추고 조리사 한 명을 패스로 보내세요.' },
+        { label: '다이닝룸', signal: '고객 수 순항 중', cause: '페이스는 좋지만 객단가가 낮습니다.', move: '다음 2인석 12개에 와인 페어링을 제안하세요.' },
       ],
+      proof: '신호, 원인, 다음 한 수 - 근무가 아직 진행 중일 때.',
+      ctaLabel: 'Pulse 실시간 보기',
+      flagLabel: 'Sundae가 짚어줍니다',
+      causeLabel: '원인',
+      moveLabel: '조치',
+      viewSignal: '신호 보기',
     },
     truth: {
       eyebrow: '하나의 진실',
@@ -495,10 +603,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Setiap piring, setiap tamu, setiap shift adalah sebuah *keputusan.* Sundae ada di semuanya - bersama Anda, di lantai.',
       lede: 'Pekerjaan terjadi di lantai, bukan di dasbor. Sundae mengubah shift yang sedang berjalan menjadi langkah tepat berikutnya - untuk orang yang harus mengambilnya.',
       trio: [
-        { label: 'Area Layan', signal: 'Waktu tunggu naik' },
-        { label: 'Meja Saji', signal: 'Waktu masak meleset' },
-        { label: 'Ruang Makan', signal: 'Tamu sesuai target' },
+        { label: 'Area Layan', signal: 'Waktu tunggu naik', cause: 'Seksi 3 tertinggal 18 menit dari ritme.', move: 'Pindahkan satu pramusaji dari prep ke area layan.' },
+        { label: 'Meja Saji', signal: 'Waktu masak meleset', cause: 'Pesanan ribeye dan salmon menumpuk.', move: 'Tahan ribeye, pindahkan satu juru masak ke meja saji.' },
+        { label: 'Ruang Makan', signal: 'Tamu sesuai target', cause: 'Ritme sehat, tapi rata-rata bon rendah.', move: 'Tawarkan wine pairing ke 12 meja berdua berikutnya.' },
       ],
+      proof: 'Sebuah sinyal, sebuah penyebab, dan langkah berikutnya - saat shift masih berjalan.',
+      ctaLabel: 'Lihat Pulse langsung',
+      flagLabel: 'Sundae akan menandai',
+      causeLabel: 'Penyebab',
+      moveLabel: 'Tindakan',
+      viewSignal: 'Lihat sinyal',
     },
     truth: {
       eyebrow: 'Satu sumber kebenaran',
@@ -524,10 +638,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Mỗi đĩa ăn, mỗi lượt khách, mỗi ca làm đều là một *quyết định.* Sundae có mặt trong tất cả - cùng bạn, ngay tại sàn.',
       lede: 'Công việc diễn ra ngay tại sàn, không phải trên bảng số liệu. Sundae biến ca làm đang diễn ra thành nước đi đúng tiếp theo - cho chính người phải đưa ra nó.',
       trio: [
-        { label: 'Khu phục vụ', signal: 'Thời gian chờ tăng' },
-        { label: 'Bếp ra món', signal: 'Giờ ra món trễ' },
-        { label: 'Phòng ăn', signal: 'Lượt khách đúng nhịp' },
+        { label: 'Khu phục vụ', signal: 'Thời gian chờ tăng', cause: 'Khu 3 đang chậm 18 phút so với nhịp.', move: 'Chuyển một nhân viên từ khâu sơ chế ra khu phục vụ.' },
+        { label: 'Bếp ra món', signal: 'Giờ ra món trễ', cause: 'Phiếu ribeye và cá hồi đang dồn ứ.', move: 'Tạm dừng ribeye, đưa một đầu bếp ra khu trả món.' },
+        { label: 'Phòng ăn', signal: 'Lượt khách đúng nhịp', cause: 'Nhịp ổn, nhưng hóa đơn trung bình thấp.', move: 'Gợi ý kết hợp rượu vang cho 12 bàn đôi kế tiếp.' },
       ],
+      proof: 'Một tín hiệu, một nguyên nhân và bước tiếp theo - khi ca làm vẫn đang diễn ra.',
+      ctaLabel: 'Xem Pulse trực tiếp',
+      flagLabel: 'Sundae sẽ cảnh báo',
+      causeLabel: 'Nguyên nhân',
+      moveLabel: 'Hành động',
+      viewSignal: 'Xem tín hiệu',
     },
     truth: {
       eyebrow: 'Một nguồn sự thật duy nhất',
@@ -553,10 +673,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Fiecare farfurie, fiecare client, fiecare tură este o *decizie.* Sundae este în toate - alături de tine, în sală.',
       lede: 'Munca se întâmplă în sală, nu într-un panou. Sundae transformă tura în desfășurare în următoarea mișcare corectă - pentru cel care trebuie să o ia.',
       trio: [
-        { label: 'Servire', signal: 'Așteptare în creștere' },
-        { label: 'Pas', signal: 'Timpii întârzie' },
-        { label: 'Sală', signal: 'Acoperiri în ritm' },
+        { label: 'Servire', signal: 'Așteptare în creștere', cause: 'Secțiunea 3 e cu 18 minute în urma ritmului.', move: 'Mută un ospătar de la preparare în sală.' },
+        { label: 'Pas', signal: 'Timpii întârzie', cause: 'Comenzile de ribeye și somon se aglomerează.', move: 'Oprește ribeye și trimite un bucătar la pas.' },
+        { label: 'Sală', signal: 'Acoperiri în ritm', cause: 'Ritmul e bun, dar nota medie e mică.', move: 'Propune asociere cu vin la următoarele 12 mese de doi.' },
       ],
+      proof: 'Un semnal, o cauză și următoarea mișcare - cât tura este încă în desfășurare.',
+      ctaLabel: 'Vezi Pulse live',
+      flagLabel: 'Sundae ar semnala',
+      causeLabel: 'Cauză',
+      moveLabel: 'Acțiune',
+      viewSignal: 'Vezi semnalul',
     },
     truth: {
       eyebrow: 'O singură sursă de adevăr',
@@ -582,10 +708,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Varje tallrik, varje gäst, varje pass är ett *beslut.* Sundae finns i alla - med dig, på golvet.',
       lede: 'Jobbet sker på golvet, inte i en instrumentpanel. Sundae gör det pågående passet till nästa rätta drag - för den som måste ta det.',
       trio: [
-        { label: 'Golvet', signal: 'Väntetid ökar' },
-        { label: 'Passet', signal: 'Tajmingen glider' },
-        { label: 'Matsalen', signal: 'Kuvert i takt' },
+        { label: 'Golvet', signal: 'Väntetid ökar', cause: 'Sektion 3 ligger 18 minuter efter takten.', move: 'Flytta en servitör från förberedelse till golvet.' },
+        { label: 'Passet', signal: 'Tajmingen glider', cause: 'Ribeye- och laxnotor börjar hopa sig.', move: 'Pausa ribeye, flytta en kock till passet.' },
+        { label: 'Matsalen', signal: 'Kuvert i takt', cause: 'Takten är god, men snittnotan är svag.', move: 'Föreslå vinpaket vid de nästa 12 tvåmansborden.' },
       ],
+      proof: 'En signal, en orsak och nästa drag - medan passet fortfarande pågår.',
+      ctaLabel: 'Se Pulse live',
+      flagLabel: 'Sundae skulle flagga',
+      causeLabel: 'Orsak',
+      moveLabel: 'Åtgärd',
+      viewSignal: 'Se signalen',
     },
     truth: {
       eyebrow: 'En enda källa till sanning',
@@ -611,10 +743,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'প্রতিটি প্লেট, প্রতিটি অতিথি, প্রতিটি শিফট একেকটি *সিদ্ধান্ত।* Sundae সবগুলোতেই আছে - আপনার সঙ্গে, ফ্লোরে।',
       lede: 'কাজ হয় ফ্লোরে, ড্যাশবোর্ডে নয়। Sundae চলমান শিফটকে পরের সঠিক পদক্ষেপে রূপ দেয় - যাকে সেই পদক্ষেপ নিতে হবে তার জন্য।',
       trio: [
-        { label: 'ফ্লোর', signal: 'অপেক্ষার সময় বাড়ছে' },
-        { label: 'পাস', signal: 'ফায়ার টাইম পিছিয়ে' },
-        { label: 'ডাইনিং রুম', signal: 'অতিথি লক্ষ্যমাত্রায়' },
+        { label: 'ফ্লোর', signal: 'অপেক্ষার সময় বাড়ছে', cause: 'সেকশন ৩ নির্ধারিত গতির চেয়ে ১৮ মিনিট পিছিয়ে।', move: 'একজন সার্ভারকে প্রেপ থেকে ফ্লোরে পাঠান।' },
+        { label: 'পাস', signal: 'ফায়ার টাইম পিছিয়ে', cause: 'রিবআই ও স্যামনের অর্ডার জমছে।', move: 'রিবআই থামান, একজন কুককে এক্সপোতে দিন।' },
+        { label: 'ডাইনিং রুম', signal: 'অতিথি লক্ষ্যমাত্রায়', cause: 'গতি ঠিক আছে, তবে গড় বিল কম।', move: 'পরের ১২টি দুই-আসনের টেবিলে ওয়াইন পেয়ারিং প্রস্তাব করুন।' },
       ],
+      proof: 'একটি সংকেত, একটি কারণ, আর পরের পদক্ষেপ - শিফট চলাকালীনই।',
+      ctaLabel: 'Pulse লাইভ দেখুন',
+      flagLabel: 'Sundae চিহ্নিত করত',
+      causeLabel: 'কারণ',
+      moveLabel: 'পদক্ষেপ',
+      viewSignal: 'সংকেত দেখুন',
     },
     truth: {
       eyebrow: 'সত্যের একটিই উৎস',
@@ -640,10 +778,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'ทุกจาน ทุกลูกค้า ทุกกะ คือ*การตัดสินใจ* Sundae อยู่ในทุกครั้ง - เคียงข้างคุณ ที่หน้างาน',
       lede: 'งานเกิดขึ้นที่หน้างาน ไม่ใช่ในแดชบอร์ด Sundae เปลี่ยนกะที่กำลังดำเนินอยู่ให้เป็นก้าวต่อไปที่ถูกต้อง - เพื่อคนที่ต้องเป็นผู้ตัดสินใจ',
       trio: [
-        { label: 'ฟลอร์', signal: 'เวลารอเพิ่มขึ้น' },
-        { label: 'พาส', signal: 'จังหวะปรุงคลาด' },
-        { label: 'ห้องอาหาร', signal: 'จำนวนแขกตามเป้า' },
+        { label: 'ฟลอร์', signal: 'เวลารอเพิ่มขึ้น', cause: 'โซน 3 ช้ากว่าจังหวะ 18 นาที', move: 'ย้ายพนักงานเสิร์ฟหนึ่งคนจากครัวเตรียมมาที่ฟลอร์' },
+        { label: 'พาส', signal: 'จังหวะปรุงคลาด', cause: 'ออร์เดอร์ริบอายและแซลมอนกำลังกองค้าง', move: 'ชะลอริบอาย แล้วย้ายกุ๊กหนึ่งคนไปที่พาส' },
+        { label: 'ห้องอาหาร', signal: 'จำนวนแขกตามเป้า', cause: 'จังหวะดี แต่ยอดต่อบิลเฉลี่ยต่ำ', move: 'เสนอไวน์แพริงกับโต๊ะสองที่นั่ง 12 โต๊ะถัดไป' },
       ],
+      proof: 'สัญญาณ สาเหตุ และก้าวต่อไป - ในขณะที่กะยังดำเนินอยู่',
+      ctaLabel: 'ดู Pulse แบบเรียลไทม์',
+      flagLabel: 'Sundae จะแจ้งเตือน',
+      causeLabel: 'สาเหตุ',
+      moveLabel: 'การลงมือ',
+      viewSignal: 'ดูสัญญาณ',
     },
     truth: {
       eyebrow: 'แหล่งความจริงเดียว',
@@ -669,10 +813,16 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Setiap pinggan, setiap tetamu, setiap syif ialah satu *keputusan.* Sundae ada dalam semuanya - bersama anda, di lantai.',
       lede: 'Kerja berlaku di lantai, bukan di papan pemuka. Sundae mengubah syif yang sedang berjalan menjadi langkah betul seterusnya - untuk orang yang perlu membuatnya.',
       trio: [
-        { label: 'Lantai', signal: 'Masa menunggu naik' },
-        { label: 'Pas', signal: 'Masa masak tergelincir' },
-        { label: 'Ruang Makan', signal: 'Tetamu ikut sasaran' },
+        { label: 'Lantai', signal: 'Masa menunggu naik', cause: 'Seksyen 3 ketinggalan 18 minit daripada rentak.', move: 'Pindahkan seorang pelayan dari penyediaan ke lantai.' },
+        { label: 'Pas', signal: 'Masa masak tergelincir', cause: 'Pesanan ribeye dan salmon semakin bertimbun.', move: 'Tahan ribeye, pindahkan seorang tukang masak ke pas.' },
+        { label: 'Ruang Makan', signal: 'Tetamu ikut sasaran', cause: 'Rentak sihat, tetapi purata bil rendah.', move: 'Cadangkan padanan wain di 12 meja berdua seterusnya.' },
       ],
+      proof: 'Satu isyarat, satu punca, dan langkah seterusnya - semasa syif masih berjalan.',
+      ctaLabel: 'Lihat Pulse secara langsung',
+      flagLabel: 'Sundae akan menandakan',
+      causeLabel: 'Punca',
+      moveLabel: 'Tindakan',
+      viewSignal: 'Lihat isyarat',
     },
     truth: {
       eyebrow: 'Satu sumber kebenaran',

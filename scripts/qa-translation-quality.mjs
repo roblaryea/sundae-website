@@ -83,6 +83,9 @@ const allowedIdenticalLocalizedStrings = new Set([
   'Delivery',
   'Regional',
   'Margin',
+  // True cognate: "Cause" is the correct, native French word (identical spelling
+  // to English) - used as the receipt "Cause" label in the cream-relief beat.
+  'Cause',
 ])
 
 const protectedTerms = [

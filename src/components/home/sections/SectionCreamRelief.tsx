@@ -30,6 +30,8 @@ interface TrioItem {
   src: string;
   label: string;
   signal: string;
+  cause: string;
+  move: string;
   tone: SignalTone;
 }
 
@@ -79,6 +81,9 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
     creamReliefCopy[locale as keyof typeof creamReliefCopy] ?? creamReliefCopy.en;
   const variantCopy = copy[variant];
   const unifyCopy = copy.unify;
+  // Which frame's receipt is pinned open (mobile tap). Desktop reveals on
+  // hover / keyboard focus via CSS; tap pins it so touch users can read it.
+  const [openCard, setOpenCard] = useState<number | null>(null);
 
   const trio: TrioItem[] =
     variant === 'decisions'
@@ -86,6 +91,8 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
           src: TRIO_SRCS[i],
           label: frame.label,
           signal: frame.signal,
+          cause: frame.cause ?? '',
+          move: frame.move ?? '',
           tone: TRIO_TONES[i],
         }))
       : [];
@@ -151,63 +158,132 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
         )}
 
         {trio.length > 0 && (
-        <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
-          {trio.map((t, i) => (
-            <FadeUp key={t.label} delay={0.08 * (i + 1)}>
-              {/* Each frame is a live operating moment, not just atmosphere: the
-                  place (Floor / Pass / Room) + the live signal Sundae reads there
-                  while it's still actionable. */}
-              <figure className="group">
-                <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-[0_24px_48px_-24px_rgba(26,20,15,0.5)]">
-                  <Image
-                    src={t.src}
-                    alt={`${t.label} - ${t.signal}`}
-                    fill
-                    loading="lazy"
-                    sizes="(max-width: 640px) 100vw, 33vw"
-                    className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.06]"
-                  />
-                  {/* warm grade - kept lighter so the photo + overlays stay legible */}
-                  <div
-                    aria-hidden
-                    className="absolute inset-0 opacity-45 mix-blend-soft-light"
-                    style={{
-                      background:
-                        'linear-gradient(120deg, rgba(233,162,74,0.45), rgba(255,92,77,0.22))',
-                    }}
-                  />
-                  {/* legibility scrim for the overlaid label + signal */}
-                  <div
-                    aria-hidden
-                    className="absolute inset-0"
-                    style={{
-                      background:
-                        'linear-gradient(to top, rgba(18,11,7,0.7) 0%, rgba(18,11,7,0.12) 38%, transparent 62%)',
-                    }}
-                  />
-                  {/* place label - top-left (text-shadow holds it on bright frames) */}
-                  <span
-                    className="absolute left-3 top-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/90"
-                    style={{ textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}
-                  >
-                    {t.label}
-                  </span>
-                  {/* live signal - bottom-left, with a pulsing status dot */}
-                  <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm">
-                    <span aria-hidden className="relative flex h-1.5 w-1.5">
-                      <span
-                        className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-70 motion-reduce:hidden"
-                        style={{ background: TONE_COLOR[t.tone] }}
-                      />
-                      <span className="relative inline-flex h-1.5 w-1.5 rounded-full" style={{ background: TONE_COLOR[t.tone] }} />
-                    </span>
-                    {t.signal}
-                  </span>
-                </div>
-              </figure>
+        <>
+          {/* Quiet proof line + inline CTA: names exactly what each frame proves -
+              a signal, a cause, a next move - while the shift is still live.
+              Stacks under the sentence on mobile, sits inline from sm up. */}
+          {variantCopy.proof && (
+            <FadeUp delay={0.12}>
+              <div className="mt-10 flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-3.5">
+                <p className="text-sm font-medium sm:text-[15px]" style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}>
+                  {variantCopy.proof}
+                </p>
+                <a
+                  href="/product/pulse"
+                  className="group/cta inline-flex items-center gap-1.5 whitespace-nowrap text-sm font-semibold transition-colors hover:opacity-80"
+                  style={{ color: 'var(--warm-coral)' }}
+                >
+                  {variantCopy.ctaLabel}
+                  <svg width="13" height="13" viewBox="0 0 12 12" fill="none" aria-hidden className="transition-transform duration-300 group-hover/cta:translate-x-0.5">
+                    <path d="M3 6h6M6.5 3.5 9 6 6.5 8.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </a>
+              </div>
             </FadeUp>
-          ))}
-        </div>
+          )}
+
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
+            {trio.map((t, i) => {
+              const isOpen = openCard === i;
+              const good = t.tone === 'good';
+              return (
+              <FadeUp key={t.label} delay={0.08 * (i + 1)}>
+                {/* Each frame is a live operating moment, not just atmosphere: the
+                    place (Floor / Pass / Room) + the live signal Sundae reads there.
+                    Hover / keyboard-focus (desktop) or tap (mobile) reveals the
+                    compact "Sundae would flag" receipt - signal, cause, next move -
+                    in-card (no modal), so the relief beat stays light. */}
+                <button
+                  type="button"
+                  onClick={() => setOpenCard(isOpen ? null : i)}
+                  aria-expanded={isOpen}
+                  aria-label={`${t.label} - ${t.signal}. ${variantCopy.viewSignal ?? ''}`}
+                  className="group block w-full text-left"
+                >
+                  <figure className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-[0_24px_48px_-24px_rgba(26,20,15,0.5)] outline-none ring-2 ring-transparent transition-[box-shadow,transform] duration-300 group-hover:-translate-y-0.5 group-focus-visible:ring-[var(--warm-coral)]">
+                    <Image
+                      src={t.src}
+                      alt={`${t.label} - ${t.signal}`}
+                      fill
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 33vw"
+                      className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.06]"
+                    />
+                    {/* warm grade - kept lighter so the photo + overlays stay legible */}
+                    <div
+                      aria-hidden
+                      className="absolute inset-0 opacity-45 mix-blend-soft-light"
+                      style={{ background: 'linear-gradient(120deg, rgba(233,162,74,0.45), rgba(255,92,77,0.22))' }}
+                    />
+                    {/* resting legibility scrim for the label + signal pill */}
+                    <div
+                      aria-hidden
+                      className="absolute inset-0"
+                      style={{ background: 'linear-gradient(to top, rgba(18,11,7,0.7) 0%, rgba(18,11,7,0.12) 38%, transparent 62%)' }}
+                    />
+                    {/* place label - top-left, always visible */}
+                    <span
+                      className="absolute left-3 top-3 z-20 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/90"
+                      style={{ textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}
+                    >
+                      {t.label}
+                    </span>
+                    {/* resting signal pill - fades out as the receipt reveals */}
+                    <span
+                      className={`absolute bottom-3 left-3 z-20 inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm transition-opacity duration-200 group-hover:opacity-0 group-focus-visible:opacity-0 ${isOpen ? 'opacity-0' : ''}`}
+                    >
+                      <span aria-hidden className="relative flex h-1.5 w-1.5">
+                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-70 motion-reduce:hidden" style={{ background: TONE_COLOR[t.tone] }} />
+                        <span className="relative inline-flex h-1.5 w-1.5 rounded-full" style={{ background: TONE_COLOR[t.tone] }} />
+                      </span>
+                      {t.signal}
+                    </span>
+                    {/* "View signal" affordance - bottom-right, hints interactivity */}
+                    {variantCopy.viewSignal && (
+                      <span
+                        className={`absolute bottom-3 right-3 z-20 inline-flex items-center gap-1 rounded-full bg-white/[0.14] px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-white/85 backdrop-blur-sm transition-opacity duration-200 group-hover:opacity-0 group-focus-visible:opacity-0 ${isOpen ? 'opacity-0' : ''}`}
+                      >
+                        {variantCopy.viewSignal}
+                        <svg width="9" height="9" viewBox="0 0 12 12" fill="none" aria-hidden>
+                          <path d="M3 6h6M6.5 3.5 9 6 6.5 8.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      </span>
+                    )}
+                    {/* RECEIPT reveal - in-card, reads like a receipt not a dashboard.
+                        Cream text on a dark panel; coral only for the flag + dot;
+                        green only for the "on pace" (good) status headline. */}
+                    <div
+                      className={`absolute inset-0 z-30 flex flex-col justify-end p-4 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                    >
+                      <div aria-hidden className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(14,9,6,0.93) 0%, rgba(14,9,6,0.8) 46%, rgba(14,9,6,0.42) 100%)' }} />
+                      <div className="relative">
+                        <span className="mb-2 inline-flex items-center gap-1.5">
+                          <span aria-hidden className="relative flex h-1.5 w-1.5">
+                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-70 motion-reduce:hidden" style={{ background: 'var(--warm-coral)' }} />
+                            <span className="relative inline-flex h-1.5 w-1.5 rounded-full" style={{ background: 'var(--warm-coral)' }} />
+                          </span>
+                          <span className="text-[10px] font-bold uppercase tracking-[0.16em]" style={{ color: 'var(--warm-coral)' }}>
+                            {variantCopy.flagLabel}
+                          </span>
+                        </span>
+                        <p className="font-display text-base font-semibold leading-tight sm:text-[17px]" style={{ color: good ? '#84D6A2' : '#FBF6EE' }}>
+                          {t.signal}
+                        </p>
+                        <p className="mt-2 text-[12.5px] leading-snug text-white/85">
+                          <span className="font-semibold text-white/55">{variantCopy.causeLabel}: </span>{t.cause}
+                        </p>
+                        <p className="mt-1 text-[12.5px] leading-snug text-white/85">
+                          <span className="font-semibold text-white/55">{variantCopy.moveLabel}: </span>{t.move}
+                        </p>
+                      </div>
+                    </div>
+                  </figure>
+                </button>
+              </FadeUp>
+              );
+            })}
+          </div>
+        </>
         )}
       </div>
     </section>
