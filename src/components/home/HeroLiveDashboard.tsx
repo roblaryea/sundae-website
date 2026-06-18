@@ -164,10 +164,13 @@ export function HeroLiveDashboard() {
         </div>
       </div>
 
-      {/* ── Two columns: pacing dashboard + Sundae Coach rail ── */}
-      <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-3">
-        {/* LEFT - pacing dashboard */}
-        <div className="space-y-3">
+      {/* ── Two columns: Sundae Coach (prioritized, first-read on desktop) + the
+             pacing dashboard that shows what changed. Order via CSS so the
+             animated cards never move in the DOM. ── */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-3">
+        {/* Pacing dashboard ("what changed") - always second, so the Coach's
+            recommended action is the first read on every breakpoint. */}
+        <div className="space-y-3 order-last">
           {/* Pace block */}
           <div className="rounded-xl border border-[var(--border-default)] bg-white/[0.025] p-3.5">
             <div className="flex items-end justify-between gap-3 mb-3">
@@ -263,7 +266,7 @@ export function HeroLiveDashboard() {
           </div>
         </div>
 
-        {/* RIGHT - Sundae Coach rail */}
+        {/* Sundae Coach - prioritized: first-read + dominant column on desktop */}
         <div className="rounded-xl border border-[#FF5C4D]/30 bg-gradient-to-b from-[#FF5C4D]/[0.10] to-[#FF5C4D]/[0.02] p-3 flex flex-col">
           <div className="flex items-center gap-2 mb-2.5">
             <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-[#FF5C4D]/20 text-[#FF8473] text-[11px]">
@@ -308,7 +311,11 @@ export function HeroLiveDashboard() {
                       {c.impact.replace("{up}", fmt(420)).replace("{lab}", fmt(280))}
                     </span>
                   </div>
-                  <p className="text-[12.5px] sm:text-[13px] leading-snug text-[var(--text-primary)]">
+                  <p
+                    className={`leading-snug text-[var(--text-primary)] ${
+                      slot === 0 ? "text-[13px] font-medium sm:text-[14px]" : "text-[12.5px] sm:text-[13px]"
+                    }`}
+                  >
                     {c.text}
                   </p>
                 </motion.div>
