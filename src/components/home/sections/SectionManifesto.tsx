@@ -5,6 +5,7 @@ import { Fragment, type ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { useSettledReducedMotion } from '@/lib/useSettledReducedMotion';
 import { manifestoCopy, manifestoMoments } from './manifestoCopy';
 
 // The three live moments of a service night slipping - locale-invariant times,
@@ -39,6 +40,7 @@ function renderStatement(statement: string): ReactNode {
 
 export function SectionManifesto() {
   const { locale } = useWebsiteI18n();
+  const reduceMotion = useSettledReducedMotion();
   const copy = manifestoCopy[locale as keyof typeof manifestoCopy] ?? manifestoCopy.en;
   const mm = manifestoMoments[locale as keyof typeof manifestoMoments] ?? manifestoMoments.en!;
 
@@ -47,18 +49,35 @@ export function SectionManifesto() {
       aria-label={copy.eyebrow}
       className="relative overflow-hidden border-y border-[var(--border-default)] py-24 sm:py-32"
     >
-      {/* Subtle dark restaurant backdrop - the belief sits over the room. Dark-mode
-          only (hidden in light) so the light theme stays clean; heavily darkened so
-          the type always leads. */}
+      {/* Subtle dark restaurant backdrop - the belief sits over a *living* room: a
+          muted, looping ambient clip so "the shift is still alive" actually moves.
+          Dark-mode only (hidden in light); heavily darkened so the type always
+          leads. Reduced-motion users get the still poster; the video is below the
+          fold and lazy (preload=none + poster) so it never touches hero LCP. */}
       <div aria-hidden className="absolute inset-0 [html.light_&]:hidden">
-        <Image
-          src="/images/editorial/dining-night.jpg"
-          alt=""
-          fill
-          loading="lazy"
-          sizes="100vw"
-          className="object-cover object-center opacity-[0.16]"
-        />
+        {reduceMotion ? (
+          <Image
+            src="/videos/manifesto-room-poster.jpg"
+            alt=""
+            fill
+            loading="lazy"
+            sizes="100vw"
+            className="object-cover object-center opacity-[0.16]"
+          />
+        ) : (
+          <video
+            className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.16]"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+            poster="/videos/manifesto-room-poster.jpg"
+          >
+            <source src="/videos/manifesto-room.webm" type="video/webm" />
+            <source src="/videos/manifesto-room.mp4" type="video/mp4" />
+          </video>
+        )}
         <div
           className="absolute inset-0"
           style={{
@@ -106,11 +125,11 @@ export function SectionManifesto() {
               viewport={{ once: true, amount: 0.6 }}
               transition={{ delay: 0.15 + i * 0.22, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             >
-              <span className="font-mono text-[12px] tabular-nums text-[var(--text-muted)]">
+              <span className="font-mono text-[13px] tabular-nums text-[var(--text-muted)] sm:text-[15px]">
                 {MOMENT_TIMES[i]}
               </span>
               <span aria-hidden className="h-1 w-1 shrink-0 rounded-full bg-[#FF8A4C]" />
-              <span className="text-sm text-[var(--text-secondary)]">{text}</span>
+              <span className="text-sm text-[var(--text-secondary)] sm:text-[15px]">{text}</span>
             </motion.div>
           ))}
         </div>
