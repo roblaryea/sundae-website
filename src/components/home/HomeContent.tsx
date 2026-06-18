@@ -255,14 +255,26 @@ export default function HomeContent() {
               </h2>
             </motion.div>
 
+            {/* Subheadline - the sharp, memorable promise (what / why / act in time) */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.15, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <p className="font-display mx-auto mb-6 max-w-2xl text-balance text-lg font-medium leading-snug text-[var(--text-primary)] sm:text-2xl">
+                {home.subheadline}
+              </p>
+            </motion.div>
+
             {/* Tagline */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.9, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
+              transition={{ duration: 0.9, delay: 0.25, ease: [0.25, 0.4, 0.25, 1] }}
             >
-              <p className="body-xl max-w-2xl mx-auto mb-10">
+              <p className="body-lg max-w-xl mx-auto mb-10 text-[var(--text-supporting)]">
                 {home.description}
                 <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.66em] w-auto inline-block align-baseline mx-[0.08em] translate-y-[0.02em] text-[var(--text-primary)]")}</span>
               </p>
