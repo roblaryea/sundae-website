@@ -228,7 +228,7 @@ export default function ProductPage() {
                   <span className="absolute top-3 right-3 badge badge--free text-[10px] z-10">{ui.freeLabel}</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">{ui.freeTitle}</h3>
+                  <h3 className="text-2xl font-bold text-[var(--text-display)] mb-2">{ui.freeTitle}</h3>
                   <p className="text-sm text-[#FF8473] font-semibold mb-3">{ui.freeSubtitle}</p>
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.freeDescription}</p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.freeIncludes}</p>
@@ -250,7 +250,7 @@ export default function ProductPage() {
                   <span className="absolute top-3 right-3 badge badge--popular text-[10px] z-10">{ui.coreLabel}</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">{ui.coreTitle}</h3>
+                  <h3 className="text-2xl font-bold text-[var(--text-display)] mb-2">{ui.coreTitle}</h3>
                   <p className="text-sm text-purple-400 font-semibold mb-3">{ui.coreSubtitle}</p>
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.coreDescription}</p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.coreIncludes}</p>
@@ -278,7 +278,7 @@ export default function ProductPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp><div className="text-center mb-16">
-            <p className="eyebrow text-[#FF8473] mb-4">{ui.layersEyebrow}</p>
+            <p className="eyebrow mb-4">{ui.layersEyebrow}</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.layersTitle}</h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.layersDescription}</p>
           </div></FadeUp>
@@ -295,7 +295,7 @@ export default function ProductPage() {
                           <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                         </div>
                         <div>
-                          <h3 className="text-2xl font-bold text-[var(--text-primary)]">{pillar.name}</h3>
+                          <h3 className="text-2xl font-bold text-[var(--text-display)]">{pillar.name}</h3>
                           <p className="text-sm text-[var(--text-muted)] font-medium">{pillar.tagline}</p>
                         </div>
                       </div>

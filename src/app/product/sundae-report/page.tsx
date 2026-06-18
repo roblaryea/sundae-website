@@ -329,7 +329,7 @@ export default function SundaeReportPage() {
                   <div className="w-12 h-12 mx-auto mb-2 bg-[var(--surface-subtle)] rounded-lg flex items-center justify-center">
                     <SundaeIcon name={item.icon} size="lg" className="text-white" />
                   </div>
-                  <h3 className="font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
+                  <h3 className="font-semibold text-[var(--text-display)] mb-2">{item.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)]">{item.desc}</p>
                 </div>
               </StaggerItem>

@@ -62,9 +62,9 @@ export function SectionEditorialBand({
             objectPosition={objectPosition}
           >
             <div className="max-w-2xl">
-              {/* Legible premium kicker - white copy + a blue accent rule.
-                  NOT the global `.eyebrow` class, which forces electric-blue text
-                  that disappears over photography. */}
+              {/* Legible premium kicker - white copy + a warm-coral accent rule.
+                  NOT the global `.eyebrow` class: over photography this needs full
+                  white for contrast, where the muted-warm eyebrow tone would fade. */}
               <div className="mb-3.5 flex items-center gap-2.5">
                 <span className="h-px w-7 bg-[var(--warm-coral)]" />
                 <span className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.18em] text-white/90 [text-shadow:0_1px_8px_rgba(0,0,0,0.5)]">

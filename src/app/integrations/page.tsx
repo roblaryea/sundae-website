@@ -112,7 +112,7 @@ export default function IntegrationsPage() {
                   <div className="w-10 h-10 bg-[#FF5C4D]/20 rounded-full flex items-center justify-center text-[#FF8473] font-bold text-lg mx-auto mb-4">
                     {item.step}
                   </div>
-                  <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
+                  <h3 className="text-lg font-semibold text-[var(--text-display)] mb-2">{item.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)]">{item.description}</p>
                 </div>
               </StaggerItem>
@@ -135,7 +135,7 @@ export default function IntegrationsPage() {
                   <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
                     <SundaeIcon name={cat.icon} size="md" className="text-white" />
                   </div>
-                  <h3 className="text-xl font-semibold text-[var(--text-primary)]">{cat.category}</h3>
+                  <h3 className="text-xl font-semibold text-[var(--text-display)]">{cat.category}</h3>
                   <span
                     className={`px-2.5 py-1 text-xs font-medium rounded-full ${
                       cat.status === "Live"
@@ -175,7 +175,7 @@ export default function IntegrationsPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="integration" size="lg" className="text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">{copy.customWebhooks}</h3>
+                <h3 className="text-xl font-semibold text-[var(--text-display)] mb-3">{copy.customWebhooks}</h3>
                 <p className="text-[var(--text-supporting)] text-sm mb-4">{copy.customWebhooksDescription}</p>
                 <ul className="space-y-2 text-sm text-[var(--text-supporting)]">
                   <li className="flex items-start space-x-2">
@@ -199,7 +199,7 @@ export default function IntegrationsPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-[#F2B45C] to-[#C2410C] rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="data" size="lg" className="text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">{copy.publicApi}</h3>
+                <h3 className="text-xl font-semibold text-[var(--text-display)] mb-3">{copy.publicApi}</h3>
                 <p className="text-[var(--text-supporting)] text-sm mb-4">{copy.publicApiDescription}</p>
                 <ul className="space-y-2 text-sm text-[var(--text-supporting)]">
                   <li className="flex items-start space-x-2">

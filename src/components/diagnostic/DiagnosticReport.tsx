@@ -109,7 +109,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
               {copy.report.eyebrow}
             </span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] mb-3 text-balance">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-display)] mb-3 text-balance">
             {copy.report.title(firstName)}
           </h1>
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
@@ -139,7 +139,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
           >
             <div className="flex items-center gap-2 mb-4">
               <TrendingUp className="w-5 h-5 text-[var(--warm-coral)]" />
-              <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+              <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-display)]">
                 {copy.report.leaksTitle(report.topLeaks.length)}
               </h2>
             </div>
@@ -186,7 +186,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
         >
           <div className="flex items-center gap-2 mb-4">
             <Layers className="w-5 h-5 text-[var(--warm-coral)]" />
-            <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+            <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-display)]">
               {copy.report.recommendedStack}
             </h2>
           </div>
@@ -231,7 +231,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
         >
           <div className="flex items-center gap-2 mb-4">
             <CheckCircle2 className="w-5 h-5 text-emerald-400" />
-            <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+            <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-display)]">
               {copy.report.expectedImpact}
             </h2>
           </div>
@@ -262,7 +262,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
         >
           <div className="flex items-center gap-2 mb-4">
             <Calendar className="w-5 h-5 text-[var(--warm-coral)]" />
-            <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+            <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-display)]">
               {copy.report.planTitle}
             </h2>
           </div>
@@ -298,7 +298,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
           >
             <div className="flex items-center gap-2 mb-1">
               <Wallet className="w-5 h-5 text-[var(--warm-coral)]" />
-              <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+              <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-display)]">
                 {copy.report.economicsTitle}
               </h2>
             </div>

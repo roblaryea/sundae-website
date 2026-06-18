@@ -161,7 +161,7 @@ export default async function SecurityPage() {
                   <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
                     <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                   </div>
-                  <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{pillar.title}</h3>
+                  <h3 className="text-lg font-semibold text-[var(--text-display)] mb-2">{pillar.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{pillar.description}</p>
                 </div>
               ))}
@@ -182,7 +182,7 @@ export default async function SecurityPage() {
                   <div className="flex items-start gap-4">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <h3 className="text-lg font-semibold text-[var(--text-primary)]">{item.title}</h3>
+                        <h3 className="text-lg font-semibold text-[var(--text-display)]">{item.title}</h3>
                         {item.note && <span className="text-xs font-medium px-2 py-1 rounded-full bg-amber-500/20 text-amber-400">{item.note}</span>}
                       </div>
                       <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{item.description}</p>

@@ -501,7 +501,9 @@ export function SectionCinematicIntro() {
 
           <h1
             className="mt-5 font-light leading-[0.94] tracking-[-0.04em]"
-            style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
+            // Warm off-white (#FBF8F4), matching the subhead + wordmark - not clinical
+            // pure white. The hero is surface-always-dark, so this is correct in both themes.
+            style={{ fontFamily: "var(--font-display)", color: "#FBF8F4" }}
             aria-label={`${copy.headline} ${copy.tagline}`}
           >
             <span className="block overflow-hidden">

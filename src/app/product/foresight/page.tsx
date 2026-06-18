@@ -628,7 +628,7 @@ export default function ForesightPage() {
                     <SundaeIcon name={step.icon} size="lg" className="text-white" />
                   </div>
                   <div className="text-xs font-mono text-[#FF5C4D] mb-2">{step.step}</div>
-                  <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{step.title}</h3>
+                  <h3 className="text-lg font-semibold text-[var(--text-display)] mb-2">{step.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{step.description}</p>
                 </div>
               </StaggerItem>
@@ -654,7 +654,7 @@ export default function ForesightPage() {
                     <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                       <div className="flex items-center gap-3 mb-4">
                         <div className={`w-12 h-12 bg-gradient-to-br ${component.color} rounded-xl flex items-center justify-center`}><SundaeIcon name={component.icon} size="lg" className="text-white" /></div>
-                        <div><h3 className="text-2xl font-bold text-[var(--text-primary)]">{component.title}</h3><p className="text-sm text-[var(--text-muted)] font-medium">{component.headline}</p></div>
+                        <div><h3 className="text-2xl font-bold text-[var(--text-display)]">{component.title}</h3><p className="text-sm text-[var(--text-muted)] font-medium">{component.headline}</p></div>
                       </div>
                       <p className="text-[var(--text-supporting)] leading-relaxed mb-6">{component.description}</p>
                       <div className="space-y-2 mb-4">

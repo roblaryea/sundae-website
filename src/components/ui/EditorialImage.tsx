@@ -54,7 +54,7 @@ interface EditorialImageProps {
  *   1. Blend: a gradient built from `var(--navy-deep)` (which flips white↔navy per
  *      theme) feathers the image edges into the page background, so a photo never
  *      sits as a hard rectangle on either light or dark.
- *   2. Cohere: a whisper of electric-blue brand wash + optional grain ties the
+ *   2. Cohere: a whisper of warm-coral brand wash + optional grain ties the
  *      photography to the product UI without dulling it.
  *
  * Theme behaviour matches <ThemedShot>: swaps are pure CSS off `html.light`, so

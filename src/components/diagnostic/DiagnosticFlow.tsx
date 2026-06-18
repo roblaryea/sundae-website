@@ -205,7 +205,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.25 }}
             >
-              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-display)] mb-2 text-balance">
                 {localizedQuestion?.prompt ?? q.prompt}
               </h2>
               {(localizedQuestion?.helper ?? q.helper) && (
@@ -270,7 +270,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.25 }}
             >
-              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-display)] mb-2 text-balance">
                 {catalog.capture.title}
               </h2>
               <p className="text-sm text-[var(--text-muted)] mb-8">

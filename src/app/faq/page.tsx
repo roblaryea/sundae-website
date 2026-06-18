@@ -65,7 +65,7 @@ export default function FAQPage() {
                     <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center">
                       <SundaeIcon name={category.icon} size="lg" className="text-white" />
                     </div>
-                    <h2 className="text-3xl font-bold text-[var(--text-primary)]">{category.title}</h2>
+                    <h2 className="text-3xl font-bold text-[var(--text-display)]">{category.title}</h2>
                   </div>
                   <div className="h-1 w-20 bg-gradient-to-r from-[#FF5C4D] to-purple-600 rounded-full"></div>
                 </div>

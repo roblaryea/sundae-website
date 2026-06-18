@@ -1241,7 +1241,7 @@ export default function CrossIntelligencePage() {
                         </div>
                         <div>
                           <div className="flex items-center gap-2">
-                            <h3 className="text-2xl font-bold text-[var(--text-primary)]">{component.title}</h3>
+                            <h3 className="text-2xl font-bold text-[var(--text-display)]">{component.title}</h3>
                             <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full ${component.tier === 'pro' ? 'bg-[#E9A24A]/20 text-[#E9A24A]' : 'bg-[#FF5C4D]/20 text-[#FF7E6F]'}`}>
                               {component.tier === 'pro' ? ui.proTierLabel : ui.baseTierLabel}
                             </span>

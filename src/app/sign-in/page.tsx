@@ -156,7 +156,7 @@ async function handleSubmit(e: FormEvent) {
 
  {/* Headline + product shot */}
  <div className="flex-1 flex flex-col justify-center -mt-8">
- <h2 className="text-3xl xl:text-4xl font-bold text-[var(--text-primary)] leading-tight mb-4">
+ <h2 className="text-3xl xl:text-4xl font-bold text-[var(--text-display)] leading-tight mb-4">
  {copy.brandTitle}
  </h2>
  <p className="text-[var(--text-secondary)] text-base leading-relaxed mb-8 max-w-sm">
@@ -206,7 +206,7 @@ async function handleSubmit(e: FormEvent) {
  <div className="w-full max-w-[400px]">
  {/* Heading */}
  <div className="mb-8">
- <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2">
+ <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-display)] mb-2">
  {copy.headingTitle}
  </h1>
  <p className="text-[var(--text-muted)] text-sm">

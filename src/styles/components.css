@@ -43,7 +43,7 @@
 }
 
 .card--core {
-  border-left: 4px solid var(--electric-blue);
+  border-left: 4px solid var(--accent-warm);
   position: relative;
 }
 .card--core:hover {
@@ -133,7 +133,7 @@
 .accent-bar {
   width: 48px;
   height: 4px;
-  background: var(--electric-blue);
+  background: var(--accent-warm);
   border-radius: 2px;
   margin-bottom: 24px;
 }
@@ -216,7 +216,7 @@
   text-decoration: none;
 }
 .btn-tertiary:hover {
-  border-color: var(--electric-blue);
+  border-color: var(--accent-warm);
   color: var(--text-primary);
   background: rgba(255, 92, 77, 0.06);
 }
@@ -225,7 +225,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--electric-blue);
+  color: var(--accent-warm);
   font-weight: 600;
   transition: all 0.2s ease-out;
   text-decoration: none;
@@ -292,7 +292,7 @@
   min-height: 44px;
 }
 .category-chip:hover { border-color: var(--border-emphasis); color: var(--text-primary); }
-.category-chip--active { background: var(--electric-blue); border-color: var(--electric-blue); color: white; }
+.category-chip--active { background: var(--accent-warm); border-color: var(--accent-warm); color: white; }
 
 /* --- Architecture Components (Dark Mode) --- */
 

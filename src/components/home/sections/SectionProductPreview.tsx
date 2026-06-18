@@ -100,7 +100,7 @@ export function SectionProductPreview() {
           <p className="eyebrow mb-3">{copy.eyebrow}</p>
           <h2
             id="product-preview-headline"
-            className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] text-balance mb-3"
+            className="text-3xl sm:text-4xl font-bold text-[var(--text-display)] text-balance mb-3"
           >
             {copy.headline}
           </h2>

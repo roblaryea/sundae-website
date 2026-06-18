@@ -136,7 +136,7 @@ export function CookieConsent() {
         <div className="mt-3 flex justify-end gap-2">
           <button
             onClick={handleDecline}
-            className="rounded-lg px-3 py-1.5 text-[13px] font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--electric-blue)]/40"
+            className="rounded-lg px-3 py-1.5 text-[13px] font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-warm)]/40"
           >
             {copy.decline}
           </button>

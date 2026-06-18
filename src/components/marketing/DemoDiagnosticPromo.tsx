@@ -171,7 +171,7 @@ export function DemoDiagnosticPromo() {
     <section className="px-4 sm:px-6 lg:px-8 pb-16">
       <div className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[var(--warm-coral)]/15 via-[var(--warm-coral)]/8 to-emerald-500/8 border border-[var(--warm-coral)]/30 p-6 md:p-10 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--warm-coral)]/15 border border-[var(--warm-coral)]/30 mb-4">
-          <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
+          <span className="eyebrow">
             {c.badge}
           </span>
         </div>

@@ -96,7 +96,7 @@ export function SolutionsMegaMenu({
         <a
           href={REPORT_APP_URL}
           onClick={onClose}
-          className="text-sm font-semibold text-[var(--electric-blue)] hover:text-[var(--text-primary)] transition-colors"
+          className="text-sm font-semibold text-[var(--accent-warm)] hover:text-[var(--text-primary)] transition-colors"
         >
           {startFreeLabel} →
         </a>
@@ -123,7 +123,7 @@ function SolutionCard({
       onClick={onClose}
       className="group flex items-start gap-3 p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-all duration-200"
     >
-      <div className="w-9 h-9 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] flex items-center justify-center shrink-0 group-hover:bg-[var(--electric-blue)]/25 group-hover:text-white transition-colors duration-200">
+      <div className="w-9 h-9 rounded-md bg-[var(--accent-warm)]/15 text-[var(--accent-warm)] flex items-center justify-center shrink-0 group-hover:bg-[var(--accent-warm)]/25 group-hover:text-white transition-colors duration-200">
         <Icon className="w-[18px] h-[18px]" strokeWidth={2.2} />
       </div>
       <div className="flex-1 min-w-0">

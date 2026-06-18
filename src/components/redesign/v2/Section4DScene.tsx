@@ -213,7 +213,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
         <span className="ml-3 text-[11px] text-[var(--text-muted)] font-medium">
           Pulse - Downtown · Lunch Service
         </span>
-        <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">
+        <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--warm-amber)]/80">
           Illustrative
         </span>
       </div>

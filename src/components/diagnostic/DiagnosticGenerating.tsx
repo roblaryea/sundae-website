@@ -64,7 +64,7 @@ export function DiagnosticGenerating({ name, locale }: DiagnosticGeneratingProps
               {copy.generating.eyebrow}
             </span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3 text-balance">
+          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-display)] mb-3 text-balance">
             {copy.generating.title(firstName)}
           </h1>
           <p className="text-base sm:text-lg text-[var(--text-supporting)]">

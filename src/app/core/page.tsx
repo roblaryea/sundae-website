@@ -604,7 +604,7 @@ export default function CoreProductPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <p className="eyebrow text-[#FF8473] mb-4">{ui.tiers.eyebrow}</p>
+              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
               <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
             </div>

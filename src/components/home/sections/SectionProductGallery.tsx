@@ -661,7 +661,7 @@ export function SectionProductGallery({
           <p className="eyebrow mb-3">{headingOverride?.eyebrow ?? copy.heading.eyebrow}</p>
           <h2
             id="product-gallery-headline"
-            className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] text-balance mb-3"
+            className="text-3xl sm:text-4xl font-bold text-[var(--text-display)] text-balance mb-3"
           >
             {headingOverride?.title ?? copy.heading.title}
           </h2>
@@ -678,8 +678,8 @@ export function SectionProductGallery({
               onClick={() => setActivePersona(p.id)}
               className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
                 activePersona === p.id
-                  ? "bg-[var(--electric-blue)] text-white"
-                  : "bg-white/[0.04] text-[var(--text-secondary)] border border-[var(--border-default)] hover:border-[var(--electric-blue)]/40"
+                  ? "bg-[var(--accent-warm)] text-white"
+                  : "bg-white/[0.04] text-[var(--text-secondary)] border border-[var(--border-default)] hover:border-[var(--accent-warm)]/40"
               }`}
             >
               {copy.filterLabels[p.id] ?? p.label}
@@ -704,7 +704,7 @@ export function SectionProductGallery({
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.04, duration: 0.3 }}
-                className="group rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] overflow-hidden hover:border-[var(--electric-blue)]/40 transition-colors"
+                className="group rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] overflow-hidden hover:border-[var(--accent-warm)]/40 transition-colors"
               >
                 {/* Image - click to open lightbox */}
                 <button
@@ -723,7 +723,7 @@ export function SectionProductGallery({
                   <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy-deep)] via-transparent to-transparent opacity-60" />
                   {/* Zoom indicator overlay */}
                   <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <div className="bg-[var(--electric-blue)] text-white rounded-full p-3 shadow-2xl">
+                    <div className="bg-[var(--accent-warm)] text-white rounded-full p-3 shadow-2xl">
                       <Maximize2 className="w-5 h-5" />
                     </div>
                   </div>
@@ -739,7 +739,7 @@ export function SectionProductGallery({
                       {item.personas.slice(0, 2).map((p) => (
                         <span
                           key={p}
-                          className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/30 font-bold"
+                          className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-[var(--accent-warm)]/15 text-[var(--accent-warm)] border border-[var(--accent-warm)]/30 font-bold"
                         >
                           {copy.filterLabels[p] ?? p}
                         </span>
@@ -751,7 +751,7 @@ export function SectionProductGallery({
                   </p>
                   <Link
                     href={item.productHref}
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[var(--electric-blue)] hover:underline"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[var(--accent-warm)] hover:underline"
                   >
                     {item.productLabel}
                     <ArrowUpRight className="w-3.5 h-3.5" />
@@ -765,7 +765,7 @@ export function SectionProductGallery({
         {/* Footer note */}
         <p className="text-center text-xs text-[var(--text-muted)] mt-10 italic max-w-2xl mx-auto">
           {copy.ui.footerLead}{" "}
-          <Link href="/diagnostic" className="text-[var(--electric-blue)] hover:underline font-semibold not-italic">
+          <Link href="/diagnostic" className="text-[var(--accent-warm)] hover:underline font-semibold not-italic">
             {copy.ui.footerLink}
           </Link>{" "}
           {copy.ui.footerTail}

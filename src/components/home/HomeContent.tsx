@@ -343,12 +343,15 @@ export default function HomeContent() {
             transition={{ duration: 0.6, delay: 0.45 }}
           >
             <div
-              className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center divide-x divide-white/10 overflow-hidden rounded-2xl border border-white/10"
-              style={{ backgroundColor: "rgba(13,9,6,0.96)" }}
+              // Theme-native proof slab: smoked-dark card in dark mode, warm cream
+              // card in light mode (a heavy near-black block looked foreign on the
+              // light page). Numbers shift to a deeper-warm gradient and labels to
+              // warm ink in light mode so both stay legible on the cream surface.
+              className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center overflow-hidden rounded-2xl border divide-x bg-[#0D0906] border-white/10 divide-white/10 [html.light_&]:bg-[var(--surface-raised)] [html.light_&]:border-black/[0.07] [html.light_&]:divide-black/[0.07] [html.light_&]:shadow-[0_10px_34px_-16px_rgba(0,0,0,0.18)]"
             >
               {home.proofStats.map((item) => (
                 <div key={item.label} className="min-w-[140px] flex-1 px-5 py-5 text-center sm:px-7">
-                  <div className="font-display bg-gradient-to-r from-[#F8C96C] to-[#FF7E6F] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
+                  <div className="font-display bg-gradient-to-r from-[#F8C96C] to-[#FF7E6F] [html.light_&]:from-[#C2410C] [html.light_&]:to-[#E03E48] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
                   <div className="mt-2 text-[11px] font-semibold uppercase tracking-wider text-[var(--text-secondary)] sm:text-xs">{item.label}</div>
                 </div>
               ))}

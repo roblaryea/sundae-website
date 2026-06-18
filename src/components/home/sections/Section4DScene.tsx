@@ -331,7 +331,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         <span className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#28C840]" />
         <span className="ml-3 text-[12px] text-[var(--text-muted)] font-medium">{header}</span>
-        <span className="ml-auto text-[10px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">{labels.illustrative}</span>
+        <span className="ml-auto text-[10px] uppercase tracking-[0.14em] font-bold text-[var(--warm-amber)]/80">{labels.illustrative}</span>
       </div>
 
       {/* Fixed "screen": all four panels are ALWAYS present (constant height),

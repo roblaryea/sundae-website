@@ -145,7 +145,7 @@ export default function DiagnosticPage() {
     return (
       <div className="min-h-screen bg-[var(--navy-deep)] pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-4">
+          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-display)] mb-4">
             {copy.share.notFoundTitle}
           </h1>
           <p className="text-base text-[var(--text-supporting)] mb-8">
@@ -181,7 +181,7 @@ export default function DiagnosticPage() {
               {copy.intro.eyebrow}
             </span>
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--text-primary)] mb-4 text-balance">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--text-display)] mb-4 text-balance">
             {copy.intro.title}
           </h1>
           <p className="text-lg sm:text-xl text-[var(--text-supporting)] max-w-3xl mx-auto mb-10 text-balance">
@@ -215,7 +215,7 @@ export default function DiagnosticPage() {
               className="rounded-2xl bg-white/[0.025] border border-[var(--border-default)] p-5"
             >
               <Icon className="w-6 h-6 text-[var(--warm-coral)] mb-3" />
-              <h3 className="text-base font-bold text-[var(--text-primary)] mb-2">{feat.title}</h3>
+              <h3 className="text-base font-bold text-[var(--text-display)] mb-2">{feat.title}</h3>
               <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{feat.detail}</p>
             </div>
           )})}

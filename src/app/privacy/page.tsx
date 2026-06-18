@@ -968,7 +968,7 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
               <SundaeIcon name="owners" size="md" />
               <span>{copy.badge}</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-[var(--text-primary)] mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-[var(--text-display)] mb-6">
               {copy.title}
             </h1>
             <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
@@ -1095,7 +1095,7 @@ export default async function PrivacyPage() {
               <SundaeIcon name="owners" size="md" />
               <span>Privacy</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-[var(--text-primary)] mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-[var(--text-display)] mb-6">
               Privacy Policy
             </h1>
             <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">

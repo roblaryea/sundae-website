@@ -855,7 +855,7 @@ export default function PricingPage() {
                       <SundaeIcon name="franchise" size="md" />
                       <span>{copy.enterpriseBadge}</span>
                     </div>
-                    <h3 className="text-3xl font-bold text-[var(--text-primary)] mb-4">
+                    <h3 className="text-3xl font-bold text-[var(--text-display)] mb-4">
                       {copy.enterpriseTitle}
                     </h3>
                     <p className="text-[var(--text-supporting)] mb-6">

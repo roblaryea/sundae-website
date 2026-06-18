@@ -362,7 +362,7 @@ export default function ArchitecturePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.stackTitle}</h2>
+            <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-display)] mb-6">{ui.stackTitle}</h2>
             <p className="text-[17px] text-[var(--text-secondary)] max-w-3xl mx-auto leading-[1.65]">{ui.stackDescription}</p>
           </FadeUp>
 
@@ -419,7 +419,7 @@ export default function ArchitecturePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.agentsTitle}</h2>
+            <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-display)] mb-6">{ui.agentsTitle}</h2>
             <p className="text-[17px] text-[var(--text-secondary)] max-w-3xl mx-auto leading-[1.65]">{ui.agentsDescription}</p>
           </FadeUp>
 
@@ -484,7 +484,7 @@ export default function ArchitecturePage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <FadeUp>
-              <h2 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-6">{ui.securityTitle}</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[var(--text-display)] mb-6">{ui.securityTitle}</h2>
               <p className="text-[16px] text-[var(--text-secondary)] mb-8 leading-[1.65]">{ui.securityDescription}</p>
               <div className="space-y-6">
                 {ui.securityBullets.map((item) => (
@@ -526,7 +526,7 @@ export default function ArchitecturePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-6">{ui.engineeringTitle}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[var(--text-display)] mb-6">{ui.engineeringTitle}</h2>
             <p className="text-[16px] text-[var(--text-secondary)] max-w-3xl mx-auto leading-[1.65]">{ui.engineeringDescription}</p>
           </FadeUp>
 

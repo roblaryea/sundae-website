@@ -5,7 +5,7 @@
 
 /* Focus Indicators */
 *:focus-visible {
-  outline: 3px solid var(--electric-blue);
+  outline: 3px solid var(--accent-warm);
   outline-offset: 2px;
   border-radius: 4px;
   transition: outline 0.15s ease;
@@ -17,20 +17,20 @@
 
 button:focus-visible,
 [role="button"]:focus-visible {
-  outline: 3px solid var(--electric-blue);
+  outline: 3px solid var(--accent-warm);
   outline-offset: 4px;
   box-shadow: 0 0 0 4px rgba(255, 92, 77,0.2);
 }
 
 a:focus-visible {
-  outline: 2px solid var(--electric-blue);
+  outline: 2px solid var(--accent-warm);
   outline-offset: 2px;
   background-color: rgba(255, 92, 77,0.1);
   border-radius: 2px;
 }
 
 nav a:focus-visible {
-  outline: 2px solid var(--electric-blue);
+  outline: 2px solid var(--accent-warm);
   outline-offset: -2px;
   background-color: rgba(255, 92, 77,0.1);
 }
@@ -38,14 +38,14 @@ nav a:focus-visible {
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-  outline: 3px solid var(--electric-blue);
+  outline: 3px solid var(--accent-warm);
   outline-offset: 0;
-  border-color: var(--electric-blue);
+  border-color: var(--accent-warm);
   box-shadow: 0 0 0 3px rgba(255, 92, 77,0.1);
 }
 
 .card:focus-visible {
-  outline: 3px solid var(--electric-blue);
+  outline: 3px solid var(--accent-warm);
   outline-offset: 2px;
   box-shadow: 0 0 0 4px rgba(255, 92, 77,0.15);
 }

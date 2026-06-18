@@ -618,7 +618,7 @@ export default function DocumentationPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-display)] mb-4">
                 {copy.quickStartTitle}
               </h2>
               <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
@@ -655,7 +655,7 @@ export default function DocumentationPage() {
               <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-xl flex items-center justify-center">
                 <SundaeIcon name="warning" size="xl" className="text-white" />
               </div>
-              <h3 className="text-3xl font-bold text-[var(--text-primary)] mb-4">
+              <h3 className="text-3xl font-bold text-[var(--text-display)] mb-4">
                 {copy.comingSoonTitle}
               </h3>
               <p className="text-lg text-[var(--text-supporting)] mb-8">

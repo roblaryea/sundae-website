@@ -98,7 +98,7 @@ export default function ResourcesPage() {
             <SundaeIcon name="document" size="md" />
             <span>{copy.badge}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-[var(--text-primary)] mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold text-[var(--text-display)] mb-6">
             {copy.title}
           </h1>
           <p className="text-xl md:text-2xl text-[var(--text-supporting)] mb-8 max-w-4xl mx-auto">
@@ -122,7 +122,7 @@ export default function ResourcesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-display)] mb-4">
               {copy.caseStudies}
             </h2>
             <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
@@ -204,7 +204,7 @@ export default function ResourcesPage() {
           <div className="w-14 h-14 mx-auto mb-6 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
             <SundaeIcon name="forge" size="xl" className="text-white" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-display)] mb-4">
             {copy.toolsTitle}
           </h2>
           <p className="text-xl text-[var(--text-supporting)] mb-8 max-w-2xl mx-auto">
@@ -246,7 +246,7 @@ export default function ResourcesPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-display)] mb-6">
             {copy.ctaTitle}
           </h2>
           <p className="text-xl text-[var(--text-supporting)] mb-8">

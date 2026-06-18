@@ -71,11 +71,13 @@ export function SectionTrustStrip() {
 
   return (
     <section aria-labelledby="trust-headline" className="relative -mt-6 sm:-mt-10 pt-0 pb-16 px-4 sm:px-6 lg:px-8">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.03),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(169,184,107,0.04),transparent_70%)]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         <FadeUp className="text-center mb-10">
-          <p className="eyebrow mb-3">{copy.eyebrow}</p>
+          {/* Trust/enterprise section: its eyebrow opts into the warm-olive trust
+              tone rather than the default muted label. */}
+          <p className="eyebrow mb-3 !text-[var(--trust)]">{copy.eyebrow}</p>
           <h3 id="trust-headline" className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] text-balance">
             {copy.headline}
           </h3>
@@ -83,9 +85,9 @@ export function SectionTrustStrip() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5 max-w-6xl mx-auto">
           {copy.items.map((item, i) => (
-            <div key={item.title} className="text-center p-4 rounded-xl bg-white/[0.025] border border-[var(--border-default)] hover:border-[rgba(255,92,77,0.2)] transition-colors">
-              <div className="inline-flex w-9 h-9 rounded-lg bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] items-center justify-center mb-2.5">
-                <SundaeIcon name={icons[i] ?? "data"} size="sm" className="text-[#FF8473]" />
+            <div key={item.title} className="text-center p-4 rounded-xl bg-white/[0.025] border border-[var(--border-default)] hover:border-[var(--trust-border)] transition-colors">
+              <div className="inline-flex w-9 h-9 rounded-lg bg-[var(--trust-bg)] border border-[var(--trust-border)] items-center justify-center mb-2.5">
+                <SundaeIcon name={icons[i] ?? "data"} size="sm" className="text-[var(--trust)]" />
               </div>
               <div className="font-display text-sm font-bold text-[var(--text-primary)] mb-1 leading-tight">{item.title}</div>
               <div className="text-[11px] text-[var(--text-muted)] leading-snug">{item.supporting}</div>

@@ -245,7 +245,7 @@ export default function WhySundaePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <p className="eyebrow text-[#FF8473] mb-4">{copy.problems.eyebrow}</p>
+            <p className="eyebrow mb-4">{copy.problems.eyebrow}</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problems.title}</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problems.description}</p>
           </FadeUp>
@@ -287,7 +287,7 @@ export default function WhySundaePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <p className="eyebrow text-[#FF8473] mb-4">DIFFERENTIATORS</p>
+            <p className="eyebrow mb-4">DIFFERENTIATORS</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.comparison.title}</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.comparison.description}</p>
           </FadeUp>
@@ -323,7 +323,7 @@ export default function WhySundaePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <p className="eyebrow text-[#FF8473] mb-4">{copy.roles.eyebrow}</p>
+            <p className="eyebrow mb-4">{copy.roles.eyebrow}</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.roles.title}</h2>
           </FadeUp>
 

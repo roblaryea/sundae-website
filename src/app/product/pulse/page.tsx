@@ -1364,7 +1364,7 @@ export default function PulsePage() {
                         </div>
                         <div>
                           <p className="text-xs font-semibold text-red-400 uppercase tracking-wider">{block.title}</p>
-                          <h3 className="text-xl font-bold text-[var(--text-primary)]">{block.headline}</h3>
+                          <h3 className="text-xl font-bold text-[var(--text-display)]">{block.headline}</h3>
                         </div>
                       </div>
                       <p className="text-[var(--text-supporting)] leading-relaxed mb-4">{block.description}</p>

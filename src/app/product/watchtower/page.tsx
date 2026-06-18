@@ -540,7 +540,7 @@ export default function WatchtowerPage() {
                 <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
                   <SundaeIcon name={item.icon} size="lg" className="text-white" />
                 </div>
-                <h3 className="font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
+                <h3 className="font-semibold text-[var(--text-display)] mb-2">{item.title}</h3>
                 <p className="text-sm text-[var(--text-supporting)]">{item.text}</p>
               </StaggerItem>
             ))}
@@ -600,7 +600,7 @@ export default function WatchtowerPage() {
                     <CardDescription className="text-[var(--text-supporting)] text-lg mb-6">{block.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <h4 className="font-semibold text-[var(--text-primary)] mb-3">{labels.keyCapabilities}</h4>
+                    <h4 className="font-semibold text-[var(--text-display)] mb-3">{labels.keyCapabilities}</h4>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {block.capabilities.map((cap, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
@@ -627,7 +627,7 @@ export default function WatchtowerPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {pricingCards.map((item) => (
               <StaggerItem key={item.name} className={`p-6 rounded-xl text-center ${item.highlight ? "bg-red-600" : "bg-[var(--navy-deep)] border border-[var(--border-default)]"}`}>
-                <h3 className={`font-semibold mb-2 ${item.highlight ? "text-white" : "text-[var(--text-primary)]"}`}>{item.name}</h3>
+                <h3 className={`font-semibold mb-2 ${item.highlight ? "text-white" : "text-[var(--text-display)]"}`}>{item.name}</h3>
                 <p className={`text-3xl font-bold mb-1 ${item.highlight ? "text-white" : "text-[var(--text-primary)]"}`}>{item.price}</p>
                 <p className={`text-sm ${item.highlight ? "text-red-100" : "text-[var(--text-muted)]"}`}>/month {item.perLoc}</p>
                 {item.highlight && <p className="text-xs text-red-200 mt-2">{labels.save18}</p>}
@@ -647,7 +647,7 @@ export default function WatchtowerPage() {
             {ui.faqs.map((faq, index) => (
               <FadeUp key={index} delay={index * 0.05}>
                 <div className="p-6 bg-[var(--surface-faint)] rounded-xl">
-                  <h3 className="font-semibold text-[var(--text-primary)] mb-3">{faq.q}</h3>
+                  <h3 className="font-semibold text-[var(--text-display)] mb-3">{faq.q}</h3>
                   <p className="text-[var(--text-supporting)] leading-relaxed">{faq.a}</p>
                 </div>
               </FadeUp>

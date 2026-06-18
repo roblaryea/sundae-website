@@ -1,6 +1,10 @@
 /* ==============================================
    DESIGN TOKENS - Dark Mode Foundation
    Brand colors, surfaces, text hierarchy, glows
+
+   COLOR ROLES & GOVERNANCE: docs/COLOR_SYSTEM.md is the source of truth.
+   Coral = action (rationed); eyebrows use --eyebrow (muted, never coral);
+   display headings use --text-display; module/data-state colors stay taxonomy.
    ============================================== */
 
 :root {
@@ -12,13 +16,17 @@
   --background: #15110D;
   --foreground: #FFFFFF;
 
-  /* ─── Brand Primary ─── */
-  --electric-blue: #FF5C4D;      /* Primary accent (warm coral) - CTAs, links, active states */
-  --deep-blue: #C2410C;          /* Gradient starts - deep warm caramel */
-  --brand-main: #B23A1E;         /* Alternate warm for variety */
+  /* ─── Brand Primary (warm signature) ─── */
+  /* The primary action color is --warm-coral (see Warm Signature block below).
+     The legacy --electric-blue token was retired 2026-06: its name lied (it held
+     coral, not blue) and risked steering future design decisions wrong. Consumers
+     now reference --accent-warm / --warm-coral. */
+  --warm-deep: #C2410C;          /* deep caramel - warm gradient starts (was --deep-blue) */
+  --brand-main: #B23A1E;         /* alternate warm for variety */
 
   /* ─── Brand Secondary ─── */
-  --brand-yellow: #FFD232;       /* Highlight accent, enterprise badge */
+  /* highlight / enterprise accent is --warm-amber (Warm Signature block); the old
+     pure-yellow --brand-yellow was retired 2026-06 in favor of warm butter. */
   --brand-red: #FF5450;          /* Critical, alert, negative */
   --soft-white: #F7F8FF;         /* Primary text */
 
@@ -42,6 +50,8 @@
   --text-muted: rgba(255, 255, 255, 0.5);
   --text-faint: rgba(255, 255, 255, 0.2);
   --muted-grey: #79819A;
+  --eyebrow: rgba(246, 241, 232, 0.62);  /* muted warm label - eyebrows/kickers. Coral is freed for CTAs + live signals, not every section label. */
+  --text-display: #FBF8F4;               /* warm off-white for display headings on dark - matches the hero headline + wordmark, not clinical pure #FFF */
 
   /* ─── Surface Transparency Scale ─── */
   --surface-faint: rgba(255, 255, 255, 0.02);    /* Grid backgrounds */
@@ -91,6 +101,15 @@
   --cream-edge: #EAE0CE;
   --ink: #1A140F;              /* warm near-black on cream (never cold slate) */
   --accent-warm: var(--warm-coral);
+
+  /* ─── Trust (warm olive) · enterprise / security / audit / "live & syncing" ───
+     A first-class trust hue, deliberately WARM olive (not cool sage) so it sits
+     inside the warm family instead of reintroducing a competing temperature.
+     Reserved for trust SURFACES + iconography - it does NOT replace the live-data
+     green (--positive); product status colors stay data-state colors. */
+  --trust: #A9B86B;                          /* warm olive - reads on espresso */
+  --trust-bg: rgba(169, 184, 107, 0.12);     /* chip / surface fill */
+  --trust-border: rgba(169, 184, 107, 0.24); /* chip / card border */
 
   --grad-warm: radial-gradient(ellipse 85% 60% at 50% 0%, rgba(255,92,77,0.16) 0%, transparent 62%),
                linear-gradient(180deg, #1C100C 0%, var(--navy-deep) 64%);
@@ -156,7 +175,7 @@
   --border-strong: var(--border-emphasis);
   --shadow-color: rgba(0, 0, 0, 0.4);
   --hover-bg: var(--surface-hover);
-  --focus-ring: var(--electric-blue);
+  --focus-ring: var(--accent-warm);
   --link-hover: #FF8473;
 }
 
@@ -181,6 +200,8 @@ html.light {
   --text-muted: rgba(42, 35, 32, 0.5);
   --text-faint: rgba(42, 35, 32, 0.15);
   --muted-grey: #8C7F71;
+  --eyebrow: rgba(42, 35, 32, 0.55);   /* muted warm label on light (warm ink, not coral) */
+  --text-display: #2A2320;             /* display headings = warm ink on light (same as --text-primary) */
 
   /* ─── Surface Transparency Scale ─── */
   --surface-faint: rgba(42, 35, 32, 0.02);
@@ -223,6 +244,11 @@ html.light {
   --cream: #F1E6D1;              /* deeper/warmer in light mode so relief zones read against white */
   --cream-edge: #E6D8BD;
 
+  /* ─── Trust (warm olive) - deeper on white so it holds contrast ─── */
+  --trust: #6E7C3A;
+  --trust-bg: rgba(110, 124, 58, 0.10);
+  --trust-border: rgba(110, 124, 58, 0.26);
+
   /* ─── Badge Colors (light mode) ─── */
   --badge-free: rgba(22, 163, 74, 0.1);
   --badge-free-text: #16A34A;
@@ -230,9 +256,6 @@ html.light {
   --badge-popular-text: #C8392A;
   --badge-addon: rgba(42, 35, 32, 0.06);
   --badge-addon-text: rgba(42, 35, 32, 0.6);
-
-  /* ─── Warm coral accent (light) - deeper so it holds contrast on white ─── */
-  --electric-blue: #C8392A;
 
   /* ─── Decorative Shape Tokens (light mode - dark tints on white) ─── */
   --shape-tint: #2A2320;

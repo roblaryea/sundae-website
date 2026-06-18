@@ -28,7 +28,7 @@ export function SectionCrewSubstrate() {
         <FadeUp className="max-w-3xl">
           <p className="eyebrow mb-4">{copy.eyebrow}</p>
           <h2
-            className="text-3xl font-bold tracking-tight text-[var(--text-primary)] sm:text-4xl lg:text-[2.6rem] lg:leading-[1.1]"
+            className="text-3xl font-bold tracking-tight text-[var(--text-display)] sm:text-4xl lg:text-[2.6rem] lg:leading-[1.1]"
             aria-label={`${copy.headline} ${copy.accent}`}
           >
             <span>{copy.headline}</span>{" "}
