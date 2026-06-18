@@ -213,19 +213,24 @@ export function SectionSpeedQualityCost() {
   const { theme } = useTheme();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
-  // Theme-aware SVG fills: white pops on dark, navy on light.
-  const isLight = theme === "light";
+  const vertices = copy.vertices;
+  const [activeIdx, setActiveIdx] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [entranceDone, setEntranceDone] = useState(false);
+
+  // Theme-aware SVG fills: white pops on dark, navy on light. The theme is only
+  // known after hydration (ThemeProvider reads localStorage on the first client
+  // render, but SSR rendered the dark default), so gate the light fills behind the
+  // canonical `mounted` flag - otherwise the SVG fill attributes mismatch the
+  // server HTML in light mode (a hydration warning). First render = dark = SSR.
+  const isLight = mounted && theme === "light";
   const vertexFillActive = isLight ? "#0F172A" : "#FFFFFF";
   const vertexFillIdle = isLight ? "rgba(15,23,42,0.45)" : "rgba(255,255,255,0.45)";
   const vertexDotFillIdle = isLight ? "rgba(15,23,42,0.55)" : "rgba(255,255,255,0.55)";
   const tracerBallFill = isLight ? "#FF5C4D" : "#FFFFFF";
   const triHighlightStrong = isLight ? "rgba(255,92,77,0.18)" : "rgba(255,255,255,0.25)";
   const triHighlightMid = isLight ? "rgba(255,92,77,0.05)" : "rgba(255,255,255,0.06)";
-  const vertices = copy.vertices;
-  const [activeIdx, setActiveIdx] = useState(0);
-  const [paused, setPaused] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const [entranceDone, setEntranceDone] = useState(false);
 
   // In-view trigger - entrance fires when section reaches the viewport.
   const sectionRef = useRef<HTMLDivElement>(null);
