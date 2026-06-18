@@ -88,7 +88,7 @@ const localized4DCopy = {
     howTitle: 'How It Works',
     howDescription: 'AI-powered analysis at every layer of your operations',
     howItems: [
-      { title: 'Unified Data Layer', description: 'Sundae Core integrates 250+ systems - POS, labor, inventory, budgets, and external sources - into one intelligent foundation.', icon: 'integration' },
+      { title: 'Unified Data Layer', description: 'Sundae Core integrates 200+ systems - POS, labor, inventory, budgets, and external sources - into one intelligent foundation.', icon: 'integration' },
       { title: 'Multi-Agent AI Engine', description: 'Specialized AI agents analyze patterns, detect anomalies, forecast outcomes, and generate recommendations across all four dimensions.', icon: 'intelligence' },
       { title: 'Actionable Intelligence', description: 'Sundae Core decision views, Sundae Intelligence natural language queries, and proactive alerts deliver insights when and where you need them.', icon: 'insights' },
     ],

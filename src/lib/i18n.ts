@@ -647,7 +647,7 @@ export const websiteMessages = {
           badge: 'Integrations',
           title: 'Connect Everything. Unify Your Data.',
           description:
-            'Sundae integrates with 250+ restaurant systems across POS, labor, inventory, reservations, delivery, and more.',
+            'Sundae integrates with 200+ restaurant systems across POS, labor, inventory, reservations, delivery, and more.',
           process: [
             { step: '1', title: 'Connect', description: 'Authenticate your platforms with OAuth or API key - most integrations take under 5 minutes.' },
             { step: '2', title: 'Normalize', description: 'Sundae Core, our data layer, cleans, maps, and unifies every data source into a consistent schema.' },

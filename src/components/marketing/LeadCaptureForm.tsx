@@ -495,8 +495,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
                 className={inputClass(!!errors.countryCode || !!errors.phone)}
               >
                 {COUNTRY_CODES.map((country) => (
-                  <option key={country.iso} value={country.code}>
-                    {country.code} {country.name}
+                  <option key={country.iso} value={country.code} title={`${country.name} (${country.code})`}>
+                    {country.iso} {country.code}
                   </option>
                 ))}
               </select>

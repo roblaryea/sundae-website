@@ -330,11 +330,14 @@ export default function HomeContent() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.45 }}
           >
-            <div className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center divide-x divide-[var(--border-default)] overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] backdrop-blur">
+            <div
+              className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center divide-x divide-white/10 overflow-hidden rounded-2xl border border-white/10"
+              style={{ backgroundColor: "rgba(13,9,6,0.96)" }}
+            >
               {home.proofStats.map((item) => (
                 <div key={item.label} className="min-w-[140px] flex-1 px-5 py-5 text-center sm:px-7">
-                  <div className="font-display bg-gradient-to-r from-[#E9A24A] to-[#FF5C4D] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
-                  <div className="mt-2 text-[10px] font-medium uppercase tracking-wider text-[var(--text-muted)] sm:text-xs">{item.label}</div>
+                  <div className="font-display bg-gradient-to-r from-[#F8C96C] to-[#FF7E6F] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
+                  <div className="mt-2 text-[11px] font-semibold uppercase tracking-wider text-[var(--text-secondary)] sm:text-xs">{item.label}</div>
                 </div>
               ))}
             </div>
