@@ -86,6 +86,19 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
             'radial-gradient(ellipse 55% 45% at 50% 26%, rgba(233,162,74,0.18) 0%, transparent 65%)',
         }}
       />
+      {/* seam feathers - melt the top/bottom edges into the (dark or light) page
+          bg of the neighbouring sections, so this relief reads as a soft warm
+          break in one continuous scroll rather than a hard horizontal cut. */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 h-16"
+        style={{ background: 'linear-gradient(to bottom, color-mix(in srgb, var(--navy-deep) 55%, transparent), transparent)' }}
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-16"
+        style={{ background: 'linear-gradient(to top, color-mix(in srgb, var(--navy-deep) 55%, transparent), transparent)' }}
+      />
 
       <div className="relative z-10 mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
         <FadeUp>

@@ -70,7 +70,7 @@ export function HomeScrollSpine({ chapters }: { chapters: HomeChapter[] }) {
     >
       <div className="relative flex flex-col items-center">
         {/* glass track + warm fill rising to the active chapter */}
-        <div className="pointer-events-none absolute left-1/2 top-2 bottom-2 w-[3px] -translate-x-1/2 overflow-hidden rounded-full bg-white/[0.12]">
+        <div className="pointer-events-none absolute left-1/2 top-2 bottom-2 w-[3px] -translate-x-1/2 overflow-hidden rounded-full bg-[rgba(150,122,102,0.34)]">
           <motion.div
             className="absolute inset-x-0 top-0 rounded-full"
             style={{ background: "linear-gradient(180deg,#FF7E6F,#E9A24A 60%,#F6C66B)" }}
@@ -104,7 +104,7 @@ export function HomeScrollSpine({ chapters }: { chapters: HomeChapter[] }) {
                 style={{
                   width: isActive ? 13 : 9,
                   height: isActive ? 13 : 9,
-                  background: passed ? c.color : "rgba(251,248,244,0.28)",
+                  background: passed ? c.color : "rgba(150,122,102,0.6)",
                   boxShadow: isActive ? `0 0 12px ${c.color}` : "none",
                   outline: isActive ? "2px solid rgba(251,248,244,0.18)" : "none",
                   outlineOffset: 2,
