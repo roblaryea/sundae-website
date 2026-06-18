@@ -12,9 +12,9 @@ picks it up automatically — no code edit needed.
 
 | Frame | Path | Signal shown | Status dot |
 |-------|------|--------------|------------|
-| Floor | `public/images/editorial/trio-floor.jpg` | Wait time rising | amber |
-| Pass  | `public/images/editorial/trio-pass.jpg`  | Fire time slipping | amber |
-| Room  | `public/images/editorial/trio-room.jpg`  | Margin holding | green |
+| Floor | `public/images/editorial/floor-rush.jpg` | Wait time rising | amber |
+| Pass  | `public/images/editorial/pass-fire.jpg`  | Fire time slipping | amber |
+| Room  | `public/images/editorial/room-glow.jpg`  | Margin holding | green |
 
 These slots are **independent** of the hero / proof / closer imagery, so changing
 them never affects another section. (They are currently seeded with the best-fit

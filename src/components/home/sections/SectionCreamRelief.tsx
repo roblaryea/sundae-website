@@ -43,9 +43,9 @@ const TONE_COLOR: Record<SignalTone, string> = { caution: '#FF8A4C', good: '#46C
 // photos; drop a stronger generated/sourced image at the same path to replace a
 // frame with zero code changes. See the generation briefs in docs (or the PR).
 const TRIO_SRCS: [string, string, string] = [
-  '/images/editorial/trio-floor.jpg', // Floor - service in motion, wait time rising
-  '/images/editorial/trio-pass.jpg',  // Pass  - the line under heat, fire time slipping
-  '/images/editorial/trio-room.jpg',  // Room  - the dining room in service, margin holding
+  '/images/editorial/floor-rush.jpg', // Floor - service in motion, wait time rising
+  '/images/editorial/pass-fire.jpg',  // Pass  - the line under heat, fire time slipping
+  '/images/editorial/room-glow.jpg',  // Room  - the dining room in service, margin holding
 ];
 
 const cherry = { color: 'var(--warm-cherry)' } as const;
