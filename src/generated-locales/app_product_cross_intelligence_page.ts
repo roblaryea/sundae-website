@@ -48,7 +48,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Base",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promo",
@@ -208,7 +208,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "قاعدة",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "الترويجي",
@@ -368,7 +368,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Basis",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promo",
@@ -528,7 +528,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "base",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promoção",
@@ -688,7 +688,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Socle",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promotion",
@@ -848,7 +848,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Basis",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promo",
@@ -1008,7 +1008,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "بیس",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "پرومو",
@@ -1168,7 +1168,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "आधार",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "प्रोमो",
@@ -1328,7 +1328,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Base",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "promozionale",
@@ -1488,7 +1488,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Baz",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promosyon",
@@ -1648,7 +1648,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Baza",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promocja",
@@ -1808,7 +1808,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "基准",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "促销",
@@ -1968,7 +1968,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "ベース",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "プロモーション",
@@ -2128,7 +2128,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "베이스",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "프로모션",
@@ -2288,7 +2288,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Pangkalan",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promo",
@@ -2448,7 +2448,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "বেস",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "প্রচার",
@@ -2608,7 +2608,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Căn cứ",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Khuyến mãi",
@@ -2768,7 +2768,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Baza",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promoție",
@@ -2928,7 +2928,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "ฐาน",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "โปรโมชั่น",
@@ -3088,7 +3088,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Bas",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Kampanj",
@@ -3248,7 +3248,7 @@ export const generatedLocalCopy = {
         "bars": [
           {
             "label": "Pangkalan",
-            "color": "bg-slate-500"
+            "color": "bg-stone-500"
           },
           {
             "label": "Promo",
@@ -3476,7 +3476,7 @@ export const generatedLocalCopy = {
           "قواعد التنبيه المخصصة للحركات الرئيسية"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -3592,7 +3592,7 @@ export const generatedLocalCopy = {
           "Reglas de alerta personalizadas para movimientos clave"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -3708,7 +3708,7 @@ export const generatedLocalCopy = {
           "Règles d'alerte personnalisées pour les mouvements clés"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -3824,7 +3824,7 @@ export const generatedLocalCopy = {
           "Aangepaste waarschuwingsregels voor sleutelbewegingen"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -3940,7 +3940,7 @@ export const generatedLocalCopy = {
           "Regras de alerta personalizadas para movimentos importantes"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4056,7 +4056,7 @@ export const generatedLocalCopy = {
           "Benutzerdefinierte Alarmregeln für Schlüsselbewegungen"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4172,7 +4172,7 @@ export const generatedLocalCopy = {
           "کلیدی نقل و حرکت کے لیے حسب ضرورت الرٹ قواعد"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4288,7 +4288,7 @@ export const generatedLocalCopy = {
           "Regole di avviso personalizzate per i movimenti chiave"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4404,7 +4404,7 @@ export const generatedLocalCopy = {
           "प्रमुख गतिविधियों के लिए कस्टम अलर्ट नियम"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4520,7 +4520,7 @@ export const generatedLocalCopy = {
           "Önemli hareketler için özel uyarı kuralları"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4528,7 +4528,7 @@ export const generatedLocalCopy = {
       {
         "title": "营销影响时间表",
         "headline": "查看每一笔营销费用的延迟效果",
-        "description": "将营销支出、活动和促销叠加到您的收入时间线上。Cross-Intelligence 揭示营销动作与收入影响之间 3 至 7 天的滞后——这是传统仪表板完全错过的。",
+        "description": "将营销支出、活动和促销叠加到您的收入时间线上。Cross-Intelligence 揭示营销动作与收入影响之间 3 至 7 天的滞后 - 这是传统仪表板完全错过的。",
         "capabilities": [
           "收入+营销支出叠加，具有可调整的滞后窗口",
           "具有统计置信度得分的营销活动投资回报率归因",
@@ -4636,7 +4636,7 @@ export const generatedLocalCopy = {
           "针对关键动作的自定义警报规则"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4752,7 +4752,7 @@ export const generatedLocalCopy = {
           "Niestandardowe reguły alertów dla kluczowych ruchów"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4868,7 +4868,7 @@ export const generatedLocalCopy = {
           "주요 움직임에 대한 사용자 정의 경고 규칙"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -4984,7 +4984,7 @@ export const generatedLocalCopy = {
           "Quy tắc cảnh báo tùy chỉnh cho các chuyển động chính"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -5100,7 +5100,7 @@ export const generatedLocalCopy = {
           "Aturan peringatan khusus untuk pergerakan kunci"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -5216,7 +5216,7 @@ export const generatedLocalCopy = {
           "キーの動きに対するカスタム アラート ルール"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -5332,7 +5332,7 @@ export const generatedLocalCopy = {
           "মূল আন্দোলনের জন্য কাস্টম সতর্কতা নিয়ম"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -5448,7 +5448,7 @@ export const generatedLocalCopy = {
           "Anpassade varningsregler för nyckelrörelser"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -5564,7 +5564,7 @@ export const generatedLocalCopy = {
           "Reguli personalizate de alertă pentru mișcările cheie"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -5680,7 +5680,7 @@ export const generatedLocalCopy = {
           "กฎการแจ้งเตือนที่กำหนดเองสำหรับการเคลื่อนไหวที่สำคัญ"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ],
@@ -5796,7 +5796,7 @@ export const generatedLocalCopy = {
           "Peraturan amaran tersuai untuk pergerakan utama"
         ],
         "icon": "search",
-        "color": "from-slate-500 to-slate-700",
+        "color": "from-stone-500 to-stone-700",
         "tier": "base"
       }
     ]
@@ -6827,7 +6827,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Siehe Cross-Intelligence in Aktion",
       "ctaDescription": "Gehen Sie mit Ihrem Team die Korrelationsmatrix, den Kannibalisierungsdetektor und den Umsatzzuordnungs-Wasserfall durch.",
       "ctaPrimary": "Buchen Sie eine Demo",
-      "ctaSecondary": "Siehe Preisrechner"
+      "ctaSecondary": "Siehe Preisrechner",
+      "heroTitle": "Cross-Intelligence-Korrelations-Engine"
     },
     "nl": {
       "heroBadge": "Automatisch ingeschakeld met meer dan 3 modules",
@@ -6868,7 +6869,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Zie Cross-Intelligence in actie",
       "ctaDescription": "Loop met uw team door de correlatiematrix, de kannibalisatiedetector en de waterval van inkomstentoeschrijving.",
       "ctaPrimary": "Boek een demo",
-      "ctaSecondary": "Zie Prijscalculator"
+      "ctaSecondary": "Zie Prijscalculator",
+      "heroTitle": "Cross-Intelligence-correlatie-engine"
     },
     "pt": {
       "heroBadge": "Habilitado automaticamente com mais de 3 módulos",
@@ -6909,7 +6911,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Veja a Cross-Intelligence em ação",
       "ctaDescription": "Percorra a Matriz de Correlação, o Detector de Canibalização e a Cascata de Atribuição de Receita com sua equipe.",
       "ctaPrimary": "Agende uma demonstração",
-      "ctaSecondary": "Veja Calculadora de Preços"
+      "ctaSecondary": "Veja Calculadora de Preços",
+      "heroTitle": "Motor de correlação Cross-Intelligence"
     },
     "ur": {
       "heroBadge": "3+ ماڈیولز کے ساتھ خودکار طور پر فعال",
@@ -6950,7 +6953,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Cross-Intelligence کو عملی طور پر دیکھیں",
       "ctaDescription": "اپنی ٹیم کے ساتھ Correlation Matrix، Cannibalization Detector، اور Revenue Attribution Waterfall کے ذریعے چلیں۔",
       "ctaPrimary": "ایک ڈیمو بک کرو",
-      "ctaSecondary": "پرائسنگ کیلکولیٹر دیکھیں"
+      "ctaSecondary": "پرائسنگ کیلکولیٹر دیکھیں",
+      "heroTitle": "Cross-Intelligence کوریلیشن انجن"
     },
     "hi": {
       "heroBadge": "3+ मॉड्यूल के साथ स्वतः सक्षम",
@@ -6991,7 +6995,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Cross-Intelligence को क्रियान्वित होते देखें",
       "ctaDescription": "अपनी टीम के साथ सहसंबंध मैट्रिक्स, कैनिबलाइज़ेशन डिटेक्टर और राजस्व एट्रिब्यूशन वॉटरफॉल के माध्यम से चलें।",
       "ctaPrimary": "एक डेमो बुक करें",
-      "ctaSecondary": "मूल्य निर्धारण कैलकुलेटर देखें"
+      "ctaSecondary": "मूल्य निर्धारण कैलकुलेटर देखें",
+      "heroTitle": "Cross-Intelligence सहसंबंध इंजन"
     },
     "it": {
       "heroBadge": "Abilitazione automatica con 3+ moduli",
@@ -7032,7 +7037,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Scopri Cross-Intelligence in azione",
       "ctaDescription": "Percorri la matrice di correlazione, il rilevatore di cannibalizzazione e la cascata di attribuzione delle entrate con il tuo team.",
       "ctaPrimary": "Prenota una dimostrazione",
-      "ctaSecondary": "Vedi Calcolatore dei prezzi"
+      "ctaSecondary": "Vedi Calcolatore dei prezzi",
+      "heroTitle": "Motore di correlazione Cross-Intelligence"
     },
     "pl": {
       "heroBadge": "Automatyczne włączanie z ponad 3 modułami",
@@ -7073,7 +7079,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Zobacz Cross-Intelligence w działaniu",
       "ctaDescription": "Przejdź wraz ze swoim zespołem przez Matrycę Korelacji, Detektor Kanibalizacji i Kaskadę Przypisywania Przychodów.",
       "ctaPrimary": "Zarezerwuj wersję demonstracyjną",
-      "ctaSecondary": "Zobacz Kalkulator cen"
+      "ctaSecondary": "Zobacz Kalkulator cen",
+      "heroTitle": "Silnik korelacji Cross-Intelligence"
     },
     "zh-Hans": {
       "heroBadge": "自动启用 3 个以上模块",
@@ -7114,7 +7121,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "实际体验 Cross-Intelligence",
       "ctaDescription": "与您的团队一起了解相关矩阵、蚕食检测器和收入归因瀑布。",
       "ctaPrimary": "预订演示",
-      "ctaSecondary": "查看定价计算器"
+      "ctaSecondary": "查看定价计算器",
+      "heroTitle": "Cross-Intelligence 关联引擎"
     },
     "tr": {
       "heroBadge": "3+ modülle otomatik olarak etkinleştirilir",
@@ -7155,7 +7163,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Cross-Intelligence'i iş başında görün",
       "ctaDescription": "Ekibinizle birlikte Korelasyon Matrisi, Yamyamlaştırma Dedektörü ve Gelir İlişkilendirme Şelalesi'ni inceleyin.",
       "ctaPrimary": "Demo Rezervasyonu Yapın",
-      "ctaSecondary": "Fiyatlandırma Hesaplayıcıya Bakın"
+      "ctaSecondary": "Fiyatlandırma Hesaplayıcıya Bakın",
+      "heroTitle": "Cross-Intelligence korelasyon motoru"
     },
     "ko": {
       "heroBadge": "3개 이상의 모듈로 자동 활성화됨",
@@ -7196,7 +7205,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Cross-Intelligence의 실제 작동을 확인하세요",
       "ctaDescription": "팀과 함께 상관관계 매트릭스, 자기잠식 탐지기, 수익 기여 폭포수를 살펴보세요.",
       "ctaPrimary": "데모 예약",
-      "ctaSecondary": "가격 계산기 보기"
+      "ctaSecondary": "가격 계산기 보기",
+      "heroTitle": "Cross-Intelligence 상관 엔진"
     },
     "ja": {
       "heroBadge": "3 つ以上のモジュールで自動有効化",
@@ -7237,7 +7247,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Cross-Intelligence の実際の動作をご覧ください",
       "ctaDescription": "チームと一緒に相関マトリックス、カニバリゼーション検出器、収益帰属ウォーターフォールを見てみましょう。",
       "ctaPrimary": "デモを予約する",
-      "ctaSecondary": "価格計算ツールを参照"
+      "ctaSecondary": "価格計算ツールを参照",
+      "heroTitle": "Cross-Intelligence 相関エンジン"
     },
     "vi": {
       "heroBadge": "Tự động kích hoạt với hơn 3 mô-đun",
@@ -7278,7 +7289,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Xem Cross-Intelligence trong thực tế",
       "ctaDescription": "Cùng nhóm của bạn tìm hiểu Ma trận tương quan, Trình phát hiện ăn mòn doanh số và Thác phân bổ doanh thu.",
       "ctaPrimary": "Đặt bản demo",
-      "ctaSecondary": "Xem Công cụ tính giá"
+      "ctaSecondary": "Xem Công cụ tính giá",
+      "heroTitle": "Công cụ tương quan Cross-Intelligence"
     },
     "ro": {
       "heroBadge": "Activat automat cu 3+ module",
@@ -7319,7 +7331,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Vedeți Cross-Intelligence în acțiune",
       "ctaDescription": "Parcurgeți Matricea de corelație, Detectorul de canibalizare și Cascada de atribuire a veniturilor împreună cu echipa dvs.",
       "ctaPrimary": "Rezervați o demonstrație",
-      "ctaSecondary": "Consultați Calculatorul de prețuri"
+      "ctaSecondary": "Consultați Calculatorul de prețuri",
+      "heroTitle": "Motor de corelație Cross-Intelligence"
     },
     "id": {
       "heroBadge": "Diaktifkan secara otomatis dengan 3+ modul",
@@ -7360,7 +7373,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Lihat Cross-Intelligence beraksi",
       "ctaDescription": "Telusuri Matriks Korelasi, Detektor Kanibalisasi, dan Air Terjun Atribusi Pendapatan bersama tim Anda.",
       "ctaPrimary": "Pesan Demo",
-      "ctaSecondary": "Lihat Kalkulator Harga"
+      "ctaSecondary": "Lihat Kalkulator Harga",
+      "heroTitle": "Mesin korelasi Cross-Intelligence"
     },
     "bn": {
       "heroBadge": "3+ মডিউল সহ স্বয়ংক্রিয়-সক্ষম",
@@ -7401,7 +7415,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Cross-Intelligence-কে কাজে দেখুন",
       "ctaDescription": "আপনার দলের সাথে কোরিলেশন ম্যাট্রিক্স, ক্যানিবালাইজেশন ডিটেক্টর এবং রাজস্ব অ্যাট্রিবিউশন জলপ্রপাতের মধ্য দিয়ে হাঁটুন।",
       "ctaPrimary": "একটি ডেমো বুক করুন",
-      "ctaSecondary": "প্রাইসিং ক্যালকুলেটর দেখুন"
+      "ctaSecondary": "প্রাইসিং ক্যালকুলেটর দেখুন",
+      "heroTitle": "Cross-Intelligence কোরিলেশন ইঞ্জিন"
     },
     "sv": {
       "heroBadge": "Autoaktiverad med 3+ moduler",
@@ -7442,7 +7457,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Se Cross-Intelligence i praktiken",
       "ctaDescription": "Gå igenom korrelationsmatrisen, kannibaliseringsdetektorn och inkomsttillskrivningsvattenfallet med ditt team.",
       "ctaPrimary": "Boka en demo",
-      "ctaSecondary": "Se priskalkylator"
+      "ctaSecondary": "Se priskalkylator",
+      "heroTitle": "Cross-Intelligence-korrelationsmotor"
     },
     "th": {
       "heroBadge": "เปิดใช้งานอัตโนมัติด้วยโมดูล 3+",
@@ -7483,7 +7499,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "ดูการทำงานแบบ Cross-Intelligence",
       "ctaDescription": "เดินผ่าน Correlation Matrix, Cannibalization Detector และ Revenue Attribution Waterfall กับทีมของคุณ",
       "ctaPrimary": "จองการสาธิต",
-      "ctaSecondary": "ดูเครื่องคำนวณราคา"
+      "ctaSecondary": "ดูเครื่องคำนวณราคา",
+      "heroTitle": "เอนจินสหสัมพันธ์ Cross-Intelligence"
     },
     "ms": {
       "heroBadge": "Didayakan secara automatik dengan 3+ modul",
@@ -7524,7 +7541,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Lihat Cross-Intelligence dalam tindakan",
       "ctaDescription": "Berjalan melalui Matriks Korelasi, Pengesan Kanibalisasi dan Air Terjun Atribusi Hasil bersama pasukan anda.",
       "ctaPrimary": "Tempah Demo",
-      "ctaSecondary": "Lihat Kalkulator Harga"
+      "ctaSecondary": "Lihat Kalkulator Harga",
+      "heroTitle": "Enjin korelasi Cross-Intelligence"
     }
   }
 } as const

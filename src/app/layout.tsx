@@ -30,6 +30,11 @@ const fraunces = Fraunces({
   subsets: ["latin"],
   style: ["normal", "italic"],
   display: "swap",
+  // Expose Fraunces' character axes so the logotype can force the warm display
+  // cut (high opsz) + soft, wonky letterforms even at small navbar sizes -
+  // otherwise automatic optical sizing falls back to the plain "text" cut and
+  // the wordmark reads bland / generic-serif.
+  axes: ["opsz", "SOFT", "WONK"],
 });
 
 // Body / UI - friendly, legible grotesk; the default sans (replaces Geist).
@@ -73,11 +78,10 @@ export async function generateMetadata(): Promise<Metadata> {
     publisher: "Sundae",
     icons: {
       icon: [
-        { url: "/logos/sundae-orb.png", sizes: "512x512", type: "image/png" },
-        { url: "/logos/sundae-orb-192.png", sizes: "192x192", type: "image/png" },
+        { url: "/logos/sundae-app-icon.png", sizes: "512x512", type: "image/png" },
       ],
       apple: [
-        { url: "/logos/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+        { url: "/logos/sundae-app-icon.png", sizes: "512x512", type: "image/png" },
       ],
     },
     manifest: "/site.webmanifest",
@@ -94,7 +98,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: new URL(localizedCanonicalPath, baseUrl).toString(),
       images: [
         {
-          url: "/logos/sundae-orb.png",
+          url: "/logos/og-card.png",
           width: 1200,
           height: 630,
           alt: messages.metadata.title,
@@ -105,7 +109,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: messages.metadata.title,
       description: messages.metadata.description,
-      images: ["/logos/sundae-orb.png"],
+      images: ["/logos/og-card.png"],
     },
     robots: {
       index: true,
@@ -123,7 +127,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export function generateViewport() {
   return {
-    themeColor: "#0f172a",
+    themeColor: "#15110D",
   };
 }
 
@@ -145,11 +149,9 @@ export default async function RootLayout({
             bots/crawlers are classified client-side and rejected server-side
             (see src/app/api/diagnostic/route.ts) before any paid model call. */}
         <BotIdClient protect={[{ path: "/api/diagnostic", method: "POST" }]} />
-        <link rel="preload" href="/logos/sundae-wordmark-white.svg" as="image" />
-        <link rel="preload" href="/logos/sundae-orb.png" as="image" />
       </head>
 
-      <body className="antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
+      <body className="relative antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#FF5C4D] focus:text-white focus:rounded-lg focus:outline-none"
@@ -163,7 +165,7 @@ export default async function RootLayout({
                 <header role="banner">
                   <Navbar />
                 </header>
-                <main id="main-content" className="min-h-screen overflow-x-hidden" role="main">
+                <main id="main-content" className="relative min-h-screen overflow-x-hidden" role="main">
                   <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
                   {children}
                 </main>

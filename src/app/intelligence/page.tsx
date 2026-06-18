@@ -10,6 +10,7 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_intelligence_page'
 import { intelligenceCreamCopy } from './intelligenceCreamCopy'
@@ -572,11 +573,7 @@ export default function ChatWithDataPage() {
       <SectionProductGallery
         productFilter="/intelligence"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE INTELLIGENCE IN ACTION",
-          title: "Every Intelligence surface, in detail.",
-          subtitle: "Real decision surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("intelligence", locale)}
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>

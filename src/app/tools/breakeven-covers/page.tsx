@@ -245,19 +245,19 @@ export default function BreakEvenCalculator() {
           <CardContent className="space-y-6">
             <div>
               <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.fixedLabel}</label>
-              <input type="number" value={fixedCosts} onChange={(e) => setFixedCosts(e.target.value)} placeholder="e.g., 50000" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent" min="0" step="0.01" />
+              <input type="number" value={fixedCosts} onChange={(e) => setFixedCosts(e.target.value)} placeholder="e.g., 50000" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-400 focus:border-transparent" min="0" step="0.01" />
               <p className="text-xs text-[var(--text-muted)] mt-1">{copy.form.fixedHint}</p>
             </div>
 
             <div>
               <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.variableLabel}</label>
-              <input type="number" value={variableCost} onChange={(e) => setVariableCost(e.target.value)} placeholder="e.g., 12.50" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent" min="0" step="0.01" />
+              <input type="number" value={variableCost} onChange={(e) => setVariableCost(e.target.value)} placeholder="e.g., 12.50" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-400 focus:border-transparent" min="0" step="0.01" />
               <p className="text-xs text-[var(--text-muted)] mt-1">{copy.form.variableHint}</p>
             </div>
 
             <div>
               <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.priceLabel}</label>
-              <input type="number" value={avgPrice} onChange={(e) => setAvgPrice(e.target.value)} placeholder="e.g., 32.00" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent" min="0" step="0.01" />
+              <input type="number" value={avgPrice} onChange={(e) => setAvgPrice(e.target.value)} placeholder="e.g., 32.00" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-400 focus:border-transparent" min="0" step="0.01" />
               <p className="text-xs text-[var(--text-muted)] mt-1">{copy.form.priceHint}</p>
             </div>
 

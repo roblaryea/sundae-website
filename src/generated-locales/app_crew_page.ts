@@ -3,7 +3,7 @@
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
-      "badge": "ÉQUIPE · SUBSTRAT OPÉRATIONNEL",
+      "badge": "CREW · OPÉRATIONS RH",
       "heroLine1": "Chaque service",
       "heroLine2": "devient un signal.",
       "description": "Crew gère vos équipes, plannings, temps, opérations RH, préparation de la paie et support aux employés. Chaque action devient une donnée opérationnelle qui alimente l'intelligence décisionnelle de Sundae - une boucle que les fournisseurs RH ou de paie autonomes ne peuvent pas fermer.",
@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Chaque service, heure, échange, attestation et cycle de paie devient un signal. Labor Intelligence le lit. Pulse l'alerte. Foresight l'utilise pour prévoir. Toute la plateforme gagne en précision.",
       "loopClosing": "Mêmes données sur la main-d'œuvre. Intelligence cumulative.",
       "pillarsEyebrow": "QU'EST-CE QUI EST EXPÉDIÉ AUJOURD'HUI",
-      "pillarsTitle": "Six surfaces. Un substrat opérationnel.",
+      "pillarsTitle": "Six surfaces. Une seule couche opérationnelle.",
       "pillarsDescription": "Chaque page d'équipage est conforme à la norme de profondeur 5 ou figure sur la liste de reconstruction suivie publiquement. Pas d'écrans uniquement pour la démonstration.",
       "pillars": [
         {
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Voir la plateforme Sundae"
     },
     "es": {
-      "badge": "CREW · SUSTRATO OPERATIVO",
+      "badge": "CREW · OPERACIONES DE PERSONAL",
       "heroLine1": "Cada turno",
       "heroLine2": "se convierte en señal.",
       "description": "Crew gestiona a tu personal, horarios, tiempo, operaciones de recursos humanos, preparación de nómina y soporte a empleados. Cada acción se convierte en datos operativos que alimentan la inteligencia de decisiones de Sundae, un ciclo que los proveedores de recursos humanos o nómina independientes no pueden cerrar.",
@@ -372,7 +372,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Cada turno, hora, cambio, certificación y ciclo de nómina se convierte en una señal. Labor Intelligence la lee. Pulse la alerta. Foresight la usa para proyectar. Toda la plataforma gana precisión.",
       "loopClosing": "Los mismos datos de la fuerza laboral. Inteligencia acumulativa.",
       "pillarsEyebrow": "¿QUÉ SE ENVÍA HOY?",
-      "pillarsTitle": "Seis superficies. Un sustrato operativo.",
+      "pillarsTitle": "Seis superficies. Una sola capa operativa.",
       "pillarsDescription": "Cada página de Crew está en estándar de profundidad 5 o en la lista de reconstrucción rastreada públicamente. No hay pantallas solo para demostración.",
       "pillars": [
         {
@@ -711,7 +711,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ver la Plataforma Sundae"
     },
     "de": {
-      "badge": "CREW · BETRIEBSSUBSTRAT",
+      "badge": "CREW · PERSONALOPERATIONS",
       "heroLine1": "Jede Schicht",
       "heroLine2": "wird zum Signal.",
       "description": "Crew verwaltet Ihre Mitarbeiter, Zeitpläne, Zeit, HR-Operationen, die Bereitschaft zur Gehaltsabrechnung und die Unterstützung der Mitarbeiter. Jede Aktion wird zu Betriebsdaten, die die Entscheidungsintelligenz von Sundae speisen - ein Kreislauf, den eigenständige HR- oder Gehaltsabrechnungsanbieter nicht schließen können.",
@@ -726,7 +726,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Jede Schicht, jede Stunde, jeder Tausch, jede Bestätigung und jeder Abrechnungszyklus wird zum Signal. Labor Intelligence liest es. Pulse meldet es. Foresight prognostiziert darauf aufbauend. Die gesamte Plattform wird präziser.",
       "loopClosing": "Die gleichen Mitarbeiterdaten. Verknüpfte Intelligenz.",
       "pillarsEyebrow": "WAS HEUTE VERSCHICKT WIRD",
-      "pillarsTitle": "Sechs Oberflächen. Ein operatives Substrat.",
+      "pillarsTitle": "Sechs Oberflächen. Eine operative Ebene.",
       "pillarsDescription": "Jede Crew-Seite entspricht dem Standard der Tiefe 5 oder befindet sich auf der öffentlich verfolgten Wiederaufbau-Rückstandsliste. Keine nur für Demos vorgesehenen Bildschirme.",
       "pillars": [
         {
@@ -1065,7 +1065,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae Plattform ansehen"
     },
     "nl": {
-      "badge": "CREW · OPERATIONEEL SUBSTRAAT",
+      "badge": "CREW · PERSONEELSOPERATIES",
       "heroLine1": "Elke dienst",
       "heroLine2": "wordt signaal.",
       "description": "Crew beheert uw personeel, planningen, tijd, HR-operaties, salarisgereedheid en werknemersondersteuning. Elke actie wordt operationele data die de besluitvormingsintelligentie van Sundae voedt - een cyclus die zelfstandige HR- of salarisleveranciers niet kunnen sluiten.",
@@ -1080,7 +1080,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Elke dienst, elk uur, elke ruil, elke attestatie en elke looncyclus wordt een signaal. Labor Intelligence leest het. Pulse meldt het. Foresight voorspelt erop. Het hele platform wordt scherper.",
       "loopClosing": "Dezelfde personeelsgegevens. Samengestelde intelligentie.",
       "pillarsEyebrow": "WAT WORDT VANDAAG VERZONDEN",
-      "pillarsTitle": "Zes oppervlakken. Eén operationeel substraat.",
+      "pillarsTitle": "Zes oppervlakken. Eén operationele laag.",
       "pillarsDescription": "Elke Crew-pagina voldoet aan de diepte-5 standaard of staat op de openbare herbouwlijst. Geen demo-schermen.",
       "pillars": [
         {
@@ -1419,7 +1419,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Bekijk Sundae Platform"
     },
     "ar": {
-      "badge": "Crew · الركيزة التشغيلية",
+      "badge": "CREW · عمليات الموارد البشرية",
       "heroLine1": "كل وردية",
       "heroLine2": "تصبح إشارة.",
       "description": "تدير Crew موظفيك، والجداول الزمنية، والوقت، وعمليات الموارد البشرية، وجاهزية الرواتب، ودعم الموظفين. يصبح كل إجراء بيانات تشغيلية تغذي ذكاء اتخاذ القرار في Sundae - حلقة لا يمكن لموردي الموارد البشرية أو الرواتب المستقلين إغلاقها.",
@@ -1434,7 +1434,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "كل وردية وساعة وتبديل وإقرار ودورة رواتب تصبح إشارة. Labor Intelligence يقرؤها. Pulse ينبّه إليها. Foresight يستخدمها للتنبؤ. وتصبح المنصة كلها أكثر دقة.",
       "loopClosing": "نفس بيانات القوى العاملة. ذكاء متزايد.",
       "pillarsEyebrow": "ما الذي سيتم شحنه اليوم",
-      "pillarsTitle": "ستة أسطح. ركيزة تشغيلية واحدة.",
+      "pillarsTitle": "ست واجهات. طبقة تشغيلية واحدة.",
       "pillarsDescription": "كل صفحة في Crew تتوافق مع معيار العمق-5 أو ضمن قائمة إعادة البناء المتعقّبة علنًا. لا توجد شاشات للعرض التوضيحي فقط.",
       "pillars": [
         {
@@ -1773,7 +1773,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "شاهد منصة Sundae"
     },
     "ur": {
-      "badge": "Crew · عملیاتی بنیادی ڈھانچہ",
+      "badge": "CREW · افرادی قوت آپریشنز",
       "heroLine1": "ہر شفٹ",
       "heroLine2": "سگنل بن جاتی ہے۔",
       "description": "Crew آپ کے لوگوں، شیڈولز، وقت، HR آپریشنز، تنخواہ کی تیاری، اور ملازم کی معاونت کو چلاتا ہے۔ ہر عمل آپریٹنگ ڈیٹا بن جاتا ہے جو Sundae کی فیصلہ سازی کی ذہانت کو فراہم کرتا ہے - ایک ایسا لوپ جسے خود مختار HR یا تنخواہ کے فراہم کنندگان بند نہیں کر سکتے۔",
@@ -1788,7 +1788,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "ہر شفٹ، گھنٹہ، تبادلہ، تصدیق اور پے رول سائیکل ایک سگنل بن جاتا ہے۔ Labor Intelligence اسے پڑھتا ہے۔ Pulse اس پر الرٹ کرتا ہے۔ Foresight اسی بنیاد پر پیش گوئی کرتا ہے۔ پوری پلیٹ فارم زیادہ درست ہو جاتی ہے۔",
       "loopClosing": "ایک ہی ورک فورس کا ڈیٹا۔ جمع شدہ ذہانت۔",
       "pillarsEyebrow": "آج کیا روانہ ہو رہا ہے",
-      "pillarsTitle": "چھ سطحیں۔ ایک عملی بنیاد۔",
+      "pillarsTitle": "چھ سطحیں۔ ایک آپریشنل پرت۔",
       "pillarsDescription": "Crew کا ہر صفحہ گہرائی-5 کے معیار پر ہے یا عوامی طور پر ٹریک کردہ دوبارہ تعمیر کے بیک لاگ میں ہے۔ صرف ڈیمو اسکرینیں نہیں ہیں۔",
       "pillars": [
         {
@@ -2127,7 +2127,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae پلیٹ فارم دیکھیں"
     },
     "pt": {
-      "badge": "CREW · SUBSTRATO OPERACIONAL",
+      "badge": "CREW · OPERAÇÕES DE PESSOAL",
       "heroLine1": "Todo turno",
       "heroLine2": "torna-se sinal.",
       "description": "O Crew gerencia seu pessoal, horários, tempo, operações de RH, prontidão da folha de pagamento e suporte aos funcionários. Cada ação se torna um dado operacional que alimenta a inteligência de decisão da Sundae - um ciclo que fornecedores de RH ou folha de pagamento independentes não conseguem fechar.",
@@ -2142,7 +2142,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Cada turno, hora, troca, atestado e ciclo de folha vira um sinal. Labor Intelligence lê. Pulse alerta. Foresight projeta a partir dele. Toda a plataforma fica mais precisa.",
       "loopClosing": "Os mesmos dados da força de trabalho. Inteligência acumulada.",
       "pillarsEyebrow": "O QUE EMBARCA HOJE",
-      "pillarsTitle": "Seis superfícies. Um substrato operacional.",
+      "pillarsTitle": "Seis superfícies. Uma só camada operacional.",
       "pillarsDescription": "Toda página da Crew está no padrão de profundidade 5 ou na lista de reconstrução acompanhada publicamente. Sem telas apenas para demonstração.",
       "pillars": [
         {
@@ -2481,7 +2481,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Veja a Plataforma Sundae"
     },
     "it": {
-      "badge": "CREW · SOTTOSTRATO OPERATIVO",
+      "badge": "CREW · OPERAZIONI DEL PERSONALE",
       "heroLine1": "Ogni turno",
       "heroLine2": "diventa segnale.",
       "description": "Crew gestisce il tuo personale, i programmi, il tempo, le operazioni HR, la preparazione delle buste paga e il supporto ai dipendenti. Ogni azione diventa dato operativo che alimenta l'intelligenza decisionale di Sundae - un ciclo che i fornitori HR o di buste paga standalone non possono chiudere.",
@@ -2496,7 +2496,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Ogni turno, ora, cambio, attestazione e ciclo paghe diventa un segnale. Labor Intelligence lo legge. Pulse lo segnala. Foresight lo usa per prevedere. L'intera piattaforma diventa più precisa.",
       "loopClosing": "Stessi dati sulla forza lavoro. Intelligenza combinata.",
       "pillarsEyebrow": "COSA SPEDISCE OGGI",
-      "pillarsTitle": "Sei superfici. Un substrato operativo.",
+      "pillarsTitle": "Sei superfici. Un solo livello operativo.",
       "pillarsDescription": "Ogni pagina Crew è conforme allo standard di profondità 5 o è nella lista di ricostruzione monitorata pubblicamente. Nessuno schermo solo per demo.",
       "pillars": [
         {
@@ -2835,7 +2835,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Vedi la piattaforma Sundae"
     },
     "hi": {
-      "badge": "Crew · संचालन आधार",
+      "badge": "CREW · कार्यबल संचालन",
       "heroLine1": "हर शिफ्ट",
       "heroLine2": "संकेत बन जाती है।",
       "description": "Crew आपके लोगों, शेड्यूल, समय, HR संचालन, पेरोल तैयारी और कर्मचारी समर्थन का प्रबंधन करता है। हर क्रिया संचालन डेटा बन जाती है जो Sundae की निर्णय बुद्धिमत्ता को पोषित करती है - एक ऐसा चक्र जिसे स्वतंत्र HR या पेरोल विक्रेता बंद नहीं कर सकते।",
@@ -2850,7 +2850,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "हर शिफ्ट, घंटा, बदलाव, प्रमाणन और पेरोल चक्र एक संकेत बन जाता है। Labor Intelligence उसे पढ़ती है। Pulse उस पर अलर्ट करता है। Foresight उसी आधार पर पूर्वानुमान बनाता है। पूरा प्लेटफ़ॉर्म अधिक सटीक होता जाता है।",
       "loopClosing": "एक ही कार्यबल डेटा। संचित बुद्धिमत्ता।",
       "pillarsEyebrow": "आज क्या भेजा जा रहा है",
-      "pillarsTitle": "छह सतहें। एक परिचालन आधार।",
+      "pillarsTitle": "छह सतहें। एक ऑपरेशनल परत।",
       "pillarsDescription": "प्रत्येक Crew पृष्ठ गहराई-5 मानक पर है या पुनर्निर्माण बैकलॉग में सार्वजनिक रूप से ट्रैक किया गया है। कोई डेमो-केवल स्क्रीन नहीं।",
       "pillars": [
         {
@@ -3189,7 +3189,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae प्लेटफ़ॉर्म देखें"
     },
     "tr": {
-      "badge": "CREW · OPERASYON ALT YAPISI",
+      "badge": "CREW · PERSONEL OPERASYONLARI",
       "heroLine1": "Her vardiya",
       "heroLine2": "sinyale dönüşür.",
       "description": "Crew, insan kaynaklarınızı, programlarınızı, zamanı, İK operasyonlarını, maaş hazırlığını ve çalışan desteğini yönetir. Her eylem, Sundae'nin karar alma zekasına beslenen işletme verisi haline gelir - bağımsız bir İK veya maaş sağlayıcısının kapatamayacağı bir döngü.",
@@ -3204,7 +3204,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Her vardiya, saat, değişim, onay ve bordro döngüsü bir sinyale dönüşür. Labor Intelligence bunu okur. Pulse uyarır. Foresight bunun üzerinden tahmin üretir. Tüm platform daha isabetli hale gelir.",
       "loopClosing": "Aynı iş gücü verisi. Birikimli zeka.",
       "pillarsEyebrow": "BUGÜN NE GÖNDERİLİYOR",
-      "pillarsTitle": "Altı yüzey. Bir operasyonel alt zemin.",
+      "pillarsTitle": "Altı yüzey. Tek operasyonel katman.",
       "pillarsDescription": "Her Crew sayfası derinlik-5 standardında veya kamuya açık olarak takip edilen yeniden inşa bekleme listesinde yer almaktadır. Sadece demo ekranları yoktur.",
       "pillars": [
         {
@@ -3543,7 +3543,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae Platformunu Gör"
     },
     "zh-Hans": {
-      "badge": "Crew · 运营基础",
+      "badge": "CREW · 人力运营",
       "heroLine1": "每个班次",
       "heroLine2": "成为信号。",
       "description": "Crew 管理您的人员、排班、工时、HR 运营、薪资准备和员工支持。每个操作都成为运营数据，为 Sundae 的决策智能提供支持--这是独立的 HR 或薪资供应商无法闭合的循环。",
@@ -3558,7 +3558,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "每个班次、小时、换班、确认和薪资周期都会成为信号。Labor Intelligence 读取它。Pulse 发出提醒。Foresight 基于它预测。整个平台会越来越精准。",
       "loopClosing": "相同的员工数据。复合智能。",
       "pillarsEyebrow": "今天发货的是什么",
-      "pillarsTitle": "六个表面。一个操作基底。",
+      "pillarsTitle": "六大界面，一个运营层。",
       "pillarsDescription": "每个 Crew 页面都符合深度-5 标准或在公开跟踪的重建待办事项中。没有仅供演示的屏幕。",
       "pillars": [
         {
@@ -3897,7 +3897,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "查看Sundae平台"
     },
     "pl": {
-      "badge": "CREW · PODSTAWA OPERACYJNA",
+      "badge": "CREW · OPERACJE KADROWE",
       "heroLine1": "Każda zmiana",
       "heroLine2": "staje się sygnałem.",
       "description": "Crew zarządza Twoimi pracownikami, harmonogramami, czasem, operacjami HR, gotowością płac oraz wsparciem dla pracowników. Każda akcja staje się danymi operacyjnymi, które zasilają inteligencję decyzyjną Sundae - pętla, której niezależni dostawcy HR lub płac nie mogą zamknąć.",
@@ -3912,7 +3912,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Każda zmiana, godzina, zamiana, potwierdzenie i cykl płacowy staje się sygnałem. Labor Intelligence go odczytuje. Pulse alarmuje. Foresight prognozuje na tej podstawie. Cała platforma staje się dokładniejsza.",
       "loopClosing": "Te same dane dotyczące pracowników. Złożona inteligencja.",
       "pillarsEyebrow": "CO WYPŁYWA DZISIAJ",
-      "pillarsTitle": "Sześć powierzchni. Jeden substrat operacyjny.",
+      "pillarsTitle": "Sześć obszarów. Jedna warstwa operacyjna.",
       "pillarsDescription": "Każda strona Crew jest na standardzie głębokości 5 lub znajduje się na liście do odbudowy, śledzonej publicznie. Brak ekranów tylko do demonstracji.",
       "pillars": [
         {
@@ -4251,7 +4251,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Zobacz platformę Sundae"
     },
     "ja": {
-      "badge": "Crew · オペレーショナルサブストレート",
+      "badge": "CREW · 人材オペレーション",
       "heroLine1": "すべてのシフトが",
       "heroLine2": "シグナルになる。",
       "description": "Crewは、あなたの人材、スケジュール、勤怠、HR業務、給与準備、従業員サポートを管理します。すべてのアクションがSundaeの意思決定インテリジェンスに供給される運用データとなります。これは、独立したHRまたは給与ベンダーが閉じることのできないループです。",
@@ -4266,7 +4266,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "すべてのシフト、時間、交代、証明、給与サイクルがシグナルになります。Labor Intelligence が読み取り、Pulse が通知し、Foresight がそれを基に予測します。プラットフォーム全体の精度が高まります。",
       "loopClosing": "同じ労働力データ。複合的なインテリジェンス。",
       "pillarsEyebrow": "今日出荷されるもの",
-      "pillarsTitle": "6つの表面。1つの運用基盤。",
+      "pillarsTitle": "6 つの画面。1 つの運用レイヤー。",
       "pillarsDescription": "すべてのCrewページは、深さ5の標準に準拠しているか、公開されている再構築バックログにあります。デモ専用の画面はありません。",
       "pillars": [
         {
@@ -4605,7 +4605,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundaeプラットフォームを見る"
     },
     "vi": {
-      "badge": "CREW · NỀN TẢNG VẬN HÀNH",
+      "badge": "CREW · VẬN HÀNH NHÂN SỰ",
       "heroLine1": "Mỗi ca",
       "heroLine2": "trở thành tín hiệu.",
       "description": "Crew quản lý nhân sự, lịch trình, thời gian, hoạt động nhân sự, chuẩn bị bảng lương và hỗ trợ nhân viên. Mỗi hành động trở thành dữ liệu hoạt động cung cấp cho trí tuệ quyết định của Sundae - một vòng lặp mà các nhà cung cấp HR hoặc bảng lương độc lập không thể khép lại.",
@@ -4620,7 +4620,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Mỗi ca làm, giờ, lần đổi ca, xác nhận và chu kỳ lương đều trở thành một tín hiệu. Labor Intelligence đọc tín hiệu đó. Pulse cảnh báo. Foresight dự báo dựa trên tín hiệu đó. Toàn bộ nền tảng ngày càng chính xác hơn.",
       "loopClosing": "Dữ liệu lực lượng lao động giống nhau. Trí tuệ tích lũy.",
       "pillarsEyebrow": "CÁI GÌ ĐƯỢC GỬI ĐI HÔM NAY",
-      "pillarsTitle": "Sáu bề mặt. Một nền tảng hoạt động.",
+      "pillarsTitle": "Sáu bề mặt. Một lớp vận hành.",
       "pillarsDescription": "Mỗi trang Crew đều đạt tiêu chuẩn độ sâu 5 hoặc nằm trong danh sách tái xây dựng được theo dõi công khai. Không có màn hình chỉ dành cho demo.",
       "pillars": [
         {
@@ -4959,7 +4959,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Xem Nền tảng Sundae"
     },
     "ro": {
-      "badge": "CREW · SUBSTRAT OPERAȚIONAL",
+      "badge": "CREW · OPERAȚIUNI DE PERSONAL",
       "heroLine1": "Fiecare tură",
       "heroLine2": "devine semnal.",
       "description": "Crew gestionează oamenii tăi, programările, timpul, operațiunile HR, pregătirea pentru salarii și suportul angajaților. Fiecare acțiune devine date operaționale care alimentează inteligența decizională a Sundae - un ciclu pe care furnizorii de HR sau salarii independenți nu îl pot închide.",
@@ -4974,7 +4974,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Fiecare tură, oră, schimb, atestare și ciclu de plată devine un semnal. Labor Intelligence îl citește. Pulse alertează. Foresight prognozează pe baza lui. Întreaga platformă devine mai precisă.",
       "loopClosing": "Aceleași date despre forța de muncă. Inteligență compusă.",
       "pillarsEyebrow": "CE SE EXPEDIEAZĂ ASTĂZI",
-      "pillarsTitle": "Șase suprafețe. Un substrat operațional.",
+      "pillarsTitle": "Șase suprafețe. Un singur strat operațional.",
       "pillarsDescription": "Fiecare pagină Crew este la standardul de adâncime-5 sau pe lista de reconstrucție urmărită public. Fără ecrane doar pentru demonstrație.",
       "pillars": [
         {
@@ -5313,7 +5313,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Vezi platforma Sundae"
     },
     "id": {
-      "badge": "CREW · SUBSTRAT OPERASIONAL",
+      "badge": "CREW · OPERASI TENAGA KERJA",
       "heroLine1": "Setiap shift",
       "heroLine2": "menjadi sinyal.",
       "description": "Crew mengelola orang, jadwal, waktu, operasi SDM, kesiapan penggajian, dan dukungan karyawan Anda. Setiap tindakan menjadi data operasional yang memberi informasi pada kecerdasan keputusan Sundae - sebuah siklus yang tidak dapat ditutup oleh vendor SDM atau penggajian mandiri.",
@@ -5328,7 +5328,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Setiap shift, jam, pertukaran, pernyataan, dan siklus penggajian menjadi sinyal. Labor Intelligence membacanya. Pulse memberi peringatan. Foresight membuat prediksi dari sinyal itu. Seluruh platform menjadi lebih akurat.",
       "loopClosing": "Data tenaga kerja yang sama. Kecerdasan yang saling menguatkan.",
       "pillarsEyebrow": "APA YANG DILAYANAN HARI INI",
-      "pillarsTitle": "Enam permukaan. Satu substrat operasional.",
+      "pillarsTitle": "Enam permukaan. Satu lapisan operasional.",
       "pillarsDescription": "Setiap halaman Crew berada pada standar kedalaman-5 atau dalam daftar pemulihan yang dilacak secara publik. Tidak ada layar demo saja.",
       "pillars": [
         {
@@ -5667,7 +5667,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Lihat Platform Sundae"
     },
     "ko": {
-      "badge": "Crew · 운영 기초",
+      "badge": "CREW · 인력 운영",
       "heroLine1": "모든 근무가",
       "heroLine2": "신호가 됩니다.",
       "description": "Crew는 귀하의 인력, 일정, 근무 시간, HR 운영, 급여 준비 및 직원 지원을 관리합니다. 모든 작업은 Sundae의 의사 결정 인텔리전스에 공급되는 운영 데이터가 됩니다. 이는 독립적인 HR 또는 급여 공급업체가 닫을 수 없는 루프입니다.",
@@ -5682,7 +5682,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "모든 근무, 시간, 교대, 확인, 급여 주기는 신호가 됩니다. Labor Intelligence가 이를 읽고, Pulse가 알림을 보내며, Foresight가 이를 바탕으로 예측합니다. 전체 플랫폼은 더 정교해집니다.",
       "loopClosing": "동일한 인력 데이터. 복합 지능.",
       "pillarsEyebrow": "오늘 배송되는 것",
-      "pillarsTitle": "여섯 개의 표면. 하나의 운영 기초.",
+      "pillarsTitle": "여섯 개의 화면. 하나의 운영 레이어.",
       "pillarsDescription": "모든 Crew 페이지는 깊이 5 표준에 해당하거나 공개적으로 추적되는 재구성 대기열에 있습니다. 데모 전용 화면은 없습니다.",
       "pillars": [
         {
@@ -6021,7 +6021,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae 플랫폼 보기"
     },
     "sv": {
-      "badge": "CREW · OPERATIVT UNDERLAG",
+      "badge": "CREW · PERSONALDRIFT",
       "heroLine1": "Varje skift",
       "heroLine2": "blir signal.",
       "description": "Crew hanterar dina medarbetare, scheman, tid, HR-operationer, löneberedskap och medarbetarstöd. Varje åtgärd blir driftsdata som matar Sundae beslutsintelligens - en loop som fristående HR- eller löneleverantörer inte kan stänga.",
@@ -6036,7 +6036,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Varje skift, timme, byte, intyg och lönecykel blir en signal. Labor Intelligence läser den. Pulse varnar. Foresight prognostiserar utifrån den. Hela plattformen blir mer träffsäker.",
       "loopClosing": "Samma arbetskraftdata. Sammanlagd intelligens.",
       "pillarsEyebrow": "VAD SKICKAS IDAG",
-      "pillarsTitle": "Sex ytor. Ett operativt substrat.",
+      "pillarsTitle": "Sex ytor. Ett operativt lager.",
       "pillarsDescription": "Varje Crew-sida är på djup-5 standard eller på återuppbyggnadsbackloggen som spåras offentligt. Inga demovyer.",
       "pillars": [
         {
@@ -6375,7 +6375,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Se Sundae-plattformen"
     },
     "bn": {
-      "badge": "Crew · অপারেশনাল সাবস্ট্রেট",
+      "badge": "CREW · কর্মীবাহিনী পরিচালনা",
       "heroLine1": "প্রতিটি শিফট",
       "heroLine2": "সিগন্যাল হয়ে ওঠে।",
       "description": "Crew আপনার কর্মী, সময়সূচী, সময়, HR কার্যক্রম, বেতন প্রস্তুতি এবং কর্মচারী সহায়তা পরিচালনা করে। প্রতিটি কার্যকলাপ অপারেটিং ডেটায় পরিণত হয় যা Sundae-র সিদ্ধান্ত বুদ্ধিমত্তাকে পরিচালিত করে - একটি লুপ যা স্বতন্ত্র HR বা বেতন বিক্রেতারা বন্ধ করতে পারে না।",
@@ -6390,7 +6390,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "প্রতিটি শিফট, ঘণ্টা, বদলি, স্বীকৃতি ও পে-রোল চক্র একটি সংকেতে পরিণত হয়। Labor Intelligence সেটি পড়ে। Pulse সতর্ক করে। Foresight সেটির ওপর ভিত্তি করে পূর্বাভাস দেয়। পুরো প্ল্যাটফর্ম আরও নির্ভুল হয়।",
       "loopClosing": "একই কর্মশক্তির তথ্য। জটিল বুদ্ধিমত্তা।",
       "pillarsEyebrow": "আজ কি জাহাজে যাচ্ছে",
-      "pillarsTitle": "ছয়টি পৃষ্ঠ। একটি কার্যকরী সাবস্ট্রেট।",
+      "pillarsTitle": "ছয়টি পৃষ্ঠ। একটি অপারেশনাল স্তর।",
       "pillarsDescription": "প্রতিটি Crew পৃষ্ঠা গভীরতা-৫ মানের বা পুনর্নির্মাণ ব্যাকলগে পাবলিকভাবে ট্র্যাক করা হয়। শুধুমাত্র ডেমো স্ক্রীন নেই।",
       "pillars": [
         {
@@ -6729,7 +6729,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Sundae প্ল্যাটফর্ম দেখুন"
     },
     "th": {
-      "badge": "Crew · ฐานการดำเนินงาน",
+      "badge": "CREW · การบริหารกำลังคน",
       "heroLine1": "ทุกกะ",
       "heroLine2": "กลายเป็นสัญญาณ.",
       "description": "Crew จัดการคนของคุณ ตารางเวลา เวลา การดำเนินงาน HR ความพร้อมในการจ่ายเงินเดือน และการสนับสนุนพนักงาน ทุกการกระทำกลายเป็นข้อมูลการดำเนินงานที่ช่วยเสริมสร้างปัญญาในการตัดสินใจของ Sundae - วงจรที่ผู้ให้บริการ HR หรือเงินเดือนแบบสแตนด์อโลนไม่สามารถปิดได้.",
@@ -6744,7 +6744,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "ทุกกะ ทุกชั่วโมง การสลับกะ การรับรอง และรอบเงินเดือนกลายเป็นสัญญาณ Labor Intelligence อ่านสัญญาณนั้น Pulse แจ้งเตือน Foresight ใช้สัญญาณนั้นเพื่อคาดการณ์ แพลตฟอร์มทั้งหมดจึงแม่นยำขึ้น",
       "loopClosing": "ข้อมูลแรงงานเดียวกัน ความฉลาดที่เพิ่มขึ้น.",
       "pillarsEyebrow": "เรือออกวันนี้",
-      "pillarsTitle": "หกพื้นผิว หนึ่งฐานการดำเนินงาน.",
+      "pillarsTitle": "หกพื้นผิว หนึ่งชั้นการดำเนินงาน",
       "pillarsDescription": "ทุกหน้า Crew อยู่ในมาตรฐานระดับ 5 หรืออยู่ในรายการซ่อมแซมที่ติดตามสาธารณะ ไม่มีหน้าจอสำหรับสาธิตเท่านั้น.",
       "pillars": [
         {
@@ -7083,7 +7083,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "ดูแพลตฟอร์ม Sundae"
     },
     "ms": {
-      "badge": "CREW · SUBSTRAT OPERASI",
+      "badge": "CREW · OPERASI TENAGA KERJA",
       "heroLine1": "Setiap syif",
       "heroLine2": "menjadi isyarat.",
       "description": "Crew menguruskan orang, jadual, masa, operasi HR, kesiapan gaji, dan sokongan pekerja anda. Setiap tindakan menjadi data operasi yang memberi maklumat kepada kecerdasan keputusan Sundae - satu gelung yang tidak dapat ditutup oleh vendor HR atau gaji yang berdiri sendiri.",
@@ -7098,7 +7098,7 @@ export const generatedLocalCopy = {
       "loopRightBody": "Setiap syif, jam, pertukaran, pengesahan dan kitaran gaji menjadi isyarat. Labor Intelligence membacanya. Pulse memberi amaran. Foresight membuat ramalan berdasarkannya. Seluruh platform menjadi lebih tepat.",
       "loopClosing": "Data tenaga kerja yang sama. Kecerdasan yang bertambah.",
       "pillarsEyebrow": "APA YANG DILAYAN HARI INI",
-      "pillarsTitle": "Enam permukaan. Satu substrat operasi.",
+      "pillarsTitle": "Enam permukaan. Satu lapisan operasi.",
       "pillarsDescription": "Setiap halaman Crew adalah pada standard kedalaman-5 atau dalam senarai pembinaan semula yang dipantau secara awam. Tiada skrin demo sahaja.",
       "pillars": [
         {

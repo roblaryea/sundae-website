@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { motion, MotionConfig } from "framer-motion";
@@ -26,6 +27,47 @@ import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
 import { SectionThreeMoats } from "./sections/SectionThreeMoats";
 import { Section4DScene } from "./sections/Section4DScene";
+import { SectionCrewSubstrate } from "./sections/SectionCrewSubstrate";
+import { HomeScrollSpine, type HomeChapter } from "./HomeScrollSpine";
+
+// The homepage's seven chapters, mirroring the hero glass's seven strata. As the
+// reader descends, the spine fills with this warm palette - the page becomes the
+// glass filling up - and each node jumps to its chapter.
+const HOME_CHAPTERS: Omit<HomeChapter, "label">[] = [
+  { id: "chapter-overview", color: "#E03E48" },
+  { id: "chapter-shift", color: "#FF5C4D" },
+  { id: "chapter-platform", color: "#FF7E6F" },
+  { id: "chapter-moats", color: "#F7A088" },
+  { id: "chapter-crew", color: "#E9A24A" },
+  { id: "chapter-proof", color: "#F6C66B" },
+  { id: "chapter-cta", color: "#F6F1E8" },
+];
+
+// Localized chapter labels (order matches HOME_CHAPTERS). Short, native nav
+// labels - "Crew" is the product name, kept literal in every locale.
+const CHAPTER_LABELS: Record<string, string[]> = {
+  en: ["Every layer", "The shift", "The platform", "The moat", "Crew", "Proof", "Your move"],
+  fr: ["Chaque couche", "Le service", "La plateforme", "L'avantage", "Crew", "Preuves", "À vous de jouer"],
+  es: ["Cada capa", "El turno", "La plataforma", "La ventaja", "Crew", "Pruebas", "Te toca"],
+  de: ["Jede Ebene", "Die Schicht", "Die Plattform", "Der Vorsprung", "Crew", "Belege", "Ihr Zug"],
+  nl: ["Elke laag", "De dienst", "Het platform", "De voorsprong", "Crew", "Bewijs", "Jouw beurt"],
+  pt: ["Cada camada", "O turno", "A plataforma", "A vantagem", "Crew", "Provas", "É a sua vez"],
+  it: ["Ogni livello", "Il turno", "La piattaforma", "Il vantaggio", "Crew", "Prove", "Tocca a te"],
+  pl: ["Każda warstwa", "Zmiana", "Platforma", "Przewaga", "Crew", "Dowody", "Twój ruch"],
+  ro: ["Fiecare strat", "Tura", "Platforma", "Avantajul", "Crew", "Dovezi", "Rândul tău"],
+  sv: ["Varje lager", "Passet", "Plattformen", "Försprånget", "Crew", "Bevis", "Din tur"],
+  tr: ["Her katman", "Vardiya", "Platform", "Avantaj", "Crew", "Kanıt", "Sıra sizde"],
+  id: ["Setiap lapisan", "Shift", "Platform", "Keunggulan", "Crew", "Bukti", "Giliran Anda"],
+  ms: ["Setiap lapisan", "Syif", "Platform", "Kelebihan", "Crew", "Bukti", "Giliran anda"],
+  vi: ["Mọi tầng", "Ca làm", "Nền tảng", "Lợi thế", "Crew", "Bằng chứng", "Lượt của bạn"],
+  hi: ["हर परत", "शिफ्ट", "प्लेटफ़ॉर्म", "बढ़त", "Crew", "प्रमाण", "आपकी बारी"],
+  ur: ["ہر پرت", "شفٹ", "پلیٹ فارم", "برتری", "Crew", "ثبوت", "آپ کی باری"],
+  bn: ["প্রতিটি স্তর", "শিফট", "প্ল্যাটফর্ম", "সুবিধা", "Crew", "প্রমাণ", "আপনার পালা"],
+  th: ["ทุกชั้น", "กะ", "แพลตฟอร์ม", "ความได้เปรียบ", "Crew", "หลักฐาน", "ตาคุณแล้ว"],
+  "zh-Hans": ["每一层", "营业班次", "平台", "护城河", "Crew", "实证", "该你了"],
+  ja: ["すべての層", "シフト", "プラットフォーム", "優位性", "Crew", "実証", "あなたの番"],
+  ko: ["모든 계층", "시프트", "플랫폼", "우위", "Crew", "증거", "당신 차례"],
+};
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
 import { SectionTrustStrip } from "./sections/SectionTrustStrip";
@@ -45,7 +87,12 @@ import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 function withWordmark(text: string, markClassName: string) {
   return text.split(/(\bSundae\b(?!\s+Intelligence))/g).map((part, i) =>
     part === "Sundae" ? (
-      <SundaeWordmark key={i} className={markClassName} />
+      // aria-hidden wordmark + sr-only text so screen readers announce "Sundae"
+      // once AND raw textContent (SEO / extraction) still reads the brand name.
+      <span key={i} className="inline-flex items-baseline">
+        <SundaeWordmark aria-hidden className={markClassName} />
+        <span className="sr-only">Sundae</span>
+      </span>
     ) : (
       <span key={i}>{part}</span>
     )
@@ -63,7 +110,17 @@ export default function HomeContent() {
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const closerLine = closerLineCopy[locale as keyof typeof closerLineCopy] ?? closerLineCopy.en;
   const cta = useCta();
+  // Defer reduced-motion to after mount so SSR and the first client render
+  // always take the full-motion path (framer's reducedMotion="user" strips
+  // transform-initials on a reduced client, which otherwise mismatches the
+  // server-rendered HTML and forces a full client regeneration).
+  const [motionReady, setMotionReady] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMotionReady(true), []);
 
+  // The six Intelligence Layers, rendered as one stacked operating layer
+  // (the glass metaphor). Keyed by layer.name (brand names stay constant
+  // across locales, so the icon/accent lookup holds).
   const layerIcons: Record<string, SundaeIconName> = {
     Pulse: "pulse",
     Benchmarks: "benchmarking",
@@ -83,12 +140,18 @@ export default function HomeContent() {
   };
 
   return (
-    <MotionConfig reducedMotion="user">
+    <MotionConfig reducedMotion={motionReady ? "user" : "never"}>
       <>
+        <HomeScrollSpine
+          chapters={HOME_CHAPTERS.map((c, i) => ({
+            ...c,
+            label: (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[i],
+          }))}
+        />
         {/* ════════════════════════════════════════════════
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
-        <section className="relative min-h-[90vh] flex flex-col justify-center pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section id="chapter-overview" className="relative scroll-mt-24 pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
           {/* Background layers */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
@@ -113,13 +176,13 @@ export default function HomeContent() {
               alt=""
               fill
               sizes="100vw"
-              className="object-cover object-center hidden [html.light_&]:block opacity-[0.32]"
+              className="object-cover object-center hidden [html.light_&]:block opacity-[0.55]"
             />
             <div
               className="absolute inset-0 hidden [html.light_&]:block"
               style={{
                 background:
-                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.16) 0%, transparent 52%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.22) 0%, transparent 54%), radial-gradient(ellipse 66% 56% at 50% 42%, rgba(255,250,245,0.92) 0%, rgba(255,246,239,0.5) 48%, transparent 74%), linear-gradient(180deg, rgba(255,246,239,0.5) 0%, #FFFFFF 78%)',
+                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.16) 0%, transparent 52%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.22) 0%, transparent 54%), radial-gradient(ellipse 62% 52% at 50% 40%, rgba(255,250,245,0.86) 0%, rgba(255,246,239,0.42) 46%, transparent 72%), linear-gradient(180deg, rgba(255,246,239,0.32) 0%, rgba(255,255,255,0.55) 60%, #FFFFFF 96%)',
               }}
             />
             <Image
@@ -162,9 +225,10 @@ export default function HomeContent() {
           <div className="max-w-5xl mx-auto text-center relative z-20">
             {/* Eyebrow badge */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0, ease: [0.25, 0.4, 0.25, 1] }}
               className="flex justify-center mb-8"
             >
               <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.28)] text-[#FF8473]">
@@ -175,28 +239,42 @@ export default function HomeContent() {
 
             {/* Headline */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
             >
-              <h1 className="hero-h1 mb-6 max-w-4xl mx-auto">
+              <h2 className="section-h2 mb-5 max-w-3xl mx-auto" aria-label={`${home.titleTop} ${home.titleBottom}`}>
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
                   {home.titleTop}
-                </span>
+                </span>{" "}
                 <br />
                 <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-[#E9A24A] via-[#FF7E6F] to-[#FF5C4D]">
                   {home.titleBottom}
                 </span>
-              </h1>
+              </h2>
+            </motion.div>
+
+            {/* Subheadline - the sharp, memorable promise (what / why / act in time) */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.15, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <p className="font-display mx-auto mb-6 max-w-2xl text-balance text-lg font-medium leading-snug text-[var(--text-primary)] sm:text-2xl">
+                {home.subheadline}
+              </p>
             </motion.div>
 
             {/* Tagline */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.9, ease: [0.25, 0.4, 0.25, 1] }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.25, ease: [0.25, 0.4, 0.25, 1] }}
             >
-              <p className="body-xl max-w-2xl mx-auto mb-10">
+              <p className="body-lg max-w-xl mx-auto mb-10 text-[var(--text-supporting)]">
                 {home.description}
                 <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.66em] w-auto inline-block align-baseline mx-[0.08em] translate-y-[0.02em] text-[var(--text-primary)]")}</span>
               </p>
@@ -205,50 +283,50 @@ export default function HomeContent() {
             {/* CTAs */}
             <motion.div
               className="flex flex-col sm:flex-row gap-3 justify-center mb-4"
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1.1, ease: [0.25, 0.4, 0.25, 1] }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.9, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <Button
                 variant="cta"
                 size="lg"
-                href={SIGNUP_URL}
-                onClick={(e) => { e.preventDefault(); cta(SIGNUP_URL, "start_free_hero", { page: "/home" }); }}
+                href="/demo"
+                onClick={(e) => { e.preventDefault(); cta("/demo", "book_walkthrough_hero", { page: "/home" }); }}
               >
                 {home.startFree}
               </Button>
-              <Button
-                variant="outline-light"
-                size="lg"
-                onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
-              >
-                {home.bookDemo}
-              </Button>
             </motion.div>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 1.3 }}
-              className="text-xs text-[var(--text-muted)]"
-            >
-              {home.noCard}
-            </motion.p>
+            {home.noCard ? (
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="text-xs text-[var(--text-muted)]"
+              >
+                {home.noCard}
+              </motion.p>
+            ) : null}
           </div>
 
           {/* Hero CSS Mockup - Pulse Dashboard */}
           <motion.div
-            className="max-w-5xl mx-auto mt-16 relative z-20 px-4"
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.0 }}
+            id="pulse-live"
+            className="max-w-5xl mx-auto mt-16 relative z-20 px-4 scroll-mt-24"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             style={{ perspective: '1200px' }}
           >
             <div className="absolute -inset-x-10 bottom-0 h-48 bg-gradient-to-t from-[rgba(255,92,77,0.10)] via-[rgba(242,166,90,0.05)] to-transparent blur-2xl pointer-events-none rounded-full" />
 
             <motion.div
-              initial={{ rotateX: 8, scale: 0.95, opacity: 0 }}
-              animate={{ rotateX: 1.5, scale: 1, opacity: 1 }}
-              transition={{ duration: 1.2, delay: 1.1, ease: [0.25, 0.1, 0.25, 1] }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             >
               <MockupFrame label={heroDash.frameLabel} glow>
                 <HeroLiveDashboard />
@@ -260,14 +338,18 @@ export default function HomeContent() {
           <motion.div
             className="max-w-4xl mx-auto mt-16 relative z-20"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 1.4 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, delay: 0.45 }}
           >
-            <div className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center divide-x divide-[var(--border-default)] overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] backdrop-blur">
+            <div
+              className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center divide-x divide-white/10 overflow-hidden rounded-2xl border border-white/10"
+              style={{ backgroundColor: "rgba(13,9,6,0.96)" }}
+            >
               {home.proofStats.map((item) => (
                 <div key={item.label} className="min-w-[140px] flex-1 px-5 py-5 text-center sm:px-7">
-                  <div className="font-display bg-gradient-to-r from-[#E9A24A] to-[#FF5C4D] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
-                  <div className="mt-2 text-[10px] font-medium uppercase tracking-wider text-[var(--text-muted)] sm:text-xs">{item.label}</div>
+                  <div className="font-display bg-gradient-to-r from-[#F8C96C] to-[#FF7E6F] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
+                  <div className="mt-2 text-[11px] font-semibold uppercase tracking-wider text-[var(--text-secondary)] sm:text-xs">{item.label}</div>
                 </div>
               ))}
             </div>
@@ -284,13 +366,15 @@ export default function HomeContent() {
             Scrub a service night; at 7:15 Sundae surfaces the signal you can
             still act on. The interactive proof of the manifesto/operator copy.
         ════════════════════════════════════════════════ */}
-        <SectionShiftMoment />
+        <div id="chapter-shift" className="scroll-mt-24">
+          <SectionShiftMoment />
+        </div>
 
         {/* ════════════════════════════════════════════════
             2a. HUMANIZED EDITORIAL BAND - the real restaurant world
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
-          src="/images/editorial/chef-sauce.jpg"
+          src="/images/editorial/chef-warm.jpg"
           alt={editorial.band1.alt}
           eyebrow={editorial.band1.eyebrow}
           headline={editorial.band1.headline}
@@ -311,7 +395,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             3. SIX LAYERS - Platform pillars
         ════════════════════════════════════════════════ */}
-        <section aria-labelledby="platform-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
+        <section id="chapter-platform" aria-labelledby="platform-heading" className="scroll-mt-24 py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-mesh" />
 
           <div className="max-w-7xl mx-auto relative z-10">
@@ -325,11 +409,13 @@ export default function HomeContent() {
               </p>
             </FadeUp>
 
-            {/* Top row: 3 pillars */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
-              {platform.layers.slice(0, 3).map((layer, i) => (
-                <div key={layer.name}>
+            {/* One vessel, six layers - the modules stack like the strata in
+                the glass: a single operating system, not a grid of products. */}
+            <FadeUp>
+              <div className="relative mx-auto max-w-4xl rounded-3xl border border-[var(--border-default)] overflow-hidden divide-y divide-[var(--border-default)] bg-[var(--navy-deep)]/40 backdrop-blur shadow-[0_40px_90px_-50px_rgba(0,0,0,0.7)]">
+                {platform.layers.map((layer, i) => (
                   <LayerCard
+                    key={layer.name}
                     layer={layer}
                     icon={layerIcons[layer.name]}
                     accent={layerAccents[layer.name]}
@@ -338,26 +424,9 @@ export default function HomeContent() {
                     countLabel={platform.countLabel}
                     cta={cta}
                   />
-                </div>
-              ))}
-            </div>
-
-            {/* Bottom row: 3 pillars */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-              {platform.layers.slice(3).map((layer, i) => (
-                <div key={layer.name}>
-                  <LayerCard
-                    layer={layer}
-                    icon={layerIcons[layer.name]}
-                    accent={layerAccents[layer.name]}
-                    learnMoreLabel={platform.learnMore}
-                    indexLabel={`0${i + 4}`}
-                    countLabel={platform.countLabel}
-                    cta={cta}
-                  />
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            </FadeUp>
 
             <FadeUp delay={0.2} className="text-center mt-14">
               <Button
@@ -396,12 +465,21 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             3b. BEYOND DASHBOARDS - Three Moats (Pulse / Watchtower / Benchmarks)
         ════════════════════════════════════════════════ */}
-        <SectionThreeMoats />
+        <div id="chapter-moats" className="scroll-mt-24">
+          <SectionThreeMoats />
+        </div>
 
         {/* ════════════════════════════════════════════════
             3c. 4D INTELLIGENCE MODEL - scenario walk-through
         ════════════════════════════════════════════════ */}
         <Section4DScene />
+
+        {/* ════════════════════════════════════════════════
+            3d. CREW - the operational substrate that feeds the intelligence
+        ════════════════════════════════════════════════ */}
+        <div id="chapter-crew" className="scroll-mt-24">
+          <SectionCrewSubstrate />
+        </div>
 
         {/* ════════════════════════════════════════════════
             4b-relief. SECOND CREAM BREAK - keeps warmth alive through the lower half
@@ -421,7 +499,9 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             6. PROOF - Industry vs Sundae + capability stats
         ════════════════════════════════════════════════ */}
-        <SectionProof />
+        <div id="chapter-proof" className="scroll-mt-24">
+          <SectionProof />
+        </div>
 
         {/* ════════════════════════════════════════════════
             6a-eco. ECOSYSTEM STRIP - honest external-credibility (Live POS + roadmap)
@@ -439,6 +519,11 @@ export default function HomeContent() {
         <SectionEditorialSplit
           src="/images/editorial/dining-night.jpg"
           light="/images/editorial/dining-candlelit.jpg"
+          video={{
+            webm: '/videos/closer-room.webm',
+            mp4: '/videos/closer-room.mp4',
+            poster: '/videos/closer-room-poster.jpg',
+          }}
           alt={editorial.closer.alt}
           eyebrow={editorial.closer.eyebrow}
           headline={
@@ -454,7 +539,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section className="relative py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
+        <section id="chapter-cta" className="relative scroll-mt-24 py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
           {/* photographic base - the floor, warm-graded */}
           <Image
             src="/images/editorial/dining-night.jpg"
@@ -526,34 +611,45 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel
 }) {
   return (
     <div
-      className="group cursor-pointer h-full"
+      className="group relative flex items-stretch cursor-pointer bg-white/[0.02] hover:bg-[var(--surface-hover)] transition-colors duration-300"
       role="button"
       tabIndex={0}
       onClick={() => cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" })}
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" }); } }}
     >
-      <div className="relative h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,92,77,0.10)]">
-        {/* Layer count indicator - top right */}
-        <div className="absolute top-4 right-5 text-[10px] font-mono tracking-wider text-[var(--text-muted)]/70">
-          <span className="text-[var(--text-secondary)]">{indexLabel}</span>
-          <span className="opacity-50"> {countLabel}</span>
+      {/* Meniscus rail - this layer's colour, the edge of the stratum */}
+      <div className={`w-1.5 flex-shrink-0 bg-gradient-to-b ${accent} opacity-70 group-hover:w-2.5 group-hover:opacity-100 transition-all duration-300`} aria-hidden />
+
+      <div className="flex-1 grid grid-cols-[1fr_auto] md:grid-cols-[2.5rem_minmax(11rem,15rem)_1fr_auto] items-center gap-x-5 gap-y-2 px-5 md:px-7 py-5 md:py-6">
+        {/* Index - the stratum number */}
+        <div className="hidden md:block font-mono text-[11px] tracking-widest text-[var(--text-muted)]/70 tabular-nums">
+          {indexLabel}<span className="opacity-40"> {countLabel}</span>
         </div>
 
-        <div className="flex items-center gap-3 mb-4 pr-12">
-          <div className={`w-10 h-10 bg-gradient-to-br ${accent} rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
-            <SundaeIcon name={icon} size="sm" className="text-[var(--text-primary)]" />
+        {/* Icon + name + subtitle */}
+        <div className="flex items-center gap-3 min-w-0">
+          <div className={`w-10 h-10 bg-gradient-to-br ${accent} rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg`}>
+            <SundaeIcon name={icon} size="sm" className="text-white" />
           </div>
-          <div>
-            <h3 className="text-base font-semibold text-[var(--text-primary)] leading-tight">{layer.name}</h3>
-            <p className="text-xs text-[var(--text-muted)] font-medium">{layer.subtitle}</p>
+          <div className="min-w-0">
+            <h3 className="text-[15px] font-semibold text-[var(--text-primary)] leading-tight truncate">{layer.name}</h3>
+            <p className="text-xs text-[var(--text-muted)] font-medium truncate">{layer.subtitle}</p>
           </div>
         </div>
 
-        <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4">{layer.description}</p>
+        {/* Description - hidden on mobile, shown full-width below instead */}
+        <p className="hidden md:block text-sm text-[var(--text-muted)] leading-relaxed">{layer.description}</p>
 
-        <span className="text-sm font-medium text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors">
+        {/* Learn more */}
+        <span className="hidden md:inline-flex items-center gap-1.5 text-sm font-medium text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors whitespace-nowrap justify-self-end">
           {learnMoreLabel} <span className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
         </span>
+
+        {/* Mobile arrow */}
+        <span className="md:hidden text-[#FF8473] group-hover:translate-x-1 transition-transform justify-self-end" aria-hidden>&rarr;</span>
+
+        {/* Mobile description - spans full row */}
+        <p className="md:hidden col-span-2 text-sm text-[var(--text-muted)] leading-relaxed">{layer.description}</p>
       </div>
     </div>
   );

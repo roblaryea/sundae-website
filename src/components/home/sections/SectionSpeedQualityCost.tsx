@@ -9,8 +9,8 @@ import {
   useMotionValue,
   useMotionValueEvent,
   useTransform,
-  useReducedMotion,
 } from "framer-motion";
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -25,11 +25,13 @@ type LocalizedSQC = {
   oldRule: string;
   sundaeRule: string;
   closing: string;
+  costMetric: string;
   vertices: { label: string; headline: string; body: string; chips: [string, string, string] }[];
 };
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   en: {
+    costMetric: "Free to start",
     eyebrow: "THE FALSE CHOICE IS OVER",
     headline: "Fast. Right. Affordable. Pick all three.",
     description: "Getting real restaurant intelligence used to mean a tradeoff - fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once - that's the entire point.",
@@ -43,6 +45,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     ],
   },
   ar: {
+    costMetric: "مجاناً للبدء",
     eyebrow: "انتهى زمن الاختيار الزائف",
     headline: "سريع. صحيح. ميسور. اختر الثلاثة.",
     description: "كان الحصول على ذكاء مطاعم حقيقي يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
@@ -56,6 +59,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     ],
   },
   fr: {
+    costMetric: "Gratuit pour démarrer",
     eyebrow: "LE FAUX DILEMME, C'EST FINI",
     headline: "Rapide. Juste. Abordable. Prenez les trois.",
     description: "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
@@ -69,6 +73,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     ],
   },
   es: {
+    costMetric: "Gratis para empezar",
     eyebrow: "SE ACABÓ LA FALSA DISYUNTIVA",
     headline: "Rápido. Correcto. Asequible. Elige los tres.",
     description: "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
@@ -120,18 +125,18 @@ const trianglePoints: { x: number; y: number; labelX: number; labelY: number; an
   { x: 190, y: 380, labelX: 175, labelY: 416, anchor: "end"    }, // Cost (bottom-left)
 ];
 
-// Centroid — the convergence point where the three tradeoffs collapse into one.
+// Centroid - the convergence point where the three tradeoffs collapse into one.
 const CENTROID = {
   x: (trianglePoints[0].x + trianglePoints[1].x + trianglePoints[2].x) / 3,
   y: (trianglePoints[0].y + trianglePoints[1].y + trianglePoints[2].y) / 3,
 };
 
 // Edges, in orbit order. Segment k of the tracer's orbit IS edge k, so an edge
-// brightens as the ball crosses it and stays lit until the loop resets — by the
+// brightens as the ball crosses it and stays lit until the loop resets - by the
 // end of one orbit all three glow at once ("pick all three", not two).
 const EDGES: [number, number][] = [[0, 1], [1, 2], [2, 0]];
 
-// Per-vertex headline metric (language-neutral — number + universal unit, so no
+// Per-vertex headline metric (language-neutral - number + universal unit, so no
 // new localized strings). Each maps to a real proof point: Speed = signal→action
 // time, Quality = governed data models, Cost = free to start (Report Lite).
 const VERTEX_METRICS: { value: number; prefix: string; suffix: string; count: boolean }[] = [
@@ -165,10 +170,10 @@ function ballAt(progress: number) {
 
 /**
  * Headline metric that counts up each time its vertex becomes active. Lives in
- * the side card (not on the triangle — r7 removed vertex stat-callouts because
+ * the side card (not on the triangle - r7 removed vertex stat-callouts because
  * they collided with the active-vertex glow). Reduced-motion → static value.
  */
-function VertexStat({ idx, reduceMotion }: { idx: number; reduceMotion: boolean }) {
+function VertexStat({ idx, reduceMotion, text }: { idx: number; reduceMotion: boolean; text?: string }) {
   const m = VERTEX_METRICS[idx];
   const [display, setDisplay] = useState(m.value);
   useEffect(() => {
@@ -184,6 +189,15 @@ function VertexStat({ idx, reduceMotion }: { idx: number; reduceMotion: boolean 
     });
     return () => controls.stop();
   }, [idx, m, reduceMotion]);
+  // A localized phrase (Cost = "Free to start") reads honestly where a bare "$0"
+  // would misleadingly imply the whole product is free. Sized down as it's words.
+  if (text) {
+    return (
+      <span className="font-display text-2xl sm:text-[28px] font-bold leading-tight text-[var(--warm-coral)] text-right">
+        {text}
+      </span>
+    );
+  }
   return (
     <span className="font-display text-3xl sm:text-4xl font-bold leading-none text-[var(--warm-coral)] tabular-nums">
       {m.prefix}
@@ -199,19 +213,24 @@ export function SectionSpeedQualityCost() {
   const { theme } = useTheme();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
-  // Theme-aware SVG fills: white pops on dark, navy on light.
-  const isLight = theme === "light";
+  const vertices = copy.vertices;
+  const [activeIdx, setActiveIdx] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [entranceDone, setEntranceDone] = useState(false);
+
+  // Theme-aware SVG fills: white pops on dark, navy on light. The theme is only
+  // known after hydration (ThemeProvider reads localStorage on the first client
+  // render, but SSR rendered the dark default), so gate the light fills behind the
+  // canonical `mounted` flag - otherwise the SVG fill attributes mismatch the
+  // server HTML in light mode (a hydration warning). First render = dark = SSR.
+  const isLight = mounted && theme === "light";
   const vertexFillActive = isLight ? "#0F172A" : "#FFFFFF";
   const vertexFillIdle = isLight ? "rgba(15,23,42,0.45)" : "rgba(255,255,255,0.45)";
   const vertexDotFillIdle = isLight ? "rgba(15,23,42,0.55)" : "rgba(255,255,255,0.55)";
   const tracerBallFill = isLight ? "#FF5C4D" : "#FFFFFF";
   const triHighlightStrong = isLight ? "rgba(255,92,77,0.18)" : "rgba(255,255,255,0.25)";
   const triHighlightMid = isLight ? "rgba(255,92,77,0.05)" : "rgba(255,255,255,0.06)";
-  const vertices = copy.vertices;
-  const [activeIdx, setActiveIdx] = useState(0);
-  const [paused, setPaused] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const [entranceDone, setEntranceDone] = useState(false);
 
   // In-view trigger - entrance fires when section reaches the viewport.
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -249,7 +268,7 @@ export function SectionSpeedQualityCost() {
   const ballY = useTransform(progress, (p) => ballAt(p).y);
 
   // Progressive edge accumulation (#2): edge k brightens as the ball crosses
-  // segment k, then stays lit until the loop wraps — all three end lit.
+  // segment k, then stays lit until the loop wraps - all three end lit.
   const edge0Opacity = useTransform(progress, (p) => (p >= 1 ? 0.95 : p >= 0 ? 0.22 + 0.73 * Math.min(1, p) : 0.16));
   const edge1Opacity = useTransform(progress, (p) => (p >= 2 ? 0.95 : p >= 1 ? 0.22 + 0.73 * (p - 1) : 0.16));
   const edge2Opacity = useTransform(progress, (p) => (p >= 2 ? 0.22 + 0.73 * (p - 2) : 0.16));
@@ -298,7 +317,7 @@ export function SectionSpeedQualityCost() {
     lastProgressRef.current = latest;
   });
 
-  // Autonomous drift (#4) — subtle ±1.3° Z-sway, mirror-looping. Honors reduced motion.
+  // Autonomous drift (#4) - subtle ±1.3° Z-sway, mirror-looping. Honors reduced motion.
   useEffect(() => {
     if (!useAnimated) return;
     const c = animate(driftZ, [-1.3, 1.3], {
@@ -539,7 +558,7 @@ export function SectionSpeedQualityCost() {
                 }}
               />
 
-              {/* Progressive edge accumulation (#2) — each edge brightens as the
+              {/* Progressive edge accumulation (#2) - each edge brightens as the
                   tracer crosses it and stays lit through the loop. */}
               {useAnimated && EDGES.map(([a, c], k) => (
                 <motion.line
@@ -555,7 +574,7 @@ export function SectionSpeedQualityCost() {
                 />
               ))}
 
-              {/* Convergence (#1) — inward beams + glowing core where the three
+              {/* Convergence (#1) - inward beams + glowing core where the three
                   tradeoffs collapse into one. Beams re-key each loop wrap. */}
               {useAnimated && (
                 <g>
@@ -634,7 +653,7 @@ export function SectionSpeedQualityCost() {
               {/* Tracer ball - position bound to motion value, perfect sync with activeIdx */}
               {useAnimated && (
                 <>
-                  {/* Comet trail (#3) — energy streak behind the ball */}
+                  {/* Comet trail (#3) - energy streak behind the ball */}
                   <motion.line
                     stroke="#FF8473"
                     strokeWidth="6"
@@ -795,7 +814,7 @@ export function SectionSpeedQualityCost() {
                       <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mt-1.5">
                         {vertices[activeIdx].label}
                       </div>
-                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} />
+                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} text={activeIdx === 2 ? copy.costMetric : undefined} />
                     </div>
                     <h3 className="section-h3 mb-4">
                       {vertices[activeIdx].headline}

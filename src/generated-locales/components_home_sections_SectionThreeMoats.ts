@@ -3,10 +3,10 @@
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
-      "eyebrow": "AU-DELÀ DES TABLEAUX DE BORD",
-      "headline": "Les trois couches dont les restaurants ont besoin au-delà des tableaux de bord.",
+      "eyebrow": "AU-DELÀ DU RAPPORT",
+      "headline": "Trois signaux qui décident de la suite.",
       "description": "Les tableaux de bord montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel en direct, les signaux du marché et les comparaisons entre pairs dont les restaurants ont besoin pour décider de la suite.",
-      "layerWord": "Couche",
+      "layerWord": "Signal",
       "layers": [
         {
           "title": "Intelligence de service en direct",
@@ -24,10 +24,10 @@ export const generatedLocalCopy = {
       "closing": "Pas un autre tableau de bord. Une couche d'intelligence pour les restaurants."
     },
     "es": {
-      "eyebrow": "MÁS ALLÁ DE LOS DASHBOARDS",
-      "headline": "Las tres capas que los restaurantes necesitan más allá de los dashboards.",
+      "eyebrow": "MÁS ALLÁ DEL INFORME",
+      "headline": "Tres señales que deciden qué sigue.",
       "description": "Los dashboards muestran lo que ya ha pasado. Sundae añade el contexto operativo en vivo, las señales del mercado y las comparaciones con pares que los restaurantes necesitan para decidir qué hacer a continuación.",
-      "layerWord": "Capa",
+      "layerWord": "Señal",
       "layers": [
         {
           "title": "Inteligencia de turno en vivo",
@@ -45,10 +45,10 @@ export const generatedLocalCopy = {
       "closing": "No otro dashboard. Una capa de inteligencia para restaurantes."
     },
     "de": {
-      "eyebrow": "ÜBER DASHBOARDS HINAUS",
-      "headline": "Die drei Ebenen, die Restaurants über Dashboards hinaus benötigen.",
+      "eyebrow": "JENSEITS DES REPORTS",
+      "headline": "Drei Signale, die über das Nächste entscheiden.",
       "description": "Dashboards zeigen, was passiert ist. Sundae ergänzt den Live-Betriebskontext, Marktsignale und Peer-Vergleiche, die Restaurants brauchen, um zu entscheiden, was als Nächstes zu tun ist.",
-      "layerWord": "Ebene",
+      "layerWord": "Signal",
       "layers": [
         {
           "title": "Live-Schichtintelligenz",
@@ -66,10 +66,10 @@ export const generatedLocalCopy = {
       "closing": "Nicht ein weiteres Dashboard. Eine Restaurant-Intelligenz-Ebene."
     },
     "ar": {
-      "eyebrow": "ما وراء لوحات المعلومات",
-      "headline": "الطبقات الثلاث التي تحتاجها المطاعم ما وراء لوحات المعلومات.",
+      "eyebrow": "ما وراء التقرير",
+      "headline": "ثلاث إشارات تُحدد خطوتك التالية.",
       "description": "تظهر لوحات المعلومات ما حدث. تضيف Sundae السياق التشغيلي المباشر، وإشارات السوق، ومقارنات الأقران التي تحتاجها المطاعم لتحديد ما يجب القيام به بعد ذلك.",
-      "layerWord": "طبقة",
+      "layerWord": "إشارة",
       "layers": [
         {
           "title": "ذكاء الوردية المباشر",
@@ -87,10 +87,10 @@ export const generatedLocalCopy = {
       "closing": "ليس لوحة معلومات أخرى. طبقة ذكاء للمطاعم."
     },
     "nl": {
-      "eyebrow": "VERDER DAN DASHBOARDS",
-      "headline": "De drie lagen die restaurants nodig hebben naast dashboards.",
+      "eyebrow": "VOORBIJ HET RAPPORT",
+      "headline": "Drie signalen die bepalen wat nu komt.",
       "description": "Dashboards tonen wat er is gebeurd. Sundae voegt de live operationele context, marktsignalen en peervergelijkingen toe die restaurants nodig hebben om te beslissen wat ze daarna moeten doen.",
-      "layerWord": "Laag",
+      "layerWord": "Signaal",
       "layers": [
         {
           "title": "Live shift-intelligentie",
@@ -108,10 +108,10 @@ export const generatedLocalCopy = {
       "closing": "Niet nog een dashboard. Een restaurant intelligentielaag."
     },
     "pt": {
-      "eyebrow": "ALÉM DOS DASHBOARDS",
-      "headline": "As três camadas que os restaurantes precisam além dos dashboards.",
+      "eyebrow": "ALÉM DO RELATÓRIO",
+      "headline": "Três sinais que decidem o próximo passo.",
       "description": "Dashboards mostram o que aconteceu. A Sundae adiciona o contexto operacional ao vivo, sinais de mercado e comparações com pares que os restaurantes precisam para decidir o que fazer a seguir.",
-      "layerWord": "Camada",
+      "layerWord": "Sinal",
       "layers": [
         {
           "title": "Inteligência de turno ao vivo",
@@ -129,10 +129,10 @@ export const generatedLocalCopy = {
       "closing": "Não é apenas mais um dashboard. Uma camada de inteligência para restaurantes."
     },
     "it": {
-      "eyebrow": "OLTRE I DASHBOARD",
-      "headline": "I tre livelli di cui i ristoranti hanno bisogno oltre ai dashboard.",
+      "eyebrow": "OLTRE IL REPORT",
+      "headline": "Tre segnali che decidono la prossima mossa.",
       "description": "I dashboard mostrano cosa è successo. Sundae aggiunge il contesto operativo in tempo reale, i segnali di mercato e i confronti tra pari di cui i ristoranti hanno bisogno per decidere cosa fare dopo.",
-      "layerWord": "Livello",
+      "layerWord": "Segnale",
       "layers": [
         {
           "title": "Intelligenza di turno in tempo reale",
@@ -150,10 +150,10 @@ export const generatedLocalCopy = {
       "closing": "Non un altro dashboard. Un livello di intelligenza per ristoranti."
     },
     "hi": {
-      "eyebrow": "डैशबोर्ड से परे",
-      "headline": "रेस्टोरेंट्स को डैशबोर्ड से परे तीन परतों की आवश्यकता है।",
+      "eyebrow": "रिपोर्ट से आगे",
+      "headline": "तीन संकेत जो तय करते हैं आगे क्या।",
       "description": "डैशबोर्ड यह दिखाते हैं कि क्या हुआ। Sundae लाइव ऑपरेटिंग संदर्भ, मार्केट सिग्नल और समकक्ष तुलना जोड़ता है, जो रेस्टोरेंट्स को यह तय करने में मदद करता है कि अगला कदम क्या होना चाहिए।",
-      "layerWord": "परत",
+      "layerWord": "संकेत",
       "layers": [
         {
           "title": "लाइव शिफ्ट इंटेलिजेंस",
@@ -171,10 +171,10 @@ export const generatedLocalCopy = {
       "closing": "एक और डैशबोर्ड नहीं। एक रेस्टोरेंट इंटेलिजेंस परत।"
     },
     "ur": {
-      "eyebrow": "ڈیش بورڈز سے آگے",
-      "headline": "ریستورانوں کو ڈیش بورڈز سے آگے تین تہوں کی ضرورت ہے۔",
+      "eyebrow": "رپورٹ سے آگے",
+      "headline": "تین اشارے جو طے کرتے ہیں اگلا قدم۔",
       "description": "ڈیش بورڈز یہ دکھاتے ہیں کہ کیا ہوا۔ Sundae لائیو آپریٹنگ سیاق و سباق، مارکیٹ کے اشارے، اور ہم مرتبہ موازنہ شامل کرتا ہے جن کی ریستورانوں کو یہ فیصلہ کرنے کے لیے ضرورت ہوتی ہے کہ اگلا قدم کیا ہو۔",
-      "layerWord": "تہ",
+      "layerWord": "اشارہ",
       "layers": [
         {
           "title": "لائیو شفٹ ذہانت",
@@ -192,10 +192,10 @@ export const generatedLocalCopy = {
       "closing": "ایک اور ڈیش بورڈ نہیں۔ ایک ریستوران کی ذہانت کی تہہ۔"
     },
     "pl": {
-      "eyebrow": "POZA PULPITAMI",
-      "headline": "Trzy warstwy, których restauracje potrzebują poza pulpitami.",
+      "eyebrow": "POZA RAPORTEM",
+      "headline": "Trzy sygnały, które decydują, co dalej.",
       "description": "Pulpity pokazują, co się wydarzyło. Sundae dodaje kontekst operacyjny na żywo, sygnały rynkowe i porównania z podobnymi restauracjami, których lokale potrzebują, aby zdecydować, co robić dalej.",
-      "layerWord": "Warstwa",
+      "layerWord": "Sygnał",
       "layers": [
         {
           "title": "Inteligencja zmiany na żywo",
@@ -213,10 +213,10 @@ export const generatedLocalCopy = {
       "closing": "Nie kolejny pulpit. Warstwa inteligencji restauracyjnej."
     },
     "tr": {
-      "eyebrow": "GÖSTERGE PANELLERİNİN ÖTESİNDE",
-      "headline": "Restoranların gösterge panellerinin ötesinde ihtiyaç duyduğu üç katman.",
+      "eyebrow": "RAPORUN ÖTESİNDE",
+      "headline": "Sonraki adımı belirleyen üç sinyal.",
       "description": "Gösterge panelleri ne olduğunu gösterir. Sundae, restoranların bir sonraki adımı belirlemesi için ihtiyaç duyduğu canlı işletme bağlamını, piyasa sinyallerini ve akran karşılaştırmalarını ekler.",
-      "layerWord": "Katman",
+      "layerWord": "Sinyal",
       "layers": [
         {
           "title": "Canlı vardiya zekası",
@@ -234,10 +234,10 @@ export const generatedLocalCopy = {
       "closing": "Başka bir gösterge paneli değil. Bir restoran zeka katmanı."
     },
     "zh-Hans": {
-      "eyebrow": "超越仪表板",
-      "headline": "餐厅在仪表板之外所需的三个层级。",
+      "eyebrow": "超越报表",
+      "headline": "决定下一步的三个信号。",
       "description": "仪表板只显示已经发生的事。Sundae 补上实时运营情境、市场信号和同行对比，帮助餐厅决定下一步该怎么做。",
-      "layerWord": "层级",
+      "layerWord": "信号",
       "layers": [
         {
           "title": "实时班次智能",
@@ -255,10 +255,10 @@ export const generatedLocalCopy = {
       "closing": "不是另一个仪表板，而是一个餐厅智能层。"
     },
     "ja": {
-      "eyebrow": "ダッシュボードを超えて",
-      "headline": "レストランがダッシュボードの先に必要な3つの層。",
+      "eyebrow": "レポートの先へ",
+      "headline": "次の一手を決める3つのシグナル。",
       "description": "ダッシュボードは何が起こったかを示します。Sundaeは、次に何をすべきかを決定するために必要なライブオペレーションコンテキスト、市場シグナル、ピア比較を追加します。",
-      "layerWord": "層",
+      "layerWord": "シグナル",
       "layers": [
         {
           "title": "ライブシフトインテリジェンス",
@@ -276,10 +276,10 @@ export const generatedLocalCopy = {
       "closing": "ただのダッシュボードではありません。レストランインテリジェンス層です。"
     },
     "id": {
-      "eyebrow": "LEBIH DARI DASHBOARD",
-      "headline": "Tiga lapisan yang dibutuhkan restoran di luar dashboard.",
+      "eyebrow": "MELAMPAUI LAPORAN",
+      "headline": "Tiga sinyal yang menentukan langkah berikutnya.",
       "description": "Dashboard menunjukkan apa yang terjadi. Sundae menambahkan konteks operasional langsung, sinyal pasar, dan perbandingan rekan yang dibutuhkan restoran untuk memutuskan langkah selanjutnya.",
-      "layerWord": "Lapisan",
+      "layerWord": "Sinyal",
       "layers": [
         {
           "title": "Intelijen shift langsung",
@@ -297,10 +297,10 @@ export const generatedLocalCopy = {
       "closing": "Bukan sekadar dashboard lain. Sebuah lapisan intelijen restoran."
     },
     "vi": {
-      "eyebrow": "VƯỢT XA DASHBOARD",
-      "headline": "Ba lớp mà nhà hàng cần đến, vượt ra ngoài dashboard.",
+      "eyebrow": "VƯỢT KHỎI BÁO CÁO",
+      "headline": "Ba tín hiệu quyết định bước tiếp theo.",
       "description": "Dashboard cho thấy những gì đã xảy ra. Sundae bổ sung bối cảnh vận hành trực tiếp, tín hiệu thị trường và so sánh với các nhà hàng tương đương mà nhà hàng cần để quyết định bước tiếp theo.",
-      "layerWord": "Lớp",
+      "layerWord": "Tín hiệu",
       "layers": [
         {
           "title": "Thông tin ca làm việc trực tiếp",
@@ -318,10 +318,10 @@ export const generatedLocalCopy = {
       "closing": "Không phải thêm một dashboard nữa. Mà là một lớp thông tin dành cho nhà hàng."
     },
     "ro": {
-      "eyebrow": "DINCOLO DE TABLOURI",
-      "headline": "Cele trei straturi de care restaurantele au nevoie dincolo de tablouri.",
+      "eyebrow": "DINCOLO DE RAPORT",
+      "headline": "Trei semnale care decid pasul următor.",
       "description": "Tablourile arată ce s-a întâmplat. Sundae adaugă contextul operațional live, semnalele de piață și comparațiile cu colegii de care restaurantele au nevoie pentru a decide ce să facă în continuare.",
-      "layerWord": "Strat",
+      "layerWord": "Semnal",
       "layers": [
         {
           "title": "Inteligență live a turei",
@@ -339,10 +339,10 @@ export const generatedLocalCopy = {
       "closing": "Nu un alt tablou. Un strat de inteligență pentru restaurante."
     },
     "ko": {
-      "eyebrow": "대시보드를 넘어서",
-      "headline": "레스토랑이 대시보드 외에 필요한 세 가지 레이어.",
+      "eyebrow": "리포트 너머",
+      "headline": "다음 수를 결정하는 세 가지 신호.",
       "description": "대시보드는 이미 일어난 일을 보여줍니다. Sundae는 레스토랑이 다음에 무엇을 해야 할지 결정하는 데 필요한 실시간 운영 맥락, 시장 신호, 동종 매장 비교를 더해 줍니다.",
-      "layerWord": "레이어",
+      "layerWord": "신호",
       "layers": [
         {
           "title": "실시간 근무 인텔리전스",
@@ -360,10 +360,10 @@ export const generatedLocalCopy = {
       "closing": "또 다른 대시보드가 아닙니다. 레스토랑 인텔리전스 레이어입니다."
     },
     "sv": {
-      "eyebrow": "BORTOM DASHBOARDER",
-      "headline": "De tre lag som restauranger behöver bortom dashboards.",
+      "eyebrow": "BORTOM RAPPORTEN",
+      "headline": "Tre signaler som avgör nästa steg.",
       "description": "Dashboards visar vad som har hänt. Sundae lägger till det operativa realtidssammanhanget, marknadssignaler och jämförelser med likvärdiga restauranger som restauranger behöver för att besluta vad de ska göra härnäst.",
-      "layerWord": "Lager",
+      "layerWord": "Signal",
       "layers": [
         {
           "title": "Skiftintelligens i realtid",
@@ -381,10 +381,10 @@ export const generatedLocalCopy = {
       "closing": "Inte ännu en dashboard. Ett lager av restaurangintelligens."
     },
     "bn": {
-      "eyebrow": "ড্যাশবোর্ডের বাইরে",
-      "headline": "ড্যাশবোর্ডের বাইরে রেস্তোরাঁগুলোর জন্য তিনটি স্তর।",
+      "eyebrow": "রিপোর্টের বাইরে",
+      "headline": "পরের পদক্ষেপ ঠিক করে এমন তিন সংকেত।",
       "description": "ড্যাশবোর্ডগুলি কী ঘটেছে তা দেখায়। Sundae লাইভ অপারেটিং প্রসঙ্গ, বাজার সংকেত এবং সহকর্মীদের তুলনা যোগ করে যা রেস্তোরাঁগুলিকে পরবর্তী পদক্ষেপ নির্ধারণ করতে সহায়তা করে।",
-      "layerWord": "স্তর",
+      "layerWord": "সংকেত",
       "layers": [
         {
           "title": "লাইভ শিফট বুদ্ধিমত্তা",
@@ -402,10 +402,10 @@ export const generatedLocalCopy = {
       "closing": "আরেকটি ড্যাশবোর্ড নয়। একটি রেস্তোরাঁ বুদ্ধিমত্তা স্তর।"
     },
     "th": {
-      "eyebrow": "เหนือแดชบอร์ด",
-      "headline": "สามชั้นที่ร้านอาหารต้องการเหนือแดชบอร์ด",
+      "eyebrow": "เหนือกว่ารายงาน",
+      "headline": "สามสัญญาณที่กำหนดก้าวต่อไป",
       "description": "แดชบอร์ดแสดงสิ่งที่เกิดขึ้นไปแล้ว แต่ Sundae เพิ่มบริบทการดำเนินงานแบบสด สัญญาณตลาด และการเปรียบเทียบกับร้านที่เทียบเคียงกัน ซึ่งร้านอาหารต้องใช้ในการตัดสินใจว่าจะทำอะไรต่อไป",
-      "layerWord": "ชั้น",
+      "layerWord": "สัญญาณ",
       "layers": [
         {
           "title": "ข้อมูลเชิงลึกของกะแบบสด",
@@ -423,10 +423,10 @@ export const generatedLocalCopy = {
       "closing": "ไม่ใช่แดชบอร์ดอีกตัวหนึ่ง แต่เป็นชั้นข้อมูลเชิงลึกสำหรับร้านอาหาร"
     },
     "ms": {
-      "eyebrow": "MELEBIHI DASHBOARD",
-      "headline": "Tiga lapisan yang diperlukan restoran selain dashboard.",
+      "eyebrow": "MELANGKAUI LAPORAN",
+      "headline": "Tiga isyarat yang menentukan langkah seterusnya.",
       "description": "Dashboard menunjukkan apa yang telah berlaku. Sundae menambah konteks operasi langsung, isyarat pasaran, dan perbandingan rakan yang diperlukan restoran untuk memutuskan apa yang perlu dilakukan seterusnya.",
-      "layerWord": "Lapisan",
+      "layerWord": "Isyarat",
       "layers": [
         {
           "title": "Intelijen syif langsung",

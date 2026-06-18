@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_Section4DScene'
@@ -322,13 +323,15 @@ export function Section4DScene() {
  */
 function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header: string; labels: LocalizedFourD["visualLabels"] }) {
   return (
-    <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(255,92,77,0.12)]">
+    // Product-UI mockup: pinned to dark tokens in BOTH site themes (.mockup-dark)
+    // so its light/white content never washes out in light mode.
+    <div className="mockup-dark rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(255,92,77,0.12)]">
       <div className="flex items-center gap-2 px-4 py-2.5 bg-black/40 border-b border-[var(--border-default)]">
         <span className="w-[10px] h-[10px] rounded-full bg-[#FF5F57]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#28C840]" />
-        <span className="ml-3 text-[11px] text-[var(--text-muted)] font-medium">{header}</span>
-        <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">{labels.illustrative}</span>
+        <span className="ml-3 text-[12px] text-[var(--text-muted)] font-medium">{header}</span>
+        <span className="ml-auto text-[10px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">{labels.illustrative}</span>
       </div>
 
       {/* Fixed "screen": all four panels are ALWAYS present (constant height),
@@ -337,10 +340,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
       <div className="p-5 space-y-4">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
-            <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+            <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
               {labels.coversChart}
             </div>
-            <span className="text-[10px] text-[#FF5450] font-mono">{labels.coversTrend}</span>
+            <span className="text-[12px] text-[#FF5450] font-mono">{labels.coversTrend}</span>
           </div>
           <svg viewBox="0 0 320 80" className="w-full h-20" preserveAspectRatio="none" aria-hidden>
             <path
@@ -360,36 +363,38 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
 
         {/* Dimension 2: forecast variance */}
         <motion.div
-          animate={{ opacity: activeIdx >= 1 ? 1 : 0.12 }}
+          initial={false}
+          animate={{ opacity: activeIdx >= 1 ? 1 : 0.4 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
         >
           <div className="flex items-center justify-between mb-2">
-            <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+            <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
               {labels.planVsActual}
             </div>
-            <span className="text-[10px] text-[#FF5450] font-mono">
+            <span className="text-[12px] text-[#FF5450] font-mono">
               {labels.planVsActualVariance}
             </span>
           </div>
-          <div className="grid grid-cols-2 gap-3 text-[12px]">
+          <div className="grid grid-cols-2 gap-3 text-[14px]">
             <div>
-              <div className="text-[10px] text-[var(--text-muted)]">{labels.forecast}</div>
+              <div className="text-[12px] text-[var(--text-muted)]">{labels.forecast}</div>
               <div className="font-mono text-[var(--text-secondary)]">$18,620</div>
             </div>
             <div>
-              <div className="text-[10px] text-[var(--text-muted)]">{labels.actualRunRate}</div>
+              <div className="text-[12px] text-[var(--text-muted)]">{labels.actualRunRate}</div>
               <div className="font-mono text-[#FF5450]">$14,820</div>
             </div>
           </div>
-          <div className="mt-3 pt-3 border-t border-[var(--border-default)] text-[11px] text-[var(--text-muted)]">
+          <div className="mt-3 pt-3 border-t border-[var(--border-default)] text-[13px] text-[var(--text-muted)]">
             {labels.laborNote}
           </div>
         </motion.div>
 
         {/* Dimension 3: market context */}
         <motion.div
-          animate={{ opacity: activeIdx >= 2 ? 1 : 0.12 }}
+          initial={false}
+          animate={{ opacity: activeIdx >= 2 ? 1 : 0.4 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{
@@ -398,11 +403,11 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
           }}
         >
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-[10px] uppercase tracking-wider font-bold text-[#F59E0B]">
+            <span className="text-[12px] uppercase tracking-wider font-bold text-[#F59E0B]">
               {labels.watchtower}
             </span>
           </div>
-          <ul className="text-[12px] text-[var(--text-secondary)] space-y-1">
+          <ul className="text-[14px] text-[var(--text-secondary)] space-y-1">
             <li>
               <span className="text-[var(--text-muted)]">·</span> {labels.watchtowerItem1}
             </li>
@@ -414,7 +419,8 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
 
         {/* Dimension 4: Sundae Coach recommendation */}
         <motion.div
-          animate={{ opacity: activeIdx >= 3 ? 1 : 0.12 }}
+          initial={false}
+          animate={{ opacity: activeIdx >= 3 ? 1 : 0.4 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{
@@ -422,10 +428,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
             borderLeft: "3px solid #FF5C4D",
           }}
         >
-          <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
+          <div className="text-[12px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
             {labels.coach}
           </div>
-          <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
+          <p className="text-[15px] text-[var(--text-primary)] leading-relaxed">
             {labels.coachBody}{" "}
             <span className="text-[var(--text-secondary)]">
               {labels.coachProjection}

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef, useState, type FormEvent } from 'react';
+import React, { useRef, useState, useEffect, type FormEvent } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
@@ -244,11 +244,23 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     message: defaultMessage,
   });
   const [honeypot, setHoneypot] = useState('');
+  // Keep the prefilled message in sync with the locale's default. defaultMessage
+  // is server-computed per locale; on a client-side locale switch (setLocale +
+  // router.refresh) the labels/placeholder update but useState's initial value
+  // would otherwise leave the message box stuck in the previous language. Resync
+  // it whenever the localized default changes - unless the visitor has typed.
+  const [messageEdited, setMessageEdited] = useState(false);
   const [errors, setErrors] = useState<FormErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [apiError, setApiError] = useState('');
   const fieldRefs = useRef<Record<string, HTMLDivElement | null>>({});
+
+  useEffect(() => {
+    if (!messageEdited) {
+      setFormData((prev) => ({ ...prev, message: defaultMessage }));
+    }
+  }, [defaultMessage, messageEdited]);
 
   const countryToDialCode = COUNTRY_CODES.reduce((acc, country) => {
     acc[country.name] = country.code;
@@ -259,6 +271,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
+    if (name === 'message') setMessageEdited(true);
     setFormData((prev) => ({ ...prev, [name]: value }));
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: '' }));
@@ -363,6 +376,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         throw new Error(data.error || copy.genericError);
       }
       setIsSuccess(true);
+      setMessageEdited(false);
       setFormData({
         name: '',
         email: '',
@@ -403,7 +417,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     `w-full rounded-lg border-2 px-4 py-3 outline-none transition-all duration-200 focus:ring-2 ${
       hasError
         ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
-        : 'border-white/[0.1] bg-[var(--surface-subtle)] text-[var(--text-primary)] focus:border-blue-600 focus:ring-blue-600/20'
+        : 'border-white/[0.1] bg-[var(--surface-subtle)] text-[var(--text-primary)] focus:border-[#FF5C4D] focus:ring-[#FF5C4D]/20'
     }`;
 
   return (
@@ -481,8 +495,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
                 className={inputClass(!!errors.countryCode || !!errors.phone)}
               >
                 {COUNTRY_CODES.map((country) => (
-                  <option key={country.iso} value={country.code}>
-                    {country.code} {country.name}
+                  <option key={country.iso} value={country.code} title={`${country.name} (${country.code})`}>
+                    {country.iso} {country.code}
                   </option>
                 ))}
               </select>

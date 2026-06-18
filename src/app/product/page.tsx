@@ -303,7 +303,7 @@ export default function ProductPage() {
                       <div className="space-y-2 mb-4">
                         {pillar.features.map((cap) => (
                           <div key={cap} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
-                            <span className="text-cyan-400 flex-shrink-0 mt-0.5">✓</span>
+                            <span className="text-[#FF5C4D] flex-shrink-0 mt-0.5">✓</span>
                             <span>{cap}</span>
                           </div>
                         ))}

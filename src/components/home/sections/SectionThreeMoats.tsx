@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { motion } from "framer-motion";
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionThreeMoats'
@@ -12,7 +13,7 @@ import { generatedLocalCopy } from '@/generated-locales/components_home_sections
  */
 function PulseThumb() {
   return (
-    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
+    <div className="mockup-dark rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
       <div className="flex items-center justify-between mb-2">
         <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
           Lunch pacing
@@ -46,7 +47,7 @@ function PulseThumb() {
 
 function WatchtowerThumb() {
   return (
-    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden space-y-1.5">
+    <div className="mockup-dark rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden space-y-1.5">
       <div className="flex items-center justify-between mb-1">
         <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
           Active signals
@@ -74,7 +75,7 @@ function WatchtowerThumb() {
 
 function BenchmarkThumb() {
   return (
-    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
+    <div className="mockup-dark rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
       <div className="flex items-center justify-between mb-2">
         <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
           RevPASH index
@@ -149,10 +150,10 @@ type LocalizedMoats = {
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
   en: {
-    eyebrow: "BEYOND DASHBOARDS",
-    headline: "The three layers restaurants need beyond dashboards.",
-    description: "Dashboards show what happened. Sundae adds the live operating context, market signals, and peer comparisons restaurants need to decide what to do next.",
-    layerWord: "Layer",
+    eyebrow: "BEYOND THE REPORT",
+    headline: "Three signals that decide what’s next.",
+    description: "Reports show what happened. Sundae adds the live operating context, market signals, and peer comparisons you need to decide what to do next.",
+    layerWord: "Signal",
     layers: [
       { title: "Live shift intelligence", why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running - not after the weekly recap." },
       { title: "External market intelligence", why: "Add the market around each restaurant: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know." },
@@ -161,10 +162,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     closing: "Not another dashboard. A restaurant intelligence layer.",
   },
   ar: {
-    eyebrow: "وراء اللوحات",
-    headline: "الطبقات الثلاث التي تحتاجها المطاعم وراء اللوحات.",
+    eyebrow: "ما وراء التقرير",
+    headline: "ثلاث إشارات تُحدد خطوتك التالية.",
     description: "اللوحات تُظهر ما حدث. Sundae يضيف السياق التشغيلي الحي وإشارات السوق ومقارنات النظراء التي تحتاجها المطاعم لتقرر ما تفعله تالياً.",
-    layerWord: "طبقة",
+    layerWord: "إشارة",
     layers: [
       { title: "ذكاء وردية حي", why: "شاهد الوتيرة والعمالة والتسرب والتعويضات والتجاوزات وحالات الخدمة الشاذة وهي تجري - لا بعد الملخص الأسبوعي." },
       { title: "ذكاء سوق خارجي", why: "أضف السوق حول كل مطعم: الطقس والأحداث وتسعير المنافسين وحركة المرور وإحاطات يومية لا يعرفها BI طبيعياً." },
@@ -173,10 +174,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     closing: "ليست لوحة أخرى. طبقة ذكاء للمطاعم.",
   },
   fr: {
-    eyebrow: "AU-DELÀ DES DASHBOARDS",
-    headline: "Les trois couches dont les restaurants ont besoin au-delà des dashboards.",
+    eyebrow: "AU-DELÀ DU RAPPORT",
+    headline: "Trois signaux qui décident de la suite.",
     description: "Les dashboards montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel live, les signaux marché et les comparaisons pairs dont les restaurants ont besoin pour décider quoi faire ensuite.",
-    layerWord: "Couche",
+    layerWord: "Signal",
     layers: [
       { title: "Intelligence service live", why: "Voyez rythme, main-d'œuvre, fuites, comps, annulations et exceptions pendant que le service tourne - pas après le récap de la semaine." },
       { title: "Intelligence marché externe", why: "Ajoutez le marché autour de chaque restaurant : météo, événements, prix concurrents, signaux fréquentation et briefings quotidiens que votre BI ne connaît pas." },
@@ -185,10 +186,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     closing: "Pas un autre dashboard. Une couche d'intelligence restaurant.",
   },
   es: {
-    eyebrow: "MÁS ALLÁ DE LOS DASHBOARDS",
-    headline: "Las tres capas que los restaurantes necesitan más allá de los dashboards.",
+    eyebrow: "MÁS ALLÁ DEL INFORME",
+    headline: "Tres señales que deciden qué sigue.",
     description: "Los dashboards muestran lo que pasó. Sundae añade el contexto operativo en vivo, las señales de mercado y las comparaciones con pares que los restaurantes necesitan para decidir qué hacer a continuación.",
-    layerWord: "Capa",
+    layerWord: "Señal",
     layers: [
       { title: "Inteligencia de turno en vivo", why: "Ve ritmo, personal, fugas, comps, anulaciones y excepciones de servicio mientras el turno corre - no después del recap semanal." },
       { title: "Inteligencia de mercado externo", why: "Añade el mercado alrededor de cada restaurante: clima, eventos, precios de competencia, señales de tráfico y briefings diarios que tu BI no conoce." },

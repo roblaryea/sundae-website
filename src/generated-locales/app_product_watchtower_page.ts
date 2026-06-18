@@ -600,7 +600,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Sehen Sie Ihr Unternehmen im vollständigen Marktkontext. Lassen Sie sich nie wieder unvorbereitet überraschen.",
       "ctaAdd": "Zu Ihrem Plan hinzufügen",
       "ctaDemo": "Sehen Sie es in Aktion",
-      "ctaSales": "Sprechen Sie mit dem Vertrieb"
+      "ctaSales": "Sprechen Sie mit dem Vertrieb",
+      "heroTitle": "10+ Wettbewerber täglich verfolgt. Null manuelle Recherche."
     },
     "nl": {
       "heroBadge": "Watchtower - Externe-intelligentie-engine",
@@ -750,7 +751,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Bekijk uw bedrijf in de volledige marktcontext. Laat u nooit meer verrassen.",
       "ctaAdd": "Voeg toe aan uw abonnement",
       "ctaDemo": "Zie het in actie",
-      "ctaSales": "Praat met Verkoop"
+      "ctaSales": "Praat met Verkoop",
+      "heroTitle": "10+ concurrenten dagelijks gevolgd. Nul handmatig onderzoek."
     },
     "pt": {
       "heroBadge": "Watchtower - Mecanismo de Inteligência Externa",
@@ -900,7 +902,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Veja o seu negócio em todo o contexto do mercado. Nunca mais seja pego desprevenido.",
       "ctaAdd": "Adicione ao seu plano",
       "ctaDemo": "Veja em ação",
-      "ctaSales": "Fale com Vendas"
+      "ctaSales": "Fale com Vendas",
+      "heroTitle": "Mais de 10 concorrentes monitorados diariamente. Zero pesquisa manual."
     },
     "ur": {
       "heroBadge": "Watchtower - ایکسٹرنل انٹیلی جنس انجن",
@@ -1050,7 +1053,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "اپنے کاروبار کو پورے بازار کے تناظر میں دیکھیں۔ دوبارہ کبھی بھی چوکس نہ ہوں۔",
       "ctaAdd": "اپنے منصوبے میں شامل کریں۔",
       "ctaDemo": "اسے ایکشن میں دیکھیں",
-      "ctaSales": "سیلز سے بات کریں۔"
+      "ctaSales": "سیلز سے بات کریں۔",
+      "heroTitle": "10+ حریف روزانہ ٹریک۔ صفر دستی تحقیق۔"
     },
     "hi": {
       "heroBadge": "Watchtower - बाहरी खुफिया इंजन",
@@ -1200,7 +1204,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "अपने व्यवसाय को पूर्ण बाज़ार संदर्भ में देखें। फिर कभी भी सतर्क न रहें।",
       "ctaAdd": "अपनी योजना में जोड़ें",
       "ctaDemo": "इसे क्रियान्वित रूप में देखें",
-      "ctaSales": "सेल्स से बात करें"
+      "ctaSales": "सेल्स से बात करें",
+      "heroTitle": "10+ प्रतिस्पर्धी रोज़ ट्रैक। शून्य मैनुअल रिसर्च।"
     },
     "tr": {
       "heroBadge": "Watchtower - Dış İstihbarat Motoru",
@@ -1350,7 +1355,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "İşletmenizi tam pazar bağlamında görün. Bir daha asla hazırlıksız yakalanmayın.",
       "ctaAdd": "Planınıza Ekle",
       "ctaDemo": "İş Başında Görün",
-      "ctaSales": "Satışla Konuşun"
+      "ctaSales": "Satışla Konuşun",
+      "heroTitle": "Günlük 10+ rakip takibi. Sıfır manuel araştırma."
     },
     "it": {
       "heroBadge": "Watchtower - Motore di intelligence esterna",
@@ -1500,7 +1506,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Osserva la tua attività nell'intero contesto del mercato. Non farti mai più prendere alla sprovvista.",
       "ctaAdd": "Aggiungi al tuo piano",
       "ctaDemo": "Guardalo in azione",
-      "ctaSales": "Parla con le vendite"
+      "ctaSales": "Parla con le vendite",
+      "heroTitle": "Oltre 10 concorrenti monitorati ogni giorno. Zero ricerca manuale."
     },
     "pl": {
       "heroBadge": "Watchtower - Silnik analizy zewnętrznej",
@@ -1650,7 +1657,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Zobacz swoją firmę w pełnym kontekście rynkowym. Nigdy więcej nie daj się zaskoczyć.",
       "ctaAdd": "Dodaj do swojego planu",
       "ctaDemo": "Zobacz to w akcji",
-      "ctaSales": "Porozmawiaj z działem sprzedaży"
+      "ctaSales": "Porozmawiaj z działem sprzedaży",
+      "heroTitle": "10+ konkurentów śledzonych codziennie. Zero ręcznych analiz."
     },
     "zh-Hans": {
       "heroBadge": "Watchtower--外部情报引擎",
@@ -1800,7 +1808,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "在完整的市场背景下了解您的业务。再也不会措手不及。",
       "ctaAdd": "添加到您的计划",
       "ctaDemo": "查看实际效果",
-      "ctaSales": "与销售人员交谈"
+      "ctaSales": "与销售人员交谈",
+      "heroTitle": "每日追踪 10+ 竞争对手，零人工调研。"
     },
     "ja": {
       "heroBadge": "Watchtower - 外部インテリジェンス エンジン",
@@ -1950,7 +1959,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "完全な市場コンテキストでビジネスを確認します。もう二度と不意を突かれることはありません。",
       "ctaAdd": "プランに追加",
       "ctaDemo": "実際に見てみる",
-      "ctaSales": "営業担当者に相談する"
+      "ctaSales": "営業担当者に相談する",
+      "heroTitle": "10社以上の競合を毎日追跡。手作業の調査はゼロ。"
     },
     "ko": {
       "heroBadge": "Watchtower - 외부 인텔리전스 엔진",
@@ -2100,7 +2110,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "전체 시장 상황에서 귀하의 비즈니스를 살펴보세요. 다시는 방심하지 마십시오.",
       "ctaAdd": "계획에 추가",
       "ctaDemo": "실제 사례 보기",
-      "ctaSales": "영업팀에 문의하세요"
+      "ctaSales": "영업팀에 문의하세요",
+      "heroTitle": "매일 10개 이상 경쟁사 추적. 수작업 조사 제로."
     },
     "id": {
       "heroBadge": "Watchtower - Mesin Intelijen Eksternal",
@@ -2250,7 +2261,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Lihat bisnis Anda dalam konteks pasar penuh. Jangan pernah lengah lagi.",
       "ctaAdd": "Tambahkan ke Paket Anda",
       "ctaDemo": "Lihat Aksinya",
-      "ctaSales": "Bicaralah dengan Penjualan"
+      "ctaSales": "Bicaralah dengan Penjualan",
+      "heroTitle": "10+ pesaing dilacak harian. Nol riset manual."
     },
     "ro": {
       "heroBadge": "Watchtower - Motor de inteligență externă",
@@ -2400,7 +2412,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Vedeți-vă afacerea în contextul complet al pieței. Să nu mai fiți niciodată luat prin surprindere.",
       "ctaAdd": "Adaugă la planul tău",
       "ctaDemo": "Vedeți-l în acțiune",
-      "ctaSales": "Vorbește cu vânzări"
+      "ctaSales": "Vorbește cu vânzări",
+      "heroTitle": "Peste 10 concurenți urmăriți zilnic. Zero cercetare manuală."
     },
     "vi": {
       "heroBadge": "Watchtower - Công cụ thông tin bên ngoài",
@@ -2550,7 +2563,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Xem doanh nghiệp của bạn trong bối cảnh thị trường đầy đủ. Đừng bao giờ mất cảnh giác nữa.",
       "ctaAdd": "Thêm vào kế hoạch của bạn",
       "ctaDemo": "Xem nó trong hành động",
-      "ctaSales": "Nói chuyện với bộ phận bán hàng"
+      "ctaSales": "Nói chuyện với bộ phận bán hàng",
+      "heroTitle": "Theo dõi hơn 10 đối thủ mỗi ngày. Không nghiên cứu thủ công."
     },
     "sv": {
       "heroBadge": "Watchtower - Motor för extern intelligens",
@@ -2700,7 +2714,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Se ditt företag i hela marknadssammanhang. Bli aldrig överraskad igen.",
       "ctaAdd": "Lägg till i din plan",
       "ctaDemo": "Se det i aktion",
-      "ctaSales": "Prata med försäljningen"
+      "ctaSales": "Prata med försäljningen",
+      "heroTitle": "10+ konkurrenter följs dagligen. Noll manuell research."
     },
     "bn": {
       "heroBadge": "Watchtower - বাহ্যিক বুদ্ধিমত্তা ইঞ্জিন",
@@ -2850,7 +2865,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "সম্পূর্ণ বাজার প্রসঙ্গে আপনার ব্যবসা দেখুন। আর কখনও অপ্রস্তুত অবস্থায় ধরা পড়বেন না।",
       "ctaAdd": "আপনার পরিকল্পনা যোগ করুন",
       "ctaDemo": "এটি কাজ করতে দেখুন",
-      "ctaSales": "সেলসের সাথে কথা বলুন"
+      "ctaSales": "সেলসের সাথে কথা বলুন",
+      "heroTitle": "প্রতিদিন ১০+ প্রতিযোগী ট্র্যাক। শূন্য ম্যানুয়াল গবেষণা।"
     },
     "th": {
       "heroBadge": "Watchtower - กลไกข่าวกรองภายนอก",
@@ -3000,7 +3016,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "ดูธุรกิจของคุณในบริบทของตลาดเต็มรูปแบบ อย่าตั้งตัวไม่ทันอีกต่อไป",
       "ctaAdd": "เพิ่มในแผนของคุณ",
       "ctaDemo": "ดูการใช้งานจริง",
-      "ctaSales": "พูดคุยกับฝ่ายขาย"
+      "ctaSales": "พูดคุยกับฝ่ายขาย",
+      "heroTitle": "ติดตามคู่แข่ง 10+ รายทุกวัน ไม่ต้องค้นคว้าด้วยมือ"
     },
     "ms": {
       "heroBadge": "Watchtower - Enjin Risikan Luaran",
@@ -3150,7 +3167,8 @@ export const generatedLocalCopy = {
       "ctaDescription": "Lihat perniagaan anda dalam konteks pasaran penuh. Jangan sekali-kali tertangkap basah lagi.",
       "ctaAdd": "Tambahkan pada Pelan Anda",
       "ctaDemo": "Lihat Ia dalam Tindakan",
-      "ctaSales": "Bercakap dengan Jualan"
+      "ctaSales": "Bercakap dengan Jualan",
+      "heroTitle": "10+ pesaing dijejak setiap hari. Sifar penyelidikan manual."
     }
   }
 } as const

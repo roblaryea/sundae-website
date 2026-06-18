@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@600,700&f[]=clash-display@600,700&display=swap" rel="stylesheet">
+<style>
+  :root{--deep:#15110D;--cream:#F6F1E8;--amber:#F6C66B;--caramel:#E9A24A;--rose:#F7A088;--coral:#FF5C4D;--cherry:#E03E48;--clay:#B23A1E}
+  body{margin:0;background:var(--deep);color:#FBF8F4;font-family:'General Sans',sans-serif;padding:40px}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:26px;margin:0 0 6px}
+  .sub{color:rgba(251,248,244,.5);font-size:13px;margin-bottom:34px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:28px;text-align:center}
+  .card .lbl{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--coral);font-weight:600;margin-bottom:18px}
+  .big{height:170px;display:flex;align-items:center;justify-content:center}
+  .favs{display:flex;gap:14px;align-items:center;justify-content:center;margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.07)}
+  .favtile{background:#0e0b08;border-radius:6px;padding:5px;display:flex}
+  .favtile.lt{background:var(--cream)}
+  .favsize{font-size:10px;color:rgba(251,248,244,.4);margin-top:6px}
+  .desc{font-size:12.5px;color:rgba(251,248,244,.55);margin-top:14px;line-height:1.5}
+
+  /* striped-S via background-clip:text */
+  .stripeS{font-weight:700;font-size:150px;line-height:1;letter-spacing:-.04em;
+    background:linear-gradient(180deg,#F6F1E8 0 15%,#F6C66B 15% 31%,#E9A24A 31% 47%,#F7A088 47% 62%,#FF5C4D 62% 78%,#E03E48 78% 91%,#B23A1E 91% 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;position:relative;display:inline-block}
+  .stripeS.fr{font-family:'Fraunces',serif}
+  .stripeS.cl{font-family:'Clash Display',sans-serif}
+  .stripeS.gs{font-family:'General Sans',sans-serif}
+  .cherryTop{position:absolute;top:-6px;right:-14px}
+
+  /* tile */
+  .tile{width:150px;height:150px;border-radius:34px;display:flex;align-items:center;justify-content:center;position:relative;
+    background:linear-gradient(165deg,#F6C66B 0%,#E9A24A 28%,#FF5C4D 64%,#E03E48 100%);box-shadow:0 20px 50px -20px rgba(224,62,72,.6)}
+  .tile .tS{font-family:'Clash Display',sans-serif;font-weight:700;font-size:104px;color:var(--cream);line-height:1}
+  .tile.solid{background:var(--clay)}
+  .tile .ch{position:absolute;top:14px;right:16px}
+</style></head><body>
+  <h1>Sundae — “S” mark exploration</h1>
+  <div class="sub">Layered S + cherry. Each shown large + at favicon size (28 / 18 px) on dark and light.</div>
+  <div class="grid" id="grid"></div>
+
+<script>
+function cherry(w,c){c=c||'#E03E48';return `<svg width="${w}" viewBox="0 0 64 80" fill="none"><path d="M34 46 C34 27 47 21 56 11" stroke="#B23A1E" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="28" cy="56" r="20" fill="${c}"/><ellipse cx="21" cy="49" rx="6" ry="4" fill="rgba(255,255,255,.45)"/></svg>`;}
+
+// favicon-grade simplified S svg (solid, for small sizes) with cherry
+function faviconS(s, bg, sColor, withTile){
+  const tile = withTile ? `<rect width="64" height="64" rx="15" fill="${bg}"/>` : '';
+  return `<svg width="${s}" height="${s}" viewBox="0 0 64 64">${tile}
+    <text x="32" y="46" font-family="'Clash Display',sans-serif" font-weight="700" font-size="48" fill="${sColor}" text-anchor="middle">S</text>
+    <circle cx="48" cy="17" r="6.5" fill="#E03E48"/><path d="M48 11 C48 7 51 6 54 3" stroke="#7d1f12" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>`;
+}
+
+const cards = [
+  {lbl:'A · striped S (Fraunces)', big:`<div class="stripeS fr">S<span class="cherryTop">${cherry(38)}</span></div>`,
+   favs:[faviconS(30,'#15110D','#FF5C4D',false), faviconS(20,'#15110D','#FF5C4D',false)],
+   desc:'Editorial serif S, layered stripes, cherry on top terminal. Beautiful large — stripes vanish small (favicon falls back to solid coral + cherry).'},
+  {lbl:'B · striped S (Clash Display)', big:`<div class="stripeS cl">S<span class="cherryTop">${cherry(38)}</span></div>`,
+   favs:[faviconS(30,'#15110D','#FF5C4D',false), faviconS(20,'#15110D','#FF5C4D',false)],
+   desc:'Bold geometric S — more modern/techy, heavier strokes hold the layers a touch better. Cherry as the dot on top.'},
+  {lbl:'C · gradient tile + cream S', big:`<div class="tile"><span class="tS">S</span><span class="ch">${cherry(26)}</span></div>`,
+   favs:[`<div style="display:flex"><svg width="30" height="30" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="url(#tg)"/><defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6C66B"/><stop offset=".6" stop-color="#FF5C4D"/><stop offset="1" stop-color="#E03E48"/></linearGradient></defs><text x="32" y="45" font-family="'Clash Display'" font-weight="700" font-size="46" fill="#F6F1E8" text-anchor="middle">S</text><circle cx="49" cy="16" r="6" fill="#7d1f12"/></svg></div>`,
+          `<svg width="20" height="20" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="url(#tg2)"/><defs><linearGradient id="tg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6C66B"/><stop offset=".6" stop-color="#FF5C4D"/><stop offset="1" stop-color="#E03E48"/></linearGradient></defs><text x="32" y="45" font-family="'Clash Display'" font-weight="700" font-size="46" fill="#F6F1E8" text-anchor="middle">S</text></svg>`],
+   desc:'App-icon style. The warm gradient IS the layers (as a field); cream S; cherry accent. Most premium + legible at favicon size — reads at 16px.'},
+  {lbl:'D · layered tile (bands + S knockout)', big:`<div class="tile" id="tileD"><span class="tS">S</span><span class="ch">${cherry(26)}</span></div>`,
+   favs:[], desc:'Same tile but the background is discrete strata bands (visible layers) instead of a smooth gradient — layers explicit, still favicon-legible.'},
+  {lbl:'E · cherry-only (the jewel)', big:`${cherry(120)}`,
+   favs:[`<div class="favtile">${cherry(28)}</div>`,`<div class="favtile">${cherry(18)}</div>`],
+   desc:'No letter at all — the cherry as a polished jewel is the favicon. Most distinctive, but reads as “fruit” without the wordmark nearby.'},
+  {lbl:'F · monogram lockup', big:`<div style="display:flex;align-items:center;gap:14px"><div class="tile" style="width:96px;height:96px;border-radius:22px"><span class="tS" style="font-size:66px">S</span><span class="ch" style="top:9px;right:10px">${cherry(18)}</span></div><span style="font-family:'Fraunces';font-weight:500;font-size:46px">sundae</span></div>`,
+   favs:[], desc:'How the tile sits next to the wordmark — the lockup.'},
+];
+
+const grid = document.getElementById('grid');
+cards.forEach(c=>{
+  const favHtml = c.favs.length ? `<div class="favs">${c.favs.map((f,i)=>`<div style="text-align:center"><div class="favtile" style="background:transparent;padding:0">${f}</div><div class="favsize">${i?'18px':'28px'}</div></div>`).join('')}</div>` : '';
+  grid.insertAdjacentHTML('beforeend', `<div class="card"><div class="lbl">${c.lbl}</div><div class="big">${c.big}</div>${favHtml}<div class="desc">${c.desc}</div></div>`);
+});
+// tile D: striped background
+const td=document.getElementById('tileD');
+if(td){td.style.background='linear-gradient(180deg,#F6F1E8 0 15%,#F6C66B 15% 32%,#E9A24A 32% 50%,#F7A088 50% 66%,#FF5C4D 66% 84%,#E03E48 84% 100%)';}
+</script>
+</body></html>

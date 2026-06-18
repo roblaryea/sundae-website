@@ -10,6 +10,7 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
@@ -19,7 +20,7 @@ const localizedCoreCopy = {
   en: {
     hero: {
       badge: "Sundae Core",
-      title: <>Real-Time Operations. Not End-of-Day Reports.</>,
+      title: 'Real-Time Operations. Not End-of-Day Reports.',
       description:
         "Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift - not after the damage is done.",
       primary: "Explore Core Tiers",
@@ -99,7 +100,7 @@ const localizedCoreCopy = {
     },
     integrations: {
       heading: "Connect All Your Systems",
-      description: "Core connects across 12 data domains with 250+ vendor integrations.",
+      description: "Core connects across 12 data domains with 200+ vendor integrations.",
       items: [
         { category: "POS Systems", examples: "Oracle MICROS Simphony, Square, Toast, Clover, plus direct database connectors", icon: "integration" as SundaeIconName },
         { category: "Labor/Workforce", examples: "7shifts, HotSchedules, Deputy", icon: "benchmarking" as SundaeIconName },
@@ -860,11 +861,7 @@ export default function CoreProductPage() {
       <SectionProductGallery
         productFilter="/core"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE CORE IN ACTION",
-          title: "Every Core surface, in detail.",
-          subtitle: "Real operator-workspace surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("core", locale)}
       />
 
       {/* CTA */}

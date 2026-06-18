@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "各门店单独上报，却被合并评判",
-          "description": "F&B 的 P&L 汇总为一行。其背后的故事——宴会、IRD 与大堂——就此消失。",
+          "description": "F&B 的 P&L 汇总为一行。其背后的故事 - 宴会、IRD 与大堂 - 就此消失。",
           "icon": "operators"
         },
         {

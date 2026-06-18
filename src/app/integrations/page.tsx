@@ -1,3 +1,5 @@
+"use client";
+
 import { SundaeIcon } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
@@ -8,51 +10,51 @@ import { generatedLocalCopy } from '@/generated-locales/app_integrations_page'
 const integrationCategoriesByLocale = {
   en: [
     { category: "Point of Sale (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (Direct DB)", "SQL Server / Azure SQL (Direct DB)"] },
-    { category: "Labor & Scheduling", icon: "labor" as const, status: "Upcoming" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "Inventory & Availability", icon: "inventory" as const, status: "Upcoming" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "Purchasing & Procurement", icon: "purchasing" as const, status: "Upcoming" as const, systems: ["MarketMan"] },
-    { category: "Delivery & 3PD", icon: "speed" as const, status: "Upcoming" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "Reservations & Guest Flow", icon: "reservations" as const, status: "Upcoming" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "Marketing & Campaigns", icon: "marketing" as const, status: "Upcoming" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "Guest Experience & Feedback", icon: "conversation" as const, status: "Upcoming" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "Guest CRM", icon: "operators" as const, status: "Upcoming" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "Accounting & Finance", icon: "finance" as const, status: "Upcoming" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
+    { category: "Labor & Scheduling", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
+    { category: "Inventory & Availability", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
+    { category: "Purchasing & Procurement", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
+    { category: "Delivery & 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
+    { category: "Reservations & Guest Flow", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
+    { category: "Marketing & Campaigns", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
+    { category: "Guest Experience & Feedback", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
+    { category: "Guest CRM", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
+    { category: "Accounting & Finance", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
   ],
   ar: [
     { category: "نقاط البيع (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB مباشرة)", "SQL Server / Azure SQL (DB مباشرة)"] },
-    { category: "العمالة والجدولة", icon: "labor" as const, status: "Upcoming" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "المخزون والتوفر", icon: "inventory" as const, status: "Upcoming" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "المشتريات والشراء", icon: "purchasing" as const, status: "Upcoming" as const, systems: ["MarketMan"] },
-    { category: "التوصيل والمنصات", icon: "speed" as const, status: "Upcoming" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "الحجوزات ومسار الضيوف", icon: "reservations" as const, status: "Upcoming" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "التسويق والحملات", icon: "marketing" as const, status: "Upcoming" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "تجربة الضيف والتقييم", icon: "conversation" as const, status: "Upcoming" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "CRM الضيوف", icon: "operators" as const, status: "Upcoming" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "المحاسبة والمالية", icon: "finance" as const, status: "Upcoming" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
+    { category: "العمالة والجدولة", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
+    { category: "المخزون والتوفر", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
+    { category: "المشتريات والشراء", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
+    { category: "التوصيل والمنصات", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
+    { category: "الحجوزات ومسار الضيوف", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
+    { category: "التسويق والحملات", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
+    { category: "تجربة الضيف والتقييم", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
+    { category: "CRM الضيوف", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
+    { category: "المحاسبة والمالية", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
   ],
   fr: [
     { category: "Point de vente (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB directe)", "SQL Server / Azure SQL (DB directe)"] },
-    { category: "Main-d'oeuvre et planning", icon: "labor" as const, status: "Upcoming" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "Stock et disponibilite", icon: "inventory" as const, status: "Upcoming" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "Achats et approvisionnement", icon: "purchasing" as const, status: "Upcoming" as const, systems: ["MarketMan"] },
-    { category: "Livraison et 3PD", icon: "speed" as const, status: "Upcoming" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "Reservations et flux clients", icon: "reservations" as const, status: "Upcoming" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "Marketing et campagnes", icon: "marketing" as const, status: "Upcoming" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "Experience et retours clients", icon: "conversation" as const, status: "Upcoming" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "CRM clients", icon: "operators" as const, status: "Upcoming" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "Comptabilite et finance", icon: "finance" as const, status: "Upcoming" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
+    { category: "Main-d'oeuvre et planning", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
+    { category: "Stock et disponibilite", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
+    { category: "Achats et approvisionnement", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
+    { category: "Livraison et 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
+    { category: "Reservations et flux clients", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
+    { category: "Marketing et campagnes", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
+    { category: "Experience et retours clients", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
+    { category: "CRM clients", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
+    { category: "Comptabilite et finance", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
   ],
   es: [
     { category: "Punto de venta (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB directa)", "SQL Server / Azure SQL (DB directa)"] },
-    { category: "Labor y programacion", icon: "labor" as const, status: "Upcoming" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
-    { category: "Inventario y disponibilidad", icon: "inventory" as const, status: "Upcoming" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
-    { category: "Compras y aprovisionamiento", icon: "purchasing" as const, status: "Upcoming" as const, systems: ["MarketMan"] },
-    { category: "Delivery y 3PD", icon: "speed" as const, status: "Upcoming" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
-    { category: "Reservas y flujo de invitados", icon: "reservations" as const, status: "Upcoming" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
-    { category: "Marketing y campañas", icon: "marketing" as const, status: "Upcoming" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
-    { category: "Experiencia y feedback", icon: "conversation" as const, status: "Upcoming" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
-    { category: "CRM de invitados", icon: "operators" as const, status: "Upcoming" as const, systems: ["SevenRooms", "Toast", "Olo"] },
-    { category: "Contabilidad y finanzas", icon: "finance" as const, status: "Upcoming" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
+    { category: "Labor y programacion", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
+    { category: "Inventario y disponibilidad", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
+    { category: "Compras y aprovisionamiento", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
+    { category: "Delivery y 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
+    { category: "Reservas y flujo de invitados", icon: "reservations" as const, status: "Live" as const, systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] },
+    { category: "Marketing y campañas", icon: "marketing" as const, status: "Live" as const, systems: ["Meta (Facebook / Instagram)", "Google Ads", "Mailchimp"] },
+    { category: "Experiencia y feedback", icon: "conversation" as const, status: "Live" as const, systems: ["Google Reviews", "Yelp", "Zendesk"] },
+    { category: "CRM de invitados", icon: "operators" as const, status: "Live" as const, systems: ["SevenRooms", "Toast", "Olo"] },
+    { category: "Contabilidad y finanzas", icon: "finance" as const, status: "Live" as const, systems: ["QuickBooks", "Xero", "Sage", "FreshBooks"] },
   ],
 } as const;
 
@@ -157,19 +159,6 @@ export default function IntegrationsPage() {
             ))}
           </div>
 
-          <div className="mt-12 p-6 bg-[var(--surface-faint)] rounded-xl border border-[var(--border-default)] text-center">
-            <div className="flex items-center justify-center gap-6 mb-3">
-              <div className="flex items-center gap-2">
-                <span className="w-3 h-3 rounded-full bg-green-500" />
-                <span className="text-sm font-medium text-[var(--text-secondary)]">{copy.liveNow}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-3 h-3 rounded-full bg-amber-500" />
-                <span className="text-sm font-medium text-[var(--text-secondary)]">{copy.roadmap}</span>
-              </div>
-            </div>
-            <p className="text-xs text-[var(--text-muted)]">{copy.roadmapDescription}</p>
-          </div>
         </div>
       </section>
 

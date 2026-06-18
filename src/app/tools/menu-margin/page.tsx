@@ -243,13 +243,13 @@ export default function MenuMarginCalculator() {
             <CardContent className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.sellingLabel}</label>
-                <input type="number" value={sellingPrice} onChange={(e) => setSellingPrice(e.target.value)} placeholder="e.g., 18.50" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent" min="0" step="0.01" />
+                <input type="number" value={sellingPrice} onChange={(e) => setSellingPrice(e.target.value)} placeholder="e.g., 18.50" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-400 focus:border-transparent" min="0" step="0.01" />
                 <p className="text-xs text-[var(--text-muted)] mt-1">{copy.form.sellingHint}</p>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.ingredientLabel}</label>
-                <input type="number" value={ingredientCost} onChange={(e) => setIngredientCost(e.target.value)} placeholder="e.g., 6.20" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent" min="0" step="0.01" />
+                <input type="number" value={ingredientCost} onChange={(e) => setIngredientCost(e.target.value)} placeholder="e.g., 6.20" className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-stone-400 focus:border-transparent" min="0" step="0.01" />
                 <p className="text-xs text-[var(--text-muted)] mt-1">{copy.form.ingredientHint}</p>
               </div>
 

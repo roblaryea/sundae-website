@@ -317,7 +317,7 @@ export const generatedLocalCopy = {
               "signal": "توقعات الأمطار الجمعة مساءا",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -676,7 +676,7 @@ export const generatedLocalCopy = {
               "signal": "Pronóstico de lluvia viernes por la tarde",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -1035,7 +1035,7 @@ export const generatedLocalCopy = {
               "signal": "Previsão de chuva para sexta-feira à tarde",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -1394,7 +1394,7 @@ export const generatedLocalCopy = {
               "signal": "Regenvorhersage für Fr. PM",
               "impact": "-8%",
               "confidence": "72 %",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -1753,7 +1753,7 @@ export const generatedLocalCopy = {
               "signal": "Prévisions de pluie ven. PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -2112,7 +2112,7 @@ export const generatedLocalCopy = {
               "signal": "Regenvoorspelling vr PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -2471,7 +2471,7 @@ export const generatedLocalCopy = {
               "signal": "جمعہ PM بارش کی پیش گوئی",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -2830,7 +2830,7 @@ export const generatedLocalCopy = {
               "signal": "Previsioni di pioggia ven PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -3189,7 +3189,7 @@ export const generatedLocalCopy = {
               "signal": "शुक्रवार अपराह्न बारिश का पूर्वानुमान",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -3548,7 +3548,7 @@ export const generatedLocalCopy = {
               "signal": "Cum PM yağmur tahmini",
               "impact": "-8%",
               "confidence": "%72",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -3907,7 +3907,7 @@ export const generatedLocalCopy = {
               "signal": "预计周五下午有雨",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -4266,7 +4266,7 @@ export const generatedLocalCopy = {
               "signal": "Prognoza deszczu piątek po południu",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -4625,7 +4625,7 @@ export const generatedLocalCopy = {
               "signal": "雨予報金曜日午後",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -4984,7 +4984,7 @@ export const generatedLocalCopy = {
               "signal": "Dự báo mưa vào tối Thứ Sáu",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -5343,7 +5343,7 @@ export const generatedLocalCopy = {
               "signal": "Prakiraan hujan Jumat PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -5702,7 +5702,7 @@ export const generatedLocalCopy = {
               "signal": "Regnprognos fredag PM",
               "impact": "-8 %",
               "confidence": "72 %",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -6061,7 +6061,7 @@ export const generatedLocalCopy = {
               "signal": "비 예보 금요일 오후",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -6420,7 +6420,7 @@ export const generatedLocalCopy = {
               "signal": "Prognoza de ploaie Vin PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -6779,7 +6779,7 @@ export const generatedLocalCopy = {
               "signal": "বৃষ্টির পূর্বাভাস শুক্র PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -7138,7 +7138,7 @@ export const generatedLocalCopy = {
               "signal": "Ramalan hujan Jumaat PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",
@@ -7497,7 +7497,7 @@ export const generatedLocalCopy = {
               "signal": "พยากรณ์ฝน ศ. PM",
               "impact": "-8%",
               "confidence": "72%",
-              "color": "bg-sky-400"
+              "color": "bg-[#5E9E96]"
             },
             {
               "type": "Event",

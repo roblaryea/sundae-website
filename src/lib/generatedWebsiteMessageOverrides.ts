@@ -152,8 +152,8 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Schließen Sie sich Betreibern an, die vom Raten zum Wissen gewechselt sind.",
       "bookDemo": "Demo buchen",
       "startFree": "Kostenlos starten mit Report",
-      "brandDescription": "Entscheidungsintelligenz für Restaurants. Verstehen Sie die Leistung, prognostizieren Sie das Nächste und handeln Sie mit Zuversicht.",
-      "global": "Global",
+      "brandDescription": "Die Entscheidungsintelligenz-Plattform für Betreiber mit mehreren Standorten. See every layer. Act in time.",
+      "global": "Weltweit",
       "allCurrencies": "Alle Währungen",
       "sectionProduct": "Produkt",
       "sectionSolutions": "Lösungen",
@@ -195,29 +195,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Entscheidungsintelligenz-Plattform",
       "titleTop": "Entscheidungsintelligenz",
-      "titleBottom": "für Restaurants",
-      "description": "Ihre Daten leben in 5-10 getrennten Systemen. Ihr Team entscheidet aus dem Bauch heraus, während täglich Margen verloren gehen.",
-      "descriptionEmphasis": "Das ist der Kompromiss, den Sundae beseitigt.",
+      "titleBottom": "für Restaurants mit mehreren Standorten",
+      "subheadline": "Wissen Sie, was sich geändert hat, warum, und was zu tun ist, bevor die Schicht endet.",
+      "description": "Ihre Daten liegen verstreut in Kasse, Lieferung, Reservierungen, Personal, Lager und Finanzen.",
+      "descriptionEmphasis": "Sundae führt sie in einer lebendigen Betriebsebene zusammen.",
       "narrativeAnchor": "Von Reporting-Lücken zu operativem Tempo.",
-      "startFree": "Kostenlos starten",
+      "startFree": "Demo buchen",
       "bookDemo": "Demo buchen",
       "noCard": "Keine Kreditkarte erforderlich",
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligenz-Ebenen"
+          "label": "Intelligenz-Layer, eine Wahrheit"
         },
         {
           "number": "18",
-          "label": "Entscheidungen, keine Dashboards"
+          "label": "Heute aufgezeigte Entscheidungen"
         },
         {
           "number": "12",
-          "label": "Vereinte Datenbereiche"
+          "label": "Vereinheitlichte Betriebsbereiche"
         },
         {
           "number": "5 min",
-          "label": "Aktualisierung pro Schicht"
+          "label": "Vom Signal zur Handlung"
         }
       ],
       "problem": {
@@ -286,13 +287,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "Konversationelle KI",
-            "description": "Fragen Sie Ihre Daten alles. Antworten in Sekunden auf Web, Slack oder Teams.",
+            "description": "Fragen Sie Ihre Daten alles - quellenbelegte Antworten in Sekunden auf Web, WhatsApp, Telegram, Slack oder Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Prädiktive Intelligenz",
-            "description": "14-90 Tage Vorhersagen, Was-wäre-wenn-Szenarien, Executive-Briefings, die sich selbst korrigieren.",
+            "description": "Prognosen, Budgets und Was-wäre-wenn-Szenarien - mit Executive-Briefings, die sich selbst korrigieren.",
             "href": "/product/foresight"
           }
         ]
@@ -445,7 +446,7 @@ export const generatedWebsiteMessageOverrides = {
         "tableHeaders": [
           "Kellner",
           "Verkäufe",
-          "Upsell %",
+          "Upselling %",
           "Durchschnittlicher Check"
         ],
         "tableRows": [
@@ -776,7 +777,7 @@ export const generatedWebsiteMessageOverrides = {
       "pillars": [
         {
           "name": "Pulse",
-          "description": "Intraday operations monitor",
+          "description": "Intraday operationele monitor",
           "href": "/product/pulse"
         },
         {
@@ -850,7 +851,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/solutions/finance-teams"
         },
         {
-          "name": "Marketing Teams",
+          "name": "Marketingteams",
           "href": "/solutions/marketing-teams"
         },
         {
@@ -894,7 +895,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Sluit je aan bij operators die zijn overgestapt van gokken naar weten.",
       "bookDemo": "Boek een Demo",
       "startFree": "Begin Gratis met Report",
-      "brandDescription": "Beslissingsintelligentie voor restaurants. Begrijp prestaties, voorspel wat er komt, en handel met vertrouwen.",
+      "brandDescription": "Het decision intelligence-platform voor operators met meerdere vestigingen. See every layer. Act in time.",
       "global": "Globaal",
       "allCurrencies": "Alle valuta",
       "sectionProduct": "Product",
@@ -937,29 +938,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Beslissingsintelligentieplatform",
       "titleTop": "Beslissingsintelligentie",
-      "titleBottom": "voor Restaurants",
-      "description": "Jouw data bevindt zich in 5-10 losse systemen. Jouw team beslist op gevoel terwijl de marges dagelijks leeglopen.",
-      "descriptionEmphasis": "Dat is de afweging die Sundae wegneemt.",
+      "titleBottom": "voor restaurants met meerdere vestigingen",
+      "subheadline": "Weet wat er veranderde, waarom, en wat je moet doen voordat de dienst voorbij is.",
+      "description": "Je data zit verspreid over kassa, bezorging, reserveringen, personeel, voorraad en financiën.",
+      "descriptionEmphasis": "Sundae brengt alles samen in een live operationele laag.",
       "narrativeAnchor": "Van rapportagevertraging naar operationeel tempo.",
-      "startFree": "Begin Gratis",
+      "startFree": "Demo boeken",
       "bookDemo": "Boek een demo",
       "noCard": "Geen creditcard vereist",
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligentielagen"
+          "label": "Intelligentielagen, één waarheid"
         },
         {
           "number": "18",
-          "label": "Beslissingen, geen dashboards"
+          "label": "Vandaag aangereikte beslissingen"
         },
         {
           "number": "12",
-          "label": "Gegevensdomeinen verenigd"
+          "label": "Verenigde operationele domeinen"
         },
         {
           "number": "5 min",
-          "label": "Ververst per shift"
+          "label": "Van signaal naar actie"
         }
       ],
       "problem": {
@@ -1027,14 +1029,14 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Sundae Intelligence",
-            "subtitle": "Conversational AI",
-            "description": "Vraag je data alles. Antwoorden in seconden op web, Slack of Teams.",
+            "subtitle": "Conversationele AI",
+            "description": "Vraag uw data alles - bronvermelde antwoorden in seconden via web, WhatsApp, Telegram, Slack of Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Voorspellende intelligentie",
-            "description": "14-90 dagen voorspellingen, wat-als scenario's, executive briefings die zichzelf corrigeren.",
+            "description": "Prognoses, budgetten en wat-als-scenario's - met executive-briefings die zichzelf corrigeren.",
             "href": "/product/foresight"
           }
         ]
@@ -1341,7 +1343,7 @@ export const generatedWebsiteMessageOverrides = {
           "enterpriseBadge": "Enterprise",
           "enterpriseTitle": "Aangepaste Prijzen voor Grote Operaties",
           "enterpriseDescription": "Voor groepen op meerdere locaties die white-label, SSO, aangepaste SLA's en toegewijde ondersteuning nodig hebben. 50.000+ intelligentie-tegoeden inbegrepen.",
-          "addOnsTitle": "Add-Ons",
+          "addOnsTitle": "Add-ons",
           "addOnsDescription": "Breid je plan uit met gespecialiseerde intelligentiemodules.",
           "detailedPricingCalculator": "Bekijk Gedetailleerde Prijscalculator",
           "faqTitle": "Veelgestelde Vragen",
@@ -1421,7 +1423,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integraties - Sundae",
           "badge": "Integraties",
           "title": "Verbind Alles. Vereenvoudig Jouw Gegevens.",
-          "description": "Sundae integreert met 250+ restaurantsystemen op het gebied van POS, arbeid, inventaris, reserveringen, levering en meer.",
+          "description": "Sundae integreert met 200+ restaurantsystemen op het gebied van POS, arbeid, inventaris, reserveringen, levering en meer.",
           "process": [
             {
               "step": "1",
@@ -1636,7 +1638,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Junte-se aos operadores que passaram de adivinhações para certezas.",
       "bookDemo": "Agendar uma Demonstração",
       "startFree": "Comece Grátis com o Report",
-      "brandDescription": "Inteligência de decisão para restaurantes. Entenda o desempenho, preveja o que vem a seguir e aja com confiança.",
+      "brandDescription": "A plataforma de decision intelligence para operadores multiunidade. See every layer. Act in time.",
       "global": "Global",
       "allCurrencies": "Todas as moedas",
       "sectionProduct": "Produto",
@@ -1679,29 +1681,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Plataforma de Inteligência de Decisão",
       "titleTop": "Inteligência de Decisão",
-      "titleBottom": "para Restaurantes",
-      "description": "Seus dados estão em 5 a 10 sistemas desconectados. Sua equipe decide por intuição enquanto as margens vazam diariamente.",
-      "descriptionEmphasis": "Esse é o compromisso que a Sundae elimina.",
+      "titleBottom": "para restaurantes multiunidade",
+      "subheadline": "Saiba o que mudou, por que mudou e o que fazer antes do turno terminar.",
+      "description": "Seus dados ficam espalhados pelo PDV, entregas, reservas, equipe, estoque e finanças.",
+      "descriptionEmphasis": "A Sundae reúne tudo numa única camada operacional ao vivo.",
       "narrativeAnchor": "Da lentidão na geração de relatórios à agilidade nas operações.",
-      "startFree": "Comece Grátis",
+      "startFree": "Agendar demo",
       "bookDemo": "Agendar uma Demonstração",
       "noCard": "Nenhum cartão de crédito necessário",
       "proofStats": [
         {
           "number": "6",
-          "label": "Camadas de inteligência"
+          "label": "Camadas de inteligência, uma verdade"
         },
         {
           "number": "18",
-          "label": "Decisões, não painéis"
+          "label": "Decisões reveladas hoje"
         },
         {
           "number": "12",
-          "label": "Domínios de dados unificados"
+          "label": "Domínios operacionais unificados"
         },
         {
           "number": "5 min",
-          "label": "Atualização a cada turno"
+          "label": "Do sinal à ação"
         }
       ],
       "problem": {
@@ -1770,13 +1773,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "IA Conversacional",
-            "description": "Pergunte aos seus dados qualquer coisa. Respostas em segundos na web, Slack ou Teams.",
+            "description": "Pergunte qualquer coisa aos seus dados - respostas com fonte em segundos na web, WhatsApp, Telegram, Slack ou Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Inteligência preditiva",
-            "description": "Previsões de 14 a 90 dias, cenários hipotéticos, briefings executivos que se corrigem.",
+            "description": "Previsões, orçamentos e cenários hipotéticos - com briefings executivos que se autocorrigem.",
             "href": "/product/foresight"
           }
         ]
@@ -1972,7 +1975,7 @@ export const generatedWebsiteMessageOverrides = {
           "ssoGoogle": "Continuar com o Google",
           "ssoMicrosoft": "Continuar com o Microsoft",
           "or": "ou",
-          "emailLabel": "Email",
+          "emailLabel": "E-mail",
           "emailPlaceholder": "voce@empresa.com",
           "passwordLabel": "Senha",
           "passwordPlaceholder": "Digite sua senha",
@@ -2378,7 +2381,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "उन ऑपरेटरों में शामिल हों जिन्होंने अनुमान लगाने से जानने की ओर कदम बढ़ाया है।",
       "bookDemo": "डेमो बुक करें",
       "startFree": "Report के साथ मुफ्त शुरू करें",
-      "brandDescription": "रेस्टोरेंट के लिए निर्णय बुद्धिमत्ता। प्रदर्शन को समझें, अगला क्या होगा इसकी भविष्यवाणी करें, और आत्मविश्वास के साथ कार्य करें।",
+      "brandDescription": "मल्टी-लोकेशन ऑपरेटरों के लिए डिसीज़न इंटेलिजेंस प्लेटफ़ॉर्म। See every layer. Act in time.",
       "global": "वैश्विक",
       "allCurrencies": "सभी मुद्राएँ",
       "sectionProduct": "उत्पाद",
@@ -2421,29 +2424,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
       "titleTop": "निर्णय बुद्धिमत्ता",
-      "titleBottom": "रेस्टोरेंट्स के लिए",
-      "description": "आपका डेटा 5-10 असंबंधित सिस्टम में है। आपकी टीम अंतर्ज्ञान से निर्णय लेती है जबकि लाभ रोज़ाना लीक होते हैं।",
-      "descriptionEmphasis": "यही वह समझौता है जिसे Sundae खत्म कर देता है।",
+      "titleBottom": "मल्टी-लोकेशन रेस्टोरेंट के लिए",
+      "subheadline": "Janein kya badla, kyun badla, aur shift khatam hone se pehle kya karna hai.",
+      "description": "Aapka data POS, delivery, booking, staff, inventory aur finance mein bikhra hai.",
+      "descriptionEmphasis": "Sundae use ek live operating layer mein le aata hai.",
       "narrativeAnchor": "रिपोर्टिंग में देरी से संचालन की गति तक।",
-      "startFree": "मुफ्त शुरू करें",
+      "startFree": "डेमो बुक करें",
       "bookDemo": "डेमो बुक करें",
       "noCard": "क्रेडिट कार्ड की आवश्यकता नहीं है",
       "proofStats": [
         {
           "number": "6",
-          "label": "इंटेलिजेंस परतें"
+          "label": "इंटेलिजेंस लेयर, एक सच"
         },
         {
           "number": "18",
-          "label": "निर्णय, डैशबोर्ड नहीं"
+          "label": "आज सामने आए फैसले"
         },
         {
           "number": "12",
-          "label": "एकीकृत डेटा डोमेन"
+          "label": "एकीकृत ऑपरेटिंग डोमेन"
         },
         {
           "number": "5 मिनट",
-          "label": "शिफ्ट रिफ्रेश चक्र"
+          "label": "संकेत से कार्रवाई तक"
         }
       ],
       "problem": {
@@ -2512,13 +2516,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "संवादी AI",
-            "description": "अपने डेटा से कुछ भी पूछें। वेब, Slack, या Teams पर सेकंडों में उत्तर।",
+            "description": "अपने डेटा से कुछ भी पूछें - वेब, WhatsApp, Telegram, Slack या Teams पर सेकंडों में स्रोत-सहित जवाब।",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "पूर्वानुमानित बुद्धिमत्ता",
-            "description": "14-90 दिन की पूर्वानुमान, क्या-यदि परिदृश्य, कार्यकारी ब्रीफिंग जो स्वयं को सही करती हैं।",
+            "description": "पूर्वानुमान, बजट और what-if परिदृश्य - खुद को सुधारने वाली एग्ज़ीक्यूटिव ब्रीफिंग के साथ।",
             "href": "/product/foresight"
           }
         ]
@@ -2905,7 +2909,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "एकीकरण - Sundae",
           "badge": "एकीकरण",
           "title": "सब कुछ कनेक्ट करें। अपने डेटा को एकीकृत करें।",
-          "description": "Sundae 250+ रेस्टोरेंट सिस्टम के साथ POS, श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, और अधिक में एकीकृत होता है।",
+          "description": "Sundae 200+ रेस्टोरेंट सिस्टम के साथ POS, श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, और अधिक में एकीकृत होता है।",
           "process": [
             {
               "step": "1",
@@ -3120,7 +3124,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "ان آپریٹرز میں شامل ہوں جو اندازے سے جاننے کی طرف منتقل ہو چکے ہیں۔",
       "bookDemo": "ڈیمو بک کریں",
       "startFree": "رپورٹ کے ساتھ مفت شروع کریں",
-      "brandDescription": "ریسٹورانٹس کے لیے فیصلہ سازی کی ذہانت۔ کارکردگی کو سمجھیں، اگلے اقدام کی پیش گوئی کریں، اور اعتماد کے ساتھ عمل کریں۔",
+      "brandDescription": "متعدد مقامات والے آپریٹرز کے لیے ڈیسیژن انٹیلیجنس پلیٹ فارم۔ See every layer. Act in time.",
       "global": "عالمی",
       "allCurrencies": "تمام کرنسیاں",
       "sectionProduct": "پروڈکٹ",
@@ -3163,29 +3167,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "فیصلہ سازی کی ذہانت کا پلیٹ فارم",
       "titleTop": "فیصلہ سازی کی ذہانت",
-      "titleBottom": "ریستورانوں کے لیے",
-      "description": "آپ کا ڈیٹا 5-10 غیر منسلک نظاموں میں موجود ہے۔ آپ کی ٹیم احساسات کی بنیاد پر فیصلے کرتی ہے جبکہ منافع روزانہ کم ہوتا ہے۔",
-      "descriptionEmphasis": "یہی وہ سمجھوتہ ہے جسے Sundae ختم کر دیتا ہے۔",
+      "titleBottom": "متعدد مقامات والے ریستورانوں کے لیے",
+      "subheadline": "Janiye kya badla, kyun badla, aur shift khatam hone se pehle kya karna hai.",
+      "description": "Aap ka data POS, delivery, booking, staff, inventory aur finance mein bikhra hua hai.",
+      "descriptionEmphasis": "Sundae ise ek live operating layer mein le aata hai.",
       "narrativeAnchor": "رپورٹنگ کی تاخیر سے آپریشن کی رفتار تک۔",
-      "startFree": "مفت شروع کریں",
+      "startFree": "ڈیمو بُک کریں",
       "bookDemo": "ڈیمو بک کریں",
       "noCard": "کریڈٹ کارڈ کی ضرورت نہیں",
       "proofStats": [
         {
           "number": "6",
-          "label": "انٹیلی جنس کی تہیں"
+          "label": "انٹیلیجنس پرتیں، ایک سچ"
         },
         {
           "number": "18",
-          "label": "فیصلے، ڈیش بورڈ نہیں"
+          "label": "آج سامنے آئے فیصلے"
         },
         {
           "number": "12",
-          "label": "ڈیٹا کے شعبے متحد"
+          "label": "مربوط آپریٹنگ ڈومینز"
         },
         {
           "number": "5 منٹ",
-          "label": "شفٹ کی تازہ کاری کا دورانیہ"
+          "label": "اشارے سے عمل تک"
         }
       ],
       "problem": {
@@ -3254,13 +3259,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "مکالماتی AI",
-            "description": "اپنے ڈیٹا سے کچھ بھی پوچھیں۔ ویب، Slack، یا Teams پر سیکنڈز میں جوابات۔",
+            "description": "اپنے ڈیٹا سے کچھ بھی پوچھیں - ویب، WhatsApp، Telegram، Slack یا Teams پر سیکنڈوں میں باحوالہ جوابات۔",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "پیش گوئی کی ذہانت",
-            "description": "14-90 دن کی پیش گوئیاں، کیا-اگر کے منظرنامے، ایگزیکٹو بریفنگز جو خود کو درست کرتی ہیں۔",
+            "description": "پیش گوئیاں، بجٹ اور what-if منظرنامے - خود کو درست کرنے والی ایگزیکٹو بریفنگز کے ساتھ۔",
             "href": "/product/foresight"
           }
         ]
@@ -3647,7 +3652,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "انضمام - Sundae",
           "badge": "انضمام",
           "title": "سب کچھ جڑیں۔ اپنے ڈیٹا کو متحد کریں۔",
-          "description": "Sundae 250+ ریستوران کے نظاموں کے ساتھ POS، مزدوری، انوینٹری، ریزرویشن، ترسیل، اور مزید کے ذریعے انضمام کرتا ہے۔",
+          "description": "Sundae 200+ ریستوران کے نظاموں کے ساتھ POS، مزدوری، انوینٹری، ریزرویشن، ترسیل، اور مزید کے ذریعے انضمام کرتا ہے۔",
           "process": [
             {
               "step": "1",
@@ -3800,7 +3805,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/solutions/franchises"
         },
         {
-          "name": "Cloud Kitchens",
+          "name": "Cloud kitchen",
           "href": "/solutions/cloud-kitchens"
         },
         {
@@ -3862,7 +3867,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Unisciti agli operatori che sono passati dal fare ipotesi a conoscere.",
       "bookDemo": "Prenota una Demo",
       "startFree": "Inizia gratis con Report",
-      "brandDescription": "Intelligenza decisionale per ristoranti. Comprendi le performance, prevedi cosa verrà dopo e agisci con fiducia.",
+      "brandDescription": "La piattaforma di decision intelligence per operatori multi-sede. See every layer. Act in time.",
       "global": "Globale",
       "allCurrencies": "Tutte le valute",
       "sectionProduct": "Prodotto",
@@ -3905,29 +3910,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Piattaforma di Intelligenza Decisionale",
       "titleTop": "Intelligenza Decisionale",
-      "titleBottom": "per Ristoranti",
-      "description": "I tuoi dati vivono in 5-10 sistemi disconnessi. Il tuo team decide d'istinto mentre i margini si riducono quotidianamente.",
-      "descriptionEmphasis": "Questo è il compromesso che Sundae elimina.",
+      "titleBottom": "per ristoranti multi-sede",
+      "subheadline": "Scopri cosa e cambiato, perche, e cosa fare prima che il turno finisca.",
+      "description": "I tuoi dati sono sparsi tra cassa, consegne, prenotazioni, personale, magazzino e finanza.",
+      "descriptionEmphasis": "Sundae li riunisce in un unico livello operativo in tempo reale.",
       "narrativeAnchor": "Dalla lentezza dei report alla velocità operativa.",
-      "startFree": "Inizia Gratis",
+      "startFree": "Prenota una demo",
       "bookDemo": "Prenota una demo",
       "noCard": "Nessuna carta di credito richiesta",
       "proofStats": [
         {
           "number": "6",
-          "label": "Livelli di intelligenza"
+          "label": "Livelli di intelligence, una verità"
         },
         {
           "number": "18",
-          "label": "Decisioni, non dashboard"
+          "label": "Decisioni emerse oggi"
         },
         {
           "number": "12",
-          "label": "Domini dati unificati"
+          "label": "Domini operativi unificati"
         },
         {
           "number": "5 min",
-          "label": "Ciclo di aggiornamento del turno"
+          "label": "Dal segnale all'azione"
         }
       ],
       "problem": {
@@ -3996,13 +4002,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "AI conversazionale",
-            "description": "Chiedi ai tuoi dati qualsiasi cosa. Risposte in secondi su web, Slack o Teams.",
+            "description": "Chiedi qualsiasi cosa ai tuoi dati - risposte con fonte in secondi su web, WhatsApp, Telegram, Slack o Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Intelligenza predittiva",
-            "description": "Previsioni da 14 a 90 giorni, scenari ipotetici, briefing esecutivi che si correggono da soli.",
+            "description": "Previsioni, budget e scenari ipotetici - con briefing executive che si autocorreggono.",
             "href": "/product/foresight"
           }
         ]
@@ -4604,7 +4610,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Dołącz do operatorów, którzy przeszli od zgadywania do wiedzy.",
       "bookDemo": "Umów się na demo",
       "startFree": "Rozpocznij za darmo z Report",
-      "brandDescription": "Inteligencja decyzyjna dla restauracji. Zrozum wydajność, przewiduj, co będzie dalej, i działaj z pewnością.",
+      "brandDescription": "Platforma decision intelligence dla operatorów wielolokalizacyjnych. See every layer. Act in time.",
       "global": "Globalny",
       "allCurrencies": "Wszystkie waluty",
       "sectionProduct": "Produkt",
@@ -4647,29 +4653,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Platforma Inteligencji Decyzyjnej",
       "titleTop": "Inteligencja Decyzyjna",
-      "titleBottom": "dla restauracji",
-      "description": "Twoje dane znajdują się w 5-10 odłączonych systemach. Twój zespół podejmuje decyzje intuicyjnie, podczas gdy marże codziennie uciekają.",
-      "descriptionEmphasis": "To jest kompromis, który Sundae eliminuje.",
+      "titleBottom": "dla restauracji wielolokalizacyjnych",
+      "subheadline": "Wiedz, co sie zmienilo, dlaczego i co zrobic, zanim skonczy sie zmiana.",
+      "description": "Twoje dane sa rozproszone w kasie, dostawach, rezerwacjach, kadrach, magazynie i finansach.",
+      "descriptionEmphasis": "Sundae laczy je w jedna zywa warstwe operacyjna.",
       "narrativeAnchor": "Od opóźnień w raportowaniu do szybkości operacji.",
-      "startFree": "Zacznij za darmo",
+      "startFree": "Umów demo",
       "bookDemo": "Umów się na demonstrację",
       "noCard": "Nie jest wymagana karta kredytowa",
       "proofStats": [
         {
           "number": "6",
-          "label": "Warstwy inteligencji"
+          "label": "Warstwy inteligencji, jedna prawda"
         },
         {
           "number": "18",
-          "label": "Decyzje, nie pulpity"
+          "label": "Decyzje ujawnione dziś"
         },
         {
           "number": "12",
-          "label": "Zunifikowane obszary danych"
+          "label": "Ujednolicone obszary operacyjne"
         },
         {
           "number": "5 min",
-          "label": "Odświeżanie co zmianę"
+          "label": "Od sygnału do działania"
         }
       ],
       "problem": {
@@ -4738,13 +4745,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "Konwersacyjna AI",
-            "description": "Zapytaj swoje dane o cokolwiek. Odpowiedzi w sekundy w sieci, Slacku lub Teams.",
+            "description": "Zapytaj dane o cokolwiek - odpowiedzi ze źródłem w sekundy w sieci, WhatsApp, Telegram, Slack lub Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Inteligencja predykcyjna",
-            "description": "Prognozy na 14-90 dni, scenariusze co jeśli, briefingi dla kierownictwa, które się korygują.",
+            "description": "Prognozy, budżety i scenariusze co-jeśli - z briefingami dla zarządu, które same się korygują.",
             "href": "/product/foresight"
           }
         ]
@@ -4940,7 +4947,7 @@ export const generatedWebsiteMessageOverrides = {
           "ssoGoogle": "Kontynuuj z Google",
           "ssoMicrosoft": "Kontynuuj z Microsoft",
           "or": "lub",
-          "emailLabel": "Email",
+          "emailLabel": "E-mail",
           "emailPlaceholder": "you@company.com",
           "passwordLabel": "Hasło",
           "passwordPlaceholder": "Wprowadź swoje hasło",
@@ -5346,7 +5353,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Tahminden bilmeye geçen işletmecilere katılın.",
       "bookDemo": "Demo Al",
       "startFree": "Report ile Ücretsiz Başlayın",
-      "brandDescription": "Restoranlar için karar zekası. Performansı anlayın, bir sonraki adımı tahmin edin ve güvenle hareket edin.",
+      "brandDescription": "Çok şubeli işletmeciler için decision intelligence platformu. See every layer. Act in time.",
       "global": "Küresel",
       "allCurrencies": "Tüm para birimleri",
       "sectionProduct": "Ürün",
@@ -5389,29 +5396,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Karar Zekası Platformu",
       "titleTop": "Karar Zekası",
-      "titleBottom": "Restoranlar için",
-      "description": "Verileriniz 5-10 bağlantısız sistemde yaşıyor. Ekibiniz içgüdüyle karar veriyor ve marjlar her gün sızıyor.",
-      "descriptionEmphasis": "İşte Sundae'nin ortadan kaldırdığı ödünleşim.",
+      "titleBottom": "çok şubeli restoranlar için",
+      "subheadline": "Vardiya bitmeden neyin degistigini, nedenini ve ne yapacaginizi bilin.",
+      "description": "Verileriniz POS, teslimat, rezervasyon, personel, stok ve finansa dagilmis durumda.",
+      "descriptionEmphasis": "Sundae hepsini tek bir canli operasyon katmaninda toplar.",
       "narrativeAnchor": "Raporlama gecikmesinden operasyon hızına.",
-      "startFree": "Ücretsiz Başlayın",
+      "startFree": "Demo planlayın",
       "bookDemo": "Demo Rezervasyonu Yap",
       "noCard": "Kredi kartı gerekmez",
       "proofStats": [
         {
           "number": "6",
-          "label": "Zeka katmanları"
+          "label": "Zeka katmanları, tek gerçek"
         },
         {
           "number": "18",
-          "label": "Gösterge panoları değil, kararlar"
+          "label": "Bugün öne çıkan kararlar"
         },
         {
           "number": "12",
-          "label": "Birleştirilmiş veri alanları"
+          "label": "Birleşik operasyon alanları"
         },
         {
           "number": "5 dk",
-          "label": "Vardiya yenileme döngüsü"
+          "label": "Sinyalden aksiyona"
         }
       ],
       "problem": {
@@ -5480,13 +5488,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "Konuşma AI",
-            "description": "Verilerinize her şeyi sorun. Web, Slack veya Teams'de saniyeler içinde yanıtlar.",
+            "description": "Verilerinize her şeyi sorun - web, WhatsApp, Telegram, Slack veya Teams'te saniyeler içinde kaynak gösterilen yanıtlar.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Öngörücü zeka",
-            "description": "14-90 gün tahminleri, olası senaryolar, kendini düzelten yönetici brifingleri.",
+            "description": "Tahminler, bütçeler ve olasılık senaryoları - kendini düzelten yönetici brifingleriyle.",
             "href": "/product/foresight"
           }
         ]
@@ -6088,7 +6096,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "加入那些从猜测转向了解的运营商。",
       "bookDemo": "预约演示",
       "startFree": "免费开始使用Report",
-      "brandDescription": "餐厅决策智能。了解业绩，预测未来，并自信地采取行动。",
+      "brandDescription": "面向多门店运营者的决策智能平台。See every layer. Act in time.",
       "global": "全球",
       "allCurrencies": "所有货币",
       "sectionProduct": "产品",
@@ -6131,29 +6139,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "决策智能平台",
       "titleTop": "决策智能",
-      "titleBottom": "为餐厅服务",
-      "description": "您的数据存在于5到10个不相连的系统中。您的团队凭直觉做决定，而利润每天都在流失。",
-      "descriptionEmphasis": "这是Sundae消除的权衡。",
+      "titleBottom": "为多门店餐厅打造",
+      "subheadline": "在班次结束前，知道什么变了、为何而变，以及该怎么做。",
+      "description": "你的数据分散在 POS、外卖、订位、人力、库存和财务之间。",
+      "descriptionEmphasis": "Sundae 将它们汇入一个实时运营层。",
       "narrativeAnchor": "从报告滞后到运营提速。",
-      "startFree": "免费开始",
+      "startFree": "预约演示",
       "bookDemo": "预约演示",
       "noCard": "无需信用卡",
       "proofStats": [
         {
           "number": "6",
-          "label": "智能层"
+          "label": "智能层，同一真相"
         },
         {
           "number": "18",
-          "label": "决策，而非仪表板"
+          "label": "今日浮现的决策"
         },
         {
           "number": "12",
-          "label": "统一的数据领域"
+          "label": "统一的运营域"
         },
         {
           "number": "5分钟",
-          "label": "班次刷新周期"
+          "label": "从信号到行动"
         }
       ],
       "problem": {
@@ -6222,13 +6231,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "对话式 AI",
-            "description": "随时询问你的数据。通过网页、Slack 或 Teams 秒级获取答案。",
+            "description": "向你的数据问任何问题 - 在网页、WhatsApp、Telegram、Slack 或 Teams 上数秒内给出带来源的答案。",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "预测智能",
-            "description": "14-90 天的预测、假设场景、自我修正的高管简报。",
+            "description": "预测、预算与假设情景 - 配自我校正的高管简报。",
             "href": "/product/foresight"
           }
         ]
@@ -6236,7 +6245,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "智能模块",
         "heading": "12个领域的12个模块",
-        "description": "餐厅绩效的每个维度——经过分析、基准对比，并可付诸行动。",
+        "description": "餐厅绩效的每个维度 - 经过分析、基准对比，并可付诸行动。",
         "categories": [
           {
             "name": "收入智能",
@@ -6296,7 +6305,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "运营领导",
             "pain": "你不可能同时在每个餐厅。",
-            "outcome": "实时掌握每个门店的运营节奏和服务员表现——查看谁现在需要帮助。",
+            "outcome": "实时掌握每个门店的运营节奏和服务员表现 - 查看谁现在需要帮助。",
             "attribution": "多地点运营商的模式"
           },
           {
@@ -6308,7 +6317,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C级高管与所有者",
             "pain": "你最差的门店在周四之前是看不见的。",
-            "outcome": "投资组合视图，每日AI简报，市场信号——涵盖你运营的每个品牌。",
+            "outcome": "投资组合视图，每日AI简报，市场信号 - 涵盖你运营的每个品牌。",
             "attribution": "创始人和集团CEO的模式"
           },
           {
@@ -6830,7 +6839,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "推測から知識へと移行したオペレーターに参加しましょう。",
       "bookDemo": "デモを予約する",
       "startFree": "Reportで無料開始",
-      "brandDescription": "レストラン向けの意思決定インテリジェンス。パフォーマンスを理解し、次に何が来るかを予測し、自信を持って行動しましょう。",
+      "brandDescription": "多店舗オペレーター向けの意思決定インテリジェンス・プラットフォーム。See every layer. Act in time.",
       "global": "グローバル",
       "allCurrencies": "すべての通貨",
       "sectionProduct": "製品",
@@ -6873,29 +6882,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "意思決定インテリジェンスプラットフォーム",
       "titleTop": "意思決定インテリジェンス",
-      "titleBottom": "レストラン向け",
-      "description": "あなたのデータは5〜10の異なるシステムに存在しています。チームは直感で決定し、利益は日々漏れています。",
-      "descriptionEmphasis": "それがSundaeが解消するトレードオフです。",
+      "titleBottom": "多店舗レストランのための",
+      "subheadline": "シフトが終わる前に、何が変わり、なぜ変わり、何をすべきかを把握。",
+      "description": "あなたのデータは POS、デリバリー、予約、人員、在庫、会計に散らばっています。",
+      "descriptionEmphasis": "Sundae がそれらを一つのライブ運用レイヤーにまとめます。",
       "narrativeAnchor": "報告の遅延から運営のスピードへ。",
-      "startFree": "無料で始める",
+      "startFree": "デモを予約",
       "bookDemo": "デモを予約する",
       "noCard": "クレジットカードは不要です",
       "proofStats": [
         {
           "number": "6",
-          "label": "インテリジェンスレイヤー"
+          "label": "インテリジェンス層、一つの真実"
         },
         {
           "number": "18",
-          "label": "ダッシュボードではなく意思決定"
+          "label": "今日見えた意思決定"
         },
         {
           "number": "12",
-          "label": "統合されたデータドメイン"
+          "label": "統合された業務領域"
         },
         {
           "number": "5分",
-          "label": "シフトリフレッシュサイクル"
+          "label": "シグナルから行動へ"
         }
       ],
       "problem": {
@@ -6964,13 +6974,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "会話型AI",
-            "description": "データに何でも尋ねてください。ウェブ、Slack、Teamsで数秒で回答。",
+            "description": "データに何でも質問 - Web、WhatsApp、Telegram、Slack、Teams で数秒、出典付きの回答。",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "予測情報",
-            "description": "14〜90日間の予測、もしもシナリオ、自己修正するエグゼクティブブリーフィング。",
+            "description": "予測、予算、What-ifシナリオ - 自己修正する経営層向けブリーフィング付き。",
             "href": "/product/foresight"
           }
         ]
@@ -7572,7 +7582,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "추측에서 확실함으로 나아간 운영자들과 함께하세요.",
       "bookDemo": "데모 예약하기",
       "startFree": "Report로 무료 시작하기",
-      "brandDescription": "레스토랑을 위한 의사결정 인텔리전스. 성과를 이해하고, 다음을 예측하며, 자신 있게 행동하세요.",
+      "brandDescription": "다점포 운영자를 위한 의사결정 인텔리전스 플랫폼. See every layer. Act in time.",
       "global": "글로벌",
       "allCurrencies": "모든 통화",
       "sectionProduct": "제품",
@@ -7615,29 +7625,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "결정 지능 플랫폼",
       "titleTop": "결정 지능",
-      "titleBottom": "레스토랑을 위한",
-      "description": "귀하의 데이터는 5-10개의 분리된 시스템에 존재합니다. 귀하의 팀은 직감에 따라 결정하며, 마진은 매일 유출됩니다.",
-      "descriptionEmphasis": "그것이 Sundae가 없애는 절충입니다.",
+      "titleBottom": "다점포 레스토랑을 위한",
+      "subheadline": "근무가 끝나기 전에 무엇이 바뀌었고, 왜 바뀌었으며, 무엇을 해야 하는지 파악하세요.",
+      "description": "데이터가 POS, 배달, 예약, 인력, 재고, 재무에 흩어져 있습니다.",
+      "descriptionEmphasis": "Sundae가 이를 하나의 실시간 운영 레이어로 모읍니다.",
       "narrativeAnchor": "보고 지연에서 운영 속도로.",
-      "startFree": "무료 시작",
+      "startFree": "데모 예약",
       "bookDemo": "데모 예약하기",
       "noCard": "신용 카드가 필요하지 않습니다",
       "proofStats": [
         {
           "number": "6",
-          "label": "인텔리전스 레이어"
+          "label": "인텔리전스 레이어, 하나의 진실"
         },
         {
           "number": "18",
-          "label": "대시보드가 아닌 의사 결정"
+          "label": "오늘 드러난 의사결정"
         },
         {
           "number": "12",
-          "label": "통합된 데이터 도메인"
+          "label": "통합된 운영 영역"
         },
         {
           "number": "5분",
-          "label": "교대마다 새로 고침"
+          "label": "신호에서 실행까지"
         }
       ],
       "problem": {
@@ -7706,13 +7717,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "대화형 AI",
-            "description": "데이터에 무엇이든 물어보세요. 웹, Slack 또는 Teams에서 몇 초 안에 답변을 제공합니다.",
+            "description": "데이터에 무엇이든 물어보세요 - 웹, WhatsApp, Telegram, Slack, Teams에서 몇 초 만에 출처 있는 답변.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "예측 정보",
-            "description": "14-90일 예측, 가정 시나리오, 스스로 수정되는 경영진 브리핑.",
+            "description": "예측, 예산, 가정 시나리오 - 스스로 교정하는 경영진 브리핑 포함.",
             "href": "/product/foresight"
           }
         ]
@@ -8314,7 +8325,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Bergabunglah dengan operator yang telah beralih dari menebak menjadi mengetahui.",
       "bookDemo": "Jadwalkan Demo",
       "startFree": "Mulai Gratis dengan Report",
-      "brandDescription": "Inteligensi keputusan untuk restoran. Pahami kinerja, prediksi apa yang akan datang, dan bertindak dengan percaya diri.",
+      "brandDescription": "Platform decision intelligence untuk operator multi-lokasi. See every layer. Act in time.",
       "global": "Global",
       "allCurrencies": "Semua mata uang",
       "sectionProduct": "Produk",
@@ -8357,29 +8368,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Platform Intelijen Keputusan",
       "titleTop": "Intelijen Keputusan",
-      "titleBottom": "untuk Restoran",
-      "description": "Data Anda berada di 5-10 sistem yang terpisah. Tim Anda mengambil keputusan berdasarkan insting sementara margin terus menurun setiap hari.",
-      "descriptionEmphasis": "Itulah kompromi yang dihilangkan oleh Sundae.",
+      "titleBottom": "untuk restoran multi-lokasi",
+      "subheadline": "Ketahui apa yang berubah, kenapa, dan apa yang harus dilakukan sebelum shift berakhir.",
+      "description": "Data Anda tersebar di POS, pengiriman, reservasi, tenaga kerja, stok, dan keuangan.",
+      "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasional langsung.",
       "narrativeAnchor": "Dari keterlambatan pelaporan ke kecepatan operasional.",
-      "startFree": "Mulai Gratis",
+      "startFree": "Pesan demo",
       "bookDemo": "Pesan Demo",
       "noCard": "Tidak perlu kartu kredit",
       "proofStats": [
         {
           "number": "6",
-          "label": "Lapisan intelijen"
+          "label": "Lapisan inteligensi, satu kebenaran"
         },
         {
           "number": "18",
-          "label": "Keputusan, bukan dasbor"
+          "label": "Keputusan yang muncul hari ini"
         },
         {
           "number": "12",
-          "label": "Domain data yang disatukan"
+          "label": "Domain operasi yang menyatu"
         },
         {
           "number": "5 menit",
-          "label": "Siklus penyegaran shift"
+          "label": "Dari sinyal ke aksi"
         }
       ],
       "problem": {
@@ -8448,13 +8460,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "AI percakapan",
-            "description": "Tanyakan apa saja kepada data Anda. Jawaban dalam hitungan detik di web, Slack, atau Teams.",
+            "description": "Tanyakan apa saja ke data Anda - jawaban bersumber dalam hitungan detik di web, WhatsApp, Telegram, Slack, atau Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Intelijen prediktif",
-            "description": "Ramalan 14-90 hari, skenario what-if, briefing eksekutif yang memperbaiki diri sendiri.",
+            "description": "Perkiraan, anggaran, dan skenario bagaimana-jika - dengan briefing eksekutif yang mengoreksi diri.",
             "href": "/product/foresight"
           }
         ]
@@ -8761,7 +8773,7 @@ export const generatedWebsiteMessageOverrides = {
           "enterpriseBadge": "Perusahaan",
           "enterpriseTitle": "Harga Kustom untuk Operasi Besar",
           "enterpriseDescription": "Untuk grup multi-lokasi yang membutuhkan white-label, SSO, SLA kustom, dan dukungan khusus. 50.000+ kredit intelijen termasuk.",
-          "addOnsTitle": "Add-Ons",
+          "addOnsTitle": "Add-on",
           "addOnsDescription": "Perluas paket Anda dengan modul intelijen khusus.",
           "detailedPricingCalculator": "Lihat Kalkulator Harga Terperinci",
           "faqTitle": "Pertanyaan Umum",
@@ -8841,7 +8853,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrasi - Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
-          "description": "Sundae terintegrasi dengan 250+ sistem restoran di seluruh POS, tenaga kerja, inventaris, reservasi, pengiriman, dan lainnya.",
+          "description": "Sundae terintegrasi dengan 200+ sistem restoran di seluruh POS, tenaga kerja, inventaris, reservasi, pengiriman, dan lainnya.",
           "process": [
             {
               "step": "1",
@@ -9056,7 +9068,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Tham gia cùng các nhà điều hành đã chuyển từ đoán mò sang hiểu biết.",
       "bookDemo": "Đặt lịch Demo",
       "startFree": "Bắt đầu miễn phí với Report",
-      "brandDescription": "Trí tuệ quyết định cho các nhà hàng. Hiểu hiệu suất, dự đoán điều gì sẽ xảy ra tiếp theo và hành động với sự tự tin.",
+      "brandDescription": "Nền tảng decision intelligence cho nhà điều hành nhiều chi nhánh. See every layer. Act in time.",
       "global": "Toàn cầu",
       "allCurrencies": "Tất cả các loại tiền tệ",
       "sectionProduct": "Sản phẩm",
@@ -9099,29 +9111,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Nền tảng Trí tuệ Quyết định",
       "titleTop": "Trí tuệ Quyết định",
-      "titleBottom": "dành cho Nhà hàng",
-      "description": "Dữ liệu của bạn nằm trong 5-10 hệ thống không liên kết. Nhóm của bạn quyết định dựa trên cảm tính trong khi lợi nhuận bị rò rỉ hàng ngày.",
-      "descriptionEmphasis": "Đó là sự đánh đổi mà Sundae loại bỏ.",
+      "titleBottom": "cho nhà hàng nhiều chi nhánh",
+      "subheadline": "Biet ngay dieu gi thay doi, vi sao, va phai lam gi truoc khi het ca.",
+      "description": "Du lieu cua ban nam rai rac qua POS, giao hang, dat ban, nhan su, kho va tai chinh.",
+      "descriptionEmphasis": "Sundae gop tat ca vao mot lop van hanh truc tiep duy nhat.",
       "narrativeAnchor": "Từ độ trễ báo cáo đến tốc độ vận hành.",
-      "startFree": "Bắt đầu miễn phí",
+      "startFree": "Đặt demo",
       "bookDemo": "Đặt lịch demo",
       "noCard": "Không cần thẻ tín dụng",
       "proofStats": [
         {
           "number": "6",
-          "label": "Lớp trí tuệ"
+          "label": "Lớp trí tuệ, một sự thật"
         },
         {
           "number": "18",
-          "label": "Quyết định, không phải bảng điều khiển"
+          "label": "Quyết định hiện ra hôm nay"
         },
         {
           "number": "12",
-          "label": "Miền dữ liệu thống nhất"
+          "label": "Các mảng vận hành hợp nhất"
         },
         {
           "number": "5 phút",
-          "label": "Chu kỳ làm mới ca"
+          "label": "Từ tín hiệu đến hành động"
         }
       ],
       "problem": {
@@ -9190,13 +9203,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "AI hội thoại",
-            "description": "Hỏi dữ liệu của bạn bất cứ điều gì. Câu trả lời trong vài giây trên web, Slack hoặc Teams.",
+            "description": "Hỏi dữ liệu của bạn bất cứ điều gì - câu trả lời có nguồn trong vài giây trên web, WhatsApp, Telegram, Slack hoặc Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Thông tin dự đoán",
-            "description": "Dự báo 14-90 ngày, kịch bản giả định, báo cáo điều hành tự điều chỉnh.",
+            "description": "Dự báo, ngân sách và kịch bản giả định - kèm bản tóm tắt điều hành tự hiệu chỉnh.",
             "href": "/product/foresight"
           }
         ]
@@ -9798,7 +9811,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Alătură-te operatorilor care au trecut de la presupuneri la certitudini.",
       "bookDemo": "Programează o demonstrație",
       "startFree": "Începe gratuit cu Report",
-      "brandDescription": "Inteligență decizională pentru restaurante. Înțelege performanța, prezice ce urmează și acționează cu încredere.",
+      "brandDescription": "Platforma de decision intelligence pentru operatori multi-locație. See every layer. Act in time.",
       "global": "Global",
       "allCurrencies": "Toate monedele",
       "sectionProduct": "Produs",
@@ -9841,29 +9854,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Platforma de Inteligență Decizională",
       "titleTop": "Inteligența Decizională",
-      "titleBottom": "pentru restaurante",
-      "description": "Datele tale se află în 5-10 sisteme deconectate. Echipa ta ia decizii pe baza intuiției, în timp ce marjele se pierd zilnic.",
-      "descriptionEmphasis": "Acesta este compromisul pe care Sundae îl elimină.",
+      "titleBottom": "pentru restaurante multi-locație",
+      "subheadline": "Afla ce s-a schimbat, de ce si ce ai de facut inainte sa se termine tura.",
+      "description": "Datele tale sunt imprastiate prin POS, livrari, rezervari, personal, stocuri si finante.",
+      "descriptionEmphasis": "Sundae le aduce intr-un singur strat operational live.",
       "narrativeAnchor": "De la întârzierea raportării la viteza operațiunilor.",
-      "startFree": "Începe gratuit",
+      "startFree": "Programează un demo",
       "bookDemo": "Rezervați o demonstrație",
       "noCard": "Nu este necesară o carte de credit",
       "proofStats": [
         {
           "number": "6",
-          "label": "Straturi de inteligență"
+          "label": "Straturi de inteligență, un singur adevăr"
         },
         {
           "number": "18",
-          "label": "Decizii, nu tablouri de bord"
+          "label": "Decizii apărute azi"
         },
         {
           "number": "12",
-          "label": "Domenii de date unificate"
+          "label": "Domenii operaționale unificate"
         },
         {
           "number": "5 min",
-          "label": "Actualizare la fiecare schimb"
+          "label": "De la semnal la acțiune"
         }
       ],
       "problem": {
@@ -9932,13 +9946,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "AI conversațional",
-            "description": "Întreabă-ți datele orice. Răspunsuri în câteva secunde pe web, Slack sau Teams.",
+            "description": "Întreabă-ți datele orice - răspunsuri cu sursă în secunde pe web, WhatsApp, Telegram, Slack sau Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Inteligență predictivă",
-            "description": "Previziuni de 14-90 de zile, scenarii ce-ar fi, briefing-uri executive care se corectează singure.",
+            "description": "Prognoze, bugete și scenarii ipotetice - cu briefuri executive care se autocorectează.",
             "href": "/product/foresight"
           }
         ]
@@ -10134,7 +10148,7 @@ export const generatedWebsiteMessageOverrides = {
           "ssoGoogle": "Continuă cu Google",
           "ssoMicrosoft": "Continuă cu Microsoft",
           "or": "sau",
-          "emailLabel": "Email",
+          "emailLabel": "E-mail",
           "emailPlaceholder": "tu@companie.com",
           "passwordLabel": "Parolă",
           "passwordPlaceholder": "Introdu parola ta",
@@ -10245,7 +10259,7 @@ export const generatedWebsiteMessageOverrides = {
           "enterpriseBadge": "Enterprise",
           "enterpriseTitle": "Preț Personalizat pentru Operațiuni Mari",
           "enterpriseDescription": "Pentru grupuri multi-locație care au nevoie de white-label, SSO, SLA personalizate și suport dedicat. 50.000+ credite de inteligență incluse.",
-          "addOnsTitle": "Add-Ons",
+          "addOnsTitle": "Suplimente",
           "addOnsDescription": "Extinde-ți planul cu module de inteligență specializate.",
           "detailedPricingCalculator": "Vezi Calculatorul Detaliat de Prețuri",
           "faqTitle": "Întrebări Frecvente",
@@ -10540,7 +10554,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Gå med operatörer som har gått från att gissa till att veta.",
       "bookDemo": "Boka en demo",
       "startFree": "Börja gratis med Report",
-      "brandDescription": "Beslutsintelligens för restauranger. Förstå prestation, förutsäga vad som kommer härnäst och agera med självförtroende.",
+      "brandDescription": "Decision intelligence-plattformen för operatörer med flera enheter. See every layer. Act in time.",
       "global": "Globalt",
       "allCurrencies": "Alla valutor",
       "sectionProduct": "Produkt",
@@ -10583,29 +10597,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Beslutsintelligensplattform",
       "titleTop": "Beslutsintelligens",
-      "titleBottom": "för restauranger",
-      "description": "Dina data finns i 5-10 avskilda system. Ditt team fattar beslut baserat på magkänsla medan marginalerna läcker dagligen.",
-      "descriptionEmphasis": "Det är den kompromiss som Sundae tar bort.",
+      "titleBottom": "för restauranger med flera enheter",
+      "subheadline": "Vet vad som andrades, varfor, och vad du ska gora innan passet ar slut.",
+      "description": "Dina data ligger spridda over kassa, leverans, bokningar, personal, lager och ekonomi.",
+      "descriptionEmphasis": "Sundae samlar allt i ett levande driftlager.",
       "narrativeAnchor": "Från rapporteringsfördröjning till operativ hastighet.",
-      "startFree": "Börja gratis",
+      "startFree": "Boka en demo",
       "bookDemo": "Boka en demo",
       "noCard": "Inget kreditkort krävs",
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligenslager"
+          "label": "Intelligenslager, en sanning"
         },
         {
           "number": "18",
-          "label": "Beslut, inte instrumentpaneler"
+          "label": "Beslut som synliggjorts idag"
         },
         {
           "number": "12",
-          "label": "Dataområden enade"
+          "label": "Förenade verksamhetsområden"
         },
         {
           "number": "5 min",
-          "label": "Uppdatering varje skift"
+          "label": "Från signal till handling"
         }
       ],
       "problem": {
@@ -10674,13 +10689,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "Konverserande AI",
-            "description": "Fråga din data om vad som helst. Svar på sekunder via webben, Slack eller Teams.",
+            "description": "Fråga dina data vad som helst - källhänvisade svar på sekunder via webb, WhatsApp, Telegram, Slack eller Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Prediktiv intelligens",
-            "description": "14-90 dagars prognoser, vad-händer-scenarier, exekutiva sammanfattningar som rättar sig själva.",
+            "description": "Prognoser, budgetar och tänk-om-scenarier - med chefsbriefingar som korrigerar sig själva.",
             "href": "/product/foresight"
           }
         ]
@@ -11014,7 +11029,7 @@ export const generatedWebsiteMessageOverrides = {
           "categories": [
             "Komma Igång",
             "Produkter & Nivåer",
-            "Data & Integration",
+            "Data & integration",
             "Moduler",
             "Watchtower",
             "Prissättning & Fakturering",
@@ -11067,7 +11082,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrationer - Sundae",
           "badge": "Integrationer",
           "title": "Anslut Allt. Enhetlig Din Data.",
-          "description": "Sundae integreras med 250+ restaurangsystem över POS, arbetskraft, lager, reservationer, leverans och mer.",
+          "description": "Sundae integreras med 200+ restaurangsystem över POS, arbetskraft, lager, reservationer, leverans och mer.",
           "process": [
             {
               "step": "1",
@@ -11282,7 +11297,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "যারা অনুমান থেকে জানার দিকে এগিয়ে গেছে তাদের সাথে যোগ দিন।",
       "bookDemo": "ডেমো বুক করুন",
       "startFree": "রিপোর্টের সাথে বিনামূল্যে শুরু করুন",
-      "brandDescription": "রেস্তোরাঁর জন্য সিদ্ধান্ত গ্রহণের বুদ্ধিমত্তা। কর্মক্ষমতা বুঝুন, পরবর্তী কী হবে তা পূর্বাভাস করুন এবং আত্মবিশ্বাসের সাথে কাজ করুন।",
+      "brandDescription": "মাল্টি-লোকেশন অপারেটরদের জন্য ডিসিশন ইন্টেলিজেন্স প্ল্যাটফর্ম। See every layer. Act in time.",
       "global": "গ্লোবাল",
       "allCurrencies": "সমস্ত মুদ্রা",
       "sectionProduct": "পণ্য",
@@ -11325,29 +11340,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
       "titleTop": "সিদ্ধান্ত বুদ্ধিমত্তা",
-      "titleBottom": "রেস্তোরাঁর জন্য",
-      "description": "আপনার ডেটা ৫-১০টি বিচ্ছিন্ন সিস্টেমে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা সিদ্ধান্ত নেয় যখন মার্জিন প্রতিদিন লিক হয়।",
-      "descriptionEmphasis": "এটাই সেই বিনিময় যা Sundae সরিয়ে দেয়।",
+      "titleBottom": "মাল্টি-লোকেশন রেস্তোরাঁর জন্য",
+      "subheadline": "Janun ki bodlechhe, keno bodlechhe, ar shift sesh howar age ki korte hobe.",
+      "description": "Apnar data POS, delivery, booking, kormi, inventory ar finance e chhoriye achhe.",
+      "descriptionEmphasis": "Sundae sob ekti live operating layer e niye ase.",
       "narrativeAnchor": "রিপোর্টিং বিলম্ব থেকে অপারেশন গতি।",
-      "startFree": "ফ্রি শুরু করুন",
+      "startFree": "ডেমো বুক করুন",
       "bookDemo": "ডেমো বুক করুন",
       "noCard": "কোন ক্রেডিট কার্ডের প্রয়োজন নেই",
       "proofStats": [
         {
           "number": "6",
-          "label": "বুদ্ধিমত্তার স্তর"
+          "label": "ইন্টেলিজেন্স লেয়ার, এক সত্য"
         },
         {
           "number": "18",
-          "label": "সিদ্ধান্ত, ড্যাশবোর্ড নয়"
+          "label": "আজ উঠে আসা সিদ্ধান্ত"
         },
         {
           "number": "12",
-          "label": "ডেটা ডোমেইন একীভূত"
+          "label": "একীভূত অপারেটিং ডোমেইন"
         },
         {
           "number": "5 মিনিট",
-          "label": "শিফট রিফ্রেশ সাইকেল"
+          "label": "সংকেত থেকে পদক্ষেপে"
         }
       ],
       "problem": {
@@ -11416,13 +11432,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "কনভারসেশনাল AI",
-            "description": "আপনার ডেটা থেকে কিছু জিজ্ঞাসা করুন। ওয়েব, Slack, বা Teams-এ সেকেন্ডের মধ্যে উত্তর।",
+            "description": "আপনার ডেটাকে যা খুশি জিজ্ঞাসা করুন - ওয়েব, WhatsApp, Telegram, Slack বা Teams-এ সেকেন্ডে সূত্রসহ উত্তর।",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "পূর্বাভাসমূলক বুদ্ধিমত্তা",
-            "description": "১৪-৯০ দিনের পূর্বাভাস, কি-হলে পরিস্থিতি, নির্বাহী ব্রিফিং যা নিজেকে সংশোধন করে।",
+            "description": "পূর্বাভাস, বাজেট ও what-if পরিস্থিতি - নিজে থেকে সংশোধন হওয়া এগজিকিউটিভ ব্রিফিং সহ।",
             "href": "/product/foresight"
           }
         ]
@@ -11809,7 +11825,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "ইন্টিগ্রেশন - Sundae",
           "badge": "ইন্টিগ্রেশন",
           "title": "সবকিছু সংযুক্ত করুন। আপনার ডেটা একীভূত করুন।",
-          "description": "Sundae 250+ রেস্তোরাঁর সিস্টেমের সাথে POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি এবং আরও অনেক কিছুর সাথে ইন্টিগ্রেট করে।",
+          "description": "Sundae 200+ রেস্তোরাঁর সিস্টেমের সাথে POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি এবং আরও অনেক কিছুর সাথে ইন্টিগ্রেট করে।",
           "process": [
             {
               "step": "1",
@@ -12024,7 +12040,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "เข้าร่วมกับผู้ดำเนินการที่เปลี่ยนจากการเดาเป็นการรู้จริง.",
       "bookDemo": "จองการสาธิต",
       "startFree": "เริ่มใช้งานฟรีกับ Report",
-      "brandDescription": "ปัญญาการตัดสินใจสำหรับร้านอาหาร เข้าใจประสิทธิภาพ ทำนายสิ่งที่จะเกิดขึ้นต่อไป และดำเนินการอย่างมั่นใจ.",
+      "brandDescription": "แพลตฟอร์ม decision intelligence สำหรับผู้ดำเนินการหลายสาขา See every layer. Act in time.",
       "global": "ทั่วโลก",
       "allCurrencies": "ทุกสกุลเงิน",
       "sectionProduct": "ผลิตภัณฑ์",
@@ -12067,29 +12083,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "แพลตฟอร์มการตัดสินใจอัจฉริยะ",
       "titleTop": "ปัญญาการตัดสินใจ",
-      "titleBottom": "สำหรับร้านอาหาร",
-      "description": "ข้อมูลของคุณอยู่ในระบบที่ไม่เชื่อมต่อกัน 5-10 ระบบ ทีมของคุณตัดสินใจจากสัญชาตญาณในขณะที่กำไรรั่วไหลทุกวัน.",
-      "descriptionEmphasis": "นี่คือการแลกเปลี่ยนที่ Sundae กำจัดออกไป.",
+      "titleBottom": "สำหรับร้านอาหารหลายสาขา",
+      "subheadline": "ru wa arai plian pai tammai lae tong tham arai kon mod ka.",
+      "description": "khomun khong khun krachai yu thua POS dilivoeri kanchong tee thiti ngan singkhong khong khlang lae kanngoen.",
+      "descriptionEmphasis": "Sundae ruam thanghmod wai nai chan kan tham ngan baep sod chan diao.",
       "narrativeAnchor": "จากความล่าช้าในการรายงานสู่ความเร็วในการดำเนินงาน.",
-      "startFree": "เริ่มต้นฟรี",
+      "startFree": "จองเดโม",
       "bookDemo": "จองการสาธิต",
       "noCard": "ไม่ต้องใช้บัตรเครดิต",
       "proofStats": [
         {
           "number": "6",
-          "label": "ชั้นข้อมูลเชิงลึก"
+          "label": "ชั้นอัจฉริยะ ความจริงเดียว"
         },
         {
           "number": "18",
-          "label": "การตัดสินใจ ไม่ใช่แดชบอร์ด"
+          "label": "การตัดสินใจที่ปรากฏวันนี้"
         },
         {
           "number": "12",
-          "label": "โดเมนข้อมูลที่รวมกัน"
+          "label": "โดเมนปฏิบัติการที่รวมเป็นหนึ่ง"
         },
         {
           "number": "5 นาที",
-          "label": "รอบการรีเฟรชกะ"
+          "label": "จากสัญญาณสู่การลงมือ"
         }
       ],
       "problem": {
@@ -12158,13 +12175,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "AI เชิงสนทนา",
-            "description": "ถามข้อมูลของคุณได้ทุกอย่าง คำตอบในไม่กี่วินาทีบนเว็บ Slack หรือ Teams",
+            "description": "ถามข้อมูลของคุณได้ทุกเรื่อง - คำตอบที่อ้างอิงแหล่งที่มาในไม่กี่วินาทีบนเว็บ WhatsApp, Telegram, Slack หรือ Teams",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "ข้อมูลเชิงคาดการณ์",
-            "description": "การคาดการณ์ 14-90 วัน สถานการณ์ที่เป็นไปได้ การบรรยายสรุปผู้บริหารที่ปรับตัวเองได้",
+            "description": "การพยากรณ์ งบประมาณ และสถานการณ์สมมติ - พร้อมบรีฟผู้บริหารที่แก้ไขตัวเอง",
             "href": "/product/foresight"
           }
         ]
@@ -12766,7 +12783,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Sertai pengendali yang telah beralih dari meneka kepada mengetahui.",
       "bookDemo": "Tempah Demo",
       "startFree": "Mulakan Percuma dengan Report",
-      "brandDescription": "Inteligens keputusan untuk restoran. Fahami prestasi, ramal apa yang seterusnya, dan bertindak dengan yakin.",
+      "brandDescription": "Platform decision intelligence untuk pengendali berbilang lokasi. See every layer. Act in time.",
       "global": "Global",
       "allCurrencies": "Semua mata wang",
       "sectionProduct": "Produk",
@@ -12809,29 +12826,30 @@ export const generatedWebsiteMessageOverrides = {
     "home": {
       "badge": "Platform Kecerdasan Keputusan",
       "titleTop": "Kecerdasan Keputusan",
-      "titleBottom": "untuk Restoran",
-      "description": "Data anda berada dalam 5-10 sistem yang tidak terhubung. Pasukan anda membuat keputusan berdasarkan naluri sementara margin bocor setiap hari.",
-      "descriptionEmphasis": "Itulah pertukaran yang dihapuskan oleh Sundae.",
+      "titleBottom": "untuk restoran berbilang lokasi",
+      "subheadline": "Ketahui apa yang berubah, mengapa, dan apa yang perlu dibuat sebelum syif tamat.",
+      "description": "Data anda bertaburan merentasi POS, penghantaran, tempahan, pekerja, stok dan kewangan.",
+      "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasi langsung.",
       "narrativeAnchor": "Dari kelewatan laporan kepada kelajuan operasi.",
-      "startFree": "Mula Percuma",
+      "startFree": "Tempah demo",
       "bookDemo": "Tempah Demo",
       "noCard": "Tiada kad kredit diperlukan",
       "proofStats": [
         {
           "number": "6",
-          "label": "Lapisan kecerdasan"
+          "label": "Lapisan kecerdasan, satu kebenaran"
         },
         {
           "number": "18",
-          "label": "Keputusan, bukan papan pemuka"
+          "label": "Keputusan yang muncul hari ini"
         },
         {
           "number": "12",
-          "label": "Domain data disatukan"
+          "label": "Domain operasi yang disatukan"
         },
         {
           "number": "5 min",
-          "label": "Siklus penyegaran shift"
+          "label": "Daripada isyarat ke tindakan"
         }
       ],
       "problem": {
@@ -12900,13 +12918,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Sundae Intelligence",
             "subtitle": "AI perbualan",
-            "description": "Tanya data anda apa sahaja. Jawapan dalam beberapa saat di web, Slack, atau Teams.",
+            "description": "Tanya data anda apa-apa sahaja - jawapan bersumber dalam beberapa saat di web, WhatsApp, Telegram, Slack atau Teams.",
             "href": "/intelligence"
           },
           {
             "name": "Foresight",
             "subtitle": "Inteligens ramalan",
-            "description": "Ramalan 14-90 hari, senario apa-jika, taklimat eksekutif yang membetulkan diri sendiri.",
+            "description": "Ramalan, bajet dan senario bagaimana-jika - dengan taklimat eksekutif yang membetulkan diri.",
             "href": "/product/foresight"
           }
         ]
@@ -13293,7 +13311,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrasi - Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
-          "description": "Sundae berintegrasi dengan 250+ sistem restoran merentasi POS, buruh, inventori, tempahan, penghantaran, dan banyak lagi.",
+          "description": "Sundae berintegrasi dengan 200+ sistem restoran merentasi POS, buruh, inventori, tempahan, penghantaran, dan banyak lagi.",
           "process": [
             {
               "step": "1",
@@ -13359,4 +13377,3 @@ export const generatedWebsiteMessageOverrides = {
     }
   }
 } as const
-

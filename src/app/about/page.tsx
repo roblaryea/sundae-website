@@ -16,7 +16,7 @@ const aboutCopy = {
     metadataTitle: "About Sundae - The Decision Intelligence Platform for Restaurants",
     metadataDescription: "Sundae unifies 12+ data sources into a single intelligence layer for multi-unit restaurant groups. Built by operators who lived the problem. Active across 3 countries.",
     badge: "About Sundae",
-    title: <>The Intelligence Layer<br />Restaurants Never Had</>,
+    title: 'The Intelligence Layer Restaurants Never Had',
     description: "Restaurant data usually lives in a dozen disconnected systems. Sundae pulls that operating picture into one place so teams can make decisions with current numbers, market context, and forward-looking signals.",
     stats: [
       { value: "6", label: "Platform Pillars" },

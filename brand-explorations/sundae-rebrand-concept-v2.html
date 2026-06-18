@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sundae — Brand Concept v2 · See Every Layer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --deep:#15110D; --deep2:#1C1712; --surface:#29221B;
+    --cream:#F6F1E8; --amber:#F6C66B; --caramel:#E9A24A; --rose:#F7A088;
+    --coral:#FF5C4D; --cherry:#E03E48; --clay:#B23A1E;
+    --white:#FBF8F4;
+    --t1:rgba(251,248,244,.95); --t2:rgba(251,248,244,.64); --t3:rgba(251,248,244,.40); --t4:rgba(251,248,244,.18);
+    --serif:'Fraunces',Georgia,serif; --sans:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --ease:cubic-bezier(.16,1,.3,1);
+    --strata:linear-gradient(180deg,#F6F1E8 0%,#F6C66B 19%,#E9A24A 36%,#F7A088 54%,#FF5C4D 72%,#E03E48 87%,#B23A1E 100%);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--deep);color:var(--white);font-family:var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden;line-height:1.5}
+  ::selection{background:var(--coral);color:#1a120c}
+  .grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+  .vignette{position:fixed;inset:0;z-index:8999;pointer-events:none;background:radial-gradient(135% 110% at 50% 38%,transparent 52%,rgba(0,0,0,.45) 100%)}
+
+  nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;
+    padding:18px 34px;transition:background .4s,backdrop-filter .4s}
+  nav.scrolled{background:rgba(21,17,13,.72);backdrop-filter:blur(14px);border-bottom:1px solid rgba(251,248,244,.06)}
+  .nav-mark{font-family:var(--serif);font-weight:500;font-size:21px;letter-spacing:-.02em;color:#fff;display:flex;align-items:flex-end;gap:5px}
+  .nav-meta{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--t3)}
+
+  .progress{position:fixed;top:0;left:0;height:3px;z-index:1001;background:var(--strata);background-size:100% 100vh;width:0}
+  section{position:relative;padding:0 clamp(22px,6vw,90px);scroll-margin-top:84px}
+  .wrap{max-width:1180px;margin:0 auto}
+  .eyebrow{font-size:11.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--coral);font-weight:600;margin-bottom:22px;display:flex;align-items:center;gap:12px}
+  .eyebrow::before{content:"";width:26px;height:1px;background:var(--coral);opacity:.7}
+  h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.018em;line-height:1.02}
+  .display{font-size:clamp(54px,9.6vw,150px);font-weight:300;line-height:.9;letter-spacing:-.035em}
+  .h2{font-size:clamp(34px,5.2vw,72px);font-weight:300;line-height:1;letter-spacing:-.025em}
+  .lede{font-size:clamp(16px,1.6vw,20px);line-height:1.62;color:var(--t2);font-weight:400;max-width:58ch}
+  em{font-style:italic;color:var(--amber)}
+  .rv{opacity:0;transform:translateY(26px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease)}
+  .rv.in{opacity:1;transform:none}
+  .rv2{transition-delay:.12s}.rv3{transition-delay:.24s}.rv4{transition-delay:.36s}
+
+  /* ===== HERO ===== */
+  #hero{min-height:100vh;display:flex;align-items:center;overflow:hidden;
+    background:radial-gradient(120% 80% at 80% 16%,rgba(255,92,77,.17) 0%,transparent 55%),
+      radial-gradient(90% 70% at 10% 90%,rgba(233,162,74,.13) 0%,transparent 55%),var(--deep)}
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;width:100%}
+  @media(max-width:920px){.hero-grid{grid-template-columns:1fr;gap:46px}}
+  .display span{display:block;overflow:hidden}
+  .display span b{font-weight:300;display:block;transform:translateY(110%);animation:rise 1.3s var(--ease) forwards}
+  .display .l2 b{animation-delay:.13s}.display .l3 b{animation-delay:.26s;font-style:italic;color:var(--amber)}
+  @keyframes rise{to{transform:none}}
+  .hero-sub{margin-top:30px;opacity:0;animation:fadeUp 1.2s var(--ease) .7s forwards}
+  .hero-cta{margin-top:38px;display:flex;gap:14px;align-items:center;opacity:0;animation:fadeUp 1.2s var(--ease) .95s forwards;flex-wrap:wrap}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+  .btn{font-family:var(--sans);font-weight:600;font-size:15px;padding:15px 26px;border-radius:100px;border:0;cursor:pointer;text-decoration:none;display:inline-block;
+    background:linear-gradient(180deg,#FF7E6F,#E03E48);color:#fff;box-shadow:0 14px 40px -12px rgba(224,62,72,.7);transition:transform .3s var(--ease),box-shadow .3s}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 20px 52px -12px rgba(224,62,72,.85)}
+  .btn.ghost{background:transparent;border:1px solid rgba(251,248,244,.22);box-shadow:none;color:var(--t1)}
+  .btn.ghost:hover{border-color:var(--coral)}
+  .vessel-stage{position:relative;display:flex;justify-content:center;align-items:center;min-height:580px}
+  .vglow{position:absolute;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(255,92,77,.30),transparent 64%);filter:blur(26px);animation:breathe 7s ease-in-out infinite}
+  @keyframes breathe{0%,100%{transform:scale(1);opacity:.75}50%{transform:scale(1.13);opacity:1}}
+  .vlabels{position:absolute;left:calc(50% + 150px);top:8%;height:74%;width:220px;z-index:5}
+  @media(max-width:1150px){.vlabels{left:calc(50% + 130px);width:180px}}
+  @media(max-width:760px){.vlabels{display:none}}
+  .vlab{position:absolute;display:flex;align-items:center;gap:10px;opacity:0;transform:translateX(-12px);animation:labin .7s var(--ease) forwards;font-size:13px;color:var(--t2);white-space:nowrap}
+  @keyframes labin{to{opacity:1;transform:none}}
+  .vlab .ln{width:26px;height:1px;background:rgba(251,248,244,.25)}
+  .vlab .sw{width:9px;height:9px;border-radius:50%}
+  .vlab b{color:var(--t1);font-weight:600}
+  /* svg vessel */
+  .vlayer{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);opacity:0;animation:vfill .95s var(--ease) forwards}
+  @keyframes vfill{to{transform:scaleY(1);opacity:1}}
+  .vsheen{transform-box:fill-box;animation:vsweep 5s ease-in-out 2.4s infinite}
+  @keyframes vsweep{0%{transform:translateX(-95px);opacity:0}12%{opacity:.65}34%{transform:translateX(150px);opacity:0}100%{transform:translateX(150px);opacity:0}}
+  .vcherry{opacity:0;animation:cherrydrop 1s var(--ease) forwards}
+  @keyframes cherrydrop{0%{opacity:0;transform:translateY(-64px)}58%{opacity:1;transform:translateY(6px)}100%{opacity:1;transform:translateY(0)}}
+
+  /* ===== CHERRY SECTION ===== */
+  #cherry{padding:15vh 0;background:radial-gradient(90% 70% at 78% 30%,rgba(224,62,72,.14),transparent 55%),var(--deep)}
+  .cherry-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:24px;margin-top:60px}
+  @media(max-width:860px){.cherry-grid{grid-template-columns:1fr}}
+  .ccard{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.012));border:1px solid rgba(251,248,244,.09);border-radius:22px;padding:34px;display:flex;flex-direction:column}
+  .ccard h4{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--t3);font-weight:600;margin-bottom:8px}
+  .ccard .big{font-family:var(--serif);font-size:24px;font-weight:400;margin-bottom:20px}
+  .ccol{display:flex;flex-direction:column;gap:24px}
+  .cherrystage{flex:1;display:flex;align-items:center;justify-content:center;min-height:200px}
+  .dotvs{display:flex;align-items:flex-end;gap:40px;justify-content:center;margin-top:8px}
+  .dotvs .col{text-align:center}
+  .dotvs .lbl{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--t3);margin-top:16px}
+  .dotvs .period{width:34px;height:34px;border-radius:50%;background:#E03E48;margin:0 auto}
+  .cbullets{list-style:none;display:flex;flex-direction:column;gap:14px}
+  .cbullets li{display:flex;align-items:center;gap:12px;font-size:15px;color:var(--t2)}
+  .csys{display:flex;align-items:center;gap:22px;margin-top:6px;flex-wrap:wrap}
+  .favchip{width:48px;height:48px;border-radius:11px;background:#0e0b08;border:1px solid rgba(251,248,244,.1);display:flex;align-items:center;justify-content:center}
+  .favchip.light{background:var(--cream)}
+  .cdrop-demo{position:relative;height:170px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:8px}
+  .cdrop-demo .ml{height:13px;border-radius:5px;margin:2.5px 0}
+  .cdrop-demo .ch{position:absolute;top:6px}
+  .cdrop-demo.go .ml{animation:msettle .8s var(--ease) both}
+  .cdrop-demo.go .ch{animation:cherrydrop 1s var(--ease) 1s both}
+  .scrollcue{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--t3);opacity:0;animation:fadeUp 1s 1.6s forwards;display:flex;flex-direction:column;align-items:center;gap:10px}
+  .scrollcue .line{width:1px;height:36px;background:linear-gradient(var(--coral),transparent);animation:cue 2s ease-in-out infinite}
+  @keyframes cue{0%,100%{transform:scaleY(.4);opacity:.4;transform-origin:top}50%{transform:scaleY(1);opacity:1;transform-origin:top}}
+
+  /* ===== MANIFESTO ===== */
+  #idea{padding:18vh 0;background:linear-gradient(180deg,var(--deep),#110d09 50%,var(--deep))}
+  .manifesto{font-family:var(--serif);font-weight:300;font-size:clamp(28px,4.4vw,58px);line-height:1.18;letter-spacing:-.02em;max-width:18ch}
+  .manifesto .hl{color:var(--amber);font-style:italic}
+  .idea-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:84px}
+  @media(max-width:760px){.idea-row{grid-template-columns:1fr;gap:34px}}
+  .idea-row p{color:var(--t2);font-size:16.5px;line-height:1.7;max-width:46ch}
+  .idea-row .k{font-family:var(--serif);font-style:italic;color:var(--coral);font-size:19px;display:block;margin-bottom:10px}
+  .drillpath{margin-top:60px;border-top:1px solid rgba(251,248,244,.08);padding-top:44px}
+  .dp-eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--t3);font-weight:600;margin-bottom:18px}
+  .dp-chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .dp-chips .dp{font-size:13px;font-weight:600;padding:8px 14px;border-radius:100px}
+  .dp-chips .ar{color:var(--t3);font-size:15px;margin:0 2px}
+  .dp-sub{font-family:var(--serif);font-weight:300;font-size:clamp(19px,2.5vw,30px);letter-spacing:-.01em;color:var(--t1);line-height:1.3;margin-top:26px;max-width:24ch}
+  .dp-sub em{font-style:italic;color:var(--amber)}
+  .dp-note{color:var(--t2);font-size:15.5px;line-height:1.6;margin-top:14px;max-width:54ch}
+
+  /* ===== SYMBOLS ===== */
+  #symbols{padding:15vh 0;background:var(--deep2)}
+  .sym-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:60px}
+  @media(max-width:880px){.sym-grid{grid-template-columns:1fr;max-width:440px;margin:60px auto 0}}
+  .symcard{background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.012));border:1px solid rgba(251,248,244,.09);border-radius:22px;padding:36px 30px;transition:border-color .4s,transform .4s var(--ease)}
+  .symcard.lead{border-color:rgba(255,92,77,.35);box-shadow:0 0 0 1px rgba(255,92,77,.15),0 30px 60px -30px rgba(255,92,77,.3)}
+  .symcard:hover{border-color:rgba(255,92,77,.5);transform:translateY(-5px)}
+  .symcard .stage{height:160px;display:flex;align-items:center;justify-content:center;margin-bottom:24px}
+  .symcard h3{font-size:23px;font-weight:500;margin-bottom:8px}
+  .symcard .tag{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--coral);margin-bottom:14px;font-weight:600;display:flex;gap:8px;align-items:center}
+  .symcard .pill{background:var(--coral);color:#1a120c;border-radius:100px;padding:2px 9px;font-size:10px;letter-spacing:.08em}
+  .symcard p{font-size:14px;color:var(--t2);line-height:1.6}
+  .symcard .mini{display:flex;gap:10px;margin-top:22px;align-items:center}
+  .symcard .chip{background:#0e0b08;border:1px solid rgba(251,248,244,.08);border-radius:9px;padding:8px;display:flex}
+  .symcard .chip.light{background:var(--cream)}
+  .symcard .mini span{font-size:11px;color:var(--t3);margin-left:auto}
+
+  /* ===== WORDMARK ===== */
+  .wordmark-zone{margin-top:78px;border-top:1px solid rgba(251,248,244,.08);padding-top:58px;text-align:center}
+  .wm{font-family:var(--serif);font-weight:300;font-size:clamp(54px,11vw,124px);letter-spacing:-.045em;display:inline-flex;align-items:flex-end;line-height:1;justify-content:center}
+  .wm .scoop{display:inline-block;margin-left:.06em;margin-bottom:.12em}
+  .wm-cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:46px;text-align:left}
+  @media(max-width:760px){.wm-cards{grid-template-columns:1fr}}
+  .wm-card{border:1px solid rgba(251,248,244,.08);border-radius:16px;padding:30px;background:rgba(255,255,255,.02)}
+  .wm-card .l{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--t3);margin-bottom:20px;font-weight:600}
+  .wm-card .demo{font-family:var(--serif);font-weight:300;font-size:46px;letter-spacing:-.04em;display:flex;align-items:flex-end;line-height:1}
+
+  /* ===== SYSTEM ===== */
+  #system{padding:15vh 0;background:linear-gradient(180deg,var(--deep2),var(--deep))}
+  .sys-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:56px}
+  @media(max-width:860px){.sys-grid{grid-template-columns:1fr}}
+  .panel{background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01));border:1px solid rgba(251,248,244,.08);border-radius:20px;padding:32px;overflow:hidden}
+  .panel h4{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--t3);font-weight:600;margin-bottom:8px}
+  .panel .big{font-family:var(--serif);font-size:25px;font-weight:400;margin-bottom:18px}
+  .strata-bar{height:280px;border-radius:14px;background:var(--strata);position:relative;overflow:hidden}
+  .strata-bar .lbl{position:absolute;left:18px;font-size:12px;font-weight:600}
+  .chart{display:flex;align-items:flex-end;gap:10px;height:190px;margin-top:10px}
+  .bar{flex:1;border-radius:6px 6px 0 0;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+  .bar i{display:block;width:100%}
+  .divider-demo{height:1px;background:var(--strata);background-size:100% 6px;margin:24px 0}
+  .motion-demo{position:relative;height:190px;display:flex;align-items:center;justify-content:center;flex-direction:column}
+  .mlayer{height:18px;width:70%;border-radius:6px;margin:3px 0}
+  .motion-demo.go .mlayer{animation:msettle 1s var(--ease) both}
+  @keyframes msettle{0%{opacity:0;transform:translateY(-30px) scaleX(.6)}100%{opacity:1;transform:none}}
+
+  /* ===== PALETTE/TYPE ===== */
+  #palette{padding:14vh 0;background:var(--deep)}
+  .sw-row{display:grid;grid-template-columns:repeat(7,1fr);margin-top:48px;border-radius:16px;overflow:hidden}
+  @media(max-width:760px){.sw-row{grid-template-columns:repeat(4,1fr)}}
+  .sw{height:150px;display:flex;flex-direction:column;justify-content:flex-end;padding:14px}
+  .sw .n{font-size:12px;font-weight:600}.sw .h{font-size:10px;opacity:.7}
+  .type-spec{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:54px}
+  @media(max-width:760px){.type-spec{grid-template-columns:1fr}}
+  .type-card{border:1px solid rgba(251,248,244,.08);border-radius:18px;padding:34px;background:rgba(255,255,255,.02)}
+  .type-card .label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--coral);font-weight:600;margin-bottom:22px}
+  .spec-serif{font-family:var(--serif);font-size:46px;font-weight:300;line-height:1;margin-bottom:6px}
+  .spec-serif.i{font-style:italic;color:var(--amber);font-size:34px}
+  .spec-sans .xl{font-size:30px;font-weight:700;letter-spacing:-.02em}
+  .glyphline{font-size:13px;color:var(--t3);margin-top:18px}
+  .note-inline{font-size:12.5px;color:var(--t3);margin-top:14px;line-height:1.5}
+
+  /* ===== ARCHITECTURE (intro vs product) ===== */
+  #arch{padding:14vh 0;background:linear-gradient(180deg,var(--deep),var(--deep2))}
+  .flow{display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;margin-top:56px}
+  @media(max-width:760px){.flow{grid-template-columns:1fr;gap:30px}.flow .arrow{transform:rotate(90deg)}}
+  .flowcard{border:1px solid rgba(251,248,244,.1);border-radius:18px;padding:30px;background:rgba(255,255,255,.025)}
+  .flowcard .t{font-family:var(--serif);font-size:22px;margin-bottom:8px}
+  .flowcard .d{color:var(--t2);font-size:14px;line-height:1.6}
+  .flowcard .badge{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--coral);font-weight:600;margin-bottom:14px}
+  .arrow{font-size:26px;color:var(--t3)}
+  .minidash{margin-top:18px;border-radius:10px;overflow:hidden;border:1px solid rgba(251,248,244,.08)}
+  .minidash .row{display:flex;gap:6px;padding:8px}
+  .minidash .cell{flex:1;height:30px;border-radius:5px;background:rgba(255,255,255,.05)}
+  .minidash .cell.hot{background:linear-gradient(180deg,#FF7E6F,#E03E48)}
+
+  /* ===== HOMEPAGE MOCK ===== */
+  #hpmock{padding:15vh 0;background:linear-gradient(180deg,var(--deep2),#110d09)}
+  .browser{max-width:1060px;margin:50px auto 0;border-radius:18px;overflow:hidden;border:1px solid rgba(251,248,244,.1);box-shadow:0 50px 120px -40px rgba(0,0,0,.85)}
+  .bchrome{background:#0e0b08;padding:12px 16px;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(251,248,244,.06)}
+  .bdot{width:11px;height:11px;border-radius:50%}
+  .burl{margin-left:14px;font-size:12px;color:var(--t3);background:rgba(255,255,255,.04);padding:5px 14px;border-radius:7px}
+  .bview{background:radial-gradient(120% 80% at 82% 0%,rgba(255,92,77,.15),transparent 55%),var(--deep);padding:56px 48px;position:relative;overflow:hidden;min-height:380px}
+  @media(max-width:680px){.bview{padding:34px 22px}}
+  .hp-h{font-family:var(--serif);font-weight:300;font-size:clamp(32px,5vw,56px);line-height:1;letter-spacing:-.025em;max-width:13ch}
+  .hp-sub{color:var(--t2);font-size:16px;margin-top:18px;max-width:42ch;line-height:1.6}
+  .hp-cta{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap}
+  .mini-vessel{position:absolute;right:30px;top:50%;transform:translateY(-50%)}
+  @media(max-width:760px){.mini-vessel{display:none}}
+
+  /* ===== CLOSE ===== */
+  #close{min-height:80vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:radial-gradient(100% 70% at 50% 50%,rgba(255,92,77,.14),transparent 60%),var(--deep);gap:28px}
+  .close-mark{font-family:var(--serif);font-size:clamp(60px,12vw,144px);font-weight:300;letter-spacing:-.045em;display:flex;align-items:flex-end}
+  footer{padding:40px;text-align:center;color:var(--t4);font-size:12px}
+  .tagit{font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--t3)}
+</style>
+</head>
+<body>
+<div class="grain"></div><div class="vignette"></div>
+<div class="progress" id="progress"></div>
+
+<nav id="nav">
+  <div class="nav-mark">sundae<span id="navscoop"></span></div>
+  <div class="nav-meta">Brand Concept v2 · 2026</div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow" style="animation:fadeUp 1s .2s both">A clean-sheet identity</div>
+      <h1 class="display"><span class="l1"><b>See</b></span><span class="l2"><b>every</b></span><span class="l3"><b>layer.</b></span></h1>
+      <p class="lede hero-sub">Sundae is the decision intelligence platform for multi&#8209;location operators. It connects every layer — revenue, labor, inventory, guests, marketing, and outlet performance — so teams can see what changed and act while it still matters.</p>
+      <div class="hero-cta"><a class="btn" href="#idea">Explore the concept</a><a class="btn ghost" href="#symbols">See the marks</a></div>
+    </div>
+    <div class="vessel-stage">
+      <div class="vglow"></div>
+      <div id="heroVessel"></div>
+      <div class="vlabels" id="vlabels"></div>
+    </div>
+  </div>
+  <div class="scrollcue"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<!-- ===== MANIFESTO ===== -->
+<section id="idea"><div class="wrap">
+  <div class="eyebrow rv">The idea</div>
+  <div class="manifesto rv rv2">A sundae is the one dessert you can <span class="hl">see all the way through.</span> Served tall, in clear glass — every layer at once.</div>
+  <div class="idea-row">
+    <div class="rv"><span class="k">The reframe</span><p>We don't sell the ice cream. We own the <em>glass</em>. The promise isn't indulgence — it's <b>total visibility</b>: layering, transparency, completeness. Exactly what an operator wants from their numbers.</p></div>
+    <div class="rv rv2"><span class="k">Why it's true</span><p>Your business <b>is</b> layers — group → brand → region → outlet; revenue → category → daypart → a single item. Sundae sees through every one — and tells you where to act. The metaphor and the moat are the same shape.</p></div>
+  </div>
+  <div class="drillpath rv rv3">
+    <div class="dp-eyebrow">From the metaphor to the product — one view</div>
+    <div class="dp-chips" id="dpChips"></div>
+    <div class="dp-sub">From group-level performance to <em>item-level action.</em></div>
+    <div class="dp-note">See what changed, where it changed, and what to do — before the shift is over.</div>
+  </div>
+</div></section>
+
+<!-- ===== SYMBOLS ===== -->
+<section id="symbols"><div class="wrap">
+  <div class="eyebrow rv">The mark</div>
+  <h2 class="h2 rv rv2">The layers <em>are</em> the S.</h2>
+  <p class="lede rv rv3" style="margin-top:22px">One stroke, the strata running through it, the cherry finishing the top terminal. No striped field — so it never reads as a flag; the layers live in the letter. Holds from billboard to an 18px favicon, on a calm dark tile.</p>
+  <div class="sym-grid">
+    <div class="symcard lead rv">
+      <div class="stage" id="markTile" style="height:188px"></div>
+      <div class="tag">primary symbol &amp; favicon <span class="pill">lead</span></div>
+      <h3>The layered S</h3>
+      <p>Strata run through the stroke; the cherry finishes the terminal. Calm dark tile — no flag read, legible at 18px.</p>
+      <div class="mini" id="favRow"></div>
+    </div>
+    <div class="symcard rv rv2">
+      <div class="stage" id="markS" style="height:188px"></div>
+      <div class="tag">mono / transparent</div>
+      <h3>The standalone S</h3>
+      <p>Same DNA without the tile — watermarks, large scale, single-colour.</p>
+      <div class="mini"><div class="chip light" id="markSlight" style="padding:12px"></div><span>on light</span></div>
+    </div>
+    <div class="symcard rv rv3">
+      <div class="stage" id="markLock" style="height:188px"></div>
+      <div class="tag">the lockup</div>
+      <h3>Tile + wordmark</h3>
+      <p>How the symbol sits beside the name. Dark &amp; light.</p>
+      <div class="mini"><div class="chip light" id="markLockLight" style="padding:12px;align-items:center"></div></div>
+    </div>
+  </div>
+
+  <!-- WORDMARK -->
+  <div class="wordmark-zone rv rv2">
+    <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--t3);margin-bottom:28px">The wordmark · two registers</div>
+    <div class="wm">sundae</div>
+    <div class="note-inline" style="text-align:center;margin-top:22px">Fraunces. <b>Clean by default</b> — the cherry already lives in the symbol, so the wordmark stays mature.</div>
+    <div class="wm-cards">
+      <div class="wm-card"><div class="l">Primary · product &amp; investor</div><div class="demo">sundae</div><div class="note-inline">App, decks, contracts, docs. The clean wordmark keeps the brand serious.</div></div>
+      <div class="wm-card"><div class="l">Expressive · hero · launch · social · merch</div><div class="demo" id="wmExpr">sundae</div><div class="note-inline">The wordmark with the cherry, used selectively for brand moments — <b>never</b> inside the product UI.</div></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ===== CHERRY ===== -->
+<section id="cherry"><div class="wrap">
+  <div class="eyebrow rv">The signature · what we're remembered by</div>
+  <h2 class="h2 rv rv2">The cherry marks the<br>moment to <em>act.</em></h2>
+  <p class="lede rv rv3" style="margin-top:22px">Every layer leads to one thing on top — the signal that rises above the noise: what to act on, while it still matters. That's the cherry. A dot is forgettable; the stem is what makes it ours.</p>
+  <div class="cherry-grid">
+    <div class="ccard rv">
+      <h4>The mark</h4><div class="big">A dot is a full stop. A cherry is a finish.</div>
+      <div class="cherrystage" id="bigCherry"></div>
+      <div class="dotvs">
+        <div class="col"><div class="period"></div><div class="lbl">forgettable</div></div>
+        <div class="col" id="smallCherry"></div>
+      </div>
+    </div>
+    <div class="ccol">
+      <div class="ccard rv rv2">
+        <h4>The particle</h4><div class="big">One element, everywhere.</div>
+        <ul class="cbullets" id="cbullets">
+          <li>Revenue, fully visible</li><li>Labor, accounted for</li><li>The signal, on top</li>
+        </ul>
+        <div class="csys"><div class="favchip" id="fav1"></div><div class="favchip light" id="fav2"></div><span style="font-size:12px;color:var(--t3)">favicon · bullet · loader · success</span></div>
+      </div>
+      <div class="ccard rv rv3">
+        <h4>The signature motion</h4><div class="big">Layers settle — the cherry lands.</div>
+        <div class="cdrop-demo" id="cdrop">
+          <div class="ch" id="cdropCherry"></div>
+          <div class="ml" style="background:#F6F1E8;width:46%"></div>
+          <div class="ml" style="background:#F6C66B;width:58%"></div>
+          <div class="ml" style="background:#E9A24A;width:70%"></div>
+          <div class="ml" style="background:#FF5C4D;width:82%"></div>
+          <div class="ml" style="background:#E03E48;width:92%"></div>
+          <div class="ml" style="background:#B23A1E;width:100%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ===== SYSTEM ===== -->
+<section id="system"><div class="wrap">
+  <div class="eyebrow rv">The visual language</div>
+  <h2 class="h2 rv rv2">The layers aren't the logo.<br>They're the whole system.</h2>
+  <p class="lede rv rv3" style="margin-top:22px">Recognizable by behavior — strata everywhere: gradients, dividers, data, motion. This is what makes it feel “Sundae” without saying it.</p>
+  <div class="sys-grid">
+    <div class="panel rv"><h4>Signature gradient</h4><div class="big">Cream → clay, always vertical.</div>
+      <div class="strata-bar"><span class="lbl" style="top:14px;color:#3a1a10">Cream</span><span class="lbl" style="top:46%;color:#3a1a10">Caramel</span><span class="lbl" style="bottom:14px;color:#fbeee8">Clay</span></div></div>
+    <div class="panel rv rv2"><h4>Data, layered</h4><div class="big">Every chart is a cross-section.</div><div class="chart" id="chart"></div></div>
+    <div class="panel rv"><h4>Dividers &amp; rules</h4><div class="big">Even the lines are strata.</div>
+      <p style="color:var(--t2);font-size:14.5px;line-height:1.6">A hairline becomes a thin slice of the gradient — quiet, but unmistakably ours.</p>
+      <div class="divider-demo"></div><p style="color:var(--t3);font-size:13px">— section break —</p><div class="divider-demo"></div></div>
+    <div class="panel rv rv2"><h4>Motion signature</h4><div class="big">Every layer falls into place.</div>
+      <div class="motion-demo" id="motiondemo"><div class="mlayer" style="background:#F6C66B"></div><div class="mlayer" style="background:#E9A24A;width:60%"></div><div class="mlayer" style="background:#F7A088;width:78%"></div><div class="mlayer" style="background:#FF5C4D;width:52%"></div><div class="mlayer" style="background:#E03E48;width:70%"></div></div></div>
+  </div>
+</div></section>
+
+<!-- ===== PALETTE/TYPE ===== -->
+<section id="palette"><div class="wrap">
+  <div class="eyebrow rv">Color &amp; type</div>
+  <h2 class="h2 rv rv2">Warm, by nature.</h2>
+  <div class="sw-row rv rv3">
+    <div class="sw" style="background:#F6F1E8;color:#3a1a10"><span class="n">Cream</span><span class="h">#F6F1E8</span></div>
+    <div class="sw" style="background:#F6C66B;color:#3a1a10"><span class="n">Amber</span><span class="h">#F6C66B</span></div>
+    <div class="sw" style="background:#E9A24A;color:#3a1a10"><span class="n">Caramel</span><span class="h">#E9A24A</span></div>
+    <div class="sw" style="background:#F7A088;color:#3a1a10"><span class="n">Rose</span><span class="h">#F7A088</span></div>
+    <div class="sw" style="background:#FF5C4D"><span class="n">Coral</span><span class="h">#FF5C4D</span></div>
+    <div class="sw" style="background:#E03E48"><span class="n">Cherry</span><span class="h">#E03E48</span></div>
+    <div class="sw" style="background:#B23A1E"><span class="n">Clay</span><span class="h">#B23A1E</span></div>
+  </div>
+  <p class="note-inline rv rv3" style="margin-top:20px;max-width:74ch;font-size:14px;line-height:1.7;color:var(--t2)">
+    <b style="color:var(--t1)">Roles, not decoration.</b> &nbsp;Cream — surfaces&nbsp; · &nbsp;Amber / Caramel — opportunity &amp; forecast&nbsp; · &nbsp;<span style="color:#FF5C4D;font-weight:600">Coral</span> — brand &amp; primary action&nbsp; · &nbsp;<span style="color:#E03E48;font-weight:600">Cherry</span> — the decision signal&nbsp; · &nbsp;Clay — depth &amp; footer.&nbsp; In the product, <b style="color:var(--t1)">brand coral is kept distinct from the UI's negative red</b> — warmth never reads as an error.
+  </p>
+  <div class="type-spec">
+    <div class="type-card rv"><div class="label">Display · Fraunces</div><div class="spec-serif">See every layer.</div><div class="spec-serif i">Act in time.</div><div class="glyphline">Warm · optical · editorial — carries the soul.</div></div>
+    <div class="type-card rv rv2"><div class="label">Interface · Hanken Grotesk</div><div class="spec-sans"><div class="xl">Revenue up 12.4%</div><div style="color:var(--t2);margin-top:8px;font-size:15px;line-height:1.6">More character than a default grotesque, still exact. The warmth in the voice, the rigor in the numbers.</div></div><div class="glyphline">0123456789 · $ € £ % — built for data.</div><div class="note-inline">Off-generic &amp; free. Premium upgrades if budget allows: Söhne, ABC&nbsp;Diatype, Aeonik.</div></div>
+  </div>
+</div></section>
+
+<!-- ===== ARCHITECTURE: intro vs product ===== -->
+<section id="arch"><div class="wrap">
+  <div class="eyebrow rv">How it fits · not a teardown</div>
+  <h2 class="h2 rv rv2">The glass introduces the idea.<br>Pulse proves it.</h2>
+  <p class="lede rv rv3" style="margin-top:22px">This is a cinematic <b>brand-intro</b> moment, not a replacement for the product. We keep the live Pulse dashboard — warmed to match — as the proof on the product pages. The glass hands off to the real thing.</p>
+  <div class="flow">
+    <div class="flowcard rv"><div class="badge">Step 1 · brand intro</div><div class="t">The glass</div><div class="d">“This is what Sundae is — every layer of your business, visible at once.” Cinematic, emotional, sets the frame.</div></div>
+    <div class="arrow rv rv2">→</div>
+    <div class="flowcard rv rv3"><div class="badge">Step 2 · the product</div><div class="t">Pulse, warmed</div><div class="d">The real dashboard you already have — reskinned to the warm system. The proof behind the promise.</div>
+      <div class="minidash"><div class="row"><div class="cell hot"></div><div class="cell"></div><div class="cell"></div></div><div class="row"><div class="cell"></div><div class="cell hot"></div><div class="cell"></div></div></div></div>
+  </div>
+</div></section>
+
+<!-- ===== HOMEPAGE MOCK ===== -->
+<section id="hpmock"><div class="wrap">
+  <div class="eyebrow rv">Applied · intro hero</div>
+  <h2 class="h2 rv rv2">How it lands.</h2>
+  <div class="browser rv rv3">
+    <div class="bchrome"><span class="bdot" style="background:#FF5F57"></span><span class="bdot" style="background:#FEBC2E"></span><span class="bdot" style="background:#28C840"></span><span class="burl">sundae.io</span></div>
+    <div class="bview">
+      <div class="eyebrow">Decision Intelligence</div>
+      <div class="hp-h">See every layer of every location.</div>
+      <div class="hp-sub">From the group down to a single item — revenue, labor, inventory, guests — one transparent view. Nothing buried at the bottom.</div>
+      <div class="hp-cta"><a class="btn" href="javascript:void(0)">Book a walkthrough</a><a class="btn ghost" href="javascript:void(0)">See Pulse live</a></div>
+      <div class="mini-vessel" id="miniVessel"></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ===== CLOSE ===== -->
+<section id="close">
+  <div class="tagit rv">Sundae · 2026</div>
+  <div class="close-mark rv rv2">sundae<span class="scoop" id="closeScoop"></span></div>
+  <div class="manifesto rv rv3" style="font-size:clamp(22px,3.2vw,40px);text-align:center;max-width:22ch">See every layer. <span class="hl">Act in time.</span></div>
+</section>
+<footer>Concept v2 — not production. Built on the warm-signature tokens. The glass is the intro; Pulse stays the proof.</footer>
+
+<script>
+  const LAYERS=[
+    {name:'Foundation',sub:'org topology',c:'#B23A1E'},
+    {name:'Revenue',sub:'sales & mix',c:'#E03E48'},
+    {name:'Labor',sub:'crew & cost',c:'#FF5C4D'},
+    {name:'Inventory',sub:'stock & waste',c:'#F7A088'},
+    {name:'Marketing',sub:'reach & ROI',c:'#E9A24A'},
+    {name:'Guests',sub:'CRM & loyalty',c:'#F6C66B'},
+    {name:'Next move',sub:'what to do now',c:'#F6F1E8'}
+  ];
+
+  /* ---- SVG sundae glass (tulip/footed). Strata clipped to bowl, rise on load. ---- */
+  function glassSVG(w, animate, withLabelsId){
+    // bowl interior bands: y from 318 (bottom) up to 86 (top). 7 layers.
+    const top=86, bot=318, n=LAYERS.length, band=(bot-top)/n;
+    let bands='';
+    for(let i=0;i<n;i++){
+      const L=LAYERS[i]; // i=0 Foundation(clay) at the BOTTOM ... Foresight(cream) on top
+      const y=bot-(i+1)*band;
+      const delay = animate ? (0.5 + i*0.16) : 0;
+      bands+=`<rect class="${animate?'vlayer':''}" x="40" y="${y.toFixed(1)}" width="160" height="${(band+0.6).toFixed(1)}" fill="${L.c}" style="animation-delay:${delay}s"/>`;
+    }
+    return `<svg width="${w}" viewBox="0 0 240 430" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Sundae glass of business layers">
+      <defs>
+        <clipPath id="bowl_${w}"><path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84 Z"/></clipPath>
+        <linearGradient id="gl_${w}" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="rgba(255,255,255,.22)"/><stop offset=".3" stop-color="rgba(255,255,255,.03)"/><stop offset="1" stop-color="rgba(255,255,255,.10)"/>
+        </linearGradient>
+      </defs>
+      <g clip-path="url(#bowl_${w})">${bands}
+        <g transform="skewX(-14)"><rect class="vsheen" x="42" y="55" width="46" height="288" fill="rgba(255,255,255,.42)"/></g>
+      </g>
+      <ellipse cx="120" cy="84" rx="64" ry="11" fill="rgba(246,241,232,.5)"/>
+      <ellipse cx="120" cy="84" rx="64" ry="11" fill="none" stroke="rgba(251,248,244,.6)" stroke-width="2"/>
+      <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84" fill="url(#gl_${w})"/>
+      <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84" fill="none" stroke="rgba(251,248,244,.55)" stroke-width="2"/>
+      <path d="M120,318 L120,372" stroke="rgba(251,248,244,.4)" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="120" cy="378" rx="40" ry="7" fill="none" stroke="rgba(251,248,244,.4)" stroke-width="2.5"/>
+      <g class="${animate?'vcherry':''}" style="animation-delay:1.85s">
+        <path d="M118 70 C118 50 132 45 142 35" stroke="#B23A1E" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+        <circle cx="114" cy="72" r="13" fill="#E03E48"/>
+        <ellipse cx="109" cy="66" rx="4.2" ry="2.8" fill="rgba(255,255,255,.5)"/>
+      </g>
+    </svg>`;
+  }
+  document.getElementById('heroVessel').innerHTML = glassSVG(240, true);
+  document.getElementById('miniVessel').innerHTML = glassSVG(150, false);
+
+  /* labels next to hero vessel */
+  const vl=document.getElementById('vlabels');
+  const n=LAYERS.length;
+  LAYERS.forEach((L,i)=>{
+    const pct=(1 - i/(n-1))*92; // Foundation(i=0) at bottom, Foresight at top
+    const d=document.createElement('div'); d.className='vlab'; d.style.top=pct+'%';
+    d.style.animationDelay=(1.2+i*0.16)+'s';
+    d.innerHTML=`<span class="ln"></span><span class="sw" style="background:${L.c}"></span><span><b>${L.name}</b> · ${L.sub}</span>`;
+    vl.appendChild(d);
+  });
+
+  /* ---- marks ---- */
+  function coupeMark(s,strataColors,stroke,cherryOn){
+    let r='';const cols=strataColors||['#F6C66B','#E9A24A','#F7A088','#FF5C4D'];
+    const top=44,bot=78,n=cols.length,band=(bot-top)/n;
+    for(let i=0;i<n;i++){const y=bot-(i+1)*band;r+=`<rect x="22" y="${y}" width="76" height="${band+0.5}" fill="${cols[n-1-i]}"/>`;}
+    const uid=`${s}${stroke?'l':'d'}${cherryOn?'c':''}`;
+    const cherry = cherryOn
+      ? `<path d="M58 40 C58 30 65 28 71 20" stroke="${stroke||'#B23A1E'}" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="55" cy="40" r="8" fill="#E03E48"/><ellipse cx="52" cy="37" rx="2.4" ry="1.6" fill="rgba(255,255,255,.5)"/>`
+      : '';
+    return `<svg width="${s}" height="${s}" viewBox="0 0 120 120"><defs><clipPath id="cp${uid}"><path d="M22 46 H98 A38 38 0 0 1 22 46 Z"/></clipPath></defs>
+      <g clip-path="url(#cp${uid})">${r}</g>
+      <path d="M22 46 H98 A38 38 0 0 1 22 46 Z" fill="none" stroke="${stroke||'rgba(251,248,244,.55)'}" stroke-width="2.5"/>
+      <path d="M60 78 L60 100" stroke="${stroke||'#B23A1E'}" stroke-width="6" stroke-linecap="round"/>
+      <path d="M44 104 H76" stroke="${stroke||'#B23A1E'}" stroke-width="6" stroke-linecap="round"/>${cherry}</svg>`;
+  }
+  /* standalone cherry — the signature particle (sphere + the all-important stem) */
+  function cherry(w,color){color=color||'#E03E48';
+    return `<svg width="${w}" viewBox="0 0 64 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M34 46 C34 27 47 21 56 11" stroke="#B23A1E" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <circle cx="28" cy="56" r="20" fill="${color}"/>
+      <ellipse cx="21" cy="49" rx="6" ry="4" fill="rgba(255,255,255,.45)"/></svg>`;}
+
+  /* ===== THE LAYERED TILE — primary symbol & favicon (strata + cream S + cherry on top) ===== */
+  const HARDSTOPS=`<stop offset="0" stop-color="#F6C66B"/><stop offset=".17" stop-color="#F6C66B"/><stop offset=".17" stop-color="#E9A24A"/><stop offset=".34" stop-color="#E9A24A"/><stop offset=".34" stop-color="#F7A088"/><stop offset=".52" stop-color="#F7A088"/><stop offset=".52" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#E03E48"/><stop offset=".86" stop-color="#E03E48"/><stop offset=".86" stop-color="#B23A1E"/><stop offset="1" stop-color="#B23A1E"/>`;
+  /* Size-aware S + cherry. Large: cut arm + balanced gap, the cherry completes the terminal with a thin stem.
+     Favicon (<42px): flush, bigger berry + thick short stem so the cherry still reads at 16px. */
+  function sArt(px,hd,cg){
+    var sm=px<42;
+    var sPath=sm?"M132,52 C112,46 72,48 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149"
+                :"M118,46 C100,41 72,45 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149";
+    var sw=sm?34:32, br=sm?22:16, stemW=sm?7:4.5;
+    var stem=sm?"M140,30 C144,22 150,19 156,13":"M140,36 C145,24 153,20 160,12";
+    var hx=(140-br*0.34).toFixed(1), hy=(50-br*0.4).toFixed(1), hrx=(br*0.3).toFixed(1), hry=(br*0.2).toFixed(1);
+    return `<path d="${sPath}" fill="none" stroke="url(#${hd})" stroke-width="${sw}" stroke-linecap="round"/>`+
+      `<path d="${stem}" stroke="#7d1f12" stroke-width="${stemW}" fill="none" stroke-linecap="round"/>`+
+      `<circle cx="140" cy="50" r="${br}" fill="url(#${cg})"/><ellipse cx="${hx}" cy="${hy}" rx="${hrx}" ry="${hry}" fill="rgba(255,255,255,.5)"/>`;
+  }
+  function tile(px){const u='t'+px;
+    return `<svg width="${px}" height="${px}" viewBox="0 0 200 200" style="overflow:visible;vertical-align:middle"><defs>
+      <clipPath id="tc${u}"><rect width="200" height="200" rx="45"/></clipPath>
+      <radialGradient id="cg${u}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient>
+      <radialGradient id="gl${u}" cx="0.5" cy="0" r="0.95"><stop offset="0" stop-color="rgba(255,124,90,.36)"/><stop offset="1" stop-color="rgba(255,124,90,0)"/></radialGradient>
+      <linearGradient id="hd${u}" x1="0" y1="0" x2="0" y2="1">${HARDSTOPS}</linearGradient></defs>
+      <g clip-path="url(#tc${u})"><rect width="200" height="200" fill="#1C1712"/><rect width="200" height="200" fill="url(#gl${u})"/>${sArt(px,'hd'+u,'cg'+u)}</g></svg>`;}
+  function layeredS(px){const u='s'+px;
+    return `<svg width="${px}" viewBox="0 0 212 200" fill="none" style="overflow:visible;vertical-align:middle"><defs>
+      <linearGradient id="hd${u}" x1="0" y1="0" x2="0" y2="1">${HARDSTOPS}</linearGradient>
+      <radialGradient id="cg${u}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient></defs>
+      ${sArt(px,'hd'+u,'cg'+u)}</svg>`;}
+  function scoopsMark(s,stroke){
+    return `<svg width="${s}" height="${s}" viewBox="0 0 120 120">
+      <path d="M30 84 A30 30 0 0 1 90 84 Z" fill="#E03E48"/>
+      <path d="M36 60 A24 24 0 0 1 84 60 Z" fill="#FF5C4D"/>
+      <path d="M42 40 A18 18 0 0 1 78 40 Z" fill="#E9A24A"/>
+      <circle cx="60" cy="22" r="7" fill="#F6C66B"/>
+      <path d="M30 84 H90" stroke="${stroke||'rgba(251,248,244,.5)'}" stroke-width="0"/></svg>`;
+  }
+  function lensMark(s,deep){
+    return `<svg width="${s}" height="${s}" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="34" fill="#E9A24A" opacity=".55"/><circle cx="60" cy="60" r="24" fill="#FF5C4D" opacity=".7"/><circle cx="60" cy="60" r="13" fill="${deep||'#E03E48'}"/>
+      <circle cx="60" cy="60" r="34" fill="none" stroke="rgba(251,248,244,.45)" stroke-width="1.5"/></svg>`;
+  }
+  document.getElementById('markTile').innerHTML=tile(150);
+  document.getElementById('favRow').innerHTML=[40,28,18].map(s=>`<div style="text-align:center"><div>${tile(s)}</div><div style="font-size:10px;color:var(--t3);margin-top:6px">${s}px</div></div>`).join('')+'<span style="margin-left:auto;font-size:11px;color:var(--t3)">favicon → app</span>';
+  document.getElementById('markS').innerHTML=layeredS(118);
+  document.getElementById('markSlight').innerHTML=layeredS(40);
+  document.getElementById('markLock').innerHTML=`<div style="display:flex;align-items:center;gap:14px">${tile(60)}<span style="font-family:var(--serif);font-weight:300;font-size:42px;letter-spacing:-.03em">sundae</span></div>`;
+  document.getElementById('markLockLight').innerHTML=`${tile(36)}<span style="font-family:var(--serif);font-weight:300;font-size:25px;letter-spacing:-.03em;margin-left:10px;color:#1a120c">sundae</span>`;
+
+  /* wordmark clean by default; expressive register = clean wordmark + cherry, for brand moments only */
+  document.getElementById('closeScoop').innerHTML='';
+  const ns=document.getElementById('navscoop'); if(ns) ns.innerHTML='';
+  const we=document.getElementById('wmExpr'); if(we) we.innerHTML='sundae<span style="margin-left:.06em;display:inline-flex;align-self:flex-start">'+cherry(26)+'</span>';
+  /* drill-path chips coloured by the strata — group(light) → item(deep) */
+  const DP=[['Group','#F6F1E8','#1a120c'],['Brand','#F6C66B','#1a120c'],['Region','#E9A24A','#1a120c'],['Outlet','#F7A088','#1a120c'],['Daypart','#FF5C4D','#fff'],['Category','#E03E48','#fff'],['Item','#B23A1E','#fff']];
+  const dpc=document.getElementById('dpChips');
+  if(dpc) dpc.innerHTML=DP.map((d,i)=>`<span class="dp" style="background:${d[1]};color:${d[2]}">${d[0]}</span>`+(i<DP.length-1?'<span class="ar">→</span>':'')).join('');
+  /* cherry section */
+  document.getElementById('bigCherry').innerHTML=cherry(150);
+  document.getElementById('smallCherry').innerHTML=cherry(34)+'<div class="lbl">unmistakable</div>';
+  document.getElementById('fav1').innerHTML=cherry(22);
+  document.getElementById('fav2').innerHTML=cherry(22);
+  document.querySelectorAll('#cbullets li').forEach(li=>{const c=document.createElement('span');c.innerHTML=cherry(15);c.style.flex='0 0 auto';c.style.display='inline-flex';li.prepend(c);});
+  document.getElementById('cdropCherry').innerHTML=cherry(32);
+  document.querySelectorAll('#cdrop .ml').forEach((m,i)=>m.style.animationDelay=(i*0.1)+'s');
+
+
+  /* layered chart */
+  const chart=document.getElementById('chart');
+  [60,85,72,95,68,80].forEach(h=>{const bar=document.createElement('div');bar.className='bar';bar.style.height=h+'%';
+    ['#F6C66B','#E9A24A','#FF5C4D','#E03E48'].forEach((c,i)=>{const seg=document.createElement('i');seg.style.background=c;seg.style.height=(18+i*6)+'%';bar.appendChild(seg);});chart.appendChild(bar);});
+
+  /* reveals + nav + progress */
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');if(e.target.id==='motiondemo'||e.target.id==='cdrop')e.target.classList.add('go');io.unobserve(e.target);}})},{threshold:.16});
+  document.querySelectorAll('.rv,#motiondemo,#cdrop').forEach(el=>io.observe(el));
+  document.querySelectorAll('#motiondemo .mlayer').forEach((m,i)=>m.style.animationDelay=(i*0.12)+'s');
+  const nav=document.getElementById('nav'),prog=document.getElementById('progress');
+  addEventListener('scroll',()=>{const h=document.documentElement;const p=h.scrollTop/(h.scrollHeight-h.clientHeight);prog.style.width=(p*100)+'%';nav.classList.toggle('scrolled',h.scrollTop>40);},{passive:true});
+</script>
+</body>
+</html>

@@ -10,6 +10,7 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { watchtowerCreamCopy } from "../watchtowerCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -21,7 +22,7 @@ import { watchtowerConviction } from "@/components/home/sections/routeConviction
 const localizedWatchtowerCopy = {
   en: {
     heroBadge: "Watchtower - External Intelligence Engine",
-    heroTitle: <>10+ Competitors Tracked Daily.<br />Zero Manual Research.</>,
+    heroTitle: '10+ Competitors Tracked Daily. Zero Manual Research.',
     heroDescription:
       "Competitor pricing changes tracked daily. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing - what's happening, why it matters, and what to do about it. Signals automatically cascade into Foresight assumptions.",
     heroNote: "Available on Core tiers. Choose individual intelligence types or the full Watchtower bundle.",
@@ -659,11 +660,7 @@ export default function WatchtowerPage() {
       <SectionProductGallery
         productFilter="/product/watchtower"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE WATCHTOWER IN ACTION",
-          title: "Every Watchtower surface, in detail.",
-          subtitle: "Real competitive-intelligence surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("watchtower", locale)}
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>

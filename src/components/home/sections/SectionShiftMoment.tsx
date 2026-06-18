@@ -1,7 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { motion, useInView, useReducedMotion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { MockupFrame } from '@/components/ui/MockupFrame';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';

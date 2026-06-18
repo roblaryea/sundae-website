@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getWebsiteIntlLocale } from "@/lib/i18n";
-import { heroDashboardCopy } from "./heroDashboardCopy";
+import { heroDashboardCopy, currencyByLocale } from "./heroDashboardCopy";
 
 /**
  * The hero dashboard's TEXT is fully localized via heroDashboardCopy (resolved
@@ -100,12 +101,22 @@ export function HeroLiveDashboard() {
   const isAhead = aheadBy >= 0;
   const fillPct = Math.min(100, (revenue / TARGET) * 100);
   const expectedPct = Math.min(100, (expected / TARGET) * 100);
-  const fmt = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
+  // Display currency follows the active locale (relatable, not a literal symbol
+  // swap): the USD figures are scaled to a plausible local magnitude and Intl
+  // handles the symbol + grouping + placement. Ratios (labor %, pace) are
+  // currency-agnostic, so only fmt() applies the scale.
+  const cur = currencyByLocale[locale as keyof typeof currencyByLocale] ?? currencyByLocale.en;
+  const money = new Intl.NumberFormat(getWebsiteIntlLocale(locale), {
+    style: "currency",
+    currency: cur.code,
+    maximumFractionDigits: 0,
+  });
+  const fmt = (n: number) => money.format(n * cur.scale);
 
   const liveValues: string[] = [
     fmt(revenue),
     covers.toString(),
-    `$${avgCheck.toFixed(2)}`,
+    fmt(avgCheck),
     `${laborPct.toFixed(1)}%`,
   ];
 
@@ -153,10 +164,13 @@ export function HeroLiveDashboard() {
         </div>
       </div>
 
-      {/* ── Two columns: pacing dashboard + Sundae Coach rail ── */}
-      <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-3">
-        {/* LEFT - pacing dashboard */}
-        <div className="space-y-3">
+      {/* ── Two columns: Sundae Coach (prioritized, first-read on desktop) + the
+             pacing dashboard that shows what changed. Order via CSS so the
+             animated cards never move in the DOM. ── */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-3">
+        {/* Pacing dashboard ("what changed") - always second, so the Coach's
+            recommended action is the first read on every breakpoint. */}
+        <div className="space-y-3 order-last">
           {/* Pace block */}
           <div className="rounded-xl border border-[var(--border-default)] bg-white/[0.025] p-3.5">
             <div className="flex items-end justify-between gap-3 mb-3">
@@ -252,7 +266,7 @@ export function HeroLiveDashboard() {
           </div>
         </div>
 
-        {/* RIGHT - Sundae Coach rail */}
+        {/* Sundae Coach - prioritized: first-read + dominant column on desktop */}
         <div className="rounded-xl border border-[#FF5C4D]/30 bg-gradient-to-b from-[#FF5C4D]/[0.10] to-[#FF5C4D]/[0.02] p-3 flex flex-col">
           <div className="flex items-center gap-2 mb-2.5">
             <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-[#FF5C4D]/20 text-[#FF8473] text-[11px]">
@@ -273,7 +287,7 @@ export function HeroLiveDashboard() {
                 <motion.div
                   key={`${coachIdx}-${slot}`}
                   initial={reduceMotion ? false : { opacity: 0, y: -8 }}
-                  animate={{ opacity: slot === 0 ? 1 : 0.5, y: 0 }}
+                  animate={{ opacity: slot === 0 ? 1 : 0.72, y: 0 }}
                   exit={reduceMotion ? undefined : { opacity: 0 }}
                   transition={{ duration: 0.4, ease: "easeOut" }}
                   className={`rounded-lg border p-2.5 ${
@@ -288,16 +302,20 @@ export function HeroLiveDashboard() {
                       style={{ backgroundColor: COACH_COLORS[c.idx] ?? "#FF8473" }}
                     />
                     <span
-                      className="text-[8.5px] sm:text-[9px] font-bold uppercase tracking-wider"
+                      className="text-[10px] sm:text-[10.5px] font-bold uppercase tracking-wider"
                       style={{ color: COACH_COLORS[c.idx] ?? "#FF8473" }}
                     >
                       {c.tag}
                     </span>
-                    <span className="ml-auto text-[8.5px] sm:text-[9px] font-mono tabular-nums text-[var(--text-supporting)]">
-                      {c.impact}
+                    <span className="ml-auto text-[10px] sm:text-[10.5px] font-mono tabular-nums text-[var(--text-supporting)]">
+                      {c.impact.replace("{up}", fmt(420)).replace("{lab}", fmt(280))}
                     </span>
                   </div>
-                  <p className="text-[10.5px] sm:text-[11px] leading-snug text-[var(--text-primary)]">
+                  <p
+                    className={`leading-snug text-[var(--text-primary)] ${
+                      slot === 0 ? "text-[13px] font-medium sm:text-[14px]" : "text-[12.5px] sm:text-[13px]"
+                    }`}
+                  >
                     {c.text}
                   </p>
                 </motion.div>
@@ -342,11 +360,11 @@ function LiveKPITile({
       transition={{ duration: 0.7, ease: "easeOut" }}
       className="rounded-lg p-2.5 border border-[var(--border-default)] min-w-0 overflow-hidden"
     >
-      <div className="text-[8.5px] sm:text-[9.5px] text-[var(--text-muted)] uppercase tracking-wider mb-1 truncate">
+      <div className="text-[10px] sm:text-[10.5px] text-[var(--text-muted)] uppercase tracking-wider mb-1 truncate">
         {label}
       </div>
       <div
-        className="text-sm sm:text-base font-bold font-mono tabular-nums truncate"
+        className="text-base sm:text-lg font-bold font-mono tabular-nums truncate"
         style={{ color }}
         aria-live="polite"
         aria-atomic="true"
@@ -355,7 +373,7 @@ function LiveKPITile({
       </div>
       {trend && (
         <div
-          className={`text-[9px] mt-0.5 truncate ${
+          className={`text-[10px] mt-0.5 truncate ${
             trendUp ? "text-[#22C55E]" : "text-[#FF5450]"
           }`}
         >

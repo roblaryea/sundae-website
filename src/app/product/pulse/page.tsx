@@ -7,6 +7,7 @@ import { REPORT_APP_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { SectionShiftMoment } from "@/components/home/sections/SectionShiftMoment";
 import {
   MockupFrame,
@@ -1442,11 +1443,7 @@ export default function PulsePage() {
       <SectionProductGallery
         productFilter="/product/pulse"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE PULSE IN ACTION",
-          title: "Every Pulse surface, in detail.",
-          subtitle: "Real shift-floor surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("pulse", locale)}
       />
 
       {/* CTA */}

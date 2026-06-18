@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#F6F1E8}
+  body{margin:0;background:#15110D;color:#FBF8F4;font-family:'General Sans',sans-serif;padding:44px}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:24px;margin:0 0 4px}
+  h2{font-family:'Fraunces',serif;font-weight:500;font-size:19px;margin:40px 0 16px}
+  .sub{color:rgba(251,248,244,.5);font-size:13px;margin-bottom:8px;max-width:74ch}
+  .row{display:flex;gap:30px;align-items:flex-start;flex-wrap:wrap}
+  .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:26px;text-align:center;width:230px}
+  .lbl{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#FF5C4D;font-weight:600;margin-bottom:16px}
+  .big{height:180px;display:flex;align-items:center;justify-content:center}
+  .favs{display:flex;gap:14px;align-items:flex-end;justify-content:center;margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.07)}
+  .favs .s{font-size:10px;color:rgba(251,248,244,.4);margin-top:5px}
+  .desc{font-size:12px;color:rgba(251,248,244,.55);margin-top:12px;line-height:1.5}
+  .flag{font-size:11px;font-weight:600;margin-top:10px;padding:4px 8px;border-radius:6px;display:inline-block}
+  .flag.bad{background:#3a1414;color:#ff8e85}.flag.ok{background:#13301d;color:#67e09a}
+</style></head><body>
+<h1>S-from-layers + flag-risk validation</h1>
+<div class="sub">Your two points, tested. First: does the striped background read as a flag? Second: can the layers themselves form the S?</div>
+
+<h2>1 · Flag-risk check — striped field vs gradient field</h2>
+<div class="sub">Classic pride flag = red/orange/yellow/green/blue/violet. Ours is warm-only (no green/blue/violet), so it’s not the rainbow — but even, full-width horizontal stripes still read “flag”. A smooth gradient removes that read entirely.</div>
+<div class="row" id="flagRow"></div>
+
+<h2>2 · The S built FROM the layers (the failed idea, done right)</h2>
+<div class="row" id="layerRow"></div>
+
+<script>
+const CG=`<radialGradient id="CG" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient>`;
+const berry=(cx,cy,r)=>`<circle cx="${cx}" cy="${cy}" r="${r}" fill="url(#CG)"/><ellipse cx="${cx-r*0.34}" cy="${cy-r*0.4}" rx="${r*0.3}" ry="${r*0.2}" fill="rgba(255,255,255,.5)"/>`;
+const stem=`<path d="M140,44 C145,30 154,26 161,17" stroke="#7d1f12" stroke-width="5" fill="none" stroke-linecap="round"/>`;
+const S_PATH="M140,60 C140,40 72,39 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149";
+const STRIPES=`<rect y="0" width="200" height="30" fill="#F6C66B"/><rect y="30" width="200" height="32" fill="#E9A24A"/><rect y="62" width="200" height="32" fill="#F7A088"/><rect y="94" width="200" height="34" fill="#FF5C4D"/><rect y="128" width="200" height="36" fill="#E03E48"/><rect y="164" width="200" height="40" fill="#B23A1E"/>`;
+
+function defs(){return `<defs><clipPath id="TC"><rect width="200" height="200" rx="45"/></clipPath>${CG}
+  <linearGradient id="GR" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#F6C66B"/><stop offset=".45" stop-color="#FF5C4D"/><stop offset="1" stop-color="#C2410C"/></linearGradient>
+  <linearGradient id="SH" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(255,255,255,.22)"/><stop offset=".42" stop-color="rgba(255,255,255,0)"/></linearGradient>
+  <linearGradient id="HARDS" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F6C66B"/><stop offset=".17" stop-color="#F6C66B"/><stop offset=".17" stop-color="#E9A24A"/><stop offset=".34" stop-color="#E9A24A"/>
+    <stop offset=".34" stop-color="#F7A088"/><stop offset=".52" stop-color="#F7A088"/><stop offset=".52" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#FF5C4D"/>
+    <stop offset=".70" stop-color="#E03E48"/><stop offset=".86" stop-color="#E03E48"/><stop offset=".86" stop-color="#B23A1E"/><stop offset="1" stop-color="#B23A1E"/></linearGradient>
+  <filter id="DS" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#3a0f08" flood-opacity="0.4"/></filter></defs>`;}
+
+function svg(px,inner,cls){return `<svg width="${px}" height="${px}" viewBox="0 0 200 200" style="overflow:visible;vertical-align:middle">${defs()}${inner}</svg>`;}
+const creamS=`<path d="${S_PATH}" fill="none" stroke="#F8F3EA" stroke-width="30" stroke-linecap="round" filter="url(#DS)"/>${stem}${berry(140,60,18)}`;
+
+// ---- flag row ----
+document.getElementById('flagRow').innerHTML = `
+  <div class="card"><div class="lbl">striped field + cream S</div><div class="big">${svg(160,`<g clip-path="url(#TC)">${STRIPES}<rect width="200" height="200" fill="url(#SH)"/>${creamS}</g>`)}</div>
+    <span class="flag bad">⚠ reads flag-ish</span><div class="desc">Even full-width stripes behind the S — the element most likely to evoke a flag.</div></div>
+  <div class="card"><div class="lbl">gradient field + cream S</div><div class="big">${svg(160,`<g clip-path="url(#TC)"><rect width="200" height="200" fill="url(#GR)"/><rect width="200" height="200" fill="url(#SH)"/>${creamS}</g>`)}</div>
+    <span class="flag ok">✓ no flag read</span><div class="desc">Smooth warm gradient — still warm/“sundae”, but no stripes = no flag. Layers now live in the S, not the background.</div></div>`;
+
+// ---- S from layers ----
+// L1: S stroke filled with HARD-STOP strata → the S itself is layered
+const layeredStrokeS=`<path d="${S_PATH}" fill="none" stroke="url(#HARDS)" stroke-width="32" stroke-linecap="round"/>${stem}${berry(140,60,17)}`;
+// L2: segmented blocky S — each segment a layer color
+const blockyS=`
+  <g>
+    <rect x="44" y="40" width="112" height="26" rx="13" fill="#F6C66B"/>
+    <rect x="44" y="52" width="26" height="52" rx="13" fill="#E9A24A"/>
+    <rect x="44" y="88" width="112" height="26" rx="13" fill="#FF5C4D"/>
+    <rect x="130" y="100" width="26" height="52" rx="13" fill="#E03E48"/>
+    <rect x="44" y="138" width="112" height="26" rx="13" fill="#B23A1E"/>
+  </g>${''}
+  <g transform="translate(20,0)">${stem.replace('140,44','150,38').replace('145,30 154,26 161,17','155,24 164,20 171,11')}${berry(150,38,15)}</g>`;
+// L3: stacked offset bars whose ends trace an S (refined version of the failed one)
+const offsetBarsS=`
+  <rect x="50" y="44" width="108" height="20" rx="10" fill="#F6C66B"/>
+  <rect x="50" y="70" width="80" height="20" rx="10" fill="#E9A24A"/>
+  <rect x="50" y="92" width="100" height="20" rx="10" fill="#FF5C4D"/>
+  <rect x="78" y="114" width="80" height="20" rx="10" fill="#E03E48"/>
+  <rect x="50" y="136" width="108" height="20" rx="10" fill="#B23A1E"/>
+  <g transform="translate(18,2)">${berry(150,36,14)}${stem.replace('140,44','150,36').replace('145,30 154,26 161,17','155,22 164,18 171,9')}</g>`;
+
+document.getElementById('layerRow').innerHTML = `
+  <div class="card"><div class="lbl">L1 · layered-stroke S</div><div class="big">${svg(160,layeredStrokeS)}</div>
+    <div class="favs"><div>${svg(40,layeredStrokeS)}<div class="s">40</div></div><div>${svg(24,layeredStrokeS)}<div class="s">24</div></div></div>
+    <div class="desc">One S stroke filled with hard-stop strata — the layers literally run through the letter. Cherry caps it. No background = no flag.</div></div>
+  <div class="card"><div class="lbl">L2 · segmented blocky S</div><div class="big">${svg(160,blockyS)}</div>
+    <div class="favs"><div>${svg(40,blockyS)}<div class="s">40</div></div><div>${svg(24,blockyS)}<div class="s">24</div></div></div>
+    <div class="desc">The S built from coloured layer-blocks — each segment a layer. Most literal “layers create the S”.</div></div>
+  <div class="card"><div class="lbl">L3 · offset bars (the failed idea, tuned)</div><div class="big">${svg(160,offsetBarsS)}</div>
+    <div class="favs"><div>${svg(40,offsetBarsS)}<div class="s">40</div></div><div>${svg(24,offsetBarsS)}<div class="s">24</div></div></div>
+    <div class="desc">Stacked bars offset so their ends trace an S. Honest retry of the original — does it read as S now?</div></div>
+  <div class="card"><div class="lbl">L1 in a gradient tile</div><div class="big">${svg(160,`<g clip-path="url(#TC)"><rect width="200" height="200" fill="#1C1712"/><rect width="200" height="200" fill="url(#SH)"/>${layeredStrokeS}</g>`)}</div>
+    <div class="desc">Layered-stroke S on a dark tile — layers in the letter, calm background. Premium + flag-safe.</div></div>`;
+</script>
+</body></html>

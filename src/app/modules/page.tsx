@@ -519,7 +519,7 @@ export default function ModulesPage() {
   const cream = modulesCreamCopy[locale as keyof typeof modulesCreamCopy] ?? modulesCreamCopy.en;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50">
+    <div className="min-h-screen bg-gradient-to-br from-stone-50 via-white to-orange-50">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50/80 via-purple-50/30 to-orange-50/60">
         <div className="max-w-7xl mx-auto text-center">
@@ -711,7 +711,7 @@ export default function ModulesPage() {
 
             <div className="bg-gradient-to-br from-[#FFF1EC] to-orange-50 rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-[#FF5C4D] rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#F0A23C] to-[#FF5C4D] rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   2
                 </div>
                 <h3 className="text-xl font-bold text-[var(--text-primary)]">{page.howItWorks[1].title}</h3>
@@ -828,7 +828,7 @@ export default function ModulesPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             {page.ctaTitle}

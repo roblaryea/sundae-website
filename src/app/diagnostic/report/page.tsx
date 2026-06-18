@@ -40,11 +40,11 @@ async function fetchReport(token: string): Promise<ReportResponse | null> {
 function NotFound({ locale }: { locale: WebsiteLocale }) {
   const copy = getDiagnosticCopy(locale);
   return (
-    <div className="min-h-screen bg-[#020617] text-slate-100 grid place-items-center px-6" dir={copy.dir}>
+    <div className="min-h-screen bg-[#020617] text-stone-100 grid place-items-center px-6" dir={copy.dir}>
       <div className="text-center max-w-md">
         <span className="text-2xl font-extrabold tracking-tight">sundae<span className="text-[#FF5C4D]">.</span></span>
         <h1 className="text-xl font-bold mt-6">{copy.share.notFoundTitle}</h1>
-        <p className="text-sm text-slate-400 mt-2">
+        <p className="text-sm text-stone-400 mt-2">
           {copy.share.notFoundBody}
         </p>
         <Link href="/diagnostic" className="inline-flex items-center gap-1.5 mt-6 px-5 py-2.5 rounded-xl bg-[#FF5C4D] hover:bg-[#C2410C] text-white text-sm font-bold transition-colors">

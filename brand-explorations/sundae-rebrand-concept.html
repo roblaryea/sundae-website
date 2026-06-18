@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sundae — Brand Concept · See Every Layer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --deep:#15110D; --deep2:#1F1A15; --surface:#29221B;
+    --cream:#F6F1E8; --amber:#F6C66B; --caramel:#E9A24A; --rose:#F7A088;
+    --coral:#FF5C4D; --cherry:#E03E48; --clay:#B23A1E;
+    --white:#FBF8F4;
+    --t1:rgba(251,248,244,.95); --t2:rgba(251,248,244,.66); --t3:rgba(251,248,244,.42); --t4:rgba(251,248,244,.20);
+    --serif:'Fraunces',Georgia,serif; --sans:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --ease:cubic-bezier(.16,1,.3,1);
+    --strata:linear-gradient(180deg,#F6F1E8 0%,#F6C66B 20%,#E9A24A 38%,#F7A088 56%,#FF5C4D 74%,#E03E48 88%,#B23A1E 100%);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--deep);color:var(--white);font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;overflow-x:hidden;line-height:1.5;}
+  ::selection{background:var(--coral);color:#1a120c}
+
+  /* film grain */
+  .grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.045;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+  .vignette{position:fixed;inset:0;z-index:8999;pointer-events:none;
+    background:radial-gradient(130% 110% at 50% 40%,transparent 55%,rgba(0,0,0,.42) 100%);}
+
+  /* nav */
+  nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;
+    padding:20px 34px;mix-blend-mode:difference;}
+  .nav-mark{font-family:var(--serif);font-weight:500;font-size:21px;letter-spacing:-.02em;color:#fff;display:flex;align-items:center;gap:2px}
+  .nav-mark .dot{width:7px;height:7px;border-radius:50%;background:var(--coral);display:inline-block;margin-left:1px;transform:translateY(2px)}
+  .nav-meta{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#fff;opacity:.8}
+
+  /* scroll progress strata bar */
+  .progress{position:fixed;top:0;left:0;height:3px;z-index:1001;background:var(--strata);background-size:100% 100vh;width:0;}
+
+  section{position:relative;padding:0 clamp(22px,6vw,90px)}
+  .wrap{max-width:1180px;margin:0 auto}
+
+  .eyebrow{font-size:11.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--coral);font-weight:600;margin-bottom:22px;display:flex;align-items:center;gap:12px}
+  .eyebrow::before{content:"";width:26px;height:1px;background:var(--coral);opacity:.7}
+
+  h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.018em;line-height:1.02}
+  .display{font-size:clamp(52px,9.5vw,148px);font-weight:300;line-height:.92;letter-spacing:-.03em}
+  .h2{font-size:clamp(34px,5.2vw,72px);font-weight:300;line-height:1.0;letter-spacing:-.025em}
+  .lede{font-family:var(--sans);font-size:clamp(16px,1.6vw,21px);line-height:1.6;color:var(--t2);font-weight:400;max-width:60ch}
+  em{font-style:italic;color:var(--amber)}
+
+  /* reveal */
+  .rv{opacity:0;transform:translateY(26px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease)}
+  .rv.in{opacity:1;transform:none}
+  .rv2{transition-delay:.12s}.rv3{transition-delay:.24s}.rv4{transition-delay:.36s}.rv5{transition-delay:.48s}
+
+  /* ================= HERO ================= */
+  #hero{min-height:100vh;display:flex;align-items:center;overflow:hidden;
+    background:
+      radial-gradient(120% 80% at 78% 18%,rgba(255,92,77,.16) 0%,transparent 55%),
+      radial-gradient(90% 70% at 12% 88%,rgba(233,162,74,.12) 0%,transparent 55%),
+      var(--deep);}
+  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;width:100%}
+  @media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:54px}}
+  .hero-copy .display span{display:block;overflow:hidden}
+  .hero-copy .display span b{font-weight:300;display:block;transform:translateY(110%);animation:rise 1.3s var(--ease) forwards}
+  .hero-copy .display .l2 b{animation-delay:.14s}.hero-copy .display .l3 b{animation-delay:.28s;font-style:italic;color:var(--amber)}
+  @keyframes rise{to{transform:none}}
+  .hero-sub{margin-top:30px;opacity:0;animation:fadeUp 1.2s var(--ease) .7s forwards}
+  .hero-cta{margin-top:40px;display:flex;gap:16px;align-items:center;opacity:0;animation:fadeUp 1.2s var(--ease) .95s forwards;flex-wrap:wrap}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+  .btn{font-family:var(--sans);font-weight:600;font-size:15px;padding:15px 26px;border-radius:100px;border:0;cursor:pointer;text-decoration:none;display:inline-block;
+    background:linear-gradient(180deg,#FF7E6F,#E03E48);color:#fff;box-shadow:0 14px 40px -12px rgba(224,62,72,.7);transition:transform .3s var(--ease),box-shadow .3s}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 20px 50px -12px rgba(224,62,72,.8)}
+  .btn.ghost{background:transparent;border:1px solid rgba(251,248,244,.22);box-shadow:none;color:var(--t1)}
+  .btn.ghost:hover{border-color:var(--coral)}
+
+  /* THE VESSEL */
+  .vessel-stage{position:relative;display:flex;justify-content:center;align-items:center;min-height:560px}
+  .glow{position:absolute;width:420px;height:420px;border-radius:50%;
+    background:radial-gradient(circle,rgba(255,92,77,.28),transparent 65%);filter:blur(20px);animation:breathe 7s ease-in-out infinite}
+  @keyframes breathe{0%,100%{transform:scale(1);opacity:.7}50%{transform:scale(1.12);opacity:1}}
+  .vessel{position:relative;width:228px;height:430px;z-index:2}
+  .glass{position:absolute;inset:0;border-radius:14px 14px 78px 78px/14px 14px 150px 150px;
+    border:1.5px solid rgba(251,248,244,.16);overflow:hidden;
+    background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.01));
+    backdrop-filter:blur(2px);box-shadow:inset 0 0 60px rgba(0,0,0,.35), 0 40px 80px -30px rgba(0,0,0,.7)}
+  .layer{position:absolute;left:0;right:0;transform:scaleY(0);transform-origin:bottom;opacity:0;
+    animation:fill 1s var(--ease) forwards;box-shadow:inset 0 8px 16px -8px rgba(255,255,255,.4)}
+  @keyframes fill{to{transform:scaleY(1);opacity:1}}
+  .layer::after{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:rgba(255,255,255,.35)}
+  /* light sweep */
+  .sheen{position:absolute;inset:0;background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.22) 50%,transparent 60%);
+    transform:translateX(-120%);animation:sweep 5.5s ease-in-out 2.6s infinite;z-index:3;pointer-events:none}
+  @keyframes sweep{0%{transform:translateX(-120%)}30%,100%{transform:translateX(120%)}}
+  .rim{position:absolute;top:-1px;left:-1px;right:-1px;height:16px;border-radius:14px 14px 0 0;
+    border:1.5px solid rgba(251,248,244,.28);border-bottom:0;background:linear-gradient(180deg,rgba(255,255,255,.12),transparent);z-index:4}
+  /* labels */
+  .vlabels{position:absolute;left:calc(50% + 130px);top:0;height:100%;width:230px;z-index:5}
+  @media(max-width:1100px){.vlabels{left:calc(50% + 120px);width:180px}}
+  @media(max-width:680px){.vlabels{display:none}}
+  .vlab{position:absolute;display:flex;align-items:center;gap:10px;opacity:0;transform:translateX(-12px);
+    animation:labin .7s var(--ease) forwards;font-size:13px;color:var(--t2);white-space:nowrap}
+  @keyframes labin{to{opacity:1;transform:none}}
+  .vlab .ln{width:30px;height:1px;background:rgba(251,248,244,.25)}
+  .vlab .sw{width:9px;height:9px;border-radius:50%}
+  .vlab b{color:var(--t1);font-weight:600}
+
+  .scrollcue{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--t3);
+    opacity:0;animation:fadeUp 1s 1.6s forwards;display:flex;flex-direction:column;align-items:center;gap:10px}
+  .scrollcue .line{width:1px;height:38px;background:linear-gradient(var(--coral),transparent);animation:cue 2s ease-in-out infinite}
+  @keyframes cue{0%,100%{transform:scaleY(.4);opacity:.4;transform-origin:top}50%{transform:scaleY(1);opacity:1;transform-origin:top}}
+
+  /* ================= MANIFESTO ================= */
+  #idea{padding-top:18vh;padding-bottom:18vh;background:
+    linear-gradient(180deg,var(--deep),#120e0a 50%,var(--deep))}
+  .manifesto{font-family:var(--serif);font-weight:300;font-size:clamp(28px,4.4vw,60px);line-height:1.18;letter-spacing:-.02em;max-width:18ch}
+  .manifesto .hl{color:var(--amber);font-style:italic}
+  .idea-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:90px}
+  @media(max-width:760px){.idea-row{grid-template-columns:1fr;gap:34px}}
+  .idea-row p{color:var(--t2);font-size:16.5px;line-height:1.7;max-width:46ch}
+  .idea-row .k{font-family:var(--serif);font-style:italic;color:var(--coral);font-size:19px;display:block;margin-bottom:10px}
+
+  /* ================= SYMBOLS ================= */
+  #symbols{padding:16vh 0;background:var(--deep2)}
+  .sym-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px}
+  @media(max-width:880px){.sym-grid{grid-template-columns:1fr;max-width:440px;margin-left:auto;margin-right:auto}}
+  .symcard{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));border:1px solid rgba(251,248,244,.09);
+    border-radius:22px;padding:38px 30px;transition:border-color .4s,transform .4s var(--ease)}
+  .symcard:hover{border-color:rgba(255,92,77,.4);transform:translateY(-5px)}
+  .symcard .stage{height:170px;display:flex;align-items:center;justify-content:center;margin-bottom:26px}
+  .symcard h3{font-size:23px;font-weight:500;margin-bottom:8px}
+  .symcard .tag{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--coral);margin-bottom:16px;font-weight:600}
+  .symcard p{font-size:14px;color:var(--t2);line-height:1.6}
+  .symcard .mini{display:flex;gap:10px;margin-top:22px;align-items:center}
+  .symcard .mini .chip{background:#0e0b08;border:1px solid rgba(251,248,244,.08);border-radius:8px;padding:7px;display:flex;align-items:center;justify-content:center}
+  .symcard .mini .chip.light{background:var(--cream)}
+  .symcard .mini span{font-size:11px;color:var(--t3);margin-left:auto}
+  svg .set{animation:settle 1.1s var(--ease) both}
+  .symcard:hover svg .set{animation:settle 1.1s var(--ease) both}
+  @keyframes settle{0%{transform:translateY(-14px) scaleY(.2);opacity:0}100%{transform:none;opacity:1}}
+
+  /* ================= LANGUAGE / SYSTEM ================= */
+  #system{padding:16vh 0;background:linear-gradient(180deg,var(--deep2),var(--deep))}
+  .sys-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:60px}
+  @media(max-width:860px){.sys-grid{grid-template-columns:1fr}}
+  .panel{background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01));border:1px solid rgba(251,248,244,.08);border-radius:20px;padding:32px;overflow:hidden}
+  .panel h4{font-family:var(--sans);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--t3);font-weight:600;margin-bottom:8px}
+  .panel .big{font-family:var(--serif);font-size:25px;font-weight:400;margin-bottom:18px}
+  .strata-bar{height:300px;border-radius:14px;background:var(--strata);position:relative;overflow:hidden}
+  .strata-bar .lbl{position:absolute;left:18px;color:#1a120c;font-size:12px;font-weight:600;letter-spacing:.02em}
+  /* layered chart */
+  .chart{display:flex;align-items:flex-end;gap:10px;height:200px;margin-top:10px}
+  .bar{flex:1;border-radius:6px 6px 0 0;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+  .bar i{display:block;width:100%}
+  .divider-demo{height:1px;background:var(--strata);background-size:100% 6px;margin:26px 0}
+  .motion-demo{position:relative;height:200px;display:flex;align-items:center;justify-content:center;gap:0;flex-direction:column}
+  .mlayer{height:20px;width:70%;border-radius:6px;margin:3px 0;transform-origin:center}
+  .motion-demo.go .mlayer{animation:msettle 1s var(--ease) both}
+  @keyframes msettle{0%{opacity:0;transform:translateY(-30px) scaleX(.6)}100%{opacity:1;transform:none}}
+
+  /* ================= COLOR + TYPE ================= */
+  #palette{padding:14vh 0;background:var(--deep)}
+  .sw-row{display:grid;grid-template-columns:repeat(7,1fr);gap:0;margin-top:50px;border-radius:16px;overflow:hidden}
+  @media(max-width:760px){.sw-row{grid-template-columns:repeat(4,1fr)}}
+  .sw{height:160px;display:flex;flex-direction:column;justify-content:flex-end;padding:14px;position:relative}
+  .sw .n{font-size:12px;font-weight:600}.sw .h{font-size:10px;opacity:.7;font-family:var(--sans)}
+  .type-spec{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:60px}
+  @media(max-width:760px){.type-spec{grid-template-columns:1fr}}
+  .type-card{border:1px solid rgba(251,248,244,.08);border-radius:18px;padding:34px;background:rgba(255,255,255,.02)}
+  .type-card .label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--coral);font-weight:600;margin-bottom:22px}
+  .spec-serif{font-family:var(--serif);font-size:46px;font-weight:300;line-height:1;margin-bottom:6px}
+  .spec-serif.i{font-style:italic;color:var(--amber);font-size:34px}
+  .spec-sans{font-family:var(--sans)}
+  .spec-sans .xl{font-size:30px;font-weight:700;letter-spacing:-.02em}
+  .glyphline{font-size:13px;color:var(--t3);margin-top:18px;letter-spacing:.04em}
+
+  /* ================= HOMEPAGE HERO MOCK ================= */
+  #hpmock{padding:16vh 0;background:linear-gradient(180deg,var(--deep),#120e0a)}
+  .browser{max-width:1060px;margin:54px auto 0;border-radius:18px;overflow:hidden;border:1px solid rgba(251,248,244,.1);
+    box-shadow:0 50px 120px -40px rgba(0,0,0,.8)}
+  .bchrome{background:#0e0b08;padding:12px 16px;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(251,248,244,.06)}
+  .bdot{width:11px;height:11px;border-radius:50%}
+  .burl{margin-left:14px;font-size:12px;color:var(--t3);background:rgba(255,255,255,.04);padding:5px 14px;border-radius:7px}
+  .bview{background:radial-gradient(120% 80% at 80% 0%,rgba(255,92,77,.14),transparent 55%),var(--deep);padding:58px 50px 64px;position:relative;overflow:hidden}
+  @media(max-width:680px){.bview{padding:36px 24px}}
+  .bview .eyebrow{margin-bottom:18px}
+  .hp-h{font-family:var(--serif);font-weight:300;font-size:clamp(32px,5vw,58px);line-height:1.0;letter-spacing:-.025em;max-width:14ch}
+  .hp-sub{color:var(--t2);font-size:16px;margin-top:20px;max-width:46ch;line-height:1.6}
+  .hp-cta{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap}
+  .mini-vessel{position:absolute;right:46px;top:50%;transform:translateY(-50%);width:150px;height:270px}
+  @media(max-width:680px){.mini-vessel{display:none}}
+
+  /* ================= CLOSE ================= */
+  #close{min-height:84vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+    background:radial-gradient(100% 70% at 50% 50%,rgba(255,92,77,.13),transparent 60%),var(--deep);gap:30px}
+  .close-mark{font-family:var(--serif);font-size:clamp(60px,12vw,150px);font-weight:300;letter-spacing:-.04em;display:flex;align-items:flex-end;gap:4px}
+  .close-mark .dot{width:18px;height:18px;border-radius:50%;background:var(--coral);margin-bottom:18px}
+  footer{padding:40px;text-align:center;color:var(--t4);font-size:12px;letter-spacing:.04em}
+  .tagit{font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--t3)}
+</style>
+</head>
+<body>
+<div class="grain"></div>
+<div class="vignette"></div>
+<div class="progress" id="progress"></div>
+
+<nav>
+  <div class="nav-mark">sundae<span class="dot"></span></div>
+  <div class="nav-meta">Brand Concept · 2026</div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow" style="animation:fadeUp 1s .2s both">A clean-sheet identity</div>
+      <h1 class="display">
+        <span class="l1"><b>See</b></span>
+        <span class="l2"><b>every</b></span>
+        <span class="l3"><b>layer.</b></span>
+      </h1>
+      <p class="lede hero-sub">Sundae is the Decision Intelligence platform for multi&#8209;location operators — the whole business, every layer, in one transparent view. Nothing buried at the bottom.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#idea">Explore the concept</a>
+        <a class="btn ghost" href="#symbols">See the marks</a>
+      </div>
+    </div>
+    <div class="vessel-stage">
+      <div class="glow"></div>
+      <div class="vessel" id="vessel">
+        <div class="glass" id="glass"><div class="sheen"></div></div>
+        <div class="rim"></div>
+      </div>
+      <div class="vlabels" id="vlabels"></div>
+    </div>
+  </div>
+  <div class="scrollcue"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<!-- ================= MANIFESTO ================= -->
+<section id="idea">
+  <div class="wrap">
+    <div class="eyebrow rv">The idea</div>
+    <div class="manifesto rv rv2">A sundae is the one dessert you can <span class="hl">see all the way through.</span> Served tall, in clear glass — every layer at once.</div>
+    <div class="idea-row">
+      <div class="rv">
+        <span class="k">The reframe</span>
+        <p>We don't sell the ice cream. We own the <em>glass</em>. The promise isn't indulgence — it's <b>total visibility</b>: layering, transparency, completeness. The exact thing an operator wants from their numbers.</p>
+      </div>
+      <div class="rv rv2">
+        <span class="k">Why it's true</span>
+        <p>Your business <b>is</b> layers — group → brand → region → outlet; revenue → category → daypart → a single item. Sundae lets you see through every one of them, missing nothing. The metaphor and the moat are the same shape.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SYMBOLS ================= -->
+<section id="symbols">
+  <div class="wrap">
+    <div class="eyebrow rv">The mark · three directions</div>
+    <h2 class="h2 rv rv2">One name. Three ways<br>to draw the layers.</h2>
+    <div class="sym-grid">
+
+      <!-- A: The Coupe -->
+      <div class="symcard rv">
+        <div class="stage">
+          <svg width="120" height="120" viewBox="0 0 120 120" aria-label="Coupe mark">
+            <defs><clipPath id="bowl"><path d="M22 46 H98 A38 38 0 0 1 22 46 Z"/></clipPath></defs>
+            <g clip-path="url(#bowl)">
+              <rect class="set" x="22" y="46" width="76" height="9" fill="#F6C66B" style="animation-delay:.0s"/>
+              <rect class="set" x="22" y="55" width="76" height="11" fill="#E9A24A" style="animation-delay:.1s"/>
+              <rect class="set" x="22" y="66" width="76" height="12" fill="#F7A088" style="animation-delay:.2s"/>
+              <rect class="set" x="22" y="78" width="76" height="22" fill="#FF5C4D" style="animation-delay:.3s"/>
+            </g>
+            <path d="M22 46 H98 A38 38 0 0 1 22 46 Z" fill="none" stroke="rgba(251,248,244,.5)" stroke-width="2"/>
+            <rect x="56" y="84" width="8" height="22" rx="2" fill="#B23A1E"/>
+            <rect x="44" y="104" width="32" height="6" rx="3" fill="#B23A1E"/>
+          </svg>
+        </div>
+        <div class="tag">A · evolution</div>
+        <h3>The Coupe</h3>
+        <p>Keeps the wordmark's coral curve, now read with intent — the base of the glass. Layers fill a classic coupe. Most equity preserved.</p>
+        <div class="mini">
+          <div class="chip"><svg width="20" height="20" viewBox="0 0 120 120"><g><rect x="34" y="48" width="52" height="30" rx="2" fill="#FF5C4D"/></g><path d="M30 46 H90 A30 30 0 0 1 30 46Z" fill="none" stroke="#fff" stroke-width="3"/></svg></div>
+          <div class="chip light"><svg width="20" height="20" viewBox="0 0 120 120"><g><rect x="34" y="48" width="52" height="30" rx="2" fill="#E03E48"/></g><path d="M30 46 H90 A30 30 0 0 1 30 46Z" fill="none" stroke="#B23A1E" stroke-width="3"/></svg></div>
+          <span>favicon → app</span>
+        </div>
+      </div>
+
+      <!-- B: The Strata S -->
+      <div class="symcard rv rv2">
+        <div class="stage">
+          <svg width="120" height="120" viewBox="0 0 120 120" aria-label="Strata S mark">
+            <g>
+              <rect class="set" x="30" y="30" width="60" height="13" rx="6.5" fill="#F6C66B" style="animation-delay:0s"/>
+              <rect class="set" x="42" y="46" width="48" height="13" rx="6.5" fill="#E9A24A" style="animation-delay:.1s"/>
+              <rect class="set" x="30" y="62" width="60" height="13" rx="6.5" fill="#FF5C4D" style="animation-delay:.2s"/>
+              <rect class="set" x="30" y="78" width="48" height="13" rx="6.5" fill="#E03E48" style="animation-delay:.3s"/>
+            </g>
+          </svg>
+        </div>
+        <div class="tag">B · the system mark</div>
+        <h3>The Strata</h3>
+        <p>An abstract “S” built from offset layers — a cross-section. Reads as stacked data, scales to a single favicon, and IS the layer system in miniature.</p>
+        <div class="mini">
+          <div class="chip"><svg width="20" height="20" viewBox="0 0 120 120"><rect x="34" y="40" width="52" height="10" rx="5" fill="#F6C66B"/><rect x="42" y="55" width="44" height="10" rx="5" fill="#FF5C4D"/><rect x="34" y="70" width="52" height="10" rx="5" fill="#E03E48"/></svg></div>
+          <div class="chip light"><svg width="20" height="20" viewBox="0 0 120 120"><rect x="34" y="40" width="52" height="10" rx="5" fill="#E9A24A"/><rect x="42" y="55" width="44" height="10" rx="5" fill="#FF5C4D"/><rect x="34" y="70" width="52" height="10" rx="5" fill="#B23A1E"/></svg></div>
+          <span>favicon → app</span>
+        </div>
+      </div>
+
+      <!-- C: The Lens -->
+      <div class="symcard rv rv3">
+        <div class="stage">
+          <svg width="120" height="120" viewBox="0 0 120 120" aria-label="Lens mark">
+            <g>
+              <circle class="set" cx="60" cy="60" r="34" fill="#E9A24A" opacity=".55" style="animation-delay:0s"/>
+              <circle class="set" cx="60" cy="60" r="25" fill="#FF5C4D" opacity=".65" style="animation-delay:.12s"/>
+              <circle class="set" cx="60" cy="60" r="15" fill="#E03E48" style="animation-delay:.24s"/>
+              <circle cx="60" cy="60" r="34" fill="none" stroke="rgba(251,248,244,.45)" stroke-width="1.5"/>
+            </g>
+          </svg>
+        </div>
+        <div class="tag">C · seeing through</div>
+        <h3>The Lens</h3>
+        <p>Translucent layers seen from above — depth, looking <em>through</em> the strata. The most abstract and modern; leans into the “visibility” idea over the dessert.</p>
+        <div class="mini">
+          <div class="chip"><svg width="20" height="20" viewBox="0 0 120 120"><circle cx="60" cy="60" r="32" fill="#E9A24A" opacity=".55"/><circle cx="60" cy="60" r="22" fill="#FF5C4D" opacity=".7"/><circle cx="60" cy="60" r="12" fill="#E03E48"/></svg></div>
+          <div class="chip light"><svg width="20" height="20" viewBox="0 0 120 120"><circle cx="60" cy="60" r="32" fill="#E9A24A" opacity=".6"/><circle cx="60" cy="60" r="22" fill="#FF5C4D" opacity=".8"/><circle cx="60" cy="60" r="12" fill="#B23A1E"/></svg></div>
+          <span>favicon → app</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- wordmark lockup -->
+    <div class="rv rv3" style="margin-top:80px;text-align:center;border-top:1px solid rgba(251,248,244,.08);padding-top:60px">
+      <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--t3);margin-bottom:30px">The wordmark · warmed &amp; editorial</div>
+      <div style="font-family:var(--serif);font-weight:300;font-size:clamp(56px,11vw,128px);letter-spacing:-.04em;display:inline-flex;align-items:flex-end;gap:3px;line-height:1">
+        sundae<span style="width:clamp(11px,2.3vw,26px);height:clamp(11px,2.3vw,26px);border-radius:50%;background:var(--coral);margin-bottom:.18em"></span>
+      </div>
+      <div style="color:var(--t3);font-size:14px;margin-top:24px;letter-spacing:.04em">Fraunces · the dot becomes the cherry-on-top — a single warm point, never literal.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SYSTEM / LANGUAGE ================= -->
+<section id="system">
+  <div class="wrap">
+    <div class="eyebrow rv">The visual language</div>
+    <h2 class="h2 rv rv2">The layers aren't a logo.<br>They're the whole system.</h2>
+    <p class="lede rv rv3" style="margin-top:22px">Recognizable by behavior, not just a mark — the strata show up everywhere: gradients, dividers, data, transitions, loading. This is what makes it feel “Sundae” without ever saying it.</p>
+    <div class="sys-grid">
+      <div class="panel rv">
+        <h4>Signature gradient</h4>
+        <div class="big">Cream → clay, always vertical.</div>
+        <div class="strata-bar">
+          <span class="lbl" style="top:14px">Cream</span>
+          <span class="lbl" style="top:46%;color:#3a1a10">Caramel</span>
+          <span class="lbl" style="bottom:14px;color:#fbeee8">Clay</span>
+        </div>
+      </div>
+      <div class="panel rv rv2">
+        <h4>Data, layered</h4>
+        <div class="big">Every chart is a cross-section.</div>
+        <div class="chart" id="chart"></div>
+      </div>
+      <div class="panel rv">
+        <h4>Dividers &amp; rules</h4>
+        <div class="big">Even the lines are strata.</div>
+        <p style="color:var(--t2);font-size:14.5px;line-height:1.6">A hairline becomes a thin slice of the gradient. Quiet, but unmistakably ours.</p>
+        <div class="divider-demo"></div>
+        <p style="color:var(--t3);font-size:13px">— section break —</p>
+        <div class="divider-demo"></div>
+      </div>
+      <div class="panel rv rv2">
+        <h4>Motion signature</h4>
+        <div class="big">Every layer falls into place.</div>
+        <div class="motion-demo" id="motiondemo">
+          <div class="mlayer" style="background:#F6C66B"></div>
+          <div class="mlayer" style="background:#E9A24A;width:60%"></div>
+          <div class="mlayer" style="background:#F7A088;width:78%"></div>
+          <div class="mlayer" style="background:#FF5C4D;width:52%"></div>
+          <div class="mlayer" style="background:#E03E48;width:70%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PALETTE + TYPE ================= -->
+<section id="palette">
+  <div class="wrap">
+    <div class="eyebrow rv">Color &amp; type</div>
+    <h2 class="h2 rv rv2">Warm, by nature.</h2>
+    <div class="sw-row rv rv3">
+      <div class="sw" style="background:#F6F1E8;color:#3a1a10"><span class="n">Cream</span><span class="h">#F6F1E8</span></div>
+      <div class="sw" style="background:#F6C66B;color:#3a1a10"><span class="n">Amber</span><span class="h">#F6C66B</span></div>
+      <div class="sw" style="background:#E9A24A;color:#3a1a10"><span class="n">Caramel</span><span class="h">#E9A24A</span></div>
+      <div class="sw" style="background:#F7A088;color:#3a1a10"><span class="n">Rose</span><span class="h">#F7A088</span></div>
+      <div class="sw" style="background:#FF5C4D"><span class="n">Coral</span><span class="h">#FF5C4D</span></div>
+      <div class="sw" style="background:#E03E48"><span class="n">Cherry</span><span class="h">#E03E48</span></div>
+      <div class="sw" style="background:#B23A1E"><span class="n">Clay</span><span class="h">#B23A1E</span></div>
+    </div>
+    <div class="type-spec">
+      <div class="type-card rv">
+        <div class="label">Display · Fraunces</div>
+        <div class="spec-serif">See every layer</div>
+        <div class="spec-serif i">nothing hidden.</div>
+        <div class="glyphline">Warm · optical · editorial — carries the soul.</div>
+      </div>
+      <div class="type-card rv rv2">
+        <div class="label">Interface · Hanken Grotesk</div>
+        <div class="spec-sans"><div class="xl">Revenue up 12.4%</div>
+        <div style="color:var(--t2);margin-top:8px;font-size:15px;line-height:1.6">Clean, neutral, exact — the warmth lives in the voice, the rigor in the numbers.</div></div>
+        <div class="glyphline">0123456789 · $ € £ % — built for data.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOMEPAGE HERO MOCK ================= -->
+<section id="hpmock">
+  <div class="wrap">
+    <div class="eyebrow rv">Applied · homepage hero</div>
+    <h2 class="h2 rv rv2">How it lands.</h2>
+    <div class="browser rv rv3">
+      <div class="bchrome"><span class="bdot" style="background:#FF5F57"></span><span class="bdot" style="background:#FEBC2E"></span><span class="bdot" style="background:#28C840"></span><span class="burl">sundae.io</span></div>
+      <div class="bview">
+        <div class="eyebrow">Decision Intelligence</div>
+        <div class="hp-h">See every layer of every location.</div>
+        <div class="hp-sub">From the group down to a single item — revenue, labor, inventory, guests — one transparent view. Nothing buried at the bottom.</div>
+        <div class="hp-cta"><a class="btn" href="javascript:void(0)">Book a walkthrough</a><a class="btn ghost" href="javascript:void(0)">See it live</a></div>
+        <div class="mini-vessel" id="minivessel"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CLOSE ================= -->
+<section id="close">
+  <div class="tagit rv">Sundae · 2026</div>
+  <div class="close-mark rv rv2">sundae<span class="dot"></span></div>
+  <div class="manifesto rv rv3" style="font-size:clamp(22px,3.2vw,40px);text-align:center;max-width:22ch">See every layer. <span class="hl">Miss nothing.</span></div>
+</section>
+<footer>Concept exploration — not production. Built on the warm-signature tokens. Three directions to react to.</footer>
+
+<script>
+  // ---- strata definition: business layers = sundae layers ----
+  const LAYERS = [
+    {name:'Foundation', sub:'org topology', c:'#B23A1E', h:64},
+    {name:'Revenue',    sub:'sales & mix',  c:'#E03E48', h:58},
+    {name:'Labor',      sub:'crew & cost',  c:'#FF5C4D', h:52},
+    {name:'Inventory',  sub:'stock & waste',c:'#F7A088', h:46},
+    {name:'Marketing',  sub:'reach & ROI',  c:'#E9A24A', h:42},
+    {name:'Guests',     sub:'CRM & loyalty', c:'#F6C66B', h:40},
+    {name:'Foresight',  sub:'what’s next',  c:'#F6F1E8', h:36}
+  ];
+  function buildVessel(glassEl, labelsEl, scale){
+    let y = 0; const total = LAYERS.reduce((s,l)=>s+l.h,0);
+    LAYERS.forEach((l,i)=>{
+      const div=document.createElement('div');
+      div.className='layer';
+      div.style.background=l.c;
+      div.style.height=(l.h*scale)+'px';
+      div.style.bottom=(y*scale)+'px';
+      div.style.animationDelay=(0.5 + i*0.16)+'s';
+      glassEl.appendChild(div);
+      if(labelsEl){
+        const lab=document.createElement('div');
+        lab.className='vlab';
+        const pct = 1 - ((y + l.h/2)/total);
+        lab.style.top=(pct*100)+'%';
+        lab.style.animationDelay=(1.2 + i*0.16)+'s';
+        lab.innerHTML=`<span class="ln"></span><span class="sw" style="background:${l.c}"></span><span><b>${l.name}</b> · ${l.sub}</span>`;
+        labelsEl.appendChild(lab);
+      }
+      y += l.h;
+    });
+  }
+  buildVessel(document.getElementById('glass'), document.getElementById('vlabels'), 1);
+
+  // mini vessel in homepage mock (no labels)
+  const mv=document.getElementById('minivessel');
+  if(mv){
+    const g=document.createElement('div'); g.className='glass'; g.style.borderRadius='10px 10px 52px 52px/10px 10px 100px 100px';
+    g.innerHTML='<div class="sheen"></div>'; mv.appendChild(g);
+    const r=document.createElement('div'); r.className='rim'; mv.appendChild(r);
+    buildVessel(g, null, 0.62);
+  }
+
+  // ---- layered chart ----
+  const chart=document.getElementById('chart');
+  const heights=[60,85,72,95,68,80];
+  heights.forEach(h=>{
+    const bar=document.createElement('div'); bar.className='bar'; bar.style.height=h+'%';
+    ['#F6C66B','#E9A24A','#FF5C4D','#E03E48'].forEach((c,i)=>{
+      const seg=document.createElement('i'); seg.style.background=c; seg.style.height=(18+i*6)+'%'; bar.appendChild(seg);
+    });
+    chart.appendChild(bar);
+  });
+
+  // ---- scroll reveals ----
+  const io=new IntersectionObserver((es)=>{
+    es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in');
+      if(e.target.id==='motiondemo'){ e.target.classList.add('go'); }
+      io.unobserve(e.target);} });
+  },{threshold:.18});
+  document.querySelectorAll('.rv, #motiondemo').forEach(el=>io.observe(el));
+
+  // motion-demo stagger
+  document.querySelectorAll('#motiondemo .mlayer').forEach((m,i)=>m.style.animationDelay=(i*0.12)+'s');
+
+  // ---- progress bar ----
+  const prog=document.getElementById('progress');
+  addEventListener('scroll',()=>{
+    const h=document.documentElement;
+    const p=h.scrollTop/(h.scrollHeight-h.clientHeight);
+    prog.style.width=(p*100)+'%';
+  },{passive:true});
+</script>
+</body>
+</html>

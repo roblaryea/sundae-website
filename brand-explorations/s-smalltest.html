@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+  body{margin:0;font-family:-apple-system,sans-serif}
+  .strip{display:flex;align-items:flex-end;gap:26px;padding:26px 30px}
+  .lbl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;width:150px;flex:0 0 150px}
+  .c{text-align:center}.c .s{font-size:10px;margin-top:6px;opacity:.55}
+  .dark{background:#15110D;color:#fff}.light{background:#F4EFE7;color:#2A2320}
+  .browser{display:flex;align-items:center;gap:8px;padding:8px 14px;background:#ECECEC;border-radius:8px 8px 0 0;margin:24px 30px 0;width:320px}
+  .browser .t{font-size:12px;color:#444}
+  h3{font-family:-apple-system;margin:24px 30px 0;font-size:13px}
+</style></head><body>
+<div id="root"></div>
+<script>
+const HS=`<stop offset="0" stop-color="#F6C66B"/><stop offset=".17" stop-color="#F6C66B"/><stop offset=".17" stop-color="#E9A24A"/><stop offset=".34" stop-color="#E9A24A"/><stop offset=".34" stop-color="#F7A088"/><stop offset=".52" stop-color="#F7A088"/><stop offset=".52" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#E03E48"/><stop offset=".86" stop-color="#E03E48"/><stop offset=".86" stop-color="#B23A1E"/><stop offset="1" stop-color="#B23A1E"/>`;
+function sArt(px,hd,cg){var sm=px<42;
+  var sP=sm?"M132,52 C112,46 72,48 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149":"M118,46 C100,41 72,45 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149";
+  var sw=sm?34:32, br=sm?22:16, stW=sm?7:4.5, stem=sm?"M140,30 C144,22 150,19 156,13":"M140,36 C145,24 153,20 160,12";
+  var hx=(140-br*0.34).toFixed(1),hy=(50-br*0.4).toFixed(1);
+  return `<path d="${sP}" fill="none" stroke="url(#${hd})" stroke-width="${sw}" stroke-linecap="round"/><path d="${stem}" stroke="#7d1f12" stroke-width="${stW}" fill="none" stroke-linecap="round"/><circle cx="140" cy="50" r="${br}" fill="url(#${cg})"/><ellipse cx="${hx}" cy="${hy}" rx="${(br*0.3).toFixed(1)}" ry="${(br*0.2).toFixed(1)}" fill="rgba(255,255,255,.5)"/>`;}
+function tile(px){var u='t'+px+Math.round(Math.random()*1e6);return `<svg width="${px}" height="${px}" viewBox="0 0 200 200"><defs><clipPath id="c${u}"><rect width="200" height="200" rx="46"/></clipPath><radialGradient id="cg${u}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hd${u}" x1="0" y1="0" x2="0" y2="1">${HS}</linearGradient></defs><g clip-path="url(#c${u})"><rect width="200" height="200" fill="#1C1712"/>${sArt(px,'hd'+u,'cg'+u)}</g></svg>`;}
+function sOnly(px){var u='o'+px+Math.round(Math.random()*1e6);return `<svg width="${px}" viewBox="0 0 212 200"><defs><radialGradient id="cg${u}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hd${u}" x1="0" y1="0" x2="0" y2="1">${HS}</linearGradient></defs>${sArt(px,'hd'+u,'cg'+u)}</svg>`;}
+const sizes=[16,18,24,32,48];
+function strip(title,fn,cls){return `<div class="strip ${cls}"><div class="lbl">${title}</div>${sizes.map(s=>`<div class="c">${fn(s)}<div class="s">${s}px</div></div>`).join('')}</div>`;}
+document.getElementById('root').innerHTML=`
+  <div class="browser"><span style="color:#FF5F57">●</span><span style="color:#FEBC2E">●</span><span style="color:#28C840">●</span><span style="margin-left:8px">${tile(16)}</span><span class="t">Sundae · Pulse</span></div>
+  ${strip('Tile · on dark',tile,'dark')}
+  ${strip('Tile · on light',tile,'light')}
+  ${strip('Standalone S · on dark',sOnly,'dark')}
+  ${strip('Standalone S · on light',sOnly,'light')}`;
+</script></body></html>

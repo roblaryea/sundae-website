@@ -1,9 +1,16 @@
 'use client';
 
+import Image from 'next/image';
 import { Fragment, type ReactNode } from 'react';
+import { motion } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
-import { manifestoCopy } from './manifestoCopy';
+import { useSettledReducedMotion } from '@/lib/useSettledReducedMotion';
+import { manifestoCopy, manifestoMoments } from './manifestoCopy';
+
+// The three live moments of a service night slipping - locale-invariant times,
+// localized status text (manifestoMoments). They accumulate, then the signal arrives.
+const MOMENT_TIMES = ['7:15 PM', '7:22 PM', '7:31 PM'] as const;
 
 /**
  * Manifesto - the "belief beat" that opens the page after the hero.
@@ -33,13 +40,54 @@ function renderStatement(statement: string): ReactNode {
 
 export function SectionManifesto() {
   const { locale } = useWebsiteI18n();
+  const reduceMotion = useSettledReducedMotion();
   const copy = manifestoCopy[locale as keyof typeof manifestoCopy] ?? manifestoCopy.en;
+  const mm = manifestoMoments[locale as keyof typeof manifestoMoments] ?? manifestoMoments.en!;
 
   return (
     <section
       aria-label={copy.eyebrow}
-      className="relative overflow-hidden border-y border-[var(--border-default)] py-24 sm:py-32"
+      className="surface-always-dark relative flex min-h-[88vh] items-center overflow-hidden py-20 sm:py-24"
+      style={{ background: 'var(--navy-deep)' }}
     >
+      {/* Living restaurant backdrop - the belief sits over a *moving* room: a muted,
+          looping ambient clip so "the shift is still alive" actually moves. This is
+          now an immersive always-dark chapter (light text on the video) so it reads
+          the same in both themes and fills the viewport instead of a thin band.
+          Reduced-motion users get the still poster; the video is below the fold and
+          lazy (preload=none + poster) so it never touches hero LCP. */}
+      <div aria-hidden className="absolute inset-0">
+        {reduceMotion ? (
+          <Image
+            src="/videos/manifesto-room-poster.jpg"
+            alt=""
+            fill
+            loading="lazy"
+            sizes="100vw"
+            className="object-cover object-center opacity-[0.26]"
+          />
+        ) : (
+          <video
+            className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.26]"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+            poster="/videos/manifesto-room-poster.jpg"
+          >
+            <source src="/videos/manifesto-room.webm" type="video/webm" />
+            <source src="/videos/manifesto-room.mp4" type="video/mp4" />
+          </video>
+        )}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'radial-gradient(ellipse 70% 60% at 50% 38%, color-mix(in srgb, var(--navy-deep) 55%, transparent) 0%, var(--navy-deep) 78%)',
+          }}
+        />
+      </div>
       {/* Quiet warm radial - same family as the hero glow, dialed back so the type leads. */}
       <div
         aria-hidden
@@ -67,6 +115,38 @@ export function SectionManifesto() {
             {copy.coda}
           </p>
         </FadeUp>
+
+        {/* The night slipping - three quiet live moments, accumulating in sequence. */}
+        <div className="mx-auto mt-12 flex max-w-xs flex-col gap-2.5 sm:mt-14">
+          {mm.moments.map((text, i) => (
+            <motion.div
+              key={text}
+              className="flex items-center gap-3 text-left"
+              initial={{ opacity: 0, x: -8 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 0.6 }}
+              transition={{ delay: 0.15 + i * 0.22, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            >
+              <span className="font-mono text-[13px] tabular-nums text-[var(--text-muted)] sm:text-[15px]">
+                {MOMENT_TIMES[i]}
+              </span>
+              <span aria-hidden className="h-1 w-1 shrink-0 rounded-full bg-[#FF8A4C]" />
+              <span className="text-sm text-[var(--text-secondary)] sm:text-[15px]">{text}</span>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* The hand-off into the night-turn section. */}
+        <motion.p
+          className="mt-9 font-display text-lg font-medium sm:text-xl"
+          style={coral}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true, amount: 0.6 }}
+          transition={{ delay: 0.15 + mm.moments.length * 0.22 + 0.1, duration: 0.7 }}
+        >
+          {mm.bridge}
+        </motion.p>
       </div>
     </section>
   );

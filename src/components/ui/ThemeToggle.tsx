@@ -1,22 +1,30 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { useTheme } from './ThemeProvider';
 
 export function ThemeToggle({ className = '' }: { className?: string }) {
   const { theme, toggleTheme } = useTheme();
+  // ThemeProvider reads localStorage on the first client render, but SSR rendered
+  // the dark default - so present the dark state until mount to keep the icon
+  // attributes matching the server HTML (avoids a light-mode hydration warning).
+  const [mounted, setMounted] = useState(false);
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMounted(true), []);
+  const shown = mounted ? theme : 'dark';
 
   return (
     <button
       type="button"
       onClick={toggleTheme}
       className={`relative inline-flex items-center justify-center w-9 h-9 rounded-lg transition-colors duration-200 hover:bg-[var(--surface-hover)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] ${className}`}
-      aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-      title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+      aria-label={`Switch to ${shown === 'dark' ? 'light' : 'dark'} mode`}
+      title={`Switch to ${shown === 'dark' ? 'light' : 'dark'} mode`}
     >
       {/* Sun icon (shown in dark mode → click to go light) */}
       <svg
         className={`w-[18px] h-[18px] transition-all duration-300 absolute ${
-          theme === 'dark'
+          shown === 'dark'
             ? 'opacity-100 rotate-0 scale-100'
             : 'opacity-0 rotate-90 scale-0'
         }`}
@@ -36,7 +44,7 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
       {/* Moon icon (shown in light mode → click to go dark) */}
       <svg
         className={`w-[18px] h-[18px] transition-all duration-300 absolute ${
-          theme === 'light'
+          shown === 'light'
             ? 'opacity-100 rotate-0 scale-100'
             : 'opacity-0 -rotate-90 scale-0'
         }`}

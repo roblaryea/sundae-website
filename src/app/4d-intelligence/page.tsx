@@ -13,7 +13,7 @@ import { generatedLocalCopy } from '@/generated-locales/app_4d_intelligence_page
 const localized4DCopy = {
   en: {
     heroBadge: 'Decision Intelligence',
-    heroTitle: <>From Reports to <span className="text-gradient">Real Intelligence</span></>,
+    heroTitle: 'From Reports to Real Intelligence',
     heroDescription: 'Four dimensions of insight. One complete picture of your business.',
     problemTitle: 'The Problem with Traditional BI',
     problemDescription: 'Most tools show you what happened. Not why. Not how you compare. Not what to do next.',
@@ -88,7 +88,7 @@ const localized4DCopy = {
     howTitle: 'How It Works',
     howDescription: 'AI-powered analysis at every layer of your operations',
     howItems: [
-      { title: 'Unified Data Layer', description: 'Sundae Core integrates 250+ systems - POS, labor, inventory, budgets, and external sources - into one intelligent foundation.', icon: 'integration' },
+      { title: 'Unified Data Layer', description: 'Sundae Core integrates 200+ systems - POS, labor, inventory, budgets, and external sources - into one intelligent foundation.', icon: 'integration' },
       { title: 'Multi-Agent AI Engine', description: 'Specialized AI agents analyze patterns, detect anomalies, forecast outcomes, and generate recommendations across all four dimensions.', icon: 'intelligence' },
       { title: 'Actionable Intelligence', description: 'Sundae Core decision views, Sundae Intelligence natural language queries, and proactive alerts deliver insights when and where you need them.', icon: 'insights' },
     ],
@@ -242,7 +242,7 @@ export default function FourDIntelligencePage() {
   const ui = localized4DCopy[locale as keyof typeof localized4DCopy] ?? getGeneratedLocalCopy(localized4DCopy, generatedLocalCopy.localized4DCopy, locale) ?? localized4DCopy.en;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50">
+    <div className="min-h-screen bg-gradient-to-br from-stone-50 via-white to-orange-50">
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-center mb-12">
@@ -264,7 +264,7 @@ export default function FourDIntelligencePage() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Card variant="elevated" className="bg-gradient-to-br from-slate-50 to-slate-100">
+            <Card variant="elevated" className="bg-gradient-to-br from-stone-50 to-stone-100">
               <CardContent className="p-8">
                 <div className="space-y-6">
                   {ui.problemItems.map((item) => (
@@ -285,7 +285,7 @@ export default function FourDIntelligencePage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.dimensionsTitle}</h2>
@@ -372,7 +372,7 @@ export default function FourDIntelligencePage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.impactTitle}</h2>

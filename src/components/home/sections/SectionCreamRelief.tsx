@@ -24,15 +24,28 @@ import { creamReliefCopy, type UnifyVisualCopy } from './creamReliefCopy';
  * fallback - no copy is passed via props.
  */
 
+type SignalTone = 'caution' | 'good';
+
 interface TrioItem {
   src: string;
-  cap: string;
+  label: string;
+  signal: string;
+  tone: SignalTone;
 }
 
+// Tone by frame index: the floor + pass read as live cautions, the room holds.
+const TRIO_TONES: [SignalTone, SignalTone, SignalTone] = ['caution', 'caution', 'good'];
+const TONE_COLOR: Record<SignalTone, string> = { caution: '#FF8A4C', good: '#46C97E' };
+
+// Dedicated trio slots - independent of every other section's imagery, so these
+// three frames can be art-directed for the exact moments (Floor / Pass / Room)
+// without touching the hero, proof or closer. Seeded with the current best-fit
+// photos; drop a stronger generated/sourced image at the same path to replace a
+// frame with zero code changes. See the generation briefs in docs (or the PR).
 const TRIO_SRCS: [string, string, string] = [
-  '/images/editorial/service-plates.jpg',
-  '/images/editorial/kitchen-flame.jpg',
-  '/images/editorial/dining-room.jpg',
+  '/images/editorial/floor-rush.jpg', // Floor - service in motion, wait time rising
+  '/images/editorial/pass-fire.jpg',  // Pass  - the line under heat, fire time slipping
+  '/images/editorial/room-glow.jpg',  // Room  - the dining room in service, margin holding
 ];
 
 const cherry = { color: 'var(--warm-cherry)' } as const;
@@ -69,7 +82,12 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
 
   const trio: TrioItem[] =
     variant === 'decisions'
-      ? variantCopy.trio.map((cap, i) => ({ src: TRIO_SRCS[i], cap }))
+      ? variantCopy.trio.map((frame, i) => ({
+          src: TRIO_SRCS[i],
+          label: frame.label,
+          signal: frame.signal,
+          tone: TRIO_TONES[i],
+        }))
       : [];
 
   return (
@@ -85,6 +103,19 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
           background:
             'radial-gradient(ellipse 55% 45% at 50% 26%, rgba(233,162,74,0.18) 0%, transparent 65%)',
         }}
+      />
+      {/* seam feathers - melt the top/bottom edges into the (dark or light) page
+          bg of the neighbouring sections, so this relief reads as a soft warm
+          break in one continuous scroll rather than a hard horizontal cut. */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 h-16"
+        style={{ background: 'linear-gradient(to bottom, color-mix(in srgb, var(--navy-deep) 55%, transparent), transparent)' }}
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-16"
+        style={{ background: 'linear-gradient(to top, color-mix(in srgb, var(--navy-deep) 55%, transparent), transparent)' }}
       />
 
       <div className="relative z-10 mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
@@ -122,25 +153,56 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
         {trio.length > 0 && (
         <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
           {trio.map((t, i) => (
-            <FadeUp key={t.cap} delay={0.08 * (i + 1)}>
+            <FadeUp key={t.label} delay={0.08 * (i + 1)}>
+              {/* Each frame is a live operating moment, not just atmosphere: the
+                  place (Floor / Pass / Room) + the live signal Sundae reads there
+                  while it's still actionable. */}
               <figure className="group">
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-[0_24px_48px_-24px_rgba(26,20,15,0.5)]">
                   <Image
                     src={t.src}
-                    alt={t.cap}
+                    alt={`${t.label} - ${t.signal}`}
                     fill
                     loading="lazy"
                     sizes="(max-width: 640px) 100vw, 33vw"
                     className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.06]"
                   />
+                  {/* warm grade - kept lighter so the photo + overlays stay legible */}
                   <div
                     aria-hidden
-                    className="absolute inset-0 opacity-70 mix-blend-soft-light"
+                    className="absolute inset-0 opacity-45 mix-blend-soft-light"
                     style={{
                       background:
                         'linear-gradient(120deg, rgba(233,162,74,0.45), rgba(255,92,77,0.22))',
                     }}
                   />
+                  {/* legibility scrim for the overlaid label + signal */}
+                  <div
+                    aria-hidden
+                    className="absolute inset-0"
+                    style={{
+                      background:
+                        'linear-gradient(to top, rgba(18,11,7,0.7) 0%, rgba(18,11,7,0.12) 38%, transparent 62%)',
+                    }}
+                  />
+                  {/* place label - top-left (text-shadow holds it on bright frames) */}
+                  <span
+                    className="absolute left-3 top-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/90"
+                    style={{ textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}
+                  >
+                    {t.label}
+                  </span>
+                  {/* live signal - bottom-left, with a pulsing status dot */}
+                  <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm">
+                    <span aria-hidden className="relative flex h-1.5 w-1.5">
+                      <span
+                        className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-70 motion-reduce:hidden"
+                        style={{ background: TONE_COLOR[t.tone] }}
+                      />
+                      <span className="relative inline-flex h-1.5 w-1.5 rounded-full" style={{ background: TONE_COLOR[t.tone] }} />
+                    </span>
+                    {t.signal}
+                  </span>
                 </div>
               </figure>
             </FadeUp>

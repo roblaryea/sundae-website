@@ -42,7 +42,7 @@ const BAND = {
   dark: {
     high: "bg-red-500/15 text-red-300 border-red-500/30",
     medium: "bg-[#FF5C4D]/15 text-[#FF8473] border-[#FF5C4D]/30",
-    low: "bg-white/5 text-slate-400 border-white/10",
+    low: "bg-white/5 text-stone-400 border-white/10",
   },
 };
 
@@ -60,10 +60,10 @@ function Section({
             <Icon className="w-4 h-4" />
           </span>
           <span className="min-w-0 flex-1">
-            <span className={`block text-sm font-bold ${dark ? "text-slate-100" : "text-gray-900"}`}>{title}</span>
-            {subtitle && <span className={`block text-xs mt-0.5 ${dark ? "text-slate-400" : "text-gray-500"}`}>{subtitle}</span>}
+            <span className={`block text-sm font-bold ${dark ? "text-stone-100" : "text-gray-900"}`}>{title}</span>
+            {subtitle && <span className={`block text-xs mt-0.5 ${dark ? "text-stone-400" : "text-gray-500"}`}>{subtitle}</span>}
           </span>
-          <ChevronDown className={`w-5 h-5 shrink-0 transition-transform ${open ? "rotate-180" : ""} ${dark ? "text-slate-500" : "text-gray-400"}`} />
+          <ChevronDown className={`w-5 h-5 shrink-0 transition-transform ${open ? "rotate-180" : ""} ${dark ? "text-stone-500" : "text-gray-400"}`} />
         </button>
         {open && <div className="px-5 pb-5 pt-1">{children}</div>}
       </div>
@@ -102,9 +102,9 @@ export function DiagnosticReportView({
   };
 
   const band = dark ? BAND.dark : BAND.light;
-  const muted = dark ? "text-slate-400" : "text-gray-500";
-  const body = dark ? "text-slate-300" : "text-gray-600";
-  const heading = dark ? "text-slate-100" : "text-gray-900";
+  const muted = dark ? "text-stone-400" : "text-gray-500";
+  const body = dark ? "text-stone-300" : "text-gray-600";
+  const heading = dark ? "text-stone-100" : "text-gray-900";
   const rule = dark ? "border-white/10" : "border-gray-200";
 
   const navItems = [
@@ -118,7 +118,7 @@ export function DiagnosticReportView({
 
   return (
     <div
-      className={`fixed inset-0 z-50 flex flex-col transition-colors ${dark ? "bg-[#020617] text-slate-100" : "bg-gray-50 text-gray-900"}`}
+      className={`fixed inset-0 z-50 flex flex-col transition-colors ${dark ? "bg-[#020617] text-stone-100" : "bg-gray-50 text-gray-900"}`}
       style={{ colorScheme: dark ? "dark" : "light" }}
       lang={locale}
       dir={copy.dir}
@@ -134,7 +134,7 @@ export function DiagnosticReportView({
           </div>
           <button
             onClick={() => setDark((d) => !d)}
-            className={`grid place-items-center w-9 h-9 rounded-lg border transition-colors ${dark ? "border-white/10 hover:bg-white/5 text-slate-300" : "border-gray-200 hover:bg-gray-100 text-gray-600"}`}
+            className={`grid place-items-center w-9 h-9 rounded-lg border transition-colors ${dark ? "border-white/10 hover:bg-white/5 text-stone-300" : "border-gray-200 hover:bg-gray-100 text-gray-600"}`}
             aria-label={copy.share.darkToggle}
           >
             {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
@@ -150,7 +150,7 @@ export function DiagnosticReportView({
             <button
               key={n.id}
               onClick={() => goTo(n.id)}
-              className={`text-left px-3 py-2 rounded-lg text-sm transition-colors ${dark ? "text-slate-400 hover:text-slate-100 hover:bg-white/5" : "text-gray-500 hover:text-gray-900 hover:bg-gray-100"}`}
+              className={`text-left px-3 py-2 rounded-lg text-sm transition-colors ${dark ? "text-stone-400 hover:text-stone-100 hover:bg-white/5" : "text-gray-500 hover:text-gray-900 hover:bg-gray-100"}`}
             >
               {n.label}
             </button>
@@ -175,7 +175,7 @@ export function DiagnosticReportView({
           {/* Summary (always open) */}
           <section id="summary" className="scroll-mt-4">
             <div className={`rounded-2xl border p-5 ${dark ? "border-white/10 bg-gradient-to-br from-[#FF5C4D]/[0.07] to-transparent" : "border-gray-200 bg-white"}`}>
-              <p className={`text-[15px] leading-relaxed ${dark ? "text-slate-200" : "text-gray-700"}`}>{report.summary}</p>
+              <p className={`text-[15px] leading-relaxed ${dark ? "text-stone-200" : "text-gray-700"}`}>{report.summary}</p>
               <div className={`mt-4 pt-4 border-t flex flex-wrap items-center gap-2 ${rule}`}>
                 <Target className={`w-4 h-4 ${dark ? "text-[#FF8473]" : "text-[#C2410C]"}`} />
                 <span className={`text-xs font-semibold uppercase tracking-wider ${muted}`}>{copy.share.recommendedTier}</span>
@@ -194,7 +194,7 @@ export function DiagnosticReportView({
                   <h3 className={`text-sm font-bold mb-1 ${heading}`}>{l.title}</h3>
                   <p className={`text-sm leading-relaxed mb-2.5 ${body}`}>{l.detail}</p>
                   <p className={`text-xs pt-2.5 border-t ${rule} ${muted}`}>
-                    <span className={`font-semibold ${dark ? "text-slate-300" : "text-gray-700"}`}>{copy.share.typicalRange}</span> {l.impactCopy}
+                    <span className={`font-semibold ${dark ? "text-stone-300" : "text-gray-700"}`}>{copy.share.typicalRange}</span> {l.impactCopy}
                   </p>
                 </div>
               ))}
@@ -205,7 +205,7 @@ export function DiagnosticReportView({
             <dl className={`divide-y mt-1 ${dark ? "divide-white/10" : "divide-gray-100"}`}>
               {report.expectedImpact.map((row, i) => (
                 <div key={i} className="py-2.5">
-                  <dt className={`text-sm font-semibold ${dark ? "text-slate-200" : "text-gray-800"}`}>{row.metric}</dt>
+                  <dt className={`text-sm font-semibold ${dark ? "text-stone-200" : "text-gray-800"}`}>{row.metric}</dt>
                   <dd className={`text-sm mt-0.5 ${muted}`}>{row.range}</dd>
                 </div>
               ))}
@@ -277,7 +277,7 @@ export function DiagnosticReportView({
               {copy.share.book} <ArrowUpRight className="w-4 h-4" />
             </a>
           </div>
-          <p className={`text-[11px] leading-relaxed text-center pb-4 ${dark ? "text-slate-600" : "text-gray-400"}`}>
+          <p className={`text-[11px] leading-relaxed text-center pb-4 ${dark ? "text-stone-600" : "text-gray-400"}`}>
             {copy.share.footer(name)}
           </p>
         </main>

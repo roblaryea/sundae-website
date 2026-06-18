@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
@@ -10,7 +9,8 @@ import { PRICING_URL } from '@/lib/links';
 import { SIGNUP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
-import { useTheme } from './ui/ThemeProvider';
+import { SundaeLogotype } from './ui/SundaeLogotype';
+import { SundaeMark } from './ui/SundaeMark';
 
 /**
  * Pages that ship their own bespoke closing CTA - Footer pre-CTA is suppressed
@@ -44,8 +44,6 @@ const Footer = () => {
   const footer = messages.footer;
   const nav = messages.navbar;
   const cta = useCta();
-  const { theme } = useTheme();
-  const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
   const currentYear = new Date().getFullYear();
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
   const pathname = usePathname() ?? '/';
@@ -127,13 +125,12 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="col-span-1 sm:col-span-2 md:col-span-4 lg:col-span-2">
             <Link href={localizeHref('/')} className="inline-block mb-4" aria-label="Sundae - Return to homepage">
-              <Image
-                src={logoSrc}
-                alt="Sundae"
-                width={110}
-                height={26}
-                style={{ height: '26px', width: 'auto' }}
-              />
+              {/* flex on a child span: `footer a { display:inline-block }`
+                  (accessibility.css, unlayered) overrides flex on the anchor. */}
+              <span className="flex items-center gap-2.5">
+                <SundaeMark size={32} className="flex-shrink-0" />
+                <SundaeLogotype className="text-[24px] text-[var(--text-primary)]" />
+              </span>
             </Link>
             <p className="text-[var(--text-muted)] mb-5 max-w-xs text-sm leading-relaxed">
               {footer.brandDescription}

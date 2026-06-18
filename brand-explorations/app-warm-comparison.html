@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sundae app — current vs warm-neutral</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#0c0a08;color:#fff;font-family:'General Sans',sans-serif;padding:30px}
+  .head{max-width:1640px;margin:0 auto 22px}
+  .head h1{font-family:'Fraunces',serif;font-weight:500;font-size:24px;margin:0 0 4px}
+  .head p{color:rgba(255,255,255,.5);font-size:13px;margin:0}
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1640px;margin:0 auto}
+  @media(max-width:1400px){.compare{grid-template-columns:1fr}}
+  .frameWrap{}
+  .frameWrap .cap{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+  .cap .dot{width:8px;height:8px;border-radius:50%}
+  .cap.cur{color:#8aa0c8}.cap.cur .dot{background:#1E2FAA}
+  .cap.warm{color:#E9A24A}.cap.warm .dot{background:#FF5C4D}
+
+  /* ============ APP SHELL (themed via vars) ============ */
+  .app{border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.1);display:grid;grid-template-columns:210px 1fr;height:680px;
+    background:var(--canvas);color:var(--ink);font-family:var(--ui)}
+  .app *{box-sizing:border-box}
+  /* sidebar */
+  .sb{background:var(--sb);border-right:1px solid var(--bd);padding:18px 14px;display:flex;flex-direction:column;gap:4px}
+  .logo{display:flex;align-items:center;gap:9px;padding:6px 8px 18px}
+  .logo .wm{font-weight:700;font-size:19px;letter-spacing:-.02em;color:var(--logoink);font-family:var(--logofont)}
+  .nav{font-size:13.5px;color:var(--mut);padding:9px 10px;border-radius:9px;display:flex;align-items:center;gap:10px;font-weight:500;cursor:default}
+  .nav .ic{width:15px;height:15px;border-radius:4px;background:var(--mut);opacity:.5}
+  .nav.active{background:var(--activebg);color:var(--activeink);font-weight:600}
+  .nav.active .ic{background:var(--accent);opacity:1}
+  .sb .tier{margin-top:auto;border:1px solid var(--bd);border-radius:10px;padding:12px;font-size:11.5px;color:var(--mut)}
+  .sb .tier b{color:var(--ink);display:block;font-size:13px;margin-bottom:2px}
+  /* main */
+  .main{display:flex;flex-direction:column;overflow:hidden}
+  .top{display:flex;align-items:center;justify-content:space-between;padding:16px 22px;border-bottom:1px solid var(--bd);background:var(--topbar)}
+  .top h2{font-family:var(--headfont);font-weight:var(--headwt);font-size:20px;margin:0;letter-spacing:-.01em}
+  .top .sub{font-size:12px;color:var(--mut);margin-top:1px}
+  .top .actions{display:flex;gap:10px;align-items:center}
+  .pill{font-size:12px;padding:7px 12px;border-radius:8px;border:1px solid var(--bd);color:var(--mut);background:var(--card)}
+  .btn{font-size:12.5px;font-weight:600;padding:8px 14px;border-radius:8px;background:var(--accent);color:var(--accentink);border:0}
+  .av{width:30px;height:30px;border-radius:50%;background:var(--accent);opacity:.9}
+  .body{padding:20px 22px;overflow:auto;background:var(--canvas)}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+  .kpi{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:15px}
+  .kpi .l{font-size:11.5px;color:var(--mut);font-weight:500}
+  .kpi .v{font-family:var(--headfont);font-size:25px;font-weight:var(--headwt);margin:6px 0 4px;letter-spacing:-.01em}
+  .kpi .d{font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:3px}
+  .up{color:#16A34A}.down{color:#DC2626}
+  .grid2{display:grid;grid-template-columns:1.6fr 1fr;gap:14px;margin-bottom:16px}
+  .panel{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px}
+  .panel h3{font-family:var(--headfont);font-weight:var(--headwt);font-size:14.5px;margin:0 0 2px;letter-spacing:-.01em}
+  .panel .ph{font-size:11.5px;color:var(--mut);margin-bottom:14px}
+  .cat{display:flex;align-items:center;gap:10px;margin-bottom:11px;font-size:12.5px}
+  .cat .nm{width:74px;color:var(--ink)}
+  .cat .track{flex:1;height:8px;background:var(--bar-track);border-radius:5px;overflow:hidden}
+  .cat .fill{height:100%;border-radius:5px}
+  .cat .vv{color:var(--mut);font-size:11.5px;width:42px;text-align:right}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{text-align:left;color:var(--mut);font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.05em;padding:0 0 10px}
+  td{padding:10px 0;border-top:1px solid var(--bd);color:var(--ink)}
+  td.r,th.r{text-align:right}
+  .tag2{font-size:11px;padding:2px 8px;border-radius:100px;background:var(--activebg);color:var(--accent);font-weight:600}
+</style></head><body>
+<div class="head">
+  <h1>The Sundae app — current vs warm-neutral</h1>
+  <p>Same screen, same data. Left = today’s cool/blue UI. Right = the recommended warm-neutral base + coral accent + Fraunces headings. Note: data-viz keeps functional colour (green = up, red = down) on both.</p>
+</div>
+<div class="compare">
+  <div class="frameWrap"><div class="cap cur"><span class="dot"></span>Current · cool base · blue primary</div><div class="app" id="cur"></div></div>
+  <div class="frameWrap"><div class="cap warm"><span class="dot"></span>Proposed · warm-neutral · coral accent</div><div class="app" id="warm"></div></div>
+</div>
+
+<script>
+function sTile(px){return `<svg width="${px}" height="${px}" viewBox="0 0 200 200"><defs><clipPath id="tcx${px}"><rect width="200" height="200" rx="46"/></clipPath><radialGradient id="cgx${px}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#FF6E5E"/><stop offset="1" stop-color="#D8313C"/></radialGradient><linearGradient id="hdx${px}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6C66B"/><stop offset=".17" stop-color="#F6C66B"/><stop offset=".17" stop-color="#E9A24A"/><stop offset=".34" stop-color="#E9A24A"/><stop offset=".34" stop-color="#F7A088"/><stop offset=".52" stop-color="#F7A088"/><stop offset=".52" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#FF5C4D"/><stop offset=".70" stop-color="#E03E48"/><stop offset=".86" stop-color="#E03E48"/><stop offset=".86" stop-color="#B23A1E"/><stop offset="1" stop-color="#B23A1E"/></linearGradient></defs><g clip-path="url(#tcx${px})"><rect width="200" height="200" fill="#1C1712"/><path d="M140,60 C140,40 72,39 72,74 C72,103 140,104 140,139 C140,171 74,172 69,149" fill="none" stroke="url(#hdx${px})" stroke-width="32" stroke-linecap="round"/><path d="M140,44 C145,30 154,26 161,17" stroke="#7d1f12" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="140" cy="60" r="17" fill="url(#cgx${px})"/></g></svg>`;}
+
+function area(stroke,fill){return `<svg width="100%" height="150" viewBox="0 0 520 150" preserveAspectRatio="none">
+  <defs><linearGradient id="ag${stroke.replace('#','')}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${fill}" stop-opacity=".35"/><stop offset="1" stop-color="${fill}" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0,110 C60,96 90,70 140,76 C190,82 210,40 260,46 C320,53 340,30 400,22 C450,16 480,40 520,30 L520,150 L0,150 Z" fill="url(#ag${stroke.replace('#','')})"/>
+  <path d="M0,110 C60,96 90,70 140,76 C190,82 210,40 260,46 C320,53 340,30 400,22 C450,16 480,40 520,30" fill="none" stroke="${stroke}" stroke-width="2.5"/></svg>`;}
+
+function app(t){
+  const cats=[['Food','64%'],['Beverage','22%'],['Dessert','9%'],['Retail','5%']];
+  const catColors = t.dataPalette;
+  return `
+  <div class="sb">
+    <div class="logo">${t.logo}<span class="wm">sundae</span></div>
+    ${['Pulse','Insights','Watchtower','Benchmark','Crew','Intelligence'].map((n,i)=>`<div class="nav ${i===0?'active':''}"><span class="ic"></span>${n}</div>`).join('')}
+    <div class="tier"><b>Core Pro</b>3 outlets · renews May 14</div>
+  </div>
+  <div class="main">
+    <div class="top">
+      <div><h2>Pulse</h2><div class="sub">Today · all outlets · live</div></div>
+      <div class="actions"><span class="pill">Today ▾</span><button class="btn">Export</button><span class="av"></span></div>
+    </div>
+    <div class="body">
+      <div class="kpis">
+        <div class="kpi"><div class="l">Net Sales</div><div class="v">$48,210</div><div class="d up">▲ 12.4%</div></div>
+        <div class="kpi"><div class="l">Covers</div><div class="v">1,284</div><div class="d up">▲ 6.0%</div></div>
+        <div class="kpi"><div class="l">Avg Check</div><div class="v">$37.55</div><div class="d down">▼ 2.1%</div></div>
+        <div class="kpi"><div class="l">Labor %</div><div class="v">28.3%</div><div class="d down">▲ 1.2pt</div></div>
+      </div>
+      <div class="grid2">
+        <div class="panel"><h3>Net sales · hourly</h3><div class="ph">vs. 7-day average</div>${area(t.accent,t.accent)}</div>
+        <div class="panel"><h3>Sales by category</h3><div class="ph">share of net sales</div>
+          ${cats.map((c,i)=>`<div class="cat"><span class="nm">${c[0]}</span><span class="track"><span class="fill" style="width:${c[1]};background:${catColors[i]}"></span></span><span class="vv">${c[1]}</span></div>`).join('')}
+        </div>
+      </div>
+      <div class="panel"><h3>Top outlets</h3><div class="ph">net sales today</div>
+        <table><thead><tr><th>Outlet</th><th class="r">Net sales</th><th class="r">Covers</th><th class="r">vs avg</th></tr></thead><tbody>
+          <tr><td>Downtown <span class="tag2">live</span></td><td class="r">$21,940</td><td class="r">612</td><td class="r up">+14%</td></tr>
+          <tr><td>Marina</td><td class="r">$16,180</td><td class="r">438</td><td class="r up">+9%</td></tr>
+          <tr><td>Airport</td><td class="r">$10,090</td><td class="r">234</td><td class="r down">−3%</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+  </div>`;
+}
+
+const CURRENT = {
+  ui:"'Inter',sans-serif", headfont:"'Inter',sans-serif", headwt:700, logofont:"'Inter',sans-serif",
+  canvas:'#F6F7F9', card:'#FFFFFF', sb:'#FFFFFF', topbar:'#FFFFFF', ink:'#363636', mut:'#737373', bd:'#E5E7EB',
+  accent:'#1E2FAA', accentink:'#fff', activebg:'#EEF0FF', activeink:'#1E2FAA',
+  logoink:'#1E2FAA', logo:`<div style="width:26px;height:26px;border-radius:7px;background:#1E2FAA;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:15px;font-family:Inter">S</div>`,
+  'bar-track':'#EEF0F3', dataPalette:['#6366F1','#22C55E','#F59E0B','#0EA5E9']
+};
+const WARM = {
+  ui:"'General Sans',sans-serif", headfont:"'Fraunces',serif", headwt:500, logofont:"'Fraunces',serif",
+  canvas:'#F4EFE7', card:'#FDFBF7', sb:'#FBF7F0', topbar:'#FDFBF7', ink:'#2A2320', mut:'#8B8076', bd:'#EAE2D6',
+  accent:'#FF5C4D', accentink:'#fff', activebg:'#FCE9E2', activeink:'#C2410C',
+  logoink:'#2A2320', logo:sTile(26),
+  'bar-track':'#EFE7DA', dataPalette:['#FF5C4D','#16A34A','#E9A24A','#3CC8E2']
+};
+function setVars(el,t){el.style.cssText=Object.entries({'--canvas':t.canvas,'--card':t.card,'--sb':t.sb,'--topbar':t.topbar,'--ink':t.ink,'--mut':t.mut,'--bd':t.bd,'--accent':t.accent,'--accentink':t.accentink,'--activebg':t.activebg,'--activeink':t.activeink,'--logoink':t.logoink,'--ui':t.ui,'--headfont':t.headfont,'--headwt':t.headwt,'--logofont':t.logofont,'--bar-track':t['bar-track']}).map(([k,v])=>`${k}:${v}`).join(';');el.innerHTML=app(t);}
+setVars(document.getElementById('cur'),CURRENT);
+setVars(document.getElementById('warm'),WARM);
+</script>
+</body></html>

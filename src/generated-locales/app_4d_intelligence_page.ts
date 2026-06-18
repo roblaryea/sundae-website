@@ -510,7 +510,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Pronto para a imagem completa?",
       "ctaDescription": "Veja 4D Intelligence com seus dados. Passado, plano, pares e previsões - tudo em uma única visualização.",
       "ctaPrimary": "Agende uma demonstração",
-      "ctaSecondary": "Explore a Arquitetura"
+      "ctaSecondary": "Explore a Arquitetura",
+      "heroTitle": "De relatórios a inteligência real"
     },
     "de": {
       "heroBadge": "Entscheidungsintelligenz",
@@ -680,7 +681,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Bereit für das Gesamtbild?",
       "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen - alles in einer Ansicht.",
       "ctaPrimary": "Buchen Sie eine Demo",
-      "ctaSecondary": "Entdecken Sie die Architektur"
+      "ctaSecondary": "Entdecken Sie die Architektur",
+      "heroTitle": "Von Berichten zu echter Intelligenz"
     },
     "nl": {
       "heroBadge": "Beslissingsinformatie",
@@ -850,7 +852,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Klaar voor het volledige beeld?",
       "ctaDescription": "Zie 4D Intelligence met uw gegevens. Verleden, plannen, peers en voorspellingen - alles in één weergave.",
       "ctaPrimary": "Boek een demo",
-      "ctaSecondary": "Ontdek de architectuur"
+      "ctaSecondary": "Ontdek de architectuur",
+      "heroTitle": "Van rapporten naar echte intelligentie"
     },
     "es": {
       "heroBadge": "Inteligencia de decisiones",
@@ -1190,7 +1193,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "مکمل تصویر کے لیے تیار ہیں؟",
       "ctaDescription": "اپنے ڈیٹا کے ساتھ 4D انٹیلی جنس دیکھیں۔ ماضی، منصوبہ، ساتھی، اور پیشین گوئیاں - سب ایک نظر میں۔",
       "ctaPrimary": "ایک ڈیمو بک کرو",
-      "ctaSecondary": "فن تعمیر کو دریافت کریں۔"
+      "ctaSecondary": "فن تعمیر کو دریافت کریں۔",
+      "heroTitle": "رپورٹس سے حقیقی انٹیلیجنس تک"
     },
     "hi": {
       "heroBadge": "निर्णय बुद्धि",
@@ -1360,7 +1364,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "पूरी तस्वीर के लिए तैयार हैं?",
       "ctaDescription": "अपने डेटा के साथ 4डी इंटेलिजेंस देखें। अतीत, योजना, सहकर्मी, और भविष्यवाणियाँ - सभी एक दृश्य में।",
       "ctaPrimary": "एक डेमो बुक करें",
-      "ctaSecondary": "वास्तुकला का अन्वेषण करें"
+      "ctaSecondary": "वास्तुकला का अन्वेषण करें",
+      "heroTitle": "रिपोर्ट से असली इंटेलिजेंस तक"
     },
     "zh-Hans": {
       "heroBadge": "决策智能",
@@ -1530,7 +1535,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "准备好全面了解了吗？",
       "ctaDescription": "查看 4D Intelligence 与您的数据。过去、计划、同行和预测 - 尽在一个视图中。",
       "ctaPrimary": "预订演示",
-      "ctaSecondary": "探索架构"
+      "ctaSecondary": "探索架构",
+      "heroTitle": "从报表到真正的智能"
     },
     "pl": {
       "heroBadge": "Inteligencja decyzyjna",
@@ -1700,7 +1706,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Gotowy na pełny obraz?",
       "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy - wszystko w jednym widoku.",
       "ctaPrimary": "Zarezerwuj wersję demonstracyjną",
-      "ctaSecondary": "Poznaj architekturę"
+      "ctaSecondary": "Poznaj architekturę",
+      "heroTitle": "Od raportów do prawdziwej inteligencji"
     },
     "it": {
       "heroBadge": "Intelligenza decisionale",
@@ -1870,7 +1877,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Pronti per il quadro completo?",
       "ctaDescription": "Vedi 4D Intelligence con i tuoi dati. Passato, pianificazione, peer e previsioni: tutto in un'unica visualizzazione.",
       "ctaPrimary": "Prenota una dimostrazione",
-      "ctaSecondary": "Esplora l'architettura"
+      "ctaSecondary": "Esplora l'architettura",
+      "heroTitle": "Dai report alla vera intelligence"
     },
     "tr": {
       "heroBadge": "Karar Zekası",
@@ -2040,7 +2048,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Resmin Tamamına Hazır mısınız?",
       "ctaDescription": "Verilerinizle birlikte 4D Intelligence'ı görün. Geçmiş, plan, akranlar ve tahminler; hepsi tek bir görünümde.",
       "ctaPrimary": "Demo Rezervasyonu Yapın",
-      "ctaSecondary": "Mimariyi Keşfedin"
+      "ctaSecondary": "Mimariyi Keşfedin",
+      "heroTitle": "Raporlardan gerçek zekaya"
     },
     "ko": {
       "heroBadge": "의사결정 인텔리전스",
@@ -2210,7 +2219,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "전체 그림을 볼 준비가 되셨나요?",
       "ctaDescription": "데이터로 4D Intelligence를 확인하세요. 과거, 계획, 동료 및 예측이 모두 하나의 보기에 표시됩니다.",
       "ctaPrimary": "데모 예약",
-      "ctaSecondary": "아키텍처 살펴보기"
+      "ctaSecondary": "아키텍처 살펴보기",
+      "heroTitle": "보고서에서 진정한 인텔리전스로"
     },
     "ja": {
       "heroBadge": "意思決定インテリジェンス",
@@ -2380,7 +2390,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "全体像を把握する準備はできましたか?",
       "ctaDescription": "データを使用した 4D Intelligence を参照してください。過去、計画、同僚、予測がすべて 1 つのビューに表示されます。",
       "ctaPrimary": "デモを予約する",
-      "ctaSecondary": "アーキテクチャを探索する"
+      "ctaSecondary": "アーキテクチャを探索する",
+      "heroTitle": "レポートから本物のインテリジェンスへ"
     },
     "id": {
       "heroBadge": "Kecerdasan Keputusan",
@@ -2550,7 +2561,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Siap untuk Gambar Lengkapnya?",
       "ctaDescription": "Lihat Kecerdasan 4D dengan data Anda. Masa lalu, rencana, rekan, dan prediksi - semuanya dalam satu tampilan.",
       "ctaPrimary": "Pesan Demo",
-      "ctaSecondary": "Jelajahi Arsitektur"
+      "ctaSecondary": "Jelajahi Arsitektur",
+      "heroTitle": "Dari laporan ke inteligensi nyata"
     },
     "vi": {
       "heroBadge": "Quyết định thông minh",
@@ -2720,7 +2732,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Sẵn sàng cho hình ảnh đầy đủ?",
       "ctaDescription": "Xem Thông minh 4D với dữ liệu của bạn. Quá khứ, kế hoạch, đồng nghiệp và dự đoán - tất cả ở một chế độ xem.",
       "ctaPrimary": "Đặt bản demo",
-      "ctaSecondary": "Khám phá kiến trúc"
+      "ctaSecondary": "Khám phá kiến trúc",
+      "heroTitle": "Từ báo cáo đến trí tuệ thực sự"
     },
     "ro": {
       "heroBadge": "Inteligența de decizie",
@@ -2890,7 +2903,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Ești gata pentru imaginea completă?",
       "ctaDescription": "Vedeți 4D Intelligence cu datele dvs. Trecut, plan, colegi și previziuni - toate într-o singură vizualizare.",
       "ctaPrimary": "Rezervați o demonstrație",
-      "ctaSecondary": "Explorați Arhitectura"
+      "ctaSecondary": "Explorați Arhitectura",
+      "heroTitle": "De la rapoarte la inteligență reală"
     },
     "sv": {
       "heroBadge": "Decision Intelligence",
@@ -3060,7 +3074,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Redo för hela bilden?",
       "ctaDescription": "Se 4D Intelligence med dina data. Tidigare, planera, peers och förutsägelser - allt i en vy.",
       "ctaPrimary": "Boka en demo",
-      "ctaSecondary": "Utforska arkitekturen"
+      "ctaSecondary": "Utforska arkitekturen",
+      "heroTitle": "Från rapporter till verklig intelligens"
     },
     "bn": {
       "heroBadge": "সিদ্ধান্ত বুদ্ধিমত্তা",
@@ -3230,7 +3245,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "সম্পূর্ণ ছবির জন্য প্রস্তুত?",
       "ctaDescription": "আপনার ডেটা সহ 4D ইন্টেলিজেন্স দেখুন। অতীত, পরিকল্পনা, সমকক্ষ, এবং ভবিষ্যদ্বাণী - সব এক দৃষ্টিতে।",
       "ctaPrimary": "একটি ডেমো বুক করুন",
-      "ctaSecondary": "স্থাপত্য অন্বেষণ"
+      "ctaSecondary": "স্থাপত্য অন্বেষণ",
+      "heroTitle": "রিপোর্ট থেকে প্রকৃত ইন্টেলিজেন্সে"
     },
     "th": {
       "heroBadge": "หน่วยสืบราชการลับในการตัดสินใจ",
@@ -3400,7 +3416,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "พร้อมสำหรับภาพเต็มหรือยัง?",
       "ctaDescription": "ดู 4D Intelligence พร้อมข้อมูลของคุณ อดีต แผน เพื่อนร่วมงาน และการทำนาย ทั้งหมดในมุมมองเดียว",
       "ctaPrimary": "จองการสาธิต",
-      "ctaSecondary": "สำรวจสถาปัตยกรรม"
+      "ctaSecondary": "สำรวจสถาปัตยกรรม",
+      "heroTitle": "จากรายงานสู่อัจฉริยะที่แท้จริง"
     },
     "ms": {
       "heroBadge": "Kepintaran Keputusan",
@@ -3570,7 +3587,8 @@ export const generatedLocalCopy = {
       "ctaTitle": "Sedia untuk Gambar Penuh?",
       "ctaDescription": "Lihat Kecerdasan 4D dengan data anda. Masa lalu, rancangan, rakan sebaya dan ramalan - semuanya dalam satu paparan.",
       "ctaPrimary": "Tempah Demo",
-      "ctaSecondary": "Terokai Seni Bina"
+      "ctaSecondary": "Terokai Seni Bina",
+      "heroTitle": "Daripada laporan kepada kecerdasan sebenar"
     }
   }
 } as const

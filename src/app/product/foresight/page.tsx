@@ -9,6 +9,7 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { foresightCreamCopy } from "../foresightCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -166,7 +167,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       dependencies: { label: "Cross-Module Dependency Graph", nodes: ["Revenue", "Labor", "Inventory", "Purchasing", "Profit"], alert: "Revenue change cascades to labor in 2 days, purchasing in 5 days. 82% correlation strength." },
       accuracy: { label: "Forecast Accuracy Self-Correction", rollingMape: "Rolling MAPE", bias: "Bias", corrections: "Corrections", trend: "Rolling 12-week accuracy trend - self-correcting weekly" },
       briefing: { label: "Executive Briefing - Weekly", coach: "Sundae Coach", week: "Week of Mar 17", summary: "Revenue projected at $248K (+6.2% vs prior). Thursday carries 12% downside risk - 2 staff vacations overlap with a sold-out venue event next door. Weekend outlook strong: local food festival expected to drive +15% foot traffic.", actionItems: "Action Items", opportunity: "Opportunity", risk: "Risk" },
-      signals: { label: "External Signals Panel", items: [{ type: "Weather", signal: "Rain forecast Fri PM", impact: "-8%", confidence: "72%", color: "bg-sky-400" }, { type: "Event", signal: "Food festival Sat-Sun", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "Competitor", signal: "New burger joint opened 0.3mi", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "Holiday", signal: "St Patrick's Day Mon", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "Economic", signal: "CPI +0.3% MoM", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
+      signals: { label: "External Signals Panel", items: [{ type: "Weather", signal: "Rain forecast Fri PM", impact: "-8%", confidence: "72%", color: "bg-[#5E9E96]" }, { type: "Event", signal: "Food festival Sat-Sun", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "Competitor", signal: "New burger joint opened 0.3mi", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "Holiday", signal: "St Patrick's Day Mon", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "Economic", signal: "CPI +0.3% MoM", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
       monteCarlo: { label: "Monte Carlo Risk Analysis", bestCase: "Best Case", mostLikely: "Most Likely", worstCase: "Worst Case", simulations: "1,000 simulations", downside: "12% downside probability", expectedValue: "Expected value: $251K", alert: "12% probability of revenue below $230K. Primary driver: Thursday staffing risk." },
     },
   },
@@ -221,7 +222,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       dependencies: { label: "مخطط التبعيات بين الوحدات", nodes: ["الإيراد", "العمالة", "المخزون", "المشتريات", "الربح"], alert: "تغير الإيراد ينتقل إلى العمالة خلال يومين، وإلى المشتريات خلال 5 أيام. قوة الارتباط 82%." },
       accuracy: { label: "تصحيح الدقة الذاتي", rollingMape: "MAPE المتكرر", bias: "الانحياز", corrections: "التصحيحات", trend: "اتجاه دقة 12 أسبوعاً - تصحيح ذاتي أسبوعياً" },
       briefing: { label: "الملخص التنفيذي - أسبوعي", coach: "Sundae Coach", week: "أسبوع 17 مارس", summary: "يتوقع الإيراد عند $248K (+6.2% عن السابق). يحمل الخميس 12% مخاطر هبوط - إجازات موظفين تتقاطع مع فعالية مكتملة العدد قرب الموقع. نظرة نهاية الأسبوع قوية: مهرجان طعام محلي يتوقع أن يرفع الحركة +15%.", actionItems: "خطوات العمل", opportunity: "فرصة", risk: "خطر" },
-      signals: { label: "لوحة الإشارات الخارجية", items: [{ type: "الطقس", signal: "أمطار متوقعة مساء الجمعة", impact: "-8%", confidence: "72%", color: "bg-sky-400" }, { type: "الفعالية", signal: "مهرجان طعام السبت-الأحد", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "المنافس", signal: "افتتاح مطعم برغر جديد على بعد 0.3 ميل", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "العطلة", signal: "عيد القديس باتريك الاثنين", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "اقتصادي", signal: "CPI +0.3% شهرياً", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
+      signals: { label: "لوحة الإشارات الخارجية", items: [{ type: "الطقس", signal: "أمطار متوقعة مساء الجمعة", impact: "-8%", confidence: "72%", color: "bg-[#5E9E96]" }, { type: "الفعالية", signal: "مهرجان طعام السبت-الأحد", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "المنافس", signal: "افتتاح مطعم برغر جديد على بعد 0.3 ميل", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "العطلة", signal: "عيد القديس باتريك الاثنين", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "اقتصادي", signal: "CPI +0.3% شهرياً", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
       monteCarlo: { label: "تحليل مخاطر Monte Carlo", bestCase: "أفضل حالة", mostLikely: "الأكثر احتمالاً", worstCase: "أسوأ حالة", simulations: "1000 محاكاة", downside: "احتمال هبوط 12%", expectedValue: "القيمة المتوقعة: $251K", alert: "احتمال 12% أن يكون الإيراد أقل من $230K. العامل الرئيسي: خطر العمالة يوم الخميس." },
     },
   },
@@ -276,7 +277,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       dependencies: { label: "Graphique des dependances inter-modules", nodes: ["Revenu", "Main-d'oeuvre", "Stock", "Achats", "Profit"], alert: "Le changement de revenu se propage a la main-d'oeuvre en 2 jours et aux achats en 5 jours. Correlation 82 %." },
       accuracy: { label: "Auto-correction de precision", rollingMape: "MAPE roulant", bias: "Biais", corrections: "Corrections", trend: "Tendance precision 12 semaines - auto-correction hebdomadaire" },
       briefing: { label: "Briefing executif - hebdo", coach: "Sundae Coach", week: "Semaine du 17 mars", summary: "Revenu projete a $248K (+6.2 % vs precedent). Jeudi porte 12 % de risque a la baisse - 2 vacances staff se chevauchent avec un concert complet juste a cote. Weekend fort : un festival food local devrait apporter +15 % de trafic.", actionItems: "Actions", opportunity: "Opportunite", risk: "Risque" },
-      signals: { label: "Panneau de signaux externes", items: [{ type: "Meteo", signal: "Pluie prevue vendredi soir", impact: "-8 %", confidence: "72 %", color: "bg-sky-400" }, { type: "Evenement", signal: "Festival food samedi-dimanche", impact: "+15 %", confidence: "88 %", color: "bg-amber-400" }, { type: "Concurrent", signal: "Nouveau burger a 0.3 mile", impact: "-3 %", confidence: "45 %", color: "bg-rose-400" }, { type: "Jour ferie", signal: "St Patrick lundi", impact: "+22 %", confidence: "94 %", color: "bg-green-400" }, { type: "Economique", signal: "CPI +0.3 % MoM", impact: "-1 %", confidence: "35 %", color: "bg-purple-400" }] },
+      signals: { label: "Panneau de signaux externes", items: [{ type: "Meteo", signal: "Pluie prevue vendredi soir", impact: "-8 %", confidence: "72 %", color: "bg-[#5E9E96]" }, { type: "Evenement", signal: "Festival food samedi-dimanche", impact: "+15 %", confidence: "88 %", color: "bg-amber-400" }, { type: "Concurrent", signal: "Nouveau burger a 0.3 mile", impact: "-3 %", confidence: "45 %", color: "bg-rose-400" }, { type: "Jour ferie", signal: "St Patrick lundi", impact: "+22 %", confidence: "94 %", color: "bg-green-400" }, { type: "Economique", signal: "CPI +0.3 % MoM", impact: "-1 %", confidence: "35 %", color: "bg-purple-400" }] },
       monteCarlo: { label: "Analyse de risque Monte Carlo", bestCase: "Meilleur cas", mostLikely: "Plus probable", worstCase: "Pire cas", simulations: "1000 simulations", downside: "12 % de risque baissier", expectedValue: "Valeur attendue : $251K", alert: "12 % de probabilité de revenu sous $230K. Cause principale : risque de staffing jeudi." },
     },
   },
@@ -331,7 +332,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       dependencies: { label: "Grafico de dependencias entre modulos", nodes: ["Ingresos", "Mano de obra", "Inventario", "Compras", "Beneficio"], alert: "El cambio de ingresos se propaga a mano de obra en 2 dias y a compras en 5 dias. Correlacion 82%." },
       accuracy: { label: "Autocorreccion de precision", rollingMape: "MAPE rodante", bias: "Sesgo", corrections: "Correcciones", trend: "Tendencia de precision 12 semanas - autocorreccion semanal" },
       briefing: { label: "Briefing ejecutivo - semanal", coach: "Sundae Coach", week: "Semana del 17 de marzo", summary: "Ingresos proyectados en $248K (+6.2% vs anterior). El jueves arrastra 12% de riesgo a la baja - 2 vacaciones de staff se cruzan con un evento vendido al completo al lado. Fin de semana fuerte: un festival local de comida deberia generar +15% de trafico.", actionItems: "Acciones", opportunity: "Oportunidad", risk: "Riesgo" },
-      signals: { label: "Panel de señales externas", items: [{ type: "Clima", signal: "Lluvia prevista viernes PM", impact: "-8%", confidence: "72%", color: "bg-sky-400" }, { type: "Evento", signal: "Festival de comida sab-dom", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "Competidor", signal: "Nuevo burger a 0.3 millas", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "Festivo", signal: "San Patricio lunes", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "Economico", signal: "IPC +0.3% MoM", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
+      signals: { label: "Panel de señales externas", items: [{ type: "Clima", signal: "Lluvia prevista viernes PM", impact: "-8%", confidence: "72%", color: "bg-[#5E9E96]" }, { type: "Evento", signal: "Festival de comida sab-dom", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "Competidor", signal: "Nuevo burger a 0.3 millas", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "Festivo", signal: "San Patricio lunes", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "Economico", signal: "IPC +0.3% MoM", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
       monteCarlo: { label: "Analisis Monte Carlo", bestCase: "Mejor caso", mostLikely: "Mas probable", worstCase: "Peor caso", simulations: "1000 simulaciones", downside: "12% de riesgo a la baja", expectedValue: "Valor esperado: $251K", alert: "12% de probabilidad de ingresos por debajo de $230K. Principal driver: riesgo de staffing el jueves." },
     },
   },
@@ -478,7 +479,7 @@ function BriefingCardMockup({ copy }: { copy: ForesightMockupCopy }) {
               { priority: "medium", action: "Review brunch menu pricing - 8% below forecast check" },
             ].map((item) => (
               <div key={item.action} className="flex items-start gap-1.5 text-[9px]">
-                <span className={`mt-0.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${item.priority === 'critical' ? 'bg-red-400' : item.priority === 'high' ? 'bg-orange-400' : 'bg-blue-400'}`} />
+                <span className={`mt-0.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${item.priority === 'critical' ? 'bg-red-400' : item.priority === 'high' ? 'bg-orange-400' : 'bg-[#F3C98B]'}`} />
                 <span className="text-[var(--text-supporting)]">{item.action}</span>
               </div>
             ))}
@@ -513,7 +514,7 @@ function ExternalSignalsMockup({ copy }: { copy: ForesightMockupCopy }) {
               </div>
               <div className="flex items-center gap-2 mt-0.5">
                 <span className="text-[8px] text-[var(--text-muted)]">{signal.type}</span>
-                <div className="flex-1 h-0.5 bg-[var(--surface-subtle)] rounded-full overflow-hidden"><div className="h-full bg-cyan-500/60 rounded-full" style={{ width: signal.confidence }} /></div>
+                <div className="flex-1 h-0.5 bg-[var(--surface-subtle)] rounded-full overflow-hidden"><div className="h-full bg-[#FF5C4D]/60 rounded-full" style={{ width: signal.confidence }} /></div>
                 <span className="text-[8px] text-[var(--text-muted)]">{signal.confidence}</span>
               </div>
             </div>
@@ -596,7 +597,7 @@ export default function ForesightPage() {
               <StaggerItem key={item.label}>
                 <Card variant="elevated" className="text-center p-6">
                   <CardContent>
-                    <SundaeIcon name={item.icon} size="lg" className="text-cyan-400 mx-auto mb-3" />
+                    <SundaeIcon name={item.icon} size="lg" className="text-[#FF5C4D] mx-auto mb-3" />
                     <div className="text-3xl font-bold text-[var(--text-primary)] mb-2">{item.stat}</div>
                     <p className="text-sm text-[var(--text-supporting)]">{item.label}</p>
                   </CardContent>
@@ -626,7 +627,7 @@ export default function ForesightPage() {
                   <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-[#E9A24A] to-[#FF5C4D] rounded-xl flex items-center justify-center">
                     <SundaeIcon name={step.icon} size="lg" className="text-white" />
                   </div>
-                  <div className="text-xs font-mono text-cyan-400 mb-2">{step.step}</div>
+                  <div className="text-xs font-mono text-[#FF5C4D] mb-2">{step.step}</div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{step.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{step.description}</p>
                 </div>
@@ -658,7 +659,7 @@ export default function ForesightPage() {
                       <p className="text-[var(--text-supporting)] leading-relaxed mb-6">{component.description}</p>
                       <div className="space-y-2 mb-4">
                         {component.capabilities.map((cap) => (
-                          <div key={cap} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]"><span className="text-cyan-400 flex-shrink-0 mt-0.5">✓</span><span>{cap}</span></div>
+                          <div key={cap} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]"><span className="text-[#FF5C4D] flex-shrink-0 mt-0.5">✓</span><span>{cap}</span></div>
                         ))}
                       </div>
                     </div>
@@ -679,7 +680,7 @@ export default function ForesightPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {ui.pricingTiers.map((tier) => (
               <StaggerItem key={tier.tier}>
-                <Card variant="elevated" className={`p-6 ${tier.highlighted ? 'border border-cyan-500/30' : ''}`}>
+                <Card variant="elevated" className={`p-6 ${tier.highlighted ? 'border border-[#FF5C4D]/30' : ''}`}>
                   <CardHeader>
                     <CardTitle className="text-[var(--text-primary)]">{tier.tier}</CardTitle>
                     <div className="flex items-baseline gap-2">
@@ -691,7 +692,7 @@ export default function ForesightPage() {
                     <p className="text-sm text-[var(--text-supporting)] mb-4">{tier.description}</p>
                     <ul className="space-y-2">
                       {tier.enhancements.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]"><span className="text-cyan-400 mt-0.5">✓</span><span>{item}</span></li>
+                        <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]"><span className="text-[#FF5C4D] mt-0.5">✓</span><span>{item}</span></li>
                       ))}
                     </ul>
                   </CardContent>
@@ -706,11 +707,7 @@ export default function ForesightPage() {
       <SectionProductGallery
         productFilter="/product/foresight"
         hideFilter
-        headingOverride={{
-          eyebrow: "SEE FORESIGHT IN ACTION",
-          title: "Every Foresight surface, in detail.",
-          subtitle: "Real predictive-modelling surfaces from the live product.",
-        }}
+        headingOverride={galleryHeading("foresight", locale)}
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>

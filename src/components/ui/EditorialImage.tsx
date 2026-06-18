@@ -2,7 +2,8 @@
 
 import Image from 'next/image';
 import { useRef } from 'react';
-import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useSettledReducedMotion } from '@/lib/useSettledReducedMotion';
 
 type Overlay = 'blend' | 'text' | 'duotone' | 'none';
 
@@ -59,6 +60,37 @@ interface EditorialImageProps {
  * Theme behaviour matches <ThemedShot>: swaps are pure CSS off `html.light`, so
  * dark and light each keep their own first-class look with no flash and no JS race.
  */
+/**
+ * Scroll-linked parallax wrapper. Isolated into its own component so the
+ * `useScroll` hook only ever mounts for images that actually opt into parallax
+ * (`parallax`), never for the many static editorial images - which keeps
+ * framer's scroll-offset tracking (and its console warning) scoped to the few
+ * places that need it.
+ */
+function ParallaxPhoto({
+  targetRef,
+  children,
+}: {
+  targetRef: React.RefObject<HTMLElement | null>;
+  children: React.ReactNode;
+}) {
+  // The wrapper structure is identical regardless of motion preference (so SSR
+  // and the first client render always match); only the drift is gated, settling
+  // to a static photo after mount for reduced-motion users.
+  const reduce = useSettledReducedMotion();
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+    offset: ['start end', 'end start'],
+  });
+  // Photo drifts slightly against the scroll for a subtle cinematic parallax.
+  const y = useTransform(scrollYProgress, [0, 1], reduce ? ['0%', '0%'] : ['-7%', '7%']);
+  return (
+    <motion.div className="absolute inset-x-0 -top-[9%] h-[118%]" style={{ y }}>
+      {children}
+    </motion.div>
+  );
+}
+
 export function EditorialImage({
   src,
   light,
@@ -76,14 +108,9 @@ export function EditorialImage({
   sizes = '(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1200px',
 }: EditorialImageProps) {
   const figureRef = useRef<HTMLElement>(null);
-  const reduce = useReducedMotion();
-  const { scrollYProgress } = useScroll({
-    target: figureRef,
-    offset: ['start end', 'end start'],
-  });
-  // Photo drifts slightly against the scroll for a subtle cinematic parallax.
-  const y = useTransform(scrollYProgress, [0, 1], ['-7%', '7%']);
-  const useParallax = parallax && !reduce;
+  // Structure stays stable across motion preferences; ParallaxPhoto gates the
+  // drift itself (avoids a reduced-motion SSR/client structural mismatch).
+  const useParallax = parallax;
 
   const photography = (
     <>
@@ -123,9 +150,7 @@ export function EditorialImage({
       {/* Photography ---------------------------------------------------- */}
       {useParallax ? (
         // Oversized + overflowing so the scroll-driven drift never reveals an edge.
-        <motion.div className="absolute inset-x-0 -top-[9%] h-[118%]" style={{ y }}>
-          {photography}
-        </motion.div>
+        <ParallaxPhoto targetRef={figureRef}>{photography}</ParallaxPhoto>
       ) : (
         photography
       )}
