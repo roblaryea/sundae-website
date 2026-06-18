@@ -145,7 +145,7 @@ export default function HomeContent() {
         <HomeScrollSpine
           chapters={HOME_CHAPTERS.map((c, i) => ({
             ...c,
-            label: (CHAPTER_LABELS[locale] ?? CHAPTER_LABELS.en)[i],
+            label: (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[i],
           }))}
         />
         {/* ════════════════════════════════════════════════

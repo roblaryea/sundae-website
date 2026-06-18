@@ -14,7 +14,7 @@ import { crewBandCopy } from "./crewBandCopy";
  */
 export function SectionCrewSubstrate() {
   const { locale } = useWebsiteI18n();
-  const copy = crewBandCopy[locale] ?? crewBandCopy.en;
+  const copy = crewBandCopy[locale as keyof typeof crewBandCopy] ?? crewBandCopy.en;
 
   return (
     <section

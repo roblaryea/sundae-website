@@ -99,7 +99,7 @@ function Glass() {
   const [hover, setHover] = useState<number | null>(null);
   const [tour, setTour] = useState<number | null>(null);
   const { locale } = useWebsiteI18n();
-  const copy = cinematicIntroCopy[locale] ?? cinematicIntroCopy.en;
+  const copy = cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy] ?? cinematicIntroCopy.en;
   // Alive-at-rest auto-tour: after the build, glow each layer in sequence so the
   // hero is never static and the hover affordance teaches itself. User hover
   // always overrides it; disabled entirely for reduced-motion.
@@ -396,7 +396,7 @@ export function SectionCinematicIntro() {
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
   const rm = mounted && reduceMotion;
-  const copy = cinematicIntroCopy[locale] ?? cinematicIntroCopy.en;
+  const copy = cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy] ?? cinematicIntroCopy.en;
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLSpanElement>(null);
 
