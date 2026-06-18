@@ -571,7 +571,9 @@ export default function HomeContent() {
             <FadeUp>
               <h2 className="section-h2 mb-4 !text-white">
                 {home.closingTitle}
-                <span className="mt-1 block text-[var(--ink)]">{withWordmark(closerLine, "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
+                {/* Warm off-white (not near-black ink) - lighter, more refined on the
+                    caramel->coral->cherry gradient, and uniformly legible across it. */}
+                <span className="mt-1 block text-[#FBF6EE]">{withWordmark(closerLine, "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
               </h2>
               <p className="body-lg mb-10 max-w-xl mx-auto !text-white/90">
                 {home.closingDescription}

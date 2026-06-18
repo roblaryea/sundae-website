@@ -585,7 +585,9 @@ export function SectionCinematicIntro() {
 
       <motion.a
         href="#home-main"
-        className="absolute bottom-7 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-[10.5px] uppercase tracking-[0.22em]"
+        // Hidden on mobile: the glass fills the small viewport, so the cue overlapped
+        // the bottom (Revenue) band. Swiping is natural on touch; show it from sm up.
+        className="absolute bottom-7 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-[10.5px] uppercase tracking-[0.22em] sm:flex"
         style={{ color: "var(--text-muted)" }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

@@ -7,6 +7,9 @@ const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sund
 const nextConfig: NextConfig = {
   reactCompiler: true,
   poweredByHeader: false,
+  // Hide the Next.js dev indicator (the circular "N" bottom-left) - it overlapped
+  // content during mobile review. Dev-only; never shipped to production anyway.
+  devIndicators: false,
   async headers() {
     return [
       {
