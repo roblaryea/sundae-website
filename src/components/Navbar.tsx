@@ -164,13 +164,17 @@ const Navbar = () => {
       if (scrollbarWidth > 0) {
         document.body.style.paddingRight = `${scrollbarWidth}px`;
       }
-      
+      // Flag the open drawer so lower-stacked fixed UI (e.g. the cookie banner,
+      // which sits above the drawer) hides while the full-screen menu is open.
+      document.body.classList.add('mobile-menu-open');
+
       return () => {
         document.body.style.overflow = originalOverflow;
         document.body.style.paddingRight = originalPaddingRight;
         document.body.style.position = originalPosition;
         document.body.style.top = originalTop;
         document.body.style.width = originalWidth;
+        document.body.classList.remove('mobile-menu-open');
         window.scrollTo(0, scrollY);
       };
     }

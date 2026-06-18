@@ -126,7 +126,8 @@ export function CookieConsent() {
     <div
       role="dialog"
       aria-label={copy.ariaLabel}
-      className="animate-fade-in-up fixed bottom-3 left-3 right-3 z-[9999] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] motion-reduce:animate-none"
+      data-cookie-banner
+      className="animate-fade-in-up fixed bottom-3 left-3 right-3 z-[9999] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] motion-reduce:animate-none [body.mobile-menu-open_&]:hidden"
     >
       <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy-surface)]/85 px-4 py-3.5 shadow-[0_18px_50px_-16px_rgba(0,0,0,0.7)] backdrop-blur-xl">
         <p className="text-[12.5px] leading-relaxed text-[var(--text-secondary)]">
