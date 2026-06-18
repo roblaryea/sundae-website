@@ -519,6 +519,11 @@ export default function HomeContent() {
         <SectionEditorialSplit
           src="/images/editorial/dining-night.jpg"
           light="/images/editorial/dining-candlelit.jpg"
+          video={{
+            webm: '/videos/closer-room.webm',
+            mp4: '/videos/closer-room.mp4',
+            poster: '/videos/closer-room-poster.jpg',
+          }}
           alt={editorial.closer.alt}
           eyebrow={editorial.closer.eyebrow}
           headline={
