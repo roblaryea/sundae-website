@@ -65,7 +65,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Floor', signal: 'Wait time rising' },
         { label: 'Pass', signal: 'Fire time slipping' },
-        { label: 'Room', signal: 'Margin holding' },
+        { label: 'Room', signal: 'Covers on pace' },
       ],
     },
     truth: {
@@ -94,7 +94,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'الصالة', signal: 'وقت الانتظار يرتفع' },
         { label: 'الباس', signal: 'توقيت التحضير يتأخر' },
-        { label: 'القاعة', signal: 'الهامش ثابت' },
+        { label: 'القاعة', signal: 'عدد الضيوف على المسار' },
       ],
     },
     truth: {
@@ -123,7 +123,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Salle', signal: 'Attente en hausse' },
         { label: 'Passe', signal: 'Timing qui glisse' },
-        { label: 'Salle', signal: 'Marge stable' },
+        { label: 'Salle', signal: 'Couverts dans les temps' },
       ],
     },
     truth: {
@@ -152,7 +152,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Sala', signal: 'Espera al alza' },
         { label: 'Pase', signal: 'Tiempos retrasados' },
-        { label: 'Comedor', signal: 'Margen estable' },
+        { label: 'Comedor', signal: 'Comensales en ritmo' },
       ],
     },
     truth: {
@@ -181,7 +181,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Fläche', signal: 'Wartezeit steigt' },
         { label: 'Anrichte', signal: 'Anrichtzeit kippt' },
-        { label: 'Gastraum', signal: 'Marge hält' },
+        { label: 'Gastraum', signal: 'Gedecke im Plan' },
       ],
     },
     truth: {
@@ -210,7 +210,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Vloer', signal: 'Wachttijd loopt op' },
         { label: 'Doorgeef', signal: 'Baktiming loopt uit' },
-        { label: 'Zaal', signal: 'Marge blijft stabiel' },
+        { label: 'Zaal', signal: 'Couverts op schema' },
       ],
     },
     truth: {
@@ -239,7 +239,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Salão', signal: 'Espera a subir' },
         { label: 'Passe', signal: 'Tempos a atrasar' },
-        { label: 'Sala', signal: 'Margem estável' },
+        { label: 'Sala', signal: 'Couverts no ritmo' },
       ],
     },
     truth: {
@@ -268,7 +268,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'फ्लोर', signal: 'वेट टाइम बढ़ रहा' },
         { label: 'पास', signal: 'फायर टाइम फिसल रहा' },
-        { label: 'डाइनिंग रूम', signal: 'मार्जिन स्थिर' },
+        { label: 'डाइनिंग रूम', signal: 'मेहमान लक्ष्य पर' },
       ],
     },
     truth: {
@@ -297,7 +297,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'فلور', signal: 'ویٹ ٹائم بڑھ رہا ہے' },
         { label: 'پاس', signal: 'فائر ٹائم پھسل رہا ہے' },
-        { label: 'ڈائننگ روم', signal: 'مارجن مستحکم' },
+        { label: 'ڈائننگ روم', signal: 'مہمانوں کی تعداد ہدف پر' },
       ],
     },
     truth: {
@@ -326,7 +326,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Sala', signal: 'Attesa in aumento' },
         { label: 'Passe', signal: 'Tempi in ritardo' },
-        { label: 'Sala', signal: 'Margine stabile' },
+        { label: 'Sala', signal: 'Coperti in linea' },
       ],
     },
     truth: {
@@ -355,7 +355,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Sala', signal: 'Czas oczekiwania rośnie' },
         { label: 'Wydawka', signal: 'Timing się sypie' },
-        { label: 'Sala', signal: 'Marża stabilna' },
+        { label: 'Sala', signal: 'Goście zgodnie z planem' },
       ],
     },
     truth: {
@@ -384,7 +384,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Salon', signal: 'Bekleme süresi artıyor' },
         { label: 'Servis Ağzı', signal: 'Pişirme zamanı kayıyor' },
-        { label: 'Salon', signal: 'Kâr marjı sabit' },
+        { label: 'Salon', signal: 'Misafir sayısı hedefte' },
       ],
     },
     truth: {
@@ -412,7 +412,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: '前厅', signal: '等位时间上升' },
         { label: '出品口', signal: '出餐节奏延后' },
-        { label: '餐厅', signal: '利润率稳住' },
+        { label: '餐厅', signal: '客流达标' },
       ],
     },
     truth: {
@@ -440,7 +440,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'フロア', signal: '待ち時間が増加' },
         { label: 'パス', signal: '提供タイミング遅延' },
-        { label: '客席', signal: '利益率は維持' },
+        { label: '客席', signal: '客数は順調' },
       ],
     },
     truth: {
@@ -468,7 +468,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: '홀', signal: '대기 시간 증가' },
         { label: '패스', signal: '조리 타이밍 지연' },
-        { label: '다이닝룸', signal: '마진 유지 중' },
+        { label: '다이닝룸', signal: '고객 수 순항 중' },
       ],
     },
     truth: {
@@ -497,7 +497,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Area Layan', signal: 'Waktu tunggu naik' },
         { label: 'Meja Saji', signal: 'Waktu masak meleset' },
-        { label: 'Ruang Makan', signal: 'Margin stabil' },
+        { label: 'Ruang Makan', signal: 'Tamu sesuai target' },
       ],
     },
     truth: {
@@ -526,7 +526,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Khu phục vụ', signal: 'Thời gian chờ tăng' },
         { label: 'Bếp ra món', signal: 'Giờ ra món trễ' },
-        { label: 'Phòng ăn', signal: 'Biên lợi nhuận ổn' },
+        { label: 'Phòng ăn', signal: 'Lượt khách đúng nhịp' },
       ],
     },
     truth: {
@@ -555,7 +555,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Sală', signal: 'Așteptare în creștere' },
         { label: 'Pas', signal: 'Timpii întârzie' },
-        { label: 'Sală', signal: 'Marjă stabilă' },
+        { label: 'Sală', signal: 'Acoperiri în ritm' },
       ],
     },
     truth: {
@@ -584,7 +584,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Golvet', signal: 'Väntetid ökar' },
         { label: 'Passet', signal: 'Tajmingen glider' },
-        { label: 'Matsalen', signal: 'Marginal håller' },
+        { label: 'Matsalen', signal: 'Kuvert i takt' },
       ],
     },
     truth: {
@@ -613,7 +613,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'ফ্লোর', signal: 'অপেক্ষার সময় বাড়ছে' },
         { label: 'পাস', signal: 'ফায়ার টাইম পিছিয়ে' },
-        { label: 'ডাইনিং রুম', signal: 'মার্জিন স্থিতিশীল' },
+        { label: 'ডাইনিং রুম', signal: 'অতিথি লক্ষ্যমাত্রায়' },
       ],
     },
     truth: {
@@ -642,7 +642,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'ฟลอร์', signal: 'เวลารอเพิ่มขึ้น' },
         { label: 'พาส', signal: 'จังหวะปรุงคลาด' },
-        { label: 'ห้องอาหาร', signal: 'มาร์จิ้นคงที่' },
+        { label: 'ห้องอาหาร', signal: 'จำนวนแขกตามเป้า' },
       ],
     },
     truth: {
@@ -671,7 +671,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Lantai', signal: 'Masa menunggu naik' },
         { label: 'Pas', signal: 'Masa masak tergelincir' },
-        { label: 'Ruang Makan', signal: 'Margin stabil' },
+        { label: 'Ruang Makan', signal: 'Tetamu ikut sasaran' },
       ],
     },
     truth: {
