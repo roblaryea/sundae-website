@@ -139,3 +139,30 @@ export const manifestoCopy: Record<WebsiteLocale, ManifestoCopy> = {
     coda: 'Restoran tidak gagal dalam laporan. Ia tergelincir dalam saat-saat kecil: satu kawasan perlahan, tenaga kerja terpesong, tetamu tertangguh, satu meja menunggu terlalu lama. Sundae wujud untuk menangkap saat-saat itu selagi masih ada masa untuk mengubah keputusannya.',
   },
 };
+
+/** Live "moments" + bridge for the manifesto cinematic redesign (en fallback). */
+export type ManifestoMoments = { moments: [string, string, string]; bridge: string };
+export const manifestoMoments: Partial<Record<WebsiteLocale, ManifestoMoments>> = {
+  en: { moments: ['Covers falling behind', 'Labor crossing target', 'Table wait risk'], bridge: 'Then the signal arrives.' },
+  ar: { moments: ['العملاء يتأخرون', 'تكلفة العمالة تتجاوز الحد', 'خطر انتظار الطاولة'], bridge: 'ثم تصل الإشارة.' },
+  fr: { moments: ['Couverts en retard', 'Main-d\'œuvre hors cible', 'Risque d\'attente en salle'], bridge: 'Puis le signal arrive.' },
+  es: { moments: ['Cubiertos atrasados', 'Personal sobre objetivo', 'Riesgo de espera en mesa'], bridge: 'Entonces llega la señal.' },
+  de: { moments: ['Gedecke geraten in Rückstand', 'Personalkosten über Ziel', 'Risiko langer Tischwartezeit'], bridge: 'Dann kommt das Signal.' },
+  nl: { moments: ['Couverts lopen achter', 'Loonkosten boven doel', 'Risico op wachttijd'], bridge: 'Dan komt het signaal.' },
+  pt: { moments: ['Coberturas atrasadas', 'Mão de obra acima da meta', 'Risco de espera na mesa'], bridge: 'Então o sinal chega.' },
+  it: { moments: ['Coperti in ritardo', 'Costo lavoro oltre soglia', 'Rischio attesa al tavolo'], bridge: 'Poi arriva il segnale.' },
+  pl: { moments: ['Nakrycia w opóźnieniu', 'Koszt pracy ponad cel', 'Ryzyko czekania przy stoliku'], bridge: 'Wtedy pojawia się sygnał.' },
+  ro: { moments: ['Acoperiri în întârziere', 'Cost forță de muncă peste țintă', 'Risc de așteptare la masă'], bridge: 'Apoi sosește semnalul.' },
+  sv: { moments: ['Gäster halkar efter', 'Personalkostnad över mål', 'Risk för väntan vid bord'], bridge: 'Sedan kommer signalen.' },
+  tr: { moments: ['Kuver hızı düşüyor', 'İşçilik hedefi aşıyor', 'Masa bekleme riski'], bridge: 'Sonra sinyal geliyor.' },
+  id: { moments: ['Tamu mulai tertinggal', 'Biaya tenaga kerja lewat target', 'Risiko meja menunggu'], bridge: 'Lalu sinyal pun tiba.' },
+  ms: { moments: ['Tetamu semakin tertinggal', 'Kos buruh lepasi sasaran', 'Risiko meja menunggu'], bridge: 'Kemudian isyarat pun tiba.' },
+  vi: { moments: ['Lượt khách tụt lại', 'Chi phí nhân công vượt mức', 'Nguy cơ bàn chờ lâu'], bridge: 'Rồi tín hiệu xuất hiện.' },
+  hi: { moments: ['मेहमान सेवा पिछड़ रही', 'श्रम लागत लक्ष्य पार', 'टेबल इंतज़ार का जोखिम'], bridge: 'तभी संकेत आता है।' },
+  ur: { moments: ['مہمانوں کی رفتار سست', 'مزدوری لاگت حد سے تجاوز', 'میز انتظار کا خطرہ'], bridge: 'پھر اشارہ آ جاتا ہے۔' },
+  bn: { moments: ['অতিথি সেবা পিছিয়ে', 'শ্রম ব্যয় লক্ষ্য ছাড়াল', 'টেবিল অপেক্ষার ঝুঁকি'], bridge: 'তখনই সংকেত আসে।' },
+  th: { moments: ['ยอดลูกค้าตามไม่ทัน', 'ต้นทุนแรงงานเกินเป้า', 'เสี่ยงโต๊ะรอนาน'], bridge: 'แล้วสัญญาณก็มาถึง' },
+  'zh-Hans': { moments: ['客流节奏落后', '人力成本超标', '餐桌等候风险'], bridge: '随后，信号出现。' },
+  ja: { moments: ['客数が遅れ気味', '人件費が目標超過', 'テーブル待ちの兆候'], bridge: 'そのとき、シグナルが届く。' },
+  ko: { moments: ['손님 응대 지연', '인건비 목표 초과', '테이블 대기 위험'], bridge: '그때 신호가 도착한다.' },
+};
