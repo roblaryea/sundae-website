@@ -30,133 +30,112 @@ export const manifestoCopy: Record<WebsiteLocale, ManifestoCopy> = {
   en: {
     eyebrow: 'What we believe',
     statement:
-      'A restaurant runs on hundreds of decisions a day - on the floor, on the line, and in the middle of the rush. Every one of them deserves *the truth while it can still change the outcome.*',
-    coda: 'That belief is the product. Everything Sundae does serves the next decision you’re about to make.',
+      'The best decisions happen *while the shift is still alive.*',
+    coda: 'Restaurants don’t fail in reports. They slip in moments - a section slows, labor drifts, covers fall behind, a table waits too long. Sundae exists to catch those moments while there’s still time to change the outcome.',
   },
   ar: {
     eyebrow: 'ما نؤمن به',
-    statement:
-      'يُدار المطعم بمئات القرارات في اليوم - في الصالة، عند الممر، وفي عزّ الزحمة. كل قرار منها يستحق *الحقيقة ما دام بالإمكان تغيير النتيجة.*',
-    coda: 'هذا الإيمان هو المنتج. كل ما يفعله Sundae يخدم القرار التالي الذي توشك على اتخاذه.',
+    statement: 'أفضل القرارات تُتَّخذ *والخدمة ما زالت قائمة.*',
+    coda: 'المطاعم لا تفشل في التقارير. بل تتعثّر في اللحظات: قسم يتباطأ، عمالة تنحرف عن مسارها، طاولات تتأخر، وزبون ينتظر أكثر من اللازم. وُجِدت Sundae لتلتقط تلك اللحظات بينما لا يزال هناك وقت لتغيير النتيجة.',
   },
   fr: {
     eyebrow: 'Ce en quoi nous croyons',
-    statement:
-      'Un restaurant se mène à coups de centaines de décisions par jour - en salle, au passe, et en plein coup de feu. Chacune mérite *la vérité tant que le résultat peut encore changer.*',
-    coda: "Cette conviction, c'est le produit. Tout ce que fait Sundae sert la prochaine décision que vous êtes sur le point de prendre.",
+    statement: 'Les meilleures décisions se prennent *pendant que le service est encore vivant.*',
+    coda: "Les restaurants n'échouent pas dans les rapports. Ils dérapent dans les instants - une zone ralentit, le personnel se décale, les couverts prennent du retard, une table attend trop longtemps. Sundae existe pour saisir ces instants tant qu'il est encore temps de changer l'issue.",
   },
   es: {
     eyebrow: 'En lo que creemos',
-    statement:
-      'Un restaurante se lleva a base de cientos de decisiones al día - en la sala, en el pase, y en plena hora punta. Cada una merece *la verdad mientras todavía puede cambiar el resultado.*',
-    coda: 'Esa convicción es el producto. Todo lo que hace Sundae está al servicio de la próxima decisión que estás a punto de tomar.',
+    statement: 'Las mejores decisiones ocurren *mientras el turno sigue vivo.*',
+    coda: 'Los restaurantes no fracasan en los informes. Se les escapa el control en los momentos: una zona se ralentiza, el personal se desajusta, los comensales se acumulan, una mesa espera demasiado. Sundae existe para atrapar esos momentos cuando todavía hay tiempo de cambiar el desenlace.',
   },
   de: {
     eyebrow: 'Woran wir glauben',
-    statement:
-      'Ein Restaurant läuft auf Hunderten Entscheidungen am Tag - im Gastraum, am Pass, und mitten im größten Andrang. Jede davon verdient *die Wahrheit, solange sich das Ergebnis noch ändern lässt.*',
-    coda: 'Diese Überzeugung ist das Produkt. Alles, was Sundae tut, dient der nächsten Entscheidung, die Sie gleich treffen.',
+    statement: 'Die besten Entscheidungen fallen, *solange der Service noch läuft.*',
+    coda: 'Restaurants scheitern nicht in Reports. Sie geraten in einzelnen Momenten ins Rutschen: eine Station wird langsamer, der Personaleinsatz verschiebt sich, die Gedecke geraten in Rückstand, ein Tisch wartet zu lange. Sundae ist da, um diese Momente zu erfassen, solange noch Zeit bleibt, den Ausgang zu ändern.',
   },
   nl: {
     eyebrow: 'Waar wij in geloven',
-    statement:
-      'Een restaurant draait op honderden beslissingen per dag - in de zaak, op de pass, en midden in de drukte. Elk daarvan verdient *de waarheid, zolang u de uitkomst nog kunt bijsturen.*',
-    coda: 'Die overtuiging ís het product. Alles wat Sundae doet, staat in dienst van de volgende beslissing die u op het punt staat te nemen.',
+    statement: 'De beste beslissingen vallen *terwijl de service nog leeft.*',
+    coda: 'Restaurants gaan niet onderuit in rapporten. Ze glippen weg in momenten: een sectie loopt vast, de personeelsinzet schuift, de couverts raken achterop, een tafel wacht te lang. Sundae bestaat om die momenten te grijpen terwijl er nog tijd is om de afloop te veranderen.',
   },
   pt: {
     eyebrow: 'No que acreditamos',
-    statement:
-      'Um restaurante se conduz a centenas de decisões por dia - no salão, na expedição, e no auge do movimento. Cada uma merece *a verdade, enquanto ainda dá para mudar o resultado.*',
-    coda: 'Essa convicção é o produto. Tudo o que o Sundae faz está a serviço da próxima decisão que você está prestes a tomar.',
+    statement: 'As melhores decisões acontecem *enquanto o turno ainda está vivo.*',
+    coda: 'Os restaurantes não falham nos relatórios. Eles escorregam nos momentos: uma área desacelera, a equipa sai do ritmo, os cobertos atrasam, uma mesa espera tempo demais. A Sundae existe para apanhar esses momentos enquanto ainda há tempo de mudar o desfecho.',
   },
   hi: {
     eyebrow: 'हम क्या मानते हैं',
-    statement:
-      'एक रेस्तरां दिन में सैकड़ों फैसलों पर चलता है - फ्लोर पर, लाइन पर, और भीड़ के बीचों-बीच। उनमें से हर एक हकदार है *सच्चाई का, जब तक नतीजे को अब भी बदला जा सके।*',
-    coda: 'यही यकीन प्रोडक्ट है। Sundae जो कुछ भी करता है, वह उस अगले फैसले के लिए है जो आप अभी लेने वाले हैं।',
+    statement: 'सबसे अच्छे फ़ैसले तभी होते हैं *जब शिफ़्ट अभी ज़िंदा हो.*',
+    coda: 'रेस्तराँ रिपोर्ट में नहीं डूबते। वे पलों में फिसलते हैं: कोई सेक्शन धीमा पड़ता है, स्टाफ़ की तैनाती बिगड़ती है, मेहमान पिछड़ जाते हैं, कोई टेबल बहुत देर तक इंतज़ार करती है। Sundae इसी लिए है कि उन पलों को तब पकड़े जब नतीजा बदलने का समय अभी बाक़ी हो।',
   },
   ur: {
     eyebrow: 'ہم کس بات پر یقین رکھتے ہیں',
-    statement:
-      'ایک ریستوران دن میں سیکڑوں فیصلوں پر چلتا ہے - فلور پر، پاس پر، اور رش کے عین بیچ میں۔ اِن میں سے ہر ایک مستحق ہے *سچائی کا، جب تک نتیجے کو ابھی بدلا جا سکے۔*',
-    coda: 'یہی یقین پروڈکٹ ہے۔ Sundae جو کچھ بھی کرتا ہے وہ اُس اگلے فیصلے کے لیے ہے جو آپ ابھی کرنے والے ہیں۔',
+    statement: 'بہترین فیصلے تب ہوتے ہیں *جب شفٹ ابھی زندہ ہو۔*',
+    coda: 'ریستوران رپورٹوں میں ناکام نہیں ہوتے۔ وہ لمحوں میں پھسلتے ہیں: کوئی سیکشن سست پڑ جاتا ہے، عملہ بے ترتیب ہو جاتا ہے، مہمان پیچھے رہ جاتے ہیں، کوئی میز بہت دیر انتظار کرتی ہے۔ Sundae اسی لیے ہے کہ ان لمحوں کو تب تھام لے جب نتیجہ بدلنے کا وقت ابھی باقی ہو۔',
   },
   it: {
     eyebrow: 'In cosa crediamo',
-    statement:
-      'Un ristorante si manda avanti a centinaia di decisioni al giorno - in sala, al passe, e nel pieno del servizio. Ognuna merita *la verità, finché il risultato si può ancora cambiare.*',
-    coda: "Quella convinzione è il prodotto. Tutto ciò che fa Sundae è al servizio della prossima decisione che stai per prendere.",
+    statement: 'Le decisioni migliori si prendono *mentre il servizio è ancora vivo.*',
+    coda: "I ristoranti non falliscono nei report. Scivolano negli attimi - una zona rallenta, il personale perde il ritmo, i coperti restano indietro, un tavolo aspetta troppo a lungo. Sundae esiste per cogliere quegli attimi finché c'è ancora tempo di cambiare l'esito.",
   },
   pl: {
     eyebrow: 'W co wierzymy',
-    statement:
-      'Restauracja działa na setkach decyzji dziennie - na sali, przy wydawce, i w samym środku natłoku. Każda z nich zasługuje na *prawdę, póki wynik można jeszcze zmienić.*',
-    coda: 'To przekonanie jest produktem. Wszystko, co robi Sundae, służy kolejnej decyzji, którą masz właśnie podjąć.',
+    statement: 'Najlepsze decyzje zapadają *kiedy zmiana wciąż trwa.*',
+    coda: 'Restauracje nie upadają w raportach. Wymykają się w pojedynczych chwilach: sektor zwalnia, obsada się rozjeżdża, kuwerty zostają w tyle, stolik czeka za długo. Sundae istnieje po to, by uchwycić te chwile, póki jest jeszcze czas, by zmienić wynik.',
   },
   tr: {
     eyebrow: 'Neye inanıyoruz',
-    statement:
-      'Bir restoran günde yüzlerce kararla yürür - salonda, pasta, ve yoğunluğun tam ortasında. Her biri *gerçeği hak eder, üstelik sonucu hâlâ değiştirebilecekken.*',
-    coda: 'Bu inanç, üründür. Sundae ne yapıyorsa, vermek üzere olduğunuz bir sonraki karar için yapıyor.',
+    statement: 'En iyi kararlar *servis hâlâ canlıyken* alınır.',
+    coda: 'Restoranlar raporlarda batmaz. Anların içinde kayıp gider: bir bölge yavaşlar, ekip ritmini kaçırır, masalar geride kalır, bir masa fazlaca bekletilir. Sundae, sonucu değiştirmeye hâlâ vakit varken o anları yakalamak için var.',
   },
   'zh-Hans': {
     eyebrow: '我们的信念',
-    statement:
-      '一家餐厅，靠一天数百个决定运转--在餐厅里，在出餐线上，以及在最忙乱的时刻。每一个决定都配得上*趁还来得及改变结果时的那份真相。*',
-    coda: '这个信念就是产品。Sundae 所做的一切，都服务于你即将做出的下一个决定。',
+    statement: '最好的决策，发生在 *这一班还活着的时候。*',
+    coda: '餐厅不是败在报表里，而是在一个个瞬间里悄悄滑落：一片区域慢了下来，人手开始错位，客流被甩在后面，一桌客人等得太久。Sundae 的存在，就是为了在还来得及改变结局的时候，抓住这些瞬间。',
   },
   ja: {
     eyebrow: '私たちが信じること',
-    statement:
-      '店は、一日に何百もの判断で回っている--フロアで、パスで、そしてピークの真っただ中で。その一つひとつが*まだ結果を変えられるうちの、真実*に値する。',
-    coda: 'その信念こそが製品です。Sundae が手がけるすべては、あなたがいま下そうとしている次の判断のためにあります。',
+    statement: '最良の判断は *シフトがまだ生きているうちに* 下される。',
+    coda: '店は報告書の中で潰れるのではない。一瞬一瞬の中で取りこぼしていく：あるセクションが滞り、人の配置がずれ、客の流れが追いつかず、ひとつのテーブルが待たされすぎる。Sundae は、まだ結果を変えられるうちにその一瞬をつかむために存在する。',
   },
   ko: {
     eyebrow: '우리가 믿는 것',
-    statement:
-      '레스토랑은 하루에 수백 번의 결정으로 돌아갑니다 - 홀에서, 패스에서, 그리고 가장 바쁜 순간 한가운데에서. 그 하나하나가 *아직 결과를 바꿀 수 있을 때의 진실*을 누릴 자격이 있습니다.',
-    coda: '그 믿음이 곧 제품입니다. Sundae가 하는 모든 일은 당신이 지금 내리려는 다음 결정을 위한 것입니다.',
+    statement: '최고의 결정은 *근무가 아직 살아 있을 때* 내려진다.',
+    coda: '식당은 보고서에서 무너지지 않는다. 순간순간 미끄러질 뿐이다: 한 구역이 느려지고, 인력 배치가 어긋나고, 손님이 밀리고, 한 테이블이 너무 오래 기다린다. Sundae는 결과를 바꿀 시간이 아직 남아 있을 때 그 순간을 붙잡기 위해 존재한다.',
   },
   id: {
     eyebrow: 'Yang kami yakini',
-    statement:
-      'Sebuah restoran berjalan di atas ratusan keputusan sehari - di ruang makan, di pass, dan di tengah jam tersibuk. Setiap keputusan layak mendapat *kebenaran, selagi hasilnya masih bisa diubah.*',
-    coda: 'Keyakinan itulah produknya. Semua yang dilakukan Sundae mengabdi pada keputusan berikutnya yang akan Anda ambil.',
+    statement: 'Keputusan terbaik diambil *saat shift masih hidup.*',
+    coda: 'Restoran tidak gagal di laporan. Mereka tergelincir di momen-momen kecil: satu area melambat, penempatan staf melenceng, tamu menumpuk, satu meja menunggu terlalu lama. Sundae hadir untuk menangkap momen-momen itu selagi masih ada waktu mengubah hasilnya.',
   },
   vi: {
     eyebrow: 'Điều chúng tôi tin',
-    statement:
-      'Một nhà hàng vận hành bằng hàng trăm quyết định mỗi ngày - trên sàn, tại quầy ra món, và ngay giữa lúc cao điểm. Mỗi quyết định đều xứng đáng có *sự thật, khi vẫn còn kịp thay đổi kết quả.*',
-    coda: 'Niềm tin đó chính là sản phẩm. Tất cả những gì Sundae làm đều phục vụ cho quyết định tiếp theo mà bạn sắp đưa ra.',
+    statement: 'Những quyết định tốt nhất được đưa ra *khi ca làm vẫn còn đang sống.*',
+    coda: 'Nhà hàng không sụp đổ trong báo cáo. Họ tuột dốc trong từng khoảnh khắc: một khu chậm lại, nhân sự lệch nhịp, khách dồn ứ, một bàn chờ quá lâu. Sundae tồn tại để bắt lấy những khoảnh khắc đó khi vẫn còn kịp thay đổi kết cục.',
   },
   ro: {
     eyebrow: 'În ce credem',
-    statement:
-      'Un restaurant merge pe sute de decizii pe zi - în sală, la pass, și în toiul aglomerației. Fiecare merită *adevărul, cât încă mai poți schimba rezultatul.*',
-    coda: 'Convingerea aceasta este produsul. Tot ce face Sundae este în slujba următoarei decizii pe care ești pe cale să o iei.',
+    statement: 'Cele mai bune decizii se iau *cât timp tura este încă vie.*',
+    coda: 'Restaurantele nu eșuează în rapoarte. Alunecă în momente: o zonă încetinește, echipa se abate de la ritm, comenzile rămân în urmă, o masă așteaptă prea mult. Sundae există ca să prindă aceste momente cât mai e timp să schimbi deznodământul.',
   },
   sv: {
     eyebrow: 'Det vi tror på',
-    statement:
-      'En restaurang drivs av hundratals beslut om dagen - i matsalen, vid passet, och mitt i rusningen. Vart och ett av dem förtjänar *sanningen, medan utfallet fortfarande går att ändra.*',
-    coda: 'Den övertygelsen är produkten. Allt Sundae gör står i tjänst för nästa beslut du står i begrepp att fatta.',
+    statement: 'De bästa besluten fattas *medan passet fortfarande lever.*',
+    coda: 'Restauranger faller inte i rapporterna. De glider undan i ögonblicken: en sektion saktar ner, bemanningen glider iväg, gästerna hopar sig, ett bord får vänta för länge. Sundae finns för att fånga de ögonblicken medan det ännu finns tid att ändra utgången.',
   },
   bn: {
     eyebrow: 'আমরা যা বিশ্বাস করি',
-    statement:
-      'একটি রেস্তোরাঁ চলে দিনে শত শত সিদ্ধান্তে - ফ্লোরে, লাইনে, এবং ভিড়ের ঠিক মাঝখানে। এর প্রতিটিই দাবি রাখে *সত্যের, যতক্ষণ ফলাফলটাকে এখনও বদলানো যায়।*',
-    coda: 'এই বিশ্বাসটাই পণ্য। Sundae যা কিছু করে, তার সবটাই আপনি এখন যে পরবর্তী সিদ্ধান্তটি নিতে চলেছেন তার সেবায়।',
+    statement: 'সেরা সিদ্ধান্তগুলো হয় *যখন শিফট তখনও জীবন্ত.*',
+    coda: 'রেস্তোরাঁ রিপোর্টে ব্যর্থ হয় না। তারা ফসকে যায় মুহূর্তে: কোনো সেকশন ধীর হয়ে পড়ে, কর্মী বিন্যাস এলোমেলো হয়, অতিথিরা পিছিয়ে পড়ে, কোনো টেবিল বড্ড বেশি অপেক্ষা করে। Sundae আছে সেই মুহূর্তগুলো ধরতে, যখন ফলাফল বদলানোর সময় এখনও বাকি।',
   },
   th: {
     eyebrow: 'สิ่งที่เราเชื่อ',
-    statement:
-      'ร้านอาหารขับเคลื่อนด้วยการตัดสินใจหลายร้อยครั้งต่อวัน - ในห้องอาหาร ที่หน้าจ่ายอาหาร และท่ามกลางช่วงที่วุ่นที่สุด ทุกการตัดสินใจสมควรได้รับ *ความจริง ในขณะที่ยังเปลี่ยนผลลัพธ์ได้ทัน*',
-    coda: 'ความเชื่อนี้คือตัวผลิตภัณฑ์ ทุกสิ่งที่ Sundae ทำล้วนเพื่อรับใช้การตัดสินใจครั้งถัดไปที่คุณกำลังจะลงมือ',
+    statement: 'การตัดสินใจที่ดีที่สุดเกิดขึ้น *ขณะที่กะยังมีชีวิตอยู่*',
+    coda: 'ร้านอาหารไม่ได้ล้มในรายงาน แต่พลาดไปในแต่ละช่วงเวลา: โซนหนึ่งเริ่มช้า การจัดคนเริ่มเพี้ยน ลูกค้าเริ่มตกค้าง โต๊ะหนึ่งรอนานเกินไป Sundae มีอยู่เพื่อคว้าช่วงเวลาเหล่านั้นไว้ ในขณะที่ยังมีเวลาพอจะเปลี่ยนผลลัพธ์',
   },
   ms: {
     eyebrow: 'Apa yang kami percaya',
-    statement:
-      'Sebuah restoran digerakkan oleh ratusan keputusan sehari - di ruang makan, di pass, dan di kemuncak kesibukan. Setiap satunya berhak mendapat *kebenaran, selagi hasilnya masih boleh diubah.*',
-    coda: 'Keyakinan itulah produknya. Segala yang Sundae lakukan adalah demi keputusan seterusnya yang bakal anda buat.',
+    statement: 'Keputusan terbaik berlaku *semasa syif masih hidup.*',
+    coda: 'Restoran tidak gagal dalam laporan. Ia tergelincir dalam saat-saat kecil: satu kawasan perlahan, tenaga kerja terpesong, tetamu tertangguh, satu meja menunggu terlalu lama. Sundae wujud untuk menangkap saat-saat itu selagi masih ada masa untuk mengubah keputusannya.',
   },
 };
