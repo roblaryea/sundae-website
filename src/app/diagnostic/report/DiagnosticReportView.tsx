@@ -27,7 +27,7 @@ export type DiagnosticReport = {
   tierFit: string;
   economics?: {
     monthlyCost: { range: string; basis: string };
-    monthlySavings: { range: string; basis: string };
+    currentSpend: { range: string; basis: string; net: string };
     ebitdaUplift: { pctRange: string; amountRange: string; basis: string };
     softUplifts: { label: string; detail: string }[];
   };
@@ -242,17 +242,21 @@ export function DiagnosticReportView({
             <Section id="economics" icon={Wallet} title={copy.share.economicsTitle} subtitle={copy.share.economicsSubtitle} dark={dark} open={openIds.has("economics")} onToggle={() => toggle("economics")}>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-1">
                 {[
-                  { label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
-                  { label: copy.report.monthlySavings, value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
+                  { label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis, net: undefined as string | undefined },
+                  { label: copy.report.currentSpend, value: report.economics.currentSpend.range, basis: report.economics.currentSpend.basis, net: report.economics.currentSpend.net },
                   { label: copy.report.ebitdaUplift, value: report.economics.ebitdaUplift.amountRange, sub: report.economics.ebitdaUplift.pctRange, basis: report.economics.ebitdaUplift.basis },
-                ].map((c) => (
+                ].map((c) => {
+                  const isSaving = !!c.net && /^net lower/i.test(c.net);
+                  return (
                   <div key={c.label} className={`rounded-xl border p-3.5 ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-gray-50"}`}>
                     <p className={`text-[11px] font-bold uppercase tracking-wide ${muted}`}>{c.label}</p>
                     <p className={`text-base font-bold mt-1 ${heading}`}>{c.value}</p>
                     {c.sub && <p className={`text-xs font-semibold mt-0.5 ${dark ? "text-[#FF8473]" : "text-[#C2410C]"}`}>{c.sub}</p>}
+                    {c.net && <p className={`text-xs font-semibold mt-1 leading-snug ${isSaving ? (dark ? "text-emerald-300" : "text-emerald-600") : body}`}>{c.net}</p>}
                     <p className={`text-[11px] mt-1.5 ${muted}`}>{c.basis}</p>
                   </div>
-                ))}
+                  );
+                })}
               </div>
               {report.economics.softUplifts.length > 0 && (
                 <div className={`mt-3 grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-2`}>

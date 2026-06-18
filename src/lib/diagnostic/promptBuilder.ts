@@ -60,18 +60,24 @@ Treat these as indicative list pricing for sizing a range - never a quote.
    - Write like a consultant reading their P&L, not like a vendor pitching.
 6. **Tier fit must match outlet count** - 1 outlet → Report Pro; 2-15 → Core Lite; 16+ → Core Plus.
 7. **Top leaks ranked by impact band** - high → medium → low, max 3 hypotheses.
-8. **Recommended stack** - 2-6 layers. Always include Core; only add Crew if labor pain selected; Watchtower if competitor concern; Intelligence if BI/analyst friction; Foresight if forecasting gap.
+8. **Recommended stack - RIGHT-SIZED to their scale and budget (CRITICAL)** - 2-6 layers. Always include Core. Recommend the stack a group of THEIR size and budget would realistically land on, not a maximal end-state bundle:
+   - Crew: only if labor pain or manual scheduling. Pick the RIGHT Crew tier - Crew Operating Suite (Operations + T&A + Payroll) ONLY for multi-region payroll (2+ payroll countries) or 16+ outlets; otherwise Crew Scheduling, or Crew Scheduling + T&A if buddy-punching/no-shows. Do NOT default everyone to the priciest Crew bundle.
+   - Watchtower: only at SCALE (≥6 outlets) AND a genuine competitor concern. Never quote it to a 1-5 outlet operator.
+   - Intelligence (Sundae Intelligence / NL-to-SQL) is part of Core - include it as a layer for the narrative but it does NOT add a separate cost line.
+   - Foresight: if a forecasting gap or 2+ what-if scenarios.
+   - For small operators (≤15 outlets and/or sub-$25K SaaS spend) keep the stack focused (Core + one Crew tier + at most one or two specialised lenses). If broader capability fits later, describe it as an EXPANSION PATH in prose - never bundle it into the headline cost. A $10-25K-spend operator running Core + Crew Operating Suite + Watchtower + Foresight + multiple modules is not believable and reads as a sales-y over-quote.
 9. **Quick wins** - exactly 3 entries, one per horizon (30, 60, 90 days). Reference their specific tools/integrations where possible.
 10. **Profile line** - one tight line: "[Segments] operator · [N] outlets · [Region(s)]"
 11. **Name discipline (HARD LIMIT)** - Use the operator's first name AT MOST TWICE in the ENTIRE report - ideally once in the summary and nowhere else. Count your uses before finishing. Everywhere else use "you" / "your operation" / "the group". More than twice reads like a mail-merge, not a consultant who knows the business.
 12. **Vendor neutrality** - NEVER name the AI model, provider, or vendor behind this analysis, and never describe the output as "AI-generated" or "powered by [X]". You are Sundae's diagnostic engine - speak as Sundae, in the first person plural where natural ("we'd surface...").
 13. **Timeline awareness** - If a go-live timeline is provided, let it shape urgency in the summary or the 30-day quick-win (tie the first move to their stated window). Never invent specific calendar dates.
-14. **Economics block (always include unless inputs are far too sparse)** - Populate \`economics\`:
-    - **monthlyCost** - a range from the recommended stack × their outlet band against the list pricing above. State the basis (which SKUs × ~N outlets).
-    - **monthlySavings** - 30-60% consolidation of their stated annual SaaS spend (÷12), framed as the BI / scheduling / reporting tooling Sundae replaces. If spend isn't given, estimate from outlet count and say so in the basis.
+14. **Economics block - APPLES-TO-APPLES (always include unless inputs are far too sparse)** - The frame is Investment → what you spend on this today → Return. NEVER label Sundae a "saving" when it costs more than what they spend today. Populate \`economics\`:
+    - **monthlyCost (Est. monthly investment)** - a range from the RIGHT-SIZED STARTING stack (rule 8) × their outlet band against the list pricing above. Price the Crew tier you actually recommended (NOT a flat Operating Suite line). Do NOT add a separate line for Sundae Intelligence (it's in Core). Watchtower only enters the headline at ≥6 outlets. State the basis as a starting footprint, not a quote.
+    - **currentSpend (What you spend on this today - LIKE-FOR-LIKE, LOADED)** - the honest comparison denominator. Size it as: (a) the consolidatable software slice of their stated SaaS band - roughly 40-50% of it, the BI / analytics / scheduling / reporting / payroll-readiness portion (NOT POS processing, which Sundae sits on top of), PLUS (b) the LOADED cost of their in-house reporting/BI headcount that Sundae frees (from their analyst-headcount answer; a reporting analyst is ~$5K/mo loaded - count only the report-pulling/dashboard slice of their time, conservatively). The range low end ≈ software only; high end ≈ software + that analyst time. If SaaS spend isn't given, estimate software from outlet count and say so. This is the number that makes the comparison fair - their current stack costs more than the licence line suggests once people are counted.
+    - **currentSpend.net** - one honest line comparing the investment to this loaded current spend. If the investment is genuinely lower, say "net lower by ~$X/mo". If comparable, "roughly comparable, for materially more capability". If higher, say it plainly: "≈ +$X/mo over today's loaded spend - for one consolidated platform that replaces your tooling and frees analyst time, before the EBITDA return". NEVER claim a saving the math contradicts.
     - **ebitdaUplift** - give BOTH a margin-point range (\`pctRange\`) AND an **ANNUAL** absolute $ range (\`amountRange\`, e.g. "$1.0M-3.0M / yr" - NEVER monthly; a monthly figure overstates the ROI and reads as hype). Keep \`pctRange\` conservative and consistent with the margin lift you put in \`expectedImpact\` (typically +1-3 points). Compute the $ by applying ONLY the point-range spread to estimated annual revenue at the **midpoint** of their outlet band (AUV × midpoint outlet count) - do NOT also span the full outlet band, or the range becomes uselessly wide. If AUV isn't given, estimate from segment averages and say it's illustrative. The \`basis\` must show the ladder (point range × est. revenue) and call it an illustrative ceiling assuming full realisation over ~12 months. Never a customer-specific projection. Keep the implied multiple over annual Sundae cost believable - do not present an eye-watering top-end.
     - **softUplifts** - 2-4 non-financial wins tied to their selected pains: lower turnover & re-training, better-trained staff, happier guests, faster/calmer decisions.
-    Every figure is a directional range from comparable operators + list pricing - never a quote. Keep ranges honest and conservative.
+    Every figure is a directional range from comparable operators + list pricing - never a quote. Keep ranges honest and conservative. The honest story is: a comparable-or-slightly-higher software line that consolidates several tools and frees analyst time, where the margin recovery is the real return - NOT a fake "we're cheaper than your current stack".
 
 # Tone
 
@@ -89,6 +95,27 @@ which model handled their request - the output must read the same.`;
 
 function arr(v: string | string[] | undefined): string[] {
   return Array.isArray(v) ? v : v ? [v] : [];
+}
+
+// Lead the report with the lens the buyer's role actually cares about. The
+// model still covers everything — this just sets what leads the summary.
+function roleFraming(role: string): string {
+  const r = role.toLowerCase();
+  if (/cfo|finance/.test(r))
+    return "This reader is a FINANCE leader — lead the summary and economics with EBITDA impact, margin points, and the loaded cost of the current stack vs. the consolidated investment. Money first.";
+  if (/coo|operations|operating/.test(r))
+    return "This reader is an OPERATIONS leader — lead with the labor/daypart leaks, decision-lag compression (signal-to-action), and execution consistency across outlets.";
+  if (/ceo|founder|owner|managing/.test(r))
+    return "This reader is the OWNER/CEO — lead with the whole-business picture: the biggest leak, the one strategic move, and the EBITDA upside. Keep it boardroom-tight.";
+  if (/data|technology|bi|analyst|it\b/.test(r))
+    return "This reader owns DATA/TECH — lead with consolidation (replacing the BI/dashboard layer + analyst-pull loop), NL-to-SQL self-serve, and topology-aware multi-entity reporting.";
+  if (/marketing/.test(r))
+    return "This reader leads MARKETING — lead with guest LTV/retention, promo ROI by channel, and delivery-channel margin.";
+  if (/people|hr|human/.test(r))
+    return "This reader leads PEOPLE/HR — lead with turnover/re-training cost, scheduling fairness, payroll readiness, and statutory compliance.";
+  if (/franchise/.test(r))
+    return "This reader is a FRANCHISE leader — lead with multi-brand consolidated P&L, brand-standard/compliance drift, and outlet-viability comparison.";
+  return "Lead with the highest-impact leak for this profile and the consolidation + EBITDA story.";
 }
 
 // Value→label lookup derived from the question catalog - single source of
@@ -174,6 +201,9 @@ export function buildUserMessage(
   lines.push('');
 
   lines.push(`# Now generate the diagnostic`);
+  lines.push(``);
+  lines.push(`## Framing for this buyer (role: ${leadData.role || "unspecified"})`);
+  lines.push(roleFraming(leadData.role || ""));
   lines.push(``);
   lines.push(`## Language and glossary`);
   lines.push(getDiagnosticPromptInstruction(locale));

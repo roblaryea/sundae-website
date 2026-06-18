@@ -50,7 +50,12 @@ export interface SoftUplift {
 
 export interface Economics {
   monthlyCost: { range: string; basis: string };
-  monthlySavings: { range: string; basis: string };
+  /**
+   * Like-for-like "what you spend on this today" — the loaded cost of the
+   * tools + in-house analyst time Sundae consolidates. NOT a "savings" figure:
+   * `net` states the honest delta vs. the monthly investment above.
+   */
+  currentSpend: { range: string; basis: string; net: string };
   ebitdaUplift: { pctRange: string; amountRange: string; basis: string };
   softUplifts: SoftUplift[];
 }
@@ -130,6 +135,21 @@ const BUDGET_MID: Record<string, number> = {
   under_10k: 7_000, "10_25k": 17_000, "25_50k": 37_000, "50_100k": 75_000,
   "100_250k": 175_000, "250_500k": 375_000, "500k_1m": 750_000, "1m_plus": 1_300_000,
 };
+// In-house reporting/BI time Sundae offloads, expressed as FTE-equivalents.
+// Deliberately conservative — we only count the slice of these people whose
+// work (pulling reports, maintaining dashboards) Sundae absorbs, not their
+// whole role. Used only to make the "what you spend today" comparison fair.
+const HEADCOUNT_FTE: Record<string, number> = {
+  none: 0, fractional: 0.25, one: 0.5, two_three: 1.0,
+  four_eight: 1.75, nine_twenty: 3.0, twenty_plus: 5.0,
+};
+// Conservative blended loaded monthly cost of a reporting/BI analyst (salary +
+// overhead), globally averaged across our markets. Directional, never a quote.
+const ANALYST_LOADED_MONTHLY = 5_200;
+// Share of a group's ops-tech SaaS spend that Sundae actually consolidates —
+// the BI / analytics / scheduling / reporting / payroll-readiness slice. POS
+// processing and hardware are explicitly excluded (Sundae sits on top of POS).
+const CONSOLIDATABLE_SOFTWARE_FRACTION = 0.45;
 const money = (n: number): string =>
   n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(n >= 10_000_000 ? 0 : 1)}M`
   : n >= 10_000 ? `$${Math.round(n / 1000)}K`
@@ -141,23 +161,70 @@ function computeEconomics(
   stack: StackRecommendation[],
   outlets: number,
 ): Economics {
-  const hasCrew = stack.some((s) => s.layer === "crew");
+  const crew = stack.find((s) => s.layer === "crew");
   const hasWatch = stack.some((s) => s.layer === "watchtower");
-  const moduleCount = stack.filter((s) => s.layer === "intelligence" || s.layer === "foresight").length;
+  const hasForesight = stack.some((s) => s.layer === "foresight");
 
+  // ── Right-sized monthly investment ──────────────────────────────────
+  // Price the STARTING footprint against list pricing — the substrate the
+  // operator actually lands on, not a maximal end-state bundle. Each line is
+  // the SKU the recommendation engine actually chose (not always the priciest
+  // Crew tier), and capability that phases in with scale (Watchtower) is held
+  // out of the headline for small operators.
   const coreTier = outlets <= 1 ? "Report Pro" : outlets <= 15 ? "Core Lite" : "Core Pro";
   const [base, perLoc] = outlets <= 1 ? [159, 59] : outlets <= 15 ? [279, 79] : [449, 89];
-  let monthly = base + perLoc * outlets;
-  if (hasCrew) monthly += 502 + 102 * outlets;        // Crew Operating Suite
-  if (hasWatch) monthly += 199 + 19 * outlets;        // Watchtower add-on (indicative)
-  monthly += moduleCount * (149 + 14 * outlets) * 0.5; // specialized modules, dampened
+  let monthly = base + perLoc * outlets;        // Core includes Sundae Intelligence (NL-to-SQL)
+  // Crew: price the ACTUAL recommended tier, not a flat Operating Suite line.
+  let crewLabel = "";
+  if (crew) {
+    if (/operating suite/i.test(crew.label)) {
+      monthly += 502 + 102 * outlets; crewLabel = "Crew Operating Suite";
+    } else if (/t&a/i.test(crew.label)) {
+      monthly += (179 + 39 * outlets) + (99 + 19 * outlets); crewLabel = "Crew Scheduling + T&A";
+    } else {
+      monthly += 179 + 39 * outlets; crewLabel = "Crew Scheduling";
+    }
+  }
+  // Watchtower only enters the headline at scale (≥6 outlets); below that it's
+  // an expansion-path line, not part of the starting investment.
+  const watchInHeadline = hasWatch && outlets >= 6;
+  if (watchInHeadline) monthly += 199 + 19 * outlets;
+  if (hasForesight) monthly += 49 + 39 * outlets;   // Foresight add-on (modest)
 
+  const costBasis = [
+    `${coreTier} (${money(base)} + ${money(perLoc)}/loc)`,
+    crewLabel && crewLabel,
+    watchInHeadline && "Watchtower",
+    hasForesight && "Foresight",
+  ].filter(Boolean).join(" + ");
+
+  // ── Like-for-like: what you spend on this today (loaded) ────────────
   const budgetAnnual = BUDGET_MID[String(responses.budget_band ?? "")];
-  const savings = budgetAnnual
-    ? { range: `${money((budgetAnnual / 12) * 0.3)}-${money((budgetAnnual / 12) * 0.6)} / mo`,
-        basis: `Consolidating roughly 30-60% of your ~${money(budgetAnnual / 12)}/mo current ops-tech spend (BI, scheduling, reporting).` }
-    : { range: `${money(120 * outlets)}-${money(300 * outlets)} / mo`,
-        basis: `Typical replaced-tooling savings across ~${outlets} outlets (BI, scheduling, reporting). Add your SaaS spend for a tighter figure.` };
+  const budgetMonthly = budgetAnnual ? budgetAnnual / 12 : 0;
+  const softwareMonthly = budgetAnnual
+    ? budgetMonthly * CONSOLIDATABLE_SOFTWARE_FRACTION
+    : 110 * outlets; // fallback: consolidatable software ≈ $110/outlet/mo
+  const fte = HEADCOUNT_FTE[String(responses.tech_headcount ?? "")] ?? 0;
+  const peopleMonthly = fte * ANALYST_LOADED_MONTHLY;
+  const currentLow = softwareMonthly;
+  const currentHigh = peopleMonthly > 0 ? softwareMonthly + peopleMonthly : softwareMonthly * 1.25;
+
+  const spendBasis = budgetAnnual
+    ? `≈ ${money(softwareMonthly)}/mo of consolidatable software (the BI, scheduling, reporting & payroll-readiness slice of your ~${money(budgetMonthly)}/mo ops-tech spend)${peopleMonthly > 0 ? ` plus ~${fte} FTE of in-house reporting time Sundae frees (≈ ${money(peopleMonthly)}/mo loaded)` : ` (you flagged no dedicated reporting headcount)`}. Loaded and directional — never a quote.`
+    : `≈ ${money(softwareMonthly)}/mo of consolidatable software across ~${outlets} outlet${outlets === 1 ? "" : "s"} (BI, scheduling, reporting)${peopleMonthly > 0 ? ` plus ~${fte} FTE of in-house reporting time (≈ ${money(peopleMonthly)}/mo loaded)` : ""}. Add your SaaS spend for a tighter figure.`;
+
+  // Honest net comparison: investment point-estimate vs. loaded current spend.
+  const net = monthly <= currentLow
+    ? `Net lower than today's loaded spend by ~${money(currentLow - monthly)}/mo — before any margin gain.`
+    : monthly <= currentHigh
+      ? `Roughly comparable to today's loaded spend — for one consolidated platform with materially more capability.`
+      : `≈ +${money(monthly - currentHigh)}/mo over today's loaded spend — for a single platform that replaces your tooling and frees analyst time, before the EBITDA return below.`;
+
+  const currentSpend = {
+    range: `${money(currentLow)}-${money(currentHigh)} / mo`,
+    basis: spendBasis,
+    net,
+  };
 
   const auv = AUV_MID[String(responses.avg_unit_volume ?? "")];
   const annualRev = auv ? auv * outlets : 0;
@@ -177,12 +244,14 @@ function computeEconomics(
   softUplifts.push({ label: "Happier guests", detail: "Faster service and fewer stockouts/voids lift the experience that drives repeat visits." });
   softUplifts.push({ label: "Faster, calmer decisions", detail: "Signal-to-action drops from weekly close to same-day - the team acts before margin is booked." });
 
+  const expansionNote = hasWatch && !watchInHeadline ? " Watchtower phases in as you scale." : "";
+
   return {
     monthlyCost: {
       range: `${money(monthly * 0.85)}-${money(monthly * 1.2)} / mo`,
-      basis: `${coreTier}${hasCrew ? " + Crew Operating Suite" : ""}${hasWatch ? " + Watchtower" : ""} across ~${outlets} outlets (list pricing).`,
+      basis: `${costBasis} across ~${outlets} outlet${outlets === 1 ? "" : "s"} (indicative list pricing — a starting footprint, not a quote).${expansionNote}`,
     },
-    monthlySavings: savings,
+    currentSpend,
     ebitdaUplift,
     softUplifts: softUplifts.slice(0, 4),
   };
@@ -331,8 +400,13 @@ export function runDiagnostic(
     }
   }
 
-  // Watchtower if competitor signal
-  if (has(responses.kpis_wished, "competitor_pricing") || has(responses.scenario_wish, "competitor")) {
+  // Watchtower if competitor signal — but only at scale (≥6 outlets). Its
+  // network-effect market intelligence isn't worth a line item for a small
+  // operator, and quoting it to one is exactly the over-scoping we're fixing.
+  if (
+    outlets >= 6 &&
+    (has(responses.kpis_wished, "competitor_pricing") || has(responses.scenario_wish, "competitor"))
+  ) {
     recommendedStack.push({
       layer: "watchtower",
       label: "Watchtower",
@@ -362,12 +436,17 @@ export function runDiagnostic(
   }
 
   // ─── Tier fit (one-line summary) ─────────────────────────────────
+  // Reflect the stack we ACTUALLY recommended (the real Crew tier, Watchtower
+  // only if it cleared the scale gate) — never a hardcoded maximal bundle.
   const tierFit = (() => {
-    const hasCrew = recommendedStack.some((s) => s.layer === "crew");
     const coreTier = outlets >= 16 ? "Core Plus" : outlets >= 2 ? "Core Lite" : "Report Pro";
-    if (hasCrew && outlets >= 16) return `${coreTier} + Crew Operating Suite + Watchtower`;
-    if (hasCrew) return `${coreTier} + Crew Operating Suite`;
-    return `${coreTier} + ${recommendedStack.length >= 4 ? "Foresight" : "Core modules"}`;
+    const crewLabel = recommendedStack.find((s) => s.layer === "crew")?.label;
+    const hasWatch = recommendedStack.some((s) => s.layer === "watchtower");
+    const parts = [coreTier];
+    if (crewLabel) parts.push(crewLabel);
+    if (hasWatch) parts.push("Watchtower");
+    if (!crewLabel && !hasWatch) parts.push(recommendedStack.length >= 4 ? "Foresight" : "Core modules");
+    return parts.join(" + ");
   })();
 
   // ─── Expected impact ─────────────────────────────────────────────

@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Sparkles, Clock, FileText, ShieldCheck } from "lucide-react";
+import { Sparkles, Clock, FileText, ShieldCheck, RotateCcw } from "lucide-react";
 import { DiagnosticFlow } from "@/components/diagnostic/DiagnosticFlow";
 import { DiagnosticReport } from "@/components/diagnostic/DiagnosticReport";
 import { DiagnosticGenerating } from "@/components/diagnostic/DiagnosticGenerating";
@@ -11,8 +11,10 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { runDiagnostic, type DiagnosticResponses, type DiagnosticReport as DiagnosticReportType } from "@/lib/diagnostic/engine";
 import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
 import { getDiagnosticCatalogCopy } from "@/lib/diagnostic/questionTranslations";
+import { trackEvent } from "@/lib/posthog";
+import { loadProgress, clearProgress, answeredCount, type DiagnosticProgress } from "@/lib/diagnostic/progress";
 
-type Stage = "intro" | "flow" | "generating" | "report" | "error";
+type Stage = "intro" | "flow" | "generating" | "report";
 
 export default function DiagnosticPage() {
   const { locale } = useWebsiteI18n();
@@ -20,6 +22,7 @@ export default function DiagnosticPage() {
   const catalog = getDiagnosticCatalogCopy(locale);
   const [stage, setStage] = useState<Stage>("intro");
   const [report, setReport] = useState<DiagnosticReportType | null>(null);
+  const [responses, setResponses] = useState<DiagnosticResponses | null>(null);
   const [leadData, setLeadData] = useState<{
     name: string;
     email: string;
@@ -28,8 +31,36 @@ export default function DiagnosticPage() {
     role: string;
     country: string;
   } | null>(null);
+  // Resume support: detect an in-progress diagnostic saved on this device.
+  const [savedProgress, setSavedProgress] = useState<DiagnosticProgress | null>(null);
+  const [resumeFrom, setResumeFrom] = useState<DiagnosticProgress | null>(null);
 
-  const handleStart = () => setStage("flow");
+  useEffect(() => {
+    setSavedProgress(loadProgress());
+  }, []);
+
+  const handleStart = () => {
+    setResumeFrom(null);
+    setStage("flow");
+    trackEvent("diagnostic_started", { locale, resumed: false });
+  };
+
+  const handleResume = () => {
+    setResumeFrom(savedProgress);
+    setStage("flow");
+    trackEvent("diagnostic_resumed", {
+      locale,
+      answered: answeredCount(savedProgress?.responses),
+    });
+  };
+
+  const handleStartFresh = () => {
+    clearProgress();
+    setSavedProgress(null);
+    setResumeFrom(null);
+    setStage("flow");
+    trackEvent("diagnostic_started", { locale, resumed: false, restarted: true });
+  };
 
   const handleComplete = async (data: {
     responses: DiagnosticResponses;
@@ -49,11 +80,22 @@ export default function DiagnosticPage() {
       country: data.country,
     };
     setLeadData(lead);
+    setResponses(data.responses);
     setStage("generating");
+    // The diagnostic is submitted — local draft is no longer needed.
+    clearProgress();
+    setSavedProgress(null);
+    trackEvent("diagnostic_submitted", {
+      locale,
+      role: data.role,
+      country: data.country,
+      answered: answeredCount(data.responses),
+    });
 
-    // Call AI gateway (Sonnet 4.6 primary → GPT-5 fallback). English can use
-    // the deterministic heuristic safety net; other locales fail in-language
-    // rather than showing an English report.
+    // Call AI gateway (Sonnet 4.6 primary → GPT-5 fallback). On any failure we
+    // fall back to the deterministic engine (with a localized note for non-EN)
+    // rather than dead-ending — a prospect who finished 20 questions should
+    // always get a report.
     let result: DiagnosticReportType;
     // Internal-only: which engine produced the report (for sales/debug). Never
     // surfaced to the prospect - only attached to the lead metadata.
@@ -74,15 +116,19 @@ export default function DiagnosticPage() {
       aiSource = typeof payload.source === "string" ? payload.source : null;
     } catch (err) {
       console.error("[diagnostic] generation failed:", err);
-      if (locale !== "en") {
-        setStage("error");
-        return;
-      }
+      trackEvent("diagnostic_generation_failed", {
+        locale,
+        message: err instanceof Error ? err.message : "unknown",
+      });
+      // Graceful fallback for EVERY locale. runDiagnostic appends a localized
+      // "regenerate for the fully native narrative" note for non-EN, so the
+      // operator still gets their report instead of an error dead-end.
       result = runDiagnostic(data.responses, locale);
       aiSource = "client-heuristic";
     }
 
     setReport(result);
+    trackEvent("diagnostic_report_shown", { locale, source: aiSource, tierFit: result.tierFit });
 
     // Fire-and-forget lead capture. Includes the AI-generated report in
     // metadata so the backend can email the branded report AND sales sees the
@@ -134,36 +180,15 @@ export default function DiagnosticPage() {
   };
 
   if (stage === "report" && report && leadData) {
-    return <DiagnosticReport report={report} leadData={leadData} locale={locale} />;
+    return <DiagnosticReport report={report} leadData={leadData} responses={responses ?? {}} locale={locale} />;
   }
 
   if (stage === "generating" && leadData) {
     return <DiagnosticGenerating name={leadData.name} locale={locale} />;
   }
 
-  if (stage === "error") {
-    return (
-      <div className="min-h-screen bg-[var(--navy-deep)] pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-display)] mb-4">
-            {copy.share.notFoundTitle}
-          </h1>
-          <p className="text-base text-[var(--text-supporting)] mb-8">
-            {copy.share.notFoundBody}
-          </p>
-          <button
-            onClick={() => setStage("flow")}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--warm-coral)] text-white text-sm font-bold rounded-xl"
-          >
-            {copy.share.notFoundCta}
-          </button>
-        </div>
-      </div>
-    );
-  }
-
   if (stage === "flow") {
-    return <DiagnosticFlow onComplete={handleComplete} locale={locale} />;
+    return <DiagnosticFlow onComplete={handleComplete} locale={locale} initialProgress={resumeFrom} />;
   }
 
   return (
@@ -188,16 +213,54 @@ export default function DiagnosticPage() {
             {copy.intro.body}
           </p>
 
-          <button
-            onClick={handleStart}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white text-base font-bold rounded-xl shadow-2xl shadow-[var(--warm-coral)]/30 hover:shadow-[var(--warm-coral)]/50 transition-all"
-          >
-            {copy.intro.start}
-            <Sparkles className="w-4 h-4" />
-          </button>
-          <p className="text-xs text-[var(--text-muted)] mt-3">
-            {copy.intro.note}
-          </p>
+          {(() => {
+            const canResume = !!savedProgress && answeredCount(savedProgress.responses) > 0;
+            const RESUME_COPY: Record<string, { resume: string; fresh: string; note: (n: number) => string }> = {
+              en: { resume: "Resume your diagnostic", fresh: "Start fresh", note: (n) => `We saved your progress on this device — ${n} question${n === 1 ? "" : "s"} answered.` },
+              ar: { resume: "استأنف تشخيصك", fresh: "ابدأ من جديد", note: (n) => `حفظنا تقدمك على هذا الجهاز — تمت الإجابة على ${n} سؤال.` },
+              fr: { resume: "Reprendre votre diagnostic", fresh: "Recommencer", note: (n) => `Nous avons enregistré votre progression sur cet appareil — ${n} question(s) répondues.` },
+            };
+            const rl = RESUME_COPY[locale] ?? RESUME_COPY.en;
+            if (canResume) {
+              return (
+                <>
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+                    <button
+                      onClick={handleResume}
+                      className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white text-base font-bold rounded-xl shadow-2xl shadow-[var(--warm-coral)]/30 hover:shadow-[var(--warm-coral)]/50 transition-all"
+                    >
+                      {rl.resume}
+                      <Sparkles className="w-4 h-4" />
+                    </button>
+                    <button
+                      onClick={handleStartFresh}
+                      className="inline-flex items-center gap-1.5 px-5 py-3 text-sm font-semibold text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
+                    >
+                      <RotateCcw className="w-3.5 h-3.5" />
+                      {rl.fresh}
+                    </button>
+                  </div>
+                  <p className="text-xs text-[var(--text-muted)] mt-3">
+                    {rl.note(answeredCount(savedProgress?.responses))}
+                  </p>
+                </>
+              );
+            }
+            return (
+              <>
+                <button
+                  onClick={handleStart}
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white text-base font-bold rounded-xl shadow-2xl shadow-[var(--warm-coral)]/30 hover:shadow-[var(--warm-coral)]/50 transition-all"
+                >
+                  {copy.intro.start}
+                  <Sparkles className="w-4 h-4" />
+                </button>
+                <p className="text-xs text-[var(--text-muted)] mt-3">
+                  {copy.intro.note}
+                </p>
+              </>
+            );
+          })()}
         </motion.div>
 
         {/* What you get */}

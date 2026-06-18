@@ -14,14 +14,34 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2, Loader2, Check, Wallet, PiggyBank, Heart } from "lucide-react";
-import type { DiagnosticReport } from "@/lib/diagnostic/engine";
+import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2, Loader2, Check, Wallet, Receipt, Heart, Printer, CalendarClock } from "lucide-react";
+import type { DiagnosticReport, DiagnosticResponses } from "@/lib/diagnostic/engine";
 import type { WebsiteLocale } from "@/lib/i18n";
 import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
+import { buildPricingSimUrl } from "@/lib/diagnostic/pricingLink";
+import { trackEvent } from "@/lib/posthog";
+
+// Optional self-serve scheduling. When NEXT_PUBLIC_BOOKING_URL is set (e.g. a
+// Cal.com / Calendly link), the booked-call confirmation offers an instant
+// "pick a time" step. Until then, the qualified lead is forwarded to sales.
+const BOOKING_URL = process.env.NEXT_PUBLIC_BOOKING_URL;
+function bookingUrlWith(name: string, email: string): string | null {
+  if (!BOOKING_URL) return null;
+  try {
+    const u = new URL(BOOKING_URL);
+    if (name) u.searchParams.set("name", name);
+    if (email) u.searchParams.set("email", email);
+    return u.toString();
+  } catch {
+    return BOOKING_URL;
+  }
+}
 
 interface DiagnosticReportProps {
   report: DiagnosticReport;
   locale: WebsiteLocale;
+  /** Raw responses — used to pre-fill the pricing simulator deep-link. */
+  responses: DiagnosticResponses;
   leadData: {
     name: string;
     email: string;
@@ -54,10 +74,18 @@ const impactBandStyle: Record<string, string> = {
   low: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
 };
 
-export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportProps) {
+export function DiagnosticReport({ report, leadData, responses, locale }: DiagnosticReportProps) {
   const copy = getDiagnosticCopy(locale);
   const firstName = leadData.name.split(" ")[0] || "there";
   const [bookingState, setBookingState] = useState<"idle" | "loading" | "done">("idle");
+  // Carry everything the operator already told us into the pricing simulator.
+  const pricingUrl = buildPricingSimUrl(responses, report, leadData);
+  const bookUrl = bookingUrlWith(leadData.name, leadData.email);
+
+  const handlePrint = () => {
+    trackEvent("diagnostic_report_print", { locale, tierFit: report.tierFit });
+    window.print();
+  };
 
   // Auto-submit booking request - the prospect already gave us name, email,
   // phone, role, country via the diagnostic. No reason to ask again.
@@ -65,6 +93,7 @@ export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportP
   // so sales workflow can prioritize these (high-intent, fully-qualified).
   const handleBookCall = async () => {
     if (bookingState !== "idle") return;
+    trackEvent("diagnostic_cta_click", { cta: "book_call", locale, tierFit: report.tierFit });
     setBookingState("loading");
     try {
       await fetch("/api/cta/submit", {
@@ -93,9 +122,30 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
     }
   };
 
+  const printLabel = locale === "ar" ? "طباعة / حفظ PDF" : locale === "fr" ? "Imprimer / PDF" : "Print / Save as PDF";
+  const bookNowLabel = locale === "ar" ? "احجز موعداً الآن" : locale === "fr" ? "Choisir un créneau" : "Pick a time now";
+
   return (
-    <div className="min-h-screen bg-[var(--navy-deep)] pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+    <div id="diagnostic-report" className="min-h-screen bg-[var(--navy-deep)] pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+      {/* Ink-friendly print / Save-as-PDF rendering of the report. */}
+      <style>{`@media print {
+        body { background:#fff !important; }
+        .dgx-no-print { display:none !important; }
+        #diagnostic-report { background:#fff !important; padding-top:8px !important; }
+        #diagnostic-report, #diagnostic-report * { color:#1a1a1a !important; box-shadow:none !important; }
+        #diagnostic-report [class*="border"] { border-color:#e2e2e2 !important; }
+      }`}</style>
       <div className="max-w-5xl mx-auto">
+        {/* Report toolbar */}
+        <div className="dgx-no-print flex justify-end mb-2">
+          <button
+            onClick={handlePrint}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-[var(--text-supporting)] border border-[var(--border-default)] hover:text-[var(--text-primary)] hover:border-[var(--warm-coral)]/50 transition-colors"
+          >
+            <Printer className="w-3.5 h-3.5" />
+            {printLabel}
+          </button>
+        </div>
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -308,10 +358,13 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
               {[
-                { icon: Wallet, tint: "text-[var(--warm-coral)]", ring: "border-[var(--warm-coral)]/25 bg-[var(--warm-coral)]/[0.05]", label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
-                { icon: PiggyBank, tint: "text-emerald-300", ring: "border-emerald-500/25 bg-emerald-500/[0.05]", label: copy.report.monthlySavings, value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
+                { icon: Wallet, tint: "text-[var(--warm-coral)]", ring: "border-[var(--warm-coral)]/25 bg-[var(--warm-coral)]/[0.05]", label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis, net: undefined as string | undefined },
+                { icon: Receipt, tint: "text-slate-300", ring: "border-white/15 bg-white/[0.03]", label: copy.report.currentSpend, value: report.economics.currentSpend.range, basis: report.economics.currentSpend.basis, net: report.economics.currentSpend.net },
                 { icon: TrendingUp, tint: "text-amber-300", ring: "border-amber-500/25 bg-amber-500/[0.05]", label: copy.report.ebitdaUplift, value: report.economics.ebitdaUplift.amountRange, basis: report.economics.ebitdaUplift.basis, sub: report.economics.ebitdaUplift.pctRange },
-              ].map((c) => (
+              ].map((c) => {
+                // Genuine net saving → emerald; "comparable"/"+$X over" → neutral.
+                const isSaving = !!c.net && /^net lower/i.test(c.net);
+                return (
                 <div key={c.label} className={`rounded-2xl border p-5 ${c.ring}`}>
                   <div className="flex items-center gap-2 mb-2">
                     <c.icon className={`w-4 h-4 ${c.tint}`} />
@@ -319,9 +372,15 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
                   </div>
                   <p className="text-xl font-bold text-[var(--text-primary)] leading-tight">{c.value}</p>
                   {c.sub && <p className={`text-xs font-semibold mt-0.5 ${c.tint}`}>{c.sub}</p>}
+                  {c.net && (
+                    <p className={`text-xs font-semibold mt-1.5 leading-snug ${isSaving ? "text-emerald-300" : "text-[var(--text-supporting)]"}`}>
+                      {c.net}
+                    </p>
+                  )}
                   <p className="text-[11px] text-[var(--text-muted)] leading-snug mt-2 pt-2 border-t border-white/[0.06]">{c.basis}</p>
                 </div>
-              ))}
+                );
+              })}
             </div>
 
             {report.economics.softUplifts.length > 0 && (
@@ -351,8 +410,15 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.5 }}
-          className="rounded-3xl bg-gradient-to-br from-[var(--warm-coral)]/15 via-[var(--warm-coral)]/8 to-emerald-500/8 border border-[var(--warm-coral)]/30 p-6 md:p-10 text-center"
+          className="dgx-no-print rounded-3xl bg-gradient-to-br from-[var(--warm-coral)]/15 via-[var(--warm-coral)]/8 to-emerald-500/8 border border-[var(--warm-coral)]/30 p-6 md:p-10 text-center"
         >
+          {/* Closure: report is ready + a copy is on its way to their inbox. */}
+          <div className="inline-flex items-start gap-2 px-4 py-2 mb-5 rounded-full bg-emerald-500/12 border border-emerald-500/30 text-left max-w-xl mx-auto">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+            <span className="text-xs text-emerald-100/90 leading-snug">
+              {copy.report.ready(leadData.email)}
+            </span>
+          </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
             {copy.report.ctaTitle}
           </h2>
@@ -387,9 +453,10 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
               )}
             </button>
             <Link
-              href={`https://pricing.sundae.io?email=${encodeURIComponent(leadData.email)}&name=${encodeURIComponent(leadData.name)}&company=${encodeURIComponent(leadData.company || "")}&country=${encodeURIComponent(leadData.country)}`}
+              href={pricingUrl}
               target="_blank"
               rel="noopener"
+              onClick={() => trackEvent("diagnostic_cta_click", { cta: "pricing_simulator", locale })}
               className="rounded-xl bg-white/[0.06] border-2 border-[var(--warm-coral)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--warm-coral)]/10 hover:border-[var(--warm-coral)]/75 transition-colors flex items-center justify-center gap-2"
             >
               {copy.report.pricing}
@@ -397,12 +464,27 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
             </Link>
             <Link
               href="/crew"
+              onClick={() => trackEvent("diagnostic_cta_click", { cta: "crew_lite", locale })}
               className="rounded-xl bg-white/[0.06] border-2 border-[var(--warm-coral)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--warm-coral)]/10 hover:border-[var(--warm-coral)]/75 transition-colors flex items-center justify-center gap-2"
             >
               {copy.report.crewLite}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
+          {/* When self-serve scheduling is configured, let the high-intent
+              lead pick a time immediately after the request is logged. */}
+          {bookingState === "done" && bookUrl && (
+            <a
+              href={bookUrl}
+              target="_blank"
+              rel="noopener"
+              onClick={() => trackEvent("diagnostic_cta_click", { cta: "book_time", locale })}
+              className="mt-4 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[var(--warm-coral)] text-white text-sm font-bold hover:bg-[var(--warm-coral)]/90 transition-colors"
+            >
+              <CalendarClock className="w-4 h-4" />
+              {bookNowLabel}
+            </a>
+          )}
           <p className="text-[11px] text-[var(--text-muted)] mt-6 italic">
             {copy.report.emailed(leadData.email)}
           </p>

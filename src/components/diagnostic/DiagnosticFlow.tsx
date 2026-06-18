@@ -10,16 +10,21 @@
  * email + name (captured at the end).
  */
 
-import { useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
+import { ChevronLeft, ChevronRight, CheckCircle2, AlertCircle } from "lucide-react";
 import { QUESTIONS } from "@/lib/diagnostic/questions";
 import type { DiagnosticResponses } from "@/lib/diagnostic/engine";
 import { getWebsiteIntlLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getDiagnosticCatalogCopy, getDiagnosticQuestionCopy } from "@/lib/diagnostic/questionTranslations";
+import { saveProgress, type DiagnosticProgress } from "@/lib/diagnostic/progress";
+import { companyFromEmail, emailDomain, isFreeMail } from "@/lib/diagnostic/enrich";
+import { trackEvent } from "@/lib/posthog";
 
 interface DiagnosticFlowProps {
   locale: WebsiteLocale;
+  /** When resuming, the saved draft to seed the flow from. */
+  initialProgress?: DiagnosticProgress | null;
   onComplete: (data: {
     responses: DiagnosticResponses;
     email: string;
@@ -30,6 +35,9 @@ interface DiagnosticFlowProps {
     country: string;
   }) => void;
 }
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const phoneOk = (v: string) => /\d{6,}/.test(v.replace(/[\s\-()]/g, ""));
 
 // Common roles for the role dropdown - covers ICP buyer titles.
 const ROLE_OPTIONS = [
@@ -98,21 +106,48 @@ const COUNTRY_REGION_CODES: Record<string, string> = {
   "South Africa": "ZA",
 };
 
-export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
+export function DiagnosticFlow({ onComplete, locale, initialProgress }: DiagnosticFlowProps) {
   const catalog = getDiagnosticCatalogCopy(locale);
   const regionNames =
     typeof Intl.DisplayNames !== "undefined"
       ? new Intl.DisplayNames([getWebsiteIntlLocale(locale)], { type: "region" })
       : null;
-  const [step, setStep] = useState(0);
-  const [responses, setResponses] = useState<DiagnosticResponses>({});
-  const [showCapture, setShowCapture] = useState(false);
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [company, setCompany] = useState("");
-  const [phone, setPhone] = useState("");
-  const [role, setRole] = useState("");
-  const [country, setCountry] = useState("");
+  const cap = initialProgress?.capture;
+  const [step, setStep] = useState(initialProgress?.step ?? 0);
+  const [responses, setResponses] = useState<DiagnosticResponses>(initialProgress?.responses ?? {});
+  const [showCapture, setShowCapture] = useState(initialProgress?.showCapture ?? false);
+  const [email, setEmail] = useState(cap?.email ?? "");
+  const [name, setName] = useState(cap?.name ?? "");
+  const [company, setCompany] = useState(cap?.company ?? "");
+  const [phone, setPhone] = useState(cap?.phone ?? "");
+  const [role, setRole] = useState(cap?.role ?? "");
+  const [country, setCountry] = useState(cap?.country ?? "");
+  // Validation + enrichment UI state.
+  const [emailTouched, setEmailTouched] = useState(false);
+  const [phoneTouched, setPhoneTouched] = useState(false);
+  const [companyAutoFilled, setCompanyAutoFilled] = useState(false);
+
+  const emailValid = EMAIL_RE.test(email.trim());
+  const phoneValid = phoneOk(phone);
+  const showEmailErr = emailTouched && email.trim().length > 0 && !emailValid;
+  const showPhoneErr = phoneTouched && phone.trim().length > 0 && !phoneValid;
+  const VAL_COPY: Record<string, { email: string; phone: string; autofill: string }> = {
+    en: { email: "Enter a valid work email", phone: "Enter a valid phone number", autofill: "Filled from your email — edit if needed" },
+    ar: { email: "أدخل بريداً إلكترونياً صالحاً", phone: "أدخل رقم هاتف صالحاً", autofill: "تم ملؤه من بريدك — عدّله إن لزم" },
+    fr: { email: "Saisissez un e-mail professionnel valide", phone: "Saisissez un numéro de téléphone valide", autofill: "Rempli depuis votre e-mail — modifiable" },
+  };
+  const vc = VAL_COPY[locale] ?? VAL_COPY.en;
+
+  // Persist progress on this device so a refresh / back / "finish later" never
+  // wipes the answers. Parent clears it on successful submit.
+  useEffect(() => {
+    saveProgress({
+      responses,
+      step,
+      showCapture,
+      capture: { name, email, company, phone, role, country },
+    });
+  }, [responses, step, showCapture, name, email, company, phone, role, country]);
 
   const total = QUESTIONS.length;
   const q = QUESTIONS[step];
@@ -150,9 +185,25 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
 
   const handleNext = () => {
     if (step < total - 1) {
-      setStep(step + 1);
+      const next = step + 1;
+      setStep(next);
+      trackEvent("diagnostic_step", { locale, step: next + 1, total: total + 1, dimension: QUESTIONS[next]?.dimension });
     } else {
       setShowCapture(true);
+      trackEvent("diagnostic_capture_shown", { locale });
+    }
+  };
+
+  // Best-effort company prefill from a corporate email domain (no API). Only
+  // fills when the user hasn't typed their own company, and is overridable.
+  const handleEmailChange = (value: string) => {
+    setEmail(value);
+    if (EMAIL_RE.test(value.trim()) && (!company.trim() || companyAutoFilled)) {
+      const guess = companyFromEmail(value.trim());
+      if (guess) {
+        setCompany(guess);
+        setCompanyAutoFilled(true);
+      }
     }
   };
 
@@ -165,11 +216,20 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
   };
 
   const handleSubmit = () => {
+    setEmailTouched(true);
+    setPhoneTouched(true);
     if (
-      email.trim() && name.trim() && phone.trim() && role.trim() &&
+      emailValid && phoneValid && name.trim() && role.trim() &&
       country.trim() && company.trim()
     ) {
-      onComplete({ responses, email, name, company, phone, role, country });
+      // Capture B2B-vs-consumer + domain as lead-scoring signal (no PII beyond
+      // what the prospect already submits).
+      trackEvent("diagnostic_lead_captured", {
+        locale, role, country,
+        emailDomain: emailDomain(email),
+        corporateEmail: !isFreeMail(email),
+      });
+      onComplete({ responses, email: email.trim(), name, company, phone, role, country });
     }
   };
 
@@ -314,11 +374,20 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                   <input
                     type="email"
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => handleEmailChange(e.target.value)}
+                    onBlur={() => setEmailTouched(true)}
                     placeholder={catalog.capture.placeholders.email}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    aria-invalid={showEmailErr}
+                    className={`w-full bg-white/[0.04] border-2 rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none ${
+                      showEmailErr ? "border-red-500/60 focus:border-red-500" : "border-[var(--border-default)] focus:border-[var(--warm-coral)]"
+                    }`}
                   />
+                  {showEmailErr && (
+                    <p className="mt-1 flex items-center gap-1 text-[11px] text-red-400">
+                      <AlertCircle className="w-3 h-3" /> {vc.email}
+                    </p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
@@ -328,10 +397,19 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     type="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
+                    onBlur={() => setPhoneTouched(true)}
                     placeholder={catalog.capture.placeholders.phone}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    aria-invalid={showPhoneErr}
+                    className={`w-full bg-white/[0.04] border-2 rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none ${
+                      showPhoneErr ? "border-red-500/60 focus:border-red-500" : "border-[var(--border-default)] focus:border-[var(--warm-coral)]"
+                    }`}
                   />
+                  {showPhoneErr && (
+                    <p className="mt-1 flex items-center gap-1 text-[11px] text-red-400">
+                      <AlertCircle className="w-3 h-3" /> {vc.phone}
+                    </p>
+                  )}
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
@@ -360,11 +438,14 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                   <input
                     type="text"
                     value={company}
-                    onChange={(e) => setCompany(e.target.value)}
+                    onChange={(e) => { setCompany(e.target.value); setCompanyAutoFilled(false); }}
                     placeholder={catalog.capture.placeholders.company}
                     required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
+                  {companyAutoFilled && company.trim().length > 0 && (
+                    <p className="mt-1 text-[11px] text-[var(--text-muted)]">{vc.autofill}</p>
+                  )}
                 </div>
               </div>
               <p className="text-[11px] text-[var(--text-muted)] text-center mb-6 italic">
@@ -387,7 +468,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
           {showCapture ? (
             <button
               onClick={handleSubmit}
-              disabled={!email.trim() || !name.trim() || !phone.trim() || !role.trim() || !country.trim() || !company.trim()}
+              disabled={!emailValid || !phoneValid || !name.trim() || !role.trim() || !country.trim() || !company.trim()}
               className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40 disabled:cursor-not-allowed hover:shadow-xl transition-all"
             >
               {catalog.navigation.generate}

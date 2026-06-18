@@ -96,7 +96,22 @@ async function generateWithModel(
     maxRetries: 1,
   });
 
-  return result.object;
+  const report = result.object;
+  // The economics block is schema-optional, and the model occasionally omits it
+  // on sparse inputs — which drops the entire "What it costs & returns" section.
+  // Backfill it deterministically from the heuristic engine so the apples-to-
+  // apples cost/return comparison is ALWAYS present. The numbers are
+  // language-neutral; only the short basis text is English on this fallback.
+  if (!report.economics) {
+    try {
+      const heuristic = runDiagnostic(responses, locale);
+      if (heuristic.economics) report.economics = heuristic.economics;
+    } catch {
+      /* non-fatal — report still renders without the economics block */
+    }
+  }
+
+  return report;
 }
 
 export async function POST(req: Request) {

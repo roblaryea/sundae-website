@@ -37,12 +37,13 @@ export const SoftUpliftSchema = z.object({
 
 export const EconomicsSchema = z.object({
   monthlyCost: z.object({
-    range: z.string().describe('Indicative Sundae monthly list cost as a range e.g. "$1,400-2,100 / mo"'),
-    basis: z.string().describe('One line: which SKUs × outlet band drove it'),
+    range: z.string().describe('Indicative Sundae monthly investment as a range, sized to the RIGHT-SIZED starting stack (not a maximal bundle) e.g. "$1,400-2,100 / mo"'),
+    basis: z.string().describe('One line: which SKUs × outlet band drove it; call it a starting footprint, not a quote'),
   }),
-  monthlySavings: z.object({
-    range: z.string().describe('Replaced-tooling / consolidation savings vs current stack e.g. "$600-1,500 / mo"'),
-    basis: z.string().describe('One line referencing their stated SaaS spend band and the tools Sundae consolidates'),
+  currentSpend: z.object({
+    range: z.string().describe('Like-for-like "what you spend on this today" — the LOADED cost of the tools + in-house analyst time Sundae consolidates (software slice + reporting headcount). NOT a savings figure. e.g. "$2,100-5,400 / mo"'),
+    basis: z.string().describe('One line: the consolidatable software slice of their stated SaaS band PLUS the loaded in-house reporting time (from their analyst headcount). State it is loaded and directional, never a quote.'),
+    net: z.string().describe('Honest one-line delta of monthlyCost vs this loaded current spend. If the investment is higher, say so plainly ("≈ +$X/mo over today\'s loaded spend, for one consolidated platform…before the EBITDA return"); only call it a net saving when the investment is genuinely lower. NEVER imply a saving the numbers contradict.'),
   }),
   ebitdaUplift: z.object({
     pctRange: z.string().describe('EBITDA-margin point uplift range, conservative and consistent with the expectedImpact margin lift e.g. "+1-3 margin points"'),

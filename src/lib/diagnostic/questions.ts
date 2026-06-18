@@ -322,7 +322,6 @@ export const QUESTIONS: Question[] = [
       { value: "mpluskassa",  label: "MplusKASSA" },
       { value: "odoo",        label: "Odoo POS" },
       { value: "r365_pos",    label: "Restaurant365 POS" },
-      { value: "apicbase",    label: "Apicbase POS" },
       { value: "petpooja",    label: "Petpooja (India)" },
       { value: "posist",      label: "POSist / Restroworks" },
       { value: "maitre_d",    label: "Maitre'D" },
