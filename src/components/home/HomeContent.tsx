@@ -374,7 +374,7 @@ export default function HomeContent() {
             2a. HUMANIZED EDITORIAL BAND - the real restaurant world
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
-          src="/images/editorial/chef-sauce.jpg"
+          src="/images/editorial/chef-warm.jpg"
           alt={editorial.band1.alt}
           eyebrow={editorial.band1.eyebrow}
           headline={editorial.band1.headline}
