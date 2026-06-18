@@ -47,14 +47,16 @@ export function SectionManifesto() {
   return (
     <section
       aria-label={copy.eyebrow}
-      className="relative overflow-hidden border-y border-[var(--border-default)] py-24 sm:py-32"
+      className="surface-always-dark relative flex min-h-[88vh] items-center overflow-hidden py-20 sm:py-24"
+      style={{ background: 'var(--navy-deep)' }}
     >
-      {/* Subtle dark restaurant backdrop - the belief sits over a *living* room: a
-          muted, looping ambient clip so "the shift is still alive" actually moves.
-          Dark-mode only (hidden in light); heavily darkened so the type always
-          leads. Reduced-motion users get the still poster; the video is below the
-          fold and lazy (preload=none + poster) so it never touches hero LCP. */}
-      <div aria-hidden className="absolute inset-0 [html.light_&]:hidden">
+      {/* Living restaurant backdrop - the belief sits over a *moving* room: a muted,
+          looping ambient clip so "the shift is still alive" actually moves. This is
+          now an immersive always-dark chapter (light text on the video) so it reads
+          the same in both themes and fills the viewport instead of a thin band.
+          Reduced-motion users get the still poster; the video is below the fold and
+          lazy (preload=none + poster) so it never touches hero LCP. */}
+      <div aria-hidden className="absolute inset-0">
         {reduceMotion ? (
           <Image
             src="/videos/manifesto-room-poster.jpg"
@@ -62,11 +64,11 @@ export function SectionManifesto() {
             fill
             loading="lazy"
             sizes="100vw"
-            className="object-cover object-center opacity-[0.16]"
+            className="object-cover object-center opacity-[0.26]"
           />
         ) : (
           <video
-            className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.16]"
+            className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.26]"
             autoPlay
             muted
             loop
