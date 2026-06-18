@@ -121,7 +121,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Chaque assiette, chaque couvert, chaque service est une *décision.* Sundae est dans toutes - avec vous, en salle.',
       lede: "Le travail se joue en salle, pas dans un tableau de bord. Sundae transforme le service en cours en la bonne décision suivante - pour celui qui doit la prendre.",
       trio: [
-        { label: 'Salle', signal: 'Attente en hausse' },
+        { label: 'Service', signal: 'Attente en hausse' },
         { label: 'Passe', signal: 'Timing qui glisse' },
         { label: 'Salle', signal: 'Couverts dans les temps' },
       ],
@@ -324,7 +324,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Ogni piatto, ogni coperto, ogni turno è una *decisione.* Sundae è in tutte - con te, in sala.',
       lede: 'Il lavoro accade in sala, non in una dashboard. Sundae trasforma il turno in corso nella prossima mossa giusta - per chi deve prenderla.',
       trio: [
-        { label: 'Sala', signal: 'Attesa in aumento' },
+        { label: 'Servizio', signal: 'Attesa in aumento' },
         { label: 'Passe', signal: 'Tempi in ritardo' },
         { label: 'Sala', signal: 'Coperti in linea' },
       ],
@@ -353,7 +353,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Każdy talerz, każdy gość, każda zmiana to *decyzja.* Sundae jest w każdej z nich - z tobą, na sali.',
       lede: 'Praca dzieje się na sali, nie na pulpicie. Sundae zamienia trwającą zmianę w kolejny właściwy ruch - dla osoby, która musi go wykonać.',
       trio: [
-        { label: 'Sala', signal: 'Czas oczekiwania rośnie' },
+        { label: 'Obsługa', signal: 'Czas oczekiwania rośnie' },
         { label: 'Wydawka', signal: 'Timing się sypie' },
         { label: 'Sala', signal: 'Goście zgodnie z planem' },
       ],
@@ -384,7 +384,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
       trio: [
         { label: 'Salon', signal: 'Bekleme süresi artıyor' },
         { label: 'Servis Ağzı', signal: 'Pişirme zamanı kayıyor' },
-        { label: 'Salon', signal: 'Misafir sayısı hedefte' },
+        { label: 'Masalar', signal: 'Misafir sayısı hedefte' },
       ],
     },
     truth: {
@@ -553,7 +553,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
         'Fiecare farfurie, fiecare client, fiecare tură este o *decizie.* Sundae este în toate - alături de tine, în sală.',
       lede: 'Munca se întâmplă în sală, nu într-un panou. Sundae transformă tura în desfășurare în următoarea mișcare corectă - pentru cel care trebuie să o ia.',
       trio: [
-        { label: 'Sală', signal: 'Așteptare în creștere' },
+        { label: 'Servire', signal: 'Așteptare în creștere' },
         { label: 'Pas', signal: 'Timpii întârzie' },
         { label: 'Sală', signal: 'Acoperiri în ritm' },
       ],
