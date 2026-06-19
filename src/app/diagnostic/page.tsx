@@ -220,7 +220,7 @@ export default function DiagnosticPage() {
               ar: { resume: "استأنف تشخيصك", fresh: "ابدأ من جديد", note: (n) => `حفظنا تقدمك على هذا الجهاز — تمت الإجابة على ${n} سؤال.` },
               fr: { resume: "Reprendre votre diagnostic", fresh: "Recommencer", note: (n) => `Nous avons enregistré votre progression sur cet appareil — ${n} question(s) répondues.` },
             };
-            const rl = RESUME_COPY[locale] ?? RESUME_COPY.en;
+            const rl = RESUME_COPY[locale as keyof typeof RESUME_COPY] ?? RESUME_COPY.en;
             if (canResume) {
               return (
                 <>

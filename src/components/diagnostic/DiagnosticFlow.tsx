@@ -136,7 +136,7 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
     ar: { email: "أدخل بريداً إلكترونياً صالحاً", phone: "أدخل رقم هاتف صالحاً", autofill: "تم ملؤه من بريدك — عدّله إن لزم" },
     fr: { email: "Saisissez un e-mail professionnel valide", phone: "Saisissez un numéro de téléphone valide", autofill: "Rempli depuis votre e-mail — modifiable" },
   };
-  const vc = VAL_COPY[locale] ?? VAL_COPY.en;
+  const vc = VAL_COPY[locale as keyof typeof VAL_COPY] ?? VAL_COPY.en;
 
   // Persist progress on this device so a refresh / back / "finish later" never
   // wipes the answers. Parent clears it on successful submit.
