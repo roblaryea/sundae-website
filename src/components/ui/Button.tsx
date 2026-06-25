@@ -42,8 +42,9 @@ export const Button: React.FC<ButtonProps> = (props) => {
   const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#FF5C4D] focus-visible:ring-offset-[var(--navy-deep)]';
 
   const variants = {
-    // Primary - warm signature gradient with coral glow
-    primary: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white shadow-[0_10px_30px_-10px_rgba(255,92,77,0.5)] hover:shadow-[0_16px_40px_-10px_rgba(255,92,77,0.65)] hover:-translate-y-0.5 active:translate-y-0',
+    // Primary - warm signature gradient with coral glow (dark); a premium solid
+    // ink button on light, where the coral gradient read hot/generic on paper.
+    primary: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white shadow-[0_10px_30px_-10px_rgba(255,92,77,0.5)] hover:shadow-[0_16px_40px_-10px_rgba(255,92,77,0.65)] hover:-translate-y-0.5 active:translate-y-0 [html.light_&]:bg-none [html.light_&]:bg-[var(--ink)] [html.light_&]:text-white [html.light_&]:shadow-[0_14px_30px_-10px_rgba(26,20,15,0.45)] [html.light_&]:hover:shadow-[0_20px_44px_-12px_rgba(26,20,15,0.55)]',
 
     // Secondary - subtle glass
     secondary: 'bg-[var(--surface-hover)] text-[var(--text-secondary)] border border-[var(--border-default)] hover:bg-[var(--surface-emphasis)] hover:text-[var(--text-primary)] hover:border-[var(--border-emphasis)] hover:-translate-y-0.5 active:translate-y-0',
@@ -57,8 +58,8 @@ export const Button: React.FC<ButtonProps> = (props) => {
     // Ghost - subtle
     ghost: 'text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]',
 
-    // CTA - warm signature gradient with coral glow
-    cta: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white font-bold shadow-[0_12px_40px_-8px_rgba(255,92,77,0.5)] hover:shadow-[0_18px_50px_-8px_rgba(255,92,77,0.62)] hover:-translate-y-1 active:translate-y-0',
+    // CTA - warm signature gradient with coral glow (dark); solid ink on light.
+    cta: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white font-bold shadow-[0_12px_40px_-8px_rgba(255,92,77,0.5)] hover:shadow-[0_18px_50px_-8px_rgba(255,92,77,0.62)] hover:-translate-y-1 active:translate-y-0 [html.light_&]:bg-none [html.light_&]:bg-[var(--ink)] [html.light_&]:text-white [html.light_&]:shadow-[0_14px_32px_-10px_rgba(26,20,15,0.46)] [html.light_&]:hover:shadow-[0_22px_48px_-12px_rgba(26,20,15,0.56)]',
 
     // Ink - solid warm-near-black; for primary actions placed on bright warm surfaces (closer)
     ink: 'bg-[var(--ink)] text-white shadow-[0_12px_30px_-10px_rgba(0,0,0,0.55)] hover:-translate-y-1 active:translate-y-0',

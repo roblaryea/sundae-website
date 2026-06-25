@@ -142,7 +142,7 @@ export function CookieConsent() {
           </button>
           <button
             onClick={handleAccept}
-            className="rounded-lg bg-[#FF5C4D] px-4 py-1.5 text-[13px] font-semibold text-white transition-transform hover:-translate-y-px focus:outline-none focus:ring-2 focus:ring-[#FF8473]"
+            className="rounded-lg bg-[#FF5C4D] [html.light_&]:bg-[var(--ink)] px-4 py-1.5 text-[13px] font-semibold text-white transition-transform hover:-translate-y-px focus:outline-none focus:ring-2 focus:ring-[#FF8473]"
           >
             {copy.accept}
           </button>

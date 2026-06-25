@@ -176,13 +176,13 @@ export default function HomeContent() {
               alt=""
               fill
               sizes="100vw"
-              className="object-cover object-center hidden [html.light_&]:block opacity-[0.55]"
+              className="object-cover object-center hidden [html.light_&]:block opacity-[0.7]"
             />
             <div
               className="absolute inset-0 hidden [html.light_&]:block"
               style={{
                 background:
-                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.16) 0%, transparent 52%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.22) 0%, transparent 54%), radial-gradient(ellipse 62% 52% at 50% 40%, rgba(255,250,245,0.86) 0%, rgba(255,246,239,0.42) 46%, transparent 72%), linear-gradient(180deg, rgba(255,246,239,0.32) 0%, rgba(255,255,255,0.55) 60%, #FFFFFF 96%)',
+                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.22) 0%, transparent 54%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.30) 0%, transparent 56%), radial-gradient(ellipse 56% 46% at 50% 38%, rgba(255,250,245,0.62) 0%, rgba(255,246,239,0.26) 48%, transparent 72%), linear-gradient(180deg, rgba(255,246,239,0.18) 0%, rgba(255,251,247,0.4) 62%, #FBF7F1 96%)',
               }}
             />
             <Image
@@ -193,9 +193,11 @@ export default function HomeContent() {
               sizes="100vw"
               className="object-cover object-center scale-105 opacity-[0.7] [html.light_&]:opacity-0"
             />
-            {/* warm grade - strong caramel/coral so the room reads unmistakably warm (V2 feel) */}
+            {/* warm grade - strong caramel/coral so the room reads unmistakably warm.
+                Kept ON in light too (was disabled) at reduced strength, so the photo
+                reads as an intentional warm room, not a washed-out beige panel. */}
             <div
-              className="absolute inset-0 mix-blend-soft-light opacity-90 [html.light_&]:opacity-0"
+              className="absolute inset-0 mix-blend-soft-light opacity-90 [html.light_&]:opacity-[0.55]"
               style={{
                 background:
                   'radial-gradient(ellipse 85% 75% at 64% 30%, rgba(233,162,74,0.65) 0%, transparent 62%), radial-gradient(ellipse 70% 60% at 18% 88%, rgba(255,92,77,0.5) 0%, transparent 60%)',
@@ -551,16 +553,25 @@ export default function HomeContent() {
             sizes="100vw"
             className="object-cover object-center brightness-[0.5]"
           />
-          {/* warm gradient - the bold "punctuation" jolt that closes the page */}
+          {/* warm gradient - the bold "punctuation" jolt that closes the page.
+              DARK only: on the warm-paper light theme this neon coral slab reads
+              as a jolt that fights the refined surface, so in light it is hidden
+              in favour of a deep warm-espresso close (below). */}
           <div
-            className="absolute inset-0 mix-blend-multiply"
+            className="absolute inset-0 mix-blend-multiply [html.light_&]:hidden"
             style={{ background: 'linear-gradient(135deg, rgba(233,162,74,0.95) 0%, rgba(255,92,77,0.95) 52%, rgba(224,62,72,0.96) 100%)' }}
           />
           <div
-            className="absolute inset-0 opacity-75"
+            className="absolute inset-0 opacity-75 [html.light_&]:hidden"
             style={{ background: 'linear-gradient(135deg, var(--warm-caramel) 0%, var(--warm-coral) 52%, var(--warm-cherry) 100%)' }}
           />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,255,255,0.22),transparent_60%)]" />
+          {/* LIGHT only: a deep warm-espresso close - dramatic dark-on-paper,
+              consistent with the page's other dark bands, with a faint warm glow. */}
+          <div
+            className="absolute inset-0 hidden [html.light_&]:block"
+            style={{ background: 'linear-gradient(135deg, rgba(26,18,12,0.92) 0%, rgba(58,30,18,0.84) 52%, rgba(20,13,9,0.94) 100%)' }}
+          />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,255,255,0.22),transparent_60%)] [html.light_&]:bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,150,90,0.18),transparent_62%)]" />
 
           {/* the mark as a layout device - bleeds into the corner, not a sticker */}
           <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.12] text-white pointer-events-none">
@@ -582,6 +593,7 @@ export default function HomeContent() {
                 <Button
                   variant="ink"
                   size="lg"
+                  className="[html.light_&]:!bg-[#FBF6EE] [html.light_&]:!text-[#1A140F] [html.light_&]:hover:!bg-white"
                   onClick={() => cta("/demo", "book_demo_footer_cta", { page: "/home" })}
                 >
                   {home.bookDemo}
