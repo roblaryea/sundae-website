@@ -420,7 +420,9 @@ export function SectionSpeedQualityCost() {
               <div className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
                 {copy.oldRule}
               </div>
-              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold">
+              {/* trust-green affirmation - the payoff line reads as 'achieved/go',
+                  matching the emerald convergence core (the warm edges = constraints). */}
+              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[#1AA877] [html.light_&]:text-[#0F8A5E] font-bold">
                 {copy.sundaeRule}
               </div>
             </div>
@@ -471,11 +473,13 @@ export function SectionSpeedQualityCost() {
                   <stop offset="55%" stopColor="rgba(255,92,77,0.13)" />
                   <stop offset="100%" stopColor="rgba(255,92,77,0)" />
                 </radialGradient>
-                {/* Convergence-core radial glow */}
+                {/* Convergence-core radial glow - emerald "trust" payoff: where the
+                    three constraints collapse into one win, the core reads as
+                    achieved/go, not alarm (the edges stay warm = the constraints). */}
                 <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-                  <stop offset="0%" stopColor="rgba(255,201,176,0.95)" />
-                  <stop offset="45%" stopColor="rgba(255,132,115,0.45)" />
-                  <stop offset="100%" stopColor="rgba(255,92,77,0)" />
+                  <stop offset="0%" stopColor="rgba(150,231,194,0.95)" />
+                  <stop offset="45%" stopColor="rgba(34,168,120,0.45)" />
+                  <stop offset="100%" stopColor="rgba(22,168,120,0)" />
                 </radialGradient>
                 {/* Top-vertex specular highlight - sharp, focused */}
                 <radialGradient id="triHighlight" cx="50%" cy="20%" r="42%">
@@ -586,7 +590,7 @@ export function SectionSpeedQualityCost() {
                         y1={p.y}
                         x2={CENTROID.x}
                         y2={CENTROID.y}
-                        stroke="#FF8473"
+                        stroke="#16A878"
                         strokeWidth="1.6"
                         strokeLinecap="round"
                         initial={{ opacity: 0 }}
@@ -602,7 +606,7 @@ export function SectionSpeedQualityCost() {
                     cy={CENTROID.y}
                     r="6"
                     fill="none"
-                    stroke="#FF8473"
+                    stroke="#16A878"
                     strokeWidth="1.4"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: [0, 0.65, 0], scale: [0.5, 4.2, 5.4] }}
@@ -615,7 +619,7 @@ export function SectionSpeedQualityCost() {
                     cx={CENTROID.x}
                     cy={CENTROID.y}
                     r="4.5"
-                    fill="#FFC9B0"
+                    fill="#96E7C2"
                     filter="url(#tracerGlow)"
                     animate={{ opacity: [0.55, 0.95, 0.55], scale: [1, 1.25, 1] }}
                     transition={{ duration: 3, ease: "easeInOut", repeat: Infinity }}
