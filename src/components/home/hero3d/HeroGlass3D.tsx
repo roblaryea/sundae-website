@@ -24,7 +24,6 @@
 import { useEffect, useMemo, useRef } from "react";
 import { Canvas, useFrame, useThree, type ThreeElements } from "@react-three/fiber";
 import { Environment, ContactShadows, MeshTransmissionMaterial } from "@react-three/drei";
-import { EffectComposer, Bloom } from "@react-three/postprocessing";
 import * as THREE from "three";
 import { LAYER_COLORS, N, LIQUID_BOTTOM, LIQUID_TOP, innerRadius, HERO_CAM, CHERRY_Y } from "./heroLayout";
 
@@ -187,10 +186,10 @@ function Cherry() {
   const stemCurve = useMemo(
     () =>
       new THREE.CatmullRomCurve3([
-        new THREE.Vector3(0.02, 0.16, 0),
-        new THREE.Vector3(0.1, 0.42, 0.03),
-        new THREE.Vector3(-0.01, 0.64, -0.02),
-        new THREE.Vector3(-0.15, 0.78, 0),
+        new THREE.Vector3(0.02, 0.15, 0),
+        new THREE.Vector3(0.07, 0.3, 0.025),
+        new THREE.Vector3(-0.01, 0.42, -0.015),
+        new THREE.Vector3(-0.1, 0.5, 0),
       ]),
     [],
   );
@@ -254,7 +253,6 @@ function GlassBody() {
         attenuationDistance={5}
         color="#FFFAF4"
         envMapIntensity={0.95}
-        background={new THREE.Color("#1b1410")}
       />
     </mesh>
   );
@@ -318,11 +316,9 @@ function Scene({ active, onHover }: SceneProps) {
       {/* tight, soft grounding shadow — not a wide "plate" that reads as a stage */}
       <ContactShadows position={[0, -1.5, 0]} opacity={0.4} scale={3.4} blur={3.4} far={2.2} color="#140803" />
 
-      {/* Bloom only; NO vignette here — a vignette on the transparent canvas
-          darkens its corners into a visible rectangle (the "container" look). */}
-      <EffectComposer enableNormalPass={false}>
-        <Bloom intensity={0.3} luminanceThreshold={0.86} luminanceSmoothing={0.22} mipmapBlur />
-      </EffectComposer>
+      {/* No EffectComposer: a fullscreen post pass doesn't preserve the
+          transparent canvas's alpha and flashed an opaque rectangle behind the
+          glass. The HDRI specular + cherry glow carry the premium look without it. */}
     </>
   );
 }
