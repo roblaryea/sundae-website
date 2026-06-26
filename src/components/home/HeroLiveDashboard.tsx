@@ -220,7 +220,7 @@ export function HeroLiveDashboard() {
   // Tags reuse the localized ahead-set labels (by category) so the behind copy
   // only transcreates the recommendation text + impact.
   const coachBehind = scenario.key === "behind" || (scenario.key === "recovery" && !isAhead);
-  const behindSet = coachItemsBehind[locale] ?? coachItemsBehind.en;
+  const behindSet = coachItemsBehind[locale as keyof typeof coachItemsBehind] ?? coachItemsBehind.en;
   const coachSet = coachBehind
     ? behindSet.map((it, i) => ({
         category: CAT_BEHIND[i],

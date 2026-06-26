@@ -176,7 +176,7 @@ export function SectionWhatYouRetire() {
             <ul className="space-y-3.5">
               {copy.withSundae.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <svg className="w-4 h-4 text-[#FF8473] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <svg className="w-4 h-4 text-[#22C55E] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                     <path d="M20 6 9 17l-5-5" />
                   </svg>
                   <span className="text-[15px] text-[var(--text-primary)] font-medium leading-relaxed">{item}</span>

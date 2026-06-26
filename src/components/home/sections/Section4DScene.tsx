@@ -355,10 +355,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         <span className="ml-auto text-[10px] uppercase tracking-[0.14em] font-bold text-[var(--warm-amber)]/80">{labels.illustrative}</span>
       </div>
 
-      {/* Fixed "screen": all four panels are ALWAYS present (constant height),
-          so the section never resizes - the active context simply lights up as
-          the scenario advances 1 → 4. */}
-      <div className="p-5 space-y-4">
+      {/* Fixed "screen": all four panels are ALWAYS present (constant height) in
+          a 2×2 grid (half the height of a 1×4 stack, so the section fits one
+          view); the active context lights up as the scenario advances 1 → 4. */}
+      <div className="grid grid-cols-2 items-start gap-3 p-5">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
@@ -385,7 +385,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 2: forecast variance */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 1 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 1 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
         >
@@ -415,7 +415,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 3: market context */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 2 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 2 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{
@@ -441,7 +441,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 4: Sundae Coach recommendation */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 3 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 3 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{
