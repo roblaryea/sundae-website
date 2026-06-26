@@ -21,6 +21,9 @@
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.81",
     "@ai-sdk/openai": "^3.0.67",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/postprocessing": "^3.0.4",
     "@sentry/nextjs": "^10.42.0",
     "@vercel/analytics": "^1.6.1",
     "ai": "^6.0.193",
@@ -35,6 +38,7 @@
     "react-dom": "^19.2.4",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
+    "three": "^0.185.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {
@@ -42,6 +46,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.185.0",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "^16.1.6",
