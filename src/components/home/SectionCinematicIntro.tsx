@@ -4,6 +4,8 @@ import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion
 import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
+import HeroGlassLazy from "./hero3d/HeroGlassLazy";
+import { HERO_LAYER_FRACTIONS, HERO_CHERRY_FRACTION } from "./hero3d/heroLayout";
 
 // Fine film-grain tile (feTurbulence) - the premium cinematic "noise" layer.
 const GRAIN =
@@ -79,11 +81,9 @@ const BEAT = 2.7;
 // so the hero reads as a room, not a standalone object. Positions are relative
 // to the glass wrapper; a few spill beyond it into the section.
 const BOKEH = [
-  { x: -64, y: 40, s: 26, b: 9, c: "rgba(255,150,110,.5)", o: 0.5, dx: 18, dy: -14, d: 13, delay: 0 },
-  { x: 280, y: 90, s: 34, b: 12, c: "rgba(246,198,107,.45)", o: 0.42, dx: -22, dy: 16, d: 16, delay: 1.4 },
-  { x: 250, y: 360, s: 22, b: 8, c: "rgba(255,124,111,.45)", o: 0.4, dx: -16, dy: -18, d: 14, delay: 0.8 },
-  { x: -40, y: 320, s: 30, b: 11, c: "rgba(233,162,74,.4)", o: 0.38, dx: 20, dy: 14, d: 18, delay: 2.1 },
-  { x: 150, y: -30, s: 18, b: 7, c: "rgba(255,170,120,.5)", o: 0.45, dx: -12, dy: 10, d: 12, delay: 1.0 },
+  { x: -64, y: 40, s: 22, b: 12, c: "rgba(255,150,110,.3)", o: 0.2, dx: 8, dy: -7, d: 22, delay: 0 },
+  { x: 290, y: 120, s: 26, b: 15, c: "rgba(246,198,107,.26)", o: 0.16, dx: -9, dy: 7, d: 26, delay: 1.4 },
+  { x: 220, y: 360, s: 18, b: 11, c: "rgba(255,124,111,.26)", o: 0.16, dx: -7, dy: -8, d: 24, delay: 0.8 },
 ];
 
 function Glass() {
@@ -98,6 +98,10 @@ function Glass() {
   const rm = mounted && reduce;
   const [hover, setHover] = useState<number | null>(null);
   const [tour, setTour] = useState<number | null>(null);
+  // Measured on-screen vertical fraction of each 3D stratum (from the live camera),
+  // so the label rail lines up with the rendered layers. Falls back to the static
+  // estimate until the canvas reports (or when the SVG poster is showing).
+  const [layerFr, setLayerFr] = useState<number[] | null>(null);
   const { locale } = useWebsiteI18n();
   const copy = cinematicIntroCopy[locale as keyof typeof cinematicIntroCopy] ?? cinematicIntroCopy.en;
   // Alive-at-rest auto-tour: after the build, glow each layer in sequence so the
@@ -121,32 +125,17 @@ function Glass() {
   const active = hover ?? tour;
   return (
     <div className="relative flex items-center justify-center">
-      {/* caustic warm cast - large, slow, behind everything */}
-      <motion.div
+      {/* One soft, static warm wash — grounds the glass in the navy without a
+          bright tight "spotlight" oval that read as a container. */}
+      <div
         aria-hidden
         className="absolute rounded-full"
         style={{
-          width: 560,
-          height: 560,
-          background:
-            "radial-gradient(circle, rgba(255,92,77,.22), rgba(233,162,74,.10) 42%, transparent 68%)",
-          filter: "blur(40px)",
+          width: 680,
+          height: 680,
+          background: "radial-gradient(circle, rgba(255,92,77,.12), rgba(233,162,74,.045) 46%, transparent 72%)",
+          filter: "blur(70px)",
         }}
-        animate={reduce ? undefined : { scale: [1, 1.1, 1], opacity: [0.55, 0.8, 0.55] }}
-        transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-      />
-      {/* ambient glow */}
-      <motion.div
-        aria-hidden
-        className="absolute rounded-full"
-        style={{
-          width: 380,
-          height: 380,
-          background: "radial-gradient(circle, rgba(255,92,77,.32), transparent 64%)",
-          filter: "blur(26px)",
-        }}
-        animate={reduce ? undefined : { scale: [1, 1.12, 1], opacity: [0.7, 1, 0.7] }}
-        transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
       />
       {/* restaurant-scene atmosphere - drifting service-light bokeh, a kitchen-
           pass glow from the lower left, and a table light-pool under the foot, so
@@ -173,19 +162,13 @@ function Glass() {
         style={{ background: "radial-gradient(ellipse, rgba(255,170,120,.2), transparent 72%)", filter: "blur(13px)" }}
       />
 
-      {/* climax pulse-ring - radiates from the cherry as "Act in time." lands,
-          then beats slowly at rest. The payoff beat the hero was missing. */}
-      {!rm && (
-        <motion.span
-          aria-hidden
-          className="absolute rounded-full border"
-          style={{ top: "9%", width: 150, height: 150, borderColor: "rgba(255,124,111,.5)" }}
-          initial={{ scale: 0.2, opacity: 0 }}
-          animate={{ scale: [0.2, 2.2], opacity: [0, 0.5, 0] }}
-          transition={{ duration: 2.6, ease: "easeOut", delay: BEAT, repeat: Infinity, repeatDelay: 3.6 }}
-        />
-      )}
-      <svg viewBox="0 0 240 430" fill="none" className="relative z-10 w-[224px] sm:w-[290px] lg:w-[360px]" aria-label="A glass of business layers - every layer, visible at once">
+      <HeroGlassLazy
+        active={active}
+        onHover={setHover}
+        onLayout={setLayerFr}
+        className="relative z-10 w-[260px] sm:w-[330px] lg:w-[420px] aspect-[240/430]"
+        poster={
+      <svg viewBox="0 0 240 430" fill="none" className="w-full h-full" aria-label="A glass of business layers - every layer, visible at once">
         <defs>
           <clipPath id="ci-bowl">
             <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84 Z" />
@@ -342,15 +325,19 @@ function Glass() {
           </motion.g>
         )}
       </svg>
+        }
+      />
 
       {/* layer labels - each anchored to its band's exact center */}
       {/* Label rail sits to the right of the glass; it needs a wide canvas or it
           clips off-screen (the labels can't fit beside the glass below ~1440px
           without overlapping it). Show only where it fits; the glass alone is the
           hero visual on narrower laptops. */}
-      <div className="absolute left-[calc(50%+120px)] top-0 hidden h-full w-[220px] min-[1460px]:block">
+      <div className="absolute left-[calc(50%+150px)] top-0 hidden h-full w-[220px] min-[1460px]:block">
         {LAYERS.map((L, i) => {
-          const topPct = ((BOT - (i + 0.5) * BAND) / 430) * 100;
+          // Align each label to the real 3D stratum's MEASURED on-screen position
+          // (reported by the live camera), falling back to the static estimate.
+          const topPct = ((layerFr ?? HERO_LAYER_FRACTIONS)[i] ?? 0.5) * 100;
           const isActive = active === i;
           return (
             <div key={i} className="absolute" style={{ top: `${topPct}%`, transform: "translateY(-50%)" }}>
@@ -381,6 +368,35 @@ function Glass() {
             </div>
           );
         })}
+
+        {/* The cherry — "the signal" — attributed like the layers, anchored to its
+            measured on-screen position above the strata. */}
+        <div
+          className="absolute"
+          style={{ top: `${((layerFr?.[LAYERS.length] ?? HERO_CHERRY_FRACTION) * 100).toFixed(3)}%`, transform: "translateY(-50%)" }}
+        >
+          <motion.div
+            className="flex items-center gap-2.5 whitespace-nowrap text-[14px]"
+            style={{ color: "rgba(251,248,244,0.95)" }}
+            initial={rm ? false : { opacity: 0, x: -8 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 1.2, duration: 0.55, ease: EASE }}
+          >
+            <span style={{ height: 2, width: 30, borderRadius: 2, background: "#E8404A" }} />
+            <span
+              style={{
+                width: 12,
+                height: 12,
+                borderRadius: "50%",
+                background: "radial-gradient(circle at 35% 30%, #FF8275, #A81B29)",
+                boxShadow: "0 0 12px rgba(232,64,74,.6)",
+              }}
+            />
+            <span className="italic" style={{ color: "#F6C66B", fontFamily: "var(--font-display)", fontSize: "15px" }}>
+              {copy.tagline}
+            </span>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
@@ -444,35 +460,29 @@ export function SectionCinematicIntro() {
     >
       {/* drifting warm light - two large blurred fields that slowly cross, giving
           the flat navy real depth and motion behind the content. */}
-      {!rm && (
-        <>
-          <motion.div
-            aria-hidden
-            className="pointer-events-none absolute -left-40 top-0 z-0 h-[680px] w-[680px] rounded-full"
-            style={{ background: "radial-gradient(circle, rgba(255,92,77,.16), transparent 62%)", filter: "blur(30px)" }}
-            animate={{ x: [0, 120, 0], y: [0, 60, 0] }}
-            transition={{ duration: 26, repeat: Infinity, ease: "easeInOut" }}
-          />
-          <motion.div
-            aria-hidden
-            className="pointer-events-none absolute -right-40 bottom-0 z-0 h-[620px] w-[620px] rounded-full"
-            style={{ background: "radial-gradient(circle, rgba(233,162,74,.13), transparent 62%)", filter: "blur(34px)" }}
-            animate={{ x: [0, -110, 0], y: [0, -50, 0] }}
-            transition={{ duration: 32, repeat: Infinity, ease: "easeInOut" }}
-          />
-        </>
-      )}
+      {/* Static, low warm fields — give the navy depth without the busy drift
+          animation that competed with the glass. */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -left-40 top-0 z-0 h-[720px] w-[720px] rounded-full"
+        style={{ background: "radial-gradient(circle, rgba(255,92,77,.08), transparent 64%)", filter: "blur(44px)" }}
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -right-40 bottom-0 z-0 h-[660px] w-[660px] rounded-full"
+        style={{ background: "radial-gradient(circle, rgba(233,162,74,.055), transparent 64%)", filter: "blur(48px)" }}
+      />
       {/* film grain - the premium cinematic texture layer */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 z-0 opacity-[0.05] mix-blend-overlay"
+        className="pointer-events-none absolute inset-0 z-0 opacity-[0.03] mix-blend-overlay"
         style={{ backgroundImage: GRAIN, backgroundSize: "140px 140px" }}
       />
       {/* vignette - draws the eye to the center, deepens the edges */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 z-0"
-        style={{ background: "radial-gradient(120% 120% at 50% 42%, transparent 52%, rgba(8,5,3,.55))" }}
+        style={{ background: "radial-gradient(125% 125% at 50% 44%, transparent 60%, rgba(8,5,3,.4))" }}
       />
       {/* seam bridge - the strata's warmth bleeds down into the restaurant section
           below so the hand-off reads as one continuous space, not a hard cut. */}

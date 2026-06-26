@@ -758,3 +758,144 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
     ],
   },
 };
+
+/**
+ * Recovery coach set — surfaced by HeroLiveDashboard when the night is running
+ * BEHIND pace. Transcreated (not literal) per market. Tags are reused from each
+ * locale's `coachItems` by category, so only the recommendation text + impact
+ * live here. Order is fixed: [marketing, upsell, service, labor].
+ */
+export const coachItemsBehind: Record<WebsiteLocale, { text: string; impact: string }[]> = {
+  en: [
+    { text: "Fire the waitlist blast now — you need ~22 covers to catch pace tonight.", impact: "+22 covers" },
+    { text: "Lead every table with the prix fixe — average check is trailing target.", impact: "+{up} / table" },
+    { text: "Tables 14 & 22 are 12+ min on entrées — expedite to protect the score.", impact: "guest NPS" },
+    { text: "Keep all hands on — don't cut yet. The recovery window is still open.", impact: "hold the line" },
+  ],
+  ar: [
+    { text: "أطلق رسالة قائمة الانتظار الآن — تحتاج نحو 22 طاولة لتلحق بالوتيرة الليلة.", impact: "+22 طاولة" },
+    { text: "ابدأ كل طاولة بقائمة الـ prix fixe — متوسط الفاتورة دون المستهدف.", impact: "+{up} / طاولة" },
+    { text: "الطاولتان 14 و22 تجاوزتا 12 دقيقة على الأطباق — عجّل لحماية التقييم.", impact: "تقييم الضيوف" },
+    { text: "أبقِ كل الطاقم — لا تُسرّح أحدًا بعد. نافذة التعافي ما زالت مفتوحة.", impact: "تماسك الآن" },
+  ],
+  fr: [
+    { text: "Lance la relance liste d'attente — il te faut ~22 couverts pour tenir le rythme.", impact: "+22 couverts" },
+    { text: "Propose le prix fixe à chaque table — le ticket moyen est sous l'objectif.", impact: "+{up} / table" },
+    { text: "Tables 14 et 22 à 12+ min sur les plats — accélère pour protéger la note.", impact: "NPS client" },
+    { text: "Garde toute l'équipe — ne coupe pas encore. La fenêtre de reprise est ouverte.", impact: "tiens bon" },
+  ],
+  es: [
+    { text: "Lanza ya el aviso a la lista de espera — necesitas ~22 cubiertos para alcanzar el ritmo.", impact: "+22 cubiertos" },
+    { text: "Abre cada mesa con el menú cerrado — el ticket medio va por debajo del objetivo.", impact: "+{up} / mesa" },
+    { text: "Mesas 14 y 22 llevan 12+ min con los platos — agiliza para proteger la nota.", impact: "NPS cliente" },
+    { text: "Mantén a todo el equipo — no recortes aún. La ventana de recuperación sigue abierta.", impact: "aguanta" },
+  ],
+  de: [
+    { text: "Schick jetzt die Warteliste-Nachricht raus — du brauchst ~22 Gäste fürs Nachttempo.", impact: "+22 Gäste" },
+    { text: "Führe jeden Tisch mit dem Menü — der Durchschnittsbon liegt unter Ziel.", impact: "+{up} / Tisch" },
+    { text: "Tische 14 & 22 warten 12+ Min auf die Hauptgänge — beschleunigen, Score schützen.", impact: "Gäste-NPS" },
+    { text: "Alle bleiben dran — noch nicht kürzen. Das Erholungsfenster ist offen.", impact: "halt durch" },
+  ],
+  nl: [
+    { text: "Stuur nu de wachtlijst-blast — je hebt ~22 couverts nodig om bij te blijven.", impact: "+22 couverts" },
+    { text: "Open elke tafel met het prix fixe — de gemiddelde bon blijft achter.", impact: "+{up} / tafel" },
+    { text: "Tafel 14 & 22 wachten 12+ min op de hoofdgerechten — versnel, bescherm de score.", impact: "gast-NPS" },
+    { text: "Houd iedereen aan boord — nu niet snijden. Het herstelvenster is nog open.", impact: "houd vast" },
+  ],
+  pt: [
+    { text: "Dispara já o aviso da lista de espera — precisas de ~22 talheres para acompanhar o ritmo.", impact: "+22 talheres" },
+    { text: "Abre cada mesa com o menu fixo — o ticket médio está abaixo da meta.", impact: "+{up} / mesa" },
+    { text: "Mesas 14 e 22 com 12+ min nos pratos — agiliza para proteger a nota.", impact: "NPS cliente" },
+    { text: "Mantém toda a equipa — não cortes ainda. A janela de recuperação está aberta.", impact: "aguenta" },
+  ],
+  it: [
+    { text: "Lancia ora l'avviso lista d'attesa — ti servono ~22 coperti per tenere il ritmo.", impact: "+22 coperti" },
+    { text: "Apri ogni tavolo col menù fisso — lo scontrino medio è sotto obiettivo.", impact: "+{up} / tavolo" },
+    { text: "Tavoli 14 e 22 a 12+ min sui secondi — accelera per proteggere il punteggio.", impact: "NPS cliente" },
+    { text: "Tieni tutti in servizio — non tagliare ancora. La finestra di recupero è aperta.", impact: "tieni duro" },
+  ],
+  ro: [
+    { text: "Trimite acum mesajul către lista de așteptare — îți trebuie ~22 de acoperiri pentru ritm.", impact: "+22 acoperiri" },
+    { text: "Începe fiecare masă cu meniul fix — nota medie e sub țintă.", impact: "+{up} / masă" },
+    { text: "Mesele 14 și 22 stau de 12+ min la felul principal — grăbește, protejează scorul.", impact: "NPS client" },
+    { text: "Ține toată echipa — nu tăia încă. Fereastra de redresare e încă deschisă.", impact: "rezistă" },
+  ],
+  pl: [
+    { text: "Wyślij teraz wiadomość do listy oczekujących — brakuje ci ~22 gości do tempa.", impact: "+22 gości" },
+    { text: "Otwieraj każdy stolik menu degustacyjnym — średni rachunek poniżej celu.", impact: "+{up} / stolik" },
+    { text: "Stoliki 14 i 22 czekają 12+ min na dania — przyspiesz, by chronić ocenę.", impact: "NPS gościa" },
+    { text: "Zatrzymaj całą obsługę — nie tnij jeszcze. Okno na odbicie wciąż otwarte.", impact: "trzymaj się" },
+  ],
+  sv: [
+    { text: "Skicka väntelistan nu — du behöver ~22 gäster för att hinna ikapp i kväll.", impact: "+22 gäster" },
+    { text: "Inled varje bord med avsmakningsmenyn — snittnotan ligger under mål.", impact: "+{up} / bord" },
+    { text: "Bord 14 och 22 väntar 12+ min på varmrätten — snabba på, skydda betyget.", impact: "gäst-NPS" },
+    { text: "Behåll all personal — skär inte ännu. Återhämtningsfönstret är öppet.", impact: "håll ut" },
+  ],
+  tr: [
+    { text: "Bekleme listesi mesajını şimdi at — bu geceyi yakalamak için ~22 kişilik lazım.", impact: "+22 kişilik" },
+    { text: "Her masaya sabit menüyle başla — ortalama hesap hedefin altında.", impact: "+{up} / masa" },
+    { text: "14 ve 22 numara ana yemekte 12+ dk bekliyor — hızlandır, puanı koru.", impact: "misafir NPS" },
+    { text: "Tüm ekibi tut — henüz kesme. Toparlanma penceresi hâlâ açık.", impact: "sıkı dur" },
+  ],
+  hi: [
+    { text: "वेटलिस्ट ब्लास्ट अभी भेजो — आज की रफ़्तार के लिए ~22 कवर चाहिए।", impact: "+22 कवर" },
+    { text: "हर टेबल की शुरुआत फिक्स मेन्यू से करो — औसत बिल लक्ष्य से नीचे है।", impact: "+{up} / टेबल" },
+    { text: "टेबल 14 और 22 पर मेन कोर्स 12+ मिनट से अटका — तेज़ करो, स्कोर बचाओ।", impact: "गेस्ट NPS" },
+    { text: "पूरा स्टाफ़ रोको — अभी मत काटो। रिकवरी की खिड़की अब भी खुली है।", impact: "डटे रहो" },
+  ],
+  ur: [
+    { text: "ویٹ لسٹ پیغام ابھی بھیجیں — آج کی رفتار کے لیے تقریباً 22 کور درکار ہیں۔", impact: "+22 کور" },
+    { text: "ہر میز کا آغاز فکسڈ مینو سے کریں — اوسط بل ہدف سے کم ہے۔", impact: "+{up} / میز" },
+    { text: "میز 14 اور 22 پر مین کورس 12+ منٹ سے رکا ہے — تیز کریں، اسکور بچائیں۔", impact: "گیسٹ NPS" },
+    { text: "پورا عملہ روکے رکھیں — ابھی کمی نہ کریں۔ بحالی کا موقع اب بھی کھلا ہے۔", impact: "ڈٹے رہیں" },
+  ],
+  bn: [
+    { text: "এখনই ওয়েটলিস্ট ব্লাস্ট পাঠাও — আজকের গতি ধরতে প্রায় ২২ কভার দরকার।", impact: "+২২ কভার" },
+    { text: "প্রতিটি টেবিল শুরু করো ফিক্সড মেনু দিয়ে — গড় বিল লক্ষ্যের নিচে।", impact: "+{up} / টেবিল" },
+    { text: "১৪ ও ২২ নম্বর টেবিল মেইন কোর্সে ১২+ মিনিট — দ্রুত করো, স্কোর বাঁচাও।", impact: "গেস্ট NPS" },
+    { text: "পুরো দল ধরে রাখো — এখনই ছাঁটাই নয়। ফিরে আসার সুযোগ এখনও খোলা।", impact: "ধরে থাকো" },
+  ],
+  th: [
+    { text: "ส่งข้อความเรียกคิวรอเดี๋ยวนี้ — คืนนี้ต้องการอีกราว 22 ที่เพื่อตามเป้า", impact: "+22 ที่" },
+    { text: "เปิดทุกโต๊ะด้วยเซตเมนู — ยอดบิลเฉลี่ยยังต่ำกว่าเป้า", impact: "+{up} / โต๊ะ" },
+    { text: "โต๊ะ 14 และ 22 รอจานหลักเกิน 12 นาที — เร่งเสิร์ฟเพื่อรักษาคะแนน", impact: "NPS ลูกค้า" },
+    { text: "เก็บทีมไว้ครบ — ยังอย่าเพิ่งลดคน หน้าต่างพลิกเกมยังเปิดอยู่", impact: "ยืนหยัดไว้" },
+  ],
+  ms: [
+    { text: "Hantar mesej senarai menunggu sekarang — anda perlukan ~22 kepala untuk kejar tempo malam ini.", impact: "+22 kepala" },
+    { text: "Buka setiap meja dengan menu set — purata bil di bawah sasaran.", impact: "+{up} / meja" },
+    { text: "Meja 14 & 22 tunggu 12+ min untuk hidangan utama — segerakan, lindungi skor.", impact: "NPS tetamu" },
+    { text: "Kekalkan semua staf — jangan potong lagi. Tetingkap pemulihan masih terbuka.", impact: "bertahan" },
+  ],
+  id: [
+    { text: "Kirim blast daftar tunggu sekarang — kamu butuh ~22 cover untuk kejar tempo malam ini.", impact: "+22 cover" },
+    { text: "Buka tiap meja dengan menu set — rata-rata bon di bawah target.", impact: "+{up} / meja" },
+    { text: "Meja 14 & 22 tunggu 12+ menit untuk menu utama — percepat, lindungi skor.", impact: "NPS tamu" },
+    { text: "Pertahankan semua staf — jangan potong dulu. Jendela pemulihan masih terbuka.", impact: "tahan dulu" },
+  ],
+  vi: [
+    { text: "Gửi tin nhắn danh sách chờ ngay — cần thêm ~22 khách để bắt kịp tối nay.", impact: "+22 khách" },
+    { text: "Mở mỗi bàn bằng set menu — hóa đơn trung bình đang dưới mục tiêu.", impact: "+{up} / bàn" },
+    { text: "Bàn 14 và 22 chờ món chính hơn 12 phút — đẩy nhanh để giữ điểm.", impact: "NPS khách" },
+    { text: "Giữ toàn bộ nhân sự — chưa cắt vội. Cửa sổ phục hồi vẫn đang mở.", impact: "trụ vững" },
+  ],
+  ja: [
+    { text: "今すぐウェイトリストに一斉送信を — 今夜のペースには約22カバー必要。", impact: "+22カバー" },
+    { text: "全テーブルをコース推しで — 客単価が目標を下回っている。", impact: "+{up} / 卓" },
+    { text: "14番と22番がメインで12分以上待ち — 急いで提供し評価を守って。", impact: "顧客NPS" },
+    { text: "全員そのまま — まだ削らない。挽回のチャンスはまだ開いている。", impact: "踏ん張れ" },
+  ],
+  ko: [
+    { text: "지금 대기 명단에 알림 발송 — 오늘 페이스를 맞추려면 약 22커버 필요.", impact: "+22커버" },
+    { text: "모든 테이블을 코스 메뉴로 시작 — 객단가가 목표에 못 미친다.", impact: "+{up} / 테이블" },
+    { text: "14번·22번 테이블 메인 12분 이상 지연 — 서둘러 내보내 점수를 지켜라.", impact: "고객 NPS" },
+    { text: "전원 그대로 유지 — 아직 줄이지 마라. 회복 기회는 아직 열려 있다.", impact: "버텨라" },
+  ],
+  "zh-Hans": [
+    { text: "立即给候补名单群发——今晚还差约22个客位才能跟上节奏。", impact: "+22客位" },
+    { text: "每桌都先推套餐——人均消费正低于目标。", impact: "+{up} / 桌" },
+    { text: "14号和22号桌主菜已等12分钟以上——加快出餐，守住评分。", impact: "顾客NPS" },
+    { text: "全员留岗——先别减人。翻盘窗口仍然敞开。", impact: "稳住" },
+  ],
+};

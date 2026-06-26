@@ -242,32 +242,53 @@ export function Section4DScene() {
         >
           {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
               Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
-          <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[13px] sm:text-[14px] mb-5 sm:mb-6">
-            {dimensions.map((d, i) => {
-              const isActive = i === activeIdx;
-              return (
-                <button
-                  key={i}
-                  type="button"
-                  onClick={() => {
-                    setActiveIdx(i);
-                    setPaused(true);
-                  }}
-                  className={`px-4 py-1.5 rounded-full font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] ${
-                    isActive
-                      ? "bg-[var(--warm-coral)] text-white shadow-[0_0_18px_rgba(255,92,77,0.45)]"
-                      : "bg-[var(--surface-subtle)] text-[var(--text-supporting)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]"
-                  }`}
-                  aria-label={d.shortLabel}
-                  aria-current={isActive}
-                >
-                  <span className={`font-mono mr-2 ${isActive ? "opacity-80" : "opacity-50"}`}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span>{d.shortLabel}</span>
-                </button>
-              );
-            })}
+          {/* Through-line stepper — numbered nodes joined by a connector that
+              fills as the scenario reasons forward (what happened → the fix). */}
+          <div className="relative mx-auto mb-5 sm:mb-6 max-w-2xl">
+            <div className="absolute left-[12.5%] right-[12.5%] top-[15px] h-0.5 rounded-full bg-[var(--border-default)]" aria-hidden />
+            <div
+              className="absolute left-[12.5%] top-[15px] h-0.5 rounded-full bg-gradient-to-r from-[#FF7E6F] to-[var(--warm-coral)] shadow-[0_0_10px_rgba(255,92,77,0.5)] transition-[width] duration-500 ease-out"
+              style={{ width: `${(activeIdx / (dimensions.length - 1)) * 75}%` }}
+              aria-hidden
+            />
+            <div className="relative grid grid-cols-4">
+              {dimensions.map((d, i) => {
+                const isActive = i === activeIdx;
+                const isPast = i < activeIdx;
+                return (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => {
+                      setActiveIdx(i);
+                      setPaused(true);
+                    }}
+                    className="group flex flex-col items-center gap-2 px-1 focus:outline-none"
+                    aria-label={d.shortLabel}
+                    aria-current={isActive}
+                  >
+                    <span
+                      className={`grid h-[30px] w-[30px] place-items-center rounded-full font-mono text-[11px] font-semibold transition-all duration-300 ${
+                        isActive
+                          ? "bg-[var(--warm-coral)] text-white shadow-[0_0_0_4px_rgba(255,92,77,0.16),0_6px_18px_-6px_rgba(255,92,77,0.7)]"
+                          : isPast
+                            ? "border border-[rgba(255,92,77,0.36)] bg-[rgba(255,92,77,0.18)] text-[#FF7E6F]"
+                            : "border border-[var(--border-default)] bg-[var(--surface-subtle)] text-[var(--text-muted)] group-hover:text-[var(--text-primary)]"
+                      }`}
+                    >
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <span
+                      className={`hidden text-center font-mono text-[10.5px] font-semibold uppercase tracking-[0.12em] transition-colors sm:block ${
+                        isActive ? "text-[var(--text-primary)]" : "text-[var(--text-muted)] group-hover:text-[var(--text-supporting)]"
+                      }`}
+                    >
+                      {d.shortLabel}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
           {/* Visual indicator: arrow connecting pills to the panel/visual below */}
@@ -334,10 +355,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         <span className="ml-auto text-[10px] uppercase tracking-[0.14em] font-bold text-[var(--warm-amber)]/80">{labels.illustrative}</span>
       </div>
 
-      {/* Fixed "screen": all four panels are ALWAYS present (constant height),
-          so the section never resizes - the active context simply lights up as
-          the scenario advances 1 → 4. */}
-      <div className="p-5 space-y-4">
+      {/* Fixed "screen": all four panels are ALWAYS present (constant height) in
+          a 2×2 grid (half the height of a 1×4 stack, so the section fits one
+          view); the active context lights up as the scenario advances 1 → 4. */}
+      <div className="grid grid-cols-2 items-start gap-3 p-5">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
@@ -364,7 +385,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 2: forecast variance */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 1 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 1 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
         >
@@ -394,7 +415,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 3: market context */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 2 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 2 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{
@@ -420,7 +441,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 4: Sundae Coach recommendation */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 3 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 3 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{

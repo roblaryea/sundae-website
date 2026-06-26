@@ -151,7 +151,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
-        <section id="chapter-overview" className="relative scroll-mt-24 pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section id="chapter-overview" className="relative scroll-mt-24 pt-20 pb-14 px-4 sm:px-6 lg:px-8 overflow-hidden">
           {/* Background layers */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
@@ -269,53 +269,15 @@ export default function HomeContent() {
               </p>
             </motion.div>
 
-            {/* Tagline */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.9, delay: 0.25, ease: [0.25, 0.4, 0.25, 1] }}
-            >
-              <p className="body-lg max-w-xl mx-auto mb-10 text-[var(--text-supporting)]">
-                {home.description}
-                <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.66em] w-auto inline-block align-baseline mx-[0.08em] translate-y-[0.02em] text-[var(--text-primary)]")}</span>
-              </p>
-            </motion.div>
-
-            {/* CTAs */}
-            <motion.div
-              className="flex flex-col sm:flex-row gap-3 justify-center mb-4"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.9, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-            >
-              <Button
-                variant="cta"
-                size="lg"
-                href="/demo"
-                onClick={(e) => { e.preventDefault(); cta("/demo", "book_walkthrough_hero", { page: "/home" }); }}
-              >
-                {home.startFree}
-              </Button>
-            </motion.div>
-            {home.noCard ? (
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="text-xs text-[var(--text-muted)]"
-              >
-                {home.noCard}
-              </motion.p>
-            ) : null}
+            {/* Description + CTA intentionally omitted here: this section leads
+                into the live revenue/pacing visual, so it reads as a normal page,
+                not a second full hero (the cinematic intro above carries the CTA). */}
           </div>
 
           {/* Hero CSS Mockup - Pulse Dashboard */}
           <motion.div
             id="pulse-live"
-            className="max-w-5xl mx-auto mt-16 relative z-20 px-4 scroll-mt-24"
+            className="max-w-5xl mx-auto mt-10 relative z-20 px-4 scroll-mt-24"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.2 }}
