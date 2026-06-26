@@ -369,7 +369,7 @@ export function HeroLiveDashboard() {
                 <span className="font-mono tabular-nums text-[22px] sm:text-[23px] font-medium tracking-[-0.015em]">{fmt(projection)}</span>
                 <span className="font-mono text-[12px] font-semibold" style={{ color: aboveTarget >= 0 ? TONE.positive : TONE.negative }}>
                   {aboveTarget >= 0 ? "▲ " : "▼ "}
-                  {copy.projectedAbove.replace("{amount}", fmt(aboveTarget))}
+                  {fmt(Math.abs(aboveTarget))}
                 </span>
               </div>
             </div>
