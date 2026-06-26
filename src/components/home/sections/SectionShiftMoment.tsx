@@ -251,8 +251,14 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
             {copy.actualLabel}
           </span>
         </div>
-        <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="h-24 w-full" aria-hidden>
-          <path d={gapPolygon(getActual, t)} fill="var(--accent-warm)" opacity={0.12} />
+        <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="h-32 w-full" aria-hidden>
+          <defs>
+            <linearGradient id="sm-area" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="var(--accent-warm)" stopOpacity={0.2} />
+              <stop offset="100%" stopColor="var(--accent-warm)" stopOpacity={0} />
+            </linearGradient>
+          </defs>
+          <path d={gapPolygon(getActual, t)} fill="url(#sm-area)" />
           {/* forecast target (dashed) */}
           <path d={linePath((fr) => fr.fc, 0, MAX_T)} fill="none" stroke="var(--text-faint)" strokeWidth={1.5} strokeDasharray="3 3" />
           {/* the path not taken (other mode), faint */}
@@ -260,10 +266,12 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
           {/* current-mode actual: future dim, past bright */}
           <path d={linePath(getActual, 0, MAX_T)} fill="none" stroke="var(--accent-warm)" strokeWidth={1.5} opacity={0.28} />
           <path d={linePath(getActual, 0, t)} fill="none" stroke="var(--accent-warm)" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" />
-          {/* 7:15 marker */}
-          <line x1={xOf(SIGNAL_T)} y1={0} x2={xOf(SIGNAL_T)} y2={H} stroke="var(--accent-warm)" strokeWidth={0.75} strokeDasharray="2 3" opacity={0.5} />
+          {/* 7:15 marker — the signal moment, made a touch more visible */}
+          <line x1={xOf(SIGNAL_T)} y1={0} x2={xOf(SIGNAL_T)} y2={H} stroke="var(--accent-warm)" strokeWidth={0.9} strokeDasharray="2 3" opacity={0.65} />
+          <circle cx={xOf(SIGNAL_T)} cy={4} r={3} fill="var(--accent-warm)" />
           {/* playhead */}
           <line x1={xOf(t)} y1={0} x2={xOf(t)} y2={H} stroke="var(--text-secondary)" strokeWidth={0.75} opacity={0.5} />
+          <circle cx={xOf(t)} cy={yOf(actual)} r={7} fill="var(--accent-warm)" opacity={0.18} />
           <circle cx={xOf(t)} cy={yOf(actual)} r={3.5} fill="var(--accent-warm)" />
           {past715 && !atEnd && (
             <circle cx={xOf(t)} cy={yOf(actual)} r={3.5} fill="none" stroke="var(--accent-warm)" strokeWidth={1}>
