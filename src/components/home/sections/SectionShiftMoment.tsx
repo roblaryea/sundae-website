@@ -76,31 +76,44 @@ function clock(t: number): string {
   return `${h}:${String(m).padStart(2, '0')} ${ampm}`;
 }
 
-// Sparkline geometry
-const W = 320;
-const H = 92;
-const VMIN = 50;
+// Chart geometry
+const W = 720;
+const H = 300;
+const PADT = 36; // headroom for the 7:15 pill
+const PADB = 22;
+const VMIN = 40;
 const VMAX = 200;
 const xOf = (t: number) => (t / MAX_T) * W;
-const yOf = (v: number) => H - 6 - ((v - VMIN) / (VMAX - VMIN)) * (H - 18);
+const yOf = (v: number) => PADT + (1 - (v - VMIN) / (VMAX - VMIN)) * (H - PADT - PADB);
 
-function linePath(getV: (f: Frame) => number, fromT: number, toT: number): string {
-  const pts: string[] = [];
-  for (let t = fromT; t <= toT + 0.1; t += 5) {
-    pts.push(`${xOf(t).toFixed(1)} ${yOf(getV(interp(t))).toFixed(1)}`);
-  }
-  return 'M' + pts.join(' L ');
+function samplePts(getV: (f: Frame) => number, fromT: number, toT: number): [number, number][] {
+  const pts: [number, number][] = [];
+  for (let t = fromT; t < toT; t += 7.5) pts.push([xOf(t), yOf(getV(interp(t)))]);
+  pts.push([xOf(toT), yOf(getV(interp(toT)))]);
+  return pts;
 }
-
-function gapPolygon(getActual: (f: Frame) => number, toT: number): string {
-  const fwd: string[] = [];
-  const back: string[] = [];
-  for (let t = 0; t <= toT + 0.1; t += 5) {
-    const f = interp(t);
-    fwd.push(`${xOf(t).toFixed(1)} ${yOf(getActual(f)).toFixed(1)}`);
-    back.unshift(`${xOf(t).toFixed(1)} ${yOf(f.fc).toFixed(1)}`);
+// Catmull-Rom → cubic Bézier for smooth lines.
+function smoothPath(getV: (f: Frame) => number, fromT: number, toT: number): string {
+  const pts = samplePts(getV, fromT, toT);
+  if (pts.length < 2) return '';
+  let d = `M${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[i - 1] || pts[i];
+    const p1 = pts[i];
+    const p2 = pts[i + 1];
+    const p3 = pts[i + 2] || p2;
+    const c1x = p1[0] + (p2[0] - p0[0]) / 6;
+    const c1y = p1[1] + (p2[1] - p0[1]) / 6;
+    const c2x = p2[0] - (p3[0] - p1[0]) / 6;
+    const c2y = p2[1] - (p3[1] - p1[1]) / 6;
+    d += `C${c1x.toFixed(1)},${c1y.toFixed(1)} ${c2x.toFixed(1)},${c2y.toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;
   }
-  return 'M' + fwd.join(' L ') + ' L ' + back.join(' L ') + ' Z';
+  return d;
+}
+function smoothArea(getV: (f: Frame) => number, fromT: number, toT: number): string {
+  const line = smoothPath(getV, fromT, toT);
+  if (!line) return '';
+  return `${line} L${xOf(toT).toFixed(1)},${(H - PADB).toFixed(1)} L${xOf(fromT).toFixed(1)},${(H - PADB).toFixed(1)} Z`;
 }
 
 export function SectionShiftMoment({ embedded = false }: { embedded?: boolean }) {
@@ -147,6 +160,8 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
   const labor = mode === 'sundae' ? f.labS : f.labO;
   const getActual = (fr: Frame) => (mode === 'sundae' ? fr.acS : fr.acO);
   const getGhost = (fr: Frame) => (mode === 'sundae' ? fr.acO : fr.acS);
+  const activeColor = mode === 'sundae' ? '#22C55E' : '#FF5450';
+  const ghostColor = mode === 'sundae' ? '#FF5450' : '#22C55E';
   const pace = Math.round(((actual - f.fc) / f.fc) * 100);
   const behind = pace <= -4;
   const laborHot = labor >= 29.5;
@@ -205,9 +220,10 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
               aria-selected={mode === m}
               type="button"
               onClick={() => setMode(m)}
-              className={`rounded-full px-3 py-1 transition-colors ${
-                mode === m ? 'bg-[var(--accent-warm)] text-white' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
+              className={`rounded-full px-3 py-1 font-semibold transition-colors ${
+                mode === m ? 'text-white' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
               }`}
+              style={mode === m ? { background: m === 'sundae' ? '#22C55E' : '#FF5450' } : undefined}
             >
               {m === 'sundae' ? copy.withSundae : copy.oldWay}
             </button>
@@ -246,40 +262,53 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
             <span className="inline-block h-0 w-3 border-t border-dashed border-[var(--text-faint)]" />
             {copy.forecastLabel}
           </span>
-          <span className="inline-flex items-center gap-1.5 text-[var(--text-secondary)]">
-            <span className="inline-block h-[2px] w-3 rounded-full" style={{ background: 'var(--accent-warm)' }} />
+          <span className="inline-flex items-center gap-1.5" style={{ color: activeColor }}>
+            <span className="inline-block h-[3px] w-3 rounded-full" style={{ background: activeColor }} />
             {copy.actualLabel}
           </span>
         </div>
-        <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="h-32 w-full" aria-hidden>
-          <defs>
-            <linearGradient id="sm-area" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="var(--accent-warm)" stopOpacity={0.2} />
-              <stop offset="100%" stopColor="var(--accent-warm)" stopOpacity={0} />
-            </linearGradient>
-          </defs>
-          <path d={gapPolygon(getActual, t)} fill="url(#sm-area)" />
-          {/* forecast target (dashed) */}
-          <path d={linePath((fr) => fr.fc, 0, MAX_T)} fill="none" stroke="var(--text-faint)" strokeWidth={1.5} strokeDasharray="3 3" />
-          {/* the path not taken (other mode), faint */}
-          <path d={linePath(getGhost, 0, MAX_T)} fill="none" stroke="var(--text-muted)" strokeWidth={1.25} strokeDasharray="1 4" opacity={0.5} />
-          {/* current-mode actual: future dim, past bright */}
-          <path d={linePath(getActual, 0, MAX_T)} fill="none" stroke="var(--accent-warm)" strokeWidth={1.5} opacity={0.28} />
-          <path d={linePath(getActual, 0, t)} fill="none" stroke="var(--accent-warm)" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" />
-          {/* 7:15 marker — the signal moment, made a touch more visible */}
-          <line x1={xOf(SIGNAL_T)} y1={0} x2={xOf(SIGNAL_T)} y2={H} stroke="var(--accent-warm)" strokeWidth={0.9} strokeDasharray="2 3" opacity={0.65} />
-          <circle cx={xOf(SIGNAL_T)} cy={4} r={3} fill="var(--accent-warm)" />
-          {/* playhead */}
-          <line x1={xOf(t)} y1={0} x2={xOf(t)} y2={H} stroke="var(--text-secondary)" strokeWidth={0.75} opacity={0.5} />
-          <circle cx={xOf(t)} cy={yOf(actual)} r={7} fill="var(--accent-warm)" opacity={0.18} />
-          <circle cx={xOf(t)} cy={yOf(actual)} r={3.5} fill="var(--accent-warm)" />
-          {past715 && !atEnd && (
-            <circle cx={xOf(t)} cy={yOf(actual)} r={3.5} fill="none" stroke="var(--accent-warm)" strokeWidth={1}>
-              <animate attributeName="r" from="3.5" to="9" dur="1.4s" repeatCount="indefinite" />
-              <animate attributeName="opacity" from="0.7" to="0" dur="1.4s" repeatCount="indefinite" />
-            </circle>
-          )}
-        </svg>
+        <div className="relative h-44 w-full">
+          <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="absolute inset-0 h-full w-full" aria-hidden>
+            <defs>
+              <linearGradient id="sm-area" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor={activeColor} stopOpacity={0.28} />
+                <stop offset="70%" stopColor={activeColor} stopOpacity={0.05} />
+                <stop offset="100%" stopColor={activeColor} stopOpacity={0} />
+              </linearGradient>
+            </defs>
+            {/* gridlines */}
+            {[80, 120, 160].map((v) => (
+              <line key={v} x1={0} y1={yOf(v)} x2={W} y2={yOf(v)} stroke="var(--text-faint)" strokeWidth={1} opacity={0.5} />
+            ))}
+            {/* area under the revealed active line */}
+            <path d={smoothArea(getActual, 0, Math.max(1, t))} fill="url(#sm-area)" />
+            {/* forecast reference (dashed, full) */}
+            <path d={smoothPath((fr) => fr.fc, 0, MAX_T)} fill="none" stroke="var(--text-muted)" strokeWidth={1.6} strokeDasharray="3 6" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+            {/* the path not taken (other mode), faint */}
+            <path d={smoothPath(getGhost, 0, MAX_T)} fill="none" stroke={ghostColor} strokeWidth={1.4} opacity={0.3} strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+            {/* active line: future dim, past bright */}
+            <path d={smoothPath(getActual, 0, MAX_T)} fill="none" stroke={activeColor} strokeWidth={1.6} opacity={0.25} strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+            <path d={smoothPath(getActual, 0, Math.max(1, t))} fill="none" stroke={activeColor} strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" />
+            {/* 7:15 signal + playhead verticals */}
+            <line x1={xOf(SIGNAL_T)} y1={PADT - 8} x2={xOf(SIGNAL_T)} y2={H - PADB} stroke="#FF5C4D" strokeWidth={1} strokeDasharray="2 4" opacity={0.6} />
+            <line x1={xOf(t)} y1={PADT - 8} x2={xOf(t)} y2={H - PADB} stroke="var(--text-secondary)" strokeWidth={1} opacity={0.45} />
+          </svg>
+          {/* crisp overlays (not stretched by the SVG) */}
+          <span
+            className="pointer-events-none absolute -translate-x-1/2 rounded-full px-2 py-0.5 text-[10px] font-bold leading-none"
+            style={{ left: `${(SIGNAL_T / MAX_T) * 100}%`, top: 2, background: '#FF5C4D', color: '#15110D' }}
+          >
+            7:15
+          </span>
+          <span
+            className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 rounded-full"
+            style={{ left: `${(xOf(t) / W) * 100}%`, top: `${(yOf(actual) / H) * 100}%`, width: 20, height: 20, background: activeColor, opacity: 0.18 }}
+          />
+          <span
+            className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 rounded-full"
+            style={{ left: `${(xOf(t) / W) * 100}%`, top: `${(yOf(actual) / H) * 100}%`, width: 10, height: 10, background: activeColor, boxShadow: `0 0 10px ${activeColor}` }}
+          />
+        </div>
       </div>
 
       {/* Transport: play / pause / replay + scrubber (drag to step in any time) */}
