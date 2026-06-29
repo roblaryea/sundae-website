@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useState, useRef, useLayoutEffect, useEffect } from "react";
+import Image from "next/image";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
 import HeroGlassLazy from "./hero3d/HeroGlassLazy";
@@ -69,10 +70,6 @@ const LAYERS = [
   { name: "Guests", sub: "CRM & loyalty", c: "#F6C66B" },
   { name: "Next move", sub: "what to do now", c: "#F6F1E8" },
 ];
-
-const TOP = 86;
-const BOT = 318;
-const BAND = (BOT - TOP) / LAYERS.length;
 
 // Climax / heartbeat beat (s) - when the cherry lands and the pulse radiates.
 const BEAT = 2.7;
@@ -168,163 +165,14 @@ function Glass() {
         onLayout={setLayerFr}
         className="relative z-10 w-[260px] sm:w-[330px] lg:w-[420px] aspect-[240/430]"
         poster={
-      <svg viewBox="0 0 240 430" fill="none" className="w-full h-full" aria-label="A glass of business layers - every layer, visible at once">
-        <defs>
-          <clipPath id="ci-bowl">
-            <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84 Z" />
-          </clipPath>
-          {/* curved glass gloss - bright on both edges, clear in the middle */}
-          <linearGradient id="ci-gloss" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stopColor="rgba(255,255,255,.30)" />
-            <stop offset=".17" stopColor="rgba(255,255,255,.05)" />
-            <stop offset=".5" stopColor="rgba(255,255,255,0)" />
-            <stop offset=".84" stopColor="rgba(255,255,255,.05)" />
-            <stop offset="1" stopColor="rgba(255,255,255,.16)" />
-          </linearGradient>
-          {/* liquid depth - light at the surface, darker toward the base */}
-          <linearGradient id="ci-depth" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="rgba(255,255,255,.14)" />
-            <stop offset=".1" stopColor="rgba(255,255,255,0)" />
-            <stop offset=".68" stopColor="rgba(0,0,0,0)" />
-            <stop offset="1" stopColor="rgba(58,18,8,.42)" />
-          </linearGradient>
-          <radialGradient id="ci-cherry" cx=".35" cy=".3" r=".85">
-            <stop offset="0" stopColor="#FF8275" /><stop offset=".55" stopColor="#E8404A" /><stop offset="1" stopColor="#A81B29" />
-          </radialGradient>
-          <radialGradient id="ci-glint" cx=".5" cy=".5" r=".5">
-            <stop offset="0" stopColor="rgba(255,255,255,.95)" /><stop offset="1" stopColor="rgba(255,255,255,0)" />
-          </radialGradient>
-          <filter id="ci-soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.2" /></filter>
-          <filter id="ci-blur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6.5" /></filter>
-        </defs>
-
-        <g clipPath="url(#ci-bowl)">
-          {/* empty-glass back tint */}
-          <rect x="40" y="80" width="160" height="246" fill="rgba(18,11,7,.45)" />
-          {LAYERS.map((L, i) => {
-            const y = BOT - (i + 1) * BAND;
-            return (
-              <motion.rect
-                key={i}
-                x={40}
-                y={y}
-                width={160}
-                height={BAND + 0.8}
-                fill={L.c}
-                style={{ transformBox: "fill-box", transformOrigin: "center bottom" }}
-                initial={rm ? false : { scaleY: 0, opacity: 1 }}
-                animate={{ scaleY: 1, opacity: active === null || active === i ? 1 : 0.28 }}
-                transition={{ scaleY: { delay: 0.5 + i * 0.13, duration: 0.8, ease: EASE }, opacity: { duration: 0.35, ease: "easeOut" } }}
-              />
-            );
-          })}
-          {/* per-layer surface menisci (the liquid catching light) */}
-          {LAYERS.map((L, i) => {
-            const y = BOT - (i + 1) * BAND;
-            return (
-              <motion.ellipse key={`m${i}`} cx="120" cy={y + 1.4} rx="60" ry="3.4" fill="rgba(255,255,255,.20)"
-                initial={rm ? false : { opacity: 0 }} animate={{ opacity: active === null || active === i ? 0.9 : 0.25 }}
-                transition={{ delay: 0.65 + i * 0.13, duration: 0.5 }} />
-            );
-          })}
-          {/* depth shading + glossy reflections */}
-          <rect x="40" y="80" width="160" height="246" fill="url(#ci-depth)" />
-          <ellipse cx="80" cy="180" rx="13" ry="118" fill="rgba(255,255,255,.16)" filter="url(#ci-blur)" />
-          <ellipse cx="164" cy="172" rx="5" ry="88" fill="rgba(255,255,255,.07)" filter="url(#ci-blur)" />
-          {/* rising bubbles */}
-          {!rm && [0, 1, 2].map((bi) => (
-            <motion.circle key={`b${bi}`} cx={96 + bi * 20} cy={300} r={1.5 + bi * 0.5} fill="rgba(255,255,255,.45)"
-              style={{ transformBox: "fill-box" }}
-              animate={{ y: [0, -185], opacity: [0, 0.6, 0] }}
-              transition={{ duration: 4.6 + bi, repeat: Infinity, delay: 3 + bi * 1.4, ease: "easeOut" }} />
-          ))}
-          {/* light sweep */}
-          {!rm && (
-            <g transform="skewX(-14)">
-              <motion.rect x={42} y={55} width={46} height={288} fill="rgba(255,255,255,.4)" style={{ transformBox: "fill-box" }}
-                animate={{ x: [-95, 150, 150], opacity: [0, 0.5, 0] }}
-                transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 2.6, times: [0, 0.34, 1] }} />
-            </g>
-          )}
-          {/* ghosted domain signals inside the strata - the narrative the glass
-              carries even where the external label rail is hidden (mobile/laptop).
-              Whisper-quiet by default; they surface as a layer becomes active. */}
-          {LAYERS.map((L, i) => {
-            // The bowl tapers to a point, so the bottom band is too narrow for
-            // text - skip its in-band label (its name is carried by the caption
-            // beneath the glass + the external rail) to avoid a clipped, lost look.
-            if (i === 0) return null;
-            const yc = BOT - (i + 0.5) * BAND;
-            const isActive = active === i;
-            const onCream = i === LAYERS.length - 1; // top "Next move" band is light
-            return (
-              <motion.text
-                key={`gl${i}`}
-                x={120}
-                y={yc + 2.5}
-                textAnchor="middle"
-                fontSize="7"
-                fontWeight="700"
-                fill={onCream ? "#5A2417" : "#FFF6EC"}
-                style={{ textTransform: "uppercase", letterSpacing: "1.1px", fontFamily: "var(--font-sans)" }}
-                initial={rm ? false : { opacity: 0 }}
-                animate={{ opacity: isActive ? 1 : onCream ? 0.62 : 0.46 }}
-                transition={{ delay: reduce ? 0 : 1.15 + i * 0.13, duration: 0.5 }}
-              >
-                {copy.layers[i].name}
-              </motion.text>
-            );
-          })}
-        </g>
-
-        {/* glass body gloss + outline */}
-        <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84" fill="url(#ci-gloss)" />
-        <path d="M56,84 C56,200 78,300 120,318 C162,300 184,200 184,84" fill="none" stroke="rgba(251,248,244,.55)" strokeWidth="2" />
-        {/* rim - surface + bright catch-light arc */}
-        <ellipse cx="120" cy="84" rx="64" ry="11" fill="rgba(246,241,232,.55)" />
-        <ellipse cx="120" cy="84" rx="64" ry="11" fill="none" stroke="rgba(255,255,255,.65)" strokeWidth="2" />
-        <path d="M60,80 A64 11 0 0 1 150 77" fill="none" stroke="rgba(255,255,255,.85)" strokeWidth="2" strokeLinecap="round" />
-        {/* stem + foot with highlight */}
-        <path d="M120,318 L120,372" stroke="rgba(251,248,244,.36)" strokeWidth="7" strokeLinecap="round" />
-        <path d="M118,321 L118,369" stroke="rgba(255,255,255,.4)" strokeWidth="1.6" strokeLinecap="round" />
-        <ellipse cx="120" cy="378" rx="40" ry="7" fill="rgba(255,255,255,.05)" />
-        <ellipse cx="120" cy="378" rx="40" ry="7" fill="none" stroke="rgba(251,248,244,.4)" strokeWidth="2.5" />
-
-        {/* surface splash ring - radiates at the rim when the cherry lands */}
-        {!rm && (
-          <motion.ellipse cx="120" cy="84" rx="40" ry="9" fill="none" stroke="rgba(255,160,136,.7)" strokeWidth="1.6"
-            initial={{ scale: 0.5, opacity: 0 }} style={{ transformBox: "fill-box", transformOrigin: "center" }}
-            animate={{ scale: [0.5, 1.7], opacity: [0, 0.7, 0] }}
-            transition={{ duration: 1.5, ease: "easeOut", delay: BEAT, repeat: Infinity, repeatDelay: 4.7 }} />
-        )}
-        {/* cherry - the signal, glossy + 3-D */}
-        <motion.g initial={rm ? false : { y: -56, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.85, duration: 0.9, ease: EASE }}>
-          <ellipse cx="116" cy="83" rx="15" ry="3.6" fill="rgba(58,18,8,.4)" filter="url(#ci-soft)" />
-          {/* stem - refined: a slim, graceful arc with a faint sheen, not a thick symbol */}
-          <path d="M117 67 C115 49 127 41 138 30" stroke="#79301C" strokeWidth="2.1" fill="none" strokeLinecap="round" />
-          <path d="M117 66 C115 49 127 42 138 31" stroke="rgba(255,186,156,.4)" strokeWidth="0.7" fill="none" strokeLinecap="round" />
-          <circle cx="114" cy="70" r="14" fill="url(#ci-cherry)" />
-          <motion.ellipse cx="108" cy="64" rx="4.8" ry="3.2" fill="url(#ci-glint)"
-            animate={reduce ? undefined : { opacity: [0.95, 0.55, 0.95] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
-          <circle cx="120" cy="76" r="2" fill="rgba(255,255,255,.35)" />
-        </motion.g>
-
-        {/* active-layer caption beneath the glass - full-width room for every name
-            (incl. the narrow base band's "Foundation"), surfacing as hover / the
-            auto-tour lands on each layer. */}
-        {active !== null && (
-          <motion.g key={`cap-${active}`} initial={rm ? false : { opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.35 }}>
-            <text x="120" y="402" textAnchor="middle" fontSize="10" fontWeight="700" fill="#FFF6EC"
-              style={{ textTransform: "uppercase", letterSpacing: "1.6px", fontFamily: "var(--font-sans)" }}>
-              {copy.layers[active].name}
-            </text>
-            <text x="120" y="414" textAnchor="middle" fontSize="7.5" fill="rgba(251,248,244,0.6)"
-              style={{ fontFamily: "var(--font-sans)" }}>
-              {copy.layers[active].sub}
-            </text>
-          </motion.g>
-        )}
-      </svg>
+      <Image
+        src="/images/hero/sundae-glass.png"
+        alt="A sundae glass of the business layers — every layer visible at once, the cherry the signal to act"
+        fill
+        sizes="(min-width: 1024px) 420px, 70vw"
+        className="object-contain"
+        priority
+      />
         }
       />
 
@@ -422,8 +270,6 @@ export function SectionCinematicIntro() {
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
   const sceneOpacity = useTransform(scrollYProgress, [0, 0.62], [1, 0]);
   const sceneY = useTransform(scrollYProgress, [0, 1], [0, -56]);
-  const glassScale = useTransform(scrollYProgress, [0, 1], [1, 1.22]);
-  const glassLift = useTransform(scrollYProgress, [0, 1], [0, -70]);
   const [headlinePx, setHeadlinePx] = useState<number | null>(null);
   const subRef = useRef<HTMLParagraphElement>(null);
   const [subPx, setSubPx] = useState<number | null>(null);
@@ -585,12 +431,9 @@ export function SectionCinematicIntro() {
           </motion.div>
         </div>
 
-        <motion.div
-          className="relative flex min-h-[300px] items-center justify-center sm:min-h-[420px] lg:min-h-[640px]"
-          style={rm ? undefined : { scale: glassScale, y: glassLift }}
-        >
+        <div className="relative flex min-h-[300px] items-center justify-center sm:min-h-[420px] lg:min-h-[640px]">
           <Glass />
-        </motion.div>
+        </div>
       </motion.div>
 
       <motion.a

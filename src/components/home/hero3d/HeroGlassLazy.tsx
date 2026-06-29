@@ -85,7 +85,7 @@ export default function HeroGlassLazy({ active, onHover, onLayout, poster, class
       {/* The old SVG glass is ONLY the reduced-motion / no-WebGL fallback now — it
           never flashes during the normal 3D load (undetermined state renders
           nothing; the section's warm wash shows through until the canvas fades in). */}
-      {showSvg && <div>{poster}</div>}
+      {showSvg && <div className="absolute inset-0">{poster}</div>}
 
       {show3D && (
         <HeroGlass3D
