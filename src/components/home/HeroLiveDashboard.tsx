@@ -127,7 +127,7 @@ export function HeroLiveDashboard() {
   const reduceMotion = useReducedMotion();
   const [tick, setTick] = useState(0);
   const [coachIdx, setCoachIdx] = useState(0);
-  const [now, setNow] = useState<string | null>(null);
+  const [weekday, setWeekday] = useState<string | null>(null);
 
   useEffect(() => {
     if (reduceMotion) return;
@@ -141,22 +141,26 @@ export function HeroLiveDashboard() {
     return () => clearInterval(id);
   }, [reduceMotion]);
 
-  // Live "updated at": real current day + time in the active locale.
+  // "Updated" stamp: the end-user's REAL weekday (today, their locale), while the
+  // TIME reflects the time-of-day the pace bar is simulating (simClock below) —
+  // so it reads e.g. "Monday · 8:15 PM", day = today, time = the simulated service.
   useEffect(() => {
-    const fmt = () =>
-      new Date().toLocaleString(getWebsiteIntlLocale(locale), { weekday: "long", hour: "numeric", minute: "2-digit" });
-    const raf = requestAnimationFrame(() => setNow(fmt()));
-    const id = reduceMotion ? undefined : setInterval(() => setNow(fmt()), 15000);
-    return () => {
-      cancelAnimationFrame(raf);
-      if (id) clearInterval(id);
-    };
-  }, [locale, reduceMotion]);
+    const raf = requestAnimationFrame(() =>
+      setWeekday(new Date().toLocaleDateString(getWebsiteIntlLocale(locale), { weekday: "long" })),
+    );
+    return () => cancelAnimationFrame(raf);
+  }, [locale]);
 
   // ── Simulated service night — bounded + varied (see SCENARIOS) ──
   const scenario = SCENARIOS[Math.floor(tick / NIGHT_TICKS) % SCENARIOS.length];
   const localT = tick % NIGHT_TICKS;
   const p = 0.32 + 0.68 * (localT / (NIGHT_TICKS - 1)); // 0.32 → 1.0 through the night
+  // Simulated service clock: map progress p (0.32→1.0) onto a 5:00 PM → 11:00 PM
+  // dinner service, so the "updated" time tracks the pace bar — not the real clock.
+  const svcMin = 17 * 60 + Math.round(((p - 0.32) / 0.68) * 6 * 60);
+  const simClock = new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), { hour: "numeric", minute: "2-digit" }).format(
+    new Date(2000, 0, 1, Math.floor(svcMin / 60), svcMin % 60),
+  );
   // deterministic per-tick jitter (stable across re-renders within a tick)
   const nz = (seed: number) => {
     const x = Math.sin((tick + 1) * (12.9898 + seed)) * 43758.5453;
@@ -253,7 +257,9 @@ export function HeroLiveDashboard() {
               {copy.live}
             </span>
           </div>
-          <div className={`mt-1 font-mono text-[10px] sm:text-[11px] tracking-[0.04em] ${muted}`}>{now ?? copy.updatedAt}</div>
+          <div className={`mt-1 font-mono text-[10px] sm:text-[11px] tracking-[0.04em] ${muted}`}>
+            {weekday ? `${weekday} · ${simClock}` : copy.updatedAt}
+          </div>
         </div>
         <span
           className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 font-mono text-[9px] sm:text-[10px] font-semibold uppercase tracking-[0.12em]"
