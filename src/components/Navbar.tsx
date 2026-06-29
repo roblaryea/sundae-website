@@ -10,7 +10,7 @@ import { SundaeLogotype } from './ui/SundaeLogotype';
 import { SundaeMark } from './ui/SundaeMark';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
-import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
+import { SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
@@ -130,6 +130,7 @@ const Navbar = () => {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     product: true,
     solutions: true,
+    pricing: false,
     resources: false,
     company: false,
   });
@@ -207,8 +208,11 @@ const Navbar = () => {
   // Six Intelligence Layers
   const pillars: ReadonlyArray<NavbarLink> = nav.pillars;
 
-  // Product Tiers
+  // Product Tiers (now surfaced under the Pricing dropdown)
   const plans: ReadonlyArray<NavbarLink> = nav.plansList;
+
+  // Sundae Crew operational modules (Product → Sundae Crew group)
+  const crewLinks: ReadonlyArray<NavbarLink> = nav.crewList;
 
   // Solutions organized by category
   const solutionsSegments: ReadonlyArray<NavbarLink> = nav.solutionsSegments;
@@ -280,10 +284,10 @@ const Navbar = () => {
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                 <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
-                  {/* Intelligence Pillars */}
+                  {/* Core — the decision-intelligence modules */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.intelligence}
+                      {nav.core}
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
                       {pillars.map((pillar) => (
@@ -307,43 +311,32 @@ const Navbar = () => {
                   {/* Separator */}
                   <div className="border-t border-[var(--border-default)] my-4"></div>
 
-                  {/* Plans */}
+                  {/* Sundae Crew — the operational modules */}
                   <div>
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.plans}
+                      {nav.crew}
                     </h3>
-                    <div className="grid grid-cols-3 gap-1 mb-3">
-                      {plans.map((plan) => (
+                    <div className="grid grid-cols-2 gap-1 mb-2">
+                      {crewLinks.map((m) => (
                         <Link
-                          key={plan.name}
-                          href={localizeHref(plan.href)}
+                          key={m.name}
+                          href={localizeHref(m.href)}
                           className={dropdownLinkClass}
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className={dropdownTitleClass}>
-                            {plan.name}
-                          </div>
-                          <div className={dropdownDescriptionClass}>
-                            {plan.description}
-                          </div>
+                          <div className={dropdownTitleClass}>{m.name}</div>
+                          <div className={dropdownDescriptionClass}>{m.description}</div>
                         </Link>
                       ))}
                     </div>
-                    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
+                    <div className="px-3">
                       <Link
-                        href={localizeHref('/report-vs-core')}
-                        className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
+                        href={localizeHref('/crew')}
+                        className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        {nav.comparePlans}
+                        {nav.crewAll}
                       </Link>
-                      <a
-                        href={REPORT_APP_URL}
-                        className="min-w-0 text-sm font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--text-secondary)] break-words"
-                        onClick={() => setActiveDropdown(null)}
-                      >
-                        {nav.startFree}
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -420,9 +413,60 @@ const Navbar = () => {
               )}
             </div>
 
-            <a href={PRICING_URL} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
-              {nav.pricing}
-            </a>
+            {/* Pricing Mega Menu — Plans now live here */}
+            <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
+              <button
+                type="button"
+                className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
+                onMouseEnter={() => setActiveDropdown('pricing')}
+                onClick={() => setActiveDropdown(activeDropdown === 'pricing' ? null : 'pricing')}
+                aria-haspopup="true"
+                aria-expanded={activeDropdown === 'pricing'}
+              >
+                {nav.pricing}
+              </button>
+
+              {activeDropdown === 'pricing' && (
+                <div
+                  className="absolute top-full left-0 z-50 w-[min(26rem,calc(100vw-2rem))] pt-2"
+                  onMouseEnter={() => setActiveDropdown('pricing')}
+                  onMouseLeave={() => setActiveDropdown(null)}
+                >
+                  <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
+                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">{nav.plans}</h3>
+                    <div className="grid grid-cols-1 gap-1 mb-3">
+                      {plans.map((plan) => (
+                        <Link
+                          key={plan.name}
+                          href={localizeHref(plan.href)}
+                          className={dropdownLinkClass}
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          <div className={dropdownTitleClass}>{plan.name}</div>
+                          <div className={dropdownDescriptionClass}>{plan.description}</div>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
+                      <Link
+                        href={localizeHref('/report-vs-core')}
+                        className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
+                        onClick={() => setActiveDropdown(null)}
+                      >
+                        {nav.comparePlans}
+                      </Link>
+                      <a
+                        href={PRICING_URL}
+                        className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
+                        onClick={() => setActiveDropdown(null)}
+                      >
+                        {nav.viewPricing}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
 
             <Link href={localizeHref('/about')} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
               {nav.about}
@@ -600,7 +644,7 @@ const Navbar = () => {
               onToggle={() => toggleSection('product')}
             >
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{nav.intelligence}</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.core}</span>
               </div>
               {pillars.map((pillar) => (
                 <MobileNavLink
@@ -613,30 +657,24 @@ const Navbar = () => {
               ))}
               <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{nav.plans}</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.crew}</span>
               </div>
-              {plans.map((plan) => (
+              {crewLinks.map((m) => (
                 <MobileNavLink
-                  key={plan.name}
-                  href={localizeHref(plan.href)}
+                  key={m.name}
+                  href={localizeHref(m.href)}
                   onClick={handleMobileNavClick}
                 >
-                  {plan.name}
+                  {m.name}
                 </MobileNavLink>
               ))}
               <MobileNavLink
-                href={localizeHref('/report-vs-core')}
+                href={localizeHref('/crew')}
                 onClick={handleMobileNavClick}
+                isHighlighted
               >
-                {nav.comparePlans}
+                {nav.crewAll}
               </MobileNavLink>
-              <a
-                href={SIGNUP_URL}
-                onClick={handleMobileNavClick}
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
-              >
-                {nav.startFree}
-              </a>
             </AccordionSection>
 
             {/* Solutions Section */}
@@ -673,6 +711,40 @@ const Navbar = () => {
               ))}
             </AccordionSection>
 
+            {/* Pricing Section — Plans live here */}
+            <AccordionSection
+              title={nav.pricing}
+              id="pricing"
+              isExpanded={expandedSections.pricing}
+              onToggle={() => toggleSection('pricing')}
+            >
+              <div className="px-4 pt-1 pb-1">
+                <span className="eyebrow text-[var(--text-muted)]">{nav.plans}</span>
+              </div>
+              {plans.map((plan) => (
+                <MobileNavLink key={plan.name} href={localizeHref(plan.href)} onClick={handleMobileNavClick}>
+                  {plan.name}
+                </MobileNavLink>
+              ))}
+              <MobileNavLink href={localizeHref('/report-vs-core')} onClick={handleMobileNavClick}>
+                {nav.comparePlans}
+              </MobileNavLink>
+              <a
+                href={SIGNUP_URL}
+                onClick={handleMobileNavClick}
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
+              >
+                {nav.startFree}
+              </a>
+              <a
+                href={PRICING_URL}
+                onClick={handleMobileNavClick}
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]"
+              >
+                {nav.viewPricing}
+              </a>
+            </AccordionSection>
+
             {/* Resources Section */}
             <AccordionSection
               title={nav.resources}
@@ -698,12 +770,6 @@ const Navbar = () => {
               isExpanded={expandedSections.company}
               onToggle={() => toggleSection('company')}
             >
-              <a 
-                href={PRICING_URL} 
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]"
-              >
-                {nav.pricing}
-              </a>
               <MobileNavLink href={localizeHref('/about')} onClick={handleMobileNavClick}>
                 {nav.about}
               </MobileNavLink>

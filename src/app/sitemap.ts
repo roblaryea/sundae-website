@@ -45,6 +45,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/product/sundae-report',
   ]
 
+  // Crew pages (operational suite + per-module surfaces)
+  const crewPages = [
+    '/crew',
+    '/crew/scheduling',
+    '/crew/time-attendance',
+    '/crew/payroll',
+    '/crew/people',
+    '/crew/people-intelligence',
+  ]
+
   // Solutions pages
   const solutionPages = [
     '/solutions/multi-location-groups',
@@ -69,7 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/multi-location-uplift',
   ]
 
-  const staticRoutes = [...corePages, ...productPages, ...solutionPages, ...toolPages]
+  const staticRoutes = [...corePages, ...productPages, ...crewPages, ...solutionPages, ...toolPages]
 
   const staticPages = staticRoutes.flatMap((route) => {
     const normalizedRoute = normalizeWebsitePathname(route)
