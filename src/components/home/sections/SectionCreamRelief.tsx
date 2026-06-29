@@ -2,11 +2,18 @@
 
 import Image from 'next/image';
 import { Fragment, useEffect, useState, type ReactNode } from 'react';
+import { useRef } from 'react';
 import { motion, animate, useMotionValue, useMotionValueEvent } from 'framer-motion';
+import { useSettledReducedMotion as useReducedMotion } from '@/lib/useSettledReducedMotion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { SundaeWordmark } from './SundaeWordmark';
 import { creamReliefCopy, type UnifyVisualCopy } from './creamReliefCopy';
+
+// Semantic delta colour on the cream surface: + = trust-green, - = cherry-red,
+// anything else ("on target") = neutral ink. Positives must never read as alarms.
+const deltaColor = (d: string) =>
+  /^\s*\+/.test(d) ? '#0F8A5E' : /^\s*-/.test(d) ? '#D23241' : 'rgba(26,20,15,0.5)';
 
 /**
  * Cream "relief" zone - a deliberately light, warm break in the dark scroll.
@@ -296,6 +303,7 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
  * warm-accented - signifies unification + team trust without a stock photo.
  */
 function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
+  const reduceMotion = useReducedMotion();
   const inputs = [
     copy.inputs.pos,
     copy.inputs.labor,
@@ -392,21 +400,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
             <span className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{copy.decisionSurface}</span>
             <span className="text-[10px] font-semibold" style={{ color: 'var(--warm-coral)' }}>{copy.allOutlets}</span>
           </div>
-          <svg viewBox="0 0 200 44" preserveAspectRatio="none" className="mb-3 h-16 w-full" aria-hidden>
-            <defs>
-              <linearGradient id="uvspark" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="rgba(255,92,77,0.22)" />
-                <stop offset="100%" stopColor="rgba(255,92,77,0)" />
-              </linearGradient>
-            </defs>
-            <path d="M0 34 L28 30 L56 32 L84 24 L112 26 L140 16 L168 18 L200 8 L200 44 L0 44 Z" fill="url(#uvspark)" />
-            <motion.path
-              d="M0 34 L28 30 L56 32 L84 24 L112 26 L140 16 L168 18 L200 8"
-              fill="none" stroke="#FF5C4D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-              initial={{ pathLength: 0 }} whileInView={{ pathLength: 1 }} viewport={{ once: true }} transition={{ duration: 1.1, ease: 'easeOut' }}
-            />
-            <motion.circle cx="200" cy="8" r="3" fill="#FF5C4D" animate={{ opacity: [1, 0.4, 1] }} transition={{ duration: 1.6, repeat: Infinity }} />
-          </svg>
+          <LiveTrendLine reduceMotion={!!reduceMotion} />
           <div className="grid grid-cols-3 gap-2.5 text-center">
             {kpiConfig.map(({ label, value, fmt, delta }) => (
               <div key={label} className="rounded-xl py-3" style={{ background: 'rgba(233,162,74,0.1)' }}>
@@ -414,7 +408,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
                 <div className="font-display text-xl font-semibold tabular-nums" style={{ color: 'var(--ink)' }}>
                   <LiveNumber value={value} format={fmt} />
                 </div>
-                <div className="text-[10px] font-semibold" style={{ color: 'var(--warm-cherry)' }}>{delta}</div>
+                <div className="text-[10px] font-semibold" style={{ color: deltaColor(delta) }}>{delta}</div>
               </div>
             ))}
           </div>
@@ -437,7 +431,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
             style={{ background: 'rgba(255,92,77,0.1)', color: 'var(--ink)' }}
           >
             <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
-              <path d="M2.5 6.5l2.5 2.5 4.5-5" stroke="var(--warm-coral)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M2.5 6.5l2.5 2.5 4.5-5" stroke="#0F8A5E" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             {r}
           </motion.span>
@@ -457,4 +451,74 @@ function LiveNumber({ value, format }: { value: number; format: (n: number) => s
     return () => controls.stop();
   }, [value, mv]);
   return <>{display}</>;
+}
+
+/**
+ * Live actual-vs-forecast trend. The solid GREEN line is the actual (history)
+ * and ticks upward in real time; a soft dashed "now" divider separates it from
+ * the dashed GREEN forecast projecting the recent slope forward. Green = the
+ * number is climbing (good) — never the alarm-red a flat trend line used to be.
+ * Smoothness comes from a single 0→1 progress value interpolating point Ys, so
+ * the path morphs (no snap) without a path-morph dependency.
+ */
+function LiveTrendLine({ reduceMotion }: { reduceMotion: boolean }) {
+  const N = 8;
+  const X_NOW = 150;
+  const W = 200;
+  const BASE = 42;
+  const TOP = 6;
+  const stepX = X_NOW / (N - 1);
+  const seed = [36, 33, 34, 28, 30, 22, 20, 14];
+
+  const build = (ys: number[]) => {
+    const actual = ys.map((y, i) => `${i ? 'L' : 'M'} ${(i * stepX).toFixed(1)} ${y.toFixed(1)}`).join(' ');
+    const area = `${actual} L ${X_NOW} ${BASE} L 0 ${BASE} Z`;
+    const slope = (ys[N - 1] - ys[N - 3]) / (2 * stepX);
+    const fY = Math.max(TOP - 1, Math.min(BASE - 2, ys[N - 1] + slope * (W - X_NOW)));
+    const forecast = `M ${X_NOW} ${ys[N - 1].toFixed(1)} L ${W} ${fY.toFixed(1)}`;
+    return { actual, area, forecast, endY: ys[N - 1] };
+  };
+
+  const targetRef = useRef(seed);
+  const prevRef = useRef(seed);
+  const [shape, setShape] = useState(() => build(seed));
+  const prog = useMotionValue(1);
+
+  useMotionValueEvent(prog, 'change', (t) => {
+    const interp = prevRef.current.map((p, i) => p + (targetRef.current[i] - p) * t);
+    setShape(build(interp));
+  });
+
+  useEffect(() => {
+    if (reduceMotion) return;
+    const id = setInterval(() => {
+      const cur = targetRef.current;
+      const last = cur[N - 1];
+      let next = last - (1.0 + Math.random() * 3.0) + (Math.random() - 0.5) * 1.6;
+      if (next < TOP + 1) next = BASE - 5 - Math.random() * 4; // gently restart the climb
+      next = Math.max(TOP, Math.min(BASE - 2, next));
+      prevRef.current = cur;
+      targetRef.current = [...cur.slice(1), next];
+      prog.set(0);
+      animate(prog, 1, { duration: 2.0, ease: [0.4, 0, 0.2, 1] });
+    }, 2200);
+    return () => clearInterval(id);
+  }, [reduceMotion, prog]);
+
+  return (
+    <svg viewBox="0 0 200 44" preserveAspectRatio="none" className="mb-3 h-16 w-full" aria-hidden>
+      <defs>
+        <linearGradient id="uvspark" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="rgba(22,168,120,0.26)" />
+          <stop offset="100%" stopColor="rgba(22,168,120,0)" />
+        </linearGradient>
+      </defs>
+      {/* "now" divider — left of it is actual history, right of it is forecast */}
+      <line x1={X_NOW} y1="2" x2={X_NOW} y2={BASE} stroke="rgba(26,20,15,0.14)" strokeWidth="0.75" strokeDasharray="2 2.5" />
+      <path d={shape.area} fill="url(#uvspark)" />
+      <path d={shape.actual} fill="none" stroke="#16A878" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d={shape.forecast} fill="none" stroke="#16A878" strokeWidth="1.6" strokeLinecap="round" strokeDasharray="3 3" opacity="0.5" />
+      <motion.circle cx={X_NOW} cy={shape.endY} r="3" fill="#16A878" animate={{ opacity: [1, 0.4, 1] }} transition={{ duration: 1.6, repeat: Infinity }} />
+    </svg>
+  );
 }
