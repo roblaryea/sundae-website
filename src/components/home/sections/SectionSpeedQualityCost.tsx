@@ -193,13 +193,13 @@ function VertexStat({ idx, reduceMotion, text }: { idx: number; reduceMotion: bo
   // would misleadingly imply the whole product is free. Sized down as it's words.
   if (text) {
     return (
-      <span className="font-display text-2xl sm:text-[28px] font-bold leading-tight text-[var(--warm-coral)] text-right">
+      <span className="font-display text-2xl sm:text-[28px] font-bold leading-tight text-[#1AA877] [html.light_&]:text-[#0F8A5E] text-right">
         {text}
       </span>
     );
   }
   return (
-    <span className="font-display text-3xl sm:text-4xl font-bold leading-none text-[var(--warm-coral)] tabular-nums">
+    <span className="font-display text-3xl sm:text-4xl font-bold leading-none text-[#1AA877] [html.light_&]:text-[#0F8A5E] tabular-nums">
       {m.prefix}
       {display}
       {m.suffix}
@@ -481,6 +481,14 @@ export function SectionSpeedQualityCost() {
                   <stop offset="45%" stopColor="rgba(34,168,120,0.45)" />
                   <stop offset="100%" stopColor="rgba(22,168,120,0)" />
                 </radialGradient>
+                {/* The cherry — the brand "signal to act" that the three constraints
+                    collapse into. Glossy depth: hot top-left highlight → deep maroon. */}
+                <radialGradient id="cherryBody" cx="36%" cy="28%" r="78%">
+                  <stop offset="0%" stopColor="#FF7A6E" />
+                  <stop offset="32%" stopColor="#E83246" />
+                  <stop offset="72%" stopColor="#C01530" />
+                  <stop offset="100%" stopColor="#7E0E20" />
+                </radialGradient>
                 {/* Top-vertex specular highlight - sharp, focused */}
                 <radialGradient id="triHighlight" cx="50%" cy="20%" r="42%">
                   <stop offset="0%" stopColor={triHighlightStrong} />
@@ -571,7 +579,7 @@ export function SectionSpeedQualityCost() {
                   y1={trianglePoints[a].y}
                   x2={trianglePoints[c].x}
                   y2={trianglePoints[c].y}
-                  stroke="url(#triEdge)"
+                  stroke="#16A878"
                   strokeWidth="3"
                   strokeLinecap="round"
                   style={{ opacity: edgeOpacities[k] }}
@@ -613,24 +621,52 @@ export function SectionSpeedQualityCost() {
                     transition={{ duration: 1.5, ease: "easeOut" }}
                     style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
                   />
-                  {/* persistent breathing core */}
-                  <circle cx={CENTROID.x} cy={CENTROID.y} r="18" fill="url(#coreGlow)" />
-                  <motion.circle
-                    cx={CENTROID.x}
-                    cy={CENTROID.y}
-                    r="4.5"
-                    fill="#96E7C2"
-                    filter="url(#tracerGlow)"
-                    animate={{ opacity: [0.55, 0.95, 0.55], scale: [1, 1.25, 1] }}
+                  {/* the green "go" glow the cherry sits in — the payoff of all three */}
+                  <circle cx={CENTROID.x} cy={CENTROID.y} r="22" fill="url(#coreGlow)" />
+                  {/* the cherry — where the three tradeoffs collapse into one signal */}
+                  <motion.g
+                    animate={{ scale: [1, 1.09, 1] }}
                     transition={{ duration: 3, ease: "easeInOut", repeat: Infinity }}
                     style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
-                  />
+                  >
+                    <path
+                      d={`M ${CENTROID.x + 1.5} ${CENTROID.y - 8} q 4 -7 11 -8.5`}
+                      fill="none"
+                      stroke="#6E4326"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                    />
+                    <circle cx={CENTROID.x} cy={CENTROID.y} r="9.5" fill="url(#cherryBody)" filter="url(#tracerGlow)" />
+                    <ellipse
+                      cx={CENTROID.x - 3}
+                      cy={CENTROID.y - 3.6}
+                      rx="2.6"
+                      ry="1.7"
+                      fill="rgba(255,255,255,0.78)"
+                      transform={`rotate(-32 ${CENTROID.x - 3} ${CENTROID.y - 3.6})`}
+                    />
+                  </motion.g>
                 </g>
               )}
 
-              {/* Active-vertex pulse rings - single source of truth = activeIdx */}
+              {/* Active-vertex GREEN light-up + a beam feeding the cherry — fires at
+                  EVERY vertex (re-keyed on activeIdx), so speed/quality/cost each
+                  "achieve" green as the ball arrives and pours into the centre. */}
               {useAnimated && (
                 <g key={`pulse-${activeIdx}`}>
+                  <motion.line
+                    x1={trianglePoints[activeIdx].x}
+                    y1={trianglePoints[activeIdx].y}
+                    x2={CENTROID.x}
+                    y2={CENTROID.y}
+                    stroke="#22C55E"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    filter="url(#vertexGlow)"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: [0, 0.85, 0.15] }}
+                    transition={{ duration: 1.1, ease: "easeOut" }}
+                  />
                   {[0, 1].map((ringIdx) => (
                     <motion.circle
                       key={ringIdx}
@@ -638,10 +674,10 @@ export function SectionSpeedQualityCost() {
                       cy={trianglePoints[activeIdx].y}
                       r="20"
                       fill="none"
-                      stroke="#FF8473"
+                      stroke="#22C55E"
                       strokeWidth="1.2"
                       initial={{ opacity: 0, scale: 1 }}
-                      animate={{ opacity: [0, 0.55, 0], scale: [1, 3.2, 3.6] }}
+                      animate={{ opacity: [0, 0.6, 0], scale: [1, 3.2, 3.6] }}
                       transition={{
                         duration: 2.4,
                         delay: ringIdx * 1.2,
@@ -716,8 +752,8 @@ export function SectionSpeedQualityCost() {
                       cx={p.x}
                       cy={p.y}
                       r={isActive ? 38 : 16}
-                      fill="#FF8473"
-                      opacity={isActive ? 0.22 : 0.06}
+                      fill="#22C55E"
+                      opacity={isActive ? 0.24 : 0.05}
                       filter="url(#vertexGlow)"
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     />
@@ -727,7 +763,7 @@ export function SectionSpeedQualityCost() {
                       cy={p.y}
                       r={isActive ? 18 : 12}
                       fill="none"
-                      stroke="#FF8473"
+                      stroke="#22C55E"
                       strokeWidth={isActive ? 1 : 0.8}
                       opacity={isActive ? 0.55 : 0.25}
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
@@ -761,7 +797,7 @@ export function SectionSpeedQualityCost() {
                       fontSize="11"
                       fontWeight="600"
                       letterSpacing="0.32em"
-                      fill={isActive ? "#FF8473" : "transparent"}
+                      fill={isActive ? "#16A878" : "transparent"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     >
                       0{i + 1}
@@ -793,7 +829,7 @@ export function SectionSpeedQualityCost() {
                     {v.chips.map((chip) => (
                       <span
                         key={chip}
-                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[#1AA877]/12 text-[#1AA877] [html.light_&]:text-[#0F8A5E] border border-[#1AA877]/30"
                       >
                         {chip}
                       </span>
@@ -843,7 +879,7 @@ export function SectionSpeedQualityCost() {
                   {vertices[activeIdx].chips.map((chip) => (
                     <span
                       key={chip}
-                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
+                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[#1AA877]/12 text-[#1AA877] [html.light_&]:text-[#0F8A5E] border border-[#1AA877]/30"
                     >
                       {chip}
                     </span>
