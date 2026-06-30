@@ -14,8 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const corePages = [
     '',
     '/report',
-    '/intelligence',
-    '/insights',
     '/about',
     '/demo',
     '/contact',
@@ -24,7 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/resources',
     '/4d-intelligence',
     '/architecture',
-    '/benchmarking',
     '/why-sundae',
     '/careers',
     '/privacy',
@@ -42,7 +39,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/product/watchtower',
     '/product/foresight',
     '/product/cross-intelligence',
-    '/product/sundae-report',
+    '/product/intelligence',
+    '/product/insights',
+    '/product/benchmarking',
   ]
 
   // Crew pages (operational suite + per-module surfaces)

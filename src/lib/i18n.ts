@@ -263,7 +263,7 @@ export const websiteMessages = {
       company: 'Company',
       intelligence: 'Intelligence',
       core: 'Core',
-      crew: 'Sundae Crew',
+      crew: 'Crew',
       crewAll: 'Explore all of Crew →',
       plans: 'Plans',
       viewPricing: 'View full pricing →',
@@ -282,10 +282,10 @@ export const websiteMessages = {
       mobileNavigation: 'Mobile navigation',
       pillars: [
         { name: 'Pulse', description: 'Intraday operations monitor', href: '/product/pulse' },
-        { name: 'Benchmarks', description: 'Competitive intelligence', href: '/benchmarking' },
+        { name: 'Benchmarks', description: 'Competitive intelligence', href: '/product/benchmarking' },
         { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
-        { name: 'Insights', description: 'Specialized analytics modules', href: '/insights' },
-        { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/intelligence' },
+        { name: 'Insights', description: 'Specialized analytics modules', href: '/product/insights' },
+        { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/product/intelligence' },
         { name: 'Foresight', description: 'Predictive intelligence & forecasting', href: '/product/foresight' },
       ],
       plansList: [
