@@ -2,6 +2,8 @@
 
 import { useRef, useState, type ReactNode } from 'react';
 import { PhoneFrame } from './PhoneFrame';
+import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { coreMobileShowcaseLocales } from '@/lib/coreMobileShowcaseLocales';
 
 /**
  * One full-length phone the visitor can swipe/scroll through multiple screens —
@@ -12,7 +14,7 @@ import { PhoneFrame } from './PhoneFrame';
  */
 export function PhoneCarousel({
   screens,
-  hint = 'Swipe for more',
+  hint,
   time = '3:00',
   screenBg = '#020617',
   className = '',
@@ -26,6 +28,13 @@ export function PhoneCarousel({
   const ref = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
   const multi = screens.length > 1;
+  // Localized default for the "swipe for more" hint (overridable via the prop),
+  // so every carousel — Crew + Core — matches the page language.
+  const { locale } = useWebsiteI18n();
+  const resolvedHint =
+    hint ??
+    coreMobileShowcaseLocales[locale as keyof typeof coreMobileShowcaseLocales]?.swipeHint ??
+    'Swipe for more';
 
   const onScroll = () => {
     const el = ref.current;
@@ -82,7 +91,7 @@ export function PhoneCarousel({
               />
             ))}
           </div>
-          <span className="text-xs font-medium text-[var(--text-muted)]">{hint} →</span>
+          <span className="text-xs font-medium text-[var(--text-muted)]">{resolvedHint} →</span>
         </div>
       )}
     </div>
