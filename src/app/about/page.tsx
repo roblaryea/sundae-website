@@ -51,13 +51,11 @@ const aboutCopy = {
     pillarsSubtitle: ["Real-Time Operations", "Competitive Intelligence", "Market Intelligence", "12 Analytics Modules", "Conversational AI", "Predictive Intelligence"],
     leadership: [
       { name: "Robert Laryea", role: "Founder & CEO", location: "Dubai", image: "/team/robert-laryea.jpg", bullets: ["Scaled multi-unit restaurant concepts from zero to $10M+ annual revenue", "Saw first-hand how fragmented data costs operators millions in margin leakage", "20+ years leading transformation programs across consulting and F&B", "Built Sundae to give restaurant groups the operating intelligence he wished they had earlier"] },
-      { name: "Daanish Siddiqui", role: "Chief Growth Officer", location: "Dubai", image: "/team/daanish-siddiqui.jpg", bullets: ["5x founder with 2 successful exits and experience building businesses past $100M", "Specialist in 0→1 category creation and product-led growth", "18+ years in product, marketing, and go-to-market execution", "Leads Sundae's market position across restaurant intelligence and growth"] },
-      { name: "Alissa Parabani", role: "Head of Product", location: "Toronto", image: "/team/alissa-parabani.jpg", bullets: ["Former Walmart Canada systems engineer - built at enterprise scale", "3 product lines launched, all profitable within 18 months", "Translates operator needs into measurable product ROI", "Ensures every module solves a real problem operators face on shift"] },
-      { name: "Naveed Nadir", role: "Head of Technology", location: "Toronto", image: "/team/naveed-nadir.jpg", bullets: ["Built enterprise SaaS platforms handling 10M+ daily transactions", "Seasoned engineer across automotive and enterprise SaaS at global scale", "Expert in secure, compliant systems architecture", "Owns Sundae's infrastructure reliability and real-time data pipeline"] },
+      { name: "Mark Curfs", role: "Strategic Operating Partner", location: "GCC & Europe", image: "", bullets: ["Senior operator depth and F&B commercial relationships at the table from day one", "Interim C-level and board-adjacent counsel to multi-unit hospitality operators across the GCC and Europe", "Opens enterprise doors and pressure-tests Pulse, Insights and Foresight against what F&B leadership actually needs", "Principal of Curfs Consult, partnering with founders on go-to-market, fundraise and scale"] },
     ],
     milestones: [
       { year: "2025", title: "Sundae Founded", description: "Built from direct operator pain - fragmented data costing multi-unit groups millions in invisible margin loss." },
-      { year: "2025", title: "First Deployments", description: "Partnered with multi-brand restaurant groups across UAE and Canada. Real data, real operators, real decisions from day one." },
+      { year: "2025", title: "First Deployments", description: "Partnered with multi-brand restaurant groups across the UAE. Real data, real operators, real decisions from day one." },
       { year: "2026", title: "12 Modules Live", description: "Revenue, labor, inventory, delivery, reservations, purchasing, marketing, and profit intelligence - all unified across 12 operational domains." },
       { year: "2026", title: "GCC & North America", description: "Enterprise hospitality groups adopting Sundae platform-wide across UAE, KSA, Qatar, and North America." },
       { year: "2027+", title: "Global Expansion", description: "Scaling into Europe and Asia Pacific. Enterprise intelligence for multi-country restaurant brands." },
@@ -72,12 +70,13 @@ const aboutCopy = {
       active: "Active markets",
       expanding: "Expansion markets",
     },
-    presenceFootnote: "Active markets include physical operations (Amsterdam, Dubai) and legal & commercial footprint (United States, Canada). Expansion markets are strategic priorities on the roadmap; engagement begins from existing hubs.",
+    presenceFootnote: "Active markets include physical operations (Amsterdam, Dubai) and the company's legal home (United States · Delaware C-Corp). North America (New York, Toronto) and other expansion markets are strategic priorities on the roadmap; engagement begins from existing hubs.",
     regions: [
       { region: "Amsterdam",     countries: "Europe hub",      label: "Active",      tier: "active" },
       { region: "Dubai",         countries: "MEA hub",         label: "Active",      tier: "active" },
       { region: "United States", countries: "Delaware C-Corp", label: "Active",      tier: "active" },
-      { region: "Canada",        countries: "Operating base",  label: "Active",      tier: "active" },
+      { region: "New York",      countries: "North America",   label: "Coming soon", tier: "expanding" },
+      { region: "Toronto",       countries: "North America",   label: "Coming soon", tier: "expanding" },
       { region: "Singapore",     countries: "APAC",            label: "Coming soon", tier: "expanding" },
       { region: "Tokyo",         countries: "APAC",            label: "Coming soon", tier: "expanding" },
       { region: "Mexico City",   countries: "LATAM",           label: "Coming soon", tier: "expanding" },
@@ -123,13 +122,11 @@ const aboutCopy = {
     pillarsSubtitle: ["عمليات لحظية", "ذكاء تنافسي", "ذكاء سوقي", "12 وحدة تحليل", "ذكاء محادثي", "ذكاء تنبؤي"],
     leadership: [
       { name: "Robert Laryea", role: "المؤسس والرئيس التنفيذي", location: "دبي", image: "/team/robert-laryea.jpg", bullets: ["وسّع مفاهيم مطاعم متعددة الفروع من الصفر إلى أكثر من 10 ملايين دولار سنويًا", "رأى كيف تكلف البيانات المجزأة المشغلين ملايين في خسائر هامشية غير مرئية", "أكثر من 20 سنة في برامج التحول العالمية عبر الاستشارات والمأكولات والمشروبات", "بنى Sundae ليمنح مجموعات المطاعم نظام قرار موحدًا كان ينقصها في التشغيل اليومي"] },
-      { name: "Daanish Siddiqui", role: "الرئيس التنفيذي للنمو", location: "دبي", image: "/team/daanish-siddiqui.jpg", bullets: ["مؤسس 5 مرات مع خروجين ناجحين - حوّل الأفكار إلى أعمال تتجاوز 100 مليون دولار", "متخصص في بناء الفئات من الصفر والنمو بقيادة المنتج", "18+ سنة في المنتج والتسويق والتنفيذ السوقي", "يقود تموضع Sundae كمنصة مميزة لذكاء المطاعم"] },
-      { name: "Alissa Parabani", role: "رئيسة المنتج", location: "تورونتو", image: "/team/alissa-parabani.jpg", bullets: ["مهندسة نظم سابقة في Walmart Canada - خبرة على مستوى المؤسسات", "إطلاق 3 خطوط منتجات جميعها ربحت خلال 18 شهرًا", "تحوّل احتياجات المشغلين إلى عائد منتج قابل للقياس", "تضمن أن كل وحدة تحل مشكلة حقيقية يواجهها المشغل خلال الوردية"] },
-      { name: "Naveed Nadir", role: "رئيس التكنولوجيا", location: "تورونتو", image: "/team/naveed-nadir.jpg", bullets: ["بنى منصات SaaS مؤسسية تتعامل مع أكثر من 10 ملايين معاملة يوميًا", "مهندس متمرس عبر السيارات وSaaS المؤسسي على نطاق عالمي", "خبير في معمارية آمنة ومتوافقة", "يدير اعتمادية البنية التحتية وخطوط البيانات اللحظية لـ Sundae"] },
+      { name: "Mark Curfs", role: "شريك تشغيلي استراتيجي", location: "GCC وأوروبا", image: "", bullets: ["عمق خبرة تشغيلية رفيعة وعلاقات تجارية في قطاع الأطعمة والمشروبات حاضرة منذ اليوم الأول", "مشورة بمستوى تنفيذي مؤقت وقريبة من مجالس الإدارة لمشغّلي الضيافة متعددي الفروع عبر الخليج وأوروبا", "يفتح أبواب المؤسسات الكبرى ويختبر Pulse وInsights وForesight مقابل ما تحتاجه قيادة الأطعمة والمشروبات فعليًا", "مؤسس Curfs Consult، يعمل مع المؤسسين على دخول السوق وجمع التمويل والتوسع"] },
     ],
     milestones: [
       { year: "2025", title: "تأسيس Sundae", description: "ولدت من ألم مباشر للمشغلين - بيانات مجزأة تكلف المجموعات متعددة الفروع ملايين في خسائر هامشية خفية." },
-      { year: "2025", title: "أول عمليات النشر", description: "شراكات مع مجموعات مطاعم متعددة العلامات في الإمارات وكندا. بيانات حقيقية ومشغلون حقيقيون وقرارات حقيقية منذ اليوم الأول." },
+      { year: "2025", title: "أول عمليات النشر", description: "شراكات مع مجموعات مطاعم متعددة العلامات في الإمارات. بيانات حقيقية ومشغلون حقيقيون وقرارات حقيقية منذ اليوم الأول." },
       { year: "2026", title: "أكثر من 30 وحدة نشطة", description: "ذكاء الإيرادات والعمالة والمخزون والتوصيل والحجوزات والمشتريات والتسويق والربح - كلها موحدة عبر 12 مجالًا تشغيليًا." },
       { year: "2026", title: "الخليج وأمريكا الشمالية", description: "مجموعات ضيافة مؤسسية تعتمد Sundae على مستوى المنصة في الإمارات والسعودية وقطر وأمريكا الشمالية." },
       { year: "2027+", title: "توسع عالمي", description: "التمدد إلى أوروبا وآسيا والمحيط الهادئ. ذكاء مؤسسي لعلامات المطاعم متعددة الدول." },
@@ -140,11 +137,21 @@ const aboutCopy = {
       { title: "قرارات لحظية", description: "التقارير الأسبوعية تكلفك مالًا. الفائزون هم من يرون المشاكل قبل أن يصبح إصلاحها مكلفًا.", proof: "Pulse يتحدث كل 5 دقائق عبر كل موقع.", icon: "speed" },
       { title: "رفع المستوى", description: "نضع معيارًا جديدًا لكيف تتخذ مجموعات المطاعم قراراتها التشغيلية حول العالم.", proof: "نشطون في 3 دول مع اعتماد مؤسسي على مستوى المنصة.", icon: "growth" },
     ],
+    presenceSubheadings: {
+      active: "الأسواق النشطة",
+      expanding: "أسواق التوسّع",
+    },
+    presenceFootnote: "تشمل الأسواق النشطة عمليات فعلية على الأرض (أمستردام، دبي) والموطن القانوني للشركة (الولايات المتحدة · شركة ديلاوير). تمثّل أمريكا الشمالية (نيويورك، تورونتو) وأسواق التوسّع الأخرى أولويات استراتيجية على خارطة الطريق؛ ويبدأ التواصل انطلاقًا من المراكز القائمة.",
     regions: [
-      { region: "الشرق الأوسط", countries: "الإمارات، السعودية، قطر", label: "نشط" },
-      { region: "أمريكا الشمالية", countries: "الولايات المتحدة، كندا", label: "نشط" },
-      { region: "أوروبا", countries: "المملكة المتحدة، ألمانيا، فرنسا", label: "هدف" },
-      { region: "آسيا والمحيط الهادئ", countries: "أستراليا، سنغافورة", label: "هدف" },
+      { region: "أمستردام",         countries: "مركز أوروبا",          label: "نشط",   tier: "active" },
+      { region: "دبي",              countries: "مركز الشرق الأوسط وأفريقيا", label: "نشط",   tier: "active" },
+      { region: "الولايات المتحدة", countries: "شركة ديلاوير",         label: "نشط",   tier: "active" },
+      { region: "نيويورك",          countries: "أمريكا الشمالية",      label: "قريبًا", tier: "expanding" },
+      { region: "تورونتو",          countries: "أمريكا الشمالية",      label: "قريبًا", tier: "expanding" },
+      { region: "سنغافورة",         countries: "آسيا والمحيط الهادئ",  label: "قريبًا", tier: "expanding" },
+      { region: "طوكيو",            countries: "آسيا والمحيط الهادئ",  label: "قريبًا", tier: "expanding" },
+      { region: "مكسيكو سيتي",      countries: "أمريكا اللاتينية",     label: "قريبًا", tier: "expanding" },
+      { region: "ساو باولو",        countries: "أمريكا اللاتينية",     label: "قريبًا", tier: "expanding" },
     ],
   },
   fr: {
@@ -186,13 +193,11 @@ const aboutCopy = {
     pillarsSubtitle: ["Opérations temps réel", "Intelligence concurrentielle", "Intelligence marché", "12 modules analytiques", "IA conversationnelle", "Intelligence prédictive"],
     leadership: [
       { name: "Robert Laryea", role: "Fondateur & CEO", location: "Dubaï", image: "/team/robert-laryea.jpg", bullets: ["A développé des concepts restaurant multi-sites de zéro à plus de 10 M$ de revenus annuels", "A constaté combien les données fragmentées coûtent aux opérateurs en marge invisible", "20+ ans à diriger des programmes de transformation mondiaux en conseil et F&B", "A créé Sundae pour donner aux groupes restaurant un système de décision unifié qui manquait dans l'exploitation quotidienne"] },
-      { name: "Daanish Siddiqui", role: "Chief Growth Officer", location: "Dubaï", image: "/team/daanish-siddiqui.jpg", bullets: ["Fondateur 5 fois avec 2 sorties réussies - a transformé des idées en entreprises à 100 M$+", "Spécialiste de la création de catégories et du product-led growth", "18+ ans en produit, marketing et go-to-market", "Pilote le positionnement de Sundae auprès des groupes qui veulent structurer leurs décisions à grande échelle"] },
-      { name: "Alissa Parabani", role: "Head of Product", location: "Toronto", image: "/team/alissa-parabani.jpg", bullets: ["Ancienne ingénieure systèmes chez Walmart Canada - construite à l'échelle entreprise", "3 lignes de produits lancées, toutes rentables en 18 mois", "Transforme les besoins opérateurs en ROI produit mesurable", "S'assure que chaque module résout un vrai problème de shift"] },
-      { name: "Naveed Nadir", role: "Head of Technology", location: "Toronto", image: "/team/naveed-nadir.jpg", bullets: ["A construit des plateformes SaaS d'entreprise gérant plus de 10 M de transactions/jour", "Ingénieur expérimenté en automobile et SaaS enterprise", "Expert en architecture sécurisée et conforme", "Responsable de la fiabilité d'infrastructure et des pipelines temps réel"] },
+      { name: "Mark Curfs", role: "Partenaire opérationnel stratégique", location: "GCC & Europe", image: "", bullets: ["Une expertise d'opérateur senior et des relations commerciales F&B autour de la table dès le premier jour", "Conseil de niveau C par intérim et proche des conseils d'administration pour les opérateurs d'hospitalité multi-sites à travers le GCC et l'Europe", "Ouvre les portes des grands comptes et met Pulse, Insights et Foresight à l'épreuve de ce dont les dirigeants F&B ont réellement besoin", "Dirigeant de Curfs Consult, accompagnant les fondateurs sur le go-to-market, la levée de fonds et la mise à l'échelle"] },
     ],
     milestones: [
       { year: "2025", title: "Fondation de Sundae", description: "Née d'une douleur opérateur directe - des données fragmentées coûtant des millions en marge invisible." },
-      { year: "2025", title: "Premiers déploiements", description: "Partenariats avec des groupes multi-marques aux Émirats et au Canada. Vraies données, vrais opérateurs, vraies décisions dès le premier jour." },
+      { year: "2025", title: "Premiers déploiements", description: "Partenariats avec des groupes multi-marques aux Émirats arabes unis. Vraies données, vrais opérateurs, vraies décisions dès le premier jour." },
       { year: "2026", title: "12 modules en ligne", description: "Intelligence revenus, main-d'oeuvre, stock, livraison, réservations, achats, marketing et profit - unifiée sur 12 domaines." },
       { year: "2026", title: "GCC et Amérique du Nord", description: "Des groupes hospitality adoptent Sundae à l'échelle plateforme aux Émirats, en KSA, au Qatar et en Amérique du Nord." },
       { year: "2027+", title: "Expansion mondiale", description: "Expansion vers l'Europe et l'Asie-Pacifique. Intelligence enterprise pour marques multi-pays." },
@@ -203,11 +208,21 @@ const aboutCopy = {
       { title: "Décisions temps réel", description: "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent voient les problèmes à temps pour les corriger.", proof: "Pulse se rafraîchit toutes les 5 minutes sur chaque site.", icon: "speed" },
       { title: "Relever le standard", description: "Nous définissons la référence de la décision opérationnelle pour les groupes restaurant du monde entier.", proof: "Actifs dans 3 pays avec des groupes enterprise qui adoptent la plateforme.", icon: "growth" },
     ],
+    presenceSubheadings: {
+      active: "Marchés actifs",
+      expanding: "Marchés en expansion",
+    },
+    presenceFootnote: "Les marchés actifs comprennent des opérations physiques (Amsterdam, Dubaï) et le siège légal de l'entreprise (États-Unis · Delaware C-Corp). L'Amérique du Nord (New York, Toronto) et les autres marchés en expansion sont des priorités stratégiques de la feuille de route ; l'engagement démarre depuis les hubs existants.",
     regions: [
-      { region: "Moyen-Orient", countries: "Émirats, KSA, Qatar", label: "Actif" },
-      { region: "Amérique du Nord", countries: "USA, Canada", label: "Actif" },
-      { region: "Europe", countries: "Royaume-Uni, Allemagne, France", label: "Cible" },
-      { region: "Asie-Pacifique", countries: "Australie, Singapour", label: "Cible" },
+      { region: "Amsterdam",      countries: "Hub Europe",     label: "Actif",              tier: "active" },
+      { region: "Dubaï",          countries: "Hub MEA",        label: "Actif",              tier: "active" },
+      { region: "États-Unis",     countries: "Delaware C-Corp", label: "Actif",             tier: "active" },
+      { region: "New York",       countries: "Amérique du Nord", label: "Bientôt disponible", tier: "expanding" },
+      { region: "Toronto",        countries: "Amérique du Nord", label: "Bientôt disponible", tier: "expanding" },
+      { region: "Singapour",      countries: "APAC",           label: "Bientôt disponible", tier: "expanding" },
+      { region: "Tokyo",          countries: "APAC",           label: "Bientôt disponible", tier: "expanding" },
+      { region: "Mexico",         countries: "LATAM",          label: "Bientôt disponible", tier: "expanding" },
+      { region: "São Paulo",      countries: "LATAM",          label: "Bientôt disponible", tier: "expanding" },
     ],
   },
   es: {
@@ -249,13 +264,11 @@ const aboutCopy = {
     pillarsSubtitle: ["Operaciones en tiempo real", "Inteligencia competitiva", "Inteligencia de mercado", "12 módulos analíticos", "IA conversacional", "Inteligencia predictiva"],
     leadership: [
       { name: "Robert Laryea", role: "Fundador y CEO", location: "Dubái", image: "/team/robert-laryea.jpg", bullets: ["Escaló conceptos de restaurantes multilocal desde cero hasta más de 10 M$ en ingresos anuales", "Vio cómo los datos fragmentados cuestan a los operadores millones en fuga de margen", "Más de 20 años liderando programas de transformación global en consultoría y F&B", "Creó Sundae para dar a los grupos de restaurantes un sistema de decisiones unificado que faltaba en la operación diaria"] },
-      { name: "Daanish Siddiqui", role: "Chief Growth Officer", location: "Dubái", image: "/team/daanish-siddiqui.jpg", bullets: ["Fundador 5 veces con 2 salidas exitosas - convirtió ideas en empresas de más de 100 M$", "Especialista en creación de categorías y crecimiento liderado por producto", "18+ años en producto, marketing y go-to-market", "Lidera el posicionamiento de Sundae para grupos que quieren ordenar sus decisiones a gran escala"] },
-      { name: "Alissa Parabani", role: "Head of Product", location: "Toronto", image: "/team/alissa-parabani.jpg", bullets: ["Ex ingeniera de sistemas en Walmart Canada - construyó a escala empresarial", "3 líneas de producto lanzadas, todas rentables en 18 meses", "Convierte necesidades operativas en ROI de producto medible", "Asegura que cada módulo resuelva un problema real del turno"] },
-      { name: "Naveed Nadir", role: "Head of Technology", location: "Toronto", image: "/team/naveed-nadir.jpg", bullets: ["Construyó plataformas SaaS empresariales con más de 10 M de transacciones al día", "Ingeniero experimentado en automoción y SaaS empresarial a escala global", "Experto en arquitectura segura y conforme", "Responsable de la fiabilidad de infraestructura y pipelines en tiempo real"] },
+      { name: "Mark Curfs", role: "Socio operativo estratégico", location: "GCC y Europa", image: "", bullets: ["Profundidad de operador sénior y relaciones comerciales de F&B en la mesa desde el primer día", "Asesoría interina de nivel C y cercana al consejo para operadores de hostelería multilocal en el GCC y Europa", "Abre puertas en grandes cuentas y pone a prueba Pulse, Insights y Foresight frente a lo que la dirección de F&B realmente necesita", "Director de Curfs Consult, acompañando a fundadores en go-to-market, captación de fondos y escalado"] },
     ],
     milestones: [
       { year: "2025", title: "Fundación de Sundae", description: "Nacida del dolor directo del operador - datos fragmentados costando millones en margen invisible." },
-      { year: "2025", title: "Primeros despliegues", description: "Alianzas con grupos multi-marca en EAU y Canadá. Datos reales, operadores reales, decisiones reales desde el primer día." },
+      { year: "2025", title: "Primeros despliegues", description: "Alianzas con grupos multi-marca en EAU. Datos reales, operadores reales, decisiones reales desde el primer día." },
       { year: "2026", title: "12 módulos en vivo", description: "Inteligencia de ingresos, personal, inventario, delivery, reservas, compras, marketing y beneficio - unificada en 12 dominios." },
       { year: "2026", title: "GCC y Norteamérica", description: "Grupos hospitality adoptan Sundae a nivel de plataforma en EAU, KSA, Qatar y Norteamérica." },
       { year: "2027+", title: "Expansión global", description: "Expansión a Europa y Asia Pacífico. Inteligencia empresarial para marcas multinacionales de restaurantes." },
@@ -266,11 +279,21 @@ const aboutCopy = {
       { title: "Decisiones en tiempo real", description: "Los informes semanales te cuestan dinero. Los operadores que ganan ven los problemas a tiempo para arreglarlos.", proof: "Pulse se refresca cada 5 minutos en todas las ubicaciones.", icon: "speed" },
       { title: "Subir el estándar", description: "Estamos definiendo cómo los grupos de restaurantes toman decisiones operativas en todo el mundo.", proof: "Activos en 3 países con grupos enterprise adoptando la plataforma completa.", icon: "growth" },
     ],
+    presenceSubheadings: {
+      active: "Mercados activos",
+      expanding: "Mercados en expansión",
+    },
+    presenceFootnote: "Los mercados activos incluyen operaciones físicas (Ámsterdam, Dubái) y la sede legal de la compañía (Estados Unidos · Delaware C-Corp). Norteamérica (Nueva York, Toronto) y otros mercados en expansión son prioridades estratégicas en la hoja de ruta; la actividad comienza desde los hubs existentes.",
     regions: [
-      { region: "Oriente Medio", countries: "EAU, KSA, Qatar", label: "Activo" },
-      { region: "Norteamérica", countries: "EE. UU., Canadá", label: "Activo" },
-      { region: "Europa", countries: "Reino Unido, Alemania, Francia", label: "Objetivo" },
-      { region: "Asia Pacífico", countries: "Australia, Singapur", label: "Objetivo" },
+      { region: "Ámsterdam",      countries: "Hub Europa",     label: "Activo",       tier: "active" },
+      { region: "Dubái",          countries: "Hub MEA",        label: "Activo",       tier: "active" },
+      { region: "Estados Unidos", countries: "Delaware C-Corp", label: "Activo",      tier: "active" },
+      { region: "Nueva York",     countries: "Norteamérica",   label: "Próximamente", tier: "expanding" },
+      { region: "Toronto",        countries: "Norteamérica",   label: "Próximamente", tier: "expanding" },
+      { region: "Singapur",       countries: "APAC",           label: "Próximamente", tier: "expanding" },
+      { region: "Tokio",          countries: "APAC",           label: "Próximamente", tier: "expanding" },
+      { region: "Ciudad de México", countries: "LATAM",        label: "Próximamente", tier: "expanding" },
+      { region: "São Paulo",      countries: "LATAM",          label: "Próximamente", tier: "expanding" },
     ],
   },
 } as const;
@@ -364,7 +387,7 @@ export default async function AboutPage() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-[var(--navy-deep)] rounded-2xl p-5 shadow-lg">
                   <div className="text-sm font-bold text-[#FF8473] mb-2 uppercase tracking-wide">Team</div>
-                  <div className="text-sm text-[var(--text-supporting)] font-medium">{locale === "ar" ? "دبي + تورونتو" : locale === "fr" ? "Dubaï + Toronto" : locale === "es" ? "Dubái + Toronto" : "Dubai + Toronto offices"}</div>
+                  <div className="text-sm text-[var(--text-supporting)] font-medium">{locale === "ar" ? "أمستردام + دبي" : locale === "fr" ? "Amsterdam + Dubaï" : locale === "es" ? "Ámsterdam + Dubái" : "Amsterdam + Dubai offices"}</div>
                 </div>
                 <div className="bg-[var(--navy-deep)] rounded-2xl p-5 shadow-lg">
                   <div className="text-sm font-bold text-[#FF8473] mb-2 uppercase tracking-wide">Scope</div>
@@ -384,12 +407,21 @@ export default async function AboutPage() {
               <p className="text-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.teamDescription}</p>
             </div>
           </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12 max-w-3xl mx-auto">
             {copy.leadership.map((member) => (
               <StaggerItem key={member.name}>
                 <div className="text-center hover:-translate-y-2 transition-transform duration-300">
                   <div className="relative w-32 h-32 mx-auto mb-6">
-                    <Image src={member.image} alt={member.name} width={128} height={128} loading="lazy" className="w-full h-full rounded-full object-cover border-4 border-white/[0.1]" />
+                    {member.image ? (
+                      <Image src={member.image} alt={member.name} width={128} height={128} loading="lazy" className="w-full h-full rounded-full object-cover border-4 border-white/[0.1]" />
+                    ) : (
+                      <div
+                        className="flex h-full w-full items-center justify-center rounded-full border-4 border-white/[0.1] bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] text-3xl font-bold text-white"
+                        aria-label={member.name}
+                      >
+                        {member.name.split(' ').map((w) => w[0]).slice(0, 2).join('')}
+                      </div>
+                    )}
                   </div>
                   <h3 className="font-bold text-[var(--text-primary)] text-xl mb-1">{member.name}</h3>
                   <p className="text-[var(--text-primary)] font-semibold text-sm mb-1">{member.role}</p>
@@ -421,7 +453,7 @@ export default async function AboutPage() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-12 h-12 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
-                    <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "وجود في دبي وتورونتو يخدم مجموعات مؤسسية عبر 3 دول" : locale === "fr" ? "Présence à Dubaï et Toronto au service de groupes enterprise dans 3 pays" : locale === "es" ? "Presencia en Dubái y Toronto al servicio de grupos enterprise en 3 países" : "Dubai + Toronto presence serving enterprise groups across 3 countries"}</p>
+                    <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "وجود في أمستردام ودبي يخدم مجموعات مؤسسية عبر 3 دول" : locale === "fr" ? "Présence à Amsterdam et Dubaï au service de groupes enterprise dans 3 pays" : locale === "es" ? "Presencia en Ámsterdam y Dubái al servicio de grupos enterprise en 3 países" : "Amsterdam + Dubai presence serving enterprise groups across 3 countries"}</p>
                   </div>
                 </div>
               </CardContent>

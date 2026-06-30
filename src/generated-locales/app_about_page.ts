@@ -87,39 +87,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategischer Operating Partner",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "5-facher Gründer mit 2 erfolgreichen Exits und Erfahrung im Aufbau von Unternehmen über 100 Millionen USD",
-            "Spezialist für die Schaffung von Kategorien von 0→1 und produktgetriebenem Wachstum",
-            "Über 18 Jahre Erfahrung in Produkt, Marketing und Markteinführung",
-            "Leitet die Marktposition von Sundae im Bereich Restaurantintelligenz und Wachstum"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Leiterin Produkt",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ehemalige Systems Engineer bei Walmart Kanada - entwickelte auf Unternehmensebene",
-            "3 Produktlinien gestartet, alle innerhalb von 18 Monaten profitabel",
-            "Übersetzt die Bedürfnisse der Betreiber in messbaren Produkt-ROI",
-            "Stellt sicher, dass jedes Modul ein echtes Problem löst, mit dem Betreiber während ihrer Schicht konfrontiert sind"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Leiter Technologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Entwickelte Unternehmens-SaaS-Plattformen, die über 10 Millionen Transaktionen täglich abwickeln",
-            "Erfahrener Ingenieur im Automobil- und Unternehmens-SaaS-Bereich auf globaler Ebene",
-            "Experte für sichere, konforme Systemarchitektur",
-            "Verantwortet die Zuverlässigkeit der Infrastruktur von Sundae und die Echtzeit-Datenpipeline"
+            "Tiefe Erfahrung als Senior-Operator und F&B-Geschäftsbeziehungen von Anfang an am Tisch",
+            "Interim-C-Level- und vorstandsnahe Beratung für Multi-Unit-Gastgewerbebetreiber in der GCC-Region und Europa",
+            "Öffnet Türen zu Großkunden und stellt Pulse, Insights und Foresight auf den Prüfstand gegen das, was die F&B-Führung wirklich braucht",
+            "Geschäftsführer von Curfs Consult, der Gründer bei Go-to-Market, Fundraising und Skalierung begleitet"
           ]
         }
       ],
@@ -132,7 +108,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Erste Implementierungen",
-          "description": "Partnerschaften mit Multi-Brand-Restaurantgruppen in den VAE und Kanada. Echte Daten, echte Betreiber, echte Entscheidungen von Anfang an."
+          "description": "Partnerschaften mit Multi-Brand-Restaurantgruppen in den VAE. Echte Daten, echte Betreiber, echte Entscheidungen von Anfang an."
         },
         {
           "year": "2026",
@@ -176,26 +152,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Aktive Märkte",
+        "expanding": "Expansionsmärkte"
+      },
+      "presenceFootnote": "Zu den aktiven Märkten zählen physische Standorte (Amsterdam, Dubai) und der rechtliche Sitz des Unternehmens (USA · Delaware C-Corp). Nordamerika (New York, Toronto) und weitere Expansionsmärkte sind strategische Prioritäten auf der Roadmap; die Zusammenarbeit beginnt von den bestehenden Hubs aus.",
       "regions": [
         {
-          "region": "Naher Osten",
-          "countries": "VAE, KSA, Katar",
-          "label": "Aktiv"
+          "region": "Amsterdam",
+          "countries": "Europa-Hub",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Nordamerika",
-          "countries": "USA, Kanada",
-          "label": "Aktiv"
+          "region": "Dubai",
+          "countries": "MEA-Hub",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Vereinigtes Königreich, Deutschland, Frankreich",
-          "label": "Ziel"
+          "region": "USA",
+          "countries": "Delaware C-Corp",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Asien-Pazifik",
-          "countries": "Australien, Singapur",
-          "label": "Ziel"
+          "region": "New York",
+          "countries": "Nordamerika",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Nordamerika",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapur",
+          "countries": "APAC",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokio",
+          "countries": "APAC",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexiko-Stadt",
+          "countries": "LATAM",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Demnächst",
+          "tier": "expanding"
         }
       ],
       "title": "Die Intelligenzebene, die Restaurants nie hatten"
@@ -285,39 +300,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Directeur de la Croissance",
-          "location": "Dubaï",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Partenaire opérationnel stratégique",
+          "location": "GCC & Europe",
+          "image": "",
           "bullets": [
-            "5 fois fondateur avec 2 sorties réussies et expérience dans la construction d'entreprises dépassant 100M$",
-            "Spécialiste de la création de catégories 0→1 et de la croissance axée sur le produit",
-            "Plus de 18 ans dans le produit, le marketing et l'exécution sur le marché",
-            "Dirige la position de marché de Sundae dans l'intelligence et la croissance des restaurants"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Responsable Produit",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ancienne ingénieure systèmes chez Walmart Canada - a construit à l'échelle des entreprises",
-            "3 lignes de produits lancées, toutes rentables en 18 mois",
-            "Traduit les besoins des opérateurs en ROI produit mesurable",
-            "S'assure que chaque module résout un véritable problème auquel les opérateurs sont confrontés lors de leur service"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Responsable Technologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "A construit des plateformes SaaS d'entreprise gérant plus de 10M de transactions quotidiennes",
-            "Ingénieur chevronné dans l'automobile et le SaaS d'entreprise à l'échelle mondiale",
-            "Expert en architecture de systèmes sécurisés et conformes",
-            "Responsable de la fiabilité de l'infrastructure de Sundae et du pipeline de données en temps réel"
+            "Une expertise d'opérateur senior et des relations commerciales F&B autour de la table dès le premier jour",
+            "Conseil de niveau C par intérim et proche des conseils d'administration pour les opérateurs d'hospitalité multi-sites à travers le GCC et l'Europe",
+            "Ouvre les portes des grands comptes et met Pulse, Insights et Foresight à l'épreuve de ce dont les dirigeants F&B ont réellement besoin",
+            "Dirigeant de Curfs Consult, accompagnant les fondateurs sur le go-to-market, la levée de fonds et la mise à l'échelle"
           ]
         }
       ],
@@ -330,7 +321,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Premiers Déploiements",
-          "description": "Partenariat avec des groupes de restaurants multi-marques aux Émirats Arabes Unis et au Canada. Données réelles, opérateurs réels, décisions réelles dès le premier jour."
+          "description": "Partenariat avec des groupes de restaurants multi-marques aux Émirats Arabes Unis. Données réelles, opérateurs réels, décisions réelles dès le premier jour."
         },
         {
           "year": "2026",
@@ -374,26 +365,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Marchés actifs",
+        "expanding": "Marchés en expansion"
+      },
+      "presenceFootnote": "Les marchés actifs comprennent des opérations physiques (Amsterdam, Dubaï) et le siège légal de l'entreprise (États-Unis · Delaware C-Corp). L'Amérique du Nord (New York, Toronto) et les autres marchés en expansion sont des priorités stratégiques de la feuille de route ; l'engagement démarre depuis les hubs existants.",
       "regions": [
         {
-          "region": "Moyen-Orient",
-          "countries": "Émirats Arabes Unis, Arabie Saoudite, Qatar",
-          "label": "Actif"
+          "region": "Amsterdam",
+          "countries": "Hub Europe",
+          "label": "Actif",
+          "tier": "active"
         },
         {
-          "region": "Amérique du Nord",
-          "countries": "États-Unis, Canada",
-          "label": "Actif"
+          "region": "Dubaï",
+          "countries": "Hub MEA",
+          "label": "Actif",
+          "tier": "active"
         },
         {
-          "region": "Europe",
-          "countries": "Royaume-Uni, Allemagne, France",
-          "label": "Cible"
+          "region": "États-Unis",
+          "countries": "Delaware C-Corp",
+          "label": "Actif",
+          "tier": "active"
         },
         {
-          "region": "Asie-Pacifique",
-          "countries": "Australie, Singapour",
-          "label": "Cible"
+          "region": "New York",
+          "countries": "Amérique du Nord",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Amérique du Nord",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapour",
+          "countries": "APAC",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico",
+          "countries": "LATAM",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
         }
       ]
     },
@@ -482,39 +512,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Director de Crecimiento",
-          "location": "Dubái",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Socio operativo estratégico",
+          "location": "GCC y Europa",
+          "image": "",
           "bullets": [
-            "Fundador 5 veces con 2 salidas exitosas y experiencia en construir negocios más allá de $100M",
-            "Especialista en creación de categorías 0→1 y crecimiento impulsado por productos",
-            "Más de 18 años en producto, marketing y ejecución de entrada al mercado",
-            "Lidera la posición de mercado de Sundae en inteligencia y crecimiento de restaurantes"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Jefa de Producto",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Antigua ingeniera de sistemas de Walmart Canadá - construyó a escala empresarial",
-            "3 líneas de productos lanzadas, todas rentables en 18 meses",
-            "Traduce las necesidades de los operadores en ROI medible del producto",
-            "Asegura que cada módulo resuelva un problema real que enfrentan los operadores durante el turno"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Jefe de Tecnología",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Construyó plataformas SaaS empresariales que manejan más de 10M de transacciones diarias",
-            "Ingeniero experimentado en automoción y SaaS empresarial a escala global",
-            "Experto en arquitectura de sistemas seguros y conformes",
-            "Es responsable de la fiabilidad de la infraestructura de Sundae y del pipeline de datos en tiempo real"
+            "Profundidad de operador sénior y relaciones comerciales de F&B en la mesa desde el primer día",
+            "Asesoría interina de nivel C y cercana al consejo para operadores de hostelería multilocal en el GCC y Europa",
+            "Abre puertas en grandes cuentas y pone a prueba Pulse, Insights y Foresight frente a lo que la dirección de F&B realmente necesita",
+            "Director de Curfs Consult, acompañando a fundadores en go-to-market, captación de fondos y escalado"
           ]
         }
       ],
@@ -527,7 +533,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Primeras Implementaciones",
-          "description": "Asociados con grupos de restaurantes de múltiples marcas en los EAU y Canadá. Datos reales, operadores reales, decisiones reales desde el primer día."
+          "description": "Asociados con grupos de restaurantes de múltiples marcas en los EAU. Datos reales, operadores reales, decisiones reales desde el primer día."
         },
         {
           "year": "2026",
@@ -571,26 +577,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Mercados activos",
+        "expanding": "Mercados en expansión"
+      },
+      "presenceFootnote": "Los mercados activos incluyen operaciones físicas (Ámsterdam, Dubái) y la sede legal de la compañía (Estados Unidos · Delaware C-Corp). Norteamérica (Nueva York, Toronto) y otros mercados en expansión son prioridades estratégicas en la hoja de ruta; la actividad comienza desde los hubs existentes.",
       "regions": [
         {
-          "region": "Medio Oriente",
-          "countries": "EAU, KSA, Qatar",
-          "label": "Activo"
+          "region": "Ámsterdam",
+          "countries": "Hub Europa",
+          "label": "Activo",
+          "tier": "active"
         },
         {
-          "region": "América del Norte",
-          "countries": "EE. UU., Canadá",
-          "label": "Activo"
+          "region": "Dubái",
+          "countries": "Hub MEA",
+          "label": "Activo",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Reino Unido, Alemania, Francia",
-          "label": "Objetivo"
+          "region": "Estados Unidos",
+          "countries": "Delaware C-Corp",
+          "label": "Activo",
+          "tier": "active"
         },
         {
-          "region": "Asia-Pacífico",
-          "countries": "Australia, Singapur",
-          "label": "Objetivo"
+          "region": "Nueva York",
+          "countries": "Norteamérica",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Norteamérica",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapur",
+          "countries": "APAC",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokio",
+          "countries": "APAC",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Ciudad de México",
+          "countries": "LATAM",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Próximamente",
+          "tier": "expanding"
         }
       ]
     },
@@ -679,39 +724,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "دانيش صديقي",
-          "role": "رئيس قسم النمو",
-          "location": "دبي",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "شريك تشغيلي استراتيجي",
+          "location": "GCC وأوروبا",
+          "image": "",
           "bullets": [
-            "مؤسس 5 مرات مع 2 خروج ناجح وخبرة في بناء الأعمال التي تتجاوز 100 مليون دولار",
-            "متخصص في إنشاء الفئات من 0 إلى 1 والنمو المدفوع بالمنتج",
-            "أكثر من 18 عامًا في المنتج والتسويق وتنفيذ الذهاب إلى السوق",
-            "يقود موقع Sundae في سوق ذكاء المطاعم والنمو"
-          ]
-        },
-        {
-          "name": "أليسا باراباني",
-          "role": "رئيسة المنتج",
-          "location": "تورونتو",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "مهندسة أنظمة سابقة في وول مارت كندا - بنت على نطاق المؤسسات",
-            "تم إطلاق 3 خطوط منتجات، جميعها مربحة في غضون 18 شهرًا",
-            "تحول احتياجات المشغلين إلى عائد استثمار قابل للقياس للمنتج",
-            "تضمن أن كل وحدة تحل مشكلة حقيقية يواجهها المشغلون أثناء العمل"
-          ]
-        },
-        {
-          "name": "نويد نادر",
-          "role": "رئيس قسم التكنولوجيا",
-          "location": "تورونتو",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "بنى منصات SaaS مؤسسية تتعامل مع أكثر من 10 ملايين معاملة يوميًا",
-            "مهندس ذو خبرة في السيارات وSaaS المؤسسية على نطاق عالمي",
-            "خبير في بنية الأنظمة الآمنة والمتوافقة",
-            "يتولى موثوقية بنية Sundae التحتية وخط بيانات الوقت الحقيقي"
+            "عمق خبرة تشغيلية رفيعة وعلاقات تجارية في قطاع الأطعمة والمشروبات حاضرة منذ اليوم الأول",
+            "مشورة بمستوى تنفيذي مؤقت وقريبة من مجالس الإدارة لمشغّلي الضيافة متعددي الفروع عبر الخليج وأوروبا",
+            "يفتح أبواب المؤسسات الكبرى ويختبر Pulse وInsights وForesight مقابل ما تحتاجه قيادة الأطعمة والمشروبات فعليًا",
+            "مؤسس Curfs Consult، يعمل مع المؤسسين على دخول السوق وجمع التمويل والتوسع"
           ]
         }
       ],
@@ -724,7 +745,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "أول عمليات نشر",
-          "description": "شراكة مع مجموعات مطاعم متعددة العلامات التجارية عبر الإمارات وكندا. بيانات حقيقية، مشغلون حقيقيون، قرارات حقيقية من اليوم الأول."
+          "description": "شراكة مع مجموعات مطاعم متعددة العلامات التجارية عبر الإمارات. بيانات حقيقية، مشغلون حقيقيون، قرارات حقيقية من اليوم الأول."
         },
         {
           "year": "2026",
@@ -768,26 +789,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "الأسواق النشطة",
+        "expanding": "أسواق التوسّع"
+      },
+      "presenceFootnote": "تشمل الأسواق النشطة عمليات فعلية على الأرض (أمستردام، دبي) والموطن القانوني للشركة (الولايات المتحدة · شركة ديلاوير). تمثّل أمريكا الشمالية (نيويورك، تورونتو) وأسواق التوسّع الأخرى أولويات استراتيجية على خارطة الطريق؛ ويبدأ التواصل انطلاقًا من المراكز القائمة.",
       "regions": [
         {
-          "region": "الشرق الأوسط",
-          "countries": "الإمارات العربية المتحدة، المملكة العربية السعودية، قطر",
-          "label": "نشط"
+          "region": "أمستردام",
+          "countries": "مركز أوروبا",
+          "label": "نشط",
+          "tier": "active"
         },
         {
-          "region": "أمريكا الشمالية",
-          "countries": "الولايات المتحدة الأمريكية، كندا",
-          "label": "نشط"
+          "region": "دبي",
+          "countries": "مركز الشرق الأوسط وأفريقيا",
+          "label": "نشط",
+          "tier": "active"
         },
         {
-          "region": "أوروبا",
-          "countries": "المملكة المتحدة، ألمانيا، فرنسا",
-          "label": "مستهدف"
+          "region": "الولايات المتحدة",
+          "countries": "شركة ديلاوير",
+          "label": "نشط",
+          "tier": "active"
         },
         {
-          "region": "آسيا والمحيط الهادئ",
-          "countries": "أستراليا، سنغافورة",
-          "label": "مستهدف"
+          "region": "نيويورك",
+          "countries": "أمريكا الشمالية",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "تورونتو",
+          "countries": "أمريكا الشمالية",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "سنغافورة",
+          "countries": "آسيا والمحيط الهادئ",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "طوكيو",
+          "countries": "آسيا والمحيط الهادئ",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "مكسيكو سيتي",
+          "countries": "أمريكا اللاتينية",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "ساو باولو",
+          "countries": "أمريكا اللاتينية",
+          "label": "قريبًا",
+          "tier": "expanding"
         }
       ]
     },
@@ -876,39 +936,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategisch Operating Partner",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "5x oprichter met 2 succesvolle exits en ervaring in het bouwen van bedrijven boven de $100M",
-            "Specialist in 0→1 categoriecreatie en productgedreven groei",
-            "Meer dan 18 jaar ervaring in product, marketing en go-to-market uitvoering",
-            "Leidt Sundae's marktpositie op het gebied van restaurantintelligentie en groei"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Hoofd Product",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Voormalig systems engineer bij Walmart Canada - gebouwd op ondernemingsniveau",
-            "3 productlijnen gelanceerd, allemaal winstgevend binnen 18 maanden",
-            "Vertaalde operatorbehoeften naar meetbare product ROI",
-            "Zorgt ervoor dat elke module een echt probleem oplost dat operators tijdens hun dienst tegenkomen"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Hoofd Technologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Bouwde enterprise SaaS-platforms die meer dan 10M dagelijkse transacties verwerken",
-            "Ervaren engineer in de automotive en enterprise SaaS op wereldwijde schaal",
-            "Expert in veilige, conforme systeemarchitectuur",
-            "Verantwoordelijk voor de betrouwbaarheid van Sundae's infrastructuur en real-time datastromen"
+            "Diepgaande ervaring als senior operator en F&B-commerciële relaties vanaf dag één aan tafel",
+            "Interim C-level- en bestuursnabij advies voor multi-unit hospitalityoperators in de GCC en Europa",
+            "Opent deuren bij grote ondernemingen en toetst Pulse, Insights en Foresight aan wat F&B-leiderschap echt nodig heeft",
+            "Eigenaar van Curfs Consult, die oprichters begeleidt bij go-to-market, fondsenwerving en opschaling"
           ]
         }
       ],
@@ -921,7 +957,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Eerste Implementaties",
-          "description": "Partnerschappen met multi-merk restaurantgroepen in de VAE en Canada. Echte data, echte operators, echte beslissingen vanaf dag één."
+          "description": "Partnerschappen met multi-merk restaurantgroepen in de VAE. Echte data, echte operators, echte beslissingen vanaf dag één."
         },
         {
           "year": "2026",
@@ -965,26 +1001,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Actieve markten",
+        "expanding": "Expansiemarkten"
+      },
+      "presenceFootnote": "Actieve markten omvatten fysieke vestigingen (Amsterdam, Dubai) en de juridische thuisbasis van het bedrijf (Verenigde Staten · Delaware C-Corp). Noord-Amerika (New York, Toronto) en andere expansiemarkten zijn strategische prioriteiten op de roadmap; de samenwerking begint vanuit de bestaande hubs.",
       "regions": [
         {
-          "region": "Midden-Oosten",
-          "countries": "VAE, KSA, Qatar",
-          "label": "Actief"
+          "region": "Amsterdam",
+          "countries": "Europa-hub",
+          "label": "Actief",
+          "tier": "active"
         },
         {
-          "region": "Noord-Amerika",
-          "countries": "VS, Canada",
-          "label": "Actief"
+          "region": "Dubai",
+          "countries": "MEA-hub",
+          "label": "Actief",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "VK, Duitsland, Frankrijk",
-          "label": "Doel"
+          "region": "Verenigde Staten",
+          "countries": "Delaware C-Corp",
+          "label": "Actief",
+          "tier": "active"
         },
         {
-          "region": "Azië-Pacific",
-          "countries": "Australië, Singapore",
-          "label": "Doel"
+          "region": "New York",
+          "countries": "Noord-Amerika",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Noord-Amerika",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokio",
+          "countries": "APAC",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico-Stad",
+          "countries": "LATAM",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Binnenkort",
+          "tier": "expanding"
         }
       ],
       "title": "De intelligentielaag die restaurants nooit hadden"
@@ -1074,39 +1149,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Diretor de Crescimento",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Sócio Operacional Estratégico",
+          "location": "GCC e Europa",
+          "image": "",
           "bullets": [
-            "5x fundador com 2 saídas bem-sucedidas e experiência em construir negócios acima de $100M",
-            "Especialista em criação de categorias 0→1 e crescimento orientado por produto",
-            "Mais de 18 anos em produto, marketing e execução de go-to-market",
-            "Lidera a posição de mercado da Sundae em inteligência de restaurantes e crescimento"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Chefe de Produto",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ex-engenheira de sistemas do Walmart Canadá - construiu em escala empresarial",
-            "3 linhas de produtos lançadas, todas lucrativas em 18 meses",
-            "Traduz as necessidades dos operadores em ROI de produto mensurável",
-            "Garante que cada módulo resolva um problema real que os operadores enfrentam durante o turno"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Chefe de Tecnologia",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Construiu plataformas SaaS empresariais lidando com mais de 10M de transações diárias",
-            "Engenheiro experiente em automotivo e SaaS empresarial em escala global",
-            "Especialista em arquitetura de sistemas seguros e em conformidade",
-            "Responsável pela confiabilidade da infraestrutura da Sundae e pelo pipeline de dados em tempo real"
+            "Profundidade de operador sênior e relacionamentos comerciais de F&B à mesa desde o primeiro dia",
+            "Aconselhamento interino de nível C e próximo do conselho para operadores de hospitalidade multiunidade no GCC e na Europa",
+            "Abre portas empresariais e testa sob pressão o Pulse, o Insights e o Foresight em relação ao que a liderança de F&B realmente precisa",
+            "Diretor da Curfs Consult, atuando com fundadores em go-to-market, captação de recursos e escala"
           ]
         }
       ],
@@ -1119,7 +1170,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Primeiros Lançamentos",
-          "description": "Parceria com grupos de restaurantes de múltiplas marcas nos Emirados Árabes Unidos e no Canadá. Dados reais, operadores reais, decisões reais desde o primeiro dia."
+          "description": "Parceria com grupos de restaurantes de múltiplas marcas nos Emirados Árabes Unidos. Dados reais, operadores reais, decisões reais desde o primeiro dia."
         },
         {
           "year": "2026",
@@ -1163,27 +1214,21 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Mercados ativos",
+        "expanding": "Mercados de expansão"
+      },
+      "presenceFootnote": "Os mercados ativos incluem operações físicas (Amsterdã, Dubai) e a sede legal da empresa (Estados Unidos · Delaware C-Corp). A América do Norte (Nova York, Toronto) e outros mercados de expansão são prioridades estratégicas no roteiro; o engajamento começa a partir dos hubs existentes.",
       "regions": [
-        {
-          "region": "Oriente Médio",
-          "countries": "EAU, Arábia Saudita, Catar",
-          "label": "Ativo"
-        },
-        {
-          "region": "América do Norte",
-          "countries": "EUA, Canadá",
-          "label": "Ativo"
-        },
-        {
-          "region": "Europa",
-          "countries": "Reino Unido, Alemanha, França",
-          "label": "Alvo"
-        },
-        {
-          "region": "Ásia-Pacífico",
-          "countries": "Austrália, Cingapura",
-          "label": "Alvo"
-        }
+        { "region": "Amsterdã", "countries": "Hub da Europa", "label": "Ativo", "tier": "active" },
+        { "region": "Dubai", "countries": "Hub da MEA", "label": "Ativo", "tier": "active" },
+        { "region": "Estados Unidos", "countries": "Delaware C-Corp", "label": "Ativo", "tier": "active" },
+        { "region": "Nova York", "countries": "América do Norte", "label": "Em breve", "tier": "expanding" },
+        { "region": "Toronto", "countries": "América do Norte", "label": "Em breve", "tier": "expanding" },
+        { "region": "Singapura", "countries": "APAC", "label": "Em breve", "tier": "expanding" },
+        { "region": "Tóquio", "countries": "APAC", "label": "Em breve", "tier": "expanding" },
+        { "region": "Cidade do México", "countries": "LATAM", "label": "Em breve", "tier": "expanding" },
+        { "region": "São Paulo", "countries": "LATAM", "label": "Em breve", "tier": "expanding" }
       ],
       "title": "A camada de inteligência que os restaurantes nunca tiveram"
     },
@@ -1272,39 +1317,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "دانیش صدیقی",
-          "role": "چیف گروتھ آفیسر",
-          "location": "دبئی",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "اسٹریٹجک آپریٹنگ پارٹنر",
+          "location": "جی سی سی اور یورپ",
+          "image": "",
           "bullets": [
-            "5 بار کے بانی جن کے 2 کامیاب اخراجات ہیں اور $100M سے زیادہ کاروبار بنانے کا تجربہ",
-            "0→1 زمرہ تخلیق اور پروڈکٹ کی قیادت میں ترقی میں ماہر",
-            "پروڈکٹ، مارکیٹنگ، اور مارکیٹ میں جانے کے عمل میں 18+ سال",
-            "ریستوراں ذہانت اور نمو کے میدان میں Sundae کی مارکیٹ پوزیشن کی قیادت کرتے ہیں"
-          ]
-        },
-        {
-          "name": "الیسہ پربانی",
-          "role": "ہیڈ آف پروڈکٹ",
-          "location": "ٹورنٹو",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "سابق وال مارٹ کینیڈا کے سسٹمز انجینئر - انٹرپرائز پیمانے پر بنایا",
-            "3 پروڈکٹ لائنیں شروع کیں، تمام 18 ماہ کے اندر منافع بخش",
-            "آپریٹر کی ضروریات کو قابل پیمائش پروڈکٹ ROI میں تبدیل کرتا ہے",
-            "یقینی بناتا ہے کہ ہر ماڈیول ایک حقیقی مسئلہ حل کرتا ہے جس کا سامنا آپریٹرز کو شفٹ پر ہوتا ہے"
-          ]
-        },
-        {
-          "name": "نوید نادر",
-          "role": "ہیڈ آف ٹیکنالوجی",
-          "location": "ٹورنٹو",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "ایسی انٹرپرائز SaaS پلیٹ فارم بنائے جو 10M+ روزانہ ٹرانزیکشنز کو سنبھالتے ہیں",
-            "عالمی پیمانے پر آٹوموٹو اور انٹرپرائز SaaS میں تجربہ کار انجینئر",
-            "محفوظ، تعمیل کرنے والے سسٹمز کی تعمیر میں ماہر",
-            "Sundae کی انفراسٹرکچر کی قابل اعتمادی اور حقیقی وقت کے ڈیٹا پائپ لائن کے ذمہ دار"
+            "پہلے دن سے سینئر آپریٹر کی گہرائی اور فوڈ اینڈ بیوریج کے کاروباری تعلقات میز پر موجود",
+            "جی سی سی اور یورپ بھر میں ملٹی یونٹ مہمان نوازی کے آپریٹرز کے لیے عبوری سی لیول اور بورڈ کے قریب مشاورت",
+            "بڑے اداروں کے دروازے کھولتے ہیں اور Pulse، Insights اور Foresight کو اس کسوٹی پر پرکھتے ہیں جو فوڈ اینڈ بیوریج قیادت کو واقعی درکار ہے",
+            "Curfs Consult کے سربراہ، جو بانیوں کے ساتھ مارکیٹ میں جانے، فنڈ ریزنگ اور توسیع پر کام کرتے ہیں"
           ]
         }
       ],
@@ -1317,7 +1338,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "پہلی تعیناتیاں",
-          "description": "متحدہ عرب امارات اور کینیڈا میں ملٹی برانڈ ریستوراں گروپوں کے ساتھ شراکت داری۔ حقیقی ڈیٹا، حقیقی آپریٹرز، پہلے دن سے حقیقی فیصلے۔"
+          "description": "متحدہ عرب امارات میں ملٹی برانڈ ریستوراں گروپوں کے ساتھ شراکت داری۔ حقیقی ڈیٹا، حقیقی آپریٹرز، پہلے دن سے حقیقی فیصلے۔"
         },
         {
           "year": "2026",
@@ -1361,26 +1382,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "فعال مارکیٹس",
+        "expanding": "توسیعی مارکیٹس"
+      },
+      "presenceFootnote": "فعال مارکیٹس میں طبیعی آپریشنز (ایمسٹرڈیم، دبئی) اور کمپنی کا قانونی صدر دفتر (امریکہ · ڈیلاویئر سی-کارپ) شامل ہیں۔ شمالی امریکہ (نیویارک، ٹورنٹو) اور دیگر توسیعی مارکیٹس روڈ میپ پر اسٹریٹجک ترجیحات ہیں؛ تعاون موجودہ مراکز سے شروع ہوتا ہے۔",
       "regions": [
         {
-          "region": "مشرق وسطی",
-          "countries": "متحدہ عرب امارات، سعودی عرب، قطر",
-          "label": "فعال"
+          "region": "ایمسٹرڈیم",
+          "countries": "یورپ کا مرکز",
+          "label": "فعال",
+          "tier": "active"
         },
         {
-          "region": "شمالی امریکہ",
-          "countries": "امریکہ، کینیڈا",
-          "label": "فعال"
+          "region": "دبئی",
+          "countries": "ایم ای اے مرکز",
+          "label": "فعال",
+          "tier": "active"
         },
         {
-          "region": "یورپ",
-          "countries": "برطانیہ، جرمنی، فرانس",
-          "label": "ہدف"
+          "region": "امریکہ",
+          "countries": "ڈیلاویئر سی-کارپ",
+          "label": "فعال",
+          "tier": "active"
         },
         {
-          "region": "ایشیا پیسیفک",
-          "countries": "آسٹریلیا، سنگاپور",
-          "label": "ہدف"
+          "region": "نیویارک",
+          "countries": "شمالی امریکہ",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "ٹورنٹو",
+          "countries": "شمالی امریکہ",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "سنگاپور",
+          "countries": "APAC",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "ٹوکیو",
+          "countries": "APAC",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "میکسیکو سٹی",
+          "countries": "LATAM",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "ساؤ پالو",
+          "countries": "LATAM",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
         }
       ],
       "title": "وہ انٹیلیجنس پرت جو ریستورانوں کے پاس کبھی نہ تھی"
@@ -1470,39 +1530,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "दानिश सिद्दीकी",
-          "role": "मुख्य विकास अधिकारी",
-          "location": "दुबई",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "रणनीतिक संचालन भागीदार",
+          "location": "जीसीसी और यूरोप",
+          "image": "",
           "bullets": [
-            "5x संस्थापक जिनके 2 सफल निकास हैं और $100M से अधिक व्यवसाय बनाने का अनुभव",
-            "0→1 श्रेणी निर्माण और उत्पाद-नेतृत्व विकास में विशेषज्ञ",
-            "उत्पाद, मार्केटिंग, और गो-टू-मार्केट निष्पादन में 18+ वर्षों का अनुभव",
-            "रेस्तरां बुद्धिमत्ता और विकास में Sundae की बाजार स्थिति का नेतृत्व करते हैं"
-          ]
-        },
-        {
-          "name": "अलिस्सा परबानी",
-          "role": "उत्पाद प्रमुख",
-          "location": "टोरंटो",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "पूर्व Walmart कनाडा सिस्टम इंजीनियर - एंटरप्राइज पैमाने पर बनाया",
-            "3 उत्पाद लाइनें लॉन्च की, सभी 18 महीनों के भीतर लाभदायक",
-            "ऑपरेटर की आवश्यकताओं को मापने योग्य उत्पाद ROI में अनुवादित करती हैं",
-            "सुनिश्चित करती हैं कि प्रत्येक मॉड्यूल एक वास्तविक समस्या का समाधान करता है जिसका सामना ऑपरेटर शिफ्ट पर करते हैं"
-          ]
-        },
-        {
-          "name": "नवीद नादिर",
-          "role": "प्रौद्योगिकी प्रमुख",
-          "location": "टोरंटो",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "10M+ दैनिक लेनदेन संभालने वाले एंटरप्राइज SaaS प्लेटफार्मों का निर्माण किया",
-            "वैश्विक स्तर पर ऑटोमोटिव और एंटरप्राइज SaaS में अनुभवी इंजीनियर",
-            "सुरक्षित, अनुपालन प्रणाली आर्किटेक्चर में विशेषज्ञ",
-            "Sundae की अवसंरचना विश्वसनीयता और वास्तविक समय डेटा पाइपलाइन के मालिक"
+            "पहले दिन से वरिष्ठ ऑपरेटर की गहराई और एफ एंड बी वाणिज्यिक संबंध मेज पर मौजूद",
+            "जीसीसी और यूरोप भर में बहु-इकाई आतिथ्य ऑपरेटरों के लिए अंतरिम सी-स्तर और बोर्ड-निकट परामर्श",
+            "बड़े उद्यमों के दरवाजे खोलते हैं और Pulse, Insights और Foresight को उस कसौटी पर परखते हैं जो एफ एंड बी नेतृत्व को वास्तव में चाहिए",
+            "Curfs Consult के प्रमुख, जो संस्थापकों के साथ गो-टू-मार्केट, फंडरेज़िंग और स्केलिंग पर काम करते हैं"
           ]
         }
       ],
@@ -1515,7 +1551,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "पहली तैनाती",
-          "description": "यूएई और कनाडा में बहु-ब्रांड रेस्तरां समूहों के साथ साझेदारी। वास्तविक डेटा, वास्तविक ऑपरेटर, पहले दिन से वास्तविक निर्णय।"
+          "description": "यूएई में बहु-ब्रांड रेस्तरां समूहों के साथ साझेदारी। वास्तविक डेटा, वास्तविक ऑपरेटर, पहले दिन से वास्तविक निर्णय।"
         },
         {
           "year": "2026",
@@ -1559,26 +1595,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "सक्रिय बाजार",
+        "expanding": "विस्तार बाजार"
+      },
+      "presenceFootnote": "सक्रिय बाजारों में भौतिक संचालन (एम्स्टर्डम, दुबई) और कंपनी का कानूनी मुख्यालय (संयुक्त राज्य अमेरिका · डेलावेयर सी-कॉर्प) शामिल हैं। उत्तर अमेरिका (न्यूयॉर्क, टोरंटो) और अन्य विस्तार बाजार रोडमैप पर रणनीतिक प्राथमिकताएं हैं; जुड़ाव मौजूदा केंद्रों से शुरू होता है।",
       "regions": [
         {
-          "region": "मध्य पूर्व",
-          "countries": "यूएई, केएसए, कतर",
-          "label": "सक्रिय"
+          "region": "एम्स्टर्डम",
+          "countries": "यूरोप केंद्र",
+          "label": "सक्रिय",
+          "tier": "active"
         },
         {
-          "region": "उत्तर अमेरिका",
-          "countries": "यूएसए, कनाडा",
-          "label": "सक्रिय"
+          "region": "दुबई",
+          "countries": "एमईए केंद्र",
+          "label": "सक्रिय",
+          "tier": "active"
         },
         {
-          "region": "यूरोप",
-          "countries": "यूके, जर्मनी, फ्रांस",
-          "label": "लक्ष्य"
+          "region": "संयुक्त राज्य अमेरिका",
+          "countries": "डेलावेयर सी-कॉर्प",
+          "label": "सक्रिय",
+          "tier": "active"
         },
         {
-          "region": "एशिया प्रशांत",
-          "countries": "ऑस्ट्रेलिया, सिंगापुर",
-          "label": "लक्ष्य"
+          "region": "न्यूयॉर्क",
+          "countries": "उत्तर अमेरिका",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "टोरंटो",
+          "countries": "उत्तर अमेरिका",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "सिंगापुर",
+          "countries": "APAC",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "टोक्यो",
+          "countries": "APAC",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "मेक्सिको सिटी",
+          "countries": "LATAM",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "साओ पाउलो",
+          "countries": "LATAM",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
         }
       ],
       "title": "वह इंटेलिजेंस लेयर जो रेस्टोरेंट के पास कभी नहीं थी"
@@ -1668,39 +1743,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Partner Operativo Strategico",
+          "location": "GCC ed Europa",
+          "image": "",
           "bullets": [
-            "Fondatore 5 volte con 2 uscite di successo e esperienza nella costruzione di aziende oltre $100M",
-            "Specialista nella creazione di categorie 0→1 e crescita guidata dal prodotto",
-            "Oltre 18 anni di esperienza in prodotto, marketing ed esecuzione go-to-market",
-            "Guida la posizione di mercato di Sundae nell'intelligenza ristorativa e nella crescita"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Responsabile Prodotto",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ex ingegnere di sistemi di Walmart Canada - costruito su scala enterprise",
-            "3 linee di prodotto lanciate, tutte redditizie entro 18 mesi",
-            "Traduci le esigenze degli operatori in ROI misurabili del prodotto",
-            "Assicura che ogni modulo risolva un problema reale che gli operatori affrontano durante il turno"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Responsabile Tecnologia",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Ha costruito piattaforme SaaS enterprise che gestiscono oltre 10M di transazioni giornaliere",
-            "Ingegnere esperto nel settore automobilistico e SaaS enterprise su scala globale",
-            "Esperto in architettura di sistemi sicuri e conformi",
-            "Gestisce l'affidabilità dell'infrastruttura di Sundae e il pipeline di dati in tempo reale"
+            "Profonda esperienza da operatore senior e relazioni commerciali F&B al tavolo fin dal primo giorno",
+            "Consulenza interim a livello C e vicina al consiglio per operatori dell'ospitalità multi-unit in tutto il GCC e in Europa",
+            "Apre le porte delle grandi aziende e mette alla prova Pulse, Insights e Foresight rispetto a ciò di cui la leadership F&B ha realmente bisogno",
+            "Titolare di Curfs Consult, collabora con i fondatori su go-to-market, raccolta fondi e crescita"
           ]
         }
       ],
@@ -1713,7 +1764,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Prime Implementazioni",
-          "description": "Collaborato con gruppi di ristoranti multi-brand negli Emirati Arabi Uniti e in Canada. Dati reali, operatori reali, decisioni reali fin dal primo giorno."
+          "description": "Collaborato con gruppi di ristoranti multi-brand negli Emirati Arabi Uniti. Dati reali, operatori reali, decisioni reali fin dal primo giorno."
         },
         {
           "year": "2026",
@@ -1757,27 +1808,21 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Mercati attivi",
+        "expanding": "Mercati in espansione"
+      },
+      "presenceFootnote": "I mercati attivi includono operazioni fisiche (Amsterdam, Dubai) e la sede legale dell'azienda (Stati Uniti · Delaware C-Corp). Il Nord America (New York, Toronto) e gli altri mercati in espansione sono priorità strategiche nella roadmap; l'attività parte dagli hub esistenti.",
       "regions": [
-        {
-          "region": "Medio Oriente",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Attivo"
-        },
-        {
-          "region": "Nord America",
-          "countries": "USA, Canada",
-          "label": "Attivo"
-        },
-        {
-          "region": "Europa",
-          "countries": "Regno Unito, Germania, Francia",
-          "label": "Obiettivo"
-        },
-        {
-          "region": "Asia Pacifico",
-          "countries": "Australia, Singapore",
-          "label": "Obiettivo"
-        }
+        { "region": "Amsterdam", "countries": "Hub europeo", "label": "Attivo", "tier": "active" },
+        { "region": "Dubai", "countries": "Hub MEA", "label": "Attivo", "tier": "active" },
+        { "region": "Stati Uniti", "countries": "Delaware C-Corp", "label": "Attivo", "tier": "active" },
+        { "region": "New York", "countries": "Nord America", "label": "Prossimamente", "tier": "expanding" },
+        { "region": "Toronto", "countries": "Nord America", "label": "Prossimamente", "tier": "expanding" },
+        { "region": "Singapore", "countries": "APAC", "label": "Prossimamente", "tier": "expanding" },
+        { "region": "Tokyo", "countries": "APAC", "label": "Prossimamente", "tier": "expanding" },
+        { "region": "Città del Messico", "countries": "LATAM", "label": "Prossimamente", "tier": "expanding" },
+        { "region": "San Paolo", "countries": "LATAM", "label": "Prossimamente", "tier": "expanding" }
       ],
       "title": "Lo strato di intelligence che i ristoranti non hanno mai avuto"
     },
@@ -1866,39 +1911,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Dyrektor ds. Wzrostu",
-          "location": "Dubaj",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategiczny Partner Operacyjny",
+          "location": "GCC i Europa",
+          "image": "",
           "bullets": [
-            "5-krotny założyciel z 2 udanymi wyjściami i doświadczeniem w budowaniu firm przekraczających 100 milionów dolarów",
-            "Specjalista w tworzeniu kategorii 0→1 i wzroście napędzanym produktem",
-            "Ponad 18 lat w produktach, marketingu i realizacji strategii rynkowej",
-            "Kieruje pozycją rynkową Sundae w zakresie inteligencji restauracyjnej i wzrostu"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Kierownik Produktu",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Była inżynier systemów Walmart Canada - budowała na poziomie przedsiębiorstw",
-            "3 linie produktów uruchomione, wszystkie rentowne w ciągu 18 miesięcy",
-            "Przekłada potrzeby operatorów na mierzalny zwrot z inwestycji w produkt",
-            "Zapewnia, że każdy moduł rozwiązuje rzeczywisty problem, z którym borykają się operatorzy podczas zmiany"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Kierownik Technologii",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Zbudował platformy SaaS dla przedsiębiorstw obsługujące ponad 10 milionów transakcji dziennie",
-            "Doświadczony inżynier w branży motoryzacyjnej i SaaS dla przedsiębiorstw na globalną skalę",
-            "Ekspert w zakresie architektury systemów zabezpieczonych i zgodnych z przepisami",
-            "Odpowiada za niezawodność infrastruktury Sundae i strumień danych w czasie rzeczywistym"
+            "Głębokie doświadczenie operacyjne na poziomie senior i relacje handlowe w sektorze F&B obecne od pierwszego dnia",
+            "Tymczasowe doradztwo na poziomie C-level i bliskie zarządowi dla operatorów hotelarstwa wielooddziałowego w regionie GCC i Europie",
+            "Otwiera drzwi do klientów korporacyjnych i poddaje próbie Pulse, Insights oraz Foresight pod kątem rzeczywistych potrzeb liderów F&B",
+            "Założyciel Curfs Consult, współpracujący z founderami w zakresie go-to-market, pozyskiwania kapitału i skalowania"
           ]
         }
       ],
@@ -1911,7 +1932,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Pierwsze wdrożenia",
-          "description": "Współpraca z grupami restauracyjnymi wielobrandowymi w ZEA i Kanadzie. Prawdziwe dane, prawdziwi operatorzy, prawdziwe decyzje od pierwszego dnia."
+          "description": "Współpraca z grupami restauracyjnymi wielobrandowymi w ZEA. Prawdziwe dane, prawdziwi operatorzy, prawdziwe decyzje od pierwszego dnia."
         },
         {
           "year": "2026",
@@ -1955,27 +1976,21 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Rynki aktywne",
+        "expanding": "Rynki ekspansji"
+      },
+      "presenceFootnote": "Rynki aktywne obejmują działalność fizyczną (Amsterdam, Dubaj) oraz siedzibę prawną firmy (Stany Zjednoczone · Delaware C-Corp). Ameryka Północna (Nowy Jork, Toronto) i inne rynki ekspansji to strategiczne priorytety w planie rozwoju; działania rozpoczynają się z istniejących hubów.",
       "regions": [
-        {
-          "region": "Bliski Wschód",
-          "countries": "ZEA, KSA, Katar",
-          "label": "Aktywny"
-        },
-        {
-          "region": "Ameryka Północna",
-          "countries": "USA, Kanada",
-          "label": "Aktywny"
-        },
-        {
-          "region": "Europa",
-          "countries": "Wielka Brytania, Niemcy, Francja",
-          "label": "Docelowy"
-        },
-        {
-          "region": "Azja i Pacyfik",
-          "countries": "Australia, Singapur",
-          "label": "Docelowy"
-        }
+        { "region": "Amsterdam", "countries": "Hub Europy", "label": "Aktywny", "tier": "active" },
+        { "region": "Dubaj", "countries": "Hub MEA", "label": "Aktywny", "tier": "active" },
+        { "region": "Stany Zjednoczone", "countries": "Delaware C-Corp", "label": "Aktywny", "tier": "active" },
+        { "region": "Nowy Jork", "countries": "Ameryka Północna", "label": "Wkrótce", "tier": "expanding" },
+        { "region": "Toronto", "countries": "Ameryka Północna", "label": "Wkrótce", "tier": "expanding" },
+        { "region": "Singapur", "countries": "APAC", "label": "Wkrótce", "tier": "expanding" },
+        { "region": "Tokio", "countries": "APAC", "label": "Wkrótce", "tier": "expanding" },
+        { "region": "Meksyk", "countries": "LATAM", "label": "Wkrótce", "tier": "expanding" },
+        { "region": "São Paulo", "countries": "LATAM", "label": "Wkrótce", "tier": "expanding" }
       ],
       "title": "Warstwa inteligencji, której restauracje nigdy nie miały"
     },
@@ -2064,39 +2079,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Büyüme Müdürü",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Stratejik Operasyon Ortağı",
+          "location": "GCC ve Avrupa",
+          "image": "",
           "bullets": [
-            "5 kez kurucu, 2 başarılı çıkış ve $100M'ı aşan işletmeler kurma deneyimi",
-            "0→1 kategori oluşturma ve ürün odaklı büyüme uzmanı",
-            "Ürün, pazarlama ve pazara giriş uygulamalarında 18+ yıl deneyim",
-            "Sundae'nin restoran zekası ve büyüme alanındaki pazar konumunu yönetiyor"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Ürün Müdürü",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Eski Walmart Kanada sistem mühendisi - kurumsal ölçekte inşa etti",
-            "3 ürün hattı başlatıldı, hepsi 18 ay içinde kârlı",
-            "İşletmeci ihtiyaçlarını ölçülebilir ürün ROI'sine çevirir",
-            "Her modülün, işletmecilerin vardiyada karşılaştığı gerçek bir sorunu çözdüğünden emin olur"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Teknoloji Müdürü",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Günde 10M+ işlemi yöneten kurumsal SaaS platformları inşa etti",
-            "Küresel ölçekte otomotiv ve kurumsal SaaS alanında deneyimli mühendis",
-            "Güvenli, uyumlu sistem mimarisi uzmanı",
-            "Sundae'nin altyapı güvenilirliği ve gerçek zamanlı veri akışını yönetiyor"
+            "İlk günden itibaren masada kıdemli işletmeci derinliği ve F&B ticari ilişkileri",
+            "GCC ve Avrupa genelinde çoklu birim konaklama işletmecilerine geçici C-seviye ve yönetim kuruluna yakın danışmanlık",
+            "Kurumsal kapıları açar ve Pulse, Insights ve Foresight'ı F&B liderliğinin gerçekten ihtiyaç duyduğu şeye karşı test eder",
+            "Kurucularla pazara giriş, yatırım toplama ve ölçeklenme konusunda çalışan Curfs Consult'un yöneticisi"
           ]
         }
       ],
@@ -2109,7 +2100,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "İlk Dağıtımlar",
-          "description": "UAE ve Kanada'daki çok markalı restoran gruplarıyla ortaklık kuruldu. Gerçek veriler, gerçek işletmeciler, ilk günden itibaren gerçek kararlar."
+          "description": "BAE'deki çok markalı restoran gruplarıyla ortaklık kuruldu. Gerçek veriler, gerçek işletmeciler, ilk günden itibaren gerçek kararlar."
         },
         {
           "year": "2026",
@@ -2153,26 +2144,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Aktif pazarlar",
+        "expanding": "Genişleme pazarları"
+      },
+      "presenceFootnote": "Aktif pazarlar fiziksel operasyonları (Amsterdam, Dubai) ve şirketin yasal merkezini (Amerika Birleşik Devletleri · Delaware C-Corp) kapsar. Kuzey Amerika (New York, Toronto) ve diğer genişleme pazarları yol haritasındaki stratejik önceliklerdir; iş birliği mevcut merkezlerden başlar.",
       "regions": [
         {
-          "region": "Orta Doğu",
-          "countries": "BAE, Suudi Arabistan, Katar",
-          "label": "Aktif"
+          "region": "Amsterdam",
+          "countries": "Avrupa merkezi",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Kuzey Amerika",
-          "countries": "ABD, Kanada",
-          "label": "Aktif"
+          "region": "Dubai",
+          "countries": "MEA merkezi",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Avrupa",
-          "countries": "İngiltere, Almanya, Fransa",
-          "label": "Hedef"
+          "region": "Amerika Birleşik Devletleri",
+          "countries": "Delaware C-Corp",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Asya Pasifik",
-          "countries": "Avustralya, Singapur",
-          "label": "Hedef"
+          "region": "New York",
+          "countries": "Kuzey Amerika",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Kuzey Amerika",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapur",
+          "countries": "APAC",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Meksiko",
+          "countries": "LATAM",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Yakında",
+          "tier": "expanding"
         }
       ],
       "title": "Restoranların hiç sahip olmadığı zeka katmanı"
@@ -2262,39 +2292,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "达尼什·西迪基",
-          "role": "首席增长官",
-          "location": "迪拜",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "战略运营合伙人",
+          "location": "海湾合作委员会及欧洲",
+          "image": "",
           "bullets": [
-            "5次创始人，2次成功退出，拥有超过1亿美元业务的构建经验",
-            "专注于0→1类别创建和产品驱动增长",
-            "在产品、市场营销和市场执行方面拥有超过18年的经验",
-            "领导Sundae在餐饮智能和增长方面的市场定位"
-          ]
-        },
-        {
-          "name": "阿莉萨·帕拉巴尼",
-          "role": "产品负责人",
-          "location": "多伦多",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "前沃尔玛加拿大系统工程师 - 在企业规模上构建",
-            "推出3条产品线，均在18个月内盈利",
-            "将运营商需求转化为可衡量的产品投资回报",
-            "确保每个模块解决运营商在班次中面临的真实问题"
-          ]
-        },
-        {
-          "name": "纳维德·纳迪尔",
-          "role": "技术负责人",
-          "location": "多伦多",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "构建处理每日超过1000万交易的企业SaaS平台",
-            "在全球范围内的汽车和企业SaaS领域拥有丰富的工程经验",
-            "安全、合规系统架构专家",
-            "负责Sundae的基础设施可靠性和实时数据管道"
+            "从第一天起就带来资深运营商的深度和餐饮商业关系",
+            "为海湾合作委员会和欧洲的多单位酒店运营商提供临时高管层及董事会层面的咨询",
+            "打开大型企业的大门，并以餐饮领导层真正需要的标准检验Pulse、Insights和Foresight",
+            "Curfs Consult负责人，与创始人在市场进入、融资和规模化方面展开合作"
           ]
         }
       ],
@@ -2307,7 +2313,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "首次部署",
-          "description": "与阿联酋和加拿大的多品牌餐饮集团合作。从第一天起，真实数据、真实运营商、真实决策。"
+          "description": "与阿联酋的多品牌餐饮集团合作。从第一天起，真实数据、真实运营商、真实决策。"
         },
         {
           "year": "2026",
@@ -2351,26 +2357,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "活跃市场",
+        "expanding": "拓展市场"
+      },
+      "presenceFootnote": "活跃市场包括实体运营（阿姆斯特丹、迪拜）和公司的法定注册地（美国 · 特拉华州 C-Corp）。北美（纽约、多伦多）及其他拓展市场是路线图上的战略重点；合作将从现有枢纽开始。",
       "regions": [
         {
-          "region": "中东",
-          "countries": "阿联酋, 沙特阿拉伯, 卡塔尔",
-          "label": "活跃"
+          "region": "阿姆斯特丹",
+          "countries": "欧洲枢纽",
+          "label": "活跃",
+          "tier": "active"
         },
         {
-          "region": "北美",
-          "countries": "美国, 加拿大",
-          "label": "活跃"
+          "region": "迪拜",
+          "countries": "中东及非洲枢纽",
+          "label": "活跃",
+          "tier": "active"
         },
         {
-          "region": "欧洲",
-          "countries": "英国, 德国, 法国",
-          "label": "目标"
+          "region": "美国",
+          "countries": "特拉华州 C-Corp",
+          "label": "活跃",
+          "tier": "active"
         },
         {
-          "region": "亚太",
-          "countries": "澳大利亚, 新加坡",
-          "label": "目标"
+          "region": "纽约",
+          "countries": "北美",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "多伦多",
+          "countries": "北美",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "新加坡",
+          "countries": "APAC",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "东京",
+          "countries": "APAC",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "墨西哥城",
+          "countries": "LATAM",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "圣保罗",
+          "countries": "LATAM",
+          "label": "即将推出",
+          "tier": "expanding"
         }
       ],
       "title": "餐厅从未拥有的智能层"
@@ -2460,39 +2505,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "ダーニッシュ・シディキ",
-          "role": "最高成長責任者",
-          "location": "ドバイ",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "戦略オペレーティングパートナー",
+          "location": "GCCおよびヨーロッパ",
+          "image": "",
           "bullets": [
-            "5回の創業者で、2回の成功したエグジットを経験し、1億ドルを超えるビジネスを構築した経験",
-            "0→1のカテゴリー創出とプロダクト主導の成長の専門家",
-            "製品、マーケティング、ゴー・トゥ・マーケット実行で18年以上の経験",
-            "レストランインテリジェンスと成長におけるSundaeの市場ポジションをリード"
-          ]
-        },
-        {
-          "name": "アリッサ・パラバニ",
-          "role": "プロダクト責任者",
-          "location": "トロント",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "元ウォルマートカナダのシステムエンジニア - エンタープライズ規模で構築",
-            "3つのプロダクトラインを立ち上げ、すべて18ヶ月以内に利益を上げた",
-            "オペレーターのニーズを測定可能なプロダクトROIに変換",
-            "すべてのモジュールがオペレーターがシフト中に直面する実際の問題を解決することを保証"
-          ]
-        },
-        {
-          "name": "ナビード・ナディール",
-          "role": "テクノロジー責任者",
-          "location": "トロント",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "1,000万件以上のデイリー取引を処理するエンタープライズSaaSプラットフォームを構築",
-            "自動車およびエンタープライズSaaSでのグローバル規模の経験豊富なエンジニア",
-            "安全でコンプライアンスに準拠したシステムアーキテクチャの専門家",
-            "Sundaeのインフラの信頼性とリアルタイムデータパイプラインを担当"
+            "初日からシニアオペレーターの深い知見とF&Bの商業的関係をテーブルにもたらす",
+            "GCCとヨーロッパ全域のマルチユニットホスピタリティオペレーター向けの暫定的なCレベルおよび取締役会に近い助言",
+            "大企業の扉を開き、F&Bのリーダーシップが本当に必要とするものに照らしてPulse、Insights、Foresightを検証する",
+            "Curfs Consultの代表として、創業者とゴー・トゥ・マーケット、資金調達、スケールに取り組む"
           ]
         }
       ],
@@ -2505,7 +2526,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "初の展開",
-          "description": "UAEとカナダのマルチブランドレストラングループと提携。初日から実データ、実オペレーター、実際の意思決定。"
+          "description": "UAEのマルチブランドレストラングループと提携。初日から実データ、実オペレーター、実際の意思決定。"
         },
         {
           "year": "2026",
@@ -2549,26 +2570,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "アクティブ市場",
+        "expanding": "拡大市場"
+      },
+      "presenceFootnote": "アクティブ市場には、物理的な拠点（アムステルダム、ドバイ）と会社の法的本拠地（米国 · デラウェア州C-Corp）が含まれます。北アメリカ（ニューヨーク、トロント）およびその他の拡大市場はロードマップ上の戦略的優先事項であり、取り組みは既存の拠点から始まります。",
       "regions": [
         {
-          "region": "中東",
-          "countries": "UAE, KSA, カタール",
-          "label": "アクティブ"
+          "region": "アムステルダム",
+          "countries": "ヨーロッパ拠点",
+          "label": "アクティブ",
+          "tier": "active"
         },
         {
-          "region": "北アメリカ",
-          "countries": "アメリカ, カナダ",
-          "label": "アクティブ"
+          "region": "ドバイ",
+          "countries": "MEA拠点",
+          "label": "アクティブ",
+          "tier": "active"
         },
         {
-          "region": "ヨーロッパ",
-          "countries": "イギリス, ドイツ, フランス",
-          "label": "ターゲット"
+          "region": "米国",
+          "countries": "デラウェア州C-Corp",
+          "label": "アクティブ",
+          "tier": "active"
         },
         {
-          "region": "アジア太平洋",
-          "countries": "オーストラリア, シンガポール",
-          "label": "ターゲット"
+          "region": "ニューヨーク",
+          "countries": "北アメリカ",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "トロント",
+          "countries": "北アメリカ",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "シンガポール",
+          "countries": "APAC",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "東京",
+          "countries": "APAC",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "メキシコシティ",
+          "countries": "LATAM",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "サンパウロ",
+          "countries": "LATAM",
+          "label": "近日公開",
+          "tier": "expanding"
         }
       ],
       "title": "レストランがこれまで持てなかったインテリジェンス層"
@@ -2658,39 +2718,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Mitra Operasional Strategis",
+          "location": "GCC & Eropa",
+          "image": "",
           "bullets": [
-            "5x pendiri dengan 2 keberhasilan keluar dan pengalaman membangun bisnis lebih dari $100M",
-            "Spesialis dalam penciptaan kategori 0→1 dan pertumbuhan yang dipimpin produk",
-            "18+ tahun di bidang produk, pemasaran, dan eksekusi go-to-market",
-            "Memimpin posisi pasar Sundae di bidang intelijen restoran dan pertumbuhan"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Kepala Produk",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Mantan insinyur sistem Walmart Canada - dibangun pada skala perusahaan",
-            "3 lini produk diluncurkan, semuanya menguntungkan dalam 18 bulan",
-            "Menerjemahkan kebutuhan operator menjadi ROI produk yang terukur",
-            "Memastikan setiap modul menyelesaikan masalah nyata yang dihadapi operator saat bertugas"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Kepala Teknologi",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Membangun platform SaaS perusahaan yang menangani lebih dari 10M transaksi harian",
-            "Insinyur berpengalaman di bidang otomotif dan SaaS perusahaan pada skala global",
-            "Ahli dalam arsitektur sistem yang aman dan sesuai",
-            "Mengelola keandalan infrastruktur Sundae dan saluran data waktu nyata"
+            "Kedalaman operator senior dan relasi komersial F&B di meja sejak hari pertama",
+            "Penasihat tingkat C sementara dan dekat dewan untuk operator perhotelan multi-unit di seluruh GCC dan Eropa",
+            "Membuka pintu perusahaan besar dan menguji Pulse, Insights, dan Foresight terhadap apa yang benar-benar dibutuhkan kepemimpinan F&B",
+            "Principal Curfs Consult, bermitra dengan para pendiri dalam go-to-market, penggalangan dana, dan penskalaan"
           ]
         }
       ],
@@ -2703,7 +2739,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Penerapan Pertama",
-          "description": "Bermitra dengan kelompok restoran multi-merek di UAE dan Kanada. Data nyata, operator nyata, keputusan nyata sejak hari pertama."
+          "description": "Bermitra dengan kelompok restoran multi-merek di UAE. Data nyata, operator nyata, keputusan nyata sejak hari pertama."
         },
         {
           "year": "2026",
@@ -2747,26 +2783,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Pasar aktif",
+        "expanding": "Pasar ekspansi"
+      },
+      "presenceFootnote": "Pasar aktif mencakup operasi fisik (Amsterdam, Dubai) dan kantor hukum perusahaan (Amerika Serikat · Delaware C-Corp). Amerika Utara (New York, Toronto) dan pasar ekspansi lainnya merupakan prioritas strategis dalam peta jalan; keterlibatan dimulai dari pusat-pusat yang sudah ada.",
       "regions": [
         {
-          "region": "Timur Tengah",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Aktif"
+          "region": "Amsterdam",
+          "countries": "Pusat Eropa",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Amerika Utara",
-          "countries": "USA, Kanada",
-          "label": "Aktif"
+          "region": "Dubai",
+          "countries": "Pusat MEA",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Eropa",
-          "countries": "Inggris, Jerman, Prancis",
-          "label": "Target"
+          "region": "Amerika Serikat",
+          "countries": "Delaware C-Corp",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Asia Pasifik",
-          "countries": "Australia, Singapura",
-          "label": "Target"
+          "region": "New York",
+          "countries": "Amerika Utara",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Amerika Utara",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapura",
+          "countries": "APAC",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Segera hadir",
+          "tier": "expanding"
         }
       ],
       "title": "Lapisan inteligensi yang tak pernah dimiliki restoran"
@@ -2856,39 +2931,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Giám đốc Tăng trưởng",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Đối tác Vận hành Chiến lược",
+          "location": "GCC & Châu Âu",
+          "image": "",
           "bullets": [
-            "Nhà sáng lập 5 lần với 2 lần thoát thành công và kinh nghiệm xây dựng doanh nghiệp vượt qua 100 triệu đô la",
-            "Chuyên gia trong việc tạo ra danh mục từ 0→1 và tăng trưởng dựa trên sản phẩm",
-            "Hơn 18 năm trong sản phẩm, tiếp thị và thực hiện ra thị trường",
-            "Lãnh đạo vị thế thị trường của Sundae trong lĩnh vực trí tuệ nhà hàng và tăng trưởng"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Trưởng phòng Sản phẩm",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Kỹ sư hệ thống cũ của Walmart Canada - xây dựng ở quy mô doanh nghiệp",
-            "3 dòng sản phẩm được ra mắt, tất cả đều có lãi trong vòng 18 tháng",
-            "Biến nhu cầu của nhà điều hành thành ROI sản phẩm có thể đo lường",
-            "Đảm bảo mỗi mô-đun giải quyết một vấn đề thực sự mà các nhà điều hành gặp phải trong ca làm việc"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Trưởng phòng Công nghệ",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Xây dựng các nền tảng SaaS doanh nghiệp xử lý hơn 10 triệu giao dịch hàng ngày",
-            "Kỹ sư dày dạn trong lĩnh vực ô tô và SaaS doanh nghiệp ở quy mô toàn cầu",
-            "Chuyên gia trong kiến trúc hệ thống an toàn, tuân thủ",
-            "Chịu trách nhiệm về độ tin cậy hạ tầng của Sundae và đường dẫn dữ liệu thời gian thực"
+            "Chiều sâu của một nhà điều hành kỳ cựu và các mối quan hệ thương mại F&B có mặt từ ngày đầu",
+            "Cố vấn cấp C tạm thời và gần với hội đồng quản trị cho các nhà điều hành khách sạn đa đơn vị trên khắp GCC và Châu Âu",
+            "Mở cánh cửa doanh nghiệp lớn và kiểm chứng Pulse, Insights và Foresight so với những gì ban lãnh đạo F&B thực sự cần",
+            "Giám đốc của Curfs Consult, đồng hành cùng các nhà sáng lập về ra thị trường, gọi vốn và mở rộng quy mô"
           ]
         }
       ],
@@ -2901,7 +2952,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Triển Khai Đầu Tiên",
-          "description": "Hợp tác với các nhóm nhà hàng đa thương hiệu trên khắp UAE và Canada. Dữ liệu thực, nhà điều hành thực, quyết định thực ngay từ ngày đầu."
+          "description": "Hợp tác với các nhóm nhà hàng đa thương hiệu trên khắp UAE. Dữ liệu thực, nhà điều hành thực, quyết định thực ngay từ ngày đầu."
         },
         {
           "year": "2026",
@@ -2945,26 +2996,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Thị trường đang hoạt động",
+        "expanding": "Thị trường mở rộng"
+      },
+      "presenceFootnote": "Các thị trường đang hoạt động bao gồm hoạt động thực tế (Amsterdam, Dubai) và trụ sở pháp lý của công ty (Hoa Kỳ · Delaware C-Corp). Bắc Mỹ (New York, Toronto) và các thị trường mở rộng khác là những ưu tiên chiến lược trên lộ trình; việc hợp tác bắt đầu từ các trung tâm hiện có.",
       "regions": [
         {
-          "region": "Trung Đông",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Đang hoạt động"
+          "region": "Amsterdam",
+          "countries": "Trung tâm Châu Âu",
+          "label": "Đang hoạt động",
+          "tier": "active"
         },
         {
-          "region": "Bắc Mỹ",
-          "countries": "USA, Canada",
-          "label": "Đang hoạt động"
+          "region": "Dubai",
+          "countries": "Trung tâm MEA",
+          "label": "Đang hoạt động",
+          "tier": "active"
         },
         {
-          "region": "Châu Âu",
-          "countries": "UK, Đức, Pháp",
-          "label": "Mục tiêu"
+          "region": "Hoa Kỳ",
+          "countries": "Delaware C-Corp",
+          "label": "Đang hoạt động",
+          "tier": "active"
         },
         {
-          "region": "Châu Á Thái Bình Dương",
-          "countries": "Úc, Singapore",
-          "label": "Mục tiêu"
+          "region": "New York",
+          "countries": "Bắc Mỹ",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Bắc Mỹ",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
         }
       ],
       "title": "Tầng trí tuệ mà nhà hàng chưa từng có"
@@ -3054,39 +3144,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "다니시 시디키",
-          "role": "최고 성장 책임자",
-          "location": "두바이",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "전략 운영 파트너",
+          "location": "GCC 및 유럽",
+          "image": "",
           "bullets": [
-            "5번의 창립자로 2번의 성공적인 엑싯 경험과 1억 달러 이상의 비즈니스 구축 경험",
-            "0→1 카테고리 생성 및 제품 주도 성장 전문가",
-            "제품, 마케팅 및 시장 진입 실행 분야에서 18년 이상의 경력",
-            "레스토랑 인텔리전스 및 성장 분야에서 Sundae의 시장 위치를 이끌고 있음"
-          ]
-        },
-        {
-          "name": "알리사 파라바니",
-          "role": "제품 책임자",
-          "location": "토론토",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "전 월마트 캐나다 시스템 엔지니어 - 기업 규모에서 구축 경험",
-            "3개의 제품 라인 출시, 모두 18개월 이내에 수익성 달성",
-            "운영자의 요구를 측정 가능한 제품 ROI로 변환",
-            "모든 모듈이 운영자가 근무 중 직면하는 실제 문제를 해결하도록 보장함"
-          ]
-        },
-        {
-          "name": "나비드 나디르",
-          "role": "기술 책임자",
-          "location": "토론토",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "일일 1천만 건 이상의 거래를 처리하는 기업 SaaS 플랫폼 구축",
-            "글로벌 규모의 자동차 및 기업 SaaS 분야에서 숙련된 엔지니어",
-            "안전하고 규정을 준수하는 시스템 아키텍처 전문가",
-            "Sundae의 인프라 신뢰성과 실시간 데이터 파이프라인을 책임짐"
+            "첫날부터 시니어 운영자의 깊이와 F&B 상업적 관계를 테이블에 제공",
+            "GCC와 유럽 전역의 다중 매장 호스피탈리티 운영자를 위한 임시 C레벨 및 이사회 인접 자문",
+            "대기업의 문을 열고 F&B 리더십이 실제로 필요로 하는 것에 맞춰 Pulse, Insights, Foresight를 검증",
+            "창업자와 함께 시장 진입, 자금 조달, 확장을 추진하는 Curfs Consult 대표"
           ]
         }
       ],
@@ -3099,7 +3165,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "첫 배포",
-          "description": "UAE와 캐나다의 다중 브랜드 레스토랑 그룹과 파트너십을 맺었습니다. 첫날부터 실제 데이터, 실제 운영자, 실제 결정을 제공합니다."
+          "description": "UAE의 다중 브랜드 레스토랑 그룹과 파트너십을 맺었습니다. 첫날부터 실제 데이터, 실제 운영자, 실제 결정을 제공합니다."
         },
         {
           "year": "2026",
@@ -3143,26 +3209,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "활성 시장",
+        "expanding": "확장 시장"
+      },
+      "presenceFootnote": "활성 시장에는 물리적 운영(암스테르담, 두바이)과 회사의 법적 본사(미국 · 델라웨어 C-Corp)가 포함됩니다. 북미(뉴욕, 토론토) 및 기타 확장 시장은 로드맵상의 전략적 우선순위이며, 협력은 기존 허브에서 시작됩니다.",
       "regions": [
         {
-          "region": "중동",
-          "countries": "UAE, KSA, 카타르",
-          "label": "활성"
+          "region": "암스테르담",
+          "countries": "유럽 허브",
+          "label": "활성",
+          "tier": "active"
         },
         {
-          "region": "북미",
-          "countries": "미국, 캐나다",
-          "label": "활성"
+          "region": "두바이",
+          "countries": "MEA 허브",
+          "label": "활성",
+          "tier": "active"
         },
         {
-          "region": "유럽",
-          "countries": "영국, 독일, 프랑스",
-          "label": "목표"
+          "region": "미국",
+          "countries": "델라웨어 C-Corp",
+          "label": "활성",
+          "tier": "active"
         },
         {
-          "region": "아시아 태평양",
-          "countries": "호주, 싱가포르",
-          "label": "목표"
+          "region": "뉴욕",
+          "countries": "북미",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "토론토",
+          "countries": "북미",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "싱가포르",
+          "countries": "APAC",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "도쿄",
+          "countries": "APAC",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "멕시코시티",
+          "countries": "LATAM",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "상파울루",
+          "countries": "LATAM",
+          "label": "출시 예정",
+          "tier": "expanding"
         }
       ],
       "title": "레스토랑이 갖지 못했던 인텔리전스 레이어"
@@ -3252,39 +3357,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Director de Creștere",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Partener Strategic Operațional",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "Fondator de 5 ori cu 2 ieșiri de succes și experiență în construirea de afaceri de peste 100M$",
-            "Specialist în crearea de categorii 0→1 și creștere bazată pe produs",
-            "Peste 18 ani în produs, marketing și execuție pe piață",
-            "Conduce poziția de piață a Sundae în domeniul inteligenței restaurantelor și creșterii"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Șef de Produs",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Fost inginer de sisteme Walmart Canada - construit la scară de întreprindere",
-            "3 linii de produse lansate, toate profitabile în termen de 18 luni",
-            "Transpune nevoile operatorilor în ROI măsurabil al produsului",
-            "Asigură că fiecare modul rezolvă o problemă reală cu care se confruntă operatorii în timpul programului"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Șef de Tehnologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "A construit platforme SaaS de întreprindere care gestionează peste 10M de tranzacții zilnice",
-            "Inginer experimentat în domeniul auto și SaaS de întreprindere la scară globală",
-            "Expert în arhitectura sistemelor sigure și conforme",
-            "Se ocupă de fiabilitatea infrastructurii Sundae și de fluxul de date în timp real"
+            "Profunzime de operator senior și relații comerciale în F&B la masă încă din prima zi",
+            "Consiliere interimară la nivel C și adiacentă consiliului de administrație pentru operatori de ospitalitate multi-unitate din GCC și Europa",
+            "Deschide uși la nivel enterprise și testează la rezistență Pulse, Insights și Foresight față de ceea ce are cu adevărat nevoie conducerea din F&B",
+            "Principal al Curfs Consult, colaborând cu fondatori pe strategia de go-to-market, strângere de fonduri și scalare"
           ]
         }
       ],
@@ -3297,7 +3378,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Primele Implementări",
-          "description": "Parteneriate cu grupuri de restaurante multi-brand din UAE și Canada. Date reale, operatori reali, decizii reale încă din prima zi."
+          "description": "Parteneriate cu grupuri de restaurante multi-brand din UAE. Date reale, operatori reali, decizii reale încă din prima zi."
         },
         {
           "year": "2026",
@@ -3341,27 +3422,21 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Piețe active",
+        "expanding": "Piețe de expansiune"
+      },
+      "presenceFootnote": "Piețele active includ operațiuni fizice (Amsterdam, Dubai) și sediul legal al companiei (Statele Unite · Delaware C-Corp). America de Nord (New York, Toronto) și alte piețe de expansiune sunt priorități strategice pe foaia de parcurs; colaborarea începe din hub-urile existente.",
       "regions": [
-        {
-          "region": "Orientul Mijlociu",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Activ"
-        },
-        {
-          "region": "America de Nord",
-          "countries": "SUA, Canada",
-          "label": "Activ"
-        },
-        {
-          "region": "Europa",
-          "countries": "Regatul Unit, Germania, Franța",
-          "label": "Țintă"
-        },
-        {
-          "region": "Asia Pacific",
-          "countries": "Australia, Singapore",
-          "label": "Țintă"
-        }
+        { "region": "Amsterdam", "countries": "Hub Europa", "label": "Activ", "tier": "active" },
+        { "region": "Dubai", "countries": "Hub MEA", "label": "Activ", "tier": "active" },
+        { "region": "Statele Unite", "countries": "Delaware C-Corp", "label": "Activ", "tier": "active" },
+        { "region": "New York", "countries": "America de Nord", "label": "În curând", "tier": "expanding" },
+        { "region": "Toronto", "countries": "America de Nord", "label": "În curând", "tier": "expanding" },
+        { "region": "Singapore", "countries": "APAC", "label": "În curând", "tier": "expanding" },
+        { "region": "Tokyo", "countries": "APAC", "label": "În curând", "tier": "expanding" },
+        { "region": "Ciudad de México", "countries": "LATAM", "label": "În curând", "tier": "expanding" },
+        { "region": "São Paulo", "countries": "LATAM", "label": "În curând", "tier": "expanding" }
       ],
       "title": "Stratul de inteligență pe care restaurantele nu l-au avut niciodată"
     },
@@ -3450,39 +3525,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategisk operativ partner",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "5x grundare med 2 framgångsrika exits och erfarenhet av att bygga företag över 100M USD",
-            "Specialist på 0→1 kategori skapande och produktledd tillväxt",
-            "Över 18 år inom produkt, marknadsföring och go-to-market genomförande",
-            "Leads Sundae's market position across restaurant intelligence and growth"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Produktchef",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Tidigare systemingenjör på Walmart Canada - byggde på företagsnivå",
-            "3 produktlinjer lanserade, alla lönsamma inom 18 månader",
-            "Översätter operatörers behov till mätbar produktavkastning",
-            "Säkerställer att varje modul löser ett verkligt problem som operatörer står inför under arbetspasset"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Teknikchef",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Byggde företags-SaaS-plattformar som hanterar över 10M dagliga transaktioner",
-            "Erfaren ingenjör inom fordons- och företags-SaaS på global nivå",
-            "Expert på säkra, efterlevande systemarkitekturer",
-            "Owns Sundae's infrastructure reliability and real-time data pipeline"
+            "Djup erfarenhet som senior operatör och kommersiella F&B-relationer vid bordet från dag ett",
+            "Tillfällig C-nivå- och styrelsenära rådgivning till fler-enhets gästfrihetoperatörer i GCC och Europa",
+            "Öppnar dörrar till stora företag och stresstestar Pulse, Insights och Foresight mot vad F&B-ledningen faktiskt behöver",
+            "Ägare av Curfs Consult som samarbetar med grundare kring go-to-market, kapitalanskaffning och skalning"
           ]
         }
       ],
@@ -3495,7 +3546,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Första Implementeringar",
-          "description": "Samarbetade med fler-märkes restauranggrupper i UAE och Kanada. Verkliga data, verkliga operatörer, verkliga beslut från dag ett."
+          "description": "Samarbetade med fler-märkes restauranggrupper i UAE. Verkliga data, verkliga operatörer, verkliga beslut från dag ett."
         },
         {
           "year": "2026",
@@ -3539,26 +3590,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Aktiva marknader",
+        "expanding": "Expansionsmarknader"
+      },
+      "presenceFootnote": "Aktiva marknader omfattar fysisk verksamhet (Amsterdam, Dubai) och företagets juridiska hemvist (USA · Delaware C-Corp). Nordamerika (New York, Toronto) och andra expansionsmarknader är strategiska prioriteringar på färdplanen; samarbetet börjar från befintliga hubbar.",
       "regions": [
         {
-          "region": "Mellanöstern",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Aktiv"
+          "region": "Amsterdam",
+          "countries": "Europa-hubb",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Nordamerika",
-          "countries": "USA, Kanada",
-          "label": "Aktiv"
+          "region": "Dubai",
+          "countries": "MEA-hubb",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Storbritannien, Tyskland, Frankrike",
-          "label": "Mål"
+          "region": "USA",
+          "countries": "Delaware C-Corp",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Asien och Stillahavsområdet",
-          "countries": "Australien, Singapore",
-          "label": "Mål"
+          "region": "New York",
+          "countries": "Nordamerika",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Nordamerika",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Kommer snart",
+          "tier": "expanding"
         }
       ],
       "title": "Intelligenslagret som restauranger aldrig haft"
@@ -3648,39 +3738,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "দানিশ সিদ্দিকী",
-          "role": "চিফ গ্রোথ অফিসার",
-          "location": "দুবাই",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "কৌশলগত অপারেটিং পার্টনার",
+          "location": "GCC ও ইউরোপ",
+          "image": "",
           "bullets": [
-            "5x প্রতিষ্ঠাতা, 2 সফল এক্সিট এবং $100M এর বেশি ব্যবসা গড়ে তোলার অভিজ্ঞতা",
-            "0→1 ক্যাটাগরি তৈরি এবং পণ্য-নেতৃত্বাধীন বৃদ্ধিতে বিশেষজ্ঞ",
-            "পণ্য, বিপণন এবং বাজারে প্রবেশের কার্যকরী 18+ বছরের অভিজ্ঞতা",
-            "রেস্তোরাঁ বুদ্ধিমত্তা এবং বৃদ্ধির ক্ষেত্রে Sundaeর বাজার অবস্থান নেতৃত্ব দেন"
-          ]
-        },
-        {
-          "name": "অলিসা প্যারাবানি",
-          "role": "পণ্য প্রধান",
-          "location": "টরন্টো",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "পূর্ববর্তী ওয়ালমার্ট কানাডার সিস্টেম ইঞ্জিনিয়ার - এন্টারপ্রাইজ স্কেলে নির্মাণ করেছেন",
-            "3টি পণ্য লাইন চালু করেছেন, সবই 18 মাসের মধ্যে লাভজনক",
-            "অপারেটরের প্রয়োজনগুলোকে পরিমাপযোগ্য পণ্য ROI-তে রূপান্তরিত করেন",
-            "প্রতিটি মডিউল নিশ্চিত করে যে এটি অপারেটরদের শিফটে সম্মুখীন হওয়া একটি বাস্তব সমস্যা সমাধান করে"
-          ]
-        },
-        {
-          "name": "নাভিদ নাদির",
-          "role": "প্রযুক্তি প্রধান",
-          "location": "টরন্টো",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "10M+ দৈনিক লেনদেন পরিচালনার জন্য এন্টারপ্রাইজ SaaS প্ল্যাটফর্ম তৈরি করেছেন",
-            "বিশ্বব্যাপী স্কেলে অটোমোটিভ এবং এন্টারপ্রাইজ SaaS-এ অভিজ্ঞ প্রকৌশলী",
-            "নিরাপদ, সম্মতিপ্রাপ্ত সিস্টেম আর্কিটেকচারে বিশেষজ্ঞ",
-            "Sundaeর অবকাঠামোর নির্ভরযোগ্যতা এবং রিয়েল-টাইম ডেটা পাইপলাইনের মালিক"
+            "প্রথম দিন থেকেই সিনিয়র অপারেটরের গভীরতা এবং খাদ্য ও পানীয় শিল্পের বাণিজ্যিক সম্পর্ক টেবিলে উপস্থিত",
+            "GCC ও ইউরোপ জুড়ে বহু ইউনিট হসপিটালিটি অপারেটরদের জন্য অন্তর্বর্তী সি-লেভেল এবং বোর্ড-সংলগ্ন পরামর্শ",
+            "বড় প্রতিষ্ঠানের দরজা খোলেন এবং খাদ্য ও পানীয় নেতৃত্বের প্রকৃত প্রয়োজনের নিরিখে Pulse, Insights ও Foresight যাচাই করেন",
+            "Curfs Consult-এর প্রধান, যিনি প্রতিষ্ঠাতাদের সাথে বাজারে প্রবেশ, তহবিল সংগ্রহ এবং সম্প্রসারণে কাজ করেন"
           ]
         }
       ],
@@ -3693,7 +3759,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "প্রথম স্থাপনাগুলি",
-          "description": "UAE এবং কানাডার বহু ব্র্যান্ড রেস্তোরাঁ গ্রুপের সাথে অংশীদারিত্ব। বাস্তব তথ্য, বাস্তব অপারেটর, প্রথম দিন থেকেই বাস্তব সিদ্ধান্ত।"
+          "description": "UAE-এর বহু ব্র্যান্ড রেস্তোরাঁ গ্রুপের সাথে অংশীদারিত্ব। বাস্তব তথ্য, বাস্তব অপারেটর, প্রথম দিন থেকেই বাস্তব সিদ্ধান্ত।"
         },
         {
           "year": "2026",
@@ -3737,26 +3803,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "সক্রিয় বাজার",
+        "expanding": "সম্প্রসারণ বাজার"
+      },
+      "presenceFootnote": "সক্রিয় বাজারের মধ্যে রয়েছে বাস্তব কার্যক্রম (আমস্টারডাম, দুবাই) এবং কোম্পানির আইনি সদর দপ্তর (মার্কিন যুক্তরাষ্ট্র · ডেলাওয়্যার সি-কর্প)। উত্তর আমেরিকা (নিউ ইয়র্ক, টরন্টো) এবং অন্যান্য সম্প্রসারণ বাজার রোডম্যাপে কৌশলগত অগ্রাধিকার; সম্পৃক্ততা বিদ্যমান কেন্দ্রগুলি থেকে শুরু হয়।",
       "regions": [
         {
-          "region": "মধ্যপ্রাচ্য",
-          "countries": "ইউএই, সৌদি আরব, কাতার",
-          "label": "সক্রিয়"
+          "region": "আমস্টারডাম",
+          "countries": "ইউরোপ কেন্দ্র",
+          "label": "সক্রিয়",
+          "tier": "active"
         },
         {
-          "region": "উত্তর আমেরিকা",
-          "countries": "মার্কিন যুক্তরাষ্ট্র, কানাডা",
-          "label": "সক্রিয়"
+          "region": "দুবাই",
+          "countries": "MEA কেন্দ্র",
+          "label": "সক্রিয়",
+          "tier": "active"
         },
         {
-          "region": "ইউরোপ",
-          "countries": "যুক্তরাজ্য, জার্মানি, ফ্রান্স",
-          "label": "লক্ষ্য"
+          "region": "মার্কিন যুক্তরাষ্ট্র",
+          "countries": "ডেলাওয়্যার সি-কর্প",
+          "label": "সক্রিয়",
+          "tier": "active"
         },
         {
-          "region": "এশিয়া প্যাসিফিক",
-          "countries": "অস্ট্রেলিয়া, সিঙ্গাপুর",
-          "label": "লক্ষ্য"
+          "region": "নিউ ইয়র্ক",
+          "countries": "উত্তর আমেরিকা",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "টরন্টো",
+          "countries": "উত্তর আমেরিকা",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "সিঙ্গাপুর",
+          "countries": "APAC",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "টোকিও",
+          "countries": "APAC",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "মেক্সিকো সিটি",
+          "countries": "LATAM",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "সাও পাওলো",
+          "countries": "LATAM",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
         }
       ],
       "title": "যে ইন্টেলিজেন্স লেয়ার রেস্তোরাঁর কখনও ছিল না"
@@ -3846,39 +3951,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "ดานิช ซิดดิกี",
-          "role": "ประธานเจ้าหน้าที่ฝ่ายการเติบโต",
-          "location": "ดูไบ",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "พันธมิตรปฏิบัติการเชิงกลยุทธ์",
+          "location": "GCC และยุโรป",
+          "image": "",
           "bullets": [
-            "ผู้ก่อตั้ง 5 รายที่มีการออกจากธุรกิจที่ประสบความสำเร็จ 2 รายและมีประสบการณ์ในการสร้างธุรกิจที่มีมูลค่ามากกว่า 100 ล้านดอลลาร์สหรัฐ",
-            "ผู้เชี่ยวชาญด้านการสร้างหมวดหมู่จาก 0→1 และการเติบโตที่ขับเคลื่อนด้วยผลิตภัณฑ์",
-            "มีประสบการณ์กว่า 18 ปีในด้านผลิตภัณฑ์ การตลาด และการดำเนินการเข้าสู่ตลาด",
-            "นำตำแหน่งตลาดของ Sundae ในด้านข้อมูลเชิงปฏิบัติการและการเติบโตของร้านอาหาร"
-          ]
-        },
-        {
-          "name": "อลิสซา พาราบานี",
-          "role": "หัวหน้าฝ่ายผลิตภัณฑ์",
-          "location": "โตรอนโต",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "อดีตวิศวกรระบบของ Walmart Canada - สร้างในระดับองค์กร",
-            "เปิดตัวผลิตภัณฑ์ 3 รายการ ซึ่งทั้งหมดมีกำไรภายใน 18 เดือน",
-            "แปลความต้องการของผู้ประกอบการเป็นผลตอบแทนจากการลงทุนที่วัดได้ในผลิตภัณฑ์",
-            "รับประกันว่าทุกโมดูลแก้ปัญหาจริงที่ผู้ประกอบการเผชิญในระหว่างการทำงาน"
-          ]
-        },
-        {
-          "name": "นาวีด นาดีร์",
-          "role": "หัวหน้าฝ่ายเทคโนโลยี",
-          "location": "โตรอนโต",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "สร้างแพลตฟอร์ม SaaS สำหรับองค์กรที่จัดการธุรกรรมมากกว่า 10 ล้านรายการต่อวัน",
-            "วิศวกรที่มีประสบการณ์ในด้านยานยนต์และ SaaS สำหรับองค์กรในระดับโลก",
-            "ผู้เชี่ยวชาญด้านสถาปัตยกรรมระบบที่ปลอดภัยและเป็นไปตามข้อกำหนด",
-            "ดูแลความน่าเชื่อถือของโครงสร้างพื้นฐานของ Sundae และข้อมูลเรียลไทม์"
+            "ความลึกของผู้ประกอบการอาวุโสและความสัมพันธ์เชิงพาณิชย์ด้านอาหารและเครื่องดื่มที่อยู่บนโต๊ะตั้งแต่วันแรก",
+            "ที่ปรึกษาระดับผู้บริหาร C ชั่วคราวและใกล้ชิดคณะกรรมการสำหรับผู้ประกอบการการบริการหลายหน่วยทั่ว GCC และยุโรป",
+            "เปิดประตูสู่องค์กรขนาดใหญ่และทดสอบ Pulse, Insights และ Foresight กับสิ่งที่ผู้นำด้านอาหารและเครื่องดื่มต้องการจริง",
+            "ผู้บริหารของ Curfs Consult ที่ร่วมงานกับผู้ก่อตั้งในด้านการเข้าสู่ตลาด การระดมทุน และการขยายตัว"
           ]
         }
       ],
@@ -3891,7 +3972,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "การใช้งานครั้งแรก",
-          "description": "ร่วมมือกับกลุ่มร้านอาหารหลายแบรนด์ใน UAE และแคนาดา ข้อมูลจริง ผู้ประกอบการจริง การตัดสินใจจริงตั้งแต่วันแรก."
+          "description": "ร่วมมือกับกลุ่มร้านอาหารหลายแบรนด์ใน UAE ข้อมูลจริง ผู้ประกอบการจริง การตัดสินใจจริงตั้งแต่วันแรก."
         },
         {
           "year": "2026",
@@ -3935,26 +4016,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "ตลาดที่ใช้งานอยู่",
+        "expanding": "ตลาดขยายตัว"
+      },
+      "presenceFootnote": "ตลาดที่ใช้งานอยู่รวมถึงการดำเนินงานจริง (อัมสเตอร์ดัม, ดูไบ) และสำนักงานใหญ่ตามกฎหมายของบริษัท (สหรัฐอเมริกา · Delaware C-Corp) อเมริกาเหนือ (นิวยอร์ก, โตรอนโต) และตลาดขยายตัวอื่นๆ เป็นลำดับความสำคัญเชิงกลยุทธ์ในแผนงาน การมีส่วนร่วมเริ่มต้นจากศูนย์กลางที่มีอยู่.",
       "regions": [
         {
-          "region": "ตะวันออกกลาง",
-          "countries": "สหรัฐอาหรับเอมิเรตส์, ซาอุดีอาระเบีย, กาตาร์",
-          "label": "ใช้งานอยู่"
+          "region": "อัมสเตอร์ดัม",
+          "countries": "ศูนย์กลางยุโรป",
+          "label": "ใช้งานอยู่",
+          "tier": "active"
         },
         {
-          "region": "อเมริกาเหนือ",
-          "countries": "สหรัฐอเมริกา, แคนาดา",
-          "label": "ใช้งานอยู่"
+          "region": "ดูไบ",
+          "countries": "ศูนย์กลาง MEA",
+          "label": "ใช้งานอยู่",
+          "tier": "active"
         },
         {
-          "region": "ยุโรป",
-          "countries": "สหราชอาณาจักร, เยอรมนี, ฝรั่งเศส",
-          "label": "เป้าหมาย"
+          "region": "สหรัฐอเมริกา",
+          "countries": "Delaware C-Corp",
+          "label": "ใช้งานอยู่",
+          "tier": "active"
         },
         {
-          "region": "เอเชียแปซิฟิก",
-          "countries": "ออสเตรเลีย, สิงคโปร์",
-          "label": "เป้าหมาย"
+          "region": "นิวยอร์ก",
+          "countries": "อเมริกาเหนือ",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "โตรอนโต",
+          "countries": "อเมริกาเหนือ",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "สิงคโปร์",
+          "countries": "APAC",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "โตเกียว",
+          "countries": "APAC",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "เม็กซิโกซิตี",
+          "countries": "LATAM",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "เซาเปาโล",
+          "countries": "LATAM",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
         }
       ],
       "title": "ชั้นอัจฉริยะที่ร้านอาหารไม่เคยมี"
@@ -4044,39 +4164,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Ketua Pertumbuhan",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Rakan Operasi Strategik",
+          "location": "GCC & Eropah",
+          "image": "",
           "bullets": [
-            "Pengasas 5x dengan 2 kejayaan keluar dan pengalaman membina perniagaan melebihi $100M",
-            "Pakar dalam penciptaan kategori 0→1 dan pertumbuhan yang dipimpin produk",
-            "18+ tahun dalam produk, pemasaran, dan pelaksanaan go-to-market",
-            "Memimpin kedudukan pasaran Sundae dalam kecerdasan restoran dan pertumbuhan"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Ketua Produk",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Bekas jurutera sistem Walmart Canada - dibina pada skala perusahaan",
-            "3 barisan produk dilancarkan, semuanya menguntungkan dalam 18 bulan",
-            "Menterjemahkan keperluan operator kepada ROI produk yang boleh diukur",
-            "Memastikan setiap modul menyelesaikan masalah sebenar yang dihadapi operator semasa bertugas"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Ketua Teknologi",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Membina platform SaaS perusahaan yang mengendalikan 10M+ transaksi harian",
-            "Jurutera berpengalaman dalam automotif dan SaaS perusahaan pada skala global",
-            "Pakar dalam seni bina sistem yang selamat dan mematuhi",
-            "Menguruskan kebolehpercayaan infrastruktur Sundae dan saluran data masa nyata"
+            "Kedalaman pengendali kanan dan hubungan komersial F&B di meja sejak hari pertama",
+            "Nasihat peringkat C sementara dan rapat dengan lembaga pengarah untuk pengendali hospitaliti pelbagai unit di seluruh GCC dan Eropah",
+            "Membuka pintu perusahaan besar dan menguji Pulse, Insights dan Foresight terhadap apa yang sebenarnya diperlukan oleh kepimpinan F&B",
+            "Pengarah Curfs Consult, bekerjasama dengan pengasas dalam go-to-market, pengumpulan dana dan penskalaan"
           ]
         }
       ],
@@ -4089,7 +4185,7 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Penghantaran Pertama",
-          "description": "Berkongsi dengan kumpulan restoran pelbagai jenama di UAE dan Kanada. Data sebenar, pengendali sebenar, keputusan sebenar dari hari pertama."
+          "description": "Berkongsi dengan kumpulan restoran pelbagai jenama di UAE. Data sebenar, pengendali sebenar, keputusan sebenar dari hari pertama."
         },
         {
           "year": "2026",
@@ -4133,26 +4229,65 @@ export const generatedLocalCopy = {
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Pasaran aktif",
+        "expanding": "Pasaran pengembangan"
+      },
+      "presenceFootnote": "Pasaran aktif merangkumi operasi fizikal (Amsterdam, Dubai) dan ibu pejabat sah syarikat (Amerika Syarikat · Delaware C-Corp). Amerika Utara (New York, Toronto) dan pasaran pengembangan lain merupakan keutamaan strategik dalam peta hala tuju; penglibatan bermula daripada hab sedia ada.",
       "regions": [
         {
-          "region": "Timur Tengah",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Aktif"
+          "region": "Amsterdam",
+          "countries": "Hab Eropah",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Amerika Utara",
-          "countries": "USA, Kanada",
-          "label": "Aktif"
+          "region": "Dubai",
+          "countries": "Hab MEA",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Eropah",
-          "countries": "UK, Jerman, Perancis",
-          "label": "Sasaran"
+          "region": "Amerika Syarikat",
+          "countries": "Delaware C-Corp",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Asia Pasifik",
-          "countries": "Australia, Singapura",
-          "label": "Sasaran"
+          "region": "New York",
+          "countries": "Amerika Utara",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Amerika Utara",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapura",
+          "countries": "APAC",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Akan datang",
+          "tier": "expanding"
         }
       ],
       "title": "Lapisan kecerdasan yang restoran tidak pernah miliki"
