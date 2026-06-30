@@ -6,9 +6,12 @@ import { PhoneFrame } from '@/components/ui/PhoneFrame';
 import { CrewClockInMobile } from '@/components/crew/CrewClockInMobile';
 import { timeAttendanceCopy } from '@/components/crew/moduleCopies';
 
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { generatedLocalCopy } from '@/generated-locales/app_crew_time_attendance_page';
+
 export default function Page() {
   const { locale } = useWebsiteI18n();
-  const copy = timeAttendanceCopy[locale as keyof typeof timeAttendanceCopy] ?? timeAttendanceCopy.en;
+  const copy = getGeneratedLocalCopy(timeAttendanceCopy, generatedLocalCopy.copy, locale) ?? timeAttendanceCopy.en;
   return (
     <CrewModulePage
       slug="time-attendance"

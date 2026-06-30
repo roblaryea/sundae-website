@@ -7,9 +7,12 @@ import { CrewSchedulingMobile } from '@/components/crew/CrewSchedulingMobile';
 import { CrewSchedulingManagerMobile } from '@/components/crew/CrewSchedulingManagerMobile';
 import { schedulingCopy } from './schedulingCopy';
 
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { generatedLocalCopy } from '@/generated-locales/app_crew_scheduling_page';
+
 export default function CrewSchedulingPage() {
   const { locale } = useWebsiteI18n();
-  const copy = schedulingCopy[locale as keyof typeof schedulingCopy] ?? schedulingCopy.en;
+  const copy = getGeneratedLocalCopy(schedulingCopy, generatedLocalCopy.copy, locale) ?? schedulingCopy.en;
 
   return (
     <CrewModulePage

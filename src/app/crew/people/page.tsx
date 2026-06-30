@@ -5,9 +5,12 @@ import { CrewModulePage } from '@/components/crew/CrewModulePage';
 import { ThemedShot } from '@/components/ui/ThemedShot';
 import { peopleCopy } from '@/components/crew/moduleCopies';
 
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { generatedLocalCopy } from '@/generated-locales/app_crew_people_page';
+
 export default function Page() {
   const { locale } = useWebsiteI18n();
-  const copy = peopleCopy[locale as keyof typeof peopleCopy] ?? peopleCopy.en;
+  const copy = getGeneratedLocalCopy(peopleCopy, generatedLocalCopy.copy, locale) ?? peopleCopy.en;
   return (
     <CrewModulePage
       slug="people"

@@ -5,9 +5,12 @@ import { CrewModulePage } from '@/components/crew/CrewModulePage';
 import { ThemedShot } from '@/components/ui/ThemedShot';
 import { payrollCopy } from '@/components/crew/moduleCopies';
 
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { generatedLocalCopy } from '@/generated-locales/app_crew_payroll_page';
+
 export default function Page() {
   const { locale } = useWebsiteI18n();
-  const copy = payrollCopy[locale as keyof typeof payrollCopy] ?? payrollCopy.en;
+  const copy = getGeneratedLocalCopy(payrollCopy, generatedLocalCopy.copy, locale) ?? payrollCopy.en;
   return (
     <CrewModulePage
       slug="payroll"
