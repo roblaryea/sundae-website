@@ -8,6 +8,8 @@ import { FadeUp } from '@/components/ui/PageAnimations';
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { SundaeIcon } from '@/components/icons';
 import { REPORT_APP_URL } from '@/lib/urls';
+import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { crewNavLocales } from '@/lib/crewNavLocales';
 import { CREW_MODULES, type CrewModuleSlug } from './crewModules';
 
 export type CrewModuleCopy = {
@@ -56,7 +58,14 @@ export function CrewModulePage({
   copy: CrewModuleCopy;
   heroVisual: ReactNode;
 }) {
-  const related = CREW_MODULES.filter((m) => m.slug !== slug);
+  // Localized name + tagline for the related-module cards (icons stay from the
+  // canonical module list); falls back to English for any locale that lacks them.
+  const { locale } = useWebsiteI18n();
+  const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
+  const related = CREW_MODULES.filter((m) => m.slug !== slug).map((m) => {
+    const loc = cn.crewList.find((c) => c.href === m.href);
+    return { ...m, name: loc?.name ?? m.name, tagline: loc?.description ?? m.tagline };
+  });
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-[var(--navy-deep)]">
