@@ -5,9 +5,12 @@ import { CrewModulePage } from '@/components/crew/CrewModulePage';
 import { ThemedShot } from '@/components/ui/ThemedShot';
 import { peopleIntelligenceCopy } from '@/components/crew/moduleCopies';
 
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
+import { generatedLocalCopy } from '@/generated-locales/app_crew_people_intelligence_page';
+
 export default function Page() {
   const { locale } = useWebsiteI18n();
-  const copy = peopleIntelligenceCopy[locale as keyof typeof peopleIntelligenceCopy] ?? peopleIntelligenceCopy.en;
+  const copy = getGeneratedLocalCopy(peopleIntelligenceCopy, generatedLocalCopy.copy, locale) ?? peopleIntelligenceCopy.en;
   return (
     <CrewModulePage
       slug="people-intelligence"

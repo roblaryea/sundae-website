@@ -14,7 +14,7 @@ import { SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
-import { localizeWebsiteHref } from '@/lib/i18n';
+import { localizeWebsiteHref, websiteMessages } from '@/lib/i18n';
 
 type NavbarLink = {
   name: string;
@@ -118,6 +118,9 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
 const Navbar = () => {
   const { locale, messages } = useWebsiteI18n();
   const nav = messages.navbar;
+  // Non-English locales each carry their own full navbar block; new fields added
+  // only to English fall back to English here so the nav never crashes on them.
+  const navEn = websiteMessages.en.navbar;
   const cta = useCta();
   // Wordmark is CSS theme-swapped in the markup below (driven by the .light class,
   // which is set before hydration) - no JS state, so no flash and no stale-src caching.
@@ -212,7 +215,7 @@ const Navbar = () => {
   const plans: ReadonlyArray<NavbarLink> = nav.plansList;
 
   // Sundae Crew operational modules (Product → Sundae Crew group)
-  const crewLinks: ReadonlyArray<NavbarLink> = nav.crewList;
+  const crewLinks: ReadonlyArray<NavbarLink> = nav.crewList ?? navEn.crewList;
 
   // Solutions organized by category
   const solutionsSegments: ReadonlyArray<NavbarLink> = nav.solutionsSegments;
@@ -287,7 +290,7 @@ const Navbar = () => {
                   {/* Core — the decision-intelligence modules */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.core}
+                      {nav.core ?? navEn.core}
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
                       {pillars.map((pillar) => (
@@ -314,7 +317,7 @@ const Navbar = () => {
                   {/* Sundae Crew — the operational modules */}
                   <div>
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.crew}
+                      {nav.crew ?? navEn.crew}
                     </h3>
                     <div className="grid grid-cols-2 gap-1 mb-2">
                       {crewLinks.map((m) => (
@@ -335,7 +338,7 @@ const Navbar = () => {
                         className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        {nav.crewAll}
+                        {nav.crewAll ?? navEn.crewAll}
                       </Link>
                     </div>
                   </div>
@@ -460,7 +463,7 @@ const Navbar = () => {
                         className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        {nav.viewPricing}
+                        {nav.viewPricing ?? navEn.viewPricing}
                       </a>
                     </div>
                   </div>
@@ -644,7 +647,7 @@ const Navbar = () => {
               onToggle={() => toggleSection('product')}
             >
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{nav.core}</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.core ?? navEn.core}</span>
               </div>
               {pillars.map((pillar) => (
                 <MobileNavLink
@@ -657,7 +660,7 @@ const Navbar = () => {
               ))}
               <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{nav.crew}</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.crew ?? navEn.crew}</span>
               </div>
               {crewLinks.map((m) => (
                 <MobileNavLink
@@ -673,7 +676,7 @@ const Navbar = () => {
                 onClick={handleMobileNavClick}
                 isHighlighted
               >
-                {nav.crewAll}
+                {nav.crewAll ?? navEn.crewAll}
               </MobileNavLink>
             </AccordionSection>
 
@@ -741,7 +744,7 @@ const Navbar = () => {
                 onClick={handleMobileNavClick}
                 className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]"
               >
-                {nav.viewPricing}
+                {nav.viewPricing ?? navEn.viewPricing}
               </a>
             </AccordionSection>
 
