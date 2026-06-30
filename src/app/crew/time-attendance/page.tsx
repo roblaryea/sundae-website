@@ -2,7 +2,7 @@
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
-import { PhoneFrame } from '@/components/ui/PhoneFrame';
+import { PhoneCarousel } from '@/components/ui/PhoneCarousel';
 import { CrewClockInMobile } from '@/components/crew/CrewClockInMobile';
 import { timeAttendanceCopy } from '@/components/crew/moduleCopies';
 
@@ -17,9 +17,7 @@ export default function Page() {
       slug="time-attendance"
       copy={copy}
       heroVisual={
-        <PhoneFrame screenBg="#020617" time="5:18">
-          <CrewClockInMobile />
-        </PhoneFrame>
+        <PhoneCarousel screenBg="#020617" time="5:18" screens={[<CrewClockInMobile key="clock" />]} />
       }
     />
   );

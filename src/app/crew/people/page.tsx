@@ -2,7 +2,7 @@
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
-import { PhoneFrame } from '@/components/ui/PhoneFrame';
+import { PhoneCarousel } from '@/components/ui/PhoneCarousel';
 import { CrewTimeOffMobile } from '@/components/crew/CrewTimeOffMobile';
 import { peopleCopy } from '@/components/crew/moduleCopies';
 
@@ -17,9 +17,7 @@ export default function Page() {
       slug="people"
       copy={copy}
       heroVisual={
-        <PhoneFrame screenBg="#020617" time="3:00">
-          <CrewTimeOffMobile />
-        </PhoneFrame>
+        <PhoneCarousel screenBg="#020617" time="3:00" screens={[<CrewTimeOffMobile key="timeoff" />]} />
       }
     />
   );
