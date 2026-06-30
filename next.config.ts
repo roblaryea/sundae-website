@@ -43,6 +43,22 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Core product pages unified under /product/* — keep old top-level URLs working
+      {
+        source: '/intelligence',
+        destination: '/product/intelligence',
+        permanent: true,
+      },
+      {
+        source: '/insights',
+        destination: '/product/insights',
+        permanent: true,
+      },
+      {
+        source: '/benchmarking',
+        destination: '/product/benchmarking',
+        permanent: true,
+      },
       {
         source: '/pricing',
         destination: pricingUrl,

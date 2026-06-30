@@ -826,7 +826,7 @@ export default function CrewPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
                   {copy.coverageItems.map((item) => (
                     <div key={item.title} className="flex items-start gap-3">
-                      <svg className="w-4 h-4 text-[#FF8473] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                      <svg className="w-4 h-4 text-[#22C55E] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
                       <div>
                         <div className="font-display text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
                         <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
@@ -890,7 +890,7 @@ export default function CrewPage() {
                   <ul className="space-y-1.5">
                     {m.included.map((inc) => (
                       <li key={inc} className="flex items-start gap-2">
-                        <svg className="w-3.5 h-3.5 text-[#FF8473] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                        <svg className="w-3.5 h-3.5 text-[#22C55E] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
                         <span className="text-[12px] text-[var(--text-muted)] leading-snug">{inc}</span>
                       </li>
                     ))}
