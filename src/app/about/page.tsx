@@ -51,7 +51,7 @@ const aboutCopy = {
     pillarsSubtitle: ["Real-Time Operations", "Competitive Intelligence", "Market Intelligence", "12 Analytics Modules", "Conversational AI", "Predictive Intelligence"],
     leadership: [
       { name: "Robert Laryea", role: "Founder & CEO", location: "Dubai", image: "/team/robert-laryea.jpg", bullets: ["Scaled multi-unit restaurant concepts from zero to $10M+ annual revenue", "Saw first-hand how fragmented data costs operators millions in margin leakage", "20+ years leading transformation programs across consulting and F&B", "Built Sundae to give restaurant groups the operating intelligence he wished they had earlier"] },
-      { name: "Mark Curfs", role: "Strategic Operating Partner", location: "GCC & Europe", image: "", bullets: ["Senior operator depth and F&B commercial relationships at the table from day one", "Interim C-level and board-adjacent counsel to multi-unit hospitality operators across the GCC and Europe", "Opens enterprise doors and pressure-tests Pulse, Insights and Foresight against what F&B leadership actually needs", "Principal of Curfs Consult, partnering with founders on go-to-market, fundraise and scale"] },
+      { name: "Mark Curfs", role: "Strategic Operating Partner", location: "GCC & Europe", image: "/team/mark-curfs.jpg", bullets: ["Senior operator depth and F&B commercial relationships at the table from day one", "Interim C-level and board-adjacent counsel to multi-unit hospitality operators across the GCC and Europe", "Opens enterprise doors and pressure-tests Pulse, Insights and Foresight against what F&B leadership actually needs", "Principal of Curfs Consult, partnering with founders on go-to-market, fundraise and scale"] },
     ],
     milestones: [
       { year: "2025", title: "Sundae Founded", description: "Built from direct operator pain - fragmented data costing multi-unit groups millions in invisible margin loss." },
@@ -122,7 +122,7 @@ const aboutCopy = {
     pillarsSubtitle: ["عمليات لحظية", "ذكاء تنافسي", "ذكاء سوقي", "12 وحدة تحليل", "ذكاء محادثي", "ذكاء تنبؤي"],
     leadership: [
       { name: "Robert Laryea", role: "المؤسس والرئيس التنفيذي", location: "دبي", image: "/team/robert-laryea.jpg", bullets: ["وسّع مفاهيم مطاعم متعددة الفروع من الصفر إلى أكثر من 10 ملايين دولار سنويًا", "رأى كيف تكلف البيانات المجزأة المشغلين ملايين في خسائر هامشية غير مرئية", "أكثر من 20 سنة في برامج التحول العالمية عبر الاستشارات والمأكولات والمشروبات", "بنى Sundae ليمنح مجموعات المطاعم نظام قرار موحدًا كان ينقصها في التشغيل اليومي"] },
-      { name: "Mark Curfs", role: "شريك تشغيلي استراتيجي", location: "GCC وأوروبا", image: "", bullets: ["عمق خبرة تشغيلية رفيعة وعلاقات تجارية في قطاع الأطعمة والمشروبات حاضرة منذ اليوم الأول", "مشورة بمستوى تنفيذي مؤقت وقريبة من مجالس الإدارة لمشغّلي الضيافة متعددي الفروع عبر الخليج وأوروبا", "يفتح أبواب المؤسسات الكبرى ويختبر Pulse وInsights وForesight مقابل ما تحتاجه قيادة الأطعمة والمشروبات فعليًا", "مؤسس Curfs Consult، يعمل مع المؤسسين على دخول السوق وجمع التمويل والتوسع"] },
+      { name: "Mark Curfs", role: "شريك تشغيلي استراتيجي", location: "GCC وأوروبا", image: "/team/mark-curfs.jpg", bullets: ["عمق خبرة تشغيلية رفيعة وعلاقات تجارية في قطاع الأطعمة والمشروبات حاضرة منذ اليوم الأول", "مشورة بمستوى تنفيذي مؤقت وقريبة من مجالس الإدارة لمشغّلي الضيافة متعددي الفروع عبر الخليج وأوروبا", "يفتح أبواب المؤسسات الكبرى ويختبر Pulse وInsights وForesight مقابل ما تحتاجه قيادة الأطعمة والمشروبات فعليًا", "مؤسس Curfs Consult، يعمل مع المؤسسين على دخول السوق وجمع التمويل والتوسع"] },
     ],
     milestones: [
       { year: "2025", title: "تأسيس Sundae", description: "ولدت من ألم مباشر للمشغلين - بيانات مجزأة تكلف المجموعات متعددة الفروع ملايين في خسائر هامشية خفية." },
@@ -193,7 +193,7 @@ const aboutCopy = {
     pillarsSubtitle: ["Opérations temps réel", "Intelligence concurrentielle", "Intelligence marché", "12 modules analytiques", "IA conversationnelle", "Intelligence prédictive"],
     leadership: [
       { name: "Robert Laryea", role: "Fondateur & CEO", location: "Dubaï", image: "/team/robert-laryea.jpg", bullets: ["A développé des concepts restaurant multi-sites de zéro à plus de 10 M$ de revenus annuels", "A constaté combien les données fragmentées coûtent aux opérateurs en marge invisible", "20+ ans à diriger des programmes de transformation mondiaux en conseil et F&B", "A créé Sundae pour donner aux groupes restaurant un système de décision unifié qui manquait dans l'exploitation quotidienne"] },
-      { name: "Mark Curfs", role: "Partenaire opérationnel stratégique", location: "GCC & Europe", image: "", bullets: ["Une expertise d'opérateur senior et des relations commerciales F&B autour de la table dès le premier jour", "Conseil de niveau C par intérim et proche des conseils d'administration pour les opérateurs d'hospitalité multi-sites à travers le GCC et l'Europe", "Ouvre les portes des grands comptes et met Pulse, Insights et Foresight à l'épreuve de ce dont les dirigeants F&B ont réellement besoin", "Dirigeant de Curfs Consult, accompagnant les fondateurs sur le go-to-market, la levée de fonds et la mise à l'échelle"] },
+      { name: "Mark Curfs", role: "Partenaire opérationnel stratégique", location: "GCC & Europe", image: "/team/mark-curfs.jpg", bullets: ["Une expertise d'opérateur senior et des relations commerciales F&B autour de la table dès le premier jour", "Conseil de niveau C par intérim et proche des conseils d'administration pour les opérateurs d'hospitalité multi-sites à travers le GCC et l'Europe", "Ouvre les portes des grands comptes et met Pulse, Insights et Foresight à l'épreuve de ce dont les dirigeants F&B ont réellement besoin", "Dirigeant de Curfs Consult, accompagnant les fondateurs sur le go-to-market, la levée de fonds et la mise à l'échelle"] },
     ],
     milestones: [
       { year: "2025", title: "Fondation de Sundae", description: "Née d'une douleur opérateur directe - des données fragmentées coûtant des millions en marge invisible." },
@@ -264,7 +264,7 @@ const aboutCopy = {
     pillarsSubtitle: ["Operaciones en tiempo real", "Inteligencia competitiva", "Inteligencia de mercado", "12 módulos analíticos", "IA conversacional", "Inteligencia predictiva"],
     leadership: [
       { name: "Robert Laryea", role: "Fundador y CEO", location: "Dubái", image: "/team/robert-laryea.jpg", bullets: ["Escaló conceptos de restaurantes multilocal desde cero hasta más de 10 M$ en ingresos anuales", "Vio cómo los datos fragmentados cuestan a los operadores millones en fuga de margen", "Más de 20 años liderando programas de transformación global en consultoría y F&B", "Creó Sundae para dar a los grupos de restaurantes un sistema de decisiones unificado que faltaba en la operación diaria"] },
-      { name: "Mark Curfs", role: "Socio operativo estratégico", location: "GCC y Europa", image: "", bullets: ["Profundidad de operador sénior y relaciones comerciales de F&B en la mesa desde el primer día", "Asesoría interina de nivel C y cercana al consejo para operadores de hostelería multilocal en el GCC y Europa", "Abre puertas en grandes cuentas y pone a prueba Pulse, Insights y Foresight frente a lo que la dirección de F&B realmente necesita", "Director de Curfs Consult, acompañando a fundadores en go-to-market, captación de fondos y escalado"] },
+      { name: "Mark Curfs", role: "Socio operativo estratégico", location: "GCC y Europa", image: "/team/mark-curfs.jpg", bullets: ["Profundidad de operador sénior y relaciones comerciales de F&B en la mesa desde el primer día", "Asesoría interina de nivel C y cercana al consejo para operadores de hostelería multilocal en el GCC y Europa", "Abre puertas en grandes cuentas y pone a prueba Pulse, Insights y Foresight frente a lo que la dirección de F&B realmente necesita", "Director de Curfs Consult, acompañando a fundadores en go-to-market, captación de fondos y escalado"] },
     ],
     milestones: [
       { year: "2025", title: "Fundación de Sundae", description: "Nacida del dolor directo del operador - datos fragmentados costando millones en margen invisible." },
@@ -408,12 +408,12 @@ export default async function AboutPage() {
             </div>
           </FadeUp>
           <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12 max-w-3xl mx-auto">
-            {copy.leadership.map((member) => (
+            {copy.leadership.map((member: { name: string; role: string; location: string; image: string; bullets: readonly string[] }) => (
               <StaggerItem key={member.name}>
                 <div className="text-center hover:-translate-y-2 transition-transform duration-300">
                   <div className="relative w-32 h-32 mx-auto mb-6">
                     {member.image ? (
-                      <Image src={member.image} alt={member.name} width={128} height={128} loading="lazy" className="w-full h-full rounded-full object-cover border-4 border-white/[0.1]" />
+                      <Image src={member.image} alt={member.name} width={128} height={128} loading="lazy" className="w-full h-full rounded-full object-cover border-4 border-white/[0.1] grayscale" />
                     ) : (
                       <div
                         className="flex h-full w-full items-center justify-center rounded-full border-4 border-white/[0.1] bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] text-3xl font-bold text-white"
