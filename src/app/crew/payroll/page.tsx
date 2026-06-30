@@ -4,6 +4,8 @@ import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
 import { PhoneCarousel } from '@/components/ui/PhoneCarousel';
 import { CrewPayrollMobile } from '@/components/crew/CrewPayrollMobile';
+import { CrewPayslipDetailMobile } from '@/components/crew/CrewPayslipDetailMobile';
+import { CrewPayRunMobile } from '@/components/crew/CrewPayRunMobile';
 import { payrollCopy } from '@/components/crew/moduleCopies';
 
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
@@ -17,7 +19,15 @@ export default function Page() {
       slug="payroll"
       copy={copy}
       heroVisual={
-        <PhoneCarousel screenBg="#020617" time="3:00" screens={[<CrewPayrollMobile key="pay" />]} />
+        <PhoneCarousel
+          screenBg="#020617"
+          time="3:00"
+          screens={[
+            <CrewPayrollMobile key="pay" />,
+            <CrewPayslipDetailMobile key="payslip" />,
+            <CrewPayRunMobile key="payrun" />,
+          ]}
+        />
       }
     />
   );
