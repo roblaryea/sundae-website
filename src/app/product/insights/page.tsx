@@ -18,6 +18,10 @@ import { CoreInsightsChartMobile } from '@/components/core/CoreInsightsChartMobi
 import { CoreInsightsDrillMobile } from '@/components/core/CoreInsightsDrillMobile';
 import { CoreInsightsHomeMobile } from '@/components/core/CoreInsightsHomeMobile';
 import { CoreRevenueModuleMobile } from '@/components/core/CoreRevenueModuleMobile';
+import { CoreInsightsCardCarouselMobile } from '@/components/core/CoreInsightsCardCarouselMobile';
+import { CoreInsightsGalleryMobile } from '@/components/core/CoreInsightsGalleryMobile';
+import { CoreInsightsAskMobile } from '@/components/core/CoreInsightsAskMobile';
+import { CoreInsightsCollabMobile } from '@/components/core/CoreInsightsCollabMobile';
 
 const localizedInsightsUi = {
   en: {
@@ -932,7 +936,11 @@ export default function InsightsPage() {
           <CoreInsightsMobile key="insights" />,
           <CoreRevenueModuleMobile key="insights-revenue" />,
           <CoreInsightsChartMobile key="insights-chart" />,
+          <CoreInsightsCardCarouselMobile key="insights-cards" />,
+          <CoreInsightsGalleryMobile key="insights-gallery" />,
           <CoreInsightsDrillMobile key="insights-drill" />,
+          <CoreInsightsAskMobile key="insights-ask" />,
+          <CoreInsightsCollabMobile key="insights-collab" />,
         ]}
       />
 
