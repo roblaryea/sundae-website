@@ -14,6 +14,9 @@ import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_intelligence_page'
 import { intelligenceCreamCopy } from './intelligenceCreamCopy'
+import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
+import { CoreAskWelcomeMobile } from '@/components/core/CoreAskWelcomeMobile';
+import { CoreAskThreadMobile } from '@/components/core/CoreAskThreadMobile';
 
 const localizedChatCopy = {
   en: {
@@ -568,6 +571,8 @@ export default function ChatWithDataPage() {
           </FadeUp>
         </div>
       </section>
+
+      <CoreMobileShowcase screens={[<CoreAskWelcomeMobile key="welcome" />, <CoreAskThreadMobile key="thread" />]} />
 
       {/* Product gallery - Intelligence surfaces in detail */}
       <SectionProductGallery

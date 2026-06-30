@@ -16,6 +16,8 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_foresight_page'
 import { SectionConviction } from '@/components/home/sections/SectionConviction'
 import { foresightConviction } from '@/components/home/sections/routeConvictionCopy'
+import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
+import { CoreForesightMobile } from '@/components/core/CoreForesightMobile';
 
 type ForesightMockupCopy = {
   timeline: {
@@ -702,6 +704,8 @@ export default function ForesightPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      <CoreMobileShowcase screens={[<CoreForesightMobile key="foresight" />]} />
 
       {/* Product gallery - Foresight surfaces in detail */}
       <SectionProductGallery
