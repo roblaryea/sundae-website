@@ -7,6 +7,7 @@ import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { SIGNUP_URL } from '@/lib/urls';
+import { crewNavLocales } from '@/lib/crewNavLocales';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { SundaeLogotype } from './ui/SundaeLogotype';
@@ -71,6 +72,14 @@ const Footer = () => {
   const planLinks = [
     ...nav.plansList.map((item) => ({ name: item.name, href: item.href })),
     { name: nav.comparePlans.replace(' →', ''), href: '/report-vs-core' },
+  ];
+
+  // Sundae Crew operational modules — mirrors the header's "Sundae Crew" group.
+  // Uses the 22-locale crewNavLocales source (same as the navbar) so the footer
+  // stays in sync and never crashes on a locale missing nav.crewList.
+  const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
+  const crewLinks = [
+    ...cn.crewList.map((item) => ({ name: item.name, href: item.href })),
   ];
 
   const solutionsBySegment: ReadonlyArray<FooterLink> = nav.solutionsSegments;
@@ -194,8 +203,20 @@ const Footer = () => {
               </svg>
             </button>
             <div className={openSections.has('product') ? 'block' : 'hidden md:block'}>
+            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-faint)] mb-2">Core</p>
             <ul className="space-y-2">
               {pillarLinks.map((link) => (
+                <li key={link.name}>
+                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <div className="border-t border-[var(--border-default)] my-3"></div>
+            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-faint)] mb-2">Sundae Crew</p>
+            <ul className="space-y-2">
+              {crewLinks.map((link) => (
                 <li key={link.name}>
                   <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
