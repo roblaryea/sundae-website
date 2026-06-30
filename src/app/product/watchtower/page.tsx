@@ -18,6 +18,8 @@ import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_p
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 import { SectionConviction } from "@/components/home/sections/SectionConviction";
 import { watchtowerConviction } from "@/components/home/sections/routeConvictionCopy";
+import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
+import { CoreWatchtowerMobile } from '@/components/core/CoreWatchtowerMobile';
 
 const localizedWatchtowerCopy = {
   en: {
@@ -655,6 +657,8 @@ export default function WatchtowerPage() {
           </div>
         </div>
       </section>
+
+      <CoreMobileShowcase screens={[<CoreWatchtowerMobile key="watch" />]} />
 
       {/* Product gallery - Watchtower surfaces in detail */}
       <SectionProductGallery

@@ -14,6 +14,8 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_benchmarking_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { benchmarkingCreamCopy } from "./benchmarkingCreamCopy";
+import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
+import { CoreBenchmarkMobile } from '@/components/core/CoreBenchmarkMobile';
 
 const localizedBenchmarkCopy = {
   en: {
@@ -289,6 +291,8 @@ export default function BenchmarkingPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      <CoreMobileShowcase screens={[<CoreBenchmarkMobile key="bench" />]} />
 
       {/* Product gallery - Benchmarking surfaces in detail */}
       <SectionProductGallery
