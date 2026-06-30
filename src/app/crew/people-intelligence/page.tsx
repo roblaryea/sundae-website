@@ -2,7 +2,8 @@
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
-import { ThemedShot } from '@/components/ui/ThemedShot';
+import { PhoneFrame } from '@/components/ui/PhoneFrame';
+import { CrewWorkforceHealthMobile } from '@/components/crew/CrewWorkforceHealthMobile';
 import { peopleIntelligenceCopy } from '@/components/crew/moduleCopies';
 
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
@@ -16,15 +17,9 @@ export default function Page() {
       slug="people-intelligence"
       copy={copy}
       heroVisual={
-        <ThemedShot
-          framed
-          dark="/images/product/2026-fresh/crew-benefits-dark.png"
-          light="/images/product/2026-fresh/crew-benefits.png"
-          alt="Sundae Crew — People Intelligence: workforce health, no-show risk and labor-cost trend in Labor Intelligence"
-          width={1600}
-          height={1000}
-          priority
-        />
+        <PhoneFrame screenBg="#020617" time="3:00">
+          <CrewWorkforceHealthMobile />
+        </PhoneFrame>
       }
     />
   );

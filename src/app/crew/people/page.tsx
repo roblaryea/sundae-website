@@ -2,7 +2,8 @@
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
-import { ThemedShot } from '@/components/ui/ThemedShot';
+import { PhoneFrame } from '@/components/ui/PhoneFrame';
+import { CrewTimeOffMobile } from '@/components/crew/CrewTimeOffMobile';
 import { peopleCopy } from '@/components/crew/moduleCopies';
 
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
@@ -16,15 +17,9 @@ export default function Page() {
       slug="people"
       copy={copy}
       heroVisual={
-        <ThemedShot
-          framed
-          dark="/images/product/2026-fresh/crew-people-dark.png"
-          light="/images/product/2026-fresh/crew-people.png"
-          alt="Sundae Crew — People & HR: hire-to-retire workforce records on one governed surface"
-          width={1600}
-          height={1000}
-          priority
-        />
+        <PhoneFrame screenBg="#020617" time="3:00">
+          <CrewTimeOffMobile />
+        </PhoneFrame>
       }
     />
   );
