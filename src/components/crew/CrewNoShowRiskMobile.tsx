@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Crew People Intelligence · B · No-show risk"
  * (DARK variant) from the Claude Design project — answers "which shifts might go
@@ -8,7 +10,43 @@
  *
  * Source: claude.ai/design 9d73e488 ·
  * "Sundae Crew People Intelligence.dc.html · B · No-show risk" (dark variant).
+ *
+ * Localized via useCrewScreen (EN base + per-locale overrides). This screen
+ * shows percentages, not money — strings localize; %/times/counts stay numeric.
+ * Proper nouns (people, JBR, DIFC, "Sundae — DIFC") are kept verbatim.
  */
+
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewNoShowRiskMobile.locales';
+
+const EN = {
+  // header
+  orgName: 'Sundae — DIFC',
+  // title
+  title: 'No-show risk',
+  tonight: 'Tonight',
+  allOutlets: 'all outlets',
+  // verdict
+  riskEyebrow: 'Risk',
+  tonightLower: 'tonight',
+  shifts: 'shifts',
+  verdictBody: 'Two shifts likely to go uncovered tonight — line up cover early.',
+  // section
+  atRiskShifts: 'At-risk shifts',
+  // risk badge suffix ("68% risk")
+  riskSuffix: 'risk',
+  // roles
+  roleBar: 'Bar',
+  roleServer: 'Server',
+  // drivers
+  driverNoClockIn: 'No clock-in last {n}',
+  driverLateThisMonth: 'Late {n}× this month',
+  driverSwappedTwice: 'Swapped twice',
+  driverOpenRequest: 'Open request pending',
+  // CTAs
+  lineUpCover: 'Line up cover',
+  lineUpCoverTonight: 'Line up cover for tonight',
+} as const;
 
 const T = {
   bg: '#020617',
@@ -35,6 +73,7 @@ function RiskShift({
   risk,
   time,
   drivers,
+  ctaLabel,
 }: {
   initials: string;
   avatar: string;
@@ -43,6 +82,7 @@ function RiskShift({
   risk: string;
   time: string;
   drivers: string[];
+  ctaLabel: string;
 }) {
   return (
     <div style={{ marginTop: 12, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 15 }}>
@@ -117,13 +157,15 @@ function RiskShift({
           cursor: 'pointer',
         }}
       >
-        Line up cover
+        {ctaLabel}
       </button>
     </div>
   );
 }
 
 export function CrewNoShowRiskMobile() {
+  const { t } = useCrewScreen(EN, LOC);
+
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       {/* header */}
@@ -155,7 +197,7 @@ export function CrewNoShowRiskMobile() {
           >
             S
           </span>
-          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae — DIFC</span>
+          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>{t.orgName}</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>▾</span>
         </button>
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
@@ -170,8 +212,10 @@ export function CrewNoShowRiskMobile() {
       {/* title */}
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', margin: '16px 2px 4px' }}>
         <div>
-          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>No-show risk</h1>
-          <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>Tonight · all outlets</div>
+          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>{t.title}</h1>
+          <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>
+            {t.tonight} · {t.allOutlets}
+          </div>
         </div>
       </div>
 
@@ -188,39 +232,41 @@ export function CrewNoShowRiskMobile() {
         }}
       >
         <span style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 5, background: T.warn }} />
-        <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>Risk · tonight</div>
+        <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>
+          {t.riskEyebrow} · {t.tonightLower}
+        </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 9 }}>
           <span style={{ width: 11, height: 11, borderRadius: '50%', background: T.warn, boxShadow: '0 0 0 4px rgba(245,158,11,.18)' }} />
-          <span style={{ font: `700 28px ${FONT}`, letterSpacing: '-.02em', color: T.warnk }}>2 shifts</span>
+          <span style={{ font: `700 28px ${FONT}`, letterSpacing: '-.02em', color: T.warnk }}>2 {t.shifts}</span>
         </div>
-        <div style={{ font: `500 13px/1.5 ${FONT}`, color: T.tx2, marginTop: 9 }}>
-          Two shifts likely to go uncovered tonight — line up cover early.
-        </div>
+        <div style={{ font: `500 13px/1.5 ${FONT}`, color: T.tx2, marginTop: 9 }}>{t.verdictBody}</div>
       </div>
 
       {/* at-risk shifts */}
       <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>
-        At-risk shifts
+        {t.atRiskShifts}
       </div>
 
       <RiskShift
         initials="JD"
         avatar={T.negk}
         name="Jonas Dietrich"
-        role="Bar · JBR"
-        risk="68% risk"
+        role={`${t.roleBar} · JBR`}
+        risk={`68% ${t.riskSuffix}`}
         time="8:00 PM – 2:00 AM · JBR"
-        drivers={['No clock-in last 2', 'Late 3× this month']}
+        drivers={[t.driverNoClockIn.replace('{n}', '2'), t.driverLateThisMonth.replace('{n}', '3')]}
+        ctaLabel={t.lineUpCover}
       />
 
       <RiskShift
         initials="MA"
         avatar={T.warn}
         name="Mona Aziz"
-        role="Server · DIFC"
-        risk="54% risk"
+        role={`${t.roleServer} · DIFC`}
+        risk={`54% ${t.riskSuffix}`}
         time="6:00 PM – 12:00 AM · DIFC"
-        drivers={['Swapped twice', 'Open request pending']}
+        drivers={[t.driverSwappedTwice, t.driverOpenRequest]}
+        ctaLabel={t.lineUpCover}
       />
 
       {/* bottom CTA */}
@@ -241,7 +287,7 @@ export function CrewNoShowRiskMobile() {
           gap: 8,
         }}
       >
-        Line up cover for tonight
+        {t.lineUpCoverTonight}
       </button>
     </div>
   );

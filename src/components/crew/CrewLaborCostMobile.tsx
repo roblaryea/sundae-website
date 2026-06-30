@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Sundae Crew People Intelligence · D · Labor cost"
  * (DARK variant) from the Claude Design project — answer-first labor-cost verdict
@@ -6,6 +8,26 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew People Intelligence.dc.html" · D · Labor cost.
  */
+
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewLaborCostMobile.locales';
+
+const EN = {
+  title: 'Labor cost',
+  subtitleLive: 'Live',
+  subtitleVsTarget: 'vs target',
+  heroLabel: 'Cost of labor',
+  heroPeriod: 'MTD',
+  onTarget: 'On target',
+  underTarget: 'pts under target',
+  actual: 'Actual',
+  target: 'Target',
+  trend: 'Trend',
+  trendWeeks: '7 weeks',
+  pts: 'pts',
+  byOutlet: 'By outlet',
+  cta: 'Open labor cost',
+} as const;
 
 const T = {
   bg: '#020617',
@@ -40,6 +62,7 @@ function OutletBar({ name, value, width, color }: { name: string; value: string;
 }
 
 export function CrewLaborCostMobile() {
+  const { t } = useCrewScreen(EN, LOC);
   const trend = [64, 62, 60, 58, 57, 56, 55];
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
@@ -62,8 +85,8 @@ export function CrewLaborCostMobile() {
       {/* title */}
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', margin: '16px 2px 4px' }}>
         <div>
-          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>Labor cost</h1>
-          <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>Live · vs target</div>
+          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>{t.title}</h1>
+          <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>{t.subtitleLive} · {t.subtitleVsTarget}</div>
         </div>
       </div>
 
@@ -71,12 +94,12 @@ export function CrewLaborCostMobile() {
       <div style={{ marginTop: 12, background: 'linear-gradient(135deg, rgba(52,211,153,.18), transparent)', border: `1px solid ${T.bd}`, borderRadius: 20, padding: 17, position: 'relative', overflow: 'hidden' }}>
         <span style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 5, background: T.acc }} />
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>Cost of labor · MTD</span>
-          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.post, color: T.posk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>On target</span>
+          <span style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>{t.heroLabel} · {t.heroPeriod}</span>
+          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.post, color: T.posk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>{t.onTarget}</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 9, marginTop: 8 }}>
           <span style={{ font: `700 34px ${FONT}`, letterSpacing: '-.02em', color: T.tx }}>28.4%</span>
-          <span style={{ font: `600 13px ${FONT}`, color: T.posk }}>1.6 pts under target</span>
+          <span style={{ font: `600 13px ${FONT}`, color: T.posk }}>1.6 {t.underTarget}</span>
         </div>
         <div style={{ marginTop: 14, position: 'relative' }}>
           <div style={{ height: 8, borderRadius: 99, background: T.bd, overflow: 'hidden' }}>
@@ -85,16 +108,16 @@ export function CrewLaborCostMobile() {
           <span style={{ position: 'absolute', top: -3, left: '100%', transform: 'translateX(-100%)', width: 2, height: 14, background: T.tx3 }} />
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 7 }}>
-          <span style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>Actual 28.4%</span>
-          <span style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>Target 30%</span>
+          <span style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>{t.actual} 28.4%</span>
+          <span style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>{t.target} 30%</span>
         </div>
       </div>
 
       {/* trend */}
       <div style={{ marginTop: 12, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 20, padding: 16 }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>Trend · 7 weeks</span>
-          <span style={{ font: `700 11px ${FONT}`, color: T.posk }}>−1.4 pts</span>
+          <span style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>{t.trend} · {t.trendWeeks}</span>
+          <span style={{ font: `700 11px ${FONT}`, color: T.posk }}>−1.4 {t.pts}</span>
         </div>
         <div style={{ marginTop: 14 }}>
           <div style={{ display: 'flex', alignItems: 'flex-end', gap: 7, height: 64 }}>
@@ -106,7 +129,7 @@ export function CrewLaborCostMobile() {
       </div>
 
       {/* by outlet */}
-      <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>By outlet</div>
+      <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>{t.byOutlet}</div>
       <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: '4px 16px 14px' }}>
         <div style={{ padding: '2px 0 2px' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 7 }}>
@@ -126,7 +149,7 @@ export function CrewLaborCostMobile() {
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M5 3l5 5-5 5" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        Open labor cost
+        {t.cta}
       </button>
     </div>
   );

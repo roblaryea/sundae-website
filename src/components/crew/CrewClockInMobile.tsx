@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of the employee "clock-in" surface from the Claude
  * Design "Sundae Mobile" project — greeting, next-shift card, the big green
@@ -6,6 +8,10 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Mobile.dc.html" (employee home).
  */
+
+import { useCrewScreen } from './crewI18n';
+import { crewMoney } from './crewCurrency';
+import { LOC } from './locales/CrewClockInMobile.locales';
 
 const T = {
   bg: '#020617',
@@ -20,19 +26,45 @@ const T = {
 } as const;
 const FONT = 'Inter, ui-sans-serif, system-ui, sans-serif';
 
+// English base strings. Proper nouns (Priya, Leo, Ana), times, dates and pure
+// numbers stay inline in the JSX; currency is handled by crewMoney.
+const EN = {
+  tuesday: 'Tuesday',
+  greeting: 'Hi,',
+  nextShift: 'Next shift',
+  tonight: 'Tonight',
+  roleServer: 'Server',
+  section: 'Section',
+  with: 'with',
+  clockIn: 'Clock in',
+  shiftStartsIn: 'Shift starts in',
+  minShort: 'min',
+  lastPayslip: 'Last payslip',
+  paid: 'Paid',
+  friday: 'Friday',
+  dAgo: 'd ago',
+  view: 'View',
+  thisWeek: 'This week',
+  hShort: 'h',
+  breakLabel: 'Break',
+  logged: 'Logged',
+};
+
 export function CrewClockInMobile() {
+  const { t, locale } = useCrewScreen(EN, LOC);
+
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 16px 16px', minHeight: 470 }}>
       <div style={{ font: `600 10px ${FONT}`, letterSpacing: '.12em', textTransform: 'uppercase', color: T.tx3 }}>
-        Tuesday · 5:18 PM
+        {t.tuesday} · 5:18 PM
       </div>
-      <div style={{ font: `600 21px ${FONT}`, color: T.tx, marginTop: 6 }}>Hi, Priya</div>
+      <div style={{ font: `600 21px ${FONT}`, color: T.tx, marginTop: 6 }}>{t.greeting} Priya</div>
 
       {/* next shift */}
       <div style={{ marginTop: 16, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 15 }}>
-        <div style={{ font: `600 10px ${FONT}`, letterSpacing: '.1em', textTransform: 'uppercase', color: T.tx3 }}>Next shift</div>
-        <div style={{ font: `600 17px ${FONT}`, color: T.tx, marginTop: 6 }}>Tonight · 5:30 – 11:00 PM</div>
-        <div style={{ font: `500 12px ${FONT}`, color: T.tx2, marginTop: 3 }}>Server · Section 3 · with Leo &amp; Ana</div>
+        <div style={{ font: `600 10px ${FONT}`, letterSpacing: '.1em', textTransform: 'uppercase', color: T.tx3 }}>{t.nextShift}</div>
+        <div style={{ font: `600 17px ${FONT}`, color: T.tx, marginTop: 6 }}>{t.tonight} · 5:30 – 11:00 PM</div>
+        <div style={{ font: `500 12px ${FONT}`, color: T.tx2, marginTop: 3 }}>{t.roleServer} · {t.section} 3 · {t.with} Leo &amp; Ana</div>
       </div>
 
       {/* clock-in button */}
@@ -57,31 +89,31 @@ export function CrewClockInMobile() {
             <path d="M14 9v5l3.2 2" stroke={T.acck} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </span>
-        <span style={{ font: `700 20px ${FONT}`, color: T.acck, letterSpacing: '-.01em' }}>Clock in</span>
-        <span style={{ font: `600 11px ${FONT}`, color: 'rgba(4,20,12,.7)' }}>Shift starts in 12 min</span>
+        <span style={{ font: `700 20px ${FONT}`, color: T.acck, letterSpacing: '-.01em' }}>{t.clockIn}</span>
+        <span style={{ font: `600 11px ${FONT}`, color: 'rgba(4,20,12,.7)' }}>{t.shiftStartsIn} 12 {t.minShort}</span>
       </button>
 
       {/* last payslip */}
       <div style={{ marginTop: 16, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 16, padding: 15, display: 'flex', alignItems: 'center', gap: 14 }}>
         <div>
-          <div style={{ font: `600 9px ${FONT}`, letterSpacing: '.1em', textTransform: 'uppercase', color: T.tx3 }}>Last payslip</div>
-          <div style={{ font: `700 19px ${FONT}`, color: T.tx, marginTop: 4 }}>$842.50</div>
-          <div style={{ font: `500 11px ${FONT}`, color: T.tx2, marginTop: 2 }}>Paid Friday · 3d ago</div>
+          <div style={{ font: `600 9px ${FONT}`, letterSpacing: '.1em', textTransform: 'uppercase', color: T.tx3 }}>{t.lastPayslip}</div>
+          <div style={{ font: `700 19px ${FONT}`, color: T.tx, marginTop: 4 }}>{crewMoney(locale, 842, 2)}</div>
+          <div style={{ font: `500 11px ${FONT}`, color: T.tx2, marginTop: 2 }}>{t.paid} {t.friday} · 3{t.dAgo}</div>
         </div>
         <span style={{ marginLeft: 'auto', minHeight: 32, display: 'flex', alignItems: 'center', border: `1px solid ${T.bd}`, borderRadius: 11, background: 'transparent', color: '#cbd5e1', font: `600 12px ${FONT}`, padding: '0 14px' }}>
-          View
+          {t.view}
         </span>
       </div>
 
       {/* hours this week */}
       <div style={{ marginTop: 14, display: 'flex', gap: 10 }}>
         <div style={{ flex: 1, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 14, padding: 13 }}>
-          <div style={{ font: `600 9px ${FONT}`, letterSpacing: '.08em', textTransform: 'uppercase', color: T.tx3 }}>This week</div>
-          <div style={{ font: `700 17px ${FONT}`, color: T.tx, marginTop: 4 }}>28.5h</div>
+          <div style={{ font: `600 9px ${FONT}`, letterSpacing: '.08em', textTransform: 'uppercase', color: T.tx3 }}>{t.thisWeek}</div>
+          <div style={{ font: `700 17px ${FONT}`, color: T.tx, marginTop: 4 }}>28.5{t.hShort}</div>
         </div>
         <div style={{ flex: 1, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 14, padding: 13 }}>
-          <div style={{ font: `600 9px ${FONT}`, letterSpacing: '.08em', textTransform: 'uppercase', color: T.tx3 }}>Break</div>
-          <div style={{ font: `700 17px ${FONT}`, color: T.acc, marginTop: 4 }}>Logged</div>
+          <div style={{ font: `600 9px ${FONT}`, letterSpacing: '.08em', textTransform: 'uppercase', color: T.tx3 }}>{t.breakLabel}</div>
+          <div style={{ font: `700 17px ${FONT}`, color: T.acc, marginTop: 4 }}>{t.logged}</div>
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Sundae Crew Payroll · B · Payslip detail (employee)"
  * from the Claude Design project (Sundae Mobile PWA · Crew · Payroll) — DARK variant.
@@ -7,6 +9,28 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew Payroll.dc.html" · B · Payslip detail.
  */
+
+import { useCrewScreen } from './crewI18n';
+import { crewConv, crewFmt, crewMoney } from './crewCurrency';
+import { LOC } from './locales/CrewPayslipDetailMobile.locales';
+
+const EN = {
+  title: 'Payslip',
+  paysPrefix: 'pays',
+  earnings: 'Earnings',
+  basicSalary: 'Basic salary',
+  overtime: 'Overtime',
+  serviceCharge: 'Service charge',
+  grossPay: 'Gross pay',
+  deductions: 'Deductions',
+  incomeTax: 'Income tax',
+  pension: 'Pension',
+  totalDeductions: 'Total deductions',
+  employerContributions: 'Employer contributions',
+  nationalInsurance: 'National insurance',
+  netPay: 'Net pay',
+  downloadPdf: 'Download PDF',
+};
 
 const T = {
   bg: '#020617',
@@ -50,6 +74,29 @@ function SectionCard({ title, children }: { title: string; children: React.React
 }
 
 export function CrewPayslipDetailMobile() {
+  const { t, locale } = useCrewScreen(EN, LOC);
+
+  // Sum integrity: convert each GBP line to the locale's currency, then derive
+  // gross / total-deductions / net from the converted parts (never convert a
+  // total independently) so the payslip reconciles after FX conversion.
+  const basicC = crewConv(locale, 2800);
+  const overtimeC = crewConv(locale, 280);
+  const serviceC = crewConv(locale, 160);
+  const grossC = basicC + overtimeC + serviceC;
+
+  const incomeTaxC = crewConv(locale, 612);
+  const pensionDedC = crewConv(locale, 130);
+  const totalDedC = incomeTaxC + pensionDedC;
+
+  const netC = grossC - totalDedC;
+
+  // For GBP we keep the design's 2 decimals; converted currencies show whole
+  // units (crewMoney handles that). Compose totals with crewFmt off the
+  // derived integers so they exactly equal the sum of their line items.
+  const isGbp = locale === 'en';
+  const fmtTotal = (value: number, gbp: number) => (isGbp ? crewMoney(locale, gbp, 2) : crewFmt(locale, value, 0));
+  const neg = (s: string) => `−${s}`;
+
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       {/* header: back · title · period selector */}
@@ -72,7 +119,7 @@ export function CrewPayslipDetailMobile() {
             <path d="M9 3L5 7.5l4 4.5" stroke={T.tx2} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
-        <div style={{ font: `700 16px ${FONT}`, color: T.tx, flex: 1, minWidth: 0 }}>Payslip</div>
+        <div style={{ font: `700 16px ${FONT}`, color: T.tx, flex: 1, minWidth: 0 }}>{t.title}</div>
         <button
           style={{
             display: 'inline-flex',
@@ -94,30 +141,30 @@ export function CrewPayslipDetailMobile() {
 
       {/* sub-line */}
       <div style={{ margin: '14px 2px 2px' }}>
-        <div style={{ font: `500 12px ${FONT}`, color: T.tx3 }}>Sundae UK Ltd · pays 28 Mar</div>
+        <div style={{ font: `500 12px ${FONT}`, color: T.tx3 }}>Sundae UK Ltd · {t.paysPrefix} 28 Mar</div>
       </div>
 
       {/* earnings */}
-      <SectionCard title="Earnings">
-        <LineRow k="Basic salary" v="£2,800.00" />
-        <LineRow k="Overtime · 8h" v="£280.00" />
-        <LineRow k="Service charge" v="£160.00" />
+      <SectionCard title={t.earnings}>
+        <LineRow k={t.basicSalary} v={crewMoney(locale, 2800, 2)} />
+        <LineRow k={`${t.overtime} · 8h`} v={crewMoney(locale, 280, 2)} />
+        <LineRow k={t.serviceCharge} v={crewMoney(locale, 160, 2)} />
         <div style={{ height: 1, background: T.bd, margin: '2px 0' }} />
-        <LineRow k="Gross pay" v="£3,240.00" total />
+        <LineRow k={t.grossPay} v={fmtTotal(grossC, 3240)} total />
       </SectionCard>
 
       {/* deductions */}
-      <SectionCard title="Deductions">
-        <LineRow k="Income tax" v="−£612.00" neg />
-        <LineRow k="Pension · 4%" v="−£130.00" neg />
+      <SectionCard title={t.deductions}>
+        <LineRow k={t.incomeTax} v={neg(crewMoney(locale, 612, 2))} neg />
+        <LineRow k={`${t.pension} · 4%`} v={neg(crewMoney(locale, 130, 2))} neg />
         <div style={{ height: 1, background: T.bd, margin: '2px 0' }} />
-        <LineRow k="Total deductions" v="−£742.00" neg total />
+        <LineRow k={t.totalDeductions} v={neg(fmtTotal(totalDedC, 742))} neg total />
       </SectionCard>
 
       {/* employer contributions */}
-      <SectionCard title="Employer contributions">
-        <LineRow k="Pension · 5%" v="£162.00" />
-        <LineRow k="National insurance" v="£298.00" />
+      <SectionCard title={t.employerContributions}>
+        <LineRow k={`${t.pension} · 5%`} v={crewMoney(locale, 162, 2)} />
+        <LineRow k={t.nationalInsurance} v={crewMoney(locale, 298, 2)} />
       </SectionCard>
 
       {/* net pay verdict */}
@@ -134,8 +181,8 @@ export function CrewPayslipDetailMobile() {
       >
         <span style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 5, background: T.acc }} />
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ font: `700 13px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', color: T.posk }}>Net pay</span>
-          <span style={{ font: `700 26px ${FONT}`, letterSpacing: '-.01em', color: T.posk }}>£2,498.00</span>
+          <span style={{ font: `700 13px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', color: T.posk }}>{t.netPay}</span>
+          <span style={{ font: `700 26px ${FONT}`, letterSpacing: '-.01em', color: T.posk }}>{fmtTotal(netC, 2498)}</span>
         </div>
       </div>
 
@@ -160,7 +207,7 @@ export function CrewPayslipDetailMobile() {
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M8 2v8m0 0l-3-3m3 3l3-3M3 13h10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        Download PDF
+        {t.downloadPdf}
       </button>
     </div>
   );

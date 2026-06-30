@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Crew People Intelligence · Workforce Health
  * (manager/owner)" from the Claude Design project — answer-first verdict, KPI
@@ -6,6 +8,30 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew People Intelligence.dc.html".
  */
+
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewWorkforceHealthMobile.locales';
+
+const EN = {
+  allOutletsLive: 'All outlets · live',
+  verdict: 'Verdict · all outlets',
+  healthy: 'Healthy',
+  turnoverDown: 'Turnover down',
+  shiftsNoShowTonight: 'shifts at no-show risk tonight',
+  kpiHeadcount: 'Headcount',
+  vsLastMonth: 'vs last month',
+  kpiTurnover: 'Turnover',
+  down: 'down',
+  kpiNoShowRisk: 'No-show risk',
+  low: 'Low',
+  shiftsTonight: 'shifts tonight',
+  kpiLaborCost: 'Labor cost',
+  onTarget: 'on target',
+  laborCostTrend: 'Labor-cost trend',
+  ptsThisMonth: 'pts this month',
+  workforceHealth: 'Workforce Health',
+  lineUpCover: 'Line up cover',
+} as const;
 
 const T = {
   bg: '#020617',
@@ -38,6 +64,7 @@ function Kpi({ label, value, sub, vColor, set }: { label: string; value: string;
 }
 
 export function CrewWorkforceHealthMobile() {
+  const { t } = useCrewScreen(EN, LOC);
   const bars = [44, 52, 47, 58, 50, 62, 40];
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
@@ -55,36 +82,36 @@ export function CrewWorkforceHealthMobile() {
       </div>
 
       <div style={{ margin: '14px 2px 0' }}>
-        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>Workforce Health</div>
-        <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 2 }}>All outlets · live</div>
+        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>{t.workforceHealth}</div>
+        <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 2 }}>{t.allOutletsLive}</div>
       </div>
 
       {/* verdict */}
       <div style={{ marginTop: 12, background: `linear-gradient(135deg, rgba(52,211,153,.16), transparent)`, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 15, position: 'relative', overflow: 'hidden' }}>
         <span style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 4, background: T.acc }} />
-        <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>Verdict · all outlets</div>
+        <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>{t.verdict}</div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 6 }}>
           <span style={{ width: 9, height: 9, borderRadius: '50%', background: T.acc }} />
-          <span style={{ font: `700 24px ${FONT}`, color: T.posk, letterSpacing: '-.01em' }}>Healthy</span>
+          <span style={{ font: `700 24px ${FONT}`, color: T.posk, letterSpacing: '-.01em' }}>{t.healthy}</span>
         </div>
-        <div style={{ font: `500 12px ${FONT}`, color: T.tx2, marginTop: 7 }}>Turnover down 6% · 2 shifts at no-show risk tonight.</div>
+        <div style={{ font: `500 12px ${FONT}`, color: T.tx2, marginTop: 7 }}>{t.turnoverDown} 6% · 2 {t.shiftsNoShowTonight}.</div>
       </div>
 
       {/* KPI grid */}
       <div style={{ display: 'flex', gap: 8, marginTop: 11 }}>
-        <Kpi label="Headcount" value="412" set="+8" sub="vs last month" />
-        <Kpi label="Turnover" value="8.2% ↓" vColor={T.posk} sub="down 6%" />
+        <Kpi label={t.kpiHeadcount} value="412" set="+8" sub={t.vsLastMonth} />
+        <Kpi label={t.kpiTurnover} value="8.2% ↓" vColor={T.posk} sub={`${t.down} 6%`} />
       </div>
       <div style={{ display: 'flex', gap: 8, marginTop: 8 }}>
-        <Kpi label="No-show risk" value="Low" vColor={T.warnk} sub="2 shifts tonight" />
-        <Kpi label="Labor cost" value="28.4%" sub="on target" />
+        <Kpi label={t.kpiNoShowRisk} value={t.low} vColor={T.warnk} sub={`2 ${t.shiftsTonight}`} />
+        <Kpi label={t.kpiLaborCost} value="28.4%" sub={t.onTarget} />
       </div>
 
       {/* labor-cost trend */}
       <div style={{ marginTop: 11, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 14, padding: 13 }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.06em', textTransform: 'uppercase', color: T.tx3 }}>Labor-cost trend</span>
-          <span style={{ font: `700 10px ${FONT}`, color: T.posk }}>−1.4 pts this month</span>
+          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.06em', textTransform: 'uppercase', color: T.tx3 }}>{t.laborCostTrend}</span>
+          <span style={{ font: `700 10px ${FONT}`, color: T.posk }}>−1.4 {t.ptsThisMonth}</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: 6, height: 46, marginTop: 10 }}>
           {bars.map((b, i) => (
@@ -96,8 +123,8 @@ export function CrewWorkforceHealthMobile() {
       {/* needs a decision */}
       <div style={{ marginTop: 11, display: 'flex', alignItems: 'center', gap: 10, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 14, padding: '11px 13px' }}>
         <span style={{ width: 7, height: 7, borderRadius: '50%', background: T.warn, flex: 'none' }} />
-        <span style={{ flex: 1, font: `500 11px ${FONT}`, color: T.tx2 }}>2 shifts at no-show risk tonight</span>
-        <span style={{ minHeight: 28, display: 'inline-flex', alignItems: 'center', borderRadius: 9, background: T.acc, color: T.acck, font: `700 10.5px ${FONT}`, padding: '0 11px' }}>Line up cover</span>
+        <span style={{ flex: 1, font: `500 11px ${FONT}`, color: T.tx2 }}>2 {t.shiftsNoShowTonight}</span>
+        <span style={{ minHeight: 28, display: 'inline-flex', alignItems: 'center', borderRadius: 9, background: T.acc, color: T.acck, font: `700 10.5px ${FONT}`, padding: '0 11px' }}>{t.lineUpCover}</span>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Sundae Crew People - HR.dc.html · A · My profile
  * (employee)" from the Claude Design project — identity hero (role, tenure,
@@ -7,6 +9,31 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew People - HR.dc.html" (My profile).
  */
+
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewProfileMobile.locales';
+
+// User-visible English copy. Proper nouns (Lena Moretti, Sundae — DIFC, DIFC,
+// EMP-0241) and pure dates stay inline and are NOT translated.
+const EN = {
+  orgName: 'Sundae — DIFC',
+  role: 'Server',
+  statusActive: 'Active',
+  tenureYears: 'yrs',
+  tenureMonths: 'mo',
+  quickActions: 'Quick actions',
+  timeOff: 'Time off',
+  payslips: 'Payslips',
+  documents: 'Documents',
+  tasks: 'Tasks',
+  myDocuments: 'My documents',
+  docContract: 'Employment contract',
+  docVisa: 'Visa & work permit',
+  docPayslip: 'Latest payslip',
+  signedOn: 'Signed',
+  validTo: 'Valid to',
+  editProfile: 'Edit profile',
+};
 
 const T = {
   bg: '#020617',
@@ -65,13 +92,14 @@ function DocRow({ title, meta, first }: { title: string; meta: string; first?: b
 }
 
 export function CrewProfileMobile() {
+  const { t } = useCrewScreen(EN, LOC);
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       {/* org header + bell + avatar */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2px 2px 0' }}>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 99, padding: '5px 11px 5px 6px', cursor: 'pointer' }}>
           <span style={{ width: 20, height: 20, borderRadius: 6, background: T.acc, color: T.acck, font: `700 10px ${FONT}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>S</span>
-          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae — DIFC</span>
+          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>{EN.orgName}</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>▾</span>
         </span>
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
@@ -89,35 +117,35 @@ export function CrewProfileMobile() {
           <span style={{ width: 60, height: 60, borderRadius: '50%', background: AVATAR, color: '#fff', font: `700 23.1px ${FONT}`, display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 'none', border: `2px solid ${T.surf}` }}>LM</span>
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ font: `700 19px ${FONT}`, color: T.tx }}>Lena Moretti</div>
-            <div style={{ font: `500 12.5px ${FONT}`, color: T.tx2, marginTop: 2 }}>Server · Sundae — DIFC</div>
+            <div style={{ font: `500 12.5px ${FONT}`, color: T.tx2, marginTop: 2 }}>{t.role} · {EN.orgName}</div>
           </div>
-          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.post, color: T.posk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>Active</span>
+          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.post, color: T.posk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>{t.statusActive}</span>
         </div>
         <div style={{ display: 'flex', gap: 8, marginTop: 14 }}>
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 8, padding: '3px 8px', font: `600 11px ${FONT}`, color: T.tx2, flex: 'none' }}>🗓 2 yrs 4 mo</span>
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 8, padding: '3px 8px', font: `600 11px ${FONT}`, color: T.tx2, flex: 'none' }}>🗓 2 {t.tenureYears} 4 {t.tenureMonths}</span>
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 8, padding: '3px 8px', font: `600 11px ${FONT}`, color: T.tx2, flex: 'none' }}>🆔 EMP-0241</span>
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 8, padding: '3px 8px', font: `600 11px ${FONT}`, color: T.tx2, flex: 'none' }}>📍 DIFC</span>
         </div>
       </div>
 
       {/* quick actions */}
-      <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>Quick actions</div>
+      <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>{t.quickActions}</div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-        <QuickAction label="Time off">
+        <QuickAction label={t.timeOff}>
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
             <rect x="3" y="4" width="12" height="11" rx="2.5" stroke="currentColor" strokeWidth="1.5" />
             <path d="M3 7.5h12M6 2.5v3M12 2.5v3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
           </svg>
         </QuickAction>
-        <QuickAction label="Payslips">
+        <QuickAction label={t.payslips}>
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
             <path d="M9 2v9m0 0l-3-3m3 3l3-3M3.5 14.5h11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </QuickAction>
-        <QuickAction label="Documents">
+        <QuickAction label={t.documents}>
           <FileIcon />
         </QuickAction>
-        <QuickAction label="Tasks">
+        <QuickAction label={t.tasks}>
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
             <path d="M4 9l3 3 7-8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
@@ -125,16 +153,16 @@ export function CrewProfileMobile() {
       </div>
 
       {/* my documents */}
-      <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>My documents</div>
+      <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>{t.myDocuments}</div>
       <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 0 }}>
-        <DocRow first title="Employment contract" meta="Signed 12 Jan 2024" />
-        <DocRow title="Visa & work permit" meta="Valid to Aug 2027" />
-        <DocRow title="Latest payslip" meta="March 2026" />
+        <DocRow first title={t.docContract} meta={`${t.signedOn} 12 Jan 2024`} />
+        <DocRow title={t.docVisa} meta={`${t.validTo} Aug 2027`} />
+        <DocRow title={t.docPayslip} meta="March 2026" />
       </div>
 
       {/* thumb-zone action */}
       <button style={{ width: '100%', minHeight: 48, marginTop: 18, border: 'none', borderRadius: 14, background: T.acc, color: T.acck, font: `700 14px ${FONT}`, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
-        Edit profile
+        {t.editProfile}
       </button>
     </div>
   );

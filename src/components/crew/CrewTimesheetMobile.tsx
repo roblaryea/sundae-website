@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Employee "This week — hours" timesheet surface for the Crew Time & Attendance
  * module. Weekly-total hero (regular vs overtime split), a Mon–Sun day list with
@@ -7,7 +9,13 @@
  * dedicated timesheet/hours-summary screen, so this is composed in the same cool-
  * slate design language as CrewClockInMobile.tsx (same T tokens, FONT, inline
  * styles, PhoneFrame-hosted, pure markup). Sits inside <PhoneFrame screenBg="#020617">.
+ *
+ * This screen shows HOURS, not money — strings localize, hours stay numeric, no
+ * currency conversion.
  */
+
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewTimesheetMobile.locales';
 
 const T = {
   bg: '#020617',
@@ -23,24 +31,45 @@ const T = {
 } as const;
 const FONT = 'Inter, ui-sans-serif, system-ui, sans-serif';
 
+const EN = {
+  thisWeek: 'This week',
+  totalHours: 'Total hours',
+  regular: 'Regular',
+  overtime: 'Overtime',
+  off: 'Off',
+  restDay: 'Rest day',
+  ot: 'OT',
+  pending: 'Pending',
+  submitBy: 'submit by',
+  submitTimesheet: 'Submit timesheet',
+  mon: 'Mon',
+  tue: 'Tue',
+  wed: 'Wed',
+  thu: 'Thu',
+  fri: 'Fri',
+  sat: 'Sat',
+  sun: 'Sun',
+} as const;
+
 const DAYS = [
-  { day: 'Mon', date: 'Jun 23', in: '5:00 PM', out: '11:00 PM', hours: '6.0h', ot: false },
-  { day: 'Tue', date: 'Jun 24', in: '5:18 PM', out: '11:30 PM', hours: '6.2h', ot: false },
-  { day: 'Wed', date: 'Jun 25', in: '4:30 PM', out: '11:00 PM', hours: '6.5h', ot: false },
-  { day: 'Thu', date: 'Jun 26', in: '12:00 PM', out: '8:48 PM', hours: '8.8h', ot: true },
-  { day: 'Fri', date: 'Jun 27', in: '5:00 PM', out: '9:00 PM', hours: '4.0h', ot: false },
-  { day: 'Sat', date: 'Jun 28', in: '—', out: '—', hours: 'Off', ot: false },
-  { day: 'Sun', date: 'Jun 29', in: '—', out: '—', hours: 'Off', ot: false },
+  { dayKey: 'mon', date: 'Jun 23', in: '5:00 PM', out: '11:00 PM', hours: '6.0h', ot: false, off: false },
+  { dayKey: 'tue', date: 'Jun 24', in: '5:18 PM', out: '11:30 PM', hours: '6.2h', ot: false, off: false },
+  { dayKey: 'wed', date: 'Jun 25', in: '4:30 PM', out: '11:00 PM', hours: '6.5h', ot: false, off: false },
+  { dayKey: 'thu', date: 'Jun 26', in: '12:00 PM', out: '8:48 PM', hours: '8.8h', ot: true, off: false },
+  { dayKey: 'fri', date: 'Jun 27', in: '5:00 PM', out: '9:00 PM', hours: '4.0h', ot: false, off: false },
+  { dayKey: 'sat', date: 'Jun 28', in: '—', out: '—', hours: null, ot: false, off: true },
+  { dayKey: 'sun', date: 'Jun 29', in: '—', out: '—', hours: null, ot: false, off: true },
 ] as const;
 
 export function CrewTimesheetMobile() {
+  const { t } = useCrewScreen(EN, LOC);
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       <div style={{ font: `600 10px ${FONT}`, letterSpacing: '.12em', textTransform: 'uppercase', color: T.tx3 }}>
         Sundae · DIFC
       </div>
       <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginTop: 6 }}>
-        <div style={{ font: `600 21px ${FONT}`, color: T.tx }}>This week</div>
+        <div style={{ font: `600 21px ${FONT}`, color: T.tx }}>{t.thisWeek}</div>
         <div style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>Jun 23 – 29</div>
       </div>
 
@@ -55,7 +84,7 @@ export function CrewTimesheetMobile() {
         }}
       >
         <div style={{ font: `600 10px ${FONT}`, letterSpacing: '.1em', textTransform: 'uppercase', color: T.tx3 }}>
-          Total hours
+          {t.totalHours}
         </div>
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 4, marginTop: 4 }}>
           <span style={{ font: `700 38px ${FONT}`, color: T.tx, letterSpacing: '-.02em' }}>31.5</span>
@@ -70,12 +99,12 @@ export function CrewTimesheetMobile() {
         <div style={{ display: 'flex', gap: 18, marginTop: 10 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
             <span style={{ width: 8, height: 8, borderRadius: '50%', background: T.acc }} />
-            <span style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>Regular</span>
+            <span style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>{t.regular}</span>
             <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>27.7h</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
             <span style={{ width: 8, height: 8, borderRadius: '50%', background: T.warn }} />
-            <span style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>Overtime</span>
+            <span style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>{t.overtime}</span>
             <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>3.8h</span>
           </div>
         </div>
@@ -92,10 +121,10 @@ export function CrewTimesheetMobile() {
         }}
       >
         {DAYS.map((d, i) => {
-          const off = d.hours === 'Off';
+          const off = d.off;
           return (
             <div
-              key={d.day}
+              key={d.dayKey}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -105,11 +134,11 @@ export function CrewTimesheetMobile() {
               }}
             >
               <div style={{ width: 42 }}>
-                <div style={{ font: `600 13px ${FONT}`, color: off ? T.tx3 : T.tx }}>{d.day}</div>
+                <div style={{ font: `600 13px ${FONT}`, color: off ? T.tx3 : T.tx }}>{t[d.dayKey]}</div>
                 <div style={{ font: `500 10px ${FONT}`, color: T.tx3, marginTop: 1 }}>{d.date}</div>
               </div>
               <div style={{ flex: 1, font: `500 12px ${FONT}`, color: off ? T.tx3 : T.tx2 }}>
-                {off ? 'Rest day' : `${d.in} – ${d.out}`}
+                {off ? t.restDay : `${d.in} – ${d.out}`}
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
                 {d.ot && (
@@ -125,11 +154,11 @@ export function CrewTimesheetMobile() {
                       padding: '2px 6px',
                     }}
                   >
-                    OT
+                    {t.ot}
                   </span>
                 )}
                 <span style={{ font: `600 13px ${FONT}`, color: off ? T.tx3 : T.tx, minWidth: 34, textAlign: 'right' }}>
-                  {d.hours}
+                  {off ? t.off : d.hours}
                 </span>
               </div>
             </div>
@@ -143,7 +172,9 @@ export function CrewTimesheetMobile() {
           <circle cx="8" cy="8" r="6.25" stroke={T.warn} strokeWidth="1.5" />
           <path d="M8 5v3.2l2 1.2" stroke={T.warn} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        <span style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>Pending — submit by Sun 11:59 PM</span>
+        <span style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>
+          {t.pending} — {t.submitBy} {t.sun} 11:59 PM
+        </span>
       </div>
 
       <button
@@ -164,7 +195,7 @@ export function CrewTimesheetMobile() {
         <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
           <path d="M4 10.5l3.8 3.8L16 6" stroke={T.acck} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        <span style={{ font: `700 16px ${FONT}`, color: T.acck, letterSpacing: '-.01em' }}>Submit timesheet</span>
+        <span style={{ font: `700 16px ${FONT}`, color: T.acck, letterSpacing: '-.01em' }}>{t.submitTimesheet}</span>
       </button>
     </div>
   );

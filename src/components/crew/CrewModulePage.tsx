@@ -10,6 +10,7 @@ import { SundaeIcon } from '@/components/icons';
 import { PRICING_URL, REPORT_APP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { crewNavLocales } from '@/lib/crewNavLocales';
+import { crewPricingLocales } from '@/lib/crewPricingLocales';
 import { CREW_MODULES, crewModule, type CrewModuleSlug } from './crewModules';
 
 export type CrewModuleCopy = {
@@ -68,6 +69,7 @@ export function CrewModulePage({
   // canonical module list); falls back to English for any locale that lacks them.
   const { locale } = useWebsiteI18n();
   const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
+  const pl = crewPricingLocales[locale as keyof typeof crewPricingLocales] ?? crewPricingLocales.en;
   const mod = crewModule(slug);
   const related = CREW_MODULES.filter((m) => m.slug !== slug).map((m) => {
     const loc = cn.crewList.find((c) => c.href === m.href);
@@ -110,15 +112,15 @@ export function CrewModulePage({
             {/* Soft pricing indication — the pricing micro-site stays the authority
                 for tiers + dependencies. (Labels localized in the i18n pass.) */}
             <motion.p {...fade} transition={{ duration: 0.8, ease, delay: 0.4 }} className="mt-5 text-sm text-[var(--text-muted)]">
-              {copy.pricingFrom ?? 'From'}{' '}
+              {pl.from}{' '}
               <span className="font-semibold text-[var(--text-primary)]">${mod.priceBase}</span>
-              {copy.pricingPerMonth ?? '/mo'}
+              {pl.perMonth}
               {' + '}
               <span className="font-semibold text-[var(--text-primary)]">${mod.pricePerLocation}</span>
-              {copy.pricingPerLocation ?? '/location'}
+              {pl.perLocation}
               <span className="mx-2 text-[var(--text-faint)]">·</span>
               <a href={PRICING_URL} className="font-semibold text-[var(--warm-coral)] underline-offset-4 hover:underline">
-                {copy.pricingCta ?? 'See full pricing'} →
+                {pl.cta} →
               </a>
             </motion.p>
             <motion.div {...fade} transition={{ duration: 0.8, ease, delay: 0.45 }} className="mt-8 grid max-w-xl grid-cols-2 gap-3 sm:grid-cols-4">

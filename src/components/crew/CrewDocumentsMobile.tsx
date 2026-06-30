@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Sundae Crew People - HR.dc.html · C · Documents & tasks
  * (employee)" from the Claude Design project — to-sign list (with due dates), an
@@ -7,6 +9,33 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew People - HR.dc.html" (C · Documents & tasks).
  */
+
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewDocumentsMobile.locales';
+
+const EN = {
+  title: 'Documents & tasks',
+  toSignOnboarding: 'to sign · onboarding',
+  sectionToSign: 'To sign',
+  signCta: 'Sign',
+  due: 'Due',
+  dueToday: 'Due today',
+  docLeavePolicy: 'Updated leave policy',
+  docHealthSafety: 'Health & safety brief',
+  onboardingChecklist: 'Onboarding checklist',
+  of: 'of',
+  done: 'done',
+  statusDone: 'Done',
+  statusNow: 'Now',
+  statusPending: 'Pending',
+  taskContract: 'Contract signed',
+  taskRtw: 'Right-to-work verified',
+  taskBank: 'Bank details',
+  addToGetPaid: 'Add to get paid',
+  taskUniform: 'Uniform & locker',
+  taskFirstShift: 'First shift booked',
+  addBankDetails: 'Add bank details',
+};
 
 const T = {
   bg: '#020617',
@@ -48,7 +77,7 @@ function CheckIcon() {
   );
 }
 
-function SignRow({ title, due, dueTone, first }: { title: string; due: string; dueTone: string; first?: boolean }) {
+function SignRow({ title, due, dueTone, signLabel, first }: { title: string; due: string; dueTone: string; signLabel: string; first?: boolean }) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', borderTop: first ? undefined : `1px solid ${T.bd}` }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, flex: 1, minWidth: 0, padding: '13px 15px' }}>
@@ -59,7 +88,7 @@ function SignRow({ title, due, dueTone, first }: { title: string; due: string; d
           <div style={{ font: `600 14px ${FONT}`, color: T.tx }}>{title}</div>
           <div style={{ font: `500 11.5px ${FONT}`, color: dueTone, marginTop: 2 }}>{due}</div>
         </div>
-        <button style={{ background: T.info, color: '#fff', border: 'none', borderRadius: 10, padding: '9px 15px', font: `700 12px ${FONT}`, cursor: 'pointer', flex: 'none' }}>Sign</button>
+        <button style={{ background: T.info, color: '#fff', border: 'none', borderRadius: 10, padding: '9px 15px', font: `700 12px ${FONT}`, cursor: 'pointer', flex: 'none' }}>{signLabel}</button>
       </div>
     </div>
   );
@@ -70,12 +99,16 @@ function ChecklistRow({
   meta,
   metaTone,
   state,
+  doneLabel,
+  nowLabel,
   first,
 }: {
   title: string;
   meta: string;
   metaTone: string;
   state: 'done' | 'now' | 'pending';
+  doneLabel: string;
+  nowLabel: string;
   first?: boolean;
 }) {
   let marker;
@@ -104,10 +137,10 @@ function ChecklistRow({
           <div style={{ font: `500 11.5px ${FONT}`, color: metaTone, marginTop: 2 }}>{meta}</div>
         </div>
         {state === 'done' && (
-          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.post, color: T.posk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>Done</span>
+          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.post, color: T.posk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>{doneLabel}</span>
         )}
         {state === 'now' && (
-          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.warnt, color: T.warnk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>Now</span>
+          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.warnt, color: T.warnk, borderRadius: 7, padding: '5px 9px', flex: 'none', whiteSpace: 'nowrap' }}>{nowLabel}</span>
         )}
       </div>
     </div>
@@ -115,6 +148,7 @@ function ChecklistRow({
 }
 
 export function CrewDocumentsMobile() {
+  const { t } = useCrewScreen(EN, LOC);
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       {/* header */}
@@ -132,22 +166,22 @@ export function CrewDocumentsMobile() {
 
       {/* title */}
       <div style={{ margin: '14px 2px 0' }}>
-        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>Documents &amp; tasks</div>
-        <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 2 }}>2 to sign · onboarding</div>
+        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>{t.title}</div>
+        <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 2 }}>2 {t.toSignOnboarding}</div>
       </div>
 
       {/* to sign */}
-      <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '16px 2px 8px' }}>To sign · 2</div>
+      <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '16px 2px 8px' }}>{t.sectionToSign} · 2</div>
       <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18 }}>
-        <SignRow title="Updated leave policy" due="Due today" dueTone={T.warnk} first />
-        <SignRow title="Health &amp; safety brief" due="Due 5 Apr" dueTone={T.tx3} />
+        <SignRow title={t.docLeavePolicy} due={t.dueToday} dueTone={T.warnk} signLabel={t.signCta} first />
+        <SignRow title={t.docHealthSafety} due={`${t.due} 5 Apr`} dueTone={T.tx3} signLabel={t.signCta} />
       </div>
 
       {/* onboarding checklist */}
-      <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>Onboarding checklist</div>
+      <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '18px 2px 8px' }}>{t.onboardingChecklist}</div>
       <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: '15px 16px' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 4 }}>
-          <span style={{ font: `600 13px ${FONT}`, color: T.tx }}>3 of 5 done</span>
+          <span style={{ font: `600 13px ${FONT}`, color: T.tx }}>3 {t.of} 5 {t.done}</span>
           <span style={{ font: `600 11px ${FONT}`, color: T.posk }}>60%</span>
         </div>
         <div style={{ height: 8, borderRadius: 99, background: T.trk, overflow: 'hidden' }}>
@@ -156,17 +190,17 @@ export function CrewDocumentsMobile() {
       </div>
 
       <div style={{ marginTop: 10, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18 }}>
-        <ChecklistRow title="Contract signed" meta="12 Jan" metaTone={T.tx3} state="done" first />
-        <ChecklistRow title="Right-to-work verified" meta="12 Jan" metaTone={T.tx3} state="done" />
-        <ChecklistRow title="Bank details" meta="Add to get paid" metaTone={T.tx2} state="now" />
-        <ChecklistRow title="Uniform &amp; locker" meta="Pending" metaTone={T.tx2} state="pending" />
-        <ChecklistRow title="First shift booked" meta="Pending" metaTone={T.tx2} state="pending" />
+        <ChecklistRow title={t.taskContract} meta="12 Jan" metaTone={T.tx3} state="done" doneLabel={t.statusDone} nowLabel={t.statusNow} first />
+        <ChecklistRow title={t.taskRtw} meta="12 Jan" metaTone={T.tx3} state="done" doneLabel={t.statusDone} nowLabel={t.statusNow} />
+        <ChecklistRow title={t.taskBank} meta={t.addToGetPaid} metaTone={T.tx2} state="now" doneLabel={t.statusDone} nowLabel={t.statusNow} />
+        <ChecklistRow title={t.taskUniform} meta={t.statusPending} metaTone={T.tx2} state="pending" doneLabel={t.statusDone} nowLabel={t.statusNow} />
+        <ChecklistRow title={t.taskFirstShift} meta={t.statusPending} metaTone={T.tx2} state="pending" doneLabel={t.statusDone} nowLabel={t.statusNow} />
       </div>
 
       {/* thumb-zone action — single next step */}
       <button style={{ width: '100%', minHeight: 48, marginTop: 18, border: 'none', borderRadius: 14, background: T.acc, color: T.acck, font: `700 14px ${FONT}`, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8h10" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" /></svg>
-        Add bank details
+        {t.addBankDetails}
       </button>
     </div>
   );

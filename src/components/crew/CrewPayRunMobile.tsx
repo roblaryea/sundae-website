@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Crew Payroll · Pay run dashboard (admin)" from the
  * Claude Design project (Sundae Mobile PWA · Crew · Payroll) — cycle status,
@@ -6,7 +8,42 @@
  * <PhoneFrame screenBg="#020617">. Pure markup.
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew Payroll.dc.html" · C · Pay run dashboard.
+ *
+ * Localized via useCrewScreen (EN base + per-locale overrides in
+ * locales/CrewPayRunMobile.locales.ts). Money is locale-currency via crewMoney/
+ * crewConv: per-country amounts carry a GBP-base integer and the grand total is
+ * derived from the sum of the converted per-country values (sum integrity).
  */
+
+import { crewConv, crewFmt, crewMoney } from './crewCurrency';
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewPayRunMobile.locales';
+
+const EN = {
+  title: 'Pay run',
+  monthMarch: 'March',
+  pays: 'pays',
+  readinessLabel: 'Pay run readiness',
+  runReady: 'Run ready',
+  of: 'of',
+  countriesLower: 'countries',
+  oneNeedsReview: '1 country needs a quick review before you send.',
+  totalToPay: 'Total to pay',
+  peopleSuffix: 'people',
+  nextPayDate: 'Next pay date',
+  inDays: 'in',
+  daysSuffix: 'days',
+  countries: 'Countries',
+  unitedStates: 'United States',
+  unitedKingdom: 'United Kingdom',
+  europeanUnion: 'European Union',
+  canada: 'Canada',
+  needsReviewTax: 'Needs review · tax',
+  ready: 'Ready',
+  review: 'Review',
+  coverage: '39+ countries · 100+ states, provinces & cities',
+  reviewGcc: 'Review GCC',
+} as const;
 
 const T = {
   bg: '#020617',
@@ -28,23 +65,42 @@ const T = {
 const FONT = 'Inter, ui-sans-serif, system-ui, sans-serif';
 
 type Country = {
+  id: string;
   flag: string;
-  name: string;
-  sub: string;
+  /** Localized display-name key; omitted for proper-noun names (e.g. GCC). */
+  nameKey?: keyof typeof EN;
+  /** Verbatim proper-noun name (overrides nameKey), e.g. "GCC". */
+  nameLiteral?: string;
+  /** People count (numeric, not currency); null when the design shows none. */
+  people: number | null;
+  /** Static sub-label key used in place of a people count (e.g. GCC). */
+  subKey?: keyof typeof EN;
   subWarn?: boolean;
-  amount: string;
+  /** GBP-base integer for FX conversion; null renders an em-dash. */
+  gbp: number | null;
   status: 'Ready' | 'Review';
 };
 
+// GBP-base integers for the four ready countries sum to 412,800 — the grand
+// "Total to pay" — so the converted per-country amounts always reconcile to the
+// converted grand total (derived below, never converted independently).
 const COUNTRIES: Country[] = [
-  { flag: '🇺🇸', name: 'United States', sub: '38 people', amount: '$96,400', status: 'Ready' },
-  { flag: '🇬🇧', name: 'United Kingdom', sub: '41 people', amount: '£148,200', status: 'Ready' },
-  { flag: '🇪🇺', name: 'European Union', sub: '26 people', amount: '€72,300', status: 'Ready' },
-  { flag: '🇨🇦', name: 'Canada', sub: '19 people', amount: '$58,100', status: 'Ready' },
-  { flag: '🇦🇪', name: 'GCC', sub: 'Needs review · tax', subWarn: true, amount: '—', status: 'Review' },
+  { id: 'us', flag: '🇺🇸', nameKey: 'unitedStates', people: 38, gbp: 98000, status: 'Ready' },
+  { id: 'uk', flag: '🇬🇧', nameKey: 'unitedKingdom', people: 41, gbp: 158000, status: 'Ready' },
+  { id: 'eu', flag: '🇪🇺', nameKey: 'europeanUnion', people: 26, gbp: 96000, status: 'Ready' },
+  { id: 'ca', flag: '🇨🇦', nameKey: 'canada', people: 19, gbp: 60800, status: 'Ready' },
+  { id: 'gcc', flag: '🇦🇪', nameLiteral: 'GCC', people: null, subKey: 'needsReviewTax', subWarn: true, gbp: null, status: 'Review' },
 ];
 
 export function CrewPayRunMobile() {
+  const { t, locale } = useCrewScreen(EN, LOC);
+
+  // Grand total = sum of the converted per-country amounts (sum integrity).
+  const grandTotalConv = COUNTRIES.reduce(
+    (sum, c) => sum + (c.gbp != null ? crewConv(locale, c.gbp) : 0),
+    0,
+  );
+
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       {/* header: org switcher + bell + avatar */}
@@ -76,6 +132,7 @@ export function CrewPayRunMobile() {
           >
             S
           </span>
+          {/* Proper noun — kept verbatim across locales. */}
           <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae — DIFC</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>▾</span>
         </button>
@@ -95,8 +152,10 @@ export function CrewPayRunMobile() {
       {/* title */}
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', margin: '16px 2px 4px' }}>
         <div>
-          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>Pay run</h1>
-          <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>March · pays 28 Mar</div>
+          <h1 style={{ font: `700 23px ${FONT}`, letterSpacing: '-.02em', color: T.tx, margin: 0 }}>{t.title}</h1>
+          <div style={{ font: `500 12.5px ${FONT}`, color: T.tx3, marginTop: 3 }}>
+            {t.monthMarch} · {t.pays} 28 Mar
+          </div>
         </div>
       </div>
 
@@ -114,11 +173,13 @@ export function CrewPayRunMobile() {
       >
         <span style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 5, background: T.acc }} />
         <div style={{ font: `700 11px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>
-          Pay run readiness
+          {t.readinessLabel}
         </div>
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 10, marginTop: 8 }}>
-          <span style={{ font: `700 26px ${FONT}`, letterSpacing: '-.01em', color: T.posk }}>Run ready</span>
-          <span style={{ font: `600 13px ${FONT}`, color: T.tx2 }}>4 of 5 countries</span>
+          <span style={{ font: `700 26px ${FONT}`, letterSpacing: '-.01em', color: T.posk }}>{t.runReady}</span>
+          <span style={{ font: `600 13px ${FONT}`, color: T.tx2 }}>
+            4 {t.of} 5 {t.countriesLower}
+          </span>
         </div>
         <div style={{ marginTop: 14 }}>
           <div style={{ display: 'flex', gap: 4 }}>
@@ -127,26 +188,28 @@ export function CrewPayRunMobile() {
             ))}
           </div>
         </div>
-        <div style={{ font: `500 12px ${FONT}`, color: T.tx3, marginTop: 11 }}>
-          1 country needs a quick review before you send.
-        </div>
+        <div style={{ font: `500 12px ${FONT}`, color: T.tx3, marginTop: 11 }}>{t.oneNeedsReview}</div>
       </div>
 
       {/* totals grid */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 12 }}>
         <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 16, padding: 14 }}>
-          <div style={{ font: `500 11px ${FONT}`, color: T.tx3 }}>Total to pay</div>
+          <div style={{ font: `500 11px ${FONT}`, color: T.tx3 }}>{t.totalToPay}</div>
           <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, marginTop: 7 }}>
-            <span style={{ font: `700 22px ${FONT}`, letterSpacing: '-.01em', color: T.tx }}>£412,800</span>
+            <span style={{ font: `700 22px ${FONT}`, letterSpacing: '-.01em', color: T.tx }}>
+              {crewFmt(locale, grandTotalConv, 0)}
+            </span>
           </div>
-          <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 4 }}>142 people</div>
+          <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 4 }}>142 {t.peopleSuffix}</div>
         </div>
         <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 16, padding: 14 }}>
-          <div style={{ font: `500 11px ${FONT}`, color: T.tx3 }}>Next pay date</div>
+          <div style={{ font: `500 11px ${FONT}`, color: T.tx3 }}>{t.nextPayDate}</div>
           <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, marginTop: 7 }}>
             <span style={{ font: `700 22px ${FONT}`, letterSpacing: '-.01em', color: T.tx }}>28 Mar</span>
           </div>
-          <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 4 }}>in 3 days</div>
+          <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 4 }}>
+            {t.inDays} 3 {t.daysSuffix}
+          </div>
         </div>
       </div>
 
@@ -160,14 +223,18 @@ export function CrewPayRunMobile() {
           margin: '18px 2px 8px',
         }}
       >
-        Countries
+        {t.countries}
       </div>
       <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 0 }}>
         {COUNTRIES.map((c, i) => {
           const ready = c.status === 'Ready';
+          // GCC keeps its proper-noun name verbatim; others use the localized key.
+          const name = c.nameLiteral ?? (c.nameKey ? t[c.nameKey] : '');
+          const sub = c.subKey ? t[c.subKey] : `${c.people} ${t.peopleSuffix}`;
+          const amount = c.gbp != null ? crewMoney(locale, c.gbp, 0) : '—';
           return (
             <div
-              key={c.name}
+              key={c.id}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -186,13 +253,13 @@ export function CrewPayRunMobile() {
               >
                 <span style={{ fontSize: 22, lineHeight: 1, flex: 'none' }}>{c.flag}</span>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ font: `600 14px ${FONT}`, color: T.tx }}>{c.name}</div>
+                  <div style={{ font: `600 14px ${FONT}`, color: T.tx }}>{name}</div>
                   <div style={{ font: `500 11.5px ${FONT}`, color: c.subWarn ? T.warnk : T.tx3, marginTop: 2 }}>
-                    {c.sub}
+                    {sub}
                   </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                  <span style={{ font: `700 13px ${FONT}`, color: T.tx }}>{c.amount}</span>
+                  <span style={{ font: `700 13px ${FONT}`, color: T.tx }}>{amount}</span>
                   <span
                     style={{
                       font: `700 10px ${FONT}`,
@@ -206,7 +273,7 @@ export function CrewPayRunMobile() {
                       whiteSpace: 'nowrap',
                     }}
                   >
-                    {c.status}
+                    {ready ? t.ready : t.review}
                   </span>
                 </div>
               </div>
@@ -228,7 +295,7 @@ export function CrewPayRunMobile() {
             textAlign: 'center',
           }}
         >
-          39+ countries · 100+ states, provinces &amp; cities
+          {t.coverage}
         </span>
       </div>
 
@@ -250,7 +317,7 @@ export function CrewPayRunMobile() {
           gap: 8,
         }}
       >
-        Review GCC
+        {t.reviewGcc}
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M5 3l5 5-5 5" stroke={T.acck} strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
