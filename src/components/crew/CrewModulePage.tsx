@@ -7,10 +7,10 @@ import { Button } from '@/components/ui/Button';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { SundaeIcon } from '@/components/icons';
-import { REPORT_APP_URL } from '@/lib/urls';
+import { PRICING_URL, REPORT_APP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { crewNavLocales } from '@/lib/crewNavLocales';
-import { CREW_MODULES, type CrewModuleSlug } from './crewModules';
+import { CREW_MODULES, crewModule, type CrewModuleSlug } from './crewModules';
 
 export type CrewModuleCopy = {
   badge: string;
@@ -44,6 +44,12 @@ export type CrewModuleCopy = {
   ctaDescription: string;
   ctaPrimary: string;
   ctaSecondary: string;
+
+  // Soft pricing line (optional — English fallbacks until the i18n pass fills them).
+  pricingFrom?: string;
+  pricingPerMonth?: string;
+  pricingPerLocation?: string;
+  pricingCta?: string;
 };
 
 const fade = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 } };
@@ -62,6 +68,7 @@ export function CrewModulePage({
   // canonical module list); falls back to English for any locale that lacks them.
   const { locale } = useWebsiteI18n();
   const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
+  const mod = crewModule(slug);
   const related = CREW_MODULES.filter((m) => m.slug !== slug).map((m) => {
     const loc = cn.crewList.find((c) => c.href === m.href);
     return { ...m, name: loc?.name ?? m.name, tagline: loc?.description ?? m.tagline };
@@ -100,6 +107,20 @@ export function CrewModulePage({
               <Link href="/demo"><Button variant="primary" size="lg">{copy.primaryCta}</Button></Link>
               <a href={REPORT_APP_URL}><Button variant="outline-light" size="lg">{copy.secondaryCta}</Button></a>
             </motion.div>
+            {/* Soft pricing indication — the pricing micro-site stays the authority
+                for tiers + dependencies. (Labels localized in the i18n pass.) */}
+            <motion.p {...fade} transition={{ duration: 0.8, ease, delay: 0.4 }} className="mt-5 text-sm text-[var(--text-muted)]">
+              {copy.pricingFrom ?? 'From'}{' '}
+              <span className="font-semibold text-[var(--text-primary)]">${mod.priceBase}</span>
+              {copy.pricingPerMonth ?? '/mo'}
+              {' + '}
+              <span className="font-semibold text-[var(--text-primary)]">${mod.pricePerLocation}</span>
+              {copy.pricingPerLocation ?? '/location'}
+              <span className="mx-2 text-[var(--text-faint)]">·</span>
+              <a href={PRICING_URL} className="font-semibold text-[var(--warm-coral)] underline-offset-4 hover:underline">
+                {copy.pricingCta ?? 'See full pricing'} →
+              </a>
+            </motion.p>
             <motion.div {...fade} transition={{ duration: 0.8, ease, delay: 0.45 }} className="mt-8 grid max-w-xl grid-cols-2 gap-3 sm:grid-cols-4">
               {copy.heroProof.map((p) => (
                 <div key={p.label} className="rounded-xl border border-[var(--border-default)] bg-white/[0.04] px-3 py-3">
