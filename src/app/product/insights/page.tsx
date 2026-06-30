@@ -14,6 +14,10 @@ import { CreamBreak } from '@/components/ui/CreamBreak';
 import { insightsCreamCopy } from './insightsCreamCopy';
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreInsightsMobile } from '@/components/core/CoreInsightsMobile';
+import { CoreInsightsChartMobile } from '@/components/core/CoreInsightsChartMobile';
+import { CoreInsightsDrillMobile } from '@/components/core/CoreInsightsDrillMobile';
+import { CoreInsightsHomeMobile } from '@/components/core/CoreInsightsHomeMobile';
+import { CoreRevenueModuleMobile } from '@/components/core/CoreRevenueModuleMobile';
 
 const localizedInsightsUi = {
   en: {
@@ -922,7 +926,15 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      <CoreMobileShowcase screens={[<CoreInsightsMobile key="insights" />]} />
+      <CoreMobileShowcase
+        screens={[
+          <CoreInsightsHomeMobile key="insights-home" />,
+          <CoreInsightsMobile key="insights" />,
+          <CoreRevenueModuleMobile key="insights-revenue" />,
+          <CoreInsightsChartMobile key="insights-chart" />,
+          <CoreInsightsDrillMobile key="insights-drill" />,
+        ]}
+      />
 
       {/* Product gallery - Insights surfaces in detail */}
       <SectionProductGallery
