@@ -21,6 +21,9 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_pulse_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { pulseCreamCopy } from "./pulseCreamCopy";
+import { CoreMobileShowcase } from "@/components/core/CoreMobileShowcase";
+import { CorePulseFloorMobile } from "@/components/core/CorePulseFloorMobile";
+import { CoreHomeMobile } from "@/components/core/CoreHomeMobile";
 
 const localizedPulseCopy = {
   en: {
@@ -1438,6 +1441,8 @@ export default function PulsePage() {
           </FadeUp>
         </div>
       </section>
+
+      <CoreMobileShowcase screens={[<CorePulseFloorMobile key="floor" />, <CoreHomeMobile key="home" />]} />
 
       {/* Product gallery - every Pulse surface in detail */}
       <SectionProductGallery

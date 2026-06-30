@@ -12,6 +12,8 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { insightsCreamCopy } from './insightsCreamCopy';
+import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
+import { CoreInsightsMobile } from '@/components/core/CoreInsightsMobile';
 
 const localizedInsightsUi = {
   en: {
@@ -919,6 +921,8 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
+
+      <CoreMobileShowcase screens={[<CoreInsightsMobile key="insights" />]} />
 
       {/* Product gallery - Insights surfaces in detail */}
       <SectionProductGallery
