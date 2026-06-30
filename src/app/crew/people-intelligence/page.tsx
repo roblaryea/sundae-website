@@ -4,6 +4,8 @@ import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
 import { PhoneCarousel } from '@/components/ui/PhoneCarousel';
 import { CrewWorkforceHealthMobile } from '@/components/crew/CrewWorkforceHealthMobile';
+import { CrewNoShowRiskMobile } from '@/components/crew/CrewNoShowRiskMobile';
+import { CrewLaborCostMobile } from '@/components/crew/CrewLaborCostMobile';
 import { peopleIntelligenceCopy } from '@/components/crew/moduleCopies';
 
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
@@ -17,7 +19,15 @@ export default function Page() {
       slug="people-intelligence"
       copy={copy}
       heroVisual={
-        <PhoneCarousel screenBg="#020617" time="3:00" screens={[<CrewWorkforceHealthMobile key="wfh" />]} />
+        <PhoneCarousel
+          screenBg="#020617"
+          time="3:00"
+          screens={[
+            <CrewWorkforceHealthMobile key="wfh" />,
+            <CrewNoShowRiskMobile key="noshow" />,
+            <CrewLaborCostMobile key="laborcost" />,
+          ]}
+        />
       }
     />
   );
