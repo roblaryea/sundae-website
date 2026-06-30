@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Crew Payroll · My Pay (employee)" from the Claude
  * Design project (Sundae Mobile PWA · Crew · Payroll) — net-pay hero, deductions
@@ -6,6 +8,26 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew Payroll.dc.html" (My Pay).
  */
+
+import { useCrewScreen } from './crewI18n';
+import { crewConv, crewFmt, crewMoney, crewCurrencyCode } from './crewCurrency';
+import { LOC } from './locales/CrewPayrollMobile.locales';
+
+const EN = {
+  myPay: 'My Pay',
+  paidMonthly: 'Paid monthly',
+  netPay: 'Net pay',
+  march: 'March',
+  paid: 'Paid',
+  breakdown: 'Breakdown',
+  grossPay: 'Gross pay',
+  tax: 'Tax',
+  pension: 'Pension',
+  ytdGross: 'YTD gross',
+  ytdTax: 'YTD tax',
+  ytdNet: 'YTD net',
+  downloadPayslip: 'Download payslip',
+} as const;
 
 const T = {
   bg: '#020617',
@@ -32,6 +54,22 @@ function Row({ k, v, neg, bold }: { k: string; v: string; neg?: boolean; bold?: 
 }
 
 export function CrewPayrollMobile() {
+  const { t, locale } = useCrewScreen(EN, LOC);
+  const currencyCode = crewCurrencyCode(locale);
+  const isGbp = currencyCode === 'GBP';
+  const dec = isGbp ? 2 : 0;
+
+  // Sum integrity (gross − tax − pension = net): derive net from converted parts.
+  const grossC = crewConv(locale, 3240);
+  const taxC = crewConv(locale, 612.4);
+  const pensionC = crewConv(locale, 129.6);
+  const netC = grossC - taxC - pensionC;
+
+  // Year-to-date (gross − tax = net): derive net from converted parts.
+  const ytdGrossC = crewConv(locale, 8720);
+  const ytdTaxC = crewConv(locale, 1634);
+  const ytdNetC = ytdGrossC - ytdTaxC;
+
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 16px 16px' }}>
       {/* header */}
@@ -48,43 +86,43 @@ export function CrewPayrollMobile() {
       </div>
 
       <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', margin: '14px 2px 0' }}>
-        <span style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>My Pay</span>
-        <span style={{ font: `500 11px ${FONT}`, color: T.tx3 }}>Paid monthly · GBP</span>
+        <span style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>{t.myPay}</span>
+        <span style={{ font: `500 11px ${FONT}`, color: T.tx3 }}>{t.paidMonthly} · {currencyCode}</span>
       </div>
 
       {/* net pay hero */}
       <div style={{ marginTop: 12, background: `linear-gradient(135deg, rgba(52,211,153,.18), transparent)`, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 15, position: 'relative', overflow: 'hidden' }}>
         <span style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 4, background: T.acc }} />
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>Net pay · March</span>
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 8, padding: '3px 7px', font: `600 10px ${FONT}`, color: T.tx2 }}>🇬🇧 GBP</span>
+          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>{t.netPay} · {t.march}</span>
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 8, padding: '3px 7px', font: `600 10px ${FONT}`, color: T.tx2 }}>{currencyCode}</span>
         </div>
-        <div style={{ font: `700 28px ${FONT}`, letterSpacing: '-.02em', marginTop: 8 }}>£2,498.00</div>
+        <div style={{ font: `700 28px ${FONT}`, letterSpacing: '-.02em', marginTop: 8 }}>{crewFmt(locale, netC, dec)}</div>
         <div style={{ marginTop: 10 }}>
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6, background: 'rgba(52,211,153,.14)', borderRadius: 8, padding: '4px 9px', font: `600 10.5px ${FONT}`, color: '#4ade80' }}>
-            <span style={{ width: 6, height: 6, borderRadius: '50%', background: T.acc }} /> Paid · 28 Mar
+            <span style={{ width: 6, height: 6, borderRadius: '50%', background: T.acc }} /> {t.paid} · 28 Mar
           </span>
         </div>
       </div>
 
       {/* deductions breakdown */}
       <div style={{ marginTop: 13, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 16, padding: 14 }}>
-        <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, marginBottom: 11 }}>Breakdown</div>
+        <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, marginBottom: 11 }}>{t.breakdown}</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
-          <Row k="Gross pay" v="£3,240.00" />
-          <Row k="Tax" v="−£612.40" neg />
-          <Row k="Pension" v="−£129.60" neg />
+          <Row k={t.grossPay} v={crewFmt(locale, grossC, dec)} />
+          <Row k={t.tax} v={`−${crewFmt(locale, taxC, dec)}`} neg />
+          <Row k={t.pension} v={`−${crewFmt(locale, pensionC, dec)}`} neg />
           <div style={{ height: 1, background: T.bd, margin: '3px 0' }} />
-          <Row k="Net pay" v="£2,498.00" bold />
+          <Row k={t.netPay} v={crewFmt(locale, netC, dec)} bold />
         </div>
       </div>
 
       {/* year to date */}
       <div style={{ marginTop: 13, display: 'flex', gap: 8 }}>
         {[
-          { k: 'YTD gross', v: '£8,720' },
-          { k: 'YTD tax', v: '£1,634' },
-          { k: 'YTD net', v: '£7,086' },
+          { k: t.ytdGross, v: crewMoney(locale, 8720, 0) },
+          { k: t.ytdTax, v: crewMoney(locale, 1634, 0) },
+          { k: t.ytdNet, v: crewFmt(locale, ytdNetC, 0) },
         ].map((s) => (
           <div key={s.k} style={{ flex: 1, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 13, padding: '11px 10px', textAlign: 'center' }}>
             <div style={{ font: `600 9px ${FONT}`, letterSpacing: '.06em', textTransform: 'uppercase', color: T.tx3 }}>{s.k}</div>
@@ -96,7 +134,7 @@ export function CrewPayrollMobile() {
       {/* thumb-zone action */}
       <div style={{ marginTop: 14, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, minHeight: 38, borderRadius: 12, background: T.acc, color: T.acck, font: `700 12.5px ${FONT}` }}>
         <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M8 2v8m0 0l3-3m-3 3L5 7M3 13h10" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>
-        Download payslip
+        {t.downloadPayslip}
       </div>
     </div>
   );

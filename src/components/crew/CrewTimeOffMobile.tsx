@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * Faithful implementation of "Crew People & HR · Time off (employee)" from the
  * Claude Design project — balance hero, requests (approved/pending), request
@@ -6,6 +8,25 @@
  *
  * Source: claude.ai/design 9d73e488 · "Sundae Crew People - HR.dc.html" (Time off).
  */
+
+import { useCrewScreen } from './crewI18n';
+import { LOC } from './locales/CrewTimeOffMobile.locales';
+
+const EN = {
+  title: 'Time off',
+  subtitle: 'Your balance & requests',
+  balanceLabel: 'Balance',
+  daysLeft: 'days left',
+  annual: 'Annual',
+  sick: 'Sick',
+  daysUnit: 'days',
+  dayUnit: 'day',
+  requestsLabel: 'Your requests',
+  annualLeave: 'Annual leave',
+  approved: 'Approved',
+  pending: 'Pending',
+  requestCta: 'Request time off',
+} as const;
 
 const T = {
   bg: '#020617',
@@ -42,6 +63,7 @@ function Request({ dot, when, detail, status, tone, tonet }: { dot: string; when
 }
 
 export function CrewTimeOffMobile() {
+  const { t } = useCrewScreen(EN, LOC);
   return (
     <div style={{ background: T.bg, color: T.tx, fontFamily: FONT, padding: '8px 14px 16px' }}>
       {/* header */}
@@ -58,44 +80,44 @@ export function CrewTimeOffMobile() {
       </div>
 
       <div style={{ margin: '14px 2px 0' }}>
-        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>Time off</div>
-        <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 2 }}>Your balance &amp; requests</div>
+        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.02em' }}>{t.title}</div>
+        <div style={{ font: `500 11px ${FONT}`, color: T.tx3, marginTop: 2 }}>{t.subtitle}</div>
       </div>
 
       {/* balance hero */}
       <div style={{ marginTop: 12, background: `linear-gradient(135deg, rgba(52,211,153,.16), transparent)`, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 15, position: 'relative', overflow: 'hidden' }}>
         <span style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 4, background: T.acc }} />
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>Balance</span>
+          <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>{t.balanceLabel}</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx2, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 8, padding: '3px 8px' }}>2026</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, marginTop: 7 }}>
           <span style={{ font: `700 30px ${FONT}`, letterSpacing: '-.02em' }}>12.5</span>
-          <span style={{ font: `600 13px ${FONT}`, color: T.tx2 }}>days left</span>
+          <span style={{ font: `600 13px ${FONT}`, color: T.tx2 }}>{t.daysLeft}</span>
         </div>
         <div style={{ display: 'flex', gap: 8, marginTop: 12 }}>
           <div style={{ flex: 1, background: T.surf2, border: `1px solid ${T.bd}`, borderRadius: 11, padding: '9px 11px' }}>
-            <div style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>Annual</div>
-            <div style={{ font: `700 14px ${FONT}`, marginTop: 2 }}>10 days</div>
+            <div style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>{t.annual}</div>
+            <div style={{ font: `700 14px ${FONT}`, marginTop: 2 }}>10 {t.daysUnit}</div>
           </div>
           <div style={{ flex: 1, background: T.surf2, border: `1px solid ${T.bd}`, borderRadius: 11, padding: '9px 11px' }}>
-            <div style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>Sick</div>
-            <div style={{ font: `700 14px ${FONT}`, marginTop: 2 }}>2.5 days</div>
+            <div style={{ font: `500 10px ${FONT}`, color: T.tx3 }}>{t.sick}</div>
+            <div style={{ font: `700 14px ${FONT}`, marginTop: 2 }}>2.5 {t.daysUnit}</div>
           </div>
         </div>
       </div>
 
       {/* requests */}
-      <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '16px 2px 9px' }}>Your requests</div>
+      <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '16px 2px 9px' }}>{t.requestsLabel}</div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
-        <Request dot={T.pos} when="14–16 Apr" detail="3 days · Annual leave" status="Approved" tone={T.posk} tonet={T.post} />
-        <Request dot={T.warn} when="2 May" detail="1 day · Annual leave" status="Pending" tone={T.warnk} tonet={T.warnt} />
+        <Request dot={T.pos} when="14–16 Apr" detail={`3 ${t.daysUnit} · ${t.annualLeave}`} status={t.approved} tone={T.posk} tonet={T.post} />
+        <Request dot={T.warn} when="2 May" detail={`1 ${t.dayUnit} · ${t.annualLeave}`} status={t.pending} tone={T.warnk} tonet={T.warnt} />
       </div>
 
       {/* thumb-zone action */}
       <div style={{ marginTop: 13, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7, minHeight: 38, borderRadius: 12, background: T.acc, color: T.acck, font: `700 12.5px ${FONT}` }}>
         <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8h10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
-        Request time off
+        {t.requestCta}
       </div>
     </div>
   );
