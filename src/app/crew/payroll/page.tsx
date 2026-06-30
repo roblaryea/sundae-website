@@ -2,7 +2,8 @@
 
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { CrewModulePage } from '@/components/crew/CrewModulePage';
-import { ThemedShot } from '@/components/ui/ThemedShot';
+import { PhoneFrame } from '@/components/ui/PhoneFrame';
+import { CrewPayrollMobile } from '@/components/crew/CrewPayrollMobile';
 import { payrollCopy } from '@/components/crew/moduleCopies';
 
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy';
@@ -16,15 +17,9 @@ export default function Page() {
       slug="payroll"
       copy={copy}
       heroVisual={
-        <ThemedShot
-          framed
-          dark="/images/product/2026-fresh/crew-payroll-dark.png"
-          light="/images/product/2026-fresh/crew-payroll.png"
-          alt="Sundae Crew — Payroll: multi-region payroll readiness, statutory exports and year-end forms"
-          width={1600}
-          height={1000}
-          priority
-        />
+        <PhoneFrame screenBg="#020617" time="3:00">
+          <CrewPayrollMobile />
+        </PhoneFrame>
       }
     />
   );
