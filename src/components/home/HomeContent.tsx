@@ -76,29 +76,6 @@ import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 // Homepage shows only the slim 4-card teaser per Option B from review.
 // SectionCommercialHubs moved to /about page (presence section).
 
-/* ─── Data ─────────────────────────────────────────────────────── */
-
-/**
- * Render copy with the standalone brand name "Sundae" swapped for the wordmark
- * (where Sundae is the subject). Brand name is constant across all 22 locales, so
- * splitting on it is locale-safe; the product lockup "Sundae Intelligence" is left
- * as text so the wordmark never breaks a product name.
- */
-function withWordmark(text: string, markClassName: string) {
-  return text.split(/(\bSundae\b(?!\s+Intelligence))/g).map((part, i) =>
-    part === "Sundae" ? (
-      // aria-hidden wordmark + sr-only text so screen readers announce "Sundae"
-      // once AND raw textContent (SEO / extraction) still reads the brand name.
-      <span key={i} className="inline-flex items-baseline">
-        <SundaeWordmark aria-hidden className={markClassName} />
-        <span className="sr-only">Sundae</span>
-      </span>
-    ) : (
-      <span key={i}>{part}</span>
-    )
-  );
-}
-
 /* ─── Component ────────────────────────────────────────────────── */
 
 export default function HomeContent() {
@@ -415,10 +392,7 @@ export default function HomeContent() {
           objectPosition="center 72%"
           alt={editorial.band2.alt}
           eyebrow={editorial.band2.eyebrow}
-          headline={withWordmark(
-            editorial.band2.headline,
-            "h-[0.72em] w-auto inline-block align-baseline translate-y-[0.02em] text-white"
-          )}
+          headline={editorial.band2.headline}
           sub={editorial.band2.sub}
         />
 
@@ -529,7 +503,7 @@ export default function HomeContent() {
               <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>
                 {home.closingTitle}
                 {/* cherry-toned sign-off - matches the cream relief emphasis */}
-                <span className="mt-1 block" style={{ color: 'var(--warm-cherry)' }}>{withWordmark(closerLine, "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
+                <span className="mt-1 block" style={{ color: 'var(--warm-cherry)' }}>{closerLine}</span>
               </h2>
               <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>
                 {home.closingDescription}
