@@ -490,7 +490,7 @@ export default function GettingStartedPage() {
                   <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{card.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)] mb-4 text-center flex-1">{card.description}</p>
                   <Button
-                    variant={card.color === "bg-green-600" ? "primary" : "outline-light"}
+                    variant={card.color === "bg-green-600" ? "primary" : "outline-ink"}
                     size="md"
                     className="w-full"
                     onClick={() => handleFinalCardClick(card.href)}

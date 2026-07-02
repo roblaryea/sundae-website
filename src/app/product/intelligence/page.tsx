@@ -583,7 +583,7 @@ export default function ChatWithDataPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" href={SIGNUP_URL}>{ui.heroPrimary}</Button>
-        <Button variant="outline-light" size="lg" href="/demo">{ui.heroSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/demo">{ui.heroSecondary}</Button>
       </PageCTA>
     </div>
   );

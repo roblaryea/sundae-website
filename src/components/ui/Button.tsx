@@ -4,7 +4,7 @@ import React from 'react';
 
 interface ButtonBaseProps {
   children: React.ReactNode;
-  variant?: 'primary' | 'secondary' | 'outline' | 'outline-light' | 'ghost' | 'cta' | 'ink';
+  variant?: 'primary' | 'secondary' | 'outline' | 'outline-light' | 'outline-ink' | 'ghost' | 'cta' | 'ink';
   size?: 'sm' | 'md' | 'lg' | 'xl';
   className?: string;
   disabled?: boolean;
@@ -54,6 +54,9 @@ export const Button: React.FC<ButtonProps> = (props) => {
 
     // Outline Light - brighter for dark sections
     'outline-light': 'border border-[var(--border-emphasis)] text-[var(--text-primary)] bg-transparent hover:bg-[var(--surface-emphasis)] hover:border-[var(--text-muted)] active:bg-[var(--surface-subtle)]',
+
+    // Outline Ink - theme-independent dark outline for warm cream surfaces (CTA bands)
+    'outline-ink': 'border border-[rgba(26,20,15,0.28)] text-[var(--ink)] bg-transparent hover:bg-[rgba(26,20,15,0.06)] hover:border-[rgba(26,20,15,0.45)] active:bg-[rgba(26,20,15,0.10)]',
 
     // Ghost - subtle
     ghost: 'text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]',

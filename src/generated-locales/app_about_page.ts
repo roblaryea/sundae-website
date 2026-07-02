@@ -57,6 +57,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 Minuten, um Ihre Daten gemeinsam zu überprüfen und zu sehen, wo Sundae wirklich nützlich sein könnte.",
       "ctaPrimary": "Eine Demo buchen",
       "ctaSecondary": "Wir stellen ein",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Betriebssuite - Sundae Crew",
+      "ctaHome": "Zurück zur Startseite",
+      "crewPillars": [
+        "Dienstplanung",
+        "Zeiterfassung",
+        "Lohnabrechnung",
+        "Personal & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Bedarfsgerechte Schichtplanung",
+        "Einstempeln, Geofencing, Stundenzettel",
+        "Länderübergreifende Lohnabrechnung",
+        "Personalakten von Einstellung bis Austritt",
+        "Personalanalysen"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -906,6 +923,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minuten om samen uw gegevens te bekijken en te zien waar Sundae echt nuttig kan zijn.",
       "ctaPrimary": "Boek een demo",
       "ctaSecondary": "We zijn aan het werven",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Operationele suite - Sundae Crew",
+      "ctaHome": "Terug naar Home",
+      "crewPillars": [
+        "Personeelsplanning",
+        "Tijdregistratie",
+        "Salarisadministratie",
+        "Personeel & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Vraaggestuurde dienstplanning",
+        "Inklokken, geofencing, urenstaten",
+        "Loonverwerking voor meerdere landen",
+        "Personeelsdossiers van indienst tot uitdienst",
+        "Personeelsanalyses"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1119,6 +1153,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minutos para revisar seus dados juntos e ver onde o Sundae pode ser realmente útil.",
       "ctaPrimary": "Agende uma Demonstração",
       "ctaSecondary": "Estamos Contratando",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suite Operacional - Sundae Crew",
+      "ctaHome": "Voltar ao Início",
+      "crewPillars": [
+        "Escalas",
+        "Ponto e Presença",
+        "Folha de Pagamento",
+        "Pessoas & RH",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Planeamento de turnos orientado pela procura",
+        "Registo de ponto, geofencing, folhas de horas",
+        "Folha de pagamento pronta para múltiplas regiões",
+        "Registos da contratação à saída",
+        "Análise de força de trabalho"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1287,6 +1338,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "آپ کے ڈیٹا کا جائزہ لینے اور یہ دیکھنے کے لیے 30 منٹ کہ Sundae واقعی کس طرح مددگار ہو سکتا ہے۔",
       "ctaPrimary": "ایک ڈیمو بک کریں",
       "ctaSecondary": "ہم بھرتی کر رہے ہیں",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "آپریشنل سوٹ - Sundae Crew",
+      "ctaHome": "ہوم پر واپس جائیں",
+      "crewPillars": [
+        "شیڈولنگ",
+        "حاضری اور اوقاتِ کار",
+        "پے رول",
+        "عملہ اور HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "طلب کے مطابق شفٹ پلاننگ",
+        "کلاک ان، جیو فینس، ٹائم شیٹس",
+        "کئی خطوں کے لیے پے رول کی تیاری",
+        "بھرتی سے ریٹائرمنٹ تک ریکارڈ",
+        "افرادی قوت کا تجزیہ"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1500,6 +1568,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "आपके डेटा की समीक्षा करने और यह देखने के लिए 30 मिनट कि Sundae वास्तव में कहाँ उपयोगी हो सकता है।",
       "ctaPrimary": "डेमो बुक करें",
       "ctaSecondary": "हम भर्ती कर रहे हैं",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "ऑपरेशनल सूट - Sundae Crew",
+      "ctaHome": "होम पर वापस जाएं",
+      "crewPillars": [
+        "शेड्यूलिंग",
+        "समय और उपस्थिति",
+        "पेरोल",
+        "स्टाफ और HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "मांग-आधारित शिफ्ट योजना",
+        "क्लॉक-इन, जियोफेंस, टाइमशीट",
+        "कई क्षेत्रों के लिए पेरोल तैयारी",
+        "भर्ती से रिटायरमेंट तक रिकॉर्ड",
+        "कार्यबल विश्लेषण"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1713,6 +1798,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minuti per rivedere insieme i tuoi dati e vedere dove Sundae potrebbe essere davvero utile.",
       "ctaPrimary": "Prenota una demo",
       "ctaSecondary": "Stiamo assumendo",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suite Operativa - Sundae Crew",
+      "ctaHome": "Torna alla Home",
+      "crewPillars": [
+        "Pianificazione turni",
+        "Rilevazione presenze",
+        "Buste paga",
+        "Personale & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Pianificazione turni guidata dalla domanda",
+        "Timbratura, geofencing, fogli ore",
+        "Buste paga pronte per più paesi",
+        "Anagrafiche dall'assunzione all'uscita",
+        "Analisi del personale"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1881,6 +1983,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minut na wspólne przeglądanie danych i zobaczenie, gdzie Sundae może być naprawdę przydatne.",
       "ctaPrimary": "Zarezerwuj demo",
       "ctaSecondary": "Rekrutujemy",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Pakiet operacyjny - Sundae Crew",
+      "ctaHome": "Powrót do strony głównej",
+      "crewPillars": [
+        "Grafiki",
+        "Czas pracy i obecność",
+        "Płace",
+        "Pracownicy i HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Planowanie zmian oparte na popycie",
+        "Rejestracja czasu, geofencing, ewidencja godzin",
+        "Gotowość płacowa dla wielu regionów",
+        "Akta od zatrudnienia do odejścia",
+        "Analityka kadr"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2049,6 +2168,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "Verilerinizi birlikte gözden geçirmek ve Sundae'nin gerçekten faydalı olabileceği yerleri görmek için 30 dakika.",
       "ctaPrimary": "Demo Rezervasyonu Yap",
       "ctaSecondary": "Eleman Alımı Yapıyoruz",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Operasyon Paketi - Sundae Crew",
+      "ctaHome": "Ana Sayfaya Dön",
+      "crewPillars": [
+        "Vardiya Planlama",
+        "Zaman ve Devam",
+        "Bordro",
+        "Personel ve İK",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Talebe dayalı vardiya planlaması",
+        "Giriş kaydı, coğrafi sınır, mesai çizelgeleri",
+        "Çok bölgeli bordro hazırlığı",
+        "İşe alımdan ayrılışa kadar kayıtlar",
+        "İş gücü analitiği"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2262,6 +2398,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30分钟一起审查您的数据，看看Sundae在哪里可以真正发挥作用。",
       "ctaPrimary": "预约演示",
       "ctaSecondary": "我们在招聘",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "运营套件 - Sundae Crew",
+      "ctaHome": "返回首页",
+      "crewPillars": [
+        "排班",
+        "考勤",
+        "薪资",
+        "人员与人力资源",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "按需排班",
+        "打卡、地理围栏、工时表",
+        "多地区薪资就绪",
+        "从入职到离职的员工档案",
+        "劳动力分析"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2475,6 +2628,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30分でデータを一緒に確認し、Sundaeがどのように役立つかを見てみましょう。",
       "ctaPrimary": "デモを予約する",
       "ctaSecondary": "私たちは採用中です",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "オペレーションスイート - Sundae Crew",
+      "ctaHome": "ホームに戻る",
+      "crewPillars": [
+        "シフト管理",
+        "勤怠管理",
+        "給与",
+        "人事・HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "需要に応じたシフト計画",
+        "打刻、ジオフェンス、タイムシート",
+        "多地域対応の給与準備",
+        "採用から退職までの人事記録",
+        "人材アナリティクス"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2688,6 +2858,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 menit untuk meninjau data Anda bersama dan melihat di mana Sundae bisa benar-benar berguna.",
       "ctaPrimary": "Pesan Demo",
       "ctaSecondary": "Kami Sedang Mencari",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suite Operasional - Sundae Crew",
+      "ctaHome": "Kembali ke Beranda",
+      "crewPillars": [
+        "Penjadwalan",
+        "Absensi & Kehadiran",
+        "Penggajian",
+        "SDM & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Perencanaan shift berbasis permintaan",
+        "Absen masuk, geofence, lembar waktu",
+        "Kesiapan penggajian multi-wilayah",
+        "Catatan dari rekrut hingga purnakarya",
+        "Analitik tenaga kerja"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2901,6 +3088,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 phút để cùng xem xét dữ liệu của bạn và xem Sundae có thể thực sự hữu ích ở đâu.",
       "ctaPrimary": "Đặt lịch Dùng thử",
       "ctaSecondary": "Chúng tôi đang tuyển dụng",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Bộ công cụ vận hành - Sundae Crew",
+      "ctaHome": "Về Trang chủ",
+      "crewPillars": [
+        "Xếp lịch",
+        "Chấm công",
+        "Bảng lương",
+        "Nhân sự & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Lập kế hoạch ca theo nhu cầu",
+        "Chấm giờ, geofence, bảng chấm công",
+        "Sẵn sàng bảng lương đa khu vực",
+        "Hồ sơ từ tuyển dụng đến nghỉ việc",
+        "Phân tích lực lượng lao động"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3114,6 +3318,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30분 동안 데이터를 함께 검토하고 Sundae가 실제로 유용할 수 있는 부분을 확인하세요.",
       "ctaPrimary": "데모 예약하기",
       "ctaSecondary": "우리는 채용 중입니다",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "운영 스위트 - Sundae Crew",
+      "ctaHome": "홈으로 돌아가기",
+      "crewPillars": [
+        "근무 일정",
+        "근태 관리",
+        "급여",
+        "인사 & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "수요 기반 근무 일정 계획",
+        "출퇴근 기록, 지오펜스, 근무 시간표",
+        "다지역 급여 준비",
+        "채용부터 퇴직까지 인사 기록",
+        "인력 분석"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3327,6 +3548,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 de minute pentru a revizui împreună datele tale și a vedea unde Sundae ar putea fi cu adevărat util.",
       "ctaPrimary": "Rezervați o demonstrație",
       "ctaSecondary": "Angajăm",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suită operațională - Sundae Crew",
+      "ctaHome": "Înapoi la pagina principală",
+      "crewPillars": [
+        "Programare ture",
+        "Pontaj și prezență",
+        "Salarizare",
+        "Personal & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Planificarea turelor în funcție de cerere",
+        "Pontaj, geofencing, fișe de pontaj",
+        "Salarizare pregătită pentru mai multe regiuni",
+        "Evidențe de la angajare la plecare",
+        "Analiză a forței de muncă"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3495,6 +3733,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minuter för att granska dina data tillsammans och se hur Sundae verkligen kan vara till nytta.",
       "ctaPrimary": "Boka en demo",
       "ctaSecondary": "Vi anställer",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Verksamhetssvit - Sundae Crew",
+      "ctaHome": "Tillbaka till startsidan",
+      "crewPillars": [
+        "Schemaläggning",
+        "Tid och närvaro",
+        "Lön",
+        "Personal & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Efterfrågestyrd schemaläggning",
+        "Instämpling, geofencing, tidrapporter",
+        "Lönehantering redo för flera regioner",
+        "Register från anställning till avslut",
+        "Personalanalys"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3708,6 +3963,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "আপনার ডেটা একসাথে পর্যালোচনা করতে এবং দেখতে ৩০ মিনিট সময় নিন যে Sundae কোথায় সত্যিই উপকারী হতে পারে।",
       "ctaPrimary": "ডেমো বুক করুন",
       "ctaSecondary": "আমরা নিয়োগ দিচ্ছি",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "অপারেশনাল স্যুট - Sundae Crew",
+      "ctaHome": "হোমে ফিরে যান",
+      "crewPillars": [
+        "শিডিউলিং",
+        "সময় ও উপস্থিতি",
+        "পে-রোল",
+        "কর্মী ও HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "চাহিদা-ভিত্তিক শিফট পরিকল্পনা",
+        "ক্লক-ইন, জিওফেন্স, টাইমশিট",
+        "বহু-অঞ্চলের পে-রোল প্রস্তুতি",
+        "নিয়োগ থেকে অবসর পর্যন্ত রেকর্ড",
+        "কর্মশক্তি বিশ্লেষণ"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3921,6 +4193,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 นาทีในการตรวจสอบข้อมูลของคุณร่วมกันและดูว่า Sundae จะมีประโยชน์จริง ๆ ได้อย่างไร.",
       "ctaPrimary": "จองการสาธิต",
       "ctaSecondary": "เรากำลังรับสมัครงาน",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "ชุดเครื่องมือปฏิบัติการ - Sundae Crew",
+      "ctaHome": "กลับสู่หน้าแรก",
+      "crewPillars": [
+        "การจัดตารางงาน",
+        "เวลาและการเข้างาน",
+        "เงินเดือน",
+        "บุคลากรและ HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "วางแผนกะตามความต้องการ",
+        "ลงเวลา, จีโอเฟนซ์, ใบบันทึกเวลา",
+        "ความพร้อมด้านเงินเดือนหลายภูมิภาค",
+        "บันทึกตั้งแต่จ้างจนถึงพ้นสภาพ",
+        "การวิเคราะห์กำลังคน"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -4134,6 +4423,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minit untuk menyemak data anda bersama dan melihat di mana Sundae boleh menjadi berguna.",
       "ctaPrimary": "Tempah Demo",
       "ctaSecondary": "Kami Mencari Kakitangan",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suit Operasi - Sundae Crew",
+      "ctaHome": "Kembali ke Laman Utama",
+      "crewPillars": [
+        "Penjadualan",
+        "Masa & Kehadiran",
+        "Gaji",
+        "Kakitangan & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Perancangan syif berdasarkan permintaan",
+        "Daftar masuk, geofence, helaian masa",
+        "Kesediaan gaji pelbagai wilayah",
+        "Rekod dari pengambilan ke persaraan",
+        "Analitik tenaga kerja"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",

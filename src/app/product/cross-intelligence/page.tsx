@@ -1345,7 +1345,7 @@ export default function CrossIntelligencePage() {
         >
           {ui.ctaPrimary}
         </Button>
-        <Button variant="outline-light" size="lg" href={PRICING_URL}>
+        <Button variant="outline-ink" size="lg" href={PRICING_URL}>
           {ui.ctaSecondary}
         </Button>
       </PageCTA>

@@ -47,8 +47,13 @@ const aboutCopy = {
     ctaDescription: "30 minutes to review your data together and see where Sundae could be genuinely useful.",
     ctaPrimary: "Book a Demo",
     ctaSecondary: "We're Hiring",
+    ctaHome: "Back to Home",
+    builtCoreLabel: "Decision Intelligence",
+    builtCrewLabel: "Operational Suite - Sundae Crew",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
     pillarsSubtitle: ["Real-Time Operations", "Competitive Intelligence", "Market Intelligence", "12 Analytics Modules", "Conversational AI", "Predictive Intelligence"],
+    crewPillars: ["Scheduling", "Time & Attendance", "Payroll", "People & HR", "People Intelligence"],
+    crewPillarsSubtitle: ["Demand-aware shift planning", "Clock-in, geofence, timesheets", "Multi-region payroll readiness", "Hire-to-retire records", "Workforce analytics"],
     leadership: [
       { name: "Robert Laryea", role: "Founder & CEO", location: "Dubai", image: "/team/robert-laryea.jpg", bullets: ["Scaled multi-unit restaurant concepts from zero to $10M+ annual revenue", "Saw first-hand how fragmented data costs operators millions in margin leakage", "20+ years leading transformation programs across consulting and F&B", "Built Sundae to give restaurant groups the operating intelligence he wished they had earlier"] },
       { name: "Mark Curfs", role: "Strategic Operating Partner", location: "GCC & Europe", image: "/team/mark-curfs.jpg", bullets: ["Senior operator depth and F&B commercial relationships at the table from day one", "Interim C-level and board-adjacent counsel to multi-unit hospitality operators across the GCC and Europe", "Opens enterprise doors and pressure-tests Pulse, Insights and Foresight against what F&B leadership actually needs", "Principal of Curfs Consult, partnering with founders on go-to-market, fundraise and scale"] },
@@ -118,8 +123,13 @@ const aboutCopy = {
     ctaDescription: "نجلس مع بياناتك لمدة 30 دقيقة لنرى معًا أين يمكن أن تساعدك Sundae فعليًا.",
     ctaPrimary: "احجز عرضًا",
     ctaSecondary: "نحن نوظف",
+    ctaHome: "العودة إلى الرئيسية",
+    builtCoreLabel: "ذكاء القرار",
+    builtCrewLabel: "الجناح التشغيلي - Sundae Crew",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
     pillarsSubtitle: ["عمليات لحظية", "ذكاء تنافسي", "ذكاء سوقي", "12 وحدة تحليل", "ذكاء محادثي", "ذكاء تنبؤي"],
+    crewPillars: ["الجدولة", "الحضور والانصراف", "الرواتب", "الأفراد والموارد البشرية", "ذكاء الأفراد"],
+    crewPillarsSubtitle: ["تخطيط ورديات مدرك للطلب", "تسجيل الحضور والسياج الجغرافي والجداول الزمنية", "جاهزية رواتب متعددة الدول", "سجلات من التوظيف حتى نهاية الخدمة", "تحليلات القوى العاملة"],
     leadership: [
       { name: "Robert Laryea", role: "المؤسس والرئيس التنفيذي", location: "دبي", image: "/team/robert-laryea.jpg", bullets: ["وسّع مفاهيم مطاعم متعددة الفروع من الصفر إلى أكثر من 10 ملايين دولار سنويًا", "رأى كيف تكلف البيانات المجزأة المشغلين ملايين في خسائر هامشية غير مرئية", "أكثر من 20 سنة في برامج التحول العالمية عبر الاستشارات والمأكولات والمشروبات", "بنى Sundae ليمنح مجموعات المطاعم نظام قرار موحدًا كان ينقصها في التشغيل اليومي"] },
       { name: "Mark Curfs", role: "شريك تشغيلي استراتيجي", location: "GCC وأوروبا", image: "/team/mark-curfs.jpg", bullets: ["عمق خبرة تشغيلية رفيعة وعلاقات تجارية في قطاع الأطعمة والمشروبات حاضرة منذ اليوم الأول", "مشورة بمستوى تنفيذي مؤقت وقريبة من مجالس الإدارة لمشغّلي الضيافة متعددي الفروع عبر الخليج وأوروبا", "يفتح أبواب المؤسسات الكبرى ويختبر Pulse وInsights وForesight مقابل ما تحتاجه قيادة الأطعمة والمشروبات فعليًا", "مؤسس Curfs Consult، يعمل مع المؤسسين على دخول السوق وجمع التمويل والتوسع"] },
@@ -189,8 +199,13 @@ const aboutCopy = {
     ctaDescription: "Trente minutes pour regarder vos données ensemble et voir où Sundae peut vraiment aider.",
     ctaPrimary: "Reserver une demo",
     ctaSecondary: "Nous recrutons",
+    ctaHome: "Retour à l'accueil",
+    builtCoreLabel: "Intelligence décisionnelle",
+    builtCrewLabel: "Suite opérationnelle - Sundae Crew",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
     pillarsSubtitle: ["Opérations temps réel", "Intelligence concurrentielle", "Intelligence marché", "12 modules analytiques", "IA conversationnelle", "Intelligence prédictive"],
+    crewPillars: ["Planning", "Temps & présence", "Paie", "RH & personnel", "People Intelligence"],
+    crewPillarsSubtitle: ["Planning des équipes selon la demande", "Pointage, géorepérage, feuilles de temps", "Préparation de paie multi-pays", "Dossiers de l'embauche au départ", "Analytique RH"],
     leadership: [
       { name: "Robert Laryea", role: "Fondateur & CEO", location: "Dubaï", image: "/team/robert-laryea.jpg", bullets: ["A développé des concepts restaurant multi-sites de zéro à plus de 10 M$ de revenus annuels", "A constaté combien les données fragmentées coûtent aux opérateurs en marge invisible", "20+ ans à diriger des programmes de transformation mondiaux en conseil et F&B", "A créé Sundae pour donner aux groupes restaurant un système de décision unifié qui manquait dans l'exploitation quotidienne"] },
       { name: "Mark Curfs", role: "Partenaire opérationnel stratégique", location: "GCC & Europe", image: "/team/mark-curfs.jpg", bullets: ["Une expertise d'opérateur senior et des relations commerciales F&B autour de la table dès le premier jour", "Conseil de niveau C par intérim et proche des conseils d'administration pour les opérateurs d'hospitalité multi-sites à travers le GCC et l'Europe", "Ouvre les portes des grands comptes et met Pulse, Insights et Foresight à l'épreuve de ce dont les dirigeants F&B ont réellement besoin", "Dirigeant de Curfs Consult, accompagnant les fondateurs sur le go-to-market, la levée de fonds et la mise à l'échelle"] },
@@ -260,8 +275,13 @@ const aboutCopy = {
     ctaDescription: "Treinta minutos para revisar tus datos contigo y ver dónde Sundae puede ayudar de verdad.",
     ctaPrimary: "Reservar una demo",
     ctaSecondary: "Estamos contratando",
+    ctaHome: "Volver al inicio",
+    builtCoreLabel: "Inteligencia de decisiones",
+    builtCrewLabel: "Suite operativa - Sundae Crew",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
     pillarsSubtitle: ["Operaciones en tiempo real", "Inteligencia competitiva", "Inteligencia de mercado", "12 módulos analíticos", "IA conversacional", "Inteligencia predictiva"],
+    crewPillars: ["Turnos", "Tiempo y asistencia", "Nómina", "Personal y RR. HH.", "People Intelligence"],
+    crewPillarsSubtitle: ["Planificación de turnos según demanda", "Fichaje, geovalla, hojas de horas", "Preparación de nómina multipaís", "Registros de principio a fin", "Analítica de personal"],
     leadership: [
       { name: "Robert Laryea", role: "Fundador y CEO", location: "Dubái", image: "/team/robert-laryea.jpg", bullets: ["Escaló conceptos de restaurantes multilocal desde cero hasta más de 10 M$ en ingresos anuales", "Vio cómo los datos fragmentados cuestan a los operadores millones en fuga de margen", "Más de 20 años liderando programas de transformación global en consultoría y F&B", "Creó Sundae para dar a los grupos de restaurantes un sistema de decisiones unificado que faltaba en la operación diaria"] },
       { name: "Mark Curfs", role: "Socio operativo estratégico", location: "GCC y Europa", image: "/team/mark-curfs.jpg", bullets: ["Profundidad de operador sénior y relaciones comerciales de F&B en la mesa desde el primer día", "Asesoría interina de nivel C y cercana al consejo para operadores de hostelería multilocal en el GCC y Europa", "Abre puertas en grandes cuentas y pone a prueba Pulse, Insights y Foresight frente a lo que la dirección de F&B realmente necesita", "Director de Curfs Consult, acompañando a fundadores en go-to-market, captación de fondos y escalado"] },
@@ -346,6 +366,12 @@ export default async function AboutPage() {
               <p className="body-xl text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.builtDescription}</p>
             </div>
           </FadeUp>
+          {/* Row 1 - Decision Intelligence (the six Core pillars) */}
+          <div className="mb-5 flex items-center gap-3">
+            <span className="h-px flex-1 bg-[var(--border-default)]" />
+            <span className="eyebrow whitespace-nowrap text-[var(--text-muted)]">{copy.builtCoreLabel}</span>
+            <span className="h-px flex-1 bg-[var(--border-default)]" />
+          </div>
           <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {copy.pillars.map((pillar, idx) => (
               <StaggerItem key={pillar}>
@@ -355,6 +381,26 @@ export default async function AboutPage() {
                   </div>
                   <h3 className="font-bold text-[var(--text-primary)] text-base mb-1">{pillar}</h3>
                   <p className="text-xs text-[var(--text-supporting)]">{copy.pillarsSubtitle[idx]}</p>
+                </Card>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+
+          {/* Row 2 - Operational Suite (Sundae Crew) - emerald to distinguish from the coral Core pillars */}
+          <div className="mt-14 mb-5 flex items-center gap-3">
+            <span className="h-px flex-1 bg-[var(--border-default)]" />
+            <span className="eyebrow whitespace-nowrap text-[var(--text-muted)]">{copy.builtCrewLabel}</span>
+            <span className="h-px flex-1 bg-[var(--border-default)]" />
+          </div>
+          <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {copy.crewPillars.map((pillar, idx) => (
+              <StaggerItem key={pillar}>
+                <Card variant="feature" className="text-center h-full p-6 hover:-translate-y-1 transition-transform duration-300">
+                  <div className="w-14 h-14 mx-auto mb-4 bg-gradient-to-br from-[#0F766E] to-[#10B981] rounded-xl flex items-center justify-center">
+                    <SundaeIcon name={["time", "device", "finance", "hr", "labor"][idx] as SundaeIconName} size="lg" className="text-white" />
+                  </div>
+                  <h3 className="font-bold text-[var(--text-primary)] text-base mb-1">{pillar}</h3>
+                  <p className="text-xs text-[var(--text-supporting)]">{copy.crewPillarsSubtitle[idx]}</p>
                 </Card>
               </StaggerItem>
             ))}
@@ -598,7 +644,8 @@ export default async function AboutPage() {
 
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
         <Button variant="cta" size="lg" href="/demo">{copy.ctaPrimary}</Button>
-        <Button variant="outline-light" size="lg" href="/careers">{copy.ctaSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/careers">{copy.ctaSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/">{copy.ctaHome}</Button>
       </PageCTA>
     </div>
   );

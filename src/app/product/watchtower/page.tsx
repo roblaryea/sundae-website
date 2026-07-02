@@ -669,24 +669,24 @@ export default function WatchtowerPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
+          <StaggerItem className="p-6 border border-[rgba(26,20,15,0.12)] rounded-xl">
             <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="cost" size="lg" className="text-white" />
             </div>
-            <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaAdd}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.seeWatchtowerPricing}</p>
-            <Button variant="primary" size="md" className="w-full" href={PRICING_URL}>
+            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaAdd}</h3>
+            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.seeWatchtowerPricing}</p>
+            <Button variant="cta" size="md" className="w-full" href={PRICING_URL}>
               {ui.heroPrimary} →
             </Button>
           </StaggerItem>
-          <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
+          <StaggerItem className="p-6 border border-[rgba(26,20,15,0.12)] rounded-xl">
             <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="visibility" size="lg" className="text-white" />
             </div>
-            <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaDemo}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.watchWatchtowerDemo}</p>
+            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaDemo}</h3>
+            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.watchWatchtowerDemo}</p>
             <Button
-              variant="outline"
+              variant="outline-ink"
               size="md"
               className="w-full"
               onClick={() => cta("/demo", "watch_watchtower_demo", { page: "/product/watchtower" })}
@@ -694,14 +694,14 @@ export default function WatchtowerPage() {
               {ui.ctaDemo} →
             </Button>
           </StaggerItem>
-          <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
+          <StaggerItem className="p-6 border border-[rgba(26,20,15,0.12)] rounded-xl">
             <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="conversation" size="lg" className="text-white" />
             </div>
-            <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaSales}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.customWatchtowerConfiguration}</p>
+            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaSales}</h3>
+            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.customWatchtowerConfiguration}</p>
             <Button
-              variant="outline"
+              variant="outline-ink"
               size="md"
               className="w-full"
               onClick={() => cta("/contact", "contact_watchtower_sales", { page: "/product/watchtower" })}

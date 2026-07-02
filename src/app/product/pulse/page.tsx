@@ -1464,7 +1464,7 @@ export default function PulsePage() {
           {ui.cta.primary}
         </Button>
         <Button
-          variant="outline-light"
+          variant="outline-ink"
           size="lg"
           onClick={() => cta(REPORT_APP_URL, "start_free_pulse_cta", { page: "/product/pulse" })}
         >

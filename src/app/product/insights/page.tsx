@@ -951,14 +951,14 @@ export default function InsightsPage() {
         headingOverride={galleryHeading("insights", locale)}
       />
 
-      {/* CTA Band - warm closer (matches the shared PageCTA scheme) */}
-      <section className="relative overflow-hidden bg-grad-deep py-24 px-4 sm:px-6 lg:px-8 text-[var(--text-primary)]">
-        <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
+      {/* CTA Band - warm cream closer (matches the shared PageCTA scheme) */}
+      <section className="relative overflow-hidden py-24 px-4 sm:px-6 lg:px-8" style={{ background: 'var(--cream)', color: 'var(--ink)' }}>
+        <div aria-hidden className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 55% 50% at 50% 20%, rgba(233,162,74,0.16) 0%, transparent 65%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
+          <h2 className="section-h2 mb-6" style={{ color: 'var(--ink)' }}>
             {ui.ctaTitle}
           </h2>
-          <p className="body-xl mb-8 text-[var(--text-muted)]">
+          <p className="body-xl mb-8" style={{ color: 'rgba(26,20,15,0.66)' }}>
             {ui.ctaDescription}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -970,7 +970,7 @@ export default function InsightsPage() {
               {ui.ctaDemo}
             </Button>
             <Link href="/modules">
-              <Button variant="outline-light" size="lg">
+              <Button variant="outline-ink" size="lg">
                 {ui.ctaPricing}
               </Button>
             </Link>

@@ -467,7 +467,7 @@ export default function ReportProductPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="primary" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_report_cta", { page: "/report" })}>{ui.finalTiles[0].cta}</Button>
-        <Button variant="outline" size="lg" onClick={() => cta("/demo", "book_demo_from_report", { page: "/report" })}>{ui.finalTiles[2].cta}</Button>
+        <Button variant="outline-ink" size="lg" onClick={() => cta("/demo", "book_demo_from_report", { page: "/report" })}>{ui.finalTiles[2].cta}</Button>
       </PageCTA>
     </div>
   );

@@ -180,7 +180,10 @@ export function PageHero({
   );
 }
 
-// Dark CTA section with floating shapes - for page bottoms
+// Warm cream CTA section - for page bottoms. Theme-independent ink-on-cream (like
+// CreamBreak), so the conversion moment reads as an intentional warm "relief" close
+// in both light and dark mode. The primary button (variant="cta") keeps its coral
+// pop; secondary buttons should use variant="outline-ink" to stay legible on cream.
 export function PageCTA({
   title,
   description,
@@ -191,38 +194,26 @@ export function PageCTA({
   children: React.ReactNode;
 }) {
   return (
-    <section className="relative overflow-hidden bg-grad-deep">
-      {/* Grid texture */}
-      <div className="absolute inset-0 bg-grid-texture" />
-
-      {/* Floating shapes */}
-      <div className="absolute inset-0 overflow-hidden">
-        <ElegantShape
-          delay={0.3}
-          width={250}
-          height={70}
-          rotate={-10}
-          gradient="from-white/[0.03]"
-          className="right-[-8%] top-[20%]"
-        />
-        <ElegantShape
-          delay={0.5}
-          width={180}
-          height={50}
-          rotate={15}
-          gradient="from-white/[0.02]"
-          className="left-[-5%] bottom-[25%]"
-        />
-      </div>
-
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
+    <section
+      className="relative overflow-hidden"
+      style={{ background: 'var(--cream)', color: 'var(--ink)' }}
+    >
+      {/* warm caramel glow - matches the cream relief bands */}
+      <div
+        aria-hidden
+        className="absolute inset-0"
+        style={{
+          background:
+            'radial-gradient(ellipse 55% 50% at 50% 20%, rgba(233,162,74,0.16) 0%, transparent 65%)',
+        }}
+      />
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 py-24 text-center">
         <FadeUp>
-          <h2 className="section-h2">
+          <h2 className="section-h2" style={{ color: 'var(--ink)' }}>
             {title}
           </h2>
-          <p className="mt-4 body-lg max-w-xl mx-auto">
+          <p className="mt-4 body-lg max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>
             {description}
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
