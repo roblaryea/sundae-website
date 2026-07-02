@@ -965,7 +965,7 @@ export default function PricingPage() {
           {copy.bookDemo}
         </Button>
         <Button
-          variant="outline-light"
+          variant="outline-ink"
           size="lg"
           href={SIGNUP_URL}
         >

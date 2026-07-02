@@ -225,7 +225,7 @@ export default function IntegrationsPage() {
         <Button variant="cta" size="lg" href="/demo">
           {messages.pages.demo.bookDemo}
         </Button>
-          <Button variant="outline-light" size="lg" href="/product">
+          <Button variant="outline-ink" size="lg" href="/product">
           {ui.exploreProducts}
           </Button>
       </PageCTA>

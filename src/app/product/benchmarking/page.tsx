@@ -302,10 +302,10 @@ export default function BenchmarkingPage() {
       />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Button variant="cta" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]" onClick={() => cta(REPORT_APP_URL, "start_free_benchmarks_cta", { page: "/benchmarking" })}>
+        <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_benchmarks_cta", { page: "/benchmarking" })}>
           {ui.startFree}
         </Button>
-        <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_benchmarks_cta", { page: "/benchmarking" })}>
+        <Button variant="outline-ink" size="lg" onClick={() => cta("/demo", "book_demo_benchmarks_cta", { page: "/benchmarking" })}>
           {ui.heroSecondary}
         </Button>
       </PageCTA>

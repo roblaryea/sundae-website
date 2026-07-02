@@ -271,15 +271,12 @@ export function SolutionPageLayout({
         {/* ════════════════════════════════════════════════
             CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
-          <div className="absolute inset-0 bg-grid-texture" />
-          <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
-          <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
+        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ background: 'var(--cream)', color: 'var(--ink)' }}>
+          <div aria-hidden className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 55% 55% at 50% 18%, rgba(233,162,74,0.16) 0%, transparent 65%)' }} />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>
-              <h2 className="section-h2 mb-4">{copy.ctaTitle}</h2>
-              <p className="body-lg mb-10 max-w-xl mx-auto">{copy.ctaDescription}</p>
+              <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
+              <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>{copy.ctaDescription}</p>
               <Link href={ctaButtonHref}><Button variant="cta" size="lg">{copy.ctaButton}</Button></Link>
             </FadeUp>
           </div>

@@ -679,7 +679,7 @@ export default function DocumentationPage() {
           </Button>
         </Link>
         <Link href="/demo">
-          <Button variant="outline-light" size="lg">
+          <Button variant="outline-ink" size="lg">
             {copy.trainingCta}
           </Button>
         </Link>

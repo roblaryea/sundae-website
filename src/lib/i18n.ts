@@ -622,6 +622,7 @@ export const websiteMessages = {
             'Enterprise',
             'Comparison Questions',
             'Specific Use Cases',
+            'Sundae Crew',
           ],
         },
         modules: {
@@ -1069,6 +1070,7 @@ export const websiteMessages = {
             'Enterprise',
             'أسئلة المقارنة',
             'حالات استخدام محددة',
+            'Sundae Crew',
           ],
         },
         modules: {
@@ -1533,6 +1535,7 @@ export const websiteMessages = {
             'Enterprise',
             'Questions comparatives',
             'Cas d\'usage spécifiques',
+            'Sundae Crew',
           ],
         },
         modules: {
@@ -1997,6 +2000,7 @@ export const websiteMessages = {
             'Enterprise',
             'Preguntas comparativas',
             'Casos de uso específicos',
+            'Sundae Crew',
           ],
         },
         modules: {

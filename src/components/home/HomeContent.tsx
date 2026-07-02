@@ -506,64 +506,45 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section id="chapter-cta" className="relative scroll-mt-24 py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
-          {/* photographic base - the floor, warm-graded */}
-          <Image
-            src="/images/editorial/dining-night.jpg"
-            alt=""
-            fill
-            sizes="100vw"
-            className="object-cover object-center brightness-[0.5]"
-          />
-          {/* warm gradient - the bold "punctuation" jolt that closes the page.
-              DARK only: on the warm-paper light theme this neon coral slab reads
-              as a jolt that fights the refined surface, so in light it is hidden
-              in favour of a deep warm-espresso close (below). */}
+        <section
+          id="chapter-cta"
+          className="relative scroll-mt-24 py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden"
+          style={{ background: 'var(--cream)', color: 'var(--ink)' }}
+        >
+          {/* warm caramel glow - the calm cream close, consistent with the page's
+              cream relief bands. The coral energy now lives in the primary button. */}
           <div
-            className="absolute inset-0 mix-blend-multiply [html.light_&]:hidden"
-            style={{ background: 'linear-gradient(135deg, rgba(233,162,74,0.95) 0%, rgba(255,92,77,0.95) 52%, rgba(224,62,72,0.96) 100%)' }}
+            aria-hidden
+            className="absolute inset-0"
+            style={{ background: 'radial-gradient(ellipse 60% 75% at 50% 0%, rgba(233,162,74,0.22) 0%, transparent 62%)' }}
           />
-          <div
-            className="absolute inset-0 opacity-75 [html.light_&]:hidden"
-            style={{ background: 'linear-gradient(135deg, var(--warm-caramel) 0%, var(--warm-coral) 52%, var(--warm-cherry) 100%)' }}
-          />
-          {/* LIGHT only: a deep warm-espresso close - dramatic dark-on-paper,
-              consistent with the page's other dark bands, with a faint warm glow. */}
-          <div
-            className="absolute inset-0 hidden [html.light_&]:block"
-            style={{ background: 'linear-gradient(135deg, rgba(26,18,12,0.92) 0%, rgba(58,30,18,0.84) 52%, rgba(20,13,9,0.94) 100%)' }}
-          />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,255,255,0.22),transparent_60%)] [html.light_&]:bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,150,90,0.18),transparent_62%)]" />
 
-          {/* the mark as a layout device - bleeds into the corner, not a sticker */}
-          <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.12] text-white pointer-events-none">
+          {/* the mark as a layout device - bleeds into the corner, ink at low opacity */}
+          <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.06] pointer-events-none" style={{ color: 'var(--ink)' }}>
             <SundaeWordmark className="w-full h-auto" />
           </div>
 
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <FadeUp>
-              <h2 className="section-h2 mb-4 !text-white">
+              <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>
                 {home.closingTitle}
-                {/* Warm off-white (not near-black ink) - lighter, more refined on the
-                    caramel->coral->cherry gradient, and uniformly legible across it. */}
-                <span className="mt-1 block text-[#FBF6EE]">{withWordmark(closerLine, "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
+                {/* cherry-toned sign-off - matches the cream relief emphasis */}
+                <span className="mt-1 block" style={{ color: 'var(--warm-cherry)' }}>{withWordmark(closerLine, "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
               </h2>
-              <p className="body-lg mb-10 max-w-xl mx-auto !text-white/90">
+              <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>
                 {home.closingDescription}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
-                  variant="ink"
+                  variant="cta"
                   size="lg"
-                  className="[html.light_&]:!bg-[#FBF6EE] [html.light_&]:!text-[#1A140F] [html.light_&]:hover:!bg-white"
                   onClick={() => cta("/demo", "book_demo_footer_cta", { page: "/home" })}
                 >
                   {home.bookDemo}
                 </Button>
                 <Button
-                  variant="outline-light"
+                  variant="outline-ink"
                   size="lg"
-                  className="!border-white/60 !text-white hover:!bg-white/15"
                   onClick={() => cta(SIGNUP_URL, "get_report_footer_cta", { page: "/home" })}
                 >
                   {home.startFree}

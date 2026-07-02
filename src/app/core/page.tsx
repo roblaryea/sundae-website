@@ -873,7 +873,7 @@ export default function CoreProductPage() {
           {ui.cta.primary}
         </Button>
         <Button
-          variant="outline-light"
+          variant="outline-ink"
           size="lg"
           onClick={() => cta("/demo", "book_demo_from_core", { page: "/core" })}
         >

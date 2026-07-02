@@ -1070,14 +1070,14 @@ export default function ReportVsCorePage() {
           {copy.finalPricing}
         </Button>
         <Button
-          variant="outline-light"
+          variant="outline-ink"
           size="lg"
           onClick={() => cta(REPORT_APP_URL, "start_free_from_comparison_bottom", { page: "/report-vs-core" })}
         >
           {copy.finalStartFree}
         </Button>
         <Button
-          variant="outline-light"
+          variant="outline-ink"
           size="lg"
           onClick={() => cta("/demo", "book_demo_from_comparison", { page: "/report-vs-core" })}
         >

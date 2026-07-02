@@ -221,16 +221,16 @@ export function CrewModulePage({
         </div>
       </section>
 
-      {/* ── CTA ── */}
-      <section className="relative overflow-hidden px-4 py-24 sm:px-6 lg:px-8">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.14),transparent_65%)]" />
+      {/* ── CTA ── warm cream close (matches the shared PageCTA scheme) */}
+      <section className="relative overflow-hidden px-4 py-24 sm:px-6 lg:px-8" style={{ background: 'var(--cream)', color: 'var(--ink)' }}>
+        <div aria-hidden className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 55% 50% at 50% 20%, rgba(233,162,74,0.16) 0%, transparent 65%)' }} />
         <FadeUp className="relative z-10 mx-auto max-w-3xl text-center">
-          <p className="eyebrow mb-4">{copy.ctaEyebrow}</p>
-          <h2 className="section-h2 mb-5 text-balance">{copy.ctaTitle}</h2>
-          <p className="body-lg mx-auto mb-8 max-w-2xl">{copy.ctaDescription}</p>
+          <p className="eyebrow mb-4" style={{ color: 'var(--warm-cherry)' }}>{copy.ctaEyebrow}</p>
+          <h2 className="section-h2 mb-5 text-balance" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
+          <p className="body-lg mx-auto mb-8 max-w-2xl" style={{ color: 'rgba(26,20,15,0.66)' }}>{copy.ctaDescription}</p>
           <div className="flex flex-col justify-center gap-3 sm:flex-row">
-            <Link href="/demo"><Button variant="primary" size="lg">{copy.ctaPrimary}</Button></Link>
-            <Link href="/crew"><Button variant="outline-light" size="lg">{copy.ctaSecondary}</Button></Link>
+            <Link href="/demo"><Button variant="cta" size="lg">{copy.ctaPrimary}</Button></Link>
+            <Link href="/crew"><Button variant="outline-ink" size="lg">{copy.ctaSecondary}</Button></Link>
           </div>
         </FadeUp>
       </section>

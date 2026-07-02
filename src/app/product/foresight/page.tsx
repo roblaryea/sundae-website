@@ -716,7 +716,7 @@ export default function ForesightPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_cta", { page: "/product/foresight" })}>{ui.ctaPrimary}</Button>
-        <Button variant="outline-light" size="lg" href="/product">{ui.ctaSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/product">{ui.ctaSecondary}</Button>
       </PageCTA>
     </div>
   );

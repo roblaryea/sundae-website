@@ -35,7 +35,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Welche Produkte bietet Sundae an?",
-            "content": "**Drei Hauptprodukte:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historische Analyse und Benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Echtzeit-Operationen und prädiktive Intelligenz\n3. **Watchtower** (Wettbewerb / Ereignis / Markt) - Externe Marktintelligenz\n\n**Zusätzlich:**\n\n4. **Module** - Arbeitskräfte, Inventar, Einkauf, Marketing und Reservierungsintelligenz."
+            "content": "**Vier Hauptprodukte:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historische Analyse und Benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Echtzeit-Operationen und prädiktive Intelligenz\n3. **Sundae Crew** - Operative Suite: Dienstplanung, Zeiterfassung, Lohnabrechnung, HR und Personalintelligenz\n4. **Watchtower** (Wettbewerb / Ereignis / Markt) - Externe Marktintelligenz\n\n**Zusätzlich:**\n\n5. **Module** - Arbeitskräfte, Inventar, Einkauf, Marketing und Reservierungsintelligenz."
           },
           {
             "title": "Welches Tier sollte ich wählen?",
@@ -278,6 +278,32 @@ export const generatedLocalCopy = {
             "content": "Ja. Watchtower und Marktanalysen können die Analyse von Handelsgebieten, Überprüfung der Marktsättigung, Verfolgung von Wettbewerbsbewegungen und Priorisierung von unterversorgten Gebieten unterstützen."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Was ist Sundae Crew?",
+            "content": "Sundae Crew ist die operative Suite, die Ihr Personal steuert: Dienstplanung, Zeiterfassung, Lohnvorbereitung, HR-Daten und Personalanalytik. Jede geplante Schicht, jede erfasste Stunde und jeder abgelegte Datensatz wird zu einem Signal, das in Ihre Entscheidungsintelligenz zurückfließt - so teilen sich Betrieb und Erkenntnis ein System."
+          },
+          {
+            "title": "Was kann Crew?",
+            "content": "**Fünf verbundene Module:**\n\n1. **Scheduling** - Bedarfsgerechte Schichtplanung mit Eignungsprüfungen und einem KI-Builder\n2. **Zeiterfassung** - Ein- und Ausstempeln, Geofencing, Pausennachweis und Zeitnachweis-Freigaben\n3. **Payroll** - Lohnvorbereitung für mehrere Regionen und gesetzliche Exporte (Vorbereitung und Export, keine Steuer-Engine)\n4. **Personal & HR** - Mitarbeiterdaten und Dokumente vom Eintritt bis zum Austritt\n5. **Personalintelligenz** - Personalanalytik, No-Show-Risiko und Arbeitskostentrends"
+          },
+          {
+            "title": "Welche Regionen unterstützt Crew Payroll?",
+            "content": "Die Lohnvorbereitung und gesetzlichen Exporte von Crew decken derzeit die **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), die **Vereinigten Staaten** (Bund und alle Bundesstaaten), **Kanada**, das **Vereinigte Königreich** und die **Europäische Union** (alle 27 Mitgliedstaaten) ab. Lateinamerika und APAC stehen auf der Roadmap. Crew bereitet die Lohnabrechnung vor und exportiert sie - es ist keine Steuer-Engine, und die gesetzlichen Regeln stammen aus versionierten Länderpaketen."
+          },
+          {
+            "title": "Brauche ich Core, um Crew zu nutzen?",
+            "content": "Nein. Crew kann eigenständig als Ihr operatives System laufen oder neben Core, sodass seine Signale in Labor Intelligence, Pulse und Foresight einfließen. Sie können auch Ihren eigenen HR- oder Lohnanbieter mitbringen - Crew ist bewusst optional."
+          },
+          {
+            "title": "Was kostet Crew?",
+            "content": "**Crew-Module (monatlich, Organisationslizenz + pro Standort):**\n\n- **Scheduling** - $179 + $39/Standort\n- **Zeiterfassung** - $99 + $19/Standort\n- **Payroll** - $129 + $29/Standort\n- **Personal & HR (Operations)** - $399 + $79/Standort\n- **Personalintelligenz** - $249 + $39/Standort\n\nBundles fassen die Suite zu einem günstigeren Gesamtpreis zusammen. Nutzen Sie pricing.sundae.io für die genaue Plankalkulation."
+          }
+        ]
       }
     ],
     "fr": [
@@ -313,7 +339,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quels produits propose Sundae ?",
-            "content": "**Trois produits principaux :**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analyse historique et benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Opérations en temps réel et intelligence prédictive\n3. **Watchtower** (Compétitif / Événement / Marché) - Intelligence de marché externe\n\n**De plus :**\n\n4. **Modules** - Intelligence sur le travail, l'inventaire, les achats, le marketing et les réservations."
+            "content": "**Quatre produits principaux :**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analyse historique et benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Opérations en temps réel et intelligence prédictive\n3. **Sundae Crew** - Suite opérationnelle : planning, gestion des temps et présences, paie, RH et intelligence des équipes\n4. **Watchtower** (Compétitif / Événement / Marché) - Intelligence de marché externe\n\n**De plus :**\n\n5. **Modules** - Intelligence sur le travail, l'inventaire, les achats, le marketing et les réservations."
           },
           {
             "title": "Quel niveau devrais-je choisir ?",
@@ -591,7 +617,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Qué productos ofrece Sundae?",
-            "content": "**Tres productos principales:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análisis histórico y comparación\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operaciones en tiempo real e inteligencia predictiva\n3. **Watchtower** (Competitivo / Evento / Mercado) - Inteligencia de mercado externa\n\n**Además:**\n\n4. **Módulos** - Inteligencia Laboral, de Inventario, Compras, Marketing y Reservas."
+            "content": "**Cuatro productos principales:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análisis histórico y comparación\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operaciones en tiempo real e inteligencia predictiva\n3. **Sundae Crew** - Suite operativa: horarios, control de tiempo y asistencia, nóminas, RR. HH. e inteligencia de personal\n4. **Watchtower** (Competitivo / Evento / Mercado) - Inteligencia de mercado externa\n\n**Además:**\n\n5. **Módulos** - Inteligencia Laboral, de Inventario, Compras, Marketing y Reservas."
           },
           {
             "title": "¿Qué nivel debo elegir?",
@@ -869,7 +895,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Welke producten biedt Sundae aan?",
-            "content": "**Drie hoofdproducten:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historische analyse en benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Real-time operaties en voorspellende intelligentie\n3. **Watchtower** (Concurrentie / Evenement / Markt) - Externe marktintelligentie\n\n**Plus:**\n\n4. **Modules** - Arbeid, Voorraad, Aankopen, Marketing en Reserveringsintelligentie."
+            "content": "**Vier hoofdproducten:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historische analyse en benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Real-time operaties en voorspellende intelligentie\n3. **Sundae Crew** - Operationele suite: personeelsplanning, tijdregistratie, salarisadministratie, HR en personeelsintelligentie\n4. **Watchtower** (Concurrentie / Evenement / Markt) - Externe marktintelligentie\n\n**Plus:**\n\n5. **Modules** - Arbeid, Voorraad, Aankopen, Marketing en Reserveringsintelligentie."
           },
           {
             "title": "Welke tier moet ik kiezen?",
@@ -1112,6 +1138,32 @@ export const generatedLocalCopy = {
             "content": "Ja. Watchtower en marktintelligentie kunnen ondersteuning bieden bij handelsgebiedanalyse, saturatiebeoordeling, concurrentiebeweging tracking en prioritering van onderbediende gebieden."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Wat is Sundae Crew?",
+            "content": "Sundae Crew is de operationele suite die uw mensen aanstuurt: personeelsplanning, tijdregistratie, salarisvoorbereiding, HR-dossiers en personeelsanalyse. Elke geplande dienst, elk geklokt uur en elk vastgelegd dossier wordt een signaal dat terugvloeit naar uw decision intelligence - zo delen operatie en inzicht één systeem."
+          },
+          {
+            "title": "Wat kan Crew?",
+            "content": "**Vijf verbonden modules:**\n\n1. **Scheduling** - Vraaggestuurde dienstplanning met geschiktheidscontroles en een AI-builder\n2. **Tijdregistratie** - In- en uitklokken, geofencing, pauze-attestatie en urenstaat-goedkeuringen\n3. **Payroll** - Salarisvoorbereiding voor meerdere regio's en wettelijke exports (voorbereiding en export, geen belastingmotor)\n4. **Personeel & HR** - Medewerkersdossiers en documenten van indiensttreding tot uitdiensttreding\n5. **Personeelsintelligentie** - Personeelsanalyse, no-showrisico en arbeidskostentrends"
+          },
+          {
+            "title": "Welke regio's ondersteunt Crew payroll?",
+            "content": "De salarisvoorbereiding en wettelijke exports van Crew dekken momenteel de **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), de **Verenigde Staten** (federaal plus alle staten), **Canada**, het **Verenigd Koninkrijk** en de **Europese Unie** (alle 27 lidstaten). Latijns-Amerika en APAC staan op de roadmap. Crew bereidt de salarisadministratie voor en exporteert deze - het is geen belastingmotor, en wettelijke regels komen uit geversioneerde landenpakketten."
+          },
+          {
+            "title": "Heb ik Core nodig om Crew te gebruiken?",
+            "content": "Nee. Crew kan op zichzelf draaien als uw operationele systeem, of naast Core zodat het signaal Labor Intelligence, Pulse en Foresight voedt. U kunt ook uw eigen HR- of salarisprovider meenemen - Crew is optioneel van opzet."
+          },
+          {
+            "title": "Wat kost Crew?",
+            "content": "**Crew-modules (maandelijks, organisatielicentie + per locatie):**\n\n- **Scheduling** - $179 + $39/locatie\n- **Tijdregistratie** - $99 + $19/locatie\n- **Payroll** - $129 + $29/locatie\n- **Personeel & HR (Operations)** - $399 + $79/locatie\n- **Personeelsintelligentie** - $249 + $39/locatie\n\nBundels brengen de suite samen tegen een lager gecombineerd tarief. Gebruik pricing.sundae.io voor de exacte planberekening."
+          }
+        ]
       }
     ],
     "ar": [
@@ -1147,7 +1199,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ما هي المنتجات التي تقدمها Sundae؟",
-            "content": "**ثلاثة منتجات رئيسية:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - تحليل تاريخي ومقارنة\n2. **Sundae Core** (Lite / Pro / Enterprise) - عمليات في الوقت الحقيقي وذكاء تنبؤي\n3. **Watchtower** (تنافسي / حدث / سوق) - ذكاء السوق الخارجي\n\n**بالإضافة إلى:**\n\n4. **وحدات** - ذكاء العمل، المخزون، الشراء، التسويق، والحجوزات."
+            "content": "**أربعة منتجات رئيسية:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - تحليل تاريخي ومقارنة\n2. **Sundae Core** (Lite / Pro / Enterprise) - عمليات في الوقت الحقيقي وذكاء تنبؤي\n3. **Sundae Crew** - منظومة تشغيلية: الجداول والحضور والانصراف والرواتب والموارد البشرية وذكاء القوى العاملة\n4. **Watchtower** (تنافسي / حدث / سوق) - ذكاء السوق الخارجي\n\n**بالإضافة إلى:**\n\n5. **وحدات** - ذكاء العمل، المخزون، الشراء، التسويق، والحجوزات."
           },
           {
             "title": "أي مستوى يجب أن أختار؟",
@@ -1425,7 +1477,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quais produtos a Sundae oferece?",
-            "content": "**Três produtos principais:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análise histórica e benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operações em tempo real e inteligência preditiva\n3. **Watchtower** (Competitivo / Evento / Mercado) - Inteligência de mercado externa\n\n**Além disso:**\n\n4. **Módulos** - Inteligência de Trabalho, Inventário, Compras, Marketing e Reservas."
+            "content": "**Quatro produtos principais:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análise histórica e benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operações em tempo real e inteligência preditiva\n3. **Sundae Crew** - Suíte operacional: escalas, ponto e presença, folha de pagamento, RH e inteligência de pessoas\n4. **Watchtower** (Competitivo / Evento / Mercado) - Inteligência de mercado externa\n\n**Além disso:**\n\n5. **Módulos** - Inteligência de Trabalho, Inventário, Compras, Marketing e Reservas."
           },
           {
             "title": "Qual nível devo escolher?",
@@ -1668,6 +1720,32 @@ export const generatedLocalCopy = {
             "content": "Sim. O Watchtower e a inteligência de mercado podem apoiar a análise de área comercial, revisão de saturação, rastreamento de movimentação de concorrentes e priorização de territórios carentes."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "O que é o Sundae Crew?",
+            "content": "O Sundae Crew é a suíte operacional que gere as suas pessoas: escalas, ponto e presença, preparação da folha de pagamento, registos de RH e análise da força de trabalho. Cada turno planeado, cada hora registada e cada registo arquivado torna-se um sinal que retorna à sua decision intelligence - para que operações e insight partilhem um só sistema."
+          },
+          {
+            "title": "O que o Crew faz?",
+            "content": "**Cinco módulos conectados:**\n\n1. **Scheduling** - Planeamento de turnos orientado pela procura, com verificações de elegibilidade e um construtor de IA\n2. **Ponto e presença** - Registo de entrada/saída, geofencing, atestado de pausas e aprovações de folhas de horas\n3. **Payroll** - Preparação da folha de pagamento multirregião e exportações estatutárias (preparação e exportação, não um motor fiscal)\n4. **Pessoas & RH** - Registos e documentos de colaboradores da contratação à saída\n5. **People Intelligence** - Análise da força de trabalho, risco de faltas e tendências de custo de mão de obra"
+          },
+          {
+            "title": "Que regiões a folha de pagamento do Crew suporta?",
+            "content": "A preparação da folha de pagamento e as exportações estatutárias do Crew abrangem atualmente o **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), os **Estados Unidos** (federal mais todos os estados), o **Canadá**, o **Reino Unido** e a **União Europeia** (todos os 27 Estados-Membros). A América Latina e a APAC estão no roadmap. O Crew prepara e exporta a folha de pagamento - não é um motor fiscal, e as regras estatutárias vêm de pacotes de país versionados."
+          },
+          {
+            "title": "Preciso do Core para usar o Crew?",
+            "content": "Não. O Crew pode funcionar de forma autónoma como o seu sistema operacional, ou ao lado do Core para que o seu sinal alimente o Labor Intelligence, o Pulse e o Foresight. Também pode trazer o seu próprio fornecedor de RH ou de folha de pagamento - o Crew é opcional por design."
+          },
+          {
+            "title": "Quanto custa o Crew?",
+            "content": "**Módulos Crew (mensal, licença da organização + por localização):**\n\n- **Scheduling** - $179 + $39/localização\n- **Ponto e presença** - $99 + $19/localização\n- **Payroll** - $129 + $29/localização\n- **Pessoas & RH (Operations)** - $399 + $79/localização\n- **People Intelligence** - $249 + $39/localização\n\nOs pacotes reúnem a suíte a uma taxa combinada mais baixa. Use pricing.sundae.io para o cálculo exato do plano."
+          }
+        ]
       }
     ],
     "ur": [
@@ -1703,7 +1781,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae کون سے مصنوعات پیش کرتا ہے؟",
-            "content": "**تین اہم مصنوعات:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - تاریخی تجزیہ اور بینچ مارکنگ\n2. **Sundae Core** (Lite / Pro / Enterprise) - حقیقی وقت کی کارروائیاں اور پیش گوئی کی ذہانت\n3. **Watchtower** (مقابلہ / ایونٹ / مارکیٹ) - بیرونی مارکیٹ کی ذہانت\n\n**پلس:**\n\n4. **ماڈیولز** - مزدوری، انوینٹری، خریداری، مارکیٹنگ، اور ریزرویشن کی ذہانت."
+            "content": "**چار اہم مصنوعات:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - تاریخی تجزیہ اور بینچ مارکنگ\n2. **Sundae Core** (Lite / Pro / Enterprise) - حقیقی وقت کی کارروائیاں اور پیش گوئی کی ذہانت\n3. **Sundae Crew** - آپریشنل سوٹ: شیڈولنگ، وقت اور حاضری، پے رول، HR، اور پیپل انٹیلیجنس\n4. **Watchtower** (مقابلہ / ایونٹ / مارکیٹ) - بیرونی مارکیٹ کی ذہانت\n\n**اس کے علاوہ:**\n\n5. **ماڈیولز** - مزدوری، انوینٹری، خریداری، مارکیٹنگ، اور ریزرویشن کی ذہانت."
           },
           {
             "title": "مجھے کون سا ٹیر منتخب کرنا چاہیے؟",
@@ -1946,6 +2024,32 @@ export const generatedLocalCopy = {
             "content": "جی ہاں۔ Watchtower اور مارکیٹ کی ذہانت تجارتی علاقے کے تجزیے، سچوریشن کا جائزہ، حریف کی حرکت کی نگرانی، اور کم خدمات والے علاقوں کی ترجیح میں مدد کر سکتی ہیں۔"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew کیا ہے؟",
+            "content": "Sundae Crew وہ آپریشنل سوٹ ہے جو آپ کے عملے کو چلاتا ہے: شیڈولنگ، وقت اور حاضری، پے رول کی تیاری، HR ریکارڈز اور افرادی قوت کا تجزیہ۔ ہر منصوبہ بند شفٹ، ہر درج کیا گیا گھنٹہ اور ہر فائل کیا گیا ریکارڈ ایک اشارہ بن جاتا ہے جو آپ کی decision intelligence میں واپس بہتا ہے - تاکہ آپریشن اور بصیرت ایک ہی نظام کا اشتراک کریں۔"
+          },
+          {
+            "title": "Crew کیا کر سکتا ہے؟",
+            "content": "**پانچ منسلک ماڈیولز:**\n\n1. **Scheduling** - اہلیت کی جانچ اور ایک AI بلڈر کے ساتھ طلب پر مبنی شفٹ منصوبہ بندی\n2. **وقت اور حاضری** - کلاک اِن/آؤٹ، جیو فینسنگ، وقفے کی تصدیق اور ٹائم شیٹ کی منظوری\n3. **Payroll** - کثیر خطہ پے رول کی تیاری اور قانونی برآمدات (تیاری اور برآمد، کوئی ٹیکس انجن نہیں)\n4. **لوگ اور HR** - بھرتی سے ریٹائرمنٹ تک ملازمین کے ریکارڈز اور دستاویزات\n5. **People Intelligence** - افرادی قوت کا تجزیہ، عدم حاضری کا خطرہ اور مزدوری لاگت کے رجحانات"
+          },
+          {
+            "title": "Crew پے رول کن خطوں کی حمایت کرتا ہے؟",
+            "content": "Crew کی پے رول کی تیاری اور قانونی برآمدات فی الحال **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait)، **ریاستہائے متحدہ** (وفاقی اور تمام ریاستیں)، **کینیڈا**، **برطانیہ** اور **یورپی یونین** (تمام 27 رکن ممالک) کا احاطہ کرتی ہیں۔ لاطینی امریکہ اور APAC روڈ میپ پر ہیں۔ Crew پے رول تیار اور برآمد کرتا ہے - یہ کوئی ٹیکس انجن نہیں ہے، اور قانونی قواعد ورژن شدہ ملکی پیکجز سے آتے ہیں۔"
+          },
+          {
+            "title": "کیا Crew استعمال کرنے کے لیے مجھے Core کی ضرورت ہے؟",
+            "content": "نہیں۔ Crew آپ کے آپریشنل نظام کے طور پر تنہا چل سکتا ہے، یا Core کے ساتھ تاکہ اس کا اشارہ Labor Intelligence، Pulse اور Foresight کو پرورش دے۔ آپ اپنا HR یا پے رول فراہم کنندہ بھی لا سکتے ہیں - Crew ڈیزائن کے لحاظ سے اختیاری ہے۔"
+          },
+          {
+            "title": "Crew کی قیمت کتنی ہے؟",
+            "content": "**Crew ماڈیولز (ماہانہ، تنظیمی لائسنس + فی مقام):**\n\n- **Scheduling** - $179 + $39/مقام\n- **وقت اور حاضری** - $99 + $19/مقام\n- **Payroll** - $129 + $29/مقام\n- **لوگ اور HR (Operations)** - $399 + $79/مقام\n- **People Intelligence** - $249 + $39/مقام\n\nبنڈلز پوری سوٹ کو کم مشترکہ نرخ پر لاتے ہیں۔ درست پلان کے حساب کے لیے pricing.sundae.io استعمال کریں۔"
+          }
+        ]
       }
     ],
     "it": [
@@ -1981,7 +2085,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quali prodotti offre Sundae?",
-            "content": "**Tre prodotti principali:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisi storica e benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operazioni in tempo reale e intelligenza predittiva\n3. **Watchtower** (Competitivo / Evento / Mercato) - Intelligenza di mercato esterna\n\n**In aggiunta:**\n\n4. **Moduli** - Intelligenza su Lavoro, Inventario, Acquisti, Marketing e Prenotazioni."
+            "content": "**Quattro prodotti principali:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisi storica e benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operazioni in tempo reale e intelligenza predittiva\n3. **Sundae Crew** - Suite operativa: pianificazione turni, rilevazione presenze, buste paga, HR e intelligenza sul personale\n4. **Watchtower** (Competitivo / Evento / Mercato) - Intelligenza di mercato esterna\n\n**In aggiunta:**\n\n5. **Moduli** - Intelligenza su Lavoro, Inventario, Acquisti, Marketing e Prenotazioni."
           },
           {
             "title": "Quale piano dovrei scegliere?",
@@ -2224,6 +2328,32 @@ export const generatedLocalCopy = {
             "content": "Sì. Watchtower e l'intelligenza di mercato possono supportare l'analisi dell'area commerciale, la revisione della saturazione, il monitoraggio dei movimenti dei concorrenti e la priorità dei territori sottoserviti."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Cos'è Sundae Crew?",
+            "content": "Sundae Crew è la suite operativa che gestisce il personale: pianificazione dei turni, rilevazione presenze, preparazione delle buste paga, dati HR e analisi della forza lavoro. Ogni turno pianificato, ogni ora timbrata e ogni registro archiviato diventa un segnale che rifluisce nella tua decision intelligence - così operazioni e insight condividono un unico sistema."
+          },
+          {
+            "title": "Cosa può fare Crew?",
+            "content": "**Cinque moduli collegati:**\n\n1. **Scheduling** - Pianificazione dei turni basata sulla domanda con controlli di idoneità e un builder AI\n2. **Rilevazione presenze** - Timbratura entrata/uscita, geofencing, attestazione delle pause e approvazioni dei cartellini\n3. **Payroll** - Preparazione delle buste paga multiregione ed esportazioni di legge (preparazione ed esportazione, non un motore fiscale)\n4. **Persone & HR** - Dati e documenti dei dipendenti dall'assunzione all'uscita\n5. **People Intelligence** - Analisi della forza lavoro, rischio di assenze e trend del costo del lavoro"
+          },
+          {
+            "title": "Quali regioni supporta il payroll di Crew?",
+            "content": "La preparazione delle buste paga e le esportazioni di legge di Crew coprono attualmente il **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), gli **Stati Uniti** (federale più tutti gli stati), il **Canada**, il **Regno Unito** e l'**Unione Europea** (tutti i 27 Stati membri). America Latina e APAC sono nella roadmap. Crew prepara ed esporta le buste paga - non è un motore fiscale, e le regole di legge provengono da pacchetti paese versionati."
+          },
+          {
+            "title": "Ho bisogno di Core per usare Crew?",
+            "content": "No. Crew può funzionare da solo come tuo sistema operativo, oppure accanto a Core così che il suo segnale alimenti Labor Intelligence, Pulse e Foresight. Puoi anche usare il tuo fornitore HR o di payroll - Crew è opzionale per progettazione."
+          },
+          {
+            "title": "Quanto costa Crew?",
+            "content": "**Moduli Crew (mensile, licenza organizzazione + per sede):**\n\n- **Scheduling** - $179 + $39/sede\n- **Rilevazione presenze** - $99 + $19/sede\n- **Payroll** - $129 + $29/sede\n- **Persone & HR (Operations)** - $399 + $79/sede\n- **People Intelligence** - $249 + $39/sede\n\nI bundle riuniscono la suite a una tariffa combinata più bassa. Usa pricing.sundae.io per il calcolo esatto del piano."
+          }
+        ]
       }
     ],
     "hi": [
@@ -2259,7 +2389,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae कौन से उत्पाद प्रदान करता है?",
-            "content": "**तीन मुख्य उत्पाद:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - ऐतिहासिक विश्लेषण और बेंचमार्किंग\n2. **Sundae Core** (Lite / Pro / Enterprise) - वास्तविक समय संचालन और पूर्वानुमानित बुद्धिमत्ता\n3. **Watchtower** (प्रतिस्पर्धात्मक / घटना / बाजार) - बाहरी बाजार की बुद्धिमत्ता\n\n**इसके अलावा:**\n\n4. **मॉड्यूल** - श्रम, इन्वेंटरी, खरीद, मार्केटिंग, और आरक्षण की बुद्धिमत्ता."
+            "content": "**चार मुख्य उत्पाद:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - ऐतिहासिक विश्लेषण और बेंचमार्किंग\n2. **Sundae Core** (Lite / Pro / Enterprise) - वास्तविक समय संचालन और पूर्वानुमानित बुद्धिमत्ता\n3. **Sundae Crew** - संचालन सूट: शेड्यूलिंग, समय और उपस्थिति, पेरोल, HR, और पीपल इंटेलिजेंस\n4. **Watchtower** (प्रतिस्पर्धात्मक / घटना / बाजार) - बाहरी बाजार की बुद्धिमत्ता\n\n**इसके अलावा:**\n\n5. **मॉड्यूल** - श्रम, इन्वेंटरी, खरीद, मार्केटिंग, और आरक्षण की बुद्धिमत्ता."
           },
           {
             "title": "मुझे कौन सा स्तर चुनना चाहिए?",
@@ -2502,6 +2632,32 @@ export const generatedLocalCopy = {
             "content": "हाँ। Watchtower और मार्केट इंटेलिजेंस व्यापार क्षेत्र विश्लेषण, संतृप्ति समीक्षा, प्रतिस्पर्धी गतिविधि ट्रैकिंग, और अल्प-सेवित क्षेत्रों की प्राथमिकता में सहायता कर सकते हैं।"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew क्या है?",
+            "content": "Sundae Crew वह संचालन सूट है जो आपके कर्मचारियों को चलाता है: शेड्यूलिंग, समय और उपस्थिति, पेरोल तैयारी, HR रिकॉर्ड और कार्यबल विश्लेषण। हर नियोजित शिफ्ट, हर दर्ज घंटा और हर दाखिल रिकॉर्ड एक संकेत बन जाता है जो आपकी decision intelligence में वापस प्रवाहित होता है - ताकि संचालन और अंतर्दृष्टि एक ही सिस्टम साझा करें।"
+          },
+          {
+            "title": "Crew क्या कर सकता है?",
+            "content": "**पाँच जुड़े हुए मॉड्यूल:**\n\n1. **Scheduling** - पात्रता जाँच और एक AI बिल्डर के साथ मांग-आधारित शिफ्ट योजना\n2. **समय और उपस्थिति** - क्लॉक-इन/आउट, जियोफेंसिंग, ब्रेक प्रमाणन और टाइमशीट अनुमोदन\n3. **Payroll** - बहु-क्षेत्रीय पेरोल तैयारी और वैधानिक निर्यात (तैयारी और निर्यात, कोई कर इंजन नहीं)\n4. **लोग और HR** - भर्ती से सेवानिवृत्ति तक कर्मचारी रिकॉर्ड और दस्तावेज़\n5. **People Intelligence** - कार्यबल विश्लेषण, नो-शो जोखिम और श्रम-लागत रुझान"
+          },
+          {
+            "title": "Crew पेरोल किन क्षेत्रों का समर्थन करता है?",
+            "content": "Crew की पेरोल तैयारी और वैधानिक निर्यात वर्तमान में **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **संयुक्त राज्य अमेरिका** (संघीय और सभी राज्य), **कनाडा**, **यूनाइटेड किंगडम** और **यूरोपीय संघ** (सभी 27 सदस्य देश) को कवर करते हैं। लैटिन अमेरिका और APAC रोडमैप पर हैं। Crew पेरोल तैयार करता है और निर्यात करता है - यह कोई कर इंजन नहीं है, और वैधानिक नियम संस्करणबद्ध देश पैकेज से आते हैं।"
+          },
+          {
+            "title": "क्या Crew का उपयोग करने के लिए मुझे Core की आवश्यकता है?",
+            "content": "नहीं। Crew आपके संचालन प्रणाली के रूप में अकेले चल सकता है, या Core के साथ चल सकता है ताकि इसका संकेत Labor Intelligence, Pulse और Foresight को पोषित करे। आप अपना खुद का HR या पेरोल प्रदाता भी ला सकते हैं - Crew डिज़ाइन के अनुसार वैकल्पिक है।"
+          },
+          {
+            "title": "Crew की लागत कितनी है?",
+            "content": "**Crew मॉड्यूल (मासिक, संगठन लाइसेंस + प्रति स्थान):**\n\n- **Scheduling** - $179 + $39/स्थान\n- **समय और उपस्थिति** - $99 + $19/स्थान\n- **Payroll** - $129 + $29/स्थान\n- **लोग और HR (Operations)** - $399 + $79/स्थान\n- **People Intelligence** - $249 + $39/स्थान\n\nबंडल पूरी सूट को कम संयुक्त दर पर लाते हैं। सटीक प्लान गणना के लिए pricing.sundae.io का उपयोग करें।"
+          }
+        ]
       }
     ],
     "tr": [
@@ -2537,7 +2693,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae hangi ürünleri sunuyor?",
-            "content": "**Üç ana ürün:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Tarihsel analiz ve kıyaslama\n2. **Sundae Core** (Lite / Pro / Enterprise) - Gerçek zamanlı operasyonlar ve öngörücü zeka\n3. **Watchtower** (Rekabetçi / Etkinlik / Pazar) - Dış pazar zekası\n\n**Ek olarak:**\n\n4. **Modüller** - İş gücü, Envanter, Satın alma, Pazarlama ve Rezervasyon zekası."
+            "content": "**Dört ana ürün:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Tarihsel analiz ve kıyaslama\n2. **Sundae Core** (Lite / Pro / Enterprise) - Gerçek zamanlı operasyonlar ve öngörücü zeka\n3. **Sundae Crew** - Operasyon paketi: vardiya planlama, giriş-çıkış takibi, bordro, İK ve personel zekası\n4. **Watchtower** (Rekabetçi / Etkinlik / Pazar) - Dış pazar zekası\n\n**Ek olarak:**\n\n5. **Modüller** - İş gücü, Envanter, Satın alma, Pazarlama ve Rezervasyon zekası."
           },
           {
             "title": "Hangi katmanı seçmeliyim?",
@@ -2780,6 +2936,32 @@ export const generatedLocalCopy = {
             "content": "Evet. Watchtower ve pazar istihbaratı, ticaret alanı analizi, doygunluk incelemesi, rakip hareket takibi ve hizmet verilmeyen bölgelerin önceliklendirilmesi konusunda destek olabilir."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew nedir?",
+            "content": "Sundae Crew, ekiplerinizi yöneten operasyon paketidir: vardiya planlama, giriş-çıkış takibi, bordro hazırlığı, İK kayıtları ve iş gücü analitiği. Planlanan her vardiya, kaydedilen her saat ve dosyalanan her kayıt, decision intelligence'ınıza geri akan bir sinyale dönüşür - böylece operasyon ve içgörü tek bir sistemi paylaşır."
+          },
+          {
+            "title": "Crew ne yapabilir?",
+            "content": "**Beş bağlantılı modül:**\n\n1. **Scheduling** - Uygunluk kontrolleri ve bir yapay zeka oluşturucu ile talebe duyarlı vardiya planlama\n2. **Giriş-çıkış takibi** - Giriş/çıkış, coğrafi sınırlandırma, mola beyanı ve puantaj onayları\n3. **Payroll** - Çok bölgeli bordro hazırlığı ve yasal dışa aktarımlar (hazırlık ve dışa aktarım, bir vergi motoru değil)\n4. **Kişiler & İK** - İşe alımdan ayrılışa kadar çalışan kayıtları ve belgeleri\n5. **People Intelligence** - İş gücü analitiği, gelmeme riski ve iş gücü maliyeti trendleri"
+          },
+          {
+            "title": "Crew bordrosu hangi bölgeleri destekler?",
+            "content": "Crew'in bordro hazırlığı ve yasal dışa aktarımları şu anda **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Amerika Birleşik Devletleri** (federal ve tüm eyaletler), **Kanada**, **Birleşik Krallık** ve **Avrupa Birliği** (27 üye devletin tamamı) kapsar. Latin Amerika ve APAC yol haritasındadır. Crew bordroyu hazırlar ve dışa aktarır - bir vergi motoru değildir ve yasal kurallar sürümlenmiş ülke paketlerinden gelir."
+          },
+          {
+            "title": "Crew kullanmak için Core'a ihtiyacım var mı?",
+            "content": "Hayır. Crew, operasyon sisteminiz olarak tek başına çalışabilir veya Core ile birlikte çalışarak sinyalini Labor Intelligence, Pulse ve Foresight'a besleyebilir. Kendi İK veya bordro sağlayıcınızı da getirebilirsiniz - Crew tasarım gereği isteğe bağlıdır."
+          },
+          {
+            "title": "Crew ne kadar?",
+            "content": "**Crew modülleri (aylık, kuruluş lisansı + konum başına):**\n\n- **Scheduling** - $179 + $39/konum\n- **Giriş-çıkış takibi** - $99 + $19/konum\n- **Payroll** - $129 + $29/konum\n- **Kişiler & İK (Operations)** - $399 + $79/konum\n- **People Intelligence** - $249 + $39/konum\n\nPaketler, tüm paketi daha düşük bir birleşik ücrete getirir. Kesin plan hesabı için pricing.sundae.io kullanın."
+          }
+        ]
       }
     ],
     "pl": [
@@ -2815,7 +2997,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Jakie produkty oferuje Sundae?",
-            "content": "**Trzy główne produkty:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analiza historyczna i benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operacje w czasie rzeczywistym i inteligencja predykcyjna\n3. **Watchtower** (Konkurencyjny / Wydarzenie / Rynek) - Zewnętrzna inteligencja rynkowa\n\n**Dodatkowo:**\n\n4. **Moduły** - Inteligencja dotycząca pracy, zapasów, zakupów, marketingu i rezerwacji."
+            "content": "**Cztery główne produkty:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analiza historyczna i benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operacje w czasie rzeczywistym i inteligencja predykcyjna\n3. **Sundae Crew** - Pakiet operacyjny: grafiki, ewidencja czasu pracy, lista płac, HR i inteligencja kadrowa\n4. **Watchtower** (Konkurencyjny / Wydarzenie / Rynek) - Zewnętrzna inteligencja rynkowa\n\n**Dodatkowo:**\n\n5. **Moduły** - Inteligencja dotycząca pracy, zapasów, zakupów, marketingu i rezerwacji."
           },
           {
             "title": "Którą wersję powinienem wybrać?",
@@ -3058,6 +3240,32 @@ export const generatedLocalCopy = {
             "content": "Tak. Watchtower i inteligencja rynkowa mogą wspierać analizę obszarów handlowych, przegląd nasycenia, śledzenie ruchów konkurencji oraz priorytetyzację niedostatecznie obsługiwanych terytoriów."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Czym jest Sundae Crew?",
+            "content": "Sundae Crew to pakiet operacyjny, który zarządza Twoimi ludźmi: grafiki, ewidencja czasu pracy, przygotowanie listy płac, dane HR i analityka kadrowa. Każda zaplanowana zmiana, każda zarejestrowana godzina i każdy złożony dokument staje się sygnałem, który wraca do Twojej decision intelligence - dzięki czemu operacje i wgląd korzystają z jednego systemu."
+          },
+          {
+            "title": "Co potrafi Crew?",
+            "content": "**Pięć połączonych modułów:**\n\n1. **Scheduling** - Planowanie zmian oparte na popycie z kontrolą uprawnień i kreatorem AI\n2. **Ewidencja czasu pracy** - Rejestracja wejść/wyjść, geofencing, potwierdzanie przerw i zatwierdzanie kart pracy\n3. **Payroll** - Wielorregionowe przygotowanie listy płac i eksporty ustawowe (przygotowanie i eksport, a nie silnik podatkowy)\n4. **Ludzie & HR** - Akta pracowników i dokumenty od zatrudnienia do odejścia\n5. **People Intelligence** - Analityka kadrowa, ryzyko nieobecności i trendy kosztów pracy"
+          },
+          {
+            "title": "Które regiony obsługuje payroll Crew?",
+            "content": "Przygotowanie listy płac i eksporty ustawowe Crew obejmują obecnie **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Stany Zjednoczone** (federalne plus wszystkie stany), **Kanadę**, **Wielką Brytanię** oraz **Unię Europejską** (wszystkie 27 państw członkowskich). Ameryka Łacińska i APAC są w planach. Crew przygotowuje i eksportuje listę płac - nie jest to silnik podatkowy, a przepisy ustawowe pochodzą z wersjonowanych pakietów krajowych."
+          },
+          {
+            "title": "Czy potrzebuję Core, aby używać Crew?",
+            "content": "Nie. Crew może działać samodzielnie jako Twój system operacyjny lub obok Core, aby jego sygnał zasilał Labor Intelligence, Pulse i Foresight. Możesz też korzystać z własnego dostawcy HR lub listy płac - Crew jest opcjonalny z założenia."
+          },
+          {
+            "title": "Ile kosztuje Crew?",
+            "content": "**Moduły Crew (miesięcznie, licencja organizacji + za lokalizację):**\n\n- **Scheduling** - $179 + $39/lokalizację\n- **Ewidencja czasu pracy** - $99 + $19/lokalizację\n- **Payroll** - $129 + $29/lokalizację\n- **Ludzie & HR (Operations)** - $399 + $79/lokalizację\n- **People Intelligence** - $249 + $39/lokalizację\n\nPakiety łączą całą suitę w niższą łączną stawkę. Skorzystaj z pricing.sundae.io, aby uzyskać dokładne wyliczenie planu."
+          }
+        ]
       }
     ],
     "zh-Hans": [
@@ -3093,7 +3301,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae 提供哪些产品？",
-            "content": "**三大主要产品：**\n\n1. **Sundae Report**（Lite / Plus / Pro）- 历史分析和基准测试\n2. **Sundae Core**（Lite / Pro / Enterprise）- 实时运营和预测智能\n3. **Watchtower**（竞争 / 事件 / 市场）- 外部市场情报\n\n**此外：**\n\n4. **模块** - 劳动力、库存、采购、营销和预订智能。"
+            "content": "**四大主要产品：**\n\n1. **Sundae Report**（Lite / Plus / Pro）- 历史分析和基准测试\n2. **Sundae Core**（Lite / Pro / Enterprise）- 实时运营和预测智能\n3. **Sundae Crew** - 运营套件：排班、考勤、薪资、人力资源和人员智能\n4. **Watchtower**（竞争 / 事件 / 市场）- 外部市场情报\n\n**此外：**\n\n5. **模块** - 劳动力、库存、采购、营销和预订智能。"
           },
           {
             "title": "我应该选择哪个级别？",
@@ -3336,6 +3544,32 @@ export const generatedLocalCopy = {
             "content": "可以。Watchtower 和市场情报可以支持贸易区分析、饱和度审查、竞争对手动态跟踪以及优先考虑服务不足的地区。"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "什么是 Sundae Crew？",
+            "content": "Sundae Crew 是管理您团队的运营套件：排班、考勤、薪资准备、人力资源记录和劳动力分析。每一个计划的班次、每一个打卡的工时、每一份归档的记录都会成为回流到您 decision intelligence 的信号——让运营与洞察共享同一个系统。"
+          },
+          {
+            "title": "Crew 能做什么？",
+            "content": "**五个相互连接的模块：**\n\n1. **Scheduling** - 需求感知的排班，配备资格检查和 AI 构建器\n2. **考勤** - 打卡进出、地理围栏、休息证明和工时表审批\n3. **Payroll** - 多地区薪资准备和法定导出（准备与导出，而非税务引擎）\n4. **人员与人力资源** - 从入职到离职的员工记录和文档\n5. **People Intelligence** - 劳动力分析、缺勤风险和人工成本趋势"
+          },
+          {
+            "title": "Crew 薪资支持哪些地区？",
+            "content": "Crew 的薪资准备和法定导出目前覆盖 **GCC**（UAE、KSA、Qatar、Bahrain、Oman、Kuwait）、**美国**（联邦及所有州）、**加拿大**、**英国** 以及 **欧盟**（全部 27 个成员国）。拉丁美洲和 APAC 已列入路线图。Crew 负责准备和导出薪资——它不是税务引擎，法定规则来自版本化的国家/地区规则包。"
+          },
+          {
+            "title": "使用 Crew 需要 Core 吗？",
+            "content": "不需要。Crew 可以作为您的运营系统独立运行，也可以与 Core 并行运行，让其信号馈送到 Labor Intelligence、Pulse 和 Foresight。您也可以自带人力资源或薪资服务商——Crew 在设计上是可选的。"
+          },
+          {
+            "title": "Crew 多少钱？",
+            "content": "**Crew 模块（每月，组织许可 + 每个地点）：**\n\n- **Scheduling** - $179 + $39/地点\n- **考勤** - $99 + $19/地点\n- **Payroll** - $129 + $29/地点\n- **人员与人力资源（Operations）** - $399 + $79/地点\n- **People Intelligence** - $249 + $39/地点\n\n套餐以更低的组合价格将整个套件整合在一起。请使用 pricing.sundae.io 进行精确的方案计算。"
+          }
+        ]
       }
     ],
     "ja": [
@@ -3371,7 +3605,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundaeはどのような製品を提供していますか？",
-            "content": "**主な製品は3つです：**\n\n1. **Sundae Report** (Lite / Plus / Pro) - 過去の分析とベンチマーキング\n2. **Sundae Core** (Lite / Pro / Enterprise) - リアルタイムの運用と予測インテリジェンス\n3. **Watchtower** (競合 / イベント / 市場) - 外部市場インテリジェンス\n\n**さらに：**\n\n4. **モジュール** - 労働、在庫、購買、マーケティング、予約のインテリジェンス."
+            "content": "**主な製品は4つです：**\n\n1. **Sundae Report** (Lite / Plus / Pro) - 過去の分析とベンチマーキング\n2. **Sundae Core** (Lite / Pro / Enterprise) - リアルタイムの運用と予測インテリジェンス\n3. **Sundae Crew** - 運用スイート：シフト管理、勤怠管理、給与、人事、ピープルインテリジェンス\n4. **Watchtower** (競合 / イベント / 市場) - 外部市場インテリジェンス\n\n**さらに：**\n\n5. **モジュール** - 労働、在庫、購買、マーケティング、予約のインテリジェンス."
           },
           {
             "title": "どのティアを選ぶべきですか？",
@@ -3614,6 +3848,32 @@ export const generatedLocalCopy = {
             "content": "はい。Watchtowerと市場インテリジェンスは、商圏分析、飽和度レビュー、競合の動向追跡、サービスが行き届いていないテリトリーの優先順位付けをサポートできます。"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew とは？",
+            "content": "Sundae Crew は、あなたの人材を動かす運用スイートです：シフト管理、勤怠管理、給与準備、人事記録、そして労働力分析。計画されたすべてのシフト、打刻されたすべての時間、記録されたすべてのデータが、あなたの decision intelligence へと還流するシグナルになります - こうして運用とインサイトが一つのシステムを共有します。"
+          },
+          {
+            "title": "Crew で何ができますか？",
+            "content": "**5つの連携モジュール：**\n\n1. **Scheduling** - 適格性チェックと AI ビルダーを備えた需要対応型のシフト計画\n2. **勤怠管理** - 出退勤打刻、ジオフェンシング、休憩の証明、タイムシート承認\n3. **Payroll** - 複数地域の給与準備と法定エクスポート（準備とエクスポートであり、税計算エンジンではありません）\n4. **ピープル & 人事** - 入社から退職までの従業員記録と書類\n5. **People Intelligence** - 労働力分析、無断欠勤リスク、労務コストの傾向"
+          },
+          {
+            "title": "Crew の給与はどの地域に対応していますか？",
+            "content": "Crew の給与準備と法定エクスポートは、現在 **GCC**（UAE、KSA、Qatar、Bahrain、Oman、Kuwait）、**アメリカ合衆国**（連邦および全州）、**カナダ**、**イギリス**、そして **欧州連合**（全27加盟国）をカバーしています。ラテンアメリカと APAC はロードマップに含まれています。Crew は給与を準備してエクスポートします - 税計算エンジンではなく、法定ルールはバージョン管理された国別パックから提供されます。"
+          },
+          {
+            "title": "Crew を使うのに Core は必要ですか？",
+            "content": "いいえ。Crew は単独であなたの運用システムとして稼働できるほか、Core と併用してそのシグナルを Labor Intelligence、Pulse、Foresight に供給することもできます。ご自身の人事または給与プロバイダーを持ち込むことも可能です - Crew は設計上オプションです。"
+          },
+          {
+            "title": "Crew の料金は？",
+            "content": "**Crew モジュール（月額、組織ライセンス + 拠点ごと）：**\n\n- **Scheduling** - $179 + $39/拠点\n- **勤怠管理** - $99 + $19/拠点\n- **Payroll** - $129 + $29/拠点\n- **ピープル & 人事（Operations）** - $399 + $79/拠点\n- **People Intelligence** - $249 + $39/拠点\n\nバンドルは、より低い合計料金でスイートをまとめます。正確なプラン計算には pricing.sundae.io をご利用ください。"
+          }
+        ]
       }
     ],
     "ko": [
@@ -3649,7 +3909,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae는 어떤 제품을 제공하나요?",
-            "content": "**세 가지 주요 제품:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - 역사적 분석 및 벤치마킹\n2. **Sundae Core** (Lite / Pro / Enterprise) - 실시간 운영 및 예측 지능\n3. **Watchtower** (경쟁 / 이벤트 / 시장) - 외부 시장 정보\n\n**추가:**\n\n4. **모듈** - 노동, 재고, 구매, 마케팅 및 예약 정보."
+            "content": "**네 가지 주요 제품:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - 역사적 분석 및 벤치마킹\n2. **Sundae Core** (Lite / Pro / Enterprise) - 실시간 운영 및 예측 지능\n3. **Sundae Crew** - 운영 제품군: 근무 일정, 근태 관리, 급여, 인사, 인력 지능\n4. **Watchtower** (경쟁 / 이벤트 / 시장) - 외부 시장 정보\n\n**추가:**\n\n5. **모듈** - 노동, 재고, 구매, 마케팅 및 예약 정보."
           },
           {
             "title": "어떤 티어를 선택해야 하나요?",
@@ -3892,6 +4152,32 @@ export const generatedLocalCopy = {
             "content": "네. Watchtower와 시장 정보는 거래 지역 분석, 포화도 검토, 경쟁자 동향 추적 및 서비스가 부족한 지역의 우선 순위 지정을 지원할 수 있습니다."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew란 무엇인가요?",
+            "content": "Sundae Crew는 인력을 운영하는 운영 제품군입니다: 근무 일정, 근태 관리, 급여 준비, 인사 기록, 인력 분석. 계획된 모든 근무, 기록된 모든 시간, 보관된 모든 기록이 귀하의 decision intelligence로 다시 흘러드는 신호가 됩니다 - 그래서 운영과 인사이트가 하나의 시스템을 공유합니다."
+          },
+          {
+            "title": "Crew는 무엇을 할 수 있나요?",
+            "content": "**다섯 개의 연결된 모듈:**\n\n1. **Scheduling** - 적격성 검사와 AI 빌더를 갖춘 수요 인식형 근무 일정\n2. **근태 관리** - 출퇴근 기록, 지오펜싱, 휴게 시간 증명, 근무 시간표 승인\n3. **Payroll** - 다지역 급여 준비 및 법정 내보내기(준비 및 내보내기이며 세금 엔진이 아님)\n4. **인력 & 인사** - 채용부터 퇴직까지의 직원 기록 및 문서\n5. **People Intelligence** - 인력 분석, 노쇼 위험, 인건비 추세"
+          },
+          {
+            "title": "Crew 급여는 어떤 지역을 지원하나요?",
+            "content": "Crew의 급여 준비와 법정 내보내기는 현재 **GCC**(UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **미국**(연방 및 모든 주), **캐나다**, **영국**, **유럽 연합**(전체 27개 회원국)을 지원합니다. 라틴 아메리카와 APAC는 로드맵에 있습니다. Crew는 급여를 준비하고 내보냅니다 - 세금 엔진이 아니며, 법정 규칙은 버전이 지정된 국가 팩에서 제공됩니다."
+          },
+          {
+            "title": "Crew를 사용하려면 Core가 필요한가요?",
+            "content": "아니요. Crew는 운영 시스템으로 단독 실행하거나, Core와 함께 실행하여 그 신호를 Labor Intelligence, Pulse, Foresight에 공급할 수 있습니다. 자체 인사 또는 급여 제공업체를 사용할 수도 있습니다 - Crew는 설계상 선택 사항입니다."
+          },
+          {
+            "title": "Crew 비용은 얼마인가요?",
+            "content": "**Crew 모듈(월간, 조직 라이선스 + 위치당):**\n\n- **Scheduling** - $179 + $39/위치\n- **근태 관리** - $99 + $19/위치\n- **Payroll** - $129 + $29/위치\n- **인력 & 인사(Operations)** - $399 + $79/위치\n- **People Intelligence** - $249 + $39/위치\n\n번들은 더 낮은 결합 요금으로 제품군을 함께 제공합니다. 정확한 요금 계산은 pricing.sundae.io를 이용하세요."
+          }
+        ]
       }
     ],
     "id": [
@@ -3927,7 +4213,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Produk apa yang ditawarkan Sundae?",
-            "content": "**Tiga produk utama:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisis historis dan pembandingan\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operasi waktu nyata dan kecerdasan prediktif\n3. **Watchtower** (Kompetitif / Acara / Pasar) - Kecerdasan pasar eksternal\n\n**Plus:**\n\n4. **Modul** - Kecerdasan Tenaga Kerja, Inventaris, Pembelian, Pemasaran, dan Reservasi."
+            "content": "**Empat produk utama:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisis historis dan pembandingan\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operasi waktu nyata dan kecerdasan prediktif\n3. **Sundae Crew** - Rangkaian operasional: penjadwalan, absensi, penggajian, SDM, dan kecerdasan tenaga kerja\n4. **Watchtower** (Kompetitif / Acara / Pasar) - Kecerdasan pasar eksternal\n\n**Plus:**\n\n5. **Modul** - Kecerdasan Tenaga Kerja, Inventaris, Pembelian, Pemasaran, dan Reservasi."
           },
           {
             "title": "Tingkat mana yang harus saya pilih?",
@@ -4170,6 +4456,32 @@ export const generatedLocalCopy = {
             "content": "Ya. Watchtower dan intelijen pasar dapat mendukung analisis area perdagangan, tinjauan saturasi, pelacakan pergerakan pesaing, dan prioritas wilayah yang kurang terlayani."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Apa itu Sundae Crew?",
+            "content": "Sundae Crew adalah rangkaian operasional yang menjalankan orang-orang Anda: penjadwalan, absensi, kesiapan penggajian, catatan SDM, dan analitik tenaga kerja. Setiap shift yang direncanakan, setiap jam yang tercatat, dan setiap catatan yang diarsipkan menjadi sinyal yang mengalir kembali ke decision intelligence Anda - sehingga operasi dan wawasan berbagi satu sistem."
+          },
+          {
+            "title": "Apa yang bisa dilakukan Crew?",
+            "content": "**Lima modul yang terhubung:**\n\n1. **Scheduling** - Perencanaan shift yang peka permintaan dengan pemeriksaan kelayakan dan pembangun AI\n2. **Absensi** - Absen masuk/keluar, geofencing, atestasi istirahat, dan persetujuan lembar waktu\n3. **Payroll** - Kesiapan penggajian multi-wilayah dan ekspor statutori (kesiapan dan ekspor, bukan mesin pajak)\n4. **Orang & SDM** - Catatan dan dokumen karyawan dari perekrutan hingga pensiun\n5. **People Intelligence** - Analitik tenaga kerja, risiko ketidakhadiran, dan tren biaya tenaga kerja"
+          },
+          {
+            "title": "Wilayah mana saja yang didukung penggajian Crew?",
+            "content": "Kesiapan penggajian dan ekspor statutori Crew saat ini mencakup **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Amerika Serikat** (federal plus semua negara bagian), **Kanada**, **Inggris**, dan **Uni Eropa** (seluruh 27 negara anggota). Amerika Latin dan APAC ada dalam roadmap. Crew menyiapkan dan mengekspor penggajian - ini bukan mesin pajak, dan aturan statutori berasal dari paket negara berversi."
+          },
+          {
+            "title": "Apakah saya memerlukan Core untuk menggunakan Crew?",
+            "content": "Tidak. Crew dapat berjalan sendiri sebagai sistem operasional Anda, atau berdampingan dengan Core sehingga sinyalnya memberi masukan ke Labor Intelligence, Pulse, dan Foresight. Anda juga dapat membawa penyedia SDM atau penggajian Anda sendiri - Crew bersifat opsional secara desain."
+          },
+          {
+            "title": "Berapa biaya Crew?",
+            "content": "**Modul Crew (bulanan, lisensi organisasi + per lokasi):**\n\n- **Scheduling** - $179 + $39/lokasi\n- **Absensi** - $99 + $19/lokasi\n- **Payroll** - $129 + $29/lokasi\n- **Orang & SDM (Operations)** - $399 + $79/lokasi\n- **People Intelligence** - $249 + $39/lokasi\n\nPaket menyatukan seluruh rangkaian dengan tarif gabungan yang lebih rendah. Gunakan pricing.sundae.io untuk perhitungan paket yang tepat."
+          }
+        ]
       }
     ],
     "vi": [
@@ -4205,7 +4517,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae cung cấp những sản phẩm nào?",
-            "content": "**Ba sản phẩm chính:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Phân tích lịch sử và chuẩn hóa\n2. **Sundae Core** (Lite / Pro / Enterprise) - Hoạt động thời gian thực và trí tuệ dự đoán\n3. **Watchtower** (Cạnh tranh / Sự kiện / Thị trường) - Thông tin thị trường bên ngoài\n\n**Thêm vào đó:**\n\n4. **Modules** - Thông tin về Lao động, Tồn kho, Mua sắm, Tiếp thị và Đặt chỗ."
+            "content": "**Bốn sản phẩm chính:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Phân tích lịch sử và chuẩn hóa\n2. **Sundae Core** (Lite / Pro / Enterprise) - Hoạt động thời gian thực và trí tuệ dự đoán\n3. **Sundae Crew** - Bộ công cụ vận hành: xếp lịch, chấm công, bảng lương, nhân sự và trí tuệ nhân lực\n4. **Watchtower** (Cạnh tranh / Sự kiện / Thị trường) - Thông tin thị trường bên ngoài\n\n**Thêm vào đó:**\n\n5. **Modules** - Thông tin về Lao động, Tồn kho, Mua sắm, Tiếp thị và Đặt chỗ."
           },
           {
             "title": "Tôi nên chọn cấp độ nào?",
@@ -4448,6 +4760,32 @@ export const generatedLocalCopy = {
             "content": "Có. Watchtower và trí tuệ thị trường có thể hỗ trợ phân tích khu vực thương mại, xem xét độ bão hòa, theo dõi sự di chuyển của đối thủ và ưu tiên các lãnh thổ chưa được phục vụ."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew là gì?",
+            "content": "Sundae Crew là bộ công cụ vận hành điều hành nhân sự của bạn: xếp lịch, chấm công, chuẩn bị bảng lương, hồ sơ nhân sự và phân tích lực lượng lao động. Mỗi ca được lên lịch, mỗi giờ được chấm công và mỗi hồ sơ được lưu đều trở thành tín hiệu quay trở lại decision intelligence của bạn - để vận hành và thông tin chi tiết cùng chia sẻ một hệ thống."
+          },
+          {
+            "title": "Crew có thể làm gì?",
+            "content": "**Năm mô-đun được kết nối:**\n\n1. **Scheduling** - Lập kế hoạch ca theo nhu cầu với kiểm tra điều kiện và trình tạo AI\n2. **Chấm công** - Chấm công vào/ra, geofencing, xác nhận giờ nghỉ và phê duyệt bảng chấm công\n3. **Payroll** - Chuẩn bị bảng lương đa khu vực và xuất theo luật định (chuẩn bị và xuất, không phải công cụ tính thuế)\n4. **Nhân sự & HR** - Hồ sơ và tài liệu nhân viên từ tuyển dụng đến nghỉ việc\n5. **People Intelligence** - Phân tích lực lượng lao động, rủi ro vắng mặt và xu hướng chi phí lao động"
+          },
+          {
+            "title": "Crew hỗ trợ bảng lương ở những khu vực nào?",
+            "content": "Chuẩn bị bảng lương và xuất theo luật định của Crew hiện bao gồm **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Hoa Kỳ** (liên bang cùng tất cả các bang), **Canada**, **Vương quốc Anh** và **Liên minh Châu Âu** (toàn bộ 27 quốc gia thành viên). Mỹ Latinh và APAC nằm trong lộ trình. Crew chuẩn bị và xuất bảng lương - đây không phải công cụ tính thuế, và các quy tắc luật định đến từ các gói quốc gia được phiên bản hóa."
+          },
+          {
+            "title": "Tôi có cần Core để dùng Crew không?",
+            "content": "Không. Crew có thể chạy độc lập như hệ thống vận hành của bạn, hoặc chạy cùng Core để tín hiệu của nó đưa vào Labor Intelligence, Pulse và Foresight. Bạn cũng có thể mang theo nhà cung cấp HR hoặc bảng lương của riêng mình - Crew là tùy chọn theo thiết kế."
+          },
+          {
+            "title": "Crew có giá bao nhiêu?",
+            "content": "**Các mô-đun Crew (hàng tháng, giấy phép tổ chức + mỗi địa điểm):**\n\n- **Scheduling** - $179 + $39/địa điểm\n- **Chấm công** - $99 + $19/địa điểm\n- **Payroll** - $129 + $29/địa điểm\n- **Nhân sự & HR (Operations)** - $399 + $79/địa điểm\n- **People Intelligence** - $249 + $39/địa điểm\n\nCác gói kết hợp toàn bộ bộ công cụ với mức giá tổng hợp thấp hơn. Sử dụng pricing.sundae.io để tính toán gói chính xác."
+          }
+        ]
       }
     ],
     "ro": [
@@ -4483,7 +4821,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Ce produse oferă Sundae?",
-            "content": "**Trei produse principale:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analiză istorică și benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operațiuni în timp real și inteligență predictivă\n3. **Watchtower** (Competitiv / Eveniment / Piață) - Inteligență de piață externă\n\n**Plus:**\n\n4. **Module** - Inteligență pentru Muncă, Inventar, Achiziții, Marketing și Rezervări."
+            "content": "**Patru produse principale:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analiză istorică și benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operațiuni în timp real și inteligență predictivă\n3. **Sundae Crew** - Suită operațională: planificarea turelor, pontaj, salarizare, HR și inteligență despre personal\n4. **Watchtower** (Competitiv / Eveniment / Piață) - Inteligență de piață externă\n\n**Plus:**\n\n5. **Module** - Inteligență pentru Muncă, Inventar, Achiziții, Marketing și Rezervări."
           },
           {
             "title": "Ce nivel ar trebui să aleg?",
@@ -4726,6 +5064,32 @@ export const generatedLocalCopy = {
             "content": "Da. Watchtower și inteligența de piață pot susține analiza zonei comerciale, revizuirea saturării, urmărirea mișcărilor competitorilor și prioritizarea teritoriilor neexploatate."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Ce este Sundae Crew?",
+            "content": "Sundae Crew este suita operațională care îți conduce oamenii: planificarea turelor, pontajul, pregătirea salarizării, evidențele HR și analiza forței de muncă. Fiecare tură planificată, fiecare oră pontată și fiecare document depus devine un semnal care se întoarce în decision intelligence - astfel operațiunile și perspectiva împart un singur sistem."
+          },
+          {
+            "title": "Ce poate face Crew?",
+            "content": "**Cinci module conectate:**\n\n1. **Scheduling** - Planificarea turelor în funcție de cerere, cu verificări de eligibilitate și un constructor AI\n2. **Pontaj** - Pontare intrare/ieșire, geofencing, atestarea pauzelor și aprobarea fișelor de pontaj\n3. **Payroll** - Pregătirea salarizării pentru mai multe regiuni și exporturi statutare (pregătire și export, nu un motor fiscal)\n4. **Oameni & HR** - Evidențe și documente ale angajaților de la angajare până la plecare\n5. **People Intelligence** - Analiza forței de muncă, riscul de absență și tendințele costurilor cu munca"
+          },
+          {
+            "title": "Ce regiuni acceptă salarizarea Crew?",
+            "content": "Pregătirea salarizării și exporturile statutare ale Crew acoperă în prezent **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Statele Unite** (federal plus toate statele), **Canada**, **Regatul Unit** și **Uniunea Europeană** (toate cele 27 de state membre). America Latină și APAC sunt pe foaia de parcurs. Crew pregătește și exportă salarizarea - nu este un motor fiscal, iar regulile statutare provin din pachete de țară versionate."
+          },
+          {
+            "title": "Am nevoie de Core pentru a folosi Crew?",
+            "content": "Nu. Crew poate funcționa de sine stătător ca sistem operațional al tău sau alături de Core, astfel încât semnalul său să alimenteze Labor Intelligence, Pulse și Foresight. Poți aduce și propriul furnizor de HR sau salarizare - Crew este opțional prin design."
+          },
+          {
+            "title": "Cât costă Crew?",
+            "content": "**Module Crew (lunar, licență organizație + per locație):**\n\n- **Scheduling** - $179 + $39/locație\n- **Pontaj** - $99 + $19/locație\n- **Payroll** - $129 + $29/locație\n- **Oameni & HR (Operations)** - $399 + $79/locație\n- **People Intelligence** - $249 + $39/locație\n\nPachetele reunesc suita la un tarif combinat mai mic. Folosește pricing.sundae.io pentru calculul exact al planului."
+          }
+        ]
       }
     ],
     "sv": [
@@ -4761,7 +5125,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Vilka produkter erbjuder Sundae?",
-            "content": "**Tre huvudprodukter:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historisk analys och benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Realtidsoperationer och prediktiv intelligens\n3. **Watchtower** (Konkurrens / Evenemang / Marknad) - Extern marknadsintelligens\n\n**Plus:**\n\n4. **Moduler** - Arbete, Lager, Inköp, Marknadsföring och Reservationsintelligens."
+            "content": "**Fyra huvudprodukter:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historisk analys och benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Realtidsoperationer och prediktiv intelligens\n3. **Sundae Crew** - Operativ svit: schemaläggning, tidrapportering, löneunderlag, HR och personalintelligens\n4. **Watchtower** (Konkurrens / Evenemang / Marknad) - Extern marknadsintelligens\n\n**Plus:**\n\n5. **Moduler** - Arbete, Lager, Inköp, Marknadsföring och Reservationsintelligens."
           },
           {
             "title": "Vilken nivå ska jag välja?",
@@ -5004,6 +5368,32 @@ export const generatedLocalCopy = {
             "content": "Ja. Watchtower och marknadsintelligens kan stödja analys av handelsområden, översyn av mättnad, spårning av konkurrenters rörelser och prioritering av underbetjänade territorier."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Vad är Sundae Crew?",
+            "content": "Sundae Crew är den operativa sviten som driver din personal: schemaläggning, tidrapportering, lönehantering, HR-uppgifter och personalanalys. Varje planerat pass, varje stämplad timme och varje registrerad uppgift blir en signal som flödar tillbaka till din decision intelligence - så att drift och insikt delar ett system."
+          },
+          {
+            "title": "Vad kan Crew göra?",
+            "content": "**Fem sammankopplade moduler:**\n\n1. **Scheduling** - Efterfrågestyrd schemaläggning med behörighetskontroller och en AI-byggare\n2. **Tidrapportering** - In- och utstämpling, geofencing, rastintyg och godkännande av tidrapporter\n3. **Payroll** - Löneunderlag för flera regioner och lagstadgade exporter (underlag och export, inte en skattemotor)\n4. **Personal & HR** - Medarbetaruppgifter och dokument från anställning till avgång\n5. **People Intelligence** - Personalanalys, uteblivanderisker och trender för arbetskraftskostnad"
+          },
+          {
+            "title": "Vilka regioner stöder Crew-lön?",
+            "content": "Crews löneunderlag och lagstadgade exporter täcker för närvarande **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **USA** (federalt plus alla delstater), **Kanada**, **Storbritannien** och **Europeiska unionen** (alla 27 medlemsländer). Latinamerika och APAC finns på färdplanen. Crew förbereder och exporterar lön - det är ingen skattemotor, och lagstadgade regler kommer från versionshanterade landspaket."
+          },
+          {
+            "title": "Behöver jag Core för att använda Crew?",
+            "content": "Nej. Crew kan köras fristående som ditt operativa system, eller vid sidan av Core så att dess signal matar Labor Intelligence, Pulse och Foresight. Du kan också ta med din egen HR- eller löneleverantör - Crew är valfritt i sin design."
+          },
+          {
+            "title": "Vad kostar Crew?",
+            "content": "**Crew-moduler (månadsvis, organisationslicens + per plats):**\n\n- **Scheduling** - $179 + $39/plats\n- **Tidrapportering** - $99 + $19/plats\n- **Payroll** - $129 + $29/plats\n- **Personal & HR (Operations)** - $399 + $79/plats\n- **People Intelligence** - $249 + $39/plats\n\nPaket samlar hela sviten till ett lägre kombinerat pris. Använd pricing.sundae.io för exakt planberäkning."
+          }
+        ]
       }
     ],
     "bn": [
@@ -5039,7 +5429,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae কী কী পণ্য অফার করে?",
-            "content": "**তিনটি প্রধান পণ্য:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - ঐতিহাসিক বিশ্লেষণ এবং বেঞ্চমার্কিং\n2. **Sundae Core** (Lite / Pro / Enterprise) - রিয়েল-টাইম অপারেশন এবং পূর্বাভাসী বুদ্ধিমত্তা\n3. **Watchtower** (প্রতিযোগিতামূলক / ইভেন্ট / বাজার) - বাইরের বাজারের বুদ্ধিমত্তা\n\n**প্লাস:**\n\n4. **মডিউলস** - শ্রম, ইনভেন্টরি, ক্রয়, মার্কেটিং, এবং রিজার্ভেশন বুদ্ধিমত্তা."
+            "content": "**চারটি প্রধান পণ্য:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - ঐতিহাসিক বিশ্লেষণ এবং বেঞ্চমার্কিং\n2. **Sundae Core** (Lite / Pro / Enterprise) - রিয়েল-টাইম অপারেশন এবং পূর্বাভাসী বুদ্ধিমত্তা\n3. **Sundae Crew** - অপারেশনাল স্যুট: শিডিউলিং, সময় ও উপস্থিতি, পেরোল, HR, এবং পিপল ইন্টেলিজেন্স\n4. **Watchtower** (প্রতিযোগিতামূলক / ইভেন্ট / বাজার) - বাইরের বাজারের বুদ্ধিমত্তা\n\n**প্লাস:**\n\n5. **মডিউলস** - শ্রম, ইনভেন্টরি, ক্রয়, মার্কেটিং, এবং রিজার্ভেশন বুদ্ধিমত্তা."
           },
           {
             "title": "কোন স্তরটি আমি নির্বাচন করব?",
@@ -5282,6 +5672,32 @@ export const generatedLocalCopy = {
             "content": "হ্যাঁ। Watchtower এবং বাজারের বুদ্ধিমত্তা বাণিজ্য-এলাকা বিশ্লেষণ, স্যাচুরেশন পর্যালোচনা, প্রতিযোগীর গতিবিধি ট্র্যাকিং এবং অপ্রাপ্ত সেবা অঞ্চলগুলির অগ্রাধিকার নির্ধারণে সহায়তা করতে পারে।"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew কী?",
+            "content": "Sundae Crew হল সেই অপারেশনাল স্যুট যা আপনার কর্মীদের পরিচালনা করে: শিডিউলিং, সময় ও উপস্থিতি, পেরোল প্রস্তুতি, HR রেকর্ড এবং কর্মীবাহিনী বিশ্লেষণ। পরিকল্পিত প্রতিটি শিফট, রেকর্ড করা প্রতিটি ঘণ্টা এবং দাখিল করা প্রতিটি রেকর্ড একটি সংকেতে পরিণত হয় যা আপনার decision intelligence-এ ফিরে প্রবাহিত হয় - যাতে অপারেশন এবং অন্তর্দৃষ্টি একটি সিস্টেম ভাগ করে নেয়।"
+          },
+          {
+            "title": "Crew কী করতে পারে?",
+            "content": "**পাঁচটি সংযুক্ত মডিউল:**\n\n1. **Scheduling** - যোগ্যতা যাচাই এবং একটি AI বিল্ডার সহ চাহিদা-সচেতন শিফট পরিকল্পনা\n2. **সময় ও উপস্থিতি** - ক্লক-ইন/আউট, জিওফেন্সিং, বিরতি সত্যায়ন এবং টাইমশিট অনুমোদন\n3. **Payroll** - বহু-অঞ্চল পেরোল প্রস্তুতি এবং বিধিবদ্ধ রপ্তানি (প্রস্তুতি ও রপ্তানি, কোনো কর ইঞ্জিন নয়)\n4. **মানুষ ও HR** - নিয়োগ থেকে অবসর পর্যন্ত কর্মচারীদের রেকর্ড এবং নথি\n5. **People Intelligence** - কর্মীবাহিনী বিশ্লেষণ, নো-শো ঝুঁকি এবং শ্রম-খরচের প্রবণতা"
+          },
+          {
+            "title": "Crew পেরোল কোন অঞ্চলগুলি সমর্থন করে?",
+            "content": "Crew-এর পেরোল প্রস্তুতি এবং বিধিবদ্ধ রপ্তানি বর্তমানে **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **যুক্তরাষ্ট্র** (ফেডারেল এবং সমস্ত অঙ্গরাজ্য), **কানাডা**, **যুক্তরাজ্য** এবং **ইউরোপীয় ইউনিয়ন** (সমস্ত 27টি সদস্য রাষ্ট্র) কভার করে। লাতিন আমেরিকা এবং APAC রোডম্যাপে রয়েছে। Crew পেরোল প্রস্তুত এবং রপ্তানি করে - এটি কোনো কর ইঞ্জিন নয়, এবং বিধিবদ্ধ নিয়মগুলি সংস্করণকৃত দেশ প্যাক থেকে আসে।"
+          },
+          {
+            "title": "Crew ব্যবহার করতে কি আমার Core দরকার?",
+            "content": "না। Crew আপনার অপারেশনাল সিস্টেম হিসেবে একা চলতে পারে, অথবা Core-এর পাশাপাশি চলতে পারে যাতে এর সংকেত Labor Intelligence, Pulse এবং Foresight-কে সরবরাহ করে। আপনি আপনার নিজের HR বা পেরোল প্রদানকারীও আনতে পারেন - Crew নকশা অনুযায়ী ঐচ্ছিক।"
+          },
+          {
+            "title": "Crew-এর খরচ কত?",
+            "content": "**Crew মডিউল (মাসিক, সংস্থা লাইসেন্স + প্রতি অবস্থান):**\n\n- **Scheduling** - $179 + $39/অবস্থান\n- **সময় ও উপস্থিতি** - $99 + $19/অবস্থান\n- **Payroll** - $129 + $29/অবস্থান\n- **মানুষ ও HR (Operations)** - $399 + $79/অবস্থান\n- **People Intelligence** - $249 + $39/অবস্থান\n\nবান্ডেলগুলি পুরো স্যুটটিকে একটি কম সম্মিলিত হারে একত্রিত করে। সঠিক প্ল্যান হিসাবের জন্য pricing.sundae.io ব্যবহার করুন।"
+          }
+        ]
       }
     ],
     "th": [
@@ -5317,7 +5733,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae มีผลิตภัณฑ์อะไรบ้าง?",
-            "content": "**ผลิตภัณฑ์หลักสามรายการ:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - การวิเคราะห์ประวัติและการเปรียบเทียบ\n2. **Sundae Core** (Lite / Pro / Enterprise) - การดำเนินงานแบบเรียลไทม์และปัญญาเชิงพยากรณ์\n3. **Watchtower** (Competitive / Event / Market) - ข้อมูลเชิงลึกเกี่ยวกับตลาดภายนอก\n\n**เพิ่มเติม:**\n\n4. **Modules** - ข้อมูลเชิงลึกเกี่ยวกับแรงงาน, สินค้าคงคลัง, การจัดซื้อ, การตลาด, และการจอง."
+            "content": "**สี่ผลิตภัณฑ์หลัก:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - การวิเคราะห์เชิงประวัติและการเปรียบเทียบ\n2. **Sundae Core** (Lite / Pro / Enterprise) - การดำเนินงานแบบเรียลไทม์และปัญญาเชิงพยากรณ์\n3. **Sundae Crew** - ชุดการดำเนินงาน: การจัดตารางกะ การลงเวลาเข้าออก การจ่ายเงินเดือน ทรัพยากรบุคคล และปัญญาด้านบุคลากร\n4. **Watchtower** (การแข่งขัน / เหตุการณ์ / ตลาด) - ปัญญาด้านตลาดภายนอก\n\n**นอกจากนี้:**\n\n5. **โมดูล** - ปัญญาด้านแรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด และการจอง."
           },
           {
             "title": "ควรเลือกระดับไหน?",
@@ -5560,6 +5976,32 @@ export const generatedLocalCopy = {
             "content": "ใช่ Watchtower และข้อมูลเชิงตลาดสามารถสนับสนุนการวิเคราะห์พื้นที่การค้า การตรวจสอบความหนาแน่น การติดตามการเคลื่อนไหวของคู่แข่ง และการจัดลำดับความสำคัญของพื้นที่ที่ไม่ได้รับบริการ."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew คืออะไร?",
+            "content": "Sundae Crew คือชุดการดำเนินงานที่บริหารบุคลากรของคุณ: การจัดตารางกะ การลงเวลาเข้าออก การเตรียมจ่ายเงินเดือน ระเบียนทรัพยากรบุคคล และการวิเคราะห์แรงงาน ทุกกะที่วางแผนไว้ ทุกชั่วโมงที่ลงเวลา และทุกระเบียนที่จัดเก็บจะกลายเป็นสัญญาณที่ไหลกลับเข้าสู่ decision intelligence ของคุณ - เพื่อให้การดำเนินงานและข้อมูลเชิงลึกใช้ระบบเดียวกัน"
+          },
+          {
+            "title": "Crew ทำอะไรได้บ้าง?",
+            "content": "**ห้าโมดูลที่เชื่อมโยงกัน:**\n\n1. **Scheduling** - การวางแผนกะที่รับรู้ความต้องการ พร้อมการตรวจสอบคุณสมบัติและตัวสร้างด้วย AI\n2. **การลงเวลาเข้าออก** - เข้า/ออกงาน การกำหนดขอบเขตพื้นที่ การรับรองการพัก และการอนุมัติใบลงเวลา\n3. **Payroll** - การเตรียมจ่ายเงินเดือนหลายภูมิภาคและการส่งออกตามกฎหมาย (การเตรียมและส่งออก ไม่ใช่เครื่องมือคำนวณภาษี)\n4. **บุคลากรและ HR** - ระเบียนและเอกสารพนักงานตั้งแต่รับเข้าจนถึงพ้นสภาพ\n5. **People Intelligence** - การวิเคราะห์แรงงาน ความเสี่ยงการขาดงาน และแนวโน้มต้นทุนแรงงาน"
+          },
+          {
+            "title": "Crew payroll รองรับภูมิภาคใดบ้าง?",
+            "content": "การเตรียมจ่ายเงินเดือนและการส่งออกตามกฎหมายของ Crew ปัจจุบันครอบคลุม **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **สหรัฐอเมริกา** (ระดับสหพันธรัฐและทุกรัฐ), **แคนาดา**, **สหราชอาณาจักร** และ **สหภาพยุโรป** (ทั้ง 27 ประเทศสมาชิก) ละตินอเมริกาและ APAC อยู่ในแผนงาน Crew เตรียมและส่งออกเงินเดือน - ไม่ใช่เครื่องมือคำนวณภาษี และกฎตามกฎหมายมาจากชุดกฎประเทศที่มีการกำหนดเวอร์ชัน"
+          },
+          {
+            "title": "ฉันต้องมี Core เพื่อใช้ Crew หรือไม่?",
+            "content": "ไม่ต้อง Crew สามารถทำงานได้ด้วยตัวเองในฐานะระบบการดำเนินงานของคุณ หรือทำงานควบคู่กับ Core เพื่อให้สัญญาณของมันป้อนเข้าสู่ Labor Intelligence, Pulse และ Foresight คุณยังสามารถนำผู้ให้บริการ HR หรือ payroll ของคุณเองมาใช้ได้ - Crew เป็นทางเลือกโดยการออกแบบ"
+          },
+          {
+            "title": "Crew ราคาเท่าไหร่?",
+            "content": "**โมดูล Crew (รายเดือน ใบอนุญาตองค์กร + ต่อสถานที่):**\n\n- **Scheduling** - $179 + $39/สถานที่\n- **การลงเวลาเข้าออก** - $99 + $19/สถานที่\n- **Payroll** - $129 + $29/สถานที่\n- **บุคลากรและ HR (Operations)** - $399 + $79/สถานที่\n- **People Intelligence** - $249 + $39/สถานที่\n\nแพ็กเกจรวมชุดทั้งหมดไว้ในอัตรารวมที่ต่ำกว่า ใช้ pricing.sundae.io สำหรับการคำนวณแผนที่แน่นอน"
+          }
+        ]
       }
     ],
     "ms": [
@@ -5595,7 +6037,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Produk apa yang ditawarkan oleh Sundae?",
-            "content": "**Tiga produk utama:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisis sejarah dan penanda aras\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operasi masa nyata dan kecerdasan ramalan\n3. **Watchtower** (Persaingan / Acara / Pasaran) - Kecerdasan pasaran luar\n\n**Tambahan:**\n\n4. **Modul** - Kecerdasan Tenaga Kerja, Inventori, Pembelian, Pemasaran, dan Tempahan."
+            "content": "**Empat produk utama:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisis sejarah dan penanda aras\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operasi masa nyata dan kecerdasan ramalan\n3. **Sundae Crew** - Suite operasi: penjadualan syif, kehadiran, gaji, HR, dan kecerdasan tenaga kerja\n4. **Watchtower** (Persaingan / Acara / Pasaran) - Kecerdasan pasaran luar\n\n**Tambahan:**\n\n5. **Modul** - Kecerdasan Tenaga Kerja, Inventori, Pembelian, Pemasaran, dan Tempahan."
           },
           {
             "title": "Tier mana yang patut saya pilih?",
@@ -5836,6 +6278,32 @@ export const generatedLocalCopy = {
           {
             "title": "Kami merancang untuk berkembang. Bolehkah Sundae membantu?",
             "content": "Ya. Watchtower dan kecerdasan pasaran boleh menyokong analisis kawasan perdagangan, semakan ketepuan, penjejakan pergerakan pesaing, dan keutamaan kawasan yang kurang dilayani."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Apakah itu Sundae Crew?",
+            "content": "Sundae Crew ialah suite operasi yang menguruskan tenaga kerja anda: penjadualan, kehadiran, kesediaan gaji, rekod HR dan analitik tenaga kerja. Setiap syif yang dirancang, setiap jam yang direkodkan dan setiap rekod yang difailkan menjadi isyarat yang mengalir semula ke decision intelligence anda - supaya operasi dan pandangan berkongsi satu sistem."
+          },
+          {
+            "title": "Apakah yang boleh dilakukan Crew?",
+            "content": "**Lima modul yang saling berhubung:**\n\n1. **Scheduling** - Perancangan syif peka permintaan dengan semakan kelayakan dan pembina AI\n2. **Kehadiran** - Daftar masuk/keluar, geofencing, atestasi rehat dan kelulusan lembaran masa\n3. **Payroll** - Kesediaan gaji pelbagai wilayah dan eksport berkanun (kesediaan dan eksport, bukan enjin cukai)\n4. **Orang & HR** - Rekod dan dokumen pekerja dari pengambilan hingga persaraan\n5. **People Intelligence** - Analitik tenaga kerja, risiko ketidakhadiran dan trend kos buruh"
+          },
+          {
+            "title": "Wilayah manakah yang disokong oleh gaji Crew?",
+            "content": "Kesediaan gaji dan eksport berkanun Crew kini merangkumi **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Amerika Syarikat** (persekutuan serta semua negeri), **Kanada**, **United Kingdom** dan **Kesatuan Eropah** (kesemua 27 negara anggota). Amerika Latin dan APAC berada dalam peta jalan. Crew menyediakan dan mengeksport gaji - ia bukan enjin cukai, dan peraturan berkanun datang daripada pek negara berversi."
+          },
+          {
+            "title": "Adakah saya memerlukan Core untuk menggunakan Crew?",
+            "content": "Tidak. Crew boleh berjalan sendiri sebagai sistem operasi anda, atau bersama Core supaya isyaratnya menyuap Labor Intelligence, Pulse dan Foresight. Anda juga boleh membawa pembekal HR atau gaji anda sendiri - Crew adalah pilihan secara reka bentuk."
+          },
+          {
+            "title": "Berapakah kos Crew?",
+            "content": "**Modul Crew (bulanan, lesen organisasi + setiap lokasi):**\n\n- **Scheduling** - $179 + $39/lokasi\n- **Kehadiran** - $99 + $19/lokasi\n- **Payroll** - $129 + $29/lokasi\n- **Orang & HR (Operations)** - $399 + $79/lokasi\n- **People Intelligence** - $249 + $39/lokasi\n\nBundel menyatukan keseluruhan suite pada kadar gabungan yang lebih rendah. Gunakan pricing.sundae.io untuk pengiraan pelan yang tepat."
           }
         ]
       }

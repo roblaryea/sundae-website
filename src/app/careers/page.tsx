@@ -281,7 +281,7 @@ export default async function CareersPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Link href="mailto:careers@sundae.io"><Button variant="primary" size="lg">{ui.ctaPrimary}</Button></Link>
-        <Link href="/demo"><Button variant="outline-light" size="lg">{ui.ctaSecondary}</Button></Link>
+        <Link href="/demo"><Button variant="outline-ink" size="lg">{ui.ctaSecondary}</Button></Link>
       </PageCTA>
     </div>
   );

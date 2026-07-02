@@ -352,7 +352,7 @@ export default function WhySundaePage() {
 
       <PageCTA title={copy.cta.title} description={copy.cta.description}>
         <Button variant="cta" size="lg" href="/demo">{copy.cta.primary}</Button>
-        <Button variant="outline-light" size="lg" href="/product">{copy.cta.secondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/product">{copy.cta.secondary}</Button>
       </PageCTA>
     </div>
   );

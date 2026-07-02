@@ -322,7 +322,7 @@ export default function ProductPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Link href="/demo"><Button variant="primary" size="lg">{ui.heroSecondary}</Button></Link>
-        <Link href="/product"><Button variant="outline-light" size="lg">{ui.heroPrimary}</Button></Link>
+        <Link href="/product"><Button variant="outline-ink" size="lg">{ui.heroPrimary}</Button></Link>
       </PageCTA>
     </div>
   );

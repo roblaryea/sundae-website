@@ -561,7 +561,7 @@ export default function ArchitecturePage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" href="/demo">{ui.ctaPrimary}</Button>
-        <Button variant="outline-light" size="lg" href="/product">{ui.ctaSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/product">{ui.ctaSecondary}</Button>
       </PageCTA>
     </div>
   );

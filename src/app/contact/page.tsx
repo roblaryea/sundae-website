@@ -195,7 +195,7 @@ export default async function ContactPage() {
 
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
         <Link href="/demo"><Button variant="cta" size="lg">{copy.ctaPrimary}</Button></Link>
-        <Link href="/product"><Button variant="outline-light" size="lg">{copy.ctaSecondary}</Button></Link>
+        <Link href="/product"><Button variant="outline-ink" size="lg">{copy.ctaSecondary}</Button></Link>
       </PageCTA>
     </div>
   );
