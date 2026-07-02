@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
 import { Button } from "@/components/ui/Button";
 import { ThemedShot } from "@/components/ui/ThemedShot";
-import { SundaeWordmark } from "./SundaeWordmark";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionPersonaSwitcher'
@@ -150,7 +149,7 @@ export function SectionPersonaSwitcher() {
             className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2.5 sm:gap-x-3.5 gap-y-1.5"
           >
             <span>{copy.headlineSee}</span>
-            <SundaeWordmark className="h-[0.72em] w-auto inline-block align-baseline translate-y-[0.02em] text-[var(--text-primary)]" />
+            <span>Sundae</span>
             <span>{copy.headlineFor}</span>
             <span className="text-[var(--warm-coral)]">
               {active.pluralLabel}.

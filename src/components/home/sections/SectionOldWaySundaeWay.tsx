@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledReducedMotion";
-import { SundaeWordmark } from "./SundaeWordmark";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionOldWaySundaeWay'
@@ -136,7 +135,7 @@ export function SectionOldWaySundaeWay() {
             className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2 sm:gap-x-2.5 gap-y-1.5"
           >
             <span>{copy.headlinePre}</span>
-            <SundaeWordmark className="h-[0.72em] w-auto inline-block align-baseline translate-y-[0.02em] text-[var(--text-primary)]" />
+            <span>Sundae</span>
             <span>{copy.headlinePost}</span>
           </h2>
         </div>
