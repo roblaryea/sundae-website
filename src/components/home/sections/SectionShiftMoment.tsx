@@ -351,7 +351,7 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
             className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-[var(--surface-emphasis)]"
             style={{ accentColor: '#FF5C4D' }}
           />
-          <div className="mt-1.5 flex items-center justify-between text-[10px] font-medium text-[var(--text-faint)]">
+          <div className="mt-1.5 flex items-center justify-between text-[10px] font-medium text-[var(--text-muted)]">
             <span>5 PM</span>
             <span style={{ color: 'var(--accent-warm)' }}>7:15</span>
             <span>Close</span>

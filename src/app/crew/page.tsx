@@ -122,7 +122,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     badge: "CREW · WORKFORCE OPERATIONS",
     heroLine1: "Every shift",
     heroLine2: "becomes signal.",
-    description: "Crew runs your people, schedules, time, HR operations, payroll readiness, and employee support. Every action becomes operating data that feeds Sundae's decision intelligence - a loop standalone HR or payroll vendors cannot close.",
+    description: "Crew runs your people, schedules, time, HR operations, payroll readiness, and employee support. Every action becomes operating data that feeds Sundae's decision intelligence - a loop that standalone HR or payroll vendors cannot close.",
     primaryCta: "Book a Crew Walkthrough",
     secondaryCta: "See Crew in Action",
     heroProof: [

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { Fraunces, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
@@ -23,6 +22,7 @@ import {
   websiteLocaleDirection,
 } from "@/lib/i18n";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
+import { resolvePageTitle } from "@/lib/pageTitles";
 
 // Display - warm, optical serif for headlines & key numbers (the human, premium voice).
 const fraunces = Fraunces({
@@ -58,13 +58,19 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
   const publicPath = headerStore.get(WEBSITE_PUBLIC_PATH_HEADER) || '/';
   const { pathname: canonicalPath } = parseWebsiteLocaleFromPathname(publicPath);
-  const localizedCanonicalPath = getLocalizedPathname(normalizeWebsitePathname(canonicalPath), locale);
+  const normalizedPath = normalizeWebsitePathname(canonicalPath);
+  const localizedCanonicalPath = getLocalizedPathname(normalizedPath, locale);
   const alternates = buildWebsiteAlternateUrls(canonicalPath, baseUrl);
+  // Route-specific default title for pages that don't ship their own metadata
+  // title (fixes ~36 routes that otherwise share the generic root title). A page
+  // that DOES export its own title still overrides this via Next.js metadata
+  // merging; the template applies only to those child titles, not to this default.
+  const routeTitle = resolvePageTitle(normalizedPath, locale);
 
   return {
     metadataBase: new URL(baseUrl),
     title: {
-      default: messages.metadata.title,
+      default: routeTitle ?? messages.metadata.title,
       template: "%s | Sundae",
     },
     description: messages.metadata.description,
@@ -140,6 +146,13 @@ export default async function RootLayout({
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
   const dir = websiteLocaleDirection[locale];
+  // Read the consent decision server-side so the banner is suppressed in the
+  // SSR HTML for returning visitors - no post-hydration flash of a banner they
+  // already dismissed. (localStorage is client-only; a mirrored cookie is the
+  // only consent signal the server can see.)
+  const consentCookie = cookieStore.get("sundae_cookie_consent")?.value;
+  const initialConsent =
+    consentCookie === "accepted" || consentCookie === "declined" ? consentCookie : null;
 
   return (
     <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
@@ -158,24 +171,22 @@ export default async function RootLayout({
         >
           {messages.layout.skipToContent}
         </a>
-        <Suspense fallback={null}>
-          <PostHogProvider>
-            <LocaleProvider initialLocale={locale}>
-              <ThemeProvider>
-                <header role="banner">
-                  <Navbar />
-                </header>
-                <main id="main-content" className="relative min-h-screen overflow-x-hidden" role="main">
-                  <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
-                  {children}
-                </main>
-                <Footer />
-                <Analytics />
-                <CookieConsent />
-              </ThemeProvider>
-            </LocaleProvider>
-          </PostHogProvider>
-        </Suspense>
+        <PostHogProvider>
+          <LocaleProvider initialLocale={locale}>
+            <ThemeProvider>
+              <header role="banner">
+                <Navbar />
+              </header>
+              <main id="main-content" className="relative min-h-screen overflow-x-hidden" role="main">
+                <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
+                {children}
+              </main>
+              <Footer />
+              <Analytics />
+              <CookieConsent initialConsent={initialConsent} />
+            </ThemeProvider>
+          </LocaleProvider>
+        </PostHogProvider>
       </body>
     </html>
   );

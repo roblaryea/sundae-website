@@ -25,6 +25,7 @@ const localizedShellCopy: RequiredEnglishLocalizedRecord<
   productShotAlt: string;
   ssoDivider: string;
   redirectedToApp: string;
+  trustNote: string;
  }
 > = {
  en: {
@@ -32,24 +33,28 @@ const localizedShellCopy: RequiredEnglishLocalizedRecord<
   productShotAlt: 'Sundae Core dashboard',
   ssoDivider: 'or',
   redirectedToApp: "You'll be redirected to",
+  trustNote: "This is Sundae's official app domain. Check for the padlock in your browser before entering your password.",
  },
  ar: {
   homeLabel: 'الصفحة الرئيسية لـ Sundae',
   productShotAlt: 'لوحة تحكم Sundae Core',
   ssoDivider: 'أو',
   redirectedToApp: 'سيتم تحويلك إلى',
+  trustNote: 'هذا هو نطاق تطبيق Sundae الرسمي. تحقّق من رمز القفل في متصفّحك قبل إدخال كلمة المرور.',
  },
  fr: {
   homeLabel: 'Accueil Sundae',
   productShotAlt: 'Tableau de bord Sundae Core',
   ssoDivider: 'ou',
   redirectedToApp: 'Vous serez redirigé vers',
+  trustNote: "C’est le domaine officiel de l’application Sundae. Vérifiez le cadenas dans votre navigateur avant de saisir votre mot de passe.",
  },
  es: {
   homeLabel: 'Inicio de Sundae',
   productShotAlt: 'Panel de Sundae Core',
   ssoDivider: 'o',
   redirectedToApp: 'Serás redirigido a',
+  trustNote: 'Este es el dominio oficial de la aplicación de Sundae. Comprueba el candado en tu navegador antes de introducir tu contraseña.',
  },
 };
 
@@ -350,6 +355,12 @@ async function handleSubmit(e: FormEvent) {
  <p className="text-xs text-[var(--text-muted)]">
  {shellCopy.redirectedToApp} <span className="text-[var(--text-secondary)]">{APP_URL}</span>.
  </p>
+ <div className="flex items-start gap-2 rounded-lg border border-[var(--border-default)] bg-white/[0.02] px-3 py-2">
+ <ShieldIcon />
+ <p className="text-xs leading-relaxed text-[var(--text-muted)]">
+ {shellCopy.trustNote}
+ </p>
+ </div>
  </div>
  )}
 

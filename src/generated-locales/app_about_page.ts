@@ -4,7 +4,7 @@ export const generatedLocalCopy = {
   "aboutCopy": {
     "de": {
       "metadataTitle": "Über Sundae - Die Entscheidungsintelligenz-Plattform für Restaurants",
-      "metadataDescription": "Sundae vereint über 12 Datenquellen in einer einzigen Intelligenzschicht für Multi-Unit-Restaurantgruppen. Entwickelt von Betreibern, die das Problem selbst erlebt haben. Aktiv in 3 Ländern.",
+      "metadataDescription": "Sundae vereint über 12 Datenquellen in einer einzigen Intelligenzschicht für Multi-Unit-Restaurantgruppen. Entwickelt von Betreibern, die das Problem selbst erlebt haben. Lokalisiert in 22 Sprachen.",
       "badge": "Über Sundae",
       "description": "Restaurantdaten befinden sich normalerweise in einem Dutzend voneinander getrennter Systeme. Sundae bringt dieses Betriebsbild an einem Ort zusammen, damit Teams Entscheidungen auf der Grundlage aktueller Zahlen, Marktkontext und zukunftsorientierter Signale treffen können.",
       "stats": [
@@ -21,8 +21,8 @@ export const generatedLocalCopy = {
           "label": "Datenbereiche"
         },
         {
-          "value": "3",
-          "label": "Aktive Länder"
+          "value": "22",
+          "label": "Sprachen"
         }
       ],
       "builtTitle": "Was wir gebaut haben",
@@ -165,7 +165,7 @@ export const generatedLocalCopy = {
         {
           "title": "Den Standard erhöhen",
           "description": "Wir möchten, dass Restaurantteams mehr von ihrem Datenstapel erwarten als nur ein weiteres statisches Dashboard.",
-          "proof": "Aktiv in 3 Ländern mit Unternehmensgruppen, die die Plattform umfassend übernehmen.",
+          "proof": "Lokalisiert in 22 Sprachen, mit Unternehmensgruppen, die die Plattform umfassend übernehmen.",
           "icon": "growth"
         }
       ],
@@ -234,7 +234,7 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "metadataTitle": "À propos de Sundae - La plateforme d'intelligence décisionnelle pour les restaurants",
-      "metadataDescription": "Sundae unifie plus de 12 sources de données en une seule couche d'intelligence pour les groupes de restaurants multi-unités. Conçu par des opérateurs ayant vécu le problème. Actif dans 3 pays.",
+      "metadataDescription": "Sundae unifie plus de 12 sources de données en une seule couche d'intelligence pour les groupes de restaurants multi-unités. Conçu par des opérateurs ayant vécu le problème. Localisé en 22 langues.",
       "badge": "À propos de Sundae",
       "description": "Les données des restaurants se trouvent généralement dans une douzaine de systèmes déconnectés. Sundae regroupe cette vue d'ensemble en un seul endroit afin que les équipes puissent prendre des décisions avec des chiffres actuels, un contexte de marché et des signaux prospectifs.",
       "stats": [
@@ -251,8 +251,8 @@ export const generatedLocalCopy = {
           "label": "Domaines de données"
         },
         {
-          "value": "3",
-          "label": "Pays actifs"
+          "value": "22",
+          "label": "Langues"
         }
       ],
       "builtTitle": "Ce que nous avons construit",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
         {
           "title": "Élever le Standard",
           "description": "Nous voulons que les équipes de restaurant s'attendent à plus de leur pile de données qu'un simple tableau de bord statique.",
-          "proof": "Actif dans 3 pays avec des groupes d'entreprise adoptant la plateforme dans son ensemble.",
+          "proof": "Localisé en 22 langues, avec des groupes d'entreprise adoptant la plateforme dans son ensemble.",
           "icon": "growth"
         }
       ],
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
     },
     "es": {
       "metadataTitle": "Acerca de Sundae - La Plataforma de Inteligencia de Decisiones para Restaurantes",
-      "metadataDescription": "Sundae unifica más de 12 fuentes de datos en una única capa de inteligencia para grupos de restaurantes de múltiples unidades. Creado por operadores que vivieron el problema. Activo en 3 países.",
+      "metadataDescription": "Sundae unifica más de 12 fuentes de datos en una única capa de inteligencia para grupos de restaurantes de múltiples unidades. Creado por operadores que vivieron el problema. Localizado en 22 idiomas.",
       "badge": "Acerca de Sundae",
       "description": "Los datos del restaurante suelen estar en una docena de sistemas desconectados. Sundae reúne esa información en un solo lugar para que los equipos puedan tomar decisiones con números actuales, contexto de mercado y señales futuras.",
       "stats": [
@@ -463,8 +463,8 @@ export const generatedLocalCopy = {
           "label": "Dominios de Datos"
         },
         {
-          "value": "3",
-          "label": "Países Activos"
+          "value": "22",
+          "label": "Idiomas"
         }
       ],
       "builtTitle": "Lo Que Hemos Construido",
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
         {
           "title": "Eleva el Estándar",
           "description": "Queremos que los equipos de restaurantes esperen más de su pila de datos que otro panel estático.",
-          "proof": "Activo en 3 países con grupos empresariales adoptando la plataforma en su totalidad.",
+          "proof": "Localizado en 22 idiomas, con grupos empresariales adoptando la plataforma en su totalidad.",
           "icon": "growth"
         }
       ],
@@ -658,7 +658,7 @@ export const generatedLocalCopy = {
     },
     "ar": {
       "metadataTitle": "حول Sundae - منصة الذكاء في اتخاذ القرار للمطاعم",
-      "metadataDescription": "Sundae يجمع أكثر من 12 مصدر بيانات في طبقة ذكاء واحدة لمجموعات المطاعم متعددة الوحدات. تم بناؤه بواسطة مشغلين عاشوا المشكلة. نشط في 3 دول.",
+      "metadataDescription": "Sundae يجمع أكثر من 12 مصدر بيانات في طبقة ذكاء واحدة لمجموعات المطاعم متعددة الوحدات. تم بناؤه بواسطة مشغلين عاشوا المشكلة. متوفّر بـ 22 لغة.",
       "badge": "حول Sundae",
       "description": "تعيش بيانات المطاعم عادةً في مجموعة من الأنظمة المنفصلة. تجمع Sundae هذه الصورة التشغيلية في مكان واحد حتى تتمكن الفرق من اتخاذ قرارات استنادًا إلى الأرقام الحالية وسياق السوق والإشارات المستقبلية.",
       "stats": [
@@ -675,8 +675,8 @@ export const generatedLocalCopy = {
           "label": "مجالات البيانات"
         },
         {
-          "value": "3",
-          "label": "الدول النشطة"
+          "value": "22",
+          "label": "اللغات"
         }
       ],
       "builtTitle": "ما قمنا ببنائه",
@@ -870,7 +870,7 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "metadataTitle": "Over Sundae - Het Besluitvormingsintelligentieplatform voor Restaurants",
-      "metadataDescription": "Sundae verenigt 12+ gegevensbronnen in één intelligentielaag voor multi-unit restaurantgroepen. Gebouwd door operators die het probleem hebben ervaren. Actief in 3 landen.",
+      "metadataDescription": "Sundae verenigt 12+ gegevensbronnen in één intelligentielaag voor multi-unit restaurantgroepen. Gebouwd door operators die het probleem hebben ervaren. Gelokaliseerd in 22 talen.",
       "badge": "Over Sundae",
       "description": "Restaurantdata bevindt zich meestal in een dozijn losgekoppelde systemen. Sundae brengt dat operationele overzicht op één plek samen, zodat teams beslissingen kunnen nemen op basis van actuele cijfers, marktcontext en vooruitziende signalen.",
       "stats": [
@@ -887,8 +887,8 @@ export const generatedLocalCopy = {
           "label": "Gegevensdomeinen"
         },
         {
-          "value": "3",
-          "label": "Actieve landen"
+          "value": "22",
+          "label": "Talen"
         }
       ],
       "builtTitle": "Wat We Hebben Gebouwd",
@@ -1031,7 +1031,7 @@ export const generatedLocalCopy = {
         {
           "title": "Verhoog de Standaard",
           "description": "We willen dat restaurantteams meer van hun datastack verwachten dan alleen een statisch dashboard.",
-          "proof": "Actief in 3 landen met enterprise groepen die platformbreed adopteren.",
+          "proof": "Gelokaliseerd in 22 talen, met enterprise groepen die platformbreed adopteren.",
           "icon": "growth"
         }
       ],
@@ -1100,7 +1100,7 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "metadataTitle": "Sobre a Sundae - A Plataforma de Inteligência de Decisão para Restaurantes",
-      "metadataDescription": "O Sundae unifica mais de 12 fontes de dados em uma única camada de inteligência para grupos de restaurantes com várias unidades. Criado por operadores que vivenciaram o problema. Atuando em 3 países.",
+      "metadataDescription": "O Sundae unifica mais de 12 fontes de dados em uma única camada de inteligência para grupos de restaurantes com várias unidades. Criado por operadores que vivenciaram o problema. Localizado em 22 idiomas.",
       "badge": "Sobre a Sundae",
       "description": "Os dados do restaurante geralmente estão em uma dúzia de sistemas desconectados. A Sundae reúne essa visão operacional em um só lugar, para que as equipes possam tomar decisões com números atualizados, contexto de mercado e sinais futuros.",
       "stats": [
@@ -1117,8 +1117,8 @@ export const generatedLocalCopy = {
           "label": "Domínios de Dados"
         },
         {
-          "value": "3",
-          "label": "Países Ativos"
+          "value": "22",
+          "label": "Idiomas"
         }
       ],
       "builtTitle": "O Que Construímos",
@@ -1261,7 +1261,7 @@ export const generatedLocalCopy = {
         {
           "title": "Elevar o Padrão",
           "description": "Queremos que as equipes de restaurantes esperem mais de sua pilha de dados do que apenas outro painel estático.",
-          "proof": "Ativo em 3 países com grupos empresariais adotando a plataforma em toda a sua extensão.",
+          "proof": "Localizado em 22 idiomas, com grupos empresariais adotando a plataforma em toda a sua extensão.",
           "icon": "growth"
         }
       ],
@@ -1285,7 +1285,7 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "metadataTitle": "Sundae کے بارے میں - ریستورانوں کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
-      "metadataDescription": "Sundae 12+ ڈیٹا ذرائع کو ایک واحد ذہانت کی تہہ میں یکجا کرتا ہے جو کثیر یونٹ ریستوراں گروپوں کے لیے ہے۔ یہ آپریٹرز کے ذریعہ بنایا گیا ہے جو اس مسئلے کا سامنا کر چکے ہیں۔ 3 ممالک میں فعال ہے۔",
+      "metadataDescription": "Sundae 12+ ڈیٹا ذرائع کو ایک واحد ذہانت کی تہہ میں یکجا کرتا ہے جو کثیر یونٹ ریستوراں گروپوں کے لیے ہے۔ یہ آپریٹرز کے ذریعہ بنایا گیا ہے جو اس مسئلے کا سامنا کر چکے ہیں۔ 22 زبانوں میں دستیاب ہے۔",
       "badge": "Sundae کے بارے میں",
       "description": "ریستوران کا ڈیٹا عام طور پر درجن بھر غیر مربوط نظاموں میں موجود ہوتا ہے۔ Sundae اس آپریٹنگ تصویر کو ایک جگہ پر لاتا ہے تاکہ ٹیمیں موجودہ اعداد و شمار، مارکیٹ کے سیاق و سباق، اور مستقبل کی نشانیوں کے ساتھ فیصلے کر سکیں۔",
       "stats": [
@@ -1302,8 +1302,8 @@ export const generatedLocalCopy = {
           "label": "ڈیٹا ڈومینز"
         },
         {
-          "value": "3",
-          "label": "فعال ممالک"
+          "value": "22",
+          "label": "زبانیں"
         }
       ],
       "builtTitle": "ہم نے کیا بنایا ہے",
@@ -1515,7 +1515,7 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "metadataTitle": "Sundae के बारे में - रेस्तरां के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
-      "metadataDescription": "Sundae 12+ डेटा स्रोतों को मल्टी-यूनिट रेस्तरां समूहों के लिए एकल इंटेलिजेंस लेयर में एकीकृत करता है। इसे उन ऑपरेटरों द्वारा बनाया गया है जिन्होंने इस समस्या का अनुभव किया है। 3 देशों में सक्रिय।",
+      "metadataDescription": "Sundae 12+ डेटा स्रोतों को मल्टी-यूनिट रेस्तरां समूहों के लिए एकल इंटेलिजेंस लेयर में एकीकृत करता है। इसे उन ऑपरेटरों द्वारा बनाया गया है जिन्होंने इस समस्या का अनुभव किया है। 22 भाषाओं में उपलब्ध।",
       "badge": "Sundae के बारे में",
       "description": "रेस्टोरेंट डेटा आमतौर पर दर्जन भर असंबंधित सिस्टम में होता है। Sundae उस संचालन चित्र को एक जगह लाता है ताकि टीमें वर्तमान आंकड़ों, बाजार संदर्भ और भविष्य की संकेतों के साथ निर्णय ले सकें।",
       "stats": [
@@ -1532,8 +1532,8 @@ export const generatedLocalCopy = {
           "label": "डेटा डोमेन"
         },
         {
-          "value": "3",
-          "label": "सक्रिय देश"
+          "value": "22",
+          "label": "भाषाएँ"
         }
       ],
       "builtTitle": "हमने क्या बनाया है",
@@ -1676,7 +1676,7 @@ export const generatedLocalCopy = {
         {
           "title": "मानक बढ़ाएं",
           "description": "हम चाहते हैं कि रेस्तरां की टीमें अपने डेटा स्टैक से एक और स्थिर डैशबोर्ड से अधिक की उम्मीद करें।",
-          "proof": "3 देशों में सक्रिय, एंटरप्राइज समूह प्लेटफॉर्म-व्यापी अपनाने के साथ।",
+          "proof": "22 भाषाओं में उपलब्ध, एंटरप्राइज समूह प्लेटफॉर्म-व्यापी अपनाने के साथ।",
           "icon": "growth"
         }
       ],
@@ -1745,7 +1745,7 @@ export const generatedLocalCopy = {
     },
     "it": {
       "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per ristoranti",
-      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un unico livello di intelligenza per gruppi di ristoranti multi-unità. Creato da operatori che hanno vissuto il problema. Attivo in 3 paesi.",
+      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un unico livello di intelligenza per gruppi di ristoranti multi-unità. Creato da operatori che hanno vissuto il problema. Localizzato in 22 lingue.",
       "badge": "Informazioni su Sundae",
       "description": "I dati del ristorante di solito risiedono in una dozzina di sistemi disconnessi. Sundae raccoglie quell'immagine operativa in un unico posto, così i team possono prendere decisioni con numeri aggiornati, contesto di mercato e segnali futuri.",
       "stats": [
@@ -1762,8 +1762,8 @@ export const generatedLocalCopy = {
           "label": "Domini dei Dati"
         },
         {
-          "value": "3",
-          "label": "Paesi Attivi"
+          "value": "22",
+          "label": "Lingue"
         }
       ],
       "builtTitle": "Cosa Abbiamo Costruito",
@@ -1906,7 +1906,7 @@ export const generatedLocalCopy = {
         {
           "title": "Alza il Livello",
           "description": "Vogliamo che i team dei ristoranti si aspettino di più dal loro stack di dati rispetto a un altro dashboard statico.",
-          "proof": "Attivo in 3 paesi con gruppi enterprise che adottano la piattaforma a livello globale.",
+          "proof": "Localizzato in 22 lingue, con gruppi enterprise che adottano la piattaforma a livello globale.",
           "icon": "growth"
         }
       ],
@@ -1930,7 +1930,7 @@ export const generatedLocalCopy = {
     },
     "pl": {
       "metadataTitle": "O Sundae - Platforma Inteligencji Decyzyjnej dla Restauracji",
-      "metadataDescription": "Sundae łączy 12+ źródeł danych w jedną warstwę inteligencji dla grup restauracyjnych z wieloma lokalizacjami. Stworzony przez operatorów, którzy doświadczyli tego problemu. Działa w 3 krajach.",
+      "metadataDescription": "Sundae łączy 12+ źródeł danych w jedną warstwę inteligencji dla grup restauracyjnych z wieloma lokalizacjami. Stworzony przez operatorów, którzy doświadczyli tego problemu. Zlokalizowana w 22 językach.",
       "badge": "O Sundae",
       "description": "Dane restauracyjne zazwyczaj znajdują się w kilkunastu odłączonych systemach. Sundae łączy te informacje w jednym miejscu, aby zespoły mogły podejmować decyzje na podstawie aktualnych danych, kontekstu rynkowego i sygnałów przyszłości.",
       "stats": [
@@ -1947,8 +1947,8 @@ export const generatedLocalCopy = {
           "label": "Obszary danych"
         },
         {
-          "value": "3",
-          "label": "Kraje aktywne"
+          "value": "22",
+          "label": "Języki"
         }
       ],
       "builtTitle": "Co Zbudowaliśmy",
@@ -2091,7 +2091,7 @@ export const generatedLocalCopy = {
         {
           "title": "Podnieś Standard",
           "description": "Chcemy, aby zespoły restauracyjne oczekiwały więcej od swojego stosu danych niż tylko kolejnego statycznego pulpitu nawigacyjnego.",
-          "proof": "Aktywni w 3 krajach z grupami korporacyjnymi przyjmującymi platformę na szeroką skalę.",
+          "proof": "Zlokalizowana w 22 językach, z grupami korporacyjnymi przyjmującymi platformę na szeroką skalę.",
           "icon": "growth"
         }
       ],
@@ -2115,7 +2115,7 @@ export const generatedLocalCopy = {
     },
     "tr": {
       "metadataTitle": "Sundae Hakkında - Restoranlar için Karar Zeka Platformu",
-      "metadataDescription": "Sundae, çoklu birim restoran grupları için 12'den fazla veri kaynağını tek bir zeka katmanında birleştirir. Sorunu yaşayan operatörler tarafından geliştirildi. 3 ülkede aktiftir.",
+      "metadataDescription": "Sundae, çoklu birim restoran grupları için 12'den fazla veri kaynağını tek bir zeka katmanında birleştirir. Sorunu yaşayan operatörler tarafından geliştirildi. 22 dilde yerelleştirildi.",
       "badge": "Sundae Hakkında",
       "description": "Restoran verileri genellikle bir düzine bağlantısız sistemde bulunur. Sundae, bu işletme resmini tek bir yerde toplar, böylece ekipler güncel rakamlar, piyasa bağlamı ve geleceğe yönelik sinyallerle kararlar alabilir.",
       "stats": [
@@ -2132,8 +2132,8 @@ export const generatedLocalCopy = {
           "label": "Veri Alanları"
         },
         {
-          "value": "3",
-          "label": "Faaliyet Gösterilen Ülkeler"
+          "value": "22",
+          "label": "Diller"
         }
       ],
       "builtTitle": "Ne Yaptık",
@@ -2345,7 +2345,7 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "metadataTitle": "关于Sundae - 餐厅决策智能平台",
-      "metadataDescription": "Sundae 将 12 个以上的数据源统一为一个多单位餐饮集团的智能层。由经历过这一问题的运营商构建。活跃于 3 个国家。",
+      "metadataDescription": "Sundae 将 12 个以上的数据源统一为一个多单位餐饮集团的智能层。由经历过这一问题的运营商构建。已本地化为 22 种语言。",
       "badge": "关于Sundae",
       "description": "餐厅数据通常分散在十几个不相连的系统中。Sundae 将这些运营信息集中到一个地方，以便团队能够根据当前数据、市场背景和前瞻性信号做出决策。",
       "stats": [
@@ -2362,8 +2362,8 @@ export const generatedLocalCopy = {
           "label": "数据领域"
         },
         {
-          "value": "3",
-          "label": "活跃国家"
+          "value": "22",
+          "label": "语言"
         }
       ],
       "builtTitle": "我们所构建的",
@@ -2506,7 +2506,7 @@ export const generatedLocalCopy = {
         {
           "title": "提升标准",
           "description": "我们希望餐厅团队对他们的数据堆栈有更高的期望，而不仅仅是另一个静态仪表板。",
-          "proof": "在3个国家活跃，企业集团正在全平台采用。",
+          "proof": "已本地化为 22 种语言，企业集团正在全平台采用。",
           "icon": "growth"
         }
       ],
@@ -2575,7 +2575,7 @@ export const generatedLocalCopy = {
     },
     "ja": {
       "metadataTitle": "Sundaeについて - レストラン向けの意思決定インテリジェンスプラットフォーム",
-      "metadataDescription": "Sundaeは、12以上のデータソースを統合し、マルチユニットレストラングループ向けの単一のインテリジェンスレイヤーを提供します。問題を経験したオペレーターによって構築されました。3か国で展開中です。",
+      "metadataDescription": "Sundaeは、12以上のデータソースを統合し、マルチユニットレストラングループ向けの単一のインテリジェンスレイヤーを提供します。問題を経験したオペレーターによって構築されました。22言語にローカライズ済み。",
       "badge": "Sundaeについて",
       "description": "レストランデータは通常、数多くの切り離されたシステムに存在します。Sundaeは、その運営状況を一つの場所に集約し、チームが最新の数字、市場の文脈、将来のシグナルをもとに意思決定できるようにします。",
       "stats": [
@@ -2592,8 +2592,8 @@ export const generatedLocalCopy = {
           "label": "データドメイン"
         },
         {
-          "value": "3",
-          "label": "稼働国"
+          "value": "22",
+          "label": "対応言語"
         }
       ],
       "builtTitle": "私たちが構築したもの",
@@ -2805,7 +2805,7 @@ export const generatedLocalCopy = {
     },
     "id": {
       "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
-      "metadataDescription": "Sundae menggabungkan 12+ sumber data menjadi satu lapisan intelijen untuk grup restoran multi-unit. Dibangun oleh operator yang mengalami masalah tersebut. Aktif di 3 negara.",
+      "metadataDescription": "Sundae menggabungkan 12+ sumber data menjadi satu lapisan intelijen untuk grup restoran multi-unit. Dibangun oleh operator yang mengalami masalah tersebut. Dilokalkan dalam 22 bahasa.",
       "badge": "Tentang Sundae",
       "description": "Data restoran biasanya tersebar di berbagai sistem yang tidak terhubung. Sundae mengumpulkan informasi tersebut ke dalam satu tempat sehingga tim dapat membuat keputusan dengan angka terkini, konteks pasar, dan sinyal yang mengarah ke depan.",
       "stats": [
@@ -2822,8 +2822,8 @@ export const generatedLocalCopy = {
           "label": "Domain Data"
         },
         {
-          "value": "3",
-          "label": "Negara Aktif"
+          "value": "22",
+          "label": "Bahasa"
         }
       ],
       "builtTitle": "Apa yang Telah Kami Bangun",
@@ -3035,7 +3035,7 @@ export const generatedLocalCopy = {
     },
     "vi": {
       "metadataTitle": "Giới thiệu về Sundae - Nền tảng Trí tuệ Quyết định cho Nhà hàng",
-      "metadataDescription": "Sundae hợp nhất hơn 12 nguồn dữ liệu thành một lớp trí tuệ duy nhất cho các nhóm nhà hàng đa đơn vị. Được xây dựng bởi những người điều hành đã trải qua vấn đề này. Hoạt động tại 3 quốc gia.",
+      "metadataDescription": "Sundae hợp nhất hơn 12 nguồn dữ liệu thành một lớp trí tuệ duy nhất cho các nhóm nhà hàng đa đơn vị. Được xây dựng bởi những người điều hành đã trải qua vấn đề này. Được bản địa hóa bằng 22 ngôn ngữ.",
       "badge": "Về Sundae",
       "description": "Dữ liệu nhà hàng thường nằm rải rác trong nhiều hệ thống không liên kết. Sundae tập hợp bức tranh hoạt động đó vào một nơi để các nhóm có thể đưa ra quyết định dựa trên số liệu hiện tại, bối cảnh thị trường và các tín hiệu dự báo.",
       "stats": [
@@ -3052,8 +3052,8 @@ export const generatedLocalCopy = {
           "label": "Miền Dữ liệu"
         },
         {
-          "value": "3",
-          "label": "Quốc gia Hoạt động"
+          "value": "22",
+          "label": "Ngôn ngữ"
         }
       ],
       "builtTitle": "Những gì chúng tôi đã xây dựng",
@@ -3265,7 +3265,7 @@ export const generatedLocalCopy = {
     },
     "ko": {
       "metadataTitle": "Sundae - 레스토랑을 위한 의사결정 인텔리전스 플랫폼",
-      "metadataDescription": "Sundae는 12개 이상의 데이터 소스를 통합하여 다중 단위 레스토랑 그룹을 위한 단일 인텔리전스 레이어를 제공합니다. 문제를 경험한 운영자들이 만든 솔루션입니다. 3개국에서 활발히 운영되고 있습니다.",
+      "metadataDescription": "Sundae는 12개 이상의 데이터 소스를 통합하여 다중 단위 레스토랑 그룹을 위한 단일 인텔리전스 레이어를 제공합니다. 문제를 경험한 운영자들이 만든 솔루션입니다. 22개 언어로 현지화되었습니다.",
       "badge": "Sundae에 대하여",
       "description": "레스토랑 데이터는 보통 여러 개의 분리된 시스템에 존재합니다. Sundae는 이러한 운영 정보를 한 곳으로 모아 팀이 현재 수치, 시장 맥락 및 미래 신호를 기반으로 의사 결정을 할 수 있도록 합니다.",
       "stats": [
@@ -3282,8 +3282,8 @@ export const generatedLocalCopy = {
           "label": "데이터 도메인"
         },
         {
-          "value": "3",
-          "label": "활성 국가"
+          "value": "22",
+          "label": "지원 언어"
         }
       ],
       "builtTitle": "우리가 만든 것",
@@ -3495,7 +3495,7 @@ export const generatedLocalCopy = {
     },
     "ro": {
       "metadataTitle": "Despre Sundae - Platforma de Inteligență Decizională pentru Restaurante",
-      "metadataDescription": "Sundae unifică peste 12 surse de date într-un singur strat de inteligență pentru grupuri de restaurante multi-unitate. Creat de operatori care au trăit problema. Activ în 3 țări.",
+      "metadataDescription": "Sundae unifică peste 12 surse de date într-un singur strat de inteligență pentru grupuri de restaurante multi-unitate. Creat de operatori care au trăit problema. Localizat în 22 de limbi.",
       "badge": "Despre Sundae",
       "description": "Datele restaurantului trăiesc de obicei în zeci de sisteme deconectate. Sundae adună această imagine operațională într-un singur loc, astfel încât echipele să poată lua decizii bazate pe cifre actuale, context de piață și semnale viitoare.",
       "stats": [
@@ -3512,8 +3512,8 @@ export const generatedLocalCopy = {
           "label": "Domenii de date"
         },
         {
-          "value": "3",
-          "label": "Țări active"
+          "value": "22",
+          "label": "Limbi"
         }
       ],
       "builtTitle": "Ce am construit",
@@ -3656,7 +3656,7 @@ export const generatedLocalCopy = {
         {
           "title": "Ridică Standardul",
           "description": "Vrem ca echipele de restaurante să se aștepte la mai mult de la stiva lor de date decât la un alt tablou de bord static.",
-          "proof": "Activ în 3 țări cu grupuri de întreprindere care adoptă platforma la scară largă.",
+          "proof": "Localizat în 22 de limbi, cu grupuri de întreprindere care adoptă platforma la scară largă.",
           "icon": "growth"
         }
       ],
@@ -3680,7 +3680,7 @@ export const generatedLocalCopy = {
     },
     "sv": {
       "metadataTitle": "Om Sundae - Plattformen för Beslutsintelligens för Restauranger",
-      "metadataDescription": "Sundae förenar 12+ datakällor i ett enda intelligenslager för fleranläggningsrestauranggrupper. Byggt av operatörer som har upplevt problemet. Aktiv i 3 länder.",
+      "metadataDescription": "Sundae förenar 12+ datakällor i ett enda intelligenslager för fleranläggningsrestauranggrupper. Byggt av operatörer som har upplevt problemet. Lokaliserad på 22 språk.",
       "badge": "Om Sundae",
       "description": "Restaurangdata finns vanligtvis i ett dussin avskilda system. Sundae samlar den operativa bilden på ett ställe så att team kan fatta beslut med aktuella siffror, marknadskontext och framtidsinriktade signaler.",
       "stats": [
@@ -3697,8 +3697,8 @@ export const generatedLocalCopy = {
           "label": "Datadomäner"
         },
         {
-          "value": "3",
-          "label": "Aktiva länder"
+          "value": "22",
+          "label": "Språk"
         }
       ],
       "builtTitle": "Vad vi har byggt",
@@ -3841,7 +3841,7 @@ export const generatedLocalCopy = {
         {
           "title": "Höj Standarden",
           "description": "Vi vill att restaurangteam ska förvänta sig mer av sin datastack än bara en annan statisk instrumentpanel.",
-          "proof": "Aktiv i 3 länder med företagsgrupper som antar plattformen brett.",
+          "proof": "Lokaliserad på 22 språk, med företagsgrupper som antar plattformen brett.",
           "icon": "growth"
         }
       ],
@@ -3910,7 +3910,7 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "metadataTitle": "Sundae সম্পর্কে - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
-      "metadataDescription": "Sundae 12+ ডেটা সোর্সকে একক বুদ্ধিমত্তা স্তরে একত্রিত করে বহু ইউনিট রেস্তোরাঁ গ্রুপের জন্য। যারা সমস্যাটি অনুভব করেছেন তাদের দ্বারা নির্মিত। ৩টি দেশে সক্রিয়।",
+      "metadataDescription": "Sundae 12+ ডেটা সোর্সকে একক বুদ্ধিমত্তা স্তরে একত্রিত করে বহু ইউনিট রেস্তোরাঁ গ্রুপের জন্য। যারা সমস্যাটি অনুভব করেছেন তাদের দ্বারা নির্মিত। ২২টি ভাষায় স্থানীয়কৃত।",
       "badge": "Sundae সম্পর্কে",
       "description": "রেস্টুরেন্টের তথ্য সাধারণত এক ডজন বিচ্ছিন্ন সিস্টেমে থাকে। Sundae সেই কার্যকরী চিত্রটিকে এক জায়গায় নিয়ে আসে যাতে দলগুলি বর্তমান সংখ্যা, বাজারের প্রেক্ষাপট এবং ভবিষ্যত সংকেতের সাথে সিদ্ধান্ত নিতে পারে।",
       "stats": [
@@ -3927,8 +3927,8 @@ export const generatedLocalCopy = {
           "label": "ডেটা ডোমেইন"
         },
         {
-          "value": "3",
-          "label": "সক্রিয় দেশ"
+          "value": "22",
+          "label": "ভাষা"
         }
       ],
       "builtTitle": "আমরা কী তৈরি করেছি",
@@ -4071,7 +4071,7 @@ export const generatedLocalCopy = {
         {
           "title": "মান বাড়ান",
           "description": "আমরা চাই রেস্তোরাঁর দলগুলি তাদের তথ্য স্ট্যাক থেকে আরও কিছু আশা করুক, আরেকটি স্থির ড্যাশবোর্ডের চেয়ে।",
-          "proof": "৩টি দেশে সক্রিয়, যেখানে এন্টারপ্রাইজ গ্রুপগুলি প্ল্যাটফর্ম-ব্যাপী গ্রহণ করছে।",
+          "proof": "২২টি ভাষায় স্থানীয়কৃত, যেখানে এন্টারপ্রাইজ গ্রুপগুলি প্ল্যাটফর্ম-ব্যাপী গ্রহণ করছে।",
           "icon": "growth"
         }
       ],
@@ -4140,7 +4140,7 @@ export const generatedLocalCopy = {
     },
     "th": {
       "metadataTitle": "เกี่ยวกับ Sundae - แพลตฟอร์มการตัดสินใจอัจฉริยะสำหรับร้านอาหาร",
-      "metadataDescription": "Sundae รวมแหล่งข้อมูลกว่า 12 แหล่งเข้าด้วยกันเป็นชั้นข้อมูลอัจฉริยะเดียวสำหรับกลุ่มร้านอาหารหลายแห่ง สร้างขึ้นโดยผู้ดำเนินการที่เคยเผชิญปัญหานี้ ทำงานอยู่ใน 3 ประเทศ",
+      "metadataDescription": "Sundae รวมแหล่งข้อมูลกว่า 12 แหล่งเข้าด้วยกันเป็นชั้นข้อมูลอัจฉริยะเดียวสำหรับกลุ่มร้านอาหารหลายแห่ง สร้างขึ้นโดยผู้ดำเนินการที่เคยเผชิญปัญหานี้ รองรับ 22 ภาษา",
       "badge": "เกี่ยวกับ Sundae",
       "description": "ข้อมูลร้านอาหารมักจะอยู่ในระบบที่ไม่เชื่อมต่อกันหลายสิบระบบ Sundae จึงรวบรวมภาพรวมการดำเนินงานไว้ในที่เดียว เพื่อให้ทีมสามารถตัดสินใจได้ด้วยข้อมูลที่ทันสมัย บริบทของตลาด และสัญญาณที่มองไปข้างหน้า.",
       "stats": [
@@ -4157,8 +4157,8 @@ export const generatedLocalCopy = {
           "label": "โดเมนข้อมูล"
         },
         {
-          "value": "3",
-          "label": "ประเทศที่ใช้งาน"
+          "value": "22",
+          "label": "ภาษา"
         }
       ],
       "builtTitle": "สิ่งที่เราสร้างขึ้น",
@@ -4301,7 +4301,7 @@ export const generatedLocalCopy = {
         {
           "title": "ยกระดับมาตรฐาน",
           "description": "เราต้องการให้ทีมร้านอาหารคาดหวังจากชุดข้อมูลของพวกเขามากกว่าแดชบอร์ดแบบคงที่อีกอันหนึ่ง",
-          "proof": "ดำเนินการใน 3 ประเทศโดยกลุ่มองค์กรที่นำแพลตฟอร์มไปใช้ทั่วทั้งองค์กร",
+          "proof": "รองรับ 22 ภาษา โดยกลุ่มองค์กรที่นำแพลตฟอร์มไปใช้ทั่วทั้งองค์กร",
           "icon": "growth"
         }
       ],
@@ -4370,7 +4370,7 @@ export const generatedLocalCopy = {
     },
     "ms": {
       "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
-      "metadataDescription": "Sundae menyatukan 12+ sumber data ke dalam satu lapisan kecerdasan untuk kumpulan restoran berbilang unit. Dibina oleh pengendali yang mengalami masalah tersebut. Aktif di 3 negara.",
+      "metadataDescription": "Sundae menyatukan 12+ sumber data ke dalam satu lapisan kecerdasan untuk kumpulan restoran berbilang unit. Dibina oleh pengendali yang mengalami masalah tersebut. Disetempatkan dalam 22 bahasa.",
       "badge": "Tentang Sundae",
       "description": "Data restoran biasanya berada dalam beberapa sistem yang tidak berkaitan. Sundae mengumpulkan gambaran operasi itu ke dalam satu tempat supaya pasukan dapat membuat keputusan dengan angka terkini, konteks pasaran, dan isyarat yang menjangkau masa depan.",
       "stats": [
@@ -4387,8 +4387,8 @@ export const generatedLocalCopy = {
           "label": "Domain Data"
         },
         {
-          "value": "3",
-          "label": "Negara Aktif"
+          "value": "22",
+          "label": "Bahasa"
         }
       ],
       "builtTitle": "Apa yang Kami Telah Bina",
