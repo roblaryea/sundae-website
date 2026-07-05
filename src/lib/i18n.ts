@@ -2908,11 +2908,18 @@ function mergeDeep<T>(base: T, override?: DeepPartial<T>): T {
 }
 
 export function getWebsiteMessages(locale: WebsiteLocale): WebsiteMessages {
-  const sourceMessages =
+  // Uniform fallback for EVERY locale: English base < hand-authored locale tree < generated override.
+  // Previously the hand-authored locales (ar/fr/es) were served RAW, so any key added to `en` but not
+  // back-filled into those trees rendered `undefined` (blank) instead of falling back to English, and
+  // their generated overrides were never applied. Merging over `en` for all locales makes new EN keys
+  // degrade to English everywhere and lets the shared override packs localize ar/fr/es too.
+  const base = websiteMessages.en as unknown as WebsiteMessagesBase
+  const localeTree =
     locale in websiteMessages
-      ? websiteMessages[locale as keyof typeof websiteMessages]
-      : mergeDeep(websiteMessages.en as unknown as WebsiteMessagesBase, expandedLocaleOverridesByLocale[locale])
-  const messages = sourceMessages as WebsiteMessagesBase
+      ? (websiteMessages[locale as keyof typeof websiteMessages] as unknown as DeepPartial<WebsiteMessagesBase>)
+      : undefined
+  const withLocale = mergeDeep(base, localeTree)
+  const messages = mergeDeep(withLocale, expandedLocaleOverridesByLocale[locale]) as WebsiteMessagesBase
   return {
     ...messages,
     pages: messages.home.pages,
