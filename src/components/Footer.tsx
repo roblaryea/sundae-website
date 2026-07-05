@@ -203,7 +203,7 @@ const Footer = () => {
               </svg>
             </button>
             <div className={openSections.has('product') ? 'block' : 'hidden md:block'}>
-            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-faint)] mb-2">Core</p>
+            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-2">Core</p>
             <ul className="space-y-2">
               {pillarLinks.map((link) => (
                 <li key={link.name}>
@@ -214,7 +214,7 @@ const Footer = () => {
               ))}
             </ul>
             <div className="border-t border-[var(--border-default)] my-3"></div>
-            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-faint)] mb-2">Sundae Crew</p>
+            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-2">Sundae Crew</p>
             <ul className="space-y-2">
               {crewLinks.map((link) => (
                 <li key={link.name}>

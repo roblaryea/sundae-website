@@ -14,7 +14,7 @@ import { aboutCreamCopy } from './aboutCreamCopy'
 const aboutCopy = {
   en: {
     metadataTitle: "About Sundae - The Decision Intelligence Platform for Restaurants",
-    metadataDescription: "Sundae unifies 12+ data sources into a single intelligence layer for multi-unit restaurant groups. Built by operators who lived the problem. Active across 3 countries.",
+    metadataDescription: "Sundae unifies 12+ data sources into a single intelligence layer for multi-unit restaurant groups. Built by operators who lived the problem. Localized in 22 languages.",
     badge: "About Sundae",
     title: 'The Intelligence Layer Restaurants Never Had',
     description: "Restaurant data usually lives in a dozen disconnected systems. Sundae pulls that operating picture into one place so teams can make decisions with current numbers, market context, and forward-looking signals.",
@@ -22,7 +22,7 @@ const aboutCopy = {
       { value: "6", label: "Platform Pillars" },
       { value: "12", label: "Intelligence Modules" },
       { value: "12", label: "Data Domains" },
-      { value: "3", label: "Countries Active" },
+      { value: "22", label: "Languages" },
     ],
     builtTitle: "What We've Built",
     builtDescription: "Six connected layers that help operators move from real-time pacing to 90-day forecasts without jumping between systems.",
@@ -69,7 +69,7 @@ const aboutCopy = {
       { title: "Operators First", description: "Every feature exists because an operator needed it. We don't build for demos - we build for shifts.", proof: "Built by a team that scaled restaurants to $10M+ before writing a line of code.", icon: "owners" },
       { title: "Intelligence First", description: "Scattered data is expensive. We turn 12 systems into one intelligent layer that actually drives decisions.", proof: "12 modules across 12 operational domains - from revenue to reservations.", icon: "insights" },
       { title: "Real-Time Decisions", description: "Weekly reports cost you money. The operators who win are the ones who see problems while they can still fix them.", proof: "Pulse refreshes every 5 minutes across every location.", icon: "speed" },
-      { title: "Raise the Standard", description: "We want restaurant teams to expect more from their data stack than another static dashboard.", proof: "Active across 3 countries with enterprise groups adopting platform-wide.", icon: "growth" },
+      { title: "Raise the Standard", description: "We want restaurant teams to expect more from their data stack than another static dashboard.", proof: "Localized in 22 languages, with enterprise groups adopting platform-wide.", icon: "growth" },
     ],
     presenceSubheadings: {
       active: "Active markets",
@@ -90,7 +90,7 @@ const aboutCopy = {
   },
   ar: {
     metadataTitle: "حول Sundae - منصة ذكاء القرار للمطاعم",
-    metadataDescription: "توحّد Sundae أكثر من 12 مصدر بيانات في منصة قرار واحدة لمجموعات المطاعم متعددة الفروع. بُنيت على يد مشغلين عاشوا المشكلة. نشطة في 3 دول.",
+    metadataDescription: "توحّد Sundae أكثر من 12 مصدر بيانات في منصة قرار واحدة لمجموعات المطاعم متعددة الفروع. بُنيت على يد مشغلين عاشوا المشكلة. متوفّرة بـ 22 لغة.",
     badge: "حول Sundae",
     title: <>منصة قرار موحدة<br />للمطاعم متعددة الفروع</>,
     description: "بياناتك موزعة عبر أكثر من 12 نظامًا منفصلًا، بينما يتخذ فريقك قرارات كبيرة كل يوم. تجمع Sundae هذه الصورة في مكان واحد حتى تعتمد القرارات على بيانات لحظية وسياق سوقي وتوقعات أوضح.",
@@ -98,7 +98,7 @@ const aboutCopy = {
       { value: "6", label: "دعائم المنصة" },
       { value: "12", label: "وحدات الذكاء" },
       { value: "12", label: "مجالات البيانات" },
-      { value: "3", label: "دول نشطة" },
+      { value: "22", label: "اللغات" },
     ],
     builtTitle: "ما الذي بنيناه",
     builtDescription: "ست طبقات مترابطة تنظّم البيانات اليومية وتحوّلها إلى رؤية عملية، من متابعة الأداء اللحظي إلى توقعات التسعين يومًا.",
@@ -145,7 +145,7 @@ const aboutCopy = {
       { title: "المشغل أولاً", description: "كل ميزة موجودة لأن مشغلًا احتاجها. نحن لا نبني للعروض - نحن نبني للورديات.", proof: "فريق وسّع المطاعم إلى أكثر من 10 ملايين دولار قبل أن يكتب سطرًا واحدًا من الكود.", icon: "owners" },
       { title: "الذكاء أولاً", description: "البيانات المبعثرة مكلفة. نحول 12 نظامًا إلى طبقة ذكية واحدة تدفع القرار فعلًا.", proof: "أكثر من 30 وحدة عبر 12 مجالًا تشغيليًا - من الإيرادات إلى الحجوزات.", icon: "insights" },
       { title: "قرارات لحظية", description: "التقارير الأسبوعية تكلفك مالًا. الفائزون هم من يرون المشاكل قبل أن يصبح إصلاحها مكلفًا.", proof: "Pulse يتحدث كل 5 دقائق عبر كل موقع.", icon: "speed" },
-      { title: "رفع المستوى", description: "نضع معيارًا جديدًا لكيف تتخذ مجموعات المطاعم قراراتها التشغيلية حول العالم.", proof: "نشطون في 3 دول مع اعتماد مؤسسي على مستوى المنصة.", icon: "growth" },
+      { title: "رفع المستوى", description: "نضع معيارًا جديدًا لكيف تتخذ مجموعات المطاعم قراراتها التشغيلية حول العالم.", proof: "متوفّرون بـ 22 لغة مع اعتماد مؤسسي على مستوى المنصة.", icon: "growth" },
     ],
     presenceSubheadings: {
       active: "الأسواق النشطة",
@@ -166,7 +166,7 @@ const aboutCopy = {
   },
   fr: {
     metadataTitle: "À propos de Sundae - La plateforme d'intelligence décisionnelle pour les restaurants",
-    metadataDescription: "Sundae unifie plus de 12 sources de données dans une plateforme de décision pour les groupes multi-sites. Construit par des opérateurs qui ont vécu le problème. Actif dans 3 pays.",
+    metadataDescription: "Sundae unifie plus de 12 sources de données dans une plateforme de décision pour les groupes multi-sites. Construit par des opérateurs qui ont vécu le problème. Localisé en 22 langues.",
     badge: "À propos de Sundae",
     title: <>Une plateforme de décision<br />unifiée pour les restaurants</>,
     description: "Vos données vivent dans plus de 12 systèmes déconnectés, alors que vos équipes prennent des décisions importantes tous les jours. Sundae remet cette vue au même endroit pour que chaque décision s'appuie sur des données temps réel, du contexte marché et une lecture plus claire de la suite.",
@@ -174,7 +174,7 @@ const aboutCopy = {
       { value: "6", label: "Piliers de la plateforme" },
       { value: "12", label: "Modules d'intelligence" },
       { value: "12", label: "Domaines de données" },
-      { value: "3", label: "Pays actifs" },
+      { value: "22", label: "Langues" },
     ],
     builtTitle: "Ce que nous avons construit",
     builtDescription: "Six couches reliées entre elles pour transformer les données du quotidien en lecture exploitable, du pacing en temps réel jusqu'aux prévisions à 90 jours.",
@@ -221,7 +221,7 @@ const aboutCopy = {
       { title: "Opérateurs d'abord", description: "Chaque fonctionnalité existe parce qu'un opérateur en avait besoin. Nous ne construisons pas pour les démos - nous construisons pour les services.", proof: "Construit par une équipe qui a porté des restaurants à plus de 10 M$ avant d'écrire une ligne de code.", icon: "owners" },
       { title: "Intelligence d'abord", description: "Les données dispersées coûtent cher. Nous transformons 12 systèmes en une couche intelligente qui aide vraiment à décider.", proof: "12 modules sur 12 domaines opérationnels - du revenu aux réservations.", icon: "insights" },
       { title: "Décisions temps réel", description: "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent voient les problèmes à temps pour les corriger.", proof: "Pulse se rafraîchit toutes les 5 minutes sur chaque site.", icon: "speed" },
-      { title: "Relever le standard", description: "Nous définissons la référence de la décision opérationnelle pour les groupes restaurant du monde entier.", proof: "Actifs dans 3 pays avec des groupes enterprise qui adoptent la plateforme.", icon: "growth" },
+      { title: "Relever le standard", description: "Nous définissons la référence de la décision opérationnelle pour les groupes restaurant du monde entier.", proof: "Localisé en 22 langues, avec des groupes enterprise qui adoptent la plateforme.", icon: "growth" },
     ],
     presenceSubheadings: {
       active: "Marchés actifs",
@@ -242,7 +242,7 @@ const aboutCopy = {
   },
   es: {
     metadataTitle: "Acerca de Sundae - La plataforma de inteligencia de decisiones para restaurantes",
-    metadataDescription: "Sundae unifica más de 12 fuentes de datos en una plataforma de decisiones para grupos multilocal. Construida por operadores que vivieron el problema. Activa en 3 países.",
+    metadataDescription: "Sundae unifica más de 12 fuentes de datos en una plataforma de decisiones para grupos multilocal. Construida por operadores que vivieron el problema. Localizada en 22 idiomas.",
     badge: "Acerca de Sundae",
     title: <>Una plataforma de decisiones<br />unificada para restaurantes</>,
     description: "Tus datos viven en más de 12 sistemas desconectados y tu equipo toma decisiones importantes todos los días. Sundae reúne esa visión en un solo lugar para que cada decisión se apoye en datos en tiempo real, contexto de mercado y una lectura más clara de lo que viene.",
@@ -250,7 +250,7 @@ const aboutCopy = {
       { value: "6", label: "Pilares de la plataforma" },
       { value: "12", label: "Módulos de inteligencia" },
       { value: "12", label: "Dominios de datos" },
-      { value: "3", label: "Países activos" },
+      { value: "22", label: "Idiomas" },
     ],
     builtTitle: "Lo que hemos construido",
     builtDescription: "Seis capas conectadas entre sí para convertir los datos del día a día en una lectura útil, desde el pacing en tiempo real hasta previsiones a 90 días.",
@@ -297,7 +297,7 @@ const aboutCopy = {
       { title: "Operadores primero", description: "Cada función existe porque un operador la necesitó. No construimos para demos - construimos para los turnos.", proof: "Construido por un equipo que escaló restaurantes a más de 10 M$ antes de escribir una sola línea de código.", icon: "owners" },
       { title: "Inteligencia primero", description: "Los datos dispersos cuestan dinero. Convertimos 12 sistemas en una sola capa inteligente que realmente impulsa decisiones.", proof: "12 módulos en 12 dominios operativos - de ingresos a reservas.", icon: "insights" },
       { title: "Decisiones en tiempo real", description: "Los informes semanales te cuestan dinero. Los operadores que ganan ven los problemas a tiempo para arreglarlos.", proof: "Pulse se refresca cada 5 minutos en todas las ubicaciones.", icon: "speed" },
-      { title: "Subir el estándar", description: "Estamos definiendo cómo los grupos de restaurantes toman decisiones operativas en todo el mundo.", proof: "Activos en 3 países con grupos enterprise adoptando la plataforma completa.", icon: "growth" },
+      { title: "Subir el estándar", description: "Estamos definiendo cómo los grupos de restaurantes toman decisiones operativas en todo el mundo.", proof: "Localizado en 22 idiomas, con grupos enterprise adoptando la plataforma completa.", icon: "growth" },
     ],
     presenceSubheadings: {
       active: "Mercados activos",

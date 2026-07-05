@@ -7,6 +7,14 @@ const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sund
 const nextConfig: NextConfig = {
   reactCompiler: true,
   poweredByHeader: false,
+  // Tree-shake the two barrel libraries imported across almost every route
+  // bundle. framer-motion (via PageAnimations) and lucide-react ship large
+  // index barrels; optimizePackageImports rewrites them to per-export deep
+  // imports so each route only pays for what it uses, trimming the shared
+  // client chunk loaded on first paint. (3D libs are already dynamic()-split.)
+  experimental: {
+    optimizePackageImports: ["framer-motion", "lucide-react"],
+  },
   // Hide the Next.js dev indicator (the circular "N" bottom-left) - it overlapped
   // content during mobile review. Dev-only; never shipped to production anyway.
   devIndicators: false,

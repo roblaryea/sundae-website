@@ -122,10 +122,21 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
   },
 };
 
+// Title-case minor words that stay lowercase mid-phrase by convention, so an
+// unlabeled slug like `report-vs-core` renders "Report vs Core" (not "Report Vs
+// Core"). Root-cause fix for the whole class - any current/future "-vs-"/"-and-"
+// slug without an explicit LABEL_MAP entry is formatted correctly.
+const MINOR_SEGMENT_WORDS = new Set([
+  'vs', 'and', 'or', 'the', 'a', 'an', 'of', 'to', 'for', 'per', 'by', 'with', 'at', 'in', 'on', 'via',
+]);
+
 function formatSegment(segment: string, labels: Record<string, string>): string {
-  return labels[segment] || segment
+  if (labels[segment]) return labels[segment];
+  return segment
     .split('-')
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .map((w, i) =>
+      i > 0 && MINOR_SEGMENT_WORDS.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1),
+    )
     .join(' ');
 }
 
