@@ -86,7 +86,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/solutions/multi-location-groups"
         },
         {
-          "name": "Franchises",
+          "name": "Franchise-Betriebe",
           "href": "/solutions/franchises"
         },
         {
@@ -144,6 +144,35 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Kostenlose Tools & Rechner",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Crew im Detail entdecken →",
+      "viewPricing": "Alle Preise ansehen →",
+      "crewList": [
+        {
+          "name": "Dienstplanung",
+          "description": "Bedarfsgerechte Schichtplanung",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Zeiterfassung",
+          "description": "Stempeln, Geofencing, Stundenzettel",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Lohnabrechnung",
+          "description": "Länderübergreifend bereit & exportfertig",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Personal & HR",
+          "description": "Personalakte vom Eintritt bis Austritt",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Personalanalysen",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -888,6 +917,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "Gratis Tools & Calculators",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Ontdek alles van Crew →",
+      "viewPricing": "Bekijk alle prijzen →",
+      "crewList": [
+        {
+          "name": "Roosteren",
+          "description": "Roosteren op basis van vraag",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Tijd & aanwezigheid",
+          "description": "Inklokken, geofence, urenstaten",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Salarisadministratie",
+          "description": "Klaar voor meerdere landen & exports",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Personeel & HR",
+          "description": "Personeelsdossiers van indienst- tot uitdiensttreding",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Personeelsanalyses",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -1189,7 +1247,7 @@ export const generatedWebsiteMessageOverrides = {
         "tableHeaders": [
           "Bediening",
           "Verkoop",
-          "Upsell %",
+          "Upsell-%",
           "Gem. Check"
         ],
         "tableRows": [
@@ -1624,12 +1682,41 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/resources"
         },
         {
-          "name": "FAQ",
+          "name": "Perguntas frequentes",
           "href": "/faq"
         },
         {
           "name": "Ferramentas & Calculadoras Gratuitas",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Conheça todo o Crew →",
+      "viewPricing": "Ver todos os preços →",
+      "crewList": [
+        {
+          "name": "Escalas",
+          "description": "Escalas conforme a demanda",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Ponto e presença",
+          "description": "Registro de ponto, geolocalização, folhas de horas",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Folha de pagamento",
+          "description": "Conformidade multirregião e exportações",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Pessoas e RH",
+          "description": "Histórico da admissão ao desligamento",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Análise da equipe",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -2083,7 +2170,7 @@ export const generatedWebsiteMessageOverrides = {
           "savePercent": "Economize 10%",
           "reportBadge": "Sundae Report - Análise Histórica & Benchmarking",
           "coreBadge": "Sundae Core - Operações em Tempo Real & Inteligência Preditiva",
-          "enterpriseBadge": "Enterprise",
+          "enterpriseBadge": "Empresas",
           "enterpriseTitle": "Preços Personalizados para Grandes Operações",
           "enterpriseDescription": "Para grupos multi-localização que precisam de marca branca, SSO, SLAs personalizados e suporte dedicado. 50.000+ créditos de inteligência incluídos.",
           "addOnsTitle": "Complementos",
@@ -2120,7 +2207,7 @@ export const generatedWebsiteMessageOverrides = {
             "Recursos & Capacidades",
             "Suporte & Treinamento",
             "Segurança & Conformidade",
-            "Enterprise",
+            "Empresas",
             "Perguntas de Comparação",
             "Casos de Uso Específicos"
           ]
@@ -2373,6 +2460,35 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "मुफ्त उपकरण और कैलकुलेटर",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Crew की सभी सुविधाएँ देखें →",
+      "viewPricing": "पूरी कीमतें देखें →",
+      "crewList": [
+        {
+          "name": "शेड्यूलिंग",
+          "description": "माँग के अनुसार शिफ्ट प्लानिंग",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "समय & उपस्थिति",
+          "description": "क्लॉक-इन, जियोफ़ेंस, टाइमशीट",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "पेरोल",
+          "description": "कई देशों के लिए तैयारी & एक्सपोर्ट",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "स्टाफ़ & HR",
+          "description": "भर्ती से रिटायरमेंट तक के रिकॉर्ड",
+          "href": "/crew/people"
+        },
+        {
+          "name": "पीपल इंटेलिजेंस",
+          "description": "वर्कफ़ोर्स एनालिटिक्स",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -3117,6 +3233,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "مفت ٹولز اور کیلکولیٹرز",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Crew کی تمام خصوصیات دیکھیں →",
+      "viewPricing": "مکمل قیمتیں دیکھیں →",
+      "crewList": [
+        {
+          "name": "شیڈولنگ",
+          "description": "طلب کے مطابق شفٹ پلاننگ",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "وقت & حاضری",
+          "description": "کلاک اِن، جیو فینس، ٹائم شیٹس",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "پے رول",
+          "description": "کئی خطوں کے لیے تیاری & ایکسپورٹس",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "عملہ & HR",
+          "description": "بھرتی سے ریٹائرمنٹ تک کا ریکارڈ",
+          "href": "/crew/people"
+        },
+        {
+          "name": "پیپل انٹیلی جنس",
+          "description": "افرادی قوت کے تجزیات",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -3860,6 +4005,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "Strumenti e Calcolatori Gratuiti",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Scopri tutto Crew →",
+      "viewPricing": "Vedi tutti i prezzi →",
+      "crewList": [
+        {
+          "name": "Turni",
+          "description": "Pianificazione turni in base alla domanda",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Rilevazione presenze",
+          "description": "Timbrature, geolocalizzazione, fogli ore",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Buste paga",
+          "description": "Conformità multi-paese ed esportazioni",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Personale e HR",
+          "description": "Anagrafica dall'assunzione all'uscita",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Analisi del personale",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -4204,7 +4378,7 @@ export const generatedWebsiteMessageOverrides = {
           "ssoGoogle": "Continua con Google",
           "ssoMicrosoft": "Continua con Microsoft",
           "or": "o",
-          "emailLabel": "Email",
+          "emailLabel": "E-mail",
           "emailPlaceholder": "tu@azienda.com",
           "passwordLabel": "Password",
           "passwordPlaceholder": "Inserisci la tua password",
@@ -4415,7 +4589,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "domainsTitle": "12 Domini Dati. Una Vista Unificata.",
           "domainsDescription": "POS, lavoro, inventario, acquisti, prenotazioni, consegne, marketing, esperienza ospite, CRM, contabilità e riepiloghi delle vendite giornaliere - tutto connesso.",
-          "live": "Live",
+          "live": "In diretta",
           "upcoming": "In arrivo",
           "liveNow": "Live - disponibile ora",
           "roadmap": "In arrivo - nella nostra roadmap",
@@ -4602,6 +4776,35 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Darmowe narzędzia i kalkulatory",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Poznaj cały moduł Crew →",
+      "viewPricing": "Zobacz pełny cennik →",
+      "crewList": [
+        {
+          "name": "Grafiki",
+          "description": "Planowanie zmian według zapotrzebowania",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Czas pracy i obecność",
+          "description": "Odbicia, geofencing, karty czasu pracy",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Płace",
+          "description": "Gotowość wielokrajowa i eksporty",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Ludzie i HR",
+          "description": "Dane pracownika od zatrudnienia po odejście",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Analityka kadrowa",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -5346,6 +5549,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "Ücretsiz Araçlar & Hesaplayıcılar",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Crew'in tamamını keşfedin →",
+      "viewPricing": "Tüm fiyatları görün →",
+      "crewList": [
+        {
+          "name": "Vardiya Planlama",
+          "description": "Talebe duyarlı vardiya planlaması",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Zaman ve Devam Takibi",
+          "description": "Giriş kaydı, coğrafi sınır, mesai çizelgeleri",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Bordro",
+          "description": "Çok bölgeli hazırlık ve dışa aktarımlar",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "İnsan Kaynakları & HR",
+          "description": "İşe alımdan ayrılışa kadar personel kayıtları",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "İş gücü analitiği",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -6089,6 +6321,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "免费工具与计算器",
           "href": "/tools"
         }
+      ],
+      "crewAll": "探索完整 Crew →",
+      "viewPricing": "查看完整定价 →",
+      "crewList": [
+        {
+          "name": "排班",
+          "description": "客流预测驱动的班次规划",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "考勤打卡",
+          "description": "打卡、地理围栏、工时表",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "薪资发放",
+          "description": "多地区合规就绪与导出",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "人员与 HR",
+          "description": "全周期员工档案",
+          "href": "/crew/people"
+        },
+        {
+          "name": "人才智能",
+          "description": "劳动力分析",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -6825,12 +7086,41 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/resources"
         },
         {
-          "name": "FAQ",
+          "name": "よくある質問",
           "href": "/faq"
         },
         {
           "name": "無料ツールと計算機",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Crew のすべてを見る →",
+      "viewPricing": "料金プランをすべて見る →",
+      "crewList": [
+        {
+          "name": "シフト作成",
+          "description": "需要予測に基づくシフト設計",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "勤怠管理",
+          "description": "打刻・ジオフェンス・勤務表",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "給与計算",
+          "description": "多地域対応とデータ出力",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "人材・HR",
+          "description": "採用から退職までの記録",
+          "href": "/crew/people"
+        },
+        {
+          "name": "ピープルインテリジェンス",
+          "description": "労務データ分析",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -7575,6 +7865,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "무료 도구 및 계산기",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Crew 전체 살펴보기 →",
+      "viewPricing": "전체 요금제 보기 →",
+      "crewList": [
+        {
+          "name": "근무 스케줄링",
+          "description": "수요 예측 기반 근무 편성",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "근태 관리",
+          "description": "출퇴근 기록·지오펜스·근무표",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "급여 관리",
+          "description": "다지역 대응 및 데이터 내보내기",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "인사·HR",
+          "description": "입사부터 퇴사까지 기록",
+          "href": "/crew/people"
+        },
+        {
+          "name": "피플 인텔리전스",
+          "description": "인력 분석",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -8317,6 +8636,35 @@ export const generatedWebsiteMessageOverrides = {
         {
           "name": "Alat & Kalkulator Gratis",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Jelajahi semua fitur Crew →",
+      "viewPricing": "Lihat harga lengkap →",
+      "crewList": [
+        {
+          "name": "Penjadwalan",
+          "description": "Perencanaan shift berbasis prediksi permintaan",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Absensi Kerja",
+          "description": "Absen masuk, geofence, lembar waktu",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Penggajian",
+          "description": "Kesiapan multi-wilayah & ekspor",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "SDM & HR",
+          "description": "Catatan dari rekrut hingga pensiun",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Analitik tenaga kerja",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -9061,6 +9409,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "Công cụ & Máy tính miễn phí",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Khám phá toàn bộ Crew →",
+      "viewPricing": "Xem bảng giá đầy đủ →",
+      "crewList": [
+        {
+          "name": "Xếp ca",
+          "description": "Lập ca theo dự báo nhu cầu",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Chấm công",
+          "description": "Chấm giờ, định vị, bảng công",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Tính lương",
+          "description": "Sẵn sàng đa khu vực & xuất dữ liệu",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Nhân sự & HR",
+          "description": "Hồ sơ từ tuyển dụng đến nghỉ việc",
+          "href": "/crew/people"
+        },
+        {
+          "name": "Phân tích nhân sự thông minh",
+          "description": "Phân tích lực lượng lao động",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -9804,6 +10181,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "Instrumente și calculatoare gratuite",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Descoperă tot ce oferă Crew →",
+      "viewPricing": "Vezi toate prețurile →",
+      "crewList": [
+        {
+          "name": "Planificare ture",
+          "description": "Ture în funcție de cerere",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Pontaj și prezență",
+          "description": "Pontaj, geolocalizare, fișe de pontaj",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Salarizare",
+          "description": "Conformitate multi-regiune și exporturi",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Personal și HR",
+          "description": "Evidențe de la angajare la plecare",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Analiză a forței de muncă",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -10359,7 +10765,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "domainsTitle": "12 Domenii de Date. O Viziune Unificată.",
           "domainsDescription": "POS, muncă, inventar, achiziții, rezervări, livrare, marketing, experiența clientului, CRM, contabilitate și rezumate zilnice de vânzări - toate conectate.",
-          "live": "Live",
+          "live": "În direct",
           "upcoming": "Următorul",
           "liveNow": "Live - disponibil acum",
           "roadmap": "Următor - pe harta noastră de dezvoltare",
@@ -10540,12 +10946,41 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/resources"
         },
         {
-          "name": "FAQ",
+          "name": "Vanliga frågor",
           "href": "/faq"
         },
         {
           "name": "Gratis verktyg & kalkylatorer",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Utforska hela Crew →",
+      "viewPricing": "Se alla priser →",
+      "crewList": [
+        {
+          "name": "Schemaläggning",
+          "description": "Behovsanpassad skiftplanering",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Tid & närvaro",
+          "description": "Instämpling, geofence, tidrapporter",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Lönehantering",
+          "description": "Redo för flera länder & export",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Personal & HR",
+          "description": "Personaldata från anställning till avgång",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Personalanalys",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -11283,12 +11718,41 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/resources"
         },
         {
-          "name": "FAQ",
+          "name": "সাধারণ জিজ্ঞাসা",
           "href": "/faq"
         },
         {
           "name": "ফ্রি টুলস ও ক্যালকুলেটর",
           "href": "/tools"
+        }
+      ],
+      "crewAll": "Crew-এর সব ফিচার দেখুন →",
+      "viewPricing": "সম্পূর্ণ মূল্য দেখুন →",
+      "crewList": [
+        {
+          "name": "শিডিউলিং",
+          "description": "চাহিদা অনুযায়ী শিফট পরিকল্পনা",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "সময় & উপস্থিতি",
+          "description": "ক্লক-ইন, জিওফেন্স, টাইমশিট",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "পে-রোল",
+          "description": "একাধিক অঞ্চলের প্রস্তুতি & এক্সপোর্ট",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "কর্মী & HR",
+          "description": "নিয়োগ থেকে অবসর পর্যন্ত রেকর্ড",
+          "href": "/crew/people"
+        },
+        {
+          "name": "পিপল ইন্টেলিজেন্স",
+          "description": "কর্মীবাহিনী বিশ্লেষণ",
+          "href": "/crew/people-intelligence"
         }
       ]
     },
@@ -12033,6 +12497,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "เครื่องมือและเครื่องคิดเลขฟรี",
           "href": "/tools"
         }
+      ],
+      "crewAll": "ดู Crew ทั้งหมด →",
+      "viewPricing": "ดูราคาทั้งหมด →",
+      "crewList": [
+        {
+          "name": "จัดตารางกะ",
+          "description": "วางแผนกะตามการคาดการณ์ลูกค้า",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "ลงเวลาทำงาน",
+          "description": "ตอกบัตร, จุดพิกัด, ใบบันทึกเวลา",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "จ่ายเงินเดือน",
+          "description": "รองรับหลายภูมิภาค & ส่งออกข้อมูล",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "บุคลากร & HR",
+          "description": "ประวัติตั้งแต่รับเข้าถึงเกษียณ",
+          "href": "/crew/people"
+        },
+        {
+          "name": "วิเคราะห์บุคลากรอัจฉริยะ",
+          "description": "วิเคราะห์กำลังคน",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -12776,6 +13269,35 @@ export const generatedWebsiteMessageOverrides = {
           "name": "Alat & Kalkulator Percuma",
           "href": "/tools"
         }
+      ],
+      "crewAll": "Terokai semua ciri Crew →",
+      "viewPricing": "Lihat harga penuh →",
+      "crewList": [
+        {
+          "name": "Penjadualan",
+          "description": "Perancangan syif ikut ramalan permintaan",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Kehadiran Kerja",
+          "description": "Daftar masuk, geofence, lembaran waktu",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Gaji",
+          "description": "Kesediaan pelbagai wilayah & eksport",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Pekerja & HR",
+          "description": "Rekod dari pengambilan hingga persaraan",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Analitik tenaga kerja",
+          "href": "/crew/people-intelligence"
+        }
       ]
     },
     "footer": {
@@ -13374,6 +13896,317 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Hubungi Jualan"
         }
       }
+    }
+  },
+  "ar": {
+    "navbar": {
+      "crewAll": "استكشف كل ميزات Crew →",
+      "viewPricing": "اطّلع على الأسعار كاملة →",
+      "crewList": [
+        {
+          "name": "جدولة المناوبات",
+          "description": "تخطيط مناوبات يراعي حركة الطلب",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "الوقت & الحضور",
+          "description": "تسجيل الحضور، النطاق الجغرافي، وسجلات الدوام",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "الرواتب",
+          "description": "جاهزية متعددة الدول & ملفات تصدير",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "الموظفون & HR",
+          "description": "سجلات من التوظيف حتى نهاية الخدمة",
+          "href": "/crew/people"
+        },
+        {
+          "name": "ذكاء الموارد البشرية",
+          "description": "تحليلات القوى العاملة",
+          "href": "/crew/people-intelligence"
+        }
+      ]
+    },
+    "home": {
+      "pages": {
+        "pricing": {
+          "enterpriseBadge": "المؤسسات الكبرى"
+        },
+        "faq": {
+          "categories": [
+            "البدء",
+            "المنتجات والطبقات",
+            "البيانات والتكامل",
+            "الوحدات",
+            "Watchtower",
+            "الأسعار والفوترة",
+            "الميزات والقدرات",
+            "الدعم والتدريب",
+            "الأمن والامتثال",
+            "المؤسسات الكبرى",
+            "أسئلة المقارنة",
+            "حالات استخدام محددة",
+            "Sundae Crew"
+          ]
+        }
+      }
+    }
+  },
+  "fr": {
+    "navbar": {
+      "crewAll": "Découvrir tout Crew →",
+      "viewPricing": "Voir toute la tarification →",
+      "crewList": [
+        {
+          "name": "Planification",
+          "description": "Planning adapté à l'affluence",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Temps & présence",
+          "description": "Pointage, géolocalisation, feuilles de temps",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Paie",
+          "description": "Conformité multi-pays & exports",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Personnel & RH",
+          "description": "Dossiers du recrutement au départ",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Analyse des effectifs",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "resourcesList": [
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Documentation",
+          "href": "/docs"
+        },
+        {
+          "name": "Cas clients",
+          "href": "/resources"
+        },
+        {
+          "name": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "name": "Outils et calculateurs gratuits",
+          "href": "/tools"
+        }
+      ],
+      "solutionsSegments": [
+        {
+          "name": "Restaurants multi-sites",
+          "href": "/solutions/multi-location-groups"
+        },
+        {
+          "name": "Franchises",
+          "href": "/solutions/franchises"
+        },
+        {
+          "name": "Dark kitchens",
+          "href": "/solutions/cloud-kitchens"
+        },
+        {
+          "name": "Groupes hôteliers enterprise",
+          "href": "/solutions/hospitality-operators"
+        }
+      ],
+      "solutions": "Solutions"
+    },
+    "home": {
+      "pages": {
+        "modules": {
+          "roi": "ROI"
+        },
+        "pricing": {
+          "enterpriseBadge": "Entreprise"
+        },
+        "faq": {
+          "categories": [
+            "Démarrage",
+            "Produits et niveaux",
+            "Données et intégration",
+            "Modules",
+            "Watchtower",
+            "Tarifs et facturation",
+            "Fonctionnalités et capacités",
+            "Support et formation",
+            "Sécurité et conformité",
+            "Entreprise",
+            "Questions comparatives",
+            "Cas d'usage spécifiques",
+            "Sundae Crew"
+          ]
+        },
+        "resources": {
+          "segment": "Segment"
+        },
+        "signIn": {
+          "footerSupport": "Assistance"
+        }
+      },
+      "mockup": {
+        "tableHeaders": [
+          "Serveur",
+          "Ventes",
+          "% d'upsell",
+          "Ticket moyen"
+        ]
+      },
+      "personas": {
+        "roles": [
+          {
+            "title": "Responsables opérations",
+            "pain": "Vous ne pouvez pas être dans chaque restaurant à la fois.",
+            "outcome": "Rythme en direct et performance serveurs sur chaque site - voyez qui a besoin d'aide maintenant.",
+            "attribution": "Constat récurrent chez les opérateurs multi-sites"
+          },
+          {
+            "title": "Finance & FP&A",
+            "pain": "3 jours pour clôturer les comptes ? C'est 3 jours de trop.",
+            "outcome": "Marge en direct, coût main-d'œuvre par service, écarts reliés à leurs causes profondes.",
+            "attribution": "Constat récurrent dans les échanges avec les DAF"
+          },
+          {
+            "title": "Direction & propriétaires",
+            "pain": "Votre pire site reste invisible jusqu'au jeudi.",
+            "outcome": "Vue portefeuille, briefings IA quotidiens, signaux de marché - pour chaque marque.",
+            "attribution": "Constat récurrent chez les fondateurs et CEO"
+          },
+          {
+            "title": "Data & technologie",
+            "pain": "12 API fournisseurs. 5 formats. Aucun schéma unifié.",
+            "outcome": "Pipelines propres, métriques gouvernées, API publique, webhooks et RBAC prêts à l'emploi.",
+            "attribution": "Constat récurrent chez les responsables data"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "global": "International",
+      "companyLinks": [
+        {
+          "name": "À propos",
+          "href": "/about"
+        },
+        {
+          "name": "Carrières",
+          "href": "/careers"
+        },
+        {
+          "name": "Contact",
+          "href": "/contact"
+        },
+        {
+          "name": "Sécurité et conformité",
+          "href": "/security"
+        },
+        {
+          "name": "Intégrations",
+          "href": "/integrations"
+        }
+      ],
+      "sectionSolutions": "Solutions"
+    }
+  },
+  "es": {
+    "navbar": {
+      "crewAll": "Descubre todo Crew →",
+      "viewPricing": "Ver todos los precios →",
+      "crewList": [
+        {
+          "name": "Cuadrantes",
+          "description": "Turnos según la demanda",
+          "href": "/crew/scheduling"
+        },
+        {
+          "name": "Control horario",
+          "description": "Fichajes, geolocalización, partes de horas",
+          "href": "/crew/time-attendance"
+        },
+        {
+          "name": "Nóminas",
+          "description": "Preparación multipaís y exportaciones",
+          "href": "/crew/payroll"
+        },
+        {
+          "name": "Personas y RR. HH.",
+          "description": "Historial del empleado de principio a fin",
+          "href": "/crew/people"
+        },
+        {
+          "name": "People Intelligence",
+          "description": "Analítica de plantilla",
+          "href": "/crew/people-intelligence"
+        }
+      ],
+      "resourcesList": [
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Documentación",
+          "href": "/docs"
+        },
+        {
+          "name": "Casos de estudio",
+          "href": "/resources"
+        },
+        {
+          "name": "Preguntas frecuentes",
+          "href": "/faq"
+        },
+        {
+          "name": "Herramientas y calculadoras gratis",
+          "href": "/tools"
+        }
+      ]
+    },
+    "home": {
+      "pages": {
+        "modules": {
+          "roi": "ROI"
+        },
+        "pricing": {
+          "enterpriseBadge": "Empresas"
+        },
+        "faq": {
+          "categories": [
+            "Inicio",
+            "Productos y niveles",
+            "Datos e integración",
+            "Módulos",
+            "Watchtower",
+            "Precios y facturación",
+            "Funciones y capacidades",
+            "Soporte y formación",
+            "Seguridad y cumplimiento",
+            "Empresas",
+            "Preguntas comparativas",
+            "Casos de uso específicos",
+            "Sundae Crew"
+          ]
+        }
+      }
+    },
+    "footer": {
+      "global": "Global"
     }
   }
 } as const
