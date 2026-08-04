@@ -52,7 +52,7 @@ function resolveBookingCopy(locale: WebsiteLocale): Record<string, unknown> {
       return isObj(r) ? r : {};
     }
     if (isObj(src)) {
-      const byLocale = src[locale] ?? src.en;
+      const byLocale = src[locale as keyof typeof src] ?? src.en;
       if (isObj(byLocale)) return byLocale;
       return src;
     }
