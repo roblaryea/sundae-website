@@ -13,6 +13,7 @@ import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
 import { getDiagnosticCatalogCopy } from "@/lib/diagnostic/questionTranslations";
 import { trackEvent } from "@/lib/posthog";
 import { loadProgress, clearProgress, answeredCount, type DiagnosticProgress } from "@/lib/diagnostic/progress";
+import { queueDiagnosticLead, startDiagnosticLeadOutbox } from "@/lib/diagnostic/leadOutbox";
 
 type Stage = "intro" | "flow" | "generating" | "report";
 
@@ -38,6 +39,7 @@ export default function DiagnosticPage() {
 
   useEffect(() => {
     setSavedProgress(loadProgress());
+    return startDiagnosticLeadOutbox();
   }, []);
 
   const handleStart = () => {
@@ -83,9 +85,6 @@ export default function DiagnosticPage() {
     setLeadData(lead);
     setResponses(data.responses);
     setStage("generating");
-    // The diagnostic is submitted — local draft is no longer needed.
-    clearProgress();
-    setSavedProgress(null);
     trackEvent("diagnostic_submitted", {
       locale,
       role: data.role,
@@ -131,11 +130,9 @@ export default function DiagnosticPage() {
     setReport(result);
     trackEvent("diagnostic_report_shown", { locale, source: aiSource, tierFit: result.tierFit });
 
-    // Fire-and-forget lead capture. Includes the AI-generated report in
-    // metadata so the backend can email the branded report AND sales sees the
-    // full assessment in admin. numberOfLocations + primaryPOS are required by
-    // /api/cta/submit, so derive them from the responses (the flow doesn't
-    // collect them as separate capture fields).
+    // Persist lead capture locally before clearing the diagnostic draft. The
+    // outbox keeps this idempotency key across reloads and only removes the
+    // entry after /api/cta/submit acknowledges it with a 2xx response.
     if (typeof window !== "undefined") {
       const OUTLET_LABELS: Record<string, string> = {
         "1": "1", "2_5": "2-5", "6_15": "6-15",
@@ -154,13 +151,8 @@ export default function DiagnosticPage() {
         ? String(posRaw[0]).charAt(0).toUpperCase() + String(posRaw[0]).slice(1)
         : "Not specified";
 
-      void fetch("/api/cta/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Idempotency-Key": diagnosticSubmissionKeyRef.current,
-        },
-        body: JSON.stringify({
+      const persisted = queueDiagnosticLead(
+        {
           name: data.name,
           email: data.email,
           company: data.company,
@@ -176,8 +168,16 @@ export default function DiagnosticPage() {
           // report → branded email + admin AI Assessment drawer.
           // aiSource is internal-only (engine used); never shown to the prospect.
           metadata: { responses: data.responses, report: result, aiSource, locale },
-        }),
-      }).catch(() => {});
+        },
+        diagnosticSubmissionKeyRef.current,
+      );
+
+      if (persisted) {
+        clearProgress();
+        setSavedProgress(null);
+      } else {
+        trackEvent("diagnostic_lead_queue_failed", { locale });
+      }
     }
 
     setStage("report");
