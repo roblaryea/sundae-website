@@ -22,6 +22,8 @@ import {
   CheckCircle2,
   ArrowUpRight,
   ArrowLeft,
+  ChevronLeft,
+  ChevronRight,
   Sun,
   Moon,
   Loader2,
@@ -149,6 +151,11 @@ export function BookingView({
   const [slotsLoading, setSlotsLoading] = useState(false);
   const [slotsError, setSlotsError] = useState<'unavailable' | 'error' | null>(null);
 
+  // Calendly-style month picker: the highlighted day + the month currently on
+  // screen ("yyyy-MM"). Both are seeded/repaired from live slot data below.
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [calMonth, setCalMonth] = useState<string | null>(null);
+
   const [submittingSlot, setSubmittingSlot] = useState<string | null>(null);
   const [actionError, setActionError] = useState<ActionError | null>(null);
   const [confirmCancel, setConfirmCancel] = useState(false);
@@ -206,6 +213,21 @@ export function BookingView({
     if (!visitorTz) return;
     void loadSlots(fromIso, visitorTz);
   }, [mode, visitorTz, fromIso, loadSlots]);
+
+  // Whenever fresh slot data arrives, seed the calendar month + selected day to
+  // the first open day. If the previously selected day is no longer open, snap
+  // back to the first open day (and keep the displayed month within range).
+  useEffect(() => {
+    const openDays = (slotsData?.days ?? []).filter((d) => (d.slots?.length ?? 0) > 0);
+    if (!openDays.length) return;
+    const firstOpen = openDays[0].date;
+    setSelectedDate((prev) =>
+      prev && openDays.some((d) => d.date === prev) ? prev : firstOpen,
+    );
+    setCalMonth((prev) =>
+      prev && openDays.some((d) => d.date.slice(0, 7) === prev) ? prev : firstOpen.slice(0, 7),
+    );
+  }, [slotsData]);
 
   const handleBookingError = useCallback(
     (status: number, code: string | undefined) => {
@@ -573,33 +595,148 @@ export function BookingView({
       );
     }
 
+    // --- Calendly-style layout: month calendar (left) + selected day's slots
+    // (right). `days` is already filtered to open days only. ------------------
+    const availableDates = new Set(days.map((d) => d.date));
+    const firstAvailableMonth = days[0].date.slice(0, 7);
+    const lastAvailableMonth = days[days.length - 1].date.slice(0, 7);
+    const selectedDay = days.find((d) => d.date === selectedDate) ?? days[0];
+    const month = calMonth ?? selectedDay.date.slice(0, 7);
+    const [yStr, mStr] = month.split('-');
+    const y = Number(yStr);
+    const m = Number(mStr);
+
+    const monthLabel = (() => {
+      try {
+        return new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), {
+          month: 'long',
+          year: 'numeric',
+          timeZone: 'UTC',
+        }).format(new Date(`${month}-01T00:00:00Z`));
+      } catch {
+        return month;
+      }
+    })();
+
+    // UTC date math only - no extra dependencies. getUTCDay() of the 1st gives
+    // the leading blank count (0 = Sunday); day 0 of the next month is the last
+    // day of this one.
+    const leadingBlanks = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+    const daysInMonth = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    const weekdayNames = Array.from({ length: 7 }, (_, i) =>
+      new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), {
+        weekday: 'short',
+        timeZone: 'UTC',
+      }).format(new Date(Date.UTC(2023, 0, 1 + i))),
+    );
+
+    const shiftMonth = (delta: number): string => {
+      const d = new Date(Date.UTC(y, m - 1 + delta, 1));
+      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+    };
+    const canPrev = month > firstAvailableMonth;
+    const canNext = month < lastAvailableMonth;
+    const calNavBtn = dark
+      ? 'grid place-items-center w-8 h-8 rounded-lg border border-white/10 text-stone-300 hover:bg-white/5 transition-colors disabled:opacity-30 disabled:cursor-default'
+      : 'grid place-items-center w-8 h-8 rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-default';
+
     return (
-      <div className="space-y-5">
-        {days.map((day) => (
-          <div key={day.date || day.weekdayLabel}>
-            <h3 className={`text-sm font-bold mb-2.5 ${heading}`}>{dayHeading(day)}</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-              {day.slots.map((slot) => {
-                const busy = submittingSlot === slot.startUtc;
-                return (
-                  <button
-                    key={slot.startUtc}
-                    onClick={() => onPick(slot)}
-                    disabled={!!submittingSlot}
-                    aria-label={slotLabel(slot, displayTz)}
-                    className={`flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-semibold transition-colors disabled:opacity-50 ${
-                      dark
-                        ? 'border-white/10 text-stone-200 hover:border-[#FF5C4D]/50 hover:bg-[#FF5C4D]/10'
-                        : 'border-gray-200 text-gray-800 hover:border-[#FF5C4D]/50 hover:bg-[#FF5C4D]/5'
-                    }`}
-                  >
-                    {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : slotLabel(slot, displayTz)}
-                  </button>
-                );
-              })}
-            </div>
+      <div className="grid gap-6 md:grid-cols-[minmax(0,280px),1fr]">
+        {/* Month calendar */}
+        <div className={`rounded-2xl border p-4 ${cardCls}`}>
+          <div className="flex items-center justify-between gap-2 mb-3">
+            <button
+              type="button"
+              onClick={() => canPrev && setCalMonth(shiftMonth(-1))}
+              disabled={!canPrev}
+              aria-label={t('prevMonth', 'Previous month')}
+              className={calNavBtn}
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+            <span className={`text-sm font-bold ${heading}`}>{monthLabel}</span>
+            <button
+              type="button"
+              onClick={() => canNext && setCalMonth(shiftMonth(1))}
+              disabled={!canNext}
+              aria-label={t('nextMonth', 'Next month')}
+              className={calNavBtn}
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
           </div>
-        ))}
+          <div className={`grid grid-cols-7 gap-1 mb-1 text-center text-[11px] font-semibold ${muted}`}>
+            {weekdayNames.map((wd, i) => (
+              <span key={i} className="py-1">
+                {wd}
+              </span>
+            ))}
+          </div>
+          <div className="grid grid-cols-7 gap-1">
+            {Array.from({ length: leadingBlanks }, (_, i) => (
+              <span key={`blank-${i}`} aria-hidden="true" />
+            ))}
+            {Array.from({ length: daysInMonth }, (_, i) => {
+              const d = i + 1;
+              const dateStr = `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+              const isAvailable = availableDates.has(dateStr);
+              const isSelected = dateStr === selectedDay.date;
+              const base =
+                'relative grid place-items-center aspect-square w-full rounded-lg text-sm font-semibold transition-colors';
+              let cellCls: string;
+              if (isSelected) {
+                cellCls = `${base} bg-[#FF5C4D] text-white`;
+              } else if (isAvailable) {
+                cellCls = `${base} ring-1 ring-inset ring-[#FF5C4D]/30 ${
+                  dark ? 'text-stone-100 hover:bg-[#FF5C4D]/15' : 'text-gray-900 hover:bg-[#FF5C4D]/10'
+                }`;
+              } else {
+                cellCls = `${base} ${dark ? 'text-stone-600' : 'text-gray-300'}`;
+              }
+              return (
+                <button
+                  key={dateStr}
+                  type="button"
+                  onClick={() => isAvailable && setSelectedDate(dateStr)}
+                  disabled={!isAvailable}
+                  aria-pressed={isSelected}
+                  aria-label={dayHeading({ date: dateStr, weekdayLabel: '', slots: [] })}
+                  className={cellCls}
+                >
+                  {d}
+                  {isAvailable && !isSelected && (
+                    <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-[#FF5C4D]" />
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Selected day's slots */}
+        <div>
+          <h3 className={`text-sm font-bold mb-2.5 ${heading}`}>{dayHeading(selectedDay)}</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+            {selectedDay.slots.map((slot) => {
+              const busy = submittingSlot === slot.startUtc;
+              return (
+                <button
+                  key={slot.startUtc}
+                  onClick={() => onPick(slot)}
+                  disabled={!!submittingSlot}
+                  aria-label={slotLabel(slot, displayTz)}
+                  className={`flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-semibold transition-colors disabled:opacity-50 ${
+                    dark
+                      ? 'border-white/10 text-stone-200 hover:border-[#FF5C4D]/50 hover:bg-[#FF5C4D]/10'
+                      : 'border-gray-200 text-gray-800 hover:border-[#FF5C4D]/50 hover:bg-[#FF5C4D]/5'
+                  }`}
+                >
+                  {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : slotLabel(slot, displayTz)}
+                </button>
+              );
+            })}
+          </div>
+        </div>
       </div>
     );
   };
