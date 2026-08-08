@@ -47,6 +47,11 @@ function isRateLimited(ip: string): boolean {
 
 export async function POST(request: NextRequest) {
   const requestId = randomUUID();
+  const suppliedIdempotencyKey = request.headers.get('idempotency-key')?.trim();
+  const idempotencyKey =
+    suppliedIdempotencyKey && /^[A-Za-z0-9._:-]{8,160}$/.test(suppliedIdempotencyKey)
+      ? suppliedIdempotencyKey
+      : requestId;
   const startTime = Date.now();
 
   const forwarded = request.headers.get('x-forwarded-for');
@@ -183,7 +188,7 @@ export async function POST(request: NextRequest) {
       },
     };
 
-    const sundaeResult = await submitLeadToSundae(sundaePayload);
+    const sundaeResult = await submitLeadToSundae(sundaePayload, idempotencyKey);
     console.log(`[${requestId}] Sundae backend submit:`, {
       ok: sundaeResult.ok,
       status: sundaeResult.status,

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Sparkles, Clock, FileText, ShieldCheck, RotateCcw } from "lucide-react";
@@ -34,6 +34,7 @@ export default function DiagnosticPage() {
   // Resume support: detect an in-progress diagnostic saved on this device.
   const [savedProgress, setSavedProgress] = useState<DiagnosticProgress | null>(null);
   const [resumeFrom, setResumeFrom] = useState<DiagnosticProgress | null>(null);
+  const diagnosticSubmissionKeyRef = useRef<string>(globalThis.crypto.randomUUID());
 
   useEffect(() => {
     setSavedProgress(loadProgress());
@@ -155,7 +156,10 @@ export default function DiagnosticPage() {
 
       void fetch("/api/cta/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "Idempotency-Key": diagnosticSubmissionKeyRef.current,
+        },
         body: JSON.stringify({
           name: data.name,
           email: data.email,

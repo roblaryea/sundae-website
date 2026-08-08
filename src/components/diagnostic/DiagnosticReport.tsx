@@ -11,7 +11,7 @@
  *   • Three CTAs: book deep-dive, pricing simulator, Crew trial
  */
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2, Loader2, Check, Wallet, Receipt, Heart, Printer, CalendarClock } from "lucide-react";
@@ -78,6 +78,7 @@ export function DiagnosticReport({ report, leadData, responses, locale }: Diagno
   const copy = getDiagnosticCopy(locale);
   const firstName = leadData.name.split(" ")[0] || "there";
   const [bookingState, setBookingState] = useState<"idle" | "loading" | "done">("idle");
+  const bookingSubmissionKeyRef = useRef<string>(globalThis.crypto.randomUUID());
   // Carry everything the operator already told us into the pricing simulator.
   const pricingUrl = buildPricingSimUrl(responses, report, leadData);
   const bookUrl = bookingUrlWith(leadData.name, leadData.email);
@@ -96,9 +97,18 @@ export function DiagnosticReport({ report, leadData, responses, locale }: Diagno
     trackEvent("diagnostic_cta_click", { cta: "book_call", locale, tierFit: report.tierFit });
     setBookingState("loading");
     try {
-      await fetch("/api/cta/submit", {
+      const outletsRaw = Array.isArray(responses.outlets) ? responses.outlets[0] : responses.outlets;
+      const outletLabels: Record<string, string> = {
+        "1": "1", "2_5": "2-5", "6_15": "6-15", "16_50": "16-50",
+        "51_150": "51-150", "150_plus": "150+",
+      };
+      const posRaw = Array.isArray(responses.pos) ? responses.pos : responses.pos ? [responses.pos] : [];
+      const response = await fetch("/api/cta/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "Idempotency-Key": bookingSubmissionKeyRef.current,
+        },
         body: JSON.stringify({
           source: "diagnostic-call-request",
           name: leadData.name,
@@ -107,6 +117,10 @@ export function DiagnosticReport({ report, leadData, responses, locale }: Diagno
           phone: leadData.phone,
           role: leadData.role,
           country: leadData.country,
+          numberOfLocations: outletLabels[String(outletsRaw ?? "")] ?? "Not specified",
+          primaryPOS: posRaw[0]
+            ? String(posRaw[0]).charAt(0).toUpperCase() + String(posRaw[0]).slice(1)
+            : "Not specified",
           locale,
           message: `[Deep-dive call requested from diagnostic]
 Profile: ${report.profileLine}
@@ -115,10 +129,10 @@ Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
           metadata: { report, locale },
         }),
       });
+      if (!response.ok) throw new Error("booking_request_failed");
       setBookingState("done");
     } catch {
-      // Even on error, show success - we'll catch it on the backend side.
-      setBookingState("done");
+      setBookingState("idle");
     }
   };
 

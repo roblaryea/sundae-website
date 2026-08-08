@@ -63,7 +63,8 @@ export function isSundaeBackendConfigured(): boolean {
 }
 
 export async function submitLeadToSundae(
-  payload: SundaeLeadPayload
+  payload: SundaeLeadPayload,
+  idempotencyKey: string
 ): Promise<SundaeLeadSubmission> {
   const secret = getSecret();
   if (!secret) {
@@ -88,6 +89,7 @@ export async function submitLeadToSundae(
         'Content-Type': 'application/json',
         'X-Sundae-Lead-Timestamp': timestamp,
         'X-Sundae-Lead-Signature': signature,
+        'Idempotency-Key': idempotencyKey,
       },
       body: rawBody,
       signal: controller.signal,
