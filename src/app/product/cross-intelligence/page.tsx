@@ -1007,7 +1007,7 @@ const localizedTierComparison: Record<'en' | 'ar' | 'fr' | 'es', { feature: stri
 
 const crossIntelligenceCopy = {
   en: {
-    heroBadge: 'Auto-enabled with 3+ modules',
+    heroBadge: 'Included with every Core package',
     heroTitle: 'Cross-Intelligence Correlation Engine',
     heroDescription:
       'Cross-Intelligence shows where your operating signals move together, from marketing to revenue, labor to sales, and inventory to waste.',
@@ -1033,7 +1033,7 @@ const crossIntelligenceCopy = {
     proCardTitle: 'Cross-Intelligence Pro',
     baseTierLabel: 'Base',
     proTierLabel: 'Pro',
-    baseLabel: 'Free with 3+ modules',
+    baseLabel: 'Included with every Core package',
     proLabel: '$199/mo + $19/location',
     ctaTitle: 'See Cross-Intelligence in Action',
     ctaDescription:
@@ -1042,7 +1042,7 @@ const crossIntelligenceCopy = {
     ctaSecondary: 'See Pricing Calculator',
   },
   ar: {
-    heroBadge: 'يتفعل تلقائياً مع 3+ وحدات',
+    heroBadge: 'مشمول مع كل باقة Core',
     heroTitle: <>محرك الترابط<br />بين الوحدات</>,
     heroDescription:
       'عندما تعمل وحداتك معًا، تبدأ العلاقات الخفية بالظهور. يربط Cross-Intelligence بيانات التسويق والإيرادات والعمالة والمخزون والهدر حتى ترى التأثير المتبادل بوضوح.',
@@ -1068,7 +1068,7 @@ const crossIntelligenceCopy = {
     proCardTitle: 'Cross-Intelligence Pro',
     baseTierLabel: 'Base',
     proTierLabel: 'Pro',
-    baseLabel: 'مجاني مع 3+ وحدات',
+    baseLabel: 'مشمول مع كل باقة Core',
     proLabel: '$199/شهرياً + $19/موقع',
     ctaTitle: 'شاهد Cross-Intelligence أثناء العمل',
     ctaDescription:
@@ -1077,12 +1077,12 @@ const crossIntelligenceCopy = {
     ctaSecondary: 'عرض حاسبة الأسعار',
   },
   fr: {
-    heroBadge: 'Active automatiquement avec 3+ modules',
+    heroBadge: 'Inclus dans chaque offre Core',
     heroTitle: <>Moteur de<br />correlation cross-intelligence</>,
     heroDescription:
       'Quand vos modules travaillent ensemble, les liens utiles remontent plus vite. Cross-Intelligence relie marketing, revenu, main-d oeuvre, stock et pertes pour montrer ce qui influence vraiment la performance.',
     heroSupport:
-      'Les fonctions de Base se debloquent gratuitement lorsque vous activez 3 modules dintelligence ou plus. Passez a Pro pour le moteur complet avec attribution, detection de cannibalisation et acces API.',
+      'Les fonctions de Base sont incluses dans chaque offre Core, dont les domaines sont des composants du package. Passez a Pro pour le moteur complet avec attribution, detection de cannibalisation et acces API.',
     heroPrimary: 'Reserver une demo',
     heroSecondary: 'Voir le calculateur de prix',
     problemTitle: 'La vraie valeur apparait quand les modules travaillent ensemble.',
@@ -1103,7 +1103,7 @@ const crossIntelligenceCopy = {
     proCardTitle: 'Intelligence croisee Pro',
     baseTierLabel: 'Base',
     proTierLabel: 'Pro',
-    baseLabel: 'Gratuit avec 3+ modules',
+    baseLabel: 'Inclus dans chaque offre Core',
     proLabel: '199 $/mois + 19 $/site',
     ctaTitle: 'Voir Cross-Intelligence en action',
     ctaDescription:
@@ -1117,7 +1117,7 @@ const crossIntelligenceCopy = {
     heroDescription:
       'Cuando tus modulos trabajan juntos, las relaciones utiles aparecen antes. Cross-Intelligence conecta marketing, ingresos, mano de obra, inventario y desperdicio para mostrar que esta moviendo realmente el rendimiento.',
     heroSupport:
-      'Las funciones Base se desbloquean gratis cuando activas 3 o mas modulos de inteligencia. Sube a Pro para obtener el motor completo con atribucion, deteccion de canibalizacion y acceso a API.',
+      'Las funciones Base se incluyen en cada paquete Core, cuyos dominios son componentes del paquete. Sube a Pro para obtener el motor completo con atribucion, deteccion de canibalizacion y acceso a API.',
     heroPrimary: 'Reservar una demo',
     heroSecondary: 'Ver calculadora de precios',
     problemTitle: 'El valor real aparece cuando los modulos trabajan juntos.',
@@ -1138,7 +1138,7 @@ const crossIntelligenceCopy = {
     proCardTitle: 'Inteligencia cruzada Pro',
     baseTierLabel: 'Base',
     proTierLabel: 'Pro',
-    baseLabel: 'Gratis con 3+ modulos',
+    baseLabel: 'Incluido en cada paquete Core',
     proLabel: '$199/mes + $19/ubicacion',
     ctaTitle: 'Ve Cross-Intelligence en accion',
     ctaDescription:

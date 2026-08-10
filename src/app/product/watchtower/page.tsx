@@ -112,7 +112,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "Watchtower Pricing",
-    pricingDescription: "Available on Core tiers. Choose individual components or save ~18% with the full bundle.",
+    pricingDescription: "Available on Core Growth and above. Choose individual components or save ~18% with the full bundle.",
     pricingCards: [
       { name: "Competitive Intelligence", price: "$549", perLoc: "+$69/loc" },
       { name: "Events & Calendar", price: "$249", perLoc: "+$39/loc" },
@@ -242,7 +242,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "أسعار Watchtower",
-    pricingDescription: "متاح على مستويات Core. اختر مكونات فردية أو وفّر نحو 18% مع الحزمة الكاملة.",
+    pricingDescription: "متاح على Core Growth وما فوق. اختر مكونات فردية أو وفّر نحو 18% مع الحزمة الكاملة.",
     pricingCards: [
       { name: "ذكاء المنافسين", price: "$549", perLoc: "+$69/موقع" },
       { name: "الأحداث والتقويم", price: "$249", perLoc: "+$39/موقع" },
@@ -354,7 +354,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "Tarifs Watchtower",
-    pricingDescription: "Disponible sur les offres Core. Choisissez des composants individuels ou economisez environ 18 % avec le bundle complet.",
+    pricingDescription: "Disponible a partir de Core Growth. Choisissez des composants individuels ou economisez environ 18 % avec le bundle complet.",
     pricingCards: [
       { name: "Intelligence concurrentielle", price: "$549", perLoc: "+$69/site" },
       { name: "Evenements & calendrier", price: "$249", perLoc: "+$39/site" },
@@ -466,7 +466,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "Precios de Watchtower",
-    pricingDescription: "Disponible en los planes Core. Elige componentes individuales o ahorra alrededor de 18% con el bundle completo.",
+    pricingDescription: "Disponible desde Core Growth. Elige componentes individuales o ahorra alrededor de 18% con el bundle completo.",
     pricingCards: [
       { name: "Inteligencia competitiva", price: "$549", perLoc: "+$69/ubicacion" },
       { name: "Eventos y calendario", price: "$249", perLoc: "+$39/ubicacion" },

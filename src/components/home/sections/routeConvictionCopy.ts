@@ -159,133 +159,133 @@ export const pricingConviction: RouteConviction = {
     eyebrow: "What you're really buying",
     statement:
       "You're not buying dashboards by the seat. You're buying *the decision you'd have missed* - and the hours you stop losing to the report that landed too late.",
-    coda: 'Start free on the data you already have. Add intelligence as it earns its place.',
+    coda: 'Start on the data you already have. Add intelligence as it earns its place.',
   },
   ar: {
     eyebrow: 'ما الذي تشتريه فعلاً',
     statement:
       'أنت لا تشتري لوحات معلومات بحسب المقعد. أنت تشتري *القرار الذي كان سيفوتك* - والساعات التي تتوقف عن خسارتها للتقرير الذي وصل متأخراً.',
-    coda: 'ابدأ مجاناً بالبيانات التي بحوزتك أصلاً. أضف الذكاء حين يثبت جدارته بمكانه.',
+    coda: 'ابدأ بالبيانات التي بحوزتك أصلاً. أضف الذكاء حين يثبت جدارته بمكانه.',
   },
   fr: {
     eyebrow: 'Ce que vous achetez vraiment',
     statement:
       "Vous n'achetez pas des tableaux de bord au siège. Vous achetez *la décision que vous auriez manquée* - et les heures que vous cessez de perdre à cause du rapport arrivé trop tard.",
-    coda: "Commencez gratuitement avec les données que vous avez déjà. Ajoutez l'intelligence à mesure qu'elle gagne sa place.",
+    coda: "Commencez avec les données que vous avez déjà. Ajoutez l'intelligence à mesure qu'elle gagne sa place.",
   },
   es: {
     eyebrow: 'Lo que de verdad estás comprando',
     statement:
       'No estás comprando paneles por puesto. Estás comprando *la decisión que se te habría escapado* - y las horas que dejas de perder por el informe que llegó demasiado tarde.',
-    coda: 'Empieza gratis con los datos que ya tienes. Añade inteligencia a medida que se gana su sitio.',
+    coda: 'Empieza con los datos que ya tienes. Añade inteligencia a medida que se gana su sitio.',
   },
   de: {
     eyebrow: 'Was Sie wirklich kaufen',
     statement:
       'Sie kaufen keine Dashboards pro Platz. Sie kaufen *die Entscheidung, die Ihnen sonst entgangen wäre* - und die Stunden, die Sie nicht mehr an den zu spät gelieferten Report verlieren.',
-    coda: 'Starten Sie kostenlos mit den Daten, die Sie schon haben. Fügen Sie Intelligenz hinzu, sobald sie sich ihren Platz verdient.',
+    coda: 'Starten Sie mit den Daten, die Sie schon haben. Fügen Sie Intelligenz hinzu, sobald sie sich ihren Platz verdient.',
   },
   nl: {
     eyebrow: 'Wat u echt koopt',
     statement:
       'U koopt geen dashboards per stoel. U koopt *de beslissing die u anders gemist had* - en de uren die u niet langer verliest aan het rapport dat te laat binnenkwam.',
-    coda: 'Begin gratis met de data die u al heeft. Voeg intelligentie toe zodra die haar plek verdient.',
+    coda: 'Begin met de data die u al heeft. Voeg intelligentie toe zodra die haar plek verdient.',
   },
   pt: {
     eyebrow: 'O que você está mesmo comprando',
     statement:
       'Você não está comprando painéis por assento. Você está comprando *a decisão que teria deixado escapar* - e as horas que para de perder com o relatório que chegou tarde demais.',
-    coda: 'Comece de graça com os dados que você já tem. Adicione inteligência à medida que ela conquista o seu lugar.',
+    coda: 'Comece com os dados que você já tem. Adicione inteligência à medida que ela conquista o seu lugar.',
   },
   hi: {
     eyebrow: 'आप असल में क्या खरीद रहे हैं',
     statement:
       'आप सीट के हिसाब से डैशबोर्ड नहीं खरीद रहे। आप खरीद रहे हैं *वह फैसला जो आपसे छूट जाता* - और वे घंटे जो अब आप उस रिपोर्ट में नहीं गँवाते जो बहुत देर से आई।',
-    coda: 'जो डेटा आपके पास पहले से है, उसी पर मुफ्त शुरू करें। इंटेलिजेंस तब जोड़ें जब वह अपनी जगह कमा ले।',
+    coda: 'जो डेटा आपके पास पहले से है, उसी पर शुरू करें। इंटेलिजेंस तब जोड़ें जब वह अपनी जगह कमा ले।',
   },
   ur: {
     eyebrow: 'آپ دراصل کیا خرید رہے ہیں',
     statement:
       'آپ سیٹ کے حساب سے ڈیش بورڈ نہیں خرید رہے۔ آپ خرید رہے ہیں *وہ فیصلہ جو آپ سے رہ جاتا* - اور وہ گھنٹے جو اب آپ اُس رپورٹ میں نہیں گنواتے جو بہت دیر سے آئی۔',
-    coda: 'جو ڈیٹا آپ کے پاس پہلے سے ہے، اُسی پر مفت آغاز کریں۔ ذہانت تب شامل کریں جب وہ اپنی جگہ کما لے۔',
+    coda: 'جو ڈیٹا آپ کے پاس پہلے سے ہے، اُسی پر آغاز کریں۔ ذہانت تب شامل کریں جب وہ اپنی جگہ کما لے۔',
   },
   it: {
     eyebrow: 'Cosa stai comprando davvero',
     statement:
       "Non stai comprando dashboard a postazione. Stai comprando *la decisione che ti saresti perso* - e le ore che smetti di perdere per il report arrivato troppo tardi.",
-    coda: 'Inizia gratis con i dati che hai già. Aggiungi intelligenza man mano che si guadagna il suo posto.',
+    coda: 'Inizia con i dati che hai già. Aggiungi intelligenza man mano che si guadagna il suo posto.',
   },
   pl: {
     eyebrow: 'Co naprawdę kupujesz',
     statement:
       'Nie kupujesz pulpitów na stanowisko. Kupujesz *decyzję, którą inaczej byś przegapił* - i godziny, których przestajesz tracić na raport, który dotarł za późno.',
-    coda: 'Zacznij za darmo na danych, które już masz. Dodawaj inteligencję, gdy zasłuży na swoje miejsce.',
+    coda: 'Zacznij na danych, które już masz. Dodawaj inteligencję, gdy zasłuży na swoje miejsce.',
   },
   tr: {
     eyebrow: 'Aslında ne satın alıyorsunuz',
     statement:
       'Koltuk başına panolar satın almıyorsunuz. *Kaçıracağınız o kararı* satın alıyorsunuz - ve çok geç gelen rapora artık kaybetmediğiniz saatleri.',
-    coda: 'Zaten elinizdeki veriyle ücretsiz başlayın. Zekâyı, yerini hak ettikçe ekleyin.',
+    coda: 'Zaten elinizdeki veriyle başlayın. Zekâyı, yerini hak ettikçe ekleyin.',
   },
   'zh-Hans': {
     eyebrow: '你真正买的是什么',
     statement:
       '你买的不是按席位计费的仪表盘。你买的是*那个你本会错过的决定*--以及不再因报表来得太迟而白白流失的时间。',
-    coda: '用你手头已有的数据免费起步。当智能赢得它的位置时，再把它加上。',
+    coda: '用你手头已有的数据起步。当智能赢得它的位置时，再把它加上。',
   },
   ja: {
     eyebrow: 'あなたが本当に買うもの',
     statement:
       '席ごとのダッシュボードを買うのではありません。買うのは*見逃していたはずのその判断*--そして、遅れて届くレポートにもう奪われずに済む時間です。',
-    coda: 'いま手元にあるデータから無料で始めましょう。インテリジェンスは、その価値が証明された分だけ加えていけます。',
+    coda: 'いま手元にあるデータから始めましょう。インテリジェンスは、その価値が証明された分だけ加えていけます。',
   },
   ko: {
     eyebrow: '당신이 정말로 사는 것',
     statement:
       '좌석 단위로 대시보드를 사는 게 아닙니다. 당신이 사는 것은 *놓쳤을 그 결정* - 그리고 너무 늦게 도착한 리포트에 더는 빼앗기지 않는 시간입니다.',
-    coda: '이미 가진 데이터로 무료로 시작하세요. 인텔리전스는 제 몫을 증명할 때마다 더하면 됩니다.',
+    coda: '이미 가진 데이터로 시작하세요. 인텔리전스는 제 몫을 증명할 때마다 더하면 됩니다.',
   },
   id: {
     eyebrow: 'Yang sebenarnya Anda beli',
     statement:
       'Anda tidak membeli dasbor per kursi. Anda membeli *keputusan yang tadinya akan terlewat* - dan jam-jam yang tak lagi hilang gara-gara laporan yang datang terlambat.',
-    coda: 'Mulai gratis dengan data yang sudah Anda miliki. Tambahkan kecerdasan begitu ia membuktikan tempatnya.',
+    coda: 'Mulai dengan data yang sudah Anda miliki. Tambahkan kecerdasan begitu ia membuktikan tempatnya.',
   },
   vi: {
     eyebrow: 'Thứ bạn thật sự mua',
     statement:
       'Bạn không mua các bảng điều khiển tính theo chỗ ngồi. Bạn mua *quyết định lẽ ra bạn đã bỏ lỡ* - và những giờ bạn thôi đánh mất vì bản báo cáo đến quá trễ.',
-    coda: 'Bắt đầu miễn phí với dữ liệu bạn đã có. Thêm trí tuệ khi nó xứng đáng với chỗ đứng của mình.',
+    coda: 'Bắt đầu với dữ liệu bạn đã có. Thêm trí tuệ khi nó xứng đáng với chỗ đứng của mình.',
   },
   ro: {
     eyebrow: 'Ce cumperi de fapt',
     statement:
       'Nu cumperi tablouri de bord pe scaun. Cumperi *decizia pe care ai fi ratat-o* - și orele pe care nu le mai pierzi din cauza raportului care a sosit prea târziu.',
-    coda: 'Începe gratuit cu datele pe care le ai deja. Adaugă inteligență pe măsură ce își câștigă locul.',
+    coda: 'Începe cu datele pe care le ai deja. Adaugă inteligență pe măsură ce își câștigă locul.',
   },
   sv: {
     eyebrow: 'Vad du egentligen köper',
     statement:
       'Du köper inte instrumentpaneler per plats. Du köper *beslutet du annars hade missat* - och timmarna du slutar förlora till rapporten som kom för sent.',
-    coda: 'Börja gratis med datan du redan har. Lägg till intelligens när den förtjänar sin plats.',
+    coda: 'Börja med datan du redan har. Lägg till intelligens när den förtjänar sin plats.',
   },
   bn: {
     eyebrow: 'আপনি আসলে কী কিনছেন',
     statement:
       'আপনি আসন-পিছু ড্যাশবোর্ড কিনছেন না। আপনি কিনছেন *যে সিদ্ধান্তটি আপনার হাতছাড়া হয়ে যেত* - আর যে ঘণ্টাগুলো আপনি আর হারাচ্ছেন না সেই রিপোর্টের পেছনে যা এসেছিল বড্ড দেরিতে।',
-    coda: 'যে ডেটা আপনার কাছে আগে থেকেই আছে, তার উপরই বিনামূল্যে শুরু করুন। ইন্টেলিজেন্স ততটুকুই যোগ করুন যতটা সে তার জায়গা অর্জন করে।',
+    coda: 'যে ডেটা আপনার কাছে আগে থেকেই আছে, তার উপরই শুরু করুন। ইন্টেলিজেন্স ততটুকুই যোগ করুন যতটা সে তার জায়গা অর্জন করে।',
   },
   th: {
     eyebrow: 'สิ่งที่คุณกำลังซื้อจริง ๆ',
     statement:
       'คุณไม่ได้ซื้อแดชบอร์ดเป็นรายที่นั่ง คุณกำลังซื้อ *การตัดสินใจที่คุณคงพลาดไป* - และชั่วโมงที่คุณเลิกเสียไปกับรายงานที่มาถึงช้าเกินไป',
-    coda: 'เริ่มฟรีด้วยข้อมูลที่คุณมีอยู่แล้ว แล้วค่อยเพิ่มความฉลาดเมื่อมันพิสูจน์คุณค่าของตัวเอง',
+    coda: 'เริ่มด้วยข้อมูลที่คุณมีอยู่แล้ว แล้วค่อยเพิ่มความฉลาดเมื่อมันพิสูจน์คุณค่าของตัวเอง',
   },
   ms: {
     eyebrow: 'Apa yang anda beli sebenarnya',
     statement:
       'Anda tidak membeli papan pemuka mengikut tempat duduk. Anda membeli *keputusan yang anda mungkin terlepas* - dan jam yang anda berhenti rugi kepada laporan yang tiba terlalu lewat.',
-    coda: 'Mulakan percuma dengan data yang anda sudah ada. Tambah kecerdasan apabila ia layak mendapat tempatnya.',
+    coda: 'Mulakan dengan data yang anda sudah ada. Tambah kecerdasan apabila ia layak mendapat tempatnya.',
   },
 };
 

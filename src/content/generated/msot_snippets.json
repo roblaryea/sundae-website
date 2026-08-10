@@ -21,12 +21,12 @@
       "persona": "F&B CFO / Finance"
     },
     {
-      "answer": "Decision Intelligence platform - not a point solution. Spans 12 data domains across 6 intelligence layers with 17 Pulse sub-pages, 12 Insights modules, 7 Benchmark sections, 3 Watchtower sections. AI layer with 15 routes and conversational data access. Network-effect benchmarking. 458 data models, 420 services. No competitor plays in Decision Intelligence for restaurants.",
+      "answer": "Decision Intelligence platform — not a point solution. Sundae spans the full decision lifecycle: performance reporting, live shift awareness, benchmarking, external market intelligence, deep operational insights, predictive planning, workforce signal, and conversational AI. The investor proof is breadth already translated into commercial readiness, faster deployment, defensible benchmarks, partner leverage, and a product surface operators can use without analysts.",
       "pain": "How is this different from Toast Analytics or Restaurant365?",
       "persona": "Investor / VC"
     },
     {
-      "answer": "Report Lite starts at $0 with performance reports, 250 AI credits base (plus 80 per location), and document ingestion. Report Plus at $79/mo adds multi-location and 3 AI seats. Add only the modules you need - Guest Experience starts at $149/mo + $14/location, Revenue Assurance at $149/mo + $14/location, and Crew Lite starts at $99/mo + $19/location for workforce-first teams.",
+      "answer": "Core Foundation is the entry package at $1,195/mo for your first unit, and it already includes the Core domain modules — labour, inventory, purchasing, profit, revenue assurance and the rest — so there is no shopping list to assemble. Growing to a second site adds $175/mo, and each further unit is cheaper than the last as you move down the bands. Workforce-first teams can start on Crew Starter at $99/mo and layer Core on later.",
       "pain": "I can't afford an enterprise system but I need more than my POS dashboard gives me.",
       "persona": "Independent Restaurateur"
     }
@@ -46,13 +46,13 @@
         "No real-time operations monitoring (Pulse)",
         "No competitive intelligence (Watchtower)",
         "No 12 deep analytics modules (Insights)",
-        "No NL-to-SQL conversational AI"
+        "No plain-English conversational intelligence for operators"
       ],
       "name": "Tenzo"
     },
     {
       "gaps": [
-        "POS-first - no Decision Intelligence layer",
+        "POS-first — no Decision Intelligence layer",
         "No real-time ops (Pulse)",
         "No benchmarking",
         "No competitive intelligence"
@@ -61,7 +61,7 @@
     },
     {
       "gaps": [
-        "Inventory-only - no revenue intelligence",
+        "Inventory-only — no revenue intelligence",
         "No real-time ops (Pulse)",
         "No benchmarking",
         "No competitive intelligence (Watchtower)"
@@ -70,7 +70,7 @@
     },
     {
       "gaps": [
-        "Delivery/cloud kitchen focused only - no dine-in intelligence",
+        "Delivery/cloud kitchen focused only — no dine-in intelligence",
         "No benchmarking",
         "No competitive intelligence",
         "No deep analytics"
@@ -90,44 +90,63 @@
   },
   "differentiators": [
     {
-      "description": "Only Decision Intelligence platform spanning 12 data domains, 6 intelligence layers, 12 analytics modules, and conversational AI",
-      "title": "Breadth"
+      "description": "Sundae owns the complete loop — sense, decide, execute, measure, learn — from profit signal to verified recovery, auditable at the level of each individual decision. Each recovery decision is ranked by dollars at stake, assigned to one named owner, executed as one tracked action, proven by baseline reconciliation, and reused as outcome learning. Honesty is the moat: where there is no qualifying signal it produces nothing, and it abstains rather than inflate a number it cannot stand behind. Others report, forecast, recommend or automate parts of the process; only Sundae closes and reconciles the whole loop.",
+      "title": "Closed-loop profit recovery (the lead)"
     },
     {
-      "description": "Pulse with 17 sub-pages, 8 exception evaluators, and compound detection (death spiral, leakage drag) - no competitor has same-shift intelligence",
+      "description": "12 data domains, six Core intelligence layers, 12 analytics modules, and conversational AI feed one auditable decision — the depth is what makes the closure credible, not a feature list",
+      "title": "Breadth as the evidence network under the loop"
+    },
+    {
+      "description": "Pulse with 17 sub-pages, 8 exception evaluators, and compound detection (death spiral, leakage drag) — no competitor has same-shift intelligence",
       "title": "Real-time"
     },
     {
-      "description": "Benchmark creates a data moat - every new restaurant makes benchmarks more valuable for everyone. This is the STR model that built a $450M business in hotels.",
+      "description": "a purpose-built mobile-first PWA, not a responsive squeeze of the desktop — the full Decision Intelligence suite and every Crew operation redesigned for one-handed, glance-and-act use. An answer-first verdict home with persona-configurable pinned KPIs, all 12 Insights modules, 200+ Crew screens, WebAuthn biometric and geofenced clock-in, and opt-in web-push Pulse alerts — installable as a standalone app so operators run the business from their pocket during service, not after it.",
+      "title": "Premium mobile surface"
+    },
+    {
+      "description": "Benchmark creates a data moat — every new restaurant makes benchmarks more valuable for everyone. This is the STR model that built a $450M business in hotels.",
       "title": "Network effect"
     },
     {
-      "description": "Sundae Intelligence with NL-to-SQL, 10 AI chat modes, 1.1MB prompt library - democratizes data access beyond analysts",
+      "description": "Sundae Intelligence lets operators ask plain-English questions and get evidence-backed answers without waiting for analysts",
       "title": "Conversational AI"
     },
     {
-      "description": "$0 free tier to $349+ enterprise with 14 purchasable modules and 6 bundles - operators buy what they need, expand as they grow",
-      "title": "Modular pricing"
+      "description": "four Core packages (Foundation, Margin, Growth, Performance) each bundle the Core domain modules rather than metering them one by one, and every package prices on marginal per-unit bands — the 11th site costs less than the 2nd, and the 51st less again. Operators size the package to the decisions they need, not to a shopping list of add-ons.",
+      "title": "Packaged pricing that rewards scale"
     },
     {
-      "description": "6 @sundae/* SDK packages (ui, analytics, core, vertical-restaurant, partner-sdk, crew) with a VerticalConfig contract - restaurants is the founding vertical; additional verticals plug in without forking the platform. Partner-sdk is a public typed client with webhook signature verification.",
-      "title": "Multi-vertical architecture"
+      "description": "restaurants are the founding vertical; partner and workforce workflows can expand distribution without fragmenting the intelligence layer or losing the operator relationship.",
+      "title": "Expansion architecture"
     },
     {
-      "description": "scheduling, time & attendance, HR operations, product support, Ask-HR, People Intelligence, and a provider-neutral payroll readiness/statutory export engine with GCC country-pack workflows shipped; UK, EU, US, and Canada expansion scoped/on roadmap. Every shift, hour, HR record, and pay-cycle evidence point becomes signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight - a loop a standalone HR/payroll vendor cannot close.",
+      "description": "Sundae does not just surface insight — it acts on it. A cross-channel approve-in-the-loop actuation layer drafts and executes brand-voice review replies, AI-generated social posts, and ad-budget moves (pause/resume/set-budget), plus a conversational + voice agent reachable from Telegram, Slack, Teams, WhatsApp, web mic, or a phone line. A multi-modal actuator posts via the platform API where connected and degrades to a one-click handoff where there is none, so it can act even on channels with no public write API. Every action is logged with its method and outcome and fed back into the intelligence layer — a closed loop point solutions and read-only analytics tools cannot match.",
+      "title": "Action layer (closes the loop)"
+    },
+    {
+      "description": "scheduling, time & attendance, HR operations, product support, Ask-HR, People Intelligence, and a provider-neutral payroll calculation/readiness/statutory export engine with code-backed GCC, UK/GB, US, Canada, and EU country-pack workflows and export rails shipped. Live filing, bank submission, provider settlement, and jurisdiction production activation remain credential/legal-review gates, not missing product build. Every shift, hour, HR record, and pay-cycle evidence point becomes signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight — a loop a standalone HR/payroll vendor cannot close.",
       "title": "Operational substrate (Crew)"
+    },
+    {
+      "description": "a system-wide Data Trust signal (completeness, freshness, connection health, validity, and $-value reconciliation of Sundae net revenue vs the POS source) scores every number on screen and turns silent data gaps into a visible, governed indicator. Foresight adds its own provenance + confidence \"why you can trust this\" layer. Most analytics tools show numbers without telling operators whether they can be trusted.",
+      "title": "Trust layer"
+    },
+    {
+      "description": "multi-entity billing routes payment to the correct local legal entity (tax-driven, per-entity Stripe Tax and legal invoicing) with an effective-dated royalty ledger and currency-agnostic FX — so a multi-brand, multi-region operator bills correctly in every market without forking the platform or the data.",
+      "title": "Global-operator commercial rail"
+    },
+    {
+      "description": "one platform serves ten F&B operator models (three restaurant baselines — group, standalone, café/bakery — plus seven concept models: franchise/multi-brand, hotel F&B, cloud/delivery-first kitchen, catering & events, central kitchen network, rental/ghost commissary, and hybrid F&B group) additively on one topology/RLS/FX spine. Concepts are gated, not forked — an operator adopts a new concept grain (event, production) without a per-vertical rebuild and never loses the connected intelligence layer. A single-concept specialist covers one concept in one or two layers; Sundae covers all six layers across every concept from one spine.",
+      "title": "Multi-concept operator model — six Decision Intelligence layers deep × seven concepts wide"
     }
   ],
   "featureHighlights": [
     {
-      "bullets": [
-        "6 report tabs (Overview, Revenue Mix, Category Performance, Tender Mix, Daypart Analysis, Guest Counting)",
-        "Interactive charts (area, bar, pie, line, radial bar)",
-        "Multi-restaurant selector with segment filtering",
-        "Date range comparison (vs. last year, last month, custom)"
-      ],
-      "name": "Performance Report",
-      "tagline": "Stop assembling spreadsheets. Your weekly review is already done."
+      "bullets": [],
+      "name": "Insights",
+      "tagline": "Twelve operational blind spots. Twelve intelligence modules. Each one pays for itself."
     },
     {
       "bullets": [
@@ -137,7 +156,7 @@
         "Void/refund/discount/comp anomaly detection with per-employee patterns"
       ],
       "name": "Pulse",
-      "tagline": "Every shift managed. Every anomaly caught. Every action guided."
+      "tagline": "Every shift managed. Every anomaly caught. Every action guided — then learned from."
     },
     {
       "bullets": [
@@ -160,34 +179,39 @@
       "tagline": "Your morning briefing knows about the concert next door, the weather change, and what your competitor just did."
     },
     {
-      "bullets": [],
-      "name": "Insights",
-      "tagline": "Twelve operational blind spots. Twelve intelligence modules. Each one pays for itself."
-    },
-    {
       "bullets": [
-        "Predictive revenue and demand forecasting",
+        "Predictive revenue and demand forecasting, regenerated nightly",
         "Scenario modeling with what-if analysis",
         "Cross-module cascade effects (labor, inventory, purchasing impacts)",
         "Proactive recommendations based on predicted trends"
       ],
       "name": "Foresight",
-      "tagline": "Stop reacting to last week. Start preparing for next week."
+      "tagline": "Stop reacting to last week. Start preparing for next week — and know why the forecast says so."
+    },
+    {
+      "bullets": [
+        "Natural language query interface with three-panel layout",
+        "Plain-English question answering with governed data access",
+        "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
+        "Voice input via Web Speech API"
+      ],
+      "name": "Sundae Intelligence",
+      "tagline": "Ask in plain English. Get the answer, the recommended move, and the evidence behind it."
     }
   ],
-  "generated_at": "2026-06-09T07:53:48.698Z",
+  "generated_at": "2026-08-10T22:18:33.257Z",
   "hero": {
     "bullets": [
       "Detects what matters before the P&L shows what went wrong",
       "Recommends the move and routes it to the right operator",
       "Measures the outcome so the next decision gets sharper"
     ],
-    "headline": "Sundae is The Decision Intelligence layer for restaurants",
-    "subheadline": "Sundae is The Decision Intelligence layer for restaurants that Connects operational data, detects what matters, recommends the move, routes it to the right operator, and measures the outcome"
+    "headline": "Sundae is The Decision Intelligence Platform for closed-loop profit recovery across multi-location food-service — the only food-service decision system that closes the entire loop at the level of each individual profit-recovery decision",
+    "subheadline": "Sundae is The Decision Intelligence Platform for closed-loop profit recovery across multi-location food-service — the only food-service decision system that closes the entire loop at the level of each individual profit-recovery decision that Continuously watches the operation, finds and values where profit is being lost, explains why, assigns the fix to a named operator, tracks it through execution, measures the financial outcome against a defined baseline, and learns what works across outlets and concepts"
   },
   "modules": [
     {
-      "blurb": "Anonymized industry benchmarking - the STR model for restaurants. Seven sections with network-effect data moat.",
+      "blurb": "Anonymized industry benchmarking — the STR model for restaurants. Seven sections with network-effect data moat.",
       "bullets": [
         "RevPASH, Seat Occupancy, Average Check, Total Revenue with compset median and percentile rankings",
         "Financial, Operational, Space & Rent, Revenue Mix, Daypart Heatmap tabs",
@@ -198,33 +222,23 @@
       "name": "Benchmark"
     },
     {
-      "blurb": "Predictive forecasting, scenario modeling, and cross-module cascading - from reactive to proactive intelligence.",
+      "blurb": "Predictive forecasting, scenario modeling, and cross-module cascading — from reactive to proactive intelligence, with a trust layer that shows why you can trust each number. Forecasts regenerate nightly; accuracy is still validating (described as beta, never as proven).",
       "bullets": [
-        "Predictive revenue and demand forecasting",
+        "Predictive revenue and demand forecasting, regenerated nightly",
         "Scenario modeling with what-if analysis",
         "Cross-module cascade effects (labor, inventory, purchasing impacts)",
-        "Proactive recommendations based on predicted trends"
+        "Proactive recommendations based on predicted trends",
+        "Provenance + confidence trust layer (\"why you can trust this\") on every forecast"
       ],
       "name": "Foresight"
     },
     {
-      "blurb": "12 deep analytics modules + 6 cross-cutting views = 18 total Insights routes. Crew workforce signal folded into Labor Intelligence as Workforce Health + Payroll & Compliance sub-pages (not a 13th module).",
+      "blurb": "12 deep analytics modules + 6 cross-cutting views across the operating domains. Crew workforce signal is folded into Labor Intelligence as Workforce Health + Payroll & Compliance rather than marketed as a separate analytics island.",
       "bullets": [],
       "name": "Insights"
     },
     {
-      "blurb": "Historical analytics foundation. Six report tabs covering full sales performance: Overview, Revenue Mix, Category Performance, Tender Mix, Daypart Analysis, Guest Counting.",
-      "bullets": [
-        "6 report tabs (Overview, Revenue Mix, Category Performance, Tender Mix, Daypart Analysis, Guest Counting)",
-        "Interactive charts (area, bar, pie, line, radial bar)",
-        "Multi-restaurant selector with segment filtering",
-        "Date range comparison (vs. last year, last month, custom)",
-        "Monthly target setting with proration"
-      ],
-      "name": "Performance Report"
-    },
-    {
-      "blurb": "Real-time operations command center with 17 sub-pages.",
+      "blurb": "Deep same-shift operations cockpit with 17 sub-pages — not just a live dashboard. Answer-first cards, root-cause and recovery workflows, stockout prediction, a leakage workbench, Floor Mode, role-based modes, and an outcome learning loop that gets smarter every shift.",
       "bullets": [
         "Hero pace bar with adaptive AI targets and hourly breakdown",
         "Active staff tracking with SPLH and break compliance",
@@ -235,10 +249,10 @@
       "name": "Pulse"
     },
     {
-      "blurb": "(Details pending)",
+      "blurb": "Conversational Decision Intelligence — ask any question in plain English and get a governed answer with the recommended move and the evidence behind it. Natural-language-to-SQL over the real schema, SELECT-only with a 1000-row cap, topology-scoped, and metered against AI credits. The conversational layer that ties the other five together.",
       "bullets": [
         "Natural language query interface with three-panel layout",
-        "NL-to-SQL conversion and execution (SELECT-only, 1000-row cap)",
+        "Plain-English question answering with governed data access",
         "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
         "Voice input via Web Speech API",
         "Conversation folders with pinning"
@@ -261,28 +275,23 @@
     "plans": [
       {
         "from": "Contact us",
-        "name": "Report Lite",
-        "note": "Free forever - upload POS data and get instant benchmarking."
+        "name": "Core Foundation",
+        "note": "The paid entry point — governed labour, profit and revenue-assurance signal with real-time Pulse."
       },
       {
         "from": "Contact us",
-        "name": "Report Plus",
-        "note": "AI-parsed data ingestion with deeper analysis and monthly intelligence summaries."
+        "name": "Core Margin",
+        "note": "Adds the full inventory and purchasing experience — the cost-side margin package."
       },
       {
         "from": "Contact us",
-        "name": "Report Pro",
-        "note": "Automated daily ingestion with advanced AI insights and team collaboration."
+        "name": "Core Growth",
+        "note": "The demand-side package — marketing, reservations, guest experience and guest CRM, with Watchtower."
       },
       {
         "from": "Contact us",
-        "name": "Core Lite",
-        "note": "Real-time operational intelligence with 15-minute data refresh."
-      },
-      {
-        "from": "Contact us",
-        "name": "Core Pro",
-        "note": "Full intelligence stack with 5-minute refresh, multi-POS, and advanced modules."
+        "name": "Core Performance",
+        "note": "Every domain plus Foresight — the complete closed-loop profit-recovery surface."
       },
       {
         "from": "Contact us",
@@ -301,39 +310,24 @@
       "12 distinct data domains ingested",
       "209 integrations available across 12 data domains",
       "57 POS connection options (native vendor adapters + direct-database connectors)",
-      "10 registered AI chat modes",
-      "18 Insights routes (12 deep analytics modules + 6 cross-cutting views) across 6 intelligence layers, plus Crew operational suite",
+      "12 deep Insights modules plus 6 cross-cutting views across the six intelligence layers, with Crew workforce signal folded into Labor Intelligence",
       "17 sub-pages in Pulse",
       "12 Insights deep analytics modules",
-      "Report Plus includes 3 AI seats"
+      "8 Crew SKUs (6 GA-priced + 2 pre-GTM Multi-Concept F&B concept SKUs)",
+      "4 Core packages: Foundation, Margin, Growth, Performance",
+      "Core Foundation: $1,195/mo for the first unit, then marginal bands of $175 (units 2-10), $150 (11-25), $125 (26-50), $105 (51-100)",
+      "Core Margin: $1,650/mo for the first unit, then marginal bands of $245 (units 2-10), $210 (11-25), $175 (26-50), $145 (51-100)",
+      "Core Growth: $1,925/mo for the first unit, then marginal bands of $260 (units 2-10), $225 (11-25), $190 (26-50), $155 (51-100)",
+      "Core Performance: $2,980/mo for the first unit, then marginal bands of $409 (units 2-10), $348 (11-25), $290 (26-50), $236 (51-100)",
+      "11 Core domain modules ship as package components, not as a-la-carte purchases",
+      "Foresight & Action: $495/mo for the first unit, then marginal bands of $65 (units 2-10), $55 (11-25), $45 (26-50), $35 (51-100)",
+      "Core AI credit wallets: Foundation 14,000, Margin 16,000, Growth 18,000, Performance 24,000",
+      "Billing-cycle discounts: 10% annual, 15% two-year, with a combined calculated-discount cap of 15%",
+      "Volume ladder: 0% under 50 units, 2.5% at 50-99, 5% at 100-199, 7% at 200-249; 250+ is Enterprise with no self-serve band",
+      "Implementation is charged once at the highest class in the selection, never summed: $0 self-service, $1,500 class A, $2,500 class B, $7,500 class C, from $12,500 class D",
+      "250+ units is Enterprise — quoted, with no self-serve volume band"
     ],
-    "investor_items": [
-      {
-        "claim": "458 data models in the platform",
-        "unit": "models",
-        "value": "458"
-      },
-      {
-        "claim": "420 backend services",
-        "unit": "services",
-        "value": "420"
-      },
-      {
-        "claim": "534 frontend pages",
-        "unit": "pages",
-        "value": "534"
-      },
-      {
-        "claim": "15 registered AI routes",
-        "unit": "routes",
-        "value": "15"
-      },
-      {
-        "claim": "6 @sundae/* SDK packages with VerticalConfig multi-vertical contract",
-        "unit": "packages",
-        "value": "6"
-      }
-    ],
+    "investor_items": [],
     "items": [
       {
         "claim": "12 distinct data domains ingested",
@@ -351,13 +345,8 @@
         "value": "57"
       },
       {
-        "claim": "10 registered AI chat modes",
-        "unit": "chat modes",
-        "value": "10"
-      },
-      {
-        "claim": "18 Insights routes (12 deep analytics modules + 6 cross-cutting views) across 6 intelligence layers, plus Crew operational suite",
-        "unit": "Insights routes",
+        "claim": "12 deep Insights modules plus 6 cross-cutting views across the six intelligence layers, with Crew workforce signal folded into Labor Intelligence",
+        "unit": "views",
         "value": "18"
       },
       {
@@ -371,9 +360,69 @@
         "value": "12"
       },
       {
-        "claim": "Report Plus includes 3 AI seats",
-        "unit": "AI seats",
-        "value": "3"
+        "claim": "8 Crew SKUs (6 GA-priced + 2 pre-GTM Multi-Concept F&B concept SKUs)",
+        "unit": "Crew SKUs",
+        "value": "8"
+      },
+      {
+        "claim": "4 Core packages: Foundation, Margin, Growth, Performance",
+        "unit": "packages",
+        "value": "4"
+      },
+      {
+        "claim": "Core Foundation: $1,195/mo for the first unit, then marginal bands of $175 (units 2-10), $150 (11-25), $125 (26-50), $105 (51-100)",
+        "unit": "USD/mo first unit",
+        "value": "1195"
+      },
+      {
+        "claim": "Core Margin: $1,650/mo for the first unit, then marginal bands of $245 (units 2-10), $210 (11-25), $175 (26-50), $145 (51-100)",
+        "unit": "USD/mo first unit",
+        "value": "1650"
+      },
+      {
+        "claim": "Core Growth: $1,925/mo for the first unit, then marginal bands of $260 (units 2-10), $225 (11-25), $190 (26-50), $155 (51-100)",
+        "unit": "USD/mo first unit",
+        "value": "1925"
+      },
+      {
+        "claim": "Core Performance: $2,980/mo for the first unit, then marginal bands of $409 (units 2-10), $348 (11-25), $290 (26-50), $236 (51-100)",
+        "unit": "USD/mo first unit",
+        "value": "2980"
+      },
+      {
+        "claim": "11 Core domain modules ship as package components, not as a-la-carte purchases",
+        "unit": "modules",
+        "value": "11"
+      },
+      {
+        "claim": "Foresight & Action: $495/mo for the first unit, then marginal bands of $65 (units 2-10), $55 (11-25), $45 (26-50), $35 (51-100)",
+        "unit": "USD/mo first unit",
+        "value": "495"
+      },
+      {
+        "claim": "Core AI credit wallets: Foundation 14,000, Margin 16,000, Growth 18,000, Performance 24,000",
+        "unit": "AI credits",
+        "value": "14,000-24,000"
+      },
+      {
+        "claim": "Billing-cycle discounts: 10% annual, 15% two-year, with a combined calculated-discount cap of 15%",
+        "unit": "% max combined",
+        "value": "15"
+      },
+      {
+        "claim": "Volume ladder: 0% under 50 units, 2.5% at 50-99, 5% at 100-199, 7% at 200-249; 250+ is Enterprise with no self-serve band",
+        "unit": "% volume discount",
+        "value": "0-7%"
+      },
+      {
+        "claim": "Implementation is charged once at the highest class in the selection, never summed: $0 self-service, $1,500 class A, $2,500 class B, $7,500 class C, from $12,500 class D",
+        "unit": "USD one-time",
+        "value": "0-12,500+"
+      },
+      {
+        "claim": "250+ units is Enterprise — quoted, with no self-serve volume band",
+        "unit": "pricing",
+        "value": "custom"
       }
     ],
     "operator_translation_rule": "Website/customer copy translates internal proof into operator outcomes. Raw architecture proof stays in investor/internal materials."
