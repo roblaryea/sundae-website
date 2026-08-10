@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { REPORT_APP_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -64,100 +63,100 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     heroBadge: "The Sundae Platform",
     heroTitle: "500 Data Models. 12 Domains. One Truth.",
     heroDescription: "Six intelligence layers that turn fragmented restaurant data into decisions that compound - shift by shift, outlet by outlet.",
-    heroPrimary: "Start with Report Lite",
+    heroPrimary: "See Plans",
     heroSecondary: "Book a Working Session",
-    freeLabel: "FREE TO START",
-    freeTitle: "Sundae Report",
-    freeSubtitle: "Historical Analysis & Benchmarking",
-    freeDescription: "Upload your data. See where you stand against peers. Performance benchmarks, margin patterns, and competitive positioning - free to start with Report Lite.",
+    freeLabel: "DECISION SUBSTRATE",
+    freeTitle: "Sundae Core",
+    freeSubtitle: "Four packages, eleven domain modules",
+    freeDescription: "One operating picture over POS, labor, cost and guest. Every package carries all eleven domain modules; the package you choose sets how deep each one goes.",
     freeIncludes: "Includes:",
-    freeCta: "Explore Sundae Report →",
-    coreLabel: "MOST POPULAR",
-    coreTitle: "Sundae Core",
-    coreSubtitle: "Real-Time Operations & Intelligence",
-    coreDescription: "Everything in Report, plus live operations. Intraday pacing, market signals, 12 intelligence modules, predictive forecasting, and Sundae Coach recommendations.",
-    coreIncludes: "Everything in Report, plus:",
-    coreCta: "Explore Sundae Core →",
-    compareCta: "Compare Report vs Core →",
+    freeCta: "Explore Sundae Core →",
+    coreLabel: "WORKFORCE SUBSTRATE",
+    coreTitle: "Sundae Crew",
+    coreSubtitle: "People, schedules, time and pay",
+    coreDescription: "The operational layer under the intelligence: demand-aware scheduling, clock-in and timesheets, payroll readiness and multi-region statutory exports.",
+    coreIncludes: "Includes:",
+    coreCta: "Explore Sundae Crew →",
+    compareCta: "See pricing →",
     layersEyebrow: "SIX INTELLIGENCE LAYERS",
     layersTitle: "From Shift Floor to Boardroom",
     layersDescription: "Each layer handles a distinct dimension of restaurant performance. Together, they form a closed-loop intelligence system.",
-    ctaTitle: "Start with Report Lite. Scale when ready.",
-    ctaDescription: "Historical benchmarking at no cost. Real-time operations when you need the edge.",
+    ctaTitle: "Two substrates. One operating picture.",
+    ctaDescription: "Core reads the business. Crew runs the people. Every shift Crew plans becomes signal Core reasons over.",
   },
   ar: {
     heroBadge: "منصة Sundae",
     heroTitle: "500 نموذج بيانات. 12 مجالاً. حقيقة واحدة.",
     heroDescription: "ست طبقات ذكاء تحول بيانات المطعم المتناثرة إلى قرارات تتراكم قيمتها - من الوردية إلى الموقع.",
-    heroPrimary: "ابدأ مجاناً مع Report",
+    heroPrimary: "اطّلع على الباقات",
     heroSecondary: "احجز عرضاً",
-    freeLabel: "مجاني للأبد",
-    freeTitle: "Sundae Report",
-    freeSubtitle: "تحليل تاريخي ومقارنة مرجعية",
-    freeDescription: "ارفع بياناتك. شاهد موقعك مقابل الأقران. مؤشرات الأداء وأنماط الهوامش والموقع التنافسي - مجاناً، للأبد.",
+    freeLabel: "ركيزة القرار",
+    freeTitle: "Sundae Core",
+    freeSubtitle: "أربع باقات، وإحدى عشرة وحدة",
+    freeDescription: "صورة تشغيلية واحدة فوق نقاط البيع والعمالة والتكلفة والضيف. كل باقة تضم الوحدات الإحدى عشرة، والباقة تحدد عمق كل وحدة.",
     freeIncludes: "يشمل:",
-    freeCta: "استكشاف Sundae Report →",
-    coreLabel: "الأكثر شعبية",
-    coreTitle: "Sundae Core",
-    coreSubtitle: "العمليات والذكاء في الوقت الفعلي",
-    coreDescription: "كل ما في Report، بالإضافة إلى العمليات المباشرة. وتيرة داخلية، إشارات السوق، 12 وحدة ذكاء، توقعات مستقبلية، وتوصيات Sundae Coach.",
-    coreIncludes: "كل ما في Report، بالإضافة إلى:",
-    coreCta: "استكشاف Sundae Core →",
-    compareCta: "مقارنة Report مقابل Core →",
+    freeCta: "استكشاف Sundae Core →",
+    coreLabel: "ركيزة القوى العاملة",
+    coreTitle: "Sundae Crew",
+    coreSubtitle: "الأفراد والجداول والوقت والرواتب",
+    coreDescription: "الطبقة التشغيلية تحت الذكاء: جدولة واعية بالطلب، وتسجيل حضور وكشوف ساعات، وجاهزية رواتب وتصدير نظامي متعدد المناطق.",
+    coreIncludes: "يشمل:",
+    coreCta: "استكشاف Sundae Crew →",
+    compareCta: "عرض الأسعار →",
     layersEyebrow: "ست طبقات ذكاء",
     layersTitle: "من أرضية الوردية إلى غرفة الإدارة",
     layersDescription: "كل طبقة تعالج بُعداً مختلفاً من أداء المطعم. معاً، يشكلون نظام ذكاء مغلق الحلقة.",
-    ctaTitle: "ابدأ مجاناً. وتوسع عندما تكون جاهزاً.",
-    ctaDescription: "مقارنة مرجعية تاريخية بلا تكلفة. وعمليات لحظية عندما تحتاج الأفضلية.",
+    ctaTitle: "ركيزتان. وصورة تشغيلية واحدة.",
+    ctaDescription: "Core يقرأ العمل، وCrew يدير الناس. وكل وردية يخطط لها Crew تصبح إشارة يستدل بها Core.",
   },
   fr: {
     heroBadge: "La plateforme Sundae",
     heroTitle: "500 modeles de donnees. 12 domaines. Une seule verite.",
     heroDescription: "Six couches d'intelligence qui transforment des donnees restaurant fragmentees en decisions cumulatives - service par service, site par site.",
-    heroPrimary: "Commencer gratuitement avec Report",
+    heroPrimary: "Voir les offres",
     heroSecondary: "Reserver une demo",
-    freeLabel: "GRATUIT A VIE",
-    freeTitle: "Sundae Report",
-    freeSubtitle: "Analyse historique et benchmarking",
-    freeDescription: "Importez vos donnees. Voyez ou vous vous situez face aux pairs. Benchmarks, marges et positionnement concurrentiel - gratuit, a vie.",
+    freeLabel: "BASE DE DECISION",
+    freeTitle: "Sundae Core",
+    freeSubtitle: "Quatre offres, onze modules metier",
+    freeDescription: "Une seule image d exploitation sur le POS, la main-d oeuvre, les couts et le client. Chaque offre embarque les onze modules ; l offre choisie fixe leur profondeur.",
     freeIncludes: "Comprend :",
-    freeCta: "Decouvrir Sundae Report →",
-    coreLabel: "LE PLUS POPULAIRE",
-    coreTitle: "Sundae Core",
-    coreSubtitle: "Operations et intelligence en temps reel",
-    coreDescription: "Tout ce qu'il y a dans Report, plus les operations live. Pacing intraday, signaux de marche, 12 modules d'intelligence, previsions et recommandations Sundae Coach.",
-    coreIncludes: "Tout ce qu'il y a dans Report, plus :",
-    coreCta: "Decouvrir Sundae Core →",
-    compareCta: "Comparer Report et Core →",
+    freeCta: "Decouvrir Sundae Core →",
+    coreLabel: "SOCLE RH",
+    coreTitle: "Sundae Crew",
+    coreSubtitle: "Personnes, plannings, temps et paie",
+    coreDescription: "La couche operationnelle sous l intelligence : plannings pilotes par la demande, pointage et feuilles de temps, preparation de la paie et exports statutaires multi-regions.",
+    coreIncludes: "Comprend :",
+    coreCta: "Decouvrir Sundae Crew →",
+    compareCta: "Voir les tarifs →",
     layersEyebrow: "SIX COUCHES D'INTELLIGENCE",
     layersTitle: "Du service jusqu'au board",
     layersDescription: "Chaque couche couvre une dimension specifique de la performance. Ensemble, elles forment un systeme d'intelligence en boucle fermee.",
-    ctaTitle: "Commencez gratuitement. Evoluez quand vous etes pret.",
-    ctaDescription: "Benchmarking historique sans cout. Operations en temps reel quand vous avez besoin d'un avantage.",
+    ctaTitle: "Deux socles. Une seule image d exploitation.",
+    ctaDescription: "Core lit l activite, Crew fait tourner les equipes. Chaque service planifie par Crew devient un signal que Core exploite.",
   },
   es: {
     heroBadge: "La plataforma Sundae",
     heroTitle: "500 modelos de datos. 12 dominios. Una sola verdad.",
     heroDescription: "Seis capas de inteligencia que convierten datos fragmentados de restaurantes en decisiones acumulativas - turno a turno, local a local.",
-    heroPrimary: "Empieza gratis con Report",
+    heroPrimary: "Ver paquetes",
     heroSecondary: "Reservar una demo",
-    freeLabel: "GRATIS PARA SIEMPRE",
-    freeTitle: "Sundae Report",
-    freeSubtitle: "Analisis historico y benchmarking",
-    freeDescription: "Sube tus datos. Mira donde te sitúas frente a tus pares. Benchmarks, patrones de margen y posicionamiento competitivo - gratis, para siempre.",
+    freeLabel: "SUSTRATO DE DECISION",
+    freeTitle: "Sundae Core",
+    freeSubtitle: "Cuatro paquetes, once modulos de dominio",
+    freeDescription: "Una sola imagen operativa sobre POS, personal, coste y cliente. Cada paquete lleva los once modulos; el paquete que elijas marca cuanto profundiza cada uno.",
     freeIncludes: "Incluye:",
-    freeCta: "Explorar Sundae Report →",
-    coreLabel: "MAS POPULAR",
-    coreTitle: "Sundae Core",
-    coreSubtitle: "Operaciones e inteligencia en tiempo real",
-    coreDescription: "Todo lo de Report, mas operaciones en vivo. Ritmo intradia, señales de mercado, 12 modulos de inteligencia, previsiones y recomendaciones de Sundae Coach.",
-    coreIncludes: "Todo lo de Report, mas:",
-    coreCta: "Explorar Sundae Core →",
-    compareCta: "Comparar Report vs Core →",
+    freeCta: "Explorar Sundae Core →",
+    coreLabel: "SUSTRATO DE PERSONAL",
+    coreTitle: "Sundae Crew",
+    coreSubtitle: "Personas, horarios, tiempo y nomina",
+    coreDescription: "La capa operativa bajo la inteligencia: horarios guiados por demanda, fichaje y hojas de horas, preparacion de nominas y exportes estatutarios multirregion.",
+    coreIncludes: "Incluye:",
+    coreCta: "Explorar Sundae Crew →",
+    compareCta: "Ver precios →",
     layersEyebrow: "SEIS CAPAS DE INTELIGENCIA",
     layersTitle: "Del turno a la sala directiva",
     layersDescription: "Cada capa cubre una dimension distinta del rendimiento del restaurante. Juntas forman un sistema de inteligencia en bucle cerrado.",
-    ctaTitle: "Empieza gratis. Escala cuando estes listo.",
+    ctaTitle: "Dos sustratos. Una sola imagen operativa.",
     ctaDescription: "Benchmarking historico sin coste. Operaciones en tiempo real cuando necesites ventaja.",
   },
 };
@@ -208,7 +207,7 @@ export default function ProductPage() {
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={ui.heroDescription}>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>{ui.heroPrimary}</Button>
+          <Button variant="cta" size="lg" onClick={() => cta("/pricing", "see_pricing_product_hero", { page: "/product" })}>{ui.heroPrimary}</Button>
           <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })}>{ui.heroSecondary}</Button>
         </div>
       </PageHero>
@@ -216,7 +215,7 @@ export default function ProductPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp><div className="text-center mb-12">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.freeLabel === 'FREE TO START' ? 'Start with Report Lite. Scale when ready.' : ui.freeLabel === 'مجاني للأبد' ? 'ابدأ مجاناً. وتوسع عندما تكون جاهزاً.' : ui.freeLabel === 'GRATUIT A VIE' ? 'Commencez gratuitement. Evoluez quand vous etes pret.' : 'Empieza gratis. Escala cuando estes listo.'}</h2>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.ctaTitle}</h2>
             <p className="body-lg text-[var(--text-supporting)]">{ui.ctaDescription}</p>
           </div></FadeUp>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -233,12 +232,12 @@ export default function ProductPage() {
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.freeDescription}</p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.freeIncludes}</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Benchmarks (competitive intelligence)' : locale === 'ar' ? 'المقارنات (الذكاء التنافسي)' : locale === 'fr' ? 'Benchmarks (intelligence concurrentielle)' : 'Benchmarks (inteligencia competitiva)'}</li>
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Performance Report' : locale === 'ar' ? 'تقرير الأداء' : locale === 'fr' ? 'Rapport de performance' : 'Informe de rendimiento'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'All eleven domain modules' : locale === 'ar' ? 'الوحدات الإحدى عشرة كلها' : locale === 'fr' ? 'Les onze modules metier' : 'Los once modulos de dominio'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Pulse (intraday operations)' : locale === 'ar' ? 'Pulse (العمليات داخل اليوم)' : locale === 'fr' ? 'Pulse (operations intraday)' : 'Pulse (operaciones intradia)'}</li>
                     <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Sundae Intelligence' : locale === 'ar' ? 'Sundae Intelligence' : locale === 'fr' ? 'Sundae Intelligence' : 'Sundae Intelligence'}</li>
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Integrations Hub' : locale === 'ar' ? 'مركز التكاملات' : locale === 'fr' ? 'Hub des integrations' : 'Centro de integraciones'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Anonymous peer benchmarking' : locale === 'ar' ? 'مقارنة مرجعية مجهولة مع الأقران' : locale === 'fr' ? 'Benchmarking anonyme entre pairs' : 'Benchmarking anonimo entre pares'}</li>
                   </ul>
-                  <Button variant="primary" className="w-full" onClick={() => cta("/report", "view_report_product", { page: "/product" })}>{ui.freeCta}</Button>
+                  <Button variant="primary" className="w-full" onClick={() => cta("/core", "view_core_product_card", { page: "/product" })}>{ui.freeCta}</Button>
                 </CardContent>
               </Card>
             </motion.div>
@@ -255,19 +254,18 @@ export default function ProductPage() {
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.coreDescription}</p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.coreIncludes}</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> Pulse ({locale === 'en' ? 'intraday operations' : locale === 'ar' ? 'العمليات داخل اليوم' : locale === 'fr' ? 'operations intraday' : 'operaciones intradia'})</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> Watchtower ({locale === 'en' ? 'market intelligence' : locale === 'ar' ? 'ذكاء السوق' : locale === 'fr' ? 'intelligence marche' : 'inteligencia de mercado'})</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? '12 Intelligence Modules' : locale === 'ar' ? '12 وحدة ذكاء' : locale === 'fr' ? '12 modules d\'intelligence' : '12 modulos de inteligencia'}</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> Foresight ({locale === 'en' ? 'predictive intelligence' : locale === 'ar' ? 'ذكاء تنبؤي' : locale === 'fr' ? 'intelligence predictive' : 'inteligencia predictiva'})</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'Sundae Coach & Playbooks' : locale === 'ar' ? 'Sundae Coach وخطط التشغيل' : locale === 'fr' ? 'Sundae Coach & playbooks' : 'Sundae Coach y playbooks'}</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'Demand-aware scheduling' : locale === 'ar' ? 'جدولة واعية بالطلب' : locale === 'fr' ? 'Plannings pilotes par la demande' : 'Horarios guiados por demanda'}</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'Time & attendance' : locale === 'ar' ? 'الحضور والانصراف' : locale === 'fr' ? 'Temps et presence' : 'Control horario'}</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'Payroll readiness & statutory exports' : locale === 'ar' ? 'جاهزية الرواتب والتصدير النظامي' : locale === 'fr' ? 'Preparation de la paie et exports statutaires' : 'Preparacion de nominas y exportes estatutarios'}</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">✓</span> {locale === 'en' ? 'People & HR records' : locale === 'ar' ? 'سجلات الأفراد والموارد البشرية' : locale === 'fr' ? 'Dossiers RH' : 'Registros de personas y RR. HH.'}</li>
                   </ul>
-                  <Button variant="primary" className="w-full" onClick={() => cta("/core", "view_core_product", { page: "/product" })}>{ui.coreCta}</Button>
+                  <Button variant="primary" className="w-full" onClick={() => cta("/crew", "view_crew_product", { page: "/product" })}>{ui.coreCta}</Button>
                 </CardContent>
               </Card>
             </motion.div>
           </div>
           <div className="text-center mt-8">
-            <Button variant="outline" size="sm" onClick={() => cta("/report-vs-core", "compare_tiers_product", { page: "/product" })}>{ui.compareCta}</Button>
+            <Button variant="outline" size="sm" onClick={() => cta("/pricing", "see_pricing_product", { page: "/product" })}>{ui.compareCta}</Button>
           </div>
         </div>
       </section>

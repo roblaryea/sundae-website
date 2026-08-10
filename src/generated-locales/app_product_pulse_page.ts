@@ -3,14 +3,6 @@
 export const generatedLocalCopy = {
   "localizedPulseCopy": {
     "ar": {
-      "hero": {
-        "badge": "Pulse - العمليات اللحظية",
-        "title": "خسارة 2 ألف دولار أمريكي لكل نوبة عمل سيئة. Pulse يمسك به على الهواء مباشرة.",
-        "description": "سرعة الإيرادات، وتكلفة العمالة، وأداء النُّدُل، واكتشاف التسرب - يتم التحديث كل 5 دقائق. أهداف تكيفية تتعرف على أنماطك وموسميتك وأحداثك المحلية. تصرف قبل أن يكلفك ذلك.",
-        "primary": "احجز عرضًا توضيحيًا",
-        "secondary": "شاهد Pulse أثناء العمل",
-        "note": "متوفر في خطط Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 قدرات. مركز عصبي تشغيلي واحد.",
         "description": "يراقب Pulse عملياتك في الوقت الفعلي ويوجّه فريقك عندما تخرج الأمور عن المسار الصحيح.",
@@ -174,12 +166,6 @@ export const generatedLocalCopy = {
           "description": "وردية الصباح لديك تضم 4 موظفين لمدة 8 ساعات. ووردية المساء تضم 8 موظفين لمدة 5 ساعات. أيهما مربح فعلاً؟ يحلل Pulse تكلفة كل وردية - حسب الدور وحسب الفرد - ويقارنها بالإيرادات التي تحققها تلك الوردية. اطّلع على نسبة تكلفة العمالة حسب الوردية، وحدّد زيادة عدد الموظفين، واتخذ قرارات جدولة أكثر ذكاءً."
         }
       },
-      "cta": {
-        "title": "توقف عن إدارة الورديات بشكل أعمى",
-        "description": "يتوفر Pulse في كل خطة Sundae Core. شاهد ما يحدث الآن - وليس في نهاية اليوم.",
-        "primary": "احجز عرضًا توضيحيًا",
-        "secondary": "ابدأ مع Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - وتيرة المبيعات",
         "live": "مباشر",
@@ -240,14 +226,6 @@ export const generatedLocalCopy = {
       }
     },
     "es": {
-      "hero": {
-        "badge": "Pulse - Operaciones intradía",
-        "title": "$2,000 perdidos por turno incorrecto. Pulse lo capta en vivo.",
-        "description": "Ritmo de ingresos, coste laboral, rendimiento de los camareros y detección de fugas: actualización cada 5 minutos. Objetivos adaptables que aprenden sus patrones, estacionalidad y eventos locales. Actúa antes de que te cueste.",
-        "primary": "Reserve una demostración",
-        "secondary": "Vea Pulse en acción",
-        "note": "Disponible en los planes Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 capacidades. Un centro nervioso operativo.",
         "description": "Pulse monitorea su operación en tiempo real y entrena a su equipo cuando las cosas se desvían.",
@@ -411,12 +389,6 @@ export const generatedLocalCopy = {
           "description": "Su turno de mañana lleva 4 personas durante 8 horas. El de la tarde, 8 personas durante 5 horas. ¿Cuál es realmente rentable? Pulse desglosa el coste de cada turno (por puesto, por persona) y lo compara con los ingresos que genera ese turno. Vea su ratio de coste laboral por turno, detecte el exceso de personal y tome decisiones de planificación más inteligentes."
         }
       },
-      "cta": {
-        "title": "Deje de gestionar turnos a ciegas",
-        "description": "Pulse está en todos los planes Sundae Core. Vea lo que está sucediendo ahora, no al final del día.",
-        "primary": "Reserve una demostración",
-        "secondary": "Empieza con Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Ritmo de ventas",
         "live": "EN VIVO",
@@ -477,14 +449,6 @@ export const generatedLocalCopy = {
       }
     },
     "de": {
-      "hero": {
-        "badge": "Pulse - Intraday-Operationen",
-        "title": "2.000 $ Verlust pro fehlerhafter Schicht. Pulse fängt es live ein.",
-        "description": "Umsatzsteuerung, Arbeitskosten, Leistung der Servicekräfte und Leckageerkennung - Aktualisierung alle 5 Minuten. Adaptive Ziele, die Ihre Muster, Saisonalität und lokalen Ereignisse lernen. Handeln Sie, bevor es Sie kostet.",
-        "primary": "Buchen Sie eine Demo",
-        "secondary": "Sehen Sie Pulse in Aktion",
-        "note": "Verfügbar für Sundae Core-Pläne."
-      },
       "quickGrid": {
         "heading": "10 Fähigkeiten. Ein operatives Nervenzentrum.",
         "description": "Pulse überwacht Ihren Betrieb in Echtzeit und coacht Ihr Team, wenn etwas aus der Bahn gerät.",
@@ -648,12 +612,6 @@ export const generatedLocalCopy = {
           "description": "In Ihrer Frühschicht arbeiten 4 Mitarbeiter 8 Stunden lang. Ihre Abendschicht läuft mit 8 Mitarbeitern über 5 Stunden. Welche ist tatsächlich profitabel? Pulse schlüsselt die Kosten jeder Schicht auf - nach Rolle, nach Einzelperson - und ordnet sie dem Umsatz zu, den diese Schicht generiert. Sehen Sie Ihr Arbeitskostenverhältnis pro Schicht, erkennen Sie Überbesetzungen und treffen Sie klügere Planungsentscheidungen."
         }
       },
-      "cta": {
-        "title": "Hören Sie auf, Schichten blind zu verwalten",
-        "description": "Pulse ist in jedem Sundae Core-Plan enthalten. Sehen Sie, was jetzt passiert - nicht erst am Ende des Tages.",
-        "primary": "Buchen Sie eine Demo",
-        "secondary": "Mit Report Lite starten"
-      },
       "heroMockup": {
         "label": "Pulse - Umsatztempo",
         "live": "LIVE",
@@ -714,14 +672,6 @@ export const generatedLocalCopy = {
       }
     },
     "fr": {
-      "hero": {
-        "badge": "Pulse - Opérations Intrajournalières",
-        "title": "2 000 $ perdus par mauvais quart de travail. Pulse l'attrape en direct.",
-        "description": "Rythme des revenus, coût de la main d'œuvre, performances du serveur et détection des fuites - mise à jour toutes les 5 minutes. Des cibles adaptatives qui apprennent vos modèles, votre saisonnalité et vos événements locaux. Agissez avant que cela ne vous coûte.",
-        "primary": "Réservez une démo",
-        "secondary": "Voir Pulse en action",
-        "note": "Disponible sur les forfaits Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 capacités. Un centre nerveux opérationnel.",
         "description": "Pulse surveille vos opérations en temps réel et coache votre équipe lorsque les choses dérapent.",
@@ -885,12 +835,6 @@ export const generatedLocalCopy = {
           "description": "Votre quart du matin mobilise 4 employés pendant 8 heures. Celui du soir, 8 employés pendant 5 heures. Lequel est réellement rentable ? Pulse décompose le coût de chaque quart - par rôle, par individu - et le compare aux revenus que ce quart génère. Consultez votre ratio de coût de main-d'œuvre par quart, repérez le sureffectif et prenez des décisions de planification plus judicieuses."
         }
       },
-      "cta": {
-        "title": "Arrêtez de gérer les quarts de travail à l'aveugle",
-        "description": "Pulse est présent sur tous les forfaits Sundae Core. Voyez ce qui se passe maintenant - pas en fin de journée.",
-        "primary": "Réservez une démo",
-        "secondary": "Commencer avec Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Rythme des ventes",
         "live": "EN DIRECT",
@@ -951,14 +895,6 @@ export const generatedLocalCopy = {
       }
     },
     "pt": {
-      "hero": {
-        "badge": "Pulse - Operações intradiárias",
-        "title": "$ 2 mil perdidos por turno ruim. O Pulse pega ao vivo.",
-        "description": "Ritmo de receita, custo de mão de obra, desempenho dos garçons e detecção de vazamentos - atualização a cada 5 minutos. Metas adaptáveis que aprendem seus padrões, sazonalidade e eventos locais. Aja antes que isso lhe custe.",
-        "primary": "Agende uma demonstração",
-        "secondary": "Veja o Pulse em ação",
-        "note": "Disponível nos planos Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 capacidades. Um Centro Nervoso Operacional.",
         "description": "O Pulse monitora sua operação em tempo real e orienta sua equipe quando as coisas saem do caminho.",
@@ -1122,12 +1058,6 @@ export const generatedLocalCopy = {
           "description": "Seu turno da manhã tem 4 funcionários por 8 horas. O da noite tem 8 funcionários por 5 horas. Qual deles é realmente lucrativo? O Pulse detalha o custo de cada turno - por função, por pessoa - e o compara com a receita que esse turno gera. Veja o índice de custo de mão de obra por turno, identifique excesso de pessoal e tome decisões de escala mais inteligentes."
         }
       },
-      "cta": {
-        "title": "Pare de gerenciar turnos às cegas",
-        "description": "Pulse está em todos os planos Sundae Core. Veja o que está acontecendo agora - não no final do dia.",
-        "primary": "Agende uma demonstração",
-        "secondary": "Comece com Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Ritmo de vendas",
         "live": "AO VIVO",
@@ -1188,14 +1118,6 @@ export const generatedLocalCopy = {
       }
     },
     "nl": {
-      "hero": {
-        "badge": "Pulse - Intraday-operaties",
-        "title": "$ 2K verloren per slechte dienst. Pulse ziet het live.",
-        "description": "Inkomstentempo, arbeidskosten, prestaties van de bediening en lekdetectie - elke 5 minuten bijgewerkt. Adaptieve doelen die uw patronen, seizoensinvloeden en lokale gebeurtenissen leren kennen. Handel voordat het u geld kost.",
-        "primary": "Boek een demo",
-        "secondary": "Zie Pulse in actie",
-        "note": "Beschikbaar op Sundae Core-abonnementen."
-      },
       "quickGrid": {
         "heading": "10 Mogelijkheden. Eén operationeel zenuwcentrum.",
         "description": "Pulse monitort uw activiteiten in realtime en coacht uw team wanneer zaken uit de hand lopen.",
@@ -1359,12 +1281,6 @@ export const generatedLocalCopy = {
           "description": "Jouw ochtenddienst draait met 4 medewerkers gedurende 8 uur. Je avonddienst met 8 medewerkers gedurende 5 uur. Welke is eigenlijk winstgevend? Pulse splitst de kosten van elke dienst op - per rol, per individu - en zet deze af tegen de inkomsten die de dienst genereert. Bekijk uw arbeidskostenverhouding per dienst, identificeer overbezetting en neem slimmere planningsbeslissingen."
         }
       },
-      "cta": {
-        "title": "Stop met het blind beheren van ploegendiensten",
-        "description": "Pulse zit in elk Sundae Core-abonnement. Kijk wat er nu gebeurt, niet aan het eind van de dag.",
-        "primary": "Boek een demo",
-        "secondary": "Begin met Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Verkooptempo",
         "live": "LIVE",
@@ -1425,14 +1341,6 @@ export const generatedLocalCopy = {
       }
     },
     "ur": {
-      "hero": {
-        "badge": "Pulse - انٹرا ڈے آپریشنز",
-        "title": "$2K کا نقصان فی بری شفٹ۔ Pulse اسے لائیو پکڑتی ہے۔",
-        "description": "ریونیو پیسنگ، لیبر لاگت، سرور کی کارکردگی، اور رساو کا پتہ لگانا - ہر 5 منٹ میں اپ ڈیٹ کرنا۔ موافق اہداف جو آپ کے پیٹرن، موسمی اور مقامی واقعات کو سیکھتے ہیں۔ اس سے پہلے کہ آپ کو لاگت آئے اس پر عمل کریں۔",
-        "primary": "ایک ڈیمو بک کرو",
-        "secondary": "Pulse ان ایکشن دیکھیں",
-        "note": "Sundae Core منصوبوں پر دستیاب ہے۔"
-      },
       "quickGrid": {
         "heading": "10 صلاحیتیں ایک آپریشنل اعصابی مرکز۔",
         "description": "Pulse آپ کے آپریشن کو ریئل ٹائم میں مانیٹر کرتی ہے اور آپ کی ٹیم کی کوچنگ کرتی ہے جب چیزیں خراب ہوجاتی ہیں۔",
@@ -1596,12 +1504,6 @@ export const generatedLocalCopy = {
           "description": "آپ کی صبح کی شفٹ میں 4 عملہ 8 گھنٹے چلتا ہے۔ آپ کی شام 8 بج کر 5 گھنٹے چلتی ہے۔ کون سا اصل میں منافع بخش ہے؟ Pulse ہر شفٹ کی لاگت کو توڑ دیتی ہے - کردار کے لحاظ سے، فرد کے لحاظ سے - اور اس کو اس شفٹ سے پیدا ہونے والی آمدنی کے مقابلہ میں نقشہ بناتی ہے۔ شفٹ کے ذریعے اپنے لیبر لاگت کا تناسب دیکھیں، زیادہ اسٹاف کی شناخت کریں، اور بہتر شیڈولنگ فیصلے کریں۔"
         }
       },
-      "cta": {
-        "title": "شفٹوں کو بغیر معلومات کے چلانا بند کریں",
-        "description": "Pulse ہر Sundae Core پلان میں شامل ہے۔ ابھی کیا ہو رہا ہے دیکھیں - دن کے آخر میں نہیں۔",
-        "primary": "ایک ڈیمو بک کرو",
-        "secondary": "Report Lite سے شروع کریں"
-      },
       "heroMockup": {
         "label": "Pulse - سیلز پیسنگ",
         "live": "لائیو",
@@ -1662,14 +1564,6 @@ export const generatedLocalCopy = {
       }
     },
     "hi": {
-      "hero": {
-        "badge": "Pulse - इंट्राडे ऑपरेशंस",
-        "title": "प्रति खराब शिफ्ट में $2K का नुकसान। Pulse कैच इट लाइव।",
-        "description": "राजस्व गति, श्रम लागत, सर्वर प्रदर्शन और रिसाव का पता लगाना - हर 5 मिनट में अपडेट करना। अनुकूली लक्ष्य जो आपके पैटर्न, मौसमी और स्थानीय घटनाओं को सीखते हैं। इससे पहले कि यह आपको महंगा पड़े, कार्य करें।",
-        "primary": "एक डेमो बुक करें",
-        "secondary": "Pulse को काम करते देखें",
-        "note": "Sundae Core प्लान पर उपलब्ध है।"
-      },
       "quickGrid": {
         "heading": "10 क्षमताएं. एक परिचालन तंत्रिका केंद्र.",
         "description": "Pulse वास्तविक समय में आपके ऑपरेशन की निगरानी करता है और जब चीजें पटरी से उतर जाती हैं तो आपकी टीम को प्रशिक्षित करती है।",
@@ -1833,12 +1727,6 @@ export const generatedLocalCopy = {
           "description": "आपकी सुबह की पाली में 8 घंटे के लिए 4 कर्मचारी काम करते हैं। आपकी शाम 8 से 5 घंटे तक चलती है। कौन सा वास्तव में लाभदायक है? Pulse प्रत्येक शिफ्ट की लागत को विभाजित करता है - भूमिका के अनुसार, व्यक्ति के अनुसार - और इसे शिफ्ट से उत्पन्न होने वाले राजस्व के आधार पर मैप करता है। शिफ्ट के अनुसार अपना श्रम लागत अनुपात देखें, अधिक कर्मचारियों की पहचान करें और बेहतर शेड्यूलिंग निर्णय लें।"
         }
       },
-      "cta": {
-        "title": "शिफ्ट को बिना जानकारी के संभालना बंद करें",
-        "description": "Pulse हर Sundae Core प्लान में शामिल है। अभी क्या हो रहा है देखें - दिन के अंत में नहीं।",
-        "primary": "एक डेमो बुक करें",
-        "secondary": "Report Lite से शुरू करें"
-      },
       "heroMockup": {
         "label": "Pulse - बिक्री गति",
         "live": "लाइव",
@@ -1899,14 +1787,6 @@ export const generatedLocalCopy = {
       }
     },
     "it": {
-      "hero": {
-        "badge": "Pulse: operazioni intraday",
-        "title": "2.000 $ persi a ogni turno storto. Pulse lo coglie dal vivo.",
-        "description": "Ritmo delle entrate, costo della manodopera, prestazioni dei camerieri e rilevamento delle perdite: aggiornamento ogni 5 minuti. Target adattivi che apprendono i tuoi schemi, la stagionalità e gli eventi locali. Agisci prima che ti costi.",
-        "primary": "Prenota una dimostrazione",
-        "secondary": "Vedi Pulse in azione",
-        "note": "Disponibile sui piani Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 capacità. Un centro nevralgico operativo.",
         "description": "Pulse monitora le tue operazioni in tempo reale e istruisce la tua squadra quando le cose vanno fuori strada.",
@@ -2070,12 +1950,6 @@ export const generatedLocalCopy = {
           "description": "Il tuo turno mattutino impiega 4 dipendenti per 8 ore. Quello serale, 8 dipendenti per 5 ore. Quale è davvero redditizio? Pulse scompone il costo di ogni turno, per ruolo e per persona, e lo confronta con le entrate che quel turno genera. Visualizza il rapporto costo del lavoro per turno, individua il personale in eccesso e prendi decisioni di pianificazione più intelligenti."
         }
       },
-      "cta": {
-        "title": "Smettere di gestire i turni alla cieca",
-        "description": "Pulse è presente su ogni piano Sundae Core. Guarda cosa sta succedendo ora, non alla fine della giornata.",
-        "primary": "Prenota una dimostrazione",
-        "secondary": "Inizia con Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Ritmo delle vendite",
         "live": "LIVE",
@@ -2136,14 +2010,6 @@ export const generatedLocalCopy = {
       }
     },
     "tr": {
-      "hero": {
-        "badge": "Pulse - Gün içi operasyonlar",
-        "title": "Her kötü vardiyada 2.000 $ kayıp. Pulse bunu canlı yakalar.",
-        "description": "Gelir ilerleme hızı, işçilik maliyeti, garson performansı ve sızıntı tespiti - her 5 dakikada bir güncellenir. Kalıplarınızı, mevsimselliğinizi ve yerel etkinliklerinizi öğrenen uyarlanabilir hedefler. Size maliyeti olmadan önce harekete geçin.",
-        "primary": "Demo Rezervasyonu Yapın",
-        "secondary": "Pulse'u iş başında görün",
-        "note": "Sundae Core planlarında mevcuttur."
-      },
       "quickGrid": {
         "heading": "10 Yetenek. Bir Operasyonel Sinir Merkezi.",
         "description": "Pulse operasyonunuzu gerçek zamanlı olarak izler ve işler yolunda gitmediğinde ekibinize koçluk yapar.",
@@ -2307,12 +2173,6 @@ export const generatedLocalCopy = {
           "description": "Sabah vardiyanız 4 personel ile 8 saat çalışıyor. Akşam vardiyanız 8 personel ile 5 saat sürüyor. Hangisi aslında karlı? Pulse, her vardiyanın maliyetini role ve kişiye göre ayrıştırır ve bunu vardiyanın ürettiği gelirle eşleştirir. İşgücü maliyeti oranınızı vardiya bazında görün, fazla personel sayısını tespit edin ve daha akıllı planlama kararları alın."
         }
       },
-      "cta": {
-        "title": "Vardiyaları Kör Olarak Yönetmeyi Durdurun",
-        "description": "Pulse her Sundae Core planında bulunur. Şu anda ne olduğunu görün - gün sonunda değil.",
-        "primary": "Demo Rezervasyonu Yapın",
-        "secondary": "Report Lite ile başlayın"
-      },
       "heroMockup": {
         "label": "Pulse - Satış Hızı",
         "live": "CANLI",
@@ -2373,14 +2233,6 @@ export const generatedLocalCopy = {
       }
     },
     "pl": {
-      "hero": {
-        "badge": "Pulse - Operacje śróddzienne",
-        "title": "Strata 2 tys. dolarów na złą zmianę. Pulse łapie to na żywo.",
-        "description": "Tempo przychodów, koszty pracy, wydajność kelnerów i wykrywanie wycieków - aktualizacja co 5 minut. Cele adaptacyjne, które uczą się Twoich wzorców, sezonowości i wydarzeń lokalnych. Działaj, zanim będzie Cię to kosztować.",
-        "primary": "Zarezerwuj wersję demonstracyjną",
-        "secondary": "Zobacz Pulse w akcji",
-        "note": "Dostępne w planach Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 możliwości. Jedno operacyjne centrum nerwowe.",
         "description": "Pulse monitoruje Twoje działania w czasie rzeczywistym i szkoli Twój zespół, gdy sprawy pójdą nie po myśli.",
@@ -2544,12 +2396,6 @@ export const generatedLocalCopy = {
           "description": "Na Twojej porannej zmianie pracuje 4 pracowników przez 8 godzin. Na wieczornej - 8 pracowników przez 5 godzin. Która z nich faktycznie jest opłacalna? Pulse rozkłada koszty każdej zmiany - według roli i osoby - i porównuje je z przychodami generowanymi przez tę zmianę. Sprawdź swój współczynnik kosztów pracy według zmiany, zidentyfikuj nadmierne zatrudnienie i podejmuj mądrzejsze decyzje dotyczące planowania."
         }
       },
-      "cta": {
-        "title": "Przestań zarządzać zmianami w ciemno",
-        "description": "Pulse jest dostępny w każdym planie Sundae Core. Zobacz, co dzieje się teraz, a nie pod koniec dnia.",
-        "primary": "Zarezerwuj wersję demonstracyjną",
-        "secondary": "Zacznij od Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - dynamika sprzedaży",
         "live": "NA ŻYWO",
@@ -2610,14 +2456,6 @@ export const generatedLocalCopy = {
       }
     },
     "zh-Hans": {
-      "hero": {
-        "badge": "Pulse - 当日运营",
-        "title": "每个糟糕班次损失 2000 美元。Pulse 实时捕捉。",
-        "description": "收入节奏、劳动力成本、服务员表现和泄漏检测 - 每 5 分钟更新一次。自适应目标可了解您的模式、季节性和当地事件。在付出代价之前采取行动。",
-        "primary": "预订演示",
-        "secondary": "查看 Pulse 的实际应用",
-        "note": "Sundae Core 套餐均可使用。"
-      },
       "quickGrid": {
         "heading": "10 项能力。一个操作神经中枢。",
         "description": "Pulse 实时监控您的运营情况，并在事情偏离轨道时指导您的团队。",
@@ -2781,12 +2619,6 @@ export const generatedLocalCopy = {
           "description": "您的早班是 4 名员工工作 8 小时。晚班是 8 名员工工作 5 小时。哪一个真正盈利？Pulse 按角色、按个人细分每个班次的成本，并将其与该班次产生的收入进行对照。按班次查看劳动力成本比率，识别人员过剩，并做出更明智的排班决策。"
         }
       },
-      "cta": {
-        "title": "停止盲目管理班次",
-        "description": "Pulse 包含在每个 Sundae Core 套餐中。实时掌握当下动态 - 不必等到一天结束。",
-        "primary": "预订演示",
-        "secondary": "从 Report Lite 开始"
-      },
       "heroMockup": {
         "label": "Pulse - 销售节奏",
         "live": "现场直播",
@@ -2847,14 +2679,6 @@ export const generatedLocalCopy = {
       }
     },
     "ja": {
-      "hero": {
-        "badge": "Pulse - 日中オペレーション",
-        "title": "悪いシフトごとに 2,000 ドルの損失。Pulse がリアルタイムで捉えます。",
-        "description": "収益ペース、人件費、スタッフのパフォーマンス、漏洩検出 - 5 分ごとに更新されます。パターン、季節性、地域のイベントを学習する適応ターゲット。コストになる前に行動しましょう。",
-        "primary": "デモを予約する",
-        "secondary": "Pulseの動作を確認する",
-        "note": "Sundae Core の全プランでご利用いただけます。"
-      },
       "quickGrid": {
         "heading": "10 能力。 1 つの作動神経センター。",
         "description": "Pulse はリアルタイムでオペレーションを監視し、物事が軌道から外れた場合にチームを指導します。",
@@ -3018,12 +2842,6 @@ export const generatedLocalCopy = {
           "description": "朝のシフトは 4 名のスタッフで 8 時間勤務。夜は 8 名で 5 時間勤務。実際に利益が出ているのはどちらでしょうか？ Pulse は、各シフトのコストを役割別・個人別に分解し、そのシフトが生み出す収益と照らし合わせます。シフトごとの人件費比率を確認し、人員過剰を特定し、より賢いシフト編成の判断を行えます。"
         }
       },
-      "cta": {
-        "title": "ブラインドでのシフト管理をやめる",
-        "description": "Pulse はすべての Sundae Core プランに含まれています。一日の終わりではなく、今何が起こっているかを確認してください。",
-        "primary": "デモを予約する",
-        "secondary": "Report Lite から始める"
-      },
       "heroMockup": {
         "label": "Pulse - 販売ペース",
         "live": "ライブ",
@@ -3084,14 +2902,6 @@ export const generatedLocalCopy = {
       }
     },
     "ko": {
-      "hero": {
-        "badge": "Pulse - 일중 운영",
-        "title": "잘못된 교대 근무당 $2K 손실. Pulse가 실시간으로 포착합니다.",
-        "description": "수익 속도, 인건비, 직원 성과 및 누출 감지 - 5분마다 업데이트됩니다. 패턴, 계절성, 지역 이벤트를 학습하는 적응형 타겟입니다. 비용이 발생하기 전에 행동하십시오.",
-        "primary": "데모 예약",
-        "secondary": "Pulse 실제 작동 보기",
-        "note": "Sundae Core 플랜에서 사용 가능합니다."
-      },
       "quickGrid": {
         "heading": "10가지 기능. 하나의 운영 신경 센터.",
         "description": "Pulse는 실시간으로 작업을 모니터링하고 일이 제대로 진행되지 않을 때 팀을 지도합니다.",
@@ -3255,12 +3065,6 @@ export const generatedLocalCopy = {
           "description": "아침 교대는 직원 4명이 8시간 근무합니다. 저녁 교대는 직원 8명이 5시간 근무합니다. 실제로 어느 쪽이 수익성이 있을까요? Pulse는 모든 교대 비용을 역할별, 개인별로 분류하고 이를 해당 교대가 창출하는 수익과 비교합니다. 교대별 인건비 비율을 확인하고, 인력 과잉을 식별하며, 더 스마트한 일정 결정을 내리세요."
         }
       },
-      "cta": {
-        "title": "맹목적인 교대 관리를 멈추세요",
-        "description": "Pulse는 모든 Sundae Core 플랜에 포함되어 있습니다. 하루가 끝날 때가 아니라 지금 무슨 일이 일어나고 있는지 확인하세요.",
-        "primary": "데모 예약",
-        "secondary": "Report Lite로 시작하기"
-      },
       "heroMockup": {
         "label": "Pulse - 판매 속도",
         "live": "라이브",
@@ -3321,14 +3125,6 @@ export const generatedLocalCopy = {
       }
     },
     "id": {
-      "hero": {
-        "badge": "Pulse - Operasi dalam hari",
-        "title": "$2K hilang setiap shift buruk. Pulse menangkapnya secara langsung.",
-        "description": "Kecepatan pendapatan, biaya tenaga kerja, kinerja pelayan, dan deteksi kebocoran - diperbarui setiap 5 menit. Target adaptif yang mempelajari pola, musim, dan peristiwa lokal Anda. Bertindaklah sebelum hal itu merugikan Anda.",
-        "primary": "Pesan Demo",
-        "secondary": "Lihat Pulse Beraksi",
-        "note": "Tersedia pada paket Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 Kemampuan. Satu Pusat Saraf Operasional.",
         "description": "Pulse memantau operasi Anda secara real-time dan melatih tim Anda ketika terjadi hal-hal yang tidak sesuai rencana.",
@@ -3492,12 +3288,6 @@ export const generatedLocalCopy = {
           "description": "Shift pagi Anda dijalankan oleh 4 staf selama 8 jam. Shift malam Anda dijalankan oleh 8 staf selama 5 jam. Mana yang sebenarnya menguntungkan? Pulse mengelompokkan biaya setiap shift - berdasarkan peran dan individu - dan memetakannya terhadap pendapatan yang dihasilkan oleh shift tersebut. Lihat rasio biaya tenaga kerja Anda berdasarkan shift, identifikasi kelebihan staf, dan buat keputusan penjadwalan yang lebih cerdas."
         }
       },
-      "cta": {
-        "title": "Berhenti Mengelola Syif Secara Buta",
-        "description": "Pulse ada di setiap paket Sundae Core. Lihat apa yang terjadi saat ini - bukan pada akhir hari.",
-        "primary": "Pesan Demo",
-        "secondary": "Mulai dengan Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Laju Penjualan",
         "live": "LANGSUNG",
@@ -3558,14 +3348,6 @@ export const generatedLocalCopy = {
       }
     },
     "vi": {
-      "hero": {
-        "badge": "Pulse - Hoạt động trong ngày",
-        "title": "Mất $2K cho mỗi ca làm việc tồi. Pulse bắt nó sống.",
-        "description": "Tốc độ doanh thu, chi phí nhân công, hiệu suất nhân viên phục vụ và phát hiện rò rỉ - cập nhật 5 phút một lần. Các mục tiêu thích ứng tìm hiểu mô hình, tính thời vụ và sự kiện địa phương của bạn. Hãy hành động trước khi bạn phải trả giá.",
-        "primary": "Đặt bản demo",
-        "secondary": "Xem Pulse hoạt động",
-        "note": "Có sẵn trên các gói Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 khả năng. Một trung tâm thần kinh hoạt động.",
         "description": "Pulse giám sát hoạt động của bạn trong thời gian thực và huấn luyện nhóm của bạn khi mọi thứ đi chệch hướng.",
@@ -3729,12 +3511,6 @@ export const generatedLocalCopy = {
           "description": "Ca sáng của bạn có 4 nhân viên trong 8 giờ. Ca tối của bạn có 8 nhân viên trong 5 giờ. Ca nào thực sự có lãi? Pulse phân tích chi phí của mỗi ca - theo vai trò, theo cá nhân - và đối chiếu chi phí đó với doanh thu mà ca đó tạo ra. Xem tỷ lệ chi phí lao động của bạn theo ca, xác định tình trạng dư thừa nhân sự và đưa ra quyết định lập kế hoạch thông minh hơn."
         }
       },
-      "cta": {
-        "title": "Đừng quản lý ca làm việc một cách mù mờ",
-        "description": "Pulse có trên mọi gói Sundae Core. Xem những gì đang xảy ra bây giờ - không phải vào cuối ngày.",
-        "primary": "Đặt bản demo",
-        "secondary": "Bắt đầu với Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Nhịp độ bán hàng",
         "live": "TRỰC TIẾP",
@@ -3795,14 +3571,6 @@ export const generatedLocalCopy = {
       }
     },
     "sv": {
-      "hero": {
-        "badge": "Pulse - Operationer under dagen",
-        "title": "$2K förlorade per dåligt skift. Pulse fångar det live.",
-        "description": "Intäktstakt, arbetskostnad, servitörprestanda och läckagedetektering - uppdatering var 5:e minut. Anpassningsbara mål som lär dig dina mönster, säsongsvariationer och lokala evenemang. Agera innan det kostar dig.",
-        "primary": "Boka en demo",
-        "secondary": "Se Pulse i praktiken",
-        "note": "Tillgänglig på Sundae Core-planer."
-      },
       "quickGrid": {
         "heading": "10 funktioner. Ett operativt nervcentrum.",
         "description": "Pulse övervakar din verksamhet i realtid och coachar ditt team när saker går ur spåret.",
@@ -3966,12 +3734,6 @@ export const generatedLocalCopy = {
           "description": "Ditt morgonskift bemannas av 4 anställda i 8 timmar. Ditt kvällsskift bemannas av 8 anställda i 5 timmar. Vilket är egentligen lönsamt? Pulse bryter ner kostnaden för varje skift - efter roll, efter individ - och kartlägger den mot intäkterna som skiftet genererar. Se ditt arbetskostnadsförhållande per skift, identifiera överbemanning och fatta smartare schemaläggningsbeslut."
         }
       },
-      "cta": {
-        "title": "Sluta hantera skift i blindo",
-        "description": "Pulse finns på varje Sundae Core-plan. Se vad som händer nu - inte i slutet av dagen.",
-        "primary": "Boka en demo",
-        "secondary": "Börja med Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - Försäljningstempo",
         "live": "LIVE",
@@ -4032,14 +3794,6 @@ export const generatedLocalCopy = {
       }
     },
     "ro": {
-      "hero": {
-        "badge": "Pulse - Operațiuni în cursul zilei",
-        "title": "2.000 $ pierduți la fiecare tură proastă. Pulse o prinde în direct.",
-        "description": "Ritmul veniturilor, costul forței de muncă, performanța ospătarilor și detectarea scurgerilor - se actualizează la fiecare 5 minute. Ținte adaptabile care vă învață tiparele, sezonalitatea și evenimentele locale. Acționează înainte să te coste.",
-        "primary": "Rezervați o demonstrație",
-        "secondary": "Vezi Pulse în acțiune",
-        "note": "Disponibil pe planurile Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 Capabilitati. Un centru nervos operațional.",
         "description": "Pulse vă monitorizează operațiunea în timp real și vă antrenează echipa atunci când lucrurile ies din mers.",
@@ -4203,12 +3957,6 @@ export const generatedLocalCopy = {
           "description": "Tura ta de dimineață are 4 angajați timp de 8 ore. Tura de seară are 8 angajați timp de 5 ore. Care dintre ele este de fapt profitabilă? Pulse defalcă costul fiecărei ture - după rol și în funcție de individ - și îl raportează la veniturile pe care le generează tura respectivă. Vedeți raportul costului forței de muncă pe tură, identificați supraîncadrarea și luați decizii mai inteligente de programare."
         }
       },
-      "cta": {
-        "title": "Nu mai gestionați turele pe nevăzute",
-        "description": "Pulse este în fiecare plan Sundae Core. Vezi ce se întâmplă acum - nu la sfârșitul zilei.",
-        "primary": "Rezervați o demonstrație",
-        "secondary": "Începe cu Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - ritmul vânzărilor",
         "live": "LIVE",
@@ -4269,14 +4017,6 @@ export const generatedLocalCopy = {
       }
     },
     "bn": {
-      "hero": {
-        "badge": "Pulse - দিনের অভ্যন্তরীণ অপারেশন",
-        "title": "প্রতি খারাপ শিফটে 2,000 ডলার ক্ষতি। Pulse তা সরাসরি ধরে ফেলে।",
-        "description": "রাজস্ব পেসিং, শ্রম খরচ, সার্ভারের কর্মক্ষমতা, এবং ফুটো সনাক্তকরণ - প্রতি 5 মিনিটে আপডেট করা হচ্ছে। অভিযোজিত লক্ষ্যগুলি যা আপনার নিদর্শন, ঋতু এবং স্থানীয় ইভেন্টগুলি শিখতে পারে। এটা আপনার খরচ আগে কাজ.",
-        "primary": "একটি ডেমো বুক করুন",
-        "secondary": "Pulse অ্যাকশনে দেখুন",
-        "note": "Sundae Core প্ল্যানে উপলব্ধ।"
-      },
       "quickGrid": {
         "heading": "10 ক্ষমতা। একটি অপারেশনাল নার্ভ সেন্টার।",
         "description": "Pulse রিয়েল টাইমে আপনার অপারেশন নিরীক্ষণ করে এবং যখন পরিস্থিতি পথভ্রষ্ট হয় তখন আপনার দলকে কোচিং দেয়।",
@@ -4440,12 +4180,6 @@ export const generatedLocalCopy = {
           "description": "আপনার সকালের শিফটে 4 জন কর্মী 8 ঘন্টা কাজ করে। আপনার সন্ধ্যার শিফটে 8 জন কর্মী 5 ঘন্টা কাজ করে। কোনটি আসলে লাভজনক? Pulse প্রতিটি শিফটের খরচ ভেঙে দেয় - ভূমিকা অনুযায়ী, ব্যক্তি অনুযায়ী - এবং সেই শিফটের উৎপন্ন রাজস্বের বিপরীতে তা মিলিয়ে দেখায়। শিফট অনুযায়ী আপনার শ্রম খরচের অনুপাত দেখুন, অতিরিক্ত স্টাফিং শনাক্ত করুন এবং আরও বুদ্ধিমান সময়সূচি নির্ধারণের সিদ্ধান্ত নিন।"
         }
       },
-      "cta": {
-        "title": "অন্ধভাবে শিফট পরিচালনা বন্ধ করুন",
-        "description": "Pulse প্রতিটি Sundae Core প্ল্যানে অন্তর্ভুক্ত। এখন কী ঘটছে দেখুন - দিনের শেষে নয়।",
-        "primary": "একটি ডেমো বুক করুন",
-        "secondary": "Report Lite দিয়ে শুরু করুন"
-      },
       "heroMockup": {
         "label": "Pulse - বিক্রয় গতি",
         "live": "লাইভ",
@@ -4506,14 +4240,6 @@ export const generatedLocalCopy = {
       }
     },
     "th": {
-      "hero": {
-        "badge": "Pulse - การดำเนินงานระหว่างวัน",
-        "title": "สูญเสีย $2K ต่อกะที่แย่ Pulse จับมันได้สด",
-        "description": "อัตรารายได้ ค่าแรง ประสิทธิภาพของพนักงานเสิร์ฟ และการตรวจจับการรั่วไหล - อัปเดตทุกๆ 5 นาที เป้าหมายแบบปรับเปลี่ยนได้ซึ่งจะเรียนรู้รูปแบบ ฤดูกาล และกิจกรรมในท้องถิ่นของคุณ ดำเนินการก่อนที่จะเสียค่าใช้จ่าย",
-        "primary": "จองการสาธิต",
-        "secondary": "ดู Pulse ในการใช้งานจริง",
-        "note": "มีอยู่ในแผน Sundae Core"
-      },
       "quickGrid": {
         "heading": "10 ความสามารถ ศูนย์ปฏิบัติการประสาทแห่งหนึ่ง",
         "description": "Pulse ติดตามการทำงานของคุณแบบเรียลไทม์และฝึกสอนทีมของคุณเมื่อสิ่งต่าง ๆ ไม่เป็นไปตามแผน",
@@ -4677,12 +4403,6 @@ export const generatedLocalCopy = {
           "description": "กะเช้าของคุณมีพนักงาน 4 คน เป็นเวลา 8 ชั่วโมง กะเย็นของคุณมีพนักงาน 8 คน เป็นเวลา 5 ชั่วโมง กะไหนทำกำไรได้จริง? Pulse แจกแจงต้นทุนของทุกๆ กะ - ตามบทบาท ตามแต่ละบุคคล - และเทียบเคียงกับรายได้ที่กะสร้างขึ้น ดูอัตราส่วนต้นทุนค่าแรงตามกะ ระบุการจ้างพนักงานเกิน และตัดสินใจเรื่องการจัดกำหนดการได้อย่างชาญฉลาดยิ่งขึ้น"
         }
       },
-      "cta": {
-        "title": "หยุดบริหารกะแบบมองไม่เห็นภาพรวม",
-        "description": "Pulse อยู่ในแผน Sundae Core ทุกแผน ดูว่าเกิดอะไรขึ้นตอนนี้ ไม่ใช่ตอนสิ้นวัน",
-        "primary": "จองการสาธิต",
-        "secondary": "เริ่มต้นด้วย Report Lite"
-      },
       "heroMockup": {
         "label": "Pulse - อัตราการขาย",
         "live": "สด",
@@ -4743,14 +4463,6 @@ export const generatedLocalCopy = {
       }
     },
     "ms": {
-      "hero": {
-        "badge": "Pulse - Operasi dalam hari",
-        "title": "$2K hilang setiap syif buruk. Pulse menangkapnya secara langsung.",
-        "description": "Rentak hasil, kos buruh, prestasi pelayan dan pengesanan kebocoran - dikemas kini setiap 5 minit. Sasaran penyesuaian yang mempelajari corak, kemusiman dan acara setempat anda. Bertindak sebelum ia merugikan anda.",
-        "primary": "Tempah Demo",
-        "secondary": "Lihat Pulse Beraksi",
-        "note": "Tersedia pada pelan Sundae Core."
-      },
       "quickGrid": {
         "heading": "10 Keupayaan. Satu Pusat Saraf Operasi.",
         "description": "Pulse memantau operasi anda dalam masa nyata dan melatih pasukan anda apabila keadaan berjalan di luar landasan.",
@@ -4913,12 +4625,6 @@ export const generatedLocalCopy = {
           "heading": "Ketahui Nilai Setiap Anjakan",
           "description": "Syif pagi anda dikendalikan oleh 4 kakitangan selama 8 jam. Syif malam anda dikendalikan oleh 8 kakitangan selama 5 jam. Yang manakah sebenarnya menguntungkan? Pulse memecahkan kos setiap syif - mengikut peranan, mengikut individu - dan memetakannya terhadap hasil yang dijana oleh syif tersebut. Lihat nisbah kos buruh anda mengikut syif, kenal pasti lebihan kakitangan dan buat keputusan penjadualan yang lebih bijak."
         }
-      },
-      "cta": {
-        "title": "Berhenti Mengurus Syif Secara Membuta Tuli",
-        "description": "Pulse ada pada setiap pelan Sundae Core. Lihat apa yang berlaku sekarang - bukan pada penghujung hari.",
-        "primary": "Tempah Demo",
-        "secondary": "Mulakan dengan Report Lite"
       },
       "heroMockup": {
         "label": "Pulse - Rentak Jualan",

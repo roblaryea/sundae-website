@@ -120,32 +120,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "الأسئلة المتداولة",
-      "faqs": [
-        {
-          "q": "كم عدد المنافسين الذين يمكنني تتبعهم؟",
-          "a": "ما يصل إلى 10+ منافسين لكل موقع. اختر المنافسين الأكثر أهمية. يمكن أن يكون لكل موقع مجموعة منافسة خاصة به."
-        },
-        {
-          "q": "هل يمكنني تتبع منافسين مختلفين في مواقع مختلفة؟",
-          "a": "نعم. كل موقع لديه مجموعة منافسة خاصة به. قد يتتبع الموقع \"أ\" مطاعم مختلفة عن الموقع \"ب\" بناءً على المنافسة المحلية."
-        },
-        {
-          "q": "كم مرة يتم تحديث بيانات المنافسين؟",
-          "a": "المراقبة الآلية اليومية مع اكتشاف التغيير. تؤدي التغييرات الحاسمة (مثل التحولات الرئيسية في التصنيف أو المنافسين الجدد) إلى إطلاق تنبيهات فورية."
-        },
-        {
-          "q": "هل يتطلب Watchtower مستوى Core؟",
-          "a": "نعم. Watchtower متاح على مستويات Core Lite وCore Pro وEnterprise. فهو يتطلب البنية التحتية للبيانات في الوقت الفعلي التي توفرها Core لتجميع الأداء الداخلي مع الإشارات الخارجية."
-        },
-        {
-          "q": "هل يمكنني استخدام نوع واحد فقط من الذكاء؟",
-          "a": "نعم. اختر الذكاء التنافسي، أو إشارات الأحداث والتقويم، أو اتجاهات السوق بشكل فردي - أو احصل على حزمة Watchtower الكاملة للحصول على توفير يصل إلى 18% تقريبًا."
-        },
-        {
-          "q": "كيف تعمل الإحاطة اليومية؟",
-          "a": "كل صباح، تقوم Watchtower بتجميع بيانات Pulse لليوم السابق مع الإشارات الخارجية اليوم في ملخص محدد الأولوية يتم تسليمه عبر البريد الإلكتروني أو Slack أو Telegram."
-        }
-      ],
       "ctaTitle": "أضف الذكاء الخارجي إلى النظام الأساسي الخاص بك",
       "ctaDescription": "شاهد عملك في سياق السوق الكامل. لن يتم القبض عليك على حين غرة مرة أخرى.",
       "ctaAdd": "أضف إلى خطتك",
@@ -270,32 +244,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Foire aux questions",
-      "faqs": [
-        {
-          "q": "Combien de concurrents puis-je suivre ?",
-          "a": "Jusqu'à 10+ concurrents par emplacement. Choisissez les concurrents qui comptent le plus. Chaque emplacement peut avoir son propre ensemble de concurrents."
-        },
-        {
-          "q": "Puis-je suivre différents concurrents à différents endroits ?",
-          "a": "Oui. Chaque emplacement a son propre ensemble de concurrents. L'emplacement A peut suivre des restaurants différents de l'emplacement B en fonction de la concurrence locale."
-        },
-        {
-          "q": "À quelle fréquence les données des concurrents sont-elles mises à jour ?",
-          "a": "Surveillance automatisée quotidienne avec détection des changements. Les changements critiques (comme des changements majeurs de notation ou de nouveaux concurrents) déclenchent des alertes immédiates."
-        },
-        {
-          "q": "Watchtower nécessite-t-il le niveau Core ?",
-          "a": "Oui. Watchtower est disponible sur les niveaux Core Lite, Core Pro et Enterprise. Cela nécessite l’infrastructure de données en temps réel fournie par Core pour synthétiser les performances internes avec des signaux externes."
-        },
-        {
-          "q": "Puis-je utiliser un seul type d’intelligence ?",
-          "a": "Oui. Choisissez individuellement Intelligence économique, Signaux d'événements et de calendrier ou Tendances du marché - ou obtenez le pack complet Watchtower pour environ 18 % d'économies."
-        },
-        {
-          "q": "Comment se déroule le briefing quotidien ?",
-          "a": "Chaque matin, Watchtower synthétise les données Pulse de la veille avec les signaux externes du jour dans un briefing prioritaire envoyé par e-mail, Slack ou Telegram."
-        }
-      ],
       "ctaTitle": "Ajoutez une intelligence externe à votre plateforme",
       "ctaDescription": "Visualisez votre entreprise dans le contexte complet du marché. Ne soyez plus jamais pris au dépourvu.",
       "ctaAdd": "Ajoutez à votre forfait",
@@ -420,32 +368,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Preguntas frecuentes",
-      "faqs": [
-        {
-          "q": "¿Cuántos competidores puedo rastrear?",
-          "a": "Hasta más de 10 competidores por ubicación. Elija los competidores que más le importen. Cada ubicación puede tener su propio conjunto de competidores."
-        },
-        {
-          "q": "¿Puedo rastrear diferentes competidores en diferentes ubicaciones?",
-          "a": "Sí. Cada ubicación tiene su propio conjunto de competidores. La ubicación A puede rastrear restaurantes diferentes a los de la ubicación B según la competencia local."
-        },
-        {
-          "q": "¿Con qué frecuencia se actualizan los datos de la competencia?",
-          "a": "Monitoreo automatizado diario con detección de cambios. Los cambios críticos (como cambios importantes en las calificaciones o nuevos competidores) activan alertas inmediatas."
-        },
-        {
-          "q": "¿Watchtower requiere el nivel Core?",
-          "a": "Sí. Watchtower está disponible en los niveles Core Lite, Core Pro y Enterprise. Requiere la infraestructura de datos en tiempo real que proporciona Core para sintetizar el rendimiento interno con señales externas."
-        },
-        {
-          "q": "¿Puedo usar solo un tipo de inteligencia?",
-          "a": "Sí. Elija Inteligencia competitiva, Señales de eventos y calendario o Tendencias del mercado individualmente, u obtenga el paquete completo de Watchtower para obtener un ahorro de ~18 %."
-        },
-        {
-          "q": "¿Cómo funciona el resumen diario?",
-          "a": "Cada mañana, Watchtower sintetiza los datos de Pulse del día anterior con las señales externas de hoy en un informe priorizado enviado por correo electrónico, Slack o Telegram."
-        }
-      ],
       "ctaTitle": "Agregue inteligencia externa a su plataforma",
       "ctaDescription": "Vea su negocio en el contexto completo del mercado. Nunca más te tomarán desprevenido.",
       "ctaAdd": "Agregue a su plan",
@@ -570,32 +492,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Häufig gestellte Fragen",
-      "faqs": [
-        {
-          "q": "Wie viele Konkurrenten kann ich verfolgen?",
-          "a": "Bis zu 10+ Konkurrenten pro Standort. Wählen Sie die Konkurrenten aus, die am wichtigsten sind. Jeder Standort kann seinen eigenen Wettbewerbersatz haben."
-        },
-        {
-          "q": "Kann ich verschiedene Konkurrenten an verschiedenen Standorten verfolgen?",
-          "a": "Ja. Jeder Standort verfügt über ein eigenes Mitbewerberset. Standort A verfolgt möglicherweise andere Restaurants als Standort B, basierend auf der lokalen Konkurrenz."
-        },
-        {
-          "q": "Wie oft werden Wettbewerberdaten aktualisiert?",
-          "a": "Tägliche automatisierte Überwachung mit Änderungserkennung. Kritische Änderungen (z. B. große Ratingänderungen oder neue Wettbewerber) lösen sofortige Warnungen aus."
-        },
-        {
-          "q": "Benötigt Watchtower eine Core-Stufe?",
-          "a": "Ja. Watchtower ist auf den Stufen Core Lite, Core Pro und Enterprise verfügbar. Es erfordert die Echtzeit-Dateninfrastruktur, die Core bereitstellt, um interne Leistung mit externen Signalen zu synthetisieren."
-        },
-        {
-          "q": "Kann ich nur einen Intelligenztyp verwenden?",
-          "a": "Ja. Wählen Sie einzeln „Competitive Intelligence“, „Events & Kalendersignale“ oder „Markttrends“ - oder holen Sie sich das komplette Watchtower-Paket für ca. 18 % Ersparnis."
-        },
-        {
-          "q": "Wie funktioniert das tägliche Briefing?",
-          "a": "Jeden Morgen synthetisiert Watchtower die Pulse-Daten Ihres Vortages mit den heutigen externen Signalen zu einem priorisierten Briefing, das per E-Mail, Slack oder Telegram gesendet wird."
-        }
-      ],
       "ctaTitle": "Fügen Sie Ihrer Plattform externe Intelligenz hinzu",
       "ctaDescription": "Sehen Sie Ihr Unternehmen im vollständigen Marktkontext. Lassen Sie sich nie wieder unvorbereitet überraschen.",
       "ctaAdd": "Zu Ihrem Plan hinzufügen",
@@ -721,32 +617,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Veelgestelde vragen",
-      "faqs": [
-        {
-          "q": "Hoeveel concurrenten kan ik volgen?",
-          "a": "Maximaal 10+ concurrenten per locatie. Kies de concurrenten die er het meest toe doen. Elke locatie kan een eigen concurrentenset hebben."
-        },
-        {
-          "q": "Kan ik verschillende concurrenten op verschillende locaties volgen?",
-          "a": "Ja. Elke locatie heeft zijn eigen concurrentenset. Locatie A kan andere restaurants volgen dan Locatie B op basis van lokale concurrentie."
-        },
-        {
-          "q": "Hoe vaak worden de gegevens van concurrenten bijgewerkt?",
-          "a": "Dagelijkse geautomatiseerde monitoring met wijzigingsdetectie. Kritieke veranderingen (zoals grote ratingverschuivingen of nieuwe concurrenten) leiden tot onmiddellijke waarschuwingen."
-        },
-        {
-          "q": "Heeft Watchtower een Core-laag nodig?",
-          "a": "Ja. Watchtower is beschikbaar op de Core Lite-, Core Pro- en Enterprise-niveaus. Het vereist de realtime data-infrastructuur die Core biedt om interne prestaties te synthetiseren met externe signalen."
-        },
-        {
-          "q": "Kan ik slechts één intelligentietype gebruiken?",
-          "a": "Ja. Kies afzonderlijk Competitieve intelligentie, Evenementen- en agendasignalen of Markttrends - of ontvang de volledige Watchtower-bundel voor een besparing van ~18%."
-        },
-        {
-          "q": "Hoe werkt de dagelijkse briefing?",
-          "a": "Elke ochtend synthetiseert Watchtower de Pulse-gegevens van de vorige dag met de externe signalen van vandaag in een geprioriteerde briefing die wordt verzonden naar e-mail, Slack of Telegram."
-        }
-      ],
       "ctaTitle": "Voeg externe intelligentie toe aan uw platform",
       "ctaDescription": "Bekijk uw bedrijf in de volledige marktcontext. Laat u nooit meer verrassen.",
       "ctaAdd": "Voeg toe aan uw abonnement",
@@ -872,32 +742,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Perguntas frequentes",
-      "faqs": [
-        {
-          "q": "Quantos concorrentes posso rastrear?",
-          "a": "Até mais de 10 concorrentes por local. Escolha os concorrentes que mais importam. Cada local pode ter seu próprio conjunto de concorrentes."
-        },
-        {
-          "q": "Posso rastrear concorrentes diferentes em locais diferentes?",
-          "a": "Sim. Cada local tem seu próprio conjunto de concorrentes. O Local A pode rastrear restaurantes diferentes do Local B com base na concorrência local."
-        },
-        {
-          "q": "Com que frequência os dados dos concorrentes são atualizados?",
-          "a": "Monitoramento diário automatizado com detecção de alterações. Mudanças críticas (como grandes mudanças de classificação ou novos concorrentes) acionam alertas imediatos."
-        },
-        {
-          "q": "A Watchtower requer nível Core?",
-          "a": "Sim. A Watchtower está disponível nos níveis Core Lite, Core Pro e Enterprise. Requer a infraestrutura de dados em tempo real fornecida pelo Core para sintetizar o desempenho interno com sinais externos."
-        },
-        {
-          "q": "Posso usar apenas um tipo de inteligência?",
-          "a": "Sim. Escolha Inteligência Competitiva, Eventos e Sinais de Calendário ou Tendências de Mercado individualmente - ou obtenha o pacote completo da Watchtower com economia de aproximadamente 18%."
-        },
-        {
-          "q": "Como funciona o briefing diário?",
-          "a": "Todas as manhãs, a Watchtower sintetiza os dados do Pulse do dia anterior com os sinais externos de hoje em um briefing priorizado entregue por e-mail, Slack ou Telegram."
-        }
-      ],
       "ctaTitle": "Adicione inteligência externa à sua plataforma",
       "ctaDescription": "Veja o seu negócio em todo o contexto do mercado. Nunca mais seja pego desprevenido.",
       "ctaAdd": "Adicione ao seu plano",
@@ -1023,32 +867,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "اکثر پوچھے گئے سوالات",
-      "faqs": [
-        {
-          "q": "میں کتنے حریفوں کو ٹریک کر سکتا ہوں؟",
-          "a": "فی مقام 10+ حریف تک۔ ان حریفوں کا انتخاب کریں جو سب سے اہم ہیں۔ ہر مقام کا اپنا مدمقابل سیٹ ہو سکتا ہے۔"
-        },
-        {
-          "q": "کیا میں مختلف مقامات پر مختلف حریفوں کو ٹریک کر سکتا ہوں؟",
-          "a": "جی ہاں ہر مقام کا اپنا مدمقابل سیٹ ہوتا ہے۔ مقام A مقامی مقابلہ کی بنیاد پر مقام B کے مقابلے مختلف ریستوراں کو ٹریک کر سکتا ہے۔"
-        },
-        {
-          "q": "حریف کے ڈیٹا کو کتنی بار اپ ڈیٹ کیا جاتا ہے؟",
-          "a": "تبدیلی کا پتہ لگانے کے ساتھ روزانہ خودکار نگرانی۔ اہم تبدیلیاں (جیسے اہم درجہ بندی کی تبدیلیاں یا نئے حریف) فوری الرٹس کو متحرک کرتی ہیں۔"
-        },
-        {
-          "q": "کیا Watchtower کو بنیادی درجے کی ضرورت ہے؟",
-          "a": "جی ہاں Watchtower Core Lite، Core Pro، اور انٹرپرائز ٹائرز پر دستیاب ہے۔ اس کے لیے ریئل ٹائم ڈیٹا انفراسٹرکچر کی ضرورت ہوتی ہے جو کور بیرونی سگنلز کے ساتھ اندرونی کارکردگی کی ترکیب کے لیے فراہم کرتا ہے۔"
-        },
-        {
-          "q": "کیا میں صرف ایک ذہانت کی قسم استعمال کر سکتا ہوں؟",
-          "a": "جی ہاں انفرادی طور پر مسابقتی ذہانت، واقعات اور کیلنڈر سگنلز، یا مارکیٹ کے رجحانات کا انتخاب کریں - یا ~18% کی بچت کے لیے مکمل Watchtower بنڈل حاصل کریں۔"
-        },
-        {
-          "q": "روزانہ بریفنگ کیسے کام کرتی ہے؟",
-          "a": "ہر صبح، Watchtower آپ کے گزشتہ دن کے Pulse ڈیٹا کو آج کے بیرونی سگنلز کے ساتھ ای میل، سلیک یا ٹیلیگرام پر بھیجی جانے والی ترجیحی بریفنگ میں ترکیب کرتا ہے۔"
-        }
-      ],
       "ctaTitle": "اپنے پلیٹ فارم میں بیرونی ذہانت شامل کریں۔",
       "ctaDescription": "اپنے کاروبار کو پورے بازار کے تناظر میں دیکھیں۔ دوبارہ کبھی بھی چوکس نہ ہوں۔",
       "ctaAdd": "اپنے منصوبے میں شامل کریں۔",
@@ -1174,32 +992,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "अक्सर पूछे जाने वाले प्रश्न",
-      "faqs": [
-        {
-          "q": "मैं कितने प्रतिस्पर्धियों को ट्रैक कर सकता हूँ?",
-          "a": "प्रति स्थान 10+ प्रतिस्पर्धी तक। उन प्रतिस्पर्धियों को चुनें जो सबसे अधिक मायने रखते हैं। प्रत्येक स्थान का अपना प्रतिस्पर्धी समूह हो सकता है।"
-        },
-        {
-          "q": "क्या मैं अलग-अलग स्थानों पर अलग-अलग प्रतिस्पर्धियों को ट्रैक कर सकता हूँ?",
-          "a": "हाँ. प्रत्येक स्थान का अपना प्रतिस्पर्धी समूह होता है। स्थान A स्थानीय प्रतिस्पर्धा के आधार पर स्थान B की तुलना में भिन्न रेस्तरां को ट्रैक कर सकता है।"
-        },
-        {
-          "q": "प्रतिस्पर्धी डेटा कितनी बार अपडेट किया जाता है?",
-          "a": "परिवर्तन का पता लगाने के साथ दैनिक स्वचालित निगरानी। महत्वपूर्ण परिवर्तन (जैसे प्रमुख रेटिंग बदलाव या नए प्रतिस्पर्धी) तत्काल अलर्ट ट्रिगर करते हैं।"
-        },
-        {
-          "q": "क्या Watchtower के लिए Core टियर आवश्यक है?",
-          "a": "हाँ. Watchtower Core Lite, Core Pro और एंटरप्राइज़ स्तरों पर उपलब्ध है। इसके लिए वास्तविक समय डेटा अवसंरचना की आवश्यकता होती है जो कोर बाहरी संकेतों के साथ आंतरिक प्रदर्शन को संश्लेषित करने के लिए प्रदान करता है।"
-        },
-        {
-          "q": "क्या मैं केवल एक खुफिया प्रकार का उपयोग कर सकता हूँ?",
-          "a": "हाँ. प्रतिस्पर्धी इंटेलिजेंस, इवेंट और कैलेंडर सिग्नल, या बाज़ार रुझान को व्यक्तिगत रूप से चुनें - या ~18% बचत के लिए पूरा Watchtower बंडल प्राप्त करें।"
-        },
-        {
-          "q": "दैनिक ब्रीफिंग कैसे काम करती है?",
-          "a": "हर सुबह, Watchtower आपके पिछले दिन के Pulse डेटा को आज के बाहरी संकेतों के साथ ईमेल, स्लैक या टेलीग्राम पर प्राथमिकता वाली ब्रीफिंग में संश्लेषित करता है।"
-        }
-      ],
       "ctaTitle": "अपने प्लेटफ़ॉर्म पर बाहरी इंटेलिजेंस जोड़ें",
       "ctaDescription": "अपने व्यवसाय को पूर्ण बाज़ार संदर्भ में देखें। फिर कभी भी सतर्क न रहें।",
       "ctaAdd": "अपनी योजना में जोड़ें",
@@ -1325,32 +1117,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Sıkça Sorulan Sorular",
-      "faqs": [
-        {
-          "q": "Kaç rakibi takip edebilirim?",
-          "a": "Konum başına 10'dan fazla rakip. En önemli rakipleri seçin. Her lokasyonun kendi rakip seti olabilir."
-        },
-        {
-          "q": "Farklı lokasyonlardaki farklı rakipleri takip edebilir miyim?",
-          "a": "Evet. Her lokasyonun kendi rakip seti vardır. Lokasyon A, yerel rekabete bağlı olarak Lokasyon B'den farklı restoranları izleyebilir."
-        },
-        {
-          "q": "Rakip verileri ne sıklıkla güncelleniyor?",
-          "a": "Değişiklik tespiti ile günlük otomatik izleme. Kritik değişiklikler (büyük derecelendirme değişiklikleri veya yeni rakipler gibi) anında uyarıları tetikler."
-        },
-        {
-          "q": "Watchtower, Core katmanı gerektiriyor mu?",
-          "a": "Evet. Watchtower, Core Lite, Core Pro ve Enterprise katmanlarında mevcuttur. İç performansı dış sinyallerle sentezlemek için Core'un sağladığı gerçek zamanlı veri altyapısını gerektirir."
-        },
-        {
-          "q": "Yalnızca tek bir zeka türünü kullanabilir miyim?",
-          "a": "Evet. Rekabetçi İstihbarat, Etkinlikler ve Takvim Sinyalleri veya Piyasa Trendlerini ayrı ayrı seçin veya ~%18 tasarrufla Watchtower paketinin tamamını edinin."
-        },
-        {
-          "q": "Günlük brifing nasıl çalışıyor?",
-          "a": "Watchtower her sabah, önceki günün Pulse verilerini bugünün harici sinyalleriyle sentezleyerek e-posta, Slack veya Telegram'a gönderilen öncelikli bir brifingde sentezler."
-        }
-      ],
       "ctaTitle": "Platformunuza Dış Zeka Ekleyin",
       "ctaDescription": "İşletmenizi tam pazar bağlamında görün. Bir daha asla hazırlıksız yakalanmayın.",
       "ctaAdd": "Planınıza Ekle",
@@ -1476,32 +1242,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Domande frequenti",
-      "faqs": [
-        {
-          "q": "Quanti concorrenti posso monitorare?",
-          "a": "Fino a 10+ concorrenti per posizione. Scegli i concorrenti che contano di più. Ciascuna località può avere il proprio set di concorrenti."
-        },
-        {
-          "q": "Posso monitorare concorrenti diversi in luoghi diversi?",
-          "a": "Sì. Ogni località ha il proprio set di concorrenti. La posizione A potrebbe monitorare ristoranti diversi rispetto alla posizione B in base alla concorrenza locale."
-        },
-        {
-          "q": "Con quale frequenza vengono aggiornati i dati della concorrenza?",
-          "a": "Monitoraggio automatizzato quotidiano con rilevamento delle modifiche. Modifiche critiche (come importanti cambiamenti di rating o nuovi concorrenti) attivano avvisi immediati."
-        },
-        {
-          "q": "Watchtower richiede il livello Core?",
-          "a": "Sì. Watchtower è disponibile sui livelli Core Lite, Core Pro ed Enterprise. Richiede l'infrastruttura di dati in tempo reale fornita da Core per sintetizzare le prestazioni interne con segnali esterni."
-        },
-        {
-          "q": "Posso utilizzare un solo tipo di intelligenza?",
-          "a": "Sì. Scegli individualmente informazioni sulla concorrenza, eventi e segnali del calendario o tendenze di mercato oppure ottieni il pacchetto completo Watchtower con un risparmio del 18% circa."
-        },
-        {
-          "q": "Come funziona il briefing quotidiano?",
-          "a": "Ogni mattina, Watchtower sintetizza i dati Pulse del giorno precedente con i segnali esterni di oggi in un briefing prioritario inviato tramite e-mail, Slack o Telegram."
-        }
-      ],
       "ctaTitle": "Aggiungi intelligenza esterna alla tua piattaforma",
       "ctaDescription": "Osserva la tua attività nell'intero contesto del mercato. Non farti mai più prendere alla sprovvista.",
       "ctaAdd": "Aggiungi al tuo piano",
@@ -1627,32 +1367,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Często zadawane pytania",
-      "faqs": [
-        {
-          "q": "Ilu konkurentów mogę śledzić?",
-          "a": "Do 10+ konkurentów na lokalizację. Wybierz konkurentów, którzy mają największe znaczenie. Każda lokalizacja może mieć swój własny zestaw konkurentów."
-        },
-        {
-          "q": "Czy mogę śledzić różnych konkurentów w różnych lokalizacjach?",
-          "a": "Tak. Każda lokalizacja ma swój własny zestaw konkurentów. Lokalizacja A może śledzić inne restauracje niż Lokalizacja B w oparciu o lokalną konkurencję."
-        },
-        {
-          "q": "Jak często aktualizowane są dane konkurencji?",
-          "a": "Codzienny automatyczny monitoring z wykrywaniem zmian. Krytyczne zmiany (takie jak duże zmiany w ratingach lub nowi konkurenci) powodują natychmiastowe powiadomienie."
-        },
-        {
-          "q": "Czy Watchtower wymaga poziomu Core?",
-          "a": "Tak. Watchtower jest dostępny na poziomach Core Lite, Core Pro i Enterprise. Wymaga infrastruktury danych czasu rzeczywistego zapewnianej przez firmę Core w celu syntezy wydajności wewnętrznej z sygnałami zewnętrznymi."
-        },
-        {
-          "q": "Czy mogę używać tylko jednego typu inteligencji?",
-          "a": "Tak. Wybierz indywidualnie analizę konkurencji, wydarzenia i sygnały kalendarza lub trendy rynkowe - lub zdobądź pełny pakiet Watchtower, aby zaoszczędzić ~18%."
-        },
-        {
-          "q": "Jak wygląda codzienna odprawa?",
-          "a": "Każdego ranka Watchtower łączy dane Pulse z poprzedniego dnia z dzisiejszymi sygnałami zewnętrznymi, tworząc priorytetową odprawę dostarczaną za pośrednictwem poczty elektronicznej, Slacka lub Telegramu."
-        }
-      ],
       "ctaTitle": "Dodaj zewnętrzną inteligencję do swojej platformy",
       "ctaDescription": "Zobacz swoją firmę w pełnym kontekście rynkowym. Nigdy więcej nie daj się zaskoczyć.",
       "ctaAdd": "Dodaj do swojego planu",
@@ -1778,32 +1492,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "常见问题解答",
-      "faqs": [
-        {
-          "q": "我可以追踪多少个竞争对手？",
-          "a": "每个地点最多可跟踪 10 多个竞争对手。选择最重要的竞争对手。每个地点都可以有自己的竞争对手集。"
-        },
-        {
-          "q": "我可以跟踪不同地点的不同竞争对手吗？",
-          "a": "是的。每个地点都有自己的竞争对手。根据当地竞争情况，位置 A 可能会跟踪与位置 B 不同的餐厅。"
-        },
-        {
-          "q": "竞争对手数据多久更新一次？",
-          "a": "通过变化检测进行日常自动监控。重大变化（例如重大评级变化或新竞争对手）会立即触发警报。"
-        },
-        {
-          "q": "Watchtower 是否需要 Core 层级？",
-          "a": "是的。 Watchtower 适用于 Core Lite、Core Pro 和 Enterprise 级别。它需要 Core 提供的实时数据基础设施来综合内部性能与外部信号。"
-        },
-        {
-          "q": "我可以只使用一种情报类型吗？",
-          "a": "是的。单独选择竞争情报、事件和日历信号或市场趋势 - 或获得完整的 Watchtower 捆绑包，节省约 18%。"
-        },
-        {
-          "q": "每日简报如何运作？",
-          "a": "每天早上，Watchtower 都会将前一天的Pulse数据与今天的外部信号合成为优先简报，并发送到电子邮件、Slack 或 Telegram。"
-        }
-      ],
       "ctaTitle": "将外部智能添加到您的平台",
       "ctaDescription": "在完整的市场背景下了解您的业务。再也不会措手不及。",
       "ctaAdd": "添加到您的计划",
@@ -1929,32 +1617,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "よくある質問",
-      "faqs": [
-        {
-          "q": "何人の競合他社を追跡できますか?",
-          "a": "1 つの場所につき最大 10 人以上の競合他社。最も重要な競合他社を選択してください。各場所には独自の競合他社セットを含めることができます。"
-        },
-        {
-          "q": "異なる場所の異なる競合他社を追跡できますか?",
-          "a": "はい。各場所には独自の競合他社が存在します。地域の競争に基づいて、場所 A は場所 B とは異なるレストランを追跡する場合があります。"
-        },
-        {
-          "q": "競合他社のデータはどのくらいの頻度で更新されますか?",
-          "a": "変化検出による毎日の自動監視。重大な変更 (大幅な評価の変更や新しい競合他社など) が発生すると、即時にアラートがトリガーされます。"
-        },
-        {
-          "q": "Watchtower にはコア層が必要ですか?",
-          "a": "はい。 Watchtower は、Core Lite、Core Pro、および Enterprise レベルで利用できます。内部パフォーマンスと外部信号を合成するには、Core が提供するリアルタイム データ インフラストラクチャが必要です。"
-        },
-        {
-          "q": "インテリジェンスのタイプを 1 つだけ使用できますか?",
-          "a": "はい。競合情報、イベントとカレンダーのシグナル、または市場動向を個別に選択することも、Watchtower のフル バンドルを最大 18% 割引で入手することもできます。"
-        },
-        {
-          "q": "毎日のブリーフィングはどのように行われますか?",
-          "a": "Watchtower は毎朝、前日の Pulse データと今日の外部シグナルを合成して、優先順位の高いブリーフィングを電子メール、Slack、または Telegram に配信します。"
-        }
-      ],
       "ctaTitle": "外部インテリジェンスをプラットフォームに追加",
       "ctaDescription": "完全な市場コンテキストでビジネスを確認します。もう二度と不意を突かれることはありません。",
       "ctaAdd": "プランに追加",
@@ -2080,32 +1742,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "자주 묻는 질문",
-      "faqs": [
-        {
-          "q": "얼마나 많은 경쟁업체를 추적할 수 있나요?",
-          "a": "위치당 최대 10명 이상의 경쟁자. 가장 중요한 경쟁업체를 선택하세요. 각 위치에는 자체 경쟁자 세트가 있을 수 있습니다."
-        },
-        {
-          "q": "다양한 위치에 있는 다양한 경쟁업체를 추적할 수 있나요?",
-          "a": "그렇습니다. 각 위치에는 자체 경쟁자 세트가 있습니다. 위치 A는 지역 경쟁을 기반으로 위치 B와 다른 레스토랑을 추적할 수 있습니다."
-        },
-        {
-          "q": "경쟁업체 데이터는 얼마나 자주 업데이트되나요?",
-          "a": "변경 감지 기능을 갖춘 일일 자동 모니터링. 중요한 변화(예: 주요 등급 변화 또는 새로운 경쟁자)는 즉각적인 경고를 유발합니다."
-        },
-        {
-          "q": "Watchtower에는 코어 등급이 필요합니까?",
-          "a": "그렇습니다. Watchtower는 Core Lite, Core Pro 및 Enterprise 등급에서 사용할 수 있습니다. 내부 성능과 외부 신호를 통합하려면 Core가 제공하는 실시간 데이터 인프라가 필요합니다."
-        },
-        {
-          "q": "인텔리전스 유형을 하나만 사용할 수 있나요?",
-          "a": "그렇습니다. 경쟁 정보, 이벤트 및 일정 신호 또는 시장 동향을 개별적으로 선택하거나 전체 Watchtower 번들을 구매하여 ~18% 절약하세요."
-        },
-        {
-          "q": "일일 브리핑은 어떻게 진행되나요?",
-          "a": "매일 아침 Watchtower는 전날의 Pulse 데이터와 오늘의 외부 신호를 종합하여 이메일, Slack 또는 Telegram으로 전달되는 우선순위 브리핑을 작성합니다."
-        }
-      ],
       "ctaTitle": "플랫폼에 외부 인텔리전스 추가",
       "ctaDescription": "전체 시장 상황에서 귀하의 비즈니스를 살펴보세요. 다시는 방심하지 마십시오.",
       "ctaAdd": "계획에 추가",
@@ -2231,32 +1867,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Pertanyaan yang Sering Diajukan",
-      "faqs": [
-        {
-          "q": "Berapa banyak pesaing yang dapat saya lacak?",
-          "a": "Hingga 10+ pesaing per lokasi. Pilih pesaing yang paling penting. Setiap lokasi dapat memiliki kumpulan pesaingnya sendiri."
-        },
-        {
-          "q": "Bisakah saya melacak pesaing yang berbeda di lokasi berbeda?",
-          "a": "Ya. Setiap lokasi memiliki kumpulan pesaingnya sendiri. Lokasi A mungkin melacak restoran yang berbeda dari Lokasi B berdasarkan persaingan lokal."
-        },
-        {
-          "q": "Seberapa sering data pesaing diperbarui?",
-          "a": "Pemantauan otomatis harian dengan deteksi perubahan. Perubahan penting (seperti perubahan peringkat besar atau pesaing baru) segera memicu peringatan."
-        },
-        {
-          "q": "Apakah Watchtower memerlukan tingkat Core?",
-          "a": "Ya. Watchtower tersedia pada tingkat Core Lite, Core Pro, dan Enterprise. Hal ini memerlukan infrastruktur data real-time yang disediakan Core untuk mensintesis kinerja internal dengan sinyal eksternal."
-        },
-        {
-          "q": "Bisakah saya menggunakan satu jenis kecerdasan saja?",
-          "a": "Ya. Pilih Intelijen Kompetitif, Peristiwa & Sinyal Kalender, atau Tren Pasar satu per satu - atau dapatkan paket lengkap Watchtower dengan penghematan ~18%."
-        },
-        {
-          "q": "Bagaimana cara kerja pengarahan harian?",
-          "a": "Setiap pagi, Watchtower menyatukan data Pulse hari sebelumnya dengan sinyal eksternal hari ini ke dalam pengarahan prioritas yang dikirimkan ke email, Slack, atau Telegram."
-        }
-      ],
       "ctaTitle": "Tambahkan Kecerdasan Eksternal ke Platform Anda",
       "ctaDescription": "Lihat bisnis Anda dalam konteks pasar penuh. Jangan pernah lengah lagi.",
       "ctaAdd": "Tambahkan ke Paket Anda",
@@ -2382,32 +1992,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Întrebări frecvente",
-      "faqs": [
-        {
-          "q": "Câți concurenți pot urmări?",
-          "a": "Până la 10+ concurenți per locație. Alegeți concurenții care contează cel mai mult. Fiecare locație poate avea propriul set de competitori."
-        },
-        {
-          "q": "Pot urmări diferiți concurenți în locații diferite?",
-          "a": "Da. Fiecare locație are propriul set de competitori. Locația A poate urmări restaurante diferite decât Locația B, pe baza concurenței locale."
-        },
-        {
-          "q": "Cât de des sunt actualizate datele concurenților?",
-          "a": "Monitorizare automată zilnică cu detectarea schimbărilor. Modificările critice (cum ar fi schimbări majore de rating sau noi concurenți) declanșează alerte imediate."
-        },
-        {
-          "q": "Watchtower necesită nivelul Core?",
-          "a": "Da. Watchtower este disponibil pe nivelurile Core Lite, Core Pro și Enterprise. Este nevoie de infrastructura de date în timp real pe care Core o oferă pentru a sintetiza performanța internă cu semnale externe."
-        },
-        {
-          "q": "Pot folosi un singur tip de inteligență?",
-          "a": "Da. Alegeți individual Inteligență competitivă, Semnale de evenimente și calendar sau Tendințe ale pieței - sau obțineți pachetul complet Watchtower pentru economii de ~18%."
-        },
-        {
-          "q": "Cum funcționează briefing-ul zilnic?",
-          "a": "În fiecare dimineață, Watchtower sintetizează datele Pulse din ziua anterioară cu semnalele externe de astăzi într-un briefing prioritizat, livrat pe e-mail, Slack sau Telegram."
-        }
-      ],
       "ctaTitle": "Adăugați informații externe pe platforma dvs",
       "ctaDescription": "Vedeți-vă afacerea în contextul complet al pieței. Să nu mai fiți niciodată luat prin surprindere.",
       "ctaAdd": "Adaugă la planul tău",
@@ -2533,32 +2117,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Câu hỏi thường gặp",
-      "faqs": [
-        {
-          "q": "Tôi có thể theo dõi bao nhiêu đối thủ cạnh tranh?",
-          "a": "Tối đa hơn 10 đối thủ cạnh tranh trên mỗi địa điểm. Chọn những đối thủ cạnh tranh quan trọng nhất. Mỗi địa điểm có thể có tập hợp đối thủ cạnh tranh riêng."
-        },
-        {
-          "q": "Tôi có thể theo dõi các đối thủ cạnh tranh khác nhau ở các địa điểm khác nhau không?",
-          "a": "Vâng. Mỗi địa điểm đều có đối thủ cạnh tranh riêng. Địa điểm A có thể theo dõi các nhà hàng khác với Địa điểm B dựa trên sự cạnh tranh ở địa phương."
-        },
-        {
-          "q": "Dữ liệu của đối thủ cạnh tranh được cập nhật thường xuyên như thế nào?",
-          "a": "Giám sát tự động hàng ngày với khả năng phát hiện thay đổi. Những thay đổi quan trọng (như thay đổi lớn về xếp hạng hoặc đối thủ cạnh tranh mới) sẽ kích hoạt cảnh báo ngay lập tức."
-        },
-        {
-          "q": "Watchtower có yêu cầu gói Core không?",
-          "a": "Vâng. Watchtower có sẵn trên các cấp Core Lite, Core Pro và Enterprise. Nó yêu cầu cơ sở hạ tầng dữ liệu thời gian thực mà Core cung cấp để tổng hợp hiệu suất bên trong với các tín hiệu bên ngoài."
-        },
-        {
-          "q": "Tôi có thể chỉ sử dụng một loại trí thông minh không?",
-          "a": "Vâng. Chọn riêng Thông tin cạnh tranh, Sự kiện & Tín hiệu lịch hoặc Xu hướng thị trường - hoặc nhận gói Watchtower đầy đủ để tiết kiệm ~18%."
-        },
-        {
-          "q": "Cuộc họp giao ban hàng ngày diễn ra như thế nào?",
-          "a": "Mỗi buổi sáng, Watchtower tổng hợp dữ liệu Pulse của ngày hôm trước của bạn với các tín hiệu bên ngoài của ngày hôm nay thành một bản tóm tắt được ưu tiên gửi tới email, Slack hoặc Telegram."
-        }
-      ],
       "ctaTitle": "Thêm thông tin bên ngoài vào nền tảng của bạn",
       "ctaDescription": "Xem doanh nghiệp của bạn trong bối cảnh thị trường đầy đủ. Đừng bao giờ mất cảnh giác nữa.",
       "ctaAdd": "Thêm vào kế hoạch của bạn",
@@ -2684,32 +2242,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Vanliga frågor",
-      "faqs": [
-        {
-          "q": "Hur många konkurrenter kan jag spåra?",
-          "a": "Upp till 10+ konkurrenter per plats. Välj de konkurrenter som betyder mest. Varje plats kan ha sin egen konkurrentuppsättning."
-        },
-        {
-          "q": "Kan jag spåra olika konkurrenter på olika platser?",
-          "a": "Ja. Varje plats har sin egen konkurrentuppsättning. Plats A kan spåra andra restauranger än plats B baserat på lokal konkurrens."
-        },
-        {
-          "q": "Hur ofta uppdateras konkurrentdata?",
-          "a": "Daglig automatiserad övervakning med förändringsdetektering. Kritiska förändringar (som stora förändringar i betyg eller nya konkurrenter) utlöser omedelbara varningar."
-        },
-        {
-          "q": "Kräver Watchtower Core-nivå?",
-          "a": "Ja. Watchtower är tillgängligt på nivåerna Core Lite, Core Pro och Enterprise. Det kräver realtidsdatainfrastrukturen som Core tillhandahåller för att syntetisera intern prestanda med externa signaler."
-        },
-        {
-          "q": "Kan jag använda bara en intelligenstyp?",
-          "a": "Ja. Välj konkurrentintelligens, evenemangs- och kalendersignaler eller marknadstrender individuellt - eller få hela Watchtower-paketet för ~18 % besparingar."
-        },
-        {
-          "q": "Hur fungerar den dagliga briefingen?",
-          "a": "Varje morgon syntetiserar Watchtower din föregående dags Pulse med dagens externa signaler till en prioriterad briefing som levereras till e-post, Slack eller Telegram."
-        }
-      ],
       "ctaTitle": "Lägg till extern intelligens till din plattform",
       "ctaDescription": "Se ditt företag i hela marknadssammanhang. Bli aldrig överraskad igen.",
       "ctaAdd": "Lägg till i din plan",
@@ -2835,32 +2367,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
-      "faqs": [
-        {
-          "q": "আমি কতজন প্রতিযোগীকে ট্র্যাক করতে পারি?",
-          "a": "স্থান প্রতি 10+ প্রতিযোগী পর্যন্ত। সবচেয়ে গুরুত্বপূর্ণ প্রতিযোগীদের চয়ন করুন। প্রতিটি অবস্থানের নিজস্ব প্রতিযোগী সেট থাকতে পারে।"
-        },
-        {
-          "q": "আমি কি বিভিন্ন স্থানে বিভিন্ন প্রতিযোগীদের ট্র্যাক করতে পারি?",
-          "a": "হ্যাঁ। প্রতিটি অবস্থানের নিজস্ব প্রতিযোগী সেট আছে। অবস্থান A স্থানীয় প্রতিযোগিতার উপর ভিত্তি করে অবস্থান B থেকে ভিন্ন রেস্তোরাঁ ট্র্যাক করতে পারে।"
-        },
-        {
-          "q": "প্রতিযোগীর তথ্য কত ঘন ঘন আপডেট করা হয়?",
-          "a": "পরিবর্তন সনাক্তকরণ সহ দৈনিক স্বয়ংক্রিয় পর্যবেক্ষণ। গুরুতর পরিবর্তনগুলি (যেমন বড় রেটিং শিফট বা নতুন প্রতিযোগী) অবিলম্বে সতর্কতা ট্রিগার করে।"
-        },
-        {
-          "q": "Watchtower-এর জন্য কি Core টিয়ার প্রয়োজন?",
-          "a": "হ্যাঁ। Watchtower Core Lite, Core Pro এবং এন্টারপ্রাইজ স্তরগুলিতে উপলব্ধ। বাহ্যিক সংকেতগুলির সাথে অভ্যন্তরীণ কর্মক্ষমতা সংশ্লেষণ করার জন্য Core সরবরাহ করে এমন রিয়েল-টাইম ডেটা অবকাঠামোর প্রয়োজন।"
-        },
-        {
-          "q": "আমি কি শুধুমাত্র একটি বুদ্ধিমত্তা ব্যবহার করতে পারি?",
-          "a": "হ্যাঁ। প্রতিযোগিতামূলক বুদ্ধিমত্তা, ইভেন্ট এবং ক্যালেন্ডার সংকেত, বা বাজারের প্রবণতা পৃথকভাবে বেছে নিন - অথবা ~18% সঞ্চয়ের জন্য সম্পূর্ণ Watchtower বান্ডেল পান।"
-        },
-        {
-          "q": "দৈনিক ব্রিফিং কিভাবে কাজ করে?",
-          "a": "প্রতিদিন সকালে, Watchtower আপনার আগের দিনের Pulse ডেটাকে আজকের বাহ্যিক সংকেতের সাথে সংশ্লেষিত করে ইমেল, স্ল্যাক বা টেলিগ্রামে দেওয়া অগ্রাধিকারমূলক ব্রিফিংয়ে।"
-        }
-      ],
       "ctaTitle": "আপনার প্ল্যাটফর্মে বাহ্যিক বুদ্ধিমত্তা যোগ করুন",
       "ctaDescription": "সম্পূর্ণ বাজার প্রসঙ্গে আপনার ব্যবসা দেখুন। আর কখনও অপ্রস্তুত অবস্থায় ধরা পড়বেন না।",
       "ctaAdd": "আপনার পরিকল্পনা যোগ করুন",
@@ -2986,32 +2492,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "คำถามที่พบบ่อย",
-      "faqs": [
-        {
-          "q": "ฉันสามารถติดตามคู่แข่งได้กี่คน?",
-          "a": "ติดตามคู่แข่งได้มากถึง 10+ รายต่อสถานที่ เลือกคู่แข่งที่สำคัญที่สุด แต่ละสถานที่สามารถมีชุดคู่แข่งของตนเองได้"
-        },
-        {
-          "q": "ฉันสามารถติดตามคู่แข่งที่แตกต่างกันในสถานที่ต่างกันได้หรือไม่",
-          "a": "ใช่ แต่ละสถานที่มีชุดคู่แข่งของตัวเอง ตำแหน่ง A อาจติดตามร้านอาหารที่แตกต่างจากตำแหน่ง B โดยพิจารณาจากการแข่งขันในท้องถิ่น"
-        },
-        {
-          "q": "ข้อมูลคู่แข่งได้รับการอัปเดตบ่อยแค่ไหน?",
-          "a": "การตรวจสอบอัตโนมัติรายวันพร้อมการตรวจจับการเปลี่ยนแปลง การเปลี่ยนแปลงที่สำคัญ (เช่น การเปลี่ยนแปลงอันดับเครดิตที่สำคัญหรือคู่แข่งรายใหม่) จะทำให้เกิดการแจ้งเตือนทันที"
-        },
-        {
-          "q": "Watchtower ต้องใช้ระดับ Core หรือไม่?",
-          "a": "ใช่ Watchtower มีให้บริการบนระดับ Core Lite, Core Pro และ Enterprise ต้องใช้โครงสร้างพื้นฐานข้อมูลแบบเรียลไทม์ที่ Core จัดเตรียมไว้ให้เพื่อสังเคราะห์ประสิทธิภาพภายในด้วยสัญญาณภายนอก"
-        },
-        {
-          "q": "ฉันสามารถใช้สติปัญญาประเภทเดียวได้หรือไม่?",
-          "a": "ใช่ เลือกข่าวกรองด้านการแข่งขัน สัญญาณเหตุการณ์และปฏิทิน หรือแนวโน้มตลาดทีละรายการ หรือรับชุด Watchtower แบบเต็มเพื่อรับส่วนลด ~18%"
-        },
-        {
-          "q": "การบรรยายสรุปรายวันทำงานอย่างไร",
-          "a": "ทุกเช้า Watchtower จะสังเคราะห์ข้อมูล Pulse ของวันก่อนหน้าของคุณด้วยสัญญาณภายนอกของวันนี้ลงในข้อมูลสรุปที่มีการจัดลำดับความสำคัญซึ่งส่งไปยังอีเมล Slack หรือ Telegram"
-        }
-      ],
       "ctaTitle": "เพิ่มความฉลาดภายนอกให้กับแพลตฟอร์มของคุณ",
       "ctaDescription": "ดูธุรกิจของคุณในบริบทของตลาดเต็มรูปแบบ อย่าตั้งตัวไม่ทันอีกต่อไป",
       "ctaAdd": "เพิ่มในแผนของคุณ",
@@ -3137,32 +2617,6 @@ export const generatedLocalCopy = {
         }
       ],
       "faqHeading": "Soalan Lazim",
-      "faqs": [
-        {
-          "q": "Berapa banyak pesaing yang boleh saya jejaki?",
-          "a": "Sehingga 10+ pesaing setiap lokasi. Pilih pesaing yang paling penting. Setiap lokasi boleh mempunyai set pesaingnya sendiri."
-        },
-        {
-          "q": "Bolehkah saya menjejaki pesaing yang berbeza di lokasi yang berbeza?",
-          "a": "Ya. Setiap lokasi mempunyai set pesaingnya sendiri. Lokasi A mungkin menjejaki restoran yang berbeza daripada Lokasi B berdasarkan persaingan tempatan."
-        },
-        {
-          "q": "Berapa kerap data pesaing dikemas kini?",
-          "a": "Pemantauan automatik harian dengan pengesanan perubahan. Perubahan kritikal (seperti peralihan penarafan utama atau pesaing baharu) mencetuskan makluman segera."
-        },
-        {
-          "q": "Adakah Watchtower memerlukan peringkat Core?",
-          "a": "Ya. Watchtower tersedia pada peringkat Core Lite, Core Pro dan Enterprise. Ia memerlukan infrastruktur data masa nyata yang Core sediakan untuk mensintesis prestasi dalaman dengan isyarat luaran."
-        },
-        {
-          "q": "Bolehkah saya menggunakan hanya satu jenis kecerdasan?",
-          "a": "Ya. Pilih Risikan Kompetitif, Isyarat Acara & Kalendar atau Aliran Pasaran secara individu - atau dapatkan himpunan Watchtower penuh untuk penjimatan ~18%."
-        },
-        {
-          "q": "Bagaimanakah taklimat harian berfungsi?",
-          "a": "Setiap pagi, Watchtower mensintesis data Pulse anda hari sebelumnya dengan isyarat luaran hari ini ke dalam taklimat keutamaan yang dihantar ke e-mel, Slack atau Telegram."
-        }
-      ],
       "ctaTitle": "Tambahkan Kecerdasan Luaran pada Platform Anda",
       "ctaDescription": "Lihat perniagaan anda dalam konteks pasaran penuh. Jangan sekali-kali tertangkap basah lagi.",
       "ctaAdd": "Tambahkan pada Pelan Anda",

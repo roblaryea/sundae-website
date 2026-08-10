@@ -54,8 +54,8 @@ const vertices: Vertex[] = [
     id: "cost",
     label: "Cost",
     headline: "Lower cost than rebuilding BI around restaurants.",
-    body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one, with Report Lite free to start.",
-    chips: ["Report Lite free", "Less custom BI", "Lower analyst load"],
+    body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one: one package, eleven domain modules, no BI build.",
+    chips: ["One package", "Less custom BI", "Lower analyst load"],
   },
 ];
 

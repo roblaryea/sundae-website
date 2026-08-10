@@ -12,6 +12,12 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import {
+  CORE_PACKAGES_BY_ID,
+  describeBands,
+  usd,
+  type CorePackageId,
+} from '@/lib/pricing/priceBook'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { coreCreamCopy } from "./coreCreamCopy";
@@ -33,41 +39,54 @@ const localizedCoreCopy = {
       cards: [
         { title: "Predictive, Not Reactive", desc: "Get alerts before problems become expensive. Sundae Coach recommendations for immediate action - not dashboards that update.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Every Location, One View", desc: "Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "Grows With You", desc: "From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise - the platform scales as you do.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "Grows With You", desc: "From one location to a thousand. The package sets the depth; the location bands set the price as you add sites.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
     tiers: {
-      eyebrow: "CHOOSE YOUR TIER",
-      heading: "Three Tiers for Every Scale",
-      description: "From growing operations to global enterprises. Pick your speed.",
+      eyebrow: "CHOOSE YOUR PACKAGE",
+      heading: "Four Core packages",
+      description: "Same eleven domain modules in every package. What changes is how deep each one goes.",
       bestForLabel: "Best for:",
       viewPrefix: "See",
+      priceLabel: "first location / month",
+      bandsLabel: "Then, per additional location",
+      walletLabel: "AI credits / month",
+      includesModules: "All eleven Core domain modules, included",
       items: [
         {
-          name: "Core Lite",
-          badge: "Growing Operations",
-          subtitle: "Real-Time Intelligence for 1-29 Locations",
-          description: "For restaurant groups scaling from single-location to multi-location operations. 4-hour refresh cycles and single POS integration.",
-          features: ["4-hour refresh (6x daily)", "600 base credits + 120/location", "30 custom dashboards", "2-year retention", "Single POS integration", "Email + Chat + Phone support"],
-          bestFor: "1-10 locations, single-brand portfolios",
+          packageId: "core_foundation" as CorePackageId,
+          name: "Core Foundation",
+          badge: "Start here",
+          subtitle: "The operating baseline",
+          description: "One decision substrate over POS, labor, cost and operations, refreshed while the shift is still running.",
+          bestFor: "Groups getting off spreadsheets and disconnected dashboards",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
+          packageId: "core_margin" as CorePackageId,
+          name: "Core Margin",
           badge: "Most Popular",
-          subtitle: "Optimized for 30-100 Location Portfolios",
-          description: "For established multi-location operators who need faster refresh cycles and advanced forecasting across brands.",
-          features: ["2-hour refresh (12x daily)", "1,200 base credits + 240/location", "75 custom dashboards", "3-year retention", "Multi-POS support", "Priority phone support (2hr SLA)"],
-          bestFor: "30-100 locations, multi-brand operators",
+          subtitle: "Depth on cost and leakage",
+          description: "Theoretical vs. actual usage, waste, shrinkage, voids and comps, and item-level contribution.",
+          bestFor: "Operators whose margin is leaking faster than they can see it",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "Custom Everything",
-          subtitle: "Built for 100+ Locations",
-          description: "For large-scale operations requiring custom refresh frequency, unlimited dashboards, white-label, SSO, and dedicated support.",
-          features: ["Custom refresh frequency", "Unlimited credits", "Unlimited dashboards", "Custom retention", "White-label, SSO, dedicated CSM", "24/7 support with custom SLAs"],
-          bestFor: "100+ locations, multi-brand enterprises",
+          packageId: "core_growth" as CorePackageId,
+          name: "Core Growth",
+          badge: "Demand side",
+          subtitle: "Depth on demand",
+          description: "Guest cohorts and lifetime value, promo attribution by channel, delivery margin after commission.",
+          bestFor: "Groups pushing on repeat revenue and channel mix",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          name: "Core Performance",
+          badge: "Full depth",
+          subtitle: "Multi-brand, multi-region",
+          description: "Consolidation across brands and regions, cross-module correlation, governed access with audit trails.",
+          bestFor: "Large groups running several brands or several markets",
           color: "from-orange-500 to-orange-600",
         },
       ],
@@ -130,10 +149,10 @@ const localizedCoreCopy = {
     faq: {
       heading: "Frequently Asked Questions",
       items: [
-        { q: "What's the difference between Core Lite and Core Pro?", a: "Core Lite: 4-hour refresh, 600 base credits, 30 dashboards, single POS. Core Pro: 2-hour refresh, 1,200 base credits, 75 dashboards, multi-POS support." },
+        { q: "How do the four Core packages differ?", a: "Every package carries the same eleven domain modules and differs in how deep each one goes. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
         { q: "Can I upgrade from Report to Core?", a: "Yes. All historical data is preserved. Transition with no data loss." },
         { q: "Do I need Core if I only have 5 locations?", a: "Not required, but recommended if you need operational speed (2-4 hour refresh). Report works great for 1-10 locations if daily reports are sufficient." },
-        { q: "Can Core handle multiple POS systems?", a: "Core Pro and Enterprise support multi-POS environments. Core Lite supports single POS across all locations." },
+        { q: "Can Core handle multiple POS systems?", a: "Yes. Core connects across mixed POS estates, and Core Performance adds consolidation across brands and regions on top." },
         { q: "Can I use Core with Watchtower?", a: "Highly recommended. Core provides internal intelligence, Watchtower adds external market intelligence for complete visibility." },
         { q: "Can I use Core with Modules?", a: "Yes. All 5 specialized modules work with Core to deepen intelligence in specific operational areas." },
       ],
@@ -161,41 +180,54 @@ const localizedCoreCopy = {
       cards: [
         { title: "استباقي لا تفاعلي", desc: "تنبيهات قبل ان تتحول المشكلات الى تكلفة. توصيات Sundae Coach للعمل الفوري - لا لوحات تحكم تتحدث متأخرة.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "كل موقع في عرض واحد", desc: "رؤية موحدة عبر كل المواقع. أنماط على مستوى المحفظة وتفاصيل على مستوى الموقع في لوحة واحدة.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "ينمو معك", desc: "من 10 الى اكثر من 1,000 موقع. Core Lite او Pro او Enterprise - المنصة تتوسع معك.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "ينمو معك", desc: "من موقع واحد إلى ألف. الباقة تحدد العمق، وشرائح المواقع تحدد السعر كلما أضفت موقعًا.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
     tiers: {
-      eyebrow: "اختر المستوى",
-      heading: "ثلاثة مستويات لكل حجم",
-      description: "من العمليات النامية الى المؤسسات العالمية. اختر السرعة المناسبة لك.",
+      eyebrow: "اختر باقتك",
+      heading: "أربع باقات Core",
+      description: "الوحدات الإحدى عشرة نفسها في كل باقة. ما يتغير هو عمق كل وحدة.",
       bestForLabel: "الانسب لـ:",
       viewPrefix: "عرض",
+      priceLabel: "للموقع الأول شهريًا",
+      bandsLabel: "ثم لكل موقع إضافي",
+      walletLabel: "رصيد ذكاء شهريًا",
+      includesModules: "كل وحدات Core الإحدى عشرة مضمّنة",
       items: [
         {
-          name: "Core Lite",
-          badge: "عمليات نامية",
-          subtitle: "ذكاء فوري لـ 1-29 موقعاً",
-          description: "للمجموعات التي تتوسع من موقع واحد الى عمليات متعددة المواقع. دورات تحديث كل 4 ساعات وتكامل POS واحد.",
-          features: ["تحديث كل 4 ساعات (6 مرات يومياً)", "600 رصيد اساسي + 120 لكل موقع", "30 لوحة مخصصة", "احتفاظ لمدة سنتين", "تكامل POS واحد", "دعم عبر البريد والدردشة والهاتف"],
-          bestFor: "1-10 مواقع، محافظ بعلامة واحدة",
+          packageId: "core_foundation" as CorePackageId,
+          name: "Core Foundation",
+          badge: "ابدأ هنا",
+          subtitle: "الأساس التشغيلي",
+          description: "ركيزة قرار واحدة فوق نقاط البيع والعمالة والتكلفة والعمليات، تتحدّث والوردية ما زالت قائمة.",
+          bestFor: "المجموعات المنتقلة من الجداول ولوحات المعلومات المتفرقة",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
-          badge: "الاكثر شيوعاً",
-          subtitle: "مصمم لمحافظ 30-100 موقع",
-          description: "للمشغلين متعددي المواقع الذين يحتاجون دورات تحديث اسرع وتوقعات متقدمة عبر العلامات.",
-          features: ["تحديث كل ساعتين (12 مرة يومياً)", "1,200 رصيد اساسي + 240 لكل موقع", "75 لوحة مخصصة", "احتفاظ لمدة 3 سنوات", "دعم Multi-POS", "دعم هاتفي مميز (SLA ساعتان)"],
-          bestFor: "30-100 موقع، مشغلون متعددو العلامات",
+          packageId: "core_margin" as CorePackageId,
+          name: "Core Margin",
+          badge: "الأكثر شيوعًا",
+          subtitle: "عمق في التكلفة والتسرب",
+          description: "الاستهلاك النظري مقابل الفعلي، والهدر، والفاقد، والإلغاءات والمجانيات، ومساهمة كل صنف.",
+          bestFor: "المشغلون الذين يتسرب هامشهم أسرع مما يرون",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "تخصيص كامل",
-          subtitle: "مصمم لـ 100+ موقع",
-          description: "للعمليات الكبيرة التي تحتاج وتيرة تحديث مخصصة، ولوحات غير محدودة، وعلامة بيضاء، وSSO، ودعماً مخصصاً.",
-          features: ["وتيرة تحديث مخصصة", "رصيد غير محدود", "لوحات غير محدودة", "احتفاظ مخصص", "علامة بيضاء وSSO ومدير نجاح مخصص", "دعم 24/7 مع SLAs مخصصة"],
-          bestFor: "100+ موقع، مؤسسات متعددة العلامات",
+          packageId: "core_growth" as CorePackageId,
+          name: "Core Growth",
+          badge: "جانب الطلب",
+          subtitle: "عمق في الطلب",
+          description: "شرائح الضيوف وقيمتهم مدى الحياة، وإسناد العروض حسب القناة، وهامش التوصيل بعد العمولة.",
+          bestFor: "المجموعات التي تركز على الإيراد المتكرر ومزيج القنوات",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          name: "Core Performance",
+          badge: "العمق الكامل",
+          subtitle: "متعدد العلامات والأسواق",
+          description: "التجميع عبر العلامات والمناطق، والترابط بين الوحدات، ووصول محوكم بسجل تدقيق.",
+          bestFor: "المجموعات الكبيرة التي تدير عدة علامات أو عدة أسواق",
           color: "from-orange-500 to-orange-600",
         },
       ],
@@ -258,10 +290,10 @@ const localizedCoreCopy = {
     faq: {
       heading: "الاسئلة الشائعة",
       items: [
-        { q: "ما الفرق بين Core Lite وCore Pro؟", a: "Core Lite: تحديث كل 4 ساعات، 600 رصيد اساسي، 30 لوحة، POS واحد. Core Pro: تحديث كل ساعتين، 1,200 رصيد اساسي، 75 لوحة، ودعم Multi-POS." },
+        { q: "ما الفرق بين باقات Core الأربع؟", a: "كل باقة تضم الوحدات الإحدى عشرة نفسها، والفرق في عمق كل وحدة. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
         { q: "هل يمكنني الترقية من Report الى Core؟", a: "نعم. يتم الحفاظ على كل البيانات التاريخية. الانتقال دون فقدان للبيانات." },
         { q: "هل احتاج Core اذا كان لدي 5 مواقع فقط؟", a: "ليس ضرورياً، لكنه موصى به اذا كنت تحتاج سرعة تشغيلية (تحديث كل 2-4 ساعات). Report يعمل جيداً لـ 1-10 مواقع اذا كانت التقارير اليومية كافية." },
-        { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "يدعم Core Pro وEnterprise بيئات Multi-POS. Core Lite يدعم POS واحداً عبر كل المواقع." },
+        { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "نعم. يتصل Core بأنظمة POS المختلطة، وتضيف Core Performance فوق ذلك التجميع عبر العلامات والمناطق." },
         { q: "هل يمكنني استخدام Core مع Watchtower؟", a: "موصى به بشدة. Core يوفر الذكاء الداخلي، وWatchtower يضيف ذكاء السوق الخارجي لرؤية كاملة." },
         { q: "هل يمكنني استخدام Core مع Modules؟", a: "نعم. جميع الوحدات المتخصصة الخمس تعمل مع Core لتعميق الذكاء في المجالات التشغيلية المحددة." },
       ],
@@ -289,41 +321,54 @@ const localizedCoreCopy = {
       cards: [
         { title: "Predictif, pas reactif", desc: "Recevez des alertes avant que les problemes ne deviennent couteux. Les recommandations de Sundae Coach passent a l action - pas des tableaux qui se mettent a jour plus tard.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Chaque site, une seule vue", desc: "Visibilite unifiee sur tous les sites. Tendances au niveau du portefeuille et detail au niveau du site dans un seul panneau.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "Grandit avec vous", desc: "De 10 a plus de 1,000 sites. Core Lite, Pro ou Enterprise - la plateforme evolue avec vous.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "Grandit avec vous", desc: "D un site a un millier. L offre fixe la profondeur, les tranches de sites fixent le prix a mesure que vous ajoutez.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
     tiers: {
-      eyebrow: "CHOISISSEZ VOTRE NIVEAU",
-      heading: "Trois niveaux pour chaque echelle",
-      description: "Des operations en croissance aux groupes globaux. Choisissez votre vitesse.",
+      eyebrow: "CHOISISSEZ VOTRE OFFRE",
+      heading: "Quatre offres Core",
+      description: "Les memes onze modules metier dans chaque offre. Ce qui change, c est la profondeur de chacun.",
       bestForLabel: "Ideal pour :",
       viewPrefix: "Voir",
+      priceLabel: "premier site / mois",
+      bandsLabel: "Puis, par site additionnel",
+      walletLabel: "credits IA / mois",
+      includesModules: "Les onze modules metier Core, inclus",
       items: [
         {
-          name: "Core Lite",
-          badge: "Operations en croissance",
-          subtitle: "Intelligence en temps reel pour 1 a 29 sites",
-          description: "Pour les groupes qui passent d un seul site a des operations multi-sites. Rafraichissement toutes les 4 heures et une seule integration POS.",
-          features: ["Rafraichissement toutes les 4 heures (6 fois/jour)", "600 credits de base + 120/site", "30 tableaux de bord personnalises", "Retention 2 ans", "Une seule integration POS", "Support e-mail, chat et telephone"],
-          bestFor: "1 a 10 sites, portefeuilles mono-marque",
+          packageId: "core_foundation" as CorePackageId,
+          name: "Core Foundation",
+          badge: "Commencez ici",
+          subtitle: "Le socle operationnel",
+          description: "Une seule base de decision sur le POS, la main-d oeuvre, les couts et l exploitation, rafraichie pendant le service.",
+          bestFor: "Les groupes qui quittent les tableurs et les dashboards eparpilles",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
+          packageId: "core_margin" as CorePackageId,
+          name: "Core Margin",
           badge: "Le plus populaire",
-          subtitle: "Optimise pour des portefeuilles de 30 a 100 sites",
-          description: "Pour les exploitants multi-sites etablis qui ont besoin de cycles plus rapides et de previsions avancees sur plusieurs marques.",
-          features: ["Rafraichissement toutes les 2 heures (12 fois/jour)", "1,200 credits de base + 240/site", "75 tableaux de bord personnalises", "Retention 3 ans", "Support Multi-POS", "Support telephone prioritaire (SLA 2 h)"],
-          bestFor: "30 a 100 sites, exploitants multi-marques",
+          subtitle: "Profondeur sur les couts et les pertes",
+          description: "Theorique contre reel, gaspillage, demarque, annulations et offerts, contribution par article.",
+          bestFor: "Les exploitants dont la marge fuit plus vite qu ils ne la voient",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "Tout sur mesure",
-          subtitle: "Concu pour 100+ sites",
-          description: "Pour les operations a grande echelle qui necessitent une frequence de rafraichissement sur mesure, des tableaux illimites, le white-label, le SSO et un support dedie.",
-          features: ["Frequence de rafraichissement sur mesure", "Credits illimites", "Tableaux illimites", "Retention sur mesure", "White-label, SSO, CSM dedie", "Support 24/7 avec SLA personnalises"],
-          bestFor: "100+ sites, groupes multi-marques",
+          packageId: "core_growth" as CorePackageId,
+          name: "Core Growth",
+          badge: "Cote demande",
+          subtitle: "Profondeur sur la demande",
+          description: "Cohortes clients et valeur vie, attribution des promos par canal, marge livraison apres commission.",
+          bestFor: "Les groupes qui poussent le revenu recurrent et le mix de canaux",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          name: "Core Performance",
+          badge: "Profondeur complete",
+          subtitle: "Multi-marques, multi-regions",
+          description: "Consolidation entre marques et regions, correlation inter-modules, acces gouverne avec pistes d audit.",
+          bestFor: "Les grands groupes qui operent plusieurs marques ou plusieurs marches",
           color: "from-orange-500 to-orange-600",
         },
       ],
@@ -386,10 +431,10 @@ const localizedCoreCopy = {
     faq: {
       heading: "Questions frequentes",
       items: [
-        { q: "Quelle est la difference entre Core Lite et Core Pro ?", a: "Core Lite : rafraichissement toutes les 4 heures, 600 credits de base, 30 tableaux, un seul POS. Core Pro : rafraichissement toutes les 2 heures, 1,200 credits de base, 75 tableaux, support Multi-POS." },
+        { q: "Quelle est la difference entre les quatre offres Core ?", a: "Chaque offre embarque les memes onze modules metier et se distingue par la profondeur de chacun. Foundation est le socle operationnel, Margin ajoute la profondeur couts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-regions avec acces gouverne." },
         { q: "Puis-je passer de Report a Core ?", a: "Oui. Toutes les donnees historiques sont conservees. La transition se fait sans perte de donnees." },
         { q: "Ai-je besoin de Core si je n ai que 5 sites ?", a: "Pas obligatoire, mais recommande si vous avez besoin de vitesse operationnelle (rafraichissement toutes les 2 a 4 heures). Report fonctionne tres bien pour 1 a 10 sites si les rapports quotidiens suffisent." },
-        { q: "Core peut-il gerer plusieurs systemes POS ?", a: "Core Pro et Enterprise prennent en charge les environnements Multi-POS. Core Lite prend en charge un seul POS sur tous les sites." },
+        { q: "Core peut-il gerer plusieurs systemes POS ?", a: "Oui. Core se connecte a des parcs POS heterogenes, et Core Performance ajoute par-dessus la consolidation entre marques et regions." },
         { q: "Puis-je utiliser Core avec Watchtower ?", a: "Fortement recommande. Core fournit l intelligence interne, Watchtower ajoute l intelligence marche externe pour une visibilite complete." },
         { q: "Puis-je utiliser Core avec les Modules ?", a: "Oui. Les 5 modules specialises fonctionnent avec Core pour approfondir l intelligence dans des zones operationnelles specifiques." },
       ],
@@ -417,41 +462,54 @@ const localizedCoreCopy = {
       cards: [
         { title: "Predictivo, no reactivo", desc: "Recibe alertas antes de que los problemas se vuelvan costosos. Recomendaciones de Sundae Coach para actuar al momento - no paneles que se actualizan tarde.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Cada local, una sola vista", desc: "Visibilidad unificada en todos los locales. Patrones a nivel cartera y detalle a nivel local en un solo panel.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "Crece contigo", desc: "De 10 a mas de 1,000 locales. Core Lite, Pro o Enterprise - la plataforma escala contigo.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "Crece contigo", desc: "De un local a mil. El paquete marca la profundidad y los tramos de locales marcan el precio segun anades sitios.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
     tiers: {
-      eyebrow: "ELIGE TU NIVEL",
-      heading: "Tres niveles para cada escala",
-      description: "Desde operaciones en crecimiento hasta empresas globales. Elige tu ritmo.",
+      eyebrow: "ELIGE TU PAQUETE",
+      heading: "Cuatro paquetes Core",
+      description: "Los mismos once modulos de dominio en cada paquete. Lo que cambia es cuanto profundiza cada uno.",
       bestForLabel: "Ideal para:",
       viewPrefix: "Ver",
+      priceLabel: "primer local / mes",
+      bandsLabel: "Despues, por local adicional",
+      walletLabel: "creditos de IA / mes",
+      includesModules: "Los once modulos de dominio de Core, incluidos",
       items: [
         {
-          name: "Core Lite",
-          badge: "Operaciones en crecimiento",
-          subtitle: "Inteligencia en tiempo real para 1 a 29 locales",
-          description: "Para grupos que escalan de un local a operaciones multi-local. Ciclos de actualizacion de 4 horas y una sola integracion POS.",
-          features: ["Actualizacion cada 4 horas (6 veces al dia)", "600 creditos base + 120 por local", "30 paneles personalizados", "Retencion de 2 anos", "Una integracion POS", "Soporte por email, chat y telefono"],
-          bestFor: "1 a 10 locales, carteras de una sola marca",
+          packageId: "core_foundation" as CorePackageId,
+          name: "Core Foundation",
+          badge: "Empieza aqui",
+          subtitle: "La base operativa",
+          description: "Un unico sustrato de decision sobre POS, personal, costes y operacion, actualizado con el turno todavia en marcha.",
+          bestFor: "Grupos que dejan atras hojas de calculo y paneles sueltos",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
+          packageId: "core_margin" as CorePackageId,
+          name: "Core Margin",
           badge: "Mas popular",
-          subtitle: "Optimizado para carteras de 30 a 100 locales",
-          description: "Para operadores multi-local establecidos que necesitan ciclos de actualizacion mas rapidos y pronosticos avanzados entre marcas.",
-          features: ["Actualizacion cada 2 horas (12 veces al dia)", "1,200 creditos base + 240 por local", "75 paneles personalizados", "Retencion de 3 anos", "Soporte Multi-POS", "Soporte telefonico prioritario (SLA de 2 h)"],
-          bestFor: "30 a 100 locales, operadores multi-marca",
+          subtitle: "Profundidad en coste y fuga",
+          description: "Teorico frente a real, merma, desperdicio, anulaciones e invitaciones, contribucion por articulo.",
+          bestFor: "Operadores cuyo margen se fuga mas rapido de lo que pueden ver",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "Todo a medida",
-          subtitle: "Hecho para 100+ locales",
-          description: "Para operaciones a gran escala que requieren frecuencia de actualizacion personalizada, paneles ilimitados, white-label, SSO y soporte dedicado.",
-          features: ["Frecuencia de actualizacion personalizada", "Creditos ilimitados", "Paneles ilimitados", "Retencion personalizada", "White-label, SSO, CSM dedicado", "Soporte 24/7 con SLAs personalizados"],
-          bestFor: "100+ locales, empresas multi-marca",
+          packageId: "core_growth" as CorePackageId,
+          name: "Core Growth",
+          badge: "Lado demanda",
+          subtitle: "Profundidad en demanda",
+          description: "Cohortes de clientes y valor de vida, atribucion de promociones por canal, margen de delivery tras comision.",
+          bestFor: "Grupos que empujan el ingreso recurrente y el mix de canales",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          name: "Core Performance",
+          badge: "Profundidad completa",
+          subtitle: "Multimarca, multirregion",
+          description: "Consolidacion entre marcas y regiones, correlacion entre modulos, acceso gobernado con auditoria.",
+          bestFor: "Grupos grandes que operan varias marcas o varios mercados",
           color: "from-orange-500 to-orange-600",
         },
       ],
@@ -514,10 +572,10 @@ const localizedCoreCopy = {
     faq: {
       heading: "Preguntas frecuentes",
       items: [
-        { q: "Cual es la diferencia entre Core Lite y Core Pro?", a: "Core Lite: actualizacion cada 4 horas, 600 creditos base, 30 paneles, un solo POS. Core Pro: actualizacion cada 2 horas, 1,200 creditos base, 75 paneles, soporte Multi-POS." },
+        { q: "En que se diferencian los cuatro paquetes Core?", a: "Todos llevan los mismos once modulos de dominio y se diferencian en cuanto profundiza cada uno. Foundation es la base operativa, Margin anade profundidad de coste y fuga, Growth anade profundidad de cliente, promocion y canal, y Performance anade consolidacion multimarca y multirregion con acceso gobernado." },
         { q: "Puedo pasar de Report a Core?", a: "Si. Se conservan todos los datos historicos. La transicion ocurre sin perdida de datos." },
         { q: "Necesito Core si solo tengo 5 locales?", a: "No es obligatorio, pero se recomienda si necesitas velocidad operativa (actualizacion cada 2 a 4 horas). Report funciona muy bien para 1 a 10 locales si los reportes diarios son suficientes." },
-        { q: "Core puede manejar varios sistemas POS?", a: "Core Pro y Enterprise admiten entornos Multi-POS. Core Lite admite un solo POS en todos los locales." },
+        { q: "Core puede manejar varios sistemas POS?", a: "Si. Core se conecta a parques POS mixtos, y Core Performance anade encima la consolidacion entre marcas y regiones." },
         { q: "Puedo usar Core con Watchtower?", a: "Muy recomendable. Core aporta inteligencia interna y Watchtower añade inteligencia externa de mercado para visibilidad completa." },
         { q: "Puedo usar Core con Modules?", a: "Si. Los 5 modulos especializados funcionan con Core para profundizar la inteligencia en areas operativas especificas." },
       ],
@@ -610,8 +668,14 @@ export default function CoreProductPage() {
             </div>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {coreTiers.map((tier, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+            {coreTiers.map((tier, index) => {
+              // Prices are read from the v1.7 price book, never from copy.
+              // Core packages are marginal-band SKUs: a first-location anchor
+              // plus a stepped rate per additional location. There is no flat
+              // per-location rate and no included-locations allowance.
+              const pkg = CORE_PACKAGES_BY_ID[tier.packageId as CorePackageId];
+              return (
               <motion.div
                 key={tier.name}
                 initial={{ opacity: 0, y: 20 }}
@@ -630,16 +694,34 @@ export default function CoreProductPage() {
                     <CardHeader className="pt-8">
                       <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
                       <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
+                      <div className="mb-3">
+                        <span className="text-3xl font-bold text-[var(--text-primary)] tabular-nums">
+                          {usd(pkg.firstUnitMonthly)}
+                        </span>
+                        <p className="text-xs text-[var(--text-muted)]">{ui.tiers.priceLabel}</p>
+                      </div>
                       <CardDescription>{tier.description}</CardDescription>
                     </CardHeader>
                     <CardContent>
+                      <div className="mb-6 rounded-lg border border-[var(--border-default)] p-3">
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">
+                          {ui.tiers.bandsLabel}
+                        </p>
+                        <p className="text-sm text-[var(--text-secondary)] tabular-nums">
+                          {describeBands(pkg)}
+                        </p>
+                      </div>
                       <ul className="space-y-3 mb-6">
-                        {tier.features.map((feature, idx) => (
-                          <li key={idx} className="flex items-start gap-2">
-                            <span className="text-green-500 mt-1">&#10003;</span>
-                            <span className="text-sm text-[var(--text-supporting)]">{feature}</span>
-                          </li>
-                        ))}
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">
+                            {pkg.aiCreditWallet.toLocaleString('en-US')} {ui.tiers.walletLabel}
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">{ui.tiers.includesModules}</span>
+                        </li>
                       </ul>
                       <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
                         <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
@@ -658,7 +740,8 @@ export default function CoreProductPage() {
                     </CardContent>
                   </Card>
                 </motion.div>
-              ))}
+              );
+            })}
           </div>
         </div>
       </section>

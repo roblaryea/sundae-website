@@ -59,10 +59,13 @@ const arr = (v: string | string[] | undefined): string[] =>
 function crewSkusFromStack(report: DiagnosticReport): string[] {
   const crew = report.recommendedStack.find((s) => s.layer === "crew");
   if (!crew) return [];
-  if (/operating suite/i.test(crew.label)) {
+  // Match the v1.7 Crew names the engine now emits (Crew Operating /
+  // Schedule & Time / Crew Schedule). The emitted IDS below are the
+  // simulator's wire format, NOT sellable SKU keys — see the note above.
+  if (/crew operating/i.test(crew.label)) {
     return ["crew_operations", "crew_scheduling", "crew_tna", "crew_payroll"];
   }
-  if (/t&a/i.test(crew.label)) return ["crew_scheduling", "crew_tna"];
+  if (/schedule & time/i.test(crew.label)) return ["crew_scheduling", "crew_tna"];
   return ["crew_scheduling"];
 }
 
@@ -75,7 +78,17 @@ export function buildSimPrefill(
   );
   const locations = OUTLET_TO_LOCATIONS[outletKey] ?? 1;
 
-  // 1 outlet → Report Pro; 2-15 → Core Lite; 16+ → Core Pro.
+  // COMPATIBILITY ALIAS — NOT AN OFFER.
+  //
+  // `layer`/`tier` are the wire format the external pricing simulator
+  // (sundae-pricing, pricing.sundae.io) reads out of the `cfg` param. Those
+  // token values are that app's vocabulary, not v1.7 catalogue keys, and this
+  // site never renders them. They are left as-is deliberately: changing the
+  // wire format here without shipping the matching reader change in the
+  // simulator repo would silently break the prefill.
+  //
+  // The simulator itself still has to be cut over to price book v1.7 — until
+  // it is, it will quote its own (retired) ladder regardless of what we send.
   const layer: SimPrefill["layer"] = locations <= 1 ? "report" : "core";
   const tier: SimPrefill["tier"] = locations >= 16 ? "pro" : layer === "report" ? "pro" : "lite";
 
