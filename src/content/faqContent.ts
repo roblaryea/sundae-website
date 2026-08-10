@@ -2,7 +2,15 @@ import type { SundaeIconName } from '@/components/icons';
 import type { RequiredEnglishLocalizedRecord, WebsiteLocale } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/content_faqContent'
-import { CORE_PACKAGES, usd } from '@/lib/pricing/priceBook'
+import {
+  CORE_DOMAIN_MODULES,
+  CORE_PACKAGES,
+  CORE_PACKAGES_BY_ID,
+  CREW_BUNDLES,
+  CREW_SKUS,
+  bandedMonthlyTotal,
+  usd,
+} from '@/lib/pricing/priceBook'
 
 /**
  * AI credit wallets, rendered from the v1.7 price book so the FAQ can never
@@ -11,6 +19,45 @@ import { CORE_PACKAGES, usd } from '@/lib/pricing/priceBook'
 const AI_WALLET_LINES = CORE_PACKAGES.map(
   (pkg) => `**${pkg.name}:** ${pkg.aiCreditWallet.toLocaleString('en-US')}`,
 ).join('\n')
+
+/**
+ * Crew pricing, rendered from the price book. Crew SKUs are FLAT monthly under
+ * v1.7 — the "+ $X/location" adder this answer used to carry is the retired
+ * v1.6 mechanic, and the bundles are NAMED NET prices, not a discount applied
+ * to the SKUs inside them. Generating both lists means neither can drift.
+ */
+const CREW_SKU_LINES = CREW_SKUS.map(
+  (sku) => `- **${sku.name}** - ${usd(sku.monthly)}/mo`,
+).join('\n')
+
+const CREW_BUNDLE_LINES = CREW_BUNDLES.map(
+  (sku) => `- **${sku.name}** - ${usd(sku.monthly)}/mo`,
+).join('\n')
+
+/**
+ * The eleven Core domain modules. Rendered from the price book because they are
+ * PACKAGE COMPONENTS — the FAQ used to describe five of them as "specialized
+ * intelligence add-ons" you buy on the side, which v1.7 does not sell.
+ */
+const DOMAIN_MODULE_LINES = CORE_DOMAIN_MODULES.map(
+  (mod, index) => `${index + 1}. **${mod.name}** - ${mod.summary}`,
+).join('\n')
+
+/**
+ * The canonical marginal-band worked example, computed rather than typed, so
+ * the FAQ can never restate the retired "org license covers your first N
+ * locations, then $X per location beyond N" mechanic.
+ */
+const EXAMPLE_PACKAGE = CORE_PACKAGES_BY_ID.core_foundation
+const EXAMPLE_LOCATIONS = 5
+const EXAMPLE_MARGINAL = EXAMPLE_PACKAGE.bands[0].monthlyPerUnit
+const EXAMPLE_TOTAL = bandedMonthlyTotal(EXAMPLE_PACKAGE, EXAMPLE_LOCATIONS).monthlyTotal
+const EXAMPLE_SUM = `${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_MARGINAL)} = ${usd(EXAMPLE_TOTAL)}`
+
+const WORKED_EXAMPLE = `Example: ${EXAMPLE_LOCATIONS} ${EXAMPLE_PACKAGE.name} locations = ${EXAMPLE_SUM}/mo. Crossing a band never reprices the locations below it.`
+const WORKED_EXAMPLE_AR = `مثال: ${EXAMPLE_LOCATIONS} مواقع ${EXAMPLE_PACKAGE.name} = ${EXAMPLE_SUM} شهريًا. وعبور نطاق لا يعيد تسعير المواقع التي تحته.`
+const WORKED_EXAMPLE_FR = `Exemple : ${EXAMPLE_LOCATIONS} sites ${EXAMPLE_PACKAGE.name} = ${EXAMPLE_SUM}/mois. Franchir un palier ne retarife jamais les sites en dessous.`
+const WORKED_EXAMPLE_ES = `Ejemplo: ${EXAMPLE_LOCATIONS} locales de ${EXAMPLE_PACKAGE.name} = ${EXAMPLE_SUM}/mes. Cruzar un tramo nunca reprecia los locales por debajo.`
 
 export type FaqItem = {
   title: string;
@@ -129,7 +176,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'What are modules?',
           content:
-            'Modules are specialized intelligence add-ons for Core:\n\n1. **Labor Intelligence** - Scheduling, productivity, and overtime\n2. **Inventory Intelligence** - Waste, par levels, and stock visibility\n3. **Purchasing Intelligence** - Vendor comparison and contract leverage\n4. **Marketing Intelligence** - ROI, CAC, and channel performance\n5. **Reservations Intelligence** - No-show prediction and table optimization\n\nModules require Core because they depend on live, connected operating data.',
+            `The eleven domain modules are the analytical surfaces inside Core. They are components of the package, not add-ons bought on the side:\n\n${DOMAIN_MODULE_LINES}\n\nThey require Core because they depend on live, connected operating data.`,
         },
         {
           title: 'Do I need modules?',
@@ -142,19 +189,19 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
             'No. The eleven domain modules are components of a Core package, not standalone products, and there is no per-module price. Choosing a package is how you get all of them.',
         },
         {
-          title: 'Can I add multiple modules?',
+          title: 'Do I add modules one at a time?',
           content:
-            'Yes. Mix and match any of the five modules. There is no requirement to buy all of them together.',
+            'No. There is nothing to add. Every Core package carries all eleven domain modules from day one - the package you choose sets how deep each one goes.',
         },
         {
-          title: 'Which module should I choose first?',
+          title: 'Which module should I look at first?',
           content:
-            'Start with the biggest operating pain point:\n\n• High labor cost -> Labor Intelligence\n• Waste or stock issues -> Inventory Intelligence\n• Weak vendor leverage -> Purchasing Intelligence\n• Unclear marketing ROI -> Marketing Intelligence\n• Reservation no-shows -> Reservations Intelligence',
+            'They are all already switched on, so this is about where to start looking, not what to buy. Start with the biggest operating pain point:\n\n• High labor cost -> Labor Intelligence\n• Waste or stock issues -> Inventory Intelligence\n• Weak vendor leverage -> Purchasing Intelligence\n• Unclear marketing ROI -> Marketing Intelligence\n• Reservation no-shows -> Reservations Intelligence',
         },
         {
           title: 'How does module pricing work?',
           content:
-            'Each module includes an organization license that covers the first 5 locations, plus additional location pricing beyond that threshold.\n\nExample: 8 locations with Labor Intelligence = 1 org license + 3 additional locations.\n\nUse pricing.sundae.io for exact plan math.',
+            `There is no module pricing. Modules have no standalone price and no location allowance of their own - what you buy is the package.\n\nA Core package is priced from your first location, then at a marginal rate for each additional location that steps down as you grow. ${WORKED_EXAMPLE}\n\nUse pricing.sundae.io for exact plan math.`,
         },
       ],
     },
@@ -383,7 +430,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'How much does Crew cost?',
           content:
-            '**Crew modules (monthly, org license + per location):**\n\n- **Scheduling** - $179 + $39/location\n- **Time & Attendance** - $99 + $19/location\n- **Payroll** - $129 + $29/location\n- **People & HR (Operations)** - $399 + $79/location\n- **People Intelligence** - $249 + $39/location\n\nBundles bring the suite together at a lower combined rate. Use pricing.sundae.io for exact plan math.',
+            `**Crew SKUs (flat monthly, no per-location charge):**\n\n${CREW_SKU_LINES}\n\n**Bundles (each carries its own net price - not a discount on the SKUs inside it):**\n\n${CREW_BUNDLE_LINES}\n\nUse pricing.sundae.io for exact plan math.`,
         },
       ],
     },
@@ -502,19 +549,19 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
             'لا. الوحدات الإحدى عشرة مكوّنات داخل باقة Core وليست منتجات مستقلة، ولا يوجد سعر لكل وحدة. اختيار الباقة هو طريقة الحصول عليها جميعًا.',
         },
         {
-          title: 'هل يمكنني إضافة أكثر من وحدة؟',
+          title: 'هل أضيف الوحدات واحدة تلو الأخرى؟',
           content:
-            'نعم. يمكنك الجمع بين أي عدد من الوحدات الخمس، ولا يوجد إلزام بشراء المجموعة كاملة.',
+            'لا، لا يوجد ما تضيفه. كل باقة Core تحمل الوحدات الإحدى عشرة جميعها منذ اليوم الأول، والباقة التي تختارها هي ما يحدد عمق كل وحدة.',
         },
         {
-          title: 'أي وحدة أبدأ بها؟',
+          title: 'أي وحدة أنظر إليها أولاً؟',
           content:
-            'ابدأ بأكبر نقطة ألم تشغيلية لديك:\n\n• تكلفة عمالة مرتفعة -> ذكاء العمالة\n• هدر أو مشاكل مخزون -> ذكاء المخزون\n• ضعف في شروط الموردين -> ذكاء المشتريات\n• عائد تسويقي غير واضح -> ذكاء التسويق\n• غياب متكرر للحجوزات -> ذكاء الحجوزات',
+            'جميع الوحدات مفعّلة بالفعل، فالسؤال هو من أين تبدأ النظر لا ماذا تشتري. ابدأ بأكبر نقطة ألم تشغيلية لديك:\n\n• تكلفة عمالة مرتفعة -> ذكاء العمالة\n• هدر أو مشاكل مخزون -> ذكاء المخزون\n• ضعف في شروط الموردين -> ذكاء المشتريات\n• عائد تسويقي غير واضح -> ذكاء التسويق\n• غياب متكرر للحجوزات -> ذكاء الحجوزات',
         },
         {
           title: 'كيف يعمل تسعير الوحدات؟',
           content:
-            'كل وحدة تشمل ترخيصًا على مستوى المؤسسة يغطي أول 5 مواقع، ثم تسعيرًا إضافيًا للمواقع التي تتجاوز ذلك.\n\nمثال: 8 مواقع مع ذكاء العمالة = ترخيص مؤسسة + 3 مواقع إضافية.\n\nللتسعير الدقيق استخدم pricing.sundae.io.',
+            `لا يوجد تسعير للوحدات. فالوحدات ليس لها سعر مستقل ولا حصة مواقع خاصة بها؛ ما تشتريه هو الباقة.\n\nتُسعَّر باقة Core ابتداءً من موقعك الأول، ثم بسعر حدّي لكل موقع إضافي يتناقص مع نموك. ${WORKED_EXAMPLE_AR}\n\nللتسعير الدقيق استخدم pricing.sundae.io.`,
         },
       ],
     },
@@ -743,7 +790,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'كم تكلفة Crew؟',
           content:
-            '**وحدات Crew (شهريًا، ترخيص مؤسسة + لكل موقع):**\n\n- **Scheduling** - $179 + $39/location\n- **Time & Attendance** - $99 + $19/location\n- **Payroll** - $129 + $29/location\n- **People & HR (Operations)** - $399 + $79/location\n- **People Intelligence** - $249 + $39/location\n\nتجمع الباقات المنظومة معًا بسعر إجمالي أقل. استخدم pricing.sundae.io للحساب الدقيق للخطة.',
+            `**باقات Crew (سعر شهري ثابت، دون رسوم لكل موقع):**\n\n${CREW_SKU_LINES}\n\n**الحزم (لكل حزمة سعرها الصافي - وليست خصمًا على مكوناتها):**\n\n${CREW_BUNDLE_LINES}\n\nاستخدم pricing.sundae.io للحساب الدقيق للخطة.`,
         },
       ],
     },
@@ -862,19 +909,19 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
             'Non. Les onze modules metier sont des composants d une offre Core, pas des produits autonomes, et il n existe pas de prix par module. Choisir une offre, c est les obtenir tous.',
         },
         {
-          title: 'Puis-je ajouter plusieurs modules ?',
+          title: 'Dois-je ajouter les modules un par un ?',
           content:
-            'Oui. Vous pouvez combiner n’importe lesquels des cinq modules, sans obligation de tout acheter.',
+            'Non, il n’y a rien à ajouter. Chaque package Core embarque les onze modules métier dès le premier jour - le package choisi détermine la profondeur de chacun.',
         },
         {
-          title: 'Par quel module commencer ?',
+          title: 'Quel module regarder en premier ?',
           content:
-            'Commencez par la douleur opérationnelle la plus coûteuse :\n\n• coût de main-d’œuvre trop élevé -> Labor Intelligence\n• pertes ou problèmes de stock -> Inventory Intelligence\n• manque de levier fournisseurs -> Purchasing Intelligence\n• ROI marketing flou -> Marketing Intelligence\n• no-shows de réservations -> Reservations Intelligence',
+            'Ils sont tous déjà actifs : la question est par où commencer à regarder, pas quoi acheter. Commencez par la douleur opérationnelle la plus coûteuse :\n\n• coût de main-d’œuvre trop élevé -> Labor Intelligence\n• pertes ou problèmes de stock -> Inventory Intelligence\n• manque de levier fournisseurs -> Purchasing Intelligence\n• ROI marketing flou -> Marketing Intelligence\n• no-shows de réservations -> Reservations Intelligence',
         },
         {
           title: 'Comment fonctionne la tarification des modules ?',
           content:
-            'Chaque module inclut une licence organisation couvrant les 5 premiers sites, puis une tarification additionnelle au-delà.\n\nExemple : 8 sites avec Labor Intelligence = 1 licence organisation + 3 sites supplémentaires.\n\nPour le calcul exact, utilisez pricing.sundae.io.',
+            `Il n'y a pas de tarification par module. Les modules n'ont ni prix autonome ni quota de sites : ce que vous achetez, c'est le package.\n\nUn package Core est facturé dès le premier site, puis à un tarif marginal par site additionnel qui diminue à mesure que vous grandissez. ${WORKED_EXAMPLE_FR}\n\nPour le calcul exact, utilisez pricing.sundae.io.`,
         },
       ],
     },
@@ -1103,7 +1150,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Combien coûte Crew ?',
           content:
-            '**Modules Crew (mensuel, licence organisation + par site) :**\n\n- **Scheduling** - $179 + $39/location\n- **Time & Attendance** - $99 + $19/location\n- **Payroll** - $129 + $29/location\n- **People & HR (Operations)** - $399 + $79/location\n- **People Intelligence** - $249 + $39/location\n\nDes bundles réunissent la suite à un tarif combiné plus avantageux. Utilisez pricing.sundae.io pour le calcul exact.',
+            `**SKUs Crew (forfait mensuel, sans frais par site) :**\n\n${CREW_SKU_LINES}\n\n**Bundles (chacun porte son propre prix net, ce n'est pas une remise sur les SKUs qu'il contient) :**\n\n${CREW_BUNDLE_LINES}\n\nUtilisez pricing.sundae.io pour le calcul exact.`,
         },
       ],
     },
@@ -1222,19 +1269,19 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
             'No. Los once modulos de dominio son componentes de un paquete Core, no productos independientes, y no hay precio por modulo. Elegir un paquete es como los obtienes todos.',
         },
         {
-          title: '¿Puedo añadir varios módulos?',
+          title: '¿Añado los módulos de uno en uno?',
           content:
-            'Sí. Puedes combinar cualquiera de los cinco módulos sin necesidad de contratar todos.',
+            'No, no hay nada que añadir. Cada paquete Core incluye los once módulos de dominio desde el primer día; el paquete que elijas fija la profundidad de cada uno.',
         },
         {
-          title: '¿Con qué módulo debería empezar?',
+          title: '¿Qué módulo debería mirar primero?',
           content:
-            'Empieza por el mayor dolor operativo:\n\n• coste laboral alto -> Labor Intelligence\n• mermas o problemas de stock -> Inventory Intelligence\n• poca palanca con proveedores -> Purchasing Intelligence\n• ROI de marketing poco claro -> Marketing Intelligence\n• no-shows de reservas -> Reservations Intelligence',
+            'Todos están ya activos, así que la pregunta es por dónde empezar a mirar, no qué comprar. Empieza por el mayor dolor operativo:\n\n• coste laboral alto -> Labor Intelligence\n• mermas o problemas de stock -> Inventory Intelligence\n• poca palanca con proveedores -> Purchasing Intelligence\n• ROI de marketing poco claro -> Marketing Intelligence\n• no-shows de reservas -> Reservations Intelligence',
         },
         {
           title: '¿Cómo funciona el precio de los módulos?',
           content:
-            'Cada módulo incluye una licencia de organización que cubre los primeros 5 locales, más un coste adicional por cada local extra.\n\nEjemplo: 8 locales con Labor Intelligence = 1 licencia + 3 locales adicionales.\n\nPara el cálculo exacto, usa pricing.sundae.io.',
+            `No hay precio por módulo. Los módulos no tienen precio propio ni cupo de locales: lo que compras es el paquete.\n\nUn paquete Core se cobra desde tu primer local y luego a una tarifa marginal por cada local adicional que baja a medida que creces. ${WORKED_EXAMPLE_ES}\n\nPara el cálculo exacto, usa pricing.sundae.io.`,
         },
       ],
     },
@@ -1463,7 +1510,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Cuánto cuesta Crew?',
           content:
-            '**Módulos de Crew (mensual, licencia de organización + por local):**\n\n- **Scheduling** - $179 + $39/location\n- **Time & Attendance** - $99 + $19/location\n- **Payroll** - $129 + $29/location\n- **People & HR (Operations)** - $399 + $79/location\n- **People Intelligence** - $249 + $39/location\n\nLos bundles reúnen la suite a un precio combinado más bajo. Usa pricing.sundae.io para el cálculo exacto.',
+            `**SKUs de Crew (mensual fijo, sin cargo por local):**\n\n${CREW_SKU_LINES}\n\n**Bundles (cada uno tiene su propio precio neto; no es un descuento sobre los SKUs que contiene):**\n\n${CREW_BUNDLE_LINES}\n\nUsa pricing.sundae.io para el cálculo exacto.`,
         },
       ],
     },

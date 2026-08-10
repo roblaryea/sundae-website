@@ -65,20 +65,41 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 
 ---
 
-## Pricing Tiers (from Frontend Catalog)
+## Core Packages (price book v1.7)
 
-> Source: `src/lib/billing/pricing-catalog.ts:37-110`
+> Source: `src/lib/pricing/priceBook.ts` — the canonical price book for this site.
+> The previous table here listed the Report Lite/Plus/Pro and Core Lite/Pro
+> ladder, which v1.7 retires. Those SKUs must never be quoted or advertised.
 
-| Tier | Base Price | Per Location | AI Credits (Base) | AI Credits (Per Location) |
-|---|---|---|---|---|
-| Report Lite | $0 | $0 | 250 | 80 |
-| Report Plus | $79 | $39 | 1,200 | 300 |
-| Report Pro | $159 | $59 | 3,500 | 800 |
-| Core Lite | $279 | $79 | 8,000 | 1,600 |
-| Core Pro | $449 | $89 | 14,000 | 2,800 |
-| Enterprise | Custom | Custom | 50,000 | 5,000 |
+Core packages are **banded**: a first-location anchor plus a **marginal** rate
+for each additional location. Crossing a band does NOT reprice the locations
+below it, and a banded SKU has **no included locations** — never write
+"covers N locations" or "$X per location beyond N".
 
-**Annual discount:** 10%
+| Package | First location | 2-10 | 11-25 | 26-50 | 51-100 | AI credits/mo |
+|---|---|---|---|---|---|---|
+| Core Foundation | $1,195 | $175 | $150 | $125 | $105 | 14,000 |
+| Core Margin | $1,650 | $245 | $210 | $175 | $145 | 16,000 |
+| Core Growth | $1,925 | $260 | $225 | $190 | $155 | 18,000 |
+| Core Performance | $2,980 | $409 | $348 | $290 | $236 | 24,000 |
+
+**Worked example:** 5 Core Foundation locations = 1,195 + 4 × 175 = **$1,895/mo**
+(a $379 blended average of the total — not a rate).
+
+**Foresight & Action:** $495 first location, then $65 / $55 / $45 / $35 per
+additional location across the same bands.
+
+**Above 100 locations:** the published bands stop. Enterprise, quoted.
+
+**Billing cycle:** annual 10%, two-year 15%. Volume: 0% under 50, 2.5% at 50-99,
+5% at 100-199, 7% at 200-249, 250+ Enterprise. Volume and cycle discounts stack
+but are capped at **15% combined**.
+
+**Implementation:** charged **once**, at the highest class in the selection —
+never summed. $0 self-service / $1,500 A / $2,500 B / $7,500 C / from $12,500 D.
+
+The eleven Core domain modules are **package components**, never a-la-carte
+offers, and carry no standalone price.
 
 ---
 

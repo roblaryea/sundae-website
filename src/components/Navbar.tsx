@@ -453,7 +453,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
                       <Link
-                        href={localizeHref('/report-vs-core')}
+                        href={localizeHref('/core')}
                         className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
@@ -730,7 +730,7 @@ const Navbar = () => {
                   {plan.name}
                 </MobileNavLink>
               ))}
-              <MobileNavLink href={localizeHref('/report-vs-core')} onClick={handleMobileNavClick}>
+              <MobileNavLink href={localizeHref('/core')} onClick={handleMobileNavClick}>
                 {nav.comparePlans}
               </MobileNavLink>
               <a

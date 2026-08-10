@@ -82,9 +82,25 @@ const nextConfig: NextConfig = {
         destination: '/sign-in',
         permanent: true,
       },
+      // Sundae Report was a product line built entirely on the Report
+      // Lite/Plus/Pro ladder, which price book v1.7 retires. Its surfaces are
+      // gone rather than restated, because there is no v1.7 SKU to restate
+      // them as. Benchmarking survives as a capability inside every Core
+      // package, so that is where the old Report URLs land; the Report-vs-Core
+      // comparison has no successor question and goes to the product hub.
       {
         source: '/product/sundae-report',
-        destination: '/report',
+        destination: '/product/benchmarking',
+        permanent: true,
+      },
+      {
+        source: '/report',
+        destination: '/product/benchmarking',
+        permanent: true,
+      },
+      {
+        source: '/report-vs-core',
+        destination: '/product',
         permanent: true,
       },
       {

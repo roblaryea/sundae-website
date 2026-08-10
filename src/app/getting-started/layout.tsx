@@ -8,22 +8,22 @@ const copy = {
   en: {
     title: "Getting Started",
     description:
-      "Get up and running with Sundae in minutes. Start free with Report Lite, connect your POS data, and see instant benchmarking against restaurants like yours.",
+      "How a Sundae rollout actually runs: size a Core package against your locations, connect your POS and labor systems, and start acting on the numbers within the first month.",
   },
   ar: {
     title: "البدء",
     description:
-      "ابدأ مع Sundae خلال دقائق. ابدأ مجاناً مع Report Lite، واربط بيانات نقاط البيع لديك، واحصل على مقارنات فورية مع مطاعم مشابهة لمطعمك.",
+      "كيف يسير تطبيق Sundae فعليًا: اختر باقة Core المناسبة لعدد مواقعك، اربط أنظمة نقاط البيع والعمالة، وابدأ التصرف بناءً على الأرقام خلال الشهر الأول.",
   },
   fr: {
     title: "Bien démarrer",
     description:
-      "Lancez-vous avec Sundae en quelques minutes. Commencez gratuitement avec Report Lite, connectez vos données POS et obtenez instantanément des benchmarks comparés à des restaurants comme le vôtre.",
+      "Comment se déroule réellement un déploiement Sundae : dimensionnez un package Core selon vos sites, connectez vos systèmes POS et main-d'oeuvre, et agissez sur les chiffres dès le premier mois.",
   },
   es: {
     title: "Primeros pasos",
     description:
-      "Empieza con Sundae en minutos. Comienza gratis con Report Lite, conecta tus datos de POS y obtén benchmarking instantáneo frente a restaurantes como el tuyo.",
+      "Cómo funciona realmente una implantación de Sundae: dimensiona un paquete Core según tus locales, conecta tus sistemas de POS y personal, y empieza a actuar sobre los números en el primer mes.",
   },
 } as const;
 

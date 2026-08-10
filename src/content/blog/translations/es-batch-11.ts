@@ -497,7 +497,7 @@ La capa de IA sintetiza estas entradas en lenguaje natural que un operador puede
 
 ## Para empezar
 
-El briefing matutino está disponible para todos los clientes de Sundae Core Pro y Enterprise. La configuración toma menos de una hora:
+El briefing matutino está disponible para todos los clientes de Sundae Core. La configuración toma menos de una hora:
 
 1. **Selecciona tus ubicaciones y métricas**: elige qué ubicaciones y KPIs quieres en tu briefing
 2. **Define el canal de entrega**: email, Slack, Teams o push móvil

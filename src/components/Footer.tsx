@@ -69,9 +69,12 @@ const Footer = () => {
     ...nav.pillars.map((item) => ({ name: item.name, href: item.href })),
   ];
 
+  // plansList already carries every purchasable line (Foresight & Action, Core,
+  // Crew). The old extra row pointed at /report-vs-core, a comparison between
+  // the retired Report ladder and Core that price book v1.7 leaves with nothing
+  // to compare, so the row is gone rather than repointed at a duplicate.
   const planLinks = [
     ...nav.plansList.map((item) => ({ name: item.name, href: item.href })),
-    { name: nav.comparePlans.replace(' →', ''), href: '/report-vs-core' },
   ];
 
   // Sundae Crew operational modules — mirrors the header's "Sundae Crew" group.

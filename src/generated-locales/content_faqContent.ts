@@ -52,24 +52,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Was sind Module?",
-            "content": "Module sind spezialisierte Intelligenz-Erweiterungen für Core:\n\n1. **Arbeitsintelligenz** - Planung, Produktivität und Überstunden\n2. **Bestandsintelligenz** - Abfall, Mindestbestände und Bestandsübersicht\n3. **Einkaufsintelligenz** - Anbieter-Vergleich und Vertragsvorteile\n4. **Marketingintelligenz** - ROI, CAC und Kanalperformance\n5. **Reservierungsintelligenz** - Vorhersage von No-Shows und Tischoptimierung\n\nModule benötigen Core, da sie von aktuellen, verbundenen Betriebsdaten abhängen."
-          },
           {},
           {},
-          {
-            "title": "Kann ich mehrere Module hinzufügen?",
-            "content": "Ja. Kombinieren Sie beliebig die fünf Module. Es gibt keine Anforderung, alle zusammen zu kaufen."
-          },
-          {
-            "title": "Welches Modul sollte ich zuerst wählen?",
-            "content": "Beginnen Sie mit dem größten Betriebsproblem:\n\n• Hohe Arbeitskosten -> Arbeitsintelligenz\n• Abfall- oder Bestandsprobleme -> Bestandsintelligenz\n• Schwache Verhandlungsposition bei Anbietern -> Einkaufsintelligenz\n• Unklarer Marketing-ROI -> Marketingintelligenz\n• Reservierungs-No-Shows -> Reservierungsintelligenz"
-          },
-          {
-            "title": "Wie funktioniert die Preisgestaltung für Module?",
-            "content": "Jedes Modul umfasst eine Organisationslizenz, die die ersten 5 Standorte abdeckt, plus zusätzliche Standortpreise über diesen Schwellenwert hinaus.\n\nBeispiel: 8 Standorte mit Arbeitsintelligenz = 1 Organisationslizenz + 3 zusätzliche Standorte.\n\nVerwenden Sie pricing.sundae.io für genaue Preisberechnungen."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -227,10 +215,7 @@ export const generatedLocalCopy = {
             "title": "Brauche ich Core, um Crew zu nutzen?",
             "content": "Nein. Crew kann eigenständig als Ihr operatives System laufen oder neben Core, sodass seine Signale in Labor Intelligence, Pulse und Foresight einfließen. Sie können auch Ihren eigenen HR- oder Lohnanbieter mitbringen - Crew ist bewusst optional."
           },
-          {
-            "title": "Was kostet Crew?",
-            "content": "**Crew-Module (monatlich, Organisationslizenz + pro Standort):**\n\n- **Scheduling** - $179 + $39/Standort\n- **Zeiterfassung** - $99 + $19/Standort\n- **Payroll** - $129 + $29/Standort\n- **Personal & HR (Operations)** - $399 + $79/Standort\n- **Personalintelligenz** - $249 + $39/Standort\n\nBundles fassen die Suite zu einem günstigeren Gesamtpreis zusammen. Nutzen Sie pricing.sundae.io für die genaue Plankalkulation."
-          }
+          {}
         ]
       }
     ],
@@ -284,24 +269,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Qu'est-ce que les modules ?",
-            "content": "Les modules sont des compléments d'intelligence spécialisés pour Core :\n\n1. **Intelligence du travail** - Planification, productivité et heures supplémentaires\n2. **Intelligence des stocks** - Gaspillage, niveaux de par et visibilité des stocks\n3. **Intelligence des achats** - Comparaison des fournisseurs et levier contractuel\n4. **Intelligence marketing** - ROI, CAC et performance des canaux\n5. **Intelligence des réservations** - Prédiction des absences et optimisation des tables\n\nLes modules nécessitent Core car ils dépendent de données opérationnelles en direct et connectées."
-          },
           {},
           {},
-          {
-            "title": "Puis-je ajouter plusieurs modules ?",
-            "content": "Oui. Mélangez et associez n'importe lequel des cinq modules. Il n'est pas nécessaire de tous les acheter ensemble."
-          },
-          {
-            "title": "Quel module devrais-je choisir en premier ?",
-            "content": "Commencez par le plus grand point de douleur opérationnel :\n\n• Coût du travail élevé -> Intelligence du travail\n• Problèmes de gaspillage ou de stock -> Intelligence des stocks\n• Faible levier fournisseur -> Intelligence des achats\n• ROI marketing peu clair -> Intelligence marketing\n• Absences de réservations -> Intelligence des réservations"
-          },
-          {
-            "title": "Comment fonctionne la tarification des modules ?",
-            "content": "Chaque module comprend une licence d'organisation qui couvre les 5 premières emplacements, plus un tarif supplémentaire pour les emplacements au-delà de ce seuil.\n\nExemple : 8 emplacements avec Intelligence du travail = 1 licence d'organisation + 3 emplacements supplémentaires.\n\nUtilisez pricing.sundae.io pour des calculs de plan exacts."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -490,24 +463,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "¿Qué son los módulos?",
-            "content": "Los módulos son complementos de inteligencia especializados para Core:\n\n1. **Inteligencia Laboral** - Programación, productividad y horas extras\n2. **Inteligencia de Inventario** - Desperdicio, niveles mínimos y visibilidad de stock\n3. **Inteligencia de Compras** - Comparación de proveedores y aprovechamiento de contratos\n4. **Inteligencia de Marketing** - ROI, CAC y rendimiento de canales\n5. **Inteligencia de Reservas** - Predicción de no-shows y optimización de mesas\n\nLos módulos requieren Core porque dependen de datos operativos en vivo y conectados."
-          },
           {},
           {},
-          {
-            "title": "¿Puedo agregar múltiples módulos?",
-            "content": "Sí. Mezcle y combine cualquiera de los cinco módulos. No hay requisito de comprar todos juntos."
-          },
-          {
-            "title": "¿Cuál módulo debo elegir primero?",
-            "content": "Comience con el mayor punto de dolor operativo:\n\n• Alto costo laboral -> Inteligencia Laboral\n• Problemas de desperdicio o stock -> Inteligencia de Inventario\n• Débil aprovechamiento de proveedores -> Inteligencia de Compras\n• ROI de marketing poco claro -> Inteligencia de Marketing\n• No-shows en reservas -> Inteligencia de Reservas"
-          },
-          {
-            "title": "¿Cómo funciona el precio de los módulos?",
-            "content": "Cada módulo incluye una licencia organizacional que cubre las primeras 5 ubicaciones, más precios adicionales por ubicaciones más allá de ese umbral.\n\nEjemplo: 8 ubicaciones con Inteligencia Laboral = 1 licencia org + 3 ubicaciones adicionales.\n\nUtilice pricing.sundae.io para cálculos exactos del plan."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -696,24 +657,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Wat zijn modules?",
-            "content": "Modules zijn gespecialiseerde intelligentie-add-ons voor Core:\n\n1. **Arbeidsintelligentie** - Planning, productiviteit en overuren\n2. **Voorraadintelligentie** - Verspilling, par-niveaus en voorraadzichtbaarheid\n3. **Inkoopintelligentie** - Leveranciervergelijking en contractondersteuning\n4. **Marketingintelligentie** - ROI, CAC en kanaalprestaties\n5. **Reserveringsintelligentie** - Voorspelling van no-shows en tafeloptimalisatie\n\nModules vereisen Core omdat ze afhankelijk zijn van live, verbonden operationele gegevens."
-          },
           {},
           {},
-          {
-            "title": "Kan ik meerdere modules toevoegen?",
-            "content": "Ja. Mix en match een van de vijf modules. Er is geen vereiste om ze allemaal samen aan te schaffen."
-          },
-          {
-            "title": "Welke module moet ik als eerste kiezen?",
-            "content": "Begin met het grootste operationele pijnpunt:\n\n• Hoge arbeidskosten -> Arbeidsintelligentie\n• Verspilling of voorraadproblemen -> Voorraadintelligentie\n• Zwakke onderhandelingspositie bij leveranciers -> Inkoopintelligentie\n• Onduidelijke marketing ROI -> Marketingintelligentie\n• No-shows bij reserveringen -> Reserveringsintelligentie"
-          },
-          {
-            "title": "Hoe werkt de prijsstelling van modules?",
-            "content": "Elke module omvat een organisatie licentie die de eerste 5 locaties dekt, plus extra locatieprijs boven die drempel.\n\nVoorbeeld: 8 locaties met Arbeidsintelligentie = 1 org-licentie + 3 extra locaties.\n\nGebruik pricing.sundae.io voor exacte prijsberekeningen."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -871,10 +820,7 @@ export const generatedLocalCopy = {
             "title": "Heb ik Core nodig om Crew te gebruiken?",
             "content": "Nee. Crew kan op zichzelf draaien als uw operationele systeem, of naast Core zodat het signaal Labor Intelligence, Pulse en Foresight voedt. U kunt ook uw eigen HR- of salarisprovider meenemen - Crew is optioneel van opzet."
           },
-          {
-            "title": "Wat kost Crew?",
-            "content": "**Crew-modules (maandelijks, organisatielicentie + per locatie):**\n\n- **Scheduling** - $179 + $39/locatie\n- **Tijdregistratie** - $99 + $19/locatie\n- **Payroll** - $129 + $29/locatie\n- **Personeel & HR (Operations)** - $399 + $79/locatie\n- **Personeelsintelligentie** - $249 + $39/locatie\n\nBundels brengen de suite samen tegen een lager gecombineerd tarief. Gebruik pricing.sundae.io voor de exacte planberekening."
-          }
+          {}
         ]
       }
     ],
@@ -928,24 +874,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "ما هي الوحدات؟",
-            "content": "الوحدات هي إضافات ذكاء متخصصة لـ Core:\n\n1. **ذكاء العمل** - الجدولة، الإنتاجية، وساعات العمل الإضافية\n2. **ذكاء المخزون** - الهدر، مستويات المخزون، ورؤية المخزون\n3. **ذكاء الشراء** - مقارنة الموردين واستغلال العقود\n4. **ذكاء التسويق** - العائد على الاستثمار، تكلفة اكتساب العملاء، وأداء القنوات\n5. **ذكاء الحجوزات** - توقع عدم الحضور وتحسين الطاولات\n\nتتطلب الوحدات Core لأنها تعتمد على بيانات التشغيل المتصلة الحية."
-          },
           {},
           {},
-          {
-            "title": "هل يمكنني إضافة وحدات متعددة؟",
-            "content": "نعم. يمكنك مزج وتطابق أي من الوحدات الخمس. لا يوجد شرط لشراء جميعها معًا."
-          },
-          {
-            "title": "أي وحدة يجب أن أختار أولاً؟",
-            "content": "ابدأ بأكبر نقطة ألم تشغيلية:\n\n• تكلفة العمل العالية -> ذكاء العمل\n• مشاكل الهدر أو المخزون -> ذكاء المخزون\n• ضعف استغلال الموردين -> ذكاء الشراء\n• عدم وضوح العائد على الاستثمار في التسويق -> ذكاء التسويق\n• عدم الحضور في الحجوزات -> ذكاء الحجوزات"
-          },
-          {
-            "title": "كيف تعمل تسعيرة الوحدات؟",
-            "content": "تشمل كل وحدة ترخيص منظمة يغطي أول 5 مواقع، بالإضافة إلى تسعير المواقع الإضافية بعد هذا الحد.\n\nمثال: 8 مواقع مع ذكاء العمل = 1 ترخيص منظمة + 3 مواقع إضافية.\n\nاستخدم pricing.sundae.io للحصول على حسابات دقيقة للخطط."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -1134,24 +1068,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "O que são módulos?",
-            "content": "Módulos são complementos de inteligência especializados para o Core:\n\n1. **Inteligência de Mão de Obra** - Agendamento, produtividade e horas extras\n2. **Inteligência de Inventário** - Desperdício, níveis mínimos e visibilidade de estoque\n3. **Inteligência de Compras** - Comparação de fornecedores e aproveitamento de contratos\n4. **Inteligência de Marketing** - ROI, CAC e desempenho de canais\n5. **Inteligência de Reservas** - Previsão de não comparecimento e otimização de mesas\n\nOs módulos requerem o Core porque dependem de dados operacionais conectados em tempo real."
-          },
           {},
           {},
-          {
-            "title": "Posso adicionar múltiplos módulos?",
-            "content": "Sim. Misture e combine qualquer um dos cinco módulos. Não há exigência de comprar todos juntos."
-          },
-          {
-            "title": "Qual módulo devo escolher primeiro?",
-            "content": "Comece com o maior ponto de dor operacional:\n\n• Alto custo de mão de obra -> Inteligência de Mão de Obra\n• Desperdício ou problemas de estoque -> Inteligência de Inventário\n• Fraco aproveitamento de fornecedores -> Inteligência de Compras\n• ROI de marketing pouco claro -> Inteligência de Marketing\n• Não comparecimento em reservas -> Inteligência de Reservas"
-          },
-          {
-            "title": "Como funciona a precificação dos módulos?",
-            "content": "Cada módulo inclui uma licença organizacional que cobre os primeiros 5 locais, além de preços adicionais para locais além desse limite.\n\nExemplo: 8 locais com Inteligência de Mão de Obra = 1 licença organizacional + 3 locais adicionais.\n\nUse pricing.sundae.io para cálculos exatos do plano."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -1309,10 +1231,7 @@ export const generatedLocalCopy = {
             "title": "Preciso do Core para usar o Crew?",
             "content": "Não. O Crew pode funcionar de forma autónoma como o seu sistema operacional, ou ao lado do Core para que o seu sinal alimente o Labor Intelligence, o Pulse e o Foresight. Também pode trazer o seu próprio fornecedor de RH ou de folha de pagamento - o Crew é opcional por design."
           },
-          {
-            "title": "Quanto custa o Crew?",
-            "content": "**Módulos Crew (mensal, licença da organização + por localização):**\n\n- **Scheduling** - $179 + $39/localização\n- **Ponto e presença** - $99 + $19/localização\n- **Payroll** - $129 + $29/localização\n- **Pessoas & RH (Operations)** - $399 + $79/localização\n- **People Intelligence** - $249 + $39/localização\n\nOs pacotes reúnem a suíte a uma taxa combinada mais baixa. Use pricing.sundae.io para o cálculo exato do plano."
-          }
+          {}
         ]
       }
     ],
@@ -1366,24 +1285,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "ماڈیولز کیا ہیں؟",
-            "content": "ماڈیولز Core کے لیے خصوصی ذہانت کے اضافے ہیں:\n\n1. **لیبر ذہانت** - شیڈولنگ، پیداوری، اور اوور ٹائم\n2. **انوینٹری ذہانت** - فضلہ، پار کی سطحیں، اور اسٹاک کی نظر\n3. **خریداری کی ذہانت** - فروشندہ موازنہ اور معاہدے کا فائدہ\n4. **مارکیٹنگ کی ذہانت** - ROI، CAC، اور چینل کی کارکردگی\n5. **ریزرویشن کی ذہانت** - عدم موجودگی کی پیش گوئی اور ٹیبل کی اصلاح\n\nماڈیولز کو Core کی ضرورت ہوتی ہے کیونکہ یہ براہ راست، جڑے ہوئے آپریٹنگ ڈیٹا پر انحصار کرتے ہیں."
-          },
           {},
           {},
-          {
-            "title": "کیا میں متعدد ماڈیولز شامل کر سکتا ہوں؟",
-            "content": "جی ہاں۔ پانچ ماڈیولز میں سے کسی بھی ماڈیول کو ملا کر استعمال کریں۔ انہیں ایک ساتھ خریدنے کی کوئی ضرورت نہیں ہے."
-          },
-          {
-            "title": "مجھے پہلے کون سا ماڈیول منتخب کرنا چاہیے؟",
-            "content": "سب سے بڑے آپریٹنگ درد کے نقطہ سے شروع کریں:\n\n• زیادہ لیبر لاگت -> لیبر ذہانت\n• فضلہ یا اسٹاک کے مسائل -> انوینٹری ذہانت\n• کمزور فروشندہ فائدہ -> خریداری کی ذہانت\n• غیر واضح مارکیٹنگ ROI -> مارکیٹنگ کی ذہانت\n• ریزرویشن کی عدم موجودگی -> ریزرویشن کی ذہانت"
-          },
-          {
-            "title": "ماڈیول کی قیمتیں کیسے کام کرتی ہیں؟",
-            "content": "ہر ماڈیول میں ایک تنظیمی لائسنس شامل ہوتا ہے جو پہلے 5 مقامات کا احاطہ کرتا ہے، اس حد سے آگے اضافی مقام کی قیمتیں۔\n\nمثال: 8 مقامات کے ساتھ لیبر ذہانت = 1 تنظیمی لائسنس + 3 اضافی مقامات۔\n\nصحیح منصوبے کی قیمت کے لیے pricing.sundae.io کا استعمال کریں."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -1541,10 +1448,7 @@ export const generatedLocalCopy = {
             "title": "کیا Crew استعمال کرنے کے لیے مجھے Core کی ضرورت ہے؟",
             "content": "نہیں۔ Crew آپ کے آپریشنل نظام کے طور پر تنہا چل سکتا ہے، یا Core کے ساتھ تاکہ اس کا اشارہ Labor Intelligence، Pulse اور Foresight کو پرورش دے۔ آپ اپنا HR یا پے رول فراہم کنندہ بھی لا سکتے ہیں - Crew ڈیزائن کے لحاظ سے اختیاری ہے۔"
           },
-          {
-            "title": "Crew کی قیمت کتنی ہے؟",
-            "content": "**Crew ماڈیولز (ماہانہ، تنظیمی لائسنس + فی مقام):**\n\n- **Scheduling** - $179 + $39/مقام\n- **وقت اور حاضری** - $99 + $19/مقام\n- **Payroll** - $129 + $29/مقام\n- **لوگ اور HR (Operations)** - $399 + $79/مقام\n- **People Intelligence** - $249 + $39/مقام\n\nبنڈلز پوری سوٹ کو کم مشترکہ نرخ پر لاتے ہیں۔ درست پلان کے حساب کے لیے pricing.sundae.io استعمال کریں۔"
-          }
+          {}
         ]
       }
     ],
@@ -1598,24 +1502,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Cosa sono i moduli?",
-            "content": "I moduli sono componenti di intelligenza specializzati per Core:\n\n1. **Intelligenza del Lavoro** - Pianificazione, produttività e straordinari\n2. **Intelligenza dell'Inventario** - Sprechi, livelli minimi e visibilità delle scorte\n3. **Intelligenza degli Acquisti** - Confronto fornitori e leverage contrattuale\n4. **Intelligenza di Marketing** - ROI, CAC e performance dei canali\n5. **Intelligenza delle Prenotazioni** - Previsione dei no-show e ottimizzazione dei tavoli\n\nI moduli richiedono Core perché dipendono da dati operativi connessi in tempo reale."
-          },
           {},
           {},
-          {
-            "title": "Posso aggiungere più moduli?",
-            "content": "Sì. Combina e abbina uno qualsiasi dei cinque moduli. Non è necessario acquistarli tutti insieme."
-          },
-          {
-            "title": "Quale modulo dovrei scegliere per primo?",
-            "content": "Inizia con il punto dolente operativo più grande:\n\n• Alto costo del lavoro -> Intelligenza del Lavoro\n• Problemi di spreco o scorte -> Intelligenza dell'Inventario\n• Debole leverage dei fornitori -> Intelligenza degli Acquisti\n• ROI di marketing poco chiaro -> Intelligenza di Marketing\n• No-show nelle prenotazioni -> Intelligenza delle Prenotazioni"
-          },
-          {
-            "title": "Come funziona la tariffazione dei moduli?",
-            "content": "Ogni modulo include una licenza per l'organizzazione che copre le prime 5 sedi, più la tariffazione per sedi aggiuntive oltre quella soglia.\n\nEsempio: 8 sedi con Intelligenza del Lavoro = 1 licenza org + 3 sedi aggiuntive.\n\nUsa pricing.sundae.io per i calcoli esatti del piano."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -1773,10 +1665,7 @@ export const generatedLocalCopy = {
             "title": "Ho bisogno di Core per usare Crew?",
             "content": "No. Crew può funzionare da solo come tuo sistema operativo, oppure accanto a Core così che il suo segnale alimenti Labor Intelligence, Pulse e Foresight. Puoi anche usare il tuo fornitore HR o di payroll - Crew è opzionale per progettazione."
           },
-          {
-            "title": "Quanto costa Crew?",
-            "content": "**Moduli Crew (mensile, licenza organizzazione + per sede):**\n\n- **Scheduling** - $179 + $39/sede\n- **Rilevazione presenze** - $99 + $19/sede\n- **Payroll** - $129 + $29/sede\n- **Persone & HR (Operations)** - $399 + $79/sede\n- **People Intelligence** - $249 + $39/sede\n\nI bundle riuniscono la suite a una tariffa combinata più bassa. Usa pricing.sundae.io per il calcolo esatto del piano."
-          }
+          {}
         ]
       }
     ],
@@ -1830,24 +1719,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "मॉड्यूल क्या हैं?",
-            "content": "मॉड्यूल Core के लिए विशेषीकृत इंटेलिजेंस ऐड-ऑन हैं:\n\n1. **श्रम इंटेलिजेंस** - शेड्यूलिंग, उत्पादकता, और ओवरटाइम\n2. **इन्वेंटरी इंटेलिजेंस** - बर्बादी, पार स्तर, और स्टॉक दृश्यता\n3. **खरीदारी इंटेलिजेंस** - विक्रेता तुलना और अनुबंध लाभ\n4. **मार्केटिंग इंटेलिजेंस** - ROI, CAC, और चैनल प्रदर्शन\n5. **आरक्षण इंटेलिजेंस** - नो-शो भविष्यवाणी और टेबल ऑप्टिमाइजेशन\n\nमॉड्यूल Core की आवश्यकता होती है क्योंकि वे लाइव, जुड़े ऑपरेटिंग डेटा पर निर्भर करते हैं."
-          },
           {},
           {},
-          {
-            "title": "क्या मैं कई मॉड्यूल जोड़ सकता हूँ?",
-            "content": "हाँ। किसी भी पांच मॉड्यूल को मिलाकर उपयोग करें। सभी को एक साथ खरीदने की आवश्यकता नहीं है।"
-          },
-          {
-            "title": "मुझे पहले कौन सा मॉड्यूल चुनना चाहिए?",
-            "content": "सबसे बड़े ऑपरेटिंग दर्द बिंदु से शुरू करें:\n\n• उच्च श्रम लागत -> श्रम इंटेलिजेंस\n• बर्बादी या स्टॉक मुद्दे -> इन्वेंटरी इंटेलिजेंस\n• कमजोर विक्रेता लाभ -> खरीदारी इंटेलिजेंस\n• अस्पष्ट मार्केटिंग ROI -> मार्केटिंग इंटेलिजेंस\n• आरक्षण नो-शो -> आरक्षण इंटेलिजेंस"
-          },
-          {
-            "title": "मॉड्यूल की कीमत कैसे काम करती है?",
-            "content": "प्रत्येक मॉड्यूल में एक संगठन लाइसेंस शामिल होता है जो पहले 5 स्थानों को कवर करता है, इसके अलावा उस सीमा के पार अतिरिक्त स्थान की कीमत।\n\nउदाहरण: श्रम इंटेलिजेंस के साथ 8 स्थान = 1 संगठन लाइसेंस + 3 अतिरिक्त स्थान।\n\nसटीक योजना गणना के लिए pricing.sundae.io का उपयोग करें."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -2005,10 +1882,7 @@ export const generatedLocalCopy = {
             "title": "क्या Crew का उपयोग करने के लिए मुझे Core की आवश्यकता है?",
             "content": "नहीं। Crew आपके संचालन प्रणाली के रूप में अकेले चल सकता है, या Core के साथ चल सकता है ताकि इसका संकेत Labor Intelligence, Pulse और Foresight को पोषित करे। आप अपना खुद का HR या पेरोल प्रदाता भी ला सकते हैं - Crew डिज़ाइन के अनुसार वैकल्पिक है।"
           },
-          {
-            "title": "Crew की लागत कितनी है?",
-            "content": "**Crew मॉड्यूल (मासिक, संगठन लाइसेंस + प्रति स्थान):**\n\n- **Scheduling** - $179 + $39/स्थान\n- **समय और उपस्थिति** - $99 + $19/स्थान\n- **Payroll** - $129 + $29/स्थान\n- **लोग और HR (Operations)** - $399 + $79/स्थान\n- **People Intelligence** - $249 + $39/स्थान\n\nबंडल पूरी सूट को कम संयुक्त दर पर लाते हैं। सटीक प्लान गणना के लिए pricing.sundae.io का उपयोग करें।"
-          }
+          {}
         ]
       }
     ],
@@ -2062,24 +1936,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Modüller nedir?",
-            "content": "Modüller, Core için özel zeka eklentileridir:\n\n1. **İş Gücü Zekası** - Planlama, verimlilik ve fazla mesai\n2. **Stok Zekası** - Atık, stok seviyeleri ve stok görünürlüğü\n3. **Satın Alma Zekası** - Tedarikçi karşılaştırması ve sözleşme avantajı\n4. **Pazarlama Zekası** - ROI, CAC ve kanal performansı\n5. **Rezervasyon Zekası** - Gelmeme tahmini ve masa optimizasyonu\n\nModüller, canlı, bağlı işletme verilerine bağımlı oldukları için Core gerektirir."
-          },
           {},
           {},
-          {
-            "title": "Birden fazla modül ekleyebilir miyim?",
-            "content": "Evet. Beş modülden herhangi birini karıştırıp eşleştirebilirsiniz. Hepsini birlikte satın alma zorunluluğu yoktur."
-          },
-          {
-            "title": "Hangi modülü önce seçmeliyim?",
-            "content": "En büyük işletme sorunuyla başlayın:\n\n• Yüksek iş gücü maliyeti -> İş Gücü Zekası\n• Atık veya stok sorunları -> Stok Zekası\n• Zayıf tedarikçi avantajı -> Satın Alma Zekası\n• Belirsiz pazarlama ROI'si -> Pazarlama Zekası\n• Rezervasyon gelmeme durumları -> Rezervasyon Zekası"
-          },
-          {
-            "title": "Modül fiyatlandırması nasıl çalışır?",
-            "content": "Her modül, ilk 5 lokasyonu kapsayan bir organizasyon lisansı içerir, bu eşik sonrası ek lokasyon fiyatlandırması vardır.\n\nÖrnek: İş Gücü Zekası ile 8 lokasyon = 1 organizasyon lisansı + 3 ek lokasyon.\n\nKesin plan hesaplaması için pricing.sundae.io'yu kullanın."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -2237,10 +2099,7 @@ export const generatedLocalCopy = {
             "title": "Crew kullanmak için Core'a ihtiyacım var mı?",
             "content": "Hayır. Crew, operasyon sisteminiz olarak tek başına çalışabilir veya Core ile birlikte çalışarak sinyalini Labor Intelligence, Pulse ve Foresight'a besleyebilir. Kendi İK veya bordro sağlayıcınızı da getirebilirsiniz - Crew tasarım gereği isteğe bağlıdır."
           },
-          {
-            "title": "Crew ne kadar?",
-            "content": "**Crew modülleri (aylık, kuruluş lisansı + konum başına):**\n\n- **Scheduling** - $179 + $39/konum\n- **Giriş-çıkış takibi** - $99 + $19/konum\n- **Payroll** - $129 + $29/konum\n- **Kişiler & İK (Operations)** - $399 + $79/konum\n- **People Intelligence** - $249 + $39/konum\n\nPaketler, tüm paketi daha düşük bir birleşik ücrete getirir. Kesin plan hesabı için pricing.sundae.io kullanın."
-          }
+          {}
         ]
       }
     ],
@@ -2294,24 +2153,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Czym są moduły?",
-            "content": "Moduły to specjalistyczne dodatki inteligencji dla Core:\n\n1. **Inteligencja Pracy** - Harmonogramowanie, wydajność i nadgodziny\n2. **Inteligencja Zapasów** - Marnotrawstwo, poziomy zapasów i widoczność stanu\n3. **Inteligencja Zakupów** - Porównanie dostawców i wykorzystanie umów\n4. **Inteligencja Marketingowa** - ROI, CAC i wydajność kanałów\n5. **Inteligencja Rezerwacji** - Prognozowanie nieobecności i optymalizacja stolików\n\nModuły wymagają Core, ponieważ zależą od danych operacyjnych w czasie rzeczywistym."
-          },
           {},
           {},
-          {
-            "title": "Czy mogę dodać wiele modułów?",
-            "content": "Tak. Łącz i dopasowuj dowolne z pięciu modułów. Nie ma wymogu zakupu wszystkich razem."
-          },
-          {
-            "title": "Który moduł powinienem wybrać jako pierwszy?",
-            "content": "Zacznij od największego problemu operacyjnego:\n\n• Wysokie koszty pracy -> Inteligencja Pracy\n• Problemy z marnotrawstwem lub zapasami -> Inteligencja Zapasów\n• Słabe wykorzystanie dostawców -> Inteligencja Zakupów\n• Niejasne ROI marketingowe -> Inteligencja Marketingowa\n• Nieobecności w rezerwacjach -> Inteligencja Rezerwacji"
-          },
-          {
-            "title": "Jak działa wycena modułów?",
-            "content": "Każdy moduł zawiera licencję organizacyjną, która obejmuje pierwsze 5 lokalizacji, plus dodatkowe ceny lokalizacji powyżej tego progu.\n\nPrzykład: 8 lokalizacji z Inteligencją Pracy = 1 licencja organizacyjna + 3 dodatkowe lokalizacje.\n\nUżyj pricing.sundae.io, aby uzyskać dokładne obliczenia planu."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -2469,10 +2316,7 @@ export const generatedLocalCopy = {
             "title": "Czy potrzebuję Core, aby używać Crew?",
             "content": "Nie. Crew może działać samodzielnie jako Twój system operacyjny lub obok Core, aby jego sygnał zasilał Labor Intelligence, Pulse i Foresight. Możesz też korzystać z własnego dostawcy HR lub listy płac - Crew jest opcjonalny z założenia."
           },
-          {
-            "title": "Ile kosztuje Crew?",
-            "content": "**Moduły Crew (miesięcznie, licencja organizacji + za lokalizację):**\n\n- **Scheduling** - $179 + $39/lokalizację\n- **Ewidencja czasu pracy** - $99 + $19/lokalizację\n- **Payroll** - $129 + $29/lokalizację\n- **Ludzie & HR (Operations)** - $399 + $79/lokalizację\n- **People Intelligence** - $249 + $39/lokalizację\n\nPakiety łączą całą suitę w niższą łączną stawkę. Skorzystaj z pricing.sundae.io, aby uzyskać dokładne wyliczenie planu."
-          }
+          {}
         ]
       }
     ],
@@ -2526,24 +2370,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "什么是模块？",
-            "content": "模块是针对Core的专业智能附加组件：\n\n1. **劳动智能** - 排班、生产力和加班\n2. **库存智能** - 浪费、库存水平和库存可见性\n3. **采购智能** - 供应商比较和合同杠杆\n4. **营销智能** - 投资回报率、客户获取成本和渠道表现\n5. **预订智能** - 缺席预测和桌位优化\n\n模块需要Core，因为它们依赖于实时的连接操作数据。"
-          },
           {},
           {},
-          {
-            "title": "我可以添加多个模块吗？",
-            "content": "可以。可以自由组合这五个模块。没有要求必须一起购买所有模块。"
-          },
-          {
-            "title": "我应该首先选择哪个模块？",
-            "content": "从最大的操作痛点开始：\n\n• 高劳动成本 -> 劳动智能\n• 浪费或库存问题 -> 库存智能\n• 供应商杠杆弱 -> 采购智能\n• 营销投资回报不明确 -> 营销智能\n• 预订缺席 -> 预订智能"
-          },
-          {
-            "title": "模块定价是如何工作的？",
-            "content": "每个模块包括一个组织许可证，覆盖前5个地点，超过该阈值的额外地点定价。\n\n示例：8个地点使用劳动智能 = 1个组织许可证 + 3个额外地点。\n\n请使用pricing.sundae.io获取确切的计划定价。"
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -2701,10 +2533,7 @@ export const generatedLocalCopy = {
             "title": "使用 Crew 需要 Core 吗？",
             "content": "不需要。Crew 可以作为您的运营系统独立运行，也可以与 Core 并行运行，让其信号馈送到 Labor Intelligence、Pulse 和 Foresight。您也可以自带人力资源或薪资服务商——Crew 在设计上是可选的。"
           },
-          {
-            "title": "Crew 多少钱？",
-            "content": "**Crew 模块（每月，组织许可 + 每个地点）：**\n\n- **Scheduling** - $179 + $39/地点\n- **考勤** - $99 + $19/地点\n- **Payroll** - $129 + $29/地点\n- **人员与人力资源（Operations）** - $399 + $79/地点\n- **People Intelligence** - $249 + $39/地点\n\n套餐以更低的组合价格将整个套件整合在一起。请使用 pricing.sundae.io 进行精确的方案计算。"
-          }
+          {}
         ]
       }
     ],
@@ -2758,24 +2587,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "モジュールとは何ですか？",
-            "content": "モジュールはCoreのための専門的なインテリジェンスアドオンです：\n\n1. **労働インテリジェンス** - スケジューリング、生産性、残業\n2. **在庫インテリジェンス** - 廃棄、パーレベル、在庫の可視性\n3. **購買インテリジェンス** - ベンダー比較と契約の活用\n4. **マーケティングインテリジェンス** - ROI、CAC、チャネルパフォーマンス\n5. **予約インテリジェンス** - ノーショー予測とテーブル最適化\n\nモジュールは、ライブで接続された運用データに依存しているため、Coreが必要です。"
-          },
           {},
           {},
-          {
-            "title": "複数のモジュールを追加できますか？",
-            "content": "はい。5つのモジュールの中から自由に組み合わせて選べます。すべてを一緒に購入する必要はありません。"
-          },
-          {
-            "title": "最初にどのモジュールを選ぶべきですか？",
-            "content": "最も大きな運用上の痛点から始めてください：\n\n• 高い労働コスト -> 労働インテリジェンス\n• 廃棄または在庫の問題 -> 在庫インテリジェンス\n• 弱いベンダーの活用 -> 購買インテリジェンス\n• 不明確なマーケティングROI -> マーケティングインテリジェンス\n• 予約のノーショー -> 予約インテリジェンス"
-          },
-          {
-            "title": "モジュールの価格設定はどのように機能しますか？",
-            "content": "各モジュールには、最初の5つのロケーションをカバーする組織ライセンスが含まれており、その閾値を超えた追加ロケーションの価格が設定されています。\n\n例：労働インテリジェンスを持つ8つのロケーション = 1つの組織ライセンス + 3つの追加ロケーション。\n\n正確なプランの計算にはpricing.sundae.ioを使用してください。"
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -2933,10 +2750,7 @@ export const generatedLocalCopy = {
             "title": "Crew を使うのに Core は必要ですか？",
             "content": "いいえ。Crew は単独であなたの運用システムとして稼働できるほか、Core と併用してそのシグナルを Labor Intelligence、Pulse、Foresight に供給することもできます。ご自身の人事または給与プロバイダーを持ち込むことも可能です - Crew は設計上オプションです。"
           },
-          {
-            "title": "Crew の料金は？",
-            "content": "**Crew モジュール（月額、組織ライセンス + 拠点ごと）：**\n\n- **Scheduling** - $179 + $39/拠点\n- **勤怠管理** - $99 + $19/拠点\n- **Payroll** - $129 + $29/拠点\n- **ピープル & 人事（Operations）** - $399 + $79/拠点\n- **People Intelligence** - $249 + $39/拠点\n\nバンドルは、より低い合計料金でスイートをまとめます。正確なプラン計算には pricing.sundae.io をご利用ください。"
-          }
+          {}
         ]
       }
     ],
@@ -2990,24 +2804,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "모듈이란 무엇인가요?",
-            "content": "모듈은 Core를 위한 전문 지능 추가 기능입니다:\n\n1. **노동 지능** - 일정 관리, 생산성 및 초과 근무\n2. **재고 지능** - 폐기물, 최소 재고 수준 및 재고 가시성\n3. **구매 지능** - 공급업체 비교 및 계약 활용\n4. **마케팅 지능** - ROI, CAC 및 채널 성과\n5. **예약 지능** - 노쇼 예측 및 테이블 최적화\n\n모듈은 실시간 연결된 운영 데이터에 의존하므로 Core가 필요합니다."
-          },
           {},
           {},
-          {
-            "title": "여러 모듈을 추가할 수 있나요?",
-            "content": "네. 다섯 개의 모듈을 자유롭게 조합할 수 있습니다. 모든 모듈을 함께 구매할 필요는 없습니다."
-          },
-          {
-            "title": "어떤 모듈을 먼저 선택해야 하나요?",
-            "content": "가장 큰 운영 문제점부터 시작하세요:\n\n• 높은 노동 비용 -> 노동 지능\n• 폐기물 또는 재고 문제 -> 재고 지능\n• 약한 공급업체 활용 -> 구매 지능\n• 불확실한 마케팅 ROI -> 마케팅 지능\n• 예약 노쇼 -> 예약 지능"
-          },
-          {
-            "title": "모듈 가격은 어떻게 되나요?",
-            "content": "각 모듈에는 첫 5개 위치를 포함하는 조직 라이센스가 포함되며, 그 임계값을 초과하는 추가 위치 가격이 있습니다.\n\n예: 노동 지능이 있는 8개 위치 = 1개 조직 라이센스 + 3개 추가 위치.\n\n정확한 요금 계산은 pricing.sundae.io를 사용하세요."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -3165,10 +2967,7 @@ export const generatedLocalCopy = {
             "title": "Crew를 사용하려면 Core가 필요한가요?",
             "content": "아니요. Crew는 운영 시스템으로 단독 실행하거나, Core와 함께 실행하여 그 신호를 Labor Intelligence, Pulse, Foresight에 공급할 수 있습니다. 자체 인사 또는 급여 제공업체를 사용할 수도 있습니다 - Crew는 설계상 선택 사항입니다."
           },
-          {
-            "title": "Crew 비용은 얼마인가요?",
-            "content": "**Crew 모듈(월간, 조직 라이선스 + 위치당):**\n\n- **Scheduling** - $179 + $39/위치\n- **근태 관리** - $99 + $19/위치\n- **Payroll** - $129 + $29/위치\n- **인력 & 인사(Operations)** - $399 + $79/위치\n- **People Intelligence** - $249 + $39/위치\n\n번들은 더 낮은 결합 요금으로 제품군을 함께 제공합니다. 정확한 요금 계산은 pricing.sundae.io를 이용하세요."
-          }
+          {}
         ]
       }
     ],
@@ -3222,24 +3021,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Apa itu modul?",
-            "content": "Modul adalah tambahan kecerdasan khusus untuk Core:\n\n1. **Kecerdasan Tenaga Kerja** - Penjadwalan, produktivitas, dan lembur\n2. **Kecerdasan Inventaris** - Limbah, tingkat par, dan visibilitas stok\n3. **Kecerdasan Pembelian** - Perbandingan vendor dan leverage kontrak\n4. **Kecerdasan Pemasaran** - ROI, CAC, dan kinerja saluran\n5. **Kecerdasan Reservasi** - Prediksi no-show dan optimasi meja\n\nModul memerlukan Core karena bergantung pada data operasional yang terhubung secara langsung."
-          },
           {},
           {},
-          {
-            "title": "Bisakah saya menambahkan beberapa modul?",
-            "content": "Ya. Campur dan padukan salah satu dari lima modul. Tidak ada persyaratan untuk membeli semuanya sekaligus."
-          },
-          {
-            "title": "Modul mana yang harus saya pilih terlebih dahulu?",
-            "content": "Mulailah dengan titik nyeri operasional terbesar:\n\n• Biaya tenaga kerja tinggi -> Kecerdasan Tenaga Kerja\n• Masalah limbah atau stok -> Kecerdasan Inventaris\n• Leverage vendor yang lemah -> Kecerdasan Pembelian\n• ROI pemasaran yang tidak jelas -> Kecerdasan Pemasaran\n• No-show reservasi -> Kecerdasan Reservasi"
-          },
-          {
-            "title": "Bagaimana cara kerja harga modul?",
-            "content": "Setiap modul mencakup lisensi organisasi yang mencakup 5 lokasi pertama, ditambah harga lokasi tambahan di luar ambang tersebut.\n\nContoh: 8 lokasi dengan Kecerdasan Tenaga Kerja = 1 lisensi org + 3 lokasi tambahan.\n\nGunakan pricing.sundae.io untuk perhitungan rencana yang tepat."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -3397,10 +3184,7 @@ export const generatedLocalCopy = {
             "title": "Apakah saya memerlukan Core untuk menggunakan Crew?",
             "content": "Tidak. Crew dapat berjalan sendiri sebagai sistem operasional Anda, atau berdampingan dengan Core sehingga sinyalnya memberi masukan ke Labor Intelligence, Pulse, dan Foresight. Anda juga dapat membawa penyedia SDM atau penggajian Anda sendiri - Crew bersifat opsional secara desain."
           },
-          {
-            "title": "Berapa biaya Crew?",
-            "content": "**Modul Crew (bulanan, lisensi organisasi + per lokasi):**\n\n- **Scheduling** - $179 + $39/lokasi\n- **Absensi** - $99 + $19/lokasi\n- **Payroll** - $129 + $29/lokasi\n- **Orang & SDM (Operations)** - $399 + $79/lokasi\n- **People Intelligence** - $249 + $39/lokasi\n\nPaket menyatukan seluruh rangkaian dengan tarif gabungan yang lebih rendah. Gunakan pricing.sundae.io untuk perhitungan paket yang tepat."
-          }
+          {}
         ]
       }
     ],
@@ -3454,24 +3238,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Mô-đun là gì?",
-            "content": "Mô-đun là các tiện ích thông minh chuyên biệt cho Core:\n\n1. **Thông minh về lao động** - Lịch trình, năng suất và làm thêm giờ\n2. **Thông minh về tồn kho** - Lãng phí, mức tồn kho tối thiểu và khả năng nhìn thấy hàng tồn\n3. **Thông minh về mua sắm** - So sánh nhà cung cấp và tận dụng hợp đồng\n4. **Thông minh về tiếp thị** - ROI, CAC và hiệu suất kênh\n5. **Thông minh về đặt chỗ** - Dự đoán không đến và tối ưu hóa bàn\n\nMô-đun yêu cầu Core vì chúng phụ thuộc vào dữ liệu hoạt động trực tiếp, kết nối."
-          },
           {},
           {},
-          {
-            "title": "Tôi có thể thêm nhiều mô-đun không?",
-            "content": "Có. Kết hợp và chọn bất kỳ mô-đun nào trong năm mô-đun. Không có yêu cầu phải mua tất cả chúng cùng một lúc."
-          },
-          {
-            "title": "Tôi nên chọn mô-đun nào trước?",
-            "content": "Bắt đầu với điểm đau lớn nhất trong hoạt động:\n\n• Chi phí lao động cao -> Thông minh về lao động\n• Vấn đề lãng phí hoặc hàng tồn kho -> Thông minh về tồn kho\n• Khả năng thương lượng nhà cung cấp yếu -> Thông minh về mua sắm\n• ROI tiếp thị không rõ ràng -> Thông minh về tiếp thị\n• Không đến đặt chỗ -> Thông minh về đặt chỗ"
-          },
-          {
-            "title": "Giá mô-đun hoạt động như thế nào?",
-            "content": "Mỗi mô-đun bao gồm một giấy phép tổ chức cho 5 địa điểm đầu tiên, cộng với giá cho các địa điểm bổ sung vượt ngưỡng đó.\n\nVí dụ: 8 địa điểm với Thông minh về lao động = 1 giấy phép tổ chức + 3 địa điểm bổ sung.\n\nSử dụng pricing.sundae.io để tính toán giá chính xác cho gói của bạn."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -3629,10 +3401,7 @@ export const generatedLocalCopy = {
             "title": "Tôi có cần Core để dùng Crew không?",
             "content": "Không. Crew có thể chạy độc lập như hệ thống vận hành của bạn, hoặc chạy cùng Core để tín hiệu của nó đưa vào Labor Intelligence, Pulse và Foresight. Bạn cũng có thể mang theo nhà cung cấp HR hoặc bảng lương của riêng mình - Crew là tùy chọn theo thiết kế."
           },
-          {
-            "title": "Crew có giá bao nhiêu?",
-            "content": "**Các mô-đun Crew (hàng tháng, giấy phép tổ chức + mỗi địa điểm):**\n\n- **Scheduling** - $179 + $39/địa điểm\n- **Chấm công** - $99 + $19/địa điểm\n- **Payroll** - $129 + $29/địa điểm\n- **Nhân sự & HR (Operations)** - $399 + $79/địa điểm\n- **People Intelligence** - $249 + $39/địa điểm\n\nCác gói kết hợp toàn bộ bộ công cụ với mức giá tổng hợp thấp hơn. Sử dụng pricing.sundae.io để tính toán gói chính xác."
-          }
+          {}
         ]
       }
     ],
@@ -3686,24 +3455,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Ce sunt modulele?",
-            "content": "Modulele sunt extensii de inteligență specializate pentru Core:\n\n1. **Inteligența Muncii** - Programare, productivitate și ore suplimentare\n2. **Inteligența Inventarului** - Deșeuri, niveluri de stoc și vizibilitate a stocului\n3. **Inteligența Achizițiilor** - Compararea furnizorilor și negocierea contractelor\n4. **Inteligența Marketingului** - ROI, CAC și performanța canalelor\n5. **Inteligența Rezervărilor** - Predicția absențelor și optimizarea meselor\n\nModulele necesită Core deoarece depind de date operaționale conectate în timp real."
-          },
           {},
           {},
-          {
-            "title": "Pot adăuga mai multe module?",
-            "content": "Da. Combină și potrivește oricare dintre cele cinci module. Nu există cerința de a le cumpăra pe toate împreună."
-          },
-          {
-            "title": "Care modul ar trebui să aleg mai întâi?",
-            "content": "Începe cu cea mai mare problemă operațională:\n\n• Costuri mari cu forța de muncă -> Inteligența Muncii\n• Probleme cu deșeurile sau stocul -> Inteligența Inventarului\n• Putere de negociere slabă cu furnizorii -> Inteligența Achizițiilor\n• ROI de marketing neclar -> Inteligența Marketingului\n• Absențe la rezervări -> Inteligența Rezervărilor"
-          },
-          {
-            "title": "Cum funcționează prețurile modulelor?",
-            "content": "Fiecare modul include o licență organizațională care acoperă primele 5 locații, plus prețuri suplimentare pentru locațiile dincolo de acest prag.\n\nExemplu: 8 locații cu Inteligența Muncii = 1 licență organizațională + 3 locații suplimentare.\n\nFolosește pricing.sundae.io pentru calcule exacte ale planului."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -3861,10 +3618,7 @@ export const generatedLocalCopy = {
             "title": "Am nevoie de Core pentru a folosi Crew?",
             "content": "Nu. Crew poate funcționa de sine stătător ca sistem operațional al tău sau alături de Core, astfel încât semnalul său să alimenteze Labor Intelligence, Pulse și Foresight. Poți aduce și propriul furnizor de HR sau salarizare - Crew este opțional prin design."
           },
-          {
-            "title": "Cât costă Crew?",
-            "content": "**Module Crew (lunar, licență organizație + per locație):**\n\n- **Scheduling** - $179 + $39/locație\n- **Pontaj** - $99 + $19/locație\n- **Payroll** - $129 + $29/locație\n- **Oameni & HR (Operations)** - $399 + $79/locație\n- **People Intelligence** - $249 + $39/locație\n\nPachetele reunesc suita la un tarif combinat mai mic. Folosește pricing.sundae.io pentru calculul exact al planului."
-          }
+          {}
         ]
       }
     ],
@@ -3918,24 +3672,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Vad är moduler?",
-            "content": "Moduler är specialiserade intelligens-tillägg för Core:\n\n1. **Arbetsintelligens** - Schemaläggning, produktivitet och övertid\n2. **Inventariet intelligens** - Avfall, parnivåer och lageröversikt\n3. **Inköpsintelligens** - Leverantörsjämförelse och kontraktsfördelar\n4. **Marknadsföringsintelligens** - ROI, CAC och kanalprestanda\n5. **Bokningsintelligens** - Förutsägelse av no-shows och optimering av bord\n\nModuler kräver Core eftersom de är beroende av live, anslutna driftsdata."
-          },
           {},
           {},
-          {
-            "title": "Kan jag lägga till flera moduler?",
-            "content": "Ja. Blanda och matcha vilka som helst av de fem modulerna. Det finns inget krav på att köpa alla tillsammans."
-          },
-          {
-            "title": "Vilken modul ska jag välja först?",
-            "content": "Börja med den största driftsutmaningen:\n\n• Höga arbetskostnader -> Arbetsintelligens\n• Avfalls- eller lagerproblem -> Inventariet intelligens\n• Svag leverantörsfördel -> Inköpsintelligens\n• Otydlig marknadsförings-ROI -> Marknadsföringsintelligens\n• Bokningsno-shows -> Bokningsintelligens"
-          },
-          {
-            "title": "Hur fungerar prissättningen för moduler?",
-            "content": "Varje modul inkluderar en organisationslicens som täcker de första 5 platserna, plus ytterligare platspriser utöver den gränsen.\n\nExempel: 8 platser med Arbetsintelligens = 1 org-licens + 3 ytterligare platser.\n\nAnvänd pricing.sundae.io för exakt planberäkning."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -4093,10 +3835,7 @@ export const generatedLocalCopy = {
             "title": "Behöver jag Core för att använda Crew?",
             "content": "Nej. Crew kan köras fristående som ditt operativa system, eller vid sidan av Core så att dess signal matar Labor Intelligence, Pulse och Foresight. Du kan också ta med din egen HR- eller löneleverantör - Crew är valfritt i sin design."
           },
-          {
-            "title": "Vad kostar Crew?",
-            "content": "**Crew-moduler (månadsvis, organisationslicens + per plats):**\n\n- **Scheduling** - $179 + $39/plats\n- **Tidrapportering** - $99 + $19/plats\n- **Payroll** - $129 + $29/plats\n- **Personal & HR (Operations)** - $399 + $79/plats\n- **People Intelligence** - $249 + $39/plats\n\nPaket samlar hela sviten till ett lägre kombinerat pris. Använd pricing.sundae.io för exakt planberäkning."
-          }
+          {}
         ]
       }
     ],
@@ -4150,24 +3889,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "মডিউল কী?",
-            "content": "মডিউল হল Core-এর জন্য বিশেষায়িত বুদ্ধিমত্তা অ্যাড-অন:\n\n1. **শ্রম বুদ্ধিমত্তা** - সময়সূচী, উৎপাদনশীলতা, এবং অতিরিক্ত সময়\n2. **মালপত্র বুদ্ধিমত্তা** - অপচয়, পার স্তর, এবং স্টক দৃশ্যমানতা\n3. **ক্রয় বুদ্ধিমত্তা** - বিক্রেতা তুলনা এবং চুক্তির সুবিধা\n4. **মার্কেটিং বুদ্ধিমত্তা** - ROI, CAC, এবং চ্যানেল কর্মক্ষমতা\n5. **রিজার্ভেশন বুদ্ধিমত্তা** - না-শো পূর্বাভাস এবং টেবিল অপ্টিমাইজেশন\n\nমডিউলগুলি Core-এর প্রয়োজন কারণ এগুলি লাইভ, সংযুক্ত অপারেটিং ডেটার উপর নির্ভর করে।"
-          },
           {},
           {},
-          {
-            "title": "আমি কি একাধিক মডিউল যোগ করতে পারি?",
-            "content": "হ্যাঁ। পাঁচটি মডিউলের যেকোনোটি মিশ্রিত এবং মেলাতে পারেন। সেগুলি একসাথে কিনতে বাধ্যতামূলক নয়।"
-          },
-          {
-            "title": "কোন মডিউলটি প্রথমে নির্বাচন করা উচিত?",
-            "content": "সবচেয়ে বড় অপারেটিং সমস্যা দিয়ে শুরু করুন:\n\n• উচ্চ শ্রম খরচ -> শ্রম বুদ্ধিমত্তা\n• অপচয় বা স্টক সমস্যা -> মালপত্র বুদ্ধিমত্তা\n• দুর্বল বিক্রেতা সুবিধা -> ক্রয় বুদ্ধিমত্তা\n• অস্পষ্ট মার্কেটিং ROI -> মার্কেটিং বুদ্ধিমত্তা\n• রিজার্ভেশন না-শো -> রিজার্ভেশন বুদ্ধিমত্তা"
-          },
-          {
-            "title": "মডিউল মূল্যায়ন কিভাবে কাজ করে?",
-            "content": "প্রতিটি মডিউলে একটি সংগঠন লাইসেন্স অন্তর্ভুক্ত থাকে যা প্রথম 5টি অবস্থানকে কভার করে, সেই থ্রেশোল্ডের বাইরে অতিরিক্ত অবস্থানের মূল্যায়ন।\n\nউদাহরণ: শ্রম বুদ্ধিমত্তার সাথে 8টি অবস্থান = 1টি সংগঠন লাইসেন্স + 3টি অতিরিক্ত অবস্থান।\n\nনির্দিষ্ট পরিকল্পনার গণনার জন্য pricing.sundae.io ব্যবহার করুন."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -4325,10 +4052,7 @@ export const generatedLocalCopy = {
             "title": "Crew ব্যবহার করতে কি আমার Core দরকার?",
             "content": "না। Crew আপনার অপারেশনাল সিস্টেম হিসেবে একা চলতে পারে, অথবা Core-এর পাশাপাশি চলতে পারে যাতে এর সংকেত Labor Intelligence, Pulse এবং Foresight-কে সরবরাহ করে। আপনি আপনার নিজের HR বা পেরোল প্রদানকারীও আনতে পারেন - Crew নকশা অনুযায়ী ঐচ্ছিক।"
           },
-          {
-            "title": "Crew-এর খরচ কত?",
-            "content": "**Crew মডিউল (মাসিক, সংস্থা লাইসেন্স + প্রতি অবস্থান):**\n\n- **Scheduling** - $179 + $39/অবস্থান\n- **সময় ও উপস্থিতি** - $99 + $19/অবস্থান\n- **Payroll** - $129 + $29/অবস্থান\n- **মানুষ ও HR (Operations)** - $399 + $79/অবস্থান\n- **People Intelligence** - $249 + $39/অবস্থান\n\nবান্ডেলগুলি পুরো স্যুটটিকে একটি কম সম্মিলিত হারে একত্রিত করে। সঠিক প্ল্যান হিসাবের জন্য pricing.sundae.io ব্যবহার করুন।"
-          }
+          {}
         ]
       }
     ],
@@ -4382,24 +4106,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "โมดูลคืออะไร?",
-            "content": "โมดูลคือส่วนเสริมด้านปัญญาที่เชี่ยวชาญสำหรับ Core:\n\n1. **ปัญญาด้านแรงงาน** - การจัดตารางเวลา ผลผลิต และการทำงานล่วงเวลา\n2. **ปัญญาด้านสินค้าคงคลัง** - การสูญเสีย ระดับสต็อก และการมองเห็นสต็อก\n3. **ปัญญาด้านการจัดซื้อ** - การเปรียบเทียบผู้ขายและการใช้ประโยชน์จากสัญญา\n4. **ปัญญาด้านการตลาด** - ROI, CAC และประสิทธิภาพของช่องทาง\n5. **ปัญญาด้านการจอง** - การคาดการณ์การไม่มาและการเพิ่มประสิทธิภาพโต๊ะ\n\nโมดูลต้องการ Core เพราะพวกเขาขึ้นอยู่กับข้อมูลการดำเนินงานที่เชื่อมต่อแบบเรียลไทม์."
-          },
           {},
           {},
-          {
-            "title": "ฉันสามารถเพิ่มโมดูลหลายตัวได้หรือไม่?",
-            "content": "ใช่. ผสมและจับคู่โมดูลทั้งห้าตัว ไม่มีข้อกำหนดในการซื้อทั้งหมดพร้อมกัน."
-          },
-          {
-            "title": "ฉันควรเลือกโมดูลไหนก่อน?",
-            "content": "เริ่มจากจุดเจ็บปวดในการดำเนินงานที่ใหญ่ที่สุด:\n\n• ต้นทุนแรงงานสูง -> ปัญญาด้านแรงงาน\n• ปัญหาการสูญเสียหรือสต็อก -> ปัญญาด้านสินค้าคงคลัง\n• การใช้ประโยชน์จากผู้ขายอ่อนแอ -> ปัญญาด้านการจัดซื้อ\n• ROI การตลาดไม่ชัดเจน -> ปัญญาด้านการตลาด\n• การไม่มาจอง -> ปัญญาด้านการจอง"
-          },
-          {
-            "title": "การกำหนดราคาโมดูลทำงานอย่างไร?",
-            "content": "แต่ละโมดูลรวมถึงใบอนุญาตองค์กรที่ครอบคลุมสถานที่แรก 5 แห่ง พร้อมกับราคาสถานที่เพิ่มเติมเกินกว่าขีดจำกัดนั้น.\n\nตัวอย่าง: 8 สถานที่ที่มีปัญญาด้านแรงงาน = ใบอนุญาตองค์กร 1 ใบ + สถานที่เพิ่มเติม 3 แห่ง.\n\nใช้ pricing.sundae.io สำหรับการคำนวณแผนที่แน่นอน."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -4557,10 +4269,7 @@ export const generatedLocalCopy = {
             "title": "ฉันต้องมี Core เพื่อใช้ Crew หรือไม่?",
             "content": "ไม่ต้อง Crew สามารถทำงานได้ด้วยตัวเองในฐานะระบบการดำเนินงานของคุณ หรือทำงานควบคู่กับ Core เพื่อให้สัญญาณของมันป้อนเข้าสู่ Labor Intelligence, Pulse และ Foresight คุณยังสามารถนำผู้ให้บริการ HR หรือ payroll ของคุณเองมาใช้ได้ - Crew เป็นทางเลือกโดยการออกแบบ"
           },
-          {
-            "title": "Crew ราคาเท่าไหร่?",
-            "content": "**โมดูล Crew (รายเดือน ใบอนุญาตองค์กร + ต่อสถานที่):**\n\n- **Scheduling** - $179 + $39/สถานที่\n- **การลงเวลาเข้าออก** - $99 + $19/สถานที่\n- **Payroll** - $129 + $29/สถานที่\n- **บุคลากรและ HR (Operations)** - $399 + $79/สถานที่\n- **People Intelligence** - $249 + $39/สถานที่\n\nแพ็กเกจรวมชุดทั้งหมดไว้ในอัตรารวมที่ต่ำกว่า ใช้ pricing.sundae.io สำหรับการคำนวณแผนที่แน่นอน"
-          }
+          {}
         ]
       }
     ],
@@ -4614,24 +4323,12 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {
-            "title": "Apakah itu modul?",
-            "content": "Modul adalah tambahan kecerdasan khusus untuk Core:\n\n1. **Kecerdasan Tenaga Kerja** - Penjadualan, produktiviti, dan kerja lebih masa\n2. **Kecerdasan Inventori** - Pembaziran, tahap simpanan, dan keterlihatan stok\n3. **Kecerdasan Pembelian** - Perbandingan vendor dan kelebihan kontrak\n4. **Kecerdasan Pemasaran** - ROI, CAC, dan prestasi saluran\n5. **Kecerdasan Tempahan** - Ramalan ketidakhadiran dan pengoptimuman meja\n\nModul memerlukan Core kerana ia bergantung kepada data operasi yang hidup dan disambungkan."
-          },
           {},
           {},
-          {
-            "title": "Bolehkah saya menambah beberapa modul?",
-            "content": "Ya. Campurkan dan padankan mana-mana daripada lima modul. Tiada keperluan untuk membeli kesemuanya bersama."
-          },
-          {
-            "title": "Modul manakah yang patut saya pilih terlebih dahulu?",
-            "content": "Mulakan dengan titik sakit operasi yang paling besar:\n\n• Kos tenaga kerja yang tinggi -> Kecerdasan Tenaga Kerja\n• Masalah pembaziran atau stok -> Kecerdasan Inventori\n• Kelemahan dalam leverage vendor -> Kecerdasan Pembelian\n• ROI pemasaran yang tidak jelas -> Kecerdasan Pemasaran\n• Ketidakhadiran tempahan -> Kecerdasan Tempahan"
-          },
-          {
-            "title": "Bagaimana harga modul berfungsi?",
-            "content": "Setiap modul termasuk lesen organisasi yang merangkumi 5 lokasi pertama, ditambah harga lokasi tambahan di luar ambang itu.\n\nContoh: 8 lokasi dengan Kecerdasan Tenaga Kerja = 1 lesen organisasi + 3 lokasi tambahan.\n\nGunakan pricing.sundae.io untuk pengiraan pelan yang tepat."
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       },
       {
@@ -4789,10 +4486,7 @@ export const generatedLocalCopy = {
             "title": "Adakah saya memerlukan Core untuk menggunakan Crew?",
             "content": "Tidak. Crew boleh berjalan sendiri sebagai sistem operasi anda, atau bersama Core supaya isyaratnya menyuap Labor Intelligence, Pulse dan Foresight. Anda juga boleh membawa pembekal HR atau gaji anda sendiri - Crew adalah pilihan secara reka bentuk."
           },
-          {
-            "title": "Berapakah kos Crew?",
-            "content": "**Modul Crew (bulanan, lesen organisasi + setiap lokasi):**\n\n- **Scheduling** - $179 + $39/lokasi\n- **Kehadiran** - $99 + $19/lokasi\n- **Payroll** - $129 + $29/lokasi\n- **Orang & HR (Operations)** - $399 + $79/lokasi\n- **People Intelligence** - $249 + $39/lokasi\n\nBundel menyatukan keseluruhan suite pada kadar gabungan yang lebih rendah. Gunakan pricing.sundae.io untuk pengiraan pelan yang tepat."
-          }
+          {}
         ]
       }
     ]

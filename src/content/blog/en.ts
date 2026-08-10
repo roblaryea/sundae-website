@@ -6778,7 +6778,7 @@ The AI layer synthesizes these inputs into natural language that an operator can
 
 ## Getting Started
 
-The morning briefing is available to all Sundae Core Pro and Enterprise customers. Configuration takes less than an hour:
+The morning briefing is available to all Sundae Core customers. Configuration takes less than an hour:
 
 1. **Select your locations and metrics**: Choose which locations and KPIs you want in your briefing
 2. **Set your delivery channel**: Email, Slack, Teams, or mobile push

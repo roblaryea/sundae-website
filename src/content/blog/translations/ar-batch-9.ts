@@ -497,7 +497,7 @@ export const arBatch9BlogTranslations: BlogLocaleTranslations = {
 
 ## كيف تبدأ
 
-الإحاطة الصباحية متاحة لجميع عملاء Sundae Core Pro وEnterprise. يستغرق الإعداد أقل من ساعة:
+الإحاطة الصباحية متاحة لجميع عملاء Sundae Core. يستغرق الإعداد أقل من ساعة:
 
 1. **اختر مواقعك ومقاييسك**: حدّد المواقع ومؤشرات الأداء التي تريدها في إحاطتك
 2. **اختر قناة التسليم**: Email أو Slack أو Teams أو push على الهاتف

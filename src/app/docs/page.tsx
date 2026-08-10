@@ -51,7 +51,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
     title: "Everything You Need to Know",
     description: "Guides, API references, and best practices to help you get the most from Sundae.",
     primaryCta: "Book a Demo",
-    secondaryCta: "Try Sundae Report (Free)",
+    secondaryCta: "See Benchmarking",
     topicsLabel: "Topics:",
     quickStartTitle: "Quick Start Guide",
     quickStartDescription: "Get up and running with Sundae in four simple steps",
@@ -177,7 +177,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
     title: "كل ما تحتاج إلى معرفته",
     description: "أدلة ومراجع API وأفضل الممارسات لمساعدتك على تحقيق أقصى استفادة من Sundae.",
     primaryCta: "احجز عرضاً",
-    secondaryCta: "جرّب Sundae Report مجاناً",
+    secondaryCta: "استعرض المقارنة المرجعية",
     topicsLabel: "الموضوعات:",
     quickStartTitle: "دليل البدء السريع",
     quickStartDescription: "ابدأ مع Sundae في أربع خطوات بسيطة",
@@ -303,7 +303,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
     title: "Tout ce qu'il faut savoir",
     description: "Guides, references API et bonnes pratiques pour tirer le meilleur de Sundae.",
     primaryCta: "Reserver une demo",
-    secondaryCta: "Essayer Sundae Report gratuitement",
+    secondaryCta: "Découvrir le benchmarking",
     topicsLabel: "Sujets :",
     quickStartTitle: "Guide de demarrage rapide",
     quickStartDescription: "Mettez Sundae en route en quatre etapes simples",
@@ -429,7 +429,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
     title: "Todo lo que necesitas saber",
     description: "Guias, referencias de API y buenas practicas para sacar el maximo partido de Sundae.",
     primaryCta: "Reservar una demo",
-    secondaryCta: "Probar Sundae Report gratis",
+    secondaryCta: "Ver el benchmarking",
     topicsLabel: "Temas:",
     quickStartTitle: "Guia de inicio rapido",
     quickStartDescription: "Pon en marcha Sundae en cuatro pasos simples",
@@ -565,7 +565,7 @@ export default function DocumentationPage() {
               {copy.primaryCta}
             </Button>
           </Link>
-          <Link href="/report">
+          <Link href="/product/benchmarking">
             <Button variant="outline-light" size="lg">
               {copy.secondaryCta}
             </Button>

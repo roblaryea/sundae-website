@@ -693,7 +693,7 @@ export const websiteMessages = {
           description:
             'Access guides, reports, and tools to help you make smarter decisions for your restaurant business.',
           getStarted: 'Get Started with Sundae',
-          freeReport: 'Get Free Benchmark Report',
+          freeReport: 'See Benchmarking',
           caseStudies: 'Industry Outcome Examples',
           caseStudiesDescription:
             'How operators use Sundae to improve performance, margins, and decision-making - drawn from real engagement patterns.',
@@ -1139,7 +1139,7 @@ export const websiteMessages = {
           description:
             'احصل على الأدلة والتقارير والأدوات لمساعدتك على اتخاذ قرارات أذكى لعمل مطعمك.',
           getStarted: 'ابدأ مع Sundae',
-          freeReport: 'احصل على تقرير مرجعي مجاني',
+          freeReport: 'استعرض المقارنة المرجعية',
           caseStudies: 'دراسات حالة',
           caseStudiesDescription:
             'شاهد كيف يستخدم المشغلون Sundae لتحسين الأداء والهوامش واتخاذ القرار.',
@@ -1603,7 +1603,7 @@ export const websiteMessages = {
           description:
             'Accédez à des guides, rapports et outils pour prendre de meilleures décisions pour votre restaurant.',
           getStarted: 'Commencer avec Sundae',
-          freeReport: 'Obtenir un rapport de benchmark gratuit',
+          freeReport: 'Découvrir le benchmarking',
           caseStudies: 'Études de cas',
           caseStudiesDescription:
             'Voyez comment les opérateurs utilisent Sundae pour améliorer la performance, les marges et la prise de décision.',
@@ -2067,7 +2067,7 @@ export const websiteMessages = {
           description:
             'Accede a guías, informes y herramientas para tomar decisiones más inteligentes para tu restaurante.',
           getStarted: 'Empezar con Sundae',
-          freeReport: 'Obtener un informe benchmark gratis',
+          freeReport: 'Ver el benchmarking',
           caseStudies: 'Casos de estudio',
           caseStudiesDescription:
             'Mira cómo los operadores usan Sundae para mejorar el rendimiento, los márgenes y la toma de decisiones.',

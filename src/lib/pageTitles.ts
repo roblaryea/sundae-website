@@ -29,7 +29,6 @@ export const pageTitlesEn: Record<string, string> = {
   '/4d-intelligence': 'The 4D Intelligence Model - How Sundae Reads Your Business',
   '/architecture': 'Platform Architecture - How Sundae Unifies Your Data',
   '/modules': 'Sundae Modules - 12 Analytics Modules, One Platform',
-  '/report-vs-core': 'Sundae Report vs Core - Which Plan Fits Your Group',
   '/crew': 'Sundae Crew - Workforce Operations Built for Restaurants',
   '/crew/scheduling': 'Sundae Crew Scheduling - Demand-Aware Shift Planning',
   '/crew/time-attendance': 'Sundae Crew Time & Attendance - Clock-In, Geofence, Timesheets',
