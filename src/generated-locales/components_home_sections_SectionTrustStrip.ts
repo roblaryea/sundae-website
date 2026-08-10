@@ -4,633 +4,87 @@ export const generatedLocalCopy = {
   "localizedCopy": {
     "ar": {
       "eyebrow": "مبني بمستوى المؤسسات",
-      "headline": "جاهز للتدقيق. أولاً API. من اليوم الأول.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "أذونات دور دقيقة"
-        },
-        {
-          "title": "مسارات التدقيق",
-          "supporting": "كل مقياس يعود إلى صف المصدر"
-        },
-        {
-          "title": "API عامة",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99.4% مستوى خدمة المزامنة",
-          "supporting": "على مستوى Core Pro"
-        },
-        {
-          "title": "مشفرة",
-          "supporting": "أثناء النقل وفي الراحة"
-        },
-        {
-          "title": "نموذج محكوم",
-          "supporting": "500+ نموذج بيانات مطعم"
-        }
-      ]
+      "headline": "جاهز للتدقيق. أولاً API. من اليوم الأول."
     },
     "fr": {
       "eyebrow": "CONÇU POUR LES ENTREPRISES",
-      "headline": "Prêt pour l'audit. API-first. Dès le premier jour.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Permissions de rôle granulaires"
-        },
-        {
-          "title": "Pistes d'audit",
-          "supporting": "Chaque métrique jusqu'à la ligne source"
-        },
-        {
-          "title": "API publique",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99,4% SLO de synchronisation",
-          "supporting": "Sur le niveau Core Pro"
-        },
-        {
-          "title": "Chiffré",
-          "supporting": "En transit et au repos"
-        },
-        {
-          "title": "Schéma gouverné",
-          "supporting": "500+ modèles de données de restaurant"
-        }
-      ]
+      "headline": "Prêt pour l'audit. API-first. Dès le premier jour."
     },
     "es": {
       "eyebrow": "CONSTRUIDO PARA EMPRESAS",
-      "headline": "Listo para auditoría. API primero. Desde el primer día.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Permisos de rol granulares"
-        },
-        {
-          "title": "Rastros de Auditoría",
-          "supporting": "Cada métrica hasta la fila de origen"
-        },
-        {
-          "title": "API Pública",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99,4% SLO de Sincronización",
-          "supporting": "En el nivel Core Pro"
-        },
-        {
-          "title": "Encriptado",
-          "supporting": "En tránsito y en reposo"
-        },
-        {
-          "title": "Esquema Gobernado",
-          "supporting": "Más de 500 modelos de datos de restaurantes"
-        }
-      ]
+      "headline": "Listo para auditoría. API primero. Desde el primer día."
     },
     "de": {
       "eyebrow": "UNTERNEHMENSBEREIT",
-      "headline": "Auditbereit. API-First. Ab dem ersten Tag.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Granulare Rollenberechtigungen"
-        },
-        {
-          "title": "Audit-Protokolle",
-          "supporting": "Jede Metrik zur Quellzeile"
-        },
-        {
-          "title": "Öffentliche API",
-          "supporting": "REST + Webhooks"
-        },
-        {
-          "title": "99,4% Sync SLO",
-          "supporting": "Auf Core Pro-Stufe"
-        },
-        {
-          "title": "Verschlüsselt",
-          "supporting": "Während der Übertragung & im Ruhezustand"
-        },
-        {
-          "title": "Verwaltetes Schema",
-          "supporting": "500+ Restaurant-Datenmodelle"
-        }
-      ]
+      "headline": "Auditbereit. API-First. Ab dem ersten Tag."
     },
     "nl": {
       "eyebrow": "GEBOUWD VOOR ONDERNEMINGSGEBRUIK",
-      "headline": "Klaar voor audit. API-eerst. Vanaf dag één.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Gedetailleerde rolrechten"
-        },
-        {
-          "title": "Audittrails",
-          "supporting": "Elke metriek tot de bronrij"
-        },
-        {
-          "title": "Openbare API",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99,4% sync-SLO",
-          "supporting": "Op Core Pro-niveau"
-        },
-        {
-          "title": "Versleuteld",
-          "supporting": "Tijdens verzending & in rust"
-        },
-        {
-          "title": "Beheerd schema",
-          "supporting": "500+ restaurantdatamodellen"
-        }
-      ]
+      "headline": "Klaar voor audit. API-eerst. Vanaf dag één."
     },
     "pt": {
       "eyebrow": "CONSTRUÍDO PARA EMPRESAS",
-      "headline": "Pronto para auditoria. API em primeiro lugar. Desde o primeiro dia.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Permissões de função granulares"
-        },
-        {
-          "title": "Trilhas de Auditoria",
-          "supporting": "Cada métrica até a linha de origem"
-        },
-        {
-          "title": "API Pública",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99,4% SLO de Sincronização",
-          "supporting": "No nível Core Pro"
-        },
-        {
-          "title": "Criptografado",
-          "supporting": "Em trânsito e em repouso"
-        },
-        {
-          "title": "Esquema Gerenciado",
-          "supporting": "500+ modelos de dados de restaurantes"
-        }
-      ]
+      "headline": "Pronto para auditoria. API em primeiro lugar. Desde o primeiro dia."
     },
     "hi": {
       "eyebrow": "एंटरप्राइज-ग्रेड में निर्मित",
-      "headline": "ऑडिट-तैयार। API-प्रथम। पहले दिन से।",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "सूक्ष्म भूमिका अनुमतियाँ"
-        },
-        {
-          "title": "ऑडिट ट्रेल्स",
-          "supporting": "हर मेट्रिक स्रोत पंक्ति तक"
-        },
-        {
-          "title": "सार्वजनिक API",
-          "supporting": "REST + वेबहुक्स"
-        },
-        {
-          "title": "99.4% सिंक SLO",
-          "supporting": "Core Pro टियर पर"
-        },
-        {
-          "title": "एन्क्रिप्टेड",
-          "supporting": "ट्रांज़िट में और रेस्ट में"
-        },
-        {
-          "title": "प्रबंधित स्कीमा",
-          "supporting": "500+ रेस्तरां डेटा मॉडल"
-        }
-      ]
+      "headline": "ऑडिट-तैयार। API-प्रथम। पहले दिन से।"
     },
     "ur": {
       "eyebrow": "انٹرپرائز گریڈ میں بنایا گیا",
-      "headline": "آڈٹ کے لیے تیار۔ API-پہلا۔ پہلے دن سے۔",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "تفصیلی کردار کی اجازتیں"
-        },
-        {
-          "title": "آڈٹ ٹریلز",
-          "supporting": "ہر میٹرک ماخذ قطار تک"
-        },
-        {
-          "title": "عوامی API",
-          "supporting": "REST + ویب ہکس"
-        },
-        {
-          "title": "99.4% ہم آہنگی SLO",
-          "supporting": "Core Pro سطح پر"
-        },
-        {
-          "title": "انکرپٹڈ",
-          "supporting": "منتقلی کے دوران اور ذخیرے میں"
-        },
-        {
-          "title": "زیرِ انتظام اسکیمہ",
-          "supporting": "500+ ریستوراں کے ڈیٹا ماڈلز"
-        }
-      ]
+      "headline": "آڈٹ کے لیے تیار۔ API-پہلا۔ پہلے دن سے۔"
     },
     "it": {
       "eyebrow": "CREATO PER IMPRESE",
-      "headline": "Pronto per audit. API-first. Fin dal primo giorno.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Permessi di ruolo granulari"
-        },
-        {
-          "title": "Audit trail",
-          "supporting": "Ogni metrica fino alla riga di origine"
-        },
-        {
-          "title": "API Pubblica",
-          "supporting": "REST + webhook"
-        },
-        {
-          "title": "99,4% SLO di sincronizzazione",
-          "supporting": "Sul piano Core Pro"
-        },
-        {
-          "title": "Crittografato",
-          "supporting": "In transito e a riposo"
-        },
-        {
-          "title": "Schema gestito",
-          "supporting": "500+ modelli di dati per ristoranti"
-        }
-      ]
+      "headline": "Pronto per audit. API-first. Fin dal primo giorno."
     },
     "pl": {
       "eyebrow": "ZBUDOWANE NA POZIOMIE PRZEDSIĘBIORSTWA",
-      "headline": "Gotowe do audytu. API jako priorytet. Od pierwszego dnia.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Szczegółowe uprawnienia ról"
-        },
-        {
-          "title": "Ścieżki audytu",
-          "supporting": "Każda metryka aż do wiersza źródłowego"
-        },
-        {
-          "title": "Publiczne API",
-          "supporting": "REST + webhooki"
-        },
-        {
-          "title": "99,4% SLO synchronizacji",
-          "supporting": "Na poziomie Core Pro"
-        },
-        {
-          "title": "Szyfrowane",
-          "supporting": "W tranzycie i w spoczynku"
-        },
-        {
-          "title": "Zarządzany schemat",
-          "supporting": "500+ modeli danych restauracji"
-        }
-      ]
+      "headline": "Gotowe do audytu. API jako priorytet. Od pierwszego dnia."
     },
     "tr": {
       "eyebrow": "KURUM SEVİYESİNDE",
-      "headline": "Denetim hazır. API öncelikli. İlk günden itibaren.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Ayrıntılı rol izinleri"
-        },
-        {
-          "title": "Denetim İzleri",
-          "supporting": "Her metrik kaynak satırına kadar"
-        },
-        {
-          "title": "Genel API",
-          "supporting": "REST + web kancaları"
-        },
-        {
-          "title": "%99.4 Senkronizasyon SLO",
-          "supporting": "Core Pro katmanında"
-        },
-        {
-          "title": "Şifreli",
-          "supporting": "Aktarımda ve dinlenirken"
-        },
-        {
-          "title": "Yönetilen Şema",
-          "supporting": "500+ restoran veri modeli"
-        }
-      ]
+      "headline": "Denetim hazır. API öncelikli. İlk günden itibaren."
     },
     "zh-Hans": {
       "eyebrow": "企业级构建",
-      "headline": "随时审计。API优先。从第一天起。",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "细粒度角色权限"
-        },
-        {
-          "title": "审计日志",
-          "supporting": "每个指标对应源行"
-        },
-        {
-          "title": "公共API",
-          "supporting": "REST + Webhooks"
-        },
-        {
-          "title": "99.4%同步服务水平目标",
-          "supporting": "在Core Pro层级"
-        },
-        {
-          "title": "加密",
-          "supporting": "传输中和静态时均加密"
-        },
-        {
-          "title": "受管理的架构",
-          "supporting": "500+ 餐厅数据模型"
-        }
-      ]
+      "headline": "随时审计。API优先。从第一天起。"
     },
     "ja": {
       "eyebrow": "エンタープライズグレードで構築",
-      "headline": "監査対応。APIファースト。初日から。",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "詳細な役割権限"
-        },
-        {
-          "title": "監査トレイル",
-          "supporting": "すべてのメトリクスをソース行まで遡及"
-        },
-        {
-          "title": "公開API",
-          "supporting": "REST + ウェブフック"
-        },
-        {
-          "title": "99.4% 同期SLO",
-          "supporting": "Core Proティアで"
-        },
-        {
-          "title": "暗号化",
-          "supporting": "転送中と静止中"
-        },
-        {
-          "title": "管理されたスキーマ",
-          "supporting": "500以上のレストランデータモデル"
-        }
-      ]
+      "headline": "監査対応。APIファースト。初日から。"
     },
     "ko": {
       "eyebrow": "기업 수준으로 구축됨",
-      "headline": "감사 준비 완료. API 우선. 첫날부터.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "세분화된 역할 권한"
-        },
-        {
-          "title": "감사 추적",
-          "supporting": "모든 지표를 소스 행까지 추적"
-        },
-        {
-          "title": "공개 API",
-          "supporting": "REST + 웹훅"
-        },
-        {
-          "title": "99.4% 동기화 SLO",
-          "supporting": "Core Pro 티어에서"
-        },
-        {
-          "title": "암호화됨",
-          "supporting": "전송 중 및 저장 중"
-        },
-        {
-          "title": "관리되는 스키마",
-          "supporting": "500개 이상의 레스토랑 데이터 모델"
-        }
-      ]
+      "headline": "감사 준비 완료. API 우선. 첫날부터."
     },
     "id": {
       "eyebrow": "DIBANGUN UNTUK KELAS PERUSAHAAN",
-      "headline": "Siap diaudit. API-pertama. Sejak hari pertama.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Izin peran yang terperinci"
-        },
-        {
-          "title": "Jejak Audit",
-          "supporting": "Setiap metrik hingga baris sumber"
-        },
-        {
-          "title": "API Publik",
-          "supporting": "REST + webhook"
-        },
-        {
-          "title": "99,4% SLO Sinkronisasi",
-          "supporting": "Pada tingkat Core Pro"
-        },
-        {
-          "title": "Terenkripsi",
-          "supporting": "Saat transit & saat disimpan"
-        },
-        {
-          "title": "Skema Terkelola",
-          "supporting": "500+ model data restoran"
-        }
-      ]
+      "headline": "Siap diaudit. API-pertama. Sejak hari pertama."
     },
     "vi": {
       "eyebrow": "XÂY DỰNG ĐỂ PHÙ HỢP DOANH NGHIỆP",
-      "headline": "Sẵn sàng kiểm toán. API-first. Ngay từ ngày đầu.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Quyền truy cập theo vai trò chi tiết"
-        },
-        {
-          "title": "Nhật ký kiểm toán",
-          "supporting": "Mọi chỉ số truy về hàng nguồn"
-        },
-        {
-          "title": "API công khai",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99,4% SLO đồng bộ",
-          "supporting": "Ở cấp độ Core Pro"
-        },
-        {
-          "title": "Mã hóa",
-          "supporting": "Trong quá trình truyền & khi lưu trữ"
-        },
-        {
-          "title": "Schema được quản lý",
-          "supporting": "Hơn 500 mô hình dữ liệu nhà hàng"
-        }
-      ]
+      "headline": "Sẵn sàng kiểm toán. API-first. Ngay từ ngày đầu."
     },
     "ro": {
       "eyebrow": "CONSTRUIT LA NIVEL DE ÎNTREPRINDERE",
-      "headline": "Pregătit pentru audit. API-first. Din prima zi.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Permisiuni de rol granulare"
-        },
-        {
-          "title": "Piste de audit",
-          "supporting": "Fiecare metrică până la rândul sursă"
-        },
-        {
-          "title": "API public",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99,4% SLO de sincronizare",
-          "supporting": "Pe nivelul Core Pro"
-        },
-        {
-          "title": "Criptat",
-          "supporting": "În tranzit și în repaus"
-        },
-        {
-          "title": "Schemă gestionată",
-          "supporting": "500+ modele de date pentru restaurante"
-        }
-      ]
+      "headline": "Pregătit pentru audit. API-first. Din prima zi."
     },
     "sv": {
       "eyebrow": "BYGGD FÖR FÖRETAGSNIVÅ",
-      "headline": "Redo för revision. API-först. Från dag ett.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Granulära rollbehörigheter"
-        },
-        {
-          "title": "Revisionsspår",
-          "supporting": "Varje mätvärde till källraden"
-        },
-        {
-          "title": "Offentligt API",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99,4% Synk SLO",
-          "supporting": "På Core Pro-nivå"
-        },
-        {
-          "title": "Krypterad",
-          "supporting": "Under överföring & i vila"
-        },
-        {
-          "title": "Hanterat schema",
-          "supporting": "500+ restaurangdatamodeller"
-        }
-      ]
+      "headline": "Redo för revision. API-först. Från dag ett."
     },
     "bn": {
       "eyebrow": "এন্টারপ্রাইজ-গ্রেড তৈরি",
-      "headline": "অডিট-প্রস্তুত। API-প্রথম। প্রথম দিন থেকেই।",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "বিস্তৃত ভূমিকা অনুমতি"
-        },
-        {
-          "title": "অডিট ট্রেইল",
-          "supporting": "প্রতিটি মেট্রিক সোর্স রো পর্যন্ত"
-        },
-        {
-          "title": "পাবলিক API",
-          "supporting": "REST + ওয়েবহুক"
-        },
-        {
-          "title": "99.4% সিঙ্ক SLO",
-          "supporting": "Core Pro স্তরে"
-        },
-        {
-          "title": "এনক্রিপ্টেড",
-          "supporting": "পরিবহণে এবং বিশ্রামে"
-        },
-        {
-          "title": "পরিচালিত স্কিমা",
-          "supporting": "500+ রেস্তোরাঁর ডেটা মডেল"
-        }
-      ]
+      "headline": "অডিট-প্রস্তুত। API-প্রথম। প্রথম দিন থেকেই।"
     },
     "th": {
       "eyebrow": "สร้างขึ้นสำหรับระดับองค์กร",
-      "headline": "พร้อมตรวจสอบ. API-first. ตั้งแต่วันแรก.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "สิทธิ์การเข้าถึงที่ละเอียด"
-        },
-        {
-          "title": "Audit Trails",
-          "supporting": "ทุกเมตริกสืบย้อนถึงแถวต้นทาง"
-        },
-        {
-          "title": "Public API",
-          "supporting": "REST + webhooks"
-        },
-        {
-          "title": "99.4% Sync SLO",
-          "supporting": "ในระดับ Core Pro"
-        },
-        {
-          "title": "เข้ารหัส",
-          "supporting": "ระหว่างการส่ง & ขณะจัดเก็บ"
-        },
-        {
-          "title": "Governed Schema",
-          "supporting": "โมเดลข้อมูลร้านอาหาร 500+"
-        }
-      ]
+      "headline": "พร้อมตรวจสอบ. API-first. ตั้งแต่วันแรก."
     },
     "ms": {
       "eyebrow": "DIBINA UNTUK PERINGKAT PERUSAHAAN",
-      "headline": "Sedia untuk audit. API-pertama. Sejak hari pertama.",
-      "items": [
-        {
-          "title": "RBAC",
-          "supporting": "Kebenaran peranan yang terperinci"
-        },
-        {
-          "title": "Jejak Audit",
-          "supporting": "Setiap metrik hingga baris sumber"
-        },
-        {
-          "title": "API Awam",
-          "supporting": "REST + webhook"
-        },
-        {
-          "title": "99.4% SLO Penyelarasan",
-          "supporting": "Pada tahap Core Pro"
-        },
-        {
-          "title": "Disulitkan",
-          "supporting": "Semasa transit & semasa disimpan"
-        },
-        {
-          "title": "Skema Terurus",
-          "supporting": "500+ model data restoran"
-        }
-      ]
+      "headline": "Sedia untuk audit. API-pertama. Sejak hari pertama."
     }
   }
 } as const

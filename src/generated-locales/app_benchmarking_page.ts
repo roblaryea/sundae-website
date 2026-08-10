@@ -6,7 +6,6 @@ export const generatedLocalCopy = {
       "badge": "Wettbewerbsintelligenz",
       "title": "Hör auf zu raten. Fang an zu wissen.",
       "description": "Vergleichen Sie Ihre Zahlen mit anonymisierten Peer-Daten, einschließlich RevPASH-Index, Sitzplatzbelegung, durchschnittlichem Check und Umsatzindizes, mit Kontext, der zeigt, wo Sie stehen.",
-      "heroPrimary": "Kostenlose Benchmarks ausprobieren",
       "heroSecondary": "Eine Demo buchen",
       "howTitle": "Wie Sundae-Benchmarks funktionieren",
       "howDescription": "Laden Sie Ihre Daten hoch. Erhalten Sie sofortige Vergleiche mit Restaurants wie Ihrem.",
@@ -14,11 +13,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Über 30 Kennzahlen zu Leistung, Effizienz und Marktposition.",
       "forecastTitle": "Umsatzprognose",
       "forecastDescription": "Umsatzprognose basierend auf Ihren Trends und Marktdaten zur Vorhersage zukünftiger Leistungen.",
-      "tiersTitle": "Verfügbar in allen Stufen",
-      "tiersDescription": "Beginnen Sie kostenlos mit dem Benchmarking mit Report Lite. Entsperren Sie tiefere Einblicke, während Sie wachsen.",
       "ctaTitle": "Sehen Sie, wo Sie stehen",
-      "ctaDescription": "Laden Sie Ihre Daten hoch und erhalten Sie in wenigen Minuten Ihren ersten Benchmark. Kostenlos, keine Kreditkarte erforderlich.",
-      "startFree": "Kostenloses Benchmark starten",
       "metrics": [
         {
           "name": "RevPASH-Index",
@@ -73,30 +68,12 @@ export const generatedLocalCopy = {
         "Erkennung saisonaler Muster",
         "Marktanpassung der Prognosen",
         "Konfidenzintervalle"
-      ],
-      "tiers": [
-        {
-          "label": "KOSTENLOS",
-          "title": "Report Lite",
-          "description": "5 Kernmetriken. CSV-Upload. 90 Tage Aufbewahrung."
-        },
-        {
-          "label": "BELIEBT",
-          "title": "Report Plus",
-          "description": "15 Metriken. Automatisierte Uploads. 1 Jahr Aufbewahrung."
-        },
-        {
-          "label": "VOLLE POWER",
-          "title": "Report Pro / Core",
-          "description": "30+ Metriken. API-Integration. Mehrjährige Aufbewahrung."
-        }
       ]
     },
     "es": {
       "badge": "Inteligencia Competitiva",
       "title": "Deja de adivinar. Comienza a saber.",
       "description": "Compara tus números con datos anónimos de tus pares, incluyendo el Índice RevPASH, ocupación de asientos, promedio de cheque y índices de ingresos, con contexto que muestra dónde te encuentras.",
-      "heroPrimary": "Prueba Benchmarks Gratis",
       "heroSecondary": "Reservar una demostración",
       "howTitle": "Cómo funcionan los Benchmarks de Sundae",
       "howDescription": "Sube tus datos. Obtén comparaciones instantáneas con restaurantes como el tuyo.",
@@ -104,11 +81,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Más de 30 métricas sobre rendimiento, eficiencia y posición en el mercado.",
       "forecastTitle": "Pronóstico de Ingresos",
       "forecastDescription": "Pronóstico de ingresos utilizando tus tendencias y datos de mercado para proyectar el rendimiento futuro.",
-      "tiersTitle": "Disponible en todos los niveles",
-      "tiersDescription": "Comienza a comparar de forma gratuita con Report Lite. Desbloquea una inteligencia más profunda a medida que creces.",
       "ctaTitle": "Ve Dónde Te Encuentras",
-      "ctaDescription": "Sube tus datos y obtén tu primer punto de referencia en minutos. Gratis, no se requiere tarjeta de crédito.",
-      "startFree": "Comienza la Evaluación Gratis",
       "metrics": [
         {
           "name": "Índice RevPASH",
@@ -163,30 +136,12 @@ export const generatedLocalCopy = {
         "Reconocimiento de patrones estacionales",
         "Pronósticos ajustados al mercado",
         "Intervalos de confianza"
-      ],
-      "tiers": [
-        {
-          "label": "GRATIS",
-          "title": "Report Lite",
-          "description": "5 métricas clave. Carga de CSV. Retención de 90 días."
-        },
-        {
-          "label": "POPULAR",
-          "title": "Report Plus",
-          "description": "15 métricas. Cargas auto-analizadas. Retención de 1 año."
-        },
-        {
-          "label": "POTENCIA TOTAL",
-          "title": "Report Pro / Core",
-          "description": "30+ métricas. Integración de API. Retención de varios años."
-        }
       ]
     },
     "ar": {
       "badge": "ذكاء تنافسي",
       "title": "توقف عن التخمين. ابدأ في المعرفة.",
       "description": "قارن أرقامك مع بيانات الأقران المجهولة، بما في ذلك مؤشر RevPASH، ونسبة إشغال المقاعد، ومتوسط الفاتورة، ومؤشرات الإيرادات، مع سياق يوضح مكانك.",
-      "heroPrimary": "جرّب المعايير المجانية",
       "heroSecondary": "احجز عرضًا تجريبيًا",
       "howTitle": "كيف تعمل مقاييس Sundae",
       "howDescription": "قم بتحميل بياناتك. احصل على مقارنات فورية مع مطاعم مشابهة لمطعمك.",
@@ -194,11 +149,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "أكثر من 30 مقياسًا عبر الأداء والكفاءة وموقع السوق.",
       "forecastTitle": "توقعات الإيرادات",
       "forecastDescription": "توقع الإيرادات باستخدام اتجاهاتك وبيانات السوق لتقدير الأداء المستقبلي.",
-      "tiersTitle": "متاح عبر جميع الفئات",
-      "tiersDescription": "ابدأ المقارنة المعيارية مجانًا مع Report Lite. واكتشف ذكاءً أعمق مع نموّك.",
       "ctaTitle": "انظر أين تقف",
-      "ctaDescription": "قم بتحميل بياناتك واحصل على أول معيار لك في دقائق. مجاني، لا حاجة لبطاقة ائتمان.",
-      "startFree": "ابدأ تقييم مجاني",
       "metrics": [
         {
           "name": "مؤشر RevPASH",
@@ -253,30 +204,12 @@ export const generatedLocalCopy = {
         "التعرف على الأنماط الموسمية",
         "توقعات معدلة حسب السوق",
         "فترات الثقة"
-      ],
-      "tiers": [
-        {
-          "label": "مجاني",
-          "title": "Report Lite",
-          "description": "5 مقاييس أساسية. تحميل CSV. احتفاظ لمدة 90 يوم."
-        },
-        {
-          "label": "شائع",
-          "title": "Report Plus",
-          "description": "15 مقياس. تحميلات تلقائية. احتفاظ لمدة سنة واحدة."
-        },
-        {
-          "label": "قوة كاملة",
-          "title": "Report Pro / Core",
-          "description": "30+ مقياس. تكامل API. احتفاظ لعدة سنوات."
-        }
       ]
     },
     "nl": {
       "badge": "Concurrentie-informatie",
       "title": "Stop met raden. Begin met weten.",
       "description": "Vergelijk uw cijfers met geanonimiseerde gegevens van peers, inclusief RevPASH-index, zitplaatsbezetting, gemiddelde rekening en omzetindexen, met context die laat zien waar u staat.",
-      "heroPrimary": "Probeer Gratis Benchmarks",
       "heroSecondary": "Boek een demo",
       "howTitle": "Hoe Sundae Benchmarks Werken",
       "howDescription": "Upload je gegevens. Ontvang directe vergelijkingen met restaurants zoals het jouwe.",
@@ -284,11 +217,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "30+ metrics op het gebied van prestaties, efficiëntie en marktpositie.",
       "forecastTitle": "Omzetprognose",
       "forecastDescription": "Omzetprognoses op basis van uw trends en marktgegevens om toekomstige prestaties te projecteren.",
-      "tiersTitle": "Beschikbaar in alle niveaus",
-      "tiersDescription": "Begin gratis met benchmarken met Report Lite. Ontgrendel diepere inzichten naarmate je groeit.",
       "ctaTitle": "Bekijk Waar Je Staat",
-      "ctaDescription": "Upload je gegevens en ontvang je eerste benchmark binnen enkele minuten. Gratis, geen creditcard vereist.",
-      "startFree": "Start Gratis Benchmark",
       "metrics": [
         {
           "name": "RevPASH Index",
@@ -343,30 +272,12 @@ export const generatedLocalCopy = {
         "Seizoenspatroonherkenning",
         "Marktgecorrigeerde prognoses",
         "Betrouwbaarheidsintervallen"
-      ],
-      "tiers": [
-        {
-          "label": "GRATIS",
-          "title": "Report Lite",
-          "description": "5 kernmetrics. CSV-upload. 90 dagen opslag."
-        },
-        {
-          "label": "POPULAIR",
-          "title": "Report Plus",
-          "description": "15 metrics. Automatisch geparsed uploads. 1 jaar opslag."
-        },
-        {
-          "label": "VOLLEDIGE KRACHT",
-          "title": "Report Pro / Core",
-          "description": "30+ metrics. API-integratie. Meerdere jaren opslag."
-        }
       ]
     },
     "fr": {
       "badge": "Intelligence Concurrentielle",
       "title": "Arrêtez de deviner. Commencez à savoir.",
       "description": "Comparez vos chiffres avec des données anonymisées de pairs, y compris l'indice RevPASH, le taux d'occupation des sièges, le montant moyen des factures et les indices de revenus, avec un contexte qui montre où vous en êtes.",
-      "heroPrimary": "Essayez des benchmarks gratuits",
       "heroSecondary": "Réservez une démo",
       "howTitle": "Comment fonctionnent les benchmarks de Sundae",
       "howDescription": "Téléchargez vos données. Obtenez des comparaisons instantanées avec des restaurants similaires au vôtre.",
@@ -374,11 +285,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Plus de 30 indicateurs sur la performance, l'efficacité et la position sur le marché.",
       "forecastTitle": "Prévision des revenus",
       "forecastDescription": "Prévision des revenus en utilisant vos tendances et les données du marché pour projeter les performances futures.",
-      "tiersTitle": "Disponible dans tous les niveaux",
-      "tiersDescription": "Commencez à évaluer gratuitement avec Report Lite. Débloquez des informations plus approfondies à mesure que vous grandissez.",
       "ctaTitle": "Voyez où vous en êtes",
-      "ctaDescription": "Téléchargez vos données et obtenez votre premier benchmark en quelques minutes. Gratuit, sans carte de crédit requise.",
-      "startFree": "Commencer l'évaluation gratuite",
       "metrics": [
         {
           "name": "Indice RevPASH",
@@ -433,30 +340,12 @@ export const generatedLocalCopy = {
         "Reconnaissance des tendances saisonnières",
         "Prévisions ajustées au marché",
         "Intervalles de confiance"
-      ],
-      "tiers": [
-        {
-          "label": "GRATUIT",
-          "title": "Report Lite",
-          "description": "5 métriques principales. Téléchargement CSV. Conservation de 90 jours."
-        },
-        {
-          "label": "POPULAIRE",
-          "title": "Report Plus",
-          "description": "15 métriques. Téléchargements auto-analysés. Conservation d'un an."
-        },
-        {
-          "label": "PLEINE PUISSANCE",
-          "title": "Report Pro / Core",
-          "description": "30+ métriques. Intégration API. Conservation pluriannuelle."
-        }
       ]
     },
     "hi": {
       "badge": "प्रतिस्पर्धात्मक बुद्धिमत्ता",
       "title": "अनुमान लगाना बंद करें। जानना शुरू करें।",
       "description": "अपने नंबरों की तुलना गुमनाम समकक्ष डेटा के साथ करें, जिसमें RevPASH इंडेक्स, सीट अधिभोग, औसत चेक और राजस्व इंडेक्स शामिल हैं, साथ ही संदर्भ जो दिखाता है कि आप कहाँ खड़े हैं।",
-      "heroPrimary": "नि:शुल्क बेंचमार्क आजमाएँ",
       "heroSecondary": "डेमो बुक करें",
       "howTitle": "Sundae बेंचमार्क कैसे काम करते हैं",
       "howDescription": "अपने डेटा को अपलोड करें। अपने जैसे रेस्तरां के खिलाफ तात्कालिक तुलना प्राप्त करें।",
@@ -464,11 +353,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "प्रदर्शन, दक्षता और बाजार स्थिति में 30+ मैट्रिक्स।",
       "forecastTitle": "राजस्व पूर्वानुमान",
       "forecastDescription": "आपके रुझानों और बाजार डेटा का उपयोग करके राजस्व की भविष्यवाणी करना ताकि भविष्य के प्रदर्शन का अनुमान लगाया जा सके।",
-      "tiersTitle": "सभी स्तरों में उपलब्ध",
-      "tiersDescription": "Report Lite के साथ मुफ़्त में बेंचमार्किंग शुरू करें। जैसे-जैसे आप बढ़ते हैं, और गहरी इंटेलिजेंस अनलॉक करें।",
       "ctaTitle": "देखें कि आप कहाँ खड़े हैं",
-      "ctaDescription": "अपने डेटा को अपलोड करें और मिनटों में अपना पहला बेंचमार्क प्राप्त करें। मुफ्त, कोई क्रेडिट कार्ड की आवश्यकता नहीं।",
-      "startFree": "मुफ्त बेंचमार्क शुरू करें",
       "metrics": [
         {
           "name": "RevPASH इंडेक्स",
@@ -523,30 +408,12 @@ export const generatedLocalCopy = {
         "मौसमी पैटर्न पहचान",
         "बाजार के अनुसार पूर्वानुमान",
         "विश्वास अंतर"
-      ],
-      "tiers": [
-        {
-          "label": "मुफ्त",
-          "title": "Report Lite",
-          "description": "5 मुख्य मैट्रिक्स। CSV अपलोड। 90-दिन की रिटेंशन।"
-        },
-        {
-          "label": "लोकप्रिय",
-          "title": "Report Plus",
-          "description": "15 मैट्रिक्स। ऑटो-पार्स किए गए अपलोड। 1-वर्ष की रिटेंशन।"
-        },
-        {
-          "label": "पूर्ण शक्ति",
-          "title": "Report Pro / Core",
-          "description": "30+ मैट्रिक्स। API एकीकरण। मल्टी-वर्ष की रिटेंशन।"
-        }
       ]
     },
     "pt": {
       "badge": "Inteligência Competitiva",
       "title": "Pare de adivinhar. Comece a saber.",
       "description": "Compare seus números com dados anônimos de colegas, incluindo o Índice RevPASH, ocupação de assentos, ticket médio e índices de receita, com contexto que mostra onde você está.",
-      "heroPrimary": "Experimente Benchmarks Grátis",
       "heroSecondary": "Agende uma Demonstração",
       "howTitle": "Como Funcionam os Benchmarks da Sundae",
       "howDescription": "Envie seus dados. Obtenha comparações instantâneas com restaurantes como o seu.",
@@ -554,11 +421,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Mais de 30 métricas sobre desempenho, eficiência e posição de mercado.",
       "forecastTitle": "Previsão de Receita",
       "forecastDescription": "Previsão de receita usando suas tendências e dados de mercado para projetar o desempenho futuro.",
-      "tiersTitle": "Disponível em Todos os Níveis",
-      "tiersDescription": "Comece a benchmarkear gratuitamente com o Report Lite. Desbloqueie inteligência mais profunda à medida que você cresce.",
       "ctaTitle": "Veja Onde Você Está",
-      "ctaDescription": "Envie seus dados e obtenha seu primeiro benchmark em minutos. Grátis, sem necessidade de cartão de crédito.",
-      "startFree": "Comece a Avaliação Gratuita",
       "metrics": [
         {
           "name": "Índice RevPASH",
@@ -613,30 +476,12 @@ export const generatedLocalCopy = {
         "Reconhecimento de padrões sazonais",
         "Previsões ajustadas ao mercado",
         "Intervalos de confiança"
-      ],
-      "tiers": [
-        {
-          "label": "GRATUITO",
-          "title": "Report Lite",
-          "description": "5 métricas principais. Upload em CSV. Retenção de 90 dias."
-        },
-        {
-          "label": "POPULAR",
-          "title": "Report Plus",
-          "description": "15 métricas. Uploads auto-analisados. Retenção de 1 ano."
-        },
-        {
-          "label": "POTÊNCIA TOTAL",
-          "title": "Report Pro / Core",
-          "description": "30+ métricas. Integração com API. Retenção de vários anos."
-        }
       ]
     },
     "ur": {
       "badge": "مقابلہ جاتی ذہانت",
       "title": "اندازہ لگانا بند کریں۔ جاننا شروع کریں۔",
       "description": "اپنے اعداد و شمار کا موازنہ نامعلوم ساتھیوں کے ڈیٹا کے ساتھ کریں، جس میں RevPASH انڈیکس، نشست کی موجودگی، اوسط چیک، اور آمدنی کے انڈیکس شامل ہیں، اس سیاق و سباق کے ساتھ جو آپ کی حیثیت کو ظاہر کرتا ہے۔",
-      "heroPrimary": "مفت بینچ مارکس آزمائیں",
       "heroSecondary": "ڈیمو بک کریں",
       "howTitle": "Sundae بینچ مارکس کیسے کام کرتے ہیں",
       "howDescription": "اپنے ڈیٹا کو اپ لوڈ کریں۔ اپنے جیسے ریستورانوں کے خلاف فوری موازنہ حاصل کریں۔",
@@ -644,11 +489,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "کارکردگی، مؤثریت، اور مارکیٹ کی حیثیت میں 30+ میٹرکس۔",
       "forecastTitle": "آمدنی کی پیش گوئی",
       "forecastDescription": "آپ کے رجحانات اور مارکیٹ کے ڈیٹا کا استعمال کرتے ہوئے آمدنی کی پیش گوئی تاکہ مستقبل کی کارکردگی کا اندازہ لگایا جا سکے۔",
-      "tiersTitle": "تمام سطحوں پر دستیاب",
-      "tiersDescription": "Report Lite کے ساتھ مفت میں بینچ مارکنگ شروع کریں۔ جیسے جیسے آپ بڑھیں، گہری ذہانت کو کھولیں۔",
       "ctaTitle": "دیکھیں آپ کہاں کھڑے ہیں",
-      "ctaDescription": "اپنے ڈیٹا کو اپ لوڈ کریں اور چند منٹوں میں اپنا پہلا بینچ مارک حاصل کریں۔ مفت، کوئی کریڈٹ کارڈ درکار نہیں۔",
-      "startFree": "مفت بینچ مارک شروع کریں",
       "metrics": [
         {
           "name": "RevPASH انڈیکس",
@@ -703,30 +544,12 @@ export const generatedLocalCopy = {
         "موسمی پیٹرن کی شناخت",
         "مارکیٹ کے مطابق پیش گوئیاں",
         "اعتماد کے وقفے"
-      ],
-      "tiers": [
-        {
-          "label": "مفت",
-          "title": "Report Lite",
-          "description": "5 بنیادی میٹرکس۔ CSV اپ لوڈ۔ 90 دن کی برقرار رکھنے کی مدت۔"
-        },
-        {
-          "label": "مقبول",
-          "title": "Report Plus",
-          "description": "15 میٹرکس۔ خودکار تجزیہ کردہ اپ لوڈز۔ 1 سال کی برقرار رکھنے کی مدت۔"
-        },
-        {
-          "label": "مکمل طاقت",
-          "title": "Report Pro / Core",
-          "description": "30+ میٹرکس۔ API انضمام۔ کئی سالوں کی برقرار رکھنے کی مدت۔"
-        }
       ]
     },
     "it": {
       "badge": "Intelligenza Competitiva",
       "title": "Smetti di indovinare. Inizia a conoscere.",
       "description": "Confronta i tuoi numeri con dati anonimi dei tuoi pari, inclusi l'Indice RevPASH, l'occupazione dei posti, il conto medio e gli indici di fatturato, con un contesto che mostra la tua posizione.",
-      "heroPrimary": "Prova Benchmark Gratuiti",
       "heroSecondary": "Prenota una demo",
       "howTitle": "Come Funzionano i Benchmark di Sundae",
       "howDescription": "Carica i tuoi dati. Ottieni confronti immediati con ristoranti simili al tuo.",
@@ -734,11 +557,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Oltre 30 metriche relative a prestazioni, efficienza e posizione di mercato.",
       "forecastTitle": "Previsione dei Ricavi",
       "forecastDescription": "Previsione dei ricavi utilizzando le tue tendenze e i dati di mercato per proiettare le performance future.",
-      "tiersTitle": "Disponibile in tutti i livelli",
-      "tiersDescription": "Inizia a fare benchmarking gratuitamente con Report Lite. Sblocca intelligenza più profonda man mano che cresci.",
       "ctaTitle": "Scopri la tua posizione",
-      "ctaDescription": "Carica i tuoi dati e ottieni il tuo primo benchmark in pochi minuti. Gratuito, senza necessità di carta di credito.",
-      "startFree": "Inizia Benchmark Gratuito",
       "metrics": [
         {
           "name": "Indice RevPASH",
@@ -793,30 +612,12 @@ export const generatedLocalCopy = {
         "Riconoscimento dei modelli stagionali",
         "Previsioni adeguate al mercato",
         "Intervalli di confidenza"
-      ],
-      "tiers": [
-        {
-          "label": "GRATIS",
-          "title": "Report Lite",
-          "description": "5 metriche principali. Caricamento CSV. Conservazione di 90 giorni."
-        },
-        {
-          "label": "POPOLARE",
-          "title": "Report Plus",
-          "description": "15 metriche. Caricamenti auto-analizzati. Conservazione di 1 anno."
-        },
-        {
-          "label": "PIENA POTENZA",
-          "title": "Report Pro / Core",
-          "description": "30+ metriche. Integrazione API. Conservazione pluriennale."
-        }
       ]
     },
     "tr": {
       "badge": "Rekabetçi Zeka",
       "title": "Tahmin Etmeyi Bırak. Bilmeye Başla.",
       "description": "RevPASH İndeksi, oturma doluluğu, ortalama hesap ve gelir indeksleri dahil olmak üzere anonimleştirilmiş akran verileriyle sayılarınızı karşılaştırın; bu, nerede durduğunuzu gösteren bir bağlam sağlar.",
-      "heroPrimary": "Ücretsiz Karşılaştırmaları Deneyin",
       "heroSecondary": "Demo Rezervasyonu Yap",
       "howTitle": "Sundae Benchmark Nasıl Çalışır",
       "howDescription": "Verilerinizi yükleyin. Benzer restoranlarla anlık karşılaştırmalar alın.",
@@ -824,11 +625,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Performans, verimlilik ve pazar konumu açısından 30+ metrik.",
       "forecastTitle": "Gelir Tahmini",
       "forecastDescription": "Elde ettiğiniz eğilimler ve pazar verilerini kullanarak gelecekteki performansı tahmin etme.",
-      "tiersTitle": "Tüm Katmanlarda Mevcuttur",
-      "tiersDescription": "Ücretsiz olarak Report Lite ile karşılaştırma yapmaya başlayın. Büyüdükçe daha derin bir zeka açın.",
       "ctaTitle": "Durumunuzu Görün",
-      "ctaDescription": "Verilerinizi yükleyin ve birkaç dakika içinde ilk kıyaslamanızı alın. Ücretsiz, kredi kartı gerektirmez.",
-      "startFree": "Ücretsiz Karşılaştırmaya Başla",
       "metrics": [
         {
           "name": "RevPASH İndeksi",
@@ -883,30 +680,12 @@ export const generatedLocalCopy = {
         "Mevsimsel desen tanıma",
         "Pazar ayarlı tahminler",
         "Güven aralıkları"
-      ],
-      "tiers": [
-        {
-          "label": "ÜCRETSİZ",
-          "title": "Report Lite",
-          "description": "5 temel metrik. CSV yükleme. 90 günlük saklama."
-        },
-        {
-          "label": "POPÜLER",
-          "title": "Report Plus",
-          "description": "15 metrik. Otomatik ayrıştırılan yüklemeler. 1 yıllık saklama."
-        },
-        {
-          "label": "TAM GÜÇ",
-          "title": "Report Pro / Core",
-          "description": "30+ metrik. API entegrasyonu. Çok yıllık saklama."
-        }
       ]
     },
     "pl": {
       "badge": "Inteligencja konkurencyjna",
       "title": "Przestań zgadywać. Zacznij wiedzieć.",
       "description": "Porównaj swoje wyniki z zanonimizowanymi danymi rówieśników, w tym wskaźnikiem RevPASH, zajętością miejsc, średnim rachunkiem i wskaźnikami przychodów, z kontekstem, który pokazuje, gdzie się znajdujesz.",
-      "heroPrimary": "Wypróbuj darmowe benchmarki",
       "heroSecondary": "Zarezerwuj demo",
       "howTitle": "Jak działają benchmarki Sundae",
       "howDescription": "Prześlij swoje dane. Uzyskaj natychmiastowe porównania z restauracjami podobnymi do Twojej.",
@@ -914,11 +693,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Ponad 30 metryk dotyczących wydajności, efektywności i pozycji na rynku.",
       "forecastTitle": "Prognozowanie przychodów",
       "forecastDescription": "Prognozowanie przychodów na podstawie Twoich trendów i danych rynkowych w celu przewidzenia przyszłych wyników.",
-      "tiersTitle": "Dostępne we wszystkich poziomach",
-      "tiersDescription": "Rozpocznij benchmarking za darmo z Report Lite. Odkryj głębszą inteligencję w miarę rozwoju.",
       "ctaTitle": "Zobacz, gdzie stoisz",
-      "ctaDescription": "Prześlij swoje dane i uzyskaj pierwszy benchmark w ciągu kilku minut. Darmowe, bez potrzeby podawania danych karty kredytowej.",
-      "startFree": "Rozpocznij bezpłatne porównanie",
       "metrics": [
         {
           "name": "Wskaźnik RevPASH",
@@ -973,30 +748,12 @@ export const generatedLocalCopy = {
         "Rozpoznawanie wzorców sezonowych",
         "Prognozy dostosowane do rynku",
         "Przedziały ufności"
-      ],
-      "tiers": [
-        {
-          "label": "DARMOWY",
-          "title": "Report Lite",
-          "description": "5 podstawowych metryk. Przesyłanie CSV. Przechowywanie przez 90 dni."
-        },
-        {
-          "label": "POPULARNY",
-          "title": "Report Plus",
-          "description": "15 metryk. Automatyczne przesyłanie. Przechowywanie przez 1 rok."
-        },
-        {
-          "label": "PEŁNA MOC",
-          "title": "Report Pro / Core",
-          "description": "30+ metryk. Integracja API. Przechowywanie przez wiele lat."
-        }
       ]
     },
     "zh-Hans": {
       "badge": "竞争情报",
       "title": "停止猜测。开始了解。",
       "description": "将您的数据与匿名同行数据进行比较，包括 RevPASH 指数、座位占用率、平均消费和收入指数，并提供显示您所处位置的背景信息。",
-      "heroPrimary": "试用免费基准",
       "heroSecondary": "预约演示",
       "howTitle": "Sundae 基准测试的工作原理",
       "howDescription": "上传您的数据。立即与类似餐厅进行比较。",
@@ -1004,11 +761,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "30+ 个指标涵盖性能、效率和市场定位。",
       "forecastTitle": "收入预测",
       "forecastDescription": "利用您的趋势和市场数据进行收入预测，以预测未来表现。",
-      "tiersTitle": "所有层级均可用",
-      "tiersDescription": "免费开始使用Report Lite进行基准测试。随着您的成长，解锁更深层次的智能。",
       "ctaTitle": "查看您的位置",
-      "ctaDescription": "上传您的数据，几分钟内即可获得首个基准。免费，无需信用卡。",
-      "startFree": "开始免费基准测试",
       "metrics": [
         {
           "name": "RevPASH 指数",
@@ -1063,30 +816,12 @@ export const generatedLocalCopy = {
         "季节性模式识别",
         "市场调整预测",
         "置信区间"
-      ],
-      "tiers": [
-        {
-          "label": "免费",
-          "title": "Report Lite",
-          "description": "5个核心指标。CSV上传。90天保留。"
-        },
-        {
-          "label": "热门",
-          "title": "Report Plus",
-          "description": "15个指标。自动解析上传。1年保留。"
-        },
-        {
-          "label": "完全功能",
-          "title": "Report Pro / Core",
-          "description": "30+个指标。API集成。多年保留。"
-        }
       ]
     },
     "ja": {
       "badge": "競争情報",
       "title": "推測をやめて、知識を得よう。",
       "description": "匿名の同業者データと比較し、RevPASHインデックス、席の占有率、平均客単価、収益インデックスを含む数字を確認し、自分の立ち位置を示すコンテキストを提供します。",
-      "heroPrimary": "無料ベンチマークを試す",
       "heroSecondary": "デモを予約する",
       "howTitle": "Sundaeのベンチマークの仕組み",
       "howDescription": "データをアップロードしてください。あなたのようなレストランとの即時比較が得られます。",
@@ -1094,11 +829,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "パフォーマンス、効率、マーケットポジションに関する30以上の指標。",
       "forecastTitle": "収益予測",
       "forecastDescription": "トレンドと市場データを使用して、将来のパフォーマンスを予測する収益予測。",
-      "tiersTitle": "すべてのティアで利用可能",
-      "tiersDescription": "無料でReport Liteのベンチマークを開始しましょう。成長するにつれて、より深いインテリジェンスを解放します。",
       "ctaTitle": "あなたの立ち位置を確認する",
-      "ctaDescription": "データをアップロードして、数分で最初のベンチマークを取得しましょう。無料、クレジットカードは不要です。",
-      "startFree": "無料ベンチマークを始める",
       "metrics": [
         {
           "name": "RevPASHインデックス",
@@ -1153,30 +884,12 @@ export const generatedLocalCopy = {
         "季節的パターン認識",
         "市場調整済み予測",
         "信頼区間"
-      ],
-      "tiers": [
-        {
-          "label": "無料",
-          "title": "Report Lite",
-          "description": "5つの主要指標。CSVアップロード。90日間の保持。"
-        },
-        {
-          "label": "人気",
-          "title": "Report Plus",
-          "description": "15の指標。自動解析アップロード。1年間の保持。"
-        },
-        {
-          "label": "フルパワー",
-          "title": "Report Pro / Core",
-          "description": "30以上の指標。API統合。複数年の保持。"
-        }
       ]
     },
     "id": {
       "badge": "Intelijen Kompetitif",
       "title": "Hentikan Menebak. Mulailah Mengetahui.",
       "description": "Bandingkan angka Anda dengan data rekan yang dianonimkan, termasuk Indeks RevPASH, tingkat hunian tempat duduk, rata-rata cek, dan indeks pendapatan, dengan konteks yang menunjukkan posisi Anda.",
-      "heroPrimary": "Coba Benchmark Gratis",
       "heroSecondary": "Pesan Demo",
       "howTitle": "Cara Kerja Benchmark Sundae",
       "howDescription": "Unggah data Anda. Dapatkan perbandingan instan dengan restoran serupa.",
@@ -1184,11 +897,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "30+ metrik di seluruh kinerja, efisiensi, dan posisi pasar.",
       "forecastTitle": "Perkiraan Pendapatan",
       "forecastDescription": "Peramalan pendapatan menggunakan tren dan data pasar Anda untuk memproyeksikan kinerja di masa depan.",
-      "tiersTitle": "Tersedia di Semua Tingkatan",
-      "tiersDescription": "Mulai benchmarking secara gratis dengan Report Lite. Dapatkan wawasan yang lebih dalam seiring pertumbuhan Anda.",
       "ctaTitle": "Lihat Posisi Anda",
-      "ctaDescription": "Unggah data Anda dan dapatkan tolok ukur pertama Anda dalam beberapa menit. Gratis, tanpa memerlukan kartu kredit.",
-      "startFree": "Mulai Benchmark Gratis",
       "metrics": [
         {
           "name": "Indeks RevPASH",
@@ -1243,30 +952,12 @@ export const generatedLocalCopy = {
         "Pengenalan pola musiman",
         "Proyeksi yang disesuaikan dengan pasar",
         "Interval kepercayaan"
-      ],
-      "tiers": [
-        {
-          "label": "GRATIS",
-          "title": "Report Lite",
-          "description": "5 metrik inti. Unggah CSV. Retensi 90 hari."
-        },
-        {
-          "label": "POPULER",
-          "title": "Report Plus",
-          "description": "15 metrik. Unggah otomatis. Retensi 1 tahun."
-        },
-        {
-          "label": "DAYA PENUH",
-          "title": "Report Pro / Core",
-          "description": "30+ metrik. Integrasi API. Retensi multi-tahun."
-        }
       ]
     },
     "vi": {
       "badge": "Thông tin cạnh tranh",
       "title": "Ngừng Đoán. Bắt Đầu Biết.",
       "description": "So sánh số liệu của bạn với dữ liệu đồng nghiệp ẩn danh, bao gồm Chỉ số RevPASH, tỷ lệ chỗ ngồi, hóa đơn trung bình và các chỉ số doanh thu, với ngữ cảnh cho thấy bạn đang ở đâu.",
-      "heroPrimary": "Thử nghiệm miễn phí các chỉ số",
       "heroSecondary": "Đặt lịch Demo",
       "howTitle": "Cách hoạt động của Sundae Benchmarks",
       "howDescription": "Tải lên dữ liệu của bạn. Nhận so sánh ngay lập tức với các nhà hàng giống như của bạn.",
@@ -1274,11 +965,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Hơn 30 chỉ số về hiệu suất, hiệu quả và vị thế thị trường.",
       "forecastTitle": "Dự đoán Doanh thu",
       "forecastDescription": "Dự đoán doanh thu bằng cách sử dụng xu hướng và dữ liệu thị trường của bạn để dự báo hiệu suất trong tương lai.",
-      "tiersTitle": "Có sẵn trên tất cả các cấp độ",
-      "tiersDescription": "Bắt đầu đánh giá miễn phí với Report Lite. Mở khóa thông tin sâu hơn khi bạn phát triển.",
       "ctaTitle": "Xem Vị Trí Của Bạn",
-      "ctaDescription": "Tải lên dữ liệu của bạn và nhận chỉ số chuẩn đầu tiên trong vài phút. Miễn phí, không cần thẻ tín dụng.",
-      "startFree": "Bắt đầu Đánh giá Miễn phí",
       "metrics": [
         {
           "name": "Chỉ số RevPASH",
@@ -1333,30 +1020,12 @@ export const generatedLocalCopy = {
         "Nhận diện mẫu theo mùa",
         "Dự báo điều chỉnh theo thị trường",
         "Khoảng tin cậy"
-      ],
-      "tiers": [
-        {
-          "label": "MIỄN PHÍ",
-          "title": "Report Lite",
-          "description": "5 chỉ số chính. Tải lên CSV. Lưu trữ 90 ngày."
-        },
-        {
-          "label": "PHỔ BIẾN",
-          "title": "Report Plus",
-          "description": "15 chỉ số. Tải lên tự động phân tích. Lưu trữ 1 năm."
-        },
-        {
-          "label": "CÔNG SUẤT ĐẦY ĐỦ",
-          "title": "Report Pro / Core",
-          "description": "30+ chỉ số. Tích hợp API. Lưu trữ nhiều năm."
-        }
       ]
     },
     "ro": {
       "badge": "Inteligență Competitivă",
       "title": "Nu mai ghici. Începe să știi.",
       "description": "Compară cifrele tale cu datele anonimizate ale colegilor, inclusiv Indexul RevPASH, ocuparea locurilor, cecul mediu și indicii de venit, cu context care arată unde te situezi.",
-      "heroPrimary": "Încearcă Benchmark-uri Gratuite",
       "heroSecondary": "Rezervați o demonstrație",
       "howTitle": "Cum Funcționează Benchmark-urile Sundae",
       "howDescription": "Încărcați datele dvs. Obțineți comparații instantanee cu restaurante asemănătoare cu al dvs.",
@@ -1364,11 +1033,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "30+ metrici în ceea ce privește performanța, eficiența și poziția pe piață.",
       "forecastTitle": "Prognoza Veniturilor",
       "forecastDescription": "Prognoza veniturilor folosind tendințele și datele de piață pentru a proiecta performanța viitoare.",
-      "tiersTitle": "Disponibil în toate nivelurile",
-      "tiersDescription": "Începeți benchmarking-ul gratuit cu Report Lite. Deblocați inteligență mai profundă pe măsură ce creșteți.",
       "ctaTitle": "Vezi unde te afli",
-      "ctaDescription": "Încărcați datele dvs. și obțineți primul benchmark în câteva minute. Gratuit, fără card de credit necesar.",
-      "startFree": "Începe Benchmark Gratuit",
       "metrics": [
         {
           "name": "Index RevPASH",
@@ -1423,30 +1088,12 @@ export const generatedLocalCopy = {
         "Recunoașterea modelelor sezoniere",
         "Proiecții ajustate la piață",
         "Intervale de încredere"
-      ],
-      "tiers": [
-        {
-          "label": "GRATUIT",
-          "title": "Report Lite",
-          "description": "5 metrici de bază. Încărcare CSV. Păstrare de 90 de zile."
-        },
-        {
-          "label": "POPULARE",
-          "title": "Report Plus",
-          "description": "15 metrici. Încărcări auto-analizate. Păstrare de 1 an."
-        },
-        {
-          "label": "PUTERE COMPLETĂ",
-          "title": "Report Pro / Core",
-          "description": "30+ metrici. Integrare API. Păstrare pe mai mulți ani."
-        }
       ]
     },
     "ko": {
       "badge": "경쟁 정보",
       "title": "추측을 멈추고, 알기 시작하세요.",
       "description": "익명화된 동종업계 데이터와 함께 RevPASH 지수, 좌석 점유율, 평균 객단가, 수익 지수 등을 비교하여 현재 위치를 보여주는 맥락을 제공합니다.",
-      "heroPrimary": "무료 벤치마크 체험하기",
       "heroSecondary": "데모 예약하기",
       "howTitle": "Sundae 벤치마크 작동 방식",
       "howDescription": "데이터를 업로드하세요. 귀하와 유사한 레스토랑과 즉시 비교할 수 있습니다.",
@@ -1454,11 +1101,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "성능, 효율성 및 시장 위치에 대한 30개 이상의 지표.",
       "forecastTitle": "수익 예측",
       "forecastDescription": "트렌드와 시장 데이터를 활용한 수익 예측으로 미래 성과를 예측합니다.",
-      "tiersTitle": "모든 티어에서 사용 가능",
-      "tiersDescription": "무료로 Report Lite로 벤치마킹을 시작하세요. 성장함에 따라 더 깊은 인사이트를 잠금 해제하세요.",
       "ctaTitle": "당신의 위치를 확인하세요",
-      "ctaDescription": "데이터를 업로드하고 몇 분 안에 첫 번째 벤치마크를 받아보세요. 무료이며, 신용카드가 필요하지 않습니다.",
-      "startFree": "무료 벤치마크 시작",
       "metrics": [
         {
           "name": "RevPASH 지수",
@@ -1513,30 +1156,12 @@ export const generatedLocalCopy = {
         "계절적 패턴 인식",
         "시장 조정 예측",
         "신뢰 구간"
-      ],
-      "tiers": [
-        {
-          "label": "무료",
-          "title": "Report Lite",
-          "description": "5개의 핵심 지표. CSV 업로드. 90일 보존."
-        },
-        {
-          "label": "인기",
-          "title": "Report Plus",
-          "description": "15개의 지표. 자동 파싱 업로드. 1년 보존."
-        },
-        {
-          "label": "전체 기능",
-          "title": "Report Pro / Core",
-          "description": "30개 이상의 지표. API 통합. 다년 보존."
-        }
       ]
     },
     "sv": {
       "badge": "Konkurrensanalys",
       "title": "Sluta gissa. Börja veta.",
       "description": "Jämför dina siffror med anonymiserade data från kollegor, inklusive RevPASH-index, sittplatsutnyttjande, genomsnittlig nota och intäktsindex, med kontext som visar var du står.",
-      "heroPrimary": "Prova gratis benchmark",
       "heroSecondary": "Boka en demo",
       "howTitle": "Hur Sundae Benchmarking fungerar",
       "howDescription": "Ladda upp dina data. Få omedelbara jämförelser med restauranger som din.",
@@ -1544,11 +1169,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "Över 30 mätvärden inom prestanda, effektivitet och marknadsposition.",
       "forecastTitle": "Intäktsprognos",
       "forecastDescription": "Intäktsprognoser med hjälp av dina trender och marknadsdata för att förutsäga framtida prestation.",
-      "tiersTitle": "Tillgänglig i alla nivåer",
-      "tiersDescription": "Börja benchmarka gratis med Report Lite. Lås upp djupare insikter när du växer.",
       "ctaTitle": "Se var du står",
-      "ctaDescription": "Ladda upp dina data och få din första benchmark på några minuter. Gratis, inget kreditkort krävs.",
-      "startFree": "Börja med gratis benchmark",
       "metrics": [
         {
           "name": "RevPASH Index",
@@ -1603,30 +1224,12 @@ export const generatedLocalCopy = {
         "Säsongsbetonad mönsterigenkänning",
         "Marknadsjusterade prognoser",
         "Konfidensintervall"
-      ],
-      "tiers": [
-        {
-          "label": "GRATIS",
-          "title": "Report Lite",
-          "description": "5 kärnmått. CSV-uppladdning. 90 dagars lagring."
-        },
-        {
-          "label": "POPULÄR",
-          "title": "Report Plus",
-          "description": "15 mått. Automatisk uppladdning. 1 års lagring."
-        },
-        {
-          "label": "FULL KRAFT",
-          "title": "Report Pro / Core",
-          "description": "30+ mått. API-integration. Flera års lagring."
-        }
       ]
     },
     "bn": {
       "badge": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
       "title": "অনুমান করা বন্ধ করুন। জানা শুরু করুন।",
       "description": "আপনার সংখ্যা অজ্ঞাত সহকর্মীদের তথ্যের বিরুদ্ধে তুলনা করুন, যার মধ্যে রয়েছে RevPASH সূচক, আসন দখল, গড় চেক এবং রাজস্ব সূচক, সেই প্রসঙ্গে যা দেখায় আপনি কোথায় অবস্থান করছেন।",
-      "heroPrimary": "ফ্রি বেঞ্চমার্ক চেষ্টা করুন",
       "heroSecondary": "ডেমো বুক করুন",
       "howTitle": "Sundae বেঞ্চমার্ক কীভাবে কাজ করে",
       "howDescription": "আপনার ডেটা আপলোড করুন। আপনার মতো রেস্টুরেন্টগুলোর বিরুদ্ধে তাত্ক্ষণিক তুলনা পান।",
@@ -1634,11 +1237,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "পারফরম্যান্স, দক্ষতা এবং বাজার অবস্থানের মধ্যে 30+ মেট্রিক।",
       "forecastTitle": "আয় পূর্বাভাস",
       "forecastDescription": "আপনার প্রবণতা এবং বাজারের তথ্য ব্যবহার করে রাজস্ব পূর্বাভাস দেওয়া যাতে ভবিষ্যতের কর্মক্ষমতা অনুমান করা যায়।",
-      "tiersTitle": "সব স্তরে উপলব্ধ",
-      "tiersDescription": "Report Lite দিয়ে বিনামূল্যে বেঞ্চমার্কিং শুরু করুন। আপনি বড় হওয়ার সাথে সাথে আরও গভীর ইন্টেলিজেন্স আনলক করুন।",
       "ctaTitle": "আপনি কোথায় আছেন দেখুন",
-      "ctaDescription": "আপনার ডেটা আপলোড করুন এবং মিনিটের মধ্যে আপনার প্রথম বেঞ্চমার্ক পান। ফ্রি, ক্রেডিট কার্ডের প্রয়োজন নেই।",
-      "startFree": "ফ্রি বেঞ্চমার্ক শুরু করুন",
       "metrics": [
         {
           "name": "RevPASH সূচক",
@@ -1693,30 +1292,12 @@ export const generatedLocalCopy = {
         "মৌসুমি প্যাটার্ন সনাক্তকরণ",
         "বাজার-সমন্বিত পূর্বাভাস",
         "বিশ্বাসের অন্তর"
-      ],
-      "tiers": [
-        {
-          "label": "মুক্ত",
-          "title": "Report Lite",
-          "description": "৫টি মূল মেট্রিক। CSV আপলোড। ৯০ দিনের রিটেনশন।"
-        },
-        {
-          "label": "জনপ্রিয়",
-          "title": "Report Plus",
-          "description": "১৫টি মেট্রিক। স্বয়ংক্রিয়ভাবে বিশ্লেষিত আপলোড। ১ বছরের রিটেনশন।"
-        },
-        {
-          "label": "পূর্ণ শক্তি",
-          "title": "Report Pro / Core",
-          "description": "৩০+ মেট্রিক। API ইন্টিগ্রেশন। বহু বছরের রিটেনশন।"
-        }
       ]
     },
     "ms": {
       "badge": "Kecerdasan Kompetitif",
       "title": "Hentikan Meneka. Mulakan Mengetahui.",
       "description": "Bandingkan angka anda dengan data rakan sebaya yang dianonimkan, termasuk Indeks RevPASH, kadar penghunian tempat duduk, semakan purata, dan indeks pendapatan, dengan konteks yang menunjukkan di mana kedudukan anda.",
-      "heroPrimary": "Cuba Penanda Aras Percuma",
       "heroSecondary": "Tempah Demo",
       "howTitle": "Bagaimana Sundae Menilai Prestasi",
       "howDescription": "Muat naik data anda. Dapatkan perbandingan segera dengan restoran seperti anda.",
@@ -1724,11 +1305,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "30+ metrik merangkumi prestasi, kecekapan, dan kedudukan pasaran.",
       "forecastTitle": "Ramalan Pendapatan",
       "forecastDescription": "Ramalan pendapatan menggunakan tren dan data pasaran anda untuk meramalkan prestasi masa depan.",
-      "tiersTitle": "Tersedia Di Semua Tahap",
-      "tiersDescription": "Mulakan penanda aras secara percuma dengan Report Lite. Buka kecerdasan yang lebih mendalam seiring pertumbuhan anda.",
       "ctaTitle": "Lihat Di Mana Anda Berdiri",
-      "ctaDescription": "Muat naik data anda dan dapatkan penanda aras pertama anda dalam beberapa minit. Percuma, tiada kad kredit diperlukan.",
-      "startFree": "Mulakan Penanda Aras Percuma",
       "metrics": [
         {
           "name": "Indeks RevPASH",
@@ -1783,30 +1360,12 @@ export const generatedLocalCopy = {
         "Pengenalan corak bermusim",
         "Ramalan yang disesuaikan dengan pasaran",
         "Selang keyakinan"
-      ],
-      "tiers": [
-        {
-          "label": "PERCUMA",
-          "title": "Report Lite",
-          "description": "5 metrik utama. Muat naik CSV. Penahanan 90 hari."
-        },
-        {
-          "label": "POPULAR",
-          "title": "Report Plus",
-          "description": "15 metrik. Muat naik yang dihurai secara automatik. Penahanan 1 tahun."
-        },
-        {
-          "label": "KUASA PENUH",
-          "title": "Report Pro / Core",
-          "description": "30+ metrik. Integrasi API. Penahanan pelbagai tahun."
-        }
       ]
     },
     "th": {
       "badge": "ข้อมูลเชิงแข่งขัน",
       "title": "หยุดเดา เริ่มรู้",
       "description": "เปรียบเทียบตัวเลขของคุณกับข้อมูลเพื่อนที่ไม่ระบุชื่อ รวมถึงดัชนี RevPASH, อัตราการเข้าที่นั่ง, ค่าเฉลี่ยการใช้จ่าย, และดัชนีรายได้ พร้อมบริบทที่แสดงให้เห็นว่าคุณอยู่ในจุดไหน.",
-      "heroPrimary": "ลองใช้ Benchmarks ฟรี",
       "heroSecondary": "จองการสาธิต",
       "howTitle": "การทำงานของการเปรียบเทียบ Sundae",
       "howDescription": "อัปโหลดข้อมูลของคุณ รับการเปรียบเทียบทันทีเทียบกับร้านอาหารที่เหมือนกับคุณ.",
@@ -1814,11 +1373,7 @@ export const generatedLocalCopy = {
       "metricsDescription": "เมตริกกว่า 30 รายการในด้านประสิทธิภาพ, ประสิทธิผล, และตำแหน่งในตลาด.",
       "forecastTitle": "การคาดการณ์รายได้",
       "forecastDescription": "การคาดการณ์รายได้โดยใช้แนวโน้มและข้อมูลตลาดของคุณเพื่อคาดการณ์ผลการดำเนินงานในอนาคต.",
-      "tiersTitle": "มีให้บริการในทุกระดับ",
-      "tiersDescription": "เริ่มการเปรียบเทียบฟรีด้วย Report Lite ปลดล็อกข้อมูลเชิงลึกเมื่อคุณเติบโตขึ้น",
       "ctaTitle": "ดูว่าคุณอยู่ที่ไหน",
-      "ctaDescription": "อัปโหลดข้อมูลของคุณและรับการเปรียบเทียบครั้งแรกในไม่กี่นาที ฟรี ไม่มีบัตรเครดิตที่จำเป็น.",
-      "startFree": "เริ่มการเปรียบเทียบฟรี",
       "metrics": [
         {
           "name": "ดัชนี RevPASH",
@@ -1873,23 +1428,6 @@ export const generatedLocalCopy = {
         "การรับรู้รูปแบบตามฤดูกาล",
         "การคาดการณ์ที่ปรับตามตลาด",
         "ช่วงความเชื่อมั่น"
-      ],
-      "tiers": [
-        {
-          "label": "ฟรี",
-          "title": "Report Lite",
-          "description": "5 เมตริกหลัก อัปโหลด CSV การเก็บข้อมูล 90 วัน"
-        },
-        {
-          "label": "ยอดนิยม",
-          "title": "Report Plus",
-          "description": "15 เมตริก อัปโหลดแบบอัตโนมัติ การเก็บข้อมูล 1 ปี"
-        },
-        {
-          "label": "พลังเต็มที่",
-          "title": "Report Pro / Core",
-          "description": "30+ เมตริก การเชื่อมต่อ API การเก็บข้อมูลหลายปี"
-        }
       ]
     }
   }

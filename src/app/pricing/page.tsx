@@ -1,153 +1,75 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Accordion } from '@/components/ui/Accordion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { formatWebsiteCurrency, formatWebsiteNumber, type WebsiteLocale } from '@/lib/i18n';
-import { PRICING_URL, SIGNUP_URL } from '@/lib/urls';
+import { PRICING_URL } from '@/lib/urls';
 import { PageHero, FadeUp, StaggerContainer, StaggerItem, PageCTA } from '@/components/ui/PageAnimations';
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { pricingCreamCopy } from './pricingCreamCopy';
+import {
+  BILLING_CYCLE_DISCOUNTS,
+  CONCEPT_SKUS,
+  CORE_DOMAIN_MODULES,
+  CORE_PACKAGES,
+  CREW_BUNDLES,
+  CREW_SKUS,
+  FORESIGHT_AND_ACTION,
+  IMPLEMENTATION_CLASSES,
+  VOLUME_LADDER,
+  type BandedSku,
+  type BillingCycle,
+  type CorePackageId,
+} from '@/lib/pricing/priceBook';
 
-type Tier = {
-  id: string;
-  name: string;
-  badge?: string;
-  badgeClass?: string;
-  basePrice: string;
-  perLocation: string;
-  basePriceValue?: number;
-  perLocationValue?: number;
-  currency?: string;
-  aiCredits: string;
-  description: string;
-  features: string[];
-  cta: string;
-  ctaLink: string;
-  highlight?: boolean;
+/**
+ * Public rate card - Sundae price book v1.7.
+ *
+ * Every number on this page is read from `@/lib/pricing/priceBook`. Nothing is
+ * hand-typed here, and nothing is fetched from the live catalog API: the Core
+ * packages are MARGINAL-BAND SKUs (first-location anchor + a stepped marginal
+ * rate per additional location) and the catalog endpoint speaks the retired
+ * flat `basePrice + perLocationPrice` shape, which would silently reintroduce
+ * a per-location rate this price book does not have.
+ */
+
+const PACKAGE_INCLUDES: Record<CorePackageId, string[]> = {
+  core_foundation: [
+    'One decision substrate over POS, labor, cost and operations',
+    'All eleven Core domain modules, included',
+    'Pulse real-time shift monitoring',
+    'Sundae Intelligence - ask your data in plain language',
+    'Anonymous peer benchmarking',
+  ],
+  core_margin: [
+    'Everything in Core Foundation',
+    'Cost and leakage depth: theoretical vs. actual, waste, shrinkage',
+    'Void, comp and discount pattern detection',
+    'Item and outlet-level contribution analysis',
+    'Faster refresh for same-shift intervention',
+  ],
+  core_growth: [
+    'Everything in Core Margin',
+    'Guest cohort retention and lifetime value',
+    'Promo and campaign attribution by channel',
+    'Delivery channel margin after commission',
+    'Reservation pacing and no-show risk',
+  ],
+  core_performance: [
+    'Everything in Core Growth',
+    'Multi-brand and multi-region consolidation',
+    'Cross-module correlation and attribution',
+    'Governance: role-based access with audit trails',
+    'Priority support with contractual response times',
+  ],
 };
 
-type LiveCatalog = {
-  currency?: string;
-  tiers?: Array<{
-    id: string;
-    basePrice?: number;
-    perLocationPrice?: number;
-    aiCreditsBase?: number;
-    currency?: string;
-  }>;
-};
-
-const reportTiers: Tier[] = [
-  {
-    id: 'report_lite',
-    name: "Report Lite",
-    badge: "FREE FOREVER",
-    badgeClass: "bg-green-500/20 text-green-400",
-    basePrice: "$0",
-    perLocation: "$0",
-    aiCredits: "250",
-    description: "Upload your POS data and get instant benchmarking. No credit card required.",
-    features: [
-      "Manual CSV upload",
-      "5 core performance metrics",
-      "Anonymous peer benchmarking",
-      "90-day historical access",
-      "Email support (72-hour response)"
-    ],
-    cta: "Start Free",
-    ctaLink: "/report"
-  },
-  {
-    id: 'report_plus',
-    name: "Report Plus",
-    badge: "POPULAR",
-    badgeClass: "bg-orange-500/20 text-orange-400",
-    basePrice: "$79",
-    perLocation: "$39",
-    aiCredits: "1,200",
-    description: "Smart-parsed data ingestion with deeper analysis and monthly intelligence summaries.",
-    features: [
-      "Smart-parsed uploads (PDF, Excel, screenshots)",
-      "Around 30 ready-to-use visuals",
-      "Monthly intelligence summaries",
-      "Comparable period views (WoW/MoM/YoY)",
-      "1-year historical access",
-      "Email + Chat support (24-hour response)"
-    ],
-    cta: "Get Started",
-    ctaLink: "/demo",
-    highlight: true
-  },
-  {
-    id: 'report_pro',
-    name: "Report Pro",
-    basePrice: "$159",
-    perLocation: "$59",
-    aiCredits: "3,500",
-    description: "Automated daily ingestion with advanced intelligence and team collaboration.",
-    features: [
-      "Daily automated data sync",
-      "Around 80 ready-to-use visuals",
-      "Weekly intelligence summaries",
-      "Shareable charts + team collaboration",
-      "2-year historical access",
-      "Priority support (12-hour response)"
-    ],
-    cta: "Get Started",
-    ctaLink: "/demo"
-  }
-];
-
-const coreTiers: Tier[] = [
-  {
-    id: 'core_lite',
-    name: "Core Lite",
-    basePrice: "$279",
-    perLocation: "$79",
-    aiCredits: "8,000",
-    description: "Real-time operational intelligence with 15-minute data refresh cycles.",
-    features: [
-      "Everything in Report Pro",
-      "15-minute data refresh",
-      "POS API integration",
-      "Pulse intraday monitoring",
-      "Smart alerts & anomaly detection",
-      "Sundae Intelligence (Chat + Monitor)",
-      "Watchtower external intelligence",
-      "Chat support (4-hour response)"
-    ],
-    cta: "Get Started",
-    ctaLink: "/demo"
-  },
-  {
-    id: 'core_pro',
-    name: "Core Pro",
-    badge: "MOST POPULAR",
-    badgeClass: "bg-[#FF5C4D]/20 text-[#FF8473]",
-    basePrice: "$449",
-    perLocation: "$89",
-    aiCredits: "14,000",
-    description: "Full intelligence stack with 5-minute refresh, multi-POS support, and advanced modules.",
-    features: [
-      "Everything in Core Lite",
-      "5-minute data refresh",
-      "Multi-POS support across locations",
-      "Intelligent playbooks & automated workflows",
-      "Sundae Intelligence (all modes)",
-      "Benchmarks & market intelligence",
-      "Watchtower external intelligence",
-      "Priority phone support (2-hour response)"
-    ],
-    cta: "Get Started",
-    ctaLink: "/demo",
-    highlight: true
-  }
-];
+type PricingFaq = { title: string; content: string };
 
 type PricingAddon = {
   name: string;
@@ -157,689 +79,643 @@ type PricingAddon = {
   color: string;
 };
 
-type PricingFaq = {
-  title: string;
-  content: string;
+type PricingPageCopy = {
+  cyclesLabel: string;
+  cycleMonthly: string;
+  cycleAnnual: string;
+  cycleTwoYear: string;
+  coreEyebrow: string;
+  coreTitle: string;
+  coreDescription: string;
+  firstLocationLabel: string;
+  thenLabel: string;
+  bandHeaderLocations: string;
+  bandHeaderRate: string;
+  perAdditionalLocation: string;
+  creditsLabel: string;
+  includesLabel: string;
+  bandsTitle: string;
+  bandsBody: string;
+  bandsExample: string;
+  modulesTitle: string;
+  modulesBody: string;
+  foresightTitle: string;
+  foresightDescription: string;
+  crewTitle: string;
+  crewDescription: string;
+  crewBundlesLabel: string;
+  conceptsTitle: string;
+  conceptsDescription: string;
+  implementationTitle: string;
+  implementationDescription: string;
+  implementationNote: string;
+  volumeTitle: string;
+  volumeDescription: string;
+  volumeEnterprise: string;
+  volumeCapNote: string;
+  discountNone: string;
+  perMonthLabel: string;
+  oneOffLabel: string;
+  fromLabel: string;
+  secondaryCta: string;
+  addOns: PricingAddon[];
+  faqs: PricingFaq[];
 };
 
-const enterpriseFeatures = [
-  "Everything in Core Pro",
-  "Custom data refresh (real-time available)",
-  "Multi-brand rollups & cross-region benchmarking",
-  "SSO/SAML integration",
-  "White-label & partner solutions",
-  "Role-based access with audit trails",
-  "Dedicated Customer Success Manager",
-  "24/7 support with contractual SLAs",
-  "Custom historical access (5+ years)",
-  "Unlimited intelligence credits & custom dashboards",
-];
-
-const pricingAddOns: PricingAddon[] = [
-  {
-    name: "Watchtower",
-    description: "External intelligence for competitor tracking, weather impact, event calendars, and AI briefings.",
-    note: "Requires Core tier",
-    icon: "watchtower",
-    color: "from-red-500 to-red-600",
-  },
-  {
-    name: "Specialized Modules",
-    description:
-      "12 specialized modules including Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, Cross-Intelligence, Foresight Intelligence, and Executive Summary.",
-    note: "Requires Core tier. Priced per module.",
-    icon: "data",
-    color: "from-[#F2B45C] to-[#C2410C]",
-  },
-  {
-    name: "Cross-Intelligence",
-    description:
-      "A correlation layer that starts working once you activate three or more modules. Base covers core correlations; Pro adds attribution and cannibalization detection.",
-    note: "Requires Core tier with 3+ modules. Pro: $199/mo + $19/loc",
-    icon: "crossIntelligence",
-    color: "from-[#E9A24A] to-[#F2C078]",
-  },
-  {
-    name: "Credit Top-Ups",
-    description: "Need more intelligence queries? Purchase additional credits as add-ons to any plan.",
-    note: "Available on all tiers",
-    icon: "intelligence",
-    color: "from-[#FF5C4D] to-[#E9A24A]",
-  },
-];
-
-const pricingFaqs: PricingFaq[] = [
-  {
-    title: "What happens after the free period?",
-    content:
-      "Report Lite stays free. There is no trial clock and no forced upgrade. If you need more depth later, you can move to any paid tier and cancel when you want.",
-  },
-  {
-    title: "How do you count a location?",
-    content:
-      "A location is one physical restaurant address. Multiple brands under the same roof still count as one location.",
-  },
-  {
-    title: "What's the difference between Report and Core?",
-    content:
-      "Report is built for uploaded historical POS analysis. Core connects directly to your systems and keeps the operating picture current with Pulse monitoring, alerts, playbooks, and forward-looking intelligence.",
-  },
-  {
-    title: "Do you support multi-brand and multi-location groups?",
-    content:
-      "Yes. Core Pro handles multi-POS environments, and Enterprise adds cross-brand rollups, regional benchmarking, RBAC, and governance features.",
-  },
-  {
-    title: "Is there a discount for annual billing?",
-    content:
-      "Yes. Annual billing saves 10% on all paid tiers. Use the billing toggle above to see the annual price.",
-  },
-  {
-    title: "Is my data private and secure?",
-    content:
-      "Your data stays yours. We secure data in transit and at rest using industry-standard protections, enforce strict access controls, and use anonymized, aggregated benchmarking where applicable. Enterprise includes SOC 2 Type II compliance.",
-  },
-  {
-    title: "Can I change plans later?",
-    content:
-      "Yes. Many teams start with Report and move up as the operation grows. When you switch plans, your historical data stays with you.",
-  },
-];
-
-const localizedPricingPageContent: Partial<
-  Record<
-    Exclude<WebsiteLocale, 'en'>,
+const enCopy: PricingPageCopy = {
+  cyclesLabel: 'Billing cycle',
+  cycleMonthly: 'Monthly',
+  cycleAnnual: 'Annual',
+  cycleTwoYear: '2-year',
+  coreEyebrow: 'Sundae Core',
+  coreTitle: 'Four Core packages',
+  coreDescription:
+    'Pick the package whose depth matches the decisions you are trying to make. Every package carries the same eleven domain modules; they differ in how deep each one goes.',
+  firstLocationLabel: 'first location / month',
+  thenLabel: 'Then, per additional location',
+  bandHeaderLocations: 'Locations',
+  bandHeaderRate: 'Per additional location / month',
+  perAdditionalLocation: 'per additional location / month',
+  creditsLabel: 'AI credits / month',
+  includesLabel: 'What it includes',
+  bandsTitle: 'How location pricing works',
+  bandsBody:
+    'Your first location carries the package anchor. Every location after it is charged at the marginal rate for the band it falls in, and the rate steps down as you grow. Crossing into a cheaper band does not reprice the locations below it, so your bill only ever moves in one direction per location added.',
+  bandsExample:
+    'Five locations on Core Foundation: $1,195 for the first, plus four at $175 = $1,895 per month. That works out to a $379 blended average per location - an average of the total, not a rate you can multiply.',
+  modulesTitle: 'The eleven domain modules come with the package',
+  modulesBody:
+    'They are not sold separately and they do not carry a per-module price. Choosing a Core package is how you get all of them.',
+  foresightTitle: 'Foresight & Action',
+  foresightDescription:
+    'Forward-looking forecasts, scenario modelling, and the approve-in-the-loop action layer that acts on what they surface. Priced on the same location bands as Core.',
+  crewTitle: 'Sundae Crew',
+  crewDescription:
+    'The workforce substrate: people, schedules, time and attendance, payroll readiness. Flat monthly, whatever your location count.',
+  crewBundlesLabel: 'Bundles',
+  conceptsTitle: 'Concepts',
+  conceptsDescription:
+    'Switch on the operating models your group actually runs. Each concept adds its own grain to every Core module.',
+  implementationTitle: 'Implementation',
+  implementationDescription:
+    'A one-off onboarding fee, charged once. If your selection spans several classes you pay the highest one, never the sum.',
+  implementationNote: 'Charged once. Highest class in your selection.',
+  volumeTitle: 'Volume',
+  volumeDescription: 'Location count discounts the whole monthly subscription.',
+  volumeEnterprise: 'Enterprise agreement',
+  volumeCapNote:
+    'Volume and billing-cycle discounts stack, up to a combined ceiling of 15%.',
+  discountNone: 'No volume discount',
+  perMonthLabel: '/month',
+  oneOffLabel: 'one-off',
+  fromLabel: 'from',
+  secondaryCta: 'Size it against your operation',
+  addOns: [
     {
-      reportTiers: Tier[];
-      coreTiers: Tier[];
-      enterpriseFeatures: string[];
-      addOns: PricingAddon[];
-      faqs: PricingFaq[];
-      perMonthLabel: string;
-      perLocationLabel: string;
-      creditsLabel: string;
-    }
-  >
-> = {
+      name: 'Watchtower',
+      description:
+        'External intelligence for competitor tracking, weather impact, event calendars, and market briefings.',
+      note: 'Scoped and quoted with your Core package',
+      icon: 'watchtower',
+      color: 'from-red-500 to-red-600',
+    },
+    {
+      name: 'Credit top-ups',
+      description:
+        'Every Core package carries a monthly AI credit wallet. If you run through it, buy more.',
+      note: 'Available on every package',
+      icon: 'intelligence',
+      color: 'from-[#FF5C4D] to-[#E9A24A]',
+    },
+  ],
+  faqs: [
+    {
+      title: 'How do you count a location?',
+      content:
+        'A location is one physical restaurant address. Multiple brands under the same roof still count as one location.',
+    },
+    {
+      title: 'Does hitting a cheaper band lower the price of my existing locations?',
+      content:
+        'No, and that is deliberate. The bands are marginal. Location 30 is charged at the 26-50 rate; locations 1 through 25 stay on the rates they were added at. It means growth never triggers a surprise re-rating, in either direction.',
+    },
+    {
+      title: 'How many locations does the base price include?',
+      content:
+        'None beyond the first. The anchor price is the first location. There is no included-locations allowance and no flat per-location rate - each additional location is charged at the marginal rate for its band.',
+    },
+    {
+      title: 'Can I buy a single domain module?',
+      content:
+        'No. The eleven domain modules are components of a Core package, not separate products. Choosing a package is how you get all of them.',
+    },
+    {
+      title: 'What happens past 100 locations?',
+      content:
+        'The published bands run to 100. Above that we scope an Enterprise agreement with you rather than publish a rate. Groups of 250 or more are always Enterprise.',
+    },
+    {
+      title: 'How do the discounts combine?',
+      content:
+        'Annual billing takes 10% off and a 2-year commitment takes 15%. Volume discounts stack on top, but the combined discount is capped at 15%.',
+    },
+    {
+      title: 'Do I need a long-term contract?',
+      content:
+        'No. Monthly billing is available on every package. Annual and 2-year commitments exist because they cost less, not because they are required.',
+    },
+    {
+      title: 'Is my data private and secure?',
+      content:
+        'Your data stays yours. We secure data in transit and at rest, enforce strict access controls, and use anonymized, aggregated benchmarking where applicable.',
+    },
+  ],
+};
+
+/**
+ * Non-English label sets. Locales without an entry fall back to English rather
+ * than render a stale translation of a retired rate card.
+ */
+const pricingPageCopy: Partial<Record<Exclude<WebsiteLocale, 'en'>, PricingPageCopy>> = {
   ar: {
-    reportTiers: [
-      {
-        ...reportTiers[0],
-        badge: "مجاني دائمًا",
-        description: "حمّل بيانات نقطة البيع واحصل على مقارنة مرجعية فورية. لا حاجة إلى بطاقة ائتمان.",
-        features: [
-          "رفع CSV يدوي",
-          "5 مقاييس أداء أساسية",
-          "مقارنة مرجعية مجهولة مع الأقران",
-          "وصول تاريخي لمدة 90 يومًا",
-          "دعم عبر البريد الإلكتروني خلال 72 ساعة",
-        ],
-        cta: "ابدأ مجانًا",
-      },
-      {
-        ...reportTiers[1],
-        badge: "الأكثر شيوعًا",
-        description: "استيعاب ذكي للبيانات مع تحليل أعمق وملخصات شهرية للذكاء.",
-        features: [
-          "رفع ذكي للملفات (PDF وExcel ولقطات الشاشة)",
-          "نحو 30 مرئية شاملة",
-          "ملخصات ذكاء شهرية",
-          "مقارنات أسبوعية/شهرية/سنوية",
-          "وصول تاريخي لمدة سنة",
-          "دعم البريد والدردشة خلال 24 ساعة",
-        ],
-        cta: "ابدأ الآن",
-      },
-      {
-        ...reportTiers[2],
-        description: "استيعاب يومي مؤتمت مع ذكاء متقدم وتعاون للفريق.",
-        features: [
-          "مزامنة بيانات يومية مؤتمتة",
-          "نحو 80 مرئية شاملة",
-          "ملخصات ذكاء أسبوعية",
-          "مشاركة الرسوم البيانية وتعاون الفريق",
-          "وصول تاريخي لمدة سنتين",
-          "دعم أولوية خلال 12 ساعة",
-        ],
-        cta: "ابدأ الآن",
-      },
-    ],
-    coreTiers: [
-      {
-        ...coreTiers[0],
-        description: "ذكاء تشغيلي لحظي مع تحديث للبيانات كل 15 دقيقة.",
-        features: [
-          "كل ما في Report Pro",
-          "تحديث كل 15 دقيقة",
-          "تكامل POS عبر API",
-          "مراقبة Pulse خلال اليوم",
-          "تنبيهات ذكية واكتشاف الشذوذ",
-          "Sundae Intelligence (الدردشة + المراقبة)",
-          "ذكاء Watchtower الخارجي",
-          "دعم دردشة خلال 4 ساعات",
-        ],
-        cta: "ابدأ الآن",
-      },
-      {
-        ...coreTiers[1],
-        badge: "الأكثر شيوعًا",
-        description: "حزمة الذكاء الكاملة مع تحديث كل 5 دقائق ودعم متعدد POS ووحدات متقدمة.",
-        features: [
-          "كل ما في Core Lite",
-          "تحديث كل 5 دقائق",
-          "دعم متعدد POS عبر المواقع",
-          "خطط تشغيل ذكية وتدفقات عمل مؤتمتة",
-          "Sundae Intelligence (كل الأوضاع)",
-          "المقارنات المرجعية وذكاء السوق",
-          "ذكاء Watchtower الخارجي",
-          "دعم هاتفي بأولوية خلال ساعتين",
-        ],
-        cta: "ابدأ الآن",
-      },
-    ],
-    enterpriseFeatures: [
-      "كل ما في Core Pro",
-      "تحديث بيانات مخصص (والوقت الحقيقي متاح)",
-      "تجميع متعدد العلامات ومقارنات إقليمية",
-      "تكامل SSO/SAML",
-      "حلول white-label وشركاء",
-      "تحكم بالأدوار مع سجلات تدقيق",
-      "مدير نجاح عملاء مخصص",
-      "دعم 24/7 مع اتفاقيات خدمة تعاقدية",
-      "وصول تاريخي مخصص (أكثر من 5 سنوات)",
-      "أرصدة ذكاء ولوحات مخصصة غير محدودة",
-    ],
-    addOns: [
-      { ...pricingAddOns[0], description: "ذكاء خارجي يشمل تتبع المنافسين وتأثير الطقس وتقويم الفعاليات وإحاطات الذكاء الاصطناعي.", note: "يتطلب Core" },
-      { ...pricingAddOns[1], name: "وحدات متخصصة", description: "12 وحدة متخصصة تشمل الإيرادات والعمالة والمخزون والمشتريات والتسويق والحجوزات والربح وضمان الإيرادات والتوصيل وتجربة الضيف وGuest CRM وCross-Intelligence وForesight Intelligence وExecutive Summary.", note: "يتطلب Core. التسعير لكل وحدة." },
-      { ...pricingAddOns[2], description: "محرك ترابط يُفعَّل تلقائيًا ويكشف العلاقات المخفية بين الوحدات. النسخة الأساسية مجانية مع 3+ وحدات، وPro تضيف الإسناد الكامل واكتشاف التآكل.", note: "يتطلب Core مع 3+ وحدات. Pro: 199$/شهر + 19$/موقع" },
-      { ...pricingAddOns[3], name: "إضافات الأرصدة", description: "هل تحتاج إلى استفسارات ذكاء أكثر؟ اشترِ أرصدة إضافية لأي خطة.", note: "متاحة في جميع الخطط" },
-    ],
-    faqs: [
-      { title: "ماذا يحدث بعد الفترة المجانية؟", content: "Report Lite مجانية دائمًا، بلا تجربة وبلا انتهاء. وعندما تحتاج المزيد، يمكنك الترقية إلى أي خطة مدفوعة. بلا التزام ويمكن الإلغاء في أي وقت." },
-      { title: "كيف تحتسبون الموقع؟", content: "الموقع هو عنوان مطعم فعلي واحد. حتى إذا وُجدت عدة علامات تحت السقف نفسه، فإنه يُحتسب كموقع واحد." },
-      { title: "ما الفرق بين Report وCore؟", content: "تقوم Report بتحليل بيانات POS التاريخية التي ترفعها، وهي مناسبة لفهم ما حدث. أما Core فتتصل عبر API لتقديم ذكاء قريب من الوقت الحقيقي مع مراقبة Pulse والتنبيهات وخطط التشغيل والذكاء التنبؤي." },
-      { title: "هل تدعمون المجموعات متعددة العلامات ومتعددة المواقع؟", content: "نعم. Core Pro يدعم بيئات متعددة POS، بينما تضيف Enterprise تجميعات متعددة العلامات ومقارنات إقليمية وRBAC وميزات الحوكمة." },
-      { title: "هل يوجد خصم على الفوترة السنوية؟", content: "نعم. وفّر 10% مع الفوترة السنوية في جميع الخطط المدفوعة. استخدم مفتاح التبديل أعلاه لرؤية السعر السنوي." },
-      { title: "هل بياناتي خاصة وآمنة؟", content: "بياناتك ملك لك. نحن نؤمّن البيانات أثناء النقل والتخزين، ونفرض ضوابط وصول صارمة، ونستخدم مقارنات مرجعية مجهولة ومجمعة عند الحاجة. كما تتضمن Enterprise امتثال SOC 2 Type II." },
-      { title: "هل يمكنني تغيير الخطط لاحقًا؟", content: "بالتأكيد. تبدأ كثير من الفرق بـ Report ثم تترقى مع النمو. الانتقال بين الخطط مباشر، وتظل جميع البيانات التاريخية محفوظة." },
-    ],
-    perMonthLabel: "/شهريًا",
-    perLocationLabel: "/موقع/شهريًا",
-    creditsLabel: "رصيد ذكاء/شهريًا",
+    ...enCopy,
+    cyclesLabel: 'دورة الفوترة',
+    cycleMonthly: 'شهري',
+    cycleAnnual: 'سنوي',
+    cycleTwoYear: 'سنتان',
+    coreEyebrow: 'Sundae Core',
+    coreTitle: 'أربع باقات Core',
+    coreDescription:
+      'اختر الباقة التي يناسب عمقها القرارات التي تحاول اتخاذها. كل باقة تضم الوحدات الإحدى عشرة نفسها، والفرق في عمق كل وحدة.',
+    firstLocationLabel: 'للموقع الأول شهريًا',
+    thenLabel: 'ثم لكل موقع إضافي',
+    bandHeaderLocations: 'المواقع',
+    bandHeaderRate: 'لكل موقع إضافي شهريًا',
+    perAdditionalLocation: 'لكل موقع إضافي شهريًا',
+    creditsLabel: 'رصيد ذكاء شهريًا',
+    includesLabel: 'ما تشمله',
+    bandsTitle: 'كيف يعمل تسعير المواقع',
+    bandsBody:
+      'يحمل موقعك الأول سعر الباقة الأساسي. ويُحتسب كل موقع بعده بالسعر الحدي للشريحة التي يقع فيها، وينخفض السعر كلما نميت. الانتقال إلى شريحة أرخص لا يعيد تسعير المواقع السابقة.',
+    bandsExample:
+      'خمسة مواقع على Core Foundation: 1,195$ للأول، وأربعة بسعر 175$ = 1,895$ شهريًا. أي متوسط مُرجّح 379$ لكل موقع - وهو متوسط للإجمالي وليس سعرًا قابلاً للضرب.',
+    modulesTitle: 'الوحدات الإحدى عشرة مضمّنة في الباقة',
+    modulesBody: 'لا تُباع منفردة ولا تحمل سعرًا لكل وحدة. اختيار باقة Core هو طريقة الحصول عليها جميعًا.',
+    foresightTitle: 'Foresight & Action',
+    foresightDescription:
+      'توقعات مستقبلية ونمذجة سيناريوهات وطبقة تنفيذ باعتماد بشري. يُسعَّر على شرائح المواقع نفسها المستخدمة في Core.',
+    crewTitle: 'Sundae Crew',
+    crewDescription: 'الركيزة التشغيلية للقوى العاملة: الأفراد والجداول والحضور وجاهزية الرواتب. سعر شهري ثابت مهما كان عدد مواقعك.',
+    crewBundlesLabel: 'الحزم',
+    conceptsTitle: 'المفاهيم التشغيلية',
+    conceptsDescription: 'فعّل نماذج التشغيل التي تديرها مجموعتك فعليًا. كل مفهوم يضيف تفصيله الخاص لكل وحدة في Core.',
+    implementationTitle: 'التنفيذ',
+    implementationDescription: 'رسوم تهيئة تُدفع مرة واحدة. وإذا شمل اختيارك عدة فئات فتدفع أعلاها فقط، لا مجموعها.',
+    implementationNote: 'تُحتسب مرة واحدة، بأعلى فئة في اختيارك.',
+    volumeTitle: 'الحجم',
+    volumeDescription: 'عدد المواقع يخصم من إجمالي الاشتراك الشهري.',
+    volumeEnterprise: 'اتفاقية Enterprise',
+    volumeCapNote: 'تتراكم خصومات الحجم ودورة الفوترة بحد أقصى مجمّع 15%.',
+    discountNone: 'بدون خصم حجم',
+    perMonthLabel: '/شهريًا',
+    oneOffLabel: 'مرة واحدة',
+    fromLabel: 'ابتداءً من',
+    secondaryCta: 'قِس التكلفة على عمليتك',
   },
   fr: {
-    reportTiers: [
-      {
-        ...reportTiers[0],
-        badge: "GRATUIT A VIE",
-        description: "Importez vos donnees POS et obtenez un benchmarking instantane. Aucune carte bancaire requise.",
-        features: [
-          "Import CSV manuel",
-          "5 indicateurs de performance principaux",
-          "Benchmarking anonyme entre pairs",
-          "Acces historique sur 90 jours",
-          "Support e-mail (reponse sous 72 h)",
-        ],
-        cta: "Commencer gratuitement",
-      },
-      {
-        ...reportTiers[1],
-        badge: "LE PLUS POPULAIRE",
-        description: "Ingestion intelligente des donnees avec analyses plus profondes et resumes mensuels.",
-        features: [
-          "Imports intelligents (PDF, Excel, captures)",
-          "Environ 30 visuels complets",
-          "Resumes d intelligence mensuels",
-          "Vues comparatives hebdo/mois/annee",
-          "Acces historique sur 1 an",
-          "Support e-mail + chat (24 h)",
-        ],
-        cta: "Commencer",
-      },
-      {
-        ...reportTiers[2],
-        description: "Ingestion quotidienne automatisee avec intelligence avancee et collaboration d equipe.",
-        features: [
-          "Synchronisation automatique quotidienne",
-          "Environ 80 visuels complets",
-          "Resumes d intelligence hebdomadaires",
-          "Graphiques partageables et collaboration",
-          "Acces historique sur 2 ans",
-          "Support prioritaire (12 h)",
-        ],
-        cta: "Commencer",
-      },
-    ],
-    coreTiers: [
-      {
-        ...coreTiers[0],
-        description: "Intelligence operationnelle en temps reel avec rafraichissement toutes les 15 minutes.",
-        features: [
-          "Tout ce qui est inclus dans Report Pro",
-          "Rafraichissement toutes les 15 minutes",
-          "Integration POS par API",
-          "Suivi Pulse intra-journee",
-          "Alertes intelligentes et detection d anomalies",
-          "Sundae Intelligence (chat + monitoring)",
-          "Intelligence externe Watchtower",
-          "Support chat (4 h)",
-        ],
-        cta: "Commencer",
-      },
-      {
-        ...coreTiers[1],
-        badge: "LE PLUS POPULAIRE",
-        description: "Stack d intelligence complet avec rafraichissement 5 minutes, support multi-POS et modules avances.",
-        features: [
-          "Tout ce qui est inclus dans Core Lite",
-          "Rafraichissement toutes les 5 minutes",
-          "Support multi-POS entre sites",
-          "Playbooks intelligents et workflows automatises",
-          "Sundae Intelligence (tous les modes)",
-          "Benchmarks et intelligence de marche",
-          "Intelligence externe Watchtower",
-          "Support telephonique prioritaire (2 h)",
-        ],
-        cta: "Commencer",
-      },
-    ],
-    enterpriseFeatures: [
-      "Tout ce qui est inclus dans Core Pro",
-      "Rafraichissement personnalise (temps reel disponible)",
-      "Rollups multi-marques et benchmarking inter-regions",
-      "Integration SSO/SAML",
-      "Solutions white-label et partenaires",
-      "Acces base sur les roles avec pistes d audit",
-      "Customer Success Manager dedie",
-      "Support 24/7 avec SLA contractuels",
-      "Acces historique personnalise (5 ans et plus)",
-      "Credits d intelligence et tableaux de bord personnalises illimites",
-    ],
-    addOns: [
-      { ...pricingAddOns[0], description: "Intelligence externe avec suivi concurrentiel, impact meteo, calendrier d evenements et briefings IA.", note: "Necessite Core" },
-      { ...pricingAddOns[1], name: "Modules specialises", description: "12 modules specialises incluant revenu, main-d oeuvre, stock, achats, marketing, reservations, profit, assurance revenu, livraison, experience client, Guest CRM, Cross-Intelligence, Foresight Intelligence et Executive Summary.", note: "Necessite Core. Tarif par module." },
-      { ...pricingAddOns[2], description: "Moteur de correlation auto-active qui revele les connexions cachees entre modules. La base est gratuite a partir de 3 modules ; Pro ajoute attribution complete et detection de cannibalisation.", note: "Necessite Core avec 3+ modules. Pro : 199$/mois + 19$/site" },
-      { ...pricingAddOns[3], name: "Recharges de credits", description: "Besoin de plus de requetes d intelligence ? Achetez des credits supplementaires pour n importe quelle offre.", note: "Disponible sur toutes les offres" },
-    ],
-    faqs: [
-      { title: "Que se passe-t-il apres la periode gratuite ?", content: "Report Lite est gratuit a vie - pas d essai, pas d expiration. Quand vous etes pret a passer a l etape suivante, vous pouvez passer a une offre payante. Sans engagement et resiliable a tout moment." },
-      { title: "Comment comptez-vous un site ?", content: "Un site correspond a une adresse physique de restaurant. Plusieurs marques sous le meme toit comptent toujours comme un seul site." },
-      { title: "Quelle est la difference entre Report et Core ?", content: "Report analyse les donnees POS historiques que vous importez pour comprendre ce qui s est passe. Core se connecte par API pour fournir une intelligence quasi temps reel avec Pulse, alertes, playbooks et intelligence predictive." },
-      { title: "Prenez-vous en charge les groupes multi-marques et multi-sites ?", content: "Oui. Core Pro gere les environnements multi-POS et Enterprise ajoute des rollups inter-marques, du benchmarking regional, le RBAC et des fonctions de gouvernance." },
-      { title: "Y a-t-il une remise pour la facturation annuelle ?", content: "Oui - economisez 10 % avec la facturation annuelle sur toutes les offres payantes. Utilisez l interrupteur ci-dessus pour voir les tarifs annuels." },
-      { title: "Mes donnees sont-elles privees et securisees ?", content: "Vos donnees vous appartiennent. Nous securisons les donnees en transit et au repos, appliquons des controles d acces stricts et utilisons des benchmarks anonymises et agreges lorsque cela s applique. Enterprise inclut la conformite SOC 2 Type II." },
-      { title: "Puis-je changer d offre plus tard ?", content: "Absolument. Beaucoup d equipes commencent avec Report puis montent en gamme avec la croissance. Le changement d offre est simple et toutes les donnees historiques sont conservees." },
-    ],
-    perMonthLabel: "/mois",
-    perLocationLabel: "/site/mois",
-    creditsLabel: "credits d intelligence/mois",
+    ...enCopy,
+    cyclesLabel: 'Cycle de facturation',
+    cycleMonthly: 'Mensuel',
+    cycleAnnual: 'Annuel',
+    cycleTwoYear: '2 ans',
+    coreTitle: 'Quatre offres Core',
+    coreDescription:
+      'Choisissez l offre dont la profondeur correspond aux decisions que vous devez prendre. Chaque offre embarque les memes onze modules metier ; elles different par la profondeur de chacun.',
+    firstLocationLabel: 'premier site / mois',
+    thenLabel: 'Puis, par site additionnel',
+    bandHeaderLocations: 'Sites',
+    bandHeaderRate: 'Par site additionnel / mois',
+    perAdditionalLocation: 'par site additionnel / mois',
+    creditsLabel: 'credits IA / mois',
+    includesLabel: 'Ce qui est inclus',
+    bandsTitle: 'Comment fonctionne la tarification par site',
+    bandsBody:
+      'Votre premier site porte le prix d ancrage de l offre. Chaque site suivant est facture au tarif marginal de sa tranche, et ce tarif baisse a mesure que vous grandissez. Franchir une tranche moins chere ne retarife pas les sites deja en place.',
+    bandsExample:
+      'Cinq sites sur Core Foundation : 1 195 $ pour le premier, plus quatre a 175 $ = 1 895 $ par mois. Soit une moyenne ponderee de 379 $ par site - une moyenne du total, pas un tarif a multiplier.',
+    modulesTitle: 'Les onze modules metier sont compris dans l offre',
+    modulesBody: 'Ils ne sont pas vendus separement et n ont pas de prix a l unite. Choisir une offre Core, c est les obtenir tous.',
+    foresightTitle: 'Foresight & Action',
+    foresightDescription:
+      'Previsions, modelisation de scenarios et couche d action validee par un humain. Tarifee sur les memes tranches de sites que Core.',
+    crewTitle: 'Sundae Crew',
+    crewDescription: 'Le socle RH : personnes, plannings, temps et presence, preparation de la paie. Forfait mensuel, quel que soit le nombre de sites.',
+    crewBundlesLabel: 'Bundles',
+    conceptsTitle: 'Concepts',
+    conceptsDescription: 'Activez les modeles d exploitation que votre groupe fait tourner. Chaque concept ajoute sa maille a tous les modules Core.',
+    implementationTitle: 'Mise en oeuvre',
+    implementationDescription: 'Des frais de demarrage uniques. Si votre selection couvre plusieurs classes, vous payez la plus elevee, jamais la somme.',
+    implementationNote: 'Facture une fois, a la classe la plus elevee de votre selection.',
+    volumeTitle: 'Volume',
+    volumeDescription: 'Le nombre de sites reduit l abonnement mensuel total.',
+    volumeEnterprise: 'Accord Enterprise',
+    volumeCapNote: 'Les remises volume et cycle se cumulent, dans la limite de 15 %.',
+    discountNone: 'Pas de remise volume',
+    perMonthLabel: '/mois',
+    oneOffLabel: 'unique',
+    fromLabel: 'a partir de',
+    secondaryCta: 'Chiffrez-le sur votre exploitation',
   },
   es: {
-    reportTiers: [
-      {
-        ...reportTiers[0],
-        badge: "GRATIS PARA SIEMPRE",
-        description: "Carga tus datos de POS y obtén benchmarking instantáneo. No se requiere tarjeta.",
-        features: [
-          "Carga manual de CSV",
-          "5 métricas clave de rendimiento",
-          "Benchmarking anónimo entre pares",
-          "Acceso histórico de 90 días",
-          "Soporte por correo (72 horas)",
-        ],
-        cta: "Empezar gratis",
-      },
-      {
-        ...reportTiers[1],
-        badge: "MÁS POPULAR",
-        description: "Ingesta inteligente de datos con análisis más profundos y resúmenes mensuales.",
-        features: [
-          "Cargas inteligentes (PDF, Excel y capturas)",
-          "Aproximadamente 30 visuales completos",
-          "Resúmenes mensuales de inteligencia",
-          "Vistas comparativas semana/mes/año",
-          "Acceso histórico de 1 año",
-          "Soporte por correo + chat (24 horas)",
-        ],
-        cta: "Empezar",
-      },
-      {
-        ...reportTiers[2],
-        description: "Ingesta diaria automatizada con inteligencia avanzada y colaboración del equipo.",
-        features: [
-          "Sincronización diaria automatizada",
-          "Aproximadamente 80 visuales completos",
-          "Resúmenes semanales de inteligencia",
-          "Gráficos compartibles y colaboración",
-          "Acceso histórico de 2 años",
-          "Soporte prioritario (12 horas)",
-        ],
-        cta: "Empezar",
-      },
-    ],
-    coreTiers: [
-      {
-        ...coreTiers[0],
-        description: "Inteligencia operativa en tiempo real con refresco de datos cada 15 minutos.",
-        features: [
-          "Todo lo incluido en Report Pro",
-          "Refresco cada 15 minutos",
-          "Integración POS por API",
-          "Monitoreo intradía de Pulse",
-          "Alertas inteligentes y detección de anomalías",
-          "Sundae Intelligence (chat + monitor)",
-          "Inteligencia externa de Watchtower",
-          "Soporte por chat (4 horas)",
-        ],
-        cta: "Empezar",
-      },
-      {
-        ...coreTiers[1],
-        badge: "MÁS POPULAR",
-        description: "Stack completo de inteligencia con refresco cada 5 minutos, soporte multi-POS y módulos avanzados.",
-        features: [
-          "Todo lo incluido en Core Lite",
-          "Refresco cada 5 minutos",
-          "Soporte multi-POS entre ubicaciones",
-          "Playbooks inteligentes y flujos automatizados",
-          "Sundae Intelligence (todos los modos)",
-          "Benchmarks e inteligencia de mercado",
-          "Inteligencia externa de Watchtower",
-          "Soporte telefónico prioritario (2 horas)",
-        ],
-        cta: "Empezar",
-      },
-    ],
-    enterpriseFeatures: [
-      "Todo lo incluido en Core Pro",
-      "Refresco de datos personalizado (tiempo real disponible)",
-      "Rollups multi-marca y benchmarking entre regiones",
-      "Integración SSO/SAML",
-      "Soluciones white-label y para partners",
-      "Acceso basado en roles con auditoría",
-      "Customer Success Manager dedicado",
-      "Soporte 24/7 con SLA contractuales",
-      "Acceso histórico personalizado (5+ años)",
-      "Créditos de inteligencia y dashboards personalizados ilimitados",
-    ],
-    addOns: [
-      { ...pricingAddOns[0], description: "Inteligencia externa con seguimiento de competidores, impacto del clima, calendario de eventos y briefings de IA.", note: "Requiere Core" },
-      { ...pricingAddOns[1], name: "Módulos especializados", description: "12 módulos especializados que incluyen ingresos, mano de obra, inventario, compras, marketing, reservas, beneficio, revenue assurance, delivery, experiencia del cliente, Guest CRM, Cross-Intelligence, Foresight Intelligence y Executive Summary.", note: "Requiere Core. Precio por módulo." },
-      { ...pricingAddOns[2], description: "Motor de correlación que se desbloquea automáticamente y revela conexiones ocultas entre módulos. La base es gratis con 3+ módulos; Pro añade atribución completa y detección de canibalización.", note: "Requiere Core con 3+ módulos. Pro: 199$/mes + 19$/local" },
-      { ...pricingAddOns[3], name: "Recargas de créditos", description: "¿Necesitas más consultas de inteligencia? Compra créditos adicionales para cualquier plan.", note: "Disponible en todos los planes" },
-    ],
-    faqs: [
-      { title: "¿Qué pasa después del periodo gratuito?", content: "Report Lite es gratis para siempre, sin prueba ni vencimiento. Cuando necesites más, puedes pasar a cualquier plan de pago. Sin permanencia y cancelable en cualquier momento." },
-      { title: "¿Cómo cuentan una ubicación?", content: "Una ubicación es una dirección física de restaurante. Varias marcas bajo el mismo techo siguen contando como una sola ubicación." },
-      { title: "¿Cuál es la diferencia entre Report y Core?", content: "Report analiza los datos históricos de POS que subes, ideal para entender qué ocurrió. Core se conecta por API para ofrecer inteligencia casi en tiempo real con Pulse, alertas, playbooks e inteligencia predictiva." },
-      { title: "¿Soportan grupos multi-marca y multi-ubicación?", content: "Sí. Core Pro soporta entornos multi-POS y Enterprise añade rollups entre marcas, benchmarking regional, RBAC y funciones de gobernanza." },
-      { title: "¿Hay descuento por facturación anual?", content: "Sí: ahorra un 10% con facturación anual en todos los planes de pago. Usa el selector superior para ver el precio anual." },
-      { title: "¿Mis datos son privados y seguros?", content: "Tus datos siguen siendo tuyos. Protegemos los datos en tránsito y en reposo, aplicamos controles estrictos de acceso y usamos benchmarking anonimizado y agregado cuando corresponde. Enterprise incluye cumplimiento SOC 2 Type II." },
-      { title: "¿Puedo cambiar de plan más adelante?", content: "Claro. Muchos equipos comienzan con Report y evolucionan a medida que crecen. Cambiar de plan es sencillo y todos los datos históricos se conservan." },
-    ],
-    perMonthLabel: "/mes",
-    perLocationLabel: "/ubicación/mes",
-    creditsLabel: "créditos de inteligencia/mes",
+    ...enCopy,
+    cyclesLabel: 'Ciclo de facturación',
+    cycleMonthly: 'Mensual',
+    cycleAnnual: 'Anual',
+    cycleTwoYear: '2 años',
+    coreTitle: 'Cuatro paquetes Core',
+    coreDescription:
+      'Elige el paquete cuya profundidad encaje con las decisiones que necesitas tomar. Todos llevan los mismos once módulos de dominio; se diferencian en cuánto profundiza cada uno.',
+    firstLocationLabel: 'primer local / mes',
+    thenLabel: 'Después, por local adicional',
+    bandHeaderLocations: 'Locales',
+    bandHeaderRate: 'Por local adicional / mes',
+    perAdditionalLocation: 'por local adicional / mes',
+    creditsLabel: 'créditos de IA / mes',
+    includesLabel: 'Qué incluye',
+    bandsTitle: 'Cómo funciona el precio por local',
+    bandsBody:
+      'Tu primer local lleva el precio ancla del paquete. Cada local posterior se cobra a la tarifa marginal del tramo en el que cae, y esa tarifa baja según creces. Entrar en un tramo más barato no revaloriza los locales anteriores.',
+    bandsExample:
+      'Cinco locales en Core Foundation: 1.195 $ el primero, más cuatro a 175 $ = 1.895 $ al mes. Eso da una media ponderada de 379 $ por local: una media del total, no una tarifa que puedas multiplicar.',
+    modulesTitle: 'Los once módulos de dominio vienen con el paquete',
+    modulesBody: 'No se venden por separado ni tienen precio por módulo. Elegir un paquete Core es como los obtienes todos.',
+    foresightTitle: 'Foresight & Action',
+    foresightDescription:
+      'Previsiones, modelado de escenarios y la capa de acción con aprobación humana. Se tarifica con los mismos tramos de locales que Core.',
+    crewTitle: 'Sundae Crew',
+    crewDescription: 'El sustrato de personal: personas, horarios, control horario y preparación de nóminas. Cuota mensual fija, sean cuantos sean tus locales.',
+    crewBundlesLabel: 'Paquetes',
+    conceptsTitle: 'Conceptos',
+    conceptsDescription: 'Activa los modelos operativos que tu grupo realmente opera. Cada concepto añade su propio grano a todos los módulos de Core.',
+    implementationTitle: 'Implantación',
+    implementationDescription: 'Una cuota de puesta en marcha, cobrada una sola vez. Si tu selección abarca varias clases, pagas la más alta, nunca la suma.',
+    implementationNote: 'Se cobra una vez, por la clase más alta de tu selección.',
+    volumeTitle: 'Volumen',
+    volumeDescription: 'El número de locales descuenta toda la suscripción mensual.',
+    volumeEnterprise: 'Acuerdo Enterprise',
+    volumeCapNote: 'Los descuentos por volumen y por ciclo se acumulan, con un tope combinado del 15%.',
+    discountNone: 'Sin descuento por volumen',
+    perMonthLabel: '/mes',
+    oneOffLabel: 'pago único',
+    fromLabel: 'desde',
+    secondaryCta: 'Calcúlalo sobre tu operación',
   },
 };
 
-function formatPricingCurrency(value: number, locale: WebsiteLocale, currency = 'USD'): string {
-  return formatWebsiteCurrency(value, locale, {
-    currency,
-    maximumFractionDigits: 0,
-  })
+function money(value: number, locale: WebsiteLocale): string {
+  return formatWebsiteCurrency(value, locale, { currency: 'USD', maximumFractionDigits: 0 });
 }
 
-function formatCredits(value: number, locale: WebsiteLocale): string {
-  return formatWebsiteNumber(value, locale)
+function applyCycle(value: number, cycle: BillingCycle): number {
+  return Math.round(value * (1 - BILLING_CYCLE_DISCOUNTS[cycle]));
 }
 
-function parseTierAmount(value: string): number {
-  const parsed = Number.parseFloat(value.replace(/[^0-9.]/g, ''))
-  return Number.isFinite(parsed) ? parsed : 0
-}
-
-function mergeLiveTierPricing(tiers: Tier[], liveCatalog: LiveCatalog | null, locale: WebsiteLocale): Tier[] {
-  if (!liveCatalog?.tiers?.length) {
-    return tiers
-  }
-
-  const liveById = new Map(liveCatalog.tiers.map((tier) => [tier.id, tier]))
-  const catalogCurrency = liveCatalog.currency?.toUpperCase() || 'USD'
-
-  return tiers.map((tier) => {
-    const live = liveById.get(tier.id)
-    if (!live) return tier
-    const currency = live.currency?.toUpperCase() || catalogCurrency
-
-    return {
-      ...tier,
-      basePriceValue:
-        typeof live.basePrice === 'number' ? live.basePrice : tier.basePriceValue,
-      perLocationValue:
-        typeof live.perLocationPrice === 'number' ? live.perLocationPrice : tier.perLocationValue,
-      currency,
-      basePrice:
-        typeof live.basePrice === 'number'
-          ? formatPricingCurrency(live.basePrice, locale, currency)
-          : tier.basePrice,
-      perLocation:
-        typeof live.perLocationPrice === 'number'
-          ? formatPricingCurrency(live.perLocationPrice, locale, currency)
-          : tier.perLocation,
-      aiCredits:
-        typeof live.aiCreditsBase === 'number' ? formatCredits(live.aiCreditsBase, locale) : tier.aiCredits,
-    }
-  })
-}
-
-function PricingCard({
-  tier,
-  annual,
-  perMonthLabel,
-  perLocationLabel,
-  creditsLabel,
+function BandTable({
+  sku,
+  cycle,
+  copy,
   locale,
 }: {
-  tier: Tier;
-  annual: boolean;
-  perMonthLabel: string;
-  perLocationLabel: string;
-  creditsLabel: string;
+  sku: BandedSku;
+  cycle: BillingCycle;
+  copy: PricingPageCopy;
   locale: WebsiteLocale;
 }) {
-  const currency = tier.currency ?? 'USD';
-  const baseNum = tier.basePriceValue ?? parseTierAmount(tier.basePrice);
-  const locNum = tier.perLocationValue ?? parseTierAmount(tier.perLocation);
-  const displayBase = annual && baseNum > 0
-    ? formatPricingCurrency(Math.round(baseNum * 0.9), locale, currency)
-    : formatPricingCurrency(baseNum, locale, currency);
-  const displayLoc = annual && locNum > 0
-    ? formatPricingCurrency(Math.round(locNum * 0.9), locale, currency)
-    : formatPricingCurrency(locNum, locale, currency);
-
   return (
-    <Card className={`h-full ${tier.highlight ? 'border-2 border-[#FF5C4D]/50 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
-      <CardHeader className="pb-4">
-        {tier.badge && (
-          <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-3 w-fit ${tier.badgeClass}`}>
-            {tier.badge}
-          </div>
-        )}
-        <CardTitle className="text-xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
-        <div className="mb-3">
-          <span className="text-4xl font-bold text-[var(--text-primary)]">{displayBase}</span>
-          {baseNum > 0 && <span className="text-[var(--text-muted)] text-sm">{perMonthLabel}</span>}
-        </div>
-        {locNum > 0 && (
-          <p className="text-sm text-[var(--text-supporting)]">
-            + {displayLoc}{perLocationLabel}
-          </p>
-        )}
-        <CardDescription className="text-[var(--text-supporting)] mt-3 text-sm">
-          {tier.description}
-        </CardDescription>
-      </CardHeader>
-      <CardContent className="pt-0">
-        <div className="mb-4 pb-4 border-b border-[var(--border-default)]">
-          <p className="text-xs text-[var(--text-muted)]">
-            {tier.aiCredits} {creditsLabel}
-          </p>
-        </div>
-        <ul className="space-y-2.5 mb-6">
-          {tier.features.map((feature, index) => (
-            <li key={index} className="flex items-start space-x-2.5">
-              <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-              </svg>
-              <span className="text-sm text-[var(--text-secondary)]">{feature}</span>
-            </li>
+    <div className="overflow-x-auto">
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="text-left text-xs uppercase tracking-wide text-[var(--text-muted)]">
+            <th scope="col" className="pb-2 pe-4 font-medium">{copy.bandHeaderLocations}</th>
+            <th scope="col" className="pb-2 font-medium">{copy.bandHeaderRate}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sku.bands.map((band) => (
+            <tr key={band.fromUnit} className="border-t border-[var(--border-default)]">
+              <td className="py-2 pe-4 text-[var(--text-supporting)] tabular-nums">
+                {band.fromUnit}-{band.toUnit}
+              </td>
+              <td className="py-2 text-[var(--text-secondary)] font-medium tabular-nums">
+                {money(applyCycle(band.monthlyPerUnit, cycle), locale)}
+              </td>
+            </tr>
           ))}
-        </ul>
-        <Link href={tier.ctaLink}>
-          <Button
-            variant={tier.highlight ? "primary" : "outline"}
-            size="lg"
-            className="w-full"
-          >
-            {tier.cta}
-          </Button>
-        </Link>
-      </CardContent>
-    </Card>
+        </tbody>
+      </table>
+    </div>
   );
 }
 
 export default function PricingPage() {
   const { locale, messages } = useWebsiteI18n();
-  const copy = messages.pages.pricing;
-  const [annual, setAnnual] = useState(false);
-  const [liveCatalog, setLiveCatalog] = useState<LiveCatalog | null>(null);
-  const localizedContent = localizedPricingPageContent[locale as Exclude<WebsiteLocale, 'en'>];
-  const activeReportTiers = localizedContent?.reportTiers ?? reportTiers;
-  const activeCoreTiers = localizedContent?.coreTiers ?? coreTiers;
-  const activeEnterpriseFeatures = localizedContent?.enterpriseFeatures ?? enterpriseFeatures;
-  const activeAddOns = localizedContent?.addOns ?? pricingAddOns;
-  const activeFaqs = localizedContent?.faqs ?? pricingFaqs;
-  const perMonthLabel = localizedContent?.perMonthLabel ?? '/month';
-  const perLocationLabel = localizedContent?.perLocationLabel ?? '/location/month';
-  const creditsLabel = localizedContent?.creditsLabel ?? 'intelligence credits/month';
+  const heroCopy = messages.pages.pricing;
+  const copy = pricingPageCopy[locale as Exclude<WebsiteLocale, 'en'>] ?? enCopy;
+  const [cycle, setCycle] = useState<BillingCycle>('monthly');
   const cream = pricingCreamCopy[locale as keyof typeof pricingCreamCopy] ?? pricingCreamCopy.en;
 
-  useEffect(() => {
-    let cancelled = false
-
-    const fetchLiveCatalog = async () => {
-      try {
-        const response = await fetch('/api/pricing/catalog', { cache: 'no-store' })
-        if (!response.ok) return
-
-        const data = await response.json()
-        if (!cancelled) {
-          setLiveCatalog(data)
-        }
-      } catch (error) {
-        console.error('[WebsitePricing] Failed to load live pricing catalog:', error)
-      }
-    }
-
-    fetchLiveCatalog()
-    return () => {
-      cancelled = true
-    }
-  }, [])
-
-  const liveReportTiers = useMemo(
-    () => mergeLiveTierPricing(activeReportTiers, liveCatalog, locale),
-    [activeReportTiers, liveCatalog, locale]
-  )
-  const liveCoreTiers = useMemo(
-    () => mergeLiveTierPricing(activeCoreTiers, liveCatalog, locale),
-    [activeCoreTiers, liveCatalog, locale]
-  )
+  const cycleOptions: { id: BillingCycle; label: string }[] = [
+    { id: 'monthly', label: copy.cycleMonthly },
+    { id: 'annual', label: copy.cycleAnnual },
+    { id: 'two_year', label: copy.cycleTwoYear },
+  ];
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      {/* Hero Section */}
-      <PageHero
-        badge={copy.badge}
-        title={copy.title}
-        description={copy.description}
-      >
-        {/* Billing Toggle */}
-        <div className="flex items-center justify-center space-x-4">
-          <span className={`text-sm font-medium ${!annual ? 'text-[var(--text-primary)]' : 'text-[var(--text-muted)]'}`}>{copy.monthly}</span>
-          <button
-            onClick={() => setAnnual(!annual)}
-            className={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors ${annual ? 'bg-[var(--navy-deep)]' : 'bg-[var(--navy-deep)]/30'}`}
-          >
-            <span className={`inline-block h-5 w-5 transform rounded-full bg-[var(--navy-deep)] shadow-none transition-transform ${annual ? 'translate-x-8' : 'translate-x-1'}`} />
-          </button>
-          <span className={`text-sm font-medium ${annual ? 'text-[var(--text-primary)]' : 'text-[var(--text-muted)]'}`}>
-            {copy.annual} <span className="text-green-400 font-semibold">({copy.savePercent})</span>
-          </span>
+      <PageHero badge={heroCopy.badge} title={heroCopy.title} description={heroCopy.description}>
+        <div
+          role="radiogroup"
+          aria-label={copy.cyclesLabel}
+          className="inline-flex items-center gap-1 rounded-full border border-[var(--border-default)] p-1"
+        >
+          {cycleOptions.map((option) => {
+            const active = cycle === option.id;
+            const discount = BILLING_CYCLE_DISCOUNTS[option.id];
+            return (
+              <button
+                key={option.id}
+                type="button"
+                role="radio"
+                aria-checked={active}
+                onClick={() => setCycle(option.id)}
+                className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                  active
+                    ? 'bg-[#FF5C4D]/20 text-[#FF8473]'
+                    : 'text-[var(--text-muted)] hover:text-[var(--text-secondary)]'
+                }`}
+              >
+                {option.label}
+                {discount > 0 && (
+                  <span className="ms-2 text-green-400">-{Math.round(discount * 100)}%</span>
+                )}
+              </button>
+            );
+          })}
         </div>
       </PageHero>
 
-      {/* Sundae Report Tiers */}
+      {/* Core packages */}
       <section className="pb-16 pt-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
-            <div className="text-center mb-8">
-              <div className="inline-flex items-center space-x-2 bg-purple-500/20 text-purple-400 px-5 py-2 rounded-full text-sm font-semibold">
-                <SundaeIcon name="report" size="md" />
-                <span>{copy.reportBadge}</span>
+            <div className="text-center mb-10">
+              <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-5 py-2 rounded-full text-sm font-semibold mb-4">
+                <SundaeIcon name="core" size="md" />
+                <span>{copy.coreEyebrow}</span>
               </div>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.coreTitle}</h2>
+              <p className="body-lg text-[var(--text-secondary)] max-w-3xl mx-auto">
+                {copy.coreDescription}
+              </p>
             </div>
           </FadeUp>
 
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {liveReportTiers.map((tier) => (
-              <StaggerItem key={tier.name}>
-                <PricingCard
-                  tier={tier}
-                  annual={annual}
-                  perMonthLabel={perMonthLabel}
-                  perLocationLabel={perLocationLabel}
-                  creditsLabel={creditsLabel}
-                  locale={locale}
-                />
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+            {CORE_PACKAGES.map((pkg) => (
+              <StaggerItem key={pkg.id}>
+                <Card className="h-full border border-[var(--border-default)] shadow-lg hover:shadow-xl transition-all">
+                  <CardHeader className="pb-4">
+                    <CardTitle className="text-xl text-[var(--text-primary)] mb-2">{pkg.name}</CardTitle>
+                    <div className="mb-1">
+                      <span className="text-4xl font-bold text-[var(--text-primary)] tabular-nums">
+                        {money(applyCycle(pkg.firstUnitMonthly, cycle), locale)}
+                      </span>
+                    </div>
+                    <p className="text-sm text-[var(--text-supporting)]">{copy.firstLocationLabel}</p>
+                    <CardDescription className="text-[var(--text-supporting)] mt-3 text-sm">
+                      {formatWebsiteNumber(pkg.aiCreditWallet, locale)} {copy.creditsLabel}
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <div className="mb-5 pb-5 border-b border-[var(--border-default)]">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-3">
+                        {copy.thenLabel}
+                      </p>
+                      <BandTable sku={pkg} cycle={cycle} copy={copy} locale={locale} />
+                    </div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-3">
+                      {copy.includesLabel}
+                    </p>
+                    <ul className="space-y-2.5 mb-6">
+                      {PACKAGE_INCLUDES[pkg.id].map((feature) => (
+                        <li key={feature} className="flex items-start space-x-2.5">
+                          <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                          </svg>
+                          <span className="text-sm text-[var(--text-secondary)]">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <Link href="/demo">
+                      <Button variant="outline" size="lg" className="w-full">
+                        {heroCopy.bookDemo}
+                      </Button>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+
+          {/* How marginal bands work - the mechanic, stated plainly */}
+          <FadeUp delay={0.2}>
+            <Card className="mt-10 border border-[var(--border-default)] bg-[var(--surface-faint)]">
+              <CardContent className="p-8">
+                <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{copy.bandsTitle}</h3>
+                <p className="text-sm text-[var(--text-secondary)] mb-4 max-w-3xl">{copy.bandsBody}</p>
+                <p className="text-sm text-[var(--text-supporting)] max-w-3xl">
+                  {copy.bandsExample}
+                </p>
+              </CardContent>
+            </Card>
+          </FadeUp>
+        </div>
+      </section>
+
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
+      {/* The eleven domain modules - components, not offers */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-6xl mx-auto">
+          <FadeUp>
+            <div className="text-center mb-10">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.modulesTitle}</h2>
+              <p className="body-lg text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.modulesBody}</p>
+            </div>
+          </FadeUp>
+          <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {CORE_DOMAIN_MODULES.map((module) => (
+              <StaggerItem key={module.id}>
+                <div className="h-full rounded-lg border border-[var(--border-default)] p-5">
+                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{module.name}</p>
+                  <p className="text-sm text-[var(--text-supporting)]">{module.summary}</p>
+                </div>
               </StaggerItem>
             ))}
           </StaggerContainer>
         </div>
       </section>
 
-      {/* Cream relief - early warm break after the Report tiers, before the long dark Core/Enterprise/Add-ons stretch (the volume system) */}
-      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
-
-      {/* Sundae Core Tiers */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
+      {/* Foresight & Action */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
           <FadeUp>
-            <div className="text-center mb-8">
-              <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-5 py-2 rounded-full text-sm font-semibold">
-                <SundaeIcon name="core" size="md" />
-                <span>{copy.coreBadge}</span>
-              </div>
+            <Card className="border border-[var(--border-default)] shadow-lg">
+              <CardContent className="p-8 md:p-10 grid md:grid-cols-2 gap-8 items-start">
+                <div>
+                  <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">{copy.foresightTitle}</h2>
+                  <p className="text-sm text-[var(--text-supporting)] mb-6">{copy.foresightDescription}</p>
+                  <div>
+                    <span className="text-4xl font-bold text-[var(--text-primary)] tabular-nums">
+                      {money(applyCycle(FORESIGHT_AND_ACTION.firstUnitMonthly, cycle), locale)}
+                    </span>
+                    <p className="text-sm text-[var(--text-supporting)]">{copy.firstLocationLabel}</p>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-3">
+                    {copy.thenLabel}
+                  </p>
+                  <BandTable sku={FORESIGHT_AND_ACTION} cycle={cycle} copy={copy} locale={locale} />
+                </div>
+              </CardContent>
+            </Card>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* Crew */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-6xl mx-auto">
+          <FadeUp>
+            <div className="text-center mb-10">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.crewTitle}</h2>
+              <p className="body-lg text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.crewDescription}</p>
             </div>
           </FadeUp>
-
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {liveCoreTiers.map((tier) => (
-              <StaggerItem key={tier.name}>
-                <PricingCard
-                  tier={tier}
-                  annual={annual}
-                  perMonthLabel={perMonthLabel}
-                  perLocationLabel={perLocationLabel}
-                  creditsLabel={creditsLabel}
-                  locale={locale}
-                />
+          <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+            {CREW_SKUS.map((sku) => (
+              <StaggerItem key={sku.id}>
+                <div className="h-full rounded-lg border border-[var(--border-default)] p-5 flex items-baseline justify-between gap-4">
+                  <span className="text-sm font-semibold text-[var(--text-primary)]">{sku.name}</span>
+                  <span className="text-lg font-bold text-[var(--text-primary)] tabular-nums whitespace-nowrap">
+                    {money(applyCycle(sku.monthly, cycle), locale)}
+                    <span className="text-xs font-normal text-[var(--text-muted)]">{copy.perMonthLabel}</span>
+                  </span>
+                </div>
               </StaggerItem>
             ))}
           </StaggerContainer>
+          <FadeUp delay={0.15}>
+            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-3 text-center">
+              {copy.crewBundlesLabel}
+            </p>
+            <div className="grid sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+              {CREW_BUNDLES.map((sku) => (
+                <div key={sku.id} className="rounded-lg border border-[#FF5C4D]/40 p-5 text-center">
+                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-2">{sku.name}</p>
+                  <p className="text-2xl font-bold text-[var(--text-primary)] tabular-nums">
+                    {money(applyCycle(sku.monthly, cycle), locale)}
+                    <span className="text-xs font-normal text-[var(--text-muted)]">{copy.perMonthLabel}</span>
+                  </p>
+                </div>
+              ))}
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* Concepts */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          <FadeUp>
+            <div className="text-center mb-10">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.conceptsTitle}</h2>
+              <p className="body-lg text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.conceptsDescription}</p>
+            </div>
+          </FadeUp>
+          <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {CONCEPT_SKUS.map((sku) => (
+              <StaggerItem key={sku.id}>
+                <div className="h-full rounded-lg border border-[var(--border-default)] p-5 flex items-baseline justify-between gap-4">
+                  <span className="text-sm font-semibold text-[var(--text-primary)]">{sku.name}</span>
+                  <span className="text-lg font-bold text-[var(--text-primary)] tabular-nums whitespace-nowrap">
+                    {money(applyCycle(sku.monthly, cycle), locale)}
+                    <span className="text-xs font-normal text-[var(--text-muted)]">{copy.perMonthLabel}</span>
+                  </span>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      {/* Implementation + volume */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+          <FadeUp>
+            <Card className="h-full border border-[var(--border-default)]">
+              <CardHeader>
+                <CardTitle className="text-xl text-[var(--text-primary)]">{copy.implementationTitle}</CardTitle>
+                <CardDescription className="text-[var(--text-supporting)] mt-2 text-sm">
+                  {copy.implementationDescription}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3">
+                  {IMPLEMENTATION_CLASSES.map((cls) => (
+                    <li key={cls.id} className="flex items-baseline justify-between gap-4 border-b border-[var(--border-default)] pb-2 last:border-0">
+                      <span className="text-sm text-[var(--text-secondary)]">{cls.name}</span>
+                      <span className="text-sm font-semibold text-[var(--text-primary)] tabular-nums whitespace-nowrap">
+                        {cls.from ? `${copy.fromLabel} ` : ''}
+                        {money(cls.oneOff, locale)}
+                        <span className="ms-1 text-xs font-normal text-[var(--text-muted)]">{copy.oneOffLabel}</span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-4 text-xs text-[var(--text-muted)]">{copy.implementationNote}</p>
+              </CardContent>
+            </Card>
+          </FadeUp>
+
+          <FadeUp delay={0.1}>
+            <Card className="h-full border border-[var(--border-default)]">
+              <CardHeader>
+                <CardTitle className="text-xl text-[var(--text-primary)]">{copy.volumeTitle}</CardTitle>
+                <CardDescription className="text-[var(--text-supporting)] mt-2 text-sm">
+                  {copy.volumeDescription}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-3">
+                  {VOLUME_LADDER.map((band) => (
+                    <li key={band.fromUnits} className="flex items-baseline justify-between gap-4 border-b border-[var(--border-default)] pb-2 last:border-0">
+                      <span className="text-sm text-[var(--text-secondary)]">{band.label}</span>
+                      <span className="text-sm font-semibold text-[var(--text-primary)] tabular-nums whitespace-nowrap">
+                        {band.rate === null
+                          ? copy.volumeEnterprise
+                          : band.rate === 0
+                            ? copy.discountNone
+                            : `-${(band.rate * 100).toFixed(band.rate === 0.025 ? 1 : 0)}%`}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-4 text-xs text-[var(--text-muted)]">{copy.volumeCapNote}</p>
+              </CardContent>
+            </Card>
+          </FadeUp>
         </div>
       </section>
 
@@ -848,59 +724,39 @@ export default function PricingPage() {
         <div className="max-w-4xl mx-auto">
           <FadeUp>
             <Card className="border-2 border-[#FF5C4D]/50 shadow-2xl bg-[var(--surface-faint)]">
-              <CardContent className="p-8 md:p-12">
-                <div className="grid md:grid-cols-2 gap-8 items-center">
-                  <div>
-                    <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                      <SundaeIcon name="franchise" size="md" />
-                      <span>{copy.enterpriseBadge}</span>
-                    </div>
-                    <h3 className="text-3xl font-bold text-[var(--text-display)] mb-4">
-                      {copy.enterpriseTitle}
-                    </h3>
-                    <p className="text-[var(--text-supporting)] mb-6">
-                      {copy.enterpriseDescription}
-                    </p>
-                    <Link href="/demo">
-                      <Button variant="primary" size="lg" className="px-8">
-                        {copy.bookDemo}
-                      </Button>
-                    </Link>
-                  </div>
-                  <div>
-                    <ul className="space-y-3">
-                      {activeEnterpriseFeatures.map((feature, index) => (
-                        <li key={index} className="flex items-start space-x-2.5">
-                          <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                          </svg>
-                          <span className="text-sm text-[var(--text-secondary)]">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+              <CardContent className="p-8 md:p-12 text-center">
+                <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                  <SundaeIcon name="franchise" size="md" />
+                  <span>{heroCopy.enterpriseBadge}</span>
                 </div>
+                <h3 className="text-3xl font-bold text-[var(--text-display)] mb-4">{heroCopy.enterpriseTitle}</h3>
+                <p className="text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
+                  {heroCopy.enterpriseDescription}
+                </p>
+                <Link href="/demo">
+                  <Button variant="primary" size="lg" className="px-8">
+                    {heroCopy.bookDemo}
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </FadeUp>
         </div>
       </section>
 
-      {/* Add-ons Section */}
+      {/* Add-ons */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-10">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.addOnsTitle}</h2>
-              <p className="body-lg text-[var(--text-secondary)] max-w-3xl mx-auto">
-                {copy.addOnsDescription}
-              </p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{heroCopy.addOnsTitle}</h2>
+              <p className="body-lg text-[var(--text-secondary)] max-w-3xl mx-auto">{heroCopy.addOnsDescription}</p>
             </div>
           </FadeUp>
 
-          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {activeAddOns.map((addon, index) => (
-              <StaggerItem key={index}>
+          <StaggerContainer className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {copy.addOns.map((addon) => (
+              <StaggerItem key={addon.name}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className={`w-12 h-12 bg-gradient-to-br ${addon.color} rounded-lg flex items-center justify-center mb-4`}>
@@ -921,7 +777,7 @@ export default function PricingPage() {
             <div className="text-center mt-8">
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="lg">
-                  {copy.detailedPricingCalculator}
+                  {heroCopy.detailedPricingCalculator}
                 </Button>
               </a>
             </div>
@@ -929,47 +785,28 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeUp>
             <div className="text-center mb-12">
-                <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                {copy.faqTitle}
-              </h2>
-              <p className="body-lg text-[var(--text-secondary)]">
-                {copy.faqDescription}
-              </p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{heroCopy.faqTitle}</h2>
+              <p className="body-lg text-[var(--text-secondary)]">{heroCopy.faqDescription}</p>
             </div>
           </FadeUp>
 
           <FadeUp delay={0.15}>
-            <Accordion
-              items={activeFaqs}
-              defaultOpenIndex={0}
-            />
+            <Accordion items={copy.faqs} defaultOpenIndex={0} />
           </FadeUp>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <PageCTA
-        title={copy.ctaTitle}
-        description={copy.ctaDescription}
-      >
-        <Button
-          variant="cta"
-          size="lg"
-          href="/demo"
-        >
-          {copy.bookDemo}
+      <PageCTA title={heroCopy.ctaTitle} description={heroCopy.ctaDescription}>
+        <Button variant="cta" size="lg" href="/demo">
+          {heroCopy.bookDemo}
         </Button>
-        <Button
-          variant="outline-ink"
-          size="lg"
-          href={SIGNUP_URL}
-        >
-          {copy.startFree}
+        <Button variant="outline-ink" size="lg" href="/diagnostic">
+          {copy.secondaryCta}
         </Button>
       </PageCTA>
     </div>

@@ -13,7 +13,6 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
   en: {
     product: 'Products',
     solutions: 'Solutions',
-    report: 'Sundae Report',
     core: 'Sundae Core',
     watchtower: 'Watchtower',
     blog: 'Blog',
@@ -45,7 +44,6 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
   ar: {
     product: 'المنتجات',
     solutions: 'الحلول',
-    report: 'Sundae Report',
     core: 'Sundae Core',
     watchtower: 'Watchtower',
     blog: 'المدونة',
@@ -71,7 +69,6 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
   fr: {
     product: 'Produits',
     solutions: 'Solutions',
-    report: 'Sundae Report',
     core: 'Sundae Core',
     watchtower: 'Watchtower',
     blog: 'Blog',
@@ -97,7 +94,6 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
   es: {
     product: 'Productos',
     solutions: 'Soluciones',
-    report: 'Sundae Report',
     core: 'Sundae Core',
     watchtower: 'Watchtower',
     blog: 'Blog',
@@ -123,8 +119,8 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
 };
 
 // Title-case minor words that stay lowercase mid-phrase by convention, so an
-// unlabeled slug like `report-vs-core` renders "Report vs Core" (not "Report Vs
-// Core"). Root-cause fix for the whole class - any current/future "-vs-"/"-and-"
+// unlabeled slug like `core-vs-crew` renders "Core vs Crew" (not "Core Vs
+// Crew"). Root-cause fix for the whole class - any current/future "-vs-"/"-and-"
 // slug without an explicit LABEL_MAP entry is formatted correctly.
 const MINOR_SEGMENT_WORDS = new Set([
   'vs', 'and', 'or', 'the', 'a', 'an', 'of', 'to', 'for', 'per', 'by', 'with', 'at', 'in', 'on', 'via',

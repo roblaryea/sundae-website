@@ -116,8 +116,11 @@ export type DiagnosticCopy = {
   };
 };
 
+// Protected product names, kept literal in every locale. Price book v1.7 names
+// only - the retired Report/Core Lite/Core Pro tiers are deliberately absent so
+// a translation can never reintroduce a withdrawn SKU.
 const productGlossary =
-  "Sundae, Core, Crew, Pulse, Benchmark, Watchtower, Insights, Sundae Intelligence, Foresight, POS, Power BI, Tableau, Looker, SKU, Report Pro, Core Lite, Core Plus, Crew Lite, Crew Operating Suite, Crew Complete Suite";
+  "Sundae, Core, Crew, Pulse, Benchmark, Watchtower, Insights, Sundae Intelligence, Foresight & Action, POS, Power BI, Tableau, Looker, SKU, Core Foundation, Core Margin, Core Growth, Core Performance, Crew Starter, Crew Schedule, Crew Manage, Crew Time, Crew Pay, Crew People, Schedule & Time, Crew Operating, Crew Complete";
 
 const languageInstructions: Record<WebsiteLocale, string> = {
   en: "English",

@@ -16,6 +16,16 @@
  */
 
 import { normalizeWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
+import {
+  bandedMonthlyTotal,
+  CORE_PACKAGES_BY_ID,
+  FORESIGHT_AND_ACTION,
+  CREW_BUNDLES,
+  CREW_SKUS,
+  describeBands,
+  usd,
+  type CorePackageId,
+} from "@/lib/pricing/priceBook";
 import { QUESTIONS } from "./questions";
 
 export type DiagnosticResponses = Record<string, string | string[]>;
@@ -69,7 +79,7 @@ export interface DiagnosticReport {
   recommendedStack: StackRecommendation[];
   expectedImpact: { metric: string; range: string }[];
   quickWins: QuickWin[];
-  /** Tier suggestion, e.g. "Core Plus + Crew Operating Suite" */
+  /** Package suggestion, e.g. "Core Margin + Crew Operating" */
   tierFit: string;
   /** Directional economics - cost, savings, EBITDA uplift, soft uplifts. Optional: present on the AI path and the heuristic path, absent only on sparse input. */
   economics?: Economics;
@@ -156,6 +166,42 @@ const money = (n: number): string =>
   : n >= 1_000 ? `$${(n / 1000).toFixed(1)}K`   // sub-$10K: one decimal so ranges don't collapse
   : `$${Math.round(n / 10) * 10}`;
 
+/**
+ * Which Core PACKAGE fits this operator.
+ *
+ * v1.7 differentiates the four Core packages by CAPABILITY, not by outlet
+ * count, so this is a product-fit heuristic driven by the gaps the operator
+ * actually flagged — never by price. It deliberately defaults DOWN to
+ * Foundation: under-recommending is recoverable, over-quoting is the exact
+ * failure mode this cutover exists to remove.
+ */
+const MARGIN_SIGNALS = new Set([
+  "real_time_margin", "daypart_leak", "hourly_food_cost", "theoretical_actual",
+  "item_profitability", "menu_engineering", "inventory_shrinkage", "food_waste",
+  "cash_variance", "void_comp",
+]);
+const GROWTH_SIGNALS = new Set([
+  "guest_ltv", "cohort_retention", "guest_retention", "guest_sentiment",
+  "promo_roi", "delivery_margin", "noshow_prediction",
+]);
+
+function pickCorePackage(
+  responses: DiagnosticResponses,
+  outlets: number,
+): CorePackageId {
+  const signals = [...arr(responses.kpis_wished), ...arr(responses.kpis_measured)];
+  const wantsMargin = signals.some((s) => MARGIN_SIGNALS.has(s));
+  const wantsGrowth = signals.some((s) => GROWTH_SIGNALS.has(s));
+  const multiRegionPayroll = arr(responses.payroll_regions).length >= 2;
+
+  // Large, multi-region groups carrying both margin AND growth gaps are the
+  // Performance profile. Everything else steps down from there.
+  if (outlets >= 26 && wantsMargin && (wantsGrowth || multiRegionPayroll)) return "core_performance";
+  if (wantsGrowth) return "core_growth";
+  if (wantsMargin) return "core_margin";
+  return "core_foundation";
+}
+
 function computeEconomics(
   responses: DiagnosticResponses,
   stack: StackRecommendation[],
@@ -166,36 +212,53 @@ function computeEconomics(
   const hasForesight = stack.some((s) => s.layer === "foresight");
 
   // ── Right-sized monthly investment ──────────────────────────────────
-  // Price the STARTING footprint against list pricing — the substrate the
-  // operator actually lands on, not a maximal end-state bundle. Each line is
-  // the SKU the recommendation engine actually chose (not always the priciest
-  // Crew tier), and capability that phases in with scale (Watchtower) is held
-  // out of the headline for small operators.
-  const coreTier = outlets <= 1 ? "Report Pro" : outlets <= 15 ? "Core Lite" : "Core Pro";
-  const [base, perLoc] = outlets <= 1 ? [159, 59] : outlets <= 15 ? [279, 79] : [449, 89];
-  let monthly = base + perLoc * outlets;        // Core includes Sundae Intelligence (NL-to-SQL)
-  // Crew: price the ACTUAL recommended tier, not a flat Operating Suite line.
+  // Price the STARTING footprint against the v1.7 price book — the substrate
+  // the operator actually lands on, not a maximal end-state bundle.
+  //
+  // Core packages and Foresight & Action are MARGINAL-BAND SKUs: a first-
+  // location anchor plus a marginal rate per additional location that steps
+  // down across bands. Crossing a band never reprices earlier locations, and
+  // there is no "included locations" allowance. Every figure below comes out
+  // of `bandedMonthlyTotal` — we never multiply a flat per-location rate.
+  const corePackage = CORE_PACKAGES_BY_ID[pickCorePackage(responses, outlets)];
+  const coreQuote = bandedMonthlyTotal(corePackage, outlets);
+  let monthly = coreQuote.monthlyTotal;   // Core includes Sundae Intelligence (NL-to-SQL)
+
+  // Above the published band ceiling (100 locations) the marginal rate is not
+  // published, so we must not extrapolate a number at all.
+  const beyondPublishedBands = coreQuote.beyondBandedRange;
+
+  // Crew: flat monthly SKUs in v1.7 — no per-location component.
+  const crewOperating = CREW_BUNDLES.find((s) => s.id === "crew_operating")!;
+  const crewScheduleTime = CREW_BUNDLES.find((s) => s.id === "crew_schedule_time")!;
+  const crewSchedule = CREW_SKUS.find((s) => s.id === "crew_schedule")!;
   let crewLabel = "";
   if (crew) {
-    if (/operating suite/i.test(crew.label)) {
-      monthly += 502 + 102 * outlets; crewLabel = "Crew Operating Suite";
-    } else if (/t&a/i.test(crew.label)) {
-      monthly += (179 + 39 * outlets) + (99 + 19 * outlets); crewLabel = "Crew Scheduling + T&A";
+    if (/crew operating/i.test(crew.label)) {
+      monthly += crewOperating.monthly; crewLabel = crewOperating.name;
+    } else if (/schedule & time/i.test(crew.label)) {
+      monthly += crewScheduleTime.monthly; crewLabel = crewScheduleTime.name;
     } else {
-      monthly += 179 + 39 * outlets; crewLabel = "Crew Scheduling";
+      monthly += crewSchedule.monthly; crewLabel = crewSchedule.name;
     }
   }
-  // Watchtower only enters the headline at scale (≥6 outlets); below that it's
-  // an expansion-path line, not part of the starting investment.
-  const watchInHeadline = hasWatch && outlets >= 6;
-  if (watchInHeadline) monthly += 199 + 19 * outlets;
-  if (hasForesight) monthly += 49 + 39 * outlets;   // Foresight add-on (modest)
+
+  // Foresight & Action is banded on the same boundaries as the Core packages.
+  const foresightQuote = hasForesight ? bandedMonthlyTotal(FORESIGHT_AND_ACTION, outlets) : null;
+  if (foresightQuote) monthly += foresightQuote.monthlyTotal;
+
+  // Watchtower carries no published v1.7 list price, so it is described as a
+  // quoted capability and deliberately kept OUT of the arithmetic. Quoting a
+  // number we do not have is exactly what this cutover removes.
 
   const costBasis = [
-    `${coreTier} (${money(base)} + ${money(perLoc)}/loc)`,
-    crewLabel && crewLabel,
-    watchInHeadline && "Watchtower",
-    hasForesight && "Foresight",
+    `${corePackage.name} (${usd(corePackage.firstUnitMonthly)} first location, then ${describeBands(corePackage)} per additional location)`,
+    crewLabel && `${crewLabel} (${usd(
+      crewLabel === crewOperating.name ? crewOperating.monthly
+      : crewLabel === crewScheduleTime.name ? crewScheduleTime.monthly
+      : crewSchedule.monthly,
+    )}/mo)`,
+    foresightQuote && `Foresight & Action (${usd(FORESIGHT_AND_ACTION.firstUnitMonthly)} first location, then ${describeBands(FORESIGHT_AND_ACTION)} per additional location)`,
   ].filter(Boolean).join(" + ");
 
   // ── Like-for-like: what you spend on this today (loaded) ────────────
@@ -244,13 +307,22 @@ function computeEconomics(
   softUplifts.push({ label: "Happier guests", detail: "Faster service and fewer stockouts/voids lift the experience that drives repeat visits." });
   softUplifts.push({ label: "Faster, calmer decisions", detail: "Signal-to-action drops from weekly close to same-day - the team acts before margin is booked." });
 
-  const expansionNote = hasWatch && !watchInHeadline ? " Watchtower phases in as you scale." : "";
+  const expansionNote = hasWatch ? " Watchtower is scoped and quoted separately." : "";
+
+  // Marginal bands are published to 100 locations. Past that we quote — we do
+  // not extrapolate a rate that does not exist.
+  const monthlyCost = beyondPublishedBands
+    ? {
+        range: "Enterprise - quoted",
+        basis: `${costBasis}. Above 100 locations the marginal bands give way to an Enterprise agreement, so we scope the figure with you rather than publish one.${expansionNote}`,
+      }
+    : {
+        range: `${money(monthly * 0.85)}-${money(monthly * 1.2)} / mo`,
+        basis: `${costBasis}, across ~${outlets} outlet${outlets === 1 ? "" : "s"} — ${usd(monthly)}/mo at list, a ${usd(coreQuote.blendedAveragePerUnit)} blended average per location on the Core line (an average of the total, not a per-location rate). Indicative list pricing, a starting footprint, not a quote.${expansionNote}`,
+      };
 
   return {
-    monthlyCost: {
-      range: `${money(monthly * 0.85)}-${money(monthly * 1.2)} / mo`,
-      basis: `${costBasis} across ~${outlets} outlet${outlets === 1 ? "" : "s"} (indicative list pricing — a starting footprint, not a quote).${expansionNote}`,
-    },
+    monthlyCost,
     currentSpend,
     ebitdaUplift,
     softUplifts: softUplifts.slice(0, 4),
@@ -357,12 +429,15 @@ export function runDiagnostic(
   // ─── Recommended stack ───────────────────────────────────────────
   const recommendedStack: StackRecommendation[] = [];
 
-  // Core layer baseline
+  // Core layer baseline — the package is chosen on capability fit, and every
+  // Core package already INCLUDES the eleven domain modules (they are package
+  // components in v1.7, never separate purchases).
+  const corePackage = CORE_PACKAGES_BY_ID[pickCorePackage(responses, outlets)];
   recommendedStack.push({
     layer: "core",
     label: "Sundae Core",
-    detail: outlets >= 16 ? "Core Plus" : outlets >= 2 ? "Core Lite" : "Report Pro",
-    why: "Unifies POS + labor + cost + ops into one decision substrate - replaces the BI/dashboard layer entirely.",
+    detail: corePackage.name,
+    why: "Unifies POS + labor + cost + ops into one decision substrate - replaces the BI/dashboard layer entirely. The eleven domain modules ship inside the package.",
   });
 
   // Pulse always
@@ -379,21 +454,21 @@ export function runDiagnostic(
     if (payrollScope.length >= 2) {
       recommendedStack.push({
         layer: "crew",
-        label: "Crew Operating Suite",
-        detail: "Operations + T&A + Payroll · multi-region country packs",
+        label: "Crew Operating",
+        detail: "Manage + Time + Pay · multi-region country packs",
         why: `Covers ${payrollScope.length} payroll regions with statutory exports + readiness checks.`,
       });
     } else if (has(responses.labor_pain, "buddy_punching") || has(responses.labor_pain, "no_show")) {
       recommendedStack.push({
         layer: "crew",
-        label: "Crew Scheduling + T&A",
+        label: "Schedule & Time",
         detail: "Schedule + clock-in with eligibility-checked assignment",
         why: "PWA clock-in eliminates buddy-punching and surfaces no-show risk before the shift starts.",
       });
     } else {
       recommendedStack.push({
         layer: "crew",
-        label: "Crew Scheduling",
+        label: "Crew Schedule",
         detail: "Deep scheduling with AI Builder + marketplace",
         why: "Replaces manual scheduling with eligibility-checked assignment + AI-generated drafts.",
       });
@@ -429,7 +504,7 @@ export function runDiagnostic(
   if (responses.forecasting === "lyear_gut" || responses.forecasting === "none" || arr(responses.scenario_wish).length >= 2) {
     recommendedStack.push({
       layer: "foresight",
-      label: "Foresight",
+      label: "Foresight & Action",
       detail: "14-90 day forecasts + scenario modeling",
       why: "Lets you stress-test new locations, menu changes, and staffing models before committing.",
     });
@@ -439,13 +514,13 @@ export function runDiagnostic(
   // Reflect the stack we ACTUALLY recommended (the real Crew tier, Watchtower
   // only if it cleared the scale gate) — never a hardcoded maximal bundle.
   const tierFit = (() => {
-    const coreTier = outlets >= 16 ? "Core Plus" : outlets >= 2 ? "Core Lite" : "Report Pro";
     const crewLabel = recommendedStack.find((s) => s.layer === "crew")?.label;
     const hasWatch = recommendedStack.some((s) => s.layer === "watchtower");
-    const parts = [coreTier];
+    const hasForesight = recommendedStack.some((s) => s.layer === "foresight");
+    const parts = [corePackage.name];
     if (crewLabel) parts.push(crewLabel);
+    if (hasForesight) parts.push("Foresight & Action");
     if (hasWatch) parts.push("Watchtower");
-    if (!crewLabel && !hasWatch) parts.push(recommendedStack.length >= 4 ? "Foresight" : "Core modules");
     return parts.join(" + ");
   })();
 

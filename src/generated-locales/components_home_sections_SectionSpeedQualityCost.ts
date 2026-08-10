@@ -9,39 +9,7 @@ export const generatedLocalCopy = {
       "oldRule": "القاعدة القديمة: اختر اثنين",
       "sundaeRule": "↓  قاعدة Sundae: اختر الثلاثة",
       "closing": "هذا ليس تبادلاً. هذه هي ميزتك التشغيلية.",
-      "costMetric": "مجاناً للبدء",
-      "vertices": [
-        {
-          "label": "السرعة",
-          "headline": "نشر في أيام. قرارات في ثوان.",
-          "body": "اربط أنظمتك بسرعة. Pulse يُحدّث البيانات أثناء الوردية، وSundae Intelligence يجيب مع ذكر المصادر بدلاً من إعادة الفرق إلى طابور انتظار التقارير.",
-          "chips": [
-            "أيام للنشر",
-            "تحديثات Core مباشرة",
-            "إجابات في ثوان"
-          ]
-        },
-        {
-          "label": "الجودة",
-          "headline": "مصمم للمطاعم. مُدار للقرارات.",
-          "body": "تأتي Sundae مع أكثر من 500 نموذج بيانات مطعم مُدار، ومعايير مرجعية قائمة على الأقران، وإجابات AI موثقة بالمصادر - لذا فإن الفرق لا تبني من لوحة BI فارغة.",
-          "chips": [
-            "500+ نموذج",
-            "AI موثقة بالمصادر",
-            "معايير مرجعية من الأقران"
-          ]
-        },
-        {
-          "label": "التكلفة",
-          "headline": "تكلفة أقل من إعادة بناء BI حول المطاعم.",
-          "body": "تراخيص BI هي فقط التكلفة المرئية. الإنفاق الحقيقي هو على المحللين، والتكاملات، والنماذج المخصصة، وصيانة لوحات المعلومات، والقرارات المتأخرة. Sundae جاهز للمطاعم من اليوم الأول، مع Report Lite مجاني للبدء.",
-          "chips": [
-            "Report Lite مجاني",
-            "BI مخصص أقل",
-            "عبء أقل على المحللين"
-          ]
-        }
-      ]
+      "costMetric": "مجاناً للبدء"
     },
     "fr": {
       "eyebrow": "LE FAUX DILEMME, C'EST FINI",
@@ -50,39 +18,7 @@ export const generatedLocalCopy = {
       "oldRule": "Ancienne règle : choisissez deux",
       "sundaeRule": "↓  Règle Sundae : choisissez les trois",
       "closing": "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
-      "costMetric": "Gratuit pour démarrer",
-      "vertices": [
-        {
-          "label": "Vitesse",
-          "headline": "Déployez en quelques jours. Décidez en quelques secondes.",
-          "body": "Connectez votre stack rapidement. Les mises à jour Pulse se font en cours de service, et Sundae Intelligence répond avec des sources au lieu de renvoyer des équipes dans la file d'attente des rapports.",
-          "chips": [
-            "Jours pour déployer",
-            "Rafraîchissement Core en direct",
-            "Réponses en secondes"
-          ]
-        },
-        {
-          "label": "Qualité",
-          "headline": "Conçu pour les restaurants. Gouverné pour les décisions.",
-          "body": "Sundae est livré avec plus de 500 modèles de données de restaurants gouvernés, des benchmarks ancrés sur les pairs et des réponses AI sourcées - ainsi, les équipes ne partent pas d'une page blanche de BI.",
-          "chips": [
-            "Plus de 500 modèles",
-            "AI sourcée",
-            "Benchmarks entre pairs"
-          ]
-        },
-        {
-          "label": "Coût",
-          "headline": "Coût inférieur à la reconstruction de la BI autour des restaurants.",
-          "body": "Les licences BI ne sont que le coût visible. La vraie dépense concerne les analystes, les intégrations, les modèles personnalisés, l'entretien des tableaux de bord et les décisions retardées. Sundae est prêt pour les restaurants dès le premier jour, avec Report Lite gratuit pour commencer.",
-          "chips": [
-            "Report Lite gratuit",
-            "Moins de BI personnalisée",
-            "Charge d'analyste réduite"
-          ]
-        }
-      ]
+      "costMetric": "Gratuit pour démarrer"
     },
     "es": {
       "eyebrow": "SE ACABÓ LA FALSA DISYUNTIVA",
@@ -91,39 +27,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regla antigua: elige dos",
       "sundaeRule": "↓  Regla Sundae: elige los tres",
       "closing": "Eso no es un compromiso. Esa es tu ventaja operativa.",
-      "costMetric": "Gratis para empezar",
-      "vertices": [
-        {
-          "label": "Velocidad",
-          "headline": "Despliega en días. Decide en segundos.",
-          "body": "Conecta tu stack rápidamente. Pulse se actualiza durante el turno y Sundae Intelligence responde citando fuentes en lugar de devolver a los equipos a la cola de informes.",
-          "chips": [
-            "Días para desplegar",
-            "Actualización en vivo de Core",
-            "Respuestas en segundos"
-          ]
-        },
-        {
-          "label": "Calidad",
-          "headline": "Construido para restaurantes. Gobernado para decisiones.",
-          "body": "Sundae incluye más de 500 modelos de datos de restaurante gobernados, benchmarks anclados en datos de pares y respuestas de IA con fuentes citadas - así los equipos no parten de un lienzo de BI en blanco.",
-          "chips": [
-            "Más de 500 modelos",
-            "IA con fuentes citadas",
-            "Benchmarks entre pares"
-          ]
-        },
-        {
-          "label": "Costo",
-          "headline": "Costo más bajo que reconstruir BI alrededor de restaurantes.",
-          "body": "Las licencias de BI son solo el costo visible. El gasto real son analistas, integraciones, modelos personalizados, mantenimiento de paneles y decisiones retrasadas. Sundae está listo para restaurantes desde el primer día, con Report Lite gratis para comenzar.",
-          "chips": [
-            "Report Lite gratis",
-            "Menos BI personalizado",
-            "Menor carga de analistas"
-          ]
-        }
-      ]
+      "costMetric": "Gratis para empezar"
     },
     "de": {
       "eyebrow": "DIE FALSCHE WAHL IST VORBEI",
@@ -132,39 +36,7 @@ export const generatedLocalCopy = {
       "oldRule": "Alte Regel: Wählen Sie zwei",
       "sundaeRule": "↓  Sundae-Regel: Wählen Sie alle drei",
       "closing": "Das ist kein Kompromiss. Das ist Ihr Betriebsvorteil.",
-      "costMetric": "Kostenlos starten",
-      "vertices": [
-        {
-          "label": "Geschwindigkeit",
-          "headline": "In Tagen bereit. In Sekunden entscheiden.",
-          "body": "Verbinden Sie Ihren Stack schnell. Pulse-Updates während der Schicht, und Sundae Intelligence antwortet mit Quellen, anstatt Teams zurück in die Berichtswarteschlange zu schicken.",
-          "chips": [
-            "Tage bis zur Bereitstellung",
-            "Live Core-Aktualisierung",
-            "Antworten in Sekunden"
-          ]
-        },
-        {
-          "label": "Qualität",
-          "headline": "Für Restaurants gebaut. Für Entscheidungen aufbereitet.",
-          "body": "Sundae bringt über 500 kuratierte Restaurant-Datenmodelle, branchenweite Vergleichswerte und KI-Antworten mit Quellenangabe mit - so müssen Teams nicht bei einer leeren BI-Leinwand anfangen.",
-          "chips": [
-            "Über 500 Modelle",
-            "KI mit Quellenangabe",
-            "Branchen-Benchmarks"
-          ]
-        },
-        {
-          "label": "Kosten",
-          "headline": "Geringere Kosten als der Wiederaufbau von BI für Restaurants.",
-          "body": "BI-Lizenzen sind nur die sichtbaren Kosten. Die tatsächlichen Ausgaben sind Analysten, Integrationen, benutzerdefinierte Modelle, Dashboard-Pflege und verzögerte Entscheidungen. Sundae ist ab dem ersten Tag restaurantbereit, mit Report Lite kostenlos zum Start.",
-          "chips": [
-            "Report Lite kostenlos",
-            "Weniger benutzerdefinierte BI",
-            "Geringere Analystenlast"
-          ]
-        }
-      ]
+      "costMetric": "Kostenlos starten"
     },
     "nl": {
       "eyebrow": "DE VALSE KEUZE IS VOORBIJ",
@@ -173,39 +45,7 @@ export const generatedLocalCopy = {
       "oldRule": "Oude regel: kies er twee",
       "sundaeRule": "↓  Sundae regel: kies ze allemaal",
       "closing": "Dat is geen afweging. Dat is jouw operationeel voordeel.",
-      "costMetric": "Gratis starten",
-      "vertices": [
-        {
-          "label": "Snelheid",
-          "headline": "Implementeren in dagen. Beslissen in seconden.",
-          "body": "Verbind je stack snel. Pulse-updates tijdens de shift, en Sundae Intelligence geeft antwoorden met bronnen in plaats van teams terug te sturen naar de rapportwachtrij.",
-          "chips": [
-            "Dagen om te implementeren",
-            "Live Core-update",
-            "Antwoorden in seconden"
-          ]
-        },
-        {
-          "label": "Kwaliteit",
-          "headline": "Gebouwd voor restaurants. Beheerd voor beslissingen.",
-          "body": "Sundae wordt geleverd met 500+ beheerde restaurantdatamodellen, peer-gebaseerde benchmarks en bronvermelde AI-antwoorden - zodat teams niet vanaf een blanco BI-canvas hoeven te bouwen.",
-          "chips": [
-            "500+ modellen",
-            "Bronvermelde AI",
-            "Peer benchmarks"
-          ]
-        },
-        {
-          "label": "Kosten",
-          "headline": "Lagere kosten dan het opnieuw opbouwen van BI rond restaurants.",
-          "body": "BI-licenties zijn slechts de zichtbare kosten. De echte uitgaven zijn analisten, integraties, aangepaste modellen, dashboardonderhoud en vertraagde beslissingen. Sundae is vanaf dag één restaurant-klaar, met Report Lite gratis om te beginnen.",
-          "chips": [
-            "Report Lite gratis",
-            "Minder aangepaste BI",
-            "Lagere belasting voor analisten"
-          ]
-        }
-      ]
+      "costMetric": "Gratis starten"
     },
     "pt": {
       "eyebrow": "A FALSA ESCOLHA ACABOU",
@@ -214,39 +54,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regra antiga: escolha dois",
       "sundaeRule": "↓ Regra Sundae: escolha os três",
       "closing": "Isso não é uma troca. Essa é sua vantagem operacional.",
-      "costMetric": "Grátis para começar",
-      "vertices": [
-        {
-          "label": "Velocidade",
-          "headline": "Implante em dias. Decida em segundos.",
-          "body": "Conecte seu stack rapidamente. O Pulse atualiza durante o turno e a Sundae Intelligence responde citando fontes em vez de devolver as equipes para a fila de relatórios.",
-          "chips": [
-            "Dias para implantar",
-            "Atualização ao vivo do Core",
-            "Respostas em segundos"
-          ]
-        },
-        {
-          "label": "Qualidade",
-          "headline": "Construído para restaurantes. Governado para decisões.",
-          "body": "A Sundae vem com mais de 500 modelos de dados de restaurantes governados, benchmarks ancorados por pares e respostas de IA citadas por fontes - para que as equipes não construam a partir de uma tela em branco de BI.",
-          "chips": [
-            "Mais de 500 modelos",
-            "IA citada por fontes",
-            "Benchmarks de pares"
-          ]
-        },
-        {
-          "label": "Custo",
-          "headline": "Custo menor do que reconstruir BI em torno de restaurantes.",
-          "body": "As licenças de BI são apenas o custo visível. O verdadeiro gasto são analistas, integrações, modelos personalizados, manutenção de painéis e decisões atrasadas. A Sundae está pronta para restaurantes desde o primeiro dia, com o Report Lite gratuito para começar.",
-          "chips": [
-            "Report Lite gratuito",
-            "Menos BI personalizado",
-            "Menos carga para analistas"
-          ]
-        }
-      ]
+      "costMetric": "Grátis para começar"
     },
     "hi": {
       "eyebrow": "झूठा विकल्प अब खत्म हुआ",
@@ -255,39 +63,7 @@ export const generatedLocalCopy = {
       "oldRule": "पुराना नियम: दो चुनें",
       "sundaeRule": "↓  Sundae नियम: तीनों चुनें",
       "closing": "यह कोई ट्रेडऑफ नहीं है। यह आपका संचालन लाभ है।",
-      "costMetric": "मुफ़्त में शुरू करें",
-      "vertices": [
-        {
-          "label": "गति",
-          "headline": "दिनों में तैनात करें। सेकंड में निर्णय लें।",
-          "body": "अपने स्टैक को तेज़ी से कनेक्ट करें। Pulse शिफ्ट के दौरान अपडेट होता रहता है, और Sundae Intelligence टीमों को रिपोर्ट की कतार में वापस भेजने के बजाय स्रोतों के साथ जवाब देता है।",
-          "chips": [
-            "तैनाती के लिए दिन",
-            "लाइव कोर रिफ्रेश",
-            "सेकंड में जवाब"
-          ]
-        },
-        {
-          "label": "गुणवत्ता",
-          "headline": "रेस्टोरेंट्स के लिए बनाया गया। निर्णयों के लिए शासित।",
-          "body": "Sundae 500+ शासित रेस्टोरेंट डेटा मॉडल, समकक्ष बेंचमार्क और स्रोत-उल्लेखित AI उत्तरों के साथ आता है - ताकि टीमें एक खाली BI कैनवास से न बनाएं।",
-          "chips": [
-            "500+ मॉडल",
-            "स्रोत-उल्लेखित AI",
-            "समकक्ष बेंचमार्क"
-          ]
-        },
-        {
-          "label": "लागत",
-          "headline": "रेस्टोरेंट्स के चारों ओर BI को फिर से बनाने से कम लागत।",
-          "body": "BI लाइसेंस केवल दृश्य लागत हैं। असली खर्च विश्लेषकों, एकीकरणों, कस्टम मॉडल, डैशबोर्ड रखरखाव, और विलंबित निर्णय हैं। Sundae पहले दिन से रेस्टोरेंट-तैयार है, Report Lite के साथ मुफ्त शुरू करने के लिए।",
-          "chips": [
-            "Report Lite मुफ्त",
-            "कम कस्टम BI",
-            "कम विश्लेषक लोड"
-          ]
-        }
-      ]
+      "costMetric": "मुफ़्त में शुरू करें"
     },
     "ur": {
       "eyebrow": "جھوٹا انتخاب اب ختم ہو چکا ہے",
@@ -296,39 +72,7 @@ export const generatedLocalCopy = {
       "oldRule": "پرانا اصول: دو منتخب کریں",
       "sundaeRule": "↓  Sundae اصول: تینوں منتخب کریں",
       "closing": "یہ کوئی سمجھوتہ نہیں ہے۔ یہ آپ کا آپریٹنگ فائدہ ہے۔",
-      "costMetric": "مفت میں شروع کریں",
-      "vertices": [
-        {
-          "label": "رفتار",
-          "headline": "دنوں میں تعینات کریں۔ سیکنڈز میں فیصلہ کریں۔",
-          "body": "اپنی اسٹیک کو تیزی سے جوڑیں۔ شفٹ کے دوران Pulse اپ ڈیٹس، اور Sundae Intelligence ذرائع کے ساتھ جواب دیتا ہے بجائے اس کے کہ ٹیموں کو رپورٹ کی قطار میں واپس بھیجے۔",
-          "chips": [
-            "تعیناتی کے لیے دن",
-            "لائیو Core ریفریش",
-            "سیکنڈز میں جوابات"
-          ]
-        },
-        {
-          "label": "معیار",
-          "headline": "ریستورانوں کے لیے بنایا گیا۔ فیصلوں کے لیے منظم۔",
-          "body": "Sundae 500+ منظم ریستورانی ڈیٹا ماڈلز، ہم مرتبہ کی بنیاد پر بینچ مارکس، اور ماخذ کے حوالے سے AI جوابات کے ساتھ آتا ہے - تاکہ ٹیمیں خالی BI کینوس سے تعمیر نہ کریں۔",
-          "chips": [
-            "500+ ماڈلز",
-            "ماخذ کے حوالے سے AI",
-            "ہم مرتبہ بینچ مارکس"
-          ]
-        },
-        {
-          "label": "قیمت",
-          "headline": "ریستورانوں کے گرد BI کو دوبارہ بنانے سے کم قیمت۔",
-          "body": "BI لائسنس صرف نظر آنے والی قیمت ہیں۔ اصل خرچ تجزیہ کار، انضمام، حسب ضرورت ماڈلز، ڈیش بورڈ کی دیکھ بھال، اور تاخیر سے فیصلے ہیں۔ Sundae پہلے دن سے ریستوران کے لیے تیار ہے، Report Lite کے ساتھ شروع کرنے کے لیے مفت۔",
-          "chips": [
-            "Report Lite مفت",
-            "کم حسب ضرورت BI",
-            "کم تجزیہ کار کا بوجھ"
-          ]
-        }
-      ]
+      "costMetric": "مفت میں شروع کریں"
     },
     "it": {
       "eyebrow": "LA FALSA SCELTA È FINITA",
@@ -337,39 +81,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regola vecchia: scegli due",
       "sundaeRule": "↓  Regola Sundae: scegli tutti e tre",
       "closing": "Non è un compromesso. È il tuo vantaggio operativo.",
-      "costMetric": "Gratis per iniziare",
-      "vertices": [
-        {
-          "label": "Velocità",
-          "headline": "Implementa in giorni. Decidi in secondi.",
-          "body": "Collega rapidamente il tuo stack. Aggiornamenti Pulse durante il turno, e Sundae Intelligence risponde con fonti invece di rimandare i team nella coda dei report.",
-          "chips": [
-            "Giorni per implementare",
-            "Aggiornamento Core in tempo reale",
-            "Risposte in secondi"
-          ]
-        },
-        {
-          "label": "Qualità",
-          "headline": "Progettato per i ristoranti. Governato per le decisioni.",
-          "body": "Sundae viene fornito con oltre 500 modelli di dati governati per ristoranti, benchmark ancorati tra pari e risposte AI citate da fonti - così i team non devono partire da una tela BI vuota.",
-          "chips": [
-            "Oltre 500 modelli",
-            "AI citata da fonti",
-            "Benchmark tra pari"
-          ]
-        },
-        {
-          "label": "Costo",
-          "headline": "Costo inferiore rispetto alla ricostruzione della BI attorno ai ristoranti.",
-          "body": "Le licenze BI sono solo il costo visibile. La vera spesa è per analisti, integrazioni, modelli personalizzati, manutenzione dei dashboard e decisioni ritardate. Sundae è pronto per i ristoranti fin dal primo giorno, con Report Lite gratuito per iniziare.",
-          "chips": [
-            "Report Lite gratuito",
-            "Meno BI personalizzata",
-            "Carico analista ridotto"
-          ]
-        }
-      ]
+      "costMetric": "Gratis per iniziare"
     },
     "pl": {
       "eyebrow": "FAŁSZYWY WYBÓR SIĘ SKOŃCZYŁ",
@@ -378,39 +90,7 @@ export const generatedLocalCopy = {
       "oldRule": "Stara zasada: wybierz dwa",
       "sundaeRule": "↓  Zasada Sundae: wybierz wszystkie trzy",
       "closing": "To nie jest kompromis. To twoja przewaga operacyjna.",
-      "costMetric": "Za darmo na start",
-      "vertices": [
-        {
-          "label": "Szybkość",
-          "headline": "Wdrożenie w ciągu dni. Decyzje w ciągu sekund.",
-          "body": "Szybko połącz swoją infrastrukturę. Pulse aktualizuje dane w trakcie zmiany, a Sundae Intelligence odpowiada ze źródłami, zamiast odsyłać zespoły z powrotem do kolejki raportów.",
-          "chips": [
-            "Dni do wdrożenia",
-            "Odświeżanie Core na żywo",
-            "Odpowiedzi w sekundach"
-          ]
-        },
-        {
-          "label": "Jakość",
-          "headline": "Stworzone dla restauracji. Zarządzane dla decyzji.",
-          "body": "Sundae dostarcza ponad 500 zarządzanych modeli danych restauracyjnych, benchmarki oparte na danych innych restauracji i odpowiedzi AI z podaniem źródeł - dzięki czemu zespoły nie zaczynają od pustej kartki BI.",
-          "chips": [
-            "Ponad 500 modeli",
-            "AI z podaniem źródeł",
-            "Benchmarki branżowe"
-          ]
-        },
-        {
-          "label": "Koszt",
-          "headline": "Niższy koszt niż przebudowa BI wokół restauracji.",
-          "body": "Licencje BI to tylko widoczny koszt. Prawdziwe wydatki to analitycy, integracje, modele niestandardowe, utrzymanie pulpitów i opóźnione decyzje. Sundae jest gotowe dla restauracji od pierwszego dnia, z Report Lite za darmo na start.",
-          "chips": [
-            "Report Lite za darmo",
-            "Mniej niestandardowego BI",
-            "Niższe obciążenie analityków"
-          ]
-        }
-      ]
+      "costMetric": "Za darmo na start"
     },
     "tr": {
       "eyebrow": "SAHTE TERCİH ARTIK SONA ERDİ",
@@ -419,39 +99,7 @@ export const generatedLocalCopy = {
       "oldRule": "Eski kural: iki tanesini seçin",
       "sundaeRule": "↓  Sundae kuralı: üçünü de seçin",
       "closing": "Bu bir denge değil. Bu, işletme avantajınızdır.",
-      "costMetric": "Ücretsiz başlayın",
-      "vertices": [
-        {
-          "label": "Hız",
-          "headline": "Günler içinde dağıtım. Saniyeler içinde karar verin.",
-          "body": "Sisteminizi hızlıca bağlayın. Pulse vardiya boyunca güncellenir ve Sundae Intelligence, ekipleri rapor kuyruğuna geri göndermek yerine kaynak göstererek yanıt verir.",
-          "chips": [
-            "Dağıtım için günler",
-            "Canlı Core güncellemesi",
-            "Saniyeler içinde yanıtlar"
-          ]
-        },
-        {
-          "label": "Kalite",
-          "headline": "Restoranlar için tasarlandı. Kararlar için düzenlendi.",
-          "body": "Sundae, 500'dan fazla yönetilen restoran veri modeli, akran destekli kıyaslamalar ve kaynak belirtilmiş AI yanıtları ile birlikte gelir - böylece ekipler boş bir BI tuvali üzerinden inşa etmek zorunda kalmazlar.",
-          "chips": [
-            "500+ model",
-            "Kaynak belirtilmiş AI",
-            "Akran kıyaslamaları"
-          ]
-        },
-        {
-          "label": "Maliyet",
-          "headline": "Restoranlar etrafında BI'yi yeniden inşa etmekten daha düşük maliyet.",
-          "body": "BI lisansları yalnızca görünür maliyettir. Gerçek harcama analistler, entegrasyonlar, özel modeller, gösterge panosu bakımı ve gecikmiş kararlar üzerinedir. Sundae, ilk günden itibaren restoran hazırdır ve Report Lite ile ücretsiz başlayabilirsiniz.",
-          "chips": [
-            "Report Lite ücretsiz",
-            "Daha az özel BI",
-            "Daha düşük analist yükü"
-          ]
-        }
-      ]
+      "costMetric": "Ücretsiz başlayın"
     },
     "zh-Hans": {
       "eyebrow": "非此即彼的伪命题已成过去",
@@ -460,39 +108,7 @@ export const generatedLocalCopy = {
       "oldRule": "旧规则：选择两个",
       "sundaeRule": "↓  Sundae 规则：三者兼得",
       "closing": "这不是权衡。这是你的运营优势。",
-      "costMetric": "免费起步",
-      "vertices": [
-        {
-          "label": "速度",
-          "headline": "几天内部署。几秒内决策。",
-          "body": "快速连接你的技术栈。Pulse 在班次进行中实时更新，Sundae Intelligence 引用来源作答，而不是把团队打回报告队列继续排队。",
-          "chips": [
-            "几天部署",
-            "实时 Core 刷新",
-            "几秒内回答"
-          ]
-        },
-        {
-          "label": "质量",
-          "headline": "为餐厅而建。为决策而管控。",
-          "body": "Sundae 配备 500+ 个受管控的餐厅数据模型、同行基准和来源引用的 AI 答案--这样团队就不必从空白的 BI 画布开始构建。",
-          "chips": [
-            "500+ 模型",
-            "来源引用的 AI",
-            "同行基准"
-          ]
-        },
-        {
-          "label": "成本",
-          "headline": "比围绕餐厅重建 BI 更低的成本。",
-          "body": "BI 许可证只是可见的成本。真正的支出是分析师、集成、自定义模型、仪表板维护和延迟决策。Sundae 从第一天起就为餐厅准备好，Report Lite 免费开始。",
-          "chips": [
-            "Report Lite 免费",
-            "更少的自定义 BI",
-            "降低分析师负担"
-          ]
-        }
-      ]
+      "costMetric": "免费起步"
     },
     "ja": {
       "eyebrow": "二者択一という幻想は終わった",
@@ -501,39 +117,7 @@ export const generatedLocalCopy = {
       "oldRule": "古いルール：2つを選ぶ",
       "sundaeRule": "↓  Sundaeのルール：すべてを選ぶ",
       "closing": "それはトレードオフではありません。それがあなたの運営上の優位性です。",
-      "costMetric": "無料で始められる",
-      "vertices": [
-        {
-          "label": "スピード",
-          "headline": "数日で展開。数秒で決定。",
-          "body": "スタックを迅速に接続します。シフト中にPulseが更新され、Sundae Intelligenceがチームをレポートキューに戻すのではなく、情報源で回答します。",
-          "chips": [
-            "展開までの日数",
-            "ライブCoreリフレッシュ",
-            "数秒での回答"
-          ]
-        },
-        {
-          "label": "品質",
-          "headline": "レストランのために構築。意思決定のために管理。",
-          "body": "Sundaeは、500以上の管理されたレストランデータモデル、ピアに基づくベンチマーク、情報源を引用したAI回答を搭載しているため、チームは空白のBIキャンバスから構築する必要がありません。",
-          "chips": [
-            "500以上のモデル",
-            "情報源を引用したAI",
-            "ピアベンチマーク"
-          ]
-        },
-        {
-          "label": "コスト",
-          "headline": "レストランを中心にBIを再構築するよりも低コスト。",
-          "body": "BIライセンスは目に見えるコストに過ぎません。実際の支出は、アナリスト、統合、カスタムモデル、ダッシュボードの維持、遅延した意思決定です。Sundaeは初日からレストランに対応しており、Report Liteは無料で始められます。",
-          "chips": [
-            "Report Lite無料",
-            "カスタムBIが少ない",
-            "アナリストの負担が軽減"
-          ]
-        }
-      ]
+      "costMetric": "無料で始められる"
     },
     "ko": {
       "eyebrow": "잘못된 양자택일은 끝났습니다",
@@ -542,39 +126,7 @@ export const generatedLocalCopy = {
       "oldRule": "구식 규칙: 두 가지 선택",
       "sundaeRule": "↓  Sundae 규칙: 세 가지 모두 선택",
       "closing": "이것은 트레이드오프가 아닙니다. 이것이 귀하의 운영 우위입니다.",
-      "costMetric": "무료로 시작",
-      "vertices": [
-        {
-          "label": "속도",
-          "headline": "며칠 내에 배포. 몇 초 내에 결정.",
-          "body": "스택을 빠르게 연결하세요. Pulse는 교대 근무 중에도 실시간으로 갱신되고, Sundae Intelligence는 팀을 보고서 대기열로 돌려보내는 대신 출처와 함께 답변합니다.",
-          "chips": [
-            "배포까지 며칠",
-            "실시간 Core 새로 고침",
-            "몇 초 내에 답변"
-          ]
-        },
-        {
-          "label": "품질",
-          "headline": "레스토랑을 위해 구축되었습니다. 결정을 위해 관리됩니다.",
-          "body": "Sundae는 500개 이상의 관리된 레스토랑 데이터 모델, 동료 기반 벤치마크 및 출처 인용 AI 답변을 제공합니다 - 따라서 팀은 빈 BI 캔버스에서 시작하지 않습니다.",
-          "chips": [
-            "500개 이상의 모델",
-            "출처 인용 AI",
-            "동료 벤치마크"
-          ]
-        },
-        {
-          "label": "비용",
-          "headline": "레스토랑을 중심으로 BI를 재구축하는 것보다 비용이 낮습니다.",
-          "body": "BI 라이센스는 눈에 보이는 비용일 뿐입니다. 실제 지출은 분석가, 통합, 맞춤형 모델, 대시보드 유지 관리 및 지연된 결정입니다. Sundae는 첫날부터 레스토랑 준비가 되어 있으며, Report Lite는 무료로 시작할 수 있습니다.",
-          "chips": [
-            "Report Lite 무료",
-            "맞춤형 BI 감소",
-            "분석가 부담 감소"
-          ]
-        }
-      ]
+      "costMetric": "무료로 시작"
     },
     "id": {
       "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
@@ -583,39 +135,7 @@ export const generatedLocalCopy = {
       "oldRule": "Aturan lama: pilih dua",
       "sundaeRule": "↓  Aturan Sundae: pilih ketiganya",
       "closing": "Itu bukan kompromi. Itu adalah keunggulan operasional Anda.",
-      "costMetric": "Gratis untuk memulai",
-      "vertices": [
-        {
-          "label": "Kecepatan",
-          "headline": "Terapkan dalam hitungan hari. Putuskan dalam hitungan detik.",
-          "body": "Sambungkan tumpukan Anda dengan cepat. Pembaruan Pulse selama shift, dan Sundae Intelligence menjawab dengan sumber daripada mengirim tim kembali ke antrean laporan.",
-          "chips": [
-            "Hari untuk diterapkan",
-            "Pembaruan Core langsung",
-            "Jawaban dalam detik"
-          ]
-        },
-        {
-          "label": "Kualitas",
-          "headline": "Dibangun untuk restoran. Dikelola untuk keputusan.",
-          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikelola, tolok ukur yang terhubung dengan rekan, dan jawaban AI yang bersumber - sehingga tim tidak membangun dari kanvas BI yang kosong.",
-          "chips": [
-            "500+ model",
-            "AI bersumber",
-            "Tolok ukur rekan"
-          ]
-        },
-        {
-          "label": "Biaya",
-          "headline": "Biaya lebih rendah daripada membangun kembali BI untuk restoran.",
-          "body": "Lisensi BI hanyalah biaya yang terlihat. Pengeluaran sebenarnya adalah analis, integrasi, model kustom, pemeliharaan dasbor, dan keputusan yang tertunda. Sundae siap untuk restoran sejak hari pertama, dengan Report Lite gratis untuk memulai.",
-          "chips": [
-            "Report Lite gratis",
-            "BI kustom lebih sedikit",
-            "Beban analis lebih rendah"
-          ]
-        }
-      ]
+      "costMetric": "Gratis untuk memulai"
     },
     "vi": {
       "eyebrow": "LỰA CHỌN ĐÁNH ĐỔI SAI LẦM ĐÃ CHẤM DỨT",
@@ -624,39 +144,7 @@ export const generatedLocalCopy = {
       "oldRule": "Quy tắc cũ: chọn hai",
       "sundaeRule": "↓  Quy tắc Sundae: chọn cả ba",
       "closing": "Đó không phải là sự trao đổi. Đó là lợi thế hoạt động của bạn.",
-      "costMetric": "Miễn phí để bắt đầu",
-      "vertices": [
-        {
-          "label": "Tốc độ",
-          "headline": "Triển khai trong vài ngày. Quyết định trong vài giây.",
-          "body": "Kết nối hệ thống của bạn nhanh chóng. Pulse cập nhật liên tục ngay trong ca làm việc, và Sundae Intelligence trả lời kèm nguồn dẫn thay vì đẩy đội ngũ quay lại hàng đợi báo cáo.",
-          "chips": [
-            "Ngày để triển khai",
-            "Làm mới Core trực tiếp",
-            "Câu trả lời trong vài giây"
-          ]
-        },
-        {
-          "label": "Chất lượng",
-          "headline": "Xây dựng cho các nhà hàng. Quản lý cho các quyết định.",
-          "body": "Sundae đi kèm với hơn 500 mô hình dữ liệu nhà hàng được quản lý, các tiêu chuẩn so sánh từ đồng nghiệp, và các câu trả lời AI có nguồn gốc - vì vậy các đội không phải xây dựng từ một bảng BI trống.",
-          "chips": [
-            "Hơn 500 mô hình",
-            "AI có nguồn gốc",
-            "Tiêu chuẩn từ đồng nghiệp"
-          ]
-        },
-        {
-          "label": "Chi phí",
-          "headline": "Chi phí thấp hơn so với việc xây dựng lại BI cho các nhà hàng.",
-          "body": "Giấy phép BI chỉ là chi phí hiển thị. Chi phí thực sự là các nhà phân tích, tích hợp, mô hình tùy chỉnh, bảo trì bảng điều khiển, và quyết định bị trì hoãn. Sundae đã sẵn sàng cho nhà hàng ngay từ ngày đầu tiên, với Report Lite miễn phí để bắt đầu.",
-          "chips": [
-            "Report Lite miễn phí",
-            "Ít BI tùy chỉnh hơn",
-            "Giảm tải cho nhà phân tích"
-          ]
-        }
-      ]
+      "costMetric": "Miễn phí để bắt đầu"
     },
     "ro": {
       "eyebrow": "FALSA ALEGERE S-A TERMINAT",
@@ -665,39 +153,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regula veche: alege două",
       "sundaeRule": "↓  Regula Sundae: alege toate trei",
       "closing": "Asta nu este un compromis. Asta este avantajul tău operațional.",
-      "costMetric": "Gratuit la început",
-      "vertices": [
-        {
-          "label": "Viteză",
-          "headline": "Implementare în zile. Decizii în secunde.",
-          "body": "Conectează-ți rapid stiva. Pulse se actualizează în timpul turei, iar Sundae Intelligence răspunde cu surse citate în loc să trimită echipele înapoi în coada de rapoarte.",
-          "chips": [
-            "Zile pentru implementare",
-            "Actualizare Core live",
-            "Răspunsuri în secunde"
-          ]
-        },
-        {
-          "label": "Calitate",
-          "headline": "Construit pentru restaurante. Reglementat pentru decizii.",
-          "body": "Sundae vine cu 500+ modele de date reglementate pentru restaurante, benchmark-uri ancorate de colegi și răspunsuri AI citate din surse - astfel echipele nu construiesc de la un canvas BI gol.",
-          "chips": [
-            "500+ modele",
-            "AI citat din surse",
-            "Benchmark-uri de colegi"
-          ]
-        },
-        {
-          "label": "Cost",
-          "headline": "Cost mai mic decât reconstruirea BI în jurul restaurantelor.",
-          "body": "Licențele BI sunt doar costul vizibil. Cheltuielile reale sunt analiștii, integrarea, modelele personalizate, întreținerea tablourilor de bord și deciziile întârziate. Sundae este pregătit pentru restaurante încă din prima zi, cu Report Lite gratuit pentru a începe.",
-          "chips": [
-            "Report Lite gratuit",
-            "Mai puțin BI personalizat",
-            "Încărcare mai mică pentru analiști"
-          ]
-        }
-      ]
+      "costMetric": "Gratuit la început"
     },
     "sv": {
       "eyebrow": "DET FALSKA VALET ÄR ÖVER",
@@ -706,39 +162,7 @@ export const generatedLocalCopy = {
       "oldRule": "Gammal regel: välj två",
       "sundaeRule": "↓  Sundae-regel: välj alla tre",
       "closing": "Det är ingen avvägning. Det är din operativa fördel.",
-      "costMetric": "Gratis att komma igång",
-      "vertices": [
-        {
-          "label": "Hastighet",
-          "headline": "Implementera på dagar. Bestäm på sekunder.",
-          "body": "Anslut din stack snabbt. Pulse uppdateras under skiftet, och Sundae Intelligence svarar med källor i stället för att skicka tillbaka teamen till rapportkön.",
-          "chips": [
-            "Dagar att implementera",
-            "Live Core-uppdatering",
-            "Svar på sekunder"
-          ]
-        },
-        {
-          "label": "Kvalitet",
-          "headline": "Byggd för restauranger. Styrd för beslut.",
-          "body": "Sundae levereras med 500+ styrda restaurangdatamodeller, peer-ankrade riktmärken och källciterade AI-svar - så teamen bygger inte från en tom BI-canvas.",
-          "chips": [
-            "500+ modeller",
-            "Källciterad AI",
-            "Peer-riktmärken"
-          ]
-        },
-        {
-          "label": "Kostnad",
-          "headline": "Lägre kostnad än att bygga om BI kring restauranger.",
-          "body": "BI-licenser är bara den synliga kostnaden. Den verkliga utgiften är analytiker, integrationer, anpassade modeller, dashboard-underhåll och fördröjda beslut. Sundae är restaurangredo från dag ett, med Report Lite gratis att börja med.",
-          "chips": [
-            "Report Lite gratis",
-            "Mindre anpassad BI",
-            "Lägre analytikerbelastning"
-          ]
-        }
-      ]
+      "costMetric": "Gratis att komma igång"
     },
     "bn": {
       "eyebrow": "ভুয়া বাছাই এখন অতীত",
@@ -747,39 +171,7 @@ export const generatedLocalCopy = {
       "oldRule": "পুরনো নিয়ম: দুটি বেছে নিন",
       "sundaeRule": "↓  Sundae নিয়ম: তিনটি বেছে নিন",
       "closing": "এটি ট্রেডঅফ নয়। এটি আপনার কার্যকরী সুবিধা।",
-      "costMetric": "বিনামূল্যে শুরু করুন",
-      "vertices": [
-        {
-          "label": "গতি",
-          "headline": "কিছু দিনের মধ্যে স্থাপন করুন। কয়েক সেকেন্ডে সিদ্ধান্ত নিন।",
-          "body": "আপনার স্ট্যাক দ্রুত সংযুক্ত করুন। Pulse শিফট চলাকালীনই আপডেট হয়, আর Sundae Intelligence দলকে রিপোর্টের সারিতে ফেরত না পাঠিয়ে সূত্রসহ উত্তর দেয়।",
-          "chips": [
-            "স্থাপনের জন্য দিন",
-            "লাইভ Core রিফ্রেশ",
-            "কয়েক সেকেন্ডে উত্তর"
-          ]
-        },
-        {
-          "label": "গুণমান",
-          "headline": "রেস্তোরাঁর জন্য তৈরি। সিদ্ধান্তের জন্য পরিচালিত।",
-          "body": "Sundae 500+ পরিচালিত রেস্তোরাঁর ডেটা মডেল, সহকর্মী-অঙ্কিত বেঞ্চমার্ক এবং সূত্র-উল্লেখিত AI উত্তর সহ আসে - তাই দলগুলি খালি BI ক্যানভাস থেকে তৈরি করছে না।",
-          "chips": [
-            "500+ মডেল",
-            "সূত্র-উল্লেখিত AI",
-            "সহকর্মী বেঞ্চমার্ক"
-          ]
-        },
-        {
-          "label": "খরচ",
-          "headline": "রেস্তোরাঁর চারপাশে BI পুনর্নির্মাণের চেয়ে কম খরচ।",
-          "body": "BI লাইসেন্সগুলি কেবল দৃশ্যমান খরচ। প্রকৃত ব্যয় হল বিশ্লেষক, ইন্টিগ্রেশন, কাস্টম মডেল, ড্যাশবোর্ড রক্ষণাবেক্ষণ, এবং বিলম্বিত সিদ্ধান্ত। Sundae প্রথম দিন থেকেই রেস্তোরাঁর জন্য প্রস্তুত, Report Lite শুরু করতে বিনামূল্যে।",
-          "chips": [
-            "Report Lite বিনামূল্যে",
-            "কম কাস্টম BI",
-            "কম বিশ্লেষক বোঝা"
-          ]
-        }
-      ]
+      "costMetric": "বিনামূল্যে শুরু করুন"
     },
     "th": {
       "eyebrow": "ทางเลือกลวงนั้นจบลงแล้ว",
@@ -788,39 +180,7 @@ export const generatedLocalCopy = {
       "oldRule": "กฎเก่า: เลือกสองอย่าง",
       "sundaeRule": "↓  กฎของ Sundae: เลือกทั้งสามอย่าง",
       "closing": "นั่นไม่ใช่การแลกเปลี่ยน นั่นคือข้อได้เปรียบในการดำเนินงานของคุณ",
-      "costMetric": "เริ่มต้นฟรี",
-      "vertices": [
-        {
-          "label": "ความเร็ว",
-          "headline": "ติดตั้งในไม่กี่วัน ตัดสินใจในไม่กี่วินาที",
-          "body": "เชื่อมต่อสแต็กของคุณได้อย่างรวดเร็ว Pulse อัปเดตข้อมูลตลอดกะการทำงาน และ Sundae Intelligence ตอบกลับพร้อมแหล่งอ้างอิงแทนที่จะส่งทีมกลับไปต่อคิวรายงาน",
-          "chips": [
-            "วันในการติดตั้ง",
-            "รีเฟรช Core แบบสด",
-            "คำตอบในไม่กี่วินาที"
-          ]
-        },
-        {
-          "label": "คุณภาพ",
-          "headline": "สร้างขึ้นสำหรับร้านอาหาร มีการควบคุมสำหรับการตัดสินใจ",
-          "body": "Sundae มาพร้อมกับโมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 500 โมเดล มาตรฐานที่ยึดตามเพื่อน และคำตอบ AI ที่อ้างอิงแหล่งที่มา - ดังนั้นทีมจึงไม่ต้องสร้างจากผืนผ้าใบ BI ที่ว่างเปล่า",
-          "chips": [
-            "โมเดลมากกว่า 500",
-            "AI ที่อ้างอิงแหล่งที่มา",
-            "มาตรฐานจากเพื่อน"
-          ]
-        },
-        {
-          "label": "ต้นทุน",
-          "headline": "ต้นทุนต่ำกว่าการสร้าง BI ใหม่รอบร้านอาหาร",
-          "body": "ใบอนุญาต BI เป็นเพียงต้นทุนที่มองเห็นได้จริงๆ ค่าใช้จ่ายที่แท้จริงคือ นักวิเคราะห์ การรวมระบบ โมเดลที่กำหนดเอง การดูแลแดชบอร์ด และการตัดสินใจที่ล่าช้า Sundae พร้อมสำหรับร้านอาหารตั้งแต่วันแรก โดยมี Report Lite ฟรีให้เริ่มต้น",
-          "chips": [
-            "Report Lite ฟรี",
-            "BI ที่กำหนดเองน้อยลง",
-            "ภาระนักวิเคราะห์ที่ต่ำลง"
-          ]
-        }
-      ]
+      "costMetric": "เริ่มต้นฟรี"
     },
     "ms": {
       "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
@@ -829,39 +189,7 @@ export const generatedLocalCopy = {
       "oldRule": "Peraturan lama: pilih dua",
       "sundaeRule": "↓  Peraturan Sundae: pilih ketiga-tiganya",
       "closing": "Itu bukan kompromi. Itu adalah kelebihan operasi anda.",
-      "costMetric": "Percuma untuk bermula",
-      "vertices": [
-        {
-          "label": "Kelajuan",
-          "headline": "Terapkan dalam beberapa hari. Putuskan dalam beberapa saat.",
-          "body": "Sambungkan tumpukan anda dengan cepat. Kemas kini Pulse sepanjang shift, dan Sundae Intelligence menjawab dengan sumber bukannya menghantar pasukan kembali ke barisan laporan.",
-          "chips": [
-            "Hari untuk diterapkan",
-            "Penyegaran Core secara langsung",
-            "Jawapan dalam beberapa saat"
-          ]
-        },
-        {
-          "label": "Kualiti",
-          "headline": "Dibina untuk restoran. Dikawal untuk keputusan.",
-          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikawal, penanda aras yang dipandu rakan sebaya, dan jawapan AI yang dirujuk sumber - jadi pasukan tidak membina dari kanvas BI yang kosong.",
-          "chips": [
-            "500+ model",
-            "AI yang dirujuk sumber",
-            "Penanda aras rakan sebaya"
-          ]
-        },
-        {
-          "label": "Kos",
-          "headline": "Kos lebih rendah daripada membina semula BI sekitar restoran.",
-          "body": "Lesen BI hanyalah kos yang kelihatan. Perbelanjaan sebenar adalah penganalisis, integrasi, model khusus, penyelenggaraan papan pemuka, dan keputusan yang tertangguh. Sundae sedia untuk restoran dari hari pertama, dengan Report Lite percuma untuk memulakan.",
-          "chips": [
-            "Report Lite percuma",
-            "Kurang BI khusus",
-            "Beban penganalisis yang lebih rendah"
-          ]
-        }
-      ]
+      "costMetric": "Percuma untuk bermula"
     }
   }
 } as const

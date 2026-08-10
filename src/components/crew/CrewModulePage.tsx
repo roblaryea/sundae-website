@@ -11,6 +11,7 @@ import { PRICING_URL, REPORT_APP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import { crewPricingLocales } from '@/lib/crewPricingLocales';
+import { usd } from '@/lib/pricing/priceBook';
 import { CREW_MODULES, crewModule, type CrewModuleSlug } from './crewModules';
 
 export type CrewModuleCopy = {
@@ -47,9 +48,9 @@ export type CrewModuleCopy = {
   ctaSecondary: string;
 
   // Soft pricing line (optional — English fallbacks until the i18n pass fills them).
+  // No per-location field: Crew SKUs are flat monthly under price book v1.7.
   pricingFrom?: string;
   pricingPerMonth?: string;
-  pricingPerLocation?: string;
   pricingCta?: string;
 };
 
@@ -110,14 +111,13 @@ export function CrewModulePage({
               <a href={REPORT_APP_URL}><Button variant="outline-light" size="lg">{copy.secondaryCta}</Button></a>
             </motion.div>
             {/* Soft pricing indication — the pricing micro-site stays the authority
-                for tiers + dependencies. (Labels localized in the i18n pass.) */}
+                for tiers + dependencies. (Labels localized in the i18n pass.)
+                Crew SKUs are FLAT monthly under price book v1.7: the per-location
+                adder this line used to append is the retired v1.6 mechanic. */}
             <motion.p {...fade} transition={{ duration: 0.8, ease, delay: 0.4 }} className="mt-5 text-sm text-[var(--text-muted)]">
               {pl.from}{' '}
-              <span className="font-semibold text-[var(--text-primary)]">${mod.priceBase}</span>
+              <span className="font-semibold text-[var(--text-primary)]">{usd(mod.monthly)}</span>
               {pl.perMonth}
-              {' + '}
-              <span className="font-semibold text-[var(--text-primary)]">${mod.pricePerLocation}</span>
-              {pl.perLocation}
               <span className="mx-2 text-[var(--text-faint)]">·</span>
               <a href={PRICING_URL} className="font-semibold text-[var(--warm-coral)] underline-offset-4 hover:underline">
                 {pl.cta} →

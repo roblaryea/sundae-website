@@ -87,7 +87,7 @@ export function SolutionsMegaMenu({
       {/* Footer - Compare Plans + Free Benchmark */}
       <div className="mt-6 pt-5 border-t border-[var(--border-default)] flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
         <Link
-          href={localizeHref("/report-vs-core")}
+          href={localizeHref("/core")}
           onClick={onClose}
           className="text-sm font-medium text-[var(--text-supporting)] hover:text-[var(--text-primary)] transition-colors"
         >

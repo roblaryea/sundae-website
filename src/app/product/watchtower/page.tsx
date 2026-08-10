@@ -112,7 +112,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "Watchtower Pricing",
-    pricingDescription: "Available on Core tiers. Choose individual components or save ~18% with the full bundle.",
+    pricingDescription: "Available on Core Growth and above. Choose individual components or save ~18% with the full bundle.",
     pricingCards: [
       { name: "Competitive Intelligence", price: "$549", perLoc: "+$69/loc" },
       { name: "Events & Calendar", price: "$249", perLoc: "+$39/loc" },
@@ -135,7 +135,7 @@ const localizedWatchtowerCopy = {
       },
       {
         q: "Does Watchtower require Core tier?",
-        a: "Yes. Watchtower is available on Core Lite, Core Pro, and Enterprise tiers. It requires the real-time data infrastructure that Core provides to synthesize internal performance with external signals.",
+        a: "Yes. Watchtower is scoped and quoted alongside a Core package. It needs the live operating data Core provides in order to synthesize internal performance with external signals.",
       },
       {
         q: "Can I use just one intelligence type?",
@@ -242,7 +242,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "أسعار Watchtower",
-    pricingDescription: "متاح على مستويات Core. اختر مكونات فردية أو وفّر نحو 18% مع الحزمة الكاملة.",
+    pricingDescription: "متاح على Core Growth وما فوق. اختر مكونات فردية أو وفّر نحو 18% مع الحزمة الكاملة.",
     pricingCards: [
       { name: "ذكاء المنافسين", price: "$549", perLoc: "+$69/موقع" },
       { name: "الأحداث والتقويم", price: "$249", perLoc: "+$39/موقع" },
@@ -254,7 +254,7 @@ const localizedWatchtowerCopy = {
       { q: "كم منافساً يمكنني تتبعه؟", a: "حتى أكثر من 10 منافسين لكل موقع." },
       { q: "هل يمكنني تتبع منافسين مختلفين في مواقع مختلفة؟", a: "نعم، لكل موقع مجموعة منافسين خاصة به." },
       { q: "كم مرة تُحدَّث بيانات المنافسين؟", a: "تحديث يومي آلي مع كشف للتغييرات." },
-      { q: "هل يتطلب Watchtower مستوى Core؟", a: "نعم، فهو متاح على Core Lite وCore Pro وEnterprise." },
+      { q: "هل يتطلب Watchtower باقة Core؟", a: "نعم. يُحدَّد Watchtower ويُسعَّر مع باقة Core لأنه يحتاج بيانات التشغيل الحية التي توفرها." },
       { q: "هل يمكنني استخدام نوع ذكاء واحد فقط؟", a: "نعم، اختر ما تحتاجه فقط أو احصل على الحزمة الكاملة." },
       { q: "كيف يعمل الموجز اليومي؟", a: "يدمج بيانات Pulse السابقة مع الإشارات الخارجية في موجز مرتّب الأولوية." },
     ],
@@ -354,7 +354,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "Tarifs Watchtower",
-    pricingDescription: "Disponible sur les offres Core. Choisissez des composants individuels ou economisez environ 18 % avec le bundle complet.",
+    pricingDescription: "Disponible a partir de Core Growth. Choisissez des composants individuels ou economisez environ 18 % avec le bundle complet.",
     pricingCards: [
       { name: "Intelligence concurrentielle", price: "$549", perLoc: "+$69/site" },
       { name: "Evenements & calendrier", price: "$249", perLoc: "+$39/site" },
@@ -366,7 +366,7 @@ const localizedWatchtowerCopy = {
       { q: "Combien de concurrents puis-je suivre ?", a: "Jusqu a 10+ concurrents par site." },
       { q: "Puis-je suivre des concurrents differents selon les sites ?", a: "Oui, chaque site a son propre ensemble de concurrents." },
       { q: "A quelle frequence les donnees sont-elles mises a jour ?", a: "Surveillance quotidienne avec detection de changement." },
-      { q: "Watchtower requiert-il Core ?", a: "Oui, il est disponible sur Core Lite, Core Pro et Enterprise." },
+      { q: "Watchtower requiert-il Core ?", a: "Oui. Watchtower est chiffre en meme temps qu une offre Core, car il a besoin des donnees d exploitation en direct qu elle fournit." },
       { q: "Puis-je utiliser un seul type d intelligence ?", a: "Oui, choisissez ce dont vous avez besoin ou prenez le bundle complet." },
       { q: "Comment fonctionne le briefing quotidien ?", a: "Il combine les donnees Pulse de la veille avec les signaux externes du jour." },
     ],
@@ -466,7 +466,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "Precios de Watchtower",
-    pricingDescription: "Disponible en los planes Core. Elige componentes individuales o ahorra alrededor de 18% con el bundle completo.",
+    pricingDescription: "Disponible desde Core Growth. Elige componentes individuales o ahorra alrededor de 18% con el bundle completo.",
     pricingCards: [
       { name: "Inteligencia competitiva", price: "$549", perLoc: "+$69/ubicacion" },
       { name: "Eventos y calendario", price: "$249", perLoc: "+$39/ubicacion" },
@@ -478,7 +478,7 @@ const localizedWatchtowerCopy = {
       { q: "Cuantos competidores puedo seguir?", a: "Hasta mas de 10 competidores por ubicacion." },
       { q: "Puedo seguir competidores distintos en cada ubicacion?", a: "Si, cada ubicacion tiene su propio conjunto." },
       { q: "Cada cuanto se actualizan los datos?", a: "Monitoreo diario automatizado con deteccion de cambios." },
-      { q: "Watchtower requiere Core?", a: "Si, esta disponible en Core Lite, Core Pro y Enterprise." },
+      { q: "¿Watchtower requiere Core?", a: "Si. Watchtower se dimensiona y cotiza junto a un paquete Core, porque necesita los datos operativos en vivo que este aporta." },
       { q: "Puedo usar solo un tipo de inteligencia?", a: "Si, elige lo que necesites o toma el bundle completo." },
       { q: "Como funciona el informe diario?", a: "Combina los datos de Pulse del dia anterior con las senales externas de hoy." },
     ],

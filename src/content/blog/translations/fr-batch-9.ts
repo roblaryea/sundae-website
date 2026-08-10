@@ -498,7 +498,7 @@ La couche IA synthétise ces inputs en langage naturel qu’un opérateur peut l
 
 ## Pour commencer
 
-Le briefing matinal est disponible pour tous les clients Sundae Core Pro et Enterprise. La configuration prend moins d’une heure :
+Le briefing matinal est disponible pour tous les clients Sundae Core. La configuration prend moins d’une heure :
 
 1. **Sélectionnez vos établissements et vos métriques** : choisissez les sites et KPI à inclure
 2. **Définissez votre canal de diffusion** : email, Slack, Teams ou push mobile

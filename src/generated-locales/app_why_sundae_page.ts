@@ -51,44 +51,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAISON",
-        "title": "Au-delà des tableaux de bord traditionnels",
-        "description": "La plupart des plateformes vous montrent ce qui s'est passé. Nous vous montrons ce qui se passe, ce que cela signifie et quoi faire à ce sujet.",
-        "columns": [
-          {
-            "title": "BI Traditionnel",
-            "items": [
-              "Rapports historiques",
-              "Extraction manuelle des données",
-              "Métriques isolées",
-              "Gestion réactive"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Tableaux de bord génériques",
-            "items": [
-              "Tableaux de bord multi-sources",
-              "Rapports programmés",
-              "Alertes basiques",
-              "Pas de contexte sectoriel"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modèle d'intelligence 4D",
-              "Real-time Pulse monitoring",
-              "Contexte de marché via Watchtower",
-              "Recommandations intelligentes"
-            ],
-            "icon": "speed",
-            "cta": "Personne ne possède l'ensemble de la pile. Jusqu'à présent."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CONÇU POUR",
         "title": "Conçu pour chaque rôle dans l'organisation",
@@ -179,44 +141,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARACIÓN",
-        "title": "Más allá de los paneles tradicionales",
-        "description": "La mayoría de las plataformas te muestran lo que sucedió. Nosotros te mostramos lo que está sucediendo, lo que significa y qué hacer al respecto.",
-        "columns": [
-          {
-            "title": "BI Tradicional",
-            "items": [
-              "Informes históricos",
-              "Extracciones de datos manuales",
-              "Métricas aisladas",
-              "Gestión reactiva"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Paneles Genéricos",
-            "items": [
-              "Paneles de múltiples fuentes",
-              "Informes programados",
-              "Alertas básicas",
-              "Sin contexto de la industria"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modelo de Inteligencia 4D",
-              "Real-time Pulse monitoring",
-              "Contexto de mercado a través de Watchtower",
-              "Recomendaciones inteligentes"
-            ],
-            "icon": "speed",
-            "cta": "Nadie posee toda la pila. Hasta ahora."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CONSTRUIDO PARA",
         "title": "Construido para cada rol en la organización",
@@ -307,44 +231,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "VERGELIJKING",
-        "title": "Voorbij traditionele dashboards",
-        "description": "De meeste platforms tonen je wat er is gebeurd. Wij tonen je wat er gebeurt, wat het betekent en wat je eraan kunt doen.",
-        "columns": [
-          {
-            "title": "Traditionele BI",
-            "items": [
-              "Historische rapportage",
-              "Handmatige gegevensverzameling",
-              "Afgebakende metrics",
-              "Reactief management"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Generieke Dashboards",
-            "items": [
-              "Multi-source dashboards",
-              "Geplande rapporten",
-              "Basiswaarschuwingen",
-              "Geen branchecontext"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D Inlichtingenmodel",
-              "Realtime Pulse monitoring",
-              "Marktcontext via Watchtower",
-              "Intelligente aanbevelingen"
-            ],
-            "icon": "speed",
-            "cta": "Niemand bezit de volledige stack. Tot nu toe."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "GEBOUWD VOOR",
         "title": "Gebouwd voor elke rol in de organisatie",
@@ -435,44 +321,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "المقارنة",
-        "title": "ما وراء لوحات المعلومات التقليدية",
-        "description": "تظهر معظم المنصات لك ما حدث. نحن نعرض لك ما يحدث، وما يعنيه، وماذا تفعل حيال ذلك.",
-        "columns": [
-          {
-            "title": "تحليلات الأعمال التقليدية",
-            "items": [
-              "تقارير تاريخية",
-              "سحب بيانات يدوي",
-              "مقاييس معزولة",
-              "إدارة تفاعلية"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "لوحات المعلومات العامة",
-            "items": [
-              "لوحات معلومات متعددة المصادر",
-              "تقارير مجدولة",
-              "تنبيهات أساسية",
-              "عدم وجود سياق صناعي"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "نموذج الذكاء الرباعي الأبعاد",
-              "مراقبة Pulse الوقت الحقيقي",
-              "سياق السوق عبر Watchtower",
-              "توصيات ذكية"
-            ],
-            "icon": "speed",
-            "cta": "لا أحد يمتلك المجموعة الكاملة. حتى الآن."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "مُصمَّم من أجل",
         "title": "مُصمَّم لكل دور في المؤسسة",
@@ -563,44 +411,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "VERGLEICH",
-        "title": "Über traditionelle Dashboards hinaus",
-        "description": "Die meisten Plattformen zeigen Ihnen, was passiert ist. Wir zeigen Ihnen, was gerade passiert, was es bedeutet und was Sie dagegen tun können.",
-        "columns": [
-          {
-            "title": "Traditionelle BI",
-            "items": [
-              "Historische Berichterstattung",
-              "Manuelle Datenabfragen",
-              "Isolierte Kennzahlen",
-              "Reaktive Verwaltung"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Generische Dashboards",
-            "items": [
-              "Dashboards aus mehreren Quellen",
-              "Geplante Berichte",
-              "Einfache Benachrichtigungen",
-              "Kein branchenspezifischer Kontext"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D-Intelligenzmodell",
-              "Echtzeit-Pulseüberwachung",
-              "Marktkontext über Watchtower",
-              "Intelligente Empfehlungen"
-            ],
-            "icon": "speed",
-            "cta": "Niemand besitzt den gesamten Stack. Bis jetzt."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "ENTWICKELT FÜR",
         "title": "Entwickelt für jede Rolle in der Organisation",
@@ -691,44 +501,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAÇÃO",
-        "title": "Além dos painéis tradicionais",
-        "description": "A maioria das plataformas mostra o que aconteceu. Nós mostramos o que está acontecendo, o que isso significa e o que fazer a respeito.",
-        "columns": [
-          {
-            "title": "BI Tradicional",
-            "items": [
-              "Relatórios históricos",
-              "Extrações de dados manuais",
-              "Métricas isoladas",
-              "Gestão reativa"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Painéis Genéricos",
-            "items": [
-              "Painéis de múltiplas fontes",
-              "Relatórios programados",
-              "Alertas básicos",
-              "Sem contexto da indústria"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modelo de Inteligência 4D",
-              "Real-time Pulse monitoring",
-              "Contexto de mercado via Watchtower",
-              "Recomendações inteligentes"
-            ],
-            "icon": "speed",
-            "cta": "Ninguém possui toda a pilha. Até agora."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DESENVOLVIDO PARA",
         "title": "Desenvolvido para cada função na organização",
@@ -819,44 +591,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "موازنہ",
-        "title": "روایتی ڈیش بورڈز سے آگے",
-        "description": "زیادہ تر پلیٹ فارم آپ کو یہ دکھاتے ہیں کہ کیا ہوا۔ ہم آپ کو یہ دکھاتے ہیں کہ کیا ہو رہا ہے، اس کا کیا مطلب ہے، اور اس کے بارے میں کیا کرنا ہے۔",
-        "columns": [
-          {
-            "title": "روایتی BI",
-            "items": [
-              "تاریخی رپورٹنگ",
-              "ہاتھ سے ڈیٹا نکالنا",
-              "مخصوص میٹرکس",
-              "جوابی انتظام"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "جنرل ڈیش بورڈز",
-            "items": [
-              "کئی ذرائع کے ڈیش بورڈز",
-              "شیڈول کردہ رپورٹس",
-              "بنیادی الرٹس",
-              "صنعتی سیاق و سباق کی کمی"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D انٹیلی جنس ماڈل",
-              "حقیقی وقت کی Pulse مانیٹرنگ",
-              "Watchtower کے ذریعے مارکیٹ کا سیاق و سباق",
-              "ذہین سفارشات"
-            ],
-            "icon": "speed",
-            "cta": "کوئی بھی مکمل اسٹیک کا مالک نہیں ہے۔ اب تک."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "کے لیے بنایا گیا",
         "title": "تنظیم میں ہر کردار کے لیے بنایا گیا",
@@ -947,44 +681,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "तुलना",
-        "title": "पारंपरिक डैशबोर्ड से परे",
-        "description": "अधिकांश प्लेटफ़ॉर्म आपको बताते हैं कि क्या हुआ। हम आपको बताते हैं कि क्या हो रहा है, इसका क्या मतलब है, और इसके बारे में क्या करना है।",
-        "columns": [
-          {
-            "title": "पारंपरिक BI",
-            "items": [
-              "ऐतिहासिक रिपोर्टिंग",
-              "मैनुअल डेटा खींचना",
-              "अलग-अलग मैट्रिक्स",
-              "प्रतिक्रियात्मक प्रबंधन"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "सामान्य डैशबोर्ड",
-            "items": [
-              "बहु-स्रोत डैशबोर्ड",
-              "निर्धारित रिपोर्ट",
-              "बुनियादी अलर्टिंग",
-              "कोई उद्योग संदर्भ नहीं"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D इंटेलिजेंस मॉडल",
-              "वास्तविक समय की Pulse निगरानी",
-              "Watchtower के माध्यम से बाजार संदर्भ",
-              "बुद्धिमान सिफारिशें"
-            ],
-            "icon": "speed",
-            "cta": "कोई भी पूर्ण स्टैक का मालिक नहीं है। अब तक।"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "के लिए बनाया गया",
         "title": "संगठन में हर भूमिका के लिए बनाया गया",
@@ -1075,44 +771,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAZIONE",
-        "title": "Oltre i dashboard tradizionali",
-        "description": "La maggior parte delle piattaforme ti mostra cosa è successo. Noi ti mostriamo cosa sta succedendo, cosa significa e cosa fare al riguardo.",
-        "columns": [
-          {
-            "title": "BI Tradizionale",
-            "items": [
-              "Report storici",
-              "Estrazione manuale dei dati",
-              "Metriche isolate",
-              "Gestione reattiva"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Dashboard Generici",
-            "items": [
-              "Dashboard multi-sorgente",
-              "Report programmati",
-              "Allerta di base",
-              "Nessun contesto di settore"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modello di Intelligenza 4D",
-              "Real-time Pulse monitoring",
-              "Contesto di mercato tramite Watchtower",
-              "Raccomandazioni intelligenti"
-            ],
-            "icon": "speed",
-            "cta": "Nessuno possiede l'intero stack. Fino ad ora."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CREATO PER",
         "title": "Creato per ogni ruolo nell'organizzazione",
@@ -1203,44 +861,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "KARŞILAŞTIRMA",
-        "title": "Geleneksel panellerin ötesinde",
-        "description": "Çoğu platform ne olduğunu gösterir. Biz, ne olduğunu, ne anlama geldiğini ve ne yapmanız gerektiğini gösteriyoruz.",
-        "columns": [
-          {
-            "title": "Geleneksel BI",
-            "items": [
-              "Tarihsel raporlama",
-              "Manuel veri çekme",
-              "Ayrık metrikler",
-              "Reaktif yönetim"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Genel Paneller",
-            "items": [
-              "Çoklu kaynak panelleri",
-              "Zamanlanmış raporlar",
-              "Temel uyarılar",
-              "Sektör bağlamı yok"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D Zeka Modeli",
-              "Real-time Pulse monitoring",
-              "Watchtower aracılığıyla piyasa bağlamı",
-              "Akıllı öneriler"
-            ],
-            "icon": "speed",
-            "cta": "Tam yığın kimseye ait değil. Şimdiye kadar."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "İÇİN İNŞA EDİLDİ",
         "title": "Organizasyondaki her rol için inşa edildi",
@@ -1331,44 +951,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "比较",
-        "title": "超越传统仪表板",
-        "description": "大多数平台只告诉你发生了什么。我们告诉你正在发生什么、这意味着什么，以及该如何应对。",
-        "columns": [
-          {
-            "title": "传统商业智能",
-            "items": [
-              "历史报告",
-              "手动数据提取",
-              "孤立的指标",
-              "反应式管理"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "通用仪表板",
-            "items": [
-              "多源仪表板",
-              "定期报告",
-              "基本警报",
-              "没有行业背景"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D智能模型",
-              "实时Pulse监测",
-              "通过Watchtower提供市场背景",
-              "智能推荐"
-            ],
-            "icon": "speed",
-            "cta": "没有人拥有完整的技术栈。直到现在。"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "为您打造",
         "title": "为组织中的每个角色而设计",
@@ -1459,44 +1041,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "PORÓWNANIE",
-        "title": "Ponad tradycyjne pulpity nawigacyjne",
-        "description": "Większość platform pokazuje, co się wydarzyło. My pokazujemy, co się dzieje, co to oznacza i co z tym zrobić.",
-        "columns": [
-          {
-            "title": "Tradycyjne BI",
-            "items": [
-              "Raportowanie historyczne",
-              "Ręczne pobieranie danych",
-              "Izolowane metryki",
-              "Reaktywne zarządzanie"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Ogólne pulpity nawigacyjne",
-            "items": [
-              "Pulpity z wielu źródeł",
-              "Zaplanowane raporty",
-              "Podstawowe powiadomienia",
-              "Brak kontekstu branżowego"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model Inteligencji 4D",
-              "Real-time Pulse monitoring",
-              "Kontekst rynkowy za pomocą Watchtower",
-              "Inteligentne rekomendacje"
-            ],
-            "icon": "speed",
-            "cta": "Nikt nie posiada pełnego stosu. Do teraz."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "STWORZONE DLA",
         "title": "Stworzone dla każdej roli w organizacji",
@@ -1587,44 +1131,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "比較",
-        "title": "従来のダッシュボードを超えて",
-        "description": "ほとんどのプラットフォームは何が起こったかを示します。私たちは何が起こっているのか、それが何を意味するのか、そしてどうすればよいのかを示します。",
-        "columns": [
-          {
-            "title": "従来のBI",
-            "items": [
-              "履歴レポート",
-              "手動データ取得",
-              "孤立した指標",
-              "反応的管理"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "一般的なダッシュボード",
-            "items": [
-              "マルチソースダッシュボード",
-              "スケジュールされたレポート",
-              "基本的なアラート",
-              "業界コンテキストなし"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4Dインテリジェンスモデル",
-              "リアルタイムPulse監視",
-              "Watchtowerによる市場コンテキスト",
-              "インテリジェントな推奨"
-            ],
-            "icon": "speed",
-            "cta": "完全なスタックを所有する者はいません。今までは。"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "すべての役割のために構築",
         "title": "組織内のすべての役割のために構築",
@@ -1715,44 +1221,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "SO SÁNH",
-        "title": "Vượt ra ngoài bảng điều khiển truyền thống",
-        "description": "Hầu hết các nền tảng chỉ cho bạn những gì đã xảy ra. Chúng tôi cho bạn biết những gì đang xảy ra, ý nghĩa của nó và bạn nên làm gì với nó.",
-        "columns": [
-          {
-            "title": "BI Truyền Thống",
-            "items": [
-              "Báo cáo lịch sử",
-              "Kéo dữ liệu thủ công",
-              "Chỉ số tách biệt",
-              "Quản lý phản ứng"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Bảng Điều Khiển Chung",
-            "items": [
-              "Bảng điều khiển đa nguồn",
-              "Báo cáo theo lịch",
-              "Cảnh báo cơ bản",
-              "Không có ngữ cảnh ngành"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Mô hình Trí Tuệ 4D",
-              "Real-time Pulse monitoring",
-              "Ngữ cảnh thị trường qua Watchtower",
-              "Khuyến nghị thông minh"
-            ],
-            "icon": "speed",
-            "cta": "Không ai sở hữu toàn bộ hệ thống. Cho đến bây giờ."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DÀNH CHO",
         "title": "Dành cho mọi vai trò trong tổ chức",
@@ -1843,44 +1311,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "PERBANDINGAN",
-        "title": "Lebih dari sekadar dasbor tradisional",
-        "description": "Sebagian besar platform menunjukkan apa yang terjadi. Kami menunjukkan apa yang sedang terjadi, apa artinya, dan apa yang harus dilakukan.",
-        "columns": [
-          {
-            "title": "BI Tradisional",
-            "items": [
-              "Pelaporan historis",
-              "Pengambilan data manual",
-              "Metrik terpisah",
-              "Manajemen reaktif"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Dasbor Umum",
-            "items": [
-              "Dasbor multi-sumber",
-              "Laporan terjadwal",
-              "Peringatan dasar",
-              "Tanpa konteks industri"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model Intelijen 4D",
-              "Pemantauan Pulse waktu nyata",
-              "Konteks pasar melalui Watchtower",
-              "Rekomendasi cerdas"
-            ],
-            "icon": "speed",
-            "cta": "Tidak ada yang memiliki tumpukan penuh. Sampai sekarang."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DIBANGUN UNTUK",
         "title": "Dibangun untuk setiap peran dalam organisasi",
@@ -1971,44 +1401,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "비교",
-        "title": "전통적인 대시보드를 넘어서",
-        "description": "대부분의 플랫폼은 발생한 일을 보여줍니다. 우리는 현재 무슨 일이 일어나고 있는지, 그것이 의미하는 바, 그리고 어떻게 대처해야 하는지를 보여줍니다.",
-        "columns": [
-          {
-            "title": "전통적인 BI",
-            "items": [
-              "과거 보고",
-              "수동 데이터 추출",
-              "분리된 메트릭",
-              "반응적 관리"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "일반 대시보드",
-            "items": [
-              "다중 소스 대시보드",
-              "예약된 보고서",
-              "기본 경고",
-              "산업 맥락 없음"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D 인텔리전스 모델",
-              "Real-time Pulse monitoring",
-              "Watchtower를 통한 시장 맥락",
-              "지능형 추천"
-            ],
-            "icon": "speed",
-            "cta": "누구도 전체 스택을 소유하지 않습니다. 지금까지는."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "모든 역할을 위해 설계됨",
         "title": "조직의 모든 역할을 위한 솔루션",
@@ -2099,44 +1491,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAȚIE",
-        "title": "Dincolo de tablourile de bord tradiționale",
-        "description": "Cele mai multe platforme îți arată ce s-a întâmplat. Noi îți arătăm ce se întâmplă, ce înseamnă și ce trebuie să faci în legătură cu asta.",
-        "columns": [
-          {
-            "title": "BI Tradițional",
-            "items": [
-              "Raportare istorică",
-              "Extrageri manuale de date",
-              "Metrici izolate",
-              "Management reactiv"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Tablouri de bord Generice",
-            "items": [
-              "Tablouri de bord din surse multiple",
-              "Rapoarte programate",
-              "Alerta de bază",
-              "Fără context industrial"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model de Inteligență 4D",
-              "Monitorizare Pulse în timp real",
-              "Context de piață prin Watchtower",
-              "Recomandări inteligente"
-            ],
-            "icon": "speed",
-            "cta": "Nimeni nu deține întreaga stivă. Până acum."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CREAT PENTRU",
         "title": "Creat pentru fiecare rol din organizație",
@@ -2227,44 +1581,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "JÄMFÖRELSE",
-        "title": "Bortom traditionella instrumentpaneler",
-        "description": "De flesta plattformar visar vad som hände. Vi visar vad som händer, vad det betyder och vad du ska göra åt det.",
-        "columns": [
-          {
-            "title": "Traditionell BI",
-            "items": [
-              "Historisk rapportering",
-              "Manuella datadragningar",
-              "Isolerade mätvärden",
-              "Reaktivt ledarskap"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Generiska instrumentpaneler",
-            "items": [
-              "Multi-källinstrumentpaneler",
-              "Schemalagda rapporter",
-              "Grundläggande aviseringar",
-              "Ingen branschkontext"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D-intelligensmodell",
-              "Övervakning av realtids-Pulse",
-              "Marknadskontext via Watchtower",
-              "Intelligenta rekommendationer"
-            ],
-            "icon": "speed",
-            "cta": "Ingen äger hela stacken. Tills nu."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "BYGGD FÖR",
         "title": "Byggd för varje roll i organisationen",
@@ -2355,44 +1671,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "তুলনা",
-        "title": "প্রথাগত ড্যাশবোর্ডের বাইরে",
-        "description": "বেশিরভাগ প্ল্যাটফর্ম আপনাকে দেখায় কি ঘটেছে। আমরা আপনাকে দেখাই কি ঘটছে, এর মানে কি, এবং এর জন্য কি করতে হবে।",
-        "columns": [
-          {
-            "title": "প্রথাগত BI",
-            "items": [
-              "ঐতিহাসিক রিপোর্টিং",
-              "ম্যানুয়াল ডেটা টানার",
-              "সাইলোড মেট্রিক্স",
-              "প্রতিক্রিয়াশীল ব্যবস্থাপনা"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "সাধারণ ড্যাশবোর্ড",
-            "items": [
-              "মাল্টি-সোর্স ড্যাশবোর্ড",
-              "নির্ধারিত রিপোর্ট",
-              "মৌলিক সতর্কতা",
-              "কোন শিল্পের প্রেক্ষাপট নেই"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D ইন্টেলিজেন্স মডেল",
-              "Real-time Pulse monitoring",
-              "Watchtower এর মাধ্যমে বাজারের প্রেক্ষাপট",
-              "বুদ্ধিমান সুপারিশ"
-            ],
-            "icon": "speed",
-            "cta": "কেউ পুরো স্ট্যাকের মালিক নয়। এখন পর্যন্ত।"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "নির্মিত হয়েছে",
         "title": "প্রতিটি ভূমিকার জন্য নির্মিত",
@@ -2483,44 +1761,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "การเปรียบเทียบ",
-        "title": "เหนือกว่าแดชบอร์ดแบบดั้งเดิม",
-        "description": "แพลตฟอร์มส่วนใหญ่จะแสดงสิ่งที่เกิดขึ้น เราจะแสดงสิ่งที่กำลังเกิดขึ้น ความหมายของมัน และสิ่งที่ควรทำเกี่ยวกับมัน.",
-        "columns": [
-          {
-            "title": "BI แบบดั้งเดิม",
-            "items": [
-              "การรายงานย้อนหลัง",
-              "การดึงข้อมูลด้วยมือ",
-              "เมตริกที่แยกจากกัน",
-              "การจัดการเชิงรับ"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "แดชบอร์ดทั่วไป",
-            "items": [
-              "แดชบอร์ดจากหลายแหล่ง",
-              "รายงานตามกำหนดเวลา",
-              "การแจ้งเตือนพื้นฐาน",
-              "ไม่มีบริบทในอุตสาหกรรม"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "โมเดลปัญญา 4D",
-              "การตรวจสอบ Pulse แบบเรียลไทม์",
-              "บริบทตลาดผ่าน Watchtower",
-              "คำแนะนำที่ชาญฉลาด"
-            ],
-            "icon": "speed",
-            "cta": "ไม่มีใครเป็นเจ้าของสแต็คทั้งหมด จนถึงตอนนี้."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "สร้างขึ้นสำหรับ",
         "title": "สร้างขึ้นสำหรับทุกบทบาทในองค์กร",
@@ -2611,44 +1851,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "PERBANDINGAN",
-        "title": "Lebih daripada papan pemuka tradisional",
-        "description": "Kebanyakan platform menunjukkan apa yang telah berlaku. Kami menunjukkan kepada anda apa yang sedang berlaku, apa maksudnya, dan apa yang perlu dilakukan mengenainya.",
-        "columns": [
-          {
-            "title": "BI Tradisional",
-            "items": [
-              "Laporan sejarah",
-              "Pengambilan data manual",
-              "Metrik terasing",
-              "Pengurusan reaktif"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Papan Pemuka Umum",
-            "items": [
-              "Papan pemuka pelbagai sumber",
-              "Laporan terjadual",
-              "Amaran asas",
-              "Tiada konteks industri"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model Kecerdasan 4D",
-              "Pemantauan Pulse masa nyata",
-              "Konteks pasaran melalui Watchtower",
-              "Cadangan pintar"
-            ],
-            "icon": "speed",
-            "cta": "Tiada siapa yang memiliki keseluruhan tumpukan. Sehingga kini."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DIBINA UNTUK",
         "title": "Dibina untuk setiap peranan dalam organisasi",

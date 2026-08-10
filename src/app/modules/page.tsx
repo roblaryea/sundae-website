@@ -11,6 +11,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_modules_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { modulesCreamCopy } from "./modulesCreamCopy";
+import { bandedMonthlyTotal, CORE_PACKAGES, usd } from "@/lib/pricing/priceBook";
 
 type LocalizedModuleCopy = {
   badge: string;
@@ -62,8 +63,12 @@ type LocalizedModuleUi = {
   overviewNote: string;
   addModuleLabel: (name: string) => string;
   examplesLabel: string;
-  exampleLines: string[];
-  refreshLabels: string[];
+  /**
+   * The marginal-band worked example. Takes the figures already formatted from
+   * the price book so no price is ever typed into copy.
+   */
+  exampleLines: (v: { first: string; marginal: string; total: string; average: string }) => string[];
+  packageDepthLabels: string[];
   stackLabels: string[];
   faqButtonLabel: string;
 };
@@ -73,16 +78,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     badge: "Specialized Modules",
     title: "Go Deeper Where It Matters Most",
     description:
-      "Add specialized modules to Sundae Core. Get deep operational intelligence in labor, inventory, purchasing, marketing, and reservations.",
-    mixAndMatch: "Mix and match based on your priorities.",
+      "The eleven domain modules that make up every Sundae Core package - labor, inventory, purchasing, marketing, reservations, profit, revenue assurance, delivery, guest experience, Pulse, and guest CRM.",
+    mixAndMatch: "You do not pick them one by one.",
     exploreAllModules: "Explore All Modules",
     calculateModuleRoi: "Calculate Module ROI",
     whatAreModules: "What Are Sundae Modules?",
     whatAreModulesDescription:
-      "Modules are specialized intelligence add-ons that deepen your insights in specific operational areas.",
+      "Modules are the domain lenses inside a Core package. Every package carries all eleven; the package you choose sets how deep each one goes.",
     pillars: [
       { title: "Specialized by Function", description: "Each module is built for a specific operating area instead of trying to cover everything at once." },
-      { title: "Add What You Need", description: "Start with your biggest pain point. Add modules as priorities shift. No forced bundles." },
+      { title: "All Eleven, Every Package", description: "You never buy a module on its own. Choosing a Core package is how you get the full set." },
       { title: "Integrated With Core", description: "Modules share data with Core, so teams can work from one connected operating picture." },
     ],
     fiveModules: "FIVE SPECIALIZED MODULES",
@@ -155,16 +160,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
       },
     ],
     faqs: [
-      { q: "Do I need Core tier to use Modules?", a: "Yes. Modules are exclusive to Core tier (Lite, Pro, or Enterprise)." },
-      { q: "Can I add modules later?", a: "Yes. Start with Core tier, then add modules as needed." },
-      { q: "What if I only need a module at some locations?", a: "Organization license covers your first 5 locations. Contact us for custom pricing." },
-      { q: "How long does module implementation take?", a: "Most modules take 1-2 weeks." },
+      { q: "Can I buy a single module?", a: "No. The eleven domain modules are components of a Core package, not separate products. Every package includes all of them." },
+      { q: "Can I get more depth later?", a: "Yes. Moving up a Core package deepens every module at once, without changing which ones you have." },
+      { q: "How does the price change as I add locations?", a: "Your first location carries the package anchor. Each additional location is charged at the marginal rate for the band it falls in, and the rate steps down as you grow. Crossing a band does not reprice the locations below it." },
+      { q: "How long does implementation take?", a: "Most groups are live in 1-2 weeks. Implementation is a one-off fee, charged once at the highest class in your selection." },
       { q: "Can modules work together?", a: "Yes. Modules share data and provide cross-module insights." },
-      { q: "Can I try a module before committing?", a: "Yes. Contact us for module trial programs." },
+      { q: "Can I see it against my own numbers first?", a: "Yes. Book a working session and we will run your data through the package you are considering." },
     ],
     howItWorks: [
-      { step: "1", title: "Organization License Model", description: "Each module covers your first 5 locations. Additional locations scale per location." },
-      { step: "2", title: "Requires Core Tier", description: "Modules are exclusive to Core tier for real-time specialized intelligence." },
+      { step: "1", title: "Included In Your Package", description: "All eleven modules ship with every Core package. There is nothing to add and nothing priced per module." },
+      { step: "2", title: "Priced By Location Bands", description: "Your first location carries the package anchor. Each location after it is charged at the marginal rate for its band." },
     ],
     categories: [
       { name: "Revenue Intelligence", count: "4 modules" },
@@ -234,16 +239,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
       { name: "ذكاء الحجوزات", icon: "operators", headline: "حسّن الطاولات، تنبأ بعدم الحضور، وتنبأ بالطلب.", description: "حوّل الحجوزات إلى أداة لتحسين الإيرادات.", capabilities: ["توصيات تحسين الطاولات", "تنبؤ بعدم الحضور بالذكاء الاصطناعي", "تنبؤ بالطلب 7-30 يومًا", "تحسين إدارة الانتظار", "اقتراحات تسعير ديناميكية"], roi: "عائد نموذجي: زيادة 10-15% في إشغال الطاولات", bestFor: "المطاعم التي تعتمد على الحجوزات والمطاعم الراقية", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
-      { q: "هل أحتاج Core لاستخدام الوحدات؟", a: "نعم، الوحدات متاحة فقط في Core." },
+      { q: "هل يمكنني شراء وحدة واحدة؟", a: "لا. الوحدات الإحدى عشرة مكوّنات داخل باقة Core وليست منتجات منفصلة، وكل باقة تشملها جميعًا." },
       { q: "هل يمكنني إضافة الوحدات لاحقًا؟", a: "نعم، ابدأ بـ Core ثم أضف ما تحتاجه." },
-      { q: "ماذا لو احتجت الوحدة في بعض المواقع فقط؟", a: "يغطي الترخيص المؤسسي أول 5 مواقع. تواصل معنا للتسعير المخصص." },
+      { q: "كيف يتغير السعر عند إضافة مواقع؟", a: "الموقع الأول يحمل سعر الباقة الأساسي، ويُحتسب كل موقع بعده بالسعر الحدي لشريحته، وينخفض السعر كلما نميت. الانتقال إلى شريحة أرخص لا يعيد تسعير المواقع السابقة." },
       { q: "كم يستغرق التنفيذ؟", a: "معظم الوحدات تحتاج 1-2 أسبوع." },
       { q: "هل تعمل الوحدات معًا؟", a: "نعم، تتشارك البيانات وتوفر رؤى متقاطعة." },
       { q: "هل يمكنني تجربة الوحدة قبل الالتزام؟", a: "نعم، تواصل معنا لبرامج التجربة." },
     ],
     howItWorks: [
-      { step: "1", title: "نموذج الترخيص المؤسسي", description: "يغطي أول 5 مواقع ثم يتوسع لكل موقع إضافي." },
-      { step: "2", title: "يتطلب Core", description: "الوحدات حصرية لـ Core لتقديم ذكاء متخصص لحظي." },
+      { step: "1", title: "مضمّنة في باقتك", description: "الوحدات الإحدى عشرة كلها ضمن كل باقة Core. لا شيء يُضاف ولا سعر لكل وحدة." },
+      { step: "2", title: "التسعير بشرائح المواقع", description: "الموقع الأول يحمل سعر الباقة الأساسي، وكل موقع بعده يُحتسب بالسعر الحدي لشريحته." },
     ],
     categories: [
       { name: "ذكاء الإيرادات", count: "4 وحدات" },
@@ -313,16 +318,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
       { name: "Intelligence reservations", icon: "operators", headline: "Optimisez les tables, predisez les no-shows et la demande.", description: "Transformez les reservations en outil d optimisation du revenu.", capabilities: ["Recommandations d optimisation des tables", "Prediction IA des no-shows", "Prevision de la demande (7-30 jours)", "Optimisation de la liste d attente", "Suggestions de tarification"], roi: "ROI typique : hausse de 10 à 15 % du taux d occupation", bestFor: "Restaurants reserves et gastronomiques", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
-      { q: "Ai-je besoin de Core pour utiliser les modules ?", a: "Oui, les modules sont reserves à Core." },
+      { q: "Puis-je acheter un seul module ?", a: "Non. Les onze modules metier sont des composants d une offre Core, pas des produits separes, et chaque offre les contient tous." },
       { q: "Puis-je ajouter des modules plus tard ?", a: "Oui, commencez avec Core puis ajoutez selon vos besoins." },
-      { q: "Et si je n ai besoin du module que sur certains sites ?", a: "Le contrat couvre les 5 premiers sites. Contactez-nous pour un tarif personnalise." },
+      { q: "Comment le prix evolue-t-il quand j ajoute des sites ?", a: "Le premier site porte le prix d ancrage de l offre. Chaque site suivant est facture au tarif marginal de sa tranche, et ce tarif baisse a mesure que vous grandissez. Franchir une tranche ne retarife pas les sites deja en place." },
       { q: "Combien de temps dure l implementation ?", a: "La plupart des modules prennent 1 à 2 semaines." },
       { q: "Les modules peuvent-ils fonctionner ensemble ?", a: "Oui, ils partagent les donnees et offrent des insights croises." },
       { q: "Puis-je tester un module avant de m engager ?", a: "Oui, contactez-nous pour des programmes d essai." },
     ],
     howItWorks: [
-      { step: "1", title: "Modele de licence", description: "Couvre les 5 premiers sites puis evolue par site supplementaire." },
-      { step: "2", title: "Necessite Core", description: "Les modules sont reserves à Core pour une intelligence specialisee en temps reel." },
+      { step: "1", title: "Inclus dans votre offre", description: "Les onze modules sont livres avec chaque offre Core. Rien a ajouter, aucun prix par module." },
+      { step: "2", title: "Tarife par tranches de sites", description: "Le premier site porte le prix d ancrage. Chaque site suivant est facture au tarif marginal de sa tranche." },
     ],
     categories: [
       { name: "Intelligence du revenu", count: "4 modules" },
@@ -392,16 +397,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
       { name: "Inteligencia de reservas", icon: "operators", headline: "Optimiza mesas, predice no-shows y pronostica la demanda.", description: "Convierte las reservas en una herramienta de optimizacion de ingresos.", capabilities: ["Recomendaciones de optimizacion de mesas", "Prediccion de no-shows con IA", "Pronostico de demanda (7-30 dias)", "Optimizacion de lista de espera", "Sugerencias de precios dinamicos"], roi: "ROI tipico: aumento del 10-15% en ocupacion", bestFor: "Restaurantes con reservas y alta cocina", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
-      { q: "¿Necesito Core para usar los modulos?", a: "Si, los modulos estan disponibles solo en Core." },
+      { q: "¿Puedo comprar un solo modulo?", a: "No. Los once modulos de dominio son componentes de un paquete Core, no productos sueltos, y cada paquete los incluye todos." },
       { q: "¿Puedo anadir modulos mas tarde?", a: "Si, empieza con Core y anade lo que necesites." },
-      { q: "¿Y si solo necesito el modulo en algunos locales?", a: "La licencia cubre los primeros 5 locales. Consulta precios personalizados." },
+      { q: "¿Como cambia el precio al anadir locales?", a: "El primer local lleva el precio ancla del paquete. Cada local posterior se cobra a la tarifa marginal de su tramo, y esa tarifa baja segun creces. Entrar en un tramo mas barato no revaloriza los locales anteriores." },
       { q: "¿Cuanto tarda la implementacion?", a: "La mayoria de los modulos tarda 1-2 semanas." },
       { q: "¿Los modulos pueden trabajar juntos?", a: "Si, comparten datos y ofrecen insights cruzados." },
       { q: "¿Puedo probar un modulo antes de comprometerme?", a: "Si, contactanos para programas de prueba." },
     ],
     howItWorks: [
-      { step: "1", title: "Modelo de licencia", description: "Cubre los primeros 5 locales y luego escala por local." },
-      { step: "2", title: "Requiere Core", description: "Los modulos son exclusivos de Core para inteligencia especializada en tiempo real." },
+      { step: "1", title: "Incluidos en tu paquete", description: "Los once modulos vienen con cada paquete Core. No hay nada que anadir ni precio por modulo." },
+      { step: "2", title: "Tarifado por tramos de locales", description: "El primer local lleva el precio ancla. Cada local posterior se cobra a la tarifa marginal de su tramo." },
     ],
     categories: [
       { name: "Inteligencia de ingresos", count: "4 modulos" },
@@ -441,71 +446,78 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
 
 const localizedModulesUi: Record<string, LocalizedModuleUi> = {
   en: {
-    overviewNote: 'Organization license covers your first 5 locations, then scales per location.',
-    addModuleLabel: (name) => `Add ${name} →`,
-    examplesLabel: 'Examples:',
-    exampleLines: [
-      '• 3 locations: Organization license covers all',
-      '• 12 locations: Org license + 7 add-on locations',
-      '• Mix & match at different locations',
+    overviewNote:
+      'Every Core package carries all eleven. The package sets how deep each one goes; the location bands set the price.',
+    addModuleLabel: (name) => `See ${name} in a package →`,
+    examplesLabel: 'Five locations on Core Foundation:',
+    exampleLines: (v) => [
+      `• First location: ${v.first}`,
+      `• Four more at ${v.marginal} each`,
+      `• ${v.total} per month, a ${v.average} blended average per location`,
     ],
-    refreshLabels: [
-      '4-hour refresh with specialized operational intelligence',
-      '2-hour refresh with deep specialized intelligence',
-      'Custom refresh with unlimited specialized intelligence',
+    packageDepthLabels: [
+      'The operating baseline across all eleven modules',
+      'Deeper on cost and leakage: theoretical vs. actual, waste, voids',
+      'Deeper on demand: guest cohorts, promo attribution, channel margin',
+      'Full depth plus multi-brand and multi-region consolidation',
     ],
-    stackLabels: ['Core Lite + Modules', 'Core Pro + Modules', 'Enterprise + Modules'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'Frequently Asked Questions',
   },
   ar: {
-    overviewNote: 'يغطي الترخيص المؤسسي أول 5 مواقع ثم يتوسع حسب كل موقع.',
-    addModuleLabel: (name) => `إضافة ${name} →`,
-    examplesLabel: 'أمثلة:',
-    exampleLines: [
-      '• 3 مواقع: التغطية الكاملة',
-      '• 12 موقعًا: الترخيص المؤسسي + 7 مواقع إضافية',
-      '• امزج بين المواقع المختلفة',
+    overviewNote: 'كل باقة Core تضم الوحدات الإحدى عشرة. الباقة تحدد عمق كل وحدة، وشرائح المواقع تحدد السعر.',
+    addModuleLabel: (name) => `شاهد ${name} ضمن الباقات →`,
+    examplesLabel: 'خمسة مواقع على Core Foundation:',
+    exampleLines: (v) => [
+      `• الموقع الأول: ${v.first}`,
+      `• أربعة مواقع أخرى بسعر ${v.marginal} لكل منها`,
+      `• ${v.total} شهريًا، أي متوسط مُرجّح ${v.average} لكل موقع`,
     ],
-    refreshLabels: [
-      'تحديث خلال 4 ساعات مع ذكاء تشغيلي متخصص',
-      'تحديث خلال ساعتين مع ذكاء متخصص عميق',
-      'تحديث مخصص مع ذكاء متخصص غير محدود',
+    packageDepthLabels: [
+      'الأساس التشغيلي عبر الوحدات الإحدى عشرة',
+      'عمق أكبر في التكلفة والتسرب: النظري مقابل الفعلي، والهدر، والإلغاءات',
+      'عمق أكبر في الطلب: شرائح الضيوف، وإسناد العروض، وهامش القنوات',
+      'العمق الكامل مع التجميع متعدد العلامات والمناطق',
     ],
-    stackLabels: ['Core Lite + الوحدات', 'Core Pro + الوحدات', 'Enterprise + الوحدات'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'الأسئلة المتكررة',
   },
   fr: {
-    overviewNote: 'La licence organisation couvre vos 5 premiers sites, puis évolue par site.',
-    addModuleLabel: (name) => `Ajouter ${name} →`,
-    examplesLabel: 'Exemples :',
-    exampleLines: [
-      '• 3 sites : la licence couvre tout',
-      '• 12 sites : licence org + 7 sites additionnels',
-      '• Combinez les modules selon les sites',
+    overviewNote:
+      'Chaque offre Core embarque les onze modules. L offre fixe leur profondeur, les tranches de sites fixent le prix.',
+    addModuleLabel: (name) => `Voir ${name} dans une offre →`,
+    examplesLabel: 'Cinq sites sur Core Foundation :',
+    exampleLines: (v) => [
+      `• Premier site : ${v.first}`,
+      `• Quatre autres a ${v.marginal} chacun`,
+      `• ${v.total} par mois, soit une moyenne ponderee de ${v.average} par site`,
     ],
-    refreshLabels: [
-      'Actualisation 4 h avec intelligence opérationnelle spécialisée',
-      'Actualisation 2 h avec intelligence spécialisée avancée',
-      'Actualisation personnalisée avec intelligence spécialisée illimitée',
+    packageDepthLabels: [
+      'Le socle operationnel sur les onze modules',
+      'Plus de profondeur couts et pertes : theorique contre reel, gaspillage, annulations',
+      'Plus de profondeur demande : cohortes clients, attribution promo, marge canal',
+      'Profondeur complete plus consolidation multi-marques et multi-regions',
     ],
-    stackLabels: ['Core Lite + modules', 'Core Pro + modules', 'Enterprise + modules'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'Questions fréquentes',
   },
   es: {
-    overviewNote: 'La licencia organizativa cubre tus primeros 5 locales y luego escala por local.',
-    addModuleLabel: (name) => `Anadir ${name} →`,
-    examplesLabel: 'Ejemplos:',
-    exampleLines: [
-      '• 3 locales: la licencia cubre todos',
-      '• 12 locales: licencia org + 7 locales adicionales',
-      '• Combina modulos en distintos locales',
+    overviewNote:
+      'Cada paquete Core lleva los once modulos. El paquete marca su profundidad y los tramos de locales marcan el precio.',
+    addModuleLabel: (name) => `Ver ${name} dentro de un paquete →`,
+    examplesLabel: 'Cinco locales en Core Foundation:',
+    exampleLines: (v) => [
+      `• Primer local: ${v.first}`,
+      `• Cuatro mas a ${v.marginal} cada uno`,
+      `• ${v.total} al mes, una media ponderada de ${v.average} por local`,
     ],
-    refreshLabels: [
-      'Actualizacion de 4 horas con inteligencia operativa especializada',
-      'Actualizacion de 2 horas con inteligencia especializada profunda',
-      'Actualizacion personalizada con inteligencia especializada ilimitada',
+    packageDepthLabels: [
+      'La base operativa en los once modulos',
+      'Mas profundidad en coste y fuga: teorico frente a real, merma, anulaciones',
+      'Mas profundidad en demanda: cohortes de clientes, atribucion de promos, margen de canal',
+      'Profundidad completa mas consolidacion multimarca y multirregion',
     ],
-    stackLabels: ['Core Lite + modulos', 'Core Pro + modulos', 'Enterprise + modulos'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'Preguntas frecuentes',
   },
 };
@@ -517,6 +529,18 @@ export default function ModulesPage() {
   const page = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
   const ui = localizedModulesUi[locale as keyof typeof localizedModulesUi] ?? getGeneratedLocalCopy(localizedModulesUi, generatedLocalCopy.localizedModulesUi, locale) ?? localizedModulesUi.en;
   const cream = modulesCreamCopy[locale as keyof typeof modulesCreamCopy] ?? modulesCreamCopy.en;
+
+  // Marginal-band worked example, computed from the v1.7 price book so the
+  // page can never drift from it: 5 Core Foundation locations = the anchor
+  // plus four at the 2-10 marginal rate.
+  const foundation = CORE_PACKAGES[0];
+  const foundationFive = bandedMonthlyTotal(foundation, 5);
+  const bandExample = {
+    first: usd(foundation.firstUnitMonthly),
+    marginal: usd(foundation.bands[0].monthlyPerUnit),
+    total: usd(foundationFive.monthlyTotal),
+    average: usd(foundationFive.blendedAveragePerUnit),
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-stone-50 via-white to-orange-50">
@@ -702,7 +726,7 @@ export default function ModulesPage() {
               <div className="bg-[var(--navy-deep)] rounded-lg p-4">
                 <p className="text-sm text-[var(--text-supporting)] mb-2"><strong>{ui.examplesLabel}</strong></p>
                 <ul className="text-sm text-[var(--text-supporting)] space-y-1">
-                  {ui.exampleLines.map((line) => (
+                  {ui.exampleLines(bandExample).map((line) => (
                     <li key={line}>{line}</li>
                   ))}
                 </ul>
@@ -720,18 +744,14 @@ export default function ModulesPage() {
                 {page.howItWorks[1].description}
               </p>
               <div className="space-y-3">
-                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
-                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{ui.stackLabels[0]}</p>
-                  <p className="text-xs text-[var(--text-supporting)]">{ui.refreshLabels[0]}</p>
-                </div>
-                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
-                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{ui.stackLabels[1]}</p>
-                  <p className="text-xs text-[var(--text-supporting)]">{ui.refreshLabels[1]}</p>
-                </div>
-                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
-                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{ui.stackLabels[2]}</p>
-                  <p className="text-xs text-[var(--text-supporting)]">{ui.refreshLabels[2]}</p>
-                </div>
+                {ui.stackLabels.map((label, idx) => (
+                  <div key={label} className="bg-[var(--navy-deep)] rounded-lg p-3">
+                    <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">
+                      {label} · {usd(CORE_PACKAGES[idx].firstUnitMonthly)}
+                    </p>
+                    <p className="text-xs text-[var(--text-supporting)]">{ui.packageDepthLabels[idx]}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

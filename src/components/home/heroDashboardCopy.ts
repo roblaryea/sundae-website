@@ -40,7 +40,7 @@ export const currencyByLocale: Record<WebsiteLocale, { code: string; scale: numb
  * Other product screenshots stay in their captured (English) state by design.
  *
  * Hand-authored native transcreation, NOT literal. Same glossary discipline as
- * the rest of the site: Sundae, Pulse, Sundae Coach, NPS, Core Pro and currency
+ * the rest of the site: Sundae, Pulse, Sundae Coach, NPS, Core and currency
  * figures ($) stay untranslated; restaurant terms ("covers", "the pass", "cut")
  * use each market's real vocabulary.
  *

@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { MockupFrame, MockupKPI, MockupTable, MockupAlert } from "@/components/ui/MockupFrame";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
@@ -18,6 +18,7 @@ import { SectionConviction } from '@/components/home/sections/SectionConviction'
 import { foresightConviction } from '@/components/home/sections/routeConvictionCopy'
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreForesightMobile } from '@/components/core/CoreForesightMobile';
+import { FORESIGHT_AND_ACTION, usd } from '@/lib/pricing/priceBook'
 
 type ForesightMockupCopy = {
   timeline: {
@@ -109,7 +110,12 @@ type ForesightPageCopy = {
   components: ForesightComponent[];
   pricingTitle: string;
   pricingDescription: string;
-  pricingTiers: Array<{ tier: string; base: string; perLocation: string; description: string; highlighted?: boolean; enhancements: string[] }>;
+  /** Foresight & Action is its own marginal-band SKU in price book v1.7. */
+  pricingFirstLocationLabel: string;
+  pricingBandsLabel: string;
+  pricingBandHeaderLocations: string;
+  pricingBandHeaderRate: string;
+  pricingIncludes: string[];
   ctaTitle: string;
   ctaDescription: string;
   ctaPrimary: string;
@@ -151,12 +157,18 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { title: "External Signal Integration", headline: "Weather, Events, Competitors, Holidays - Quantified", description: "Foresight ingests external signals and estimates their revenue impact with confidence scores.", capabilities: ["Weather impact models with hourly granularity", "Local event intelligence", "Competitor activity tracking", "Holiday and seasonal calendar", "Economic indicators"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "Monte Carlo Risk Analysis", headline: "1,000 Simulations. One Probability Distribution.", description: "Run Monte Carlo simulations against your forecast to quantify downside risk and identify worst-case scenarios.", capabilities: ["1,000-iteration Monte Carlo simulation", "P10/P50/P90 outcome ranges with probability distributions", "Risk factor decomposition", "Stress testing and scenario isolation"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "Add Foresight to Your Core Plan",
-    pricingDescription: "Every Foresight plan includes all 17 sub-pages and 32 forecast visuals. Your Core tier determines how fast, how deep, and how much you can run.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "For single-unit operators getting started with predictive intelligence.", enhancements: ["15-minute data refresh cycles", "8,000 AI credits/mo", "2 years historical training data", "50 forecast queries/day"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "For multi-unit operators with the full intelligence stack.", highlighted: true, enhancements: ["5-minute data refresh - faster recalibration", "14,000 AI credits/mo - more simulations", "3 years historical data - deeper accuracy", "150 forecast queries/day", "Analyst & Strategist intelligence modes", "Native multi-POS support"] },
-      { tier: "Enterprise", base: "Custom", perLocation: "Custom", description: "Dedicated support, SLAs, white-label options, and custom integrations.", enhancements: ["Custom data refresh intervals", "Unlimited AI credits", "Full historical data access", "Unlimited forecast queries", "All intelligence modes", "Dedicated success manager"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "Forward-looking forecasts, scenario modelling, and the approve-in-the-loop action layer that acts on what they surface. Priced on the same location bands as a Core package: an anchor for your first location, then a marginal rate for each one after it.",
+    pricingFirstLocationLabel: "first location / month",
+    pricingBandsLabel: "Then, per additional location",
+    pricingBandHeaderLocations: "Locations",
+    pricingBandHeaderRate: "Per additional location / month",
+    pricingIncludes: [
+      "All 17 sub-pages and 32 forecast visuals",
+      "14-90 day forecasts with confidence bands",
+      "What-if scenario builder and Monte Carlo risk analysis",
+      "Weekly executive briefing with prioritised actions",
+      "Approve-in-the-loop actuation across your channels",
     ],
     ctaTitle: "Ready for Predictive Intelligence?",
     ctaDescription: "Tell us what you need. We'll build the model to make it happen.",
@@ -206,12 +218,18 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { title: "دمج الإشارات الخارجية", headline: "الطقس والفعاليات والمنافسون والعطل - كلها مقاسة", description: "يستوعب Foresight الإشارات الخارجية ويقدّر أثرها على الإيرادات مع درجات الثقة.", capabilities: ["نماذج أثر الطقس بدقة ساعية", "ذكاء الفعاليات المحلية", "تتبع نشاط المنافسين", "تقويم العطل والموسمية", "مؤشرات اقتصادية"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "تحليل مخاطر Monte Carlo", headline: "1000 محاكاة. توزيع احتمال واحد.", description: "شغّل محاكاة Monte Carlo على توقعاتك لقياس المخاطر السلبية وتحديد أسوأ السيناريوهات.", capabilities: ["محاكاة 1000 مرة لكل فترة", "مخرجات P10/P50/P90 مع التوزيعات", "تفكيك عوامل المخاطر", "اختبار ضغط وعزل السيناريو"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "أضف Foresight إلى خطتك الأساسية",
-    pricingDescription: "كل باقة Foresight تشمل كل الصفحات الفرعية الـ12 والمرئيات التنبؤية الـ32. تحدد باقة Core سرعتك وعمق التشغيل وحجم الاستخدام.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "للمشغلين الأفراد الذين يبدأون بالذكاء التنبؤي.", enhancements: ["تحديث بيانات كل 15 دقيقة", "8000 رصيد AI شهرياً", "سنتان من بيانات التدريب", "50 استعلام توقع يومياً"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "للمشغلين متعددي المواقع مع كامل منظومة الذكاء.", highlighted: true, enhancements: ["تحديث بيانات كل 5 دقائق", "14000 رصيد AI شهرياً", "3 سنوات بيانات تاريخية", "150 استعلام توقع يومياً", "أوضاع Analyst و Strategist", "دعم أصيل لعدة أنظمة POS"] },
-      { tier: "Enterprise", base: "مخصص", perLocation: "مخصص", description: "دعم مخصص، اتفاقيات SLA، وخيارات white-label وتكاملات مخصصة.", enhancements: ["فواصل تحديث مخصصة", "رصيد AI غير محدود", "وصول كامل للبيانات التاريخية", "استعلامات غير محدودة", "كل أوضاع الذكاء", "مدير نجاح مخصص"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "توقعات مستقبلية ونمذجة سيناريوهات وطبقة تنفيذ باعتماد بشري. يُسعَّر بشرائح المواقع نفسها المستخدمة في باقات Core: سعر أساسي للموقع الأول ثم سعر حدّي لكل موقع بعده.",
+    pricingFirstLocationLabel: "للموقع الأول شهريًا",
+    pricingBandsLabel: "ثم لكل موقع إضافي",
+    pricingBandHeaderLocations: "المواقع",
+    pricingBandHeaderRate: "لكل موقع إضافي شهريًا",
+    pricingIncludes: [
+      "كل الصفحات الفرعية الـ17 والمرئيات التنبؤية الـ32",
+      "توقعات من 14 إلى 90 يومًا مع نطاقات ثقة",
+      "منشئ سيناريوهات ماذا لو وتحليل مخاطر Monte Carlo",
+      "ملخص تنفيذي أسبوعي بخطوات مرتبة",
+      "تنفيذ باعتماد بشري عبر قنواتك",
     ],
     ctaTitle: "هل أنت جاهز للذكاء التنبؤي؟",
     ctaDescription: "أخبرنا بما تحتاجه. وسنبني النموذج الذي يحقق ذلك.",
@@ -261,12 +279,18 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { title: "Integration des signaux externes", headline: "Meteo, evenements, concurrents, jours feries - quantifies", description: "Foresight ingere des signaux externes et estime leur impact sur le revenu avec scores de confiance.", capabilities: ["Impact meteo horaire", "Intelligence des evenements locaux", "Suivi des concurrents", "Calendrier des jours feries", "Indicateurs economiques"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "Analyse de risque Monte Carlo", headline: "1000 simulations. Une distribution.", description: "Quantifiez le risque a la baisse et identifiez les pires scenarios.", capabilities: ["Simulation Monte Carlo 1000 iterations", "P10/P50/P90", "Decomposition des facteurs de risque", "Stress test et isolation des scenarios"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "Ajoutez Foresight a votre offre Core",
-    pricingDescription: "Chaque offre inclut les 12 sous-pages et 32 visuels. Votre niveau Core definit la vitesse et la profondeur.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "Pour les exploitants qui debutent avec l'intelligence predictive.", enhancements: ["Rafraichissement toutes les 15 min", "8000 credits AI/mois", "2 ans d'historique", "50 requetes forecast/jour"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "Pour les exploitants multi-sites avec toute la pile.", highlighted: true, enhancements: ["Rafraichissement toutes les 5 min", "14000 credits AI/mois", "3 ans de donnees historiques", "150 requetes forecast/jour", "Modes Analyst & Strategist", "Support multi-POS natif"] },
-      { tier: "Enterprise", base: "Sur mesure", perLocation: "Sur mesure", description: "Support dedie, SLA, white-label et integrations custom.", enhancements: ["Intervalles de rafraichissement custom", "Credits AI illimites", "Acces historique complet", "Requetes illimitees", "Tous les modes d'intelligence", "Success manager dedie"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "Previsions, modelisation de scenarios et couche d action validee par un humain. Tarifee sur les memes tranches de sites qu une offre Core : un prix d ancrage pour le premier site, puis un tarif marginal pour chacun des suivants.",
+    pricingFirstLocationLabel: "premier site / mois",
+    pricingBandsLabel: "Puis, par site additionnel",
+    pricingBandHeaderLocations: "Sites",
+    pricingBandHeaderRate: "Par site additionnel / mois",
+    pricingIncludes: [
+      "Les 17 sous-pages et 32 visuels de prevision",
+      "Previsions 14-90 jours avec bandes de confiance",
+      "Constructeur de scenarios et analyse de risque Monte Carlo",
+      "Briefing hebdomadaire avec actions priorisees",
+      "Actuation validee par un humain sur vos canaux",
     ],
     ctaTitle: "Pret pour l'intelligence predictive ?",
     ctaDescription: "Dites-nous ce qu'il vous faut. Nous construirons le modele pour le realiser.",
@@ -316,12 +340,18 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { title: "Integracion de señales externas", headline: "Clima, eventos, competidores y festivos - medidos", description: "Ingiere señales externas y estima su impacto en ingresos con scores de confianza.", capabilities: ["Impacto del clima por hora", "Inteligencia de eventos locales", "Seguimiento de competidores", "Calendario de festivos", "Indicadores economicos"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "Riesgo Monte Carlo", headline: "1000 simulaciones. Una distribucion.", description: "Cuantifica el riesgo a la baja e identifica escenarios pesimos.", capabilities: ["Simulacion Monte Carlo 1000 veces", "P10/P50/P90", "Descomposicion de riesgo", "Stress test y aislamiento"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "Añade Foresight a tu plan Core",
-    pricingDescription: "Cada plan incluye las 12 subpaginas y los 32 visuales. Tu tier Core decide velocidad, profundidad y volumen.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "Para operadores individuales que empiezan con inteligencia predictiva.", enhancements: ["Actualizacion cada 15 min", "8000 creditos AI/mes", "2 años de datos", "50 consultas/dia"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "Para multi-local con toda la pila de inteligencia.", highlighted: true, enhancements: ["Actualizacion cada 5 min", "14000 creditos AI/mes", "3 años de historico", "150 consultas/dia", "Modos Analyst & Strategist", "Soporte multi-POS nativo"] },
-      { tier: "Enterprise", base: "A medida", perLocation: "A medida", description: "Soporte dedicado, SLAs, white-label e integraciones custom.", enhancements: ["Intervalos custom", "Creditos AI ilimitados", "Acceso historico completo", "Consultas ilimitadas", "Todos los modos", "Success manager dedicado"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "Previsiones, modelado de escenarios y la capa de accion con aprobacion humana. Se tarifica con los mismos tramos de locales que un paquete Core: un precio ancla para el primer local y una tarifa marginal por cada uno posterior.",
+    pricingFirstLocationLabel: "primer local / mes",
+    pricingBandsLabel: "Despues, por local adicional",
+    pricingBandHeaderLocations: "Locales",
+    pricingBandHeaderRate: "Por local adicional / mes",
+    pricingIncludes: [
+      "Las 17 subpaginas y los 32 visuales de prevision",
+      "Previsiones de 14 a 90 dias con bandas de confianza",
+      "Constructor de escenarios y analisis de riesgo Monte Carlo",
+      "Briefing ejecutivo semanal con acciones priorizadas",
+      "Actuacion con aprobacion humana en tus canales",
     ],
     ctaTitle: "Listo para inteligencia predictiva?",
     ctaDescription: "Dinos lo que necesitas. Construiremos el modelo para hacerlo realidad.",
@@ -679,29 +709,53 @@ export default function ForesightPage() {
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.pricingTitle}</h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.pricingDescription}</p>
           </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {ui.pricingTiers.map((tier) => (
-              <StaggerItem key={tier.tier}>
-                <Card variant="elevated" className={`p-6 ${tier.highlighted ? 'border border-[#FF5C4D]/30' : ''}`}>
-                  <CardHeader>
-                    <CardTitle className="text-[var(--text-primary)]">{tier.tier}</CardTitle>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-3xl font-bold text-[var(--text-primary)]">{tier.base}</span>
-                      <span className="text-sm text-[var(--text-muted)]">{tier.perLocation}</span>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-[var(--text-supporting)] mb-4">{tier.description}</p>
-                    <ul className="space-y-2">
-                      {tier.enhancements.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]"><span className="text-[#FF5C4D] mt-0.5">✓</span><span>{item}</span></li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
+          <FadeUp>
+            <Card variant="elevated" className="p-6 md:p-8">
+              <CardContent className="grid md:grid-cols-2 gap-8 items-start p-0">
+                <div>
+                  <p className="text-4xl font-bold text-[var(--text-primary)] tabular-nums">
+                    {usd(FORESIGHT_AND_ACTION.firstUnitMonthly)}
+                  </p>
+                  <p className="text-sm text-[var(--text-supporting)] mb-6">{ui.pricingFirstLocationLabel}</p>
+                  <ul className="space-y-2">
+                    {ui.pricingIncludes.map((item) => (
+                      <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
+                        <span className="text-[#FF5C4D] mt-0.5">&#10003;</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-3">
+                    {ui.pricingBandsLabel}
+                  </p>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="text-left text-xs uppercase tracking-wide text-[var(--text-muted)]">
+                          <th scope="col" className="pb-2 pe-4 font-medium">{ui.pricingBandHeaderLocations}</th>
+                          <th scope="col" className="pb-2 font-medium">{ui.pricingBandHeaderRate}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {FORESIGHT_AND_ACTION.bands.map((band) => (
+                          <tr key={band.fromUnit} className="border-t border-[var(--border-default)]">
+                            <td className="py-2 pe-4 text-[var(--text-supporting)] tabular-nums">
+                              {band.fromUnit}-{band.toUnit}
+                            </td>
+                            <td className="py-2 text-[var(--text-secondary)] font-medium tabular-nums">
+                              {usd(band.monthlyPerUnit)}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </FadeUp>
         </div>
       </section>
 

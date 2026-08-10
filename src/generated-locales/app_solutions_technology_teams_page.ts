@@ -36,32 +36,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Comment Sundae fonctionne pour les équipes techniques et de données",
       "howDescription": "Une plateforme, douze domaines, zéro plomberie.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ modèles de données de restaurant gouvernés",
-          "description": "Schéma unifié à travers POS, main-d'œuvre, inventaire, livraison, réservations, comptabilité. Chaque métrique définie une fois, utilisée partout.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API publique + webhooks prêts à l'emploi",
-          "description": "Points de terminaison REST pour chaque entité. Événements de webhook sur commande, service, annulation, offert. RBAC et pistes d'audit intégrés.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Actualisation en direct de Core",
-          "description": "Pulse fonctionne avec une actualisation de 5 minutes sur Core Pro. Pas d'ETL par lot, pas de travail nocturne, pas de \"pourquoi le tableau de bord a 6 heures de retard\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "IA que vous pouvez gouverner",
-          "description": "Les réponses de Sundae Intelligence citent la ligne source, la définition de la métrique et la requête. IA auditable, pas une boîte noire.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Qu'est-ce qui change pour l'équipe de données",
       "outcomesDescription": "Backlog réduit, gouvernance simplifiée, IA défendable.",
       "outcomes": [
@@ -124,32 +98,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Wie Sundae für Technologie- und Datenteams funktioniert",
       "howDescription": "Eine Plattform, zwölf Bereiche, null Aufwand.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ verwaltete Restaurantdatenmodelle",
-          "description": "Einheitliches Schema für POS, Personal, Inventar, Lieferung, Reservierungen, Buchhaltung. Jede Kennzahl einmal definiert, überall verwendet.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "Öffentliche API + Webhooks sofort einsatzbereit",
-          "description": "REST-Endpunkte für jede Entität. Webhook-Ereignisse bei Bestellung, Schicht, Stornierung, Kompensation. RBAC und Audit-Trails integriert.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Live Core-Aktualisierung",
-          "description": "Pulse läuft alle 5 Minuten auf Core Pro. Kein Batch-ETL, kein nächtlicher Job, kein \"Warum ist das Dashboard 6 Stunden hinterher\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "KI, die Sie steuern können",
-          "description": "Die Antworten von Sundae Intelligence geben die Quellzeile, die Kennzahldefinition und die Abfrage an. Prüfbare KI, kein schwarzer Kasten.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Was ändert sich für das Datenteam",
       "outcomesDescription": "Kürzerer Rückstand, sauberere Governance, KI, die Sie verteidigen können.",
       "outcomes": [
@@ -212,32 +160,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "كيف يعمل Sundae لفرق التكنولوجيا والبيانات",
       "howDescription": "منصة واحدة، اثنا عشر مجالًا، صفر أنابيب.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ نماذج بيانات مطاعم مُدارة",
-          "description": "نموذج موحد عبر نظام POS، العمالة، المخزون، التوصيل، الحجوزات، المحاسبة. كل مقياس مُعرف مرة واحدة، مستخدم في كل مكان.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "واجهة برمجة التطبيقات العامة + الويب هوكس جاهزة للاستخدام",
-          "description": "نقاط نهاية REST لكل كيان. أحداث الويب هوك عند الطلب، الوردية، الإلغاء، التعويض. التحكم في الوصول القائم على الأدوار ومسارات التدقيق مدمجة.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "تحديث مباشر لـ Core",
-          "description": "Pulse يعمل على تحديث كل 5 دقائق على Core Pro. لا معالجة دفعات ETL، لا وظائف ليلية، لا \"لماذا لوحة المعلومات متأخرة 6 ساعات\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "ذكاء اصطناعي يمكنك التحكم فيه",
-          "description": "إجابات Sundae Intelligence تشير إلى صف المصدر، تعريف المقياس، والاستعلام. ذكاء اصطناعي قابل للتدقيق، وليس صندوق أسود.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "ما الذي يتغير لفريق البيانات",
       "outcomesDescription": "قائمة انتظار أقصر، حوكمة أنظف، ذكاء اصطناعي يمكنك الدفاع عنه.",
       "outcomes": [
@@ -300,32 +222,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Cómo funciona Sundae para equipos de tecnología y datos",
       "howDescription": "Una plataforma, doce dominios, cero plomería.",
-      "howSundaeHelps": [
-        {
-          "title": "Más de 500 modelos de datos de restaurantes gobernados",
-          "description": "Esquema unificado a través de POS, mano de obra, inventario, entrega, reservas, contabilidad. Cada métrica definida una vez, utilizada en todas partes.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API pública + webhooks listos para usar",
-          "description": "Puntos finales REST para cada entidad. Eventos de webhook en pedido, turno, anulación, compensación. RBAC y auditorías integradas.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Actualización en vivo de Core",
-          "description": "Pulse se actualiza cada 5 minutos en Core Pro. Sin ETL por lotes, sin trabajos nocturnos, sin \"¿por qué el panel está 6 horas desactualizado?\"",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "IA que puedes gobernar",
-          "description": "Las respuestas de Sundae Intelligence citan la fila de origen, la definición de la métrica y la consulta. IA auditable, no una caja negra.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Qué cambia para el equipo de datos",
       "outcomesDescription": "Menor backlog, gobernanza más clara, IA que puedes defender.",
       "outcomes": [
@@ -388,32 +284,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Hoe Sundae werkt voor technologie- en datateams",
       "howDescription": "Eén platform, twaalf datadomeinen, geen losse pijplijnen.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ beheerde restaurantdatamodellen",
-          "description": "Geünificeerd schema voor POS, personeel, voorraad, levering, reserveringen, boekhouding. Elke metriek één keer gedefinieerd, overal gebruikt.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "Publieke API + webhooks direct beschikbaar",
-          "description": "REST-eindpunten voor elke entiteit. Webhook-gebeurtenissen bij bestelling, dienst, annulering, compensatie. RBAC en auditsporen ingebouwd.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Live Core verversing",
-          "description": "Pulse draait op een verversing van 5 minuten op Core Pro. Geen batch-ETL, geen nachtelijke job, geen “waarom loopt het dashboard 6 uur achter?”",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI die je kunt beheersen",
-          "description": "Sundae Intelligence antwoorden citeren de bronrij, de metriekdefinitie en de query. Controleerbare AI, geen black box.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Wat verandert er voor het datateam",
       "outcomesDescription": "Kortere achterstand, schonere governance, AI die je kunt verdedigen.",
       "outcomes": [
@@ -476,32 +346,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Como a Sundae funciona para equipes de tecnologia e dados",
       "howDescription": "Uma plataforma, doze domínios, zero encanamento.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ modelos de dados de restaurante governados",
-          "description": "Esquema unificado em POS, mão de obra, inventário, entrega, reservas, contabilidade. Cada métrica definida uma vez, usada em todos os lugares.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API pública + webhooks prontos para uso",
-          "description": "Endpoints REST para cada entidade. Eventos de webhook em pedido, turno, anulação, compensação. RBAC e trilhas de auditoria integradas.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Atualização ao vivo do Core",
-          "description": "Pulse opera com uma atualização a cada 5 minutos no Core Pro. Sem ETL em lote, sem trabalho noturno, sem \"por que o painel está 6 horas atrasado\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "IA que você pode governar",
-          "description": "As respostas da Sundae Intelligence citam a linha de origem, a definição da métrica e a consulta. IA auditável, não uma caixa preta.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "O que muda para a equipe de dados",
       "outcomesDescription": "Backlog mais curto, governança mais limpa, IA que você pode defender.",
       "outcomes": [
@@ -564,32 +408,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Sundae ٹیک اور ڈیٹا ٹیموں کے لیے کیسے کام کرتا ہے",
       "howDescription": "ایک پلیٹ فارم، بارہ ڈومین، صفر پلمبنگ۔",
-      "howSundaeHelps": [
-        {
-          "title": "500+ منظم ریستوران ڈیٹا ماڈلز",
-          "description": "POS، لیبر، انوینٹری، ترسیل، ریزرویشنز، اکاؤنٹنگ میں متحدہ اسکیمہ۔ ہر میٹرک ایک بار متعین، ہر جگہ استعمال ہوتا ہے۔",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "پبلک API + ویب ہکس، بغیر کسی سیٹ اپ کے تیار",
-          "description": "ہر ادارے کے لیے REST اینڈ پوائنٹس۔ آرڈر، شفٹ، منسوخی، مفت پیشکش پر ویب ہک ایونٹس۔ RBAC اور آڈٹ ٹریلز شامل ہیں۔",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "لائیو Core ریفریش",
-          "description": "Pulse Core Pro پر 5 منٹ کی ریفریش پر چلتا ہے۔ کوئی بیچ ETL نہیں، کوئی رات کا کام نہیں، کوئی \"ڈیش بورڈ 6 گھنٹے پیچھے کیوں ہے\" نہیں۔",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI جسے آپ منظم کر سکتے ہیں",
-          "description": "Sundae Intelligence کے جوابات ماخذ کی صف، میٹرک کی تعریف، اور سوال کو ظاہر کرتے ہیں۔ آڈٹ کے قابل AI، نہ کہ ایک سیاہ باکس۔",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "ڈیٹا ٹیم کے لیے کیا تبدیلیاں ہیں",
       "outcomesDescription": "چھوٹا بیک لاگ، صاف حکمرانی، AI جس کا آپ دفاع کر سکتے ہیں۔",
       "outcomes": [
@@ -652,32 +470,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Sundae तकनीकी और डेटा टीमों के लिए कैसे काम करता है",
       "howDescription": "एक प्लेटफ़ॉर्म, बारह डोमेन, शून्य प्लंबिंग।",
-      "howSundaeHelps": [
-        {
-          "title": "500+ नियंत्रित रेस्तरां डेटा मॉडल",
-          "description": "POS, श्रम, इन्वेंटरी, डिलीवरी, आरक्षण, लेखांकन में एकीकृत स्कीमा। हर मीट्रिक एक बार परिभाषित, हर जगह उपयोग किया गया।",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "बॉक्स से बाहर सार्वजनिक API + वेबहुक",
-          "description": "हर इकाई के लिए REST एंडपॉइंट। ऑर्डर, शिफ्ट, वॉइड, कंप पर वेबहुक इवेंट। RBAC और ऑडिट ट्रेल्स अंतर्निहित।",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "लाइव कोर रिफ्रेश",
-          "description": "Pulse, Core Pro पर 5-मिनट के रिफ्रेश पर चलता है। कोई बैच ETL नहीं, कोई रात का काम नहीं, कोई \"डैशबोर्ड 6 घंटे पीछे क्यों है\" नहीं।",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI जिसे आप नियंत्रित कर सकते हैं",
-          "description": "Sundae Intelligence उत्तर स्रोत पंक्ति, मीट्रिक परिभाषा, और क्वेरी का उल्लेख करते हैं। ऑडिट करने योग्य AI, कोई ब्लैक बॉक्स नहीं।",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "डेटा टीम के लिए क्या बदलता है",
       "outcomesDescription": "छोटी बैकलॉग, साफ़ शासन, ऐसा AI जिसका आप बचाव कर सकते हैं।",
       "outcomes": [
@@ -740,32 +532,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Come Sundae funziona per i team tecnologici e di dati",
       "howDescription": "Una piattaforma, dodici domini, zero tubature.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ modelli di dati per ristoranti governati",
-          "description": "Schema unificato tra POS, lavoro, inventario, consegne, prenotazioni, contabilità. Ogni metrica definita una sola volta, utilizzata ovunque.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API pubblica + webhook pronti all'uso",
-          "description": "Endpoint REST per ogni entità. Eventi webhook su ordine, turno, annullamento, omaggio. RBAC e audit trail integrati.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Aggiornamento live di Core",
-          "description": "Pulse si aggiorna ogni 5 minuti su Core Pro. Niente ETL batch, niente lavori notturni, niente \"perché il dashboard è indietro di 6 ore\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI che puoi governare",
-          "description": "Le risposte di Sundae Intelligence citano la riga sorgente, la definizione della metrica e la query. AI auditabile, non una scatola nera.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Cosa cambia per il team dati",
       "outcomesDescription": "Backlog più breve, governance più pulita, AI che puoi difendere.",
       "outcomes": [
@@ -828,32 +594,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Jak Sundae działa dla zespołów technologicznych i danych",
       "howDescription": "Jedna platforma, dwanaście obszarów, zero hydrauliki.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ zarządzanych modeli danych restauracyjnych",
-          "description": "Zunifikowany schemat dla POS, pracy, zapasów, dostaw, rezerwacji, księgowości. Każda metryka zdefiniowana raz, używana wszędzie.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "Publiczne API + webhooki od razu",
-          "description": "Punkty końcowe REST dla każdej encji. Wydarzenia webhook przy zamówieniu, zmianie, anulowaniu, rekompensacie. Wbudowane RBAC i ścieżki audytu.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Na żywo odświeżanie Core",
-          "description": "Pulse działa na 5-minutowym odświeżaniu w Core Pro. Brak wsadowego ETL, brak nocnych zadań, brak \"dlaczego pulpit nawigacyjny jest opóźniony o 6 godzin\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI, którą możesz zarządzać",
-          "description": "Odpowiedzi Sundae Intelligence cytują źródłowy wiersz, definicję metryki i zapytanie. Audytowalna AI, nie czarna skrzynka.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Co się zmienia dla zespołu danych",
       "outcomesDescription": "Krótszy backlog, czystsze zarządzanie, AI, które możesz obronić.",
       "outcomes": [
@@ -916,32 +656,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Sundae, teknoloji ve veri ekipleri için nasıl çalışır",
       "howDescription": "Tek bir platform, on iki alan, sıfır altyapı.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ yönetilen restoran veri modeli",
-          "description": "POS, iş gücü, envanter, teslimat, rezervasyon, muhasebe için birleşik şema. Her metrik bir kez tanımlanır, her yerde kullanılır.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "Kullanıma hazır herkese açık API + webhook'lar",
-          "description": "Her varlık için REST uç noktaları. Sipariş, vardiya, iptal, ikram üzerine webhook olayları. RBAC ve denetim izleri dahildir.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Canlı Core yenilemesi",
-          "description": "Pulse, Core Pro'da 5 dakikalık yenileme ile çalışır. Toplu ETL yok, gece iş yok, \"gösterge paneli neden 6 saat geride\" yok.",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "Yönetebileceğiniz AI",
-          "description": "Sundae Intelligence cevapları, kaynak satırını, metrik tanımını ve sorguyu belirtir. Denetlenebilir AI, kara kutu değil.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Veri ekibi için ne değişiyor",
       "outcomesDescription": "Kısa bir bekleme listesi, daha temiz yönetim, savunabileceğiniz AI.",
       "outcomes": [
@@ -1004,32 +718,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Sundae 如何为技术和数据团队提供服务",
       "howDescription": "一个平台，十二个领域，零复杂性。",
-      "howSundaeHelps": [
-        {
-          "title": "500+ 受管控的餐厅数据模型",
-          "description": "在POS、劳动力、库存、配送、预订、会计之间统一的架构。每个指标定义一次，处处可用。",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "开箱即用的公共API + Webhooks",
-          "description": "每个实体的REST端点。订单、班次、作废、补偿的Webhook事件。内置RBAC和审计跟踪。",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "实时Core刷新",
-          "description": "Pulse在Core Pro上每5分钟刷新一次。没有批量ETL，没有夜间作业，没有“为什么仪表板滞后6小时”。",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "可管理的AI",
-          "description": "Sundae Intelligence的回答引用源行、指标定义和查询。可审计的AI，而不是黑箱。",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "数据团队会发生什么变化",
       "outcomesDescription": "更短的待办事项，更清晰的治理，您可以辩护的人工智能。",
       "outcomes": [
@@ -1092,32 +780,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Sundaeがテクノロジーとデータチームにどのように機能するか",
       "howDescription": "1つのプラットフォーム、12のドメイン、配管は不要。",
-      "howSundaeHelps": [
-        {
-          "title": "500以上の管理されたレストランデータモデル",
-          "description": "POS、労働、在庫、配達、予約、会計にわたる統一スキーマ。すべての指標は一度定義され、どこでも使用されます。",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "すぐに使えるパブリックAPI + ウェブフック",
-          "description": "すべてのエンティティに対するRESTエンドポイント。注文、シフト、無効、補償に関するウェブフックイベント。RBACと監査トレイルが組み込まれています。",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "ライブコアリフレッシュ",
-          "description": "PulseはCore Proで5分ごとにリフレッシュされます。バッチETLなし、夜間ジョブなし、「ダッシュボードが6時間遅れているのはなぜ？」なし。",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "管理可能なAI",
-          "description": "Sundae Intelligenceの回答は、ソース行、指標定義、クエリを引用します。監査可能なAI、ブラックボックスではありません。",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "データチームにとっての変化",
       "outcomesDescription": "短いバックログ、クリーンなガバナンス、守れるAI。",
       "outcomes": [
@@ -1180,32 +842,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Bagaimana Sundae bekerja untuk tim teknologi & data",
       "howDescription": "Satu platform, dua belas domain, tanpa kerumitan.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ model data restoran yang dikelola",
-          "description": "Skema terpadu di seluruh POS, tenaga kerja, inventaris, pengiriman, reservasi, akuntansi. Setiap metrik didefinisikan sekali, digunakan di mana saja.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API Publik + webhook siap pakai",
-          "description": "Endpoint REST untuk setiap entitas. Peristiwa webhook pada pesanan, shift, void, comp. RBAC dan jejak audit sudah terintegrasi.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Pembaruan Core langsung",
-          "description": "Pulse berjalan dengan pembaruan setiap 5 menit di Core Pro. Tidak ada ETL batch, tidak ada pekerjaan malam, tidak ada \"mengapa dasbor tertinggal 6 jam\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI yang dapat Anda kelola",
-          "description": "Jawaban Sundae Intelligence mencantumkan baris sumber, definisi metrik, dan kueri. AI yang dapat diaudit, bukan kotak hitam.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Apa yang berubah untuk tim data",
       "outcomesDescription": "Backlog lebih pendek, tata kelola lebih bersih, AI yang dapat Anda pertahankan.",
       "outcomes": [
@@ -1268,32 +904,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Cách Sundae hoạt động cho các đội ngũ công nghệ & dữ liệu",
       "howDescription": "Một nền tảng, mười hai lĩnh vực, không cần lắp đặt.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ mô hình dữ liệu nhà hàng được quản lý",
-          "description": "Lược đồ thống nhất trên POS, lao động, tồn kho, giao hàng, đặt chỗ, kế toán. Mỗi chỉ số được định nghĩa một lần, sử dụng ở mọi nơi.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API công cộng + webhook ngay lập tức",
-          "description": "Các điểm cuối REST cho mọi thực thể. Sự kiện webhook trên đơn hàng, ca làm, hủy, bù. RBAC và nhật ký kiểm toán được tích hợp sẵn.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Làm mới Core trực tiếp",
-          "description": "Pulse hoạt động với chu kỳ làm mới 5 phút trên Core Pro. Không có ETL theo lô, không có công việc ban đêm, không có \"tại sao bảng điều khiển lại chậm 6 giờ\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI bạn có thể quản lý",
-          "description": "Sundae Intelligence cung cấp câu trả lời trích dẫn hàng nguồn, định nghĩa chỉ số và truy vấn. AI có thể kiểm toán, không phải là hộp đen.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Những thay đổi cho nhóm dữ liệu",
       "outcomesDescription": "Danh sách công việc ngắn hơn, quản lý rõ ràng hơn, AI mà bạn có thể bảo vệ.",
       "outcomes": [
@@ -1356,32 +966,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Sundae가 기술 및 데이터 팀을 위해 작동하는 방법",
       "howDescription": "하나의 플랫폼, 열두 개의 도메인, 제로 배관.",
-      "howSundaeHelps": [
-        {
-          "title": "500개 이상의 관리되는 레스토랑 데이터 모델",
-          "description": "POS, 인력, 재고, 배달, 예약, 회계에 걸쳐 통합된 스키마. 모든 지표는 한 번 정의되고 어디서나 사용됩니다.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "즉시 사용 가능한 공개 API + 웹훅",
-          "description": "모든 엔티티에 대한 REST 엔드포인트. 주문, 교대, 무효, 보상에 대한 웹훅 이벤트. RBAC 및 감사 추적이 내장되어 있습니다.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "실시간 Core 새로 고침",
-          "description": "Pulse는 Core Pro에서 5분마다 새로 고침됩니다. 배치 ETL, 야간 작업, \"대시보드가 6시간 뒤쳐진 이유\"가 없습니다.",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "관리할 수 있는 AI",
-          "description": "Sundae Intelligence의 답변은 출처 행, 지표 정의 및 쿼리를 인용합니다. 감사 가능한 AI, 블랙 박스가 아닙니다.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "데이터 팀에 대한 변화",
       "outcomesDescription": "더 짧은 대기열, 더 깔끔한 거버넌스, 방어할 수 있는 AI.",
       "outcomes": [
@@ -1444,32 +1028,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Hur Sundae fungerar för teknik- och datateam",
       "howDescription": "En plattform, tolv domäner, ingen rördragning.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ styrda restaurangdatamodeller",
-          "description": "Enhetligt schema över POS, arbetskraft, lager, leverans, reservationer, bokföring. Varje mått definieras en gång, används överallt.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "Offentlig API + webhooks direkt ur lådan",
-          "description": "REST-endpunkter för varje enhet. Webhook-händelser vid beställning, skift, annullering, kompensation. RBAC och revisionsspår inbyggt.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Live Core-uppdatering",
-          "description": "Pulse körs med en 5-minuters uppdatering på Core Pro. Ingen batch ETL, inget nattjobb, ingen \"varför är instrumentpanelen 6 timmar efter\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI du kan styra",
-          "description": "Sundae Intelligence-svar citerar källrad, måttdefinition och fråga. Revisionsbar AI, inte en svart låda.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Vad förändras för datateamet",
       "outcomesDescription": "Kortare backlog, renare styrning, AI som du kan försvara.",
       "outcomes": [
@@ -1532,32 +1090,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Cum funcționează Sundae pentru echipele de tehnologie și date",
       "howDescription": "O platformă, douăsprezece domenii, zero instalații.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ modele de date pentru restaurante guvernate",
-          "description": "Schema unificată pentru POS, muncă, inventar, livrare, rezervări, contabilitate. Fiecare metric definit o singură dată, folosit peste tot.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API public + webhooks din cutie",
-          "description": "Puncte finale REST pentru fiecare entitate. Evenimente webhook la comandă, schimb, anulare, compensație. RBAC și trail-uri de audit incluse.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Actualizare live a Core",
-          "description": "Pulse funcționează cu o actualizare la fiecare 5 minute pe Core Pro. Fără ETL în lot, fără joburi nocturne, fără \"de ce este tabloul de bord cu 6 ore întârziere\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI pe care o poți guverna",
-          "description": "Răspunsurile Sundae Intelligence citează rândul sursă, definiția metricului și interogarea. AI auditabil, nu o cutie neagră.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Ce se schimbă pentru echipa de date",
       "outcomesDescription": "Backlog mai scurt, guvernanță mai clară, AI pe care o poți susține.",
       "outcomes": [
@@ -1620,32 +1152,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "কিভাবে Sundae প্রযুক্তি ও ডেটা দলের জন্য কাজ করে",
       "howDescription": "একটি প্ল্যাটফর্ম, বারো ডোমেইন, শূন্য প্লাম্বিং।",
-      "howSundaeHelps": [
-        {
-          "title": "৫০০+ পরিচালিত রেস্টুরেন্ট ডেটা মডেল",
-          "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি, রিজার্ভেশন, হিসাবরক্ষণ জুড়ে একক স্কিমা। প্রতিটি মেট্রিক একবার সংজ্ঞায়িত, সর্বত্র ব্যবহৃত।",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "পাবলিক API + ওয়েবহুক আউট অফ দ্য বক্স",
-          "description": "প্রতিটি সত্তার জন্য REST এন্ডপয়েন্ট। অর্ডার, শিফট, ভয়েড, কম্পে ওয়েবহুক ইভেন্ট। RBAC এবং অডিট ট্রেইল অন্তর্ভুক্ত।",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "লাইভ Core রিফ্রেশ",
-          "description": "Pulse প্রতি ৫ মিনিটে Core Pro তে রিফ্রেশ হয়। কোন ব্যাচ ETL, কোন রাতের কাজ, কোন \"ড্যাশবোর্ড ৬ ঘণ্টা পিছিয়ে কেন\"।",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "আপনি যে AI নিয়ন্ত্রণ করতে পারেন",
-          "description": "Sundae Intelligence উত্তরগুলি উৎস সারি, মেট্রিক সংজ্ঞা এবং কোয়েরি উল্লেখ করে। অডিটযোগ্য AI, একটি ব্ল্যাক বক্স নয়।",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "ডেটা দলের জন্য কী পরিবর্তন হচ্ছে",
       "outcomesDescription": "ছোট backlog, পরিষ্কার শাসন, AI যা আপনি রক্ষা করতে পারেন।",
       "outcomes": [
@@ -1708,32 +1214,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Sundae ทำงานอย่างไรสำหรับทีมเทคโนโลยีและข้อมูล",
       "howDescription": "แพลตฟอร์มเดียว สิบสองโดเมน ไม่มีการเดินสาย.",
-      "howSundaeHelps": [
-        {
-          "title": "โมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 500 รายการ",
-          "description": "สคีมาที่รวมกันทั่วทั้ง POS, แรงงาน, สินค้าคงคลัง, การจัดส่ง, การจอง, การบัญชี ทุกเมตริกถูกกำหนดไว้เพียงครั้งเดียว ใช้ได้ทุกที่",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API สาธารณะ + เว็บฮุกในกล่อง",
-          "description": "REST endpoints สำหรับทุกเอนทิตี เหตุการณ์เว็บฮุกเกี่ยวกับคำสั่ง, กะ, ยกเลิก, คอมพ์ RBAC และเส้นทางการตรวจสอบที่สร้างไว้ในระบบ",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "การรีเฟรช Core แบบสด",
-          "description": "Pulse ทำงานด้วยการรีเฟรชทุก 5 นาทีบน Core Pro ไม่มี ETL แบบกลุ่ม ไม่มีงานกลางคืน ไม่มี \"ทำไมแดชบอร์ดถึงล่าช้า 6 ชั่วโมง\"",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI ที่คุณสามารถควบคุมได้",
-          "description": "Sundae Intelligence ให้คำตอบที่อ้างอิงแถวต้นทาง, คำจำกัดความของเมตริก, และการค้นหา AI ที่ตรวจสอบได้ ไม่ใช่กล่องดำ",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "สิ่งที่เปลี่ยนแปลงสำหรับทีมข้อมูล",
       "outcomesDescription": "ระยะเวลารอคอยที่สั้นลง, การบริหารจัดการที่ชัดเจน, AI ที่คุณสามารถปกป้องได้.",
       "outcomes": [
@@ -1796,32 +1276,6 @@ export const generatedLocalCopy = {
       ],
       "howTitle": "Bagaimana Sundae berfungsi untuk pasukan teknologi & data",
       "howDescription": "Satu platform, dua belas domain, tiada paip.",
-      "howSundaeHelps": [
-        {
-          "title": "500+ model data restoran yang dikawal",
-          "description": "Skema bersatu merentasi POS, tenaga kerja, inventori, penghantaran, tempahan, perakaunan. Setiap metrik ditakrifkan sekali, digunakan di mana-mana.",
-          "product": "Sundae Core",
-          "icon": "data"
-        },
-        {
-          "title": "API Awam + webhook siap sedia",
-          "description": "Titik akhir REST untuk setiap entiti. Acara webhook pada pesanan, syif, batal, kompen. RBAC dan jejak audit terbina dalam.",
-          "product": "Sundae Core · API",
-          "icon": "integration"
-        },
-        {
-          "title": "Penyegaran Core secara langsung",
-          "description": "Pulse berfungsi dengan penyegaran 5 minit pada Core Pro. Tiada ETL batch, tiada kerja malam, tiada \"kenapa papan pemuka 6 jam tertinggal\".",
-          "product": "Pulse",
-          "icon": "speed"
-        },
-        {
-          "title": "AI yang boleh anda kawal",
-          "description": "Jawapan Sundae Intelligence menyebut baris sumber, definisi metrik, dan pertanyaan. AI yang boleh diaudit, bukan kotak hitam.",
-          "product": "Sundae Intelligence",
-          "icon": "intelligence"
-        }
-      ],
       "outcomesTitle": "Apa yang berubah untuk pasukan data",
       "outcomesDescription": "Senarai tertunggak yang lebih pendek, tadbir urus yang lebih bersih, AI yang boleh anda pertahankan.",
       "outcomes": [

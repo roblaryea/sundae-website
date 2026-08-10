@@ -116,38 +116,6 @@ export const generatedLocalCopy = {
         "Cambios en el artículo más vendido",
         "Cambios en el método de pago"
       ],
-      "differentiators": [
-        {
-          "title": "Conversacional, No Basado en Tableros",
-          "description": "Sin tableros que configurar. Sin informes que construir. Haz una pregunta, obtén una respuesta visual en segundos.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Encuentra Problemas Antes que Tú",
-          "description": "Monitorea continuamente ingresos, pedidos, tickets y rendimiento del menú - detectando anomalías antes de que se vuelvan costosas.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Gráficos Interactivos con Profundidad",
-          "description": "Haz clic en cualquier punto de datos para explorar más a fondo. Deja anotaciones para tu equipo. Cambia tipos de gráficos al instante.",
-          "icon": "chart"
-        },
-        {
-          "title": "Entrega de Inteligencia Programada",
-          "description": "Perspectivas diarias, semanales o mensuales entregadas por correo electrónico, Slack, Telegram, Teams o webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Conectado a Todo",
-          "description": "Extrae de cada fuente conectada - POS, mano de obra, inventario, reservas, entrega. Totalmente adaptado por organización.",
-          "icon": "integration"
-        },
-        {
-          "title": "Seguimiento de Decisiones",
-          "description": "Rastrea lo que hiciste con cada perspectiva. Registra acciones tomadas, elementos monitoreados o decisiones desestimadas.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "¿Cuál fue mi artículo más vendido el jueves pasado?",
         "Compara los costos laborales entre mis ubicaciones del centro",
@@ -315,38 +283,6 @@ export const generatedLocalCopy = {
         "Détection d'activité en dehors des heures",
         "Changements d'articles les plus vendus",
         "Variations des méthodes de paiement"
-      ],
-      "differentiators": [
-        {
-          "title": "Conversationnel, pas basé sur un tableau de bord",
-          "description": "Pas de tableaux de bord à configurer. Pas de rapports à créer. Posez une question, obtenez une réponse visuelle en quelques secondes.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Détecte les problèmes avant vous",
-          "description": "Surveille en continu les revenus, les commandes, les tickets et la performance du menu - mettant en évidence les anomalies avant qu'elles ne deviennent coûteuses.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Graphiques interactifs avec approfondissement",
-          "description": "Cliquez sur n'importe quel point de données pour explorer plus en profondeur. Laissez des annotations pour votre équipe. Changez de type de graphique à la volée.",
-          "icon": "chart"
-        },
-        {
-          "title": "Livraison d'intelligence programmée",
-          "description": "Aperçus quotidiens, hebdomadaires ou mensuels livrés par email, Slack, Telegram, Teams ou webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Connecté à tout",
-          "description": "Tire des données de chaque source connectée - POS, main-d'œuvre, inventaire, réservations, livraison. Entièrement défini par organisation.",
-          "icon": "integration"
-        },
-        {
-          "title": "Suivi des décisions",
-          "description": "Suivez ce que vous avez fait avec chaque aperçu. Enregistrez les actions entreprises, les éléments surveillés ou les décisions rejetées.",
-          "icon": "success"
-        }
       ],
       "queries": [
         "Quel était mon article le plus vendu jeudi dernier ?",
@@ -516,38 +452,6 @@ export const generatedLocalCopy = {
         "Änderungen bei den meistverkauften Artikeln",
         "Änderungen der Zahlungsmethoden"
       ],
-      "differentiators": [
-        {
-          "title": "Konversationell, nicht Dashboard-basiert",
-          "description": "Keine Dashboards zu konfigurieren. Keine Berichte zu erstellen. Stellen Sie eine Frage, erhalten Sie in Sekunden eine visuelle Antwort.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Findet Probleme, bevor Sie es tun",
-          "description": "Überwacht kontinuierlich Einnahmen, Bestellungen, Tickets und Menüleistungen - hebt Anomalien hervor, bevor sie teuer werden.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Interaktive Diagramme mit Drill-Down",
-          "description": "Klicken Sie auf jeden Datenpunkt, um tiefer zu erkunden. Hinterlassen Sie Anmerkungen für Ihr Team. Wechseln Sie die Diagrammtypen im Handumdrehen.",
-          "icon": "chart"
-        },
-        {
-          "title": "Geplante Intelligenzlieferung",
-          "description": "Tägliche, wöchentliche oder monatliche Einblicke per E-Mail, Slack, Telegram, Teams oder Webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Mit allem verbunden",
-          "description": "Zieht aus jeder verbundenen Quelle - POS, Personal, Inventar, Reservierungen, Lieferung. Vollständig auf die Organisation abgestimmt.",
-          "icon": "integration"
-        },
-        {
-          "title": "Entscheidungstracking",
-          "description": "Verfolgen Sie, was Sie mit jedem Einblick gemacht haben. Protokollieren Sie ergriffene Maßnahmen, überwachte Elemente oder abgelehnte Entscheidungen.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "Was war mein meistverkauftes Produkt letzten Donnerstag?",
         "Vergleiche die Arbeitskosten in meinen Innenstadtstandorten",
@@ -715,38 +619,6 @@ export const generatedLocalCopy = {
         "Detectie van activiteit buiten openingstijden",
         "Veranderingen in de best verkochte artikelen",
         "Veranderingen in betaalmethoden"
-      ],
-      "differentiators": [
-        {
-          "title": "Conversatiegericht, Niet Dashboard-gebaseerd",
-          "description": "Geen dashboards om te configureren. Geen rapporten om te bouwen. Stel een vraag en krijg binnen enkele seconden een visueel antwoord.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Vindt Problemen Voor Jij Dat Doet",
-          "description": "Continue monitoring van omzet, bestellingen, tickets en menu prestaties - brengt anomalieën aan het licht voordat ze duur worden.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Interactieve Grafieken met Drill-Down",
-          "description": "Klik op elk datapunt om dieper te verkennen. Laat annotaties achter voor je team. Wissel grafiektype on-the-fly.",
-          "icon": "chart"
-        },
-        {
-          "title": "Geplande Informatie Levering",
-          "description": "Dagelijkse, wekelijkse of maandelijkse inzichten geleverd via e-mail, Slack, Telegram, Teams of webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Verbonden met Alles",
-          "description": "Haal gegevens uit elke verbonden bron - POS, arbeid, inventaris, reserveringen, levering. Volledig afgestemd per organisatie.",
-          "icon": "integration"
-        },
-        {
-          "title": "Besluitvorming Volgen",
-          "description": "Volg wat je met elk inzicht hebt gedaan. Log acties die zijn ondernomen, items die zijn gemonitord of beslissingen die zijn afgewezen.",
-          "icon": "success"
-        }
       ],
       "queries": [
         "Wat was mijn bestverkochte item afgelopen donderdag?",
@@ -916,38 +788,6 @@ export const generatedLocalCopy = {
         "تغيرات في العناصر الأكثر مبيعًا",
         "تغيرات في وسيلة الدفع"
       ],
-      "differentiators": [
-        {
-          "title": "تفاعلي، وليس قائمًا على لوحة المعلومات",
-          "description": "لا توجد لوحات معلومات للتكوين. لا تقارير لبنائها. اطرح سؤالاً، واحصل على إجابة مرئية في ثوانٍ.",
-          "icon": "conversation"
-        },
-        {
-          "title": "يكتشف المشكلات قبل أن تفعل",
-          "description": "يراقب باستمرار الإيرادات، والطلبات، والتذاكر، وأداء القائمة - يكشف عن الشذوذ قبل أن تصبح مكلفة.",
-          "icon": "alerts"
-        },
-        {
-          "title": "رسوم بيانية تفاعلية مع إمكانية التعمق",
-          "description": "انقر على أي نقطة بيانات لاستكشاف أعمق. اترك ملاحظات لفريقك. قم بتغيير أنواع الرسوم البيانية في الوقت الفعلي.",
-          "icon": "chart"
-        },
-        {
-          "title": "تسليم الذكاء المجدول",
-          "description": "رؤى يومية، أسبوعية، أو شهرية تُرسل عبر البريد الإلكتروني، Slack، Telegram، Teams، أو webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "متصل بكل شيء",
-          "description": "يسحب من كل مصدر متصل - POS، العمالة، المخزون، الحجوزات، التوصيل. محدد بالكامل لكل منظمة.",
-          "icon": "integration"
-        },
-        {
-          "title": "تتبع القرارات",
-          "description": "تتبع ما فعلته مع كل رؤية. سجل الإجراءات المتخذة، العناصر المراقبة، أو القرارات المرفوضة.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "ما كان أفضل منتج مبيعًا يوم الخميس الماضي؟",
         "قارن تكاليف العمالة عبر مواقع وسط المدينة الخاصة بي",
@@ -1115,38 +955,6 @@ export const generatedLocalCopy = {
         "ऑफ-घंटे गतिविधि पहचान",
         "सबसे अधिक बिकने वाली वस्तु में बदलाव",
         "भुगतान विधि में बदलाव"
-      ],
-      "differentiators": [
-        {
-          "title": "संवादात्मक, डैशबोर्ड-आधारित नहीं",
-          "description": "किसी डैशबोर्ड को कॉन्फ़िगर करने की आवश्यकता नहीं। रिपोर्ट बनाने की आवश्यकता नहीं। एक प्रश्न पूछें, सेकंडों में एक दृश्य उत्तर प्राप्त करें।",
-          "icon": "conversation"
-        },
-        {
-          "title": "समस्याएँ आपके पहले ढूंढता है",
-          "description": "राजस्व, ऑर्डर, टिकट और मेनू प्रदर्शन की निरंतर निगरानी - महंगी समस्याओं के बनने से पहले ही असामान्यताएँ उजागर करता है।",
-          "icon": "alerts"
-        },
-        {
-          "title": "ड्रिल-डाउन के साथ इंटरैक्टिव चार्ट",
-          "description": "किसी भी डेटा बिंदु पर क्लिक करें और गहराई से अन्वेषण करें। अपनी टीम के लिए टिप्पणियाँ छोड़ें। चार्ट प्रकारों को तुरंत बदलें।",
-          "icon": "chart"
-        },
-        {
-          "title": "निर्धारित बुद्धिमत्ता वितरण",
-          "description": "दैनिक, साप्ताहिक, या मासिक अंतर्दृष्टियाँ ईमेल, Slack, Telegram, Teams, या वेबहुक के माध्यम से भेजी जाती हैं।",
-          "icon": "schedule"
-        },
-        {
-          "title": "सबसे जुड़े हुए",
-          "description": "हर जुड़े हुए स्रोत से डेटा खींचता है - POS, श्रम, इन्वेंटरी, आरक्षण, डिलीवरी। प्रत्येक संगठन के अनुसार पूरी तरह से परिभाषित।",
-          "icon": "integration"
-        },
-        {
-          "title": "निर्णय ट्रैकिंग",
-          "description": "हर अंतर्दृष्टि के साथ आपने क्या किया, उसे ट्रैक करें। उठाए गए कार्यों, निगरानी किए गए आइटम, या खारिज किए गए निर्णयों को लॉग करें।",
-          "icon": "success"
-        }
       ],
       "queries": [
         "पिछले गुरुवार मेरा सबसे अच्छा बिकने वाला आइटम क्या था?",
@@ -1316,38 +1124,6 @@ export const generatedLocalCopy = {
         "Mudanças nos itens mais vendidos",
         "Mudanças no método de pagamento"
       ],
-      "differentiators": [
-        {
-          "title": "Conversacional, Não Baseado em Painéis",
-          "description": "Sem painéis para configurar. Sem relatórios para construir. Faça uma pergunta, obtenha uma resposta visual em segundos.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Encontra Problemas Antes de Você",
-          "description": "Monitora continuamente receita, pedidos, tickets e desempenho do menu - destacando anomalias antes que se tornem caras.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Gráficos Interativos com Detalhamento",
-          "description": "Clique em qualquer ponto de dados para explorar mais a fundo. Deixe anotações para sua equipe. Altere tipos de gráfico rapidamente.",
-          "icon": "chart"
-        },
-        {
-          "title": "Entrega de Inteligência Programada",
-          "description": "Insights diários, semanais ou mensais entregues por e-mail, Slack, Telegram, Teams ou webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Conectado a Tudo",
-          "description": "Extrai de todas as fontes conectadas - POS, mão de obra, inventário, reservas, entrega. Totalmente adaptado por organização.",
-          "icon": "integration"
-        },
-        {
-          "title": "Rastreamento de Decisões",
-          "description": "Acompanhe o que você fez com cada insight. Registre ações tomadas, itens monitorados ou decisões descartadas.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "Qual foi meu item mais vendido na última quinta-feira?",
         "Compare os custos de mão de obra nas minhas localizações do centro",
@@ -1515,38 +1291,6 @@ export const generatedLocalCopy = {
         "Rilevamento di attività al di fuori dell'orario",
         "Cambiamenti negli articoli più venduti",
         "Variazioni nei metodi di pagamento"
-      ],
-      "differentiators": [
-        {
-          "title": "Conversazionale, non basato su dashboard",
-          "description": "Nessun dashboard da configurare. Nessun report da costruire. Fai una domanda, ricevi una risposta visiva in pochi secondi.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Trova i problemi prima di te",
-          "description": "Monitora continuamente entrate, ordini, ticket e performance del menu - evidenziando anomalie prima che diventino costose.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Grafici interattivi con drill-down",
-          "description": "Clicca su qualsiasi punto dati per esplorare più a fondo. Lascia annotazioni per il tuo team. Cambia i tipi di grafico al volo.",
-          "icon": "chart"
-        },
-        {
-          "title": "Consegna dell'intelligenza programmata",
-          "description": "Approfondimenti giornalieri, settimanali o mensili inviati via email, Slack, Telegram, Teams o webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Collegato a tutto",
-          "description": "Estrae da ogni fonte connessa - POS, lavoro, inventario, prenotazioni, consegna. Completamente definito per organizzazione.",
-          "icon": "integration"
-        },
-        {
-          "title": "Tracciamento delle decisioni",
-          "description": "Traccia cosa hai fatto con ogni approfondimento. Registra le azioni intraprese, gli elementi monitorati o le decisioni scartate.",
-          "icon": "success"
-        }
       ],
       "queries": [
         "Qual è stato il mio articolo più venduto giovedì scorso?",
@@ -1716,38 +1460,6 @@ export const generatedLocalCopy = {
         "سب سے زیادہ فروخت ہونے والی اشیاء میں تبدیلیاں",
         "ادائیگی کے طریقے میں تبدیلیاں"
       ],
-      "differentiators": [
-        {
-          "title": "بات چیت، ڈیش بورڈ پر مبنی نہیں",
-          "description": "کوئی ڈیش بورڈ ترتیب دینے کی ضرورت نہیں۔ کوئی رپورٹیں بنانے کی ضرورت نہیں۔ سوال پوچھیں، چند سیکنڈز میں بصری جواب حاصل کریں۔",
-          "icon": "conversation"
-        },
-        {
-          "title": "مسائل آپ سے پہلے تلاش کرتا ہے",
-          "description": "آمدنی، آرڈرز، ٹکٹوں، اور مینو کی کارکردگی کی مسلسل نگرانی - انحرافات کو مہنگا ہونے سے پہلے سامنے لاتا ہے۔",
-          "icon": "alerts"
-        },
-        {
-          "title": "انٹرایکٹو چارٹس کے ساتھ ڈرل ڈاؤن",
-          "description": "کسی بھی ڈیٹا پوائنٹ پر کلک کریں تاکہ مزید گہرائی میں جا سکیں۔ اپنی ٹیم کے لیے نوٹس چھوڑیں۔ فوری طور پر چارٹ کی اقسام تبدیل کریں۔",
-          "icon": "chart"
-        },
-        {
-          "title": "شیڈولڈ انٹیلی جنس کی ترسیل",
-          "description": "روزانہ، ہفتہ وار، یا ماہانہ بصیرتیں ای میل، Slack، Telegram، Teams، یا ویب ہک کے ذریعے فراہم کی جاتی ہیں۔",
-          "icon": "schedule"
-        },
-        {
-          "title": "سب سے جڑے ہوئے",
-          "description": "ہر جڑے ہوئے ماخذ سے معلومات حاصل کرتا ہے - POS، مزدوری، انوینٹری، ریزرویشن، ترسیل۔ ہر تنظیم کے لیے مکمل طور پر مخصوص۔",
-          "icon": "integration"
-        },
-        {
-          "title": "فیصلہ سازی کی ٹریکنگ",
-          "description": "ہر بصیرت کے ساتھ آپ نے کیا کیا اس کا ٹریک رکھیں۔ کیے گئے اقدامات، مانیٹر کیے گئے آئٹمز، یا مسترد کیے گئے فیصلوں کا لاگ رکھیں۔",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "میرا پچھلے جمعرات کا سب سے زیادہ فروخت ہونے والا آئٹم کیا تھا؟",
         "میرے شہر کے مقامات میں مزدوری کے اخراجات کا موازنہ کریں",
@@ -1915,38 +1627,6 @@ export const generatedLocalCopy = {
         "Wykrywanie aktywności poza godzinami pracy",
         "Zmiany w najlepiej sprzedających się produktach",
         "Zmiany metod płatności"
-      ],
-      "differentiators": [
-        {
-          "title": "Rozmowy, nie oparte na pulpitach",
-          "description": "Brak pulpitów do konfiguracji. Brak raportów do budowy. Zadaj pytanie, otrzymaj wizualną odpowiedź w kilka sekund.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Znajduje problemy zanim Ty to zrobisz",
-          "description": "Ciągłe monitorowanie przychodów, zamówień, biletów i wydajności menu - ujawniając anomalie zanim staną się kosztowne.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Interaktywne wykresy z możliwością zagłębiania się",
-          "description": "Kliknij dowolny punkt danych, aby zbadać go głębiej. Zostaw adnotacje dla swojego zespołu. Zmieniaj typy wykresów w locie.",
-          "icon": "chart"
-        },
-        {
-          "title": "Zaplanowana dostawa inteligencji",
-          "description": "Codzienne, tygodniowe lub miesięczne spostrzeżenia dostarczane przez e-mail, Slack, Telegram, Teams lub webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Połączone ze wszystkim",
-          "description": "Pobiera dane z każdego podłączonego źródła - POS, praca, zapasy, rezerwacje, dostawy. W pełni dostosowane do organizacji.",
-          "icon": "integration"
-        },
-        {
-          "title": "Śledzenie decyzji",
-          "description": "Śledź, co zrobiłeś z każdym spostrzeżeniem. Zapisuj podjęte działania, monitorowane elementy lub odrzucone decyzje.",
-          "icon": "success"
-        }
       ],
       "queries": [
         "Jaki był mój najlepiej sprzedający się produkt w zeszły czwartek?",
@@ -2116,38 +1796,6 @@ export const generatedLocalCopy = {
         "畅销商品变化",
         "支付方式变化"
       ],
-      "differentiators": [
-        {
-          "title": "对话式，而非基于仪表板",
-          "description": "无需配置仪表板，无需构建报告。提出问题，几秒钟内获得可视化答案。",
-          "icon": "conversation"
-        },
-        {
-          "title": "在您发现问题之前找到问题",
-          "description": "持续监控收入、订单、票据和菜单表现 - 在异常变得昂贵之前及时发现。",
-          "icon": "alerts"
-        },
-        {
-          "title": "可交互的图表与深入分析",
-          "description": "点击任何数据点以深入探索。为您的团队留下注释。即时切换图表类型。",
-          "icon": "chart"
-        },
-        {
-          "title": "定期智能交付",
-          "description": "通过电子邮件、Slack、Telegram、Teams或Webhook每日、每周或每月提供见解。",
-          "icon": "schedule"
-        },
-        {
-          "title": "连接一切",
-          "description": "从每个连接的来源提取数据 - POS、劳动力、库存、预订、配送。根据组织完全范围定制。",
-          "icon": "integration"
-        },
-        {
-          "title": "决策跟踪",
-          "description": "跟踪您对每个见解所做的操作。记录采取的行动、监控的项目或被驳回的决策。",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "上周四我最畅销的商品是什么？",
         "比较我市中心各个地点的劳动力成本",
@@ -2315,38 +1963,6 @@ export const generatedLocalCopy = {
         "Mesai dışı etkinlik tespiti",
         "En çok satan ürün değişiklikleri",
         "Ödeme yöntemi değişiklikleri"
-      ],
-      "differentiators": [
-        {
-          "title": "Konuşma Tabanlı, Gösterge Paneli Değil",
-          "description": "Yapılandırılacak gösterge panelleri yok. Oluşturulacak raporlar yok. Bir soru sorun, saniyeler içinde görsel bir yanıt alın.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Sorunları Sizin Önünüzde Bulur",
-          "description": "Gelir, sipariş, bilet ve menü performansını sürekli izler - anormallikleri pahalı hale gelmeden önce ortaya çıkarır.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Derinlemesine İnceleme ile Etkileşimli Grafikler",
-          "description": "Herhangi bir veri noktasına tıklayarak daha derinlemesine keşfedin. Ekibiniz için notlar bırakın. Grafik türlerini anında değiştirin.",
-          "icon": "chart"
-        },
-        {
-          "title": "Planlı Zeka Teslimatı",
-          "description": "Günlük, haftalık veya aylık içgörüler e-posta, Slack, Telegram, Teams veya webhook ile teslim edilir.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Her Şeye Bağlı",
-          "description": "Her bağlı kaynaktan veri çeker - POS, iş gücü, envanter, rezervasyonlar, teslimat. Her organizasyon için tamamen kapsamlı.",
-          "icon": "integration"
-        },
-        {
-          "title": "Karar Takibi",
-          "description": "Her içgörü ile ne yaptığınızı takip edin. Alınan eylemleri, izlenen öğeleri veya reddedilen kararları kaydedin.",
-          "icon": "success"
-        }
       ],
       "queries": [
         "Geçen Perşembe en çok satan ürünüm neydi?",
@@ -2516,38 +2132,6 @@ export const generatedLocalCopy = {
         "最も売れている商品の変更",
         "支払い方法の変動"
       ],
-      "differentiators": [
-        {
-          "title": "会話型、ダッシュボードベースではない",
-          "description": "設定するダッシュボードは不要。レポートを作成する必要もありません。質問をすると、数秒で視覚的な回答が得られます。",
-          "icon": "conversation"
-        },
-        {
-          "title": "あなたより先に問題を発見",
-          "description": "収益、注文、チケット、メニューのパフォーマンスを継続的に監視し、高額になる前に異常を浮き彫りにします。",
-          "icon": "alerts"
-        },
-        {
-          "title": "ドリルダウン可能なインタラクティブチャート",
-          "description": "任意のデータポイントをクリックして深く掘り下げます。チームのために注釈を残しましょう。チャートタイプを即座に切り替えます。",
-          "icon": "chart"
-        },
-        {
-          "title": "定期的なインテリジェンス配信",
-          "description": "毎日、毎週、または毎月のインサイトをメール、Slack、Telegram、Teams、またはWebhookで配信します。",
-          "icon": "schedule"
-        },
-        {
-          "title": "すべてに接続",
-          "description": "すべての接続されたソースからデータを取得 - POS、労働、在庫、予約、配達。組織ごとに完全にスコープされています。",
-          "icon": "integration"
-        },
-        {
-          "title": "意思決定の追跡",
-          "description": "各インサイトで行ったことを追跡します。取ったアクション、監視したアイテム、却下した決定を記録します。",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "先週の木曜日に最も売れた商品は何ですか？",
         "ダウンタウンの各店舗の人件費を比較してください",
@@ -2715,38 +2299,6 @@ export const generatedLocalCopy = {
         "Deteksi aktivitas di luar jam",
         "Perubahan item terlaris",
         "Perubahan metode pembayaran"
-      ],
-      "differentiators": [
-        {
-          "title": "Percakapan, Bukan Berbasis Dasbor",
-          "description": "Tidak ada dasbor yang perlu dikonfigurasi. Tidak ada laporan yang perlu dibuat. Ajukan pertanyaan, dapatkan jawaban visual dalam hitungan detik.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Menemukan Masalah Sebelum Anda Melakukannya",
-          "description": "Secara terus-menerus memantau pendapatan, pesanan, tiket, dan kinerja menu - mengungkapkan anomali sebelum menjadi mahal.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Grafik Interaktif dengan Drill-Down",
-          "description": "Klik titik data mana pun untuk menjelajahi lebih dalam. Tinggalkan anotasi untuk tim Anda. Alihkan jenis grafik dengan cepat.",
-          "icon": "chart"
-        },
-        {
-          "title": "Pengiriman Intelijen Terjadwal",
-          "description": "Wawasan harian, mingguan, atau bulanan dikirim melalui email, Slack, Telegram, Teams, atau webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Terhubung ke Segalanya",
-          "description": "Mengambil dari setiap sumber yang terhubung - POS, tenaga kerja, inventaris, reservasi, pengiriman. Sepenuhnya disesuaikan per organisasi.",
-          "icon": "integration"
-        },
-        {
-          "title": "Pelacakan Keputusan",
-          "description": "Lacak apa yang Anda lakukan dengan setiap wawasan. Catat tindakan yang diambil, item yang dipantau, atau keputusan yang ditolak.",
-          "icon": "success"
-        }
       ],
       "queries": [
         "Apa item terlaris saya Kamis lalu?",
@@ -2916,38 +2468,6 @@ export const generatedLocalCopy = {
         "Thay đổi mặt hàng bán chạy nhất",
         "Thay đổi phương thức thanh toán"
       ],
-      "differentiators": [
-        {
-          "title": "Đối thoại, Không Dựa Trên Bảng Điều Khiển",
-          "description": "Không cần cấu hình bảng điều khiển. Không cần xây dựng báo cáo. Hỏi một câu hỏi, nhận câu trả lời trực quan trong vài giây.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Phát Hiện Vấn Đề Trước Khi Bạn Làm",
-          "description": "Theo dõi liên tục doanh thu, đơn hàng, vé và hiệu suất thực đơn - phát hiện bất thường trước khi chúng trở nên tốn kém.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Biểu Đồ Tương Tác với Khả Năng Phân Tích Sâu",
-          "description": "Nhấp vào bất kỳ điểm dữ liệu nào để khám phá sâu hơn. Để lại chú thích cho nhóm của bạn. Chuyển đổi loại biểu đồ ngay lập tức.",
-          "icon": "chart"
-        },
-        {
-          "title": "Giao Nhận Thông Tin Thông Minh Định Kỳ",
-          "description": "Thông tin hàng ngày, hàng tuần hoặc hàng tháng được gửi qua email, Slack, Telegram, Teams hoặc webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Kết Nối Với Mọi Thứ",
-          "description": "Kéo dữ liệu từ mọi nguồn kết nối - POS, lao động, tồn kho, đặt chỗ, giao hàng. Được xác định đầy đủ theo tổ chức.",
-          "icon": "integration"
-        },
-        {
-          "title": "Theo Dõi Quyết Định",
-          "description": "Theo dõi những gì bạn đã làm với mỗi thông tin. Ghi lại các hành động đã thực hiện, các mục đã theo dõi hoặc các quyết định đã bị bác bỏ.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "Mặt hàng bán chạy nhất của tôi vào thứ Năm tuần trước là gì?",
         "So sánh chi phí lao động giữa các địa điểm của tôi ở trung tâm thành phố",
@@ -3115,38 +2635,6 @@ export const generatedLocalCopy = {
         "Detectarea activității în afara orelor de program",
         "Schimbări în articolele cele mai vândute",
         "Schimbări în metoda de plată"
-      ],
-      "differentiators": [
-        {
-          "title": "Conversațional, nu bazat pe tablouri de bord",
-          "description": "Fără tablouri de bord de configurat. Fără rapoarte de construit. Pune o întrebare, primește un răspuns vizual în câteva secunde.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Găsește problemele înainte de tine",
-          "description": "Monitorizează continuu veniturile, comenzile, biletele și performanța meniului - evidențiind anomaliile înainte de a deveni costisitoare.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Grafice interactive cu detalii",
-          "description": "Fă clic pe orice punct de date pentru a explora mai în profunzime. Lasă anotări pentru echipa ta. Schimbă tipurile de grafice în timp real.",
-          "icon": "chart"
-        },
-        {
-          "title": "Livrare programată a inteligenței",
-          "description": "Informații zilnice, săptămânale sau lunare livrate prin email, Slack, Telegram, Teams sau webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Conectat la tot",
-          "description": "Extrage date din fiecare sursă conectată - POS, muncă, inventar, rezervări, livrare. Complet adaptat fiecărei organizații.",
-          "icon": "integration"
-        },
-        {
-          "title": "Urmărirea deciziilor",
-          "description": "Urmărește ce ai făcut cu fiecare informație. Înregistrează acțiunile întreprinse, articolele monitorizate sau deciziile respinse.",
-          "icon": "success"
-        }
       ],
       "queries": [
         "Care a fost cel mai bine vândut articol joia trecută?",
@@ -3316,38 +2804,6 @@ export const generatedLocalCopy = {
         "Förändringar i bästsäljande artiklar",
         "Förändringar i betalningsmetoder"
       ],
-      "differentiators": [
-        {
-          "title": "Konverserande, Inte Dashboard-Baserad",
-          "description": "Inga dashboards att konfigurera. Inga rapporter att bygga. Ställ en fråga, få ett visuellt svar på sekunder.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Hittar Problem Innan Du Gör Det",
-          "description": "Övervakar kontinuerligt intäkter, beställningar, biljetter och menyprestanda - lyfter fram avvikelser innan de blir kostsamma.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Interaktiva Diagram med Djupdykning",
-          "description": "Klicka på vilken datapunkt som helst för att utforska djupare. Lämna anteckningar till ditt team. Växla diagramtyper i farten.",
-          "icon": "chart"
-        },
-        {
-          "title": "Schemalagd Intelligensleverans",
-          "description": "Dagliga, veckovisa eller månatliga insikter levererade via e-post, Slack, Telegram, Teams eller webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Ansluten till Allt",
-          "description": "Hämtar från varje ansluten källa - POS, arbetskraft, lager, reservationer, leverans. Helt anpassad per organisation.",
-          "icon": "integration"
-        },
-        {
-          "title": "Beslutsuppföljning",
-          "description": "Följ vad du gjorde med varje insikt. Logga vidtagna åtgärder, övervakade objekt eller avvisade beslut.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "Vad var min bäst säljande artikel förra torsdagen?",
         "Jämför arbetskostnaderna mellan mina centrala platser",
@@ -3515,38 +2971,6 @@ export const generatedLocalCopy = {
         "অফ-ঘণ্টার কার্যকলাপ সনাক্তকরণ",
         "শীর্ষ বিক্রিত আইটেমের পরিবর্তন",
         "পেমেন্ট পদ্ধতির পরিবর্তন"
-      ],
-      "differentiators": [
-        {
-          "title": "কথোপকথন, ড্যাশবোর্ড-ভিত্তিক নয়",
-          "description": "কোনো ড্যাশবোর্ড কনফিগার করতে হবে না। রিপোর্ট তৈরি করতে হবে না। একটি প্রশ্ন করুন, কয়েক সেকেন্ডের মধ্যে একটি ভিজ্যুয়াল উত্তর পান।",
-          "icon": "conversation"
-        },
-        {
-          "title": "আপনার আগে সমস্যাগুলি খুঁজে বের করে",
-          "description": "নিরবচ্ছিন্নভাবে রাজস্ব, অর্ডার, টিকেট এবং মেনু কর্মক্ষমতা পর্যবেক্ষণ করে - ব্যয়বহুল হওয়ার আগে অস্বাভাবিকতা প্রকাশ করে।",
-          "icon": "alerts"
-        },
-        {
-          "title": "ড্রিল-ডাউন সহ ইন্টারেক্টিভ চার্ট",
-          "description": "গভীরভাবে অনুসন্ধান করতে যেকোনো ডেটা পয়েন্টে ক্লিক করুন। আপনার দলের জন্য মন্তব্য রেখে দিন। ফ্লাইয়ে চার্টের ধরন পরিবর্তন করুন।",
-          "icon": "chart"
-        },
-        {
-          "title": "নিয়মিত বুদ্ধিমত্তা বিতরণ",
-          "description": "প্রতিদিন, প্রতি সপ্তাহে, বা প্রতি মাসে ইমেইল, Slack, Telegram, Teams, বা ওয়েবহুকের মাধ্যমে অন্তর্দৃষ্টি বিতরণ করা হয়।",
-          "icon": "schedule"
-        },
-        {
-          "title": "সবকিছুর সাথে সংযুক্ত",
-          "description": "প্রতিটি সংযুক্ত উৎস থেকে তথ্য টেনে আনে - POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি। প্রতিটি সংস্থার জন্য সম্পূর্ণভাবে স্কোপ করা।",
-          "icon": "integration"
-        },
-        {
-          "title": "সিদ্ধান্ত ট্র্যাকিং",
-          "description": "প্রতিটি অন্তর্দৃষ্টির সাথে আপনি কী করেছেন তা ট্র্যাক করুন। নেওয়া পদক্ষেপ, পর্যবেক্ষণ করা আইটেম, বা বাতিল করা সিদ্ধান্ত লগ করুন।",
-          "icon": "success"
-        }
       ],
       "queries": [
         "গত বৃহস্পতিবার আমার সেরা বিক্রিত আইটেম কী ছিল?",
@@ -3716,38 +3140,6 @@ export const generatedLocalCopy = {
         "최고 판매 품목 변화",
         "결제 방법 변화"
       ],
-      "differentiators": [
-        {
-          "title": "대시보드가 아닌 대화형",
-          "description": "구성할 대시보드가 없습니다. 작성할 보고서가 없습니다. 질문을 하면 몇 초 안에 시각적 답변을 얻습니다.",
-          "icon": "conversation"
-        },
-        {
-          "title": "문제가 발생하기 전에 발견",
-          "description": "수익, 주문, 티켓 및 메뉴 성과를 지속적으로 모니터링하여 비용이 발생하기 전에 이상을 드러냅니다.",
-          "icon": "alerts"
-        },
-        {
-          "title": "드릴다운이 가능한 인터랙티브 차트",
-          "description": "데이터 포인트를 클릭하여 더 깊이 탐색합니다. 팀을 위해 주석을 남깁니다. 차트 유형을 즉시 전환합니다.",
-          "icon": "chart"
-        },
-        {
-          "title": "스케줄된 인사이트 제공",
-          "description": "일일, 주간 또는 월간 인사이트를 이메일, Slack, Telegram, Teams 또는 웹훅을 통해 제공합니다.",
-          "icon": "schedule"
-        },
-        {
-          "title": "모든 것에 연결됨",
-          "description": "모든 연결된 소스에서 데이터를 가져옵니다 - POS, 인력, 재고, 예약, 배달. 조직별로 완전히 범위가 지정됩니다.",
-          "icon": "integration"
-        },
-        {
-          "title": "결정 추적",
-          "description": "각 인사이트로 수행한 작업을 추적합니다. 취한 조치, 모니터링한 항목 또는 기각한 결정을 기록합니다.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "지난 목요일에 가장 많이 팔린 품목은 무엇인가요?",
         "내 도심 위치의 인건비를 비교해 주세요",
@@ -3916,38 +3308,6 @@ export const generatedLocalCopy = {
         "Perubahan item terlaris",
         "Perubahan kaedah pembayaran"
       ],
-      "differentiators": [
-        {
-          "title": "Perbualan, Bukan Berdasarkan Papan Pemuka",
-          "description": "Tiada papan pemuka untuk dikonfigurasi. Tiada laporan untuk dibina. Tanyakan soalan, dapatkan jawapan visual dalam beberapa saat.",
-          "icon": "conversation"
-        },
-        {
-          "title": "Menemui Masalah Sebelum Anda",
-          "description": "Sentiasa memantau pendapatan, pesanan, tiket, dan prestasi menu - menonjolkan anomali sebelum ia menjadi mahal.",
-          "icon": "alerts"
-        },
-        {
-          "title": "Carta Interaktif dengan Penjelajahan",
-          "description": "Klik mana-mana titik data untuk meneroka lebih dalam. Tinggalkan anotasi untuk pasukan anda. Tukar jenis carta dengan cepat.",
-          "icon": "chart"
-        },
-        {
-          "title": "Penghantaran Kecerdasan Terjadual",
-          "description": "Pandangan harian, mingguan, atau bulanan dihantar melalui email, Slack, Telegram, Teams, atau webhook.",
-          "icon": "schedule"
-        },
-        {
-          "title": "Terhubung ke Segala-galanya",
-          "description": "Mengambil dari setiap sumber yang disambungkan - POS, tenaga kerja, inventori, tempahan, penghantaran. Sepenuhnya ditentukan mengikut organisasi.",
-          "icon": "integration"
-        },
-        {
-          "title": "Jejak Keputusan",
-          "description": "Jejaki apa yang anda lakukan dengan setiap pandangan. Log tindakan yang diambil, item yang dipantau, atau keputusan yang ditolak.",
-          "icon": "success"
-        }
-      ],
       "queries": [
         "Apakah item terlaris saya pada hari Khamis lepas?",
         "Bandingkan kos buruh di lokasi pusat bandar saya",
@@ -4115,38 +3475,6 @@ export const generatedLocalCopy = {
         "การตรวจจับกิจกรรมนอกเวลาทำการ",
         "การเปลี่ยนแปลงสินค้าที่ขายดีที่สุด",
         "การเปลี่ยนแปลงวิธีการชำระเงิน"
-      ],
-      "differentiators": [
-        {
-          "title": "การสนทนา ไม่ใช่การแสดงแดชบอร์ด",
-          "description": "ไม่มีแดชบอร์ดให้ตั้งค่า ไม่มีรายงานให้สร้าง ถามคำถาม รับคำตอบแบบภาพในไม่กี่วินาที",
-          "icon": "conversation"
-        },
-        {
-          "title": "ค้นหาปัญหาก่อนที่คุณจะทำ",
-          "description": "ติดตามรายได้ คำสั่งซื้อ ตั๋ว และประสิทธิภาพเมนูอย่างต่อเนื่อง - แสดงความผิดปกติก่อนที่จะกลายเป็นค่าใช้จ่ายสูง",
-          "icon": "alerts"
-        },
-        {
-          "title": "กราฟเชิงโต้ตอบพร้อมการเจาะลึก",
-          "description": "คลิกที่จุดข้อมูลใด ๆ เพื่อสำรวจให้ลึกขึ้น ทิ้งหมายเหตุสำหรับทีมของคุณ เปลี่ยนประเภทกราฟได้ทันที",
-          "icon": "chart"
-        },
-        {
-          "title": "การส่งข้อมูลเชิงลึกตามกำหนดเวลา",
-          "description": "ข้อมูลเชิงลึกประจำวัน รายสัปดาห์ หรือรายเดือนที่ส่งทางอีเมล Slack Telegram Teams หรือ webhook",
-          "icon": "schedule"
-        },
-        {
-          "title": "เชื่อมต่อกับทุกอย่าง",
-          "description": "ดึงข้อมูลจากทุกแหล่งที่เชื่อมต่อ - POS แรงงาน สินค้าคงคลัง การจอง การจัดส่ง กำหนดขอบเขตเต็มรูปแบบต่อองค์กร",
-          "icon": "integration"
-        },
-        {
-          "title": "การติดตามการตัดสินใจ",
-          "description": "ติดตามสิ่งที่คุณทำกับข้อมูลเชิงลึกแต่ละรายการ บันทึกการกระทำที่ทำ รายการที่ติดตาม หรือการตัดสินใจที่ถูกปฏิเสธ",
-          "icon": "success"
-        }
       ],
       "queries": [
         "วันพฤหัสบดีที่แล้วสินค้าที่ขายดีที่สุดของฉันคืออะไร?",

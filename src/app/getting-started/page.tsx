@@ -1,15 +1,38 @@
 "use client";
 
 import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
+import { PRICING_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_getting_started_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
+import {
+  BANDED_UNIT_CEILING,
+  CORE_PACKAGES_BY_ID,
+  IMPLEMENTATION_CLASSES,
+  bandedMonthlyTotal,
+  usd,
+} from "@/lib/pricing/priceBook";
+
+/**
+ * The journey this page used to describe was "start free on Report Lite, prove
+ * the value, upgrade to Report Plus/Pro or Core Lite/Pro". Price book v1.7
+ * retires every SKU in that sentence, and with them the free entry point, so
+ * the page is re-cut around what a v1.7 rollout actually looks like: size a
+ * Core package, connect the data, add the substrates you need.
+ *
+ * Prices are read from the price book — this page hand-types no number, and it
+ * never renders a flat per-location rate for a banded SKU.
+ */
+
+/** Worked example used in the hero: the smallest realistic multi-site footprint. */
+const EXAMPLE_LOCATIONS = 5;
+const EXAMPLE_PACKAGE = CORE_PACKAGES_BY_ID.core_foundation;
+const EXAMPLE_QUOTE = bandedMonthlyTotal(EXAMPLE_PACKAGE, EXAMPLE_LOCATIONS);
 
 type Step = {
   number: number;
@@ -43,9 +66,10 @@ type GettingStartedCopy = {
     icon: SundaeIconName;
     items: string[];
   }>;
-  timelinesTitle: string;
-  timelinesDescription: string;
-  timelines: Array<{ tier: string; time: string; description: string }>;
+  implementationTitle: string;
+  implementationDescription: string;
+  implementationNote: string;
+  implementationFromLabel: string;
   finalTitle: string;
   finalDescription: string;
   cards: Array<{
@@ -62,247 +86,216 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
   en: {
     badge: "Getting Started Guide",
     title: "Your Journey with Sundae",
-    description: "Six steps from free benchmarking to complete operational intelligence. Start small, scale at your pace.",
-    supporting: "Most operators start with Report Lite (free forever), prove the value, then expand. You control the timeline.",
-    startFree: "Start Free",
-    calculatePath: "Calculate Your Path",
-    journeyTitle: "The Sundae Journey: 6 Steps",
-    journeyDescription: "From free benchmarking to enterprise intelligence",
+    description: "Five steps from a first conversation to acting on your own numbers. Start at the depth you need, add the rest when it earns its place.",
+    supporting: `Every package is paid from your first location, then priced per additional location on a rate that steps down as you grow. ${EXAMPLE_LOCATIONS} ${EXAMPLE_PACKAGE.name} locations is ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)}/mo.`,
+    startFree: "Run the Diagnostic",
+    calculatePath: "Size Your Package",
+    journeyTitle: "The Sundae Journey: 5 Steps",
+    journeyDescription: "From sizing the package to running the business on it",
     steps: [
       {
         number: 1,
-        title: "Start Free (Report Lite)",
-        subtitle: "Prove the value. Pay nothing.",
-        description: "Upload your POS data and get instant benchmarking. No credit card required. See where you stand against similar restaurants within minutes.",
-        actions: ["Upload POS data (CSV format)", "Instant benchmark against peers", "Identify top 3 opportunities", "Build internal business case"],
-        timeline: "Instant",
-        cta: "Start Free",
-        ctaLink: "/report",
-        icon: "report",
+        title: "Size It Against Your Operation",
+        subtitle: "Ten minutes, your numbers, no commitment.",
+        description: "The diagnostic asks what you can and cannot see today, then comes back with the package that answers those gaps, an indicative monthly range, and where your margin is most likely leaking.",
+        actions: ["Answer the operating questions", "Get a package fit tied to your gaps", "See an indicative monthly range", "Take the leak hypotheses to your team"],
+        timeline: "About 10 minutes",
+        cta: "Run the Diagnostic",
+        ctaLink: "/diagnostic",
+        icon: "insights",
         color: "from-[#FF5C4D] to-[#C2410C]",
       },
       {
         number: 2,
-        title: "Understand Your Baseline",
-        subtitle: "See where you stand vs peers.",
-        description: "Use Report Lite to understand your performance across 5 core metrics. Compare against restaurants like yours. Build the case for deeper intelligence.",
-        actions: ["Benchmark sales per square foot", "Compare labor cost % to peers", "Identify margin opportunities", "Share insights with leadership"],
-        timeline: "1-2 weeks to build case",
-        cta: "Learn About Report",
-        ctaLink: "/report",
-        icon: "benchmarking",
+        title: "Choose Your Core Package",
+        subtitle: "Depth is the choice, not location count.",
+        description: "All four packages carry the same eleven domain modules. What changes is how deep each one goes — so you choose on the gap you are trying to close, not on how many sites you run.",
+        actions: ["Foundation - the operating baseline", "Margin - cost, waste and leakage depth", "Growth - guests, promos and channel margin", "Performance - multi-brand, multi-region consolidation"],
+        timeline: "One working session",
+        cta: "Compare Packages",
+        ctaLink: "/core",
+        icon: "balance",
         color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         number: 3,
-        title: "Decide Upgrade Path",
-        subtitle: "Report Plus/Pro or Core?",
-        description: "Once you've proven the value with Report Lite, choose your upgrade path based on speed and depth needs.",
-        actions: ["Need intelligent insights? → Report Plus/Pro", "Need operational speed? → Core", "Daily reports sufficient? → Report Plus/Pro", "10+ locations? → Core"],
-        timeline: "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
-        cta: "Compare Options",
-        ctaLink: "/report-vs-core",
-        icon: "balance",
+        title: "Connect Your Systems",
+        subtitle: "POS first, then labor and cost.",
+        description: "Sundae sits on top of what you already run. POS goes in first because it anchors everything else, then labor, inventory and purchasing fill in the rest of the picture.",
+        actions: ["Connect your POS", "Add labor and scheduling sources", "Add inventory and purchasing", "Confirm the numbers against your own close"],
+        timeline: "Implementation class sets the scope",
+        cta: "See Integrations",
+        ctaLink: "/integrations",
+        icon: "network",
         color: "from-green-500 to-green-600",
       },
       {
         number: 4,
-        title: "Add Modules (Optional)",
-        subtitle: "Go deeper where it matters most.",
-        description: "Choose specialized modules based on your biggest operational pain points. Requires Core tier for real-time specialized intelligence.",
-        actions: ["High labor cost? → Labor Intelligence", "High food cost/waste? → Inventory Intelligence", "Complex vendors? → Purchasing Intelligence", "Heavy marketing? → Marketing Intelligence", "Reservation-driven? → Reservations Intelligence"],
-        timeline: "1-2 weeks per module",
-        cta: "Explore Modules",
-        ctaLink: "/modules",
-        icon: "network",
+        title: "Add the Substrates You Need",
+        subtitle: "Workforce, foresight, and your operating models.",
+        description: "Crew is the workforce substrate — scheduling, time, pay and people. Foresight & Action adds forecasting, scenarios and the approve-in-the-loop action layer. Concept SKUs switch on the operating models your group actually runs.",
+        actions: ["Crew for scheduling, time, pay and people", "Foresight & Action for forecasting and scenarios", "Concepts for franchise, hotel F&B, cloud kitchen, catering, production or rental commissary", "Watchtower for external market intelligence, scoped with you"],
+        timeline: "Add whenever it earns its place",
+        cta: "Explore Crew",
+        ctaLink: "/crew",
+        icon: "growth",
         color: "from-orange-500 to-orange-600",
       },
       {
         number: 5,
-        title: "Consider Watchtower (Optional)",
-        subtitle: "Add external intelligence.",
-        description: "See what's happening outside your four walls. Track competitors, predict demand from events, and understand market dynamics.",
-        actions: ["Track up to 10 competitors per location", "Monitor pricing & promotions", "Predict demand from weather/events", "Strategic market intelligence"],
-        timeline: "1 week setup",
-        cta: "Learn About Watchtower",
-        ctaLink: "/product/watchtower",
-        icon: "watchtower",
-        color: "from-[#FF6B5B] to-[#E03E48]",
-      },
-      {
-        number: 6,
-        title: "Scale to Enterprise",
-        subtitle: "100+ locations or custom needs.",
-        description: "Custom refresh frequency, unlimited credits, white-label options, SSO, dedicated CSM, and 24/7 support with custom SLAs.",
-        actions: ["Custom refresh frequency", "Unlimited credits & dashboards", "White-label & SSO", "Dedicated customer success manager", "24/7 support with custom SLAs"],
-        timeline: "2-4 weeks (custom implementation)",
-        cta: "Contact Sales",
+        title: "Run the Business On It",
+        subtitle: "Then keep scaling.",
+        description: `Locations are priced marginally as you add them, so growth never reprices what you already run. Past ${BANDED_UNIT_CEILING} locations the published bands give way to an Enterprise agreement scoped with you.`,
+        actions: ["Act during the shift, not after the close", "Volume discounts start at 50 locations", "Annual and 2-year terms cost less", `Past ${BANDED_UNIT_CEILING} locations, Enterprise`],
+        timeline: "Ongoing",
+        cta: "Talk to Sales",
         ctaLink: "/contact",
         icon: "multiLocation",
         color: "from-[#E9A24A] to-[#FF5C4D]",
       },
     ],
     noForcedTitle: "No Forced Timelines",
-    noForcedDescription: "Start with Report Lite today. Upgrade to Report Plus/Pro next month. Add Core in Q3. Scale to Enterprise in Q4. You control the pace based on your priorities and budget.",
+    noForcedDescription: "Start on the package that answers today's gap. Add Crew when scheduling is the constraint. Add Foresight & Action when you start planning further out. Every package is month to month — annual and 2-year terms exist because they cost less, not because they are required.",
     commonJourneysTitle: "Common Journeys",
-    commonJourneysDescription: "How do operators typically progress through Sundae?",
+    commonJourneysDescription: "Where operators of different sizes typically land",
     journeys: [
       {
         title: "1-5 Location Operator",
         icon: "labor",
-        items: ["Start with Report Lite (free)", "Upgrade to Report Plus for deeper insights", "Consider Core when scaling to 10+ locations"],
+        items: ["Start on Core Foundation for one operating picture", "Add Crew Schedule if planning is still manual", "Step up to Core Margin when cost is the constraint"],
       },
       {
         title: "10-50 Location Operator",
         icon: "multiLocation",
-        items: ["Start with Core Lite for real-time ops", "Add 1-2 modules (Labor, Inventory)", "Add Watchtower for market intelligence"],
+        items: ["Core Margin or Core Growth, depending on where the gap is", "Crew Operating once payroll and time are in scope", "Foresight & Action for forecasting and scenarios"],
       },
       {
-        title: "100+ Location Enterprise",
+        title: "100+ Location Group",
         icon: "growth",
-        items: ["Start with Enterprise tier", "Full module suite + Watchtower", "Custom integrations & white-label"],
+        items: ["Core Performance for multi-brand, multi-region consolidation", `Past ${BANDED_UNIT_CEILING} locations the bands give way to an Enterprise agreement`, "Watchtower and concept SKUs scoped alongside"],
       },
     ],
-    timelinesTitle: "Implementation Timelines",
-    timelinesDescription: "How long does each tier take to implement?",
-    timelines: [
-      { tier: "Report Lite", time: "Instant", description: "Upload CSV, get benchmark immediately" },
-      { tier: "Report Plus/Pro", time: "1-2 Days", description: "Parsing setup & integration" },
-      { tier: "Core Lite/Pro", time: "1-2 Weeks", description: "POS integration & real-time setup" },
-      { tier: "Enterprise", time: "2-4 Weeks", description: "Custom implementation & training" },
-    ],
+    implementationTitle: "Implementation",
+    implementationDescription: "A one-off charge that reflects how much integration work your rollout actually needs.",
+    implementationNote: "Charged once, at the highest class in your selection — never summed across the SKUs you buy.",
+    implementationFromLabel: "From",
     finalTitle: "Ready to Start Your Journey?",
-    finalDescription: "Begin with Report Lite (free forever) or calculate your custom path with the pricing calculator.",
+    finalDescription: "Size it against your own operation in about ten minutes, or bring us your numbers and we will do it with you.",
     cards: [
-      { title: "Start Free", description: "Report Lite, no credit card", button: "Start Free →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "Calculate Your Path", description: "Interactive pricing calculator", button: "Calculate Pricing →", icon: "calculator", color: "bg-[#FF5C4D]" },
-      { title: "Talk to an Expert", description: "Custom recommendations", button: "Book Demo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
+      { title: "Run the Diagnostic", description: "Package fit and an indicative range", button: "Start →", icon: "insights", color: "bg-green-600", href: "/diagnostic" },
+      { title: "Size Your Package", description: "Interactive pricing calculator", button: "Calculate Pricing →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "Talk to an Expert", description: "A working session against your data", button: "Book Demo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
   ar: {
     badge: "دليل البدء",
     title: "رحلتك مع Sundae",
-    description: "ست خطوات من القياس المجاني إلى الذكاء التشغيلي الكامل. ابدأ صغيرًا وتوسع بالوتيرة التي تناسبك.",
-    supporting: "يبدأ معظم المشغلين بـ Report Lite (مجانًا دائمًا)، يثبتون القيمة، ثم يتوسعون. أنت تتحكم في الجدول الزمني.",
-    startFree: "ابدأ مجانًا",
-    calculatePath: "احسب مسارك",
-    journeyTitle: "رحلة Sundae: 6 خطوات",
-    journeyDescription: "من القياس المجاني إلى ذكاء المؤسسة",
+    description: "خمس خطوات من المحادثة الأولى إلى التصرف بناءً على أرقامك. ابدأ بالعمق الذي تحتاجه، وأضف الباقي حين يستحق مكانه.",
+    supporting: `كل باقة مدفوعة ابتداءً من موقعك الأول، ثم تُسعَّر لكل موقع إضافي بسعر يتناقص مع النمو. ${EXAMPLE_LOCATIONS} مواقع ${EXAMPLE_PACKAGE.name} = ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)} شهريًا.`,
+    startFree: "ابدأ التشخيص",
+    calculatePath: "احسب باقتك",
+    journeyTitle: "رحلة Sundae: 5 خطوات",
+    journeyDescription: "من تحديد حجم الباقة إلى إدارة الأعمال عليها",
     steps: [
-      { number: 1, title: "ابدأ مجانًا (Report Lite)", subtitle: "أثبت القيمة. لا تدفع شيئًا.", description: "ارفع بيانات نقاط البيع واحصل على قياس فوري. لا حاجة لبطاقة ائتمان.", actions: ["رفع بيانات POS بصيغة CSV", "قياس فوري مقابل أقرانك", "تحديد أفضل 3 فرص", "بناء حالة داخلية"], timeline: "فوري", cta: "ابدأ مجانًا", ctaLink: "/report", icon: "report", color: "from-[#FF5C4D] to-[#C2410C]" },
-      { number: 2, title: "افهم خط الأساس", subtitle: "اعرف موقعك مقابل أقرانك.", description: "استخدم Report Lite لفهم الأداء عبر 5 مقاييس أساسية.", actions: ["قياس المبيعات لكل قدم مربع", "مقارنة نسبة تكلفة العمالة", "تحديد فرص الهامش", "مشاركة الرؤى مع القيادة"], timeline: "1-2 أسبوع لبناء الحالة", cta: "تعرف على Report", ctaLink: "/report", icon: "benchmarking", color: "from-[#F2B45C] to-[#C2410C]" },
-      { number: 3, title: "قرر مسار الترقية", subtitle: "Report Plus/Pro أم Core؟", description: "بعد إثبات القيمة، اختر مسار الترقية حسب السرعة والعمق.", actions: ["تحتاج رؤى ذكية؟ → Report Plus/Pro", "تحتاج سرعة تشغيلية؟ → Core", "تقارير يومية تكفي؟ → Report Plus/Pro", "أكثر من 10 مواقع؟ → Core"], timeline: "Report Plus/Pro: 1-2 يوم | Core: 1-2 أسبوع", cta: "قارن الخيارات", ctaLink: "/report-vs-core", icon: "balance", color: "from-green-500 to-green-600" },
-      { number: 4, title: "أضف الوحدات (اختياري)", subtitle: "تعمق حيث يهمك أكثر.", description: "اختر وحدات متخصصة حسب أكبر نقاط الألم.", actions: ["تكلفة عمالة مرتفعة؟ → Labor Intelligence", "هدر/تكلفة طعام مرتفعة؟ → Inventory Intelligence", "موردون معقدون؟ → Purchasing Intelligence", "إنفاق تسويقي كبير؟ → Marketing Intelligence", "أعمال تعتمد على الحجوزات؟ → Reservations Intelligence"], timeline: "1-2 أسبوع لكل وحدة", cta: "استعرض الوحدات", ctaLink: "/modules", icon: "network", color: "from-orange-500 to-orange-600" },
-      { number: 5, title: "فكّر في Watchtower (اختياري)", subtitle: "أضف ذكاءً خارجيًا.", description: "تتبع المنافسين وتوقع الطلب من الأحداث وافهم ديناميكيات السوق.", actions: ["تتبع حتى 10 منافسين لكل موقع", "مراقبة الأسعار والعروض", "التنبؤ بالطلب من الطقس/الأحداث", "ذكاء سوقي استراتيجي"], timeline: "إعداد أسبوع واحد", cta: "تعرف على Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-[#FF6B5B] to-[#E03E48]" },
-      { number: 6, title: "التوسع إلى Enterprise", subtitle: "100+ موقع أو احتياجات خاصة.", description: "تحديثات مخصصة وخيارات white-label وSSO ودعم 24/7.", actions: ["معدل تحديث مخصص", "أرصدة ولوحات غير محدودة", "White-label و SSO", "مدير نجاح عملاء مخصص", "دعم 24/7 باتفاقيات خدمة مخصصة"], timeline: "2-4 أسابيع (تنفيذ مخصص)", cta: "تواصل مع المبيعات", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { number: 1, title: "قِس الأمر على عملياتك", subtitle: "عشر دقائق، بأرقامك، دون التزام.", description: "يسألك التشخيص عمّا تراه وما لا تراه اليوم، ثم يعود بالباقة التي تعالج تلك الفجوات، ونطاق شهري استرشادي، وأين يتسرب هامشك على الأرجح.", actions: ["أجب عن أسئلة التشغيل", "احصل على باقة مرتبطة بفجواتك", "اطّلع على نطاق شهري استرشادي", "انقل فرضيات التسرب إلى فريقك"], timeline: "نحو 10 دقائق", cta: "ابدأ التشخيص", ctaLink: "/diagnostic", icon: "insights", color: "from-[#FF5C4D] to-[#C2410C]" },
+      { number: 2, title: "اختر باقة Core", subtitle: "العمق هو الخيار، لا عدد المواقع.", description: "تحمل الباقات الأربع الوحدات الإحدى عشرة نفسها. ما يتغير هو عمق كل واحدة، فتختار حسب الفجوة التي تريد إغلاقها لا حسب عدد مواقعك.", actions: ["Foundation — الأساس التشغيلي", "Margin — عمق التكلفة والهدر والتسرب", "Growth — الضيوف والعروض وهامش القنوات", "Performance — توحيد متعدد العلامات والأسواق"], timeline: "جلسة عمل واحدة", cta: "قارن الباقات", ctaLink: "/core", icon: "balance", color: "from-[#F2B45C] to-[#C2410C]" },
+      { number: 3, title: "اربط أنظمتك", subtitle: "نقاط البيع أولاً، ثم العمالة والتكلفة.", description: "يعمل Sundae فوق ما تشغّله بالفعل. تُربط نقاط البيع أولاً لأنها تثبّت كل ما عداها، ثم تكمل العمالة والمخزون والمشتريات الصورة.", actions: ["اربط نظام نقاط البيع", "أضف مصادر العمالة والجدولة", "أضف المخزون والمشتريات", "طابق الأرقام مع إقفالك"], timeline: "فئة التنفيذ تحدد النطاق", cta: "استعرض التكاملات", ctaLink: "/integrations", icon: "network", color: "from-green-500 to-green-600" },
+      { number: 4, title: "أضف الطبقات التي تحتاجها", subtitle: "القوى العاملة، الاستشراف، ونماذج تشغيلك.", description: "Crew هي طبقة القوى العاملة — الجدولة والوقت والرواتب والأفراد. ويضيف Foresight & Action التنبؤ والسيناريوهات وطبقة التنفيذ بموافقة بشرية. أما باقات المفاهيم فتشغّل نماذج التشغيل التي تديرها فعلاً.", actions: ["Crew للجدولة والوقت والرواتب والأفراد", "Foresight & Action للتنبؤ والسيناريوهات", "المفاهيم: الامتياز، ضيافة الفنادق، المطابخ السحابية، التموين، الإنتاج، أو المطابخ المؤجرة", "Watchtower لذكاء السوق الخارجي، يُحدَّد نطاقه معك"], timeline: "أضفها حين تستحق مكانها", cta: "استعرض Crew", ctaLink: "/crew", icon: "growth", color: "from-orange-500 to-orange-600" },
+      { number: 5, title: "أدر أعمالك عليه", subtitle: "ثم واصل التوسع.", description: `تُسعَّر المواقع تدريجيًا كلما أضفتها، فلا يعيد النمو تسعير ما تشغّله بالفعل. وبعد ${BANDED_UNIT_CEILING} موقعًا تفسح النطاقات المنشورة المجال لاتفاقية Enterprise تُحدَّد معك.`, actions: ["تصرّف أثناء الوردية لا بعد الإقفال", "خصومات الحجم تبدأ من 50 موقعًا", "الاشتراك السنوي ولمدة سنتين أقل تكلفة", `بعد ${BANDED_UNIT_CEILING} موقعًا: Enterprise`], timeline: "مستمر", cta: "تواصل مع المبيعات", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
     ],
     noForcedTitle: "لا جداول زمنية مفروضة",
-    noForcedDescription: "ابدأ بـ Report Lite اليوم، ثم ترقَّ إلى Report Plus/Pro في الشهر المقبل. أضف Core لاحقًا. التوسع حسب أولوياتك وميزانيتك.",
+    noForcedDescription: "ابدأ بالباقة التي تعالج فجوة اليوم. أضف Crew حين تصبح الجدولة هي القيد، وأضف Foresight & Action حين تبدأ التخطيط لمدى أبعد. كل باقة شهرية؛ والاشتراك السنوي ولمدة سنتين موجود لأنه أقل تكلفة، لا لأنه إلزامي.",
     commonJourneysTitle: "مسارات شائعة",
-    commonJourneysDescription: "كيف يتدرج المشغلون عادةً داخل Sundae؟",
+    commonJourneysDescription: "أين يستقر المشغلون بأحجامهم المختلفة عادةً",
     journeys: [
-      { title: "مشغل 1-5 مواقع", icon: "labor", items: ["ابدأ بـ Report Lite (مجاني)", "ترقَّ إلى Report Plus لرؤى أعمق", "فكّر في Core عند التوسع إلى 10+ مواقع"] },
-      { title: "مشغل 10-50 موقعًا", icon: "multiLocation", items: ["ابدأ بـ Core Lite للعمليات اللحظية", "أضف 1-2 وحدة (العمالة، المخزون)", "أضف Watchtower للذكاء السوقي"] },
-      { title: "مؤسسة 100+ موقع", icon: "growth", items: ["ابدأ بخطة Enterprise", "حزمة وحدات كاملة + Watchtower", "تكاملات مخصصة وWhite-label"] },
+      { title: "مشغل 1-5 مواقع", icon: "labor", items: ["ابدأ بـ Core Foundation لصورة تشغيلية واحدة", "أضف Crew Schedule إن كان التخطيط ما زال يدويًا", "انتقل إلى Core Margin حين تصبح التكلفة هي القيد"] },
+      { title: "مشغل 10-50 موقعًا", icon: "multiLocation", items: ["Core Margin أو Core Growth حسب موضع الفجوة", "Crew Operating حين تدخل الرواتب والوقت في النطاق", "Foresight & Action للتنبؤ والسيناريوهات"] },
+      { title: "مجموعة 100+ موقع", icon: "growth", items: ["Core Performance للتوحيد متعدد العلامات والأسواق", `بعد ${BANDED_UNIT_CEILING} موقعًا تفسح النطاقات المجال لاتفاقية Enterprise`, "Watchtower وباقات المفاهيم تُحدَّد بالتوازي"] },
     ],
-    timelinesTitle: "الجدول الزمني للتنفيذ",
-    timelinesDescription: "كم يستغرق تنفيذ كل فئة؟",
-    timelines: [
-      { tier: "Report Lite", time: "فوري", description: "ارفع CSV واحصل على القياس فورًا" },
-      { tier: "Report Plus/Pro", time: "1-2 يوم", description: "إعداد التحليل والتكامل" },
-      { tier: "Core Lite/Pro", time: "1-2 أسبوع", description: "تكامل POS والإعداد اللحظي" },
-      { tier: "Enterprise", time: "2-4 أسبوع", description: "تنفيذ وتدريب مخصص" },
-    ],
+    implementationTitle: "التنفيذ",
+    implementationDescription: "رسم يُدفع مرة واحدة ويعكس حجم أعمال التكامل التي يحتاجها تطبيقك فعلاً.",
+    implementationNote: "يُحتسب مرة واحدة، عند أعلى فئة في اختيارك — ولا يُجمع أبدًا عبر الباقات التي تشتريها.",
+    implementationFromLabel: "ابتداءً من",
     finalTitle: "هل أنت مستعد لبدء رحلتك؟",
-    finalDescription: "ابدأ بـ Report Lite (مجانًا دائمًا) أو احسب مسارك المخصص.",
+    finalDescription: "قِس الأمر على عملياتك في نحو عشر دقائق، أو أحضر أرقامك ونقوم بذلك معك.",
     cards: [
-      { title: "ابدأ مجانًا", description: "Report Lite، بدون بطاقة ائتمان", button: "ابدأ مجانًا →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "احسب مسارك", description: "حاسبة تسعير تفاعلية", button: "احسب التسعير →", icon: "calculator", color: "bg-[#FF5C4D]" },
-      { title: "تحدث مع خبير", description: "توصيات مخصصة", button: "احجز عرضًا →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
+      { title: "ابدأ التشخيص", description: "باقة مناسبة ونطاق استرشادي", button: "ابدأ →", icon: "insights", color: "bg-green-600", href: "/diagnostic" },
+      { title: "احسب باقتك", description: "حاسبة تسعير تفاعلية", button: "احسب التسعير →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "تحدث مع خبير", description: "جلسة عمل على بياناتك", button: "احجز عرضًا →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
   fr: {
     badge: "Guide de démarrage",
     title: "Votre parcours avec Sundae",
-    description: "Six étapes du benchmark gratuit à l'intelligence opérationnelle complète. Commencez petit, avancez à votre rythme.",
-    supporting: "La plupart des opérateurs commencent avec Report Lite (gratuit à vie), prouvent la valeur puis étendent. Vous contrôlez le rythme.",
-    startFree: "Commencer gratuitement",
-    calculatePath: "Calculer votre parcours",
-    journeyTitle: "Le parcours Sundae : 6 étapes",
-    journeyDescription: "Du benchmark gratuit à l'intelligence entreprise",
+    description: "Cinq étapes, de la première conversation à l'action sur vos propres chiffres. Commencez à la profondeur qu'il vous faut, ajoutez le reste quand il le mérite.",
+    supporting: `Chaque package est payant dès votre premier site, puis facturé par site additionnel à un tarif qui diminue à mesure que vous grandissez. ${EXAMPLE_LOCATIONS} sites ${EXAMPLE_PACKAGE.name} = ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)}/mois.`,
+    startFree: "Lancer le diagnostic",
+    calculatePath: "Dimensionner votre package",
+    journeyTitle: "Le parcours Sundae : 5 étapes",
+    journeyDescription: "Du dimensionnement du package au pilotage quotidien",
     steps: [
-      { number: 1, title: "Commencer gratuitement (Report Lite)", subtitle: "Prouvez la valeur. Ne payez rien.", description: "Importez vos données POS et obtenez un benchmark immédiat.", actions: ["Importer des données POS (CSV)", "Benchmark immédiat", "Identifier les 3 meilleures opportunités", "Construire un business case"], timeline: "Immédiat", cta: "Commencer gratuitement", ctaLink: "/report", icon: "report", color: "from-[#FF5C4D] to-[#C2410C]" },
-      { number: 2, title: "Comprendre votre base", subtitle: "Voir votre position vs vos pairs.", description: "Utilisez Report Lite pour comprendre vos performances sur 5 métriques.", actions: ["Comparer les ventes au pied carré", "Comparer le coût de la main-d'oeuvre", "Identifier les opportunités de marge", "Partager avec le leadership"], timeline: "1-2 semaines", cta: "Découvrir Report", ctaLink: "/report", icon: "benchmarking", color: "from-[#F2B45C] to-[#C2410C]" },
-      { number: 3, title: "Choisir la montée de gamme", subtitle: "Report Plus/Pro ou Core ?", description: "Après avoir prouvé la valeur avec Report Lite, choisissez selon vos besoins de vitesse et de profondeur.", actions: ["Besoin d'insights ? → Report Plus/Pro", "Besoin de vitesse ? → Core", "Les rapports quotidiens suffisent ? → Report Plus/Pro", "10+ sites ? → Core"], timeline: "Report Plus/Pro : 1-2 jours | Core : 1-2 semaines", cta: "Comparer les options", ctaLink: "/report-vs-core", icon: "balance", color: "from-green-500 to-green-600" },
-      { number: 4, title: "Ajouter des modules (optionnel)", subtitle: "Approfondir là où c'est le plus utile.", description: "Choisissez des modules spécialisés selon vos plus gros points de douleur.", actions: ["Main-d'oeuvre élevée ? → Labor Intelligence", "Coût/gaspillage alimentaire ? → Inventory Intelligence", "Fournisseurs complexes ? → Purchasing Intelligence", "Marketing intense ? → Marketing Intelligence", "Basé sur les réservations ? → Reservations Intelligence"], timeline: "1-2 semaines par module", cta: "Explorer les modules", ctaLink: "/modules", icon: "network", color: "from-orange-500 to-orange-600" },
-      { number: 5, title: "Considérer Watchtower (optionnel)", subtitle: "Ajouter une intelligence externe.", description: "Voir ce qui se passe hors de vos murs.", actions: ["Jusqu'à 10 concurrents par site", "Suivre prix et promos", "Prédire la demande via météo/événements", "Intelligence marché"], timeline: "1 semaine", cta: "Découvrir Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-[#FF6B5B] to-[#E03E48]" },
-      { number: 6, title: "Passer à l'entreprise", subtitle: "100+ sites ou besoins sur mesure.", description: "Fréquence de rafraîchissement, crédits illimités, white-label, SSO, support dédié.", actions: ["Fréquence personnalisée", "Crédits et tableaux illimités", "White-label et SSO", "CSM dédié", "Support 24/7 avec SLA"], timeline: "2-4 semaines", cta: "Contacter les ventes", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { number: 1, title: "Dimensionnez selon votre exploitation", subtitle: "Dix minutes, vos chiffres, sans engagement.", description: "Le diagnostic vous demande ce que vous voyez et ne voyez pas aujourd'hui, puis renvoie le package qui répond à ces manques, une fourchette mensuelle indicative et les fuites de marge les plus probables.", actions: ["Répondre aux questions d'exploitation", "Obtenir un package aligné sur vos manques", "Voir une fourchette mensuelle indicative", "Apporter les hypothèses de fuite à votre équipe"], timeline: "Environ 10 minutes", cta: "Lancer le diagnostic", ctaLink: "/diagnostic", icon: "insights", color: "from-[#FF5C4D] to-[#C2410C]" },
+      { number: 2, title: "Choisissez votre package Core", subtitle: "La profondeur est le choix, pas le nombre de sites.", description: "Les quatre packages portent les mêmes onze modules métier. Ce qui change, c'est la profondeur de chacun : vous choisissez donc sur l'écart à combler, pas sur le nombre de sites.", actions: ["Foundation - la base opérationnelle", "Margin - profondeur coût, gaspillage et fuites", "Growth - clients, promos et marge par canal", "Performance - consolidation multi-marques et multi-marchés"], timeline: "Une session de travail", cta: "Comparer les packages", ctaLink: "/core", icon: "balance", color: "from-[#F2B45C] to-[#C2410C]" },
+      { number: 3, title: "Connectez vos systèmes", subtitle: "Le POS d'abord, puis main-d'oeuvre et coûts.", description: "Sundae se pose au-dessus de ce que vous exploitez déjà. Le POS entre en premier car il ancre tout le reste, puis main-d'oeuvre, stocks et achats complètent le tableau.", actions: ["Connecter votre POS", "Ajouter les sources main-d'oeuvre et planning", "Ajouter stocks et achats", "Vérifier les chiffres face à votre clôture"], timeline: "La classe d'implémentation fixe le périmètre", cta: "Voir les intégrations", ctaLink: "/integrations", icon: "network", color: "from-green-500 to-green-600" },
+      { number: 4, title: "Ajoutez les couches utiles", subtitle: "Main-d'oeuvre, prévision et vos modèles d'exploitation.", description: "Crew est la couche workforce - planning, temps, paie et personnes. Foresight & Action ajoute la prévision, les scénarios et la couche d'action avec validation humaine. Les SKUs concepts activent les modèles d'exploitation que votre groupe opère réellement.", actions: ["Crew pour planning, temps, paie et personnes", "Foresight & Action pour prévision et scénarios", "Concepts : franchise, hôtellerie F&B, cloud kitchen, traiteur, production ou commissary locatif", "Watchtower pour l'intelligence marché, cadré avec vous"], timeline: "À ajouter quand cela le mérite", cta: "Découvrir Crew", ctaLink: "/crew", icon: "growth", color: "from-orange-500 to-orange-600" },
+      { number: 5, title: "Pilotez l'activité dessus", subtitle: "Puis continuez à grandir.", description: `Les sites sont facturés au tarif marginal au fur et à mesure : la croissance ne retarife jamais ce que vous exploitez déjà. Au-delà de ${BANDED_UNIT_CEILING} sites, les paliers publiés laissent place à un accord Enterprise cadré avec vous.`, actions: ["Agir pendant le service, pas après la clôture", "Les remises volume commencent à 50 sites", "Les engagements annuels et 2 ans coûtent moins cher", `Au-delà de ${BANDED_UNIT_CEILING} sites : Enterprise`], timeline: "En continu", cta: "Contacter les ventes", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
     ],
     noForcedTitle: "Aucun calendrier imposé",
-    noForcedDescription: "Commencez avec Report Lite aujourd'hui, montez en gamme quand c'est pertinent. Vous gardez le contrôle.",
+    noForcedDescription: "Commencez par le package qui répond au manque du moment. Ajoutez Crew quand le planning devient la contrainte, Foresight & Action quand vous planifiez plus loin. Tout est mensuel : les engagements annuels et 2 ans existent parce qu'ils coûtent moins cher, pas parce qu'ils sont obligatoires.",
     commonJourneysTitle: "Parcours fréquents",
-    commonJourneysDescription: "Comment les opérateurs progressent-ils généralement ?",
+    commonJourneysDescription: "Où atterrissent généralement les opérateurs selon leur taille",
     journeys: [
-      { title: "Opérateur 1-5 sites", icon: "labor", items: ["Commencer avec Report Lite (gratuit)", "Monter sur Report Plus pour plus de profondeur", "Passer à Core à partir de 10+ sites"] },
-      { title: "Opérateur 10-50 sites", icon: "multiLocation", items: ["Commencer avec Core Lite pour le temps réel", "Ajouter 1-2 modules", "Ajouter Watchtower pour le marché"] },
-      { title: "Entreprise 100+ sites", icon: "growth", items: ["Démarrer en Enterprise", "Suite complète + Watchtower", "Intégrations sur mesure et white-label"] },
+      { title: "Opérateur 1-5 sites", icon: "labor", items: ["Démarrer sur Core Foundation pour une vue unique", "Ajouter Crew Schedule si le planning est encore manuel", "Passer à Core Margin quand le coût devient la contrainte"] },
+      { title: "Opérateur 10-50 sites", icon: "multiLocation", items: ["Core Margin ou Core Growth selon l'écart", "Crew Operating quand paie et temps entrent dans le périmètre", "Foresight & Action pour prévision et scénarios"] },
+      { title: "Groupe 100+ sites", icon: "growth", items: ["Core Performance pour la consolidation multi-marques et multi-marchés", `Au-delà de ${BANDED_UNIT_CEILING} sites, les paliers laissent place à un accord Enterprise`, "Watchtower et SKUs concepts cadrés en parallèle"] },
     ],
-    timelinesTitle: "Délais d'implémentation",
-    timelinesDescription: "Combien de temps prend chaque offre ?",
-    timelines: [
-      { tier: "Report Lite", time: "Immédiat", description: "Importer CSV, benchmark instantané" },
-      { tier: "Report Plus/Pro", time: "1-2 jours", description: "Configuration et intégration" },
-      { tier: "Core Lite/Pro", time: "1-2 semaines", description: "Intégration POS et temps réel" },
-      { tier: "Enterprise", time: "2-4 semaines", description: "Implémentation et formation" },
-    ],
+    implementationTitle: "Implémentation",
+    implementationDescription: "Un frais unique qui reflète la charge d'intégration réellement nécessaire à votre déploiement.",
+    implementationNote: "Facturé une seule fois, à la classe la plus élevée de votre sélection - jamais cumulé sur les SKUs achetés.",
+    implementationFromLabel: "À partir de",
     finalTitle: "Prêt à commencer votre parcours ?",
-    finalDescription: "Commencez avec Report Lite (gratuit à vie) ou calculez votre parcours personnalisé.",
+    finalDescription: "Dimensionnez-le sur votre exploitation en une dizaine de minutes, ou apportez vos chiffres et nous le faisons avec vous.",
     cards: [
-      { title: "Commencer gratuitement", description: "Report Lite, sans carte bancaire", button: "Commencer gratuitement →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "Calculer votre parcours", description: "Calculateur de prix interactif", button: "Calculer le prix →", icon: "calculator", color: "bg-[#FF5C4D]" },
-      { title: "Parler à un expert", description: "Recommandations personnalisées", button: "Réserver une démo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
+      { title: "Lancer le diagnostic", description: "Package adapté et fourchette indicative", button: "Démarrer →", icon: "insights", color: "bg-green-600", href: "/diagnostic" },
+      { title: "Dimensionner votre package", description: "Calculateur de prix interactif", button: "Calculer le prix →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "Parler à un expert", description: "Une session de travail sur vos données", button: "Réserver une démo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
   es: {
     badge: "Guía de inicio",
     title: "Tu viaje con Sundae",
-    description: "Seis pasos desde el benchmarking gratuito hasta la inteligencia operativa completa. Empieza pequeño y escala a tu ritmo.",
-    supporting: "La mayoría empieza con Report Lite (gratis para siempre), demuestra el valor y luego amplía. Tú controlas el ritmo.",
-    startFree: "Empezar gratis",
-    calculatePath: "Calcular tu ruta",
-    journeyTitle: "El viaje Sundae: 6 pasos",
-    journeyDescription: "Del benchmarking gratuito a la inteligencia empresarial",
+    description: "Cinco pasos desde la primera conversación hasta actuar sobre tus propios números. Empieza con la profundidad que necesitas y añade el resto cuando se lo gane.",
+    supporting: `Cada paquete se paga desde tu primer local y luego se cobra por local adicional a una tarifa que baja a medida que creces. ${EXAMPLE_LOCATIONS} locales de ${EXAMPLE_PACKAGE.name} = ${usd(EXAMPLE_PACKAGE.firstUnitMonthly)} + ${EXAMPLE_LOCATIONS - 1} × ${usd(EXAMPLE_PACKAGE.bands[0].monthlyPerUnit)} = ${usd(EXAMPLE_QUOTE.monthlyTotal)}/mes.`,
+    startFree: "Ejecutar el diagnóstico",
+    calculatePath: "Dimensiona tu paquete",
+    journeyTitle: "El viaje Sundae: 5 pasos",
+    journeyDescription: "Desde dimensionar el paquete hasta operar el negocio con él",
     steps: [
-      { number: 1, title: "Empieza gratis (Report Lite)", subtitle: "Demuestra el valor. No pagas nada.", description: "Sube tus datos de POS y obtén benchmarking inmediato.", actions: ["Subir datos POS (CSV)", "Benchmark instantáneo", "Identificar las 3 mejores oportunidades", "Construir caso interno"], timeline: "Inmediato", cta: "Empezar gratis", ctaLink: "/report", icon: "report", color: "from-[#FF5C4D] to-[#C2410C]" },
-      { number: 2, title: "Entiende tu base", subtitle: "Ve dónde estás frente a tus pares.", description: "Usa Report Lite para entender tu rendimiento en 5 métricas clave.", actions: ["Comparar ventas por pie cuadrado", "Comparar % coste laboral", "Identificar oportunidades de margen", "Compartir insights con liderazgo"], timeline: "1-2 semanas para justificar", cta: "Conocer Report", ctaLink: "/report", icon: "benchmarking", color: "from-[#F2B45C] to-[#C2410C]" },
-      { number: 3, title: "Decide la subida", subtitle: "¿Report Plus/Pro o Core?", description: "Cuando hayas demostrado el valor, elige según velocidad y profundidad.", actions: ["¿Necesitas insights? → Report Plus/Pro", "¿Necesitas velocidad? → Core", "¿Informes diarios bastan? → Report Plus/Pro", "¿10+ ubicaciones? → Core"], timeline: "Report Plus/Pro: 1-2 días | Core: 1-2 semanas", cta: "Comparar opciones", ctaLink: "/report-vs-core", icon: "balance", color: "from-green-500 to-green-600" },
-      { number: 4, title: "Añade módulos (opcional)", subtitle: "Profundiza donde importa más.", description: "Elige módulos especializados según tus mayores puntos de dolor.", actions: ["¿Coste laboral alto? → Labor Intelligence", "¿Coste/merma de comida alto? → Inventory Intelligence", "¿Proveedores complejos? → Purchasing Intelligence", "¿Marketing pesado? → Marketing Intelligence", "¿Negocio de reservas? → Reservations Intelligence"], timeline: "1-2 semanas por módulo", cta: "Explorar módulos", ctaLink: "/modules", icon: "network", color: "from-orange-500 to-orange-600" },
-      { number: 5, title: "Considera Watchtower (opcional)", subtitle: "Añade inteligencia externa.", description: "Ve qué ocurre fuera de tus paredes y comprende la dinámica del mercado.", actions: ["Hasta 10 competidores por ubicación", "Supervisar precios y promociones", "Predecir demanda por clima/eventos", "Inteligencia de mercado"], timeline: "1 semana", cta: "Conocer Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-[#FF6B5B] to-[#E03E48]" },
-      { number: 6, title: "Escala a Enterprise", subtitle: "100+ ubicaciones o necesidades personalizadas.", description: "Frecuencia de actualización, créditos ilimitados, white-label, SSO y soporte dedicado.", actions: ["Frecuencia personalizada", "Créditos y dashboards ilimitados", "White-label y SSO", "CSM dedicado", "Soporte 24/7 con SLA"], timeline: "2-4 semanas", cta: "Contactar ventas", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { number: 1, title: "Dimensiónalo sobre tu operación", subtitle: "Diez minutos, tus números, sin compromiso.", description: "El diagnóstico pregunta qué ves y qué no ves hoy, y devuelve el paquete que cubre esos huecos, un rango mensual indicativo y por dónde se está yendo tu margen.", actions: ["Responder las preguntas de operación", "Obtener un paquete ligado a tus huecos", "Ver un rango mensual indicativo", "Llevar las hipótesis de fuga a tu equipo"], timeline: "Unos 10 minutos", cta: "Ejecutar el diagnóstico", ctaLink: "/diagnostic", icon: "insights", color: "from-[#FF5C4D] to-[#C2410C]" },
+      { number: 2, title: "Elige tu paquete Core", subtitle: "La profundidad es la elección, no el número de locales.", description: "Los cuatro paquetes llevan los mismos once módulos de dominio. Lo que cambia es cuánto profundiza cada uno, así que eliges por el hueco que quieres cerrar, no por cuántos locales operas.", actions: ["Foundation - la base operativa", "Margin - profundidad en coste, merma y fugas", "Growth - clientes, promociones y margen por canal", "Performance - consolidación multimarca y multimercado"], timeline: "Una sesión de trabajo", cta: "Comparar paquetes", ctaLink: "/core", icon: "balance", color: "from-[#F2B45C] to-[#C2410C]" },
+      { number: 3, title: "Conecta tus sistemas", subtitle: "Primero el POS, luego personal y coste.", description: "Sundae se apoya sobre lo que ya operas. El POS entra primero porque ancla todo lo demás; después personal, inventario y compras completan el cuadro.", actions: ["Conectar tu POS", "Añadir fuentes de personal y turnos", "Añadir inventario y compras", "Cuadrar los números con tu propio cierre"], timeline: "La clase de implantación fija el alcance", cta: "Ver integraciones", ctaLink: "/integrations", icon: "network", color: "from-green-500 to-green-600" },
+      { number: 4, title: "Añade las capas que necesites", subtitle: "Personal, previsión y tus modelos de operación.", description: "Crew es la capa de personal: turnos, fichaje, nómina y personas. Foresight & Action añade previsión, escenarios y la capa de acción con aprobación humana. Los SKUs de concepto activan los modelos de operación que tu grupo realmente ejecuta.", actions: ["Crew para turnos, fichaje, nómina y personas", "Foresight & Action para previsión y escenarios", "Conceptos: franquicia, F&B hotelero, cocina cloud, catering, producción o comisariato en alquiler", "Watchtower para inteligencia de mercado, dimensionado contigo"], timeline: "Añádelo cuando se lo gane", cta: "Explorar Crew", ctaLink: "/crew", icon: "growth", color: "from-orange-500 to-orange-600" },
+      { number: 5, title: "Opera el negocio con él", subtitle: "Y sigue creciendo.", description: `Los locales se cobran de forma marginal según los añades, así que crecer nunca reprecia lo que ya operas. Pasados los ${BANDED_UNIT_CEILING} locales, los tramos publicados dan paso a un acuerdo Enterprise dimensionado contigo.`, actions: ["Actuar durante el turno, no tras el cierre", "Los descuentos por volumen empiezan en 50 locales", "Los compromisos anual y a 2 años cuestan menos", `Pasados ${BANDED_UNIT_CEILING} locales: Enterprise`], timeline: "Continuo", cta: "Hablar con ventas", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
     ],
     noForcedTitle: "Sin calendarios forzados",
-    noForcedDescription: "Empieza con Report Lite hoy y sube de nivel cuando te convenga. Tú marcas el ritmo.",
+    noForcedDescription: "Empieza por el paquete que cubre el hueco de hoy. Añade Crew cuando los turnos sean la restricción y Foresight & Action cuando empieces a planificar más lejos. Todo es mes a mes: los compromisos anual y a 2 años existen porque cuestan menos, no porque sean obligatorios.",
     commonJourneysTitle: "Recorridos habituales",
-    commonJourneysDescription: "¿Cómo suelen avanzar los operadores?",
+    commonJourneysDescription: "Dónde suelen aterrizar los operadores según su tamaño",
     journeys: [
-      { title: "Operador 1-5 ubicaciones", icon: "labor", items: ["Empezar con Report Lite (gratis)", "Pasar a Report Plus para más profundidad", "Moverse a Core al crecer a 10+ ubicaciones"] },
-      { title: "Operador 10-50 ubicaciones", icon: "multiLocation", items: ["Empezar con Core Lite para tiempo real", "Añadir 1-2 módulos", "Añadir Watchtower para mercado"] },
-      { title: "Empresa 100+ ubicaciones", icon: "growth", items: ["Empezar en Enterprise", "Paquete completo + Watchtower", "Integraciones a medida y white-label"] },
+      { title: "Operador 1-5 locales", icon: "labor", items: ["Empezar en Core Foundation para una sola foto operativa", "Añadir Crew Schedule si la planificación sigue siendo manual", "Subir a Core Margin cuando el coste sea la restricción"] },
+      { title: "Operador 10-50 locales", icon: "multiLocation", items: ["Core Margin o Core Growth según dónde esté el hueco", "Crew Operating cuando entren nómina y fichaje", "Foresight & Action para previsión y escenarios"] },
+      { title: "Grupo de 100+ locales", icon: "growth", items: ["Core Performance para consolidación multimarca y multimercado", `Pasados ${BANDED_UNIT_CEILING} locales los tramos dan paso a un acuerdo Enterprise`, "Watchtower y SKUs de concepto dimensionados en paralelo"] },
     ],
-    timelinesTitle: "Tiempos de implementación",
-    timelinesDescription: "¿Cuánto tarda cada nivel?",
-    timelines: [
-      { tier: "Report Lite", time: "Inmediato", description: "Sube CSV, benchmark al instante" },
-      { tier: "Report Plus/Pro", time: "1-2 días", description: "Configuración e integración" },
-      { tier: "Core Lite/Pro", time: "1-2 semanas", description: "Integración POS y tiempo real" },
-      { tier: "Enterprise", time: "2-4 semanas", description: "Implementación y formación" },
-    ],
+    implementationTitle: "Implantación",
+    implementationDescription: "Un cargo único que refleja cuánto trabajo de integración necesita realmente tu despliegue.",
+    implementationNote: "Se cobra una sola vez, en la clase más alta de tu selección; nunca se suma entre los SKUs que compras.",
+    implementationFromLabel: "Desde",
     finalTitle: "¿Listo para empezar tu viaje?",
-    finalDescription: "Empieza con Report Lite (gratis para siempre) o calcula tu ruta personalizada.",
+    finalDescription: "Dimensiónalo sobre tu operación en unos diez minutos, o tráenos tus números y lo hacemos contigo.",
     cards: [
-      { title: "Empezar gratis", description: "Report Lite, sin tarjeta", button: "Empezar gratis →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "Calcular tu ruta", description: "Calculadora de precios interactiva", button: "Calcular precio →", icon: "calculator", color: "bg-[#FF5C4D]" },
-      { title: "Hablar con un experto", description: "Recomendaciones personalizadas", button: "Reservar demo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
+      { title: "Ejecutar el diagnóstico", description: "Paquete adecuado y rango indicativo", button: "Empezar →", icon: "insights", color: "bg-green-600", href: "/diagnostic" },
+      { title: "Dimensiona tu paquete", description: "Calculadora de precios interactiva", button: "Calcular precio →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "Hablar con un experto", description: "Una sesión de trabajo sobre tus datos", button: "Reservar demo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
 };
@@ -314,13 +307,8 @@ export default function GettingStartedPage() {
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   const handleFinalCardClick = (href?: string) => {
-    if (href === "/report") {
-      cta(REPORT_APP_URL, "start_free_from_getting_started_bottom", { page: "/getting-started" });
-      return;
-    }
-
-    if (href === "/demo") {
-      cta("/demo", "book_demo_from_getting_started", { page: "/getting-started" });
+    if (href) {
+      cta(href, `final_card_from_getting_started`, { page: "/getting-started" });
       return;
     }
 
@@ -341,7 +329,7 @@ export default function GettingStartedPage() {
           <Button
             variant="primary"
             size="lg"
-            onClick={() => cta(REPORT_APP_URL, "start_free_from_getting_started", { page: "/getting-started" })}
+            onClick={() => cta("/diagnostic", "diagnostic_from_getting_started", { page: "/getting-started" })}
           >
             {copy.startFree}
           </Button>
@@ -453,28 +441,37 @@ export default function GettingStartedPage() {
         </div>
       </section>
 
+      {/* Implementation classes come straight from the price book. The one rule
+          that matters commercially is rendered as a note, not per-card copy:
+          implementation is charged ONCE at the highest class in the selection,
+          never summed across SKUs. */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-6xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.timelinesTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.timelinesDescription}</p>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.implementationTitle}</h2>
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.implementationDescription}</p>
           </FadeUp>
 
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {copy.timelines.map((timeline) => (
-              <StaggerItem key={timeline.tier}>
+          <StaggerContainer className="grid grid-cols-2 lg:grid-cols-5 gap-6">
+            {IMPLEMENTATION_CLASSES.map((cls) => (
+              <StaggerItem key={cls.id}>
                 <Card variant="elevated" className="h-full text-center hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{timeline.tier}</CardTitle>
-                    <div className="text-4xl font-bold bg-gradient-to-r from-[#FF8473] to-[#F2B45C] bg-clip-text text-transparent mb-4">
-                      {timeline.time}
+                    <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{cls.name}</CardTitle>
+                    <div className="text-3xl font-bold bg-gradient-to-r from-[#FF8473] to-[#F2B45C] bg-clip-text text-transparent">
+                      {cls.from ? `${copy.implementationFromLabel} ${usd(cls.oneOff)}` : usd(cls.oneOff)}
                     </div>
-                    <CardDescription className="text-[var(--text-supporting)]">{timeline.description}</CardDescription>
                   </CardHeader>
                 </Card>
               </StaggerItem>
             ))}
           </StaggerContainer>
+
+          <FadeUp className="mt-10">
+            <p className="text-center text-sm text-[var(--text-muted)] max-w-3xl mx-auto">
+              {copy.implementationNote}
+            </p>
+          </FadeUp>
         </div>
       </section>
 

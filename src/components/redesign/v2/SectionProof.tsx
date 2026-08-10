@@ -21,7 +21,7 @@
  *   CLM-002 (500 data models) APPROVED PUBLIC
  *   CLM-003 (12 modules · 14 specialized in current bundle) APPROVED PUBLIC
  *   CLM-004 (Built with operators across 500+ restaurant locations) APPROVED PUBLIC
- *   CLM-005 (5-min refresh on Core Pro) CAPABILITY CLAIM ONLY · FN-1
+ *   CLM-005 (intraday shift refresh on Core) CAPABILITY CLAIM ONLY · FN-1
  *   CLM-009 (6 intelligence layers) APPROVED PUBLIC - derived from locked taxonomy
  *
  * Excluded:
@@ -45,7 +45,7 @@ const stats = [
   },
   {
     value: "5-min",
-    label: "shift refresh on Core Pro",
+    label: "shift refresh on Core",
     footnoteMarker: "*",
   },
 ];
