@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { localizeWebsiteHref } from "@/lib/i18n";
 import { getRecoveryCopy } from "./recoveryCopy";
@@ -43,6 +44,23 @@ export default function RecoveryPage() {
         </div>
       </PageHero>
 
+      {/* Proof before argument: the operator's own brief, with estimated value
+          and measured recovery shown side by side. */}
+      <section className="px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16">
+        <div className="mx-auto max-w-5xl">
+          <FadeUp>
+            <ThemedShot
+              framed
+              width={1600}
+              height={1000}
+              dark="/images/product/2026-fresh/recovery-brief-dark.png"
+              light="/images/product/2026-fresh/recovery-brief.png"
+              alt="The daily profit brief: estimated recoverable value, measured recovery reported separately, the current queue, and the top opportunities each with an owner and a frozen baseline"
+            />
+          </FadeUp>
+        </div>
+      </section>
+
       {/* The loop. Ordinals earn their place: this is a real sequence. */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="mx-auto max-w-5xl">
@@ -77,6 +95,22 @@ export default function RecoveryPage() {
               </StaggerItem>
             ))}
           </StaggerContainer>
+        </div>
+      </section>
+
+      {/* What a ranked queue actually looks like: value, owner, source, baseline. */}
+      <section className="px-4 sm:px-6 lg:px-8 pb-16 sm:pb-24">
+        <div className="mx-auto max-w-5xl">
+          <FadeUp>
+            <ThemedShot
+              framed
+              width={1600}
+              height={1000}
+              dark="/images/product/2026-fresh/recovery-decisions-dark.png"
+              light="/images/product/2026-fresh/recovery-decisions.png"
+              alt="The decisions queue ranked by value, each opportunity showing its outlet, status, detector source, frozen baseline and estimated value"
+            />
+          </FadeUp>
         </div>
       </section>
 
