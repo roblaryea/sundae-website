@@ -24,8 +24,8 @@ const claimIds = ["reporting-lag", "leakage", "margin-variance"];
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
   en: {
     eyebrow: "BUILT WITH OPERATORS",
-    headline: "Shaped by restaurant operators across every format.",
-    description: "QSR, casual dining, fine dining, cloud kitchens, and hospitality groups inform the intelligence layer restaurants actually need - from single-shop operators to multi-brand portfolios.",
+    headline: "Shaped by operators across every food-service format.",
+    description: "QSR, casual dining, fine dining, cloud kitchens, catering and central production inform the intelligence layer multi-location groups actually need - from a single brand to a multi-concept portfolio.",
     stats: [
       { value: "200+", label: "integrations - every POS, delivery & finance tool" },
       { value: "12", label: "intelligence modules, each with AI recommendations" },
@@ -45,8 +45,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
   },
   ar: {
     eyebrow: "مبني مع المشغلين",
-    headline: "صاغته مجموعات مطاعم عبر كل صيغة.",
-    description: "QSR والمطاعم العائلية والمطاعم الراقية والمطابخ السحابية ومجموعات الضيافة تُلهم طبقة الذكاء التي يحتاجها المطاعم - من مشغل واحد إلى محافظ متعددة العلامات.",
+    headline: "صاغه مشغّلون في كل أنماط خدمات الطعام.",
+    description: "الوجبات السريعة والمطاعم العائلية والراقية والمطابخ السحابية والتموين والإنتاج المركزي تُشكّل طبقة الذكاء التي تحتاجها المجموعات متعددة المواقع فعلاً - من علامة واحدة إلى محفظة متعددة المفاهيم.",
     stats: [
       { value: "+200", label: "تكامل - كل أنظمة POS والتوصيل والمالية" },
       { value: "12", label: "وحدة ذكاء، كل منها بتوصيات بالذكاء الاصطناعي" },
@@ -66,8 +66,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
   },
   fr: {
     eyebrow: "CONSTRUIT AVEC LES OPÉRATEURS",
-    headline: "Façonné par des opérateurs de restaurants dans tous les formats.",
-    description: "QSR, restauration décontractée, gastronomie, cuisines virtuelles et groupes hôteliers nourrissent la couche d'intelligence dont les restaurants ont vraiment besoin - du single-shop aux portefeuilles multi-marques.",
+    headline: "Façonné par des opérateurs dans tous les formats de la restauration.",
+    description: "QSR, restauration décontractée, gastronomie, cuisines virtuelles, traiteur et production centralisée nourrissent la couche d'intelligence dont les groupes multi-sites ont vraiment besoin - d'une enseigne unique au portefeuille multi-concepts.",
     stats: [
       { value: "200+", label: "intégrations - chaque système POS, livraison & finance" },
       { value: "12", label: "modules d'intelligence, chacun avec recommandations IA" },
@@ -87,8 +87,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
   },
   es: {
     eyebrow: "CONSTRUIDO CON OPERADORES",
-    headline: "Forjado por operadores de restaurantes en cada formato.",
-    description: "QSR, casual, alta cocina, cocinas en la nube y grupos de hospitalidad informan la capa de inteligencia que los restaurantes realmente necesitan - desde operadores de un solo local hasta portafolios multi-marca.",
+    headline: "Forjado por operadores en todos los formatos de servicio de comida.",
+    description: "QSR, casual, alta cocina, cocinas en la nube, catering y producción central informan la capa de inteligencia que los grupos multilocal realmente necesitan - desde una sola marca hasta una cartera multiconcepto.",
     stats: [
       { value: "200+", label: "integraciones - cada sistema POS, delivery y finanzas" },
       { value: "12", label: "módulos de inteligencia, cada uno con recomendaciones IA" },
