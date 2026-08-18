@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Faithful implementation of "Sundae Intelligence · Ask — Conversation thread"
+ * Faithful implementation of "Ask Sundae · Ask — Conversation thread"
  * (the core surface — answer-first replies with inline evidence) from the Claude
  * Design source. DARK variant only. Cool-slate token set shared with the Crew
  * scheduling design. Sits inside <PhoneFrame screenBg="#020617">. Pure markup.

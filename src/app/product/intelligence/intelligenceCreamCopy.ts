@@ -1,5 +1,5 @@
 /**
- * Copy for the warm "cream relief" editorial band on the Sundae Intelligence page.
+ * Copy for the warm "cream relief" editorial band on the Ask Sundae page.
  *
  * Hand-authored native transcreation per locale - NOT literal word-for-word - so
  * each line reads the way an operator in that market would actually say it. Mirrors

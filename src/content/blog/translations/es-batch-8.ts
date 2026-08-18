@@ -612,7 +612,7 @@ Sundae no es otra herramienta más en el stack. Reemplaza por completo la capa d
 - **Sundae Core** se conecta a tus sistemas existentes y normaliza los datos automáticamente. Tus datos de POS, payroll, inventario y contabilidad fluyen a un modelo unificado sin exportaciones manuales
 - **Sundae Insights** ofrece más de 12 módulos analíticos  -  inteligencia de ingresos, análisis laboral, seguimiento de inventario, análisis de compras, experiencia del cliente y más  -  todos preconstruidos y en tiempo real
 - **Sundae Pulse** te da visibilidad intradía de operaciones: pacing de ventas contra plan, seguimiento de mano de obra en vivo, monitoreo de leakage y scorecards de turno mientras avanza el día
-- **Sundae Intelligence** te permite hacer preguntas en lenguaje natural y obtener respuestas con contexto completo, no solo números
+- **Ask Sundae** te permite hacer preguntas en lenguaje natural y obtener respuestas con contexto completo, no solo números
 - **Sundae Foresight** mira hacia adelante 14 a 90 días con modelos predictivos, para que no solo reacciones a la semana pasada, sino que prepares el próximo mes
 
 La hoja de cálculo te daba una dimensión: lo que pasó. Sundae te da cuatro: lo que pasó, cómo se compara con el plan, cómo se compara con el mercado y qué es probable que ocurra después.
@@ -821,7 +821,7 @@ Los primeros forecasts ya son útiles. Para el mes tres, son muy precisos. Para 
     status: "translated",
     title: "Pregúntale cualquier cosa a tus datos: cómo la IA conversacional está reemplazando la fatiga de los dashboards",
     summary:
-      "Sundae Intelligence permite a los operadores preguntar en lenguaje natural  -  por voz o texto  -  en web, Slack, Teams y Telegram. Cuatro modos de IA reemplazan horas de navegación por dashboards con respuestas en 30 segundos.",
+      "Ask Sundae permite a los operadores preguntar en lenguaje natural  -  por voz o texto  -  en web, Slack, Teams y Telegram. Cuatro modos de IA reemplazan horas de navegación por dashboards con respuestas en 30 segundos.",
     readTime: "7 min de lectura",
     content: `## La pregunta que tarda dos horas
 
@@ -833,7 +833,7 @@ Cuando lo envías, el director regional ya pasó a apagar el siguiente incendio.
 
 **¿Y si pudieras responder esa pregunta desde el auto en 30 segundos?**
 
-Eso es Sundae Intelligence. Haz una pregunta en lenguaje natural  -  por voz o texto  -  y recibe una respuesta completa y contextual con datos de soporte, visualizaciones y acciones recomendadas. En tu teléfono. Mientras manejas. En 30 segundos.
+Eso es Ask Sundae. Haz una pregunta en lenguaje natural  -  por voz o texto  -  y recibe una respuesta completa y contextual con datos de soporte, visualizaciones y acciones recomendadas. En tu teléfono. Mientras manejas. En 30 segundos.
 
 ## La fatiga de dashboards es real
 
@@ -847,11 +847,11 @@ Eso es fatiga de dashboards: el agotamiento cognitivo de navegar múltiples herr
 - **Las preguntas no se hacen.** Esas preguntas de "me pregunto si..."  -  las que realmente generan insights  -  nunca se persiguen porque el costo de responderlas es demasiado alto
 - **Los datos se vuelven una carga.** En vez de ser un activo que impulsa mejores decisiones, se convierten en una tarea que consume tiempo sin valor proporcional
 
-Sundae Intelligence elimina por completo la fatiga de dashboards. No navegas hacia los datos. Los pides.
+Ask Sundae elimina por completo la fatiga de dashboards. No navegas hacia los datos. Los pides.
 
-## Los cuatro modos de Sundae Intelligence
+## Los cuatro modos de Ask Sundae
 
-Sundae Intelligence no es un simple chatbot pegado a un dashboard. Es un sistema de IA multimodal con cuatro modos de operación distintos, cada uno diseñado para un contexto de decisión diferente.
+Ask Sundae no es un simple chatbot pegado a un dashboard. Es un sistema de IA multimodal con cuatro modos de operación distintos, cada uno diseñado para un contexto de decisión diferente.
 
 ### Modo Chat: respuestas instantáneas
 
@@ -877,7 +877,7 @@ El modo Chat también soporta **slash commands** para usuarios avanzados:
 
 Cuando necesitas más que una respuesta rápida  -  cuando necesitas una investigación completa  -  cambia al modo Analyst.
 
-El modo Analyst permite a Sundae Intelligence ejecutar análisis de varios pasos: extraer datos de múltiples módulos, cruzar patrones, probar hipótesis y presentar hallazgos con evidencia de soporte.
+El modo Analyst permite a Ask Sundae ejecutar análisis de varios pasos: extraer datos de múltiples módulos, cruzar patrones, probar hipótesis y presentar hallazgos con evidencia de soporte.
 
 Ejemplo de prompt: *"Investiga por qué disminuyó el margen de utilidad en nuestros locales de Dubai Marina durante los últimos 60 días"*
 
@@ -891,7 +891,7 @@ Respuesta del modo Analyst:
 3. **Cruce**: otros locales que usan el mismo proveedor de mariscos vieron un aumento similar en costo de alimentos, confirmando que el precio del proveedor es un factor sistémico y no local
 4. **Recomendación**: renegociar el precio de mariscos (impacto proyectado: recuperar 0.5 puntos) y revisar la posición del menú de lunch para mejorar el mix de margen (impacto proyectado: recuperar 0.2-0.4 puntos)
 
-Este análisis le tomaría a un analista humano 3 a 4 horas. Sundae Intelligence lo entrega en menos de 60 segundos.
+Este análisis le tomaría a un analista humano 3 a 4 horas. Ask Sundae lo entrega en menos de 60 segundos.
 
 ### Modo Monitor: detección proactiva de anomalías
 
@@ -911,7 +911,7 @@ La diferencia clave es que Monitor no solo alerta  -  **explica**. No recibes "a
 
 ### Modo Report: narrativas automatizadas
 
-Report genera reportes estructurados y listos para presentar bajo demanda. En lugar de pasar horas construyendo un reporte semanal de operaciones o una presentación mensual para la junta, pídele a Sundae Intelligence que lo genere.
+Report genera reportes estructurados y listos para presentar bajo demanda. En lugar de pasar horas construyendo un reporte semanal de operaciones o una presentación mensual para la junta, pídele a Ask Sundae que lo genere.
 
 - *"Genera el reporte semanal de operaciones para todos los locales GCC"*
 - *"Arma un resumen listo para la junta de Q1 vs plan"*
@@ -919,17 +919,17 @@ Report genera reportes estructurados y listos para presentar bajo demanda. En lu
 
 Los reportes incluyen tablas formateadas, gráficos, resúmenes narrativos y acciones destacadas. Se pueden exportar a PDF, compartir por enlace o enviar según un calendario.
 
-La calidad narrativa importa. No son dumps de datos en bruto. Sundae Intelligence escribe resúmenes ejecutivos que contextualizan los números: "Los ingresos crecieron 6.2% interanual, liderados por el cluster de Al Olaya, que se benefició del fin de semana del evento de Fórmula 1. La eficiencia laboral mejoró en 8 de 12 ubicaciones, mientras que las 4 restantes requieren atención en la gestión del overtime."
+La calidad narrativa importa. No son dumps de datos en bruto. Ask Sundae escribe resúmenes ejecutivos que contextualizan los números: "Los ingresos crecieron 6.2% interanual, liderados por el cluster de Al Olaya, que se benefició del fin de semana del evento de Fórmula 1. La eficiencia laboral mejoró en 8 de 12 ubicaciones, mientras que las 4 restantes requieren atención en la gestión del overtime."
 
 ## Disponible en todas partes donde trabajas
 
-Sundae Intelligence no está atrapado en un navegador de escritorio. Te acompaña donde ya estás:
+Ask Sundae no está atrapado en un navegador de escritorio. Te acompaña donde ya estás:
 
 - **Web**: interfaz completa con visualizaciones ricas y capacidad profunda de análisis
 - **Slack**: haz preguntas en un canal dedicado o por DM al bot de Sundae. Las respuestas incluyen tarjetas formateadas con datos y gráficos
 - **Microsoft Teams**: la misma experiencia que Slack, integrada en tu workspace existente
 - **Telegram**: interfaz móvil ligera. Perfecta para preguntas rápidas entre locales
-- **Entrada por voz**: habla tu pregunta en cualquier plataforma. Sundae Intelligence la transcribe y responde. Pregunta mientras manejas, caminas por el piso o estás en medio de un turno ocupado
+- **Entrada por voz**: habla tu pregunta en cualquier plataforma. Ask Sundae la transcribe y responde. Pregunta mientras manejas, caminas por el piso o estás en medio de un turno ocupado
 
 El enfoque multicanal es crítico para los operadores de restaurantes, que rara vez están sentados frente a un escritorio. El regional que conduce entre locales puede hacer una pregunta por voz en Telegram y obtener respuesta antes de llegar a la siguiente parada. El CFO que revisa números en casa puede preguntar por Slack. El GM en piso puede ver el pacing de mano de obra de hoy con un texto rápido en su teléfono.
 
@@ -941,7 +941,7 @@ Aquí está el benchmark. Piensa en la última pregunta de datos que tuviste que
 
 Ahora imagina hacer esa misma pregunta en lenguaje natural y recibir una respuesta completa en 30 segundos. Con contexto. Con datos de tendencia. Con comparación contra el plan y contra tus pares. Con una acción recomendada.
 
-Esa es la brecha que Sundae Intelligence cierra. No haciendo que los dashboards sean más rápidos  -  sino volviéndolos innecesarios para el 80% de las preguntas diarias de los operadores.
+Esa es la brecha que Ask Sundae cierra. No haciendo que los dashboards sean más rápidos  -  sino volviéndolos innecesarios para el 80% de las preguntas diarias de los operadores.
 
 El 20% restante  -  análisis exploratorio profundo, visualizaciones personalizadas, modelado ad hoc  -  sigue beneficiándose de la experiencia completa de dashboard en Insights y Foresight. Pero para las preguntas diarias que impulsan las decisiones operativas, la IA conversacional es más rápida, más accesible y más accionable que cualquier dashboard.
 
@@ -951,10 +951,10 @@ El cambio de dashboards a IA conversacional no trata solo de velocidad. Cambia l
 
 Con dashboards, eres un **consumidor de datos**. Navegas vistas preconstruidas y consumes lo que se presenta. El dashboard decide qué ves. Tus preguntas se limitan a lo que el dashboard fue diseñado para responder.
 
-Con Sundae Intelligence, eres un **conversador de datos**. Preguntas lo que quieras. Haces follow-up con dudas aclaratorias. Profundizas cuando algo te sorprende. Explorás tangentes. Conectas puntos entre módulos. La IA se adapta a tus preguntas en lugar de obligarte a rutas preconstruidas.
+Con Ask Sundae, eres un **conversador de datos**. Preguntas lo que quieras. Haces follow-up con dudas aclaratorias. Profundizas cuando algo te sorprende. Explorás tangentes. Conectas puntos entre módulos. La IA se adapta a tus preguntas en lugar de obligarte a rutas preconstruidas.
 
-Así es como ya piensan los mejores operadores. Preguntan "por qué" cinco veces. Conectan costo de alimentos con cambios de proveedor, mix de menú y comportamiento del cliente. Ven una variación laboral y de inmediato se preguntan por el contexto de ventas. Sundae Intelligence sigue ese ritmo  -  y muchas veces se adelanta.
+Así es como ya piensan los mejores operadores. Preguntan "por qué" cinco veces. Conectan costo de alimentos con cambios de proveedor, mix de menú y comportamiento del cliente. Ven una variación laboral y de inmediato se preguntan por el contexto de ventas. Ask Sundae sigue ese ritmo  -  y muchas veces se adelanta.
 
-**Reserva una demo** para experimentar Sundae Intelligence con tus propios datos. Pregunta lo que quieras. Mira qué tan rápido recibes una respuesta. Luego pregúntate: ¿cuántas horas a la semana ahorrarías si cada pregunta de datos tomara 30 segundos?`,
+**Reserva una demo** para experimentar Ask Sundae con tus propios datos. Pregunta lo que quieras. Mira qué tan rápido recibes una respuesta. Luego pregúntate: ¿cuántas horas a la semana ahorrarías si cada pregunta de datos tomara 30 segundos?`,
   },
 };

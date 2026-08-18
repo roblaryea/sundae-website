@@ -8,7 +8,7 @@
  * "thin teaser on homepage + full galleries on product/solutions pages".
  *
  * Picks the 4 highest-impact product surfaces - Executive Summary,
- * Pulse Wallboard, Foresight Scenarios, Sundae Intelligence - each
+ * Pulse Wallboard, Foresight Scenarios, Ask Sundae - each
  * deep-linking to its product page where the prospect can see the full
  * gallery of that area.
  *

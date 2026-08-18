@@ -120,7 +120,7 @@ export type DiagnosticCopy = {
 // only - the retired Report/Core Lite/Core Pro tiers are deliberately absent so
 // a translation can never reintroduce a withdrawn SKU.
 const productGlossary =
-  "Sundae, Core, Crew, Pulse, Benchmark, Watchtower, Insights, Sundae Intelligence, Foresight & Action, POS, Power BI, Tableau, Looker, SKU, Core Foundation, Core Margin, Core Growth, Core Performance, Crew Starter, Crew Schedule, Crew Manage, Crew Time, Crew Pay, Crew People, Schedule & Time, Crew Operating, Crew Complete";
+  "Sundae, Core, Crew, Pulse, Benchmark, Watchtower, Insights, Ask Sundae, Foresight & Action, POS, Power BI, Tableau, Looker, SKU, Core Foundation, Core Margin, Core Growth, Core Performance, Crew Starter, Crew Schedule, Crew Manage, Crew Time, Crew Pay, Crew People, Schedule & Time, Crew Operating, Crew Complete";
 
 const languageInstructions: Record<WebsiteLocale, string> = {
   en: "English",

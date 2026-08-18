@@ -40,7 +40,7 @@ const vertices: Vertex[] = [
     id: "speed",
     label: "Speed",
     headline: "Deploy in days. Decide in seconds.",
-    body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.",
+    body: "Connect your stack fast. Pulse updates through the shift, and Ask Sundae answers with sources instead of sending teams back into the report queue.",
     chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"],
   },
   {

@@ -39,7 +39,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     sundaeRule: "↓  Sundae rule: pick all three",
     closing: "That's not a tradeoff. That's your operating advantage.",
     vertices: [
-      { label: "Speed", headline: "Deploy in days. Decide in seconds.", body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
+      { label: "Speed", headline: "Deploy in days. Decide in seconds.", body: "Connect your stack fast. Pulse updates through the shift, and Ask Sundae answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
       { label: "Quality", headline: "Built for restaurants. Governed for decisions.", body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
       { label: "Cost", headline: "Lower cost than rebuilding BI around restaurants.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one: one package, eleven domain modules, no BI build.", chips: ["One package", "Less custom BI", "Lower analyst load"] },
     ],
@@ -53,7 +53,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     sundaeRule: "↓ قاعدة Sundae: اختر الثلاثة",
     closing: "هذه ليست مقايضة. هذه ميزتك التشغيلية.",
     vertices: [
-      { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وSundae Intelligence يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
+      { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وAsk Sundae يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
       { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بأكثر من 500 نموذج بيانات مطعم محكوم، ومعايير نظراء، وإجابات AI مع مصادر - فلا تبني من لوحة BI فارغة.", chips: ["+500 نموذج", "AI بمصادر", "معايير نظراء"] },
       { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول المطاعم.", body: "تراخيص BI ليست سوى التكلفة المرئية. الإنفاق الحقيقي محللون وتكاملات ونماذج مخصصة وصيانة لوحات وقرارات متأخرة. Sundae جاهز للمطاعم من اليوم الأول: باقة واحدة وإحدى عشرة وحدة، بلا بناء BI.", chips: ["باقة واحدة", "BI مخصص أقل", "حمل محلل أقل"] },
     ],
@@ -67,7 +67,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     sundaeRule: "↓ Règle Sundae : choisir les trois",
     closing: "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
     vertices: [
-      { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Sundae Intelligence répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
+      { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Ask Sundae répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
       { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre 500+ modèles de données restaurant gouvernés, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["500+ modèles", "IA sourcée", "Benchmarks pairs"] },
       { label: "Coût", headline: "Moins cher que reconstruire la BI autour des restaurants.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt restaurant dès le premier jour : une offre, onze modules metier, aucun chantier BI.", chips: ["Une seule offre", "Moins de BI custom", "Moins d'analystes"] },
     ],
@@ -81,7 +81,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     sundaeRule: "↓ Regla Sundae: elige los tres",
     closing: "Esto no es un compromiso. Es tu ventaja operativa.",
     vertices: [
-      { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Sundae Intelligence responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
+      { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Ask Sundae responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
       { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae 500+ modelos de datos de restaurante gobernados, benchmarks de pares y respuestas IA con fuente - para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["500+ modelos", "IA con fuente", "Benchmarks pares"] },
       { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de restaurantes.", body: "Las licencias BI son solo el coste visible. El gasto real son analistas, integraciones, modelos a medida, mantenimiento de dashboards y decisiones tardías. Sundae viene listo para restaurantes desde el día uno: un paquete, once modulos de dominio, sin proyecto BI.", chips: ["Un solo paquete", "Menos BI custom", "Menos analistas"] },
     ],

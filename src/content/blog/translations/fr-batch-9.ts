@@ -742,7 +742,7 @@ Les rôles sont configurables. Si votre structure ne correspond pas aux rôles s
 
 **Requêtes d’intelligence en lecture seule**
 
-Sundae Intelligence - la couche IA conversationnelle - fonctionne avec un accès base de données en lecture seule. Quand un opérateur demande "Pourquoi le food cost a-t-il augmenté à l’établissement 7 la semaine dernière ?", le système exécute des requêtes analytiques sur les données. Ces requêtes sont strictement des opérations SELECT - elles peuvent lire les données pour générer des insights, mais ne peuvent ni modifier, ni supprimer, ni exporter les données brutes.
+Ask Sundae - la couche IA conversationnelle - fonctionne avec un accès base de données en lecture seule. Quand un opérateur demande "Pourquoi le food cost a-t-il augmenté à l’établissement 7 la semaine dernière ?", le système exécute des requêtes analytiques sur les données. Ces requêtes sont strictement des opérations SELECT - elles peuvent lire les données pour générer des insights, mais ne peuvent ni modifier, ni supprimer, ni exporter les données brutes.
 
 De plus, les requêtes Intelligence sont soumises à des limites de lignes et de complexité qui empêchent l’extraction massive de données. Le système est conçu pour répondre à des questions analytiques, pas pour servir d’outil d’export.
 

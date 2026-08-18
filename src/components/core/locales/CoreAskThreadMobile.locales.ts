@@ -1,4 +1,4 @@
-// Localized strings for CoreAskThreadMobile (Sundae Intelligence · Ask thread).
+// Localized strings for CoreAskThreadMobile (Ask Sundae · Ask thread).
 // en is the base (in the component). Proper nouns (Sundae, DIFC, menu-item names
 // like "Garden Salad") and pure numbers/percentages/counts are not translated.
 // Money figures are rendered per-locale via crewMoney(), not stored here.

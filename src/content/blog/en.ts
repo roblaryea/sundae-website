@@ -210,10 +210,10 @@ The workflow changes as well. Instead of navigating dashboards to find isolated 
 
 Traditional approach: Operations manager spends 2 hours before the call pulling reports from 6 dashboards, building Excel summaries, and preparing slides. The call reviews what happened last week without context for why or what to do.
 
-With Sundae Intelligence:
+With Ask Sundae:
 
 - Manager asks: "Show me top 5 performance issues this week"
-- Sundae Intelligence instantly identifies: Labor variance at 3 locations, food cost creep at 2 locations, guest satisfaction declining at 1 location
+- Ask Sundae instantly identifies: Labor variance at 3 locations, food cost creep at 2 locations, guest satisfaction declining at 1 location
 - Each issue includes 4D context, root cause analysis, and recommended actions
 - Operations call becomes strategic discussion about solutions instead of status updates
 - Result: 2 hours saved weekly, decisions made faster with better context
@@ -222,10 +222,10 @@ With Sundae Intelligence:
 
 CFO notices overall labor cost trending up but needs to understand which locations, roles, and time periods drive the increase. Traditional approach requires querying payroll system, exporting data, building pivot tables, analyzing patterns.
 
-With Sundae Intelligence:
+With Ask Sundae:
 
 - CFO asks: "Why is labor cost trending up across the portfolio?"
-- Sundae Intelligence analyzes all locations and identifies: 12 locations running over plan due to scheduling inefficiencies, 5 locations impacted by minimum wage increases, 3 locations over-staffed relative to transaction volume
+- Ask Sundae analyzes all locations and identifies: 12 locations running over plan due to scheduling inefficiencies, 5 locations impacted by minimum wage increases, 3 locations over-staffed relative to transaction volume
 - Breaks down impact by location, shows 4D comparison (Actual vs Plan vs Benchmark vs Prediction)
 - Recommends actions: Implement scheduling optimization at the 12 locations, adjust budgets for wage increases, right-size staffing at over-staffed locations
 - Result: CFO gets complete analysis in 30 seconds instead of 3 hours
@@ -234,10 +234,10 @@ With Sundae Intelligence:
 
 Marketing manager launched promotion at 15 locations but needs to understand ROI quickly to decide whether to expand portfolio-wide.
 
-With Sundae Intelligence:
+With Ask Sundae:
 
 - Asks: "What's the ROI on last week's promotion?"
-- Sundae Intelligence analyzes transaction data, calculates incremental revenue, accounts for discount cost, compares to control locations
+- Ask Sundae analyzes transaction data, calculates incremental revenue, accounts for discount cost, compares to control locations
 - Shows 4D view: Actual lift vs planned lift vs benchmark promotional performance vs predicted results if expanded
 - Identifies: Promotion worked well at 10 locations, underperformed at 5 locations
 - Recommends: Expand to similar locations, avoid expansion to locations with profiles matching the underperformers
@@ -264,7 +264,7 @@ That time savings is easy to quantify: if your operations team saves 5 hours wee
 - How much time do you spend finding answers vs acting on insights?
 - How long does it take new team members to become proficient?
 
-**Step 2: Connect Sundae Intelligence to Your Data**
+**Step 2: Connect Ask Sundae to Your Data**
 
 - POS (sales, transactions, mix)
 - Labor (hours, costs, scheduling)
@@ -275,12 +275,12 @@ That time savings is easy to quantify: if your operations team saves 5 hours wee
 **Step 3: Start Asking Questions**
 
 - Begin with your most common questions: "Why did sales drop?" "Where is labor over plan?" "Which locations are underperforming?"
-- Sundae Intelligence learns your language and improves responses over time
+- Ask Sundae learns your language and improves responses over time
 - Save frequent questions as shortcuts for your team
 
 **Step 4: Replace Dashboards Systematically**
 
-- Identify which single-purpose dashboards Sundae Intelligence answers better
+- Identify which single-purpose dashboards Ask Sundae answers better
 - Cancel redundant tools to realize cost savings
 - Focus remaining dashboards on specialized visualization needs
 
@@ -288,7 +288,7 @@ That time savings is easy to quantify: if your operations team saves 5 hours wee
 
 Restaurant intelligence is moving away from dashboard hopping and toward direct questions with context attached. Instead of hunting through 7 different systems to find isolated metrics, operators can ask what they need in plain English and get an answer they can act on.
 
-Sundae Core helps teams spend less time searching for numbers and more time using them well. **Book a demo** to see how Sundae Intelligence can replace redundant dashboards and make day-to-day decisions easier to run.`
+Sundae Core helps teams spend less time searching for numbers and more time using them well. **Book a demo** to see how Ask Sundae can replace redundant dashboards and make day-to-day decisions easier to run.`
   },
   {
     slug: "2025-gcc-restaurant-economics",
@@ -361,7 +361,7 @@ With Sundae:
 - Sundae Core showed food cost by location, category, and item with automatic variance detection
 - Insights identified: 3 locations had portion control issues on high-volume proteins, 2 locations had receiving errors inflating theoretical inventory, supplier pricing increased 8% on imported ingredients
 - Watchtower competitive intel showed competitors absorbing cost increases without menu price adjustments
-- Sundae Intelligence recommended: Fix portion control (immediate), negotiate supplier contracts (short-term), test menu price increases at select locations (strategic)
+- Ask Sundae recommended: Fix portion control (immediate), negotiate supplier contracts (short-term), test menu price increases at select locations (strategic)
 - Result: Reduced food cost to 33.1%, equivalent to $280K annual savings
 
 **Scenario 3: Expansion Decisions**
@@ -408,7 +408,7 @@ For a 30-location group with $45M revenue, a 2-point margin improvement represen
 - Set up Sundae Core dashboards showing Actual vs Plan vs Benchmark vs Prediction for key metrics
 - Configure Insights alerts for anomalies requiring immediate attention
 - Activate Watchtower competitive monitoring for your markets
-- Give management team access to Sundae Intelligence for conversational intelligence
+- Give management team access to Ask Sundae for conversational intelligence
 
 **Step 4: Build Your Operating Rhythm**
 
@@ -482,7 +482,7 @@ Sundae Core uses machine learning to monitor every operational metric continuous
 
 **Prescriptive Recommendations**: Insights does not just flag problems - it recommends specific actions based on root cause analysis and what has worked in similar situations.
 
-**Integrated Response**: Alerts appear in Sundae Core dashboards, Sundae Intelligence conversations, and email/SMS notifications based on severity and recipient preferences.
+**Integrated Response**: Alerts appear in Sundae Core dashboards, Ask Sundae conversations, and email/SMS notifications based on severity and recipient preferences.
 
 ## Real-World Scenarios
 
@@ -616,7 +616,7 @@ Sundae Watchtower provides automated competitive intelligence that integrates di
 
 **Predictive Alerts**: Get notified when competitors make moves that require response - price changes, new promotions, location openings, major menu updates.
 
-**Integrated Intelligence**: Competitive context appears automatically in Sundae Core dashboards, Sundae Intelligence conversations, and Insights alerts. No separate competitive intelligence platform to check.
+**Integrated Intelligence**: Competitive context appears automatically in Sundae Core dashboards, Ask Sundae conversations, and Insights alerts. No separate competitive intelligence platform to check.
 
 ## Real-World Scenarios
 
@@ -772,7 +772,7 @@ With decision intelligence:
 - Sundae Report provides market-specific benchmarks for concept type and trade area profile
 - Sundae Core models performance using actual data from comparable locations
 - Watchtower competitive analysis identifies market dynamics and positioning opportunities
-- Sundae Intelligence answers "what labor cost should we expect?" with data-driven response
+- Ask Sundae answers "what labor cost should we expect?" with data-driven response
 - Result: Confident expansion decision with realistic targets, actual performance within 3% of projections
 
 **Scenario 3: Portfolio Performance Management**
@@ -1330,7 +1330,7 @@ Sundae Watchtower provides continuous competitive intelligence integrated direct
 **Quantified impact**: Machine learning models estimate competitive impact on your performance  
 **Market context**: Every Sundae metric includes competitive context automatically
 **Predictive alerts**: Get notified when competitors make moves requiring response
-**Integrated intelligence**: Competitive context appears in Sundae Core dashboards, Sundae Intelligence conversations, Insights alerts
+**Integrated intelligence**: Competitive context appears in Sundae Core dashboards, Ask Sundae conversations, Insights alerts
 
 The shift is straightforward: internal metrics stop sitting on their own and start arriving with the outside context that explains whether the variance is yours to fix or the market's to navigate.
 
@@ -1567,7 +1567,7 @@ For a 30-location group with $45M in revenue, a 2-point labor improvement repres
 
 **Step 3: Build Root Cause Analysis Capability**
 
-- When variance detected, use Sundae Intelligence to ask "Why is labor high at Location X?"
+- When variance detected, use Ask Sundae to ask "Why is labor high at Location X?"
 - Review 4D Intelligence: Actual vs Plan vs Benchmark vs Prediction
 - Examine contributing factors: scheduling vs productivity vs traffic vs wages
 - Compare to best-performing locations to identify gaps
@@ -1973,7 +1973,7 @@ For $45M portfolio, reducing void/discount leakage by 0.75 points represents $33
 
 **Step 3: Build Investigation Protocols**
 
-- When patterns detected, use Sundae Intelligence to ask "Why are voids high for X?"
+- When patterns detected, use Ask Sundae to ask "Why are voids high for X?"
 - Review 4D Intelligence showing pattern against historical, plan, benchmark
 - Investigate with specific data: "Server X voided Y items valued at $Z during specific shifts"
 - Distinguish training gaps, operational issues, or potential fraud
@@ -2155,7 +2155,7 @@ For 30-location portfolio, improving bottom quartile manager performance by 2 po
 **Step 2: Enable Manager Self-Service**
 
 - Provide each manager with Sundae Core dashboard showing their location's real-time performance
-- Train managers to use Sundae Intelligence for self-directed analysis
+- Train managers to use Ask Sundae for self-directed analysis
 - Encourage daily review: "How did I do yesterday vs target?"
 - Celebrate managers who proactively identify and correct issues
 
@@ -2832,7 +2832,7 @@ These approaches fail because they treat data literacy as one-time knowledge tra
 
 Sundae accelerates data literacy through design choices that make analytics accessible to non-technical operators:
 
-**Conversational Interface (Sundae Core)**: Instead of requiring users to navigate complex dashboards and construct queries, Sundae Intelligence lets managers ask questions in plain English. "Why was labor high at my location yesterday?" This natural interaction teaches analytics through use - managers learn by doing, not studying.
+**Conversational Interface (Sundae Core)**: Instead of requiring users to navigate complex dashboards and construct queries, Ask Sundae lets managers ask questions in plain English. "Why was labor high at my location yesterday?" This natural interaction teaches analytics through use - managers learn by doing, not studying.
 
 **4D Context Everywhere**: Every metric automatically includes four dimensions - Actual (what happened), Plan (are you on track), Benchmark (how do you compare), Prediction (where are you heading). This built-in context teaches managers how to interpret metrics properly without requiring analytics expertise.
 
@@ -2854,9 +2854,9 @@ Traditional approach: New manager receives 4-hour analytics training covering 15
 
 With Sundae's literacy-building approach:
 
-- Day 1: Manager introduced to Sundae Intelligence conversational interface. "Just ask questions about your location."
-- First question: "How did my location perform yesterday?" Sundae Intelligence responds with 4D view showing Actual vs Plan vs Benchmark vs Prediction
-- Manager asks follow-up: "Why was labor higher than plan?" Sundae Intelligence explains scheduling variance with specific root cause
+- Day 1: Manager introduced to Ask Sundae conversational interface. "Just ask questions about your location."
+- First question: "How did my location perform yesterday?" Ask Sundae responds with 4D view showing Actual vs Plan vs Benchmark vs Prediction
+- Manager asks follow-up: "Why was labor higher than plan?" Ask Sundae explains scheduling variance with specific root cause
 - Over 2 weeks: Manager asks 20-30 questions, learning analytics through natural curiosity
 - Month 1 result: Manager independently identifies and corrects labor variance using Insights alerts, demonstrating practical data literacy
 
@@ -2882,9 +2882,9 @@ A 30-location fast-casual group struggled with inconsistent analytics adoption. 
 
 Systematic literacy program:
 
-**Month 1**: Weekly 15-minute group sessions where operations leader demonstrated one Sundae Intelligence question relevant to current priorities. "This week, everyone ask Sundae Intelligence: 'Which daypart has my biggest labor opportunity?'"
+**Month 1**: Weekly 15-minute group sessions where operations leader demonstrated one Ask Sundae question relevant to current priorities. "This week, everyone ask Ask Sundae: 'Which daypart has my biggest labor opportunity?'"
 
-**Month 2**: Managers shared what they learned from Sundae Intelligence in operations calls. Peer learning accelerated adoption as managers saw colleagues' success stories.
+**Month 2**: Managers shared what they learned from Ask Sundae in operations calls. Peer learning accelerated adoption as managers saw colleagues' success stories.
 
 **Month 3**: Introduced friendly competition: Which location improved most using analytics? Recognition created positive reinforcement for data-driven decision-making.
 
@@ -2902,7 +2902,7 @@ Sundae's operational context helped bridge gap:
 
 - Sundae Core dashboards automatically connected financial metrics to operational drivers
 - When food cost increased, dashboard showed which locations, items, and root causes (portion control vs supplier pricing vs waste)
-- Sundae Intelligence enabled finance to explore operational nuances: "Why is Location 12's food cost higher than Location 7?"
+- Ask Sundae enabled finance to explore operational nuances: "Why is Location 12's food cost higher than Location 7?"
 - Result: Finance conversations with operations shifted from "your variance is X" to "variance is X because of Y, recommend Z action"
 
 Impact: Operations teams valued finance insights more, collaboration improved, corrective actions implemented faster.
@@ -4411,7 +4411,7 @@ Sundae is not another tool in the stack. It replaces the spreadsheet layer entir
 - **Sundae Core** connects to your existing systems and normalizes the data automatically. Your POS, payroll, inventory, and accounting data flow into a unified model without manual exports
 - **Sundae Insights** provides 12+ analytics modules  -  revenue intelligence, labor analytics, inventory tracking, purchasing analysis, guest experience, and more  -  all pre-built and real-time
 - **Sundae Pulse** gives you intraday operations visibility: sales pacing against plan, live labor tracking, leakage monitoring, and shift scorecards as the day unfolds
-- **Sundae Intelligence** lets you ask questions in plain English and get answers with full context, not just numbers
+- **Ask Sundae** lets you ask questions in plain English and get answers with full context, not just numbers
 - **Sundae Foresight** looks forward 14-90 days with predictive models, so you are not just reacting to last week but preparing for next month
 
 The spreadsheet gave you one dimension: what happened. Sundae gives you four: what happened, how it compares to plan, how it compares to the market, and what is likely to happen next.
@@ -4624,7 +4624,7 @@ The first forecasts are useful. By month three, they are highly accurate. By mon
     title: "Ask Your Data Anything: How Conversational AI Is Replacing Dashboard Fatigue",
     category: "Product",
     date: "2026-03-05",
-    summary: "Sundae Intelligence lets restaurant operators ask questions in plain English  -  by voice or text  -  across web, Slack, Teams, and Telegram. Four AI modes replace hours of dashboard navigation with 30-second answers.",
+    summary: "Ask Sundae lets restaurant operators ask questions in plain English  -  by voice or text  -  across web, Slack, Teams, and Telegram. Four AI modes replace hours of dashboard navigation with 30-second answers.",
     readTime: "7 min read",
     content: `## The Question That Takes Two Hours
 
@@ -4636,7 +4636,7 @@ By the time you send it, the regional director has moved on to the next fire. Yo
 
 **What if you could have answered that question from your car in 30 seconds?**
 
-That is Sundae Intelligence. Ask a question in plain English  -  by voice or text  -  and get a complete, contextual answer with supporting data, visualizations, and recommended actions. On your phone. While driving. In 30 seconds.
+That is Ask Sundae. Ask a question in plain English  -  by voice or text  -  and get a complete, contextual answer with supporting data, visualizations, and recommended actions. On your phone. While driving. In 30 seconds.
 
 ## Dashboard Fatigue Is Real
 
@@ -4650,11 +4650,11 @@ This is dashboard fatigue: the cognitive exhaustion of navigating multiple disco
 - **Questions go unasked.** The "I wonder if..." questions  -  the ones that lead to genuine insights  -  never get pursued because the cost of answering them is too high
 - **Data becomes a chore.** Instead of data being an asset that powers better decisions, it becomes a burden that consumes time without proportional value
 
-Sundae Intelligence eliminates dashboard fatigue entirely. You do not navigate to data. You ask for it.
+Ask Sundae eliminates dashboard fatigue entirely. You do not navigate to data. You ask for it.
 
-## The Four Modes of Sundae Intelligence
+## The Four Modes of Ask Sundae
 
-Sundae Intelligence is not a simple chatbot bolted onto a dashboard. It is a multi-modal AI system with four distinct operating modes, each designed for a different decision-making context.
+Ask Sundae is not a simple chatbot bolted onto a dashboard. It is a multi-modal AI system with four distinct operating modes, each designed for a different decision-making context.
 
 ### Chat Mode: Instant Answers
 
@@ -4680,7 +4680,7 @@ Chat mode also supports **slash commands** for power users:
 
 When you need more than a quick answer  -  when you need a full investigation  -  switch to Analyst mode.
 
-Analyst mode lets Sundae Intelligence run multi-step analyses: pulling data from multiple modules, cross-referencing patterns, testing hypotheses, and presenting findings with supporting evidence.
+Analyst mode lets Ask Sundae run multi-step analyses: pulling data from multiple modules, cross-referencing patterns, testing hypotheses, and presenting findings with supporting evidence.
 
 Example prompt: *"Investigate why profit margin decreased at our Dubai Marina locations over the past 60 days"*
 
@@ -4694,7 +4694,7 @@ Analyst mode response:
 3. **Cross-reference**: Other locations using the same seafood supplier saw a similar food cost increase, confirming the supplier pricing as a systemic factor rather than a local issue
 4. **Recommendation**: Renegotiate seafood pricing (projected impact: recover 0.5 points) and review lunch menu positioning to improve margin mix (projected impact: recover 0.2-0.4 points)
 
-This analysis would take a human analyst 3-4 hours. Sundae Intelligence delivers it in under 60 seconds.
+This analysis would take a human analyst 3-4 hours. Ask Sundae delivers it in under 60 seconds.
 
 ### Monitor Mode: Proactive Anomaly Detection
 
@@ -4714,7 +4714,7 @@ The key differentiator is that Monitor mode does not just alert  -  it **explain
 
 ### Report Mode: Automated Narratives
 
-Report mode generates structured, presentation-ready reports on demand. Instead of spending hours building a weekly ops report or a monthly board deck, ask Sundae Intelligence to generate it.
+Report mode generates structured, presentation-ready reports on demand. Instead of spending hours building a weekly ops report or a monthly board deck, ask Ask Sundae to generate it.
 
 - *"Generate the weekly operations report for all GCC locations"*
 - *"Build a board-ready summary of Q1 performance vs plan"*
@@ -4722,17 +4722,17 @@ Report mode generates structured, presentation-ready reports on demand. Instead 
 
 Reports include formatted tables, charts, narrative summaries, and highlighted action items. They can be exported as PDF, shared via link, or delivered on a schedule.
 
-The narrative quality matters. These are not raw data dumps. Sundae Intelligence writes executive summaries that contextualize the numbers: "Revenue grew 6.2% year-over-year, led by the Al Olaya cluster which benefited from the Formula 1 event weekend. Labor efficiency improved at 8 of 12 locations, with the remaining 4 requiring attention on overtime management."
+The narrative quality matters. These are not raw data dumps. Ask Sundae writes executive summaries that contextualize the numbers: "Revenue grew 6.2% year-over-year, led by the Al Olaya cluster which benefited from the Formula 1 event weekend. Labor efficiency improved at 8 of 12 locations, with the remaining 4 requiring attention on overtime management."
 
 ## Available Everywhere You Work
 
-Sundae Intelligence is not locked to a desktop browser. It meets you where you already are:
+Ask Sundae is not locked to a desktop browser. It meets you where you already are:
 
 - **Web**: Full interface with rich visualizations and deep analysis capability
 - **Slack**: Ask questions in a dedicated channel or DM the Sundae bot. Responses include formatted cards with data and charts
 - **Microsoft Teams**: Same experience as Slack, integrated into your existing Teams workspace
 - **Telegram**: Lightweight mobile-first interface. Perfect for quick questions between locations
-- **Voice input**: Speak your question on any platform. Sundae Intelligence transcribes and responds. Ask while driving, walking the floor, or during a busy shift
+- **Voice input**: Speak your question on any platform. Ask Sundae transcribes and responds. Ask while driving, walking the floor, or during a busy shift
 
 The multi-channel approach is critical for restaurant operators who are rarely at a desk. The regional manager driving between locations can ask a question via voice on Telegram and get an answer before they arrive at the next stop. The CFO reviewing numbers at home can ask via Slack. The GM on the floor can check today's labor pacing via a quick text on their phone.
 
@@ -4744,7 +4744,7 @@ How long did it take? 10 minutes? 30 minutes? Two hours?
 
 Now imagine asking that same question in plain English and getting a complete answer in 30 seconds. With context. With trend data. With a comparison to plan and peers. With a recommended action.
 
-That is the gap Sundae Intelligence closes. Not by making dashboards faster  -  by making dashboards unnecessary for 80% of the questions operators ask daily.
+That is the gap Ask Sundae closes. Not by making dashboards faster  -  by making dashboards unnecessary for 80% of the questions operators ask daily.
 
 The remaining 20%  -  deep exploratory analysis, custom visualizations, ad-hoc modeling  -  those still benefit from Sundae's full dashboard experience in Insights and Foresight. But for the daily questions that drive operational decisions, conversational AI is faster, more accessible, and more actionable than any dashboard.
 
@@ -4754,11 +4754,11 @@ The shift from dashboards to conversational AI is not just about speed. It chang
 
 With dashboards, you are a **data consumer**. You navigate to pre-built views and consume what is presented. The dashboard decides what you see. Your questions are limited to what the dashboard was designed to answer.
 
-With Sundae Intelligence, you are a **data conversationalist**. You ask whatever you want. Follow up with clarifying questions. Go deeper when something surprises you. Explore tangents. Connect dots across modules. The AI adapts to your questions rather than forcing you into pre-built paths.
+With Ask Sundae, you are a **data conversationalist**. You ask whatever you want. Follow up with clarifying questions. Go deeper when something surprises you. Explore tangents. Connect dots across modules. The AI adapts to your questions rather than forcing you into pre-built paths.
 
-This is how the best operators already think. They ask "why" five times. They connect food cost to supplier changes to menu mix to guest behavior. They see a labor variance and immediately wonder about the sales context. Sundae Intelligence keeps up with that thinking  -  and often gets there first.
+This is how the best operators already think. They ask "why" five times. They connect food cost to supplier changes to menu mix to guest behavior. They see a labor variance and immediately wonder about the sales context. Ask Sundae keeps up with that thinking  -  and often gets there first.
 
-**Book a demo** to experience Sundae Intelligence with your own data. Ask it anything. See how fast you get an answer. Then ask yourself: how many hours per week would you save if every data question took 30 seconds?`,
+**Book a demo** to experience Ask Sundae with your own data. Ask it anything. See how fast you get an answer. Then ask yourself: how many hours per week would you save if every data question took 30 seconds?`,
     tags: ["sundae-intelligence", "conversational-ai", "natural-language", "analytics"]
   },
   {
@@ -5396,7 +5396,7 @@ This intelligence becomes the foundation for operational playbooks. When you ide
 
 **The milestone**: Deploy conversational intelligence that lets every manager  -  from a GM to a regional VP  -  ask questions in plain language and get instant, contextualized answers. No analyst required. No report request. No waiting.
 
-**What Sundae delivers here**: Sundae Intelligence lets any authorized user ask questions like "Why did Location 32's revenue drop last week?" or "Which locations are trending above labor budget this month?" and receive instant answers with full context  -  historical comparison, peer benchmarking, potential root causes, and recommended actions. Every manager becomes data-literate without needing to become data-skilled.
+**What Sundae delivers here**: Ask Sundae lets any authorized user ask questions like "Why did Location 32's revenue drop last week?" or "Which locations are trending above labor budget this month?" and receive instant answers with full context  -  historical comparison, peer benchmarking, potential root causes, and recommended actions. Every manager becomes data-literate without needing to become data-skilled.
 
 **The payoff**: Decision velocity increases across the entire organization. GMs make better daily decisions. Area managers identify and address issues faster. Regional directors allocate their time based on data, not schedule rotation. The intelligence infrastructure investment generates returns at every level of management, not just in the C-suite.
 
@@ -7024,7 +7024,7 @@ Roles are configurable. If your organizational structure does not fit the standa
 
 **Read-Only Intelligence Queries**
 
-Sundae Intelligence  -  the conversational AI layer  -  operates with read-only database access. When an operator asks "Why did food cost spike at Location 7 last week?", the system executes analytical queries against the data. These queries are strictly SELECT operations  -  they can read data to generate insights but cannot modify, delete, or export raw data.
+Ask Sundae  -  the conversational AI layer  -  operates with read-only database access. When an operator asks "Why did food cost spike at Location 7 last week?", the system executes analytical queries against the data. These queries are strictly SELECT operations  -  they can read data to generate insights but cannot modify, delete, or export raw data.
 
 Additionally, Intelligence queries are subject to row limits and complexity constraints that prevent bulk data extraction. The system is designed to answer analytical questions, not to serve as a data export tool.
 

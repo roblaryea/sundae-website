@@ -360,7 +360,7 @@ export function InsightsModuleMockup() {
 // Intelligence Chat Interface
 export function IntelligenceChatMockup() {
   return (
-    <MockupFrame label="Sundae Intelligence - Chat">
+    <MockupFrame label="Ask Sundae - Chat">
       <div className="space-y-3">
         {/* User message */}
         <div className="flex justify-end">
@@ -690,7 +690,7 @@ export function ExecutiveBriefingMockup() {
         <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(255,92,77,0.10), rgba(255,92,77,0.02))", borderColor: "rgba(255,92,77,0.25)" }}>
           <div className="flex items-center gap-2 mb-2">
             <div className="w-5 h-5 rounded bg-gradient-to-br from-[#FF5C4D] to-[#FF7E6F] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
-            <span className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold">Sundae Intelligence · Daily Brief</span>
+            <span className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold">Ask Sundae · Daily Brief</span>
           </div>
           <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
             Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon-Tue; a 2-shift trim recovers ~$8.4K this week.

@@ -68,7 +68,7 @@ const allowedIdenticalLocalizedStrings = new Set([
   'Sundae',
   'Sundae Coach',
   // Product lockup kept untranslated across every locale (wordmark/glossary discipline).
-  'Sundae Intelligence',
+  'Ask Sundae',
   'Pulse',
   'P&L',
   'NPS',

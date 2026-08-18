@@ -53,7 +53,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "KI-gestützte konversationelle Analytik",
           "href": "/intelligence"
         },
@@ -314,7 +314,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "Konversationelle KI",
             "description": "Fragen Sie Ihre Daten alles - quellenbelegte Antworten in Sekunden auf Web, WhatsApp, Telegram, Slack oder Teams.",
             "href": "/intelligence"
@@ -620,7 +620,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Einfache, transparente Preise für Sundae Report, Core, Watchtower und Module.",
           "badge": "Preise",
           "title": "Einfache, transparente Preise",
-          "description": "Starten Sie kostenlos mit Report. Skalieren Sie zu Echtzeit-Intelligenz mit Core. Jeder Plan beinhaltet Sundae Intelligence-Credits.",
+          "description": "Starten Sie kostenlos mit Report. Skalieren Sie zu Echtzeit-Intelligenz mit Core. Jeder Plan beinhaltet Ask Sundae-Credits.",
           "monthly": "Monatlich",
           "annual": "Jährlich",
           "savePercent": "10% sparen",
@@ -824,7 +824,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "AI-gestuurde conversatie-analyse",
           "href": "/intelligence"
         },
@@ -1085,7 +1085,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "Conversationele AI",
             "description": "Vraag uw data alles - bronvermelde antwoorden in seconden via web, WhatsApp, Telegram, Slack of Teams.",
             "href": "/intelligence"
@@ -1391,7 +1391,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Eenvoudige, transparante prijzen voor Sundae Report, Core, Watchtower en modules.",
           "badge": "Prijzen",
           "title": "Eenvoudige, Transparante Prijzen",
-          "description": "Begin gratis met Report. Schaal naar real-time intelligentie met Core. Elk plan omvat Sundae Intelligence-tegoeden.",
+          "description": "Begin gratis met Report. Schaal naar real-time intelligentie met Core. Elk plan omvat Ask Sundae-tegoeden.",
           "monthly": "Maandelijks",
           "annual": "Jaarlijks",
           "savePercent": "Bespaar 10%",
@@ -1595,7 +1595,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Análise conversacional impulsionada por IA",
           "href": "/intelligence"
         },
@@ -1856,7 +1856,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "IA Conversacional",
             "description": "Pergunte qualquer coisa aos seus dados - respostas com fonte em segundos na web, WhatsApp, Telegram, Slack ou Teams.",
             "href": "/intelligence"
@@ -2366,7 +2366,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "AI-संचालित संवादात्मक विश्लेषण",
           "href": "/intelligence"
         },
@@ -2627,7 +2627,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "संवादी AI",
             "description": "अपने डेटा से कुछ भी पूछें - वेब, WhatsApp, Telegram, Slack या Teams पर सेकंडों में स्रोत-सहित जवाब।",
             "href": "/intelligence"
@@ -2933,7 +2933,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Sundae Report, Core, Watchtower, और मॉड्यूल के लिए सरल, पारदर्शी मूल्य निर्धारण।",
           "badge": "मूल्य निर्धारण",
           "title": "सरल, पारदर्शी मूल्य निर्धारण",
-          "description": "Report के साथ मुफ्त में शुरू करें। Core के साथ वास्तविक समय की बुद्धिमत्ता तक स्केल करें। हर योजना में Sundae Intelligence क्रेडिट शामिल हैं।",
+          "description": "Report के साथ मुफ्त में शुरू करें। Core के साथ वास्तविक समय की बुद्धिमत्ता तक स्केल करें। हर योजना में Ask Sundae क्रेडिट शामिल हैं।",
           "monthly": "मासिक",
           "annual": "वार्षिक",
           "savePercent": "10% बचाएं",
@@ -3137,7 +3137,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "AI سے چلنے والا بات چیت کا تجزیہ",
           "href": "/intelligence"
         },
@@ -3398,7 +3398,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "مکالماتی AI",
             "description": "اپنے ڈیٹا سے کچھ بھی پوچھیں - ویب، WhatsApp، Telegram، Slack یا Teams پر سیکنڈوں میں باحوالہ جوابات۔",
             "href": "/intelligence"
@@ -3704,7 +3704,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Sundae Report، Core، Watchtower، اور ماڈیولز کے لیے سادہ، شفاف قیمتیں۔",
           "badge": "قیمتیں",
           "title": "سادہ، شفاف قیمتیں",
-          "description": "Report کے ساتھ مفت شروع کریں۔ Core کے ساتھ حقیقی وقت کی ذہانت تک بڑھیں۔ ہر منصوبے میں Sundae Intelligence کے کریڈٹ شامل ہیں۔",
+          "description": "Report کے ساتھ مفت شروع کریں۔ Core کے ساتھ حقیقی وقت کی ذہانت تک بڑھیں۔ ہر منصوبے میں Ask Sundae کے کریڈٹ شامل ہیں۔",
           "monthly": "ماہانہ",
           "annual": "سالانہ",
           "savePercent": "10% کی بچت کریں",
@@ -3908,7 +3908,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Analisi conversazionali basate su AI",
           "href": "/intelligence"
         },
@@ -4169,7 +4169,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "AI conversazionale",
             "description": "Chiedi qualsiasi cosa ai tuoi dati - risposte con fonte in secondi su web, WhatsApp, Telegram, Slack o Teams.",
             "href": "/intelligence"
@@ -4679,7 +4679,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Analiza konwersacyjna wspierana przez AI",
           "href": "/intelligence"
         },
@@ -4940,7 +4940,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "Konwersacyjna AI",
             "description": "Zapytaj dane o cokolwiek - odpowiedzi ze źródłem w sekundy w sieci, WhatsApp, Telegram, Slack lub Teams.",
             "href": "/intelligence"
@@ -5246,7 +5246,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Prosty, przejrzysty cennik dla Sundae Report, Core, Watchtower i modułów.",
           "badge": "Cennik",
           "title": "Prosty, Przejrzysty Cennik",
-          "description": "Rozpocznij za darmo z Report. Rozwiń się do inteligencji w czasie rzeczywistym z Core. Każdy plan zawiera kredyty Sundae Intelligence.",
+          "description": "Rozpocznij za darmo z Report. Rozwiń się do inteligencji w czasie rzeczywistym z Core. Każdy plan zawiera kredyty Ask Sundae.",
           "monthly": "Miesięczny",
           "annual": "Roczny",
           "savePercent": "Zaoszczędź 10%",
@@ -5450,7 +5450,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "AI destekli konuşma analitiği",
           "href": "/intelligence"
         },
@@ -5711,7 +5711,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "Konuşma AI",
             "description": "Verilerinize her şeyi sorun - web, WhatsApp, Telegram, Slack veya Teams'te saniyeler içinde kaynak gösterilen yanıtlar.",
             "href": "/intelligence"
@@ -6017,7 +6017,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Sundae Report, Core, Watchtower ve modüller için basit, şeffaf fiyatlandırma.",
           "badge": "Fiyatlandırma",
           "title": "Basit, Şeffaf Fiyatlandırma",
-          "description": "Report ile ücretsiz başlayın. Core ile gerçek zamanlı zekaya ölçeklenin. Her plan Sundae Intelligence kredileri içerir.",
+          "description": "Report ile ücretsiz başlayın. Core ile gerçek zamanlı zekaya ölçeklenin. Her plan Ask Sundae kredileri içerir.",
           "monthly": "Aylık",
           "annual": "Yıllık",
           "savePercent": "%10 Tasarruf",
@@ -6221,7 +6221,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "基于AI的对话分析",
           "href": "/intelligence"
         },
@@ -6482,7 +6482,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "对话式 AI",
             "description": "向你的数据问任何问题 - 在网页、WhatsApp、Telegram、Slack 或 Teams 上数秒内给出带来源的答案。",
             "href": "/intelligence"
@@ -6788,7 +6788,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Sundae Report、Core、Watchtower和模块的简单透明定价。",
           "badge": "定价",
           "title": "简单、透明的定价",
-          "description": "从Report免费开始。扩展到实时智能的Core。每个计划都包括Sundae Intelligence积分。",
+          "description": "从Report免费开始。扩展到实时智能的Core。每个计划都包括Ask Sundae积分。",
           "monthly": "每月",
           "annual": "每年",
           "savePercent": "节省10%",
@@ -6992,7 +6992,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "AI駆動の会話型分析",
           "href": "/intelligence"
         },
@@ -7253,7 +7253,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "会話型AI",
             "description": "データに何でも質問 - Web、WhatsApp、Telegram、Slack、Teams で数秒、出典付きの回答。",
             "href": "/intelligence"
@@ -7559,7 +7559,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Sundae Report、Core、Watchtower、およびモジュールのシンプルで透明な価格設定。",
           "badge": "価格",
           "title": "シンプルで透明な価格設定",
-          "description": "Reportから無料で始めます。Coreでリアルタイムインテリジェンスにスケールアップ。すべてのプランにはSundae Intelligenceクレジットが含まれています。",
+          "description": "Reportから無料で始めます。Coreでリアルタイムインテリジェンスにスケールアップ。すべてのプランにはAsk Sundaeクレジットが含まれています。",
           "monthly": "月額",
           "annual": "年額",
           "savePercent": "10%節約",
@@ -7763,7 +7763,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "AI 기반 대화형 분석",
           "href": "/intelligence"
         },
@@ -8024,7 +8024,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "대화형 AI",
             "description": "데이터에 무엇이든 물어보세요 - 웹, WhatsApp, Telegram, Slack, Teams에서 몇 초 만에 출처 있는 답변.",
             "href": "/intelligence"
@@ -8330,7 +8330,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Sundae Report, Core, Watchtower 및 모듈에 대한 간단하고 투명한 가격.",
           "badge": "가격",
           "title": "간단하고 투명한 가격",
-          "description": "Report로 무료 시작. Core로 실시간 인텔리전스로 확장하세요. 모든 요금제에는 Sundae Intelligence 크레딧이 포함됩니다.",
+          "description": "Report로 무료 시작. Core로 실시간 인텔리전스로 확장하세요. 모든 요금제에는 Ask Sundae 크레딧이 포함됩니다.",
           "monthly": "월간",
           "annual": "연간",
           "savePercent": "10% 절약",
@@ -8534,7 +8534,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Analitik percakapan berbasis AI",
           "href": "/intelligence"
         },
@@ -8795,7 +8795,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "AI percakapan",
             "description": "Tanyakan apa saja ke data Anda - jawaban bersumber dalam hitungan detik di web, WhatsApp, Telegram, Slack, atau Teams.",
             "href": "/intelligence"
@@ -9305,7 +9305,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Phân tích hội thoại dựa trên AI",
           "href": "/intelligence"
         },
@@ -9566,7 +9566,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "AI hội thoại",
             "description": "Hỏi dữ liệu của bạn bất cứ điều gì - câu trả lời có nguồn trong vài giây trên web, WhatsApp, Telegram, Slack hoặc Teams.",
             "href": "/intelligence"
@@ -9872,7 +9872,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Giá cả đơn giản, minh bạch cho Sundae Report, Core, Watchtower và các mô-đun.",
           "badge": "Giá Cả",
           "title": "Giá Cả Đơn Giản, Minh Bạch",
-          "description": "Bắt đầu miễn phí với Report. Mở rộng đến trí tuệ theo thời gian thực với Core. Mỗi gói bao gồm tín dụng Sundae Intelligence.",
+          "description": "Bắt đầu miễn phí với Report. Mở rộng đến trí tuệ theo thời gian thực với Core. Mỗi gói bao gồm tín dụng Ask Sundae.",
           "monthly": "Hàng tháng",
           "annual": "Hàng năm",
           "savePercent": "Tiết kiệm 10%",
@@ -10076,7 +10076,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Analiză conversațională bazată pe AI",
           "href": "/intelligence"
         },
@@ -10337,7 +10337,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "AI conversațional",
             "description": "Întreabă-ți datele orice - răspunsuri cu sursă în secunde pe web, WhatsApp, Telegram, Slack sau Teams.",
             "href": "/intelligence"
@@ -10847,7 +10847,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "AI-driven konversationsanalys",
           "href": "/intelligence"
         },
@@ -11108,7 +11108,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "Konverserande AI",
             "description": "Fråga dina data vad som helst - källhänvisade svar på sekunder via webb, WhatsApp, Telegram, Slack eller Teams.",
             "href": "/intelligence"
@@ -11414,7 +11414,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Enkla, transparenta priser för Sundae Report, Core, Watchtower och moduler.",
           "badge": "Priser",
           "title": "Enkla, Transparenta Priser",
-          "description": "Börja gratis med Report. Skala till realtidsintelligens med Core. Varje plan inkluderar Sundae Intelligence-krediter.",
+          "description": "Börja gratis med Report. Skala till realtidsintelligens med Core. Varje plan inkluderar Ask Sundae-krediter.",
           "monthly": "Månatlig",
           "annual": "Årlig",
           "savePercent": "Spara 10%",
@@ -11618,7 +11618,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "এআই-চালিত কথোপকথন বিশ্লেষণ",
           "href": "/intelligence"
         },
@@ -11879,7 +11879,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "কনভারসেশনাল AI",
             "description": "আপনার ডেটাকে যা খুশি জিজ্ঞাসা করুন - ওয়েব, WhatsApp, Telegram, Slack বা Teams-এ সেকেন্ডে সূত্রসহ উত্তর।",
             "href": "/intelligence"
@@ -12185,7 +12185,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "Sundae Report, Core, Watchtower এবং মডিউলের জন্য সহজ, স্বচ্ছ মূল্য।",
           "badge": "মূল্য",
           "title": "সহজ, স্বচ্ছ মূল্য",
-          "description": "Report দিয়ে ফ্রি শুরু করুন। Core-এর সাথে রিয়েল-টাইম বুদ্ধিমত্তায় স্কেল করুন। প্রতিটি পরিকল্পনায় Sundae Intelligence ক্রেডিট অন্তর্ভুক্ত।",
+          "description": "Report দিয়ে ফ্রি শুরু করুন। Core-এর সাথে রিয়েল-টাইম বুদ্ধিমত্তায় স্কেল করুন। প্রতিটি পরিকল্পনায় Ask Sundae ক্রেডিট অন্তর্ভুক্ত।",
           "monthly": "মাসিক",
           "annual": "বার্ষিক",
           "savePercent": "10% সাশ্রয় করুন",
@@ -12389,7 +12389,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "การวิเคราะห์เชิงสนทนาด้วย AI",
           "href": "/intelligence"
         },
@@ -12650,7 +12650,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "AI เชิงสนทนา",
             "description": "ถามข้อมูลของคุณได้ทุกเรื่อง - คำตอบที่อ้างอิงแหล่งที่มาในไม่กี่วินาทีบนเว็บ WhatsApp, Telegram, Slack หรือ Teams",
             "href": "/intelligence"
@@ -12956,7 +12956,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataDescription": "ราคาที่เรียบง่ายและโปร่งใสสำหรับ Sundae Report, Core, Watchtower และโมดูลต่างๆ",
           "badge": "ราคา",
           "title": "ราคาที่เรียบง่ายและโปร่งใส",
-          "description": "เริ่มต้นฟรีด้วย Report ขยายไปสู่ข้อมูลเชิงปฏิบัติการแบบเรียลไทม์ด้วย Core แผนทุกแผนรวมเครดิต Sundae Intelligence",
+          "description": "เริ่มต้นฟรีด้วย Report ขยายไปสู่ข้อมูลเชิงปฏิบัติการแบบเรียลไทม์ด้วย Core แผนทุกแผนรวมเครดิต Ask Sundae",
           "monthly": "รายเดือน",
           "annual": "รายปี",
           "savePercent": "ประหยัด 10%",
@@ -13160,7 +13160,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/insights"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Analitik perbualan berkuasa AI",
           "href": "/intelligence"
         },
@@ -13421,7 +13421,7 @@ export const generatedWebsiteMessageOverrides = {
             "href": "/insights"
           },
           {
-            "name": "Sundae Intelligence",
+            "name": "Ask Sundae",
             "subtitle": "AI perbualan",
             "description": "Tanya data anda apa-apa sahaja - jawapan bersumber dalam beberapa saat di web, WhatsApp, Telegram, Slack atau Teams.",
             "href": "/intelligence"

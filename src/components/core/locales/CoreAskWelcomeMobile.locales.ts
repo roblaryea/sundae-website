@@ -1,4 +1,4 @@
-// Localized strings for CoreAskWelcomeMobile (Sundae Intelligence "Ask — Welcome").
+// Localized strings for CoreAskWelcomeMobile (Ask Sundae "Ask — Welcome").
 // en is the base (in the component). Proper nouns (Sundae, DIFC) stay verbatim;
 // topic words in the tags (Revenue, Menu, Labor, Portfolio) are translated, but the
 // place "DIFC" in the Revenue tag is kept as-is. No money on this screen.

@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Faithful implementation of Sundae Intelligence "Ask — Welcome / empty state"
+ * Faithful implementation of Ask Sundae "Ask — Welcome / empty state"
  * (dark variant) from the Claude Design source — a warm opener with a scope chip,
  * pulsing Sundae mark, tappable starter prompts with topic tags, and the command
  * bar (mic · text · send) pinned in the thumb zone. Same cool-slate token set as

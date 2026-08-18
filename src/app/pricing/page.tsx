@@ -43,7 +43,7 @@ const PACKAGE_INCLUDES: Record<CorePackageId, string[]> = {
     'One decision substrate over POS, labor, cost and operations',
     'All eleven Core domain modules, included',
     'Pulse real-time shift monitoring',
-    'Sundae Intelligence - ask your data in plain language',
+    'Ask Sundae - ask your data in plain language',
     'Anonymous peer benchmarking',
   ],
   core_margin: [

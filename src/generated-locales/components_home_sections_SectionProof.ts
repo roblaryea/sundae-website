@@ -28,7 +28,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Teams warten 2-3 Tage auf Berichte, Exporte oder Analysten-Nachfragen. Bis die Antwort eintrifft, ist die Schicht längst vorbei.",
-          "sundae": "Sundae Intelligence liefert Teams in Sekunden quellenbelegte Antworten - direkt über die Systeme, die sie bereits nutzen."
+          "sundae": "Ask Sundae liefert Teams in Sekunden quellenbelegte Antworten - direkt über die Systeme, die sie bereits nutzen."
         },
         {
           "industry": "Stornos, Comps, Rabatte und POS-Ausnahmen sind für sich genommen gering. Unkontrolliert können sie 1-3 % des Umsatzes als Margenverlust kosten.",
@@ -67,7 +67,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Les équipes attendent 2 à 3 jours un rapport, un export ou le retour d'un analyste. Le temps que la réponse arrive, le service est déjà passé.",
-          "sundae": "Sundae Intelligence fournit aux équipes des réponses sourcées en quelques secondes, directement dans les systèmes qu'elles utilisent déjà."
+          "sundae": "Ask Sundae fournit aux équipes des réponses sourcées en quelques secondes, directement dans les systèmes qu'elles utilisent déjà."
         },
         {
           "industry": "Annulations, gratuités, remises et exceptions de POS sont insignifiantes prises isolément. Sans contrôle, elles peuvent représenter 1 à 3 % de chiffre d'affaires et de marge perdus.",
@@ -106,7 +106,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Los equipos esperan de 2 a 3 días un informe, una exportación o el seguimiento de un analista. Para cuando llega la respuesta, el turno ya ha pasado.",
-          "sundae": "Sundae Intelligence ofrece respuestas con fuentes citadas en segundos, directamente en los sistemas que ya utilizan."
+          "sundae": "Ask Sundae ofrece respuestas con fuentes citadas en segundos, directamente en los sistemas que ya utilizan."
         },
         {
           "industry": "Las anulaciones, cortesías, descuentos y excepciones de POS son pequeñas por sí solas. Sin revisión, pueden suponer entre el 1 y el 3% de fuga de ingresos y margen.",
@@ -145,7 +145,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Teams wachten 2-3 dagen op rapporten, exports of follow-ups van analisten. Tegen de tijd dat het antwoord arriveert, is de shift al voorbij.",
-          "sundae": "Sundae Intelligence geeft teams binnen enkele seconden bronvermelde antwoorden, via de systemen die ze al gebruiken."
+          "sundae": "Ask Sundae geeft teams binnen enkele seconden bronvermelde antwoorden, via de systemen die ze al gebruiken."
         },
         {
           "industry": "Annuleringen, comps, kortingen en POS-uitzonderingen zijn op zichzelf klein. Ongecontroleerd kunnen ze 1-3% van de omzet als margeverlies kosten.",
@@ -184,7 +184,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "As equipes esperam de 2 a 3 dias por um relatório, uma exportação ou o retorno de um analista. Quando a resposta chega, o turno já passou.",
-          "sundae": "A Sundae Intelligence entrega respostas com fontes citadas em segundos, diretamente nos sistemas que as equipes já utilizam."
+          "sundae": "A Ask Sundae entrega respostas com fontes citadas em segundos, diretamente nos sistemas que as equipes já utilizam."
         },
         {
           "industry": "Cancelamentos, cortesias, descontos e exceções de POS são pequenos isoladamente. Sem revisão, podem representar de 1% a 3% de perda de receita e margem.",
@@ -223,7 +223,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "टीमों को रिपोर्ट, निर्यात या विश्लेषक फॉलो-अप के लिए 2-3 दिन इंतज़ार करना पड़ता है। जब उत्तर आता है, तब तक बदलाव हो चुका होता है।",
-          "sundae": "Sundae Intelligence टीमों को उन सिस्टमों में सेकंडों में स्रोत-संदर्भित उत्तर प्रदान करता है जिनका वे पहले से उपयोग कर रहे हैं।"
+          "sundae": "Ask Sundae टीमों को उन सिस्टमों में सेकंडों में स्रोत-संदर्भित उत्तर प्रदान करता है जिनका वे पहले से उपयोग कर रहे हैं।"
         },
         {
           "industry": "वॉइड, कॉम्प, छूट और POS अपवाद अकेले-अकेले छोटे लगते हैं। बिना समीक्षा के, ये राजस्व और मार्जिन में 1-3% तक की हानि कर सकते हैं।",
@@ -262,7 +262,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "I team aspettano 2-3 giorni un report, un'esportazione o il riscontro di un analista. Quando arriva la risposta, il turno è già passato.",
-          "sundae": "Sundae Intelligence offre risposte con fonti citate in pochi secondi, direttamente nei sistemi che i team già utilizzano."
+          "sundae": "Ask Sundae offre risposte con fonti citate in pochi secondi, direttamente nei sistemi che i team già utilizzano."
         },
         {
           "industry": "Storni, omaggi, sconti ed eccezioni POS sono piccoli presi singolarmente. Se non vengono controllati, possono valere tra l'1% e il 3% di ricavi e margine persi.",
@@ -301,7 +301,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "تنتظر الفرق 2-3 أيام للحصول على تقرير أو تصدير أو متابعة من محلل. وبحلول وقت وصول الإجابة، تكون الوردية قد انتهت بالفعل.",
-          "sundae": "تقدم Sundae Intelligence للفرق إجابات موثقة المصدر في ثوانٍ، مباشرةً عبر الأنظمة التي يستخدمونها بالفعل."
+          "sundae": "تقدم Ask Sundae للفرق إجابات موثقة المصدر في ثوانٍ، مباشرةً عبر الأنظمة التي يستخدمونها بالفعل."
         },
         {
           "industry": "تبدو عمليات الإلغاء والمجانيات والخصومات واستثناءات POS صغيرة بمفردها. لكنها دون مراجعة قد تكلّف 1-3% من الإيرادات والهامش.",
@@ -340,7 +340,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "ٹیمیں کسی رپورٹ، ایکسپورٹ، یا تجزیہ کار کے جواب کے لیے 2-3 دن انتظار کرتی ہیں۔ جب تک جواب آتا ہے، شفٹ پہلے ہی گزر چکی ہوتی ہے۔",
-          "sundae": "Sundae Intelligence ٹیموں کو سیکنڈوں میں ماخذ کے حوالے کے ساتھ جوابات دیتا ہے، بالکل انہی نظاموں میں جو وہ پہلے سے استعمال کر رہے ہیں۔"
+          "sundae": "Ask Sundae ٹیموں کو سیکنڈوں میں ماخذ کے حوالے کے ساتھ جوابات دیتا ہے، بالکل انہی نظاموں میں جو وہ پہلے سے استعمال کر رہے ہیں۔"
         },
         {
           "industry": "وائڈز، کمپس، رعایتیں اور POS استثنائیں الگ الگ دیکھیں تو معمولی لگتی ہیں۔ بغیر جائزے کے یہ آمدنی اور مارجن میں 1-3% نقصان کا سبب بن سکتی ہیں۔",
@@ -379,7 +379,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Ekipler bir rapor, dışa aktarım ya da analist geri dönüşü için 2-3 gün bekliyor. Yanıt geldiğinde vardiya çoktan bitmiş oluyor.",
-          "sundae": "Sundae Intelligence, ekiplere saniyeler içinde kaynak gösterilmiş yanıtlar sunar - hem de hâlihazırda kullandıkları sistemlerin içinde."
+          "sundae": "Ask Sundae, ekiplere saniyeler içinde kaynak gösterilmiş yanıtlar sunar - hem de hâlihazırda kullandıkları sistemlerin içinde."
         },
         {
           "industry": "İptaller, ikramlar, indirimler ve POS istisnaları tek başına küçüktür. Gözden geçirilmediğinde gelir ve marjın %1-3'ü kadar kayba yol açabilir.",
@@ -418,7 +418,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Zespoły czekają 2-3 dni na raport, eksport lub odpowiedź analityka. Zanim odpowiedź dotrze, zmiana już się skończyła.",
-          "sundae": "Sundae Intelligence dostarcza zespołom odpowiedzi z cytatami źródłowymi w kilka sekund - wprost w systemach, których już używają."
+          "sundae": "Ask Sundae dostarcza zespołom odpowiedzi z cytatami źródłowymi w kilka sekund - wprost w systemach, których już używają."
         },
         {
           "industry": "Storna, gratisy, rabaty i wyjątki POS są niewielkie z osobna. Niezweryfikowane mogą oznaczać od 1 do 3% utraconych przychodów i marży.",
@@ -457,7 +457,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "チームはレポート、エクスポート、またはアナリストのフォローアップに2〜3日待たされます。回答が届く頃には、シフトはすでに終了しています。",
-          "sundae": "Sundae Intelligenceは、チームがすでに使用しているシステム全体で、数秒で出典を引用した回答を提供します。"
+          "sundae": "Ask Sundaeは、チームがすでに使用しているシステム全体で、数秒で出典を引用した回答を提供します。"
         },
         {
           "industry": "ボイド、コンプ、割引、POSの例外は、単体では小さなものです。しかし放置すると、収益とマージンの1〜3%の損失につながることがあります。",
@@ -496,7 +496,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "团队要等2-3天才能拿到报告、导出或分析师的后续跟进。等答案送到时，这一班已经结束了。",
-          "sundae": "Sundae Intelligence 在几秒内就能给出有来源引用的答案，而且直接在团队已经使用的系统中呈现。"
+          "sundae": "Ask Sundae 在几秒内就能给出有来源引用的答案，而且直接在团队已经使用的系统中呈现。"
         },
         {
           "industry": "作废、赠单、折扣和POS例外单独看都很小。若不加复核，它们可能造成1-3%的收入和利润流失。",
@@ -535,7 +535,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Tim menunggu 2-3 hari untuk sebuah laporan, ekspor, atau tindak lanjut analis. Saat jawabannya tiba, shift sudah berlalu.",
-          "sundae": "Sundae Intelligence memberikan jawaban bersumber dalam hitungan detik, langsung di dalam sistem yang sudah mereka gunakan."
+          "sundae": "Ask Sundae memberikan jawaban bersumber dalam hitungan detik, langsung di dalam sistem yang sudah mereka gunakan."
         },
         {
           "industry": "Void, komp, diskon, dan pengecualian POS terlihat kecil jika dilihat satu per satu. Tanpa ditinjau, semuanya bisa menyebabkan kebocoran pendapatan dan margin sebesar 1-3%.",
@@ -574,7 +574,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "팀은 보고서, 내보내기 또는 분석가 회신을 받으려고 2~3일을 기다립니다. 답변이 도착할 무렵에는 이미 근무가 끝나 있습니다.",
-          "sundae": "Sundae Intelligence는 팀이 이미 사용하는 시스템 안에서 몇 초 만에 출처가 인용된 답변을 제공합니다."
+          "sundae": "Ask Sundae는 팀이 이미 사용하는 시스템 안에서 몇 초 만에 출처가 인용된 답변을 제공합니다."
         },
         {
           "industry": "취소, 무료 제공, 할인, POS 예외는 하나하나 보면 작습니다. 하지만 검토하지 않으면 매출과 마진의 1~3% 손실로 이어질 수 있습니다.",
@@ -613,7 +613,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Các nhóm phải chờ 2-3 ngày để nhận một báo cáo, một lần xuất dữ liệu hoặc phản hồi từ nhà phân tích. Khi câu trả lời đến, ca làm đã kết thúc.",
-          "sundae": "Sundae Intelligence cung cấp cho các nhóm câu trả lời có dẫn nguồn trong vài giây, ngay trên các hệ thống mà họ đã sử dụng."
+          "sundae": "Ask Sundae cung cấp cho các nhóm câu trả lời có dẫn nguồn trong vài giây, ngay trên các hệ thống mà họ đã sử dụng."
         },
         {
           "industry": "Các khoản hủy, miễn phí, giảm giá và ngoại lệ POS đều nhỏ khi xét riêng lẻ. Nếu không được rà soát, chúng có thể gây thất thoát 1-3% doanh thu và biên lợi nhuận.",
@@ -652,7 +652,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Echipele așteaptă 2-3 zile pentru un raport, un export sau răspunsul unui analist. Până ajunge răspunsul, tura s-a încheiat deja.",
-          "sundae": "Sundae Intelligence oferă echipelor răspunsuri cu surse citate în câteva secunde, direct în sistemele pe care le folosesc deja."
+          "sundae": "Ask Sundae oferă echipelor răspunsuri cu surse citate în câteva secunde, direct în sistemele pe care le folosesc deja."
         },
         {
           "industry": "Anulările, gratuitățile, reducerile și excepțiile POS par mici luate separat. Nesupravegheate, pot însemna între 1-3% din venituri și marjă pierdute.",
@@ -691,7 +691,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Team väntar 2-3 dagar på en rapport, en export eller ett svar från en analytiker. När svaret kommer är skiftet redan över.",
-          "sundae": "Sundae Intelligence ger team källbelagda svar på sekunder - direkt i de system de redan använder."
+          "sundae": "Ask Sundae ger team källbelagda svar på sekunder - direkt i de system de redan använder."
         },
         {
           "industry": "Annulleringar, gratisartiklar, rabatter och POS-undantag är små var för sig. Om de lämnas ogranskade kan de kosta 1-3% av intäkter och marginal.",
@@ -730,7 +730,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "টিমগুলো রিপোর্ট, এক্সপোর্ট বা বিশ্লেষক ফলো-আপের জন্য ২-৩ দিন অপেক্ষা করে। উত্তর আসার সময়, পরিবর্তন ইতিমধ্যেই ঘটে গেছে।",
-          "sundae": "Sundae Intelligence টিমগুলোকে সেকেন্ডের মধ্যে উৎস-উল্লেখিত উত্তর দেয়, তাদের ইতিমধ্যেই ব্যবহৃত সিস্টেমগুলোর মধ্যে।"
+          "sundae": "Ask Sundae টিমগুলোকে সেকেন্ডের মধ্যে উৎস-উল্লেখিত উত্তর দেয়, তাদের ইতিমধ্যেই ব্যবহৃত সিস্টেমগুলোর মধ্যে।"
         },
         {
           "industry": "ভয়েড, কম্প, ডিসকাউন্ট এবং POS ব্যতিক্রমগুলো একা একা ছোট। পর্যালোচনা না করলে, এগুলো ১-৩% রাজস্ব এবং মার্জিন লিকেজ তৈরি করতে পারে।",
@@ -769,7 +769,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "ทีมต้องรอ 2-3 วันกว่าจะได้รายงาน ไฟล์ส่งออก หรือการติดตามผลจากนักวิเคราะห์ พอคำตอบมาถึง กะนั้นก็ผ่านไปแล้ว",
-          "sundae": "Sundae Intelligence ให้คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที ตรงในระบบที่ทีมใช้งานอยู่แล้ว"
+          "sundae": "Ask Sundae ให้คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที ตรงในระบบที่ทีมใช้งานอยู่แล้ว"
         },
         {
           "industry": "การยกเลิกรายการ การแถมฟรี ส่วนลด และข้อยกเว้นจาก POS ดูเล็กน้อยเมื่อมองทีละรายการ แต่หากไม่ตรวจสอบ อาจทำให้รายได้และกำไรรั่วไหลถึง 1-3%",
@@ -808,7 +808,7 @@ export const generatedLocalCopy = {
       "industryClaims": [
         {
           "industry": "Pasukan menunggu 2-3 hari untuk satu laporan, eksport, atau maklum balas penganalisis. Menjelang jawapan tiba, syif itu sudah pun berlalu.",
-          "sundae": "Sundae Intelligence memberikan pasukan jawapan yang dirujuk sumber dalam beberapa saat, terus di dalam sistem yang mereka sudah gunakan."
+          "sundae": "Ask Sundae memberikan pasukan jawapan yang dirujuk sumber dalam beberapa saat, terus di dalam sistem yang mereka sudah gunakan."
         },
         {
           "industry": "Pembatalan, item percuma, diskaun, dan pengecualian POS nampak kecil jika dilihat satu per satu. Tanpa semakan, semuanya boleh menyebabkan kebocoran 1-3% daripada hasil dan margin.",

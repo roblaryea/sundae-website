@@ -135,7 +135,7 @@
 
 ---
 
-## 5. Sundae Intelligence - AI-Powered Analytics
+## 5. Ask Sundae - AI-Powered Analytics
 
 > Route: `/core/intelligence/*` | Permission: `ai:use`
 
@@ -148,9 +148,9 @@
 | Voice Input | Voice-to-text input for queries | Live |
 | Multi-outlet Scope | Select specific outlet or organization-wide queries | Live |
 | Link Code Sharing | Generate shareable link codes for conversations | Live |
-| Telegram Bot | Sundae Intelligence via Telegram (default + custom org bots) | Live |
-| Slack Bot | Sundae Intelligence via Slack (default + custom org apps) | Live |
-| Microsoft Teams Bot | Sundae Intelligence via Teams (default + custom org apps) | Live |
+| Telegram Bot | Ask Sundae via Telegram (default + custom org bots) | Live |
+| Slack Bot | Ask Sundae via Slack (default + custom org apps) | Live |
+| Microsoft Teams Bot | Ask Sundae via Teams (default + custom org apps) | Live |
 | Data Sources | Connect custom PostgreSQL, MSSQL, or file-based data sources | Live |
 | AI Credit System | Token-based usage metering via AI wallet | Live |
 

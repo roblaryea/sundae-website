@@ -35,8 +35,8 @@ const IMG = "/images/product/2026-fresh";
 const personaStructure = [
   { id: "coo", intelLayers: ["Pulse", "Watchtower"], shot: { t: "pulse-sales", alt: "Pulse - live sales pacing: actual vs target, end-of-day projection, net sales and covers" } },
   { id: "cfo", intelLayers: ["Insights", "Foresight"], shot: { t: "insights-revenue", alt: "Revenue Intelligence - net revenue, average check, RevPASH, and covers with variance" } },
-  { id: "ceo", intelLayers: ["Sundae Intelligence", "Benchmarks"], shot: { t: "intelligence", alt: "Sundae Intelligence - morning briefing with today's revenue, orders, and top-selling item" } },
-  { id: "marketing", intelLayers: ["Insights", "Sundae Intelligence"], shot: { t: "marketing-channels", alt: "Marketing Intelligence - channel ROAS and spend efficiency frontier" } },
+  { id: "ceo", intelLayers: ["Ask Sundae", "Benchmarks"], shot: { t: "intelligence", alt: "Ask Sundae - morning briefing with today's revenue, orders, and top-selling item" } },
+  { id: "marketing", intelLayers: ["Insights", "Ask Sundae"], shot: { t: "marketing-channels", alt: "Marketing Intelligence - channel ROAS and spend efficiency frontier" } },
   { id: "hr", intelLayers: ["Pulse", "Insights"], shot: { t: "pulse-labor", alt: "Pulse - live labor productivity: sales per labor hour, labor cost %, and productivity index" } },
   { id: "tech", intelLayers: ["All layers"], shot: { t: "integrations", alt: "Data & Integrations - POS, labor, inventory, and delivery unified across governed connectors" } },
 ];

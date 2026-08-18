@@ -163,7 +163,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الاستخبارات القابلة للتنفيذ",
-          "description": "توفر لوحات معلومات Sundae Core واستعلامات Sundae Intelligence باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
+          "description": "توفر لوحات معلومات Sundae Core واستعلامات Ask Sundae باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
           "icon": "insights"
         }
       ],
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligence exploitable",
-          "description": "Les tableaux de bord Sundae Core, les requêtes en langage naturel Sundae Intelligence et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
+          "description": "Les tableaux de bord Sundae Core, les requêtes en langage naturel Ask Sundae et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
           "icon": "insights"
         }
       ],
@@ -503,7 +503,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligência Acionável",
-          "description": "Painéis Sundae Core, consultas em linguagem natural do Sundae Intelligence e alertas proativos fornecem insights quando e onde você precisar deles.",
+          "description": "Painéis Sundae Core, consultas em linguagem natural do Ask Sundae e alertas proativos fornecem insights quando e onde você precisar deles.",
           "icon": "insights"
         }
       ],
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Umsetzbare Intelligenz",
-          "description": "Sundae Core-Dashboards, Sundae Intelligence-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
+          "description": "Sundae Core-Dashboards, Ask Sundae-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
           "icon": "insights"
         }
       ],
@@ -845,7 +845,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bruikbare intelligentie",
-          "description": "Sundae Core-dashboards, Sundae Intelligence-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
+          "description": "Sundae Core-dashboards, Ask Sundae-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
           "icon": "insights"
         }
       ],
@@ -1016,7 +1016,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencia procesable",
-          "description": "Los paneles de Sundae Core, las consultas en lenguaje natural de Sundae Intelligence y las alertas proactivas brindan información cuando y donde la necesita.",
+          "description": "Los paneles de Sundae Core, las consultas en lenguaje natural de Ask Sundae y las alertas proactivas brindan información cuando y donde la necesita.",
           "icon": "insights"
         }
       ],
@@ -1186,7 +1186,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "قابل عمل انٹیلی جنس",
-          "description": "Sundae Core ڈیش بورڈز، Sundae Intelligence قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔",
+          "description": "Sundae Core ڈیش بورڈز، Ask Sundae قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔",
           "icon": "insights"
         }
       ],
@@ -1528,7 +1528,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "可行的情报",
-          "description": "Sundae Core 仪表板、Sundae Intelligence 自然语言查询和主动警报可随时随地为您提供见解。",
+          "description": "Sundae Core 仪表板、Ask Sundae 自然语言查询和主动警报可随时随地为您提供见解。",
           "icon": "insights"
         }
       ],
@@ -1870,7 +1870,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenza utilizzabile",
-          "description": "Dashboard Sundae Core, query in linguaggio naturale Sundae Intelligence e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
+          "description": "Dashboard Sundae Core, query in linguaggio naturale Ask Sundae e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
           "icon": "insights"
         }
       ],
@@ -2041,7 +2041,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Uygulanabilir İstihbarat",
-          "description": "Sundae Core kontrol panelleri, Sundae Intelligence doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar.",
+          "description": "Sundae Core kontrol panelleri, Ask Sundae doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar.",
           "icon": "insights"
         }
       ],
@@ -2212,7 +2212,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "실행 가능한 인텔리전스",
-          "description": "Sundae Core 대시보드, Sundae Intelligence 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
+          "description": "Sundae Core 대시보드, Ask Sundae 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
           "icon": "insights"
         }
       ],
@@ -2383,7 +2383,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "実用的なインテリジェンス",
-          "description": "Sundae Core ダッシュボード、Sundae Intelligence 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
+          "description": "Sundae Core ダッシュボード、Ask Sundae 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
           "icon": "insights"
         }
       ],
@@ -2554,7 +2554,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan yang Dapat Ditindaklanjuti",
-          "description": "Dasbor Sundae Core, kueri bahasa alami Sundae Intelligence, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya.",
+          "description": "Dasbor Sundae Core, kueri bahasa alami Ask Sundae, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya.",
           "icon": "insights"
         }
       ],
@@ -2725,7 +2725,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Trí thông minh có thể hành động",
-          "description": "Bảng điều khiển Sundae Core, truy vấn ngôn ngữ tự nhiên của Sundae Intelligence và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng.",
+          "description": "Bảng điều khiển Sundae Core, truy vấn ngôn ngữ tự nhiên của Ask Sundae và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng.",
           "icon": "insights"
         }
       ],
@@ -2896,7 +2896,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligență acționabilă",
-          "description": "Tablourile de bord Sundae Core, interogările Sundae Intelligence în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele.",
+          "description": "Tablourile de bord Sundae Core, interogările Ask Sundae în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele.",
           "icon": "insights"
         }
       ],
@@ -3067,7 +3067,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Handlingsbar intelligens",
-          "description": "Sundae Core-instrumentpaneler, Sundae Intelligence-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
+          "description": "Sundae Core-instrumentpaneler, Ask Sundae-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
           "icon": "insights"
         }
       ],
@@ -3409,7 +3409,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "หน่วยสืบราชการลับที่ดำเนินการได้",
-          "description": "แดชบอร์ด Sundae Core ข้อความค้นหาด้วยภาษาธรรมชาติของ Sundae Intelligence และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
+          "description": "แดชบอร์ด Sundae Core ข้อความค้นหาด้วยภาษาธรรมชาติของ Ask Sundae และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
           "icon": "insights"
         }
       ],
@@ -3580,7 +3580,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan Boleh Tindakan",
-          "description": "Papan pemuka Sundae Core, pertanyaan bahasa semula jadi Sundae Intelligence dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya.",
+          "description": "Papan pemuka Sundae Core, pertanyaan bahasa semula jadi Ask Sundae dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya.",
           "icon": "insights"
         }
       ],

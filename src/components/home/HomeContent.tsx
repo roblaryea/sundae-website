@@ -103,7 +103,7 @@ export default function HomeContent() {
     Benchmarks: "benchmarking",
     Watchtower: "watchtower",
     Insights: "insights",
-    "Sundae Intelligence": "intelligence",
+    "Ask Sundae": "intelligence",
     Foresight: "forecasting",
   };
 
@@ -112,7 +112,7 @@ export default function HomeContent() {
     Benchmarks: "from-[#84A35C] to-[#5E7E3A]",
     Watchtower: "from-[#F59E0B] to-[#D97706]",
     Insights: "from-[#A8567E] to-[#7E3A5C]",
-    "Sundae Intelligence": "from-[#EC6A89] to-[#C9456A]",
+    "Ask Sundae": "from-[#EC6A89] to-[#C9456A]",
     Foresight: "from-[#5E9E96] to-[#3D7A70]",
   };
 

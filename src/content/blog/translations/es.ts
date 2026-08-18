@@ -223,10 +223,10 @@ El flujo de trabajo también cambia. En lugar de navegar por dashboards para enc
 
 Enfoque tradicional: el gerente de operaciones pasa 2 horas antes de la reunión sacando reportes de 6 dashboards, armando resúmenes en Excel y preparando diapositivas. La reunión revisa lo que pasó la semana pasada, sin contexto sobre por qué ocurrió ni qué hacer.
 
-Con Sundae Intelligence:
+Con Ask Sundae:
 
 - El gerente pregunta: "Muéstrame los 5 principales problemas de rendimiento de esta semana"
-- Sundae Intelligence identifica al instante: variación laboral en 3 ubicaciones, aumento del costo de alimentos en 2 ubicaciones y caída de satisfacción de clientes en 1 ubicación
+- Ask Sundae identifica al instante: variación laboral en 3 ubicaciones, aumento del costo de alimentos en 2 ubicaciones y caída de satisfacción de clientes en 1 ubicación
 - Cada problema incluye contexto 4D, análisis de causa raíz y acciones recomendadas
 - La reunión de operaciones se convierte en una conversación estratégica sobre soluciones en lugar de una simple puesta al día
 - Resultado: 2 horas ahorradas por semana y decisiones tomadas más rápido con mejor contexto
@@ -235,10 +235,10 @@ Con Sundae Intelligence:
 
 El CFO nota que el costo laboral total viene subiendo, pero necesita entender qué ubicaciones, roles y periodos impulsan el aumento. El enfoque tradicional requiere consultar el sistema de nómina, exportar datos, crear tablas dinámicas y analizar patrones.
 
-Con Sundae Intelligence:
+Con Ask Sundae:
 
 - El CFO pregunta: "¿Por qué viene subiendo el costo laboral en todo el portafolio?"
-- Sundae Intelligence analiza todas las ubicaciones e identifica: 12 ubicaciones por encima del plan por ineficiencias de programación, 5 ubicaciones afectadas por aumentos del salario mínimo y 3 ubicaciones con exceso de personal frente al volumen de transacciones
+- Ask Sundae analiza todas las ubicaciones e identifica: 12 ubicaciones por encima del plan por ineficiencias de programación, 5 ubicaciones afectadas por aumentos del salario mínimo y 3 ubicaciones con exceso de personal frente al volumen de transacciones
 - Desglosa el impacto por ubicación y muestra comparación 4D (Actual vs Plan vs Benchmark vs Prediction)
 - Recomienda acciones: implementar optimización de programación en las 12 ubicaciones, ajustar presupuestos por los aumentos salariales y dimensionar correctamente el personal en las ubicaciones sobredimensionadas
 - Resultado: el CFO obtiene un análisis completo en 30 segundos en lugar de 3 horas
@@ -247,10 +247,10 @@ Con Sundae Intelligence:
 
 El gerente de marketing lanzó una promoción en 15 ubicaciones, pero necesita entender rápidamente el ROI para decidir si expandirla a todo el portafolio.
 
-Con Sundae Intelligence:
+Con Ask Sundae:
 
 - Pregunta: "¿Cuál es el ROI de la promoción de la semana pasada?"
-- Sundae Intelligence analiza datos de transacciones, calcula el ingreso incremental, considera el costo del descuento y compara con ubicaciones de control
+- Ask Sundae analiza datos de transacciones, calcula el ingreso incremental, considera el costo del descuento y compara con ubicaciones de control
 - Muestra una vista 4D: incremento real vs incremento planificado vs rendimiento promocional de referencia vs resultados previstos si se amplía
 - Identifica: la promoción funcionó bien en 10 ubicaciones y rindió por debajo en 5
 - Recomienda: expandirla a ubicaciones similares y evitarla en ubicaciones con perfiles parecidos a las que rindieron peor
@@ -277,7 +277,7 @@ Ese ahorro de tiempo es fácil de cuantificar: si tu equipo de operaciones ahorr
 - ¿Cuánto tiempo pasas buscando respuestas versus actuando sobre insights?
 - ¿Cuánto tardan los nuevos miembros del equipo en volverse competentes?
 
-**Paso 2: Conecta Sundae Intelligence a tus datos**
+**Paso 2: Conecta Ask Sundae a tus datos**
 
 - POS (ventas, transacciones, mix)
 - Personal (horas, costos, programación)
@@ -288,12 +288,12 @@ Ese ahorro de tiempo es fácil de cuantificar: si tu equipo de operaciones ahorr
 **Paso 3: Empieza a hacer preguntas**
 
 - Comienza con tus preguntas más comunes: "¿Por qué bajaron las ventas?" "¿Dónde está el personal por encima del plan?" "¿Qué ubicaciones están rindiendo por debajo?"
-- Sundae Intelligence aprende tu lenguaje y mejora las respuestas con el tiempo
+- Ask Sundae aprende tu lenguaje y mejora las respuestas con el tiempo
 - Guarda las preguntas frecuentes como accesos directos para tu equipo
 
 **Paso 4: Reemplaza dashboards de forma sistemática**
 
-- Identifica qué dashboards de propósito único responde mejor Sundae Intelligence
+- Identifica qué dashboards de propósito único responde mejor Ask Sundae
 - Cancela herramientas redundantes para materializar ahorro de costos
 - Enfoca los dashboards que queden en necesidades especializadas de visualización
 
@@ -301,7 +301,7 @@ Ese ahorro de tiempo es fácil de cuantificar: si tu equipo de operaciones ahorr
 
 La inteligencia para restaurantes se está moviendo del salto entre dashboards hacia preguntas directas con contexto adjunto. En lugar de buscar en 7 sistemas distintos para encontrar métricas aisladas, los operadores pueden preguntar lo que necesitan en lenguaje natural y obtener una respuesta que pueden usar de inmediato.
 
-Sundae Core ayuda a los equipos a dedicar menos tiempo a buscar cifras y más tiempo a usarlas bien. **Reserva una demo** para ver cómo Sundae Intelligence puede reemplazar dashboards redundantes y hacer más fácil la toma de decisiones del día a día.`,
+Sundae Core ayuda a los equipos a dedicar menos tiempo a buscar cifras y más tiempo a usarlas bien. **Reserva una demo** para ver cómo Ask Sundae puede reemplazar dashboards redundantes y hacer más fácil la toma de decisiones del día a día.`,
   },
   ...esBatch2BlogTranslations,
   ...esBatch3BlogTranslations,

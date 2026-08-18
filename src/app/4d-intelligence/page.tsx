@@ -90,7 +90,7 @@ const localized4DCopy = {
     howItems: [
       { title: 'Unified Data Layer', description: 'Sundae Core integrates 200+ systems - POS, labor, inventory, budgets, and external sources - into one intelligent foundation.', icon: 'integration' },
       { title: 'Multi-Agent AI Engine', description: 'Specialized AI agents analyze patterns, detect anomalies, forecast outcomes, and generate recommendations across all four dimensions.', icon: 'intelligence' },
-      { title: 'Actionable Intelligence', description: 'Sundae Core decision views, Sundae Intelligence natural language queries, and proactive alerts deliver insights when and where you need them.', icon: 'insights' },
+      { title: 'Actionable Intelligence', description: 'Sundae Core decision views, Ask Sundae natural language queries, and proactive alerts deliver insights when and where you need them.', icon: 'insights' },
     ],
     ctaTitle: 'Ready for the Full Picture?',
     ctaDescription: 'See 4D Intelligence with your data. Past, plan, peers, and predictions - all in one view.',
@@ -136,7 +136,7 @@ const localized4DCopy = {
     howItems: [
       { title: 'طبقة بيانات موحدة', description: 'يربط Sundae Core أكثر من 25 نظامًا - POS والعمالة والمخزون والميزانيات والمصادر الخارجية - في أساس ذكي واحد.', icon: 'integration' },
       { title: 'محرك ذكاء متعدد الوكلاء', description: 'تحلل الوكلاء المتخصصون الأنماط وتكتشف الشذوذ وتتوقع النتائج وتولّد التوصيات عبر الأبعاد الأربعة.', icon: 'intelligence' },
-      { title: 'ذكاء قابل للتنفيذ', description: 'لوحات Sundae Core واستعلامات Sundae Intelligence باللغة الطبيعية والتنبيهات الاستباقية تقدّم الرؤى عندما وأين تحتاجها.', icon: 'insights' },
+      { title: 'ذكاء قابل للتنفيذ', description: 'لوحات Sundae Core واستعلامات Ask Sundae باللغة الطبيعية والتنبيهات الاستباقية تقدّم الرؤى عندما وأين تحتاجها.', icon: 'insights' },
     ],
     ctaTitle: 'هل أنت مستعد للصورة الكاملة؟',
     ctaDescription: 'شاهد ذكاء 4D مع بياناتك. الماضي والخطة والنظراء والتوقعات - كلها في عرض واحد.',
@@ -182,7 +182,7 @@ const localized4DCopy = {
     howItems: [
       { title: 'Couche de données unifiée', description: 'Sundae Core intègre plus de 25 systèmes - POS, main-d’oeuvre, inventaire, budgets et sources externes - dans une base intelligente unique.', icon: 'integration' },
       { title: 'Moteur IA multi-agents', description: 'Des agents spécialisés analysent les motifs, détectent les anomalies, prévoient les résultats et génèrent des recommandations sur les quatre dimensions.', icon: 'intelligence' },
-      { title: 'Intelligence actionnable', description: 'Les dashboards Sundae Core, les requêtes en langage naturel de Sundae Intelligence et les alertes proactives livrent les insights quand et où vous en avez besoin.', icon: 'insights' },
+      { title: 'Intelligence actionnable', description: 'Les dashboards Sundae Core, les requêtes en langage naturel de Ask Sundae et les alertes proactives livrent les insights quand et où vous en avez besoin.', icon: 'insights' },
     ],
     ctaTitle: 'Prêt pour la vue complète ?',
     ctaDescription: 'Découvrez la 4D Intelligence avec vos données. Passé, plan, pairs et prévisions - tout dans une seule vue.',
@@ -228,7 +228,7 @@ const localized4DCopy = {
     howItems: [
       { title: 'Capa de datos unificada', description: 'Sundae Core integra más de 25 sistemas - POS, personal, inventario, presupuestos y fuentes externas - en una base inteligente única.', icon: 'integration' },
       { title: 'Motor de IA multiagente', description: 'Agentes especializados analizan patrones, detectan anomalías, pronostican resultados y generan recomendaciones en las cuatro dimensiones.', icon: 'intelligence' },
-      { title: 'Inteligencia accionable', description: 'Dashboards de Sundae Core, consultas en lenguaje natural de Sundae Intelligence y alertas proactivas entregan insights cuando y donde los necesitas.', icon: 'insights' },
+      { title: 'Inteligencia accionable', description: 'Dashboards de Sundae Core, consultas en lenguaje natural de Ask Sundae y alertas proactivas entregan insights cuando y donde los necesitas.', icon: 'insights' },
     ],
     ctaTitle: '¿Listo para la imagen completa?',
     ctaDescription: 'Ve 4D Intelligence con tus datos. Pasado, plan, pares y predicciones - todo en una sola vista.',

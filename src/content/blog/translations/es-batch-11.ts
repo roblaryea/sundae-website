@@ -739,7 +739,7 @@ Los roles son configurables. Si la estructura de tu organización no encaja en l
 
 **Consultas de inteligencia de solo lectura**
 
-Sundae Intelligence - la capa de IA conversacional - opera con acceso de solo lectura a la base de datos. Cuando un operador pregunta "¿Por qué subió el food cost en la Ubicación 7 la semana pasada?", el sistema ejecuta consultas analíticas sobre los datos. Estas consultas son estrictamente operaciones SELECT - pueden leer datos para generar insights, pero no pueden modificar, eliminar ni exportar datos crudos.
+Ask Sundae - la capa de IA conversacional - opera con acceso de solo lectura a la base de datos. Cuando un operador pregunta "¿Por qué subió el food cost en la Ubicación 7 la semana pasada?", el sistema ejecuta consultas analíticas sobre los datos. Estas consultas son estrictamente operaciones SELECT - pueden leer datos para generar insights, pero no pueden modificar, eliminar ni exportar datos crudos.
 
 Además, las consultas de Intelligence están sujetas a límites de filas y restricciones de complejidad que evitan la extracción masiva de datos. El sistema está diseñado para responder preguntas analíticas, no para servir como herramienta de exportación de datos.
 

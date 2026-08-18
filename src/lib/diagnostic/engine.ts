@@ -222,7 +222,7 @@ function computeEconomics(
   // of `bandedMonthlyTotal` — we never multiply a flat per-location rate.
   const corePackage = CORE_PACKAGES_BY_ID[pickCorePackage(responses, outlets)];
   const coreQuote = bandedMonthlyTotal(corePackage, outlets);
-  let monthly = coreQuote.monthlyTotal;   // Core includes Sundae Intelligence (NL-to-SQL)
+  let monthly = coreQuote.monthlyTotal;   // Core includes Ask Sundae (NL-to-SQL)
 
   // Above the published band ceiling (100 locations) the marginal rate is not
   // published, so we must not extrapolate a number at all.
@@ -494,7 +494,7 @@ export function runDiagnostic(
   if (has(responses.decision_data, "spreadsheet") || has(responses.decision_data, "pos_report") || has(responses.decision_data, "bi_dashboard") || has(responses.decision_data, "in_house_data")) {
     recommendedStack.push({
       layer: "intelligence",
-      label: "Sundae Intelligence",
+      label: "Ask Sundae",
       detail: "Ask-your-data NL → SQL with source citations",
       why: "Replaces the spreadsheet-pull → analyst → answer loop with sub-minute, sourced answers.",
     });

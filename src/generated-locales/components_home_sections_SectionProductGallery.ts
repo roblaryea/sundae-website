@@ -44,10 +44,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core ←"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "اسأل بياناتك بلغة بسيطة واحصل على إجابة مبنية على أرقام الليلة الحقيقية - AED 96,555 من الإيرادات عبر 379 طلباً، وأكثر أصنافك مبيعاً، ومتابعة مقترحة عندما يقفز صنف مثل Banana Bread فجأة في القائمة. المحادثات والمجموعات تُبقي كل خط أسئلة عند آخر نقطة توقفت عندها.",
-          "alt": "Sundae Intelligence - واجهة قرار حوارية",
-          "productLabel": "Sundae Intelligence ←"
+          "alt": "Ask Sundae - واجهة قرار حوارية",
+          "productLabel": "Ask Sundae ←"
         },
         {
           "caption": "Pulse - لوحة المتابعة الحيّة",
@@ -125,7 +125,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - محاكي السيناريوهات",
           "whatYouSee": "حرّك رافعة واحدة وراقب أثرها يتموّج عبر النموذج كله - الضيوف وقيمة الفاتورة تتدفّق إلى الإيراد، ثم تكلفة الطعام والعمالة، نزولاً حتى EBITDA - مع كل محرّك على شريط تمرير، فترى ما تساويه نقلة واحدة حقاً قبل أن تقدم عليها.",
           "alt": "Intelligence Simulator - تسلسل سيناريو ماذا-لو",
-          "productLabel": "Sundae Intelligence ←"
+          "productLabel": "Ask Sundae ←"
         },
         {
           "caption": "Watchtower - مركز القيادة",
@@ -308,10 +308,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Interrogez vos données en langage courant et obtenez une réponse ancrée dans les chiffres réels de ce soir - AED 96,555 de revenus sur 379 commandes, vos meilleures ventes, et une question de suivi suggérée quand un plat comme Banana Bread grimpe soudain au menu. Les fils et collections gardent chaque ligne de questionnement là où vous l'avez laissée.",
-          "alt": "Sundae Intelligence - interface conversationnelle d'aide à la décision",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interface conversationnelle d'aide à la décision",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Tableau en direct",
@@ -389,7 +389,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulateur de scénarios",
           "whatYouSee": "Tirez un levier et regardez l'effet se propager dans tout le modèle - couverts et ticket alimentent le revenu, puis le coût matière et la main-d'œuvre, jusqu'à l'EBITDA - chaque variable sur un curseur, pour voir ce que vaut vraiment un seul changement avant de le faire.",
           "alt": "Simulateur Intelligence - cascade de scénarios what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centre de commandement",
@@ -572,10 +572,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Pregunta a tus datos en lenguaje natural y obtén una respuesta basada en las cifras reales de esta noche - AED 96,555 en ingresos sobre 379 pedidos, tus productos más vendidos y un seguimiento sugerido cuando algo como Banana Bread escala de repente en la carta. Hilos y colecciones mantienen cada línea de preguntas justo donde la dejaste.",
-          "alt": "Sundae Intelligence - interfaz conversacional de decisiones",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interfaz conversacional de decisiones",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard en vivo",
@@ -653,7 +653,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulador de escenarios",
           "whatYouSee": "Mueve una palanca y observa cómo se propaga por todo el modelo - comensales y ticket fluyen hacia los ingresos, luego el coste de alimentos y el personal, hasta llegar al EBITDA - con cada variable en un control deslizante, para que veas cuánto vale realmente un solo cambio antes de hacerlo.",
           "alt": "Intelligence Simulador - cascada de escenarios hipotéticos",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centro de mando",
@@ -836,10 +836,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Fragen Sie Ihre Daten in natürlicher Sprache und erhalten Sie eine Antwort auf Basis der echten Zahlen von heute Abend - AED 96,555 Umsatz über 379 Bestellungen, Ihre Topseller und eine vorgeschlagene Folgefrage, wenn etwas wie Banana Bread plötzlich in der Menükarte aufsteigt. Threads und Sammlungen halten jeden Gedankenstrang dort, wo Sie ihn verlassen haben.",
-          "alt": "Sundae Intelligence - konversationsbasierte Entscheidungsoberfläche",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - konversationsbasierte Entscheidungsoberfläche",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live-Wallboard",
@@ -917,7 +917,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Szenario-Simulator",
           "whatYouSee": "Ziehen Sie an einem Hebel und beobachten Sie, wie er durch das gesamte Modell wirkt - Gedecke und Bonhöhe fließen in den Umsatz, dann Wareneinsatz und Personal, bis hinunter zum EBITDA - mit jedem Treiber auf einem Regler, damit Sie sehen, was eine einzelne Änderung wirklich wert ist, bevor Sie sie umsetzen.",
           "alt": "Intelligence Simulator - Was-wäre-wenn-Szenariokaskade",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -1100,10 +1100,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Stel je vraag in gewone taal en krijg een antwoord dat geworteld is in de echte cijfers van vanavond - AED 96,555 omzet over 379 bestellingen, je toppers, en een vervolgsuggestie wanneer iets als Banana Bread plots stijgt op de kaart. Threads en collecties houden elke vraaglijn precies waar je gebleven was.",
-          "alt": "Sundae Intelligence - conversationele beslisinterface",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - conversationele beslisinterface",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -1181,7 +1181,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "Trek aan één hendel en zie het door het hele model rimpelen - gasten en gemiddelde besteding stromen in de omzet, dan foodcost en personeel, helemaal door tot de EBITDA - met elke driver op een schuif, zodat je ziet wat één enkele wijziging echt waard is voordat je hem doorvoert.",
           "alt": "Intelligence Simulator - what-if-scenario-cascade",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -1364,10 +1364,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Pergunte aos seus dados em linguagem natural e receba uma resposta ancorada nos números reais desta noite - AED 96,555 em receita ao longo de 379 pedidos, os seus campeões de vendas e uma sugestão de seguimento quando algo como Banana Bread sobe de repente no menu. Threads e coleções mantêm cada linha de questionamento exatamente onde a deixou.",
-          "alt": "Sundae Intelligence - interface conversacional de decisão",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interface conversacional de decisão",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard ao Vivo",
@@ -1445,7 +1445,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulador de Cenários",
           "whatYouSee": "Puxe uma alavanca e veja-a propagar-se por todo o modelo - clientes servidos e ticket fluem para a receita, depois custo de comida e mão de obra, até chegar ao EBITDA - com cada variável num cursor, para ver quanto vale realmente uma única mudança antes de a fazer.",
           "alt": "Intelligence Simulador - cascata de cenários hipotéticos",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centro de Comando",
@@ -1628,10 +1628,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "अपने डेटा से सहज भाषा में सवाल पूछिए और आज रात के असली आँकड़ों पर टिका जवाब पाइए - 379 ऑर्डर में AED 96,555 का रेवेन्यू, आपके टॉप सेलर, और जब Banana Bread जैसा कुछ अचानक मेन्यू में ऊपर चढ़ जाए तो एक सुझाया गया अगला कदम। थ्रेड और कलेक्शन हर सवाल की कड़ी वहीं संभाल कर रखते हैं जहाँ आपने छोड़ी थी।",
-          "alt": "Sundae Intelligence - संवादात्मक निर्णय इंटरफ़ेस",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - संवादात्मक निर्णय इंटरफ़ेस",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - लाइव वॉलबोर्ड",
@@ -1709,7 +1709,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "एक लीवर खींचिए और उसे पूरे मॉडल में लहराते देखिए - कवर और टिकट रेवेन्यू में बहते हैं, फिर फूड कॉस्ट और लेबर, और नीचे EBITDA तक - हर ड्राइवर एक स्लाइडर पर, ताकि बदलाव करने से पहले आप देख लें कि एक अकेला बदलाव वाकई कितने का है।",
           "alt": "Intelligence Simulator - what-if परिदृश्य का असर",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - कमांड सेंटर",
@@ -1892,10 +1892,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "اپنے ڈیٹا سے سادہ زبان میں سوال کریں اور آج رات کے حقیقی اعداد پر مبنی جواب پائیں - 379 آرڈرز پر AED 96,555 کا ریونیو، آپ کے سب سے زیادہ بکنے والے آئٹمز، اور جب Banana Bread جیسی کوئی چیز اچانک مینو میں اوپر چڑھے تو ایک تجویز کردہ اگلا قدم۔ تھریڈز اور کلیکشنز سوال کی ہر لڑی کو وہیں محفوظ رکھتے ہیں جہاں آپ نے چھوڑی تھی۔",
-          "alt": "Sundae Intelligence - گفتگو پر مبنی فیصلہ ساز انٹرفیس",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - گفتگو پر مبنی فیصلہ ساز انٹرفیس",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -1973,7 +1973,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "ایک لیور کھینچیں اور دیکھیں کہ وہ پورے ماڈل میں کیسے لہر بن کر پھیلتا ہے - covers اور ٹکٹ ریونیو میں، پھر فوڈ کاسٹ اور لیبر، نیچے EBITDA تک - ہر driver ایک slider پر، تاکہ آپ کوئی فیصلہ کرنے سے پہلے دیکھ سکیں کہ ایک تبدیلی کی اصل قیمت کیا ہے۔",
           "alt": "Intelligence Simulator - what-if منظرنامہ آبشار",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -2156,10 +2156,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Interroga i tuoi dati in linguaggio naturale e ottieni una risposta basata sui numeri reali di stasera - AED 96,555 di ricavi su 379 ordini, i tuoi piatti più venduti e un approfondimento suggerito quando qualcosa come Banana Bread scala improvvisamente il menu. Thread e collezioni mantengono ogni filo di domande esattamente dove lo avevi lasciato.",
-          "alt": "Sundae Intelligence - interfaccia conversazionale per le decisioni",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interfaccia conversazionale per le decisioni",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard in tempo reale",
@@ -2237,7 +2237,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulatore di scenari",
           "whatYouSee": "Tira una leva e guardala propagarsi attraverso l'intero modello - coperti e scontrino confluiscono nei ricavi, poi food cost e lavoro, fino all'EBITDA - con ogni driver su uno slider, così vedi quanto vale davvero un singolo cambiamento prima di metterlo in atto.",
           "alt": "Intelligence Simulator - cascata di scenari what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centro di comando",
@@ -2420,10 +2420,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Zapytaj swoje dane zwykłym językiem i otrzymaj odpowiedź opartą na rzeczywistych liczbach dzisiejszego wieczoru - AED 96,555 przychodu z 379 zamówień, Twoi najlepiej sprzedający się pozycje oraz podpowiedź dalszego kroku, gdy coś takiego jak Banana Bread nagle pnie się w górę menu. Wątki i kolekcje trzymają każdy tok pytań tam, gdzie go zostawiłeś.",
-          "alt": "Sundae Intelligence - konwersacyjny interfejs decyzyjny",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - konwersacyjny interfejs decyzyjny",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Tablica na żywo",
@@ -2501,7 +2501,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Symulator scenariuszy",
           "whatYouSee": "Pociągnij jedną dźwignię i patrz, jak fala przechodzi przez cały model - liczba gości i rachunek wpływają na przychód, potem koszt surowca i koszty pracy, aż w dół do EBITDA - z każdym czynnikiem na suwaku, więc widzisz, ile naprawdę warta jest pojedyncza zmiana, zanim jej dokonasz.",
           "alt": "Intelligence Simulator - kaskada scenariusza co-jeśli",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centrum dowodzenia",
@@ -2684,10 +2684,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Verinize gündelik dille soru sorun, bu geceki gerçek rakamlara dayanan bir yanıt alın - 379 sipariş üzerinden AED 96,555 ciro, en çok satanlarınız ve örneğin Banana Bread menüde aniden yükselişe geçtiğinde önerilen bir takip adımı. Konu başlıkları ve koleksiyonlar her sorgu hattını bıraktığınız yerde tutar.",
-          "alt": "Sundae Intelligence - sohbet tabanlı karar arayüzü",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - sohbet tabanlı karar arayüzü",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Canlı Pano",
@@ -2765,7 +2765,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Senaryo Simülatörü",
           "whatYouSee": "Tek bir kaldıracı çekin ve onun tüm model boyunca yayılışını izleyin - müşteri sayısı ve adisyon gelire akar, sonra gıda maliyeti ve işgücü, ta EBITDA'ya kadar iner - her etken bir kaydırma çubuğunda. Böylece tek bir değişikliğin yapmadan önce gerçekte ne ifade ettiğini görürsünüz.",
           "alt": "Intelligence Simülatör - olası senaryo kademesi",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Komuta Merkezi",
@@ -2948,10 +2948,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "用大白话向你的数据提问，得到的是建立在今晚真实数字之上的回答 - 379 笔订单带来 AED 96,555 营收、你的畅销品，以及当 Banana Bread 这样的单品突然爬升菜单排名时给出的下一步追问建议。会话与收藏夹让每一条追问的思路都停在你离开的地方。",
-          "alt": "Sundae Intelligence - 对话式决策界面",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - 对话式决策界面",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - 实时看板",
@@ -3029,7 +3029,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - 情景模拟器",
           "whatYouSee": "拉动一根杠杆，看它如何在整个模型里层层传导 - 客流量与客单汇成营收，再到食材成本与人力，一路向下直抵 EBITDA - 每个驱动因素都配有滑块，让你在动手之前就看清一个改动到底值多少。",
           "alt": "Intelligence Simulator - 假设情景的连锁传导",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - 指挥中心",
@@ -3212,10 +3212,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "ふだんの言葉でデータに尋ねれば、今夜の実数値に裏打ちされた答えが返ります - 379件の注文で売上 AED 96,555、売れ筋トップ、そして Banana Bread のようにメニューを急に駆け上がった一品があれば次の一手まで提案します。スレッドとコレクションが、すべての問いの流れを中断したところに保ちます。",
-          "alt": "Sundae Intelligence - 対話型の意思決定インターフェース",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - 対話型の意思決定インターフェース",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -3293,7 +3293,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "レバーを一つ引けば、それがモデル全体に波及する様子を見られます - 客数と客単価が売上に流れ込み、続いて食材原価と人件費、そして EBITDA まで - すべての要因がスライダーになっているので、たった一つの変更が本当はどれほどの価値を持つかを、実行前に確かめられます。",
           "alt": "Intelligence Simulator - 仮説検証シナリオの連鎖",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -3476,10 +3476,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "데이터에게 평소 말투로 묻고 오늘 밤 실제 숫자에 근거한 답을 받으세요. 379건의 주문에서 발생한 AED 96,555의 매출, 가장 잘 팔리는 메뉴, 그리고 Banana Bread처럼 갑자기 메뉴 순위를 치고 올라온 항목이 있을 때 이어서 살펴볼 후속 질문까지. 스레드와 컬렉션이 모든 질문의 흐름을 멈춘 자리에 그대로 보관해 둡니다.",
-          "alt": "Sundae Intelligence - 대화형 의사결정 인터페이스",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - 대화형 의사결정 인터페이스",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -3557,7 +3557,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "레버 하나를 당겨 모델 전체로 번지는 파장을 지켜보세요. 커버 수와 객단가가 매출로 흐르고, 이어 식자재 원가와 인건비를 거쳐 EBITDA까지 내려갑니다. 모든 동인이 슬라이더에 올라 있어, 단 하나의 변화가 실제로 얼마의 가치가 있는지 실행 전에 볼 수 있습니다.",
           "alt": "Intelligence Simulator - 가정 시나리오의 연쇄 효과",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -3740,10 +3740,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Tanya data Anda dengan bahasa sehari-hari dan dapatkan jawaban berlandaskan angka nyata malam ini - AED 96,555 pendapatan dari 379 pesanan, menu terlaris Anda, dan saran tindak lanjut saat sesuatu seperti Banana Bread tiba-tiba naik daun. Thread dan koleksi menjaga setiap alur pertanyaan tetap di tempat Anda meninggalkannya.",
-          "alt": "Sundae Intelligence - antarmuka keputusan percakapan",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - antarmuka keputusan percakapan",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard Langsung",
@@ -3821,7 +3821,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulator Skenario",
           "whatYouSee": "Tarik satu tuas dan saksikan riaknya menjalar ke seluruh model - jumlah tamu dan ticket mengalir jadi pendapatan, lalu food cost dan tenaga kerja, sampai ke EBITDA - dengan setiap penggerak pada slider, sehingga Anda bisa melihat nilai sebenarnya dari satu perubahan sebelum melakukannya.",
           "alt": "Intelligence Simulator - kaskade skenario what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Pusat Komando",
@@ -4004,10 +4004,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Hỏi dữ liệu bằng ngôn ngữ thường ngày và nhận câu trả lời dựa trên những con số thật của tối nay - AED 96,555 doanh thu qua 379 đơn hàng, các món bán chạy nhất, cùng một gợi ý theo dõi khi có gì đó như Banana Bread đột ngột leo lên trong thực đơn. Các luồng và bộ sưu tập giữ nguyên mọi mạch câu hỏi ở đúng nơi bạn dừng lại.",
-          "alt": "Sundae Intelligence - giao diện ra quyết định bằng hội thoại",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - giao diện ra quyết định bằng hội thoại",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Bảng theo dõi trực tiếp",
@@ -4085,7 +4085,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "Kéo một cần gạt và xem nó lan tỏa khắp toàn bộ mô hình - lượt khách và hóa đơn chảy vào doanh thu, rồi tới chi phí thực phẩm và nhân công, xuống tận EBITDA - với mỗi yếu tố trên một thanh trượt, để bạn thấy một thay đổi duy nhất thực sự đáng giá bao nhiêu trước khi thực hiện.",
           "alt": "Intelligence Simulator - chuỗi tác động kịch bản what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -4268,10 +4268,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Întreabă-ți datele în limbaj firesc și primești un răspuns ancorat în cifrele reale ale serii - AED 96,555 venituri din 379 de comenzi, produsele de top și o întrebare de urmărire sugerată când ceva precum Banana Bread urcă brusc în meniu. Firele și colecțiile țin fiecare linie de întrebări exact unde ai lăsat-o.",
-          "alt": "Sundae Intelligence - interfață conversațională de decizie",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interfață conversațională de decizie",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard live",
@@ -4349,7 +4349,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulator de scenarii",
           "whatYouSee": "Trage de o singură pârghie și urmărește cum se propagă prin tot modelul - acoperirile și nota se transformă în venit, apoi în costul mâncării și al muncii, până jos la EBITDA - cu fiecare factor pe un cursor, ca să vezi cât valorează cu adevărat o singură schimbare înainte să o faci.",
           "alt": "Intelligence Simulator - cascadă de scenarii what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centru de comandă",
@@ -4532,10 +4532,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Fråga dina data på vanligt språk och få ett svar förankrat i kvällens verkliga siffror - AED 96,555 i omsättning fördelat på 379 order, dina storsäljare och en föreslagen följdfråga när något som Banana Bread plötsligt klättrar på menyn. Trådar och samlingar håller varje resonemang precis där du lämnade det.",
-          "alt": "Sundae Intelligence - konversationsgränssnitt för beslut",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - konversationsgränssnitt för beslut",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -4613,7 +4613,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "Dra i en spak och se den rippla genom hela modellen - gäster och notor flödar in i omsättning, sedan råvarukostnad och personal, hela vägen ner till EBITDA - med varje drivkraft på ett reglage, så att du kan se vad en enskild förändring verkligen är värd innan du gör den.",
           "alt": "Intelligence Simulator - tänk-om-scenario som kaskad",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -4796,10 +4796,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "সাধারণ ভাষায় আপনার ডেটাকে প্রশ্ন করুন আর আজ রাতের বাস্তব সংখ্যায় ভিত্তি করা উত্তর পান - ৩৭৯টি অর্ডারে AED 96,555 রেভিনিউ, আপনার সবচেয়ে বেশি বিক্রি হওয়া আইটেম, আর Banana Bread হঠাৎ মেনুতে উপরে উঠে এলে তেমন কিছুর জন্য একটি সম্ভাব্য পরবর্তী পদক্ষেপের পরামর্শ। থ্রেড আর কালেকশন প্রতিটি প্রশ্নের ধারা যেখানে রেখে গিয়েছিলেন সেখানেই ধরে রাখে।",
-          "alt": "Sundae Intelligence - কথোপকথনভিত্তিক সিদ্ধান্ত ইন্টারফেস",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - কথোপকথনভিত্তিক সিদ্ধান্ত ইন্টারফেস",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -4877,7 +4877,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "একটি লিভার টানুন আর দেখুন তা গোটা মডেল জুড়ে ছড়িয়ে যাচ্ছে - কভার আর টিকিট গিয়ে মেশে রেভিনিউতে, তারপর ফুড কস্ট ও লেবার, একদম নিচে EBITDA পর্যন্ত - প্রতিটি ড্রাইভার একটি স্লাইডারে, যাতে একটি পরিবর্তন করার আগেই দেখতে পান তা আসলে কতটা মূল্যবান।",
           "alt": "Intelligence Simulator - হোয়াট-ইফ সিনারিও ক্যাসকেড",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -5060,10 +5060,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "ถามข้อมูลของคุณด้วยภาษาธรรมดา แล้วได้คำตอบที่อิงตัวเลขจริงของคืนนี้ - รายได้ AED 96,555 จาก 379 ออเดอร์ เมนูขายดีของคุณ และคำถามต่อยอดที่แนะนำเมื่อมีอะไรอย่าง Banana Bread พุ่งขึ้นมาในเมนูแบบกะทันหัน Threads และ collections เก็บทุกแนวคำถามไว้ตรงจุดที่คุณค้างไว้",
-          "alt": "Sundae Intelligence - อินเทอร์เฟซตัดสินใจแบบสนทนา",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - อินเทอร์เฟซตัดสินใจแบบสนทนา",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -5141,7 +5141,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "ดึงคันโยกหนึ่งตัวแล้วดูมันส่งผลกระเพื่อมไปทั้งโมเดล - จำนวนแขกและยอดต่อบิลไหลเข้าเป็นรายได้ จากนั้นต้นทุนอาหารและแรงงาน ไล่ลงไปจนถึง EBITDA - ทุกตัวแปรอยู่บนแถบเลื่อน คุณจึงเห็นว่าการเปลี่ยนแปลงเพียงจุดเดียวมีค่าจริงเท่าไรก่อนตัดสินใจทำ",
           "alt": "Intelligence Simulator - การไล่ผลกระทบของสถานการณ์ what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -5324,10 +5324,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Tanya data anda dalam bahasa biasa dan dapat jawapan berasaskan angka sebenar malam ini - AED 96,555 hasil merentas 379 pesanan, jualan terlaris anda, dan cadangan susulan apabila sesuatu seperti Banana Bread tiba-tiba melonjak dalam menu. Bebenang dan koleksi menyimpan setiap aliran soalan di tempat anda tinggalkan.",
-          "alt": "Sundae Intelligence - antara muka keputusan perbualan",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - antara muka keputusan perbualan",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Papan Dinding Langsung",
@@ -5405,7 +5405,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulator Senario",
           "whatYouSee": "Tarik satu tuas dan lihat ia bergema menyeluruh model - bilangan tetamu dan bil mengalir ke hasil, kemudian kos makanan dan buruh, terus hingga ke EBITDA - dengan setiap pemacu pada peluncur, supaya anda nampak nilai sebenar satu perubahan sebelum anda lakukannya.",
           "alt": "Simulator Intelligence - lata senario apa-jika",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Pusat Arahan",

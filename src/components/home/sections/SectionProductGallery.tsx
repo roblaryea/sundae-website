@@ -99,13 +99,13 @@ const GALLERY: GalleryItem[] = [
   {
     id: "intelligence",
     src: "/images/product/2026-fresh/intelligence.png",
-    alt: "Sundae Intelligence - conversational decision interface",
-    caption: "Sundae Intelligence",
+    alt: "Ask Sundae - conversational decision interface",
+    caption: "Ask Sundae",
     whatYouSee:
       "Ask your data in plain language and get an answer grounded in tonight's real numbers - AED 96,555 in revenue across 379 orders, your top sellers, and a suggested follow-up when something like Banana Bread suddenly climbs the menu. Threads and collections keep every line of questioning where you left it.",
     personas: ["operations", "cfo", "c_suite"],
     productHref: "/intelligence",
-    productLabel: "Sundae Intelligence →",
+    productLabel: "Ask Sundae →",
   },
 
   // ─── Pulse - Operations command ──────────────────────────────
@@ -254,7 +254,7 @@ const GALLERY: GalleryItem[] = [
       "Pull one lever and watch it ripple through the whole model - covers and ticket flow into revenue, then food cost and labor, all the way down to EBITDA - with every driver on a slider, so you can see what a single change is really worth before you make it.",
     personas: ["cfo", "operations"],
     productHref: "/intelligence",
-    productLabel: "Sundae Intelligence →",
+    productLabel: "Ask Sundae →",
   },
 
   // ─── Watchtower - Competitive & market intelligence ──────────

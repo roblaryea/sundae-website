@@ -2,12 +2,12 @@
 // No money figures appear on this screen, so there is nothing to currency-localize;
 // percentages, percentage-point deltas ("−7pt"), counts and durations ("25 min",
 // "7d", "12%") stay numeric in the component and are not part of these strings.
-// Proper nouns ("Sundae Intelligence", "DIFC", "Talabat") and the acronym "SLA"
+// Proper nouns ("Ask Sundae", "DIFC", "Talabat") and the acronym "SLA"
 // are kept verbatim. The verdict and chart-title strings are sentence fragments
 // that join around those verbatim tokens — translate each fragment naturally.
 export const LOC: Record<string, Record<string, string>> = {
   ar: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'النطاق: التوصيل · DIFC · 7 أيام',
     question: 'لماذا انخفضت طلبات التوصيل بنسبة 12%؟',
     verdictLead: 'أمران، كلاهما في DIFC وقت العشاء:',
@@ -29,7 +29,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'اطرح سؤالاً للمتابعة...',
   },
   fr: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Périmètre : Livraison · DIFC · 7 j',
     question: 'Pourquoi les commandes en livraison ont-elles baissé de 12% ?',
     verdictLead: 'Deux causes, toutes deux à DIFC au dîner : une',
@@ -51,7 +51,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Posez une question de suivi...',
   },
   es: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Alcance: Reparto · DIFC · 7 d',
     question: '¿Por qué cayeron un 12% los pedidos a domicilio?',
     verdictLead: 'Dos motivos, ambos en DIFC en la cena: una',
@@ -73,7 +73,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Haz una pregunta de seguimiento...',
   },
   de: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Bereich: Lieferung · DIFC · 7 T',
     question: 'Warum sind die Lieferbestellungen um 12% gesunken?',
     verdictLead: 'Zwei Gründe, beide in DIFC zum Abendessen: ein',
@@ -95,7 +95,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Stellen Sie eine Anschlussfrage...',
   },
   nl: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Bereik: Bezorging · DIFC · 7 d',
     question: 'Waarom daalden de bezorgbestellingen met 12%?',
     verdictLead: 'Twee oorzaken, beide in DIFC tijdens het diner: een',
@@ -117,7 +117,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Stel een vervolgvraag...',
   },
   pt: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Âmbito: Entrega · DIFC · 7 d',
     question: 'Porque é que os pedidos de entrega caíram 12%?',
     verdictLead: 'Dois motivos, ambos no DIFC ao jantar: uma',
@@ -139,7 +139,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Faça uma pergunta de seguimento...',
   },
   hi: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'दायरा: डिलीवरी · DIFC · 7 दिन',
     question: 'डिलीवरी ऑर्डर 12% क्यों गिरे?',
     verdictLead: 'दो कारण, दोनों DIFC में रात के खाने पर: एक',
@@ -161,7 +161,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'फ़ॉलो-अप सवाल पूछें...',
   },
   ur: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'دائرہ: ڈیلیوری · DIFC · 7 دن',
     question: 'ڈیلیوری آرڈرز 12% کیوں گرے؟',
     verdictLead: 'دو وجوہات، دونوں DIFC میں رات کے کھانے پر: ایک',
@@ -183,7 +183,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'فالو اپ سوال پوچھیں...',
   },
   it: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Ambito: Consegna · DIFC · 7 g',
     question: 'Perché gli ordini in consegna sono calati del 12%?',
     verdictLead: 'Due cause, entrambe a DIFC a cena: un',
@@ -205,7 +205,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Fai una domanda di approfondimento...',
   },
   pl: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Zakres: Dostawa · DIFC · 7 dni',
     question: 'Dlaczego zamówienia z dostawą spadły o 12%?',
     verdictLead: 'Dwie przyczyny, obie w DIFC przy kolacji:',
@@ -227,7 +227,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Zadaj pytanie uzupełniające...',
   },
   tr: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Kapsam: Teslimat · DIFC · 7 g',
     question: 'Teslimat siparişleri neden %12 düştü?',
     verdictLead: 'İki neden, ikisi de DIFC’te akşam yemeğinde: bir',
@@ -249,7 +249,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Bir takip sorusu sorun...',
   },
   'zh-Hans': {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: '范围：外送 · DIFC · 7 天',
     question: '外送订单为何下降 12%？',
     verdictLead: '两个原因，均发生在 DIFC 的晚餐时段：',
@@ -271,7 +271,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: '追问一个问题...',
   },
   ja: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: '範囲：デリバリー · DIFC · 7日',
     question: 'デリバリー注文が12%減少したのはなぜですか？',
     verdictLead: '原因は2つ、いずれもDIFCのディナー時間帯です。',
@@ -293,7 +293,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'フォローアップの質問をどうぞ...',
   },
   ko: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: '범위: 배달 · DIFC · 7일',
     question: '배달 주문이 왜 12% 감소했나요?',
     verdictLead: '두 가지 원인으로, 모두 DIFC의 저녁 시간대입니다:',
@@ -315,7 +315,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: '후속 질문하기...',
   },
   id: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Cakupan: Pengantaran · DIFC · 7 h',
     question: 'Mengapa pesanan pengantaran turun 12%?',
     verdictLead: 'Dua hal, keduanya di DIFC saat makan malam: sebuah',
@@ -337,7 +337,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Ajukan pertanyaan lanjutan...',
   },
   vi: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Phạm vi: Giao hàng · DIFC · 7 ngày',
     question: 'Vì sao đơn giao hàng giảm 12%?',
     verdictLead: 'Hai nguyên nhân, đều ở DIFC vào bữa tối: một',
@@ -359,7 +359,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Đặt câu hỏi tiếp theo...',
   },
   ro: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Domeniu: Livrare · DIFC · 7 z',
     question: 'De ce au scăzut comenzile cu livrare cu 12%?',
     verdictLead: 'Două cauze, ambele în DIFC la cină: o',
@@ -381,7 +381,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Pune o întrebare suplimentară...',
   },
   sv: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Omfattning: Leverans · DIFC · 7 d',
     question: 'Varför sjönk leveransorderna med 12%?',
     verdictLead: 'Två orsaker, båda i DIFC vid middagen: ett',
@@ -403,7 +403,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'Ställ en följdfråga...',
   },
   bn: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'পরিসর: ডেলিভারি · DIFC · ৭ দিন',
     question: 'ডেলিভারি অর্ডার কেন 12% কমে গেল?',
     verdictLead: 'দুটি কারণ, উভয়ই DIFC-তে রাতের খাবারের সময়: একটি',
@@ -425,7 +425,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'একটি ফলো-আপ প্রশ্ন করুন...',
   },
   th: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'ขอบเขต: เดลิเวอรี · DIFC · 7 วัน',
     question: 'ทำไมยอดสั่งเดลิเวอรีลดลง 12%?',
     verdictLead: 'สองสาเหตุ ทั้งคู่อยู่ใน DIFC ช่วงมื้อค่ำ: การ',
@@ -447,7 +447,7 @@ export const LOC: Record<string, Record<string, string>> = {
     followUpPlaceholder: 'ถามคำถามต่อเนื่อง...',
   },
   ms: {
-    agentName: 'Sundae Intelligence',
+    agentName: 'Ask Sundae',
     scope: 'Skop: Penghantaran · DIFC · 7 h',
     question: 'Mengapa pesanan penghantaran turun 12%?',
     verdictLead: 'Dua sebab, kedua-duanya di DIFC pada waktu makan malam: satu',

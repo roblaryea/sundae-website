@@ -259,7 +259,7 @@ export const generatedLocalCopy = {
         "statLabel": "نموذج بيانات عبر 12 مجالاً"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "تحليلات المحادثة",
         "description": "اطرح الأسئلة بلغة واضحة. احصل على إجابات مدعومة ببياناتك الحقيقية - بالمصادر، وليس بالتخمينات. متوفر على الويب، وTelegram، وSlack، وMicrosoft Teams.",
         "icon": "conversation",
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
         "statLabel": "modelos de datos en 12 dominios"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Análisis conversacional",
         "description": "Haga preguntas en lenguaje sencillo. Obtenga respuestas respaldadas por sus datos reales, con fuentes, no conjeturas. Disponible en web, Telegram, Slack y Microsoft Teams.",
         "icon": "conversation",
@@ -455,7 +455,7 @@ export const generatedLocalCopy = {
         "statLabel": "Datenmodelle in 12 Domänen"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Konversationsanalyse",
         "description": "Stellen Sie Fragen in einfacher Sprache. Erhalten Sie Antworten, die auf Ihren echten Daten basieren - mit Quellen, nicht mit Vermutungen. Verfügbar im Web, Telegram, Slack und Microsoft Teams.",
         "icon": "conversation",
@@ -553,7 +553,7 @@ export const generatedLocalCopy = {
         "statLabel": "modèles de données dans 12 domaines"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analyse conversationnelle",
         "description": "Posez des questions dans un langage simple. Obtenez des réponses étayées par vos données réelles - avec des sources, pas des suppositions. Disponible sur le Web, Telegram, Slack et Microsoft Teams.",
         "icon": "conversation",
@@ -651,7 +651,7 @@ export const generatedLocalCopy = {
         "statLabel": "modelos de dados em 12 domínios"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Análise Conversacional",
         "description": "Faça perguntas em linguagem simples. Obtenha respostas baseadas em seus dados reais - com fontes, não com suposições. Disponível na web, Telegram, Slack e Microsoft Teams.",
         "icon": "conversation",
@@ -749,7 +749,7 @@ export const generatedLocalCopy = {
         "statLabel": "datamodellen over 12 domeinen"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Conversatieanalyse",
         "description": "Stel vragen in duidelijke taal. Krijg antwoorden ondersteund door uw echte gegevens - met bronnen, geen gissingen. Beschikbaar op internet, Telegram, Slack en Microsoft Teams.",
         "icon": "conversation",
@@ -847,7 +847,7 @@ export const generatedLocalCopy = {
         "statLabel": "12 ڈومینز میں ڈیٹا ماڈلز"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "بات چیت کے تجزیات",
         "description": "سادہ زبان میں سوالات پوچھیں۔ اپنے حقیقی ڈیٹا سے جوابات حاصل کریں - ذرائع کے ساتھ، اندازوں سے نہیں۔ ویب، Telegram، Slack اور Microsoft Teams پر دستیاب ہے۔",
         "icon": "conversation",
@@ -945,7 +945,7 @@ export const generatedLocalCopy = {
         "statLabel": "modelli di dati in 12 domini"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analisi conversazionale",
         "description": "Fai domande in un linguaggio semplice. Ottieni risposte supportate dai tuoi dati reali, con fonti, non supposizioni. Disponibile su Web, Telegram, Slack e Microsoft Teams.",
         "icon": "conversation",
@@ -1043,7 +1043,7 @@ export const generatedLocalCopy = {
         "statLabel": "12 डोमेन में डेटा मॉडल"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "संवादात्मक विश्लेषण",
         "description": "सरल भाषा में प्रश्न पूछें. अपने वास्तविक डेटा द्वारा समर्थित उत्तर प्राप्त करें - स्रोतों से, अनुमानों से नहीं। वेब, Telegram, Slack और Microsoft Teams पर उपलब्ध है।",
         "icon": "conversation",
@@ -1141,7 +1141,7 @@ export const generatedLocalCopy = {
         "statLabel": "modele danych w 12 domenach"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analityka konwersacji",
         "description": "Zadawaj pytania prostym językiem. Uzyskaj odpowiedzi poparte prawdziwymi danymi - źródłami, a nie domysłami. Dostępne w Internecie, Telegramie, Slacku i Microsoft Teams.",
         "icon": "conversation",
@@ -1239,7 +1239,7 @@ export const generatedLocalCopy = {
         "statLabel": "跨 12 个领域的数据模型"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "对话式分析",
         "description": "用通俗的语言提问。获得由你的真实数据支撑的答案 - 有出处，而非猜测。可在 Web、Telegram、Slack 和 Microsoft Teams 上使用。",
         "icon": "conversation",
@@ -1337,7 +1337,7 @@ export const generatedLocalCopy = {
         "statLabel": "12 alandaki veri modelleri"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Konuşma Analitiği",
         "description": "Sorularınızı sade bir dille sorun. Tahminlerle değil, kaynaklarla gerçek verilerinizle desteklenen yanıtlar alın. Web'de, Telegram'da, Slack'te ve Microsoft Teams'te mevcuttur.",
         "icon": "conversation",
@@ -1435,7 +1435,7 @@ export const generatedLocalCopy = {
         "statLabel": "model data di 12 domain"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analisis Percakapan",
         "description": "Ajukan pertanyaan dengan bahasa yang sederhana. Dapatkan jawaban yang didukung oleh data Anda yang sebenarnya - dengan sumber, bukan tebakan. Tersedia di web, Telegram, Slack, dan Microsoft Teams.",
         "icon": "conversation",
@@ -1533,7 +1533,7 @@ export const generatedLocalCopy = {
         "statLabel": "12のドメインにわたるデータモデル"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "会話型アナリティクス",
         "description": "平易な言葉で質問するだけ。推測ではなく実際のデータに裏付けられた、出典付きの回答が得られます。Web、Telegram、Slack、Microsoft Teams で利用できます。",
         "icon": "conversation",
@@ -1631,7 +1631,7 @@ export const generatedLocalCopy = {
         "statLabel": "12개 도메인에 걸친 데이터 모델"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "대화형 분석",
         "description": "쉬운 언어로 질문하세요. 추측이 아닌 출처를 통해 실제 데이터를 바탕으로 답변을 얻으세요. 웹, Telegram, Slack 및 Microsoft Teams에서 사용할 수 있습니다.",
         "icon": "conversation",
@@ -1729,7 +1729,7 @@ export const generatedLocalCopy = {
         "statLabel": "modele de date pe 12 domenii"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analiza conversațională",
         "description": "Pune întrebări într-un limbaj simplu. Obțineți răspunsuri susținute de datele dvs. reale - cu surse, nu presupuneri. Disponibil pe web, Telegram, Slack și Microsoft Teams.",
         "icon": "conversation",
@@ -1827,7 +1827,7 @@ export const generatedLocalCopy = {
         "statLabel": "mô hình dữ liệu trên 12 miền"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Phân tích hội thoại",
         "description": "Đặt câu hỏi bằng ngôn ngữ đơn giản. Nhận câu trả lời được hỗ trợ bởi dữ liệu thực của bạn - bằng nguồn chứ không phải phỏng đoán. Có sẵn trên web, Telegram, Slack và Microsoft Teams.",
         "icon": "conversation",
@@ -1925,7 +1925,7 @@ export const generatedLocalCopy = {
         "statLabel": "12টি ডোমেন জুড়ে ডেটা মডেল"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "কথোপকথন বিশ্লেষণ",
         "description": "সরল ভাষায় প্রশ্ন করুন। আপনার প্রকৃত ডেটা দ্বারা সমর্থিত উত্তরগুলি পান - উত্স সহ, অনুমান নয়। ওয়েব, Telegram, Slack এবং Microsoft Teams-এ উপলব্ধ।",
         "icon": "conversation",
@@ -2023,7 +2023,7 @@ export const generatedLocalCopy = {
         "statLabel": "datamodeller över 12 domäner"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Konversationsanalys",
         "description": "Ställ frågor i klartext. Få svar som backas upp av dina verkliga data - med källor, inte gissningar. Tillgängligt på webben, Telegram, Slack och Microsoft Teams.",
         "icon": "conversation",
@@ -2121,7 +2121,7 @@ export const generatedLocalCopy = {
         "statLabel": "แบบจำลองข้อมูลใน 12 โดเมน"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "การวิเคราะห์การสนทนา",
         "description": "ถามคำถามด้วยภาษาธรรมดา รับคำตอบที่ได้รับการสนับสนุนจากข้อมูลจริงของคุณ พร้อมแหล่งข้อมูล ไม่ใช่การคาดเดา พร้อมใช้งานบนเว็บ Telegram, Slack และ Microsoft Teams",
         "icon": "conversation",
@@ -2219,7 +2219,7 @@ export const generatedLocalCopy = {
         "statLabel": "model data merentas 12 domain"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analitis Perbualan",
         "description": "Tanya soalan dalam bahasa yang mudah. Dapatkan jawapan yang disokong oleh data sebenar anda - dengan sumber, bukan tekaan. Tersedia di web, Telegram, Slack dan Microsoft Teams.",
         "icon": "conversation",
