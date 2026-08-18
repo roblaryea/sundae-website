@@ -151,7 +151,7 @@ export function CoreHomeMobile() {
         </span>
       </div>
 
-      {/* exception card — labor (WATCH) */}
+      {/* exception card - labor (WATCH) */}
       <div
         style={{
           background: T.surf,
@@ -223,7 +223,7 @@ export function CoreHomeMobile() {
         </div>
       </div>
 
-      {/* exception card — revenue (GOOD NEWS) */}
+      {/* exception card - revenue (GOOD NEWS) */}
       <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, overflow: 'hidden' }}>
         <div style={{ padding: '14px 16px 13px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>

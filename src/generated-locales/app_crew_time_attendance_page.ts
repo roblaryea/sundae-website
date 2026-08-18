@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · الوقت والحضور",
     "heroLine1": "ساعاتٌ يمكنك",
     "heroLine2": "الوثوق بها فعلاً.",
-    "description": "يحوّل Crew Time & Attendance أي هاتف إلى ساعة الدوام. يسجّل الموظفون دخولهم فقط عندما يكونون في المطعم، ويؤكدونه بفحص وجهٍ سريع، ويسجّلون استراحاتهم — فتصل ساعاتٌ نظيفة وسهل الدفاع عنها إلى الرواتب.",
+    "description": "يحوّل Crew Time & Attendance أي هاتف إلى ساعة الدوام. يسجّل الموظفون دخولهم فقط عندما يكونون في المطعم، ويؤكدونه بفحص وجهٍ سريع، ويسجّلون استراحاتهم - فتصل ساعاتٌ نظيفة وسهل الدفاع عنها إلى الرواتب.",
     "primaryCta": "احجز جولة تعريفية على Crew",
     "secondaryCta": "شاهد Crew أثناء العمل",
     "heroProof": [
@@ -29,11 +29,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "ما الذي يضمّه الوقت والحضور",
     "featuresTitle": "كل ساعة، قابلة للإثبات.",
-    "featuresDescription": "ساعة دوام تعيش على هواتف فريقك — مُتحقَّق منها في المطعم، صادقة بشأن الاستراحات، وموصولة مباشرة بالرواتب.",
+    "featuresDescription": "ساعة دوام تعيش على هواتف فريقك - مُتحقَّق منها في المطعم، صادقة بشأن الاستراحات، وموصولة مباشرة بالرواتب.",
     "features": [
       {
         "title": "سجّل الدخول من أي هاتف",
-        "body": "لا أجهزة تشتريها أو تثبّتها. يسجّل الموظفون دخولهم وخروجهم من هواتفهم — وإذا انقطعت الإشارة، يُحفَظ تسجيل الدخول ويتزامن لحظة عودتهم إلى الإنترنت.",
+        "body": "لا أجهزة تشتريها أو تثبّتها. يسجّل الموظفون دخولهم وخروجهم من هواتفهم - وإذا انقطعت الإشارة، يُحفَظ تسجيل الدخول ويتزامن لحظة عودتهم إلى الإنترنت.",
         "chips": [
           "أي هاتف",
           "يعمل دون اتصال",
@@ -42,7 +42,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "في المطعم فقط",
-        "body": "يؤكّد أن الشخص موجودٌ فعلاً في الموقع قبل أن يتمكن من تسجيل الدخول — فلا يمكن بدء مناوبة من الأريكة.",
+        "body": "يؤكّد أن الشخص موجودٌ فعلاً في الموقع قبل أن يتمكن من تسجيل الدخول - فلا يمكن بدء مناوبة من الأريكة.",
         "chips": [
           "في الموقع فقط",
           "يستحيل تزويره",
@@ -51,7 +51,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "فحص الوجه أو البصمة",
-        "body": "فحص وجهٍ أو بصمةٍ سريع يؤكّد أن الشخص الصحيح هو من يسجّل الدخول — فلا أحد يسجّل بدلاً عن صديق.",
+        "body": "فحص وجهٍ أو بصمةٍ سريع يؤكّد أن الشخص الصحيح هو من يسجّل الدخول - فلا أحد يسجّل بدلاً عن صديق.",
         "chips": [
           "فحص الوجه",
           "البصمة",
@@ -78,7 +78,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "مباشرة إلى الرواتب",
-        "body": "تتدفق الساعات المعتمدة إلى الرواتب تلقائياً — الساعات العادية والإضافية محسوبة لك، دون إعادة إدخال أي شيء.",
+        "body": "تتدفق الساعات المعتمدة إلى الرواتب تلقائياً - الساعات العادية والإضافية محسوبة لك، دون إعادة إدخال أي شيء.",
         "chips": [
           "تلقائياً إلى الرواتب",
           "العمل الإضافي محسوب",
@@ -102,10 +102,10 @@ export const generatedLocalCopy = {
         "body": "يصحّح المديرون أي فوات ويعتمدون؛ فتتدفق ساعاتٌ نظيفة إلى الرواتب والعمل الإضافي محسوبٌ سلفاً."
       }
     ],
-    "loopLine": "يتدفق الحضور الحيّ إلى Workforce Health لحظة بدء المناوبة — فتبقى الصورة محدَّثة دائماً.",
+    "loopLine": "يتدفق الحضور الحيّ إلى Workforce Health لحظة بدء المناوبة - فتبقى الصورة محدَّثة دائماً.",
     "creamEyebrow": "في الموقع. مُتحقَّق. صادق.",
     "creamStatement": "حضورٌ تستطيع الصالة إثباته.",
-    "creamLede": "ساعة دوام تصمد أمام الإشارة الضعيفة، يستحيل تزويرها من المنزل، وتسجّل كل استراحة — فتكون الساعات التي تصل إلى الرواتب ساعاتٍ تستطيع الدفاع عنها.",
+    "creamLede": "ساعة دوام تصمد أمام الإشارة الضعيفة، يستحيل تزويرها من المنزل، وتسجّل كل استراحة - فتكون الساعات التي تصل إلى الرواتب ساعاتٍ تستطيع الدفاع عنها.",
     "relatedEyebrow": "بقية Crew",
     "relatedTitle": "الوقت والحضور قطعة واحدة من الطبقة التشغيلية.",
     "ctaEyebrow": "أوقف تسوية الساعة",
@@ -118,7 +118,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Temps & Présence",
     "heroLine1": "Des heures auxquelles",
     "heroLine2": "vous pouvez vraiment vous fier.",
-    "description": "Crew Time & Attendance transforme n'importe quel téléphone en pointeuse. Le personnel ne pointe que lorsqu'il est au restaurant, le confirme par une rapide reconnaissance faciale et enregistre ses pauses — pour que les heures qui arrivent en paie soient propres et faciles à défendre.",
+    "description": "Crew Time & Attendance transforme n'importe quel téléphone en pointeuse. Le personnel ne pointe que lorsqu'il est au restaurant, le confirme par une rapide reconnaissance faciale et enregistre ses pauses - pour que les heures qui arrivent en paie soient propres et faciles à défendre.",
     "primaryCta": "Réserver une démo de Crew",
     "secondaryCta": "Voir Crew en action",
     "heroProof": [
@@ -141,11 +141,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Ce que contient Temps & Présence",
     "featuresTitle": "Chaque heure, prouvable.",
-    "featuresDescription": "Une pointeuse qui vit sur les téléphones de votre équipe — vérifiée au restaurant, honnête sur les pauses, et reliée directement à la paie.",
+    "featuresDescription": "Une pointeuse qui vit sur les téléphones de votre équipe - vérifiée au restaurant, honnête sur les pauses, et reliée directement à la paie.",
     "features": [
       {
         "title": "Pointez depuis n'importe quel téléphone",
-        "body": "Aucun matériel à acheter ni à fixer. Le personnel pointe l'entrée et la sortie depuis son propre téléphone — et si le signal se coupe, le pointage est enregistré et se synchronise dès le retour en ligne.",
+        "body": "Aucun matériel à acheter ni à fixer. Le personnel pointe l'entrée et la sortie depuis son propre téléphone - et si le signal se coupe, le pointage est enregistré et se synchronise dès le retour en ligne.",
         "chips": [
           "N'importe quel téléphone",
           "Fonctionne hors ligne",
@@ -154,7 +154,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Au restaurant seulement",
-        "body": "Confirme qu'une personne est bien sur site avant de pouvoir pointer — impossible de démarrer un service depuis le canapé.",
+        "body": "Confirme qu'une personne est bien sur site avant de pouvoir pointer - impossible de démarrer un service depuis le canapé.",
         "chips": [
           "Sur site uniquement",
           "Infalsifiable",
@@ -163,7 +163,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Reconnaissance faciale ou empreinte",
-        "body": "Une rapide vérification par visage ou empreinte confirme que la bonne personne pointe — personne ne pointe à la place d'un ami.",
+        "body": "Une rapide vérification par visage ou empreinte confirme que la bonne personne pointe - personne ne pointe à la place d'un ami.",
         "chips": [
           "Reconnaissance faciale",
           "Empreinte",
@@ -190,7 +190,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Directement en paie",
-        "body": "Les heures validées passent automatiquement en paie — heures normales et supplémentaires calculées pour vous, sans rien ressaisir.",
+        "body": "Les heures validées passent automatiquement en paie - heures normales et supplémentaires calculées pour vous, sans rien ressaisir.",
         "chips": [
           "Auto vers la paie",
           "Heures sup calculées",
@@ -214,10 +214,10 @@ export const generatedLocalCopy = {
         "body": "Les managers corrigent les oublis et valident ; des heures propres passent en paie, heures sup déjà calculées."
       }
     ],
-    "loopLine": "La présence en direct alimente Workforce Health dès qu'un service commence — pour que l'image soit toujours à jour.",
+    "loopLine": "La présence en direct alimente Workforce Health dès qu'un service commence - pour que l'image soit toujours à jour.",
     "creamEyebrow": "Sur site. Vérifié. Honnête.",
     "creamStatement": "Une présence que le terrain peut prouver.",
-    "creamLede": "Une pointeuse qui survit à un mauvais signal, infalsifiable depuis chez soi, et qui enregistre chaque pause — pour que les heures qui arrivent en paie soient des heures que vous pouvez défendre.",
+    "creamLede": "Une pointeuse qui survit à un mauvais signal, infalsifiable depuis chez soi, et qui enregistre chaque pause - pour que les heures qui arrivent en paie soient des heures que vous pouvez défendre.",
     "relatedEyebrow": "Le reste de Crew",
     "relatedTitle": "Temps & Présence n'est qu'une pièce de la couche opérationnelle.",
     "ctaEyebrow": "Finissez-en avec le rapprochement des pointages",
@@ -230,7 +230,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Tiempo y Asistencia",
     "heroLine1": "Horas en las que",
     "heroLine2": "puedes confiar de verdad.",
-    "description": "Crew Time & Attendance convierte cualquier móvil en el reloj de fichaje. El personal ficha solo cuando está en el restaurante, lo confirma con una verificación facial rápida y registra sus descansos — para que las horas que llegan a nómina estén limpias y sean fáciles de defender.",
+    "description": "Crew Time & Attendance convierte cualquier móvil en el reloj de fichaje. El personal ficha solo cuando está en el restaurante, lo confirma con una verificación facial rápida y registra sus descansos - para que las horas que llegan a nómina estén limpias y sean fáciles de defender.",
     "primaryCta": "Reserva una demo de Crew",
     "secondaryCta": "Mira Crew en acción",
     "heroProof": [
@@ -253,11 +253,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Qué incluye Tiempo y Asistencia",
     "featuresTitle": "Cada hora, demostrable.",
-    "featuresDescription": "Un reloj de fichaje que vive en los móviles de tu equipo — verificado en el restaurante, honesto con los descansos y conectado directo a nómina.",
+    "featuresDescription": "Un reloj de fichaje que vive en los móviles de tu equipo - verificado en el restaurante, honesto con los descansos y conectado directo a nómina.",
     "features": [
       {
         "title": "Ficha desde cualquier móvil",
-        "body": "Sin hardware que comprar ni montar. El personal ficha entrada y salida desde su propio móvil — y si se cae la señal, el fichaje se guarda y se sincroniza en cuanto vuelve a estar en línea.",
+        "body": "Sin hardware que comprar ni montar. El personal ficha entrada y salida desde su propio móvil - y si se cae la señal, el fichaje se guarda y se sincroniza en cuanto vuelve a estar en línea.",
         "chips": [
           "Cualquier móvil",
           "Funciona sin conexión",
@@ -266,7 +266,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Solo en el restaurante",
-        "body": "Confirma que la persona está realmente en el local antes de poder fichar — un turno no se puede iniciar desde el sofá.",
+        "body": "Confirma que la persona está realmente en el local antes de poder fichar - un turno no se puede iniciar desde el sofá.",
         "chips": [
           "Solo en el local",
           "No se puede falsear",
@@ -275,7 +275,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Verificación facial o huella",
-        "body": "Una rápida verificación por rostro o huella confirma que ficha la persona correcta — nadie ficha por un amigo.",
+        "body": "Una rápida verificación por rostro o huella confirma que ficha la persona correcta - nadie ficha por un amigo.",
         "chips": [
           "Verificación facial",
           "Huella",
@@ -302,7 +302,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Directo a nómina",
-        "body": "Las horas aprobadas pasan a nómina automáticamente — ordinarias y extra calculadas por ti, sin reescribir nada.",
+        "body": "Las horas aprobadas pasan a nómina automáticamente - ordinarias y extra calculadas por ti, sin reescribir nada.",
         "chips": [
           "Auto a nómina",
           "Horas extra resueltas",
@@ -326,10 +326,10 @@ export const generatedLocalCopy = {
         "body": "Los managers corrigen los olvidos y dan el visto bueno; las horas limpias pasan a nómina con las extra ya calculadas."
       }
     ],
-    "loopLine": "La asistencia en vivo alimenta Workforce Health en cuanto empieza un turno — para que la imagen esté siempre al día.",
+    "loopLine": "La asistencia en vivo alimenta Workforce Health en cuanto empieza un turno - para que la imagen esté siempre al día.",
     "creamEyebrow": "En el local. Verificado. Honesto.",
     "creamStatement": "Una asistencia que el local puede demostrar.",
-    "creamLede": "Un reloj de fichaje que sobrevive a la mala señal, que no se puede falsear desde casa y que registra cada descanso — para que las horas que llegan a nómina sean horas que puedes defender.",
+    "creamLede": "Un reloj de fichaje que sobrevive a la mala señal, que no se puede falsear desde casa y que registra cada descanso - para que las horas que llegan a nómina sean horas que puedes defender.",
     "relatedEyebrow": "El resto de Crew",
     "relatedTitle": "Tiempo y Asistencia es una pieza de la capa operativa.",
     "ctaEyebrow": "Deja de cuadrar el reloj",
@@ -342,7 +342,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Zeiterfassung",
     "heroLine1": "Stunden, denen Sie",
     "heroLine2": "wirklich vertrauen.",
-    "description": "Crew Time & Attendance macht aus jedem Handy die Stechuhr. Mitarbeitende stempeln nur ein, wenn sie im Restaurant sind, bestätigen es mit einem kurzen Gesichts-Check und erfassen ihre Pausen – damit die Stunden, die in die Lohnabrechnung gehen, sauber sind und sich belegen lassen.",
+    "description": "Crew Time & Attendance macht aus jedem Handy die Stechuhr. Mitarbeitende stempeln nur ein, wenn sie im Restaurant sind, bestätigen es mit einem kurzen Gesichts-Check und erfassen ihre Pausen - damit die Stunden, die in die Lohnabrechnung gehen, sauber sind und sich belegen lassen.",
     "primaryCta": "Crew-Demo buchen",
     "secondaryCta": "Crew live erleben",
     "heroProof": [
@@ -365,11 +365,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Das steckt in Time & Attendance",
     "featuresTitle": "Jede Stunde, belegbar.",
-    "featuresDescription": "Eine Stechuhr auf den Handys Ihres Teams – vor Ort verifiziert, ehrlich bei Pausen und direkt mit der Lohnabrechnung verdrahtet.",
+    "featuresDescription": "Eine Stechuhr auf den Handys Ihres Teams - vor Ort verifiziert, ehrlich bei Pausen und direkt mit der Lohnabrechnung verdrahtet.",
     "features": [
       {
         "title": "Einstempeln von jedem Handy",
-        "body": "Keine Hardware zu kaufen oder montieren. Mitarbeitende stempeln über ihr eigenes Handy ein und aus – und fällt das Signal aus, wird das Einstempeln gespeichert und synchronisiert sich, sobald sie wieder online sind.",
+        "body": "Keine Hardware zu kaufen oder montieren. Mitarbeitende stempeln über ihr eigenes Handy ein und aus - und fällt das Signal aus, wird das Einstempeln gespeichert und synchronisiert sich, sobald sie wieder online sind.",
         "chips": [
           "Jedes Handy",
           "Auch offline",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Nur im Restaurant",
-        "body": "Bestätigt, dass eine Person wirklich vor Ort ist, bevor sie einstempeln kann – eine Schicht lässt sich nicht vom Sofa starten.",
+        "body": "Bestätigt, dass eine Person wirklich vor Ort ist, bevor sie einstempeln kann - eine Schicht lässt sich nicht vom Sofa starten.",
         "chips": [
           "Nur vor Ort",
           "Nicht fälschbar",
@@ -387,7 +387,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Gesichts- oder Fingerabdruck-Check",
-        "body": "Ein kurzer Gesichts- oder Fingerabdruck-Check bestätigt, dass die richtige Person einstempelt – niemand stempelt für eine:n Freund:in.",
+        "body": "Ein kurzer Gesichts- oder Fingerabdruck-Check bestätigt, dass die richtige Person einstempelt - niemand stempelt für eine:n Freund:in.",
         "chips": [
           "Gesichts-Check",
           "Fingerabdruck",
@@ -414,7 +414,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Direkt in die Lohnabrechnung",
-        "body": "Freigegebene Stunden fließen automatisch in die Lohnabrechnung – Regel- und Überstunden für Sie berechnet, nichts abgetippt.",
+        "body": "Freigegebene Stunden fließen automatisch in die Lohnabrechnung - Regel- und Überstunden für Sie berechnet, nichts abgetippt.",
         "chips": [
           "Auto in Lohnabrechnung",
           "Überstunden geregelt",
@@ -438,10 +438,10 @@ export const generatedLocalCopy = {
         "body": "Manager korrigieren Fehler und geben frei; saubere Stunden fließen mit bereits berechneten Überstunden in die Lohnabrechnung."
       }
     ],
-    "loopLine": "Live-Anwesenheit fließt in dem Moment in Workforce Health, in dem eine Schicht beginnt – das Bild ist immer aktuell.",
+    "loopLine": "Live-Anwesenheit fließt in dem Moment in Workforce Health, in dem eine Schicht beginnt - das Bild ist immer aktuell.",
     "creamEyebrow": "Vor Ort. Verifiziert. Ehrlich.",
     "creamStatement": "Anwesenheit, die der Betrieb belegen kann.",
-    "creamLede": "Eine Stechuhr, die schlechtes Signal übersteht, nicht von zu Hause gefälscht werden kann und jede Pause erfasst – damit die Stunden in der Lohnabrechnung welche sind, hinter denen Sie stehen können.",
+    "creamLede": "Eine Stechuhr, die schlechtes Signal übersteht, nicht von zu Hause gefälscht werden kann und jede Pause erfasst - damit die Stunden in der Lohnabrechnung welche sind, hinter denen Sie stehen können.",
     "relatedEyebrow": "Der Rest von Crew",
     "relatedTitle": "Time & Attendance ist nur ein Teil der operativen Ebene.",
     "ctaEyebrow": "Schluss mit dem Abgleich der Stechuhr",
@@ -454,7 +454,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Tijd & Aanwezigheid",
     "heroLine1": "Uren waar je",
     "heroLine2": "echt op kunt bouwen.",
-    "description": "Crew Time & Attendance maakt van elke telefoon de prikklok. Medewerkers klokken alleen in als ze in het restaurant zijn, bevestigen het met een snelle gezichtscontrole en leggen hun pauzes vast – zodat de uren die de salarisadministratie bereiken schoon zijn en goed te verantwoorden.",
+    "description": "Crew Time & Attendance maakt van elke telefoon de prikklok. Medewerkers klokken alleen in als ze in het restaurant zijn, bevestigen het met een snelle gezichtscontrole en leggen hun pauzes vast - zodat de uren die de salarisadministratie bereiken schoon zijn en goed te verantwoorden.",
     "primaryCta": "Plan een Crew-demo",
     "secondaryCta": "Bekijk Crew in actie",
     "heroProof": [
@@ -477,11 +477,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Wat zit er in Time & Attendance",
     "featuresTitle": "Elk uur, bewijsbaar.",
-    "featuresDescription": "Een prikklok die op de telefoons van je team leeft – geverifieerd in het restaurant, eerlijk over pauzes en rechtstreeks gekoppeld aan de salarisadministratie.",
+    "featuresDescription": "Een prikklok die op de telefoons van je team leeft - geverifieerd in het restaurant, eerlijk over pauzes en rechtstreeks gekoppeld aan de salarisadministratie.",
     "features": [
       {
         "title": "Inklokken vanaf elke telefoon",
-        "body": "Geen hardware te kopen of monteren. Medewerkers klokken in en uit vanaf hun eigen telefoon – en valt het signaal weg, dan wordt het inklokken bewaard en gesynchroniseerd zodra ze weer online zijn.",
+        "body": "Geen hardware te kopen of monteren. Medewerkers klokken in en uit vanaf hun eigen telefoon - en valt het signaal weg, dan wordt het inklokken bewaard en gesynchroniseerd zodra ze weer online zijn.",
         "chips": [
           "Elke telefoon",
           "Werkt offline",
@@ -490,7 +490,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Alleen in het restaurant",
-        "body": "Bevestigt dat iemand echt op locatie is voordat hij kan inklokken – een dienst start niet vanaf de bank.",
+        "body": "Bevestigt dat iemand echt op locatie is voordat hij kan inklokken - een dienst start niet vanaf de bank.",
         "chips": [
           "Alleen op locatie",
           "Niet te faken",
@@ -499,7 +499,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Gezichts- of vingerafdrukcontrole",
-        "body": "Een snelle gezichts- of vingerafdrukcontrole bevestigt dat de juiste persoon inklokt – niemand klokt in voor een vriend.",
+        "body": "Een snelle gezichts- of vingerafdrukcontrole bevestigt dat de juiste persoon inklokt - niemand klokt in voor een vriend.",
         "chips": [
           "Gezichtscontrole",
           "Vingerafdruk",
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Direct de salarisadministratie in",
-        "body": "Goedgekeurde uren stromen automatisch de salarisadministratie in – reguliere en overuren voor je uitgerekend, niets overtypen.",
+        "body": "Goedgekeurde uren stromen automatisch de salarisadministratie in - reguliere en overuren voor je uitgerekend, niets overtypen.",
         "chips": [
           "Auto naar salaris",
           "Overuren geregeld",
@@ -550,10 +550,10 @@ export const generatedLocalCopy = {
         "body": "Managers herstellen gemiste klokmomenten en geven akkoord; schone uren stromen de salarisadministratie in met overuren al uitgerekend."
       }
     ],
-    "loopLine": "Live aanwezigheid stroomt Workforce Health in op het moment dat een dienst begint – zo is het beeld altijd actueel.",
+    "loopLine": "Live aanwezigheid stroomt Workforce Health in op het moment dat een dienst begint - zo is het beeld altijd actueel.",
     "creamEyebrow": "Op locatie. Geverifieerd. Eerlijk.",
     "creamStatement": "Aanwezigheid die de vloer kan bewijzen.",
-    "creamLede": "Een prikklok die slecht signaal overleeft, niet vanaf thuis te faken is en elke pauze vastlegt – zodat de uren die de salarisadministratie bereiken er zijn die je kunt verantwoorden.",
+    "creamLede": "Een prikklok die slecht signaal overleeft, niet vanaf thuis te faken is en elke pauze vastlegt - zodat de uren die de salarisadministratie bereiken er zijn die je kunt verantwoorden.",
     "relatedEyebrow": "De rest van Crew",
     "relatedTitle": "Time & Attendance is één onderdeel van de operationele laag.",
     "ctaEyebrow": "Stop met het narekenen van de klok",
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Tempo & Assiduidade",
     "heroLine1": "Horas em que você",
     "heroLine2": "pode mesmo confiar.",
-    "description": "O Crew Time & Attendance transforma qualquer telemóvel no relógio de ponto. Os colaboradores só picam o ponto quando estão no restaurante, confirmam com uma verificação facial rápida e registam as pausas — para que as horas que chegam à folha de pagamento sejam limpas e fáceis de defender.",
+    "description": "O Crew Time & Attendance transforma qualquer telemóvel no relógio de ponto. Os colaboradores só picam o ponto quando estão no restaurante, confirmam com uma verificação facial rápida e registam as pausas - para que as horas que chegam à folha de pagamento sejam limpas e fáceis de defender.",
     "primaryCta": "Marcar uma demo do Crew",
     "secondaryCta": "Veja o Crew em ação",
     "heroProof": [
@@ -589,11 +589,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "O que há no Time & Attendance",
     "featuresTitle": "Cada hora, comprovável.",
-    "featuresDescription": "Um relógio de ponto que vive nos telemóveis da sua equipa — verificado no restaurante, honesto quanto às pausas e ligado diretamente à folha de pagamento.",
+    "featuresDescription": "Um relógio de ponto que vive nos telemóveis da sua equipa - verificado no restaurante, honesto quanto às pausas e ligado diretamente à folha de pagamento.",
     "features": [
       {
         "title": "Picar o ponto de qualquer telemóvel",
-        "body": "Nenhum hardware para comprar ou montar. Os colaboradores picam o ponto de entrada e saída no próprio telemóvel — e se o sinal cair, o registo fica guardado e sincroniza assim que voltarem a estar online.",
+        "body": "Nenhum hardware para comprar ou montar. Os colaboradores picam o ponto de entrada e saída no próprio telemóvel - e se o sinal cair, o registo fica guardado e sincroniza assim que voltarem a estar online.",
         "chips": [
           "Qualquer telemóvel",
           "Funciona offline",
@@ -602,7 +602,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Só no restaurante",
-        "body": "Confirma que a pessoa está mesmo no local antes de poder picar o ponto — não dá para começar um turno do sofá.",
+        "body": "Confirma que a pessoa está mesmo no local antes de poder picar o ponto - não dá para começar um turno do sofá.",
         "chips": [
           "Só no local",
           "Não dá para falsear",
@@ -611,7 +611,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Verificação facial ou de impressão digital",
-        "body": "Uma verificação rápida facial ou de impressão digital confirma que é a pessoa certa a picar o ponto — ninguém pica por um colega.",
+        "body": "Uma verificação rápida facial ou de impressão digital confirma que é a pessoa certa a picar o ponto - ninguém pica por um colega.",
         "chips": [
           "Verificação facial",
           "Impressão digital",
@@ -638,7 +638,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Direto para a folha de pagamento",
-        "body": "As horas aprovadas seguem automaticamente para a folha de pagamento — horas normais e extra calculadas por si, sem nada para redigitar.",
+        "body": "As horas aprovadas seguem automaticamente para a folha de pagamento - horas normais e extra calculadas por si, sem nada para redigitar.",
         "chips": [
           "Auto para a folha",
           "Horas extra resolvidas",
@@ -662,10 +662,10 @@ export const generatedLocalCopy = {
         "body": "Os gestores corrigem falhas e validam; as horas limpas seguem para a folha de pagamento com as horas extra já calculadas."
       }
     ],
-    "loopLine": "A assiduidade ao vivo flui para o Workforce Health no instante em que um turno começa — para o quadro estar sempre atual.",
+    "loopLine": "A assiduidade ao vivo flui para o Workforce Health no instante em que um turno começa - para o quadro estar sempre atual.",
     "creamEyebrow": "No local. Verificada. Honesta.",
     "creamStatement": "Assiduidade que a operação consegue provar.",
-    "creamLede": "Um relógio de ponto que sobrevive a mau sinal, não pode ser falseado de casa e regista cada pausa — para que as horas que chegam à folha de pagamento sejam horas que você consegue defender.",
+    "creamLede": "Um relógio de ponto que sobrevive a mau sinal, não pode ser falseado de casa e regista cada pausa - para que as horas que chegam à folha de pagamento sejam horas que você consegue defender.",
     "relatedEyebrow": "O resto do Crew",
     "relatedTitle": "O Time & Attendance é uma peça da camada operacional.",
     "ctaEyebrow": "Acabe com a reconciliação do ponto",
@@ -678,7 +678,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Time & Attendance",
     "heroLine1": "घंटे जिन पर आप",
     "heroLine2": "सच में भरोसा कर सकें।",
-    "description": "Crew Time & Attendance किसी भी फ़ोन को टाइम क्लॉक बना देता है। स्टाफ तभी क्लॉक-इन करते हैं जब वे रेस्तराँ पर हों, एक झटपट फ़ेस चेक से उसकी पुष्टि करते हैं, और अपने ब्रेक लॉग करते हैं — ताकि पेरोल तक पहुँचने वाले घंटे साफ़ हों और जिन पर पूरे भरोसे से खड़ा हुआ जा सके।",
+    "description": "Crew Time & Attendance किसी भी फ़ोन को टाइम क्लॉक बना देता है। स्टाफ तभी क्लॉक-इन करते हैं जब वे रेस्तराँ पर हों, एक झटपट फ़ेस चेक से उसकी पुष्टि करते हैं, और अपने ब्रेक लॉग करते हैं - ताकि पेरोल तक पहुँचने वाले घंटे साफ़ हों और जिन पर पूरे भरोसे से खड़ा हुआ जा सके।",
     "primaryCta": "Crew का वॉकथ्रू बुक करें",
     "secondaryCta": "Crew को काम करते देखें",
     "heroProof": [
@@ -701,11 +701,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Time & Attendance में क्या है",
     "featuresTitle": "हर घंटा, साबित करने लायक़।",
-    "featuresDescription": "एक टाइम क्लॉक जो आपकी टीम के फ़ोन पर रहता है — रेस्तराँ पर वेरिफ़ाई, ब्रेक के बारे में ईमानदार, और सीधे पेरोल से जुड़ा।",
+    "featuresDescription": "एक टाइम क्लॉक जो आपकी टीम के फ़ोन पर रहता है - रेस्तराँ पर वेरिफ़ाई, ब्रेक के बारे में ईमानदार, और सीधे पेरोल से जुड़ा।",
     "features": [
       {
         "title": "किसी भी फ़ोन से क्लॉक-इन",
-        "body": "कोई हार्डवेयर ख़रीदने या लगाने की ज़रूरत नहीं। स्टाफ अपने ही फ़ोन से क्लॉक-इन और क्लॉक-आउट करते हैं — और सिग्नल चला जाए तो क्लॉक-इन सेव हो जाता है और ऑनलाइन लौटते ही सिंक हो जाता है।",
+        "body": "कोई हार्डवेयर ख़रीदने या लगाने की ज़रूरत नहीं। स्टाफ अपने ही फ़ोन से क्लॉक-इन और क्लॉक-आउट करते हैं - और सिग्नल चला जाए तो क्लॉक-इन सेव हो जाता है और ऑनलाइन लौटते ही सिंक हो जाता है।",
         "chips": [
           "किसी भी फ़ोन पर",
           "ऑफ़लाइन भी चले",
@@ -714,7 +714,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "सिर्फ़ रेस्तराँ पर",
-        "body": "क्लॉक-इन से पहले पुष्टि करता है कि व्यक्ति सच में ऑन-साइट है — ताकि शिफ़्ट सोफ़े से शुरू न हो सके।",
+        "body": "क्लॉक-इन से पहले पुष्टि करता है कि व्यक्ति सच में ऑन-साइट है - ताकि शिफ़्ट सोफ़े से शुरू न हो सके।",
         "chips": [
           "सिर्फ़ ऑन-साइट",
           "नक़ली नहीं हो सकता",
@@ -723,7 +723,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "फ़ेस या फ़िंगरप्रिंट चेक",
-        "body": "एक झटपट फ़ेस या फ़िंगरप्रिंट चेक पुष्टि करता है कि सही व्यक्ति ही क्लॉक-इन कर रहा है — कोई किसी दोस्त के लिए पंच नहीं कर सकता।",
+        "body": "एक झटपट फ़ेस या फ़िंगरप्रिंट चेक पुष्टि करता है कि सही व्यक्ति ही क्लॉक-इन कर रहा है - कोई किसी दोस्त के लिए पंच नहीं कर सकता।",
         "chips": [
           "फ़ेस चेक",
           "फ़िंगरप्रिंट",
@@ -750,7 +750,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "सीधे पेरोल तक",
-        "body": "मंज़ूर घंटे अपने-आप पेरोल में चले जाते हैं — रेगुलर और ओवरटाइम आपके लिए हिसाब किया हुआ, कुछ भी दोबारा टाइप किए बिना।",
+        "body": "मंज़ूर घंटे अपने-आप पेरोल में चले जाते हैं - रेगुलर और ओवरटाइम आपके लिए हिसाब किया हुआ, कुछ भी दोबारा टाइप किए बिना।",
         "chips": [
           "अपने-आप पेरोल में",
           "ओवरटाइम तय",
@@ -774,10 +774,10 @@ export const generatedLocalCopy = {
         "body": "मैनेजर कोई भी छूट सुधारते हैं और साइन-ऑफ करते हैं; साफ़ घंटे ओवरटाइम के हिसाब के साथ पेरोल में चले जाते हैं।"
       }
     ],
-    "loopLine": "शिफ़्ट शुरू होते ही लाइव अटेंडेंस Workforce Health में जाती है — ताकि तस्वीर हमेशा ताज़ा रहे।",
+    "loopLine": "शिफ़्ट शुरू होते ही लाइव अटेंडेंस Workforce Health में जाती है - ताकि तस्वीर हमेशा ताज़ा रहे।",
     "creamEyebrow": "ऑन-साइट। वेरिफ़ाइड। ईमानदार।",
     "creamStatement": "अटेंडेंस जिसे फ़्लोर साबित कर सके।",
-    "creamLede": "एक टाइम क्लॉक जो ख़राब सिग्नल में भी टिके, घर से नक़ली न बनाई जा सके, और हर ब्रेक लॉग करे — ताकि पेरोल तक पहुँचने वाले घंटे वही हों जिन पर आप खड़े हो सकें।",
+    "creamLede": "एक टाइम क्लॉक जो ख़राब सिग्नल में भी टिके, घर से नक़ली न बनाई जा सके, और हर ब्रेक लॉग करे - ताकि पेरोल तक पहुँचने वाले घंटे वही हों जिन पर आप खड़े हो सकें।",
     "relatedEyebrow": "बाक़ी का Crew",
     "relatedTitle": "Time & Attendance ऑपरेशनल लेयर का एक हिस्सा है।",
     "ctaEyebrow": "क्लॉक का मिलान करना बंद करें",
@@ -790,7 +790,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Time & Attendance",
     "heroLine1": "گھنٹے جن پر آپ",
     "heroLine2": "واقعی بھروسا کر سکیں۔",
-    "description": "Crew Time & Attendance کسی بھی فون کو ٹائم کلاک بنا دیتا ہے۔ اسٹاف تبھی کلاک ان کرتے ہیں جب وہ ریستوران پر ہوں، ایک فوری فیس چیک سے اس کی تصدیق کرتے ہیں، اور اپنے بریک لاگ کرتے ہیں — تاکہ پے رول تک پہنچنے والے گھنٹے صاف ہوں اور جن پر پورے اعتماد سے کھڑا ہوا جا سکے۔",
+    "description": "Crew Time & Attendance کسی بھی فون کو ٹائم کلاک بنا دیتا ہے۔ اسٹاف تبھی کلاک ان کرتے ہیں جب وہ ریستوران پر ہوں، ایک فوری فیس چیک سے اس کی تصدیق کرتے ہیں، اور اپنے بریک لاگ کرتے ہیں - تاکہ پے رول تک پہنچنے والے گھنٹے صاف ہوں اور جن پر پورے اعتماد سے کھڑا ہوا جا سکے۔",
     "primaryCta": "Crew کا واک تھرو بک کریں",
     "secondaryCta": "Crew کو کام کرتے دیکھیں",
     "heroProof": [
@@ -813,11 +813,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Time & Attendance میں کیا ہے",
     "featuresTitle": "ہر گھنٹہ، ثابت کرنے کے قابل۔",
-    "featuresDescription": "ایک ٹائم کلاک جو آپ کی ٹیم کے فون پر رہتا ہے — ریستوران پر تصدیق شدہ، بریک کے بارے میں ایماندار، اور سیدھے پے رول سے جڑا۔",
+    "featuresDescription": "ایک ٹائم کلاک جو آپ کی ٹیم کے فون پر رہتا ہے - ریستوران پر تصدیق شدہ، بریک کے بارے میں ایماندار، اور سیدھے پے رول سے جڑا۔",
     "features": [
       {
         "title": "کسی بھی فون سے کلاک ان",
-        "body": "کوئی ہارڈ ویئر خریدنے یا لگانے کی ضرورت نہیں۔ اسٹاف اپنے ہی فون سے کلاک ان اور کلاک آؤٹ کرتے ہیں — اور اگر سگنل چلا جائے تو کلاک ان محفوظ ہو جاتا ہے اور آن لائن واپس آتے ہی سنک ہو جاتا ہے۔",
+        "body": "کوئی ہارڈ ویئر خریدنے یا لگانے کی ضرورت نہیں۔ اسٹاف اپنے ہی فون سے کلاک ان اور کلاک آؤٹ کرتے ہیں - اور اگر سگنل چلا جائے تو کلاک ان محفوظ ہو جاتا ہے اور آن لائن واپس آتے ہی سنک ہو جاتا ہے۔",
         "chips": [
           "کسی بھی فون پر",
           "آف لائن بھی چلے",
@@ -826,7 +826,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "صرف ریستوران پر",
-        "body": "کلاک ان سے پہلے تصدیق کرتا ہے کہ شخص واقعی آن سائٹ ہے — تاکہ شفٹ صوفے سے شروع نہ ہو سکے۔",
+        "body": "کلاک ان سے پہلے تصدیق کرتا ہے کہ شخص واقعی آن سائٹ ہے - تاکہ شفٹ صوفے سے شروع نہ ہو سکے۔",
         "chips": [
           "صرف آن سائٹ",
           "جعلی نہیں ہو سکتا",
@@ -835,7 +835,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "فیس یا فنگر پرنٹ چیک",
-        "body": "ایک فوری فیس یا فنگر پرنٹ چیک تصدیق کرتا ہے کہ صحیح شخص ہی کلاک ان کر رہا ہے — کوئی کسی دوست کے لیے پنچ نہیں کر سکتا۔",
+        "body": "ایک فوری فیس یا فنگر پرنٹ چیک تصدیق کرتا ہے کہ صحیح شخص ہی کلاک ان کر رہا ہے - کوئی کسی دوست کے لیے پنچ نہیں کر سکتا۔",
         "chips": [
           "فیس چیک",
           "فنگر پرنٹ",
@@ -862,7 +862,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "سیدھے پے رول تک",
-        "body": "منظور شدہ گھنٹے خود بخود پے رول میں چلے جاتے ہیں — ریگولر اور اوور ٹائم آپ کے لیے حساب کیا ہوا، کچھ بھی دوبارہ ٹائپ کیے بغیر۔",
+        "body": "منظور شدہ گھنٹے خود بخود پے رول میں چلے جاتے ہیں - ریگولر اور اوور ٹائم آپ کے لیے حساب کیا ہوا، کچھ بھی دوبارہ ٹائپ کیے بغیر۔",
         "chips": [
           "خود بخود پے رول میں",
           "اوور ٹائم طے",
@@ -886,10 +886,10 @@ export const generatedLocalCopy = {
         "body": "مینیجر کوئی بھی چھوٹ درست کرتے ہیں اور سائن آف کرتے ہیں؛ صاف گھنٹے اوور ٹائم کے حساب کے ساتھ پے رول میں چلے جاتے ہیں۔"
       }
     ],
-    "loopLine": "شفٹ شروع ہوتے ہی لائیو اٹینڈنس Workforce Health میں جاتی ہے — تاکہ تصویر ہمیشہ تازہ رہے۔",
+    "loopLine": "شفٹ شروع ہوتے ہی لائیو اٹینڈنس Workforce Health میں جاتی ہے - تاکہ تصویر ہمیشہ تازہ رہے۔",
     "creamEyebrow": "آن سائٹ۔ تصدیق شدہ۔ ایماندار۔",
     "creamStatement": "اٹینڈنس جسے فلور ثابت کر سکے۔",
-    "creamLede": "ایک ٹائم کلاک جو خراب سگنل میں بھی ٹکے، گھر سے جعلی نہ بنائی جا سکے، اور ہر بریک لاگ کرے — تاکہ پے رول تک پہنچنے والے گھنٹے وہی ہوں جن پر آپ کھڑے ہو سکیں۔",
+    "creamLede": "ایک ٹائم کلاک جو خراب سگنل میں بھی ٹکے، گھر سے جعلی نہ بنائی جا سکے، اور ہر بریک لاگ کرے - تاکہ پے رول تک پہنچنے والے گھنٹے وہی ہوں جن پر آپ کھڑے ہو سکیں۔",
     "relatedEyebrow": "باقی کا Crew",
     "relatedTitle": "Time & Attendance آپریشنل لیئر کا ایک حصہ ہے۔",
     "ctaEyebrow": "کلاک کا ملان کرنا بند کریں",
@@ -902,7 +902,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Time & Attendance",
     "heroLine1": "Ore di cui",
     "heroLine2": "fidarti davvero.",
-    "description": "Crew Time & Attendance trasforma qualsiasi telefono nel marcatempo. Il personale timbra solo quando è nel locale, lo conferma con un rapido controllo del volto e registra le pause — così le ore che arrivano al payroll sono pulite e facili da difendere.",
+    "description": "Crew Time & Attendance trasforma qualsiasi telefono nel marcatempo. Il personale timbra solo quando è nel locale, lo conferma con un rapido controllo del volto e registra le pause - così le ore che arrivano al payroll sono pulite e facili da difendere.",
     "primaryCta": "Prenota una demo di Crew",
     "secondaryCta": "Guarda Crew in azione",
     "heroProof": [
@@ -925,11 +925,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Cosa offre Time & Attendance",
     "featuresTitle": "Ogni ora, dimostrabile.",
-    "featuresDescription": "Un marcatempo che vive sui telefoni del team — verificato nel locale, onesto sulle pause e collegato dritto al payroll.",
+    "featuresDescription": "Un marcatempo che vive sui telefoni del team - verificato nel locale, onesto sulle pause e collegato dritto al payroll.",
     "features": [
       {
         "title": "Timbra da qualsiasi telefono",
-        "body": "Nessun hardware da comprare o montare. Il personale timbra entrata e uscita dal proprio telefono — e se il segnale cade, la timbratura si salva e si sincronizza appena torna online.",
+        "body": "Nessun hardware da comprare o montare. Il personale timbra entrata e uscita dal proprio telefono - e se il segnale cade, la timbratura si salva e si sincronizza appena torna online.",
         "chips": [
           "Qualsiasi telefono",
           "Funziona offline",
@@ -938,7 +938,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Solo nel locale",
-        "body": "Conferma che la persona è davvero in sede prima che possa timbrare — così un turno non può iniziare dal divano.",
+        "body": "Conferma che la persona è davvero in sede prima che possa timbrare - così un turno non può iniziare dal divano.",
         "chips": [
           "Solo in sede",
           "Non falsificabile",
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Volto o impronta",
-        "body": "Un rapido controllo del volto o dell'impronta conferma che a timbrare sia la persona giusta — nessuno timbra per un amico.",
+        "body": "Un rapido controllo del volto o dell'impronta conferma che a timbrare sia la persona giusta - nessuno timbra per un amico.",
         "chips": [
           "Controllo volto",
           "Impronta",
@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Dritte al payroll",
-        "body": "Le ore approvate confluiscono nel payroll in automatico — ordinario e straordinario già calcolati per te, senza ridigitare nulla.",
+        "body": "Le ore approvate confluiscono nel payroll in automatico - ordinario e straordinario già calcolati per te, senza ridigitare nulla.",
         "chips": [
           "Auto al payroll",
           "Straordinari calcolati",
@@ -998,10 +998,10 @@ export const generatedLocalCopy = {
         "body": "I manager correggono eventuali mancanze e approvano; le ore pulite confluiscono nel payroll con lo straordinario già calcolato."
       }
     ],
-    "loopLine": "La presenza dal vivo confluisce in Workforce Health nell'istante in cui inizia un turno — così il quadro è sempre aggiornato.",
+    "loopLine": "La presenza dal vivo confluisce in Workforce Health nell'istante in cui inizia un turno - così il quadro è sempre aggiornato.",
     "creamEyebrow": "In sede. Verificata. Onesta.",
     "creamStatement": "Presenze che la sala può dimostrare.",
-    "creamLede": "Un marcatempo che sopravvive al segnale debole, non si falsifica da casa e registra ogni pausa — così le ore che arrivano al payroll sono ore che puoi difendere.",
+    "creamLede": "Un marcatempo che sopravvive al segnale debole, non si falsifica da casa e registra ogni pausa - così le ore che arrivano al payroll sono ore che puoi difendere.",
     "relatedEyebrow": "Il resto di Crew",
     "relatedTitle": "Time & Attendance è una parte del livello operativo.",
     "ctaEyebrow": "Smettila di riconciliare il marcatempo",
@@ -1014,7 +1014,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Czas i obecność",
     "heroLine1": "Godziny, którym",
     "heroLine2": "naprawdę zaufasz.",
-    "description": "Crew Time & Attendance zamienia każdy telefon w zegar czasu pracy. Pracownicy odbijają się tylko wtedy, gdy są w restauracji, potwierdzają to szybkim skanem twarzy i rejestrują przerwy — więc godziny, które trafiają do płac, są czyste i łatwe do obrony.",
+    "description": "Crew Time & Attendance zamienia każdy telefon w zegar czasu pracy. Pracownicy odbijają się tylko wtedy, gdy są w restauracji, potwierdzają to szybkim skanem twarzy i rejestrują przerwy - więc godziny, które trafiają do płac, są czyste i łatwe do obrony.",
     "primaryCta": "Umów prezentację Crew",
     "secondaryCta": "Zobacz Crew w akcji",
     "heroProof": [
@@ -1037,11 +1037,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Co znajdziesz w Time & Attendance",
     "featuresTitle": "Każda godzina do udowodnienia.",
-    "featuresDescription": "Zegar czasu pracy, który żyje na telefonach zespołu — zweryfikowany w restauracji, uczciwy co do przerw i wpięty prosto w płace.",
+    "featuresDescription": "Zegar czasu pracy, który żyje na telefonach zespołu - zweryfikowany w restauracji, uczciwy co do przerw i wpięty prosto w płace.",
     "features": [
       {
         "title": "Odbijaj z każdego telefonu",
-        "body": "Nic do kupienia ani montażu. Pracownicy odbijają wejście i wyjście z własnego telefonu — a gdy sygnał padnie, odbicie zapisuje się i synchronizuje, gdy tylko wrócą online.",
+        "body": "Nic do kupienia ani montażu. Pracownicy odbijają wejście i wyjście z własnego telefonu - a gdy sygnał padnie, odbicie zapisuje się i synchronizuje, gdy tylko wrócą online.",
         "chips": [
           "Każdy telefon",
           "Działa offline",
@@ -1050,7 +1050,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Tylko w restauracji",
-        "body": "Potwierdza, że osoba jest faktycznie na miejscu, zanim odbije wejście — więc zmiany nie da się zacząć z kanapy.",
+        "body": "Potwierdza, że osoba jest faktycznie na miejscu, zanim odbije wejście - więc zmiany nie da się zacząć z kanapy.",
         "chips": [
           "Tylko na miejscu",
           "Nie do oszukania",
@@ -1059,7 +1059,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Skan twarzy lub odcisku palca",
-        "body": "Szybki skan twarzy lub odcisku palca potwierdza, że odbija właściwa osoba — nikt nie odbija za kolegę.",
+        "body": "Szybki skan twarzy lub odcisku palca potwierdza, że odbija właściwa osoba - nikt nie odbija za kolegę.",
         "chips": [
           "Skan twarzy",
           "Odcisk palca",
@@ -1086,7 +1086,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Prosto do płac",
-        "body": "Zatwierdzone godziny trafiają do płac automatycznie — zwykłe i nadgodziny policzone za Ciebie, nic nie trzeba przepisywać.",
+        "body": "Zatwierdzone godziny trafiają do płac automatycznie - zwykłe i nadgodziny policzone za Ciebie, nic nie trzeba przepisywać.",
         "chips": [
           "Auto do płac",
           "Nadgodziny ogarnięte",
@@ -1110,10 +1110,10 @@ export const generatedLocalCopy = {
         "body": "Menedżerowie poprawiają braki i akceptują; czyste godziny trafiają do płac z już policzonymi nadgodzinami."
       }
     ],
-    "loopLine": "Obecność na żywo trafia do Workforce Health w chwili rozpoczęcia zmiany — więc obraz jest zawsze aktualny.",
+    "loopLine": "Obecność na żywo trafia do Workforce Health w chwili rozpoczęcia zmiany - więc obraz jest zawsze aktualny.",
     "creamEyebrow": "Na miejscu. Zweryfikowane. Uczciwe.",
     "creamStatement": "Obecność, którą zmiana udowodni.",
-    "creamLede": "Zegar czasu pracy, który przetrwa słaby zasięg, nie da się oszukać z domu i rejestruje każdą przerwę — więc godziny, które trafiają do płac, to takie, za którymi staniesz.",
+    "creamLede": "Zegar czasu pracy, który przetrwa słaby zasięg, nie da się oszukać z domu i rejestruje każdą przerwę - więc godziny, które trafiają do płac, to takie, za którymi staniesz.",
     "relatedEyebrow": "Reszta Crew",
     "relatedTitle": "Time & Attendance to jeden element warstwy operacyjnej.",
     "ctaEyebrow": "Skończ z uzgadnianiem zegara",
@@ -1126,7 +1126,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Mesai Takibi",
     "heroLine1": "Gerçekten",
     "heroLine2": "güvenebileceğiniz saatler.",
-    "description": "Crew Time & Attendance her telefonu mesai saatine çevirir. Personel yalnızca restorandayken giriş yapar, bunu hızlı bir yüz kontrolüyle doğrular ve molalarını kaydeder — böylece bordroya ulaşan saatler temiz ve arkasında durması kolay olur.",
+    "description": "Crew Time & Attendance her telefonu mesai saatine çevirir. Personel yalnızca restorandayken giriş yapar, bunu hızlı bir yüz kontrolüyle doğrular ve molalarını kaydeder - böylece bordroya ulaşan saatler temiz ve arkasında durması kolay olur.",
     "primaryCta": "Crew tanıtımı planlayın",
     "secondaryCta": "Crew'i iş başında görün",
     "heroProof": [
@@ -1149,11 +1149,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Time & Attendance'ta neler var",
     "featuresTitle": "Her saat kanıtlanabilir.",
-    "featuresDescription": "Ekibinizin telefonunda yaşayan bir mesai saati — restoranda doğrulanmış, molalar konusunda dürüst ve doğrudan bordroya bağlı.",
+    "featuresDescription": "Ekibinizin telefonunda yaşayan bir mesai saati - restoranda doğrulanmış, molalar konusunda dürüst ve doğrudan bordroya bağlı.",
     "features": [
       {
         "title": "Her telefondan giriş yapın",
-        "body": "Alınacak veya monte edilecek donanım yok. Personel kendi telefonundan giriş ve çıkış yapar — sinyal koparsa giriş kaydedilir ve çevrimiçi olur olmaz senkronize edilir.",
+        "body": "Alınacak veya monte edilecek donanım yok. Personel kendi telefonundan giriş ve çıkış yapar - sinyal koparsa giriş kaydedilir ve çevrimiçi olur olmaz senkronize edilir.",
         "chips": [
           "Her telefon",
           "Çevrimdışı çalışır",
@@ -1162,7 +1162,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Yalnızca restoranda",
-        "body": "Giriş yapabilmeden önce kişinin gerçekten yerinde olduğunu doğrular — yani vardiya koltuktan başlatılamaz.",
+        "body": "Giriş yapabilmeden önce kişinin gerçekten yerinde olduğunu doğrular - yani vardiya koltuktan başlatılamaz.",
         "chips": [
           "Yalnızca yerinde",
           "Sahtesi yapılamaz",
@@ -1171,7 +1171,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Yüz veya parmak izi kontrolü",
-        "body": "Hızlı bir yüz veya parmak izi kontrolü, giriş yapanın doğru kişi olduğunu doğrular — kimse bir arkadaşı için giriş yapamaz.",
+        "body": "Hızlı bir yüz veya parmak izi kontrolü, giriş yapanın doğru kişi olduğunu doğrular - kimse bir arkadaşı için giriş yapamaz.",
         "chips": [
           "Yüz kontrolü",
           "Parmak izi",
@@ -1198,7 +1198,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Doğrudan bordroya",
-        "body": "Onaylanan saatler bordroya otomatik akar — normal ve fazla mesai sizin için hesaplanır, hiçbir şey yeniden yazılmaz.",
+        "body": "Onaylanan saatler bordroya otomatik akar - normal ve fazla mesai sizin için hesaplanır, hiçbir şey yeniden yazılmaz.",
         "chips": [
           "Otomatik bordroya",
           "Fazla mesai hesaplı",
@@ -1222,10 +1222,10 @@ export const generatedLocalCopy = {
         "body": "Yöneticiler eksikleri düzeltir ve onaylar; temiz saatler fazla mesai zaten hesaplanmış hâlde bordroya akar."
       }
     ],
-    "loopLine": "Canlı devam verisi, vardiya başladığı anda Workforce Health'e akar — yani tablo her zaman güncel.",
+    "loopLine": "Canlı devam verisi, vardiya başladığı anda Workforce Health'e akar - yani tablo her zaman güncel.",
     "creamEyebrow": "Yerinde. Doğrulanmış. Dürüst.",
     "creamStatement": "Salonun kanıtlayabileceği devam takibi.",
-    "creamLede": "Kötü sinyalde ayakta kalan, evden sahtesi yapılamayan ve her molayı kaydeden bir mesai saati — yani bordroya ulaşan saatler arkasında durabileceğiniz saatler olur.",
+    "creamLede": "Kötü sinyalde ayakta kalan, evden sahtesi yapılamayan ve her molayı kaydeden bir mesai saati - yani bordroya ulaşan saatler arkasında durabileceğiniz saatler olur.",
     "relatedEyebrow": "Crew'in geri kalanı",
     "relatedTitle": "Time & Attendance, operasyonel katmanın bir parçasıdır.",
     "ctaEyebrow": "Saat mutabakatına son verin",
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · 考勤",
     "heroLine1": "真正",
     "heroLine2": "信得过的工时。",
-    "description": "Crew Time & Attendance 把任意一部手机变成打卡机。员工只有身处餐厅时才能打卡上班,用一次快速人脸核验确认,并记录休息——这样汇入薪资的工时干净、经得起核查。",
+    "description": "Crew Time & Attendance 把任意一部手机变成打卡机。员工只有身处餐厅时才能打卡上班,用一次快速人脸核验确认,并记录休息 -  - 这样汇入薪资的工时干净、经得起核查。",
     "primaryCta": "预约 Crew 演示",
     "secondaryCta": "看 Crew 实战",
     "heroProof": [
@@ -1261,11 +1261,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Time & Attendance 里有什么",
     "featuresTitle": "每一个工时,皆可证明。",
-    "featuresDescription": "一台活在团队手机里的打卡机——在餐厅核验、对休息如实记录,并直接接入薪资。",
+    "featuresDescription": "一台活在团队手机里的打卡机 -  - 在餐厅核验、对休息如实记录,并直接接入薪资。",
     "features": [
       {
         "title": "任意手机打卡",
-        "body": "无需购买或安装硬件。员工用自己的手机打上下班卡——若信号中断,打卡记录会保存,一旦恢复联网即刻同步。",
+        "body": "无需购买或安装硬件。员工用自己的手机打上下班卡 -  - 若信号中断,打卡记录会保存,一旦恢复联网即刻同步。",
         "chips": [
           "任意手机",
           "可离线使用",
@@ -1274,7 +1274,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "仅限餐厅内",
-        "body": "在能打卡之前先确认本人确实到岗——所以无法在沙发上开始一个班次。",
+        "body": "在能打卡之前先确认本人确实到岗 -  - 所以无法在沙发上开始一个班次。",
         "chips": [
           "仅限到岗",
           "无法作假",
@@ -1283,7 +1283,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "人脸或指纹核验",
-        "body": "一次快速的人脸或指纹核验,确认打卡的是对的人——没人能替朋友代打卡。",
+        "body": "一次快速的人脸或指纹核验,确认打卡的是对的人 -  - 没人能替朋友代打卡。",
         "chips": [
           "人脸核验",
           "指纹",
@@ -1310,7 +1310,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "直入薪资",
-        "body": "已核准的工时自动流入薪资——正常与加班已为你算好,无需重新录入。",
+        "body": "已核准的工时自动流入薪资 -  - 正常与加班已为你算好,无需重新录入。",
         "chips": [
           "自动入薪资",
           "加班已算清",
@@ -1334,10 +1334,10 @@ export const generatedLocalCopy = {
         "body": "管理者修正任何遗漏并签核;干净工时连同已算好的加班一起流入薪资。"
       }
     ],
-    "loopLine": "实时考勤在班次一开始就汇入 Workforce Health——所以全局画面始终最新。",
+    "loopLine": "实时考勤在班次一开始就汇入 Workforce Health -  - 所以全局画面始终最新。",
     "creamEyebrow": "到岗。核验。如实。",
     "creamStatement": "现场可证明的考勤。",
-    "creamLede": "一台扛得住弱信号、无法在家作假、且记录每一次休息的打卡机——所以汇入薪资的工时,是你站得住脚的工时。",
+    "creamLede": "一台扛得住弱信号、无法在家作假、且记录每一次休息的打卡机 -  - 所以汇入薪资的工时,是你站得住脚的工时。",
     "relatedEyebrow": "Crew 的其余部分",
     "relatedTitle": "Time & Attendance 只是运营层的一块。",
     "ctaEyebrow": "别再对账打卡了",
@@ -1462,7 +1462,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · 근태 관리",
     "heroLine1": "정말로 신뢰할 수 있는",
     "heroLine2": "근무 시간.",
-    "description": "Crew Time & Attendance는 모든 휴대폰을 출퇴근 기록기로 바꿉니다. 직원은 매장에 있을 때만 출근을 찍고, 빠른 얼굴 확인으로 인증하고, 휴게 시간을 기록합니다 — 그래서 급여로 넘어가는 시간이 깔끔하고 자신 있게 내놓을 수 있습니다.",
+    "description": "Crew Time & Attendance는 모든 휴대폰을 출퇴근 기록기로 바꿉니다. 직원은 매장에 있을 때만 출근을 찍고, 빠른 얼굴 확인으로 인증하고, 휴게 시간을 기록합니다 - 그래서 급여로 넘어가는 시간이 깔끔하고 자신 있게 내놓을 수 있습니다.",
     "primaryCta": "Crew 데모 예약하기",
     "secondaryCta": "Crew 직접 보기",
     "heroProof": [
@@ -1485,7 +1485,7 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Time & Attendance에 담긴 것",
     "featuresTitle": "모든 시간, 증명 가능하게.",
-    "featuresDescription": "팀의 휴대폰에 사는 출퇴근 기록기 — 매장에서 인증되고, 휴게 시간에 정직하며, 곧바로 급여로 연결됩니다.",
+    "featuresDescription": "팀의 휴대폰에 사는 출퇴근 기록기 - 매장에서 인증되고, 휴게 시간에 정직하며, 곧바로 급여로 연결됩니다.",
     "features": [
       {
         "title": "어떤 휴대폰으로든 출근",
@@ -1498,7 +1498,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "매장에서만",
-        "body": "출근을 찍기 전에 실제로 현장에 있는지 확인합니다 — 그래서 소파에서 근무를 시작할 수 없습니다.",
+        "body": "출근을 찍기 전에 실제로 현장에 있는지 확인합니다 - 그래서 소파에서 근무를 시작할 수 없습니다.",
         "chips": [
           "현장에서만",
           "위조 불가",
@@ -1507,7 +1507,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "얼굴 또는 지문 확인",
-        "body": "빠른 얼굴 또는 지문 확인으로 본인이 출근하는지 확인합니다 — 친구 대신 찍어 주는 일은 없습니다.",
+        "body": "빠른 얼굴 또는 지문 확인으로 본인이 출근하는지 확인합니다 - 친구 대신 찍어 주는 일은 없습니다.",
         "chips": [
           "얼굴 확인",
           "지문",
@@ -1534,7 +1534,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "바로 급여로",
-        "body": "승인된 시간이 자동으로 급여로 흘러듭니다 — 정규와 초과근무가 계산되어, 다시 입력할 것이 없습니다.",
+        "body": "승인된 시간이 자동으로 급여로 흘러듭니다 - 정규와 초과근무가 계산되어, 다시 입력할 것이 없습니다.",
         "chips": [
           "급여 자동 연결",
           "초과근무 정리",
@@ -1558,10 +1558,10 @@ export const generatedLocalCopy = {
         "body": "매니저가 누락을 수정하고 승인하면, 초과근무가 이미 계산된 깔끔한 시간이 급여로 흘러듭니다."
       }
     ],
-    "loopLine": "라이브 근태는 근무가 시작되는 순간 Workforce Health로 흘러듭니다 — 그래서 현황이 언제나 최신입니다.",
+    "loopLine": "라이브 근태는 근무가 시작되는 순간 Workforce Health로 흘러듭니다 - 그래서 현황이 언제나 최신입니다.",
     "creamEyebrow": "현장에서. 인증됨. 정직하게.",
     "creamStatement": "현장이 증명할 수 있는 근태.",
-    "creamLede": "신호가 나빠도 버티고, 집에서는 위조할 수 없으며, 모든 휴게 시간을 기록하는 출퇴근 기록기 — 그래서 급여로 가는 시간을 자신 있게 내놓을 수 있습니다.",
+    "creamLede": "신호가 나빠도 버티고, 집에서는 위조할 수 없으며, 모든 휴게 시간을 기록하는 출퇴근 기록기 - 그래서 급여로 가는 시간을 자신 있게 내놓을 수 있습니다.",
     "relatedEyebrow": "Crew의 나머지",
     "relatedTitle": "Time & Attendance는 운영 레이어의 한 조각입니다.",
     "ctaEyebrow": "기록 대조는 이제 그만",
@@ -1574,7 +1574,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Time & Attendance",
     "heroLine1": "Jam kerja yang",
     "heroLine2": "benar-benar tepercaya.",
-    "description": "Crew Time & Attendance mengubah ponsel apa pun menjadi mesin absen. Staf hanya bisa absen masuk saat berada di restoran, mengonfirmasinya dengan pemindaian wajah cepat, dan mencatat istirahat mereka — jadi jam kerja yang sampai ke payroll bersih dan mudah dipertanggungjawabkan.",
+    "description": "Crew Time & Attendance mengubah ponsel apa pun menjadi mesin absen. Staf hanya bisa absen masuk saat berada di restoran, mengonfirmasinya dengan pemindaian wajah cepat, dan mencatat istirahat mereka - jadi jam kerja yang sampai ke payroll bersih dan mudah dipertanggungjawabkan.",
     "primaryCta": "Jadwalkan demo Crew",
     "secondaryCta": "Lihat Crew beraksi",
     "heroProof": [
@@ -1597,11 +1597,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Isi Time & Attendance",
     "featuresTitle": "Setiap jam, bisa dibuktikan.",
-    "featuresDescription": "Mesin absen yang ada di ponsel tim Anda — diverifikasi di restoran, jujur soal istirahat, dan tersambung langsung ke payroll.",
+    "featuresDescription": "Mesin absen yang ada di ponsel tim Anda - diverifikasi di restoran, jujur soal istirahat, dan tersambung langsung ke payroll.",
     "features": [
       {
         "title": "Absen dari ponsel apa pun",
-        "body": "Tanpa perangkat untuk dibeli atau dipasang. Staf absen masuk dan keluar dari ponsel sendiri — dan jika sinyal hilang, absen tersimpan lalu tersinkron saat mereka kembali online.",
+        "body": "Tanpa perangkat untuk dibeli atau dipasang. Staf absen masuk dan keluar dari ponsel sendiri - dan jika sinyal hilang, absen tersimpan lalu tersinkron saat mereka kembali online.",
         "chips": [
           "Semua ponsel",
           "Bisa offline",
@@ -1610,7 +1610,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Hanya di restoran",
-        "body": "Memastikan seseorang benar-benar ada di lokasi sebelum bisa absen masuk — jadi shift tak bisa dimulai dari sofa.",
+        "body": "Memastikan seseorang benar-benar ada di lokasi sebelum bisa absen masuk - jadi shift tak bisa dimulai dari sofa.",
         "chips": [
           "Hanya di lokasi",
           "Tak bisa dipalsukan",
@@ -1619,7 +1619,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Pemindaian wajah atau sidik jari",
-        "body": "Pemindaian wajah atau sidik jari cepat memastikan orang yang tepat yang absen masuk — tak ada yang absen menggantikan teman.",
+        "body": "Pemindaian wajah atau sidik jari cepat memastikan orang yang tepat yang absen masuk - tak ada yang absen menggantikan teman.",
         "chips": [
           "Pindai wajah",
           "Sidik jari",
@@ -1646,7 +1646,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Langsung ke payroll",
-        "body": "Jam kerja yang disetujui mengalir ke payroll otomatis — reguler dan lembur dihitung untuk Anda, tanpa mengetik ulang.",
+        "body": "Jam kerja yang disetujui mengalir ke payroll otomatis - reguler dan lembur dihitung untuk Anda, tanpa mengetik ulang.",
         "chips": [
           "Otomatis ke payroll",
           "Lembur beres",
@@ -1670,10 +1670,10 @@ export const generatedLocalCopy = {
         "body": "Manajer mengoreksi kesalahan dan menyetujui; jam kerja bersih mengalir ke payroll dengan lembur sudah terhitung."
       }
     ],
-    "loopLine": "Kehadiran langsung mengalir ke Workforce Health saat shift dimulai — jadi gambarannya selalu terkini.",
+    "loopLine": "Kehadiran langsung mengalir ke Workforce Health saat shift dimulai - jadi gambarannya selalu terkini.",
     "creamEyebrow": "Di lokasi. Terverifikasi. Jujur.",
     "creamStatement": "Kehadiran yang bisa dibuktikan tim lapangan.",
-    "creamLede": "Mesin absen yang tahan sinyal buruk, tak bisa dipalsukan dari rumah, dan mencatat setiap istirahat — jadi jam kerja yang sampai ke payroll adalah yang bisa Anda pertanggungjawabkan.",
+    "creamLede": "Mesin absen yang tahan sinyal buruk, tak bisa dipalsukan dari rumah, dan mencatat setiap istirahat - jadi jam kerja yang sampai ke payroll adalah yang bisa Anda pertanggungjawabkan.",
     "relatedEyebrow": "Bagian lain Crew",
     "relatedTitle": "Time & Attendance adalah satu bagian dari lapisan operasional.",
     "ctaEyebrow": "Berhenti merekonsiliasi absen",
@@ -1686,7 +1686,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Chấm công",
     "heroLine1": "Giờ công bạn",
     "heroLine2": "thật sự tin được.",
-    "description": "Crew Time & Attendance biến mọi điện thoại thành máy chấm công. Nhân viên chỉ chấm công khi đang ở nhà hàng, xác nhận bằng một lần quét mặt nhanh, và ghi lại giờ nghỉ — nên số giờ tới bảng lương sạch và dễ đứng ra bảo vệ.",
+    "description": "Crew Time & Attendance biến mọi điện thoại thành máy chấm công. Nhân viên chỉ chấm công khi đang ở nhà hàng, xác nhận bằng một lần quét mặt nhanh, và ghi lại giờ nghỉ - nên số giờ tới bảng lương sạch và dễ đứng ra bảo vệ.",
     "primaryCta": "Đặt lịch demo Crew",
     "secondaryCta": "Xem Crew vận hành",
     "heroProof": [
@@ -1709,11 +1709,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Có gì trong Time & Attendance",
     "featuresTitle": "Từng giờ công, chứng minh được.",
-    "featuresDescription": "Một máy chấm công sống trên điện thoại của đội bạn — xác thực tại nhà hàng, trung thực về giờ nghỉ, và nối thẳng vào bảng lương.",
+    "featuresDescription": "Một máy chấm công sống trên điện thoại của đội bạn - xác thực tại nhà hàng, trung thực về giờ nghỉ, và nối thẳng vào bảng lương.",
     "features": [
       {
         "title": "Chấm công từ mọi điện thoại",
-        "body": "Không phần cứng để mua hay lắp. Nhân viên chấm công vào và ra ngay trên điện thoại của mình — và nếu mất sóng, lượt chấm công vẫn được lưu và đồng bộ ngay khi có mạng trở lại.",
+        "body": "Không phần cứng để mua hay lắp. Nhân viên chấm công vào và ra ngay trên điện thoại của mình - và nếu mất sóng, lượt chấm công vẫn được lưu và đồng bộ ngay khi có mạng trở lại.",
         "chips": [
           "Mọi điện thoại",
           "Chạy offline",
@@ -1722,7 +1722,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Chỉ tại nhà hàng",
-        "body": "Xác nhận một người thật sự đang có mặt tại chỗ trước khi được chấm công — nên không thể bắt đầu một ca từ trên ghế sofa.",
+        "body": "Xác nhận một người thật sự đang có mặt tại chỗ trước khi được chấm công - nên không thể bắt đầu một ca từ trên ghế sofa.",
         "chips": [
           "Chỉ tại chỗ",
           "Không gian lận được",
@@ -1731,7 +1731,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Quét mặt hoặc vân tay",
-        "body": "Một lần quét mặt hay vân tay nhanh xác nhận đúng người đang chấm công — không ai chấm công hộ bạn bè.",
+        "body": "Một lần quét mặt hay vân tay nhanh xác nhận đúng người đang chấm công - không ai chấm công hộ bạn bè.",
         "chips": [
           "Quét mặt",
           "Vân tay",
@@ -1758,7 +1758,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Thẳng vào bảng lương",
-        "body": "Giờ đã duyệt tự động chảy vào bảng lương — giờ thường và làm thêm được tính sẵn cho bạn, không phải gõ lại gì cả.",
+        "body": "Giờ đã duyệt tự động chảy vào bảng lương - giờ thường và làm thêm được tính sẵn cho bạn, không phải gõ lại gì cả.",
         "chips": [
           "Tự vào bảng lương",
           "Tính sẵn làm thêm",
@@ -1782,10 +1782,10 @@ export const generatedLocalCopy = {
         "body": "Quản lý sửa các lượt thiếu và ký duyệt; số giờ sạch chảy vào bảng lương với làm thêm đã tính sẵn."
       }
     ],
-    "loopLine": "Chấm công trực tiếp chảy vào Workforce Health ngay khi một ca bắt đầu — nên bức tranh luôn cập nhật.",
+    "loopLine": "Chấm công trực tiếp chảy vào Workforce Health ngay khi một ca bắt đầu - nên bức tranh luôn cập nhật.",
     "creamEyebrow": "Tại chỗ. Xác thực. Trung thực.",
     "creamStatement": "Chấm công mà ca làm chứng minh được.",
-    "creamLede": "Một máy chấm công sống sót qua sóng yếu, không thể gian lận từ nhà, và ghi lại mọi giờ nghỉ — nên số giờ tới bảng lương là số bạn có thể đứng ra bảo vệ.",
+    "creamLede": "Một máy chấm công sống sót qua sóng yếu, không thể gian lận từ nhà, và ghi lại mọi giờ nghỉ - nên số giờ tới bảng lương là số bạn có thể đứng ra bảo vệ.",
     "relatedEyebrow": "Phần còn lại của Crew",
     "relatedTitle": "Time & Attendance chỉ là một mảnh của lớp vận hành.",
     "ctaEyebrow": "Thôi đối soát máy chấm công",
@@ -1798,7 +1798,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Pontaj & Prezență",
     "heroLine1": "Ore în care poți",
     "heroLine2": "chiar avea încredere.",
-    "description": "Crew Time & Attendance transformă orice telefon în ceasul de pontaj. Angajații pontează doar când sunt la restaurant, confirmă printr-o verificare facială rapidă și își înregistrează pauzele — așa că orele care ajung la salarizare sunt curate și ușor de susținut.",
+    "description": "Crew Time & Attendance transformă orice telefon în ceasul de pontaj. Angajații pontează doar când sunt la restaurant, confirmă printr-o verificare facială rapidă și își înregistrează pauzele - așa că orele care ajung la salarizare sunt curate și ușor de susținut.",
     "primaryCta": "Programează o demonstrație Crew",
     "secondaryCta": "Vezi Crew în acțiune",
     "heroProof": [
@@ -1821,11 +1821,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Ce conține Time & Attendance",
     "featuresTitle": "Fiecare oră, demonstrabilă.",
-    "featuresDescription": "Un ceas de pontaj care trăiește pe telefoanele echipei tale — verificat la restaurant, sincer cu pauzele și conectat direct la salarizare.",
+    "featuresDescription": "Un ceas de pontaj care trăiește pe telefoanele echipei tale - verificat la restaurant, sincer cu pauzele și conectat direct la salarizare.",
     "features": [
       {
         "title": "Pontează de pe orice telefon",
-        "body": "Niciun echipament de cumpărat sau montat. Angajații pontează intrarea și ieșirea de pe propriul telefon — iar dacă semnalul cade, pontajul se salvează și se sincronizează imediat ce revin online.",
+        "body": "Niciun echipament de cumpărat sau montat. Angajații pontează intrarea și ieșirea de pe propriul telefon - iar dacă semnalul cade, pontajul se salvează și se sincronizează imediat ce revin online.",
         "chips": [
           "Orice telefon",
           "Funcționează offline",
@@ -1834,7 +1834,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Doar la restaurant",
-        "body": "Confirmă că o persoană e cu adevărat la fața locului înainte de a putea ponta — așa că o tură nu poate fi pornită de pe canapea.",
+        "body": "Confirmă că o persoană e cu adevărat la fața locului înainte de a putea ponta - așa că o tură nu poate fi pornită de pe canapea.",
         "chips": [
           "Doar la fața locului",
           "Nu poate fi falsificat",
@@ -1843,7 +1843,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Verificare facială sau amprentă",
-        "body": "O verificare rapidă a feței sau a amprentei confirmă că persoana potrivită pontează — nimeni nu pontează în locul unui prieten.",
+        "body": "O verificare rapidă a feței sau a amprentei confirmă că persoana potrivită pontează - nimeni nu pontează în locul unui prieten.",
         "chips": [
           "Verificare facială",
           "Amprentă",
@@ -1870,7 +1870,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Direct în salarizare",
-        "body": "Orele aprobate curg automat în salarizare — orele normale și suplimentare calculate pentru tine, fără nimic retastat.",
+        "body": "Orele aprobate curg automat în salarizare - orele normale și suplimentare calculate pentru tine, fără nimic retastat.",
         "chips": [
           "Automat în salarizare",
           "Ore suplimentare rezolvate",
@@ -1894,10 +1894,10 @@ export const generatedLocalCopy = {
         "body": "Managerii corectează omisiunile și aprobă; orele curate curg în salarizare cu orele suplimentare deja calculate."
       }
     ],
-    "loopLine": "Prezența live curge în Workforce Health din clipa în care începe o tură — așa că imaginea e mereu actuală.",
+    "loopLine": "Prezența live curge în Workforce Health din clipa în care începe o tură - așa că imaginea e mereu actuală.",
     "creamEyebrow": "La fața locului. Verificat. Sincer.",
     "creamStatement": "Prezența pe care tura o poate dovedi.",
-    "creamLede": "Un ceas de pontaj care supraviețuiește semnalului slab, nu poate fi falsificat de acasă și înregistrează fiecare pauză — așa că orele care ajung la salarizare sunt unele pe care le poți susține.",
+    "creamLede": "Un ceas de pontaj care supraviețuiește semnalului slab, nu poate fi falsificat de acasă și înregistrează fiecare pauză - așa că orele care ajung la salarizare sunt unele pe care le poți susține.",
     "relatedEyebrow": "Restul lui Crew",
     "relatedTitle": "Time & Attendance e doar o piesă a stratului operațional.",
     "ctaEyebrow": "Gata cu reconcilierea pontajului",
@@ -1910,7 +1910,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Tid & Närvaro",
     "heroLine1": "Timmar du",
     "heroLine2": "faktiskt kan lita på.",
-    "description": "Crew Time & Attendance gör vilken mobil som helst till stämpelklockan. Personalen stämplar in bara när de är på restaurangen, bekräftar med en snabb ansiktskontroll och loggar sina raster — så att timmarna som når lönen är rena och lätta att stå för.",
+    "description": "Crew Time & Attendance gör vilken mobil som helst till stämpelklockan. Personalen stämplar in bara när de är på restaurangen, bekräftar med en snabb ansiktskontroll och loggar sina raster - så att timmarna som når lönen är rena och lätta att stå för.",
     "primaryCta": "Boka en Crew-genomgång",
     "secondaryCta": "Se Crew i praktiken",
     "heroProof": [
@@ -1933,11 +1933,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Det här finns i Time & Attendance",
     "featuresTitle": "Varje timme, bevisbar.",
-    "featuresDescription": "En stämpelklocka som lever på teamets mobiler — verifierad på restaurangen, ärlig om rasterna och kopplad rakt in i lönen.",
+    "featuresDescription": "En stämpelklocka som lever på teamets mobiler - verifierad på restaurangen, ärlig om rasterna och kopplad rakt in i lönen.",
     "features": [
       {
         "title": "Stämpla in från vilken mobil som helst",
-        "body": "Ingen hårdvara att köpa eller montera. Personalen stämplar in och ut från sin egen mobil — och om signalen försvinner sparas instämplingen och synkar i samma stund de är online igen.",
+        "body": "Ingen hårdvara att köpa eller montera. Personalen stämplar in och ut från sin egen mobil - och om signalen försvinner sparas instämplingen och synkar i samma stund de är online igen.",
         "chips": [
           "Vilken mobil som helst",
           "Funkar offline",
@@ -1946,7 +1946,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Bara på restaurangen",
-        "body": "Bekräftar att en person verkligen är på plats innan de kan stämpla in — så ett pass kan inte startas från soffan.",
+        "body": "Bekräftar att en person verkligen är på plats innan de kan stämpla in - så ett pass kan inte startas från soffan.",
         "chips": [
           "Bara på plats",
           "Kan inte fuskas",
@@ -1955,7 +1955,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ansikts- eller fingeravtryckskontroll",
-        "body": "En snabb ansikts- eller fingeravtryckskontroll bekräftar att rätt person stämplar in — ingen som stämplar in åt en kompis.",
+        "body": "En snabb ansikts- eller fingeravtryckskontroll bekräftar att rätt person stämplar in - ingen som stämplar in åt en kompis.",
         "chips": [
           "Ansiktskontroll",
           "Fingeravtryck",
@@ -1982,7 +1982,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Rakt in i lönen",
-        "body": "Godkända timmar flödar automatiskt in i lönen — ordinarie tid och övertid uträknade åt dig, utan att något skrivs om.",
+        "body": "Godkända timmar flödar automatiskt in i lönen - ordinarie tid och övertid uträknade åt dig, utan att något skrivs om.",
         "chips": [
           "Automatiskt till lön",
           "Övertid uträknad",
@@ -2006,10 +2006,10 @@ export const generatedLocalCopy = {
         "body": "Cheferna rättar eventuella missar och godkänner; rena timmar flödar in i lönen med övertiden redan uträknad."
       }
     ],
-    "loopLine": "Närvaron i realtid flödar in i Workforce Health i samma stund ett pass börjar — så bilden är alltid aktuell.",
+    "loopLine": "Närvaron i realtid flödar in i Workforce Health i samma stund ett pass börjar - så bilden är alltid aktuell.",
     "creamEyebrow": "På plats. Verifierat. Ärligt.",
     "creamStatement": "Närvaro som golvet kan bevisa.",
-    "creamLede": "En stämpelklocka som överlever dålig signal, inte kan fuskas hemifrån och loggar varje rast — så att timmarna som når lönen är sådana du kan stå för.",
+    "creamLede": "En stämpelklocka som överlever dålig signal, inte kan fuskas hemifrån och loggar varje rast - så att timmarna som når lönen är sådana du kan stå för.",
     "relatedEyebrow": "Resten av Crew",
     "relatedTitle": "Time & Attendance är bara en bit av det operativa lagret.",
     "ctaEyebrow": "Sluta stämma av stämpelklockan",
@@ -2022,7 +2022,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Time & Attendance",
     "heroLine1": "যে ঘণ্টায় আপনি",
     "heroLine2": "সত্যিই ভরসা রাখতে পারেন।",
-    "description": "Crew Time & Attendance যেকোনো ফোনকে বানিয়ে দেয় টাইম ক্লক। স্টাফরা কেবল রেস্তোরাঁয় থাকলেই ক্লক-ইন করে, দ্রুত একটা ফেস চেক দিয়ে নিশ্চিত করে আর তাদের বিরতি লগ করে — তাই পেরোলে যে ঘণ্টাগুলো পৌঁছায় সেগুলো পরিষ্কার আর নির্ভয়ে দাঁড় করানো যায়।",
+    "description": "Crew Time & Attendance যেকোনো ফোনকে বানিয়ে দেয় টাইম ক্লক। স্টাফরা কেবল রেস্তোরাঁয় থাকলেই ক্লক-ইন করে, দ্রুত একটা ফেস চেক দিয়ে নিশ্চিত করে আর তাদের বিরতি লগ করে - তাই পেরোলে যে ঘণ্টাগুলো পৌঁছায় সেগুলো পরিষ্কার আর নির্ভয়ে দাঁড় করানো যায়।",
     "primaryCta": "একটি Crew ওয়াকথ্রু বুক করুন",
     "secondaryCta": "Crew-কে কাজে দেখুন",
     "heroProof": [
@@ -2045,11 +2045,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Time & Attendance-এ যা আছে",
     "featuresTitle": "প্রতিটি ঘণ্টা, প্রমাণযোগ্য।",
-    "featuresDescription": "এমন টাইম ক্লক যা থাকে আপনার টিমের ফোনেই — রেস্তোরাঁয় যাচাই করা, বিরতির ব্যাপারে সৎ, আর সরাসরি পেরোলে যুক্ত।",
+    "featuresDescription": "এমন টাইম ক্লক যা থাকে আপনার টিমের ফোনেই - রেস্তোরাঁয় যাচাই করা, বিরতির ব্যাপারে সৎ, আর সরাসরি পেরোলে যুক্ত।",
     "features": [
       {
         "title": "যেকোনো ফোন থেকে ক্লক-ইন",
-        "body": "কেনা বা লাগানোর মতো কোনো হার্ডওয়্যার নেই। স্টাফরা নিজের ফোন থেকেই ক্লক-ইন ও ক্লক-আউট করে — আর সিগন্যাল চলে গেলে ক্লক-ইন সেভ হয়ে যায়, অনলাইনে ফিরলেই সিঙ্ক হয়।",
+        "body": "কেনা বা লাগানোর মতো কোনো হার্ডওয়্যার নেই। স্টাফরা নিজের ফোন থেকেই ক্লক-ইন ও ক্লক-আউট করে - আর সিগন্যাল চলে গেলে ক্লক-ইন সেভ হয়ে যায়, অনলাইনে ফিরলেই সিঙ্ক হয়।",
         "chips": [
           "যেকোনো ফোন",
           "অফলাইনেও চলে",
@@ -2058,7 +2058,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "শুধু রেস্তোরাঁতেই",
-        "body": "ক্লক-ইনের আগে নিশ্চিত করে যে ব্যক্তি সত্যিই অন-সাইটে আছে — তাই সোফায় বসে শিফট শুরু করা যায় না।",
+        "body": "ক্লক-ইনের আগে নিশ্চিত করে যে ব্যক্তি সত্যিই অন-সাইটে আছে - তাই সোফায় বসে শিফট শুরু করা যায় না।",
         "chips": [
           "শুধু অন-সাইট",
           "নকল করা যায় না",
@@ -2067,7 +2067,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "ফেস বা ফিঙ্গারপ্রিন্ট চেক",
-        "body": "দ্রুত একটা ফেস বা ফিঙ্গারপ্রিন্ট চেক নিশ্চিত করে সঠিক মানুষই ক্লক-ইন করছে — বন্ধুর হয়ে কেউ পাঞ্চ করে দিতে পারে না।",
+        "body": "দ্রুত একটা ফেস বা ফিঙ্গারপ্রিন্ট চেক নিশ্চিত করে সঠিক মানুষই ক্লক-ইন করছে - বন্ধুর হয়ে কেউ পাঞ্চ করে দিতে পারে না।",
         "chips": [
           "ফেস চেক",
           "ফিঙ্গারপ্রিন্ট",
@@ -2094,7 +2094,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "সরাসরি পেরোলে",
-        "body": "অনুমোদিত ঘণ্টা স্বয়ংক্রিয়ভাবে পেরোলে চলে যায় — সাধারণ আর ওভারটাইম হিসাব করা থাকে, নতুন করে টাইপ করার কিছু নেই।",
+        "body": "অনুমোদিত ঘণ্টা স্বয়ংক্রিয়ভাবে পেরোলে চলে যায় - সাধারণ আর ওভারটাইম হিসাব করা থাকে, নতুন করে টাইপ করার কিছু নেই।",
         "chips": [
           "স্বয়ংক্রিয় পেরোল",
           "ওভারটাইম সমাধান",
@@ -2118,10 +2118,10 @@ export const generatedLocalCopy = {
         "body": "ম্যানেজাররা যেকোনো মিস সংশোধন করে সাইন-অফ করেন; পরিষ্কার ঘণ্টা ওভারটাইমসহ পেরোলে চলে যায়।"
       }
     ],
-    "loopLine": "শিফট শুরু হওয়ার মুহূর্তেই লাইভ উপস্থিতি Workforce Health-এ যায় — তাই চিত্রটা সবসময় হালনাগাদ।",
+    "loopLine": "শিফট শুরু হওয়ার মুহূর্তেই লাইভ উপস্থিতি Workforce Health-এ যায় - তাই চিত্রটা সবসময় হালনাগাদ।",
     "creamEyebrow": "অন-সাইট। যাচাইকৃত। সৎ।",
     "creamStatement": "উপস্থিতি যা ফ্লোর প্রমাণ করতে পারে।",
-    "creamLede": "এমন এক টাইম ক্লক যা খারাপ সিগন্যালেও টিকে থাকে, বাড়ি থেকে নকল করা যায় না, আর প্রতিটি বিরতি লগ করে — তাই পেরোলে পৌঁছানো ঘণ্টা এমন, যা আপনি নির্ভয়ে দাঁড় করাতে পারেন।",
+    "creamLede": "এমন এক টাইম ক্লক যা খারাপ সিগন্যালেও টিকে থাকে, বাড়ি থেকে নকল করা যায় না, আর প্রতিটি বিরতি লগ করে - তাই পেরোলে পৌঁছানো ঘণ্টা এমন, যা আপনি নির্ভয়ে দাঁড় করাতে পারেন।",
     "relatedEyebrow": "Crew-এর বাকিটা",
     "relatedTitle": "Time & Attendance অপারেশনাল লেয়ারের একটিমাত্র অংশ।",
     "ctaEyebrow": "ক্লক মেলানো বন্ধ করুন",
@@ -2246,7 +2246,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Time & Attendance",
     "heroLine1": "Jam kerja yang",
     "heroLine2": "benar-benar boleh dipercayai.",
-    "description": "Crew Time & Attendance menukar mana-mana telefon menjadi jam ketik masa. Staf hanya mengetik masuk apabila mereka berada di restoran, mengesahkannya dengan imbasan wajah pantas, dan mencatat rehat mereka — jadi jam kerja yang sampai ke gaji adalah bersih dan mudah dipertahankan.",
+    "description": "Crew Time & Attendance menukar mana-mana telefon menjadi jam ketik masa. Staf hanya mengetik masuk apabila mereka berada di restoran, mengesahkannya dengan imbasan wajah pantas, dan mencatat rehat mereka - jadi jam kerja yang sampai ke gaji adalah bersih dan mudah dipertahankan.",
     "primaryCta": "Tempah sesi tunjuk cara Crew",
     "secondaryCta": "Lihat Crew beraksi",
     "heroProof": [
@@ -2269,11 +2269,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Apa yang ada dalam Time & Attendance",
     "featuresTitle": "Setiap jam, boleh dibuktikan.",
-    "featuresDescription": "Jam ketik masa yang hidup pada telefon pasukan anda — disahkan di restoran, jujur tentang rehat, dan terus disambung ke gaji.",
+    "featuresDescription": "Jam ketik masa yang hidup pada telefon pasukan anda - disahkan di restoran, jujur tentang rehat, dan terus disambung ke gaji.",
     "features": [
       {
         "title": "Ketik masuk dari mana-mana telefon",
-        "body": "Tiada perkakasan untuk dibeli atau dipasang. Staf ketik masuk dan keluar dari telefon mereka sendiri — dan jika isyarat terputus, ketik masuk disimpan dan disegerak sebaik sahaja mereka kembali dalam talian.",
+        "body": "Tiada perkakasan untuk dibeli atau dipasang. Staf ketik masuk dan keluar dari telefon mereka sendiri - dan jika isyarat terputus, ketik masuk disimpan dan disegerak sebaik sahaja mereka kembali dalam talian.",
         "chips": [
           "Mana-mana telefon",
           "Berfungsi luar talian",
@@ -2282,7 +2282,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Di restoran sahaja",
-        "body": "Mengesahkan seseorang benar-benar berada di lokasi sebelum boleh ketik masuk — jadi syif tidak boleh dimulakan dari atas sofa.",
+        "body": "Mengesahkan seseorang benar-benar berada di lokasi sebelum boleh ketik masuk - jadi syif tidak boleh dimulakan dari atas sofa.",
         "chips": [
           "Di lokasi sahaja",
           "Tak boleh dipalsukan",
@@ -2291,7 +2291,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Imbasan wajah atau cap jari",
-        "body": "Imbasan wajah atau cap jari pantas mengesahkan orang yang betul sedang ketik masuk — tiada sesiapa mengetik masuk bagi pihak kawan.",
+        "body": "Imbasan wajah atau cap jari pantas mengesahkan orang yang betul sedang ketik masuk - tiada sesiapa mengetik masuk bagi pihak kawan.",
         "chips": [
           "Imbasan wajah",
           "Cap jari",
@@ -2318,7 +2318,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Terus ke gaji",
-        "body": "Jam yang diluluskan mengalir ke gaji secara automatik — jam biasa dan lebih masa dikira untuk anda, tanpa apa-apa ditaip semula.",
+        "body": "Jam yang diluluskan mengalir ke gaji secara automatik - jam biasa dan lebih masa dikira untuk anda, tanpa apa-apa ditaip semula.",
         "chips": [
           "Auto ke gaji",
           "Lebih masa selesai",
@@ -2342,10 +2342,10 @@ export const generatedLocalCopy = {
         "body": "Pengurus membetulkan sebarang yang tertinggal dan mengesahkan; jam yang bersih mengalir ke gaji dengan lebih masa sudah dikira."
       }
     ],
-    "loopLine": "Kehadiran langsung mengalir ke Workforce Health sebaik sahaja syif bermula — jadi gambarannya sentiasa terkini.",
+    "loopLine": "Kehadiran langsung mengalir ke Workforce Health sebaik sahaja syif bermula - jadi gambarannya sentiasa terkini.",
     "creamEyebrow": "Di lokasi. Disahkan. Jujur.",
     "creamStatement": "Kehadiran yang lantai boleh buktikan.",
-    "creamLede": "Jam ketik masa yang tahan isyarat lemah, tidak boleh dipalsukan dari rumah, dan mencatat setiap rehat — jadi jam yang sampai ke gaji adalah jam yang boleh anda pertahankan.",
+    "creamLede": "Jam ketik masa yang tahan isyarat lemah, tidak boleh dipalsukan dari rumah, dan mencatat setiap rehat - jadi jam yang sampai ke gaji adalah jam yang boleh anda pertahankan.",
     "relatedEyebrow": "Selebihnya Crew",
     "relatedTitle": "Time & Attendance hanyalah satu bahagian lapisan operasi.",
     "ctaEyebrow": "Berhenti menyemak balik jam ketik",

@@ -93,7 +93,7 @@ export const intelligenceCreamCopy: Record<string, { eyebrow: string; statement:
   ko: {
     eyebrow: '대화형 AI',
     statement: '평범한 말로 묻고, 몇 초 만에 *결정하세요*.',
-    lede: '당신의 데이터를 웹, Slack, Teams에서 답해드립니다 - 실제 숫자에 근거해서.',
+    lede: '당신의 데이터를 웹, Slack, Teams에서 답해드립니다--실제 숫자에 근거해서.',
   },
   id: {
     eyebrow: 'AI PERCAKAPAN',

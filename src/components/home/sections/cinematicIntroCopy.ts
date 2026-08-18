@@ -202,7 +202,7 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     headline: '看见每一层。',
     tagline: '及时行动。',
     eyebrow: '面向多门店运营者的决策智能平台',
-    sub: 'Sundae 连接业务的每一层 - 营收、用工、库存、客人、营销与门店表现 - 让团队看清变化，并在仍来得及时采取行动。',
+    sub: 'Sundae 连接业务的每一层--营收、用工、库存、客人、营销与门店表现--让团队看清变化，并在仍来得及时采取行动。',
     cta: '预约演示',
     layers: [
       { name: '根基', sub: '组织拓扑' },
@@ -218,7 +218,7 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     headline: 'すべてのレイヤーを見る。',
     tagline: '間に合ううちに動く。',
     eyebrow: '多店舗オペレーター向けの意思決定インテリジェンス・プラットフォーム',
-    sub: 'Sundae はビジネスのあらゆるレイヤー - 売上、労務、在庫、ゲスト、マーケティング、店舗パフォーマンス - をつなぎ、何が変わったかをチームが把握し、間に合ううちに動けるようにします。',
+    sub: 'Sundae はビジネスのあらゆるレイヤー--売上、労務、在庫、ゲスト、マーケティング、店舗パフォーマンス--をつなぎ、何が変わったかをチームが把握し、間に合ううちに動けるようにします。',
     cta: 'デモを予約',
     layers: [
       { name: '基盤', sub: '組織トポロジー' },
@@ -234,7 +234,7 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     headline: '모든 계층을 보세요.',
     tagline: '제때 움직이세요.',
     eyebrow: '다점포 운영자를 위한 의사결정 인텔리전스 플랫폼',
-    sub: 'Sundae는 비즈니스의 모든 계층 - 매출, 인력, 재고, 고객, 마케팅, 매장 성과 - 을 연결해 팀이 무엇이 바뀌었는지 보고 늦기 전에 움직이게 합니다.',
+    sub: 'Sundae는 비즈니스의 모든 계층--매출, 인력, 재고, 고객, 마케팅, 매장 성과--을 연결해 팀이 무엇이 바뀌었는지 보고 늦기 전에 움직이게 합니다.',
     cta: '데모 예약',
     layers: [
       { name: '기반', sub: '조직 구조' },

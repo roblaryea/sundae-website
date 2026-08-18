@@ -104,7 +104,7 @@ export const productCreamCopy: Record<string, ProductCreamCopy> = {
   ko: {
     eyebrow: '여섯 계층, 하나의 진실',
     statement: '운영 전체를 *하나의* 의사결정 화면에.',
-    lede: '실시간 운영, 벤치마크, 시장 신호, 심층 분석, AI, 예측 - 서로 대화하는 하나의 스택.',
+    lede: '실시간 운영, 벤치마크, 시장 신호, 심층 분석, AI, 예측--서로 대화하는 하나의 스택.',
   },
   id: {
     eyebrow: 'ENAM LAPISAN, SATU KEBENARAN',

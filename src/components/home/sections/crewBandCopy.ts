@@ -358,7 +358,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "eyebrow": "CREW · 人材オペレーション",
     "headline": "人に関わる業務を、ひとつに。",
     "accent": "すべてのシフトが、シグナルになる。",
-    "sub": "シフト管理、勤怠、給与準備、そして採用から退職までのすべての従業員ライフサイクルを - Sundae 内でネイティブに動かすことも、自社の HR をそのまま使うこともできます。すべてのシフト、打刻、給与計算が運用データとなり、プラットフォーム全体を鋭くします - Pulse や Labor Intelligence から Sundae Intelligence や Foresight まで。",
+    "sub": "シフト管理、勤怠、給与準備、そして採用から退職までのすべての従業員ライフサイクルを--Sundae 内でネイティブに動かすことも、自社の HR をそのまま使うこともできます。すべてのシフト、打刻、給与計算が運用データとなり、プラットフォーム全体を鋭くします--Pulse や Labor Intelligence から Sundae Intelligence や Foresight まで。",
     "pillars": [
       {
         "title": "シフト管理",
@@ -384,7 +384,7 @@ export const crewBandCopy: Record<WebsiteLocale, CrewBandCopy> = {
     "eyebrow": "CREW · 인력 운영",
     "headline": "사람을 관리하는 일, 한곳에서.",
     "accent": "모든 근무가 신호가 됩니다.",
-    "sub": "근무 일정, 근태, 급여 준비, 그리고 채용부터 퇴사까지 이어지는 전체 직원 생애주기를 - Sundae 안에서 기본으로 운영하거나, 기존 HR을 그대로 연결할 수 있습니다. 모든 근무, 모든 출퇴근 기록, 모든 급여 지급이 운영 데이터가 되어 플랫폼 전체를 더 날카롭게 만듭니다 - Pulse와 Labor Intelligence부터 Sundae Intelligence와 Foresight까지.",
+    "sub": "근무 일정, 근태, 급여 준비, 그리고 채용부터 퇴사까지 이어지는 전체 직원 생애주기를--Sundae 안에서 기본으로 운영하거나, 기존 HR을 그대로 연결할 수 있습니다. 모든 근무, 모든 출퇴근 기록, 모든 급여 지급이 운영 데이터가 되어 플랫폼 전체를 더 날카롭게 만듭니다--Pulse와 Labor Intelligence부터 Sundae Intelligence와 Foresight까지.",
     "pillars": [
       {
         "title": "근무 스케줄",

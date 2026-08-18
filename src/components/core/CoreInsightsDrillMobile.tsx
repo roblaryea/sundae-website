@@ -23,16 +23,16 @@ const EN = {
   summaryScope: 'DIFC · Dinner · Talabat',
   summaryDelta: '▼ 19%',
   summaryValue: '412 orders',
-  worstHours: 'Worst hours — tap to drill',
-  row1Title: '9 PM — orders auto-paused',
+  worstHours: 'Worst hours - tap to drill',
+  row1Title: '9 PM - orders auto-paused',
   row1Sub: 'prep time hit 41 min · SLA breach',
   row1Delta: '▼ 38%',
   row1Count: '28 ord',
-  row2Title: '10 PM — recovering',
+  row2Title: '10 PM - recovering',
   row2Sub: 'queue cleared, listing still low',
   row2Delta: '▼ 11%',
   row2Count: '44 ord',
-  row3Title: '8 PM — healthy',
+  row3Title: '8 PM - healthy',
   row3Sub: 'on par with last week',
   row3Delta: '▲ 2%',
   row3Count: '96 ord',
@@ -218,7 +218,7 @@ export function CoreInsightsDrillMobile() {
         </div>
       </div>
 
-      {/* worst hours — drill rows */}
+      {/* worst hours - drill rows */}
       <div
         style={{
           font: `600 11px ${FONT}`,
@@ -257,7 +257,7 @@ export function CoreInsightsDrillMobile() {
         />
       </div>
 
-      {/* thumb action row — detail always ends in an action */}
+      {/* thumb action row - detail always ends in an action */}
       <div style={{ display: 'flex', gap: 8, marginTop: 16 }}>
         <button
           type="button"

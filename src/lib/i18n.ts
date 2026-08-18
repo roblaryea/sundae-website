@@ -2465,7 +2465,7 @@ const expandedLocaleMessageOverrides = {
   },
   'zh-Hans': {
     metadata: {
-      title: 'Sundae - 面向餐厅的决策智能',
+      title: 'Sundae--面向餐厅的决策智能',
       description:
         '面向餐厅的决策智能平台--统一 POS、人员、成本和运营数据，对比绩效，并将其转化为下一步正确的行动。',
     },
@@ -2506,7 +2506,7 @@ const expandedLocaleMessageOverrides = {
   },
   ja: {
     metadata: {
-      title: 'Sundae - レストランのための意思決定インテリジェンス',
+      title: 'Sundae--レストランのための意思決定インテリジェンス',
       description:
         'レストランのための意思決定インテリジェンス・プラットフォーム。POS、人員、コスト、運営データを統合し、成果を比較して次の最善手に変えます。',
     },
@@ -2547,7 +2547,7 @@ const expandedLocaleMessageOverrides = {
   },
   ko: {
     metadata: {
-      title: 'Sundae - 레스토랑을 위한 의사결정 인텔리전스',
+      title: 'Sundae--레스토랑을 위한 의사결정 인텔리전스',
       description:
         '레스토랑을 위한 의사결정 인텔리전스 플랫폼입니다. POS, 인력, 비용, 운영 데이터를 통합하고 성과를 비교해 다음 최선의 결정으로 바꿉니다.',
     },

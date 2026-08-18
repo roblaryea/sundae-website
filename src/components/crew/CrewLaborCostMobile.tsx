@@ -70,7 +70,7 @@ export function CrewLaborCostMobile() {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2px 2px 0' }}>
         <button style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 99, padding: '5px 11px 5px 6px', cursor: 'pointer' }}>
           <span style={{ width: 20, height: 20, borderRadius: 6, background: T.acc, color: T.acck, font: `700 10px ${FONT}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>S</span>
-          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae — DIFC</span>
+          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae - DIFC</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>▾</span>
         </button>
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
@@ -133,15 +133,15 @@ export function CrewLaborCostMobile() {
       <div style={{ background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: '4px 16px 14px' }}>
         <div style={{ padding: '2px 0 2px' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 7 }}>
-            <span style={{ font: `600 13px ${FONT}`, color: T.tx }}>Sundae — DIFC</span>
+            <span style={{ font: `600 13px ${FONT}`, color: T.tx }}>Sundae - DIFC</span>
             <span style={{ font: `600 12.5px ${FONT}`, color: T.tx2 }}>27.1%</span>
           </div>
           <div style={{ height: 8, borderRadius: 99, background: T.bd, overflow: 'hidden' }}>
             <span style={{ display: 'block', height: '100%', width: '90%', background: T.acc, borderRadius: 99 }} />
           </div>
         </div>
-        <OutletBar name="Sundae — Marina" value="28.0%" width="93%" color={T.acc} />
-        <OutletBar name="Sundae — JBR" value="31.2%" width="104%" color={T.warn} />
+        <OutletBar name="Sundae - Marina" value="28.0%" width="93%" color={T.acc} />
+        <OutletBar name="Sundae - JBR" value="31.2%" width="104%" color={T.warn} />
       </div>
 
       {/* CTA */}

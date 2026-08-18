@@ -70,7 +70,7 @@ export function CrewTimeOffMobile() {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 999, padding: '5px 10px 5px 5px' }}>
           <span style={{ width: 20, height: 20, borderRadius: 6, background: T.acc, color: T.acck, font: `800 10px ${FONT}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>S</span>
-          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae — DIFC</span>
+          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae - DIFC</span>
           <svg width="11" height="11" viewBox="0 0 15 15" fill="none"><path d="M4 6l3.5 3.5L11 6" stroke={T.tx3} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </span>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
@@ -110,7 +110,7 @@ export function CrewTimeOffMobile() {
       {/* requests */}
       <div style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3, margin: '16px 2px 9px' }}>{t.requestsLabel}</div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
-        <Request dot={T.pos} when="14–16 Apr" detail={`3 ${t.daysUnit} · ${t.annualLeave}`} status={t.approved} tone={T.posk} tonet={T.post} />
+        <Request dot={T.pos} when="14 - 16 Apr" detail={`3 ${t.daysUnit} · ${t.annualLeave}`} status={t.approved} tone={T.posk} tonet={T.post} />
         <Request dot={T.warn} when="2 May" detail={`1 ${t.dayUnit} · ${t.annualLeave}`} status={t.pending} tone={T.warnk} tonet={T.warnt} />
       </div>
 

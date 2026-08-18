@@ -242,7 +242,7 @@ export function Section4DScene() {
         >
           {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
               Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
-          {/* Through-line stepper — numbered nodes joined by a connector that
+          {/* Through-line stepper - numbered nodes joined by a connector that
               fills as the scenario reasons forward (what happened → the fix). */}
           <div className="relative mx-auto mb-5 sm:mb-6 max-w-2xl">
             <div className="absolute left-[12.5%] right-[12.5%] top-[15px] h-0.5 rounded-full bg-[var(--border-default)]" aria-hidden />

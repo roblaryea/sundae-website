@@ -223,7 +223,7 @@ function Hero() {
             transition={{ duration: 0.8, ease: EASE, delay: 0.18 }}
             style={{ fontFamily: SANS, fontSize: 'clamp(16px,1.5vw,19px)', lineHeight: 1.62, color: L.inkSoft, margin: '26px 0 32px', maxWidth: 480 }}
           >
-            Sundae connects every layer of the business — revenue, labor, inventory, guests, marketing, and outlet performance — so teams can see what changed and act while it still matters.
+            Sundae connects every layer of the business - revenue, labor, inventory, guests, marketing, and outlet performance - so teams can see what changed and act while it still matters.
           </motion.p>
           <motion.a
             href="/demo"
@@ -258,8 +258,8 @@ function Hero() {
 function ProofCards() {
   const cards: Array<[string, string, string]> = [
     ['5 min', 'Signal to action', 'From a shift-floor change to the decision that fixes it.'],
-    ['18', 'Decisions surfaced daily', 'Sundae brings the move to you — you stop hunting reports.'],
-    ['12', 'Operating domains unified', 'Revenue, labor, inventory, guests, marketing, outlets — one truth.'],
+    ['18', 'Decisions surfaced daily', 'Sundae brings the move to you - you stop hunting reports.'],
+    ['12', 'Operating domains unified', 'Revenue, labor, inventory, guests, marketing, outlets - one truth.'],
     ['6', 'Intelligence layers', 'Every layer of the business, visible at once.'],
   ];
   return (
@@ -268,7 +268,7 @@ function ProofCards() {
         <Reveal>
           <Eyebrow>What you get</Eyebrow>
           <h2 style={{ fontFamily: DISPLAY, fontWeight: 600, fontSize: 'clamp(28px,3.4vw,42px)', letterSpacing: '-0.02em', color: L.ink, margin: '14px 0 36px' }}>
-            Depth you can feel — even in daylight.
+            Depth you can feel - even in daylight.
           </h2>
         </Reveal>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: 22 }}>
@@ -320,7 +320,7 @@ function EditorialSplit() {
                 The best decisions happen <span style={{ fontStyle: 'italic', color: L.caramel }}>while the shift is still alive.</span>
               </h2>
               <p style={{ fontFamily: SANS, fontSize: 15, lineHeight: 1.6, color: L.inkSoft, margin: '20px 0 0', maxWidth: 420 }}>
-                Restaurants don&apos;t fail in reports. They slip in moments — a section slows, labor drifts, covers fall behind. Sundae catches them while there&apos;s still time to change the outcome.
+                Restaurants don&apos;t fail in reports. They slip in moments - a section slows, labor drifts, covers fall behind. Sundae catches them while there&apos;s still time to change the outcome.
               </p>
               {/* live moments - cream insets, ink type, hairline */}
               <div style={{ marginTop: 26, display: 'flex', flexDirection: 'column', gap: 8 }}>

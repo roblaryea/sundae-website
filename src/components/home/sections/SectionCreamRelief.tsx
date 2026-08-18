@@ -513,7 +513,7 @@ function LiveTrendLine({ reduceMotion }: { reduceMotion: boolean }) {
           <stop offset="100%" stopColor="rgba(22,168,120,0)" />
         </linearGradient>
       </defs>
-      {/* "now" divider — left of it is actual history, right of it is forecast */}
+      {/* "now" divider - left of it is actual history, right of it is forecast */}
       <line x1={X_NOW} y1="2" x2={X_NOW} y2={BASE} stroke="rgba(26,20,15,0.14)" strokeWidth="0.75" strokeDasharray="2 2.5" />
       <path d={shape.area} fill="url(#uvspark)" />
       <path d={shape.actual} fill="none" stroke="#16A878" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

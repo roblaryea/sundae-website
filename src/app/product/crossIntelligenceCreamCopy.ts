@@ -89,7 +89,7 @@ export const crossIntelligenceCreamCopy: Record<string, { eyebrow: string; state
   ko: {
     eyebrow: '연결된 신호',
     statement: '모든 신호가 운영 전반에서 *서로 연결*됩니다.',
-    lede: '인력, 매출, 재고, 고객 - 상관관계로 묶어 증상이 아닌 원인을 보여줍니다.',
+    lede: '인력, 매출, 재고, 고객--상관관계로 묶어 증상이 아닌 원인을 보여줍니다.',
   },
   id: {
     eyebrow: 'SINYAL TERHUBUNG',

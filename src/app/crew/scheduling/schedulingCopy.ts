@@ -12,7 +12,7 @@ export const schedulingCopy: Record<'en', CrewModuleCopy> = {
     heroLine1: 'Build the schedule',
     heroLine2: 'in minutes, not hours.',
     description:
-      "Crew Scheduling turns demand into a schedule your team actually trusts. The AI Builder drafts it from your forecast, role mix and who's available; managers edit it across four views; staff see their next shift, acknowledge it, and swap — all from their phone.",
+      "Crew Scheduling turns demand into a schedule your team actually trusts. The AI Builder drafts it from your forecast, role mix and who's available; managers edit it across four views; staff see their next shift, acknowledge it, and swap - all from their phone.",
     primaryCta: 'Book a Crew walkthrough',
     secondaryCta: 'See Crew in action',
     heroProof: [
@@ -23,16 +23,16 @@ export const schedulingCopy: Record<'en', CrewModuleCopy> = {
     ],
 
     featuresEyebrow: "What's in Scheduling",
-    featuresTitle: 'Everything the schedule needs — in one place.',
+    featuresTitle: 'Everything the schedule needs - in one place.',
     featuresDescription:
       'Built for the daily floor, not a demo: demand in, a published schedule out, and every shift flowing back into your decisions.',
     features: [
-      { title: 'AI Builder', body: 'Drafts the week from your forecast, role mix and who is available — in one pass. You refine it; you never start from a blank grid.', chips: ['Demand-aware', 'Role mix', 'One pass'] },
-      { title: 'Four ways to view', body: 'Read and edit the same week by overview, by person, by shift, or by role — whichever question you are answering.', chips: ['By day', 'By person', 'By role'] },
-      { title: 'Only the right people', body: 'Only staff who are qualified and available land on a shift. Clashes, overtime and expired-training warnings show up before you publish — not after.', chips: ['Right people', 'Clash alerts', 'Overtime'] },
+      { title: 'AI Builder', body: 'Drafts the week from your forecast, role mix and who is available - in one pass. You refine it; you never start from a blank grid.', chips: ['Demand-aware', 'Role mix', 'One pass'] },
+      { title: 'Four ways to view', body: 'Read and edit the same week by overview, by person, by shift, or by role - whichever question you are answering.', chips: ['By day', 'By person', 'By role'] },
+      { title: 'Only the right people', body: 'Only staff who are qualified and available land on a shift. Clashes, overtime and expired-training warnings show up before you publish - not after.', chips: ['Right people', 'Clash alerts', 'Overtime'] },
       { title: 'Swaps & cover', body: 'Staff offer, swap and pick up cover from their phone; managers approve from one queue, only for the people they manage.', chips: ['Swaps', 'Cover', 'Approvals'] },
       { title: 'Repeat & templates', body: 'Repeat patterns, save shift templates with their own color, and apply holiday packs so the week starts most of the way built.', chips: ['Repeat patterns', 'Templates', 'Holidays'] },
-      { title: 'Mobile My Schedule', body: 'Each employee sees their next shift, who is on with them, and acknowledges or swaps in a tap — one-handed, on the way to work.', chips: ['Next shift', 'Acknowledge', 'Who is on'] },
+      { title: 'Mobile My Schedule', body: 'Each employee sees their next shift, who is on with them, and acknowledges or swaps in a tap - one-handed, on the way to work.', chips: ['Next shift', 'Acknowledge', 'Who is on'] },
     ],
 
     howEyebrow: 'How it works',
@@ -42,7 +42,7 @@ export const schedulingCopy: Record<'en', CrewModuleCopy> = {
       { title: 'Build & check', body: 'The AI Builder drafts the schedule; warnings for clashes, overtime and who is qualified run as you refine it.' },
       { title: 'Publish & act', body: 'Staff acknowledge and swap from their phone; you clear approvals from one queue.' },
     ],
-    loopLine: 'Every published shift feeds Labor Intelligence the moment it is set — so the picture is never a week behind.',
+    loopLine: 'Every published shift feeds Labor Intelligence the moment it is set - so the picture is never a week behind.',
 
     creamEyebrow: 'Built for the floor',
     creamStatement: 'The schedule people actually open.',

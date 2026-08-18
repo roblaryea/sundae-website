@@ -122,7 +122,7 @@ function Glass() {
   const active = hover ?? tour;
   return (
     <div className="relative flex items-center justify-center">
-      {/* One soft, static warm wash — grounds the glass in the navy without a
+      {/* One soft, static warm wash - grounds the glass in the navy without a
           bright tight "spotlight" oval that read as a container. */}
       <div
         aria-hidden
@@ -167,7 +167,7 @@ function Glass() {
         poster={
       <Image
         src="/images/hero/sundae-glass.png"
-        alt="A sundae glass of the business layers — every layer visible at once, the cherry the signal to act"
+        alt="A sundae glass of the business layers - every layer visible at once, the cherry the signal to act"
         fill
         sizes="(min-width: 1024px) 420px, 70vw"
         className="object-contain"
@@ -217,7 +217,7 @@ function Glass() {
           );
         })}
 
-        {/* The cherry — "the signal" — attributed like the layers, anchored to its
+        {/* The cherry - "the signal" - attributed like the layers, anchored to its
             measured on-screen position above the strata. */}
         <div
           className="absolute"
@@ -306,7 +306,7 @@ export function SectionCinematicIntro() {
     >
       {/* drifting warm light - two large blurred fields that slowly cross, giving
           the flat navy real depth and motion behind the content. */}
-      {/* Static, low warm fields — give the navy depth without the busy drift
+      {/* Static, low warm fields - give the navy depth without the busy drift
           animation that competed with the glass. */}
       <div
         aria-hidden

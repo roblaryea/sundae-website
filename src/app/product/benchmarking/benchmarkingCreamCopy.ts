@@ -96,7 +96,7 @@ export const benchmarkingCreamCopy: Record<string, BenchmarkingCreamCopy> = {
   },
   ko: {
     eyebrow: '나의 위치를 알다',
-    statement: '나의 위치를 알다 - 추측이 아니라, *시장과* 견주어.',
+    statement: '나의 위치를 알다--추측이 아니라, *시장과* 견주어.',
     lede: '30개 이상의 지표에 걸친 익명 동종 벤치마크, 네트워크가 커질수록 갱신됩니다.',
   },
   id: {

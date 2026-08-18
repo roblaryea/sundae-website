@@ -101,19 +101,19 @@ function arr(v: string | string[] | undefined): string[] {
 function roleFraming(role: string): string {
   const r = role.toLowerCase();
   if (/cfo|finance/.test(r))
-    return "This reader is a FINANCE leader — lead the summary and economics with EBITDA impact, margin points, and the loaded cost of the current stack vs. the consolidated investment. Money first.";
+    return "This reader is a FINANCE leader - lead the summary and economics with EBITDA impact, margin points, and the loaded cost of the current stack vs. the consolidated investment. Money first.";
   if (/coo|operations|operating/.test(r))
-    return "This reader is an OPERATIONS leader — lead with the labor/daypart leaks, decision-lag compression (signal-to-action), and execution consistency across outlets.";
+    return "This reader is an OPERATIONS leader - lead with the labor/daypart leaks, decision-lag compression (signal-to-action), and execution consistency across outlets.";
   if (/ceo|founder|owner|managing/.test(r))
-    return "This reader is the OWNER/CEO — lead with the whole-business picture: the biggest leak, the one strategic move, and the EBITDA upside. Keep it boardroom-tight.";
+    return "This reader is the OWNER/CEO - lead with the whole-business picture: the biggest leak, the one strategic move, and the EBITDA upside. Keep it boardroom-tight.";
   if (/data|technology|bi|analyst|it\b/.test(r))
-    return "This reader owns DATA/TECH — lead with consolidation (replacing the BI/dashboard layer + analyst-pull loop), NL-to-SQL self-serve, and topology-aware multi-entity reporting.";
+    return "This reader owns DATA/TECH - lead with consolidation (replacing the BI/dashboard layer + analyst-pull loop), NL-to-SQL self-serve, and topology-aware multi-entity reporting.";
   if (/marketing/.test(r))
-    return "This reader leads MARKETING — lead with guest LTV/retention, promo ROI by channel, and delivery-channel margin.";
+    return "This reader leads MARKETING - lead with guest LTV/retention, promo ROI by channel, and delivery-channel margin.";
   if (/people|hr|human/.test(r))
-    return "This reader leads PEOPLE/HR — lead with turnover/re-training cost, scheduling fairness, payroll readiness, and statutory compliance.";
+    return "This reader leads PEOPLE/HR - lead with turnover/re-training cost, scheduling fairness, payroll readiness, and statutory compliance.";
   if (/franchise/.test(r))
-    return "This reader is a FRANCHISE leader — lead with multi-brand consolidated P&L, brand-standard/compliance drift, and outlet-viability comparison.";
+    return "This reader is a FRANCHISE leader - lead with multi-brand consolidated P&L, brand-standard/compliance drift, and outlet-viability comparison.";
   return "Lead with the highest-impact leak for this profile and the consolidation + EBITDA story.";
 }
 

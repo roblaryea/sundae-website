@@ -481,7 +481,7 @@ export function SectionSpeedQualityCost() {
                   <stop offset="45%" stopColor="rgba(34,168,120,0.45)" />
                   <stop offset="100%" stopColor="rgba(22,168,120,0)" />
                 </radialGradient>
-                {/* The cherry — the brand "signal to act" that the three constraints
+                {/* The cherry - the brand "signal to act" that the three constraints
                     collapse into. Glossy depth: hot top-left highlight → deep maroon. */}
                 <radialGradient id="cherryBody" cx="36%" cy="28%" r="78%">
                   <stop offset="0%" stopColor="#FF7A6E" />
@@ -621,9 +621,9 @@ export function SectionSpeedQualityCost() {
                     transition={{ duration: 1.5, ease: "easeOut" }}
                     style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
                   />
-                  {/* the green "go" glow the cherry sits in — the payoff of all three */}
+                  {/* the green "go" glow the cherry sits in - the payoff of all three */}
                   <circle cx={CENTROID.x} cy={CENTROID.y} r="22" fill="url(#coreGlow)" />
-                  {/* the cherry — where the three tradeoffs collapse into one signal */}
+                  {/* the cherry - where the three tradeoffs collapse into one signal */}
                   <motion.g
                     animate={{ scale: [1, 1.09, 1] }}
                     transition={{ duration: 3, ease: "easeInOut", repeat: Infinity }}
@@ -649,7 +649,7 @@ export function SectionSpeedQualityCost() {
                 </g>
               )}
 
-              {/* Active-vertex GREEN light-up + a beam feeding the cherry — fires at
+              {/* Active-vertex GREEN light-up + a beam feeding the cherry - fires at
                   EVERY vertex (re-keyed on activeIdx), so speed/quality/cost each
                   "achieve" green as the ball arrives and pours into the centre. */}
               {useAnimated && (

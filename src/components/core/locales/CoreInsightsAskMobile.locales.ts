@@ -26,7 +26,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'ضبط تنبيه SLA · التحضير > 25 دقيقة',
     actLog: 'تسجيل قرار · عرض نهاية الأسبوع',
     actDrill: 'التفصيل حسب المنصة',
-    followUpPlaceholder: 'اطرح سؤالاً للمتابعة…',
+    followUpPlaceholder: 'اطرح سؤالاً للمتابعة...',
   },
   fr: {
     agentName: 'Sundae Intelligence',
@@ -48,7 +48,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Définir une alerte SLA · prép. > 25 min',
     actLog: 'Consigner une décision · promo week-end',
     actDrill: 'Détailler par plateforme',
-    followUpPlaceholder: 'Posez une question de suivi…',
+    followUpPlaceholder: 'Posez une question de suivi...',
   },
   es: {
     agentName: 'Sundae Intelligence',
@@ -70,7 +70,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Crear alerta de SLA · prep. > 25 min',
     actLog: 'Registrar decisión · promo de fin de semana',
     actDrill: 'Desglosar por plataforma',
-    followUpPlaceholder: 'Haz una pregunta de seguimiento…',
+    followUpPlaceholder: 'Haz una pregunta de seguimiento...',
   },
   de: {
     agentName: 'Sundae Intelligence',
@@ -92,7 +92,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLA-Warnung einrichten · Zub. > 25 Min.',
     actLog: 'Entscheidung erfassen · Wochenend-Promo',
     actDrill: 'Nach Plattform aufschlüsseln',
-    followUpPlaceholder: 'Stellen Sie eine Anschlussfrage…',
+    followUpPlaceholder: 'Stellen Sie eine Anschlussfrage...',
   },
   nl: {
     agentName: 'Sundae Intelligence',
@@ -114,7 +114,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLA-melding instellen · bereid. > 25 min',
     actLog: 'Beslissing vastleggen · weekendpromo',
     actDrill: 'Uitsplitsen per platform',
-    followUpPlaceholder: 'Stel een vervolgvraag…',
+    followUpPlaceholder: 'Stel een vervolgvraag...',
   },
   pt: {
     agentName: 'Sundae Intelligence',
@@ -136,7 +136,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Definir alerta de SLA · prep. > 25 min',
     actLog: 'Registar decisão · promo de fim de semana',
     actDrill: 'Detalhar por plataforma',
-    followUpPlaceholder: 'Faça uma pergunta de seguimento…',
+    followUpPlaceholder: 'Faça uma pergunta de seguimento...',
   },
   hi: {
     agentName: 'Sundae Intelligence',
@@ -158,7 +158,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLA अलर्ट सेट करें · प्रैप > 25 मिनट',
     actLog: 'निर्णय दर्ज करें · वीकेंड प्रोमो',
     actDrill: 'प्लेटफ़ॉर्म के अनुसार विश्लेषण',
-    followUpPlaceholder: 'फ़ॉलो-अप सवाल पूछें…',
+    followUpPlaceholder: 'फ़ॉलो-अप सवाल पूछें...',
   },
   ur: {
     agentName: 'Sundae Intelligence',
@@ -180,7 +180,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLA الرٹ سیٹ کریں · تیاری > 25 منٹ',
     actLog: 'فیصلہ درج کریں · ویک اینڈ پرومو',
     actDrill: 'پلیٹ فارم کے لحاظ سے تفصیل',
-    followUpPlaceholder: 'فالو اپ سوال پوچھیں…',
+    followUpPlaceholder: 'فالو اپ سوال پوچھیں...',
   },
   it: {
     agentName: 'Sundae Intelligence',
@@ -202,7 +202,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Imposta avviso SLA · prep. > 25 min',
     actLog: 'Registra decisione · promo del weekend',
     actDrill: 'Dettaglia per piattaforma',
-    followUpPlaceholder: 'Fai una domanda di approfondimento…',
+    followUpPlaceholder: 'Fai una domanda di approfondimento...',
   },
   pl: {
     agentName: 'Sundae Intelligence',
@@ -224,7 +224,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Ustaw alert SLA · przyg. > 25 min',
     actLog: 'Zapisz decyzję · promocja weekendowa',
     actDrill: 'Rozbij wg platformy',
-    followUpPlaceholder: 'Zadaj pytanie uzupełniające…',
+    followUpPlaceholder: 'Zadaj pytanie uzupełniające...',
   },
   tr: {
     agentName: 'Sundae Intelligence',
@@ -246,7 +246,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLA uyarısı kur · hazırlık > 25 dk',
     actLog: 'Karar kaydet · hafta sonu promosyonu',
     actDrill: 'Platforma göre incele',
-    followUpPlaceholder: 'Bir takip sorusu sorun…',
+    followUpPlaceholder: 'Bir takip sorusu sorun...',
   },
   'zh-Hans': {
     agentName: 'Sundae Intelligence',
@@ -268,7 +268,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: '设置 SLA 提醒 · 备餐 > 25 分钟',
     actLog: '记录决策 · 周末促销',
     actDrill: '按平台细分',
-    followUpPlaceholder: '追问一个问题…',
+    followUpPlaceholder: '追问一个问题...',
   },
   ja: {
     agentName: 'Sundae Intelligence',
@@ -290,7 +290,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLAアラートを設定 · 調理 > 25分',
     actLog: '意思決定を記録 · 週末プロモ',
     actDrill: 'プラットフォーム別に分析',
-    followUpPlaceholder: 'フォローアップの質問をどうぞ…',
+    followUpPlaceholder: 'フォローアップの質問をどうぞ...',
   },
   ko: {
     agentName: 'Sundae Intelligence',
@@ -312,7 +312,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLA 알림 설정 · 조리 > 25분',
     actLog: '결정 기록 · 주말 프로모션',
     actDrill: '플랫폼별 분석',
-    followUpPlaceholder: '후속 질문하기…',
+    followUpPlaceholder: '후속 질문하기...',
   },
   id: {
     agentName: 'Sundae Intelligence',
@@ -334,7 +334,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Setel peringatan SLA · persiapan > 25 mnt',
     actLog: 'Catat keputusan · promo akhir pekan',
     actDrill: 'Telusuri per platform',
-    followUpPlaceholder: 'Ajukan pertanyaan lanjutan…',
+    followUpPlaceholder: 'Ajukan pertanyaan lanjutan...',
   },
   vi: {
     agentName: 'Sundae Intelligence',
@@ -356,7 +356,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Đặt cảnh báo SLA · chuẩn bị > 25 phút',
     actLog: 'Ghi nhận quyết định · khuyến mãi cuối tuần',
     actDrill: 'Phân tích theo nền tảng',
-    followUpPlaceholder: 'Đặt câu hỏi tiếp theo…',
+    followUpPlaceholder: 'Đặt câu hỏi tiếp theo...',
   },
   ro: {
     agentName: 'Sundae Intelligence',
@@ -378,7 +378,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Setează alertă SLA · preparare > 25 min',
     actLog: 'Înregistrează decizie · promoție de weekend',
     actDrill: 'Detaliază pe platformă',
-    followUpPlaceholder: 'Pune o întrebare suplimentară…',
+    followUpPlaceholder: 'Pune o întrebare suplimentară...',
   },
   sv: {
     agentName: 'Sundae Intelligence',
@@ -400,7 +400,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Skapa SLA-varning · tillagn. > 25 min',
     actLog: 'Logga beslut · helgkampanj',
     actDrill: 'Bryt ned per plattform',
-    followUpPlaceholder: 'Ställ en följdfråga…',
+    followUpPlaceholder: 'Ställ en följdfråga...',
   },
   bn: {
     agentName: 'Sundae Intelligence',
@@ -422,7 +422,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'SLA সতর্কতা সেট করুন · প্রস্তুতি > 25 মিনিট',
     actLog: 'সিদ্ধান্ত নথিভুক্ত করুন · সপ্তাহান্ত প্রোমো',
     actDrill: 'প্ল্যাটফর্ম অনুযায়ী বিশ্লেষণ',
-    followUpPlaceholder: 'একটি ফলো-আপ প্রশ্ন করুন…',
+    followUpPlaceholder: 'একটি ফলো-আপ প্রশ্ন করুন...',
   },
   th: {
     agentName: 'Sundae Intelligence',
@@ -444,7 +444,7 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'ตั้งการแจ้งเตือน SLA · เตรียม > 25 นาที',
     actLog: 'บันทึกการตัดสินใจ · โปรช่วงสุดสัปดาห์',
     actDrill: 'เจาะลึกตามแพลตฟอร์ม',
-    followUpPlaceholder: 'ถามคำถามต่อเนื่อง…',
+    followUpPlaceholder: 'ถามคำถามต่อเนื่อง...',
   },
   ms: {
     agentName: 'Sundae Intelligence',
@@ -466,6 +466,6 @@ export const LOC: Record<string, Record<string, string>> = {
     actAlert: 'Tetapkan amaran SLA · penyediaan > 25 min',
     actLog: 'Rekod keputusan · promosi hujung minggu',
     actDrill: 'Perincikan mengikut platform',
-    followUpPlaceholder: 'Tanya soalan susulan…',
+    followUpPlaceholder: 'Tanya soalan susulan...',
   },
 };

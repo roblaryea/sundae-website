@@ -23,7 +23,7 @@ const EN = {
   chartTitle: 'Net Revenue',
   chartMeta: '· 7 days · AED',
   deltaVsPrior: '▲ 9% vs prior',
-  dragHint: '— drag to read any point',
+  dragHint: ' - drag to read any point',
   scrubMon: 'Mon',
   scrubThu: 'Thu',
   scrubSun: 'Sun',

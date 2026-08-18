@@ -2519,7 +2519,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "什么是 Sundae Crew？",
-            "content": "Sundae Crew 是管理您团队的运营套件：排班、考勤、薪资准备、人力资源记录和劳动力分析。每一个计划的班次、每一个打卡的工时、每一份归档的记录都会成为回流到您 decision intelligence 的信号——让运营与洞察共享同一个系统。"
+            "content": "Sundae Crew 是管理您团队的运营套件：排班、考勤、薪资准备、人力资源记录和劳动力分析。每一个计划的班次、每一个打卡的工时、每一份归档的记录都会成为回流到您 decision intelligence 的信号 -  - 让运营与洞察共享同一个系统。"
           },
           {
             "title": "Crew 能做什么？",
@@ -2527,11 +2527,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Crew 薪资支持哪些地区？",
-            "content": "Crew 的薪资准备和法定导出目前覆盖 **GCC**（UAE、KSA、Qatar、Bahrain、Oman、Kuwait）、**美国**（联邦及所有州）、**加拿大**、**英国** 以及 **欧盟**（全部 27 个成员国）。拉丁美洲和 APAC 已列入路线图。Crew 负责准备和导出薪资——它不是税务引擎，法定规则来自版本化的国家/地区规则包。"
+            "content": "Crew 的薪资准备和法定导出目前覆盖 **GCC**（UAE、KSA、Qatar、Bahrain、Oman、Kuwait）、**美国**（联邦及所有州）、**加拿大**、**英国** 以及 **欧盟**（全部 27 个成员国）。拉丁美洲和 APAC 已列入路线图。Crew 负责准备和导出薪资 -  - 它不是税务引擎，法定规则来自版本化的国家/地区规则包。"
           },
           {
             "title": "使用 Crew 需要 Core 吗？",
-            "content": "不需要。Crew 可以作为您的运营系统独立运行，也可以与 Core 并行运行，让其信号馈送到 Labor Intelligence、Pulse 和 Foresight。您也可以自带人力资源或薪资服务商——Crew 在设计上是可选的。"
+            "content": "不需要。Crew 可以作为您的运营系统独立运行，也可以与 Core 并行运行，让其信号馈送到 Labor Intelligence、Pulse 和 Foresight。您也可以自带人力资源或薪资服务商 -  - Crew 在设计上是可选的。"
           },
           {}
         ]

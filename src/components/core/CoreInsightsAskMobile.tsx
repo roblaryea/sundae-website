@@ -45,7 +45,7 @@ const EN = {
   actLog: 'Log decision · weekend promo',
   actDrill: 'Drill by platform',
   // composer
-  followUpPlaceholder: 'Ask a follow-up…',
+  followUpPlaceholder: 'Ask a follow-up...',
 } as const;
 
 const T = {
