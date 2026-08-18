@@ -628,6 +628,23 @@ export default function CoreProductPage() {
         </div>
       </PageHero>
 
+      {/* My Sundae - what an operator actually opens. Placed directly after the
+          hero because it is the first screen of the product, not a feature of it. */}
+      <section className="pt-14 pb-4 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <FadeUp>
+            <ThemedShot
+              framed
+              width={1600}
+              height={1000}
+              dark="/images/product/2026-fresh/my-sundae-dark.png"
+              light="/images/product/2026-fresh/my-sundae.png"
+              alt="My Sundae: the personalised daily home, showing what needs attention today, the shift spine with what is open and what is still to come, and the estate broken down by concept"
+            />
+          </FadeUp>
+        </div>
+      </section>
+
       {/* The Real-Time Intelligence Layer */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
