@@ -287,6 +287,7 @@ export const websiteMessages = {
         { name: 'Insights', description: 'Specialized analytics modules', href: '/product/insights' },
         { name: 'Ask Sundae', description: 'AI-powered conversational analytics', href: '/product/intelligence' },
         { name: 'Foresight', description: 'Predictive intelligence & forecasting', href: '/product/foresight' },
+        { name: 'Profit Recovery', description: 'Find, fix and prove recovered margin', href: '/product/recovery' },
       ],
       plansList: [
         { name: 'Foresight & Action', description: 'Forecasts, scenarios, and the action layer', href: '/product/foresight' },
