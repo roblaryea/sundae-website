@@ -9,44 +9,6 @@ export const generatedLocalCopy = {
         "primary": "Explorer les niveaux de Core",
         "secondary": "Réserver une démo"
       },
-      "dimensions": {
-        "heading": "Le Modèle d'Intelligence 4D",
-        "description": "Core fournit les quatre dimensions - élargies.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Ce qui s'est passé",
-            "status": "Temps Réel",
-            "description": "Vérité opérationnelle complète, mise à jour toutes les 2-4 heures. Visibilité quasi temps réel pour les interventions de même quart.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Prévision vs. Réel",
-            "status": "Temps Réel",
-            "description": "Suivi des écarts budgétaires en temps réel. Rapports flash pour les équipes financières. Visibilité semaine à ce jour et mois à ce jour.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Contexte du Marché",
-            "status": "Élargi",
-            "description": "Suite complète de benchmarking (30+ métriques). Comparaisons de portefeuille. Contexte concurrentiel via Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Qu'est-ce qui vient ensuite",
-            "status": "Élargi",
-            "description": "Prévisions de 14 à 30 jours. Alertes proactives avant que les problèmes ne s'aggravent. Recommandations de Sundae Coach avec des scores de confiance.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
-      },
       "pulse": {
         "badge": "Inclus avec Core",
         "heading": "Pulse : Votre Centre de Commande de Shift",
@@ -186,44 +148,6 @@ export const generatedLocalCopy = {
         "primary": "Explora los Niveles de Core",
         "secondary": "Reserva una Demostración"
       },
-      "dimensions": {
-        "heading": "El Modelo de Inteligencia 4D",
-        "description": "Core ofrece las cuatro dimensiones - ampliadas.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Qué Sucedió",
-            "status": "En Tiempo Real",
-            "description": "Verdad operativa completa, actualizada cada 2-4 horas. Visibilidad casi en tiempo real para intervenciones en el mismo turno.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Plan vs. Real",
-            "status": "En Tiempo Real",
-            "description": "Seguimiento de variaciones presupuestarias en tiempo real. Informes rápidos para equipos financieros. Visibilidad de la semana hasta la fecha y del mes hasta la fecha.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Contexto del Mercado",
-            "status": "Ampliado",
-            "description": "Suite completa de benchmarking (30+ métricas). Comparaciones de portafolios. Contexto competitivo a través de Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Qué Sigue",
-            "status": "Ampliado",
-            "description": "Pronósticos de 14-30 días. Alertas proactivas antes de que los problemas escalen. Recomendaciones de Sundae Coach con puntajes de confianza.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
-      },
       "pulse": {
         "badge": "Incluido con Core",
         "heading": "Pulse: Tu Centro de Comando de Turno",
@@ -359,48 +283,10 @@ export const generatedLocalCopy = {
     "de": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core wird alle 2-4 Stunden aktualisiert, damit Sie während der Schicht handeln können - nicht erst, nachdem der Schaden angerichtet wurde.",
+        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core aktualisiert im Lauf des Handelstages - typischerweise alle 2-4 Stunden, und schneller wo eine Quelle es zulässt - damit Sie während der Schicht handeln, nicht wenn der Schaden da ist.",
         "primary": "Core-Tarife erkunden",
         "secondary": "Demo buchen",
-        "title": "Echtzeit-Betrieb. Keine Tagesabschlussberichte."
-      },
-      "dimensions": {
-        "heading": "Das 4D-Intelligenzmodell",
-        "description": "Core liefert alle vier Dimensionen - erweitert.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Was ist passiert",
-            "status": "Echtzeit",
-            "description": "Vollständige betriebliche Wahrheit, alle 2-4 Stunden aktualisiert. Nahezu Echtzeit-Sichtbarkeit für Interventionen zur gleichen Schicht.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Plan vs. Ist",
-            "status": "Echtzeit",
-            "description": "Echtzeit-Überwachung der Budgetabweichungen. Blitzberichte für Finanzteams. Sichtbarkeit bis zur Woche und bis zum Monat.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Markt Kontext",
-            "status": "Erweitert",
-            "description": "Vollständige Benchmarking-Suite (30+ Kennzahlen). Portfoliovergleiche. Wettbewerbsumfeld über Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Was kommt als Nächstes",
-            "status": "Erweitert",
-            "description": "14-30 Tage Prognose. Proaktive Warnungen, bevor Probleme eskalieren. Sundae Coach Empfehlungen mit Vertrauensbewertungen.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Betrieb in der laufenden Schicht. Keine Tagesabschlussberichte."
       },
       "pulse": {
         "badge": "Inklusive mit Core",
@@ -523,7 +409,7 @@ export const generatedLocalCopy = {
         "button": "Alle Module erkunden"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Vollständige Intelligenz",
+        "heading": "Watchtower holt die Außenwelt in Core",
         "description": "Core zeigt Ihnen, wie Sie gerade abschneiden. Watchtower informiert Sie über das, was um Sie herum passiert. Zusammen bieten sie Ihnen das vollständige Bild - interne Abläufe und externen Marktkontext in einer Intelligenzschicht.",
         "button": "Erfahren Sie mehr über Watchtower"
       },
@@ -532,53 +418,46 @@ export const generatedLocalCopy = {
         "description": "Sehen Sie, wie Echtzeit-Betriebsintelligenz mit Ihren tatsächlichen Daten aussieht.",
         "primary": "Core-Tarife erkunden",
         "secondary": "Demo buchen"
+      },
+      "solves": {
+        "eyebrow": "WO DIE MARGE HINGEHT",
+        "heading": "Vier Stellen, an denen Gewinn verloren geht. Core deckt alle vier ab.",
+        "description": "Fangen Sie beim Verlust an, nicht bei der Lizenz. Jedes Paket liest alle vier - das gewählte Paket bestimmt die Tiefe.",
+        "areas": [
+          {
+            "title": "Umsatz & Gewinn",
+            "loss": "Stornos, Comps, Rabatte und falsch bepreiste Artikel, die nie als hinterfragbare Zeile auftauchen.",
+            "covered": "Umsatz- und Gewinnintelligenz, Revenue Assurance, Deckungsbeitrag je Artikel.",
+            "icon": "cost"
+          },
+          {
+            "title": "Ware & Einkauf",
+            "loss": "Die Lücke zwischen bestellt, verbraucht und verkauft - Abfall, Abweichung und Preisdrift bei Lieferanten.",
+            "covered": "Bestands- und Einkaufsintelligenz, theoretischer gegen tatsächlichen Verbrauch, Lieferantenbewegung.",
+            "icon": "insights"
+          },
+          {
+            "title": "Gast & Markt",
+            "loss": "Gäste, die nicht kommen, Gäste, die nicht wiederkommen, und Kanalmarge, die die Provision auffrisst.",
+            "covered": "Gasterlebnis und CRM, Reservierungen, Lieferökonomie, Marketing-Attribution, Peer-Benchmarks.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Entscheidungen, die zu spät fallen, auf Zahlen vom Vormonat, ohne hinterher zu wissen, ob sie gewirkt haben.",
+            "covered": "Prognosen, Szenarien und die Handlungsebene mit Freigabe. Eine Erweiterung auf Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "nl": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core ververst elke 2-4 uur, zodat je tijdens de shift kunt handelen - niet nadat de schade is aangericht.",
+        "description": "Gekoppeld aan je POS, personeel, voorraad en elk systeem dat telt. Core ververst gedurende de handelsdag - meestal elke 2-4 uur, en sneller waar een bron dat toelaat - zodat je tijdens de dienst ingrijpt, niet als de schade er al is.",
         "primary": "Ontdek Core Tiers",
         "secondary": "Boek een Demo",
-        "title": "Realtime operatie. Geen eindedagrapporten."
-      },
-      "dimensions": {
-        "heading": "Het 4D Informatie Model",
-        "description": "Core levert alle vier dimensies - uitgebreid.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Wat is er gebeurd",
-            "status": "Realtime",
-            "description": "Volledige operationele waarheid, elke 2-4 uur bijgewerkt. Bijna realtime zichtbaarheid voor interventies in dezelfde shift.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Plan vs. Werkelijk",
-            "status": "Realtime",
-            "description": "Realtime budgetafwijking tracking. Flashrapportage voor financiële teams. Zichtbaarheid van week tot nu en maand tot nu.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Marktcontext",
-            "status": "Uitgebreid",
-            "description": "Volledige benchmark suite (30+ metrics). Portfolio vergelijkingen. Concurrentiecontext via Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Wat is de volgende stap",
-            "status": "Uitgebreid",
-            "description": "14-30 dagen forecasting. Proactieve waarschuwingen voordat problemen escaleren. Sundae Coach aanbevelingen met vertrouwensscores.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Werken tijdens de dienst. Geen dagafsluitrapporten."
       },
       "pulse": {
         "badge": "Inclusief bij Core",
@@ -701,7 +580,7 @@ export const generatedLocalCopy = {
         "button": "Ontdek Alle Modules"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Complete Intelligence",
+        "heading": "Watchtower brengt de buitenwereld in Core",
         "description": "Core vertelt je hoe je er momenteel voorstaat. Watchtower vertelt je wat er om je heen gebeurt. Samen geven ze je het complete plaatje - interne operaties en externe marktomstandigheden in één intelligentielaag.",
         "button": "Leer Meer Over Watchtower"
       },
@@ -710,6 +589,37 @@ export const generatedLocalCopy = {
         "description": "Zie hoe operationele intelligentie in real-time eruitziet met je actuele gegevens.",
         "primary": "Verken Core Tiers",
         "secondary": "Boek een Demo"
+      },
+      "solves": {
+        "eyebrow": "WAAR DE MARGE HEEN GAAT",
+        "heading": "Vier plekken waar winst weglekt. Core dekt alle vier.",
+        "description": "Begin bij het verlies, niet bij de licentie. Elk pakket leest alle vier - het pakket bepaalt de diepgang.",
+        "areas": [
+          {
+            "title": "Omzet & Winst",
+            "loss": "Annuleringen, weggevers, kortingen en verkeerd geprijsde items die nooit als bevraagbare regel verschijnen.",
+            "covered": "Omzet- en winstintelligentie, revenue assurance, bijdrage per artikel.",
+            "icon": "cost"
+          },
+          {
+            "title": "Inkoop & Voorraad",
+            "loss": "Het gat tussen besteld, gebruikt en verkocht - verspilling, afwijking en prijsdrift bij leveranciers.",
+            "covered": "Voorraad- en inkoopintelligentie, theoretisch versus werkelijk verbruik, leveranciersbeweging.",
+            "icon": "insights"
+          },
+          {
+            "title": "Gast & Markt",
+            "loss": "Gasten die niet komen, gasten die niet terugkomen, en kanaalmarge die de commissie opeet.",
+            "covered": "Gastbeleving en CRM, reserveringen, bezorgeconomie, marketingattributie, peer-benchmarks.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Beslissingen die te laat vallen, op cijfers van vorige maand, zonder achteraf te weten of ze werkten.",
+            "covered": "Prognoses, scenario’s en de actielaag met goedkeuring. Een uitbreiding op Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "ar": {
@@ -718,44 +628,6 @@ export const generatedLocalCopy = {
         "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يتم تحديث Core كل 2-4 ساعات حتى تتمكن من التصرف خلال الوردية - وليس بعد حدوث الضرر.",
         "primary": "استكشاف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
-      },
-      "dimensions": {
-        "heading": "نموذج الذكاء الرباعي الأبعاد",
-        "description": "Core يقدم جميع الأبعاد الأربعة - موسعة.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "ماذا حدث",
-            "status": "في الوقت الحقيقي",
-            "description": "حقيقة تشغيلية كاملة، يتم تحديثها كل 2-4 ساعات. رؤية شبه حقيقية للتدخلات في نفس الوردية.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "المخطط مقابل الفعلي",
-            "status": "في الوقت الحقيقي",
-            "description": "تتبع فرق الميزانية في الوقت الحقيقي. تقارير سريعة لفرق المالية. رؤية للأسبوع حتى الآن والشهر حتى الآن.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "سياق السوق",
-            "status": "موسع",
-            "description": "مجموعة كاملة من المقاييس (30+ مقياس). مقارنات المحفظة. سياق تنافسي عبر Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "ما هو التالي",
-            "status": "موسع",
-            "description": "توقعات لمدة 14-30 يوم. تنبيهات استباقية قبل تصعيد المشاكل. توصيات Sundae Coach مع درجات الثقة.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
       },
       "pulse": {
         "badge": "مضمن مع Core",
@@ -892,48 +764,10 @@ export const generatedLocalCopy = {
     "pt": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core é atualizado a cada 2-4 horas para que você possa agir durante o turno - e não depois que o dano já foi feito.",
+        "description": "Ligado ao seu POS, pessoal, inventário e a todos os sistemas que contam. O Core atualiza ao longo do dia - normalmente a cada 2-4 horas, e mais depressa onde a fonte o permite - para agir durante o turno, não depois do estrago.",
         "primary": "Explore os Níveis do Core",
         "secondary": "Agende uma Demonstração",
-        "title": "Operações em tempo real. Não relatórios de fim de dia."
-      },
-      "dimensions": {
-        "heading": "O Modelo de Inteligência 4D",
-        "description": "Core oferece todas as quatro dimensões - ampliadas.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "O Que Aconteceu",
-            "status": "Em Tempo Real",
-            "description": "Verdade operacional completa, atualizada a cada 2-4 horas. Visibilidade quase em tempo real para intervenções no mesmo turno.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Planejado vs. Real",
-            "status": "Em Tempo Real",
-            "description": "Rastreamento de variação orçamentária em tempo real. Relatórios rápidos para equipes financeiras. Visibilidade da semana até a data e do mês até a data.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Contexto de Mercado",
-            "status": "Ampliado",
-            "description": "Conjunto completo de benchmarking (30+ métricas). Comparações de portfólio. Contexto competitivo via Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "O Que Vem a Seguir",
-            "status": "Ampliado",
-            "description": "Previsão de 14-30 dias. Alertas proativos antes que os problemas se agravem. Recomendações do Sundae Coach com pontuações de confiança.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Operações dentro do turno. Não relatórios de fim de dia."
       },
       "pulse": {
         "badge": "Incluído com o Core",
@@ -1056,7 +890,7 @@ export const generatedLocalCopy = {
         "button": "Explore Todos os Módulos"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Inteligência Completa",
+        "heading": "O Watchtower traz o mundo exterior para dentro do Core",
         "description": "Core informa como você está se saindo agora. Watchtower mostra o que está acontecendo ao seu redor. Juntos, eles oferecem uma visão completa - operações internas e contexto de mercado externo em uma única camada de inteligência.",
         "button": "Saiba Mais Sobre o Watchtower"
       },
@@ -1065,53 +899,46 @@ export const generatedLocalCopy = {
         "description": "Veja como é a inteligência operacional em tempo real com seus dados reais.",
         "primary": "Explore os Níveis do Core",
         "secondary": "Agende uma Demonstração"
+      },
+      "solves": {
+        "eyebrow": "PARA ONDE VAI A MARGEM",
+        "heading": "Quatro sítios por onde o lucro foge. O Core cobre os quatro.",
+        "description": "Comece pela perda, não pela licença. Cada pacote lê os quatro - o pacote escolhido define a profundidade.",
+        "areas": [
+          {
+            "title": "Receita e Lucro",
+            "loss": "Cancelamentos, cortesias, descontos e artigos mal precificados que nunca aparecem como linha questionável.",
+            "covered": "Inteligência de receita e lucro, revenue assurance, contribuição por artigo.",
+            "icon": "cost"
+          },
+          {
+            "title": "Comida e Fornecimento",
+            "loss": "A diferença entre o que pediu, usou e vendeu - desperdício, desvio e deriva de preços de fornecedor.",
+            "covered": "Inteligência de inventário e compras, consumo teórico versus real, movimento de fornecedores.",
+            "icon": "insights"
+          },
+          {
+            "title": "Cliente e Mercado",
+            "loss": "Clientes que não aparecem, clientes que não voltam e margem de canal comida pela comissão.",
+            "covered": "Experiência do cliente e CRM, reservas, economia da entrega, atribuição de marketing, benchmarks.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decisões tomadas tarde, com números do mês passado, sem saber depois se resultaram.",
+            "covered": "Previsão, cenários e a camada de ação com aprovação. Uma expansão sobre o Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "it": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core si aggiorna ogni 2-4 ore così puoi agire durante il turno - non dopo che il danno è fatto.",
+        "description": "Collegato a POS, personale, magazzino e a ogni sistema che conta. Core si aggiorna durante la giornata - di norma ogni 2-4 ore, e più spesso dove la fonte lo consente - così intervieni nel turno, non a danno fatto.",
         "primary": "Esplora i livelli di Core",
         "secondary": "Prenota una demo",
-        "title": "Operazioni in tempo reale. Non report di fine giornata."
-      },
-      "dimensions": {
-        "heading": "Il Modello di Intelligenza 4D",
-        "description": "Core offre tutte e quattro le dimensioni - espanse.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Cosa è Successo",
-            "status": "In Tempo Reale",
-            "description": "Verità operativa completa, aggiornata ogni 2-4 ore. Visibilità quasi in tempo reale per interventi nello stesso turno.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Piano vs. Reale",
-            "status": "In Tempo Reale",
-            "description": "Monitoraggio delle variazioni di budget in tempo reale. Report flash per i team finanziari. Visibilità settimana fino ad oggi e mese fino ad oggi.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Contesto di Mercato",
-            "status": "Espanso",
-            "description": "Suite completa di benchmarking (30+ metriche). Confronti di portafoglio. Contesto competitivo tramite Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Cosa C'è Dopo",
-            "status": "Espanso",
-            "description": "Previsioni da 14 a 30 giorni. Avvisi proattivi prima che i problemi si aggravino. Raccomandazioni di Sundae Coach con punteggi di fiducia.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Operatività nel turno. Non report di fine giornata."
       },
       "pulse": {
         "badge": "Incluso con Core",
@@ -1234,7 +1061,7 @@ export const generatedLocalCopy = {
         "button": "Esplora Tutti i Moduli"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Intelligenza Completa",
+        "heading": "Watchtower porta il mondo esterno dentro Core",
         "description": "Core ti dice come stai performando in questo momento. Watchtower ti informa su ciò che sta accadendo intorno a te. Insieme, ti offrono un quadro completo - operazioni interne e contesto di mercato esterno in un unico livello di intelligenza.",
         "button": "Scopri di più su Watchtower"
       },
@@ -1243,53 +1070,46 @@ export const generatedLocalCopy = {
         "description": "Scopri come appare l'intelligenza operativa in tempo reale con i tuoi dati reali.",
         "primary": "Esplora i Livelli di Core",
         "secondary": "Prenota una Demo"
+      },
+      "solves": {
+        "eyebrow": "DOVE FINISCE IL MARGINE",
+        "heading": "Quattro punti da cui esce il profitto. Core li copre tutti e quattro.",
+        "description": "Parti dalla perdita, non dalla licenza. Ogni pacchetto legge tutti e quattro - il pacchetto scelto decide la profondità.",
+        "areas": [
+          {
+            "title": "Ricavi e Profitto",
+            "loss": "Storni, omaggi, sconti e articoli prezzati male che non compaiono mai come voce interrogabile.",
+            "covered": "Intelligenza su ricavi e profitto, revenue assurance, contribuzione per articolo.",
+            "icon": "cost"
+          },
+          {
+            "title": "Cibo e Fornitura",
+            "loss": "Lo scarto tra ordinato, consumato e venduto - sprechi, scostamenti e deriva dei prezzi fornitore.",
+            "covered": "Intelligenza di magazzino e acquisti, consumo teorico contro reale, movimenti fornitori.",
+            "icon": "insights"
+          },
+          {
+            "title": "Ospite e Mercato",
+            "loss": "Coperti che non arrivano, ospiti che non tornano e margine di canale mangiato dalle commissioni.",
+            "covered": "Esperienza ospite e CRM, prenotazioni, economia del delivery, attribuzione marketing, benchmark.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decisioni prese tardi, sui numeri del mese scorso, senza sapere poi se hanno funzionato.",
+            "covered": "Previsioni, scenari e il livello di azione con approvazione. Un’espansione su Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "hi": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core हर 2-4 घंटे में अपडेट होता है ताकि आप शिफ्ट के दौरान कार्रवाई कर सकें - नुकसान होने के बाद नहीं।",
+        "description": "आपके POS, श्रम, इन्वेंट्री और हर ज़रूरी सिस्टम से जुड़ा। Core कारोबारी दिन के दौरान रिफ़्रेश होता है - आमतौर पर हर 2-4 घंटे, और जहाँ स्रोत साथ दे वहाँ उससे भी तेज़ - ताकि आप नुक़सान के बाद नहीं, शिफ़्ट के दौरान कार्रवाई करें।",
         "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें",
-        "title": "रियल-टाइम ऑपरेशन। दिन के अंत की रिपोर्ट नहीं।"
-      },
-      "dimensions": {
-        "heading": "4D इंटेलिजेंस मॉडल",
-        "description": "Core सभी चार आयाम प्रदान करता है - विस्तारित।",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "क्या हुआ",
-            "status": "वास्तविक समय",
-            "description": "पूर्ण परिचालन सत्य, हर 2-4 घंटे में अपडेट किया गया। समान-शिफ्ट हस्तक्षेपों के लिए निकट वास्तविक समय दृश्यता।",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "योजना बनाम वास्तविक",
-            "status": "वास्तविक समय",
-            "description": "वास्तविक समय बजट भिन्नता ट्रैकिंग। वित्त टीमों के लिए फ्लैश रिपोर्टिंग। सप्ताह-दिन और महीने-दिन दृश्यता।",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "बाजार संदर्भ",
-            "status": "विस्तारित",
-            "description": "पूर्ण बेंचमार्किंग सूट (30+ मैट्रिक्स)। पोर्टफोलियो तुलना। Watchtower के माध्यम से प्रतिस्पर्धात्मक संदर्भ।",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "अगला क्या है",
-            "status": "विस्तारित",
-            "description": "14-30 दिन का पूर्वानुमान। समस्याओं के बढ़ने से पहले सक्रिय अलर्ट। विश्वास स्कोर के साथ Sundae Coach सिफारिशें।",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "शिफ्ट के भीतर संचालन। दिन के अंत की रिपोर्ट नहीं।"
       },
       "pulse": {
         "badge": "Core के साथ शामिल",
@@ -1412,7 +1232,7 @@ export const generatedLocalCopy = {
         "button": "सभी मॉड्यूल खोजें"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = संपूर्ण बुद्धिमत्ता",
+        "heading": "Watchtower बाहरी दुनिया को Core में लाता है",
         "description": "Core आपको बताता है कि आप अभी कैसे प्रदर्शन कर रहे हैं। Watchtower आपको बताता है कि आपके चारों ओर क्या हो रहा है। मिलकर, वे आपको संपूर्ण चित्र देते हैं - आंतरिक संचालन और बाहरी बाजार संदर्भ एक बुद्धिमत्ता परत में।",
         "button": "Watchtower के बारे में जानें"
       },
@@ -1421,53 +1241,46 @@ export const generatedLocalCopy = {
         "description": "अपने वास्तविक डेटा के साथ वास्तविक समय की परिचालन बुद्धिमत्ता कैसी दिखती है, देखें।",
         "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें"
+      },
+      "solves": {
+        "eyebrow": "मार्जिन कहाँ जाता है",
+        "heading": "मुनाफ़ा चार जगहों से रिसता है। Core चारों को कवर करता है।",
+        "description": "लाइसेंस से नहीं, नुक़सान से शुरू कीजिए। हर पैकेज चारों को पढ़ता है - गहराई पैकेज तय करता है।",
+        "areas": [
+          {
+            "title": "राजस्व और मुनाफ़ा",
+            "loss": "वॉइड, कॉम्प, छूट और ग़लत दाम वाले आइटम - जो कभी ऐसी लाइन नहीं बनते जिस पर आप सवाल कर सकें।",
+            "covered": "राजस्व और मुनाफ़ा इंटेलिजेंस, रेवेन्यू एश्योरेंस, प्रति-आइटम योगदान।",
+            "icon": "cost"
+          },
+          {
+            "title": "खाद्य और आपूर्ति",
+            "loss": "जो मँगाया, जो इस्तेमाल हुआ और जो बिका - इनके बीच का फ़र्क़: बर्बादी, विचलन और सप्लायर दाम का खिसकना।",
+            "covered": "इन्वेंट्री और खरीद इंटेलिजेंस, सैद्धांतिक बनाम वास्तविक खपत, सप्लायर मूवमेंट।",
+            "icon": "insights"
+          },
+          {
+            "title": "मेहमान और बाज़ार",
+            "loss": "जो मेहमान आए ही नहीं, जो लौटे नहीं, और कमीशन के बाद चैनल का बचा-खुचा मार्जिन।",
+            "covered": "मेहमान अनुभव और CRM, आरक्षण, डिलीवरी अर्थशास्त्र, मार्केटिंग एट्रिब्यूशन, समकक्ष बेंचमार्क।",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "देर से लिए गए फ़ैसले, पिछले महीने के आँकड़ों पर, और बाद में यह जानने का कोई तरीक़ा नहीं कि काम आए या नहीं।",
+            "covered": "पूर्वानुमान, परिदृश्य और स्वीकृति वाली कार्रवाई परत। Core के ऊपर एक विस्तार।",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "ur": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core ہر 2-4 گھنٹے میں تازہ ہوتا ہے تاکہ آپ شفٹ کے دوران عمل کر سکیں - نقصان کے بعد نہیں۔",
+        "description": "آپ کے POS، محنت، انوینٹری اور ہر اہم نظام سے منسلک۔ Core کاروباری دن کے دوران تازہ ہوتا ہے - عموماً ہر 2-4 گھنٹے، اور جہاں ذریعہ اجازت دے وہاں اس سے بھی تیز - تاکہ آپ نقصان کے بعد نہیں، شفٹ کے دوران قدم اٹھائیں۔",
         "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں",
-        "title": "ریئل ٹائم آپریشن۔ دن کے اختتام کی رپورٹیں نہیں۔"
-      },
-      "dimensions": {
-        "heading": "4D انٹیلیجنس ماڈل",
-        "description": "Core چاروں جہتیں فراہم کرتا ہے - توسیع شدہ۔",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "کیا ہوا",
-            "status": "حقیقی وقت",
-            "description": "مکمل عملیاتی حقیقت، ہر 2-4 گھنٹے میں اپ ڈیٹ۔ ایک ہی شفٹ میں مداخلت کے لیے قریب حقیقی وقت کی بصیرت۔",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "منصوبہ بمقابلہ حقیقی",
-            "status": "حقیقی وقت",
-            "description": "حقیقی وقت میں بجٹ کی تغیرات کی نگرانی۔ مالیاتی ٹیموں کے لیے فلیش رپورٹنگ۔ ہفتے اور مہینے کی تاریخ کی بصیرت۔",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "مارکیٹ کا سیاق و سباق",
-            "status": "توسیع شدہ",
-            "description": "مکمل بینچ مارکنگ سوٹ (30+ میٹرکس)۔ پورٹ فولیو کے موازنہ۔ Watchtower کے ذریعے مسابقتی سیاق و سباق۔",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "اگلا کیا ہے",
-            "status": "توسیع شدہ",
-            "description": "14-30 دن کی پیش گوئی۔ مسائل کے بڑھنے سے پہلے پیشگی انتباہات۔ Sundae Coach کی سفارشات کے ساتھ اعتماد کے اسکور۔",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "شفٹ کے اندر آپریشن۔ دن کے اختتام کی رپورٹ نہیں۔"
       },
       "pulse": {
         "badge": "Core کے ساتھ شامل",
@@ -1590,7 +1403,7 @@ export const generatedLocalCopy = {
         "button": "تمام ماڈیولز دریافت کریں"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = مکمل ذہانت",
+        "heading": "Watchtower بیرونی دنیا کو Core میں لاتا ہے",
         "description": "Core آپ کو بتاتا ہے کہ آپ اس وقت کیسا کارکردگی دکھا رہے ہیں۔ Watchtower آپ کو بتاتا ہے کہ آپ کے ارد گرد کیا ہو رہا ہے۔ مل کر، یہ آپ کو مکمل تصویر فراہم کرتے ہیں - اندرونی آپریشنز اور بیرونی مارکیٹ کے سیاق و سباق کو ایک ذہانت کی تہہ میں۔",
         "button": "Watchtower کے بارے میں جانیں"
       },
@@ -1599,53 +1412,46 @@ export const generatedLocalCopy = {
         "description": "اپنے حقیقی ڈیٹا کے ساتھ حقیقی وقت کی عملی ذہانت کیسی نظر آتی ہے، یہ دیکھیں۔",
         "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں"
+      },
+      "solves": {
+        "eyebrow": "مارجن کہاں جاتا ہے",
+        "heading": "منافع چار جگہوں سے رستا ہے۔ Core چاروں کا احاطہ کرتا ہے۔",
+        "description": "لائسنس سے نہیں، نقصان سے شروع کریں۔ ہر پیکیج چاروں کو پڑھتا ہے - گہرائی پیکیج طے کرتا ہے۔",
+        "areas": [
+          {
+            "title": "آمدنی اور منافع",
+            "loss": "وائیڈز، کامپس، رعایتیں اور غلط قیمت والے آئٹمز - جو کبھی ایسی سطر نہیں بنتے جس پر آپ سوال کر سکیں۔",
+            "covered": "آمدنی اور منافع کی ذہانت، ریونیو ایشورنس، فی آئٹم شراکت۔",
+            "icon": "cost"
+          },
+          {
+            "title": "خوراک اور رسد",
+            "loss": "جو منگوایا، جو استعمال ہوا اور جو بکا - ان کے درمیان فرق: ضیاع، انحراف اور سپلائر قیمت کی تبدیلی۔",
+            "covered": "انوینٹری اور خریداری کی ذہانت، نظری بمقابلہ حقیقی استعمال، سپلائر کی حرکت۔",
+            "icon": "insights"
+          },
+          {
+            "title": "مہمان اور مارکیٹ",
+            "loss": "جو مہمان آئے ہی نہیں، جو واپس نہیں آتے، اور کمیشن کے بعد بچا چینل مارجن۔",
+            "covered": "مہمان کا تجربہ اور CRM، بکنگ، ڈیلیوری معاشیات، مارکیٹنگ انتساب، ہم پلہ بینچ مارک۔",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "دیر سے کیے گئے فیصلے، پچھلے مہینے کے اعداد پر، اور بعد میں یہ جاننے کا کوئی طریقہ نہیں کہ کام آئے یا نہیں۔",
+            "covered": "پیش گوئی، منظرنامے اور منظوری والی عمل کی پرت۔ Core کے اوپر ایک توسیع۔",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "pl": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core odświeża się co 2-4 godziny, abyś mógł działać w trakcie zmiany - a nie po wyrządzeniu szkód.",
+        "description": "Połączony z POS, kadrami, magazynem i każdym istotnym systemem. Core odświeża się w trakcie dnia handlowego - zwykle co 2-4 godziny, a szybciej tam, gdzie źródło na to pozwala - żebyś reagował w trakcie zmiany, a nie po szkodzie.",
         "primary": "Poznaj poziomy Core",
         "secondary": "Umów się na demo",
-        "title": "Operacje w czasie rzeczywistym. Nie raporty na koniec dnia."
-      },
-      "dimensions": {
-        "heading": "Model Inteligencji 4D",
-        "description": "Core dostarcza wszystkie cztery wymiary - rozszerzone.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Co się stało",
-            "status": "Czas rzeczywisty",
-            "description": "Pełna prawda operacyjna, aktualizowana co 2-4 godziny. Prawie rzeczywista widoczność dla interwencji w tej samej zmianie.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Plan vs. Rzeczywistość",
-            "status": "Czas rzeczywisty",
-            "description": "Śledzenie odchyleń budżetowych w czasie rzeczywistym. Raportowanie błyskawiczne dla zespołów finansowych. Widoczność od początku tygodnia i miesiąca.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Kontekst Rynkowy",
-            "status": "Rozszerzone",
-            "description": "Pełny zestaw benchmarków (ponad 30 metryk). Porównania portfela. Kontekst konkurencyjny za pomocą Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Co dalej",
-            "status": "Rozszerzone",
-            "description": "Prognozowanie na 14-30 dni. Proaktywne powiadomienia przed eskalacją problemów. Rekomendacje Sundae Coach z wynikami pewności.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Operacje w trakcie zmiany. Nie raporty na koniec dnia."
       },
       "pulse": {
         "badge": "Wliczone w Core",
@@ -1768,7 +1574,7 @@ export const generatedLocalCopy = {
         "button": "Zobacz wszystkie moduły"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Pełna Inteligencja",
+        "heading": "Watchtower wnosi świat zewnętrzny do Core",
         "description": "Core informuje, jak obecnie sobie radzisz. Watchtower mówi, co się dzieje wokół ciebie. Razem dają pełny obraz - wewnętrzne operacje i zewnętrzny kontekst rynkowy w jednej warstwie inteligencji.",
         "button": "Dowiedz się więcej o Watchtower"
       },
@@ -1777,53 +1583,46 @@ export const generatedLocalCopy = {
         "description": "Zobacz, jak wygląda rzeczywista inteligencja operacyjna w czasie rzeczywistym z Twoimi danymi.",
         "primary": "Zbadaj poziomy Core",
         "secondary": "Umów się na demo"
+      },
+      "solves": {
+        "eyebrow": "GDZIE UCIEKA MARŻA",
+        "heading": "Cztery miejsca, w których ucieka zysk. Core obejmuje wszystkie cztery.",
+        "description": "Zacznij od straty, nie od licencji. Każdy pakiet czyta wszystkie cztery - wybrany pakiet ustala głębokość.",
+        "areas": [
+          {
+            "title": "Przychód i Zysk",
+            "loss": "Anulacje, gratisy, rabaty i źle wycenione pozycje, które nigdy nie pojawiają się jako linia do zakwestionowania.",
+            "covered": "Inteligencja przychodu i zysku, revenue assurance, kontrybucja pozycji.",
+            "icon": "cost"
+          },
+          {
+            "title": "Towar i Zakupy",
+            "loss": "Różnica między zamówionym, zużytym i sprzedanym - straty, odchylenia i dryf cen dostawców.",
+            "covered": "Inteligencja magazynu i zakupów, zużycie teoretyczne kontra rzeczywiste, ruch dostawców.",
+            "icon": "insights"
+          },
+          {
+            "title": "Gość i Rynek",
+            "loss": "Goście, którzy nie przychodzą, goście, którzy nie wracają, i marża kanału zjadana przez prowizję.",
+            "covered": "Doświadczenie gościa i CRM, rezerwacje, ekonomia dostaw, atrybucja marketingu, benchmarki.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decyzje podejmowane za późno, na liczbach z zeszłego miesiąca, bez wiedzy, czy zadziałały.",
+            "covered": "Prognozy, scenariusze i warstwa działania z akceptacją. Rozszerzenie na Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "tr": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, vardiya sırasında harekete geçebilmeniz için her 2-4 saatte bir yenilenir - hasar verildikten sonra değil.",
+        "description": "POS, personel, stok ve önemli her sisteme bağlı. Core gün içinde yenilenir - genelde 2-4 saatte bir, kaynağın izin verdiği yerde daha sık - böylece zarar oluştuktan sonra değil, vardiya sürerken müdahale edersiniz.",
         "primary": "Core Katmanlarını Keşfedin",
         "secondary": "Demo Rezervasyonu Yap",
-        "title": "Gerçek zamanlı operasyon. Gün sonu raporları değil."
-      },
-      "dimensions": {
-        "heading": "4D Zeka Modeli",
-        "description": "Core, dört boyutu da sunar - genişletilmiş.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Ne Oldu",
-            "status": "Gerçek Zamanlı",
-            "description": "Tam operasyonel gerçeklik, her 2-4 saatte bir güncellenir. Aynı vardiya müdahaleleri için neredeyse gerçek zamanlı görünürlük.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Plan vs. Gerçek",
-            "status": "Gerçek Zamanlı",
-            "description": "Gerçek zamanlı bütçe sapması takibi. Finans ekipleri için hızlı raporlama. Haftalık ve aylık görünürlük.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Pazar Bağlamı",
-            "status": "Genişletilmiş",
-            "description": "Tam kıyaslama seti (30+ metrik). Portföy karşılaştırmaları. Watchtower aracılığıyla rekabetçi bağlam.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Sırada Ne Var",
-            "status": "Genişletilmiş",
-            "description": "14-30 günlük tahmin. Sorunlar büyümeden önce proaktif uyarılar. Sundae Coach önerileri ile güven puanları.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Vardiya içinde operasyon. Gün sonu raporu değil."
       },
       "pulse": {
         "badge": "Core ile Dahil",
@@ -1946,7 +1745,7 @@ export const generatedLocalCopy = {
         "button": "Tüm Modülleri Keşfedin"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Tam Zeka",
+        "heading": "Watchtower dış dünyayı Core’un içine taşır",
         "description": "Core, şu anda nasıl performans gösterdiğinizi söyler. Watchtower, etrafınızdaki olayları bildirir. Birlikte, size tam resmi sunar - iç operasyonlar ve dış pazar bağlamını tek bir zeka katmanında.",
         "button": "Watchtower Hakkında Bilgi Al"
       },
@@ -1955,53 +1754,46 @@ export const generatedLocalCopy = {
         "description": "Gerçek verilerinizle gerçek zamanlı operasyonel zekanın nasıl göründüğünü görün.",
         "primary": "Core Katmanlarını Keşfedin",
         "secondary": "Demo Talep Edin"
+      },
+      "solves": {
+        "eyebrow": "MARJ NEREYE GİDİYOR",
+        "heading": "Kârın sızdığı dört yer. Core dördünü de kapsar.",
+        "description": "Lisanstan değil, kayıptan başlayın. Her paket dördünü de okur; seçtiğiniz paket derinliği belirler.",
+        "areas": [
+          {
+            "title": "Ciro ve Kâr",
+            "loss": "İptaller, ikramlar, indirimler ve yanlış fiyatlanmış ürünler - hiçbiri sorgulanabilir bir satır olarak görünmez.",
+            "covered": "Ciro ve kâr zekası, revenue assurance, ürün bazında katkı.",
+            "icon": "cost"
+          },
+          {
+            "title": "Gıda ve Tedarik",
+            "loss": "Sipariş edilen, kullanılan ve satılan arasındaki fark - israf, sapma ve tedarikçi fiyat kayması.",
+            "covered": "Stok ve satın alma zekası, teorik ve gerçek kullanım, tedarikçi hareketi.",
+            "icon": "insights"
+          },
+          {
+            "title": "Misafir ve Pazar",
+            "loss": "Gelmeyen misafirler, dönmeyen misafirler ve komisyonun yediği kanal marjı.",
+            "covered": "Misafir deneyimi ve CRM, rezervasyon, teslimat ekonomisi, pazarlama atfı, emsal kıyaslamaları.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Geç alınan, geçen ayın rakamlarına dayanan ve sonrasında işe yarayıp yaramadığı bilinmeyen kararlar.",
+            "covered": "Tahmin, senaryo ve onaylı eylem katmanı. Core üzerine bir genişleme.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "zh-Hans": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "连接到您的POS、劳动力、库存和所有重要系统。Core每2-4小时刷新一次，让您在班次期间采取行动，而不是在损害发生后再处理。",
+        "description": "接入你的 POS、人力、库存以及每一个要紧的系统。Core 在营业时段内持续刷新——通常每 2-4 小时一次，数据源支持时更快——让你在班次进行中就能动手，而不是等损失已经造成。",
         "primary": "探索Core层级",
         "secondary": "预约演示",
-        "title": "实时运营，而非日终报表。"
-      },
-      "dimensions": {
-        "heading": "4D智能模型",
-        "description": "Core提供所有四个维度 - 扩展版。",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "发生了什么",
-            "status": "实时",
-            "description": "完整的运营真相，每2-4小时更新一次。近实时的同班干预可见性。",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "计划与实际",
-            "status": "实时",
-            "description": "实时预算差异跟踪。财务团队的快速报告。本周和本月的可见性。",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "市场背景",
-            "status": "扩展",
-            "description": "完整的基准套件（30+指标）。投资组合比较。通过Watchtower提供竞争背景。",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "接下来是什么",
-            "status": "扩展",
-            "description": "14-30天的预测。在问题升级之前的主动警报。Sundae Coach的推荐及信心评分。",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "班次之内就把事办了，不是等日终报表。"
       },
       "pulse": {
         "badge": "包含在Core中",
@@ -2124,7 +1916,7 @@ export const generatedLocalCopy = {
         "button": "探索所有模块"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = 完整智能",
+        "heading": "Watchtower 把外部世界带进 Core",
         "description": "Core 告诉你当前的表现。Watchtower 告诉你周围发生了什么。它们结合在一起，提供完整的视图 - 内部运营和外部市场背景在一个智能层中。",
         "button": "了解 Watchtower"
       },
@@ -2133,53 +1925,46 @@ export const generatedLocalCopy = {
         "description": "查看您实际数据的实时运营智能是什么样的。",
         "primary": "探索Core层级",
         "secondary": "预约演示"
+      },
+      "solves": {
+        "eyebrow": "毛利去哪了",
+        "heading": "利润流失的四个地方。Core 四个都覆盖。",
+        "description": "从损失开始看，而不是从license开始。每个套餐都读这四块，套餐决定读得多深。",
+        "areas": [
+          {
+            "title": "营收与利润",
+            "loss": "作废、赠单、折扣和定价失误，从来不会变成一条你能追问的账。",
+            "covered": "营收与利润分析、营收保障、单品贡献。",
+            "icon": "cost"
+          },
+          {
+            "title": "食材与供应",
+            "loss": "订的、用的、卖的三者之间的差额——损耗、偏差与供应商价格漂移。",
+            "covered": "库存与采购分析、理论用量对比实际、供应商价格变动。",
+            "icon": "insights"
+          },
+          {
+            "title": "客户与市场",
+            "loss": "没来的客人、不再回头的客人，以及被佣金吃掉的渠道毛利。",
+            "covered": "客户体验与 CRM、预订、外卖经济、营销归因、同行对标。",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "决定做得太晚，依据上个月的数字，事后也说不清有没有用。",
+            "covered": "预测、情景推演，以及带审批的行动层。Core 之上的扩展。",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "ja": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続されています。Coreは2〜4時間ごとに更新されるため、被害が出た後ではなく、シフト中に行動できます。",
+        "description": "POS、人件費、在庫、そして重要なすべてのシステムに接続。Core は営業時間中に更新されます。通常は2〜4時間ごと、データ元が許せばさらに短い間隔で。損失が出たあとではなく、シフトの最中に動けます。",
         "primary": "Coreティアを探る",
         "secondary": "デモを予約",
-        "title": "リアルタイムの運営。日次レポートではなく。"
-      },
-      "dimensions": {
-        "heading": "4Dインテリジェンスモデル",
-        "description": "Coreはすべての4つの次元を提供します - 拡張されています。",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "何が起こったか",
-            "status": "リアルタイム",
-            "description": "完全な運用の真実、2〜4時間ごとに更新。シフト内介入のためのほぼリアルタイムの可視性。",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "計画対実績",
-            "status": "リアルタイム",
-            "description": "リアルタイムの予算差異追跡。財務チーム向けのフラッシュレポート。週ごとのおよび月ごとの可視性。",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "市場の文脈",
-            "status": "拡張",
-            "description": "完全なベンチマーキングスイート（30以上の指標）。ポートフォリオ比較。Watchtowerを通じた競争の文脈。",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "次は何か",
-            "status": "拡張",
-            "description": "14〜30日の予測。問題が悪化する前のプロアクティブなアラート。Sundae Coachの推奨事項と信頼度スコア。",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "その日のシフト中に動く。日次レポートを待たない。"
       },
       "pulse": {
         "badge": "Coreに含まれています",
@@ -2302,7 +2087,7 @@ export const generatedLocalCopy = {
         "button": "すべてのモジュールを探る"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = 完全なインテリジェンス",
+        "heading": "Watchtower が外の世界を Core に取り込みます",
         "description": "Coreは現在のパフォーマンスを教えてくれます。Watchtowerは周囲で何が起こっているかを知らせてくれます。これらを組み合わせることで、内部の運営と外部の市場コンテキストを一つのインテリジェンスレイヤーで把握できます。",
         "button": "Watchtowerについて学ぶ"
       },
@@ -2311,53 +2096,46 @@ export const generatedLocalCopy = {
         "description": "実際のデータでリアルタイムのオペレーショナルインテリジェンスがどのようなものかを見てみましょう。",
         "primary": "Coreティアを探る",
         "secondary": "デモを予約"
+      },
+      "solves": {
+        "eyebrow": "利益はどこへ消えるのか",
+        "heading": "利益が漏れる四つの場所。Core はその四つすべてを見ます。",
+        "description": "ライセンスからではなく、損失から始めてください。どのパッケージも四つすべてを読み、深さはパッケージが決めます。",
+        "areas": [
+          {
+            "title": "売上と利益",
+            "loss": "取消、サービス提供、値引き、そして値付けを誤った商品。どれも問いただせる一行としては現れません。",
+            "covered": "売上・利益のインテリジェンス、レベニューアシュアランス、商品別の貢献度。",
+            "icon": "cost"
+          },
+          {
+            "title": "食材と仕入れ",
+            "loss": "発注した量、使った量、売れた量のズレ。廃棄、差異、仕入価格の変動です。",
+            "covered": "在庫と購買のインテリジェンス、理論値と実使用の対比、仕入先の価格推移。",
+            "icon": "insights"
+          },
+          {
+            "title": "顧客と市場",
+            "loss": "来なかった客数、戻ってこない顧客、そして手数料に食われるチャネル利益。",
+            "covered": "顧客体験とCRM、予約、デリバリー収支、マーケティング寄与、同業ベンチマーク。",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "先月の数字をもとに遅れて下される判断。あとから効いたのかどうかも分かりません。",
+            "covered": "予測、シナリオ、そして承認を挟む実行レイヤー。Core の上に載る拡張です。",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "ko": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 2-4시간마다 새로 고쳐져서 피해가 발생한 후가 아닌 근무 중에 조치를 취할 수 있습니다.",
+        "description": "POS, 인력, 재고 등 중요한 모든 시스템에 연결됩니다. Core는 영업 시간 중에 갱신되며, 보통 2~4시간 간격, 데이터 원본이 지원하면 더 빠르게 갱신됩니다. 손실이 난 뒤가 아니라 근무 중에 손쓸 수 있습니다.",
         "primary": "Core 티어 탐색",
         "secondary": "데모 예약",
-        "title": "실시간 운영. 마감 보고서가 아닙니다."
-      },
-      "dimensions": {
-        "heading": "4D 인텔리전스 모델",
-        "description": "Core는 모든 네 가지 차원을 제공합니다 - 확장됨.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "무슨 일이 있었나요",
-            "status": "실시간",
-            "description": "완전한 운영 진실, 2-4시간마다 업데이트됩니다. 같은 교대 근무 중 개입을 위한 거의 실시간 가시성.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "계획 vs. 실제",
-            "status": "실시간",
-            "description": "실시간 예산 변동 추적. 재무 팀을 위한 플래시 보고서. 주간 및 월간 가시성.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "시장 맥락",
-            "status": "확장됨",
-            "description": "전체 벤치마킹 스위트(30개 이상의 지표). 포트폴리오 비교. Watchtower를 통한 경쟁 맥락.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "다음은 무엇인가요",
-            "status": "확장됨",
-            "description": "14-30일 예측. 문제가 악화되기 전에 사전 경고. Sundae Coach의 추천과 신뢰도 점수.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "근무 중에 움직입니다. 마감 보고서를 기다리지 않습니다."
       },
       "pulse": {
         "badge": "Core 포함",
@@ -2480,7 +2258,7 @@ export const generatedLocalCopy = {
         "button": "모든 모듈 탐색"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = 완벽한 인사이트",
+        "heading": "Watchtower가 바깥 세상을 Core 안으로 들여옵니다",
         "description": "Core는 현재 성과를 알려줍니다. Watchtower는 주변에서 일어나는 일을 알려줍니다. 함께, 이들은 내부 운영과 외부 시장 맥락을 하나의 인사이트 레이어로 제공합니다.",
         "button": "Watchtower에 대해 알아보기"
       },
@@ -2489,53 +2267,46 @@ export const generatedLocalCopy = {
         "description": "실제 데이터를 통해 실시간 운영 인텔리전스가 어떻게 보이는지 확인하세요.",
         "primary": "Core 티어 탐색하기",
         "secondary": "데모 예약하기"
+      },
+      "solves": {
+        "eyebrow": "마진은 어디로 새는가",
+        "heading": "이익이 새는 네 곳. Core는 네 곳 모두를 봅니다.",
+        "description": "라이선스가 아니라 손실에서 시작하세요. 모든 패키지가 네 곳을 다 읽고, 깊이는 패키지가 정합니다.",
+        "areas": [
+          {
+            "title": "매출과 이익",
+            "loss": "취소, 서비스 제공, 할인, 잘못 매겨진 가격. 어느 것도 따져 물을 수 있는 한 줄로 나타나지 않습니다.",
+            "covered": "매출·이익 인텔리전스, 레비뉴 어슈어런스, 품목별 기여도.",
+            "icon": "cost"
+          },
+          {
+            "title": "식자재와 공급",
+            "loss": "주문한 양, 쓴 양, 판 양 사이의 차이. 폐기, 편차, 공급가 변동입니다.",
+            "covered": "재고·구매 인텔리전스, 이론 사용량 대 실제, 공급업체 가격 추이.",
+            "icon": "insights"
+          },
+          {
+            "title": "고객과 시장",
+            "loss": "오지 않은 예약, 돌아오지 않는 고객, 그리고 수수료가 먹는 채널 마진.",
+            "covered": "고객 경험과 CRM, 예약, 배달 수익 구조, 마케팅 기여도, 동종업계 벤치마크.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "지난달 숫자로 늦게 내리는 결정. 나중에 효과가 있었는지도 알 수 없습니다.",
+            "covered": "예측, 시나리오, 그리고 승인을 거치는 실행 레이어. Core 위에 얹는 확장입니다.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "id": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core diperbarui setiap 2-4 jam sehingga Anda dapat bertindak selama shift - bukan setelah kerusakan terjadi.",
+        "description": "Terhubung ke POS, tenaga kerja, persediaan, dan setiap sistem yang penting. Core menyegarkan sepanjang hari operasional - biasanya tiap 2-4 jam, dan lebih cepat bila sumbernya mendukung - jadi Anda bertindak saat shift berjalan, bukan setelah kerugian terjadi.",
         "primary": "Jelajahi Tingkatan Core",
         "secondary": "Pesan Demo",
-        "title": "Operasi waktu nyata. Bukan laporan akhir hari."
-      },
-      "dimensions": {
-        "heading": "Model Intelijen 4D",
-        "description": "Core menyajikan keempat dimensi - diperluas.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Apa yang Terjadi",
-            "status": "Waktu Nyata",
-            "description": "Kebenaran operasional lengkap, diperbarui setiap 2-4 jam. Visibilitas hampir waktu nyata untuk intervensi dalam shift yang sama.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Rencana vs. Aktual",
-            "status": "Waktu Nyata",
-            "description": "Pelacakan varians anggaran waktu nyata. Laporan cepat untuk tim keuangan. Visibilitas minggu ini dan bulan ini.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Konteks Pasar",
-            "status": "Diperluas",
-            "description": "Kumpulan benchmarking lengkap (30+ metrik). Perbandingan portofolio. Konteks kompetitif melalui Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Apa Selanjutnya",
-            "status": "Diperluas",
-            "description": "Peramalan 14-30 hari. Peringatan proaktif sebelum masalah meningkat. Rekomendasi Sundae Coach dengan skor kepercayaan.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Operasi di dalam shift. Bukan laporan akhir hari."
       },
       "pulse": {
         "badge": "Termasuk dengan Core",
@@ -2658,7 +2429,7 @@ export const generatedLocalCopy = {
         "button": "Jelajahi Semua Modul"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Intelijen Lengkap",
+        "heading": "Watchtower membawa dunia luar ke dalam Core",
         "description": "Core memberi tahu Anda bagaimana kinerja Anda saat ini. Watchtower memberi tahu Anda apa yang terjadi di sekitar Anda. Bersama-sama, mereka memberikan gambaran lengkap - operasi internal dan konteks pasar eksternal dalam satu lapisan intelijen.",
         "button": "Pelajari Tentang Watchtower"
       },
@@ -2667,53 +2438,46 @@ export const generatedLocalCopy = {
         "description": "Lihat seperti apa kecerdasan operasional waktu nyata dengan data aktual Anda.",
         "primary": "Jelajahi Tingkatan Core",
         "secondary": "Pesan Demo"
+      },
+      "solves": {
+        "eyebrow": "KE MANA MARGIN PERGI",
+        "heading": "Empat tempat laba bocor. Core mencakup keempatnya.",
+        "description": "Mulailah dari kerugian, bukan dari lisensi. Setiap paket membaca keempatnya - paket yang Anda pilih menentukan kedalamannya.",
+        "areas": [
+          {
+            "title": "Pendapatan & Laba",
+            "loss": "Void, komplimen, diskon, dan item yang salah harga - tak satu pun muncul sebagai baris yang bisa Anda pertanyakan.",
+            "covered": "Inteligensi pendapatan dan laba, revenue assurance, kontribusi per item.",
+            "icon": "cost"
+          },
+          {
+            "title": "Bahan & Pasokan",
+            "loss": "Selisih antara yang dipesan, dipakai, dan terjual - susut, deviasi, dan pergeseran harga pemasok.",
+            "covered": "Inteligensi persediaan dan pembelian, pemakaian teoretis versus aktual, pergerakan pemasok.",
+            "icon": "insights"
+          },
+          {
+            "title": "Tamu & Pasar",
+            "loss": "Tamu yang tak jadi datang, tamu yang tak kembali, dan margin kanal yang dimakan komisi.",
+            "covered": "Pengalaman tamu dan CRM, reservasi, ekonomi pengiriman, atribusi pemasaran, tolok ukur sesama.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Keputusan yang diambil terlambat, memakai angka bulan lalu, tanpa cara tahu setelahnya apakah berhasil.",
+            "covered": "Prakiraan, skenario, dan lapisan tindakan dengan persetujuan. Perluasan di atas Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "vi": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core được làm mới mỗi 2-4 giờ để bạn có thể hành động trong ca làm việc - không phải sau khi thiệt hại đã xảy ra.",
+        "description": "Kết nối POS, nhân sự, tồn kho và mọi hệ thống quan trọng. Core làm mới trong ngày kinh doanh - thường mỗi 2-4 giờ, và nhanh hơn khi nguồn cho phép - để bạn xử lý ngay trong ca, không phải sau khi đã mất tiền.",
         "primary": "Khám phá các cấp độ Core",
         "secondary": "Đặt lịch Demo",
-        "title": "Vận hành thời gian thực. Không phải báo cáo cuối ngày."
-      },
-      "dimensions": {
-        "heading": "Mô Hình Trí Tuệ 4D",
-        "description": "Core cung cấp cả bốn chiều - mở rộng.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Điều Gì Đã Xảy Ra",
-            "status": "Thời Gian Thực",
-            "description": "Sự thật vận hành hoàn chỉnh, được cập nhật mỗi 2-4 giờ. Tầm nhìn gần thời gian thực cho các can thiệp cùng ca.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Kế Hoạch So Với Thực Tế",
-            "status": "Thời Gian Thực",
-            "description": "Theo dõi biến động ngân sách theo thời gian thực. Báo cáo nhanh cho các đội tài chính. Tầm nhìn từ đầu tuần đến nay và từ đầu tháng đến nay.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Bối Cảnh Thị Trường",
-            "status": "Mở Rộng",
-            "description": "Bộ công cụ chuẩn hóa đầy đủ (30+ chỉ số). So sánh danh mục. Bối cảnh cạnh tranh qua Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Điều Gì Tiếp Theo",
-            "status": "Mở Rộng",
-            "description": "Dự báo từ 14-30 ngày. Cảnh báo chủ động trước khi vấn đề leo thang. Đề xuất từ Sundae Coach với điểm số tự tin.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Vận hành ngay trong ca. Không phải báo cáo cuối ngày."
       },
       "pulse": {
         "badge": "Bao gồm trong Core",
@@ -2836,7 +2600,7 @@ export const generatedLocalCopy = {
         "button": "Khám Phá Tất Cả Các Mô-đun"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Trí tuệ hoàn chỉnh",
+        "heading": "Watchtower đưa thế giới bên ngoài vào Core",
         "description": "Core cho bạn biết bạn đang hoạt động như thế nào ngay bây giờ. Watchtower cho bạn biết những gì đang xảy ra xung quanh bạn. Cùng nhau, chúng cung cấp cho bạn bức tranh toàn cảnh - hoạt động nội bộ và bối cảnh thị trường bên ngoài trong một lớp trí tuệ.",
         "button": "Tìm hiểu về Watchtower"
       },
@@ -2845,53 +2609,46 @@ export const generatedLocalCopy = {
         "description": "Xem trí tuệ hoạt động theo thời gian thực với dữ liệu thực tế của bạn.",
         "primary": "Khám Phá Các Cấp Độ Core",
         "secondary": "Đặt Lịch Dùng Thử"
+      },
+      "solves": {
+        "eyebrow": "BIÊN LỢI NHUẬN ĐI ĐÂU",
+        "heading": "Bốn chỗ lợi nhuận thất thoát. Core bao cả bốn.",
+        "description": "Bắt đầu từ khoản mất, không phải từ giấy phép. Mọi gói đều đọc cả bốn - gói bạn chọn quyết định độ sâu.",
+        "areas": [
+          {
+            "title": "Doanh thu & Lợi nhuận",
+            "loss": "Huỷ món, tặng, giảm giá và món định giá sai - không cái nào hiện ra thành một dòng bạn có thể chất vấn.",
+            "covered": "Phân tích doanh thu và lợi nhuận, revenue assurance, đóng góp theo món.",
+            "icon": "cost"
+          },
+          {
+            "title": "Thực phẩm & Cung ứng",
+            "loss": "Khoảng chênh giữa đặt, dùng và bán - hao hụt, sai lệch và giá nhà cung cấp trôi dần.",
+            "covered": "Phân tích tồn kho và mua hàng, định mức so với thực dùng, biến động nhà cung cấp.",
+            "icon": "insights"
+          },
+          {
+            "title": "Khách & Thị trường",
+            "loss": "Khách không đến, khách không quay lại, và biên kênh bị hoa hồng ăn mất.",
+            "covered": "Trải nghiệm khách và CRM, đặt chỗ, kinh tế giao hàng, quy kết tiếp thị, đối sánh cùng ngành.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Quyết định đưa ra muộn, dựa trên số liệu tháng trước, và sau đó không biết có hiệu quả hay không.",
+            "covered": "Dự báo, kịch bản và lớp hành động có phê duyệt. Một mở rộng trên Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "ro": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core se actualizează la fiecare 2-4 ore, astfel încât să poți acționa în timpul schimbului - nu după ce daunele sunt făcute.",
+        "description": "Conectat la POS, personal, stocuri și fiecare sistem care contează. Core se împrospătează pe parcursul zilei - de regulă la 2-4 ore, și mai des acolo unde sursa permite - ca să acționezi în timpul turei, nu după pagubă.",
         "primary": "Explorează nivelurile Core",
         "secondary": "Programează o demonstrație",
-        "title": "Operațiuni în timp real. Nu rapoarte de final de zi."
-      },
-      "dimensions": {
-        "heading": "Modelul de Inteligență 4D",
-        "description": "Core oferă toate cele patru dimensiuni - extins.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Ce s-a întâmplat",
-            "status": "În timp real",
-            "description": "Adevărul operațional complet, actualizat la fiecare 2-4 ore. Vizibilitate aproape în timp real pentru intervenții în aceeași tură.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Plan vs. Realitate",
-            "status": "În timp real",
-            "description": "Urmărirea variației bugetare în timp real. Raportare rapidă pentru echipele financiare. Vizibilitate săptămânală și lunară.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Contextul Pieței",
-            "status": "Extins",
-            "description": "Suită completă de benchmarking (30+ metrici). Compararea portofoliilor. Context competitiv prin Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Ce urmează",
-            "status": "Extins",
-            "description": "Previziuni pe 14-30 de zile. Alerte proactive înainte ca problemele să escaladeze. Recomandări Sundae Coach cu scoruri de încredere.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Operațiuni în timpul turei. Nu rapoarte de final de zi."
       },
       "pulse": {
         "badge": "Inclus în Core",
@@ -3014,7 +2771,7 @@ export const generatedLocalCopy = {
         "button": "Explorează Toate Modulele"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Inteligență Completă",
+        "heading": "Watchtower aduce lumea din afară în Core",
         "description": "Core îți arată cum te descurci în prezent. Watchtower îți spune ce se întâmplă în jurul tău. Împreună, îți oferă imaginea de ansamblu - operațiuni interne și context de piață extern într-un singur strat de inteligență.",
         "button": "Află mai multe despre Watchtower"
       },
@@ -3023,53 +2780,46 @@ export const generatedLocalCopy = {
         "description": "Vezi cum arată inteligența operațională în timp real cu datele tale reale.",
         "primary": "Explorează nivelurile Core",
         "secondary": "Programează o demonstrație"
+      },
+      "solves": {
+        "eyebrow": "UNDE SE DUCE MARJA",
+        "heading": "Patru locuri prin care se scurge profitul. Core le acoperă pe toate patru.",
+        "description": "Începe de la pierdere, nu de la licență. Fiecare pachet le citește pe toate patru - pachetul ales stabilește adâncimea.",
+        "areas": [
+          {
+            "title": "Venit și Profit",
+            "loss": "Anulări, gratuități, reduceri și produse prost tarifate - niciunul nu apare ca o linie pe care s-o poți contesta.",
+            "covered": "Inteligență de venit și profit, revenue assurance, contribuție pe produs.",
+            "icon": "cost"
+          },
+          {
+            "title": "Marfă și Aprovizionare",
+            "loss": "Diferența dintre ce ai comandat, ce ai folosit și ce ai vândut - risipă, abateri și derivă a prețurilor de furnizor.",
+            "covered": "Inteligență de stoc și achiziții, consum teoretic față de real, mișcarea furnizorilor.",
+            "icon": "insights"
+          },
+          {
+            "title": "Client și Piață",
+            "loss": "Clienți care nu vin, clienți care nu se întorc și marja de canal mâncată de comision.",
+            "covered": "Experiența clientului și CRM, rezervări, economia livrării, atribuirea de marketing, repere de piață.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decizii luate târziu, pe cifrele de luna trecută, fără să știi apoi dacă au funcționat.",
+            "covered": "Prognoze, scenarii și stratul de acțiune cu aprobare. O extensie peste Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "sv": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core uppdateras var 2-4 timme så att du kan agera under skiftet - inte efter att skadan är skedd.",
+        "description": "Kopplat till er POS, personal, lager och varje system som spelar roll. Core uppdateras under handelsdagen - vanligtvis var 2-4 timme, och snabbare där källan tillåter - så att ni agerar under passet, inte efter skadan.",
         "primary": "Utforska Core-nivåer",
         "secondary": "Boka en demo",
-        "title": "Drift i realtid. Inte dagsavslutsrapporter."
-      },
-      "dimensions": {
-        "heading": "4D Intelligensmodellen",
-        "description": "Core levererar alla fyra dimensioner - utvidgade.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Vad hände",
-            "status": "Realtid",
-            "description": "Fullständig operationell sanning, uppdaterad var 2-4 timme. Nära realtidsinsyn för insatser under samma skift.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Plan vs. Verklig",
-            "status": "Realtid",
-            "description": "Realtidsövervakning av budgetavvikelser. Snabbrapportering för ekonomiteam. Veckans och månadens insyn.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Marknadskontext",
-            "status": "Utvidgad",
-            "description": "Fullständig benchmarkinguppsättning (30+ mätvärden). Portföljjämförelser. Konkurrenskontext via Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Vad är nästa steg",
-            "status": "Utvidgad",
-            "description": "14-30 dagars prognoser. Proaktiva varningar innan problem eskalerar. Sundae Coach-rekommendationer med förtroendepoäng.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Drift under passet. Inte dagsavslutsrapporter."
       },
       "pulse": {
         "badge": "Ingår i Core",
@@ -3192,7 +2942,7 @@ export const generatedLocalCopy = {
         "button": "Utforska alla moduler"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Komplett Intelligens",
+        "heading": "Watchtower tar in omvärlden i Core",
         "description": "Core visar hur du presterar just nu. Watchtower berättar vad som händer runt omkring dig. Tillsammans ger de dig den kompletta bilden - interna operationer och extern marknadskontext i ett intelligenslager.",
         "button": "Lär dig mer om Watchtower"
       },
@@ -3201,53 +2951,46 @@ export const generatedLocalCopy = {
         "description": "Se hur verklig operationell intelligens ser ut med dina faktiska data.",
         "primary": "Utforska Core-nivåer",
         "secondary": "Boka en demo"
+      },
+      "solves": {
+        "eyebrow": "VART MARGINALEN TAR VÄGEN",
+        "heading": "Fyra ställen där vinsten läcker. Core täcker alla fyra.",
+        "description": "Börja i förlusten, inte i licensen. Varje paket läser alla fyra - paketet avgör djupet.",
+        "areas": [
+          {
+            "title": "Intäkt & Vinst",
+            "loss": "Makuleringar, comps, rabatter och felprissatta artiklar som aldrig dyker upp som en rad ni kan ifrågasätta.",
+            "covered": "Intäkts- och vinstintelligens, revenue assurance, bidrag per artikel.",
+            "icon": "cost"
+          },
+          {
+            "title": "Råvara & Inköp",
+            "loss": "Glappet mellan beställt, använt och sålt - svinn, avvikelse och prisdrift hos leverantör.",
+            "covered": "Lager- och inköpsintelligens, teoretisk kontra faktisk förbrukning, leverantörsrörelser.",
+            "icon": "insights"
+          },
+          {
+            "title": "Gäst & Marknad",
+            "loss": "Gäster som aldrig kommer, gäster som inte återvänder och kanalmarginal som provisionen äter upp.",
+            "covered": "Gästupplevelse och CRM, bokningar, leveransekonomi, marknadsföringsattribution, jämförelsetal.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Beslut som fattas för sent, på förra månadens siffror, utan att ni efteråt vet om de fungerade.",
+            "covered": "Prognoser, scenarier och handlingslagret med godkännande. En utökning ovanpå Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "bn": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core প্রতি ২-৪ ঘণ্টায় রিফ্রেশ হয় যাতে আপনি শিফটের সময় কাজ করতে পারেন - ক্ষতি হওয়ার পরে নয়।",
+        "description": "আপনার POS, শ্রম, ইনভেন্টরি ও প্রতিটি গুরুত্বপূর্ণ সিস্টেমের সঙ্গে যুক্ত। Core ব্যবসার দিনজুড়ে রিফ্রেশ হয় - সাধারণত প্রতি ২-৪ ঘণ্টায়, আর উৎস অনুমতি দিলে আরও দ্রুত - যাতে ক্ষতি হয়ে যাওয়ার পরে নয়, শিফট চলাকালীনই আপনি ব্যবস্থা নিতে পারেন।",
         "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন",
-        "title": "রিয়েল-টাইম অপারেশন। দিনশেষের রিপোর্ট নয়।"
-      },
-      "dimensions": {
-        "heading": "4D ইন্টেলিজেন্স মডেল",
-        "description": "Core চারটি মাত্রা প্রদান করে - সম্প্রসারিত।",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "কি ঘটেছে",
-            "status": "রিয়েল-টাইম",
-            "description": "সম্পূর্ণ অপারেশনাল সত্য, প্রতি ২-৪ ঘন্টায় আপডেট হয়। একই শিফটে হস্তক্ষেপের জন্য নিকট রিয়েল-টাইম দৃশ্যমানতা।",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "পরিকল্পনা বনাম বাস্তব",
-            "status": "রিয়েল-টাইম",
-            "description": "রিয়েল-টাইম বাজেট ভেরিয়েন্স ট্র্যাকিং। ফাইন্যান্স টিমের জন্য ফ্ল্যাশ রিপোর্টিং। সপ্তাহের এবং মাসের জন্য দৃশ্যমানতা।",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "বাজারের প্রেক্ষাপট",
-            "status": "সম্প্রসারিত",
-            "description": "পূর্ণ বেঞ্চমার্কিং স্যুট (৩০+ মেট্রিক)। পোর্টফোলিও তুলনা। Watchtower এর মাধ্যমে প্রতিযোগিতামূলক প্রেক্ষাপট।",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "পরবর্তী কি",
-            "status": "সম্প্রসারিত",
-            "description": "১৪-৩০ দিনের পূর্বাভাস। সমস্যা বাড়ার আগে সক্রিয় সতর্কতা। Sundae Coach এর সুপারিশগুলি আত্মবিশ্বাসের স্কোর সহ।",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "শিফটের মধ্যেই পরিচালনা। দিনশেষের রিপোর্ট নয়।"
       },
       "pulse": {
         "badge": "Core এর সাথে অন্তর্ভুক্ত",
@@ -3370,7 +3113,7 @@ export const generatedLocalCopy = {
         "button": "সমস্ত মডিউল অন্বেষণ করুন"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = সম্পূর্ণ বুদ্ধিমত্তা",
+        "heading": "Watchtower বাইরের জগৎকে Core-এ নিয়ে আসে",
         "description": "Core আপনাকে জানায় আপনি এখন কেমন পারফর্ম করছেন। Watchtower আপনাকে জানায় আপনার চারপাশে কী ঘটছে। একসাথে, তারা আপনাকে সম্পূর্ণ চিত্র দেয় - অভ্যন্তরীণ কার্যক্রম এবং বাইরের বাজারের প্রেক্ষাপট এক বুদ্ধিমত্তা স্তরে।",
         "button": "Watchtower সম্পর্কে জানুন"
       },
@@ -3379,53 +3122,46 @@ export const generatedLocalCopy = {
         "description": "আপনার প্রকৃত ডেটার সাথে বাস্তব-সময়ের অপারেশনাল বুদ্ধিমত্তা কেমন দেখায় তা দেখুন।",
         "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন"
+      },
+      "solves": {
+        "eyebrow": "মার্জিন কোথায় যায়",
+        "heading": "মুনাফা চার জায়গা দিয়ে বেরিয়ে যায়। Core চারটিই ধরে।",
+        "description": "লাইসেন্স থেকে নয়, ক্ষতি থেকে শুরু করুন। প্রতিটি প্যাকেজ চারটিই পড়ে - গভীরতা ঠিক করে প্যাকেজ।",
+        "areas": [
+          {
+            "title": "রাজস্ব ও মুনাফা",
+            "loss": "ভয়েড, কম্প, ছাড় আর ভুল দামের আইটেম - কোনোটিই এমন লাইন হয়ে ওঠে না যা নিয়ে আপনি প্রশ্ন করতে পারেন।",
+            "covered": "রাজস্ব ও মুনাফা বিশ্লেষণ, রেভিনিউ অ্যাসিওরেন্স, প্রতি আইটেমের অবদান।",
+            "icon": "cost"
+          },
+          {
+            "title": "খাদ্য ও সরবরাহ",
+            "loss": "যা অর্ডার হলো, যা ব্যবহার হলো আর যা বিক্রি হলো - এদের ফারাক: অপচয়, বিচ্যুতি ও সরবরাহকারীর দাম বদল।",
+            "covered": "ইনভেন্টরি ও ক্রয় বিশ্লেষণ, তাত্ত্বিক বনাম প্রকৃত ব্যবহার, সরবরাহকারীর দামের গতি।",
+            "icon": "insights"
+          },
+          {
+            "title": "অতিথি ও বাজার",
+            "loss": "যে অতিথি এলই না, যে ফিরে এল না, আর কমিশনের পর চ্যানেলের যেটুকু মার্জিন থাকে।",
+            "covered": "অতিথি অভিজ্ঞতা ও CRM, রিজার্ভেশন, ডেলিভারি অর্থনীতি, মার্কেটিং অ্যাট্রিবিউশন, সমগোত্রীয় বেঞ্চমার্ক।",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "দেরিতে নেওয়া সিদ্ধান্ত, গত মাসের সংখ্যার ওপর, আর পরে জানার উপায় নেই সেগুলো কাজ করেছে কি না।",
+            "covered": "পূর্বাভাস, দৃশ্যকল্প আর অনুমোদনসহ কর্মস্তর। Core-এর ওপরে একটি সম্প্রসারণ।",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "th": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core จะรีเฟรชทุก 2-4 ชั่วโมง เพื่อให้คุณสามารถดำเนินการได้ในระหว่างการทำงาน - ไม่ใช่หลังจากที่เกิดความเสียหายแล้ว.",
+        "description": "เชื่อมต่อกับ POS แรงงาน สินค้าคงคลัง และทุกระบบที่สำคัญ Core รีเฟรชตลอดวันทำการ โดยทั่วไปทุก 2-4 ชั่วโมง และเร็วกว่านั้นเมื่อแหล่งข้อมูลรองรับ คุณจึงลงมือได้ระหว่างกะ ไม่ใช่หลังจากเสียหายไปแล้ว",
         "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต",
-        "title": "การดำเนินงานแบบเรียลไทม์ ไม่ใช่รายงานสิ้นวัน"
-      },
-      "dimensions": {
-        "heading": "โมเดลอัจฉริยะ 4D",
-        "description": "Core นำเสนอทั้งสี่มิติ - ขยายออกไปแล้ว.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "เกิดอะไรขึ้น",
-            "status": "เรียลไทม์",
-            "description": "ความจริงในการดำเนินงานที่ครบถ้วน อัปเดตทุก 2-4 ชั่วโมง มองเห็นใกล้เรียลไทม์สำหรับการแทรกแซงในกะเดียวกัน.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "แผนกับจริง",
-            "status": "เรียลไทม์",
-            "description": "ติดตามความแปรปรวนของงบประมาณแบบเรียลไทม์ รายงานด่วนสำหรับทีมการเงิน มองเห็นตั้งแต่ต้นสัปดาห์ถึงปัจจุบันและต้นเดือนถึงปัจจุบัน.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "บริบทตลาด",
-            "status": "ขยาย",
-            "description": "ชุดการเปรียบเทียบที่ครบถ้วน (มากกว่า 30 เมตริก) การเปรียบเทียบพอร์ตโฟลิโอ บริบทการแข่งขันผ่าน Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "ต่อไปจะเป็นอย่างไร",
-            "status": "ขยาย",
-            "description": "การคาดการณ์ 14-30 วัน การแจ้งเตือนเชิงรุกก่อนที่ปัญหาจะลุกลาม คำแนะนำจาก Sundae Coach พร้อมคะแนนความมั่นใจ.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "ลงมือภายในกะ ไม่ใช่รายงานสิ้นวัน"
       },
       "pulse": {
         "badge": "รวมอยู่ใน Core",
@@ -3548,7 +3284,7 @@ export const generatedLocalCopy = {
         "button": "สำรวจโมดูลทั้งหมด"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = ปัญญาที่ครบถ้วน",
+        "heading": "Watchtower นำโลกภายนอกเข้ามาใน Core",
         "description": "Core บอกคุณว่าคุณทำงานได้ดีแค่ไหนในขณะนี้ Watchtower บอกคุณว่าเกิดอะไรขึ้นรอบตัวคุณ เมื่อรวมกัน พวกเขาจะให้ภาพรวมที่ครบถ้วน - การดำเนินงานภายในและบริบทตลาดภายนอกในชั้นปัญญาเดียวกัน.",
         "button": "เรียนรู้เกี่ยวกับ Watchtower"
       },
@@ -3557,53 +3293,46 @@ export const generatedLocalCopy = {
         "description": "ดูว่าข้อมูลเชิงลึกในการดำเนินงานแบบเรียลไทม์เป็นอย่างไรด้วยข้อมูลจริงของคุณ",
         "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต"
+      },
+      "solves": {
+        "eyebrow": "กำไรหายไปไหน",
+        "heading": "สี่จุดที่กำไรรั่วออก Core ครอบคลุมทั้งสี่",
+        "description": "เริ่มจากสิ่งที่เสียไป ไม่ใช่จากไลเซนส์ ทุกแพ็กเกจอ่านครบทั้งสี่ แพ็กเกจที่เลือกเป็นตัวกำหนดความลึก",
+        "areas": [
+          {
+            "title": "รายได้และกำไร",
+            "loss": "การยกเลิก การให้ฟรี ส่วนลด และเมนูที่ตั้งราคาผิด ไม่มีอันไหนโผล่มาเป็นบรรทัดที่คุณตั้งคำถามได้",
+            "covered": "การวิเคราะห์รายได้และกำไร การประกันรายได้ กำไรส่วนเพิ่มรายเมนู",
+            "icon": "cost"
+          },
+          {
+            "title": "วัตถุดิบและซัพพลาย",
+            "loss": "ช่องว่างระหว่างที่สั่ง ที่ใช้ และที่ขาย ทั้งของเสีย ส่วนต่าง และราคาซัพพลายเออร์ที่ขยับ",
+            "covered": "การวิเคราะห์สต๊อกและจัดซื้อ ปริมาณตามทฤษฎีเทียบกับที่ใช้จริง ความเคลื่อนไหวของซัพพลายเออร์",
+            "icon": "insights"
+          },
+          {
+            "title": "ลูกค้าและตลาด",
+            "loss": "ลูกค้าที่ไม่มา ลูกค้าที่ไม่กลับมา และกำไรช่องทางที่ถูกค่าคอมมิชชันกินไป",
+            "covered": "ประสบการณ์ลูกค้าและ CRM การจอง เศรษฐศาสตร์เดลิเวอรี การระบุผลการตลาด และการเทียบเคียงกับคู่แข่ง",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "การตัดสินใจที่ช้าไป อิงตัวเลขเดือนก่อน และหลังจากนั้นก็ไม่รู้ว่าได้ผลหรือไม่",
+            "covered": "การพยากรณ์ สถานการณ์จำลอง และชั้นการลงมือที่มีการอนุมัติ เป็นส่วนขยายบน Core",
+            "icon": "forecasting"
+          }
+        ]
       }
     },
     "ms": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core menyegarkan setiap 2-4 jam supaya anda boleh bertindak semasa waktu kerja - bukan selepas kerosakan berlaku.",
+        "description": "Bersambung dengan POS, tenaga kerja, inventori dan setiap sistem yang penting. Core disegar sepanjang hari perniagaan - biasanya setiap 2-4 jam, dan lebih pantas jika sumbernya membenarkan - supaya anda bertindak semasa syif, bukan selepas kerugian berlaku.",
         "primary": "Terokai Tahap Core",
         "secondary": "Tempah Demo",
-        "title": "Operasi masa nyata. Bukan laporan hujung hari."
-      },
-      "dimensions": {
-        "heading": "Model Kecerdasan 4D",
-        "description": "Core menyampaikan keempat dimensi - diperluas.",
-        "items": [
-          {
-            "dimension": "1D",
-            "title": "Apa yang Berlaku",
-            "status": "Masa Nyata",
-            "description": "Kebenaran operasi lengkap, dikemas kini setiap 2-4 jam. Keterlihatan hampir masa nyata untuk intervensi dalam syif yang sama.",
-            "icon": "report",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "dimension": "2D",
-            "title": "Rancangan vs. Sebenarnya",
-            "status": "Masa Nyata",
-            "description": "Pengesanan varians bajet masa nyata. Laporan kilat untuk pasukan kewangan. Keterlihatan minggu hingga kini dan bulan hingga kini.",
-            "icon": "marketing",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "dimension": "3D",
-            "title": "Konteks Pasaran",
-            "status": "Diperluas",
-            "description": "Suite penanda aras penuh (30+ metrik). Perbandingan portfolio. Konteks persaingan melalui Watchtower.",
-            "icon": "multiLocation",
-            "color": "from-green-500 to-green-600"
-          },
-          {
-            "dimension": "4D",
-            "title": "Apa Seterusnya",
-            "status": "Diperluas",
-            "description": "Ramalan 14-30 hari. Amaran proaktif sebelum masalah meningkat. Cadangan Sundae Coach dengan skor keyakinan.",
-            "icon": "growth",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+        "title": "Operasi dalam syif. Bukan laporan hujung hari."
       },
       "pulse": {
         "badge": "Termasuk dengan Core",
@@ -3726,7 +3455,7 @@ export const generatedLocalCopy = {
         "button": "Jelajahi Semua Modul"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Kecerdasan Lengkap",
+        "heading": "Watchtower membawa dunia luar ke dalam Core",
         "description": "Core memberitahu anda bagaimana prestasi anda sekarang. Watchtower memberitahu anda apa yang berlaku di sekitar anda. Bersama-sama, mereka memberikan gambaran lengkap - operasi dalaman dan konteks pasaran luar dalam satu lapisan kecerdasan.",
         "button": "Ketahui Lebih Lanjut Tentang Watchtower"
       },
@@ -3735,6 +3464,37 @@ export const generatedLocalCopy = {
         "description": "Lihat bagaimana kecerdasan operasi masa nyata dengan data sebenar anda.",
         "primary": "Terokai Tahap Core",
         "secondary": "Tempah Demo"
+      },
+      "solves": {
+        "eyebrow": "KE MANA MARGIN PERGI",
+        "heading": "Empat tempat keuntungan bocor. Core meliputi keempat-empatnya.",
+        "description": "Mulakan dari kerugian, bukan dari lesen. Setiap pakej membaca keempat-empatnya - pakej yang dipilih menentukan kedalaman.",
+        "areas": [
+          {
+            "title": "Hasil & Keuntungan",
+            "loss": "Pembatalan, komplimen, diskaun dan item tersalah harga - tiada satu pun muncul sebagai baris yang boleh anda persoalkan.",
+            "covered": "Kecerdasan hasil dan keuntungan, revenue assurance, sumbangan setiap item.",
+            "icon": "cost"
+          },
+          {
+            "title": "Makanan & Bekalan",
+            "loss": "Jurang antara yang dipesan, yang digunakan dan yang dijual - pembaziran, sisihan dan pergerakan harga pembekal.",
+            "covered": "Kecerdasan inventori dan pembelian, penggunaan teori berbanding sebenar, pergerakan pembekal.",
+            "icon": "insights"
+          },
+          {
+            "title": "Tetamu & Pasaran",
+            "loss": "Tetamu yang tidak muncul, tetamu yang tidak kembali, dan margin saluran yang dimakan komisen.",
+            "covered": "Pengalaman tetamu dan CRM, tempahan, ekonomi penghantaran, atribusi pemasaran, penanda aras rakan setara.",
+            "icon": "operators"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Keputusan yang dibuat lewat, berdasarkan angka bulan lalu, tanpa cara untuk tahu selepas itu sama ada ia berhasil.",
+            "covered": "Ramalan, senario dan lapisan tindakan dengan kelulusan. Satu perluasan di atas Core.",
+            "icon": "forecasting"
+          }
+        ]
       }
     }
   }

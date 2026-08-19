@@ -220,7 +220,7 @@ export function Section4DScene() {
 
         {/* Compact scenario hook */}
         <div className="text-center max-w-3xl mx-auto mb-5 sm:mb-6">
-          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold mb-3">
+          <div className="eyebrow mb-3">
             {copy.scenarioTime}
           </div>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">

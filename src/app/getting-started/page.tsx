@@ -23,7 +23,7 @@ import {
  * the value, upgrade to Report Plus/Pro or Core Lite/Pro". Price book v1.7
  * retires every SKU in that sentence, and with them the free entry point, so
  * the page is re-cut around what a v1.7 rollout actually looks like: size a
- * Core package, connect the data, add the substrates you need.
+ * Core package, connect the data, add the parts you need.
  *
  * Prices are read from the price book — this page hand-types no number, and it
  * never renders a flat per-location rate for a banded SKU.
@@ -131,9 +131,9 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
       },
       {
         number: 4,
-        title: "Add the Substrates You Need",
+        title: "Add the Parts You Need",
         subtitle: "Workforce, foresight, and your operating models.",
-        description: "Crew is the workforce substrate - scheduling, time, pay and people. Foresight & Action adds forecasting, scenarios and the approve-in-the-loop action layer. Concept SKUs switch on the operating models your group actually runs.",
+        description: "Crew runs the people side - scheduling, time, pay and HR. Foresight & Action adds forecasting, scenarios and the approve-in-the-loop action layer. Concept SKUs switch on the operating models your group actually runs.",
         actions: ["Crew for scheduling, time, pay and people", "Foresight & Action for forecasting and scenarios", "Concepts for franchise, hotel F&B, cloud kitchen, catering, production or rental commissary", "Watchtower for external market intelligence, scoped with you"],
         timeline: "Add whenever it earns its place",
         cta: "Explore Crew",

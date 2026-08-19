@@ -64,7 +64,7 @@ export const payrollCopy: Record<'en', CrewModuleCopy> = {
     heroLine1: 'Run payroll,',
     heroLine2: 'country by country.',
     description:
-      "Crew Payroll calculates gross to net across 36+ countries - the US, Canada, UK, EU and the GCC - then produces the payslips, statutory filings and year-end forms each one expects. Every rule comes from a versioned country pack, so nothing is hardcoded and nothing goes stale. Your team reviews the run before anyone is paid, and you can still export to a provider where you have one.",
+      "Crew Payroll runs gross to net in 36+ countries, then produces the payslips, filings and year-end forms each one expects. The rules live in versioned country packs, so nothing is hardcoded and nothing goes stale. Your team checks the run before anyone is paid - and you can still export to a provider if you keep one.",
     primaryCta: 'Book a Crew walkthrough',
     secondaryCta: 'See Crew in action',
     heroProof: [

@@ -42,6 +42,17 @@ const localizedCoreCopy = {
         { title: "Grows With You", desc: "From one location to a thousand. The package sets the depth; the location bands set the price as you add sites.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "WHERE THE MARGIN GOES",
+      heading: "Four places profit leaks. Core covers all four.",
+      description: "Start from the loss, not the licence. Every package reads all four - the package you choose sets how deep it goes.",
+      areas: [
+        { title: "Revenue & Profit", loss: "Voids, comps, discounts and mispriced items that never show up as a line you can question.", covered: "Revenue and profit intelligence, revenue assurance, item-level contribution.", icon: "cost" as SundaeIconName },
+        { title: "Food & Supply", loss: "The gap between what you ordered, what you used and what you sold - waste, variance and vendor price drift.", covered: "Inventory and purchasing intelligence, theoretical versus actual usage, supplier movement.", icon: "insights" as SundaeIconName },
+        { title: "Guest & Market", loss: "Covers that never arrive, guests who do not return, and channel margin eaten after commission.", covered: "Guest experience and CRM, reservations, delivery economics, marketing attribution, peer benchmarks.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Decisions taken late, on last month's numbers, with no way to tell afterwards whether they worked.", covered: "Forecasting, scenario modelling and the approve-in-the-loop action layer. An expansion on top of Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     tiers: {
       eyebrow: "CHOOSE YOUR PACKAGE",
       heading: "Four Core packages",
@@ -58,7 +69,7 @@ const localizedCoreCopy = {
           name: "Core Foundation",
           badge: "Start here",
           subtitle: "The operating baseline",
-          description: "One decision substrate over POS, labor, cost and operations, refreshed while the shift is still running.",
+          description: "One place to decide from, over POS, labor, cost and operations, refreshed while the shift is still running.",
           bestFor: "Groups getting off spreadsheets and disconnected dashboards",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
@@ -89,16 +100,6 @@ const localizedCoreCopy = {
           bestFor: "Large groups running several brands or several markets",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "The 4D Intelligence Model",
-      description: "Core delivers all four dimensions - expanded.",
-      items: [
-        { dimension: "1D", title: "What Happened", status: "Same-shift", description: "Complete operational truth, refreshed through the trading day so the intervention still lands inside the shift.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs. Actual", status: "Same-shift", description: "Budget and forecast variance as it moves. Flash reporting for finance teams. Week-to-date and month-to-date visibility.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Market Context", status: "Expanded", description: "Full benchmarking suite (30+ metrics). Portfolio comparisons. Competitive context via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "What's Next", status: "Expanded", description: "14-30 day forecasting. Proactive alerts before problems escalate. Sundae Coach recommendations with confidence scores.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -183,6 +184,17 @@ const localizedCoreCopy = {
         { title: "ينمو معك", desc: "من موقع واحد إلى ألف. الباقة تحدد العمق، وشرائح المواقع تحدد السعر كلما أضفت موقعًا.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "أين يذهب الهامش",
+      heading: "أربعة مواضع يتسرب منها الربح. وCore يغطيها جميعاً.",
+      description: "ابدأ من الخسارة لا من الترخيص. كل باقة تقرأ المواضع الأربعة، والباقة التي تختارها تحدد العمق.",
+      areas: [
+        { title: "الإيراد والربح", loss: "إلغاءات ومجانيات وخصومات وأصناف مسعّرة خطأً لا تظهر أبداً كبند يمكنك مساءلته.", covered: "ذكاء الإيراد والربح، وضمان الإيراد، ومساهمة كل صنف.", icon: "cost" as SundaeIconName },
+        { title: "الطعام والتوريد", loss: "الفجوة بين ما طلبته وما استُهلك وما بِيع - هدر وانحراف وتغيّر أسعار المورّدين.", covered: "ذكاء المخزون والمشتريات، والاستهلاك النظري مقابل الفعلي، وحركة المورّدين.", icon: "insights" as SundaeIconName },
+        { title: "الضيف والسوق", loss: "حجوزات لا تصل، وضيوف لا يعودون، وهامش قناة يلتهمه العمولة.", covered: "تجربة الضيف وCRM، والحجوزات، واقتصاديات التوصيل، وإسناد التسويق، ومقارنات النظراء.", icon: "operators" as SundaeIconName },
+        { title: "الاستشراف والتنفيذ", loss: "قرارات تُتخذ متأخرة، بأرقام الشهر الماضي، دون طريقة لمعرفة إن كانت قد نجحت.", covered: "التوقّع ونمذجة السيناريوهات وطبقة التنفيذ باعتماد بشري. توسعة فوق Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     tiers: {
       eyebrow: "اختر باقتك",
       heading: "أربع باقات Core",
@@ -230,16 +242,6 @@ const localizedCoreCopy = {
           bestFor: "المجموعات الكبيرة التي تدير عدة علامات أو عدة أسواق",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "نموذج الذكاء الرباعي",
-      description: "Core يقدم جميع الابعاد الاربعة - وبشكل موسع.",
-      items: [
-        { dimension: "1D", title: "ماذا حدث", status: "فوري", description: "حقيقة تشغيلية كاملة تحدث كل 2-4 ساعات. رؤية شبه فورية للتدخل داخل الوردية.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "الخطة مقابل الفعلي", status: "فوري", description: "تتبع فوري لانحرافات الميزانية. تقارير سريعة لفرق المالية. رؤية من بداية الاسبوع حتى اليوم ومن بداية الشهر حتى اليوم.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "سياق السوق", status: "موسع", description: "مجموعة مقارنات كاملة (30+ مقياس). مقارنات المحفظة. سياق تنافسي عبر Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "ما التالي", status: "موسع", description: "توقعات 14-30 يوماً. تنبيهات استباقية قبل تفاقم المشكلات. توصيات Sundae Coach مع درجات ثقة.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -324,6 +326,17 @@ const localizedCoreCopy = {
         { title: "Grandit avec vous", desc: "D un site a un millier. L offre fixe la profondeur, les tranches de sites fixent le prix a mesure que vous ajoutez.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "OU PART LA MARGE",
+      heading: "Quatre endroits ou le profit fuit. Core couvre les quatre.",
+      description: "Partez de la perte, pas de la licence. Chaque offre lit les quatre - l'offre choisie determine la profondeur.",
+      areas: [
+        { title: "Revenu & Profit", loss: "Annulations, offerts, remises et articles mal tarifes qui n'apparaissent jamais comme une ligne que vous pouvez interroger.", covered: "Intelligence revenu et profit, revenue assurance, contribution par article.", icon: "cost" as SundaeIconName },
+        { title: "Nourriture & Approvisionnement", loss: "L'ecart entre ce que vous avez commande, consomme et vendu - gaspillage, ecarts et derive des prix fournisseurs.", covered: "Intelligence stocks et achats, consommation theorique contre reelle, mouvements fournisseurs.", icon: "insights" as SundaeIconName },
+        { title: "Client & Marche", loss: "Des couverts qui n'arrivent jamais, des clients qui ne reviennent pas, et une marge de canal mangee par la commission.", covered: "Experience client et CRM, reservations, economie de la livraison, attribution marketing, benchmarks pairs.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Des decisions prises tard, sur les chiffres du mois dernier, sans moyen de savoir ensuite si elles ont marche.", covered: "Prevision, modelisation de scenarios et couche d'action avec validation humaine. Une expansion au-dessus de Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     tiers: {
       eyebrow: "CHOISISSEZ VOTRE OFFRE",
       heading: "Quatre offres Core",
@@ -371,16 +384,6 @@ const localizedCoreCopy = {
           bestFor: "Les grands groupes qui operent plusieurs marques ou plusieurs marches",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "Le modele d intelligence 4D",
-      description: "Core livre les quatre dimensions - en version etendue.",
-      items: [
-        { dimension: "1D", title: "Ce qui s est passe", status: "Temps reel", description: "Verite operationnelle complete, mise a jour toutes les 2 a 4 heures. Visibilite quasi temps reel pour intervenir pendant le service.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs reel", status: "Temps reel", description: "Suivi en temps reel des ecarts de budget. Flash reporting pour les equipes finance. Visibilite semaine a date et mois a date.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Contexte marche", status: "Etendu", description: "Suite complete de benchmarking (30+ indicateurs). Comparaisons de portefeuille. Contexte concurrentiel via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "Et ensuite ?", status: "Etendu", description: "Previsions 14 a 30 jours. Alertes proactives avant que les problemes ne s aggravent. Recommandations Sundae Coach avec scores de confiance.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -465,6 +468,17 @@ const localizedCoreCopy = {
         { title: "Crece contigo", desc: "De un local a mil. El paquete marca la profundidad y los tramos de locales marcan el precio segun anades sitios.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "DONDE SE VA EL MARGEN",
+      heading: "Cuatro sitios por donde se fuga el beneficio. Core cubre los cuatro.",
+      description: "Empieza por la perdida, no por la licencia. Cada paquete lee los cuatro; el paquete que elijas marca la profundidad.",
+      areas: [
+        { title: "Ingresos y Beneficio", loss: "Anulaciones, invitaciones, descuentos y articulos mal tarifados que nunca aparecen como una linea que puedas cuestionar.", covered: "Inteligencia de ingresos y beneficio, revenue assurance, contribucion por articulo.", icon: "cost" as SundaeIconName },
+        { title: "Comida y Suministro", loss: "La brecha entre lo que pediste, lo que usaste y lo que vendiste: merma, desviacion y deriva de precios de proveedor.", covered: "Inteligencia de inventario y compras, consumo teorico frente a real, movimiento de proveedores.", icon: "insights" as SundaeIconName },
+        { title: "Cliente y Mercado", loss: "Comensales que no llegan, clientes que no vuelven y margen de canal comido por la comision.", covered: "Experiencia de cliente y CRM, reservas, economia del delivery, atribucion de marketing, benchmarks de pares.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Decisiones tomadas tarde, con las cifras del mes pasado, sin forma de saber despues si funcionaron.", covered: "Prevision, modelado de escenarios y la capa de accion con aprobacion humana. Una expansion sobre Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     tiers: {
       eyebrow: "ELIGE TU PAQUETE",
       heading: "Cuatro paquetes Core",
@@ -512,16 +526,6 @@ const localizedCoreCopy = {
           bestFor: "Grupos grandes que operan varias marcas o varios mercados",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "El modelo de inteligencia 4D",
-      description: "Core entrega las cuatro dimensiones - ampliadas.",
-      items: [
-        { dimension: "1D", title: "Que paso", status: "Tiempo real", description: "Verdad operativa completa, actualizada cada 2 a 4 horas. Visibilidad casi en tiempo real para intervenir durante el turno.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs real", status: "Tiempo real", description: "Seguimiento en tiempo real de la variacion presupuestaria. Flash reporting para equipos financieros. Visibilidad semana a la fecha y mes a la fecha.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Contexto de mercado", status: "Ampliado", description: "Suite completa de benchmarking (30+ metricas). Comparaciones de cartera. Contexto competitivo via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "Que sigue", status: "Ampliado", description: "Pronosticos de 14 a 30 dias. Alertas proactivas antes de que los problemas escalen. Recomendaciones de Sundae Coach con puntuaciones de confianza.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -595,7 +599,6 @@ export default function CoreProductPage() {
   const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
   const cream = coreCreamCopy[locale as keyof typeof coreCreamCopy] ?? coreCreamCopy.en;
   const coreTiers = ui.tiers.items;
-  const fourDimensions = ui.dimensions.items;
   const modules = ui.modules.items;
   const integrations = ui.integrations.items;
   const faqs = ui.faq.items;
@@ -671,139 +674,42 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Cream relief - early warm break BEFORE the long dark tiers/4D/Pulse stretch (the volume system) */}
+      {/* Cream relief - early warm break before the long dark capability stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
-      {/* Three Tiers */}
+      {/* What Core solves - the four places margin leaks. Leads the page so a
+          buyer meets the economic problem before the package architecture. */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
+              <p className="eyebrow mb-4">{ui.solves.eyebrow}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.solves.heading}</h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.solves.description}</p>
             </div>
           </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-            {coreTiers.map((tier, index) => {
-              // Prices are read from the v1.7 price book, never from copy.
-              // Core packages are marginal-band SKUs: a first-location anchor
-              // plus a stepped rate per additional location. There is no flat
-              // per-location rate and no included-locations allowance.
-              const pkg = CORE_PACKAGES_BY_ID[tier.packageId as CorePackageId];
-              return (
-              <motion.div
-                key={tier.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card variant="elevated" className="h-full relative">
-                  {tier.badge && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
-                        {tier.badge}
-                      </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {ui.solves.areas.map((area, index) => (
+              <FadeUp key={area.title} delay={index * 0.05}>
+                <div className="h-full rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#FF7E6F] to-[#FF5C4D] flex items-center justify-center flex-shrink-0">
+                      <SundaeIcon name={area.icon} size="md" className="text-white" />
                     </div>
-                  )}
-                    <CardHeader className="pt-8">
-                      <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
-                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
-                      <div className="mb-3">
-                        <span className="text-3xl font-bold text-[var(--text-primary)] tabular-nums">
-                          {usd(pkg.firstUnitMonthly)}
-                        </span>
-                        <p className="text-xs text-[var(--text-muted)]">{ui.tiers.priceLabel}</p>
-                      </div>
-                      <CardDescription>{tier.description}</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="mb-6 rounded-lg border border-[var(--border-default)] p-3">
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">
-                          {ui.tiers.bandsLabel}
-                        </p>
-                        <p className="text-sm text-[var(--text-secondary)] tabular-nums">
-                          {describeBands(pkg)}
-                        </p>
-                      </div>
-                      <ul className="space-y-3 mb-6">
-                        <li className="flex items-start gap-2">
-                          <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-[var(--text-supporting)]">
-                            {pkg.aiCreditWallet.toLocaleString('en-US')} {ui.tiers.walletLabel}
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-[var(--text-supporting)]">{ui.tiers.includesModules}</span>
-                        </li>
-                      </ul>
-                      <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
-                        <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
-                      </div>
-                      <Button
-                        variant="primary"
-                      size="lg"
-                      className="w-full"
-                        href={PRICING_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {ui.tiers.viewPrefix} {tier.name}
-                      </Button>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* 4D Intelligence Model */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.dimensions.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.dimensions.description}</p>
-            </div>
-          </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {fourDimensions.map((dim, index) => (
-              <motion.div
-                key={dim.dimension}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card variant="elevated" className="h-full">
-                  <CardHeader>
-                    <div className="text-center mb-4">
-                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center mb-3 shadow-lg`}>
-                        <SundaeIcon name={dim.icon} size="xl" className="text-white" />
-                      </div>
-                      <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">{dim.dimension}</div>
-                      <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{dim.title}</CardTitle>
-                      <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[rgba(34,197,94,0.15)] text-[#22C55E]">
-                        &#10003; {dim.status}
-                      </span>
-                    </div>
-                    <CardDescription className="text-center text-sm">
-                      {dim.description}
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
-              </motion.div>
+                    <h3 className="section-h3 text-[var(--text-display)]">{area.title}</h3>
+                  </div>
+                  <p className="body-base text-[var(--text-supporting)] mb-4">{area.loss}</p>
+                  <p className="body-sm text-[var(--text-muted)]">
+                    <span className="font-semibold text-[var(--text-primary)]">Core covers it with </span>
+                    {area.covered}
+                  </p>
+                </div>
+              </FadeUp>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* Pulse - Included with Core */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
@@ -934,6 +840,96 @@ export default function CoreProductPage() {
               {ui.watchtower.button} →
             </Button>
           </FadeUp>
+        </div>
+      </section>
+
+
+      {/* Three Tiers */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-7xl mx-auto">
+          <FadeUp>
+            <div className="text-center mb-16">
+              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
+            </div>
+          </FadeUp>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+            {coreTiers.map((tier, index) => {
+              // Prices are read from the v1.7 price book, never from copy.
+              // Core packages are marginal-band SKUs: a first-location anchor
+              // plus a stepped rate per additional location. There is no flat
+              // per-location rate and no included-locations allowance.
+              const pkg = CORE_PACKAGES_BY_ID[tier.packageId as CorePackageId];
+              return (
+              <motion.div
+                key={tier.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card variant="elevated" className="h-full relative">
+                  {tier.badge && (
+                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                      <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
+                        {tier.badge}
+                      </span>
+                    </div>
+                  )}
+                    <CardHeader className="pt-8">
+                      <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
+                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
+                      <div className="mb-3">
+                        <span className="text-3xl font-bold text-[var(--text-primary)] tabular-nums">
+                          {usd(pkg.firstUnitMonthly)}
+                        </span>
+                        <p className="text-xs text-[var(--text-muted)]">{ui.tiers.priceLabel}</p>
+                      </div>
+                      <CardDescription>{tier.description}</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="mb-6 rounded-lg border border-[var(--border-default)] p-3">
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">
+                          {ui.tiers.bandsLabel}
+                        </p>
+                        <p className="text-sm text-[var(--text-secondary)] tabular-nums">
+                          {describeBands(pkg)}
+                        </p>
+                      </div>
+                      <ul className="space-y-3 mb-6">
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">
+                            {pkg.aiCreditWallet.toLocaleString('en-US')} {ui.tiers.walletLabel}
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">{ui.tiers.includesModules}</span>
+                        </li>
+                      </ul>
+                      <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
+                        <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
+                      </div>
+                      <Button
+                        variant="primary"
+                      size="lg"
+                      className="w-full"
+                        href={PRICING_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {ui.tiers.viewPrefix} {tier.name}
+                      </Button>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
       </section>
 

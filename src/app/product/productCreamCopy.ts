@@ -142,3 +142,31 @@ export const productCreamCopy: Record<string, ProductCreamCopy> = {
     lede: 'Operasi masa nyata, penanda aras, isyarat pasaran, analitik mendalam, AI, dan ramalan - satu tindanan yang berbual sesama sendiri.',
   },
 };
+
+/**
+ * Second warm band, placed between the third and fourth intelligence layer.
+ * The six-pillar run is long enough that a single relief band before it is not
+ * enough - the eye needs a breath at the midpoint too.
+ */
+export const productCreamMidCopy: Record<string, ProductCreamCopy> = {
+  en: {
+    eyebrow: 'HALFWAY DOWN THE STACK',
+    statement: 'Three layers read the shift. Three read the *market* and what comes next.',
+    lede: 'Pulse, Benchmarks and Watchtower tell you where you stand right now. Insights, Ask Sundae and Foresight tell you what to do about it.',
+  },
+  ar: {
+    eyebrow: 'في منتصف المنظومة',
+    statement: 'ثلاث طبقات تقرأ الوردية. وثلاث تقرأ *السوق* وما هو قادم.',
+    lede: 'Pulse وBenchmarks وWatchtower تخبرك أين تقف الآن. وInsights وAsk Sundae وForesight تخبرك بما تفعله حيال ذلك.',
+  },
+  fr: {
+    eyebrow: 'A MI-CHEMIN DE LA PILE',
+    statement: 'Trois couches lisent le service. Trois lisent le *marche* et ce qui vient.',
+    lede: "Pulse, Benchmarks et Watchtower vous disent ou vous en etes maintenant. Insights, Ask Sundae et Foresight vous disent quoi en faire.",
+  },
+  es: {
+    eyebrow: 'A MITAD DE LA PILA',
+    statement: 'Tres capas leen el turno. Tres leen el *mercado* y lo que viene.',
+    lede: 'Pulse, Benchmarks y Watchtower te dicen donde estas ahora. Insights, Ask Sundae y Foresight te dicen que hacer al respecto.',
+  },
+};

@@ -190,7 +190,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     crossModuleCards: [
       { title: "Labor + Inventory", description: "Correlate prep labor with waste patterns" },
       { title: "Labor + Marketing", description: "Forecast staffing needs for campaigns" },
-      { title: "Inventory + Purchasing", description: "Seamless PO generation from inventory" },
+      { title: "Inventory + Purchasing", description: "Purchase orders raised straight from inventory" },
     ],
     selectionTitle: "Which Modules Do You Need?",
     selectionDescription: "Start with your biggest pain point",
