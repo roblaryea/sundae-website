@@ -354,8 +354,8 @@ export const websiteMessages = {
     home: {
       badge: 'Decision Intelligence Platform',
       titleTop: 'Decision Intelligence',
-      titleBottom: 'for multi-location restaurants',
-      subheadline: 'Know what changed, why it changed, and what to do before the shift is over.',
+      titleBottom: 'for multi-location food service',
+      subheadline: 'Know what changed, who owns the fix, and what it put back on the bottom line.',
       description:
         'Your data lives across POS, delivery, reservations, labor, inventory, and finance.',
       descriptionEmphasis: 'Sundae brings it into one live operating layer.',
@@ -819,8 +819,8 @@ export const websiteMessages = {
     home: {
       badge: 'منصة ذكاء القرار',
       titleTop: 'ذكاء القرار',
-      titleBottom: 'للمطاعم متعددة الفروع',
-      subheadline: 'اعرف ما الذي تغيّر، ولماذا تغيّر، وما الذي يجب فعله قبل أن تنتهي الوردية.',
+      titleBottom: 'لمجموعات خدمات الطعام متعددة المواقع',
+      subheadline: 'اعرف ما تغيّر، ومن يتولّى المعالجة، وكم أعاد ذلك إلى صافي أرباحك.',
       description:
         'بياناتك موزّعة على أنظمة الـ POS والتوصيل والحجوزات والعمالة والمخزون والمالية.',
       descriptionEmphasis: 'يجمعها صنداي في طبقة تشغيل حيّة واحدة.',
@@ -1264,8 +1264,8 @@ export const websiteMessages = {
     home: {
       badge: 'Plateforme d\'intelligence décisionnelle',
       titleTop: 'Intelligence décisionnelle',
-      titleBottom: 'pour les restaurants multi-sites',
-      subheadline: 'Sachez ce qui a changé, pourquoi, et quoi faire avant la fin du service.',
+      titleBottom: 'pour la restauration multi-sites',
+      subheadline: 'Sachez ce qui a change, qui pilote la correction, et ce que cela a rapporte au resultat.',
       description:
         'Vos données vivent dans le POS, la livraison, les réservations, le personnel, les stocks et la finance.',
       descriptionEmphasis: 'Sundae les réunit dans une seule couche opérationnelle en direct.',
@@ -1728,8 +1728,8 @@ export const websiteMessages = {
     home: {
       badge: 'Plataforma de inteligencia de decisión',
       titleTop: 'Inteligencia de decisión',
-      titleBottom: 'para restaurantes multilocal',
-      subheadline: 'Sabe qué cambió, por qué cambió y qué hacer antes de que acabe el turno.',
+      titleBottom: 'para grupos multilocal de restauracion',
+      subheadline: 'Sepa que cambio, quien se ocupa de corregirlo y cuanto devolvio al resultado.',
       description:
         'Tus datos viven en el POS, el delivery, las reservas, el personal, el inventario y las finanzas.',
       descriptionEmphasis: 'Sundae los reúne en una sola capa operativa en vivo.',
