@@ -227,12 +227,22 @@ const Navbar = () => {
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 backdrop-blur-md border-b ${
-      isScrolled
-        ? 'bg-[var(--navy-deep)]/90 border-[var(--border-default)] shadow-[0_4px_30px_rgba(0,0,0,0.3)]'
-        : 'bg-[var(--navy-deep)]/70 border-[var(--border-default)]'
+    <nav className={`fixed top-0 left-0 right-0 z-[100] transition-shadow duration-300 border-b border-[var(--border-default)] ${
+      isScrolled ? 'shadow-[0_4px_30px_rgba(0,0,0,0.3)]' : ''
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* The blur + tint live on this layer, NOT on <nav>. `backdrop-filter` makes
+          an element a containing block for its `position: fixed` descendants, so
+          while it sat on <nav> the mobile drawer's `fixed inset-0` scrim resolved
+          against the 80px-tall nav instead of the viewport - tap-outside-to-close
+          only worked in the top strip. It is also the documented cause of fixed
+          headers detaching and drifting during momentum scroll on iOS Safari. */}
+      <div
+        aria-hidden
+        className={`absolute inset-0 backdrop-blur-md transition-colors duration-300 ${
+          isScrolled ? 'bg-[var(--navy-deep)]/90' : 'bg-[var(--navy-deep)]/70'
+        }`}
+      />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo - Left Aligned with Animation */}
           {/* Inner flex span: `nav a { display:inline-block }` (accessibility.css,
