@@ -385,7 +385,7 @@ export function priceBookForPrompt(): string {
   return [
     `Sundae price book ${PRICE_BOOK_VERSION} (monthly ${PRICE_BOOK_CURRENCY}).`,
     '',
-    'CORE PACKAGES — priced as a FIRST-LOCATION anchor plus MARGINAL bands.',
+    'CORE PACKAGES - priced as a FIRST-LOCATION anchor plus MARGINAL bands.',
     'Bands are marginal: crossing a band does NOT reprice earlier locations.',
     'Worked example: 5 Core Foundation locations = 1195 + 4 x 175 = $1,895/mo total (a $379 blended average, NOT a rate).',
     'A banded SKU has NO "included locations". Never say "base covers N, then $X/loc beyond N".',
@@ -406,9 +406,9 @@ export function priceBookForPrompt(): string {
     'Guest CRM) are PACKAGE COMPONENTS. They are never sold a-la-carte and have',
     'no standalone price. Describe them as what a Core package includes.',
     '',
-    'RETIRED — never quote, name, or recommend: Report Lite, Report Plus,',
+    'RETIRED - never quote, name, or recommend: Report Lite, Report Plus,',
     'Report Pro, Core Lite, Core Pro. There is no free tier.',
     '',
-    'Treat every figure as indicative list pricing for sizing a range — never a quote.',
+    'Treat every figure as indicative list pricing for sizing a range - never a quote.',
   ].join('\n')
 }

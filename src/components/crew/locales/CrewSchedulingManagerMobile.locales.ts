@@ -2,7 +2,7 @@
 // Proper nouns (Sundae — DIFC, Section 3, Marcus) stay untranslated; numbers stay numeric.
 export const LOC: Record<string, Record<string, string>> = {
   ar: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'جدولة الفريق',
     todaysCoverage: 'تغطية اليوم',
     needsAttention: 'يحتاج إلى متابعة',
@@ -24,7 +24,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'تعبئة',
   },
   fr: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Planning de l’équipe',
     todaysCoverage: 'Couverture du jour',
     needsAttention: 'À surveiller',
@@ -46,7 +46,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Pourvoir',
   },
   es: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Planificación del equipo',
     todaysCoverage: 'Cobertura de hoy',
     needsAttention: 'Requiere atención',
@@ -68,7 +68,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Cubrir',
   },
   de: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Teamplanung',
     todaysCoverage: 'Heutige Abdeckung',
     needsAttention: 'Erfordert Aufmerksamkeit',
@@ -90,7 +90,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Besetzen',
   },
   nl: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Teamplanning',
     todaysCoverage: 'Dekking van vandaag',
     needsAttention: 'Vereist aandacht',
@@ -112,7 +112,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Invullen',
   },
   pt: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Escala da equipa',
     todaysCoverage: 'Cobertura de hoje',
     needsAttention: 'Requer atenção',
@@ -134,7 +134,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Preencher',
   },
   hi: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'टीम शेड्यूलिंग',
     todaysCoverage: 'आज का कवरेज',
     needsAttention: 'ध्यान देने की आवश्यकता',
@@ -156,7 +156,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'भरें',
   },
   ur: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'ٹیم شیڈولنگ',
     todaysCoverage: 'آج کی کوریج',
     needsAttention: 'توجہ درکار ہے',
@@ -178,7 +178,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'پُر کریں',
   },
   it: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Pianificazione del team',
     todaysCoverage: 'Copertura di oggi',
     needsAttention: 'Richiede attenzione',
@@ -200,7 +200,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Coprire',
   },
   pl: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Grafik zespołu',
     todaysCoverage: 'Dzisiejsze pokrycie',
     needsAttention: 'Wymaga uwagi',
@@ -222,7 +222,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Obsadź',
   },
   tr: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Ekip Planlaması',
     todaysCoverage: 'Bugünkü kapsama',
     needsAttention: 'Dikkat gerekiyor',
@@ -244,7 +244,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Doldur',
   },
   'zh-Hans': {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae--DIFC',
     title: '团队排班',
     todaysCoverage: '今日排班覆盖',
     needsAttention: '需要关注',
@@ -266,7 +266,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: '补班',
   },
   ja: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae--DIFC',
     title: 'チームのシフト管理',
     todaysCoverage: '本日のカバー状況',
     needsAttention: '要対応',
@@ -288,7 +288,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: '補充',
   },
   ko: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae--DIFC',
     title: '팀 스케줄링',
     todaysCoverage: '오늘 커버리지',
     needsAttention: '주의 필요',
@@ -310,7 +310,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: '채우기',
   },
   id: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Penjadwalan Tim',
     todaysCoverage: 'Cakupan hari ini',
     needsAttention: 'Perlu perhatian',
@@ -332,7 +332,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Isi',
   },
   vi: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Lập lịch nhóm',
     todaysCoverage: 'Mức bao phủ hôm nay',
     needsAttention: 'Cần chú ý',
@@ -354,7 +354,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Lấp chỗ',
   },
   ro: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Programarea echipei',
     todaysCoverage: 'Acoperirea de azi',
     needsAttention: 'Necesită atenție',
@@ -376,7 +376,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Acoperă',
   },
   sv: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Teamschemaläggning',
     todaysCoverage: 'Dagens täckning',
     needsAttention: 'Kräver uppmärksamhet',
@@ -398,7 +398,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'Tillsätt',
   },
   bn: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'টিম শিডিউলিং',
     todaysCoverage: 'আজকের কভারেজ',
     needsAttention: 'মনোযোগ প্রয়োজন',
@@ -420,7 +420,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'পূরণ করুন',
   },
   th: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'การจัดตารางทีม',
     todaysCoverage: 'ความครอบคลุมวันนี้',
     needsAttention: 'ต้องดูแล',
@@ -442,7 +442,7 @@ export const LOC: Record<string, Record<string, string>> = {
     fill: 'เติมกะ',
   },
   ms: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     title: 'Penjadualan Pasukan',
     todaysCoverage: 'Liputan hari ini',
     needsAttention: 'Perlu perhatian',

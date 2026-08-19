@@ -103,7 +103,7 @@ export const solutionCreamCopy: Record<string, SolutionCreamCopy> = {
   },
   ko: {
     eyebrow: '당신의 역할에 맞춰',
-    statement: '당신의 역할에 맞춰진 의사결정 화면 - 흔한 대시보드가 *아닙니다.*',
+    statement: '당신의 역할에 맞춰진 의사결정 화면--흔한 대시보드가 *아닙니다.*',
     lede: '모두가 같은 진실을 봅니다. 다만 각자가 실제로 내리는 결정에 맞춰서.',
   },
   id: {

@@ -63,7 +63,7 @@ export function CrewClockInMobile() {
       {/* next shift */}
       <div style={{ marginTop: 16, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 18, padding: 15 }}>
         <div style={{ font: `600 10px ${FONT}`, letterSpacing: '.1em', textTransform: 'uppercase', color: T.tx3 }}>{t.nextShift}</div>
-        <div style={{ font: `600 17px ${FONT}`, color: T.tx, marginTop: 6 }}>{t.tonight} · 5:30 – 11:00 PM</div>
+        <div style={{ font: `600 17px ${FONT}`, color: T.tx, marginTop: 6 }}>{t.tonight} · 5:30 - 11:00 PM</div>
         <div style={{ font: `500 12px ${FONT}`, color: T.tx2, marginTop: 3 }}>{t.roleServer} · {t.section} 3 · {t.with} Leo &amp; Ana</div>
       </div>
 

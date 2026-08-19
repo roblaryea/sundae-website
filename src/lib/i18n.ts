@@ -285,8 +285,9 @@ export const websiteMessages = {
         { name: 'Benchmarks', description: 'Competitive intelligence', href: '/product/benchmarking' },
         { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
         { name: 'Insights', description: 'Specialized analytics modules', href: '/product/insights' },
-        { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/product/intelligence' },
+        { name: 'Ask Sundae', description: 'AI-powered conversational analytics', href: '/product/intelligence' },
         { name: 'Foresight', description: 'Predictive intelligence & forecasting', href: '/product/foresight' },
+        { name: 'Profit Recovery', description: 'Find, fix and prove recovered margin', href: '/product/recovery' },
       ],
       plansList: [
         { name: 'Foresight & Action', description: 'Forecasts, scenarios, and the action layer', href: '/product/foresight' },
@@ -301,7 +302,7 @@ export const websiteMessages = {
         { name: 'People Intelligence', description: 'Workforce analytics', href: '/crew/people-intelligence' },
       ],
       solutionsSegments: [
-        { name: 'Multi-location Restaurants', href: '/solutions/multi-location-groups' },
+        { name: 'Multi-location Groups', href: '/solutions/multi-location-groups' },
         { name: 'Franchises', href: '/solutions/franchises' },
         { name: 'Cloud Kitchens', href: '/solutions/cloud-kitchens' },
         { name: 'Enterprise Hospitality Groups', href: '/solutions/hospitality-operators' },
@@ -328,7 +329,7 @@ export const websiteMessages = {
       bookDemo: 'Book a Working Session',
       startFree: 'Get started',
       brandDescription:
-        'The decision intelligence platform for multi-location operators. See every layer. Act in time.',
+        'The decision intelligence platform for multi-location operators. Recover the profit. Prove what worked.',
       global: 'Global',
       allCurrencies: 'All currencies',
       sectionProduct: 'Product',
@@ -353,8 +354,8 @@ export const websiteMessages = {
     home: {
       badge: 'Decision Intelligence Platform',
       titleTop: 'Decision Intelligence',
-      titleBottom: 'for multi-location restaurants',
-      subheadline: 'Know what changed, why it changed, and what to do before the shift is over.',
+      titleBottom: 'for multi-location food service',
+      subheadline: 'Know what changed, who owns the fix, and what it put back on the bottom line.',
       description:
         'Your data lives across POS, delivery, reservations, labor, inventory, and finance.',
       descriptionEmphasis: 'Sundae brings it into one live operating layer.',
@@ -365,8 +366,8 @@ export const websiteMessages = {
       proofStats: [
         { number: '5 min', label: 'From signal to action' },
         { number: '18', label: 'Decisions surfaced today' },
-        { number: '12', label: 'Operating domains unified' },
-        { number: '6', label: 'Intelligence layers, one truth' },
+        { number: '12', label: 'Operational areas covered' },
+        { number: '200+', label: 'Systems connected' },
       ],
       problem: {
         eyebrow: 'THE PROBLEM',
@@ -391,13 +392,13 @@ export const websiteMessages = {
           { name: 'Benchmarks', subtitle: 'Competitive intelligence', description: 'Anonymous peer benchmarks across 30+ metrics. Know where you stand.', href: '/benchmarking' },
           { name: 'Watchtower', subtitle: 'Market intelligence', description: 'Competitors, weather, events - before they hit your numbers.', href: '/product/watchtower' },
           { name: 'Insights', subtitle: '12 analytics modules', description: 'Revenue, labor, inventory, marketing, delivery - each with AI recommendations.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'Conversational AI', description: 'Ask your data anything - source-cited answers in seconds on web, WhatsApp, Telegram, Slack or Teams.', href: '/intelligence' },
+          { name: 'Ask Sundae', subtitle: 'Conversational AI', description: 'Ask your data anything - source-cited answers in seconds on web, WhatsApp, Telegram, Slack or Teams.', href: '/intelligence' },
           { name: 'Foresight', subtitle: 'Predictive intelligence', description: 'Forecasts, budgets and what-if scenarios - with exec briefings that correct themselves.', href: '/product/foresight' },
         ],
       },
       modules: {
         eyebrow: 'INTELLIGENCE MODULES',
-        heading: '12 modules. One action loop.',
+        heading: 'Every area of the operation. One action loop.',
         description: 'Every dimension of restaurant performance - surfaced as a decision, not a chart. Benchmarked against your real cohort, ranked by margin impact, and routed to the right person on the floor.',
         categories: [
           { name: 'Revenue Intelligence', count: '4 modules' },
@@ -659,7 +660,7 @@ export const websiteMessages = {
           badge: 'Integrations',
           title: 'Connect Everything. Unify Your Data.',
           description:
-            'Sundae integrates with 200+ restaurant systems across POS, labor, inventory, reservations, delivery, and more.',
+            'Sundae integrates with 200+ food-service systems across POS, labor, inventory, reservations, delivery, and more.',
           process: [
             { step: '1', title: 'Connect', description: 'Authenticate your platforms with OAuth or API key - most integrations take under 5 minutes.' },
             { step: '2', title: 'Normalize', description: 'Sundae Core, our data layer, cleans, maps, and unifies every data source into a consistent schema.' },
@@ -710,12 +711,12 @@ export const websiteMessages = {
           exploreTools: 'Explore All Tools',
           stayUpdated: 'Stay Updated',
           newsletterDescription:
-            'Get the latest restaurant industry insights, benchmarks, and decision intelligence trends delivered to your inbox.',
+            'Food-service insight, benchmarks and decision intelligence trends, delivered to your inbox.',
           subscribe: 'Subscribe',
           privacyNote: 'We respect your privacy. Unsubscribe at any time.',
-          ctaTitle: 'Ready to Transform Your Restaurant?',
+          ctaTitle: 'Ready to decide on better numbers?',
           ctaDescription:
-            'Join thousands of restaurant operators who use Sundae to make smarter, numbers-backed decisions.',
+            'Built with operators across 500+ locations, for the decisions that have to be made on the numbers you already have.',
           bookDemo: 'Book a Demo',
           contactSales: 'Contact Sales',
         },
@@ -757,7 +758,7 @@ export const websiteMessages = {
         { name: 'Benchmarks', description: 'ذكاء تنافسي', href: '/benchmarking' },
         { name: 'Watchtower', description: 'إشارات السوق الخارجية', href: '/product/watchtower' },
         { name: 'Insights', description: 'وحدات تحليلات متخصصة', href: '/insights' },
-        { name: 'Sundae Intelligence', description: 'تحليلات محادثية مدعومة بالذكاء الاصطناعي', href: '/intelligence' },
+        { name: 'Ask Sundae', description: 'تحليلات محادثية مدعومة بالذكاء الاصطناعي', href: '/intelligence' },
         { name: 'Foresight', description: 'تنبؤات وذكاء استشرافي', href: '/product/foresight' },
       ],
       plansList: [
@@ -766,7 +767,7 @@ export const websiteMessages = {
         { name: 'Sundae Crew', description: 'ركيزة تشغيلية · موظفون، جدولة، رواتب', href: '/crew' },
       ],
       solutionsSegments: [
-        { name: 'مطاعم متعددة الفروع', href: '/solutions/multi-location-groups' },
+        { name: 'مجموعات متعددة المواقع', href: '/solutions/multi-location-groups' },
         { name: 'الامتيازات التجارية', href: '/solutions/franchises' },
         { name: 'المطابخ السحابية', href: '/solutions/cloud-kitchens' },
         { name: 'مجموعات الضيافة الكبيرة', href: '/solutions/hospitality-operators' },
@@ -793,7 +794,7 @@ export const websiteMessages = {
       bookDemo: 'احجز جلسة عمل',
       startFree: 'ابدأ الآن',
       brandDescription:
-        'منصة الذكاء القراري لمشغّلي المواقع المتعددة. See every layer. Act in time.',
+        'منصة الذكاء القراري لمشغّلي المواقع المتعددة. استرجع الأرباح. وأثبت ما نجح.',
       global: 'عالمي',
       allCurrencies: 'كل العملات',
       sectionProduct: 'المنتج',
@@ -818,8 +819,8 @@ export const websiteMessages = {
     home: {
       badge: 'منصة ذكاء القرار',
       titleTop: 'ذكاء القرار',
-      titleBottom: 'للمطاعم متعددة الفروع',
-      subheadline: 'اعرف ما الذي تغيّر، ولماذا تغيّر، وما الذي يجب فعله قبل أن تنتهي الوردية.',
+      titleBottom: 'لمجموعات خدمات الطعام متعددة المواقع',
+      subheadline: 'اعرف ما تغيّر، ومن يتولّى المعالجة، وكم أعاد ذلك إلى صافي أرباحك.',
       description:
         'بياناتك موزّعة على أنظمة الـ POS والتوصيل والحجوزات والعمالة والمخزون والمالية.',
       descriptionEmphasis: 'يجمعها صنداي في طبقة تشغيل حيّة واحدة.',
@@ -828,9 +829,9 @@ export const websiteMessages = {
       bookDemo: 'احجز عرضاً',
       noCard: 'لا حاجة إلى بطاقة ائتمان',
       proofStats: [
-        { number: '6', label: 'طبقات ذكاء، حقيقة واحدة' },
+        { number: '200+', label: 'نظاماً متصلاً' },
         { number: '18', label: 'قرارات أُبرزت اليوم' },
-        { number: '12', label: 'مجال تشغيل موحّد' },
+        { number: '12', label: 'مجالاً تشغيلياً مغطى' },
         { number: '5 د', label: 'من الإشارة إلى الإجراء' },
       ],
       problem: {
@@ -856,13 +857,13 @@ export const websiteMessages = {
           { name: 'Benchmarks', subtitle: 'الذكاء التنافسي', description: 'مقارنات نظراء مجهولة عبر أكثر من 30 مقياساً. اعرف موقعك بدقة.', href: '/benchmarking' },
           { name: 'Watchtower', subtitle: 'ذكاء السوق', description: 'المنافسون، الطقس، الأحداث - قبل أن تصل إلى أرقامك.', href: '/product/watchtower' },
           { name: 'Insights', subtitle: 'أكثر من 30 وحدة تحليلية', description: 'الإيرادات، العمالة، المخزون، التسويق، التوصيل - وكل منها مع توصيات ذكية.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'ذكاء محادثي', description: 'اسأل بياناتك أي شيء - إجابات موثّقة المصدر في ثوانٍ على الويب وWhatsApp وTelegram وSlack وTeams.', href: '/intelligence' },
+          { name: 'Ask Sundae', subtitle: 'ذكاء محادثي', description: 'اسأل بياناتك أي شيء - إجابات موثّقة المصدر في ثوانٍ على الويب وWhatsApp وTelegram وSlack وTeams.', href: '/intelligence' },
           { name: 'Foresight', subtitle: 'ذكاء استباقي', description: 'توقعات وميزانيات وسيناريوهات ماذا لو - مع إحاطات تنفيذية تصحّح نفسها.', href: '/product/foresight' },
         ],
       },
       modules: {
         eyebrow: 'وحدات الذكاء',
-        heading: 'أكثر من 30 وحدة عبر 12 مجالاً',
+        heading: 'كل مجالات التشغيل. حلقة عمل واحدة.',
         description: 'كل بُعد من أبعاد أداء المطعم - محلل، ومقارن، وقابل للتنفيذ.',
         categories: [
           { name: 'ذكاء الإيرادات', count: '4 وحدات' },
@@ -1106,7 +1107,7 @@ export const websiteMessages = {
           badge: 'التكاملات',
           title: 'صِل كل شيء. وحّد بياناتك.',
           description:
-            'يتكامل Sundae مع أكثر من 30 نظامًا للمطاعم عبر نقاط البيع والعمالة والمخزون والحجوزات والتوصيل وغيرها.',
+            'يتكامل Sundae مع أكثر من 200 نظام في قطاع خدمات الطعام عبر نقاط البيع والعمالة والمخزون والحجوزات والتوصيل وغيرها.',
           process: [
             { step: '1', title: 'اتصال', description: 'صادق على منصاتك باستخدام OAuth أو API key - معظم التكاملات تستغرق أقل من 5 دقائق.' },
             { step: '2', title: 'توحيد', description: 'يقوم Sundae Core بتنظيف البيانات وربطها وتوحيدها في مخطط موحد.' },
@@ -1160,7 +1161,7 @@ export const websiteMessages = {
           privacyNote: 'نحترم خصوصيتك. يمكنك إلغاء الاشتراك في أي وقت.',
           ctaTitle: 'هل أنت مستعد لتحويل مطعمك؟',
           ctaDescription:
-            'انضم إلى آلاف مشغلي المطاعم الذين يستخدمون Sundae لاتخاذ قرارات أذكى مبنية على الأرقام.',
+            'بُني مع مشغّلين عبر أكثر من 500 موقع، من أجل القرارات التي يجب اتخاذها بالأرقام المتاحة لديك بالفعل.',
           bookDemo: 'احجز عرضًا',
           contactSales: 'تواصل مع المبيعات',
         },
@@ -1202,7 +1203,7 @@ export const websiteMessages = {
         { name: 'Benchmarks', description: 'Intelligence concurrentielle', href: '/benchmarking' },
         { name: 'Watchtower', description: 'Signaux de marché externes', href: '/product/watchtower' },
         { name: 'Insights', description: 'Modules analytiques spécialisés', href: '/insights' },
-        { name: 'Sundae Intelligence', description: 'Analytique conversationnelle par IA', href: '/intelligence' },
+        { name: 'Ask Sundae', description: 'Analytique conversationnelle par IA', href: '/intelligence' },
         { name: 'Foresight', description: 'Prévision et intelligence prédictive', href: '/product/foresight' },
       ],
       plansList: [
@@ -1211,7 +1212,7 @@ export const websiteMessages = {
         { name: 'Sundae Crew', description: 'Socle opérationnel · équipes, plannings, paie', href: '/crew' },
       ],
       solutionsSegments: [
-        { name: 'Restaurants multi-sites', href: '/solutions/multi-location-groups' },
+        { name: 'Groupes multi-sites', href: '/solutions/multi-location-groups' },
         { name: 'Franchises', href: '/solutions/franchises' },
         { name: 'Dark kitchens', href: '/solutions/cloud-kitchens' },
         { name: 'Groupes hôteliers enterprise', href: '/solutions/hospitality-operators' },
@@ -1238,7 +1239,7 @@ export const websiteMessages = {
       bookDemo: 'Réserver une session de travail',
       startFree: 'Commencer',
       brandDescription:
-        "La plateforme d'intelligence décisionnelle pour les opérateurs multi-sites. See every layer. Act in time.",
+        "La plateforme d'intelligence décisionnelle pour les opérateurs multi-sites. Récupérez la marge. Prouvez ce qui a marché.",
       global: 'Global',
       allCurrencies: 'Toutes les devises',
       sectionProduct: 'Produit',
@@ -1263,8 +1264,8 @@ export const websiteMessages = {
     home: {
       badge: 'Plateforme d\'intelligence décisionnelle',
       titleTop: 'Intelligence décisionnelle',
-      titleBottom: 'pour les restaurants multi-sites',
-      subheadline: 'Sachez ce qui a changé, pourquoi, et quoi faire avant la fin du service.',
+      titleBottom: 'pour la restauration multi-sites',
+      subheadline: 'Sachez ce qui a change, qui pilote la correction, et ce que cela a rapporte au resultat.',
       description:
         'Vos données vivent dans le POS, la livraison, les réservations, le personnel, les stocks et la finance.',
       descriptionEmphasis: 'Sundae les réunit dans une seule couche opérationnelle en direct.',
@@ -1273,9 +1274,9 @@ export const websiteMessages = {
       bookDemo: 'Demander une démo',
       noCard: 'Aucune carte bancaire requise',
       proofStats: [
-        { number: '6', label: 'Couches d\'intelligence, une seule vérité' },
+        { number: '200+', label: 'Systèmes connectés' },
         { number: '18', label: 'Décisions remontées aujourd\'hui' },
-        { number: '12', label: 'Domaines opérationnels unifiés' },
+        { number: '12', label: 'Domaines opérationnels couverts' },
         { number: '5 min', label: 'Du signal à l\'action' },
       ],
       problem: {
@@ -1301,13 +1302,13 @@ export const websiteMessages = {
           { name: 'Benchmarks', subtitle: 'Intelligence concurrentielle', description: 'Benchmarks anonymes de pairs sur plus de 30 indicateurs. Sachez où vous vous situez.', href: '/benchmarking' },
           { name: 'Watchtower', subtitle: 'Intelligence marché', description: 'Concurrents, météo, événements - avant que cela touche vos chiffres.', href: '/product/watchtower' },
           { name: 'Insights', subtitle: '12 modules analytiques', description: 'Revenu, main-d\'œuvre, stock, marketing, livraison - chacun avec ses recommandations IA.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'IA conversationnelle', description: 'Posez n\'importe quelle question - des réponses sourcées en secondes sur le web, WhatsApp, Telegram, Slack ou Teams.', href: '/intelligence' },
+          { name: 'Ask Sundae', subtitle: 'IA conversationnelle', description: 'Posez n\'importe quelle question - des réponses sourcées en secondes sur le web, WhatsApp, Telegram, Slack ou Teams.', href: '/intelligence' },
           { name: 'Foresight', subtitle: 'Intelligence prédictive', description: 'Prévisions, budgets et scénarios hypothèse - avec des briefings dirigeants auto-correctifs.', href: '/product/foresight' },
         ],
       },
       modules: {
         eyebrow: 'MODULES D\'INTELLIGENCE',
-        heading: 'Plus de 30 modules dans 12 domaines',
+        heading: "Tous les domaines de l'exploitation. Une seule boucle d'action.",
         description: 'Chaque dimension de la performance restaurant - analysée, comparée et exploitable.',
         categories: [
           { name: 'Intelligence du revenu', count: '4 modules' },
@@ -1570,7 +1571,7 @@ export const websiteMessages = {
           badge: 'Intégrations',
           title: 'Connectez tout. Unifiez vos données.',
           description:
-            'Sundae s\'intègre à plus de 30 systèmes de restauration couvrant POS, main-d\'œuvre, stock, réservations, livraison et plus encore.',
+            'Sundae s\'intègre à plus de 200 systèmes de la restauration couvrant caisse, planning, stocks, réservations, livraison et plus encore.',
           process: [
             { step: '1', title: 'Connecter', description: 'Authentifiez vos plateformes via OAuth ou clé API - la plupart des intégrations prennent moins de 5 minutes.' },
             { step: '2', title: 'Normaliser', description: 'Sundae Core nettoie, mappe et unifie chaque source de données dans un schéma cohérent.' },
@@ -1624,7 +1625,7 @@ export const websiteMessages = {
           privacyNote: 'Nous respectons votre confidentialité. Désabonnez-vous à tout moment.',
           ctaTitle: 'Prêt à transformer votre restaurant ?',
           ctaDescription:
-            'Rejoignez des milliers d\'opérateurs qui utilisent Sundae pour prendre des décisions plus intelligentes, fondées sur les chiffres.',
+            'Conçu avec des opérateurs sur plus de 500 sites, pour les décisions qui doivent se prendre sur les chiffres dont vous disposez déjà.',
           bookDemo: 'Réserver une démo',
           contactSales: 'Contacter les ventes',
         },
@@ -1666,7 +1667,7 @@ export const websiteMessages = {
         { name: 'Benchmarks', description: 'Inteligencia competitiva', href: '/benchmarking' },
         { name: 'Watchtower', description: 'Señales externas del mercado', href: '/product/watchtower' },
         { name: 'Insights', description: 'Módulos analíticos especializados', href: '/insights' },
-        { name: 'Sundae Intelligence', description: 'Analítica conversacional con IA', href: '/intelligence' },
+        { name: 'Ask Sundae', description: 'Analítica conversacional con IA', href: '/intelligence' },
         { name: 'Foresight', description: 'Inteligencia predictiva y pronósticos', href: '/product/foresight' },
       ],
       plansList: [
@@ -1702,7 +1703,7 @@ export const websiteMessages = {
       bookDemo: 'Reservar una sesión de trabajo',
       startFree: 'Empezar',
       brandDescription:
-        'La plataforma de inteligencia de decisión para operadores multilocal. See every layer. Act in time.',
+        'La plataforma de inteligencia de decisión para operadores multilocal. Recupera el margen. Demuestra qué funcionó.',
       global: 'Global',
       allCurrencies: 'Todas las monedas',
       sectionProduct: 'Producto',
@@ -1727,8 +1728,8 @@ export const websiteMessages = {
     home: {
       badge: 'Plataforma de inteligencia de decisión',
       titleTop: 'Inteligencia de decisión',
-      titleBottom: 'para restaurantes multilocal',
-      subheadline: 'Sabe qué cambió, por qué cambió y qué hacer antes de que acabe el turno.',
+      titleBottom: 'para grupos multilocal de restauracion',
+      subheadline: 'Sepa que cambio, quien se ocupa de corregirlo y cuanto devolvio al resultado.',
       description:
         'Tus datos viven en el POS, el delivery, las reservas, el personal, el inventario y las finanzas.',
       descriptionEmphasis: 'Sundae los reúne en una sola capa operativa en vivo.',
@@ -1737,9 +1738,9 @@ export const websiteMessages = {
       bookDemo: 'Reservar demo',
       noCard: 'No se requiere tarjeta de crédito',
       proofStats: [
-        { number: '6', label: 'Capas de inteligencia, una sola verdad' },
+        { number: '200+', label: 'Sistemas conectados' },
         { number: '18', label: 'Decisiones reveladas hoy' },
-        { number: '12', label: 'Dominios operativos unificados' },
+        { number: '12', label: 'Áreas operativas cubiertas' },
         { number: '5 min', label: 'De la señal a la acción' },
       ],
       problem: {
@@ -1765,13 +1766,13 @@ export const websiteMessages = {
           { name: 'Benchmarks', subtitle: 'Inteligencia competitiva', description: 'Benchmarks anónimos de pares en más de 30 métricas. Sabe exactamente dónde estás.', href: '/benchmarking' },
           { name: 'Watchtower', subtitle: 'Inteligencia de mercado', description: 'Competencia, clima y eventos, antes de que toquen tus números.', href: '/product/watchtower' },
           { name: 'Insights', subtitle: '12 módulos analíticos', description: 'Ingresos, personal, inventario, marketing y delivery, cada uno con recomendaciones de IA.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'IA conversacional', description: 'Pregúntale cualquier cosa a tus datos - respuestas con fuente en segundos en web, WhatsApp, Telegram, Slack o Teams.', href: '/intelligence' },
+          { name: 'Ask Sundae', subtitle: 'IA conversacional', description: 'Pregúntale cualquier cosa a tus datos - respuestas con fuente en segundos en web, WhatsApp, Telegram, Slack o Teams.', href: '/intelligence' },
           { name: 'Foresight', subtitle: 'Inteligencia predictiva', description: 'Pronósticos, presupuestos y escenarios hipotéticos - con briefings ejecutivos autocorregibles.', href: '/product/foresight' },
         ],
       },
       modules: {
         eyebrow: 'MÓDULOS DE INTELIGENCIA',
-        heading: 'Más de 30 módulos en 12 dominios',
+        heading: 'Todas las áreas de la operación. Un solo bucle de acción.',
         description: 'Cada dimensión del rendimiento del restaurante: analizada, comparada y accionable.',
         categories: [
           { name: 'Inteligencia de ingresos', count: '4 módulos' },
@@ -2034,7 +2035,7 @@ export const websiteMessages = {
           badge: 'Integraciones',
           title: 'Conecta todo. Unifica tus datos.',
           description:
-            'Sundae se integra con más de 30 sistemas de restauración en POS, personal, inventario, reservas, delivery y más.',
+            'Sundae se integra con más de 200 sistemas de restauración en TPV, personal, inventario, reservas, delivery y más.',
           process: [
             { step: '1', title: 'Conectar', description: 'Autentica tus plataformas con OAuth o clave API; la mayoría de integraciones tardan menos de 5 minutos.' },
             { step: '2', title: 'Normalizar', description: 'Sundae Core limpia, mapea y unifica cada fuente de datos en un esquema coherente.' },
@@ -2088,7 +2089,7 @@ export const websiteMessages = {
           privacyNote: 'Respetamos tu privacidad. Puedes darte de baja en cualquier momento.',
           ctaTitle: '¿Listo para transformar tu restaurante?',
           ctaDescription:
-            'Únete a miles de operadores que usan Sundae para tomar decisiones más inteligentes y basadas en datos.',
+            'Construido con operadores de más de 500 locales, para las decisiones que hay que tomar con las cifras que ya tienes.',
           bookDemo: 'Reservar una demo',
           contactSales: 'Contactar ventas',
         },
@@ -2465,7 +2466,7 @@ const expandedLocaleMessageOverrides = {
   },
   'zh-Hans': {
     metadata: {
-      title: 'Sundae - 面向餐厅的决策智能',
+      title: 'Sundae--面向餐厅的决策智能',
       description:
         '面向餐厅的决策智能平台--统一 POS、人员、成本和运营数据，对比绩效，并将其转化为下一步正确的行动。',
     },
@@ -2506,7 +2507,7 @@ const expandedLocaleMessageOverrides = {
   },
   ja: {
     metadata: {
-      title: 'Sundae - レストランのための意思決定インテリジェンス',
+      title: 'Sundae--レストランのための意思決定インテリジェンス',
       description:
         'レストランのための意思決定インテリジェンス・プラットフォーム。POS、人員、コスト、運営データを統合し、成果を比較して次の最善手に変えます。',
     },
@@ -2547,7 +2548,7 @@ const expandedLocaleMessageOverrides = {
   },
   ko: {
     metadata: {
-      title: 'Sundae - 레스토랑을 위한 의사결정 인텔리전스',
+      title: 'Sundae--레스토랑을 위한 의사결정 인텔리전스',
       description:
         '레스토랑을 위한 의사결정 인텔리전스 플랫폼입니다. POS, 인력, 비용, 운영 데이터를 통합하고 성과를 비교해 다음 최선의 결정으로 바꿉니다.',
     },

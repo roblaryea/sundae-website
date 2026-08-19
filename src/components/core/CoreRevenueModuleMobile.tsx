@@ -37,7 +37,7 @@ const EN = {
   whyWeekendFull: 'why: weekend full',
   whySlowTurns: 'why: slow turns',
   chartAnswerLead: 'Revenue is pacing',
-  chartAnswerTail: '— ▲6.4% on last week, led by the bar.',
+  chartAnswerTail: ' - ▲6.4% on last week, led by the bar.',
   satPeak: 'Sat ·',
   axisMon: 'Mon',
   axisWed: 'Wed',

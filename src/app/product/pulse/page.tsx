@@ -29,7 +29,7 @@ const localizedPulseCopy = {
   en: {
     hero: {
       badge: "Pulse - Intraday Operations",
-      title: "$2K Lost Per Bad Shift. Pulse Catches It Live.",
+      title: "A Bad Shift Cannot Be Re-Run. Pulse Catches It Live.",
       description:
         "Revenue pacing, labor cost, server performance, and leakage detection - updating every 5 minutes. Adaptive targets that learn your patterns, seasonality, and local events. Act before it costs you.",
       primary: "Book a Demo",
@@ -115,7 +115,7 @@ const localizedPulseCopy = {
       },
       {
         title: "Leakage Monitoring",
-        headline: "2-5% of Revenue Leaks Every Month",
+        headline: "Voids, Comps and Discounts, Against Your Own Baseline",
         description:
           "Voids, discounts, comps, and refunds - tracked in real time against your baselines. Pulse flags when leakage rates spike, identifies the servers, items, and time windows involved, and alerts you before small issues become expensive patterns.",
         capabilities: [
@@ -203,7 +203,7 @@ const localizedPulseCopy = {
         eyebrow: "SERVER INTELLIGENCE",
         heading: "From Leaderboard to Coaching Tool",
         description:
-          "See who's driving your revenue and who needs support - in real time. Filter by hour, by service phase, or compare against last week. Every server gets a productivity score, an hourly breakdown, and auto-detected strengths and improvement areas. The best restaurants don't just track servers - they develop them.",
+          "See who's driving your revenue and who needs support - in real time. Filter by hour, by service phase, or compare against last week. Every server gets a productivity score, an hourly breakdown, and auto-detected strengths and improvement areas. The best operators do not just track servers - they develop them.",
       },
       cost: {
         eyebrow: "SHIFT COSTING",
@@ -241,7 +241,7 @@ const localizedPulseCopy = {
   ar: {
     hero: {
       badge: "Pulse - عمليات داخل اليوم",
-      title: "خسارة 2,000 دولار لكل وردية سيئة. Pulse يلتقطها مباشرة.",
+      title: "الوردية السيئة لا تُعاد. Pulse يلتقطها مباشرة.",
       description:
         "وتيرة الايرادات وتكلفة العمالة واداء الموظفين ومراقبة التسرب - تتحدث كل 5 دقائق. اهداف تكيفية تتعلم من انماطك والموسمية والاحداث المحلية. تحرك قبل ان تدفع الثمن.",
       primary: "احجز عرضاً",
@@ -327,7 +327,7 @@ const localizedPulseCopy = {
       },
       {
         title: "مراقبة التسرب",
-        headline: "2-5% من الايرادات تتسرب شهرياً",
+        headline: "الإلغاءات والمجانيات والخصومات، مقابل خط أساسك أنت",
         description:
           "الإلغاءات والخصومات والهدايا والاستردادات - تتبع في الوقت الحقيقي مقابل خطوطك الاساسية. يحدد Pulse عندما ترتفع معدلات التسرب، ويعرف الموظفين والاصناف والنافذات الزمنية المرتبطة، وينبهك قبل ان تتحول المشكلات الصغيرة الى انماط مكلفة.",
         capabilities: [
@@ -453,7 +453,7 @@ const localizedPulseCopy = {
   fr: {
     hero: {
       badge: "Pulse - Operations intra-journee",
-      title: "2K$ perdus par mauvais service. Pulse les detecte en direct.",
+      title: "Un mauvais service ne se rejoue pas. Pulse le detecte en direct.",
       description:
         "Rythme du revenu, cout de main-d'oeuvre, performance des serveurs et detection des fuites - mis a jour toutes les 5 minutes. Des objectifs adaptatifs qui apprennent vos habitudes, la saisonnalite et les evenements locaux. Agissez avant que cela ne coute.",
       primary: "Reserver une demo",
@@ -539,7 +539,7 @@ const localizedPulseCopy = {
       },
       {
         title: "Suivi des fuites",
-        headline: "2 a 5% du revenu fuit chaque mois",
+        headline: "Annulations, offerts et remises, face a votre propre reference",
         description:
           "Voids, remises, comps et remboursements - suivis en temps reel par rapport a vos bases. Pulse signale les pics de fuite, identifie les serveurs, articles et plages horaires impliquees et vous alerte avant que de petits ecarts deviennent des habitudes couteuses.",
         capabilities: [
@@ -665,7 +665,7 @@ const localizedPulseCopy = {
   es: {
     hero: {
       badge: "Pulse - Operaciones intradia",
-      title: "Perdida de $2K por cada turno malo. Pulse la detecta en vivo.",
+      title: "Un turno malo no se repite. Pulse lo detecta en vivo.",
       description:
         "Ritmo de ingresos, costo laboral, rendimiento de servidores y deteccion de fugas - actualizandose cada 5 minutos. Objetivos adaptativos que aprenden tus patrones, estacionalidad y eventos locales. Actua antes de que te cueste.",
       primary: "Reservar demo",
@@ -751,7 +751,7 @@ const localizedPulseCopy = {
       },
       {
         title: "Monitoreo de fugas",
-        headline: "2-5% de los ingresos se fugan cada mes",
+        headline: "Anulaciones, invitaciones y descuentos, frente a tu propia referencia",
         description:
           "Void, descuentos, comps y reembolsos - rastreados en tiempo real contra tus bases. Pulse marca cuando suben las fugas, identifica los servidores, items y ventanas de tiempo involucradas, y te alerta antes de que los pequenos problemas se vuelvan patrones costosos.",
         capabilities: [

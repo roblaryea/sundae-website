@@ -110,7 +110,7 @@ function GuestCheckTicker() {
       <span style={cellStyle}>COVERS&nbsp;<b style={{ color: T.display }}>908</b>&nbsp;{up} 12%</span>
       <span style={cellStyle}>AVG CHECK&nbsp;<b style={{ color: T.display }}>$45</b></span>
       <span style={cellStyle}>LABOR&nbsp;<b style={{ color: T.display }}>8.6%</b>&nbsp;· UNDER 25%</span>
-      <span style={{ ...cellStyle, color: T.coral }}>NEXT MOVE — Hold the 9 PM cut</span>
+      <span style={{ ...cellStyle, color: T.coral }}>NEXT MOVE - Hold the 9 PM cut</span>
     </>
   );
 
@@ -178,7 +178,7 @@ function NextMoveReceipt() {
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontSize: 12.5, letterSpacing: '0.1em', color: '#6b6259' }}>
           <Cherry size={13} /> SUNDAE · GUEST CHECK
         </span>
-        <span style={{ fontSize: 11, color: '#9a8f80' }}>TABLE — DECISION INTELLIGENCE</span>
+        <span style={{ fontSize: 11, color: '#9a8f80' }}>TABLE - DECISION INTELLIGENCE</span>
       </div>
       <div style={{ borderTop: '1px solid rgba(42,35,32,0.14)', margin: '12px 0' }} />
       {rows.map(([l, v, d]) => (
@@ -192,7 +192,7 @@ function NextMoveReceipt() {
       <div style={{ borderTop: '2px dashed rgba(42,35,32,0.22)', margin: '12px 0 12px' }} />
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span style={{ color: T.cherry, fontWeight: 700, fontSize: 13, letterSpacing: '0.05em' }}>NEXT MOVE</span>
-        <span style={{ fontSize: 12.5 }}>Hold the 9 PM cut — 1.5h under</span>
+        <span style={{ fontSize: 12.5 }}>Hold the 9 PM cut - 1.5h under</span>
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: 16 }}>
         <Barcode />
@@ -327,7 +327,7 @@ function ClosingCheck() {
           </a>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: 16 }}>
             <Barcode />
-            <span style={{ fontSize: 10, color: '#9a8f80' }}>THANK YOU — PLEASE COME AGAIN</span>
+            <span style={{ fontSize: 10, color: '#9a8f80' }}>THANK YOU - PLEASE COME AGAIN</span>
           </div>
         </motion.div>
       </div>

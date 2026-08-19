@@ -345,7 +345,7 @@ Sundae Watchtower proporciona inteligencia competitiva continua integrada direct
 **Impacto cuantificado**: modelos de aprendizaje automático estiman el impacto competitivo en tu rendimiento  
 **Contexto de mercado**: cada métrica de Sundae incluye contexto competitivo de forma automática  
 **Alertas predictivas**: recibe notificaciones cuando los competidores hagan movimientos que requieran respuesta  
-**Inteligencia integrada**: el contexto competitivo aparece en los dashboards de Sundae Core, en las conversaciones de Sundae Intelligence y en las alertas de Insights
+**Inteligencia integrada**: el contexto competitivo aparece en los dashboards de Sundae Core, en las conversaciones de Ask Sundae y en las alertas de Insights
 
 El cambio es simple: las métricas internas dejan de estar solas y empiezan a llegar con el contexto externo que explica si la variación es tuya para corregirla o del mercado para navegarla.
 
@@ -581,7 +581,7 @@ Para un grupo de 30 locales con $45M en ingresos, una mejora de 2 puntos en mano
 
 **Paso 3: Construye capacidad de análisis de causa raíz**
 
-- Cuando detectes variación, usa Sundae Intelligence para preguntar "¿Por qué la mano de obra está alta en la Ubicación X?"
+- Cuando detectes variación, usa Ask Sundae para preguntar "¿Por qué la mano de obra está alta en la Ubicación X?"
 - Revisa la inteligencia 4D: Actual vs Plan vs Benchmark vs Prediction
 - Examina factores contribuyentes: programación, productividad, tráfico, salarios
 - Compárala con las ubicaciones de mejor desempeño para identificar brechas

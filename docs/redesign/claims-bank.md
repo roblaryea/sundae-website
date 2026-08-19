@@ -2,7 +2,7 @@
 title: Claims Bank — Sundae Marketing Site
 branch: design-polish
 status: SEED — derived from homepage-spec-v1.1; expand as additional surfaces are built
-last-updated: 2026-05-05
+last-updated: 2026-08-19
 maintainer: Robert (final approval) · Eng (architectural facts) · Sales (operational commitments)
 ---
 
@@ -67,7 +67,7 @@ Footnotes that must appear on any page where the linked claim renders:
 | ID | Claim | Surface | Status | Source | Owner | Footnote? | Notes |
 |---|---|---|---|---|---|---|---|
 | CLM-001 | `12 data domains unified` | Hero, Section 7 stats, Moat #2 implicit | **APPROVED PUBLIC** | Integration catalog (`packages/analytics/src/lib/vertical-config.ts`) | Eng | No | Confirmed: 12 distinct domains. Don't drift to 13 or 11. |
-| CLM-002 | `179 restaurant data models` | Hero, SQC Quality, Section 7 stats | **APPROVED PUBLIC** | Architecture inventory | Eng | No | Lock the number. If model count changes, update everywhere atomically. |
+| CLM-002 | `179 restaurant data models` | Hero, SQC Quality, Section 7 stats | **APPROVED PUBLIC** | Architecture inventory | Eng | No | Lock the number. If model count changes, update everywhere atomically. **DRIFT FOUND 2026-08-19**: production had drifted to "500+" with no bank update, against this entry's own "lock the number" instruction. No architecture inventory substantiating 179 or 500 could be located; the closest real inventory is 340 lazy visual components across the 12 module registries, which is a different quantity. The count was removed from the homepage trust strip rather than shipping an unverifiable figure - restore a number here only once the inventory is re-derived. |
 | CLM-003 | `30+ analytics modules across 12 domains, including 14 specialized in the current pricing bundle` | Section 7 stat tile + sub | **APPROVED PUBLIC** | Module catalog + pricing | Eng + Robert | No | Resolved 2026-05: 30+ is the architecture count, 14 is the specialized-bundle count; both true. Update pricing/modules/FAQ to mirror this dual framing so the numbers don't compete. Stat tile = 30+ headline; sub-line = "14 specialized in the current pricing bundle". |
 | CLM-004 | `Built with operators across 500+ restaurant locations.` | Section 7 headline | **APPROVED PUBLIC** | Sales pipeline + advisory feedback log | Robert | No | r8 update: tightened phrasing — dropped "inputs and feedback" (read internal) for cleaner buyer-facing line. Underlying claim is still that Sundae is shaped by feedback from operators representing 500+ locations; not all 500+ are live/connected. |
 | CLM-005 | `5-minute refresh on Core Performance` | SQC Triangle (Speed vertex) | **CAPABILITY CLAIM ONLY** | Tier specification (price book v1.7) | Eng | **FN-1** required | Retargeted 2026-08-10: Core Pro is retired, so the claim was naming a package nobody can buy. Tier-specific; footnote mandatory wherever this renders. |
@@ -75,6 +75,9 @@ Footnotes that must appear on any page where the linked claim renders:
 | CLM-007 | `Sundae Intelligence answers in seconds with sources, not guesses` | SQC Triangle (Speed vertex) | **APPROVED PUBLIC** | Positioning + Sundae Intelligence feature spec | Robert | No | Resolved 2026-05: keep qualitative ("in seconds") in the public surface. Once telemetry confirms p95 < 30s, upgrade to "Most answers return in under 30 seconds" with telemetry as source. Do not publish a quantified version before that. |
 | CLM-008 | ~~`Report Lite is free`~~ | (withdrawn) | **REVOKED 2026-08-10** | — | Robert | n/a | Report Lite is a RETIRED tier under price book v1.7 sections 2.6 and 13. There is no free entry package; Core Foundation at $1,195/mo first unit is the paid entry point. This claim must not be published on any surface, and the freemium framing it anchored is withdrawn with it. |
 | CLM-009 | `6 intelligence layers` | Section 7 stats | **APPROVED PUBLIC** | Locked taxonomy (`homepage-spec-v1.1`) | Robert | No | Pulse · Benchmarks · Watchtower · Insights · Sundae Intelligence · Foresight. |
+| CLM-010 | ~~`2-5% of Revenue Leaks Every Month`~~ | `/product/pulse` leakage block (was live, 22 locales) | **REVOKED 2026-08-19** | None found | Robert | n/a | Traced to `sundae-marketing/prompts/website-overhaul.md` ("Key Metrics to Use Throughout"), a copywriting brief asserting "(industry average)" with no citation. No supporting source exists in any repo. Sundae's own ROI model (`sundae-pricing/src/hooks/useROICalculation.ts`) carries leakage RECOVERY at 0.05-0.25% of revenue marked "(VERY conservative)" and states no baseline magnitude; the 2026-08-11 evidence audit records leakage as having "no independent source at all - vendor claims only". Also a quantified outcome metric under CLM-903 (BLOCKED). Replaced by CLM-114. |
+| CLM-011 | ~~`$2K Lost Per Bad Shift`~~ | `/product/pulse` hero + `/product` Pulse pillar stat (was live, 22 locales) | **REVOKED 2026-08-19** | None found | Robert | n/a | Same origin as CLM-010. Elsewhere in the workspace `$2K` appears only as illustrative narrative (`configs/brand-governance.yml`: "Your Friday closer recovered a $2K gap"), never as a measured figure. A specific dollar outcome, which CLM-904 BANS and CLM-903 BLOCKS pending validated pilot data. Replaced by CLM-115 and CLM-005-style refresh cadence. |
+| CLM-012 | ~~`1-3% of revenue` / `1-2% of revenue` leakage~~ | Homepage proof section, `/solutions/regional-managers`, `/blog` (was live, 22 locales) | **REVOKED 2026-08-19** | None found | Robert | n/a | The same unsourced leakage magnitude as CLM-010, shipping in three different ranges on three surfaces (2-5% on `/product/pulse`, 1-3% on the homepage and regional-managers, 1-2% on the blog) - the drift is itself evidence there was no source to anchor to. The homepage instance carried a provenance footnote attributing it to "public research"; no such research could be located in any repo. Figures removed, arguments kept: leakage is now described qualitatively and, where Sundae's own behaviour is described, measured against the operator's own baseline rather than an industry number. |
 
 ---
 
@@ -95,6 +98,9 @@ Footnotes that must appear on any page where the linked claim renders:
 | CLM-111 | `Source-cited AI answers — not guesses` | SQC Quality | **APPROVED PUBLIC** | Sundae Intelligence (citations feature) | Eng | |
 | CLM-112 | `Core reduces dependence on custom BI dashboards, manual reports, and analyst backlogs` | SQC Cost | **CAPABILITY CLAIM ONLY** | Positioning | Robert | Defensible operating-model claim, no quantification. |
 | CLM-113 | `Without adding to your analyst queue` | SQC Cost headline | **CAPABILITY CLAIM ONLY** | Positioning | Robert | |
+| CLM-114 | `Voids, Comps and Discounts, Against Your Own Baseline` | `/product/pulse` leakage block | **CAPABILITY CLAIM ONLY** | Pulse leakage monitor feature spec | Eng | Replaces CLM-010. States what Pulse tracks and what it compares against, both demonstrable; asserts no industry magnitude. |
+| CLM-115 | `A Bad Shift Cannot Be Re-Run. Pulse Catches It Live.` | `/product/pulse` hero | **CAPABILITY CLAIM ONLY** | Pulse intraday refresh | Robert | Replaces CLM-011. Keeps the perishability argument, drops the unsourced dollar figure. |
+| CLM-116 | `One model behind every number` | Homepage trust strip (Governed Schema chip) | **APPROVED PUBLIC** | Architecture (single governed schema) | Eng | Non-numeric replacement for the drifted CLM-002 count; consistent with the other chips in that row, none of which carry a count. |
 
 ---
 

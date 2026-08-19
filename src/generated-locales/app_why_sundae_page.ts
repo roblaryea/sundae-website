@@ -5,15 +5,21 @@ export const generatedLocalCopy = {
     "fr": {
       "hero": {
         "badge": "Pourquoi Sundae",
-        "title": "La couche d'intelligence que les restaurants n'ont jamais eue",
-        "description": "Vos données vivent dans des silos déconnectés. Votre équipe prend des décisions de plusieurs millions de dollars sur un coup de tête. Nous avons construit la plateforme qui change cela."
+        "title": "La plupart des plateformes s'arretent a l'analyse. Sundae prouve le retour.",
+        "description": "Vos donnees vivent dans des systemes deconnectes et les decisions qui comptent se prennent a l'instinct. Sundae relie ce que vous utilisez deja, repere la marge qui fuit, confie chaque opportunite a un responsable et mesure ce qui est reellement revenu."
       },
       "problems": {
         "eyebrow": "LE PROBLÈME",
         "title": "Trois lacunes qui vous coûtent de l'argent chaque jour",
-        "description": "Chaque groupe de restaurants avec lequel nous avons travaillé fait face aux mêmes trois défis."
+        "description": "Chaque groupe multi-sites avec lequel nous travaillons rencontre les memes trois manques."
       },
       "differentiators": [
+        {
+          "title": "Recuperation de marge en boucle fermee",
+          "description": "Quatorze detecteurs reperent la marge qui fuit sur la main-d'oeuvre, les achats, le gaspillage, la livraison et les prix. Chaque opportunite devient une action confiee a une seule personne, mesuree contre une base figee avant le debut du travail. Sundae ne declare aucune economie recuperee tant qu'elle n'a pas ete mesuree.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestion de données à 12 domaines",
           "description": "POS, main-d'œuvre, inventaire, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout est unifié. Fini les systèmes déconnectés.",
@@ -57,7 +63,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Responsables des opérations",
-            "pain": "Vous ne pouvez pas être dans chaque restaurant à la fois.",
+            "pain": "Vous ne pouvez pas etre sur chaque site a la fois.",
             "description": "Visibilité en temps réel sur chaque emplacement via Pulse et Portfolio - sachez qui a besoin d'aide avant même qu'il ne demande.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -86,7 +92,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Arrêtez de gérer votre restaurant sur un coup de tête.",
+        "title": "Arretez de piloter le groupe au feeling.",
         "description": "30 minutes pour examiner vos données ensemble et voir si Sundae pourrait réellement aider votre équipe.",
         "primary": "Réserver une démo",
         "secondary": "Explorer les produits"
@@ -95,15 +101,21 @@ export const generatedLocalCopy = {
     "es": {
       "hero": {
         "badge": "Por qué Sundae",
-        "title": "La Capa de Inteligencia que los Restaurantes Nunca Tuvieron",
-        "description": "Tus datos viven en silos desconectados. Tu equipo toma decisiones millonarias basadas en la intuición. Creamos la plataforma que cambia eso."
+        "title": "La mayoria de plataformas se detienen en el analisis. Sundae demuestra el retorno.",
+        "description": "Tus datos viven en sistemas desconectados y las decisiones que importan se toman por instinto. Sundae conecta lo que ya usas, detecta el margen que se escapa, asigna cada oportunidad a un responsable y mide lo que de verdad volvio."
       },
       "problems": {
         "eyebrow": "EL PROBLEMA",
         "title": "Tres brechas que te cuestan dinero cada día",
-        "description": "Cada grupo de restaurantes con el que hemos trabajado enfrenta los mismos tres desafíos."
+        "description": "Cada grupo multilocal con el que trabajamos encuentra las mismas tres brechas."
       },
       "differentiators": [
+        {
+          "title": "Recuperacion de margen en circuito cerrado",
+          "description": "Catorce detectores encuentran el margen que se escapa en personal, compras, desperdicio, reparto y precios. Cada oportunidad se convierte en una accion con un unico responsable, medida contra una linea base congelada antes de empezar. Sundae no da por recuperado ningun ahorro hasta haberlo medido.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingesta de Datos de 12 Dominios",
           "description": "POS, mano de obra, inventario, compras, reservas, entrega, marketing, experiencia del cliente, CRM, contabilidad - todo unificado. No más sistemas desconectados.",
@@ -147,7 +159,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Líderes de Operaciones",
-            "pain": "No puedes estar en cada restaurante a la vez.",
+            "pain": "No puedes estar en cada sitio a la vez.",
             "description": "Visibilidad en tiempo real de cada ubicación a través de Pulse y Portfolio - sabe quién necesita ayuda antes de que lo pida.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -176,7 +188,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Deja de gestionar tu restaurante basándote en corazonadas.",
+        "title": "Deja de dirigir el grupo por corazonadas.",
         "description": "30 minutos para revisar tus datos juntos y ver si Sundae realmente ayudaría a tu equipo.",
         "primary": "Reservar una Demostración",
         "secondary": "Explorar Productos"
@@ -185,15 +197,21 @@ export const generatedLocalCopy = {
     "nl": {
       "hero": {
         "badge": "Waarom Sundae",
-        "title": "De Intelligentie Laag die Restaurants Nooit Hebben Gehad",
-        "description": "Jouw data bevindt zich in losstaande silo's. Jouw team maakt miljoenenbeslissingen op gevoel. Wij hebben het platform gebouwd dat dat verandert."
+        "title": "De meeste platforms stoppen bij het inzicht. Sundae bewijst het geld terug.",
+        "description": "Je data zit in losse systemen en de beslissingen die ertoe doen worden op gevoel genomen. Sundae koppelt wat je al gebruikt, vindt de marge die weglekt, geeft elke kans een eigenaar en meet wat er echt terugkwam."
       },
       "problems": {
         "eyebrow": "HET PROBLEEM",
         "title": "Drie hiaten die je elke dag geld kosten",
-        "description": "Elke restaurantgroep waarmee we hebben samengewerkt, staat voor dezelfde drie uitdagingen."
+        "description": "Elke multi-vestigingsgroep waarmee we werken loopt tegen dezelfde drie gaten aan."
       },
       "differentiators": [
+        {
+          "title": "Margeherstel in een gesloten lus",
+          "description": "Veertien detectoren vinden de marge die weglekt via personeel, inkoop, verspilling, bezorging en prijs. Elke kans wordt een actie met een eigenaar, gemeten tegen een basislijn die vastligt voordat het werk begint. Sundae noemt een besparing pas teruggewonnen als die gemeten is.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domein Gegevensinvoer",
           "description": "POS, arbeid, inventaris, inkoop, reserveringen, levering, marketing, gastenervaring, CRM, boekhouding - allemaal verenigd. Geen losgekoppelde systemen meer.",
@@ -237,7 +255,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Operationele Leiders",
-            "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
+            "pain": "Je kunt niet op elke locatie tegelijk zijn.",
             "description": "Realtime inzicht in elke locatie via Pulse en Portfolio - weet wie hulp nodig heeft voordat ze het vragen.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -266,7 +284,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Stop met het runnen van je restaurant op onderbuikgevoel.",
+        "title": "Stop met het aansturen van de groep op onderbuikgevoel.",
         "description": "30 minuten om samen je gegevens te bekijken en te zien of Sundae echt je team zou helpen.",
         "primary": "Boek een Demo",
         "secondary": "Ontdek Producten"
@@ -275,15 +293,21 @@ export const generatedLocalCopy = {
     "ar": {
       "hero": {
         "badge": "لماذا Sundae",
-        "title": "طبقة الذكاء التي لم تمتلكها المطاعم من قبل",
-        "description": "تعيش بياناتك في صوامع غير متصلة. يقوم فريقك باتخاذ قرارات بملايين الدولارات بناءً على الحدس. لقد أنشأنا المنصة التي تغير ذلك."
+        "title": "معظم المنصات تتوقف عند الرؤية. Sundae تثبت عودة المال.",
+        "description": "بياناتك موزّعة على أنظمة غير مترابطة، والقرارات المهمة تُتَّخذ بالحدس. يربط Sundae ما تشغّله اليوم، ويكشف الأرباح المتسرّبة، ويسند كل فرصة إلى مسؤول واحد، ويقيس ما عاد فعلاً."
       },
       "problems": {
         "eyebrow": "المشكلة",
         "title": "ثلاث فجوات تكلفك المال كل يوم",
-        "description": "تواجه كل مجموعة مطاعم عملنا معها نفس التحديات الثلاث."
+        "description": "كل مجموعة متعددة المواقع نعمل معها تواجه الفجوات الثلاث نفسها."
       },
       "differentiators": [
+        {
+          "title": "استرجاع الأرباح بحلقة مغلقة",
+          "description": "أربعة عشر كاشفاً تجد الأرباح المتسرّبة عبر العمالة والمشتريات والهدر والتوصيل والتسعير. تتحوّل كل فرصة إلى إجراء واحد بمسؤول واحد، ويُقاس مقابل خط أساس مجمّد قبل بدء العمل. ولا تعتبر Sundae أي توفير مستَرجعاً قبل قياسه.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "استيعاب البيانات عبر 12 مجالاً",
           "description": "POS، العمالة، المخزون، الشراء، الحجوزات، التوصيل، التسويق، تجربة الضيوف، إدارة علاقات العملاء، المحاسبة - جميعها موحدة. لا مزيد من الأنظمة المنفصلة.",
@@ -365,15 +389,21 @@ export const generatedLocalCopy = {
     "de": {
       "hero": {
         "badge": "Warum Sundae",
-        "title": "Die Intelligenzschicht, die Restaurants nie hatten",
-        "description": "Ihre Daten leben in getrennten Silos. Ihr Team trifft Millionenentscheidungen aus dem Bauch heraus. Wir haben die Plattform entwickelt, die das ändert."
+        "title": "Die meisten Plattformen enden bei der Erkenntnis. Sundae weist das Geld nach.",
+        "description": "Ihre Daten liegen in getrennten Systemen und die wichtigen Entscheidungen fallen aus dem Bauch heraus. Sundae verbindet, was Sie ohnehin nutzen, findet die verlorene Marge, gibt jeder Chance einen Verantwortlichen und misst, was tatsaechlich zurueckkam."
       },
       "problems": {
         "eyebrow": "DAS PROBLEM",
         "title": "Drei Lücken, die Sie jeden Tag Geld kosten",
-        "description": "Jede Restaurantgruppe, mit der wir zusammengearbeitet haben, steht vor denselben drei Herausforderungen."
+        "description": "Jede Gruppe mit mehreren Standorten, mit der wir arbeiten, trifft auf dieselben drei Luecken."
       },
       "differentiators": [
+        {
+          "title": "Margenrueckgewinnung im geschlossenen Kreis",
+          "description": "Vierzehn Detektoren finden die Marge, die ueber Personal, Einkauf, Verschwendung, Lieferung und Preise verloren geht. Jede Chance wird eine Aufgabe mit genau einem Verantwortlichen, gemessen gegen eine vor Arbeitsbeginn eingefrorene Basis. Sundae nennt eine Einsparung erst zurueckgewonnen, wenn sie gemessen wurde.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domain-Datenaufnahme",
           "description": "POS, Personal, Inventar, Einkauf, Reservierungen, Lieferung, Marketing, Gästeerlebnis, CRM, Buchhaltung - alles vereint. Keine getrennten Systeme mehr.",
@@ -417,7 +447,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Betriebsleiter",
-            "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
+            "pain": "Sie koennen nicht an jedem Standort gleichzeitig sein.",
             "description": "Echtzeit-Transparenz für jeden Standort über Pulse und Portfolio - wissen, wer Hilfe benötigt, bevor er fragt.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -446,7 +476,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hören Sie auf, Ihr Restaurant nach Bauchgefühl zu führen.",
+        "title": "Hoeren Sie auf, die Gruppe nach Bauchgefuehl zu fuehren.",
         "description": "30 Minuten, um Ihre Daten gemeinsam zu überprüfen und zu sehen, ob Sundae Ihrem Team wirklich helfen kann.",
         "primary": "Demo buchen",
         "secondary": "Produkte erkunden"
@@ -455,15 +485,21 @@ export const generatedLocalCopy = {
     "pt": {
       "hero": {
         "badge": "Por que Sundae",
-        "title": "A Camada de Inteligência que os Restaurantes Nunca Tiveram",
-        "description": "Seus dados estão em silos desconectados. Sua equipe toma decisões de milhões de dólares com base na intuição. Nós construímos a plataforma que muda isso."
+        "title": "A maioria das plataformas para na analise. A Sundae comprova o dinheiro de volta.",
+        "description": "Seus dados vivem em sistemas desconectados e as decisoes que importam sao tomadas no instinto. A Sundae conecta o que voce ja usa, encontra a margem que escapa, da um responsavel a cada oportunidade e mede o que de fato voltou."
       },
       "problems": {
         "eyebrow": "O PROBLEMA",
         "title": "Três lacunas que custam dinheiro todos os dias",
-        "description": "Todo grupo de restaurantes com o qual trabalhamos enfrenta os mesmos três desafios."
+        "description": "Todo grupo multiunidade com quem trabalhamos encontra as mesmas tres lacunas."
       },
       "differentiators": [
+        {
+          "title": "Recuperacao de margem em circuito fechado",
+          "description": "Catorze detectores encontram a margem que escapa em pessoal, compras, desperdicio, entrega e preco. Cada oportunidade vira uma acao com um unico responsavel, medida contra uma linha de base congelada antes do inicio. A Sundae so considera uma economia recuperada depois de medi-la.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestão de Dados em 12 Domínios",
           "description": "POS, mão de obra, inventário, compras, reservas, entrega, marketing, experiência do cliente, CRM, contabilidade - tudo unificado. Chega de sistemas desconectados.",
@@ -507,7 +543,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Líderes de Operações",
-            "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
+            "pain": "Voce nao pode estar em cada unidade ao mesmo tempo.",
             "description": "Visibilidade em tempo real de cada local através do Pulse e Portfolio - saiba quem precisa de ajuda antes mesmo de pedir.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -536,7 +572,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Pare de gerenciar seu restaurante apenas na intuição.",
+        "title": "Pare de conduzir o grupo no instinto.",
         "description": "30 minutos para revisar seus dados juntos e ver se o Sundae realmente ajudaria sua equipe.",
         "primary": "Agendar uma Demonstração",
         "secondary": "Explorar Produtos"
@@ -545,8 +581,8 @@ export const generatedLocalCopy = {
     "ur": {
       "hero": {
         "badge": "کیوں Sundae",
-        "title": "وہ ذہانت کی تہہ جو ریستورانوں کے پاس کبھی نہیں تھی",
-        "description": "آپ کا ڈیٹا الگ الگ سائلوز میں موجود ہے۔ آپ کی ٹیم لاکھوں ڈالر کے فیصلے احساس کی بنیاد پر کرتی ہے۔ ہم نے وہ پلیٹ فارم بنایا ہے جو یہ سب بدل دیتا ہے۔"
+        "title": "زیادہ تر پلیٹ فارم بصیرت پر رک جاتے ہیں۔ Sundae رقم کی واپسی ثابت کرتا ہے۔",
+        "description": "آپ کا ڈیٹا الگ الگ نظاموں میں ہے اور اہم فیصلے اندازے سے ہوتے ہیں۔ Sundae آپ کے موجودہ نظاموں کو جوڑتا ہے، ضائع ہوتا منافع تلاش کرتا ہے، ہر موقع ایک ذمہ دار کے سپرد کرتا ہے، اور ماپتا ہے کہ حقیقت میں کتنا واپس آیا۔"
       },
       "problems": {
         "eyebrow": "مسئلہ",
@@ -554,6 +590,12 @@ export const generatedLocalCopy = {
         "description": "ہر ریستوراں گروپ جس کے ساتھ ہم نے کام کیا ہے، اسی تین چیلنجز کا سامنا کرتا ہے۔"
       },
       "differentiators": [
+        {
+          "title": "بند لوپ میں منافع کی بحالی",
+          "description": "چودہ ڈٹیکٹر محنت، خریداری، ضیاع، ڈیلیوری اور قیمتوں میں ضائع ہوتا منافع تلاش کرتے ہیں۔ ہر موقع ایک ذمہ دار کے سپرد ایک کام بن جاتا ہے، جو کام شروع ہونے سے پہلے منجمد بنیاد کے مقابلے میں ماپا جاتا ہے۔ Sundae کسی بچت کو ماپے بغیر بحال شدہ نہیں کہتا۔",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-ڈومین ڈیٹا اِنجیشن",
           "description": "POS، محنت، انوینٹری، خریداری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اکاؤنٹنگ - سب متحد۔ مزید غیر مربوط نظام نہیں۔",
@@ -597,7 +639,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "آپریشنز کے رہنما",
-            "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
+            "pain": "آپ ایک ہی وقت میں ہر مقام پر نہیں ہو سکتے۔",
             "description": "Pulse اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -635,15 +677,21 @@ export const generatedLocalCopy = {
     "hi": {
       "hero": {
         "badge": "Sundae क्यों",
-        "title": "इंटेलिजेंस लेयर जो रेस्तरां के पास कभी नहीं थी",
-        "description": "आपका डेटा अलग-अलग साइलो में रहता है। आपकी टीम आंतरिक भावना से लाखों डॉलर के निर्णय लेती है। हमने वह प्लेटफ़ॉर्म बनाया है जो इसे बदलता है।"
+        "title": "ज़्यादातर प्लेटफ़ॉर्म जानकारी पर रुक जाते हैं. Sundae पैसा वापस आना साबित करता है.",
+        "description": "आपका डेटा अलग-अलग सिस्टम में बिखरा है और अहम फ़ैसले अंदाज़े से होते हैं. Sundae आपके मौजूदा सिस्टम जोड़ता है, रिस रहा मुनाफ़ा पकड़ता है, हर अवसर को एक ज़िम्मेदार देता है, और मापता है कि असल में कितना वापस आया."
       },
       "problems": {
         "eyebrow": "समस्या",
         "title": "तीन कमियां जो आपको हर दिन पैसे का नुकसान पहुंचाती हैं",
-        "description": "हर रेस्तरां समूह जिसके साथ हमने काम किया है, उन्हीं तीन चुनौतियों का सामना करता है।"
+        "description": "हर मल्टी-लोकेशन ग्रुप जिसके साथ हम काम करते हैं, उन्हीं तीन कमियों से टकराता है।"
       },
       "differentiators": [
+        {
+          "title": "क्लोज्ड-लूप मुनाफ़ा रिकवरी",
+          "description": "चौदह डिटेक्टर श्रम, खरीद, बर्बादी, डिलीवरी और मूल्य निर्धारण में रिस रहे मुनाफ़े को पकड़ते हैं. हर अवसर एक ज़िम्मेदार व्यक्ति का काम बनता है, जिसे काम शुरू होने से पहले जमे हुए बेसलाइन के मुकाबले मापा जाता है. Sundae किसी बचत को मापे बिना वसूल नहीं मानता.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-डोमेन डेटा इनजेशन",
           "description": "POS, श्रम, इन्वेंटरी, खरीदारी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, लेखा - सभी एकीकृत। अब और डिस्कनेक्टेड सिस्टम नहीं।",
@@ -687,7 +735,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "ऑपरेशंस लीडर्स",
-            "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
+            "pain": "आप एक साथ हर साइट पर नहीं हो सकते।",
             "description": "Pulse और Portfolio के माध्यम से हर स्थान पर वास्तविक समय की दृश्यता - जानें कि किसे मदद की आवश्यकता है इससे पहले कि वे पूछें।",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -716,7 +764,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "अपने रेस्तरां को केवल आंतरिक भावना पर चलाना बंद करें।",
+        "title": "ग्रुप को अंदाज़े पर चलाना बंद कीजिए।",
         "description": "अपने डेटा की समीक्षा करने और यह देखने के लिए 30 मिनट बिताएं कि क्या Sundae वास्तव में आपकी टीम की मदद करेगा।",
         "primary": "डेमो बुक करें",
         "secondary": "उत्पादों का अन्वेषण करें"
@@ -725,15 +773,21 @@ export const generatedLocalCopy = {
     "it": {
       "hero": {
         "badge": "Perché Sundae",
-        "title": "Il Livello di Intelligenza che i Ristoranti Non Hanno Mai Avuto",
-        "description": "I tuoi dati vivono in silos disconnessi. Il tuo team prende decisioni da milioni di dollari basandosi sull'istinto. Abbiamo costruito la piattaforma che cambia tutto."
+        "title": "La maggior parte delle piattaforme si ferma all'analisi. Sundae dimostra il ritorno.",
+        "description": "I tuoi dati vivono in sistemi scollegati e le decisioni che contano si prendono a intuito. Sundae collega cio che gia usi, individua il margine che si perde, assegna ogni opportunita a un responsabile e misura quanto e davvero rientrato."
       },
       "problems": {
         "eyebrow": "IL PROBLEMA",
         "title": "Tre lacune che ti costano soldi ogni giorno",
-        "description": "Ogni gruppo di ristoranti con cui abbiamo lavorato affronta le stesse tre sfide."
+        "description": "Ogni gruppo multi-sede con cui lavoriamo incontra le stesse tre lacune."
       },
       "differentiators": [
+        {
+          "title": "Recupero del margine a ciclo chiuso",
+          "description": "Quattordici rilevatori individuano il margine che si perde tra personale, acquisti, sprechi, consegne e prezzi. Ogni opportunita diventa un'azione con un solo responsabile, misurata rispetto a una base congelata prima dell'inizio. Sundae non considera un risparmio recuperato finche non e stato misurato.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestione Dati a 12 Domini",
           "description": "POS, lavoro, inventario, acquisti, prenotazioni, consegne, marketing, esperienza degli ospiti, CRM, contabilità - tutto unificato. Niente più sistemi disconnessi.",
@@ -777,7 +831,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Leader delle Operazioni",
-            "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
+            "pain": "Non puoi essere in ogni sede allo stesso tempo.",
             "description": "Visibilità in tempo reale su ogni sede tramite Pulse e Portfolio - sapere chi ha bisogno di aiuto prima che lo chieda.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -806,7 +860,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Smetti di gestire il tuo ristorante basandoti solo sull'istinto.",
+        "title": "Smetti di guidare il gruppo a intuito.",
         "description": "30 minuti per rivedere insieme i tuoi dati e vedere se Sundae può davvero aiutare il tuo team.",
         "primary": "Prenota una Demo",
         "secondary": "Esplora i Prodotti"
@@ -815,8 +869,8 @@ export const generatedLocalCopy = {
     "tr": {
       "hero": {
         "badge": "Neden Sundae",
-        "title": "Restoranların Hiç Sahip Olmadığı Zeka Katmanı",
-        "description": "Verileriniz bağlantısız silolarda yaşıyor. Ekibiniz milyon dolarlık kararları içgüdüyle alıyor. Bunu değiştiren platformu geliştirdik."
+        "title": "Cogu platform icgoruede durur. Sundae paranin geri geldigini kanitlar.",
+        "description": "Verileriniz kopuk sistemlerde duruyor ve onemli kararlar sezgiyle veriliyor. Sundae hali hazirda kullandiklarinizi baglar, sizan kari bulur, her firsata tek bir sorumlu atar ve gercekte ne kadarinin geri geldigini olcer."
       },
       "problems": {
         "eyebrow": "SORUN",
@@ -824,6 +878,12 @@ export const generatedLocalCopy = {
         "description": "Çalıştığımız her restoran grubu aynı üç zorlukla karşılaşıyor."
       },
       "differentiators": [
+        {
+          "title": "Kapali dongu kar geri kazanimi",
+          "description": "On dort dedektor isgucu, satin alma, israf, teslimat ve fiyatlamada sizan kari bulur. Her firsat tek bir sorumlusu olan bir ise donusur ve is baslamadan once dondurulan bir taban ile olculur. Sundae bir tasarrufu olcmeden geri kazanilmis saymaz.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domain Veri Alımı",
           "description": "POS, iş gücü, envanter, satın alma, rezervasyon, teslimat, pazarlama, misafir deneyimi, CRM, muhasebe - hepsi bir arada. Artık bağlantısız sistemler yok.",
@@ -905,8 +965,8 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "hero": {
         "badge": "为什么选择Sundae",
-        "title": "餐厅从未拥有的智能层",
-        "description": "您的数据存在于孤立的孤岛中。您的团队凭直觉做出百万美元的决策。我们构建了改变这一切的平台。"
+        "title": "多数平台止步于洞察。Sundae 证明钱真的回来了。",
+        "description": "你的数据散落在互不相连的系统里，重要决策靠直觉做出。Sundae 接入你已在使用的系统，找出流失的利润，为每个机会指定唯一负责人，并衡量真正回来的金额。"
       },
       "problems": {
         "eyebrow": "问题",
@@ -914,6 +974,12 @@ export const generatedLocalCopy = {
         "description": "我们合作过的每个餐饮集团都面临着同样的三个挑战。"
       },
       "differentiators": [
+        {
+          "title": "闭环利润追回",
+          "description": "十四个检测器找出在人力、采购、损耗、配送与定价上流失的利润。每个机会变成一项有唯一负责人的任务，并以开工前冻结的基线来衡量。未经衡量，Sundae 不会称任何节省已被追回。",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12个领域数据摄取",
           "description": "POS、劳动力、库存、采购、预订、配送、营销、客户体验、CRM、会计 - 全部统一。再也没有脱节的系统。",
@@ -957,7 +1023,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "运营领导",
-            "pain": "您无法同时在每个餐厅。",
+            "pain": "你无法同时出现在每一个门店。",
             "description": "通过Pulse和Portfolio实时了解每个位置的情况 - 在他们请求帮助之前就知道谁需要帮助。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -986,7 +1052,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "别再凭感觉经营餐厅了。",
+        "title": "别再凭直觉经营整个集团。",
         "description": "花30分钟一起审查您的数据，看看Sundae是否真的能帮助您的团队。",
         "primary": "预约演示",
         "secondary": "探索产品"
@@ -995,8 +1061,8 @@ export const generatedLocalCopy = {
     "pl": {
       "hero": {
         "badge": "Dlaczego Sundae",
-        "title": "Warstwa Inteligencji, której Restauracje Nigdy Nie Miały",
-        "description": "Twoje dane znajdują się w odizolowanych silosach. Twój zespół podejmuje decyzje warte miliony dolarów na podstawie intuicji. Stworzyliśmy platformę, która to zmienia."
+        "title": "Wiekszosc platform konczy na wnioskach. Sundae dowodzi zwrotu pieniedzy.",
+        "description": "Twoje dane leza w odlaczonych systemach, a wazne decyzje zapadaja na wyczucie. Sundae laczy to, czego juz uzywasz, znajduje tracona marze, przypisuje kazda szanse jednej osobie i mierzy, ile naprawde wrocilo."
       },
       "problems": {
         "eyebrow": "PROBLEM",
@@ -1004,6 +1070,12 @@ export const generatedLocalCopy = {
         "description": "Każda grupa restauracyjna, z którą współpracowaliśmy, boryka się z tymi samymi trzema wyzwaniami."
       },
       "differentiators": [
+        {
+          "title": "Odzyskiwanie marzy w zamknietej petli",
+          "description": "Czternascie detektorow znajduje marze traconą w pracy, zakupach, marnotrawstwie, dostawie i cenach. Kazda szansa staje sie zadaniem z jednym wlascicielem, mierzonym wzgledem bazy zamrozonej przed rozpoczeciem prac. Sundae nie uzna oszczednosci za odzyskana, dopoki jej nie zmierzy.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domenowa Ingestia Danych",
           "description": "POS, praca, zapasy, zakupy, rezerwacje, dostawy, marketing, doświadczenie gości, CRM, księgowość - wszystko zintegrowane. Koniec z rozłączonymi systemami.",
@@ -1085,15 +1157,21 @@ export const generatedLocalCopy = {
     "ja": {
       "hero": {
         "badge": "なぜSundaeなのか",
-        "title": "レストランが持っていなかったインテリジェンスレイヤー",
-        "description": "あなたのデータは切り離されたサイロに存在しています。あなたのチームは直感で百万ドルの決定を下します。私たちはそれを変えるプラットフォームを構築しました。"
+        "title": "多くのプラットフォームは示唆で終わります。Sundae は戻ったお金を証明します。",
+        "description": "データは分断されたシステムに散らばり、重要な判断は勘に頼りがちです。Sundae は既存のシステムをつなぎ、漏れている利益を見つけ、機会ごとに担当者を一人定め、実際に戻った金額を測定します。"
       },
       "problems": {
         "eyebrow": "問題",
         "title": "毎日お金を失う3つのギャップ",
-        "description": "私たちが関わったすべてのレストラングループは、同じ3つの課題に直面しています。"
+        "description": "私たちが関わる多店舗グループは、いずれも同じ三つの欠落に突き当たります。"
       },
       "differentiators": [
+        {
+          "title": "クローズドループの利益リカバリー",
+          "description": "十四の検出器が人件費、調達、廃棄、配送、価格設定で漏れている利益を見つけます。各機会は担当者が一人だけの作業となり、着手前に凍結した基準と比較して測定されます。測定されるまで、Sundae は節減を回収済みとは呼びません。",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12ドメインデータ取り込み",
           "description": "POS、労働、在庫、購買、予約、配送、マーケティング、ゲスト体験、CRM、会計 - すべてが統合されています。もはや切り離されたシステムはありません。",
@@ -1137,7 +1215,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "オペレーションリーダー",
-            "pain": "すべてのレストランに同時にいることはできません。",
+            "pain": "すべての店舗に同時にいることはできません。",
             "description": "PulseとPortfolioを通じて、各ロケーションのリアルタイムの可視性 - 誰が助けを必要としているかを事前に把握します。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1166,7 +1244,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "感覚だけでレストランを運営するのはやめましょう。",
+        "title": "勘でグループを動かすのはやめましょう。",
         "description": "データを一緒にレビューするための30分で、Sundaeが本当にあなたのチームを助けるかどうかを確認しましょう。",
         "primary": "デモを予約",
         "secondary": "製品を探る"
@@ -1175,8 +1253,8 @@ export const generatedLocalCopy = {
     "vi": {
       "hero": {
         "badge": "Tại sao Sundae",
-        "title": "Lớp thông minh mà các nhà hàng chưa từng có",
-        "description": "Dữ liệu của bạn sống trong các silo không kết nối. Nhóm của bạn đưa ra quyết định triệu đô chỉ dựa vào cảm giác. Chúng tôi đã xây dựng nền tảng thay đổi điều đó."
+        "title": "Hau het nen tang dung lai o phan tich. Sundae chung minh tien quay ve.",
+        "description": "Du lieu cua ban nam rai rac o cac he thong roi rac va nhung quyet dinh quan trong duoc dua ra theo cam tinh. Sundae ket noi nhung gi ban dang dung, tim ra loi nhuan that thoat, giao moi co hoi cho mot nguoi chiu trach nhiem va do luong phan thuc su thu ve."
       },
       "problems": {
         "eyebrow": "VẤN ĐỀ",
@@ -1184,6 +1262,12 @@ export const generatedLocalCopy = {
         "description": "Mỗi nhóm nhà hàng mà chúng tôi đã làm việc đều gặp phải ba thách thức giống nhau."
       },
       "differentiators": [
+        {
+          "title": "Thu hoi loi nhuan theo vong khep kin",
+          "description": "Muoi bon bo phat hien tim ra loi nhuan that thoat o nhan cong, mua hang, hao hut, giao hang va dinh gia. Moi co hoi tro thanh mot cong viec voi mot nguoi chiu trach nhiem, do luong voi moc co so duoc dong bang truoc khi bat dau. Sundae khong goi mot khoan tiet kiem la da thu hoi cho den khi do duoc.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Tiếp Nhận Dữ Liệu 12 Miền",
           "description": "POS, lao động, tồn kho, mua sắm, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM, kế toán - tất cả được thống nhất. Không còn hệ thống tách rời.",
@@ -1265,8 +1349,8 @@ export const generatedLocalCopy = {
     "id": {
       "hero": {
         "badge": "Mengapa Sundae",
-        "title": "Lapisan Intelijen yang Belum Pernah Dimiliki Restoran",
-        "description": "Data Anda terletak di silo yang terputus. Tim Anda membuat keputusan senilai jutaan dolar berdasarkan insting. Kami membangun platform yang mengubah itu."
+        "title": "Kebanyakan platform berhenti di wawasan. Sundae membuktikan uangnya kembali.",
+        "description": "Data Anda tersebar di sistem yang terputus dan keputusan penting diambil berdasarkan naluri. Sundae menghubungkan yang sudah Anda pakai, menemukan laba yang bocor, memberi satu penanggung jawab bagi tiap peluang, dan mengukur berapa yang benar-benar kembali."
       },
       "problems": {
         "eyebrow": "MASALAH",
@@ -1274,6 +1358,12 @@ export const generatedLocalCopy = {
         "description": "Setiap grup restoran yang kami tangani menghadapi tiga tantangan yang sama."
       },
       "differentiators": [
+        {
+          "title": "Pemulihan laba lingkar tertutup",
+          "description": "Empat belas detektor menemukan laba yang bocor di tenaga kerja, pengadaan, susut, pengiriman dan penetapan harga. Setiap peluang menjadi satu tugas dengan satu penanggung jawab, diukur terhadap garis dasar yang dibekukan sebelum pekerjaan dimulai. Sundae tidak menyebut penghematan sebagai kembali sebelum diukur.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, tenaga kerja, inventaris, pembelian, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, akuntansi - semua terintegrasi. Tidak ada lagi sistem yang terputus.",
@@ -1355,15 +1445,21 @@ export const generatedLocalCopy = {
     "ko": {
       "hero": {
         "badge": "왜 Sundae인가",
-        "title": "레스토랑이 결코 가지지 못했던 인텔리전스 레이어",
-        "description": "귀하의 데이터는 분리된 사일로에 존재합니다. 귀하의 팀은 직감으로 백만 달러의 결정을 내립니다. 우리는 이를 변화시키는 플랫폼을 구축했습니다."
+        "title": "대부분의 플랫폼은 통찰에서 멈춥니다. Sundae는 돈이 돌아왔음을 증명합니다.",
+        "description": "데이터는 서로 연결되지 않은 시스템에 흩어져 있고 중요한 결정은 직감으로 내려집니다. Sundae는 이미 쓰고 있는 시스템을 연결해 새는 이익을 찾아내고, 기회마다 담당자를 한 명씩 지정하며, 실제로 얼마가 돌아왔는지 측정합니다."
       },
       "problems": {
         "eyebrow": "문제",
         "title": "매일 돈을 잃게 만드는 세 가지 격차",
-        "description": "우리가 함께 일한 모든 레스토랑 그룹은 동일한 세 가지 문제에 직면합니다."
+        "description": "우리가 함께 일한 모든 다점포 그룹이 같은 세 가지 공백을 만납니다."
       },
       "differentiators": [
+        {
+          "title": "폐쇄 루프 이익 회수",
+          "description": "열네 개의 탐지기가 인건비, 구매, 폐기, 배달, 가격에서 새는 이익을 찾아냅니다. 각 기회는 담당자가 한 명인 업무가 되고, 작업 시작 전에 고정한 기준선과 비교해 측정됩니다. 측정되기 전까지 Sundae는 절감이 회수되었다고 말하지 않습니다.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12개 도메인 데이터 수집",
           "description": "POS, 인력, 재고, 구매, 예약, 배달, 마케팅, 고객 경험, CRM, 회계 - 모두 통합되었습니다. 더 이상 분리된 시스템이 없습니다.",
@@ -1407,7 +1503,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "운영 리더",
-            "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
+            "pain": "모든 지점에 동시에 있을 수는 없습니다.",
             "description": "Pulse와 Portfolio를 통해 모든 위치에 대한 실시간 가시성을 제공 - 누가 도움을 필요로 하는지 미리 알 수 있습니다.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1445,15 +1541,21 @@ export const generatedLocalCopy = {
     "ro": {
       "hero": {
         "badge": "De ce Sundae",
-        "title": "Stratul de Inteligență pe care restaurantele nu l-au avut niciodată",
-        "description": "Datele tale trăiesc în silozuri deconectate. Echipa ta ia decizii de milioane de dolari bazate pe intuiție. Am construit platforma care schimbă asta."
+        "title": "Majoritatea platformelor se opresc la analiza. Sundae dovedeste banii inapoi.",
+        "description": "Datele tale stau in sisteme deconectate, iar deciziile importante se iau din instinct. Sundae conecteaza ce folosesti deja, gaseste marja pierduta, atribuie fiecare oportunitate unui responsabil si masoara cat s-a intors cu adevarat."
       },
       "problems": {
         "eyebrow": "PROBLEMA",
         "title": "Trei lacune care îți costă bani în fiecare zi",
-        "description": "Fiecare grup de restaurante cu care am colaborat se confruntă cu aceleași trei provocări."
+        "description": "Fiecare grup multi-locatie cu care lucram intalneste aceleasi trei lipsuri."
       },
       "differentiators": [
+        {
+          "title": "Recuperarea marjei in buclă inchisa",
+          "description": "Paisprezece detectoare gasesc marja pierduta la personal, achizitii, risipa, livrare si preturi. Fiecare oportunitate devine o sarcina cu un singur responsabil, masurata fata de o baza inghetata inainte de inceperea lucrului. Sundae nu considera o economie recuperata pana nu este masurata.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestie de Date pe 12 Domenii",
           "description": "POS, muncă, inventar, achiziții, rezervări, livrare, marketing, experiența oaspeților, CRM, contabilitate - toate unificate. Fără sisteme deconectate.",
@@ -1497,7 +1599,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Lideri de Operațiuni",
-            "pain": "Nu poți fi în fiecare restaurant în același timp.",
+            "pain": "Nu poti fi in fiecare locatie in acelasi timp.",
             "description": "Vizibilitate în timp real în fiecare locație prin Pulse și Portfolio - știi cine are nevoie de ajutor înainte să ceară.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1526,7 +1628,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Nu mai conduceți restaurantul pe baza intuiției.",
+        "title": "Nu mai conduce grupul dupa instinct.",
         "description": "30 de minute pentru a revizui datele împreună și a vedea dacă Sundae ar ajuta cu adevărat echipa dumneavoastră.",
         "primary": "Programează o demonstrație",
         "secondary": "Explorează produsele"
@@ -1535,15 +1637,21 @@ export const generatedLocalCopy = {
     "sv": {
       "hero": {
         "badge": "Varför Sundae",
-        "title": "Intelligenslagret som restauranger aldrig haft",
-        "description": "Dina data finns i avskilda silos. Ditt team fattar beslut värda miljoner baserat på magkänsla. Vi har byggt plattformen som förändrar det."
+        "title": "De flesta plattformar stannar vid insikten. Sundae bevisar pengarna tillbaka.",
+        "description": "Er data ligger i frikopplade system och de viktiga besluten tas pa kansla. Sundae kopplar ihop det ni redan anvander, hittar marginalen som lacker, ger varje mojlighet en ansvarig och mater vad som faktiskt kom tillbaka."
       },
       "problems": {
         "eyebrow": "PROBLEMET",
         "title": "Tre luckor som kostar dig pengar varje dag",
-        "description": "Varje restauranggrupp vi har arbetat med står inför samma tre utmaningar."
+        "description": "Varje flerenhetsgrupp vi arbetar med moter samma tre luckor."
       },
       "differentiators": [
+        {
+          "title": "Marginalatervinning i sluten loop",
+          "description": "Fjorton detektorer hittar marginalen som lacker i personal, inkop, svinn, leverans och prissattning. Varje mojlighet blir en uppgift med en enda ansvarig, matt mot en baslinje som frystes innan arbetet borjade. Sundae kallar inte en besparing atervunnen forran den har matts.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-domäners datainhämtning",
           "description": "POS, arbetskraft, lager, inköp, reservationer, leverans, marknadsföring, gästupplevelse, CRM, bokföring - allt enat. Inga fler frånkopplade system.",
@@ -1587,7 +1695,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Operationsledare",
-            "pain": "Du kan inte vara på varje restaurang samtidigt.",
+            "pain": "Du kan inte vara pa varje enhet samtidigt.",
             "description": "Realtidsinsyn i varje plats via Pulse och Portfolio - vet vem som behöver hjälp innan de frågar.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1616,7 +1724,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Sluta driva din restaurang på magkänsla.",
+        "title": "Sluta styra gruppen pa kansla.",
         "description": "30 minuter för att granska dina data tillsammans och se om Sundae verkligen skulle hjälpa ditt team.",
         "primary": "Boka en demo",
         "secondary": "Utforska produkter"
@@ -1625,8 +1733,8 @@ export const generatedLocalCopy = {
     "bn": {
       "hero": {
         "badge": "কেন Sundae",
-        "title": "যে বুদ্ধিমত্তার স্তর রেস্তোরাঁর কখনো ছিল না",
-        "description": "আপনার ডেটা বিচ্ছিন্ন সাইলোতে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা মিলিয়ন ডলারের সিদ্ধান্ত নেয়। আমরা সেই প্ল্যাটফর্ম তৈরি করেছি যা এটি পরিবর্তন করে।"
+        "title": "বেশিরভাগ প্ল্যাটফর্ম অন্তর্দৃষ্টিতেই থেমে যায়। Sundae প্রমাণ করে টাকা ফিরে এসেছে।",
+        "description": "আপনার ডেটা বিচ্ছিন্ন সিস্টেমে ছড়ানো, আর গুরুত্বপূর্ণ সিদ্ধান্ত নেওয়া হয় আন্দাজে। Sundae আপনার বিদ্যমান সিস্টেম যুক্ত করে, বেরিয়ে যাওয়া মুনাফা খুঁজে বের করে, প্রতিটি সুযোগে একজন দায়িত্বপ্রাপ্ত দেয়, এবং মাপে সত্যিই কতটা ফিরে এল।"
       },
       "problems": {
         "eyebrow": "সমস্যা",
@@ -1634,6 +1742,12 @@ export const generatedLocalCopy = {
         "description": "প্রতিটি রেস্টুরেন্ট গ্রুপের সাথে আমরা কাজ করেছি একই তিনটি চ্যালেঞ্জের মুখোমুখি হয়।"
       },
       "differentiators": [
+        {
+          "title": "ক্লোজড-লুপ মুনাফা পুনরুদ্ধার",
+          "description": "চৌদ্দটি ডিটেক্টর শ্রম, ক্রয়, অপচয়, ডেলিভারি ও মূল্যনির্ধারণে বেরিয়ে যাওয়া মুনাফা খুঁজে বের করে। প্রতিটি সুযোগ একজন দায়িত্বপ্রাপ্ত ব্যক্তির কাজ হয়ে ওঠে, যা কাজ শুরুর আগে স্থির করা ভিত্তির সঙ্গে মেপে দেখা হয়। মাপা না হওয়া পর্যন্ত Sundae কোনও সাশ্রয়কে পুনরুদ্ধার বলে না।",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "১২-ডোমেইন ডেটা ইনজেশন",
           "description": "POS, শ্রম, ইনভেন্টরি, ক্রয়, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, হিসাব - সবকিছু একত্রিত। আর বিচ্ছিন্ন সিস্টেম নেই।",
@@ -1715,15 +1829,21 @@ export const generatedLocalCopy = {
     "th": {
       "hero": {
         "badge": "ทำไมต้อง Sundae",
-        "title": "ชั้นข้อมูลอัจฉริยะที่ร้านอาหารไม่เคยมี",
-        "description": "ข้อมูลของคุณอยู่ในซิลอสที่ไม่เชื่อมต่อ ทีมของคุณตัดสินใจมูลค่าหลายล้านดอลลาร์จากความรู้สึก เราสร้างแพลตฟอร์มที่เปลี่ยนแปลงสิ่งนั้น."
+        "title": "แพลตฟอร์มส่วนใหญ่หยุดที่ข้อมูลเชิงลึก Sundae พิสูจน์ว่าเงินกลับคืนมา",
+        "description": "ข้อมูลของคุณกระจายอยู่ในระบบที่ไม่เชื่อมกัน และการตัดสินใจสำคัญอาศัยสัญชาตญาณ Sundae เชื่อมสิ่งที่คุณใช้อยู่แล้ว ค้นหากำไรที่รั่วไหล มอบผู้รับผิดชอบหนึ่งคนต่อหนึ่งโอกาส และวัดว่ากลับคืนมาจริงเท่าใด"
       },
       "problems": {
         "eyebrow": "ปัญหา",
         "title": "สามช่องว่างที่ทำให้คุณเสียเงินทุกวัน",
-        "description": "กลุ่มร้านอาหารทุกกลุ่มที่เราทำงานด้วยเผชิญกับสามความท้าทายเดียวกัน."
+        "description": "ทุกกลุ่มหลายสาขาที่เราทำงานด้วยเจอช่องว่างสามอย่างเดียวกัน"
       },
       "differentiators": [
+        {
+          "title": "การกู้คืนกำไรแบบวงจรปิด",
+          "description": "ตัวตรวจจับสิบสี่ตัวค้นหากำไรที่รั่วไหลในแรงงาน การจัดซื้อ ของเสีย การจัดส่ง และการตั้งราคา ทุกโอกาสกลายเป็นงานที่มีผู้รับผิดชอบเพียงคนเดียว วัดเทียบกับเส้นฐานที่ตรึงไว้ก่อนเริ่มงาน Sundae จะไม่เรียกการประหยัดใดว่ากู้คืนแล้วจนกว่าจะวัดได้",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "การนำเข้าข้อมูล 12 ด้าน",
           "description": "POS, แรงงาน, สินค้าคงคลัง, การสั่งซื้อ, การจอง, การจัดส่ง, การตลาด, ประสบการณ์แขก, CRM, การบัญชี - ทั้งหมดรวมกัน ไม่มีระบบที่แยกจากกันอีกต่อไป.",
@@ -1796,7 +1916,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "หยุดบริหารร้านอาหารของคุณด้วยความรู้สึก.",
+        "title": "หยุดบริหารทั้งกลุ่มด้วยสัญชาตญาณ",
         "description": "30 นาทีในการตรวจสอบข้อมูลของคุณร่วมกันและดูว่า Sundae จะช่วยทีมของคุณได้จริงหรือไม่.",
         "primary": "จองการสาธิต",
         "secondary": "สำรวจผลิตภัณฑ์"
@@ -1805,8 +1925,8 @@ export const generatedLocalCopy = {
     "ms": {
       "hero": {
         "badge": "Mengapa Sundae",
-        "title": "Lapisan Kecerdasan yang Tidak Pernah Dimiliki Restoran",
-        "description": "Data anda terperangkap dalam silo yang tidak bersambung. Pasukan anda membuat keputusan bernilai jutaan dolar berdasarkan naluri. Kami membina platform yang mengubah itu."
+        "title": "Kebanyakan platform berhenti pada cerapan. Sundae membuktikan wang itu kembali.",
+        "description": "Data anda berada dalam sistem yang terputus dan keputusan penting dibuat mengikut naluri. Sundae menyambung apa yang anda sudah guna, mengesan margin yang bocor, memberikan seorang penanggungjawab bagi setiap peluang, dan mengukur berapa yang benar-benar kembali."
       },
       "problems": {
         "eyebrow": "MASALAH",
@@ -1814,6 +1934,12 @@ export const generatedLocalCopy = {
         "description": "Setiap kumpulan restoran yang kami bekerjasama menghadapi tiga cabaran yang sama."
       },
       "differentiators": [
+        {
+          "title": "Pemulihan margin gelung tertutup",
+          "description": "Empat belas pengesan mencari margin yang bocor pada tenaga kerja, perolehan, pembaziran, penghantaran dan penetapan harga. Setiap peluang menjadi satu tugas dengan seorang penanggungjawab, diukur terhadap garis dasar yang dibekukan sebelum kerja bermula. Sundae tidak menyebut penjimatan sebagai pulih sebelum ia diukur.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, buruh, inventori, pembelian, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, perakaunan - semua disatukan. Tiada lagi sistem yang tidak bersambung.",

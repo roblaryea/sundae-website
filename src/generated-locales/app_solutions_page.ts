@@ -6,10 +6,10 @@ export const generatedLocalCopy = {
       "badge": "SOLUTIONS · PAR RÔLE",
       "titleLine1": "Une plateforme.",
       "titleLine2": "Chaque rôle que vous exécutez.",
-      "description": "Intelligence décisionnelle centrée sur la personne qui la lit - du bureau exécutif au terrain.",
+      "description": "Intelligence décisionnelle centrée sur la personne qui doit agir, et mesurée sur ce que cette action a rapporté - du bureau exécutif au terrain.",
       "nowShowingPrefix": "Maintenant à l'affiche :",
       "primaryCta": "Réservez une session de travail",
-      "shapedByLabel": "Façonné par des opérateurs de restaurant à travers",
+      "shapedByLabel": "Façonné par des opérateurs à travers",
       "formats": [
         "Restauration rapide",
         "Restauration décontractée",
@@ -90,7 +90,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "FORMATS SPÉCIALISÉS",
-          "title": "Conçu pour le fonctionnement réel des restaurants aujourd'hui.",
+          "title": "Conçu pour les formats qui sortent du modèle standard.",
           "description": "Intelligence spécifique au format pour les cuisines cloud, les marques virtuelles et les réseaux de franchises.",
           "seeSolutionPrefix": "Voir",
           "personas": [
@@ -110,10 +110,10 @@ export const generatedLocalCopy = {
       "badge": "LÖSUNGEN · NACH ROLLE",
       "titleLine1": "Eine Plattform.",
       "titleLine2": "Jede Rolle, die Sie ausführen.",
-      "description": "Entscheidungsintelligenz, die sich um die Person dreht, die sie liest - vom Vorstandsbüro bis zur Etage.",
+      "description": "Entscheidungsintelligenz, die sich um die Person dreht, die handeln muss, und daran gemessen wird, was dabei zurückkam - vom Vorstandsbüro bis zur Etage.",
       "nowShowingPrefix": "Jetzt anzeigen:",
       "primaryCta": "Buchen Sie eine Arbeitsbesprechung",
-      "shapedByLabel": "Gestaltet von Restaurantbetreibern aus",
+      "shapedByLabel": "Gestaltet von Betreibern aus",
       "formats": [
         "Schnellrestaurants",
         "Casual Dining",
@@ -194,7 +194,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "SPEZIALISIERTE FORMATE",
-          "title": "Entwickelt für die tatsächliche Betriebsweise von Restaurants heute.",
+          "title": "Entwickelt für die Formate, die nicht in das Standardmodell passen.",
           "description": "Format-spezifische Intelligenz für Cloud-Küchen, virtuelle Marken und Franchise-Netzwerke.",
           "seeSolutionPrefix": "Ansehen",
           "personas": [
@@ -214,10 +214,10 @@ export const generatedLocalCopy = {
       "badge": "SOLUCIONES · POR ROL",
       "titleLine1": "Una plataforma.",
       "titleLine2": "Cada rol que ejecutes.",
-      "description": "Inteligencia de decisiones centrada en la persona que la lee, desde la oficina ejecutiva hasta el piso.",
+      "description": "Inteligencia de decisiones centrada en quien tiene que actuar, y medida por lo que esa acción devolvió - desde la oficina ejecutiva hasta el piso.",
       "nowShowingPrefix": "Ahora mostrando:",
       "primaryCta": "Reservar una Sesión de Trabajo",
-      "shapedByLabel": "Modelado por operadores de restaurantes en todo",
+      "shapedByLabel": "Modelado por operadores en todo",
       "formats": [
         "QSR",
         "Comedor Casual",
@@ -298,7 +298,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "FORMATOS ESPECIALIZADOS",
-          "title": "Diseñado para cómo funcionan realmente los restaurantes hoy en día.",
+          "title": "Diseñado para los formatos que no encajan en el modelo estándar.",
           "description": "Inteligencia específica por formato para cocinas en la nube, marcas virtuales y redes de franquicias.",
           "seeSolutionPrefix": "Ver",
           "personas": [
@@ -318,10 +318,10 @@ export const generatedLocalCopy = {
       "badge": "OPLOSSINGEN · OP ROL",
       "titleLine1": "Één platform.",
       "titleLine2": "Elke rol die je uitvoert.",
-      "description": "Besluitvorming intelligentie gebouwd rondom de persoon die het leest - van het directiekantoor tot de werkvloer.",
+      "description": "Beslissingsintelligentie gebouwd rondom de persoon die moet handelen, en afgemeten aan wat die actie opleverde - van het directiekantoor tot de werkvloer.",
       "nowShowingPrefix": "Nu te zien:",
       "primaryCta": "Boek een Werk Sessie",
-      "shapedByLabel": "Vormgegeven door restaurantoperators over",
+      "shapedByLabel": "Vormgegeven door operators over",
       "formats": [
         "QSR",
         "Casual Dining",
@@ -402,7 +402,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "GESPECIALISEERDE FORMATEN",
-          "title": "Gebouwd voor de manier waarop restaurants vandaag de dag echt functioneren.",
+          "title": "Gebouwd voor de formats die niet in het standaardmodel passen.",
           "description": "Format-specifieke intelligentie voor cloudkeukens, virtuele merken en franchise-netwerken.",
           "seeSolutionPrefix": "Bekijk",
           "personas": [
@@ -422,10 +422,10 @@ export const generatedLocalCopy = {
       "badge": "الحلول · حسب الدور",
       "titleLine1": "منصة واحدة.",
       "titleLine2": "كل دور تقوم بتشغيله.",
-      "description": "ذكاء القرار مبني حول الشخص الذي يقرأه - من المكتب التنفيذي إلى أرضية العمل.",
+      "description": "ذكاء القرار مبني حول من يتحرك بناءً عليه، ويُقاس بما عاد من ذلك التحرك - من المكتب التنفيذي إلى أرضية العمل.",
       "nowShowingPrefix": "يعرض الآن:",
       "primaryCta": "احجز جلسة عمل",
-      "shapedByLabel": "شكلها مشغلو المطاعم عبر",
+      "shapedByLabel": "شكلها مشغلون عبر",
       "formats": [
         "مطاعم سريعة",
         "تناول الطعام غير الرسمي",
@@ -506,7 +506,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "تنسيقات متخصصة",
-          "title": "مصممة لتناسب كيفية تشغيل المطاعم اليوم.",
+          "title": "مصممة للصيغ التي لا تنطبق عليها القوالب المعتادة.",
           "description": "ذكاء خاص بالتنسيق للمطابخ السحابية، العلامات التجارية الافتراضية، وشبكات الامتياز.",
           "seeSolutionPrefix": "عرض",
           "personas": [
@@ -526,10 +526,10 @@ export const generatedLocalCopy = {
       "badge": "SOLUÇÕES · POR FUNÇÃO",
       "titleLine1": "Uma plataforma.",
       "titleLine2": "Cada função que você executa.",
-      "description": "Inteligência de decisão construída em torno da pessoa que a lê - do escritório executivo até o chão de fábrica.",
+      "description": "Inteligência de decisão construída em torno de quem precisa agir, e medida pelo que essa ação trouxe de volta - do escritório executivo até a operação.",
       "nowShowingPrefix": "Agora exibindo:",
       "primaryCta": "Agende uma Sessão de Trabalho",
-      "shapedByLabel": "Modelado por operadores de restaurantes em todo o",
+      "shapedByLabel": "Modelado por operadores em todo o",
       "formats": [
         "QSR",
         "Restaurantes Casuais",
@@ -610,7 +610,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "FORMATOS ESPECIALIZADOS",
-          "title": "Construído para como os restaurantes realmente funcionam hoje.",
+          "title": "Construído para os formatos que não cabem no modelo padrão.",
           "description": "Inteligência específica por formato para cozinhas em nuvem, marcas virtuais e redes de franquias.",
           "seeSolutionPrefix": "Ver",
           "personas": [
@@ -630,10 +630,10 @@ export const generatedLocalCopy = {
       "badge": "حل · کردار کے لحاظ سے",
       "titleLine1": "ایک پلیٹ فارم۔",
       "titleLine2": "ہر کردار جو آپ چلاتے ہیں۔",
-      "description": "فیصلہ سازی کی ذہانت اس شخص کے گرد بنائی گئی ہے جو اسے پڑھ رہا ہے - ایگزیکٹو دفتر سے لے کر فرش تک۔",
+      "description": "فیصلہ سازی کی ذہانت اُس شخص کے گرد بنائی گئی ہے جسے عمل کرنا ہے، اور اِس سے ماپی جاتی ہے کہ اُس عمل سے کیا واپس آیا - ایگزیکٹو دفتر سے لے کر فرش تک۔",
       "nowShowingPrefix": "اب دکھا رہے ہیں:",
       "primaryCta": "ایک ورکنگ سیشن بک کریں",
-      "shapedByLabel": "ریستوراں کے آپریٹرز کے ذریعہ تشکیل دیا گیا",
+      "shapedByLabel": "آپریٹرز کے ذریعہ تشکیل دیا گیا",
       "formats": [
         "کیو ایس آر",
         "کژول ڈائننگ",
@@ -734,10 +734,10 @@ export const generatedLocalCopy = {
       "badge": "समाधान · भूमिका द्वारा",
       "titleLine1": "एक प्लेटफ़ॉर्म।",
       "titleLine2": "आप जो भी भूमिका निभाते हैं।",
-      "description": "निर्णय बुद्धिमत्ता उस व्यक्ति के चारों ओर बनाई गई है जो इसे पढ़ रहा है - कार्यकारी कार्यालय से लेकर फर्श तक।",
+      "description": "निर्णय बुद्धिमत्ता उस व्यक्ति के इर्द-गिर्द बनी है जिसे कार्रवाई करनी है, और इससे मापी जाती है कि उस कार्रवाई से क्या वापस आया - कार्यकारी कार्यालय से लेकर फर्श तक।",
       "nowShowingPrefix": "अब दिखा रहे हैं:",
       "primaryCta": "कार्य सत्र बुक करें",
-      "shapedByLabel": "रेस्टोरेंट ऑपरेटरों द्वारा आकारित",
+      "shapedByLabel": "ऑपरेटरों द्वारा आकारित",
       "formats": [
         "क्यूएसआर",
         "कैजुअल डाइनिंग",
@@ -838,10 +838,10 @@ export const generatedLocalCopy = {
       "badge": "SOLUZIONI · PER RUOLO",
       "titleLine1": "Un'unica piattaforma.",
       "titleLine2": "Ogni ruolo che gestisci.",
-      "description": "Intelligenza decisionale costruita attorno alla persona che la legge - dall'ufficio esecutivo al piano.",
+      "description": "Intelligenza decisionale costruita attorno alla persona che deve agire, e misurata su quanto quell'azione ha riportato - dall'ufficio esecutivo al piano.",
       "nowShowingPrefix": "Ora in mostra:",
       "primaryCta": "Prenota una Sessione di Lavoro",
-      "shapedByLabel": "Modellato da operatori di ristoranti in tutto il",
+      "shapedByLabel": "Modellato da operatori in tutto il",
       "formats": [
         "QSR",
         "Ristorazione informale",
@@ -922,7 +922,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "FORMATI SPECIALIZZATI",
-          "title": "Progettato per il funzionamento attuale dei ristoranti.",
+          "title": "Progettato per i formati che non rientrano nel modello standard.",
           "description": "Intelligenza specifica per formato per cucine cloud, marchi virtuali e reti di franchising.",
           "seeSolutionPrefix": "Vedi",
           "personas": [
@@ -942,10 +942,10 @@ export const generatedLocalCopy = {
       "badge": "ÇÖZÜMLER · ROLE GÖRE",
       "titleLine1": "Tek bir platform.",
       "titleLine2": "Yürüttüğünüz her rol.",
-      "description": "Okuyucu etrafında inşa edilmiş karar zekası - yönetim ofisinden zemin katına kadar.",
+      "description": "Harekete geçmesi gereken kişi etrafında inşa edilen ve o hareketin ne kazandırdığıyla ölçülen karar zekası - yönetim ofisinden zemin katına kadar.",
       "nowShowingPrefix": "Şu anda gösteriliyor:",
       "primaryCta": "Çalışma Oturumu Rezervasyonu Yap",
-      "shapedByLabel": "Restoran işletmecileri tarafından şekillendirilmiştir",
+      "shapedByLabel": "İşletmeciler tarafından şekillendirilmiştir",
       "formats": [
         "Hızlı Servis Restoranı",
         "Gündelik Yemek",
@@ -1046,10 +1046,10 @@ export const generatedLocalCopy = {
       "badge": "解决方案 · 按角色",
       "titleLine1": "一个平台。",
       "titleLine2": "您执行的每个角色。",
-      "description": "围绕阅读它的人构建的决策智能--从高管办公室到工作现场。",
+      "description": "围绕必须采取行动的人构建的决策智能，并以那次行动带回了什么来衡量--从高管办公室到工作现场。",
       "nowShowingPrefix": "现在显示：",
       "primaryCta": "预约工作会议",
-      "shapedByLabel": "由餐厅运营商塑造的",
+      "shapedByLabel": "由运营者塑造的",
       "formats": [
         "快餐",
         "休闲餐饮",
@@ -1130,7 +1130,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "专业格式",
-          "title": "为餐厅的实际运营而构建。",
+          "title": "为不符合标准模式的业态而构建。",
           "description": "针对云厨房、虚拟品牌和特许经营网络的格式特定智能。",
           "seeSolutionPrefix": "查看",
           "personas": [
@@ -1150,10 +1150,10 @@ export const generatedLocalCopy = {
       "badge": "ソリューション · 役割別",
       "titleLine1": "一つのプラットフォーム。",
       "titleLine2": "あなたが実行するすべての役割。",
-      "description": "読む人を中心に構築された意思決定インテリジェンス - 経営陣のオフィスから現場まで。",
+      "description": "行動する人を中心に構築され、その行動が何を取り戻したかで評価される意思決定インテリジェンス - 経営陣のオフィスから現場まで。",
       "nowShowingPrefix": "現在表示中:",
       "primaryCta": "作業セッションを予約する",
-      "shapedByLabel": "飲食店の運営者によって形作られた",
+      "shapedByLabel": "運営者によって形作られた",
       "formats": [
         "ファストフード",
         "カジュアルダイニング",
@@ -1254,10 +1254,10 @@ export const generatedLocalCopy = {
       "badge": "ROZWIĄZANIA · Z PERSPEKTYWY ROLI",
       "titleLine1": "Jedna platforma.",
       "titleLine2": "Każda rola, którą prowadzisz.",
-      "description": "Inteligencja decyzyjna skoncentrowana na osobie, która ją czyta - od biura zarządu po halę.",
+      "description": "Inteligencja decyzyjna skoncentrowana na osobie, która musi działać, i mierzona tym, co to działanie przyniosło - od biura zarządu po halę.",
       "nowShowingPrefix": "Teraz wyświetlane:",
       "primaryCta": "Zarezerwuj sesję roboczą",
-      "shapedByLabel": "Kształtowane przez operatorów restauracji w całym",
+      "shapedByLabel": "Kształtowane przez operatorów w całym",
       "formats": [
         "QSR",
         "Restauracje casual",
@@ -1338,7 +1338,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "SPECJALIZOWANE FORMATY",
-          "title": "Stworzone z myślą o tym, jak restauracje naprawdę działają dzisiaj.",
+          "title": "Stworzone z myślą o formatach, które nie mieszczą się w standardowym modelu.",
           "description": "Inteligencja specyficzna dla formatów dla chmur kuchennych, wirtualnych marek i sieci franczyzowych.",
           "seeSolutionPrefix": "Zobacz",
           "personas": [
@@ -1358,10 +1358,10 @@ export const generatedLocalCopy = {
       "badge": "SOLUSI · MENURUT PERAN",
       "titleLine1": "Satu platform.",
       "titleLine2": "Setiap peran yang Anda jalankan.",
-      "description": "Inteligensi keputusan yang dibangun di sekitar orang yang membacanya - dari kantor eksekutif hingga ke lapangan.",
+      "description": "Inteligensi keputusan yang dibangun di sekitar orang yang harus bertindak, dan diukur dari apa yang tindakan itu kembalikan - dari kantor eksekutif hingga ke lapangan.",
       "nowShowingPrefix": "Sedang ditampilkan:",
       "primaryCta": "Pesan Sesi Kerja",
-      "shapedByLabel": "Dibentuk oleh operator restoran di seluruh",
+      "shapedByLabel": "Dibentuk oleh operator di seluruh",
       "formats": [
         "QSR",
         "Makan Santai",
@@ -1462,10 +1462,10 @@ export const generatedLocalCopy = {
       "badge": "GIẢI PHÁP · THEO VAI TRÒ",
       "titleLine1": "Một nền tảng.",
       "titleLine2": "Mọi vai trò bạn thực hiện.",
-      "description": "Trí tuệ quyết định được xây dựng xung quanh người đọc - từ văn phòng điều hành đến sàn.",
+      "description": "Trí tuệ quyết định được xây dựng xung quanh người phải hành động, và được đo bằng những gì hành động đó mang lại - từ văn phòng điều hành đến sàn.",
       "nowShowingPrefix": "Đang hiển thị:",
       "primaryCta": "Đặt một Buổi Làm Việc",
-      "shapedByLabel": "Được hình thành bởi các nhà điều hành nhà hàng trên khắp",
+      "shapedByLabel": "Được hình thành bởi các nhà điều hành trên khắp",
       "formats": [
         "QSR",
         "Nhà hàng bình dân",
@@ -1546,7 +1546,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "ĐỊNH DẠNG CHUYÊN BIỆT",
-          "title": "Xây dựng cho cách các nhà hàng hoạt động ngày nay.",
+          "title": "Xây dựng cho những mô hình không vừa với khuôn mẫu tiêu chuẩn.",
           "description": "Thông tin theo định dạng cho bếp đám mây, thương hiệu ảo và mạng lưới nhượng quyền.",
           "seeSolutionPrefix": "Xem",
           "personas": [
@@ -1566,10 +1566,10 @@ export const generatedLocalCopy = {
       "badge": "SOLUȚII · DUPĂ ROL",
       "titleLine1": "O platformă.",
       "titleLine2": "Fiecare rol pe care îl desfășori.",
-      "description": "Inteligența decizională construită în jurul persoanei care o citește - de la biroul executiv până la teren.",
+      "description": "Inteligența decizională construită în jurul persoanei care trebuie să acționeze și măsurată prin ceea ce a adus înapoi acea acțiune - de la biroul executiv până la teren.",
       "nowShowingPrefix": "Acum se afișează:",
       "primaryCta": "Rezervați o sesiune de lucru",
-      "shapedByLabel": "Modelat de operatorii de restaurante din întreaga",
+      "shapedByLabel": "Modelat de operatorii din întreaga",
       "formats": [
         "QSR",
         "Restaurant Casual",
@@ -1650,7 +1650,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "FORMATE SPECIALIZATE",
-          "title": "Construit pentru modul în care restaurantele funcționează astăzi.",
+          "title": "Construit pentru formatele care nu se încadrează în modelul standard.",
           "description": "Inteligență specifică formatului pentru bucătării cloud, mărci virtuale și rețele de francize.",
           "seeSolutionPrefix": "Vezi",
           "personas": [
@@ -1670,10 +1670,10 @@ export const generatedLocalCopy = {
       "badge": "솔루션 · 역할별",
       "titleLine1": "하나의 플랫폼.",
       "titleLine2": "당신이 수행하는 모든 역할.",
-      "description": "읽는 사람을 중심으로 구축된 의사 결정 인텔리전스 - 경영진 사무실에서 현장까지.",
+      "description": "행동해야 하는 사람을 중심으로 구축되고, 그 행동이 무엇을 되찾았는지로 측정되는 의사 결정 인텔리전스 - 경영진 사무실에서 현장까지.",
       "nowShowingPrefix": "현재 상영 중:",
       "primaryCta": "작업 세션 예약하기",
-      "shapedByLabel": "레스토랑 운영자들에 의해 형성된",
+      "shapedByLabel": "운영자들에 의해 형성된",
       "formats": [
         "패스트푸드",
         "캐주얼 다이닝",
@@ -1754,7 +1754,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "전문 포맷",
-          "title": "오늘날 레스토랑이 실제로 운영되는 방식에 맞춰 설계되었습니다.",
+          "title": "표준 모델에 맞지 않는 포맷을 위해 설계되었습니다.",
           "description": "클라우드 키친, 가상 브랜드 및 프랜차이즈 네트워크를 위한 포맷별 인사이트.",
           "seeSolutionPrefix": "보기",
           "personas": [
@@ -1774,10 +1774,10 @@ export const generatedLocalCopy = {
       "badge": "LÖSNINGAR · EFTER ROLL",
       "titleLine1": "En plattform.",
       "titleLine2": "Varje roll du kör.",
-      "description": "Beslutsintelligens byggd kring personen som läser den - från ledningskontoret till golvet.",
+      "description": "Beslutsintelligens byggd kring personen som måste agera, och mätt på vad den handlingen gav tillbaka - från ledningskontoret till golvet.",
       "nowShowingPrefix": "Visar nu:",
       "primaryCta": "Boka en arbetsession",
-      "shapedByLabel": "Formad av restaurangoperatörer över hela",
+      "shapedByLabel": "Formad av operatörer över hela",
       "formats": [
         "QSR",
         "Avslappnad mat",
@@ -1858,7 +1858,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "SPECIALISERADE FORMAT",
-          "title": "Byggd för hur restauranger faktiskt fungerar idag.",
+          "title": "Byggd för de format som inte passar den vanliga mallen.",
           "description": "Format-specifik intelligens för molnkök, virtuella varumärken och franchise-nätverk.",
           "seeSolutionPrefix": "Se",
           "personas": [
@@ -1878,10 +1878,10 @@ export const generatedLocalCopy = {
       "badge": "সমাধান · ভূমিকা অনুযায়ী",
       "titleLine1": "একটি প্ল্যাটফর্ম।",
       "titleLine2": "আপনি যে কোনো ভূমিকা পরিচালনা করুন।",
-      "description": "ফয়সালা বুদ্ধিমত্তা এমনভাবে তৈরি করা হয়েছে যে এটি পড়া ব্যক্তির চারপাশে - নির্বাহী অফিস থেকে মেঝে পর্যন্ত।",
+      "description": "সিদ্ধান্ত বুদ্ধিমত্তা তৈরি হয়েছে সেই ব্যক্তিকে ঘিরে যাকে পদক্ষেপ নিতে হয়, আর মাপা হয় সেই পদক্ষেপ কী ফিরিয়ে এনেছে তা দিয়ে - নির্বাহী অফিস থেকে মেঝে পর্যন্ত।",
       "nowShowingPrefix": "এখন দেখানো হচ্ছে:",
       "primaryCta": "একটি কাজের সেশন বুক করুন",
-      "shapedByLabel": "রেস্তোরাঁর অপারেটরদের দ্বারা গঠিত",
+      "shapedByLabel": "অপারেটরদের দ্বারা গঠিত",
       "formats": [
         "কিউএসআর",
         "ক্যাজুয়াল ডাইনিং",
@@ -1982,10 +1982,10 @@ export const generatedLocalCopy = {
       "badge": "PENYELESAIAN · MENGIKUT PERAN",
       "titleLine1": "Satu platform.",
       "titleLine2": "Setiap peranan yang anda jalankan.",
-      "description": "Inteligensi keputusan dibina di sekitar orang yang membacanya - dari pejabat eksekutif hingga ke lantai.",
+      "description": "Inteligensi keputusan yang dibina di sekitar orang yang perlu bertindak, dan diukur dengan apa yang tindakan itu kembalikan - dari pejabat eksekutif hingga ke lantai.",
       "nowShowingPrefix": "Sedang ditayangkan:",
       "primaryCta": "Tempah Sesi Kerja",
-      "shapedByLabel": "Dibentuk oleh pengendali restoran di seluruh",
+      "shapedByLabel": "Dibentuk oleh pengendali di seluruh",
       "formats": [
         "QSR",
         "Makan Santai",
@@ -2086,10 +2086,10 @@ export const generatedLocalCopy = {
       "badge": "โซลูชัน · ตามบทบาท",
       "titleLine1": "แพลตฟอร์มเดียว.",
       "titleLine2": "ทุกบทบาทที่คุณดำเนินการ.",
-      "description": "ปัญญาการตัดสินใจที่สร้างขึ้นรอบตัวบุคคลที่อ่านมัน - ตั้งแต่สำนักงานผู้บริหารไปจนถึงพื้น.",
+      "description": "ปัญญาการตัดสินใจที่สร้างขึ้นรอบตัวคนที่ต้องลงมือทำ และวัดจากสิ่งที่การลงมือนั้นได้กลับคืนมา - ตั้งแต่สำนักงานผู้บริหารไปจนถึงหน้างาน",
       "nowShowingPrefix": "กำลังแสดง:",
       "primaryCta": "จองเซสชันการทำงาน",
-      "shapedByLabel": "สร้างขึ้นโดยผู้ดำเนินการร้านอาหารทั่ว",
+      "shapedByLabel": "สร้างขึ้นโดยผู้ดำเนินการทั่ว",
       "formats": [
         "ร้านอาหารด่วน",
         "ร้านอาหารสบายๆ",
@@ -2170,7 +2170,7 @@ export const generatedLocalCopy = {
         },
         {
           "eyebrow": "รูปแบบเฉพาะทาง",
-          "title": "สร้างขึ้นเพื่อการทำงานของร้านอาหารในปัจจุบัน.",
+          "title": "สร้างขึ้นเพื่อรูปแบบธุรกิจที่ไม่เข้ากับแม่แบบมาตรฐาน",
           "description": "ข้อมูลเชิงลึกเฉพาะรูปแบบสำหรับครัวคลาวด์ แบรนด์เสมือน และเครือข่ายแฟรนไชส์.",
           "seeSolutionPrefix": "ดู",
           "personas": [

@@ -38,7 +38,7 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     architecture: 'Architecture',
     scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Sundae Intelligence',
+    forge: 'Ask Sundae',
     canvas: 'Sundae Core',
   },
   ar: {
@@ -63,7 +63,7 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     architecture: 'البنية',
     scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Sundae Intelligence',
+    forge: 'Ask Sundae',
     canvas: 'Sundae Core',
   },
   fr: {
@@ -88,7 +88,7 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     architecture: 'Architecture',
     scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Sundae Intelligence',
+    forge: 'Ask Sundae',
     canvas: 'Sundae Core',
   },
   es: {
@@ -113,7 +113,7 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     architecture: 'Arquitectura',
     scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Sundae Intelligence',
+    forge: 'Ask Sundae',
     canvas: 'Sundae Core',
   },
 };

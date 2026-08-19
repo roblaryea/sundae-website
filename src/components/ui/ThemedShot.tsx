@@ -36,7 +36,7 @@ interface ThemedShotProps {
  *   <ThemedShot
  *     dark="/images/product/2026-fresh/intelligence-dark.png"
  *     light="/images/product/2026-fresh/intelligence.png"
- *     alt="Sundae Intelligence - ask your data anything in plain English"
+ *     alt="Ask Sundae - ask your data anything in plain English"
  *     width={1600} height={1000} priority
  *   />
  */

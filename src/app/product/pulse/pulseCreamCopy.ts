@@ -104,7 +104,7 @@ export const pulseCreamCopy: Record<string, PulseCreamCopy> = {
   ko: {
     eyebrow: '실시간 운영',
     statement: '아직 바꿀 수 있을 *때* 근무를 보세요.',
-    lede: '실시간 페이싱, 적응형 목표, 누수 알림 - 다음 날 아침이 아니라, 바로 그 순간에.',
+    lede: '실시간 페이싱, 적응형 목표, 누수 알림--다음 날 아침이 아니라, 바로 그 순간에.',
   },
   id: {
     eyebrow: 'OPERASI REAL-TIME',

@@ -20,7 +20,7 @@ import { CoreAskThreadMobile } from '@/components/core/CoreAskThreadMobile';
 
 const localizedChatCopy = {
   en: {
-    heroBadge: "Sundae Intelligence",
+    heroBadge: "Ask Sundae",
     heroTitle: "Ask Your Data Anything. Get Answers in Seconds.",
     heroDescription:
       "Natural language questions, structured visual answers - powered by your POS, inventory, labor, and delivery data in real time.",
@@ -41,11 +41,11 @@ const localizedChatCopy = {
     briefingDescription: "Every new session starts with a personalized briefing:",
     collaborationTitle: "Organization & Collaboration",
     collaborationDescription: "Pin, folder, schedule, and share - your intelligence workspace, organized your way.",
-    differentiatorsTitle: "Why Sundae Intelligence Is Different",
+    differentiatorsTitle: "Why Ask Sundae Is Different",
     differentiatorsDescription: "Not another dashboard. A fundamentally different approach to decision intelligence.",
     marketTitle: "Built for Every Market",
     ctaTitle: "Your Data Has Answers",
-    ctaDescription: "Start a conversation with your restaurant data today.",
+    ctaDescription: "Ask your operating data a question today, and get an answer you can act on.",
     modes: [
       { title: "Chat", shortcut: "⌘ 1", description: "Ask anything about your data. Get structured answers with interactive charts and KPI cards.", icon: "conversation", badge: "Default" },
       { title: "Analyst", shortcut: "⌘ 2", description: "Deep analysis with clarifying questions, confidence levels, and cross-referenced data sources.", icon: "insights", badge: "Deep Dive" },
@@ -96,7 +96,7 @@ const localizedChatCopy = {
     marketFeatures: ["RTL / Arabic Support", "Full Keyboard Shortcuts", "Dark Mode", "Mobile Responsive", "ARIA Accessible", "Real-time Streaming", "4 Database Connectors", "Multi-Tenant Isolation"],
   },
   ar: {
-    heroBadge: "Sundae Intelligence",
+    heroBadge: "Ask Sundae",
     heroTitle: "اسأل بياناتك أي شيء. واحصل على إجابات خلال ثوانٍ.",
     heroDescription:
       "أسئلة باللغة الطبيعية، وإجابات مرئية منظمة - مدعومة ببيانات نقاط البيع والمخزون والعمالة والتوصيل في الوقت الفعلي.",
@@ -117,7 +117,7 @@ const localizedChatCopy = {
     briefingDescription: "تبدأ كل جلسة جديدة بموجز مخصص:",
     collaborationTitle: "المنظمة والتعاون",
     collaborationDescription: "تثبيت، ومجلدات، وجدولة، ومشاركة - مساحة ذكائك بترتيبك أنت.",
-    differentiatorsTitle: "لماذا Sundae Intelligence مختلفة",
+    differentiatorsTitle: "لماذا Ask Sundae مختلفة",
     differentiatorsDescription: "ليست لوحة تحكم أخرى. إنها طريقة مختلفة جذريًا لذكاء القرار.",
     marketTitle: "مصمم لكل سوق",
     ctaTitle: "لدى بياناتك إجابات",
@@ -172,7 +172,7 @@ const localizedChatCopy = {
     marketFeatures: ["دعم RTL / العربية", "اختصارات لوحة مفاتيح كاملة", "الوضع الداكن", "متجاوب على الهاتف", "متوافق مع ARIA", "بث فوري", "4 موصلات قواعد بيانات", "عزل متعدد المستأجرين"],
   },
   fr: {
-    heroBadge: "Sundae Intelligence",
+    heroBadge: "Ask Sundae",
     heroTitle: "Posez n'importe quelle question à vos données. Obtenez une réponse en quelques secondes.",
     heroDescription:
       "Questions en langage naturel, réponses visuelles structurées - alimentées en temps réel par vos données POS, stock, main-d'oeuvre et livraison.",
@@ -193,7 +193,7 @@ const localizedChatCopy = {
     briefingDescription: "Chaque nouvelle session commence par un briefing personnalisé :",
     collaborationTitle: "Organisation et collaboration",
     collaborationDescription: "Épingler, classer, planifier et partager - votre espace d'intelligence, organisé à votre manière.",
-    differentiatorsTitle: "Pourquoi Sundae Intelligence est différent",
+    differentiatorsTitle: "Pourquoi Ask Sundae est différent",
     differentiatorsDescription: "Pas un dashboard de plus. Une approche fondamentalement différente de l'intelligence décisionnelle.",
     marketTitle: "Pensé pour tous les marchés",
     ctaTitle: "Vos données ont des réponses",
@@ -248,7 +248,7 @@ const localizedChatCopy = {
     marketFeatures: ["Support RTL / arabe", "Raccourcis clavier complets", "Mode sombre", "Responsive mobile", "Accessible ARIA", "Streaming en temps réel", "4 connecteurs de base de données", "Isolation multi-tenant"],
   },
   es: {
-    heroBadge: "Sundae Intelligence",
+    heroBadge: "Ask Sundae",
     heroTitle: "Pregunta cualquier cosa a tus datos. Obtén respuestas en segundos.",
     heroDescription:
       "Preguntas en lenguaje natural, respuestas visuales estructuradas - impulsadas por tus datos de POS, inventario, personal y delivery en tiempo real.",
@@ -269,7 +269,7 @@ const localizedChatCopy = {
     briefingDescription: "Cada sesión nueva empieza con un resumen personalizado:",
     collaborationTitle: "Organizacion y colaboracion",
     collaborationDescription: "Fijar, carpetas, programar y compartir - tu espacio de inteligencia, organizado a tu manera.",
-    differentiatorsTitle: "Por qué Sundae Intelligence es diferente",
+    differentiatorsTitle: "Por qué Ask Sundae es diferente",
     differentiatorsDescription: "No es otro dashboard. Es un enfoque radicalmente distinto para la inteligencia de decisiones.",
     marketTitle: "Diseñado para cualquier mercado",
     ctaTitle: "Tus datos tienen respuestas",
@@ -357,7 +357,7 @@ export default function ChatWithDataPage() {
             <ThemedShot
               dark="/images/product/2026-fresh/intelligence-dark.png"
               light="/images/product/2026-fresh/intelligence.png"
-              alt="Sundae Intelligence - ask your data anything in plain English and get structured visual answers"
+              alt="Ask Sundae - ask your data anything in plain English and get structured visual answers"
               width={1600}
               height={1000}
               className="w-full h-auto"

@@ -437,7 +437,7 @@ export const generatedLocalCopy = {
           "color": "bg-orange-600"
         },
         {
-          "title": "Datenwissenschaftler - Restaurant Intelligence",
+          "title": "Datenwissenschaftler - Decision Intelligence",
           "department": "Datenwissenschaft",
           "location": "Dubai, Vereinigte Arabische Emirate / Remote",
           "type": "Full-time",
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
           "color": "bg-orange-600"
         },
         {
-          "title": "Analityk danych - Restaurant Intelligence",
+          "title": "Analityk danych - Decision Intelligence",
           "department": "Nauka o danych",
           "location": "Dubaj, Zjednoczone Emiraty Arabskie / Zdalne",
           "type": "Full-time",
@@ -1834,7 +1834,7 @@ export const generatedLocalCopy = {
           "color": "bg-orange-600"
         },
         {
-          "title": "Data Scientist - Restaurant Intelligence",
+          "title": "Data Scientist - Decision Intelligence",
           "department": "Știința datelor",
           "location": "Dubai, Emiratele Arabe Unite / La distanță",
           "type": "Full-time",
@@ -2596,7 +2596,7 @@ export const generatedLocalCopy = {
           "color": "bg-orange-600"
         },
         {
-          "title": "Saintis Data - Restaurant Intelligence",
+          "title": "Saintis Data - Decision Intelligence",
           "department": "Sains Data",
           "location": "Dubai, UAE / Jauh",
           "type": "Full-time",

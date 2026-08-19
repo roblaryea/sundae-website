@@ -47,7 +47,7 @@ const FONT = {
 };
 
 const SUB =
-  'Sundae connects every layer of the business — revenue, labor, inventory, guests, marketing, and outlet performance — so teams can see what changed and act while it still matters.';
+  'Sundae connects every layer of the business - revenue, labor, inventory, guests, marketing, and outlet performance - so teams can see what changed and act while it still matters.';
 
 /* ------------------------------------------------------------------ *
  * Small graphic primitives
@@ -333,7 +333,7 @@ function ReceiptStrip() {
       <div style={{ borderTop: '2px dashed rgba(42,35,32,0.25)', margin: '12px 0 10px' }} />
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 12.5 }}>
         <span style={{ color: C.cherry, fontWeight: 700, letterSpacing: '0.06em' }}>NEXT MOVE</span>
-        <span style={{ color: '#2A2320' }}>Hold the 9 PM cut — 1.5h under budget</span>
+        <span style={{ color: '#2A2320' }}>Hold the 9 PM cut - 1.5h under budget</span>
       </div>
     </div>
   );
@@ -564,7 +564,7 @@ function LogoLab() {
         </div>
       </LogoTile>
 
-      <LogoTile label="Wordmark + cherry (Fraunces) — recommended">
+      <LogoTile label="Wordmark + cherry (Fraunces) - recommended">
         <WordmarkCherry font={FONT.fraunces} color={P.inkBlue} lower />
       </LogoTile>
 
@@ -572,7 +572,7 @@ function LogoLab() {
         <WordmarkCherry font={FONT.times} color={P.inkBlue} />
       </LogoTile>
 
-      <LogoTile label="Bare type-only (Times) — the literal P.S. suggestion">
+      <LogoTile label="Bare type-only (Times) - the literal P.S. suggestion">
         <span style={{ fontFamily: FONT.times, fontWeight: 700, fontSize: 34, color: P.inkBlue }}>Sundae</span>
       </LogoTile>
 
@@ -685,11 +685,11 @@ export function RedesignComparison() {
         <div style={{ marginBottom: 34 }}>
           <div style={{ fontFamily: FONT.mono, fontSize: 12, color: P.cherry, letterSpacing: '0.1em' }}>INTERNAL PREVIEW · /preview/redesign</div>
           <h1 style={{ fontFamily: FONT.fraunces, fontWeight: 700, fontSize: 40, color: '#1A140F', margin: '10px 0 8px', letterSpacing: '-0.02em' }}>
-            Design direction — side by side
+            Design direction - side by side
           </h1>
           <p style={{ fontFamily: FONT.hanken, fontSize: 15, lineHeight: 1.55, color: '#6b6259', maxWidth: 720 }}>
             Direction: <strong style={{ color: '#1A140F' }}>keep the current brand</strong>, and infuse only the one genuinely strong idea
-            from the proposal — the <strong style={{ color: '#1A140F' }}>guest-check / receipt motif</strong> — restained into the warm
+            from the proposal - the <strong style={{ color: '#1A140F' }}>guest-check / receipt motif</strong> - restained into the warm
             palette. The three-way deck comparison is kept below for reference. Nothing here ships or touches global styles.
           </p>
           <button
@@ -701,13 +701,13 @@ export function RedesignComparison() {
         </div>
 
         {/* featured: current brand, elevated */}
-        <SectionLabel>★ Recommended — current brand, elevated</SectionLabel>
+        <SectionLabel>★ Recommended - current brand, elevated</SectionLabel>
         <div style={{ marginBottom: 56, maxWidth: 760 }}>
           <Column
             tag="NEW"
             tagColor={C.coral}
             title="Current brand, elevated"
-            verdict="Your warm-dark Fraunces system, untouched — same headline, italic amber accent, coral CTA, strata glass, cherry. Infused with the deck's one strong idea: a guest-check ticket nav (warm-toned, with a live № counter), a perforated tear-line, and a cream 'guest check' receipt strip that turns the hero operational. No Times, no cobalt, no literal dessert photo."
+            verdict="Your warm-dark Fraunces system, untouched - same headline, italic amber accent, coral CTA, strata glass, cherry. Infused with the deck's one strong idea: a guest-check ticket nav (warm-toned, with a live № counter), a perforated tear-line, and a cream 'guest check' receipt strip that turns the hero operational. No Times, no cobalt, no literal dessert photo."
           >
             <HeroCurrentElevated />
           </Column>
@@ -718,7 +718,7 @@ export function RedesignComparison() {
         </div>
 
         {/* heroes */}
-        <SectionLabel>For reference — the three deck options</SectionLabel>
+        <SectionLabel>For reference - the three deck options</SectionLabel>
         <div
           style={{
             display: 'grid',
@@ -727,7 +727,7 @@ export function RedesignComparison() {
             marginBottom: 56,
           }}
         >
-          <Column tag="LIVE" tagColor="#1A140F" title="Current brand" verdict="Warm dark-first, Fraunces serif, abstract strata-glass metaphor, cherry as signal. High-craft and ownable — the bar to beat.">
+          <Column tag="LIVE" tagColor="#1A140F" title="Current brand" verdict="Warm dark-first, Fraunces serif, abstract strata-glass metaphor, cherry as signal. High-craft and ownable - the bar to beat.">
             <HeroCurrent />
           </Column>
           <Column tag="DECK" tagColor={P.inkBlue} title="Proposal, faithful" verdict="Cream + cobalt, Times New Roman + Arial, ticket nav, literal sundae photo. Charming and editorial, but Times/Arial risk reading 'unstyled' and a literal dessert can undercut the serious positioning.">
@@ -739,17 +739,17 @@ export function RedesignComparison() {
         </div>
 
         {/* logos */}
-        <SectionLabel>02 · Logo lab — your two P.S. notes, tested</SectionLabel>
+        <SectionLabel>02 · Logo lab - your two P.S. notes, tested</SectionLabel>
         <div style={{ fontFamily: FONT.hanken, fontSize: 13, lineHeight: 1.55, color: '#6b6259', marginBottom: 18, maxWidth: 720 }}>
           P.S.1 (type-only) and P.S.2 (no &quot;S&quot; beside &quot;Sundae&quot;), rendered both ways. The cherry is your most ownable, on-name asset
-          — bare type throws it away. Recommendation: lead with the wordmark + cherry; keep the layered-S for the app icon only.
+ - bare type throws it away. Recommendation: lead with the wordmark + cherry; keep the layered-S for the app icon only.
         </div>
         <div style={{ marginBottom: 56 }}>
           <LogoLab />
         </div>
 
         {/* reference */}
-        <SectionLabel>03 · Reference — palette &amp; type</SectionLabel>
+        <SectionLabel>03 · Reference - palette &amp; type</SectionLabel>
         <Reference />
       </div>
     </div>

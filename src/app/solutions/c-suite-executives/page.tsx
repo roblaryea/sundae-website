@@ -29,7 +29,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howSundaeHelps: [
       { title: "Portfolio command in real time", description: "Live revenue, margin, and labor across every outlet. Pacing flags the location that needs your attention before the shift ends.", product: "Sundae Core + Pulse", icon: "chart" },
       { title: "Market signal before it hits", description: "Competitors, weather, events, footfall - synthesized into a morning brief so you act before the impact lands in your P&L.", product: "Watchtower", icon: "watchtower" },
-      { title: "Source-cited answers in seconds", description: "Ask why Brand C compressed margin or which outlets lose to competitor promos. Get a numbered answer with the data it's drawn from.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Source-cited answers in seconds", description: "Ask why Brand C compressed margin or which outlets lose to competitor promos. Get a numbered answer with the data it's drawn from.", product: "Ask Sundae", icon: "intelligence" },
       { title: "14-90 day forecasts you can defend", description: "Foresight projects revenue, labor, and EBITDA. Run what-if on a new market, a price move, or a cost program - before you commit capital.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "What changes for the executive office",
@@ -71,7 +71,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howSundaeHelps: [
       { title: "قيادة المحفظة لحظياً", description: "إيرادات وهامش وعمالة حية عبر كل موقع. الوتيرة تنبه للمكان الذي يحتاج انتباهك قبل نهاية الوردية.", product: "Sundae Core + Pulse", icon: "chart" },
       { title: "إشارات السوق قبل التأثير", description: "المنافسون، الطقس، الأحداث، حركة المرور - مجمعة في إحاطة صباحية، فتتحرك قبل أن يهبط الأثر في الـ P&L.", product: "Watchtower", icon: "watchtower" },
-      { title: "إجابات بمصادر في ثوانٍ", description: "اسأل لماذا تقلص هامش العلامة C أو أي مواقع تخسر أمام عروض المنافسين. احصل على إجابة مرقمة مع البيانات.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "إجابات بمصادر في ثوانٍ", description: "اسأل لماذا تقلص هامش العلامة C أو أي مواقع تخسر أمام عروض المنافسين. احصل على إجابة مرقمة مع البيانات.", product: "Ask Sundae", icon: "intelligence" },
       { title: "توقعات 14-90 يوماً يمكنك الدفاع عنها", description: "Foresight يتوقع الإيرادات والعمالة وEBITDA. شغّل سيناريوهات قبل التزام رأس المال.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "ما يتغير للمكتب التنفيذي",
@@ -113,7 +113,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howSundaeHelps: [
       { title: "Pilotage portefeuille en temps réel", description: "Revenu, marge et main-d'œuvre sur chaque site. Le rythme signale le lieu qui a besoin de vous avant la fin du service.", product: "Sundae Core + Pulse", icon: "chart" },
       { title: "Signal marché avant l'impact", description: "Concurrents, météo, événements, fréquentation - synthétisés dans un briefing matinal pour agir avant l'effet sur le P&L.", product: "Watchtower", icon: "watchtower" },
-      { title: "Réponses sourcées en secondes", description: "Demandez pourquoi la marge B compresse ou quels sites perdent face aux promos rivales. Réponse chiffrée avec les données citées.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Réponses sourcées en secondes", description: "Demandez pourquoi la marge B compresse ou quels sites perdent face aux promos rivales. Réponse chiffrée avec les données citées.", product: "Ask Sundae", icon: "intelligence" },
       { title: "Prévisions 14-90 jours défendables", description: "Foresight projette revenu, main-d'œuvre et EBITDA. Testez un scénario avant d'engager du capital.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "Ce qui change pour la direction",
@@ -155,7 +155,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howSundaeHelps: [
       { title: "Comando de portafolio en tiempo real", description: "Ingresos, margen y personal en vivo por ubicación. El ritmo señala el local que necesita tu atención antes del cierre.", product: "Sundae Core + Pulse", icon: "chart" },
       { title: "Señal de mercado antes del impacto", description: "Competidores, clima, eventos, tráfico - sintetizados en un briefing matinal para actuar antes de que el P&L lo registre.", product: "Watchtower", icon: "watchtower" },
-      { title: "Respuestas con fuente en segundos", description: "Pregunta por qué la marca C comprimió margen o qué locales pierden frente a promos rivales. Respuesta numérica con sus fuentes.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Respuestas con fuente en segundos", description: "Pregunta por qué la marca C comprimió margen o qué locales pierden frente a promos rivales. Respuesta numérica con sus fuentes.", product: "Ask Sundae", icon: "intelligence" },
       { title: "Pronósticos 14-90 días defendibles", description: "Foresight proyecta ingresos, personal y EBITDA. Modela un escenario antes de comprometer capital.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "Qué cambia para la dirección",

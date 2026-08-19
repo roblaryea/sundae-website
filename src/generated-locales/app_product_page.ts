@@ -4,192 +4,192 @@ export const generatedLocalCopy = {
   "copyMap": {
     "de": {
       "heroBadge": "Die Sundae-Plattform",
-      "heroTitle": "500 Datenmodelle. 12 Domänen. Eine Wahrheit.",
-      "heroDescription": "Sechs Intelligenzebenen, die fragmentierte Restaurantdaten in Entscheidungen verwandeln, die sich summieren - Schicht für Schicht, Standort für Standort.",
+      "heroTitle": "Sechs Ebenen. Ein verbindliches Modell. Eine Schleife.",
+      "heroDescription": "Jede Ebene liest dasselbe verbindliche Modell, sodass die Zahl in einer Prognose, einem Benchmark und dem Schichtbericht von gestern Abend dieselbe Zahl ist. Und jede Ebene speist eine Schleife: das Geld finden, der Arbeit einen Verantwortlichen geben, messen, was zurückkam.",
       "heroSecondary": "Demo buchen",
       "layersEyebrow": "SECHS INTELLIGENZEBENEN",
       "layersTitle": "Von der Schicht bis zur Chefetage",
-      "layersDescription": "Jede Ebene deckt eine eigene Dimension der Restaurantleistung ab. Zusammen bilden sie ein geschlossenes Intelligenzsystem."
+      "layersDescription": "Jede Ebene deckt eine eigene Dimension des Betriebs ab. Es sind nicht sechs getrennte Produkte - sie lesen ein Modell, und was eine Ebene findet, wird zu Arbeit, die eine andere Ebene misst."
     },
     "es": {
       "heroBadge": "La plataforma Sundae",
-      "heroTitle": "500 modelos de datos. 12 dominios. Una verdad.",
-      "heroDescription": "Seis capas de inteligencia que convierten datos fragmentados de restaurantes en decisiones que se combinan: turno tras turno, establecimiento tras establecimiento.",
+      "heroTitle": "Seis capas. Un modelo gobernado. Un bucle.",
+      "heroDescription": "Cada capa lee el mismo modelo gobernado, así que la cifra de un pronóstico, de un benchmark y del informe del turno de anoche es la misma cifra. Y cada capa alimenta un solo bucle: encontrar el dinero, dar un responsable al trabajo, medir lo que volvió.",
       "heroSecondary": "Reserve una demostración",
       "layersEyebrow": "SEIS CAPAS DE INTELIGENCIA",
       "layersTitle": "Del salón a la sala de juntas",
-      "layersDescription": "Cada capa cubre una dimensión distinta del rendimiento del restaurante. Juntas forman un sistema de inteligencia de circuito cerrado."
+      "layersDescription": "Cada capa cubre una dimensión distinta de la operación. No son seis productos separados: leen un mismo modelo, y lo que una capa detecta se convierte en trabajo que otra mide."
     },
     "fr": {
       "heroBadge": "La plateforme Sundae",
-      "heroTitle": "500 modèles de données. 12 domaines. Une seule vérité.",
-      "heroDescription": "Six couches d'intelligence qui transforment les données fragmentées des restaurants en décisions qui se cumulent - service après service, point de vente après point de vente.",
+      "heroTitle": "Six couches. Un modèle gouverné. Une boucle.",
+      "heroDescription": "Chaque couche lit le même modèle gouverné : le chiffre d'une prévision, d'un benchmark et du rapport de service d'hier soir est le même chiffre. Et chaque couche alimente une seule boucle : trouver l'argent, confier le travail à un responsable, mesurer ce qui est revenu.",
       "heroSecondary": "Réservez une démo",
       "layersEyebrow": "SIX COUCHES DE RENSEIGNEMENT",
       "layersTitle": "De l’étage de travail à la salle de conférence",
-      "layersDescription": "Chaque couche gère une dimension distincte de la performance du restaurant. Ensemble, ils forment un système de renseignement en boucle fermée."
+      "layersDescription": "Chaque couche couvre une dimension distincte de l'exploitation. Ce ne sont pas six produits séparés : elles lisent un seul modèle, et ce qu'une couche détecte devient un travail qu'une autre mesure."
     },
     "ar": {
       "heroBadge": "منصة Sundae",
-      "heroTitle": "500 نموذج بيانات. 12 مجالاً. حقيقة واحدة.",
-      "heroDescription": "ست طبقات من الذكاء تحوّل بيانات المطاعم المجزأة إلى قرارات تتراكم - وردية تلو وردية، ومنفذًا تلو الآخر.",
+      "heroTitle": "ست طبقات. نموذج واحد محوكم. حلقة واحدة.",
+      "heroDescription": "كل طبقة تقرأ النموذج المحوكم نفسه، فيكون الرقم في التوقّع وفي المقارنة المرجعية وفي تقرير وردية الأمس رقماً واحداً. وكل طبقة تغذّي حلقة واحدة: العثور على المال، وإسناد العمل إلى مسؤول، وقياس ما عاد.",
       "heroSecondary": "احجز عرضًا توضيحيًا",
       "layersEyebrow": "ست طبقات من الذكاء",
       "layersTitle": "من طابق التحول إلى غرفة الاجتماعات",
-      "layersDescription": "تعالج كل طبقة بُعدًا مميزًا لأداء المطعم. ويشكلون معًا نظامًا استخباراتيًا مغلق الحلقة."
+      "layersDescription": "كل طبقة تغطي بُعداً مختلفاً من التشغيل. وهي ليست ستة منتجات منفصلة - إنها تقرأ نموذجاً واحداً، وما تكتشفه طبقة يصير عملاً تقيسه طبقة أخرى."
     },
     "pt": {
       "heroBadge": "A plataforma Sundae",
-      "heroTitle": "500 Modelos de Dados. 12 Domínios. Uma verdade.",
-      "heroDescription": "Seis camadas de inteligência que transformam dados fragmentados de restaurantes em decisões que se acumulam - turno a turno, loja a loja.",
+      "heroTitle": "Seis camadas. Um modelo governado. Um ciclo.",
+      "heroDescription": "Cada camada lê o mesmo modelo governado, então o número numa previsão, num benchmark e no relatório do turno de ontem é o mesmo número. E cada camada alimenta um único ciclo: achar o dinheiro, dar um responsável ao trabalho, medir o que voltou.",
       "heroSecondary": "Agende uma demonstração",
       "layersEyebrow": "SEIS CAMADAS DE INTELIGÊNCIA",
       "layersTitle": "Do salão à sala da diretoria",
-      "layersDescription": "Cada camada cobre uma dimensão distinta do desempenho do restaurante. Juntas, formam um sistema de inteligência em circuito fechado."
+      "layersDescription": "Cada camada cobre uma dimensão distinta da operação. Não são seis produtos separados: leem um só modelo, e o que uma camada encontra vira trabalho que outra mede."
     },
     "nl": {
       "heroBadge": "Het Sundae-platform",
-      "heroTitle": "500 gegevensmodellen. 12 domeinen. Eén waarheid.",
-      "heroDescription": "Zes intelligentielagen die versnipperde restaurantgegevens omzetten in beslissingen die op elkaar voortbouwen - dienst na dienst, vestiging na vestiging.",
+      "heroTitle": "Zes lagen. Eén beheerd model. Eén lus.",
+      "heroDescription": "Elke laag leest hetzelfde beheerde model, dus het getal in een prognose, een benchmark en het dienstrapport van gisteravond is hetzelfde getal. En elke laag voedt één lus: het geld vinden, het werk een eigenaar geven, meten wat terugkwam.",
       "heroSecondary": "Boek een demo",
       "layersEyebrow": "ZES INTELLIGENTIELAGEN",
       "layersTitle": "Van de werkvloer tot de directiekamer",
-      "layersDescription": "Elke laag behandelt een specifieke dimensie van de restaurantprestaties. Samen vormen ze een gesloten intelligentiesysteem."
+      "layersDescription": "Elke laag dekt een eigen dimensie van de operatie. Het zijn geen zes losse producten - ze lezen één model, en wat de ene laag vindt wordt werk dat een andere meet."
     },
     "ur": {
       "heroBadge": "Sundae پلیٹ فارم",
-      "heroTitle": "500 ڈیٹا ماڈلز۔ 12 ڈومینز۔ ایک سچائی۔",
-      "heroDescription": "چھ انٹیلی جنس پرتیں جو بکھرے ہوئے ریستوراں ڈیٹا کو ایسے فیصلوں میں بدل دیتی ہیں جو جمع ہوتے جاتے ہیں - شفٹ بہ شفٹ، آؤٹ لیٹ بہ آؤٹ لیٹ۔",
+      "heroTitle": "چھ پرتیں۔ ایک ضابطہ بند ماڈل۔ ایک چکر۔",
+      "heroDescription": "ہر پرت وہی ضابطہ بند ماڈل پڑھتی ہے، سو پیش گوئی، بینچ مارک اور کل رات کی شفٹ رپورٹ کا عدد ایک ہی ہوتا ہے۔ اور ہر پرت ایک ہی چکر کو غذا دیتی ہے: پیسہ ڈھونڈو، کام ایک ذمہ دار کو دو، ماپو کہ کیا واپس آیا۔",
       "heroSecondary": "ایک ڈیمو بک کرو",
       "layersEyebrow": "چھ انٹیلی جنس پرت",
       "layersTitle": "شفٹ فلور سے بورڈ روم تک",
-      "layersDescription": "ہر پرت ریستوراں کی کارکردگی کی ایک الگ جہت کو سنبھالتی ہے۔ وہ ایک ساتھ مل کر ایک بند لوپ انٹیلی جنس سسٹم بناتے ہیں۔"
+      "layersDescription": "ہر پرت آپریشن کا ایک الگ پہلو سنبھالتی ہے۔ یہ چھ الگ مصنوعات نہیں - یہ ایک ہی ماڈل پڑھتی ہیں، اور جو ایک پرت ڈھونڈتی ہے وہ کام بن کر دوسری پرت کی پیمائش میں آتا ہے۔"
     },
     "it": {
       "heroBadge": "La piattaforma Sundae",
-      "heroTitle": "500 modelli di dati. 12 domini. Una verità.",
-      "heroDescription": "Sei livelli di intelligence che trasformano i dati frammentati dei ristoranti in decisioni che si combinano, turno dopo turno, punto vendita dopo punto vendita.",
+      "heroTitle": "Sei livelli. Un modello governato. Un ciclo.",
+      "heroDescription": "Ogni livello legge lo stesso modello governato, così il numero in una previsione, in un benchmark e nel report del turno di ieri sera è lo stesso numero. E ogni livello alimenta un unico ciclo: trovare il denaro, dare un responsabile al lavoro, misurare quanto è rientrato.",
       "heroSecondary": "Prenota una dimostrazione",
       "layersEyebrow": "SEI LIVELLI DI INTELLIGENCE",
       "layersTitle": "Dalla sala alla direzione",
-      "layersDescription": "Ogni livello gestisce una dimensione distinta delle prestazioni del ristorante. Insieme, formano un sistema di intelligence a circuito chiuso."
+      "layersDescription": "Ogni livello copre una dimensione distinta dell'operatività. Non sono sei prodotti separati: leggono un solo modello, e ciò che un livello trova diventa lavoro che un altro misura."
     },
     "tr": {
       "heroBadge": "Sundae Platformu",
-      "heroTitle": "500 Veri Modeli. 12 Alan. Tek Gerçek.",
-      "heroDescription": "Parçalı restoran verilerini birikerek değer kazanan kararlara dönüştüren altı zeka katmanı - vardiya vardiya, şube şube.",
+      "heroTitle": "Altı katman. Tek yönetilen model. Tek döngü.",
+      "heroDescription": "Her katman aynı yönetilen modeli okur; böylece bir tahmindeki, bir kıyaslamadaki ve dün akşamki vardiya raporundaki sayı aynı sayıdır. Ve her katman tek bir döngüyü besler: parayı bul, işi tek bir sorumluya ver, ne geri geldiğini ölç.",
       "heroSecondary": "Demo Rezervasyonu Yapın",
       "layersEyebrow": "ALTI ZEKA KATMANI",
       "layersTitle": "Vardiya Katından Toplantı Odasına",
-      "layersDescription": "Her katman restoran performansının farklı bir boyutunu ele alır. Birlikte kapalı döngü bir istihbarat sistemi oluştururlar."
+      "layersDescription": "Her katman işletmenin ayrı bir boyutunu kapsar. Bunlar altı ayrı ürün değil - tek bir modeli okurlar ve bir katmanın bulduğu şey, bir başkasının ölçtüğü işe dönüşür."
     },
     "pl": {
       "heroBadge": "Platforma Sundae",
-      "heroTitle": "500 modeli danych. 12 domen. Jedna prawda.",
-      "heroDescription": "Sześć warstw inteligencji, które przekształcają rozproszone dane restauracji w decyzje, które się kumulują - zmiana po zmianie, lokal po lokalu.",
+      "heroTitle": "Sześć warstw. Jeden zarządzany model. Jedna pętla.",
+      "heroDescription": "Każda warstwa czyta ten sam zarządzany model, więc liczba w prognozie, w benchmarku i we wczorajszym raporcie zmiany to ta sama liczba. I każda warstwa zasila jedną pętlę: znaleźć pieniądze, przypisać pracę jednej osobie, zmierzyć, co wróciło.",
       "heroSecondary": "Zarezerwuj demo",
       "layersEyebrow": "SZEŚĆ WARSTW INTELIGENCJI",
       "layersTitle": "Z piętra zmiany do sali konferencyjnej",
-      "layersDescription": "Każda warstwa obsługuje inny wymiar wydajności restauracji. Razem tworzą system inteligencji o zamkniętym obiegu."
+      "layersDescription": "Każda warstwa obejmuje inny wymiar działalności. To nie sześć osobnych produktów - czytają jeden model, a to, co znajdzie jedna warstwa, staje się pracą, którą mierzy inna."
     },
     "hi": {
       "heroBadge": "Sundae प्लेटफार्म",
-      "heroTitle": "500 डेटा मॉडल। 12 डोमेन. एक सत्य.",
-      "heroDescription": "छह खुफिया परतें जो खंडित रेस्तरां डेटा को उन निर्णयों में बदल देती हैं जो मिश्रित होते हैं - शिफ्ट दर शिफ्ट, आउटलेट दर आउटलेट।",
+      "heroTitle": "छह परतें। एक शासित मॉडल। एक चक्र।",
+      "heroDescription": "हर परत वही शासित मॉडल पढ़ती है, इसलिए पूर्वानुमान, बेंचमार्क और कल रात की शिफ्ट रिपोर्ट का आँकड़ा एक ही होता है। और हर परत एक ही चक्र को पोसती है: पैसा खोजो, काम को एक ज़िम्मेदार दो, मापो कि क्या वापस आया।",
       "heroSecondary": "एक डेमो बुक करें",
       "layersEyebrow": "छह खुफिया परतें",
       "layersTitle": "शिफ्ट फ्लोर से बोर्डरूम तक",
-      "layersDescription": "प्रत्येक परत रेस्तरां के प्रदर्शन के एक विशिष्ट आयाम को संभालती है। साथ में, वे एक बंद-लूप खुफिया प्रणाली बनाते हैं।"
+      "layersDescription": "हर परत संचालन का एक अलग पहलू संभालती है। ये छह अलग उत्पाद नहीं हैं - ये एक ही मॉडल पढ़ती हैं, और जो एक परत खोजती है वह काम बनकर दूसरी परत की माप में आता है।"
     },
     "zh-Hans": {
       "heroBadge": "Sundae平台",
-      "heroTitle": "500 个数据模型。12 个领域。唯一真相。",
-      "heroDescription": "六个智能层将分散的餐厅数据转化为不断累积的决策 - 逐班、逐店。",
+      "heroTitle": "六个层面。一个受治理的模型。一个闭环。",
+      "heroDescription": "每一层都读取同一个受治理的模型，因此预测里、对标里和昨晚班次报告里的那个数字是同一个数字。而且每一层都汇入同一个闭环：找到钱，把活交给一个人负责，衡量回来了多少。",
       "heroSecondary": "预订演示",
       "layersEyebrow": "六个智能层",
       "layersTitle": "从一线门店到董事会",
-      "layersDescription": "每一层都处理餐厅绩效的不同维度。它们共同构成一个闭环智能系统。"
+      "layersDescription": "每一层覆盖运营的一个不同维度。它们不是六个独立产品--它们读取同一个模型，一层发现的东西会变成另一层去衡量的工作。"
     },
     "ko": {
       "heroBadge": "Sundae 플랫폼",
-      "heroTitle": "500 데이터 모델. 12개의 도메인. 하나의 진실.",
-      "heroDescription": "파편화된 레스토랑 데이터를 누적되는 의사 결정으로 바꿔주는 6개의 인텔리전스 계층 - 교대 근무 단위로, 매장 단위로.",
+      "heroTitle": "여섯 개의 레이어. 하나의 관리된 모델. 하나의 루프.",
+      "heroDescription": "모든 레이어가 동일한 관리 모델을 읽습니다. 그래서 예측의 숫자, 벤치마크의 숫자, 어젯밤 근무 보고서의 숫자가 같은 숫자입니다. 그리고 모든 레이어가 하나의 루프로 모입니다. 돈을 찾고, 그 일에 담당자를 한 명 지정하고, 얼마가 돌아왔는지 측정합니다.",
       "heroSecondary": "데모 예약",
       "layersEyebrow": "6개의 인텔리전스 레이어",
       "layersTitle": "현장에서 경영진 회의실까지",
-      "layersDescription": "각 계층은 레스토랑 성과의 고유한 차원을 담당합니다. 이들이 함께 폐쇄 루프 인텔리전스 시스템을 형성합니다."
+      "layersDescription": "각 레이어는 운영의 서로 다른 측면을 다룹니다. 여섯 개의 별개 제품이 아닙니다. 하나의 모델을 읽으며, 한 레이어가 찾아낸 것은 다른 레이어가 측정하는 일이 됩니다."
     },
     "id": {
       "heroBadge": "Platform Sundae",
-      "heroTitle": "500 Model Data. 12 Domain. Satu Kebenaran.",
-      "heroDescription": "Enam lapisan intelijen yang mengubah data restoran yang terfragmentasi menjadi keputusan yang terus terakumulasi - shift demi shift, gerai demi gerai.",
+      "heroTitle": "Enam lapisan. Satu model terkelola. Satu lingkar.",
+      "heroDescription": "Setiap lapisan membaca model terkelola yang sama, sehingga angka di prakiraan, di benchmark, dan di laporan shift tadi malam adalah angka yang sama. Dan setiap lapisan mengalir ke satu lingkar: temukan uangnya, beri satu penanggung jawab, ukur berapa yang kembali.",
       "heroSecondary": "Pesan Demo",
       "layersEyebrow": "ENAM LAPISAN KECERDASAN",
       "layersTitle": "Dari Lantai Shift hingga Ruang Rapat",
-      "layersDescription": "Setiap lapisan menangani dimensi kinerja restoran yang berbeda. Bersama-sama, mereka membentuk sistem intelijen tertutup."
+      "layersDescription": "Setiap lapisan menangani dimensi operasi yang berbeda. Ini bukan enam produk terpisah - semuanya membaca satu model, dan apa yang ditemukan satu lapisan menjadi pekerjaan yang diukur lapisan lain."
     },
     "ja": {
       "heroBadge": "Sundaeプラットフォーム",
-      "heroTitle": "500 データモデル。 12 のドメイン。一つの真実。",
-      "heroDescription": "断片化されたレストランのデータを、シフトごと、店舗ごとに複合的な意思決定に変換する 6 つのインテリジェンス レイヤー。",
+      "heroTitle": "六つのレイヤー。一つの統制されたモデル。一つのループ。",
+      "heroDescription": "どのレイヤーも同じ統制されたモデルを読むため、予測の数値も、ベンチマークの数値も、昨夜のシフト報告の数値も同一です。そしてどのレイヤーも一つのループに流れ込みます。お金を見つけ、仕事に責任者を一人立て、戻った分を測る。",
       "heroSecondary": "デモを予約する",
       "layersEyebrow": "6 つのインテリジェンス層",
       "layersTitle": "現場から経営会議室まで",
-      "layersDescription": "各レイヤーは、レストランのパフォーマンスの異なる側面を担います。これらが一体となって、閉ループのインテリジェンス システムを形成します。"
+      "layersDescription": "各レイヤーは業務の異なる側面を担います。六つの別製品ではありません。同じ一つのモデルを読み、あるレイヤーが見つけたものは別のレイヤーが測る仕事になります。"
     },
     "sv": {
       "heroBadge": "Sundae-plattformen",
-      "heroTitle": "500 Datamodeller. 12 domäner. En sanning.",
-      "heroDescription": "Sex intelligenslager som förvandlar fragmenterad restaurangdata till beslut som bygger på varandra - skift för skift, enhet för enhet.",
+      "heroTitle": "Sex lager. En styrd modell. En slinga.",
+      "heroDescription": "Varje lager läser samma styrda modell, så talet i en prognos, i en jämförelse och i gårdagens skiftrapport är samma tal. Och varje lager matar en enda slinga: hitta pengarna, ge arbetet en ansvarig, mät vad som kom tillbaka.",
       "heroSecondary": "Boka en demo",
       "layersEyebrow": "SEX INTELLIGENSLAGER",
       "layersTitle": "Från Shift Floor till Boardroom",
-      "layersDescription": "Varje lager hanterar en distinkt dimension av restaurangprestanda. Tillsammans bildar de ett slutet intelligenssystem."
+      "layersDescription": "Varje lager täcker en egen dimension av verksamheten. Det är inte sex separata produkter - de läser en modell, och det ett lager hittar blir arbete som ett annat mäter."
     },
     "ro": {
       "heroBadge": "Platforma Sundae",
-      "heroTitle": "500 Modele de date. 12 domenii. Un Adevăr.",
-      "heroDescription": "Șase straturi de inteligență care transformă datele fragmentate ale restaurantelor în decizii care se acumulează - tură cu tură, local cu local.",
+      "heroTitle": "Șase straturi. Un model guvernat. O buclă.",
+      "heroDescription": "Fiecare strat citește același model guvernat, așa că cifra dintr-o prognoză, dintr-un benchmark și din raportul de tură de aseară este aceeași cifră. Și fiecare strat alimentează o singură buclă: găsește banii, dă lucrarea unui responsabil, măsoară ce s-a întors.",
       "heroSecondary": "Rezervați o demonstrație",
       "layersEyebrow": "ȘASE STRURI DE INTELIGENTĂ",
       "layersTitle": "De la etaj de schimb la sala de consiliu",
-      "layersDescription": "Fiecare strat se ocupă de o dimensiune distinctă a performanței restaurantului. Împreună, formează un sistem de informații în buclă închisă."
+      "layersDescription": "Fiecare strat acoperă o dimensiune distinctă a operațiunii. Nu sunt șase produse separate - citesc un singur model, iar ce găsește un strat devine muncă pe care altul o măsoară."
     },
     "vi": {
       "heroBadge": "Nền tảng Sundae",
-      "heroTitle": "500 Mô hình dữ liệu. 12 tên miền. Một Sự Thật.",
-      "heroDescription": "Sáu lớp trí tuệ biến dữ liệu nhà hàng rời rạc thành những quyết định cộng dồn - ca này qua ca khác, cửa hàng này qua cửa hàng khác.",
+      "heroTitle": "Sáu lớp. Một mô hình được quản trị. Một vòng lặp.",
+      "heroDescription": "Mọi lớp đều đọc cùng một mô hình được quản trị, nên con số trong dự báo, trong đối sánh và trong báo cáo ca tối qua là cùng một con số. Và mọi lớp đều đổ vào một vòng lặp: tìm ra tiền, giao việc cho một người chịu trách nhiệm, đo phần thu về.",
       "heroSecondary": "Đặt bản demo",
       "layersEyebrow": "SÁU LỚP TRÍ TUỆ",
       "layersTitle": "Từ tầng thay đổi đến phòng họp",
-      "layersDescription": "Mỗi lớp xử lý một khía cạnh riêng biệt của hiệu suất nhà hàng. Cùng nhau, họ tạo thành một hệ thống tình báo khép kín."
+      "layersDescription": "Mỗi lớp phụ trách một khía cạnh riêng của vận hành. Đây không phải sáu sản phẩm tách rời - chúng đọc cùng một mô hình, và điều lớp này tìm ra sẽ thành công việc lớp khác đo lường."
     },
     "bn": {
       "heroBadge": "Sundae প্ল্যাটফর্ম",
-      "heroTitle": "500 ডেটা মডেল। 12টি ডোমেন। এক সত্য।",
-      "heroDescription": "ছয়টি বুদ্ধিমত্তা স্তর যা খণ্ডিত রেস্তোরাঁর ডেটাকে এমন সিদ্ধান্তে পরিণত করে যা ক্রমে জমতে থাকে - শিফটের পর শিফট, আউটলেটের পর আউটলেট।",
+      "heroTitle": "ছয়টি স্তর। একটি সুশাসিত মডেল। একটি চক্র।",
+      "heroDescription": "প্রতিটি স্তর একই সুশাসিত মডেল পড়ে, তাই পূর্বাভাসের, বেঞ্চমার্কের আর গতরাতের শিফট রিপোর্টের সংখ্যাটি একই। আর প্রতিটি স্তর একটিই চক্রে গিয়ে মেশে: টাকাটা খুঁজে বের করো, কাজটির একজন দায়িত্বপ্রাপ্ত ঠিক করো, মাপো কতটা ফিরে এল।",
       "heroSecondary": "একটি ডেমো বুক করুন",
       "layersEyebrow": "ছয়টি বুদ্ধিমত্তা স্তর",
       "layersTitle": "শিফট ফ্লোর থেকে বোর্ডরুমে",
-      "layersDescription": "প্রতিটি স্তর রেস্টুরেন্ট কর্মক্ষমতা একটি স্বতন্ত্র মাত্রা পরিচালনা করে. একসাথে, তারা একটি বন্ধ লুপ গোয়েন্দা সিস্টেম গঠন করে।"
+      "layersDescription": "প্রতিটি স্তর পরিচালনার আলাদা একটি দিক সামলায়। এগুলো ছয়টি আলাদা পণ্য নয় - এরা একটিই মডেল পড়ে, আর একটি স্তর যা খুঁজে পায় তা অন্য স্তরের মাপা কাজে পরিণত হয়।"
     },
     "th": {
       "heroBadge": "แพลตฟอร์ม Sundae",
-      "heroTitle": "500 โมเดลข้อมูล 12 โดเมน ความจริงประการหนึ่ง",
-      "heroDescription": "ข้อมูลอัจฉริยะหกชั้นที่เปลี่ยนข้อมูลร้านอาหารที่กระจัดกระจายให้กลายเป็นการตัดสินใจที่ประกอบกัน กะต่อกะ ทีละร้าน",
+      "heroTitle": "หกชั้น หนึ่งโมเดลที่กำกับดูแล หนึ่งวงจร",
+      "heroDescription": "ทุกชั้นอ่านโมเดลที่กำกับดูแลชุดเดียวกัน ตัวเลขในการพยากรณ์ ในการเทียบเคียง และในรายงานกะเมื่อคืนจึงเป็นตัวเลขเดียวกัน และทุกชั้นป้อนเข้าสู่วงจรเดียว คือหาเงินที่รั่วไหล มอบงานให้ผู้รับผิดชอบหนึ่งคน แล้ววัดว่ากลับคืนมาเท่าใด",
       "heroSecondary": "จองการสาธิต",
       "layersEyebrow": "หกชั้นอัจฉริยะ",
       "layersTitle": "จาก Shift Floor สู่ Boardroom",
-      "layersDescription": "แต่ละเลเยอร์จะจัดการมิติที่แตกต่างกันของประสิทธิภาพของร้านอาหาร เมื่อรวมกันแล้วจะก่อให้เกิดระบบข่าวกรองแบบวงปิด"
+      "layersDescription": "แต่ละชั้นดูแลมิติที่ต่างกันของการดำเนินงาน ไม่ใช่หกผลิตภัณฑ์แยกกัน ทุกชั้นอ่านโมเดลเดียวกัน และสิ่งที่ชั้นหนึ่งพบจะกลายเป็นงานที่อีกชั้นหนึ่งวัดผล"
     },
     "ms": {
       "heroBadge": "Platform Sundae",
-      "heroTitle": "500 Model Data. 12 Domain. Satu Kebenaran.",
-      "heroDescription": "Enam lapisan kecerdasan yang menukar data restoran yang berpecah-belah menjadi keputusan yang terkumpul - syif demi syif, outlet demi outlet.",
+      "heroTitle": "Enam lapisan. Satu model terurus. Satu gelung.",
+      "heroDescription": "Setiap lapisan membaca model terurus yang sama, jadi nombor dalam ramalan, dalam penanda aras dan dalam laporan syif malam tadi ialah nombor yang sama. Dan setiap lapisan menyuap satu gelung: cari wangnya, beri kerja itu seorang penanggungjawab, ukur berapa yang kembali.",
       "heroSecondary": "Tempah Demo",
       "layersEyebrow": "ENAM LAPISAN KECERDASAN",
       "layersTitle": "Dari Tingkat Syif ke Bilik Lembaga",
-      "layersDescription": "Setiap lapisan mengendalikan dimensi prestasi restoran yang berbeza. Bersama-sama, mereka membentuk sistem perisikan gelung tertutup."
+      "layersDescription": "Setiap lapisan meliputi dimensi operasi yang berbeza. Ini bukan enam produk berasingan - semuanya membaca satu model, dan apa yang ditemui satu lapisan menjadi kerja yang diukur oleh lapisan lain."
     }
   },
   "localizedPillars": {
@@ -244,7 +244,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 وحدة استخباراتية",
+        "tagline": "تحليلات تشغيلية عميقة",
         "description": "الإيرادات، والعمالة، والمخزون، والشراء، والتسويق، والحجوزات، والتسليم، وتجربة الضيوف، والمزيد - كل منها مع توصيات من Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -255,11 +255,11 @@ export const generatedLocalCopy = {
           "إسناد عائد الاستثمار التسويقي",
           "محرك ارتباط Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "نموذج بيانات عبر 12 مجالاً"
+        "stat": "12",
+        "statLabel": "مجالاً تشغيلياً مترابطة ببعضها"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "تحليلات المحادثة",
         "description": "اطرح الأسئلة بلغة واضحة. احصل على إجابات مدعومة ببياناتك الحقيقية - بالمصادر، وليس بالتخمينات. متوفر على الويب، وTelegram، وSlack، وMicrosoft Teams.",
         "icon": "conversation",
@@ -305,8 +305,8 @@ export const generatedLocalCopy = {
           "Tabla de clasificación de la cartera",
           "Modo tablero para el salón"
         ],
-        "stat": "$2K",
-        "statLabel": "ahorrados por cada turno flojo detectado a tiempo"
+        "stat": "5 min",
+        "statLabel": "actualización mientras el turno sigue en marcha"
       },
       {
         "name": "Benchmarks",
@@ -342,7 +342,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 módulos de inteligencia",
+        "tagline": "Analítica operativa profunda",
         "description": "Ingresos, mano de obra, inventario, compras, marketing, reservas, entrega, experiencia del huésped y más, cada uno con recomendaciones de Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -353,11 +353,11 @@ export const generatedLocalCopy = {
           "Atribución del ROI de marketing",
           "Motor de correlación Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "modelos de datos en 12 dominios"
+        "stat": "12",
+        "statLabel": "áreas operativas, cruzadas entre sí"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Análisis conversacional",
         "description": "Haga preguntas en lenguaje sencillo. Obtenga respuestas respaldadas por sus datos reales, con fuentes, no conjeturas. Disponible en web, Telegram, Slack y Microsoft Teams.",
         "icon": "conversation",
@@ -440,7 +440,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 Intelligenzmodule",
+        "tagline": "Tiefe operative Analytik",
         "description": "Umsatz, Arbeit, Inventar, Einkauf, Marketing, Reservierungen, Lieferung, Gästeerlebnis und mehr - jeweils mit Empfehlungen von Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -451,11 +451,11 @@ export const generatedLocalCopy = {
           "Zuordnung des Marketing-ROI",
           "Cross-Intelligence-Korrelations-Engine"
         ],
-        "stat": "500+",
-        "statLabel": "Datenmodelle in 12 Domänen"
+        "stat": "12",
+        "statLabel": "operative Bereiche, miteinander verknüpft"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Konversationsanalyse",
         "description": "Stellen Sie Fragen in einfacher Sprache. Erhalten Sie Antworten, die auf Ihren echten Daten basieren - mit Quellen, nicht mit Vermutungen. Verfügbar im Web, Telegram, Slack und Microsoft Teams.",
         "icon": "conversation",
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 modules de renseignement",
+        "tagline": "Analytique opérationnelle approfondie",
         "description": "Revenus, main-d'œuvre, inventaire, achats, marketing, réservations, livraison, expérience client et bien plus encore, chacun avec les recommandations de Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -549,11 +549,11 @@ export const generatedLocalCopy = {
           "Attribution du ROI marketing",
           "Moteur de corrélation Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "modèles de données dans 12 domaines"
+        "stat": "12",
+        "statLabel": "domaines opérationnels, croisés entre eux"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analyse conversationnelle",
         "description": "Posez des questions dans un langage simple. Obtenez des réponses étayées par vos données réelles - avec des sources, pas des suppositions. Disponible sur le Web, Telegram, Slack et Microsoft Teams.",
         "icon": "conversation",
@@ -636,7 +636,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 Módulos de Inteligência",
+        "tagline": "Análise operacional profunda",
         "description": "Receita, mão de obra, estoque, compras, marketing, reservas, entrega, experiência do hóspede e muito mais - cada um com recomendações do Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -647,11 +647,11 @@ export const generatedLocalCopy = {
           "Atribuição de ROI de marketing",
           "Motor de correlação Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "modelos de dados em 12 domínios"
+        "stat": "12",
+        "statLabel": "áreas operacionais, cruzadas entre si"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Análise Conversacional",
         "description": "Faça perguntas em linguagem simples. Obtenha respostas baseadas em seus dados reais - com fontes, não com suposições. Disponível na web, Telegram, Slack e Microsoft Teams.",
         "icon": "conversation",
@@ -697,8 +697,8 @@ export const generatedLocalCopy = {
           "Portfolio-ranglijst",
           "Wallboard-modus voor de vloer"
         ],
-        "stat": "$ 2K",
-        "statLabel": "bespaard per slechte dienst die vroeg wordt opgemerkt"
+        "stat": "5 min",
+        "statLabel": "ververst terwijl de dienst nog loopt"
       },
       {
         "name": "Benchmarks",
@@ -734,7 +734,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 intelligentiemodules",
+        "tagline": "Diepgaande operationele analyse",
         "description": "Inkomsten, arbeid, inventaris, inkoop, marketing, reserveringen, bezorging, gastervaring en meer - elk met aanbevelingen van Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -745,11 +745,11 @@ export const generatedLocalCopy = {
           "Toeschrijving van marketing-ROI",
           "Cross-Intelligence-correlatie-engine"
         ],
-        "stat": "500+",
-        "statLabel": "datamodellen over 12 domeinen"
+        "stat": "12",
+        "statLabel": "operationele gebieden, onderling gekoppeld"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Conversatieanalyse",
         "description": "Stel vragen in duidelijke taal. Krijg antwoorden ondersteund door uw echte gegevens - met bronnen, geen gissingen. Beschikbaar op internet, Telegram, Slack en Microsoft Teams.",
         "icon": "conversation",
@@ -795,8 +795,8 @@ export const generatedLocalCopy = {
           "پورٹ فولیو لیڈر بورڈ",
           "سروس فلور کے لیے وال بورڈ موڈ"
         ],
-        "stat": "$2K",
-        "statLabel": "بچایا گیا فی بری شفٹ جلد پکڑی گئی۔"
+        "stat": "5 منٹ",
+        "statLabel": "شفٹ چلتے ہوئے ہی ریفریش"
       },
       {
         "name": "Benchmarks",
@@ -832,7 +832,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 انٹیلی جنس ماڈیولز",
+        "tagline": "گہرا آپریشنل تجزیہ",
         "description": "ریونیو، لیبر، انوینٹری، خریداری، مارکیٹنگ، ریزرویشنز، ڈیلیوری، مہمان کا تجربہ، اور بہت کچھ - ہر ایک Sundae Coach کی سفارشات کے ساتھ۔",
         "icon": "insights",
         "features": [
@@ -843,11 +843,11 @@ export const generatedLocalCopy = {
           "مارکیٹنگ ROI انتساب",
           "Cross-Intelligence کوریلیشن انجن"
         ],
-        "stat": "500+",
-        "statLabel": "12 ڈومینز میں ڈیٹا ماڈلز"
+        "stat": "12",
+        "statLabel": "آپریشنل شعبے، آپس میں مربوط"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "بات چیت کے تجزیات",
         "description": "سادہ زبان میں سوالات پوچھیں۔ اپنے حقیقی ڈیٹا سے جوابات حاصل کریں - ذرائع کے ساتھ، اندازوں سے نہیں۔ ویب، Telegram، Slack اور Microsoft Teams پر دستیاب ہے۔",
         "icon": "conversation",
@@ -893,8 +893,8 @@ export const generatedLocalCopy = {
           "Classifica del portafoglio",
           "Modalità wallboard per la sala"
         ],
-        "stat": "$ 2K",
-        "statLabel": "risparmiato per turno difettoso individuato in anticipo"
+        "stat": "5 min",
+        "statLabel": "aggiornamento mentre il turno è ancora in corso"
       },
       {
         "name": "Benchmarks",
@@ -930,7 +930,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 moduli di intelligenza",
+        "tagline": "Analitica operativa approfondita",
         "description": "Entrate, manodopera, inventario, acquisti, marketing, prenotazioni, consegna, esperienza degli ospiti e altro ancora, ciascuno con i consigli di Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -941,11 +941,11 @@ export const generatedLocalCopy = {
           "Attribuzione del ROI di marketing",
           "Motore di correlazione Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "modelli di dati in 12 domini"
+        "stat": "12",
+        "statLabel": "aree operative, correlate tra loro"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analisi conversazionale",
         "description": "Fai domande in un linguaggio semplice. Ottieni risposte supportate dai tuoi dati reali, con fonti, non supposizioni. Disponibile su Web, Telegram, Slack e Microsoft Teams.",
         "icon": "conversation",
@@ -991,8 +991,8 @@ export const generatedLocalCopy = {
           "पोर्टफोलियो लीडरबोर्ड",
           "सर्विस फ्लोर के लिए वॉलबोर्ड मोड"
         ],
-        "stat": "$2K",
-        "statLabel": "जल्दी पकड़ी गई प्रति खराब शिफ्ट को बचाया गया"
+        "stat": "5 मिनट",
+        "statLabel": "शिफ्ट चलते हुए ही रिफ्रेश"
       },
       {
         "name": "Benchmarks",
@@ -1028,7 +1028,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 इंटेलिजेंस मॉड्यूल",
+        "tagline": "गहन परिचालन विश्लेषण",
         "description": "राजस्व, श्रम, इन्वेंट्री, खरीदारी, विपणन, आरक्षण, वितरण, अतिथि अनुभव, और बहुत कुछ - प्रत्येक Sundae कोच की सिफारिशों के साथ।",
         "icon": "insights",
         "features": [
@@ -1039,11 +1039,11 @@ export const generatedLocalCopy = {
           "मार्केटिंग आरओआई एट्रिब्यूशन",
           "Cross-Intelligence सहसंबंध इंजन"
         ],
-        "stat": "500+",
-        "statLabel": "12 डोमेन में डेटा मॉडल"
+        "stat": "12",
+        "statLabel": "परिचालन क्षेत्र, आपस में सहसंबद्ध"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "संवादात्मक विश्लेषण",
         "description": "सरल भाषा में प्रश्न पूछें. अपने वास्तविक डेटा द्वारा समर्थित उत्तर प्राप्त करें - स्रोतों से, अनुमानों से नहीं। वेब, Telegram, Slack और Microsoft Teams पर उपलब्ध है।",
         "icon": "conversation",
@@ -1126,7 +1126,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 modułów inteligencji",
+        "tagline": "Pogłębiona analityka operacyjna",
         "description": "Przychody, praca, zapasy, zakupy, marketing, rezerwacje, dostawa, wrażenia gości i nie tylko - każdy z rekomendacjami od Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -1137,11 +1137,11 @@ export const generatedLocalCopy = {
           "Przypisanie ROI marketingu",
           "Silnik korelacji Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "modele danych w 12 domenach"
+        "stat": "12",
+        "statLabel": "obszary operacyjne, powiązane ze sobą"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analityka konwersacji",
         "description": "Zadawaj pytania prostym językiem. Uzyskaj odpowiedzi poparte prawdziwymi danymi - źródłami, a nie domysłami. Dostępne w Internecie, Telegramie, Slacku i Microsoft Teams.",
         "icon": "conversation",
@@ -1224,7 +1224,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12个智能模块",
+        "tagline": "深度运营分析",
         "description": "收入、劳动力、库存、采购、营销、预订、交付、宾客体验等 - 每一项都包含 Sundae Coach 的建议。",
         "icon": "insights",
         "features": [
@@ -1235,11 +1235,11 @@ export const generatedLocalCopy = {
           "营销投资回报率归因",
           "Cross-Intelligence 关联引擎"
         ],
-        "stat": "500+",
-        "statLabel": "跨 12 个领域的数据模型"
+        "stat": "12",
+        "statLabel": "个运营领域，彼此交叉关联"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "对话式分析",
         "description": "用通俗的语言提问。获得由你的真实数据支撑的答案 - 有出处，而非猜测。可在 Web、Telegram、Slack 和 Microsoft Teams 上使用。",
         "icon": "conversation",
@@ -1322,7 +1322,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 Zeka Modülü",
+        "tagline": "Derin operasyonel analitik",
         "description": "Gelir, işçilik, envanter, satın alma, pazarlama, rezervasyonlar, teslimat, misafir deneyimi ve daha fazlası; her biri Sundae Coach'un önerileriyle birlikte.",
         "icon": "insights",
         "features": [
@@ -1333,11 +1333,11 @@ export const generatedLocalCopy = {
           "Pazarlama yatırım getirisi ilişkilendirmesi",
           "Cross-Intelligence korelasyon motoru"
         ],
-        "stat": "500+",
-        "statLabel": "12 alandaki veri modelleri"
+        "stat": "12",
+        "statLabel": "operasyonel alan, birbiriyle ilişkilendirilmiş"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Konuşma Analitiği",
         "description": "Sorularınızı sade bir dille sorun. Tahminlerle değil, kaynaklarla gerçek verilerinizle desteklenen yanıtlar alın. Web'de, Telegram'da, Slack'te ve Microsoft Teams'te mevcuttur.",
         "icon": "conversation",
@@ -1383,8 +1383,8 @@ export const generatedLocalCopy = {
           "Papan peringkat portofolio",
           "Mode papan dinding untuk area layanan"
         ],
-        "stat": "$2K",
-        "statLabel": "disimpan per shift buruk yang diketahui lebih awal"
+        "stat": "5 min",
+        "statLabel": "menyegarkan saat shift masih berjalan"
       },
       {
         "name": "Benchmarks",
@@ -1420,7 +1420,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 Modul Intelijen",
+        "tagline": "Analitik operasional mendalam",
         "description": "Pendapatan, tenaga kerja, inventaris, pembelian, pemasaran, reservasi, pengiriman, pengalaman tamu, dan banyak lagi - masing-masing dengan rekomendasi dari Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -1431,11 +1431,11 @@ export const generatedLocalCopy = {
           "Atribusi ROI pemasaran",
           "Mesin korelasi Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "model data di 12 domain"
+        "stat": "12",
+        "statLabel": "area operasional, saling dikaitkan"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analisis Percakapan",
         "description": "Ajukan pertanyaan dengan bahasa yang sederhana. Dapatkan jawaban yang didukung oleh data Anda yang sebenarnya - dengan sumber, bukan tebakan. Tersedia di web, Telegram, Slack, dan Microsoft Teams.",
         "icon": "conversation",
@@ -1518,7 +1518,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 個のインテリジェンス モジュール",
+        "tagline": "深い業務アナリティクス",
         "description": "収益、労働力、在庫、購入、マーケティング、予約、配達、ゲストエクスペリエンスなど - それぞれにSundaeコーチからの推奨事項が含まれています。",
         "icon": "insights",
         "features": [
@@ -1529,11 +1529,11 @@ export const generatedLocalCopy = {
           "マーケティング ROI の帰属",
           "Cross-Intelligence 相関エンジン"
         ],
-        "stat": "500+",
-        "statLabel": "12のドメインにわたるデータモデル"
+        "stat": "12",
+        "statLabel": "の業務領域を相互に関連づけ"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "会話型アナリティクス",
         "description": "平易な言葉で質問するだけ。推測ではなく実際のデータに裏付けられた、出典付きの回答が得られます。Web、Telegram、Slack、Microsoft Teams で利用できます。",
         "icon": "conversation",
@@ -1616,7 +1616,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12개의 인텔리전스 모듈",
+        "tagline": "심층 운영 분석",
         "description": "수익, 인건비, 재고, 구매, 마케팅, 예약, 배달, 고객 경험 등 - 각 항목마다 Sundae Coach의 추천이 함께합니다.",
         "icon": "insights",
         "features": [
@@ -1627,11 +1627,11 @@ export const generatedLocalCopy = {
           "마케팅 ROI 기여",
           "Cross-Intelligence 상관 엔진"
         ],
-        "stat": "500+",
-        "statLabel": "12개 도메인에 걸친 데이터 모델"
+        "stat": "12",
+        "statLabel": "개 운영 영역을 서로 연관 분석"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "대화형 분석",
         "description": "쉬운 언어로 질문하세요. 추측이 아닌 출처를 통해 실제 데이터를 바탕으로 답변을 얻으세요. 웹, Telegram, Slack 및 Microsoft Teams에서 사용할 수 있습니다.",
         "icon": "conversation",
@@ -1714,7 +1714,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 module de inteligență",
+        "tagline": "Analitică operațională aprofundată",
         "description": "Venituri, forță de muncă, inventar, achiziții, marketing, rezervări, livrare, experiență pentru oaspeți și multe altele - fiecare cu recomandări de la Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -1725,11 +1725,11 @@ export const generatedLocalCopy = {
           "Atribuirea rentabilității investiției în marketing",
           "Motor de corelare Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "modele de date pe 12 domenii"
+        "stat": "12",
+        "statLabel": "domenii operaționale, corelate între ele"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analiza conversațională",
         "description": "Pune întrebări într-un limbaj simplu. Obțineți răspunsuri susținute de datele dvs. reale - cu surse, nu presupuneri. Disponibil pe web, Telegram, Slack și Microsoft Teams.",
         "icon": "conversation",
@@ -1775,8 +1775,8 @@ export const generatedLocalCopy = {
           "Bảng xếp hạng danh mục đầu tư",
           "Chế độ bảng tường cho khu vực phục vụ"
         ],
-        "stat": "$2K",
-        "statLabel": "được lưu cho mỗi ca xấu được phát hiện sớm"
+        "stat": "5 min",
+        "statLabel": "làm mới ngay khi ca vẫn đang chạy"
       },
       {
         "name": "Benchmarks",
@@ -1812,7 +1812,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 mô-đun thông minh",
+        "tagline": "Phân tích vận hành chuyên sâu",
         "description": "Doanh thu, lao động, tồn kho, mua hàng, tiếp thị, đặt chỗ, giao hàng, trải nghiệm của khách, v.v. - mỗi mục đều có đề xuất từ Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -1823,11 +1823,11 @@ export const generatedLocalCopy = {
           "Phân bổ ROI tiếp thị",
           "Công cụ tương quan Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "mô hình dữ liệu trên 12 miền"
+        "stat": "12",
+        "statLabel": "lĩnh vực vận hành, đối chiếu lẫn nhau"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Phân tích hội thoại",
         "description": "Đặt câu hỏi bằng ngôn ngữ đơn giản. Nhận câu trả lời được hỗ trợ bởi dữ liệu thực của bạn - bằng nguồn chứ không phải phỏng đoán. Có sẵn trên web, Telegram, Slack và Microsoft Teams.",
         "icon": "conversation",
@@ -1873,8 +1873,8 @@ export const generatedLocalCopy = {
           "পোর্টফোলিও লিডারবোর্ড",
           "সার্ভিস ফ্লোরের জন্য ওয়ালবোর্ড মোড"
         ],
-        "stat": "$2K",
-        "statLabel": "প্রথম দিকে ধরা খারাপ শিফট প্রতি সংরক্ষিত"
+        "stat": "৫ মিনিট",
+        "statLabel": "শিফট চলাকালীনই রিফ্রেশ"
       },
       {
         "name": "Benchmarks",
@@ -1910,7 +1910,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 ইন্টেলিজেন্স মডিউল",
+        "tagline": "গভীর পরিচালন বিশ্লেষণ",
         "description": "রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, বিপণন, সংরক্ষণ, ডেলিভারি, অতিথি অভিজ্ঞতা এবং আরও অনেক কিছু - প্রত্যেকটি Sundae Coach থেকে সুপারিশ সহ।",
         "icon": "insights",
         "features": [
@@ -1921,11 +1921,11 @@ export const generatedLocalCopy = {
           "বিপণন ROI অ্যাট্রিবিউশন",
           "Cross-Intelligence কোরিলেশন ইঞ্জিন"
         ],
-        "stat": "500+",
-        "statLabel": "12টি ডোমেন জুড়ে ডেটা মডেল"
+        "stat": "12",
+        "statLabel": "পরিচালন ক্ষেত্র, পরস্পর সম্পর্কিত"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "কথোপকথন বিশ্লেষণ",
         "description": "সরল ভাষায় প্রশ্ন করুন। আপনার প্রকৃত ডেটা দ্বারা সমর্থিত উত্তরগুলি পান - উত্স সহ, অনুমান নয়। ওয়েব, Telegram, Slack এবং Microsoft Teams-এ উপলব্ধ।",
         "icon": "conversation",
@@ -1971,8 +1971,8 @@ export const generatedLocalCopy = {
           "Portföljens topplista",
           "Wallboard-läge för golvet"
         ],
-        "stat": "$2K",
-        "statLabel": "sparas per tidigt fångat dåligt skift"
+        "stat": "5 min",
+        "statLabel": "uppdateras medan passet fortfarande pågår"
       },
       {
         "name": "Benchmarks",
@@ -2008,7 +2008,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 intelligensmoduler",
+        "tagline": "Djup verksamhetsanalys",
         "description": "Intäkter, arbete, lager, inköp, marknadsföring, reservationer, leverans, gästupplevelse och mer - var och en med rekommendationer från Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -2019,11 +2019,11 @@ export const generatedLocalCopy = {
           "Marknadsföring ROI attribution",
           "Cross-Intelligence korrelationsmotor"
         ],
-        "stat": "500+",
-        "statLabel": "datamodeller över 12 domäner"
+        "stat": "12",
+        "statLabel": "verksamhetsområden, korsvis kopplade"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Konversationsanalys",
         "description": "Ställ frågor i klartext. Få svar som backas upp av dina verkliga data - med källor, inte gissningar. Tillgängligt på webben, Telegram, Slack och Microsoft Teams.",
         "icon": "conversation",
@@ -2106,7 +2106,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 โมดูลอัจฉริยะ",
+        "tagline": "การวิเคราะห์การดำเนินงานเชิงลึก",
         "description": "รายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง การจัดส่ง ประสบการณ์ของแขก และอื่นๆ อีกมากมาย - แต่ละรายการได้รับคำแนะนำจาก Sundae Coach",
         "icon": "insights",
         "features": [
@@ -2117,11 +2117,11 @@ export const generatedLocalCopy = {
           "การระบุแหล่งที่มา ROI ทางการตลาด",
           "เครื่องมือหาความสัมพันธ์ Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "แบบจำลองข้อมูลใน 12 โดเมน"
+        "stat": "12",
+        "statLabel": "ด้านการดำเนินงานที่เชื่อมโยงกัน"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "การวิเคราะห์การสนทนา",
         "description": "ถามคำถามด้วยภาษาธรรมดา รับคำตอบที่ได้รับการสนับสนุนจากข้อมูลจริงของคุณ พร้อมแหล่งข้อมูล ไม่ใช่การคาดเดา พร้อมใช้งานบนเว็บ Telegram, Slack และ Microsoft Teams",
         "icon": "conversation",
@@ -2167,8 +2167,8 @@ export const generatedLocalCopy = {
           "Papan pendahulu portfolio",
           "Mod papan dinding untuk ruang layanan"
         ],
-        "stat": "$2K",
-        "statLabel": "disimpan setiap syif buruk ditangkap awal"
+        "stat": "5 min",
+        "statLabel": "disegar semasa syif masih berjalan"
       },
       {
         "name": "Benchmarks",
@@ -2204,7 +2204,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Insights",
-        "tagline": "12 Modul Kepintaran",
+        "tagline": "Analitik operasi mendalam",
         "description": "Hasil, buruh, inventori, pembelian, pemasaran, tempahan, penghantaran, pengalaman tetamu dan banyak lagi - masing-masing dengan cadangan daripada Sundae Coach.",
         "icon": "insights",
         "features": [
@@ -2215,11 +2215,11 @@ export const generatedLocalCopy = {
           "Atribusi ROI pemasaran",
           "Enjin korelasi Cross-Intelligence"
         ],
-        "stat": "500+",
-        "statLabel": "model data merentas 12 domain"
+        "stat": "12",
+        "statLabel": "bidang operasi, saling dikaitkan"
       },
       {
-        "name": "Sundae Intelligence",
+        "name": "Ask Sundae",
         "tagline": "Analitis Perbualan",
         "description": "Tanya soalan dalam bahasa yang mudah. Dapatkan jawapan yang disokong oleh data sebenar anda - dengan sumber, bukan tekaan. Tersedia di web, Telegram, Slack dan Microsoft Teams.",
         "icon": "conversation",

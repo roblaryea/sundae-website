@@ -78,7 +78,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "مراقبة التسرب",
-          "headline": "2-5% من الإيرادات تتسرب كل شهر",
+          "headline": "الإلغاءات والمجانيات والخصومات، مقابل خط أساسك أنت",
           "description": "يتم تتبع الإلغاءات والخصومات والمجاملات والمبالغ المستردة في الوقت الفعلي وفقًا لخطوط الأساس الخاصة بك. ينبّه Pulse عند ارتفاع معدلات التسرب، ويحدد النُّدُل والأصناف والفترات الزمنية المعنية، وينبهك قبل أن تتحول المشكلات الصغيرة إلى أنماط باهظة الثمن.",
           "capabilities": [
             "تتبع لحظي للإلغاءات والخصومات والمجاملات",
@@ -524,7 +524,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Leckageüberwachung",
-          "headline": "Jeden Monat entgehen 2-5 % der Einnahmen",
+          "headline": "Stornos, Comps und Rabatte - gegen Ihre eigene Baseline",
           "description": "Stornierungen, Rabatte, Vergütungen und Rückerstattungen - in Echtzeit anhand Ihrer Basislinien verfolgt. Pulse meldet, wenn die Leakage-Rate ansteigt, identifiziert die beteiligten Servicekräfte, Artikel und Zeitfenster und warnt Sie, bevor kleine Probleme zu teuren Mustern werden.",
           "capabilities": [
             "Stornierungs-, Rabatt- und Vergütungsverfolgung in Echtzeit",
@@ -970,7 +970,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitoramento de Vazamento",
-          "headline": "2-5% de vazamento de receita todos os meses",
+          "headline": "Cancelamentos, cortesias e descontos, face à sua própria referência",
           "description": "Anulações, descontos, cortesias e reembolsos - rastreados em tempo real em relação às suas linhas de base. O Pulse sinaliza quando as taxas de vazamento aumentam, identifica os garçons, itens e janelas de tempo envolvidos e alerta você antes que pequenos problemas se tornem padrões caros.",
           "capabilities": [
             "Rastreamento de anulações, descontos e cortesias em tempo real",
@@ -1193,7 +1193,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lekkagebewaking",
-          "headline": "Elke maand lekt 2-5% van de inkomsten",
+          "headline": "Annuleringen, weggevers en kortingen - tegen je eigen basislijn",
           "description": "Annuleringen, kortingen, weggevers en terugbetalingen - in realtime bijgehouden ten opzichte van uw basislijnen. Pulse markeert wanneer het lekpercentage stijgt, identificeert de betrokken medewerkers, items en tijdvensters en waarschuwt u voordat kleine problemen dure patronen worden.",
           "capabilities": [
             "Realtime tracking van annuleringen, kortingen en weggevers",
@@ -1416,7 +1416,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "رساو کی نگرانی",
-          "headline": "ریونیو کا 2-5% ہر ماہ لیک ہوتا ہے۔",
+          "headline": "وائیڈز، کامپس اور رعایتیں - آپ کی اپنی بنیادی سطح کے مقابلے",
           "description": "voids، چھوٹ، comps، اور ریفنڈز - آپ کی بنیادی خطوط کے خلاف حقیقی وقت میں ٹریک کیا جاتا ہے۔ جب رساو کی شرح بڑھ جاتی ہے تو Pulse فلیگ، اس میں شامل سرورز، آئٹمز اور ٹائم ونڈوز کی شناخت کرتا ہے، اور چھوٹے مسائل مہنگے پیٹرن بننے سے پہلے آپ کو الرٹ کرتا ہے۔",
           "capabilities": [
             "ریئل ٹائم باطل، ڈسکاؤنٹ، اور کمپ ٹریکنگ",
@@ -1639,7 +1639,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "रिसाव की निगरानी",
-          "headline": "हर महीने 2-5% राजस्व का रिसाव",
+          "headline": "वॉइड, कॉम्प और छूट - आपकी अपनी बेसलाइन के मुकाबले",
           "description": "वॉइड्स, छूट, कॉम्प्स और रिफंड - आपके बेसलाइन के विरुद्ध वास्तविक समय में ट्रैक किए जाते हैं। जब रिसाव दर बढ़ती है तो Pulse फ़्लैग करता है, इसमें शामिल सर्वर, आइटम और टाइम विंडो की पहचान करता है, और छोटे मुद्दों के महंगे पैटर्न बनने से पहले आपको सचेत करता है।",
           "capabilities": [
             "वास्तविक समय में वॉइड्स, छूट और कॉम्प्स ट्रैकिंग",
@@ -1862,7 +1862,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitoraggio delle perdite",
-          "headline": "2-5% delle perdite di entrate ogni mese",
+          "headline": "Storni, omaggi e sconti, rispetto al tuo stesso riferimento",
           "description": "Annullamenti, sconti, omaggi e rimborsi monitorati in tempo reale rispetto ai tuoi valori di riferimento. Pulse segnala quando i tassi di perdita aumentano, identifica i camerieri, gli articoli e le fasce orarie coinvolte e ti avvisa prima che piccoli problemi diventino schemi costosi.",
           "capabilities": [
             "Monitoraggio di annullamenti, sconti e omaggi in tempo reale",
@@ -2085,7 +2085,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sızıntı İzleme",
-          "headline": "Her Ay Gelir Kaçaklarının %2-5'i",
+          "headline": "İptaller, ikramlar ve indirimler - kendi taban değerinize karşı",
           "description": "İptaller, indirimler, ikramlar ve geri ödemeler; temel değerlerinize göre gerçek zamanlı olarak izlenir. Sızıntı oranları yükseldiğinde Pulse uyarı verir, ilgili garsonları, ürünleri ve zaman pencerelerini tanımlar ve küçük sorunlar pahalı kalıplara dönüşmeden önce sizi uyarır.",
           "capabilities": [
             "Gerçek zamanlı iptal, indirim ve ikram takibi",
@@ -2308,7 +2308,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitorowanie wycieków",
-          "headline": "2-5% wycieków przychodów każdego miesiąca",
+          "headline": "Anulacje, gratisy i rabaty - wobec twojej własnej bazy",
           "description": "Anulacje, rabaty, poczęstunki i zwroty pieniędzy - śledzone w czasie rzeczywistym w stosunku do wartości bazowych. Pulse sygnalizuje gwałtowny wzrost poziomu wycieków, identyfikuje kelnerów, pozycje i okna czasowe, których to dotyczy, oraz ostrzega, zanim drobne problemy staną się kosztownymi wzorcami.",
           "capabilities": [
             "Śledzenie anulacji, rabatów i poczęstunków w czasie rzeczywistym",
@@ -2531,7 +2531,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "泄漏监测",
-          "headline": "每月 2-5% 的收入流失",
+          "headline": "作废、赠单与折扣，对照你自己的基线",
           "description": "作废、折扣、赠送和退款 - 根据您的基线实时跟踪。当泄漏率激增时，Pulse 会发出提示，识别所涉及的服务员、菜品和时间段，并在小问题演变成代价高昂的模式之前向您发出警报。",
           "capabilities": [
             "实时跟踪作废、折扣和赠送",
@@ -3200,7 +3200,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pemantauan Kebocoran",
-          "headline": "2-5% Pendapatan Kebocoran Setiap Bulan",
+          "headline": "Void, komplimen, dan diskon - terhadap baseline Anda sendiri",
           "description": "Pembatalan (void), diskon, comp, dan pengembalian dana - dilacak secara real time berdasarkan baseline Anda. Pulse menandai ketika tingkat kebocoran melonjak, mengidentifikasi pelayan, item, dan jangka waktu yang terlibat, dan memperingatkan Anda sebelum masalah kecil menjadi pola yang mahal.",
           "capabilities": [
             "Pelacakan pembatalan (void), diskon, dan comp secara real-time",
@@ -3423,7 +3423,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Giám sát rò rỉ",
-          "headline": "Rò rỉ 2-5% doanh thu mỗi tháng",
+          "headline": "Huỷ món, tặng và giảm giá - đối chiếu với chuẩn nền của chính bạn",
           "description": "Hủy đơn (void), giảm giá, comp và hoàn tiền - được theo dõi trong thời gian thực so với đường cơ sở của bạn. Pulse gắn cờ khi tốc độ rò rỉ tăng đột biến, xác định nhân viên phục vụ, món và khoảng thời gian liên quan, đồng thời cảnh báo cho bạn trước khi các sự cố nhỏ trở thành vấn đề tốn kém.",
           "capabilities": [
             "Theo dõi hủy đơn (void), giảm giá và comp trong thời gian thực",
@@ -3646,7 +3646,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Läckageövervakning",
-          "headline": "2-5 % av intäkterna läcker varje månad",
+          "headline": "Makuleringar, comps och rabatter - mot er egen baslinje",
           "description": "Voids, rabatter, kompensationer och återbetalningar - spåras i realtid mot dina baslinjer. Pulse flaggar när läckaget ökar, identifierar servitörer, artiklar och tidsfönster som är inblandade och varnar dig innan små problem blir dyra mönster.",
           "capabilities": [
             "Spårning av voids, rabatter och kompensationer i realtid",
@@ -3869,7 +3869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitorizarea scurgerilor",
-          "headline": "2-5% din venituri se scurg în fiecare lună",
+          "headline": "Anulări, gratuități și reduceri - față de propria ta referință",
           "description": "Anulări (voids), reduceri, comp-uri și rambursări - urmărite în timp real în raport cu valorile de bază. Pulse semnalează când ratele de scurgere cresc, identifică ospătarii, articolele și ferestrele de timp implicate și vă avertizează înainte ca problemele mici să devină modele costisitoare.",
           "capabilities": [
             "Urmărire în timp real a anulărilor (voids), reducerilor și comp-urilor",
@@ -4092,7 +4092,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ফুটো মনিটরিং",
-          "headline": "প্রতি মাসে 2-5% রাজস্ব লিক হয়",
+          "headline": "ভয়েড, কম্প ও ছাড় - আপনার নিজের বেসলাইনের বিপরীতে",
           "description": "শূন্যতা, ডিসকাউন্ট, কমপস এবং রিফান্ড - আপনার বেসলাইনের বিপরীতে রিয়েল টাইমে ট্র্যাক করা হয়েছে। Pulse ফ্ল্যাগ যখন ফুটো হার স্পাইক করে, সার্ভার, আইটেম এবং সময় উইন্ডোগুলিকে চিহ্নিত করে এবং ছোট সমস্যাগুলি ব্যয়বহুল প্যাটার্ন হওয়ার আগে আপনাকে সতর্ক করে।",
           "capabilities": [
             "রিয়েল-টাইম অকার্যকর, ডিসকাউন্ট এবং কম ট্র্যাকিং",
@@ -4315,7 +4315,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การตรวจสอบการรั่วไหล",
-          "headline": "2-5% ของรายได้รั่วไหลทุกเดือน",
+          "headline": "การยกเลิก การให้ฟรี และส่วนลด เทียบกับเส้นฐานของคุณเอง",
           "description": "การยกเลิก (void) ส่วนลด คอมพ์ และการคืนเงิน - ติดตามแบบเรียลไทม์โดยเทียบกับค่าพื้นฐานของคุณ Pulse จะแจ้งเตือนเมื่ออัตราการรั่วไหลพุ่งสูงขึ้น ระบุพนักงานเสิร์ฟ รายการ และกรอบเวลาที่เกี่ยวข้อง และแจ้งเตือนคุณก่อนที่ปัญหาเล็กๆ จะกลายเป็นรูปแบบที่มีราคาแพง",
           "capabilities": [
             "การติดตามการยกเลิก (void) ส่วนลด และคอมพ์แบบเรียลไทม์",
@@ -4538,7 +4538,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pemantauan Kebocoran",
-          "headline": "2-5% daripada Kebocoran Hasil Setiap Bulan",
+          "headline": "Pembatalan, komplimen dan diskaun - berbanding garis dasar anda sendiri",
           "description": "Kekosongan, diskaun, comps dan bayaran balik - dijejaki dalam masa nyata terhadap garis dasar anda. Pulse memberi amaran apabila kadar kebocoran meningkat, mengenal pasti pelayan, item dan tetingkap masa yang terlibat, dan memaklumkan anda sebelum isu kecil menjadi corak mahal.",
           "capabilities": [
             "Kekosongan masa nyata, diskaun dan penjejakan comp",

@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · الموظفون والموارد البشرية",
     "heroLine1": "من التوظيف إلى المغادرة،",
     "heroLine2": "سجلٌّ واحد.",
-    "description": "يدير Crew People رحلة كل موظف بأكملها — التوظيف والانضمام والمستندات والتقييمات والإجازات والمغادرة — على سجلٍّ واحد لكل شخص يغذّي Sundae، بدل أن يقبع في أداة موارد بشرية منفصلة لا يفتحها أحد.",
+    "description": "يدير Crew People رحلة كل موظف بأكملها - التوظيف والانضمام والمستندات والتقييمات والإجازات والمغادرة - على سجلٍّ واحد لكل شخص يغذّي Sundae، بدل أن يقبع في أداة موارد بشرية منفصلة لا يفتحها أحد.",
     "primaryCta": "احجز جولة تعريفية على Crew",
     "secondaryCta": "شاهد Crew أثناء العمل",
     "heroProof": [
@@ -29,11 +29,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "ما الذي يضمّه الموظفون والموارد البشرية",
     "featuresTitle": "رحلة الموظف بأكملها، في مكان واحد.",
-    "featuresDescription": "كل مرحلة من فترة الموظف معك على سجلٍّ واحد — سهل العثور عليه، آمن، ويغذّي القرارات افتراضياً.",
+    "featuresDescription": "كل مرحلة من فترة الموظف معك على سجلٍّ واحد - سهل العثور عليه، آمن، ويغذّي القرارات افتراضياً.",
     "features": [
       {
         "title": "من التوظيف إلى المغادرة",
-        "body": "الاستقطاب والتحققات الخلفية والانضمام والانتقالات الداخلية والمستحقات النهائية — الرحلة بأكملها، لا شريحة منها.",
+        "body": "الاستقطاب والتحققات الخلفية والانضمام والانتقالات الداخلية والمستحقات النهائية - الرحلة بأكملها، لا شريحة منها.",
         "chips": [
           "الانضمام",
           "الانتقالات الداخلية",
@@ -51,7 +51,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "التقييمات والنمو",
-        "body": "تقييمات الأداء والأجور والمواهب والترقيات — قرارات الموظفين، تُتَّخذ في المكان ذاته الذي تدير فيه الفريق.",
+        "body": "تقييمات الأداء والأجور والمواهب والترقيات - قرارات الموظفين، تُتَّخذ في المكان ذاته الذي تدير فيه الفريق.",
         "chips": [
           "التقييمات",
           "الأجور",
@@ -60,7 +60,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "مكتب مساعدة Ask-HR",
-        "body": "مساحة خاصة يطرح فيها الموظفون أسئلة وحالات الموارد البشرية، مع أوقات استجابة وسجلٍّ واضح — منفصلة عن دعم المنتج.",
+        "body": "مساحة خاصة يطرح فيها الموظفون أسئلة وحالات الموارد البشرية، مع أوقات استجابة وسجلٍّ واضح - منفصلة عن دعم المنتج.",
         "chips": [
           "خاصة",
           "مُتابَعة",
@@ -78,7 +78,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "تطبيق مجاني للموظفين",
-        "body": "يحصل كل موظف على تسجيل دخول مجاني إلى Sundae — المناوبات والإجازات وقسائم الرواتب وتسجيل الدخول، كلها في جيبه.",
+        "body": "يحصل كل موظف على تسجيل دخول مجاني إلى Sundae - المناوبات والإجازات وقسائم الرواتب وتسجيل الدخول، كلها في جيبه.",
         "chips": [
           "المناوبات والإجازات",
           "قسائم الرواتب",
@@ -91,18 +91,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "وظّف وأدمِج",
-        "body": "يحطّ الموظف الجديد على سجلٍّ واحد من اليوم الأول — بأوراقه ومستنداته وكل شيء."
+        "body": "يحطّ الموظف الجديد على سجلٍّ واحد من اليوم الأول - بأوراقه ومستنداته وكل شيء."
       },
       {
         "title": "أدِر يوماً بيوم",
-        "body": "المستندات والتقييمات والإجازات والحالات كلها تعيش على ذلك السجل — آمنة وسهلة العثور عليها."
+        "body": "المستندات والتقييمات والإجازات والحالات كلها تعيش على ذلك السجل - آمنة وسهلة العثور عليها."
       },
       {
         "title": "أنهِ الخدمة بنظافة",
         "body": "المستحقات النهائية وخطوات المغادرة والسجلات تُختَم دون أطراف عالقة."
       }
     ],
-    "loopLine": "كل تغيير يغذّي Labor Intelligence تلقائياً — بلا تصدير منفصل، بلا إعادة إدخال.",
+    "loopLine": "كل تغيير يغذّي Labor Intelligence تلقائياً - بلا تصدير منفصل، بلا إعادة إدخال.",
     "creamEyebrow": "سجلٌّ واحد، فريقٌ كامل",
     "creamStatement": "طبقة الموظفين التي تغذّي المنصة.",
     "creamLede": "معظم المشغّلين يديرون الموارد البشرية في أداةٍ لا تراها تحليلاتهم أبداً. يُبقي Crew People الرحلة بأكملها على سجلٍّ واحد، فتتدفق بيانات الموظفين ذاتها مباشرة إلى قراراتك.",
@@ -110,7 +110,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "الموظفون والموارد البشرية قطعة واحدة من الطبقة التشغيلية.",
     "ctaEyebrow": "تخلّ عن صومعة الموارد البشرية",
     "ctaTitle": "شاهد الرحلة على سجلٍّ واحد.",
-    "ctaDescription": "30 دقيقة، عملياتك. نمشي معك في الانضمام والمستندات والتقييمات والمغادرة — وكيف تصقل كل خطوة Labor Intelligence.",
+    "ctaDescription": "30 دقيقة، عملياتك. نمشي معك في الانضمام والمستندات والتقييمات والمغادرة - وكيف تصقل كل خطوة Labor Intelligence.",
     "ctaPrimary": "احجز جولة تعريفية على Crew",
     "ctaSecondary": "اكتشف Sundae Crew"
   },
@@ -118,7 +118,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Personnel & RH",
     "heroLine1": "De l'embauche au départ,",
     "heroLine2": "un seul dossier.",
-    "description": "Crew People gère tout le parcours de chaque employé — recrutement, intégration, documents, évaluations, congés et départ — sur un seul dossier par personne qui alimente Sundae, au lieu de croupir dans un outil RH séparé que personne n'ouvre.",
+    "description": "Crew People gère tout le parcours de chaque employé - recrutement, intégration, documents, évaluations, congés et départ - sur un seul dossier par personne qui alimente Sundae, au lieu de croupir dans un outil RH séparé que personne n'ouvre.",
     "primaryCta": "Réserver une démo de Crew",
     "secondaryCta": "Voir Crew en action",
     "heroProof": [
@@ -141,11 +141,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Ce que contient Personnel & RH",
     "featuresTitle": "Tout le parcours de l'employé, au même endroit.",
-    "featuresDescription": "Chaque étape du passage d'un employé chez vous sur un seul dossier — facile à trouver, sécurisé, et qui nourrit les décisions par défaut.",
+    "featuresDescription": "Chaque étape du passage d'un employé chez vous sur un seul dossier - facile à trouver, sécurisé, et qui nourrit les décisions par défaut.",
     "features": [
       {
         "title": "De l'embauche au départ",
-        "body": "Recrutement, vérifications d'antécédents, intégration, mobilités internes et solde de tout compte — tout le parcours, pas une tranche.",
+        "body": "Recrutement, vérifications d'antécédents, intégration, mobilités internes et solde de tout compte - tout le parcours, pas une tranche.",
         "chips": [
           "Intégration",
           "Mobilités internes",
@@ -163,7 +163,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Évaluations & évolution",
-        "body": "Évaluations de performance, rémunération, talents et promotions — les décisions RH, prises là où vous pilotez l'équipe.",
+        "body": "Évaluations de performance, rémunération, talents et promotions - les décisions RH, prises là où vous pilotez l'équipe.",
         "chips": [
           "Évaluations",
           "Rémunération",
@@ -172,7 +172,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Helpdesk Ask-HR",
-        "body": "Un espace privé où le personnel pose ses questions RH et ouvre des cas, avec des délais de réponse et une trace claire — distinct du support produit.",
+        "body": "Un espace privé où le personnel pose ses questions RH et ouvre des cas, avec des délais de réponse et une trace claire - distinct du support produit.",
         "chips": [
           "Privé",
           "Suivi",
@@ -190,7 +190,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "App employé gratuite",
-        "body": "Chaque employé reçoit un accès Sundae gratuit — services, congés, bulletins de paie et pointage, le tout dans sa poche.",
+        "body": "Chaque employé reçoit un accès Sundae gratuit - services, congés, bulletins de paie et pointage, le tout dans sa poche.",
         "chips": [
           "Services & congés",
           "Bulletins de paie",
@@ -203,18 +203,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Embauchez & intégrez",
-        "body": "Un nouvel arrivant atterrit sur un seul dossier dès le premier jour — formalités, documents et tout le reste."
+        "body": "Un nouvel arrivant atterrit sur un seul dossier dès le premier jour - formalités, documents et tout le reste."
       },
       {
         "title": "Gérez au quotidien",
-        "body": "Documents, évaluations, congés et cas vivent tous sur ce dossier — sécurisés et faciles à trouver."
+        "body": "Documents, évaluations, congés et cas vivent tous sur ce dossier - sécurisés et faciles à trouver."
       },
       {
         "title": "Gérez le départ proprement",
         "body": "Solde de tout compte, étapes de départ et archives se bouclent sans rien laisser en suspens."
       }
     ],
-    "loopLine": "Chaque changement alimente Labor Intelligence automatiquement — sans export séparé, sans ressaisie.",
+    "loopLine": "Chaque changement alimente Labor Intelligence automatiquement - sans export séparé, sans ressaisie.",
     "creamEyebrow": "Un seul dossier, toute l'équipe",
     "creamStatement": "La couche humaine qui nourrit la plateforme.",
     "creamLede": "La plupart des exploitants gèrent les RH dans un outil que leur analytique ne voit jamais. Crew People garde tout le parcours sur un seul dossier, pour que ces mêmes données humaines alimentent directement vos décisions.",
@@ -222,7 +222,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "Personnel & RH n'est qu'une pièce de la couche opérationnelle.",
     "ctaEyebrow": "Mettez fin au silo RH",
     "ctaTitle": "Voyez le parcours sur un seul dossier.",
-    "ctaDescription": "30 minutes, votre exploitation. Nous parcourons l'intégration, les documents, les évaluations et le départ — et comment chaque étape affine Labor Intelligence.",
+    "ctaDescription": "30 minutes, votre exploitation. Nous parcourons l'intégration, les documents, les évaluations et le départ - et comment chaque étape affine Labor Intelligence.",
     "ctaPrimary": "Réserver une démo de Crew",
     "ctaSecondary": "Découvrir Sundae Crew"
   },
@@ -230,7 +230,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Personas y RR. HH.",
     "heroLine1": "De la contratación a la salida,",
     "heroLine2": "un solo registro.",
-    "description": "Crew People gestiona todo el recorrido de cada empleado — contratación, incorporación, documentos, evaluaciones, ausencias y salida — en un solo registro por persona que alimenta Sundae, en vez de quedarse en una herramienta de RR. HH. aparte que nadie abre.",
+    "description": "Crew People gestiona todo el recorrido de cada empleado - contratación, incorporación, documentos, evaluaciones, ausencias y salida - en un solo registro por persona que alimenta Sundae, en vez de quedarse en una herramienta de RR. HH. aparte que nadie abre.",
     "primaryCta": "Reserva una demo de Crew",
     "secondaryCta": "Mira Crew en acción",
     "heroProof": [
@@ -253,11 +253,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Qué incluye Personas y RR. HH.",
     "featuresTitle": "Todo el recorrido del empleado, en un solo lugar.",
-    "featuresDescription": "Cada etapa del paso de un empleado por tu empresa en un solo registro — fácil de encontrar, seguro y alimentando decisiones por defecto.",
+    "featuresDescription": "Cada etapa del paso de un empleado por tu empresa en un solo registro - fácil de encontrar, seguro y alimentando decisiones por defecto.",
     "features": [
       {
         "title": "De contratación a salida",
-        "body": "Selección, verificación de antecedentes, incorporación, movimientos internos y finiquito — todo el recorrido, no una porción.",
+        "body": "Selección, verificación de antecedentes, incorporación, movimientos internos y finiquito - todo el recorrido, no una porción.",
         "chips": [
           "Incorporación",
           "Movimientos internos",
@@ -275,7 +275,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Evaluaciones y crecimiento",
-        "body": "Evaluaciones de desempeño, retribución, talento y promociones — las decisiones de personas, tomadas en el mismo lugar donde diriges al equipo.",
+        "body": "Evaluaciones de desempeño, retribución, talento y promociones - las decisiones de personas, tomadas en el mismo lugar donde diriges al equipo.",
         "chips": [
           "Evaluaciones",
           "Retribución",
@@ -284,7 +284,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Helpdesk Ask-HR",
-        "body": "Un espacio privado donde el personal plantea dudas y casos de RR. HH., con tiempos de respuesta y un rastro claro — separado del soporte de producto.",
+        "body": "Un espacio privado donde el personal plantea dudas y casos de RR. HH., con tiempos de respuesta y un rastro claro - separado del soporte de producto.",
         "chips": [
           "Privado",
           "Con seguimiento",
@@ -302,7 +302,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "App gratuita para empleados",
-        "body": "Cada empleado recibe un acceso gratuito a Sundae — turnos, ausencias, nóminas y fichaje, todo en su bolsillo.",
+        "body": "Cada empleado recibe un acceso gratuito a Sundae - turnos, ausencias, nóminas y fichaje, todo en su bolsillo.",
         "chips": [
           "Turnos y ausencias",
           "Nóminas",
@@ -315,18 +315,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Contrata e incorpora",
-        "body": "Quien se incorpora aterriza en un solo registro desde el primer día — papeleo, documentos y todo lo demás."
+        "body": "Quien se incorpora aterriza en un solo registro desde el primer día - papeleo, documentos y todo lo demás."
       },
       {
         "title": "Gestiona el día a día",
-        "body": "Documentos, evaluaciones, ausencias y casos viven todos en ese registro — seguros y fáciles de encontrar."
+        "body": "Documentos, evaluaciones, ausencias y casos viven todos en ese registro - seguros y fáciles de encontrar."
       },
       {
         "title": "Gestiona la salida sin cabos sueltos",
         "body": "Finiquito, pasos de salida y archivos se cierran sin dejar nada pendiente."
       }
     ],
-    "loopLine": "Cada cambio alimenta Labor Intelligence automáticamente — sin exportación aparte, sin reescribir.",
+    "loopLine": "Cada cambio alimenta Labor Intelligence automáticamente - sin exportación aparte, sin reescribir.",
     "creamEyebrow": "Un solo registro, todo el equipo",
     "creamStatement": "La capa de personas que alimenta la plataforma.",
     "creamLede": "La mayoría de los operadores llevan RR. HH. en una herramienta que su analítica nunca ve. Crew People mantiene todo el recorrido en un solo registro, para que esos mismos datos de personas fluyan directos a tus decisiones.",
@@ -334,7 +334,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "Personas y RR. HH. es una pieza de la capa operativa.",
     "ctaEyebrow": "Jubila el silo de RR. HH.",
     "ctaTitle": "Mira el recorrido en un solo registro.",
-    "ctaDescription": "30 minutos, tu operación. Recorremos la incorporación, los documentos, las evaluaciones y la salida — y cómo cada paso afina Labor Intelligence.",
+    "ctaDescription": "30 minutos, tu operación. Recorremos la incorporación, los documentos, las evaluaciones y la salida - y cómo cada paso afina Labor Intelligence.",
     "ctaPrimary": "Reserva una demo de Crew",
     "ctaSecondary": "Descubre Sundae Crew"
   },
@@ -342,7 +342,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Personal & HR",
     "heroLine1": "Einstellung bis Austritt,",
     "heroLine2": "eine Akte.",
-    "description": "Crew People führt die ganze Reise jeder:s Mitarbeitenden – Einstellung, Onboarding, Dokumente, Beurteilungen, Abwesenheiten und Offboarding – auf einer Akte pro Person, die in Sundae einfließt, statt in einem separaten HR-Tool zu liegen, das niemand öffnet.",
+    "description": "Crew People führt die ganze Reise jeder:s Mitarbeitenden - Einstellung, Onboarding, Dokumente, Beurteilungen, Abwesenheiten und Offboarding - auf einer Akte pro Person, die in Sundae einfließt, statt in einem separaten HR-Tool zu liegen, das niemand öffnet.",
     "primaryCta": "Crew-Demo buchen",
     "secondaryCta": "Crew live erleben",
     "heroProof": [
@@ -365,11 +365,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Das steckt in Personal & HR",
     "featuresTitle": "Die ganze Mitarbeiterreise, an einem Ort.",
-    "featuresDescription": "Jede Phase der Zeit eines:r Mitarbeitenden bei Ihnen auf einer Akte – leicht zu finden, sicher und standardmäßig entscheidungsrelevant.",
+    "featuresDescription": "Jede Phase der Zeit eines:r Mitarbeitenden bei Ihnen auf einer Akte - leicht zu finden, sicher und standardmäßig entscheidungsrelevant.",
     "features": [
       {
         "title": "Einstellung bis Offboarding",
-        "body": "Recruiting, Hintergrundprüfungen, Onboarding, interne Wechsel und Schlusszahlung – die ganze Reise, nicht nur ein Ausschnitt.",
+        "body": "Recruiting, Hintergrundprüfungen, Onboarding, interne Wechsel und Schlusszahlung - die ganze Reise, nicht nur ein Ausschnitt.",
         "chips": [
           "Onboarding",
           "Interne Wechsel",
@@ -387,7 +387,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Beurteilungen & Entwicklung",
-        "body": "Leistungsbeurteilungen, Vergütung, Talente und Beförderungen – die Personalentscheidungen, dort getroffen, wo Sie das Team führen.",
+        "body": "Leistungsbeurteilungen, Vergütung, Talente und Beförderungen - die Personalentscheidungen, dort getroffen, wo Sie das Team führen.",
         "chips": [
           "Beurteilungen",
           "Vergütung",
@@ -396,7 +396,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR Helpdesk",
-        "body": "Ein privater Ort, an dem Mitarbeitende HR-Fragen und -Fälle einreichen – mit Reaktionszeiten und klarem Verlauf, getrennt vom Produktsupport.",
+        "body": "Ein privater Ort, an dem Mitarbeitende HR-Fragen und -Fälle einreichen - mit Reaktionszeiten und klarem Verlauf, getrennt vom Produktsupport.",
         "chips": [
           "Privat",
           "Nachverfolgt",
@@ -414,7 +414,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Kostenlose Mitarbeiter-App",
-        "body": "Jede:r Mitarbeitende erhält einen kostenlosen Sundae-Zugang – Schichten, Abwesenheiten, Lohnabrechnungen und Einstempeln, alles in der Tasche.",
+        "body": "Jede:r Mitarbeitende erhält einen kostenlosen Sundae-Zugang - Schichten, Abwesenheiten, Lohnabrechnungen und Einstempeln, alles in der Tasche.",
         "chips": [
           "Schichten & Urlaub",
           "Lohnabrechnungen",
@@ -427,18 +427,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Einstellen & onboarden",
-        "body": "Ein:e neue:r Mitarbeitende:r landet ab Tag eins auf einer Akte – inklusive Papierkram und Dokumenten."
+        "body": "Ein:e neue:r Mitarbeitende:r landet ab Tag eins auf einer Akte - inklusive Papierkram und Dokumenten."
       },
       {
         "title": "Tagesgeschäft führen",
-        "body": "Dokumente, Beurteilungen, Abwesenheiten und Fälle liegen alle auf dieser Akte – sicher und leicht zu finden."
+        "body": "Dokumente, Beurteilungen, Abwesenheiten und Fälle liegen alle auf dieser Akte - sicher und leicht zu finden."
       },
       {
         "title": "Sauber offboarden",
         "body": "Schlusszahlung, Austrittsschritte und Unterlagen werden ohne lose Enden abgeschlossen."
       }
     ],
-    "loopLine": "Jede Änderung fließt automatisch in Labor Intelligence – kein separater Export, kein erneutes Eintippen.",
+    "loopLine": "Jede Änderung fließt automatisch in Labor Intelligence - kein separater Export, kein erneutes Eintippen.",
     "creamEyebrow": "Eine Akte, das ganze Team",
     "creamStatement": "Die Personalebene, die die Plattform speist.",
     "creamLede": "Die meisten Betreiber führen HR in einem Tool, das ihre Analytik nie sieht. Crew People hält die ganze Reise auf einer Akte, damit dieselben Personaldaten direkt in Ihre Entscheidungen fließen.",
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "Personal & HR ist nur ein Teil der operativen Ebene.",
     "ctaEyebrow": "Das HR-Silo abschaffen",
     "ctaTitle": "Sehen Sie die Reise auf einer Akte.",
-    "ctaDescription": "30 Minuten, Ihr Betrieb. Wir gehen Onboarding, Dokumente, Beurteilungen und Offboarding durch – und wie jeder Schritt Labor Intelligence schärft.",
+    "ctaDescription": "30 Minuten, Ihr Betrieb. Wir gehen Onboarding, Dokumente, Beurteilungen und Offboarding durch - und wie jeder Schritt Labor Intelligence schärft.",
     "ctaPrimary": "Crew-Demo buchen",
     "ctaSecondary": "Sundae Crew entdecken"
   },
@@ -454,7 +454,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Mensen & HR",
     "heroLine1": "Van aanname tot vertrek,",
     "heroLine2": "één dossier.",
-    "description": "Crew People beheert de hele reis van elke medewerker – werving, onboarding, documenten, beoordelingen, verlof en offboarding – in één dossier per persoon dat Sundae voedt, in plaats van in een apart HR-tool dat niemand opent.",
+    "description": "Crew People beheert de hele reis van elke medewerker - werving, onboarding, documenten, beoordelingen, verlof en offboarding - in één dossier per persoon dat Sundae voedt, in plaats van in een apart HR-tool dat niemand opent.",
     "primaryCta": "Plan een Crew-demo",
     "secondaryCta": "Bekijk Crew in actie",
     "heroProof": [
@@ -477,11 +477,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Wat zit er in Mensen & HR",
     "featuresTitle": "De hele medewerkersreis, op één plek.",
-    "featuresDescription": "Elke fase van de tijd van een medewerker bij jou in één dossier – makkelijk te vinden, veilig en standaard beslissingsvoedend.",
+    "featuresDescription": "Elke fase van de tijd van een medewerker bij jou in één dossier - makkelijk te vinden, veilig en standaard beslissingsvoedend.",
     "features": [
       {
         "title": "Werving tot offboarding",
-        "body": "Werving, achtergrondcontroles, onboarding, interne overstappen en eindafrekening – de hele reis, niet een stukje ervan.",
+        "body": "Werving, achtergrondcontroles, onboarding, interne overstappen en eindafrekening - de hele reis, niet een stukje ervan.",
         "chips": [
           "Onboarding",
           "Interne overstappen",
@@ -499,7 +499,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Beoordelingen & groei",
-        "body": "Functioneringsgesprekken, beloning, talent en promoties – de mensenbeslissingen, gemaakt op dezelfde plek waar je het team aanstuurt.",
+        "body": "Functioneringsgesprekken, beloning, talent en promoties - de mensenbeslissingen, gemaakt op dezelfde plek waar je het team aanstuurt.",
         "chips": [
           "Beoordelingen",
           "Beloning",
@@ -508,7 +508,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR helpdesk",
-        "body": "Een privéplek waar medewerkers HR-vragen en -zaken stellen, met reactietijden en een helder spoor – gescheiden van productsupport.",
+        "body": "Een privéplek waar medewerkers HR-vragen en -zaken stellen, met reactietijden en een helder spoor - gescheiden van productsupport.",
         "chips": [
           "Privé",
           "Bijgehouden",
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Gratis medewerkers-app",
-        "body": "Elke medewerker krijgt een gratis Sundae-login – diensten, verlof, loonstroken en inklokken, allemaal op zak.",
+        "body": "Elke medewerker krijgt een gratis Sundae-login - diensten, verlof, loonstroken en inklokken, allemaal op zak.",
         "chips": [
           "Diensten & verlof",
           "Loonstroken",
@@ -539,18 +539,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Aannemen & onboarden",
-        "body": "Een nieuwe medewerker belandt vanaf dag één in één dossier – papierwerk, documenten en al."
+        "body": "Een nieuwe medewerker belandt vanaf dag één in één dossier - papierwerk, documenten en al."
       },
       {
         "title": "Dagelijks beheren",
-        "body": "Documenten, beoordelingen, verlof en zaken leven allemaal in dat dossier – veilig en makkelijk te vinden."
+        "body": "Documenten, beoordelingen, verlof en zaken leven allemaal in dat dossier - veilig en makkelijk te vinden."
       },
       {
         "title": "Netjes offboarden",
         "body": "Eindafrekening, vertrekstappen en dossiers worden afgerond zonder losse eindjes."
       }
     ],
-    "loopLine": "Elke wijziging voedt Labor Intelligence automatisch – geen aparte export, geen overtypen.",
+    "loopLine": "Elke wijziging voedt Labor Intelligence automatisch - geen aparte export, geen overtypen.",
     "creamEyebrow": "Eén dossier, het hele team",
     "creamStatement": "De mensenlaag die het platform voedt.",
     "creamLede": "De meeste operators draaien HR in een tool dat hun analyse nooit ziet. Crew People houdt de hele reis in één dossier, zodat dezelfde mensendata rechtstreeks in je beslissingen stroomt.",
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "Mensen & HR is één onderdeel van de operationele laag.",
     "ctaEyebrow": "Ruim het HR-silo op",
     "ctaTitle": "Zie de reis in één dossier.",
-    "ctaDescription": "30 minuten, jouw operatie. We lopen onboarding, documenten, beoordelingen en offboarding door – en hoe elke stap Labor Intelligence scherper maakt.",
+    "ctaDescription": "30 minuten, jouw operatie. We lopen onboarding, documenten, beoordelingen en offboarding door - en hoe elke stap Labor Intelligence scherper maakt.",
     "ctaPrimary": "Plan een Crew-demo",
     "ctaSecondary": "Ontdek Sundae Crew"
   },
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Pessoas & RH",
     "heroLine1": "Da contratação à saída,",
     "heroLine2": "um só registo.",
-    "description": "O Crew People gere toda a jornada de cada colaborador — contratação, integração, documentos, avaliações, ausências e saída — num registo por pessoa que alimenta o Sundae, em vez de ficar numa ferramenta de RH à parte que ninguém abre.",
+    "description": "O Crew People gere toda a jornada de cada colaborador - contratação, integração, documentos, avaliações, ausências e saída - num registo por pessoa que alimenta o Sundae, em vez de ficar numa ferramenta de RH à parte que ninguém abre.",
     "primaryCta": "Marcar uma demo do Crew",
     "secondaryCta": "Veja o Crew em ação",
     "heroProof": [
@@ -589,11 +589,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "O que há em Pessoas & RH",
     "featuresTitle": "Toda a jornada do colaborador, num só lugar.",
-    "featuresDescription": "Cada etapa do tempo de um colaborador consigo num só registo — fácil de encontrar, seguro e a alimentar decisões por defeito.",
+    "featuresDescription": "Cada etapa do tempo de um colaborador consigo num só registo - fácil de encontrar, seguro e a alimentar decisões por defeito.",
     "features": [
       {
         "title": "Da contratação à saída",
-        "body": "Recrutamento, verificações de antecedentes, integração, movimentos internos e acerto final — toda a jornada, não só uma fatia.",
+        "body": "Recrutamento, verificações de antecedentes, integração, movimentos internos e acerto final - toda a jornada, não só uma fatia.",
         "chips": [
           "Integração",
           "Movimentos internos",
@@ -611,7 +611,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Avaliações & crescimento",
-        "body": "Avaliações de desempenho, remuneração, talento e promoções — as decisões sobre pessoas, tomadas no mesmo sítio onde gere a equipa.",
+        "body": "Avaliações de desempenho, remuneração, talento e promoções - as decisões sobre pessoas, tomadas no mesmo sítio onde gere a equipa.",
         "chips": [
           "Avaliações",
           "Remuneração",
@@ -620,7 +620,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Helpdesk Ask-HR",
-        "body": "Um espaço privado para os colaboradores colocarem questões e casos de RH, com tempos de resposta e um rasto claro — separado do suporte ao produto.",
+        "body": "Um espaço privado para os colaboradores colocarem questões e casos de RH, com tempos de resposta e um rasto claro - separado do suporte ao produto.",
         "chips": [
           "Privado",
           "Acompanhado",
@@ -638,7 +638,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "App grátis para colaboradores",
-        "body": "Cada colaborador recebe um acesso Sundae grátis — turnos, ausências, recibos de vencimento e picagem de ponto, tudo no bolso.",
+        "body": "Cada colaborador recebe um acesso Sundae grátis - turnos, ausências, recibos de vencimento e picagem de ponto, tudo no bolso.",
         "chips": [
           "Turnos & ausências",
           "Recibos de vencimento",
@@ -651,18 +651,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Contratar & integrar",
-        "body": "Quem chega aterra num só registo desde o primeiro dia — papelada, documentos e tudo."
+        "body": "Quem chega aterra num só registo desde o primeiro dia - papelada, documentos e tudo."
       },
       {
         "title": "Gerir o dia a dia",
-        "body": "Documentos, avaliações, ausências e casos vivem todos nesse registo — seguros e fáceis de encontrar."
+        "body": "Documentos, avaliações, ausências e casos vivem todos nesse registo - seguros e fáceis de encontrar."
       },
       {
         "title": "Fazer uma saída limpa",
         "body": "Acerto final, passos de saída e registos fecham sem pontas soltas."
       }
     ],
-    "loopLine": "Cada alteração alimenta o Labor Intelligence automaticamente — sem exportação à parte, sem redigitar.",
+    "loopLine": "Cada alteração alimenta o Labor Intelligence automaticamente - sem exportação à parte, sem redigitar.",
     "creamEyebrow": "Um registo, toda a equipa",
     "creamStatement": "A camada de pessoas que alimenta a plataforma.",
     "creamLede": "A maioria dos operadores gere o RH numa ferramenta que a sua análise nunca vê. O Crew People mantém toda a jornada num só registo, para que os mesmos dados de pessoas fluam diretamente para as suas decisões.",
@@ -670,7 +670,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "Pessoas & RH é uma peça da camada operacional.",
     "ctaEyebrow": "Aposente o silo de RH",
     "ctaTitle": "Veja a jornada num só registo.",
-    "ctaDescription": "30 minutos, a sua operação. Percorremos a integração, os documentos, as avaliações e a saída — e como cada passo afina o Labor Intelligence.",
+    "ctaDescription": "30 minutos, a sua operação. Percorremos a integração, os documentos, as avaliações e a saída - e como cada passo afina o Labor Intelligence.",
     "ctaPrimary": "Marcar uma demo do Crew",
     "ctaSecondary": "Explorar o Sundae Crew"
   },
@@ -678,7 +678,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · People & HR",
     "heroLine1": "हायर से एग्ज़िट तक,",
     "heroLine2": "एक रिकॉर्ड।",
-    "description": "Crew People हर कर्मचारी की पूरी यात्रा चलाता है — हायरिंग, ऑनबोर्डिंग, दस्तावेज़, रिव्यू, छुट्टी और ऑफ़बोर्डिंग — हर व्यक्ति के एक रिकॉर्ड पर जो Sundae को फ़ीड करता है, न कि किसी अलग HR टूल में पड़ा रहता है जिसे कोई नहीं खोलता।",
+    "description": "Crew People हर कर्मचारी की पूरी यात्रा चलाता है - हायरिंग, ऑनबोर्डिंग, दस्तावेज़, रिव्यू, छुट्टी और ऑफ़बोर्डिंग - हर व्यक्ति के एक रिकॉर्ड पर जो Sundae को फ़ीड करता है, न कि किसी अलग HR टूल में पड़ा रहता है जिसे कोई नहीं खोलता।",
     "primaryCta": "Crew का वॉकथ्रू बुक करें",
     "secondaryCta": "Crew को काम करते देखें",
     "heroProof": [
@@ -701,11 +701,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "People & HR में क्या है",
     "featuresTitle": "कर्मचारी की पूरी यात्रा, एक जगह।",
-    "featuresDescription": "आपके साथ कर्मचारी के समय का हर पड़ाव एक रिकॉर्ड पर — ढूँढने में आसान, सुरक्षित, और डिफ़ॉल्ट रूप से फ़ैसलों को फ़ीड करता हुआ।",
+    "featuresDescription": "आपके साथ कर्मचारी के समय का हर पड़ाव एक रिकॉर्ड पर - ढूँढने में आसान, सुरक्षित, और डिफ़ॉल्ट रूप से फ़ैसलों को फ़ीड करता हुआ।",
     "features": [
       {
         "title": "हायरिंग से ऑफ़बोर्डिंग तक",
-        "body": "भर्ती, बैकग्राउंड चेक, ऑनबोर्डिंग, अंदरूनी बदलाव और अंतिम भुगतान — पूरी यात्रा, उसका कोई टुकड़ा भर नहीं।",
+        "body": "भर्ती, बैकग्राउंड चेक, ऑनबोर्डिंग, अंदरूनी बदलाव और अंतिम भुगतान - पूरी यात्रा, उसका कोई टुकड़ा भर नहीं।",
         "chips": [
           "ऑनबोर्डिंग",
           "अंदरूनी बदलाव",
@@ -723,7 +723,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "रिव्यू और ग्रोथ",
-        "body": "परफ़ॉर्मेंस रिव्यू, पे, टैलेंट और प्रमोशन — लोगों के फ़ैसले, उसी जगह लिए जहाँ आप टीम चलाते हैं।",
+        "body": "परफ़ॉर्मेंस रिव्यू, पे, टैलेंट और प्रमोशन - लोगों के फ़ैसले, उसी जगह लिए जहाँ आप टीम चलाते हैं।",
         "chips": [
           "रिव्यू",
           "पे",
@@ -732,7 +732,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR हेल्पडेस्क",
-        "body": "स्टाफ के लिए HR सवाल और केस उठाने की एक निजी जगह, जवाब-समय और साफ़ ट्रेल के साथ — प्रोडक्ट सपोर्ट से अलग रखी हुई।",
+        "body": "स्टाफ के लिए HR सवाल और केस उठाने की एक निजी जगह, जवाब-समय और साफ़ ट्रेल के साथ - प्रोडक्ट सपोर्ट से अलग रखी हुई।",
         "chips": [
           "निजी",
           "ट्रैक किया हुआ",
@@ -750,7 +750,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "मुफ़्त कर्मचारी ऐप",
-        "body": "हर कर्मचारी को एक मुफ़्त Sundae लॉगिन मिलता है — शिफ़्ट, छुट्टी, पे-स्लिप और क्लॉक-इन, सब उनकी जेब में।",
+        "body": "हर कर्मचारी को एक मुफ़्त Sundae लॉगिन मिलता है - शिफ़्ट, छुट्टी, पे-स्लिप और क्लॉक-इन, सब उनकी जेब में।",
         "chips": [
           "शिफ़्ट और छुट्टी",
           "पे-स्लिप",
@@ -763,18 +763,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "हायर और ऑनबोर्ड",
-        "body": "एक नया जुड़ने वाला पहले दिन से एक रिकॉर्ड पर आ जाता है — काग़ज़ी काम, दस्तावेज़ और सब कुछ।"
+        "body": "एक नया जुड़ने वाला पहले दिन से एक रिकॉर्ड पर आ जाता है - काग़ज़ी काम, दस्तावेज़ और सब कुछ।"
       },
       {
         "title": "रोज़मर्रा का प्रबंधन",
-        "body": "दस्तावेज़, रिव्यू, छुट्टी और केस सब उसी रिकॉर्ड पर रहते हैं — सुरक्षित और ढूँढने में आसान।"
+        "body": "दस्तावेज़, रिव्यू, छुट्टी और केस सब उसी रिकॉर्ड पर रहते हैं - सुरक्षित और ढूँढने में आसान।"
       },
       {
         "title": "साफ़-सुथरा ऑफ़बोर्ड",
         "body": "अंतिम भुगतान, एग्ज़िट स्टेप और रिकॉर्ड बिना किसी अधूरेपन के समेट दिए जाते हैं।"
       }
     ],
-    "loopLine": "हर बदलाव अपने-आप Labor Intelligence को फ़ीड करता है — कोई अलग एक्सपोर्ट नहीं, कोई दोबारा टाइपिंग नहीं।",
+    "loopLine": "हर बदलाव अपने-आप Labor Intelligence को फ़ीड करता है - कोई अलग एक्सपोर्ट नहीं, कोई दोबारा टाइपिंग नहीं।",
     "creamEyebrow": "एक रिकॉर्ड, पूरी टीम",
     "creamStatement": "वह पीपल लेयर जो पूरे प्लेटफ़ॉर्म को फ़ीड करती है।",
     "creamLede": "ज़्यादातर ऑपरेटर HR को ऐसे टूल में चलाते हैं जिसे उनका एनालिटिक्स कभी देखता ही नहीं। Crew People पूरी यात्रा एक रिकॉर्ड पर रखता है, ताकि वही पीपल डेटा सीधे आपके फ़ैसलों में बहे।",
@@ -782,7 +782,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR ऑपरेशनल लेयर का एक हिस्सा है।",
     "ctaEyebrow": "HR के अलगाव को विदा करें",
     "ctaTitle": "पूरी यात्रा एक रिकॉर्ड पर देखें।",
-    "ctaDescription": "30 मिनट, आपका ऑपरेशन। हम ऑनबोर्डिंग, दस्तावेज़, रिव्यू और ऑफ़बोर्डिंग — और हर क़दम Labor Intelligence को कैसे पैना करता है — दिखाते हैं।",
+    "ctaDescription": "30 मिनट, आपका ऑपरेशन। हम ऑनबोर्डिंग, दस्तावेज़, रिव्यू और ऑफ़बोर्डिंग - और हर क़दम Labor Intelligence को कैसे पैना करता है - दिखाते हैं।",
     "ctaPrimary": "Crew का वॉकथ्रू बुक करें",
     "ctaSecondary": "Sundae Crew को एक्सप्लोर करें"
   },
@@ -790,7 +790,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · People & HR",
     "heroLine1": "بھرتی سے رخصتی تک،",
     "heroLine2": "ایک ریکارڈ۔",
-    "description": "Crew People ہر ملازم کا پورا سفر چلاتا ہے — بھرتی، آن بورڈنگ، دستاویزات، جائزے، چھٹی اور آف بورڈنگ — ہر شخص کے ایک ریکارڈ پر جو Sundae کو فیڈ کرتا ہے، نہ کہ کسی الگ HR ٹول میں پڑا رہتا ہے جسے کوئی نہیں کھولتا۔",
+    "description": "Crew People ہر ملازم کا پورا سفر چلاتا ہے - بھرتی، آن بورڈنگ، دستاویزات، جائزے، چھٹی اور آف بورڈنگ - ہر شخص کے ایک ریکارڈ پر جو Sundae کو فیڈ کرتا ہے، نہ کہ کسی الگ HR ٹول میں پڑا رہتا ہے جسے کوئی نہیں کھولتا۔",
     "primaryCta": "Crew کا واک تھرو بک کریں",
     "secondaryCta": "Crew کو کام کرتے دیکھیں",
     "heroProof": [
@@ -813,11 +813,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "People & HR میں کیا ہے",
     "featuresTitle": "ملازم کا پورا سفر، ایک جگہ۔",
-    "featuresDescription": "آپ کے ساتھ ملازم کے وقت کا ہر مرحلہ ایک ریکارڈ پر — ڈھونڈنے میں آسان، محفوظ، اور بطورِ ڈیفالٹ فیصلوں کو فیڈ کرتا ہوا۔",
+    "featuresDescription": "آپ کے ساتھ ملازم کے وقت کا ہر مرحلہ ایک ریکارڈ پر - ڈھونڈنے میں آسان، محفوظ، اور بطورِ ڈیفالٹ فیصلوں کو فیڈ کرتا ہوا۔",
     "features": [
       {
         "title": "بھرتی سے آف بورڈنگ تک",
-        "body": "بھرتی، بیک گراؤنڈ چیک، آن بورڈنگ، اندرونی تبادلے اور آخری ادائیگی — پورا سفر، اس کا کوئی ٹکڑا بھر نہیں۔",
+        "body": "بھرتی، بیک گراؤنڈ چیک، آن بورڈنگ، اندرونی تبادلے اور آخری ادائیگی - پورا سفر، اس کا کوئی ٹکڑا بھر نہیں۔",
         "chips": [
           "آن بورڈنگ",
           "اندرونی تبادلے",
@@ -835,7 +835,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "جائزے اور ترقی",
-        "body": "کارکردگی کے جائزے، تنخواہ، ٹیلنٹ اور ترقیاں — لوگوں کے فیصلے، اسی جگہ لیے جہاں آپ ٹیم چلاتے ہیں۔",
+        "body": "کارکردگی کے جائزے، تنخواہ، ٹیلنٹ اور ترقیاں - لوگوں کے فیصلے، اسی جگہ لیے جہاں آپ ٹیم چلاتے ہیں۔",
         "chips": [
           "جائزے",
           "تنخواہ",
@@ -844,7 +844,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR ہیلپ ڈیسک",
-        "body": "اسٹاف کے لیے HR سوالات اور کیسز اٹھانے کی ایک نجی جگہ، جواب کے اوقات اور صاف ٹریل کے ساتھ — پروڈکٹ سپورٹ سے الگ رکھی ہوئی۔",
+        "body": "اسٹاف کے لیے HR سوالات اور کیسز اٹھانے کی ایک نجی جگہ، جواب کے اوقات اور صاف ٹریل کے ساتھ - پروڈکٹ سپورٹ سے الگ رکھی ہوئی۔",
         "chips": [
           "نجی",
           "ٹریک شدہ",
@@ -862,7 +862,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "مفت ملازم ایپ",
-        "body": "ہر ملازم کو ایک مفت Sundae لاگ ان ملتا ہے — شفٹیں، چھٹی، پے سلپ اور کلاک ان، سب ان کی جیب میں۔",
+        "body": "ہر ملازم کو ایک مفت Sundae لاگ ان ملتا ہے - شفٹیں، چھٹی، پے سلپ اور کلاک ان، سب ان کی جیب میں۔",
         "chips": [
           "شفٹیں اور چھٹی",
           "پے سلپ",
@@ -875,18 +875,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "بھرتی اور آن بورڈ",
-        "body": "ایک نیا شامل ہونے والا پہلے دن سے ایک ریکارڈ پر آ جاتا ہے — کاغذی کام، دستاویزات اور سب کچھ۔"
+        "body": "ایک نیا شامل ہونے والا پہلے دن سے ایک ریکارڈ پر آ جاتا ہے - کاغذی کام، دستاویزات اور سب کچھ۔"
       },
       {
         "title": "روزمرہ کا انتظام",
-        "body": "دستاویزات، جائزے، چھٹی اور کیسز سب اسی ریکارڈ پر رہتے ہیں — محفوظ اور ڈھونڈنے میں آسان۔"
+        "body": "دستاویزات، جائزے، چھٹی اور کیسز سب اسی ریکارڈ پر رہتے ہیں - محفوظ اور ڈھونڈنے میں آسان۔"
       },
       {
         "title": "صاف ستھرا آف بورڈ",
         "body": "آخری ادائیگی، رخصتی کے مراحل اور ریکارڈ بغیر کسی ادھورے پن کے سمیٹ دیے جاتے ہیں۔"
       }
     ],
-    "loopLine": "ہر تبدیلی خود بخود Labor Intelligence کو فیڈ کرتی ہے — کوئی الگ ایکسپورٹ نہیں، کوئی دوبارہ ٹائپنگ نہیں۔",
+    "loopLine": "ہر تبدیلی خود بخود Labor Intelligence کو فیڈ کرتی ہے - کوئی الگ ایکسپورٹ نہیں، کوئی دوبارہ ٹائپنگ نہیں۔",
     "creamEyebrow": "ایک ریکارڈ، پوری ٹیم",
     "creamStatement": "وہ پیپل لیئر جو پورے پلیٹ فارم کو فیڈ کرتی ہے۔",
     "creamLede": "زیادہ تر آپریٹرز HR کو ایسے ٹول میں چلاتے ہیں جسے ان کا اینالیٹکس کبھی دیکھتا ہی نہیں۔ Crew People پورا سفر ایک ریکارڈ پر رکھتا ہے، تاکہ وہی پیپل ڈیٹا سیدھے آپ کے فیصلوں میں بہے۔",
@@ -894,7 +894,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR آپریشنل لیئر کا ایک حصہ ہے۔",
     "ctaEyebrow": "HR کے الگ تھلگ پن کو رخصت کریں",
     "ctaTitle": "پورا سفر ایک ریکارڈ پر دیکھیں۔",
-    "ctaDescription": "30 منٹ، آپ کا آپریشن۔ ہم آن بورڈنگ، دستاویزات، جائزے اور آف بورڈنگ — اور ہر قدم Labor Intelligence کو کیسے تیز کرتا ہے — دکھاتے ہیں۔",
+    "ctaDescription": "30 منٹ، آپ کا آپریشن۔ ہم آن بورڈنگ، دستاویزات، جائزے اور آف بورڈنگ - اور ہر قدم Labor Intelligence کو کیسے تیز کرتا ہے - دکھاتے ہیں۔",
     "ctaPrimary": "Crew کا واک تھرو بک کریں",
     "ctaSecondary": "Sundae Crew کو ایکسپلور کریں"
   },
@@ -902,7 +902,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · People & HR",
     "heroLine1": "Dall'assunzione all'uscita,",
     "heroLine2": "un'unica scheda.",
-    "description": "Crew People gestisce l'intero percorso di ogni dipendente — assunzione, onboarding, documenti, valutazioni, ferie e offboarding — su un'unica scheda per persona che alimenta Sundae, invece di restare in uno strumento HR a parte che nessuno apre.",
+    "description": "Crew People gestisce l'intero percorso di ogni dipendente - assunzione, onboarding, documenti, valutazioni, ferie e offboarding - su un'unica scheda per persona che alimenta Sundae, invece di restare in uno strumento HR a parte che nessuno apre.",
     "primaryCta": "Prenota una demo di Crew",
     "secondaryCta": "Guarda Crew in azione",
     "heroProof": [
@@ -925,11 +925,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Cosa offre People & HR",
     "featuresTitle": "L'intero percorso del dipendente, in un unico posto.",
-    "featuresDescription": "Ogni fase del tempo di un dipendente con te su un'unica scheda — facile da trovare, sicura e che alimenta le decisioni per impostazione predefinita.",
+    "featuresDescription": "Ogni fase del tempo di un dipendente con te su un'unica scheda - facile da trovare, sicura e che alimenta le decisioni per impostazione predefinita.",
     "features": [
       {
         "title": "Dall'assunzione all'offboarding",
-        "body": "Selezione, controlli, onboarding, spostamenti interni e ultima retribuzione — l'intero percorso, non una sua fetta.",
+        "body": "Selezione, controlli, onboarding, spostamenti interni e ultima retribuzione - l'intero percorso, non una sua fetta.",
         "chips": [
           "Onboarding",
           "Spostamenti interni",
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Valutazioni e crescita",
-        "body": "Valutazioni delle performance, retribuzione, talento e promozioni — le decisioni sulle persone, prese nello stesso posto in cui gestisci il team.",
+        "body": "Valutazioni delle performance, retribuzione, talento e promozioni - le decisioni sulle persone, prese nello stesso posto in cui gestisci il team.",
         "chips": [
           "Valutazioni",
           "Retribuzione",
@@ -956,7 +956,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Helpdesk Ask-HR",
-        "body": "Uno spazio riservato in cui il personale può sollevare domande e casi HR, con tempi di risposta e una traccia chiara — tenuto separato dal supporto prodotto.",
+        "body": "Uno spazio riservato in cui il personale può sollevare domande e casi HR, con tempi di risposta e una traccia chiara - tenuto separato dal supporto prodotto.",
         "chips": [
           "Riservato",
           "Tracciato",
@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "App dipendenti gratuita",
-        "body": "Ogni dipendente riceve un accesso Sundae gratuito — turni, ferie, buste paga e timbrature, tutto in tasca.",
+        "body": "Ogni dipendente riceve un accesso Sundae gratuito - turni, ferie, buste paga e timbrature, tutto in tasca.",
         "chips": [
           "Turni e ferie",
           "Buste paga",
@@ -987,18 +987,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Assumi e fai onboarding",
-        "body": "Un nuovo arrivato finisce su un'unica scheda fin dal primo giorno — pratiche, documenti e tutto il resto."
+        "body": "Un nuovo arrivato finisce su un'unica scheda fin dal primo giorno - pratiche, documenti e tutto il resto."
       },
       {
         "title": "Gestisci giorno per giorno",
-        "body": "Documenti, valutazioni, ferie e casi vivono tutti su quella scheda — sicuri e facili da trovare."
+        "body": "Documenti, valutazioni, ferie e casi vivono tutti su quella scheda - sicuri e facili da trovare."
       },
       {
         "title": "Fai offboarding senza intoppi",
         "body": "Ultima retribuzione, passaggi di uscita e archivi si chiudono senza lasciare nulla in sospeso."
       }
     ],
-    "loopLine": "Ogni modifica alimenta Labor Intelligence in automatico — nessun export a parte, nessun reinserimento.",
+    "loopLine": "Ogni modifica alimenta Labor Intelligence in automatico - nessun export a parte, nessun reinserimento.",
     "creamEyebrow": "Un'unica scheda, tutto il team",
     "creamStatement": "Il livello delle persone che alimenta la piattaforma.",
     "creamLede": "La maggior parte degli operatori gestisce le HR in uno strumento che le loro analitiche non vedono mai. Crew People tiene l'intero percorso su un'unica scheda, così gli stessi dati sulle persone confluiscono dritti nelle tue decisioni.",
@@ -1006,7 +1006,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR è una parte del livello operativo.",
     "ctaEyebrow": "Manda in pensione il silo HR",
     "ctaTitle": "Guarda il percorso su un'unica scheda.",
-    "ctaDescription": "30 minuti, la tua attività. Percorriamo onboarding, documenti, valutazioni e offboarding — e come ogni passo affini Labor Intelligence.",
+    "ctaDescription": "30 minuti, la tua attività. Percorriamo onboarding, documenti, valutazioni e offboarding - e come ogni passo affini Labor Intelligence.",
     "ctaPrimary": "Prenota una demo di Crew",
     "ctaSecondary": "Esplora Sundae Crew"
   },
@@ -1014,7 +1014,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Ludzie i HR",
     "heroLine1": "Od zatrudnienia po odejście,",
     "heroLine2": "jedna kartoteka.",
-    "description": "Crew People prowadzi całą drogę każdego pracownika — rekrutację, wdrożenie, dokumenty, oceny, urlopy i offboarding — na jednej kartotece per osoba, która zasila Sundae, zamiast tkwić w osobnym narzędziu HR, którego nikt nie otwiera.",
+    "description": "Crew People prowadzi całą drogę każdego pracownika - rekrutację, wdrożenie, dokumenty, oceny, urlopy i offboarding - na jednej kartotece per osoba, która zasila Sundae, zamiast tkwić w osobnym narzędziu HR, którego nikt nie otwiera.",
     "primaryCta": "Umów prezentację Crew",
     "secondaryCta": "Zobacz Crew w akcji",
     "heroProof": [
@@ -1037,11 +1037,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Co znajdziesz w People & HR",
     "featuresTitle": "Cała droga pracownika, w jednym miejscu.",
-    "featuresDescription": "Każdy etap czasu pracownika u Ciebie na jednej kartotece — łatwy do znalezienia, bezpieczny i domyślnie zasilający decyzje.",
+    "featuresDescription": "Każdy etap czasu pracownika u Ciebie na jednej kartotece - łatwy do znalezienia, bezpieczny i domyślnie zasilający decyzje.",
     "features": [
       {
         "title": "Od zatrudnienia po offboarding",
-        "body": "Rekrutacja, weryfikacja, wdrożenie, przesunięcia wewnętrzne i ostatnia wypłata — cała droga, nie jej wycinek.",
+        "body": "Rekrutacja, weryfikacja, wdrożenie, przesunięcia wewnętrzne i ostatnia wypłata - cała droga, nie jej wycinek.",
         "chips": [
           "Wdrożenie",
           "Przesunięcia wewnętrzne",
@@ -1059,7 +1059,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Oceny i rozwój",
-        "body": "Oceny pracy, wynagrodzenia, talenty i awanse — decyzje o ludziach podejmowane tam, gdzie prowadzisz zespół.",
+        "body": "Oceny pracy, wynagrodzenia, talenty i awanse - decyzje o ludziach podejmowane tam, gdzie prowadzisz zespół.",
         "chips": [
           "Oceny",
           "Wynagrodzenia",
@@ -1068,7 +1068,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Helpdesk Ask-HR",
-        "body": "Prywatne miejsce, gdzie pracownicy zgłaszają pytania i sprawy HR, z czasami odpowiedzi i jasnym śladem — trzymane osobno od wsparcia produktowego.",
+        "body": "Prywatne miejsce, gdzie pracownicy zgłaszają pytania i sprawy HR, z czasami odpowiedzi i jasnym śladem - trzymane osobno od wsparcia produktowego.",
         "chips": [
           "Prywatne",
           "Śledzone",
@@ -1086,7 +1086,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Darmowa aplikacja pracownika",
-        "body": "Każdy pracownik dostaje darmowy login Sundae — zmiany, urlopy, paski wypłat i odbijanie, wszystko w kieszeni.",
+        "body": "Każdy pracownik dostaje darmowy login Sundae - zmiany, urlopy, paski wypłat i odbijanie, wszystko w kieszeni.",
         "chips": [
           "Zmiany i urlopy",
           "Paski wypłat",
@@ -1099,18 +1099,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Zatrudnij i wdróż",
-        "body": "Nowa osoba ląduje na jednej kartotece od pierwszego dnia — z dokumentami i całą papierologią."
+        "body": "Nowa osoba ląduje na jednej kartotece od pierwszego dnia - z dokumentami i całą papierologią."
       },
       {
         "title": "Zarządzaj na co dzień",
-        "body": "Dokumenty, oceny, urlopy i sprawy żyją na tej kartotece — bezpieczne i łatwe do znalezienia."
+        "body": "Dokumenty, oceny, urlopy i sprawy żyją na tej kartotece - bezpieczne i łatwe do znalezienia."
       },
       {
         "title": "Czysty offboarding",
         "body": "Ostatnia wypłata, kroki odejścia i kartoteki zamykają się bez luźnych końców."
       }
     ],
-    "loopLine": "Każda zmiana zasila Labor Intelligence automatycznie — bez osobnego eksportu, bez przepisywania.",
+    "loopLine": "Każda zmiana zasila Labor Intelligence automatycznie - bez osobnego eksportu, bez przepisywania.",
     "creamEyebrow": "Jedna kartoteka, cały zespół",
     "creamStatement": "Warstwa ludzi, która zasila platformę.",
     "creamLede": "Większość operatorów prowadzi HR w narzędziu, którego ich analityka nigdy nie widzi. Crew People trzyma całą drogę na jednej kartotece, więc te same dane o ludziach płyną prosto do Twoich decyzji.",
@@ -1118,7 +1118,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR to jeden element warstwy operacyjnej.",
     "ctaEyebrow": "Wycofaj silos HR",
     "ctaTitle": "Zobacz całą drogę na jednej kartotece.",
-    "ctaDescription": "30 minut, Twoja operacja. Przechodzimy przez wdrożenie, dokumenty, oceny i offboarding — oraz to, jak każdy krok wyostrza Labor Intelligence.",
+    "ctaDescription": "30 minut, Twoja operacja. Przechodzimy przez wdrożenie, dokumenty, oceny i offboarding - oraz to, jak każdy krok wyostrza Labor Intelligence.",
     "ctaPrimary": "Umów prezentację Crew",
     "ctaSecondary": "Poznaj Sundae Crew"
   },
@@ -1126,7 +1126,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · İnsan ve İK",
     "heroLine1": "İşe alımdan çıkışa,",
     "heroLine2": "tek bir kayıt.",
-    "description": "Crew People her çalışanın tüm yolculuğunu yürütür — işe alım, oryantasyon, belgeler, değerlendirmeler, izin ve işten ayrılış — kimsenin açmadığı ayrı bir İK aracında durmak yerine, Sundae'yi besleyen kişi başına tek bir kayıt üzerinde.",
+    "description": "Crew People her çalışanın tüm yolculuğunu yürütür - işe alım, oryantasyon, belgeler, değerlendirmeler, izin ve işten ayrılış - kimsenin açmadığı ayrı bir İK aracında durmak yerine, Sundae'yi besleyen kişi başına tek bir kayıt üzerinde.",
     "primaryCta": "Crew tanıtımı planlayın",
     "secondaryCta": "Crew'i iş başında görün",
     "heroProof": [
@@ -1149,11 +1149,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "People & HR'de neler var",
     "featuresTitle": "Tüm çalışan yolculuğu, tek yerde.",
-    "featuresDescription": "Bir çalışanın sizinle geçirdiği her aşama tek bir kayıtta — bulması kolay, güvenli ve varsayılan olarak kararları besleyen.",
+    "featuresDescription": "Bir çalışanın sizinle geçirdiği her aşama tek bir kayıtta - bulması kolay, güvenli ve varsayılan olarak kararları besleyen.",
     "features": [
       {
         "title": "İşe alımdan ayrılışa",
-        "body": "İşe alım, referans kontrolleri, oryantasyon, iç geçişler ve son ödeme — bir dilimi değil, tüm yolculuk.",
+        "body": "İşe alım, referans kontrolleri, oryantasyon, iç geçişler ve son ödeme - bir dilimi değil, tüm yolculuk.",
         "chips": [
           "Oryantasyon",
           "İç geçişler",
@@ -1171,7 +1171,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Değerlendirmeler ve gelişim",
-        "body": "Performans değerlendirmeleri, ücret, yetenek ve terfiler — insan kararları, ekibi yönettiğiniz yerde alınır.",
+        "body": "Performans değerlendirmeleri, ücret, yetenek ve terfiler - insan kararları, ekibi yönettiğiniz yerde alınır.",
         "chips": [
           "Değerlendirmeler",
           "Ücret",
@@ -1180,7 +1180,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR yardım masası",
-        "body": "Personelin İK sorularını ve vakalarını açtığı, yanıt süreleri ve net bir iz taşıyan özel bir yer — ürün desteğinden ayrı tutulur.",
+        "body": "Personelin İK sorularını ve vakalarını açtığı, yanıt süreleri ve net bir iz taşıyan özel bir yer - ürün desteğinden ayrı tutulur.",
         "chips": [
           "Özel",
           "Takip edilir",
@@ -1198,7 +1198,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ücretsiz çalışan uygulaması",
-        "body": "Her çalışan ücretsiz bir Sundae girişi alır — vardiyalar, izinler, maaş pusulaları ve giriş, hepsi cebinde.",
+        "body": "Her çalışan ücretsiz bir Sundae girişi alır - vardiyalar, izinler, maaş pusulaları ve giriş, hepsi cebinde.",
         "chips": [
           "Vardiya ve izin",
           "Maaş pusulaları",
@@ -1211,18 +1211,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "İşe al ve oryantasyon yap",
-        "body": "Yeni katılan biri ilk günden tek bir kayda düşer — evraklar, belgeler ve hepsiyle birlikte."
+        "body": "Yeni katılan biri ilk günden tek bir kayda düşer - evraklar, belgeler ve hepsiyle birlikte."
       },
       {
         "title": "Günlük yönetin",
-        "body": "Belgeler, değerlendirmeler, izinler ve vakalar bu kayıtta yaşar — güvenli ve bulması kolay."
+        "body": "Belgeler, değerlendirmeler, izinler ve vakalar bu kayıtta yaşar - güvenli ve bulması kolay."
       },
       {
         "title": "Temiz çıkış yapın",
         "body": "Son ödeme, çıkış adımları ve kayıtlar açık uç bırakmadan tamamlanır."
       }
     ],
-    "loopLine": "Her değişiklik Labor Intelligence'ı otomatik besler — ayrı dışa aktarma yok, yeniden giriş yok.",
+    "loopLine": "Her değişiklik Labor Intelligence'ı otomatik besler - ayrı dışa aktarma yok, yeniden giriş yok.",
     "creamEyebrow": "Tek kayıt, tüm ekip",
     "creamStatement": "Platformu besleyen insan katmanı.",
     "creamLede": "Çoğu işletmeci İK'yı, analitiğinin asla görmediği bir araçta yürütür. Crew People tüm yolculuğu tek bir kayıtta tutar; böylece aynı insan verisi doğrudan kararlarınıza akar.",
@@ -1230,7 +1230,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR, operasyonel katmanın bir parçasıdır.",
     "ctaEyebrow": "İK silosunu emekliye ayırın",
     "ctaTitle": "Yolculuğu tek bir kayıtta görün.",
-    "ctaDescription": "30 dakika, sizin operasyonunuz. Oryantasyon, belgeler, değerlendirmeler ve işten ayrılışı — ve her adımın Labor Intelligence'ı nasıl keskinleştirdiğini — birlikte gezeriz.",
+    "ctaDescription": "30 dakika, sizin operasyonunuz. Oryantasyon, belgeler, değerlendirmeler ve işten ayrılışı - ve her adımın Labor Intelligence'ı nasıl keskinleştirdiğini - birlikte gezeriz.",
     "ctaPrimary": "Crew tanıtımı planlayın",
     "ctaSecondary": "Sundae Crew'i keşfedin"
   },
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · 人员与 HR",
     "heroLine1": "从入职到离职,",
     "heroLine2": "一份档案。",
-    "description": "Crew People 贯穿每位员工的完整旅程——招聘、入职、文件、评估、休假和离职——全在每人一份、能反哺 Sundae 的档案上运行,而不是躺在一个没人打开的独立 HR 工具里。",
+    "description": "Crew People 贯穿每位员工的完整旅程 -  - 招聘、入职、文件、评估、休假和离职 -  - 全在每人一份、能反哺 Sundae 的档案上运行,而不是躺在一个没人打开的独立 HR 工具里。",
     "primaryCta": "预约 Crew 演示",
     "secondaryCta": "看 Crew 实战",
     "heroProof": [
@@ -1261,11 +1261,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "People & HR 里有什么",
     "featuresTitle": "完整的员工旅程,尽在一处。",
-    "featuresDescription": "员工与你共事的每个阶段都在一份档案上——好找、安全,并默认反哺决策。",
+    "featuresDescription": "员工与你共事的每个阶段都在一份档案上 -  - 好找、安全,并默认反哺决策。",
     "features": [
       {
         "title": "从招聘到离职",
-        "body": "招募、背景核查、入职、内部调动和最终结薪——是完整旅程,而非其中一段。",
+        "body": "招募、背景核查、入职、内部调动和最终结薪 -  - 是完整旅程,而非其中一段。",
         "chips": [
           "入职",
           "内部调动",
@@ -1283,7 +1283,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "评估与成长",
-        "body": "绩效评估、薪酬、人才和晋升——这些人的决策,就在你带团队的同一处做出。",
+        "body": "绩效评估、薪酬、人才和晋升 -  - 这些人的决策,就在你带团队的同一处做出。",
         "chips": [
           "评估",
           "薪酬",
@@ -1292,7 +1292,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR 帮助台",
-        "body": "员工提出 HR 问题和案件的私密之处,带有响应时长和清晰轨迹——与产品支持分开。",
+        "body": "员工提出 HR 问题和案件的私密之处,带有响应时长和清晰轨迹 -  - 与产品支持分开。",
         "chips": [
           "私密",
           "可追踪",
@@ -1310,7 +1310,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "免费员工应用",
-        "body": "每位员工都获得免费的 Sundae 登录——排班、休假、工资单和打卡,全在口袋里。",
+        "body": "每位员工都获得免费的 Sundae 登录 -  - 排班、休假、工资单和打卡,全在口袋里。",
         "chips": [
           "排班与休假",
           "工资单",
@@ -1323,18 +1323,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "招聘并入职",
-        "body": "新人从第一天起就落在一份档案上——连同文书、文件等一切。"
+        "body": "新人从第一天起就落在一份档案上 -  - 连同文书、文件等一切。"
       },
       {
         "title": "日常管理",
-        "body": "文件、评估、休假和案件都活在那份档案上——安全且好找。"
+        "body": "文件、评估、休假和案件都活在那份档案上 -  - 安全且好找。"
       },
       {
         "title": "干净离职",
         "body": "最终结薪、离职步骤和档案利落收尾,不留尾巴。"
       }
     ],
-    "loopLine": "每一处变动都自动反哺 Labor Intelligence——无需另行导出,无需重新录入。",
+    "loopLine": "每一处变动都自动反哺 Labor Intelligence -  - 无需另行导出,无需重新录入。",
     "creamEyebrow": "一份档案,整个团队",
     "creamStatement": "反哺整个平台的人员层。",
     "creamLede": "多数经营者把 HR 放在分析永远看不到的工具里。Crew People 把完整旅程留在一份档案上,于是同一份人员数据直接流入你的决策。",
@@ -1342,7 +1342,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR 只是运营层的一块。",
     "ctaEyebrow": "淘汰 HR 孤岛",
     "ctaTitle": "在一份档案上看见完整旅程。",
-    "ctaDescription": "30 分钟,用你的运营。我们走一遍入职、文件、评估和离职——以及每一步如何让 Labor Intelligence 更敏锐。",
+    "ctaDescription": "30 分钟,用你的运营。我们走一遍入职、文件、评估和离职 -  - 以及每一步如何让 Labor Intelligence 更敏锐。",
     "ctaPrimary": "预约 Crew 演示",
     "ctaSecondary": "探索 Sundae Crew"
   },
@@ -1350,7 +1350,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · 人事・HR",
     "heroLine1": "採用から退職まで、",
     "heroLine2": "ひとつの記録で。",
-    "description": "Crew People は、すべての従業員の道のり全体 — 採用・オンボーディング・書類・評価・休暇・退職手続き — を、一人ひとつの記録で運用します。誰も開かない別のHRツールにしまい込むのではなく、その記録が Sundae に流れ込みます。",
+    "description": "Crew People は、すべての従業員の道のり全体 - 採用・オンボーディング・書類・評価・休暇・退職手続き - を、一人ひとつの記録で運用します。誰も開かない別のHRツールにしまい込むのではなく、その記録が Sundae に流れ込みます。",
     "primaryCta": "Crew のデモを予約",
     "secondaryCta": "Crew の実力を見る",
     "heroProof": [
@@ -1462,7 +1462,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · People & HR",
     "heroLine1": "입사부터 퇴사까지,",
     "heroLine2": "하나의 기록으로.",
-    "description": "Crew People은 모든 직원의 여정 전체를 — 채용, 온보딩, 문서, 평가, 휴가, 오프보딩까지 — 한 사람당 하나의 기록으로 운영하며 Sundae로 흘려보냅니다. 아무도 열지 않는 별도의 HR 도구에 묻혀 있지 않습니다.",
+    "description": "Crew People은 모든 직원의 여정 전체를 - 채용, 온보딩, 문서, 평가, 휴가, 오프보딩까지 - 한 사람당 하나의 기록으로 운영하며 Sundae로 흘려보냅니다. 아무도 열지 않는 별도의 HR 도구에 묻혀 있지 않습니다.",
     "primaryCta": "Crew 데모 예약하기",
     "secondaryCta": "Crew 직접 보기",
     "heroProof": [
@@ -1485,11 +1485,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "People & HR에 담긴 것",
     "featuresTitle": "직원 여정 전체를, 한곳에.",
-    "featuresDescription": "직원이 함께한 모든 단계가 하나의 기록에 — 찾기 쉽고, 안전하며, 기본값으로 의사결정에 흘러듭니다.",
+    "featuresDescription": "직원이 함께한 모든 단계가 하나의 기록에 - 찾기 쉽고, 안전하며, 기본값으로 의사결정에 흘러듭니다.",
     "features": [
       {
         "title": "채용부터 오프보딩까지",
-        "body": "채용, 신원 조회, 온보딩, 내부 이동, 최종 급여 — 한 조각이 아니라 여정 전체.",
+        "body": "채용, 신원 조회, 온보딩, 내부 이동, 최종 급여 - 한 조각이 아니라 여정 전체.",
         "chips": [
           "온보딩",
           "내부 이동",
@@ -1507,7 +1507,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "평가 & 성장",
-        "body": "성과 평가, 급여, 인재, 승진 — 팀을 운영하는 바로 그곳에서 내리는 인사 결정.",
+        "body": "성과 평가, 급여, 인재, 승진 - 팀을 운영하는 바로 그곳에서 내리는 인사 결정.",
         "chips": [
           "평가",
           "급여",
@@ -1516,7 +1516,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR 헬프데스크",
-        "body": "직원이 HR 질문과 사례를 올리는 비공개 공간 — 응답 시간과 명확한 기록까지, 제품 지원과는 분리됩니다.",
+        "body": "직원이 HR 질문과 사례를 올리는 비공개 공간 - 응답 시간과 명확한 기록까지, 제품 지원과는 분리됩니다.",
         "chips": [
           "비공개",
           "추적 관리",
@@ -1534,7 +1534,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "무료 직원 앱",
-        "body": "모든 직원이 무료 Sundae 로그인을 받습니다 — 근무, 휴가, 급여명세서, 출근까지 모두 손안에.",
+        "body": "모든 직원이 무료 Sundae 로그인을 받습니다 - 근무, 휴가, 급여명세서, 출근까지 모두 손안에.",
         "chips": [
           "근무 & 휴가",
           "급여명세서",
@@ -1547,18 +1547,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "채용 & 온보딩",
-        "body": "신규 입사자가 첫날부터 하나의 기록에 자리 잡습니다 — 서류와 문서까지 모두."
+        "body": "신규 입사자가 첫날부터 하나의 기록에 자리 잡습니다 - 서류와 문서까지 모두."
       },
       {
         "title": "일상 관리",
-        "body": "문서, 평가, 휴가, 사례가 모두 그 기록에 — 안전하고 찾기 쉽게."
+        "body": "문서, 평가, 휴가, 사례가 모두 그 기록에 - 안전하고 찾기 쉽게."
       },
       {
         "title": "깔끔한 오프보딩",
         "body": "최종 급여, 퇴사 단계, 기록이 빠짐없이 마무리됩니다."
       }
     ],
-    "loopLine": "모든 변경이 자동으로 Labor Intelligence로 흘러듭니다 — 별도 내보내기도, 재입력도 없이.",
+    "loopLine": "모든 변경이 자동으로 Labor Intelligence로 흘러듭니다 - 별도 내보내기도, 재입력도 없이.",
     "creamEyebrow": "하나의 기록, 팀 전체",
     "creamStatement": "플랫폼으로 흘러드는 인사 레이어.",
     "creamLede": "대부분의 운영자는 분석이 결코 보지 못하는 도구에서 HR을 운영합니다. Crew People은 여정 전체를 하나의 기록에 담아, 같은 인사 데이터가 곧바로 의사결정으로 흘러듭니다.",
@@ -1566,7 +1566,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR은 운영 레이어의 한 조각입니다.",
     "ctaEyebrow": "HR 사일로를 없애세요",
     "ctaTitle": "하나의 기록 위 여정을 보세요.",
-    "ctaDescription": "30분, 여러분의 운영으로. 온보딩, 문서, 평가, 오프보딩 — 그리고 각 단계가 Labor Intelligence를 어떻게 날카롭게 하는지 살펴봅니다.",
+    "ctaDescription": "30분, 여러분의 운영으로. 온보딩, 문서, 평가, 오프보딩 - 그리고 각 단계가 Labor Intelligence를 어떻게 날카롭게 하는지 살펴봅니다.",
     "ctaPrimary": "Crew 데모 예약하기",
     "ctaSecondary": "Sundae Crew 둘러보기"
   },
@@ -1574,7 +1574,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · People & HR",
     "heroLine1": "Rekrut hingga keluar,",
     "heroLine2": "satu catatan.",
-    "description": "Crew People menjalankan seluruh perjalanan setiap karyawan — perekrutan, onboarding, dokumen, penilaian, cuti, dan offboarding — dalam satu catatan per orang yang memberi makan Sundae, alih-alih terkubur di alat HR terpisah yang tak pernah dibuka siapa pun.",
+    "description": "Crew People menjalankan seluruh perjalanan setiap karyawan - perekrutan, onboarding, dokumen, penilaian, cuti, dan offboarding - dalam satu catatan per orang yang memberi makan Sundae, alih-alih terkubur di alat HR terpisah yang tak pernah dibuka siapa pun.",
     "primaryCta": "Jadwalkan demo Crew",
     "secondaryCta": "Lihat Crew beraksi",
     "heroProof": [
@@ -1597,11 +1597,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Isi People & HR",
     "featuresTitle": "Seluruh perjalanan karyawan, di satu tempat.",
-    "featuresDescription": "Setiap tahap masa kerja karyawan dalam satu catatan — mudah ditemukan, aman, dan memberi makan keputusan secara default.",
+    "featuresDescription": "Setiap tahap masa kerja karyawan dalam satu catatan - mudah ditemukan, aman, dan memberi makan keputusan secara default.",
     "features": [
       {
         "title": "Perekrutan hingga offboarding",
-        "body": "Rekrutmen, pemeriksaan latar belakang, onboarding, mutasi internal, dan gaji terakhir — seluruh perjalanan, bukan sepotong saja.",
+        "body": "Rekrutmen, pemeriksaan latar belakang, onboarding, mutasi internal, dan gaji terakhir - seluruh perjalanan, bukan sepotong saja.",
         "chips": [
           "Onboarding",
           "Mutasi internal",
@@ -1619,7 +1619,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Penilaian & pengembangan",
-        "body": "Penilaian kinerja, gaji, talenta, dan promosi — keputusan tentang orang, dibuat di tempat yang sama tempat Anda menjalankan tim.",
+        "body": "Penilaian kinerja, gaji, talenta, dan promosi - keputusan tentang orang, dibuat di tempat yang sama tempat Anda menjalankan tim.",
         "chips": [
           "Penilaian",
           "Gaji",
@@ -1628,7 +1628,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Helpdesk Ask-HR",
-        "body": "Ruang privat bagi staf untuk mengajukan pertanyaan dan kasus HR, dengan waktu respons dan jejak yang jelas — terpisah dari dukungan produk.",
+        "body": "Ruang privat bagi staf untuk mengajukan pertanyaan dan kasus HR, dengan waktu respons dan jejak yang jelas - terpisah dari dukungan produk.",
         "chips": [
           "Privat",
           "Terlacak",
@@ -1646,7 +1646,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Aplikasi karyawan gratis",
-        "body": "Setiap karyawan mendapat login Sundae gratis — shift, cuti, slip gaji, dan absensi, semua dalam genggaman.",
+        "body": "Setiap karyawan mendapat login Sundae gratis - shift, cuti, slip gaji, dan absensi, semua dalam genggaman.",
         "chips": [
           "Shift & cuti",
           "Slip gaji",
@@ -1659,18 +1659,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Rekrut & onboarding",
-        "body": "Karyawan baru masuk ke satu catatan sejak hari pertama — berkas, dokumen, dan semuanya."
+        "body": "Karyawan baru masuk ke satu catatan sejak hari pertama - berkas, dokumen, dan semuanya."
       },
       {
         "title": "Kelola sehari-hari",
-        "body": "Dokumen, penilaian, cuti, dan kasus semua ada di catatan itu — aman dan mudah ditemukan."
+        "body": "Dokumen, penilaian, cuti, dan kasus semua ada di catatan itu - aman dan mudah ditemukan."
       },
       {
         "title": "Offboarding rapi",
         "body": "Gaji terakhir, langkah keluar, dan catatan dibereskan tanpa ada yang menggantung."
       }
     ],
-    "loopLine": "Setiap perubahan memberi makan Labor Intelligence otomatis — tanpa ekspor terpisah, tanpa input ulang.",
+    "loopLine": "Setiap perubahan memberi makan Labor Intelligence otomatis - tanpa ekspor terpisah, tanpa input ulang.",
     "creamEyebrow": "Satu catatan, seluruh tim",
     "creamStatement": "Lapisan SDM yang memberi makan platform.",
     "creamLede": "Kebanyakan operator menjalankan HR di alat yang tak pernah dilihat analitik mereka. Crew People menyimpan seluruh perjalanan dalam satu catatan, jadi data SDM yang sama mengalir langsung ke keputusan Anda.",
@@ -1678,7 +1678,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR adalah satu bagian dari lapisan operasional.",
     "ctaEyebrow": "Pensiunkan silo HR",
     "ctaTitle": "Lihat perjalanannya dalam satu catatan.",
-    "ctaDescription": "30 menit, dengan operasi Anda. Kami telusuri onboarding, dokumen, penilaian, dan offboarding — serta bagaimana tiap langkah mempertajam Labor Intelligence.",
+    "ctaDescription": "30 menit, dengan operasi Anda. Kami telusuri onboarding, dokumen, penilaian, dan offboarding - serta bagaimana tiap langkah mempertajam Labor Intelligence.",
     "ctaPrimary": "Jadwalkan demo Crew",
     "ctaSecondary": "Jelajahi Sundae Crew"
   },
@@ -1686,7 +1686,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Nhân sự & HR",
     "heroLine1": "Tuyển đến nghỉ việc,",
     "heroLine2": "một hồ sơ duy nhất.",
-    "description": "Crew People vận hành trọn hành trình của mỗi nhân viên — tuyển dụng, hội nhập, giấy tờ, đánh giá, nghỉ phép và thôi việc — trên một hồ sơ cho mỗi người, chảy thẳng vào Sundae, thay vì nằm trong một công cụ HR riêng chẳng ai mở.",
+    "description": "Crew People vận hành trọn hành trình của mỗi nhân viên - tuyển dụng, hội nhập, giấy tờ, đánh giá, nghỉ phép và thôi việc - trên một hồ sơ cho mỗi người, chảy thẳng vào Sundae, thay vì nằm trong một công cụ HR riêng chẳng ai mở.",
     "primaryCta": "Đặt lịch demo Crew",
     "secondaryCta": "Xem Crew vận hành",
     "heroProof": [
@@ -1709,11 +1709,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Có gì trong People & HR",
     "featuresTitle": "Trọn hành trình nhân viên, gói gọn một nơi.",
-    "featuresDescription": "Mọi giai đoạn nhân viên gắn bó với bạn trên một hồ sơ — dễ tìm, an toàn, và mặc định nuôi dưỡng quyết định.",
+    "featuresDescription": "Mọi giai đoạn nhân viên gắn bó với bạn trên một hồ sơ - dễ tìm, an toàn, và mặc định nuôi dưỡng quyết định.",
     "features": [
       {
         "title": "Tuyển dụng đến thôi việc",
-        "body": "Tuyển người, kiểm tra lý lịch, hội nhập, điều chuyển nội bộ và lương cuối — trọn hành trình, không phải một lát cắt.",
+        "body": "Tuyển người, kiểm tra lý lịch, hội nhập, điều chuyển nội bộ và lương cuối - trọn hành trình, không phải một lát cắt.",
         "chips": [
           "Hội nhập",
           "Điều chuyển nội bộ",
@@ -1731,7 +1731,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Đánh giá & phát triển",
-        "body": "Đánh giá hiệu suất, lương, nhân tài và thăng tiến — những quyết định về con người, ra ngay tại nơi bạn vận hành đội.",
+        "body": "Đánh giá hiệu suất, lương, nhân tài và thăng tiến - những quyết định về con người, ra ngay tại nơi bạn vận hành đội.",
         "chips": [
           "Đánh giá",
           "Lương",
@@ -1740,7 +1740,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR helpdesk",
-        "body": "Một nơi riêng tư để nhân viên đặt câu hỏi và mở vụ việc HR, có thời gian phản hồi và dấu vết rõ ràng — tách biệt khỏi hỗ trợ sản phẩm.",
+        "body": "Một nơi riêng tư để nhân viên đặt câu hỏi và mở vụ việc HR, có thời gian phản hồi và dấu vết rõ ràng - tách biệt khỏi hỗ trợ sản phẩm.",
         "chips": [
           "Riêng tư",
           "Theo dõi",
@@ -1758,7 +1758,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "App nhân viên miễn phí",
-        "body": "Mỗi nhân viên có một tài khoản Sundae miễn phí — ca làm, nghỉ phép, phiếu lương và chấm công, tất cả gọn trong túi.",
+        "body": "Mỗi nhân viên có một tài khoản Sundae miễn phí - ca làm, nghỉ phép, phiếu lương và chấm công, tất cả gọn trong túi.",
         "chips": [
           "Ca & nghỉ phép",
           "Phiếu lương",
@@ -1771,18 +1771,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Tuyển & hội nhập",
-        "body": "Người mới có một hồ sơ ngay từ ngày đầu — giấy tờ, tài liệu, tất cả."
+        "body": "Người mới có một hồ sơ ngay từ ngày đầu - giấy tờ, tài liệu, tất cả."
       },
       {
         "title": "Quản lý hằng ngày",
-        "body": "Tài liệu, đánh giá, nghỉ phép và vụ việc đều nằm trên hồ sơ đó — an toàn và dễ tìm."
+        "body": "Tài liệu, đánh giá, nghỉ phép và vụ việc đều nằm trên hồ sơ đó - an toàn và dễ tìm."
       },
       {
         "title": "Thôi việc gọn gàng",
         "body": "Lương cuối, các bước thôi việc và hồ sơ khép lại không vướng mắc."
       }
     ],
-    "loopLine": "Mọi thay đổi tự động chảy vào Labor Intelligence — không cần xuất riêng, không gõ lại.",
+    "loopLine": "Mọi thay đổi tự động chảy vào Labor Intelligence - không cần xuất riêng, không gõ lại.",
     "creamEyebrow": "Một hồ sơ, cả đội",
     "creamStatement": "Lớp nhân sự nuôi dưỡng cả nền tảng.",
     "creamLede": "Hầu hết nhà điều hành chạy HR trong một công cụ mà phân tích của họ không bao giờ thấy. Crew People giữ trọn hành trình trên một hồ sơ, nên cùng dữ liệu nhân sự đó chảy thẳng vào quyết định của bạn.",
@@ -1790,7 +1790,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR chỉ là một mảnh của lớp vận hành.",
     "ctaEyebrow": "Xóa bỏ ốc đảo HR",
     "ctaTitle": "Xem trọn hành trình trên một hồ sơ.",
-    "ctaDescription": "30 phút, với hoạt động của bạn. Chúng tôi đi qua hội nhập, tài liệu, đánh giá và thôi việc — cùng cách mỗi bước sắc bén thêm Labor Intelligence.",
+    "ctaDescription": "30 phút, với hoạt động của bạn. Chúng tôi đi qua hội nhập, tài liệu, đánh giá và thôi việc - cùng cách mỗi bước sắc bén thêm Labor Intelligence.",
     "ctaPrimary": "Đặt lịch demo Crew",
     "ctaSecondary": "Khám phá Sundae Crew"
   },
@@ -1798,7 +1798,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Personal & HR",
     "heroLine1": "De la angajare la plecare,",
     "heroLine2": "o singură fișă.",
-    "description": "Crew People conduce întreaga călătorie a fiecărui angajat — angajare, integrare, documente, evaluări, concedii și plecare — pe o singură fișă per persoană care alimentează Sundae, în loc să stea într-un instrument HR separat pe care nu-l deschide nimeni.",
+    "description": "Crew People conduce întreaga călătorie a fiecărui angajat - angajare, integrare, documente, evaluări, concedii și plecare - pe o singură fișă per persoană care alimentează Sundae, în loc să stea într-un instrument HR separat pe care nu-l deschide nimeni.",
     "primaryCta": "Programează o demonstrație Crew",
     "secondaryCta": "Vezi Crew în acțiune",
     "heroProof": [
@@ -1821,11 +1821,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Ce conține People & HR",
     "featuresTitle": "Întreaga călătorie a angajatului, într-un singur loc.",
-    "featuresDescription": "Fiecare etapă din timpul petrecut de un angajat cu tine pe o singură fișă — ușor de găsit, sigură și alimentând deciziile implicit.",
+    "featuresDescription": "Fiecare etapă din timpul petrecut de un angajat cu tine pe o singură fișă - ușor de găsit, sigură și alimentând deciziile implicit.",
     "features": [
       {
         "title": "De la angajare la plecare",
-        "body": "Recrutare, verificări de fond, integrare, mișcări interne și plata finală — întreaga călătorie, nu o felie din ea.",
+        "body": "Recrutare, verificări de fond, integrare, mișcări interne și plata finală - întreaga călătorie, nu o felie din ea.",
         "chips": [
           "Integrare",
           "Mișcări interne",
@@ -1843,7 +1843,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Evaluări & creștere",
-        "body": "Evaluări de performanță, salariu, talent și promovări — deciziile despre oameni, luate chiar acolo unde îți conduci echipa.",
+        "body": "Evaluări de performanță, salariu, talent și promovări - deciziile despre oameni, luate chiar acolo unde îți conduci echipa.",
         "chips": [
           "Evaluări",
           "Salariu",
@@ -1852,7 +1852,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR helpdesk",
-        "body": "Un loc privat în care angajații ridică întrebări și cazuri HR, cu timpi de răspuns și o urmă clară — ținut separat de suportul pentru produs.",
+        "body": "Un loc privat în care angajații ridică întrebări și cazuri HR, cu timpi de răspuns și o urmă clară - ținut separat de suportul pentru produs.",
         "chips": [
           "Privat",
           "Urmărit",
@@ -1870,7 +1870,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Aplicație gratuită pentru angajați",
-        "body": "Fiecare angajat primește un cont Sundae gratuit — ture, concedii, fluturași de salariu și pontaj, toate în buzunar.",
+        "body": "Fiecare angajat primește un cont Sundae gratuit - ture, concedii, fluturași de salariu și pontaj, toate în buzunar.",
         "chips": [
           "Ture & concedii",
           "Fluturași de salariu",
@@ -1883,18 +1883,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Angajează & integrează",
-        "body": "Un nou venit ajunge pe o singură fișă din prima zi — cu acte, documente și tot."
+        "body": "Un nou venit ajunge pe o singură fișă din prima zi - cu acte, documente și tot."
       },
       {
         "title": "Gestionează zi de zi",
-        "body": "Documente, evaluări, concedii și cazuri trăiesc toate pe acea fișă — sigure și ușor de găsit."
+        "body": "Documente, evaluări, concedii și cazuri trăiesc toate pe acea fișă - sigure și ușor de găsit."
       },
       {
         "title": "Pleacă fără rest",
         "body": "Plata finală, pașii de plecare și actele se încheie fără fire rămase desfăcute."
       }
     ],
-    "loopLine": "Fiecare schimbare alimentează automat Labor Intelligence — fără export separat, fără retastare.",
+    "loopLine": "Fiecare schimbare alimentează automat Labor Intelligence - fără export separat, fără retastare.",
     "creamEyebrow": "O fișă, toată echipa",
     "creamStatement": "Stratul de oameni care alimentează platforma.",
     "creamLede": "Majoritatea operatorilor conduc HR-ul într-un instrument pe care analiza lor nu-l vede niciodată. Crew People păstrează întreaga călătorie pe o singură fișă, așa că aceleași date despre oameni curg direct în deciziile tale.",
@@ -1902,7 +1902,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR e doar o piesă a stratului operațional.",
     "ctaEyebrow": "Retrage siloul HR",
     "ctaTitle": "Vezi călătoria pe o singură fișă.",
-    "ctaDescription": "30 de minute, operațiunea ta. Parcurgem integrarea, documentele, evaluările și plecarea — și cum fiecare pas ascute Labor Intelligence.",
+    "ctaDescription": "30 de minute, operațiunea ta. Parcurgem integrarea, documentele, evaluările și plecarea - și cum fiecare pas ascute Labor Intelligence.",
     "ctaPrimary": "Programează o demonstrație Crew",
     "ctaSecondary": "Descoperă Sundae Crew"
   },
@@ -1910,7 +1910,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Personal & HR",
     "heroLine1": "Från anställning till avsked,",
     "heroLine2": "en enda akt.",
-    "description": "Crew People driver hela resan för varje anställd — rekrytering, onboarding, dokument, samtal, ledighet och avslut — på en enda akt per person som matar Sundae, i stället för att ligga i ett separat HR-verktyg som ingen öppnar.",
+    "description": "Crew People driver hela resan för varje anställd - rekrytering, onboarding, dokument, samtal, ledighet och avslut - på en enda akt per person som matar Sundae, i stället för att ligga i ett separat HR-verktyg som ingen öppnar.",
     "primaryCta": "Boka en Crew-genomgång",
     "secondaryCta": "Se Crew i praktiken",
     "heroProof": [
@@ -1933,11 +1933,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Det här finns i People & HR",
     "featuresTitle": "Hela medarbetarresan, på ett ställe.",
-    "featuresDescription": "Varje skede av en anställds tid hos dig på en enda akt — lätt att hitta, säker och matar besluten som standard.",
+    "featuresDescription": "Varje skede av en anställds tid hos dig på en enda akt - lätt att hitta, säker och matar besluten som standard.",
     "features": [
       {
         "title": "Från anställning till avslut",
-        "body": "Rekrytering, bakgrundskontroller, onboarding, interna byten och slutlön — hela resan, inte en bit av den.",
+        "body": "Rekrytering, bakgrundskontroller, onboarding, interna byten och slutlön - hela resan, inte en bit av den.",
         "chips": [
           "Onboarding",
           "Interna byten",
@@ -1955,7 +1955,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Samtal & utveckling",
-        "body": "Medarbetarsamtal, lön, talang och befordringar — personbesluten, fattade på samma ställe där du driver teamet.",
+        "body": "Medarbetarsamtal, lön, talang och befordringar - personbesluten, fattade på samma ställe där du driver teamet.",
         "chips": [
           "Samtal",
           "Lön",
@@ -1964,7 +1964,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR helpdesk",
-        "body": "En privat plats där personalen ställer HR-frågor och tar upp ärenden, med svarstider och ett tydligt spår — hållet separat från produktsupporten.",
+        "body": "En privat plats där personalen ställer HR-frågor och tar upp ärenden, med svarstider och ett tydligt spår - hållet separat från produktsupporten.",
         "chips": [
           "Privat",
           "Spårat",
@@ -1982,7 +1982,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Gratis medarbetarapp",
-        "body": "Varje anställd får en gratis Sundae-inloggning — pass, ledighet, lönebesked och instämpling, allt i fickan.",
+        "body": "Varje anställd får en gratis Sundae-inloggning - pass, ledighet, lönebesked och instämpling, allt i fickan.",
         "chips": [
           "Pass & ledighet",
           "Lönebesked",
@@ -1995,18 +1995,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Anställ & onboarda",
-        "body": "En ny medarbetare hamnar på en enda akt från dag ett — pappersarbete, dokument och allt."
+        "body": "En ny medarbetare hamnar på en enda akt från dag ett - pappersarbete, dokument och allt."
       },
       {
         "title": "Sköt om dag för dag",
-        "body": "Dokument, samtal, ledighet och ärenden lever alla på den akten — säkra och lätta att hitta."
+        "body": "Dokument, samtal, ledighet och ärenden lever alla på den akten - säkra och lätta att hitta."
       },
       {
         "title": "Avsluta rent",
         "body": "Slutlön, avslutssteg och handlingar knyts ihop utan lösa trådar."
       }
     ],
-    "loopLine": "Varje förändring matar Labor Intelligence automatiskt — ingen separat export, ingen omskrivning.",
+    "loopLine": "Varje förändring matar Labor Intelligence automatiskt - ingen separat export, ingen omskrivning.",
     "creamEyebrow": "En akt, hela teamet",
     "creamStatement": "Personallagret som matar plattformen.",
     "creamLede": "De flesta operatörer driver HR i ett verktyg som deras analys aldrig ser. Crew People håller hela resan på en enda akt, så att samma persondata flödar rakt in i dina beslut.",
@@ -2014,7 +2014,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR är bara en bit av det operativa lagret.",
     "ctaEyebrow": "Pensionera HR-silon",
     "ctaTitle": "Se resan på en enda akt.",
-    "ctaDescription": "30 minuter, din verksamhet. Vi går igenom onboarding, dokument, samtal och avslut — och hur varje steg skärper Labor Intelligence.",
+    "ctaDescription": "30 minuter, din verksamhet. Vi går igenom onboarding, dokument, samtal och avslut - och hur varje steg skärper Labor Intelligence.",
     "ctaPrimary": "Boka en Crew-genomgång",
     "ctaSecondary": "Utforska Sundae Crew"
   },
@@ -2022,7 +2022,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · People & HR",
     "heroLine1": "নিয়োগ থেকে বিদায়,",
     "heroLine2": "একটাই রেকর্ড।",
-    "description": "Crew People প্রতিটি কর্মীর গোটা যাত্রা চালায় — নিয়োগ, অনবোর্ডিং, ডকুমেন্ট, রিভিউ, ছুটি আর অফবোর্ডিং — প্রতি ব্যক্তির একটি রেকর্ডে, যা Sundae-কে খাওয়ায়, আলাদা কোনো HR টুলে পড়ে থাকে না যা কেউ খোলে না।",
+    "description": "Crew People প্রতিটি কর্মীর গোটা যাত্রা চালায় - নিয়োগ, অনবোর্ডিং, ডকুমেন্ট, রিভিউ, ছুটি আর অফবোর্ডিং - প্রতি ব্যক্তির একটি রেকর্ডে, যা Sundae-কে খাওয়ায়, আলাদা কোনো HR টুলে পড়ে থাকে না যা কেউ খোলে না।",
     "primaryCta": "একটি Crew ওয়াকথ্রু বুক করুন",
     "secondaryCta": "Crew-কে কাজে দেখুন",
     "heroProof": [
@@ -2045,11 +2045,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "People & HR-এ যা আছে",
     "featuresTitle": "কর্মীর গোটা যাত্রা, এক জায়গায়।",
-    "featuresDescription": "আপনার সঙ্গে কর্মীর সময়ের প্রতিটি ধাপ একটি রেকর্ডে — সহজে খুঁজে পাওয়া, নিরাপদ আর স্বভাবতই সিদ্ধান্তে খাওয়ায়।",
+    "featuresDescription": "আপনার সঙ্গে কর্মীর সময়ের প্রতিটি ধাপ একটি রেকর্ডে - সহজে খুঁজে পাওয়া, নিরাপদ আর স্বভাবতই সিদ্ধান্তে খাওয়ায়।",
     "features": [
       {
         "title": "নিয়োগ থেকে অফবোর্ডিং",
-        "body": "রিক্রুটিং, ব্যাকগ্রাউন্ড চেক, অনবোর্ডিং, অভ্যন্তরীণ বদলি আর চূড়ান্ত বেতন — গোটা যাত্রা, এর কোনো খণ্ডাংশ নয়।",
+        "body": "রিক্রুটিং, ব্যাকগ্রাউন্ড চেক, অনবোর্ডিং, অভ্যন্তরীণ বদলি আর চূড়ান্ত বেতন - গোটা যাত্রা, এর কোনো খণ্ডাংশ নয়।",
         "chips": [
           "অনবোর্ডিং",
           "অভ্যন্তরীণ বদলি",
@@ -2067,7 +2067,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "রিভিউ ও উন্নতি",
-        "body": "পারফরম্যান্স রিভিউ, বেতন, প্রতিভা আর পদোন্নতি — যেখানে আপনি টিম চালান, ঠিক সেখানেই মানুষ-সংক্রান্ত সিদ্ধান্ত।",
+        "body": "পারফরম্যান্স রিভিউ, বেতন, প্রতিভা আর পদোন্নতি - যেখানে আপনি টিম চালান, ঠিক সেখানেই মানুষ-সংক্রান্ত সিদ্ধান্ত।",
         "chips": [
           "রিভিউ",
           "বেতন",
@@ -2076,7 +2076,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Ask-HR হেল্পডেস্ক",
-        "body": "স্টাফদের HR প্রশ্ন ও কেস তোলার একটি ব্যক্তিগত জায়গা, রেসপন্স টাইম আর স্পষ্ট নথিসহ — প্রোডাক্ট সাপোর্ট থেকে আলাদা রাখা।",
+        "body": "স্টাফদের HR প্রশ্ন ও কেস তোলার একটি ব্যক্তিগত জায়গা, রেসপন্স টাইম আর স্পষ্ট নথিসহ - প্রোডাক্ট সাপোর্ট থেকে আলাদা রাখা।",
         "chips": [
           "ব্যক্তিগত",
           "ট্র্যাকড",
@@ -2094,7 +2094,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "ফ্রি এমপ্লয়ি অ্যাপ",
-        "body": "প্রত্যেক কর্মী একটি ফ্রি Sundae লগইন পান — শিফট, ছুটি, পে-স্লিপ আর ক্লক-ইন, সবই পকেটে।",
+        "body": "প্রত্যেক কর্মী একটি ফ্রি Sundae লগইন পান - শিফট, ছুটি, পে-স্লিপ আর ক্লক-ইন, সবই পকেটে।",
         "chips": [
           "শিফট ও ছুটি",
           "পে-স্লিপ",
@@ -2107,18 +2107,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "নিয়োগ ও অনবোর্ড",
-        "body": "নতুন কর্মী প্রথম দিন থেকেই একটি রেকর্ডে আসেন — কাগজপত্র, ডকুমেন্ট সব নিয়ে।"
+        "body": "নতুন কর্মী প্রথম দিন থেকেই একটি রেকর্ডে আসেন - কাগজপত্র, ডকুমেন্ট সব নিয়ে।"
       },
       {
         "title": "দৈনন্দিন সামলান",
-        "body": "ডকুমেন্ট, রিভিউ, ছুটি আর কেস সবই সেই রেকর্ডে থাকে — নিরাপদ আর সহজে খুঁজে পাওয়া।"
+        "body": "ডকুমেন্ট, রিভিউ, ছুটি আর কেস সবই সেই রেকর্ডে থাকে - নিরাপদ আর সহজে খুঁজে পাওয়া।"
       },
       {
         "title": "পরিচ্ছন্নভাবে অফবোর্ড",
         "body": "চূড়ান্ত বেতন, বিদায়ের ধাপ আর রেকর্ড কোনো ফাঁক না রেখে গুটিয়ে যায়।"
       }
     ],
-    "loopLine": "প্রতিটি পরিবর্তন স্বয়ংক্রিয়ভাবে Labor Intelligence-এ যায় — আলাদা এক্সপোর্ট নেই, নতুন টাইপিং নেই।",
+    "loopLine": "প্রতিটি পরিবর্তন স্বয়ংক্রিয়ভাবে Labor Intelligence-এ যায় - আলাদা এক্সপোর্ট নেই, নতুন টাইপিং নেই।",
     "creamEyebrow": "একটাই রেকর্ড, গোটা টিম",
     "creamStatement": "যে পিপল লেয়ার প্ল্যাটফর্মকে খাওয়ায়।",
     "creamLede": "বেশিরভাগ অপারেটর HR চালান এমন এক টুলে যা তাদের অ্যানালিটিক্স কখনও দেখে না। Crew People গোটা যাত্রা একটি রেকর্ডে রাখে, তাই সেই একই পিপল ডেটা সরাসরি আপনার সিদ্ধান্তে বইতে থাকে।",
@@ -2126,7 +2126,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR অপারেশনাল লেয়ারের একটিমাত্র অংশ।",
     "ctaEyebrow": "HR সাইলো অবসর করুন",
     "ctaTitle": "একটি রেকর্ডে গোটা যাত্রা দেখুন।",
-    "ctaDescription": "৩০ মিনিট, আপনার অপারেশন। আমরা অনবোর্ডিং, ডকুমেন্ট, রিভিউ আর অফবোর্ডিং ঘুরিয়ে দেখাই — আর প্রতিটি ধাপ কীভাবে Labor Intelligence-কে ধারালো করে।",
+    "ctaDescription": "৩০ মিনিট, আপনার অপারেশন। আমরা অনবোর্ডিং, ডকুমেন্ট, রিভিউ আর অফবোর্ডিং ঘুরিয়ে দেখাই - আর প্রতিটি ধাপ কীভাবে Labor Intelligence-কে ধারালো করে।",
     "ctaPrimary": "একটি Crew ওয়াকথ্রু বুক করুন",
     "ctaSecondary": "Sundae Crew ঘুরে দেখুন"
   },
@@ -2246,7 +2246,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · People & HR",
     "heroLine1": "Ambil kerja hingga berhenti,",
     "heroLine2": "satu rekod.",
-    "description": "Crew People menguruskan seluruh perjalanan setiap pekerja — pengambilan, orientasi, dokumen, penilaian, cuti dan pemberhentian — pada satu rekod setiap orang yang menyuap Sundae, bukannya tersimpan dalam alat HR berasingan yang tiada sesiapa buka.",
+    "description": "Crew People menguruskan seluruh perjalanan setiap pekerja - pengambilan, orientasi, dokumen, penilaian, cuti dan pemberhentian - pada satu rekod setiap orang yang menyuap Sundae, bukannya tersimpan dalam alat HR berasingan yang tiada sesiapa buka.",
     "primaryCta": "Tempah sesi tunjuk cara Crew",
     "secondaryCta": "Lihat Crew beraksi",
     "heroProof": [
@@ -2269,11 +2269,11 @@ export const generatedLocalCopy = {
     ],
     "featuresEyebrow": "Apa yang ada dalam People & HR",
     "featuresTitle": "Seluruh perjalanan pekerja, di satu tempat.",
-    "featuresDescription": "Setiap peringkat masa pekerja bersama anda pada satu rekod — mudah dicari, selamat, dan menyuap keputusan secara lalai.",
+    "featuresDescription": "Setiap peringkat masa pekerja bersama anda pada satu rekod - mudah dicari, selamat, dan menyuap keputusan secara lalai.",
     "features": [
       {
         "title": "Pengambilan hingga pemberhentian",
-        "body": "Pengambilan, semakan latar belakang, orientasi, pertukaran dalaman dan gaji akhir — seluruh perjalanan, bukan sekerat daripadanya.",
+        "body": "Pengambilan, semakan latar belakang, orientasi, pertukaran dalaman dan gaji akhir - seluruh perjalanan, bukan sekerat daripadanya.",
         "chips": [
           "Orientasi",
           "Pertukaran dalaman",
@@ -2291,7 +2291,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Penilaian & pertumbuhan",
-        "body": "Penilaian prestasi, gaji, bakat dan kenaikan pangkat — keputusan tentang orang, dibuat di tempat yang sama anda mengurus pasukan.",
+        "body": "Penilaian prestasi, gaji, bakat dan kenaikan pangkat - keputusan tentang orang, dibuat di tempat yang sama anda mengurus pasukan.",
         "chips": [
           "Penilaian",
           "Gaji",
@@ -2300,7 +2300,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Meja bantuan Ask-HR",
-        "body": "Tempat persendirian untuk staf mengemukakan soalan dan kes HR, dengan masa respons dan jejak yang jelas — diasingkan daripada sokongan produk.",
+        "body": "Tempat persendirian untuk staf mengemukakan soalan dan kes HR, dengan masa respons dan jejak yang jelas - diasingkan daripada sokongan produk.",
         "chips": [
           "Persendirian",
           "Dijejak",
@@ -2318,7 +2318,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Apl pekerja percuma",
-        "body": "Setiap pekerja mendapat log masuk Sundae percuma — syif, cuti, slip gaji dan ketik masuk, semuanya dalam poket mereka.",
+        "body": "Setiap pekerja mendapat log masuk Sundae percuma - syif, cuti, slip gaji dan ketik masuk, semuanya dalam poket mereka.",
         "chips": [
           "Syif & cuti",
           "Slip gaji",
@@ -2331,18 +2331,18 @@ export const generatedLocalCopy = {
     "howSteps": [
       {
         "title": "Ambil & orientasi",
-        "body": "Pekerja baharu mendarat pada satu rekod dari hari pertama — kertas kerja, dokumen dan semuanya."
+        "body": "Pekerja baharu mendarat pada satu rekod dari hari pertama - kertas kerja, dokumen dan semuanya."
       },
       {
         "title": "Urus hari ke hari",
-        "body": "Dokumen, penilaian, cuti dan kes semuanya hidup pada rekod itu — selamat dan mudah dicari."
+        "body": "Dokumen, penilaian, cuti dan kes semuanya hidup pada rekod itu - selamat dan mudah dicari."
       },
       {
         "title": "Berhenti dengan kemas",
         "body": "Gaji akhir, langkah pemberhentian dan rekod selesai tanpa apa-apa yang tergantung."
       }
     ],
-    "loopLine": "Setiap perubahan menyuap Labor Intelligence secara automatik — tiada eksport berasingan, tiada kunci semula.",
+    "loopLine": "Setiap perubahan menyuap Labor Intelligence secara automatik - tiada eksport berasingan, tiada kunci semula.",
     "creamEyebrow": "Satu rekod, seluruh pasukan",
     "creamStatement": "Lapisan manusia yang menyuap platform.",
     "creamLede": "Kebanyakan operator menjalankan HR dalam alat yang analitik mereka tidak pernah nampak. Crew People menyimpan seluruh perjalanan pada satu rekod, jadi data orang yang sama mengalir terus ke keputusan anda.",
@@ -2350,7 +2350,7 @@ export const generatedLocalCopy = {
     "relatedTitle": "People & HR hanyalah satu bahagian lapisan operasi.",
     "ctaEyebrow": "Bersarakan silo HR",
     "ctaTitle": "Lihat perjalanan pada satu rekod.",
-    "ctaDescription": "30 minit, operasi anda. Kami tunjukkan orientasi, dokumen, penilaian dan pemberhentian — serta bagaimana setiap langkah mempertajam Labor Intelligence.",
+    "ctaDescription": "30 minit, operasi anda. Kami tunjukkan orientasi, dokumen, penilaian dan pemberhentian - serta bagaimana setiap langkah mempertajam Labor Intelligence.",
     "ctaPrimary": "Tempah sesi tunjuk cara Crew",
     "ctaSecondary": "Terokai Sundae Crew"
   }

@@ -60,7 +60,7 @@ type LocalizedFourD = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   en: {
     eyebrow: "THE 4D INTELLIGENCE MODEL",
-    headline: "Watch one revenue problem become a decision.",
+    headline: "Watch one revenue problem become a measured result.",
     description: "Sundae connects performance, plan, market context, and next action - so teams can move before the shift is over.",
     scenarioTime: "TUESDAY · 9:14 AM · DOWNTOWN",
     scenarioHook: "Lunch revenue is pacing 14% behind plan.",
@@ -92,7 +92,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   ar: {
     eyebrow: "نموذج الذكاء رباعي الأبعاد",
-    headline: "شاهد مشكلة إيرادات واحدة تتحول إلى قرار.",
+    headline: "شاهد مشكلة إيرادات واحدة تتحول إلى نتيجة مقاسة.",
     description: "Sundae يربط الأداء والخطة وسياق السوق والخطوة التالية - فتستطيع الفِرَق التحرك قبل نهاية الوردية.",
     scenarioTime: "الثلاثاء · 9:14 صباحاً · وسط المدينة",
     scenarioHook: "إيرادات الغداء تتأخر 14% خلف الخطة.",
@@ -124,7 +124,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   fr: {
     eyebrow: "LE MODÈLE D'INTELLIGENCE 4D",
-    headline: "Regardez un problème de revenu devenir une décision.",
+    headline: "Regardez un probleme de revenu devenir un resultat mesure.",
     description: "Sundae connecte performance, plan, contexte marché et action suivante - pour que les équipes bougent avant la fin du service.",
     scenarioTime: "MARDI · 9H14 · CENTRE-VILLE",
     scenarioHook: "Le revenu déjeuner est à 14% en dessous du plan.",
@@ -156,7 +156,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   es: {
     eyebrow: "EL MODELO DE INTELIGENCIA 4D",
-    headline: "Mira cómo un problema de ingresos se vuelve una decisión.",
+    headline: "Mira como un problema de ingresos se vuelve un resultado medido.",
     description: "Sundae conecta rendimiento, plan, contexto de mercado y próxima acción - para que los equipos actúen antes de que termine el turno.",
     scenarioTime: "MARTES · 9:14 AM · CENTRO",
     scenarioHook: "El ingreso del almuerzo va 14% atrás del plan.",
@@ -242,7 +242,7 @@ export function Section4DScene() {
         >
           {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
               Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
-          {/* Through-line stepper — numbered nodes joined by a connector that
+          {/* Through-line stepper - numbered nodes joined by a connector that
               fills as the scenario reasons forward (what happened → the fix). */}
           <div className="relative mx-auto mb-5 sm:mb-6 max-w-2xl">
             <div className="absolute left-[12.5%] right-[12.5%] top-[15px] h-0.5 rounded-full bg-[var(--border-default)]" aria-hidden />

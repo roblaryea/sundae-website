@@ -20,7 +20,7 @@ import { LOC } from './locales/CoreInsightsAskMobile.locales';
 
 const EN = {
   // header
-  agentName: 'Sundae Intelligence',
+  agentName: 'Ask Sundae',
   scope: 'Scoped: Delivery · DIFC · 7d',
   // user question
   question: 'Why did delivery orders drop 12%?',
@@ -45,7 +45,7 @@ const EN = {
   actLog: 'Log decision · weekend promo',
   actDrill: 'Drill by platform',
   // composer
-  followUpPlaceholder: 'Ask a follow-up…',
+  followUpPlaceholder: 'Ask a follow-up...',
 } as const;
 
 const T = {

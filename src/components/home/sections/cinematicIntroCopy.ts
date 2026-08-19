@@ -1,21 +1,21 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
 // Locale copy for the cinematic intro. Everything localizes, including the
-// "See every layer. / Act in time." headline (native transcreation per locale).
+// "Recover the profit. / Prove what worked." headline (native transcreation per locale).
 export type CinematicLayer = { name: string; sub: string };
 export type CinematicIntroCopy = { headline: string; tagline: string; eyebrow: string; sub: string; cta: string; layers: CinematicLayer[] };
 
 export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
   en: {
-    headline: 'See every layer.',
-    tagline: 'Act in time.',
+    headline: 'Recover the profit.',
+    tagline: 'Prove what worked.',
     eyebrow: 'The decision-intelligence platform for multi-location operators',
-    sub: 'Sundae connects every layer of the business - revenue, labor, inventory, guests, marketing, and outlet performance - so teams can see what changed and act while it still matters.',
+    sub: 'Sundae connects the systems you already run - finds the profit leaking across revenue, labour, inventory and guests - then gives each opportunity one owner and measures what came back.',
     cta: 'Book a demo',
     layers: [
       { name: 'Foundation', sub: 'org topology' },
       { name: 'Revenue', sub: 'sales & mix' },
-      { name: 'Labor', sub: 'crew & cost' },
+      { name: 'Labour', sub: 'crew & cost' },
       { name: 'Inventory', sub: 'stock & waste' },
       { name: 'Marketing', sub: 'reach & ROI' },
       { name: 'Guests', sub: 'CRM & loyalty' },
@@ -23,10 +23,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ar: {
-    headline: 'اطّلع على كل طبقة.',
-    tagline: 'وتحرّك في الوقت المناسب.',
+    headline: 'استرجع الأرباح.',
+    tagline: 'وأثبت ما نجح.',
     eyebrow: 'منصّة الذكاء القراري لمشغّلي المواقع المتعددة',
-    sub: 'يربط Sundae كل طبقة من نشاطك - الإيرادات والعمالة والمخزون والضيوف والتسويق وأداء الفروع - ليرى الفريق ما تغيّر ويتصرّف وهو ما زال مهماً.',
+    sub: 'يتصل Sundae بالأنظمة التي تشغّلها اليوم - ويكشف الأرباح المتسرّبة عبر الإيرادات والعمالة والمخزون والضيوف - ثم يسند كل فرصة إلى مسؤول واحد ويقيس ما استُرجع فعلاً.',
     cta: 'احجز عرضاً',
     layers: [
       { name: 'الأساس', sub: 'هيكل المؤسسة' },
@@ -39,10 +39,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   fr: {
-    headline: 'Voyez chaque couche.',
-    tagline: 'Agissez à temps.',
+    headline: 'Récupérez la marge.',
+    tagline: 'Prouvez ce qui a marché.',
     eyebrow: 'La plateforme d’intelligence décisionnelle pour opérateurs multi-sites',
-    sub: 'Sundae relie chaque couche de l’activité - revenu, main-d’œuvre, stocks, clients, marketing et performance des points de vente - pour que les équipes voient ce qui a changé et agissent tant que ça compte.',
+    sub: 'Sundae se connecte aux systèmes que vous utilisez déjà - repère la marge qui fuit sur les ventes, la main-d\'œuvre, les stocks et les clients - puis confie chaque opportunité à un responsable et mesure ce qui est revenu.',
     cta: 'Réserver une démo',
     layers: [
       { name: 'Fondation', sub: 'topologie org' },
@@ -55,10 +55,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   es: {
-    headline: 'Ve cada capa.',
-    tagline: 'Actúa a tiempo.',
+    headline: 'Recupera el margen.',
+    tagline: 'Demuestra qué funcionó.',
     eyebrow: 'La plataforma de inteligencia de decisión para operadores multilocal',
-    sub: 'Sundae conecta cada capa del negocio - ingresos, personal, inventario, clientes, marketing y rendimiento de locales - para que los equipos vean qué cambió y actúen cuando aún importa.',
+    sub: 'Sundae se conecta a los sistemas que ya usas - detecta el margen que se escapa en ventas, personal, inventario y clientes - y asigna cada oportunidad a un responsable, midiendo lo que se recuperó.',
     cta: 'Reservar una demo',
     layers: [
       { name: 'Base', sub: 'topología org' },
@@ -71,10 +71,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   de: {
-    headline: 'Sieh jede Ebene.',
-    tagline: 'Handle rechtzeitig.',
+    headline: 'Holen Sie die Marge zurück.',
+    tagline: 'Beweisen Sie, was gewirkt hat.',
     eyebrow: 'Die Entscheidungsintelligenz-Plattform für Betreiber mit mehreren Standorten',
-    sub: 'Sundae verbindet jede Ebene des Betriebs - Umsatz, Personal, Inventar, Gäste, Marketing und Standortleistung - damit Teams sehen, was sich geändert hat, und handeln, solange es zählt.',
+    sub: 'Sundae verbindet die Systeme, die Sie ohnehin nutzen - findet die Marge, die über Umsatz, Personal, Bestand und Gäste verloren geht - und gibt jeder Chance einen Verantwortlichen und misst, was zurückkam.',
     cta: 'Demo buchen',
     layers: [
       { name: 'Fundament', sub: 'Org-Topologie' },
@@ -87,10 +87,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   nl: {
-    headline: 'Zie elke laag.',
-    tagline: 'Handel op tijd.',
+    headline: 'Haal de marge terug.',
+    tagline: 'Bewijs wat werkte.',
     eyebrow: 'Het decision intelligence-platform voor operators met meerdere vestigingen',
-    sub: 'Sundae verbindt elke laag van de zaak - omzet, personeel, voorraad, gasten, marketing en vestigingsprestaties - zodat teams zien wat veranderde en handelen terwijl het nog telt.',
+    sub: 'Sundae koppelt de systemen die je al gebruikt - vindt de marge die weglekt via omzet, personeel, voorraad en gasten - en geeft elke kans één eigenaar en meet wat er terugkwam.',
     cta: 'Demo boeken',
     layers: [
       { name: 'Fundament', sub: 'org-topologie' },
@@ -103,10 +103,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   pt: {
-    headline: 'Veja cada camada.',
-    tagline: 'Aja a tempo.',
+    headline: 'Recupere a margem.',
+    tagline: 'Prove o que funcionou.',
     eyebrow: 'A plataforma de decision intelligence para operadores multiunidade',
-    sub: 'O Sundae conecta cada camada do negócio - receita, equipe, estoque, clientes, marketing e desempenho das unidades - para as equipes verem o que mudou e agirem enquanto ainda importa.',
+    sub: 'A Sundae conecta os sistemas que você já usa - encontra a margem que escapa em vendas, mão de obra, estoque e clientes - e dá um responsável a cada oportunidade, medindo o que voltou.',
     cta: 'Agendar demo',
     layers: [
       { name: 'Base', sub: 'topologia org' },
@@ -119,10 +119,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   hi: {
-    headline: 'हर परत देखें।',
-    tagline: 'समय रहते कदम उठाएँ।',
+    headline: 'मुनाफ़ा वापस पाइए.',
+    tagline: 'और साबित कीजिए क्या काम आया.',
     eyebrow: 'मल्टी-लोकेशन ऑपरेटरों के लिए डिसीज़न इंटेलिजेंस प्लेटफ़ॉर्म',
-    sub: 'Sundae कारोबार की हर परत को जोड़ता है - रेवेन्यू, लेबर, इन्वेंटरी, मेहमान, मार्केटिंग और आउटलेट परफ़ॉर्मेंस - ताकि टीमें देखें क्या बदला और तब कदम उठाएँ जब यह मायने रखता है।',
+    sub: 'Sundae आपके मौजूदा सिस्टम से जुड़ता है - राजस्व, श्रम, इन्वेंट्री और मेहमानों में रिस रहे मुनाफ़े को पकड़ता है - फिर हर अवसर को एक ज़िम्मेदार सौंपकर मापता है कि कितना वापस आया.',
     cta: 'डेमो बुक करें',
     layers: [
       { name: 'नींव', sub: 'ऑर्ग टोपोलॉजी' },
@@ -135,10 +135,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ur: {
-    headline: 'ہر پرت دیکھیں۔',
-    tagline: 'وقت پر عمل کریں۔',
+    headline: 'منافع واپس حاصل کریں۔',
+    tagline: 'اور ثابت کریں کیا کام آیا۔',
     eyebrow: 'متعدد مقامات والے آپریٹرز کے لیے ڈیسیژن انٹیلیجنس پلیٹ فارم',
-    sub: 'Sundae کاروبار کی ہر پرت کو جوڑتا ہے - ریونیو، لیبر، انوینٹری، مہمان، مارکیٹنگ اور آؤٹ لیٹ کارکردگی - تاکہ ٹیمیں دیکھیں کیا بدلا اور تب عمل کریں جب یہ اہم ہو۔',
+    sub: 'Sundae آپ کے موجودہ نظاموں سے جڑتا ہے - آمدنی، محنت، انوینٹری اور مہمانوں میں ضائع ہوتا منافع تلاش کرتا ہے - پھر ہر موقع ایک ذمہ دار کے سپرد کر کے ماپتا ہے کہ کتنا واپس آیا۔',
     cta: 'ڈیمو بُک کریں',
     layers: [
       { name: 'بنیاد', sub: 'آرگ ٹوپولوجی' },
@@ -151,10 +151,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   it: {
-    headline: 'Vedi ogni livello.',
-    tagline: 'Agisci in tempo.',
+    headline: 'Recupera il margine.',
+    tagline: 'Dimostra cosa ha funzionato.',
     eyebrow: 'La piattaforma di decision intelligence per operatori multi-sede',
-    sub: 'Sundae collega ogni livello dell’attività - ricavi, personale, magazzino, clienti, marketing e performance dei locali - così i team vedono cosa è cambiato e agiscono finché conta.',
+    sub: 'Sundae si collega ai sistemi che già usi - individua il margine che si perde tra ricavi, personale, magazzino e ospiti - poi assegna ogni opportunità a un responsabile e misura quanto è rientrato.',
     cta: 'Prenota una demo',
     layers: [
       { name: 'Base', sub: 'topologia org' },
@@ -167,10 +167,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   pl: {
-    headline: 'Zobacz każdą warstwę.',
-    tagline: 'Działaj na czas.',
+    headline: 'Odzyskaj marżę.',
+    tagline: 'Udowodnij, co zadziałało.',
     eyebrow: 'Platforma decision intelligence dla operatorów wielolokalizacyjnych',
-    sub: 'Sundae łączy każdą warstwę biznesu - przychód, kadry, magazyn, gości, marketing i wyniki lokali - by zespoły widziały, co się zmieniło, i działały, póki to ma znaczenie.',
+    sub: 'Sundae łączy się z systemami, których już używasz - znajduje marżę traconą w przychodach, pracy, zapasach i gościach - a potem przypisuje każdą szansę jednej osobie i mierzy, ile wróciło.',
     cta: 'Umów demo',
     layers: [
       { name: 'Fundament', sub: 'topologia org' },
@@ -183,10 +183,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   tr: {
-    headline: 'Her katmanı gör.',
-    tagline: 'Zamanında harekete geç.',
+    headline: 'Kârı geri kazanın.',
+    tagline: 'Neyin işe yaradığını kanıtlayın.',
     eyebrow: 'Çok şubeli işletmeciler için decision intelligence platformu',
-    sub: 'Sundae işin her katmanını birbirine bağlar - gelir, personel, envanter, misafirler, pazarlama ve şube performansı - böylece ekipler neyin değiştiğini görür ve hâlâ önemliyken harekete geçer.',
+    sub: 'Sundae hâlihazırda kullandığınız sistemlere bağlanır - ciro, işgücü, stok ve misafir tarafında sızan kârı bulur - sonra her fırsata tek bir sorumlu atar ve ne kadarının geri geldiğini ölçer.',
     cta: 'Demo planlayın',
     layers: [
       { name: 'Temel', sub: 'org topolojisi' },
@@ -199,10 +199,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   'zh-Hans': {
-    headline: '看见每一层。',
-    tagline: '及时行动。',
+    headline: '把利润追回来。',
+    tagline: '并证明什么真正奏效。',
     eyebrow: '面向多门店运营者的决策智能平台',
-    sub: 'Sundae 连接业务的每一层 - 营收、用工、库存、客人、营销与门店表现 - 让团队看清变化，并在仍来得及时采取行动。',
+    sub: 'Sundae 接入你已在使用的系统，找出在营收、人力、库存与客户环节流失的利润，为每一个机会指定唯一负责人，并衡量真正追回了多少。',
     cta: '预约演示',
     layers: [
       { name: '根基', sub: '组织拓扑' },
@@ -215,10 +215,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ja: {
-    headline: 'すべてのレイヤーを見る。',
-    tagline: '間に合ううちに動く。',
+    headline: '利益を取り戻す。',
+    tagline: '効果を証明する。',
     eyebrow: '多店舗オペレーター向けの意思決定インテリジェンス・プラットフォーム',
-    sub: 'Sundae はビジネスのあらゆるレイヤー - 売上、労務、在庫、ゲスト、マーケティング、店舗パフォーマンス - をつなぎ、何が変わったかをチームが把握し、間に合ううちに動けるようにします。',
+    sub: 'Sundae は既存のシステムに接続し、売上、人件費、在庫、顧客の各領域で漏れている利益を見つけ、機会ごとに担当者を一人定め、実際に戻った金額を測定します。',
     cta: 'デモを予約',
     layers: [
       { name: '基盤', sub: '組織トポロジー' },
@@ -231,10 +231,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ko: {
-    headline: '모든 계층을 보세요.',
-    tagline: '제때 움직이세요.',
+    headline: '이익을 되찾으세요.',
+    tagline: '무엇이 효과가 있었는지 증명하세요.',
     eyebrow: '다점포 운영자를 위한 의사결정 인텔리전스 플랫폼',
-    sub: 'Sundae는 비즈니스의 모든 계층 - 매출, 인력, 재고, 고객, 마케팅, 매장 성과 - 을 연결해 팀이 무엇이 바뀌었는지 보고 늦기 전에 움직이게 합니다.',
+    sub: 'Sundae는 이미 사용 중인 시스템에 연결해 매출, 인건비, 재고, 고객에서 새는 이익을 찾아내고, 기회마다 담당자를 한 명씩 지정하며, 실제로 얼마가 돌아왔는지 측정합니다.',
     cta: '데모 예약',
     layers: [
       { name: '기반', sub: '조직 구조' },
@@ -247,10 +247,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   id: {
-    headline: 'Lihat setiap lapisan.',
-    tagline: 'Bertindak tepat waktu.',
+    headline: 'Rebut kembali laba Anda.',
+    tagline: 'Lalu buktikan apa yang berhasil.',
     eyebrow: 'Platform decision intelligence untuk operator multi-lokasi',
-    sub: 'Sundae menghubungkan setiap lapisan bisnis - pendapatan, tenaga kerja, inventaris, tamu, pemasaran, dan kinerja outlet - agar tim melihat apa yang berubah dan bertindak selagi masih penting.',
+    sub: 'Sundae terhubung ke sistem yang sudah Anda pakai - menemukan laba yang bocor di pendapatan, tenaga kerja, persediaan dan tamu - lalu memberi satu penanggung jawab bagi tiap peluang dan mengukur berapa yang kembali.',
     cta: 'Pesan demo',
     layers: [
       { name: 'Fondasi', sub: 'topologi org' },
@@ -263,10 +263,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   vi: {
-    headline: 'Thấy mọi tầng.',
-    tagline: 'Hành động kịp thời.',
+    headline: 'Thu hồi lợi nhuận.',
+    tagline: 'Và chứng minh điều gì hiệu quả.',
     eyebrow: 'Nền tảng decision intelligence cho nhà điều hành nhiều chi nhánh',
-    sub: 'Sundae kết nối mọi tầng của doanh nghiệp - doanh thu, nhân sự, tồn kho, khách, marketing và hiệu suất chi nhánh - để đội ngũ thấy điều gì đã đổi và hành động khi còn kịp.',
+    sub: 'Sundae kết nối các hệ thống bạn đang dùng - tìm ra lợi nhuận thất thoát ở doanh thu, nhân công, tồn kho và khách hàng - rồi giao mỗi cơ hội cho một người chịu trách nhiệm và đo phần thu về.',
     cta: 'Đặt demo',
     layers: [
       { name: 'Nền tảng', sub: 'sơ đồ tổ chức' },
@@ -279,10 +279,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ro: {
-    headline: 'Vezi fiecare strat.',
-    tagline: 'Acționează la timp.',
+    headline: 'Recuperează marja.',
+    tagline: 'Dovedește ce a funcționat.',
     eyebrow: 'Platforma de decision intelligence pentru operatori multi-locație',
-    sub: 'Sundae conectează fiecare strat al afacerii - venit, personal, stocuri, clienți, marketing și performanța locațiilor - ca echipele să vadă ce s-a schimbat și să acționeze cât încă contează.',
+    sub: 'Sundae se conectează la sistemele pe care le folosești deja - găsește marja pierdută în vânzări, forță de muncă, stocuri și oaspeți - apoi atribuie fiecare oportunitate unui responsabil și măsoară cât s-a recuperat.',
     cta: 'Programează un demo',
     layers: [
       { name: 'Fundație', sub: 'topologie org' },
@@ -295,10 +295,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   sv: {
-    headline: 'Se varje lager.',
-    tagline: 'Agera i tid.',
+    headline: 'Ta tillbaka marginalen.',
+    tagline: 'Bevisa vad som fungerade.',
     eyebrow: 'Plattformen för decision intelligence för operatörer med flera enheter',
-    sub: 'Sundae kopplar ihop varje lager av verksamheten - intäkter, personal, lager, gäster, marknadsföring och enhetsprestanda - så att team ser vad som ändrades och agerar medan det fortfarande spelar roll.',
+    sub: 'Sundae kopplar ihop systemen ni redan använder - hittar marginalen som läcker i försäljning, personal, lager och gäster - och ger varje möjlighet en ansvarig och mäter vad som kom tillbaka.',
     cta: 'Boka en demo',
     layers: [
       { name: 'Grund', sub: 'org-topologi' },
@@ -311,10 +311,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   bn: {
-    headline: 'প্রতিটি স্তর দেখুন।',
-    tagline: 'সময় থাকতেই পদক্ষেপ নিন।',
+    headline: 'মুনাফা ফিরিয়ে আনুন।',
+    tagline: 'আর প্রমাণ করুন কী কাজ করেছে।',
     eyebrow: 'মাল্টি-লোকেশন অপারেটরদের জন্য ডিসিশন ইন্টেলিজেন্স প্ল্যাটফর্ম',
-    sub: 'Sundae ব্যবসার প্রতিটি স্তর - রাজস্ব, কর্মী, ইনভেন্টরি, অতিথি, মার্কেটিং ও আউটলেট পারফরম্যান্স - যুক্ত করে, যাতে টিম দেখে কী বদলালো এবং সময় থাকতেই পদক্ষেপ নেয়।',
+    sub: 'Sundae আপনার বিদ্যমান সিস্টেমের সঙ্গে যুক্ত হয় - রাজস্ব, শ্রম, ইনভেন্টরি ও অতিথিদের মধ্যে বেরিয়ে যাওয়া মুনাফা খুঁজে বের করে - তারপর প্রতিটি সুযোগে একজন দায়িত্বপ্রাপ্ত দিয়ে মাপে কতটা ফিরে এল।',
     cta: 'ডেমো বুক করুন',
     layers: [
       { name: 'ভিত্তি', sub: 'অর্গ টপোলজি' },
@@ -327,10 +327,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   th: {
-    headline: 'เห็นทุกชั้น',
-    tagline: 'ลงมือทันเวลา',
+    headline: 'ดึงกำไรกลับคืนมา',
+    tagline: 'และพิสูจน์ว่าอะไรได้ผล',
     eyebrow: 'แพลตฟอร์ม decision intelligence สำหรับผู้ดำเนินการหลายสาขา',
-    sub: 'Sundae เชื่อมทุกชั้นของธุรกิจ - รายได้ แรงงาน สินค้าคงคลัง ลูกค้า การตลาด และผลงานสาขา - เพื่อให้ทีมเห็นว่าอะไรเปลี่ยนและลงมือก่อนจะสาย',
+    sub: 'Sundae เชื่อมต่อกับระบบที่คุณใช้อยู่แล้ว - ค้นหากำไรที่รั่วไหลในรายได้ แรงงาน สินค้าคงคลัง และลูกค้า - แล้วมอบผู้รับผิดชอบหนึ่งคนต่อหนึ่งโอกาส และวัดว่ากลับคืนมาเท่าใด',
     cta: 'จองเดโม',
     layers: [
       { name: 'รากฐาน', sub: 'โครงสร้างองค์กร' },
@@ -343,10 +343,10 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     ],
   },
   ms: {
-    headline: 'Lihat setiap lapisan.',
-    tagline: 'Bertindak tepat pada masanya.',
+    headline: 'Dapatkan semula keuntungan.',
+    tagline: 'Buktikan apa yang berkesan.',
     eyebrow: 'Platform decision intelligence untuk pengendali berbilang lokasi',
-    sub: 'Sundae menghubungkan setiap lapisan perniagaan - hasil, tenaga kerja, inventori, tetamu, pemasaran dan prestasi outlet - supaya pasukan nampak apa yang berubah dan bertindak semasa ia masih penting.',
+    sub: 'Sundae menyambung sistem yang anda sudah guna - mengesan keuntungan yang bocor pada hasil, tenaga kerja, inventori dan tetamu - lalu memberikan satu penanggungjawab bagi setiap peluang dan mengukur berapa yang kembali.',
     cta: 'Tempah demo',
     layers: [
       { name: 'Asas', sub: 'topologi org' },

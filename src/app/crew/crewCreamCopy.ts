@@ -99,7 +99,7 @@ export const crewCreamCopy: Record<string, CrewCreamCopy> = {
   ko: {
     eyebrow: '사람의 영역',
     statement: '스프레드시트 *없이* 인력을 운영하세요.',
-    lede: '근무 편성, 근태, 급여 준비, 인사 - 모두 같은 인텔리전스로 모입니다.',
+    lede: '근무 편성, 근태, 급여 준비, 인사--모두 같은 인텔리전스로 모입니다.',
   },
   id: {
     eyebrow: 'SISI MANUSIA',

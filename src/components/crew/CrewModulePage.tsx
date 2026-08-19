@@ -110,7 +110,7 @@ export function CrewModulePage({
               <Link href="/demo"><Button variant="primary" size="lg">{copy.primaryCta}</Button></Link>
               <a href={REPORT_APP_URL}><Button variant="outline-light" size="lg">{copy.secondaryCta}</Button></a>
             </motion.div>
-            {/* Soft pricing indication — the pricing micro-site stays the authority
+            {/* Soft pricing indication - the pricing micro-site stays the authority
                 for tiers + dependencies. (Labels localized in the i18n pass.)
                 Crew SKUs are FLAT monthly under price book v1.7: the per-location
                 adder this line used to append is the retired v1.6 mechanic. */}

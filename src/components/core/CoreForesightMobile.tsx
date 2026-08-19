@@ -29,7 +29,7 @@ const EN = {
   actionTitle: 'Push dessert & coffee specials',
   actionBody:
     'Brief servers to upsell dessert on remaining tables this seating.',
-  closesTheGap: 'projected — closes the gap',
+  closesTheGap: 'projected - closes the gap',
   snooze: 'Snooze',
   briefTheFloor: 'Brief the floor',
 } as const;

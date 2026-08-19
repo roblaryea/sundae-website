@@ -61,7 +61,7 @@ type LocalizedModuleCopy = {
 
 type LocalizedModuleUi = {
   overviewNote: string;
-  addModuleLabel: (name: string) => string;
+  addModuleLabel: (name?: string) => string;
   examplesLabel: string;
   /**
    * The marginal-band worked example. Takes the figures already formatted from
@@ -448,7 +448,7 @@ const localizedModulesUi: Record<string, LocalizedModuleUi> = {
   en: {
     overviewNote:
       'Every Core package carries all eleven. The package sets how deep each one goes; the location bands set the price.',
-    addModuleLabel: (name) => `See ${name} in a package →`,
+    addModuleLabel: () => `See the packages →`,
     examplesLabel: 'Five locations on Core Foundation:',
     exampleLines: (v) => [
       `• First location: ${v.first}`,
@@ -466,7 +466,7 @@ const localizedModulesUi: Record<string, LocalizedModuleUi> = {
   },
   ar: {
     overviewNote: 'كل باقة Core تضم الوحدات الإحدى عشرة. الباقة تحدد عمق كل وحدة، وشرائح المواقع تحدد السعر.',
-    addModuleLabel: (name) => `شاهد ${name} ضمن الباقات →`,
+    addModuleLabel: () => `اطّلع على الباقات →`,
     examplesLabel: 'خمسة مواقع على Core Foundation:',
     exampleLines: (v) => [
       `• الموقع الأول: ${v.first}`,
@@ -485,7 +485,7 @@ const localizedModulesUi: Record<string, LocalizedModuleUi> = {
   fr: {
     overviewNote:
       'Chaque offre Core embarque les onze modules. L offre fixe leur profondeur, les tranches de sites fixent le prix.',
-    addModuleLabel: (name) => `Voir ${name} dans une offre →`,
+    addModuleLabel: () => `Voir les offres →`,
     examplesLabel: 'Cinq sites sur Core Foundation :',
     exampleLines: (v) => [
       `• Premier site : ${v.first}`,
@@ -504,7 +504,7 @@ const localizedModulesUi: Record<string, LocalizedModuleUi> = {
   es: {
     overviewNote:
       'Cada paquete Core lleva los once modulos. El paquete marca su profundidad y los tramos de locales marcan el precio.',
-    addModuleLabel: (name) => `Ver ${name} dentro de un paquete →`,
+    addModuleLabel: () => `Ver los paquetes →`,
     examplesLabel: 'Cinco locales en Core Foundation:',
     exampleLines: (v) => [
       `• Primer local: ${v.first}`,

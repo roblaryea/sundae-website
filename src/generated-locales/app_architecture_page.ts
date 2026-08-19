@@ -14,7 +14,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "محرك الذكاء الاصطناعي متعدد الوكلاء",
       "agentsDescription": "وكلاء الذكاء الاصطناعي المتخصصون يعملون معًا على الاكتشاف والتنبؤ والسياق.",
       "modulesTitle": "وحدات الهندسة المعمارية",
-      "modulesDescription": "خمس وحدات أساسية تعمل على تشغيل Sundae Intelligence Stack",
+      "modulesDescription": "خمس وحدات أساسية تعمل على تشغيل Ask Sundae Stack",
       "securityTitle": "أمن المؤسسات والامتثال",
       "securityDescription": "ضوابط الأمان والامتثال مصممة لبيانات تشغيل المطاعم الحساسة.",
       "engineeringTitle": "بنيت مع الهندسة المتميزة",
@@ -124,7 +124,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "محرك الذكاء الاصطناعي للمحادثة لذكاء اللغة الطبيعية",
           "icon": "forge",
           "features": [
@@ -280,7 +280,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Motor de IA multiagente",
       "agentsDescription": "Agentes de IA especializados que trabajan juntos en detección, pronóstico y contexto.",
       "modulesTitle": "Módulos de arquitectura",
-      "modulesDescription": "Cinco módulos principales que impulsan Sundae Intelligence Stack",
+      "modulesDescription": "Cinco módulos principales que impulsan Ask Sundae Stack",
       "securityTitle": "Seguridad y cumplimiento empresarial",
       "securityDescription": "Controles de seguridad y cumplimiento diseñados para datos operativos confidenciales de restaurantes.",
       "engineeringTitle": "Construido con ingeniería premium",
@@ -390,7 +390,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Motor de IA conversacional para inteligencia en lenguaje natural",
           "icon": "forge",
           "features": [
@@ -546,7 +546,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Moteur d'IA multi-agents",
       "agentsDescription": "Agents d'IA spécialisés travaillant ensemble sur la détection, la prévision et le contexte.",
       "modulesTitle": "Modules d'architecture",
-      "modulesDescription": "Cinq modules de base qui alimentent la Sundae Intelligence Stack",
+      "modulesDescription": "Cinq modules de base qui alimentent la Ask Sundae Stack",
       "securityTitle": "Sécurité et conformité d'entreprise",
       "securityDescription": "Contrôles de sécurité et de conformité conçus pour les données sensibles d'exploitation des restaurants.",
       "engineeringTitle": "Construit avec une ingénierie premium",
@@ -656,7 +656,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Moteur d'IA conversationnelle pour l'intelligence du langage naturel",
           "icon": "forge",
           "features": [
@@ -804,7 +804,7 @@ export const generatedLocalCopy = {
       "badge": "Plattformarchitektur",
       "title": "Fünfschichtiger Architekturstapel",
       "description": "Sehen Sie, wie Sundae über fünf Architekturebenen hinweg von rohen Restaurantdaten zu funktionierender Intelligenz übergeht.",
-      "stackTitle": "Der Sundae Intelligence Stack",
+      "stackTitle": "Der Ask Sundae Stack",
       "stackDescription": "Fünf Architekturebenen, die sechs Intelligence-Produkte unterstützen",
       "foundation": "Aufbauend auf einem soliden Fundament aus Sicherheit, Governance und Zuverlässigkeit",
       "flowTitle": "Von Daten zu Entscheidungen",
@@ -812,7 +812,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Multi-Agent-KI-Engine",
       "agentsDescription": "Spezialisierte KI-Agenten arbeiten bei Erkennung, Prognose und Kontext zusammen.",
       "modulesTitle": "Architekturmodule",
-      "modulesDescription": "Fünf Kernmodule, die den Sundae Intelligence Stack antreiben",
+      "modulesDescription": "Fünf Kernmodule, die den Ask Sundae Stack antreiben",
       "securityTitle": "Unternehmenssicherheit und Compliance",
       "securityDescription": "Sicherheits- und Compliance-Kontrollen für sensible Restaurantbetriebsdaten.",
       "engineeringTitle": "Gebaut mit erstklassiger Technik",
@@ -922,7 +922,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Konversations-KI-Engine für natürliche Sprachintelligenz",
           "icon": "forge",
           "features": [
@@ -1078,7 +1078,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Mecanismo de IA multiagente",
       "agentsDescription": "Agentes especializados em IA trabalhando juntos na detecção, previsão e contexto.",
       "modulesTitle": "Módulos de Arquitetura",
-      "modulesDescription": "Cinco módulos principais que alimentam o Sundae Intelligence Stack",
+      "modulesDescription": "Cinco módulos principais que alimentam o Ask Sundae Stack",
       "securityTitle": "Segurança e conformidade empresarial",
       "securityDescription": "Controles de segurança e conformidade criados para dados operacionais confidenciais de restaurantes.",
       "engineeringTitle": "Construído com Engenharia Premium",
@@ -1188,7 +1188,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Mecanismo de IA conversacional para inteligência de linguagem natural",
           "icon": "forge",
           "features": [
@@ -1344,7 +1344,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "AI-engine met meerdere agenten",
       "agentsDescription": "Gespecialiseerde AI-agenten die samenwerken op het gebied van detectie, voorspelling en context.",
       "modulesTitle": "Architectuurmodules",
-      "modulesDescription": "Vijf kernmodules die de Sundae Intelligence Stack aandrijven",
+      "modulesDescription": "Vijf kernmodules die de Ask Sundae Stack aandrijven",
       "securityTitle": "Bedrijfsbeveiliging en compliance",
       "securityDescription": "Beveiligings- en nalevingscontroles gebouwd voor gevoelige bedrijfsgegevens van restaurants.",
       "engineeringTitle": "Gebouwd met premium techniek",
@@ -1454,7 +1454,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Conversationele AI-engine voor natuurlijke taalintelligentie",
           "icon": "forge",
           "features": [
@@ -1610,7 +1610,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "ملٹی ایجنٹ AI انجن",
       "agentsDescription": "پتہ لگانے، پیشین گوئی اور سیاق و سباق پر مل کر کام کرنے والے خصوصی AI ایجنٹس۔",
       "modulesTitle": "آرکیٹیکچر ماڈیولز",
-      "modulesDescription": "پانچ بنیادی ماڈیولز جو Sundae Intelligence Stack کو طاقت دیتے ہیں۔",
+      "modulesDescription": "پانچ بنیادی ماڈیولز جو Ask Sundae Stack کو طاقت دیتے ہیں۔",
       "securityTitle": "انٹرپرائز سیکیورٹی اور تعمیل",
       "securityDescription": "حساس ریستوراں آپریٹنگ ڈیٹا کے لیے بنائے گئے سیکیورٹی اور تعمیل کنٹرولز۔",
       "engineeringTitle": "پریمیم انجینئرنگ کے ساتھ بنایا گیا۔",
@@ -1720,7 +1720,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "قدرتی زبان کی ذہانت کے لیے بات چیت کا AI انجن",
           "icon": "forge",
           "features": [
@@ -1868,7 +1868,7 @@ export const generatedLocalCopy = {
       "badge": "Architettura della piattaforma",
       "title": "Stack di architettura a cinque livelli",
       "description": "Scopri come Sundae passa dai dati grezzi dei ristoranti all'intelligenza operativa attraverso cinque livelli architettonici.",
-      "stackTitle": "Il Sundae Intelligence Stack",
+      "stackTitle": "Il Ask Sundae Stack",
       "stackDescription": "Cinque livelli di architettura che alimentano sei prodotti di intelligence",
       "foundation": "Costruito su solide basi di sicurezza, governance e affidabilità",
       "flowTitle": "Dai dati alle decisioni",
@@ -1876,7 +1876,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Motore AI multi-agente",
       "agentsDescription": "Agenti IA specializzati che lavorano insieme su rilevamento, previsione e contesto.",
       "modulesTitle": "Moduli di architettura",
-      "modulesDescription": "Cinque moduli principali che alimentano il Sundae Intelligence Stack",
+      "modulesDescription": "Cinque moduli principali che alimentano il Ask Sundae Stack",
       "securityTitle": "Sicurezza e conformità aziendale",
       "securityDescription": "Controlli di sicurezza e conformità realizzati per i dati operativi sensibili dei ristoranti.",
       "engineeringTitle": "Costruito con ingegneria premium",
@@ -1986,7 +1986,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Motore di intelligenza artificiale conversazionale per l'intelligenza del linguaggio naturale",
           "icon": "forge",
           "features": [
@@ -2252,7 +2252,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "प्राकृतिक भाषा बुद्धि के लिए संवादात्मक एआई इंजन",
           "icon": "forge",
           "features": [
@@ -2408,7 +2408,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Çok Aracılı Yapay Zeka Motoru",
       "agentsDescription": "Tespit, tahmin ve bağlam üzerinde birlikte çalışan uzman yapay zeka aracıları.",
       "modulesTitle": "Mimari Modüller",
-      "modulesDescription": "Sundae Intelligence Stack'a güç veren beş temel modül",
+      "modulesDescription": "Ask Sundae Stack'a güç veren beş temel modül",
       "securityTitle": "Kurumsal Güvenlik ve Uyumluluk",
       "securityDescription": "Hassas restoran işletme verileri için oluşturulmuş güvenlik ve uyumluluk kontrolleri.",
       "engineeringTitle": "Üstün Mühendislik ile Üretildi",
@@ -2518,7 +2518,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Doğal dil zekası için konuşmaya dayalı yapay zeka motoru",
           "icon": "forge",
           "features": [
@@ -2674,7 +2674,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Wieloagentowy silnik AI",
       "agentsDescription": "Wyspecjalizowani agenci sztucznej inteligencji współpracujący w zakresie wykrywania, prognozowania i kontekstu.",
       "modulesTitle": "Moduły architektury",
-      "modulesDescription": "Pięć podstawowych modułów zasilających stos Sundae Intelligence",
+      "modulesDescription": "Pięć podstawowych modułów zasilających stos Ask Sundae",
       "securityTitle": "Bezpieczeństwo i zgodność w przedsiębiorstwie",
       "securityDescription": "Kontrole bezpieczeństwa i zgodności stworzone z myślą o wrażliwych danych operacyjnych restauracji.",
       "engineeringTitle": "Zbudowany w oparciu o inżynierię Premium",
@@ -2784,7 +2784,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Konwersacyjny silnik AI zapewniający inteligencję języka naturalnego",
           "icon": "forge",
           "features": [
@@ -3050,7 +3050,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "用于自然语言智能的对话式人工智能引擎",
           "icon": "forge",
           "features": [
@@ -3198,7 +3198,7 @@ export const generatedLocalCopy = {
       "badge": "플랫폼 아키텍처",
       "title": "5계층 아키텍처 스택",
       "description": "Sundae가 원시 레스토랑 데이터에서 5개 아키텍처 계층에 걸쳐 작업 인텔리전스로 어떻게 이동하는지 알아보세요.",
-      "stackTitle": "The Sundae Intelligence Stack",
+      "stackTitle": "The Ask Sundae Stack",
       "stackDescription": "6가지 인텔리전스 제품을 구동하는 5가지 아키텍처 계층",
       "foundation": "보안, 거버넌스, 안정성의 견고한 기반 위에 구축됨",
       "flowTitle": "데이터에서 의사결정까지",
@@ -3206,7 +3206,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "다중 에이전트 AI 엔진",
       "agentsDescription": "감지, 예측, 상황 파악을 위해 협력하는 전문 AI 에이전트입니다.",
       "modulesTitle": "아키텍처 모듈",
-      "modulesDescription": "Sundae Intelligence Stack을 구동하는 5개의 핵심 모듈",
+      "modulesDescription": "Ask Sundae Stack을 구동하는 5개의 핵심 모듈",
       "securityTitle": "기업 보안 및 규정 준수",
       "securityDescription": "민감한 레스토랑 운영 데이터를 위해 구축된 보안 및 규정 준수 제어 기능입니다.",
       "engineeringTitle": "프리미엄 엔지니어링으로 제작",
@@ -3316,7 +3316,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "자연어 지능을 위한 대화형 AI 엔진",
           "icon": "forge",
           "features": [
@@ -3464,7 +3464,7 @@ export const generatedLocalCopy = {
       "badge": "Arhitectura platformei",
       "title": "Stivă de arhitectură cu cinci straturi",
       "description": "Vedeți cum Sundae trece de la datele brute ale restaurantelor la inteligența de lucru pe cinci straturi arhitecturale.",
-      "stackTitle": "The Sundae Intelligence Stack",
+      "stackTitle": "The Ask Sundae Stack",
       "stackDescription": "Cinci straturi de arhitectură care alimentează șase produse de inteligență",
       "foundation": "Construit pe o bază solidă de securitate, guvernanță și fiabilitate",
       "flowTitle": "De la date la decizii",
@@ -3472,7 +3472,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Motor AI multi-agent",
       "agentsDescription": "Agenți AI specializați care lucrează împreună la detectare, prognoză și context.",
       "modulesTitle": "Module de arhitectură",
-      "modulesDescription": "Cinci module de bază care alimentează Sundae Intelligence Stack",
+      "modulesDescription": "Cinci module de bază care alimentează Ask Sundae Stack",
       "securityTitle": "Securitatea și conformitatea întreprinderilor",
       "securityDescription": "Controale de securitate și conformitate create pentru datele sensibile de operare a restaurantelor.",
       "engineeringTitle": "Construit cu Premium Engineering",
@@ -3582,7 +3582,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Motor AI conversațional pentru inteligența limbajului natural",
           "icon": "forge",
           "features": [
@@ -3848,7 +3848,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "自然言語インテリジェンスのための会話型 AI エンジン",
           "icon": "forge",
           "features": [
@@ -4004,7 +4004,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Mesin AI Multi-Agen",
       "agentsDescription": "Agen AI khusus bekerja sama dalam deteksi, perkiraan, dan konteks.",
       "modulesTitle": "Modul Arsitektur",
-      "modulesDescription": "Lima modul inti yang mendukung Sundae Intelligence Stack",
+      "modulesDescription": "Lima modul inti yang mendukung Ask Sundae Stack",
       "securityTitle": "Keamanan & Kepatuhan Perusahaan",
       "securityDescription": "Kontrol keamanan dan kepatuhan dibuat untuk data operasional restoran yang sensitif.",
       "engineeringTitle": "Dibangun dengan Rekayasa Premium",
@@ -4114,7 +4114,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Mesin AI percakapan untuk kecerdasan bahasa alami",
           "icon": "forge",
           "features": [
@@ -4270,7 +4270,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Công cụ AI đa tác nhân",
       "agentsDescription": "Các tác nhân AI chuyên biệt làm việc cùng nhau để phát hiện, dự báo và bối cảnh.",
       "modulesTitle": "Mô-đun kiến trúc",
-      "modulesDescription": "Năm mô-đun cốt lõi hỗ trợ Sundae Intelligence Stack",
+      "modulesDescription": "Năm mô-đun cốt lõi hỗ trợ Ask Sundae Stack",
       "securityTitle": "Bảo mật & Tuân thủ Doanh nghiệp",
       "securityDescription": "Kiểm soát bảo mật và tuân thủ được xây dựng cho dữ liệu vận hành nhà hàng nhạy cảm.",
       "engineeringTitle": "Được xây dựng với kỹ thuật cao cấp",
@@ -4380,7 +4380,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Công cụ AI đàm thoại cho trí thông minh ngôn ngữ tự nhiên",
           "icon": "forge",
           "features": [
@@ -4646,7 +4646,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "প্রাকৃতিক ভাষা বুদ্ধিমত্তার জন্য কথোপকথনমূলক এআই ইঞ্জিন",
           "icon": "forge",
           "features": [
@@ -4794,7 +4794,7 @@ export const generatedLocalCopy = {
       "badge": "Plattformsarkitektur",
       "title": "Arkitekturstapel i fem lager",
       "description": "Se hur Sundae går från rå restaurangdata till fungerande intelligens över fem arkitektoniska lager.",
-      "stackTitle": "Sundae Intelligence Stack",
+      "stackTitle": "Ask Sundae Stack",
       "stackDescription": "Fem arkitekturlager som driver sex intelligensprodukter",
       "foundation": "Byggd på en solid grund av säkerhet, styrning och tillförlitlighet",
       "flowTitle": "Från data till beslut",
@@ -4802,7 +4802,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "Multi-Agent AI-motor",
       "agentsDescription": "Specialiserade AI-agenter som arbetar tillsammans om upptäckt, prognoser och sammanhang.",
       "modulesTitle": "Arkitekturmoduler",
-      "modulesDescription": "Fem kärnmoduler som driver Sundae Intelligence Stack",
+      "modulesDescription": "Fem kärnmoduler som driver Ask Sundae Stack",
       "securityTitle": "Företagssäkerhet och efterlevnad",
       "securityDescription": "Säkerhets- och efterlevnadskontroller byggda för känslig restaurangdriftsdata.",
       "engineeringTitle": "Byggd med Premium Engineering",
@@ -4912,7 +4912,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Konversations-AI-motor för naturlig språkintelligens",
           "icon": "forge",
           "features": [
@@ -5068,7 +5068,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "เอ็นจิ้น AI หลายตัวแทน",
       "agentsDescription": "ตัวแทน AI เฉพาะทางที่ทำงานร่วมกันในการตรวจจับ การคาดการณ์ และบริบท",
       "modulesTitle": "โมดูลสถาปัตยกรรม",
-      "modulesDescription": "โมดูลหลักห้าโมดูลที่ขับเคลื่อน Sundae Intelligence Stack",
+      "modulesDescription": "โมดูลหลักห้าโมดูลที่ขับเคลื่อน Ask Sundae Stack",
       "securityTitle": "การรักษาความปลอดภัยและการปฏิบัติตามข้อกำหนดขององค์กร",
       "securityDescription": "การควบคุมความปลอดภัยและการปฏิบัติตามข้อกำหนดที่สร้างขึ้นสำหรับข้อมูลการดำเนินงานร้านอาหารที่ละเอียดอ่อน",
       "engineeringTitle": "สร้างด้วยวิศวกรรมระดับพรีเมียม",
@@ -5178,7 +5178,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "กลไกการสนทนา AI เพื่อความฉลาดทางภาษาธรรมชาติ",
           "icon": "forge",
           "features": [
@@ -5444,7 +5444,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Sundae Intelligence",
+          "name": "Ask Sundae",
           "description": "Enjin AI perbualan untuk kecerdasan bahasa semula jadi",
           "icon": "forge",
           "features": [

@@ -31,7 +31,7 @@ export const generatedLocalCopy = {
       "architecture": "الهندسة المعمارية",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "fr": {
@@ -63,7 +63,7 @@ export const generatedLocalCopy = {
       "architecture": "Architecture",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "es": {
@@ -95,7 +95,7 @@ export const generatedLocalCopy = {
       "architecture": "Arquitectura",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "de": {
@@ -127,7 +127,7 @@ export const generatedLocalCopy = {
       "architecture": "Architektur",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "nl": {
@@ -159,7 +159,7 @@ export const generatedLocalCopy = {
       "architecture": "Architectuur",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "pt": {
@@ -191,7 +191,7 @@ export const generatedLocalCopy = {
       "architecture": "Arquitetura",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "hi": {
@@ -223,7 +223,7 @@ export const generatedLocalCopy = {
       "architecture": "आर्किटेक्चर",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "ur": {
@@ -255,7 +255,7 @@ export const generatedLocalCopy = {
       "architecture": "معماری",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "it": {
@@ -287,7 +287,7 @@ export const generatedLocalCopy = {
       "architecture": "Architettura",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "pl": {
@@ -319,7 +319,7 @@ export const generatedLocalCopy = {
       "architecture": "Architektura",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "tr": {
@@ -351,7 +351,7 @@ export const generatedLocalCopy = {
       "architecture": "Mimari",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "zh-Hans": {
@@ -383,7 +383,7 @@ export const generatedLocalCopy = {
       "architecture": "架构",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "ja": {
@@ -415,7 +415,7 @@ export const generatedLocalCopy = {
       "architecture": "アーキテクチャ",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "ko": {
@@ -447,7 +447,7 @@ export const generatedLocalCopy = {
       "architecture": "아키텍처",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "id": {
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "architecture": "Arsitektur",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "vi": {
@@ -511,7 +511,7 @@ export const generatedLocalCopy = {
       "architecture": "Kiến trúc",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "ro": {
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
       "architecture": "Arhitectură",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "sv": {
@@ -575,7 +575,7 @@ export const generatedLocalCopy = {
       "architecture": "Arkitektur",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "bn": {
@@ -607,7 +607,7 @@ export const generatedLocalCopy = {
       "architecture": "স্থাপত্য",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "th": {
@@ -639,7 +639,7 @@ export const generatedLocalCopy = {
       "architecture": "สถาปัตยกรรม",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     },
     "ms": {
@@ -671,7 +671,7 @@ export const generatedLocalCopy = {
       "architecture": "Arkitektur",
       "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Sundae Intelligence",
+      "forge": "Ask Sundae",
       "canvas": "Sundae Core"
     }
   }

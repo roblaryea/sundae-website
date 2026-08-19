@@ -54,7 +54,7 @@ Ces approches échouent parce qu’elles considèrent la culture data comme un t
 
 Sundae accélère la culture data grâce à des choix de conception qui rendent l’analytics accessible aux opérateurs non techniques:
 
-**Interface conversationnelle (Sundae Core)**: au lieu de demander aux utilisateurs de naviguer dans des dashboards complexes et de construire des requêtes, Sundae Intelligence leur permet de poser des questions en langage courant. "Pourquoi la main-d’œuvre était-elle élevée dans mon établissement hier ?" Cette interaction naturelle enseigne l’analytics par l’usage - les managers apprennent en faisant, pas en étudiant.
+**Interface conversationnelle (Sundae Core)**: au lieu de demander aux utilisateurs de naviguer dans des dashboards complexes et de construire des requêtes, Ask Sundae leur permet de poser des questions en langage courant. "Pourquoi la main-d’œuvre était-elle élevée dans mon établissement hier ?" Cette interaction naturelle enseigne l’analytics par l’usage - les managers apprennent en faisant, pas en étudiant.
 
 **Contexte 4D partout**: chaque métrique inclut automatiquement quatre dimensions - Réel (ce qui s’est passé), Plan (êtes-vous dans les clous), Benchmark (comment vous vous comparez), Prévision (où vous allez). Ce contexte intégré apprend aux managers à bien interpréter les métriques sans exiger d’expertise analytique.
 
@@ -76,9 +76,9 @@ Approche traditionnelle: un nouveau manager suit une formation analytics de 4 he
 
 Avec l’approche Sundae axée sur la culture data:
 
-- Jour 1: le manager découvre l’interface conversationnelle de Sundae Intelligence. "Posez simplement des questions sur votre établissement."
-- Première question: "Comment mon établissement a-t-il performé hier ?" Sundae Intelligence répond avec une vue 4D montrant Réel vs Plan vs Benchmark vs Prévision
-- Le manager enchaîne: "Pourquoi la main-d’œuvre était-elle plus élevée que le plan ?" Sundae Intelligence explique l’écart de planning avec la cause racine précise
+- Jour 1: le manager découvre l’interface conversationnelle de Ask Sundae. "Posez simplement des questions sur votre établissement."
+- Première question: "Comment mon établissement a-t-il performé hier ?" Ask Sundae répond avec une vue 4D montrant Réel vs Plan vs Benchmark vs Prévision
+- Le manager enchaîne: "Pourquoi la main-d’œuvre était-elle plus élevée que le plan ?" Ask Sundae explique l’écart de planning avec la cause racine précise
 - Sur 2 semaines: le manager pose 20 à 30 questions et apprend l’analytics par curiosité naturelle
 - Résultat au mois 1: le manager identifie et corrige de manière autonome une variance de main-d’œuvre via les alertes Insights, démontrant une vraie culture data
 
@@ -104,7 +104,7 @@ Un groupe fast-casual de 30 sites avait une adoption analytique très inégale. 
 
 Programme systématique de développement de la culture data:
 
-**Mois 1**: sessions hebdomadaires de 15 minutes où le responsable opérations montrait une question Sundae Intelligence liée aux priorités du moment. "Cette semaine, tout le monde pose à Sundae Intelligence: 'Quel daypart a ma plus grande opportunité de main-d’œuvre ?'"
+**Mois 1**: sessions hebdomadaires de 15 minutes où le responsable opérations montrait une question Ask Sundae liée aux priorités du moment. "Cette semaine, tout le monde pose à Ask Sundae: 'Quel daypart a ma plus grande opportunité de main-d’œuvre ?'"
 
 **Mois 2**: les managers partageaient ce qu’ils avaient appris en réunion d’exploitation. L’apprentissage par les pairs accélérait l’adoption, car chacun voyait les réussites de ses collègues.
 
@@ -124,7 +124,7 @@ Le contexte opérationnel de Sundae a permis de combler l’écart:
 
 - Les dashboards Sundae Core reliaient automatiquement les métriques financières aux moteurs opérationnels
 - Lorsque le food cost augmentait, le dashboard montrait quels établissements, quels articles et quelles causes racines étaient en jeu (contrôle des portions, prix fournisseur, gaspillage)
-- Sundae Intelligence permettait à la finance d’explorer les nuances opérationnelles: "Pourquoi le food cost de l’Établissement 12 est-il plus élevé que celui de l’Établissement 7 ?"
+- Ask Sundae permettait à la finance d’explorer les nuances opérationnelles: "Pourquoi le food cost de l’Établissement 12 est-il plus élevé que celui de l’Établissement 7 ?"
 - Résultat: les échanges entre finance et opérations sont passés de "votre variance est X" à "la variance est X à cause de Y, je recommande l’action Z"
 
 Impact: les équipes opérationnelles accordaient plus de valeur aux insights finance, la collaboration s’est améliorée et les actions correctives ont été mises en œuvre plus vite.

@@ -413,7 +413,7 @@ export function HeroLiveDashboard() {
           </div>
         </div>
 
-        {/* RIGHT — Coach rail */}
+        {/* RIGHT - Coach rail */}
         <div className="flex min-w-0 flex-col border-t border-[var(--border-default)] pt-5 lg:border-l lg:border-t-0 lg:pl-4 lg:pt-0">
           <div className="mb-3.5 flex items-center justify-between gap-2">
             <div className="flex items-center gap-2">
@@ -501,12 +501,12 @@ function KpiTile({
           style={noData ? { color: "var(--text-muted)", border: "1px solid var(--border-default)" } : { color: c, background: hexToRgba(c, 0.15) }}
         >
           {arrow}
-          {noData ? "—" : delta}
+          {noData ? " - " : delta}
         </span>
       </div>
       <div className="relative z-[1] flex items-end gap-1.5">
         <span className="font-mono tabular-nums text-[22px] sm:text-[27px] font-medium leading-[0.95] tracking-[-0.015em]" style={{ color: noData ? "var(--text-muted)" : "var(--text-primary)" }}>
-          {noData ? "—" : value}
+          {noData ? " - " : value}
         </span>
       </div>
       <svg viewBox="0 0 120 30" preserveAspectRatio="none" className="relative z-[1] block h-[26px] w-full overflow-visible">

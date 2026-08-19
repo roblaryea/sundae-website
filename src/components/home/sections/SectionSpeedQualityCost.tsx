@@ -26,63 +26,68 @@ type LocalizedSQC = {
   sundaeRule: string;
   closing: string;
   costMetric: string;
+  qualityMetric: string;
   vertices: { label: string; headline: string; body: string; chips: [string, string, string] }[];
 };
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   en: {
-    costMetric: "Free to start",
-    eyebrow: "THE FALSE CHOICE IS OVER",
-    headline: "Fast. Right. Affordable. Pick all three.",
-    description: "Getting real restaurant intelligence used to mean a tradeoff - fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once - that's the entire point.",
+    costMetric: "No BI build",
+    qualityMetric: "Ready on day one",
+    eyebrow: "WHAT STARTING TAKES",
+    headline: "No warehouse. No data team. No year-long build.",
+    description: "Bringing in a decision layer used to mean a programme: a warehouse to build, a data team to hire, and a year before anyone saw a number. Sundae connects what you already run, read-only, and starts reading it.",
     oldRule: "Old rule: pick two",
     sundaeRule: "↓  Sundae rule: pick all three",
-    closing: "That's not a tradeoff. That's your operating advantage.",
+    closing: "Nothing migrated. Nothing rebuilt. Nothing switched off.",
     vertices: [
-      { label: "Speed", headline: "Deploy in days. Decide in seconds.", body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
-      { label: "Quality", headline: "Built for restaurants. Governed for decisions.", body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
-      { label: "Cost", headline: "Lower cost than rebuilding BI around restaurants.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one: one package, eleven domain modules, no BI build.", chips: ["One package", "Less custom BI", "Lower analyst load"] },
+      { label: "Speed", headline: "Connect what you already run.", body: "A read-only connection to the systems you already use. Nothing is migrated, nothing is rebuilt, and nothing in your stack is switched off to make room.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
+      { label: "Quality", headline: "Built for food service. Governed for decisions.", body: "Sundae ships with the food-service model already built, peer-anchored benchmarks and source-cited answers, so nobody starts from a blank canvas or waits on a data team.", chips: ["Model already built", "Source-cited AI", "Peer benchmarks"] },
+      { label: "Cost", headline: "Less risk than rebuilding BI around your estate.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is ready from day one: one package, full coverage, no BI build.", chips: ["One package", "Less custom BI", "Lower analyst load"] },
     ],
   },
   ar: {
-    costMetric: "مجاناً للبدء",
-    eyebrow: "انتهى زمن الاختيار الزائف",
-    headline: "سريع. صحيح. ميسور. اختر الثلاثة.",
+    costMetric: "بلا بناء BI",
+    qualityMetric: "جاهز من اليوم الأول",
+    eyebrow: "ما الذي يتطلبه البدء",
+    headline: "بلا مستودع بيانات. بلا فريق بيانات. بلا مشروع يمتد عاماً.",
     description: "كان الحصول على ذكاء مطاعم حقيقي يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
     oldRule: "القاعدة القديمة: اختر اثنين",
     sundaeRule: "↓ قاعدة Sundae: اختر الثلاثة",
     closing: "هذه ليست مقايضة. هذه ميزتك التشغيلية.",
     vertices: [
-      { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وSundae Intelligence يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
-      { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بأكثر من 500 نموذج بيانات مطعم محكوم، ومعايير نظراء، وإجابات AI مع مصادر - فلا تبني من لوحة BI فارغة.", chips: ["+500 نموذج", "AI بمصادر", "معايير نظراء"] },
+      { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وAsk Sundae يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
+      { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بنموذج بيانات الخدمات الغذائية جاهزاً، ومعايير نظراء، وإجابات AI مع مصادر - فلا تبني من لوحة BI فارغة.", chips: ["النموذج جاهز مسبقاً", "AI بمصادر", "معايير نظراء"] },
       { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول المطاعم.", body: "تراخيص BI ليست سوى التكلفة المرئية. الإنفاق الحقيقي محللون وتكاملات ونماذج مخصصة وصيانة لوحات وقرارات متأخرة. Sundae جاهز للمطاعم من اليوم الأول: باقة واحدة وإحدى عشرة وحدة، بلا بناء BI.", chips: ["باقة واحدة", "BI مخصص أقل", "حمل محلل أقل"] },
     ],
   },
   fr: {
-    costMetric: "Gratuit pour démarrer",
-    eyebrow: "LE FAUX DILEMME, C'EST FINI",
+    costMetric: "Aucun chantier BI",
+    qualityMetric: "Prêt dès le premier jour",
+    eyebrow: "CE QUE DEMARRER DEMANDE",
     headline: "Rapide. Juste. Abordable. Prenez les trois.",
     description: "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
     oldRule: "Ancienne règle : choisir deux",
     sundaeRule: "↓ Règle Sundae : choisir les trois",
     closing: "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
     vertices: [
-      { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Sundae Intelligence répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
-      { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre 500+ modèles de données restaurant gouvernés, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["500+ modèles", "IA sourcée", "Benchmarks pairs"] },
+      { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Ask Sundae répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
+      { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre le modèle de données restauration déjà construit, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["Modèle déjà construit", "IA sourcée", "Benchmarks pairs"] },
       { label: "Coût", headline: "Moins cher que reconstruire la BI autour des restaurants.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt restaurant dès le premier jour : une offre, onze modules metier, aucun chantier BI.", chips: ["Une seule offre", "Moins de BI custom", "Moins d'analystes"] },
     ],
   },
   es: {
-    costMetric: "Gratis para empezar",
-    eyebrow: "SE ACABÓ LA FALSA DISYUNTIVA",
+    costMetric: "Sin proyecto de BI",
+    qualityMetric: "Listo desde el primer día",
+    eyebrow: "LO QUE CUESTA EMPEZAR",
     headline: "Rápido. Correcto. Asequible. Elige los tres.",
     description: "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
     oldRule: "Regla antigua: elige dos",
     sundaeRule: "↓ Regla Sundae: elige los tres",
     closing: "Esto no es un compromiso. Es tu ventaja operativa.",
     vertices: [
-      { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Sundae Intelligence responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
-      { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae 500+ modelos de datos de restaurante gobernados, benchmarks de pares y respuestas IA con fuente - para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["500+ modelos", "IA con fuente", "Benchmarks pares"] },
+      { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Ask Sundae responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
+      { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae el modelo de datos de restauración ya construido, benchmarks de pares y respuestas IA con fuente - para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["Modelo ya construido", "IA con fuente", "Benchmarks pares"] },
       { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de restaurantes.", body: "Las licencias BI son solo el coste visible. El gasto real son analistas, integraciones, modelos a medida, mantenimiento de dashboards y decisiones tardías. Sundae viene listo para restaurantes desde el día uno: un paquete, once modulos de dominio, sin proyecto BI.", chips: ["Un solo paquete", "Menos BI custom", "Menos analistas"] },
     ],
   },
@@ -481,7 +486,7 @@ export function SectionSpeedQualityCost() {
                   <stop offset="45%" stopColor="rgba(34,168,120,0.45)" />
                   <stop offset="100%" stopColor="rgba(22,168,120,0)" />
                 </radialGradient>
-                {/* The cherry — the brand "signal to act" that the three constraints
+                {/* The cherry - the brand "signal to act" that the three constraints
                     collapse into. Glossy depth: hot top-left highlight → deep maroon. */}
                 <radialGradient id="cherryBody" cx="36%" cy="28%" r="78%">
                   <stop offset="0%" stopColor="#FF7A6E" />
@@ -621,9 +626,9 @@ export function SectionSpeedQualityCost() {
                     transition={{ duration: 1.5, ease: "easeOut" }}
                     style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
                   />
-                  {/* the green "go" glow the cherry sits in — the payoff of all three */}
+                  {/* the green "go" glow the cherry sits in - the payoff of all three */}
                   <circle cx={CENTROID.x} cy={CENTROID.y} r="22" fill="url(#coreGlow)" />
-                  {/* the cherry — where the three tradeoffs collapse into one signal */}
+                  {/* the cherry - where the three tradeoffs collapse into one signal */}
                   <motion.g
                     animate={{ scale: [1, 1.09, 1] }}
                     transition={{ duration: 3, ease: "easeInOut", repeat: Infinity }}
@@ -649,7 +654,7 @@ export function SectionSpeedQualityCost() {
                 </g>
               )}
 
-              {/* Active-vertex GREEN light-up + a beam feeding the cherry — fires at
+              {/* Active-vertex GREEN light-up + a beam feeding the cherry - fires at
                   EVERY vertex (re-keyed on activeIdx), so speed/quality/cost each
                   "achieve" green as the ball arrives and pours into the centre. */}
               {useAnimated && (
@@ -854,7 +859,7 @@ export function SectionSpeedQualityCost() {
                       <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mt-1.5">
                         {vertices[activeIdx].label}
                       </div>
-                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} text={activeIdx === 2 ? copy.costMetric : undefined} />
+                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} text={activeIdx === 2 ? copy.costMetric : activeIdx === 1 ? copy.qualityMetric : undefined} />
                     </div>
                     <h3 className="section-h3 mb-4">
                       {vertices[activeIdx].headline}

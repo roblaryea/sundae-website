@@ -58,7 +58,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach donne le prochain coup",
           "description": "Lorsqu'un site est en retard de 14 %, Coach recommande un jeu spécifique : travail ajusté, campagne de fidélisation, échange de menus - basé sur ce qui a fonctionné auparavant.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -146,7 +146,7 @@ export const generatedLocalCopy = {
         {
           "title": "مدرب Sundae يعطي الخطوة التالية",
           "description": "عندما يتأخر موقع ما بنسبة 14%، يوصي Coach بإجراء محدد - تعديل العمالة، دفعة ولاء، تبديل قائمة - بناءً على ما نجح من قبل.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -234,7 +234,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach da el siguiente paso",
           "description": "Cuando un sitio tiene un ritmo de retraso del 14%, Coach recomienda una jugada específica (mano de obra ajustada, impulso de lealtad, cambio de menú) en función de lo que funcionó antes.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -322,7 +322,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach geeft de volgende zet",
           "description": "Wanneer een site 14% achterloopt, beveelt Coach een specifieke actie aan - aangepaste arbeid, een loyaliteitsactie, een menuwissel - op basis van wat eerder heeft gewerkt.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -410,7 +410,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach dá o próximo passo",
           "description": "Quando um site está 14% atrasado, o Coach recomenda uma jogada específica - mão de obra ajustada, um impulso de fidelidade, uma troca de menu - com base no que funcionou antes.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -434,7 +434,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recupere vazamentos que você não sabia que tinha",
-          "description": "1-3% da receita normalmente fica oculta em cancelamentos, cortesias e substituições. O Sundae traz isso à tona turno por turno.",
+          "description": "A margem esconde-se em cancelamentos, cortesias e overrides. O Sundae traz isso à tona turno a turno, face à sua própria referência.",
           "icon": "owners"
         }
       ],
@@ -498,7 +498,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach gibt den nächsten Schritt",
           "description": "Wenn eine Website 14 % hinterherhinkt, empfiehlt Coach einen bestimmten Ansatz - angepasste Arbeitskräfte, einen Treueschub, einen Menüwechsel - basierend auf dem, was zuvor funktioniert hat.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -522,7 +522,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Beseitigen Sie Schwund, von dem Sie nicht wussten, dass Sie ihn haben",
-          "description": "1-3 % des Umsatzes verbergen sich typischerweise in Stornos, Kulanzbuchungen und Außerkraftsetzungen. Sundae bringt es Schicht für Schicht zum Vorschein.",
+          "description": "Marge versteckt sich in Stornos, Comps und Overrides. Sundae holt sie Schicht für Schicht hervor, gegen Ihre eigene Baseline.",
           "icon": "owners"
         }
       ],
@@ -586,7 +586,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae کوچ اگلا اقدام دیتا ہے۔",
           "description": "جب کوئی آؤٹ لیٹ 14% پیچھے ہوتا ہے، تو Coach ایک مخصوص اقدام تجویز کرتا ہے - ایڈجسٹ شدہ عملہ، ایک لائلٹی پش، ایک مینو سویپ - اس کی بنیاد پر جو پہلے کام کر چکا ہے۔",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -610,7 +610,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "وہ رساو بازیافت کریں جس کے بارے میں آپ کو معلوم ہی نہیں تھا۔",
-          "description": "آمدنی کا 1-3% عام طور پر منسوخیوں، مفت پیشکشوں، اور اوور رائیڈز میں چھپا ہوتا ہے۔ Sundae اسے شفٹ بہ شفٹ سامنے لاتا ہے۔",
+          "description": "مارجن وائیڈز، کامپس اور اوور رائیڈز میں چھپا رہتا ہے۔ Sundae اسے شفٹ در شفٹ سامنے لاتا ہے، آپ کی اپنی بنیادی سطح کے مقابلے۔",
           "icon": "owners"
         }
       ],
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae कोच अगली चाल देता है",
           "description": "जब कोई आउटलेट 14% पीछे चल रहा होता है, तो Coach एक विशिष्ट कदम की सिफारिश करता है - समायोजित स्टाफ़, लॉयल्टी पुश, मेनू स्वैप - जो पहले काम कर चुका है उसके आधार पर।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -698,7 +698,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "उस रिसाव को वापस पाएं जिसके बारे में आपको पता नहीं था",
-          "description": "राजस्व का 1-3% आम तौर पर रद्दीकरण, मुफ़्त सेवाओं और ओवरराइड्स में छिपा होता है। Sundae इसे शिफ्ट-दर-शिफ्ट सामने लाता है।",
+          "description": "मार्जिन वॉइड, कॉम्प और ओवरराइड में छिपा रहता है। Sundae उसे शिफ्ट-दर-शिफ्ट सामने लाता है, आपकी अपनी बेसलाइन के मुकाबले।",
           "icon": "owners"
         }
       ],
@@ -762,7 +762,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach dà la mossa successiva",
           "description": "Quando il ritmo di un sito è indietro del 14%, il Coach consiglia un'azione specifica (manodopera modificata, spinta alla fidelizzazione, scambio di menu) in base a ciò che ha funzionato prima.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -786,7 +786,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recupera le perdite che non sapevi di avere",
-          "description": "L'1-3% delle entrate in genere si nasconde in storni, omaggi e forzature. Sundae le fa emergere turno dopo turno.",
+          "description": "Il margine si nasconde in storni, omaggi e override. Sundae lo fa emergere turno per turno, rispetto al tuo stesso riferimento.",
           "icon": "owners"
         }
       ],
@@ -850,7 +850,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae教练给出了下一步行动",
           "description": "当一个网站的速度落后 14% 时，Coach 会根据之前的效果推荐特定的策略--调整劳动力、忠诚度推动、菜单交换。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -874,7 +874,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "找回你不知道存在的流失",
-          "description": "1-3% 的营收通常隐藏在作废、赠送和强制改价中。Sundae 会逐个班次地把它呈现出来。",
+          "description": "毛利藏在作废、赠单和改价里。Sundae 逐班次把它翻出来，对照你自己的基线。",
           "icon": "owners"
         }
       ],
@@ -938,7 +938,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach wykonuje kolejny ruch",
           "description": "Kiedy lokal jest w tyle o 14%, Coach zaleca konkretne zagranie - skorygowaną obsadę, zachętę lojalnościową, zmianę menu - w oparciu o to, co sprawdziło się wcześniej.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -962,7 +962,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Odzyskaj wyciek, o którym nie miałeś pojęcia",
-          "description": "1-3% przychodów zazwyczaj kryje się w anulacjach, gratisach i nadpisaniach. Sundae wydobywa to zmiana po zmianie.",
+          "description": "Marża chowa się w anulacjach, gratisach i override’ach. Sundae wyciąga ją zmiana po zmianie, wobec twojej własnej bazy.",
           "icon": "owners"
         }
       ],
@@ -1026,7 +1026,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach bir sonraki hamleyi veriyor",
           "description": "Bir site %14 geride kaldığında Coach, daha önce işe yarayanları temel alarak belirli bir oyun (ayarlanmış iş gücü, bağlılık çabası, menü değişimi) öneriyor.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1114,7 +1114,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach가 다음 수를 제시합니다",
           "description": "매장 페이싱이 14% 뒤처지면 Coach는 이전에 효과가 있었던 것을 바탕으로 인력 조정, 로열티 강화, 메뉴 교체 등 특정 플레이를 권장합니다.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1202,7 +1202,7 @@ export const generatedLocalCopy = {
         {
           "title": "Pelatih Sundae memberikan langkah selanjutnya",
           "description": "Ketika sebuah situs tertinggal 14%, Coach merekomendasikan permainan tertentu - penyesuaian tenaga kerja, dorongan loyalitas, pertukaran menu - berdasarkan apa yang telah berhasil sebelumnya.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1226,7 +1226,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pulihkan kebocoran yang tidak Anda sadari",
-          "description": "1-3% dari pendapatan biasanya tersembunyi dalam pembatalan, traktiran, dan penggantian. Sundae memunculkannya shift demi shift.",
+          "description": "Margin bersembunyi di void, komplimen, dan override. Sundae memunculkannya per shift, terhadap baseline Anda sendiri.",
           "icon": "owners"
         }
       ],
@@ -1290,7 +1290,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundaeコーチが次の一手を出す",
           "description": "サイトのペースが 14% 遅れている場合、コーチは以前に機能していたものに基づいて、労働力の調整、ロイヤルティの推進、メニューの交換などの特定の戦略を推奨します。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1378,7 +1378,7 @@ export const generatedLocalCopy = {
         {
           "title": "Huấn luyện viên Sundae đưa ra động thái tiếp theo",
           "description": "Khi một trang web có tốc độ chậm 14%, Huấn luyện viên đề xuất một cách chơi cụ thể - lao động được điều chỉnh, thúc đẩy lòng trung thành, hoán đổi menu - dựa trên những gì đã hoạt động trước đó.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1402,7 +1402,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Khôi phục khoản rò rỉ mà bạn không biết mình đang có",
-          "description": "1-3% doanh thu thường ẩn trong các giao dịch hủy, suất mời và phần ghi đè. Sundae đưa nó ra ánh sáng theo từng ca.",
+          "description": "Biên lợi nhuận ẩn trong huỷ món, tặng và override. Sundae đưa nó ra theo từng ca, đối chiếu với chuẩn nền của chính bạn.",
           "icon": "owners"
         }
       ],
@@ -1466,7 +1466,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae কোচ পরবর্তী পদক্ষেপ দেয়",
           "description": "যখন একটি আউটলেট 14% পিছিয়ে যায়, তখন Coach একটি নির্দিষ্ট পদক্ষেপের সুপারিশ করে - সমন্বিত কর্মী, একটি লয়্যালটি পুশ, একটি মেনু অদলবদল - আগে যা কাজ করেছে তার উপর ভিত্তি করে।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1490,7 +1490,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "যে লিকেজের কথা আপনি জানতেনই না তা পুনরুদ্ধার করুন",
-          "description": "রাজস্বের 1-3% সাধারণত বাতিল, ফ্রি পরিবেশন এবং ওভাররাইডে লুকিয়ে থাকে। Sundae একে শিফট-বাই-শিফট সামনে আনে।",
+          "description": "মার্জিন লুকিয়ে থাকে ভয়েড, কম্প ও ওভাররাইডে। Sundae তা শিফট ধরে ধরে সামনে আনে, আপনার নিজের বেসলাইনের বিপরীতে।",
           "icon": "owners"
         }
       ],
@@ -1554,7 +1554,7 @@ export const generatedLocalCopy = {
         {
           "title": "Antrenorul Sundae dă următoarea mișcare",
           "description": "Când un site este cu 14% în urmă, antrenorul recomandă un anumit joc - forță de muncă ajustată, un impuls de loialitate, un schimb de meniu - pe baza a ceea ce a funcționat înainte.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1578,7 +1578,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recuperați scurgerile pe care nu știați că le aveți",
-          "description": "1-3% din venituri se ascunde de obicei în anulări, băuturi din partea casei și suprascrieri. Sundae le scoate la suprafață tură cu tură.",
+          "description": "Marja se ascunde în anulări, gratuități și override-uri. Sundae o scoate la iveală tură cu tură, față de propria ta referință.",
           "icon": "owners"
         }
       ],
@@ -1642,7 +1642,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach ger nästa drag",
           "description": "När en sajt ligger 14 % efter, rekommenderar Coach ett specifikt spel - anpassat arbete, en lojalitetspress, ett menybyte - baserat på vad som har fungerat tidigare.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1666,7 +1666,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Återställ läckage som du inte visste att du hade",
-          "description": "1-3 % av intäkterna döljer sig vanligtvis i annulleringar, bjudningar och åsidosättningar. Sundae lyfter fram det skift för skift.",
+          "description": "Marginalen gömmer sig i makuleringar, comps och overrides. Sundae lyfter fram den pass för pass, mot er egen baslinje.",
           "icon": "owners"
         }
       ],
@@ -1730,7 +1730,7 @@ export const generatedLocalCopy = {
         {
           "title": "Jurulatih Sundae memberikan langkah seterusnya",
           "description": "Apabila tapak bergerak 14% di belakang, Jurulatih mengesyorkan permainan tertentu - buruh terlaras, tolakan kesetiaan, pertukaran menu - berdasarkan perkara yang telah berjaya sebelum ini.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1754,7 +1754,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pulihkan kebocoran yang anda tidak sedar anda alami",
-          "description": "1-3% daripada hasil biasanya bersembunyi dalam pembatalan, hidangan ihsan dan override. Sundae memaparkannya syif demi syif.",
+          "description": "Margin bersembunyi dalam pembatalan, komplimen dan override. Sundae mengeluarkannya syif demi syif, berbanding garis dasar anda sendiri.",
           "icon": "owners"
         }
       ],
@@ -1818,7 +1818,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundaeโค้ชให้การเคลื่อนไหวต่อไป",
           "description": "เมื่อสาขาตามหลังอยู่ 14% Coach จะแนะนำแนวทางที่เฉพาะเจาะจง - ปรับกำลังคน ผลักดันความภักดี สลับเมนู - โดยพิจารณาจากสิ่งที่เคยได้ผลมาก่อน",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1842,7 +1842,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "กู้คืนการรั่วไหลที่คุณไม่รู้ว่ามีอยู่",
-          "description": "โดยทั่วไปแล้ว 1-3% ของรายได้จะซ่อนอยู่ในการยกเลิก ของแถม และการแทนที่ Sundae จะเผยให้เห็นทีละกะ",
+          "description": "กำไรซ่อนอยู่ในการยกเลิก การให้ฟรี และการแก้ราคา Sundae ดึงมันออกมาทีละกะ เทียบกับเส้นฐานของคุณเอง",
           "icon": "owners"
         }
       ],

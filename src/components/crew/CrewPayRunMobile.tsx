@@ -132,8 +132,8 @@ export function CrewPayRunMobile() {
           >
             S
           </span>
-          {/* Proper noun — kept verbatim across locales. */}
-          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae — DIFC</span>
+          {/* Proper noun - kept verbatim across locales. */}
+          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae - DIFC</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>▾</span>
         </button>
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
@@ -231,7 +231,7 @@ export function CrewPayRunMobile() {
           // GCC keeps its proper-noun name verbatim; others use the localized key.
           const name = c.nameLiteral ?? (c.nameKey ? t[c.nameKey] : '');
           const sub = c.subKey ? t[c.subKey] : `${c.people} ${t.peopleSuffix}`;
-          const amount = c.gbp != null ? crewMoney(locale, c.gbp, 0) : '—';
+          const amount = c.gbp != null ? crewMoney(locale, c.gbp, 0) : ' - ';
           return (
             <div
               key={c.id}

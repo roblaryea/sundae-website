@@ -21,52 +21,52 @@
 export const aboutCreamCopy: Record<string, { eyebrow: string; statement: string; lede: string }> = {
   en: {
     eyebrow: 'WHY WE BUILT SUNDAE',
-    statement: 'Restaurants deserve decisions, *not only* dashboards.',
+    statement: 'Operators deserve decisions, *not only* dashboards.',
     lede: 'We turn the data you already generate into the next right move - for every role.',
   },
   ar: {
     eyebrow: 'لماذا بنينا Sundae',
-    statement: 'المطاعم تستحق قرارات، *لا مجرد* لوحات معلومات.',
+    statement: 'المشغّلون يستحقون قرارات، *لا مجرد* لوحات معلومات.',
     lede: 'نحوّل البيانات التي تنتجها أصلاً إلى الخطوة الصحيحة التالية - لكل دور.',
   },
   fr: {
     eyebrow: 'POURQUOI NOUS AVONS CRÉÉ SUNDAE',
-    statement: 'Les restaurants méritent des décisions, *pas seulement* des tableaux de bord.',
+    statement: 'Les operateurs meritent des decisions, *pas seulement* des tableaux de bord.',
     lede: "Nous transformons les données que vous générez déjà en la prochaine bonne décision - pour chaque rôle.",
   },
   es: {
     eyebrow: 'POR QUÉ CREAMOS SUNDAE',
-    statement: 'Los restaurantes merecen decisiones, *no solo* paneles.',
+    statement: 'Los operadores merecen decisiones, *no solo* paneles.',
     lede: 'Convertimos los datos que ya generas en el próximo paso correcto - para cada rol.',
   },
   de: {
     eyebrow: 'WARUM WIR SUNDAE GEBAUT HABEN',
-    statement: 'Restaurants verdienen Entscheidungen, *nicht nur* Dashboards.',
+    statement: 'Betreiber verdienen Entscheidungen, *nicht nur* Dashboards.',
     lede: 'Wir machen aus den Daten, die ohnehin entstehen, den nächsten richtigen Schritt - für jede Rolle.',
   },
   nl: {
     eyebrow: 'WAAROM WE SUNDAE BOUWDEN',
-    statement: 'Restaurants verdienen beslissingen, *niet alleen* dashboards.',
+    statement: 'Operators verdienen beslissingen, *niet alleen* dashboards.',
     lede: 'We maken van de data die je toch al genereert de volgende juiste stap - voor elke rol.',
   },
   pt: {
     eyebrow: 'POR QUE CRIAMOS A SUNDAE',
-    statement: 'Restaurantes merecem decisões, *não só* painéis.',
+    statement: 'Operadores merecem decisoes, *nao so* paineis.',
     lede: 'Transformamos os dados que você já gera no próximo passo certo - para cada função.',
   },
   hi: {
     eyebrow: 'हमने Sundae क्यों बनाया',
-    statement: 'रेस्तराँ सिर्फ डैशबोर्ड नहीं, *फैसले* के हकदार हैं।',
+    statement: 'ऑपरेटर सिर्फ डैशबोर्ड नहीं, *फैसले* के हकदार हैं।',
     lede: 'जो डेटा आप पहले से बना रहे हैं, उसे हम हर भूमिका के लिए अगले सही कदम में बदल देते हैं।',
   },
   ur: {
     eyebrow: 'ہم نے Sundae کیوں بنایا',
-    statement: 'ریستوران صرف ڈیش بورڈ نہیں، *فیصلوں* کے حق دار ہیں۔',
+    statement: 'آپریٹرز صرف ڈیش بورڈ نہیں، *فیصلوں* کے حق دار ہیں۔',
     lede: 'جو ڈیٹا آپ پہلے سے بنا رہے ہیں، اسے ہم ہر کردار کے لیے اگلے درست قدم میں بدل دیتے ہیں۔',
   },
   it: {
     eyebrow: 'PERCHÉ ABBIAMO CREATO SUNDAE',
-    statement: 'I ristoranti meritano decisioni, *non solo* cruscotti.',
+    statement: 'Gli operatori meritano decisioni, *non solo* cruscotti.',
     lede: 'Trasformiamo i dati che già generi nella prossima mossa giusta - per ogni ruolo.',
   },
   pl: {
@@ -81,17 +81,17 @@ export const aboutCreamCopy: Record<string, { eyebrow: string; statement: string
   },
   'zh-Hans': {
     eyebrow: '我们为何打造 Sundae',
-    statement: '餐厅需要的是决策，*不只是*仪表盘。',
+    statement: '经营者需要的是决策，*不只是*仪表盘。',
     lede: '我们把你本就在产生的数据，化为每个岗位的下一步正确行动。',
   },
   ja: {
     eyebrow: 'なぜ Sundae をつくったのか',
-    statement: 'レストランに必要なのはダッシュボードだけでなく、*決断*だ。',
+    statement: '現場に必要なのはダッシュボードだけでなく、*決断*だ。',
     lede: 'すでに生まれているデータを、あらゆる役割にとっての次の正しい一手に変えます。',
   },
   ko: {
     eyebrow: '우리가 Sundae를 만든 이유',
-    statement: '레스토랑에 필요한 건 대시보드*만이 아니라* 결정입니다.',
+    statement: '운영자에게 필요한 건 대시보드*만이 아니라* 결정입니다.',
     lede: '이미 만들어지는 데이터를 모든 역할을 위한 다음 올바른 행동으로 바꿉니다.',
   },
   id: {
@@ -106,12 +106,12 @@ export const aboutCreamCopy: Record<string, { eyebrow: string; statement: string
   },
   ro: {
     eyebrow: 'DE CE AM CONSTRUIT SUNDAE',
-    statement: 'Restaurantele merită decizii, *nu doar* panouri.',
+    statement: 'Operatorii merita decizii, *nu doar* panouri.',
     lede: 'Transformăm datele pe care deja le generezi în următoarea mișcare corectă - pentru fiecare rol.',
   },
   sv: {
     eyebrow: 'VARFÖR VI BYGGDE SUNDAE',
-    statement: 'Restauranger förtjänar beslut, *inte bara* instrumentpaneler.',
+    statement: 'Verksamheter fortjanar beslut, *inte bara* instrumentpaneler.',
     lede: 'Vi gör datan du redan skapar till nästa rätta steg - för varje roll.',
   },
   bn: {
@@ -121,7 +121,7 @@ export const aboutCreamCopy: Record<string, { eyebrow: string; statement: string
   },
   th: {
     eyebrow: 'ทำไมเราจึงสร้าง Sundae',
-    statement: 'ร้านอาหารสมควรได้การตัดสินใจ *ไม่ใช่แค่* แดชบอร์ด',
+    statement: 'ผู้ประกอบการสมควรได้การตัดสินใจ *ไม่ใช่แค่* แดชบอร์ด',
     lede: 'เราเปลี่ยนข้อมูลที่คุณสร้างอยู่แล้วให้เป็นก้าวต่อไปที่ถูกต้อง - สำหรับทุกบทบาท',
   },
   ms: {

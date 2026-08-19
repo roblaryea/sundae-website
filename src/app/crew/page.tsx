@@ -126,10 +126,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     primaryCta: "Book a Crew Walkthrough",
     secondaryCta: "See Crew in Action",
     heroProof: [
-      { value: "5", label: "Regions live" },
-      { value: "36", label: "Country / region packs" },
-      { value: "5", label: "Statutory export formats" },
-      { value: "9+", label: "Year-end form families" },
+      { value: "5", label: "Payroll regions in production" },
+      { value: "36", label: "Countries covered for payroll" },
+      { value: "5", label: "Statutory filing formats" },
+      { value: "9+", label: "Year-end form types" },
     ],
 
     loopEyebrow: "WHY CREW SITS IN SUNDAE",
@@ -243,10 +243,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     primaryCta: "احجز جولة Crew",
     secondaryCta: "شاهد Crew في العمل",
     heroProof: [
-      { value: "5", label: "مناطق فعّالة" },
-      { value: "36", label: "حزم دول / مناطق" },
-      { value: "5", label: "صيغ تصدير قانونية" },
-      { value: "9+", label: "عائلات نماذج نهاية السنة" },
+      { value: "5", label: "مناطق رواتب في الإنتاج" },
+      { value: "36", label: "دولة مغطاة للرواتب" },
+      { value: "5", label: "صيغ إيداع قانونية" },
+      { value: "9+", label: "أنواع نماذج نهاية السنة" },
     ],
 
     loopEyebrow: "لماذا Crew داخل Sundae",
@@ -360,10 +360,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     primaryCta: "Réserver une visite Crew",
     secondaryCta: "Voir Crew en action",
     heroProof: [
-      { value: "5", label: "Régions en production" },
-      { value: "36", label: "Packs pays / régions" },
-      { value: "5", label: "Formats d'export statutaires" },
-      { value: "9+", label: "Familles de formulaires fin d'année" },
+      { value: "5", label: "Régions de paie en production" },
+      { value: "36", label: "Pays couverts pour la paie" },
+      { value: "5", label: "Formats de déclaration légale" },
+      { value: "9+", label: "Types de formulaires de fin d'année" },
     ],
 
     loopEyebrow: "POURQUOI CREW EST DANS SUNDAE",
@@ -477,10 +477,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     primaryCta: "Reservar recorrido Crew",
     secondaryCta: "Ver Crew en acción",
     heroProof: [
-      { value: "5", label: "Regiones en producción" },
-      { value: "36", label: "Paquetes país / región" },
-      { value: "5", label: "Formatos de exporte estatutario" },
-      { value: "9+", label: "Familias de formularios fin de año" },
+      { value: "5", label: "Regiones de nómina en producción" },
+      { value: "36", label: "Países cubiertos para nóminas" },
+      { value: "5", label: "Formatos de declaración legal" },
+      { value: "9+", label: "Tipos de formularios de fin de año" },
     ],
 
     loopEyebrow: "POR QUÉ CREW VIVE EN SUNDAE",

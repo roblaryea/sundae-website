@@ -163,7 +163,7 @@ Pour un portefeuille de 45 M$, réduire les fuites liées aux annulations/remise
 
 **Étape 3: Construire des protocoles d’enquête**
 
-- Lorsqu’un schéma est détecté, utilisez Sundae Intelligence pour demander "Pourquoi les annulations sont-elles élevées sur X ?"
+- Lorsqu’un schéma est détecté, utilisez Ask Sundae pour demander "Pourquoi les annulations sont-elles élevées sur X ?"
 - Examinez la 4D Intelligence montrant le schéma par rapport à l’historique, au plan et au benchmark
 - Enquêtez avec des données précises: "Le serveur X a annulé Y articles pour une valeur de Z $ pendant des shifts spécifiques"
 - Distinguez lacunes de formation, problèmes opérationnels ou fraude potentielle
@@ -344,7 +344,7 @@ Pour un portefeuille de 30 sites, améliorer de 2 points la performance des mana
 **Étape 2: Activer le self-service manager**
 
 - Fournissez à chaque manager un tableau de bord Sundae Core affichant la performance temps réel de son site
-- Formez les managers à utiliser Sundae Intelligence pour leurs propres analyses
+- Formez les managers à utiliser Ask Sundae pour leurs propres analyses
 - Encouragez la revue quotidienne: "Comment ai-je fait hier par rapport à l’objectif ?"
 - Célébrez les managers qui détectent et corrigent proactivement les problèmes
 

@@ -9,12 +9,12 @@ import { ColorSwatches } from "./ColorSwatches";
 export const metadata: Metadata = {
   title: "Brand Assets",
   description:
-    "The Sundae brand kit — mark, wordmark, lock-up, colors, and typography, with downloadable logo files. One link for partners, press, and OEMs.",
+    "The Sundae brand kit - mark, wordmark, lock-up, colors, and typography, with downloadable logo files. One link for partners, press, and OEMs.",
   alternates: { canonical: "/brand" },
   openGraph: {
     title: "Sundae Brand Assets",
     description:
-      "The Sundae brand kit — mark, wordmark, colors, and type, in one place.",
+      "The Sundae brand kit - mark, wordmark, colors, and type, in one place.",
     url: "/brand",
   },
 };
@@ -49,7 +49,7 @@ const BANNERS = [
 
 const DOS = [
   "Use the coral-S mark with the Fraunces “sundae” wordmark.",
-  "Keep clear space around the lock-up — at least the height of the mark’s cherry.",
+  "Keep clear space around the lock-up - at least the height of the mark’s cherry.",
   "Place the dark-tile mark on light or dark; it’s built to read on both.",
   "Set “sundae” in Fraunces (display cut) whenever it’s used as a logo.",
 ];
@@ -57,7 +57,7 @@ const DOS = [
 const DONTS = [
   "Don’t use the retired blue orb “e” icon or the blue “sundae” wordmark.",
   "Don’t recolor, rotate, stretch, or add shadows/effects to the mark.",
-  "Don’t swap a wordmark image into running text — “Sundae” stays plain text mid-sentence.",
+  "Don’t swap a wordmark image into running text - “Sundae” stays plain text mid-sentence.",
   "Don’t rebuild the mark; use these files so every surface matches.",
 ];
 
@@ -75,7 +75,7 @@ export default function BrandPage() {
             Sundae brand assets
           </h1>
           <p className="body-xl mx-auto mt-5 max-w-2xl text-[var(--text-supporting)]">
-            The mark, wordmark, colors, and type — everything you need to
+            The mark, wordmark, colors, and type - everything you need to
             represent Sundae correctly, in one place.
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-3">
@@ -102,8 +102,8 @@ export default function BrandPage() {
                 Mark, wordmark, lock-up
               </h2>
               <p className="body-lg mx-auto mt-3 max-w-2xl text-[var(--text-supporting)]">
-                The coral layered-S — the business as strata, topped by the cherry
-                (the signal) — beside “sundae” in Fraunces.
+                The coral layered-S - the business as strata, topped by the cherry
+                (the signal) - beside “sundae” in Fraunces.
               </p>
             </div>
           </FadeUp>
@@ -159,7 +159,7 @@ export default function BrandPage() {
             </div>
           </FadeUp>
 
-          {/* Mark on light — proof it reads both ways */}
+          {/* Mark on light - proof it reads both ways */}
           <FadeUp>
             <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div className="flex items-center justify-center gap-4 rounded-3xl border border-[var(--border-default)] bg-[var(--navy)] p-10">
@@ -185,7 +185,7 @@ export default function BrandPage() {
                 A warm, decisive palette
               </h2>
               <p className="body-lg mx-auto mt-3 max-w-2xl text-[var(--text-supporting)]">
-                Cream to clay through coral — the same strata that fill the mark.
+                Cream to clay through coral - the same strata that fill the mark.
               </p>
             </div>
           </FadeUp>
@@ -221,10 +221,10 @@ export default function BrandPage() {
                   className="font-display leading-none text-[var(--text-display)]"
                   style={{ fontSize: 68, fontVariationSettings: "'opsz' 144, 'SOFT' 90, 'WONK' 1" }}
                 >
-                  See every layer
+                  Recover the profit
                 </p>
                 <p className="mt-4 font-display text-2xl text-[var(--text-secondary)]">
-                  Aa Bb Cc — 0123456789
+                  Aa Bb Cc - 0123456789
                 </p>
                 <p className="body-sm mt-4 text-[var(--text-muted)]">
                   Headings + the wordmark. The wordmark locks the display cut:
@@ -245,8 +245,8 @@ export default function BrandPage() {
                   Run your operations on signal, not guesswork.
                 </p>
                 <p className="mt-4 font-sans text-base leading-relaxed text-[var(--text-secondary)]">
-                  Every layer — POS, labor, inventory, guests — connected through one
-                  decision intelligence platform. Aa Bb Cc — 0123456789.
+                  Every layer - POS, labor, inventory, guests - connected through one
+                  decision intelligence platform. Aa Bb Cc - 0123456789.
                 </p>
                 <p className="body-sm mt-4 text-[var(--text-muted)]">
                   UI, body copy, and data labels (Geist Mono for tabular figures).

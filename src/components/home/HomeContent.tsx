@@ -25,6 +25,7 @@ import { closerLineCopy } from "./closerCopy";
 import { heroDashboardCopy } from "./heroDashboardCopy";
 import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
+import { SectionMeasuredNotClaimed } from "./sections/SectionMeasuredNotClaimed";
 import { SectionThreeMoats } from "./sections/SectionThreeMoats";
 import { Section4DScene } from "./sections/Section4DScene";
 import { SectionCrewSubstrate } from "./sections/SectionCrewSubstrate";
@@ -38,6 +39,7 @@ const HOME_CHAPTERS: Omit<HomeChapter, "label">[] = [
   { id: "chapter-shift", color: "#FF5C4D" },
   { id: "chapter-platform", color: "#FF7E6F" },
   { id: "chapter-moats", color: "#F7A088" },
+  { id: "chapter-measured", color: "#F2B27A" },
   { id: "chapter-crew", color: "#E9A24A" },
   { id: "chapter-proof", color: "#F6C66B" },
   { id: "chapter-cta", color: "#F6F1E8" },
@@ -46,27 +48,27 @@ const HOME_CHAPTERS: Omit<HomeChapter, "label">[] = [
 // Localized chapter labels (order matches HOME_CHAPTERS). Short, native nav
 // labels - "Crew" is the product name, kept literal in every locale.
 const CHAPTER_LABELS: Record<string, string[]> = {
-  en: ["Every layer", "The shift", "The platform", "The moat", "Crew", "Proof", "Your move"],
-  fr: ["Chaque couche", "Le service", "La plateforme", "L'avantage", "Crew", "Preuves", "À vous de jouer"],
-  es: ["Cada capa", "El turno", "La plataforma", "La ventaja", "Crew", "Pruebas", "Te toca"],
-  de: ["Jede Ebene", "Die Schicht", "Die Plattform", "Der Vorsprung", "Crew", "Belege", "Ihr Zug"],
-  nl: ["Elke laag", "De dienst", "Het platform", "De voorsprong", "Crew", "Bewijs", "Jouw beurt"],
-  pt: ["Cada camada", "O turno", "A plataforma", "A vantagem", "Crew", "Provas", "É a sua vez"],
-  it: ["Ogni livello", "Il turno", "La piattaforma", "Il vantaggio", "Crew", "Prove", "Tocca a te"],
-  pl: ["Każda warstwa", "Zmiana", "Platforma", "Przewaga", "Crew", "Dowody", "Twój ruch"],
-  ro: ["Fiecare strat", "Tura", "Platforma", "Avantajul", "Crew", "Dovezi", "Rândul tău"],
-  sv: ["Varje lager", "Passet", "Plattformen", "Försprånget", "Crew", "Bevis", "Din tur"],
-  tr: ["Her katman", "Vardiya", "Platform", "Avantaj", "Crew", "Kanıt", "Sıra sizde"],
-  id: ["Setiap lapisan", "Shift", "Platform", "Keunggulan", "Crew", "Bukti", "Giliran Anda"],
-  ms: ["Setiap lapisan", "Syif", "Platform", "Kelebihan", "Crew", "Bukti", "Giliran anda"],
-  vi: ["Mọi tầng", "Ca làm", "Nền tảng", "Lợi thế", "Crew", "Bằng chứng", "Lượt của bạn"],
-  hi: ["हर परत", "शिफ्ट", "प्लेटफ़ॉर्म", "बढ़त", "Crew", "प्रमाण", "आपकी बारी"],
-  ur: ["ہر پرت", "شفٹ", "پلیٹ فارم", "برتری", "Crew", "ثبوت", "آپ کی باری"],
-  bn: ["প্রতিটি স্তর", "শিফট", "প্ল্যাটফর্ম", "সুবিধা", "Crew", "প্রমাণ", "আপনার পালা"],
-  th: ["ทุกชั้น", "กะ", "แพลตฟอร์ม", "ความได้เปรียบ", "Crew", "หลักฐาน", "ตาคุณแล้ว"],
-  "zh-Hans": ["每一层", "营业班次", "平台", "护城河", "Crew", "实证", "该你了"],
-  ja: ["すべての層", "シフト", "プラットフォーム", "優位性", "Crew", "実証", "あなたの番"],
-  ko: ["모든 계층", "시프트", "플랫폼", "우위", "Crew", "증거", "당신 차례"],
+  en: ["Every layer", "The shift", "The platform", "The moat", "Measured", "Crew", "Proof", "Your move"],
+  fr: ["Chaque couche", "Le service", "La plateforme", "L'avantage", "Mesuré", "Crew", "Preuves", "À vous de jouer"],
+  es: ["Cada capa", "El turno", "La plataforma", "La ventaja", "Medido", "Crew", "Pruebas", "Te toca"],
+  de: ["Jede Ebene", "Die Schicht", "Die Plattform", "Der Vorsprung", "Gemessen", "Crew", "Belege", "Ihr Zug"],
+  nl: ["Elke laag", "De dienst", "Het platform", "De voorsprong", "Gemeten", "Crew", "Bewijs", "Jouw beurt"],
+  pt: ["Cada camada", "O turno", "A plataforma", "A vantagem", "Medido", "Crew", "Provas", "É a sua vez"],
+  it: ["Ogni livello", "Il turno", "La piattaforma", "Il vantaggio", "Misurato", "Crew", "Prove", "Tocca a te"],
+  pl: ["Każda warstwa", "Zmiana", "Platforma", "Przewaga", "Zmierzone", "Crew", "Dowody", "Twój ruch"],
+  ro: ["Fiecare strat", "Tura", "Platforma", "Avantajul", "Măsurat", "Crew", "Dovezi", "Rândul tău"],
+  sv: ["Varje lager", "Passet", "Plattformen", "Försprånget", "Uppmätt", "Crew", "Bevis", "Din tur"],
+  tr: ["Her katman", "Vardiya", "Platform", "Avantaj", "Ölçüldü", "Crew", "Kanıt", "Sıra sizde"],
+  id: ["Setiap lapisan", "Shift", "Platform", "Keunggulan", "Terukur", "Crew", "Bukti", "Giliran Anda"],
+  ms: ["Setiap lapisan", "Syif", "Platform", "Kelebihan", "Diukur", "Crew", "Bukti", "Giliran anda"],
+  vi: ["Mọi tầng", "Ca làm", "Nền tảng", "Lợi thế", "Đã đo", "Crew", "Bằng chứng", "Lượt của bạn"],
+  hi: ["हर परत", "शिफ्ट", "प्लेटफ़ॉर्म", "बढ़त", "मापा गया", "Crew", "प्रमाण", "आपकी बारी"],
+  ur: ["ہر پرت", "شفٹ", "پلیٹ فارم", "برتری", "ماپا گیا", "Crew", "ثبوت", "آپ کی باری"],
+  bn: ["প্রতিটি স্তর", "শিফট", "প্ল্যাটফর্ম", "সুবিধা", "পরিমাপকৃত", "Crew", "প্রমাণ", "আপনার পালা"],
+  th: ["ทุกชั้น", "กะ", "แพลตฟอร์ม", "ความได้เปรียบ", "วัดแล้ว", "Crew", "หลักฐาน", "ตาคุณแล้ว"],
+  "zh-Hans": ["每一层", "营业班次", "平台", "护城河", "已衡量", "Crew", "实证", "该你了"],
+  ja: ["すべての層", "シフト", "プラットフォーム", "優位性", "測定済み", "Crew", "実証", "あなたの番"],
+  ko: ["모든 계층", "시프트", "플랫폼", "우위", "측定됨", "Crew", "증거", "당신 차례"],
 };
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
@@ -103,7 +105,7 @@ export default function HomeContent() {
     Benchmarks: "benchmarking",
     Watchtower: "watchtower",
     Insights: "insights",
-    "Sundae Intelligence": "intelligence",
+    "Ask Sundae": "intelligence",
     Foresight: "forecasting",
   };
 
@@ -112,7 +114,7 @@ export default function HomeContent() {
     Benchmarks: "from-[#84A35C] to-[#5E7E3A]",
     Watchtower: "from-[#F59E0B] to-[#D97706]",
     Insights: "from-[#A8567E] to-[#7E3A5C]",
-    "Sundae Intelligence": "from-[#EC6A89] to-[#C9456A]",
+    "Ask Sundae": "from-[#EC6A89] to-[#C9456A]",
     Foresight: "from-[#5E9E96] to-[#3D7A70]",
   };
 
@@ -306,6 +308,14 @@ export default function HomeContent() {
         <SectionManifesto />
 
         {/* ════════════════════════════════════════════════
+            2. THE GAP ABOVE THE STACK - promoted from 8th.
+            Systems of record capture the operation. BI explains what happened.
+            Sundae directs what happens next. This is the category distinction and
+            it belongs before any feature, matching beat 2 of the customer documents.
+        ════════════════════════════════════════════════ */}
+        <SectionWhatYouRetire />
+
+        {/* ════════════════════════════════════════════════
             2-signature. WATCH THE NIGHT TURN - the signature interaction.
             Scrub a service night; at 7:15 Sundae surfaces the signal you can
             still act on. The interactive proof of the manifesto/operator copy.
@@ -330,11 +340,6 @@ export default function HomeContent() {
             2b-relief. CREAM RELIEF - early warm/light break so the dark run never builds
         ════════════════════════════════════════════════ */}
         <SectionCreamRelief variant="decisions" />
-
-        {/* ════════════════════════════════════════════════
-            2c. THE OLD TRADEOFF IS DEAD - Speed · Quality · Cost
-        ════════════════════════════════════════════════ */}
-        <SectionSpeedQualityCost />
 
         {/* ════════════════════════════════════════════════
             3. SIX LAYERS - Platform pillars
@@ -397,13 +402,6 @@ export default function HomeContent() {
         />
 
         {/* ════════════════════════════════════════════════
-            3a-retire. WHAT YOU RETIRE - BI-replacement positioning, grouped with the moats
-            (moved out of the Speed·Quality·Cost stack to break the dense run + cluster
-            the competitive/BI-replacement argument with Three Moats)
-        ════════════════════════════════════════════════ */}
-        <SectionWhatYouRetire />
-
-        {/* ════════════════════════════════════════════════
             3b. BEYOND DASHBOARDS - Three Moats (Pulse / Watchtower / Benchmarks)
         ════════════════════════════════════════════════ */}
         <div id="chapter-moats" className="scroll-mt-24">
@@ -414,6 +412,21 @@ export default function HomeContent() {
             3c. 4D INTELLIGENCE MODEL - scenario walk-through
         ════════════════════════════════════════════════ */}
         <Section4DScene />
+
+        {/* ════════════════════════════════════════════════
+            5. IDENTIFIED IS NOT RECOVERED - the differentiator the page never
+            made. Placed straight after the 4D walk, which now ends on a
+            measured result, so the claim and its proof sit together.
+        ════════════════════════════════════════════════ */}
+        <SectionMeasuredNotClaimed />
+
+        {/* ════════════════════════════════════════════════
+            6. WHAT STARTING TAKES - moved out of the early "we see it live" run.
+            Its content is the low-risk-to-start argument (governed models rather
+            than a blank canvas, deploy in days, no rebuild), which belongs after
+            the loop has been shown, not before it. Beat 6 of the customer documents.
+        ════════════════════════════════════════════════ */}
+        <SectionSpeedQualityCost />
 
         {/* ════════════════════════════════════════════════
             3d. CREW - the operational substrate that feeds the intelligence

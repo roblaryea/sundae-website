@@ -34,7 +34,7 @@ const EN = {
   behind: 'behind',
   market: 'market',
   biggestGapLabel: 'Biggest gap',
-  biggestGapBody: 'RevPASH trails the top quartile — slow early-evening bar turns.',
+  biggestGapBody: 'RevPASH trails the top quartile - slow early-evening bar turns.',
   seeFullBenchmarks: 'See full benchmarks',
 } as const;
 
@@ -179,7 +179,7 @@ export function CoreBenchmarkMobile() {
           >
             S
           </span>
-          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae — DIFC</span>
+          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae - DIFC</span>
           <svg width="11" height="11" viewBox="0 0 15 15" fill="none">
             <path d="M4 6l3.5 3.5L11 6" stroke={T.tx3} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
           </svg>

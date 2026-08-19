@@ -41,7 +41,7 @@ export interface BookingCopy {
 export const bookingCopy: BookingCopy = {
   headline: 'Book your Sundae session',
   subhead:
-    'Pick a time that works for you — we’ll send the invite and a calendar hold straight to your inbox.',
+    'Pick a time that works for you - we’ll send the invite and a calendar hold straight to your inbox.',
   offeringPrefix: 'About your ',
   timezoneLabel: 'Times shown in',
   pickATime: 'Pick a time',

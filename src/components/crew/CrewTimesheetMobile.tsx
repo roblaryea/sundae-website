@@ -57,8 +57,8 @@ const DAYS = [
   { dayKey: 'wed', date: 'Jun 25', in: '4:30 PM', out: '11:00 PM', hours: '6.5h', ot: false, off: false },
   { dayKey: 'thu', date: 'Jun 26', in: '12:00 PM', out: '8:48 PM', hours: '8.8h', ot: true, off: false },
   { dayKey: 'fri', date: 'Jun 27', in: '5:00 PM', out: '9:00 PM', hours: '4.0h', ot: false, off: false },
-  { dayKey: 'sat', date: 'Jun 28', in: '—', out: '—', hours: null, ot: false, off: true },
-  { dayKey: 'sun', date: 'Jun 29', in: '—', out: '—', hours: null, ot: false, off: true },
+  { dayKey: 'sat', date: 'Jun 28', in: ' - ', out: ' - ', hours: null, ot: false, off: true },
+  { dayKey: 'sun', date: 'Jun 29', in: ' - ', out: ' - ', hours: null, ot: false, off: true },
 ] as const;
 
 export function CrewTimesheetMobile() {
@@ -70,7 +70,7 @@ export function CrewTimesheetMobile() {
       </div>
       <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginTop: 6 }}>
         <div style={{ font: `600 21px ${FONT}`, color: T.tx }}>{t.thisWeek}</div>
-        <div style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>Jun 23 – 29</div>
+        <div style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>Jun 23 - 29</div>
       </div>
 
       {/* weekly total hero */}
@@ -138,7 +138,7 @@ export function CrewTimesheetMobile() {
                 <div style={{ font: `500 10px ${FONT}`, color: T.tx3, marginTop: 1 }}>{d.date}</div>
               </div>
               <div style={{ flex: 1, font: `500 12px ${FONT}`, color: off ? T.tx3 : T.tx2 }}>
-                {off ? t.restDay : `${d.in} – ${d.out}`}
+                {off ? t.restDay : `${d.in} - ${d.out}`}
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
                 {d.ot && (
@@ -173,7 +173,7 @@ export function CrewTimesheetMobile() {
           <path d="M8 5v3.2l2 1.2" stroke={T.warn} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         <span style={{ font: `500 12px ${FONT}`, color: T.tx2 }}>
-          {t.pending} — {t.submitBy} {t.sun} 11:59 PM
+          {t.pending} - {t.submitBy} {t.sun} 11:59 PM
         </span>
       </div>
 

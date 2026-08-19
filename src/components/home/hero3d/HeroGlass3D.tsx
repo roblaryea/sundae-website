@@ -313,7 +313,7 @@ function Scene({ active, onHover }: SceneProps) {
         <Cherry />
       </group>
 
-      {/* tight, soft grounding shadow — not a wide "plate" that reads as a stage */}
+      {/* tight, soft grounding shadow - not a wide "plate" that reads as a stage */}
       <ContactShadows position={[0, -1.5, 0]} opacity={0.4} scale={3.4} blur={3.4} far={2.2} color="#140803" />
 
       {/* No EffectComposer: a fullscreen post pass doesn't preserve the

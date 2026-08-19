@@ -630,7 +630,7 @@ Cette intelligence devient la base des playbooks opérationnels. Quand vous iden
 
 **Le jalon**: déployer une intelligence conversationnelle qui permet à chaque manager - du GM au VP régional - de poser des questions en langage courant et d’obtenir des réponses instantanées et contextualisées. Pas besoin d’analyste. Pas de demande de rapport. Pas d’attente.
 
-**Ce que Sundae apporte ici**: Sundae Intelligence permet à tout utilisateur autorisé de demander "Pourquoi le revenu du site 32 a-t-il baissé la semaine dernière ?" ou "Quels sites sont au-dessus du budget main-d’œuvre ce mois-ci ?" et de recevoir des réponses instantanées avec tout le contexte - comparaison historique, benchmark par pairs, causes racines potentielles et actions recommandées. Chaque manager devient capable de lire la donnée sans avoir besoin de devenir analyste.
+**Ce que Sundae apporte ici**: Ask Sundae permet à tout utilisateur autorisé de demander "Pourquoi le revenu du site 32 a-t-il baissé la semaine dernière ?" ou "Quels sites sont au-dessus du budget main-d’œuvre ce mois-ci ?" et de recevoir des réponses instantanées avec tout le contexte - comparaison historique, benchmark par pairs, causes racines potentielles et actions recommandées. Chaque manager devient capable de lire la donnée sans avoir besoin de devenir analyste.
 
 **Le gain**: la vitesse de décision augmente dans toute l’organisation. Les GM prennent de meilleures décisions quotidiennes. Les area managers identifient et traitent les problèmes plus vite. Les directeurs régionaux allouent leur temps selon la donnée, pas selon la rotation des plannings. L’investissement dans l’infrastructure d’intelligence génère des retours à tous les niveaux de management, pas seulement au comité exécutif.
 

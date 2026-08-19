@@ -77,6 +77,27 @@ export function StaggerItem({
   );
 }
 
+/**
+ * Multi-sentence headlines ("Six layers. One governed model. One loop.") were
+ * breaking mid-phrase, because line balancing optimises for even line lengths
+ * and knows nothing about sentence boundaries. Wrapping each sentence in an
+ * inline-block makes it an atomic unit for line breaking: the browser moves a
+ * whole sentence to the next line rather than splitting it, and still wraps
+ * inside a sentence if one is wider than the container (so narrow viewports
+ * degrade rather than overflow). Non-string titles pass through untouched.
+ */
+function balanceSentences(title: React.ReactNode): React.ReactNode {
+  if (typeof title !== "string") return title;
+  const parts = title.match(/[^.!?]+[.!?]*\s*/g);
+  if (!parts || parts.length < 2) return title;
+  return parts.map((part, i) => (
+    <span key={i} className="inline-block">
+      {part.trimEnd()}
+      {i < parts.length - 1 ? "\u00A0" : ""}
+    </span>
+  ));
+}
+
 // Premium dark hero section with floating shapes - for inner pages
 export function PageHero({
   badge,
@@ -122,7 +143,7 @@ export function PageHero({
       {/* Subtle radial glow */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 pt-32 pb-20 text-center">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 pt-32 pb-20 text-center">
         {badge && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -145,7 +166,7 @@ export function PageHero({
           }}
           className="mt-6 hero-h1"
         >
-          {title}
+          {balanceSentences(title)}
         </motion.h1>
 
         <motion.p

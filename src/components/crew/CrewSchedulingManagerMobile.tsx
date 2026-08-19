@@ -13,7 +13,7 @@ import { useCrewScreen } from './crewI18n';
 import { LOC } from './locales/CrewSchedulingManagerMobile.locales';
 
 const EN = {
-  orgName: 'Sundae — DIFC',
+  orgName: 'Sundae - DIFC',
   title: 'Team Scheduling',
   todaysCoverage: "Today's coverage",
   needsAttention: 'Needs attention',
@@ -128,7 +128,7 @@ export function CrewSchedulingManagerMobile() {
         <span style={{ width: 4, background: '#8b5cf6', flex: 'none', opacity: 0.6 }} />
         <div style={{ flex: 1, padding: '12px 12px', minWidth: 0 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <span style={{ font: `700 13px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>5:30 – 11:00 PM</span>
+            <span style={{ font: `700 13px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>5:30 - 11:00 PM</span>
             <span style={{ font: `700 9px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: T.warnt, color: T.warnk, borderRadius: 6, padding: '3px 7px' }}>{t.open}</span>
           </div>
           <div style={{ font: `500 11px ${FONT}`, color: T.tx2, marginTop: 4 }}>{t.roleServer} · Section 3 · Marcus {t.calledOut}</div>

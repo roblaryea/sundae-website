@@ -23,7 +23,7 @@ import { LOC } from './locales/CoreInsightsCardCarouselMobile.locales';
 const EN = {
   headerTitle: 'Revenue · charts',
   headerMeta: 'Swipe ← → · 7 visuals',
-  answerLine: 'Five items make 38% of revenue — the truffle pizza leads.',
+  answerLine: 'Five items make 38% of revenue - the truffle pizza leads.',
   itemTrufflePizza: 'Truffle pizza',
   itemWagyuBurger: 'Wagyu burger',
   itemCocktailFlight: 'Cocktail flight',
@@ -34,15 +34,15 @@ const EN = {
   pagerLabel: 'Top items · 3 / 7',
   anatomyTitle: 'Card anatomy',
   anatomy1Lead: 'Answer line',
-  anatomy1Rest: ' — a sentence, not a chart title',
+  anatomy1Rest: ' - a sentence, not a chart title',
   anatomy2Lead: 'Collab button',
-  anatomy2Rest: ' — unread dot, thread at this snapshot',
+  anatomy2Rest: ' - unread dot, thread at this snapshot',
   anatomy3Lead: 'Chart',
-  anatomy3Rest: ' — touch to filter/inspect, never hover',
+  anatomy3Rest: ' - touch to filter/inspect, never hover',
   anatomy4Lead: 'Thumb row',
-  anatomy4Rest: ' — Drill · Discuss · Expand',
+  anatomy4Rest: ' - Drill · Discuss · Expand',
   anatomy5Lead: 'Carousel dots',
-  anatomy5Rest: ' — page the module’s 7 charts',
+  anatomy5Rest: ' - page the module’s 7 charts',
 } as const;
 
 const T = {

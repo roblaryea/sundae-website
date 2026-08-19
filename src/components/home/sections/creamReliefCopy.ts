@@ -565,14 +565,14 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
   ko: {
     decisions: {
       eyebrow: '대시보드가 아니라 결정',
-      statement: '접시 하나, 손님 한 명, 근무 한 번이 모두 하나의 *결정입니다.* Sundae는 그 모든 순간에 있습니다 - 당신과 함께, 현장에서.',
-      lede: '일은 대시보드가 아니라 현장에서 일어납니다. Sundae는 진행 중인 근무를 다음 옳은 한 수로 바꿔줍니다 - 그 결정을 내려야 하는 사람을 위해.',
+      statement: '접시 하나, 손님 한 명, 근무 한 번이 모두 하나의 *결정입니다.* Sundae는 그 모든 순간에 있습니다--당신과 함께, 현장에서.',
+      lede: '일은 대시보드가 아니라 현장에서 일어납니다. Sundae는 진행 중인 근무를 다음 옳은 한 수로 바꿔줍니다--그 결정을 내려야 하는 사람을 위해.',
       trio: [
         { label: '홀', signal: '대기 시간 증가', cause: '3번 구역이 페이스보다 18분 늦습니다.', move: '직원 한 명을 준비에서 홀로 이동하세요.' },
         { label: '패스', signal: '조리 타이밍 지연', cause: '립아이와 연어 주문이 밀리고 있습니다.', move: '립아이를 잠시 멈추고 조리사 한 명을 패스로 보내세요.' },
         { label: '다이닝룸', signal: '고객 수 순항 중', cause: '페이스는 좋지만 객단가가 낮습니다.', move: '다음 2인석 12개에 와인 페어링을 제안하세요.' },
       ],
-      proof: '신호, 원인, 다음 한 수 - 근무가 아직 진행 중일 때.',
+      proof: '신호, 원인, 다음 한 수--근무가 아직 진행 중일 때.',
       ctaLabel: 'Pulse 실시간 보기',
       flagLabel: 'Sundae가 짚어줍니다',
       causeLabel: '원인',
@@ -582,7 +582,7 @@ export const creamReliefCopy: Record<WebsiteLocale, CreamReliefCopy> = {
     truth: {
       eyebrow: '하나의 진실',
       statement: '팀 전체가 *정말로 신뢰하는* 하나의 화면.',
-      lede: 'POS, 인력, 재고, 배달, 예약 - Sundae는 모든 시스템을 하나의 의사결정 화면으로 통합합니다. 누구의 숫자가 맞는지 다툴 일이 없습니다. 팀은 스프레드시트를 맞추는 대신 행동합니다.',
+      lede: 'POS, 인력, 재고, 배달, 예약--Sundae는 모든 시스템을 하나의 의사결정 화면으로 통합합니다. 누구의 숫자가 맞는지 다툴 일이 없습니다. 팀은 스프레드시트를 맞추는 대신 행동합니다.',
       trio: [{ label: '', signal: '' }, { label: '', signal: '' }, { label: '', signal: '' }],
     },
     unify: {

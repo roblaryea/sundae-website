@@ -1,5 +1,5 @@
 /**
- * Copy for the warm "cream relief" editorial band on the Sundae Intelligence page.
+ * Copy for the warm "cream relief" editorial band on the Ask Sundae page.
  *
  * Hand-authored native transcreation per locale - NOT literal word-for-word - so
  * each line reads the way an operator in that market would actually say it. Mirrors
@@ -93,7 +93,7 @@ export const intelligenceCreamCopy: Record<string, { eyebrow: string; statement:
   ko: {
     eyebrow: '대화형 AI',
     statement: '평범한 말로 묻고, 몇 초 만에 *결정하세요*.',
-    lede: '당신의 데이터를 웹, Slack, Teams에서 답해드립니다 - 실제 숫자에 근거해서.',
+    lede: '당신의 데이터를 웹, Slack, Teams에서 답해드립니다--실제 숫자에 근거해서.',
   },
   id: {
     eyebrow: 'AI PERCAKAPAN',

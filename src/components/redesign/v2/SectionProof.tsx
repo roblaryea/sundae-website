@@ -150,7 +150,7 @@ const industryClaims: Array<{ id: string; industry: string; sundae: string }> = 
     industry:
       "Teams wait 2-3 days for reports, exports, or analyst follow-ups. By the time the answer arrives, the shift has already happened.",
     sundae:
-      "Sundae Intelligence gives teams source-cited answers in seconds, across the systems they already use.",
+      "Ask Sundae gives teams source-cited answers in seconds, across the systems they already use.",
   },
   {
     id: "leakage",

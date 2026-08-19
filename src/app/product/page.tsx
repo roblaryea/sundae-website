@@ -54,6 +54,10 @@ type Copy = {
   layersEyebrow: string;
   layersTitle: string;
   layersDescription: string;
+  loopEyebrow: string;
+  loopTitle: string;
+  loopDescription: string;
+  loopCta: string;
   ctaTitle: string;
   ctaDescription: string;
 };
@@ -61,14 +65,14 @@ type Copy = {
 const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
   en: {
     heroBadge: "The Sundae Platform",
-    heroTitle: "500 Data Models. 12 Domains. One Truth.",
-    heroDescription: "Six intelligence layers that turn fragmented restaurant data into decisions that compound - shift by shift, outlet by outlet.",
+    heroTitle: "Six layers. One governed model. One loop.",
+    heroDescription: "Every layer reads the same governed model, so the number in a forecast, a benchmark and last night's shift report is the same number. And every layer feeds one loop: find the money, give the work an owner, measure what came back.",
     heroPrimary: "See Plans",
     heroSecondary: "Book a Working Session",
     freeLabel: "DECISION SUBSTRATE",
     freeTitle: "Sundae Core",
-    freeSubtitle: "Four packages, eleven domain modules",
-    freeDescription: "One operating picture over POS, labor, cost and guest. Every package carries all eleven domain modules; the package you choose sets how deep each one goes.",
+    freeSubtitle: "Four packages, the whole operation",
+    freeDescription: "One operating picture over POS, labor, cost and guest. Every package covers every area of the operation; the package you choose sets how deep each one goes.",
     freeIncludes: "Includes:",
     freeCta: "Explore Sundae Core →",
     coreLabel: "WORKFORCE SUBSTRATE",
@@ -80,9 +84,13 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     compareCta: "See pricing →",
     layersEyebrow: "SIX INTELLIGENCE LAYERS",
     layersTitle: "From Shift Floor to Boardroom",
-    layersDescription: "Each layer handles a distinct dimension of restaurant performance. Together, they form a closed-loop intelligence system.",
+    layersDescription: "Each layer covers a distinct dimension of the operation. They are not six separate products - they read one model, and what one layer finds becomes work another layer measures.",
+    loopEyebrow: "THE LOOP ACROSS ALL SIX",
+    loopTitle: "A layer that only reports is a layer you still have to act on yourself.",
+    loopDescription: "Sundae's profit recovery loop runs underneath all six. It takes what any layer finds, gives it one accountable owner, and freezes the number the work will be judged against before that work begins. What comes back is measured - marked directional until the person who did the work confirms it, and verified only when a second reviewer checks it against evidence.",
+    loopCta: "See how the loop works",
     ctaTitle: "Two substrates. One operating picture.",
-    ctaDescription: "Core reads the business. Crew runs the people. Every shift Crew plans becomes signal Core reasons over.",
+    ctaDescription: "Core reads the business. Crew runs the people. Every shift Crew plans becomes signal Core reasons over - and every decision that signal produces is measured against what actually changed.",
   },
   ar: {
     heroBadge: "منصة Sundae",
@@ -92,8 +100,8 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     heroSecondary: "احجز عرضاً",
     freeLabel: "ركيزة القرار",
     freeTitle: "Sundae Core",
-    freeSubtitle: "أربع باقات، وإحدى عشرة وحدة",
-    freeDescription: "صورة تشغيلية واحدة فوق نقاط البيع والعمالة والتكلفة والضيف. كل باقة تضم الوحدات الإحدى عشرة، والباقة تحدد عمق كل وحدة.",
+    freeSubtitle: "أربع باقات، والتشغيل بالكامل",
+    freeDescription: "صورة تشغيلية واحدة فوق نقاط البيع والعمالة والتكلفة والضيف. كل باقة تغطي كل مجالات التشغيل، والباقة تحدد عمق كل مجال.",
     freeIncludes: "يشمل:",
     freeCta: "استكشاف Sundae Core →",
     coreLabel: "ركيزة القوى العاملة",
@@ -106,6 +114,10 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     layersEyebrow: "ست طبقات ذكاء",
     layersTitle: "من أرضية الوردية إلى غرفة الإدارة",
     layersDescription: "كل طبقة تعالج بُعداً مختلفاً من أداء المطعم. معاً، يشكلون نظام ذكاء مغلق الحلقة.",
+    loopEyebrow: "الحلقة التي تمر عبر الطبقات الست",
+    loopTitle: "الطبقة التي تكتفي بالتقرير تترك التنفيذ عليك.",
+    loopDescription: "تعمل حلقة استرجاع الأرباح في Sundae أسفل الطبقات الست جميعاً. تأخذ ما تكتشفه أي طبقة، وتسنده إلى مسؤول واحد، وتثبّت الرقم الذي سيُحاكم عليه العمل قبل أن يبدأ. وما يعود يُقاس - ويُوسم استرشادياً حتى يؤكده من نفّذ العمل، ولا يُعتمد إلا بعد أن يراجعه شخص ثانٍ مقابل الأدلة.",
+    loopCta: "اطّلع على آلية الحلقة",
     ctaTitle: "ركيزتان. وصورة تشغيلية واحدة.",
     ctaDescription: "Core يقرأ العمل، وCrew يدير الناس. وكل وردية يخطط لها Crew تصبح إشارة يستدل بها Core.",
   },
@@ -117,7 +129,7 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     heroSecondary: "Reserver une demo",
     freeLabel: "BASE DE DECISION",
     freeTitle: "Sundae Core",
-    freeSubtitle: "Quatre offres, onze modules metier",
+    freeSubtitle: "Quatre offres, toute l'exploitation",
     freeDescription: "Une seule image d exploitation sur le POS, la main-d oeuvre, les couts et le client. Chaque offre embarque les onze modules ; l offre choisie fixe leur profondeur.",
     freeIncludes: "Comprend :",
     freeCta: "Decouvrir Sundae Core →",
@@ -131,6 +143,10 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     layersEyebrow: "SIX COUCHES D'INTELLIGENCE",
     layersTitle: "Du service jusqu'au board",
     layersDescription: "Chaque couche couvre une dimension specifique de la performance. Ensemble, elles forment un systeme d'intelligence en boucle fermee.",
+    loopEyebrow: "La boucle qui traverse les six couches",
+    loopTitle: "Une couche qui se contente de rapporter vous laisse le travail.",
+    loopDescription: "La boucle de recuperation de marge de Sundae passe sous les six couches. Elle reprend ce qu'une couche detecte, l'attribue a un seul responsable et fige le chiffre sur lequel le travail sera juge avant qu'il ne commence. Ce qui revient est mesure - qualifie de directionnel jusqu'a ce que la personne qui a fait le travail le confirme, et valide seulement lorsqu'un second relecteur le verifie contre des preuves.",
+    loopCta: "Voir le fonctionnement de la boucle",
     ctaTitle: "Deux socles. Une seule image d exploitation.",
     ctaDescription: "Core lit l activite, Crew fait tourner les equipes. Chaque service planifie par Crew devient un signal que Core exploite.",
   },
@@ -142,7 +158,7 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     heroSecondary: "Reservar una demo",
     freeLabel: "SUSTRATO DE DECISION",
     freeTitle: "Sundae Core",
-    freeSubtitle: "Cuatro paquetes, once modulos de dominio",
+    freeSubtitle: "Cuatro paquetes, toda la operacion",
     freeDescription: "Una sola imagen operativa sobre POS, personal, coste y cliente. Cada paquete lleva los once modulos; el paquete que elijas marca cuanto profundiza cada uno.",
     freeIncludes: "Incluye:",
     freeCta: "Explorar Sundae Core →",
@@ -156,6 +172,10 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     layersEyebrow: "SEIS CAPAS DE INTELIGENCIA",
     layersTitle: "Del turno a la sala directiva",
     layersDescription: "Cada capa cubre una dimension distinta del rendimiento del restaurante. Juntas forman un sistema de inteligencia en bucle cerrado.",
+    loopEyebrow: "El bucle que atraviesa las seis capas",
+    loopTitle: "Una capa que solo informa te deja el trabajo a ti.",
+    loopDescription: "El bucle de recuperacion de margen de Sundae corre por debajo de las seis capas. Toma lo que cualquier capa detecta, le asigna un unico responsable y congela la cifra contra la que se juzgara el trabajo antes de empezarlo. Lo que vuelve se mide - marcado como direccional hasta que lo confirma quien hizo el trabajo, y validado solo cuando un segundo revisor lo contrasta con evidencias.",
+    loopCta: "Ver como funciona el bucle",
     ctaTitle: "Dos sustratos. Una sola imagen operativa.",
     ctaDescription: "Benchmarking historico sin coste. Operaciones en tiempo real cuando necesites ventaja.",
   },
@@ -163,35 +183,35 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
 
 const localizedPillars: Record<'en' | 'ar' | 'fr' | 'es', Pillar[]> = {
   en: [
-    { name: "Pulse", tagline: "Intraday Operations", description: "Revenue pacing, labor cost, server performance, and leakage detection - updating every 5 minutes. A shift is a perishable asset. Once it's gone, the margin is gone.", icon: "pulse", features: ["Live sales pacing vs targets", "Server-level upsell tracking", "Leakage & void detection", "Sundae Coach shift signals", "Portfolio leaderboard", "Wallboard mode for the floor"], stat: "$2K", statLabel: "saved per bad shift caught early", mockup: PulseDashboardMockup },
+    { name: "Pulse", tagline: "Intraday Operations", description: "Revenue pacing, labor cost, server performance, and leakage detection - updating every 5 minutes. A shift is a perishable asset. Once it's gone, the margin is gone.", icon: "pulse", features: ["Live sales pacing vs targets", "Server-level upsell tracking", "Leakage & void detection", "Sundae Coach shift signals", "Portfolio leaderboard", "Wallboard mode for the floor"], stat: "5 min", statLabel: "refresh while the shift is still running", mockup: PulseDashboardMockup },
     { name: "Benchmarks", tagline: "Competitive Intelligence", description: "RevPASH Index, seat occupancy, average check, and revenue indexes - compared against anonymized peers in your segment and market.", icon: "benchmarking", features: ["RevPASH & revenue indexes", "Compset peer comparisons", "Performance trend analysis", "Revenue forecasting", "Market positioning", "Priority insights by Sundae Coach"], stat: "112", statLabel: "RevPASH Index - 12% above peers", mockup: BenchmarkDashboardMockup },
     { name: "Watchtower", tagline: "Market Intelligence", description: "Competitor monitoring, weather revenue impact, event intelligence, and daily briefings - before the impact hits your numbers.", icon: "watchtower", features: ["Competitor price & menu tracking", "Weather revenue impact models", "Local event intelligence", "Daily Sundae Coach briefings", "Signal feed & alerts", "Market trend detection"], stat: "72h", statLabel: "early warning before impact", mockup: WatchtowerMockup },
-    { name: "Insights", tagline: "12 Intelligence Modules", description: "Revenue, labor, inventory, purchasing, marketing, reservations, delivery, guest experience, and more - each with recommendations from Sundae Coach.", icon: "insights", features: ["Revenue & profit intelligence", "Labor cost optimization", "Inventory waste & variance", "Purchasing & supplier scoring", "Marketing ROI attribution", "Cross-Intelligence correlation engine"], stat: "500+", statLabel: "data models across 12 domains", mockup: InsightsModuleMockup },
-    { name: "Sundae Intelligence", tagline: "Conversational Analytics", description: "Ask questions in plain language. Get answers backed by your real data - with sources, not guesses. Available on web, Telegram, Slack, and Microsoft Teams.", icon: "conversation", features: ["Natural language queries", "Monitor mode (real-time alerts)", "Briefing mode (daily summaries)", "Web + Telegram + Slack + Teams", "Conversation history", "Source-cited responses"], stat: "30s", statLabel: "from question to cited answer", mockup: IntelligenceChatMockup },
+    { name: "Insights", tagline: "Deep Operational Analytics", description: "Revenue, labor, inventory, purchasing, marketing, reservations, delivery, guest experience, and more - each with recommendations from Sundae Coach.", icon: "insights", features: ["Revenue & profit intelligence", "Labor cost optimization", "Inventory waste & variance", "Purchasing & supplier scoring", "Marketing ROI attribution", "Cross-Intelligence correlation engine"], stat: "12", statLabel: "operational areas, correlated against each other", mockup: InsightsModuleMockup },
+    { name: "Ask Sundae", tagline: "Conversational Analytics", description: "Ask questions in plain language. Get answers backed by your real data - with sources, not guesses. Available on web, Telegram, Slack, and Microsoft Teams.", icon: "conversation", features: ["Natural language queries", "Monitor mode (real-time alerts)", "Briefing mode (daily summaries)", "Web + Telegram + Slack + Teams", "Conversation history", "Source-cited responses"], stat: "30s", statLabel: "from question to cited answer", mockup: IntelligenceChatMockup },
     { name: "Foresight", tagline: "Predictive Intelligence", description: "Forward-looking forecasts for revenue, labor, food cost, and profit - with confidence bands, what-if scenarios, and weekly executive briefings. Stop reacting. Start anticipating.", icon: "forecasting", features: ["14-365 day multi-metric forecasts", "What-if scenario simulator with Monte Carlo", "Forecast-driven labor scheduling & purchasing", "Cross-module cascade forecasting", "Accuracy self-correction with bias detection", "AI executive briefings with PDF export"], stat: "91%", statLabel: "forecast accuracy with self-correction", mockup: ForesightDashboardMockup },
   ],
   ar: [
-    { name: "Pulse", tagline: "العمليات داخل اليوم", description: "وتيرة الإيرادات، تكلفة العمالة، أداء الخادم، وكشف التسرب - تتحدث كل 5 دقائق. الوردية أصل قابل للتلف.", icon: "pulse", features: ["مقارنة مباشرة للمبيعات مقابل الأهداف", "تتبع الارتقاء لكل خادم", "كشف التسرب والإلغاءات", "إشارات Sundae Coach للوردية", "لوحة ترتيب للمواقع", "وضع شاشة للقسم"], stat: "$2K", statLabel: "تم توفيرها من وردية سيئة تم اكتشافها مبكراً", mockup: PulseDashboardMockup },
+    { name: "Pulse", tagline: "العمليات داخل اليوم", description: "وتيرة الإيرادات، تكلفة العمالة، أداء الخادم، وكشف التسرب - تتحدث كل 5 دقائق. الوردية أصل قابل للتلف.", icon: "pulse", features: ["مقارنة مباشرة للمبيعات مقابل الأهداف", "تتبع الارتقاء لكل خادم", "كشف التسرب والإلغاءات", "إشارات Sundae Coach للوردية", "لوحة ترتيب للمواقع", "وضع شاشة للقسم"], stat: "5 دقائق", statLabel: "تحديث والوردية ما زالت جارية", mockup: PulseDashboardMockup },
     { name: "Benchmarks", tagline: "الذكاء التنافسي", description: "مؤشر RevPASH، إشغال المقاعد، متوسط الفاتورة، ومؤشرات الإيرادات - مقارنة مع أقران مجهولين في قطاعك وسوقك.", icon: "benchmarking", features: ["مؤشرات RevPASH والإيرادات", "مقارنات مع مجموعة الأقران", "تحليل اتجاهات الأداء", "توقع الإيرادات", "تموضع السوق", "رؤى ذات أولوية من Sundae Coach"], stat: "112", statLabel: "مؤشر RevPASH - أعلى 12% من الأقران", mockup: BenchmarkDashboardMockup },
     { name: "Watchtower", tagline: "ذكاء السوق", description: "مراقبة المنافسين، أثر الطقس على الإيرادات، ذكاء الفعاليات، والتقارير اليومية - قبل أن يصل الأثر إلى أرقامك.", icon: "watchtower", features: ["تتبع أسعار وقوائم المنافسين", "نماذج أثر الطقس على الإيرادات", "ذكاء الفعاليات المحلية", "تقارير يومية من Sundae Coach", "تغذية إشارات وتنبيهات", "كشف اتجاهات السوق"], stat: "72h", statLabel: "تحذير مبكر قبل الأثر", mockup: WatchtowerMockup },
-    { name: "Insights", tagline: "12 وحدة ذكاء", description: "الإيرادات، العمالة، المخزون، المشتريات، التسويق، الحجوزات، التوصيل، تجربة الضيف، وأكثر - كل منها مع توصيات من Sundae Coach.", icon: "insights", features: ["ذكاء الإيرادات والربح", "تحسين تكلفة العمالة", "هدر المخزون والانحراف", "تقييم المشتريات والموردين", "إسناد ROI للتسويق", "محرك الارتباط Cross-Intelligence"], stat: "500+", statLabel: "نموذج بيانات عبر 12 مجالاً", mockup: InsightsModuleMockup },
-    { name: "Sundae Intelligence", tagline: "تحليلات محادثية", description: "اسأل بلغة بسيطة. واحصل على إجابات مدعومة ببياناتك الحقيقية - مع المصادر، لا التخمين. متاح على الويب وتليغرام وسلاك وMicrosoft Teams.", icon: "conversation", features: ["استعلامات بلغة طبيعية", "وضع المراقبة (تنبيهات لحظية)", "وضع الملخص (ملخصات يومية)", "الويب + تليغرام + سلاك + Teams", "سجل المحادثات", "ردود معززة بالمصادر"], stat: "30s", statLabel: "من السؤال إلى الإجابة الموثقة", mockup: IntelligenceChatMockup },
+    { name: "Insights", tagline: "تحليلات تشغيلية عميقة", description: "الإيرادات، العمالة، المخزون، المشتريات، التسويق، الحجوزات، التوصيل، تجربة الضيف، وأكثر - كل منها مع توصيات من Sundae Coach.", icon: "insights", features: ["ذكاء الإيرادات والربح", "تحسين تكلفة العمالة", "هدر المخزون والانحراف", "تقييم المشتريات والموردين", "إسناد ROI للتسويق", "محرك الارتباط Cross-Intelligence"], stat: "12", statLabel: "مجالاً تشغيلياً مترابطة ببعضها", mockup: InsightsModuleMockup },
+    { name: "Ask Sundae", tagline: "تحليلات محادثية", description: "اسأل بلغة بسيطة. واحصل على إجابات مدعومة ببياناتك الحقيقية - مع المصادر، لا التخمين. متاح على الويب وتليغرام وسلاك وMicrosoft Teams.", icon: "conversation", features: ["استعلامات بلغة طبيعية", "وضع المراقبة (تنبيهات لحظية)", "وضع الملخص (ملخصات يومية)", "الويب + تليغرام + سلاك + Teams", "سجل المحادثات", "ردود معززة بالمصادر"], stat: "30s", statLabel: "من السؤال إلى الإجابة الموثقة", mockup: IntelligenceChatMockup },
     { name: "Foresight", tagline: "ذكاء تنبؤي", description: "توقعات مستقبلية للإيرادات والعمالة وتكلفة الطعام والربح - مع نطاقات ثقة وسيناريوهات ماذا لو وتقارير تنفيذية أسبوعية.", icon: "forecasting", features: ["توقعات متعددة المقاييس لمدد 14-365 يوماً", "محاكي سيناريوهات مع Monte Carlo", "جدولة ومشتريات مبنية على التوقع", "توقعات متسلسلة عبر الوحدات", "تصحيح ذاتي للدقة مع كشف الانحياز", "ملخصات تنفيذية بالذكاء الاصطناعي مع PDF"], stat: "91%", statLabel: "دقة التوقع مع التصحيح الذاتي", mockup: ForesightDashboardMockup },
   ],
   fr: [
-    { name: "Pulse", tagline: "Operations intraday", description: "Rythme du revenu, cout de main-d oeuvre, performance serveur et detection des fuites - mise a jour toutes les 5 minutes. Un service est un actif perissable.", icon: "pulse", features: ["Pacing ventes vs objectifs", "Suivi de l'upsell serveur", "Detection des fuites et annulations", "Signaux de shift Sundae Coach", "Classement portefeuille", "Mode wallboard pour la salle"], stat: "$2K", statLabel: "economises par un mauvais service detecte a temps", mockup: PulseDashboardMockup },
+    { name: "Pulse", tagline: "Operations intraday", description: "Rythme du revenu, cout de main-d oeuvre, performance serveur et detection des fuites - mise a jour toutes les 5 minutes. Un service est un actif perissable.", icon: "pulse", features: ["Pacing ventes vs objectifs", "Suivi de l'upsell serveur", "Detection des fuites et annulations", "Signaux de shift Sundae Coach", "Classement portefeuille", "Mode wallboard pour la salle"], stat: "5 min", statLabel: "actualisation pendant que le service tourne", mockup: PulseDashboardMockup },
     { name: "Benchmarks", tagline: "Intelligence concurrentielle", description: "Index RevPASH, occupation des sieges, ticket moyen et indices de revenu - compares a des pairs anonymises de votre segment et marche.", icon: "benchmarking", features: ["Indices RevPASH et revenu", "Comparaisons avec les pairs", "Analyse des tendances", "Prevision du revenu", "Positionnement marche", "Insights prioritaires de Sundae Coach"], stat: "112", statLabel: "Index RevPASH - 12 % au-dessus des pairs", mockup: BenchmarkDashboardMockup },
     { name: "Watchtower", tagline: "Intelligence marche", description: "Suivi des concurrents, impact meteo sur le revenu, intelligence des evenements et briefings quotidiens - avant que l'impact n'apparaisse dans vos chiffres.", icon: "watchtower", features: ["Suivi des prix et menus concurrents", "Modeles d'impact meteo", "Intelligence des evenements locaux", "Briefings quotidiens Sundae Coach", "Flux de signaux et alertes", "Detection des tendances marche"], stat: "72h", statLabel: "alerte precoce avant impact", mockup: WatchtowerMockup },
-    { name: "Insights", tagline: "12 modules d'intelligence", description: "Revenu, main-d'oeuvre, stock, achats, marketing, reservations, livraison, experience client et plus - chacun avec des recommandations Sundae Coach.", icon: "insights", features: ["Intelligence revenu et profit", "Optimisation du cout main-d'oeuvre", "Gaspillage et ecarts de stock", "Notation achats et fournisseurs", "Attribution du ROI marketing", "Moteur de correlation Cross-Intelligence"], stat: "500+", statLabel: "modeles de donnees sur 12 domaines", mockup: InsightsModuleMockup },
-    { name: "Sundae Intelligence", tagline: "Analytique conversationnelle", description: "Posez une question en langage simple. Obtenez des reponses basees sur vos vraies donnees - avec sources, pas des suppositions. Disponible sur web, Telegram, Slack et Microsoft Teams.", icon: "conversation", features: ["Requetes en langage naturel", "Mode monitoring (alertes temps reel)", "Mode briefing (resumes quotidiens)", "Web + Telegram + Slack + Teams", "Historique de conversation", "Reponses citees"], stat: "30s", statLabel: "de la question a la reponse citee", mockup: IntelligenceChatMockup },
+    { name: "Insights", tagline: "Analytique opérationnelle approfondie", description: "Revenu, main-d'oeuvre, stock, achats, marketing, reservations, livraison, experience client et plus - chacun avec des recommandations Sundae Coach.", icon: "insights", features: ["Intelligence revenu et profit", "Optimisation du cout main-d'oeuvre", "Gaspillage et ecarts de stock", "Notation achats et fournisseurs", "Attribution du ROI marketing", "Moteur de correlation Cross-Intelligence"], stat: "12", statLabel: "domaines operationnels, croises entre eux", mockup: InsightsModuleMockup },
+    { name: "Ask Sundae", tagline: "Analytique conversationnelle", description: "Posez une question en langage simple. Obtenez des reponses basees sur vos vraies donnees - avec sources, pas des suppositions. Disponible sur web, Telegram, Slack et Microsoft Teams.", icon: "conversation", features: ["Requetes en langage naturel", "Mode monitoring (alertes temps reel)", "Mode briefing (resumes quotidiens)", "Web + Telegram + Slack + Teams", "Historique de conversation", "Reponses citees"], stat: "30s", statLabel: "de la question a la reponse citee", mockup: IntelligenceChatMockup },
     { name: "Foresight", tagline: "Intelligence predictive", description: "Previsions prospectives pour le revenu, la main-d'oeuvre, le cout alimentaire et le profit - avec intervalles de confiance, scenarios et briefings executifs hebdomadaires.", icon: "forecasting", features: ["Previsions multi-metrics sur 14-365 jours", "Simulateur de scenarios avec Monte Carlo", "Planification et achats pilotes par la prevision", "Previsions en cascade multi-modules", "Auto-correction de la precision", "Briefings executifs IA avec export PDF"], stat: "91%", statLabel: "precision des previsions avec auto-correction", mockup: ForesightDashboardMockup },
   ],
   es: [
-    { name: "Pulse", tagline: "Operaciones intradia", description: "Ritmo de ingresos, coste laboral, rendimiento de servidores y deteccion de fugas - actualizado cada 5 minutos. Un turno es un activo perecedero.", icon: "pulse", features: ["Ritmo de ventas vs objetivos", "Seguimiento de upsell por servidor", "Deteccion de fugas y anulaciones", "Señales de turno de Sundae Coach", "Clasificacion del portafolio", "Modo wallboard para sala"], stat: "$2K", statLabel: "ahorrados al detectar pronto un mal turno", mockup: PulseDashboardMockup },
+    { name: "Pulse", tagline: "Operaciones intradia", description: "Ritmo de ingresos, coste laboral, rendimiento de servidores y deteccion de fugas - actualizado cada 5 minutos. Un turno es un activo perecedero.", icon: "pulse", features: ["Ritmo de ventas vs objetivos", "Seguimiento de upsell por servidor", "Deteccion de fugas y anulaciones", "Señales de turno de Sundae Coach", "Clasificacion del portafolio", "Modo wallboard para sala"], stat: "5 min", statLabel: "actualizacion mientras el turno sigue en marcha", mockup: PulseDashboardMockup },
     { name: "Benchmarks", tagline: "Inteligencia competitiva", description: "Indice RevPASH, ocupacion de asientos, ticket medio e indices de ingresos - comparados con pares anonimizados de tu segmento y mercado.", icon: "benchmarking", features: ["Indices RevPASH e ingresos", "Comparaciones con pares", "Analisis de tendencias", "Prevision de ingresos", "Posicionamiento de mercado", "Insights prioritarios de Sundae Coach"], stat: "112", statLabel: "indice RevPASH - 12% por encima de los pares", mockup: BenchmarkDashboardMockup },
     { name: "Watchtower", tagline: "Inteligencia de mercado", description: "Seguimiento de competidores, impacto del clima en ingresos, inteligencia de eventos y briefings diarios - antes de que el impacto llegue a tus cifras.", icon: "watchtower", features: ["Seguimiento de precios y menus de competidores", "Modelos de impacto del clima", "Inteligencia de eventos locales", "Briefings diarios de Sundae Coach", "Feed de señales y alertas", "Deteccion de tendencias de mercado"], stat: "72h", statLabel: "aviso temprano antes del impacto", mockup: WatchtowerMockup },
-    { name: "Insights", tagline: "12 modulos de inteligencia", description: "Ingresos, mano de obra, inventario, compras, marketing, reservas, entrega, experiencia del cliente y mas - cada uno con recomendaciones de Sundae Coach.", icon: "insights", features: ["Inteligencia de ingresos y beneficio", "Optimizacion del coste laboral", "Desperdicio y variacion de inventario", "Valoracion de compras y proveedores", "Atribucion del ROI de marketing", "Motor de correlacion Cross-Intelligence"], stat: "500+", statLabel: "modelos de datos en 12 dominios", mockup: InsightsModuleMockup },
-    { name: "Sundae Intelligence", tagline: "Analitica conversacional", description: "Haz preguntas en lenguaje simple. Obtén respuestas respaldadas por tus datos reales - con fuentes, no suposiciones. Disponible en web, Telegram, Slack y Microsoft Teams.", icon: "conversation", features: ["Consultas en lenguaje natural", "Modo monitor (alertas en tiempo real)", "Modo briefing (resúmenes diarios)", "Web + Telegram + Slack + Teams", "Historial de conversaciones", "Respuestas con fuentes"], stat: "30s", statLabel: "de la pregunta a la respuesta citada", mockup: IntelligenceChatMockup },
+    { name: "Insights", tagline: "Analitica operativa profunda", description: "Ingresos, mano de obra, inventario, compras, marketing, reservas, entrega, experiencia del cliente y mas - cada uno con recomendaciones de Sundae Coach.", icon: "insights", features: ["Inteligencia de ingresos y beneficio", "Optimizacion del coste laboral", "Desperdicio y variacion de inventario", "Valoracion de compras y proveedores", "Atribucion del ROI de marketing", "Motor de correlacion Cross-Intelligence"], stat: "12", statLabel: "areas operativas, cruzadas entre si", mockup: InsightsModuleMockup },
+    { name: "Ask Sundae", tagline: "Analitica conversacional", description: "Haz preguntas en lenguaje simple. Obtén respuestas respaldadas por tus datos reales - con fuentes, no suposiciones. Disponible en web, Telegram, Slack y Microsoft Teams.", icon: "conversation", features: ["Consultas en lenguaje natural", "Modo monitor (alertas en tiempo real)", "Modo briefing (resúmenes diarios)", "Web + Telegram + Slack + Teams", "Historial de conversaciones", "Respuestas con fuentes"], stat: "30s", statLabel: "de la pregunta a la respuesta citada", mockup: IntelligenceChatMockup },
     { name: "Foresight", tagline: "Inteligencia predictiva", description: "Previsiones para ingresos, mano de obra, coste de comida y beneficio - con bandas de confianza, escenarios y briefings ejecutivos semanales.", icon: "forecasting", features: ["Previsiones multimetricas de 14-365 dias", "Simulador de escenarios con Monte Carlo", "Planificacion de mano de obra y compras guiada por previsiones", "Previsiones en cascada entre modulos", "Autocorreccion de la precision", "Briefings ejecutivos IA con exportacion PDF"], stat: "91%", statLabel: "precision de previsiones con autocorreccion", mockup: ForesightDashboardMockup },
   ],
 };
@@ -232,9 +252,9 @@ export default function ProductPage() {
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.freeDescription}</p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.freeIncludes}</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'All eleven domain modules' : locale === 'ar' ? 'الوحدات الإحدى عشرة كلها' : locale === 'fr' ? 'Les onze modules metier' : 'Los once modulos de dominio'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Every area of the operation' : locale === 'ar' ? 'كل مجالات التشغيل' : locale === 'fr' ? "Tous les domaines de l'exploitation" : 'Todas las areas de la operacion'}</li>
                     <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Pulse (intraday operations)' : locale === 'ar' ? 'Pulse (العمليات داخل اليوم)' : locale === 'fr' ? 'Pulse (operations intraday)' : 'Pulse (operaciones intradia)'}</li>
-                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Sundae Intelligence' : locale === 'ar' ? 'Sundae Intelligence' : locale === 'fr' ? 'Sundae Intelligence' : 'Sundae Intelligence'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Ask Sundae' : locale === 'ar' ? 'Ask Sundae' : locale === 'fr' ? 'Ask Sundae' : 'Ask Sundae'}</li>
                     <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Anonymous peer benchmarking' : locale === 'ar' ? 'مقارنة مرجعية مجهولة مع الأقران' : locale === 'fr' ? 'Benchmarking anonyme entre pairs' : 'Benchmarking anonimo entre pares'}</li>
                   </ul>
                   <Button variant="primary" className="w-full" onClick={() => cta("/core", "view_core_product_card", { page: "/product" })}>{ui.freeCta}</Button>
@@ -315,6 +335,20 @@ export default function ProductPage() {
               );
             })}
           </div>
+        </div>
+      </section>
+
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-y border-white/10">
+        <div className="max-w-4xl mx-auto text-center">
+          <FadeUp>
+            <p className="eyebrow mb-4">{ui.loopEyebrow}</p>
+            <h2 className="section-h2 text-white mb-5 text-balance">{ui.loopTitle}</h2>
+            <p className="body-lg text-white/70 mb-8">{ui.loopDescription}</p>
+            <Link href="/product/recovery">
+              <Button variant="outline-light" size="lg">{ui.loopCta}</Button>
+            </Link>
+          </FadeUp>
         </div>
       </section>
 

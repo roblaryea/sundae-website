@@ -28,7 +28,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "Live margins, root-cause variance, defendable forecasts.",
     howSundaeHelps: [
       { title: "Live margin intelligence", description: "Net revenue, food cost %, labor %, and contribution margin update by shift - not by month. Variance flagged the moment it opens.", product: "Insights · Revenue + Profit", icon: "chart" },
-      { title: "Variance with attribution", description: "Click a margin gap → see the event that caused it: a void run, a labor over-coverage, a price test, a delivery commission spike.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Variance with attribution", description: "Click a margin gap → see the event that caused it: a void run, a labor over-coverage, a price test, a delivery commission spike.", product: "Ask Sundae", icon: "intelligence" },
       { title: "Automated POS reconciliation", description: "POS, labor, inventory, accounting - unified into one ledger so close cycles run in hours, not days.", product: "Sundae Core", icon: "integration" },
       { title: "Forecasts the board can defend", description: "14-90 day EBITDA projections layered with market signal, self-correcting on weekly delivery.", product: "Foresight", icon: "forecasting" },
     ],
@@ -70,7 +70,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "هوامش حية، تباين بأسباب جذرية، توقعات قابلة للدفاع.",
     howSundaeHelps: [
       { title: "ذكاء هامش حي", description: "صافي الإيرادات، نسبة تكلفة الطعام والعمالة، وهامش المساهمة تتحدث بالوردية - لا بالشهر.", product: "Insights · Revenue + Profit", icon: "chart" },
-      { title: "تباين مع إسناد", description: "انقر على فجوة هامش → شاهد الحدث الذي سببها: تجاوزات، أو تكلفة عمالة زائدة، أو اختبار تسعير.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "تباين مع إسناد", description: "انقر على فجوة هامش → شاهد الحدث الذي سببها: تجاوزات، أو تكلفة عمالة زائدة، أو اختبار تسعير.", product: "Ask Sundae", icon: "intelligence" },
       { title: "تسوية POS تلقائية", description: "POS وعمالة ومخزون ومحاسبة - موحدة في دفتر واحد لتجري دورات الإقفال بساعات لا أيام.", product: "Sundae Core", icon: "integration" },
       { title: "توقعات يدافع عنها المجلس", description: "إسقاطات EBITDA لـ 14-90 يوماً مع إشارات السوق، تصحح ذاتها أسبوعياً.", product: "Foresight", icon: "forecasting" },
     ],
@@ -112,7 +112,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "Marges live, variance avec cause racine, prévisions défendables.",
     howSundaeHelps: [
       { title: "Marge live", description: "Revenu net, coût matière %, main-d'œuvre %, marge de contribution - par service, pas par mois.", product: "Insights · Revenue + Profit", icon: "chart" },
-      { title: "Variance attribuée", description: "Cliquez un écart → voyez l'événement qui l'a causé : annulations, sur-effectif, test de prix, pic de commission delivery.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Variance attribuée", description: "Cliquez un écart → voyez l'événement qui l'a causé : annulations, sur-effectif, test de prix, pic de commission delivery.", product: "Ask Sundae", icon: "intelligence" },
       { title: "Rapprochement POS automatisé", description: "POS, main-d'œuvre, stocks, comptabilité - un seul livre, clôtures en heures plutôt qu'en jours.", product: "Sundae Core", icon: "integration" },
       { title: "Prévisions que le conseil accepte", description: "Projections EBITDA 14-90 jours avec signal marché, auto-corrigées chaque semaine.", product: "Foresight", icon: "forecasting" },
     ],
@@ -154,7 +154,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "Márgenes en vivo, varianza con causa raíz, pronósticos defendibles.",
     howSundaeHelps: [
       { title: "Margen en vivo", description: "Ingreso neto, coste alimentos %, personal %, margen de contribución - por turno, no por mes.", product: "Insights · Revenue + Profit", icon: "chart" },
-      { title: "Varianza atribuida", description: "Haz clic en una brecha → ve el evento que la causó: anulaciones, sobreasignación, prueba de precio, comisión de delivery.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Varianza atribuida", description: "Haz clic en una brecha → ve el evento que la causó: anulaciones, sobreasignación, prueba de precio, comisión de delivery.", product: "Ask Sundae", icon: "intelligence" },
       { title: "Conciliación POS automatizada", description: "POS, personal, inventario, contabilidad - un solo libro, cierres en horas en vez de días.", product: "Sundae Core", icon: "integration" },
       { title: "Pronósticos que el consejo acepta", description: "Proyecciones EBITDA 14-90 días con señal de mercado, autocorregidas semanalmente.", product: "Foresight", icon: "forecasting" },
     ],

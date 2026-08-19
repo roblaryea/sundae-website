@@ -37,7 +37,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   en: {
     band1: {
       eyebrow: 'From the pass to the P&L',
-      headline: 'The intelligence layer for the restaurant you actually run.',
+      headline: 'Built for the operation you actually run.',
       sub: 'Not another dashboard to check. Sundae reads every shift, cover, and line item - and surfaces the next right move before the moment passes.',
       alt: 'A chef finishing a plated dish on the kitchen pass during service',
     },
@@ -50,7 +50,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Your floor, your call',
       headlineLead: "The best operators don't have more hours.",
-      headlineEmphasis: 'They have better information.',
+      headlineEmphasis: 'They have fewer decisions left open.',
       sub: 'Sundae gives you the read on your business that great instincts deserve - across every outlet, in real time.',
       alt: 'A host attending to guests in a warmly lit dining room',
     },
@@ -58,7 +58,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ar: {
     band1: {
       eyebrow: 'من ممر التقديم إلى P&L',
-      headline: 'طبقة الذكاء للمطعم الذي تديره فعلاً.',
+      headline: 'مبني للعملية التي تديرها فعلاً.',
       sub: 'ليست لوحة معلومات أخرى لمراجعتها. Sundae يقرأ كل وردية وكل ضيف وكل بند - ويُبرز لك الخطوة الصحيحة التالية قبل أن تفوت اللحظة.',
       alt: 'طاهٍ يُنهي إعداد طبق عند ممر التقديم أثناء الخدمة',
     },
@@ -71,7 +71,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'صالتك، وقرارك',
       headlineLead: 'أفضل المشغّلين لا يملكون ساعات أكثر.',
-      headlineEmphasis: 'بل يملكون معلومات أفضل.',
+      headlineEmphasis: 'بل يتركون قرارات أقل معلّقة.',
       sub: 'يمنحك Sundae قراءةً لأعمالك يستحقها حدسك الممتاز - عبر كل فرع، وفي الوقت الحقيقي.',
       alt: 'مضيف يستقبل الضيوف في صالة طعام ذات إضاءة دافئة',
     },
@@ -79,7 +79,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   fr: {
     band1: {
       eyebrow: 'Du passe au P&L',
-      headline: "La couche d'intelligence du restaurant que vous dirigez vraiment.",
+      headline: "Concu pour l'exploitation que vous dirigez vraiment.",
       sub: "Pas un tableau de bord de plus à consulter. Sundae lit chaque service, chaque couvert et chaque ligne de compte - et fait remonter le bon geste suivant avant que le moment ne passe.",
       alt: 'Un chef dressant une assiette au passe pendant le service',
     },
@@ -92,7 +92,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Votre salle, votre décision',
       headlineLead: "Les meilleurs opérateurs n'ont pas plus d'heures.",
-      headlineEmphasis: 'Ils ont de meilleures informations.',
+      headlineEmphasis: 'Il leur reste moins de decisions en suspens.',
       sub: "Sundae vous donne la lecture de votre activité que votre instinct mérite - sur chaque point de vente, en temps réel.",
       alt: "Un maître d'hôtel accueillant des convives dans une salle à l'éclairage chaleureux",
     },
@@ -100,7 +100,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   es: {
     band1: {
       eyebrow: 'Del pase al P&L',
-      headline: 'La capa de inteligencia del restaurante que de verdad gestionas.',
+      headline: 'Creado para la operacion que de verdad gestionas.',
       sub: 'No es otro panel que revisar. Sundae lee cada turno, cada comensal y cada partida - y te muestra el siguiente movimiento acertado antes de que pase el momento.',
       alt: 'Un chef terminando un plato en el pase durante el servicio',
     },
@@ -113,7 +113,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Tu sala, tu decisión',
       headlineLead: 'Los mejores operadores no tienen más horas.',
-      headlineEmphasis: 'Tienen mejor información.',
+      headlineEmphasis: 'Les quedan menos decisiones abiertas.',
       sub: 'Sundae te da la lectura de tu negocio que tu instinto merece - en cada local y en tiempo real.',
       alt: 'Un anfitrión atendiendo a los comensales en un comedor de luz cálida',
     },
@@ -121,7 +121,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   de: {
     band1: {
       eyebrow: 'Vom Pass zur P&L',
-      headline: 'Die Intelligenzschicht für das Restaurant, das Sie wirklich führen.',
+      headline: 'Gebaut fuer den Betrieb, den Sie wirklich fuehren.',
       sub: 'Kein weiteres Dashboard zum Durchsehen. Sundae liest jede Schicht, jedes Gedeck und jede Position - und zeigt Ihnen den nächsten richtigen Schritt, bevor der Moment vorbei ist.',
       alt: 'Ein Koch richtet am Pass während des Service einen Teller an',
     },
@@ -134,7 +134,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Ihr Gastraum, Ihre Entscheidung',
       headlineLead: 'Die besten Betreiber haben nicht mehr Stunden.',
-      headlineEmphasis: 'Sie haben bessere Informationen.',
+      headlineEmphasis: 'Bei ihnen bleiben weniger Entscheidungen offen.',
       sub: 'Sundae gibt Ihnen das Gespür für Ihr Geschäft, das gute Instinkte verdienen - über jeden Standort, in Echtzeit.',
       alt: 'Ein Gastgeber kümmert sich um Gäste in einem warm beleuchteten Gastraum',
     },
@@ -142,7 +142,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   nl: {
     band1: {
       eyebrow: 'Van de pass naar de P&L',
-      headline: 'De intelligentielaag voor het restaurant dat u écht runt.',
+      headline: 'Gebouwd voor de operatie die u echt runt.',
       sub: 'Niet weer een dashboard om te checken. Sundae leest elke dienst, elke gast en elke regel - en laat u de juiste volgende stap zien voordat het moment voorbij is.',
       alt: 'Een chef maakt een gerecht af op de pass tijdens de service',
     },
@@ -155,7 +155,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Uw zaak, uw beslissing',
       headlineLead: 'De beste operators hebben niet meer uren.',
-      headlineEmphasis: 'Ze hebben betere informatie.',
+      headlineEmphasis: 'Bij hen blijven minder beslissingen open staan.',
       sub: 'Sundae geeft u het inzicht in uw zaak dat goede intuïtie verdient - over elke vestiging, in realtime.',
       alt: 'Een gastheer ontvangt gasten in een warm verlichte eetzaal',
     },
@@ -163,7 +163,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   pt: {
     band1: {
       eyebrow: 'Da expedição ao P&L',
-      headline: 'A camada de inteligência do restaurante que você realmente comanda.',
+      headline: 'Feito para a operacao que voce realmente comanda.',
       sub: 'Não é mais um painel para conferir. O Sundae lê cada turno, cada cliente e cada item - e mostra o próximo passo certo antes que o momento passe.',
       alt: 'Um chef finalizando um prato na expedição durante o serviço',
     },
@@ -176,7 +176,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Seu salão, sua decisão',
       headlineLead: 'Os melhores operadores não têm mais horas.',
-      headlineEmphasis: 'Têm informações melhores.',
+      headlineEmphasis: 'Ficam com menos decisoes em aberto.',
       sub: 'O Sundae te dá a leitura do seu negócio que o bom instinto merece - em cada unidade, em tempo real.',
       alt: 'Um anfitrião recebendo clientes em um salão com iluminação acolhedora',
     },
@@ -184,7 +184,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   hi: {
     band1: {
       eyebrow: 'पास से P&L तक',
-      headline: 'उस रेस्तरां के लिए इंटेलिजेंस लेयर, जिसे आप सचमुच चलाते हैं।',
+      headline: 'उस संचालन के लिए बना, जिसे आप सचमुच चलाते हैं।',
       sub: 'देखने के लिए एक और डैशबोर्ड नहीं। Sundae हर शिफ्ट, हर मेहमान और हर मद को पढ़ता है - और लम्हा बीतने से पहले अगला सही कदम सामने ला देता है।',
       alt: 'सर्विस के दौरान पास पर एक व्यंजन को अंतिम रूप देता शेफ',
     },
@@ -197,7 +197,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'आपका फ्लोर, आपका फैसला',
       headlineLead: 'बेहतरीन ऑपरेटरों के पास ज़्यादा घंटे नहीं होते।',
-      headlineEmphasis: 'उनके पास बेहतर जानकारी होती है।',
+      headlineEmphasis: 'उनके पास कम फ़ैसले अधूरे रहते हैं।',
       sub: 'Sundae आपको आपके कारोबार की वह समझ देता है जिसके आपकी बेहतरीन समझ-बूझ हकदार है - हर आउटलेट पर, रियल-टाइम में।',
       alt: 'गर्म रोशनी वाले डाइनिंग रूम में मेहमानों की आवभगत करता मेज़बान',
     },
@@ -205,7 +205,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ur: {
     band1: {
       eyebrow: 'پاس سے P&L تک',
-      headline: 'اُس ریستوران کے لیے انٹیلی جنس پرت جسے آپ واقعی چلاتے ہیں۔',
+      headline: 'اُس آپریشن کے لیے بنایا گیا جسے آپ واقعی چلاتے ہیں۔',
       sub: 'دیکھنے کے لیے ایک اور ڈیش بورڈ نہیں۔ Sundae ہر شفٹ، ہر مہمان اور ہر مدّ کو پڑھتا ہے - اور لمحہ گزرنے سے پہلے اگلا درست قدم سامنے لے آتا ہے۔',
       alt: 'سروس کے دوران پاس پر ایک ڈش کو حتمی شکل دیتا شیف',
     },
@@ -218,7 +218,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'آپ کا فلور، آپ کا فیصلہ',
       headlineLead: 'بہترین آپریٹرز کے پاس زیادہ گھنٹے نہیں ہوتے۔',
-      headlineEmphasis: 'اُن کے پاس بہتر معلومات ہوتی ہیں۔',
+      headlineEmphasis: 'اُن کے کم فیصلے کھلے رہ جاتے ہیں۔',
       sub: 'Sundae آپ کو آپ کے کاروبار کی وہ سمجھ دیتا ہے جس کا آپ کی عمدہ جبلت حق رکھتی ہے - ہر آؤٹ لیٹ پر، حقیقی وقت میں۔',
       alt: 'گرم روشنی والے ڈائننگ روم میں مہمانوں کی خدمت کرتا میزبان',
     },
@@ -226,7 +226,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   it: {
     band1: {
       eyebrow: 'Dal passe al P&L',
-      headline: "Lo strato d'intelligenza per il ristorante che gestisci davvero.",
+      headline: "Creato per l'operativita che gestisci davvero.",
       sub: "Non l'ennesima dashboard da controllare. Sundae legge ogni turno, ogni coperto e ogni voce - e fa emergere la prossima mossa giusta prima che il momento passi.",
       alt: 'Uno chef che completa un piatto al passe durante il servizio',
     },
@@ -239,7 +239,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'La tua sala, la tua decisione',
       headlineLead: 'I migliori operatori non hanno più ore.',
-      headlineEmphasis: 'Hanno informazioni migliori.',
+      headlineEmphasis: 'Restano loro meno decisioni in sospeso.',
       sub: 'Sundae ti dà la lettura del tuo locale che il buon istinto merita - in ogni punto vendita, in tempo reale.',
       alt: "Un maître che accoglie gli ospiti in una sala dall'illuminazione calda",
     },
@@ -247,7 +247,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   pl: {
     band1: {
       eyebrow: 'Od wydawki do P&L',
-      headline: 'Warstwa inteligencji dla restauracji, którą naprawdę prowadzisz.',
+      headline: 'Stworzone dla operacji, ktora naprawde prowadzisz.',
       sub: 'Nie kolejny pulpit do sprawdzania. Sundae czyta każdą zmianę, każdego gościa i każdą pozycję - i podsuwa kolejny właściwy ruch, zanim moment minie.',
       alt: 'Kucharz kończy danie na wydawce podczas serwisu',
     },
@@ -260,7 +260,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Twoja sala, twoja decyzja',
       headlineLead: 'Najlepsi operatorzy nie mają więcej godzin.',
-      headlineEmphasis: 'Mają lepsze informacje.',
+      headlineEmphasis: 'Zostaje im mniej otwartych decyzji.',
       sub: 'Sundae daje ci taki obraz biznesu, na jaki zasługuje dobry instynkt - w każdym lokalu, w czasie rzeczywistym.',
       alt: 'Gospodarz obsługujący gości w ciepło oświetlonej sali',
     },
@@ -268,7 +268,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   tr: {
     band1: {
       eyebrow: "Mutfak pasından P&L'ye",
-      headline: 'Gerçekten işlettiğiniz restoran için zekâ katmanı.',
+      headline: 'Gercekten yonettiginiz operasyon icin tasarlandi.',
       sub: 'Kontrol edilecek bir gösterge paneli daha değil. Sundae her vardiyayı, her misafiri ve her kalemi okur - ve an geçip gitmeden bir sonraki doğru hamleyi önünüze çıkarır.',
       alt: 'Servis sırasında pasta bir tabağı tamamlayan şef',
     },
@@ -281,7 +281,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Sizin salonunuz, sizin kararınız',
       headlineLead: 'En iyi işletmecilerin daha fazla saati yoktur.',
-      headlineEmphasis: 'Daha iyi bilgileri vardır.',
+      headlineEmphasis: 'Aciik kalan daha az kararlari vardir.',
       sub: 'Sundae, iyi sezgilerin hak ettiği işletme okumasını size verir - her şubede, gerçek zamanlı.',
       alt: 'Sıcak ışıklı bir yemek salonunda misafirleri ağırlayan bir ev sahibi',
     },
@@ -289,8 +289,8 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   'zh-Hans': {
     band1: {
       eyebrow: '从出菜口到 P&L',
-      headline: '为你真正在经营的餐厅打造的智能层。',
-      sub: '不是又一个要查看的仪表盘。Sundae 读取每一个班次、每一位客人、每一笔条目 - 并在时机错过之前，为你点出下一步的正确动作。',
+      headline: '为你真正在经营的业务打造。',
+      sub: '不是又一个要查看的仪表盘。Sundae 读取每一个班次、每一位客人、每一笔条目--并在时机错过之前，为你点出下一步的正确动作。',
       alt: '服务期间，厨师在出菜口完成摆盘',
     },
     band2: {
@@ -302,7 +302,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: '你的餐厅，你做主',
       headlineLead: '最优秀的经营者并没有更多时间，',
-      headlineEmphasis: '他们只是掌握了更好的信息。',
+      headlineEmphasis: '他们悬而未决的决定更少。',
       sub: 'Sundae 让你对生意的洞察配得上你出色的直觉--覆盖每一家门店，实时呈现。',
       alt: '在暖光餐厅中招待客人的迎宾',
     },
@@ -310,8 +310,8 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ja: {
     band1: {
       eyebrow: 'パスからP&Lまで',
-      headline: 'あなたが実際に切り盛りする店のためのインテリジェンス層。',
-      sub: '確認すべきダッシュボードがまた増えるわけではありません。Sundae はすべてのシフト、すべての客数、すべての明細を読み取り - その瞬間を逃す前に、次の最善手を浮かび上がらせます。',
+      headline: 'あなたが実際に動かしている現場のために。',
+      sub: '確認すべきダッシュボードがまた増えるわけではありません。Sundae はすべてのシフト、すべての客数、すべての明細を読み取り--その瞬間を逃す前に、次の最善手を浮かび上がらせます。',
       alt: 'サービス中、パスで一皿を仕上げるシェフ',
     },
     band2: {
@@ -323,7 +323,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'あなたのフロア、あなたの判断',
       headlineLead: '優れた経営者に、時間が多いわけではありません。',
-      headlineEmphasis: 'より良い情報を持っているのです。',
+      headlineEmphasis: '未決の判断が少ないのです。',
       sub: 'Sundae は、優れた勘にふさわしいビジネスの読みを届けます--全店舗で、リアルタイムに。',
       alt: '暖かな照明のダイニングで客をもてなすホスト',
     },
@@ -331,8 +331,8 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ko: {
     band1: {
       eyebrow: '패스에서 P&L까지',
-      headline: '당신이 실제로 운영하는 레스토랑을 위한 인텔리전스 레이어.',
-      sub: '확인해야 할 대시보드가 하나 더 느는 게 아닙니다. Sundae는 모든 근무, 모든 손님, 모든 항목을 읽어내고 - 그 순간이 지나가기 전에 다음 최선의 수를 짚어 줍니다.',
+      headline: '당신이 실제로 운영하는 현장을 위해 만들었습니다.',
+      sub: '확인해야 할 대시보드가 하나 더 느는 게 아닙니다. Sundae는 모든 근무, 모든 손님, 모든 항목을 읽어내고--그 순간이 지나가기 전에 다음 최선의 수를 짚어 줍니다.',
       alt: '서비스 중 패스에서 요리를 마무리하는 셰프',
     },
     band2: {
@@ -344,7 +344,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: '당신의 매장, 당신의 결정',
       headlineLead: '최고의 운영자에게 시간이 더 많은 건 아닙니다.',
-      headlineEmphasis: '더 나은 정보를 가졌을 뿐입니다.',
+      headlineEmphasis: '미결 상태로 남은 결정이 더 적을 뿐입니다.',
       sub: 'Sundae는 뛰어난 직감에 걸맞은 비즈니스 통찰을 전합니다--모든 매장에서, 실시간으로.',
       alt: '따뜻한 조명의 다이닝룸에서 손님을 맞이하는 호스트',
     },
@@ -352,7 +352,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   id: {
     band1: {
       eyebrow: 'Dari pass hingga P&L',
-      headline: 'Lapisan intelijen untuk restoran yang benar-benar Anda jalankan.',
+      headline: 'Dibuat untuk operasi yang benar-benar Anda jalankan.',
       sub: 'Bukan satu dasbor lagi untuk dicek. Sundae membaca setiap shift, setiap tamu, dan setiap item - lalu memunculkan langkah tepat berikutnya sebelum momennya berlalu.',
       alt: 'Seorang koki menyelesaikan hidangan di pass saat layanan berlangsung',
     },
@@ -365,7 +365,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Ruang Anda, keputusan Anda',
       headlineLead: 'Operator terbaik tidak punya lebih banyak waktu.',
-      headlineEmphasis: 'Mereka punya informasi yang lebih baik.',
+      headlineEmphasis: 'Lebih sedikit keputusan yang mereka biarkan terbuka.',
       sub: 'Sundae memberi Anda pembacaan bisnis yang layak bagi insting hebat - di setiap outlet, secara real-time.',
       alt: 'Seorang pramutamu menyambut tamu di ruang makan berpencahayaan hangat',
     },
@@ -373,7 +373,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   vi: {
     band1: {
       eyebrow: 'Từ quầy ra món đến P&L',
-      headline: 'Lớp trí tuệ cho nhà hàng mà bạn thực sự vận hành.',
+      headline: 'Duoc xay dung cho hoat dong ma ban thuc su van hanh.',
       sub: 'Không phải thêm một bảng điều khiển để kiểm tra. Sundae đọc từng ca, từng lượt khách và từng khoản mục - rồi đưa ra nước đi đúng tiếp theo trước khi thời điểm trôi qua.',
       alt: 'Một đầu bếp hoàn thiện món ăn tại quầy ra món trong giờ phục vụ',
     },
@@ -386,7 +386,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Sàn của bạn, quyết định của bạn',
       headlineLead: 'Những nhà điều hành giỏi nhất không có nhiều giờ hơn.',
-      headlineEmphasis: 'Họ có thông tin tốt hơn.',
+      headlineEmphasis: 'Ho de lai it quyet dinh con bo ngo hon.',
       sub: 'Sundae mang đến cho bạn cách đọc hiểu công việc kinh doanh xứng đáng với trực giác nhạy bén - trên mọi chi nhánh, theo thời gian thực.',
       alt: 'Một người tiếp đón đang phục vụ khách trong phòng ăn ấm áp ánh đèn',
     },
@@ -394,7 +394,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ro: {
     band1: {
       eyebrow: 'De la pass la P&L',
-      headline: 'Stratul de inteligență pentru restaurantul pe care chiar îl conduci.',
+      headline: 'Construit pentru operatiunea pe care chiar o conduci.',
       sub: 'Nu încă un panou de verificat. Sundae citește fiecare tură, fiecare client și fiecare poziție - și îți scoate în față următoarea mișcare corectă înainte să treacă momentul.',
       alt: 'Un bucătar finalizează un preparat la pass în timpul serviciului',
     },
@@ -407,7 +407,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Sala ta, decizia ta',
       headlineLead: 'Cei mai buni operatori nu au mai multe ore.',
-      headlineEmphasis: 'Au informații mai bune.',
+      headlineEmphasis: 'Le raman mai putine decizii deschise.',
       sub: 'Sundae îți oferă citirea afacerii pe care instinctul bun o merită - în fiecare locație, în timp real.',
       alt: 'O gazdă care se ocupă de oaspeți într-o sală cu lumină caldă',
     },
@@ -415,7 +415,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   sv: {
     band1: {
       eyebrow: 'Från passet till P&L',
-      headline: 'Intelligenslagret för restaurangen du faktiskt driver.',
+      headline: 'Byggt for verksamheten du faktiskt driver.',
       sub: 'Inte ännu en instrumentpanel att kolla. Sundae läser varje skift, varje gäst och varje rad - och lyfter fram nästa rätta drag innan ögonblicket är förbi.',
       alt: 'En kock gör färdigt en tallrik vid passet under serveringen',
     },
@@ -428,7 +428,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Din matsal, ditt beslut',
       headlineLead: 'De bästa operatörerna har inte fler timmar.',
-      headlineEmphasis: 'De har bättre information.',
+      headlineEmphasis: 'Hos dem forblir farre beslut oppna.',
       sub: 'Sundae ger dig läsningen av din verksamhet som god intuition förtjänar - för varje enhet, i realtid.',
       alt: 'En värd tar hand om gäster i en varmt upplyst matsal',
     },
@@ -436,7 +436,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   bn: {
     band1: {
       eyebrow: 'পাস থেকে P&L পর্যন্ত',
-      headline: 'আপনি যে রেস্তোরাঁটি সত্যিই চালান, তার জন্য ইন্টেলিজেন্স স্তর।',
+      headline: 'আপনি যে পরিচালনা সত্যিই চালান, তার জন্য তৈরি।',
       sub: 'দেখার জন্য আরেকটি ড্যাশবোর্ড নয়। Sundae প্রতিটি শিফট, প্রতিটি অতিথি এবং প্রতিটি আইটেম পড়ে - আর মুহূর্ত হাতছাড়া হওয়ার আগেই পরের সঠিক পদক্ষেপটি সামনে এনে দেয়।',
       alt: 'পরিবেশনের সময় পাসে একটি প্লেট সাজিয়ে শেষ করছেন একজন শেফ',
     },
@@ -449,7 +449,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'আপনার ফ্লোর, আপনার সিদ্ধান্ত',
       headlineLead: 'সেরা পরিচালকদের হাতে বেশি সময় থাকে না।',
-      headlineEmphasis: 'তাদের কাছে ভালো তথ্য থাকে।',
+      headlineEmphasis: 'তাদের কম সিদ্ধান্ত ঝুলে থাকে।',
       sub: 'Sundae আপনাকে আপনার ব্যবসার সেই পাঠ দেয় যা প্রখর সহজাত বোধের যোগ্য - প্রতিটি আউটলেটে, রিয়েল-টাইমে।',
       alt: 'উষ্ণ আলোয় সজ্জিত ডাইনিং রুমে অতিথিদের আপ্যায়ন করছেন একজন হোস্ট',
     },
@@ -457,7 +457,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   th: {
     band1: {
       eyebrow: 'จากหน้าจ่ายอาหารถึง P&L',
-      headline: 'เลเยอร์อัจฉริยะสำหรับร้านอาหารที่คุณบริหารจริง',
+      headline: 'สร้างมาเพื่อการดำเนินงานที่คุณบริหารจริง',
       sub: 'ไม่ใช่แดชบอร์ดอีกอันที่ต้องคอยดู Sundae อ่านทุกกะ ทุกลูกค้า และทุกรายการ - แล้วชี้ก้าวต่อไปที่ถูกต้องให้คุณก่อนที่จังหวะจะผ่านไป',
       alt: 'เชฟกำลังจัดจานให้เสร็จที่หน้าจ่ายอาหารระหว่างการให้บริการ',
     },
@@ -470,7 +470,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'พื้นที่ของคุณ การตัดสินใจของคุณ',
       headlineLead: 'ผู้บริหารที่เก่งที่สุดไม่ได้มีเวลามากกว่า',
-      headlineEmphasis: 'พวกเขามีข้อมูลที่ดีกว่า',
+      headlineEmphasis: 'พวกเขาเหลือการตัดสินใจค้างน้อยกว่า',
       sub: 'Sundae มอบการอ่านธุรกิจของคุณในแบบที่สัญชาตญาณอันยอดเยี่ยมสมควรได้รับ - ในทุกสาขา แบบเรียลไทม์',
       alt: 'พนักงานต้อนรับกำลังดูแลแขกในห้องอาหารที่มีแสงไฟอบอุ่น',
     },
@@ -478,7 +478,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ms: {
     band1: {
       eyebrow: 'Dari pass ke P&L',
-      headline: 'Lapisan kecerdasan untuk restoran yang benar-benar anda kendalikan.',
+      headline: 'Dibina untuk operasi yang benar-benar anda kendalikan.',
       sub: 'Bukan satu lagi papan pemuka untuk disemak. Sundae membaca setiap syif, setiap tetamu dan setiap butiran - lalu menonjolkan langkah betul seterusnya sebelum saat itu berlalu.',
       alt: 'Seorang cef menyiapkan hidangan di pass semasa servis',
     },
@@ -491,7 +491,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Ruang anda, keputusan anda',
       headlineLead: 'Pengendali terbaik tidak mempunyai lebih banyak masa.',
-      headlineEmphasis: 'Mereka mempunyai maklumat yang lebih baik.',
+      headlineEmphasis: 'Lebih sedikit keputusan yang dibiarkan tergantung.',
       sub: 'Sundae memberi anda bacaan perniagaan yang setimpal dengan naluri hebat - di setiap cawangan, secara masa nyata.',
       alt: 'Seorang hos melayan tetamu di ruang makan yang bercahaya hangat',
     },

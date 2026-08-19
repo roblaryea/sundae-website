@@ -288,7 +288,7 @@ const Navbar = () => {
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                 <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
-                  {/* Core — the decision-intelligence modules */}
+                  {/* Core - the decision-intelligence modules */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
                       {cn.core}
@@ -315,7 +315,7 @@ const Navbar = () => {
                   {/* Separator */}
                   <div className="border-t border-[var(--border-default)] my-4"></div>
 
-                  {/* Sundae Crew — the operational modules */}
+                  {/* Sundae Crew - the operational modules */}
                   <div>
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
                       {cn.crew}
@@ -417,7 +417,7 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* Pricing Mega Menu — Plans now live here */}
+            {/* Pricing Mega Menu - Plans now live here */}
             <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
               <button
                 type="button"
@@ -715,7 +715,7 @@ const Navbar = () => {
               ))}
             </AccordionSection>
 
-            {/* Pricing Section — Plans live here */}
+            {/* Pricing Section - Plans live here */}
             <AccordionSection
               title={nav.pricing}
               id="pricing"
