@@ -31,52 +31,52 @@ export const manifestoCopy: Record<WebsiteLocale, ManifestoCopy> = {
     eyebrow: 'What we believe',
     statement:
       'The best decisions happen *while the shift is still alive.*',
-    coda: "Restaurants don’t fail in reports. They slip in moments - a section slows, labour drifts, covers fall behind, a table waits too long. Sundae exists to catch those moments while there’s still time to change the outcome, and to prove afterwards that catching them was worth it.",
+    coda: "Operations do not fail in reports. They slip in moments - a section slows, labour drifts, covers fall behind, a table waits too long. Sundae exists to catch those moments while there’s still time to change the outcome, and to prove afterwards that catching them was worth it.",
   },
   ar: {
     eyebrow: 'ما نؤمن به',
     statement: 'أفضل القرارات تُتَّخذ *والخدمة ما زالت قائمة.*',
-    coda: "المطاعم لا تفشل في التقارير. بل تتعثّر في اللحظات: قسم يتباطأ، عمالة تنحرف عن مسارها، طاولات تتأخر، وزبون ينتظر أكثر من اللازم. وُجِدت Sundae لتلتقط تلك اللحظات بينما لا يزال هناك وقت لتغيير النتيجة، ولإثبات لاحقاً أن التقاطها كان يستحق العناء.",
+    coda: "العمليات لا تفشل في التقارير. بل تتعثّر في اللحظات: قسم يتباطأ، عمالة تنحرف عن مسارها، طاولات تتأخر، وزبون ينتظر أكثر من اللازم. وُجِدت Sundae لتلتقط تلك اللحظات بينما لا يزال هناك وقت لتغيير النتيجة، ولإثبات لاحقاً أن التقاطها كان يستحق العناء.",
   },
   fr: {
     eyebrow: 'Ce en quoi nous croyons',
     statement: 'Les meilleures décisions se prennent *pendant que le service est encore vivant.*',
-    coda: "Les restaurants n'échouent pas dans les rapports. Ils dérapent dans les instants - une zone ralentit, le personnel se décale, les couverts prennent du retard, une table attend trop longtemps. Sundae existe pour saisir ces instants tant qu'il est encore temps de changer l'issue, et pour prouver ensuite que cela en valait la peine.",
+    coda: "Les exploitations n'echouent pas dans les rapports. Ils dérapent dans les instants - une zone ralentit, le personnel se décale, les couverts prennent du retard, une table attend trop longtemps. Sundae existe pour saisir ces instants tant qu'il est encore temps de changer l'issue, et pour prouver ensuite que cela en valait la peine.",
   },
   es: {
     eyebrow: 'En lo que creemos',
     statement: 'Las mejores decisiones ocurren *mientras el turno sigue vivo.*',
-    coda: "Los restaurantes no fracasan en los informes. Se les escapa el control en los momentos: una zona se ralentiza, el personal se desajusta, los comensales se acumulan, una mesa espera demasiado. Sundae existe para atrapar esos momentos cuando todavía hay tiempo de cambiar el desenlace, y para demostrar después que valió la pena.",
+    coda: "Las operaciones no fracasan en los informes. Se les escapa el control en los momentos: una zona se ralentiza, el personal se desajusta, los comensales se acumulan, una mesa espera demasiado. Sundae existe para atrapar esos momentos cuando todavía hay tiempo de cambiar el desenlace, y para demostrar después que valió la pena.",
   },
   de: {
     eyebrow: 'Woran wir glauben',
     statement: 'Die besten Entscheidungen fallen, *solange der Service noch läuft.*',
-    coda: "Restaurants scheitern nicht in Reports. Sie geraten in einzelnen Momenten ins Rutschen: eine Station wird langsamer, der Personaleinsatz verschiebt sich, die Gedecke geraten in Rückstand, ein Tisch wartet zu lange. Sundae ist da, um diese Momente zu erfassen, solange noch Zeit bleibt, den Ausgang zu ändern, und um danach zu belegen, dass es sich gelohnt hat.",
+    coda: "Betriebe scheitern nicht in Reports. Sie geraten in einzelnen Momenten ins Rutschen: eine Station wird langsamer, der Personaleinsatz verschiebt sich, die Gedecke geraten in Rückstand, ein Tisch wartet zu lange. Sundae ist da, um diese Momente zu erfassen, solange noch Zeit bleibt, den Ausgang zu ändern, und um danach zu belegen, dass es sich gelohnt hat.",
   },
   nl: {
     eyebrow: 'Waar wij in geloven',
     statement: 'De beste beslissingen vallen *terwijl de service nog leeft.*',
-    coda: "Restaurants gaan niet onderuit in rapporten. Ze glippen weg in momenten: een sectie loopt vast, de personeelsinzet schuift, de couverts raken achterop, een tafel wacht te lang. Sundae bestaat om die momenten te grijpen terwijl er nog tijd is om de afloop te veranderen, en om achteraf te bewijzen dat het de moeite waard was.",
+    coda: "Operaties gaan niet onderuit in rapporten. Ze glippen weg in momenten: een sectie loopt vast, de personeelsinzet schuift, de couverts raken achterop, een tafel wacht te lang. Sundae bestaat om die momenten te grijpen terwijl er nog tijd is om de afloop te veranderen, en om achteraf te bewijzen dat het de moeite waard was.",
   },
   pt: {
     eyebrow: 'No que acreditamos',
     statement: 'As melhores decisões acontecem *enquanto o turno ainda está vivo.*',
-    coda: "Os restaurantes não falham nos relatórios. Eles escorregam nos momentos: uma área desacelera, a equipa sai do ritmo, os cobertos atrasam, uma mesa espera tempo demais. A Sundae existe para apanhar esses momentos enquanto ainda há tempo de mudar o desfecho, e para provar depois que valeu a pena.",
+    coda: "As operacoes nao falham nos relatorios. Eles escorregam nos momentos: uma área desacelera, a equipa sai do ritmo, os cobertos atrasam, uma mesa espera tempo demais. A Sundae existe para apanhar esses momentos enquanto ainda há tempo de mudar o desfecho, e para provar depois que valeu a pena.",
   },
   hi: {
     eyebrow: 'हम क्या मानते हैं',
     statement: 'सबसे अच्छे फ़ैसले तभी होते हैं *जब शिफ़्ट अभी ज़िंदा हो.*',
-    coda: "रेस्तराँ रिपोर्ट में नहीं डूबते। वे पलों में फिसलते हैं: कोई सेक्शन धीमा पड़ता है, स्टाफ़ की तैनाती बिगड़ती है, मेहमान पिछड़ जाते हैं, कोई टेबल बहुत देर तक इंतज़ार करती है। Sundae इसी लिए है कि उन पलों को तब पकड़े जब नतीजा बदलने का समय अभी बाक़ी हो, और बाद में यह साबित करने के लिए कि वह पकड़ना सार्थक था.",
+    coda: "संचालन रिपोर्ट में नहीं डूबता। वे पलों में फिसलते हैं: कोई सेक्शन धीमा पड़ता है, स्टाफ़ की तैनाती बिगड़ती है, मेहमान पिछड़ जाते हैं, कोई टेबल बहुत देर तक इंतज़ार करती है। Sundae इसी लिए है कि उन पलों को तब पकड़े जब नतीजा बदलने का समय अभी बाक़ी हो, और बाद में यह साबित करने के लिए कि वह पकड़ना सार्थक था.",
   },
   ur: {
     eyebrow: 'ہم کس بات پر یقین رکھتے ہیں',
     statement: 'بہترین فیصلے تب ہوتے ہیں *جب شفٹ ابھی زندہ ہو۔*',
-    coda: "ریستوران رپورٹوں میں ناکام نہیں ہوتے۔ وہ لمحوں میں پھسلتے ہیں: کوئی سیکشن سست پڑ جاتا ہے، عملہ بے ترتیب ہو جاتا ہے، مہمان پیچھے رہ جاتے ہیں، کوئی میز بہت دیر انتظار کرتی ہے۔ Sundae اسی لیے ہے کہ ان لمحوں کو تب تھام لے جب نتیجہ بدلنے کا وقت ابھی باقی ہو، اور بعد میں یہ ثابت کرنے کے لیے کہ وہ گرفت قابلِ قدر تھی۔",
+    coda: "آپریشنز رپورٹوں میں ناکام نہیں ہوتے۔ وہ لمحوں میں پھسلتے ہیں: کوئی سیکشن سست پڑ جاتا ہے، عملہ بے ترتیب ہو جاتا ہے، مہمان پیچھے رہ جاتے ہیں، کوئی میز بہت دیر انتظار کرتی ہے۔ Sundae اسی لیے ہے کہ ان لمحوں کو تب تھام لے جب نتیجہ بدلنے کا وقت ابھی باقی ہو، اور بعد میں یہ ثابت کرنے کے لیے کہ وہ گرفت قابلِ قدر تھی۔",
   },
   it: {
     eyebrow: 'In cosa crediamo',
     statement: 'Le decisioni migliori si prendono *mentre il servizio è ancora vivo.*',
-    coda: "I ristoranti non falliscono nei report. Scivolano negli attimi - una zona rallenta, il personale perde il ritmo, i coperti restano indietro, un tavolo aspetta troppo a lungo. Sundae esiste per cogliere quegli attimi finché c'è ancora tempo di cambiare l'esito, e per dimostrare poi che ne è valsa la pena.",
+    coda: "Le operazioni non falliscono nei report. Scivolano negli attimi - una zona rallenta, il personale perde il ritmo, i coperti restano indietro, un tavolo aspetta troppo a lungo. Sundae esiste per cogliere quegli attimi finché c'è ancora tempo di cambiare l'esito, e per dimostrare poi che ne è valsa la pena.",
   },
   pl: {
     eyebrow: 'W co wierzymy',
@@ -91,7 +91,7 @@ export const manifestoCopy: Record<WebsiteLocale, ManifestoCopy> = {
   'zh-Hans': {
     eyebrow: '我们的信念',
     statement: '最好的决策，发生在 *这一班还活着的时候。*',
-    coda: "餐厅不是败在报表里，而是在一个个瞬间里悄悄滑落：一片区域慢了下来，人手开始错位，客流被甩在后面，一桌客人等得太久。Sundae 的存在，就是为了在还来得及改变结局的时候，抓住这些瞬间，并在事后证明这样做是值得的。",
+    coda: "运营不是败在报表里，而是在一个个瞬间里悄悄滑落：一片区域慢了下来，人手开始错位，客流被甩在后面，一桌客人等得太久。Sundae 的存在，就是为了在还来得及改变结局的时候，抓住这些瞬间，并在事后证明这样做是值得的。",
   },
   ja: {
     eyebrow: '私たちが信じること',
@@ -116,12 +116,12 @@ export const manifestoCopy: Record<WebsiteLocale, ManifestoCopy> = {
   ro: {
     eyebrow: 'În ce credem',
     statement: 'Cele mai bune decizii se iau *cât timp tura este încă vie.*',
-    coda: "Restaurantele nu eșuează în rapoarte. Alunecă în momente: o zonă încetinește, echipa se abate de la ritm, comenzile rămân în urmă, o masă așteaptă prea mult. Sundae există ca să prindă aceste momente cât mai e timp să schimbi deznodământul, și pentru a dovedi apoi că a meritat.",
+    coda: "Operatiunile nu esueaza in rapoarte. Alunecă în momente: o zonă încetinește, echipa se abate de la ritm, comenzile rămân în urmă, o masă așteaptă prea mult. Sundae există ca să prindă aceste momente cât mai e timp să schimbi deznodământul, și pentru a dovedi apoi că a meritat.",
   },
   sv: {
     eyebrow: 'Det vi tror på',
     statement: 'De bästa besluten fattas *medan passet fortfarande lever.*',
-    coda: "Restauranger faller inte i rapporterna. De glider undan i ögonblicken: en sektion saktar ner, bemanningen glider iväg, gästerna hopar sig, ett bord får vänta för länge. Sundae finns för att fånga de ögonblicken medan det ännu finns tid att ändra utgången, och för att efteråt bevisa att det var värt det.",
+    coda: "Verksamheter faller inte i rapporterna. De glider undan i ögonblicken: en sektion saktar ner, bemanningen glider iväg, gästerna hopar sig, ett bord får vänta för länge. Sundae finns för att fånga de ögonblicken medan det ännu finns tid att ändra utgången, och för att efteråt bevisa att det var värt det.",
   },
   bn: {
     eyebrow: 'আমরা যা বিশ্বাস করি',
@@ -131,7 +131,7 @@ export const manifestoCopy: Record<WebsiteLocale, ManifestoCopy> = {
   th: {
     eyebrow: 'สิ่งที่เราเชื่อ',
     statement: 'การตัดสินใจที่ดีที่สุดเกิดขึ้น *ขณะที่กะยังมีชีวิตอยู่*',
-    coda: "ร้านอาหารไม่ได้ล้มในรายงาน แต่พลาดไปในแต่ละช่วงเวลา: โซนหนึ่งเริ่มช้า การจัดคนเริ่มเพี้ยน ลูกค้าเริ่มตกค้าง โต๊ะหนึ่งรอนานเกินไป Sundae มีอยู่เพื่อคว้าช่วงเวลาเหล่านั้นไว้ ในขณะที่ยังมีเวลาพอจะเปลี่ยนผลลัพธ์ และเพื่อพิสูจน์ภายหลังว่าคุ้มค่า",
+    coda: "การดำเนินงานไม่ได้ล้มในรายงาน แต่พลาดไปในแต่ละช่วงเวลา: โซนหนึ่งเริ่มช้า การจัดคนเริ่มเพี้ยน ลูกค้าเริ่มตกค้าง โต๊ะหนึ่งรอนานเกินไป Sundae มีอยู่เพื่อคว้าช่วงเวลาเหล่านั้นไว้ ในขณะที่ยังมีเวลาพอจะเปลี่ยนผลลัพธ์ และเพื่อพิสูจน์ภายหลังว่าคุ้มค่า",
   },
   ms: {
     eyebrow: 'Apa yang kami percaya',

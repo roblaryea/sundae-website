@@ -32,21 +32,21 @@ type LocalizedSQC = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   en: {
     costMetric: "Free to start",
-    eyebrow: "THE FALSE CHOICE IS OVER",
+    eyebrow: "WHAT STARTING TAKES",
     headline: "No warehouse. No data team. No year-long build.",
-    description: "Getting real restaurant intelligence used to mean a tradeoff - fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once - that's the entire point.",
+    description: "Bringing in a decision layer used to mean a programme: a warehouse to build, a data team to hire, and a year before anyone saw a number. Sundae connects what you already run, read-only, and starts reading it.",
     oldRule: "Old rule: pick two",
     sundaeRule: "↓  Sundae rule: pick all three",
-    closing: "That's not a tradeoff. That's your operating advantage.",
+    closing: "Nothing migrated. Nothing rebuilt. Nothing switched off.",
     vertices: [
-      { label: "Speed", headline: "Deploy in days. Decide in seconds.", body: "Connect your stack fast. Pulse updates through the shift, and Ask Sundae answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
-      { label: "Quality", headline: "Built for food service. Governed for decisions.", body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
+      { label: "Speed", headline: "Connect what you already run.", body: "A read-only connection to the systems you already use. Nothing is migrated, nothing is rebuilt, and nothing in your stack is switched off to make room.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
+      { label: "Quality", headline: "Built for food service. Governed for decisions.", body: "Sundae ships with 500+ governed food-service data models, peer-anchored benchmarks and source-cited answers, so nobody starts from a blank canvas or waits on a data team.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
       { label: "Cost", headline: "Less risk than rebuilding BI around your estate.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one: one package, eleven domain modules, no BI build.", chips: ["One package", "Less custom BI", "Lower analyst load"] },
     ],
   },
   ar: {
     costMetric: "مجاناً للبدء",
-    eyebrow: "انتهى زمن الاختيار الزائف",
+    eyebrow: "ما الذي يتطلبه البدء",
     headline: "بلا مستودع بيانات. بلا فريق بيانات. بلا مشروع يمتد عاماً.",
     description: "كان الحصول على ذكاء مطاعم حقيقي يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
     oldRule: "القاعدة القديمة: اختر اثنين",
@@ -60,7 +60,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   },
   fr: {
     costMetric: "Gratuit pour démarrer",
-    eyebrow: "LE FAUX DILEMME, C'EST FINI",
+    eyebrow: "CE QUE DEMARRER DEMANDE",
     headline: "Rapide. Juste. Abordable. Prenez les trois.",
     description: "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
     oldRule: "Ancienne règle : choisir deux",
@@ -74,7 +74,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   },
   es: {
     costMetric: "Gratis para empezar",
-    eyebrow: "SE ACABÓ LA FALSA DISYUNTIVA",
+    eyebrow: "LO QUE CUESTA EMPEZAR",
     headline: "Rápido. Correcto. Asequible. Elige los tres.",
     description: "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
     oldRule: "Regla antigua: elige dos",

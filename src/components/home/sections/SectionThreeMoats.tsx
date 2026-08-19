@@ -156,10 +156,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     layerWord: "Signal",
     layers: [
       { title: "Live shift intelligence", why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running - not after the weekly recap." },
-      { title: "External market intelligence", why: "Add the market around each restaurant: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know." },
-      { title: "Peer benchmarks that compound", why: "Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more restaurants join." },
+      { title: "External market intelligence", why: "Add the market around each site: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know." },
+      { title: "Peer benchmarks that compound", why: "Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more operators join." },
     ],
-    closing: "Not another dashboard. A restaurant intelligence layer.",
+    closing: "Not another dashboard. The layer that decides.",
   },
   ar: {
     eyebrow: "ما وراء التقرير",
@@ -176,26 +176,26 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
   fr: {
     eyebrow: "AU-DELÀ DU RAPPORT",
     headline: "Trois signaux qui décident de la suite.",
-    description: "Les dashboards montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel live, les signaux marché et les comparaisons pairs dont les restaurants ont besoin pour décider quoi faire ensuite.",
+    description: "Les dashboards montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel live, les signaux marché et les comparaisons pairs dont les operateurs ont besoin pour décider quoi faire ensuite.",
     layerWord: "Signal",
     layers: [
       { title: "Intelligence service live", why: "Voyez rythme, main-d'œuvre, fuites, comps, annulations et exceptions pendant que le service tourne - pas après le récap de la semaine." },
-      { title: "Intelligence marché externe", why: "Ajoutez le marché autour de chaque restaurant : météo, événements, prix concurrents, signaux fréquentation et briefings quotidiens que votre BI ne connaît pas." },
-      { title: "Benchmarks pairs qui se composent", why: "Comparez les sites à des pairs anonymisés par format, marché et métrique. Le réseau devient plus utile à mesure que plus de restaurants rejoignent." },
+      { title: "Intelligence marché externe", why: "Ajoutez le marché autour de chaque site : météo, événements, prix concurrents, signaux fréquentation et briefings quotidiens que votre BI ne connaît pas." },
+      { title: "Benchmarks pairs qui se composent", why: "Comparez les sites à des pairs anonymisés par format, marché et métrique. Le réseau devient plus utile à mesure que plus d'operateurs rejoignent." },
     ],
-    closing: "Pas un autre dashboard. Une couche d'intelligence restaurant.",
+    closing: "Pas un autre dashboard. La couche qui decide.",
   },
   es: {
     eyebrow: "MÁS ALLÁ DEL INFORME",
     headline: "Tres señales que deciden qué sigue.",
-    description: "Los dashboards muestran lo que pasó. Sundae añade el contexto operativo en vivo, las señales de mercado y las comparaciones con pares que los restaurantes necesitan para decidir qué hacer a continuación.",
+    description: "Los dashboards muestran lo que pasó. Sundae añade el contexto operativo en vivo, las señales de mercado y las comparaciones con pares que los operadores necesitan para decidir qué hacer a continuación.",
     layerWord: "Señal",
     layers: [
       { title: "Inteligencia de turno en vivo", why: "Ve ritmo, personal, fugas, comps, anulaciones y excepciones de servicio mientras el turno corre - no después del recap semanal." },
-      { title: "Inteligencia de mercado externo", why: "Añade el mercado alrededor de cada restaurante: clima, eventos, precios de competencia, señales de tráfico y briefings diarios que tu BI no conoce." },
-      { title: "Benchmarks de pares que se componen", why: "Compara locales contra pares anonimizados por formato, mercado y métrica. La red se vuelve más útil mientras más restaurantes se unen." },
+      { title: "Inteligencia de mercado externo", why: "Añade el mercado alrededor de cada sitio: clima, eventos, precios de competencia, señales de tráfico y briefings diarios que tu BI no conoce." },
+      { title: "Benchmarks de pares que se componen", why: "Compara locales contra pares anonimizados por formato, mercado y métrica. La red se vuelve más útil mientras más operadores se unen." },
     ],
-    closing: "No es otro dashboard. Es una capa de inteligencia para restaurantes.",
+    closing: "No es otro dashboard. Es una capa de inteligencia que decide.",
   },
 };
 
