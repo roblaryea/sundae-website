@@ -22,7 +22,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   en: {
     eyebrow: "WHAT YOU RETIRE",
     headline: "Your systems capture. BI explains. Neither decides.",
-    description: "Generic BI was built for analysts. Sundae was built for the people accountable for the P&L.",
+    description: "Generic BI was built for analysts. Sundae was built for the people who have to act on it.",
     todaysStackLabel: "Today's stack",
     withSundaeLabel: "With Sundae",
     todaysStack: [
@@ -44,7 +44,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   ar: {
     eyebrow: "ما تتقاعد عنه",
     headline: "أنظمتك تسجّل. وأدوات التحليل تشرح. ولا شيء منها يقرّر.",
-    description: "BI العام صُمم للمحللين. Sundae صُمم لمن يتحمّل مسؤولية الأرباح والخسائر.",
+    description: "BI العام صُمم للمحللين. Sundae صُمم لمن عليه أن يتصرّف.",
     todaysStackLabel: "مكدس اليوم",
     withSundaeLabel: "مع Sundae",
     todaysStack: [
@@ -66,7 +66,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   fr: {
     eyebrow: "CE QUE VOUS RETIREZ",
     headline: "Vos systemes enregistrent. La BI explique. Aucun ne decide.",
-    description: "La BI generique a ete construite pour les analystes. Sundae a ete construit pour ceux qui repondent du compte de resultat.",
+    description: "La BI generique a ete construite pour les analystes. Sundae a ete construit pour ceux qui doivent agir.",
     todaysStackLabel: "La stack d'aujourd'hui",
     withSundaeLabel: "Avec Sundae",
     todaysStack: [
@@ -88,7 +88,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   es: {
     eyebrow: "QUÉ RETIRAS",
     headline: "Tus sistemas registran. El BI explica. Ninguno decide.",
-    description: "La BI generica se construyo para analistas. Sundae se construyo para quienes responden por la cuenta de resultados.",
+    description: "La BI generica se construyo para analistas. Sundae se construyo para quienes tienen que actuar.",
     todaysStackLabel: "Stack actual",
     withSundaeLabel: "Con Sundae",
     todaysStack: [

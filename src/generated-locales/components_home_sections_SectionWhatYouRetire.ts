@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "de": {
       "eyebrow": "WAS SIE ABLÖSEN",
       "headline": "Ersetzen Sie den BI-Stack fürs Restaurant.",
-      "description": "Generische BI wurde fuer Analysten gebaut. Sundae wurde fuer die Menschen gebaut, die fuer den P&L geradestehen.",
+      "description": "Generische BI wurde fuer Analysten gebaut. Sundae wurde fuer die Menschen gebaut, die handeln muessen.",
       "todaysStackLabel": "Der heutige Stack",
       "withSundaeLabel": "Mit Sundae",
       "todaysStack": [
@@ -27,7 +27,7 @@ export const generatedLocalCopy = {
     "nl": {
       "eyebrow": "WAT JE UITFASEERT",
       "headline": "Vervang de BI-stack van het restaurant.",
-      "description": "Generieke BI is gebouwd voor analisten. Sundae is gebouwd voor wie verantwoordelijk is voor de P&L.",
+      "description": "Generieke BI is gebouwd voor analisten. Sundae is gebouwd voor de mensen die moeten handelen.",
       "todaysStackLabel": "De huidige stack",
       "withSundaeLabel": "Met Sundae",
       "todaysStack": [
@@ -49,7 +49,7 @@ export const generatedLocalCopy = {
     "ar": {
       "eyebrow": "ما الذي تستغني عنه",
       "headline": "استبدل منظومة ذكاء الأعمال الخاصة بالمطاعم.",
-      "description": "BI العام صُمم للمحللين. Sundae صُمم لمن يتحمّل مسؤولية P&L.",
+      "description": "BI العام صُمم للمحللين. Sundae صُمم لمن عليه أن يتصرّف.",
       "todaysStackLabel": "منظومة اليوم",
       "withSundaeLabel": "مع Sundae",
       "todaysStack": [
@@ -71,7 +71,7 @@ export const generatedLocalCopy = {
     "pt": {
       "eyebrow": "O QUE VOCÊ DESCONTINUA",
       "headline": "Substitua a pilha de BI do restaurante.",
-      "description": "A BI generica foi construida para analistas. A Sundae foi construida para quem responde pelo P&L.",
+      "description": "A BI generica foi construida para analistas. A Sundae foi construida para quem precisa agir.",
       "todaysStackLabel": "A pilha de hoje",
       "withSundaeLabel": "Com a Sundae",
       "todaysStack": [
@@ -93,7 +93,7 @@ export const generatedLocalCopy = {
     "fr": {
       "eyebrow": "CE QUE VOUS METTEZ AU REBUT",
       "headline": "Remplacez la pile BI du restaurant.",
-      "description": "La BI generique a ete construite pour les analystes. Sundae a ete construit pour ceux qui repondent du P&L.",
+      "description": "La BI generique a ete construite pour les analystes. Sundae a ete construit pour ceux qui doivent agir.",
       "todaysStackLabel": "La pile d'aujourd'hui",
       "withSundaeLabel": "Avec Sundae",
       "todaysStack": [
@@ -115,7 +115,7 @@ export const generatedLocalCopy = {
     "es": {
       "eyebrow": "LO QUE RETIRAS",
       "headline": "Reemplaza la pila de BI del restaurante.",
-      "description": "La BI generica se construyo para analistas. Sundae se construyo para quienes responden por el P&L.",
+      "description": "La BI generica se construyo para analistas. Sundae se construyo para quienes tienen que actuar.",
       "todaysStackLabel": "La pila de hoy",
       "withSundaeLabel": "Con Sundae",
       "todaysStack": [
@@ -137,7 +137,7 @@ export const generatedLocalCopy = {
     "hi": {
       "eyebrow": "आप क्या हटाते हैं",
       "headline": "रेस्टोरेंट के BI स्टैक को बदलें।",
-      "description": "जेनेरिक BI विश्लेषकों के लिए बना था. Sundae उनके लिए बना है जो P&L के लिए जवाबदेह हैं.",
+      "description": "जेनेरिक BI विश्लेषकों के लिए बना था. Sundae उनके लिए बना है जिन्हें कार्रवाई करनी होती है.",
       "todaysStackLabel": "आज का स्टैक",
       "withSundaeLabel": "Sundae के साथ",
       "todaysStack": [
@@ -159,7 +159,7 @@ export const generatedLocalCopy = {
     "ur": {
       "eyebrow": "آپ کیا ختم کرتے ہیں",
       "headline": "ریستوراں کے BI اسٹیک کو تبدیل کریں۔",
-      "description": "عام BI تجزیہ کاروں کے لیے بنایا گیا۔ Sundae اُن کے لیے بنایا گیا جو P&L کے ذمہ دار ہیں۔",
+      "description": "عام BI تجزیہ کاروں کے لیے بنایا گیا۔ Sundae اُن کے لیے بنایا گیا جنہیں عمل کرنا ہوتا ہے۔",
       "todaysStackLabel": "آج کا اسٹیک",
       "withSundaeLabel": "Sundae کے ساتھ",
       "todaysStack": [
@@ -181,7 +181,7 @@ export const generatedLocalCopy = {
     "it": {
       "eyebrow": "COSA DISMETTI",
       "headline": "Sostituisci lo stack BI del ristorante.",
-      "description": "La BI generica e stata costruita per gli analisti. Sundae e stata costruita per chi risponde del P&L.",
+      "description": "La BI generica e stata costruita per gli analisti. Sundae e stata costruita per chi deve agire.",
       "todaysStackLabel": "Lo stack di oggi",
       "withSundaeLabel": "Con Sundae",
       "todaysStack": [
@@ -203,7 +203,7 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "eyebrow": "您将淘汰什么",
       "headline": "替换餐厅的商业智能技术栈。",
-      "description": "通用 BI 是为分析师而建。Sundae 是为对 P&L 负责的人而建。",
+      "description": "通用 BI 是为分析师而建。Sundae 是为必须采取行动的人而建。",
       "todaysStackLabel": "如今的技术栈",
       "withSundaeLabel": "使用 Sundae",
       "todaysStack": [
@@ -225,7 +225,7 @@ export const generatedLocalCopy = {
     "pl": {
       "eyebrow": "CO WYCOFUJESZ",
       "headline": "Zastąp restauracyjny stack BI.",
-      "description": "Ogolne BI zbudowano dla analitykow. Sundae zbudowano dla osob odpowiedzialnych za P&L.",
+      "description": "Ogolne BI zbudowano dla analitykow. Sundae zbudowano dla osob, ktore musza dzialac.",
       "todaysStackLabel": "Dzisiejszy stack",
       "withSundaeLabel": "Z Sundae",
       "todaysStack": [
@@ -247,7 +247,7 @@ export const generatedLocalCopy = {
     "ja": {
       "eyebrow": "あなたが手放すもの",
       "headline": "レストランのBIスタックを置き換える。",
-      "description": "汎用 BI はアナリストのために作られました。Sundae は P&L に責任を持つ人のために作られています。",
+      "description": "汎用 BI はアナリストのために作られました。Sundae は動かなければならない人のために作られています。",
       "todaysStackLabel": "今日のスタック",
       "withSundaeLabel": "Sundaeなら",
       "todaysStack": [
@@ -269,7 +269,7 @@ export const generatedLocalCopy = {
     "id": {
       "eyebrow": "APA YANG ANDA PENSIUNKAN",
       "headline": "Gantikan tumpukan BI restoran.",
-      "description": "BI generik dibuat untuk analis. Sundae dibuat untuk orang yang bertanggung jawab atas P&L.",
+      "description": "BI generik dibuat untuk analis. Sundae dibuat untuk orang yang harus bertindak.",
       "todaysStackLabel": "Tumpukan saat ini",
       "withSundaeLabel": "Dengan Sundae",
       "todaysStack": [
@@ -291,7 +291,7 @@ export const generatedLocalCopy = {
     "vi": {
       "eyebrow": "NHỮNG GÌ BẠN LOẠI BỎ",
       "headline": "Thay thế bộ công cụ BI của nhà hàng.",
-      "description": "BI thong thuong duoc xay cho nha phan tich. Sundae duoc xay cho nguoi chiu trach nhiem ve P&L.",
+      "description": "BI thong thuong duoc xay cho nha phan tich. Sundae duoc xay cho nguoi phai hanh dong.",
       "todaysStackLabel": "Bộ công cụ hiện tại",
       "withSundaeLabel": "Với Sundae",
       "todaysStack": [
@@ -313,7 +313,7 @@ export const generatedLocalCopy = {
     "tr": {
       "eyebrow": "NELERDEN VAZGEÇİYORSUNUZ",
       "headline": "Restoranın BI yığınını değiştirin.",
-      "description": "Genel BI analistler icin yapildi. Sundae, P&L'den sorumlu olanlar icin yapildi.",
+      "description": "Genel BI analistler icin yapildi. Sundae, harekete gecmesi gerekenler icin yapildi.",
       "todaysStackLabel": "Bugünün yığını",
       "withSundaeLabel": "Sundae ile",
       "todaysStack": [
@@ -335,7 +335,7 @@ export const generatedLocalCopy = {
     "ro": {
       "eyebrow": "LA CE RENUNȚI",
       "headline": "Înlocuiește stiva BI a restaurantului.",
-      "description": "BI generic a fost construit pentru analisti. Sundae a fost construit pentru cei care raspund de P&L.",
+      "description": "BI generic a fost construit pentru analisti. Sundae a fost construit pentru cei care trebuie sa actioneze.",
       "todaysStackLabel": "Stiva de astăzi",
       "withSundaeLabel": "Cu Sundae",
       "todaysStack": [
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
     "ko": {
       "eyebrow": "무엇을 정리하게 되는가",
       "headline": "레스토랑 BI 스택을 교체하세요.",
-      "description": "일반 BI는 분석가를 위해 만들어졌습니다. Sundae는 P&L에 책임지는 사람을 위해 만들어졌습니다.",
+      "description": "일반 BI는 분석가를 위해 만들어졌습니다. Sundae는 실제로 움직여야 하는 사람을 위해 만들어졌습니다.",
       "todaysStackLabel": "오늘의 스택",
       "withSundaeLabel": "Sundae와 함께",
       "todaysStack": [
@@ -379,7 +379,7 @@ export const generatedLocalCopy = {
     "sv": {
       "eyebrow": "VAD DU FASAR UT",
       "headline": "Ersätt restaurangens BI-stack.",
-      "description": "Generisk BI byggdes for analytiker. Sundae byggdes for dem som ansvarar for P&L.",
+      "description": "Generisk BI byggdes for analytiker. Sundae byggdes for dem som maste agera.",
       "todaysStackLabel": "Dagens stack",
       "withSundaeLabel": "Med Sundae",
       "todaysStack": [
@@ -401,7 +401,7 @@ export const generatedLocalCopy = {
     "th": {
       "eyebrow": "สิ่งที่คุณเลิกใช้",
       "headline": "แทนที่สแต็ก BI ของร้านอาหาร",
-      "description": "BI ทั่วไปสร้างมาเพื่อนักวิเคราะห์ Sundae สร้างมาเพื่อคนที่รับผิดชอบ P&L",
+      "description": "BI ทั่วไปสร้างมาเพื่อนักวิเคราะห์ Sundae สร้างมาเพื่อคนที่ต้องลงมือทำ",
       "todaysStackLabel": "สแต็กในวันนี้",
       "withSundaeLabel": "กับ Sundae",
       "todaysStack": [
@@ -423,7 +423,7 @@ export const generatedLocalCopy = {
     "bn": {
       "eyebrow": "আপনি কী বাদ দেন",
       "headline": "রেস্তোরাঁর BI স্ট্যাক প্রতিস্থাপন করুন।",
-      "description": "সাধারণ BI বিশ্লেষকদের জন্য তৈরি। Sundae তৈরি তাদের জন্য যারা P&L-এর জন্য দায়বদ্ধ।",
+      "description": "সাধারণ BI বিশ্লেষকদের জন্য তৈরি। Sundae তৈরি তাদের জন্য যাদের পদক্ষেপ নিতে হয়।",
       "todaysStackLabel": "আজকের স্ট্যাক",
       "withSundaeLabel": "Sundae সহ",
       "todaysStack": [
@@ -445,7 +445,7 @@ export const generatedLocalCopy = {
     "ms": {
       "eyebrow": "APA YANG ANDA HENTIKAN",
       "headline": "Gantikan timbunan BI restoran.",
-      "description": "BI generik dibina untuk penganalisis. Sundae dibina untuk mereka yang bertanggungjawab ke atas P&L.",
+      "description": "BI generik dibina untuk penganalisis. Sundae dibina untuk mereka yang perlu bertindak.",
       "todaysStackLabel": "Timbunan hari ini",
       "withSundaeLabel": "Dengan Sundae",
       "todaysStack": [
