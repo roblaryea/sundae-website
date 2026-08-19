@@ -398,7 +398,7 @@ export const websiteMessages = {
       },
       modules: {
         eyebrow: 'INTELLIGENCE MODULES',
-        heading: '12 modules. One action loop.',
+        heading: 'Every area of the operation. One action loop.',
         description: 'Every dimension of restaurant performance - surfaced as a decision, not a chart. Benchmarked against your real cohort, ranked by margin impact, and routed to the right person on the floor.',
         categories: [
           { name: 'Revenue Intelligence', count: '4 modules' },
@@ -863,7 +863,7 @@ export const websiteMessages = {
       },
       modules: {
         eyebrow: 'وحدات الذكاء',
-        heading: 'أكثر من 30 وحدة عبر 12 مجالاً',
+        heading: 'كل مجالات التشغيل. حلقة عمل واحدة.',
         description: 'كل بُعد من أبعاد أداء المطعم - محلل، ومقارن، وقابل للتنفيذ.',
         categories: [
           { name: 'ذكاء الإيرادات', count: '4 وحدات' },
@@ -1308,7 +1308,7 @@ export const websiteMessages = {
       },
       modules: {
         eyebrow: 'MODULES D\'INTELLIGENCE',
-        heading: 'Plus de 30 modules dans 12 domaines',
+        heading: "Tous les domaines de l'exploitation. Une seule boucle d'action.",
         description: 'Chaque dimension de la performance restaurant - analysée, comparée et exploitable.',
         categories: [
           { name: 'Intelligence du revenu', count: '4 modules' },
@@ -1772,7 +1772,7 @@ export const websiteMessages = {
       },
       modules: {
         eyebrow: 'MÓDULOS DE INTELIGENCIA',
-        heading: 'Más de 30 módulos en 12 dominios',
+        heading: 'Todas las áreas de la operación. Un solo bucle de acción.',
         description: 'Cada dimensión del rendimiento del restaurante: analizada, comparada y accionable.',
         categories: [
           { name: 'Inteligencia de ingresos', count: '4 módulos' },

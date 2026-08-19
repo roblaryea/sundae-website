@@ -329,7 +329,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "INTELLIGENZMODULE",
-        "heading": "Über 30 Module in 12 Bereichen",
+        "heading": "Jeder Bereich des Betriebs. Eine Handlungsschleife.",
         "description": "Jede Dimension der Restaurantleistung - analysiert, benchmarked und umsetzbar.",
         "categories": [
           {
@@ -1100,7 +1100,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "INTELLIGENTIEMODULES",
-        "heading": "12 modules in 12 domeinen",
+        "heading": "Elk gebied van de operatie. Eén actielus.",
         "description": "Elke dimensie van restaurantprestaties - geanalyseerd, vergeleken en actiegericht.",
         "categories": [
           {
@@ -1871,7 +1871,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MÓDULOS DE INTELIGÊNCIA",
-        "heading": "12 módulos em 12 domínios",
+        "heading": "Todas as áreas da operação. Um único ciclo de ação.",
         "description": "Cada dimensão do desempenho do restaurante - analisada, comparada e acionável.",
         "categories": [
           {
@@ -2642,7 +2642,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "इंटेलिजेंस मॉड्यूल्स",
-        "heading": "12 क्षेत्रों में 12 मॉड्यूल्स",
+        "heading": "संचालन का हर क्षेत्र। एक ही कार्रवाई चक्र।",
         "description": "रेस्टोरेंट प्रदर्शन का हर आयाम - विश्लेषित, बेंचमार्क किया गया, और क्रियाशील।",
         "categories": [
           {
@@ -3413,7 +3413,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "انٹیلیجنس ماڈیولز",
-        "heading": "12 شعبوں میں 12 ماڈیولز",
+        "heading": "آپریشن کا ہر شعبہ۔ ایک ہی عمل کا چکر۔",
         "description": "ریستوران کی کارکردگی کا ہر پہلو - تجزیہ، معیار، اور عمل درآمد کے قابل۔",
         "categories": [
           {
@@ -4184,7 +4184,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODULI DI INTELLIGENZA",
-        "heading": "12 moduli in 12 aree",
+        "heading": "Ogni area dell'operatività. Un solo ciclo d'azione.",
         "description": "Ogni dimensione delle performance del ristorante - analizzata, confrontata e attuabile.",
         "categories": [
           {
@@ -4955,7 +4955,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODUŁY INTELIGENCJI",
-        "heading": "Ponad 30 modułów w 12 obszarach",
+        "heading": "Każdy obszar działalności. Jedna pętla działania.",
         "description": "Każdy wymiar wydajności restauracji - analizowany, porównywany i gotowy do działania.",
         "categories": [
           {
@@ -5726,7 +5726,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "ZEKÂ MODÜLLERİ",
-        "heading": "12 alanda 12 modül",
+        "heading": "İşletmenin her alanı. Tek bir eylem döngüsü.",
         "description": "Restoran performansının her boyutu - analiz edildi, karşılaştırıldı ve uygulanabilir hale getirildi.",
         "categories": [
           {
@@ -6497,7 +6497,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "智能模块",
-        "heading": "12个领域的12个模块",
+        "heading": "运营的每一个领域。一个行动闭环。",
         "description": "餐厅绩效的每个维度 - 经过分析、基准对比，并可付诸行动。",
         "categories": [
           {
@@ -7268,7 +7268,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "インテリジェンスモジュール",
-        "heading": "12のドメインにわたる30以上のモジュール",
+        "heading": "業務のすべての領域。一つの行動ループ。",
         "description": "レストランのパフォーマンスのあらゆる側面を分析、ベンチマーク、アクション可能にします。",
         "categories": [
           {
@@ -8039,7 +8039,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "인텔리전스 모듈",
-        "heading": "12개 분야의 30개 이상 모듈",
+        "heading": "운영의 모든 영역. 하나의 실행 루프.",
         "description": "레스토랑 성과의 모든 차원 - 분석, 벤치마킹 및 실행 가능.",
         "categories": [
           {
@@ -8810,7 +8810,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODUL INTELIGENSI",
-        "heading": "12 modul di 12 domain",
+        "heading": "Setiap area operasi. Satu lingkar tindakan.",
         "description": "Setiap dimensi kinerja restoran - dianalisis, dibandingkan, dan dapat ditindaklanjuti.",
         "categories": [
           {
@@ -9581,7 +9581,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "CÁC MÔ-ĐUN TRÍ TUỆ",
-        "heading": "Hơn 30 mô-đun trên 12 lĩnh vực",
+        "heading": "Mọi lĩnh vực vận hành. Một vòng hành động.",
         "description": "Mọi khía cạnh của hiệu suất nhà hàng - được phân tích, so sánh và có thể hành động.",
         "categories": [
           {
@@ -10352,7 +10352,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODULE DE INTELIGENȚĂ",
-        "heading": "12 module în 12 domenii",
+        "heading": "Fiecare domeniu al operațiunii. O singură buclă de acțiune.",
         "description": "Fiecare dimensiune a performanței restaurantului - analizată, comparată și acționabilă.",
         "categories": [
           {
@@ -11123,7 +11123,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "INTELLIGENSMODULER",
-        "heading": "12 moduler över 12 områden",
+        "heading": "Varje del av verksamheten. En handlingsslinga.",
         "description": "Varje dimension av restaurangprestanda - analyserad, benchmarkad och handlingsbar.",
         "categories": [
           {
@@ -11894,7 +11894,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "ইন্টেলিজেন্স মডিউল",
-        "heading": "১২টি ডোমেইনে ১২টি মডিউল",
+        "heading": "পরিচালনার প্রতিটি ক্ষেত্র। একটিই কর্মচক্র।",
         "description": "রেস্তোরাঁর কার্যকারিতার প্রতিটি মাত্রা - বিশ্লেষণ, তুলনা এবং কার্যকর।",
         "categories": [
           {
@@ -12665,7 +12665,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "โมดูลข้อมูลเชิงลึก",
-        "heading": "12 โมดูลใน 12 ด้าน",
+        "heading": "ทุกด้านของการดำเนินงาน หนึ่งวงจรการลงมือ",
         "description": "ทุกมิติของประสิทธิภาพร้านอาหาร - วิเคราะห์, เปรียบเทียบ, และนำไปใช้ได้จริง.",
         "categories": [
           {
@@ -13436,7 +13436,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODUL INTELIGENS",
-        "heading": "12 modul merentasi 12 domain",
+        "heading": "Setiap bidang operasi. Satu gelung tindakan.",
         "description": "Setiap dimensi prestasi restoran - dianalisis, dibandingkan, dan boleh dilaksanakan.",
         "categories": [
           {

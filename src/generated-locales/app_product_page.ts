@@ -305,8 +305,8 @@ export const generatedLocalCopy = {
           "Tabla de clasificación de la cartera",
           "Modo tablero para el salón"
         ],
-        "stat": "$2K",
-        "statLabel": "ahorrados por cada turno flojo detectado a tiempo"
+        "stat": "5 min",
+        "statLabel": "actualización mientras el turno sigue en marcha"
       },
       {
         "name": "Benchmarks",
@@ -697,8 +697,8 @@ export const generatedLocalCopy = {
           "Portfolio-ranglijst",
           "Wallboard-modus voor de vloer"
         ],
-        "stat": "$ 2K",
-        "statLabel": "bespaard per slechte dienst die vroeg wordt opgemerkt"
+        "stat": "5 min",
+        "statLabel": "ververst terwijl de dienst nog loopt"
       },
       {
         "name": "Benchmarks",
@@ -795,8 +795,8 @@ export const generatedLocalCopy = {
           "پورٹ فولیو لیڈر بورڈ",
           "سروس فلور کے لیے وال بورڈ موڈ"
         ],
-        "stat": "$2K",
-        "statLabel": "بچایا گیا فی بری شفٹ جلد پکڑی گئی۔"
+        "stat": "5 منٹ",
+        "statLabel": "شفٹ چلتے ہوئے ہی ریفریش"
       },
       {
         "name": "Benchmarks",
@@ -893,8 +893,8 @@ export const generatedLocalCopy = {
           "Classifica del portafoglio",
           "Modalità wallboard per la sala"
         ],
-        "stat": "$ 2K",
-        "statLabel": "risparmiato per turno difettoso individuato in anticipo"
+        "stat": "5 min",
+        "statLabel": "aggiornamento mentre il turno è ancora in corso"
       },
       {
         "name": "Benchmarks",
@@ -991,8 +991,8 @@ export const generatedLocalCopy = {
           "पोर्टफोलियो लीडरबोर्ड",
           "सर्विस फ्लोर के लिए वॉलबोर्ड मोड"
         ],
-        "stat": "$2K",
-        "statLabel": "जल्दी पकड़ी गई प्रति खराब शिफ्ट को बचाया गया"
+        "stat": "5 मिनट",
+        "statLabel": "शिफ्ट चलते हुए ही रिफ्रेश"
       },
       {
         "name": "Benchmarks",
@@ -1383,8 +1383,8 @@ export const generatedLocalCopy = {
           "Papan peringkat portofolio",
           "Mode papan dinding untuk area layanan"
         ],
-        "stat": "$2K",
-        "statLabel": "disimpan per shift buruk yang diketahui lebih awal"
+        "stat": "5 min",
+        "statLabel": "menyegarkan saat shift masih berjalan"
       },
       {
         "name": "Benchmarks",
@@ -1775,8 +1775,8 @@ export const generatedLocalCopy = {
           "Bảng xếp hạng danh mục đầu tư",
           "Chế độ bảng tường cho khu vực phục vụ"
         ],
-        "stat": "$2K",
-        "statLabel": "được lưu cho mỗi ca xấu được phát hiện sớm"
+        "stat": "5 min",
+        "statLabel": "làm mới ngay khi ca vẫn đang chạy"
       },
       {
         "name": "Benchmarks",
@@ -1873,8 +1873,8 @@ export const generatedLocalCopy = {
           "পোর্টফোলিও লিডারবোর্ড",
           "সার্ভিস ফ্লোরের জন্য ওয়ালবোর্ড মোড"
         ],
-        "stat": "$2K",
-        "statLabel": "প্রথম দিকে ধরা খারাপ শিফট প্রতি সংরক্ষিত"
+        "stat": "৫ মিনিট",
+        "statLabel": "শিফট চলাকালীনই রিফ্রেশ"
       },
       {
         "name": "Benchmarks",
@@ -1971,8 +1971,8 @@ export const generatedLocalCopy = {
           "Portföljens topplista",
           "Wallboard-läge för golvet"
         ],
-        "stat": "$2K",
-        "statLabel": "sparas per tidigt fångat dåligt skift"
+        "stat": "5 min",
+        "statLabel": "uppdateras medan passet fortfarande pågår"
       },
       {
         "name": "Benchmarks",
@@ -2167,8 +2167,8 @@ export const generatedLocalCopy = {
           "Papan pendahulu portfolio",
           "Mod papan dinding untuk ruang layanan"
         ],
-        "stat": "$2K",
-        "statLabel": "disimpan setiap syif buruk ditangkap awal"
+        "stat": "5 min",
+        "statLabel": "disegar semasa syif masih berjalan"
       },
       {
         "name": "Benchmarks",

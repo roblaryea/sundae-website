@@ -22,7 +22,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       { title: "Public API", supporting: "REST + webhooks" },
       { title: "99.4% Sync SLO", supporting: "On Sundae Core" },
       { title: "Encrypted", supporting: "In transit & at rest" },
-      { title: "Governed Schema", supporting: "500+ governed food-service data models" },
+      { title: "Governed Schema", supporting: "One model behind every number" },
     ],
   },
   ar: {
@@ -34,7 +34,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       { title: "API عامة", supporting: "REST + webhooks" },
       { title: "SLO مزامنة 99.4%", supporting: "على Sundae Core" },
       { title: "مشفّر", supporting: "أثناء النقل والتخزين" },
-      { title: "مخطط محكوم", supporting: "أكثر من 500 نموذج بيانات مطعم" },
+      { title: "مخطط محكوم", supporting: "نموذج واحد خلف كل رقم" },
     ],
   },
   fr: {
@@ -46,7 +46,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       { title: "API publique", supporting: "REST + webhooks" },
       { title: "SLO sync 99,4%", supporting: "Sur Sundae Core" },
       { title: "Chiffré", supporting: "En transit & au repos" },
-      { title: "Schéma gouverné", supporting: "500+ modèles de données restaurant" },
+      { title: "Schéma gouverné", supporting: "Un seul modèle derrière chaque chiffre" },
     ],
   },
   es: {
@@ -58,7 +58,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       { title: "API pública", supporting: "REST + webhooks" },
       { title: "SLO sync 99,4%", supporting: "En Sundae Core" },
       { title: "Cifrado", supporting: "En tránsito y en reposo" },
-      { title: "Esquema gobernado", supporting: "500+ modelos de datos de restaurante" },
+      { title: "Esquema gobernado", supporting: "Un solo modelo detrás de cada cifra" },
     ],
   },
 };
