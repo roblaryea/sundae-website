@@ -11,7 +11,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "LE PROBLÈME",
         "title": "Trois lacunes qui vous coûtent de l'argent chaque jour",
-        "description": "Chaque groupe de restaurants avec lequel nous avons travaillé fait face aux mêmes trois défis."
+        "description": "Chaque groupe multi-sites avec lequel nous travaillons rencontre les memes trois manques."
       },
       "differentiators": [
         {
@@ -63,7 +63,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Responsables des opérations",
-            "pain": "Vous ne pouvez pas être dans chaque restaurant à la fois.",
+            "pain": "Vous ne pouvez pas etre sur chaque site a la fois.",
             "description": "Visibilité en temps réel sur chaque emplacement via Pulse et Portfolio - sachez qui a besoin d'aide avant même qu'il ne demande.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -92,7 +92,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Arrêtez de gérer votre restaurant sur un coup de tête.",
+        "title": "Arretez de piloter le groupe au feeling.",
         "description": "30 minutes pour examiner vos données ensemble et voir si Sundae pourrait réellement aider votre équipe.",
         "primary": "Réserver une démo",
         "secondary": "Explorer les produits"
@@ -107,7 +107,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "EL PROBLEMA",
         "title": "Tres brechas que te cuestan dinero cada día",
-        "description": "Cada grupo de restaurantes con el que hemos trabajado enfrenta los mismos tres desafíos."
+        "description": "Cada grupo multilocal con el que trabajamos encuentra las mismas tres brechas."
       },
       "differentiators": [
         {
@@ -159,7 +159,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Líderes de Operaciones",
-            "pain": "No puedes estar en cada restaurante a la vez.",
+            "pain": "No puedes estar en cada sitio a la vez.",
             "description": "Visibilidad en tiempo real de cada ubicación a través de Pulse y Portfolio - sabe quién necesita ayuda antes de que lo pida.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -188,7 +188,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Deja de gestionar tu restaurante basándote en corazonadas.",
+        "title": "Deja de dirigir el grupo por corazonadas.",
         "description": "30 minutos para revisar tus datos juntos y ver si Sundae realmente ayudaría a tu equipo.",
         "primary": "Reservar una Demostración",
         "secondary": "Explorar Productos"
@@ -203,7 +203,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "HET PROBLEEM",
         "title": "Drie hiaten die je elke dag geld kosten",
-        "description": "Elke restaurantgroep waarmee we hebben samengewerkt, staat voor dezelfde drie uitdagingen."
+        "description": "Elke multi-vestigingsgroep waarmee we werken loopt tegen dezelfde drie gaten aan."
       },
       "differentiators": [
         {
@@ -255,7 +255,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Operationele Leiders",
-            "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
+            "pain": "Je kunt niet op elke locatie tegelijk zijn.",
             "description": "Realtime inzicht in elke locatie via Pulse en Portfolio - weet wie hulp nodig heeft voordat ze het vragen.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -284,7 +284,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Stop met het runnen van je restaurant op onderbuikgevoel.",
+        "title": "Stop met het aansturen van de groep op onderbuikgevoel.",
         "description": "30 minuten om samen je gegevens te bekijken en te zien of Sundae echt je team zou helpen.",
         "primary": "Boek een Demo",
         "secondary": "Ontdek Producten"
@@ -299,7 +299,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "المشكلة",
         "title": "ثلاث فجوات تكلفك المال كل يوم",
-        "description": "تواجه كل مجموعة مطاعم عملنا معها نفس التحديات الثلاث."
+        "description": "كل مجموعة متعددة المواقع نعمل معها تواجه الفجوات الثلاث نفسها."
       },
       "differentiators": [
         {
@@ -395,7 +395,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "DAS PROBLEM",
         "title": "Drei Lücken, die Sie jeden Tag Geld kosten",
-        "description": "Jede Restaurantgruppe, mit der wir zusammengearbeitet haben, steht vor denselben drei Herausforderungen."
+        "description": "Jede Gruppe mit mehreren Standorten, mit der wir arbeiten, trifft auf dieselben drei Luecken."
       },
       "differentiators": [
         {
@@ -447,7 +447,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Betriebsleiter",
-            "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
+            "pain": "Sie koennen nicht an jedem Standort gleichzeitig sein.",
             "description": "Echtzeit-Transparenz für jeden Standort über Pulse und Portfolio - wissen, wer Hilfe benötigt, bevor er fragt.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -476,7 +476,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hören Sie auf, Ihr Restaurant nach Bauchgefühl zu führen.",
+        "title": "Hoeren Sie auf, die Gruppe nach Bauchgefuehl zu fuehren.",
         "description": "30 Minuten, um Ihre Daten gemeinsam zu überprüfen und zu sehen, ob Sundae Ihrem Team wirklich helfen kann.",
         "primary": "Demo buchen",
         "secondary": "Produkte erkunden"
@@ -491,7 +491,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "O PROBLEMA",
         "title": "Três lacunas que custam dinheiro todos os dias",
-        "description": "Todo grupo de restaurantes com o qual trabalhamos enfrenta os mesmos três desafios."
+        "description": "Todo grupo multiunidade com quem trabalhamos encontra as mesmas tres lacunas."
       },
       "differentiators": [
         {
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Líderes de Operações",
-            "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
+            "pain": "Voce nao pode estar em cada unidade ao mesmo tempo.",
             "description": "Visibilidade em tempo real de cada local através do Pulse e Portfolio - saiba quem precisa de ajuda antes mesmo de pedir.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -572,7 +572,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Pare de gerenciar seu restaurante apenas na intuição.",
+        "title": "Pare de conduzir o grupo no instinto.",
         "description": "30 minutos para revisar seus dados juntos e ver se o Sundae realmente ajudaria sua equipe.",
         "primary": "Agendar uma Demonstração",
         "secondary": "Explorar Produtos"
@@ -639,7 +639,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "آپریشنز کے رہنما",
-            "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
+            "pain": "آپ ایک ہی وقت میں ہر مقام پر نہیں ہو سکتے۔",
             "description": "Pulse اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -683,7 +683,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "समस्या",
         "title": "तीन कमियां जो आपको हर दिन पैसे का नुकसान पहुंचाती हैं",
-        "description": "हर रेस्तरां समूह जिसके साथ हमने काम किया है, उन्हीं तीन चुनौतियों का सामना करता है।"
+        "description": "हर मल्टी-लोकेशन ग्रुप जिसके साथ हम काम करते हैं, उन्हीं तीन कमियों से टकराता है।"
       },
       "differentiators": [
         {
@@ -735,7 +735,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "ऑपरेशंस लीडर्स",
-            "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
+            "pain": "आप एक साथ हर साइट पर नहीं हो सकते।",
             "description": "Pulse और Portfolio के माध्यम से हर स्थान पर वास्तविक समय की दृश्यता - जानें कि किसे मदद की आवश्यकता है इससे पहले कि वे पूछें।",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -764,7 +764,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "अपने रेस्तरां को केवल आंतरिक भावना पर चलाना बंद करें।",
+        "title": "ग्रुप को अंदाज़े पर चलाना बंद कीजिए।",
         "description": "अपने डेटा की समीक्षा करने और यह देखने के लिए 30 मिनट बिताएं कि क्या Sundae वास्तव में आपकी टीम की मदद करेगा।",
         "primary": "डेमो बुक करें",
         "secondary": "उत्पादों का अन्वेषण करें"
@@ -779,7 +779,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "IL PROBLEMA",
         "title": "Tre lacune che ti costano soldi ogni giorno",
-        "description": "Ogni gruppo di ristoranti con cui abbiamo lavorato affronta le stesse tre sfide."
+        "description": "Ogni gruppo multi-sede con cui lavoriamo incontra le stesse tre lacune."
       },
       "differentiators": [
         {
@@ -831,7 +831,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Leader delle Operazioni",
-            "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
+            "pain": "Non puoi essere in ogni sede allo stesso tempo.",
             "description": "Visibilità in tempo reale su ogni sede tramite Pulse e Portfolio - sapere chi ha bisogno di aiuto prima che lo chieda.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -860,7 +860,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Smetti di gestire il tuo ristorante basandoti solo sull'istinto.",
+        "title": "Smetti di guidare il gruppo a intuito.",
         "description": "30 minuti per rivedere insieme i tuoi dati e vedere se Sundae può davvero aiutare il tuo team.",
         "primary": "Prenota una Demo",
         "secondary": "Esplora i Prodotti"
@@ -1023,7 +1023,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "运营领导",
-            "pain": "您无法同时在每个餐厅。",
+            "pain": "你无法同时出现在每一个门店。",
             "description": "通过Pulse和Portfolio实时了解每个位置的情况 - 在他们请求帮助之前就知道谁需要帮助。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1052,7 +1052,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "别再凭感觉经营餐厅了。",
+        "title": "别再凭直觉经营整个集团。",
         "description": "花30分钟一起审查您的数据，看看Sundae是否真的能帮助您的团队。",
         "primary": "预约演示",
         "secondary": "探索产品"
@@ -1163,7 +1163,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "問題",
         "title": "毎日お金を失う3つのギャップ",
-        "description": "私たちが関わったすべてのレストラングループは、同じ3つの課題に直面しています。"
+        "description": "私たちが関わる多店舗グループは、いずれも同じ三つの欠落に突き当たります。"
       },
       "differentiators": [
         {
@@ -1215,7 +1215,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "オペレーションリーダー",
-            "pain": "すべてのレストランに同時にいることはできません。",
+            "pain": "すべての店舗に同時にいることはできません。",
             "description": "PulseとPortfolioを通じて、各ロケーションのリアルタイムの可視性 - 誰が助けを必要としているかを事前に把握します。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1244,7 +1244,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "感覚だけでレストランを運営するのはやめましょう。",
+        "title": "勘でグループを動かすのはやめましょう。",
         "description": "データを一緒にレビューするための30分で、Sundaeが本当にあなたのチームを助けるかどうかを確認しましょう。",
         "primary": "デモを予約",
         "secondary": "製品を探る"
@@ -1451,7 +1451,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "문제",
         "title": "매일 돈을 잃게 만드는 세 가지 격차",
-        "description": "우리가 함께 일한 모든 레스토랑 그룹은 동일한 세 가지 문제에 직면합니다."
+        "description": "우리가 함께 일한 모든 다점포 그룹이 같은 세 가지 공백을 만납니다."
       },
       "differentiators": [
         {
@@ -1503,7 +1503,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "운영 리더",
-            "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
+            "pain": "모든 지점에 동시에 있을 수는 없습니다.",
             "description": "Pulse와 Portfolio를 통해 모든 위치에 대한 실시간 가시성을 제공 - 누가 도움을 필요로 하는지 미리 알 수 있습니다.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1547,7 +1547,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "PROBLEMA",
         "title": "Trei lacune care îți costă bani în fiecare zi",
-        "description": "Fiecare grup de restaurante cu care am colaborat se confruntă cu aceleași trei provocări."
+        "description": "Fiecare grup multi-locatie cu care lucram intalneste aceleasi trei lipsuri."
       },
       "differentiators": [
         {
@@ -1599,7 +1599,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Lideri de Operațiuni",
-            "pain": "Nu poți fi în fiecare restaurant în același timp.",
+            "pain": "Nu poti fi in fiecare locatie in acelasi timp.",
             "description": "Vizibilitate în timp real în fiecare locație prin Pulse și Portfolio - știi cine are nevoie de ajutor înainte să ceară.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1628,7 +1628,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Nu mai conduceți restaurantul pe baza intuiției.",
+        "title": "Nu mai conduce grupul dupa instinct.",
         "description": "30 de minute pentru a revizui datele împreună și a vedea dacă Sundae ar ajuta cu adevărat echipa dumneavoastră.",
         "primary": "Programează o demonstrație",
         "secondary": "Explorează produsele"
@@ -1643,7 +1643,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "PROBLEMET",
         "title": "Tre luckor som kostar dig pengar varje dag",
-        "description": "Varje restauranggrupp vi har arbetat med står inför samma tre utmaningar."
+        "description": "Varje flerenhetsgrupp vi arbetar med moter samma tre luckor."
       },
       "differentiators": [
         {
@@ -1695,7 +1695,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "title": "Operationsledare",
-            "pain": "Du kan inte vara på varje restaurang samtidigt.",
+            "pain": "Du kan inte vara pa varje enhet samtidigt.",
             "description": "Realtidsinsyn i varje plats via Pulse och Portfolio - vet vem som behöver hjälp innan de frågar.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
@@ -1724,7 +1724,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Sluta driva din restaurang på magkänsla.",
+        "title": "Sluta styra gruppen pa kansla.",
         "description": "30 minuter för att granska dina data tillsammans och se om Sundae verkligen skulle hjälpa ditt team.",
         "primary": "Boka en demo",
         "secondary": "Utforska produkter"
@@ -1835,7 +1835,7 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "ปัญหา",
         "title": "สามช่องว่างที่ทำให้คุณเสียเงินทุกวัน",
-        "description": "กลุ่มร้านอาหารทุกกลุ่มที่เราทำงานด้วยเผชิญกับสามความท้าทายเดียวกัน."
+        "description": "ทุกกลุ่มหลายสาขาที่เราทำงานด้วยเจอช่องว่างสามอย่างเดียวกัน"
       },
       "differentiators": [
         {
@@ -1916,7 +1916,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "หยุดบริหารร้านอาหารของคุณด้วยความรู้สึก.",
+        "title": "หยุดบริหารทั้งกลุ่มด้วยสัญชาตญาณ",
         "description": "30 นาทีในการตรวจสอบข้อมูลของคุณร่วมกันและดูว่า Sundae จะช่วยทีมของคุณได้จริงหรือไม่.",
         "primary": "จองการสาธิต",
         "secondary": "สำรวจผลิตภัณฑ์"

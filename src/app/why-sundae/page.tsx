@@ -100,7 +100,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "المشكلة",
       title: "ثلاث فجوات تكلفك المال كل يوم",
-      description: "كل مجموعة مطاعم عملنا معها تواجه التحديات الثلاث نفسها.",
+      description: "كل مجموعة متعددة المواقع نعمل معها تواجه الفجوات الثلاث نفسها.",
     },
     differentiators: [
       { title: "استرجاع الأرباح بحلقة مغلقة", description: "أربعة عشر كاشفاً تجد الأرباح المتسرّبة عبر العمالة والمشتريات والهدر والتوصيل والتسعير. تتحوّل كل فرصة إلى إجراء واحد بمسؤول واحد، ويُقاس مقابل خط أساس مجمّد قبل بدء العمل. ولا تعتبر Sundae أي توفير مستَرجعاً قبل قياسه.", icon: "intelligence", color: "bg-rose-600" },
@@ -125,14 +125,14 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "مبني لـ",
       title: "مبني لكل دور في المؤسسة",
       items: [
-        { title: "قادة العمليات", pain: "لا يمكنك أن تكون في كل مطعم في الوقت نفسه.", description: "رؤية لحظية لكل موقع عبر Pulse وPortfolio - تعرف من يحتاج المساعدة قبل أن يطلبها.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "قادة العمليات", pain: "لا يمكنك أن تكون في كل موقع في الوقت نفسه.", description: "رؤية لحظية لكل موقع عبر Pulse وPortfolio - تعرف من يحتاج المساعدة قبل أن يطلبها.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "المالية وFP&A", pain: "ثلاثة أيام لإغلاق الدفاتر؟ هذا كثير جداً.", description: "ذكاء فوري للهامش، تكاليف العمالة على مستوى الوردية، وتحليل التباين مرتبط بالأسباب الجذرية.", icon: "benchmarking", color: "bg-green-600" },
         { title: "القيادة العليا والملّاك", pain: "أسوأ موقع أداءً يظل مخفياً حتى الخميس.", description: "لوحات محفظة، موجزات يومية، ذكاء تنافسي، ومنظورات قرار استراتيجية.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "فرق التقنية", pain: "12 واجهة API للموردين. 5 صيغ بيانات. لا مخطط موحد.", description: "واجهة عامة، webhooks، تكاملات عبر 12 مجالاً، مقاييس محكومة، وضوابط RBAC جاهزة.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "توقّف عن إدارة مطعمك بالحدس.",
+      title: "توقّف عن إدارة المجموعة بالحدس.",
       description: "30 دقيقة مع بياناتك. رؤى حقيقية. بدون عرض تسويقي.",
       primary: "احجز عرضاً",
       secondary: "استكشف المنتجات",
@@ -147,7 +147,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "LE PROBLÈME",
       title: "Trois écarts qui vous coûtent de l'argent chaque jour",
-      description: "Tous les groupes de restaurants avec lesquels nous avons travaillé rencontrent les mêmes trois défis.",
+      description: "Chaque groupe multi-sites avec lequel nous travaillons rencontre les memes trois manques.",
     },
     differentiators: [
       { title: "Recuperation de marge en boucle fermee", description: "Quatorze detecteurs reperent la marge qui fuit sur la main-d'oeuvre, les achats, le gaspillage, la livraison et les prix. Chaque opportunite devient une action confiee a une seule personne, mesuree contre une base figee avant le debut du travail. Sundae ne declare aucune economie recuperee tant qu'elle n'a pas ete mesuree.", icon: "intelligence", color: "bg-rose-600" },
@@ -172,14 +172,14 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "CONÇU POUR",
       title: "Conçu pour chaque rôle de l'organisation",
       items: [
-        { title: "Leaders Ops", pain: "Vous ne pouvez pas être dans chaque restaurant à la fois.", description: "Visibilité en temps réel sur chaque site via Pulse et Portfolio - sachez qui a besoin d'aide avant qu'il ne la demande.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "Leaders Ops", pain: "Vous ne pouvez pas etre sur chaque site a la fois.", description: "Visibilité en temps réel sur chaque site via Pulse et Portfolio - sachez qui a besoin d'aide avant qu'il ne la demande.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "Finance & FP&A", pain: "3 jours pour clôturer les comptes ? C'est 3 jours de trop.", description: "Intelligence de marge en temps réel, coûts de main-d'œuvre par service et analyse des écarts reliée aux causes racines.", icon: "benchmarking", color: "bg-green-600" },
         { title: "Direction & propriétaires", pain: "Votre pire site reste invisible jusqu'au jeudi.", description: "Dashboards portefeuille, briefings quotidiens, intelligence concurrentielle et vues stratégiques.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "Équipes techniques", pain: "12 API fournisseurs. 5 formats de données. Aucun schéma unifié.", description: "API publique, webhooks, intégrations sur 12 domaines, métriques gouvernées et contrôles RBAC prêts à l'emploi.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "Arrêtez de gérer votre restaurant à l'intuition.",
+      title: "Arretez de piloter le groupe au feeling.",
       description: "Trente minutes pour regarder vos donnees ensemble et voir si Sundae peut vraiment aider votre equipe.",
       primary: "Réserver une démo",
       secondary: "Explorer les produits",
@@ -194,7 +194,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "EL PROBLEMA",
       title: "Tres brechas que te cuestan dinero cada día",
-      description: "Todos los grupos de restaurantes con los que hemos trabajado enfrentan los mismos tres desafíos.",
+      description: "Cada grupo multilocal con el que trabajamos encuentra las mismas tres brechas.",
     },
     differentiators: [
       { title: "Recuperacion de margen en circuito cerrado", description: "Catorce detectores encuentran el margen que se escapa en personal, compras, desperdicio, reparto y precios. Cada oportunidad se convierte en una accion con un unico responsable, medida contra una linea base congelada antes de empezar. Sundae no da por recuperado ningun ahorro hasta haberlo medido.", icon: "intelligence", color: "bg-rose-600" },
@@ -219,14 +219,14 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "DISEÑADO PARA",
       title: "Diseñado para cada rol de la organización",
       items: [
-        { title: "Líderes de operaciones", pain: "No puedes estar en todos los restaurantes al mismo tiempo.", description: "Visibilidad en tiempo real de cada ubicación via Pulse y Portfolio: sabe quién necesita ayuda antes de que la pida.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "Líderes de operaciones", pain: "No puedes estar en cada sitio a la vez.", description: "Visibilidad en tiempo real de cada ubicación via Pulse y Portfolio: sabe quién necesita ayuda antes de que la pida.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "Finanzas y FP&A", pain: "¿3 días para cerrar los libros? Son 3 días de más.", description: "Inteligencia de margen en tiempo real, costos laborales por turno y análisis de variaciones conectados a causas raíz.", icon: "benchmarking", color: "bg-green-600" },
         { title: "C-Suite y propietarios", pain: "Tu peor ubicación pasa desapercibida hasta el jueves.", description: "Dashboards de portafolio, briefings diarios, inteligencia competitiva y vistas de decisión estratégica.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "Equipos de tecnología", pain: "12 APIs de proveedores. 5 formatos de datos. Cero esquema unificado.", description: "API pública, webhooks, integraciones de 12 dominios, métricas gobernadas y controles RBAC listos.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "Deja de gestionar tu restaurante por intuición.",
+      title: "Deja de dirigir el grupo por corazonadas.",
       description: "Treinta minutos para revisar tus datos contigo y ver si Sundae puede ayudar de verdad a tu equipo.",
       primary: "Reservar demo",
       secondary: "Explorar productos",

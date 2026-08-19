@@ -82,7 +82,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Multi-Standorte Restaurants",
+          "name": "Gruppen mit mehreren Standorten",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -853,7 +853,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Multi-locatie Restaurants",
+          "name": "Multi-vestigingsgroepen",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -1624,7 +1624,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Restaurantes Multi-localização",
+          "name": "Grupos multiunidade",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -2395,7 +2395,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "मल्टी-लोकेशन रेस्तरां",
+          "name": "मल्टी-लोकेशन ग्रुप",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -3166,7 +3166,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "کئی مقامات والے ریستوران",
+          "name": "کئی مقامات والے گروپ",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -3937,7 +3937,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Ristoranti Multi-locazione",
+          "name": "Gruppi multi-sede",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -4708,7 +4708,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Restauracje wielolokalowe",
+          "name": "Grupy wielolokalizacyjne",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -5479,7 +5479,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Çoklu Lokasyonlu Restoranlar",
+          "name": "Çok şubeli gruplar",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -6250,7 +6250,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "多地点餐厅",
+          "name": "多门店集团",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -7021,7 +7021,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "複数のロケーションのレストラン",
+          "name": "多店舗グループ",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -7792,7 +7792,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "다중 위치 레스토랑",
+          "name": "다점포 그룹",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -8563,7 +8563,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Restoran Multi-lokasi",
+          "name": "Grup multi-lokasi",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -9334,7 +9334,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Nhà hàng đa địa điểm",
+          "name": "Tập đoàn nhiều chi nhánh",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -10105,7 +10105,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Restaurante multi-locație",
+          "name": "Grupuri multi-locație",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -10876,7 +10876,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Flerlokalsrestauranger",
+          "name": "Flerenhetsgrupper",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -11647,7 +11647,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "মাল্টি-লোকেশন রেস্টুরেন্ট",
+          "name": "মাল্টি-লোকেশন গ্রুপ",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -12418,7 +12418,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "ร้านอาหารหลายแห่ง",
+          "name": "กลุ่มหลายสาขา",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -13189,7 +13189,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Restoran Multi-lokasi",
+          "name": "Kumpulan berbilang lokasi",
           "href": "/solutions/multi-location-groups"
         },
         {
@@ -13992,7 +13992,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "solutionsSegments": [
         {
-          "name": "Restaurants multi-sites",
+          "name": "Groupes multi-sites",
           "href": "/solutions/multi-location-groups"
         },
         {

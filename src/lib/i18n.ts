@@ -302,7 +302,7 @@ export const websiteMessages = {
         { name: 'People Intelligence', description: 'Workforce analytics', href: '/crew/people-intelligence' },
       ],
       solutionsSegments: [
-        { name: 'Multi-location Restaurants', href: '/solutions/multi-location-groups' },
+        { name: 'Multi-location Groups', href: '/solutions/multi-location-groups' },
         { name: 'Franchises', href: '/solutions/franchises' },
         { name: 'Cloud Kitchens', href: '/solutions/cloud-kitchens' },
         { name: 'Enterprise Hospitality Groups', href: '/solutions/hospitality-operators' },
@@ -767,7 +767,7 @@ export const websiteMessages = {
         { name: 'Sundae Crew', description: 'ركيزة تشغيلية · موظفون، جدولة، رواتب', href: '/crew' },
       ],
       solutionsSegments: [
-        { name: 'مطاعم متعددة الفروع', href: '/solutions/multi-location-groups' },
+        { name: 'مجموعات متعددة المواقع', href: '/solutions/multi-location-groups' },
         { name: 'الامتيازات التجارية', href: '/solutions/franchises' },
         { name: 'المطابخ السحابية', href: '/solutions/cloud-kitchens' },
         { name: 'مجموعات الضيافة الكبيرة', href: '/solutions/hospitality-operators' },
@@ -1212,7 +1212,7 @@ export const websiteMessages = {
         { name: 'Sundae Crew', description: 'Socle opérationnel · équipes, plannings, paie', href: '/crew' },
       ],
       solutionsSegments: [
-        { name: 'Restaurants multi-sites', href: '/solutions/multi-location-groups' },
+        { name: 'Groupes multi-sites', href: '/solutions/multi-location-groups' },
         { name: 'Franchises', href: '/solutions/franchises' },
         { name: 'Dark kitchens', href: '/solutions/cloud-kitchens' },
         { name: 'Groupes hôteliers enterprise', href: '/solutions/hospitality-operators' },
