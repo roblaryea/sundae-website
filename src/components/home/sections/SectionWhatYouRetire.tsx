@@ -33,8 +33,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Weekly recap meetings instead of live action",
     ],
     withSundae: [
-      "Six intelligence layers, operator-native",
-      "500+ governed food-service data models",
+      "Decisions ranked by margin impact, not dashboards",
+      "A governed food-service model, ready on day one",
       "Source-cited answers in seconds",
       "12 data domains unified in one ledger",
       "Live shift intelligence, not Friday recaps",
@@ -55,8 +55,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "اجتماعات أسبوعية بدل فعل حي",
     ],
     withSundae: [
-      "ست طبقات ذكاء، مبنية لمشغّلي خدمات الطعام",
-      "أكثر من 500 نموذج بيانات مطعم محكوم",
+      "قرارات مرتبة بأثرها على الهامش، لا لوحات",
+      "نموذج بيانات محكوم للخدمات الغذائية، جاهز من اليوم الأول",
       "إجابات بمصادر في ثوانٍ",
       "12 مجال بيانات موحد في دفتر واحد",
       "ذكاء وردية حي لا تقارير الجمعة",
@@ -77,8 +77,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Réunions hebdo au lieu d'action live",
     ],
     withSundae: [
-      "Six couches d'intelligence, natives exploitation",
-      "500+ modeles de donnees restauration gouvernes",
+      "Des decisions classees par impact sur la marge, pas des tableaux de bord",
+      "Un modele de donnees restauration gouverne, pret des le premier jour",
       "Réponses sourcées en secondes",
       "12 domaines de données dans un seul livre",
       "Intelligence de service live, pas récap vendredi",
@@ -99,8 +99,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Reuniones semanales en lugar de acción en vivo",
     ],
     withSundae: [
-      "Seis capas de inteligencia, nativas para la operacion",
-      "500+ modelos de datos de restauracion gobernados",
+      "Decisiones ordenadas por impacto en el margen, no paneles",
+      "Un modelo de datos de restauracion gobernado, listo desde el primer dia",
       "Respuestas con fuente en segundos",
       "12 dominios de datos unificados en un libro",
       "Inteligencia de turno en vivo, no recap del viernes",

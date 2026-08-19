@@ -22,7 +22,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       { title: "Public API", supporting: "REST + webhooks" },
       { title: "99.4% Sync SLO", supporting: "On Sundae Core" },
       { title: "Encrypted", supporting: "In transit & at rest" },
-      { title: "Governed Schema", supporting: "500+ restaurant data models" },
+      { title: "Governed Schema", supporting: "500+ governed food-service data models" },
     ],
   },
   ar: {
