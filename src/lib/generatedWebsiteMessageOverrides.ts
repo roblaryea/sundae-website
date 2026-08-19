@@ -709,7 +709,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrationen - Sundae",
           "badge": "Integrationen",
           "title": "Alles verbinden. Ihre Daten vereinheitlichen.",
-          "description": "Sundae integriert sich mit über 30 Restaurant-Systemen in den Bereichen POS, Personal, Inventar, Reservierungen, Lieferung und mehr.",
+          "description": "Sundae integriert sich mit über 200 Food-Service-Systemen aus POS, Personal, Bestand, Reservierungen, Lieferung und mehr.",
           "process": [
             {
               "step": "1",
@@ -1480,7 +1480,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integraties - Sundae",
           "badge": "Integraties",
           "title": "Verbind Alles. Vereenvoudig Jouw Gegevens.",
-          "description": "Sundae integreert met 200+ restaurantsystemen op het gebied van POS, arbeid, inventaris, reserveringen, levering en meer.",
+          "description": "Sundae koppelt met 200+ foodservicesystemen op het gebied van POS, personeel, voorraad, reserveringen, bezorging en meer.",
           "process": [
             {
               "step": "1",
@@ -2251,7 +2251,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrações - Sundae",
           "badge": "Integrações",
           "title": "Conecte Tudo. Unifique Seus Dados.",
-          "description": "O Sundae integra-se com mais de 30 sistemas de restaurantes em POS, mão de obra, inventário, reservas, entrega e mais.",
+          "description": "A Sundae integra-se com mais de 200 sistemas de food service em POS, mão de obra, inventário, reservas, entrega e mais.",
           "process": [
             {
               "step": "1",
@@ -3022,7 +3022,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "एकीकरण - Sundae",
           "badge": "एकीकरण",
           "title": "सब कुछ कनेक्ट करें। अपने डेटा को एकीकृत करें।",
-          "description": "Sundae 200+ रेस्टोरेंट सिस्टम के साथ POS, श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, और अधिक में एकीकृत होता है।",
+          "description": "Sundae 200+ फ़ूड-सर्विस सिस्टम से जुड़ता है - POS, श्रम, इन्वेंट्री, आरक्षण, डिलीवरी और अन्य।",
           "process": [
             {
               "step": "1",
@@ -3793,7 +3793,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "انضمام - Sundae",
           "badge": "انضمام",
           "title": "سب کچھ جڑیں۔ اپنے ڈیٹا کو متحد کریں۔",
-          "description": "Sundae 200+ ریستوران کے نظاموں کے ساتھ POS، مزدوری، انوینٹری، ریزرویشن، ترسیل، اور مزید کے ذریعے انضمام کرتا ہے۔",
+          "description": "Sundae 200+ فوڈ سروس نظاموں سے جڑتا ہے - POS، لیبر، انوینٹری، بکنگ، ڈیلیوری اور مزید۔",
           "process": [
             {
               "step": "1",
@@ -4564,7 +4564,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrazioni - Sundae",
           "badge": "Integrazioni",
           "title": "Collega Tutto. Unifica i Tuoi Dati.",
-          "description": "Sundae si integra con oltre 30 sistemi di ristorazione tra POS, lavoro, inventario, prenotazioni, consegne e altro.",
+          "description": "Sundae si integra con oltre 200 sistemi del food service tra POS, personale, magazzino, prenotazioni, consegne e altro.",
           "process": [
             {
               "step": "1",
@@ -5335,7 +5335,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integracje - Sundae",
           "badge": "Integracje",
           "title": "Połącz Wszystko. Zjednocz Swoje Dane.",
-          "description": "Sundae integruje się z ponad 30 systemami restauracyjnymi w zakresie POS, pracy, zapasów, rezerwacji, dostaw i nie tylko.",
+          "description": "Sundae łączy się z ponad 200 systemami food service w obszarach POS, pracy, zapasów, rezerwacji, dostaw i innych.",
           "process": [
             {
               "step": "1",
@@ -6106,7 +6106,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Entegrasyonlar - Sundae",
           "badge": "Entegrasyonlar",
           "title": "Her Şeyi Bağlayın. Verilerinizi Birleştirin.",
-          "description": "Sundae, POS, iş gücü, envanter, rezervasyon, teslimat ve daha fazlası dahil olmak üzere 30'dan fazla restoran sistemiyle entegre olur.",
+          "description": "Sundae; POS, iş gücü, stok, rezervasyon, teslimat ve daha fazlasında 200’den fazla food service sistemiyle entegre olur.",
           "process": [
             {
               "step": "1",
@@ -6877,7 +6877,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "集成 - Sundae",
           "badge": "集成",
           "title": "连接一切。统一您的数据。",
-          "description": "Sundae与30多个餐厅系统集成，涵盖POS、劳动、库存、预订、配送等。",
+          "description": "Sundae 可对接 200 多个餐饮服务系统，涵盖 POS、人力、库存、预订、配送等。",
           "process": [
             {
               "step": "1",
@@ -7648,7 +7648,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "統合 - Sundae",
           "badge": "統合",
           "title": "すべてを接続。データを統合。",
-          "description": "Sundaeは、POS、労働、在庫、予約、配達など、30以上のレストランシステムと統合します。",
+          "description": "Sundae は POS、人件費、在庫、予約、デリバリーなど 200 以上のフードサービス系システムと連携します。",
           "process": [
             {
               "step": "1",
@@ -8419,7 +8419,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "통합 - Sundae",
           "badge": "통합",
           "title": "모든 것을 연결하세요. 데이터를 통합하세요.",
-          "description": "Sundae는 POS, 노동, 재고, 예약, 배달 등 30개 이상의 레스토랑 시스템과 통합됩니다.",
+          "description": "Sundae는 POS, 인력, 재고, 예약, 배달 등 200개 이상의 푸드서비스 시스템과 연동됩니다.",
           "process": [
             {
               "step": "1",
@@ -9190,7 +9190,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrasi - Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
-          "description": "Sundae terintegrasi dengan 200+ sistem restoran di seluruh POS, tenaga kerja, inventaris, reservasi, pengiriman, dan lainnya.",
+          "description": "Sundae terhubung dengan 200+ sistem food service di POS, tenaga kerja, persediaan, reservasi, pengiriman, dan lainnya.",
           "process": [
             {
               "step": "1",
@@ -9961,7 +9961,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Tích Hợp - Sundae",
           "badge": "Tích Hợp",
           "title": "Kết Nối Mọi Thứ. Hợp Nhất Dữ Liệu Của Bạn.",
-          "description": "Sundae tích hợp với hơn 30 hệ thống nhà hàng trên POS, lao động, tồn kho, đặt chỗ, giao hàng và nhiều hơn nữa.",
+          "description": "Sundae kết nối với hơn 200 hệ thống dịch vụ ăn uống gồm POS, nhân sự, tồn kho, đặt chỗ, giao hàng và nhiều hơn nữa.",
           "process": [
             {
               "step": "1",
@@ -10732,7 +10732,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrări - Sundae",
           "badge": "Integrări",
           "title": "Conectează Totul. Unifică-ți Datele.",
-          "description": "Sundae se integrează cu peste 30 de sisteme de restaurante din domeniul POS, muncă, inventar, rezervări, livrare și multe altele.",
+          "description": "Sundae se integrează cu peste 200 de sisteme din food service: POS, forță de muncă, stocuri, rezervări, livrare și altele.",
           "process": [
             {
               "step": "1",
@@ -11503,7 +11503,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrationer - Sundae",
           "badge": "Integrationer",
           "title": "Anslut Allt. Enhetlig Din Data.",
-          "description": "Sundae integreras med 200+ restaurangsystem över POS, arbetskraft, lager, reservationer, leverans och mer.",
+          "description": "Sundae kopplas till 200+ system inom food service - kassa, personal, lager, bokning, leverans och mer.",
           "process": [
             {
               "step": "1",
@@ -12274,7 +12274,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "ইন্টিগ্রেশন - Sundae",
           "badge": "ইন্টিগ্রেশন",
           "title": "সবকিছু সংযুক্ত করুন। আপনার ডেটা একীভূত করুন।",
-          "description": "Sundae 200+ রেস্তোরাঁর সিস্টেমের সাথে POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি এবং আরও অনেক কিছুর সাথে ইন্টিগ্রেট করে।",
+          "description": "Sundae ২০০-এর বেশি ফুড-সার্ভিস সিস্টেমের সঙ্গে যুক্ত হয় - POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি ও আরও অনেক কিছু।",
           "process": [
             {
               "step": "1",
@@ -13045,7 +13045,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "การรวมข้อมูล - Sundae",
           "badge": "การรวมข้อมูล",
           "title": "เชื่อมต่อทุกอย่าง รวมข้อมูลของคุณ",
-          "description": "Sundae รวมเข้ากับระบบร้านอาหารกว่า 30 ระบบทั่วทั้ง POS แรงงาน สินค้าคงคลัง การจอง การจัดส่ง และอื่นๆ",
+          "description": "Sundae เชื่อมต่อกับระบบฟู้ดเซอร์วิสกว่า 200 ระบบ ทั้ง POS แรงงาน สินค้าคงคลัง การจอง การจัดส่ง และอื่น ๆ",
           "process": [
             {
               "step": "1",
@@ -13816,7 +13816,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrasi - Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
-          "description": "Sundae berintegrasi dengan 200+ sistem restoran merentasi POS, buruh, inventori, tempahan, penghantaran, dan banyak lagi.",
+          "description": "Sundae bersepadu dengan 200+ sistem perkhidmatan makanan merangkumi POS, tenaga kerja, inventori, tempahan, penghantaran dan banyak lagi.",
           "process": [
             {
               "step": "1",

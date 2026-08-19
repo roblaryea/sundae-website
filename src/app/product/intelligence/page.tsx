@@ -45,7 +45,7 @@ const localizedChatCopy = {
     differentiatorsDescription: "Not another dashboard. A fundamentally different approach to decision intelligence.",
     marketTitle: "Built for Every Market",
     ctaTitle: "Your Data Has Answers",
-    ctaDescription: "Start a conversation with your restaurant data today.",
+    ctaDescription: "Ask your operating data a question today, and get an answer you can act on.",
     modes: [
       { title: "Chat", shortcut: "⌘ 1", description: "Ask anything about your data. Get structured answers with interactive charts and KPI cards.", icon: "conversation", badge: "Default" },
       { title: "Analyst", shortcut: "⌘ 2", description: "Deep analysis with clarifying questions, confidence levels, and cross-referenced data sources.", icon: "insights", badge: "Deep Dive" },

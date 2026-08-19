@@ -118,7 +118,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Foundation / Infrastructure", subtitle: "Base Layer", description: "Secure pipelines, API ingestion, normalization, governance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
-      { step: "1", title: "Data Collection", description: "Sundae Core connects to 200+ restaurant systems across 12 data domains and external sources", icon: "integration" },
+      { step: "1", title: "Data Collection", description: "Sundae Core connects to 200+ food-service systems across 12 data domains and external sources", icon: "integration" },
       { step: "2", title: "AI Processing", description: "Multi-agent AI analyzes patterns and generates insights", icon: "intelligence" },
       { step: "3", title: "Intelligence Delivery", description: "Actionable recommendations delivered through language and visualizations", icon: "insights" },
     ],
@@ -128,7 +128,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Context Agents", description: "Understand operational context, location specifics, and business rules to provide relevant insights", icon: "intelligence" },
     ],
     modules: [
-      { name: "Sundae Core", description: "Universal data integration layer connecting 200+ restaurant systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "Universal data integration layer connecting 200+ food-service systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "AI-powered anomaly detection and real-time alert system", icon: "pulse", features: ["Anomaly Detection", "Real-time Alerts", "Pattern Analysis", "Threshold Monitoring"], colorClass: "component-icon--pulse" },
       { name: "Ask Sundae", description: "Conversational AI engine for natural language intelligence", icon: "forge", features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"], colorClass: "component-icon--forge" },
       { name: "Insights", description: "Deep analytics that turn operational data into decisions", icon: "canvas", features: ["Real-time Views", "Custom Analysis", "Visual Analytics", "Interactive Reports"], colorClass: "component-icon--canvas" },

@@ -660,7 +660,7 @@ export const websiteMessages = {
           badge: 'Integrations',
           title: 'Connect Everything. Unify Your Data.',
           description:
-            'Sundae integrates with 200+ restaurant systems across POS, labor, inventory, reservations, delivery, and more.',
+            'Sundae integrates with 200+ food-service systems across POS, labor, inventory, reservations, delivery, and more.',
           process: [
             { step: '1', title: 'Connect', description: 'Authenticate your platforms with OAuth or API key - most integrations take under 5 minutes.' },
             { step: '2', title: 'Normalize', description: 'Sundae Core, our data layer, cleans, maps, and unifies every data source into a consistent schema.' },
@@ -1107,7 +1107,7 @@ export const websiteMessages = {
           badge: 'التكاملات',
           title: 'صِل كل شيء. وحّد بياناتك.',
           description:
-            'يتكامل Sundae مع أكثر من 30 نظامًا للمطاعم عبر نقاط البيع والعمالة والمخزون والحجوزات والتوصيل وغيرها.',
+            'يتكامل Sundae مع أكثر من 200 نظام في قطاع خدمات الطعام عبر نقاط البيع والعمالة والمخزون والحجوزات والتوصيل وغيرها.',
           process: [
             { step: '1', title: 'اتصال', description: 'صادق على منصاتك باستخدام OAuth أو API key - معظم التكاملات تستغرق أقل من 5 دقائق.' },
             { step: '2', title: 'توحيد', description: 'يقوم Sundae Core بتنظيف البيانات وربطها وتوحيدها في مخطط موحد.' },
@@ -1571,7 +1571,7 @@ export const websiteMessages = {
           badge: 'Intégrations',
           title: 'Connectez tout. Unifiez vos données.',
           description:
-            'Sundae s\'intègre à plus de 30 systèmes de restauration couvrant POS, main-d\'œuvre, stock, réservations, livraison et plus encore.',
+            'Sundae s\'intègre à plus de 200 systèmes de la restauration couvrant caisse, planning, stocks, réservations, livraison et plus encore.',
           process: [
             { step: '1', title: 'Connecter', description: 'Authentifiez vos plateformes via OAuth ou clé API - la plupart des intégrations prennent moins de 5 minutes.' },
             { step: '2', title: 'Normaliser', description: 'Sundae Core nettoie, mappe et unifie chaque source de données dans un schéma cohérent.' },
@@ -2035,7 +2035,7 @@ export const websiteMessages = {
           badge: 'Integraciones',
           title: 'Conecta todo. Unifica tus datos.',
           description:
-            'Sundae se integra con más de 30 sistemas de restauración en POS, personal, inventario, reservas, delivery y más.',
+            'Sundae se integra con más de 200 sistemas de restauración en TPV, personal, inventario, reservas, delivery y más.',
           process: [
             { step: '1', title: 'Conectar', description: 'Autentica tus plataformas con OAuth o clave API; la mayoría de integraciones tardan menos de 5 minutos.' },
             { step: '2', title: 'Normalizar', description: 'Sundae Core limpia, mapea y unifica cada fuente de datos en un esquema coherente.' },

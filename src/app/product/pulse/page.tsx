@@ -203,7 +203,7 @@ const localizedPulseCopy = {
         eyebrow: "SERVER INTELLIGENCE",
         heading: "From Leaderboard to Coaching Tool",
         description:
-          "See who's driving your revenue and who needs support - in real time. Filter by hour, by service phase, or compare against last week. Every server gets a productivity score, an hourly breakdown, and auto-detected strengths and improvement areas. The best restaurants don't just track servers - they develop them.",
+          "See who's driving your revenue and who needs support - in real time. Filter by hour, by service phase, or compare against last week. Every server gets a productivity score, an hourly breakdown, and auto-detected strengths and improvement areas. The best operators do not just track servers - they develop them.",
       },
       cost: {
         eyebrow: "SHIFT COSTING",
