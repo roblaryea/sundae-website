@@ -53,7 +53,7 @@ function fitSubPx(el: HTMLElement): number | null {
  * Cinematic brand intro - the "glass" moment that opens the homepage and then
  * hands off into the live product site below. Locked brand: warm strata in a
  * glass (every layer of the business), the cherry as the signal, and the master
- * line "See every layer. Act in time." Fraunces (--font-display) + warm tokens.
+ * line "Recover the profit. Prove what worked." Fraunces (--font-display) + warm tokens.
  *
  * The glass is the INTRO device only; Pulse (the existing site below) is the proof.
  */

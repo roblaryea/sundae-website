@@ -54,6 +54,10 @@ type Copy = {
   layersEyebrow: string;
   layersTitle: string;
   layersDescription: string;
+  loopEyebrow: string;
+  loopTitle: string;
+  loopDescription: string;
+  loopCta: string;
   ctaTitle: string;
   ctaDescription: string;
 };
@@ -61,8 +65,8 @@ type Copy = {
 const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
   en: {
     heroBadge: "The Sundae Platform",
-    heroTitle: "500 Data Models. 12 Domains. One Truth.",
-    heroDescription: "Six intelligence layers that turn fragmented restaurant data into decisions that compound - shift by shift, outlet by outlet.",
+    heroTitle: "Six layers. One governed model. One loop.",
+    heroDescription: "500 data models across 12 domains, so the number in a forecast, a benchmark and last night's shift report is the same number. Every layer feeds one loop: find the money, give the work an owner, measure what came back.",
     heroPrimary: "See Plans",
     heroSecondary: "Book a Working Session",
     freeLabel: "DECISION SUBSTRATE",
@@ -80,9 +84,13 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     compareCta: "See pricing →",
     layersEyebrow: "SIX INTELLIGENCE LAYERS",
     layersTitle: "From Shift Floor to Boardroom",
-    layersDescription: "Each layer handles a distinct dimension of restaurant performance. Together, they form a closed-loop intelligence system.",
+    layersDescription: "Each layer covers a distinct dimension of the operation. They are not six separate products - they read one model, and what one layer finds becomes work another layer measures.",
+    loopEyebrow: "THE LOOP ACROSS ALL SIX",
+    loopTitle: "A layer that only reports is a layer you still have to act on yourself.",
+    loopDescription: "Sundae's profit recovery loop runs underneath all six. It takes what any layer finds, gives it one accountable owner, and freezes the number the work will be judged against before that work begins. What comes back is measured - marked directional until the person who did the work confirms it, and verified only when a second reviewer checks it against evidence.",
+    loopCta: "See how the loop works",
     ctaTitle: "Two substrates. One operating picture.",
-    ctaDescription: "Core reads the business. Crew runs the people. Every shift Crew plans becomes signal Core reasons over.",
+    ctaDescription: "Core reads the business. Crew runs the people. Every shift Crew plans becomes signal Core reasons over - and every decision that signal produces is measured against what actually changed.",
   },
   ar: {
     heroBadge: "منصة Sundae",
@@ -106,6 +114,10 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     layersEyebrow: "ست طبقات ذكاء",
     layersTitle: "من أرضية الوردية إلى غرفة الإدارة",
     layersDescription: "كل طبقة تعالج بُعداً مختلفاً من أداء المطعم. معاً، يشكلون نظام ذكاء مغلق الحلقة.",
+    loopEyebrow: "الحلقة التي تمر عبر الطبقات الست",
+    loopTitle: "الطبقة التي تكتفي بالتقرير تترك التنفيذ عليك.",
+    loopDescription: "تعمل حلقة استرجاع الأرباح في Sundae أسفل الطبقات الست جميعاً. تأخذ ما تكتشفه أي طبقة، وتسنده إلى مسؤول واحد، وتثبّت الرقم الذي سيُحاكم عليه العمل قبل أن يبدأ. وما يعود يُقاس - ويُوسم استرشادياً حتى يؤكده من نفّذ العمل، ولا يُعتمد إلا بعد أن يراجعه شخص ثانٍ مقابل الأدلة.",
+    loopCta: "اطّلع على آلية الحلقة",
     ctaTitle: "ركيزتان. وصورة تشغيلية واحدة.",
     ctaDescription: "Core يقرأ العمل، وCrew يدير الناس. وكل وردية يخطط لها Crew تصبح إشارة يستدل بها Core.",
   },
@@ -131,6 +143,10 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     layersEyebrow: "SIX COUCHES D'INTELLIGENCE",
     layersTitle: "Du service jusqu'au board",
     layersDescription: "Chaque couche couvre une dimension specifique de la performance. Ensemble, elles forment un systeme d'intelligence en boucle fermee.",
+    loopEyebrow: "La boucle qui traverse les six couches",
+    loopTitle: "Une couche qui se contente de rapporter vous laisse le travail.",
+    loopDescription: "La boucle de recuperation de marge de Sundae passe sous les six couches. Elle reprend ce qu'une couche detecte, l'attribue a un seul responsable et fige le chiffre sur lequel le travail sera juge avant qu'il ne commence. Ce qui revient est mesure - qualifie de directionnel jusqu'a ce que la personne qui a fait le travail le confirme, et valide seulement lorsqu'un second relecteur le verifie contre des preuves.",
+    loopCta: "Voir le fonctionnement de la boucle",
     ctaTitle: "Deux socles. Une seule image d exploitation.",
     ctaDescription: "Core lit l activite, Crew fait tourner les equipes. Chaque service planifie par Crew devient un signal que Core exploite.",
   },
@@ -156,6 +172,10 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     layersEyebrow: "SEIS CAPAS DE INTELIGENCIA",
     layersTitle: "Del turno a la sala directiva",
     layersDescription: "Cada capa cubre una dimension distinta del rendimiento del restaurante. Juntas forman un sistema de inteligencia en bucle cerrado.",
+    loopEyebrow: "El bucle que atraviesa las seis capas",
+    loopTitle: "Una capa que solo informa te deja el trabajo a ti.",
+    loopDescription: "El bucle de recuperacion de margen de Sundae corre por debajo de las seis capas. Toma lo que cualquier capa detecta, le asigna un unico responsable y congela la cifra contra la que se juzgara el trabajo antes de empezarlo. Lo que vuelve se mide - marcado como direccional hasta que lo confirma quien hizo el trabajo, y validado solo cuando un segundo revisor lo contrasta con evidencias.",
+    loopCta: "Ver como funciona el bucle",
     ctaTitle: "Dos sustratos. Una sola imagen operativa.",
     ctaDescription: "Benchmarking historico sin coste. Operaciones en tiempo real cuando necesites ventaja.",
   },
@@ -315,6 +335,20 @@ export default function ProductPage() {
               );
             })}
           </div>
+        </div>
+      </section>
+
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-y border-white/10">
+        <div className="max-w-4xl mx-auto text-center">
+          <FadeUp>
+            <p className="eyebrow mb-4">{ui.loopEyebrow}</p>
+            <h2 className="section-h2 text-white mb-5 text-balance">{ui.loopTitle}</h2>
+            <p className="body-lg text-white/70 mb-8">{ui.loopDescription}</p>
+            <Link href="/product/recovery">
+              <Button variant="outline-light" size="lg">{ui.loopCta}</Button>
+            </Link>
+          </FadeUp>
         </div>
       </section>
 

@@ -329,7 +329,7 @@ export const websiteMessages = {
       bookDemo: 'Book a Working Session',
       startFree: 'Get started',
       brandDescription:
-        'The decision intelligence platform for multi-location operators. See every layer. Act in time.',
+        'The decision intelligence platform for multi-location operators. Recover the profit. Prove what worked.',
       global: 'Global',
       allCurrencies: 'All currencies',
       sectionProduct: 'Product',
@@ -794,7 +794,7 @@ export const websiteMessages = {
       bookDemo: 'احجز جلسة عمل',
       startFree: 'ابدأ الآن',
       brandDescription:
-        'منصة الذكاء القراري لمشغّلي المواقع المتعددة. See every layer. Act in time.',
+        'منصة الذكاء القراري لمشغّلي المواقع المتعددة. استرجع الأرباح. وأثبت ما نجح.',
       global: 'عالمي',
       allCurrencies: 'كل العملات',
       sectionProduct: 'المنتج',
@@ -1239,7 +1239,7 @@ export const websiteMessages = {
       bookDemo: 'Réserver une session de travail',
       startFree: 'Commencer',
       brandDescription:
-        "La plateforme d'intelligence décisionnelle pour les opérateurs multi-sites. See every layer. Act in time.",
+        "La plateforme d'intelligence décisionnelle pour les opérateurs multi-sites. Récupérez la marge. Prouvez ce qui a marché.",
       global: 'Global',
       allCurrencies: 'Toutes les devises',
       sectionProduct: 'Produit',
@@ -1703,7 +1703,7 @@ export const websiteMessages = {
       bookDemo: 'Reservar una sesión de trabajo',
       startFree: 'Empezar',
       brandDescription:
-        'La plataforma de inteligencia de decisión para operadores multilocal. See every layer. Act in time.',
+        'La plataforma de inteligencia de decisión para operadores multilocal. Recupera el margen. Demuestra qué funcionó.',
       global: 'Global',
       allCurrencies: 'Todas las monedas',
       sectionProduct: 'Producto',

@@ -221,7 +221,7 @@ export default function BrandPage() {
                   className="font-display leading-none text-[var(--text-display)]"
                   style={{ fontSize: 68, fontVariationSettings: "'opsz' 144, 'SOFT' 90, 'WONK' 1" }}
                 >
-                  See every layer
+                  Recover the profit
                 </p>
                 <p className="mt-4 font-display text-2xl text-[var(--text-secondary)]">
                   Aa Bb Cc - 0123456789

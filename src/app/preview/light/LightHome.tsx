@@ -212,9 +212,9 @@ function Hero() {
             transition={{ duration: 0.8, ease: EASE, delay: 0.08 }}
             style={{ fontFamily: DISPLAY, fontWeight: 300, fontSize: 'clamp(46px,6.4vw,92px)', lineHeight: 0.96, letterSpacing: '-0.04em', color: L.ink, margin: '18px 0 0' }}
           >
-            See every layer.
+            Recover the profit.
             <span style={{ display: 'block', fontStyle: 'italic', fontWeight: 500, color: L.caramel, fontSize: 'clamp(30px,4.4vw,62px)', marginTop: '0.08em' }}>
-              Act in time.
+              Prove what worked.
             </span>
           </motion.h1>
           <motion.p
