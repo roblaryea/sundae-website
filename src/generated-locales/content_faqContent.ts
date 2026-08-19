@@ -13,7 +13,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Wie fange ich an?",
-            "content": "Sie haben zwei Möglichkeiten:\\n\\n1. **Preise ansehen** - Nutzen Sie den interaktiven Preisrechner auf pricing.sundae.io, um ein Core-Paket auf Ihre Standortzahl zuzuschneiden.\\n\\n2. **Demo buchen** - Vereinbaren Sie einen 15-minütigen Rundgang mit unserem Team und sehen Sie Sundae an Ihren eigenen Daten."
+            "content": "Sie haben zwei Möglichkeiten:\n\n1. **Preise ansehen** - Nutzen Sie den interaktiven Preisrechner auf pricing.sundae.io, um ein Core-Paket auf Ihre Standortzahl zuzuschneiden.\n\n2. **Demo buchen** - Vereinbaren Sie einen 15-minütigen Rundgang mit unserem Team und sehen Sie Sundae an Ihren eigenen Daten."
           },
           {
             "title": "Gibt es eine kostenlose Stufe?",
@@ -21,7 +21,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Worin unterscheiden sich die Core-Pakete?",
-            "content": "**Core Foundation** - die operative Grundlage: ein Entscheidungsfundament über POS, Personal, Kosten und Betrieb.\\n\\n**Core Margin** - Tiefe bei Kosten und Schwund: theoretischer vs. tatsächlicher Verbrauch, Abfall, Schwund, Stornos und Comps, Deckungsbeitrag je Artikel.\\n\\n**Core Growth** - Tiefe bei der Nachfrage: Gästekohorten und Lebenszeitwert, Promo-Attribution je Kanal, Liefermarge nach Provision.\\n\\n**Core Performance** - Konsolidierung über Marken und Regionen, modulübergreifende Korrelation, geregelter Zugriff mit Prüfpfaden.\\n\\nAlle vier tragen dieselben elf Domänenmodule. Was sich ändert, ist die Tiefe."
+            "content": "**Core Foundation** - die operative Grundlage: ein Entscheidungsfundament über POS, Personal, Kosten und Betrieb.\n\n**Core Margin** - Tiefe bei Kosten und Schwund: theoretischer vs. tatsächlicher Verbrauch, Abfall, Schwund, Stornos und Comps, Deckungsbeitrag je Artikel.\n\n**Core Growth** - Tiefe bei der Nachfrage: Gästekohorten und Lebenszeitwert, Promo-Attribution je Kanal, Liefermarge nach Provision.\n\n**Core Performance** - Konsolidierung über Marken und Regionen, modulübergreifende Korrelation, geregelter Zugriff mit Prüfpfaden.\n\nAlle vier tragen dieselben elf Domänenmodule. Was sich ändert, ist die Tiefe."
           },
           {
             "title": "Brauche ich einen langfristigen Vertrag?",
@@ -35,11 +35,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Welche Produkte bietet Sundae an?",
-            "content": "**Vier Hauptprodukte:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - das Entscheidungsfundament, mit allen elf Domänenmodulen\\n2. **Foresight & Action** - Prognosen, Szenariomodellierung und die Handlungsebene mit Freigabe im Ablauf\\n3. **Sundae Crew** - das Personalfundament: Dienstplanung, Zeiterfassung, Lohnbereitschaft, HR und People Intelligence\\n4. **Watchtower** - externe Marktintelligenz, zusammen mit Ihrem Core-Paket zugeschnitten\\n\\n**Dazu:** Konzept-SKUs für die Betriebsmodelle Ihrer Gruppe - Franchise, Hotel-F&B, Cloud Kitchen, Catering, Produktion, Mietküche."
+            "content": "**Vier Hauptprodukte:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - das Entscheidungsfundament, mit allen elf Domänenmodulen\n2. **Foresight & Action** - Prognosen, Szenariomodellierung und die Handlungsebene mit Freigabe im Ablauf\n3. **Sundae Crew** - das Personalfundament: Dienstplanung, Zeiterfassung, Lohnbereitschaft, HR und People Intelligence\n4. **Watchtower** - externe Marktintelligenz, zusammen mit Ihrem Core-Paket zugeschnitten\n\n**Dazu:** Konzept-SKUs für die Betriebsmodelle Ihrer Gruppe - Franchise, Hotel-F&B, Cloud Kitchen, Catering, Produktion, Mietküche."
           },
           {
             "title": "Welches Core-Paket soll ich wählen?",
-            "content": "**Core Foundation, wenn:**\\n• Sie Tabellen und unverbundene Dashboards ablösen\\n• Sie erst ein gemeinsames Betriebsbild wollen, bevor Sie tiefer gehen\\n\\n**Core Margin, wenn:**\\n• Wareneinsatz, Abfall, Stornos oder Comps Ihre Marge kosten\\n• Sie Deckungsbeitrag je Artikel brauchen, nicht nur den Umsatzmix\\n\\n**Core Growth, wenn:**\\n• Wiederkehrender Umsatz und Kanalmix die Engpässe sind\\n• Sie Gästekohorten, Promo-Attribution und Liefermarge brauchen\\n\\n**Core Performance, wenn:**\\n• Sie mehrere Marken oder Märkte führen\\n• Sie Konsolidierung, modulübergreifende Korrelation und geregelten Zugriff brauchen"
+            "content": "**Core Foundation, wenn:**\n• Sie Tabellen und unverbundene Dashboards ablösen\n• Sie erst ein gemeinsames Betriebsbild wollen, bevor Sie tiefer gehen\n\n**Core Margin, wenn:**\n• Wareneinsatz, Abfall, Stornos oder Comps Ihre Marge kosten\n• Sie Deckungsbeitrag je Artikel brauchen, nicht nur den Umsatzmix\n\n**Core Growth, wenn:**\n• Wiederkehrender Umsatz und Kanalmix die Engpässe sind\n• Sie Gästekohorten, Promo-Attribution und Liefermarge brauchen\n\n**Core Performance, wenn:**\n• Sie mehrere Marken oder Märkte führen\n• Sie Konsolidierung, modulübergreifende Korrelation und geregelten Zugriff brauchen"
           },
           {
             "title": "Kann ich später upgraden oder downgraden?",
@@ -47,7 +47,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Was ist das 4D-Intelligence-Modell?",
-            "content": "Der Rahmen von Sundae für Entscheidungsintelligenz:\\n\\n**1D: Was geschehen ist** - Umsatz, Personal und Kostenwahrheit\\n**2D: Plan gegen Ist** - Budget- und Prognoseabweichung\\n**3D: Marktkontext** - Benchmarks, Vergleichsgruppen und Wettbewerber\\n**4D: Was als Nächstes kommt** - Prognosen und Empfehlungen\\n\\nJedes Core-Paket deckt alle vier ab. Das Paket bestimmt, wie tief jede Dimension geht."
+            "content": "Der Rahmen von Sundae für Entscheidungsintelligenz:\n\n**1D: Was geschehen ist** - Umsatz, Personal und Kostenwahrheit\n**2D: Plan gegen Ist** - Budget- und Prognoseabweichung\n**3D: Marktkontext** - Benchmarks, Vergleichsgruppen und Wettbewerber\n**4D: Was als Nächstes kommt** - Prognosen und Empfehlungen\n\nJedes Core-Paket deckt alle vier ab. Das Paket bestimmt, wie tief jede Dimension geht."
           }
         ]
       },
@@ -57,7 +57,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Welche Daten braucht Sundae?",
-            "content": "**Für jedes Core-Paket:**\\n• POS-System über API\\n• Personal- oder Workforce-System\\n• Warenwirtschaft\\n• Marketingplattformen\\n• Reservierungssystem\\n\\nPOS allein genügt, um am ersten Tag Nutzen zu ziehen. Der Rest vertieft das Bild, sobald Sie ihn anbinden."
+            "content": "**Für jedes Core-Paket:**\n• POS-System über API\n• Personal- oder Workforce-System\n• Warenwirtschaft\n• Marketingplattformen\n• Reservierungssystem\n\nPOS allein genügt, um am ersten Tag Nutzen zu ziehen. Der Rest vertieft das Bild, sobald Sie ihn anbinden."
           },
           {
             "title": "Wie kommen meine Daten in Sundae?",
@@ -73,7 +73,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Wie lange dauert die Einführung?",
-            "content": "Die meisten Gruppen sind in 1-2 Wochen live. Größere Roll-outs über mehrere Marken oder Regionen laufen je nach Umfang 2-4 Wochen.\\n\\nDie Einführung ist eine einmalige Gebühr, berechnet einmalig nach der höchsten Klasse in Ihrer Auswahl - von Self-Service ohne Kosten bis zu einem abgestimmten Class-D-Einsatz."
+            "content": "Die meisten Gruppen sind in 1-2 Wochen live. Größere Roll-outs über mehrere Marken oder Regionen laufen je nach Umfang 2-4 Wochen.\n\nDie Einführung ist eine einmalige Gebühr, berechnet einmalig nach der höchsten Klasse in Ihrer Auswahl - von Self-Service ohne Kosten bis zu einem abgestimmten Class-D-Einsatz."
           },
           {
             "title": "Was passiert mit meinen Daten, wenn ich kündige?",
@@ -85,12 +85,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Was sind Module?",
+            "content": "Die elf Domänenmodule sind die Analyseflächen innerhalb von Core. Sie sind Bestandteile des Pakets, keine separat gekauften Zusätze:\n\n{{DOMAIN_MODULE_LINES}}\n\nSie setzen Core voraus, weil sie auf live verbundene Betriebsdaten angewiesen sind."
+          },
+          {
+            "title": "Brauche ich Module?",
+            "content": "Sie sind nicht optional und sie sind keine getrennten Käufe. Alle elf Domänenmodule sind in jedem Core-Paket enthalten.\n\nSie wählen das Paket, und das Paket bestimmt, wie tief jedes Modul geht."
+          },
+          {
+            "title": "Kann ich ein einzelnes Modul kaufen?",
+            "content": "Nein. Die elf Domänenmodule sind Bestandteile eines Core-Pakets, keine eigenständigen Produkte, und es gibt keinen Preis je Modul. Der Weg zu allen führt über die Paketwahl."
+          },
+          {
+            "title": "Füge ich Module nach und nach hinzu?",
+            "content": "Nein. Es gibt nichts hinzuzufügen. Jedes Core-Paket trägt vom ersten Tag an alle elf Domänenmodule - das gewählte Paket bestimmt nur, wie tief jedes davon geht."
+          },
+          {
+            "title": "Welches Modul sollte ich zuerst ansehen?",
+            "content": "Alle sind bereits aktiv, es geht also darum, wo Sie zuerst hinschauen, nicht was Sie kaufen. Beginnen Sie beim größten operativen Schmerzpunkt:\n\n• Hohe Personalkosten -> Labor Intelligence\n• Abfall oder Bestandsprobleme -> Inventory Intelligence\n• Schwache Lieferantenhebel -> Purchasing Intelligence\n• Unklarer Marketing-ROI -> Marketing Intelligence\n• Reservierungs-No-Shows -> Reservations Intelligence"
+          },
+          {
+            "title": "Wie funktioniert die Modulpreisgestaltung?",
+            "content": "Es gibt keine Modulpreise. Module haben weder einen eigenständigen Preis noch ein eigenes Standortkontingent - gekauft wird das Paket.\n\nEin Core-Paket wird ab Ihrem ersten Standort berechnet, danach zu einem Grenzpreis je weiterem Standort, der mit dem Wachstum sinkt. {{WORKED_EXAMPLE}}\n\nNutzen Sie pricing.sundae.io für die genaue Rechnung."
+          }
         ]
       },
       {
@@ -113,7 +131,10 @@ export const generatedLocalCopy = {
             "title": "Kann ich nur eine Watchtower-Komponente verwenden?",
             "content": "Ja. Sie können Wettbewerbsintelligenz, Ereignisintelligenz oder Marktintelligenz einzeln kaufen oder kombinieren."
           },
-          {}
+          {
+            "title": "Setzt Watchtower Core voraus?",
+            "content": "Ja. Watchtower entfaltet seinen Nutzen, wenn seine Marktsignale auf live Betriebsdaten gelegt werden - genau das liefert ein Core-Paket. Es wird zusammen mit Ihrem Paket zugeschnitten und angeboten, nicht einzeln verkauft."
+          }
         ]
       },
       {
@@ -263,7 +284,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Comment démarrer ?",
-            "content": "Vous avez deux options :\\n\\n1. **Voir vos tarifs** - Utilisez le calculateur interactif sur pricing.sundae.io pour dimensionner une offre Core selon votre nombre de sites.\\n\\n2. **Réserver une démo** - Planifiez une présentation de 15 minutes avec notre équipe et voyez Sundae tourner sur vos données."
+            "content": "Vous avez deux options :\n\n1. **Voir vos tarifs** - Utilisez le calculateur interactif sur pricing.sundae.io pour dimensionner une offre Core selon votre nombre de sites.\n\n2. **Réserver une démo** - Planifiez une présentation de 15 minutes avec notre équipe et voyez Sundae tourner sur vos données."
           },
           {
             "title": "Existe-t-il une offre gratuite ?",
@@ -271,7 +292,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Quelle est la différence entre les offres Core ?",
-            "content": "**Core Foundation** - la base opérationnelle : un socle de décision sur le POS, le personnel, les coûts et l'exploitation.\\n\\n**Core Margin** - la profondeur sur les coûts et les fuites : consommation théorique et réelle, gaspillage, démarque, annulations et offerts, contribution par article.\\n\\n**Core Growth** - la profondeur sur la demande : cohortes de clients et valeur à vie, attribution des promotions par canal, marge de livraison après commission.\\n\\n**Core Performance** - consolidation multi-marques et multi-régions, corrélation entre modules, accès gouverné avec pistes d'audit.\\n\\nLes quatre embarquent les mêmes onze modules métier. Ce qui change, c'est la profondeur."
+            "content": "**Core Foundation** - la base opérationnelle : un socle de décision sur le POS, le personnel, les coûts et l'exploitation.\n\n**Core Margin** - la profondeur sur les coûts et les fuites : consommation théorique et réelle, gaspillage, démarque, annulations et offerts, contribution par article.\n\n**Core Growth** - la profondeur sur la demande : cohortes de clients et valeur à vie, attribution des promotions par canal, marge de livraison après commission.\n\n**Core Performance** - consolidation multi-marques et multi-régions, corrélation entre modules, accès gouverné avec pistes d'audit.\n\nLes quatre embarquent les mêmes onze modules métier. Ce qui change, c'est la profondeur."
           },
           {
             "title": "Faut-il un engagement de longue durée ?",
@@ -285,11 +306,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quels produits Sundae propose-t-il ?",
-            "content": "**Quatre produits principaux :**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - le socle de décision, qui embarque les onze modules métier\\n2. **Foresight & Action** - prévision, modélisation de scénarios et la couche d'action avec validation humaine\\n3. **Sundae Crew** - le socle des équipes : planning, pointage, préparation de la paie, RH et people intelligence\\n4. **Watchtower** - l'intelligence de marché externe, cadrée avec votre offre Core\\n\\n**En plus :** des SKU de concept pour les modèles d'exploitation de votre groupe - franchise, F&B hôtelier, cuisine virtuelle, traiteur, production, commissary en location."
+            "content": "**Quatre produits principaux :**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - le socle de décision, qui embarque les onze modules métier\n2. **Foresight & Action** - prévision, modélisation de scénarios et la couche d'action avec validation humaine\n3. **Sundae Crew** - le socle des équipes : planning, pointage, préparation de la paie, RH et people intelligence\n4. **Watchtower** - l'intelligence de marché externe, cadrée avec votre offre Core\n\n**En plus :** des SKU de concept pour les modèles d'exploitation de votre groupe - franchise, F&B hôtelier, cuisine virtuelle, traiteur, production, commissary en location."
           },
           {
             "title": "Quelle offre Core choisir ?",
-            "content": "**Core Foundation si :**\\n• Vous sortez des tableurs et des tableaux de bord déconnectés\\n• Vous voulez une image d'exploitation unique avant d'aller plus loin\\n\\n**Core Margin si :**\\n• Le coût matière, le gaspillage, les annulations ou les offerts absorbent votre marge\\n• Il vous faut la contribution par article, pas seulement le mix de ventes\\n\\n**Core Growth si :**\\n• Le revenu récurrent et le mix de canaux sont la contrainte\\n• Il vous faut les cohortes clients, l'attribution des promotions et la marge de livraison\\n\\n**Core Performance si :**\\n• Vous exploitez plusieurs marques ou plusieurs marchés\\n• Il vous faut la consolidation, la corrélation entre modules et un accès gouverné"
+            "content": "**Core Foundation si :**\n• Vous sortez des tableurs et des tableaux de bord déconnectés\n• Vous voulez une image d'exploitation unique avant d'aller plus loin\n\n**Core Margin si :**\n• Le coût matière, le gaspillage, les annulations ou les offerts absorbent votre marge\n• Il vous faut la contribution par article, pas seulement le mix de ventes\n\n**Core Growth si :**\n• Le revenu récurrent et le mix de canaux sont la contrainte\n• Il vous faut les cohortes clients, l'attribution des promotions et la marge de livraison\n\n**Core Performance si :**\n• Vous exploitez plusieurs marques ou plusieurs marchés\n• Il vous faut la consolidation, la corrélation entre modules et un accès gouverné"
           },
           {
             "title": "Puis-je passer à un autre niveau plus tard ?",
@@ -297,7 +318,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Qu'est-ce que le modèle 4D Intelligence ?",
-            "content": "Le cadre de Sundae pour l'intelligence décisionnelle :\\n\\n**1D : ce qui s'est passé** - la vérité sur les ventes, le personnel et les coûts\\n**2D : plan contre réel** - écarts au budget et à la prévision\\n**3D : contexte de marché** - benchmarks, pairs et concurrents\\n**4D : ce qui vient** - prédictions et recommandations\\n\\nChaque offre Core couvre les quatre. L'offre détermine la profondeur de chaque dimension."
+            "content": "Le cadre de Sundae pour l'intelligence décisionnelle :\n\n**1D : ce qui s'est passé** - la vérité sur les ventes, le personnel et les coûts\n**2D : plan contre réel** - écarts au budget et à la prévision\n**3D : contexte de marché** - benchmarks, pairs et concurrents\n**4D : ce qui vient** - prédictions et recommandations\n\nChaque offre Core couvre les quatre. L'offre détermine la profondeur de chaque dimension."
           }
         ]
       },
@@ -307,7 +328,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "De quelles données Sundae a-t-il besoin ?",
-            "content": "**Pour chaque offre Core :**\\n• Système POS via API\\n• Système de personnel ou de planning\\n• Système de stocks\\n• Plateformes marketing\\n• Système de réservation\\n\\nLe POS seul suffit à créer de la valeur dès le premier jour. Le reste enrichit l'image à mesure que vous le connectez."
+            "content": "**Pour chaque offre Core :**\n• Système POS via API\n• Système de personnel ou de planning\n• Système de stocks\n• Plateformes marketing\n• Système de réservation\n\nLe POS seul suffit à créer de la valeur dès le premier jour. Le reste enrichit l'image à mesure que vous le connectez."
           },
           {
             "title": "Comment mes données arrivent-elles dans Sundae ?",
@@ -323,7 +344,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Combien de temps prend la mise en place ?",
-            "content": "La plupart des groupes sont en production en 1 à 2 semaines. Les déploiements plus larges, multi-marques ou multi-régions, prennent 2 à 4 semaines selon le périmètre.\\n\\nLa mise en place est un frais unique, facturé une seule fois au niveau le plus élevé de votre sélection - du self-service gratuit jusqu'à un accompagnement Class D cadré."
+            "content": "La plupart des groupes sont en production en 1 à 2 semaines. Les déploiements plus larges, multi-marques ou multi-régions, prennent 2 à 4 semaines selon le périmètre.\n\nLa mise en place est un frais unique, facturé une seule fois au niveau le plus élevé de votre sélection - du self-service gratuit jusqu'à un accompagnement Class D cadré."
           },
           {
             "title": "Que se passe-t-il avec mes données si j'annule ?",
@@ -335,12 +356,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Que sont les modules ?",
+            "content": "Les onze modules métier sont les surfaces d'analyse à l'intérieur de Core. Ce sont des composants de l'offre, pas des options achetées à côté :\n\n{{DOMAIN_MODULE_LINES}}\n\nIls nécessitent Core parce qu'ils dépendent de données d'exploitation connectées en direct."
+          },
+          {
+            "title": "Ai-je besoin de modules ?",
+            "content": "Ils ne sont ni optionnels ni vendus séparément. Les onze modules métier sont livrés avec chaque offre Core.\n\nCe que vous choisissez, c'est l'offre, et l'offre détermine la profondeur de chaque module."
+          },
+          {
+            "title": "Puis-je acheter un seul module ?",
+            "content": "Non. Les onze modules métier sont des composants d'une offre Core, pas des produits autonomes, et il n'existe pas de prix au module. C'est le choix de l'offre qui vous les donne tous."
+          },
+          {
+            "title": "Dois-je ajouter les modules un par un ?",
+            "content": "Non. Il n'y a rien à ajouter. Chaque offre Core embarque les onze modules métier dès le premier jour - l'offre choisie détermine seulement la profondeur de chacun."
+          },
+          {
+            "title": "Par quel module commencer ?",
+            "content": "Ils sont déjà tous activés : la question est de savoir par où regarder, pas quoi acheter. Commencez par le point de douleur opérationnel le plus fort :\n\n• Coût de main-d'œuvre élevé -> Labor Intelligence\n• Gaspillage ou problèmes de stock -> Inventory Intelligence\n• Faible levier fournisseur -> Purchasing Intelligence\n• ROI marketing flou -> Marketing Intelligence\n• No-shows sur les réservations -> Reservations Intelligence"
+          },
+          {
+            "title": "Comment fonctionne la tarification des modules ?",
+            "content": "Il n'y a pas de tarification par module. Les modules n'ont ni prix autonome ni quota de sites propre - ce que vous achetez, c'est l'offre.\n\nUne offre Core est facturée à partir de votre premier site, puis à un tarif marginal par site supplémentaire, qui décroît à mesure que vous grandissez. {{WORKED_EXAMPLE}}\n\nUtilisez pricing.sundae.io pour le calcul exact."
+          }
         ]
       },
       {
@@ -363,7 +402,10 @@ export const generatedLocalCopy = {
             "title": "Puis-je utiliser uniquement un composant de Watchtower ?",
             "content": "Oui. Vous pouvez acheter l'Intelligence Concurrentielle, l'Intelligence Événementielle ou l'Intelligence de Marché individuellement, ou les combiner."
           },
-          {}
+          {
+            "title": "Watchtower nécessite-t-il Core ?",
+            "content": "Oui. Watchtower donne sa pleine valeur quand ses signaux de marché se posent sur des données d'exploitation en direct, ce que fournit une offre Core. Il est cadré et chiffré avec votre offre plutôt que vendu seul."
+          }
         ]
       },
       {
@@ -490,7 +532,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "¿Cómo empiezo?",
-            "content": "Tienes dos opciones:\\n\\n1. **Ver tu precio** - Usa la calculadora interactiva en pricing.sundae.io para dimensionar un paquete Core según tu número de locales.\\n\\n2. **Reservar una demo** - Agenda un recorrido de 15 minutos con nuestro equipo y ve Sundae funcionando con tus datos."
+            "content": "Tienes dos opciones:\n\n1. **Ver tu precio** - Usa la calculadora interactiva en pricing.sundae.io para dimensionar un paquete Core según tu número de locales.\n\n2. **Reservar una demo** - Agenda un recorrido de 15 minutos con nuestro equipo y ve Sundae funcionando con tus datos."
           },
           {
             "title": "¿Hay un plan gratuito?",
@@ -498,7 +540,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "¿En qué se diferencian los paquetes Core?",
-            "content": "**Core Foundation** - la base operativa: un sustrato de decisión sobre POS, personal, coste y operación.\\n\\n**Core Margin** - profundidad en coste y fugas: consumo teórico frente a real, merma, pérdida desconocida, anulaciones e invitaciones, contribución por artículo.\\n\\n**Core Growth** - profundidad en demanda: cohortes de clientes y valor de vida, atribución de promociones por canal, margen de delivery tras comisión.\\n\\n**Core Performance** - consolidación multimarca y multirregión, correlación entre módulos, acceso gobernado con pistas de auditoría.\\n\\nLos cuatro llevan los mismos once módulos de dominio. Lo que cambia es la profundidad."
+            "content": "**Core Foundation** - la base operativa: un sustrato de decisión sobre POS, personal, coste y operación.\n\n**Core Margin** - profundidad en coste y fugas: consumo teórico frente a real, merma, pérdida desconocida, anulaciones e invitaciones, contribución por artículo.\n\n**Core Growth** - profundidad en demanda: cohortes de clientes y valor de vida, atribución de promociones por canal, margen de delivery tras comisión.\n\n**Core Performance** - consolidación multimarca y multirregión, correlación entre módulos, acceso gobernado con pistas de auditoría.\n\nLos cuatro llevan los mismos once módulos de dominio. Lo que cambia es la profundidad."
           },
           {
             "title": "¿Necesito un contrato de larga duración?",
@@ -512,11 +554,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Qué productos ofrece Sundae?",
-            "content": "**Cuatro productos principales:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - el sustrato de decisión, que lleva los once módulos de dominio\\n2. **Foresight & Action** - pronóstico, modelado de escenarios y la capa de acción con aprobación humana\\n3. **Sundae Crew** - el sustrato de personal: turnos, control horario, preparación de nóminas, RR. HH. y people intelligence\\n4. **Watchtower** - inteligencia de mercado externa, dimensionada junto a tu paquete Core\\n\\n**Además:** SKU de concepto para los modelos operativos de tu grupo - franquicia, F&B hotelero, cocina virtual, catering, producción, obrador en alquiler."
+            "content": "**Cuatro productos principales:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - el sustrato de decisión, que lleva los once módulos de dominio\n2. **Foresight & Action** - pronóstico, modelado de escenarios y la capa de acción con aprobación humana\n3. **Sundae Crew** - el sustrato de personal: turnos, control horario, preparación de nóminas, RR. HH. y people intelligence\n4. **Watchtower** - inteligencia de mercado externa, dimensionada junto a tu paquete Core\n\n**Además:** SKU de concepto para los modelos operativos de tu grupo - franquicia, F&B hotelero, cocina virtual, catering, producción, obrador en alquiler."
           },
           {
             "title": "¿Qué paquete Core debo elegir?",
-            "content": "**Core Foundation si:**\\n• Estás saliendo de hojas de cálculo y paneles desconectados\\n• Quieres una imagen operativa única antes de profundizar\\n\\n**Core Margin si:**\\n• El coste de materia, la merma, las anulaciones o las invitaciones se llevan tu margen\\n• Necesitas contribución por artículo, no solo mix de ventas\\n\\n**Core Growth si:**\\n• El ingreso recurrente y el mix de canales son la restricción\\n• Necesitas cohortes de clientes, atribución de promociones y margen de delivery\\n\\n**Core Performance si:**\\n• Operas varias marcas o varios mercados\\n• Necesitas consolidación, correlación entre módulos y acceso gobernado"
+            "content": "**Core Foundation si:**\n• Estás saliendo de hojas de cálculo y paneles desconectados\n• Quieres una imagen operativa única antes de profundizar\n\n**Core Margin si:**\n• El coste de materia, la merma, las anulaciones o las invitaciones se llevan tu margen\n• Necesitas contribución por artículo, no solo mix de ventas\n\n**Core Growth si:**\n• El ingreso recurrente y el mix de canales son la restricción\n• Necesitas cohortes de clientes, atribución de promociones y margen de delivery\n\n**Core Performance si:**\n• Operas varias marcas o varios mercados\n• Necesitas consolidación, correlación entre módulos y acceso gobernado"
           },
           {
             "title": "¿Puedo actualizar o degradar más tarde?",
@@ -524,7 +566,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "¿Qué es el modelo 4D Intelligence?",
-            "content": "El marco de Sundae para la inteligencia de decisión:\\n\\n**1D: qué pasó** - la verdad de ventas, personal y coste\\n**2D: plan frente a real** - desviación de presupuesto y de pronóstico\\n**3D: contexto de mercado** - benchmarks, pares y competidores\\n**4D: qué viene** - pronósticos y recomendaciones\\n\\nCada paquete Core cubre los cuatro. El paquete marca cuánto profundiza cada dimensión."
+            "content": "El marco de Sundae para la inteligencia de decisión:\n\n**1D: qué pasó** - la verdad de ventas, personal y coste\n**2D: plan frente a real** - desviación de presupuesto y de pronóstico\n**3D: contexto de mercado** - benchmarks, pares y competidores\n**4D: qué viene** - pronósticos y recomendaciones\n\nCada paquete Core cubre los cuatro. El paquete marca cuánto profundiza cada dimensión."
           }
         ]
       },
@@ -534,7 +576,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Qué datos necesita Sundae?",
-            "content": "**Para cualquier paquete Core:**\\n• Sistema POS vía API\\n• Sistema de personal o turnos\\n• Sistema de inventario\\n• Plataformas de marketing\\n• Sistema de reservas\\n\\nCon el POS solo ya obtienes valor el primer día. El resto profundiza la imagen a medida que lo conectas."
+            "content": "**Para cualquier paquete Core:**\n• Sistema POS vía API\n• Sistema de personal o turnos\n• Sistema de inventario\n• Plataformas de marketing\n• Sistema de reservas\n\nCon el POS solo ya obtienes valor el primer día. El resto profundiza la imagen a medida que lo conectas."
           },
           {
             "title": "¿Cómo llegan mis datos a Sundae?",
@@ -550,7 +592,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "¿Cuánto tarda la implantación?",
-            "content": "La mayoría de los grupos están en producción en 1-2 semanas. Los despliegues mayores, multimarca o multirregión, llevan de 2 a 4 semanas según el alcance.\\n\\nLa implantación es una tarifa única, cobrada una sola vez según la clase más alta de tu selección - desde autoservicio sin coste hasta un acompañamiento Class D acotado."
+            "content": "La mayoría de los grupos están en producción en 1-2 semanas. Los despliegues mayores, multimarca o multirregión, llevan de 2 a 4 semanas según el alcance.\n\nLa implantación es una tarifa única, cobrada una sola vez según la clase más alta de tu selección - desde autoservicio sin coste hasta un acompañamiento Class D acotado."
           },
           {
             "title": "¿Qué pasa con mis datos si cancelo?",
@@ -562,12 +604,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "¿Qué son los módulos?",
+            "content": "Los once módulos de dominio son las superficies analíticas dentro de Core. Son componentes del paquete, no complementos que se compran aparte:\n\n{{DOMAIN_MODULE_LINES}}\n\nRequieren Core porque dependen de datos operativos conectados en vivo."
+          },
+          {
+            "title": "¿Necesito módulos?",
+            "content": "No son opcionales ni son compras separadas. Los once módulos de dominio vienen con cada paquete Core.\n\nLo que eliges es el paquete, y el paquete marca cuánto profundiza cada módulo."
+          },
+          {
+            "title": "¿Puedo comprar un solo módulo?",
+            "content": "No. Los once módulos de dominio son componentes de un paquete Core, no productos independientes, y no hay precio por módulo. Elegir un paquete es la forma de tenerlos todos."
+          },
+          {
+            "title": "¿Los módulos se añaden de uno en uno?",
+            "content": "No. No hay nada que añadir. Cada paquete Core lleva los once módulos de dominio desde el primer día; el paquete que elijas solo marca cuánto profundiza cada uno."
+          },
+          {
+            "title": "¿Por qué módulo debería empezar?",
+            "content": "Ya están todos activos, así que se trata de por dónde empezar a mirar, no de qué comprar. Empieza por el mayor dolor operativo:\n\n• Coste laboral alto -> Labor Intelligence\n• Merma o problemas de stock -> Inventory Intelligence\n• Poca palanca con proveedores -> Purchasing Intelligence\n• ROI de marketing poco claro -> Marketing Intelligence\n• No-shows en reservas -> Reservations Intelligence"
+          },
+          {
+            "title": "¿Cómo funciona el precio de los módulos?",
+            "content": "No hay precio de módulos. Los módulos no tienen precio propio ni asignación de locales propia: lo que compras es el paquete.\n\nUn paquete Core se cobra desde tu primer local y luego a una tarifa marginal por cada local adicional, que baja a medida que creces. {{WORKED_EXAMPLE}}\n\nUsa pricing.sundae.io para el cálculo exacto."
+          }
         ]
       },
       {
@@ -590,7 +650,10 @@ export const generatedLocalCopy = {
             "title": "¿Puedo usar solo un componente de Watchtower?",
             "content": "Sí. Puedes comprar Inteligencia Competitiva, Inteligencia de Eventos o Inteligencia de Mercado de forma individual, o combinarlas."
           },
-          {}
+          {
+            "title": "¿Watchtower requiere Core?",
+            "content": "Sí. Watchtower rinde mejor cuando sus señales de mercado se apoyan en datos operativos en vivo, que es lo que aporta un paquete Core. Se dimensiona y cotiza junto a tu paquete en lugar de venderse por separado."
+          }
         ]
       },
       {
@@ -717,7 +780,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Hoe begin ik?",
-            "content": "Je hebt twee opties:\\n\\n1. **Bekijk je prijs** - Gebruik de interactieve prijscalculator op pricing.sundae.io om een Core-pakket op je aantal vestigingen te schalen.\\n\\n2. **Boek een demo** - Plan een rondleiding van 15 minuten met ons team en zie Sundae draaien op je eigen data."
+            "content": "Je hebt twee opties:\n\n1. **Bekijk je prijs** - Gebruik de interactieve prijscalculator op pricing.sundae.io om een Core-pakket op je aantal vestigingen te schalen.\n\n2. **Boek een demo** - Plan een rondleiding van 15 minuten met ons team en zie Sundae draaien op je eigen data."
           },
           {
             "title": "Is er een gratis versie?",
@@ -725,7 +788,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Wat is het verschil tussen de Core-pakketten?",
-            "content": "**Core Foundation** - de operationele basis: één beslissingsfundament over POS, personeel, kosten en operatie.\\n\\n**Core Margin** - diepgang op kosten en lekkage: theoretisch versus werkelijk verbruik, verspilling, derving, annuleringen en weggevers, bijdrage per artikel.\\n\\n**Core Growth** - diepgang op vraag: gastcohorten en levenslange waarde, promotie-attributie per kanaal, bezorgmarge na commissie.\\n\\n**Core Performance** - consolidatie over merken en regio's, correlatie tussen modules, beheerste toegang met audit trails.\\n\\nAlle vier dragen dezelfde elf domeinmodules. Wat verandert is de diepgang."
+            "content": "**Core Foundation** - de operationele basis: één beslissingsfundament over POS, personeel, kosten en operatie.\n\n**Core Margin** - diepgang op kosten en lekkage: theoretisch versus werkelijk verbruik, verspilling, derving, annuleringen en weggevers, bijdrage per artikel.\n\n**Core Growth** - diepgang op vraag: gastcohorten en levenslange waarde, promotie-attributie per kanaal, bezorgmarge na commissie.\n\n**Core Performance** - consolidatie over merken en regio's, correlatie tussen modules, beheerste toegang met audit trails.\n\nAlle vier dragen dezelfde elf domeinmodules. Wat verandert is de diepgang."
           },
           {
             "title": "Heb ik een langlopend contract nodig?",
@@ -739,11 +802,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Welke producten biedt Sundae?",
-            "content": "**Vier hoofdproducten:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - het beslissingsfundament, met alle elf domeinmodules\\n2. **Foresight & Action** - prognoses, scenariomodellen en de actielaag met goedkeuring in de lus\\n3. **Sundae Crew** - het personeelsfundament: roosters, tijdregistratie, loonvoorbereiding, HR en people intelligence\\n4. **Watchtower** - externe marktintelligentie, afgestemd naast je Core-pakket\\n\\n**Daarnaast:** concept-SKU's voor de bedrijfsmodellen van je groep - franchise, hotel-F&B, cloud kitchen, catering, productie, verhuurcommissary."
+            "content": "**Vier hoofdproducten:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - het beslissingsfundament, met alle elf domeinmodules\n2. **Foresight & Action** - prognoses, scenariomodellen en de actielaag met goedkeuring in de lus\n3. **Sundae Crew** - het personeelsfundament: roosters, tijdregistratie, loonvoorbereiding, HR en people intelligence\n4. **Watchtower** - externe marktintelligentie, afgestemd naast je Core-pakket\n\n**Daarnaast:** concept-SKU's voor de bedrijfsmodellen van je groep - franchise, hotel-F&B, cloud kitchen, catering, productie, verhuurcommissary."
           },
           {
             "title": "Welk Core-pakket moet ik kiezen?",
-            "content": "**Core Foundation als:**\\n• Je weg wilt van spreadsheets en losse dashboards\\n• Je eerst één operationeel beeld wilt voordat je dieper gaat\\n\\n**Core Margin als:**\\n• Inkoopkosten, verspilling, annuleringen of weggevers je marge opeten\\n• Je bijdrage per artikel nodig hebt, niet alleen de verkoopmix\\n\\n**Core Growth als:**\\n• Herhaalomzet en kanaalmix de beperking zijn\\n• Je gastcohorten, promotie-attributie en bezorgmarge nodig hebt\\n\\n**Core Performance als:**\\n• Je meerdere merken of markten draait\\n• Je consolidatie, correlatie tussen modules en beheerste toegang nodig hebt"
+            "content": "**Core Foundation als:**\n• Je weg wilt van spreadsheets en losse dashboards\n• Je eerst één operationeel beeld wilt voordat je dieper gaat\n\n**Core Margin als:**\n• Inkoopkosten, verspilling, annuleringen of weggevers je marge opeten\n• Je bijdrage per artikel nodig hebt, niet alleen de verkoopmix\n\n**Core Growth als:**\n• Herhaalomzet en kanaalmix de beperking zijn\n• Je gastcohorten, promotie-attributie en bezorgmarge nodig hebt\n\n**Core Performance als:**\n• Je meerdere merken of markten draait\n• Je consolidatie, correlatie tussen modules en beheerste toegang nodig hebt"
           },
           {
             "title": "Kan ik later upgraden of downgraden?",
@@ -751,7 +814,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Wat is het 4D Intelligence-model?",
-            "content": "Sundae's kader voor beslissingsintelligentie:\\n\\n**1D: wat er gebeurde** - de waarheid over omzet, personeel en kosten\\n**2D: plan versus werkelijk** - budget- en prognoseafwijking\\n**3D: marktcontext** - benchmarks, vergelijkbare bedrijven en concurrenten\\n**4D: wat er komt** - voorspellingen en aanbevelingen\\n\\nElk Core-pakket dekt alle vier. Het pakket bepaalt hoe diep elke dimensie gaat."
+            "content": "Sundae's kader voor beslissingsintelligentie:\n\n**1D: wat er gebeurde** - de waarheid over omzet, personeel en kosten\n**2D: plan versus werkelijk** - budget- en prognoseafwijking\n**3D: marktcontext** - benchmarks, vergelijkbare bedrijven en concurrenten\n**4D: wat er komt** - voorspellingen en aanbevelingen\n\nElk Core-pakket dekt alle vier. Het pakket bepaalt hoe diep elke dimensie gaat."
           }
         ]
       },
@@ -761,7 +824,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Welke data heeft Sundae nodig?",
-            "content": "**Voor elk Core-pakket:**\\n• POS-systeem via API\\n• Personeels- of workforcesysteem\\n• Voorraadsysteem\\n• Marketingplatforms\\n• Reserveringssysteem\\n\\nAlleen de POS is al genoeg om op dag één waarde te halen. De rest verdiept het beeld zodra je het koppelt."
+            "content": "**Voor elk Core-pakket:**\n• POS-systeem via API\n• Personeels- of workforcesysteem\n• Voorraadsysteem\n• Marketingplatforms\n• Reserveringssysteem\n\nAlleen de POS is al genoeg om op dag één waarde te halen. De rest verdiept het beeld zodra je het koppelt."
           },
           {
             "title": "Hoe krijg ik mijn data in Sundae?",
@@ -777,7 +840,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Hoe lang duurt de implementatie?",
-            "content": "De meeste groepen zijn binnen 1-2 weken live. Grotere uitrollen over meerdere merken of regio's duren 2-4 weken, afhankelijk van de scope.\\n\\nDe implementatie is een eenmalig bedrag, één keer berekend op de hoogste klasse in je selectie - van kosteloze self-service tot een afgebakend Class D-traject."
+            "content": "De meeste groepen zijn binnen 1-2 weken live. Grotere uitrollen over meerdere merken of regio's duren 2-4 weken, afhankelijk van de scope.\n\nDe implementatie is een eenmalig bedrag, één keer berekend op de hoogste klasse in je selectie - van kosteloze self-service tot een afgebakend Class D-traject."
           },
           {
             "title": "Wat gebeurt er met mijn gegevens als ik annuleer?",
@@ -789,12 +852,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Wat zijn modules?",
+            "content": "De elf domeinmodules zijn de analysevlakken binnen Core. Het zijn onderdelen van het pakket, geen los gekochte extra's:\n\n{{DOMAIN_MODULE_LINES}}\n\nZe vereisen Core omdat ze afhankelijk zijn van live gekoppelde operationele data."
+          },
+          {
+            "title": "Heb ik modules nodig?",
+            "content": "Ze zijn niet optioneel en het zijn geen aparte aankopen. Alle elf domeinmodules zitten in elk Core-pakket.\n\nWat je kiest is het pakket, en het pakket bepaalt hoe diep elke module gaat."
+          },
+          {
+            "title": "Kan ik één losse module kopen?",
+            "content": "Nee. De elf domeinmodules zijn onderdelen van een Core-pakket, geen zelfstandige producten, en er is geen prijs per module. Een pakket kiezen is hoe je ze allemaal krijgt."
+          },
+          {
+            "title": "Voeg ik modules één voor één toe?",
+            "content": "Nee. Er valt niets toe te voegen. Elk Core-pakket draagt vanaf dag één alle elf domeinmodules - het pakket dat je kiest bepaalt alleen hoe diep elke module gaat."
+          },
+          {
+            "title": "Naar welke module moet ik eerst kijken?",
+            "content": "Ze staan allemaal al aan, dus het gaat om waar je begint te kijken, niet om wat je koopt. Begin bij de grootste operationele pijn:\n\n• Hoge personeelskosten -> Labor Intelligence\n• Verspilling of voorraadproblemen -> Inventory Intelligence\n• Weinig leverancierskracht -> Purchasing Intelligence\n• Onduidelijke marketing-ROI -> Marketing Intelligence\n• No-shows bij reserveringen -> Reservations Intelligence"
+          },
+          {
+            "title": "Hoe werkt de prijsstelling van modules?",
+            "content": "Er is geen moduleprijs. Modules hebben geen zelfstandige prijs en geen eigen vestigingstegoed - wat je koopt is het pakket.\n\nEen Core-pakket wordt berekend vanaf je eerste vestiging, daarna tegen een marginaal tarief per extra vestiging dat daalt naarmate je groeit. {{WORKED_EXAMPLE}}\n\nGebruik pricing.sundae.io voor de exacte berekening."
+          }
         ]
       },
       {
@@ -817,7 +898,10 @@ export const generatedLocalCopy = {
             "title": "Kan ik slechts één component van Watchtower gebruiken?",
             "content": "Ja. Je kunt Concurrentie-informatie, Evenementeninformatie of Marktinformatie afzonderlijk kopen, of ze combineren."
           },
-          {}
+          {
+            "title": "Vereist Watchtower Core?",
+            "content": "Ja. Watchtower komt het best tot zijn recht wanneer de marktsignalen op live operationele data worden gelegd, en dat is precies wat een Core-pakket levert. Het wordt samen met je pakket afgebakend en geoffreerd, niet los verkocht."
+          }
         ]
       },
       {
@@ -967,7 +1051,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "كيف أبدأ؟",
-            "content": "أمامك خياران:\\n\\n1. **اطّلع على أسعارك** - استخدم حاسبة الأسعار التفاعلية على pricing.sundae.io لتحديد باقة Core المناسبة لعدد مواقعك.\\n\\n2. **احجز عرضاً** - رتّب جولة مدتها 15 دقيقة مع فريقنا لترى Sundae يعمل على بياناتك."
+            "content": "أمامك خياران:\n\n1. **اطّلع على أسعارك** - استخدم حاسبة الأسعار التفاعلية على pricing.sundae.io لتحديد باقة Core المناسبة لعدد مواقعك.\n\n2. **احجز عرضاً** - رتّب جولة مدتها 15 دقيقة مع فريقنا لترى Sundae يعمل على بياناتك."
           },
           {
             "title": "هل هناك باقة مجانية؟",
@@ -975,7 +1059,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "ما الفرق بين باقات Core؟",
-            "content": "**Core Foundation** - الأساس التشغيلي: ركيزة قرار واحدة فوق POS والعمالة والتكلفة والتشغيل.\\n\\n**Core Margin** - عمق في التكلفة والتسرب: الاستهلاك النظري مقابل الفعلي، الهدر، العجز، الإلغاءات والمجانيات، مساهمة كل صنف.\\n\\n**Core Growth** - عمق في الطلب: شرائح الضيوف وقيمتهم مدى الحياة، إسناد العروض لكل قناة، هامش التوصيل بعد العمولة.\\n\\n**Core Performance** - توحيد عبر العلامات والمناطق، ترابط بين الوحدات، وصول محوكم مع مسارات تدقيق.\\n\\nالباقات الأربع تحمل الوحدات الإحدى عشرة نفسها. ما يتغير هو العمق."
+            "content": "**Core Foundation** - الأساس التشغيلي: ركيزة قرار واحدة فوق POS والعمالة والتكلفة والتشغيل.\n\n**Core Margin** - عمق في التكلفة والتسرب: الاستهلاك النظري مقابل الفعلي، الهدر، العجز، الإلغاءات والمجانيات، مساهمة كل صنف.\n\n**Core Growth** - عمق في الطلب: شرائح الضيوف وقيمتهم مدى الحياة، إسناد العروض لكل قناة، هامش التوصيل بعد العمولة.\n\n**Core Performance** - توحيد عبر العلامات والمناطق، ترابط بين الوحدات، وصول محوكم مع مسارات تدقيق.\n\nالباقات الأربع تحمل الوحدات الإحدى عشرة نفسها. ما يتغير هو العمق."
           },
           {
             "title": "هل أحتاج إلى عقد طويل الأجل؟",
@@ -989,11 +1073,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ما المنتجات التي يقدّمها Sundae؟",
-            "content": "**أربعة منتجات رئيسية:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ركيزة القرار، وتحمل الوحدات الإحدى عشرة كلها\\n2. **Foresight & Action** - التنبؤ ونمذجة السيناريوهات وطبقة التنفيذ باعتماد بشري\\n3. **Sundae Crew** - ركيزة القوى العاملة: الجدولة والحضور وجاهزية الرواتب والموارد البشرية وذكاء الأفراد\\n4. **Watchtower** - ذكاء السوق الخارجي، يُحدَّد نطاقه مع باقة Core\\n\\n**وإضافةً إلى ذلك:** أصناف مخصصة لنماذج التشغيل التي تديرها مجموعتك - الامتياز، وأغذية الفنادق، والمطابخ السحابية، والتموين، والإنتاج، والمطابخ المؤجَّرة."
+            "content": "**أربعة منتجات رئيسية:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ركيزة القرار، وتحمل الوحدات الإحدى عشرة كلها\n2. **Foresight & Action** - التنبؤ ونمذجة السيناريوهات وطبقة التنفيذ باعتماد بشري\n3. **Sundae Crew** - ركيزة القوى العاملة: الجدولة والحضور وجاهزية الرواتب والموارد البشرية وذكاء الأفراد\n4. **Watchtower** - ذكاء السوق الخارجي، يُحدَّد نطاقه مع باقة Core\n\n**وإضافةً إلى ذلك:** أصناف مخصصة لنماذج التشغيل التي تديرها مجموعتك - الامتياز، وأغذية الفنادق، والمطابخ السحابية، والتموين، والإنتاج، والمطابخ المؤجَّرة."
           },
           {
             "title": "أي باقة Core أختار؟",
-            "content": "**Core Foundation إذا:**\\n• كنت تنتقل من الجداول ولوحات المعلومات المنفصلة\\n• أردت صورة تشغيلية واحدة قبل التعمّق\\n\\n**Core Margin إذا:**\\n• كانت تكلفة المواد أو الهدر أو الإلغاءات أو المجانيات تلتهم هامشك\\n• احتجت مساهمة كل صنف، لا مزيج المبيعات فقط\\n\\n**Core Growth إذا:**\\n• كان الإيراد المتكرر ومزيج القنوات هما القيد\\n• احتجت شرائح الضيوف وإسناد العروض وهامش التوصيل\\n\\n**Core Performance إذا:**\\n• كنت تدير عدة علامات أو عدة أسواق\\n• احتجت التوحيد والترابط بين الوحدات والوصول المحوكم"
+            "content": "**Core Foundation إذا:**\n• كنت تنتقل من الجداول ولوحات المعلومات المنفصلة\n• أردت صورة تشغيلية واحدة قبل التعمّق\n\n**Core Margin إذا:**\n• كانت تكلفة المواد أو الهدر أو الإلغاءات أو المجانيات تلتهم هامشك\n• احتجت مساهمة كل صنف، لا مزيج المبيعات فقط\n\n**Core Growth إذا:**\n• كان الإيراد المتكرر ومزيج القنوات هما القيد\n• احتجت شرائح الضيوف وإسناد العروض وهامش التوصيل\n\n**Core Performance إذا:**\n• كنت تدير عدة علامات أو عدة أسواق\n• احتجت التوحيد والترابط بين الوحدات والوصول المحوكم"
           },
           {
             "title": "هل يمكنني الترقية أو التخفيض لاحقًا؟",
@@ -1001,7 +1085,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "ما نموذج 4D Intelligence؟",
-            "content": "إطار Sundae لذكاء القرار:\\n\\n**البُعد الأول: ما حدث** - حقيقة المبيعات والعمالة والتكلفة\\n**البُعد الثاني: الخطة مقابل الفعلي** - انحراف الموازنة والتوقّع\\n**البُعد الثالث: سياق السوق** - المقارنات المرجعية والنظراء والمنافسون\\n**البُعد الرابع: ما هو قادم** - التنبؤات والتوصيات\\n\\nكل باقة Core تغطي الأبعاد الأربعة. والباقة تحدد عمق كل بُعد."
+            "content": "إطار Sundae لذكاء القرار:\n\n**البُعد الأول: ما حدث** - حقيقة المبيعات والعمالة والتكلفة\n**البُعد الثاني: الخطة مقابل الفعلي** - انحراف الموازنة والتوقّع\n**البُعد الثالث: سياق السوق** - المقارنات المرجعية والنظراء والمنافسون\n**البُعد الرابع: ما هو قادم** - التنبؤات والتوصيات\n\nكل باقة Core تغطي الأبعاد الأربعة. والباقة تحدد عمق كل بُعد."
           }
         ]
       },
@@ -1011,7 +1095,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ما البيانات التي يحتاجها Sundae؟",
-            "content": "**لكل باقة Core:**\\n• نظام POS عبر واجهة برمجية\\n• نظام العمالة أو القوى العاملة\\n• نظام المخزون\\n• منصات التسويق\\n• نظام الحجوزات\\n\\nنظام POS وحده يكفي لتحقيق قيمة من اليوم الأول. والباقي يعمّق الصورة كلما ربطته."
+            "content": "**لكل باقة Core:**\n• نظام POS عبر واجهة برمجية\n• نظام العمالة أو القوى العاملة\n• نظام المخزون\n• منصات التسويق\n• نظام الحجوزات\n\nنظام POS وحده يكفي لتحقيق قيمة من اليوم الأول. والباقي يعمّق الصورة كلما ربطته."
           },
           {
             "title": "كيف تصل بياناتي إلى Sundae؟",
@@ -1027,7 +1111,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "كم يستغرق التطبيق؟",
-            "content": "معظم المجموعات تعمل خلال أسبوع إلى أسبوعين. أما عمليات النشر الأكبر متعددة العلامات أو المناطق فتستغرق من أسبوعين إلى أربعة حسب النطاق.\\n\\nالتطبيق رسم لمرة واحدة، يُحتسب مرة واحدة وفق أعلى فئة في اختيارك - من الخدمة الذاتية بلا تكلفة حتى ارتباط Class D محدَّد النطاق."
+            "content": "معظم المجموعات تعمل خلال أسبوع إلى أسبوعين. أما عمليات النشر الأكبر متعددة العلامات أو المناطق فتستغرق من أسبوعين إلى أربعة حسب النطاق.\n\nالتطبيق رسم لمرة واحدة، يُحتسب مرة واحدة وفق أعلى فئة في اختيارك - من الخدمة الذاتية بلا تكلفة حتى ارتباط Class D محدَّد النطاق."
           },
           {
             "title": "ماذا يحدث لبياناتي إذا قمت بالإلغاء؟",
@@ -1039,12 +1123,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "ما هي الوحدات؟",
+            "content": "الوحدات الإحدى عشرة هي الأسطح التحليلية داخل Core. وهي مكوّنات من الباقة، لا إضافات تُشترى على حدة:\n\n{{DOMAIN_MODULE_LINES}}\n\nوهي تتطلب Core لأنها تعتمد على بيانات تشغيلية حية ومتصلة."
+          },
+          {
+            "title": "هل أحتاج إلى الوحدات؟",
+            "content": "ليست اختيارية وليست مشتريات منفصلة. الوحدات الإحدى عشرة تأتي مع كل باقة Core.\n\nما تختاره هو الباقة، والباقة تحدد عمق كل وحدة."
+          },
+          {
+            "title": "هل يمكنني شراء وحدة واحدة؟",
+            "content": "لا. الوحدات الإحدى عشرة مكوّنات من باقة Core، وليست منتجات مستقلة، ولا يوجد سعر لكل وحدة. اختيار الباقة هو طريقك للحصول عليها كلها."
+          },
+          {
+            "title": "هل أضيف الوحدات واحدة تلو الأخرى؟",
+            "content": "لا. لا شيء يُضاف. كل باقة Core تحمل الوحدات الإحدى عشرة من اليوم الأول - والباقة التي تختارها تحدد فقط عمق كل واحدة."
+          },
+          {
+            "title": "من أي وحدة أبدأ؟",
+            "content": "جميعها مفعّلة أصلاً، فالسؤال أين تبدأ بالنظر، لا ماذا تشتري. ابدأ من أكبر ألم تشغيلي لديك:\n\n• تكلفة عمالة مرتفعة -> Labor Intelligence\n• هدر أو مشكلات مخزون -> Inventory Intelligence\n• ضعف التفاوض مع المورّدين -> Purchasing Intelligence\n• عائد تسويقي غير واضح -> Marketing Intelligence\n• تخلّف عن الحجوزات -> Reservations Intelligence"
+          },
+          {
+            "title": "كيف يعمل تسعير الوحدات؟",
+            "content": "لا يوجد تسعير للوحدات. فالوحدات ليس لها سعر مستقل ولا حصة مواقع خاصة بها - ما تشتريه هو الباقة.\n\nتُسعَّر باقة Core ابتداءً من موقعك الأول، ثم بسعر حدّي لكل موقع إضافي يتناقص مع نموّك. {{WORKED_EXAMPLE}}\n\nاستخدم pricing.sundae.io للحساب الدقيق."
+          }
         ]
       },
       {
@@ -1067,7 +1169,10 @@ export const generatedLocalCopy = {
             "title": "هل يمكنني استخدام مكون واحد فقط من Watchtower؟",
             "content": "نعم. يمكنك شراء ذكاء المنافسة، ذكاء الأحداث، أو ذكاء السوق بشكل فردي، أو دمجها."
           },
-          {}
+          {
+            "title": "هل يتطلب Watchtower وجود Core؟",
+            "content": "نعم. يعمل Watchtower على أفضل وجه حين تُركَّب إشاراته السوقية فوق بيانات تشغيلية حية، وهو ما توفّره باقة Core. ويُحدَّد نطاقه ويُسعَّر مع باقتك بدل أن يُباع وحده."
+          }
         ]
       },
       {
@@ -1194,7 +1299,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Como começo?",
-            "content": "Tem duas opções:\\n\\n1. **Ver o seu preço** - Use a calculadora interativa em pricing.sundae.io para dimensionar um pacote Core face ao seu número de unidades.\\n\\n2. **Marcar uma demo** - Agende uma apresentação de 15 minutos com a nossa equipa e veja o Sundae a correr sobre os seus dados."
+            "content": "Tem duas opções:\n\n1. **Ver o seu preço** - Use a calculadora interativa em pricing.sundae.io para dimensionar um pacote Core face ao seu número de unidades.\n\n2. **Marcar uma demo** - Agende uma apresentação de 15 minutos com a nossa equipa e veja o Sundae a correr sobre os seus dados."
           },
           {
             "title": "Existe um plano gratuito?",
@@ -1202,7 +1307,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Qual é a diferença entre os pacotes Core?",
-            "content": "**Core Foundation** - a base operacional: um substrato de decisão sobre POS, mão de obra, custo e operação.\\n\\n**Core Margin** - profundidade em custo e fugas: consumo teórico versus real, desperdício, quebras, cancelamentos e cortesias, contribuição por artigo.\\n\\n**Core Growth** - profundidade na procura: coortes de clientes e valor vitalício, atribuição de promoções por canal, margem de entrega após comissão.\\n\\n**Core Performance** - consolidação multimarca e multirregião, correlação entre módulos, acesso governado com trilhas de auditoria.\\n\\nOs quatro levam os mesmos onze módulos de domínio. O que muda é a profundidade."
+            "content": "**Core Foundation** - a base operacional: um substrato de decisão sobre POS, mão de obra, custo e operação.\n\n**Core Margin** - profundidade em custo e fugas: consumo teórico versus real, desperdício, quebras, cancelamentos e cortesias, contribuição por artigo.\n\n**Core Growth** - profundidade na procura: coortes de clientes e valor vitalício, atribuição de promoções por canal, margem de entrega após comissão.\n\n**Core Performance** - consolidação multimarca e multirregião, correlação entre módulos, acesso governado com trilhas de auditoria.\n\nOs quatro levam os mesmos onze módulos de domínio. O que muda é a profundidade."
           },
           {
             "title": "Preciso de um contrato de longo prazo?",
@@ -1216,11 +1321,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Que produtos oferece a Sundae?",
-            "content": "**Quatro produtos principais:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - o substrato de decisão, com os onze módulos de domínio\\n2. **Foresight & Action** - previsão, modelação de cenários e a camada de ação com aprovação humana\\n3. **Sundae Crew** - o substrato de pessoas: escalas, assiduidade, preparação de salários, RH e people intelligence\\n4. **Watchtower** - inteligência de mercado externa, dimensionada junto do seu pacote Core\\n\\n**Além disso:** SKU de conceito para os modelos operacionais do seu grupo - franquia, F&B hoteleiro, cozinha virtual, catering, produção, cozinha central alugada."
+            "content": "**Quatro produtos principais:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - o substrato de decisão, com os onze módulos de domínio\n2. **Foresight & Action** - previsão, modelação de cenários e a camada de ação com aprovação humana\n3. **Sundae Crew** - o substrato de pessoas: escalas, assiduidade, preparação de salários, RH e people intelligence\n4. **Watchtower** - inteligência de mercado externa, dimensionada junto do seu pacote Core\n\n**Além disso:** SKU de conceito para os modelos operacionais do seu grupo - franquia, F&B hoteleiro, cozinha virtual, catering, produção, cozinha central alugada."
           },
           {
             "title": "Que pacote Core devo escolher?",
-            "content": "**Core Foundation se:**\\n• Está a sair de folhas de cálculo e painéis desligados\\n• Quer uma imagem operacional única antes de aprofundar\\n\\n**Core Margin se:**\\n• O custo de mercadoria, o desperdício, os cancelamentos ou as cortesias levam a sua margem\\n• Precisa de contribuição por artigo, não apenas do mix de vendas\\n\\n**Core Growth se:**\\n• A receita recorrente e o mix de canais são a restrição\\n• Precisa de coortes de clientes, atribuição de promoções e margem de entrega\\n\\n**Core Performance se:**\\n• Opera várias marcas ou vários mercados\\n• Precisa de consolidação, correlação entre módulos e acesso governado"
+            "content": "**Core Foundation se:**\n• Está a sair de folhas de cálculo e painéis desligados\n• Quer uma imagem operacional única antes de aprofundar\n\n**Core Margin se:**\n• O custo de mercadoria, o desperdício, os cancelamentos ou as cortesias levam a sua margem\n• Precisa de contribuição por artigo, não apenas do mix de vendas\n\n**Core Growth se:**\n• A receita recorrente e o mix de canais são a restrição\n• Precisa de coortes de clientes, atribuição de promoções e margem de entrega\n\n**Core Performance se:**\n• Opera várias marcas ou vários mercados\n• Precisa de consolidação, correlação entre módulos e acesso governado"
           },
           {
             "title": "Posso fazer upgrade ou downgrade depois?",
@@ -1228,7 +1333,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "O que é o modelo 4D Intelligence?",
-            "content": "O enquadramento da Sundae para inteligência de decisão:\\n\\n**1D: o que aconteceu** - a verdade das vendas, da mão de obra e do custo\\n**2D: plano versus real** - desvio de orçamento e de previsão\\n**3D: contexto de mercado** - benchmarks, pares e concorrentes\\n**4D: o que vem a seguir** - previsões e recomendações\\n\\nCada pacote Core cobre os quatro. O pacote define a profundidade de cada dimensão."
+            "content": "O enquadramento da Sundae para inteligência de decisão:\n\n**1D: o que aconteceu** - a verdade das vendas, da mão de obra e do custo\n**2D: plano versus real** - desvio de orçamento e de previsão\n**3D: contexto de mercado** - benchmarks, pares e concorrentes\n**4D: o que vem a seguir** - previsões e recomendações\n\nCada pacote Core cobre os quatro. O pacote define a profundidade de cada dimensão."
           }
         ]
       },
@@ -1238,7 +1343,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "De que dados precisa a Sundae?",
-            "content": "**Para qualquer pacote Core:**\\n• Sistema POS via API\\n• Sistema de pessoal ou escalas\\n• Sistema de inventário\\n• Plataformas de marketing\\n• Sistema de reservas\\n\\nO POS sozinho já chega para obter valor no primeiro dia. O resto aprofunda a imagem à medida que o liga."
+            "content": "**Para qualquer pacote Core:**\n• Sistema POS via API\n• Sistema de pessoal ou escalas\n• Sistema de inventário\n• Plataformas de marketing\n• Sistema de reservas\n\nO POS sozinho já chega para obter valor no primeiro dia. O resto aprofunda a imagem à medida que o liga."
           },
           {
             "title": "Como é que os meus dados chegam à Sundae?",
@@ -1254,7 +1359,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Quanto tempo demora a implementação?",
-            "content": "A maioria dos grupos fica operacional em 1-2 semanas. Implementações maiores, multimarca ou multirregião, levam 2-4 semanas consoante o âmbito.\\n\\nA implementação é uma taxa única, cobrada uma só vez pela classe mais alta da sua seleção - do self-service sem custo até um acompanhamento Class D delimitado."
+            "content": "A maioria dos grupos fica operacional em 1-2 semanas. Implementações maiores, multimarca ou multirregião, levam 2-4 semanas consoante o âmbito.\n\nA implementação é uma taxa única, cobrada uma só vez pela classe mais alta da sua seleção - do self-service sem custo até um acompanhamento Class D delimitado."
           },
           {
             "title": "O que acontece com meus dados se eu cancelar?",
@@ -1266,12 +1371,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "O que são módulos?",
+            "content": "Os onze módulos de domínio são as superfícies analíticas dentro do Core. São componentes do pacote, não extras comprados à parte:\n\n{{DOMAIN_MODULE_LINES}}\n\nExigem o Core porque dependem de dados operacionais ligados em direto."
+          },
+          {
+            "title": "Preciso de módulos?",
+            "content": "Não são opcionais nem compras separadas. Os onze módulos de domínio vêm com cada pacote Core.\n\nO que escolhe é o pacote, e o pacote define a profundidade de cada módulo."
+          },
+          {
+            "title": "Posso comprar um único módulo?",
+            "content": "Não. Os onze módulos de domínio são componentes de um pacote Core, não produtos autónomos, e não há preço por módulo. Escolher um pacote é como os obtém a todos."
+          },
+          {
+            "title": "Acrescento os módulos um a um?",
+            "content": "Não. Não há nada a acrescentar. Cada pacote Core leva os onze módulos de domínio desde o primeiro dia - o pacote que escolher apenas define a profundidade de cada um."
+          },
+          {
+            "title": "Por que módulo devo começar?",
+            "content": "Já estão todos ligados, por isso a questão é por onde começar a olhar, não o que comprar. Comece pela maior dor operacional:\n\n• Custo de mão de obra elevado -> Labor Intelligence\n• Desperdício ou problemas de stock -> Inventory Intelligence\n• Pouca alavanca junto de fornecedores -> Purchasing Intelligence\n• ROI de marketing pouco claro -> Marketing Intelligence\n• Faltas em reservas -> Reservations Intelligence"
+          },
+          {
+            "title": "Como funciona o preço dos módulos?",
+            "content": "Não existe preço de módulos. Os módulos não têm preço autónomo nem quota de unidades própria - o que compra é o pacote.\n\nUm pacote Core é cobrado a partir da sua primeira unidade e depois a uma taxa marginal por cada unidade adicional, que desce à medida que cresce. {{WORKED_EXAMPLE}}\n\nUse pricing.sundae.io para o cálculo exato."
+          }
         ]
       },
       {
@@ -1294,7 +1417,10 @@ export const generatedLocalCopy = {
             "title": "Posso usar apenas um componente do Watchtower?",
             "content": "Sim. Você pode comprar Inteligência Competitiva, Inteligência de Eventos ou Inteligência de Mercado individualmente, ou combiná-los."
           },
-          {}
+          {
+            "title": "O Watchtower exige o Core?",
+            "content": "Sim. O Watchtower rende melhor quando os seus sinais de mercado assentam em dados operacionais em direto, que é o que um pacote Core fornece. É delimitado e orçamentado junto do seu pacote, em vez de vendido isoladamente."
+          }
         ]
       },
       {
@@ -1444,7 +1570,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "میں شروعات کیسے کروں؟",
-            "content": "آپ کے پاس دو راستے ہیں:\\n\\n1. **اپنی قیمت دیکھیں** - pricing.sundae.io پر انٹرایکٹو کیلکولیٹر سے اپنی برانچوں کی تعداد کے مطابق Core پیکیج طے کریں۔\\n\\n2. **ڈیمو بک کریں** - ہماری ٹیم کے ساتھ 15 منٹ کا جائزہ طے کریں اور Sundae کو اپنے ہی ڈیٹا پر چلتا دیکھیں۔"
+            "content": "آپ کے پاس دو راستے ہیں:\n\n1. **اپنی قیمت دیکھیں** - pricing.sundae.io پر انٹرایکٹو کیلکولیٹر سے اپنی برانچوں کی تعداد کے مطابق Core پیکیج طے کریں۔\n\n2. **ڈیمو بک کریں** - ہماری ٹیم کے ساتھ 15 منٹ کا جائزہ طے کریں اور Sundae کو اپنے ہی ڈیٹا پر چلتا دیکھیں۔"
           },
           {
             "title": "کیا کوئی مفت درجہ ہے؟",
@@ -1452,7 +1578,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Core پیکیجز میں کیا فرق ہے؟",
-            "content": "**Core Foundation** - آپریشنل بنیاد: POS، محنت، لاگت اور آپریشنز پر ایک ہی فیصلہ ساز بنیاد۔\\n\\n**Core Margin** - لاگت اور رساؤ میں گہرائی: نظری بمقابلہ حقیقی استعمال، ضیاع، کمی، وائیڈز اور کامپس، فی آئٹم شراکت۔\\n\\n**Core Growth** - طلب میں گہرائی: مہمانوں کے گروہ اور تاحیات قدر، فی چینل پروموشن انتساب، کمیشن کے بعد ڈیلیوری مارجن۔\\n\\n**Core Performance** - کئی برانڈز اور خطوں کا یکجا کرنا، ماڈیولز کے درمیان تعلق، آڈٹ ٹریل کے ساتھ ضابطہ بند رسائی۔\\n\\nچاروں میں وہی گیارہ ڈومین ماڈیولز ہیں۔ جو بدلتا ہے وہ گہرائی ہے۔"
+            "content": "**Core Foundation** - آپریشنل بنیاد: POS، محنت، لاگت اور آپریشنز پر ایک ہی فیصلہ ساز بنیاد۔\n\n**Core Margin** - لاگت اور رساؤ میں گہرائی: نظری بمقابلہ حقیقی استعمال، ضیاع، کمی، وائیڈز اور کامپس، فی آئٹم شراکت۔\n\n**Core Growth** - طلب میں گہرائی: مہمانوں کے گروہ اور تاحیات قدر، فی چینل پروموشن انتساب، کمیشن کے بعد ڈیلیوری مارجن۔\n\n**Core Performance** - کئی برانڈز اور خطوں کا یکجا کرنا، ماڈیولز کے درمیان تعلق، آڈٹ ٹریل کے ساتھ ضابطہ بند رسائی۔\n\nچاروں میں وہی گیارہ ڈومین ماڈیولز ہیں۔ جو بدلتا ہے وہ گہرائی ہے۔"
           },
           {
             "title": "کیا طویل مدتی معاہدہ ضروری ہے؟",
@@ -1466,11 +1592,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae کون سی مصنوعات پیش کرتا ہے؟",
-            "content": "**چار بنیادی مصنوعات:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - فیصلہ ساز بنیاد، جس میں گیارہ ڈومین ماڈیولز شامل ہیں\\n2. **Foresight & Action** - پیش گوئی، منظرنامہ سازی اور انسانی منظوری والی عمل کی پرت\\n3. **Sundae Crew** - افرادی قوت کی بنیاد: شیڈولنگ، حاضری، پے رول کی تیاری، ایچ آر اور پیپل انٹیلیجنس\\n4. **Watchtower** - بیرونی مارکیٹ انٹیلیجنس، جو آپ کے Core پیکیج کے ساتھ طے ہوتی ہے\\n\\n**اس کے علاوہ:** آپ کے گروپ کے آپریٹنگ ماڈلز کے لیے کانسیپٹ SKUs - فرنچائز، ہوٹل F&B، کلاؤڈ کچن، کیٹرنگ، پروڈکشن، کرائے کی سینٹرل کچن۔"
+            "content": "**چار بنیادی مصنوعات:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - فیصلہ ساز بنیاد، جس میں گیارہ ڈومین ماڈیولز شامل ہیں\n2. **Foresight & Action** - پیش گوئی، منظرنامہ سازی اور انسانی منظوری والی عمل کی پرت\n3. **Sundae Crew** - افرادی قوت کی بنیاد: شیڈولنگ، حاضری، پے رول کی تیاری، ایچ آر اور پیپل انٹیلیجنس\n4. **Watchtower** - بیرونی مارکیٹ انٹیلیجنس، جو آپ کے Core پیکیج کے ساتھ طے ہوتی ہے\n\n**اس کے علاوہ:** آپ کے گروپ کے آپریٹنگ ماڈلز کے لیے کانسیپٹ SKUs - فرنچائز، ہوٹل F&B، کلاؤڈ کچن، کیٹرنگ، پروڈکشن، کرائے کی سینٹرل کچن۔"
           },
           {
             "title": "مجھے کون سا Core پیکیج چننا چاہیے؟",
-            "content": "**Core Foundation اگر:**\\n• آپ اسپریڈ شیٹس اور بکھرے ڈیش بورڈز سے نکل رہے ہیں\\n• گہرائی میں جانے سے پہلے ایک مشترکہ آپریشنل تصویر چاہتے ہیں\\n\\n**Core Margin اگر:**\\n• خوراک کی لاگت، ضیاع، وائیڈز یا کامپس آپ کا مارجن کھا رہے ہیں\\n• آپ کو صرف سیلز مکس نہیں، فی آئٹم شراکت چاہیے\\n\\n**Core Growth اگر:**\\n• بار بار کی آمدنی اور چینل مکس رکاوٹ ہیں\\n• آپ کو مہمانوں کے گروہ، پروموشن انتساب اور ڈیلیوری مارجن چاہیے\\n\\n**Core Performance اگر:**\\n• آپ کئی برانڈز یا کئی مارکیٹیں چلاتے ہیں\\n• آپ کو یکجا کرنا، ماڈیولز کے درمیان تعلق اور ضابطہ بند رسائی چاہیے"
+            "content": "**Core Foundation اگر:**\n• آپ اسپریڈ شیٹس اور بکھرے ڈیش بورڈز سے نکل رہے ہیں\n• گہرائی میں جانے سے پہلے ایک مشترکہ آپریشنل تصویر چاہتے ہیں\n\n**Core Margin اگر:**\n• خوراک کی لاگت، ضیاع، وائیڈز یا کامپس آپ کا مارجن کھا رہے ہیں\n• آپ کو صرف سیلز مکس نہیں، فی آئٹم شراکت چاہیے\n\n**Core Growth اگر:**\n• بار بار کی آمدنی اور چینل مکس رکاوٹ ہیں\n• آپ کو مہمانوں کے گروہ، پروموشن انتساب اور ڈیلیوری مارجن چاہیے\n\n**Core Performance اگر:**\n• آپ کئی برانڈز یا کئی مارکیٹیں چلاتے ہیں\n• آپ کو یکجا کرنا، ماڈیولز کے درمیان تعلق اور ضابطہ بند رسائی چاہیے"
           },
           {
             "title": "کیا میں بعد میں اپ گریڈ یا ڈاؤن گریڈ کر سکتا ہوں؟",
@@ -1478,7 +1604,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D Intelligence ماڈل کیا ہے؟",
-            "content": "فیصلہ سازی کی ذہانت کے لیے Sundae کا فریم ورک:\\n\\n**1D: کیا ہوا** - فروخت، محنت اور لاگت کا سچ\\n**2D: منصوبہ بمقابلہ حقیقت** - بجٹ اور پیش گوئی کا فرق\\n**3D: مارکیٹ کا تناظر** - بینچ مارک، ہم پلہ ادارے اور حریف\\n**4D: آگے کیا** - پیش گوئیاں اور سفارشات\\n\\nہر Core پیکیج چاروں کا احاطہ کرتا ہے۔ پیکیج طے کرتا ہے کہ ہر پہلو کتنی گہرائی تک جائے۔"
+            "content": "فیصلہ سازی کی ذہانت کے لیے Sundae کا فریم ورک:\n\n**1D: کیا ہوا** - فروخت، محنت اور لاگت کا سچ\n**2D: منصوبہ بمقابلہ حقیقت** - بجٹ اور پیش گوئی کا فرق\n**3D: مارکیٹ کا تناظر** - بینچ مارک، ہم پلہ ادارے اور حریف\n**4D: آگے کیا** - پیش گوئیاں اور سفارشات\n\nہر Core پیکیج چاروں کا احاطہ کرتا ہے۔ پیکیج طے کرتا ہے کہ ہر پہلو کتنی گہرائی تک جائے۔"
           }
         ]
       },
@@ -1488,7 +1614,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae کو کن ڈیٹا کی ضرورت ہے؟",
-            "content": "**ہر Core پیکیج کے لیے:**\\n• API کے ذریعے POS سسٹم\\n• محنت یا افرادی قوت کا سسٹم\\n• انوینٹری سسٹم\\n• مارکیٹنگ پلیٹ فارمز\\n• بکنگ سسٹم\\n\\nپہلے دن قدر حاصل کرنے کے لیے صرف POS کافی ہے۔ باقی جڑتے جانے پر تصویر گہری ہوتی جاتی ہے۔"
+            "content": "**ہر Core پیکیج کے لیے:**\n• API کے ذریعے POS سسٹم\n• محنت یا افرادی قوت کا سسٹم\n• انوینٹری سسٹم\n• مارکیٹنگ پلیٹ فارمز\n• بکنگ سسٹم\n\nپہلے دن قدر حاصل کرنے کے لیے صرف POS کافی ہے۔ باقی جڑتے جانے پر تصویر گہری ہوتی جاتی ہے۔"
           },
           {
             "title": "میرا ڈیٹا Sundae میں کیسے آتا ہے؟",
@@ -1504,7 +1630,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "نفاذ میں کتنا وقت لگتا ہے؟",
-            "content": "زیادہ تر گروپ 1-2 ہفتوں میں فعال ہو جاتے ہیں۔ بڑے کثیر برانڈ یا کثیر خطہ رول آؤٹ دائرہ کار کے مطابق 2-4 ہفتے لیتے ہیں۔\\n\\nنفاذ ایک بار کی فیس ہے، جو آپ کے انتخاب میں سب سے اعلیٰ درجے پر ایک ہی بار وصول کی جاتی ہے - مفت سیلف سروس سے لے کر متعین دائرہ کار والے Class D تعاون تک۔"
+            "content": "زیادہ تر گروپ 1-2 ہفتوں میں فعال ہو جاتے ہیں۔ بڑے کثیر برانڈ یا کثیر خطہ رول آؤٹ دائرہ کار کے مطابق 2-4 ہفتے لیتے ہیں۔\n\nنفاذ ایک بار کی فیس ہے، جو آپ کے انتخاب میں سب سے اعلیٰ درجے پر ایک ہی بار وصول کی جاتی ہے - مفت سیلف سروس سے لے کر متعین دائرہ کار والے Class D تعاون تک۔"
           },
           {
             "title": "اگر میں منسوخ کر دوں تو میرے ڈیٹا کا کیا ہوگا؟",
@@ -1516,12 +1642,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "ماڈیولز کیا ہیں؟",
+            "content": "گیارہ ڈومین ماڈیولز Core کے اندر تجزیاتی سطحیں ہیں۔ یہ پیکیج کے اجزا ہیں، الگ سے خریدے جانے والے اضافے نہیں:\n\n{{DOMAIN_MODULE_LINES}}\n\nانہیں Core درکار ہے کیونکہ یہ لائیو منسلک آپریشنل ڈیٹا پر انحصار کرتے ہیں۔"
+          },
+          {
+            "title": "کیا مجھے ماڈیولز کی ضرورت ہے؟",
+            "content": "یہ اختیاری نہیں ہیں اور نہ ہی الگ خریداری ہیں۔ گیارہوں ڈومین ماڈیولز ہر Core پیکیج کے ساتھ آتے ہیں۔\n\nآپ پیکیج چنتے ہیں، اور پیکیج طے کرتا ہے کہ ہر ماڈیول کتنی گہرائی تک جائے۔"
+          },
+          {
+            "title": "کیا میں ایک اکیلا ماڈیول خرید سکتا ہوں؟",
+            "content": "نہیں۔ گیارہ ڈومین ماڈیولز Core پیکیج کے اجزا ہیں، خودمختار مصنوعات نہیں، اور فی ماڈیول کوئی قیمت نہیں۔ سب حاصل کرنے کا راستہ پیکیج چننا ہے۔"
+          },
+          {
+            "title": "کیا ماڈیولز ایک ایک کر کے شامل کیے جاتے ہیں؟",
+            "content": "نہیں۔ شامل کرنے کو کچھ ہے ہی نہیں۔ ہر Core پیکیج پہلے دن سے گیارہوں ڈومین ماڈیولز رکھتا ہے - آپ کا چنا پیکیج صرف یہ طے کرتا ہے کہ ہر ایک کتنی گہرائی تک جائے۔"
+          },
+          {
+            "title": "مجھے پہلے کون سا ماڈیول دیکھنا چاہیے؟",
+            "content": "سب پہلے ہی فعال ہیں، تو سوال یہ ہے کہ دیکھنا کہاں سے شروع کریں، خریدنا کیا ہے یہ نہیں۔ سب سے بڑی آپریشنل تکلیف سے شروع کریں:\n\n• زیادہ محنت کی لاگت -> Labor Intelligence\n• ضیاع یا اسٹاک کے مسائل -> Inventory Intelligence\n• سپلائرز پر کمزور گرفت -> Purchasing Intelligence\n• غیر واضح مارکیٹنگ ROI -> Marketing Intelligence\n• بکنگ پر نہ آنا -> Reservations Intelligence"
+          },
+          {
+            "title": "ماڈیول کی قیمت کیسے لگتی ہے؟",
+            "content": "ماڈیول کی قیمت ہوتی ہی نہیں۔ ماڈیولز کی نہ اپنی الگ قیمت ہے نہ اپنا مقامات کا کوٹا - آپ پیکیج خریدتے ہیں۔\n\nCore پیکیج آپ کی پہلی برانچ سے لگتا ہے، پھر ہر اضافی برانچ پر ایک حاشیائی شرح سے، جو بڑھنے کے ساتھ کم ہوتی جاتی ہے۔ {{WORKED_EXAMPLE}}\n\nدرست حساب کے لیے pricing.sundae.io دیکھیں۔"
+          }
         ]
       },
       {
@@ -1544,7 +1688,10 @@ export const generatedLocalCopy = {
             "title": "کیا میں صرف ایک Watchtower جزو استعمال کر سکتا ہوں؟",
             "content": "جی ہاں۔ آپ مقابلتی ذہانت، ایونٹ ذہانت، یا مارکیٹ ذہانت کو انفرادی طور پر خرید سکتے ہیں، یا انہیں ملا سکتے ہیں۔"
           },
-          {}
+          {
+            "title": "کیا Watchtower کے لیے Core ضروری ہے؟",
+            "content": "جی ہاں۔ Watchtower اُس وقت بہترین کام کرتا ہے جب اس کے مارکیٹ سگنلز لائیو آپریشنل ڈیٹا پر رکھے جائیں، اور یہی Core پیکیج فراہم کرتا ہے۔ اسے الگ بیچنے کے بجائے آپ کے پیکیج کے ساتھ ہی طے اور پیش کیا جاتا ہے۔"
+          }
         ]
       },
       {
@@ -1694,7 +1841,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Come inizio?",
-            "content": "Hai due possibilità:\\n\\n1. **Vedi il tuo prezzo** - Usa il calcolatore interattivo su pricing.sundae.io per dimensionare un pacchetto Core sul tuo numero di sedi.\\n\\n2. **Prenota una demo** - Fissa una presentazione di 15 minuti con il nostro team e guarda Sundae girare sui tuoi dati."
+            "content": "Hai due possibilità:\n\n1. **Vedi il tuo prezzo** - Usa il calcolatore interattivo su pricing.sundae.io per dimensionare un pacchetto Core sul tuo numero di sedi.\n\n2. **Prenota una demo** - Fissa una presentazione di 15 minuti con il nostro team e guarda Sundae girare sui tuoi dati."
           },
           {
             "title": "Esiste un piano gratuito?",
@@ -1702,7 +1849,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Qual è la differenza tra i pacchetti Core?",
-            "content": "**Core Foundation** - la base operativa: un unico substrato decisionale su POS, personale, costi e operatività.\\n\\n**Core Margin** - profondità su costi e perdite: consumo teorico e reale, sprechi, ammanchi, storni e omaggi, contribuzione per articolo.\\n\\n**Core Growth** - profondità sulla domanda: coorti di ospiti e valore nel tempo, attribuzione delle promozioni per canale, margine delivery al netto delle commissioni.\\n\\n**Core Performance** - consolidamento tra insegne e aree, correlazione tra moduli, accessi governati con tracciabilità.\\n\\nTutti e quattro portano gli stessi undici moduli. Ciò che cambia è la profondità."
+            "content": "**Core Foundation** - la base operativa: un unico substrato decisionale su POS, personale, costi e operatività.\n\n**Core Margin** - profondità su costi e perdite: consumo teorico e reale, sprechi, ammanchi, storni e omaggi, contribuzione per articolo.\n\n**Core Growth** - profondità sulla domanda: coorti di ospiti e valore nel tempo, attribuzione delle promozioni per canale, margine delivery al netto delle commissioni.\n\n**Core Performance** - consolidamento tra insegne e aree, correlazione tra moduli, accessi governati con tracciabilità.\n\nTutti e quattro portano gli stessi undici moduli. Ciò che cambia è la profondità."
           },
           {
             "title": "Serve un contratto a lungo termine?",
@@ -1716,11 +1863,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quali prodotti offre Sundae?",
-            "content": "**Quattro prodotti principali:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - il substrato decisionale, che porta tutti e undici i moduli\\n2. **Foresight & Action** - previsioni, modellazione di scenari e il livello di azione con approvazione umana\\n3. **Sundae Crew** - il substrato delle persone: turni, presenze, preparazione paghe, HR e people intelligence\\n4. **Watchtower** - intelligence di mercato esterna, dimensionata insieme al tuo pacchetto Core\\n\\n**In più:** SKU di concept per i modelli operativi del tuo gruppo - franchising, F&B alberghiero, cucina virtuale, catering, produzione, laboratorio in affitto."
+            "content": "**Quattro prodotti principali:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - il substrato decisionale, che porta tutti e undici i moduli\n2. **Foresight & Action** - previsioni, modellazione di scenari e il livello di azione con approvazione umana\n3. **Sundae Crew** - il substrato delle persone: turni, presenze, preparazione paghe, HR e people intelligence\n4. **Watchtower** - intelligence di mercato esterna, dimensionata insieme al tuo pacchetto Core\n\n**In più:** SKU di concept per i modelli operativi del tuo gruppo - franchising, F&B alberghiero, cucina virtuale, catering, produzione, laboratorio in affitto."
           },
           {
             "title": "Quale pacchetto Core scegliere?",
-            "content": "**Core Foundation se:**\\n• Stai uscendo da fogli di calcolo e cruscotti scollegati\\n• Vuoi un'unica immagine operativa prima di andare più a fondo\\n\\n**Core Margin se:**\\n• Costo materie, sprechi, storni od omaggi si stanno mangiando il margine\\n• Ti serve la contribuzione per articolo, non solo il mix di vendita\\n\\n**Core Growth se:**\\n• Ricavo ricorrente e mix di canali sono il vincolo\\n• Ti servono coorti di ospiti, attribuzione delle promozioni e margine delivery\\n\\n**Core Performance se:**\\n• Gestisci più insegne o più mercati\\n• Ti servono consolidamento, correlazione tra moduli e accessi governati"
+            "content": "**Core Foundation se:**\n• Stai uscendo da fogli di calcolo e cruscotti scollegati\n• Vuoi un'unica immagine operativa prima di andare più a fondo\n\n**Core Margin se:**\n• Costo materie, sprechi, storni od omaggi si stanno mangiando il margine\n• Ti serve la contribuzione per articolo, non solo il mix di vendita\n\n**Core Growth se:**\n• Ricavo ricorrente e mix di canali sono il vincolo\n• Ti servono coorti di ospiti, attribuzione delle promozioni e margine delivery\n\n**Core Performance se:**\n• Gestisci più insegne o più mercati\n• Ti servono consolidamento, correlazione tra moduli e accessi governati"
           },
           {
             "title": "Posso aggiornare o downgrade in seguito?",
@@ -1728,7 +1875,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Che cos'è il modello 4D Intelligence?",
-            "content": "Il quadro di Sundae per l'intelligenza decisionale:\\n\\n**1D: cosa è successo** - la verità su vendite, personale e costi\\n**2D: piano contro consuntivo** - scostamento da budget e previsione\\n**3D: contesto di mercato** - benchmark, pari e concorrenti\\n**4D: cosa arriva** - previsioni e raccomandazioni\\n\\nOgni pacchetto Core copre tutte e quattro. Il pacchetto stabilisce quanto va a fondo ciascuna dimensione."
+            "content": "Il quadro di Sundae per l'intelligenza decisionale:\n\n**1D: cosa è successo** - la verità su vendite, personale e costi\n**2D: piano contro consuntivo** - scostamento da budget e previsione\n**3D: contesto di mercato** - benchmark, pari e concorrenti\n**4D: cosa arriva** - previsioni e raccomandazioni\n\nOgni pacchetto Core copre tutte e quattro. Il pacchetto stabilisce quanto va a fondo ciascuna dimensione."
           }
         ]
       },
@@ -1738,7 +1885,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Di quali dati ha bisogno Sundae?",
-            "content": "**Per ogni pacchetto Core:**\\n• Sistema POS via API\\n• Sistema del personale o dei turni\\n• Sistema di magazzino\\n• Piattaforme di marketing\\n• Sistema di prenotazioni\\n\\nIl solo POS basta per ottenere valore dal primo giorno. Il resto approfondisce il quadro man mano che lo colleghi."
+            "content": "**Per ogni pacchetto Core:**\n• Sistema POS via API\n• Sistema del personale o dei turni\n• Sistema di magazzino\n• Piattaforme di marketing\n• Sistema di prenotazioni\n\nIl solo POS basta per ottenere valore dal primo giorno. Il resto approfondisce il quadro man mano che lo colleghi."
           },
           {
             "title": "Come arrivano i miei dati in Sundae?",
@@ -1754,7 +1901,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Quanto dura l'implementazione?",
-            "content": "La maggior parte dei gruppi è operativa in 1-2 settimane. I roll-out più ampi, multi-insegna o multi-area, richiedono 2-4 settimane a seconda del perimetro.\\n\\nL'implementazione è un costo una tantum, addebitato una sola volta sulla classe più alta della tua selezione - dal self-service gratuito fino a un intervento Class D definito."
+            "content": "La maggior parte dei gruppi è operativa in 1-2 settimane. I roll-out più ampi, multi-insegna o multi-area, richiedono 2-4 settimane a seconda del perimetro.\n\nL'implementazione è un costo una tantum, addebitato una sola volta sulla classe più alta della tua selezione - dal self-service gratuito fino a un intervento Class D definito."
           },
           {
             "title": "Cosa succede ai miei dati se annullo?",
@@ -1766,12 +1913,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Che cosa sono i moduli?",
+            "content": "Gli undici moduli sono le superfici analitiche dentro Core. Sono componenti del pacchetto, non aggiunte comprate a parte:\n\n{{DOMAIN_MODULE_LINES}}\n\nRichiedono Core perché dipendono da dati operativi collegati in tempo reale."
+          },
+          {
+            "title": "Mi servono i moduli?",
+            "content": "Non sono opzionali e non sono acquisti separati. Tutti e undici i moduli arrivano con ogni pacchetto Core.\n\nQuello che scegli è il pacchetto, e il pacchetto stabilisce quanto va a fondo ciascun modulo."
+          },
+          {
+            "title": "Posso comprare un singolo modulo?",
+            "content": "No. Gli undici moduli sono componenti di un pacchetto Core, non prodotti a sé, e non esiste un prezzo per modulo. Scegliere il pacchetto è il modo di averli tutti."
+          },
+          {
+            "title": "Devo aggiungere i moduli uno alla volta?",
+            "content": "No. Non c'è nulla da aggiungere. Ogni pacchetto Core porta tutti e undici i moduli dal primo giorno: il pacchetto scelto stabilisce solo quanto va a fondo ciascuno."
+          },
+          {
+            "title": "Da quale modulo conviene partire?",
+            "content": "Sono già tutti attivi, quindi la domanda è da dove iniziare a guardare, non cosa comprare. Parti dal problema operativo più grosso:\n\n• Costo del personale alto -> Labor Intelligence\n• Sprechi o problemi di magazzino -> Inventory Intelligence\n• Poca leva sui fornitori -> Purchasing Intelligence\n• ROI marketing poco chiaro -> Marketing Intelligence\n• No-show sulle prenotazioni -> Reservations Intelligence"
+          },
+          {
+            "title": "Come funziona il prezzo dei moduli?",
+            "content": "Non esiste un prezzo dei moduli. I moduli non hanno né un prezzo autonomo né una quota di sedi propria: quello che compri è il pacchetto.\n\nUn pacchetto Core si paga dalla prima sede, poi a una tariffa marginale per ogni sede aggiuntiva, che scende man mano che cresci. {{WORKED_EXAMPLE}}\n\nUsa pricing.sundae.io per il calcolo esatto."
+          }
         ]
       },
       {
@@ -1794,7 +1959,10 @@ export const generatedLocalCopy = {
             "title": "Posso usare solo un componente di Watchtower?",
             "content": "Sì. Puoi acquistare Intelligenza Competitiva, Intelligenza sugli Eventi o Intelligenza di Mercato singolarmente, o combinarli."
           },
-          {}
+          {
+            "title": "Watchtower richiede Core?",
+            "content": "Sì. Watchtower dà il meglio quando i suoi segnali di mercato poggiano su dati operativi in tempo reale, che è ciò che fornisce un pacchetto Core. Viene dimensionato e quotato insieme al tuo pacchetto anziché venduto da solo."
+          }
         ]
       },
       {
@@ -1944,7 +2112,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "मैं शुरुआत कैसे करूँ?",
-            "content": "आपके पास दो विकल्प हैं:\\n\\n1. **अपनी कीमत देखें** - pricing.sundae.io पर इंटरैक्टिव कैलकुलेटर से अपने आउटलेट की संख्या के हिसाब से Core पैकेज तय करें।\\n\\n2. **डेमो बुक करें** - हमारी टीम के साथ 15 मिनट का वॉकथ्रू तय करें और Sundae को अपने ही डेटा पर चलते देखें।"
+            "content": "आपके पास दो विकल्प हैं:\n\n1. **अपनी कीमत देखें** - pricing.sundae.io पर इंटरैक्टिव कैलकुलेटर से अपने आउटलेट की संख्या के हिसाब से Core पैकेज तय करें।\n\n2. **डेमो बुक करें** - हमारी टीम के साथ 15 मिनट का वॉकथ्रू तय करें और Sundae को अपने ही डेटा पर चलते देखें।"
           },
           {
             "title": "क्या कोई मुफ़्त स्तर है?",
@@ -1952,7 +2120,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Core पैकेजों में क्या अंतर है?",
-            "content": "**Core Foundation** - परिचालन आधार: POS, श्रम, लागत और संचालन पर एक ही निर्णय-आधार।\\n\\n**Core Margin** - लागत और रिसाव में गहराई: सैद्धांतिक बनाम वास्तविक खपत, बर्बादी, कमी, वॉइड और कॉम्प, प्रति-आइटम योगदान।\\n\\n**Core Growth** - माँग में गहराई: मेहमान कोहॉर्ट और जीवनकाल मूल्य, चैनलवार प्रोमो एट्रिब्यूशन, कमीशन के बाद डिलीवरी मार्जिन।\\n\\n**Core Performance** - बहु-ब्रांड व बहु-क्षेत्र समेकन, मॉड्यूल-पार सहसंबंध, ऑडिट ट्रेल के साथ नियंत्रित पहुँच।\\n\\nचारों में वही ग्यारह डोमेन मॉड्यूल हैं। बदलती है गहराई।"
+            "content": "**Core Foundation** - परिचालन आधार: POS, श्रम, लागत और संचालन पर एक ही निर्णय-आधार।\n\n**Core Margin** - लागत और रिसाव में गहराई: सैद्धांतिक बनाम वास्तविक खपत, बर्बादी, कमी, वॉइड और कॉम्प, प्रति-आइटम योगदान।\n\n**Core Growth** - माँग में गहराई: मेहमान कोहॉर्ट और जीवनकाल मूल्य, चैनलवार प्रोमो एट्रिब्यूशन, कमीशन के बाद डिलीवरी मार्जिन।\n\n**Core Performance** - बहु-ब्रांड व बहु-क्षेत्र समेकन, मॉड्यूल-पार सहसंबंध, ऑडिट ट्रेल के साथ नियंत्रित पहुँच।\n\nचारों में वही ग्यारह डोमेन मॉड्यूल हैं। बदलती है गहराई।"
           },
           {
             "title": "क्या लंबी अवधि का अनुबंध ज़रूरी है?",
@@ -1966,11 +2134,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae कौन-से उत्पाद देता है?",
-            "content": "**चार मुख्य उत्पाद:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - निर्णय-आधार, जिसमें ग्यारहों डोमेन मॉड्यूल शामिल हैं\\n2. **Foresight & Action** - पूर्वानुमान, परिदृश्य मॉडलिंग और मानव-स्वीकृति वाली कार्रवाई परत\\n3. **Sundae Crew** - कार्यबल आधार: शेड्यूलिंग, उपस्थिति, पेरोल तैयारी, एचआर और पीपल इंटेलिजेंस\\n4. **Watchtower** - बाहरी बाज़ार इंटेलिजेंस, आपके Core पैकेज के साथ तय किया जाता है\\n\\n**साथ ही:** आपके समूह के संचालन मॉडलों के लिए कॉन्सेप्ट SKU - फ़्रैंचाइज़, होटल F&B, क्लाउड किचन, कैटरिंग, उत्पादन, किराए की सेंट्रल किचन।"
+            "content": "**चार मुख्य उत्पाद:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - निर्णय-आधार, जिसमें ग्यारहों डोमेन मॉड्यूल शामिल हैं\n2. **Foresight & Action** - पूर्वानुमान, परिदृश्य मॉडलिंग और मानव-स्वीकृति वाली कार्रवाई परत\n3. **Sundae Crew** - कार्यबल आधार: शेड्यूलिंग, उपस्थिति, पेरोल तैयारी, एचआर और पीपल इंटेलिजेंस\n4. **Watchtower** - बाहरी बाज़ार इंटेलिजेंस, आपके Core पैकेज के साथ तय किया जाता है\n\n**साथ ही:** आपके समूह के संचालन मॉडलों के लिए कॉन्सेप्ट SKU - फ़्रैंचाइज़, होटल F&B, क्लाउड किचन, कैटरिंग, उत्पादन, किराए की सेंट्रल किचन।"
           },
           {
             "title": "मुझे कौन-सा Core पैकेज चुनना चाहिए?",
-            "content": "**Core Foundation अगर:**\\n• आप स्प्रेडशीट और बिखरे डैशबोर्ड से बाहर आ रहे हैं\\n• गहराई में जाने से पहले आपको एक साझा परिचालन तस्वीर चाहिए\\n\\n**Core Margin अगर:**\\n• खाद्य लागत, बर्बादी, वॉइड या कॉम्प आपका मार्जिन खा रहे हैं\\n• आपको केवल बिक्री मिश्रण नहीं, प्रति-आइटम योगदान चाहिए\\n\\n**Core Growth अगर:**\\n• दोहराव वाला राजस्व और चैनल मिश्रण अड़चन हैं\\n• आपको मेहमान कोहॉर्ट, प्रोमो एट्रिब्यूशन और डिलीवरी मार्जिन चाहिए\\n\\n**Core Performance अगर:**\\n• आप कई ब्रांड या कई बाज़ार चलाते हैं\\n• आपको समेकन, मॉड्यूल-पार सहसंबंध और नियंत्रित पहुँच चाहिए"
+            "content": "**Core Foundation अगर:**\n• आप स्प्रेडशीट और बिखरे डैशबोर्ड से बाहर आ रहे हैं\n• गहराई में जाने से पहले आपको एक साझा परिचालन तस्वीर चाहिए\n\n**Core Margin अगर:**\n• खाद्य लागत, बर्बादी, वॉइड या कॉम्प आपका मार्जिन खा रहे हैं\n• आपको केवल बिक्री मिश्रण नहीं, प्रति-आइटम योगदान चाहिए\n\n**Core Growth अगर:**\n• दोहराव वाला राजस्व और चैनल मिश्रण अड़चन हैं\n• आपको मेहमान कोहॉर्ट, प्रोमो एट्रिब्यूशन और डिलीवरी मार्जिन चाहिए\n\n**Core Performance अगर:**\n• आप कई ब्रांड या कई बाज़ार चलाते हैं\n• आपको समेकन, मॉड्यूल-पार सहसंबंध और नियंत्रित पहुँच चाहिए"
           },
           {
             "title": "क्या मैं बाद में अपग्रेड या डाउनग्रेड कर सकता हूँ?",
@@ -1978,7 +2146,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D Intelligence मॉडल क्या है?",
-            "content": "निर्णय बुद्धिमत्ता के लिए Sundae का ढाँचा:\\n\\n**1D: क्या हुआ** - बिक्री, श्रम और लागत का सच\\n**2D: योजना बनाम वास्तविक** - बजट और पूर्वानुमान का अंतर\\n**3D: बाज़ार संदर्भ** - बेंचमार्क, समकक्ष और प्रतिस्पर्धी\\n**4D: आगे क्या** - भविष्यवाणियाँ और सिफ़ारिशें\\n\\nहर Core पैकेज चारों को कवर करता है। पैकेज तय करता है कि हर आयाम कितना गहरा जाए।"
+            "content": "निर्णय बुद्धिमत्ता के लिए Sundae का ढाँचा:\n\n**1D: क्या हुआ** - बिक्री, श्रम और लागत का सच\n**2D: योजना बनाम वास्तविक** - बजट और पूर्वानुमान का अंतर\n**3D: बाज़ार संदर्भ** - बेंचमार्क, समकक्ष और प्रतिस्पर्धी\n**4D: आगे क्या** - भविष्यवाणियाँ और सिफ़ारिशें\n\nहर Core पैकेज चारों को कवर करता है। पैकेज तय करता है कि हर आयाम कितना गहरा जाए।"
           }
         ]
       },
@@ -1988,7 +2156,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae को किस डेटा की ज़रूरत है?",
-            "content": "**हर Core पैकेज के लिए:**\\n• API के ज़रिए POS सिस्टम\\n• श्रम या कार्यबल सिस्टम\\n• इन्वेंट्री सिस्टम\\n• मार्केटिंग प्लेटफ़ॉर्म\\n• आरक्षण सिस्टम\\n\\nपहले दिन मूल्य पाने के लिए अकेला POS काफ़ी है। बाकी जुड़ते जाने पर तस्वीर गहरी होती जाती है।"
+            "content": "**हर Core पैकेज के लिए:**\n• API के ज़रिए POS सिस्टम\n• श्रम या कार्यबल सिस्टम\n• इन्वेंट्री सिस्टम\n• मार्केटिंग प्लेटफ़ॉर्म\n• आरक्षण सिस्टम\n\nपहले दिन मूल्य पाने के लिए अकेला POS काफ़ी है। बाकी जुड़ते जाने पर तस्वीर गहरी होती जाती है।"
           },
           {
             "title": "मेरा डेटा Sundae में कैसे आता है?",
@@ -2004,7 +2172,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "क्रियान्वयन में कितना समय लगता है?",
-            "content": "अधिकांश समूह 1-2 सप्ताह में लाइव हो जाते हैं। बड़े बहु-ब्रांड या बहु-क्षेत्र रोलआउट दायरे के अनुसार 2-4 सप्ताह लेते हैं।\\n\\nक्रियान्वयन एक बार का शुल्क है, जो आपकी चयन-सूची की सर्वोच्च श्रेणी पर एक ही बार लिया जाता है - निःशुल्क सेल्फ-सर्विस से लेकर तय दायरे वाले Class D कार्य तक।"
+            "content": "अधिकांश समूह 1-2 सप्ताह में लाइव हो जाते हैं। बड़े बहु-ब्रांड या बहु-क्षेत्र रोलआउट दायरे के अनुसार 2-4 सप्ताह लेते हैं।\n\nक्रियान्वयन एक बार का शुल्क है, जो आपकी चयन-सूची की सर्वोच्च श्रेणी पर एक ही बार लिया जाता है - निःशुल्क सेल्फ-सर्विस से लेकर तय दायरे वाले Class D कार्य तक।"
           },
           {
             "title": "अगर मैं रद्द कर दूं तो मेरे डेटा का क्या होगा?",
@@ -2016,12 +2184,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "मॉड्यूल क्या हैं?",
+            "content": "ग्यारह डोमेन मॉड्यूल Core के भीतर की विश्लेषणात्मक सतहें हैं। ये पैकेज के घटक हैं, अलग से खरीदे जाने वाले ऐड-ऑन नहीं:\n\n{{DOMAIN_MODULE_LINES}}\n\nइन्हें Core चाहिए क्योंकि ये लाइव जुड़े परिचालन डेटा पर निर्भर हैं।"
+          },
+          {
+            "title": "क्या मुझे मॉड्यूल चाहिए?",
+            "content": "ये वैकल्पिक नहीं हैं और अलग खरीद भी नहीं हैं। ग्यारहों डोमेन मॉड्यूल हर Core पैकेज के साथ आते हैं।\n\nआप पैकेज चुनते हैं, और पैकेज तय करता है कि हर मॉड्यूल कितना गहरा जाए।"
+          },
+          {
+            "title": "क्या मैं अकेला एक मॉड्यूल खरीद सकता हूँ?",
+            "content": "नहीं। ग्यारह डोमेन मॉड्यूल Core पैकेज के घटक हैं, स्वतंत्र उत्पाद नहीं, और प्रति-मॉड्यूल कोई कीमत नहीं है। पैकेज चुनना ही उन सबको पाने का तरीका है।"
+          },
+          {
+            "title": "क्या मॉड्यूल एक-एक करके जोड़े जाते हैं?",
+            "content": "नहीं। जोड़ने को कुछ है ही नहीं। हर Core पैकेज पहले दिन से ग्यारहों डोमेन मॉड्यूल लेकर आता है - आपका चुना पैकेज केवल यह तय करता है कि हर एक कितना गहरा जाए।"
+          },
+          {
+            "title": "मुझे पहले कौन-सा मॉड्यूल देखना चाहिए?",
+            "content": "सभी पहले से चालू हैं, तो सवाल यह है कि देखना कहाँ से शुरू करें, खरीदना क्या है यह नहीं। सबसे बड़ी परिचालन तकलीफ़ से शुरू करें:\n\n• ऊँची श्रम लागत -> Labor Intelligence\n• बर्बादी या स्टॉक की दिक्कत -> Inventory Intelligence\n• विक्रेताओं पर कमज़ोर पकड़ -> Purchasing Intelligence\n• अस्पष्ट मार्केटिंग ROI -> Marketing Intelligence\n• आरक्षण में नो-शो -> Reservations Intelligence"
+          },
+          {
+            "title": "मॉड्यूल की कीमत कैसे तय होती है?",
+            "content": "मॉड्यूल की कोई कीमत होती ही नहीं। मॉड्यूल का न अपना स्वतंत्र दाम है, न अपना आउटलेट कोटा - आप पैकेज खरीदते हैं।\n\nCore पैकेज आपके पहले आउटलेट से लगता है, फिर हर अतिरिक्त आउटलेट पर एक सीमांत दर से, जो बढ़ने के साथ घटती जाती है। {{WORKED_EXAMPLE}}\n\nसटीक गणना के लिए pricing.sundae.io देखें।"
+          }
         ]
       },
       {
@@ -2044,7 +2230,10 @@ export const generatedLocalCopy = {
             "title": "क्या मैं केवल एक Watchtower घटक का उपयोग कर सकता हूँ?",
             "content": "हाँ। आप प्रतिस्पर्धात्मक बुद्धिमत्ता, इवेंट बुद्धिमत्ता, या बाजार बुद्धिमत्ता को व्यक्तिगत रूप से खरीद सकते हैं, या उन्हें मिलाकर उपयोग कर सकते हैं।"
           },
-          {}
+          {
+            "title": "क्या Watchtower के लिए Core ज़रूरी है?",
+            "content": "हाँ। Watchtower तब सबसे अच्छा काम करता है जब उसके बाज़ार संकेत लाइव परिचालन डेटा पर रखे जाएँ, और वही Core पैकेज देता है। इसे अलग से बेचने के बजाय आपके पैकेज के साथ ही तय और उद्धृत किया जाता है।"
+          }
         ]
       },
       {
@@ -2194,7 +2383,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Nasıl başlarım?",
-            "content": "İki seçeneğiniz var:\\n\\n1. **Fiyatınızı görün** - pricing.sundae.io adresindeki etkileşimli hesaplayıcıyla şube sayınıza göre bir Core paketi boyutlandırın.\\n\\n2. **Demo ayarlayın** - Ekibimizle 15 dakikalık bir tur planlayın ve Sundae'yi kendi verinizle çalışırken görün."
+            "content": "İki seçeneğiniz var:\n\n1. **Fiyatınızı görün** - pricing.sundae.io adresindeki etkileşimli hesaplayıcıyla şube sayınıza göre bir Core paketi boyutlandırın.\n\n2. **Demo ayarlayın** - Ekibimizle 15 dakikalık bir tur planlayın ve Sundae'yi kendi verinizle çalışırken görün."
           },
           {
             "title": "Ücretsiz bir katman var mı?",
@@ -2202,7 +2391,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Core paketleri arasındaki fark nedir?",
-            "content": "**Core Foundation** - işletme temeli: POS, iş gücü, maliyet ve operasyon üzerinde tek bir karar zemini.\\n\\n**Core Margin** - maliyet ve sızıntıda derinlik: teorik ve gerçek kullanım, israf, kayıp, iptaller ve ikramlar, ürün bazında katkı.\\n\\n**Core Growth** - talepte derinlik: misafir kohortları ve yaşam boyu değer, kanal bazında promosyon atfı, komisyon sonrası teslimat marjı.\\n\\n**Core Performance** - markalar ve bölgeler arası konsolidasyon, modüller arası korelasyon, denetim izli yönetilen erişim.\\n\\nDördü de aynı on bir alan modülünü taşır. Değişen, derinliktir."
+            "content": "**Core Foundation** - işletme temeli: POS, iş gücü, maliyet ve operasyon üzerinde tek bir karar zemini.\n\n**Core Margin** - maliyet ve sızıntıda derinlik: teorik ve gerçek kullanım, israf, kayıp, iptaller ve ikramlar, ürün bazında katkı.\n\n**Core Growth** - talepte derinlik: misafir kohortları ve yaşam boyu değer, kanal bazında promosyon atfı, komisyon sonrası teslimat marjı.\n\n**Core Performance** - markalar ve bölgeler arası konsolidasyon, modüller arası korelasyon, denetim izli yönetilen erişim.\n\nDördü de aynı on bir alan modülünü taşır. Değişen, derinliktir."
           },
           {
             "title": "Uzun vadeli sözleşme gerekir mi?",
@@ -2216,11 +2405,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae hangi ürünleri sunuyor?",
-            "content": "**Dört ana ürün:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - karar zemini; on bir alan modülünün tamamını taşır\\n2. **Foresight & Action** - tahmin, senaryo modelleme ve insan onaylı eylem katmanı\\n3. **Sundae Crew** - iş gücü zemini: vardiya planlama, puantaj, bordro hazırlığı, İK ve people intelligence\\n4. **Watchtower** - dış pazar zekası; Core paketinizle birlikte kapsamlanır\\n\\n**Ayrıca:** grubunuzun işletme modellerine özel konsept SKU'ları - franchise, otel F&B, cloud kitchen, catering, üretim, kiralık merkez mutfak."
+            "content": "**Dört ana ürün:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - karar zemini; on bir alan modülünün tamamını taşır\n2. **Foresight & Action** - tahmin, senaryo modelleme ve insan onaylı eylem katmanı\n3. **Sundae Crew** - iş gücü zemini: vardiya planlama, puantaj, bordro hazırlığı, İK ve people intelligence\n4. **Watchtower** - dış pazar zekası; Core paketinizle birlikte kapsamlanır\n\n**Ayrıca:** grubunuzun işletme modellerine özel konsept SKU'ları - franchise, otel F&B, cloud kitchen, catering, üretim, kiralık merkez mutfak."
           },
           {
             "title": "Hangi Core paketini seçmeliyim?",
-            "content": "**Core Foundation şu durumda:**\\n• Tablolardan ve kopuk panolardan çıkıyorsanız\\n• Derinleşmeden önce tek bir işletme görüntüsü istiyorsanız\\n\\n**Core Margin şu durumda:**\\n• Maliyet, israf, iptaller ya da ikramlar marjınızı yiyorsa\\n• Yalnızca satış karması değil, ürün bazında katkı gerekiyorsa\\n\\n**Core Growth şu durumda:**\\n• Tekrarlayan ciro ve kanal karması darboğazsa\\n• Misafir kohortları, promosyon atfı ve teslimat marjı gerekiyorsa\\n\\n**Core Performance şu durumda:**\\n• Birden fazla marka ya da pazar işletiyorsanız\\n• Konsolidasyon, modüller arası korelasyon ve yönetilen erişim gerekiyorsa"
+            "content": "**Core Foundation şu durumda:**\n• Tablolardan ve kopuk panolardan çıkıyorsanız\n• Derinleşmeden önce tek bir işletme görüntüsü istiyorsanız\n\n**Core Margin şu durumda:**\n• Maliyet, israf, iptaller ya da ikramlar marjınızı yiyorsa\n• Yalnızca satış karması değil, ürün bazında katkı gerekiyorsa\n\n**Core Growth şu durumda:**\n• Tekrarlayan ciro ve kanal karması darboğazsa\n• Misafir kohortları, promosyon atfı ve teslimat marjı gerekiyorsa\n\n**Core Performance şu durumda:**\n• Birden fazla marka ya da pazar işletiyorsanız\n• Konsolidasyon, modüller arası korelasyon ve yönetilen erişim gerekiyorsa"
           },
           {
             "title": "Sonradan yükseltebilir veya düşürebilir miyim?",
@@ -2228,7 +2417,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D Intelligence modeli nedir?",
-            "content": "Sundae'nin karar zekası çerçevesi:\\n\\n**1D: ne oldu** - satış, iş gücü ve maliyet gerçeği\\n**2D: plan ve gerçekleşen** - bütçe ve tahmin sapması\\n**3D: pazar bağlamı** - kıyaslamalar, emsaller ve rakipler\\n**4D: sırada ne var** - tahminler ve öneriler\\n\\nHer Core paketi dördünü de kapsar. Paket, her boyutun ne kadar derine indiğini belirler."
+            "content": "Sundae'nin karar zekası çerçevesi:\n\n**1D: ne oldu** - satış, iş gücü ve maliyet gerçeği\n**2D: plan ve gerçekleşen** - bütçe ve tahmin sapması\n**3D: pazar bağlamı** - kıyaslamalar, emsaller ve rakipler\n**4D: sırada ne var** - tahminler ve öneriler\n\nHer Core paketi dördünü de kapsar. Paket, her boyutun ne kadar derine indiğini belirler."
           }
         ]
       },
@@ -2238,7 +2427,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae hangi verilere ihtiyaç duyar?",
-            "content": "**Her Core paketi için:**\\n• API üzerinden POS sistemi\\n• Personel veya iş gücü sistemi\\n• Stok sistemi\\n• Pazarlama platformları\\n• Rezervasyon sistemi\\n\\nİlk gün değer almak için tek başına POS yeterlidir. Gerisi, bağladıkça resmi derinleştirir."
+            "content": "**Her Core paketi için:**\n• API üzerinden POS sistemi\n• Personel veya iş gücü sistemi\n• Stok sistemi\n• Pazarlama platformları\n• Rezervasyon sistemi\n\nİlk gün değer almak için tek başına POS yeterlidir. Gerisi, bağladıkça resmi derinleştirir."
           },
           {
             "title": "Verilerimi Sundae'ye nasıl aktarırım?",
@@ -2254,7 +2443,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Kurulum ne kadar sürer?",
-            "content": "Çoğu grup 1-2 hafta içinde canlıya çıkar. Daha büyük, çok markalı veya çok bölgeli yayılımlar kapsama göre 2-4 hafta sürer.\\n\\nKurulum tek seferlik bir ücrettir ve seçiminizdeki en yüksek sınıf üzerinden bir kez alınır - ücretsiz self servisten kapsamı belirlenmiş bir Class D çalışmasına kadar."
+            "content": "Çoğu grup 1-2 hafta içinde canlıya çıkar. Daha büyük, çok markalı veya çok bölgeli yayılımlar kapsama göre 2-4 hafta sürer.\n\nKurulum tek seferlik bir ücrettir ve seçiminizdeki en yüksek sınıf üzerinden bir kez alınır - ücretsiz self servisten kapsamı belirlenmiş bir Class D çalışmasına kadar."
           },
           {
             "title": "İptal edersem verilerime ne olur?",
@@ -2266,12 +2455,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Modüller nedir?",
+            "content": "On bir alan modülü, Core içindeki analitik yüzeylerdir. Paketin bileşenleridir; yanında satın alınan eklentiler değil:\n\n{{DOMAIN_MODULE_LINES}}\n\nCanlı bağlı operasyon verisine dayandıkları için Core gerektirirler."
+          },
+          {
+            "title": "Modüllere ihtiyacım var mı?",
+            "content": "İsteğe bağlı değiller ve ayrı satın alınmıyorlar. On bir alan modülünün tamamı her Core paketiyle gelir.\n\nSeçtiğiniz şey pakettir ve paket, her modülün ne kadar derine indiğini belirler."
+          },
+          {
+            "title": "Tek bir modül satın alabilir miyim?",
+            "content": "Hayır. On bir alan modülü bir Core paketinin bileşenidir, bağımsız ürün değildir ve modül başına fiyat yoktur. Hepsine sahip olmanın yolu paketi seçmektir."
+          },
+          {
+            "title": "Modülleri teker teker mi ekliyorum?",
+            "content": "Hayır. Eklenecek bir şey yok. Her Core paketi ilk günden on bir alan modülünün tamamını taşır; seçtiğiniz paket yalnızca her birinin derinliğini belirler."
+          },
+          {
+            "title": "Önce hangi modüle bakmalıyım?",
+            "content": "Hepsi zaten açık; yani soru neyi satın alacağınız değil, nereye bakmaya başlayacağınız. En büyük operasyonel sıkıntıdan başlayın:\n\n• Yüksek iş gücü maliyeti -> Labor Intelligence\n• İsraf veya stok sorunları -> Inventory Intelligence\n• Zayıf tedarikçi pazarlığı -> Purchasing Intelligence\n• Belirsiz pazarlama getirisi -> Marketing Intelligence\n• Rezervasyonlarda gelmeyenler -> Reservations Intelligence"
+          },
+          {
+            "title": "Modül fiyatlandırması nasıl işliyor?",
+            "content": "Modül fiyatlandırması yok. Modüllerin ne bağımsız bir fiyatı ne de kendine ait bir lokasyon hakkı vardır; satın aldığınız şey pakettir.\n\nBir Core paketi ilk lokasyonunuzdan itibaren, sonra her ek lokasyon için büyüdükçe azalan marjinal bir oranla fiyatlanır. {{WORKED_EXAMPLE}}\n\nKesin hesap için pricing.sundae.io adresini kullanın."
+          }
         ]
       },
       {
@@ -2294,7 +2501,10 @@ export const generatedLocalCopy = {
             "title": "Sadece bir Watchtower bileşeni kullanabilir miyim?",
             "content": "Evet. Rekabetçi Zeka, Olay Zekası veya Pazar Zekası'nı ayrı ayrı satın alabilir veya bunları birleştirebilirsiniz."
           },
-          {}
+          {
+            "title": "Watchtower için Core şart mı?",
+            "content": "Evet. Watchtower, pazar sinyalleri canlı operasyon verisinin üzerine bindiğinde en iyi sonucu verir; bunu da bir Core paketi sağlar. Tek başına satılmak yerine paketinizle birlikte kapsamlanır ve fiyatlanır."
+          }
         ]
       },
       {
@@ -2444,7 +2654,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Jak zacząć?",
-            "content": "Masz dwie możliwości:\\n\\n1. **Zobacz swoją cenę** - Skorzystaj z interaktywnego kalkulatora na pricing.sundae.io, aby dobrać pakiet Core do liczby lokalizacji.\\n\\n2. **Umów demo** - Zarezerwuj 15-minutowy przegląd z naszym zespołem i zobacz Sundae na swoich danych."
+            "content": "Masz dwie możliwości:\n\n1. **Zobacz swoją cenę** - Skorzystaj z interaktywnego kalkulatora na pricing.sundae.io, aby dobrać pakiet Core do liczby lokalizacji.\n\n2. **Umów demo** - Zarezerwuj 15-minutowy przegląd z naszym zespołem i zobacz Sundae na swoich danych."
           },
           {
             "title": "Czy jest darmowy plan?",
@@ -2452,7 +2662,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Czym różnią się pakiety Core?",
-            "content": "**Core Foundation** - baza operacyjna: jeden fundament decyzyjny nad POS, pracą, kosztem i operacjami.\\n\\n**Core Margin** - głębia w kosztach i wyciekach: zużycie teoretyczne kontra rzeczywiste, straty, ubytki, anulacje i gratisy, kontrybucja pozycji.\\n\\n**Core Growth** - głębia w popycie: kohorty gości i wartość w czasie, atrybucja promocji wg kanału, marża dostaw po prowizji.\\n\\n**Core Performance** - konsolidacja wielu marek i regionów, korelacja między modułami, kontrolowany dostęp ze śladem audytowym.\\n\\nWszystkie cztery niosą te same jedenaście modułów. Zmienia się głębia."
+            "content": "**Core Foundation** - baza operacyjna: jeden fundament decyzyjny nad POS, pracą, kosztem i operacjami.\n\n**Core Margin** - głębia w kosztach i wyciekach: zużycie teoretyczne kontra rzeczywiste, straty, ubytki, anulacje i gratisy, kontrybucja pozycji.\n\n**Core Growth** - głębia w popycie: kohorty gości i wartość w czasie, atrybucja promocji wg kanału, marża dostaw po prowizji.\n\n**Core Performance** - konsolidacja wielu marek i regionów, korelacja między modułami, kontrolowany dostęp ze śladem audytowym.\n\nWszystkie cztery niosą te same jedenaście modułów. Zmienia się głębia."
           },
           {
             "title": "Czy potrzebuję długiej umowy?",
@@ -2466,11 +2676,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Jakie produkty oferuje Sundae?",
-            "content": "**Cztery główne produkty:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - fundament decyzyjny, niosący wszystkie jedenaście modułów\\n2. **Foresight & Action** - prognozy, modelowanie scenariuszy i warstwa działania z akceptacją człowieka\\n3. **Sundae Crew** - fundament kadrowy: grafiki, ewidencja czasu, gotowość płacowa, HR i people intelligence\\n4. **Watchtower** - zewnętrzna inteligencja rynkowa, wyceniana razem z pakietem Core\\n\\n**Dodatkowo:** SKU koncepcyjne dla modeli działania twojej grupy - franczyza, F&B hotelowe, cloud kitchen, catering, produkcja, wynajmowana kuchnia centralna."
+            "content": "**Cztery główne produkty:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - fundament decyzyjny, niosący wszystkie jedenaście modułów\n2. **Foresight & Action** - prognozy, modelowanie scenariuszy i warstwa działania z akceptacją człowieka\n3. **Sundae Crew** - fundament kadrowy: grafiki, ewidencja czasu, gotowość płacowa, HR i people intelligence\n4. **Watchtower** - zewnętrzna inteligencja rynkowa, wyceniana razem z pakietem Core\n\n**Dodatkowo:** SKU koncepcyjne dla modeli działania twojej grupy - franczyza, F&B hotelowe, cloud kitchen, catering, produkcja, wynajmowana kuchnia centralna."
           },
           {
             "title": "Który pakiet Core wybrać?",
-            "content": "**Core Foundation, jeśli:**\\n• Odchodzisz od arkuszy i niepołączonych pulpitów\\n• Chcesz najpierw jeden obraz operacyjny, zanim pójdziesz głębiej\\n\\n**Core Margin, jeśli:**\\n• Koszt surowca, straty, anulacje lub gratisy zjadają twoją marżę\\n• Potrzebujesz kontrybucji pozycji, nie tylko miksu sprzedaży\\n\\n**Core Growth, jeśli:**\\n• Ograniczeniem są przychód powtarzalny i miks kanałów\\n• Potrzebujesz kohort gości, atrybucji promocji i marży dostaw\\n\\n**Core Performance, jeśli:**\\n• Prowadzisz kilka marek lub kilka rynków\\n• Potrzebujesz konsolidacji, korelacji między modułami i kontrolowanego dostępu"
+            "content": "**Core Foundation, jeśli:**\n• Odchodzisz od arkuszy i niepołączonych pulpitów\n• Chcesz najpierw jeden obraz operacyjny, zanim pójdziesz głębiej\n\n**Core Margin, jeśli:**\n• Koszt surowca, straty, anulacje lub gratisy zjadają twoją marżę\n• Potrzebujesz kontrybucji pozycji, nie tylko miksu sprzedaży\n\n**Core Growth, jeśli:**\n• Ograniczeniem są przychód powtarzalny i miks kanałów\n• Potrzebujesz kohort gości, atrybucji promocji i marży dostaw\n\n**Core Performance, jeśli:**\n• Prowadzisz kilka marek lub kilka rynków\n• Potrzebujesz konsolidacji, korelacji między modułami i kontrolowanego dostępu"
           },
           {
             "title": "Czy mogę później zaktualizować lub obniżyć wersję?",
@@ -2478,7 +2688,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Czym jest model 4D Intelligence?",
-            "content": "Rama Sundae dla inteligencji decyzyjnej:\\n\\n**1D: co się wydarzyło** - prawda o sprzedaży, pracy i koszcie\\n**2D: plan kontra wykonanie** - odchylenie od budżetu i prognozy\\n**3D: kontekst rynkowy** - benchmarki, porównywalni i konkurenci\\n**4D: co dalej** - prognozy i rekomendacje\\n\\nKażdy pakiet Core obejmuje wszystkie cztery. Pakiet ustala, jak głęboko sięga każdy wymiar."
+            "content": "Rama Sundae dla inteligencji decyzyjnej:\n\n**1D: co się wydarzyło** - prawda o sprzedaży, pracy i koszcie\n**2D: plan kontra wykonanie** - odchylenie od budżetu i prognozy\n**3D: kontekst rynkowy** - benchmarki, porównywalni i konkurenci\n**4D: co dalej** - prognozy i rekomendacje\n\nKażdy pakiet Core obejmuje wszystkie cztery. Pakiet ustala, jak głęboko sięga każdy wymiar."
           }
         ]
       },
@@ -2488,7 +2698,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Jakich danych potrzebuje Sundae?",
-            "content": "**Dla każdego pakietu Core:**\\n• System POS przez API\\n• System kadrowy lub grafikowy\\n• System magazynowy\\n• Platformy marketingowe\\n• System rezerwacji\\n\\nSam POS wystarczy, by uzyskać wartość pierwszego dnia. Reszta pogłębia obraz, w miarę jak ją podłączasz."
+            "content": "**Dla każdego pakietu Core:**\n• System POS przez API\n• System kadrowy lub grafikowy\n• System magazynowy\n• Platformy marketingowe\n• System rezerwacji\n\nSam POS wystarczy, by uzyskać wartość pierwszego dnia. Reszta pogłębia obraz, w miarę jak ją podłączasz."
           },
           {
             "title": "Jak moje dane trafiają do Sundae?",
@@ -2504,7 +2714,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Ile trwa wdrożenie?",
-            "content": "Większość grup działa w 1-2 tygodnie. Większe wdrożenia wielomarkowe lub wieloregionalne zajmują 2-4 tygodnie w zależności od zakresu.\\n\\nWdrożenie to opłata jednorazowa, naliczana raz według najwyższej klasy w twoim wyborze - od bezpłatnego self-service po określone zaangażowanie Class D."
+            "content": "Większość grup działa w 1-2 tygodnie. Większe wdrożenia wielomarkowe lub wieloregionalne zajmują 2-4 tygodnie w zależności od zakresu.\n\nWdrożenie to opłata jednorazowa, naliczana raz według najwyższej klasy w twoim wyborze - od bezpłatnego self-service po określone zaangażowanie Class D."
           },
           {
             "title": "Co się stanie z moimi danymi, jeśli anuluję?",
@@ -2516,12 +2726,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Czym są moduły?",
+            "content": "Jedenaście modułów dziedzinowych to powierzchnie analityczne wewnątrz Core. To składniki pakietu, a nie dodatki kupowane osobno:\n\n{{DOMAIN_MODULE_LINES}}\n\nWymagają Core, bo opierają się na na żywo podłączonych danych operacyjnych."
+          },
+          {
+            "title": "Czy potrzebuję modułów?",
+            "content": "Nie są opcjonalne i nie są osobnym zakupem. Wszystkie jedenaście modułów wchodzi w skład każdego pakietu Core.\n\nWybierasz pakiet, a pakiet ustala, jak głęboko sięga każdy moduł."
+          },
+          {
+            "title": "Czy mogę kupić pojedynczy moduł?",
+            "content": "Nie. Jedenaście modułów to składniki pakietu Core, a nie samodzielne produkty, i nie ma ceny za moduł. Wybór pakietu to sposób, by mieć je wszystkie."
+          },
+          {
+            "title": "Czy dodaje się moduły po kolei?",
+            "content": "Nie. Nie ma czego dodawać. Każdy pakiet Core niesie wszystkie jedenaście modułów od pierwszego dnia - wybrany pakiet ustala jedynie, jak głęboko sięga każdy z nich."
+          },
+          {
+            "title": "Od którego modułu zacząć?",
+            "content": "Wszystkie są już włączone, więc chodzi o to, gdzie zacząć patrzeć, a nie co kupić. Zacznij od największego bólu operacyjnego:\n\n• Wysoki koszt pracy -> Labor Intelligence\n• Straty lub problemy magazynowe -> Inventory Intelligence\n• Słaba dźwignia u dostawców -> Purchasing Intelligence\n• Niejasny ROI marketingu -> Marketing Intelligence\n• Nieodwołane rezerwacje -> Reservations Intelligence"
+          },
+          {
+            "title": "Jak działa wycena modułów?",
+            "content": "Nie ma wyceny modułów. Moduły nie mają własnej ceny ani własnego limitu lokalizacji - kupujesz pakiet.\n\nPakiet Core liczony jest od pierwszej lokalizacji, a potem według stawki krańcowej za każdą kolejną, która maleje wraz ze wzrostem. {{WORKED_EXAMPLE}}\n\nDokładne wyliczenie znajdziesz na pricing.sundae.io."
+          }
         ]
       },
       {
@@ -2544,7 +2772,10 @@ export const generatedLocalCopy = {
             "title": "Czy mogę używać tylko jednego komponentu Watchtower?",
             "content": "Tak. Możesz kupić Inteligencję konkurencji, Inteligencję wydarzeń lub Inteligencję rynkową osobno, lub je połączyć."
           },
-          {}
+          {
+            "title": "Czy Watchtower wymaga Core?",
+            "content": "Tak. Watchtower działa najlepiej, gdy jego sygnały rynkowe nakładają się na żywe dane operacyjne, a te daje pakiet Core. Jest wyceniany razem z twoim pakietem, a nie sprzedawany osobno."
+          }
         ]
       },
       {
@@ -2694,7 +2925,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "我该如何开始？",
-            "content": "你有两个选择：\\n\\n1. **查看你的报价** - 在 pricing.sundae.io 使用交互式计算器，按门店数量匹配一个 Core 套餐。\\n\\n2. **预约演示** - 与团队约一场 15 分钟的讲解，看 Sundae 跑在你自己的数据上。"
+            "content": "你有两个选择：\n\n1. **查看你的报价** - 在 pricing.sundae.io 使用交互式计算器，按门店数量匹配一个 Core 套餐。\n\n2. **预约演示** - 与团队约一场 15 分钟的讲解，看 Sundae 跑在你自己的数据上。"
           },
           {
             "title": "有免费版吗？",
@@ -2702,7 +2933,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Core 各套餐有什么区别？",
-            "content": "**Core Foundation** - 运营基线：覆盖 POS、人力、成本与运营的统一决策底座。\\n\\n**Core Margin** - 成本与流失的纵深：理论用量与实际用量、损耗、盘亏、作废与赠单、单品贡献。\\n\\n**Core Growth** - 需求侧的纵深：客户分群与生命周期价值、按渠道的促销归因、扣佣后的外卖毛利。\\n\\n**Core Performance** - 跨品牌跨区域合并、模块间关联分析、带审计轨迹的受控访问。\\n\\n四者携带同样的十一个领域模块，改变的是各自的纵深。"
+            "content": "**Core Foundation** - 运营基线：覆盖 POS、人力、成本与运营的统一决策底座。\n\n**Core Margin** - 成本与流失的纵深：理论用量与实际用量、损耗、盘亏、作废与赠单、单品贡献。\n\n**Core Growth** - 需求侧的纵深：客户分群与生命周期价值、按渠道的促销归因、扣佣后的外卖毛利。\n\n**Core Performance** - 跨品牌跨区域合并、模块间关联分析、带审计轨迹的受控访问。\n\n四者携带同样的十一个领域模块，改变的是各自的纵深。"
           },
           {
             "title": "需要签长期合同吗？",
@@ -2716,11 +2947,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae 提供哪些产品？",
-            "content": "**四个主要产品：**\\n\\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）——决策底座，承载全部十一个领域模块\\n2. **Foresight & Action**——预测、情景建模，以及带人工审批的行动层\\n3. **Sundae Crew**——人力底座：排班、考勤、薪酬就绪、人事与人才洞察\\n4. **Watchtower**——外部市场情报，与你的 Core 套餐一并确定范围\\n\\n**此外：**面向你集团经营模式的概念型 SKU——加盟、酒店餐饮、云厨房、宴会外烩、生产、租赁中央厨房。"
+            "content": "**四个主要产品：**\n\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）——决策底座，承载全部十一个领域模块\n2. **Foresight & Action**——预测、情景建模，以及带人工审批的行动层\n3. **Sundae Crew**——人力底座：排班、考勤、薪酬就绪、人事与人才洞察\n4. **Watchtower**——外部市场情报，与你的 Core 套餐一并确定范围\n\n**此外：**面向你集团经营模式的概念型 SKU——加盟、酒店餐饮、云厨房、宴会外烩、生产、租赁中央厨房。"
           },
           {
             "title": "我该选哪个 Core 套餐？",
-            "content": "**选 Core Foundation，如果：**\\n• 你正在摆脱表格和彼此割裂的看板\\n• 你想先有一张统一的运营图，再往深处走\\n\\n**选 Core Margin，如果：**\\n• 食材成本、损耗、作废或赠单正在吃掉你的毛利\\n• 你需要单品贡献，而不只是销售结构\\n\\n**选 Core Growth，如果：**\\n• 复购收入与渠道结构是瓶颈\\n• 你需要客户分群、促销归因和外卖毛利\\n\\n**选 Core Performance，如果：**\\n• 你经营多个品牌或多个市场\\n• 你需要合并、跨模块关联和受控访问"
+            "content": "**选 Core Foundation，如果：**\n• 你正在摆脱表格和彼此割裂的看板\n• 你想先有一张统一的运营图，再往深处走\n\n**选 Core Margin，如果：**\n• 食材成本、损耗、作废或赠单正在吃掉你的毛利\n• 你需要单品贡献，而不只是销售结构\n\n**选 Core Growth，如果：**\n• 复购收入与渠道结构是瓶颈\n• 你需要客户分群、促销归因和外卖毛利\n\n**选 Core Performance，如果：**\n• 你经营多个品牌或多个市场\n• 你需要合并、跨模块关联和受控访问"
           },
           {
             "title": "我可以稍后升级或降级吗？",
@@ -2728,7 +2959,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "什么是 4D Intelligence 模型？",
-            "content": "Sundae 的决策智能框架：\\n\\n**1D：发生了什么**——销售、人力与成本的真实情况\\n**2D：计划与实际**——预算与预测偏差\\n**3D：市场背景**——对标、同行与竞争者\\n**4D：接下来会怎样**——预测与建议\\n\\n每个 Core 套餐都覆盖这四个维度，套餐决定每个维度的纵深。"
+            "content": "Sundae 的决策智能框架：\n\n**1D：发生了什么**——销售、人力与成本的真实情况\n**2D：计划与实际**——预算与预测偏差\n**3D：市场背景**——对标、同行与竞争者\n**4D：接下来会怎样**——预测与建议\n\n每个 Core 套餐都覆盖这四个维度，套餐决定每个维度的纵深。"
           }
         ]
       },
@@ -2738,7 +2969,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae 需要哪些数据？",
-            "content": "**每个 Core 套餐都需要：**\\n• 通过 API 接入的 POS 系统\\n• 人力或排班系统\\n• 库存系统\\n• 营销平台\\n• 预订系统\\n\\n仅接入 POS，第一天就能产生价值。其余系统接入后会让画面更完整。"
+            "content": "**每个 Core 套餐都需要：**\n• 通过 API 接入的 POS 系统\n• 人力或排班系统\n• 库存系统\n• 营销平台\n• 预订系统\n\n仅接入 POS，第一天就能产生价值。其余系统接入后会让画面更完整。"
           },
           {
             "title": "我的数据怎么进入 Sundae？",
@@ -2754,7 +2985,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "实施需要多久？",
-            "content": "多数集团在 1-2 周内上线。更大的多品牌或多区域推广，视范围需 2-4 周。\\n\\n实施为一次性费用，按你所选的最高级别一次性计收——从零费用的自助，到范围明确的 Class D 服务。"
+            "content": "多数集团在 1-2 周内上线。更大的多品牌或多区域推广，视范围需 2-4 周。\n\n实施为一次性费用，按你所选的最高级别一次性计收——从零费用的自助，到范围明确的 Class D 服务。"
           },
           {
             "title": "如果我取消，数据会怎样？",
@@ -2766,12 +2997,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "什么是模块？",
+            "content": "十一个领域模块是 Core 内部的分析界面。它们是套餐的组成部分，不是另行购买的附加项：\n\n{{DOMAIN_MODULE_LINES}}\n\n它们需要 Core，因为它们依赖实时接入的运营数据。"
+          },
+          {
+            "title": "我需要模块吗？",
+            "content": "它们不是可选项，也不是单独购买的东西。十一个领域模块随每个 Core 套餐一同提供。\n\n你选择的是套餐，而套餐决定每个模块的纵深。"
+          },
+          {
+            "title": "我能单买一个模块吗？",
+            "content": "不能。十一个领域模块是 Core 套餐的组成部分，不是独立产品，也没有按模块计价。选择套餐就是获得全部模块的方式。"
+          },
+          {
+            "title": "模块是一个一个加上去的吗？",
+            "content": "不是。没有什么要加。每个 Core 套餐从第一天起就带有全部十一个领域模块——你选的套餐只决定每个模块的纵深。"
+          },
+          {
+            "title": "我该先看哪个模块？",
+            "content": "它们都已开启，所以问题是从哪里开始看，而不是买什么。从最大的运营痛点开始：\n\n• 人力成本偏高 -> Labor Intelligence\n• 损耗或库存问题 -> Inventory Intelligence\n• 对供应商议价力弱 -> Purchasing Intelligence\n• 营销回报不清 -> Marketing Intelligence\n• 预订爽约 -> Reservations Intelligence"
+          },
+          {
+            "title": "模块如何计价？",
+            "content": "没有模块计价。模块既没有独立价格，也没有自己的门店额度——你买的是套餐。\n\nCore 套餐从第一家门店起计价，之后每增加一家按边际费率计算，且随着规模增长逐级下降。{{WORKED_EXAMPLE}}\n\n精确算法请用 pricing.sundae.io。"
+          }
         ]
       },
       {
@@ -2794,7 +3043,10 @@ export const generatedLocalCopy = {
             "title": "我可以只使用一个 Watchtower 组件吗？",
             "content": "可以。您可以单独购买竞争情报、事件情报或市场情报，或将它们组合在一起。"
           },
-          {}
+          {
+            "title": "Watchtower 需要 Core 吗？",
+            "content": "需要。当 Watchtower 的市场信号叠加在实时运营数据之上时效果最好，而这正是 Core 套餐提供的。它与你的套餐一并确定范围和报价，而不是单独销售。"
+          }
         ]
       },
       {
@@ -2944,7 +3196,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "どう始めればいいですか？",
-            "content": "方法は二つあります。\\n\\n1. **料金を確認する** - pricing.sundae.io の対話型計算ツールで、店舗数に合わせて Core パッケージを見積もれます。\\n\\n2. **デモを予約する** - 15分の説明を予約し、自社データ上で動く Sundae をご覧ください。"
+            "content": "方法は二つあります。\n\n1. **料金を確認する** - pricing.sundae.io の対話型計算ツールで、店舗数に合わせて Core パッケージを見積もれます。\n\n2. **デモを予約する** - 15分の説明を予約し、自社データ上で動く Sundae をご覧ください。"
           },
           {
             "title": "無料プランはありますか？",
@@ -2952,7 +3204,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Core パッケージの違いは何ですか？",
-            "content": "**Core Foundation** - 運営の土台。POS、人件費、原価、オペレーションをまたぐ一つの意思決定基盤です。\\n\\n**Core Margin** - 原価と漏れの深掘り。理論使用量と実使用量、廃棄、棚卸差異、取消・サービス提供、商品別の貢献度。\\n\\n**Core Growth** - 需要側の深掘り。顧客コホートと生涯価値、チャネル別の販促寄与、手数料控除後のデリバリー利益。\\n\\n**Core Performance** - 複数ブランド・複数地域の連結、モジュール横断の相関、監査証跡を伴う統制されたアクセス。\\n\\n四つとも同じ11の業務モジュールを備えます。変わるのは深さです。"
+            "content": "**Core Foundation** - 運営の土台。POS、人件費、原価、オペレーションをまたぐ一つの意思決定基盤です。\n\n**Core Margin** - 原価と漏れの深掘り。理論使用量と実使用量、廃棄、棚卸差異、取消・サービス提供、商品別の貢献度。\n\n**Core Growth** - 需要側の深掘り。顧客コホートと生涯価値、チャネル別の販促寄与、手数料控除後のデリバリー利益。\n\n**Core Performance** - 複数ブランド・複数地域の連結、モジュール横断の相関、監査証跡を伴う統制されたアクセス。\n\n四つとも同じ11の業務モジュールを備えます。変わるのは深さです。"
           },
           {
             "title": "長期契約は必要ですか？",
@@ -2966,11 +3218,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae にはどんな製品がありますか？",
-            "content": "**主要な4製品：**\\n\\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）- 意思決定の基盤。11の業務モジュールすべてを備えます\\n2. **Foresight & Action** - 予測、シナリオ設計、そして人の承認を挟む実行レイヤー\\n3. **Sundae Crew** - 人材の基盤。シフト、勤怠、給与準備、人事、ピープルインテリジェンス\\n4. **Watchtower** - 外部の市場インテリジェンス。Core パッケージと合わせて範囲を決めます\\n\\n**さらに：**貴社の運営形態に合わせたコンセプト SKU - フランチャイズ、ホテル F&B、クラウドキッチン、ケータリング、製造、レンタルセントラルキッチン。"
+            "content": "**主要な4製品：**\n\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）- 意思決定の基盤。11の業務モジュールすべてを備えます\n2. **Foresight & Action** - 予測、シナリオ設計、そして人の承認を挟む実行レイヤー\n3. **Sundae Crew** - 人材の基盤。シフト、勤怠、給与準備、人事、ピープルインテリジェンス\n4. **Watchtower** - 外部の市場インテリジェンス。Core パッケージと合わせて範囲を決めます\n\n**さらに：**貴社の運営形態に合わせたコンセプト SKU - フランチャイズ、ホテル F&B、クラウドキッチン、ケータリング、製造、レンタルセントラルキッチン。"
           },
           {
             "title": "どの Core パッケージを選べばよいですか？",
-            "content": "**Core Foundation が向く場合：**\\n• 表計算やばらばらのダッシュボードから脱却したい\\n• 深掘りの前に、まず一つの運営像がほしい\\n\\n**Core Margin が向く場合：**\\n• 原価、廃棄、取消、サービス提供が利益を削っている\\n• 売上構成だけでなく、商品別の貢献度が必要\\n\\n**Core Growth が向く場合：**\\n• リピート売上とチャネル構成が制約になっている\\n• 顧客コホート、販促寄与、デリバリー利益が必要\\n\\n**Core Performance が向く場合：**\\n• 複数ブランドや複数市場を運営している\\n• 連結、モジュール横断の相関、統制されたアクセスが必要"
+            "content": "**Core Foundation が向く場合：**\n• 表計算やばらばらのダッシュボードから脱却したい\n• 深掘りの前に、まず一つの運営像がほしい\n\n**Core Margin が向く場合：**\n• 原価、廃棄、取消、サービス提供が利益を削っている\n• 売上構成だけでなく、商品別の貢献度が必要\n\n**Core Growth が向く場合：**\n• リピート売上とチャネル構成が制約になっている\n• 顧客コホート、販促寄与、デリバリー利益が必要\n\n**Core Performance が向く場合：**\n• 複数ブランドや複数市場を運営している\n• 連結、モジュール横断の相関、統制されたアクセスが必要"
           },
           {
             "title": "後でアップグレードまたはダウングレードできますか？",
@@ -2978,7 +3230,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D Intelligence モデルとは何ですか？",
-            "content": "Sundae の意思決定インテリジェンスの枠組みです。\\n\\n**1D：何が起きたか** - 売上、人件費、原価の事実\\n**2D：計画と実績** - 予算と予測の差異\\n**3D：市場の文脈** - ベンチマーク、同業、競合\\n**4D：次に何が起きるか** - 予測と推奨\\n\\nどの Core パッケージも4つすべてを扱います。パッケージが各次元の深さを決めます。"
+            "content": "Sundae の意思決定インテリジェンスの枠組みです。\n\n**1D：何が起きたか** - 売上、人件費、原価の事実\n**2D：計画と実績** - 予算と予測の差異\n**3D：市場の文脈** - ベンチマーク、同業、競合\n**4D：次に何が起きるか** - 予測と推奨\n\nどの Core パッケージも4つすべてを扱います。パッケージが各次元の深さを決めます。"
           }
         ]
       },
@@ -2988,7 +3240,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae にはどのデータが必要ですか？",
-            "content": "**すべての Core パッケージで：**\\n• API 経由の POS システム\\n• 人件費・要員管理システム\\n• 在庫システム\\n• マーケティング基盤\\n• 予約システム\\n\\nPOS だけでも初日から価値が出ます。ほかは接続するほど解像度が上がります。"
+            "content": "**すべての Core パッケージで：**\n• API 経由の POS システム\n• 人件費・要員管理システム\n• 在庫システム\n• マーケティング基盤\n• 予約システム\n\nPOS だけでも初日から価値が出ます。ほかは接続するほど解像度が上がります。"
           },
           {
             "title": "データはどうやって Sundae に入りますか？",
@@ -3004,7 +3256,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "導入にはどのくらいかかりますか？",
-            "content": "多くのグループは1〜2週間で稼働します。複数ブランド・複数地域にまたがる大規模な展開は、範囲により2〜4週間です。\\n\\n導入費用は一度きりで、選択された中で最上位のクラスに基づき一回だけ請求されます。無償のセルフサービスから、範囲を定めた Class D の支援まで幅があります。"
+            "content": "多くのグループは1〜2週間で稼働します。複数ブランド・複数地域にまたがる大規模な展開は、範囲により2〜4週間です。\n\n導入費用は一度きりで、選択された中で最上位のクラスに基づき一回だけ請求されます。無償のセルフサービスから、範囲を定めた Class D の支援まで幅があります。"
           },
           {
             "title": "キャンセルした場合、私のデータはどうなりますか？",
@@ -3016,12 +3268,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "モジュールとは何ですか？",
+            "content": "11の業務モジュールは Core の内側にある分析面です。パッケージの構成要素であり、別途購入する追加機能ではありません。\n\n{{DOMAIN_MODULE_LINES}}\n\nライブ接続された業務データに依存するため、Core が前提になります。"
+          },
+          {
+            "title": "モジュールは必要ですか？",
+            "content": "任意ではありませんし、別売でもありません。11の業務モジュールはすべての Core パッケージに含まれます。\n\n選ぶのはパッケージで、パッケージが各モジュールの深さを決めます。"
+          },
+          {
+            "title": "モジュールを単体で購入できますか？",
+            "content": "できません。11の業務モジュールは Core パッケージの構成要素であって単体製品ではなく、モジュール単位の価格もありません。すべてを手にする方法はパッケージを選ぶことです。"
+          },
+          {
+            "title": "モジュールは一つずつ追加するのですか？",
+            "content": "いいえ。追加するものはありません。どの Core パッケージも初日から11の業務モジュールをすべて備えており、選んだパッケージが各モジュールの深さを決めるだけです。"
+          },
+          {
+            "title": "最初にどのモジュールを見ればよいですか？",
+            "content": "すべてすでに有効なので、何を買うかではなく、どこから見るかという話です。いちばん大きな運営上の痛みから始めてください。\n\n• 人件費が高い -> Labor Intelligence\n• 廃棄や在庫の問題 -> Inventory Intelligence\n• 仕入先への交渉力が弱い -> Purchasing Intelligence\n• マーケティングの費用対効果が不明 -> Marketing Intelligence\n• 予約の無断キャンセル -> Reservations Intelligence"
+          },
+          {
+            "title": "モジュールの料金はどうなっていますか？",
+            "content": "モジュール単位の料金はありません。モジュールには独立した価格も、独自の店舗数枠もありません。購入するのはパッケージです。\n\nCore パッケージは1店舗目から課金され、以降は追加店舗ごとの限界料率で計算され、規模が大きくなるほどその料率は下がります。{{WORKED_EXAMPLE}}\n\n正確な計算は pricing.sundae.io をご利用ください。"
+          }
         ]
       },
       {
@@ -3044,7 +3314,10 @@ export const generatedLocalCopy = {
             "title": "Watchtowerのコンポーネントを1つだけ使用できますか？",
             "content": "はい。競合情報、イベント情報、または市場情報を個別に購入することも、組み合わせて購入することもできます。"
           },
-          {}
+          {
+            "title": "Watchtower には Core が必要ですか？",
+            "content": "必要です。Watchtower は市場シグナルをライブの業務データに重ねたときに最も力を発揮し、それを与えるのが Core パッケージです。単体販売ではなく、パッケージと合わせて範囲と価格を決めます。"
+          }
         ]
       },
       {
@@ -3194,7 +3467,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "어떻게 시작하나요?",
-            "content": "두 가지 방법이 있습니다.\\n\\n1. **가격 확인하기** - pricing.sundae.io의 대화형 계산기로 매장 수에 맞춰 Core 패키지를 산정해 보세요.\\n\\n2. **데모 예약하기** - 15분 설명을 예약하고, 실제 데이터 위에서 동작하는 Sundae를 확인하세요."
+            "content": "두 가지 방법이 있습니다.\n\n1. **가격 확인하기** - pricing.sundae.io의 대화형 계산기로 매장 수에 맞춰 Core 패키지를 산정해 보세요.\n\n2. **데모 예약하기** - 15분 설명을 예약하고, 실제 데이터 위에서 동작하는 Sundae를 확인하세요."
           },
           {
             "title": "무료 플랜이 있나요?",
@@ -3202,7 +3475,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Core 패키지는 어떻게 다른가요?",
-            "content": "**Core Foundation** - 운영의 기준선. POS, 인건비, 원가, 운영을 아우르는 하나의 의사결정 기반입니다.\\n\\n**Core Margin** - 원가와 누수의 심화. 이론 사용량 대 실제 사용량, 폐기, 재고 손실, 취소와 서비스 제공, 품목별 기여도.\\n\\n**Core Growth** - 수요 측면의 심화. 고객 코호트와 생애가치, 채널별 프로모션 기여도, 수수료 차감 후 배달 마진.\\n\\n**Core Performance** - 다중 브랜드·다중 지역 통합, 모듈 간 상관분석, 감사 추적을 갖춘 통제된 접근.\\n\\n네 패키지 모두 동일한 11개 도메인 모듈을 담습니다. 달라지는 것은 깊이입니다."
+            "content": "**Core Foundation** - 운영의 기준선. POS, 인건비, 원가, 운영을 아우르는 하나의 의사결정 기반입니다.\n\n**Core Margin** - 원가와 누수의 심화. 이론 사용량 대 실제 사용량, 폐기, 재고 손실, 취소와 서비스 제공, 품목별 기여도.\n\n**Core Growth** - 수요 측면의 심화. 고객 코호트와 생애가치, 채널별 프로모션 기여도, 수수료 차감 후 배달 마진.\n\n**Core Performance** - 다중 브랜드·다중 지역 통합, 모듈 간 상관분석, 감사 추적을 갖춘 통제된 접근.\n\n네 패키지 모두 동일한 11개 도메인 모듈을 담습니다. 달라지는 것은 깊이입니다."
           },
           {
             "title": "장기 계약이 필요한가요?",
@@ -3216,11 +3489,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae는 어떤 제품을 제공하나요?",
-            "content": "**주요 4개 제품:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - 의사결정 기반으로, 11개 도메인 모듈을 모두 담습니다\\n2. **Foresight & Action** - 예측, 시나리오 모델링, 그리고 사람이 승인하는 실행 레이어\\n3. **Sundae Crew** - 인력 기반: 근무 편성, 근태, 급여 준비, 인사, 피플 인텔리전스\\n4. **Watchtower** - 외부 시장 인텔리전스로, Core 패키지와 함께 범위를 정합니다\\n\\n**추가로:** 그룹의 운영 모델에 맞춘 콘셉트 SKU - 프랜차이즈, 호텔 F&B, 클라우드 키친, 케이터링, 생산, 임대 센트럴 키친."
+            "content": "**주요 4개 제품:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - 의사결정 기반으로, 11개 도메인 모듈을 모두 담습니다\n2. **Foresight & Action** - 예측, 시나리오 모델링, 그리고 사람이 승인하는 실행 레이어\n3. **Sundae Crew** - 인력 기반: 근무 편성, 근태, 급여 준비, 인사, 피플 인텔리전스\n4. **Watchtower** - 외부 시장 인텔리전스로, Core 패키지와 함께 범위를 정합니다\n\n**추가로:** 그룹의 운영 모델에 맞춘 콘셉트 SKU - 프랜차이즈, 호텔 F&B, 클라우드 키친, 케이터링, 생산, 임대 센트럴 키친."
           },
           {
             "title": "어떤 Core 패키지를 선택해야 하나요?",
-            "content": "**Core Foundation이 맞는 경우:**\\n• 스프레드시트와 흩어진 대시보드에서 벗어나려는 경우\\n• 더 깊이 들어가기 전에 하나의 운영 그림이 필요한 경우\\n\\n**Core Margin이 맞는 경우:**\\n• 원가, 폐기, 취소, 서비스 제공이 마진을 갉아먹는 경우\\n• 매출 구성이 아니라 품목별 기여도가 필요한 경우\\n\\n**Core Growth가 맞는 경우:**\\n• 재방문 매출과 채널 구성이 제약인 경우\\n• 고객 코호트, 프로모션 기여도, 배달 마진이 필요한 경우\\n\\n**Core Performance가 맞는 경우:**\\n• 여러 브랜드나 여러 시장을 운영하는 경우\\n• 통합, 모듈 간 상관분석, 통제된 접근이 필요한 경우"
+            "content": "**Core Foundation이 맞는 경우:**\n• 스프레드시트와 흩어진 대시보드에서 벗어나려는 경우\n• 더 깊이 들어가기 전에 하나의 운영 그림이 필요한 경우\n\n**Core Margin이 맞는 경우:**\n• 원가, 폐기, 취소, 서비스 제공이 마진을 갉아먹는 경우\n• 매출 구성이 아니라 품목별 기여도가 필요한 경우\n\n**Core Growth가 맞는 경우:**\n• 재방문 매출과 채널 구성이 제약인 경우\n• 고객 코호트, 프로모션 기여도, 배달 마진이 필요한 경우\n\n**Core Performance가 맞는 경우:**\n• 여러 브랜드나 여러 시장을 운영하는 경우\n• 통합, 모듈 간 상관분석, 통제된 접근이 필요한 경우"
           },
           {
             "title": "나중에 업그레이드 또는 다운그레이드할 수 있나요?",
@@ -3228,7 +3501,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D Intelligence 모델이란 무엇인가요?",
-            "content": "Sundae의 의사결정 인텔리전스 프레임워크입니다.\\n\\n**1D: 무슨 일이 있었나** - 매출, 인건비, 원가의 사실\\n**2D: 계획 대 실적** - 예산 및 예측 대비 편차\\n**3D: 시장 맥락** - 벤치마크, 동종업계, 경쟁사\\n**4D: 다음은 무엇인가** - 예측과 권고\\n\\n모든 Core 패키지가 네 가지를 모두 다루며, 패키지가 각 차원의 깊이를 정합니다."
+            "content": "Sundae의 의사결정 인텔리전스 프레임워크입니다.\n\n**1D: 무슨 일이 있었나** - 매출, 인건비, 원가의 사실\n**2D: 계획 대 실적** - 예산 및 예측 대비 편차\n**3D: 시장 맥락** - 벤치마크, 동종업계, 경쟁사\n**4D: 다음은 무엇인가** - 예측과 권고\n\n모든 Core 패키지가 네 가지를 모두 다루며, 패키지가 각 차원의 깊이를 정합니다."
           }
         ]
       },
@@ -3238,7 +3511,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae에는 어떤 데이터가 필요한가요?",
-            "content": "**모든 Core 패키지 공통:**\\n• API로 연결되는 POS 시스템\\n• 인력 또는 근무 관리 시스템\\n• 재고 시스템\\n• 마케팅 플랫폼\\n• 예약 시스템\\n\\nPOS만 연결해도 첫날부터 가치를 얻습니다. 나머지는 연결할수록 그림이 깊어집니다."
+            "content": "**모든 Core 패키지 공통:**\n• API로 연결되는 POS 시스템\n• 인력 또는 근무 관리 시스템\n• 재고 시스템\n• 마케팅 플랫폼\n• 예약 시스템\n\nPOS만 연결해도 첫날부터 가치를 얻습니다. 나머지는 연결할수록 그림이 깊어집니다."
           },
           {
             "title": "제 데이터는 어떻게 Sundae로 들어가나요?",
@@ -3254,7 +3527,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "도입에는 얼마나 걸리나요?",
-            "content": "대부분의 그룹은 1~2주 안에 가동합니다. 여러 브랜드나 여러 지역에 걸친 큰 규모의 도입은 범위에 따라 2~4주가 걸립니다.\\n\\n도입 비용은 일회성이며, 선택하신 항목 중 가장 높은 등급을 기준으로 한 번만 청구됩니다. 무상 셀프서비스부터 범위가 정해진 Class D 지원까지 있습니다."
+            "content": "대부분의 그룹은 1~2주 안에 가동합니다. 여러 브랜드나 여러 지역에 걸친 큰 규모의 도입은 범위에 따라 2~4주가 걸립니다.\n\n도입 비용은 일회성이며, 선택하신 항목 중 가장 높은 등급을 기준으로 한 번만 청구됩니다. 무상 셀프서비스부터 범위가 정해진 Class D 지원까지 있습니다."
           },
           {
             "title": "취소하면 내 데이터는 어떻게 되나요?",
@@ -3266,12 +3539,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "모듈이란 무엇인가요?",
+            "content": "11개 도메인 모듈은 Core 안의 분석 화면입니다. 패키지의 구성 요소이며, 따로 구매하는 부가 기능이 아닙니다.\n\n{{DOMAIN_MODULE_LINES}}\n\n실시간으로 연결된 운영 데이터에 의존하기 때문에 Core가 필요합니다."
+          },
+          {
+            "title": "모듈이 꼭 필요한가요?",
+            "content": "선택 사항도 아니고 별도 구매도 아닙니다. 11개 도메인 모듈은 모든 Core 패키지에 포함됩니다.\n\n고객이 고르는 것은 패키지이고, 패키지가 각 모듈의 깊이를 정합니다."
+          },
+          {
+            "title": "모듈 하나만 살 수 있나요?",
+            "content": "불가능합니다. 11개 도메인 모듈은 Core 패키지의 구성 요소이지 독립 제품이 아니며, 모듈별 가격도 없습니다. 패키지를 선택하는 것이 모두를 갖는 방법입니다."
+          },
+          {
+            "title": "모듈을 하나씩 추가하나요?",
+            "content": "아닙니다. 추가할 것이 없습니다. 모든 Core 패키지가 첫날부터 11개 도메인 모듈을 모두 담고 있으며, 선택한 패키지는 각 모듈의 깊이만 정합니다."
+          },
+          {
+            "title": "어떤 모듈부터 봐야 하나요?",
+            "content": "이미 전부 켜져 있으므로, 무엇을 살지가 아니라 어디부터 볼지의 문제입니다. 가장 큰 운영 문제부터 시작하세요.\n\n• 높은 인건비 -> Labor Intelligence\n• 폐기나 재고 문제 -> Inventory Intelligence\n• 공급업체 협상력 부족 -> Purchasing Intelligence\n• 불분명한 마케팅 성과 -> Marketing Intelligence\n• 예약 노쇼 -> Reservations Intelligence"
+          },
+          {
+            "title": "모듈 가격은 어떻게 되나요?",
+            "content": "모듈 가격이라는 것이 없습니다. 모듈에는 독립적인 가격도, 자체 매장 한도도 없습니다. 구매하시는 것은 패키지입니다.\n\nCore 패키지는 첫 매장부터 과금되고, 이후 매장마다 한계 요율이 적용되며 규모가 커질수록 그 요율은 내려갑니다. {{WORKED_EXAMPLE}}\n\n정확한 계산은 pricing.sundae.io를 이용하세요."
+          }
         ]
       },
       {
@@ -3294,7 +3585,10 @@ export const generatedLocalCopy = {
             "title": "Watchtower 구성 요소 하나만 사용할 수 있나요?",
             "content": "네. 경쟁 정보, 이벤트 정보 또는 시장 정보를 개별적으로 구매하거나 조합할 수 있습니다."
           },
-          {}
+          {
+            "title": "Watchtower는 Core가 필요한가요?",
+            "content": "네. Watchtower는 시장 신호가 실시간 운영 데이터 위에 얹힐 때 가장 잘 작동하며, 그것을 제공하는 것이 Core 패키지입니다. 단독 판매가 아니라 패키지와 함께 범위를 정하고 견적합니다."
+          }
         ]
       },
       {
@@ -3444,7 +3738,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Bagaimana cara memulai?",
-            "content": "Ada dua pilihan:\\n\\n1. **Lihat harga Anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menyesuaikan paket Core dengan jumlah gerai Anda.\\n\\n2. **Pesan demo** - Jadwalkan peninjauan 15 menit bersama tim kami dan lihat Sundae berjalan di atas data Anda."
+            "content": "Ada dua pilihan:\n\n1. **Lihat harga Anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menyesuaikan paket Core dengan jumlah gerai Anda.\n\n2. **Pesan demo** - Jadwalkan peninjauan 15 menit bersama tim kami dan lihat Sundae berjalan di atas data Anda."
           },
           {
             "title": "Apakah ada tingkat gratis?",
@@ -3452,7 +3746,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Apa beda paket-paket Core?",
-            "content": "**Core Foundation** - dasar operasional: satu fondasi keputusan di atas POS, tenaga kerja, biaya, dan operasi.\\n\\n**Core Margin** - kedalaman pada biaya dan kebocoran: pemakaian teoretis versus aktual, susut, selisih stok, void dan komplimen, kontribusi per item.\\n\\n**Core Growth** - kedalaman pada permintaan: kohort tamu dan nilai seumur hidup, atribusi promo per kanal, margin pengiriman setelah komisi.\\n\\n**Core Performance** - konsolidasi lintas merek dan wilayah, korelasi antarmodul, akses terkelola dengan jejak audit.\\n\\nKeempatnya membawa sebelas modul domain yang sama. Yang berubah adalah kedalamannya."
+            "content": "**Core Foundation** - dasar operasional: satu fondasi keputusan di atas POS, tenaga kerja, biaya, dan operasi.\n\n**Core Margin** - kedalaman pada biaya dan kebocoran: pemakaian teoretis versus aktual, susut, selisih stok, void dan komplimen, kontribusi per item.\n\n**Core Growth** - kedalaman pada permintaan: kohort tamu dan nilai seumur hidup, atribusi promo per kanal, margin pengiriman setelah komisi.\n\n**Core Performance** - konsolidasi lintas merek dan wilayah, korelasi antarmodul, akses terkelola dengan jejak audit.\n\nKeempatnya membawa sebelas modul domain yang sama. Yang berubah adalah kedalamannya."
           },
           {
             "title": "Apakah saya butuh kontrak jangka panjang?",
@@ -3466,11 +3760,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Produk apa saja yang ditawarkan Sundae?",
-            "content": "**Empat produk utama:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa seluruh sebelas modul domain\\n2. **Foresight & Action** - prakiraan, pemodelan skenario, dan lapisan tindakan dengan persetujuan manusia\\n3. **Sundae Crew** - substrat tenaga kerja: penjadwalan, absensi, kesiapan penggajian, HR, dan people intelligence\\n4. **Watchtower** - inteligensi pasar eksternal, dilingkupi bersama paket Core Anda\\n\\n**Ditambah:** SKU konsep untuk model operasi grup Anda - waralaba, F&B hotel, cloud kitchen, katering, produksi, dapur sentral sewa."
+            "content": "**Empat produk utama:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa seluruh sebelas modul domain\n2. **Foresight & Action** - prakiraan, pemodelan skenario, dan lapisan tindakan dengan persetujuan manusia\n3. **Sundae Crew** - substrat tenaga kerja: penjadwalan, absensi, kesiapan penggajian, HR, dan people intelligence\n4. **Watchtower** - inteligensi pasar eksternal, dilingkupi bersama paket Core Anda\n\n**Ditambah:** SKU konsep untuk model operasi grup Anda - waralaba, F&B hotel, cloud kitchen, katering, produksi, dapur sentral sewa."
           },
           {
             "title": "Paket Core mana yang sebaiknya saya pilih?",
-            "content": "**Core Foundation bila:**\\n• Anda beralih dari spreadsheet dan dasbor yang terpisah-pisah\\n• Anda ingin satu gambaran operasi sebelum masuk lebih dalam\\n\\n**Core Margin bila:**\\n• Biaya bahan, susut, void, atau komplimen yang menggerus margin Anda\\n• Anda butuh kontribusi per item, bukan sekadar bauran penjualan\\n\\n**Core Growth bila:**\\n• Pendapatan berulang dan bauran kanal jadi kendala\\n• Anda butuh kohort tamu, atribusi promo, dan margin pengiriman\\n\\n**Core Performance bila:**\\n• Anda menjalankan beberapa merek atau beberapa pasar\\n• Anda butuh konsolidasi, korelasi antarmodul, dan akses terkelola"
+            "content": "**Core Foundation bila:**\n• Anda beralih dari spreadsheet dan dasbor yang terpisah-pisah\n• Anda ingin satu gambaran operasi sebelum masuk lebih dalam\n\n**Core Margin bila:**\n• Biaya bahan, susut, void, atau komplimen yang menggerus margin Anda\n• Anda butuh kontribusi per item, bukan sekadar bauran penjualan\n\n**Core Growth bila:**\n• Pendapatan berulang dan bauran kanal jadi kendala\n• Anda butuh kohort tamu, atribusi promo, dan margin pengiriman\n\n**Core Performance bila:**\n• Anda menjalankan beberapa merek atau beberapa pasar\n• Anda butuh konsolidasi, korelasi antarmodul, dan akses terkelola"
           },
           {
             "title": "Bisakah saya meningkatkan atau menurunkan tingkat nanti?",
@@ -3478,7 +3772,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Apa itu model 4D Intelligence?",
-            "content": "Kerangka Sundae untuk inteligensi keputusan:\\n\\n**1D: apa yang terjadi** - kebenaran penjualan, tenaga kerja, dan biaya\\n**2D: rencana versus aktual** - selisih anggaran dan prakiraan\\n**3D: konteks pasar** - tolok ukur, sesama pelaku, dan pesaing\\n**4D: apa berikutnya** - prediksi dan rekomendasi\\n\\nSetiap paket Core mencakup keempatnya. Paket menentukan seberapa dalam tiap dimensi."
+            "content": "Kerangka Sundae untuk inteligensi keputusan:\n\n**1D: apa yang terjadi** - kebenaran penjualan, tenaga kerja, dan biaya\n**2D: rencana versus aktual** - selisih anggaran dan prakiraan\n**3D: konteks pasar** - tolok ukur, sesama pelaku, dan pesaing\n**4D: apa berikutnya** - prediksi dan rekomendasi\n\nSetiap paket Core mencakup keempatnya. Paket menentukan seberapa dalam tiap dimensi."
           }
         ]
       },
@@ -3488,7 +3782,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Data apa yang dibutuhkan Sundae?",
-            "content": "**Untuk setiap paket Core:**\\n• Sistem POS melalui API\\n• Sistem tenaga kerja atau penjadwalan\\n• Sistem persediaan\\n• Platform pemasaran\\n• Sistem reservasi\\n\\nPOS saja sudah cukup untuk memberi nilai pada hari pertama. Sisanya memperdalam gambaran seiring Anda menghubungkannya."
+            "content": "**Untuk setiap paket Core:**\n• Sistem POS melalui API\n• Sistem tenaga kerja atau penjadwalan\n• Sistem persediaan\n• Platform pemasaran\n• Sistem reservasi\n\nPOS saja sudah cukup untuk memberi nilai pada hari pertama. Sisanya memperdalam gambaran seiring Anda menghubungkannya."
           },
           {
             "title": "Bagaimana data saya masuk ke Sundae?",
@@ -3504,7 +3798,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Berapa lama implementasinya?",
-            "content": "Sebagian besar grup aktif dalam 1-2 minggu. Peluncuran yang lebih besar, lintas merek atau lintas wilayah, memakan 2-4 minggu tergantung cakupan.\\n\\nImplementasi adalah biaya sekali bayar, dikenakan satu kali pada kelas tertinggi dalam pilihan Anda - dari layanan mandiri tanpa biaya hingga pendampingan Class D yang tercakup."
+            "content": "Sebagian besar grup aktif dalam 1-2 minggu. Peluncuran yang lebih besar, lintas merek atau lintas wilayah, memakan 2-4 minggu tergantung cakupan.\n\nImplementasi adalah biaya sekali bayar, dikenakan satu kali pada kelas tertinggi dalam pilihan Anda - dari layanan mandiri tanpa biaya hingga pendampingan Class D yang tercakup."
           },
           {
             "title": "Apa yang terjadi pada data saya jika saya membatalkan?",
@@ -3516,12 +3810,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Apa itu modul?",
+            "content": "Sebelas modul domain adalah permukaan analitis di dalam Core. Semuanya komponen paket, bukan tambahan yang dibeli terpisah:\n\n{{DOMAIN_MODULE_LINES}}\n\nSemuanya memerlukan Core karena bergantung pada data operasi yang terhubung langsung."
+          },
+          {
+            "title": "Apakah saya butuh modul?",
+            "content": "Modul bukan opsional dan bukan pembelian terpisah. Kesebelas modul domain hadir di setiap paket Core.\n\nYang Anda pilih adalah paketnya, dan paket menentukan sedalam apa tiap modul bekerja."
+          },
+          {
+            "title": "Bisakah saya membeli satu modul saja?",
+            "content": "Tidak. Kesebelas modul domain adalah komponen paket Core, bukan produk berdiri sendiri, dan tidak ada harga per modul. Memilih paket adalah cara mendapatkan semuanya."
+          },
+          {
+            "title": "Apakah modul ditambahkan satu per satu?",
+            "content": "Tidak. Tidak ada yang perlu ditambahkan. Setiap paket Core membawa kesebelas modul domain sejak hari pertama - paket yang Anda pilih hanya menentukan kedalaman masing-masing."
+          },
+          {
+            "title": "Modul mana yang sebaiknya dilihat lebih dulu?",
+            "content": "Semuanya sudah aktif, jadi ini soal dari mana mulai melihat, bukan apa yang dibeli. Mulailah dari titik nyeri operasional terbesar:\n\n• Biaya tenaga kerja tinggi -> Labor Intelligence\n• Susut atau masalah stok -> Inventory Intelligence\n• Daya tawar pemasok lemah -> Purchasing Intelligence\n• ROI pemasaran tidak jelas -> Marketing Intelligence\n• Reservasi tidak hadir -> Reservations Intelligence"
+          },
+          {
+            "title": "Bagaimana penetapan harga modul?",
+            "content": "Tidak ada penetapan harga modul. Modul tidak punya harga sendiri maupun jatah lokasi sendiri - yang Anda beli adalah paketnya.\n\nPaket Core dihitung mulai dari gerai pertama, lalu dengan tarif marginal untuk tiap gerai tambahan yang turun seiring pertumbuhan. {{WORKED_EXAMPLE}}\n\nGunakan pricing.sundae.io untuk perhitungan pastinya."
+          }
         ]
       },
       {
@@ -3544,7 +3856,10 @@ export const generatedLocalCopy = {
             "title": "Bisakah saya menggunakan hanya satu komponen Watchtower?",
             "content": "Ya. Anda dapat membeli Intelijen Kompetitif, Intelijen Acara, atau Intelijen Pasar secara terpisah, atau menggabungkannya."
           },
-          {}
+          {
+            "title": "Apakah Watchtower memerlukan Core?",
+            "content": "Ya. Watchtower bekerja paling baik saat sinyal pasarnya dilapiskan di atas data operasi langsung, dan itulah yang diberikan paket Core. Ia dilingkupi dan ditawarkan bersama paket Anda, bukan dijual sendiri."
+          }
         ]
       },
       {
@@ -3694,7 +4009,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Tôi bắt đầu thế nào?",
-            "content": "Bạn có hai lựa chọn:\\n\\n1. **Xem mức giá của bạn** - Dùng công cụ tính tương tác tại pricing.sundae.io để chọn gói Core theo số điểm bán.\\n\\n2. **Đặt lịch demo** - Hẹn buổi giới thiệu 15 phút cùng đội ngũ của chúng tôi và xem Sundae chạy trên dữ liệu của bạn."
+            "content": "Bạn có hai lựa chọn:\n\n1. **Xem mức giá của bạn** - Dùng công cụ tính tương tác tại pricing.sundae.io để chọn gói Core theo số điểm bán.\n\n2. **Đặt lịch demo** - Hẹn buổi giới thiệu 15 phút cùng đội ngũ của chúng tôi và xem Sundae chạy trên dữ liệu của bạn."
           },
           {
             "title": "Có bản miễn phí không?",
@@ -3702,7 +4017,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Các gói Core khác nhau ra sao?",
-            "content": "**Core Foundation** - nền vận hành: một nền tảng ra quyết định trên POS, nhân công, chi phí và vận hành.\\n\\n**Core Margin** - chiều sâu về chi phí và thất thoát: định mức so với thực dùng, hao hụt, thiếu hụt kho, huỷ món và tặng, đóng góp theo từng món.\\n\\n**Core Growth** - chiều sâu về nhu cầu: nhóm khách và giá trị vòng đời, quy kết khuyến mãi theo kênh, biên giao hàng sau hoa hồng.\\n\\n**Core Performance** - hợp nhất đa thương hiệu và đa vùng, đối chiếu giữa các phân hệ, truy cập được quản trị kèm dấu vết kiểm toán.\\n\\nCả bốn đều mang cùng mười một phân hệ nghiệp vụ. Thứ thay đổi là chiều sâu."
+            "content": "**Core Foundation** - nền vận hành: một nền tảng ra quyết định trên POS, nhân công, chi phí và vận hành.\n\n**Core Margin** - chiều sâu về chi phí và thất thoát: định mức so với thực dùng, hao hụt, thiếu hụt kho, huỷ món và tặng, đóng góp theo từng món.\n\n**Core Growth** - chiều sâu về nhu cầu: nhóm khách và giá trị vòng đời, quy kết khuyến mãi theo kênh, biên giao hàng sau hoa hồng.\n\n**Core Performance** - hợp nhất đa thương hiệu và đa vùng, đối chiếu giữa các phân hệ, truy cập được quản trị kèm dấu vết kiểm toán.\n\nCả bốn đều mang cùng mười một phân hệ nghiệp vụ. Thứ thay đổi là chiều sâu."
           },
           {
             "title": "Tôi có cần hợp đồng dài hạn không?",
@@ -3716,11 +4031,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae cung cấp những sản phẩm nào?",
-            "content": "**Bốn sản phẩm chính:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - nền tảng ra quyết định, mang đủ mười một phân hệ nghiệp vụ\\n2. **Foresight & Action** - dự báo, dựng kịch bản và lớp hành động có phê duyệt của con người\\n3. **Sundae Crew** - nền tảng nhân sự: xếp ca, chấm công, sẵn sàng tính lương, nhân sự và people intelligence\\n4. **Watchtower** - trí tuệ thị trường bên ngoài, xác định phạm vi cùng gói Core của bạn\\n\\n**Ngoài ra:** các SKU theo mô hình vận hành của tập đoàn - nhượng quyền, F&B khách sạn, bếp trên mây, tiệc, sản xuất, bếp trung tâm cho thuê."
+            "content": "**Bốn sản phẩm chính:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - nền tảng ra quyết định, mang đủ mười một phân hệ nghiệp vụ\n2. **Foresight & Action** - dự báo, dựng kịch bản và lớp hành động có phê duyệt của con người\n3. **Sundae Crew** - nền tảng nhân sự: xếp ca, chấm công, sẵn sàng tính lương, nhân sự và people intelligence\n4. **Watchtower** - trí tuệ thị trường bên ngoài, xác định phạm vi cùng gói Core của bạn\n\n**Ngoài ra:** các SKU theo mô hình vận hành của tập đoàn - nhượng quyền, F&B khách sạn, bếp trên mây, tiệc, sản xuất, bếp trung tâm cho thuê."
           },
           {
             "title": "Tôi nên chọn gói Core nào?",
-            "content": "**Core Foundation nếu:**\\n• Bạn đang thoát khỏi bảng tính và các bảng điều khiển rời rạc\\n• Bạn muốn một bức tranh vận hành thống nhất trước khi đi sâu\\n\\n**Core Margin nếu:**\\n• Giá vốn, hao hụt, huỷ món hay đồ tặng đang ăn vào biên lợi nhuận\\n• Bạn cần đóng góp theo từng món, không chỉ cơ cấu doanh thu\\n\\n**Core Growth nếu:**\\n• Doanh thu lặp lại và cơ cấu kênh là điểm nghẽn\\n• Bạn cần nhóm khách, quy kết khuyến mãi và biên giao hàng\\n\\n**Core Performance nếu:**\\n• Bạn vận hành nhiều thương hiệu hoặc nhiều thị trường\\n• Bạn cần hợp nhất, đối chiếu giữa các phân hệ và truy cập được quản trị"
+            "content": "**Core Foundation nếu:**\n• Bạn đang thoát khỏi bảng tính và các bảng điều khiển rời rạc\n• Bạn muốn một bức tranh vận hành thống nhất trước khi đi sâu\n\n**Core Margin nếu:**\n• Giá vốn, hao hụt, huỷ món hay đồ tặng đang ăn vào biên lợi nhuận\n• Bạn cần đóng góp theo từng món, không chỉ cơ cấu doanh thu\n\n**Core Growth nếu:**\n• Doanh thu lặp lại và cơ cấu kênh là điểm nghẽn\n• Bạn cần nhóm khách, quy kết khuyến mãi và biên giao hàng\n\n**Core Performance nếu:**\n• Bạn vận hành nhiều thương hiệu hoặc nhiều thị trường\n• Bạn cần hợp nhất, đối chiếu giữa các phân hệ và truy cập được quản trị"
           },
           {
             "title": "Tôi có thể nâng cấp hoặc hạ cấp sau không?",
@@ -3728,7 +4043,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Mô hình 4D Intelligence là gì?",
-            "content": "Khung trí tuệ ra quyết định của Sundae:\\n\\n**1D: điều gì đã xảy ra** - sự thật về doanh thu, nhân công và chi phí\\n**2D: kế hoạch so với thực tế** - chênh lệch ngân sách và dự báo\\n**3D: bối cảnh thị trường** - đối sánh, đơn vị tương đương và đối thủ\\n**4D: điều gì sắp tới** - dự báo và khuyến nghị\\n\\nMọi gói Core đều bao trùm cả bốn. Gói quyết định mỗi chiều đi sâu tới đâu."
+            "content": "Khung trí tuệ ra quyết định của Sundae:\n\n**1D: điều gì đã xảy ra** - sự thật về doanh thu, nhân công và chi phí\n**2D: kế hoạch so với thực tế** - chênh lệch ngân sách và dự báo\n**3D: bối cảnh thị trường** - đối sánh, đơn vị tương đương và đối thủ\n**4D: điều gì sắp tới** - dự báo và khuyến nghị\n\nMọi gói Core đều bao trùm cả bốn. Gói quyết định mỗi chiều đi sâu tới đâu."
           }
         ]
       },
@@ -3738,7 +4053,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae cần những dữ liệu nào?",
-            "content": "**Với mọi gói Core:**\\n• Hệ thống POS qua API\\n• Hệ thống nhân công hoặc xếp ca\\n• Hệ thống tồn kho\\n• Các nền tảng tiếp thị\\n• Hệ thống đặt chỗ\\n\\nChỉ riêng POS đã đủ để tạo giá trị ngay ngày đầu. Phần còn lại làm bức tranh sâu hơn khi bạn kết nối thêm."
+            "content": "**Với mọi gói Core:**\n• Hệ thống POS qua API\n• Hệ thống nhân công hoặc xếp ca\n• Hệ thống tồn kho\n• Các nền tảng tiếp thị\n• Hệ thống đặt chỗ\n\nChỉ riêng POS đã đủ để tạo giá trị ngay ngày đầu. Phần còn lại làm bức tranh sâu hơn khi bạn kết nối thêm."
           },
           {
             "title": "Dữ liệu của tôi vào Sundae bằng cách nào?",
@@ -3754,7 +4069,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Triển khai mất bao lâu?",
-            "content": "Phần lớn tập đoàn đi vào hoạt động trong 1-2 tuần. Các đợt triển khai lớn hơn, nhiều thương hiệu hoặc nhiều vùng, mất 2-4 tuần tuỳ phạm vi.\\n\\nTriển khai là khoản phí một lần, tính một lần theo hạng cao nhất trong lựa chọn của bạn - từ tự phục vụ miễn phí đến gói Class D có phạm vi rõ ràng."
+            "content": "Phần lớn tập đoàn đi vào hoạt động trong 1-2 tuần. Các đợt triển khai lớn hơn, nhiều thương hiệu hoặc nhiều vùng, mất 2-4 tuần tuỳ phạm vi.\n\nTriển khai là khoản phí một lần, tính một lần theo hạng cao nhất trong lựa chọn của bạn - từ tự phục vụ miễn phí đến gói Class D có phạm vi rõ ràng."
           },
           {
             "title": "Điều gì sẽ xảy ra với dữ liệu của tôi nếu tôi hủy?",
@@ -3766,12 +4081,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Phân hệ là gì?",
+            "content": "Mười một phân hệ nghiệp vụ là các bề mặt phân tích bên trong Core. Chúng là thành phần của gói, không phải tiện ích mua thêm bên ngoài:\n\n{{DOMAIN_MODULE_LINES}}\n\nChúng cần Core vì phụ thuộc vào dữ liệu vận hành được kết nối trực tiếp."
+          },
+          {
+            "title": "Tôi có cần phân hệ không?",
+            "content": "Chúng không phải tuỳ chọn và cũng không bán riêng. Cả mười một phân hệ nghiệp vụ đều đi kèm mọi gói Core.\n\nThứ bạn chọn là gói, và gói quyết định mỗi phân hệ đi sâu tới đâu."
+          },
+          {
+            "title": "Tôi có thể mua lẻ một phân hệ không?",
+            "content": "Không. Mười một phân hệ nghiệp vụ là thành phần của gói Core, không phải sản phẩm độc lập, và không có giá theo từng phân hệ. Chọn gói là cách để có tất cả."
+          },
+          {
+            "title": "Có phải thêm từng phân hệ một không?",
+            "content": "Không. Không có gì để thêm. Mọi gói Core đều mang đủ mười một phân hệ nghiệp vụ ngay từ ngày đầu - gói bạn chọn chỉ quyết định mỗi phân hệ đi sâu tới đâu."
+          },
+          {
+            "title": "Nên xem phân hệ nào trước?",
+            "content": "Tất cả đã bật sẵn, nên câu hỏi là bắt đầu nhìn từ đâu, không phải mua gì. Hãy bắt đầu từ điểm đau vận hành lớn nhất:\n\n• Chi phí nhân công cao -> Labor Intelligence\n• Hao hụt hoặc vấn đề tồn kho -> Inventory Intelligence\n• Yếu thế với nhà cung cấp -> Purchasing Intelligence\n• ROI tiếp thị không rõ -> Marketing Intelligence\n• Khách đặt chỗ không đến -> Reservations Intelligence"
+          },
+          {
+            "title": "Giá phân hệ tính thế nào?",
+            "content": "Không có giá phân hệ. Phân hệ không có giá riêng và cũng không có hạn mức điểm bán riêng - thứ bạn mua là gói.\n\nGói Core tính từ điểm bán đầu tiên, sau đó theo mức biên cho mỗi điểm bán tăng thêm, và mức ấy giảm dần khi bạn mở rộng. {{WORKED_EXAMPLE}}\n\nDùng pricing.sundae.io để tính chính xác."
+          }
         ]
       },
       {
@@ -3794,7 +4127,10 @@ export const generatedLocalCopy = {
             "title": "Tôi có thể chỉ sử dụng một thành phần của Watchtower không?",
             "content": "Có. Bạn có thể mua Thông tin Cạnh tranh, Thông tin Sự kiện hoặc Thông tin Thị trường một cách riêng lẻ, hoặc kết hợp chúng lại."
           },
-          {}
+          {
+            "title": "Watchtower có cần Core không?",
+            "content": "Có. Watchtower phát huy tốt nhất khi tín hiệu thị trường của nó đặt lên dữ liệu vận hành trực tiếp, và đó chính là thứ gói Core mang lại. Nó được xác định phạm vi và báo giá cùng gói của bạn thay vì bán riêng."
+          }
         ]
       },
       {
@@ -3944,7 +4280,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Cum încep?",
-            "content": "Ai două opțiuni:\\n\\n1. **Vezi-ți prețul** - Folosește calculatorul interactiv de pe pricing.sundae.io pentru a dimensiona un pachet Core după numărul de locații.\\n\\n2. **Programează un demo** - Rezervă o prezentare de 15 minute cu echipa noastră și vezi Sundae rulând pe datele tale."
+            "content": "Ai două opțiuni:\n\n1. **Vezi-ți prețul** - Folosește calculatorul interactiv de pe pricing.sundae.io pentru a dimensiona un pachet Core după numărul de locații.\n\n2. **Programează un demo** - Rezervă o prezentare de 15 minute cu echipa noastră și vezi Sundae rulând pe datele tale."
           },
           {
             "title": "Există un plan gratuit?",
@@ -3952,7 +4288,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Care este diferența dintre pachetele Core?",
-            "content": "**Core Foundation** - baza operațională: un singur substrat de decizie peste POS, forță de muncă, cost și operațiuni.\\n\\n**Core Margin** - profunzime pe cost și pierderi: consum teoretic față de real, risipă, minusuri, anulări și gratuități, contribuție pe produs.\\n\\n**Core Growth** - profunzime pe cerere: cohorte de clienți și valoare pe durata relației, atribuirea promoțiilor pe canal, marja de livrare după comision.\\n\\n**Core Performance** - consolidare pe mai multe branduri și regiuni, corelare între module, acces guvernat cu piste de audit.\\n\\nToate patru poartă aceleași unsprezece module. Ce se schimbă este profunzimea."
+            "content": "**Core Foundation** - baza operațională: un singur substrat de decizie peste POS, forță de muncă, cost și operațiuni.\n\n**Core Margin** - profunzime pe cost și pierderi: consum teoretic față de real, risipă, minusuri, anulări și gratuități, contribuție pe produs.\n\n**Core Growth** - profunzime pe cerere: cohorte de clienți și valoare pe durata relației, atribuirea promoțiilor pe canal, marja de livrare după comision.\n\n**Core Performance** - consolidare pe mai multe branduri și regiuni, corelare între module, acces guvernat cu piste de audit.\n\nToate patru poartă aceleași unsprezece module. Ce se schimbă este profunzimea."
           },
           {
             "title": "Am nevoie de un contract pe termen lung?",
@@ -3966,11 +4302,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Ce produse oferă Sundae?",
-            "content": "**Patru produse principale:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substratul de decizie, care poartă toate cele unsprezece module\\n2. **Foresight & Action** - prognoză, modelare de scenarii și stratul de acțiune cu aprobare umană\\n3. **Sundae Crew** - substratul de personal: planificare, pontaj, pregătirea salarizării, HR și people intelligence\\n4. **Watchtower** - inteligență de piață externă, dimensionată alături de pachetul Core\\n\\n**În plus:** SKU-uri de concept pentru modelele de operare ale grupului tău - franciză, F&B hotelier, cloud kitchen, catering, producție, bucătărie centrală închiriată."
+            "content": "**Patru produse principale:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substratul de decizie, care poartă toate cele unsprezece module\n2. **Foresight & Action** - prognoză, modelare de scenarii și stratul de acțiune cu aprobare umană\n3. **Sundae Crew** - substratul de personal: planificare, pontaj, pregătirea salarizării, HR și people intelligence\n4. **Watchtower** - inteligență de piață externă, dimensionată alături de pachetul Core\n\n**În plus:** SKU-uri de concept pentru modelele de operare ale grupului tău - franciză, F&B hotelier, cloud kitchen, catering, producție, bucătărie centrală închiriată."
           },
           {
             "title": "Ce pachet Core să aleg?",
-            "content": "**Core Foundation dacă:**\\n• Ieși din foi de calcul și tablouri de bord deconectate\\n• Vrei o singură imagine operațională înainte de a merge mai adânc\\n\\n**Core Margin dacă:**\\n• Costul mărfii, risipa, anulările sau gratuitățile îți iau marja\\n• Ai nevoie de contribuție pe produs, nu doar de mixul de vânzări\\n\\n**Core Growth dacă:**\\n• Venitul recurent și mixul de canale sunt constrângerea\\n• Ai nevoie de cohorte de clienți, atribuirea promoțiilor și marja de livrare\\n\\n**Core Performance dacă:**\\n• Operezi mai multe branduri sau mai multe piețe\\n• Ai nevoie de consolidare, corelare între module și acces guvernat"
+            "content": "**Core Foundation dacă:**\n• Ieși din foi de calcul și tablouri de bord deconectate\n• Vrei o singură imagine operațională înainte de a merge mai adânc\n\n**Core Margin dacă:**\n• Costul mărfii, risipa, anulările sau gratuitățile îți iau marja\n• Ai nevoie de contribuție pe produs, nu doar de mixul de vânzări\n\n**Core Growth dacă:**\n• Venitul recurent și mixul de canale sunt constrângerea\n• Ai nevoie de cohorte de clienți, atribuirea promoțiilor și marja de livrare\n\n**Core Performance dacă:**\n• Operezi mai multe branduri sau mai multe piețe\n• Ai nevoie de consolidare, corelare între module și acces guvernat"
           },
           {
             "title": "Pot face upgrade sau downgrade mai târziu?",
@@ -3978,7 +4314,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Ce este modelul 4D Intelligence?",
-            "content": "Cadrul Sundae pentru inteligența decizională:\\n\\n**1D: ce s-a întâmplat** - adevărul despre vânzări, forță de muncă și cost\\n**2D: plan față de realizat** - abaterea de la buget și prognoză\\n**3D: contextul pieței** - repere, companii similare și concurenți\\n**4D: ce urmează** - predicții și recomandări\\n\\nFiecare pachet Core le acoperă pe toate patru. Pachetul stabilește cât de adânc merge fiecare dimensiune."
+            "content": "Cadrul Sundae pentru inteligența decizională:\n\n**1D: ce s-a întâmplat** - adevărul despre vânzări, forță de muncă și cost\n**2D: plan față de realizat** - abaterea de la buget și prognoză\n**3D: contextul pieței** - repere, companii similare și concurenți\n**4D: ce urmează** - predicții și recomandări\n\nFiecare pachet Core le acoperă pe toate patru. Pachetul stabilește cât de adânc merge fiecare dimensiune."
           }
         ]
       },
@@ -3988,7 +4324,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "De ce date are nevoie Sundae?",
-            "content": "**Pentru orice pachet Core:**\\n• Sistem POS prin API\\n• Sistem de personal sau de planificare\\n• Sistem de stocuri\\n• Platforme de marketing\\n• Sistem de rezervări\\n\\nDoar POS-ul este suficient pentru valoare din prima zi. Restul adâncește imaginea pe măsură ce le conectezi."
+            "content": "**Pentru orice pachet Core:**\n• Sistem POS prin API\n• Sistem de personal sau de planificare\n• Sistem de stocuri\n• Platforme de marketing\n• Sistem de rezervări\n\nDoar POS-ul este suficient pentru valoare din prima zi. Restul adâncește imaginea pe măsură ce le conectezi."
           },
           {
             "title": "Cum ajung datele mele în Sundae?",
@@ -4004,7 +4340,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Cât durează implementarea?",
-            "content": "Majoritatea grupurilor sunt funcționale în 1-2 săptămâni. Implementările mai mari, cu mai multe branduri sau regiuni, durează 2-4 săptămâni în funcție de amploare.\\n\\nImplementarea este o taxă unică, facturată o singură dată la cea mai înaltă clasă din selecția ta - de la self-service gratuit până la un angajament Class D delimitat."
+            "content": "Majoritatea grupurilor sunt funcționale în 1-2 săptămâni. Implementările mai mari, cu mai multe branduri sau regiuni, durează 2-4 săptămâni în funcție de amploare.\n\nImplementarea este o taxă unică, facturată o singură dată la cea mai înaltă clasă din selecția ta - de la self-service gratuit până la un angajament Class D delimitat."
           },
           {
             "title": "Ce se întâmplă cu datele mele dacă anulez?",
@@ -4016,12 +4352,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Ce sunt modulele?",
+            "content": "Cele unsprezece module sunt suprafețele analitice din interiorul Core. Sunt componente ale pachetului, nu extraopțiuni cumpărate separat:\n\n{{DOMAIN_MODULE_LINES}}\n\nAu nevoie de Core pentru că depind de date operaționale conectate în timp real."
+          },
+          {
+            "title": "Am nevoie de module?",
+            "content": "Nu sunt opționale și nu sunt achiziții separate. Toate cele unsprezece module vin cu fiecare pachet Core.\n\nCeea ce alegi este pachetul, iar pachetul stabilește cât de adânc merge fiecare modul."
+          },
+          {
+            "title": "Pot cumpăra un singur modul?",
+            "content": "Nu. Cele unsprezece module sunt componente ale unui pachet Core, nu produse de sine stătătoare, și nu există preț pe modul. Alegerea pachetului este modul în care le primești pe toate."
+          },
+          {
+            "title": "Adaug modulele pe rând?",
+            "content": "Nu. Nu e nimic de adăugat. Fiecare pachet Core poartă toate cele unsprezece module din prima zi - pachetul ales stabilește doar cât de adânc merge fiecare."
+          },
+          {
+            "title": "Cu ce modul ar trebui să încep?",
+            "content": "Toate sunt deja pornite, deci întrebarea e de unde începi să te uiți, nu ce cumperi. Începe cu cea mai mare durere operațională:\n\n• Cost mare cu forța de muncă -> Labor Intelligence\n• Risipă sau probleme de stoc -> Inventory Intelligence\n• Putere mică în fața furnizorilor -> Purchasing Intelligence\n• ROI de marketing neclar -> Marketing Intelligence\n• Neprezentări la rezervări -> Reservations Intelligence"
+          },
+          {
+            "title": "Cum funcționează prețul modulelor?",
+            "content": "Nu există preț pe module. Modulele nu au nici preț de sine stătător, nici alocare proprie de locații - ceea ce cumperi este pachetul.\n\nUn pachet Core se tarifează de la prima locație, apoi cu o rată marginală pentru fiecare locație suplimentară, care scade pe măsură ce crești. {{WORKED_EXAMPLE}}\n\nFolosește pricing.sundae.io pentru calculul exact."
+          }
         ]
       },
       {
@@ -4044,7 +4398,10 @@ export const generatedLocalCopy = {
             "title": "Pot folosi doar un singur component Watchtower?",
             "content": "Da. Poți achiziționa Inteligența Competitivă, Inteligența de Eveniment sau Inteligența de Piață individual, sau le poți combina."
           },
-          {}
+          {
+            "title": "Watchtower necesită Core?",
+            "content": "Da. Watchtower dă cele mai bune rezultate când semnalele sale de piață se așază peste date operaționale live, exact ce oferă un pachet Core. Este delimitat și cotat împreună cu pachetul tău, nu vândut separat."
+          }
         ]
       },
       {
@@ -4194,7 +4551,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Hur kommer jag igång?",
-            "content": "Du har två alternativ:\\n\\n1. **Se ditt pris** - Använd den interaktiva priskalkylatorn på pricing.sundae.io för att dimensionera ett Core-paket efter antalet enheter.\\n\\n2. **Boka en demo** - Boka en 15 minuters genomgång med vårt team och se Sundae köra mot era egna data."
+            "content": "Du har två alternativ:\n\n1. **Se ditt pris** - Använd den interaktiva priskalkylatorn på pricing.sundae.io för att dimensionera ett Core-paket efter antalet enheter.\n\n2. **Boka en demo** - Boka en 15 minuters genomgång med vårt team och se Sundae köra mot era egna data."
           },
           {
             "title": "Finns det en gratisnivå?",
@@ -4202,7 +4559,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Vad skiljer Core-paketen åt?",
-            "content": "**Core Foundation** - den operativa basen: ett beslutsunderlag över POS, personal, kostnad och drift.\\n\\n**Core Margin** - djup i kostnad och läckage: teoretisk kontra faktisk förbrukning, svinn, lagerdifferenser, makuleringar och comps, bidrag per artikel.\\n\\n**Core Growth** - djup i efterfrågan: gästkohorter och livstidsvärde, kampanjattribution per kanal, leveransmarginal efter provision.\\n\\n**Core Performance** - konsolidering över varumärken och regioner, korrelation mellan moduler, styrd åtkomst med spårbarhet.\\n\\nAlla fyra bär samma elva domänmoduler. Det som ändras är djupet."
+            "content": "**Core Foundation** - den operativa basen: ett beslutsunderlag över POS, personal, kostnad och drift.\n\n**Core Margin** - djup i kostnad och läckage: teoretisk kontra faktisk förbrukning, svinn, lagerdifferenser, makuleringar och comps, bidrag per artikel.\n\n**Core Growth** - djup i efterfrågan: gästkohorter och livstidsvärde, kampanjattribution per kanal, leveransmarginal efter provision.\n\n**Core Performance** - konsolidering över varumärken och regioner, korrelation mellan moduler, styrd åtkomst med spårbarhet.\n\nAlla fyra bär samma elva domänmoduler. Det som ändras är djupet."
           },
           {
             "title": "Behöver jag ett långt avtal?",
@@ -4216,11 +4573,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Vilka produkter erbjuder Sundae?",
-            "content": "**Fyra huvudprodukter:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - beslutssubstratet, som bär alla elva domänmoduler\\n2. **Foresight & Action** - prognoser, scenariomodellering och handlingslagret med mänskligt godkännande\\n3. **Sundae Crew** - personalsubstratet: schemaläggning, tidrapportering, löneberedskap, HR och people intelligence\\n4. **Watchtower** - extern marknadsintelligens, omfångsatt tillsammans med ert Core-paket\\n\\n**Dessutom:** koncept-SKU:er för de driftsmodeller er koncern kör - franchise, hotell-F&B, cloud kitchen, catering, produktion, hyrt centralkök."
+            "content": "**Fyra huvudprodukter:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - beslutssubstratet, som bär alla elva domänmoduler\n2. **Foresight & Action** - prognoser, scenariomodellering och handlingslagret med mänskligt godkännande\n3. **Sundae Crew** - personalsubstratet: schemaläggning, tidrapportering, löneberedskap, HR och people intelligence\n4. **Watchtower** - extern marknadsintelligens, omfångsatt tillsammans med ert Core-paket\n\n**Dessutom:** koncept-SKU:er för de driftsmodeller er koncern kör - franchise, hotell-F&B, cloud kitchen, catering, produktion, hyrt centralkök."
           },
           {
             "title": "Vilket Core-paket ska jag välja?",
-            "content": "**Core Foundation om:**\\n• Ni lämnar kalkylblad och frikopplade instrumentpaneler\\n• Ni vill ha en samlad driftbild innan ni går djupare\\n\\n**Core Margin om:**\\n• Råvarukostnad, svinn, makuleringar eller comps äter er marginal\\n• Ni behöver bidrag per artikel, inte bara försäljningsmix\\n\\n**Core Growth om:**\\n• Återkommande intäkt och kanalmix är begränsningen\\n• Ni behöver gästkohorter, kampanjattribution och leveransmarginal\\n\\n**Core Performance om:**\\n• Ni driver flera varumärken eller flera marknader\\n• Ni behöver konsolidering, korrelation mellan moduler och styrd åtkomst"
+            "content": "**Core Foundation om:**\n• Ni lämnar kalkylblad och frikopplade instrumentpaneler\n• Ni vill ha en samlad driftbild innan ni går djupare\n\n**Core Margin om:**\n• Råvarukostnad, svinn, makuleringar eller comps äter er marginal\n• Ni behöver bidrag per artikel, inte bara försäljningsmix\n\n**Core Growth om:**\n• Återkommande intäkt och kanalmix är begränsningen\n• Ni behöver gästkohorter, kampanjattribution och leveransmarginal\n\n**Core Performance om:**\n• Ni driver flera varumärken eller flera marknader\n• Ni behöver konsolidering, korrelation mellan moduler och styrd åtkomst"
           },
           {
             "title": "Kan jag uppgradera eller nedgradera senare?",
@@ -4228,7 +4585,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Vad är 4D Intelligence-modellen?",
-            "content": "Ramverket från Sundae för beslutsintelligens:\\n\\n**1D: vad som hände** - sanningen om försäljning, personal och kostnad\\n**2D: plan mot utfall** - avvikelse mot budget och prognos\\n**3D: marknadskontext** - jämförelser, likvärdiga aktörer och konkurrenter\\n**4D: vad som kommer** - prognoser och rekommendationer\\n\\nVarje Core-paket täcker alla fyra. Paketet avgör hur djupt varje dimension går."
+            "content": "Ramverket från Sundae för beslutsintelligens:\n\n**1D: vad som hände** - sanningen om försäljning, personal och kostnad\n**2D: plan mot utfall** - avvikelse mot budget och prognos\n**3D: marknadskontext** - jämförelser, likvärdiga aktörer och konkurrenter\n**4D: vad som kommer** - prognoser och rekommendationer\n\nVarje Core-paket täcker alla fyra. Paketet avgör hur djupt varje dimension går."
           }
         ]
       },
@@ -4238,7 +4595,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Vilka data behöver Sundae?",
-            "content": "**För varje Core-paket:**\\n• POS-system via API\\n• Personal- eller bemanningssystem\\n• Lagersystem\\n• Marknadsföringsplattformar\\n• Bokningssystem\\n\\nEnbart POS räcker för värde dag ett. Resten fördjupar bilden allteftersom ni kopplar in dem."
+            "content": "**För varje Core-paket:**\n• POS-system via API\n• Personal- eller bemanningssystem\n• Lagersystem\n• Marknadsföringsplattformar\n• Bokningssystem\n\nEnbart POS räcker för värde dag ett. Resten fördjupar bilden allteftersom ni kopplar in dem."
           },
           {
             "title": "Hur kommer mina data in i Sundae?",
@@ -4254,7 +4611,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Hur lång tid tar införandet?",
-            "content": "De flesta koncerner är i drift på 1-2 veckor. Större utrullningar över flera varumärken eller regioner tar 2-4 veckor beroende på omfattning.\\n\\nInförandet är en engångsavgift som tas ut en gång enligt den högsta klassen i ert val - från kostnadsfri självbetjäning upp till ett avgränsat Class D-uppdrag."
+            "content": "De flesta koncerner är i drift på 1-2 veckor. Större utrullningar över flera varumärken eller regioner tar 2-4 veckor beroende på omfattning.\n\nInförandet är en engångsavgift som tas ut en gång enligt den högsta klassen i ert val - från kostnadsfri självbetjäning upp till ett avgränsat Class D-uppdrag."
           },
           {
             "title": "Vad händer med min data om jag avbryter?",
@@ -4266,12 +4623,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Vad är moduler?",
+            "content": "De elva domänmodulerna är analysytorna inuti Core. De är delar av paketet, inte tillval som köps vid sidan av:\n\n{{DOMAIN_MODULE_LINES}}\n\nDe kräver Core eftersom de bygger på live uppkopplade driftdata."
+          },
+          {
+            "title": "Behöver jag moduler?",
+            "content": "De är inte valfria och de är inte separata köp. Alla elva domänmoduler ingår i varje Core-paket.\n\nDet ni väljer är paketet, och paketet avgör hur djupt varje modul går."
+          },
+          {
+            "title": "Kan jag köpa en enskild modul?",
+            "content": "Nej. De elva domänmodulerna är delar av ett Core-paket, inte fristående produkter, och det finns inget pris per modul. Att välja paket är hur ni får dem alla."
+          },
+          {
+            "title": "Lägger jag till moduler en i taget?",
+            "content": "Nej. Det finns inget att lägga till. Varje Core-paket bär alla elva domänmoduler från dag ett - paketet ni väljer avgör bara hur djupt var och en går."
+          },
+          {
+            "title": "Vilken modul bör jag titta på först?",
+            "content": "De är redan påslagna allihop, så frågan är var ni börjar titta, inte vad ni köper. Börja i den största operativa smärtpunkten:\n\n• Hög personalkostnad -> Labor Intelligence\n• Svinn eller lagerproblem -> Inventory Intelligence\n• Svag leverantörsförhandling -> Purchasing Intelligence\n• Otydlig marknadsförings-ROI -> Marketing Intelligence\n• Uteblivna bokningar -> Reservations Intelligence"
+          },
+          {
+            "title": "Hur fungerar prissättningen av moduler?",
+            "content": "Det finns ingen modulprissättning. Moduler har varken eget pris eller egen enhetstilldelning - det ni köper är paketet.\n\nEtt Core-paket prissätts från er första enhet och därefter till en marginalsats per ytterligare enhet, en sats som sjunker när ni växer. {{WORKED_EXAMPLE}}\n\nAnvänd pricing.sundae.io för exakt uträkning."
+          }
         ]
       },
       {
@@ -4294,7 +4669,10 @@ export const generatedLocalCopy = {
             "title": "Kan jag använda bara en komponent av Watchtower?",
             "content": "Ja. Du kan köpa Konkurrensanalys, Händelseanalys eller Marknadsanalys individuellt, eller kombinera dem."
           },
-          {}
+          {
+            "title": "Kräver Watchtower Core?",
+            "content": "Ja. Watchtower gör bäst nytta när marknadssignalerna läggs ovanpå live driftdata, vilket är precis vad ett Core-paket ger. Det omfångsätts och offereras tillsammans med ert paket i stället för att säljas separat."
+          }
         ]
       },
       {
@@ -4444,7 +4822,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "আমি কীভাবে শুরু করব?",
-            "content": "আপনার দুটি উপায় আছে:\\n\\n1. **আপনার দাম দেখুন** - pricing.sundae.io-তে ইন্টার‌্যাক্টিভ ক্যালকুলেটর দিয়ে আউটলেট সংখ্যা অনুযায়ী Core প্যাকেজ ঠিক করুন।\\n\\n2. **ডেমো বুক করুন** - আমাদের টিমের সঙ্গে ১৫ মিনিটের পরিদর্শন ঠিক করুন এবং নিজের ডেটার ওপর Sundae চলতে দেখুন।"
+            "content": "আপনার দুটি উপায় আছে:\n\n1. **আপনার দাম দেখুন** - pricing.sundae.io-তে ইন্টার‌্যাক্টিভ ক্যালকুলেটর দিয়ে আউটলেট সংখ্যা অনুযায়ী Core প্যাকেজ ঠিক করুন।\n\n2. **ডেমো বুক করুন** - আমাদের টিমের সঙ্গে ১৫ মিনিটের পরিদর্শন ঠিক করুন এবং নিজের ডেটার ওপর Sundae চলতে দেখুন।"
           },
           {
             "title": "কোনো ফ্রি স্তর আছে কি?",
@@ -4452,7 +4830,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Core প্যাকেজগুলোর পার্থক্য কী?",
-            "content": "**Core Foundation** - পরিচালনার ভিত্তি: POS, শ্রম, খরচ ও অপারেশনের ওপর একটিই সিদ্ধান্ত-ভিত্তি।\\n\\n**Core Margin** - খরচ ও ক্ষরণে গভীরতা: তাত্ত্বিক বনাম প্রকৃত ব্যবহার, অপচয়, ঘাটতি, ভয়েড ও কম্প, প্রতি আইটেমের অবদান।\\n\\n**Core Growth** - চাহিদায় গভীরতা: অতিথি কোহর্ট ও আজীবন মূল্য, চ্যানেলভিত্তিক প্রোমো অ্যাট্রিবিউশন, কমিশনের পর ডেলিভারি মার্জিন।\\n\\n**Core Performance** - বহু-ব্র্যান্ড ও বহু-অঞ্চল সংহতকরণ, মডিউলের মধ্যে সম্পর্ক, অডিট ট্রেইলসহ নিয়ন্ত্রিত প্রবেশাধিকার।\\n\\nচারটিতেই একই এগারোটি ডোমেইন মডিউল থাকে। বদলায় কেবল গভীরতা।"
+            "content": "**Core Foundation** - পরিচালনার ভিত্তি: POS, শ্রম, খরচ ও অপারেশনের ওপর একটিই সিদ্ধান্ত-ভিত্তি।\n\n**Core Margin** - খরচ ও ক্ষরণে গভীরতা: তাত্ত্বিক বনাম প্রকৃত ব্যবহার, অপচয়, ঘাটতি, ভয়েড ও কম্প, প্রতি আইটেমের অবদান।\n\n**Core Growth** - চাহিদায় গভীরতা: অতিথি কোহর্ট ও আজীবন মূল্য, চ্যানেলভিত্তিক প্রোমো অ্যাট্রিবিউশন, কমিশনের পর ডেলিভারি মার্জিন।\n\n**Core Performance** - বহু-ব্র্যান্ড ও বহু-অঞ্চল সংহতকরণ, মডিউলের মধ্যে সম্পর্ক, অডিট ট্রেইলসহ নিয়ন্ত্রিত প্রবেশাধিকার।\n\nচারটিতেই একই এগারোটি ডোমেইন মডিউল থাকে। বদলায় কেবল গভীরতা।"
           },
           {
             "title": "দীর্ঘমেয়াদি চুক্তি কি লাগবে?",
@@ -4466,11 +4844,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae কী কী পণ্য দেয়?",
-            "content": "**চারটি প্রধান পণ্য:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - সিদ্ধান্তের ভিত্তি, যাতে এগারোটি ডোমেইন মডিউলই থাকে\\n2. **Foresight & Action** - পূর্বাভাস, দৃশ্যকল্প মডেলিং এবং মানুষের অনুমোদনসহ কর্ম-স্তর\\n3. **Sundae Crew** - কর্মীবাহিনীর ভিত্তি: সময়সূচি, হাজিরা, বেতন প্রস্তুতি, এইচআর ও পিপল ইন্টেলিজেন্স\\n4. **Watchtower** - বাইরের বাজার ইন্টেলিজেন্স, আপনার Core প্যাকেজের সঙ্গেই পরিসর ঠিক হয়\\n\\n**সেই সঙ্গে:** আপনার গ্রুপের পরিচালন মডেলের জন্য কনসেপ্ট SKU - ফ্র্যাঞ্চাইজ, হোটেল F&B, ক্লাউড কিচেন, ক্যাটারিং, উৎপাদন, ভাড়ার সেন্ট্রাল কিচেন।"
+            "content": "**চারটি প্রধান পণ্য:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - সিদ্ধান্তের ভিত্তি, যাতে এগারোটি ডোমেইন মডিউলই থাকে\n2. **Foresight & Action** - পূর্বাভাস, দৃশ্যকল্প মডেলিং এবং মানুষের অনুমোদনসহ কর্ম-স্তর\n3. **Sundae Crew** - কর্মীবাহিনীর ভিত্তি: সময়সূচি, হাজিরা, বেতন প্রস্তুতি, এইচআর ও পিপল ইন্টেলিজেন্স\n4. **Watchtower** - বাইরের বাজার ইন্টেলিজেন্স, আপনার Core প্যাকেজের সঙ্গেই পরিসর ঠিক হয়\n\n**সেই সঙ্গে:** আপনার গ্রুপের পরিচালন মডেলের জন্য কনসেপ্ট SKU - ফ্র্যাঞ্চাইজ, হোটেল F&B, ক্লাউড কিচেন, ক্যাটারিং, উৎপাদন, ভাড়ার সেন্ট্রাল কিচেন।"
           },
           {
             "title": "আমি কোন Core প্যাকেজ নেব?",
-            "content": "**Core Foundation যদি:**\\n• আপনি স্প্রেডশিট আর বিচ্ছিন্ন ড্যাশবোর্ড থেকে বেরোচ্ছেন\\n• গভীরে যাওয়ার আগে একটিই পরিচালন চিত্র চান\\n\\n**Core Margin যদি:**\\n• খাদ্যের খরচ, অপচয়, ভয়েড বা কম্প আপনার মার্জিন খেয়ে ফেলছে\\n• কেবল বিক্রির মিশ্রণ নয়, প্রতি আইটেমের অবদান দরকার\\n\\n**Core Growth যদি:**\\n• পুনরাবৃত্ত রাজস্ব আর চ্যানেল মিশ্রণই বাধা\\n• অতিথি কোহর্ট, প্রোমো অ্যাট্রিবিউশন ও ডেলিভারি মার্জিন দরকার\\n\\n**Core Performance যদি:**\\n• আপনি একাধিক ব্র্যান্ড বা একাধিক বাজার চালান\\n• সংহতকরণ, মডিউল-পার সম্পর্ক আর নিয়ন্ত্রিত প্রবেশাধিকার দরকার"
+            "content": "**Core Foundation যদি:**\n• আপনি স্প্রেডশিট আর বিচ্ছিন্ন ড্যাশবোর্ড থেকে বেরোচ্ছেন\n• গভীরে যাওয়ার আগে একটিই পরিচালন চিত্র চান\n\n**Core Margin যদি:**\n• খাদ্যের খরচ, অপচয়, ভয়েড বা কম্প আপনার মার্জিন খেয়ে ফেলছে\n• কেবল বিক্রির মিশ্রণ নয়, প্রতি আইটেমের অবদান দরকার\n\n**Core Growth যদি:**\n• পুনরাবৃত্ত রাজস্ব আর চ্যানেল মিশ্রণই বাধা\n• অতিথি কোহর্ট, প্রোমো অ্যাট্রিবিউশন ও ডেলিভারি মার্জিন দরকার\n\n**Core Performance যদি:**\n• আপনি একাধিক ব্র্যান্ড বা একাধিক বাজার চালান\n• সংহতকরণ, মডিউল-পার সম্পর্ক আর নিয়ন্ত্রিত প্রবেশাধিকার দরকার"
           },
           {
             "title": "আমি কি পরে আপগ্রেড বা ডাউনগ্রেড করতে পারি?",
@@ -4478,7 +4856,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D Intelligence মডেল কী?",
-            "content": "সিদ্ধান্ত বুদ্ধিমত্তার জন্য Sundae-র কাঠামো:\\n\\n**1D: কী ঘটেছে** - বিক্রি, শ্রম ও খরচের সত্য\\n**2D: পরিকল্পনা বনাম বাস্তব** - বাজেট ও পূর্বাভাসের বিচ্যুতি\\n**3D: বাজারের প্রেক্ষাপট** - বেঞ্চমার্ক, সমগোত্রীয় ও প্রতিযোগী\\n**4D: এরপর কী** - পূর্বাভাস ও সুপারিশ\\n\\nপ্রতিটি Core প্যাকেজ চারটিই ধরে। প্যাকেজ ঠিক করে প্রতিটি মাত্রা কতটা গভীরে যাবে।"
+            "content": "সিদ্ধান্ত বুদ্ধিমত্তার জন্য Sundae-র কাঠামো:\n\n**1D: কী ঘটেছে** - বিক্রি, শ্রম ও খরচের সত্য\n**2D: পরিকল্পনা বনাম বাস্তব** - বাজেট ও পূর্বাভাসের বিচ্যুতি\n**3D: বাজারের প্রেক্ষাপট** - বেঞ্চমার্ক, সমগোত্রীয় ও প্রতিযোগী\n**4D: এরপর কী** - পূর্বাভাস ও সুপারিশ\n\nপ্রতিটি Core প্যাকেজ চারটিই ধরে। প্যাকেজ ঠিক করে প্রতিটি মাত্রা কতটা গভীরে যাবে।"
           }
         ]
       },
@@ -4488,7 +4866,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae-র কী ডেটা লাগে?",
-            "content": "**যেকোনো Core প্যাকেজের জন্য:**\\n• API-র মাধ্যমে POS সিস্টেম\\n• শ্রম বা কর্মী ব্যবস্থাপনা সিস্টেম\\n• ইনভেন্টরি সিস্টেম\\n• মার্কেটিং প্ল্যাটফর্ম\\n• রিজার্ভেশন সিস্টেম\\n\\nপ্রথম দিন থেকেই মূল্য পেতে কেবল POS-ই যথেষ্ট। বাকিগুলো যুক্ত হতে হতে ছবিটা গভীর হয়।"
+            "content": "**যেকোনো Core প্যাকেজের জন্য:**\n• API-র মাধ্যমে POS সিস্টেম\n• শ্রম বা কর্মী ব্যবস্থাপনা সিস্টেম\n• ইনভেন্টরি সিস্টেম\n• মার্কেটিং প্ল্যাটফর্ম\n• রিজার্ভেশন সিস্টেম\n\nপ্রথম দিন থেকেই মূল্য পেতে কেবল POS-ই যথেষ্ট। বাকিগুলো যুক্ত হতে হতে ছবিটা গভীর হয়।"
           },
           {
             "title": "আমার ডেটা Sundae-তে কীভাবে আসে?",
@@ -4504,7 +4882,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "বাস্তবায়নে কত সময় লাগে?",
-            "content": "বেশির ভাগ গ্রুপ ১-২ সপ্তাহে চালু হয়ে যায়। একাধিক ব্র্যান্ড বা একাধিক অঞ্চলজুড়ে বড় রোলআউট পরিসর অনুযায়ী ২-৪ সপ্তাহ নেয়।\\n\\nবাস্তবায়ন একবারের ফি, আপনার নির্বাচনের সর্বোচ্চ শ্রেণির ভিত্তিতে একবারই ধরা হয় - বিনা খরচের সেলফ-সার্ভিস থেকে নির্দিষ্ট পরিসরের Class D সম্পৃক্ততা পর্যন্ত।"
+            "content": "বেশির ভাগ গ্রুপ ১-২ সপ্তাহে চালু হয়ে যায়। একাধিক ব্র্যান্ড বা একাধিক অঞ্চলজুড়ে বড় রোলআউট পরিসর অনুযায়ী ২-৪ সপ্তাহ নেয়।\n\nবাস্তবায়ন একবারের ফি, আপনার নির্বাচনের সর্বোচ্চ শ্রেণির ভিত্তিতে একবারই ধরা হয় - বিনা খরচের সেলফ-সার্ভিস থেকে নির্দিষ্ট পরিসরের Class D সম্পৃক্ততা পর্যন্ত।"
           },
           {
             "title": "যদি আমি বাতিল করি তবে আমার তথ্যের কি হবে?",
@@ -4516,12 +4894,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "মডিউল কী?",
+            "content": "এগারোটি ডোমেইন মডিউল হলো Core-এর ভেতরের বিশ্লেষণী পৃষ্ঠ। এগুলো প্যাকেজের উপাদান, আলাদা করে কেনা অ্যাড-অন নয়:\n\n{{DOMAIN_MODULE_LINES}}\n\nএগুলোর জন্য Core দরকার, কারণ এরা লাইভ সংযুক্ত পরিচালন ডেটার ওপর নির্ভর করে।"
+          },
+          {
+            "title": "আমার কি মডিউল দরকার?",
+            "content": "এগুলো ঐচ্ছিক নয় এবং আলাদা কেনাও নয়। এগারোটি ডোমেইন মডিউলই প্রতিটি Core প্যাকেজের সঙ্গে আসে।\n\nআপনি বেছে নেন প্যাকেজ, আর প্যাকেজই ঠিক করে প্রতিটি মডিউল কতটা গভীরে যাবে।"
+          },
+          {
+            "title": "আমি কি একটি মডিউল আলাদা কিনতে পারি?",
+            "content": "না। এগারোটি ডোমেইন মডিউল Core প্যাকেজের উপাদান, স্বতন্ত্র পণ্য নয়, আর প্রতি-মডিউল কোনো দামও নেই। প্যাকেজ বেছে নেওয়াই সবগুলো পাওয়ার উপায়।"
+          },
+          {
+            "title": "মডিউল কি একটি একটি করে যোগ করতে হয়?",
+            "content": "না। যোগ করার কিছুই নেই। প্রতিটি Core প্যাকেজ প্রথম দিন থেকেই এগারোটি ডোমেইন মডিউল বহন করে - আপনার বেছে নেওয়া প্যাকেজ কেবল ঠিক করে প্রতিটি কতটা গভীরে যাবে।"
+          },
+          {
+            "title": "প্রথমে কোন মডিউল দেখা উচিত?",
+            "content": "সবগুলোই আগে থেকে চালু, তাই প্রশ্নটা কোথা থেকে দেখা শুরু করবেন, কী কিনবেন তা নয়। সবচেয়ে বড় পরিচালন যন্ত্রণা দিয়ে শুরু করুন:\n\n• উচ্চ শ্রম ব্যয় -> Labor Intelligence\n• অপচয় বা স্টকের সমস্যা -> Inventory Intelligence\n• সরবরাহকারীর ওপর দুর্বল নিয়ন্ত্রণ -> Purchasing Intelligence\n• অস্পষ্ট মার্কেটিং ROI -> Marketing Intelligence\n• রিজার্ভেশনে নো-শো -> Reservations Intelligence"
+          },
+          {
+            "title": "মডিউলের দাম কীভাবে ঠিক হয়?",
+            "content": "মডিউলের কোনো দামই নেই। মডিউলের নিজস্ব দাম নেই, নিজস্ব আউটলেট বরাদ্দও নেই - আপনি কেনেন প্যাকেজ।\n\nCore প্যাকেজের দাম শুরু হয় আপনার প্রথম আউটলেট থেকে, তারপর প্রতিটি অতিরিক্ত আউটলেটে প্রান্তিক হারে, আর সেই হার বড় হওয়ার সঙ্গে সঙ্গে কমতে থাকে। {{WORKED_EXAMPLE}}\n\nনির্ভুল হিসাবের জন্য pricing.sundae.io ব্যবহার করুন।"
+          }
         ]
       },
       {
@@ -4544,7 +4940,10 @@ export const generatedLocalCopy = {
             "title": "আমি কি শুধুমাত্র একটি Watchtower উপাদান ব্যবহার করতে পারি?",
             "content": "হ্যাঁ। আপনি প্রতিযোগিতামূলক বুদ্ধিমত্তা, ইভেন্ট বুদ্ধিমত্তা, বা বাজার বুদ্ধিমত্তা আলাদাভাবে কিনতে পারেন, অথবা সেগুলি একত্রিত করতে পারেন।"
           },
-          {}
+          {
+            "title": "Watchtower-এর জন্য কি Core লাগে?",
+            "content": "হ্যাঁ। Watchtower তখনই সবচেয়ে ভালো কাজ করে যখন তার বাজার-সংকেত লাইভ পরিচালন ডেটার ওপর বসানো হয়, আর সেটাই Core প্যাকেজ দেয়। এটি আলাদা বিক্রি না করে আপনার প্যাকেজের সঙ্গেই পরিসর ঠিক করে দাম দেওয়া হয়।"
+          }
         ]
       },
       {
@@ -4694,7 +5093,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "ฉันจะเริ่มอย่างไร",
-            "content": "คุณมีสองทางเลือก\\n\\n1. **ดูราคาของคุณ** - ใช้เครื่องคำนวณแบบโต้ตอบที่ pricing.sundae.io เพื่อจัดขนาดแพ็กเกจ Core ตามจำนวนสาขาของคุณ\\n\\n2. **จองเดโม** - นัดชมแบบ 15 นาทีกับทีมงาน และดู Sundae ทำงานบนข้อมูลจริงของคุณ"
+            "content": "คุณมีสองทางเลือก\n\n1. **ดูราคาของคุณ** - ใช้เครื่องคำนวณแบบโต้ตอบที่ pricing.sundae.io เพื่อจัดขนาดแพ็กเกจ Core ตามจำนวนสาขาของคุณ\n\n2. **จองเดโม** - นัดชมแบบ 15 นาทีกับทีมงาน และดู Sundae ทำงานบนข้อมูลจริงของคุณ"
           },
           {
             "title": "มีแพ็กเกจฟรีไหม",
@@ -4702,7 +5101,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "แพ็กเกจ Core ต่างกันอย่างไร",
-            "content": "**Core Foundation** - พื้นฐานการดำเนินงาน ฐานการตัดสินใจเดียวครอบคลุม POS แรงงาน ต้นทุน และการปฏิบัติงาน\\n\\n**Core Margin** - เจาะลึกต้นทุนและการรั่วไหล ปริมาณตามทฤษฎีเทียบกับที่ใช้จริง ของเสีย ของขาด การยกเลิกและการให้ฟรี กำไรส่วนเพิ่มรายเมนู\\n\\n**Core Growth** - เจาะลึกด้านอุปสงค์ กลุ่มลูกค้าและมูลค่าตลอดช่วงชีวิต การระบุผลโปรโมชันรายช่องทาง กำไรเดลิเวอรีหลังหักค่าคอมมิชชัน\\n\\n**Core Performance** - รวมข้อมูลข้ามแบรนด์และข้ามภูมิภาค การเชื่อมโยงข้ามโมดูล การเข้าถึงที่กำกับดูแลพร้อมร่องรอยการตรวจสอบ\\n\\nทั้งสี่แพ็กเกจมีสิบเอ็ดโมดูลเดียวกัน สิ่งที่ต่างคือความลึก"
+            "content": "**Core Foundation** - พื้นฐานการดำเนินงาน ฐานการตัดสินใจเดียวครอบคลุม POS แรงงาน ต้นทุน และการปฏิบัติงาน\n\n**Core Margin** - เจาะลึกต้นทุนและการรั่วไหล ปริมาณตามทฤษฎีเทียบกับที่ใช้จริง ของเสีย ของขาด การยกเลิกและการให้ฟรี กำไรส่วนเพิ่มรายเมนู\n\n**Core Growth** - เจาะลึกด้านอุปสงค์ กลุ่มลูกค้าและมูลค่าตลอดช่วงชีวิต การระบุผลโปรโมชันรายช่องทาง กำไรเดลิเวอรีหลังหักค่าคอมมิชชัน\n\n**Core Performance** - รวมข้อมูลข้ามแบรนด์และข้ามภูมิภาค การเชื่อมโยงข้ามโมดูล การเข้าถึงที่กำกับดูแลพร้อมร่องรอยการตรวจสอบ\n\nทั้งสี่แพ็กเกจมีสิบเอ็ดโมดูลเดียวกัน สิ่งที่ต่างคือความลึก"
           },
           {
             "title": "ต้องทำสัญญาระยะยาวไหม",
@@ -4716,11 +5115,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae มีผลิตภัณฑ์อะไรบ้าง",
-            "content": "**สี่ผลิตภัณฑ์หลัก**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ฐานการตัดสินใจ ซึ่งมีโมดูลทั้งสิบเอ็ดด้านครบ\\n2. **Foresight & Action** - การพยากรณ์ การจำลองสถานการณ์ และชั้นการลงมือที่มีคนอนุมัติ\\n3. **Sundae Crew** - ฐานกำลังคน จัดตาราง ลงเวลา เตรียมจ่ายเงินเดือน งานบุคคล และ people intelligence\\n4. **Watchtower** - ข้อมูลตลาดภายนอก กำหนดขอบเขตไปพร้อมแพ็กเกจ Core ของคุณ\\n\\n**และเพิ่มเติม** SKU เฉพาะรูปแบบธุรกิจที่กลุ่มของคุณทำ ทั้งแฟรนไชส์ อาหารในโรงแรม คลาวด์คิทเช่น จัดเลี้ยง การผลิต และครัวกลางให้เช่า"
+            "content": "**สี่ผลิตภัณฑ์หลัก**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ฐานการตัดสินใจ ซึ่งมีโมดูลทั้งสิบเอ็ดด้านครบ\n2. **Foresight & Action** - การพยากรณ์ การจำลองสถานการณ์ และชั้นการลงมือที่มีคนอนุมัติ\n3. **Sundae Crew** - ฐานกำลังคน จัดตาราง ลงเวลา เตรียมจ่ายเงินเดือน งานบุคคล และ people intelligence\n4. **Watchtower** - ข้อมูลตลาดภายนอก กำหนดขอบเขตไปพร้อมแพ็กเกจ Core ของคุณ\n\n**และเพิ่มเติม** SKU เฉพาะรูปแบบธุรกิจที่กลุ่มของคุณทำ ทั้งแฟรนไชส์ อาหารในโรงแรม คลาวด์คิทเช่น จัดเลี้ยง การผลิต และครัวกลางให้เช่า"
           },
           {
             "title": "ฉันควรเลือกแพ็กเกจ Core ไหน",
-            "content": "**เลือก Core Foundation ถ้า**\\n• คุณกำลังเลิกใช้สเปรดชีตและแดชบอร์ดที่ไม่เชื่อมกัน\\n• คุณอยากได้ภาพการดำเนินงานภาพเดียวก่อนลงลึก\\n\\n**เลือก Core Margin ถ้า**\\n• ต้นทุนวัตถุดิบ ของเสีย การยกเลิก หรือการให้ฟรี กำลังกินกำไรคุณ\\n• คุณต้องการกำไรส่วนเพิ่มรายเมนู ไม่ใช่แค่สัดส่วนยอดขาย\\n\\n**เลือก Core Growth ถ้า**\\n• รายได้จากลูกค้าเดิมและสัดส่วนช่องทางคือข้อจำกัด\\n• คุณต้องการกลุ่มลูกค้า การระบุผลโปรโมชัน และกำไรเดลิเวอรี\\n\\n**เลือก Core Performance ถ้า**\\n• คุณทำหลายแบรนด์หรือหลายตลาด\\n• คุณต้องการการรวมข้อมูล การเชื่อมโยงข้ามโมดูล และการเข้าถึงที่กำกับดูแล"
+            "content": "**เลือก Core Foundation ถ้า**\n• คุณกำลังเลิกใช้สเปรดชีตและแดชบอร์ดที่ไม่เชื่อมกัน\n• คุณอยากได้ภาพการดำเนินงานภาพเดียวก่อนลงลึก\n\n**เลือก Core Margin ถ้า**\n• ต้นทุนวัตถุดิบ ของเสีย การยกเลิก หรือการให้ฟรี กำลังกินกำไรคุณ\n• คุณต้องการกำไรส่วนเพิ่มรายเมนู ไม่ใช่แค่สัดส่วนยอดขาย\n\n**เลือก Core Growth ถ้า**\n• รายได้จากลูกค้าเดิมและสัดส่วนช่องทางคือข้อจำกัด\n• คุณต้องการกลุ่มลูกค้า การระบุผลโปรโมชัน และกำไรเดลิเวอรี\n\n**เลือก Core Performance ถ้า**\n• คุณทำหลายแบรนด์หรือหลายตลาด\n• คุณต้องการการรวมข้อมูล การเชื่อมโยงข้ามโมดูล และการเข้าถึงที่กำกับดูแล"
           },
           {
             "title": "สามารถอัปเกรดหรือลดระดับในภายหลังได้ไหม?",
@@ -4728,7 +5127,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "โมเดล 4D Intelligence คืออะไร",
-            "content": "กรอบการทำงานของ Sundae สำหรับปัญญาการตัดสินใจ\\n\\n**1D: เกิดอะไรขึ้น** - ความจริงเรื่องยอดขาย แรงงาน และต้นทุน\\n**2D: แผนเทียบผลจริง** - ส่วนต่างจากงบประมาณและการพยากรณ์\\n**3D: บริบทตลาด** - การเทียบเคียง คู่เทียบ และคู่แข่ง\\n**4D: อะไรจะเกิดต่อไป** - การคาดการณ์และข้อเสนอแนะ\\n\\nทุกแพ็กเกจ Core ครอบคลุมทั้งสี่ด้าน แพ็กเกจเป็นตัวกำหนดว่าแต่ละด้านลึกแค่ไหน"
+            "content": "กรอบการทำงานของ Sundae สำหรับปัญญาการตัดสินใจ\n\n**1D: เกิดอะไรขึ้น** - ความจริงเรื่องยอดขาย แรงงาน และต้นทุน\n**2D: แผนเทียบผลจริง** - ส่วนต่างจากงบประมาณและการพยากรณ์\n**3D: บริบทตลาด** - การเทียบเคียง คู่เทียบ และคู่แข่ง\n**4D: อะไรจะเกิดต่อไป** - การคาดการณ์และข้อเสนอแนะ\n\nทุกแพ็กเกจ Core ครอบคลุมทั้งสี่ด้าน แพ็กเกจเป็นตัวกำหนดว่าแต่ละด้านลึกแค่ไหน"
           }
         ]
       },
@@ -4738,7 +5137,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae ต้องใช้ข้อมูลอะไรบ้าง",
-            "content": "**สำหรับทุกแพ็กเกจ Core**\\n• ระบบ POS ผ่าน API\\n• ระบบแรงงานหรือกำลังคน\\n• ระบบสินค้าคงคลัง\\n• แพลตฟอร์มการตลาด\\n• ระบบการจอง\\n\\nแค่ POS อย่างเดียวก็สร้างคุณค่าได้ตั้งแต่วันแรก ส่วนที่เหลือจะทำให้ภาพชัดขึ้นเมื่อคุณเชื่อมต่อเพิ่ม"
+            "content": "**สำหรับทุกแพ็กเกจ Core**\n• ระบบ POS ผ่าน API\n• ระบบแรงงานหรือกำลังคน\n• ระบบสินค้าคงคลัง\n• แพลตฟอร์มการตลาด\n• ระบบการจอง\n\nแค่ POS อย่างเดียวก็สร้างคุณค่าได้ตั้งแต่วันแรก ส่วนที่เหลือจะทำให้ภาพชัดขึ้นเมื่อคุณเชื่อมต่อเพิ่ม"
           },
           {
             "title": "ข้อมูลของฉันเข้าสู่ Sundae อย่างไร",
@@ -4754,7 +5153,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "การติดตั้งใช้เวลานานแค่ไหน",
-            "content": "กลุ่มธุรกิจส่วนใหญ่เริ่มใช้งานได้ใน 1-2 สัปดาห์ การเปิดใช้ที่ใหญ่กว่าแบบหลายแบรนด์หรือหลายภูมิภาคใช้เวลา 2-4 สัปดาห์ ขึ้นกับขอบเขต\\n\\nค่าติดตั้งเป็นค่าใช้จ่ายครั้งเดียว เรียกเก็บครั้งเดียวตามระดับสูงสุดในรายการที่คุณเลือก ตั้งแต่แบบบริการตนเองที่ไม่มีค่าใช้จ่าย ไปจนถึงงาน Class D ที่กำหนดขอบเขตไว้"
+            "content": "กลุ่มธุรกิจส่วนใหญ่เริ่มใช้งานได้ใน 1-2 สัปดาห์ การเปิดใช้ที่ใหญ่กว่าแบบหลายแบรนด์หรือหลายภูมิภาคใช้เวลา 2-4 สัปดาห์ ขึ้นกับขอบเขต\n\nค่าติดตั้งเป็นค่าใช้จ่ายครั้งเดียว เรียกเก็บครั้งเดียวตามระดับสูงสุดในรายการที่คุณเลือก ตั้งแต่แบบบริการตนเองที่ไม่มีค่าใช้จ่าย ไปจนถึงงาน Class D ที่กำหนดขอบเขตไว้"
           },
           {
             "title": "จะเกิดอะไรขึ้นกับข้อมูลของฉันหากฉันยกเลิก?",
@@ -4766,12 +5165,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "โมดูลคืออะไร",
+            "content": "โมดูลด้านงานทั้งสิบเอ็ดคือพื้นที่วิเคราะห์ภายใน Core เป็นองค์ประกอบของแพ็กเกจ ไม่ใช่ส่วนเสริมที่ซื้อแยก\n\n{{DOMAIN_MODULE_LINES}}\n\nโมดูลเหล่านี้ต้องใช้ Core เพราะพึ่งพาข้อมูลการดำเนินงานที่เชื่อมต่อแบบสด"
+          },
+          {
+            "title": "ฉันจำเป็นต้องมีโมดูลไหม",
+            "content": "ไม่ใช่ตัวเลือกเสริมและไม่ใช่การซื้อแยก โมดูลด้านงานทั้งสิบเอ็ดมาพร้อมทุกแพ็กเกจ Core\n\nสิ่งที่คุณเลือกคือแพ็กเกจ และแพ็กเกจเป็นตัวกำหนดว่าแต่ละโมดูลลึกแค่ไหน"
+          },
+          {
+            "title": "ซื้อโมดูลเดียวได้ไหม",
+            "content": "ไม่ได้ โมดูลด้านงานทั้งสิบเอ็ดเป็นองค์ประกอบของแพ็กเกจ Core ไม่ใช่ผลิตภัณฑ์เดี่ยว และไม่มีราคาต่อโมดูล การเลือกแพ็กเกจคือวิธีที่จะได้ครบทุกโมดูล"
+          },
+          {
+            "title": "ต้องเพิ่มโมดูลทีละตัวไหม",
+            "content": "ไม่ต้อง ไม่มีอะไรให้เพิ่ม ทุกแพ็กเกจ Core มีโมดูลด้านงานครบสิบเอ็ดตั้งแต่วันแรก แพ็กเกจที่คุณเลือกเป็นเพียงตัวกำหนดความลึกของแต่ละโมดูล"
+          },
+          {
+            "title": "ควรเริ่มดูโมดูลไหนก่อน",
+            "content": "ทุกโมดูลเปิดใช้อยู่แล้ว คำถามจึงอยู่ที่ว่าจะเริ่มดูตรงไหน ไม่ใช่จะซื้ออะไร เริ่มจากจุดที่เจ็บที่สุดในการดำเนินงาน\n\n• ต้นทุนแรงงานสูง -> Labor Intelligence\n• ของเสียหรือปัญหาสต๊อก -> Inventory Intelligence\n• อำนาจต่อรองกับซัพพลายเออร์น้อย -> Purchasing Intelligence\n• ผลตอบแทนการตลาดไม่ชัด -> Marketing Intelligence\n• ลูกค้าจองแล้วไม่มา -> Reservations Intelligence"
+          },
+          {
+            "title": "ราคาโมดูลคิดอย่างไร",
+            "content": "ไม่มีการคิดราคาต่อโมดูล โมดูลไม่มีราคาของตัวเองและไม่มีโควตาสาขาของตัวเอง สิ่งที่คุณซื้อคือแพ็กเกจ\n\nแพ็กเกจ Core คิดจากสาขาแรกของคุณ จากนั้นคิดอัตราส่วนเพิ่มต่อสาขาถัดไป ซึ่งจะลดลงเมื่อคุณขยายมากขึ้น {{WORKED_EXAMPLE}}\n\nดูการคำนวณที่แม่นยำได้ที่ pricing.sundae.io"
+          }
         ]
       },
       {
@@ -4794,7 +5211,10 @@ export const generatedLocalCopy = {
             "title": "ฉันสามารถใช้ส่วนประกอบ Watchtower เพียงอย่างเดียวได้หรือไม่?",
             "content": "ได้ คุณสามารถซื้อข้อมูลเชิงการแข่งขัน ข้อมูลเหตุการณ์ หรือข้อมูลตลาดแยกกันได้ หรือรวมกันก็ได้."
           },
-          {}
+          {
+            "title": "Watchtower ต้องใช้ Core ไหม",
+            "content": "ต้องใช้ Watchtower ให้ผลดีที่สุดเมื่อสัญญาณตลาดถูกวางทับบนข้อมูลการดำเนินงานแบบสด ซึ่งเป็นสิ่งที่แพ็กเกจ Core มอบให้ โดยจะกำหนดขอบเขตและเสนอราคาไปพร้อมแพ็กเกจของคุณ แทนที่จะขายแยก"
+          }
         ]
       },
       {
@@ -4944,7 +5364,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Bagaimana saya bermula?",
-            "content": "Anda ada dua pilihan:\\n\\n1. **Lihat harga anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menentukan pakej Core mengikut bilangan cawangan anda.\\n\\n2. **Tempah demo** - Aturkan sesi 15 minit bersama pasukan kami dan lihat Sundae berjalan atas data anda sendiri."
+            "content": "Anda ada dua pilihan:\n\n1. **Lihat harga anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menentukan pakej Core mengikut bilangan cawangan anda.\n\n2. **Tempah demo** - Aturkan sesi 15 minit bersama pasukan kami dan lihat Sundae berjalan atas data anda sendiri."
           },
           {
             "title": "Adakah peringkat percuma?",
@@ -4952,7 +5372,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Apakah beza pakej-pakej Core?",
-            "content": "**Core Foundation** - asas operasi: satu substrat keputusan merentasi POS, tenaga kerja, kos dan operasi.\\n\\n**Core Margin** - kedalaman pada kos dan kebocoran: penggunaan teori berbanding sebenar, pembaziran, susut nilai, pembatalan dan komplimen, sumbangan setiap item.\\n\\n**Core Growth** - kedalaman pada permintaan: kohort tetamu dan nilai sepanjang hayat, atribusi promosi mengikut saluran, margin penghantaran selepas komisen.\\n\\n**Core Performance** - penyatuan merentasi jenama dan wilayah, korelasi antara modul, akses terurus dengan jejak audit.\\n\\nKeempat-empatnya membawa sebelas modul domain yang sama. Yang berubah ialah kedalamannya."
+            "content": "**Core Foundation** - asas operasi: satu substrat keputusan merentasi POS, tenaga kerja, kos dan operasi.\n\n**Core Margin** - kedalaman pada kos dan kebocoran: penggunaan teori berbanding sebenar, pembaziran, susut nilai, pembatalan dan komplimen, sumbangan setiap item.\n\n**Core Growth** - kedalaman pada permintaan: kohort tetamu dan nilai sepanjang hayat, atribusi promosi mengikut saluran, margin penghantaran selepas komisen.\n\n**Core Performance** - penyatuan merentasi jenama dan wilayah, korelasi antara modul, akses terurus dengan jejak audit.\n\nKeempat-empatnya membawa sebelas modul domain yang sama. Yang berubah ialah kedalamannya."
           },
           {
             "title": "Perlukah kontrak jangka panjang?",
@@ -4966,11 +5386,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Apakah produk yang ditawarkan Sundae?",
-            "content": "**Empat produk utama:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa kesemua sebelas modul domain\\n2. **Foresight & Action** - ramalan, pemodelan senario dan lapisan tindakan dengan kelulusan manusia\\n3. **Sundae Crew** - substrat tenaga kerja: penjadualan, kehadiran, kesediaan gaji, HR dan people intelligence\\n4. **Watchtower** - risikan pasaran luaran, diskopkan bersama pakej Core anda\\n\\n**Tambahan:** SKU konsep untuk model operasi kumpulan anda - francais, F&B hotel, cloud kitchen, katering, pengeluaran, dapur pusat sewa."
+            "content": "**Empat produk utama:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa kesemua sebelas modul domain\n2. **Foresight & Action** - ramalan, pemodelan senario dan lapisan tindakan dengan kelulusan manusia\n3. **Sundae Crew** - substrat tenaga kerja: penjadualan, kehadiran, kesediaan gaji, HR dan people intelligence\n4. **Watchtower** - risikan pasaran luaran, diskopkan bersama pakej Core anda\n\n**Tambahan:** SKU konsep untuk model operasi kumpulan anda - francais, F&B hotel, cloud kitchen, katering, pengeluaran, dapur pusat sewa."
           },
           {
             "title": "Pakej Core yang mana patut saya pilih?",
-            "content": "**Core Foundation jika:**\\n• Anda beralih daripada hamparan dan papan pemuka yang terpisah\\n• Anda mahu satu gambaran operasi sebelum mendalami\\n\\n**Core Margin jika:**\\n• Kos bahan, pembaziran, pembatalan atau komplimen memakan margin anda\\n• Anda perlukan sumbangan setiap item, bukan sekadar campuran jualan\\n\\n**Core Growth jika:**\\n• Hasil berulang dan campuran saluran menjadi kekangan\\n• Anda perlukan kohort tetamu, atribusi promosi dan margin penghantaran\\n\\n**Core Performance jika:**\\n• Anda mengendalikan beberapa jenama atau beberapa pasaran\\n• Anda perlukan penyatuan, korelasi antara modul dan akses terurus"
+            "content": "**Core Foundation jika:**\n• Anda beralih daripada hamparan dan papan pemuka yang terpisah\n• Anda mahu satu gambaran operasi sebelum mendalami\n\n**Core Margin jika:**\n• Kos bahan, pembaziran, pembatalan atau komplimen memakan margin anda\n• Anda perlukan sumbangan setiap item, bukan sekadar campuran jualan\n\n**Core Growth jika:**\n• Hasil berulang dan campuran saluran menjadi kekangan\n• Anda perlukan kohort tetamu, atribusi promosi dan margin penghantaran\n\n**Core Performance jika:**\n• Anda mengendalikan beberapa jenama atau beberapa pasaran\n• Anda perlukan penyatuan, korelasi antara modul dan akses terurus"
           },
           {
             "title": "Bolehkah saya naik taraf atau turun taraf kemudian?",
@@ -4978,7 +5398,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Apakah model 4D Intelligence?",
-            "content": "Rangka kerja Sundae untuk kecerdasan keputusan:\\n\\n**1D: apa yang berlaku** - kebenaran jualan, tenaga kerja dan kos\\n**2D: rancangan lawan sebenar** - sisihan belanjawan dan ramalan\\n**3D: konteks pasaran** - penanda aras, rakan setara dan pesaing\\n**4D: apa seterusnya** - ramalan dan cadangan\\n\\nSetiap pakej Core meliputi keempat-empatnya. Pakej menentukan sedalam mana setiap dimensi pergi."
+            "content": "Rangka kerja Sundae untuk kecerdasan keputusan:\n\n**1D: apa yang berlaku** - kebenaran jualan, tenaga kerja dan kos\n**2D: rancangan lawan sebenar** - sisihan belanjawan dan ramalan\n**3D: konteks pasaran** - penanda aras, rakan setara dan pesaing\n**4D: apa seterusnya** - ramalan dan cadangan\n\nSetiap pakej Core meliputi keempat-empatnya. Pakej menentukan sedalam mana setiap dimensi pergi."
           }
         ]
       },
@@ -4988,7 +5408,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Data apakah yang diperlukan Sundae?",
-            "content": "**Untuk setiap pakej Core:**\\n• Sistem POS melalui API\\n• Sistem tenaga kerja atau penjadualan\\n• Sistem inventori\\n• Platform pemasaran\\n• Sistem tempahan\\n\\nPOS sahaja sudah cukup untuk memberi nilai pada hari pertama. Selebihnya mendalamkan gambaran apabila anda menyambungkannya."
+            "content": "**Untuk setiap pakej Core:**\n• Sistem POS melalui API\n• Sistem tenaga kerja atau penjadualan\n• Sistem inventori\n• Platform pemasaran\n• Sistem tempahan\n\nPOS sahaja sudah cukup untuk memberi nilai pada hari pertama. Selebihnya mendalamkan gambaran apabila anda menyambungkannya."
           },
           {
             "title": "Bagaimana data saya masuk ke Sundae?",
@@ -5004,7 +5424,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Berapa lama pelaksanaan mengambil masa?",
-            "content": "Kebanyakan kumpulan beroperasi dalam 1-2 minggu. Pelancaran lebih besar merentasi berbilang jenama atau wilayah mengambil 2-4 minggu bergantung pada skop.\\n\\nPelaksanaan ialah yuran sekali sahaja, dikenakan sekali pada kelas tertinggi dalam pilihan anda - daripada layan diri tanpa kos sehingga penglibatan Class D yang berskop."
+            "content": "Kebanyakan kumpulan beroperasi dalam 1-2 minggu. Pelancaran lebih besar merentasi berbilang jenama atau wilayah mengambil 2-4 minggu bergantung pada skop.\n\nPelaksanaan ialah yuran sekali sahaja, dikenakan sekali pada kelas tertinggi dalam pilihan anda - daripada layan diri tanpa kos sehingga penglibatan Class D yang berskop."
           },
           {
             "title": "Apa yang berlaku kepada data saya jika saya membatalkan?",
@@ -5016,12 +5436,30 @@ export const generatedLocalCopy = {
         "id": "modules",
         "icon": "network",
         "faqs": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Apakah modul?",
+            "content": "Sebelas modul domain ialah permukaan analitik di dalam Core. Semuanya komponen pakej, bukan tambahan yang dibeli berasingan:\n\n{{DOMAIN_MODULE_LINES}}\n\nSemuanya memerlukan Core kerana bergantung pada data operasi yang bersambung secara langsung."
+          },
+          {
+            "title": "Adakah saya perlukan modul?",
+            "content": "Ia bukan pilihan dan bukan pembelian berasingan. Kesemua sebelas modul domain disertakan dengan setiap pakej Core.\n\nApa yang anda pilih ialah pakej, dan pakej menentukan sedalam mana setiap modul pergi."
+          },
+          {
+            "title": "Bolehkah saya membeli satu modul sahaja?",
+            "content": "Tidak. Sebelas modul domain ialah komponen pakej Core, bukan produk berasingan, dan tiada harga bagi setiap modul. Memilih pakej ialah cara anda mendapat kesemuanya."
+          },
+          {
+            "title": "Adakah modul ditambah satu demi satu?",
+            "content": "Tidak. Tiada apa-apa untuk ditambah. Setiap pakej Core membawa kesemua sebelas modul domain dari hari pertama - pakej yang anda pilih hanya menentukan kedalaman setiap satu."
+          },
+          {
+            "title": "Modul mana patut saya lihat dahulu?",
+            "content": "Semuanya sudah dihidupkan, jadi persoalannya di mana hendak mula melihat, bukan apa hendak dibeli. Mulakan dengan kesakitan operasi yang paling besar:\n\n• Kos tenaga kerja tinggi -> Labor Intelligence\n• Pembaziran atau masalah stok -> Inventory Intelligence\n• Kuasa tawar-menawar pembekal lemah -> Purchasing Intelligence\n• ROI pemasaran tidak jelas -> Marketing Intelligence\n• Tempahan tidak hadir -> Reservations Intelligence"
+          },
+          {
+            "title": "Bagaimana harga modul berfungsi?",
+            "content": "Tiada harga modul. Modul tiada harga tersendiri dan tiada peruntukan lokasi sendiri - apa yang anda beli ialah pakej.\n\nPakej Core dikira bermula dari cawangan pertama anda, kemudian pada kadar marginal bagi setiap cawangan tambahan, kadar yang menurun apabila anda berkembang. {{WORKED_EXAMPLE}}\n\nGunakan pricing.sundae.io untuk pengiraan tepat."
+          }
         ]
       },
       {
@@ -5044,7 +5482,10 @@ export const generatedLocalCopy = {
             "title": "Bolehkah saya menggunakan hanya satu komponen Watchtower?",
             "content": "Ya. Anda boleh membeli Kecerdasan Persaingan, Kecerdasan Acara, atau Kecerdasan Pasaran secara individu, atau menggabungkannya."
           },
-          {}
+          {
+            "title": "Adakah Watchtower memerlukan Core?",
+            "content": "Ya. Watchtower memberi hasil terbaik apabila isyarat pasarannya diletakkan di atas data operasi langsung, iaitu apa yang diberikan oleh pakej Core. Ia diskopkan dan disebut harga bersama pakej anda, bukan dijual berasingan."
+          }
         ]
       },
       {

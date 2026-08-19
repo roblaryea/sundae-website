@@ -1517,6 +1517,44 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
   ],
 };
 
+/**
+ * Some FAQ answers embed values computed from the live pricing and module
+ * catalogues, so the copy can never drift from what is actually sold. A
+ * translated string coming from the generated locale mirror would freeze
+ * those values at translation time, which is exactly the drift the computed
+ * approach exists to prevent. So translations carry a token instead, and the
+ * live value is substituted here at read time.
+ */
+const FAQ_TOKENS: Record<string, string> = {
+  '{{DOMAIN_MODULE_LINES}}': DOMAIN_MODULE_LINES,
+  '{{AI_WALLET_LINES}}': AI_WALLET_LINES,
+  '{{CREW_SKU_LINES}}': CREW_SKU_LINES,
+  '{{CREW_BUNDLE_LINES}}': CREW_BUNDLE_LINES,
+  '{{FOUNDATION_FIRST_UNIT}}': usd(CORE_PACKAGES[0].firstUnitMonthly),
+}
+
+const WORKED_EXAMPLE_BY_LOCALE: Partial<Record<WebsiteLocale, string>> = {
+  ar: WORKED_EXAMPLE_AR,
+  fr: WORKED_EXAMPLE_FR,
+  es: WORKED_EXAMPLE_ES,
+}
+
+function applyFaqTokens(content: string, locale: WebsiteLocale): string {
+  let out = content
+  for (const [token, value] of Object.entries(FAQ_TOKENS)) {
+    if (out.includes(token)) out = out.split(token).join(value)
+  }
+  if (out.includes('{{WORKED_EXAMPLE}}')) {
+    out = out
+      .split('{{WORKED_EXAMPLE}}')
+      .join(
+        WORKED_EXAMPLE_BY_LOCALE[locale as keyof typeof WORKED_EXAMPLE_BY_LOCALE] ??
+          WORKED_EXAMPLE,
+      )
+  }
+  return out
+}
+
 export function getLocalizedFaqSections(
   locale: WebsiteLocale,
   categoryTitles: readonly string[],
@@ -1526,5 +1564,9 @@ export function getLocalizedFaqSections(
   return sections.map((section, index) => ({
     ...section,
     title: categoryTitles[index] ?? localizedFaqSections.en[index]?.id ?? section.id,
+    faqs: section.faqs.map((faq) => ({
+      ...faq,
+      content: applyFaqTokens(faq.content, locale),
+    })),
   }));
 }

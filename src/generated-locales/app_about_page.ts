@@ -45,7 +45,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Von Betreibern entwickelt, die das Problem erlebt haben",
-      "teamDescription": "Unser Team bringt über 60 Jahre Erfahrung in den Bereichen Gastronomie, Technologie und Daten mit. Wir haben dieses Problem nicht von der Seitenlinie aus betrachtet. Wir haben den Betrieb geleitet, Konzepte skaliert und uns mit denselben Berichtslücken auseinandergesetzt, mit denen Betreiber jede Woche konfrontiert sind.",
+      "teamDescription": "Unser Team bringt über 40 Jahre aus Gastronomie, Technologie und Daten mit. Wir haben dieses Problem nicht von außen studiert - wir haben den Betrieb geführt, Konzepte skaliert und mit denselben Reporting-Lücken gelebt, die Betreiber jede Woche erleben.",
       "strengthsTitle": "Teamstärken",
       "journeyTitle": "Die Sundae-Reise",
       "journeyDescription": "Das Unternehmen entstand aus den Herausforderungen der Betreiber und entwickelte sich dann zu einer Plattform, die in mehreren Märkten genutzt wird.",
@@ -230,7 +230,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Die Intelligenzebene, die Restaurants nie hatten"
+      "title": "Wir haben die Entscheidungsebene gebaut, die wir brauchten und nirgends fanden."
     },
     "fr": {
       "metadataTitle": "À propos de Sundae - La plateforme d'intelligence décisionnelle pour les restaurants",
@@ -275,7 +275,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construit par des opérateurs qui ont vécu le problème",
-      "teamDescription": "Notre équipe cumule plus de 60 ans d'expérience dans les restaurants, la technologie et les données. Nous n'avons pas étudié ce problème de loin. Nous avons géré des opérations, développé des concepts et fait face aux mêmes lacunes de reporting que rencontrent les opérateurs chaque semaine.",
+      "teamDescription": "Notre équipe réunit plus de 40 ans d'expérience en restauration, technologie et données. Nous n'avons pas étudié le problème de l'extérieur : nous avons dirigé l'exploitation, développé les concepts et rencontré les mêmes manques de reporting que les opérateurs affrontent chaque semaine.",
       "strengthsTitle": "Forces de l'équipe",
       "journeyTitle": "Le Voyage Sundae",
       "journeyDescription": "L'entreprise est née de la douleur des opérateurs, puis est devenue une plateforme utilisée sur plusieurs marchés.",
@@ -442,7 +442,8 @@ export const generatedLocalCopy = {
           "label": "Bientôt disponible",
           "tier": "expanding"
         }
-      ]
+      ],
+      "title": "Nous avons construit la couche de décision dont nous avions besoin, et que nous ne trouvions nulle part."
     },
     "es": {
       "metadataTitle": "Acerca de Sundae - La Plataforma de Inteligencia de Decisiones para Restaurantes",
@@ -487,7 +488,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construido por Operadores que Vivieron el Problema",
-      "teamDescription": "Nuestro equipo aporta más de 60 años de experiencia en restaurantes, tecnología y datos. No estudiamos este problema desde la barrera. Ejecutamos operaciones, escalamos conceptos y enfrentamos las mismas brechas de informes que los operadores enfrentan cada semana.",
+      "teamDescription": "Nuestro equipo suma más de 40 años en restaurantes, tecnología y datos. No estudiamos el problema desde fuera: dirigimos la operación, escalamos los conceptos y chocamos con las mismas carencias de reporting que los operadores afrontan cada semana.",
       "strengthsTitle": "Fortalezas del Equipo",
       "journeyTitle": "El Viaje de Sundae",
       "journeyDescription": "La empresa surgió de las dificultades de los operadores y luego se convirtió en una plataforma utilizada en múltiples mercados.",
@@ -654,7 +655,8 @@ export const generatedLocalCopy = {
           "label": "Próximamente",
           "tier": "expanding"
         }
-      ]
+      ],
+      "title": "Construimos la capa de decisión que necesitábamos y no encontrábamos en ninguna parte."
     },
     "ar": {
       "metadataTitle": "حول Sundae - منصة الذكاء في اتخاذ القرار للمطاعم",
@@ -699,7 +701,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "بُني على يد مشغّلين عاشوا المشكلة",
-      "teamDescription": "يقدم فريقنا أكثر من 60 عامًا من الخبرة في المطاعم والتكنولوجيا والبيانات. لم ندرس هذه المشكلة من الهامش. لقد قمنا بتشغيل العمليات، وتوسيع المفاهيم، وتعاملنا مع نفس فجوات التقارير التي يواجهها المشغلون كل أسبوع.",
+      "teamDescription": "يجمع فريقنا أكثر من 40 سنة من الخبرة في المطاعم والتقنية والبيانات. لم ندرس المشكلة من الخارج - بل أدرنا التشغيل، ووسّعنا المفاهيم، واصطدمنا بنفس فجوات التقارير التي يواجهها المشغّلون كل أسبوع.",
       "strengthsTitle": "قوة الفريق",
       "journeyTitle": "رحلة Sundae",
       "journeyDescription": "نشأت الشركة من معاناة المشغلين، ثم تحولت إلى منصة تُستخدم في أسواق متعددة.",
@@ -866,7 +868,8 @@ export const generatedLocalCopy = {
           "label": "قريبًا",
           "tier": "expanding"
         }
-      ]
+      ],
+      "title": "بنينا طبقة القرار التي احتجناها ولم نجدها في أي مكان."
     },
     "nl": {
       "metadataTitle": "Over Sundae - Het Besluitvormingsintelligentieplatform voor Restaurants",
@@ -911,7 +914,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Gebouwd door Operators Die het Probleem Hebben Geleefd",
-      "teamDescription": "Ons team heeft meer dan 60 jaar ervaring in restaurants, technologie en data. We hebben dit probleem niet van de zijlijn bestudeerd. We hebben operaties geleid, concepten opgeschaald en hebben te maken gehad met dezelfde rapportagehiaten waar operators elke week mee te maken hebben.",
+      "teamDescription": "Ons team brengt ruim 40 jaar aan horeca, technologie en data mee. We hebben dit probleem niet van een afstand bestudeerd - we hebben de operatie gerund, concepten opgeschaald en dezelfde rapportagegaten meegemaakt die operators elke week tegenkomen.",
       "strengthsTitle": "Team Kracht",
       "journeyTitle": "De Sundae Reis",
       "journeyDescription": "Het bedrijf is ontstaan uit de pijn van de operator en is uitgegroeid tot een platform dat in meerdere markten wordt gebruikt.",
@@ -1096,7 +1099,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "De intelligentielaag die restaurants nooit hadden"
+      "title": "We bouwden de beslissingslaag die we nodig hadden en nergens konden vinden."
     },
     "pt": {
       "metadataTitle": "Sobre a Sundae - A Plataforma de Inteligência de Decisão para Restaurantes",
@@ -1141,7 +1144,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construído por Operadores que Vivenciaram o Problema",
-      "teamDescription": "Nossa equipe possui mais de 60 anos de experiência em restaurantes, tecnologia e dados. Não estudamos esse problema de fora. Gerenciamos operações, escalamos conceitos e lidamos com as mesmas lacunas de relatórios que os operadores enfrentam toda semana.",
+      "teamDescription": "A nossa equipa reúne mais de 40 anos em restauração, tecnologia e dados. Não estudámos o problema de fora - gerimos a operação, escalámos os conceitos e lidámos com as mesmas lacunas de reporting que os operadores enfrentam todas as semanas.",
       "strengthsTitle": "Forças da Equipe",
       "journeyTitle": "A Jornada Sundae",
       "journeyDescription": "A empresa surgiu da dor dos operadores e, em seguida, se transformou em uma plataforma utilizada em vários mercados.",
@@ -1326,7 +1329,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "A camada de inteligência que os restaurantes nunca tiveram"
+      "title": "Construímos a camada de decisão de que precisávamos e não encontrávamos em lado nenhum."
     },
     "ur": {
       "metadataTitle": "Sundae کے بارے میں - ریستورانوں کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
@@ -1371,7 +1374,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "آپریٹرز کے ذریعہ بنایا گیا جو مسئلے کا سامنا کر چکے ہیں",
-      "teamDescription": "ہماری ٹیم کے پاس ریستوران، ٹیکنالوجی، اور ڈیٹا میں 60+ سال کا تجربہ ہے۔ ہم نے اس مسئلے کا مطالعہ کنارے سے نہیں کیا۔ ہم نے آپریشنز چلائے، تصورات کو وسعت دی، اور ہر ہفتے آپریٹرز کو درپیش رپورٹنگ کے خلا کا سامنا کیا۔",
+      "teamDescription": "ہماری ٹیم ریستوران، ٹیکنالوجی اور ڈیٹا میں 40 سال سے زائد کا تجربہ رکھتی ہے۔ ہم نے یہ مسئلہ باہر سے نہیں پڑھا - ہم نے آپریشن چلایا، کانسیپٹ بڑھائے، اور اُنہی رپورٹنگ خلا سے نبرد آزما ہوئے جن سے آپریٹرز ہر ہفتے گزرتے ہیں۔",
       "strengthsTitle": "ٹیم کی طاقتیں",
       "journeyTitle": "Sundae کا سفر",
       "journeyDescription": "یہ کمپنی آپریٹر کی مشکلات سے نکلی، پھر ایک ایسا پلیٹ فارم بن گئی جو متعدد مارکیٹوں میں استعمال ہوتا ہے۔",
@@ -1556,7 +1559,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "وہ انٹیلیجنس پرت جو ریستورانوں کے پاس کبھی نہ تھی"
+      "title": "ہم نے وہ فیصلہ ساز پرت بنائی جس کی ہمیں ضرورت تھی اور جو کہیں نہ ملی۔"
     },
     "hi": {
       "metadataTitle": "Sundae के बारे में - रेस्तरां के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
@@ -1601,7 +1604,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "समस्या का अनुभव करने वाले ऑपरेटरों द्वारा निर्मित",
-      "teamDescription": "हमारी टीम के पास रेस्तरां, प्रौद्योगिकी और डेटा में 60+ वर्षों का अनुभव है। हमने इस समस्या का अध्ययन किनारे से नहीं किया। हमने संचालन चलाए, अवधारणाओं को बढ़ाया, और उन ही रिपोर्टिंग अंतरालों का सामना किया जो ऑपरेटर हर सप्ताह करते हैं।",
+      "teamDescription": "हमारी टीम रेस्टोरेंट, तकनीक और डेटा में 40+ वर्षों का अनुभव लाती है। हमने इस समस्या को बाहर से नहीं पढ़ा - हमने संचालन चलाया, कॉन्सेप्ट बढ़ाए, और उन्हीं रिपोर्टिंग खाइयों से जूझे जिनसे ऑपरेटर हर हफ़्ते जूझते हैं।",
       "strengthsTitle": "टीम की ताकतें",
       "journeyTitle": "Sundae यात्रा",
       "journeyDescription": "यह कंपनी ऑपरेटर की समस्याओं से विकसित हुई, फिर कई बाजारों में उपयोग होने वाले प्लेटफ़ॉर्म में बदल गई।",
@@ -1786,7 +1789,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "वह इंटेलिजेंस लेयर जो रेस्टोरेंट के पास कभी नहीं थी"
+      "title": "हमने वह निर्णय-परत बनाई जिसकी हमें ज़रूरत थी और जो कहीं मिली नहीं।"
     },
     "it": {
       "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per ristoranti",
@@ -1831,7 +1834,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Costruito da operatori che hanno vissuto il problema",
-      "teamDescription": "Il nostro team vanta oltre 60 anni di esperienza nei ristoranti, nella tecnologia e nei dati. Non abbiamo studiato questo problema da spettatori. Abbiamo gestito operazioni, scalato concetti e affrontato le stesse lacune di reporting che gli operatori devono affrontare ogni settimana.",
+      "teamDescription": "Il nostro team porta oltre 40 anni tra ristorazione, tecnologia e dati. Non abbiamo studiato il problema da fuori: abbiamo gestito l'operatività, fatto crescere i concept e convissuto con le stesse lacune di reporting che gli operatori affrontano ogni settimana.",
       "strengthsTitle": "Punti di Forza del Team",
       "journeyTitle": "Il Viaggio di Sundae",
       "journeyDescription": "L'azienda è nata da un'esigenza degli operatori, per poi evolversi in una piattaforma utilizzata in diversi mercati.",
@@ -2016,7 +2019,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Lo strato di intelligence che i ristoranti non hanno mai avuto"
+      "title": "Abbiamo costruito il livello decisionale che ci serviva e che non trovavamo da nessuna parte."
     },
     "pl": {
       "metadataTitle": "O Sundae - Platforma Inteligencji Decyzyjnej dla Restauracji",
@@ -2061,7 +2064,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Stworzone przez operatorów, którzy doświadczyli problemu",
-      "teamDescription": "Nasz zespół ma ponad 60-letnie doświadczenie w branży restauracyjnej, technologii i danych. Nie studiowaliśmy tego problemu z boku. Prowadziliśmy operacje, rozwijaliśmy koncepcje i borykaliśmy się z tymi samymi lukami w raportowaniu, z którymi co tydzień zmagają się operatorzy.",
+      "teamDescription": "Nasz zespół wnosi ponad 40 lat doświadczenia w gastronomii, technologii i danych. Nie badaliśmy tego problemu z zewnątrz - prowadziliśmy operacje, skalowaliśmy koncepty i mierzyliśmy się z tymi samymi lukami w raportowaniu, z którymi operatorzy mierzą się co tydzień.",
       "strengthsTitle": "Mocne Strony Zespołu",
       "journeyTitle": "Podróż Sundae",
       "journeyDescription": "Firma powstała z bólu operatorów, a następnie przekształciła się w platformę wykorzystywaną na wielu rynkach.",
@@ -2246,7 +2249,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Warstwa inteligencji, której restauracje nigdy nie miały"
+      "title": "Zbudowaliśmy warstwę decyzyjną, której potrzebowaliśmy i której nigdzie nie znaleźliśmy."
     },
     "tr": {
       "metadataTitle": "Sundae Hakkında - Restoranlar için Karar Zeka Platformu",
@@ -2291,7 +2294,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Sorunu Yaşayan Operatörler Tarafından İnşa Edildi",
-      "teamDescription": "Ekibimiz, restoranlar, teknoloji ve veri alanında 60 yılı aşkın deneyime sahiptir. Bu sorunu kenardan incelemedik. Operasyonları yürüttük, konseptleri büyüttük ve her hafta işletmecilerin karşılaştığı aynı raporlama boşluklarıyla başa çıktık.",
+      "teamDescription": "Ekibimiz restoran, teknoloji ve veri alanlarında 40 yılı aşkın deneyim taşıyor. Bu sorunu dışarıdan incelemedik - operasyonu biz yönettik, konseptleri biz büyüttük ve işletmecilerin her hafta yaşadığı aynı raporlama boşluklarıyla biz uğraştık.",
       "strengthsTitle": "Ekip Güçlü Yönleri",
       "journeyTitle": "Sundae Yolculuğu",
       "journeyDescription": "Şirket, operatör acılarından doğdu ve ardından birden fazla pazarda kullanılan bir platforma dönüştü.",
@@ -2476,7 +2479,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Restoranların hiç sahip olmadığı zeka katmanı"
+      "title": "İhtiyacımız olan ve hiçbir yerde bulamadığımız karar katmanını kendimiz kurduk."
     },
     "zh-Hans": {
       "metadataTitle": "关于Sundae - 餐厅决策智能平台",
@@ -2521,7 +2524,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "由经历过问题的运营者构建",
-      "teamDescription": "我们的团队在餐饮、技术和数据领域拥有超过60年的经验。我们并不是在旁观这个问题，而是亲自参与运营、扩展概念，并处理运营商每周面临的报告差距。",
+      "teamDescription": "我们团队在餐饮、技术与数据领域拥有 40 多年的经验。我们不是从外部研究这个问题的——我们经营过门店、把概念做大，也遇到过运营者每周都会遇到的同样的报表缺口。",
       "strengthsTitle": "团队优势",
       "journeyTitle": "Sundae之旅",
       "journeyDescription": "公司源于运营商的痛点，随后发展成为一个在多个市场中使用的平台。",
@@ -2706,7 +2709,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "餐厅从未拥有的智能层"
+      "title": "我们需要的那层决策能力找不到，于是自己造了出来。"
     },
     "ja": {
       "metadataTitle": "Sundaeについて - レストラン向けの意思決定インテリジェンスプラットフォーム",
@@ -2751,7 +2754,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "問題を経験したオペレーターによって構築されました",
-      "teamDescription": "私たちのチームは、レストラン、テクノロジー、データの分野で60年以上の経験を持っています。この問題を傍観者として研究したわけではありません。私たちはオペレーションを行い、コンセプトを拡大し、オペレーターが毎週直面する同じ報告のギャップに対処してきました。",
+      "teamDescription": "私たちのチームは飲食、テクノロジー、データの領域で40年以上の経験を持っています。この問題を外から研究したのではありません。実際に運営し、業態を伸ばし、運営者が毎週ぶつかるのと同じ報告の穴に向き合ってきました。",
       "strengthsTitle": "チームの強み",
       "journeyTitle": "Sundaeの旅",
       "journeyDescription": "この会社はオペレーターの苦痛から生まれ、次第に複数の市場で使用されるプラットフォームへと成長しました。",
@@ -2936,7 +2939,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "レストランがこれまで持てなかったインテリジェンス層"
+      "title": "必要としながらどこにも見つからなかった意思決定レイヤーを、自分たちで作りました。"
     },
     "id": {
       "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
@@ -2981,7 +2984,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Dibangun oleh Operator yang Mengalami Masalahnya",
-      "teamDescription": "Tim kami memiliki pengalaman lebih dari 60 tahun di bidang restoran, teknologi, dan data. Kami tidak mempelajari masalah ini dari pinggir. Kami menjalankan operasi, mengembangkan konsep, dan menghadapi kesenjangan pelaporan yang sama yang dihadapi operator setiap minggu.",
+      "teamDescription": "Tim kami membawa pengalaman lebih dari 40 tahun di restoran, teknologi, dan data. Kami tidak mempelajari masalah ini dari luar - kami yang menjalankan operasinya, membesarkan konsepnya, dan menghadapi kesenjangan pelaporan yang sama seperti yang dialami operator setiap minggu.",
       "strengthsTitle": "Kekuatan Tim",
       "journeyTitle": "Perjalanan Sundae",
       "journeyDescription": "Perusahaan ini lahir dari kesulitan operator, kemudian berkembang menjadi platform yang digunakan di berbagai pasar.",
@@ -3166,7 +3169,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Lapisan inteligensi yang tak pernah dimiliki restoran"
+      "title": "Kami membangun lapisan keputusan yang kami butuhkan dan tidak kami temukan di mana pun."
     },
     "vi": {
       "metadataTitle": "Giới thiệu về Sundae - Nền tảng Trí tuệ Quyết định cho Nhà hàng",
@@ -3211,7 +3214,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Được xây dựng bởi những người vận hành đã trải qua vấn đề",
-      "teamDescription": "Đội ngũ của chúng tôi có hơn 60 năm kinh nghiệm trong lĩnh vực nhà hàng, công nghệ và dữ liệu. Chúng tôi không chỉ quan sát vấn đề này từ bên ngoài. Chúng tôi đã điều hành hoạt động, mở rộng các khái niệm và đối mặt với những khoảng trống báo cáo mà các nhà điều hành gặp phải mỗi tuần.",
+      "teamDescription": "Đội ngũ của chúng tôi mang theo hơn 40 năm kinh nghiệm trong nhà hàng, công nghệ và dữ liệu. Chúng tôi không nghiên cứu vấn đề này từ bên ngoài - chúng tôi đã trực tiếp vận hành, mở rộng mô hình và đối mặt với chính những khoảng trống báo cáo mà nhà điều hành gặp mỗi tuần.",
       "strengthsTitle": "Điểm mạnh của đội ngũ",
       "journeyTitle": "Hành Trình Sundae",
       "journeyDescription": "Công ty phát triển từ nỗi đau của nhà điều hành, sau đó trở thành một nền tảng được sử dụng trên nhiều thị trường.",
@@ -3396,7 +3399,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Tầng trí tuệ mà nhà hàng chưa từng có"
+      "title": "Chúng tôi tự dựng lớp ra quyết định mà mình cần và không tìm thấy ở đâu cả."
     },
     "ko": {
       "metadataTitle": "Sundae - 레스토랑을 위한 의사결정 인텔리전스 플랫폼",
@@ -3441,7 +3444,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "문제를 경험한 운영자들이 만든 제품",
-      "teamDescription": "우리 팀은 레스토랑, 기술 및 데이터 분야에서 60년 이상의 경험을 가지고 있습니다. 우리는 이 문제를 관망하지 않았습니다. 우리는 운영을 수행하고, 개념을 확장하며, 운영자들이 매주 직면하는 동일한 보고서 격차를 처리했습니다.",
+      "teamDescription": "우리 팀은 외식, 기술, 데이터 분야에서 40년이 넘는 경험을 쌓았습니다. 이 문제를 밖에서 연구하지 않았습니다. 직접 운영을 맡았고, 콘셉트를 키웠으며, 운영자들이 매주 마주하는 것과 같은 보고의 공백을 겪었습니다.",
       "strengthsTitle": "팀 강점",
       "journeyTitle": "Sundae 여정",
       "journeyDescription": "회사는 운영자의 고통에서 시작되어 여러 시장에서 사용되는 플랫폼으로 성장했습니다.",
@@ -3626,7 +3629,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "레스토랑이 갖지 못했던 인텔리전스 레이어"
+      "title": "필요했지만 어디에서도 찾을 수 없던 의사결정 레이어를 우리가 직접 만들었습니다."
     },
     "ro": {
       "metadataTitle": "Despre Sundae - Platforma de Inteligență Decizională pentru Restaurante",
@@ -3671,7 +3674,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construit de operatori care au trăit problema",
-      "teamDescription": "Echipa noastră aduce peste 60 de ani de experiență în restaurante, tehnologie și date. Nu am studiat această problemă din umbră. Am gestionat operațiuni, am scalat concepte și ne-am confruntat cu aceleași lacune de raportare cu care se confruntă operatorii în fiecare săptămână.",
+      "teamDescription": "Echipa noastră aduce peste 40 de ani în restaurante, tehnologie și date. Nu am studiat problema din exterior - noi am condus operațiunea, am scalat conceptele și ne-am lovit de aceleași goluri de raportare cu care operatorii se confruntă în fiecare săptămână.",
       "strengthsTitle": "Punctele forte ale echipei",
       "journeyTitle": "Călătoria Sundae",
       "journeyDescription": "Compania a crescut din durerea operatorilor, apoi într-o platformă utilizată în mai multe piețe.",
@@ -3856,7 +3859,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Stratul de inteligență pe care restaurantele nu l-au avut niciodată"
+      "title": "Am construit stratul de decizie de care aveam nevoie și pe care nu îl găseam nicăieri."
     },
     "sv": {
       "metadataTitle": "Om Sundae - Plattformen för Beslutsintelligens för Restauranger",
@@ -3901,7 +3904,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Byggd av operatörer som har levt med problemet",
-      "teamDescription": "Vårt team har över 60 års erfarenhet inom restauranger, teknik och data. Vi har inte studerat detta problem från sidan. Vi har drivit verksamheter, skalat koncept och hanterat samma rapporteringsluckor som operatörer står inför varje vecka.",
+      "teamDescription": "Vårt team bär på över 40 år inom restaurang, teknik och data. Vi har inte studerat problemet utifrån - vi har drivit verksamheten, skalat koncepten och levt med samma rapporteringsluckor som operatörer möter varje vecka.",
       "strengthsTitle": "Teamets Styrkor",
       "journeyTitle": "Sundae-resan",
       "journeyDescription": "Företaget växte fram ur operatörers smärta och blev sedan en plattform som används på flera marknader.",
@@ -4086,7 +4089,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Intelligenslagret som restauranger aldrig haft"
+      "title": "Vi byggde beslutslagret vi behövde och inte kunde hitta någonstans."
     },
     "bn": {
       "metadataTitle": "Sundae সম্পর্কে - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
@@ -4131,7 +4134,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "সমস্যাটি যাঁরা অনুভব করেছেন, তাঁদের দ্বারা নির্মিত",
-      "teamDescription": "আমাদের দলের সদস্যদের রেস্তোরাঁ, প্রযুক্তি এবং ডেটাতে ৬০ বছরেরও বেশি অভিজ্ঞতা রয়েছে। আমরা এই সমস্যাটি পাশ থেকে অধ্যয়ন করিনি। আমরা অপারেশন পরিচালনা করেছি, ধারণাগুলি সম্প্রসারিত করেছি এবং প্রতি সপ্তাহে অপারেটরদের মুখোমুখি হওয়া একই রিপোর্টিং ফাঁকগুলির সাথে মোকাবিলা করেছি।",
+      "teamDescription": "আমাদের টিম রেস্তোরাঁ, প্রযুক্তি ও ডেটায় ৪০ বছরেরও বেশি অভিজ্ঞতা নিয়ে আসে। আমরা এই সমস্যাটি বাইরে থেকে পড়িনি - আমরা নিজেরাই পরিচালনা করেছি, কনসেপ্ট বড় করেছি, আর সেই একই রিপোর্টিং ঘাটতির মুখোমুখি হয়েছি যা অপারেটররা প্রতি সপ্তাহে দেখেন।",
       "strengthsTitle": "দলীয় শক্তি",
       "journeyTitle": "Sundae-এর যাত্রা",
       "journeyDescription": "এই কোম্পানিটি অপারেটরের সমস্যার কারণে গড়ে উঠেছিল, পরে এটি একাধিক বাজারে ব্যবহৃত একটি প্ল্যাটফর্মে পরিণত হয়।",
@@ -4316,7 +4319,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "যে ইন্টেলিজেন্স লেয়ার রেস্তোরাঁর কখনও ছিল না"
+      "title": "আমাদের যে সিদ্ধান্ত-স্তরটি দরকার ছিল আর কোথাও পাইনি, সেটি আমরা নিজেরাই বানিয়েছি।"
     },
     "th": {
       "metadataTitle": "เกี่ยวกับ Sundae - แพลตฟอร์มการตัดสินใจอัจฉริยะสำหรับร้านอาหาร",
@@ -4361,7 +4364,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "สร้างโดยผู้ดำเนินการที่เคยเผชิญปัญหา",
-      "teamDescription": "ทีมของเรามีประสบการณ์มากกว่า 60 ปีในด้านร้านอาหาร เทคโนโลยี และข้อมูล เราไม่ได้ศึกษาเรื่องนี้จากข้างสนาม แต่เราได้ดำเนินการ ขยายแนวคิด และจัดการกับช่องว่างในการรายงานที่ผู้ประกอบการต้องเผชิญทุกสัปดาห์.",
+      "teamDescription": "ทีมของเรามีประสบการณ์รวมกว่า 40 ปีในร้านอาหาร เทคโนโลยี และข้อมูล เราไม่ได้ศึกษาปัญหานี้จากภายนอก เราลงมือบริหารงานเอง ขยายแบรนด์เอง และเจอช่องว่างของรายงานแบบเดียวกับที่ผู้ดำเนินการเจอทุกสัปดาห์",
       "strengthsTitle": "จุดแข็งของทีม",
       "journeyTitle": "การเดินทางของ Sundae",
       "journeyDescription": "บริษัทเกิดจากความเจ็บปวดของผู้ดำเนินการ ก่อนที่จะพัฒนาเป็นแพลตฟอร์มที่ใช้ในหลายตลาด.",
@@ -4546,7 +4549,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "ชั้นอัจฉริยะที่ร้านอาหารไม่เคยมี"
+      "title": "เราสร้างชั้นการตัดสินใจที่เราต้องการแต่หาไม่ได้จากที่ไหนเลย"
     },
     "ms": {
       "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
@@ -4591,7 +4594,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Dibina oleh Pengendali yang Mengalami Masalah",
-      "teamDescription": "Pasukan kami mempunyai pengalaman lebih 60 tahun dalam restoran, teknologi, dan data. Kami tidak mempelajari masalah ini dari tepi. Kami menjalankan operasi, mengembangkan konsep, dan menghadapi jurang pelaporan yang sama yang dihadapi oleh pengendali setiap minggu.",
+      "teamDescription": "Pasukan kami membawa lebih 40 tahun pengalaman dalam restoran, teknologi dan data. Kami tidak mengkaji masalah ini dari luar - kami yang menjalankan operasi, membesarkan konsep, dan berdepan jurang pelaporan yang sama seperti yang dihadapi pengendali setiap minggu.",
       "strengthsTitle": "Kekuatan Pasukan",
       "journeyTitle": "Perjalanan Sundae",
       "journeyDescription": "Syarikat ini berkembang daripada kesakitan pengendali, kemudian menjadi platform yang digunakan di pelbagai pasaran.",
@@ -4776,7 +4779,7 @@ export const generatedLocalCopy = {
           "tier": "expanding"
         }
       ],
-      "title": "Lapisan kecerdasan yang restoran tidak pernah miliki"
+      "title": "Kami membina lapisan keputusan yang kami perlukan dan tidak kami temui di mana-mana."
     }
   }
 } as const
