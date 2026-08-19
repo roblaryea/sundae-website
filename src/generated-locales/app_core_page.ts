@@ -420,33 +420,69 @@ export const generatedLocalCopy = {
         "secondary": "Demo buchen"
       },
       "solves": {
-        "eyebrow": "WO DIE MARGE HINGEHT",
-        "heading": "Vier Stellen, an denen Gewinn verloren geht. Core deckt alle vier ab.",
-        "description": "Fangen Sie beim Verlust an, nicht bei der Lizenz. Jedes Paket liest alle vier - das gewählte Paket bestimmt die Tiefe.",
+        "eyebrow": "WOHIN DIE MARGE GEHT",
+        "heading": "Vier Stellen, an denen Gewinn verloren geht. Ihr Paket entscheidet, welche Sie schließen.",
+        "description": "Fangen Sie beim Verlust an, nicht bei der Lizenz. Jedes Paket deckt eine andere Auswahl der vier ab - Core Performance deckt alle ab.",
         "areas": [
           {
             "title": "Umsatz & Gewinn",
-            "loss": "Stornos, Comps, Rabatte und falsch bepreiste Artikel, die nie als hinterfragbare Zeile auftauchen.",
-            "covered": "Umsatz- und Gewinnintelligenz, Revenue Assurance, Deckungsbeitrag je Artikel.",
-            "icon": "cost"
+            "loss": "Stornos, Comps, Rabatte und falsch bepreiste Artikel, die nie als hinterfragbare Position auftauchen.",
+            "covered": "Umsatz- und Gewinnanalyse, Erlössicherung, Deckungsbeitrag je Artikel."
           },
           {
-            "title": "Ware & Einkauf",
-            "loss": "Die Lücke zwischen bestellt, verbraucht und verkauft - Abfall, Abweichung und Preisdrift bei Lieferanten.",
-            "covered": "Bestands- und Einkaufsintelligenz, theoretischer gegen tatsächlichen Verbrauch, Lieferantenbewegung.",
-            "icon": "insights"
+            "title": "Waren & Beschaffung",
+            "loss": "Die Lücke zwischen dem, was Sie bestellt, verbraucht und verkauft haben - Verderb, Abweichung und schleichende Lieferantenpreise.",
+            "covered": "Bestands- und Einkaufsanalyse, Soll- gegen Ist-Verbrauch, Lieferantenentwicklung."
           },
           {
             "title": "Gast & Markt",
-            "loss": "Gäste, die nicht kommen, Gäste, die nicht wiederkommen, und Kanalmarge, die die Provision auffrisst.",
-            "covered": "Gasterlebnis und CRM, Reservierungen, Lieferökonomie, Marketing-Attribution, Peer-Benchmarks.",
-            "icon": "operators"
+            "loss": "Gäste, die nie kommen, Gäste, die nicht wiederkommen, und Kanalmarge, die die Provision auffrisst.",
+            "covered": "Gasterlebnis und CRM, Reservierungen, Lieferökonomie, Marketing-Attribution, Peer-Benchmarks."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Entscheidungen, die zu spät fallen, auf Zahlen vom Vormonat, ohne hinterher zu wissen, ob sie gewirkt haben.",
-            "covered": "Prognosen, Szenarien und die Handlungsebene mit Freigabe. Eine Erweiterung auf Core.",
-            "icon": "forecasting"
+            "loss": "Entscheidungen, die zu spät fallen, auf Zahlen des Vormonats, ohne hinterher sagen zu können, ob sie gewirkt haben.",
+            "covered": "Prognose, Szenariomodellierung und die Aktionsebene mit Freigabe im Ablauf. Eine Erweiterung auf Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "WÄHLEN SIE IHR PAKET",
+        "heading": "Vier Core-Pakete",
+        "description": "Jedes Paket deckt eine andere Auswahl der vier Bereiche ab. Wählen Sie das Paket, das dazu passt, wohin Ihre Marge geht.",
+        "bestForLabel": "Passt zu:",
+        "viewPrefix": "Siehe",
+        "priceLabel": "erster Standort / Monat",
+        "bandsLabel": "Danach je zusätzlichem Standort",
+        "walletLabel": "KI-Credits / Monat",
+        "items": [
+          {
+            "areas": "Deckt Umsatz & Gewinn ab",
+            "badge": "Hier starten",
+            "subtitle": "Die operative Grundlage",
+            "description": "Ein Ort, von dem aus Sie entscheiden - über POS, Personal, Kosten und Betrieb, aktualisiert während die Schicht noch läuft.",
+            "bestFor": "Gruppen, die von Tabellen und unverbundenen Dashboards wegwollen"
+          },
+          {
+            "areas": "Deckt Umsatz & Gewinn, Waren & Beschaffung ab",
+            "badge": "Am beliebtesten",
+            "subtitle": "Tiefe bei Kosten und Schwund",
+            "description": "Soll- gegen Ist-Verbrauch, Verderb, Schwund, Stornos und Comps sowie Deckungsbeitrag je Artikel.",
+            "bestFor": "Betriebe, deren Marge schneller abfließt, als sie es sehen"
+          },
+          {
+            "areas": "Deckt Umsatz & Gewinn, Gast & Markt ab",
+            "badge": "Nachfrageseite",
+            "subtitle": "Tiefe bei der Nachfrage",
+            "description": "Gastkohorten und Lebenszeitwert, Promo-Attribution je Kanal, Liefermarge nach Provision.",
+            "bestFor": "Gruppen, die auf Wiederkehr und Kanalmix setzen"
+          },
+          {
+            "areas": "Deckt alle vier Bereiche ab, inkl. Foresight & Action",
+            "badge": "Volle Tiefe",
+            "subtitle": "Mehrere Marken, mehrere Regionen",
+            "description": "Konsolidierung über Marken und Regionen, modulübergreifende Korrelation, geregelter Zugriff mit Prüfpfad.",
+            "bestFor": "Große Gruppen mit mehreren Marken oder Märkten"
           }
         ]
       }
@@ -592,32 +628,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "WAAR DE MARGE HEEN GAAT",
-        "heading": "Vier plekken waar winst weglekt. Core dekt alle vier.",
-        "description": "Begin bij het verlies, niet bij de licentie. Elk pakket leest alle vier - het pakket bepaalt de diepgang.",
+        "heading": "Vier plekken waar winst weglekt. Je pakket bepaalt welke je dichtzet.",
+        "description": "Begin bij het verlies, niet bij de licentie. Elk pakket dekt een andere set van de vier - Core Performance dekt ze allemaal.",
         "areas": [
           {
             "title": "Omzet & Winst",
-            "loss": "Annuleringen, weggevers, kortingen en verkeerd geprijsde items die nooit als bevraagbare regel verschijnen.",
-            "covered": "Omzet- en winstintelligentie, revenue assurance, bijdrage per artikel.",
-            "icon": "cost"
+            "loss": "Annuleringen, comps, kortingen en verkeerd geprijsde items die nooit als regel opduiken waar je iets van kunt vinden.",
+            "covered": "Omzet- en winstinzicht, omzetborging, bijdrage per item."
           },
           {
             "title": "Inkoop & Voorraad",
-            "loss": "Het gat tussen besteld, gebruikt en verkocht - verspilling, afwijking en prijsdrift bij leveranciers.",
-            "covered": "Voorraad- en inkoopintelligentie, theoretisch versus werkelijk verbruik, leveranciersbeweging.",
-            "icon": "insights"
+            "loss": "Het gat tussen wat je bestelde, wat je gebruikte en wat je verkocht - derving, afwijking en sluipende leveranciersprijzen.",
+            "covered": "Voorraad- en inkoopinzicht, theoretisch versus werkelijk verbruik, leveranciersontwikkeling."
           },
           {
             "title": "Gast & Markt",
-            "loss": "Gasten die niet komen, gasten die niet terugkomen, en kanaalmarge die de commissie opeet.",
-            "covered": "Gastbeleving en CRM, reserveringen, bezorgeconomie, marketingattributie, peer-benchmarks.",
-            "icon": "operators"
+            "loss": "Gasten die nooit komen, gasten die niet terugkomen, en kanaalmarge die na commissie verdwijnt.",
+            "covered": "Gastbeleving en CRM, reserveringen, bezorgeconomie, marketingattributie, peer-benchmarks."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Beslissingen die te laat vallen, op cijfers van vorige maand, zonder achteraf te weten of ze werkten.",
-            "covered": "Prognoses, scenario’s en de actielaag met goedkeuring. Een uitbreiding op Core.",
-            "icon": "forecasting"
+            "loss": "Besluiten die te laat vallen, op cijfers van vorige maand, zonder achteraf te kunnen zien of ze werkten.",
+            "covered": "Prognose, scenariomodellering en de actielaag met goedkeuring in de lus. Een uitbreiding op Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "KIES JE PAKKET",
+        "heading": "Vier Core-pakketten",
+        "description": "Elk pakket dekt een andere set van de vier gebieden. Kies het pakket dat past bij waar jouw marge heen gaat.",
+        "bestForLabel": "Past bij:",
+        "viewPrefix": "Bekijk",
+        "priceLabel": "eerste locatie / maand",
+        "bandsLabel": "Daarna per extra locatie",
+        "walletLabel": "AI-credits / maand",
+        "items": [
+          {
+            "areas": "Dekt Omzet & Winst",
+            "badge": "Begin hier",
+            "subtitle": "De operationele basis",
+            "description": "Eén plek om vanuit te beslissen, over POS, personeel, kosten en operatie, ververst terwijl de dienst nog loopt.",
+            "bestFor": "Groepen die van spreadsheets en losse dashboards af willen"
+          },
+          {
+            "areas": "Dekt Omzet & Winst, Inkoop & Voorraad",
+            "badge": "Meest gekozen",
+            "subtitle": "Diepte op kosten en lekkage",
+            "description": "Theoretisch versus werkelijk verbruik, derving, krimp, annuleringen en comps, en bijdrage per item.",
+            "bestFor": "Operators bij wie de marge sneller weglekt dan ze zien"
+          },
+          {
+            "areas": "Dekt Omzet & Winst, Gast & Markt",
+            "badge": "Vraagzijde",
+            "subtitle": "Diepte op vraag",
+            "description": "Gastcohorten en levenswaarde, promo-attributie per kanaal, bezorgmarge na commissie.",
+            "bestFor": "Groepen die inzetten op herhaalomzet en kanaalmix"
+          },
+          {
+            "areas": "Dekt alle vier gebieden, incl. Foresight & Action",
+            "badge": "Volle diepte",
+            "subtitle": "Meerdere merken, meerdere regio's",
+            "description": "Consolidatie over merken en regio's, correlatie tussen modules, beheerde toegang met audittrail.",
+            "bestFor": "Grote groepen met meerdere merken of markten"
           }
         ]
       }
@@ -902,32 +974,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "PARA ONDE VAI A MARGEM",
-        "heading": "Quatro sítios por onde o lucro foge. O Core cobre os quatro.",
-        "description": "Comece pela perda, não pela licença. Cada pacote lê os quatro - o pacote escolhido define a profundidade.",
+        "heading": "Quatro pontos por onde o lucro vaza. Seu pacote decide quais você fecha.",
+        "description": "Comece pela perda, não pela licença. Cada pacote cobre um conjunto diferente dos quatro - o Core Performance cobre todos.",
         "areas": [
           {
             "title": "Receita e Lucro",
-            "loss": "Cancelamentos, cortesias, descontos e artigos mal precificados que nunca aparecem como linha questionável.",
-            "covered": "Inteligência de receita e lucro, revenue assurance, contribuição por artigo.",
-            "icon": "cost"
+            "loss": "Cancelamentos, cortesias, descontos e itens mal precificados que nunca aparecem como uma linha que dá para questionar.",
+            "covered": "Inteligência de receita e lucro, garantia de receita, contribuição por item."
           },
           {
-            "title": "Comida e Fornecimento",
-            "loss": "A diferença entre o que pediu, usou e vendeu - desperdício, desvio e deriva de preços de fornecedor.",
-            "covered": "Inteligência de inventário e compras, consumo teórico versus real, movimento de fornecedores.",
-            "icon": "insights"
+            "title": "Alimentos e Suprimentos",
+            "loss": "A diferença entre o que você comprou, o que usou e o que vendeu - desperdício, variação e alta silenciosa de fornecedor.",
+            "covered": "Inteligência de estoque e compras, uso teórico versus real, movimento de fornecedores."
           },
           {
             "title": "Cliente e Mercado",
-            "loss": "Clientes que não aparecem, clientes que não voltam e margem de canal comida pela comissão.",
-            "covered": "Experiência do cliente e CRM, reservas, economia da entrega, atribuição de marketing, benchmarks.",
-            "icon": "operators"
+            "loss": "Clientes que nunca chegam, clientes que não voltam e margem de canal comida pela comissão.",
+            "covered": "Experiência do cliente e CRM, reservas, economia de delivery, atribuição de marketing, comparativos de mercado."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Decisões tomadas tarde, com números do mês passado, sem saber depois se resultaram.",
-            "covered": "Previsão, cenários e a camada de ação com aprovação. Uma expansão sobre o Core.",
-            "icon": "forecasting"
+            "loss": "Decisões tomadas tarde, com números do mês passado, sem como saber depois se funcionaram.",
+            "covered": "Previsão, modelagem de cenários e a camada de ação com aprovação no fluxo. Uma expansão sobre o Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "ESCOLHA SEU PACOTE",
+        "heading": "Quatro pacotes Core",
+        "description": "Cada pacote cobre um conjunto diferente das quatro áreas. Escolha o que corresponde a por onde sua margem está indo.",
+        "bestForLabel": "Ideal para:",
+        "viewPrefix": "Ver",
+        "priceLabel": "primeira unidade / mês",
+        "bandsLabel": "Depois, por unidade adicional",
+        "walletLabel": "créditos de IA / mês",
+        "items": [
+          {
+            "areas": "Cobre Receita e Lucro",
+            "badge": "Comece aqui",
+            "subtitle": "A base operacional",
+            "description": "Um só lugar para decidir, sobre POS, mão de obra, custo e operação, atualizado enquanto o turno ainda corre.",
+            "bestFor": "Grupos saindo de planilhas e painéis desconectados"
+          },
+          {
+            "areas": "Cobre Receita e Lucro, Alimentos e Suprimentos",
+            "badge": "Mais escolhido",
+            "subtitle": "Profundidade em custo e vazamento",
+            "description": "Uso teórico versus real, desperdício, quebra, cancelamentos e cortesias, e contribuição por item.",
+            "bestFor": "Operadores cuja margem vaza mais rápido do que conseguem ver"
+          },
+          {
+            "areas": "Cobre Receita e Lucro, Cliente e Mercado",
+            "badge": "Lado da demanda",
+            "subtitle": "Profundidade em demanda",
+            "description": "Coortes de clientes e valor ao longo do tempo, atribuição de promoções por canal, margem de delivery após comissão.",
+            "bestFor": "Grupos apostando em receita recorrente e mix de canais"
+          },
+          {
+            "areas": "Cobre as quatro áreas, incl. Foresight & Action",
+            "badge": "Profundidade total",
+            "subtitle": "Multimarca, multirregião",
+            "description": "Consolidação entre marcas e regiões, correlação entre módulos, acesso governado com trilha de auditoria.",
+            "bestFor": "Grandes grupos com várias marcas ou vários mercados"
           }
         ]
       }
@@ -1073,32 +1181,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "DOVE FINISCE IL MARGINE",
-        "heading": "Quattro punti da cui esce il profitto. Core li copre tutti e quattro.",
-        "description": "Parti dalla perdita, non dalla licenza. Ogni pacchetto legge tutti e quattro - il pacchetto scelto decide la profondità.",
+        "heading": "Quattro punti da cui esce il profitto. Il tuo pacchetto decide quali chiudi.",
+        "description": "Parti dalla perdita, non dalla licenza. Ogni pacchetto copre un insieme diverso dei quattro - Core Performance li copre tutti.",
         "areas": [
           {
-            "title": "Ricavi e Profitto",
-            "loss": "Storni, omaggi, sconti e articoli prezzati male che non compaiono mai come voce interrogabile.",
-            "covered": "Intelligenza su ricavi e profitto, revenue assurance, contribuzione per articolo.",
-            "icon": "cost"
+            "title": "Ricavi e Margine",
+            "loss": "Storni, omaggi, sconti e articoli con prezzo sbagliato che non compaiono mai come una voce su cui puoi fare domande.",
+            "covered": "Intelligence su ricavi e margine, tutela dei ricavi, contribuzione per articolo."
           },
           {
-            "title": "Cibo e Fornitura",
-            "loss": "Lo scarto tra ordinato, consumato e venduto - sprechi, scostamenti e deriva dei prezzi fornitore.",
-            "covered": "Intelligenza di magazzino e acquisti, consumo teorico contro reale, movimenti fornitori.",
-            "icon": "insights"
+            "title": "Cibo e Forniture",
+            "loss": "Lo scarto tra ciò che hai ordinato, ciò che hai usato e ciò che hai venduto - sprechi, scostamenti e prezzi fornitore che salgono in silenzio.",
+            "covered": "Intelligence su magazzino e acquisti, consumo teorico rispetto al reale, andamento fornitori."
           },
           {
-            "title": "Ospite e Mercato",
-            "loss": "Coperti che non arrivano, ospiti che non tornano e margine di canale mangiato dalle commissioni.",
-            "covered": "Esperienza ospite e CRM, prenotazioni, economia del delivery, attribuzione marketing, benchmark.",
-            "icon": "operators"
+            "title": "Ospiti e Mercato",
+            "loss": "Coperti che non arrivano mai, ospiti che non tornano e margine di canale eroso dalla commissione.",
+            "covered": "Esperienza ospite e CRM, prenotazioni, economia del delivery, attribuzione marketing, benchmark di settore."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Decisioni prese tardi, sui numeri del mese scorso, senza sapere poi se hanno funzionato.",
-            "covered": "Previsioni, scenari e il livello di azione con approvazione. Un’espansione su Core.",
-            "icon": "forecasting"
+            "loss": "Decisioni prese tardi, sui numeri del mese scorso, senza poi poter dire se hanno funzionato.",
+            "covered": "Previsione, modellazione di scenari e il livello di azione con approvazione nel flusso. Un'espansione su Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "SCEGLI IL TUO PACCHETTO",
+        "heading": "Quattro pacchetti Core",
+        "description": "Ogni pacchetto copre un insieme diverso delle quattro aree. Scegli quello che corrisponde a dove sta andando il tuo margine.",
+        "bestForLabel": "Ideale per:",
+        "viewPrefix": "Vedi",
+        "priceLabel": "prima sede / mese",
+        "bandsLabel": "Poi, per ogni sede aggiuntiva",
+        "walletLabel": "crediti IA / mese",
+        "items": [
+          {
+            "areas": "Copre Ricavi e Margine",
+            "badge": "Inizia qui",
+            "subtitle": "La base operativa",
+            "description": "Un solo posto da cui decidere, su POS, personale, costi e operatività, aggiornato mentre il turno è ancora in corso.",
+            "bestFor": "Gruppi che stanno lasciando fogli di calcolo e dashboard scollegate"
+          },
+          {
+            "areas": "Copre Ricavi e Margine, Cibo e Forniture",
+            "badge": "Il più scelto",
+            "subtitle": "Profondità su costi e dispersione",
+            "description": "Consumo teorico rispetto al reale, sprechi, cali, storni e omaggi, e contribuzione per articolo.",
+            "bestFor": "Operatori il cui margine si disperde più in fretta di quanto riescano a vedere"
+          },
+          {
+            "areas": "Copre Ricavi e Margine, Ospiti e Mercato",
+            "badge": "Lato domanda",
+            "subtitle": "Profondità sulla domanda",
+            "description": "Coorti di ospiti e valore nel tempo, attribuzione promo per canale, margine delivery al netto della commissione.",
+            "bestFor": "Gruppi che puntano su ricavi ricorrenti e mix di canali"
+          },
+          {
+            "areas": "Copre tutte e quattro le aree, incl. Foresight & Action",
+            "badge": "Massima profondità",
+            "subtitle": "Multi-marca, multi-regione",
+            "description": "Consolidamento tra marche e regioni, correlazione tra moduli, accessi governati con tracciabilità.",
+            "bestFor": "Grandi gruppi con più marche o più mercati"
           }
         ]
       }
@@ -1243,33 +1387,69 @@ export const generatedLocalCopy = {
         "secondary": "डेमो बुक करें"
       },
       "solves": {
-        "eyebrow": "मार्जिन कहाँ जाता है",
-        "heading": "मुनाफ़ा चार जगहों से रिसता है। Core चारों को कवर करता है।",
-        "description": "लाइसेंस से नहीं, नुक़सान से शुरू कीजिए। हर पैकेज चारों को पढ़ता है - गहराई पैकेज तय करता है।",
+        "eyebrow": "मुनाफ़ा कहाँ जा रहा है",
+        "heading": "चार जगह मुनाफ़ा रिसता है. आपका पैकेज तय करता है कि आप कौन सी बंद करते हैं.",
+        "description": "लाइसेंस से नहीं, नुकसान से शुरू कीजिए. हर पैकेज इन चार में से अलग सेट कवर करता है - Core Performance चारों कवर करता है.",
         "areas": [
           {
             "title": "राजस्व और मुनाफ़ा",
-            "loss": "वॉइड, कॉम्प, छूट और ग़लत दाम वाले आइटम - जो कभी ऐसी लाइन नहीं बनते जिस पर आप सवाल कर सकें।",
-            "covered": "राजस्व और मुनाफ़ा इंटेलिजेंस, रेवेन्यू एश्योरेंस, प्रति-आइटम योगदान।",
-            "icon": "cost"
+            "loss": "वॉइड, कॉम्प, छूट और ग़लत दाम वाले आइटम, जो कभी ऐसी लाइन बनकर नहीं आते जिस पर आप सवाल कर सकें.",
+            "covered": "राजस्व और मुनाफ़ा इंटेलिजेंस, राजस्व आश्वासन, आइटम-स्तर योगदान."
           },
           {
             "title": "खाद्य और आपूर्ति",
-            "loss": "जो मँगाया, जो इस्तेमाल हुआ और जो बिका - इनके बीच का फ़र्क़: बर्बादी, विचलन और सप्लायर दाम का खिसकना।",
-            "covered": "इन्वेंट्री और खरीद इंटेलिजेंस, सैद्धांतिक बनाम वास्तविक खपत, सप्लायर मूवमेंट।",
-            "icon": "insights"
+            "loss": "जो आपने मँगाया, जो इस्तेमाल हुआ और जो बिका - उसके बीच का फ़र्क: बर्बादी, अंतर और वेंडर के दाम का चुपचाप बढ़ना.",
+            "covered": "इन्वेंट्री और ख़रीद इंटेलिजेंस, सैद्धांतिक बनाम वास्तविक खपत, आपूर्तिकर्ता की चाल."
           },
           {
             "title": "मेहमान और बाज़ार",
-            "loss": "जो मेहमान आए ही नहीं, जो लौटे नहीं, और कमीशन के बाद चैनल का बचा-खुचा मार्जिन।",
-            "covered": "मेहमान अनुभव और CRM, आरक्षण, डिलीवरी अर्थशास्त्र, मार्केटिंग एट्रिब्यूशन, समकक्ष बेंचमार्क।",
-            "icon": "operators"
+            "loss": "जो कवर कभी आते ही नहीं, जो मेहमान लौटकर नहीं आते, और कमीशन के बाद चैनल मार्जिन का ख़त्म हो जाना.",
+            "covered": "मेहमान अनुभव और CRM, आरक्षण, डिलीवरी अर्थशास्त्र, मार्केटिंग एट्रिब्यूशन, समकक्ष बेंचमार्क."
           },
           {
             "title": "Foresight & Action",
-            "loss": "देर से लिए गए फ़ैसले, पिछले महीने के आँकड़ों पर, और बाद में यह जानने का कोई तरीक़ा नहीं कि काम आए या नहीं।",
-            "covered": "पूर्वानुमान, परिदृश्य और स्वीकृति वाली कार्रवाई परत। Core के ऊपर एक विस्तार।",
-            "icon": "forecasting"
+            "loss": "देर से लिए गए फ़ैसले, पिछले महीने के आँकड़ों पर, और बाद में यह जानने का कोई रास्ता नहीं कि वे काम आए या नहीं.",
+            "covered": "पूर्वानुमान, परिदृश्य मॉडलिंग और मंज़ूरी-सहित एक्शन लेयर. Core के ऊपर एक विस्तार."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "अपना पैकेज चुनिए",
+        "heading": "चार Core पैकेज",
+        "description": "हर पैकेज इन चार क्षेत्रों में से अलग सेट कवर करता है. वही चुनिए जो आपके मार्जिन के रिसाव से मेल खाता हो.",
+        "bestForLabel": "किसके लिए:",
+        "viewPrefix": "देखें",
+        "priceLabel": "पहला आउटलेट / माह",
+        "bandsLabel": "इसके बाद, हर अतिरिक्त आउटलेट पर",
+        "walletLabel": "AI क्रेडिट / माह",
+        "items": [
+          {
+            "areas": "राजस्व और मुनाफ़ा कवर करता है",
+            "badge": "यहाँ से शुरू करें",
+            "subtitle": "संचालन का आधार",
+            "description": "फ़ैसला लेने की एक जगह - POS, श्रम, लागत और संचालन पर, शिफ़्ट चलते-चलते ताज़ा होती हुई.",
+            "bestFor": "स्प्रेडशीट और बिखरे डैशबोर्ड छोड़ रहे समूह"
+          },
+          {
+            "areas": "राजस्व और मुनाफ़ा, खाद्य और आपूर्ति कवर करता है",
+            "badge": "सबसे लोकप्रिय",
+            "subtitle": "लागत और रिसाव में गहराई",
+            "description": "सैद्धांतिक बनाम वास्तविक खपत, बर्बादी, कमी, वॉइड और कॉम्प, और आइटम-स्तर योगदान.",
+            "bestFor": "वे संचालक जिनका मार्जिन देखने से तेज़ रिसता है"
+          },
+          {
+            "areas": "राजस्व और मुनाफ़ा, मेहमान और बाज़ार कवर करता है",
+            "badge": "माँग की तरफ़",
+            "subtitle": "माँग में गहराई",
+            "description": "मेहमान समूह और लाइफ़टाइम वैल्यू, चैनल-वार प्रोमो एट्रिब्यूशन, कमीशन के बाद डिलीवरी मार्जिन.",
+            "bestFor": "दोबारा आने वाली आमदनी और चैनल मिक्स पर ज़ोर देते समूह"
+          },
+          {
+            "areas": "चारों क्षेत्र कवर करता है, Foresight & Action सहित",
+            "badge": "पूरी गहराई",
+            "subtitle": "कई ब्रांड, कई क्षेत्र",
+            "description": "ब्रांड और क्षेत्रों के आर-पार समेकन, मॉड्यूल-पार सहसंबंध, ऑडिट ट्रेल के साथ नियंत्रित पहुँच.",
+            "bestFor": "कई ब्रांड या कई बाज़ार चलाने वाले बड़े समूह"
           }
         ]
       }
@@ -1414,33 +1594,69 @@ export const generatedLocalCopy = {
         "secondary": "ڈیمو بک کریں"
       },
       "solves": {
-        "eyebrow": "مارجن کہاں جاتا ہے",
-        "heading": "منافع چار جگہوں سے رستا ہے۔ Core چاروں کا احاطہ کرتا ہے۔",
-        "description": "لائسنس سے نہیں، نقصان سے شروع کریں۔ ہر پیکیج چاروں کو پڑھتا ہے - گہرائی پیکیج طے کرتا ہے۔",
+        "eyebrow": "منافع کہاں جا رہا ہے",
+        "heading": "چار جگہیں جہاں سے منافع رستا ہے۔ آپ کا پیکیج طے کرتا ہے کہ آپ کون سی بند کرتے ہیں۔",
+        "description": "لائسنس سے نہیں، نقصان سے شروع کیجیے۔ ہر پیکیج ان چار میں سے مختلف سیٹ کور کرتا ہے - Core Performance چاروں کور کرتا ہے۔",
         "areas": [
           {
             "title": "آمدنی اور منافع",
-            "loss": "وائیڈز، کامپس، رعایتیں اور غلط قیمت والے آئٹمز - جو کبھی ایسی سطر نہیں بنتے جس پر آپ سوال کر سکیں۔",
-            "covered": "آمدنی اور منافع کی ذہانت، ریونیو ایشورنس، فی آئٹم شراکت۔",
-            "icon": "cost"
+            "loss": "وائیڈ، کامپ، رعایتیں اور غلط قیمت والے آئٹم، جو کبھی ایسی لائن بن کر سامنے نہیں آتے جس پر آپ سوال کر سکیں۔",
+            "covered": "آمدنی اور منافع انٹیلیجنس، آمدنی کی یقین دہانی، آئٹم کی سطح پر شراکت۔"
           },
           {
             "title": "خوراک اور رسد",
-            "loss": "جو منگوایا، جو استعمال ہوا اور جو بکا - ان کے درمیان فرق: ضیاع، انحراف اور سپلائر قیمت کی تبدیلی۔",
-            "covered": "انوینٹری اور خریداری کی ذہانت، نظری بمقابلہ حقیقی استعمال، سپلائر کی حرکت۔",
-            "icon": "insights"
+            "loss": "جو آپ نے منگوایا، جو استعمال ہوا اور جو بکا - ان کے درمیان فرق: ضیاع، تفاوت اور سپلائر کی قیمتوں کا خاموش اضافہ۔",
+            "covered": "انوینٹری اور خریداری انٹیلیجنس، نظری بمقابلہ اصل استعمال، سپلائر کی حرکت۔"
           },
           {
             "title": "مہمان اور مارکیٹ",
-            "loss": "جو مہمان آئے ہی نہیں، جو واپس نہیں آتے، اور کمیشن کے بعد بچا چینل مارجن۔",
-            "covered": "مہمان کا تجربہ اور CRM، بکنگ، ڈیلیوری معاشیات، مارکیٹنگ انتساب، ہم پلہ بینچ مارک۔",
-            "icon": "operators"
+            "loss": "وہ کور جو کبھی آتے ہی نہیں، وہ مہمان جو لوٹ کر نہیں آتے، اور کمیشن کے بعد چینل مارجن کا ختم ہو جانا۔",
+            "covered": "مہمان کا تجربہ اور CRM، بکنگ، ڈیلیوری معیشت، مارکیٹنگ اٹریبیوشن، ہم پلہ بینچ مارک۔"
           },
           {
             "title": "Foresight & Action",
-            "loss": "دیر سے کیے گئے فیصلے، پچھلے مہینے کے اعداد پر، اور بعد میں یہ جاننے کا کوئی طریقہ نہیں کہ کام آئے یا نہیں۔",
-            "covered": "پیش گوئی، منظرنامے اور منظوری والی عمل کی پرت۔ Core کے اوپر ایک توسیع۔",
-            "icon": "forecasting"
+            "loss": "دیر سے کیے گئے فیصلے، پچھلے مہینے کے اعداد پر، اور بعد میں یہ جاننے کا کوئی راستہ نہیں کہ وہ کام آئے یا نہیں۔",
+            "covered": "پیش گوئی، منظرنامہ ماڈلنگ اور منظوری کے ساتھ ایکشن پرت۔ Core کے اوپر ایک توسیع۔"
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "اپنا پیکیج منتخب کریں",
+        "heading": "چار Core پیکیج",
+        "description": "ہر پیکیج ان چار شعبوں میں سے مختلف سیٹ کور کرتا ہے۔ وہی منتخب کریں جو آپ کے مارجن کے رساؤ سے میل کھاتا ہو۔",
+        "bestForLabel": "کن کے لیے:",
+        "viewPrefix": "دیکھیں",
+        "priceLabel": "پہلا آؤٹ لیٹ / ماہ",
+        "bandsLabel": "اس کے بعد، ہر اضافی آؤٹ لیٹ پر",
+        "walletLabel": "AI کریڈٹ / ماہ",
+        "items": [
+          {
+            "areas": "آمدنی اور منافع کور کرتا ہے",
+            "badge": "یہاں سے شروع کریں",
+            "subtitle": "آپریشن کی بنیاد",
+            "description": "فیصلہ کرنے کی ایک جگہ - POS، محنت، لاگت اور آپریشن پر، شفٹ چلتے چلتے تازہ ہوتی ہوئی۔",
+            "bestFor": "اسپریڈ شیٹ اور بکھرے ڈیش بورڈ چھوڑتے گروپ"
+          },
+          {
+            "areas": "آمدنی اور منافع، خوراک اور رسد کور کرتا ہے",
+            "badge": "سب سے مقبول",
+            "subtitle": "لاگت اور رساؤ میں گہرائی",
+            "description": "نظری بمقابلہ اصل استعمال، ضیاع، کمی، وائیڈ اور کامپ، اور آئٹم کی سطح پر شراکت۔",
+            "bestFor": "وہ آپریٹر جن کا مارجن دیکھنے سے تیز رستا ہے"
+          },
+          {
+            "areas": "آمدنی اور منافع، مہمان اور مارکیٹ کور کرتا ہے",
+            "badge": "طلب کی طرف",
+            "subtitle": "طلب میں گہرائی",
+            "description": "مہمان گروہ اور لائف ٹائم ویلیو، چینل کے حساب سے پرومو اٹریبیوشن، کمیشن کے بعد ڈیلیوری مارجن۔",
+            "bestFor": "بار بار آنے والی آمدنی اور چینل مکس پر زور دیتے گروپ"
+          },
+          {
+            "areas": "چاروں شعبے کور کرتا ہے، بشمول Foresight & Action",
+            "badge": "مکمل گہرائی",
+            "subtitle": "کئی برانڈ، کئی خطے",
+            "description": "برانڈز اور خطوں کے آر پار یکجائی، ماڈیولز کے درمیان تعلق، آڈٹ ٹریل کے ساتھ ضابطہ بند رسائی۔",
+            "bestFor": "کئی برانڈ یا کئی مارکیٹ چلانے والے بڑے گروپ"
           }
         ]
       }
@@ -1585,33 +1801,69 @@ export const generatedLocalCopy = {
         "secondary": "Umów się na demo"
       },
       "solves": {
-        "eyebrow": "GDZIE UCIEKA MARŻA",
-        "heading": "Cztery miejsca, w których ucieka zysk. Core obejmuje wszystkie cztery.",
-        "description": "Zacznij od straty, nie od licencji. Każdy pakiet czyta wszystkie cztery - wybrany pakiet ustala głębokość.",
+        "eyebrow": "DOKĄD UCIEKA MARŻA",
+        "heading": "Cztery miejsca, w których ucieka zysk. Twój pakiet decyduje, które zamykasz.",
+        "description": "Zacznij od straty, nie od licencji. Każdy pakiet obejmuje inny zestaw z tych czterech - Core Performance obejmuje wszystkie.",
         "areas": [
           {
-            "title": "Przychód i Zysk",
-            "loss": "Anulacje, gratisy, rabaty i źle wycenione pozycje, które nigdy nie pojawiają się jako linia do zakwestionowania.",
-            "covered": "Inteligencja przychodu i zysku, revenue assurance, kontrybucja pozycji.",
-            "icon": "cost"
+            "title": "Przychód i zysk",
+            "loss": "Storna, gratisy, rabaty i źle wycenione pozycje, które nigdy nie pojawiają się jako wiersz, o który można zapytać.",
+            "covered": "Analityka przychodu i zysku, ochrona przychodu, marża na pozycję."
           },
           {
-            "title": "Towar i Zakupy",
-            "loss": "Różnica między zamówionym, zużytym i sprzedanym - straty, odchylenia i dryf cen dostawców.",
-            "covered": "Inteligencja magazynu i zakupów, zużycie teoretyczne kontra rzeczywiste, ruch dostawców.",
-            "icon": "insights"
+            "title": "Żywność i zaopatrzenie",
+            "loss": "Różnica między tym, co zamówiono, zużyto i sprzedano - straty, odchylenia i ciche podwyżki dostawców.",
+            "covered": "Analityka magazynu i zakupów, zużycie teoretyczne wobec rzeczywistego, ruchy dostawców."
           },
           {
-            "title": "Gość i Rynek",
-            "loss": "Goście, którzy nie przychodzą, goście, którzy nie wracają, i marża kanału zjadana przez prowizję.",
-            "covered": "Doświadczenie gościa i CRM, rezerwacje, ekonomia dostaw, atrybucja marketingu, benchmarki.",
-            "icon": "operators"
+            "title": "Goście i rynek",
+            "loss": "Nakrycia, które nigdy nie przychodzą, goście, którzy nie wracają, i marża kanału zjedzona przez prowizję.",
+            "covered": "Doświadczenie gościa i CRM, rezerwacje, ekonomia dostaw, atrybucja marketingu, porównania rynkowe."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Decyzje podejmowane za późno, na liczbach z zeszłego miesiąca, bez wiedzy, czy zadziałały.",
-            "covered": "Prognozy, scenariusze i warstwa działania z akceptacją. Rozszerzenie na Core.",
-            "icon": "forecasting"
+            "loss": "Decyzje podejmowane za późno, na liczbach z zeszłego miesiąca, bez możliwości sprawdzenia potem, czy zadziałały.",
+            "covered": "Prognozowanie, modelowanie scenariuszy i warstwa działania z akceptacją w obiegu. Rozszerzenie na Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "WYBIERZ SWÓJ PAKIET",
+        "heading": "Cztery pakiety Core",
+        "description": "Każdy pakiet obejmuje inny zestaw z czterech obszarów. Wybierz ten, który odpowiada temu, dokąd ucieka twoja marża.",
+        "bestForLabel": "Dla kogo:",
+        "viewPrefix": "Zobacz",
+        "priceLabel": "pierwsza lokalizacja / miesiąc",
+        "bandsLabel": "Następnie za każdą kolejną lokalizację",
+        "walletLabel": "kredyty AI / miesiąc",
+        "items": [
+          {
+            "areas": "Obejmuje Przychód i zysk",
+            "badge": "Zacznij tutaj",
+            "subtitle": "Podstawa operacyjna",
+            "description": "Jedno miejsce, z którego decydujesz - o POS, pracy, kosztach i operacjach, odświeżane, gdy zmiana wciąż trwa.",
+            "bestFor": "Grupy odchodzące od arkuszy i rozłącznych pulpitów"
+          },
+          {
+            "areas": "Obejmuje Przychód i zysk, Żywność i zaopatrzenie",
+            "badge": "Najczęściej wybierany",
+            "subtitle": "Głębia w kosztach i stratach",
+            "description": "Zużycie teoretyczne wobec rzeczywistego, straty, ubytki, storna i gratisy oraz marża na pozycję.",
+            "bestFor": "Operatorzy, którym marża ucieka szybciej, niż to widzą"
+          },
+          {
+            "areas": "Obejmuje Przychód i zysk, Goście i rynek",
+            "badge": "Strona popytu",
+            "subtitle": "Głębia w popycie",
+            "description": "Kohorty gości i wartość w czasie, atrybucja promocji według kanału, marża dostaw po prowizji.",
+            "bestFor": "Grupy stawiające na powracający przychód i miks kanałów"
+          },
+          {
+            "areas": "Obejmuje wszystkie cztery obszary, w tym Foresight & Action",
+            "badge": "Pełna głębia",
+            "subtitle": "Wiele marek, wiele regionów",
+            "description": "Konsolidacja marek i regionów, korelacja między modułami, kontrolowany dostęp ze ścieżką audytu.",
+            "bestFor": "Duże grupy prowadzące kilka marek lub kilka rynków"
           }
         ]
       }
@@ -1756,33 +2008,69 @@ export const generatedLocalCopy = {
         "secondary": "Demo Talep Edin"
       },
       "solves": {
-        "eyebrow": "MARJ NEREYE GİDİYOR",
-        "heading": "Kârın sızdığı dört yer. Core dördünü de kapsar.",
-        "description": "Lisanstan değil, kayıptan başlayın. Her paket dördünü de okur; seçtiğiniz paket derinliği belirler.",
+        "eyebrow": "KÂR NEREYE GİDİYOR",
+        "heading": "Kârın sızdığı dört yer. Hangilerini kapatacağınıza paketiniz karar verir.",
+        "description": "Lisanstan değil, kayıptan başlayın. Her paket bu dördünün farklı bir kümesini kapsar - Core Performance hepsini kapsar.",
         "areas": [
           {
             "title": "Ciro ve Kâr",
-            "loss": "İptaller, ikramlar, indirimler ve yanlış fiyatlanmış ürünler - hiçbiri sorgulanabilir bir satır olarak görünmez.",
-            "covered": "Ciro ve kâr zekası, revenue assurance, ürün bazında katkı.",
-            "icon": "cost"
+            "loss": "İptaller, ikramlar, indirimler ve yanlış fiyatlanmış ürünler - hiçbiri sorgulayabileceğiniz bir satır olarak görünmez.",
+            "covered": "Ciro ve kâr zekâsı, gelir güvencesi, ürün bazında katkı."
           },
           {
             "title": "Gıda ve Tedarik",
-            "loss": "Sipariş edilen, kullanılan ve satılan arasındaki fark - israf, sapma ve tedarikçi fiyat kayması.",
-            "covered": "Stok ve satın alma zekası, teorik ve gerçek kullanım, tedarikçi hareketi.",
-            "icon": "insights"
+            "loss": "Sipariş ettiğiniz, kullandığınız ve sattığınız arasındaki fark - fire, sapma ve tedarikçi fiyatlarının sessiz tırmanışı.",
+            "covered": "Stok ve satın alma zekâsı, teorik ile gerçek kullanım, tedarikçi hareketi."
           },
           {
             "title": "Misafir ve Pazar",
-            "loss": "Gelmeyen misafirler, dönmeyen misafirler ve komisyonun yediği kanal marjı.",
-            "covered": "Misafir deneyimi ve CRM, rezervasyon, teslimat ekonomisi, pazarlama atfı, emsal kıyaslamaları.",
-            "icon": "operators"
+            "loss": "Hiç gelmeyen kuverler, dönmeyen misafirler ve komisyondan sonra eriyen kanal marjı.",
+            "covered": "Misafir deneyimi ve CRM, rezervasyon, teslimat ekonomisi, pazarlama atfı, emsal kıyaslamaları."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Geç alınan, geçen ayın rakamlarına dayanan ve sonrasında işe yarayıp yaramadığı bilinmeyen kararlar.",
-            "covered": "Tahmin, senaryo ve onaylı eylem katmanı. Core üzerine bir genişleme.",
-            "icon": "forecasting"
+            "loss": "Geç alınan kararlar, geçen ayın rakamlarıyla, sonrasında işe yarayıp yaramadığını anlamanın bir yolu olmadan.",
+            "covered": "Tahmin, senaryo modelleme ve onaylı aksiyon katmanı. Core üzerine bir genişleme."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "PAKETİNİZİ SEÇİN",
+        "heading": "Dört Core paketi",
+        "description": "Her paket dört alanın farklı bir kümesini kapsar. Marjınızın nereye gittiğine uyanı seçin.",
+        "bestForLabel": "Şunlar için:",
+        "viewPrefix": "Bakın",
+        "priceLabel": "ilk şube / ay",
+        "bandsLabel": "Sonrasında her ek şube için",
+        "walletLabel": "AI kredisi / ay",
+        "items": [
+          {
+            "areas": "Ciro ve Kâr'ı kapsar",
+            "badge": "Buradan başlayın",
+            "subtitle": "Operasyonel temel",
+            "description": "Karar vereceğiniz tek yer - POS, işgücü, maliyet ve operasyon üzerinde, vardiya sürerken tazelenen.",
+            "bestFor": "Tablolardan ve kopuk panolardan çıkan gruplar"
+          },
+          {
+            "areas": "Ciro ve Kâr ile Gıda ve Tedarik'i kapsar",
+            "badge": "En çok tercih edilen",
+            "subtitle": "Maliyet ve sızıntıda derinlik",
+            "description": "Teorik ile gerçek kullanım, fire, kayıp, iptal ve ikramlar, ürün bazında katkı.",
+            "bestFor": "Marjı görebildiğinden hızlı sızan işletmeler"
+          },
+          {
+            "areas": "Ciro ve Kâr ile Misafir ve Pazar'ı kapsar",
+            "badge": "Talep tarafı",
+            "subtitle": "Talepte derinlik",
+            "description": "Misafir kohortları ve yaşam boyu değer, kanal bazında promosyon atfı, komisyon sonrası teslimat marjı.",
+            "bestFor": "Tekrar eden ciroya ve kanal karmasına yüklenen gruplar"
+          },
+          {
+            "areas": "Dört alanı da kapsar, Foresight & Action dahil",
+            "badge": "Tam derinlik",
+            "subtitle": "Çok markalı, çok bölgeli",
+            "description": "Markalar ve bölgeler arası konsolidasyon, modüller arası korelasyon, denetim izli yönetişimli erişim.",
+            "bestFor": "Birden çok marka veya pazar işleten büyük gruplar"
           }
         ]
       }
@@ -1927,33 +2215,69 @@ export const generatedLocalCopy = {
         "secondary": "预约演示"
       },
       "solves": {
-        "eyebrow": "毛利去哪了",
-        "heading": "利润流失的四个地方。Core 四个都覆盖。",
-        "description": "从损失开始看，而不是从license开始。每个套餐都读这四块，套餐决定读得多深。",
+        "eyebrow": "利润流向哪里",
+        "heading": "利润从四处流失。你的套餐决定你先堵住哪几处。",
+        "description": "从损失出发，而不是从许可证出发。每个套餐覆盖四个领域中的不同组合，Core Performance 全部覆盖。",
         "areas": [
           {
             "title": "营收与利润",
-            "loss": "作废、赠单、折扣和定价失误，从来不会变成一条你能追问的账。",
-            "covered": "营收与利润分析、营收保障、单品贡献。",
-            "icon": "cost"
+            "loss": "作废、赠单、折扣和定价错误的菜品，从来不会变成一行你能追问的账。",
+            "covered": "营收与利润智能、营收保障、单品贡献。"
           },
           {
             "title": "食材与供应",
-            "loss": "订的、用的、卖的三者之间的差额——损耗、偏差与供应商价格漂移。",
-            "covered": "库存与采购分析、理论用量对比实际、供应商价格变动。",
-            "icon": "insights"
+            "loss": "订货、用量与售出之间的差额，包括损耗、偏差和供应商悄悄涨价。",
+            "covered": "库存与采购智能、理论用量对比实际用量、供应商价格走势。"
           },
           {
             "title": "客户与市场",
-            "loss": "没来的客人、不再回头的客人，以及被佣金吃掉的渠道毛利。",
-            "covered": "客户体验与 CRM、预订、外卖经济、营销归因、同行对标。",
-            "icon": "operators"
+            "loss": "始终没来的客位、不再回头的客人，以及被佣金吃掉的渠道毛利。",
+            "covered": "客户体验与 CRM、订位、外送经济性、营销归因、同行对标。"
           },
           {
             "title": "Foresight & Action",
-            "loss": "决定做得太晚，依据上个月的数字，事后也说不清有没有用。",
-            "covered": "预测、情景推演，以及带审批的行动层。Core 之上的扩展。",
-            "icon": "forecasting"
+            "loss": "决策做得太晚，依据的是上个月的数字，事后也无从判断是否奏效。",
+            "covered": "预测、情景推演，以及带人工审批的行动层。这是 Core 之上的扩展。"
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "选择你的套餐",
+        "heading": "四个 Core 套餐",
+        "description": "每个套餐覆盖四个领域中的不同组合。按你的利润流向来选。",
+        "bestForLabel": "适合：",
+        "viewPrefix": "查看",
+        "priceLabel": "首家门店 / 月",
+        "bandsLabel": "此后每增加一家门店",
+        "walletLabel": "AI 额度 / 月",
+        "items": [
+          {
+            "areas": "覆盖营收与利润",
+            "badge": "从这里开始",
+            "subtitle": "运营基线",
+            "description": "一个下决定的地方，覆盖 POS、人力、成本与运营，班次进行中就在刷新。",
+            "bestFor": "正在摆脱表格和割裂看板的集团"
+          },
+          {
+            "areas": "覆盖营收与利润、食材与供应",
+            "badge": "最受欢迎",
+            "subtitle": "深入成本与流失",
+            "description": "理论用量对比实际用量、损耗、盘亏、作废与赠单，以及单品贡献。",
+            "bestFor": "利润流失速度快过自己能看清的经营者"
+          },
+          {
+            "areas": "覆盖营收与利润、客户与市场",
+            "badge": "需求侧",
+            "subtitle": "深入需求",
+            "description": "客户分群与终身价值、按渠道的促销归因、扣除佣金后的外送毛利。",
+            "bestFor": "发力复购收入与渠道结构的集团"
+          },
+          {
+            "areas": "覆盖全部四个领域，含 Foresight & Action",
+            "badge": "完整深度",
+            "subtitle": "多品牌、多区域",
+            "description": "跨品牌与跨区域合并、跨模块关联、带审计留痕的受控访问。",
+            "bestFor": "经营多个品牌或多个市场的大型集团"
           }
         ]
       }
@@ -2098,33 +2422,69 @@ export const generatedLocalCopy = {
         "secondary": "デモを予約"
       },
       "solves": {
-        "eyebrow": "利益はどこへ消えるのか",
-        "heading": "利益が漏れる四つの場所。Core はその四つすべてを見ます。",
-        "description": "ライセンスからではなく、損失から始めてください。どのパッケージも四つすべてを読み、深さはパッケージが決めます。",
+        "eyebrow": "利益はどこへ消えるか",
+        "heading": "利益が漏れる場所は四つ。どれを塞ぐかはパッケージが決めます。",
+        "description": "ライセンスからではなく、損失から始めてください。各パッケージは四つのうち異なる組み合わせをカバーし、Core Performance はすべてをカバーします。",
         "areas": [
           {
             "title": "売上と利益",
-            "loss": "取消、サービス提供、値引き、そして値付けを誤った商品。どれも問いただせる一行としては現れません。",
-            "covered": "売上・利益のインテリジェンス、レベニューアシュアランス、商品別の貢献度。",
-            "icon": "cost"
+            "loss": "取消、サービス提供、値引き、価格設定の誤った商品。いずれも問いただせる一行としては現れません。",
+            "covered": "売上と利益のインテリジェンス、レベニューアシュアランス、商品単位の貢献度。"
           },
           {
             "title": "食材と仕入れ",
-            "loss": "発注した量、使った量、売れた量のズレ。廃棄、差異、仕入価格の変動です。",
-            "covered": "在庫と購買のインテリジェンス、理論値と実使用の対比、仕入先の価格推移。",
-            "icon": "insights"
+            "loss": "発注量、使用量、販売量の差。廃棄、差異、仕入先価格の静かな上昇。",
+            "covered": "在庫と仕入のインテリジェンス、理論使用量と実使用量の比較、仕入先の価格推移。"
           },
           {
             "title": "顧客と市場",
-            "loss": "来なかった客数、戻ってこない顧客、そして手数料に食われるチャネル利益。",
-            "covered": "顧客体験とCRM、予約、デリバリー収支、マーケティング寄与、同業ベンチマーク。",
-            "icon": "operators"
+            "loss": "結局来ない客数、二度と戻らない顧客、手数料に食われるチャネル利益。",
+            "covered": "顧客体験と CRM、予約、デリバリー採算、マーケティング寄与度、同業ベンチマーク。"
           },
           {
             "title": "Foresight & Action",
-            "loss": "先月の数字をもとに遅れて下される判断。あとから効いたのかどうかも分かりません。",
-            "covered": "予測、シナリオ、そして承認を挟む実行レイヤー。Core の上に載る拡張です。",
-            "icon": "forecasting"
+            "loss": "先月の数字をもとに遅れて下される判断。後から効果を確かめる術もありません。",
+            "covered": "予測、シナリオ分析、そして承認を挟むアクション層。Core の上に載る拡張です。"
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "パッケージを選ぶ",
+        "heading": "四つの Core パッケージ",
+        "description": "各パッケージは四つの領域のうち異なる組み合わせをカバーします。利益がどこへ漏れているかで選んでください。",
+        "bestForLabel": "向いている先：",
+        "viewPrefix": "見る",
+        "priceLabel": "1 店舗目 / 月",
+        "bandsLabel": "以降、追加1店舗ごとに",
+        "walletLabel": "AI クレジット / 月",
+        "items": [
+          {
+            "areas": "売上と利益をカバー",
+            "badge": "ここから",
+            "subtitle": "運営の土台",
+            "description": "判断を下す場所をひとつに。POS、人件費、原価、オペレーションを、シフトが動いている間に更新します。",
+            "bestFor": "表計算とばらばらのダッシュボードから抜け出す企業"
+          },
+          {
+            "areas": "売上と利益、食材と仕入れをカバー",
+            "badge": "最も選ばれています",
+            "subtitle": "原価と漏れを深く",
+            "description": "理論使用量と実使用量、廃棄、ロス、取消とサービス提供、そして商品単位の貢献度。",
+            "bestFor": "見えるより速く利益が漏れている運営者"
+          },
+          {
+            "areas": "売上と利益、顧客と市場をカバー",
+            "badge": "需要サイド",
+            "subtitle": "需要を深く",
+            "description": "顧客コホートと生涯価値、チャネル別の販促寄与度、手数料差引後のデリバリー利益。",
+            "bestFor": "リピート売上とチャネル構成に力を入れる企業"
+          },
+          {
+            "areas": "四領域すべてをカバー（Foresight & Action を含む）",
+            "badge": "フル",
+            "subtitle": "複数ブランド、複数地域",
+            "description": "ブランドと地域をまたぐ集計、モジュール横断の相関、監査証跡つきの権限管理。",
+            "bestFor": "複数ブランドや複数市場を運営する大企業"
           }
         ]
       }
@@ -2269,33 +2629,69 @@ export const generatedLocalCopy = {
         "secondary": "데모 예약하기"
       },
       "solves": {
-        "eyebrow": "마진은 어디로 새는가",
-        "heading": "이익이 새는 네 곳. Core는 네 곳 모두를 봅니다.",
-        "description": "라이선스가 아니라 손실에서 시작하세요. 모든 패키지가 네 곳을 다 읽고, 깊이는 패키지가 정합니다.",
+        "eyebrow": "이익은 어디로 새는가",
+        "heading": "이익이 새는 곳은 네 군데입니다. 어디를 막을지는 패키지가 정합니다.",
+        "description": "라이선스가 아니라 손실에서 시작하세요. 패키지마다 네 영역 중 서로 다른 조합을 다루며, Core Performance는 전부를 다룹니다.",
         "areas": [
           {
             "title": "매출과 이익",
-            "loss": "취소, 서비스 제공, 할인, 잘못 매겨진 가격. 어느 것도 따져 물을 수 있는 한 줄로 나타나지 않습니다.",
-            "covered": "매출·이익 인텔리전스, 레비뉴 어슈어런스, 품목별 기여도.",
-            "icon": "cost"
+            "loss": "취소, 서비스 제공, 할인, 잘못 책정된 가격. 어느 것도 따져 물을 수 있는 한 줄로는 나타나지 않습니다.",
+            "covered": "매출과 이익 인텔리전스, 매출 보증, 품목별 기여도."
           },
           {
             "title": "식자재와 공급",
-            "loss": "주문한 양, 쓴 양, 판 양 사이의 차이. 폐기, 편차, 공급가 변동입니다.",
-            "covered": "재고·구매 인텔리전스, 이론 사용량 대 실제, 공급업체 가격 추이.",
-            "icon": "insights"
+            "loss": "발주량, 사용량, 판매량 사이의 차이. 폐기, 편차, 그리고 조용히 오르는 공급가.",
+            "covered": "재고와 구매 인텔리전스, 이론 사용량 대비 실사용량, 공급업체 가격 흐름."
           },
           {
             "title": "고객과 시장",
-            "loss": "오지 않은 예약, 돌아오지 않는 고객, 그리고 수수료가 먹는 채널 마진.",
-            "covered": "고객 경험과 CRM, 예약, 배달 수익 구조, 마케팅 기여도, 동종업계 벤치마크.",
-            "icon": "operators"
+            "loss": "끝내 오지 않는 좌석, 다시 오지 않는 고객, 수수료에 먹히는 채널 마진.",
+            "covered": "고객 경험과 CRM, 예약, 배달 수익성, 마케팅 기여도, 동종 업계 벤치마크."
           },
           {
             "title": "Foresight & Action",
-            "loss": "지난달 숫자로 늦게 내리는 결정. 나중에 효과가 있었는지도 알 수 없습니다.",
-            "covered": "예측, 시나리오, 그리고 승인을 거치는 실행 레이어. Core 위에 얹는 확장입니다.",
-            "icon": "forecasting"
+            "loss": "지난달 숫자로 뒤늦게 내리는 결정. 효과가 있었는지 나중에 확인할 방법도 없습니다.",
+            "covered": "예측, 시나리오 모델링, 승인을 거치는 실행 계층. Core 위에 얹는 확장입니다."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "패키지를 고르세요",
+        "heading": "네 가지 Core 패키지",
+        "description": "패키지마다 네 영역 중 서로 다른 조합을 다룹니다. 이익이 어디로 새는지에 맞춰 고르세요.",
+        "bestForLabel": "이런 곳에:",
+        "viewPrefix": "보기",
+        "priceLabel": "첫 매장 / 월",
+        "bandsLabel": "이후 매장 추가 시 매장당",
+        "walletLabel": "AI 크레딧 / 월",
+        "items": [
+          {
+            "areas": "매출과 이익을 다룹니다",
+            "badge": "여기서 시작",
+            "subtitle": "운영의 기준선",
+            "description": "결정을 내리는 한 곳. POS, 인건비, 원가, 운영을 아우르며 근무가 도는 중에 갱신됩니다.",
+            "bestFor": "스프레드시트와 흩어진 대시보드에서 벗어나는 그룹"
+          },
+          {
+            "areas": "매출과 이익, 식자재와 공급을 다룹니다",
+            "badge": "가장 많이 선택",
+            "subtitle": "원가와 누수를 깊이",
+            "description": "이론 사용량 대비 실사용량, 폐기, 감모, 취소와 서비스 제공, 품목별 기여도.",
+            "bestFor": "보이는 속도보다 이익이 빨리 새는 운영자"
+          },
+          {
+            "areas": "매출과 이익, 고객과 시장을 다룹니다",
+            "badge": "수요 쪽",
+            "subtitle": "수요를 깊이",
+            "description": "고객 코호트와 생애가치, 채널별 프로모션 기여도, 수수료 차감 후 배달 마진.",
+            "bestFor": "재방문 매출과 채널 구성에 힘을 싣는 그룹"
+          },
+          {
+            "areas": "네 영역 전부를 다룹니다(Foresight & Action 포함)",
+            "badge": "최대 깊이",
+            "subtitle": "다브랜드, 다지역",
+            "description": "브랜드와 지역을 아우르는 통합, 모듈 간 상관관계, 감사 추적이 남는 통제된 접근.",
+            "bestFor": "여러 브랜드나 여러 시장을 운영하는 대형 그룹"
           }
         ]
       }
@@ -2441,32 +2837,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "KE MANA MARGIN PERGI",
-        "heading": "Empat tempat laba bocor. Core mencakup keempatnya.",
-        "description": "Mulailah dari kerugian, bukan dari lisensi. Setiap paket membaca keempatnya - paket yang Anda pilih menentukan kedalamannya.",
+        "heading": "Empat tempat laba bocor. Paket Anda yang menentukan mana yang Anda tutup.",
+        "description": "Mulailah dari kerugian, bukan dari lisensi. Tiap paket mencakup kombinasi yang berbeda dari keempatnya - Core Performance mencakup semuanya.",
         "areas": [
           {
             "title": "Pendapatan & Laba",
-            "loss": "Void, komplimen, diskon, dan item yang salah harga - tak satu pun muncul sebagai baris yang bisa Anda pertanyakan.",
-            "covered": "Inteligensi pendapatan dan laba, revenue assurance, kontribusi per item.",
-            "icon": "cost"
+            "loss": "Pembatalan, komplimen, diskon, dan item salah harga yang tidak pernah muncul sebagai baris yang bisa Anda pertanyakan.",
+            "covered": "Inteligensi pendapatan dan laba, jaminan pendapatan, kontribusi per item."
           },
           {
-            "title": "Bahan & Pasokan",
-            "loss": "Selisih antara yang dipesan, dipakai, dan terjual - susut, deviasi, dan pergeseran harga pemasok.",
-            "covered": "Inteligensi persediaan dan pembelian, pemakaian teoretis versus aktual, pergerakan pemasok.",
-            "icon": "insights"
+            "title": "Pangan & Pasokan",
+            "loss": "Selisih antara yang Anda pesan, yang terpakai, dan yang terjual - susut, deviasi, dan harga pemasok yang naik diam-diam.",
+            "covered": "Inteligensi persediaan dan pembelian, pemakaian teoretis dibanding aktual, pergerakan pemasok."
           },
           {
             "title": "Tamu & Pasar",
-            "loss": "Tamu yang tak jadi datang, tamu yang tak kembali, dan margin kanal yang dimakan komisi.",
-            "covered": "Pengalaman tamu dan CRM, reservasi, ekonomi pengiriman, atribusi pemasaran, tolok ukur sesama.",
-            "icon": "operators"
+            "loss": "Kursi yang tak pernah terisi, tamu yang tak kembali, dan margin kanal yang habis dimakan komisi.",
+            "covered": "Pengalaman tamu dan CRM, reservasi, ekonomi pengantaran, atribusi pemasaran, tolok ukur sesama."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Keputusan yang diambil terlambat, memakai angka bulan lalu, tanpa cara tahu setelahnya apakah berhasil.",
-            "covered": "Prakiraan, skenario, dan lapisan tindakan dengan persetujuan. Perluasan di atas Core.",
-            "icon": "forecasting"
+            "loss": "Keputusan yang diambil terlambat, dengan angka bulan lalu, tanpa cara memastikan setelahnya apakah berhasil.",
+            "covered": "Peramalan, pemodelan skenario, dan lapisan tindakan dengan persetujuan di dalamnya. Perluasan di atas Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "PILIH PAKET ANDA",
+        "heading": "Empat paket Core",
+        "description": "Tiap paket mencakup kombinasi yang berbeda dari keempat area. Pilih yang sesuai dengan ke mana margin Anda pergi.",
+        "bestForLabel": "Cocok untuk:",
+        "viewPrefix": "Lihat",
+        "priceLabel": "gerai pertama / bulan",
+        "bandsLabel": "Selanjutnya, per gerai tambahan",
+        "walletLabel": "kredit AI / bulan",
+        "items": [
+          {
+            "areas": "Mencakup Pendapatan & Laba",
+            "badge": "Mulai di sini",
+            "subtitle": "Dasar operasional",
+            "description": "Satu tempat untuk memutuskan, meliputi POS, tenaga kerja, biaya, dan operasi, diperbarui saat shift masih berjalan.",
+            "bestFor": "Grup yang beranjak dari spreadsheet dan dasbor terpisah"
+          },
+          {
+            "areas": "Mencakup Pendapatan & Laba, Pangan & Pasokan",
+            "badge": "Paling banyak dipilih",
+            "subtitle": "Kedalaman pada biaya dan kebocoran",
+            "description": "Pemakaian teoretis dibanding aktual, susut, penyusutan, pembatalan dan komplimen, serta kontribusi per item.",
+            "bestFor": "Operator yang marginnya bocor lebih cepat dari yang terlihat"
+          },
+          {
+            "areas": "Mencakup Pendapatan & Laba, Tamu & Pasar",
+            "badge": "Sisi permintaan",
+            "subtitle": "Kedalaman pada permintaan",
+            "description": "Kohort tamu dan nilai seumur hidup, atribusi promo per kanal, margin pengantaran setelah komisi.",
+            "bestFor": "Grup yang menggenjot pendapatan berulang dan bauran kanal"
+          },
+          {
+            "areas": "Mencakup keempat area, termasuk Foresight & Action",
+            "badge": "Kedalaman penuh",
+            "subtitle": "Multimerek, multiwilayah",
+            "description": "Konsolidasi lintas merek dan wilayah, korelasi antarmodul, akses terkelola dengan jejak audit.",
+            "bestFor": "Grup besar yang menjalankan beberapa merek atau beberapa pasar"
           }
         ]
       }
@@ -2611,33 +3043,69 @@ export const generatedLocalCopy = {
         "secondary": "Đặt Lịch Dùng Thử"
       },
       "solves": {
-        "eyebrow": "BIÊN LỢI NHUẬN ĐI ĐÂU",
-        "heading": "Bốn chỗ lợi nhuận thất thoát. Core bao cả bốn.",
-        "description": "Bắt đầu từ khoản mất, không phải từ giấy phép. Mọi gói đều đọc cả bốn - gói bạn chọn quyết định độ sâu.",
+        "eyebrow": "LỢI NHUẬN ĐI ĐÂU",
+        "heading": "Bốn chỗ lợi nhuận rò rỉ. Gói của bạn quyết định bạn bịt chỗ nào.",
+        "description": "Hãy bắt đầu từ khoản mất, không phải từ giấy phép. Mỗi gói bao phủ một nhóm khác nhau trong bốn mảng - Core Performance bao phủ cả bốn.",
         "areas": [
           {
             "title": "Doanh thu & Lợi nhuận",
-            "loss": "Huỷ món, tặng, giảm giá và món định giá sai - không cái nào hiện ra thành một dòng bạn có thể chất vấn.",
-            "covered": "Phân tích doanh thu và lợi nhuận, revenue assurance, đóng góp theo món.",
-            "icon": "cost"
+            "loss": "Hủy món, món tặng, chiết khấu và món định giá sai - không khoản nào hiện lên thành một dòng bạn có thể chất vấn.",
+            "covered": "Phân tích doanh thu và lợi nhuận, bảo toàn doanh thu, đóng góp theo từng món."
           },
           {
             "title": "Thực phẩm & Cung ứng",
-            "loss": "Khoảng chênh giữa đặt, dùng và bán - hao hụt, sai lệch và giá nhà cung cấp trôi dần.",
-            "covered": "Phân tích tồn kho và mua hàng, định mức so với thực dùng, biến động nhà cung cấp.",
-            "icon": "insights"
+            "loss": "Khoảng cách giữa hàng đặt, hàng dùng và hàng bán - hao hụt, sai lệch và giá nhà cung cấp lặng lẽ nhích lên.",
+            "covered": "Phân tích tồn kho và mua hàng, mức dùng lý thuyết so với thực tế, biến động nhà cung cấp."
           },
           {
             "title": "Khách & Thị trường",
-            "loss": "Khách không đến, khách không quay lại, và biên kênh bị hoa hồng ăn mất.",
-            "covered": "Trải nghiệm khách và CRM, đặt chỗ, kinh tế giao hàng, quy kết tiếp thị, đối sánh cùng ngành.",
-            "icon": "operators"
+            "loss": "Những suất khách không bao giờ đến, khách không quay lại, và biên kênh bị hoa hồng ăn mất.",
+            "covered": "Trải nghiệm khách và CRM, đặt bàn, hiệu quả giao hàng, quy kết marketing, đối sánh cùng ngành."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Quyết định đưa ra muộn, dựa trên số liệu tháng trước, và sau đó không biết có hiệu quả hay không.",
-            "covered": "Dự báo, kịch bản và lớp hành động có phê duyệt. Một mở rộng trên Core.",
-            "icon": "forecasting"
+            "loss": "Quyết định đưa ra muộn, dựa trên số liệu tháng trước, và sau đó cũng không có cách nào biết chúng có hiệu quả không.",
+            "covered": "Dự báo, mô phỏng kịch bản và lớp hành động có phê duyệt. Một phần mở rộng trên nền Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "CHỌN GÓI CỦA BẠN",
+        "heading": "Bốn gói Core",
+        "description": "Mỗi gói bao phủ một nhóm khác nhau trong bốn mảng. Hãy chọn gói khớp với nơi lợi nhuận của bạn đang thất thoát.",
+        "bestForLabel": "Phù hợp với:",
+        "viewPrefix": "Xem",
+        "priceLabel": "cơ sở đầu tiên / tháng",
+        "bandsLabel": "Sau đó, mỗi cơ sở tăng thêm",
+        "walletLabel": "tín dụng AI / tháng",
+        "items": [
+          {
+            "areas": "Bao phủ Doanh thu & Lợi nhuận",
+            "badge": "Bắt đầu ở đây",
+            "subtitle": "Nền tảng vận hành",
+            "description": "Một nơi để ra quyết định, bao quát POS, nhân công, chi phí và vận hành, cập nhật ngay khi ca vẫn đang chạy.",
+            "bestFor": "Các chuỗi đang rời bỏ bảng tính và dashboard rời rạc"
+          },
+          {
+            "areas": "Bao phủ Doanh thu & Lợi nhuận, Thực phẩm & Cung ứng",
+            "badge": "Được chọn nhiều nhất",
+            "subtitle": "Chiều sâu về chi phí và thất thoát",
+            "description": "Mức dùng lý thuyết so với thực tế, hao hụt, hụt kho, hủy món và món tặng, cùng đóng góp theo từng món.",
+            "bestFor": "Nhà điều hành có biên lợi nhuận rò nhanh hơn mức họ thấy"
+          },
+          {
+            "areas": "Bao phủ Doanh thu & Lợi nhuận, Khách & Thị trường",
+            "badge": "Phía cầu",
+            "subtitle": "Chiều sâu về nhu cầu",
+            "description": "Nhóm khách và giá trị vòng đời, quy kết khuyến mãi theo kênh, biên giao hàng sau hoa hồng.",
+            "bestFor": "Các chuỗi đẩy mạnh doanh thu lặp lại và cơ cấu kênh"
+          },
+          {
+            "areas": "Bao phủ cả bốn mảng, gồm Foresight & Action",
+            "badge": "Chiều sâu đầy đủ",
+            "subtitle": "Đa thương hiệu, đa khu vực",
+            "description": "Hợp nhất xuyên thương hiệu và khu vực, tương quan liên phân hệ, truy cập có kiểm soát kèm dấu vết kiểm toán.",
+            "bestFor": "Chuỗi lớn vận hành nhiều thương hiệu hoặc nhiều thị trường"
           }
         ]
       }
@@ -2783,32 +3251,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "UNDE SE DUCE MARJA",
-        "heading": "Patru locuri prin care se scurge profitul. Core le acoperă pe toate patru.",
-        "description": "Începe de la pierdere, nu de la licență. Fiecare pachet le citește pe toate patru - pachetul ales stabilește adâncimea.",
+        "heading": "Patru locuri prin care se scurge profitul. Pachetul tău decide pe care le închizi.",
+        "description": "Pornește de la pierdere, nu de la licență. Fiecare pachet acoperă un set diferit dintre cele patru - Core Performance le acoperă pe toate.",
         "areas": [
           {
-            "title": "Venit și Profit",
-            "loss": "Anulări, gratuități, reduceri și produse prost tarifate - niciunul nu apare ca o linie pe care s-o poți contesta.",
-            "covered": "Inteligență de venit și profit, revenue assurance, contribuție pe produs.",
-            "icon": "cost"
+            "title": "Venit și profit",
+            "loss": "Anulări, produse oferite, reduceri și produse greșit tarifate, care nu apar niciodată ca o linie despre care poți întreba.",
+            "covered": "Inteligență de venit și profit, asigurarea veniturilor, contribuție pe produs."
           },
           {
-            "title": "Marfă și Aprovizionare",
-            "loss": "Diferența dintre ce ai comandat, ce ai folosit și ce ai vândut - risipă, abateri și derivă a prețurilor de furnizor.",
-            "covered": "Inteligență de stoc și achiziții, consum teoretic față de real, mișcarea furnizorilor.",
-            "icon": "insights"
+            "title": "Alimente și aprovizionare",
+            "loss": "Diferența dintre ce ai comandat, ce ai consumat și ce ai vândut - pierderi, abateri și prețuri de furnizor care cresc pe tăcute.",
+            "covered": "Inteligență de stoc și achiziții, consum teoretic față de real, evoluția furnizorilor."
           },
           {
-            "title": "Client și Piață",
-            "loss": "Clienți care nu vin, clienți care nu se întorc și marja de canal mâncată de comision.",
-            "covered": "Experiența clientului și CRM, rezervări, economia livrării, atribuirea de marketing, repere de piață.",
-            "icon": "operators"
+            "title": "Oaspeți și piață",
+            "loss": "Acoperiri care nu apar niciodată, oaspeți care nu se întorc și marja de canal mâncată de comision.",
+            "covered": "Experiența oaspetelui și CRM, rezervări, economia livrărilor, atribuire de marketing, comparații cu piața."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Decizii luate târziu, pe cifrele de luna trecută, fără să știi apoi dacă au funcționat.",
-            "covered": "Prognoze, scenarii și stratul de acțiune cu aprobare. O extensie peste Core.",
-            "icon": "forecasting"
+            "loss": "Decizii luate târziu, pe cifrele lunii trecute, fără vreo cale de a ști ulterior dacă au funcționat.",
+            "covered": "Prognoză, modelare de scenarii și stratul de acțiune cu aprobare în flux. O extensie peste Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "ALEGE-ȚI PACHETUL",
+        "heading": "Patru pachete Core",
+        "description": "Fiecare pachet acoperă un set diferit dintre cele patru zone. Alege-l pe cel care se potrivește cu locul pe unde îți pleacă marja.",
+        "bestForLabel": "Potrivit pentru:",
+        "viewPrefix": "Vezi",
+        "priceLabel": "prima locație / lună",
+        "bandsLabel": "Apoi, pentru fiecare locație suplimentară",
+        "walletLabel": "credite AI / lună",
+        "items": [
+          {
+            "areas": "Acoperă Venit și profit",
+            "badge": "Începe aici",
+            "subtitle": "Baza operațională",
+            "description": "Un singur loc din care decizi, peste POS, forță de muncă, cost și operațiuni, actualizat cât tura încă se desfășoară.",
+            "bestFor": "Grupuri care ies din tabele și panouri deconectate"
+          },
+          {
+            "areas": "Acoperă Venit și profit, Alimente și aprovizionare",
+            "badge": "Cel mai ales",
+            "subtitle": "Profunzime pe cost și scurgeri",
+            "description": "Consum teoretic față de real, pierderi, minusuri, anulări și produse oferite, plus contribuție pe produs.",
+            "bestFor": "Operatori cărora marja se scurge mai repede decât o pot vedea"
+          },
+          {
+            "areas": "Acoperă Venit și profit, Oaspeți și piață",
+            "badge": "Partea de cerere",
+            "subtitle": "Profunzime pe cerere",
+            "description": "Cohorte de oaspeți și valoare pe durata relației, atribuirea promoțiilor pe canal, marja de livrare după comision.",
+            "bestFor": "Grupuri care mizează pe venit repetat și mix de canale"
+          },
+          {
+            "areas": "Acoperă toate cele patru zone, inclusiv Foresight & Action",
+            "badge": "Profunzime completă",
+            "subtitle": "Multi-brand, multi-regiune",
+            "description": "Consolidare între branduri și regiuni, corelare între module, acces guvernat cu urmă de audit.",
+            "bestFor": "Grupuri mari care rulează mai multe branduri sau mai multe piețe"
           }
         ]
       }
@@ -2954,32 +3458,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "VART MARGINALEN TAR VÄGEN",
-        "heading": "Fyra ställen där vinsten läcker. Core täcker alla fyra.",
-        "description": "Börja i förlusten, inte i licensen. Varje paket läser alla fyra - paketet avgör djupet.",
+        "heading": "Fyra ställen där vinsten läcker. Ert paket avgör vilka ni täpper till.",
+        "description": "Utgå från förlusten, inte från licensen. Varje paket täcker en egen uppsättning av de fyra - Core Performance täcker alla.",
         "areas": [
           {
-            "title": "Intäkt & Vinst",
-            "loss": "Makuleringar, comps, rabatter och felprissatta artiklar som aldrig dyker upp som en rad ni kan ifrågasätta.",
-            "covered": "Intäkts- och vinstintelligens, revenue assurance, bidrag per artikel.",
-            "icon": "cost"
+            "title": "Intäkt & vinst",
+            "loss": "Makuleringar, bjudningar, rabatter och felprissatta artiklar som aldrig dyker upp som en rad ni kan ifrågasätta.",
+            "covered": "Intäkts- och vinstanalys, intäktssäkring, bidrag per artikel."
           },
           {
-            "title": "Råvara & Inköp",
-            "loss": "Glappet mellan beställt, använt och sålt - svinn, avvikelse och prisdrift hos leverantör.",
-            "covered": "Lager- och inköpsintelligens, teoretisk kontra faktisk förbrukning, leverantörsrörelser.",
-            "icon": "insights"
+            "title": "Mat & inköp",
+            "loss": "Glappet mellan vad ni beställde, vad ni gjorde av med och vad ni sålde - svinn, avvikelser och leverantörspriser som smyger uppåt.",
+            "covered": "Lager- och inköpsanalys, teoretisk mot faktisk förbrukning, leverantörernas prisrörelser."
           },
           {
-            "title": "Gäst & Marknad",
-            "loss": "Gäster som aldrig kommer, gäster som inte återvänder och kanalmarginal som provisionen äter upp.",
-            "covered": "Gästupplevelse och CRM, bokningar, leveransekonomi, marknadsföringsattribution, jämförelsetal.",
-            "icon": "operators"
+            "title": "Gäst & marknad",
+            "loss": "Kuvert som aldrig dyker upp, gäster som inte kommer tillbaka och kanalmarginal som provisionen äter upp.",
+            "covered": "Gästupplevelse och CRM, bokningar, leveransekonomi, marknadsföringsattribution, jämförelser med branschen."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Beslut som fattas för sent, på förra månadens siffror, utan att ni efteråt vet om de fungerade.",
-            "covered": "Prognoser, scenarier och handlingslagret med godkännande. En utökning ovanpå Core.",
-            "icon": "forecasting"
+            "loss": "Beslut som fattas för sent, på förra månadens siffror, utan sätt att i efterhand se om de gav effekt.",
+            "covered": "Prognos, scenariomodellering och handlingslagret med godkännande i flödet. En utbyggnad ovanpå Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "VÄLJ ERT PAKET",
+        "heading": "Fyra Core-paket",
+        "description": "Varje paket täcker en egen uppsättning av de fyra områdena. Välj det som matchar vart er marginal tar vägen.",
+        "bestForLabel": "Passar:",
+        "viewPrefix": "Se",
+        "priceLabel": "första enheten / månad",
+        "bandsLabel": "Därefter per ytterligare enhet",
+        "walletLabel": "AI-krediter / månad",
+        "items": [
+          {
+            "areas": "Täcker Intäkt & vinst",
+            "badge": "Börja här",
+            "subtitle": "Den operativa grunden",
+            "description": "Ett ställe att fatta beslut från, över POS, personal, kostnad och drift, uppdaterat medan passet fortfarande pågår.",
+            "bestFor": "Grupper som lämnar kalkylblad och osammanhängande dashboards"
+          },
+          {
+            "areas": "Täcker Intäkt & vinst, Mat & inköp",
+            "badge": "Vanligaste valet",
+            "subtitle": "Djup i kostnad och läckage",
+            "description": "Teoretisk mot faktisk förbrukning, svinn, lagerdifferenser, makuleringar och bjudningar, samt bidrag per artikel.",
+            "bestFor": "Verksamheter vars marginal läcker fortare än de hinner se"
+          },
+          {
+            "areas": "Täcker Intäkt & vinst, Gäst & marknad",
+            "badge": "Efterfrågesidan",
+            "subtitle": "Djup i efterfrågan",
+            "description": "Gästkohorter och livstidsvärde, kampanjattribution per kanal, leveransmarginal efter provision.",
+            "bestFor": "Grupper som satsar på återkommande intäkt och kanalmix"
+          },
+          {
+            "areas": "Täcker alla fyra områden, inkl. Foresight & Action",
+            "badge": "Fullt djup",
+            "subtitle": "Flera varumärken, flera regioner",
+            "description": "Konsolidering över varumärken och regioner, korrelation mellan moduler, styrd åtkomst med spårbarhet.",
+            "bestFor": "Stora grupper med flera varumärken eller flera marknader"
           }
         ]
       }
@@ -3124,33 +3664,69 @@ export const generatedLocalCopy = {
         "secondary": "একটি ডেমো বুক করুন"
       },
       "solves": {
-        "eyebrow": "মার্জিন কোথায় যায়",
-        "heading": "মুনাফা চার জায়গা দিয়ে বেরিয়ে যায়। Core চারটিই ধরে।",
-        "description": "লাইসেন্স থেকে নয়, ক্ষতি থেকে শুরু করুন। প্রতিটি প্যাকেজ চারটিই পড়ে - গভীরতা ঠিক করে প্যাকেজ।",
+        "eyebrow": "মুনাফা কোথায় যাচ্ছে",
+        "heading": "চার জায়গায় মুনাফা বেরিয়ে যায়। কোনগুলো বন্ধ করবেন, তা ঠিক করে আপনার প্যাকেজ।",
+        "description": "লাইসেন্স থেকে নয়, ক্ষতি থেকে শুরু করুন। প্রতিটি প্যাকেজ এই চারটির আলাদা সমন্বয় কভার করে - Core Performance চারটিই কভার করে।",
         "areas": [
           {
             "title": "রাজস্ব ও মুনাফা",
-            "loss": "ভয়েড, কম্প, ছাড় আর ভুল দামের আইটেম - কোনোটিই এমন লাইন হয়ে ওঠে না যা নিয়ে আপনি প্রশ্ন করতে পারেন।",
-            "covered": "রাজস্ব ও মুনাফা বিশ্লেষণ, রেভিনিউ অ্যাসিওরেন্স, প্রতি আইটেমের অবদান।",
-            "icon": "cost"
+            "loss": "ভয়েড, কমপ্লিমেন্টারি, ছাড় আর ভুল দামে বসানো আইটেম - কোনোটিই এমন এক লাইন হয়ে আসে না যা নিয়ে আপনি প্রশ্ন তুলতে পারেন।",
+            "covered": "রাজস্ব ও মুনাফা ইন্টেলিজেন্স, রাজস্ব নিশ্চিতকরণ, আইটেম-ভিত্তিক অবদান।"
           },
           {
             "title": "খাদ্য ও সরবরাহ",
-            "loss": "যা অর্ডার হলো, যা ব্যবহার হলো আর যা বিক্রি হলো - এদের ফারাক: অপচয়, বিচ্যুতি ও সরবরাহকারীর দাম বদল।",
-            "covered": "ইনভেন্টরি ও ক্রয় বিশ্লেষণ, তাত্ত্বিক বনাম প্রকৃত ব্যবহার, সরবরাহকারীর দামের গতি।",
-            "icon": "insights"
+            "loss": "যা অর্ডার করলেন, যা ব্যবহার হলো আর যা বিক্রি হলো - এর মধ্যেকার ফারাক: অপচয়, বিচ্যুতি আর সরবরাহকারীর নিঃশব্দ দাম বৃদ্ধি।",
+            "covered": "ইনভেন্টরি ও ক্রয় ইন্টেলিজেন্স, তাত্ত্বিক বনাম প্রকৃত ব্যবহার, সরবরাহকারীর দামের গতি।"
           },
           {
             "title": "অতিথি ও বাজার",
-            "loss": "যে অতিথি এলই না, যে ফিরে এল না, আর কমিশনের পর চ্যানেলের যেটুকু মার্জিন থাকে।",
-            "covered": "অতিথি অভিজ্ঞতা ও CRM, রিজার্ভেশন, ডেলিভারি অর্থনীতি, মার্কেটিং অ্যাট্রিবিউশন, সমগোত্রীয় বেঞ্চমার্ক।",
-            "icon": "operators"
+            "loss": "যে কভার কখনো আসে না, যে অতিথি ফেরেন না, আর কমিশনের পর চ্যানেল মার্জিনের নিঃশেষ হয়ে যাওয়া।",
+            "covered": "অতিথি অভিজ্ঞতা ও CRM, রিজার্ভেশন, ডেলিভারি অর্থনীতি, মার্কেটিং অ্যাট্রিবিউশন, সমমানের বেঞ্চমার্ক।"
           },
           {
             "title": "Foresight & Action",
-            "loss": "দেরিতে নেওয়া সিদ্ধান্ত, গত মাসের সংখ্যার ওপর, আর পরে জানার উপায় নেই সেগুলো কাজ করেছে কি না।",
-            "covered": "পূর্বাভাস, দৃশ্যকল্প আর অনুমোদনসহ কর্মস্তর। Core-এর ওপরে একটি সম্প্রসারণ।",
-            "icon": "forecasting"
+            "loss": "দেরিতে নেওয়া সিদ্ধান্ত, গত মাসের সংখ্যার ভিত্তিতে, আর পরে সেগুলো কাজে এসেছিল কি না তা জানারও উপায় নেই।",
+            "covered": "পূর্বাভাস, দৃশ্যকল্প মডেলিং আর অনুমোদন-সহ অ্যাকশন স্তর। Core-এর উপর একটি সম্প্রসারণ।"
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "আপনার প্যাকেজ বেছে নিন",
+        "heading": "চারটি Core প্যাকেজ",
+        "description": "প্রতিটি প্যাকেজ চারটি ক্ষেত্রের আলাদা সমন্বয় কভার করে। আপনার মার্জিন যেদিকে যাচ্ছে, তার সঙ্গে মেলে এমনটি বেছে নিন।",
+        "bestForLabel": "যাদের জন্য:",
+        "viewPrefix": "দেখুন",
+        "priceLabel": "প্রথম আউটলেট / মাস",
+        "bandsLabel": "এরপর, প্রতিটি অতিরিক্ত আউটলেটে",
+        "walletLabel": "AI ক্রেডিট / মাস",
+        "items": [
+          {
+            "areas": "রাজস্ব ও মুনাফা কভার করে",
+            "badge": "এখান থেকে শুরু",
+            "subtitle": "পরিচালনার ভিত্তি",
+            "description": "সিদ্ধান্ত নেওয়ার একটিই জায়গা - POS, শ্রম, খরচ আর পরিচালনা জুড়ে, শিফট চলতে চলতেই হালনাগাদ।",
+            "bestFor": "স্প্রেডশিট আর বিচ্ছিন্ন ড্যাশবোর্ড ছাড়ছে এমন গ্রুপ"
+          },
+          {
+            "areas": "রাজস্ব ও মুনাফা, খাদ্য ও সরবরাহ কভার করে",
+            "badge": "সবচেয়ে জনপ্রিয়",
+            "subtitle": "খরচ ও ক্ষরণে গভীরতা",
+            "description": "তাত্ত্বিক বনাম প্রকৃত ব্যবহার, অপচয়, ঘাটতি, ভয়েড ও কমপ্লিমেন্টারি, আর আইটেম-ভিত্তিক অবদান।",
+            "bestFor": "যাদের মার্জিন দেখার চেয়ে দ্রুত বেরিয়ে যাচ্ছে"
+          },
+          {
+            "areas": "রাজস্ব ও মুনাফা, অতিথি ও বাজার কভার করে",
+            "badge": "চাহিদার দিক",
+            "subtitle": "চাহিদায় গভীরতা",
+            "description": "অতিথি কোহর্ট ও জীবনকালীন মূল্য, চ্যানেলভিত্তিক প্রোমো অ্যাট্রিবিউশন, কমিশনের পর ডেলিভারি মার্জিন।",
+            "bestFor": "পুনরাবৃত্ত আয় ও চ্যানেল মিশ্রণে জোর দেওয়া গ্রুপ"
+          },
+          {
+            "areas": "চারটি ক্ষেত্রই কভার করে, Foresight & Action সহ",
+            "badge": "পূর্ণ গভীরতা",
+            "subtitle": "একাধিক ব্র্যান্ড, একাধিক অঞ্চল",
+            "description": "ব্র্যান্ড ও অঞ্চল জুড়ে একত্রীকরণ, মডিউল-জুড়ে সম্পর্ক, অডিট ট্রেইলসহ নিয়ন্ত্রিত অ্যাক্সেস।",
+            "bestFor": "একাধিক ব্র্যান্ড বা একাধিক বাজার চালানো বড় গ্রুপ"
           }
         ]
       }
@@ -3296,32 +3872,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "กำไรหายไปไหน",
-        "heading": "สี่จุดที่กำไรรั่วออก Core ครอบคลุมทั้งสี่",
-        "description": "เริ่มจากสิ่งที่เสียไป ไม่ใช่จากไลเซนส์ ทุกแพ็กเกจอ่านครบทั้งสี่ แพ็กเกจที่เลือกเป็นตัวกำหนดความลึก",
+        "heading": "กำไรรั่วอยู่สี่จุด แพ็กเกจของคุณเป็นตัวกำหนดว่าจะปิดจุดไหน",
+        "description": "เริ่มจากส่วนที่เสียไป ไม่ใช่จากใบอนุญาต แต่ละแพ็กเกจครอบคลุมชุดที่ต่างกันในสี่ด้านนี้ - Core Performance ครอบคลุมทั้งสี่ด้าน",
         "areas": [
           {
             "title": "รายได้และกำไร",
-            "loss": "การยกเลิก การให้ฟรี ส่วนลด และเมนูที่ตั้งราคาผิด ไม่มีอันไหนโผล่มาเป็นบรรทัดที่คุณตั้งคำถามได้",
-            "covered": "การวิเคราะห์รายได้และกำไร การประกันรายได้ กำไรส่วนเพิ่มรายเมนู",
-            "icon": "cost"
+            "loss": "รายการยกเลิก ของแถม ส่วนลด และเมนูที่ตั้งราคาผิด ล้วนไม่เคยโผล่มาเป็นบรรทัดที่คุณตั้งคำถามได้",
+            "covered": "อินเทลลิเจนซ์ด้านรายได้และกำไร การรักษารายได้ กำไรส่วนเกินรายเมนู"
           },
           {
-            "title": "วัตถุดิบและซัพพลาย",
-            "loss": "ช่องว่างระหว่างที่สั่ง ที่ใช้ และที่ขาย ทั้งของเสีย ส่วนต่าง และราคาซัพพลายเออร์ที่ขยับ",
-            "covered": "การวิเคราะห์สต๊อกและจัดซื้อ ปริมาณตามทฤษฎีเทียบกับที่ใช้จริง ความเคลื่อนไหวของซัพพลายเออร์",
-            "icon": "insights"
+            "title": "อาหารและซัพพลาย",
+            "loss": "ช่องว่างระหว่างของที่สั่ง ของที่ใช้ และของที่ขาย ทั้งของเสีย ส่วนต่าง และราคาซัพพลายเออร์ที่ค่อย ๆ ขยับขึ้น",
+            "covered": "อินเทลลิเจนซ์ด้านสต๊อกและการจัดซื้อ ปริมาณใช้ตามทฤษฎีเทียบกับที่ใช้จริง ความเคลื่อนไหวของซัพพลายเออร์"
           },
           {
             "title": "ลูกค้าและตลาด",
-            "loss": "ลูกค้าที่ไม่มา ลูกค้าที่ไม่กลับมา และกำไรช่องทางที่ถูกค่าคอมมิชชันกินไป",
-            "covered": "ประสบการณ์ลูกค้าและ CRM การจอง เศรษฐศาสตร์เดลิเวอรี การระบุผลการตลาด และการเทียบเคียงกับคู่แข่ง",
-            "icon": "operators"
+            "loss": "ที่นั่งที่ไม่เคยมีคนมา ลูกค้าที่ไม่กลับมา และมาร์จินช่องทางที่ถูกค่าคอมมิชชันกินไป",
+            "covered": "ประสบการณ์ลูกค้าและ CRM การจอง เศรษฐศาสตร์เดลิเวอรี การระบุที่มาทางการตลาด และการเทียบเคียงกับร้านอื่น"
           },
           {
             "title": "Foresight & Action",
-            "loss": "การตัดสินใจที่ช้าไป อิงตัวเลขเดือนก่อน และหลังจากนั้นก็ไม่รู้ว่าได้ผลหรือไม่",
-            "covered": "การพยากรณ์ สถานการณ์จำลอง และชั้นการลงมือที่มีการอนุมัติ เป็นส่วนขยายบน Core",
-            "icon": "forecasting"
+            "loss": "การตัดสินใจที่มาช้า อิงตัวเลขเดือนที่แล้ว และไม่มีทางรู้ทีหลังว่าได้ผลหรือไม่",
+            "covered": "การพยากรณ์ การจำลองสถานการณ์ และชั้นการลงมือทำที่มีการอนุมัติกำกับ เป็นส่วนขยายบน Core"
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "เลือกแพ็กเกจของคุณ",
+        "heading": "สี่แพ็กเกจ Core",
+        "description": "แต่ละแพ็กเกจครอบคลุมชุดที่ต่างกันในสี่ด้านนี้ เลือกแพ็กเกจที่ตรงกับจุดที่กำไรของคุณกำลังรั่ว",
+        "bestForLabel": "เหมาะกับ:",
+        "viewPrefix": "ดู",
+        "priceLabel": "สาขาแรก / เดือน",
+        "bandsLabel": "จากนั้น ต่อสาขาที่เพิ่มขึ้น",
+        "walletLabel": "เครดิต AI / เดือน",
+        "items": [
+          {
+            "areas": "ครอบคลุมรายได้และกำไร",
+            "badge": "เริ่มที่นี่",
+            "subtitle": "พื้นฐานการดำเนินงาน",
+            "description": "ที่เดียวสำหรับตัดสินใจ ครอบคลุม POS แรงงาน ต้นทุน และการดำเนินงาน อัปเดตตั้งแต่กะยังไม่จบ",
+            "bestFor": "เครือที่กำลังเลิกใช้สเปรดชีตและแดชบอร์ดที่ไม่เชื่อมกัน"
+          },
+          {
+            "areas": "ครอบคลุมรายได้และกำไร อาหารและซัพพลาย",
+            "badge": "เลือกมากที่สุด",
+            "subtitle": "ลงลึกต้นทุนและการรั่วไหล",
+            "description": "ปริมาณใช้ตามทฤษฎีเทียบกับที่ใช้จริง ของเสีย ของขาด รายการยกเลิกและของแถม รวมถึงกำไรส่วนเกินรายเมนู",
+            "bestFor": "ผู้ประกอบการที่มาร์จินรั่วเร็วกว่าที่มองเห็น"
+          },
+          {
+            "areas": "ครอบคลุมรายได้และกำไร ลูกค้าและตลาด",
+            "badge": "ฝั่งอุปสงค์",
+            "subtitle": "ลงลึกด้านอุปสงค์",
+            "description": "กลุ่มลูกค้าและมูลค่าตลอดช่วงชีวิต การระบุที่มาของโปรโมชันรายช่องทาง มาร์จินเดลิเวอรีหลังหักค่าคอมมิชชัน",
+            "bestFor": "เครือที่เร่งรายได้จากลูกค้าประจำและสัดส่วนช่องทาง"
+          },
+          {
+            "areas": "ครอบคลุมทั้งสี่ด้าน รวมถึง Foresight & Action",
+            "badge": "ลึกเต็มรูปแบบ",
+            "subtitle": "หลายแบรนด์ หลายภูมิภาค",
+            "description": "การรวมข้อมูลข้ามแบรนด์และภูมิภาค ความสัมพันธ์ข้ามโมดูล และการเข้าถึงที่กำกับดูแลพร้อมร่องรอยตรวจสอบ",
+            "bestFor": "เครือขนาดใหญ่ที่บริหารหลายแบรนด์หรือหลายตลาด"
           }
         ]
       }
@@ -3467,32 +4079,68 @@ export const generatedLocalCopy = {
       },
       "solves": {
         "eyebrow": "KE MANA MARGIN PERGI",
-        "heading": "Empat tempat keuntungan bocor. Core meliputi keempat-empatnya.",
-        "description": "Mulakan dari kerugian, bukan dari lesen. Setiap pakej membaca keempat-empatnya - pakej yang dipilih menentukan kedalaman.",
+        "heading": "Empat tempat untung bocor. Pakej anda menentukan yang mana anda tutup.",
+        "description": "Mulakan daripada kerugian, bukan daripada lesen. Setiap pakej merangkumi gabungan berbeza daripada keempat-empatnya - Core Performance merangkumi kesemuanya.",
         "areas": [
           {
-            "title": "Hasil & Keuntungan",
-            "loss": "Pembatalan, komplimen, diskaun dan item tersalah harga - tiada satu pun muncul sebagai baris yang boleh anda persoalkan.",
-            "covered": "Kecerdasan hasil dan keuntungan, revenue assurance, sumbangan setiap item.",
-            "icon": "cost"
+            "title": "Hasil & Untung",
+            "loss": "Pembatalan, hidangan percuma, diskaun dan item tersalah harga yang tidak pernah muncul sebagai satu baris yang boleh anda persoalkan.",
+            "covered": "Kecerdasan hasil dan untung, jaminan hasil, sumbangan mengikut item."
           },
           {
             "title": "Makanan & Bekalan",
-            "loss": "Jurang antara yang dipesan, yang digunakan dan yang dijual - pembaziran, sisihan dan pergerakan harga pembekal.",
-            "covered": "Kecerdasan inventori dan pembelian, penggunaan teori berbanding sebenar, pergerakan pembekal.",
-            "icon": "insights"
+            "loss": "Jurang antara apa yang dipesan, apa yang digunakan dan apa yang terjual - pembaziran, sisihan dan harga pembekal yang naik senyap.",
+            "covered": "Kecerdasan inventori dan perolehan, penggunaan teori berbanding sebenar, pergerakan pembekal."
           },
           {
             "title": "Tetamu & Pasaran",
-            "loss": "Tetamu yang tidak muncul, tetamu yang tidak kembali, dan margin saluran yang dimakan komisen.",
-            "covered": "Pengalaman tetamu dan CRM, tempahan, ekonomi penghantaran, atribusi pemasaran, penanda aras rakan setara.",
-            "icon": "operators"
+            "loss": "Tempat yang tidak pernah diisi, tetamu yang tidak kembali, dan margin saluran yang dimakan komisen.",
+            "covered": "Pengalaman tetamu dan CRM, tempahan, ekonomi penghantaran, atribusi pemasaran, penanda aras rakan industri."
           },
           {
             "title": "Foresight & Action",
-            "loss": "Keputusan yang dibuat lewat, berdasarkan angka bulan lalu, tanpa cara untuk tahu selepas itu sama ada ia berhasil.",
-            "covered": "Ramalan, senario dan lapisan tindakan dengan kelulusan. Satu perluasan di atas Core.",
-            "icon": "forecasting"
+            "loss": "Keputusan yang dibuat lewat, atas angka bulan lalu, tanpa cara untuk tahu selepas itu sama ada ia berkesan.",
+            "covered": "Ramalan, pemodelan senario dan lapisan tindakan dengan kelulusan dalam aliran. Satu pengembangan di atas Core."
+          }
+        ]
+      },
+      "tiers": {
+        "eyebrow": "PILIH PAKEJ ANDA",
+        "heading": "Empat pakej Core",
+        "description": "Setiap pakej merangkumi gabungan berbeza daripada empat bidang ini. Pilih yang sepadan dengan ke mana margin anda pergi.",
+        "bestForLabel": "Sesuai untuk:",
+        "viewPrefix": "Lihat",
+        "priceLabel": "cawangan pertama / bulan",
+        "bandsLabel": "Selepas itu, bagi setiap cawangan tambahan",
+        "walletLabel": "kredit AI / bulan",
+        "items": [
+          {
+            "areas": "Merangkumi Hasil & Untung",
+            "badge": "Mula di sini",
+            "subtitle": "Asas operasi",
+            "description": "Satu tempat untuk membuat keputusan, merangkumi POS, tenaga kerja, kos dan operasi, dikemas kini semasa syif masih berjalan.",
+            "bestFor": "Kumpulan yang meninggalkan hamparan dan papan pemuka yang tidak bersambung"
+          },
+          {
+            "areas": "Merangkumi Hasil & Untung, Makanan & Bekalan",
+            "badge": "Paling banyak dipilih",
+            "subtitle": "Mendalam pada kos dan kebocoran",
+            "description": "Penggunaan teori berbanding sebenar, pembaziran, susut nilai, pembatalan dan hidangan percuma, serta sumbangan mengikut item.",
+            "bestFor": "Pengendali yang marginnya bocor lebih laju daripada yang mereka nampak"
+          },
+          {
+            "areas": "Merangkumi Hasil & Untung, Tetamu & Pasaran",
+            "badge": "Sebelah permintaan",
+            "subtitle": "Mendalam pada permintaan",
+            "description": "Kohort tetamu dan nilai sepanjang hayat, atribusi promosi mengikut saluran, margin penghantaran selepas komisen.",
+            "bestFor": "Kumpulan yang memacu hasil berulang dan campuran saluran"
+          },
+          {
+            "areas": "Merangkumi kesemua empat bidang, termasuk Foresight & Action",
+            "badge": "Kedalaman penuh",
+            "subtitle": "Berbilang jenama, berbilang wilayah",
+            "description": "Penyatuan merentas jenama dan wilayah, korelasi antara modul, akses terkawal dengan jejak audit.",
+            "bestFor": "Kumpulan besar yang mengendalikan beberapa jenama atau beberapa pasaran"
           }
         ]
       }
