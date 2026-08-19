@@ -24,7 +24,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'بحاجة إلى مراجعة · الضرائب',
     ready: 'جاهزة',
     review: 'مراجعة',
-    coverage: '39+ دولة · 100+ ولاية ومقاطعة ومدينة',
+    coverage: '36+ دولة · 100+ ولاية ومقاطعة ومدينة',
     reviewGcc: 'مراجعة دول الخليج',
   },
   fr: {
@@ -49,7 +49,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'À vérifier · fiscalité',
     ready: 'Prêt',
     review: 'À vérifier',
-    coverage: '39+ pays · 100+ États, provinces et villes',
+    coverage: '36+ pays · 100+ États, provinces et villes',
     reviewGcc: 'Vérifier le CCG',
   },
   es: {
@@ -74,7 +74,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Requiere revisión · impuestos',
     ready: 'Listo',
     review: 'Revisar',
-    coverage: '39+ países · 100+ estados, provincias y ciudades',
+    coverage: '36+ países · 100+ estados, provincias y ciudades',
     reviewGcc: 'Revisar el CCG',
   },
   de: {
@@ -99,7 +99,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Prüfung nötig · Steuer',
     ready: 'Bereit',
     review: 'Prüfen',
-    coverage: '39+ Länder · 100+ Bundesstaaten, Provinzen und Städte',
+    coverage: '36+ Länder · 100+ Bundesstaaten, Provinzen und Städte',
     reviewGcc: 'GCC prüfen',
   },
   nl: {
@@ -124,7 +124,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Controle nodig · belasting',
     ready: 'Klaar',
     review: 'Controleren',
-    coverage: '39+ landen · 100+ staten, provincies en steden',
+    coverage: '36+ landen · 100+ staten, provincies en steden',
     reviewGcc: 'GCC controleren',
   },
   pt: {
@@ -149,7 +149,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Precisa de revisão · impostos',
     ready: 'Pronto',
     review: 'Revisar',
-    coverage: '39+ países · 100+ estados, províncias e cidades',
+    coverage: '36+ países · 100+ estados, províncias e cidades',
     reviewGcc: 'Revisar o CCG',
   },
   hi: {
@@ -174,7 +174,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'समीक्षा आवश्यक · कर',
     ready: 'तैयार',
     review: 'समीक्षा',
-    coverage: '39+ देश · 100+ राज्य, प्रांत और शहर',
+    coverage: '36+ देश · 100+ राज्य, प्रांत और शहर',
     reviewGcc: 'GCC की समीक्षा करें',
   },
   ur: {
@@ -199,7 +199,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'جائزہ درکار · ٹیکس',
     ready: 'تیار',
     review: 'جائزہ',
-    coverage: '39+ ممالک · 100+ ریاستیں، صوبے اور شہر',
+    coverage: '36+ ممالک · 100+ ریاستیں، صوبے اور شہر',
     reviewGcc: 'GCC کا جائزہ لیں',
   },
   it: {
@@ -224,7 +224,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Da verificare · fiscale',
     ready: 'Pronto',
     review: 'Verifica',
-    coverage: '39+ paesi · 100+ stati, province e città',
+    coverage: '36+ paesi · 100+ stati, province e città',
     reviewGcc: 'Verifica il CCG',
   },
   pl: {
@@ -249,7 +249,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Wymaga weryfikacji · podatki',
     ready: 'Gotowe',
     review: 'Weryfikuj',
-    coverage: '39+ krajów · 100+ stanów, prowincji i miast',
+    coverage: '36+ krajów · 100+ stanów, prowincji i miast',
     reviewGcc: 'Zweryfikuj GCC',
   },
   tr: {
@@ -274,7 +274,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'İnceleme gerekli · vergi',
     ready: 'Hazır',
     review: 'İncele',
-    coverage: '39+ ülke · 100+ eyalet, il ve şehir',
+    coverage: '36+ ülke · 100+ eyalet, il ve şehir',
     reviewGcc: 'Körfez ülkelerini incele',
   },
   'zh-Hans': {
@@ -299,7 +299,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: '需复核 · 税务',
     ready: '就绪',
     review: '复核',
-    coverage: '39+ 个国家 · 100+ 个州、省及城市',
+    coverage: '36+ 个国家 · 100+ 个州、省及城市',
     reviewGcc: '复核海湾国家',
   },
   ja: {
@@ -374,7 +374,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Perlu ditinjau · pajak',
     ready: 'Siap',
     review: 'Tinjau',
-    coverage: '39+ negara · 100+ negara bagian, provinsi & kota',
+    coverage: '36+ negara · 100+ negara bagian, provinsi & kota',
     reviewGcc: 'Tinjau GCC',
   },
   vi: {
@@ -399,7 +399,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Cần rà soát · thuế',
     ready: 'Sẵn sàng',
     review: 'Rà soát',
-    coverage: '39+ quốc gia · 100+ bang, tỉnh và thành phố',
+    coverage: '36+ quốc gia · 100+ bang, tỉnh và thành phố',
     reviewGcc: 'Rà soát GCC',
   },
   ro: {
@@ -424,7 +424,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Necesită verificare · taxe',
     ready: 'Gata',
     review: 'Verifică',
-    coverage: '39+ țări · 100+ state, provincii și orașe',
+    coverage: '36+ țări · 100+ state, provincii și orașe',
     reviewGcc: 'Verifică CCG',
   },
   sv: {
@@ -449,7 +449,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Behöver granskas · skatt',
     ready: 'Klar',
     review: 'Granska',
-    coverage: '39+ länder · 100+ delstater, provinser och städer',
+    coverage: '36+ länder · 100+ delstater, provinser och städer',
     reviewGcc: 'Granska GCC',
   },
   bn: {
@@ -499,7 +499,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'ต้องตรวจสอบ · ภาษี',
     ready: 'พร้อม',
     review: 'ตรวจสอบ',
-    coverage: '39+ ประเทศ · 100+ รัฐ จังหวัด และเมือง',
+    coverage: '36+ ประเทศ · 100+ รัฐ จังหวัด และเมือง',
     reviewGcc: 'ตรวจสอบ GCC',
   },
   ms: {
@@ -524,7 +524,7 @@ export const LOC: Record<string, Record<string, string>> = {
     needsReviewTax: 'Perlu disemak · cukai',
     ready: 'Sedia',
     review: 'Semak',
-    coverage: '39+ negara · 100+ negeri, wilayah & bandar',
+    coverage: '36+ negara · 100+ negeri, wilayah & bandar',
     reviewGcc: 'Semak GCC',
   },
 };

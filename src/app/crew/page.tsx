@@ -28,7 +28,7 @@ const featurePillars = [
 ];
 
 const moduleAccents = [
-  "from-[#1C47FF] to-[#3B82F6]", // 01 Crew Lite - electric blue
+  "from-[#1C47FF] to-[#3B82F6]", // 01 Crew Starter - electric blue
   "from-[#0EA5E9] to-[#0284C7]", // 02 Crew Scheduling - sky
   "from-[#22C55E] to-[#16A34A]", // 03 Crew Operations - green
   "from-[#A855F7] to-[#7C3AED]", // 04 Crew T&A - purple
@@ -199,7 +199,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     modulesEyebrow: "MODULES",
     modulesTitle: "Six Crew SKUs. Three bundles. Free portal for every employee.",
-    modulesDescription: "Start with Crew Lite, add focused workforce SKUs, or bundle the operating layer when you are ready to close the loop.",
+    modulesDescription: "Start with Crew Starter, add focused workforce SKUs, or bundle the operating layer when you are ready to close the loop.",
     modules: [
       { name: "Crew Starter", tagline: "Entry workforce self-service.", included: ["People basics", "Time-off", "Basic scheduling", "Employee self-service"] },
       { name: "Crew Schedule", tagline: "Demand-matched labor planning.", included: ["AI Builder", "Availability + swaps", "Shift offers", "Templates", "Manager approvals"] },
@@ -226,7 +226,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "ALREADY ON BAYZAT, PERSONIO, OR GUSTO?",
     byohrTitle: "Crew is optional. The intelligence loop isn't.",
-    byohrDescription: "Bring your own HR. Sundae's canonical HR domain contract reads from any compliant adapter - and Labor Intelligence still gets 5-10× richer than competitors who only see POS.",
+    byohrDescription: "Bring your own HR. Sundae's canonical HR domain contract reads from any compliant adapter - and labor intelligence gets materially richer when scheduling, attendance, payroll and POS share one operating context.",
     byohrItems: ["Bayzat (MEA hospitality)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR (canonical adapter)", "POS-native HR exports"],
 
     ctaEyebrow: "RUN YOUR PEOPLE. POWER YOUR INTELLIGENCE.",
@@ -316,7 +316,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     modulesEyebrow: "الوحدات",
     modulesTitle: "ستة Crew SKUs. ثلاث حزم. بوابة مجانية لكل موظف.",
-    modulesDescription: "ابدأ بـ Crew Lite، ثم أضف SKUs القوى العاملة المركزة، أو اجمع طبقة التشغيل عندما تكون جاهزاً لإغلاق الحلقة.",
+    modulesDescription: "ابدأ بـ Crew Starter، ثم أضف SKUs القوى العاملة المركزة، أو اجمع طبقة التشغيل عندما تكون جاهزاً لإغلاق الحلقة.",
     modules: [
       { name: "Crew Starter", tagline: "خدمة ذاتية أولية للقوى العاملة.", included: ["أساسيات الأشخاص", "إجازات", "جدولة أساسية", "خدمة ذاتية للموظف"] },
       { name: "Crew Schedule", tagline: "تخطيط عمالة مطابق للطلب.", included: ["AI Builder", "توفر + تبديلات", "عروض ورديات", "قوالب", "موافقات المدير"] },
@@ -343,7 +343,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "تستخدم بالفعل Bayzat أو Personio أو Gusto؟",
     byohrTitle: "Crew اختياري. حلقة الذكاء ليست.",
-    byohrDescription: "أحضر HR الخاص بك. عقد مجال HR الموحد من Sundae يقرأ من أي محول متوافق - ويبقى Labor Intelligence أغنى 5-10× من المنافسين الذين يرون POS فقط.",
+    byohrDescription: "أحضر HR الخاص بك. عقد مجال HR الموحد من Sundae يقرأ من أي محول متوافق - ويصبح ذكاء العمالة أغنى بوضوح حين تشترك الجدولة والحضور والرواتب وPOS في سياق تشغيلي واحد.",
     byohrItems: ["Bayzat (ضيافة الشرق الأوسط)", "Personio (أوروبا)", "Pento / Onfolk (المملكة المتحدة)", "Gusto / Rippling (الولايات المتحدة)", "BambooHR (محول موحد)", "تصديرات HR من POS"],
 
     ctaEyebrow: "أدر موظفيك. شغّل ذكاءك.",
@@ -433,7 +433,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     modulesEyebrow: "MODULES",
     modulesTitle: "Six Crew SKUs. Trois bundles. Portail gratuit pour chaque employé.",
-    modulesDescription: "Commencez avec Crew Lite, ajoutez les SKUs workforce ciblés, ou bundlez la couche opérationnelle quand vous êtes prêts à fermer la boucle.",
+    modulesDescription: "Commencez avec Crew Starter, ajoutez les SKUs workforce ciblés, ou bundlez la couche opérationnelle quand vous êtes prêts à fermer la boucle.",
     modules: [
       { name: "Crew Starter", tagline: "Self-service workforce d'entrée.", included: ["Bases personnes", "Congés", "Planning basique", "Self-service employé"] },
       { name: "Crew Schedule", tagline: "Planification main-d'œuvre alignée demande.", included: ["AI Builder", "Disponibilités + swaps", "Offres de shifts", "Templates", "Approbations manager"] },
@@ -460,7 +460,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "DÉJÀ SUR BAYZAT, PERSONIO OU GUSTO ?",
     byohrTitle: "Crew est optionnel. La boucle d'intelligence non.",
-    byohrDescription: "BYO-HR. Le contrat de domaine RH canonique de Sundae lit depuis tout adapter conforme - et Labor Intelligence reste 5-10× plus riche que les concurrents qui ne voient que le POS.",
+    byohrDescription: "BYO-HR. Le contrat de domaine RH canonique de Sundae lit depuis tout adapter conforme - et l'intelligence main-d'oeuvre devient nettement plus riche quand planning, pointage, paie et POS partagent un meme contexte d'exploitation.",
     byohrItems: ["Bayzat (hospitality MEA)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR (adapter canonique)", "Exports RH POS-natifs"],
 
     ctaEyebrow: "GÉREZ VOS GENS. ALIMENTEZ VOTRE INTELLIGENCE.",
@@ -550,7 +550,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     modulesEyebrow: "MÓDULOS",
     modulesTitle: "Seis Crew SKUs. Tres bundles. Portal gratis para cada empleado.",
-    modulesDescription: "Empieza con Crew Lite, agrega SKUs enfocados de workforce, o bundlea la capa operativa cuando estés listo para cerrar el loop.",
+    modulesDescription: "Empieza con Crew Starter, agrega SKUs enfocados de workforce, o bundlea la capa operativa cuando estés listo para cerrar el loop.",
     modules: [
       { name: "Crew Starter", tagline: "Self-service inicial de workforce.", included: ["Personas básico", "Ausencias", "Horarios básicos", "Self-service empleado"] },
       { name: "Crew Schedule", tagline: "Planificación laboral alineada a demanda.", included: ["AI Builder", "Disponibilidad + swaps", "Ofertas de turnos", "Templates", "Aprobaciones manager"] },
@@ -577,7 +577,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "¿YA EN BAYZAT, PERSONIO O GUSTO?",
     byohrTitle: "Crew es opcional. El bucle de inteligencia no.",
-    byohrDescription: "BYO-HR. El contrato de dominio RR.HH. canónico de Sundae lee desde cualquier adapter compatible - y Labor Intelligence sigue siendo 5-10× más rica que los competidores que solo ven POS.",
+    byohrDescription: "BYO-HR. El contrato de dominio RR.HH. canónico de Sundae lee desde cualquier adapter compatible - y la inteligencia de personal se vuelve notablemente más rica cuando turnos, fichajes, nómina y POS comparten un mismo contexto operativo.",
     byohrItems: ["Bayzat (hospitality MEA)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR (adapter canónico)", "Exportes RR.HH. POS-nativos"],
 
     ctaEyebrow: "OPERA TU GENTE. ENERGIZA TU INTELIGENCIA.",
