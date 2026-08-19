@@ -306,6 +306,14 @@ export default function HomeContent() {
         <SectionManifesto />
 
         {/* ════════════════════════════════════════════════
+            2. THE GAP ABOVE THE STACK - promoted from 8th.
+            Systems of record capture the operation. BI explains what happened.
+            Sundae directs what happens next. This is the category distinction and
+            it belongs before any feature, matching beat 2 of the customer documents.
+        ════════════════════════════════════════════════ */}
+        <SectionWhatYouRetire />
+
+        {/* ════════════════════════════════════════════════
             2-signature. WATCH THE NIGHT TURN - the signature interaction.
             Scrub a service night; at 7:15 Sundae surfaces the signal you can
             still act on. The interactive proof of the manifesto/operator copy.
@@ -330,11 +338,6 @@ export default function HomeContent() {
             2b-relief. CREAM RELIEF - early warm/light break so the dark run never builds
         ════════════════════════════════════════════════ */}
         <SectionCreamRelief variant="decisions" />
-
-        {/* ════════════════════════════════════════════════
-            2c. THE OLD TRADEOFF IS DEAD - Speed · Quality · Cost
-        ════════════════════════════════════════════════ */}
-        <SectionSpeedQualityCost />
 
         {/* ════════════════════════════════════════════════
             3. SIX LAYERS - Platform pillars
@@ -397,13 +400,6 @@ export default function HomeContent() {
         />
 
         {/* ════════════════════════════════════════════════
-            3a-retire. WHAT YOU RETIRE - BI-replacement positioning, grouped with the moats
-            (moved out of the Speed·Quality·Cost stack to break the dense run + cluster
-            the competitive/BI-replacement argument with Three Moats)
-        ════════════════════════════════════════════════ */}
-        <SectionWhatYouRetire />
-
-        {/* ════════════════════════════════════════════════
             3b. BEYOND DASHBOARDS - Three Moats (Pulse / Watchtower / Benchmarks)
         ════════════════════════════════════════════════ */}
         <div id="chapter-moats" className="scroll-mt-24">
@@ -414,6 +410,14 @@ export default function HomeContent() {
             3c. 4D INTELLIGENCE MODEL - scenario walk-through
         ════════════════════════════════════════════════ */}
         <Section4DScene />
+
+        {/* ════════════════════════════════════════════════
+            6. WHAT STARTING TAKES - moved out of the early "we see it live" run.
+            Its content is the low-risk-to-start argument (governed models rather
+            than a blank canvas, deploy in days, no rebuild), which belongs after
+            the loop has been shown, not before it. Beat 6 of the customer documents.
+        ════════════════════════════════════════════════ */}
+        <SectionSpeedQualityCost />
 
         {/* ════════════════════════════════════════════════
             3d. CREW - the operational substrate that feeds the intelligence
