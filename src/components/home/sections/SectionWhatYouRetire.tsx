@@ -22,7 +22,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   en: {
     eyebrow: "WHAT YOU RETIRE",
     headline: "Your systems capture. BI explains. Neither decides.",
-    description: "Generic BI was built for analysts. Sundae was built for the people running restaurants.",
+    description: "Generic BI was built for analysts. Sundae was built for the people accountable for the P&L.",
     todaysStackLabel: "Today's stack",
     withSundaeLabel: "With Sundae",
     todaysStack: [
@@ -33,18 +33,18 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Weekly recap meetings instead of live action",
     ],
     withSundae: [
-      "Six intelligence layers, restaurant-native",
-      "500+ governed restaurant data models",
+      "Six intelligence layers, operator-native",
+      "500+ governed food-service data models",
       "Source-cited answers in seconds",
       "12 data domains unified in one ledger",
       "Live shift intelligence, not Friday recaps",
     ],
-    closing: "One platform. Restaurant-native from day one.",
+    closing: "One platform. Operator-native from day one.",
   },
   ar: {
     eyebrow: "ما تتقاعد عنه",
     headline: "أنظمتك تسجّل. وأدوات التحليل تشرح. ولا شيء منها يقرّر.",
-    description: "BI العام صُمم للمحللين. Sundae صُمم لمن يدير المطاعم.",
+    description: "BI العام صُمم للمحللين. Sundae صُمم لمن يتحمّل مسؤولية الأرباح والخسائر.",
     todaysStackLabel: "مكدس اليوم",
     withSundaeLabel: "مع Sundae",
     todaysStack: [
@@ -55,18 +55,18 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "اجتماعات أسبوعية بدل فعل حي",
     ],
     withSundae: [
-      "ست طبقات ذكاء، أصيلة للمطاعم",
+      "ست طبقات ذكاء، مبنية لمشغّلي خدمات الطعام",
       "أكثر من 500 نموذج بيانات مطعم محكوم",
       "إجابات بمصادر في ثوانٍ",
       "12 مجال بيانات موحد في دفتر واحد",
       "ذكاء وردية حي لا تقارير الجمعة",
     ],
-    closing: "منصة واحدة. أصيلة للمطاعم من اليوم الأول.",
+    closing: "منصة واحدة. مبنية للتشغيل من اليوم الأول.",
   },
   fr: {
     eyebrow: "CE QUE VOUS RETIREZ",
     headline: "Vos systemes enregistrent. La BI explique. Aucun ne decide.",
-    description: "La BI générique a été construite pour les analystes. Sundae a été construit pour ceux qui font tourner les restaurants.",
+    description: "La BI generique a ete construite pour les analystes. Sundae a ete construit pour ceux qui repondent du compte de resultat.",
     todaysStackLabel: "La stack d'aujourd'hui",
     withSundaeLabel: "Avec Sundae",
     todaysStack: [
@@ -77,18 +77,18 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Réunions hebdo au lieu d'action live",
     ],
     withSundae: [
-      "Six couches d'intelligence, natives restaurant",
-      "500+ modèles de données restaurant gouvernés",
+      "Six couches d'intelligence, natives exploitation",
+      "500+ modeles de donnees restauration gouvernes",
       "Réponses sourcées en secondes",
       "12 domaines de données dans un seul livre",
       "Intelligence de service live, pas récap vendredi",
     ],
-    closing: "Une plateforme. Native restaurant dès le premier jour.",
+    closing: "Une plateforme. Native exploitation des le premier jour.",
   },
   es: {
     eyebrow: "QUÉ RETIRAS",
     headline: "Tus sistemas registran. El BI explica. Ninguno decide.",
-    description: "La BI genérica se construyó para analistas. Sundae se construyó para quienes operan restaurantes.",
+    description: "La BI generica se construyo para analistas. Sundae se construyo para quienes responden por la cuenta de resultados.",
     todaysStackLabel: "Stack actual",
     withSundaeLabel: "Con Sundae",
     todaysStack: [
@@ -99,13 +99,13 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Reuniones semanales en lugar de acción en vivo",
     ],
     withSundae: [
-      "Seis capas de inteligencia, nativas para restaurantes",
-      "500+ modelos de datos de restaurante gobernados",
+      "Seis capas de inteligencia, nativas para la operacion",
+      "500+ modelos de datos de restauracion gobernados",
       "Respuestas con fuente en segundos",
       "12 dominios de datos unificados en un libro",
       "Inteligencia de turno en vivo, no recap del viernes",
     ],
-    closing: "Una plataforma. Nativa para restaurantes desde el día uno.",
+    closing: "Una plataforma. Nativa para la operacion desde el dia uno.",
   },
 };
 

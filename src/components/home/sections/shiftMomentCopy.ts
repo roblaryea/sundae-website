@@ -54,7 +54,7 @@ export const shiftMomentCopy: Record<WebsiteLocale, ShiftMomentCopy> = {
     scrubAria: 'Service-night timeline from 5 PM to close. Use the arrow keys to move through the evening.',
     preSignal: 'Service is on pace. Keep scrubbing toward 7:15.',
     signalTitle: 'Signal - 7:15 PM',
-    signalBody: 'Section 3 is dragging. Covers are behind pace and labor is climbing past 30%. Move one server off prep now - you can still save the night.',
+    signalBody: 'Section 3 is dragging. Covers are behind pace and labour is climbing past 30%. Move one server off prep now - you can still save the night.',
     signalAction: 'This is the moment to act.',
     oldTitle: 'Tomorrow, 11:00 AM',
     oldBody: 'Last night ran behind pace in Section 3 and labor closed high. You are reading this now. The shift is already over.',

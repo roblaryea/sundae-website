@@ -37,7 +37,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   en: {
     band1: {
       eyebrow: 'From the pass to the P&L',
-      headline: 'The intelligence layer for the restaurant you actually run.',
+      headline: 'Built for the operation you actually run.',
       sub: 'Not another dashboard to check. Sundae reads every shift, cover, and line item - and surfaces the next right move before the moment passes.',
       alt: 'A chef finishing a plated dish on the kitchen pass during service',
     },
@@ -58,7 +58,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ar: {
     band1: {
       eyebrow: 'من ممر التقديم إلى P&L',
-      headline: 'طبقة الذكاء للمطعم الذي تديره فعلاً.',
+      headline: 'مبني للعملية التي تديرها فعلاً.',
       sub: 'ليست لوحة معلومات أخرى لمراجعتها. Sundae يقرأ كل وردية وكل ضيف وكل بند - ويُبرز لك الخطوة الصحيحة التالية قبل أن تفوت اللحظة.',
       alt: 'طاهٍ يُنهي إعداد طبق عند ممر التقديم أثناء الخدمة',
     },
@@ -79,7 +79,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   fr: {
     band1: {
       eyebrow: 'Du passe au P&L',
-      headline: "La couche d'intelligence du restaurant que vous dirigez vraiment.",
+      headline: "Concu pour l'exploitation que vous dirigez vraiment.",
       sub: "Pas un tableau de bord de plus à consulter. Sundae lit chaque service, chaque couvert et chaque ligne de compte - et fait remonter le bon geste suivant avant que le moment ne passe.",
       alt: 'Un chef dressant une assiette au passe pendant le service',
     },
@@ -100,7 +100,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   es: {
     band1: {
       eyebrow: 'Del pase al P&L',
-      headline: 'La capa de inteligencia del restaurante que de verdad gestionas.',
+      headline: 'Creado para la operacion que de verdad gestionas.',
       sub: 'No es otro panel que revisar. Sundae lee cada turno, cada comensal y cada partida - y te muestra el siguiente movimiento acertado antes de que pase el momento.',
       alt: 'Un chef terminando un plato en el pase durante el servicio',
     },
@@ -121,7 +121,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   de: {
     band1: {
       eyebrow: 'Vom Pass zur P&L',
-      headline: 'Die Intelligenzschicht für das Restaurant, das Sie wirklich führen.',
+      headline: 'Gebaut fuer den Betrieb, den Sie wirklich fuehren.',
       sub: 'Kein weiteres Dashboard zum Durchsehen. Sundae liest jede Schicht, jedes Gedeck und jede Position - und zeigt Ihnen den nächsten richtigen Schritt, bevor der Moment vorbei ist.',
       alt: 'Ein Koch richtet am Pass während des Service einen Teller an',
     },
@@ -142,7 +142,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   nl: {
     band1: {
       eyebrow: 'Van de pass naar de P&L',
-      headline: 'De intelligentielaag voor het restaurant dat u écht runt.',
+      headline: 'Gebouwd voor de operatie die u echt runt.',
       sub: 'Niet weer een dashboard om te checken. Sundae leest elke dienst, elke gast en elke regel - en laat u de juiste volgende stap zien voordat het moment voorbij is.',
       alt: 'Een chef maakt een gerecht af op de pass tijdens de service',
     },
@@ -163,7 +163,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   pt: {
     band1: {
       eyebrow: 'Da expedição ao P&L',
-      headline: 'A camada de inteligência do restaurante que você realmente comanda.',
+      headline: 'Feito para a operacao que voce realmente comanda.',
       sub: 'Não é mais um painel para conferir. O Sundae lê cada turno, cada cliente e cada item - e mostra o próximo passo certo antes que o momento passe.',
       alt: 'Um chef finalizando um prato na expedição durante o serviço',
     },
@@ -184,7 +184,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   hi: {
     band1: {
       eyebrow: 'पास से P&L तक',
-      headline: 'उस रेस्तरां के लिए इंटेलिजेंस लेयर, जिसे आप सचमुच चलाते हैं।',
+      headline: 'उस संचालन के लिए बना, जिसे आप सचमुच चलाते हैं।',
       sub: 'देखने के लिए एक और डैशबोर्ड नहीं। Sundae हर शिफ्ट, हर मेहमान और हर मद को पढ़ता है - और लम्हा बीतने से पहले अगला सही कदम सामने ला देता है।',
       alt: 'सर्विस के दौरान पास पर एक व्यंजन को अंतिम रूप देता शेफ',
     },
@@ -205,7 +205,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ur: {
     band1: {
       eyebrow: 'پاس سے P&L تک',
-      headline: 'اُس ریستوران کے لیے انٹیلی جنس پرت جسے آپ واقعی چلاتے ہیں۔',
+      headline: 'اُس آپریشن کے لیے بنایا گیا جسے آپ واقعی چلاتے ہیں۔',
       sub: 'دیکھنے کے لیے ایک اور ڈیش بورڈ نہیں۔ Sundae ہر شفٹ، ہر مہمان اور ہر مدّ کو پڑھتا ہے - اور لمحہ گزرنے سے پہلے اگلا درست قدم سامنے لے آتا ہے۔',
       alt: 'سروس کے دوران پاس پر ایک ڈش کو حتمی شکل دیتا شیف',
     },
@@ -226,7 +226,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   it: {
     band1: {
       eyebrow: 'Dal passe al P&L',
-      headline: "Lo strato d'intelligenza per il ristorante che gestisci davvero.",
+      headline: "Creato per l'operativita che gestisci davvero.",
       sub: "Non l'ennesima dashboard da controllare. Sundae legge ogni turno, ogni coperto e ogni voce - e fa emergere la prossima mossa giusta prima che il momento passi.",
       alt: 'Uno chef che completa un piatto al passe durante il servizio',
     },
@@ -247,7 +247,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   pl: {
     band1: {
       eyebrow: 'Od wydawki do P&L',
-      headline: 'Warstwa inteligencji dla restauracji, którą naprawdę prowadzisz.',
+      headline: 'Stworzone dla operacji, ktora naprawde prowadzisz.',
       sub: 'Nie kolejny pulpit do sprawdzania. Sundae czyta każdą zmianę, każdego gościa i każdą pozycję - i podsuwa kolejny właściwy ruch, zanim moment minie.',
       alt: 'Kucharz kończy danie na wydawce podczas serwisu',
     },
@@ -268,7 +268,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   tr: {
     band1: {
       eyebrow: "Mutfak pasından P&L'ye",
-      headline: 'Gerçekten işlettiğiniz restoran için zekâ katmanı.',
+      headline: 'Gercekten yonettiginiz operasyon icin tasarlandi.',
       sub: 'Kontrol edilecek bir gösterge paneli daha değil. Sundae her vardiyayı, her misafiri ve her kalemi okur - ve an geçip gitmeden bir sonraki doğru hamleyi önünüze çıkarır.',
       alt: 'Servis sırasında pasta bir tabağı tamamlayan şef',
     },
@@ -289,7 +289,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   'zh-Hans': {
     band1: {
       eyebrow: '从出菜口到 P&L',
-      headline: '为你真正在经营的餐厅打造的智能层。',
+      headline: '为你真正在经营的业务打造。',
       sub: '不是又一个要查看的仪表盘。Sundae 读取每一个班次、每一位客人、每一笔条目--并在时机错过之前，为你点出下一步的正确动作。',
       alt: '服务期间，厨师在出菜口完成摆盘',
     },
@@ -310,7 +310,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ja: {
     band1: {
       eyebrow: 'パスからP&Lまで',
-      headline: 'あなたが実際に切り盛りする店のためのインテリジェンス層。',
+      headline: 'あなたが実際に動かしている現場のために。',
       sub: '確認すべきダッシュボードがまた増えるわけではありません。Sundae はすべてのシフト、すべての客数、すべての明細を読み取り--その瞬間を逃す前に、次の最善手を浮かび上がらせます。',
       alt: 'サービス中、パスで一皿を仕上げるシェフ',
     },
@@ -331,7 +331,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ko: {
     band1: {
       eyebrow: '패스에서 P&L까지',
-      headline: '당신이 실제로 운영하는 레스토랑을 위한 인텔리전스 레이어.',
+      headline: '당신이 실제로 운영하는 현장을 위해 만들었습니다.',
       sub: '확인해야 할 대시보드가 하나 더 느는 게 아닙니다. Sundae는 모든 근무, 모든 손님, 모든 항목을 읽어내고--그 순간이 지나가기 전에 다음 최선의 수를 짚어 줍니다.',
       alt: '서비스 중 패스에서 요리를 마무리하는 셰프',
     },
@@ -352,7 +352,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   id: {
     band1: {
       eyebrow: 'Dari pass hingga P&L',
-      headline: 'Lapisan intelijen untuk restoran yang benar-benar Anda jalankan.',
+      headline: 'Dibuat untuk operasi yang benar-benar Anda jalankan.',
       sub: 'Bukan satu dasbor lagi untuk dicek. Sundae membaca setiap shift, setiap tamu, dan setiap item - lalu memunculkan langkah tepat berikutnya sebelum momennya berlalu.',
       alt: 'Seorang koki menyelesaikan hidangan di pass saat layanan berlangsung',
     },
@@ -373,7 +373,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   vi: {
     band1: {
       eyebrow: 'Từ quầy ra món đến P&L',
-      headline: 'Lớp trí tuệ cho nhà hàng mà bạn thực sự vận hành.',
+      headline: 'Duoc xay dung cho hoat dong ma ban thuc su van hanh.',
       sub: 'Không phải thêm một bảng điều khiển để kiểm tra. Sundae đọc từng ca, từng lượt khách và từng khoản mục - rồi đưa ra nước đi đúng tiếp theo trước khi thời điểm trôi qua.',
       alt: 'Một đầu bếp hoàn thiện món ăn tại quầy ra món trong giờ phục vụ',
     },
@@ -394,7 +394,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ro: {
     band1: {
       eyebrow: 'De la pass la P&L',
-      headline: 'Stratul de inteligență pentru restaurantul pe care chiar îl conduci.',
+      headline: 'Construit pentru operatiunea pe care chiar o conduci.',
       sub: 'Nu încă un panou de verificat. Sundae citește fiecare tură, fiecare client și fiecare poziție - și îți scoate în față următoarea mișcare corectă înainte să treacă momentul.',
       alt: 'Un bucătar finalizează un preparat la pass în timpul serviciului',
     },
@@ -415,7 +415,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   sv: {
     band1: {
       eyebrow: 'Från passet till P&L',
-      headline: 'Intelligenslagret för restaurangen du faktiskt driver.',
+      headline: 'Byggt for verksamheten du faktiskt driver.',
       sub: 'Inte ännu en instrumentpanel att kolla. Sundae läser varje skift, varje gäst och varje rad - och lyfter fram nästa rätta drag innan ögonblicket är förbi.',
       alt: 'En kock gör färdigt en tallrik vid passet under serveringen',
     },
@@ -436,7 +436,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   bn: {
     band1: {
       eyebrow: 'পাস থেকে P&L পর্যন্ত',
-      headline: 'আপনি যে রেস্তোরাঁটি সত্যিই চালান, তার জন্য ইন্টেলিজেন্স স্তর।',
+      headline: 'আপনি যে পরিচালনা সত্যিই চালান, তার জন্য তৈরি।',
       sub: 'দেখার জন্য আরেকটি ড্যাশবোর্ড নয়। Sundae প্রতিটি শিফট, প্রতিটি অতিথি এবং প্রতিটি আইটেম পড়ে - আর মুহূর্ত হাতছাড়া হওয়ার আগেই পরের সঠিক পদক্ষেপটি সামনে এনে দেয়।',
       alt: 'পরিবেশনের সময় পাসে একটি প্লেট সাজিয়ে শেষ করছেন একজন শেফ',
     },
@@ -457,7 +457,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   th: {
     band1: {
       eyebrow: 'จากหน้าจ่ายอาหารถึง P&L',
-      headline: 'เลเยอร์อัจฉริยะสำหรับร้านอาหารที่คุณบริหารจริง',
+      headline: 'สร้างมาเพื่อการดำเนินงานที่คุณบริหารจริง',
       sub: 'ไม่ใช่แดชบอร์ดอีกอันที่ต้องคอยดู Sundae อ่านทุกกะ ทุกลูกค้า และทุกรายการ - แล้วชี้ก้าวต่อไปที่ถูกต้องให้คุณก่อนที่จังหวะจะผ่านไป',
       alt: 'เชฟกำลังจัดจานให้เสร็จที่หน้าจ่ายอาหารระหว่างการให้บริการ',
     },
@@ -478,7 +478,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
   ms: {
     band1: {
       eyebrow: 'Dari pass ke P&L',
-      headline: 'Lapisan kecerdasan untuk restoran yang benar-benar anda kendalikan.',
+      headline: 'Dibina untuk operasi yang benar-benar anda kendalikan.',
       sub: 'Bukan satu lagi papan pemuka untuk disemak. Sundae membaca setiap syif, setiap tetamu dan setiap butiran - lalu menonjolkan langkah betul seterusnya sebelum saat itu berlalu.',
       alt: 'Seorang cef menyiapkan hidangan di pass semasa servis',
     },

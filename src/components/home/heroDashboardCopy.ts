@@ -100,7 +100,7 @@ export const heroDashboardCopy: Record<WebsiteLocale, HeroDashboardCopy> = {
     ],
     coachItems: [
       { tag: 'Upsell', text: 'James K. upsell rate is 14% below shift average. Consider pairing with Sarah for the next 2 tables.', impact: '+{up} / shift' },
-      { tag: 'Labor', text: "Hold the 9 PM cut - you're tracking 1.5 labor hours under budget.", impact: '-{lab} cost' },
+      { tag: 'Labour', text: "Hold the 9 PM cut - you're tracking 1.5 labour hours under budget.", impact: '-{lab} cost' },
       { tag: 'Inventory', text: 'Ribeye is selling 22% ahead of forecast - 86 risk by 8:30 PM. Prep 6 more.', impact: '6 covers at risk' },
       { tag: 'Service', text: 'Table 12 seated 47 min with no entrée fired - nudge the kitchen.', impact: 'guest NPS' },
       { tag: 'Marketing', text: "Repeat last Tuesday's happy-hour - it lifted covers 9%.", impact: '+9% covers' },
