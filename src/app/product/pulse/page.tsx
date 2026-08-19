@@ -24,6 +24,7 @@ import { pulseCreamCopy } from "./pulseCreamCopy";
 import { CoreMobileShowcase } from "@/components/core/CoreMobileShowcase";
 import { CorePulseFloorMobile } from "@/components/core/CorePulseFloorMobile";
 import { CoreHomeMobile } from "@/components/core/CoreHomeMobile";
+import { balanceSentences } from '@/lib/balanceSentences';
 
 const localizedPulseCopy = {
   en: {
@@ -1305,7 +1306,7 @@ export default function PulsePage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.quickGrid.heading}</h2>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{balanceSentences(ui.quickGrid.heading)}</h2>
             <p className="body-lg text-[var(--text-supporting)] mb-12">{ui.quickGrid.description}</p>
           </FadeUp>
 

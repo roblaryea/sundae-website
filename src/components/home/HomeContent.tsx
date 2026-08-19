@@ -482,8 +482,8 @@ export default function HomeContent() {
           eyebrow={editorial.closer.eyebrow}
           headline={
             <>
-              {editorial.closer.headlineLead}{" "}
-              <span className="text-[var(--warm-coral)]">{editorial.closer.headlineEmphasis}</span>
+              <span className="inline-block">{editorial.closer.headlineLead}</span>{" "}
+              <span className="inline-block text-[var(--warm-coral)]">{editorial.closer.headlineEmphasis}</span>
             </>
           }
           sub={editorial.closer.sub}

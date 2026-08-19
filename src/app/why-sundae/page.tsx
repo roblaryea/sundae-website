@@ -10,6 +10,7 @@ import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_page'
 import { whySundaeCreamCopy } from './whySundaeCreamCopy'
+import { balanceSentences } from '@/lib/balanceSentences';
 
 type WhySundaeCopy = {
   hero: {
@@ -241,7 +242,7 @@ export default function WhySundaePage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={copy.hero.badge} title={copy.hero.title} description={copy.hero.description} />
+      <PageHero badge={copy.hero.badge} title={balanceSentences(copy.hero.title)} description={copy.hero.description} />
 
       {/* Cream relief - early warm break right after the hero, before the long dark problems/comparison/roles stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
