@@ -69,7 +69,7 @@ const localizedCoreCopy = {
           name: "Core Foundation",
           badge: "Start here",
           subtitle: "The operating baseline",
-          description: "One decision substrate over POS, labor, cost and operations, refreshed while the shift is still running.",
+          description: "One place to decide from, over POS, labor, cost and operations, refreshed while the shift is still running.",
           bestFor: "Groups getting off spreadsheets and disconnected dashboards",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },

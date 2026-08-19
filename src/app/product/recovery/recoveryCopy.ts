@@ -77,7 +77,7 @@ const recoveryCopy: RequiredEnglishLocalizedRecord<RecoveryCopy> = {
       {
         step: '04',
         name: 'Measure',
-        line: 'The baseline freezes the moment work starts, so the result is compared with what was true before. Where the data does not cover it, Sundae abstains instead of inferring a number.',
+        line: 'The before number is locked the moment work starts, so the result is compared with what was actually true. Where the data cannot tell, Sundae says so rather than guessing.',
       },
       {
         step: '05',

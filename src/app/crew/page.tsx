@@ -156,7 +156,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     coverageLabel: "Also included in every Crew deployment",
     coverageItems: [
       { title: "Employee mobile portal", body: "Every employee gets a free Sundae account - view shifts, request time-off, swap, payslips, attestations, biometric clock-in." },
-      { title: "Communications", body: "Briefings with topology audience picker, team feed, kudos, surveys, channel registry." },
+      { title: "Communications", body: "Briefings you can target by brand, region or site, team feed, kudos, surveys, channel list." },
       { title: "Documents & e-sign", body: "Document storage, e-signature flow, evidence packs, credential tracking." },
       { title: "Support + Ask-HR", body: "SundaeAI Support handles product questions. Ask-HR handles employee HR requests, private HR queues, and personnel casework." },
       { title: "Integrations & adapters", body: "BYO-HR adapters (Bayzat, Personio, Pento, Gusto, BambooHR), POS labor sync, public-holiday packs, partner-SDK." },
@@ -172,7 +172,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { label: "Time & Attendance", title: "Punch clock + spreadsheet variance", body: "Mobile PWA clock-in with geo-fence + WebAuthn biometric. Trust scores feed Workforce Health automatically." },
       { label: "Payroll readiness", title: "Spreadsheet exports per region", body: "Multi-region engine produces NACHA / EFT / HMRC RTI / SEPA / WPS files + year-end forms. Cycle proof packs replace QA mail threads." },
       { label: "HR casework", title: "Tickets in a generic helpdesk", body: "Ask-HR queue with private channels, attestations, disciplinary workflow, evidence packs - separate from product support." },
-      { label: "Comms", title: "Shift announcements over text", body: "Briefings with topology audience picker, team feed, kudos, surveys - operator-controlled, not employees screenshotting WhatsApp." },
+      { label: "Comms", title: "Shift announcements over text", body: "Briefings you can target by brand, region or site, team feed, kudos, surveys - run by you, not employees screenshotting WhatsApp." },
       { label: "Workforce analytics", title: "BI dashboards that can't see HR", body: "Labor Intelligence reads payroll cycle status, no-show risk, schedule pipeline, trust scores, open punches - without a separate ETL." },
     ],
     retiresClosing: "Crew is optional - bring your own HR (Bayzat, Personio, Pento, Gusto) and Sundae still consolidates the signal. Optional, not parallel.",
@@ -226,8 +226,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "ALREADY ON BAYZAT, PERSONIO, OR GUSTO?",
     byohrTitle: "Crew is optional. The intelligence loop isn't.",
-    byohrDescription: "Bring your own HR. Sundae's canonical HR domain contract reads from any compliant adapter - and labor intelligence gets materially richer when scheduling, attendance, payroll and POS share one operating context.",
-    byohrItems: ["Bayzat (MEA hospitality)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR (canonical adapter)", "POS-native HR exports"],
+    byohrDescription: "Keep the HR system you already run. Sundae reads from it through one shared people record - and labor intelligence gets materially richer when scheduling, attendance, payroll and POS sit in the same picture.",
+    byohrItems: ["Bayzat (MEA hospitality)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR", "POS-native HR exports"],
 
     ctaEyebrow: "RUN YOUR PEOPLE. POWER YOUR INTELLIGENCE.",
     ctaTitle: "See what changes when the loop closes.",
@@ -390,7 +390,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     coverageLabel: "Inclus dans chaque déploiement Crew",
     coverageItems: [
       { title: "Portail mobile employé", body: "Chaque employé obtient un compte Sundae gratuit - voir shifts, demander congés, swap, bulletins, attestations, pointage biométrique." },
-      { title: "Communications", body: "Briefings avec picker d'audience topologique, fil d'équipe, kudos, sondages, registre de canaux." },
+      { title: "Communications", body: "Briefings ciblables par marque, region ou site, fil d'equipe, kudos, sondages, liste de canaux." },
       { title: "Documents & e-sign", body: "Stockage de documents, flux de signature électronique, evidence packs, suivi de credentials." },
       { title: "Support + Ask-HR", body: "SundaeAI Support répond aux questions produit. Ask-HR gère les demandes employés, files RH privées et casework personnel." },
       { title: "Intégrations & adapters", body: "Adapters BYO-HR (Bayzat, Personio, Pento, Gusto, BambooHR), sync POS, packs jours fériés, Partner-SDK." },
@@ -406,7 +406,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { label: "Temps & Présence", title: "Pointage + variance tableur", body: "Pointage PWA mobile avec géo-fence + biométrie WebAuthn. Scores de confiance alimentent Workforce Health." },
       { label: "Préparation paie", title: "Exports tableur par région", body: "Moteur multi-régions produit fichiers NACHA / EFT / HMRC RTI / SEPA / WPS + formulaires fin d'année. Proof packs remplacent les threads mail QA." },
       { label: "Casework RH", title: "Tickets dans un helpdesk générique", body: "Queue Ask-HR avec canaux privés, attestations, workflow disciplinaire, evidence packs - séparé du support produit." },
-      { label: "Comms", title: "Annonces par SMS", body: "Briefings avec picker audience topologique, fil d'équipe, kudos, sondages - opérateur-contrôlé, pas screenshots WhatsApp." },
+      { label: "Comms", title: "Annonces par SMS", body: "Briefings ciblables par marque, region ou site, fil d'equipe, kudos, sondages - pilotes par vous, pas des employes qui screenshotent WhatsApp." },
       { label: "Analytics main-d'œuvre", title: "BI qui ne voit pas la RH", body: "Labor Intelligence lit cycle paie, no-show risk, pipeline planning, scores de confiance, punches ouverts - sans ETL séparé." },
     ],
     retiresClosing: "Crew est optionnel - BYO-HR (Bayzat, Personio, Pento, Gusto) et Sundae consolide quand même le signal. Optionnel, pas parallèle.",

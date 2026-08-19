@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
         "c_suite": "Alta dirección",
         "cfo": "Finanzas",
         "multi_loc": "Multilocal",
-        "topology": "Sensible a la topología",
+        "topology": "Multimarca y región",
         "hr": "RR. HH.",
         "marketing": "Marketing",
         "tech": "Tecnología"
@@ -746,19 +746,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Salud de franquicia",
+          "caption": "Tu estructura de reporte, del grupo al local",
           "whatYouSee": "Un índice de salud compuesto por local en todo tu negocio - Abu Dhabi, Dubái, El Cairo, Riad en una sola matriz de riesgo - para que veas de un vistazo qué unidades prosperan y cuáles necesitan una visita, y luego acotes la vista a cualquier marca o región con un clic.",
           "alt": "Salud de franquicia - 4 locales en ciudades de MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Viabilidad de local",
+          "caption": "Tu estructura de reporte, del grupo al local",
           "whatYouSee": "Evalúa un nuevo local antes de firmar el contrato - proyecta su punto de equilibrio, VAN y P&L del primer año, y luego mueve los controles de capex, alquiler, coste de alimentos y personal, gastos generales y ramp-up hasta que el trato cuadre. El emplazamiento que sale a cuenta y el que no, resueltos en pantalla en lugar de tras la obra.",
           "alt": "Viabilidad de local - modelador de VAN y punto de equilibrio para nuevo local",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Árbol de organización",
+          "caption": "Tu estructura de reporte, del grupo al local",
           "whatYouSee": "Toda tu estructura jerárquica mapeada en un árbol organizativo vivo - decenas de nodos desde el grupo hasta el local, representados como tarjetas con foto y cada línea de reporte trazada - para que quién responde ante quién entre marcas y regiones sea por fin una imagen clara, no un montón de hojas de cálculo.",
           "alt": "Árbol de organización de Crew - estructura jerárquica de 75 nodos",
           "productLabel": "Sundae Crew →"
@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
         "c_suite": "Geschäftsführung",
         "cfo": "Finanzen",
         "multi_loc": "Mehrere Standorte",
-        "topology": "Topologie-fähig",
+        "topology": "Mehrere Marken & Regionen",
         "hr": "Personal",
         "marketing": "Marketing",
         "tech": "Technologie"
@@ -1010,19 +1010,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Ihre Berichtsstruktur, von der Gruppe bis zum Standort",
           "whatYouSee": "Ein zusammengesetzter Gesundheitswert pro Standort über Ihr gesamtes Netz - Abu Dhabi, Dubai, Kairo, Riad in einer einzigen Risikomatrix - damit Sie auf einen Blick sehen, welche Einheiten florieren und welche einen Besuch brauchen, und die Ansicht mit einem Klick auf jede Marke oder Region eingrenzen.",
           "alt": "Franchise Health - 4 Standorte in MENA-Städten",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Ihre Berichtsstruktur, von der Gruppe bis zum Standort",
           "whatYouSee": "Bewerten Sie einen neuen Standort, bevor Sie den Mietvertrag unterschreiben - prognostizieren Sie Break-even, NPV und P&L des ersten Jahres und verschieben Sie dann Regler für Investitionen, Miete, Wareneinsatz und Personalkosten, Gemeinkosten und Anlaufphase, bis das Geschäft aufgeht. Der Standort, der sich rechnet, und der, der es nicht tut, auf dem Bildschirm entschieden statt nach dem Bau.",
           "alt": "Outlet Viability - NPV- und Break-even-Modellierer für neue Standorte",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organisationsbaum",
+          "caption": "Ihre Berichtsstruktur, von der Gruppe bis zum Standort",
           "whatYouSee": "Ihre gesamte Berichtsstruktur in einem lebendigen Organisationsbaum abgebildet - Dutzende Knoten von der Gruppe bis zum Standort, als Fotokarten mit eingezeichneter Berichtslinie dargestellt - damit endlich auf einem klaren Bild steht, wer über Marken und Regionen hinweg wem unterstellt ist, statt in einem Stapel Tabellen.",
           "alt": "Crew Organisationsbaum - Berichtsstruktur mit 75 Knoten",
           "productLabel": "Sundae Crew →"
@@ -1071,7 +1071,7 @@ export const generatedLocalCopy = {
         "c_suite": "Directie",
         "cfo": "Financiën",
         "multi_loc": "Meerdere locaties",
-        "topology": "Topologiebewust",
+        "topology": "Multi-merk & regio",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Technologie"
@@ -1274,19 +1274,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Je rapportagestructuur, van groep tot vestiging",
           "whatYouSee": "Eén samengestelde gezondheidsscore per vestiging over je hele keten - Abu Dhabi, Dubai, Cairo, Riyadh op één risicomatrix - zodat je in één oogopslag ziet welke vestigingen floreren en welke een bezoek nodig hebben, en de weergave met één klik kunt inkaderen op elk merk of elke regio.",
           "alt": "Franchise Health - 4 vestigingen in MENA-steden",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Je rapportagestructuur, van groep tot vestiging",
           "whatYouSee": "Onderbouw een nieuwe vestiging voordat je het huurcontract tekent - projecteer break-even, NPV en de P&L van het eerste jaar, en schuif vervolgens met capex, huur, foodcost en loonkosten, overhead en aanloop tot de deal klopt. De locatie die rendeert en die het niet doet, beslecht op het scherm in plaats van na de bouw.",
           "alt": "Outlet Viability - NPV- en break-evenmodel voor nieuwe vestigingen",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "Je rapportagestructuur, van groep tot vestiging",
           "whatYouSee": "Je hele rapportagestructuur in kaart gebracht in één levende organisatieboom - tientallen knooppunten van groep tot vestiging, weergegeven als fotokaarten met elke rapportagelijn ingetekend - zodat wie aan wie rapporteert over merken en regio's eindelijk één helder beeld is, geen stapel spreadsheets.",
           "alt": "Crew Organization Tree - rapportagestructuur van 75 knooppunten",
           "productLabel": "Sundae Crew →"
@@ -1335,7 +1335,7 @@ export const generatedLocalCopy = {
         "c_suite": "Direção executiva",
         "cfo": "Finanças",
         "multi_loc": "Multi-localização",
-        "topology": "Consciente da topologia",
+        "topology": "Multimarca e região",
         "hr": "Recursos Humanos",
         "marketing": "Marketing",
         "tech": "Tecnologia"
@@ -1538,19 +1538,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Saúde da Franquia",
+          "caption": "A sua estrutura hierárquica, do grupo à unidade",
           "whatYouSee": "Um score de saúde composto por estabelecimento em todo o seu negócio - Abu Dhabi, Dubai, Cairo, Riade numa única matriz de risco - para ver num relance que unidades prosperam e quais precisam de uma visita, e depois ajustar a vista a qualquer marca ou região num clique.",
           "alt": "Saúde da Franquia - 4 estabelecimentos em cidades do MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Viabilidade de Estabelecimento",
+          "caption": "A sua estrutura hierárquica, do grupo à unidade",
           "whatYouSee": "Avalie um novo estabelecimento antes de assinar o contrato - projete o seu break-even, NPV e P&L do primeiro ano, depois mova cursores para investimento, renda, custo de comida e mão de obra, despesas gerais e arranque até o negócio fazer sentido. O local que compensa e o que não compensa, decididos no ecrã em vez de depois da obra.",
           "alt": "Viabilidade de Estabelecimento - modelador de NPV + break-even de novo estabelecimento",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Árvore da Organização",
+          "caption": "A sua estrutura hierárquica, do grupo à unidade",
           "whatYouSee": "Toda a sua estrutura hierárquica mapeada numa árvore organizacional viva - dezenas de nós, do grupo até ao estabelecimento, apresentados como cartões com foto e cada linha hierárquica desenhada - para que quem responde a quem entre marcas e regiões seja finalmente uma imagem clara, e não uma pilha de folhas de cálculo.",
           "alt": "Crew Árvore da Organização - estrutura hierárquica de 75 nós",
           "productLabel": "Sundae Crew →"
@@ -1599,7 +1599,7 @@ export const generatedLocalCopy = {
         "c_suite": "शीर्ष नेतृत्व",
         "cfo": "वित्त",
         "multi_loc": "कई लोकेशन",
-        "topology": "टोपोलॉजी-आधारित",
+        "topology": "बहु-ब्रांड और क्षेत्र",
         "hr": "HR",
         "marketing": "मार्केटिंग",
         "tech": "टेक्नोलॉजी"
@@ -1802,19 +1802,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "आपकी रिपोर्टिंग संरचना, समूह से आउटलेट तक",
           "whatYouSee": "आपकी पूरी संपदा में प्रति आउटलेट एक संयुक्त हेल्थ स्कोर - Abu Dhabi, Dubai, Cairo, Riyadh एक ही रिस्क मैट्रिक्स पर - ताकि एक नज़र में दिखे कि कौन-सी इकाइयाँ फल-फूल रही हैं और किसे एक दौरे की ज़रूरत है, फिर एक क्लिक में किसी भी ब्रांड या क्षेत्र तक व्यू समेट लीजिए।",
           "alt": "Franchise Health - MENA शहरों में 4 आउटलेट",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "आपकी रिपोर्टिंग संरचना, समूह से आउटलेट तक",
           "whatYouSee": "लीज़ पर हस्ताक्षर करने से पहले नए आउटलेट को परखिए - उसका ब्रेक-ईवन, NPV और पहले साल का P&L प्रक्षेपित कीजिए, फिर capex, किराया, फूड और लेबर कॉस्ट, ओवरहेड और ramp के स्लाइडर तब तक हिलाइए जब तक सौदा बैठ न जाए। जो साइट हिसाब में आती है और जो नहीं, स्क्रीन पर तय - निर्माण के बाद नहीं।",
           "alt": "Outlet Viability - नया-आउटलेट NPV + ब्रेक-ईवन मॉडलर",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - संगठन वृक्ष",
+          "caption": "आपकी रिपोर्टिंग संरचना, समूह से आउटलेट तक",
           "whatYouSee": "आपका पूरा रिपोर्टिंग ढाँचा एक जीवंत org ट्री में मैप - समूह से लेकर आउटलेट तक दर्जनों नोड, हर रिपोर्टिंग लाइन खिंची हुई फ़ोटो कार्ड के रूप में - ताकि ब्रांड और क्षेत्रों में कौन किसके अधीन है, आख़िरकार एक साफ़ तस्वीर बने, स्प्रेडशीट का ढेर नहीं।",
           "alt": "Crew Organization Tree - 75-नोड रिपोर्टिंग ढाँचा",
           "productLabel": "Sundae Crew →"
@@ -1863,7 +1863,7 @@ export const generatedLocalCopy = {
         "c_suite": "C-Suite",
         "cfo": "فنانس",
         "multi_loc": "متعدد لوکیشنز",
-        "topology": "Topology-آگاہ",
+        "topology": "کثیر برانڈ اور خطہ",
         "hr": "HR",
         "marketing": "مارکیٹنگ",
         "tech": "ٹیکنالوجی"
@@ -2066,19 +2066,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "آپ کا رپورٹنگ ڈھانچہ، گروپ سے برانچ تک",
           "whatYouSee": "آپ کی پوری سلطنت میں فی آؤٹ لیٹ ایک مرکب ہیلتھ اسکور - Abu Dhabi، Dubai، Cairo، Riyadh ایک ہی رِسک میٹرکس پر - تاکہ آپ ایک نظر میں دیکھ لیں کہ کون سی یونٹس پھل پھول رہی ہیں اور کس کو دورہ درکار ہے، پھر ایک ہی کلک میں ویو کو کسی بھی برانڈ یا ریجن تک محدود کریں۔",
           "alt": "Franchise Health - MENA شہروں میں 4 آؤٹ لیٹس",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "آپ کا رپورٹنگ ڈھانچہ، گروپ سے برانچ تک",
           "whatYouSee": "لیز پر دستخط کرنے سے پہلے ایک نئے آؤٹ لیٹ کا تجزیہ کریں - اُس کا break-even، NPV اور پہلے سال کا P&L تخمینہ لگائیں، پھر capex، کرایہ، فوڈ اور لیبر کاسٹ، overhead اور ramp کے لیے sliders حرکت دیں جب تک سودا بن نہ جائے۔ جو سائٹ منافع بخش بنتی ہے اور جو نہیں، تعمیر کے بعد نہیں بلکہ اسکرین پر طے۔",
           "alt": "Outlet Viability - نئے آؤٹ لیٹ کا NPV + break-even ماڈلر",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "آپ کا رپورٹنگ ڈھانچہ، گروپ سے برانچ تک",
           "whatYouSee": "آپ کا پورا رپورٹنگ ڈھانچہ ایک زندہ org tree میں نقشہ بند - گروپ سے لے کر آؤٹ لیٹ تک درجنوں nodes، فوٹو کارڈز کی صورت میں ہر رپورٹنگ لائن کے ساتھ - تاکہ برانڈز اور ریجنز کے آر پار کون کس کو جواب دہ ہے، آخرکار ایک واضح تصویر بن جائے، نہ کہ اسپریڈ شیٹس کا ڈھیر۔",
           "alt": "Crew Organization Tree - 75-node رپورٹنگ ڈھانچہ",
           "productLabel": "Sundae Crew →"
@@ -2127,7 +2127,7 @@ export const generatedLocalCopy = {
         "c_suite": "C-Suite",
         "cfo": "Finanza",
         "multi_loc": "Multi-sede",
-        "topology": "Sensibile alla topologia",
+        "topology": "Multi-marca e area",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Tecnologia"
@@ -2330,19 +2330,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Salute del franchising",
+          "caption": "La tua struttura gerarchica, dal gruppo alla sede",
           "whatYouSee": "Un unico indice di salute composito per ogni punto vendita su tutto il tuo network - Abu Dhabi, Dubai, Il Cairo, Riyadh su una sola matrice di rischio - così vedi a colpo d'occhio quali unità prosperano e quali necessitano di una visita, poi restringi la vista a qualsiasi brand o regione con un clic.",
           "alt": "Salute del franchising - 4 punti vendita in città del MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Sostenibilità del punto vendita",
+          "caption": "La tua struttura gerarchica, dal gruppo alla sede",
           "whatYouSee": "Valuta un nuovo punto vendita prima di firmare il contratto - proietta break-even, NPV e P&L del primo anno, poi muovi gli slider di capex, affitto, food cost, lavoro, costi generali e ramp-up finché l'affare regge. La sede che torna e quella che non torna, decise sullo schermo invece che dopo la costruzione.",
           "alt": "Sostenibilità del punto vendita - modellatore di NPV e break-even per nuove sedi",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Albero organizzativo",
+          "caption": "La tua struttura gerarchica, dal gruppo alla sede",
           "whatYouSee": "L'intera struttura di reporting mappata in un unico organigramma vivo - decine di nodi dal gruppo fino al punto vendita, resi come schede con foto e ogni linea di reporting tracciata - così chi risponde a chi tra brand e regioni diventa finalmente un quadro chiaro, non una pila di fogli di calcolo.",
           "alt": "Albero organizzativo Crew - struttura di reporting a 75 nodi",
           "productLabel": "Sundae Crew →"
@@ -2391,7 +2391,7 @@ export const generatedLocalCopy = {
         "c_suite": "Zarząd",
         "cfo": "Finanse",
         "multi_loc": "Wiele lokali",
-        "topology": "Świadomość topologii",
+        "topology": "Wiele marek i regionów",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Technologia"
@@ -2594,19 +2594,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Kondycja franczyzy",
+          "caption": "Twoja struktura raportowania, od grupy po lokalizację",
           "whatYouSee": "Jeden złożony wskaźnik kondycji na lokal w całej Twojej sieci - Abu Dhabi, Dubaj, Kair, Rijad na jednej macierzy ryzyka - więc na jeden rzut oka widzisz, które jednostki kwitną, a które potrzebują wizyty, a potem zawęzisz widok do dowolnej marki lub regionu jednym kliknięciem.",
           "alt": "Kondycja franczyzy - 4 lokale w miastach regionu MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Rentowność lokalu",
+          "caption": "Twoja struktura raportowania, od grupy po lokalizację",
           "whatYouSee": "Oceń nowy lokal, zanim podpiszesz umowę najmu - sprognozuj jego próg rentowności, NPV i P&L pierwszego roku, a potem ruszaj suwakami kosztów inwestycji, czynszu, surowca i pracy, kosztów ogólnych i rozruchu, aż transakcja zacznie się spinać. Lokalizacja, która się opłaca, i ta, która nie, rozstrzygnięte na ekranie, a nie po budowie.",
           "alt": "Rentowność lokalu - modeler NPV i progu rentowności nowego lokalu",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Drzewo organizacji",
+          "caption": "Twoja struktura raportowania, od grupy po lokalizację",
           "whatYouSee": "Cała Twoja struktura raportowania naniesiona na jedno żywe drzewo organizacji - dziesiątki węzłów od grupy w dół do lokalu, wyrenderowane jako karty ze zdjęciami z każdą linią raportowania - więc kto komu podlega w markach i regionach to wreszcie jeden jasny obraz, a nie stos arkuszy.",
           "alt": "Crew Organization Tree - struktura raportowania z 75 węzłami",
           "productLabel": "Sundae Crew →"
@@ -2858,19 +2858,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Sağlığı",
+          "caption": "Raporlama yapınız, gruptan şubeye",
           "whatYouSee": "Tüm işletmeniz genelinde şube başına tek bir bileşik sağlık skoru - Abu Dhabi, Dubai, Kahire, Riyad tek bir risk matrisinde - böylece hangi şubelerin geliştiğini, hangilerinin bir ziyarete ihtiyacı olduğunu tek bakışta görür, sonra görünümü tek tıkla herhangi bir markaya ya da bölgeye daraltırsınız.",
           "alt": "Franchise Sağlığı - MENA şehirlerinde 4 şube",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Şube Yapılabilirliği",
+          "caption": "Raporlama yapınız, gruptan şubeye",
           "whatYouSee": "Kira sözleşmesini imzalamadan önce yeni bir şubeyi değerlendirin - başabaş noktasını, NPV'sini ve ilk yıl P&L'ini öngörün, sonra anlaşma tutana dek yatırım, kira, gıda ve işgücü maliyeti, genel gider ve devreye alma için kaydırma çubuklarını oynatın. Kâr eden lokasyon ile etmeyen, inşaattan sonra değil, ekranda netleşir.",
           "alt": "Şube Yapılabilirliği - yeni şube NPV + başabaş modelleyici",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organizasyon Ağacı",
+          "caption": "Raporlama yapınız, gruptan şubeye",
           "whatYouSee": "Tüm raporlama yapınız tek bir yaşayan organizasyon ağacına haritalanır - gruptan şubeye kadar onlarca düğüm, her raporlama hattı çizilmiş fotoğraf kartları hâlinde - böylece markalar ve bölgeler genelinde kimin kime bağlı olduğu nihayet net bir resim olur, bir yığın tablo değil.",
           "alt": "Crew Organizasyon Ağacı - 75 düğümlü raporlama yapısı",
           "productLabel": "Sundae Crew →"
@@ -2919,7 +2919,7 @@ export const generatedLocalCopy = {
         "c_suite": "高管层",
         "cfo": "财务",
         "multi_loc": "多门店",
-        "topology": "拓扑感知",
+        "topology": "多品牌与区域",
         "hr": "人力资源",
         "marketing": "营销",
         "tech": "技术"
@@ -3122,19 +3122,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "你的汇报结构，从集团到门店",
           "whatYouSee": "整个版图里每家门店一个综合健康分数 - Abu Dhabi、Dubai、Cairo、Riyadh 同列在一张风险矩阵上 - 让你一眼看清哪些门店蒸蒸日上、哪些需要你亲自走一趟，再一键把视图聚焦到任意品牌或区域。",
           "alt": "Franchise Health - 横跨 MENA 各城市的 4 家门店",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "你的汇报结构，从集团到门店",
           "whatYouSee": "在签下租约之前先为新门店做尽调 - 预测它的盈亏平衡、NPV 与首年 P&L，再拖动滑块调整资本开支、租金、食材与人力成本、管理费用和爬坡期，直到这笔账算得过来。划算的选址和不划算的，在屏幕上就见分晓，而不是等建成之后。",
           "alt": "Outlet Viability - 新门店 NPV 与盈亏平衡建模器",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - 组织树",
+          "caption": "你的汇报结构，从集团到门店",
           "whatYouSee": "把你整套汇报架构画进一棵活的组织树 - 从集团到门店的数十个节点，以照片卡片呈现，每条汇报线都一一画出 - 让谁向谁汇报、跨品牌跨区域的关系终于成为一幅清晰的图，而不是一摞表格。",
           "alt": "Crew Organization Tree - 75 个节点的汇报架构",
           "productLabel": "Sundae Crew →"
@@ -3386,19 +3386,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "グループから店舗までのレポートライン",
           "whatYouSee": "全店舗網で店舗ごとに一つの総合健全性スコア - Abu Dhabi、Dubai、Cairo、Riyadh を一枚のリスクマトリクスに - だからどの店舗が好調でどの店舗が訪問を要するかが一目で分かり、ワンクリックでどのブランドやリージョンにもビューを絞り込めます。",
           "alt": "Franchise Health - MENA 各都市の4店舗",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "グループから店舗までのレポートライン",
           "whatYouSee": "リースに署名する前に、新店を引き受け審査する - 損益分岐点、NPV、初年度 P&L を予測し、設備投資、賃料、食材費、人件費、間接費、立ち上がりのスライダーを動かして案件が成り立つまで詰めます。採算が合う物件と合わない物件を、建ててからではなく画面の上で決着させます。",
           "alt": "Outlet Viability - 新店の NPV と損益分岐点モデラー",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "グループから店舗までのレポートライン",
           "whatYouSee": "あなたの報告体系の全体を、一つの生きた組織ツリーに - グループから店舗まで数十のノードを写真カードで描き、すべての報告ラインを引いて表示 - だからブランドとリージョンをまたいで誰が誰に報告するかが、スプレッドシートの束ではなく、ようやく一枚の明快な絵になります。",
           "alt": "Crew Organization Tree - 75ノードの報告体系",
           "productLabel": "Sundae Crew →"
@@ -3650,19 +3650,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "그룹부터 매장까지의 보고 체계",
           "whatYouSee": "전체 매장망에 걸쳐 지점마다 하나의 종합 건강 점수를. Abu Dhabi, Dubai, Cairo, Riyadh를 단일 리스크 매트릭스 위에 올려, 어느 지점이 잘나가고 어느 지점에 방문이 필요한지 한눈에 봅니다. 그런 다음 클릭 한 번으로 어떤 브랜드나 지역으로든 범위를 좁히세요.",
           "alt": "Franchise Health - MENA 도시 전반의 4개 지점",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "그룹부터 매장까지의 보고 체계",
           "whatYouSee": "임대 계약에 서명하기 전에 신규 지점을 심사하세요. 손익분기, NPV, 첫해 P&L을 추정한 뒤, 자본지출, 임대료, 식자재·인건비, 간접비, 가동 단계의 슬라이더를 움직여 거래가 성립할 때까지 조정합니다. 수지가 맞는 입지와 그렇지 않은 입지를, 공사 후가 아니라 화면 위에서 가립니다.",
           "alt": "Outlet Viability - 신규 지점 NPV + 손익분기 모델러",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "그룹부터 매장까지의 보고 체계",
           "whatYouSee": "당신의 전체 보고 체계를 살아 있는 하나의 조직도로. 그룹부터 지점까지 수십 개의 노드를 사진 카드로 렌더링하고 모든 보고 라인을 그려넣습니다. 그래서 브랜드와 지역에 걸쳐 누가 누구에게 보고하는지가 마침내 스프레드시트 더미가 아니라 하나의 명확한 그림이 됩니다.",
           "alt": "Crew Organization Tree - 75개 노드 보고 체계",
           "productLabel": "Sundae Crew →"
@@ -3711,7 +3711,7 @@ export const generatedLocalCopy = {
         "c_suite": "Jajaran Direksi",
         "cfo": "Keuangan",
         "multi_loc": "Multi-lokasi",
-        "topology": "Sadar topologi",
+        "topology": "Multi-merek & wilayah",
         "hr": "SDM",
         "marketing": "Pemasaran",
         "tech": "Teknologi"
@@ -3914,19 +3914,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Kesehatan Waralaba",
+          "caption": "Struktur pelaporan Anda, dari grup hingga gerai",
           "whatYouSee": "Satu skor kesehatan komposit per gerai di seluruh jaringan Anda - Abu Dhabi, Dubai, Cairo, Riyadh dalam satu matriks risiko - sehingga sekilas Anda tahu unit mana yang berkembang dan mana yang butuh dikunjungi, lalu persempit tampilan ke brand atau region mana pun dengan satu klik.",
           "alt": "Franchise Health - 4 gerai di kota-kota MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Kelayakan Gerai",
+          "caption": "Struktur pelaporan Anda, dari grup hingga gerai",
           "whatYouSee": "Telaah gerai baru sebelum Anda menandatangani sewa - proyeksikan break-even, NPV dan P&L tahun pertamanya, lalu geser slider untuk capex, sewa, food dan biaya tenaga kerja, overhead dan ramp sampai kesepakatan masuk akal. Lokasi yang menguntungkan dan yang tidak, diputuskan di layar, bukan setelah pembangunan.",
           "alt": "Outlet Viability - pemodel NPV + break-even gerai baru",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Pohon Organisasi",
+          "caption": "Struktur pelaporan Anda, dari grup hingga gerai",
           "whatYouSee": "Seluruh struktur pelaporan Anda dipetakan dalam satu pohon organisasi yang hidup - puluhan node dari grup hingga gerai, ditampilkan sebagai kartu foto dengan setiap garis pelaporan tergambar - sehingga siapa melapor kepada siapa lintas brand dan region akhirnya jadi satu gambaran jelas, bukan setumpuk spreadsheet.",
           "alt": "Crew Organization Tree - struktur pelaporan 75 node",
           "productLabel": "Sundae Crew →"
@@ -4178,19 +4178,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Cấu trúc báo cáo của bạn, từ tập đoàn tới điểm bán",
           "whatYouSee": "Một điểm sức khỏe tổng hợp cho mỗi chi nhánh trên toàn hệ thống của bạn - Abu Dhabi, Dubai, Cairo, Riyadh trên cùng một ma trận rủi ro - để bạn thấy ngay chi nhánh nào đang phát đạt và chi nhánh nào cần ghé thăm, rồi thu hẹp tầm nhìn về bất kỳ thương hiệu hay khu vực nào chỉ bằng một cú nhấp.",
           "alt": "Franchise Health - 4 chi nhánh trên các thành phố MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Cấu trúc báo cáo của bạn, từ tập đoàn tới điểm bán",
           "whatYouSee": "Thẩm định một chi nhánh mới trước khi bạn ký hợp đồng thuê - dự phóng điểm hòa vốn, NPV và P&L năm đầu, rồi kéo các thanh trượt cho vốn đầu tư, tiền thuê, chi phí thực phẩm và nhân công, chi phí chung và thời gian khởi động cho tới khi thương vụ khả thi. Mặt bằng có lời và mặt bằng không, được ngã ngũ ngay trên màn hình thay vì sau khi xây xong.",
           "alt": "Outlet Viability - công cụ mô hình NPV + hòa vốn cho chi nhánh mới",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "Cấu trúc báo cáo của bạn, từ tập đoàn tới điểm bán",
           "whatYouSee": "Toàn bộ cơ cấu báo cáo của bạn được vẽ thành một cây tổ chức sống động - hàng chục đầu mối từ cấp tập đoàn xuống tới chi nhánh, hiển thị dưới dạng thẻ ảnh với từng đường báo cáo được vẽ rõ - để chuyện ai báo cáo cho ai xuyên suốt các thương hiệu và khu vực cuối cùng thành một bức tranh rõ ràng, không còn là một chồng bảng tính.",
           "alt": "Crew Organization Tree - cơ cấu báo cáo 75 đầu mối",
           "productLabel": "Sundae Crew →"
@@ -4239,7 +4239,7 @@ export const generatedLocalCopy = {
         "c_suite": "Conducere executivă",
         "cfo": "Finanțe",
         "multi_loc": "Multi-locație",
-        "topology": "Conștient de topologie",
+        "topology": "Multi-brand și regiune",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Tehnologie"
@@ -4442,19 +4442,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologie - Sănătatea francizei",
+          "caption": "Structura ta de raportare, de la grup la locație",
           "whatYouSee": "Un singur scor compozit de sănătate per locație în întregul tău patrimoniu - Abu Dhabi, Dubai, Cairo, Riyadh pe o singură matrice de risc - ca să vezi dintr-o privire ce unități prosperă și care au nevoie de o vizită, apoi să restrângi vizualizarea la orice brand sau regiune dintr-un clic.",
           "alt": "Sănătatea francizei - 4 locații în orașe MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologie - Viabilitatea locației",
+          "caption": "Structura ta de raportare, de la grup la locație",
           "whatYouSee": "Evaluează o locație nouă înainte să semnezi contractul - proiectează-i pragul de rentabilitate, NPV-ul și P&L-ul din primul an, apoi mișcă cursoarele pentru capex, chirie, costul mâncării și al muncii, regie și ramp-up până când afacerea funcționează. Locația care iese pe hârtie și cea care nu, decise pe ecran, nu după construcție.",
           "alt": "Viabilitatea locației - modelator NPV și prag de rentabilitate pentru locație nouă",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologie - Arborele organizației",
+          "caption": "Structura ta de raportare, de la grup la locație",
           "whatYouSee": "Întreaga ta structură de raportare mapată într-un singur arbore organizațional viu - zeci de noduri, de la grup până la locație, randate ca fișe foto cu fiecare linie de raportare trasată - ca să fie în sfârșit o imagine clară cine răspunde în fața cui între branduri și regiuni, nu un teanc de foi de calcul.",
           "alt": "Crew Organization Tree - structură de raportare cu 75 de noduri",
           "productLabel": "Sundae Crew →"
@@ -4503,7 +4503,7 @@ export const generatedLocalCopy = {
         "c_suite": "Ledning",
         "cfo": "Ekonomi",
         "multi_loc": "Flera enheter",
-        "topology": "Topologimedveten",
+        "topology": "Flera varumärken & regioner",
         "hr": "HR",
         "marketing": "Marknadsföring",
         "tech": "Teknik"
@@ -4706,19 +4706,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Er rapporteringsstruktur, från koncern till enhet",
           "whatYouSee": "Ett sammansatt hälsovärde per enhet över hela din verksamhet - Abu Dhabi, Dubai, Cairo, Riyadh i en enda riskmatris - så att du i en blick ser vilka enheter som blomstrar och vilka som behöver ett besök, sedan avgränsar du vyn till valfritt varumärke eller region med ett klick.",
           "alt": "Franchise Health - 4 enheter över MENA-städer",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Er rapporteringsstruktur, från koncern till enhet",
           "whatYouSee": "Underbygg en ny enhet innan du skriver på hyreskontraktet - prognostisera dess break-even, NPV och första årets P&L, dra sedan i reglage för capex, hyra, råvaru- och personalkostnad, omkostnader och upprampning tills affären går ihop. Platsen som går runt och den som inte gör det, avgjort på skärmen i stället för efter bygget.",
           "alt": "Outlet Viability - modellerare för NPV och break-even för ny enhet",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "Er rapporteringsstruktur, från koncern till enhet",
           "whatYouSee": "Hela din rapporteringsstruktur kartlagd i ett levande organisationsträd - dussintals noder från koncern ner till enhet, renderade som fotokort med varje rapporteringslinje inritad - så att vem som svarar inför vem över varumärken och regioner äntligen blir en tydlig bild, inte en hög med kalkylark.",
           "alt": "Crew Organization Tree - rapporteringsstruktur med 75 noder",
           "productLabel": "Sundae Crew →"
@@ -4767,7 +4767,7 @@ export const generatedLocalCopy = {
         "c_suite": "C-Suite",
         "cfo": "ফাইন্যান্স",
         "multi_loc": "মাল্টি-লোকেশন",
-        "topology": "টপোলজি-সচেতন",
+        "topology": "বহু-ব্র্যান্ড ও অঞ্চল",
         "hr": "HR",
         "marketing": "মার্কেটিং",
         "tech": "টেকনোলজি"
@@ -4970,19 +4970,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "আপনার রিপোর্টিং কাঠামো, গ্রুপ থেকে আউটলেট",
           "whatYouSee": "আপনার পুরো এস্টেট জুড়ে প্রতি আউটলেটে একটিই কম্পোজিট হেলথ স্কোর - Abu Dhabi, Dubai, Cairo, Riyadh একটিমাত্র রিস্ক ম্যাট্রিক্সে - যাতে এক নজরে দেখতে পান কোন ইউনিটগুলো ফুলেফেঁপে উঠছে আর কোনগুলোতে একটা ভিজিট দরকার, তারপর এক ক্লিকেই ভিউটাকে যেকোনো ব্র্যান্ড বা রিজিয়নে স্কোপ করুন।",
           "alt": "Franchise Health - MENA শহর জুড়ে 4টি আউটলেট",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "আপনার রিপোর্টিং কাঠামো, গ্রুপ থেকে আউটলেট",
           "whatYouSee": "লিজ সই করার আগেই একটি নতুন আউটলেট আন্ডাররাইট করুন - এর ব্রেক-ইভেন, NPV ও প্রথম বছরের P&L প্রক্ষেপণ করুন, তারপর ক্যাপেক্স, ভাড়া, ফুড ও লেবার কস্ট, ওভারহেড ও র‍্যাম্পের স্লাইডার নাড়ুন যতক্ষণ না ডিলটা মেলে। যে সাইটটা হিসেবে মেলে আর যেটা মেলে না, স্ক্রিনেই মীমাংসা, বানানোর পরে নয়।",
           "alt": "Outlet Viability - নতুন-আউটলেট NPV + ব্রেক-ইভেন মডেলার",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "আপনার রিপোর্টিং কাঠামো, গ্রুপ থেকে আউটলেট",
           "whatYouSee": "আপনার গোটা রিপোর্টিং কাঠামো একটিই জীবন্ত অর্গ ট্রিতে ম্যাপ করা - গ্রুপ থেকে আউটলেট পর্যন্ত কয়েক ডজন নোড, প্রতিটি রিপোর্টিং লাইন আঁকা ফটো কার্ড হিসেবে রেন্ডার করা - যাতে ব্র্যান্ড ও রিজিয়ন জুড়ে কে কার অধীনে তা অবশেষে একটি স্পষ্ট ছবি হয়, স্প্রেডশিটের স্তূপ নয়।",
           "alt": "Crew Organization Tree - 75-নোড রিপোর্টিং কাঠামো",
           "productLabel": "Sundae Crew →"
@@ -5234,19 +5234,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "โครงสร้างการรายงานของคุณ ตั้งแต่กลุ่มถึงสาขา",
           "whatYouSee": "คะแนนสุขภาพรวมหนึ่งค่าต่อสาขาทั่วทั้งเครือ - Abu Dhabi, Dubai, Cairo, Riyadh บนเมทริกซ์ความเสี่ยงเดียว - คุณจึงเห็นในพริบตาว่าสาขาไหนกำลังรุ่งและสาขาไหนต้องไปเยี่ยม แล้วซูมมุมมองไปยังแบรนด์หรือภูมิภาคใดก็ได้ในคลิกเดียว",
           "alt": "Franchise Health - 4 สาขาทั่วเมืองในภูมิภาค MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "โครงสร้างการรายงานของคุณ ตั้งแต่กลุ่มถึงสาขา",
           "whatYouSee": "ประเมินสาขาใหม่ก่อนเซ็นสัญญาเช่า - คาดการณ์จุดคุ้มทุน NPV และ P&L ปีแรก แล้วเลื่อนแถบปรับ capex ค่าเช่า ต้นทุนอาหารและแรงงาน ค่าใช้จ่ายส่วนกลาง และช่วงปั้นยอด จนกว่าดีลจะลงตัว ทำเลที่คุ้มและที่ไม่คุ้ม ตัดสินบนหน้าจอแทนที่จะรู้หลังสร้างเสร็จ",
           "alt": "Outlet Viability - ตัวจำลอง NPV และจุดคุ้มทุนสำหรับสาขาใหม่",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "โครงสร้างการรายงานของคุณ ตั้งแต่กลุ่มถึงสาขา",
           "whatYouSee": "โครงสร้างการรายงานทั้งหมดของคุณแมปเป็นแผนผังองค์กรที่มีชีวิตหนึ่งเดียว - หลายสิบโหนดจากระดับกลุ่มลงไปถึงสาขา แสดงเป็นการ์ดรูปถ่ายพร้อมเส้นสายการรายงานทุกเส้น ใครรายงานต่อใครข้ามแบรนด์และภูมิภาคจึงกลายเป็นภาพเดียวที่ชัดเจนเสียที ไม่ใช่กองสเปรดชีต",
           "alt": "Crew Organization Tree - โครงสร้างการรายงาน 75 โหนด",
           "productLabel": "Sundae Crew →"
@@ -5295,7 +5295,7 @@ export const generatedLocalCopy = {
         "c_suite": "Eksekutif Kanan",
         "cfo": "Kewangan",
         "multi_loc": "Pelbagai lokasi",
-        "topology": "Sedar-topologi",
+        "topology": "Pelbagai jenama & wilayah",
         "hr": "Sumber Manusia",
         "marketing": "Pemasaran",
         "tech": "Teknologi"
@@ -5498,19 +5498,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Kesihatan Francais",
+          "caption": "Struktur pelaporan anda, dari kumpulan ke cawangan",
           "whatYouSee": "Satu skor kesihatan komposit setiap cawangan merentas seluruh estet anda - Abu Dhabi, Dubai, Cairo, Riyadh pada satu matriks risiko - supaya anda boleh nampak sepintas lalu unit mana yang berkembang maju dan mana yang perlukan lawatan, kemudian skopkan paparan kepada mana-mana jenama atau wilayah dengan satu klik.",
           "alt": "Kesihatan Francais - 4 cawangan merentas bandar MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Daya Maju Cawangan",
+          "caption": "Struktur pelaporan anda, dari kumpulan ke cawangan",
           "whatYouSee": "Tanggung jamin cawangan baharu sebelum anda menandatangani pajakan - unjur pulang modal, NPV dan P&L tahun pertamanya, kemudian gerakkan peluncur untuk capex, sewa, kos makanan dan buruh, overhed dan pendakian sehingga perjanjian itu berhasil. Tapak yang berbaloi dan yang tidak, diselesaikan di skrin, bukan selepas pembinaan.",
           "alt": "Daya Maju Cawangan - pemodel NPV + pulang modal cawangan baharu",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Pokok Organisasi",
+          "caption": "Struktur pelaporan anda, dari kumpulan ke cawangan",
           "whatYouSee": "Seluruh struktur pelaporan anda dipetakan menjadi satu pokok organisasi hidup - berpuluh nod daripada kumpulan turun ke cawangan, dipaparkan sebagai kad foto dengan setiap garis pelaporan dilukis - supaya siapa melapor kepada siapa merentas jenama dan wilayah akhirnya menjadi satu gambaran jelas, bukan setimbun hamparan.",
           "alt": "Pokok Organisasi Crew - struktur pelaporan 75 nod",
           "productLabel": "Sundae Crew →"
