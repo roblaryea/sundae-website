@@ -38,7 +38,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     withSundaeLabel: "With Sundae",
     industryClaims: [
       { industry: "Teams wait 2-3 days for reports, exports, or analyst follow-ups. By the time the answer arrives, the shift has already happened.", sundae: "Ask Sundae gives teams source-cited answers in seconds, across the systems they already use." },
-      { industry: "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they can create between 1-3% of revenue and margin leakage.", sundae: "Pulse flags exception patterns during the shift, attributed to the server, daypart, location, or behavior driving them." },
+      { industry: "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they compound into real revenue and margin leakage.", sundae: "Pulse flags exception patterns during the shift, attributed to the server, daypart, location, or behavior driving them." },
       { industry: "Margin variance is often explained at month-end, after the costs are already booked.", sundae: "Insights connects revenue, labor, food cost, discounts, and pricing so teams can see the cause while it is still actionable." },
     ],
     footnote: "Industry observations are general restaurant-industry patterns drawn from public research and advisory feedback. Named pilot results and validated customer outcomes will replace this section as they become available.",
@@ -59,7 +59,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     withSundaeLabel: "مع Sundae",
     industryClaims: [
       { industry: "تنتظر الفِرَق 2-3 أيام لتقارير أو تصديرات أو متابعات محللين. حين تصل الإجابة، تكون الوردية قد انتهت.", sundae: "Ask Sundae يعطي الفِرَق إجابات بمصادر في ثوانٍ، عبر الأنظمة التي يستخدمونها." },
-      { industry: "التجاوزات والتعويضات والخصومات وحالات POS الشاذة صغيرة بذاتها. تركها بلا مراجعة قد ينتج عنه تسرب 1-3% من الإيرادات والهامش.", sundae: "Pulse يكشف أنماط الحالات الشاذة خلال الوردية، منسوبة إلى الموظف أو الفترة أو الموقع." },
+      { industry: "التجاوزات والتعويضات والخصومات وحالات POS الشاذة صغيرة بذاتها. تركها بلا مراجعة يجعلها تتراكم إلى تسرب حقيقي في الإيراد والهامش.", sundae: "Pulse يكشف أنماط الحالات الشاذة خلال الوردية، منسوبة إلى الموظف أو الفترة أو الموقع." },
       { industry: "غالباً ما يُفسر تباين الهامش في نهاية الشهر، بعد تسجيل التكاليف.", sundae: "Insights يربط الإيرادات والعمالة وتكلفة الطعام والخصومات والتسعير ليرى الفريق السبب وهو ما زال قابلاً للتنفيذ." },
     ],
     footnote: "ملاحظات الصناعة أنماط عامة لصناعة المطاعم من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها.",
@@ -80,7 +80,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     withSundaeLabel: "Avec Sundae",
     industryClaims: [
       { industry: "Les équipes attendent 2-3 jours pour des rapports, exports ou suivis d'analystes. Quand la réponse arrive, le service est déjà passé.", sundae: "Ask Sundae donne aux équipes des réponses sourcées en secondes, sur les systèmes qu'elles utilisent déjà." },
-      { industry: "Annulations, comps, remises et exceptions POS sont petites individuellement. Non revues, elles peuvent créer 1-3% de fuite de revenu et marge.", sundae: "Pulse signale les motifs d'exception pendant le service, attribués au serveur, à la tranche horaire, au site ou au comportement." },
+      { industry: "Annulations, comps, remises et exceptions POS sont petites individuellement. Non revues, elles finissent par créer une vraie fuite de revenu et marge.", sundae: "Pulse signale les motifs d'exception pendant le service, attribués au serveur, à la tranche horaire, au site ou au comportement." },
       { industry: "La variance de marge est souvent expliquée en fin de mois, après que les coûts soient passés.", sundae: "Insights connecte revenu, main-d'œuvre, coût matière, remises et prix pour que l'équipe voit la cause pendant qu'elle est encore actionnable." },
     ],
     footnote: "Observations sectorielles : motifs généraux de la restauration tirés de recherche publique et de retours conseil. Des résultats pilotes nommés et des résultats clients validés remplaceront cette section dès qu'ils seront disponibles.",
@@ -101,7 +101,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     withSundaeLabel: "Con Sundae",
     industryClaims: [
       { industry: "Los equipos esperan 2-3 días por reportes, exportes o seguimiento de analistas. Cuando llega la respuesta, el turno ya pasó.", sundae: "Ask Sundae da a los equipos respuestas con fuente en segundos, en los sistemas que ya usan." },
-      { industry: "Anulaciones, comps, descuentos y excepciones POS son pequeños por sí solos. Sin revisar, pueden crear 1-3% de fuga de ingresos y margen.", sundae: "Pulse señala los patrones de excepción durante el turno, atribuidos al mesero, daypart, local o comportamiento." },
+      { industry: "Anulaciones, comps, descuentos y excepciones POS son pequeños por sí solos. Sin revisar, acaban creando una fuga real de ingresos y margen.", sundae: "Pulse señala los patrones de excepción durante el turno, atribuidos al mesero, daypart, local o comportamiento." },
       { industry: "La varianza de margen suele explicarse a fin de mes, después de que los costes se registraron.", sundae: "Insights conecta ingresos, personal, coste alimentos, descuentos y precios para que el equipo vea la causa mientras aún es accionable." },
     ],
     footnote: "Observaciones de industria: patrones generales de la restauración basados en investigación pública y feedback de asesoría. Resultados de pilotos nombrados y resultados de clientes validados reemplazarán esta sección cuando estén disponibles.",

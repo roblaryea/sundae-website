@@ -434,7 +434,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recupere vazamentos que você não sabia que tinha",
-          "description": "1-3% da receita normalmente fica oculta em cancelamentos, cortesias e substituições. O Sundae traz isso à tona turno por turno.",
+          "description": "A margem esconde-se em cancelamentos, cortesias e overrides. O Sundae traz isso à tona turno a turno, face à sua própria referência.",
           "icon": "owners"
         }
       ],
@@ -522,7 +522,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Beseitigen Sie Schwund, von dem Sie nicht wussten, dass Sie ihn haben",
-          "description": "1-3 % des Umsatzes verbergen sich typischerweise in Stornos, Kulanzbuchungen und Außerkraftsetzungen. Sundae bringt es Schicht für Schicht zum Vorschein.",
+          "description": "Marge versteckt sich in Stornos, Comps und Overrides. Sundae holt sie Schicht für Schicht hervor, gegen Ihre eigene Baseline.",
           "icon": "owners"
         }
       ],
@@ -610,7 +610,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "وہ رساو بازیافت کریں جس کے بارے میں آپ کو معلوم ہی نہیں تھا۔",
-          "description": "آمدنی کا 1-3% عام طور پر منسوخیوں، مفت پیشکشوں، اور اوور رائیڈز میں چھپا ہوتا ہے۔ Sundae اسے شفٹ بہ شفٹ سامنے لاتا ہے۔",
+          "description": "مارجن وائیڈز، کامپس اور اوور رائیڈز میں چھپا رہتا ہے۔ Sundae اسے شفٹ در شفٹ سامنے لاتا ہے، آپ کی اپنی بنیادی سطح کے مقابلے۔",
           "icon": "owners"
         }
       ],
@@ -698,7 +698,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "उस रिसाव को वापस पाएं जिसके बारे में आपको पता नहीं था",
-          "description": "राजस्व का 1-3% आम तौर पर रद्दीकरण, मुफ़्त सेवाओं और ओवरराइड्स में छिपा होता है। Sundae इसे शिफ्ट-दर-शिफ्ट सामने लाता है।",
+          "description": "मार्जिन वॉइड, कॉम्प और ओवरराइड में छिपा रहता है। Sundae उसे शिफ्ट-दर-शिफ्ट सामने लाता है, आपकी अपनी बेसलाइन के मुकाबले।",
           "icon": "owners"
         }
       ],
@@ -786,7 +786,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recupera le perdite che non sapevi di avere",
-          "description": "L'1-3% delle entrate in genere si nasconde in storni, omaggi e forzature. Sundae le fa emergere turno dopo turno.",
+          "description": "Il margine si nasconde in storni, omaggi e override. Sundae lo fa emergere turno per turno, rispetto al tuo stesso riferimento.",
           "icon": "owners"
         }
       ],
@@ -874,7 +874,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "找回你不知道存在的流失",
-          "description": "1-3% 的营收通常隐藏在作废、赠送和强制改价中。Sundae 会逐个班次地把它呈现出来。",
+          "description": "毛利藏在作废、赠单和改价里。Sundae 逐班次把它翻出来，对照你自己的基线。",
           "icon": "owners"
         }
       ],
@@ -962,7 +962,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Odzyskaj wyciek, o którym nie miałeś pojęcia",
-          "description": "1-3% przychodów zazwyczaj kryje się w anulacjach, gratisach i nadpisaniach. Sundae wydobywa to zmiana po zmianie.",
+          "description": "Marża chowa się w anulacjach, gratisach i override’ach. Sundae wyciąga ją zmiana po zmianie, wobec twojej własnej bazy.",
           "icon": "owners"
         }
       ],
@@ -1226,7 +1226,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pulihkan kebocoran yang tidak Anda sadari",
-          "description": "1-3% dari pendapatan biasanya tersembunyi dalam pembatalan, traktiran, dan penggantian. Sundae memunculkannya shift demi shift.",
+          "description": "Margin bersembunyi di void, komplimen, dan override. Sundae memunculkannya per shift, terhadap baseline Anda sendiri.",
           "icon": "owners"
         }
       ],
@@ -1402,7 +1402,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Khôi phục khoản rò rỉ mà bạn không biết mình đang có",
-          "description": "1-3% doanh thu thường ẩn trong các giao dịch hủy, suất mời và phần ghi đè. Sundae đưa nó ra ánh sáng theo từng ca.",
+          "description": "Biên lợi nhuận ẩn trong huỷ món, tặng và override. Sundae đưa nó ra theo từng ca, đối chiếu với chuẩn nền của chính bạn.",
           "icon": "owners"
         }
       ],
@@ -1490,7 +1490,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "যে লিকেজের কথা আপনি জানতেনই না তা পুনরুদ্ধার করুন",
-          "description": "রাজস্বের 1-3% সাধারণত বাতিল, ফ্রি পরিবেশন এবং ওভাররাইডে লুকিয়ে থাকে। Sundae একে শিফট-বাই-শিফট সামনে আনে।",
+          "description": "মার্জিন লুকিয়ে থাকে ভয়েড, কম্প ও ওভাররাইডে। Sundae তা শিফট ধরে ধরে সামনে আনে, আপনার নিজের বেসলাইনের বিপরীতে।",
           "icon": "owners"
         }
       ],
@@ -1578,7 +1578,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recuperați scurgerile pe care nu știați că le aveți",
-          "description": "1-3% din venituri se ascunde de obicei în anulări, băuturi din partea casei și suprascrieri. Sundae le scoate la suprafață tură cu tură.",
+          "description": "Marja se ascunde în anulări, gratuități și override-uri. Sundae o scoate la iveală tură cu tură, față de propria ta referință.",
           "icon": "owners"
         }
       ],
@@ -1666,7 +1666,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Återställ läckage som du inte visste att du hade",
-          "description": "1-3 % av intäkterna döljer sig vanligtvis i annulleringar, bjudningar och åsidosättningar. Sundae lyfter fram det skift för skift.",
+          "description": "Marginalen gömmer sig i makuleringar, comps och overrides. Sundae lyfter fram den pass för pass, mot er egen baslinje.",
           "icon": "owners"
         }
       ],
@@ -1754,7 +1754,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pulihkan kebocoran yang anda tidak sedar anda alami",
-          "description": "1-3% daripada hasil biasanya bersembunyi dalam pembatalan, hidangan ihsan dan override. Sundae memaparkannya syif demi syif.",
+          "description": "Margin bersembunyi dalam pembatalan, komplimen dan override. Sundae mengeluarkannya syif demi syif, berbanding garis dasar anda sendiri.",
           "icon": "owners"
         }
       ],
@@ -1842,7 +1842,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "กู้คืนการรั่วไหลที่คุณไม่รู้ว่ามีอยู่",
-          "description": "โดยทั่วไปแล้ว 1-3% ของรายได้จะซ่อนอยู่ในการยกเลิก ของแถม และการแทนที่ Sundae จะเผยให้เห็นทีละกะ",
+          "description": "กำไรซ่อนอยู่ในการยกเลิก การให้ฟรี และการแก้ราคา Sundae ดึงมันออกมาทีละกะ เทียบกับเส้นฐานของคุณเอง",
           "icon": "owners"
         }
       ],

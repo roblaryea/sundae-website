@@ -337,7 +337,7 @@ export function InsightsModuleMockup() {
   ];
 
   return (
-    <MockupFrame label="Insights - 12 Intelligence Modules">
+    <MockupFrame label="Insights - Deep Operational Analytics">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
           {modules.map((m) => (

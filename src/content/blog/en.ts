@@ -1815,7 +1815,7 @@ Sundae provides the intelligence infrastructure that makes revenue quality visib
     title: "Detecting Revenue Leakage: Void and Discount Pattern Analysis",
     category: "Playbooks",
     date: "2025-04-10",
-    summary: "Voids and discounts leak 1-2% of revenue when unmonitored. Learn how to detect patterns, prevent abuse, and protect margin across your portfolio.",
+    summary: "Unmonitored voids and discounts quietly compound into real margin loss. Learn how to detect patterns, prevent abuse, and protect margin across your portfolio.",
     readTime: "7 min read",
     content: `## Introduction
 
@@ -1849,7 +1849,7 @@ This approach misses:
 3. **Training gaps**: Consistent void patterns around specific menu items or order types
 4. **Timing windows**: Voids concentrated during specific dayparts or events
 
-Result: 1-2% of revenue leaks out through preventable voids and unmonitored discounts, while operators lack visibility to take corrective action.
+Result: revenue leaks out through preventable voids and unmonitored discounts, while operators lack visibility to take corrective action.
 
 ## How Sundae Changes the Picture
 
@@ -5021,7 +5021,7 @@ When Watchtower flags a 72-hour warning  -  "Projected 15-20% revenue impact at 
 
 Let's quantify the competitive intelligence gap for a 15-location casual dining group:
 
-- **Missed pricing opportunities**: Not knowing when competitors raise prices costs 1-2% in unrealized revenue = $150K-300K annually
+- **Missed pricing opportunities**: Not knowing when competitors raise prices leaves revenue unrealized on every under-priced item
 - **Undetected new openings**: Each blindside opening costs 5-10% same-store sales for 2-3 months = $50K-150K per incident
 - **Unstaffed events**: Missing 3-4 major local events per location per year = $80K-120K in lost revenue
 - **Weather mismanagement**: Poor weather-based scheduling across the portfolio = $60K-100K annually

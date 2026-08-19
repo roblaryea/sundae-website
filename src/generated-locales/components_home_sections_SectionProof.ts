@@ -31,7 +31,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae liefert Teams in Sekunden quellenbelegte Antworten - direkt über die Systeme, die sie bereits nutzen."
         },
         {
-          "industry": "Stornos, Comps, Rabatte und POS-Ausnahmen sind für sich genommen gering. Unkontrolliert können sie 1-3 % des Umsatzes als Margenverlust kosten.",
+          "industry": "Stornos, Comps, Rabatte und POS-Ausnahmen sind einzeln klein. Ungeprüft summieren sie sich zu echtem Umsatz- und Margenverlust.",
           "sundae": "Pulse erkennt Ausnahme-Muster schon während der Schicht und ordnet sie dem Kellner, der Tageszeit, dem Standort oder dem auslösenden Verhalten zu."
         },
         {
@@ -148,7 +148,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae geeft teams binnen enkele seconden bronvermelde antwoorden, via de systemen die ze al gebruiken."
         },
         {
-          "industry": "Annuleringen, comps, kortingen en POS-uitzonderingen zijn op zichzelf klein. Ongecontroleerd kunnen ze 1-3% van de omzet als margeverlies kosten.",
+          "industry": "Annuleringen, weggevers, kortingen en POS-uitzonderingen zijn op zichzelf klein. Ongecontroleerd stapelen ze op tot echt omzet- en margeverlies.",
           "sundae": "Pulse signaleert uitzonderingspatronen al tijdens de shift en koppelt ze aan de kelner, het dagdeel, de locatie of het gedrag dat ze veroorzaakt."
         },
         {
@@ -226,7 +226,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae टीमों को उन सिस्टमों में सेकंडों में स्रोत-संदर्भित उत्तर प्रदान करता है जिनका वे पहले से उपयोग कर रहे हैं।"
         },
         {
-          "industry": "वॉइड, कॉम्प, छूट और POS अपवाद अकेले-अकेले छोटे लगते हैं। बिना समीक्षा के, ये राजस्व और मार्जिन में 1-3% तक की हानि कर सकते हैं।",
+          "industry": "वॉइड, कॉम्प, छूट और POS अपवाद अकेले छोटे लगते हैं। बिना समीक्षा के ये मिलकर राजस्व और मार्जिन का असली रिसाव बन जाते हैं।",
           "sundae": "Pulse शिफ्ट के दौरान ही अपवाद पैटर्न को चिह्नित करता है और उन्हें उस वेटर, दिन के समय, स्थान या व्यवहार से जोड़ता है जो उन्हें पैदा करता है।"
         },
         {
@@ -304,7 +304,7 @@ export const generatedLocalCopy = {
           "sundae": "تقدم Ask Sundae للفرق إجابات موثقة المصدر في ثوانٍ، مباشرةً عبر الأنظمة التي يستخدمونها بالفعل."
         },
         {
-          "industry": "تبدو عمليات الإلغاء والمجانيات والخصومات واستثناءات POS صغيرة بمفردها. لكنها دون مراجعة قد تكلّف 1-3% من الإيرادات والهامش.",
+          "industry": "التجاوزات والتعويضات والخصومات وحالات POS الشاذة صغيرة بذاتها. تركها بلا مراجعة يجعلها تتراكم إلى تسرب حقيقي في الإيراد والهامش.",
           "sundae": "يرصد Pulse أنماط الاستثناءات أثناء الوردية وينسبها إلى النادل أو فترة اليوم أو الفرع أو السلوك الذي يسببها."
         },
         {
@@ -343,7 +343,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae ٹیموں کو سیکنڈوں میں ماخذ کے حوالے کے ساتھ جوابات دیتا ہے، بالکل انہی نظاموں میں جو وہ پہلے سے استعمال کر رہے ہیں۔"
         },
         {
-          "industry": "وائڈز، کمپس، رعایتیں اور POS استثنائیں الگ الگ دیکھیں تو معمولی لگتی ہیں۔ بغیر جائزے کے یہ آمدنی اور مارجن میں 1-3% نقصان کا سبب بن سکتی ہیں۔",
+          "industry": "وائیڈز، کامپس، رعایتیں اور POS استثناءات الگ الگ چھوٹے لگتے ہیں۔ بغیر جائزے کے یہ مل کر آمدنی اور مارجن کا حقیقی رساؤ بن جاتے ہیں۔",
           "sundae": "Pulse شفٹ کے دوران ہی استثنائی پیٹرن کو نشان زد کرتا ہے اور انہیں اُس ویٹر، دن کے وقت، مقام، یا رویے سے جوڑتا ہے جو ان کا سبب بنتا ہے۔"
         },
         {
@@ -499,7 +499,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae 在几秒内就能给出有来源引用的答案，而且直接在团队已经使用的系统中呈现。"
         },
         {
-          "industry": "作废、赠单、折扣和POS例外单独看都很小。若不加复核，它们可能造成1-3%的收入和利润流失。",
+          "industry": "作废、赠单、折扣与 POS 异常单看都很小。无人复核时，它们会累积成真实的营收与毛利流失。",
           "sundae": "Pulse 在班次进行中就标记异常模式，并将其归因于具体的服务员、时段、门店或引发它们的行为。"
         },
         {
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae memberikan jawaban bersumber dalam hitungan detik, langsung di dalam sistem yang sudah mereka gunakan."
         },
         {
-          "industry": "Void, komp, diskon, dan pengecualian POS terlihat kecil jika dilihat satu per satu. Tanpa ditinjau, semuanya bisa menyebabkan kebocoran pendapatan dan margin sebesar 1-3%.",
+          "industry": "Void, komplimen, diskon, dan pengecualian POS kecil bila berdiri sendiri. Tanpa ditinjau, semuanya menumpuk menjadi kebocoran pendapatan dan margin yang nyata.",
           "sundae": "Pulse menandai pola pengecualian saat shift masih berlangsung dan mengaitkannya dengan pelayan, waktu, lokasi, atau perilaku yang memicunya."
         },
         {
@@ -616,7 +616,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae cung cấp cho các nhóm câu trả lời có dẫn nguồn trong vài giây, ngay trên các hệ thống mà họ đã sử dụng."
         },
         {
-          "industry": "Các khoản hủy, miễn phí, giảm giá và ngoại lệ POS đều nhỏ khi xét riêng lẻ. Nếu không được rà soát, chúng có thể gây thất thoát 1-3% doanh thu và biên lợi nhuận.",
+          "industry": "Huỷ món, tặng, giảm giá và ngoại lệ POS riêng lẻ đều nhỏ. Không được rà soát, chúng dồn lại thành thất thoát doanh thu và biên lợi nhuận thật sự.",
           "sundae": "Pulse gắn cờ các mẫu ngoại lệ ngay trong ca làm và quy chúng cho nhân viên phục vụ, thời điểm trong ngày, địa điểm hoặc hành vi gây ra chúng."
         },
         {
@@ -655,7 +655,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae oferă echipelor răspunsuri cu surse citate în câteva secunde, direct în sistemele pe care le folosesc deja."
         },
         {
-          "industry": "Anulările, gratuitățile, reducerile și excepțiile POS par mici luate separat. Nesupravegheate, pot însemna între 1-3% din venituri și marjă pierdute.",
+          "industry": "Anulările, gratuitățile, reducerile și excepțiile POS sunt mici luate separat. Nerevizuite, se adună într-o pierdere reală de venit și marjă.",
           "sundae": "Pulse semnalează tiparele de excepție chiar din timpul turei și le atribuie ospătarului, momentului din zi, locației sau comportamentului care le generează."
         },
         {
@@ -694,7 +694,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae ger team källbelagda svar på sekunder - direkt i de system de redan använder."
         },
         {
-          "industry": "Annulleringar, gratisartiklar, rabatter och POS-undantag är små var för sig. Om de lämnas ogranskade kan de kosta 1-3% av intäkter och marginal.",
+          "industry": "Makuleringar, comps, rabatter och POS-undantag är små var för sig. Ogranskade växer de till verklig intäkts- och marginalförlust.",
           "sundae": "Pulse flaggar undantagsmönster redan under skiftet och kopplar dem till servitören, tidpunkten på dagen, platsen eller beteendet som orsakar dem."
         },
         {
@@ -772,7 +772,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae ให้คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที ตรงในระบบที่ทีมใช้งานอยู่แล้ว"
         },
         {
-          "industry": "การยกเลิกรายการ การแถมฟรี ส่วนลด และข้อยกเว้นจาก POS ดูเล็กน้อยเมื่อมองทีละรายการ แต่หากไม่ตรวจสอบ อาจทำให้รายได้และกำไรรั่วไหลถึง 1-3%",
+          "industry": "การยกเลิก การให้ฟรี ส่วนลด และข้อยกเว้น POS แต่ละรายการดูเล็กน้อย หากไม่ตรวจสอบ มันจะสะสมเป็นการรั่วไหลของรายได้และกำไรจริง",
           "sundae": "Pulse คอยติดธงรูปแบบข้อยกเว้นตั้งแต่ระหว่างกะ พร้อมระบุว่าเกิดจากพนักงานเสิร์ฟ ช่วงเวลา สาขา หรือพฤติกรรมใดที่เป็นต้นเหตุ"
         },
         {
@@ -811,7 +811,7 @@ export const generatedLocalCopy = {
           "sundae": "Ask Sundae memberikan pasukan jawapan yang dirujuk sumber dalam beberapa saat, terus di dalam sistem yang mereka sudah gunakan."
         },
         {
-          "industry": "Pembatalan, item percuma, diskaun, dan pengecualian POS nampak kecil jika dilihat satu per satu. Tanpa semakan, semuanya boleh menyebabkan kebocoran 1-3% daripada hasil dan margin.",
+          "industry": "Pembatalan, komplimen, diskaun dan pengecualian POS kecil secara berasingan. Tanpa semakan, semuanya terkumpul menjadi kebocoran hasil dan margin yang sebenar.",
           "sundae": "Pulse menandakan corak pengecualian semasa syif masih berjalan dan mengaitkannya dengan pelayan, waktu, lokasi, atau tingkah laku yang menyebabkannya."
         },
         {
