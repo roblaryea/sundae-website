@@ -356,9 +356,9 @@ export function SectionMeasuredNotClaimed() {
       <div className="mx-auto max-w-5xl">
         <motion.div
           initial={reduce ? false : { opacity: 0, y: 16 }}
-          whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: reduce ? 0 : 0.5 }}
         >
           <p className="eyebrow">
             {c.eyebrow}
@@ -395,9 +395,9 @@ export function SectionMeasuredNotClaimed() {
                 <motion.li
                   key={r.label}
                   initial={reduce ? false : { opacity: 0, y: 12 }}
-                  whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-60px" }}
-                  transition={{ duration: 0.4, delay: reduce ? 0 : i * 0.08 }}
+                  transition={{ duration: reduce ? 0 : 0.4, delay: reduce ? 0 : i * 0.08 }}
                   className={[
                     "relative flex gap-4 rounded-2xl border p-5 md:flex-col md:gap-4",
                     attested
@@ -461,9 +461,9 @@ export function SectionMeasuredNotClaimed() {
 
         <motion.p
           initial={reduce ? false : { opacity: 0 }}
-          whileInView={reduce ? undefined : { opacity: 1 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: reduce ? 0 : 0.5 }}
           className="mt-10 max-w-[70ch] border-t border-[var(--border-default)] pt-6 text-sm sm:text-base leading-relaxed text-[var(--text-supporting)]"
         >
           {c.closer}
