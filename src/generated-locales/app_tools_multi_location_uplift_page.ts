@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "z.B. 50000",
         "improvementLabel": "Zielverbesserung (%)",
         "improvementPlaceholder": "z.B. 5",
-        "tip": "Typische Verbesserungen liegen zwischen 2-10% bei systematischer Optimierung.",
+        "tip": "Ein typischer Einzelstandort erreicht insgesamt etwa 3-4 %, wenn die Hebel unten gemeinsam bearbeitet werden. Alles darüber ist ein Ausnahmefall, kein Plan.",
         "button": "Umsatzsteigerung berechnen"
       },
       "results": {
@@ -32,7 +32,11 @@ export const generatedLocalCopy = {
         "menu": "Menügestaltung",
         "operations": "Betriebliche Exzellenz",
         "benchmarking": "Standort-Benchmarking",
-        "note": "Diese Schätzungen basieren auf Branchenbenchmarks. Tatsächliche Ergebnisse hängen von den aktuellen Leistungsniveaus, Marktbedingungen und der Ausführungsqualität ab. Sundae hilft, Chancen an allen Standorten zu identifizieren und zu verfolgen."
+        "note": "Dies wendet das von Ihnen eingegebene Ziel auf den von Ihnen eingegebenen Umsatz an - Ihre Annahme, durchgerechnet, keine Sundae-Prognose. Was sie wirklich wert ist, hängt davon ab, wo Ihre Marge heute verloren geht und ob die Arbeit erledigt wird. Sundae findet die Chancen, gibt jeder einen Verantwortlichen und misst, was zurückkam.",
+        "laborDetail": "Planung enger an die Nachfrage legen und vermeidbare Überstunden streichen.",
+        "menuDetail": "Preise und Platzierung um die Gerichte herum neu setzen, die wirklich Marge tragen.",
+        "operationsDetail": "Beeinflussbaren Schwund senken und die Lücke zwischen bestellt und verbraucht schließen.",
+        "benchmarkingDetail": "Herausfinden, was der beste Standort anders macht, und es überall einführen."
       },
       "timeframe": {
         "small": "3-6 Monate mit gezielten operativen Verbesserungen",
@@ -64,7 +68,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "ex. 50000",
         "improvementLabel": "Amélioration Ciblée (%)",
         "improvementPlaceholder": "ex. 5",
-        "tip": "Les améliorations typiques varient de 2 à 10 % avec une optimisation systématique.",
+        "tip": "Un site isolé atteint généralement 3 à 4 % au total lorsque les leviers ci-dessous sont travaillés ensemble. Au-delà, considérez-le comme un cas ambitieux, pas comme un plan.",
         "button": "Calculer l'Augmentation de Revenus"
       },
       "results": {
@@ -78,7 +82,11 @@ export const generatedLocalCopy = {
         "menu": "Ingénierie du Menu",
         "operations": "Excellence Opérationnelle",
         "benchmarking": "Évaluation des Emplacements",
-        "note": "Ces estimations sont basées sur des références sectorielles. Les résultats réels dépendent des niveaux de performance actuels, des conditions du marché et de la qualité d'exécution. Sundae aide à identifier et suivre les opportunités dans tous les emplacements."
+        "note": "Ceci applique l'objectif que vous avez saisi au chiffre d'affaires que vous avez saisi : c'est votre hypothèse, chiffrée, pas une prévision Sundae. Sa valeur réelle dépend de l'endroit où votre marge fuit aujourd'hui et du fait que le travail soit fait. Sundae repère les opportunités, attribue un responsable à chacune et mesure ce qui est revenu.",
+        "laborDetail": "Ajustez les plannings à la demande réelle et supprimez les heures supplémentaires évitables.",
+        "menuDetail": "Repositionnez et retarifez autour des plats qui portent vraiment la marge.",
+        "operationsDetail": "Réduisez le gaspillage maîtrisable et refermez l'écart entre commandé et consommé.",
+        "benchmarkingDetail": "Identifiez ce que fait le meilleur site, puis déployez-le partout."
       },
       "timeframe": {
         "small": "3-6 mois avec des améliorations opérationnelles ciblées",
@@ -110,7 +118,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "p. ej., 50000",
         "improvementLabel": "Mejora Objetivo (%)",
         "improvementPlaceholder": "p. ej., 5",
-        "tip": "Las mejoras típicas oscilan entre el 2-10% con optimización sistemática.",
+        "tip": "Un local típico llega a cerca del 3-4% en total cuando se trabajan juntas las palancas de abajo. Por encima de eso, trátalo como un caso ambicioso, no como un plan.",
         "button": "Calcular Aumento de Ingresos"
       },
       "results": {
@@ -124,7 +132,11 @@ export const generatedLocalCopy = {
         "menu": "Ingeniería de Menú",
         "operations": "Excelencia Operativa",
         "benchmarking": "Comparación de Ubicaciones",
-        "note": "Estas estimaciones se basan en benchmarks de la industria. Los resultados reales dependen de los niveles de rendimiento actuales, las condiciones del mercado y la calidad de la ejecución. Sundae ayuda a identificar y rastrear oportunidades en todas las ubicaciones."
+        "note": "Esto aplica el objetivo que introdujiste a los ingresos que introdujiste: es tu supuesto, dimensionado, no un pronóstico de Sundae. Lo que valga de verdad depende de dónde se fuga tu margen hoy y de que el trabajo se haga. Sundae encuentra las oportunidades, asigna un responsable a cada una y mide lo que volvió.",
+        "laborDetail": "Ajusta los turnos a la demanda real y recorta las horas extra evitables.",
+        "menuDetail": "Reprecia y reordena en torno a los platos que de verdad sostienen el margen.",
+        "operationsDetail": "Reduce la merma controlable y cierra la brecha entre lo pedido y lo usado.",
+        "benchmarkingDetail": "Descubre qué hace distinto el mejor local y replícalo en todos."
       },
       "timeframe": {
         "small": "3-6 meses con mejoras operativas enfocadas",
@@ -156,7 +168,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "مثل، 50000",
         "improvementLabel": "نسبة التحسين المستهدفة (%)",
         "improvementPlaceholder": "مثل، 5",
-        "tip": "تتراوح التحسينات النموذجية بين 2-10% مع التحسين المنهجي.",
+        "tip": "الموقع المفرد المعتاد يصل إلى نحو 3-4% إجمالاً عند العمل على الروافع أدناه معاً. وما يزيد عن ذلك حالة طموحة، لا خطة.",
         "button": "احسب زيادة الإيرادات"
       },
       "results": {
@@ -170,7 +182,11 @@ export const generatedLocalCopy = {
         "menu": "هندسة القائمة",
         "operations": "التميز التشغيلي",
         "benchmarking": "تقييم المواقع",
-        "note": "تستند هذه التقديرات إلى معايير الصناعة. تعتمد النتائج الفعلية على مستويات الأداء الحالية، وظروف السوق، وجودة التنفيذ. تساعد Sundae في تحديد وتتبع الفرص عبر جميع المواقع."
+        "note": "هذا يطبّق الهدف الذي أدخلته على الإيراد الذي أدخلته - إنه افتراضك محسوباً، وليس توقعاً من Sundae. وقيمته الحقيقية تعتمد على أين يتسرب هامشك اليوم وهل يُنفَّذ العمل. Sundae يجد الفرص، ويسند كل واحدة إلى مسؤول، ويقيس ما عاد.",
+        "laborDetail": "اضبط الجدولة على الطلب الفعلي وقلّص الوقت الإضافي القابل للتجنب.",
+        "menuDetail": "أعد التسعير والترتيب حول الأصناف التي تحمل الهامش فعلاً.",
+        "operationsDetail": "قلّص الهدر القابل للتحكم وأغلق الفجوة بين المطلوب والمستهلك.",
+        "benchmarkingDetail": "اعرف ما يفعله الموقع الأفضل بشكل مختلف، ثم طبّقه في كل مكان."
       },
       "timeframe": {
         "small": "3-6 أشهر مع تحسينات تشغيلية مركزة",
@@ -202,7 +218,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "bijv. 50000",
         "improvementLabel": "Doelverbetering (%)",
         "improvementPlaceholder": "bijv. 5",
-        "tip": "Typische verbeteringen variëren van 2-10% met systematische optimalisatie.",
+        "tip": "Een gemiddelde vestiging komt in totaal rond 3-4% uit als de hefbomen hieronder samen worden aangepakt. Alles daarboven is een uitzondering, geen plan.",
         "button": "Bereken Omzetverhoging"
       },
       "results": {
@@ -216,7 +232,11 @@ export const generatedLocalCopy = {
         "menu": "Menu-engineering",
         "operations": "Operationele Uitmuntendheid",
         "benchmarking": "Locatiebenchmarking",
-        "note": "Deze schattingen zijn gebaseerd op branchebenchmarks. Werkelijke resultaten zijn afhankelijk van huidige prestatieniveaus, marktomstandigheden en uitvoeringskwaliteit. Sundae helpt bij het identificeren en volgen van kansen op alle locaties."
+        "note": "Dit past het doel dat je invoerde toe op de omzet die je invoerde - jouw aanname, doorgerekend, geen voorspelling van Sundae. Wat het echt waard is hangt af van waar je marge vandaag weglekt en of het werk gebeurt. Sundae vindt de kansen, geeft elke kans een eigenaar en meet wat er terugkwam.",
+        "laborDetail": "Leg de planning dichter op de vraag en schrap vermijdbaar overwerk.",
+        "menuDetail": "Herprijs en herpositioneer rond de gerechten die de marge echt dragen.",
+        "operationsDetail": "Beperk beheersbare verspilling en dicht het gat tussen besteld en gebruikt.",
+        "benchmarkingDetail": "Zoek uit wat de beste vestiging anders doet en voer het overal in."
       },
       "timeframe": {
         "small": "3-6 maanden met gerichte operationele verbeteringen",
@@ -248,7 +268,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "जैसे, 50000",
         "improvementLabel": "लक्ष्य सुधार (%)",
         "improvementPlaceholder": "जैसे, 5",
-        "tip": "सामान्य सुधार 2-10% के बीच होते हैं, व्यवस्थित अनुकूलन के साथ।",
+        "tip": "सभी लीवर एक साथ काम करने पर एक सामान्य आउटलेट कुल मिलाकर लगभग 3-4% तक पहुँचता है। इससे ऊपर कुछ भी महत्वाकांक्षी मामला है, योजना नहीं।",
         "button": "राजस्व वृद्धि की गणना करें"
       },
       "results": {
@@ -262,7 +282,11 @@ export const generatedLocalCopy = {
         "menu": "मेनू इंजीनियरिंग",
         "operations": "संचालन उत्कृष्टता",
         "benchmarking": "स्थान बेंचमार्किंग",
-        "note": "ये अनुमान उद्योग बेंचमार्क पर आधारित हैं। वास्तविक परिणाम वर्तमान प्रदर्शन स्तरों, बाजार की स्थितियों और निष्पादन की गुणवत्ता पर निर्भर करते हैं। Sundae सभी स्थानों में अवसरों की पहचान और ट्रैक करने में मदद करता है।"
+        "note": "यह आपके दर्ज किए गए लक्ष्य को आपके दर्ज किए गए राजस्व पर लागू करता है - यह आपकी अपनी धारणा है, गणना करके, Sundae का पूर्वानुमान नहीं। इसका असली मूल्य इस पर निर्भर करता है कि आज आपका मार्जिन कहाँ रिस रहा है और काम होता है या नहीं। Sundae अवसर खोजता है, हर एक को एक ज़िम्मेदार देता है, और मापता है कि क्या वापस आया।",
+        "laborDetail": "शेड्यूल को असली माँग के हिसाब से कसें और टाली जा सकने वाली ओवरटाइम घटाएँ।",
+        "menuDetail": "उन आइटमों के इर्द-गिर्द दाम और जगह तय करें जो असल में मार्जिन देते हैं।",
+        "operationsDetail": "नियंत्रित की जा सकने वाली बर्बादी घटाएँ और मँगाए बनाम इस्तेमाल का फ़र्क़ पाटें।",
+        "benchmarkingDetail": "पता करें कि सबसे अच्छा आउटलेट अलग क्या करता है, फिर हर जगह लागू करें।"
       },
       "timeframe": {
         "small": "केंद्रित संचालन सुधार के साथ 3-6 महीने",
@@ -294,7 +318,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "جیسے، 50000",
         "improvementLabel": "ہدف بہتری (%)",
         "improvementPlaceholder": "جیسے، 5",
-        "tip": "عام بہتریاں 2-10% کے درمیان ہوتی ہیں جو منظم اصلاح کے ساتھ ہوتی ہیں۔",
+        "tip": "نیچے دیے گئے لیورز پر مل کر کام کرنے سے ایک عام آؤٹ لیٹ مجموعی طور پر تقریباً 3-4% تک پہنچتا ہے۔ اس سے اوپر کچھ بھی بلند ہدف ہے، منصوبہ نہیں۔",
         "button": "آمدنی میں اضافہ کا حساب لگائیں"
       },
       "results": {
@@ -308,7 +332,11 @@ export const generatedLocalCopy = {
         "menu": "مینیو انجینئرنگ",
         "operations": "آپریشنل فضیلت",
         "benchmarking": "مقام کی بینچ مارکنگ",
-        "note": "یہ تخمینے صنعتی بینچ مارک پر مبنی ہیں۔ حقیقی نتائج موجودہ کارکردگی کی سطح، مارکیٹ کے حالات، اور عملدرآمد کے معیار پر منحصر ہیں۔ Sundae تمام مقامات پر مواقع کی شناخت اور ٹریک کرنے میں مدد کرتا ہے۔"
+        "note": "یہ آپ کے درج کردہ ہدف کو آپ کی درج کردہ آمدنی پر لاگو کرتا ہے - یہ آپ کا اپنا مفروضہ ہے، حساب لگا کر، Sundae کی پیش گوئی نہیں۔ اس کی اصل قدر اس پر منحصر ہے کہ آج آپ کا مارجن کہاں سے رس رہا ہے اور کام ہوتا ہے یا نہیں۔ Sundae مواقع ڈھونڈتا ہے، ہر ایک کو ایک ذمہ دار دیتا ہے، اور ماپتا ہے کہ کیا واپس آیا۔",
+        "laborDetail": "شیڈول کو حقیقی طلب کے مطابق کسیں اور قابلِ گریز اوور ٹائم کم کریں۔",
+        "menuDetail": "قیمت اور جگہ اُن آئٹمز کے گرد طے کریں جو واقعی مارجن دیتے ہیں۔",
+        "operationsDetail": "قابلِ کنٹرول ضیاع کم کریں اور منگوائے بمقابلہ استعمال کا فرق ختم کریں۔",
+        "benchmarkingDetail": "جانیں کہ بہترین آؤٹ لیٹ کیا مختلف کرتا ہے، پھر ہر جگہ نافذ کریں۔"
       },
       "timeframe": {
         "small": "مرکوز عملی بہتریوں کے ساتھ 3-6 ماہ",
@@ -340,7 +368,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "es. 50000",
         "improvementLabel": "Miglioria Obiettivo (%)",
         "improvementPlaceholder": "es. 5",
-        "tip": "Le migliorie tipiche variano dal 2 al 10% con ottimizzazione sistematica.",
+        "tip": "Un singolo punto vendita arriva in genere al 3-4% complessivo quando le leve qui sotto vengono lavorate insieme. Oltre, trattalo come un caso ambizioso, non come un piano.",
         "button": "Calcola Aumento di Fatturato"
       },
       "results": {
@@ -354,7 +382,11 @@ export const generatedLocalCopy = {
         "menu": "Ingegneria del Menu",
         "operations": "Eccellenza Operativa",
         "benchmarking": "Benchmarking delle Sedi",
-        "note": "Queste stime si basano su benchmark di settore. I risultati effettivi dipendono dai livelli di performance attuali, dalle condizioni di mercato e dalla qualità dell'esecuzione. Sundae aiuta a identificare e monitorare le opportunità in tutte le sedi."
+        "note": "Questo applica l'obiettivo che hai inserito al fatturato che hai inserito: è la tua ipotesi, quantificata, non una previsione di Sundae. Quanto valga davvero dipende da dove perdi margine oggi e dal fatto che il lavoro venga fatto. Sundae trova le opportunità, assegna un responsabile a ciascuna e misura quanto è rientrato.",
+        "laborDetail": "Allinea i turni alla domanda reale e taglia gli straordinari evitabili.",
+        "menuDetail": "Riprezza e riposiziona attorno ai piatti che reggono davvero il margine.",
+        "operationsDetail": "Riduci lo spreco controllabile e chiudi il divario tra ordinato e consumato.",
+        "benchmarkingDetail": "Scopri cosa fa di diverso il punto vendita migliore, poi replicalo ovunque."
       },
       "timeframe": {
         "small": "3-6 mesi con miglioramenti operativi mirati",
@@ -386,7 +418,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "ex.: 50000",
         "improvementLabel": "Melhoria Alvo (%)",
         "improvementPlaceholder": "ex.: 5",
-        "tip": "Melhorias típicas variam de 2-10% com otimização sistemática.",
+        "tip": "Uma unidade típica chega perto de 3-4% no total quando as alavancas abaixo são trabalhadas em conjunto. Acima disso, trate como caso ambicioso, não como plano.",
         "button": "Calcular Aumento de Receita"
       },
       "results": {
@@ -400,7 +432,11 @@ export const generatedLocalCopy = {
         "menu": "Engenharia de Cardápio",
         "operations": "Excelência Operacional",
         "benchmarking": "Benchmarking de Localizações",
-        "note": "Essas estimativas são baseadas em benchmarks da indústria. Resultados reais dependem dos níveis de desempenho atuais, condições de mercado e qualidade de execução. A Sundae ajuda a identificar e acompanhar oportunidades em todas as localizações."
+        "note": "Isto aplica a meta que você inseriu à receita que você inseriu - é a sua premissa, dimensionada, não uma previsão da Sundae. O que vale de fato depende de onde sua margem está vazando hoje e de o trabalho ser feito. A Sundae encontra as oportunidades, dá um responsável a cada uma e mede o que voltou.",
+        "laborDetail": "Aproxime a escala da procura real e corte as horas extra evitáveis.",
+        "menuDetail": "Reprecifique e reposicione em torno dos pratos que realmente sustentam a margem.",
+        "operationsDetail": "Reduza o desperdício controlável e feche a lacuna entre pedido e consumido.",
+        "benchmarkingDetail": "Descubra o que a melhor unidade faz de diferente e replique em todas."
       },
       "timeframe": {
         "small": "3-6 meses com melhorias operacionais focadas",
@@ -432,7 +468,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "np. 50000",
         "improvementLabel": "Docelowa Poprawa (%)",
         "improvementPlaceholder": "np. 5",
-        "tip": "Typowe poprawy wahają się od 2-10% przy systematycznej optymalizacji.",
+        "tip": "Typowa lokalizacja osiąga łącznie około 3-4%, gdy dźwignie poniżej działają razem. Wszystko powyżej to przypadek ambitny, nie plan.",
         "button": "Oblicz Wzrost Przychodów"
       },
       "results": {
@@ -446,7 +482,11 @@ export const generatedLocalCopy = {
         "menu": "Inżynieria Menu",
         "operations": "Doskonalenie Operacyjne",
         "benchmarking": "Benchmarking Lokalizacji",
-        "note": "Te szacunki opierają się na benchmarkach branżowych. Rzeczywiste wyniki zależą od aktualnych poziomów wydajności, warunków rynkowych i jakości wykonania. Sundae pomaga identyfikować i śledzić możliwości we wszystkich lokalizacjach."
+        "note": "To przykłada cel, który wpisałeś, do przychodu, który wpisałeś - to twoje założenie, przeliczone, a nie prognoza Sundae. Ile jest naprawdę warte, zależy od tego, gdzie dziś ucieka twoja marża i czy praca zostanie wykonana. Sundae znajduje okazje, przypisuje każdej odpowiedzialnego i mierzy, co wróciło.",
+        "laborDetail": "Dopasuj grafiki do realnego popytu i wytnij nadgodziny, których da się uniknąć.",
+        "menuDetail": "Przecen i przestaw ekspozycję wokół dań, które faktycznie niosą marżę.",
+        "operationsDetail": "Ogranicz kontrolowalne straty i zamknij lukę między zamówionym a zużytym.",
+        "benchmarkingDetail": "Sprawdź, co najlepsza lokalizacja robi inaczej, i wdroż to wszędzie."
       },
       "timeframe": {
         "small": "3-6 miesięcy z ukierunkowanymi usprawnieniami operacyjnymi",
@@ -478,7 +518,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "例如，50000",
         "improvementLabel": "目标改善（%）",
         "improvementPlaceholder": "例如，5",
-        "tip": "典型改善范围为2-10%，通过系统优化实现。",
+        "tip": "把下面几个抓手一起做，单店通常合计能到 3-4%。高于此请当作理想情形，而非计划。",
         "button": "计算收入提升"
       },
       "results": {
@@ -492,7 +532,11 @@ export const generatedLocalCopy = {
         "menu": "菜单工程",
         "operations": "运营卓越",
         "benchmarking": "地点基准",
-        "note": "这些估算基于行业基准。实际结果取决于当前绩效水平、市场条件和执行质量。Sundae帮助识别和跟踪所有地点的机会。"
+        "note": "这只是把你填的目标套用在你填的营收上——是你的假设被算了出来，不是 Sundae 的预测。它真正值多少，取决于你今天的毛利在哪里流失，以及这些活是否被做掉。Sundae 找出机会，给每个机会指定负责人，并衡量回来了多少。",
+        "laborDetail": "把排班贴紧真实需求，砍掉可避免的加班。",
+        "menuDetail": "围绕真正带来毛利的单品重新定价与陈列。",
+        "operationsDetail": "降低可控损耗，缩小订货与实际用量之间的差距。",
+        "benchmarkingDetail": "找出最好那家店的不同做法，然后推广到所有门店。"
       },
       "timeframe": {
         "small": "3-6个月，专注于运营改善",
@@ -524,7 +568,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "例：50000",
         "improvementLabel": "目標改善 (%)",
         "improvementPlaceholder": "例：5",
-        "tip": "典型的な改善は2-10%の範囲で、体系的な最適化が必要です。",
+        "tip": "下の各レバーをまとめて手当てすると、単店で合計およそ3-4%に落ち着きます。それ以上は計画ではなく、上振れのケースと考えてください。",
         "button": "収益向上を計算"
       },
       "results": {
@@ -538,7 +582,11 @@ export const generatedLocalCopy = {
         "menu": "メニューエンジニアリング",
         "operations": "運営の卓越性",
         "benchmarking": "ロケーションベンチマーキング",
-        "note": "これらの推定値は業界のベンチマークに基づいています。実際の結果は現在のパフォーマンスレベル、市場条件、実行の質に依存します。Sundaeはすべてのロケーションでの機会を特定し、追跡するのに役立ちます。"
+        "note": "これは、入力された目標を入力された売上に当てはめたものです。Sundae の予測ではなく、お客様の前提を数値化したものです。実際の価値は、今どこで利益が漏れているか、そしてその作業が実行されるかによって決まります。Sundae は機会を見つけ、それぞれに担当者を立て、戻った分を測定します。",
+        "laborDetail": "シフトを実需に寄せ、避けられる残業を削ります。",
+        "menuDetail": "本当に利益を支えている商品を軸に、価格と打ち出しを組み直します。",
+        "operationsDetail": "管理できる廃棄を減らし、発注と実使用の差を詰めます。",
+        "benchmarkingDetail": "最も成績の良い店舗が何を違えているかを見つけ、全店に展開します。"
       },
       "timeframe": {
         "small": "集中した運営改善で3-6ヶ月",
@@ -570,7 +618,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "örn., 50000",
         "improvementLabel": "Hedef İyileştirme (%)",
         "improvementPlaceholder": "örn., 5",
-        "tip": "Tipik iyileştirmeler sistematik optimizasyon ile %2-10 arasında değişir.",
+        "tip": "Aşağıdaki kaldıraçlar birlikte çalışıldığında tipik bir şube toplamda yaklaşık %3-4’e ulaşır. Bunun üstü iddialı bir senaryodur, plan değil.",
         "button": "Gelir Artışını Hesapla"
       },
       "results": {
@@ -584,7 +632,11 @@ export const generatedLocalCopy = {
         "menu": "Menü Mühendisliği",
         "operations": "Operasyonel Mükemmellik",
         "benchmarking": "Lokasyon Karşılaştırması",
-        "note": "Bu tahminler sektör karşılaştırmalarına dayanmaktadır. Gerçek sonuçlar mevcut performans seviyelerine, piyasa koşullarına ve uygulama kalitesine bağlıdır. Sundae, tüm lokasyonlar arasında fırsatları tanımlamaya ve takip etmeye yardımcı olur."
+        "note": "Bu, girdiğiniz hedefi girdiğiniz ciroya uygular - kendi varsayımınızın hesaplanmış hâli, Sundae tahmini değil. Gerçekte ne değer taşıdığı, marjınızın bugün nereden sızdığına ve işin yapılıp yapılmadığına bağlıdır. Sundae fırsatları bulur, her birine bir sorumlu verir ve ne geri geldiğini ölçer.",
+        "laborDetail": "Vardiyaları gerçek talebe yaklaştırın ve önlenebilir mesaiyi kesin.",
+        "menuDetail": "Marjı asıl taşıyan ürünlerin etrafında fiyatı ve konumlandırmayı yeniden kurun.",
+        "operationsDetail": "Kontrol edilebilir israfı azaltın, sipariş ile kullanım arasındaki farkı kapatın.",
+        "benchmarkingDetail": "En iyi şubenin neyi farklı yaptığını bulun ve her yerde uygulayın."
       },
       "timeframe": {
         "small": "Odaklanmış operasyonel iyileştirmelerle 3-6 ay",
@@ -616,7 +668,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "예: 50000",
         "improvementLabel": "목표 개선 (%)",
         "improvementPlaceholder": "예: 5",
-        "tip": "일반적인 개선 범위는 체계적인 최적화로 2-10%입니다.",
+        "tip": "아래 레버를 함께 다루면 단일 매장은 합계 3-4% 수준에 이릅니다. 그 이상은 계획이 아니라 도전적인 경우로 보십시오.",
         "button": "수익 증가 계산"
       },
       "results": {
@@ -630,7 +682,11 @@ export const generatedLocalCopy = {
         "menu": "메뉴 엔지니어링",
         "operations": "운영 우수성",
         "benchmarking": "위치 벤치마킹",
-        "note": "이 추정치는 업계 벤치마크를 기반으로 합니다. 실제 결과는 현재 성과 수준, 시장 조건 및 실행 품질에 따라 달라집니다. Sundae는 모든 위치에서 기회를 식별하고 추적하는 데 도움을 줍니다."
+        "note": "이것은 입력하신 목표를 입력하신 매출에 적용한 값입니다. Sundae의 예측이 아니라 고객의 가정을 수치화한 것입니다. 실제 가치는 지금 마진이 어디서 새고 있는지, 그리고 그 일이 실제로 수행되는지에 달려 있습니다. Sundae는 기회를 찾아내고, 각각에 담당자를 지정하며, 얼마가 돌아왔는지 측정합니다.",
+        "laborDetail": "근무 배치를 실제 수요에 맞추고 피할 수 있는 초과근무를 줄입니다.",
+        "menuDetail": "실제로 마진을 떠받치는 메뉴를 중심으로 가격과 배치를 다시 짭니다.",
+        "operationsDetail": "통제 가능한 폐기를 줄이고 발주와 실사용의 차이를 좁힙니다.",
+        "benchmarkingDetail": "가장 잘하는 매장이 무엇을 다르게 하는지 찾아 전 매장에 적용합니다."
       },
       "timeframe": {
         "small": "집중적인 운영 개선으로 3-6개월",
@@ -662,7 +718,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "mis., 50000",
         "improvementLabel": "Target Peningkatan (%)",
         "improvementPlaceholder": "mis., 5",
-        "tip": "Peningkatan tipikal berkisar antara 2-10% dengan optimasi sistematis.",
+        "tip": "Satu gerai biasanya mencapai total sekitar 3-4% bila tuas di bawah dikerjakan bersamaan. Di atas itu, anggap kasus ambisius, bukan rencana.",
         "button": "Hitung Peningkatan Pendapatan"
       },
       "results": {
@@ -676,7 +732,11 @@ export const generatedLocalCopy = {
         "menu": "Rekayasa Menu",
         "operations": "Keunggulan Operasional",
         "benchmarking": "Benchmarking Lokasi",
-        "note": "Perkiraan ini berdasarkan benchmark industri. Hasil aktual tergantung pada tingkat kinerja saat ini, kondisi pasar, dan kualitas eksekusi. Sundae membantu mengidentifikasi dan melacak peluang di semua lokasi."
+        "note": "Ini menerapkan target yang Anda masukkan pada pendapatan yang Anda masukkan - asumsi Anda sendiri, dihitung, bukan prakiraan Sundae. Nilainya yang sebenarnya bergantung pada di mana margin Anda bocor hari ini dan apakah pekerjaannya dilakukan. Sundae menemukan peluangnya, memberi setiap peluang satu penanggung jawab, dan mengukur berapa yang kembali.",
+        "laborDetail": "Rapatkan jadwal ke permintaan nyata dan pangkas lembur yang bisa dihindari.",
+        "menuDetail": "Atur ulang harga dan penempatan di sekitar menu yang benar-benar menopang margin.",
+        "operationsDetail": "Tekan susut yang bisa dikendalikan dan tutup selisih antara dipesan dan terpakai.",
+        "benchmarkingDetail": "Cari tahu apa yang dilakukan gerai terbaik secara berbeda, lalu terapkan di semua."
       },
       "timeframe": {
         "small": "3-6 bulan dengan perbaikan operasional yang terfokus",
@@ -708,7 +768,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "vd: 50000",
         "improvementLabel": "Cải tiến Mục tiêu (%)",
         "improvementPlaceholder": "vd: 5",
-        "tip": "Các cải tiến điển hình dao động từ 2-10% với tối ưu hóa hệ thống.",
+        "tip": "Một điểm bán thường đạt tổng khoảng 3-4% khi các đòn bẩy bên dưới được làm cùng nhau. Cao hơn thế, hãy xem là trường hợp tham vọng, không phải kế hoạch.",
         "button": "Tính Toán Tăng Trưởng Doanh Thu"
       },
       "results": {
@@ -722,7 +782,11 @@ export const generatedLocalCopy = {
         "menu": "Kỹ thuật Thực đơn",
         "operations": "Xuất sắc Vận hành",
         "benchmarking": "So sánh Địa điểm",
-        "note": "Các ước lượng này dựa trên các tiêu chuẩn ngành. Kết quả thực tế phụ thuộc vào mức hiệu suất hiện tại, điều kiện thị trường và chất lượng thực hiện. Sundae giúp xác định và theo dõi cơ hội trên tất cả các địa điểm."
+        "note": "Phép tính này áp mục tiêu bạn nhập lên doanh thu bạn nhập - đó là giả định của bạn được quy ra số, không phải dự báo của Sundae. Giá trị thật phụ thuộc vào việc hôm nay biên lợi nhuận của bạn đang thất thoát ở đâu và công việc có được làm hay không. Sundae tìm ra cơ hội, giao mỗi cơ hội cho một người chịu trách nhiệm, và đo phần thu về.",
+        "laborDetail": "Bám lịch làm việc sát nhu cầu thực và cắt phần tăng ca có thể tránh.",
+        "menuDetail": "Định lại giá và vị trí quanh những món thực sự gánh biên lợi nhuận.",
+        "operationsDetail": "Giảm hao hụt kiểm soát được và thu hẹp khoảng cách giữa đặt và dùng.",
+        "benchmarkingDetail": "Tìm ra điều điểm bán tốt nhất làm khác, rồi triển khai ở mọi nơi."
       },
       "timeframe": {
         "small": "3-6 tháng với các cải tiến hoạt động tập trung",
@@ -754,7 +818,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "t.ex. 50000",
         "improvementLabel": "Målinriktad Förbättring (%)",
         "improvementPlaceholder": "t.ex. 5",
-        "tip": "Typiska förbättringar ligger mellan 2-10% med systematisk optimering.",
+        "tip": "En typisk enhet hamnar kring 3-4 % totalt när hävstängerna nedan bearbetas tillsammans. Allt däröver är ett stretchfall, inte en plan.",
         "button": "Beräkna Intäktsökning"
       },
       "results": {
@@ -768,7 +832,11 @@ export const generatedLocalCopy = {
         "menu": "Menyplanering",
         "operations": "Operationell Excellens",
         "benchmarking": "Platsbenchmarking",
-        "note": "Dessa uppskattningar baseras på branschstandarder. Faktiska resultat beror på nuvarande prestationsnivåer, marknadsförhållanden och genomförandekvalitet. Sundae hjälper till att identifiera och spåra möjligheter över alla platser."
+        "note": "Detta tillämpar målet du angav på intäkten du angav - ditt antagande, uträknat, inte en Sundae-prognos. Vad det faktiskt är värt beror på var din marginal läcker i dag och om arbetet blir gjort. Sundae hittar möjligheterna, ger varje möjlighet en ansvarig och mäter vad som kom tillbaka.",
+        "laborDetail": "Lägg schemat närmare den faktiska efterfrågan och stryk undvikbar övertid.",
+        "menuDetail": "Prissätt och placera om kring de rätter som verkligen bär marginalen.",
+        "operationsDetail": "Minska påverkbart svinn och slut gapet mellan beställt och använt.",
+        "benchmarkingDetail": "Ta reda på vad den bästa enheten gör annorlunda och kör det överallt."
       },
       "timeframe": {
         "small": "3-6 månader med fokuserade operationella förbättringar",
@@ -800,7 +868,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "de ex., 50000",
         "improvementLabel": "Îmbunătățire Țintă (%)",
         "improvementPlaceholder": "de ex., 5",
-        "tip": "Îmbunătățirile tipice variază între 2-10% cu optimizare sistematică.",
+        "tip": "O locație obișnuită ajunge la circa 3-4% în total când pârghiile de mai jos sunt lucrate împreună. Peste asta, tratează-l ca pe un caz ambițios, nu ca pe un plan.",
         "button": "Calculează Creșterea Veniturilor"
       },
       "results": {
@@ -814,7 +882,11 @@ export const generatedLocalCopy = {
         "menu": "Inginerie de Meniu",
         "operations": "Excelență Operațională",
         "benchmarking": "Compararea Locațiilor",
-        "note": "Aceste estimări se bazează pe repere din industrie. Rezultatele reale depind de nivelurile actuale de performanță, condițiile de piață și calitatea execuției. Sundae ajută la identificarea și urmărirea oportunităților în toate locațiile."
+        "note": "Aceasta aplică ținta pe care ai introdus-o la venitul pe care l-ai introdus - este ipoteza ta, calculată, nu o prognoză Sundae. Cât valorează cu adevărat depinde de unde îți pierzi marja astăzi și dacă munca se face. Sundae găsește oportunitățile, dă fiecăreia un responsabil și măsoară ce s-a întors.",
+        "laborDetail": "Apropie programul de cererea reală și taie orele suplimentare evitabile.",
+        "menuDetail": "Repreţuieşte şi repoziţionează în jurul preparatelor care chiar susţin marja.",
+        "operationsDetail": "Redu risipa controlabilă şi închide diferenţa dintre comandat şi consumat.",
+        "benchmarkingDetail": "Află ce face diferit cea mai bună locaţie şi aplică peste tot."
       },
       "timeframe": {
         "small": "3-6 luni cu îmbunătățiri operaționale concentrate",
@@ -846,7 +918,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "যেমন, 50000",
         "improvementLabel": "লক্ষ্য উন্নতি (%)",
         "improvementPlaceholder": "যেমন, 5",
-        "tip": "সাধারণত উন্নতির পরিমাণ 2-10% এর মধ্যে থাকে সিস্টেম্যাটিক অপটিমাইজেশনের সাথে।",
+        "tip": "নিচের লিভারগুলো একসাথে কাজে লাগালে একটি সাধারণ আউটলেট মোট প্রায় ৩-৪% পর্যন্ত পৌঁছায়। এর বেশি হলে সেটি উচ্চাকাঙ্ক্ষী ক্ষেত্র, পরিকল্পনা নয়।",
         "button": "রাজস্ব বৃদ্ধি গণনা করুন"
       },
       "results": {
@@ -860,7 +932,11 @@ export const generatedLocalCopy = {
         "menu": "মেনু ইঞ্জিনিয়ারিং",
         "operations": "কার্যকরী উৎকর্ষতা",
         "benchmarking": "লোকেশন বেঞ্চমার্কিং",
-        "note": "এই অনুমানগুলি শিল্প বেঞ্চমার্কের উপর ভিত্তি করে। প্রকৃত ফলাফল বর্তমান পারফরম্যান্স স্তর, বাজারের অবস্থা এবং কার্যকরী গুণমানের উপর নির্ভর করে। Sundae সমস্ত স্থানে সুযোগ চিহ্নিত করতে এবং ট্র্যাক করতে সহায়তা করে।"
+        "note": "এটি আপনার দেওয়া লক্ষ্যকে আপনার দেওয়া রাজস্বের ওপর প্রয়োগ করে - এটি আপনার নিজের অনুমানের হিসাব, Sundae-র পূর্বাভাস নয়। এর প্রকৃত মূল্য নির্ভর করে আজ আপনার মার্জিন কোথায় বেরিয়ে যাচ্ছে এবং কাজটি হয় কি না তার ওপর। Sundae সুযোগ খুঁজে বের করে, প্রতিটির একজন দায়িত্বপ্রাপ্ত ঠিক করে, আর মাপে কতটা ফিরে এল।",
+        "laborDetail": "সময়সূচি প্রকৃত চাহিদার সঙ্গে মেলান আর এড়ানো যায় এমন ওভারটাইম কমান।",
+        "menuDetail": "যেসব আইটেম সত্যিই মার্জিন ধরে রাখে, সেগুলোর দাম ও অবস্থান নতুন করে সাজান।",
+        "operationsDetail": "নিয়ন্ত্রণযোগ্য অপচয় কমান আর অর্ডার বনাম ব্যবহারের ফারাক মেটান।",
+        "benchmarkingDetail": "সেরা আউটলেট কী আলাদা করে তা বের করুন, তারপর সব জায়গায় চালান।"
       },
       "timeframe": {
         "small": "কেন্দ্রিত কার্যকরী উন্নতির সাথে 3-6 মাস",
@@ -892,7 +968,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "เช่น 50000",
         "improvementLabel": "การปรับปรุงเป้าหมาย (%)",
         "improvementPlaceholder": "เช่น 5",
-        "tip": "การปรับปรุงทั่วไปอยู่ในช่วง 2-10% โดยมีการปรับแต่งอย่างเป็นระบบ.",
+        "tip": "สาขาทั่วไปมักได้รวมราว 3-4% เมื่อทำคันโยกด้านล่างไปพร้อมกัน สูงกว่านั้นให้ถือเป็นกรณีท้าทาย ไม่ใช่แผน",
         "button": "คำนวณการเพิ่มรายได้"
       },
       "results": {
@@ -906,7 +982,11 @@ export const generatedLocalCopy = {
         "menu": "การออกแบบเมนู",
         "operations": "ความเป็นเลิศในการดำเนินงาน",
         "benchmarking": "การเปรียบเทียบสถานที่",
-        "note": "การประเมินเหล่านี้อิงจากมาตรฐานอุตสาหกรรม ผลลัพธ์จริงขึ้นอยู่กับระดับประสิทธิภาพปัจจุบัน สภาพตลาด และคุณภาพการดำเนินการ. Sundae ช่วยในการระบุและติดตามโอกาสในทุกสถานที่."
+        "note": "ตัวเลขนี้คือการนำเป้าหมายที่คุณกรอกไปคูณกับรายได้ที่คุณกรอก เป็นสมมติฐานของคุณที่ถูกคำนวณออกมา ไม่ใช่การพยากรณ์ของ Sundae มูลค่าจริงขึ้นอยู่กับว่าวันนี้กำไรของคุณรั่วตรงไหน และงานนั้นได้ทำจริงหรือไม่ Sundae หาโอกาสให้ มอบผู้รับผิดชอบให้แต่ละเรื่อง แล้ววัดว่าได้กลับคืนมาเท่าใด",
+        "laborDetail": "จัดตารางให้ชิดกับความต้องการจริง และตัดโอทีที่เลี่ยงได้",
+        "menuDetail": "ตั้งราคาและจัดวางใหม่รอบเมนูที่แบกกำไรจริง",
+        "operationsDetail": "ลดของเสียที่ควบคุมได้ และปิดช่องว่างระหว่างที่สั่งกับที่ใช้จริง",
+        "benchmarkingDetail": "หาว่าสาขาที่ดีที่สุดทำอะไรต่างออกไป แล้วนำไปใช้ทุกสาขา"
       },
       "timeframe": {
         "small": "3-6 เดือนกับการปรับปรุงการดำเนินงานที่มุ่งเน้น",
@@ -938,7 +1018,7 @@ export const generatedLocalCopy = {
         "revenuePlaceholder": "cth., 50000",
         "improvementLabel": "Sasaran Penambahbaikan (%)",
         "improvementPlaceholder": "cth., 5",
-        "tip": "Penambahbaikan biasa berkisar antara 2-10% dengan pengoptimuman sistematik.",
+        "tip": "Sebuah cawangan biasa mencapai kira-kira 3-4% secara keseluruhan apabila tuas di bawah digerakkan bersama. Lebih daripada itu, anggap kes bercita-cita tinggi, bukan rancangan.",
         "button": "Kira Kenaikan Pendapatan"
       },
       "results": {
@@ -952,7 +1032,11 @@ export const generatedLocalCopy = {
         "menu": "Reka Bentuk Menu",
         "operations": "Kecemerlangan Operasi",
         "benchmarking": "Penanda Aras Lokasi",
-        "note": "Anggaran ini berdasarkan penanda aras industri. Hasil sebenar bergantung kepada tahap prestasi semasa, keadaan pasaran, dan kualiti pelaksanaan. Sundae membantu mengenal pasti dan menjejak peluang di semua lokasi."
+        "note": "Ini menerapkan sasaran yang anda masukkan pada hasil yang anda masukkan - andaian anda sendiri, dikira, bukan ramalan Sundae. Nilai sebenarnya bergantung pada di mana margin anda bocor hari ini dan sama ada kerja itu dilaksanakan. Sundae mencari peluangnya, memberi setiap satu seorang penanggungjawab, dan mengukur berapa yang kembali.",
+        "laborDetail": "Rapatkan jadual dengan permintaan sebenar dan potong kerja lebih masa yang boleh dielak.",
+        "menuDetail": "Harga dan letakkan semula sekitar item yang benar-benar menanggung margin.",
+        "operationsDetail": "Kurangkan pembaziran yang boleh dikawal dan rapatkan jurang antara dipesan dan digunakan.",
+        "benchmarkingDetail": "Cari apa yang cawangan terbaik lakukan berbeza, kemudian laksanakan di semua."
       },
       "timeframe": {
         "small": "3-6 bulan dengan penambahbaikan operasi yang fokus",
