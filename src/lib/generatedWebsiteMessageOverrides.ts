@@ -234,8 +234,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Keine Kreditkarte erforderlich",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Intelligenz-Layer, eine Wahrheit"
+          "number": "200+",
+          "label": "Verbundene Systeme"
         },
         {
           "number": "18",
@@ -243,7 +243,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Vereinheitlichte Betriebsbereiche"
+          "label": "Abgedeckte operative Bereiche"
         },
         {
           "number": "5 min",
@@ -1005,8 +1005,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Geen creditcard vereist",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Intelligentielagen, één waarheid"
+          "number": "200+",
+          "label": "Gekoppelde systemen"
         },
         {
           "number": "18",
@@ -1014,7 +1014,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Verenigde operationele domeinen"
+          "label": "Gedekte operationele gebieden"
         },
         {
           "number": "5 min",
@@ -1776,8 +1776,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nenhum cartão de crédito necessário",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Camadas de inteligência, uma verdade"
+          "number": "200+",
+          "label": "Sistemas conectados"
         },
         {
           "number": "18",
@@ -1785,7 +1785,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Domínios operacionais unificados"
+          "label": "Áreas operacionais cobertas"
         },
         {
           "number": "5 min",
@@ -2547,8 +2547,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "क्रेडिट कार्ड की आवश्यकता नहीं है",
       "proofStats": [
         {
-          "number": "6",
-          "label": "इंटेलिजेंस लेयर, एक सच"
+          "number": "200+",
+          "label": "जुड़े सिस्टम"
         },
         {
           "number": "18",
@@ -2556,7 +2556,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "एकीकृत ऑपरेटिंग डोमेन"
+          "label": "कवर किए गए परिचालन क्षेत्र"
         },
         {
           "number": "5 मिनट",
@@ -3318,8 +3318,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "کریڈٹ کارڈ کی ضرورت نہیں",
       "proofStats": [
         {
-          "number": "6",
-          "label": "انٹیلیجنس پرتیں، ایک سچ"
+          "number": "200+",
+          "label": "منسلک نظام"
         },
         {
           "number": "18",
@@ -3327,7 +3327,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "مربوط آپریٹنگ ڈومینز"
+          "label": "احاطہ شدہ آپریشنل شعبے"
         },
         {
           "number": "5 منٹ",
@@ -4089,8 +4089,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nessuna carta di credito richiesta",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Livelli di intelligence, una verità"
+          "number": "200+",
+          "label": "Sistemi collegati"
         },
         {
           "number": "18",
@@ -4098,7 +4098,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Domini operativi unificati"
+          "label": "Aree operative coperte"
         },
         {
           "number": "5 min",
@@ -4860,8 +4860,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nie jest wymagana karta kredytowa",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Warstwy inteligencji, jedna prawda"
+          "number": "200+",
+          "label": "Połączone systemy"
         },
         {
           "number": "18",
@@ -4869,7 +4869,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Ujednolicone obszary operacyjne"
+          "label": "Objęte obszary operacyjne"
         },
         {
           "number": "5 min",
@@ -5631,8 +5631,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Kredi kartı gerekmez",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Zeka katmanları, tek gerçek"
+          "number": "200+",
+          "label": "Bağlı sistem"
         },
         {
           "number": "18",
@@ -5640,7 +5640,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Birleşik operasyon alanları"
+          "label": "Kapsanan operasyonel alan"
         },
         {
           "number": "5 dk",
@@ -6402,8 +6402,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "无需信用卡",
       "proofStats": [
         {
-          "number": "6",
-          "label": "智能层，同一真相"
+          "number": "200+",
+          "label": "已接入系统"
         },
         {
           "number": "18",
@@ -6411,7 +6411,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "统一的运营域"
+          "label": "覆盖的运营领域"
         },
         {
           "number": "5分钟",
@@ -7173,8 +7173,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "クレジットカードは不要です",
       "proofStats": [
         {
-          "number": "6",
-          "label": "インテリジェンス層、一つの真実"
+          "number": "200+",
+          "label": "接続システム"
         },
         {
           "number": "18",
@@ -7182,7 +7182,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "統合された業務領域"
+          "label": "カバーする業務領域"
         },
         {
           "number": "5分",
@@ -7944,8 +7944,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "신용 카드가 필요하지 않습니다",
       "proofStats": [
         {
-          "number": "6",
-          "label": "인텔리전스 레이어, 하나의 진실"
+          "number": "200+",
+          "label": "연결된 시스템"
         },
         {
           "number": "18",
@@ -7953,7 +7953,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "통합된 운영 영역"
+          "label": "포괄하는 운영 영역"
         },
         {
           "number": "5분",
@@ -8715,8 +8715,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Tidak perlu kartu kredit",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Lapisan inteligensi, satu kebenaran"
+          "number": "200+",
+          "label": "Sistem terhubung"
         },
         {
           "number": "18",
@@ -8724,7 +8724,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Domain operasi yang menyatu"
+          "label": "Area operasional yang tercakup"
         },
         {
           "number": "5 menit",
@@ -9486,8 +9486,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Không cần thẻ tín dụng",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Lớp trí tuệ, một sự thật"
+          "number": "200+",
+          "label": "Hệ thống kết nối"
         },
         {
           "number": "18",
@@ -9495,7 +9495,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Các mảng vận hành hợp nhất"
+          "label": "Lĩnh vực vận hành được bao phủ"
         },
         {
           "number": "5 phút",
@@ -10257,8 +10257,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nu este necesară o carte de credit",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Straturi de inteligență, un singur adevăr"
+          "number": "200+",
+          "label": "Sisteme conectate"
         },
         {
           "number": "18",
@@ -10266,7 +10266,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Domenii operaționale unificate"
+          "label": "Domenii operaționale acoperite"
         },
         {
           "number": "5 min",
@@ -11028,8 +11028,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Inget kreditkort krävs",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Intelligenslager, en sanning"
+          "number": "200+",
+          "label": "Anslutna system"
         },
         {
           "number": "18",
@@ -11037,7 +11037,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Förenade verksamhetsområden"
+          "label": "Täckta verksamhetsområden"
         },
         {
           "number": "5 min",
@@ -11799,8 +11799,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "কোন ক্রেডিট কার্ডের প্রয়োজন নেই",
       "proofStats": [
         {
-          "number": "6",
-          "label": "ইন্টেলিজেন্স লেয়ার, এক সত্য"
+          "number": "200+",
+          "label": "সংযুক্ত সিস্টেম"
         },
         {
           "number": "18",
@@ -11808,7 +11808,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "একীভূত অপারেটিং ডোমেইন"
+          "label": "অন্তর্ভুক্ত পরিচালন ক্ষেত্র"
         },
         {
           "number": "5 মিনিট",
@@ -12570,8 +12570,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "ไม่ต้องใช้บัตรเครดิต",
       "proofStats": [
         {
-          "number": "6",
-          "label": "ชั้นอัจฉริยะ ความจริงเดียว"
+          "number": "200+",
+          "label": "ระบบที่เชื่อมต่อ"
         },
         {
           "number": "18",
@@ -12579,7 +12579,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "โดเมนปฏิบัติการที่รวมเป็นหนึ่ง"
+          "label": "ด้านการดำเนินงานที่ครอบคลุม"
         },
         {
           "number": "5 นาที",
@@ -13341,8 +13341,8 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Tiada kad kredit diperlukan",
       "proofStats": [
         {
-          "number": "6",
-          "label": "Lapisan kecerdasan, satu kebenaran"
+          "number": "200+",
+          "label": "Sistem bersambung"
         },
         {
           "number": "18",
@@ -13350,7 +13350,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Domain operasi yang disatukan"
+          "label": "Bidang operasi yang dilindungi"
         },
         {
           "number": "5 min",

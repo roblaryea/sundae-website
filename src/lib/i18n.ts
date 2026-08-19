@@ -366,8 +366,8 @@ export const websiteMessages = {
       proofStats: [
         { number: '5 min', label: 'From signal to action' },
         { number: '18', label: 'Decisions surfaced today' },
-        { number: '12', label: 'Operating domains unified' },
-        { number: '6', label: 'Intelligence layers, one truth' },
+        { number: '12', label: 'Operational areas covered' },
+        { number: '200+', label: 'Systems connected' },
       ],
       problem: {
         eyebrow: 'THE PROBLEM',
@@ -829,9 +829,9 @@ export const websiteMessages = {
       bookDemo: 'احجز عرضاً',
       noCard: 'لا حاجة إلى بطاقة ائتمان',
       proofStats: [
-        { number: '6', label: 'طبقات ذكاء، حقيقة واحدة' },
+        { number: '200+', label: 'نظاماً متصلاً' },
         { number: '18', label: 'قرارات أُبرزت اليوم' },
-        { number: '12', label: 'مجال تشغيل موحّد' },
+        { number: '12', label: 'مجالاً تشغيلياً مغطى' },
         { number: '5 د', label: 'من الإشارة إلى الإجراء' },
       ],
       problem: {
@@ -1274,9 +1274,9 @@ export const websiteMessages = {
       bookDemo: 'Demander une démo',
       noCard: 'Aucune carte bancaire requise',
       proofStats: [
-        { number: '6', label: 'Couches d\'intelligence, une seule vérité' },
+        { number: '200+', label: 'Systèmes connectés' },
         { number: '18', label: 'Décisions remontées aujourd\'hui' },
-        { number: '12', label: 'Domaines opérationnels unifiés' },
+        { number: '12', label: 'Domaines opérationnels couverts' },
         { number: '5 min', label: 'Du signal à l\'action' },
       ],
       problem: {
@@ -1738,9 +1738,9 @@ export const websiteMessages = {
       bookDemo: 'Reservar demo',
       noCard: 'No se requiere tarjeta de crédito',
       proofStats: [
-        { number: '6', label: 'Capas de inteligencia, una sola verdad' },
+        { number: '200+', label: 'Sistemas conectados' },
         { number: '18', label: 'Decisiones reveladas hoy' },
-        { number: '12', label: 'Dominios operativos unificados' },
+        { number: '12', label: 'Áreas operativas cubiertas' },
         { number: '5 min', label: 'De la señal a la acción' },
       ],
       problem: {
