@@ -45,13 +45,13 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "CHOOSE YOUR PACKAGE",
       heading: "Four Core packages",
-      description: "Same eleven domain modules in every package. What changes is how deep each one goes.",
+      description: "Every package covers the same ground. What changes is how deep each one goes.",
       bestForLabel: "Best for:",
       viewPrefix: "See",
       priceLabel: "first location / month",
       bandsLabel: "Then, per additional location",
       walletLabel: "AI credits / month",
-      includesModules: "All eleven Core domain modules, included",
+      includesModules: "Full Core coverage, included",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
@@ -149,7 +149,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "Frequently Asked Questions",
       items: [
-        { q: "How do the four Core packages differ?", a: "Every package carries the same eleven domain modules and differs in how deep each one goes. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
+        { q: "How do the four Core packages differ?", a: "Every package covers the same ground and differs in how deep each one goes. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
         { q: "Can I upgrade from Report to Core?", a: "Yes. All historical data is preserved. Transition with no data loss." },
         { q: "Do I need Core if I only have 5 locations?", a: "Not required, but recommended if you need operational speed (2-4 hour refresh). Report works great for 1-10 locations if daily reports are sufficient." },
         { q: "Can Core handle multiple POS systems?", a: "Yes. Core connects across mixed POS estates, and Core Performance adds consolidation across brands and regions on top." },
@@ -290,7 +290,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "الاسئلة الشائعة",
       items: [
-        { q: "ما الفرق بين باقات Core الأربع؟", a: "كل باقة تضم الوحدات الإحدى عشرة نفسها، والفرق في عمق كل وحدة. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
+        { q: "ما الفرق بين باقات Core الأربع؟", a: "كل باقة تغطي المجال نفسه، والفرق في عمق كل مجال. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
         { q: "هل يمكنني الترقية من Report الى Core؟", a: "نعم. يتم الحفاظ على كل البيانات التاريخية. الانتقال دون فقدان للبيانات." },
         { q: "هل احتاج Core اذا كان لدي 5 مواقع فقط؟", a: "ليس ضرورياً، لكنه موصى به اذا كنت تحتاج سرعة تشغيلية (تحديث كل 2-4 ساعات). Report يعمل جيداً لـ 1-10 مواقع اذا كانت التقارير اليومية كافية." },
         { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "نعم. يتصل Core بأنظمة POS المختلطة، وتضيف Core Performance فوق ذلك التجميع عبر العلامات والمناطق." },
@@ -431,7 +431,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "Questions frequentes",
       items: [
-        { q: "Quelle est la difference entre les quatre offres Core ?", a: "Chaque offre embarque les memes onze modules metier et se distingue par la profondeur de chacun. Foundation est le socle operationnel, Margin ajoute la profondeur couts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-regions avec acces gouverne." },
+        { q: "Quelle est la difference entre les quatre offres Core ?", a: "Chaque offre couvre le meme perimetre et se distingue par la profondeur de chacun. Foundation est le socle operationnel, Margin ajoute la profondeur couts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-regions avec acces gouverne." },
         { q: "Puis-je passer de Report a Core ?", a: "Oui. Toutes les donnees historiques sont conservees. La transition se fait sans perte de donnees." },
         { q: "Ai-je besoin de Core si je n ai que 5 sites ?", a: "Pas obligatoire, mais recommande si vous avez besoin de vitesse operationnelle (rafraichissement toutes les 2 a 4 heures). Report fonctionne tres bien pour 1 a 10 sites si les rapports quotidiens suffisent." },
         { q: "Core peut-il gerer plusieurs systemes POS ?", a: "Oui. Core se connecte a des parcs POS heterogenes, et Core Performance ajoute par-dessus la consolidation entre marques et regions." },
@@ -474,7 +474,7 @@ const localizedCoreCopy = {
       priceLabel: "primer local / mes",
       bandsLabel: "Despues, por local adicional",
       walletLabel: "creditos de IA / mes",
-      includesModules: "Los once modulos de dominio de Core, incluidos",
+      includesModules: "Cobertura Core completa, incluida",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
@@ -572,7 +572,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "Preguntas frecuentes",
       items: [
-        { q: "En que se diferencian los cuatro paquetes Core?", a: "Todos llevan los mismos once modulos de dominio y se diferencian en cuanto profundiza cada uno. Foundation es la base operativa, Margin anade profundidad de coste y fuga, Growth anade profundidad de cliente, promocion y canal, y Performance anade consolidacion multimarca y multirregion con acceso gobernado." },
+        { q: "En que se diferencian los cuatro paquetes Core?", a: "Todos cubren el mismo terreno y se diferencian en cuanto profundiza cada uno. Foundation es la base operativa, Margin anade profundidad de coste y fuga, Growth anade profundidad de cliente, promocion y canal, y Performance anade consolidacion multimarca y multirregion con acceso gobernado." },
         { q: "Puedo pasar de Report a Core?", a: "Si. Se conservan todos los datos historicos. La transicion ocurre sin perdida de datos." },
         { q: "Necesito Core si solo tengo 5 locales?", a: "No es obligatorio, pero se recomienda si necesitas velocidad operativa (actualizacion cada 2 a 4 horas). Report funciona muy bien para 1 a 10 locales si los reportes diarios son suficientes." },
         { q: "Core puede manejar varios sistemas POS?", a: "Si. Core se conecta a parques POS mixtos, y Core Performance anade encima la consolidacion entre marcas y regiones." },
