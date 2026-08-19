@@ -21,7 +21,7 @@ type LocalizedCopy = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   en: {
     eyebrow: "WHAT YOU RETIRE",
-    headline: "Replace the restaurant BI stack.",
+    headline: "Your systems capture. BI explains. Neither decides.",
     description: "Generic BI was built for analysts. Sundae was built for the people running restaurants.",
     todaysStackLabel: "Today's stack",
     withSundaeLabel: "With Sundae",
@@ -43,7 +43,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   },
   ar: {
     eyebrow: "ما تتقاعد عنه",
-    headline: "استبدل مكدس BI للمطاعم.",
+    headline: "أنظمتك تسجّل. وأدوات التحليل تشرح. ولا شيء منها يقرّر.",
     description: "BI العام صُمم للمحللين. Sundae صُمم لمن يدير المطاعم.",
     todaysStackLabel: "مكدس اليوم",
     withSundaeLabel: "مع Sundae",
@@ -65,7 +65,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   },
   fr: {
     eyebrow: "CE QUE VOUS RETIREZ",
-    headline: "Remplacez la stack BI restaurant.",
+    headline: "Vos systemes enregistrent. La BI explique. Aucun ne decide.",
     description: "La BI générique a été construite pour les analystes. Sundae a été construit pour ceux qui font tourner les restaurants.",
     todaysStackLabel: "La stack d'aujourd'hui",
     withSundaeLabel: "Avec Sundae",
@@ -87,7 +87,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   },
   es: {
     eyebrow: "QUÉ RETIRAS",
-    headline: "Reemplaza la stack BI de restaurantes.",
+    headline: "Tus sistemas registran. El BI explica. Ninguno decide.",
     description: "La BI genérica se construyó para analistas. Sundae se construyó para quienes operan restaurantes.",
     todaysStackLabel: "Stack actual",
     withSundaeLabel: "Con Sundae",
