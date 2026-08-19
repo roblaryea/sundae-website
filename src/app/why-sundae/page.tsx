@@ -53,7 +53,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "THE PROBLEM",
       title: "Three gaps costing you money every day",
-      description: "Every restaurant group we've worked with faces the same three challenges.",
+      description: "Every multi-location group we work with meets the same three gaps.",
     },
     differentiators: [
       { title: "Closed-Loop Profit Recovery", description: "Fourteen detectors find the margin leaking across labour, procurement, waste, delivery and pricing. Each one becomes a single owned action, measured against a baseline frozen before the work starts. Sundae will not call a saving recovered until it has been measured.", icon: "intelligence", color: "bg-rose-600" },
@@ -78,14 +78,14 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "BUILT FOR",
       title: "Built for every role in the organization",
       items: [
-        { title: "Operations Leaders", pain: "You can't be in every restaurant at once.", description: "Real-time visibility into every location via Pulse and Portfolio - know who needs help before they ask.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "Operations Leaders", pain: "You cannot be in every site at once.", description: "Real-time visibility into every location via Pulse and Portfolio - know who needs help before they ask.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "Finance & FP&A", pain: "3 days to close the books? That's 3 days too many.", description: "Real-time margin intelligence, shift-level labor costs, and variance analysis connected to root causes.", icon: "benchmarking", color: "bg-green-600" },
         { title: "C-Suite & Owners", pain: "Your worst-performing outlet is invisible until Thursday.", description: "Portfolio dashboards, daily briefings, competitive intelligence, and strategic decision views.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "Technology Teams", pain: "12 vendor APIs. 5 data formats. Zero unified schema.", description: "Public API, webhooks, 12-domain integrations, governed metrics, and RBAC controls out of the box.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "Stop running your restaurant on gut feel.",
+      title: "Stop running the group on gut feel.",
       description: "30 minutes to review your data together and see whether Sundae would genuinely help your team.",
       primary: "Book a Demo",
       secondary: "Explore Products",
