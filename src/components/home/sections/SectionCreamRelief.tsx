@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Fragment, useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { useRef } from 'react';
 import { motion, animate, useMotionValue, useMotionValueEvent } from 'framer-motion';
 import { useSettledReducedMotion as useReducedMotion } from '@/lib/useSettledReducedMotion';
@@ -9,6 +9,7 @@ import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { SundaeWordmark } from './SundaeWordmark';
 import { creamReliefCopy, type UnifyVisualCopy } from './creamReliefCopy';
+import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 
 // Semantic delta colour on the cream surface: + = trust-green, - = cherry-red,
 // anything else ("on target") = neutral ink. Positives must never read as alarms.
@@ -65,15 +66,11 @@ const cherry = { color: 'var(--warm-cherry)' } as const;
  * The marker convention holds across every locale (see creamReliefCopy).
  */
 function renderStatement(statement: string): ReactNode {
-  return statement.split(/\*([^*]+)\*/g).map((part, i) =>
-    i % 2 === 1 ? (
-      <em key={i} className="italic" style={cherry}>
+  return balanceEmphasisSentences(statement, (part, key) => (
+    <em key={key} className="italic" style={cherry}>
         {part}
       </em>
-    ) : (
-      <Fragment key={i}>{part}</Fragment>
-    )
-  );
+  ));
 }
 
 export interface CreamReliefProps {

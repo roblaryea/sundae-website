@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ElegantShape } from "./ElegantShape";
+import { balanceSentences } from "@/lib/balanceSentences";
 
 // Reusable fade-up section with scroll trigger
 export function FadeUp({
@@ -75,27 +76,6 @@ export function StaggerItem({
       {children}
     </motion.div>
   );
-}
-
-/**
- * Multi-sentence headlines ("Six layers. One governed model. One loop.") were
- * breaking mid-phrase, because line balancing optimises for even line lengths
- * and knows nothing about sentence boundaries. Wrapping each sentence in an
- * inline-block makes it an atomic unit for line breaking: the browser moves a
- * whole sentence to the next line rather than splitting it, and still wraps
- * inside a sentence if one is wider than the container (so narrow viewports
- * degrade rather than overflow). Non-string titles pass through untouched.
- */
-function balanceSentences(title: React.ReactNode): React.ReactNode {
-  if (typeof title !== "string") return title;
-  const parts = title.match(/[^.!?]+[.!?]*\s*/g);
-  if (!parts || parts.length < 2) return title;
-  return parts.map((part, i) => (
-    <span key={i} className="inline-block">
-      {part.trimEnd()}
-      {i < parts.length - 1 ? "\u00A0" : ""}
-    </span>
-  ));
 }
 
 // Premium dark hero section with floating shapes - for inner pages

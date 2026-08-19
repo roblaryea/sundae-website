@@ -6,6 +6,7 @@ import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionWhatYouRetire'
+import { balanceSentences } from "@/lib/balanceSentences";
 
 type LocalizedCopy = {
   eyebrow: string;
@@ -121,7 +122,7 @@ export function SectionWhatYouRetire() {
       <div className="relative z-10 max-w-7xl mx-auto">
         <FadeUp className="text-center max-w-3xl mx-auto mb-14">
           <p className="eyebrow mb-4">{copy.eyebrow}</p>
-          <h2 id="retire-headline" className="section-h2 text-balance mb-5">{copy.headline}</h2>
+          <h2 id="retire-headline" className="section-h2 text-balance mb-5">{balanceSentences(copy.headline)}</h2>
           <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </FadeUp>
 

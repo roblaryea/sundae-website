@@ -19,6 +19,7 @@ import { foresightConviction } from '@/components/home/sections/routeConvictionC
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreForesightMobile } from '@/components/core/CoreForesightMobile';
 import { FORESIGHT_AND_ACTION, usd } from '@/lib/pricing/priceBook'
+import { balanceSentences } from '@/lib/balanceSentences';
 
 type ForesightMockupCopy = {
   timeline: {
@@ -621,7 +622,7 @@ export default function ForesightPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <h2 className="section-h2 text-[var(--text-primary)] mb-6">{ui.problemTitle}</h2>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-6">{balanceSentences(ui.problemTitle)}</h2>
             <p className="body-lg text-[var(--text-supporting)] mb-8">{ui.problemDescription}</p>
           </FadeUp>
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">

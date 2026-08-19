@@ -44,8 +44,8 @@ const localizedCoreCopy = {
     },
     solves: {
       eyebrow: "WHERE THE MARGIN GOES",
-      heading: "Four places profit leaks. Core covers all four.",
-      description: "Start from the loss, not the licence. Every package reads all four - the package you choose sets how deep it goes.",
+      heading: "Four places profit leaks. Your package decides which ones you close.",
+      description: "Start from the loss, not the licence. Each package covers a different set of the four - Core Performance covers all of them.",
       areas: [
         { title: "Revenue & Profit", loss: "Voids, comps, discounts and mispriced items that never show up as a line you can question.", covered: "Revenue and profit intelligence, revenue assurance, item-level contribution.", icon: "cost" as SundaeIconName },
         { title: "Food & Supply", loss: "The gap between what you ordered, what you used and what you sold - waste, variance and vendor price drift.", covered: "Inventory and purchasing intelligence, theoretical versus actual usage, supplier movement.", icon: "insights" as SundaeIconName },
@@ -56,16 +56,16 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "CHOOSE YOUR PACKAGE",
       heading: "Four Core packages",
-      description: "Every package covers the same ground. What changes is how deep each one goes.",
+      description: "Each package covers a different set of the four areas. Pick the one that matches where your margin is going.",
       bestForLabel: "Best for:",
       viewPrefix: "See",
       priceLabel: "first location / month",
       bandsLabel: "Then, per additional location",
       walletLabel: "AI credits / month",
-      includesModules: "Full Core coverage, included",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "Covers Revenue & Profit",
           name: "Core Foundation",
           badge: "Start here",
           subtitle: "The operating baseline",
@@ -75,6 +75,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "Covers Revenue & Profit, Food & Supply",
           name: "Core Margin",
           badge: "Most Popular",
           subtitle: "Depth on cost and leakage",
@@ -84,6 +85,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "Covers Revenue & Profit, Guest & Market",
           name: "Core Growth",
           badge: "Demand side",
           subtitle: "Depth on demand",
@@ -93,6 +95,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "Covers all four areas, incl. Foresight & Action",
           name: "Core Performance",
           badge: "Full depth",
           subtitle: "Multi-brand, multi-region",
@@ -150,7 +153,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "Frequently Asked Questions",
       items: [
-        { q: "How do the four Core packages differ?", a: "Every package covers the same ground and differs in how deep each one goes. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
+        { q: "How do the four Core packages differ?", a: "They cover different areas, not the same ground at different depths. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
         { q: "Can I move up a package later?", a: "Yes. Your full connected history is preserved and nothing is re-onboarded - you change the depth, not the data." },
         { q: "Is Core worth it at five locations?", a: "Yes. Five locations carry the package anchor and the first band, and get the same coverage a fifty-location group gets. The location bands only start to matter as you add sites." },
         { q: "Can Core handle multiple POS systems?", a: "Yes. Core connects across mixed POS estates, and Core Performance adds consolidation across brands and regions on top." },
@@ -186,8 +189,8 @@ const localizedCoreCopy = {
     },
     solves: {
       eyebrow: "أين يذهب الهامش",
-      heading: "أربعة مواضع يتسرب منها الربح. وCore يغطيها جميعاً.",
-      description: "ابدأ من الخسارة لا من الترخيص. كل باقة تقرأ المواضع الأربعة، والباقة التي تختارها تحدد العمق.",
+      heading: "أربعة مواضع يتسرب منها الربح. وباقتك تحدد أيها تُغلق.",
+      description: "ابدأ من الخسارة لا من الترخيص. كل باقة تغطي مجموعة مختلفة من المواضع الأربعة، وCore Performance يغطيها جميعاً.",
       areas: [
         { title: "الإيراد والربح", loss: "إلغاءات ومجانيات وخصومات وأصناف مسعّرة خطأً لا تظهر أبداً كبند يمكنك مساءلته.", covered: "ذكاء الإيراد والربح، وضمان الإيراد، ومساهمة كل صنف.", icon: "cost" as SundaeIconName },
         { title: "الطعام والتوريد", loss: "الفجوة بين ما طلبته وما استُهلك وما بِيع - هدر وانحراف وتغيّر أسعار المورّدين.", covered: "ذكاء المخزون والمشتريات، والاستهلاك النظري مقابل الفعلي، وحركة المورّدين.", icon: "insights" as SundaeIconName },
@@ -198,16 +201,16 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "اختر باقتك",
       heading: "أربع باقات Core",
-      description: "الوحدات الإحدى عشرة نفسها في كل باقة. ما يتغير هو عمق كل وحدة.",
+      description: "كل باقة تغطي مجموعة مختلفة من المجالات الأربعة. اختر ما يناسب المكان الذي يتسرب منه هامشك.",
       bestForLabel: "الانسب لـ:",
       viewPrefix: "عرض",
       priceLabel: "للموقع الأول شهريًا",
       bandsLabel: "ثم لكل موقع إضافي",
       walletLabel: "رصيد ذكاء شهريًا",
-      includesModules: "كل وحدات Core الإحدى عشرة مضمّنة",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "يغطي الإيراد والربح",
           name: "Core Foundation",
           badge: "ابدأ هنا",
           subtitle: "الأساس التشغيلي",
@@ -217,6 +220,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "يغطي الإيراد والربح، والطعام والتوريد",
           name: "Core Margin",
           badge: "الأكثر شيوعًا",
           subtitle: "عمق في التكلفة والتسرب",
@@ -226,6 +230,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "يغطي الإيراد والربح، والضيف والسوق",
           name: "Core Growth",
           badge: "جانب الطلب",
           subtitle: "عمق في الطلب",
@@ -235,6 +240,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "يغطي المجالات الأربعة، بما فيها الاستشراف والتنفيذ",
           name: "Core Performance",
           badge: "العمق الكامل",
           subtitle: "متعدد العلامات والأسواق",
@@ -292,7 +298,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "الاسئلة الشائعة",
       items: [
-        { q: "ما الفرق بين باقات Core الأربع؟", a: "كل باقة تغطي المجال نفسه، والفرق في عمق كل مجال. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
+        { q: "ما الفرق بين باقات Core الأربع؟", a: "الباقات تغطي مجالات مختلفة، لا المجال نفسه بأعماق مختلفة. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
         { q: "هل يمكنني الانتقال إلى باقة أعلى لاحقاً؟", a: "نعم. يُحفَظ تاريخك المتصل بالكامل ولا يُعاد أي إعداد - أنت تغيّر العمق لا البيانات." },
         { q: "هل تستحق Core العناء عند خمسة مواقع؟", a: "نعم. الخمسة مواقع تحمل مرتكز الباقة والنطاق الأول، وتحصل على التغطية نفسها التي تحصل عليها مجموعة من خمسين موقعاً. ونطاقات المواقع لا تبدأ في التأثير إلا مع إضافة مواقع." },
         { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "نعم. يتصل Core بأنظمة POS المختلطة، وتضيف Core Performance فوق ذلك التجميع عبر العلامات والمناطق." },
@@ -328,8 +334,8 @@ const localizedCoreCopy = {
     },
     solves: {
       eyebrow: "OU PART LA MARGE",
-      heading: "Quatre endroits ou le profit fuit. Core couvre les quatre.",
-      description: "Partez de la perte, pas de la licence. Chaque offre lit les quatre - l'offre choisie determine la profondeur.",
+      heading: "Quatre endroits où le profit fuit. Votre offre décide lesquels vous fermez.",
+      description: "Partez de la perte, pas de la licence. Chaque offre couvre un ensemble différent des quatre - Core Performance les couvre tous.",
       areas: [
         { title: "Revenu & Profit", loss: "Annulations, offerts, remises et articles mal tarifes qui n'apparaissent jamais comme une ligne que vous pouvez interroger.", covered: "Intelligence revenu et profit, revenue assurance, contribution par article.", icon: "cost" as SundaeIconName },
         { title: "Nourriture & Approvisionnement", loss: "L'ecart entre ce que vous avez commande, consomme et vendu - gaspillage, ecarts et derive des prix fournisseurs.", covered: "Intelligence stocks et achats, consommation theorique contre reelle, mouvements fournisseurs.", icon: "insights" as SundaeIconName },
@@ -340,16 +346,16 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "CHOISISSEZ VOTRE OFFRE",
       heading: "Quatre offres Core",
-      description: "Les memes onze modules metier dans chaque offre. Ce qui change, c est la profondeur de chacun.",
+      description: "Chaque offre couvre un ensemble différent des quatre domaines. Choisissez celle qui correspond à l'endroit où part votre marge.",
       bestForLabel: "Ideal pour :",
       viewPrefix: "Voir",
       priceLabel: "premier site / mois",
       bandsLabel: "Puis, par site additionnel",
       walletLabel: "credits IA / mois",
-      includesModules: "Les onze modules metier Core, inclus",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "Couvre Revenu & Profit",
           name: "Core Foundation",
           badge: "Commencez ici",
           subtitle: "Le socle operationnel",
@@ -359,6 +365,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "Couvre Revenu & Profit, Nourriture & Approvisionnement",
           name: "Core Margin",
           badge: "Le plus populaire",
           subtitle: "Profondeur sur les couts et les pertes",
@@ -368,6 +375,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "Couvre Revenu & Profit, Client & Marché",
           name: "Core Growth",
           badge: "Cote demande",
           subtitle: "Profondeur sur la demande",
@@ -377,6 +385,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "Couvre les quatre domaines, dont Foresight & Action",
           name: "Core Performance",
           badge: "Profondeur complete",
           subtitle: "Multi-marques, multi-regions",
@@ -434,7 +443,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "Questions frequentes",
       items: [
-        { q: "Quelle est la difference entre les quatre offres Core ?", a: "Chaque offre couvre le meme perimetre et se distingue par la profondeur de chacun. Foundation est le socle operationnel, Margin ajoute la profondeur couts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-regions avec acces gouverne." },
+        { q: "Quelle est la difference entre les quatre offres Core ?", a: "Les offres couvrent des domaines differents, et non le meme perimetre a des profondeurs differentes. Foundation est le socle operationnel, Margin ajoute la profondeur couts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-regions avec acces gouverne." },
         { q: "Puis-je passer a une offre superieure plus tard ?", a: "Oui. Tout votre historique connecte est conserve et rien n est re-onboarde : vous changez la profondeur, pas les donnees." },
         { q: "Core vaut-il le coup a cinq sites ?", a: "Oui. Cinq sites portent l ancrage de l offre et le premier palier, et recoivent la meme couverture qu un groupe de cinquante. Les paliers par site ne comptent qu a partir du moment ou vous en ajoutez." },
         { q: "Core peut-il gerer plusieurs systemes POS ?", a: "Oui. Core se connecte a des parcs POS heterogenes, et Core Performance ajoute par-dessus la consolidation entre marques et regions." },
@@ -470,8 +479,8 @@ const localizedCoreCopy = {
     },
     solves: {
       eyebrow: "DONDE SE VA EL MARGEN",
-      heading: "Cuatro sitios por donde se fuga el beneficio. Core cubre los cuatro.",
-      description: "Empieza por la perdida, no por la licencia. Cada paquete lee los cuatro; el paquete que elijas marca la profundidad.",
+      heading: "Cuatro sitios por donde se fuga el beneficio. Tu paquete decide cuáles cierras.",
+      description: "Empieza por la pérdida, no por la licencia. Cada paquete cubre un conjunto distinto de los cuatro; Core Performance los cubre todos.",
       areas: [
         { title: "Ingresos y Beneficio", loss: "Anulaciones, invitaciones, descuentos y articulos mal tarifados que nunca aparecen como una linea que puedas cuestionar.", covered: "Inteligencia de ingresos y beneficio, revenue assurance, contribucion por articulo.", icon: "cost" as SundaeIconName },
         { title: "Comida y Suministro", loss: "La brecha entre lo que pediste, lo que usaste y lo que vendiste: merma, desviacion y deriva de precios de proveedor.", covered: "Inteligencia de inventario y compras, consumo teorico frente a real, movimiento de proveedores.", icon: "insights" as SundaeIconName },
@@ -482,16 +491,16 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "ELIGE TU PAQUETE",
       heading: "Cuatro paquetes Core",
-      description: "Los mismos once modulos de dominio en cada paquete. Lo que cambia es cuanto profundiza cada uno.",
+      description: "Cada paquete cubre un conjunto distinto de las cuatro áreas. Elige el que se ajuste a por dónde se va tu margen.",
       bestForLabel: "Ideal para:",
       viewPrefix: "Ver",
       priceLabel: "primer local / mes",
       bandsLabel: "Despues, por local adicional",
       walletLabel: "creditos de IA / mes",
-      includesModules: "Cobertura Core completa, incluida",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio",
           name: "Core Foundation",
           badge: "Empieza aqui",
           subtitle: "La base operativa",
@@ -501,6 +510,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio, Comida y Suministro",
           name: "Core Margin",
           badge: "Mas popular",
           subtitle: "Profundidad en coste y fuga",
@@ -510,6 +520,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio, Cliente y Mercado",
           name: "Core Growth",
           badge: "Lado demanda",
           subtitle: "Profundidad en demanda",
@@ -519,6 +530,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "Cubre las cuatro áreas, incl. Foresight & Action",
           name: "Core Performance",
           badge: "Profundidad completa",
           subtitle: "Multimarca, multirregion",
@@ -576,7 +588,7 @@ const localizedCoreCopy = {
     faq: {
       heading: "Preguntas frecuentes",
       items: [
-        { q: "En que se diferencian los cuatro paquetes Core?", a: "Todos cubren el mismo terreno y se diferencian en cuanto profundiza cada uno. Foundation es la base operativa, Margin anade profundidad de coste y fuga, Growth anade profundidad de cliente, promocion y canal, y Performance anade consolidacion multimarca y multirregion con acceso gobernado." },
+        { q: "En que se diferencian los cuatro paquetes Core?", a: "Cubren areas distintas, no el mismo terreno a distintas profundidades. Foundation es la base operativa, Margin anade profundidad de coste y fuga, Growth anade profundidad de cliente, promocion y canal, y Performance anade consolidacion multimarca y multirregion con acceso gobernado." },
         { q: "Puedo subir de paquete mas adelante?", a: "Si. Se conserva todo tu historico conectado y no se vuelve a incorporar nada: cambias la profundidad, no los datos." },
         { q: "Merece la pena Core con cinco locales?", a: "Si. Cinco locales soportan el anclaje del paquete y el primer tramo, y reciben la misma cobertura que un grupo de cincuenta. Los tramos por local solo empiezan a importar cuando anades sitios." },
         { q: "Core puede manejar varios sistemas POS?", a: "Si. Core se conecta a parques POS mixtos, y Core Performance anade encima la consolidacion entre marcas y regiones." },
@@ -907,7 +919,7 @@ export default function CoreProductPage() {
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-[var(--text-supporting)]">{ui.tiers.includesModules}</span>
+                          <span className="text-sm text-[var(--text-supporting)]">{tier.areas}</span>
                         </li>
                       </ul>
                       <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">

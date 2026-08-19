@@ -15,6 +15,7 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionSpeedQualityCost'
+import { balanceSentences } from "@/lib/balanceSentences";
 
 /* ─── i18n copy ─── */
 
@@ -370,7 +371,7 @@ export function SectionSpeedQualityCost() {
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
           <div className="eyebrow mb-4">{copy.eyebrow}</div>
           <h2 id="sqc-headline" className="section-h2 text-balance mb-5">
-            {copy.headline}
+            {balanceSentences(copy.headline)}
           </h2>
           <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </div>

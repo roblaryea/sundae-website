@@ -4,6 +4,7 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { EditorialImage } from "@/components/ui/EditorialImage";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionProof'
+import { balanceSentences } from '@/lib/balanceSentences';
 
 type LocalizedProof = {
   eyebrow: string;
@@ -117,7 +118,7 @@ export function SectionProof() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="text-center max-w-3xl mx-auto">
           <div className="eyebrow mb-4">{copy.eyebrow}</div>
-          <h2 id="proof-headline" className="section-h2 text-balance mb-5">{copy.headline}</h2>
+          <h2 id="proof-headline" className="section-h2 text-balance mb-5">{balanceSentences(copy.headline)}</h2>
           <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </div>
 
@@ -153,7 +154,7 @@ export function SectionProof() {
           <div className="text-center mb-10">
             <div className="eyebrow mb-4">{copy.industryEyebrow}</div>
             <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-tight text-balance max-w-xl mx-auto text-[var(--text-primary)]">
-              {copy.industryHeadline}
+              {balanceSentences(copy.industryHeadline)}
             </h3>
             <p className="mt-4 text-[12px] text-[var(--text-muted)] italic max-w-xl mx-auto">
               {copy.industryDisclaimer}

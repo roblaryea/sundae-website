@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { EditorialImage } from '@/components/ui/EditorialImage';
 import { useSettledReducedMotion } from '@/lib/useSettledReducedMotion';
+import { balanceSentences } from '@/lib/balanceSentences';
 
 /**
  * Editorial split - a premium portrait image beside a text column.
@@ -101,7 +102,7 @@ export function SectionEditorialSplit({
         <FadeUp className={imageSide === 'right' ? 'lg:order-1' : ''}>
           <div className="max-w-xl">
             <div className="eyebrow mb-4">{eyebrow}</div>
-            <h2 className="section-h2 text-balance mb-5">{headline}</h2>
+            <h2 className="section-h2 text-balance mb-5">{balanceSentences(headline)}</h2>
             {sub && <p className="body-lg max-w-lg">{sub}</p>}
           </div>
         </FadeUp>

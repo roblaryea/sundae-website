@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Fragment, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
@@ -29,11 +29,13 @@ const coral = { color: 'var(--accent-warm)' } as const;
 function renderStatement(statement: string): ReactNode {
   return statement.split(/\*([^*]+)\*/g).map((part, i) =>
     i % 2 === 1 ? (
-      <em key={i} className="not-italic font-medium" style={coral}>
+      <em key={i} className="not-italic font-medium inline-block" style={coral}>
         {part}
       </em>
     ) : (
-      <Fragment key={i}>{part}</Fragment>
+      <span key={i} className="inline-block">
+        {part}
+      </span>
     )
   );
 }

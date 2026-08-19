@@ -15,6 +15,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { crewCreamCopy } from "./crewCreamCopy";
+import { balanceSentences } from '@/lib/balanceSentences';
 
 /* ─── Structural data (icons / accents stay constant across locales) ─── */
 
@@ -949,7 +950,7 @@ export default function CrewPage() {
           <div className="relative z-10 max-w-5xl mx-auto">
             <FadeUp className="text-center max-w-3xl mx-auto mb-12">
               <p className="eyebrow mb-4">{copy.byohrEyebrow}</p>
-              <h2 className="section-h2 text-balance mb-5">{copy.byohrTitle}</h2>
+              <h2 className="section-h2 text-balance mb-5">{balanceSentences(copy.byohrTitle)}</h2>
               <p className="body-lg max-w-2xl mx-auto">{copy.byohrDescription}</p>
             </FadeUp>
 
