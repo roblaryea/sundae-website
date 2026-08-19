@@ -39,7 +39,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     description: "Bringing in a decision layer used to mean a programme: a warehouse to build, a data team to hire, and a year before anyone saw a number. Sundae connects what you already run, read-only, and starts reading it.",
     oldRule: "Old rule: pick two",
     sundaeRule: "↓  Sundae rule: pick all three",
-    closing: "Nothing migrated. Nothing rebuilt. Nothing switched off.",
+    closing: "That is how Core starts. Crew migrations and wider estates get scoped on the systems involved.",
     vertices: [
       { label: "Speed", headline: "Connect what you already run.", body: "A read-only connection to the systems you already use. Nothing is migrated, nothing is rebuilt, and nothing in your stack is switched off to make room.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
       { label: "Quality", headline: "Built for food service. Governed for decisions.", body: "Sundae ships with the food-service model already built, peer-anchored benchmarks and source-cited answers, so nobody starts from a blank canvas or waits on a data team.", chips: ["Model already built", "Source-cited AI", "Peer benchmarks"] },
@@ -54,7 +54,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     description: "كان الحصول على ذكاء مطاعم حقيقي يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
     oldRule: "القاعدة القديمة: اختر اثنين",
     sundaeRule: "↓ قاعدة Sundae: اختر الثلاثة",
-    closing: "هذه ليست مقايضة. هذه ميزتك التشغيلية.",
+    closing: "هكذا تبدأ Core. أما ترحيلات Crew والمنظومات الأوسع فيُحدَّد نطاقها حسب الأنظمة المعنية.",
     vertices: [
       { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وAsk Sundae يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
       { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بنموذج بيانات الخدمات الغذائية جاهزاً، ومعايير نظراء، وإجابات AI مع مصادر - فلا تبني من لوحة BI فارغة.", chips: ["النموذج جاهز مسبقاً", "AI بمصادر", "معايير نظراء"] },
@@ -69,7 +69,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     description: "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
     oldRule: "Ancienne règle : choisir deux",
     sundaeRule: "↓ Règle Sundae : choisir les trois",
-    closing: "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
+    closing: "C'est ainsi que Core démarre. Les migrations Crew et les parcs plus larges sont cadrés selon les systèmes concernés.",
     vertices: [
       { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Ask Sundae répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
       { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre le modèle de données restauration déjà construit, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["Modèle déjà construit", "IA sourcée", "Benchmarks pairs"] },
@@ -84,7 +84,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     description: "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
     oldRule: "Regla antigua: elige dos",
     sundaeRule: "↓ Regla Sundae: elige los tres",
-    closing: "Esto no es un compromiso. Es tu ventaja operativa.",
+    closing: "Así empieza Core. Las migraciones de Crew y los parques más amplios se dimensionan según los sistemas implicados.",
     vertices: [
       { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Ask Sundae responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
       { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae el modelo de datos de restauración ya construido, benchmarks de pares y respuestas IA con fuente - para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["Modelo ya construido", "IA con fuente", "Benchmarks pares"] },

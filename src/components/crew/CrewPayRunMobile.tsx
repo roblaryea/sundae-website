@@ -41,7 +41,7 @@ const EN = {
   needsReviewTax: 'Needs review · tax',
   ready: 'Ready',
   review: 'Review',
-  coverage: '39+ countries · 100+ states, provinces & cities',
+  coverage: '36+ countries · 100+ states, provinces & cities',
   reviewGcc: 'Review GCC',
 } as const;
 

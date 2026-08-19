@@ -26,14 +26,14 @@ const localizedCoreCopy = {
   en: {
     hero: {
       badge: "Sundae Core",
-      title: 'Real-Time Operations. Not End-of-Day Reports.',
+      title: 'Same-Shift Operations. Not End-of-Day Reports.',
       description:
-        "Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift - not after the damage is done.",
+        "Connected to your POS, labor, inventory, and every system that matters. Core refreshes through the trading day - typically every 2-4 hours, and faster where a source supports it - so you act during the shift, not after the damage is done.",
       primary: "Explore Core Tiers",
       secondary: "Book a Demo",
     },
     realTime: {
-      heading: "The Real-Time Intelligence Layer",
+      heading: "The Same-Shift Intelligence Layer",
       description:
         "Built for operators who can't wait for end-of-day reports. Whether you manage 10 locations or 100+, Core gives you the speed to see what's happening now, understand why it matters, and get recommended actions before problems escalate.",
       cards: [
@@ -95,8 +95,8 @@ const localizedCoreCopy = {
       heading: "The 4D Intelligence Model",
       description: "Core delivers all four dimensions - expanded.",
       items: [
-        { dimension: "1D", title: "What Happened", status: "Real-Time", description: "Complete operational truth, updated every 2-4 hours. Near real-time visibility for same-shift interventions.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs. Actual", status: "Real-Time", description: "Real-time budget variance tracking. Flash reporting for finance teams. Week-to-date and month-to-date visibility.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
+        { dimension: "1D", title: "What Happened", status: "Same-shift", description: "Complete operational truth, refreshed through the trading day so the intervention still lands inside the shift.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { dimension: "2D", title: "Plan vs. Actual", status: "Same-shift", description: "Budget and forecast variance as it moves. Flash reporting for finance teams. Week-to-date and month-to-date visibility.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { dimension: "3D", title: "Market Context", status: "Expanded", description: "Full benchmarking suite (30+ metrics). Portfolio comparisons. Competitive context via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
         { dimension: "4D", title: "What's Next", status: "Expanded", description: "14-30 day forecasting. Proactive alerts before problems escalate. Sundae Coach recommendations with confidence scores.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
@@ -133,16 +133,16 @@ const localizedCoreCopy = {
       heading: "Add Modules for Specialized Intelligence",
       description: "Deepen Core with focused modules for your specific operational challenges.",
       items: [
-        { name: "Labor Intelligence", description: "Real-time schedule optimization, predictive labor demand", icon: "benchmarking" as SundaeIconName },
-        { name: "Inventory Intelligence", description: "Real-time waste tracking, automated par levels", icon: "insights" as SundaeIconName },
-        { name: "Purchasing Intelligence", description: "Real-time price optimization, vendor comparison", icon: "marketing" as SundaeIconName },
-        { name: "Marketing Intelligence", description: "Real-time campaign tracking, CAC monitoring", icon: "growth" as SundaeIconName },
-        { name: "Reservations Intelligence", description: "Real-time booking patterns, table optimization", icon: "operators" as SundaeIconName },
+        { name: "Labor Intelligence", description: "Same-shift schedule optimization, predictive labor demand", icon: "benchmarking" as SundaeIconName },
+        { name: "Inventory Intelligence", description: "Same-shift waste tracking, automated par levels", icon: "insights" as SundaeIconName },
+        { name: "Purchasing Intelligence", description: "Price movement tracking, vendor comparison", icon: "marketing" as SundaeIconName },
+        { name: "Marketing Intelligence", description: "Same-shift campaign tracking, CAC monitoring", icon: "growth" as SundaeIconName },
+        { name: "Reservations Intelligence", description: "Same-shift booking patterns, table optimization", icon: "operators" as SundaeIconName },
       ],
       button: "Explore All Modules",
     },
     watchtower: {
-      heading: "Core + Watchtower = Complete Intelligence",
+      heading: "Watchtower brings the outside world into Core",
       description: "Core tells you how you're performing right now. Watchtower tells you what's happening around you. Together, they give you the complete picture - internal operations and external market context in one intelligence layer.",
       button: "Learn About Watchtower",
     },
@@ -150,8 +150,8 @@ const localizedCoreCopy = {
       heading: "Frequently Asked Questions",
       items: [
         { q: "How do the four Core packages differ?", a: "Every package covers the same ground and differs in how deep each one goes. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
-        { q: "Can I upgrade from Report to Core?", a: "Yes. All historical data is preserved. Transition with no data loss." },
-        { q: "Do I need Core if I only have 5 locations?", a: "Not required, but recommended if you need operational speed (2-4 hour refresh). Report works great for 1-10 locations if daily reports are sufficient." },
+        { q: "Can I move up a package later?", a: "Yes. Your full connected history is preserved and nothing is re-onboarded - you change the depth, not the data." },
+        { q: "Is Core worth it at five locations?", a: "Yes. Five locations carry the package anchor and the first band, and get the same coverage a fifty-location group gets. The location bands only start to matter as you add sites." },
         { q: "Can Core handle multiple POS systems?", a: "Yes. Core connects across mixed POS estates, and Core Performance adds consolidation across brands and regions on top." },
         { q: "Can I use Core with Watchtower?", a: "Highly recommended. Core provides internal intelligence, Watchtower adds external market intelligence for complete visibility." },
         { q: "Can I use Core with Modules?", a: "Yes. All 5 specialized modules work with Core to deepen intelligence in specific operational areas." },
@@ -159,7 +159,7 @@ const localizedCoreCopy = {
     },
     cta: {
       title: "Stop Managing Yesterday's Numbers",
-      description: "See what real-time operational intelligence looks like with your actual data.",
+      description: "See what same-shift operational intelligence looks like against your actual data.",
       primary: "Explore Core Tiers",
       secondary: "Book a Demo",
     },
@@ -283,7 +283,7 @@ const localizedCoreCopy = {
       button: "استعرض كل الوحدات",
     },
     watchtower: {
-      heading: "Core + Watchtower = ذكاء كامل",
+      heading: "Watchtower يُدخل العالم الخارجي إلى Core",
       description: "Core يخبرك بادائك الان. Watchtower يخبرك بما يحدث حولك. معاً يمنحانك الصورة الكاملة - العمليات الداخلية وسياق السوق الخارجي في طبقة ذكاء واحدة.",
       button: "تعرف على Watchtower",
     },
@@ -291,8 +291,8 @@ const localizedCoreCopy = {
       heading: "الاسئلة الشائعة",
       items: [
         { q: "ما الفرق بين باقات Core الأربع؟", a: "كل باقة تغطي المجال نفسه، والفرق في عمق كل مجال. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
-        { q: "هل يمكنني الترقية من Report الى Core؟", a: "نعم. يتم الحفاظ على كل البيانات التاريخية. الانتقال دون فقدان للبيانات." },
-        { q: "هل احتاج Core اذا كان لدي 5 مواقع فقط؟", a: "ليس ضرورياً، لكنه موصى به اذا كنت تحتاج سرعة تشغيلية (تحديث كل 2-4 ساعات). Report يعمل جيداً لـ 1-10 مواقع اذا كانت التقارير اليومية كافية." },
+        { q: "هل يمكنني الانتقال إلى باقة أعلى لاحقاً؟", a: "نعم. يُحفَظ تاريخك المتصل بالكامل ولا يُعاد أي إعداد - أنت تغيّر العمق لا البيانات." },
+        { q: "هل تستحق Core العناء عند خمسة مواقع؟", a: "نعم. الخمسة مواقع تحمل مرتكز الباقة والنطاق الأول، وتحصل على التغطية نفسها التي تحصل عليها مجموعة من خمسين موقعاً. ونطاقات المواقع لا تبدأ في التأثير إلا مع إضافة مواقع." },
         { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "نعم. يتصل Core بأنظمة POS المختلطة، وتضيف Core Performance فوق ذلك التجميع عبر العلامات والمناطق." },
         { q: "هل يمكنني استخدام Core مع Watchtower؟", a: "موصى به بشدة. Core يوفر الذكاء الداخلي، وWatchtower يضيف ذكاء السوق الخارجي لرؤية كاملة." },
         { q: "هل يمكنني استخدام Core مع Modules؟", a: "نعم. جميع الوحدات المتخصصة الخمس تعمل مع Core لتعميق الذكاء في المجالات التشغيلية المحددة." },
@@ -424,7 +424,7 @@ const localizedCoreCopy = {
       button: "Explorer tous les modules",
     },
     watchtower: {
-      heading: "Core + Watchtower = intelligence complete",
+      heading: "Watchtower fait entrer le monde exterieur dans Core",
       description: "Core vous dit comment vous performez maintenant. Watchtower vous dit ce qui se passe autour de vous. Ensemble, ils donnent la vue complete - operations internes et contexte marche externe dans une seule couche d intelligence.",
       button: "En savoir plus sur Watchtower",
     },
@@ -432,8 +432,8 @@ const localizedCoreCopy = {
       heading: "Questions frequentes",
       items: [
         { q: "Quelle est la difference entre les quatre offres Core ?", a: "Chaque offre couvre le meme perimetre et se distingue par la profondeur de chacun. Foundation est le socle operationnel, Margin ajoute la profondeur couts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-regions avec acces gouverne." },
-        { q: "Puis-je passer de Report a Core ?", a: "Oui. Toutes les donnees historiques sont conservees. La transition se fait sans perte de donnees." },
-        { q: "Ai-je besoin de Core si je n ai que 5 sites ?", a: "Pas obligatoire, mais recommande si vous avez besoin de vitesse operationnelle (rafraichissement toutes les 2 a 4 heures). Report fonctionne tres bien pour 1 a 10 sites si les rapports quotidiens suffisent." },
+        { q: "Puis-je passer a une offre superieure plus tard ?", a: "Oui. Tout votre historique connecte est conserve et rien n est re-onboarde : vous changez la profondeur, pas les donnees." },
+        { q: "Core vaut-il le coup a cinq sites ?", a: "Oui. Cinq sites portent l ancrage de l offre et le premier palier, et recoivent la meme couverture qu un groupe de cinquante. Les paliers par site ne comptent qu a partir du moment ou vous en ajoutez." },
         { q: "Core peut-il gerer plusieurs systemes POS ?", a: "Oui. Core se connecte a des parcs POS heterogenes, et Core Performance ajoute par-dessus la consolidation entre marques et regions." },
         { q: "Puis-je utiliser Core avec Watchtower ?", a: "Fortement recommande. Core fournit l intelligence interne, Watchtower ajoute l intelligence marche externe pour une visibilite complete." },
         { q: "Puis-je utiliser Core avec les Modules ?", a: "Oui. Les 5 modules specialises fonctionnent avec Core pour approfondir l intelligence dans des zones operationnelles specifiques." },
@@ -565,7 +565,7 @@ const localizedCoreCopy = {
       button: "Explorar todos los modulos",
     },
     watchtower: {
-      heading: "Core + Watchtower = inteligencia completa",
+      heading: "Watchtower trae el mundo exterior a Core",
       description: "Core te muestra como va la operacion ahora. Watchtower te da el contexto del mercado que la rodea. Juntos te dan una lectura completa para decidir con mas criterio.",
       button: "Saber mas sobre Watchtower",
     },
@@ -573,8 +573,8 @@ const localizedCoreCopy = {
       heading: "Preguntas frecuentes",
       items: [
         { q: "En que se diferencian los cuatro paquetes Core?", a: "Todos cubren el mismo terreno y se diferencian en cuanto profundiza cada uno. Foundation es la base operativa, Margin anade profundidad de coste y fuga, Growth anade profundidad de cliente, promocion y canal, y Performance anade consolidacion multimarca y multirregion con acceso gobernado." },
-        { q: "Puedo pasar de Report a Core?", a: "Si. Se conservan todos los datos historicos. La transicion ocurre sin perdida de datos." },
-        { q: "Necesito Core si solo tengo 5 locales?", a: "No es obligatorio, pero se recomienda si necesitas velocidad operativa (actualizacion cada 2 a 4 horas). Report funciona muy bien para 1 a 10 locales si los reportes diarios son suficientes." },
+        { q: "Puedo subir de paquete mas adelante?", a: "Si. Se conserva todo tu historico conectado y no se vuelve a incorporar nada: cambias la profundidad, no los datos." },
+        { q: "Merece la pena Core con cinco locales?", a: "Si. Cinco locales soportan el anclaje del paquete y el primer tramo, y reciben la misma cobertura que un grupo de cincuenta. Los tramos por local solo empiezan a importar cuando anades sitios." },
         { q: "Core puede manejar varios sistemas POS?", a: "Si. Core se conecta a parques POS mixtos, y Core Performance anade encima la consolidacion entre marcas y regiones." },
         { q: "Puedo usar Core con Watchtower?", a: "Muy recomendable. Core aporta inteligencia interna y Watchtower añade inteligencia externa de mercado para visibilidad completa." },
         { q: "Puedo usar Core con Modules?", a: "Si. Los 5 modulos especializados funcionan con Core para profundizar la inteligencia en areas operativas especificas." },
@@ -645,7 +645,7 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* The Real-Time Intelligence Layer */}
+      {/* The Same-Shift Intelligence Layer */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp>
