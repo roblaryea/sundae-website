@@ -34,17 +34,17 @@ type MeasuredCopy = {
 const copy: RequiredEnglishLocalizedRecord<MeasuredCopy> = {
   en: {
     eyebrow: "Measure and learn",
-    headlineLead: "Identified is not recovered.",
-    headlineEmphasis: "So Sundae keeps going until it is.",
-    sub: "Most tools stop at the flag. Sundae opens the records behind it, names the item doing the damage, gives the work to one person, and freezes the number it will be judged against before that work begins.",
-    ladderLabel: "How far a number can be trusted",
+    headlineLead: "Spotting the loss is the easy part.",
+    headlineEmphasis: "Getting the money back is the job.",
+    sub: "Most tools stop at the alert. Sundae opens the records behind it, names the item that is costing you, hands the job to one person, and writes down the number to beat before they start.",
+    ladderLabel: "How much you can trust a number",
     rungs: [
-      { label: "Measuring", note: "Work has started and the baseline is frozen. No claim yet." },
-      { label: "Directional", note: "Measured against that baseline, and labelled as directional rather than causal." },
-      { label: "Operator confirmed", note: "A person who did the work has confirmed the result." },
-      { label: "Independently verified", note: "A second authorised reviewer has checked it against evidence." },
+      { label: "Measuring", note: "Work has started. We noted where the number was, so there is something to compare against." },
+      { label: "Directional", note: "The number moved. We can show by how much - but we will not yet say the work caused it." },
+      { label: "Operator confirmed", note: "The person who did the work says it worked." },
+      { label: "Independently verified", note: "Someone else checked it against the evidence and agreed." },
     ],
-    closer: "Sundae will not call a number recovered until it has been measured, and will not call it verified until someone else has checked it. Where the data does not cover a case, it abstains instead of inferring one.",
+    closer: "Sundae will not call money recovered until it is measured, or verified until someone else has checked it. Where the data cannot tell, it says so.",
   },
 };
 
@@ -66,7 +66,7 @@ export function SectionMeasuredNotClaimed() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5 }}
         >
-          <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
+          <p className="eyebrow">
             {c.eyebrow}
           </p>
           <h2
@@ -74,7 +74,7 @@ export function SectionMeasuredNotClaimed() {
             className="section-h2 mt-3 text-[var(--text-primary)] text-balance"
           >
             <span className="block">{c.headlineLead}</span>
-            <span className="block text-[var(--warm-coral)]">{c.headlineEmphasis}</span>
+            <span className="block text-[var(--text-display)]">{c.headlineEmphasis}</span>
           </h2>
           <p className="mt-5 max-w-[64ch] text-base sm:text-lg leading-relaxed text-[var(--text-supporting)]">
             {c.sub}
@@ -82,37 +82,86 @@ export function SectionMeasuredNotClaimed() {
         </motion.div>
 
         {/* The ladder is the proof: each rung is a state the product actually
-            tracks, and the last one is awarded by a person, never by Sundae. */}
+            tracks, and the last two are awarded by a person, never by Sundae.
+            Rendered as an ascending ladder rather than a list, because the
+            content is a progression of confidence - the shape should carry
+            that, not just the words. Strength is derived from the rung index,
+            so no new copy keys and all 22 locales get it for free. */}
         <div className="mt-12 sm:mt-16">
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)]">
             {c.ladderLabel}
           </p>
-          <ol className="mt-5 flex flex-col">
-            {c.rungs.map((r, i) => (
-              <motion.li
-                key={r.label}
-                initial={reduce ? false : { opacity: 0, y: 12 }}
-                whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-60px" }}
-                transition={{ duration: 0.4, delay: reduce ? 0 : i * 0.07 }}
-                className="grid grid-cols-[auto_1fr] gap-x-4 sm:gap-x-6 border-t border-[var(--border-default)] py-5"
-              >
-                <span
-                  aria-hidden="true"
-                  className="font-mono text-xs tabular-nums text-[var(--warm-coral)] pt-1"
+
+          <ol className="mt-6 grid gap-4 sm:gap-5 md:grid-cols-4">
+
+            {c.rungs.map((r, i) => {
+              const strength = i + 1;
+              const attested = i >= 2; // confirmed / verified are human-awarded
+              return (
+                <motion.li
+                  key={r.label}
+                  initial={reduce ? false : { opacity: 0, y: 12 }}
+                  whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-60px" }}
+                  transition={{ duration: 0.4, delay: reduce ? 0 : i * 0.08 }}
+                  className={[
+                    "relative flex gap-4 rounded-2xl border p-5 md:flex-col md:gap-4",
+                    attested
+                      ? "border-[var(--trust-border)] bg-[var(--trust-bg)]"
+                      : "border-[var(--border-default)] bg-[var(--surface-subtle)]",
+                  ].join(" ")}
                 >
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <div className="min-w-0">
-                  <h3 className="text-base sm:text-lg font-semibold text-[var(--text-primary)]">
-                    {r.label}
-                  </h3>
-                  <p className="mt-1.5 text-sm sm:text-base leading-relaxed text-[var(--text-muted)] max-w-[62ch]">
-                    {r.note}
-                  </p>
-                </div>
-              </motion.li>
-            ))}
+                  {i < c.rungs.length - 1 && (
+                    <span
+                      aria-hidden
+                      className={[
+                        "absolute bg-[var(--border-default)]",
+                        // sits in the gap, aligned to the centre of the discs
+                        "left-10 -bottom-4 h-4 w-px sm:-bottom-5 sm:h-5",
+                        "md:left-auto md:bottom-auto md:top-10 md:-right-5 md:h-px md:w-5",
+                      ].join(" ")}
+                    />
+                  )}
+
+                  <span
+                    aria-hidden
+                    className={[
+                      "flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border text-sm font-semibold tabular-nums",
+                      attested
+                        ? "border-[var(--trust)] bg-[var(--trust)] text-[var(--ink)]"
+                        : "border-[var(--border-default)] bg-[var(--surface-faint)] text-[var(--text-muted)]",
+                    ].join(" ")}
+                  >
+                    {strength}
+                  </span>
+
+                  <div className="min-w-0">
+                    {/* Confidence meter - four segments, filled to this rung. */}
+                    <span aria-hidden className="mb-3 flex gap-1">
+                      {[0, 1, 2, 3].map((seg) => (
+                        <span
+                          key={seg}
+                          className={[
+                            "h-1 w-5 rounded-full",
+                            seg < strength
+                              ? attested
+                                ? "bg-[var(--trust)]"
+                                : "bg-[var(--text-muted)]"
+                              : "bg-[var(--border-default)]",
+                          ].join(" ")}
+                        />
+                      ))}
+                    </span>
+                    <h3 className="text-base font-semibold text-[var(--text-primary)]">
+                      {r.label}
+                    </h3>
+                    <p className="mt-1.5 text-sm leading-relaxed text-[var(--text-muted)]">
+                      {r.note}
+                    </p>
+                  </div>
+                </motion.li>
+              );
+            })}
           </ol>
         </div>
 

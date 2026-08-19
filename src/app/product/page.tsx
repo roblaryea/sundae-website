@@ -19,7 +19,7 @@ import {
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_page'
 import { CreamBreak } from '@/components/ui/CreamBreak';
-import { productCreamCopy } from './productCreamCopy';
+import { productCreamCopy, productCreamMidCopy } from './productCreamCopy';
 
 type Pillar = {
   name: string;
@@ -222,6 +222,7 @@ export default function ProductPage() {
   const ui = copyMap[locale as keyof typeof copyMap] ?? getGeneratedLocalCopy(copyMap, generatedLocalCopy.copyMap, locale) ?? copyMap.en;
   const pillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
   const cream = productCreamCopy[locale as keyof typeof productCreamCopy] ?? productCreamCopy.en;
+  const creamMid = productCreamMidCopy[locale as keyof typeof productCreamMidCopy] ?? productCreamMidCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -301,7 +302,7 @@ export default function ProductPage() {
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.layersDescription}</p>
           </div></FadeUp>
           <div className="space-y-24">
-            {pillars.map((pillar, index) => {
+            {pillars.slice(0, 3).map((pillar, index) => {
               const Mockup = pillar.mockup;
               return (
                 <FadeUp key={pillar.name} delay={index * 0.05}>
@@ -338,6 +339,48 @@ export default function ProductPage() {
         </div>
       </section>
 
+      <CreamBreak eyebrow={creamMid.eyebrow} statement={creamMid.statement} lede={creamMid.lede} />
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-7xl mx-auto">
+          <div className="space-y-24">
+            {pillars.slice(3).map((pillar, i) => {
+              const index = i + 3;
+              const Mockup = pillar.mockup;
+              return (
+                <FadeUp key={pillar.name} delay={i * 0.05}>
+                  <div className={`grid md:grid-cols-2 gap-10 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
+                    <div className={index % 2 === 1 ? 'md:col-start-2' : ''}><Mockup /></div>
+                    <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className={`w-12 h-12 bg-gradient-to-br ${index === 3 ? 'from-[#F2B45C] to-[#C2410C]' : index === 4 ? 'from-green-500 to-emerald-600' : 'from-[#E9A24A] to-[#FF5C4D]'} rounded-xl flex items-center justify-center`}>
+                          <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
+                        </div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-[var(--text-display)]">{pillar.name}</h3>
+                          <p className="text-sm text-[var(--text-muted)] font-medium">{pillar.tagline}</p>
+                        </div>
+                      </div>
+                      <p className="text-[var(--text-supporting)] leading-relaxed mb-6">{pillar.description}</p>
+                      <div className="space-y-2 mb-4">
+                        {pillar.features.map((cap) => (
+                          <div key={cap} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
+                            <span className="text-[#FF5C4D] flex-shrink-0 mt-0.5">✓</span>
+                            <span>{cap}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="text-sm text-[var(--text-muted)]">
+                        <span className="font-semibold text-[var(--text-primary)]">{pillar.stat}</span> {pillar.statLabel}
+                      </div>
+                    </div>
+                  </div>
+                </FadeUp>
+              );
+            })}
+          </div>
+        </div>
+      </section>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-y border-white/10">
         <div className="max-w-4xl mx-auto text-center">
