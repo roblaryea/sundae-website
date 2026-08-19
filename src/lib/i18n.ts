@@ -711,12 +711,12 @@ export const websiteMessages = {
           exploreTools: 'Explore All Tools',
           stayUpdated: 'Stay Updated',
           newsletterDescription:
-            'Get the latest restaurant industry insights, benchmarks, and decision intelligence trends delivered to your inbox.',
+            'Food-service insight, benchmarks and decision intelligence trends, delivered to your inbox.',
           subscribe: 'Subscribe',
           privacyNote: 'We respect your privacy. Unsubscribe at any time.',
-          ctaTitle: 'Ready to Transform Your Restaurant?',
+          ctaTitle: 'Ready to decide on better numbers?',
           ctaDescription:
-            'Join thousands of restaurant operators who use Sundae to make smarter, numbers-backed decisions.',
+            'Built with operators across 500+ locations, for the decisions that have to be made on the numbers you already have.',
           bookDemo: 'Book a Demo',
           contactSales: 'Contact Sales',
         },
@@ -1161,7 +1161,7 @@ export const websiteMessages = {
           privacyNote: 'نحترم خصوصيتك. يمكنك إلغاء الاشتراك في أي وقت.',
           ctaTitle: 'هل أنت مستعد لتحويل مطعمك؟',
           ctaDescription:
-            'انضم إلى آلاف مشغلي المطاعم الذين يستخدمون Sundae لاتخاذ قرارات أذكى مبنية على الأرقام.',
+            'بُني مع مشغّلين عبر أكثر من 500 موقع، من أجل القرارات التي يجب اتخاذها بالأرقام المتاحة لديك بالفعل.',
           bookDemo: 'احجز عرضًا',
           contactSales: 'تواصل مع المبيعات',
         },
@@ -1625,7 +1625,7 @@ export const websiteMessages = {
           privacyNote: 'Nous respectons votre confidentialité. Désabonnez-vous à tout moment.',
           ctaTitle: 'Prêt à transformer votre restaurant ?',
           ctaDescription:
-            'Rejoignez des milliers d\'opérateurs qui utilisent Sundae pour prendre des décisions plus intelligentes, fondées sur les chiffres.',
+            'Conçu avec des opérateurs sur plus de 500 sites, pour les décisions qui doivent se prendre sur les chiffres dont vous disposez déjà.',
           bookDemo: 'Réserver une démo',
           contactSales: 'Contacter les ventes',
         },
@@ -2089,7 +2089,7 @@ export const websiteMessages = {
           privacyNote: 'Respetamos tu privacidad. Puedes darte de baja en cualquier momento.',
           ctaTitle: '¿Listo para transformar tu restaurante?',
           ctaDescription:
-            'Únete a miles de operadores que usan Sundae para tomar decisiones más inteligentes y basadas en datos.',
+            'Construido con operadores de más de 500 locales, para las decisiones que hay que tomar con las cifras que ya tienes.',
           bookDemo: 'Reservar una demo',
           contactSales: 'Contactar ventas',
         },

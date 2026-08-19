@@ -39,7 +39,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
     fullWidth = false,
   } = props;
 
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#FF5C4D] focus-visible:ring-offset-[var(--navy-deep)]';
+  const baseStyles = 'inline-flex items-center justify-center whitespace-nowrap font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#FF5C4D] focus-visible:ring-offset-[var(--navy-deep)]';
 
   const variants = {
     // Primary - warm signature gradient with coral glow (dark); a premium solid

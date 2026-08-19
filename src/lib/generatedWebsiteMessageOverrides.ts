@@ -762,11 +762,11 @@ export const generatedWebsiteMessageOverrides = {
           "toolsDescription": "Probieren Sie die kostenlosen Rechner von Sundae für Personalkosten, Menü-Margen, Benchmark-Bereitschaft und mehr aus.",
           "exploreTools": "Alle Tools erkunden",
           "stayUpdated": "Aktualisiert bleiben",
-          "newsletterDescription": "Erhalten Sie die neuesten Einblicke in die Restaurantbranche, Benchmarks und Trends der Entscheidungsintelligenz direkt in Ihren Posteingang.",
+          "newsletterDescription": "Food-Service-Einblicke, Benchmarks und Trends zur Entscheidungsintelligenz - direkt in Ihr Postfach.",
           "subscribe": "Abonnieren",
           "privacyNote": "Wir respektieren Ihre Privatsphäre. Abmeldung jederzeit möglich.",
           "ctaTitle": "Bereit, Ihr Restaurant zu transformieren?",
-          "ctaDescription": "Schließen Sie sich Tausenden von Restaurantbetreibern an, die Sundae nutzen, um smartere, zahlenbasierte Entscheidungen zu treffen.",
+          "ctaDescription": "Mit Betreibern an über 500 Standorten entwickelt - für die Entscheidungen, die mit den Zahlen fallen müssen, die Sie schon haben.",
           "bookDemo": "Demo buchen",
           "contactSales": "Vertrieb kontaktieren"
         }
@@ -1537,7 +1537,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "Abonneer",
           "privacyNote": "We respecteren je privacy. Uitschrijven kan op elk moment.",
           "ctaTitle": "Klaar om Jouw Restaurant te Transformeren?",
-          "ctaDescription": "Sluit je aan bij duizenden restaurantoperators die Sundae gebruiken om slimmer, op cijfers gebaseerde beslissingen te nemen.",
+          "ctaDescription": "Gebouwd met operators op meer dan 500 vestigingen, voor de beslissingen die genomen moeten worden op de cijfers die je al hebt.",
           "bookDemo": "Boek een Demo",
           "contactSales": "Neem Contact Op met Sales"
         }
@@ -2304,11 +2304,11 @@ export const generatedWebsiteMessageOverrides = {
           "toolsDescription": "Experimente as calculadoras gratuitas do Sundae para custos de mão de obra, margens de menu, prontidão para benchmark e mais.",
           "exploreTools": "Explore Todas as Ferramentas",
           "stayUpdated": "Mantenha-se Atualizado",
-          "newsletterDescription": "Receba as últimas informações sobre a indústria de restaurantes, benchmarks e tendências de inteligência de decisão entregues na sua caixa de entrada.",
+          "newsletterDescription": "Insight de food service, benchmarks e tendências de inteligência de decisão, na sua caixa de entrada.",
           "subscribe": "Inscrever-se",
           "privacyNote": "Respeitamos sua privacidade. Cancele a inscrição a qualquer momento.",
           "ctaTitle": "Pronto para Transformar Seu Restaurante?",
-          "ctaDescription": "Junte-se a milhares de operadores de restaurantes que usam o Sundae para tomar decisões mais inteligentes, baseadas em números.",
+          "ctaDescription": "Construído com operadores em mais de 500 unidades, para as decisões que têm de ser tomadas com os números que já tem.",
           "bookDemo": "Agendar uma Demonstração",
           "contactSales": "Entre em Contato com Vendas"
         }
@@ -3079,7 +3079,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "सदस्यता लें",
           "privacyNote": "हम आपकी गोपनीयता का सम्मान करते हैं। कभी भी अनसब्सक्राइब करें।",
           "ctaTitle": "क्या आप अपने रेस्टोरेंट को बदलने के लिए तैयार हैं?",
-          "ctaDescription": "हजारों रेस्टोरेंट ऑपरेटरों में शामिल हों जो Sundae का उपयोग करके स्मार्ट, नंबर-समर्थित निर्णय लेते हैं।",
+          "ctaDescription": "500 से अधिक आउटलेट के ऑपरेटरों के साथ बनाया गया - उन फ़ैसलों के लिए जो आपके पास मौजूद आँकड़ों पर ही लेने होते हैं।",
           "bookDemo": "डेमो बुक करें",
           "contactSales": "बिक्री से संपर्क करें"
         }
@@ -3850,7 +3850,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "سبسکرائب کریں",
           "privacyNote": "ہم آپ کی رازداری کا احترام کرتے ہیں۔ کسی بھی وقت ان سبسکرائب کریں۔",
           "ctaTitle": "اپنے ریستوران کو تبدیل کرنے کے لیے تیار ہیں؟",
-          "ctaDescription": "ہزاروں ریستوران کے آپریٹرز میں شامل ہوں جو Sundae کا استعمال کرتے ہیں تاکہ زیادہ ذہین، عددی بنیاد پر فیصلے کیے جا سکیں۔",
+          "ctaDescription": "500 سے زائد مقامات کے آپریٹرز کے ساتھ بنایا گیا - اُن فیصلوں کے لیے جو آپ کے موجودہ اعداد پر ہی کرنے ہوتے ہیں۔",
           "bookDemo": "ڈیمو بک کریں",
           "contactSales": "سیلز سے رابطہ کریں"
         }
@@ -4621,7 +4621,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "Iscriviti",
           "privacyNote": "Rispettiamo la tua privacy. Disiscriviti in qualsiasi momento.",
           "ctaTitle": "Pronto a Trasformare il Tuo Ristorante?",
-          "ctaDescription": "Unisciti a migliaia di operatori di ristoranti che utilizzano Sundae per prendere decisioni più intelligenti, supportate dai numeri.",
+          "ctaDescription": "Costruito con operatori su oltre 500 sedi, per le decisioni che vanno prese sui numeri che hai già.",
           "bookDemo": "Prenota una Demo",
           "contactSales": "Contatta le Vendite"
         }
@@ -5392,7 +5392,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "Subskrybuj",
           "privacyNote": "Szanujemy twoją prywatność. W każdej chwili możesz zrezygnować z subskrypcji.",
           "ctaTitle": "Gotowy, aby przekształcić swoją restaurację?",
-          "ctaDescription": "Dołącz do tysięcy operatorów restauracji, którzy używają Sundae do podejmowania mądrzejszych decyzji opartych na liczbach.",
+          "ctaDescription": "Zbudowane z operatorami z ponad 500 lokalizacji - dla decyzji, które trzeba podjąć na liczbach, które już masz.",
           "bookDemo": "Umów się na Demo",
           "contactSales": "Skontaktuj się z Działem Sprzedaży"
         }
@@ -7701,11 +7701,11 @@ export const generatedWebsiteMessageOverrides = {
           "toolsDescription": "労働コスト、メニューのマージン、ベンチマークの準備などのためのSundaeの無料計算機を試してみてください。",
           "exploreTools": "すべてのツールを探る",
           "stayUpdated": "最新情報を受け取る",
-          "newsletterDescription": "最新のレストラン業界の洞察、ベンチマーク、意思決定インテリジェンストレンドをあなたの受信箱にお届けします。",
+          "newsletterDescription": "フードサービスの知見、ベンチマーク、意思決定インテリジェンスの動向を受信箱へ。",
           "subscribe": "購読する",
           "privacyNote": "私たちはあなたのプライバシーを尊重します。いつでも購読解除できます。",
           "ctaTitle": "あなたのレストランを変革する準備はできましたか？",
-          "ctaDescription": "Sundaeを使用してよりスマートで数字に基づいた意思決定を行う何千ものレストランオペレーターに参加してください。",
+          "ctaDescription": "500 を超える拠点の運営者とともに構築しました。いま手元にある数字で下さなければならない意思決定のために。",
           "bookDemo": "デモを予約",
           "contactSales": "営業に連絡"
         }
@@ -8476,7 +8476,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "구독하기",
           "privacyNote": "귀하의 개인정보를 존중합니다. 언제든지 구독 취소 가능합니다.",
           "ctaTitle": "레스토랑을 혁신할 준비가 되셨나요?",
-          "ctaDescription": "더 스마트하고 숫자 기반의 결정을 내리기 위해 Sundae를 사용하는 수천 명의 레스토랑 운영자에 합류하세요.",
+          "ctaDescription": "500곳이 넘는 지점의 운영자들과 함께 만들었습니다. 지금 가진 숫자로 내려야 하는 결정을 위해서입니다.",
           "bookDemo": "데모 예약",
           "contactSales": "영업팀에 문의"
         }
@@ -9247,7 +9247,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "Berlangganan",
           "privacyNote": "Kami menghormati privasi Anda. Berhenti berlangganan kapan saja.",
           "ctaTitle": "Siap untuk Mengubah Restoran Anda?",
-          "ctaDescription": "Bergabunglah dengan ribuan operator restoran yang menggunakan Sundae untuk membuat keputusan yang lebih cerdas dan berbasis angka.",
+          "ctaDescription": "Dibangun bersama operator di lebih dari 500 lokasi, untuk keputusan yang harus diambil dengan angka yang sudah Anda miliki.",
           "bookDemo": "Pesan Demo",
           "contactSales": "Hubungi Penjualan"
         }
@@ -11560,7 +11560,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "Prenumerera",
           "privacyNote": "Vi respekterar din integritet. Avprenumerera när som helst.",
           "ctaTitle": "Redo att Transformera Din Restaurang?",
-          "ctaDescription": "Gå med tusentals restaurangoperatörer som använder Sundae för att fatta smartare, siffror-baserade beslut.",
+          "ctaDescription": "Byggt tillsammans med operatörer på över 500 enheter, för de beslut som måste fattas på de siffror ni redan har.",
           "bookDemo": "Boka en Demo",
           "contactSales": "Kontakta Försäljning"
         }
@@ -12331,7 +12331,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "সাবস্ক্রাইব করুন",
           "privacyNote": "আমরা আপনার গোপনীয়তা সম্মান করি। যেকোনো সময় সাবস্ক্রিপশন বাতিল করুন।",
           "ctaTitle": "আপনার রেস্তোরাঁর রূপান্তর করতে প্রস্তুত?",
-          "ctaDescription": "হাজার হাজার রেস্তোরাঁর অপারেটরের সাথে যোগ দিন যারা Sundae ব্যবহার করে স্মার্ট, সংখ্যা-ভিত্তিক সিদ্ধান্ত নিতে।",
+          "ctaDescription": "৫০০-র বেশি আউটলেটের অপারেটরদের সঙ্গে তৈরি - সেইসব সিদ্ধান্তের জন্য যেগুলো আপনার হাতে থাকা সংখ্যা দিয়েই নিতে হয়।",
           "bookDemo": "ডেমো বুক করুন",
           "contactSales": "বিক্রয় যোগাযোগ করুন"
         }
@@ -13102,7 +13102,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "สมัครสมาชิก",
           "privacyNote": "เรานับถือความเป็นส่วนตัวของคุณ ยกเลิกการสมัครได้ทุกเมื่อ",
           "ctaTitle": "พร้อมที่จะเปลี่ยนแปลงร้านอาหารของคุณหรือยัง?",
-          "ctaDescription": "เข้าร่วมกับผู้ดำเนินการร้านอาหารหลายพันคนที่ใช้ Sundae เพื่อทำการตัดสินใจที่ชาญฉลาดและมีข้อมูลสนับสนุน",
+          "ctaDescription": "สร้างร่วมกับผู้ดำเนินการกว่า 500 สาขา เพื่อการตัดสินใจที่ต้องตัดสินด้วยตัวเลขที่คุณมีอยู่แล้ว",
           "bookDemo": "จองการสาธิต",
           "contactSales": "ติดต่อฝ่ายขาย"
         }
@@ -13873,7 +13873,7 @@ export const generatedWebsiteMessageOverrides = {
           "subscribe": "Langgan",
           "privacyNote": "Kami menghormati privasi anda. Berhenti melanggan pada bila-bila masa.",
           "ctaTitle": "Sedia untuk Mengubah Restoran Anda?",
-          "ctaDescription": "Sertai ribuan pengendali restoran yang menggunakan Sundae untuk membuat keputusan yang lebih bijak, berdasarkan nombor.",
+          "ctaDescription": "Dibina bersama pengendali di lebih 500 lokasi, untuk keputusan yang perlu dibuat dengan angka yang anda sudah ada.",
           "bookDemo": "Tempah Demo",
           "contactSales": "Hubungi Jualan"
         }
