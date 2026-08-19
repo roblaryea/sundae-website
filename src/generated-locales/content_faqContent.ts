@@ -11,10 +11,22 @@ export const generatedLocalCopy = {
             "title": "Was ist Sundae?",
             "content": "Sundae ist eine Entscheidungsintelligenzplattform für Restaurants und Gastgewerbe-Teams. Sie bündelt verstreute Betriebsdaten an einem Ort, damit Führungskräfte sehen können, was passiert ist, was sich ändert und wo sie als Nächstes handeln sollten."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Wie fange ich an?",
+            "content": "Sie haben zwei Möglichkeiten:\\n\\n1. **Preise ansehen** - Nutzen Sie den interaktiven Preisrechner auf pricing.sundae.io, um ein Core-Paket auf Ihre Standortzahl zuzuschneiden.\\n\\n2. **Demo buchen** - Vereinbaren Sie einen 15-minütigen Rundgang mit unserem Team und sehen Sie Sundae an Ihren eigenen Daten."
+          },
+          {
+            "title": "Gibt es eine kostenlose Stufe?",
+            "content": "Nein. Jedes Sundae-Paket ist kostenpflichtig, ab dem ersten Standort. Was wir anbieten, ist eine Arbeitssitzung an Ihren eigenen Zahlen, bevor Sie sich festlegen - so sehen Sie den Ertrag, bevor Sie etwas unterschreiben."
+          },
+          {
+            "title": "Worin unterscheiden sich die Core-Pakete?",
+            "content": "**Core Foundation** - die operative Grundlage: ein Entscheidungsfundament über POS, Personal, Kosten und Betrieb.\\n\\n**Core Margin** - Tiefe bei Kosten und Schwund: theoretischer vs. tatsächlicher Verbrauch, Abfall, Schwund, Stornos und Comps, Deckungsbeitrag je Artikel.\\n\\n**Core Growth** - Tiefe bei der Nachfrage: Gästekohorten und Lebenszeitwert, Promo-Attribution je Kanal, Liefermarge nach Provision.\\n\\n**Core Performance** - Konsolidierung über Marken und Regionen, modulübergreifende Korrelation, geregelter Zugriff mit Prüfpfaden.\\n\\nAlle vier tragen dieselben elf Domänenmodule. Was sich ändert, ist die Tiefe."
+          },
+          {
+            "title": "Brauche ich einen langfristigen Vertrag?",
+            "content": "Nein. Jedes Paket ist monatlich kündbar, ohne Strafgebühr. Jahres- und Zweijahresbindungen gibt es, weil sie günstiger sind - 10 % und 15 % Nachlass -, nicht weil sie verlangt werden."
+          }
         ]
       },
       {
@@ -228,10 +240,22 @@ export const generatedLocalCopy = {
             "title": "Qu'est-ce que Sundae ?",
             "content": "Sundae est une plateforme d'intelligence décisionnelle pour les restaurants et les équipes de l'hôtellerie. Elle regroupe des données opérationnelles éparpillées en un seul endroit afin que les dirigeants puissent voir ce qui s'est passé, ce qui change et où agir ensuite."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Comment démarrer ?",
+            "content": "Vous avez deux options :\\n\\n1. **Voir vos tarifs** - Utilisez le calculateur interactif sur pricing.sundae.io pour dimensionner une offre Core selon votre nombre de sites.\\n\\n2. **Réserver une démo** - Planifiez une présentation de 15 minutes avec notre équipe et voyez Sundae tourner sur vos données."
+          },
+          {
+            "title": "Existe-t-il une offre gratuite ?",
+            "content": "Non. Chaque offre Sundae est payante, à partir de votre premier site. Ce que nous proposons, c'est une séance de travail sur vos propres chiffres avant tout engagement, pour que vous voyiez le retour avant de signer."
+          },
+          {
+            "title": "Quelle est la différence entre les offres Core ?",
+            "content": "**Core Foundation** - la base opérationnelle : un socle de décision sur le POS, le personnel, les coûts et l'exploitation.\\n\\n**Core Margin** - la profondeur sur les coûts et les fuites : consommation théorique et réelle, gaspillage, démarque, annulations et offerts, contribution par article.\\n\\n**Core Growth** - la profondeur sur la demande : cohortes de clients et valeur à vie, attribution des promotions par canal, marge de livraison après commission.\\n\\n**Core Performance** - consolidation multi-marques et multi-régions, corrélation entre modules, accès gouverné avec pistes d'audit.\\n\\nLes quatre embarquent les mêmes onze modules métier. Ce qui change, c'est la profondeur."
+          },
+          {
+            "title": "Faut-il un engagement de longue durée ?",
+            "content": "Non. Chaque offre est disponible au mois et résiliable sans pénalité. Les engagements annuels et biennaux existent parce qu'ils coûtent moins cher - 10 % et 15 % de remise - pas parce qu'ils sont obligatoires."
+          }
         ]
       },
       {
@@ -422,10 +446,22 @@ export const generatedLocalCopy = {
             "title": "¿Qué es Sundae?",
             "content": "Sundae es una plataforma de inteligencia de decisiones para restaurantes y equipos de hospitalidad. Reúne datos operativos dispersos en un solo lugar para que los líderes puedan ver qué sucedió, qué está cambiando y dónde actuar a continuación."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "¿Cómo empiezo?",
+            "content": "Tienes dos opciones:\\n\\n1. **Ver tu precio** - Usa la calculadora interactiva en pricing.sundae.io para dimensionar un paquete Core según tu número de locales.\\n\\n2. **Reservar una demo** - Agenda un recorrido de 15 minutos con nuestro equipo y ve Sundae funcionando con tus datos."
+          },
+          {
+            "title": "¿Hay un plan gratuito?",
+            "content": "No. Todos los paquetes de Sundae son de pago, desde el primer local. Lo que sí ofrecemos es una sesión de trabajo con tus propios números antes de que te comprometas, para que veas el retorno antes de firmar nada."
+          },
+          {
+            "title": "¿En qué se diferencian los paquetes Core?",
+            "content": "**Core Foundation** - la base operativa: un sustrato de decisión sobre POS, personal, coste y operación.\\n\\n**Core Margin** - profundidad en coste y fugas: consumo teórico frente a real, merma, pérdida desconocida, anulaciones e invitaciones, contribución por artículo.\\n\\n**Core Growth** - profundidad en demanda: cohortes de clientes y valor de vida, atribución de promociones por canal, margen de delivery tras comisión.\\n\\n**Core Performance** - consolidación multimarca y multirregión, correlación entre módulos, acceso gobernado con pistas de auditoría.\\n\\nLos cuatro llevan los mismos once módulos de dominio. Lo que cambia es la profundidad."
+          },
+          {
+            "title": "¿Necesito un contrato de larga duración?",
+            "content": "No. Cada paquete está disponible mes a mes y puedes cancelar sin penalización. Los compromisos anuales y a dos años existen porque cuestan menos - 10 % y 15 % de descuento -, no porque sean obligatorios."
+          }
         ]
       },
       {
@@ -616,10 +652,22 @@ export const generatedLocalCopy = {
             "title": "Wat is Sundae?",
             "content": "Sundae is een platform voor besluitvorming voor restaurants en hospitalityteams. Het verzamelt verspreide operationele gegevens op één plek, zodat leiders kunnen zien wat er is gebeurd, wat er verandert en waar ze als volgende actie moeten ondernemen."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Hoe begin ik?",
+            "content": "Je hebt twee opties:\\n\\n1. **Bekijk je prijs** - Gebruik de interactieve prijscalculator op pricing.sundae.io om een Core-pakket op je aantal vestigingen te schalen.\\n\\n2. **Boek een demo** - Plan een rondleiding van 15 minuten met ons team en zie Sundae draaien op je eigen data."
+          },
+          {
+            "title": "Is er een gratis versie?",
+            "content": "Nee. Elk Sundae-pakket is betaald, vanaf je eerste vestiging. Wat we wel bieden is een werksessie op je eigen cijfers voordat je je vastlegt, zodat je het rendement ziet voordat je iets tekent."
+          },
+          {
+            "title": "Wat is het verschil tussen de Core-pakketten?",
+            "content": "**Core Foundation** - de operationele basis: één beslissingsfundament over POS, personeel, kosten en operatie.\\n\\n**Core Margin** - diepgang op kosten en lekkage: theoretisch versus werkelijk verbruik, verspilling, derving, annuleringen en weggevers, bijdrage per artikel.\\n\\n**Core Growth** - diepgang op vraag: gastcohorten en levenslange waarde, promotie-attributie per kanaal, bezorgmarge na commissie.\\n\\n**Core Performance** - consolidatie over merken en regio's, correlatie tussen modules, beheerste toegang met audit trails.\\n\\nAlle vier dragen dezelfde elf domeinmodules. Wat verandert is de diepgang."
+          },
+          {
+            "title": "Heb ik een langlopend contract nodig?",
+            "content": "Nee. Elk pakket is per maand beschikbaar en je kunt zonder boete opzeggen. Jaar- en tweejaarsafspraken bestaan omdat ze goedkoper zijn - 10% en 15% korting - niet omdat ze verplicht zijn."
+          }
         ]
       },
       {
@@ -833,10 +881,22 @@ export const generatedLocalCopy = {
             "title": "ما هو Sundae؟",
             "content": "Sundae هي منصة ذكاء القرار للمطاعم وفرق الضيافة. تجمع البيانات التشغيلية المتناثرة في مكان واحد حتى يتمكن القادة من رؤية ما حدث، وما يتغير، وأين يجب أن يتصرفوا بعد ذلك."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "كيف أبدأ؟",
+            "content": "أمامك خياران:\\n\\n1. **اطّلع على أسعارك** - استخدم حاسبة الأسعار التفاعلية على pricing.sundae.io لتحديد باقة Core المناسبة لعدد مواقعك.\\n\\n2. **احجز عرضاً** - رتّب جولة مدتها 15 دقيقة مع فريقنا لترى Sundae يعمل على بياناتك."
+          },
+          {
+            "title": "هل هناك باقة مجانية؟",
+            "content": "لا. كل باقات Sundae مدفوعة، وتبدأ من موقعك الأول. لكننا نوفّر جلسة عمل على أرقامك أنت قبل الالتزام، لترى العائد قبل أن توقّع أي شيء."
+          },
+          {
+            "title": "ما الفرق بين باقات Core؟",
+            "content": "**Core Foundation** - الأساس التشغيلي: ركيزة قرار واحدة فوق POS والعمالة والتكلفة والتشغيل.\\n\\n**Core Margin** - عمق في التكلفة والتسرب: الاستهلاك النظري مقابل الفعلي، الهدر، العجز، الإلغاءات والمجانيات، مساهمة كل صنف.\\n\\n**Core Growth** - عمق في الطلب: شرائح الضيوف وقيمتهم مدى الحياة، إسناد العروض لكل قناة، هامش التوصيل بعد العمولة.\\n\\n**Core Performance** - توحيد عبر العلامات والمناطق، ترابط بين الوحدات، وصول محوكم مع مسارات تدقيق.\\n\\nالباقات الأربع تحمل الوحدات الإحدى عشرة نفسها. ما يتغير هو العمق."
+          },
+          {
+            "title": "هل أحتاج إلى عقد طويل الأجل؟",
+            "content": "لا. كل باقة متاحة شهرياً ويمكنك الإلغاء دون غرامة. الالتزامات السنوية ولمدة سنتين موجودة لأنها أقل تكلفة - خصم 10% و15% - لا لأنها مطلوبة."
+          }
         ]
       },
       {
@@ -1027,10 +1087,22 @@ export const generatedLocalCopy = {
             "title": "O que é o Sundae?",
             "content": "Sundae é uma plataforma de inteligência de decisão para restaurantes e equipes de hospitalidade. Ela reúne dados operacionais dispersos em um só lugar, permitindo que os líderes vejam o que aconteceu, o que está mudando e onde agir a seguir."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Como começo?",
+            "content": "Tem duas opções:\\n\\n1. **Ver o seu preço** - Use a calculadora interativa em pricing.sundae.io para dimensionar um pacote Core face ao seu número de unidades.\\n\\n2. **Marcar uma demo** - Agende uma apresentação de 15 minutos com a nossa equipa e veja o Sundae a correr sobre os seus dados."
+          },
+          {
+            "title": "Existe um plano gratuito?",
+            "content": "Não. Todos os pacotes Sundae são pagos, a partir da primeira unidade. O que oferecemos é uma sessão de trabalho sobre os seus próprios números antes de se comprometer, para ver o retorno antes de assinar seja o que for."
+          },
+          {
+            "title": "Qual é a diferença entre os pacotes Core?",
+            "content": "**Core Foundation** - a base operacional: um substrato de decisão sobre POS, mão de obra, custo e operação.\\n\\n**Core Margin** - profundidade em custo e fugas: consumo teórico versus real, desperdício, quebras, cancelamentos e cortesias, contribuição por artigo.\\n\\n**Core Growth** - profundidade na procura: coortes de clientes e valor vitalício, atribuição de promoções por canal, margem de entrega após comissão.\\n\\n**Core Performance** - consolidação multimarca e multirregião, correlação entre módulos, acesso governado com trilhas de auditoria.\\n\\nOs quatro levam os mesmos onze módulos de domínio. O que muda é a profundidade."
+          },
+          {
+            "title": "Preciso de um contrato de longo prazo?",
+            "content": "Não. Cada pacote está disponível mês a mês e pode cancelar sem penalização. Os compromissos anuais e a dois anos existem porque custam menos - 10% e 15% de desconto - não porque sejam obrigatórios."
+          }
         ]
       },
       {
@@ -1244,10 +1316,22 @@ export const generatedLocalCopy = {
             "title": "Sundae کیا ہے؟",
             "content": "Sundae ریستورانوں اور مہمان نوازی کی ٹیموں کے لیے ایک فیصلہ سازی کی ذہانت کا پلیٹ فارم ہے۔ یہ منتشر آپریشنل ڈیٹا کو ایک جگہ پر جمع کرتا ہے تاکہ رہنما دیکھ سکیں کہ کیا ہوا، کیا بدل رہا ہے، اور اگلا قدم کہاں اٹھانا ہے۔"
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "میں شروعات کیسے کروں؟",
+            "content": "آپ کے پاس دو راستے ہیں:\\n\\n1. **اپنی قیمت دیکھیں** - pricing.sundae.io پر انٹرایکٹو کیلکولیٹر سے اپنی برانچوں کی تعداد کے مطابق Core پیکیج طے کریں۔\\n\\n2. **ڈیمو بک کریں** - ہماری ٹیم کے ساتھ 15 منٹ کا جائزہ طے کریں اور Sundae کو اپنے ہی ڈیٹا پر چلتا دیکھیں۔"
+          },
+          {
+            "title": "کیا کوئی مفت درجہ ہے؟",
+            "content": "نہیں۔ Sundae کا ہر پیکیج بامعاوضہ ہے اور پہلی برانچ سے قیمت لگتی ہے۔ ہم جو پیش کرتے ہیں وہ یہ ہے کہ فیصلے سے پہلے آپ کے اپنے اعداد پر ایک ورکنگ سیشن ہو، تاکہ دستخط سے پہلے آپ منافع دیکھ لیں۔"
+          },
+          {
+            "title": "Core پیکیجز میں کیا فرق ہے؟",
+            "content": "**Core Foundation** - آپریشنل بنیاد: POS، محنت، لاگت اور آپریشنز پر ایک ہی فیصلہ ساز بنیاد۔\\n\\n**Core Margin** - لاگت اور رساؤ میں گہرائی: نظری بمقابلہ حقیقی استعمال، ضیاع، کمی، وائیڈز اور کامپس، فی آئٹم شراکت۔\\n\\n**Core Growth** - طلب میں گہرائی: مہمانوں کے گروہ اور تاحیات قدر، فی چینل پروموشن انتساب، کمیشن کے بعد ڈیلیوری مارجن۔\\n\\n**Core Performance** - کئی برانڈز اور خطوں کا یکجا کرنا، ماڈیولز کے درمیان تعلق، آڈٹ ٹریل کے ساتھ ضابطہ بند رسائی۔\\n\\nچاروں میں وہی گیارہ ڈومین ماڈیولز ہیں۔ جو بدلتا ہے وہ گہرائی ہے۔"
+          },
+          {
+            "title": "کیا طویل مدتی معاہدہ ضروری ہے؟",
+            "content": "نہیں۔ ہر پیکیج ماہانہ بنیاد پر دستیاب ہے اور آپ بغیر جرمانے کے منسوخ کر سکتے ہیں۔ سالانہ اور دو سالہ وعدے اس لیے ہیں کہ وہ سستے پڑتے ہیں - 10% اور 15% رعایت - اس لیے نہیں کہ لازمی ہیں۔"
+          }
         ]
       },
       {
@@ -1461,10 +1545,22 @@ export const generatedLocalCopy = {
             "title": "Che cos'è Sundae?",
             "content": "Sundae è una piattaforma di intelligenza decisionale per ristoranti e team dell'ospitalità. Raccoglie dati operativi sparsi in un unico posto, così i leader possono vedere cosa è successo, cosa sta cambiando e dove agire successivamente."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Come inizio?",
+            "content": "Hai due possibilità:\\n\\n1. **Vedi il tuo prezzo** - Usa il calcolatore interattivo su pricing.sundae.io per dimensionare un pacchetto Core sul tuo numero di sedi.\\n\\n2. **Prenota una demo** - Fissa una presentazione di 15 minuti con il nostro team e guarda Sundae girare sui tuoi dati."
+          },
+          {
+            "title": "Esiste un piano gratuito?",
+            "content": "No. Ogni pacchetto Sundae è a pagamento, a partire dalla prima sede. Quello che offriamo è una sessione di lavoro sui tuoi numeri prima di impegnarti, così vedi il ritorno prima di firmare qualsiasi cosa."
+          },
+          {
+            "title": "Qual è la differenza tra i pacchetti Core?",
+            "content": "**Core Foundation** - la base operativa: un unico substrato decisionale su POS, personale, costi e operatività.\\n\\n**Core Margin** - profondità su costi e perdite: consumo teorico e reale, sprechi, ammanchi, storni e omaggi, contribuzione per articolo.\\n\\n**Core Growth** - profondità sulla domanda: coorti di ospiti e valore nel tempo, attribuzione delle promozioni per canale, margine delivery al netto delle commissioni.\\n\\n**Core Performance** - consolidamento tra insegne e aree, correlazione tra moduli, accessi governati con tracciabilità.\\n\\nTutti e quattro portano gli stessi undici moduli. Ciò che cambia è la profondità."
+          },
+          {
+            "title": "Serve un contratto a lungo termine?",
+            "content": "No. Ogni pacchetto è disponibile mese per mese e puoi disdire senza penali. Gli impegni annuali e biennali esistono perché costano meno - sconti del 10% e del 15% - non perché siano obbligatori."
+          }
         ]
       },
       {
@@ -1678,10 +1774,22 @@ export const generatedLocalCopy = {
             "title": "Sundae क्या है?",
             "content": "Sundae एक निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म है जो रेस्तरां और आतिथ्य टीमों के लिए है। यह बिखरे हुए संचालन डेटा को एक जगह पर लाता है ताकि नेता देख सकें कि क्या हुआ, क्या बदल रहा है, और अगला कदम कहाँ उठाना है।"
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "मैं शुरुआत कैसे करूँ?",
+            "content": "आपके पास दो विकल्प हैं:\\n\\n1. **अपनी कीमत देखें** - pricing.sundae.io पर इंटरैक्टिव कैलकुलेटर से अपने आउटलेट की संख्या के हिसाब से Core पैकेज तय करें।\\n\\n2. **डेमो बुक करें** - हमारी टीम के साथ 15 मिनट का वॉकथ्रू तय करें और Sundae को अपने ही डेटा पर चलते देखें।"
+          },
+          {
+            "title": "क्या कोई मुफ़्त स्तर है?",
+            "content": "नहीं। Sundae का हर पैकेज सशुल्क है और पहले आउटलेट से ही मूल्य लगता है। हम जो देते हैं वह है प्रतिबद्धता से पहले आपके अपने आँकड़ों पर एक वर्किंग सेशन, ताकि कुछ भी साइन करने से पहले आप रिटर्न देख सकें।"
+          },
+          {
+            "title": "Core पैकेजों में क्या अंतर है?",
+            "content": "**Core Foundation** - परिचालन आधार: POS, श्रम, लागत और संचालन पर एक ही निर्णय-आधार।\\n\\n**Core Margin** - लागत और रिसाव में गहराई: सैद्धांतिक बनाम वास्तविक खपत, बर्बादी, कमी, वॉइड और कॉम्प, प्रति-आइटम योगदान।\\n\\n**Core Growth** - माँग में गहराई: मेहमान कोहॉर्ट और जीवनकाल मूल्य, चैनलवार प्रोमो एट्रिब्यूशन, कमीशन के बाद डिलीवरी मार्जिन।\\n\\n**Core Performance** - बहु-ब्रांड व बहु-क्षेत्र समेकन, मॉड्यूल-पार सहसंबंध, ऑडिट ट्रेल के साथ नियंत्रित पहुँच।\\n\\nचारों में वही ग्यारह डोमेन मॉड्यूल हैं। बदलती है गहराई।"
+          },
+          {
+            "title": "क्या लंबी अवधि का अनुबंध ज़रूरी है?",
+            "content": "नहीं। हर पैकेज माह-दर-माह उपलब्ध है और आप बिना जुर्माने के रद्द कर सकते हैं। वार्षिक और दो-वर्षीय प्रतिबद्धताएँ इसलिए हैं क्योंकि वे सस्ती पड़ती हैं - 10% और 15% छूट - इसलिए नहीं कि वे अनिवार्य हैं।"
+          }
         ]
       },
       {
@@ -1895,10 +2003,22 @@ export const generatedLocalCopy = {
             "title": "Sundae nedir?",
             "content": "Sundae, restoranlar ve misafirperverlik ekipleri için bir karar zeka platformudur. Dağınık işletme verilerini tek bir yerde toplar, böylece liderler ne olduğunu, neyin değiştiğini ve nerede harekete geçmeleri gerektiğini görebilir."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Nasıl başlarım?",
+            "content": "İki seçeneğiniz var:\\n\\n1. **Fiyatınızı görün** - pricing.sundae.io adresindeki etkileşimli hesaplayıcıyla şube sayınıza göre bir Core paketi boyutlandırın.\\n\\n2. **Demo ayarlayın** - Ekibimizle 15 dakikalık bir tur planlayın ve Sundae'yi kendi verinizle çalışırken görün."
+          },
+          {
+            "title": "Ücretsiz bir katman var mı?",
+            "content": "Hayır. Her Sundae paketi ücretlidir ve ilk şubenizden itibaren fiyatlanır. Bunun yerine, taahhüt vermeden önce kendi rakamlarınız üzerinde bir çalışma oturumu sunuyoruz; böylece hiçbir şey imzalamadan getiriyi görürsünüz."
+          },
+          {
+            "title": "Core paketleri arasındaki fark nedir?",
+            "content": "**Core Foundation** - işletme temeli: POS, iş gücü, maliyet ve operasyon üzerinde tek bir karar zemini.\\n\\n**Core Margin** - maliyet ve sızıntıda derinlik: teorik ve gerçek kullanım, israf, kayıp, iptaller ve ikramlar, ürün bazında katkı.\\n\\n**Core Growth** - talepte derinlik: misafir kohortları ve yaşam boyu değer, kanal bazında promosyon atfı, komisyon sonrası teslimat marjı.\\n\\n**Core Performance** - markalar ve bölgeler arası konsolidasyon, modüller arası korelasyon, denetim izli yönetilen erişim.\\n\\nDördü de aynı on bir alan modülünü taşır. Değişen, derinliktir."
+          },
+          {
+            "title": "Uzun vadeli sözleşme gerekir mi?",
+            "content": "Hayır. Her paket aylık olarak sunulur ve cezasız iptal edebilirsiniz. Yıllık ve iki yıllık taahhütler zorunlu oldukları için değil, daha ucuz oldukları için vardır - %10 ve %15 indirim."
+          }
         ]
       },
       {
@@ -2112,10 +2232,22 @@ export const generatedLocalCopy = {
             "title": "Czym jest Sundae?",
             "content": "Sundae to platforma inteligencji decyzyjnej dla restauracji i zespołów z branży hotelarskiej. Zbiera rozproszone dane operacyjne w jednym miejscu, aby liderzy mogli zobaczyć, co się wydarzyło, co się zmienia i gdzie działać dalej."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Jak zacząć?",
+            "content": "Masz dwie możliwości:\\n\\n1. **Zobacz swoją cenę** - Skorzystaj z interaktywnego kalkulatora na pricing.sundae.io, aby dobrać pakiet Core do liczby lokalizacji.\\n\\n2. **Umów demo** - Zarezerwuj 15-minutowy przegląd z naszym zespołem i zobacz Sundae na swoich danych."
+          },
+          {
+            "title": "Czy jest darmowy plan?",
+            "content": "Nie. Każdy pakiet Sundae jest płatny, już od pierwszej lokalizacji. Oferujemy natomiast sesję roboczą na twoich własnych liczbach przed decyzją, żebyś zobaczył zwrot, zanim cokolwiek podpiszesz."
+          },
+          {
+            "title": "Czym różnią się pakiety Core?",
+            "content": "**Core Foundation** - baza operacyjna: jeden fundament decyzyjny nad POS, pracą, kosztem i operacjami.\\n\\n**Core Margin** - głębia w kosztach i wyciekach: zużycie teoretyczne kontra rzeczywiste, straty, ubytki, anulacje i gratisy, kontrybucja pozycji.\\n\\n**Core Growth** - głębia w popycie: kohorty gości i wartość w czasie, atrybucja promocji wg kanału, marża dostaw po prowizji.\\n\\n**Core Performance** - konsolidacja wielu marek i regionów, korelacja między modułami, kontrolowany dostęp ze śladem audytowym.\\n\\nWszystkie cztery niosą te same jedenaście modułów. Zmienia się głębia."
+          },
+          {
+            "title": "Czy potrzebuję długiej umowy?",
+            "content": "Nie. Każdy pakiet jest dostępny miesięcznie i możesz zrezygnować bez kary. Zobowiązania roczne i dwuletnie istnieją, bo kosztują mniej - 10% i 15% taniej - a nie dlatego, że są wymagane."
+          }
         ]
       },
       {
@@ -2329,10 +2461,22 @@ export const generatedLocalCopy = {
             "title": "什么是Sundae？",
             "content": "Sundae是一个为餐厅和酒店团队提供决策智能的平台。它将分散的运营数据集中到一个地方，以便领导者可以看到发生了什么、正在发生什么变化以及接下来该采取什么行动。"
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "我该如何开始？",
+            "content": "你有两个选择：\\n\\n1. **查看你的报价** - 在 pricing.sundae.io 使用交互式计算器，按门店数量匹配一个 Core 套餐。\\n\\n2. **预约演示** - 与团队约一场 15 分钟的讲解，看 Sundae 跑在你自己的数据上。"
+          },
+          {
+            "title": "有免费版吗？",
+            "content": "没有。Sundae 的每个套餐都是付费的，从第一家门店起计价。我们提供的是在你决定之前，基于你自己数字的一场工作会谈——让你在签字之前先看到回报。"
+          },
+          {
+            "title": "Core 各套餐有什么区别？",
+            "content": "**Core Foundation** - 运营基线：覆盖 POS、人力、成本与运营的统一决策底座。\\n\\n**Core Margin** - 成本与流失的纵深：理论用量与实际用量、损耗、盘亏、作废与赠单、单品贡献。\\n\\n**Core Growth** - 需求侧的纵深：客户分群与生命周期价值、按渠道的促销归因、扣佣后的外卖毛利。\\n\\n**Core Performance** - 跨品牌跨区域合并、模块间关联分析、带审计轨迹的受控访问。\\n\\n四者携带同样的十一个领域模块，改变的是各自的纵深。"
+          },
+          {
+            "title": "需要签长期合同吗？",
+            "content": "不需要。每个套餐都可按月订阅，取消不收违约金。年度与两年期承诺之所以存在，是因为更便宜——分别优惠 10% 和 15%——而不是因为强制。"
+          }
         ]
       },
       {
@@ -2546,10 +2690,22 @@ export const generatedLocalCopy = {
             "title": "Sundaeとは何ですか？",
             "content": "Sundaeは、レストランやホスピタリティチームのための意思決定インテリジェンスプラットフォームです。散在する運営データを一箇所に集約し、リーダーが何が起こったのか、何が変わっているのか、次にどこで行動すべきかを把握できるようにします。"
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "どう始めればいいですか？",
+            "content": "方法は二つあります。\\n\\n1. **料金を確認する** - pricing.sundae.io の対話型計算ツールで、店舗数に合わせて Core パッケージを見積もれます。\\n\\n2. **デモを予約する** - 15分の説明を予約し、自社データ上で動く Sundae をご覧ください。"
+          },
+          {
+            "title": "無料プランはありますか？",
+            "content": "ありません。Sundae のパッケージはすべて有料で、1店舗目から課金されます。その代わり、ご契約前に自社の数字を使った作業セッションをご用意しています。署名の前に効果をご確認いただけます。"
+          },
+          {
+            "title": "Core パッケージの違いは何ですか？",
+            "content": "**Core Foundation** - 運営の土台。POS、人件費、原価、オペレーションをまたぐ一つの意思決定基盤です。\\n\\n**Core Margin** - 原価と漏れの深掘り。理論使用量と実使用量、廃棄、棚卸差異、取消・サービス提供、商品別の貢献度。\\n\\n**Core Growth** - 需要側の深掘り。顧客コホートと生涯価値、チャネル別の販促寄与、手数料控除後のデリバリー利益。\\n\\n**Core Performance** - 複数ブランド・複数地域の連結、モジュール横断の相関、監査証跡を伴う統制されたアクセス。\\n\\n四つとも同じ11の業務モジュールを備えます。変わるのは深さです。"
+          },
+          {
+            "title": "長期契約は必要ですか？",
+            "content": "不要です。どのパッケージも月単位でご利用でき、違約金なしで解約できます。年間契約と2年契約があるのは、その方が安いから（それぞれ10%と15%引き）であり、必須だからではありません。"
+          }
         ]
       },
       {
@@ -2763,10 +2919,22 @@ export const generatedLocalCopy = {
             "title": "Sundae란 무엇인가요?",
             "content": "Sundae는 레스토랑 및 환대 팀을 위한 의사 결정 인텔리전스 플랫폼입니다. 분산된 운영 데이터를 한 곳으로 모아 리더들이 무슨 일이 있었는지, 무엇이 변화하고 있는지, 다음에 어디에서 행동해야 하는지를 볼 수 있게 합니다."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "어떻게 시작하나요?",
+            "content": "두 가지 방법이 있습니다.\\n\\n1. **가격 확인하기** - pricing.sundae.io의 대화형 계산기로 매장 수에 맞춰 Core 패키지를 산정해 보세요.\\n\\n2. **데모 예약하기** - 15분 설명을 예약하고, 실제 데이터 위에서 동작하는 Sundae를 확인하세요."
+          },
+          {
+            "title": "무료 플랜이 있나요?",
+            "content": "없습니다. Sundae의 모든 패키지는 유료이며 첫 매장부터 과금됩니다. 대신 결정 전에 고객사의 실제 숫자로 진행하는 워킹 세션을 제공합니다. 서명하기 전에 효과를 먼저 보실 수 있습니다."
+          },
+          {
+            "title": "Core 패키지는 어떻게 다른가요?",
+            "content": "**Core Foundation** - 운영의 기준선. POS, 인건비, 원가, 운영을 아우르는 하나의 의사결정 기반입니다.\\n\\n**Core Margin** - 원가와 누수의 심화. 이론 사용량 대 실제 사용량, 폐기, 재고 손실, 취소와 서비스 제공, 품목별 기여도.\\n\\n**Core Growth** - 수요 측면의 심화. 고객 코호트와 생애가치, 채널별 프로모션 기여도, 수수료 차감 후 배달 마진.\\n\\n**Core Performance** - 다중 브랜드·다중 지역 통합, 모듈 간 상관분석, 감사 추적을 갖춘 통제된 접근.\\n\\n네 패키지 모두 동일한 11개 도메인 모듈을 담습니다. 달라지는 것은 깊이입니다."
+          },
+          {
+            "title": "장기 계약이 필요한가요?",
+            "content": "아닙니다. 모든 패키지는 월 단위로 이용할 수 있고 위약금 없이 해지할 수 있습니다. 연간·2년 약정이 있는 이유는 더 저렴하기 때문이며(각각 10%, 15% 할인), 필수이기 때문이 아닙니다."
+          }
         ]
       },
       {
@@ -2980,10 +3148,22 @@ export const generatedLocalCopy = {
             "title": "Apa itu Sundae?",
             "content": "Sundae adalah platform kecerdasan keputusan untuk restoran dan tim perhotelan. Ini mengumpulkan data operasional yang tersebar ke dalam satu tempat sehingga pemimpin dapat melihat apa yang terjadi, apa yang berubah, dan di mana harus bertindak selanjutnya."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Bagaimana cara memulai?",
+            "content": "Ada dua pilihan:\\n\\n1. **Lihat harga Anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menyesuaikan paket Core dengan jumlah gerai Anda.\\n\\n2. **Pesan demo** - Jadwalkan peninjauan 15 menit bersama tim kami dan lihat Sundae berjalan di atas data Anda."
+          },
+          {
+            "title": "Apakah ada tingkat gratis?",
+            "content": "Tidak. Semua paket Sundae berbayar, dihitung mulai dari gerai pertama. Yang kami tawarkan adalah sesi kerja dengan angka Anda sendiri sebelum Anda berkomitmen, sehingga Anda melihat hasilnya sebelum menandatangani apa pun."
+          },
+          {
+            "title": "Apa beda paket-paket Core?",
+            "content": "**Core Foundation** - dasar operasional: satu fondasi keputusan di atas POS, tenaga kerja, biaya, dan operasi.\\n\\n**Core Margin** - kedalaman pada biaya dan kebocoran: pemakaian teoretis versus aktual, susut, selisih stok, void dan komplimen, kontribusi per item.\\n\\n**Core Growth** - kedalaman pada permintaan: kohort tamu dan nilai seumur hidup, atribusi promo per kanal, margin pengiriman setelah komisi.\\n\\n**Core Performance** - konsolidasi lintas merek dan wilayah, korelasi antarmodul, akses terkelola dengan jejak audit.\\n\\nKeempatnya membawa sebelas modul domain yang sama. Yang berubah adalah kedalamannya."
+          },
+          {
+            "title": "Apakah saya butuh kontrak jangka panjang?",
+            "content": "Tidak. Setiap paket tersedia bulanan dan bisa dibatalkan tanpa penalti. Komitmen tahunan dan dua tahunan ada karena lebih murah - diskon 10% dan 15% - bukan karena diwajibkan."
+          }
         ]
       },
       {
@@ -3197,10 +3377,22 @@ export const generatedLocalCopy = {
             "title": "Sundae là gì?",
             "content": "Sundae là một nền tảng trí tuệ quyết định dành cho các nhà hàng và đội ngũ khách sạn. Nó tập hợp dữ liệu hoạt động rải rác vào một nơi để các nhà lãnh đạo có thể thấy những gì đã xảy ra, những gì đang thay đổi và nơi cần hành động tiếp theo."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Tôi bắt đầu thế nào?",
+            "content": "Bạn có hai lựa chọn:\\n\\n1. **Xem mức giá của bạn** - Dùng công cụ tính tương tác tại pricing.sundae.io để chọn gói Core theo số điểm bán.\\n\\n2. **Đặt lịch demo** - Hẹn buổi giới thiệu 15 phút cùng đội ngũ của chúng tôi và xem Sundae chạy trên dữ liệu của bạn."
+          },
+          {
+            "title": "Có bản miễn phí không?",
+            "content": "Không. Mọi gói Sundae đều tính phí, bắt đầu từ điểm bán đầu tiên. Điều chúng tôi cung cấp là một buổi làm việc trên chính số liệu của bạn trước khi cam kết, để bạn thấy phần thu về trước khi ký bất cứ điều gì."
+          },
+          {
+            "title": "Các gói Core khác nhau ra sao?",
+            "content": "**Core Foundation** - nền vận hành: một nền tảng ra quyết định trên POS, nhân công, chi phí và vận hành.\\n\\n**Core Margin** - chiều sâu về chi phí và thất thoát: định mức so với thực dùng, hao hụt, thiếu hụt kho, huỷ món và tặng, đóng góp theo từng món.\\n\\n**Core Growth** - chiều sâu về nhu cầu: nhóm khách và giá trị vòng đời, quy kết khuyến mãi theo kênh, biên giao hàng sau hoa hồng.\\n\\n**Core Performance** - hợp nhất đa thương hiệu và đa vùng, đối chiếu giữa các phân hệ, truy cập được quản trị kèm dấu vết kiểm toán.\\n\\nCả bốn đều mang cùng mười một phân hệ nghiệp vụ. Thứ thay đổi là chiều sâu."
+          },
+          {
+            "title": "Tôi có cần hợp đồng dài hạn không?",
+            "content": "Không. Mọi gói đều dùng theo tháng và có thể huỷ mà không bị phạt. Cam kết một năm và hai năm tồn tại vì rẻ hơn - giảm 10% và 15% - chứ không phải vì bắt buộc."
+          }
         ]
       },
       {
@@ -3414,10 +3606,22 @@ export const generatedLocalCopy = {
             "title": "Ce este Sundae?",
             "content": "Sundae este o platformă de inteligență decizională pentru restaurante și echipe de ospitalitate. Aceasta adună datele operaționale dispersate într-un singur loc, astfel încât liderii să poată vedea ce s-a întâmplat, ce se schimbă și unde să acționeze în continuare."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Cum încep?",
+            "content": "Ai două opțiuni:\\n\\n1. **Vezi-ți prețul** - Folosește calculatorul interactiv de pe pricing.sundae.io pentru a dimensiona un pachet Core după numărul de locații.\\n\\n2. **Programează un demo** - Rezervă o prezentare de 15 minute cu echipa noastră și vezi Sundae rulând pe datele tale."
+          },
+          {
+            "title": "Există un plan gratuit?",
+            "content": "Nu. Fiecare pachet Sundae este cu plată, începând de la prima locație. Ce oferim este o sesiune de lucru pe propriile tale cifre înainte să te angajezi, ca să vezi randamentul înainte de a semna ceva."
+          },
+          {
+            "title": "Care este diferența dintre pachetele Core?",
+            "content": "**Core Foundation** - baza operațională: un singur substrat de decizie peste POS, forță de muncă, cost și operațiuni.\\n\\n**Core Margin** - profunzime pe cost și pierderi: consum teoretic față de real, risipă, minusuri, anulări și gratuități, contribuție pe produs.\\n\\n**Core Growth** - profunzime pe cerere: cohorte de clienți și valoare pe durata relației, atribuirea promoțiilor pe canal, marja de livrare după comision.\\n\\n**Core Performance** - consolidare pe mai multe branduri și regiuni, corelare între module, acces guvernat cu piste de audit.\\n\\nToate patru poartă aceleași unsprezece module. Ce se schimbă este profunzimea."
+          },
+          {
+            "title": "Am nevoie de un contract pe termen lung?",
+            "content": "Nu. Fiecare pachet este disponibil lunar și poți renunța fără penalizare. Angajamentele anuale și pe doi ani există pentru că sunt mai ieftine - 10% și 15% reducere - nu pentru că ar fi obligatorii."
+          }
         ]
       },
       {
@@ -3631,10 +3835,22 @@ export const generatedLocalCopy = {
             "title": "Vad är Sundae?",
             "content": "Sundae är en plattform för beslutsintelligens för restauranger och hotellteam. Den samlar spridd driftsdata på ett ställe så att ledare kan se vad som har hänt, vad som förändras och var de ska agera härnäst."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Hur kommer jag igång?",
+            "content": "Du har två alternativ:\\n\\n1. **Se ditt pris** - Använd den interaktiva priskalkylatorn på pricing.sundae.io för att dimensionera ett Core-paket efter antalet enheter.\\n\\n2. **Boka en demo** - Boka en 15 minuters genomgång med vårt team och se Sundae köra mot era egna data."
+          },
+          {
+            "title": "Finns det en gratisnivå?",
+            "content": "Nej. Varje Sundae-paket är betalt och prissätts från er första enhet. Det vi erbjuder är en arbetssession mot era egna siffror innan ni binder er, så att ni ser avkastningen innan ni skriver på något."
+          },
+          {
+            "title": "Vad skiljer Core-paketen åt?",
+            "content": "**Core Foundation** - den operativa basen: ett beslutsunderlag över POS, personal, kostnad och drift.\\n\\n**Core Margin** - djup i kostnad och läckage: teoretisk kontra faktisk förbrukning, svinn, lagerdifferenser, makuleringar och comps, bidrag per artikel.\\n\\n**Core Growth** - djup i efterfrågan: gästkohorter och livstidsvärde, kampanjattribution per kanal, leveransmarginal efter provision.\\n\\n**Core Performance** - konsolidering över varumärken och regioner, korrelation mellan moduler, styrd åtkomst med spårbarhet.\\n\\nAlla fyra bär samma elva domänmoduler. Det som ändras är djupet."
+          },
+          {
+            "title": "Behöver jag ett långt avtal?",
+            "content": "Nej. Varje paket finns månadsvis och går att säga upp utan avgift. Års- och tvåårsavtal finns för att de kostar mindre - 10 % och 15 % rabatt - inte för att de krävs."
+          }
         ]
       },
       {
@@ -3848,10 +4064,22 @@ export const generatedLocalCopy = {
             "title": "Sundae কী?",
             "content": "Sundae হল রেস্তোরাঁ এবং আতিথেয়তা দলের জন্য একটি সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম। এটি বিচ্ছিন্ন অপারেটিং ডেটাকে এক জায়গায় নিয়ে আসে যাতে নেতারা দেখতে পারেন কী ঘটেছে, কী পরিবর্তন হচ্ছে এবং পরবর্তী পদক্ষেপ কোথায় নিতে হবে।"
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "আমি কীভাবে শুরু করব?",
+            "content": "আপনার দুটি উপায় আছে:\\n\\n1. **আপনার দাম দেখুন** - pricing.sundae.io-তে ইন্টার‌্যাক্টিভ ক্যালকুলেটর দিয়ে আউটলেট সংখ্যা অনুযায়ী Core প্যাকেজ ঠিক করুন।\\n\\n2. **ডেমো বুক করুন** - আমাদের টিমের সঙ্গে ১৫ মিনিটের পরিদর্শন ঠিক করুন এবং নিজের ডেটার ওপর Sundae চলতে দেখুন।"
+          },
+          {
+            "title": "কোনো ফ্রি স্তর আছে কি?",
+            "content": "না। Sundae-র প্রতিটি প্যাকেজই সশুল্ক, প্রথম আউটলেট থেকেই দাম ধরা হয়। আমরা যা দিই তা হলো প্রতিশ্রুতির আগে আপনার নিজের সংখ্যার ওপর একটি ওয়ার্কিং সেশন, যাতে কিছু সই করার আগেই আপনি ফলটা দেখতে পান।"
+          },
+          {
+            "title": "Core প্যাকেজগুলোর পার্থক্য কী?",
+            "content": "**Core Foundation** - পরিচালনার ভিত্তি: POS, শ্রম, খরচ ও অপারেশনের ওপর একটিই সিদ্ধান্ত-ভিত্তি।\\n\\n**Core Margin** - খরচ ও ক্ষরণে গভীরতা: তাত্ত্বিক বনাম প্রকৃত ব্যবহার, অপচয়, ঘাটতি, ভয়েড ও কম্প, প্রতি আইটেমের অবদান।\\n\\n**Core Growth** - চাহিদায় গভীরতা: অতিথি কোহর্ট ও আজীবন মূল্য, চ্যানেলভিত্তিক প্রোমো অ্যাট্রিবিউশন, কমিশনের পর ডেলিভারি মার্জিন।\\n\\n**Core Performance** - বহু-ব্র্যান্ড ও বহু-অঞ্চল সংহতকরণ, মডিউলের মধ্যে সম্পর্ক, অডিট ট্রেইলসহ নিয়ন্ত্রিত প্রবেশাধিকার।\\n\\nচারটিতেই একই এগারোটি ডোমেইন মডিউল থাকে। বদলায় কেবল গভীরতা।"
+          },
+          {
+            "title": "দীর্ঘমেয়াদি চুক্তি কি লাগবে?",
+            "content": "না। প্রতিটি প্যাকেজ মাসভিত্তিক পাওয়া যায় এবং জরিমানা ছাড়াই বাতিল করা যায়। বার্ষিক ও দুই বছরের প্রতিশ্রুতি আছে কারণ তাতে খরচ কম - ১০% ও ১৫% ছাড় - বাধ্যতামূলক বলে নয়।"
+          }
         ]
       },
       {
@@ -4065,10 +4293,22 @@ export const generatedLocalCopy = {
             "title": "Sundae คืออะไร?",
             "content": "Sundae เป็นแพลตฟอร์มการวิเคราะห์การตัดสินใจสำหรับร้านอาหารและทีมงานด้านการบริการ มันรวบรวมข้อมูลการดำเนินงานที่กระจัดกระจายมาไว้ในที่เดียว เพื่อให้ผู้นำสามารถเห็นสิ่งที่เกิดขึ้น สิ่งที่กำลังเปลี่ยนแปลง และที่ที่ควรดำเนินการต่อไป."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "ฉันจะเริ่มอย่างไร",
+            "content": "คุณมีสองทางเลือก\\n\\n1. **ดูราคาของคุณ** - ใช้เครื่องคำนวณแบบโต้ตอบที่ pricing.sundae.io เพื่อจัดขนาดแพ็กเกจ Core ตามจำนวนสาขาของคุณ\\n\\n2. **จองเดโม** - นัดชมแบบ 15 นาทีกับทีมงาน และดู Sundae ทำงานบนข้อมูลจริงของคุณ"
+          },
+          {
+            "title": "มีแพ็กเกจฟรีไหม",
+            "content": "ไม่มี ทุกแพ็กเกจของ Sundae มีค่าใช้จ่าย โดยคิดตั้งแต่สาขาแรก สิ่งที่เรามีให้คือเซสชันทำงานบนตัวเลขของคุณเองก่อนตัดสินใจ เพื่อให้คุณเห็นผลตอบแทนก่อนเซ็นอะไรทั้งสิ้น"
+          },
+          {
+            "title": "แพ็กเกจ Core ต่างกันอย่างไร",
+            "content": "**Core Foundation** - พื้นฐานการดำเนินงาน ฐานการตัดสินใจเดียวครอบคลุม POS แรงงาน ต้นทุน และการปฏิบัติงาน\\n\\n**Core Margin** - เจาะลึกต้นทุนและการรั่วไหล ปริมาณตามทฤษฎีเทียบกับที่ใช้จริง ของเสีย ของขาด การยกเลิกและการให้ฟรี กำไรส่วนเพิ่มรายเมนู\\n\\n**Core Growth** - เจาะลึกด้านอุปสงค์ กลุ่มลูกค้าและมูลค่าตลอดช่วงชีวิต การระบุผลโปรโมชันรายช่องทาง กำไรเดลิเวอรีหลังหักค่าคอมมิชชัน\\n\\n**Core Performance** - รวมข้อมูลข้ามแบรนด์และข้ามภูมิภาค การเชื่อมโยงข้ามโมดูล การเข้าถึงที่กำกับดูแลพร้อมร่องรอยการตรวจสอบ\\n\\nทั้งสี่แพ็กเกจมีสิบเอ็ดโมดูลเดียวกัน สิ่งที่ต่างคือความลึก"
+          },
+          {
+            "title": "ต้องทำสัญญาระยะยาวไหม",
+            "content": "ไม่ต้อง ทุกแพ็กเกจใช้แบบรายเดือนได้และยกเลิกได้โดยไม่มีค่าปรับ สัญญารายปีและสองปีมีไว้เพราะราคาถูกกว่า - ลด 10% และ 15% - ไม่ใช่เพราะบังคับ"
+          }
         ]
       },
       {
@@ -4282,10 +4522,22 @@ export const generatedLocalCopy = {
             "title": "Apa itu Sundae?",
             "content": "Sundae adalah platform kecerdasan keputusan untuk restoran dan pasukan hospitaliti. Ia mengumpulkan data operasi yang tersebar ke dalam satu tempat supaya pemimpin dapat melihat apa yang berlaku, apa yang sedang berubah, dan di mana untuk bertindak seterusnya."
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "title": "Bagaimana saya bermula?",
+            "content": "Anda ada dua pilihan:\\n\\n1. **Lihat harga anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menentukan pakej Core mengikut bilangan cawangan anda.\\n\\n2. **Tempah demo** - Aturkan sesi 15 minit bersama pasukan kami dan lihat Sundae berjalan atas data anda sendiri."
+          },
+          {
+            "title": "Adakah peringkat percuma?",
+            "content": "Tidak. Setiap pakej Sundae berbayar, dikira bermula dari cawangan pertama. Apa yang kami tawarkan ialah sesi kerja atas angka anda sendiri sebelum anda komited, supaya anda nampak pulangan sebelum menandatangani apa-apa."
+          },
+          {
+            "title": "Apakah beza pakej-pakej Core?",
+            "content": "**Core Foundation** - asas operasi: satu substrat keputusan merentasi POS, tenaga kerja, kos dan operasi.\\n\\n**Core Margin** - kedalaman pada kos dan kebocoran: penggunaan teori berbanding sebenar, pembaziran, susut nilai, pembatalan dan komplimen, sumbangan setiap item.\\n\\n**Core Growth** - kedalaman pada permintaan: kohort tetamu dan nilai sepanjang hayat, atribusi promosi mengikut saluran, margin penghantaran selepas komisen.\\n\\n**Core Performance** - penyatuan merentasi jenama dan wilayah, korelasi antara modul, akses terurus dengan jejak audit.\\n\\nKeempat-empatnya membawa sebelas modul domain yang sama. Yang berubah ialah kedalamannya."
+          },
+          {
+            "title": "Perlukah kontrak jangka panjang?",
+            "content": "Tidak. Setiap pakej tersedia bulan ke bulan dan boleh dibatalkan tanpa penalti. Komitmen tahunan dan dua tahun wujud kerana ia lebih murah - diskaun 10% dan 15% - bukan kerana ia diwajibkan."
+          }
         ]
       },
       {
