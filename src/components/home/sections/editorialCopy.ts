@@ -50,7 +50,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Your floor, your call',
       headlineLead: "The best operators don't have more hours.",
-      headlineEmphasis: 'They have better information.',
+      headlineEmphasis: 'They have fewer decisions left open.',
       sub: 'Sundae gives you the read on your business that great instincts deserve - across every outlet, in real time.',
       alt: 'A host attending to guests in a warmly lit dining room',
     },
@@ -71,7 +71,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'صالتك، وقرارك',
       headlineLead: 'أفضل المشغّلين لا يملكون ساعات أكثر.',
-      headlineEmphasis: 'بل يملكون معلومات أفضل.',
+      headlineEmphasis: 'بل يتركون قرارات أقل معلّقة.',
       sub: 'يمنحك Sundae قراءةً لأعمالك يستحقها حدسك الممتاز - عبر كل فرع، وفي الوقت الحقيقي.',
       alt: 'مضيف يستقبل الضيوف في صالة طعام ذات إضاءة دافئة',
     },
@@ -92,7 +92,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Votre salle, votre décision',
       headlineLead: "Les meilleurs opérateurs n'ont pas plus d'heures.",
-      headlineEmphasis: 'Ils ont de meilleures informations.',
+      headlineEmphasis: 'Il leur reste moins de decisions en suspens.',
       sub: "Sundae vous donne la lecture de votre activité que votre instinct mérite - sur chaque point de vente, en temps réel.",
       alt: "Un maître d'hôtel accueillant des convives dans une salle à l'éclairage chaleureux",
     },
@@ -113,7 +113,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Tu sala, tu decisión',
       headlineLead: 'Los mejores operadores no tienen más horas.',
-      headlineEmphasis: 'Tienen mejor información.',
+      headlineEmphasis: 'Les quedan menos decisiones abiertas.',
       sub: 'Sundae te da la lectura de tu negocio que tu instinto merece - en cada local y en tiempo real.',
       alt: 'Un anfitrión atendiendo a los comensales en un comedor de luz cálida',
     },
@@ -134,7 +134,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Ihr Gastraum, Ihre Entscheidung',
       headlineLead: 'Die besten Betreiber haben nicht mehr Stunden.',
-      headlineEmphasis: 'Sie haben bessere Informationen.',
+      headlineEmphasis: 'Bei ihnen bleiben weniger Entscheidungen offen.',
       sub: 'Sundae gibt Ihnen das Gespür für Ihr Geschäft, das gute Instinkte verdienen - über jeden Standort, in Echtzeit.',
       alt: 'Ein Gastgeber kümmert sich um Gäste in einem warm beleuchteten Gastraum',
     },
@@ -155,7 +155,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Uw zaak, uw beslissing',
       headlineLead: 'De beste operators hebben niet meer uren.',
-      headlineEmphasis: 'Ze hebben betere informatie.',
+      headlineEmphasis: 'Bij hen blijven minder beslissingen open staan.',
       sub: 'Sundae geeft u het inzicht in uw zaak dat goede intuïtie verdient - over elke vestiging, in realtime.',
       alt: 'Een gastheer ontvangt gasten in een warm verlichte eetzaal',
     },
@@ -176,7 +176,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Seu salão, sua decisão',
       headlineLead: 'Os melhores operadores não têm mais horas.',
-      headlineEmphasis: 'Têm informações melhores.',
+      headlineEmphasis: 'Ficam com menos decisoes em aberto.',
       sub: 'O Sundae te dá a leitura do seu negócio que o bom instinto merece - em cada unidade, em tempo real.',
       alt: 'Um anfitrião recebendo clientes em um salão com iluminação acolhedora',
     },
@@ -197,7 +197,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'आपका फ्लोर, आपका फैसला',
       headlineLead: 'बेहतरीन ऑपरेटरों के पास ज़्यादा घंटे नहीं होते।',
-      headlineEmphasis: 'उनके पास बेहतर जानकारी होती है।',
+      headlineEmphasis: 'उनके पास कम फ़ैसले अधूरे रहते हैं।',
       sub: 'Sundae आपको आपके कारोबार की वह समझ देता है जिसके आपकी बेहतरीन समझ-बूझ हकदार है - हर आउटलेट पर, रियल-टाइम में।',
       alt: 'गर्म रोशनी वाले डाइनिंग रूम में मेहमानों की आवभगत करता मेज़बान',
     },
@@ -218,7 +218,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'آپ کا فلور، آپ کا فیصلہ',
       headlineLead: 'بہترین آپریٹرز کے پاس زیادہ گھنٹے نہیں ہوتے۔',
-      headlineEmphasis: 'اُن کے پاس بہتر معلومات ہوتی ہیں۔',
+      headlineEmphasis: 'اُن کے کم فیصلے کھلے رہ جاتے ہیں۔',
       sub: 'Sundae آپ کو آپ کے کاروبار کی وہ سمجھ دیتا ہے جس کا آپ کی عمدہ جبلت حق رکھتی ہے - ہر آؤٹ لیٹ پر، حقیقی وقت میں۔',
       alt: 'گرم روشنی والے ڈائننگ روم میں مہمانوں کی خدمت کرتا میزبان',
     },
@@ -239,7 +239,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'La tua sala, la tua decisione',
       headlineLead: 'I migliori operatori non hanno più ore.',
-      headlineEmphasis: 'Hanno informazioni migliori.',
+      headlineEmphasis: 'Restano loro meno decisioni in sospeso.',
       sub: 'Sundae ti dà la lettura del tuo locale che il buon istinto merita - in ogni punto vendita, in tempo reale.',
       alt: "Un maître che accoglie gli ospiti in una sala dall'illuminazione calda",
     },
@@ -260,7 +260,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Twoja sala, twoja decyzja',
       headlineLead: 'Najlepsi operatorzy nie mają więcej godzin.',
-      headlineEmphasis: 'Mają lepsze informacje.',
+      headlineEmphasis: 'Zostaje im mniej otwartych decyzji.',
       sub: 'Sundae daje ci taki obraz biznesu, na jaki zasługuje dobry instynkt - w każdym lokalu, w czasie rzeczywistym.',
       alt: 'Gospodarz obsługujący gości w ciepło oświetlonej sali',
     },
@@ -281,7 +281,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Sizin salonunuz, sizin kararınız',
       headlineLead: 'En iyi işletmecilerin daha fazla saati yoktur.',
-      headlineEmphasis: 'Daha iyi bilgileri vardır.',
+      headlineEmphasis: 'Aciik kalan daha az kararlari vardir.',
       sub: 'Sundae, iyi sezgilerin hak ettiği işletme okumasını size verir - her şubede, gerçek zamanlı.',
       alt: 'Sıcak ışıklı bir yemek salonunda misafirleri ağırlayan bir ev sahibi',
     },
@@ -302,7 +302,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: '你的餐厅，你做主',
       headlineLead: '最优秀的经营者并没有更多时间，',
-      headlineEmphasis: '他们只是掌握了更好的信息。',
+      headlineEmphasis: '他们悬而未决的决定更少。',
       sub: 'Sundae 让你对生意的洞察配得上你出色的直觉--覆盖每一家门店，实时呈现。',
       alt: '在暖光餐厅中招待客人的迎宾',
     },
@@ -323,7 +323,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'あなたのフロア、あなたの判断',
       headlineLead: '優れた経営者に、時間が多いわけではありません。',
-      headlineEmphasis: 'より良い情報を持っているのです。',
+      headlineEmphasis: '未決の判断が少ないのです。',
       sub: 'Sundae は、優れた勘にふさわしいビジネスの読みを届けます--全店舗で、リアルタイムに。',
       alt: '暖かな照明のダイニングで客をもてなすホスト',
     },
@@ -344,7 +344,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: '당신의 매장, 당신의 결정',
       headlineLead: '최고의 운영자에게 시간이 더 많은 건 아닙니다.',
-      headlineEmphasis: '더 나은 정보를 가졌을 뿐입니다.',
+      headlineEmphasis: '미결 상태로 남은 결정이 더 적을 뿐입니다.',
       sub: 'Sundae는 뛰어난 직감에 걸맞은 비즈니스 통찰을 전합니다--모든 매장에서, 실시간으로.',
       alt: '따뜻한 조명의 다이닝룸에서 손님을 맞이하는 호스트',
     },
@@ -365,7 +365,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Ruang Anda, keputusan Anda',
       headlineLead: 'Operator terbaik tidak punya lebih banyak waktu.',
-      headlineEmphasis: 'Mereka punya informasi yang lebih baik.',
+      headlineEmphasis: 'Lebih sedikit keputusan yang mereka biarkan terbuka.',
       sub: 'Sundae memberi Anda pembacaan bisnis yang layak bagi insting hebat - di setiap outlet, secara real-time.',
       alt: 'Seorang pramutamu menyambut tamu di ruang makan berpencahayaan hangat',
     },
@@ -386,7 +386,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Sàn của bạn, quyết định của bạn',
       headlineLead: 'Những nhà điều hành giỏi nhất không có nhiều giờ hơn.',
-      headlineEmphasis: 'Họ có thông tin tốt hơn.',
+      headlineEmphasis: 'Ho de lai it quyet dinh con bo ngo hon.',
       sub: 'Sundae mang đến cho bạn cách đọc hiểu công việc kinh doanh xứng đáng với trực giác nhạy bén - trên mọi chi nhánh, theo thời gian thực.',
       alt: 'Một người tiếp đón đang phục vụ khách trong phòng ăn ấm áp ánh đèn',
     },
@@ -407,7 +407,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Sala ta, decizia ta',
       headlineLead: 'Cei mai buni operatori nu au mai multe ore.',
-      headlineEmphasis: 'Au informații mai bune.',
+      headlineEmphasis: 'Le raman mai putine decizii deschise.',
       sub: 'Sundae îți oferă citirea afacerii pe care instinctul bun o merită - în fiecare locație, în timp real.',
       alt: 'O gazdă care se ocupă de oaspeți într-o sală cu lumină caldă',
     },
@@ -428,7 +428,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Din matsal, ditt beslut',
       headlineLead: 'De bästa operatörerna har inte fler timmar.',
-      headlineEmphasis: 'De har bättre information.',
+      headlineEmphasis: 'Hos dem forblir farre beslut oppna.',
       sub: 'Sundae ger dig läsningen av din verksamhet som god intuition förtjänar - för varje enhet, i realtid.',
       alt: 'En värd tar hand om gäster i en varmt upplyst matsal',
     },
@@ -449,7 +449,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'আপনার ফ্লোর, আপনার সিদ্ধান্ত',
       headlineLead: 'সেরা পরিচালকদের হাতে বেশি সময় থাকে না।',
-      headlineEmphasis: 'তাদের কাছে ভালো তথ্য থাকে।',
+      headlineEmphasis: 'তাদের কম সিদ্ধান্ত ঝুলে থাকে।',
       sub: 'Sundae আপনাকে আপনার ব্যবসার সেই পাঠ দেয় যা প্রখর সহজাত বোধের যোগ্য - প্রতিটি আউটলেটে, রিয়েল-টাইমে।',
       alt: 'উষ্ণ আলোয় সজ্জিত ডাইনিং রুমে অতিথিদের আপ্যায়ন করছেন একজন হোস্ট',
     },
@@ -470,7 +470,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'พื้นที่ของคุณ การตัดสินใจของคุณ',
       headlineLead: 'ผู้บริหารที่เก่งที่สุดไม่ได้มีเวลามากกว่า',
-      headlineEmphasis: 'พวกเขามีข้อมูลที่ดีกว่า',
+      headlineEmphasis: 'พวกเขาเหลือการตัดสินใจค้างน้อยกว่า',
       sub: 'Sundae มอบการอ่านธุรกิจของคุณในแบบที่สัญชาตญาณอันยอดเยี่ยมสมควรได้รับ - ในทุกสาขา แบบเรียลไทม์',
       alt: 'พนักงานต้อนรับกำลังดูแลแขกในห้องอาหารที่มีแสงไฟอบอุ่น',
     },
@@ -491,7 +491,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
     closer: {
       eyebrow: 'Ruang anda, keputusan anda',
       headlineLead: 'Pengendali terbaik tidak mempunyai lebih banyak masa.',
-      headlineEmphasis: 'Mereka mempunyai maklumat yang lebih baik.',
+      headlineEmphasis: 'Lebih sedikit keputusan yang dibiarkan tergantung.',
       sub: 'Sundae memberi anda bacaan perniagaan yang setimpal dengan naluri hebat - di setiap cawangan, secara masa nyata.',
       alt: 'Seorang hos melayan tetamu di ruang makan yang bercahaya hangat',
     },

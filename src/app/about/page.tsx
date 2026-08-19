@@ -13,11 +13,11 @@ import { aboutCreamCopy } from './aboutCreamCopy'
 
 const aboutCopy = {
   en: {
-    metadataTitle: "About Sundae - The Decision Intelligence Platform for Restaurants",
-    metadataDescription: "Sundae unifies 12+ data sources into a single intelligence layer for multi-unit restaurant groups. Built by operators who lived the problem. Localized in 22 languages.",
+    metadataTitle: "About Sundae - The Decision Intelligence Platform for Multi-Location Food Service",
+    metadataDescription: "Sundae unifies 12+ data sources into a single intelligence layer for multi-location food-service groups. Built by operators who lived the problem. Localized in 22 languages.",
     badge: "About Sundae",
-    title: 'The Intelligence Layer Restaurants Never Had',
-    description: "Restaurant data usually lives in a dozen disconnected systems. Sundae pulls that operating picture into one place so teams can make decisions with current numbers, market context, and forward-looking signals.",
+    title: 'We built the decision layer we needed, and could not buy.',
+    description: "Operating data usually lives in a dozen disconnected systems. Sundae pulls that operating picture into one place so teams can make decisions with current numbers, market context, and forward-looking signals.",
     stats: [
       { value: "6", label: "Platform Pillars" },
       { value: "12", label: "Intelligence Modules" },
@@ -27,7 +27,7 @@ const aboutCopy = {
     builtTitle: "What We've Built",
     builtDescription: "Six connected layers that help operators move from real-time pacing to 90-day forecasts without jumping between systems.",
     missionTitle: "Why Sundae Exists",
-    missionDescription: "Multi-unit restaurant operators run complex, high-volume businesses across dozens of disconnected systems. The result: million-dollar decisions made on gut feel, margin leakage invisible until it's too late, and zero market context for benchmarking performance.",
+    missionDescription: "Multi-location food-service groups run complex, high-volume businesses across dozens of disconnected systems. The result: million-dollar decisions made on gut feel, margin leakage invisible until it's too late, and zero market context for benchmarking performance.",
     missionSupport: "We built Sundae because we lived the problem. Our founder scaled restaurant concepts past $10M in annual revenue and kept running into the same issue: too many systems, too little decision clarity.",
     missionSteps: [
       { title: "Unify 12+ Data Sources", description: "POS, labor, inventory, delivery, reservations, purchasing, marketing - one intelligent layer instead of twelve tabs." },
