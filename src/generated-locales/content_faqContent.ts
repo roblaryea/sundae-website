@@ -33,27 +33,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Welche Produkte bietet Sundae an?",
+            "content": "**Vier Hauptprodukte:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - das Entscheidungsfundament, mit allen elf Domänenmodulen\\n2. **Foresight & Action** - Prognosen, Szenariomodellierung und die Handlungsebene mit Freigabe im Ablauf\\n3. **Sundae Crew** - das Personalfundament: Dienstplanung, Zeiterfassung, Lohnbereitschaft, HR und People Intelligence\\n4. **Watchtower** - externe Marktintelligenz, zusammen mit Ihrem Core-Paket zugeschnitten\\n\\n**Dazu:** Konzept-SKUs für die Betriebsmodelle Ihrer Gruppe - Franchise, Hotel-F&B, Cloud Kitchen, Catering, Produktion, Mietküche."
+          },
+          {
+            "title": "Welches Core-Paket soll ich wählen?",
+            "content": "**Core Foundation, wenn:**\\n• Sie Tabellen und unverbundene Dashboards ablösen\\n• Sie erst ein gemeinsames Betriebsbild wollen, bevor Sie tiefer gehen\\n\\n**Core Margin, wenn:**\\n• Wareneinsatz, Abfall, Stornos oder Comps Ihre Marge kosten\\n• Sie Deckungsbeitrag je Artikel brauchen, nicht nur den Umsatzmix\\n\\n**Core Growth, wenn:**\\n• Wiederkehrender Umsatz und Kanalmix die Engpässe sind\\n• Sie Gästekohorten, Promo-Attribution und Liefermarge brauchen\\n\\n**Core Performance, wenn:**\\n• Sie mehrere Marken oder Märkte führen\\n• Sie Konsolidierung, modulübergreifende Korrelation und geregelten Zugriff brauchen"
+          },
           {
             "title": "Kann ich später upgraden oder downgraden?",
             "content": "Ja. Sie können jederzeit zwischen den Tiers wechseln. Historische Daten werden beibehalten und es gibt keine Strafen für den Wechsel der Pläne."
           },
-          {}
+          {
+            "title": "Was ist das 4D-Intelligence-Modell?",
+            "content": "Der Rahmen von Sundae für Entscheidungsintelligenz:\\n\\n**1D: Was geschehen ist** - Umsatz, Personal und Kostenwahrheit\\n**2D: Plan gegen Ist** - Budget- und Prognoseabweichung\\n**3D: Marktkontext** - Benchmarks, Vergleichsgruppen und Wettbewerber\\n**4D: Was als Nächstes kommt** - Prognosen und Empfehlungen\\n\\nJedes Core-Paket deckt alle vier ab. Das Paket bestimmt, wie tief jede Dimension geht."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Welche Daten braucht Sundae?",
+            "content": "**Für jedes Core-Paket:**\\n• POS-System über API\\n• Personal- oder Workforce-System\\n• Warenwirtschaft\\n• Marketingplattformen\\n• Reservierungssystem\\n\\nPOS allein genügt, um am ersten Tag Nutzen zu ziehen. Der Rest vertieft das Bild, sobald Sie ihn anbinden."
+          },
+          {
+            "title": "Wie kommen meine Daten in Sundae?",
+            "content": "Über API-Verbindungen zu Ihrem POS und dem übrigen Betriebsstapel. Wo ein System keine API hat, nimmt Sundae strukturierte Dateiablagen und intelligent ausgelesene Uploads entgegen - PDF, Excel, Screenshots -, die Sie vor der Verarbeitung prüfen."
+          },
           {
             "title": "Mit welchen POS-Systemen integrieren Sie?",
             "content": "Sundae unterstützt derzeit **4 POS-Plattformen** mit aktiven Adaptern: Oracle MICROS Simphony, Square, Toast und Clover. Wir unterstützen auch **direkte Datenbankverbindungen** für PostgreSQL und SQL Server / Azure SQL, wenn ein POS-System den Datenbankzugriff bereitstellt.\n\nÜber POS hinaus verbindet die **12-Domänen-Integrationsengine** von Sundae über 30 Anbieter in den Bereichen Arbeit, Inventar, Reservierungen, Lieferung, Marketing, Gästeerfahrung, CRM und Buchhaltung.\n\nWenn Ihr System nicht aufgeführt ist, kann die Enterprise-Stufe benutzerdefinierte Integrationsarbeiten und webhook-basierte Aufnahme umfassen."
           },
-          {},
-          {},
+          {
+            "title": "Kann ich Sundae mit mehreren POS-Systemen nutzen?",
+            "content": "Ja. Sundae verbindet gemischte POS-Landschaften und normalisiert die Daten für einen echten Vergleich. Core Performance ergänzt darüber hinaus die Konsolidierung über Marken und Regionen."
+          },
+          {
+            "title": "Wie lange dauert die Einführung?",
+            "content": "Die meisten Gruppen sind in 1-2 Wochen live. Größere Roll-outs über mehrere Marken oder Regionen laufen je nach Umfang 2-4 Wochen.\\n\\nDie Einführung ist eine einmalige Gebühr, berechnet einmalig nach der höchsten Klasse in Ihrer Auswahl - von Self-Service ohne Kosten bis zu einem abgestimmten Class-D-Einsatz."
+          },
           {
             "title": "Was passiert mit meinen Daten, wenn ich kündige?",
             "content": "Historische Daten bleiben für den Export verfügbar. Wenn Sie später zurückkehren, können Ihre vorherigen Daten gemäß Ihrem Plan und den Aufbewahrungsbedingungen weiterhin wiederhergestellt werden."
@@ -262,27 +283,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Quels produits Sundae propose-t-il ?",
+            "content": "**Quatre produits principaux :**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - le socle de décision, qui embarque les onze modules métier\\n2. **Foresight & Action** - prévision, modélisation de scénarios et la couche d'action avec validation humaine\\n3. **Sundae Crew** - le socle des équipes : planning, pointage, préparation de la paie, RH et people intelligence\\n4. **Watchtower** - l'intelligence de marché externe, cadrée avec votre offre Core\\n\\n**En plus :** des SKU de concept pour les modèles d'exploitation de votre groupe - franchise, F&B hôtelier, cuisine virtuelle, traiteur, production, commissary en location."
+          },
+          {
+            "title": "Quelle offre Core choisir ?",
+            "content": "**Core Foundation si :**\\n• Vous sortez des tableurs et des tableaux de bord déconnectés\\n• Vous voulez une image d'exploitation unique avant d'aller plus loin\\n\\n**Core Margin si :**\\n• Le coût matière, le gaspillage, les annulations ou les offerts absorbent votre marge\\n• Il vous faut la contribution par article, pas seulement le mix de ventes\\n\\n**Core Growth si :**\\n• Le revenu récurrent et le mix de canaux sont la contrainte\\n• Il vous faut les cohortes clients, l'attribution des promotions et la marge de livraison\\n\\n**Core Performance si :**\\n• Vous exploitez plusieurs marques ou plusieurs marchés\\n• Il vous faut la consolidation, la corrélation entre modules et un accès gouverné"
+          },
           {
             "title": "Puis-je passer à un autre niveau plus tard ?",
             "content": "Oui. Vous pouvez changer de niveau à tout moment. Les données historiques sont préservées et il n'y a pas de pénalités pour changer de plan."
           },
-          {}
+          {
+            "title": "Qu'est-ce que le modèle 4D Intelligence ?",
+            "content": "Le cadre de Sundae pour l'intelligence décisionnelle :\\n\\n**1D : ce qui s'est passé** - la vérité sur les ventes, le personnel et les coûts\\n**2D : plan contre réel** - écarts au budget et à la prévision\\n**3D : contexte de marché** - benchmarks, pairs et concurrents\\n**4D : ce qui vient** - prédictions et recommandations\\n\\nChaque offre Core couvre les quatre. L'offre détermine la profondeur de chaque dimension."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "De quelles données Sundae a-t-il besoin ?",
+            "content": "**Pour chaque offre Core :**\\n• Système POS via API\\n• Système de personnel ou de planning\\n• Système de stocks\\n• Plateformes marketing\\n• Système de réservation\\n\\nLe POS seul suffit à créer de la valeur dès le premier jour. Le reste enrichit l'image à mesure que vous le connectez."
+          },
+          {
+            "title": "Comment mes données arrivent-elles dans Sundae ?",
+            "content": "Par des connexions API à votre POS et au reste de votre pile d'exploitation. Lorsqu'un système n'a pas d'API, Sundae accepte des dépôts de fichiers structurés et des imports lus intelligemment - PDF, Excel, captures d'écran - que vous validez avant traitement."
+          },
           {
             "title": "Avec quels systèmes POS vous intégrez-vous ?",
             "content": "Sundae prend actuellement en charge **4 plateformes POS** avec des adaptateurs en direct : Oracle MICROS Simphony, Square, Toast et Clover. Nous supportons également **des connecteurs de base de données directs** pour PostgreSQL et SQL Server / Azure SQL lorsque le système POS expose l'accès à la base de données.\n\nAu-delà du POS, le **moteur d'intégration à 12 domaines** de Sundae se connecte à plus de 30 fournisseurs dans les domaines de la main-d'œuvre, de l'inventaire, des réservations, de la livraison, du marketing, de l'expérience client, du CRM et de la comptabilité.\n\nSi vous ne voyez pas votre système répertorié, le niveau Entreprise peut inclure des travaux d'intégration personnalisés et une ingestion basée sur des webhooks."
           },
-          {},
-          {},
+          {
+            "title": "Puis-je utiliser Sundae avec plusieurs systèmes POS ?",
+            "content": "Oui. Sundae se connecte à des parcs POS hétérogènes et normalise les données pour une comparaison à périmètre égal. Core Performance ajoute par-dessus la consolidation entre marques et régions."
+          },
+          {
+            "title": "Combien de temps prend la mise en place ?",
+            "content": "La plupart des groupes sont en production en 1 à 2 semaines. Les déploiements plus larges, multi-marques ou multi-régions, prennent 2 à 4 semaines selon le périmètre.\\n\\nLa mise en place est un frais unique, facturé une seule fois au niveau le plus élevé de votre sélection - du self-service gratuit jusqu'à un accompagnement Class D cadré."
+          },
           {
             "title": "Que se passe-t-il avec mes données si j'annule ?",
             "content": "Les données historiques restent disponibles pour exportation. Si vous revenez plus tard, vos données antérieures peuvent toujours être restaurées selon votre plan et les conditions de conservation."
@@ -468,27 +510,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "¿Qué productos ofrece Sundae?",
+            "content": "**Cuatro productos principales:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - el sustrato de decisión, que lleva los once módulos de dominio\\n2. **Foresight & Action** - pronóstico, modelado de escenarios y la capa de acción con aprobación humana\\n3. **Sundae Crew** - el sustrato de personal: turnos, control horario, preparación de nóminas, RR. HH. y people intelligence\\n4. **Watchtower** - inteligencia de mercado externa, dimensionada junto a tu paquete Core\\n\\n**Además:** SKU de concepto para los modelos operativos de tu grupo - franquicia, F&B hotelero, cocina virtual, catering, producción, obrador en alquiler."
+          },
+          {
+            "title": "¿Qué paquete Core debo elegir?",
+            "content": "**Core Foundation si:**\\n• Estás saliendo de hojas de cálculo y paneles desconectados\\n• Quieres una imagen operativa única antes de profundizar\\n\\n**Core Margin si:**\\n• El coste de materia, la merma, las anulaciones o las invitaciones se llevan tu margen\\n• Necesitas contribución por artículo, no solo mix de ventas\\n\\n**Core Growth si:**\\n• El ingreso recurrente y el mix de canales son la restricción\\n• Necesitas cohortes de clientes, atribución de promociones y margen de delivery\\n\\n**Core Performance si:**\\n• Operas varias marcas o varios mercados\\n• Necesitas consolidación, correlación entre módulos y acceso gobernado"
+          },
           {
             "title": "¿Puedo actualizar o degradar más tarde?",
             "content": "Sí. Puedes moverte entre niveles en cualquier momento. Los datos históricos se conservan y no hay penalizaciones por cambiar de plan."
           },
-          {}
+          {
+            "title": "¿Qué es el modelo 4D Intelligence?",
+            "content": "El marco de Sundae para la inteligencia de decisión:\\n\\n**1D: qué pasó** - la verdad de ventas, personal y coste\\n**2D: plan frente a real** - desviación de presupuesto y de pronóstico\\n**3D: contexto de mercado** - benchmarks, pares y competidores\\n**4D: qué viene** - pronósticos y recomendaciones\\n\\nCada paquete Core cubre los cuatro. El paquete marca cuánto profundiza cada dimensión."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "¿Qué datos necesita Sundae?",
+            "content": "**Para cualquier paquete Core:**\\n• Sistema POS vía API\\n• Sistema de personal o turnos\\n• Sistema de inventario\\n• Plataformas de marketing\\n• Sistema de reservas\\n\\nCon el POS solo ya obtienes valor el primer día. El resto profundiza la imagen a medida que lo conectas."
+          },
+          {
+            "title": "¿Cómo llegan mis datos a Sundae?",
+            "content": "Mediante conexiones API a tu POS y al resto de tu stack operativo. Cuando un sistema no tiene API, Sundae acepta cargas de archivos estructurados y subidas leídas de forma inteligente - PDF, Excel, capturas - que tú revisas antes de procesar."
+          },
           {
             "title": "¿Con qué sistemas POS se integra?",
             "content": "Sundae actualmente soporta **4 plataformas POS** con adaptadores en vivo: Oracle MICROS Simphony, Square, Toast y Clover. También soportamos **conectores de base de datos directos** para PostgreSQL y SQL Server / Azure SQL cuando un sistema POS expone acceso a la base de datos.\n\nMás allá del POS, el **motor de integración de 12 dominios** de Sundae se conecta con más de 30 proveedores en labor, inventario, reservas, entrega, marketing, experiencia del cliente, CRM y contabilidad.\n\nSi no ves tu sistema listado, el nivel Enterprise puede incluir trabajo de integración personalizado e ingestión basada en webhook."
           },
-          {},
-          {},
+          {
+            "title": "¿Puedo usar Sundae con varios sistemas POS?",
+            "content": "Sí. Sundae conecta parques de POS mixtos y normaliza los datos para comparar en igualdad de condiciones. Core Performance añade encima la consolidación entre marcas y regiones."
+          },
+          {
+            "title": "¿Cuánto tarda la implantación?",
+            "content": "La mayoría de los grupos están en producción en 1-2 semanas. Los despliegues mayores, multimarca o multirregión, llevan de 2 a 4 semanas según el alcance.\\n\\nLa implantación es una tarifa única, cobrada una sola vez según la clase más alta de tu selección - desde autoservicio sin coste hasta un acompañamiento Class D acotado."
+          },
           {
             "title": "¿Qué pasa con mis datos si cancelo?",
             "content": "Los datos históricos permanecen disponibles para exportación. Si regresas más tarde, tus datos anteriores aún pueden ser restaurados de acuerdo con tu plan y términos de retención."
@@ -674,27 +737,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Welke producten biedt Sundae?",
+            "content": "**Vier hoofdproducten:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - het beslissingsfundament, met alle elf domeinmodules\\n2. **Foresight & Action** - prognoses, scenariomodellen en de actielaag met goedkeuring in de lus\\n3. **Sundae Crew** - het personeelsfundament: roosters, tijdregistratie, loonvoorbereiding, HR en people intelligence\\n4. **Watchtower** - externe marktintelligentie, afgestemd naast je Core-pakket\\n\\n**Daarnaast:** concept-SKU's voor de bedrijfsmodellen van je groep - franchise, hotel-F&B, cloud kitchen, catering, productie, verhuurcommissary."
+          },
+          {
+            "title": "Welk Core-pakket moet ik kiezen?",
+            "content": "**Core Foundation als:**\\n• Je weg wilt van spreadsheets en losse dashboards\\n• Je eerst één operationeel beeld wilt voordat je dieper gaat\\n\\n**Core Margin als:**\\n• Inkoopkosten, verspilling, annuleringen of weggevers je marge opeten\\n• Je bijdrage per artikel nodig hebt, niet alleen de verkoopmix\\n\\n**Core Growth als:**\\n• Herhaalomzet en kanaalmix de beperking zijn\\n• Je gastcohorten, promotie-attributie en bezorgmarge nodig hebt\\n\\n**Core Performance als:**\\n• Je meerdere merken of markten draait\\n• Je consolidatie, correlatie tussen modules en beheerste toegang nodig hebt"
+          },
           {
             "title": "Kan ik later upgraden of downgraden?",
             "content": "Ja. Je kunt op elk moment tussen tiers wisselen. Historische gegevens worden bewaard en er zijn geen boetes voor het wijzigen van plannen."
           },
-          {}
+          {
+            "title": "Wat is het 4D Intelligence-model?",
+            "content": "Sundae's kader voor beslissingsintelligentie:\\n\\n**1D: wat er gebeurde** - de waarheid over omzet, personeel en kosten\\n**2D: plan versus werkelijk** - budget- en prognoseafwijking\\n**3D: marktcontext** - benchmarks, vergelijkbare bedrijven en concurrenten\\n**4D: wat er komt** - voorspellingen en aanbevelingen\\n\\nElk Core-pakket dekt alle vier. Het pakket bepaalt hoe diep elke dimensie gaat."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Welke data heeft Sundae nodig?",
+            "content": "**Voor elk Core-pakket:**\\n• POS-systeem via API\\n• Personeels- of workforcesysteem\\n• Voorraadsysteem\\n• Marketingplatforms\\n• Reserveringssysteem\\n\\nAlleen de POS is al genoeg om op dag één waarde te halen. De rest verdiept het beeld zodra je het koppelt."
+          },
+          {
+            "title": "Hoe krijg ik mijn data in Sundae?",
+            "content": "Via API-koppelingen met je POS en de rest van je operationele stack. Waar een systeem geen API heeft, accepteert Sundae gestructureerde bestandsuploads en slim uitgelezen bestanden - PDF, Excel, screenshots - die je vóór verwerking controleert."
+          },
           {
             "title": "Met welke POS-systemen integreren jullie?",
             "content": "Sundae ondersteunt momenteel **4 POS-platforms** met live adapters: Oracle MICROS Simphony, Square, Toast en Clover. We ondersteunen ook **directe databaseverbindingen** voor PostgreSQL en SQL Server / Azure SQL wanneer een POS-systeem database-toegang biedt.\n\nBuiten POS verbindt Sundae's **12-domein integratiemotor** met meer dan 30 leveranciers op het gebied van arbeid, voorraad, reserveringen, levering, marketing, gastenervaring, CRM en boekhouding.\n\nAls je jouw systeem niet vermeld ziet, kan het Enterprise-niveau maatwerk integratiewerk en webhook-gebaseerde opname omvatten."
           },
-          {},
-          {},
+          {
+            "title": "Kan ik Sundae met meerdere POS-systemen gebruiken?",
+            "content": "Ja. Sundae koppelt gemengde POS-landschappen en normaliseert de data zodat je appels met appels vergelijkt. Core Performance voegt daar consolidatie over merken en regio's aan toe."
+          },
+          {
+            "title": "Hoe lang duurt de implementatie?",
+            "content": "De meeste groepen zijn binnen 1-2 weken live. Grotere uitrollen over meerdere merken of regio's duren 2-4 weken, afhankelijk van de scope.\\n\\nDe implementatie is een eenmalig bedrag, één keer berekend op de hoogste klasse in je selectie - van kosteloze self-service tot een afgebakend Class D-traject."
+          },
           {
             "title": "Wat gebeurt er met mijn gegevens als ik annuleer?",
             "content": "Historische gegevens blijven beschikbaar voor export. Als je later terugkomt, kunnen je eerdere gegevens nog steeds worden hersteld volgens je plan en bewaartermijnen."
@@ -903,27 +987,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "ما المنتجات التي يقدّمها Sundae؟",
+            "content": "**أربعة منتجات رئيسية:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ركيزة القرار، وتحمل الوحدات الإحدى عشرة كلها\\n2. **Foresight & Action** - التنبؤ ونمذجة السيناريوهات وطبقة التنفيذ باعتماد بشري\\n3. **Sundae Crew** - ركيزة القوى العاملة: الجدولة والحضور وجاهزية الرواتب والموارد البشرية وذكاء الأفراد\\n4. **Watchtower** - ذكاء السوق الخارجي، يُحدَّد نطاقه مع باقة Core\\n\\n**وإضافةً إلى ذلك:** أصناف مخصصة لنماذج التشغيل التي تديرها مجموعتك - الامتياز، وأغذية الفنادق، والمطابخ السحابية، والتموين، والإنتاج، والمطابخ المؤجَّرة."
+          },
+          {
+            "title": "أي باقة Core أختار؟",
+            "content": "**Core Foundation إذا:**\\n• كنت تنتقل من الجداول ولوحات المعلومات المنفصلة\\n• أردت صورة تشغيلية واحدة قبل التعمّق\\n\\n**Core Margin إذا:**\\n• كانت تكلفة المواد أو الهدر أو الإلغاءات أو المجانيات تلتهم هامشك\\n• احتجت مساهمة كل صنف، لا مزيج المبيعات فقط\\n\\n**Core Growth إذا:**\\n• كان الإيراد المتكرر ومزيج القنوات هما القيد\\n• احتجت شرائح الضيوف وإسناد العروض وهامش التوصيل\\n\\n**Core Performance إذا:**\\n• كنت تدير عدة علامات أو عدة أسواق\\n• احتجت التوحيد والترابط بين الوحدات والوصول المحوكم"
+          },
           {
             "title": "هل يمكنني الترقية أو التخفيض لاحقًا؟",
             "content": "نعم. يمكنك الانتقال بين المستويات في أي وقت. يتم الحفاظ على البيانات التاريخية ولا توجد عقوبات على تغيير الخطط."
           },
-          {}
+          {
+            "title": "ما نموذج 4D Intelligence؟",
+            "content": "إطار Sundae لذكاء القرار:\\n\\n**البُعد الأول: ما حدث** - حقيقة المبيعات والعمالة والتكلفة\\n**البُعد الثاني: الخطة مقابل الفعلي** - انحراف الموازنة والتوقّع\\n**البُعد الثالث: سياق السوق** - المقارنات المرجعية والنظراء والمنافسون\\n**البُعد الرابع: ما هو قادم** - التنبؤات والتوصيات\\n\\nكل باقة Core تغطي الأبعاد الأربعة. والباقة تحدد عمق كل بُعد."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "ما البيانات التي يحتاجها Sundae؟",
+            "content": "**لكل باقة Core:**\\n• نظام POS عبر واجهة برمجية\\n• نظام العمالة أو القوى العاملة\\n• نظام المخزون\\n• منصات التسويق\\n• نظام الحجوزات\\n\\nنظام POS وحده يكفي لتحقيق قيمة من اليوم الأول. والباقي يعمّق الصورة كلما ربطته."
+          },
+          {
+            "title": "كيف تصل بياناتي إلى Sundae؟",
+            "content": "عبر اتصالات برمجية بنظام POS وبقية منظومتك التشغيلية. وحين لا تتوفر واجهة برمجية لنظام ما، يقبل Sundae ملفات منظمة ورفعاً يُقرأ آلياً - PDF وExcel ولقطات الشاشة - تراجعها أنت قبل المعالجة."
+          },
           {
             "title": "ما أنظمة POS التي تتكاملون معها؟",
             "content": "يدعم Sundae حاليًا **4 منصات POS** مع محولات حية: Oracle MICROS Simphony وSquare وToast وClover. كما ندعم **موصلات قاعدة البيانات المباشرة** لـ PostgreSQL وSQL Server / Azure SQL عندما يكشف نظام POS عن الوصول إلى قاعدة البيانات.\n\nبعيدًا عن POS، يقوم محرك التكامل الخاص بـ Sundae **ذو الـ 12 مجالًا** بالاتصال بأكثر من 30 بائعًا عبر العمل والمخزون والحجوزات والتوصيل والتسويق وتجربة الضيوف وإدارة علاقات العملاء والمحاسبة.\n\nإذا لم ترَ نظامك مدرجًا، يمكن أن تتضمن فئة Enterprise العمل على تكامل مخصص واستيعاب قائم على الويب هوك."
           },
-          {},
-          {},
+          {
+            "title": "هل يمكنني استخدام Sundae مع أنظمة POS متعددة؟",
+            "content": "نعم. يتصل Sundae بمنظومات POS مختلطة ويوحّد البيانات لمقارنة عادلة. وتضيف Core Performance فوق ذلك التوحيد عبر العلامات والمناطق."
+          },
+          {
+            "title": "كم يستغرق التطبيق؟",
+            "content": "معظم المجموعات تعمل خلال أسبوع إلى أسبوعين. أما عمليات النشر الأكبر متعددة العلامات أو المناطق فتستغرق من أسبوعين إلى أربعة حسب النطاق.\\n\\nالتطبيق رسم لمرة واحدة، يُحتسب مرة واحدة وفق أعلى فئة في اختيارك - من الخدمة الذاتية بلا تكلفة حتى ارتباط Class D محدَّد النطاق."
+          },
           {
             "title": "ماذا يحدث لبياناتي إذا قمت بالإلغاء؟",
             "content": "تظل البيانات التاريخية متاحة للتصدير. إذا عدت لاحقًا، يمكن استعادة بياناتك السابقة وفقًا لخطة الاشتراك وشروط الاحتفاظ."
@@ -1109,27 +1214,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Que produtos oferece a Sundae?",
+            "content": "**Quatro produtos principais:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - o substrato de decisão, com os onze módulos de domínio\\n2. **Foresight & Action** - previsão, modelação de cenários e a camada de ação com aprovação humana\\n3. **Sundae Crew** - o substrato de pessoas: escalas, assiduidade, preparação de salários, RH e people intelligence\\n4. **Watchtower** - inteligência de mercado externa, dimensionada junto do seu pacote Core\\n\\n**Além disso:** SKU de conceito para os modelos operacionais do seu grupo - franquia, F&B hoteleiro, cozinha virtual, catering, produção, cozinha central alugada."
+          },
+          {
+            "title": "Que pacote Core devo escolher?",
+            "content": "**Core Foundation se:**\\n• Está a sair de folhas de cálculo e painéis desligados\\n• Quer uma imagem operacional única antes de aprofundar\\n\\n**Core Margin se:**\\n• O custo de mercadoria, o desperdício, os cancelamentos ou as cortesias levam a sua margem\\n• Precisa de contribuição por artigo, não apenas do mix de vendas\\n\\n**Core Growth se:**\\n• A receita recorrente e o mix de canais são a restrição\\n• Precisa de coortes de clientes, atribuição de promoções e margem de entrega\\n\\n**Core Performance se:**\\n• Opera várias marcas ou vários mercados\\n• Precisa de consolidação, correlação entre módulos e acesso governado"
+          },
           {
             "title": "Posso fazer upgrade ou downgrade depois?",
             "content": "Sim. Você pode mudar entre os níveis a qualquer momento. Os dados históricos são preservados e não há penalidades por mudar de plano."
           },
-          {}
+          {
+            "title": "O que é o modelo 4D Intelligence?",
+            "content": "O enquadramento da Sundae para inteligência de decisão:\\n\\n**1D: o que aconteceu** - a verdade das vendas, da mão de obra e do custo\\n**2D: plano versus real** - desvio de orçamento e de previsão\\n**3D: contexto de mercado** - benchmarks, pares e concorrentes\\n**4D: o que vem a seguir** - previsões e recomendações\\n\\nCada pacote Core cobre os quatro. O pacote define a profundidade de cada dimensão."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "De que dados precisa a Sundae?",
+            "content": "**Para qualquer pacote Core:**\\n• Sistema POS via API\\n• Sistema de pessoal ou escalas\\n• Sistema de inventário\\n• Plataformas de marketing\\n• Sistema de reservas\\n\\nO POS sozinho já chega para obter valor no primeiro dia. O resto aprofunda a imagem à medida que o liga."
+          },
+          {
+            "title": "Como é que os meus dados chegam à Sundae?",
+            "content": "Através de ligações API ao seu POS e ao resto da sua stack operacional. Quando um sistema não tem API, a Sundae aceita ficheiros estruturados e carregamentos lidos de forma inteligente - PDF, Excel, capturas de ecrã - que revê antes do processamento."
+          },
           {
             "title": "Quais sistemas POS vocês integram?",
             "content": "O Sundae atualmente suporta **4 plataformas POS** com adaptadores ao vivo: Oracle MICROS Simphony, Square, Toast e Clover. Também suportamos **conectores de banco de dados diretos** para PostgreSQL e SQL Server / Azure SQL quando um sistema POS expõe acesso ao banco de dados.\n\nAlém do POS, o motor de integração de **12 domínios do Sundae** conecta-se a mais de 30 fornecedores em áreas como mão de obra, inventário, reservas, entrega, marketing, experiência do cliente, CRM e contabilidade.\n\nSe você não vê seu sistema listado, o nível Enterprise pode incluir trabalho de integração personalizado e ingestão baseada em webhook."
           },
-          {},
-          {},
+          {
+            "title": "Posso usar a Sundae com vários sistemas POS?",
+            "content": "Sim. A Sundae liga parques de POS mistos e normaliza os dados para uma comparação justa. O Core Performance acrescenta por cima a consolidação entre marcas e regiões."
+          },
+          {
+            "title": "Quanto tempo demora a implementação?",
+            "content": "A maioria dos grupos fica operacional em 1-2 semanas. Implementações maiores, multimarca ou multirregião, levam 2-4 semanas consoante o âmbito.\\n\\nA implementação é uma taxa única, cobrada uma só vez pela classe mais alta da sua seleção - do self-service sem custo até um acompanhamento Class D delimitado."
+          },
           {
             "title": "O que acontece com meus dados se eu cancelar?",
             "content": "Os dados históricos permanecem disponíveis para exportação. Se você retornar mais tarde, seus dados anteriores ainda podem ser restaurados de acordo com seu plano e termos de retenção."
@@ -1338,27 +1464,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae کون سی مصنوعات پیش کرتا ہے؟",
+            "content": "**چار بنیادی مصنوعات:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - فیصلہ ساز بنیاد، جس میں گیارہ ڈومین ماڈیولز شامل ہیں\\n2. **Foresight & Action** - پیش گوئی، منظرنامہ سازی اور انسانی منظوری والی عمل کی پرت\\n3. **Sundae Crew** - افرادی قوت کی بنیاد: شیڈولنگ، حاضری، پے رول کی تیاری، ایچ آر اور پیپل انٹیلیجنس\\n4. **Watchtower** - بیرونی مارکیٹ انٹیلیجنس، جو آپ کے Core پیکیج کے ساتھ طے ہوتی ہے\\n\\n**اس کے علاوہ:** آپ کے گروپ کے آپریٹنگ ماڈلز کے لیے کانسیپٹ SKUs - فرنچائز، ہوٹل F&B، کلاؤڈ کچن، کیٹرنگ، پروڈکشن، کرائے کی سینٹرل کچن۔"
+          },
+          {
+            "title": "مجھے کون سا Core پیکیج چننا چاہیے؟",
+            "content": "**Core Foundation اگر:**\\n• آپ اسپریڈ شیٹس اور بکھرے ڈیش بورڈز سے نکل رہے ہیں\\n• گہرائی میں جانے سے پہلے ایک مشترکہ آپریشنل تصویر چاہتے ہیں\\n\\n**Core Margin اگر:**\\n• خوراک کی لاگت، ضیاع، وائیڈز یا کامپس آپ کا مارجن کھا رہے ہیں\\n• آپ کو صرف سیلز مکس نہیں، فی آئٹم شراکت چاہیے\\n\\n**Core Growth اگر:**\\n• بار بار کی آمدنی اور چینل مکس رکاوٹ ہیں\\n• آپ کو مہمانوں کے گروہ، پروموشن انتساب اور ڈیلیوری مارجن چاہیے\\n\\n**Core Performance اگر:**\\n• آپ کئی برانڈز یا کئی مارکیٹیں چلاتے ہیں\\n• آپ کو یکجا کرنا، ماڈیولز کے درمیان تعلق اور ضابطہ بند رسائی چاہیے"
+          },
           {
             "title": "کیا میں بعد میں اپ گریڈ یا ڈاؤن گریڈ کر سکتا ہوں؟",
             "content": "جی ہاں۔ آپ کسی بھی وقت ٹیرز کے درمیان منتقل ہو سکتے ہیں۔ تاریخی ڈیٹا محفوظ ہے اور منصوبے تبدیل کرنے پر کوئی جرمانہ نہیں ہے۔"
           },
-          {}
+          {
+            "title": "4D Intelligence ماڈل کیا ہے؟",
+            "content": "فیصلہ سازی کی ذہانت کے لیے Sundae کا فریم ورک:\\n\\n**1D: کیا ہوا** - فروخت، محنت اور لاگت کا سچ\\n**2D: منصوبہ بمقابلہ حقیقت** - بجٹ اور پیش گوئی کا فرق\\n**3D: مارکیٹ کا تناظر** - بینچ مارک، ہم پلہ ادارے اور حریف\\n**4D: آگے کیا** - پیش گوئیاں اور سفارشات\\n\\nہر Core پیکیج چاروں کا احاطہ کرتا ہے۔ پیکیج طے کرتا ہے کہ ہر پہلو کتنی گہرائی تک جائے۔"
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae کو کن ڈیٹا کی ضرورت ہے؟",
+            "content": "**ہر Core پیکیج کے لیے:**\\n• API کے ذریعے POS سسٹم\\n• محنت یا افرادی قوت کا سسٹم\\n• انوینٹری سسٹم\\n• مارکیٹنگ پلیٹ فارمز\\n• بکنگ سسٹم\\n\\nپہلے دن قدر حاصل کرنے کے لیے صرف POS کافی ہے۔ باقی جڑتے جانے پر تصویر گہری ہوتی جاتی ہے۔"
+          },
+          {
+            "title": "میرا ڈیٹا Sundae میں کیسے آتا ہے؟",
+            "content": "آپ کے POS اور باقی آپریشنل اسٹیک سے API کنکشنز کے ذریعے۔ جہاں کسی سسٹم کا API نہ ہو، Sundae منظم فائل ڈراپ اور ذہانت سے پڑھی جانے والی اپلوڈز قبول کرتا ہے - PDF، Excel، اسکرین شاٹس - جنہیں آپ پروسیسنگ سے پہلے جانچتے ہیں۔"
+          },
           {
             "title": "آپ کس POS سسٹم کے ساتھ انضمام کرتے ہیں؟",
             "content": "Sundae فی الحال **4 POS پلیٹ فارم** کی حمایت کرتا ہے جن میں لائیو ایڈاپٹر شامل ہیں: Oracle MICROS Simphony، Square، Toast، اور Clover۔ ہم **براہ راست ڈیٹا بیس کنیکٹرز** کی بھی حمایت کرتے ہیں PostgreSQL اور SQL Server / Azure SQL کے لیے جب کوئی POS سسٹم ڈیٹا بیس تک رسائی فراہم کرتا ہے۔\n\nPOS کے علاوہ، Sundae کا **12-ڈومین انضمام انجن** لیبر، انوینٹری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اور اکاؤنٹنگ کے 30+ وینڈرز سے جڑتا ہے۔\n\nاگر آپ کا سسٹم فہرست میں نہیں ہے تو انٹرپرائز کی سطح میں حسب ضرورت انضمام کا کام اور ویب ہک پر مبنی انضمام شامل ہو سکتا ہے۔"
           },
-          {},
-          {},
+          {
+            "title": "کیا میں Sundae کو کئی POS سسٹمز کے ساتھ استعمال کر سکتا ہوں؟",
+            "content": "جی ہاں۔ Sundae مخلوط POS ماحول سے جڑتا ہے اور برابری کی بنیاد پر موازنے کے لیے ڈیٹا کو معیاری بناتا ہے۔ Core Performance اس کے اوپر برانڈز اور خطوں کے درمیان یکجا کرنا شامل کرتا ہے۔"
+          },
+          {
+            "title": "نفاذ میں کتنا وقت لگتا ہے؟",
+            "content": "زیادہ تر گروپ 1-2 ہفتوں میں فعال ہو جاتے ہیں۔ بڑے کثیر برانڈ یا کثیر خطہ رول آؤٹ دائرہ کار کے مطابق 2-4 ہفتے لیتے ہیں۔\\n\\nنفاذ ایک بار کی فیس ہے، جو آپ کے انتخاب میں سب سے اعلیٰ درجے پر ایک ہی بار وصول کی جاتی ہے - مفت سیلف سروس سے لے کر متعین دائرہ کار والے Class D تعاون تک۔"
+          },
           {
             "title": "اگر میں منسوخ کر دوں تو میرے ڈیٹا کا کیا ہوگا؟",
             "content": "تاریخی ڈیٹا برآمد کے لیے دستیاب رہتا ہے۔ اگر آپ بعد میں واپس آتے ہیں تو آپ کا سابقہ ڈیٹا آپ کے منصوبے اور برقرار رکھنے کی شرائط کے مطابق بحال کیا جا سکتا ہے۔"
@@ -1567,27 +1714,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Quali prodotti offre Sundae?",
+            "content": "**Quattro prodotti principali:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - il substrato decisionale, che porta tutti e undici i moduli\\n2. **Foresight & Action** - previsioni, modellazione di scenari e il livello di azione con approvazione umana\\n3. **Sundae Crew** - il substrato delle persone: turni, presenze, preparazione paghe, HR e people intelligence\\n4. **Watchtower** - intelligence di mercato esterna, dimensionata insieme al tuo pacchetto Core\\n\\n**In più:** SKU di concept per i modelli operativi del tuo gruppo - franchising, F&B alberghiero, cucina virtuale, catering, produzione, laboratorio in affitto."
+          },
+          {
+            "title": "Quale pacchetto Core scegliere?",
+            "content": "**Core Foundation se:**\\n• Stai uscendo da fogli di calcolo e cruscotti scollegati\\n• Vuoi un'unica immagine operativa prima di andare più a fondo\\n\\n**Core Margin se:**\\n• Costo materie, sprechi, storni od omaggi si stanno mangiando il margine\\n• Ti serve la contribuzione per articolo, non solo il mix di vendita\\n\\n**Core Growth se:**\\n• Ricavo ricorrente e mix di canali sono il vincolo\\n• Ti servono coorti di ospiti, attribuzione delle promozioni e margine delivery\\n\\n**Core Performance se:**\\n• Gestisci più insegne o più mercati\\n• Ti servono consolidamento, correlazione tra moduli e accessi governati"
+          },
           {
             "title": "Posso aggiornare o downgrade in seguito?",
             "content": "Sì. Puoi passare tra i piani in qualsiasi momento. I dati storici vengono preservati e non ci sono penalità per cambiare piano."
           },
-          {}
+          {
+            "title": "Che cos'è il modello 4D Intelligence?",
+            "content": "Il quadro di Sundae per l'intelligenza decisionale:\\n\\n**1D: cosa è successo** - la verità su vendite, personale e costi\\n**2D: piano contro consuntivo** - scostamento da budget e previsione\\n**3D: contesto di mercato** - benchmark, pari e concorrenti\\n**4D: cosa arriva** - previsioni e raccomandazioni\\n\\nOgni pacchetto Core copre tutte e quattro. Il pacchetto stabilisce quanto va a fondo ciascuna dimensione."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Di quali dati ha bisogno Sundae?",
+            "content": "**Per ogni pacchetto Core:**\\n• Sistema POS via API\\n• Sistema del personale o dei turni\\n• Sistema di magazzino\\n• Piattaforme di marketing\\n• Sistema di prenotazioni\\n\\nIl solo POS basta per ottenere valore dal primo giorno. Il resto approfondisce il quadro man mano che lo colleghi."
+          },
+          {
+            "title": "Come arrivano i miei dati in Sundae?",
+            "content": "Tramite connessioni API al tuo POS e al resto dello stack operativo. Dove un sistema non ha API, Sundae accetta caricamenti di file strutturati e letti in modo intelligente - PDF, Excel, screenshot - che verifichi prima dell'elaborazione."
+          },
           {
             "title": "Con quali sistemi POS vi integrate?",
             "content": "Sundae attualmente supporta **4 piattaforme POS** con adattatori attivi: Oracle MICROS Simphony, Square, Toast e Clover. Supportiamo anche **connettori di database diretti** per PostgreSQL e SQL Server / Azure SQL quando un sistema POS espone l'accesso al database.\n\nOltre ai POS, il motore di integrazione **a 12 domini** di Sundae si collega a oltre 30 fornitori in ambito lavoro, inventario, prenotazioni, consegna, marketing, esperienza del cliente, CRM e contabilità.\n\nSe non vedi il tuo sistema elencato, il livello Enterprise può includere lavori di integrazione personalizzati e ingestione basata su webhook."
           },
-          {},
-          {},
+          {
+            "title": "Posso usare Sundae con più sistemi POS?",
+            "content": "Sì. Sundae si collega a parchi POS eterogenei e normalizza i dati per un confronto omogeneo. Core Performance aggiunge sopra il consolidamento tra insegne e aree."
+          },
+          {
+            "title": "Quanto dura l'implementazione?",
+            "content": "La maggior parte dei gruppi è operativa in 1-2 settimane. I roll-out più ampi, multi-insegna o multi-area, richiedono 2-4 settimane a seconda del perimetro.\\n\\nL'implementazione è un costo una tantum, addebitato una sola volta sulla classe più alta della tua selezione - dal self-service gratuito fino a un intervento Class D definito."
+          },
           {
             "title": "Cosa succede ai miei dati se annullo?",
             "content": "I dati storici rimangono disponibili per l'esportazione. Se torni in seguito, i tuoi dati precedenti possono ancora essere ripristinati secondo il tuo piano e i termini di conservazione."
@@ -1796,27 +1964,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae कौन-से उत्पाद देता है?",
+            "content": "**चार मुख्य उत्पाद:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - निर्णय-आधार, जिसमें ग्यारहों डोमेन मॉड्यूल शामिल हैं\\n2. **Foresight & Action** - पूर्वानुमान, परिदृश्य मॉडलिंग और मानव-स्वीकृति वाली कार्रवाई परत\\n3. **Sundae Crew** - कार्यबल आधार: शेड्यूलिंग, उपस्थिति, पेरोल तैयारी, एचआर और पीपल इंटेलिजेंस\\n4. **Watchtower** - बाहरी बाज़ार इंटेलिजेंस, आपके Core पैकेज के साथ तय किया जाता है\\n\\n**साथ ही:** आपके समूह के संचालन मॉडलों के लिए कॉन्सेप्ट SKU - फ़्रैंचाइज़, होटल F&B, क्लाउड किचन, कैटरिंग, उत्पादन, किराए की सेंट्रल किचन।"
+          },
+          {
+            "title": "मुझे कौन-सा Core पैकेज चुनना चाहिए?",
+            "content": "**Core Foundation अगर:**\\n• आप स्प्रेडशीट और बिखरे डैशबोर्ड से बाहर आ रहे हैं\\n• गहराई में जाने से पहले आपको एक साझा परिचालन तस्वीर चाहिए\\n\\n**Core Margin अगर:**\\n• खाद्य लागत, बर्बादी, वॉइड या कॉम्प आपका मार्जिन खा रहे हैं\\n• आपको केवल बिक्री मिश्रण नहीं, प्रति-आइटम योगदान चाहिए\\n\\n**Core Growth अगर:**\\n• दोहराव वाला राजस्व और चैनल मिश्रण अड़चन हैं\\n• आपको मेहमान कोहॉर्ट, प्रोमो एट्रिब्यूशन और डिलीवरी मार्जिन चाहिए\\n\\n**Core Performance अगर:**\\n• आप कई ब्रांड या कई बाज़ार चलाते हैं\\n• आपको समेकन, मॉड्यूल-पार सहसंबंध और नियंत्रित पहुँच चाहिए"
+          },
           {
             "title": "क्या मैं बाद में अपग्रेड या डाउनग्रेड कर सकता हूँ?",
             "content": "हाँ। आप किसी भी समय स्तरों के बीच स्थानांतरित हो सकते हैं। ऐतिहासिक डेटा संरक्षित है और योजनाओं को बदलने पर कोई दंड नहीं है।"
           },
-          {}
+          {
+            "title": "4D Intelligence मॉडल क्या है?",
+            "content": "निर्णय बुद्धिमत्ता के लिए Sundae का ढाँचा:\\n\\n**1D: क्या हुआ** - बिक्री, श्रम और लागत का सच\\n**2D: योजना बनाम वास्तविक** - बजट और पूर्वानुमान का अंतर\\n**3D: बाज़ार संदर्भ** - बेंचमार्क, समकक्ष और प्रतिस्पर्धी\\n**4D: आगे क्या** - भविष्यवाणियाँ और सिफ़ारिशें\\n\\nहर Core पैकेज चारों को कवर करता है। पैकेज तय करता है कि हर आयाम कितना गहरा जाए।"
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae को किस डेटा की ज़रूरत है?",
+            "content": "**हर Core पैकेज के लिए:**\\n• API के ज़रिए POS सिस्टम\\n• श्रम या कार्यबल सिस्टम\\n• इन्वेंट्री सिस्टम\\n• मार्केटिंग प्लेटफ़ॉर्म\\n• आरक्षण सिस्टम\\n\\nपहले दिन मूल्य पाने के लिए अकेला POS काफ़ी है। बाकी जुड़ते जाने पर तस्वीर गहरी होती जाती है।"
+          },
+          {
+            "title": "मेरा डेटा Sundae में कैसे आता है?",
+            "content": "आपके POS और बाकी परिचालन स्टैक से API कनेक्शन के ज़रिए। जहाँ किसी सिस्टम में API नहीं है, वहाँ Sundae संरचित फ़ाइल ड्रॉप और स्मार्ट-पार्स अपलोड स्वीकार करता है - PDF, Excel, स्क्रीनशॉट - जिन्हें आप प्रोसेस होने से पहले जाँचते हैं।"
+          },
           {
             "title": "आप किस POS सिस्टम के साथ एकीकृत होते हैं?",
             "content": "Sundae वर्तमान में **4 POS प्लेटफार्मों** का समर्थन करता है जिनमें लाइव एडेप्टर हैं: Oracle MICROS Simphony, Square, Toast, और Clover। जब कोई POS प्रणाली डेटाबेस एक्सेस प्रदान करती है, तो हम PostgreSQL और SQL Server / Azure SQL के लिए **प्रत्यक्ष डेटाबेस कनेक्टर्स** का भी समर्थन करते हैं।\n\nPOS के अलावा, Sundae का **12-डोमेन एकीकरण इंजन** श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, और लेखांकन के 30+ विक्रेताओं से जुड़ता है।\n\nयदि आप अपने सिस्टम को सूचीबद्ध नहीं देखते हैं, तो एंटरप्राइज स्तर कस्टम एकीकरण कार्य और वेबहुक-आधारित इनजेशन को शामिल कर सकता है।"
           },
-          {},
-          {},
+          {
+            "title": "क्या मैं कई POS सिस्टम के साथ Sundae इस्तेमाल कर सकता हूँ?",
+            "content": "हाँ। Sundae मिश्रित POS संपदा से जुड़ता है और समान आधार पर तुलना के लिए डेटा को सामान्यीकृत करता है। Core Performance उसके ऊपर ब्रांड और क्षेत्रों के पार समेकन जोड़ता है।"
+          },
+          {
+            "title": "क्रियान्वयन में कितना समय लगता है?",
+            "content": "अधिकांश समूह 1-2 सप्ताह में लाइव हो जाते हैं। बड़े बहु-ब्रांड या बहु-क्षेत्र रोलआउट दायरे के अनुसार 2-4 सप्ताह लेते हैं।\\n\\nक्रियान्वयन एक बार का शुल्क है, जो आपकी चयन-सूची की सर्वोच्च श्रेणी पर एक ही बार लिया जाता है - निःशुल्क सेल्फ-सर्विस से लेकर तय दायरे वाले Class D कार्य तक।"
+          },
           {
             "title": "अगर मैं रद्द कर दूं तो मेरे डेटा का क्या होगा?",
             "content": "ऐतिहासिक डेटा निर्यात के लिए उपलब्ध रहता है। यदि आप बाद में लौटते हैं, तो आपके पिछले डेटा को आपके योजना और संरक्षण शर्तों के अनुसार पुनर्स्थापित किया जा सकता है।"
@@ -2025,27 +2214,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae hangi ürünleri sunuyor?",
+            "content": "**Dört ana ürün:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - karar zemini; on bir alan modülünün tamamını taşır\\n2. **Foresight & Action** - tahmin, senaryo modelleme ve insan onaylı eylem katmanı\\n3. **Sundae Crew** - iş gücü zemini: vardiya planlama, puantaj, bordro hazırlığı, İK ve people intelligence\\n4. **Watchtower** - dış pazar zekası; Core paketinizle birlikte kapsamlanır\\n\\n**Ayrıca:** grubunuzun işletme modellerine özel konsept SKU'ları - franchise, otel F&B, cloud kitchen, catering, üretim, kiralık merkez mutfak."
+          },
+          {
+            "title": "Hangi Core paketini seçmeliyim?",
+            "content": "**Core Foundation şu durumda:**\\n• Tablolardan ve kopuk panolardan çıkıyorsanız\\n• Derinleşmeden önce tek bir işletme görüntüsü istiyorsanız\\n\\n**Core Margin şu durumda:**\\n• Maliyet, israf, iptaller ya da ikramlar marjınızı yiyorsa\\n• Yalnızca satış karması değil, ürün bazında katkı gerekiyorsa\\n\\n**Core Growth şu durumda:**\\n• Tekrarlayan ciro ve kanal karması darboğazsa\\n• Misafir kohortları, promosyon atfı ve teslimat marjı gerekiyorsa\\n\\n**Core Performance şu durumda:**\\n• Birden fazla marka ya da pazar işletiyorsanız\\n• Konsolidasyon, modüller arası korelasyon ve yönetilen erişim gerekiyorsa"
+          },
           {
             "title": "Sonradan yükseltebilir veya düşürebilir miyim?",
             "content": "Evet. İstediğiniz zaman katmanlar arasında geçiş yapabilirsiniz. Tarihsel veriler korunur ve plan değişikliği için ceza yoktur."
           },
-          {}
+          {
+            "title": "4D Intelligence modeli nedir?",
+            "content": "Sundae'nin karar zekası çerçevesi:\\n\\n**1D: ne oldu** - satış, iş gücü ve maliyet gerçeği\\n**2D: plan ve gerçekleşen** - bütçe ve tahmin sapması\\n**3D: pazar bağlamı** - kıyaslamalar, emsaller ve rakipler\\n**4D: sırada ne var** - tahminler ve öneriler\\n\\nHer Core paketi dördünü de kapsar. Paket, her boyutun ne kadar derine indiğini belirler."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae hangi verilere ihtiyaç duyar?",
+            "content": "**Her Core paketi için:**\\n• API üzerinden POS sistemi\\n• Personel veya iş gücü sistemi\\n• Stok sistemi\\n• Pazarlama platformları\\n• Rezervasyon sistemi\\n\\nİlk gün değer almak için tek başına POS yeterlidir. Gerisi, bağladıkça resmi derinleştirir."
+          },
+          {
+            "title": "Verilerimi Sundae'ye nasıl aktarırım?",
+            "content": "POS'unuza ve operasyon yığınınızın geri kalanına API bağlantılarıyla. Bir sistemin API'si yoksa Sundae yapılandırılmış dosya aktarımlarını ve akıllı okunan yüklemeleri kabul eder - PDF, Excel, ekran görüntüsü - siz işleme almadan önce gözden geçirirsiniz."
+          },
           {
             "title": "Hangi POS sistemleriyle entegre oluyorsunuz?",
             "content": "Sundae şu anda **4 POS platformunu** canlı adaptörlerle destekliyor: Oracle MICROS Simphony, Square, Toast ve Clover. Ayrıca, bir POS sistemi veritabanı erişimini sağladığında PostgreSQL ve SQL Server / Azure SQL için **doğrudan veritabanı bağlantılarını** da destekliyoruz.\n\nPOS'un ötesinde, Sundae'nin **12 alanlı entegrasyon motoru** iş gücü, envanter, rezervasyon, teslimat, pazarlama, misafir deneyimi, CRM ve muhasebe alanlarında 30'dan fazla satıcıyla bağlantı kurar.\n\nSisteminizin listede olmadığını görüyorsanız, Kurumsal katman özel entegrasyon çalışmaları ve webhook tabanlı veri alımını içerebilir."
           },
-          {},
-          {},
+          {
+            "title": "Sundae'yi birden fazla POS sistemiyle kullanabilir miyim?",
+            "content": "Evet. Sundae karma POS parklarına bağlanır ve verileri eşit koşullarda karşılaştırma için normalleştirir. Core Performance bunun üzerine markalar ve bölgeler arası konsolidasyon ekler."
+          },
+          {
+            "title": "Kurulum ne kadar sürer?",
+            "content": "Çoğu grup 1-2 hafta içinde canlıya çıkar. Daha büyük, çok markalı veya çok bölgeli yayılımlar kapsama göre 2-4 hafta sürer.\\n\\nKurulum tek seferlik bir ücrettir ve seçiminizdeki en yüksek sınıf üzerinden bir kez alınır - ücretsiz self servisten kapsamı belirlenmiş bir Class D çalışmasına kadar."
+          },
           {
             "title": "İptal edersem verilerime ne olur?",
             "content": "Geçmiş veriler dışa aktarma için mevcut kalır. Daha sonra geri dönerseniz, önceki verileriniz planınıza ve saklama koşullarınıza göre geri yüklenebilir."
@@ -2254,27 +2464,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Jakie produkty oferuje Sundae?",
+            "content": "**Cztery główne produkty:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - fundament decyzyjny, niosący wszystkie jedenaście modułów\\n2. **Foresight & Action** - prognozy, modelowanie scenariuszy i warstwa działania z akceptacją człowieka\\n3. **Sundae Crew** - fundament kadrowy: grafiki, ewidencja czasu, gotowość płacowa, HR i people intelligence\\n4. **Watchtower** - zewnętrzna inteligencja rynkowa, wyceniana razem z pakietem Core\\n\\n**Dodatkowo:** SKU koncepcyjne dla modeli działania twojej grupy - franczyza, F&B hotelowe, cloud kitchen, catering, produkcja, wynajmowana kuchnia centralna."
+          },
+          {
+            "title": "Który pakiet Core wybrać?",
+            "content": "**Core Foundation, jeśli:**\\n• Odchodzisz od arkuszy i niepołączonych pulpitów\\n• Chcesz najpierw jeden obraz operacyjny, zanim pójdziesz głębiej\\n\\n**Core Margin, jeśli:**\\n• Koszt surowca, straty, anulacje lub gratisy zjadają twoją marżę\\n• Potrzebujesz kontrybucji pozycji, nie tylko miksu sprzedaży\\n\\n**Core Growth, jeśli:**\\n• Ograniczeniem są przychód powtarzalny i miks kanałów\\n• Potrzebujesz kohort gości, atrybucji promocji i marży dostaw\\n\\n**Core Performance, jeśli:**\\n• Prowadzisz kilka marek lub kilka rynków\\n• Potrzebujesz konsolidacji, korelacji między modułami i kontrolowanego dostępu"
+          },
           {
             "title": "Czy mogę później zaktualizować lub obniżyć wersję?",
             "content": "Tak. Możesz przechodzić między wersjami w dowolnym momencie. Dane historyczne są zachowane, a zmiana planu nie wiąże się z żadnymi karami."
           },
-          {}
+          {
+            "title": "Czym jest model 4D Intelligence?",
+            "content": "Rama Sundae dla inteligencji decyzyjnej:\\n\\n**1D: co się wydarzyło** - prawda o sprzedaży, pracy i koszcie\\n**2D: plan kontra wykonanie** - odchylenie od budżetu i prognozy\\n**3D: kontekst rynkowy** - benchmarki, porównywalni i konkurenci\\n**4D: co dalej** - prognozy i rekomendacje\\n\\nKażdy pakiet Core obejmuje wszystkie cztery. Pakiet ustala, jak głęboko sięga każdy wymiar."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Jakich danych potrzebuje Sundae?",
+            "content": "**Dla każdego pakietu Core:**\\n• System POS przez API\\n• System kadrowy lub grafikowy\\n• System magazynowy\\n• Platformy marketingowe\\n• System rezerwacji\\n\\nSam POS wystarczy, by uzyskać wartość pierwszego dnia. Reszta pogłębia obraz, w miarę jak ją podłączasz."
+          },
+          {
+            "title": "Jak moje dane trafiają do Sundae?",
+            "content": "Przez połączenia API z twoim POS i resztą stosu operacyjnego. Tam gdzie system nie ma API, Sundae przyjmuje ustrukturyzowane pliki i inteligentnie odczytywane wgrania - PDF, Excel, zrzuty ekranu - które sprawdzasz przed przetworzeniem."
+          },
           {
             "title": "Z jakimi systemami POS integrujecie się?",
             "content": "Sundae obecnie wspiera **4 platformy POS** z aktywnymi adapterami: Oracle MICROS Simphony, Square, Toast i Clover. Wspieramy również **bezpośrednie konektory baz danych** dla PostgreSQL oraz SQL Server / Azure SQL, gdy system POS udostępnia dostęp do bazy danych.\n\nPoza POS, silnik integracji Sundae **12-domenowy** łączy się z ponad 30 dostawcami w obszarach pracy, zarządzania zapasami, rezerwacji, dostaw, marketingu, doświadczenia gości, CRM i księgowości.\n\nJeśli nie widzisz swojego systemu na liście, poziom Enterprise może obejmować prace integracyjne na zamówienie oraz wprowadzanie danych oparte na webhookach."
           },
-          {},
-          {},
+          {
+            "title": "Czy mogę używać Sundae z wieloma systemami POS?",
+            "content": "Tak. Sundae łączy mieszane parki POS i normalizuje dane do porównań na równych zasadach. Core Performance dokłada do tego konsolidację między markami i regionami."
+          },
+          {
+            "title": "Ile trwa wdrożenie?",
+            "content": "Większość grup działa w 1-2 tygodnie. Większe wdrożenia wielomarkowe lub wieloregionalne zajmują 2-4 tygodnie w zależności od zakresu.\\n\\nWdrożenie to opłata jednorazowa, naliczana raz według najwyższej klasy w twoim wyborze - od bezpłatnego self-service po określone zaangażowanie Class D."
+          },
           {
             "title": "Co się stanie z moimi danymi, jeśli anuluję?",
             "content": "Dane historyczne pozostają dostępne do eksportu. Jeśli wrócisz później, Twoje wcześniejsze dane mogą być nadal przywrócone zgodnie z Twoim planem i warunkami przechowywania."
@@ -2483,27 +2714,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae 提供哪些产品？",
+            "content": "**四个主要产品：**\\n\\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）——决策底座，承载全部十一个领域模块\\n2. **Foresight & Action**——预测、情景建模，以及带人工审批的行动层\\n3. **Sundae Crew**——人力底座：排班、考勤、薪酬就绪、人事与人才洞察\\n4. **Watchtower**——外部市场情报，与你的 Core 套餐一并确定范围\\n\\n**此外：**面向你集团经营模式的概念型 SKU——加盟、酒店餐饮、云厨房、宴会外烩、生产、租赁中央厨房。"
+          },
+          {
+            "title": "我该选哪个 Core 套餐？",
+            "content": "**选 Core Foundation，如果：**\\n• 你正在摆脱表格和彼此割裂的看板\\n• 你想先有一张统一的运营图，再往深处走\\n\\n**选 Core Margin，如果：**\\n• 食材成本、损耗、作废或赠单正在吃掉你的毛利\\n• 你需要单品贡献，而不只是销售结构\\n\\n**选 Core Growth，如果：**\\n• 复购收入与渠道结构是瓶颈\\n• 你需要客户分群、促销归因和外卖毛利\\n\\n**选 Core Performance，如果：**\\n• 你经营多个品牌或多个市场\\n• 你需要合并、跨模块关联和受控访问"
+          },
           {
             "title": "我可以稍后升级或降级吗？",
             "content": "可以。您可以随时在不同级别之间切换。历史数据会被保留，变更计划没有惩罚。"
           },
-          {}
+          {
+            "title": "什么是 4D Intelligence 模型？",
+            "content": "Sundae 的决策智能框架：\\n\\n**1D：发生了什么**——销售、人力与成本的真实情况\\n**2D：计划与实际**——预算与预测偏差\\n**3D：市场背景**——对标、同行与竞争者\\n**4D：接下来会怎样**——预测与建议\\n\\n每个 Core 套餐都覆盖这四个维度，套餐决定每个维度的纵深。"
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae 需要哪些数据？",
+            "content": "**每个 Core 套餐都需要：**\\n• 通过 API 接入的 POS 系统\\n• 人力或排班系统\\n• 库存系统\\n• 营销平台\\n• 预订系统\\n\\n仅接入 POS，第一天就能产生价值。其余系统接入后会让画面更完整。"
+          },
+          {
+            "title": "我的数据怎么进入 Sundae？",
+            "content": "通过与 POS 及其余运营系统的 API 连接。若某个系统没有 API，Sundae 也接受结构化文件投递和智能解析上传——PDF、Excel、截图——由你确认后再处理。"
+          },
           {
             "title": "你们支持哪些POS系统的集成？",
             "content": "Sundae目前支持**4个POS平台**的实时适配器：Oracle MICROS Simphony、Square、Toast和Clover。当POS系统提供数据库访问时，我们还支持**PostgreSQL和SQL Server / Azure SQL的直接数据库连接**。\n\n除了POS，Sundae的**12域集成引擎**连接到30多个供应商，涵盖劳动力、库存、预订、配送、营销、客户体验、CRM和会计。\n\n如果您没有看到您的系统列出，企业级可以包括自定义集成工作和基于Webhook的摄取。"
           },
-          {},
-          {},
+          {
+            "title": "我能在多套 POS 系统上使用 Sundae 吗？",
+            "content": "可以。Sundae 可跨混合 POS 环境接入，并将数据标准化以便同口径比较。Core Performance 在此之上再加跨品牌、跨区域的合并。"
+          },
+          {
+            "title": "实施需要多久？",
+            "content": "多数集团在 1-2 周内上线。更大的多品牌或多区域推广，视范围需 2-4 周。\\n\\n实施为一次性费用，按你所选的最高级别一次性计收——从零费用的自助，到范围明确的 Class D 服务。"
+          },
           {
             "title": "如果我取消，数据会怎样？",
             "content": "历史数据仍可导出。如果您稍后返回，您的先前数据仍可根据您的计划和保留条款恢复。"
@@ -2712,27 +2964,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae にはどんな製品がありますか？",
+            "content": "**主要な4製品：**\\n\\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）- 意思決定の基盤。11の業務モジュールすべてを備えます\\n2. **Foresight & Action** - 予測、シナリオ設計、そして人の承認を挟む実行レイヤー\\n3. **Sundae Crew** - 人材の基盤。シフト、勤怠、給与準備、人事、ピープルインテリジェンス\\n4. **Watchtower** - 外部の市場インテリジェンス。Core パッケージと合わせて範囲を決めます\\n\\n**さらに：**貴社の運営形態に合わせたコンセプト SKU - フランチャイズ、ホテル F&B、クラウドキッチン、ケータリング、製造、レンタルセントラルキッチン。"
+          },
+          {
+            "title": "どの Core パッケージを選べばよいですか？",
+            "content": "**Core Foundation が向く場合：**\\n• 表計算やばらばらのダッシュボードから脱却したい\\n• 深掘りの前に、まず一つの運営像がほしい\\n\\n**Core Margin が向く場合：**\\n• 原価、廃棄、取消、サービス提供が利益を削っている\\n• 売上構成だけでなく、商品別の貢献度が必要\\n\\n**Core Growth が向く場合：**\\n• リピート売上とチャネル構成が制約になっている\\n• 顧客コホート、販促寄与、デリバリー利益が必要\\n\\n**Core Performance が向く場合：**\\n• 複数ブランドや複数市場を運営している\\n• 連結、モジュール横断の相関、統制されたアクセスが必要"
+          },
           {
             "title": "後でアップグレードまたはダウングレードできますか？",
             "content": "はい。いつでもティアを移動できます。過去のデータは保持され、プラン変更にペナルティはありません。"
           },
-          {}
+          {
+            "title": "4D Intelligence モデルとは何ですか？",
+            "content": "Sundae の意思決定インテリジェンスの枠組みです。\\n\\n**1D：何が起きたか** - 売上、人件費、原価の事実\\n**2D：計画と実績** - 予算と予測の差異\\n**3D：市場の文脈** - ベンチマーク、同業、競合\\n**4D：次に何が起きるか** - 予測と推奨\\n\\nどの Core パッケージも4つすべてを扱います。パッケージが各次元の深さを決めます。"
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae にはどのデータが必要ですか？",
+            "content": "**すべての Core パッケージで：**\\n• API 経由の POS システム\\n• 人件費・要員管理システム\\n• 在庫システム\\n• マーケティング基盤\\n• 予約システム\\n\\nPOS だけでも初日から価値が出ます。ほかは接続するほど解像度が上がります。"
+          },
+          {
+            "title": "データはどうやって Sundae に入りますか？",
+            "content": "POS とその他の業務システムへの API 接続によります。API のないシステムについては、Sundae が構造化ファイルの受け渡しと自動解析付きアップロード（PDF、Excel、スクリーンショット）に対応しており、処理前にご確認いただけます。"
+          },
           {
             "title": "どのPOSシステムと統合していますか？",
             "content": "Sundaeは現在、**4つのPOSプラットフォーム**（Oracle MICROS Simphony、Square、Toast、Clover）をライブアダプターでサポートしています。また、POSシステムがデータベースアクセスを公開している場合、PostgreSQLおよびSQL Server / Azure SQL用の**直接データベースコネクタ**もサポートしています。\n\nPOSを超えて、Sundaeの**12ドメイン統合エンジン**は、労働、在庫、予約、配達、マーケティング、ゲスト体験、CRM、会計の30以上のベンダーに接続します。\n\nリストにシステムが表示されていない場合、エンタープライズプランにはカスタム統合作業やWebhookベースの取り込みが含まれることがあります。"
           },
-          {},
-          {},
+          {
+            "title": "Sundae は複数の POS システムでも使えますか？",
+            "content": "はい。Sundae は複数ベンダーの POS 環境をまたいで接続し、同じ土俵で比較できるようデータを標準化します。Core Performance はその上にブランド横断・地域横断の連結を加えます。"
+          },
+          {
+            "title": "導入にはどのくらいかかりますか？",
+            "content": "多くのグループは1〜2週間で稼働します。複数ブランド・複数地域にまたがる大規模な展開は、範囲により2〜4週間です。\\n\\n導入費用は一度きりで、選択された中で最上位のクラスに基づき一回だけ請求されます。無償のセルフサービスから、範囲を定めた Class D の支援まで幅があります。"
+          },
           {
             "title": "キャンセルした場合、私のデータはどうなりますか？",
             "content": "履歴データはエクスポート可能な状態で残ります。後で戻った場合、以前のデータはプランと保持条件に従って復元できます。"
@@ -2941,27 +3214,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae는 어떤 제품을 제공하나요?",
+            "content": "**주요 4개 제품:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - 의사결정 기반으로, 11개 도메인 모듈을 모두 담습니다\\n2. **Foresight & Action** - 예측, 시나리오 모델링, 그리고 사람이 승인하는 실행 레이어\\n3. **Sundae Crew** - 인력 기반: 근무 편성, 근태, 급여 준비, 인사, 피플 인텔리전스\\n4. **Watchtower** - 외부 시장 인텔리전스로, Core 패키지와 함께 범위를 정합니다\\n\\n**추가로:** 그룹의 운영 모델에 맞춘 콘셉트 SKU - 프랜차이즈, 호텔 F&B, 클라우드 키친, 케이터링, 생산, 임대 센트럴 키친."
+          },
+          {
+            "title": "어떤 Core 패키지를 선택해야 하나요?",
+            "content": "**Core Foundation이 맞는 경우:**\\n• 스프레드시트와 흩어진 대시보드에서 벗어나려는 경우\\n• 더 깊이 들어가기 전에 하나의 운영 그림이 필요한 경우\\n\\n**Core Margin이 맞는 경우:**\\n• 원가, 폐기, 취소, 서비스 제공이 마진을 갉아먹는 경우\\n• 매출 구성이 아니라 품목별 기여도가 필요한 경우\\n\\n**Core Growth가 맞는 경우:**\\n• 재방문 매출과 채널 구성이 제약인 경우\\n• 고객 코호트, 프로모션 기여도, 배달 마진이 필요한 경우\\n\\n**Core Performance가 맞는 경우:**\\n• 여러 브랜드나 여러 시장을 운영하는 경우\\n• 통합, 모듈 간 상관분석, 통제된 접근이 필요한 경우"
+          },
           {
             "title": "나중에 업그레이드 또는 다운그레이드할 수 있나요?",
             "content": "네. 언제든지 티어 간 이동이 가능합니다. 역사적 데이터는 보존되며, 요금제 변경에 대한 패널티는 없습니다."
           },
-          {}
+          {
+            "title": "4D Intelligence 모델이란 무엇인가요?",
+            "content": "Sundae의 의사결정 인텔리전스 프레임워크입니다.\\n\\n**1D: 무슨 일이 있었나** - 매출, 인건비, 원가의 사실\\n**2D: 계획 대 실적** - 예산 및 예측 대비 편차\\n**3D: 시장 맥락** - 벤치마크, 동종업계, 경쟁사\\n**4D: 다음은 무엇인가** - 예측과 권고\\n\\n모든 Core 패키지가 네 가지를 모두 다루며, 패키지가 각 차원의 깊이를 정합니다."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae에는 어떤 데이터가 필요한가요?",
+            "content": "**모든 Core 패키지 공통:**\\n• API로 연결되는 POS 시스템\\n• 인력 또는 근무 관리 시스템\\n• 재고 시스템\\n• 마케팅 플랫폼\\n• 예약 시스템\\n\\nPOS만 연결해도 첫날부터 가치를 얻습니다. 나머지는 연결할수록 그림이 깊어집니다."
+          },
+          {
+            "title": "제 데이터는 어떻게 Sundae로 들어가나요?",
+            "content": "POS와 나머지 운영 시스템에 대한 API 연결을 통해 들어갑니다. API가 없는 시스템은 Sundae가 구조화된 파일 전달과 자동 판독 업로드(PDF, Excel, 스크린샷)를 지원하며, 처리 전에 직접 검토하실 수 있습니다."
+          },
           {
             "title": "어떤 POS 시스템과 통합하나요?",
             "content": "Sundae는 현재 **4개의 POS 플랫폼**을 실시간 어댑터로 지원합니다: Oracle MICROS Simphony, Square, Toast, Clover. 또한 POS 시스템이 데이터베이스 접근을 제공할 때 PostgreSQL 및 SQL Server / Azure SQL에 대한 **직접 데이터베이스 커넥터**를 지원합니다.\n\nPOS를 넘어, Sundae의 **12개 도메인 통합 엔진**은 노동, 재고, 예약, 배달, 마케팅, 고객 경험, CRM 및 회계 분야의 30개 이상의 공급업체와 연결됩니다.\n\n목록에 시스템이 없으면, 엔터프라이즈 등급에서 맞춤 통합 작업 및 웹훅 기반 수집을 포함할 수 있습니다."
           },
-          {},
-          {},
+          {
+            "title": "Sundae를 여러 POS 시스템과 함께 쓸 수 있나요?",
+            "content": "네. Sundae는 서로 다른 POS가 섞인 환경에 연결하고, 같은 기준으로 비교할 수 있도록 데이터를 표준화합니다. Core Performance는 그 위에 브랜드·지역 간 통합을 더합니다."
+          },
+          {
+            "title": "도입에는 얼마나 걸리나요?",
+            "content": "대부분의 그룹은 1~2주 안에 가동합니다. 여러 브랜드나 여러 지역에 걸친 큰 규모의 도입은 범위에 따라 2~4주가 걸립니다.\\n\\n도입 비용은 일회성이며, 선택하신 항목 중 가장 높은 등급을 기준으로 한 번만 청구됩니다. 무상 셀프서비스부터 범위가 정해진 Class D 지원까지 있습니다."
+          },
           {
             "title": "취소하면 내 데이터는 어떻게 되나요?",
             "content": "이전 데이터는 내보내기 가능 상태로 유지됩니다. 나중에 돌아오면, 이전 데이터는 귀하의 계획 및 보존 조건에 따라 복원할 수 있습니다."
@@ -3170,27 +3464,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Produk apa saja yang ditawarkan Sundae?",
+            "content": "**Empat produk utama:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa seluruh sebelas modul domain\\n2. **Foresight & Action** - prakiraan, pemodelan skenario, dan lapisan tindakan dengan persetujuan manusia\\n3. **Sundae Crew** - substrat tenaga kerja: penjadwalan, absensi, kesiapan penggajian, HR, dan people intelligence\\n4. **Watchtower** - inteligensi pasar eksternal, dilingkupi bersama paket Core Anda\\n\\n**Ditambah:** SKU konsep untuk model operasi grup Anda - waralaba, F&B hotel, cloud kitchen, katering, produksi, dapur sentral sewa."
+          },
+          {
+            "title": "Paket Core mana yang sebaiknya saya pilih?",
+            "content": "**Core Foundation bila:**\\n• Anda beralih dari spreadsheet dan dasbor yang terpisah-pisah\\n• Anda ingin satu gambaran operasi sebelum masuk lebih dalam\\n\\n**Core Margin bila:**\\n• Biaya bahan, susut, void, atau komplimen yang menggerus margin Anda\\n• Anda butuh kontribusi per item, bukan sekadar bauran penjualan\\n\\n**Core Growth bila:**\\n• Pendapatan berulang dan bauran kanal jadi kendala\\n• Anda butuh kohort tamu, atribusi promo, dan margin pengiriman\\n\\n**Core Performance bila:**\\n• Anda menjalankan beberapa merek atau beberapa pasar\\n• Anda butuh konsolidasi, korelasi antarmodul, dan akses terkelola"
+          },
           {
             "title": "Bisakah saya meningkatkan atau menurunkan tingkat nanti?",
             "content": "Ya. Anda dapat berpindah antar tingkat kapan saja. Data historis akan dipertahankan dan tidak ada penalti untuk mengubah rencana."
           },
-          {}
+          {
+            "title": "Apa itu model 4D Intelligence?",
+            "content": "Kerangka Sundae untuk inteligensi keputusan:\\n\\n**1D: apa yang terjadi** - kebenaran penjualan, tenaga kerja, dan biaya\\n**2D: rencana versus aktual** - selisih anggaran dan prakiraan\\n**3D: konteks pasar** - tolok ukur, sesama pelaku, dan pesaing\\n**4D: apa berikutnya** - prediksi dan rekomendasi\\n\\nSetiap paket Core mencakup keempatnya. Paket menentukan seberapa dalam tiap dimensi."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Data apa yang dibutuhkan Sundae?",
+            "content": "**Untuk setiap paket Core:**\\n• Sistem POS melalui API\\n• Sistem tenaga kerja atau penjadwalan\\n• Sistem persediaan\\n• Platform pemasaran\\n• Sistem reservasi\\n\\nPOS saja sudah cukup untuk memberi nilai pada hari pertama. Sisanya memperdalam gambaran seiring Anda menghubungkannya."
+          },
+          {
+            "title": "Bagaimana data saya masuk ke Sundae?",
+            "content": "Lewat koneksi API ke POS dan sisa tumpukan operasional Anda. Bila sebuah sistem tidak punya API, Sundae menerima kiriman berkas terstruktur dan unggahan yang dibaca secara cerdas - PDF, Excel, tangkapan layar - yang Anda tinjau sebelum diproses."
+          },
           {
             "title": "Sistem POS mana yang Anda integrasikan?",
             "content": "Sundae saat ini mendukung **4 platform POS** dengan adaptor langsung: Oracle MICROS Simphony, Square, Toast, dan Clover. Kami juga mendukung **penghubung database langsung** untuk PostgreSQL dan SQL Server / Azure SQL ketika sistem POS membuka akses database.\n\nDi luar POS, mesin integrasi **12-domain** Sundae terhubung ke lebih dari 30 vendor di bidang tenaga kerja, inventaris, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, dan akuntansi.\n\nJika Anda tidak melihat sistem Anda terdaftar, tingkat Enterprise dapat mencakup pekerjaan integrasi kustom dan penerimaan berbasis webhook."
           },
-          {},
-          {},
+          {
+            "title": "Bisakah saya memakai Sundae dengan beberapa sistem POS?",
+            "content": "Bisa. Sundae terhubung ke lanskap POS campuran dan menormalkan datanya agar perbandingannya setara. Core Performance menambahkan konsolidasi lintas merek dan wilayah di atasnya."
+          },
+          {
+            "title": "Berapa lama implementasinya?",
+            "content": "Sebagian besar grup aktif dalam 1-2 minggu. Peluncuran yang lebih besar, lintas merek atau lintas wilayah, memakan 2-4 minggu tergantung cakupan.\\n\\nImplementasi adalah biaya sekali bayar, dikenakan satu kali pada kelas tertinggi dalam pilihan Anda - dari layanan mandiri tanpa biaya hingga pendampingan Class D yang tercakup."
+          },
           {
             "title": "Apa yang terjadi pada data saya jika saya membatalkan?",
             "content": "Data historis tetap tersedia untuk diekspor. Jika Anda kembali nanti, data Anda sebelumnya masih dapat dipulihkan sesuai dengan rencana dan ketentuan retensi Anda."
@@ -3399,27 +3714,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae cung cấp những sản phẩm nào?",
+            "content": "**Bốn sản phẩm chính:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - nền tảng ra quyết định, mang đủ mười một phân hệ nghiệp vụ\\n2. **Foresight & Action** - dự báo, dựng kịch bản và lớp hành động có phê duyệt của con người\\n3. **Sundae Crew** - nền tảng nhân sự: xếp ca, chấm công, sẵn sàng tính lương, nhân sự và people intelligence\\n4. **Watchtower** - trí tuệ thị trường bên ngoài, xác định phạm vi cùng gói Core của bạn\\n\\n**Ngoài ra:** các SKU theo mô hình vận hành của tập đoàn - nhượng quyền, F&B khách sạn, bếp trên mây, tiệc, sản xuất, bếp trung tâm cho thuê."
+          },
+          {
+            "title": "Tôi nên chọn gói Core nào?",
+            "content": "**Core Foundation nếu:**\\n• Bạn đang thoát khỏi bảng tính và các bảng điều khiển rời rạc\\n• Bạn muốn một bức tranh vận hành thống nhất trước khi đi sâu\\n\\n**Core Margin nếu:**\\n• Giá vốn, hao hụt, huỷ món hay đồ tặng đang ăn vào biên lợi nhuận\\n• Bạn cần đóng góp theo từng món, không chỉ cơ cấu doanh thu\\n\\n**Core Growth nếu:**\\n• Doanh thu lặp lại và cơ cấu kênh là điểm nghẽn\\n• Bạn cần nhóm khách, quy kết khuyến mãi và biên giao hàng\\n\\n**Core Performance nếu:**\\n• Bạn vận hành nhiều thương hiệu hoặc nhiều thị trường\\n• Bạn cần hợp nhất, đối chiếu giữa các phân hệ và truy cập được quản trị"
+          },
           {
             "title": "Tôi có thể nâng cấp hoặc hạ cấp sau không?",
             "content": "Có. Bạn có thể chuyển đổi giữa các cấp độ bất kỳ lúc nào. Dữ liệu lịch sử được bảo tồn và không có hình phạt cho việc thay đổi kế hoạch."
           },
-          {}
+          {
+            "title": "Mô hình 4D Intelligence là gì?",
+            "content": "Khung trí tuệ ra quyết định của Sundae:\\n\\n**1D: điều gì đã xảy ra** - sự thật về doanh thu, nhân công và chi phí\\n**2D: kế hoạch so với thực tế** - chênh lệch ngân sách và dự báo\\n**3D: bối cảnh thị trường** - đối sánh, đơn vị tương đương và đối thủ\\n**4D: điều gì sắp tới** - dự báo và khuyến nghị\\n\\nMọi gói Core đều bao trùm cả bốn. Gói quyết định mỗi chiều đi sâu tới đâu."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae cần những dữ liệu nào?",
+            "content": "**Với mọi gói Core:**\\n• Hệ thống POS qua API\\n• Hệ thống nhân công hoặc xếp ca\\n• Hệ thống tồn kho\\n• Các nền tảng tiếp thị\\n• Hệ thống đặt chỗ\\n\\nChỉ riêng POS đã đủ để tạo giá trị ngay ngày đầu. Phần còn lại làm bức tranh sâu hơn khi bạn kết nối thêm."
+          },
+          {
+            "title": "Dữ liệu của tôi vào Sundae bằng cách nào?",
+            "content": "Qua kết nối API tới POS và phần còn lại của hệ thống vận hành. Nơi nào hệ thống không có API, Sundae nhận tệp có cấu trúc và các bản tải lên được đọc thông minh - PDF, Excel, ảnh chụp màn hình - bạn xem lại trước khi xử lý."
+          },
           {
             "title": "Sundae tích hợp với những hệ thống POS nào?",
             "content": "Sundae hiện hỗ trợ **4 nền tảng POS** với bộ điều hợp trực tiếp: Oracle MICROS Simphony, Square, Toast và Clover. Chúng tôi cũng hỗ trợ **kết nối cơ sở dữ liệu trực tiếp** cho PostgreSQL và SQL Server / Azure SQL khi một hệ thống POS cung cấp quyền truy cập cơ sở dữ liệu.\n\nNgoài POS, động cơ tích hợp **12 miền** của Sundae kết nối với hơn 30 nhà cung cấp trong các lĩnh vực lao động, tồn kho, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM và kế toán.\n\nNếu bạn không thấy hệ thống của mình trong danh sách, cấp độ Doanh nghiệp có thể bao gồm công việc tích hợp tùy chỉnh và nhập liệu dựa trên webhook."
           },
-          {},
-          {},
+          {
+            "title": "Tôi có thể dùng Sundae với nhiều hệ thống POS không?",
+            "content": "Có. Sundae kết nối trên các hệ POS hỗn hợp và chuẩn hoá dữ liệu để so sánh cùng một thước đo. Core Performance bổ sung thêm việc hợp nhất giữa các thương hiệu và khu vực."
+          },
+          {
+            "title": "Triển khai mất bao lâu?",
+            "content": "Phần lớn tập đoàn đi vào hoạt động trong 1-2 tuần. Các đợt triển khai lớn hơn, nhiều thương hiệu hoặc nhiều vùng, mất 2-4 tuần tuỳ phạm vi.\\n\\nTriển khai là khoản phí một lần, tính một lần theo hạng cao nhất trong lựa chọn của bạn - từ tự phục vụ miễn phí đến gói Class D có phạm vi rõ ràng."
+          },
           {
             "title": "Điều gì sẽ xảy ra với dữ liệu của tôi nếu tôi hủy?",
             "content": "Dữ liệu lịch sử vẫn có sẵn để xuất. Nếu bạn quay lại sau, dữ liệu trước đó của bạn vẫn có thể được khôi phục theo kế hoạch và điều khoản lưu giữ của bạn."
@@ -3628,27 +3964,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Ce produse oferă Sundae?",
+            "content": "**Patru produse principale:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substratul de decizie, care poartă toate cele unsprezece module\\n2. **Foresight & Action** - prognoză, modelare de scenarii și stratul de acțiune cu aprobare umană\\n3. **Sundae Crew** - substratul de personal: planificare, pontaj, pregătirea salarizării, HR și people intelligence\\n4. **Watchtower** - inteligență de piață externă, dimensionată alături de pachetul Core\\n\\n**În plus:** SKU-uri de concept pentru modelele de operare ale grupului tău - franciză, F&B hotelier, cloud kitchen, catering, producție, bucătărie centrală închiriată."
+          },
+          {
+            "title": "Ce pachet Core să aleg?",
+            "content": "**Core Foundation dacă:**\\n• Ieși din foi de calcul și tablouri de bord deconectate\\n• Vrei o singură imagine operațională înainte de a merge mai adânc\\n\\n**Core Margin dacă:**\\n• Costul mărfii, risipa, anulările sau gratuitățile îți iau marja\\n• Ai nevoie de contribuție pe produs, nu doar de mixul de vânzări\\n\\n**Core Growth dacă:**\\n• Venitul recurent și mixul de canale sunt constrângerea\\n• Ai nevoie de cohorte de clienți, atribuirea promoțiilor și marja de livrare\\n\\n**Core Performance dacă:**\\n• Operezi mai multe branduri sau mai multe piețe\\n• Ai nevoie de consolidare, corelare între module și acces guvernat"
+          },
           {
             "title": "Pot face upgrade sau downgrade mai târziu?",
             "content": "Da. Puteți trece între niveluri în orice moment. Datele istorice sunt păstrate și nu există penalizări pentru schimbarea planurilor."
           },
-          {}
+          {
+            "title": "Ce este modelul 4D Intelligence?",
+            "content": "Cadrul Sundae pentru inteligența decizională:\\n\\n**1D: ce s-a întâmplat** - adevărul despre vânzări, forță de muncă și cost\\n**2D: plan față de realizat** - abaterea de la buget și prognoză\\n**3D: contextul pieței** - repere, companii similare și concurenți\\n**4D: ce urmează** - predicții și recomandări\\n\\nFiecare pachet Core le acoperă pe toate patru. Pachetul stabilește cât de adânc merge fiecare dimensiune."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "De ce date are nevoie Sundae?",
+            "content": "**Pentru orice pachet Core:**\\n• Sistem POS prin API\\n• Sistem de personal sau de planificare\\n• Sistem de stocuri\\n• Platforme de marketing\\n• Sistem de rezervări\\n\\nDoar POS-ul este suficient pentru valoare din prima zi. Restul adâncește imaginea pe măsură ce le conectezi."
+          },
+          {
+            "title": "Cum ajung datele mele în Sundae?",
+            "content": "Prin conexiuni API către POS și restul stivei tale operaționale. Acolo unde un sistem nu are API, Sundae acceptă fișiere structurate și încărcări citite inteligent - PDF, Excel, capturi de ecran - pe care le verifici înainte de procesare."
+          },
           {
             "title": "Cu ce sisteme POS vă integrați?",
             "content": "Sundae suportă în prezent **4 platforme POS** cu adaptoare live: Oracle MICROS Simphony, Square, Toast și Clover. De asemenea, suportăm **conectori de baze de date directe** pentru PostgreSQL și SQL Server / Azure SQL atunci când un sistem POS expune accesul la baza de date.\n\nDincolo de POS, motorul de integrare **Sundae** cu **12 domenii** se conectează la peste 30 de furnizori din domeniul muncii, inventar, rezervări, livrare, marketing, experiența oaspeților, CRM și contabilitate.\n\nDacă nu vezi sistemul tău listat, nivelul Enterprise poate include lucrări de integrare personalizate și ingestie bazată pe webhook."
           },
-          {},
-          {},
+          {
+            "title": "Pot folosi Sundae cu mai multe sisteme POS?",
+            "content": "Da. Sundae se conectează la parcuri POS mixte și normalizează datele pentru o comparație corectă. Core Performance adaugă deasupra consolidarea între branduri și regiuni."
+          },
+          {
+            "title": "Cât durează implementarea?",
+            "content": "Majoritatea grupurilor sunt funcționale în 1-2 săptămâni. Implementările mai mari, cu mai multe branduri sau regiuni, durează 2-4 săptămâni în funcție de amploare.\\n\\nImplementarea este o taxă unică, facturată o singură dată la cea mai înaltă clasă din selecția ta - de la self-service gratuit până la un angajament Class D delimitat."
+          },
           {
             "title": "Ce se întâmplă cu datele mele dacă anulez?",
             "content": "Datele istorice rămân disponibile pentru export. Dacă te întorci mai târziu, datele tale anterioare pot fi restaurate conform planului și termenilor de păstrare."
@@ -3857,27 +4214,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Vilka produkter erbjuder Sundae?",
+            "content": "**Fyra huvudprodukter:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - beslutssubstratet, som bär alla elva domänmoduler\\n2. **Foresight & Action** - prognoser, scenariomodellering och handlingslagret med mänskligt godkännande\\n3. **Sundae Crew** - personalsubstratet: schemaläggning, tidrapportering, löneberedskap, HR och people intelligence\\n4. **Watchtower** - extern marknadsintelligens, omfångsatt tillsammans med ert Core-paket\\n\\n**Dessutom:** koncept-SKU:er för de driftsmodeller er koncern kör - franchise, hotell-F&B, cloud kitchen, catering, produktion, hyrt centralkök."
+          },
+          {
+            "title": "Vilket Core-paket ska jag välja?",
+            "content": "**Core Foundation om:**\\n• Ni lämnar kalkylblad och frikopplade instrumentpaneler\\n• Ni vill ha en samlad driftbild innan ni går djupare\\n\\n**Core Margin om:**\\n• Råvarukostnad, svinn, makuleringar eller comps äter er marginal\\n• Ni behöver bidrag per artikel, inte bara försäljningsmix\\n\\n**Core Growth om:**\\n• Återkommande intäkt och kanalmix är begränsningen\\n• Ni behöver gästkohorter, kampanjattribution och leveransmarginal\\n\\n**Core Performance om:**\\n• Ni driver flera varumärken eller flera marknader\\n• Ni behöver konsolidering, korrelation mellan moduler och styrd åtkomst"
+          },
           {
             "title": "Kan jag uppgradera eller nedgradera senare?",
             "content": "Ja. Du kan flytta mellan nivåer när som helst. Historiska data bevaras och det finns inga straff för att ändra planer."
           },
-          {}
+          {
+            "title": "Vad är 4D Intelligence-modellen?",
+            "content": "Ramverket från Sundae för beslutsintelligens:\\n\\n**1D: vad som hände** - sanningen om försäljning, personal och kostnad\\n**2D: plan mot utfall** - avvikelse mot budget och prognos\\n**3D: marknadskontext** - jämförelser, likvärdiga aktörer och konkurrenter\\n**4D: vad som kommer** - prognoser och rekommendationer\\n\\nVarje Core-paket täcker alla fyra. Paketet avgör hur djupt varje dimension går."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Vilka data behöver Sundae?",
+            "content": "**För varje Core-paket:**\\n• POS-system via API\\n• Personal- eller bemanningssystem\\n• Lagersystem\\n• Marknadsföringsplattformar\\n• Bokningssystem\\n\\nEnbart POS räcker för värde dag ett. Resten fördjupar bilden allteftersom ni kopplar in dem."
+          },
+          {
+            "title": "Hur kommer mina data in i Sundae?",
+            "content": "Via API-kopplingar till er POS och resten av driftstacken. Där ett system saknar API tar Sundae emot strukturerade filleveranser och smart inlästa uppladdningar - PDF, Excel, skärmbilder - som ni granskar före bearbetning."
+          },
           {
             "title": "Vilka POS-system integrerar ni med?",
             "content": "Sundae stöder för närvarande **4 POS-plattformar** med aktiva adaptrar: Oracle MICROS Simphony, Square, Toast och Clover. Vi stöder också **direkta databasanslutningar** för PostgreSQL och SQL Server / Azure SQL när ett POS-system exponerar databasåtkomst.\n\nUtöver POS kopplar Sundaes **12-domäns integrationsmotor** samman med över 30 leverantörer inom arbetskraft, lager, bokningar, leverans, marknadsföring, gästupplevelse, CRM och redovisning.\n\nOm du inte ser ditt system listat kan Enterprise-nivån inkludera anpassat integrationsarbete och webhook-baserad inhämtning."
           },
-          {},
-          {},
+          {
+            "title": "Kan jag använda Sundae med flera POS-system?",
+            "content": "Ja. Sundae kopplar ihop blandade POS-bestånd och normaliserar data för jämförelser på lika villkor. Core Performance lägger till konsolidering över varumärken och regioner ovanpå det."
+          },
+          {
+            "title": "Hur lång tid tar införandet?",
+            "content": "De flesta koncerner är i drift på 1-2 veckor. Större utrullningar över flera varumärken eller regioner tar 2-4 veckor beroende på omfattning.\\n\\nInförandet är en engångsavgift som tas ut en gång enligt den högsta klassen i ert val - från kostnadsfri självbetjäning upp till ett avgränsat Class D-uppdrag."
+          },
           {
             "title": "Vad händer med min data om jag avbryter?",
             "content": "Historisk data förblir tillgänglig för export. Om du återvänder senare kan din tidigare data fortfarande återställas enligt din plan och lagringsvillkor."
@@ -4086,27 +4464,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae কী কী পণ্য দেয়?",
+            "content": "**চারটি প্রধান পণ্য:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - সিদ্ধান্তের ভিত্তি, যাতে এগারোটি ডোমেইন মডিউলই থাকে\\n2. **Foresight & Action** - পূর্বাভাস, দৃশ্যকল্প মডেলিং এবং মানুষের অনুমোদনসহ কর্ম-স্তর\\n3. **Sundae Crew** - কর্মীবাহিনীর ভিত্তি: সময়সূচি, হাজিরা, বেতন প্রস্তুতি, এইচআর ও পিপল ইন্টেলিজেন্স\\n4. **Watchtower** - বাইরের বাজার ইন্টেলিজেন্স, আপনার Core প্যাকেজের সঙ্গেই পরিসর ঠিক হয়\\n\\n**সেই সঙ্গে:** আপনার গ্রুপের পরিচালন মডেলের জন্য কনসেপ্ট SKU - ফ্র্যাঞ্চাইজ, হোটেল F&B, ক্লাউড কিচেন, ক্যাটারিং, উৎপাদন, ভাড়ার সেন্ট্রাল কিচেন।"
+          },
+          {
+            "title": "আমি কোন Core প্যাকেজ নেব?",
+            "content": "**Core Foundation যদি:**\\n• আপনি স্প্রেডশিট আর বিচ্ছিন্ন ড্যাশবোর্ড থেকে বেরোচ্ছেন\\n• গভীরে যাওয়ার আগে একটিই পরিচালন চিত্র চান\\n\\n**Core Margin যদি:**\\n• খাদ্যের খরচ, অপচয়, ভয়েড বা কম্প আপনার মার্জিন খেয়ে ফেলছে\\n• কেবল বিক্রির মিশ্রণ নয়, প্রতি আইটেমের অবদান দরকার\\n\\n**Core Growth যদি:**\\n• পুনরাবৃত্ত রাজস্ব আর চ্যানেল মিশ্রণই বাধা\\n• অতিথি কোহর্ট, প্রোমো অ্যাট্রিবিউশন ও ডেলিভারি মার্জিন দরকার\\n\\n**Core Performance যদি:**\\n• আপনি একাধিক ব্র্যান্ড বা একাধিক বাজার চালান\\n• সংহতকরণ, মডিউল-পার সম্পর্ক আর নিয়ন্ত্রিত প্রবেশাধিকার দরকার"
+          },
           {
             "title": "আমি কি পরে আপগ্রেড বা ডাউনগ্রেড করতে পারি?",
             "content": "হ্যাঁ। আপনি যেকোনো সময় স্তরের মধ্যে স্থানান্তর করতে পারেন। ঐতিহাসিক তথ্য সংরক্ষিত থাকে এবং পরিকল্পনা পরিবর্তনের জন্য কোন জরিমানা নেই।"
           },
-          {}
+          {
+            "title": "4D Intelligence মডেল কী?",
+            "content": "সিদ্ধান্ত বুদ্ধিমত্তার জন্য Sundae-র কাঠামো:\\n\\n**1D: কী ঘটেছে** - বিক্রি, শ্রম ও খরচের সত্য\\n**2D: পরিকল্পনা বনাম বাস্তব** - বাজেট ও পূর্বাভাসের বিচ্যুতি\\n**3D: বাজারের প্রেক্ষাপট** - বেঞ্চমার্ক, সমগোত্রীয় ও প্রতিযোগী\\n**4D: এরপর কী** - পূর্বাভাস ও সুপারিশ\\n\\nপ্রতিটি Core প্যাকেজ চারটিই ধরে। প্যাকেজ ঠিক করে প্রতিটি মাত্রা কতটা গভীরে যাবে।"
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae-র কী ডেটা লাগে?",
+            "content": "**যেকোনো Core প্যাকেজের জন্য:**\\n• API-র মাধ্যমে POS সিস্টেম\\n• শ্রম বা কর্মী ব্যবস্থাপনা সিস্টেম\\n• ইনভেন্টরি সিস্টেম\\n• মার্কেটিং প্ল্যাটফর্ম\\n• রিজার্ভেশন সিস্টেম\\n\\nপ্রথম দিন থেকেই মূল্য পেতে কেবল POS-ই যথেষ্ট। বাকিগুলো যুক্ত হতে হতে ছবিটা গভীর হয়।"
+          },
+          {
+            "title": "আমার ডেটা Sundae-তে কীভাবে আসে?",
+            "content": "আপনার POS ও বাকি পরিচালন স্ট্যাকের সঙ্গে API সংযোগের মাধ্যমে। যেখানে কোনো সিস্টেমের API নেই, সেখানে Sundae সুসংগঠিত ফাইল জমা ও স্মার্ট-পঠিত আপলোড নেয় - PDF, Excel, স্ক্রিনশট - যেগুলো প্রক্রিয়াকরণের আগে আপনি যাচাই করেন।"
+          },
           {
             "title": "আপনারা কোন POS সিস্টেমগুলির সাথে ইন্টিগ্রেট করেন?",
             "content": "Sundae বর্তমানে **4টি POS প্ল্যাটফর্ম** এর লাইভ অ্যাডাপ্টার সমর্থন করে: Oracle MICROS Simphony, Square, Toast, এবং Clover। আমরা PostgreSQL এবং SQL Server / Azure SQL-এর জন্য **সরাসরি ডেটাবেস সংযোগকারী** সমর্থন করি যখন একটি POS সিস্টেম ডেটাবেস অ্যাক্সেস প্রকাশ করে।\n\nPOS ছাড়াও, Sundae-এর **12-ডোমেইন ইন্টিগ্রেশন ইঞ্জিন** শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, এবং হিসাবরক্ষণে 30+ বিক্রেতার সাথে সংযুক্ত হয়।\n\nযদি আপনি আপনার সিস্টেম তালিকাভুক্ত না দেখেন, তবে এন্টারপ্রাইজ স্তর কাস্টম ইন্টিগ্রেশন কাজ এবং ওয়েবহুক-ভিত্তিক গ্রহণ অন্তর্ভুক্ত করতে পারে।"
           },
-          {},
-          {},
+          {
+            "title": "আমি কি একাধিক POS সিস্টেমের সঙ্গে Sundae ব্যবহার করতে পারি?",
+            "content": "হ্যাঁ। Sundae মিশ্র POS পরিবেশে যুক্ত হয় এবং সমান ভিত্তিতে তুলনার জন্য ডেটা সমন্বিত করে। Core Performance এর ওপরে ব্র্যান্ড ও অঞ্চলজুড়ে সংহতকরণ যোগ করে।"
+          },
+          {
+            "title": "বাস্তবায়নে কত সময় লাগে?",
+            "content": "বেশির ভাগ গ্রুপ ১-২ সপ্তাহে চালু হয়ে যায়। একাধিক ব্র্যান্ড বা একাধিক অঞ্চলজুড়ে বড় রোলআউট পরিসর অনুযায়ী ২-৪ সপ্তাহ নেয়।\\n\\nবাস্তবায়ন একবারের ফি, আপনার নির্বাচনের সর্বোচ্চ শ্রেণির ভিত্তিতে একবারই ধরা হয় - বিনা খরচের সেলফ-সার্ভিস থেকে নির্দিষ্ট পরিসরের Class D সম্পৃক্ততা পর্যন্ত।"
+          },
           {
             "title": "যদি আমি বাতিল করি তবে আমার তথ্যের কি হবে?",
             "content": "ঐতিহাসিক তথ্য রপ্তানির জন্য উপলব্ধ থাকে। যদি আপনি পরে ফিরে আসেন, তবে আপনার পূর্ববর্তী তথ্য আপনার পরিকল্পনা এবং ধারণার শর্ত অনুযায়ী এখনও পুনরুদ্ধার করা যেতে পারে।"
@@ -4315,27 +4714,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae มีผลิตภัณฑ์อะไรบ้าง",
+            "content": "**สี่ผลิตภัณฑ์หลัก**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ฐานการตัดสินใจ ซึ่งมีโมดูลทั้งสิบเอ็ดด้านครบ\\n2. **Foresight & Action** - การพยากรณ์ การจำลองสถานการณ์ และชั้นการลงมือที่มีคนอนุมัติ\\n3. **Sundae Crew** - ฐานกำลังคน จัดตาราง ลงเวลา เตรียมจ่ายเงินเดือน งานบุคคล และ people intelligence\\n4. **Watchtower** - ข้อมูลตลาดภายนอก กำหนดขอบเขตไปพร้อมแพ็กเกจ Core ของคุณ\\n\\n**และเพิ่มเติม** SKU เฉพาะรูปแบบธุรกิจที่กลุ่มของคุณทำ ทั้งแฟรนไชส์ อาหารในโรงแรม คลาวด์คิทเช่น จัดเลี้ยง การผลิต และครัวกลางให้เช่า"
+          },
+          {
+            "title": "ฉันควรเลือกแพ็กเกจ Core ไหน",
+            "content": "**เลือก Core Foundation ถ้า**\\n• คุณกำลังเลิกใช้สเปรดชีตและแดชบอร์ดที่ไม่เชื่อมกัน\\n• คุณอยากได้ภาพการดำเนินงานภาพเดียวก่อนลงลึก\\n\\n**เลือก Core Margin ถ้า**\\n• ต้นทุนวัตถุดิบ ของเสีย การยกเลิก หรือการให้ฟรี กำลังกินกำไรคุณ\\n• คุณต้องการกำไรส่วนเพิ่มรายเมนู ไม่ใช่แค่สัดส่วนยอดขาย\\n\\n**เลือก Core Growth ถ้า**\\n• รายได้จากลูกค้าเดิมและสัดส่วนช่องทางคือข้อจำกัด\\n• คุณต้องการกลุ่มลูกค้า การระบุผลโปรโมชัน และกำไรเดลิเวอรี\\n\\n**เลือก Core Performance ถ้า**\\n• คุณทำหลายแบรนด์หรือหลายตลาด\\n• คุณต้องการการรวมข้อมูล การเชื่อมโยงข้ามโมดูล และการเข้าถึงที่กำกับดูแล"
+          },
           {
             "title": "สามารถอัปเกรดหรือลดระดับในภายหลังได้ไหม?",
             "content": "ใช่ คุณสามารถเปลี่ยนระดับได้ตลอดเวลา ข้อมูลประวัติจะถูกเก็บรักษาไว้และไม่มีการลงโทษสำหรับการเปลี่ยนแผน."
           },
-          {}
+          {
+            "title": "โมเดล 4D Intelligence คืออะไร",
+            "content": "กรอบการทำงานของ Sundae สำหรับปัญญาการตัดสินใจ\\n\\n**1D: เกิดอะไรขึ้น** - ความจริงเรื่องยอดขาย แรงงาน และต้นทุน\\n**2D: แผนเทียบผลจริง** - ส่วนต่างจากงบประมาณและการพยากรณ์\\n**3D: บริบทตลาด** - การเทียบเคียง คู่เทียบ และคู่แข่ง\\n**4D: อะไรจะเกิดต่อไป** - การคาดการณ์และข้อเสนอแนะ\\n\\nทุกแพ็กเกจ Core ครอบคลุมทั้งสี่ด้าน แพ็กเกจเป็นตัวกำหนดว่าแต่ละด้านลึกแค่ไหน"
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Sundae ต้องใช้ข้อมูลอะไรบ้าง",
+            "content": "**สำหรับทุกแพ็กเกจ Core**\\n• ระบบ POS ผ่าน API\\n• ระบบแรงงานหรือกำลังคน\\n• ระบบสินค้าคงคลัง\\n• แพลตฟอร์มการตลาด\\n• ระบบการจอง\\n\\nแค่ POS อย่างเดียวก็สร้างคุณค่าได้ตั้งแต่วันแรก ส่วนที่เหลือจะทำให้ภาพชัดขึ้นเมื่อคุณเชื่อมต่อเพิ่ม"
+          },
+          {
+            "title": "ข้อมูลของฉันเข้าสู่ Sundae อย่างไร",
+            "content": "ผ่านการเชื่อมต่อ API กับ POS และระบบปฏิบัติการอื่น ๆ ของคุณ หากระบบใดไม่มี API Sundae รับไฟล์แบบมีโครงสร้างและไฟล์อัปโหลดที่อ่านอัตโนมัติ ทั้ง PDF Excel และภาพหน้าจอ โดยคุณตรวจสอบก่อนประมวลผล"
+          },
           {
             "title": "คุณรวมระบบ POS อะไรบ้าง?",
             "content": "Sundae รองรับ **4 แพลตฟอร์ม POS** ที่มีตัวเชื่อมสด: Oracle MICROS Simphony, Square, Toast และ Clover. เรายังรองรับ **ตัวเชื่อมฐานข้อมูลโดยตรง** สำหรับ PostgreSQL และ SQL Server / Azure SQL เมื่อระบบ POS เปิดเผยการเข้าถึงฐานข้อมูล.\n\nนอกเหนือจาก POS, เครื่องยนต์การรวม **12 โดเมน** ของ Sundae เชื่อมต่อกับผู้ขายกว่า 30 รายในด้านแรงงาน, สินค้าคงคลัง, การจอง, การจัดส่ง, การตลาด, ประสบการณ์แขก, CRM และบัญชี.\n\nหากคุณไม่เห็นระบบของคุณในรายการ, ระดับ Enterprise สามารถรวมงานการรวมที่กำหนดเองและการนำเข้าผ่าน webhook."
           },
-          {},
-          {},
+          {
+            "title": "ฉันใช้ Sundae กับ POS หลายระบบได้ไหม",
+            "content": "ได้ Sundae เชื่อมต่อกับสภาพแวดล้อม POS ที่ผสมกันและปรับข้อมูลให้เป็นมาตรฐานเดียวเพื่อเทียบกันอย่างเป็นธรรม Core Performance เพิ่มการรวมข้อมูลข้ามแบรนด์และข้ามภูมิภาคเข้าไปอีกชั้น"
+          },
+          {
+            "title": "การติดตั้งใช้เวลานานแค่ไหน",
+            "content": "กลุ่มธุรกิจส่วนใหญ่เริ่มใช้งานได้ใน 1-2 สัปดาห์ การเปิดใช้ที่ใหญ่กว่าแบบหลายแบรนด์หรือหลายภูมิภาคใช้เวลา 2-4 สัปดาห์ ขึ้นกับขอบเขต\\n\\nค่าติดตั้งเป็นค่าใช้จ่ายครั้งเดียว เรียกเก็บครั้งเดียวตามระดับสูงสุดในรายการที่คุณเลือก ตั้งแต่แบบบริการตนเองที่ไม่มีค่าใช้จ่าย ไปจนถึงงาน Class D ที่กำหนดขอบเขตไว้"
+          },
           {
             "title": "จะเกิดอะไรขึ้นกับข้อมูลของฉันหากฉันยกเลิก?",
             "content": "ข้อมูลประวัติยังคงสามารถส่งออกได้. หากคุณกลับมาในภายหลัง, ข้อมูลก่อนหน้าของคุณยังสามารถกู้คืนได้ตามแผนและเงื่อนไขการเก็บรักษาของคุณ."
@@ -4544,27 +4964,48 @@ export const generatedLocalCopy = {
         "id": "products-tiers",
         "icon": "data",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Apakah produk yang ditawarkan Sundae?",
+            "content": "**Empat produk utama:**\\n\\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa kesemua sebelas modul domain\\n2. **Foresight & Action** - ramalan, pemodelan senario dan lapisan tindakan dengan kelulusan manusia\\n3. **Sundae Crew** - substrat tenaga kerja: penjadualan, kehadiran, kesediaan gaji, HR dan people intelligence\\n4. **Watchtower** - risikan pasaran luaran, diskopkan bersama pakej Core anda\\n\\n**Tambahan:** SKU konsep untuk model operasi kumpulan anda - francais, F&B hotel, cloud kitchen, katering, pengeluaran, dapur pusat sewa."
+          },
+          {
+            "title": "Pakej Core yang mana patut saya pilih?",
+            "content": "**Core Foundation jika:**\\n• Anda beralih daripada hamparan dan papan pemuka yang terpisah\\n• Anda mahu satu gambaran operasi sebelum mendalami\\n\\n**Core Margin jika:**\\n• Kos bahan, pembaziran, pembatalan atau komplimen memakan margin anda\\n• Anda perlukan sumbangan setiap item, bukan sekadar campuran jualan\\n\\n**Core Growth jika:**\\n• Hasil berulang dan campuran saluran menjadi kekangan\\n• Anda perlukan kohort tetamu, atribusi promosi dan margin penghantaran\\n\\n**Core Performance jika:**\\n• Anda mengendalikan beberapa jenama atau beberapa pasaran\\n• Anda perlukan penyatuan, korelasi antara modul dan akses terurus"
+          },
           {
             "title": "Bolehkah saya naik taraf atau turun taraf kemudian?",
             "content": "Ya. Anda boleh bergerak antara tier pada bila-bila masa. Data sejarah akan dipelihara dan tiada penalti untuk menukar pelan."
           },
-          {}
+          {
+            "title": "Apakah model 4D Intelligence?",
+            "content": "Rangka kerja Sundae untuk kecerdasan keputusan:\\n\\n**1D: apa yang berlaku** - kebenaran jualan, tenaga kerja dan kos\\n**2D: rancangan lawan sebenar** - sisihan belanjawan dan ramalan\\n**3D: konteks pasaran** - penanda aras, rakan setara dan pesaing\\n**4D: apa seterusnya** - ramalan dan cadangan\\n\\nSetiap pakej Core meliputi keempat-empatnya. Pakej menentukan sedalam mana setiap dimensi pergi."
+          }
         ]
       },
       {
         "id": "data-integration",
         "icon": "integration",
         "faqs": [
-          {},
-          {},
+          {
+            "title": "Data apakah yang diperlukan Sundae?",
+            "content": "**Untuk setiap pakej Core:**\\n• Sistem POS melalui API\\n• Sistem tenaga kerja atau penjadualan\\n• Sistem inventori\\n• Platform pemasaran\\n• Sistem tempahan\\n\\nPOS sahaja sudah cukup untuk memberi nilai pada hari pertama. Selebihnya mendalamkan gambaran apabila anda menyambungkannya."
+          },
+          {
+            "title": "Bagaimana data saya masuk ke Sundae?",
+            "content": "Melalui sambungan API ke POS anda dan selebihnya timbunan operasi. Jika sesuatu sistem tiada API, Sundae menerima penghantaran fail berstruktur dan muat naik yang dibaca secara pintar - PDF, Excel, tangkapan skrin - yang anda semak sebelum diproses."
+          },
           {
             "title": "Sistem POS apa yang anda integrasikan?",
             "content": "Sundae kini menyokong **4 platform POS** dengan penyesuai langsung: Oracle MICROS Simphony, Square, Toast, dan Clover. Kami juga menyokong **penyambung pangkalan data langsung** untuk PostgreSQL dan SQL Server / Azure SQL apabila sistem POS mendedahkan akses pangkalan data.\n\nDi luar POS, enjin integrasi **12-domain** Sundae menyambungkan kepada lebih 30 vendor dalam tenaga kerja, inventori, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, dan perakaunan.\n\nJika anda tidak melihat sistem anda disenaraikan, tahap Enterprise boleh termasuk kerja integrasi khusus dan pengambilan berasaskan webhook."
           },
-          {},
-          {},
+          {
+            "title": "Bolehkah saya guna Sundae dengan beberapa sistem POS?",
+            "content": "Boleh. Sundae menyambung merentasi persekitaran POS bercampur dan menormalkan data untuk perbandingan yang setara. Core Performance menambah penyatuan merentasi jenama dan wilayah di atasnya."
+          },
+          {
+            "title": "Berapa lama pelaksanaan mengambil masa?",
+            "content": "Kebanyakan kumpulan beroperasi dalam 1-2 minggu. Pelancaran lebih besar merentasi berbilang jenama atau wilayah mengambil 2-4 minggu bergantung pada skop.\\n\\nPelaksanaan ialah yuran sekali sahaja, dikenakan sekali pada kelas tertinggi dalam pilihan anda - daripada layan diri tanpa kos sehingga penglibatan Class D yang berskop."
+          },
           {
             "title": "Apa yang berlaku kepada data saya jika saya membatalkan?",
             "content": "Data sejarah tetap tersedia untuk dieksport. Jika anda kembali kemudian, data anda yang sebelumnya masih boleh dipulihkan mengikut pelan dan terma penyimpanan anda."
