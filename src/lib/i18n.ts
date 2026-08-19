@@ -248,9 +248,9 @@ export function buildWebsiteAlternateUrls(pathname: string, baseUrl: string) {
 export const websiteMessages = {
   en: {
     metadata: {
-      title: 'Sundae - Decision Intelligence for Restaurants',
+      title: 'Sundae - Decision Intelligence for Multi-Location Food Service',
       description:
-        'The decision intelligence platform for restaurants - unify POS, labor, cost, and operational data to benchmark performance and turn it into the next right move.',
+        'Sundae connects the systems you already run, finds the profit leaking across revenue, labour, inventory and guests, gives each opportunity one owner, and measures what actually came back.',
     },
     layout: {
       skipToContent: 'Skip to main content',
@@ -290,7 +290,7 @@ export const websiteMessages = {
         { name: 'Profit Recovery', description: 'Find, fix and prove recovered margin', href: '/product/recovery' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'Forecasts, scenarios, and the action layer', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'Expansion on Core - forecasts, scenarios and the action layer', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'Real-time operations', href: '/core' },
         { name: 'Sundae Crew', description: 'Operational substrate · people, schedules, payroll', href: '/crew' },
       ],
@@ -725,9 +725,9 @@ export const websiteMessages = {
   },
   ar: {
     metadata: {
-      title: 'صنداي - ذكاء القرار للمطاعم',
+      title: 'Sundae - ذكاء القرار لمجموعات خدمات الطعام متعددة المواقع',
       description:
-        'منصة ذكاء القرار للمطاعم - توحّد نقاط البيع والعمالة والتكاليف والعمليات لمقارنة الأداء وتحويله إلى الخطوة الصحيحة التالية.',
+        'يتصل Sundae بالأنظمة التي تشغّلها اليوم، ويكشف الأرباح المتسرّبة عبر الإيرادات والعمالة والمخزون والضيوف، ويسند كل فرصة إلى مسؤول واحد، ثم يقيس ما استُرجع فعلاً.',
     },
     layout: {
       skipToContent: 'انتقل إلى المحتوى الرئيسي',
@@ -762,7 +762,7 @@ export const websiteMessages = {
         { name: 'Foresight', description: 'تنبؤات وذكاء استشرافي', href: '/product/foresight' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'التوقعات والسيناريوهات وطبقة التنفيذ', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'توسعة على Core - التوقعات والسيناريوهات وطبقة التنفيذ', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'عمليات في الوقت الحقيقي', href: '/core' },
         { name: 'Sundae Crew', description: 'ركيزة تشغيلية · موظفون، جدولة، رواتب', href: '/crew' },
       ],
@@ -1207,7 +1207,7 @@ export const websiteMessages = {
         { name: 'Foresight', description: 'Prévision et intelligence prédictive', href: '/product/foresight' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'Previsions, scenarios et couche d\'action', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'Expansion sur Core - previsions, scenarios et couche d\'action', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'Opérations en temps réel', href: '/core' },
         { name: 'Sundae Crew', description: 'Socle opérationnel · équipes, plannings, paie', href: '/crew' },
       ],
@@ -1634,9 +1634,9 @@ export const websiteMessages = {
   },
   es: {
     metadata: {
-      title: 'Sundae - Inteligencia de decisión para restaurantes',
+      title: 'Sundae - Inteligencia de decisión para grupos multilocal de restauración',
       description:
-        'La plataforma de inteligencia de decisión para restaurantes: unifica POS, personal, costos y operaciones para comparar el rendimiento y convertirlo en tu próximo movimiento acertado.',
+        'Sundae se conecta a los sistemas que ya usas, detecta el margen que se escapa en ventas, personal, inventario y clientes, asigna cada oportunidad a un responsable y mide lo que de verdad se recuperó.',
     },
     layout: {
       skipToContent: 'Ir al contenido principal',
@@ -1671,7 +1671,7 @@ export const websiteMessages = {
         { name: 'Foresight', description: 'Inteligencia predictiva y pronósticos', href: '/product/foresight' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'Previsiones, escenarios y capa de accion', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'Expansion sobre Core - previsiones, escenarios y capa de accion', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'Operaciones en tiempo real', href: '/core' },
         { name: 'Sundae Crew', description: 'Sustrato operativo · personal, horarios, nómina', href: '/crew' },
       ],
@@ -2123,9 +2123,9 @@ type DeepPartial<T> = {
 const expandedLocaleMessageOverrides = {
   de: {
     metadata: {
-      title: 'Sundae - Entscheidungsintelligenz für Restaurants',
+      title: 'Sundae - Entscheidungsintelligenz für Food-Service-Gruppen mit mehreren Standorten',
       description:
-        'Die Entscheidungsintelligenz-Plattform für Restaurants - vereinheitlicht POS-, Personal-, Kosten- und Betriebsdaten, vergleicht die Leistung und macht daraus den nächsten richtigen Schritt.',
+        'Sundae verbindet die Systeme, die Sie ohnehin nutzen, findet die Marge, die über Umsatz, Personal, Bestand und Gäste verloren geht, gibt jeder Chance einen Verantwortlichen und misst, was tatsächlich zurückkam.',
     },
     layout: {
       skipToContent: 'Zum Hauptinhalt springen',
@@ -2167,9 +2167,9 @@ const expandedLocaleMessageOverrides = {
   },
   nl: {
     metadata: {
-      title: 'Sundae - beslissingsintelligentie voor restaurants',
+      title: 'Sundae - Decision intelligence voor multi-vestiging foodservice',
       description:
-        'Het beslissingsintelligentie-platform voor restaurants - brengt POS-, personeels-, kosten- en operationele data samen, benchmarkt prestaties en maakt er de juiste volgende stap van.',
+        'Sundae koppelt de systemen die je al gebruikt, vindt de marge die weglekt via omzet, personeel, voorraad en gasten, geeft elke kans één eigenaar en meet wat er echt terugkwam.',
     },
     layout: {
       skipToContent: 'Ga naar hoofdinhoud',
@@ -2211,9 +2211,9 @@ const expandedLocaleMessageOverrides = {
   },
   pt: {
     metadata: {
-      title: 'Sundae - inteligência de decisão para restaurantes',
+      title: 'Sundae - Decision intelligence para grupos multiunidade de food service',
       description:
-        'A plataforma de inteligência de decisão para restaurantes - unifica POS, equipe, custos e operações para comparar o desempenho e transformá-lo no próximo passo certo.',
+        'A Sundae conecta os sistemas que você já usa, encontra a margem que escapa em vendas, mão de obra, estoque e clientes, dá um responsável a cada oportunidade e mede o que de fato voltou.',
     },
     layout: {
       skipToContent: 'Ir para o conteúdo principal',
@@ -2255,9 +2255,9 @@ const expandedLocaleMessageOverrides = {
   },
   hi: {
     metadata: {
-      title: 'Sundae - रेस्टोरेंट्स के लिए निर्णय इंटेलिजेंस',
+      title: 'Sundae - मल्टी-लोकेशन फ़ूड सर्विस के लिए डिसीज़न इंटेलिजेंस',
       description:
-        'रेस्टोरेंट के लिए डिसीज़न इंटेलिजेंस प्लेटफॉर्म - POS, श्रम, लागत और ऑपरेशनल डेटा को जोड़कर प्रदर्शन की तुलना करें और उसे अगले सही कदम में बदलें।',
+        'Sundae आपके मौजूदा सिस्टम से जुड़ता है, राजस्व, श्रम, इन्वेंट्री और मेहमानों में रिस रहे मुनाफ़े को पकड़ता है, हर अवसर को एक ज़िम्मेदार व्यक्ति सौंपता है, और मापता है कि वास्तव में कितना वापस आया।',
     },
     layout: {
       skipToContent: 'मुख्य सामग्री पर जाएं',
@@ -2299,9 +2299,9 @@ const expandedLocaleMessageOverrides = {
   },
   ur: {
     metadata: {
-      title: 'Sundae - ریستورانوں کے لیے فیصلہ سازی انٹیلیجنس',
+      title: 'Sundae - کئی مقامات والی فوڈ سروس کے لیے فیصلہ ساز ذہانت',
       description:
-        'ریستورانوں کے لیے ڈیسیژن انٹیلی جنس پلیٹ فارم - POS، عملہ، لاگت اور آپریشنل ڈیٹا کو یکجا کر کے کارکردگی کا موازنہ کریں اور اسے اگلے درست قدم میں بدلیں۔',
+        'Sundae آپ کے موجودہ نظاموں سے جڑتا ہے، آمدنی، محنت، انوینٹری اور مہمانوں میں ضائع ہوتا منافع تلاش کرتا ہے، ہر موقع ایک ذمہ دار کے سپرد کرتا ہے، اور ماپتا ہے کہ حقیقت میں کتنا واپس آیا۔',
     },
     layout: {
       skipToContent: 'مرکزی مواد پر جائیں',
@@ -2343,9 +2343,9 @@ const expandedLocaleMessageOverrides = {
   },
   it: {
     metadata: {
-      title: 'Sundae - intelligence decisionale per ristoranti',
+      title: 'Sundae - Decision intelligence per gruppi multi-sede del food service',
       description:
-        'La piattaforma di decision intelligence per i ristoranti - unifica POS, personale, costi e operazioni per confrontare le prestazioni e trasformarle nella prossima mossa giusta.',
+        'Sundae si collega ai sistemi che già usi, individua il margine che si perde tra ricavi, personale, magazzino e ospiti, assegna ogni opportunità a un responsabile e misura quanto è davvero rientrato.',
     },
     layout: { skipToContent: 'Vai al contenuto principale', languageSelector: 'Lingua' },
     navbar: {
@@ -2384,9 +2384,9 @@ const expandedLocaleMessageOverrides = {
   },
   pl: {
     metadata: {
-      title: 'Sundae - inteligencja decyzyjna dla restauracji',
+      title: 'Sundae - Decision intelligence dla wielolokalizacyjnych grup gastronomicznych',
       description:
-        'Platforma decision intelligence dla restauracji - łączy POS, pracowników, koszty i operacje, aby porównywać wyniki i zamieniać je w kolejny właściwy ruch.',
+        'Sundae łączy się z systemami, których już używasz, znajduje marżę traconą w przychodach, pracy, zapasach i gościach, przypisuje każdą szansę jednej osobie i mierzy, ile naprawdę wróciło.',
     },
     layout: { skipToContent: 'Przejdź do treści głównej', languageSelector: 'Język' },
     navbar: {
@@ -2425,9 +2425,9 @@ const expandedLocaleMessageOverrides = {
   },
   tr: {
     metadata: {
-      title: 'Sundae - restoranlar için karar zekası',
+      title: 'Sundae - Çok şubeli yeme-içme grupları için karar zekası',
       description:
-        'Restoranlar için karar zekâsı platformu - POS, ekip, maliyet ve operasyon verilerini birleştirir, performansı kıyaslar ve bir sonraki doğru hamleye dönüştürür.',
+        'Sundae hâlihazırda kullandığınız sistemlere bağlanır, ciro, işgücü, stok ve misafir tarafında sızan kârı bulur, her fırsata tek bir sorumlu atar ve gerçekte ne kadarının geri geldiğini ölçer.',
     },
     layout: { skipToContent: 'Ana içeriğe geç', languageSelector: 'Dil' },
     navbar: {
@@ -2466,9 +2466,9 @@ const expandedLocaleMessageOverrides = {
   },
   'zh-Hans': {
     metadata: {
-      title: 'Sundae--面向餐厅的决策智能',
+      title: 'Sundae - 面向多门店餐饮集团的决策智能',
       description:
-        '面向餐厅的决策智能平台--统一 POS、人员、成本和运营数据，对比绩效，并将其转化为下一步正确的行动。',
+        'Sundae 接入你已在使用的系统，找出在营收、人力、库存与客户环节流失的利润，为每一个机会指定唯一负责人，并衡量真正追回了多少。',
     },
     layout: { skipToContent: '跳到主要内容', languageSelector: '语言' },
     navbar: {
@@ -2507,9 +2507,9 @@ const expandedLocaleMessageOverrides = {
   },
   ja: {
     metadata: {
-      title: 'Sundae--レストランのための意思決定インテリジェンス',
+      title: 'Sundae - 多店舗フードサービス向けの意思決定インテリジェンス',
       description:
-        'レストランのための意思決定インテリジェンス・プラットフォーム。POS、人員、コスト、運営データを統合し、成果を比較して次の最善手に変えます。',
+        'Sundae は既存のシステムに接続し、売上、人件費、在庫、顧客の各領域で漏れている利益を見つけ、機会ごとに担当者を一人定め、実際に戻った金額を測定します。',
     },
     layout: { skipToContent: 'メインコンテンツへ移動', languageSelector: '言語' },
     navbar: {
@@ -2548,9 +2548,9 @@ const expandedLocaleMessageOverrides = {
   },
   ko: {
     metadata: {
-      title: 'Sundae--레스토랑을 위한 의사결정 인텔리전스',
+      title: 'Sundae - 다점포 푸드서비스를 위한 의사결정 인텔리전스',
       description:
-        '레스토랑을 위한 의사결정 인텔리전스 플랫폼입니다. POS, 인력, 비용, 운영 데이터를 통합하고 성과를 비교해 다음 최선의 결정으로 바꿉니다.',
+        'Sundae는 이미 사용 중인 시스템에 연결해 매출, 인건비, 재고, 고객에서 새는 이익을 찾아내고, 기회마다 담당자를 한 명씩 지정하며, 실제로 얼마가 돌아왔는지 측정합니다.',
     },
     layout: { skipToContent: '본문으로 건너뛰기', languageSelector: '언어' },
     navbar: {
@@ -2589,9 +2589,9 @@ const expandedLocaleMessageOverrides = {
   },
   id: {
     metadata: {
-      title: 'Sundae - intelijen keputusan untuk restoran',
+      title: 'Sundae - Decision intelligence untuk food service multi-lokasi',
       description:
-        'Platform decision intelligence untuk restoran - menyatukan POS, tenaga kerja, biaya, dan operasi untuk membandingkan kinerja dan mengubahnya menjadi langkah tepat berikutnya.',
+        'Sundae terhubung ke sistem yang sudah Anda pakai, menemukan laba yang bocor di pendapatan, tenaga kerja, persediaan, dan tamu, memberi satu penanggung jawab untuk tiap peluang, lalu mengukur berapa yang benar-benar kembali.',
     },
     layout: { skipToContent: 'Lewati ke konten utama', languageSelector: 'Bahasa' },
     navbar: {
@@ -2630,9 +2630,9 @@ const expandedLocaleMessageOverrides = {
   },
   vi: {
     metadata: {
-      title: 'Sundae - trí tuệ quyết định cho nhà hàng',
+      title: 'Sundae - Trí tuệ quyết định cho chuỗi dịch vụ ăn uống nhiều chi nhánh',
       description:
-        'Nền tảng trí tuệ quyết định cho nhà hàng - hợp nhất POS, nhân sự, chi phí và vận hành để so sánh hiệu suất và biến nó thành nước đi đúng tiếp theo.',
+        'Sundae kết nối các hệ thống bạn đang dùng, tìm ra lợi nhuận thất thoát ở doanh thu, nhân công, tồn kho và khách hàng, giao mỗi cơ hội cho một người chịu trách nhiệm, rồi đo lường phần thực sự thu về.',
     },
     layout: { skipToContent: 'Chuyển đến nội dung chính', languageSelector: 'Ngôn ngữ' },
     navbar: {
@@ -2671,9 +2671,9 @@ const expandedLocaleMessageOverrides = {
   },
   ro: {
     metadata: {
-      title: 'Sundae - inteligență decizională pentru restaurante',
+      title: 'Sundae - Inteligență decizională pentru grupuri food service multi-locație',
       description:
-        'Platforma de decision intelligence pentru restaurante - unește POS, personal, costuri și operațiuni pentru a compara performanța și a o transforma în următoarea mișcare corectă.',
+        'Sundae se conectează la sistemele pe care le folosești deja, găsește marja pierdută în vânzări, forță de muncă, stocuri și oaspeți, atribuie fiecare oportunitate unui responsabil și măsoară cât s-a recuperat cu adevărat.',
     },
     layout: { skipToContent: 'Sari la conținutul principal', languageSelector: 'Limbă' },
     navbar: {
@@ -2712,9 +2712,9 @@ const expandedLocaleMessageOverrides = {
   },
   sv: {
     metadata: {
-      title: 'Sundae - beslutsintelligens för restauranger',
+      title: 'Sundae - Beslutsintelligens för foodservice med flera enheter',
       description:
-        'Beslutsintelligens-plattformen för restauranger - förenar POS, personal, kostnader och drift för att jämföra resultat och göra det till nästa rätta drag.',
+        'Sundae kopplar ihop systemen ni redan använder, hittar marginalen som läcker i försäljning, personal, lager och gäster, ger varje möjlighet en ansvarig och mäter hur mycket som faktiskt kom tillbaka.',
     },
     layout: { skipToContent: 'Gå till huvudinnehåll', languageSelector: 'Språk' },
     navbar: {
@@ -2753,9 +2753,9 @@ const expandedLocaleMessageOverrides = {
   },
   bn: {
     metadata: {
-      title: 'Sundae - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা',
+      title: 'Sundae - মাল্টি-লোকেশন ফুড সার্ভিসের জন্য ডিসিশন ইন্টেলিজেন্স',
       description:
-        'রেস্তোরাঁর জন্য ডিসিশন ইন্টেলিজেন্স প্ল্যাটফর্ম - POS, কর্মী, খরচ ও অপারেশন একত্র করে পারফরম্যান্স তুলনা করুন এবং তা পরের সঠিক পদক্ষেপে রূপান্তর করুন।',
+        'Sundae আপনার বিদ্যমান সিস্টেমের সঙ্গে যুক্ত হয়, রাজস্ব, শ্রম, ইনভেন্টরি ও অতিথিদের মধ্যে বেরিয়ে যাওয়া মুনাফা খুঁজে বের করে, প্রতিটি সুযোগের জন্য একজন দায়িত্বপ্রাপ্ত ব্যক্তি ঠিক করে, এবং মাপে সত্যিই কতটা ফিরে এল।',
     },
     layout: { skipToContent: 'মূল কনটেন্টে যান', languageSelector: 'ভাষা' },
     navbar: {
@@ -2794,9 +2794,9 @@ const expandedLocaleMessageOverrides = {
   },
   th: {
     metadata: {
-      title: 'Sundae - ข่าวกรองการตัดสินใจสำหรับร้านอาหาร',
+      title: 'Sundae - ปัญญาการตัดสินใจสำหรับธุรกิจอาหารหลายสาขา',
       description:
-        'แพลตฟอร์ม AI ที่เปลี่ยนข้อมูลร้านอาหารให้เป็นการลงมือทำ: รวม POS พนักงาน ต้นทุน และการดำเนินงาน เพื่อเปรียบเทียบผลงานและรับอินไซต์ทันที',
+        'Sundae เชื่อมต่อกับระบบที่คุณใช้อยู่แล้ว ค้นหากำไรที่รั่วไหลในรายได้ แรงงาน สินค้าคงคลัง และลูกค้า มอบหมายผู้รับผิดชอบหนึ่งคนต่อหนึ่งโอกาส แล้ววัดว่ากลับคืนมาจริงเท่าใด',
     },
     layout: { skipToContent: 'ข้ามไปยังเนื้อหาหลัก', languageSelector: 'ภาษา' },
     navbar: {
@@ -2835,9 +2835,9 @@ const expandedLocaleMessageOverrides = {
   },
   ms: {
     metadata: {
-      title: 'Sundae - kecerdasan keputusan untuk restoran',
+      title: 'Sundae - Kecerdasan keputusan untuk perkhidmatan makanan berbilang lokasi',
       description:
-        'Platform AI yang menukar data restoran kepada tindakan: satukan POS, tenaga kerja, kos dan operasi untuk membandingkan prestasi serta mendapatkan insight segera.',
+        'Sundae menyambung sistem yang anda sudah guna, mengesan keuntungan yang bocor pada hasil, tenaga kerja, inventori dan tetamu, memberikan satu penanggungjawab bagi setiap peluang, dan mengukur berapa yang benar-benar kembali.',
     },
     layout: { skipToContent: 'Langkau ke kandungan utama', languageSelector: 'Bahasa' },
     navbar: {
