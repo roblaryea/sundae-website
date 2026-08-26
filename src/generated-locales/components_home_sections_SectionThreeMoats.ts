@@ -4,8 +4,8 @@ export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
       "eyebrow": "AU-DELÀ DU RAPPORT",
-      "headline": "Trois signaux qui décident de la suite.",
-      "description": "Les tableaux de bord montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel en direct, les signaux du marché et les comparaisons entre pairs dont les restaurants ont besoin pour décider de la suite.",
+      "headline": "Trois signaux qui se transforment en profit récupéré.",
+      "description": "Les tableaux de bord montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel en direct, les signaux du marché et les comparaisons entre pairs dont les restaurants ont besoin pour trouver la fuite, prendre en charge le correctif et mesurer la récupération.",
       "layerWord": "Signal",
       "layers": [
         {
@@ -21,12 +21,12 @@ export const generatedLocalCopy = {
           "why": "Comparez vos établissements à des pairs anonymisés par format, marché et indicateur de performance. Le réseau gagne en valeur à mesure que de nouveaux restaurants le rejoignent."
         }
       ],
-      "closing": "Pas un autre tableau de bord. Une couche d'intelligence pour la restauration."
+      "closing": "Pas un autre tableau de bord. Une boucle de récupération de profit."
     },
     "es": {
       "eyebrow": "MÁS ALLÁ DEL INFORME",
-      "headline": "Tres señales que deciden qué sigue.",
-      "description": "Los dashboards muestran lo que ya ha pasado. Sundae añade el contexto operativo en vivo, las señales del mercado y las comparaciones con pares que los restaurantes necesitan para decidir qué hacer a continuación.",
+      "headline": "Tres señales que se convierten en beneficio recuperado.",
+      "description": "Los dashboards muestran lo que ya ha pasado. Sundae añade el contexto operativo en vivo, las señales del mercado y las comparaciones con pares que los restaurantes necesitan para encontrar la fuga, encargarse de la solución y medir la recuperación.",
       "layerWord": "Señal",
       "layers": [
         {
@@ -42,12 +42,12 @@ export const generatedLocalCopy = {
           "why": "Compara tus locales con pares anonimizados por formato, mercado y métrica de rendimiento. La red se vuelve más útil a medida que se suman más restaurantes."
         }
       ],
-      "closing": "No otro dashboard. Una capa de inteligencia para la hostelería."
+      "closing": "No otro dashboard. Un bucle de recuperación de beneficio."
     },
     "de": {
       "eyebrow": "JENSEITS DES REPORTS",
-      "headline": "Drei Signale, die über das Nächste entscheiden.",
-      "description": "Dashboards zeigen, was passiert ist. Sundae ergänzt den Live-Betriebskontext, Marktsignale und Peer-Vergleiche, die Restaurants brauchen, um zu entscheiden, was als Nächstes zu tun ist.",
+      "headline": "Drei Signale, die zu zurückgewonnenem Gewinn werden.",
+      "description": "Dashboards zeigen, was passiert ist. Sundae ergänzt den Live-Betriebskontext, Marktsignale und Peer-Vergleiche, die Restaurants brauchen, um das Leck zu finden, die Behebung zu übernehmen und die Rückgewinnung zu messen.",
       "layerWord": "Signal",
       "layers": [
         {
@@ -63,12 +63,12 @@ export const generatedLocalCopy = {
           "why": "Vergleiche Standorte mit anonymisierten Peers nach Format, Markt und Leistungskennzahl. Das Netzwerk wird nützlicher, je mehr Restaurants beitreten."
         }
       ],
-      "closing": "Nicht ein weiteres Dashboard. Eine Gastronomie-Intelligenz-Ebene."
+      "closing": "Nicht ein weiteres Dashboard. Eine Schleife zur Gewinnrückgewinnung."
     },
     "ar": {
       "eyebrow": "ما وراء التقرير",
-      "headline": "ثلاث إشارات تُحدد خطوتك التالية.",
-      "description": "تظهر لوحات المعلومات ما حدث. تضيف Sundae السياق التشغيلي المباشر، وإشارات السوق، ومقارنات الأقران التي تحتاجها المطاعم لتحديد ما يجب القيام به بعد ذلك.",
+      "headline": "ثلاث إشارات تتحول إلى أرباح مستردّة.",
+      "description": "تظهر لوحات المعلومات ما حدث. تضيف Sundae السياق التشغيلي المباشر، وإشارات السوق، ومقارنات الأقران التي تحتاجها المطاعم لتجد التسرب، وتتولّى الإصلاح، وتقيس ما استُرجع.",
       "layerWord": "إشارة",
       "layers": [
         {
@@ -84,12 +84,12 @@ export const generatedLocalCopy = {
           "why": "قارِن مواقعك بأقران مجهولي الهوية بحسب الشكل، والسوق، ومقياس الأداء. تزداد الشبكة فائدةً كلما انضمّ المزيد من المطاعم."
         }
       ],
-      "closing": "ليس لوحة معلومات أخرى. طبقة ذكاء لخدمات الطعام."
+      "closing": "ليس لوحة معلومات أخرى. بل حلقة استرداد أرباح."
     },
     "nl": {
       "eyebrow": "VOORBIJ HET RAPPORT",
-      "headline": "Drie signalen die bepalen wat nu komt.",
-      "description": "Dashboards tonen wat er is gebeurd. Sundae voegt de live operationele context, marktsignalen en peervergelijkingen toe die restaurants nodig hebben om te beslissen wat ze daarna moeten doen.",
+      "headline": "Drie signalen die uitmonden in teruggewonnen winst.",
+      "description": "Dashboards tonen wat er is gebeurd. Sundae voegt de live operationele context, marktsignalen en peervergelijkingen toe die restaurants nodig hebben om het lek te vinden, de oplossing op te pakken en het herstel te meten.",
       "layerWord": "Signaal",
       "layers": [
         {
@@ -105,12 +105,12 @@ export const generatedLocalCopy = {
           "why": "Vergelijk locaties met geanonimiseerde peers op basis van formaat, markt en prestatiemaatstaf. Het netwerk wordt nuttiger naarmate meer restaurants zich aansluiten."
         }
       ],
-      "closing": "Niet nog een dashboard. Een horeca-intelligentielaag."
+      "closing": "Niet nog een dashboard. Een loop voor winstherstel."
     },
     "pt": {
       "eyebrow": "ALÉM DO RELATÓRIO",
-      "headline": "Três sinais que decidem o próximo passo.",
-      "description": "Dashboards mostram o que aconteceu. A Sundae adiciona o contexto operacional ao vivo, sinais de mercado e comparações com pares que os restaurantes precisam para decidir o que fazer a seguir.",
+      "headline": "Três sinais que se transformam em lucro recuperado.",
+      "description": "Dashboards mostram o que aconteceu. A Sundae adiciona o contexto operacional ao vivo, sinais de mercado e comparações com pares que os restaurantes precisam para encontrar o vazamento, assumir a correção e medir a recuperação.",
       "layerWord": "Sinal",
       "layers": [
         {
@@ -126,12 +126,12 @@ export const generatedLocalCopy = {
           "why": "Compare seus locais com pares anonimizados por formato, mercado e métrica de desempenho. A rede se torna mais útil à medida que mais restaurantes se juntam."
         }
       ],
-      "closing": "Não é apenas mais um dashboard. Uma camada de inteligência para a restauração."
+      "closing": "Não é apenas mais um dashboard. Um ciclo de recuperação de lucro."
     },
     "it": {
       "eyebrow": "OLTRE IL REPORT",
-      "headline": "Tre segnali che decidono la prossima mossa.",
-      "description": "I dashboard mostrano cosa è successo. Sundae aggiunge il contesto operativo in tempo reale, i segnali di mercato e i confronti tra pari di cui i ristoranti hanno bisogno per decidere cosa fare dopo.",
+      "headline": "Tre segnali che si trasformano in profitto recuperato.",
+      "description": "I dashboard mostrano cosa è successo. Sundae aggiunge il contesto operativo in tempo reale, i segnali di mercato e i confronti tra pari di cui i ristoranti hanno bisogno per trovare la perdita, farsi carico della correzione e misurare il recupero.",
       "layerWord": "Segnale",
       "layers": [
         {
@@ -147,12 +147,12 @@ export const generatedLocalCopy = {
           "why": "Confronta le tue sedi con pari anonimizzati per formato, mercato e metrica di performance. La rete diventa più utile man mano che si uniscono altri ristoranti."
         }
       ],
-      "closing": "Non un altro dashboard. Un livello di intelligenza per la ristorazione."
+      "closing": "Non un altro dashboard. Un ciclo di recupero del profitto."
     },
     "hi": {
       "eyebrow": "रिपोर्ट से आगे",
-      "headline": "तीन संकेत जो तय करते हैं आगे क्या।",
-      "description": "डैशबोर्ड यह दिखाते हैं कि क्या हुआ। Sundae लाइव ऑपरेटिंग संदर्भ, मार्केट सिग्नल और समकक्ष तुलना जोड़ता है, जो रेस्टोरेंट्स को यह तय करने में मदद करता है कि अगला कदम क्या होना चाहिए।",
+      "headline": "तीन संकेत जो वसूले गए मुनाफ़े में बदलते हैं।",
+      "description": "डैशबोर्ड यह दिखाते हैं कि क्या हुआ। Sundae लाइव ऑपरेटिंग संदर्भ, मार्केट सिग्नल और समकक्ष तुलना जोड़ता है, जो रेस्टोरेंट्स को रिसाव खोजने, समाधान की ज़िम्मेदारी सौंपने और वसूली मापने में मदद करता है।",
       "layerWord": "संकेत",
       "layers": [
         {
@@ -168,12 +168,12 @@ export const generatedLocalCopy = {
           "why": "अपने स्थानों की तुलना प्रारूप, मार्केट और प्रदर्शन मैट्रिक के अनुसार अनाम समकक्षों से करें। जैसे-जैसे अधिक रेस्टोरेंट जुड़ते हैं, नेटवर्क और अधिक उपयोगी होता जाता है।"
         }
       ],
-      "closing": "एक और डैशबोर्ड नहीं। एक फ़ूड-सर्विस इंटेलिजेंस परत।"
+      "closing": "एक और डैशबोर्ड नहीं। एक मुनाफ़ा वसूली लूप।"
     },
     "ur": {
       "eyebrow": "رپورٹ سے آگے",
-      "headline": "تین اشارے جو طے کرتے ہیں اگلا قدم۔",
-      "description": "ڈیش بورڈز یہ دکھاتے ہیں کہ کیا ہوا۔ Sundae لائیو آپریٹنگ سیاق و سباق، مارکیٹ کے اشارے، اور ہم مرتبہ موازنہ شامل کرتا ہے جن کی ریستورانوں کو یہ فیصلہ کرنے کے لیے ضرورت ہوتی ہے کہ اگلا قدم کیا ہو۔",
+      "headline": "تین اشارے جو وصول شدہ منافع میں بدل جاتے ہیں۔",
+      "description": "ڈیش بورڈز یہ دکھاتے ہیں کہ کیا ہوا۔ Sundae لائیو آپریٹنگ سیاق و سباق، مارکیٹ کے اشارے، اور ہم مرتبہ موازنہ شامل کرتا ہے جن کی ریستورانوں کو رساؤ ڈھونڈنے، اصلاح کی ذمہ داری سنبھالنے اور وصولی ناپنے کے لیے ضرورت ہوتی ہے۔",
       "layerWord": "اشارہ",
       "layers": [
         {
@@ -189,12 +189,12 @@ export const generatedLocalCopy = {
           "why": "اپنے مقامات کا موازنہ فارمیٹ، مارکیٹ، اور کارکردگی کے میٹرک کے لحاظ سے نامعلوم ہم مرتبہ ریستورانوں سے کریں۔ جیسے جیسے مزید ریستوران شامل ہوتے ہیں، نیٹ ورک زیادہ مفید ہوتا جاتا ہے۔"
         }
       ],
-      "closing": "ایک اور ڈیش بورڈ نہیں۔ ایک فوڈ سروس کی ذہانت کی تہہ۔"
+      "closing": "ایک اور ڈیش بورڈ نہیں۔ ایک منافع وصولی لوپ۔"
     },
     "pl": {
       "eyebrow": "POZA RAPORTEM",
-      "headline": "Trzy sygnały, które decydują, co dalej.",
-      "description": "Pulpity pokazują, co się wydarzyło. Sundae dodaje kontekst operacyjny na żywo, sygnały rynkowe i porównania z podobnymi restauracjami, których lokale potrzebują, aby zdecydować, co robić dalej.",
+      "headline": "Trzy sygnały, które zamieniają się w odzyskany zysk.",
+      "description": "Pulpity pokazują, co się wydarzyło. Sundae dodaje kontekst operacyjny na żywo, sygnały rynkowe i porównania z podobnymi restauracjami, których lokale potrzebują, aby znaleźć wyciek, przejąć naprawę i zmierzyć odzysk.",
       "layerWord": "Sygnał",
       "layers": [
         {
@@ -210,12 +210,12 @@ export const generatedLocalCopy = {
           "why": "Porównuj lokalizacje z zanonimizowanymi lokalami według formatu, rynku i wskaźnika wydajności. Sieć staje się bardziej użyteczna, gdy dołącza więcej restauracji."
         }
       ],
-      "closing": "Nie kolejny pulpit. Warstwa inteligencji gastronomicznej."
+      "closing": "Nie kolejny pulpit. Pętla odzyskiwania zysku."
     },
     "tr": {
       "eyebrow": "RAPORUN ÖTESİNDE",
-      "headline": "Sonraki adımı belirleyen üç sinyal.",
-      "description": "Gösterge panelleri ne olduğunu gösterir. Sundae, restoranların bir sonraki adımı belirlemesi için ihtiyaç duyduğu canlı işletme bağlamını, piyasa sinyallerini ve akran karşılaştırmalarını ekler.",
+      "headline": "Geri kazanılan kâra dönüşen üç sinyal.",
+      "description": "Gösterge panelleri ne olduğunu gösterir. Sundae, restoranların sızıntıyı bulması, düzeltmeyi üstlenmesi ve kurtarmayı ölçmesi için ihtiyaç duyduğu canlı işletme bağlamını, piyasa sinyallerini ve akran karşılaştırmalarını ekler.",
       "layerWord": "Sinyal",
       "layers": [
         {
@@ -231,12 +231,12 @@ export const generatedLocalCopy = {
           "why": "Lokasyonları format, piyasa ve performans metriği bazında anonim akranlarla karşılaştırın. Daha fazla restoran katıldıkça ağ daha faydalı hale gelir."
         }
       ],
-      "closing": "Başka bir gösterge paneli değil. Bir yeme-içme sektörü zeka katmanı."
+      "closing": "Başka bir gösterge paneli değil. Bir kâr kurtarma döngüsü."
     },
     "zh-Hans": {
       "eyebrow": "超越报表",
-      "headline": "决定下一步的三个信号。",
-      "description": "仪表板只显示已经发生的事。Sundae 补上实时运营情境、市场信号和同行对比，帮助餐厅决定下一步该怎么做。",
+      "headline": "转化为挽回利润的三个信号。",
+      "description": "仪表板只显示已经发生的事。Sundae 补上实时运营情境、市场信号和同行对比，帮助餐厅找到漏洞、认领修复并衡量挽回成效。",
       "layerWord": "信号",
       "layers": [
         {
@@ -252,12 +252,12 @@ export const generatedLocalCopy = {
           "why": "按业态、市场和绩效指标，将各门店与匿名同行进行对比。加入的餐厅越多，这张网络就越有价值。"
         }
       ],
-      "closing": "不是另一个仪表板，而是一个餐饮智能层。"
+      "closing": "不是另一个仪表板，而是一个利润挽回闭环。"
     },
     "ja": {
       "eyebrow": "レポートの先へ",
-      "headline": "次の一手を決める3つのシグナル。",
-      "description": "ダッシュボードは何が起こったかを示します。Sundaeは、次に何をすべきかを決定するために必要なライブオペレーションコンテキスト、市場シグナル、ピア比較を追加します。",
+      "headline": "回収された利益に変わる3つのシグナル。",
+      "description": "ダッシュボードは何が起こったかを示します。Sundaeは、漏れを見つけ、対策を引き受け、回収額を測定するために必要なライブオペレーションコンテキスト、市場シグナル、ピア比較を追加します。",
       "layerWord": "シグナル",
       "layers": [
         {
@@ -273,12 +273,12 @@ export const generatedLocalCopy = {
           "why": "フォーマット、市場、パフォーマンス指標によって匿名化されたピアと比較します。より多くのレストランが参加するほど、ネットワークはより有用になります。"
         }
       ],
-      "closing": "ただのダッシュボードではありません。飲食インテリジェンス層です。"
+      "closing": "ただのダッシュボードではありません。利益回収のループです。"
     },
     "id": {
       "eyebrow": "MELAMPAUI LAPORAN",
-      "headline": "Tiga sinyal yang menentukan langkah berikutnya.",
-      "description": "Dashboard menunjukkan apa yang terjadi. Sundae menambahkan konteks operasional langsung, sinyal pasar, dan perbandingan rekan yang dibutuhkan restoran untuk memutuskan langkah selanjutnya.",
+      "headline": "Tiga sinyal yang berubah menjadi laba yang dipulihkan.",
+      "description": "Dashboard menunjukkan apa yang terjadi. Sundae menambahkan konteks operasional langsung, sinyal pasar, dan perbandingan rekan yang dibutuhkan restoran untuk menemukan kebocoran, menangani perbaikan, dan mengukur pemulihannya.",
       "layerWord": "Sinyal",
       "layers": [
         {
@@ -294,12 +294,12 @@ export const generatedLocalCopy = {
           "why": "Bandingkan lokasi dengan rekan yang dianonimkan berdasarkan format, pasar, dan metrik kinerja. Jaringan menjadi lebih berguna seiring bertambahnya jumlah restoran yang bergabung."
         }
       ],
-      "closing": "Bukan sekadar dashboard lain. Sebuah lapisan intelijen layanan makanan."
+      "closing": "Bukan sekadar dashboard lain. Sebuah siklus pemulihan laba."
     },
     "vi": {
       "eyebrow": "VƯỢT KHỎI BÁO CÁO",
-      "headline": "Ba tín hiệu quyết định bước tiếp theo.",
-      "description": "Dashboard cho thấy những gì đã xảy ra. Sundae bổ sung bối cảnh vận hành trực tiếp, tín hiệu thị trường và so sánh với các nhà hàng tương đương mà nhà hàng cần để quyết định bước tiếp theo.",
+      "headline": "Ba tín hiệu biến thành lợi nhuận được phục hồi.",
+      "description": "Dashboard cho thấy những gì đã xảy ra. Sundae bổ sung bối cảnh vận hành trực tiếp, tín hiệu thị trường và so sánh với các nhà hàng tương đương mà nhà hàng cần để tìm ra chỗ thất thoát, đảm nhận việc khắc phục và đo lường mức phục hồi.",
       "layerWord": "Tín hiệu",
       "layers": [
         {
@@ -315,12 +315,12 @@ export const generatedLocalCopy = {
           "why": "So sánh các địa điểm với những nhà hàng tương đương ẩn danh theo định dạng, thị trường và chỉ số hiệu suất. Mạng lưới càng hữu ích hơn khi có thêm nhiều nhà hàng tham gia."
         }
       ],
-      "closing": "Không phải thêm một dashboard nữa. Mà là một lớp thông tin dành cho dịch vụ ăn uống."
+      "closing": "Không phải thêm một dashboard nữa. Mà là một vòng lặp phục hồi lợi nhuận."
     },
     "ro": {
       "eyebrow": "DINCOLO DE RAPORT",
-      "headline": "Trei semnale care decid pasul următor.",
-      "description": "Tablourile arată ce s-a întâmplat. Sundae adaugă contextul operațional live, semnalele de piață și comparațiile cu colegii de care restaurantele au nevoie pentru a decide ce să facă în continuare.",
+      "headline": "Trei semnale care se transformă în profit recuperat.",
+      "description": "Tablourile arată ce s-a întâmplat. Sundae adaugă contextul operațional live, semnalele de piață și comparațiile cu colegii de care restaurantele au nevoie pentru a găsi scurgerea, a-și asuma remedierea și a măsura recuperarea.",
       "layerWord": "Semnal",
       "layers": [
         {
@@ -336,12 +336,12 @@ export const generatedLocalCopy = {
           "why": "Compară-ți locațiile cu restaurante similare anonimizate, după format, piață și metrică de performanță. Rețeaua devine mai utilă pe măsură ce se alătură tot mai multe restaurante."
         }
       ],
-      "closing": "Nu un alt tablou. Un strat de inteligență pentru HoReCa."
+      "closing": "Nu un alt tablou. O buclă de recuperare a profitului."
     },
     "ko": {
       "eyebrow": "리포트 너머",
-      "headline": "다음 수를 결정하는 세 가지 신호.",
-      "description": "대시보드는 이미 일어난 일을 보여줍니다. Sundae는 레스토랑이 다음에 무엇을 해야 할지 결정하는 데 필요한 실시간 운영 맥락, 시장 신호, 동종 매장 비교를 더해 줍니다.",
+      "headline": "회수된 이익으로 바뀌는 세 가지 신호.",
+      "description": "대시보드는 이미 일어난 일을 보여줍니다. Sundae는 레스토랑이 누수를 찾고, 해결을 책임지고, 회수액을 측정하는 데 필요한 실시간 운영 맥락, 시장 신호, 동종 매장 비교를 더해 줍니다.",
       "layerWord": "신호",
       "layers": [
         {
@@ -357,12 +357,12 @@ export const generatedLocalCopy = {
           "why": "업태, 시장, 성과 지표별로 익명화된 동종 매장과 각 지점을 비교하세요. 더 많은 레스토랑이 참여할수록 네트워크는 더욱 유용해집니다."
         }
       ],
-      "closing": "또 다른 대시보드가 아닙니다. 외식 인텔리전스 레이어입니다."
+      "closing": "또 다른 대시보드가 아닙니다. 이익 회수 루프입니다."
     },
     "sv": {
       "eyebrow": "BORTOM RAPPORTEN",
-      "headline": "Tre signaler som avgör nästa steg.",
-      "description": "Dashboards visar vad som har hänt. Sundae lägger till det operativa realtidssammanhanget, marknadssignaler och jämförelser med likvärdiga restauranger som restauranger behöver för att besluta vad de ska göra härnäst.",
+      "headline": "Tre signaler som blir till återvunnen vinst.",
+      "description": "Dashboards visar vad som har hänt. Sundae lägger till det operativa realtidssammanhanget, marknadssignaler och jämförelser med likvärdiga restauranger som restauranger behöver för att hitta läckan, ta ansvar för åtgärden och mäta återvinningen.",
       "layerWord": "Signal",
       "layers": [
         {
@@ -378,12 +378,12 @@ export const generatedLocalCopy = {
           "why": "Jämför dina platser mot anonymiserade likvärdiga restauranger efter format, marknad och prestationsmått. Nätverket blir mer användbart ju fler restauranger som ansluter."
         }
       ],
-      "closing": "Inte ännu en dashboard. Ett lager av intelligens för restaurangbranschen."
+      "closing": "Inte ännu en dashboard. En loop för vinståtervinning."
     },
     "bn": {
       "eyebrow": "রিপোর্টের বাইরে",
-      "headline": "পরের পদক্ষেপ ঠিক করে এমন তিন সংকেত।",
-      "description": "ড্যাশবোর্ডগুলি কী ঘটেছে তা দেখায়। Sundae লাইভ অপারেটিং প্রসঙ্গ, বাজার সংকেত এবং সহকর্মীদের তুলনা যোগ করে যা রেস্তোরাঁগুলিকে পরবর্তী পদক্ষেপ নির্ধারণ করতে সহায়তা করে।",
+      "headline": "তিন সংকেত যা পুনরুদ্ধার করা মুনাফায় রূপ নেয়।",
+      "description": "ড্যাশবোর্ডগুলি কী ঘটেছে তা দেখায়। Sundae লাইভ অপারেটিং প্রসঙ্গ, বাজার সংকেত এবং সহকর্মীদের তুলনা যোগ করে যা রেস্তোরাঁগুলিকে ফুটো খুঁজে বের করতে, সমাধানের দায়িত্ব নিতে এবং পুনরুদ্ধার মাপতে সহায়তা করে।",
       "layerWord": "সংকেত",
       "layers": [
         {
@@ -399,12 +399,12 @@ export const generatedLocalCopy = {
           "why": "ফরম্যাট, বাজার এবং কর্মক্ষমতা মেট্রিক অনুযায়ী আপনার অবস্থানগুলিকে নাম-গোপন রাখা সমকক্ষ রেস্তোরাঁর সঙ্গে তুলনা করুন। যত বেশি রেস্তোরাঁ যোগ দেয়, নেটওয়ার্ক তত বেশি কার্যকর হয়ে ওঠে।"
         }
       ],
-      "closing": "আরেকটি ড্যাশবোর্ড নয়। একটি ফুড সার্ভিস বুদ্ধিমত্তা স্তর।"
+      "closing": "আরেকটি ড্যাশবোর্ড নয়। একটি মুনাফা পুনরুদ্ধারের লুপ।"
     },
     "th": {
       "eyebrow": "เหนือกว่ารายงาน",
-      "headline": "สามสัญญาณที่กำหนดก้าวต่อไป",
-      "description": "แดชบอร์ดแสดงสิ่งที่เกิดขึ้นไปแล้ว แต่ Sundae เพิ่มบริบทการดำเนินงานแบบสด สัญญาณตลาด และการเปรียบเทียบกับร้านที่เทียบเคียงกัน ซึ่งร้านอาหารต้องใช้ในการตัดสินใจว่าจะทำอะไรต่อไป",
+      "headline": "สามสัญญาณที่แปรเปลี่ยนเป็นกำไรที่กู้คืนมาได้",
+      "description": "แดชบอร์ดแสดงสิ่งที่เกิดขึ้นไปแล้ว แต่ Sundae เพิ่มบริบทการดำเนินงานแบบสด สัญญาณตลาด และการเปรียบเทียบกับร้านที่เทียบเคียงกัน ซึ่งร้านอาหารต้องใช้เพื่อค้นหาจุดรั่วไหล รับผิดชอบการแก้ไข และวัดผลการกู้คืน",
       "layerWord": "สัญญาณ",
       "layers": [
         {
@@ -420,12 +420,12 @@ export const generatedLocalCopy = {
           "why": "เปรียบเทียบสาขาของคุณกับร้านที่เทียบเคียงกันแบบไม่ระบุชื่อ ตามรูปแบบ ตลาด และเมตริกประสิทธิภาพ เครือข่ายจะมีประโยชน์มากขึ้นเมื่อมีร้านอาหารเข้าร่วมมากขึ้น"
         }
       ],
-      "closing": "ไม่ใช่แดชบอร์ดอีกตัวหนึ่ง แต่เป็นชั้นข้อมูลเชิงลึกสำหรับธุรกิจบริการอาหาร"
+      "closing": "ไม่ใช่แดชบอร์ดอีกตัวหนึ่ง แต่เป็นวงจรกู้คืนกำไร"
     },
     "ms": {
       "eyebrow": "MELANGKAUI LAPORAN",
-      "headline": "Tiga isyarat yang menentukan langkah seterusnya.",
-      "description": "Dashboard menunjukkan apa yang telah berlaku. Sundae menambah konteks operasi langsung, isyarat pasaran, dan perbandingan rakan yang diperlukan restoran untuk memutuskan apa yang perlu dilakukan seterusnya.",
+      "headline": "Tiga isyarat yang bertukar menjadi untung yang dipulihkan.",
+      "description": "Dashboard menunjukkan apa yang telah berlaku. Sundae menambah konteks operasi langsung, isyarat pasaran, dan perbandingan rakan yang diperlukan restoran untuk mencari kebocoran, memikul pembetulan, dan mengukur pemulihannya.",
       "layerWord": "Isyarat",
       "layers": [
         {
@@ -441,7 +441,7 @@ export const generatedLocalCopy = {
           "why": "Bandingkan lokasi anda dengan rakan setara yang dirahsiakan identiti mengikut format, pasaran, dan metrik prestasi. Rangkaian menjadi lebih berguna apabila lebih banyak restoran menyertainya."
         }
       ],
-      "closing": "Bukan sekadar dashboard lain. Sebuah lapisan intelijen perkhidmatan makanan."
+      "closing": "Bukan sekadar dashboard lain. Sebuah kitaran pemulihan untung."
     }
   }
 } as const

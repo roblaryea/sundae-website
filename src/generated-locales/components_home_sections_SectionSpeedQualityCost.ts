@@ -9,7 +9,7 @@ export const generatedLocalCopy = {
       "oldRule": "القاعدة القديمة: اختر اثنين",
       "sundaeRule": "↓  قاعدة Sundae: اختر الثلاثة",
       "closing": "هذا ليس تبادلاً. هذه هي ميزتك التشغيلية.",
-      "costMetric": "مجاناً للبدء"
+      "costMetric": "جاهز خلال أيام"
     },
     "fr": {
       "eyebrow": "LE FAUX DILEMME, C'EST FINI",
@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
       "oldRule": "Ancienne règle : choisissez deux",
       "sundaeRule": "↓  Règle Sundae : choisissez les trois",
       "closing": "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
-      "costMetric": "Gratuit pour démarrer"
+      "costMetric": "Opérationnel en jours"
     },
     "es": {
       "eyebrow": "SE ACABÓ LA FALSA DISYUNTIVA",
@@ -27,7 +27,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regla antigua: elige dos",
       "sundaeRule": "↓  Regla Sundae: elige los tres",
       "closing": "Eso no es un compromiso. Esa es tu ventaja operativa.",
-      "costMetric": "Gratis para empezar"
+      "costMetric": "Operativo en días"
     },
     "de": {
       "eyebrow": "DIE FALSCHE WAHL IST VORBEI",
@@ -36,7 +36,7 @@ export const generatedLocalCopy = {
       "oldRule": "Alte Regel: Wählen Sie zwei",
       "sundaeRule": "↓  Sundae-Regel: Wählen Sie alle drei",
       "closing": "Das ist kein Kompromiss. Das ist Ihr Betriebsvorteil.",
-      "costMetric": "Kostenlos starten"
+      "costMetric": "In Tagen live"
     },
     "nl": {
       "eyebrow": "DE VALSE KEUZE IS VOORBIJ",
@@ -45,7 +45,7 @@ export const generatedLocalCopy = {
       "oldRule": "Oude regel: kies er twee",
       "sundaeRule": "↓  Sundae regel: kies ze allemaal",
       "closing": "Dat is geen afweging. Dat is jouw operationeel voordeel.",
-      "costMetric": "Gratis starten"
+      "costMetric": "Live in dagen"
     },
     "pt": {
       "eyebrow": "A FALSA ESCOLHA ACABOU",
@@ -54,7 +54,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regra antiga: escolha dois",
       "sundaeRule": "↓ Regra Sundae: escolha os três",
       "closing": "Isso não é uma troca. Essa é sua vantagem operacional.",
-      "costMetric": "Grátis para começar"
+      "costMetric": "Operacional em dias"
     },
     "hi": {
       "eyebrow": "झूठा विकल्प अब खत्म हुआ",
@@ -63,7 +63,7 @@ export const generatedLocalCopy = {
       "oldRule": "पुराना नियम: दो चुनें",
       "sundaeRule": "↓  Sundae नियम: तीनों चुनें",
       "closing": "यह कोई ट्रेडऑफ नहीं है। यह आपका संचालन लाभ है।",
-      "costMetric": "मुफ़्त में शुरू करें"
+      "costMetric": "कुछ दिनों में लाइव"
     },
     "ur": {
       "eyebrow": "جھوٹا انتخاب اب ختم ہو چکا ہے",
@@ -72,7 +72,7 @@ export const generatedLocalCopy = {
       "oldRule": "پرانا اصول: دو منتخب کریں",
       "sundaeRule": "↓  Sundae اصول: تینوں منتخب کریں",
       "closing": "یہ کوئی سمجھوتہ نہیں ہے۔ یہ آپ کا آپریٹنگ فائدہ ہے۔",
-      "costMetric": "مفت میں شروع کریں"
+      "costMetric": "چند دنوں میں لائیو"
     },
     "it": {
       "eyebrow": "LA FALSA SCELTA È FINITA",
@@ -81,7 +81,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regola vecchia: scegli due",
       "sundaeRule": "↓  Regola Sundae: scegli tutti e tre",
       "closing": "Non è un compromesso. È il tuo vantaggio operativo.",
-      "costMetric": "Gratis per iniziare"
+      "costMetric": "Operativo in giorni"
     },
     "pl": {
       "eyebrow": "FAŁSZYWY WYBÓR SIĘ SKOŃCZYŁ",
@@ -90,7 +90,7 @@ export const generatedLocalCopy = {
       "oldRule": "Stara zasada: wybierz dwa",
       "sundaeRule": "↓  Zasada Sundae: wybierz wszystkie trzy",
       "closing": "To nie jest kompromis. To twoja przewaga operacyjna.",
-      "costMetric": "Za darmo na start"
+      "costMetric": "Gotowe w kilka dni"
     },
     "tr": {
       "eyebrow": "SAHTE TERCİH ARTIK SONA ERDİ",
@@ -99,7 +99,7 @@ export const generatedLocalCopy = {
       "oldRule": "Eski kural: iki tanesini seçin",
       "sundaeRule": "↓  Sundae kuralı: üçünü de seçin",
       "closing": "Bu bir denge değil. Bu, işletme avantajınızdır.",
-      "costMetric": "Ücretsiz başlayın"
+      "costMetric": "Günler içinde canlı"
     },
     "zh-Hans": {
       "eyebrow": "非此即彼的伪命题已成过去",
@@ -108,7 +108,7 @@ export const generatedLocalCopy = {
       "oldRule": "旧规则：选择两个",
       "sundaeRule": "↓  Sundae 规则：三者兼得",
       "closing": "这不是权衡。这是你的运营优势。",
-      "costMetric": "免费起步"
+      "costMetric": "数日内上线"
     },
     "ja": {
       "eyebrow": "二者択一という幻想は終わった",
@@ -117,7 +117,7 @@ export const generatedLocalCopy = {
       "oldRule": "古いルール：2つを選ぶ",
       "sundaeRule": "↓  Sundaeのルール：すべてを選ぶ",
       "closing": "それはトレードオフではありません。それがあなたの運営上の優位性です。",
-      "costMetric": "無料で始められる"
+      "costMetric": "数日で稼働"
     },
     "ko": {
       "eyebrow": "잘못된 양자택일은 끝났습니다",
@@ -126,7 +126,7 @@ export const generatedLocalCopy = {
       "oldRule": "구식 규칙: 두 가지 선택",
       "sundaeRule": "↓  Sundae 규칙: 세 가지 모두 선택",
       "closing": "이것은 트레이드오프가 아닙니다. 이것이 귀하의 운영 우위입니다.",
-      "costMetric": "무료로 시작"
+      "costMetric": "며칠 만에 가동"
     },
     "id": {
       "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
@@ -135,7 +135,7 @@ export const generatedLocalCopy = {
       "oldRule": "Aturan lama: pilih dua",
       "sundaeRule": "↓  Aturan Sundae: pilih ketiganya",
       "closing": "Itu bukan kompromi. Itu adalah keunggulan operasional Anda.",
-      "costMetric": "Gratis untuk memulai"
+      "costMetric": "Aktif dalam hitungan hari"
     },
     "vi": {
       "eyebrow": "LỰA CHỌN ĐÁNH ĐỔI SAI LẦM ĐÃ CHẤM DỨT",
@@ -144,7 +144,7 @@ export const generatedLocalCopy = {
       "oldRule": "Quy tắc cũ: chọn hai",
       "sundaeRule": "↓  Quy tắc Sundae: chọn cả ba",
       "closing": "Đó không phải là sự trao đổi. Đó là lợi thế hoạt động của bạn.",
-      "costMetric": "Miễn phí để bắt đầu"
+      "costMetric": "Vận hành trong vài ngày"
     },
     "ro": {
       "eyebrow": "FALSA ALEGERE S-A TERMINAT",
@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
       "oldRule": "Regula veche: alege două",
       "sundaeRule": "↓  Regula Sundae: alege toate trei",
       "closing": "Asta nu este un compromis. Asta este avantajul tău operațional.",
-      "costMetric": "Gratuit la început"
+      "costMetric": "Funcțional în câteva zile"
     },
     "sv": {
       "eyebrow": "DET FALSKA VALET ÄR ÖVER",
@@ -162,7 +162,7 @@ export const generatedLocalCopy = {
       "oldRule": "Gammal regel: välj två",
       "sundaeRule": "↓  Sundae-regel: välj alla tre",
       "closing": "Det är ingen avvägning. Det är din operativa fördel.",
-      "costMetric": "Gratis att komma igång"
+      "costMetric": "Igång på dagar"
     },
     "bn": {
       "eyebrow": "ভুয়া বাছাই এখন অতীত",
@@ -171,7 +171,7 @@ export const generatedLocalCopy = {
       "oldRule": "পুরনো নিয়ম: দুটি বেছে নিন",
       "sundaeRule": "↓  Sundae নিয়ম: তিনটি বেছে নিন",
       "closing": "এটি ট্রেডঅফ নয়। এটি আপনার কার্যকরী সুবিধা।",
-      "costMetric": "বিনামূল্যে শুরু করুন"
+      "costMetric": "কয়েক দিনেই সচল"
     },
     "th": {
       "eyebrow": "ทางเลือกลวงนั้นจบลงแล้ว",
@@ -180,7 +180,7 @@ export const generatedLocalCopy = {
       "oldRule": "กฎเก่า: เลือกสองอย่าง",
       "sundaeRule": "↓  กฎของ Sundae: เลือกทั้งสามอย่าง",
       "closing": "นั่นไม่ใช่การแลกเปลี่ยน นั่นคือข้อได้เปรียบในการดำเนินงานของคุณ",
-      "costMetric": "เริ่มต้นฟรี"
+      "costMetric": "พร้อมใช้งานในไม่กี่วัน"
     },
     "ms": {
       "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
@@ -189,7 +189,7 @@ export const generatedLocalCopy = {
       "oldRule": "Peraturan lama: pilih dua",
       "sundaeRule": "↓  Peraturan Sundae: pilih ketiga-tiganya",
       "closing": "Itu bukan kompromi. Itu adalah kelebihan operasi anda.",
-      "costMetric": "Percuma untuk bermula"
+      "costMetric": "Beroperasi dalam beberapa hari"
     }
   }
 } as const

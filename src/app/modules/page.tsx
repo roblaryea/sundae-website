@@ -543,9 +543,9 @@ export default function ModulesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-stone-50 via-white to-orange-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50/80 via-purple-50/30 to-orange-50/60">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -608,7 +608,7 @@ export default function ModulesPage() {
               <h3 className="font-semibold text-[var(--text-primary)] mb-2">{page.pillars[1].title}</h3>
               <p className="text-sm text-[var(--text-supporting)]">{page.pillars[1].description}</p>
             </div>
-            <div className="text-center p-6 bg-green-50 rounded-xl">
+            <div className="text-center p-6 bg-green-500/10 rounded-xl">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="integration" size="lg" className="text-[var(--text-primary)]" />
               </div>
@@ -677,7 +677,7 @@ export default function ModulesPage() {
                         </ul>
                       </div>
                       <div>
-                        <div className="bg-gradient-to-br from-green-50 to-orange-50 rounded-lg p-4 mb-4">
+                        <div className="bg-green-500/10 rounded-lg p-4 mb-4">
                           <h4 className="font-semibold text-[var(--text-primary)] mb-2">{copy.roi}</h4>
                           <p className="text-sm text-[var(--text-secondary)]">{module.roi}</p>
                         </div>
@@ -713,7 +713,7 @@ export default function ModulesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gradient-to-br from-orange-50 to-purple-50 rounded-xl p-8">
+            <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   1
@@ -733,7 +733,7 @@ export default function ModulesPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#FFF1EC] to-orange-50 rounded-xl p-8">
+            <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#F0A23C] to-[#FF5C4D] rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   2
@@ -756,7 +756,7 @@ export default function ModulesPage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-[#FFF1EC] to-orange-50 rounded-xl p-8">
+          <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-8">
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-4 text-center">{page.crossModuleTitle}</h3>
             <p className="text-[var(--text-secondary)] text-center mb-6">{page.crossModuleDescription}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -778,7 +778,7 @@ export default function ModulesPage() {
       </section>
 
       {/* Module Selection Guide */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50 to-purple-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
@@ -798,7 +798,7 @@ export default function ModulesPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="bg-[var(--navy-deep)] rounded-xl p-6 shadow-none hover:shadow-md transition-all duration-300 h-full">
+                <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-6 shadow-none hover:shadow-md transition-all duration-300 h-full">
               <p className="text-lg font-bold text-[var(--text-primary)] mb-2">{item.pain}</p>
               <p className="text-[#FF8473] font-semibold mb-2">→ {item.solution}</p>
               <p className="text-sm text-[var(--text-supporting)]">{item.benefit}</p>
@@ -848,7 +848,7 @@ export default function ModulesPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             {page.ctaTitle}
@@ -857,7 +857,7 @@ export default function ModulesPage() {
             {page.ctaDescription}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+            <div className="p-6 bg-white/[0.03] border border-[var(--border-default)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="calculator" size="lg" className="text-[var(--text-primary)]" />
               </div>
@@ -869,7 +869,7 @@ export default function ModulesPage() {
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+            <div className="p-6 bg-white/[0.03] border border-[var(--border-default)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="document" size="lg" className="text-[var(--text-primary)]" />
               </div>
@@ -881,7 +881,7 @@ export default function ModulesPage() {
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+            <div className="p-6 bg-white/[0.03] border border-[var(--border-default)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="conversation" size="lg" className="text-[var(--text-primary)]" />
               </div>

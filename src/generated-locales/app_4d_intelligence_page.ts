@@ -76,7 +76,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -93,7 +93,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "كيف يبدو الذكاء رباعي الأبعاد",
@@ -246,7 +246,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -263,7 +263,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "À quoi ressemble l'intelligence 4D",
@@ -416,7 +416,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -433,7 +433,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Como é a inteligência 4D",
@@ -587,7 +587,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -604,7 +604,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Wie 4D-Intelligenz aussieht",
@@ -758,7 +758,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -775,7 +775,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Hoe 4D-intelligentie eruit ziet",
@@ -929,7 +929,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -946,7 +946,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Cómo se ve la inteligencia 4D",
@@ -1099,7 +1099,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -1116,7 +1116,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D انٹیلی جنس کیسی دکھتی ہے۔",
@@ -1270,7 +1270,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -1287,7 +1287,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4डी इंटेलिजेंस कैसा दिखता है?",
@@ -1441,7 +1441,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -1458,7 +1458,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D 智能是什么样的",
@@ -1612,7 +1612,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -1629,7 +1629,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Jak wygląda inteligencja 4D",
@@ -1783,7 +1783,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -1800,7 +1800,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Che aspetto ha l'intelligenza 4D",
@@ -1954,7 +1954,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -1971,7 +1971,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D Zeka Nasıl Görünüyor?",
@@ -2125,7 +2125,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -2142,7 +2142,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D 인텔리전스의 모습",
@@ -2296,7 +2296,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -2313,7 +2313,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D インテリジェンスとはどのようなものなのか",
@@ -2467,7 +2467,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -2484,7 +2484,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Seperti Apa Kecerdasan 4D itu",
@@ -2638,7 +2638,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -2655,7 +2655,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Trí thông minh 4D trông như thế nào",
@@ -2809,7 +2809,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -2826,7 +2826,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Cum arată inteligența 4D",
@@ -2980,7 +2980,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -2997,7 +2997,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Hur 4D Intelligence ser ut",
@@ -3151,7 +3151,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -3168,7 +3168,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D ইন্টেলিজেন্স দেখতে কেমন",
@@ -3322,7 +3322,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -3339,7 +3339,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "ความฉลาด 4D มีลักษณะอย่างไร",
@@ -3493,7 +3493,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
@@ -3510,7 +3510,7 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Kecerdasan 4D Nampak",

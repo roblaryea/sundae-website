@@ -222,10 +222,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Entscheidungsintelligenz für Gewinnrückgewinnung im geschlossenen Regelkreis",
-      "titleTop": "Holen Sie jeden Tag Gewinn zurück,",
-      "titleBottom": "in jedem Standort.",
-      "subheadline": "Finden Sie das Leck, übergeben Sie die Behebung an einen eindeutig Verantwortlichen und messen Sie die Rückgewinnung gegen eine Baseline - ein prüfbarer Regelkreis, in jeder Schicht.",
+      "badge": "Live ansehen",
+      "titleTop": "Sehen Sie den Regelkreis",
+      "titleBottom": "eine Live-Schicht lang laufen.",
+      "subheadline": "Echtes Tempo, ein Live-Coach, ein einziger Serviceabend - der Rückgewinnungs-Regelkreis in Aktion auf Pulse.",
       "description": "Ihre Daten liegen verstreut in Kasse, Lieferung, Reservierungen, Personal, Lager und Finanzen.",
       "descriptionEmphasis": "Sundae führt sie in einer lebendigen Betriebsebene zusammen.",
       "narrativeAnchor": "Von Reporting-Lücken zu operativem Tempo.",
@@ -235,11 +235,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligenz-Layer, eine Wahrheit"
+          "label": "Ebenen, eine Rückgewinnungsschleife"
         },
         {
           "number": "18",
-          "label": "Heute aufgezeigte Entscheidungen"
+          "label": "Heute erkannte Lecks"
         },
         {
           "number": "12",
@@ -247,7 +247,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Vom Signal zur Handlung"
+          "label": "Vom Leck zur zugewiesenen Behebung"
         }
       ],
       "problem": {
@@ -282,9 +282,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 EBENEN · EINE WAHRHEIT",
-        "heading": "Sechs Ebenen. Eine Wahrheit.",
-        "description": "Von der laufenden Schicht bis zum langfristigen Plan - ein Stack, sechs Ebenen, die miteinander sprechen.",
+        "eyebrow": "6 EBENEN · EIN REGELKREIS",
+        "heading": "Sechs Ebenen. Ein Regelkreis.",
+        "description": "Von der laufenden Schicht bis zum langfristigen Plan - sechs Ebenen, die das Leck finden, die Behebung übernehmen und die Rückgewinnung messen.",
         "countLabel": "von 6",
         "exploreModules": "Alle Module erkunden",
         "learnMore": "Mehr erfahren",
@@ -500,7 +500,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K. hat eine Upsell-Rate von 14% unter dem Schichtdurchschnitt. Ziehen Sie in Betracht, ihn für die nächsten 2 Tische mit Sarah zu kombinieren."
       },
-      "closingTitle": "Hören Sie auf, sich auf die Zahlen von gestern zu verlassen.",
+      "closingTitle": "Schluss mit dem Margenleck, das Sie zurückgewinnen könnten.",
       "closingDescription": "30 Minuten. Ihre Daten. Was Sundae tatsächlich für das Team ändern würde.",
       "pages": {
         "signIn": {
@@ -993,10 +993,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Beslissingsintelligentie voor winstherstel in een gesloten lus",
-      "titleTop": "Herstel elke dag winst,",
-      "titleBottom": "in elke vestiging.",
-      "subheadline": "Vind het lek, wijs de oplossing toe aan één verantwoordelijke eigenaar en meet het herstel af tegen een baseline - één controleerbare lus, elke dienst.",
+      "badge": "Bekijk het live",
+      "titleTop": "Zie de lus draaien",
+      "titleBottom": "tijdens een live dienst.",
+      "subheadline": "Echt tempo, een live Coach, één serviceavond - de herstel-lus die draait op Pulse.",
       "description": "Je data zit verspreid over kassa, bezorging, reserveringen, personeel, voorraad en financiën.",
       "descriptionEmphasis": "Sundae brengt alles samen in een live operationele laag.",
       "narrativeAnchor": "Van rapportagevertraging naar operationeel tempo.",
@@ -1006,11 +1006,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligentielagen, één waarheid"
+          "label": "Lagen, één herstellus"
         },
         {
           "number": "18",
-          "label": "Vandaag aangereikte beslissingen"
+          "label": "Vandaag gedetecteerde lekken"
         },
         {
           "number": "12",
@@ -1018,7 +1018,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Van signaal naar actie"
+          "label": "Van lek naar toegewezen oplossing"
         }
       ],
       "problem": {
@@ -1053,9 +1053,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAGEN · ÉÉN WAARHEID",
-        "heading": "Zes lagen. Één waarheid.",
-        "description": "Van de live shift tot het lange termijnplan - één stack, zes lagen die met elkaar communiceren.",
+        "eyebrow": "6 LAGEN · ÉÉN LUS",
+        "heading": "Zes lagen. Één lus.",
+        "description": "Van de live shift tot het langetermijnplan - zes lagen die het lek vinden, de oplossing oppakken en het herstel meten.",
         "countLabel": "van 6",
         "exploreModules": "Verken alle modules",
         "learnMore": "Meer leren",
@@ -1271,7 +1271,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K. upsellpercentage is 14% onder het gemiddelde van de shift. Overweeg om met Sarah te koppelen voor de volgende 2 tafels."
       },
-      "closingTitle": "Stop met het werken op basis van de cijfers van gisteren.",
+      "closingTitle": "Stop het weglekken van marge die je kunt terugwinnen.",
       "closingDescription": "30 minuten. Jouw gegevens. Wat Sundae daadwerkelijk zou veranderen voor het team.",
       "pages": {
         "signIn": {
@@ -1764,10 +1764,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Inteligência de Decisão para recuperação de lucro em ciclo fechado",
-      "titleTop": "Recupere lucro todos os dias,",
-      "titleBottom": "em cada unidade.",
-      "subheadline": "Encontre a perda, atribua a correção a um único responsável e meça a recuperação em relação a uma linha de base - um ciclo auditável, a cada turno.",
+      "badge": "Veja ao vivo",
+      "titleTop": "Veja o ciclo rodar",
+      "titleBottom": "durante um turno ao vivo.",
+      "subheadline": "Ritmo real, um Coach ao vivo, uma noite de serviço - o ciclo de recuperação rodando no Pulse.",
       "description": "Seus dados ficam espalhados pelo PDV, entregas, reservas, equipe, estoque e finanças.",
       "descriptionEmphasis": "A Sundae reúne tudo numa única camada operacional ao vivo.",
       "narrativeAnchor": "Da lentidão na geração de relatórios à agilidade nas operações.",
@@ -1777,11 +1777,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Camadas de inteligência, uma verdade"
+          "label": "Camadas, um ciclo de recuperação"
         },
         {
           "number": "18",
-          "label": "Decisões reveladas hoje"
+          "label": "Vazamentos detectados hoje"
         },
         {
           "number": "12",
@@ -1789,7 +1789,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Do sinal à ação"
+          "label": "Do vazamento à correção atribuída"
         }
       ],
       "problem": {
@@ -1824,9 +1824,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 CAMADAS · UMA VERDADE",
-        "heading": "Seis camadas. Uma verdade.",
-        "description": "Da operação ao vivo ao plano de longo prazo - uma pilha, seis camadas que se comunicam entre si.",
+        "eyebrow": "6 CAMADAS · UM CICLO",
+        "heading": "Seis camadas. Um ciclo.",
+        "description": "Da operação ao vivo ao plano de longo prazo - seis camadas que encontram o vazamento, assumem a correção e medem a recuperação.",
         "countLabel": "de 6",
         "exploreModules": "Explore todos os módulos",
         "learnMore": "Saiba mais",
@@ -2042,7 +2042,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "A taxa de upsell de James K. está 14% abaixo da média do turno. Considere emparelhá-lo com Sarah para as próximas 2 mesas."
       },
-      "closingTitle": "Pare de se basear nos números de ontem.",
+      "closingTitle": "Pare de deixar vazar a margem que você poderia recuperar.",
       "closingDescription": "30 minutos. Seus dados. O que a Sundae realmente mudaria para a equipe.",
       "pages": {
         "signIn": {
@@ -2535,10 +2535,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "क्लोज़्ड-लूप मुनाफ़ा रिकवरी के लिए निर्णय बुद्धिमत्ता",
-      "titleTop": "हर दिन मुनाफ़ा वापस पाएँ,",
-      "titleBottom": "हर आउटलेट पर।",
-      "subheadline": "रिसाव कहाँ है यह पहचानें, समाधान की ज़िम्मेदारी किसी एक जवाबदेह व्यक्ति को दें, और रिकवरी को एक बेसलाइन के मुक़ाबले मापें - हर शिफ़्ट में एक ऑडिट-योग्य लूप।",
+      "badge": "इसे लाइव देखें",
+      "titleTop": "लूप को चलते हुए देखें",
+      "titleBottom": "पूरी एक लाइव शिफ़्ट।",
+      "subheadline": "असली रफ़्तार, एक लाइव Coach, एक ही सर्विस की शाम - Pulse पर चलती रिकवरी लूप।",
       "description": "Aapka data POS, delivery, booking, staff, inventory aur finance mein bikhra hai.",
       "descriptionEmphasis": "Sundae use ek live operating layer mein le aata hai.",
       "narrativeAnchor": "रिपोर्टिंग में देरी से संचालन की गति तक।",
@@ -2548,11 +2548,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "इंटेलिजेंस लेयर, एक सच"
+          "label": "परतें, एक रिकवरी चक्र"
         },
         {
           "number": "18",
-          "label": "आज सामने आए फैसले"
+          "label": "आज पकड़े गए रिसाव"
         },
         {
           "number": "12",
@@ -2560,7 +2560,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 मिनट",
-          "label": "संकेत से कार्रवाई तक"
+          "label": "रिसाव से जिम्मेदार समाधान तक"
         }
       ],
       "problem": {
@@ -2595,9 +2595,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 परतें · एक सत्य",
-        "heading": "छह परतें। एक सत्य।",
-        "description": "लाइव शिफ्ट से लेकर दीर्घकालिक योजना तक - एक स्टैक, छह परतें जो आपस में बात करती हैं।",
+        "eyebrow": "6 परतें · एक चक्र",
+        "heading": "छह परतें। एक चक्र।",
+        "description": "लाइव शिफ्ट से लेकर दीर्घकालिक योजना तक - छह परतें जो रिसाव खोजती हैं, समाधान संभालती हैं और रिकवरी मापती हैं।",
         "countLabel": "6 में से",
         "exploreModules": "सभी मॉड्यूल्स का अन्वेषण करें",
         "learnMore": "और जानें",
@@ -2813,7 +2813,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "जेम्स के. का अपसेल दर शिफ्ट के औसत से 14% कम है। अगले 2 टेबल के लिए सारा के साथ जोड़ी बनाने पर विचार करें।"
       },
-      "closingTitle": "कल के आंकड़ों पर चलना बंद करें।",
+      "closingTitle": "जिस मार्जिन को आप वापस पा सकते हैं, उसका रिसाव रोकें।",
       "closingDescription": "30 मिनट। आपका डेटा। Sundae वास्तव में टीम के लिए क्या बदलेगा।",
       "pages": {
         "signIn": {
@@ -3306,10 +3306,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "کلوزڈ-لوپ منافع کی بحالی کے لیے فیصلہ سازی کی ذہانت",
-      "titleTop": "ہر دن منافع دوبارہ حاصل کریں،",
-      "titleBottom": "ہر آؤٹ لیٹ پر۔",
-      "subheadline": "معلوم کریں کہ رساؤ کہاں ہے، اصلاح کی ذمہ داری کسی ایک جوابدہ فرد کو سونپیں، اور بحالی کو ایک بنیادی معیار کے مقابلے میں ماپیں - ہر شفٹ میں ایک قابلِ آڈٹ لوپ۔",
+      "badge": "اسے لائیو دیکھیں",
+      "titleTop": "لوپ کو چلتے ہوئے دیکھیں",
+      "titleBottom": "پوری ایک لائیو شفٹ۔",
+      "subheadline": "اصل رفتار، ایک لائیو Coach، صرف ایک سروس کی شام - Pulse پر چلتا ریکوری لوپ۔",
       "description": "Aap ka data POS, delivery, booking, staff, inventory aur finance mein bikhra hua hai.",
       "descriptionEmphasis": "Sundae ise ek live operating layer mein le aata hai.",
       "narrativeAnchor": "رپورٹنگ کی تاخیر سے آپریشن کی رفتار تک۔",
@@ -3319,11 +3319,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "انٹیلیجنس پرتیں، ایک سچ"
+          "label": "تہیں، ایک ریکوری چکر"
         },
         {
           "number": "18",
-          "label": "آج سامنے آئے فیصلے"
+          "label": "آج پکڑے گئے رساؤ"
         },
         {
           "number": "12",
@@ -3331,7 +3331,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 منٹ",
-          "label": "اشارے سے عمل تک"
+          "label": "رساؤ سے ذمہ دار حل تک"
         }
       ],
       "problem": {
@@ -3366,9 +3366,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 تہیں · ایک سچائی",
-        "heading": "چھ تہیں۔ ایک سچائی۔",
-        "description": "لائیو شفٹ سے طویل مدتی منصوبے تک - ایک اسٹیک، چھ تہیں جو آپس میں بات کرتی ہیں۔",
+        "eyebrow": "6 تہیں · ایک چکر",
+        "heading": "چھ تہیں۔ ایک چکر۔",
+        "description": "لائیو شفٹ سے طویل مدتی منصوبے تک - چھ تہیں جو رساؤ کو ڈھونڈتی ہیں، حل کو سنبھالتی ہیں اور بحالی کو ماپتی ہیں۔",
         "countLabel": "6 میں سے",
         "exploreModules": "تمام ماڈیولز کا جائزہ لیں",
         "learnMore": "مزید جانیں",
@@ -3584,7 +3584,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "جیمز کے. کی اپ سیل کی شرح شفٹ کے اوسط سے 14% کم ہے۔ اگلی 2 میزوں کے لیے سارہ کے ساتھ جوڑنے پر غور کریں۔"
       },
-      "closingTitle": "کل کے اعداد و شمار پر چلنا بند کریں۔",
+      "closingTitle": "وہ مارجن جو آپ واپس پا سکتے ہیں، اس کا رساؤ روکیں۔",
       "closingDescription": "30 منٹ۔ آپ کا ڈیٹا۔ سنڈے واقعی ٹیم کے لیے کیا تبدیل کرے گا۔",
       "pages": {
         "signIn": {
@@ -4077,10 +4077,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Intelligenza Decisionale per il recupero di margine a ciclo chiuso",
-      "titleTop": "Recupera margine ogni giorno,",
-      "titleBottom": "in ogni punto vendita.",
-      "subheadline": "Individua la perdita, assegna la correzione a un unico responsabile e misura il recupero rispetto a una baseline - un unico ciclo verificabile, a ogni turno.",
+      "badge": "Guardalo dal vivo",
+      "titleTop": "Guarda il ciclo girare",
+      "titleBottom": "per un intero turno dal vivo.",
+      "subheadline": "Ritmo reale, un Coach dal vivo, una sola sera di servizio - il ciclo di recupero in azione su Pulse.",
       "description": "I tuoi dati sono sparsi tra cassa, consegne, prenotazioni, personale, magazzino e finanza.",
       "descriptionEmphasis": "Sundae li riunisce in un unico livello operativo in tempo reale.",
       "narrativeAnchor": "Dalla lentezza dei report alla velocità operativa.",
@@ -4090,11 +4090,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Livelli di intelligence, una verità"
+          "label": "Livelli, un ciclo di recupero"
         },
         {
           "number": "18",
-          "label": "Decisioni emerse oggi"
+          "label": "Fughe rilevate oggi"
         },
         {
           "number": "12",
@@ -4102,7 +4102,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Dal segnale all'azione"
+          "label": "Dalla fuga alla correzione assegnata"
         }
       ],
       "problem": {
@@ -4137,9 +4137,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LIVELLI · UN'UNICA VERITÀ",
-        "heading": "Sei livelli. Un'unica verità.",
-        "description": "Dal turno in corso al piano a lungo termine - un unico stack, sei livelli che comunicano tra loro.",
+        "eyebrow": "6 LIVELLI · UN CICLO",
+        "heading": "Sei livelli. Un ciclo.",
+        "description": "Dal turno in corso al piano a lungo termine - sei livelli che individuano la fuga, prendono in carico la correzione e misurano il recupero.",
         "countLabel": "di 6",
         "exploreModules": "Esplora tutti i moduli",
         "learnMore": "Scopri di più",
@@ -4355,7 +4355,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Il tasso di upsell di James K. è inferiore del 14% rispetto alla media del turno. Considera di affiancarlo a Sarah per i prossimi 2 tavoli."
       },
-      "closingTitle": "Smetti di basarti sui numeri di ieri.",
+      "closingTitle": "Smetti di lasciar sfuggire il margine che potresti recuperare.",
       "closingDescription": "30 minuti. I tuoi dati. Cosa cambierebbe realmente Sundae per il team.",
       "pages": {
         "signIn": {
@@ -4848,10 +4848,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Inteligencja Decyzyjna dla odzyskiwania zysku w zamkniętej pętli",
-      "titleTop": "Odzyskuj zysk każdego dnia,",
-      "titleBottom": "w każdym lokalu.",
-      "subheadline": "Znajdź przeciek, przypisz naprawę jednemu odpowiedzialnemu właścicielowi i zmierz odzysk względem punktu odniesienia - jedna audytowalna pętla, na każdej zmianie.",
+      "badge": "Zobacz na żywo",
+      "titleTop": "Zobacz pętlę w działaniu",
+      "titleBottom": "przez całą zmianę na żywo.",
+      "subheadline": "Realne tempo, Coach na żywo, jeden wieczór serwisu - pętla odzyskiwania działająca w Pulse.",
       "description": "Twoje dane sa rozproszone w kasie, dostawach, rezerwacjach, kadrach, magazynie i finansach.",
       "descriptionEmphasis": "Sundae laczy je w jedna zywa warstwe operacyjna.",
       "narrativeAnchor": "Od opóźnień w raportowaniu do szybkości operacji.",
@@ -4861,11 +4861,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Warstwy inteligencji, jedna prawda"
+          "label": "Warstwy, jedna pętla odzyskiwania"
         },
         {
           "number": "18",
-          "label": "Decyzje ujawnione dziś"
+          "label": "Wykryte dziś wycieki"
         },
         {
           "number": "12",
@@ -4873,7 +4873,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Od sygnału do działania"
+          "label": "Od wycieku do przypisanej poprawki"
         }
       ],
       "problem": {
@@ -4908,9 +4908,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 WARSTW · JEDNA PRAWDA",
-        "heading": "Sześć warstw. Jedna prawda.",
-        "description": "Od bieżącej zmiany do długoterminowego planu - jeden stos, sześć warstw, które ze sobą rozmawiają.",
+        "eyebrow": "6 WARSTW · JEDNA PĘTLA",
+        "heading": "Sześć warstw. Jedna pętla.",
+        "description": "Od bieżącej zmiany do długoterminowego planu - sześć warstw, które znajdują wyciek, przejmują poprawkę i mierzą odzysk.",
         "countLabel": "z 6",
         "exploreModules": "Zbadaj wszystkie moduły",
         "learnMore": "Dowiedz się więcej",
@@ -5126,7 +5126,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Wskaźnik upsell Jamesa K. jest o 14% poniżej średniej zmiany. Rozważ połączenie z Sarah przy następnych 2 stolikach."
       },
-      "closingTitle": "Nie opieraj się na wczorajszych danych.",
+      "closingTitle": "Przestań tracić przez wycieki marżę, którą możesz odzyskać.",
       "closingDescription": "30 minut. Twoje dane. Co Sundae naprawdę zmieniłoby dla zespołu.",
       "pages": {
         "signIn": {
@@ -5619,10 +5619,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Kapalı döngü kâr kurtarma için Karar Zekası",
-      "titleTop": "Her gün kârı geri kazanın,",
-      "titleBottom": "her şubede.",
-      "subheadline": "Sızıntıyı bulun, düzeltmeyi tek bir sorumlu kişiye atayın ve kurtarmayı bir temel çizgiye göre ölçün - her vardiyada tek ve denetlenebilir bir döngü.",
+      "badge": "Canlı izleyin",
+      "titleTop": "Döngüyü çalışırken izleyin",
+      "titleBottom": "tam bir canlı vardiya boyunca.",
+      "subheadline": "Gerçek tempo, canlı bir Coach, tek bir servis akşamı - Pulse üzerinde çalışan kurtarma döngüsü.",
       "description": "Verileriniz POS, teslimat, rezervasyon, personel, stok ve finansa dagilmis durumda.",
       "descriptionEmphasis": "Sundae hepsini tek bir canli operasyon katmaninda toplar.",
       "narrativeAnchor": "Raporlama gecikmesinden operasyon hızına.",
@@ -5632,11 +5632,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Zeka katmanları, tek gerçek"
+          "label": "Katmanlar, tek geri kazanım döngüsü"
         },
         {
           "number": "18",
-          "label": "Bugün öne çıkan kararlar"
+          "label": "Bugün yakalanan sızıntılar"
         },
         {
           "number": "12",
@@ -5644,7 +5644,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 dk",
-          "label": "Sinyalden aksiyona"
+          "label": "Sızıntıdan sorumlusu atanmış düzeltmeye"
         }
       ],
       "problem": {
@@ -5679,9 +5679,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 KATMAN · BİR GERÇEK",
-        "heading": "Altı katman. Bir gerçek.",
-        "description": "Canlı vardiyadan uzun vadeli plana - tek bir yığın, birbirleriyle iletişim kuran altı katman.",
+        "eyebrow": "6 KATMAN · TEK DÖNGÜ",
+        "heading": "Altı katman. Tek döngü.",
+        "description": "Canlı vardiyadan uzun vadeli plana - sızıntıyı bulan, düzeltmeyi üstlenen ve geri kazanımı ölçen altı katman.",
         "countLabel": "6'nın içinde",
         "exploreModules": "Tüm modülleri keşfedin",
         "learnMore": "Daha fazla bilgi edinin",
@@ -5897,7 +5897,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K.'nın upsell oranı vardiya ortalamasının %14 altında. Sonraki 2 masa için Sarah ile eşleştirmeyi düşün."
       },
-      "closingTitle": "Dünün rakamlarıyla devam etmeyi bırakın.",
+      "closingTitle": "Geri kazanabileceğiniz marjı sızdırmayı bırakın.",
       "closingDescription": "30 dakika. Verileriniz. Sundae'nin ekip için gerçekten değiştireceği şey.",
       "pages": {
         "signIn": {
@@ -6390,10 +6390,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "面向闭环利润回收的决策智能",
-      "titleTop": "每天挽回利润，",
-      "titleBottom": "覆盖每一家门店。",
-      "subheadline": "找到漏损，把整改指派给唯一的责任人，并对照基线衡量回收成效--每个班次，一条可审计的闭环。",
+      "badge": "实时观看",
+      "titleTop": "看闭环跑完",
+      "titleBottom": "一整个现场班次。",
+      "subheadline": "真实的节奏、一位实时 Coach、一个营业夜晚--回收闭环正在 Pulse 上运行。",
       "description": "你的数据分散在 POS、外卖、订位、人力、库存和财务之间。",
       "descriptionEmphasis": "Sundae 将它们汇入一个实时运营层。",
       "narrativeAnchor": "从报告滞后到运营提速。",
@@ -6403,11 +6403,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "智能层，同一真相"
+          "label": "层，一个回收闭环"
         },
         {
           "number": "18",
-          "label": "今日浮现的决策"
+          "label": "今日捕获的泄漏"
         },
         {
           "number": "12",
@@ -6415,7 +6415,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5分钟",
-          "label": "从信号到行动"
+          "label": "从泄漏到指派修复"
         }
       ],
       "problem": {
@@ -6450,9 +6450,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 层 · 一个真相",
-        "heading": "六层。一个真相。",
-        "description": "从实时班次到长期计划 - 一套系统，六层相互沟通。",
+        "eyebrow": "6 层 · 一个闭环",
+        "heading": "六层。一个闭环。",
+        "description": "从实时班次到长期计划 - 六层协同找出泄漏、认领修复并衡量回收。",
         "countLabel": "共 6",
         "exploreModules": "探索所有模块",
         "learnMore": "了解更多",
@@ -6668,7 +6668,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K. 的追加销售率比班次平均低14%。考虑与Sarah搭配处理接下来的2张桌子。"
       },
-      "closingTitle": "不要再依赖昨天的数据。",
+      "closingTitle": "别再让本可挽回的利润白白流失。",
       "closingDescription": "30分钟。您的数据。Sundae 实际上会为团队带来什么变化。",
       "pages": {
         "signIn": {
@@ -7161,10 +7161,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "クローズドループの利益回収のための意思決定インテリジェンス",
-      "titleTop": "毎日、利益を取り戻す、",
-      "titleBottom": "すべての店舗で。",
-      "subheadline": "漏れを見つけ、対策を一人の責任者に割り当て、回収をベースラインと照らして測定する--監査可能な一つのループを、すべてのシフトで。",
+      "badge": "ライブで見る",
+      "titleTop": "ループが回るのを見る、",
+      "titleBottom": "ライブのワンシフトまるごと。",
+      "subheadline": "本物のペース、ライブの Coach、たった一夜の営業--回収ループが Pulse 上で回り続ける。",
       "description": "あなたのデータは POS、デリバリー、予約、人員、在庫、会計に散らばっています。",
       "descriptionEmphasis": "Sundae がそれらを一つのライブ運用レイヤーにまとめます。",
       "narrativeAnchor": "報告の遅延から運営のスピードへ。",
@@ -7174,11 +7174,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "インテリジェンス層、一つの真実"
+          "label": "層、ひとつの回収ループ"
         },
         {
           "number": "18",
-          "label": "今日見えた意思決定"
+          "label": "本日検知した漏れ"
         },
         {
           "number": "12",
@@ -7186,7 +7186,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5分",
-          "label": "シグナルから行動へ"
+          "label": "漏れから担当者付きの修正へ"
         }
       ],
       "problem": {
@@ -7221,9 +7221,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6層 · 1つの真実",
-        "heading": "6つの層。1つの真実。",
-        "description": "ライブシフトから長期計画まで - 1つのスタック、互いに連携する6つの層。",
+        "eyebrow": "6層 · 1つのループ",
+        "heading": "6つの層。1つのループ。",
+        "description": "ライブシフトから長期計画まで - 漏れを見つけ、修正を引き受け、回収を測る6つの層。",
         "countLabel": "の6",
         "exploreModules": "すべてのモジュールを探る",
         "learnMore": "詳しく学ぶ",
@@ -7439,7 +7439,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "ジェームス K. のアップセル率はシフト平均を14%下回っています。次の2テーブルのためにサラとペアを組むことを検討してください。"
       },
-      "closingTitle": "昨日の数字に頼るのはやめましょう。",
+      "closingTitle": "取り戻せるはずの利益を漏らし続けるのはやめましょう。",
       "closingDescription": "30分。あなたのデータ。Sundaeがチームのために実際に変えること。",
       "pages": {
         "signIn": {
@@ -7932,10 +7932,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "폐쇄 루프 이익 회수를 위한 결정 지능",
-      "titleTop": "매일 이익을 회수하세요,",
-      "titleBottom": "모든 매장에서.",
-      "subheadline": "누수를 찾아내고, 해결을 한 명의 책임자에게 배정하고, 회수 성과를 기준선과 대조해 측정하세요 - 모든 교대 근무마다 감사 가능한 하나의 루프.",
+      "badge": "실시간으로 보기",
+      "titleTop": "루프가 도는 모습을 지켜보세요,",
+      "titleBottom": "라이브 한 교대 내내.",
+      "subheadline": "실제 페이스, 라이브 Coach, 단 하루의 영업 - Pulse에서 도는 회수 루프.",
       "description": "데이터가 POS, 배달, 예약, 인력, 재고, 재무에 흩어져 있습니다.",
       "descriptionEmphasis": "Sundae가 이를 하나의 실시간 운영 레이어로 모읍니다.",
       "narrativeAnchor": "보고 지연에서 운영 속도로.",
@@ -7945,11 +7945,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "인텔리전스 레이어, 하나의 진실"
+          "label": "레이어, 하나의 회수 루프"
         },
         {
           "number": "18",
-          "label": "오늘 드러난 의사결정"
+          "label": "오늘 포착한 누수"
         },
         {
           "number": "12",
@@ -7957,7 +7957,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5분",
-          "label": "신호에서 실행까지"
+          "label": "누수에서 담당자가 지정된 해결까지"
         }
       ],
       "problem": {
@@ -7992,9 +7992,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 레이어 · 하나의 진실",
-        "heading": "여섯 개의 레이어. 하나의 진실.",
-        "description": "실시간 근무부터 장기 계획까지 - 하나의 스택, 서로 소통하는 여섯 개의 레이어.",
+        "eyebrow": "6 레이어 · 하나의 루프",
+        "heading": "여섯 개의 레이어. 하나의 루프.",
+        "description": "실시간 근무부터 장기 계획까지 - 누수를 찾고, 해결을 맡고, 회수를 측정하는 여섯 개의 레이어.",
         "countLabel": "중 6",
         "exploreModules": "모든 모듈 탐색하기",
         "learnMore": "자세히 알아보기",
@@ -8210,7 +8210,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K.의 업셀 비율이 교대 평균보다 14% 낮습니다. 다음 2개의 테이블을 위해 Sarah와 함께하는 것을 고려하세요."
       },
-      "closingTitle": "어제의 숫자에 의존하지 마세요.",
+      "closingTitle": "되찾을 수 있는 마진을 흘려보내지 마세요.",
       "closingDescription": "30분. 당신의 데이터. Sundae가 팀을 위해 실제로 변경할 사항.",
       "pages": {
         "signIn": {
@@ -8703,10 +8703,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Intelijen Keputusan untuk pemulihan laba lingkar tertutup",
-      "titleTop": "Pulihkan laba setiap hari,",
-      "titleBottom": "di setiap outlet.",
-      "subheadline": "Temukan kebocoran, tugaskan perbaikan kepada satu penanggung jawab, dan ukur pemulihan terhadap garis dasar - satu lingkar yang dapat diaudit, setiap shift.",
+      "badge": "Lihat langsung",
+      "titleTop": "Lihat lingkar berjalan",
+      "titleBottom": "sepanjang satu shift langsung.",
+      "subheadline": "Tempo nyata, Coach langsung, satu malam layanan - lingkar pemulihan yang berjalan di Pulse.",
       "description": "Data Anda tersebar di POS, pengiriman, reservasi, tenaga kerja, stok, dan keuangan.",
       "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasional langsung.",
       "narrativeAnchor": "Dari keterlambatan pelaporan ke kecepatan operasional.",
@@ -8716,11 +8716,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Lapisan inteligensi, satu kebenaran"
+          "label": "Lapis, satu siklus pemulihan"
         },
         {
           "number": "18",
-          "label": "Keputusan yang muncul hari ini"
+          "label": "Kebocoran yang terdeteksi hari ini"
         },
         {
           "number": "12",
@@ -8728,7 +8728,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 menit",
-          "label": "Dari sinyal ke aksi"
+          "label": "Dari kebocoran ke perbaikan bertanggung jawab"
         }
       ],
       "problem": {
@@ -8763,9 +8763,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAPIS · SATU KEBENARAN",
-        "heading": "Enam lapis. Satu kebenaran.",
-        "description": "Dari shift langsung hingga rencana jangka panjang - satu tumpukan, enam lapis yang saling terhubung.",
+        "eyebrow": "6 LAPIS · SATU SIKLUS",
+        "heading": "Enam lapis. Satu siklus.",
+        "description": "Dari shift langsung hingga rencana jangka panjang - enam lapis yang menemukan kebocoran, menangani perbaikan, dan mengukur pemulihan.",
         "countLabel": "dari 6",
         "exploreModules": "Jelajahi semua modul",
         "learnMore": "Pelajari lebih lanjut",
@@ -8981,7 +8981,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Tingkat upsell James K. adalah 14% di bawah rata-rata shift. Pertimbangkan untuk berpasangan dengan Sarah untuk 2 meja berikutnya."
       },
-      "closingTitle": "Hentikan penggunaan angka dari kemarin.",
+      "closingTitle": "Berhenti membiarkan margin yang bisa Anda pulihkan bocor.",
       "closingDescription": "30 menit. Data Anda. Apa yang sebenarnya akan diubah Sundae untuk tim.",
       "pages": {
         "signIn": {
@@ -9474,10 +9474,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Trí tuệ Quyết định cho thu hồi lợi nhuận theo vòng khép kín",
-      "titleTop": "Thu hồi lợi nhuận mỗi ngày,",
-      "titleBottom": "trên mọi chi nhánh.",
-      "subheadline": "Tìm ra chỗ thất thoát, giao việc khắc phục cho một người chịu trách nhiệm duy nhất, và đo mức thu hồi so với đường cơ sở - một vòng lặp có thể kiểm toán, ở mỗi ca làm việc.",
+      "badge": "Xem trực tiếp",
+      "titleTop": "Xem vòng lặp vận hành",
+      "titleBottom": "suốt một ca trực tiếp.",
+      "subheadline": "Nhịp độ thực, một Coach trực tiếp, một đêm phục vụ - vòng lặp thu hồi đang chạy trên Pulse.",
       "description": "Du lieu cua ban nam rai rac qua POS, giao hang, dat ban, nhan su, kho va tai chinh.",
       "descriptionEmphasis": "Sundae gop tat ca vao mot lop van hanh truc tiep duy nhat.",
       "narrativeAnchor": "Từ độ trễ báo cáo đến tốc độ vận hành.",
@@ -9487,11 +9487,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Lớp trí tuệ, một sự thật"
+          "label": "Lớp, một vòng lặp phục hồi"
         },
         {
           "number": "18",
-          "label": "Quyết định hiện ra hôm nay"
+          "label": "Rò rỉ phát hiện hôm nay"
         },
         {
           "number": "12",
@@ -9499,7 +9499,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 phút",
-          "label": "Từ tín hiệu đến hành động"
+          "label": "Từ rò rỉ đến bản sửa có người phụ trách"
         }
       ],
       "problem": {
@@ -9534,9 +9534,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LỚP · MỘT SỰ THẬT",
-        "heading": "Sáu lớp. Một sự thật.",
-        "description": "Từ ca làm việc trực tiếp đến kế hoạch dài hạn - một hệ thống, sáu lớp tương tác với nhau.",
+        "eyebrow": "6 LỚP · MỘT VÒNG LẶP",
+        "heading": "Sáu lớp. Một vòng lặp.",
+        "description": "Từ ca làm việc trực tiếp đến kế hoạch dài hạn - sáu lớp tìm ra rò rỉ, đảm nhận bản sửa và đo lường mức phục hồi.",
         "countLabel": "trong số 6",
         "exploreModules": "Khám phá tất cả các mô-đun",
         "learnMore": "Tìm hiểu thêm",
@@ -9752,7 +9752,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Tỷ lệ upsell của James K. thấp hơn 14% so với trung bình ca. Cân nhắc kết hợp với Sarah cho 2 bàn tiếp theo."
       },
-      "closingTitle": "Đừng dựa vào số liệu của ngày hôm qua.",
+      "closingTitle": "Đừng để rò rỉ biên lợi nhuận mà bạn có thể thu hồi.",
       "closingDescription": "30 phút. Dữ liệu của bạn. Những gì Sundae thực sự sẽ thay đổi cho đội.",
       "pages": {
         "signIn": {
@@ -10245,10 +10245,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Inteligența Decizională pentru recuperarea profitului în buclă închisă",
-      "titleTop": "Recuperează profit în fiecare zi,",
-      "titleBottom": "în fiecare locație.",
-      "subheadline": "Găsește scurgerea, atribuie remedierea unui singur responsabil și măsoară recuperarea față de o valoare de referință - o singură buclă auditabilă, în fiecare tură.",
+      "badge": "Vezi în direct",
+      "titleTop": "Urmărește bucla rulând",
+      "titleBottom": "pe parcursul unei ture live.",
+      "subheadline": "Ritm real, un Coach live, o singură seară de serviciu - bucla de recuperare rulând pe Pulse.",
       "description": "Datele tale sunt imprastiate prin POS, livrari, rezervari, personal, stocuri si finante.",
       "descriptionEmphasis": "Sundae le aduce intr-un singur strat operational live.",
       "narrativeAnchor": "De la întârzierea raportării la viteza operațiunilor.",
@@ -10258,11 +10258,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Straturi de inteligență, un singur adevăr"
+          "label": "Straturi, o buclă de recuperare"
         },
         {
           "number": "18",
-          "label": "Decizii apărute azi"
+          "label": "Scurgeri depistate azi"
         },
         {
           "number": "12",
@@ -10270,7 +10270,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "De la semnal la acțiune"
+          "label": "De la scurgere la remedierea atribuită"
         }
       ],
       "problem": {
@@ -10305,9 +10305,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 STRATURI · UN SINGUR ADEVĂR",
-        "heading": "Șase straturi. Un singur adevăr.",
-        "description": "De la schimbul live la planul pe termen lung - o stivă, șase straturi care comunică între ele.",
+        "eyebrow": "6 STRATURI · O BUCLĂ",
+        "heading": "Șase straturi. O buclă.",
+        "description": "De la schimbul live la planul pe termen lung - șase straturi care găsesc scurgerea, preiau remedierea și măsoară recuperarea.",
         "countLabel": "din 6",
         "exploreModules": "Explorează toate modulele",
         "learnMore": "Află mai multe",
@@ -10523,7 +10523,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Rata de upsell a lui James K. este cu 14% sub media schimbului. Ia în considerare să colaborezi cu Sarah pentru următoarele 2 mese."
       },
-      "closingTitle": "Nu mai alergați după cifrele de ieri.",
+      "closingTitle": "Nu mai lăsa să se scurgă marja pe care ai putea-o recupera.",
       "closingDescription": "30 de minute. Datele tale. Ce ar schimba de fapt Sundae pentru echipă.",
       "pages": {
         "signIn": {
@@ -11016,10 +11016,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Beslutsintelligens för lönsamhetsåtervinning i sluten loop",
-      "titleTop": "Återvinn vinst varje dag,",
-      "titleBottom": "på varje enhet.",
-      "subheadline": "Hitta läckan, tilldela åtgärden till en enda ansvarig ägare och mät återvinningen mot en baslinje - en granskningsbar loop, varje pass.",
+      "badge": "Se det live",
+      "titleTop": "Se loopen köra",
+      "titleBottom": "under ett helt live-pass.",
+      "subheadline": "Verkligt tempo, en live-Coach, en enda servicekväll - återvinningsloopen som körs på Pulse.",
       "description": "Dina data ligger spridda over kassa, leverans, bokningar, personal, lager och ekonomi.",
       "descriptionEmphasis": "Sundae samlar allt i ett levande driftlager.",
       "narrativeAnchor": "Från rapporteringsfördröjning till operativ hastighet.",
@@ -11029,11 +11029,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligenslager, en sanning"
+          "label": "Lager, en återvinningsloop"
         },
         {
           "number": "18",
-          "label": "Beslut som synliggjorts idag"
+          "label": "Läckor upptäckta idag"
         },
         {
           "number": "12",
@@ -11041,7 +11041,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Från signal till handling"
+          "label": "Från läcka till åtgärd med ansvarig"
         }
       ],
       "problem": {
@@ -11076,9 +11076,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAGER · EN SANNING",
-        "heading": "Sex lager. En sanning.",
-        "description": "Från det aktuella skiftet till den långsiktiga planen - en stack, sex lager som kommunicerar med varandra.",
+        "eyebrow": "6 LAGER · EN LOOP",
+        "heading": "Sex lager. En loop.",
+        "description": "Från det aktuella skiftet till den långsiktiga planen - sex lager som hittar läckan, tar hand om åtgärden och mäter återvinningen.",
         "countLabel": "av 6",
         "exploreModules": "Utforska alla moduler",
         "learnMore": "Läs mer",
@@ -11294,7 +11294,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K:s uppförsäljningsgrad är 14% under skiftets genomsnitt. Överväg att para ihop honom med Sarah för de nästa 2 borden."
       },
-      "closingTitle": "Sluta basera er på gårdagens siffror.",
+      "closingTitle": "Sluta läcka marginal som du skulle kunna återvinna.",
       "closingDescription": "30 minuter. Dina data. Vad Sundae faktiskt skulle förändra för teamet.",
       "pages": {
         "signIn": {
@@ -11787,10 +11787,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "ক্লোজড-লুপ মুনাফা পুনরুদ্ধারের জন্য সিদ্ধান্ত বুদ্ধিমত্তা",
-      "titleTop": "প্রতিদিন মুনাফা পুনরুদ্ধার করুন,",
-      "titleBottom": "প্রতিটি আউটলেটে।",
-      "subheadline": "কোথায় ক্ষরণ হচ্ছে তা খুঁজে বের করুন, সমাধানের দায়িত্ব একজন জবাবদিহিমূলক ব্যক্তিকে দিন, এবং একটি বেসলাইনের বিপরীতে পুনরুদ্ধার পরিমাপ করুন - প্রতিটি শিফটে একটি নিরীক্ষাযোগ্য লুপ।",
+      "badge": "সরাসরি দেখুন",
+      "titleTop": "লুপটিকে চলতে দেখুন",
+      "titleBottom": "পুরো একটি লাইভ শিফট জুড়ে।",
+      "subheadline": "সত্যিকারের গতি, একজন লাইভ Coach, একটিই সার্ভিস সন্ধ্যা - Pulse-এ চলমান পুনরুদ্ধার লুপ।",
       "description": "Apnar data POS, delivery, booking, kormi, inventory ar finance e chhoriye achhe.",
       "descriptionEmphasis": "Sundae sob ekti live operating layer e niye ase.",
       "narrativeAnchor": "রিপোর্টিং বিলম্ব থেকে অপারেশন গতি।",
@@ -11800,11 +11800,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "ইন্টেলিজেন্স লেয়ার, এক সত্য"
+          "label": "স্তর, একটি পুনরুদ্ধার চক্র"
         },
         {
           "number": "18",
-          "label": "আজ উঠে আসা সিদ্ধান্ত"
+          "label": "আজ ধরা পড়া লিক"
         },
         {
           "number": "12",
@@ -11812,7 +11812,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 মিনিট",
-          "label": "সংকেত থেকে পদক্ষেপে"
+          "label": "লিক থেকে দায়িত্বপ্রাপ্ত সমাধানে"
         }
       ],
       "problem": {
@@ -11847,9 +11847,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "৬ স্তর · একটি সত্য",
-        "heading": "ছয় স্তর। একটি সত্য।",
-        "description": "লাইভ শিফট থেকে দীর্ঘমেয়াদী পরিকল্পনা - একটি স্ট্যাক, ছয়টি স্তর যা একে অপরের সাথে কথা বলে।",
+        "eyebrow": "৬ স্তর · একটি চক্র",
+        "heading": "ছয় স্তর। একটি চক্র।",
+        "description": "লাইভ শিফট থেকে দীর্ঘমেয়াদী পরিকল্পনা - ছয়টি স্তর যা লিক খুঁজে বের করে, সমাধান হাতে নেয় এবং পুনরুদ্ধার মাপে।",
         "countLabel": "৬ এর মধ্যে",
         "exploreModules": "সমস্ত মডিউল অন্বেষণ করুন",
         "learnMore": "আরও জানুন",
@@ -12065,7 +12065,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "জেমস কে. এর আপসেল হার শিফট গড়ের ১৪% নিচে। পরবর্তী ২ টেবিলের জন্য সারা এর সাথে জুড়তে বিবেচনা করুন।"
       },
-      "closingTitle": "গতকালের সংখ্যার উপর চলা বন্ধ করুন।",
+      "closingTitle": "যে মার্জিন আপনি ফিরে পেতে পারেন, তা লিক হওয়া বন্ধ করুন।",
       "closingDescription": "৩০ মিনিট। আপনার ডেটা। Sundae আসলে দলের জন্য কী পরিবর্তন আনবে।",
       "pages": {
         "signIn": {
@@ -12558,10 +12558,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "ปัญญาการตัดสินใจเพื่อการกู้คืนกำไรแบบวงจรปิด",
-      "titleTop": "กู้คืนกำไรทุกวัน",
-      "titleBottom": "ในทุกสาขา",
-      "subheadline": "ค้นหาจุดรั่วไหล มอบหมายการแก้ไขให้ผู้รับผิดชอบเพียงคนเดียว และวัดผลการกู้คืนเทียบกับเส้นฐาน - หนึ่งวงจรที่ตรวจสอบได้ ในทุกกะการทำงาน",
+      "badge": "ดูแบบสด",
+      "titleTop": "ดูวงจรทำงาน",
+      "titleBottom": "ตลอดกะสดหนึ่งกะ",
+      "subheadline": "จังหวะจริง Coach แบบสด หนึ่งค่ำคืนของการให้บริการ - วงจรการกู้คืนที่กำลังทำงานบน Pulse",
       "description": "khomun khong khun krachai yu thua POS dilivoeri kanchong tee thiti ngan singkhong khong khlang lae kanngoen.",
       "descriptionEmphasis": "Sundae ruam thanghmod wai nai chan kan tham ngan baep sod chan diao.",
       "narrativeAnchor": "จากความล่าช้าในการรายงานสู่ความเร็วในการดำเนินงาน.",
@@ -12571,11 +12571,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "ชั้นอัจฉริยะ ความจริงเดียว"
+          "label": "ชั้น หนึ่งวงจรกู้คืน"
         },
         {
           "number": "18",
-          "label": "การตัดสินใจที่ปรากฏวันนี้"
+          "label": "การรั่วไหลที่พบวันนี้"
         },
         {
           "number": "12",
@@ -12583,7 +12583,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 นาที",
-          "label": "จากสัญญาณสู่การลงมือ"
+          "label": "จากการรั่วไหลสู่การแก้ไขที่มีผู้รับผิดชอบ"
         }
       ],
       "problem": {
@@ -12618,9 +12618,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 ชั้น · ความจริงเดียว",
-        "heading": "หกชั้น ความจริงเดียว",
-        "description": "จากกะที่กำลังดำเนินอยู่ไปจนถึงแผนระยะยาว - หนึ่งชุด หกชั้นที่สื่อสารกัน",
+        "eyebrow": "6 ชั้น · หนึ่งวงจร",
+        "heading": "หกชั้น หนึ่งวงจร",
+        "description": "จากกะที่กำลังดำเนินอยู่ไปจนถึงแผนระยะยาว - หกชั้นที่ค้นหาการรั่วไหล รับผิดชอบการแก้ไข และวัดผลการกู้คืน",
         "countLabel": "จาก 6",
         "exploreModules": "สำรวจโมดูลทั้งหมด",
         "learnMore": "เรียนรู้เพิ่มเติม",
@@ -12836,7 +12836,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "อัตราการขายเพิ่มของ James K. ต่ำกว่าค่าเฉลี่ยของกะ 14%. พิจารณาจับคู่กับ Sarah สำหรับ 2 โต๊ะถัดไป."
       },
-      "closingTitle": "หยุดวิ่งตามตัวเลขเมื่อวานนี้.",
+      "closingTitle": "หยุดปล่อยให้มาร์จินที่คุณกู้คืนได้รั่วไหลไป.",
       "closingDescription": "30 นาที ข้อมูลของคุณ สิ่งที่ Sundae จะเปลี่ยนแปลงสำหรับทีมจริงๆ",
       "pages": {
         "signIn": {
@@ -13329,10 +13329,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Kecerdasan Keputusan untuk pemulihan untung gelung tertutup",
-      "titleTop": "Pulihkan untung setiap hari,",
-      "titleBottom": "di setiap outlet.",
-      "subheadline": "Cari kebocoran, tugaskan pembetulan kepada satu pemilik yang bertanggungjawab, dan ukur pemulihan berbanding garis dasar - satu gelung boleh diaudit, setiap syif.",
+      "badge": "Lihat secara langsung",
+      "titleTop": "Lihat gelung berjalan",
+      "titleBottom": "sepanjang satu syif langsung.",
+      "subheadline": "Tempo sebenar, seorang Coach langsung, satu malam perkhidmatan - gelung pemulihan yang berjalan pada Pulse.",
       "description": "Data anda bertaburan merentasi POS, penghantaran, tempahan, pekerja, stok dan kewangan.",
       "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasi langsung.",
       "narrativeAnchor": "Dari kelewatan laporan kepada kelajuan operasi.",
@@ -13342,11 +13342,11 @@ export const generatedWebsiteMessageOverrides = {
       "proofStats": [
         {
           "number": "6",
-          "label": "Lapisan kecerdasan, satu kebenaran"
+          "label": "Lapisan, satu gelung pemulihan"
         },
         {
           "number": "18",
-          "label": "Keputusan yang muncul hari ini"
+          "label": "Kebocoran dikesan hari ini"
         },
         {
           "number": "12",
@@ -13354,7 +13354,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Daripada isyarat ke tindakan"
+          "label": "Daripada kebocoran ke pembetulan berpenanggungjawab"
         }
       ],
       "problem": {
@@ -13389,9 +13389,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAPIS · SATU KEBENARAN",
-        "heading": "Enam lapisan. Satu kebenaran.",
-        "description": "Dari shift langsung ke pelan jangka panjang - satu tumpukan, enam lapisan yang berkomunikasi antara satu sama lain.",
+        "eyebrow": "6 LAPIS · SATU GELUNG",
+        "heading": "Enam lapisan. Satu gelung.",
+        "description": "Dari shift langsung ke pelan jangka panjang - enam lapisan yang mengesan kebocoran, mengambil alih pembetulan dan mengukur pemulihan.",
         "countLabel": "daripada 6",
         "exploreModules": "Terokai semua modul",
         "learnMore": "Ketahui lebih lanjut",
@@ -13607,7 +13607,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Kadar upsell James K. adalah 14% di bawah purata shift. Pertimbangkan untuk berganding dengan Sarah untuk 2 meja seterusnya."
       },
-      "closingTitle": "Hentikan bergantung pada angka semalam.",
+      "closingTitle": "Berhenti membiarkan margin yang boleh anda pulihkan bocor.",
       "closingDescription": "30 minit. Data anda. Apa yang Sundae sebenarnya akan ubah untuk pasukan.",
       "pages": {
         "signIn": {

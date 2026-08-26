@@ -21,7 +21,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "WAS WIR VON BETREIBERN HÖREN",
-      "industryHeadline": "Die Daten sind vorhanden. Die Entscheidung trifft dennoch zu spät ein.",
+      "industryHeadline": "Die Daten sind vorhanden. Die Rückgewinnung findet nie statt.",
       "industryDisclaimer": "Muster, die wir von Betreibern hören und in den Reporting-Workflows der Gastronomie sehen. Anonymisiert und verallgemeinert.",
       "industryTodayLabel": "Branche heute",
       "withSundaeLabel": "Mit Sundae",
@@ -36,7 +36,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Die Abweichung der Marge wird oft erst am Monatsende erklärt, nachdem die Kosten bereits verbucht sind.",
-          "sundae": "Insights verbindet Umsatz, Arbeitskosten, Lebensmittelkosten, Rabatte und Preisgestaltung, damit Teams die Ursache sehen können, während sie noch handlungsfähig ist."
+          "sundae": "Insights verbindet Umsatz, Arbeitskosten, Lebensmittelkosten, Rabatte und Preisgestaltung, damit Teams die Marge zurückgewinnen und sie nachmessen können."
         }
       ],
       "footnote": "Brancheneinsichten sind allgemeine Muster der Gastronomiebranche aus öffentlicher Forschung und Beratungsfeedback. Benannte Pilotergebnisse und validierte Kundenergebnisse ersetzen diesen Abschnitt, sobald sie verfügbar sind."
@@ -60,7 +60,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "CE QUE NOUS ENTENDONS DES OPÉRATEURS",
-      "industryHeadline": "Les données existent. La décision arrive toujours en retard.",
+      "industryHeadline": "Les données existent. La récupération n'a jamais lieu.",
       "industryDisclaimer": "Modèles que nous entendons des opérateurs et que nous voyons dans les flux de travail de reporting de la restauration. Anonymisés et généralisés.",
       "industryTodayLabel": "Industrie aujourd'hui",
       "withSundaeLabel": "Avec Sundae",
@@ -75,7 +75,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "L'écart de marge n'est souvent expliqué qu'en fin de mois, une fois les coûts déjà enregistrés.",
-          "sundae": "Insights relie chiffre d'affaires, main-d'œuvre, coût matière, remises et prix pour que les équipes voient la cause tant qu'on peut encore agir."
+          "sundae": "Insights relie chiffre d'affaires, main-d'œuvre, coût matière, remises et prix pour que les équipes récupèrent la marge et la mesurent."
         }
       ],
       "footnote": "Observations sectorielles : motifs généraux de la restauration tirés de recherche publique et de retours conseil. Des résultats pilotes nommés et des résultats clients validés remplaceront cette section dès qu'ils seront disponibles."
@@ -99,7 +99,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "LO QUE ESCUCHAMOS DE LOS OPERADORES",
-      "industryHeadline": "Los datos existen. La decisión aún llega tarde.",
+      "industryHeadline": "Los datos existen. La recuperación nunca ocurre.",
       "industryDisclaimer": "Patrones que escuchamos de los operadores y vemos en los flujos de trabajo de informes de hostelería. Anonimizados y generalizados.",
       "industryTodayLabel": "Industria hoy",
       "withSundaeLabel": "Con Sundae",
@@ -114,7 +114,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "La desviación de margen suele explicarse a final de mes, cuando los costes ya están registrados.",
-          "sundae": "Insights conecta ingresos, mano de obra, coste de alimentos, descuentos y precios para que los equipos vean la causa mientras todavía se puede actuar."
+          "sundae": "Insights conecta ingresos, mano de obra, coste de alimentos, descuentos y precios para que los equipos recuperen el margen y lo midan."
         }
       ],
       "footnote": "Observaciones de industria: patrones generales de la restauración basados en investigación pública y feedback de asesoría. Resultados de pilotos nombrados y resultados de clientes validados reemplazarán esta sección cuando estén disponibles."
@@ -138,7 +138,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "WAT WE VAN OPERATORS HOREN",
-      "industryHeadline": "De gegevens zijn beschikbaar. De beslissing komt nog steeds te laat.",
+      "industryHeadline": "De gegevens zijn beschikbaar. Het herstel gebeurt nooit.",
       "industryDisclaimer": "Patronen die we horen van operators en zien in horeca-rapportage-workflows. Geanonimiseerd en gegeneraliseerd.",
       "industryTodayLabel": "Industrie vandaag",
       "withSundaeLabel": "Met Sundae",
@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Margevariatie wordt vaak aan het einde van de maand verklaard, nadat de kosten al zijn geboekt.",
-          "sundae": "Insights verbindt omzet, arbeid, voedselkosten, kortingen en prijzen, zodat teams de oorzaak kunnen zien terwijl deze nog actiegericht is."
+          "sundae": "Insights verbindt omzet, arbeid, voedselkosten, kortingen en prijzen, zodat teams de marge terugwinnen en die kunnen nameten."
         }
       ],
       "footnote": "Brancheobservaties zijn algemene patronen uit de horecabranche, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten vervangen dit gedeelte zodra ze beschikbaar zijn."
@@ -177,7 +177,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "O QUE OUVIMOS DOS OPERADORES",
-      "industryHeadline": "Os dados existem. A decisão ainda chega tarde.",
+      "industryHeadline": "Os dados existem. A recuperação nunca acontece.",
       "industryDisclaimer": "Padrões que ouvimos de operadores e vemos em fluxos de trabalho de relatórios da restauração. Anonimizados e generalizados.",
       "industryTodayLabel": "Indústria hoje",
       "withSundaeLabel": "Com Sundae",
@@ -192,7 +192,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "A variação de margem geralmente é explicada no final do mês, após os custos já terem sido registrados.",
-          "sundae": "O Insights conecta receita, mão de obra, custo de alimentos, descontos e preços para que as equipes possam ver a causa enquanto ainda é acionável."
+          "sundae": "O Insights conecta receita, mão de obra, custo de alimentos, descontos e preços para que as equipes recuperem a margem e a meçam."
         }
       ],
       "footnote": "Observações do setor são padrões gerais da restauração, com base em pesquisas públicas e feedback consultivo. Resultados de pilotos nomeados e resultados validados de clientes substituirão esta seção assim que estiverem disponíveis."
@@ -216,7 +216,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "हम जो ऑपरेटरों से सुनते हैं",
-      "industryHeadline": "डेटा मौजूद है। निर्णय अभी भी देर से आता है।",
+      "industryHeadline": "डेटा मौजूद है। भरपाई कभी नहीं होती।",
       "industryDisclaimer": "ऑपरेटरों से हमें जो पैटर्न सुनाई देते हैं और फ़ूड-सर्विस रिपोर्टिंग वर्कफ़्लो में जो दिखाई देते हैं। अनाम और सामान्यीकृत।",
       "industryTodayLabel": "आज का उद्योग",
       "withSundaeLabel": "Sundae के साथ",
@@ -231,7 +231,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "मार्जिन भिन्नता अक्सर महीने के अंत में समझाई जाती है, जब लागत पहले से ही बुक की जा चुकी होती है।",
-          "sundae": "Insights राजस्व, श्रम, खाद्य लागत, छूट और मूल्य निर्धारण को जोड़ता है ताकि टीमें कारण देख सकें जब यह अभी भी कार्रवाई योग्य हो।"
+          "sundae": "Insights राजस्व, श्रम, खाद्य लागत, छूट और मूल्य निर्धारण को जोड़ता है ताकि टीमें मार्जिन की भरपाई कर सकें और उसे माप सकें।"
         }
       ],
       "footnote": "इंडस्ट्री अवलोकन सार्वजनिक शोध और सलाहकार फीडबैक से लिए गए फ़ूड-सर्विस इंडस्ट्री के सामान्य पैटर्न हैं। नामित पायलट नतीजे और सत्यापित ग्राहक परिणाम उपलब्ध होते ही इस सेक्शन की जगह लेंगे।"
@@ -255,7 +255,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "COSA SENTIAMO DAGLI OPERATORI",
-      "industryHeadline": "I dati esistono. La decisione arriva ancora in ritardo.",
+      "industryHeadline": "I dati esistono. Il recupero non avviene mai.",
       "industryDisclaimer": "Modelli che sentiamo dagli operatori e vediamo nei flussi di lavoro della reportistica della ristorazione. Anonimizzati e generalizzati.",
       "industryTodayLabel": "Settore oggi",
       "withSundaeLabel": "Con Sundae",
@@ -270,7 +270,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Lo scostamento di margine viene spesso spiegato a fine mese, quando i costi sono ormai registrati.",
-          "sundae": "Insights collega ricavi, lavoro, costo del cibo, sconti e prezzi così che i team vedano la causa mentre si può ancora agire."
+          "sundae": "Insights collega ricavi, lavoro, costo del cibo, sconti e prezzi così che i team recuperino il margine e lo misurino."
         }
       ],
       "footnote": "Le osservazioni di settore sono pattern generali della ristorazione tratti da ricerche pubbliche e feedback di consulenza. Risultati di pilot nominativi e risultati validati dei clienti sostituiranno questa sezione non appena disponibili."
@@ -294,7 +294,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "ماذا نسمع من المشغلين",
-      "industryHeadline": "البيانات موجودة. القرار لا يزال يصل متأخراً.",
+      "industryHeadline": "البيانات موجودة. الاسترداد لا يحدث أبداً.",
       "industryDisclaimer": "أنماط نسمعها من المشغلين ونراها عبر سير عمل تقارير خدمات الطعام. تم إخفاء الهوية وتعميمها.",
       "industryTodayLabel": "صناعة اليوم",
       "withSundaeLabel": "مع Sundae",
@@ -309,7 +309,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "غالبًا ما يتم تفسير تباين الهامش في نهاية الشهر، بعد أن يتم تسجيل التكاليف بالفعل.",
-          "sundae": "تربط Insights الإيرادات، والعمالة، وتكاليف الطعام، والخصومات، والأسعار حتى تتمكن الفرق من رؤية السبب بينما لا يزال قابلاً للتنفيذ."
+          "sundae": "تربط Insights الإيرادات، والعمالة، وتكاليف الطعام، والخصومات، والأسعار حتى تسترد الفرق الهامش وتقيس ما استُرِدّ."
         }
       ],
       "footnote": "ملاحظات الصناعة أنماط عامة لصناعة خدمات الطعام من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها."
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "ہمیں آپریٹرز سے کیا سننے کو ملتا ہے",
-      "industryHeadline": "ڈیٹا موجود ہے۔ فیصلہ اب بھی دیر سے آتا ہے۔",
+      "industryHeadline": "ڈیٹا موجود ہے۔ بحالی کبھی نہیں ہوتی۔",
       "industryDisclaimer": "آپریٹرز سے جو پیٹرن ہم سنتے ہیں اور فوڈ سروس کی رپورٹنگ کے ورک فلو میں دیکھتے ہیں۔ نامعلوم اور عمومی۔",
       "industryTodayLabel": "آج کی صنعت",
       "withSundaeLabel": "Sundae کے ساتھ",
@@ -348,7 +348,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "مارجن کی تبدیلی اکثر مہینے کے آخر میں وضاحت کی جاتی ہے، جب کہ اخراجات پہلے ہی بک ہو چکے ہوتے ہیں۔",
-          "sundae": "Insights آمدنی، مزدوری، خوراک کی قیمت، رعایتیں، اور قیمتوں کو جوڑتا ہے تاکہ ٹیمیں دیکھ سکیں کہ وجہ کیا ہے جب یہ ابھی بھی عمل درآمد کے قابل ہو۔"
+          "sundae": "Insights آمدنی، مزدوری، خوراک کی قیمت، رعایتیں، اور قیمتوں کو جوڑتا ہے تاکہ ٹیمیں مارجن بحال کر سکیں اور اُسے ماپ سکیں۔"
         }
       ],
       "footnote": "صنعتی مشاہدات عوامی تحقیق اور مشاورتی فیڈ بیک سے اخذ کردہ فوڈ سروس انڈسٹری کے عمومی نمونے ہیں۔ نامزد پائلٹ نتائج اور تصدیق شدہ کسٹمر نتائج دستیاب ہوتے ہی اس حصے کی جگہ لے لیں گے۔"
@@ -372,7 +372,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "OPERATÖRLERDEN DUYDUĞUMUZ",
-      "industryHeadline": "Veri mevcut. Karar hala geç geliyor.",
+      "industryHeadline": "Veri mevcut. Geri kazanım hiçbir zaman gerçekleşmiyor.",
       "industryDisclaimer": "Operatörlerden duyduğumuz ve yeme-içme sektörü raporlama iş akışlarında gördüğümüz kalıplar. Anonimleştirilmiş ve genelleştirilmiş.",
       "industryTodayLabel": "Bugünün Endüstrisi",
       "withSundaeLabel": "Sundae ile",
@@ -387,7 +387,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Marj sapması çoğu zaman ay sonunda, maliyetler çoktan kaydedildikten sonra açıklanır.",
-          "sundae": "Insights; geliri, iş gücünü, gıda maliyetini, indirimleri ve fiyatlandırmayı birbirine bağlar; böylece ekipler hâlâ aksiyon alınabilirken nedeni görebilir."
+          "sundae": "Insights; geliri, iş gücünü, gıda maliyetini, indirimleri ve fiyatlandırmayı birbirine bağlar; böylece ekipler marjı geri kazanır ve bunu ölçer."
         }
       ],
       "footnote": "Sektör gözlemleri, kamuya açık araştırmalar ve danışmanlık geri bildirimlerinden derlenen genel yeme-içme sektörü kalıplarıdır. İsimli pilot sonuçlar ve doğrulanmış müşteri sonuçları, kullanıma sunulduğunda bu bölümün yerini alacaktır."
@@ -411,7 +411,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "CO SŁYSZYMY OD OPERATORÓW",
-      "industryHeadline": "Dane istnieją. Decyzja nadal przychodzi za późno.",
+      "industryHeadline": "Dane istnieją. Odzysk nigdy nie następuje.",
       "industryDisclaimer": "Wzorce, które słyszymy od operatorów i widzimy w raportowaniu w gastronomii. Zanonimizowane i uogólnione.",
       "industryTodayLabel": "Branża dzisiaj",
       "withSundaeLabel": "Z Sundae",
@@ -426,7 +426,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Wariancja marży często jest wyjaśniana na koniec miesiąca, po tym jak koszty zostały już zaksięgowane.",
-          "sundae": "Insights łączy przychody, koszty pracy, koszty żywności, zniżki i ceny, aby zespoły mogły zobaczyć przyczynę, gdy jest jeszcze możliwa do działania."
+          "sundae": "Insights łączy przychody, koszty pracy, koszty żywności, zniżki i ceny, aby zespoły odzyskały marżę i ją zmierzyły."
         }
       ],
       "footnote": "Obserwacje branżowe to ogólne wzorce branży gastronomicznej oparte na publicznych badaniach i opiniach doradczych. Nazwane wyniki pilotaży i zweryfikowane wyniki klientów zastąpią tę sekcję, gdy będą dostępne."
@@ -450,7 +450,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "オペレーターからの声",
-      "industryHeadline": "データは存在しますが、決定は依然として遅れています。",
+      "industryHeadline": "データは存在しますが、回収は決して起こりません。",
       "industryDisclaimer": "オペレーターから聞くパターンと、飲食業の報告ワークフロー全体で見られるパターン。匿名化され、一般化されています。",
       "industryTodayLabel": "今日の業界",
       "withSundaeLabel": "Sundaeと共に",
@@ -465,7 +465,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "マージンの変動は、コストがすでに計上された後の月末に説明されることが多いです。",
-          "sundae": "Insightsは、収益、労働、食材コスト、割引、価格設定を接続し、チームがまだ行動可能なうちに原因を把握できるようにします。"
+          "sundae": "Insightsは、収益、労働、食材コスト、割引、価格設定を接続し、チームがマージンを取り戻し、それを測り直せるようにします。"
         }
       ],
       "footnote": "業界の観察は、公開調査とアドバイザリーからのフィードバックに基づく飲食業界の一般的な傾向です。指名されたパイロット結果と検証済みの顧客成果が、利用可能になり次第このセクションを置き換えます。"
@@ -489,7 +489,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "我们从运营商那里听到的",
-      "industryHeadline": "数据存在，但决策仍然迟到。",
+      "industryHeadline": "数据存在，但追回从未发生。",
       "industryDisclaimer": "我们从运营商那里听到的模式，以及在餐饮报告工作流程中看到的模式。经过匿名化和概括。",
       "industryTodayLabel": "今天的行业",
       "withSundaeLabel": "与Sundae一起",
@@ -504,7 +504,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "利润差异通常在月末解释，此时成本已经入账。",
-          "sundae": "Insights 连接收入、劳动力、食品成本、折扣和定价，以便团队在仍然可以采取行动时看到原因。"
+          "sundae": "Insights 连接收入、劳动力、食品成本、折扣和定价，让团队追回利润并核算回来。"
         }
       ],
       "footnote": "行业观察是基于公开研究与顾问反馈的餐饮行业通用模式。具名的试点结果与经验证的客户成果将在可用时取代本节内容。"
@@ -528,7 +528,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "APA YANG KAMI DENGAR DARI OPERATOR",
-      "industryHeadline": "Data ada. Keputusan masih datang terlambat.",
+      "industryHeadline": "Data ada. Pemulihan tidak pernah terjadi.",
       "industryDisclaimer": "Pola yang kami dengar dari operator dan lihat di seluruh alur kerja pelaporan layanan makanan. Dianonimkan dan digeneralisasi.",
       "industryTodayLabel": "Industri hari ini",
       "withSundaeLabel": "Dengan Sundae",
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Varians margin sering dijelaskan di akhir bulan, setelah biaya sudah dicatat.",
-          "sundae": "Insights menghubungkan pendapatan, tenaga kerja, biaya makanan, diskon, dan harga sehingga tim dapat melihat penyebabnya saat masih dapat ditindaklanjuti."
+          "sundae": "Insights menghubungkan pendapatan, tenaga kerja, biaya makanan, diskon, dan harga sehingga tim dapat memulihkan margin dan mengukurnya kembali."
         }
       ],
       "footnote": "Observasi industri adalah pola umum industri layanan makanan yang diambil dari riset publik dan masukan konsultatif. Hasil pilot bernama dan hasil pelanggan tervalidasi akan menggantikan bagian ini begitu tersedia."
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "운영자들이 전하는 이야기",
-      "industryHeadline": "데이터는 존재합니다. 결정은 여전히 늦게 도착합니다.",
+      "industryHeadline": "데이터는 존재합니다. 회복은 결코 일어나지 않습니다.",
       "industryDisclaimer": "운영자들로부터 듣고 외식업 보고서 워크플로우 전반에서 볼 수 있는 패턴. 익명화되고 일반화됨.",
       "industryTodayLabel": "오늘의 산업",
       "withSundaeLabel": "Sundae와 함께",
@@ -582,7 +582,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "마진 변동은 종종 월말에 설명되며, 비용이 이미 기록된 후입니다.",
-          "sundae": "Insights는 수익, 노동, 식품 비용, 할인 및 가격을 연결하여 팀이 여전히 조치 가능한 상태에서 원인을 볼 수 있도록 합니다."
+          "sundae": "Insights는 수익, 노동, 식품 비용, 할인 및 가격을 연결하여 팀이 마진을 되찾고 그것을 다시 측정할 수 있도록 합니다."
         }
       ],
       "footnote": "업계 관찰은 공개 조사와 자문 피드백에서 도출한 외식업계의 일반적 패턴입니다. 지명된 파일럿 결과와 검증된 고객 성과가 제공되는 즉시 이 섹션을 대체합니다."
@@ -606,7 +606,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "NHỮNG GÌ CHÚNG TÔI NGHE TỪ CÁC NHÀ VẬN HÀNH",
-      "industryHeadline": "Dữ liệu đã tồn tại. Quyết định vẫn đến muộn.",
+      "industryHeadline": "Dữ liệu đã tồn tại. Việc thu hồi không bao giờ xảy ra.",
       "industryDisclaimer": "Các mẫu mà chúng tôi nghe từ các nhà điều hành và thấy trong quy trình báo cáo dịch vụ ăn uống. Đã được ẩn danh và tổng quát hóa.",
       "industryTodayLabel": "Ngành công nghiệp hôm nay",
       "withSundaeLabel": "Với Sundae",
@@ -621,7 +621,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Biến động biên thường chỉ được giải thích vào cuối tháng, sau khi chi phí đã được ghi nhận.",
-          "sundae": "Insights kết nối doanh thu, lao động, chi phí thực phẩm, giảm giá và giá cả để các nhóm có thể thấy nguyên nhân khi nó vẫn còn có thể hành động."
+          "sundae": "Insights kết nối doanh thu, lao động, chi phí thực phẩm, giảm giá và giá cả để các nhóm thu hồi biên lợi nhuận và đo lường lại."
         }
       ],
       "footnote": "Quan sát ngành là các mô hình chung của ngành dịch vụ ăn uống, rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm có tên và kết quả khách hàng đã xác thực sẽ thay thế phần này ngay khi có."
@@ -645,7 +645,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "CE AUZIM DE LA OPERATORI",
-      "industryHeadline": "Datele există. Decizia tot întârzie.",
+      "industryHeadline": "Datele există. Recuperarea nu are loc niciodată.",
       "industryDisclaimer": "Modele pe care le auzim de la operatori și le vedem în fluxurile de raportare din HoReCa. Anonimizate și generalizate.",
       "industryTodayLabel": "Industria astăzi",
       "withSundaeLabel": "Cu Sundae",
@@ -660,7 +660,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Varianta de marjă este adesea explicată la sfârșitul lunii, după ce costurile sunt deja înregistrate.",
-          "sundae": "Insights conectează veniturile, forța de muncă, costul alimentelor, reducerile și prețurile, astfel încât echipele să poată vedea cauza în timp ce este încă acționabilă."
+          "sundae": "Insights conectează veniturile, forța de muncă, costul alimentelor, reducerile și prețurile, astfel încât echipele să recupereze marja și să o măsoare."
         }
       ],
       "footnote": "Observațiile din industrie sunt tipare generale ale industriei HoReCa, extrase din cercetări publice și feedback de consultanță. Rezultatele piloților nominalizați și rezultatele validate ale clienților vor înlocui această secțiune de îndată ce devin disponibile."
@@ -684,7 +684,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "VAD VI HÖR FRÅN OPERATÖRER",
-      "industryHeadline": "Data finns. Beslutet kommer fortfarande sent.",
+      "industryHeadline": "Data finns. Återvinningen sker aldrig.",
       "industryDisclaimer": "Mönster vi hör från operatörer och ser i restaurangbranschens rapporteringsarbetsflöden. Anonymiserade och generaliserade.",
       "industryTodayLabel": "Branschen idag",
       "withSundaeLabel": "Med Sundae",
@@ -699,7 +699,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Marginalvariation förklaras ofta i slutet av månaden, efter att kostnaderna redan har bokförts.",
-          "sundae": "Insights kopplar samman intäkter, arbetskraft, matkostnader, rabatter och prissättning så att team kan se orsaken medan den fortfarande är handlingsbar."
+          "sundae": "Insights kopplar samman intäkter, arbetskraft, matkostnader, rabatter och prissättning så att team kan återvinna marginalen och mäta den."
         }
       ],
       "footnote": "Branschobservationer är generella mönster i restaurangbranschen hämtade från offentlig forskning och rådgivande feedback. Namngivna pilotresultat och validerade kundresultat ersätter detta avsnitt så snart de finns tillgängliga."
@@ -723,7 +723,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "আমরা অপারেটরদের কাছ থেকে যা শুনি",
-      "industryHeadline": "ডেটা বিদ্যমান। সিদ্ধান্ত এখনও দেরিতে আসে।",
+      "industryHeadline": "ডেটা বিদ্যমান। পুনরুদ্ধার কখনও ঘটে না।",
       "industryDisclaimer": "অপারেটরদের কাছ থেকে আমরা যে প্যাটার্নগুলি শুনি এবং ফুড সার্ভিসের রিপোর্টিং ওয়ার্কফ্লোগুলিতে দেখি। অ্যানোনিমাইজড এবং সাধারণীকৃত।",
       "industryTodayLabel": "আজকের শিল্প",
       "withSundaeLabel": "Sundae-এর সাথে",
@@ -738,7 +738,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "মার্জিনের পরিবর্তন প্রায়ই মাসের শেষে ব্যাখ্যা করা হয়, যখন খরচ ইতিমধ্যেই বুক করা হয়।",
-          "sundae": "Insights রাজস্ব, শ্রম, খাদ্য খরচ, ডিসকাউন্ট এবং মূল্য নির্ধারণকে সংযুক্ত করে যাতে টিমগুলো কারণটি দেখতে পারে যখন এটি এখনও কার্যকর।"
+          "sundae": "Insights রাজস্ব, শ্রম, খাদ্য খরচ, ডিসকাউন্ট এবং মূল্য নির্ধারণকে সংযুক্ত করে যাতে টিমগুলো মার্জিন পুনরুদ্ধার করে তা মেপে দেখতে পারে।"
         }
       ],
       "footnote": "ইন্ডাস্ট্রি পর্যবেক্ষণ হলো সর্বজনীন গবেষণা ও পরামর্শমূলক ফিডব্যাক থেকে নেওয়া ফুড সার্ভিস শিল্পের সাধারণ প্যাটার্ন। নামসহ পাইলট ফলাফল ও যাচাইকৃত গ্রাহক ফলাফল উপলব্ধ হওয়ামাত্র এই অংশটির স্থান নেবে।"
@@ -762,7 +762,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "สิ่งที่เราฟังจากผู้ดำเนินการ",
-      "industryHeadline": "ข้อมูลมีอยู่แล้ว แต่การตัดสินใจยังมาถึงช้าอยู่ดี.",
+      "industryHeadline": "ข้อมูลมีอยู่แล้ว แต่การกู้คืนไม่เคยเกิดขึ้น.",
       "industryDisclaimer": "รูปแบบที่เรามักได้ยินจากผู้ดำเนินการและเห็นในกระบวนการรายงานของธุรกิจบริการอาหาร ซึ่งถูกทำให้ไม่ระบุชื่อและทั่วไป",
       "industryTodayLabel": "อุตสาหกรรมในปัจจุบัน",
       "withSundaeLabel": "กับ Sundae",
@@ -777,7 +777,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "ความแปรปรวนของกำไรมักจะถูกอธิบายที่สิ้นเดือน หลังจากที่ค่าใช้จ่ายถูกบันทึกแล้ว",
-          "sundae": "Insights เชื่อมโยงรายได้ แรงงาน ต้นทุนอาหาร ส่วนลด และการตั้งราคา เพื่อให้ทีมสามารถเห็นสาเหตุในขณะที่ยังสามารถดำเนินการได้."
+          "sundae": "Insights เชื่อมโยงรายได้ แรงงาน ต้นทุนอาหาร ส่วนลด และการตั้งราคา เพื่อให้ทีมกู้คืนมาร์จิ้นและวัดผลย้อนกลับได้."
         }
       ],
       "footnote": "ข้อสังเกตของอุตสาหกรรมเป็นรูปแบบทั่วไปของธุรกิจบริการอาหาร ซึ่งได้จากงานวิจัยสาธารณะและความเห็นที่ปรึกษา ผลลัพธ์นำร่องที่ระบุชื่อและผลลัพธ์ลูกค้าที่ผ่านการตรวจสอบจะมาแทนที่ส่วนนี้ทันทีที่พร้อมใช้งาน"
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
         }
       ],
       "industryEyebrow": "APA YANG KAMI DENGAR DARIPADA PENGENDALI",
-      "industryHeadline": "Data wujud. Keputusan masih tiba lewat.",
+      "industryHeadline": "Data wujud. Pemulihan tidak pernah berlaku.",
       "industryDisclaimer": "Corak yang kami dengar daripada pengendali dan lihat di seluruh aliran kerja pelaporan perkhidmatan makanan. Dianonimkan dan digeneralisasikan.",
       "industryTodayLabel": "Industri hari ini",
       "withSundaeLabel": "Dengan Sundae",
@@ -816,7 +816,7 @@ export const generatedLocalCopy = {
         },
         {
           "industry": "Varians margin sering dijelaskan pada akhir bulan, setelah kos sudah dicatat.",
-          "sundae": "Insights menghubungkan hasil, buruh, kos makanan, diskaun, dan penetapan harga supaya pasukan dapat melihat punca semasa ia masih boleh diambil tindakan."
+          "sundae": "Insights menghubungkan hasil, buruh, kos makanan, diskaun, dan penetapan harga supaya pasukan dapat memulihkan margin dan mengukurnya semula."
         }
       ],
       "footnote": "Pemerhatian industri ialah corak umum industri perkhidmatan makanan yang diambil daripada penyelidikan awam dan maklum balas perundingan. Keputusan perintis bernama dan hasil pelanggan yang disahkan akan menggantikan bahagian ini sebaik sahaja tersedia."

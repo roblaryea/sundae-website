@@ -110,7 +110,7 @@ export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: Rec
         background:
           "radial-gradient(115% 75% at 82% 14%, rgba(255,92,77,.16), transparent 55%), radial-gradient(80% 60% at 8% 92%, rgba(233,162,74,.12), transparent 55%), var(--navy-deep)",
       }}
-      aria-label="Sundae - see every layer, act in time"
+      aria-label="Sundae - find the leak, recover the profit"
     >
       {/* drifting warm light - two large blurred fields that slowly cross, giving
           the flat navy real depth and motion behind the content. */}

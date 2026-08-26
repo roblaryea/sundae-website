@@ -151,51 +151,51 @@ type LocalizedMoats = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
   en: {
     eyebrow: "BEYOND THE REPORT",
-    headline: "Three signals that decide what’s next.",
-    description: "Reports show what happened. Sundae adds the live operating context, market signals, and peer comparisons you need to decide what to do next.",
+    headline: "Three signals that turn into recovered profit.",
+    description: "Reports show what happened. Sundae adds the live operating context, market signals, and peer comparisons you need to find the leak, own the fix, and measure the recovery.",
     layerWord: "Signal",
     layers: [
       { title: "Live shift intelligence", why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running - not after the weekly recap." },
       { title: "External market intelligence", why: "Add the market around each restaurant: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know." },
       { title: "Peer benchmarks that compound", why: "Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more restaurants join." },
     ],
-    closing: "Not another dashboard. A food-service intelligence layer.",
+    closing: "Not another dashboard. A profit-recovery loop.",
   },
   ar: {
     eyebrow: "ما وراء التقرير",
-    headline: "ثلاث إشارات تُحدد خطوتك التالية.",
-    description: "اللوحات تُظهر ما حدث. Sundae يضيف السياق التشغيلي الحي وإشارات السوق ومقارنات النظراء التي تحتاجها المطاعم لتقرر ما تفعله تالياً.",
+    headline: "ثلاث إشارات تتحول إلى أرباح مستردّة.",
+    description: "اللوحات تُظهر ما حدث. Sundae يضيف السياق التشغيلي الحي وإشارات السوق ومقارنات النظراء التي تحتاجها المطاعم لتجد التسرب، وتتولّى الإصلاح، وتقيس ما استُرجع.",
     layerWord: "إشارة",
     layers: [
       { title: "ذكاء وردية حي", why: "شاهد الوتيرة والعمالة والتسرب والتعويضات والتجاوزات وحالات الخدمة الشاذة وهي تجري - لا بعد الملخص الأسبوعي." },
       { title: "ذكاء سوق خارجي", why: "أضف السوق حول كل مطعم: الطقس والأحداث وتسعير المنافسين وحركة المرور وإحاطات يومية لا يعرفها BI طبيعياً." },
       { title: "معايير نظراء تتراكم", why: "قارن المواقع بنظراء مجهولين بالصيغة والسوق والمقياس. الشبكة تصبح أكثر فائدة كلما انضم المزيد." },
     ],
-    closing: "ليست لوحة أخرى. طبقة ذكاء لخدمات الطعام.",
+    closing: "ليست لوحة أخرى. بل حلقة استرداد أرباح.",
   },
   fr: {
     eyebrow: "AU-DELÀ DU RAPPORT",
-    headline: "Trois signaux qui décident de la suite.",
-    description: "Les dashboards montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel live, les signaux marché et les comparaisons pairs dont les restaurants ont besoin pour décider quoi faire ensuite.",
+    headline: "Trois signaux qui se transforment en profit récupéré.",
+    description: "Les dashboards montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel live, les signaux marché et les comparaisons pairs dont les restaurants ont besoin pour trouver la fuite, prendre en charge le correctif et mesurer la récupération.",
     layerWord: "Signal",
     layers: [
       { title: "Intelligence service live", why: "Voyez rythme, main-d'œuvre, fuites, comps, annulations et exceptions pendant que le service tourne - pas après le récap de la semaine." },
       { title: "Intelligence marché externe", why: "Ajoutez le marché autour de chaque restaurant : météo, événements, prix concurrents, signaux fréquentation et briefings quotidiens que votre BI ne connaît pas." },
       { title: "Benchmarks pairs qui se composent", why: "Comparez les sites à des pairs anonymisés par format, marché et métrique. Le réseau devient plus utile à mesure que plus de restaurants rejoignent." },
     ],
-    closing: "Pas un autre dashboard. Une couche d'intelligence pour la restauration.",
+    closing: "Pas un autre dashboard. Une boucle de récupération de profit.",
   },
   es: {
     eyebrow: "MÁS ALLÁ DEL INFORME",
-    headline: "Tres señales que deciden qué sigue.",
-    description: "Los dashboards muestran lo que pasó. Sundae añade el contexto operativo en vivo, las señales de mercado y las comparaciones con pares que los restaurantes necesitan para decidir qué hacer a continuación.",
+    headline: "Tres señales que se convierten en beneficio recuperado.",
+    description: "Los dashboards muestran lo que pasó. Sundae añade el contexto operativo en vivo, las señales de mercado y las comparaciones con pares que los restaurantes necesitan para encontrar la fuga, encargarse de la solución y medir la recuperación.",
     layerWord: "Señal",
     layers: [
       { title: "Inteligencia de turno en vivo", why: "Ve ritmo, personal, fugas, comps, anulaciones y excepciones de servicio mientras el turno corre - no después del recap semanal." },
       { title: "Inteligencia de mercado externo", why: "Añade el mercado alrededor de cada restaurante: clima, eventos, precios de competencia, señales de tráfico y briefings diarios que tu BI no conoce." },
       { title: "Benchmarks de pares que se componen", why: "Compara locales contra pares anonimizados por formato, mercado y métrica. La red se vuelve más útil mientras más restaurantes se unen." },
     ],
-    closing: "No es otro dashboard. Es una capa de inteligencia para la hostelería.",
+    closing: "No es otro dashboard. Es un bucle de recuperación de beneficio.",
   },
 };
 

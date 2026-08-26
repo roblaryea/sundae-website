@@ -33,6 +33,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Weekly recap meetings instead of live action",
     ],
     withSundae: [
+      "Measured profit recovery, per decision",
       "Six intelligence layers, food-service-native",
       "500+ governed food-service data models",
       "Source-cited answers in seconds",
@@ -55,6 +56,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "اجتماعات أسبوعية بدل فعل حي",
     ],
     withSundae: [
+      "استرداد أرباح مُقاس، مع كل قرار",
       "ست طبقات ذكاء، أصيلة لخدمات الطعام",
       "أكثر من 500 نموذج بيانات لخدمات الطعام محكوم",
       "إجابات بمصادر في ثوانٍ",
@@ -77,6 +79,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Réunions hebdo au lieu d'action live",
     ],
     withSundae: [
+      "Récupération de profit mesurée, à chaque décision",
       "Six couches d'intelligence, natives restauration",
       "500+ modèles de données restauration gouvernés",
       "Réponses sourcées en secondes",
@@ -99,6 +102,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Reuniones semanales en lugar de acción en vivo",
     ],
     withSundae: [
+      "Recuperación de beneficio medida, en cada decisión",
       "Seis capas de inteligencia, nativas para hostelería",
       "500+ modelos de datos de hostelería gobernados",
       "Respuestas con fuente en segundos",

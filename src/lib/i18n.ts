@@ -351,10 +351,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Decision Intelligence for closed-loop profit recovery',
-      titleTop: 'Recover profit every day,',
-      titleBottom: 'across every outlet.',
-      subheadline: 'Find the leak, assign the fix to one accountable owner, and measure the recovery back against a baseline - one auditable loop, every shift.',
+      badge: 'See it live',
+      titleTop: 'Watch the loop run',
+      titleBottom: 'a live shift.',
+      subheadline: 'Real pacing, a live Coach, one service night - the recovery loop running on Pulse.',
       description:
         'Your data lives across POS, delivery, reservations, labor, inventory, and finance.',
       descriptionEmphasis: 'Sundae brings it into one live operating layer.',
@@ -363,10 +363,10 @@ export const websiteMessages = {
       bookDemo: 'See Pulse live',
       noCard: '',
       proofStats: [
-        { number: '5 min', label: 'From signal to action' },
-        { number: '18', label: 'Decisions surfaced today' },
+        { number: '5 min', label: 'From leak to owned fix' },
+        { number: '18', label: 'Leaks caught today' },
         { number: '12', label: 'Operating domains unified' },
-        { number: '6', label: 'Intelligence layers, one truth' },
+        { number: '6', label: 'Layers, one recovery loop' },
       ],
       problem: {
         eyebrow: 'THE PROBLEM',
@@ -380,9 +380,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '6 LAYERS · ONE TRUTH',
-        heading: 'Six layers. One truth.',
-        description: 'From the live shift to the long-range plan - one stack, six layers that talk to each other.',
+        eyebrow: '6 LAYERS · ONE LOOP',
+        heading: 'Six layers. One loop.',
+        description: 'From the live shift to the long-range plan - six layers that find the leak, own the fix, and measure the recovery.',
         countLabel: 'of 6',
         exploreModules: 'Explore all modules',
         learnMore: 'Learn more',
@@ -453,7 +453,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'James K. upsell rate is 14% below shift average. Consider pairing with Sarah for the next 2 tables.',
       },
-      closingTitle: 'Stop running on yesterday’s numbers.',
+      closingTitle: 'Stop leaking margin you could recover.',
       closingDescription: '30 minutes. Your data. What Sundae would actually change for the team.',
       pages: {
         signIn: {
@@ -816,10 +816,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'ذكاء القرار لاستعادة الأرباح بحلقة مغلقة',
-      titleTop: 'استعِد الأرباح كل يوم،',
-      titleBottom: 'في كل فرع.',
-      subheadline: 'اكتشف موضع التسرّب، وأسنِد الإصلاح إلى مسؤول واحد يتحمّل المسؤولية، وقِس الاستعادة مقابل خط أساس - حلقة واحدة قابلة للتدقيق، في كل وردية.',
+      badge: 'شاهدها مباشرةً',
+      titleTop: 'شاهد الحلقة تُدير',
+      titleBottom: 'وردية مباشرة.',
+      subheadline: 'إيقاع حقيقي، وCoach مباشر، وليلة خدمة واحدة - حلقة الاستعادة وهي تعمل على Pulse.',
       description:
         'بياناتك موزّعة على أنظمة الـ POS والتوصيل والحجوزات والعمالة والمخزون والمالية.',
       descriptionEmphasis: 'يجمعها صنداي في طبقة تشغيل حيّة واحدة.',
@@ -828,10 +828,10 @@ export const websiteMessages = {
       bookDemo: 'احجز عرضاً',
       noCard: 'لا حاجة إلى بطاقة ائتمان',
       proofStats: [
-        { number: '6', label: 'طبقات ذكاء، حقيقة واحدة' },
-        { number: '18', label: 'قرارات أُبرزت اليوم' },
-        { number: '12', label: 'مجال تشغيل موحّد' },
-        { number: '5 د', label: 'من الإشارة إلى الإجراء' },
+        { number: '6', label: 'طبقات، حلقة استرداد واحدة' },
+        { number: '18', label: 'تسرّبات رُصدت اليوم' },
+        { number: '12', label: 'مجالات تشغيل موحّدة' },
+        { number: '5 د', label: 'من التسرّب إلى إصلاح مُسنَد' },
       ],
       problem: {
         eyebrow: 'المشكلة',
@@ -845,9 +845,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '٦ طبقات · حقيقة واحدة',
-        heading: 'ست طبقات. حقيقة واحدة.',
-        description: 'من الوردية الحية إلى الخطة طويلة المدى - منصة واحدة، ست طبقات تتحدث مع بعضها.',
+        eyebrow: '٦ طبقات · حلقة واحدة',
+        heading: 'ست طبقات. حلقة واحدة.',
+        description: 'من الوردية الحية إلى الخطة طويلة المدى - ست طبقات ترصد التسرّب، وتتولّى الإصلاح، وتقيس الاسترداد.',
         countLabel: 'من ٦',
         exploreModules: 'استعرض كل الوحدات',
         learnMore: 'اعرف المزيد',
@@ -918,7 +918,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'معدل البيع الإضافي لدى James K. أقل بـ 14% من متوسط الوردية. فكر في إقرانه مع Sarah للطلبتين القادمتين.',
       },
-      closingTitle: 'توقف عن إدارة مطعمك بأرقام الأمس.',
+      closingTitle: 'أوقِف تسرّب الهامش الذي يمكنك استرداده.',
       closingDescription: '30 دقيقة. بياناتك. ما الذي سيتغير فعلياً لفريقك مع Sundae.',
       pages: {
         signIn: {
@@ -1261,10 +1261,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Intelligence décisionnelle pour une récupération de marge en boucle fermée',
-      titleTop: 'Récupérez de la marge chaque jour,',
-      titleBottom: 'dans chaque établissement.',
-      subheadline: 'Repérez la fuite, confiez la correction à un seul responsable, et mesurez la récupération par rapport à une référence - une boucle auditable, à chaque service.',
+      badge: 'Voyez-le en direct',
+      titleTop: 'Regardez la boucle tourner',
+      titleBottom: 'pendant un service en direct.',
+      subheadline: 'Un rythme réel, un Coach en direct, un seul service du soir - la boucle de récupération qui tourne sur Pulse.',
       description:
         'Vos données vivent dans le POS, la livraison, les réservations, le personnel, les stocks et la finance.',
       descriptionEmphasis: 'Sundae les réunit dans une seule couche opérationnelle en direct.',
@@ -1273,10 +1273,10 @@ export const websiteMessages = {
       bookDemo: 'Demander une démo',
       noCard: 'Aucune carte bancaire requise',
       proofStats: [
-        { number: '6', label: 'Couches d\'intelligence, une seule vérité' },
-        { number: '18', label: 'Décisions remontées aujourd\'hui' },
+        { number: '6', label: 'Couches, une boucle de récupération' },
+        { number: '18', label: 'Fuites détectées aujourd\'hui' },
         { number: '12', label: 'Domaines opérationnels unifiés' },
-        { number: '5 min', label: 'Du signal à l\'action' },
+        { number: '5 min', label: 'De la fuite au correctif pris en charge' },
       ],
       problem: {
         eyebrow: 'LE PROBLÈME',
@@ -1290,9 +1290,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '6 COUCHES · UNE SEULE VÉRITÉ',
-        heading: 'Six couches. Une seule vérité.',
-        description: 'Du service en direct au plan long terme - une plateforme, six couches qui se parlent.',
+        eyebrow: '6 COUCHES · UNE BOUCLE',
+        heading: 'Six couches. Une boucle.',
+        description: 'Du service en direct au plan long terme - six couches qui repèrent la fuite, prennent en charge le correctif et mesurent la récupération.',
         countLabel: 'sur 6',
         exploreModules: 'Explorer tous les modules',
         learnMore: 'En savoir plus',
@@ -1363,7 +1363,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'Le taux d\'upsell de James K. est 14% sous la moyenne du service. Pensez à le faire travailler avec Sarah sur les 2 prochaines tables.',
       },
-      closingTitle: 'Arrêtez de piloter sur les chiffres d\'hier.',
+      closingTitle: 'Arrêtez de laisser fuir la marge que vous pourriez récupérer.',
       closingDescription: '30 minutes. Vos données. Ce que Sundae changerait concrètement pour l\'équipe.',
       pages: {
         signIn: {
@@ -1725,10 +1725,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Inteligencia de decisión para la recuperación de beneficios en circuito cerrado',
-      titleTop: 'Recupera beneficio cada día,',
-      titleBottom: 'en cada local.',
-      subheadline: 'Encuentra la fuga, asigna la corrección a un único responsable y mide la recuperación frente a una base de referencia - un circuito auditable, en cada turno.',
+      badge: 'Míralo en vivo',
+      titleTop: 'Mira el circuito funcionar',
+      titleBottom: 'durante un turno en vivo.',
+      subheadline: 'Ritmo real, un Coach en vivo, una sola noche de servicio - el circuito de recuperación funcionando en Pulse.',
       description:
         'Tus datos viven en el POS, el delivery, las reservas, el personal, el inventario y las finanzas.',
       descriptionEmphasis: 'Sundae los reúne en una sola capa operativa en vivo.',
@@ -1737,10 +1737,10 @@ export const websiteMessages = {
       bookDemo: 'Reservar demo',
       noCard: 'No se requiere tarjeta de crédito',
       proofStats: [
-        { number: '6', label: 'Capas de inteligencia, una sola verdad' },
-        { number: '18', label: 'Decisiones reveladas hoy' },
+        { number: '6', label: 'Capas, un ciclo de recuperación' },
+        { number: '18', label: 'Fugas detectadas hoy' },
         { number: '12', label: 'Dominios operativos unificados' },
-        { number: '5 min', label: 'De la señal a la acción' },
+        { number: '5 min', label: 'De la fuga a la corrección asignada' },
       ],
       problem: {
         eyebrow: 'EL PROBLEMA',
@@ -1754,9 +1754,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '6 CAPAS · UNA VERDAD',
-        heading: 'Seis capas. Una verdad.',
-        description: 'Del turno en vivo al plan a largo plazo: una plataforma, seis capas que se hablan entre sí.',
+        eyebrow: '6 CAPAS · UN CICLO',
+        heading: 'Seis capas. Un ciclo.',
+        description: 'Del turno en vivo al plan a largo plazo - seis capas que detectan la fuga, asumen la corrección y miden la recuperación.',
         countLabel: 'de 6',
         exploreModules: 'Explorar todos los módulos',
         learnMore: 'Saber más',
@@ -1827,7 +1827,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'La tasa de upsell de James K. está 14% por debajo del promedio del turno. Considera emparejarlo con Sarah para las próximas 2 mesas.',
       },
-      closingTitle: 'Deja de operar con los números de ayer.',
+      closingTitle: 'Deja de perder por fugas el margen que podrías recuperar.',
       closingDescription: '30 minutos. Tus datos. Lo que Sundae cambiaría realmente para tu equipo.',
       pages: {
         signIn: {

@@ -16,6 +16,7 @@ export const generatedLocalCopy = {
         "Wöchentliche Rückblick-Meetings statt Aktion in Echtzeit"
       ],
       "withSundae": [
+        "Gemessene Gewinnrückgewinnung, pro Entscheidung",
         "Sechs Intelligenzschichten, gastronomie-nativ",
         "Über 500 verwaltete Gastronomie-Datenmodelle",
         "Quellenbelegte Antworten in Sekunden",
@@ -38,6 +39,7 @@ export const generatedLocalCopy = {
         "Wekelijkse terugblikvergaderingen in plaats van live actie"
       ],
       "withSundae": [
+        "Gemeten winstherstel, per beslissing",
         "Zes intelligentielagen, horeca-native",
         "500+ beheerde horeca-datamodellen",
         "Antwoorden met bronvermelding in seconden",
@@ -60,6 +62,7 @@ export const generatedLocalCopy = {
         "اجتماعات ملخّص أسبوعية بدلًا من التحرّك الفوري"
       ],
       "withSundae": [
+        "استرداد أرباح مُقاس، مع كل قرار",
         "ست طبقات من الذكاء، مبنية أصلًا لخدمات الطعام",
         "أكثر من 500 نموذج بيانات مُدار لخدمات الطعام",
         "إجابات موثّقة بمصادرها في ثوانٍ",
@@ -82,6 +85,7 @@ export const generatedLocalCopy = {
         "Reuniões semanais de resumo em vez de ação em tempo real"
       ],
       "withSundae": [
+        "Recuperação de lucro medida, por decisão",
         "Seis camadas de inteligência, nativas da restauração",
         "Mais de 500 modelos de dados de restauração governados",
         "Respostas com fontes citadas em segundos",
@@ -104,6 +108,7 @@ export const generatedLocalCopy = {
         "Des réunions de bilan hebdomadaires au lieu d'agir en temps réel"
       ],
       "withSundae": [
+        "Récupération de profit mesurée, à chaque décision",
         "Six couches d'intelligence, nativement pensées pour la restauration",
         "Plus de 500 modèles de données de restauration gouvernés",
         "Des réponses sourcées en quelques secondes",
@@ -126,6 +131,7 @@ export const generatedLocalCopy = {
         "Reuniones semanales de resumen en lugar de actuar en tiempo real"
       ],
       "withSundae": [
+        "Recuperación de beneficio medida, en cada decisión",
         "Seis capas de inteligencia, nativas de la hostelería",
         "Más de 500 modelos de datos de hostelería gobernados",
         "Respuestas con fuentes citadas en segundos",
@@ -148,6 +154,7 @@ export const generatedLocalCopy = {
         "तुरंत कार्रवाई के बजाय साप्ताहिक समीक्षा बैठकें"
       ],
       "withSundae": [
+        "मापी गई मुनाफ़ा वसूली, हर निर्णय पर",
         "छह इंटेलिजेंस परतें, फ़ूड-सर्विस-नेटिव",
         "500+ गवर्न किए गए फ़ूड-सर्विस डेटा मॉडल",
         "कुछ ही सेकंड में स्रोत-संदर्भित उत्तर",
@@ -170,6 +177,7 @@ export const generatedLocalCopy = {
         "فوری کارروائی کے بجائے ہفتہ وار جائزہ میٹنگز"
       ],
       "withSundae": [
+        "ناپی گئی منافع کی وصولی، ہر فیصلے پر",
         "ذہانت کی چھ تہیں، فوڈ سروس کے لیے مقامی طور پر بنی",
         "500+ گورنڈ فوڈ سروس ڈیٹا ماڈلز",
         "سیکنڈوں میں ماخذ کے حوالے کے ساتھ جوابات",
@@ -192,6 +200,7 @@ export const generatedLocalCopy = {
         "Riunioni di riepilogo settimanali invece di agire in tempo reale"
       ],
       "withSundae": [
+        "Recupero di profitto misurato, a ogni decisione",
         "Sei livelli di intelligenza, nativi della ristorazione",
         "Oltre 500 modelli di dati per la ristorazione governati",
         "Risposte con fonti citate in pochi secondi",
@@ -214,6 +223,7 @@ export const generatedLocalCopy = {
         "每周复盘会议，而非实时行动"
       ],
       "withSundae": [
+        "可量化的利润挽回，逐笔决策",
         "六个智能层，餐饮原生",
         "500+ 个受治理的餐饮数据模型",
         "数秒内给出附带来源引用的答案",
@@ -236,6 +246,7 @@ export const generatedLocalCopy = {
         "Cotygodniowe spotkania podsumowujące zamiast działania na bieżąco"
       ],
       "withSundae": [
+        "Zmierzone odzyskiwanie zysku, przy każdej decyzji",
         "Sześć warstw inteligencji, natywnych dla gastronomii",
         "Ponad 500 zarządzanych modeli danych gastronomicznych",
         "Odpowiedzi z przypisami do źródeł w kilka sekund",
@@ -258,6 +269,7 @@ export const generatedLocalCopy = {
         "リアルタイムの対応ではなく、週次の振り返り会議"
       ],
       "withSundae": [
+        "数値化された利益回収、意思決定ごとに",
         "6つのインテリジェンスレイヤー、飲食ネイティブ",
         "500以上の管理された飲食データモデル",
         "数秒で得られる出典付きの回答",
@@ -280,6 +292,7 @@ export const generatedLocalCopy = {
         "Rapat rekap mingguan alih-alih bertindak secara langsung"
       ],
       "withSundae": [
+        "Pemulihan laba terukur, per keputusan",
         "Enam lapisan intelijen, asli layanan makanan",
         "500+ model data layanan makanan yang terkelola",
         "Jawaban dengan kutipan sumber dalam hitungan detik",
@@ -302,6 +315,7 @@ export const generatedLocalCopy = {
         "Họp tổng kết hằng tuần thay vì hành động theo thời gian thực"
       ],
       "withSundae": [
+        "Phục hồi lợi nhuận được đo lường, theo từng quyết định",
         "Sáu lớp trí tuệ, bản địa cho dịch vụ ăn uống",
         "Hơn 500 mô hình dữ liệu dịch vụ ăn uống được quản trị",
         "Câu trả lời có trích dẫn nguồn trong vài giây",
@@ -324,6 +338,7 @@ export const generatedLocalCopy = {
         "Gerçek zamanlı aksiyon yerine haftalık özet toplantıları"
       ],
       "withSundae": [
+        "Ölçülen kâr kurtarma, her kararda",
         "Altı zeka katmanı, yeme-içme sektörüne özgü",
         "500+ yönetilen yeme-içme sektörü veri modeli",
         "Saniyeler içinde kaynak gösterilen yanıtlar",
@@ -346,6 +361,7 @@ export const generatedLocalCopy = {
         "Întâlniri săptămânale de recapitulare în loc de acțiune în timp real"
       ],
       "withSundae": [
+        "Recuperare de profit măsurată, la fiecare decizie",
         "Șase straturi de inteligență, native pentru HoReCa",
         "Peste 500 de modele de date pentru HoReCa, guvernate",
         "Răspunsuri cu sursă citată în câteva secunde",
@@ -368,6 +384,7 @@ export const generatedLocalCopy = {
         "실시간 대응 대신 주간 요약 회의"
       ],
       "withSundae": [
+        "측정되는 이익 회수, 의사결정마다",
         "여섯 개의 인텔리전스 레이어, 외식 네이티브",
         "500개 이상의 거버넌스가 적용된 외식 데이터 모델",
         "몇 초 만에 출처가 인용된 답변",
@@ -390,6 +407,7 @@ export const generatedLocalCopy = {
         "Veckovisa sammanfattningsmöten istället för åtgärder i realtid"
       ],
       "withSundae": [
+        "Uppmätt vinståtervinning, per beslut",
         "Sex intelligenslager, restaurangbransch-nativa",
         "500+ styrda datamodeller för restaurangbranschen",
         "Källhänvisade svar på sekunder",
@@ -412,6 +430,7 @@ export const generatedLocalCopy = {
         "การประชุมสรุปประจำสัปดาห์แทนการลงมือทำแบบเรียลไทม์"
       ],
       "withSundae": [
+        "การกู้คืนกำไรที่วัดผลได้ ในทุกการตัดสินใจ",
         "ชั้นข้อมูลอัจฉริยะหกชั้น เนทีฟสำหรับธุรกิจบริการอาหาร",
         "โมเดลข้อมูลธุรกิจบริการอาหารที่มีการกำกับดูแลกว่า 500 โมเดล",
         "คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที",
@@ -434,6 +453,7 @@ export const generatedLocalCopy = {
         "রিয়েল-টাইম অ্যাকশনের পরিবর্তে সাপ্তাহিক রিক্যাপ মিটিং"
       ],
       "withSundae": [
+        "পরিমাপ করা মুনাফা পুনরুদ্ধার, প্রতিটি সিদ্ধান্তে",
         "ছয়টি ইন্টেলিজেন্স স্তর, ফুড সার্ভিস-নেটিভ",
         "৫০০+ গভর্নড ফুড সার্ভিস ডেটা মডেল",
         "কয়েক সেকেন্ডের মধ্যে উৎস-উল্লেখিত উত্তর",
@@ -456,6 +476,7 @@ export const generatedLocalCopy = {
         "Mesyuarat ringkasan mingguan dan bukannya tindakan masa nyata"
       ],
       "withSundae": [
+        "Pemulihan untung yang diukur, setiap keputusan",
         "Enam lapisan kecerdasan, asli perkhidmatan makanan",
         "500+ model data perkhidmatan makanan yang ditadbir",
         "Jawapan dengan rujukan sumber dalam beberapa saat",
