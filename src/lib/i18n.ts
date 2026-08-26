@@ -328,7 +328,7 @@ export const websiteMessages = {
       bookDemo: 'Book a Working Session',
       startFree: 'Get started',
       brandDescription:
-        'The decision intelligence platform for multi-location operators. See every layer. Act in time.',
+        'Decision intelligence for multi-location food-service. Find the leak, recover the profit.',
       global: 'Global',
       allCurrencies: 'All currencies',
       sectionProduct: 'Product',
@@ -793,7 +793,7 @@ export const websiteMessages = {
       bookDemo: 'احجز جلسة عمل',
       startFree: 'ابدأ الآن',
       brandDescription:
-        'منصة الذكاء القراري لمشغّلي المواقع المتعددة. See every layer. Act in time.',
+        'ذكاء قراري لخدمات الطعام متعددة المواقع. اكتشف موضع التسرّب واستعِد الربح.',
       global: 'عالمي',
       allCurrencies: 'كل العملات',
       sectionProduct: 'المنتج',
@@ -1238,7 +1238,7 @@ export const websiteMessages = {
       bookDemo: 'Réserver une session de travail',
       startFree: 'Commencer',
       brandDescription:
-        "La plateforme d'intelligence décisionnelle pour les opérateurs multi-sites. See every layer. Act in time.",
+        "L'intelligence décisionnelle pour la restauration multi-sites. Trouvez la fuite, récupérez le profit.",
       global: 'Global',
       allCurrencies: 'Toutes les devises',
       sectionProduct: 'Produit',
@@ -1702,7 +1702,7 @@ export const websiteMessages = {
       bookDemo: 'Reservar una sesión de trabajo',
       startFree: 'Empezar',
       brandDescription:
-        'La plataforma de inteligencia de decisión para operadores multilocal. See every layer. Act in time.',
+        'Inteligencia de decisión para la restauración multilocal. Encuentra la fuga, recupera el beneficio.',
       global: 'Global',
       allCurrencies: 'Todas las monedas',
       sectionProduct: 'Producto',

@@ -55,6 +55,10 @@
 .card-title {
   font-family: var(--font-display);
   font-optical-sizing: auto;
+  /* Balance headline line lengths so a short trailing word ("recover.") never
+     orphans onto its own line. Supported in all current browsers; harmless
+     where unsupported (falls back to normal wrapping). */
+  text-wrap: balance;
 }
 
 /* Base heading elements default to the display face too, so any heading that
@@ -63,6 +67,7 @@
 h1, h2, h3 {
   font-family: var(--font-display);
   font-optical-sizing: auto;
+  text-wrap: balance;
 }
 
 @media (min-width: 640px) {
@@ -118,6 +123,7 @@ h1, h2, h3 {
   line-height: 1.6;
   font-weight: 400;
   color: var(--text-secondary);
+  text-wrap: pretty;
 }
 
 .body-lg {
@@ -125,6 +131,7 @@ h1, h2, h3 {
   line-height: 1.6;
   font-weight: 400;
   color: var(--text-supporting);
+  text-wrap: pretty;
 }
 
 .body-base {
