@@ -7,7 +7,6 @@ import { motion, MotionConfig } from "framer-motion";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
-import { ElegantShape } from "@/components/ui/ElegantShape";
 import { MockupFrame } from "@/components/ui/MockupFrame";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -129,17 +128,12 @@ export default function HomeContent() {
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
         <section id="chapter-overview" className="relative scroll-mt-24 pt-20 pb-14 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          {/* Background layers */}
+          {/* Background layers - two soft warm radial washes only. The grid-texture
+              overlay and floating "elegant shape" blobs were retired: they read as
+              generic SaaS-template scaffolding and fought the editorial photo backdrop
+              below. Depth now comes from the real room photo + the product glow. */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
-          <div className="absolute inset-0 bg-grid-texture" />
-
-          {/* Floating shapes */}
-          <div className="absolute inset-0 overflow-hidden">
-            <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
-            <ElegantShape delay={0.5} width={500} height={120} rotate={-15} gradient="from-white/[0.02]" className="right-[-5%] top-[70%]" />
-            <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[5%]" />
-          </div>
 
           {/* Editorial backdrop - grounds the product hero in the restaurant world.
               Heavily darkened, blurred and vignetted into the page bg so it reads as
@@ -202,16 +196,23 @@ export default function HomeContent() {
           </div>
 
           <div className="max-w-5xl mx-auto text-center relative z-20">
-            {/* Eyebrow badge */}
+            {/* Eyebrow - the site's own editorial eyebrow (uppercase, tracked),
+                matching the cinematic intro. The prior rounded "pill + pulsing dot"
+                badge was the single most-cloned AI-SaaS pattern; retired here. A
+                small live tick is kept because this hero opens a genuinely live
+                Pulse visual - meaning preserved, template dropped. */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0, ease: [0.25, 0.4, 0.25, 1] }}
-              className="flex justify-center mb-8"
+              className="flex justify-center mb-7"
             >
-              <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.28)] text-[#FF8473]">
-                <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
+              <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.24em] text-[var(--text-secondary)]">
+                <span className="relative inline-flex h-1.5 w-1.5 flex-shrink-0" aria-hidden>
+                  <span className="absolute inline-flex h-full w-full rounded-full bg-[var(--warm-coral)] opacity-60 motion-safe:animate-ping" />
+                  <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--warm-coral)]" />
+                </span>
                 {home.badge}
               </span>
             </motion.div>
@@ -223,12 +224,17 @@ export default function HomeContent() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
             >
+              {/* Restrained two-part display headline, matching the cinematic
+                  intro's treatment: a solid warm-white lead line + a single-color
+                  amber italic emphasis. The prior three-stop bg-clip gradient on the
+                  italic read as generic "gradient text"; a single warm accent is
+                  more confident and keeps coral rationed for action (CTAs). */}
               <h2 className="section-h2 mb-5 max-w-3xl mx-auto" aria-label={`${home.titleTop} ${home.titleBottom}`}>
-                <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
+                <span className="text-[var(--text-primary)]">
                   {home.titleTop}
                 </span>{" "}
                 <br />
-                <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-[#E9A24A] via-[#FF7E6F] to-[#FF5C4D]">
+                <span className="italic text-[#F6C66B]">
                   {home.titleBottom}
                 </span>
               </h2>
@@ -351,6 +357,28 @@ export default function HomeContent() {
               <p className="body-lg max-w-2xl mx-auto">
                 {platform.description}
               </p>
+            </FadeUp>
+
+            {/* Brand motif: the sundae glass - every layer of the business in one
+                vessel. Moved here from the hero (which now leads with the recovery
+                loop). Static poster, not WebGL, so it stays light and sets up the
+                "one vessel, six layers" stack below. */}
+            <FadeUp className="mb-12 flex justify-center">
+              <div className="relative">
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full"
+                  style={{ background: "radial-gradient(circle, rgba(255,92,77,.13), rgba(233,162,74,.05) 46%, transparent 72%)", filter: "blur(48px)" }}
+                />
+                <Image
+                  src="/images/hero/sundae-glass.png"
+                  alt="The Sundae glass - every layer of the business in one vessel"
+                  width={220}
+                  height={394}
+                  className="relative h-auto w-[150px] sm:w-[180px]"
+                  style={{ filter: "drop-shadow(0 24px 44px rgba(0,0,0,0.45))" }}
+                />
+              </div>
             </FadeUp>
 
             {/* One vessel, six layers - the modules stack like the strata in
