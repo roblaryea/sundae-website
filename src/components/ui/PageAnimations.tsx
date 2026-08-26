@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ElegantShape } from "./ElegantShape";
 
 // Reusable fade-up section with scroll trigger
 export function FadeUp({
@@ -91,34 +90,6 @@ export function PageHero({
 }) {
   return (
     <section className="relative overflow-hidden bg-mesh">
-      {/* Floating geometric shapes */}
-      <div className="absolute inset-0 overflow-hidden">
-        <ElegantShape
-          delay={0.2}
-          width={300}
-          height={80}
-          rotate={12}
-          gradient="from-white/[0.03]"
-          className="left-[-10%] top-[15%]"
-        />
-        <ElegantShape
-          delay={0.4}
-          width={220}
-          height={60}
-          rotate={-15}
-          gradient="from-white/[0.02]"
-          className="right-[-5%] top-[25%]"
-        />
-        <ElegantShape
-          delay={0.6}
-          width={160}
-          height={50}
-          rotate={20}
-          gradient="from-white/[0.025]"
-          className="left-[15%] bottom-[20%]"
-        />
-      </div>
-
       {/* Subtle radial glow */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
 
@@ -129,7 +100,7 @@ export function PageHero({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase bg-[rgba(255,92,77,0.15)] text-[#FF8473] border border-[rgba(255,92,77,0.2)]">
+            <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">
               {badge}
             </span>
           </motion.div>
