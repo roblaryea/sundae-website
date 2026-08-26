@@ -36,7 +36,7 @@ const STAGE_POS = [
 
 export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
   const { locale } = useWebsiteI18n();
-  const copy = recoveryLoopCopy[locale] ?? recoveryLoopCopy.en;
+  const copy = recoveryLoopCopy[locale as keyof typeof recoveryLoopCopy] ?? recoveryLoopCopy.en;
   // Currency + amount come geo-resolved from the server (page.tsx); fall back to
   // the language locale if the component is ever rendered without a figure.
   const fig = figure ?? resolveRecoveryFigure(locale as WebsiteLocale);

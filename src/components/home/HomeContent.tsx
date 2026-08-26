@@ -366,12 +366,12 @@ export default function HomeContent() {
                 glass caps the stack on phones; from lg it moves alongside and
                 shares the row height. */}
             <FadeUp>
-              <div className="mx-auto grid max-w-5xl gap-7 lg:grid-cols-[minmax(190px,232px)_minmax(0,1fr)] lg:items-center lg:gap-12">
+              <div className="mx-auto grid max-w-5xl gap-7 lg:grid-cols-[minmax(250px,310px)_minmax(0,1fr)] lg:items-center lg:gap-12">
                 {/* Glass - the vessel that holds every layer */}
                 <div className="relative flex justify-center lg:justify-end">
                   <div
                     aria-hidden
-                    className="pointer-events-none absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full"
+                    className="pointer-events-none absolute left-1/2 top-1/2 h-[440px] w-[380px] -translate-x-1/2 -translate-y-1/2 rounded-full"
                     style={{ background: "radial-gradient(circle, rgba(255,92,77,.14), rgba(233,162,74,.05) 46%, transparent 72%)", filter: "blur(50px)" }}
                   />
                   <Image
@@ -379,7 +379,7 @@ export default function HomeContent() {
                     alt="The Sundae glass - every layer of the business in one vessel"
                     width={232}
                     height={416}
-                    className="relative h-auto w-[124px] sm:w-[150px] lg:w-full lg:max-w-[232px]"
+                    className="relative h-auto w-[128px] sm:w-[156px] lg:w-full lg:max-w-[300px]"
                     style={{ filter: "drop-shadow(0 26px 46px rgba(0,0,0,0.5))" }}
                   />
                 </div>
