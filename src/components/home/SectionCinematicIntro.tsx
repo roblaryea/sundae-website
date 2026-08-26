@@ -5,6 +5,7 @@ import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { cinematicIntroCopy } from "./sections/cinematicIntroCopy";
 import { RecoveryLoop } from "./RecoveryLoop";
+import type { RecoveryFigure } from "@/lib/recovery-figure";
 
 // Fine film-grain tile (feTurbulence) - the premium cinematic "noise" layer.
 const GRAIN =
@@ -57,7 +58,7 @@ function fitSubPx(el: HTMLElement): number | null {
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
-export function SectionCinematicIntro() {
+export function SectionCinematicIntro({ recoveryFigure }: { recoveryFigure?: RecoveryFigure } = {}) {
   const { locale } = useWebsiteI18n();
   const reduceMotion = useReducedMotion();
   // See Glass: gate SSR-affecting motion guards behind `mounted` so the first
@@ -146,7 +147,7 @@ export function SectionCinematicIntro() {
       />
 
       <motion.div
-        className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-8 sm:gap-10 lg:gap-14 lg:grid-cols-[1.02fr_.98fr]"
+        className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-8 sm:gap-10 lg:gap-14 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,0.98fr)]"
         style={rm ? undefined : { opacity: sceneOpacity, y: sceneY }}
       >
         {/* min-w-0 so the nowrap headline can't expand this grid track past its
@@ -210,12 +211,13 @@ export function SectionCinematicIntro() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.9, ease: EASE }}
           >
-            {/* Break the sentence at its clause dashes: each clause on its own row
-                on desktop (nowrap + per-locale fit keeps it to one line), flowing
-                naturally on mobile. The \u00A0 before the dash glues it to the preceding word
-                so it can never wrap onto a line by itself. */}
+            {/* Break the sentence at its clause dashes: each clause starts its own
+                line on desktop and wraps naturally within the column (no forced
+                nowrap - that shrank the copy to fit and, in the narrower two-column
+                hero, overflowed into the loop). The \u00A0 before the dash glues it to
+                the preceding word so the dash never wraps onto a line by itself. */}
             {copy.sub.split(" - ").map((part, i, arr) => (
-              <span key={i} className="lg:block lg:whitespace-nowrap">
+              <span key={i} className="lg:block">
                 {i < arr.length - 1 ? `${part}\u00A0- ` : part}
               </span>
             ))}
@@ -238,7 +240,7 @@ export function SectionCinematicIntro() {
         </div>
 
         <div className="relative flex min-h-[300px] items-center justify-center sm:min-h-[420px] lg:min-h-[640px]">
-          <RecoveryLoop />
+          <RecoveryLoop figure={recoveryFigure} />
         </div>
       </motion.div>
 

@@ -4,6 +4,8 @@ import { animate, motion, useReducedMotion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { recoveryLoopCopy } from "./recoveryLoopCopy";
+import { resolveRecoveryFigure, type RecoveryFigure } from "@/lib/recovery-figure";
+import type { WebsiteLocale } from "@/lib/i18n";
 
 /**
  * RecoveryLoop - the homepage hero-1 signature. The visual IS the message:
@@ -32,27 +34,31 @@ const STAGE_POS = [
   { x: CX - R, y: CY, anchor: "end", lx: CX - R - 16, ly: CY + 4 }, // Measure (left)
 ] as const;
 
-export function RecoveryLoop() {
+export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
   const { locale } = useWebsiteI18n();
   const copy = recoveryLoopCopy[locale] ?? recoveryLoopCopy.en;
+  // Currency + amount come geo-resolved from the server (page.tsx); fall back to
+  // the language locale if the component is ever rendered without a figure.
+  const fig = figure ?? resolveRecoveryFigure(locale as WebsiteLocale);
   const reduce = useReducedMotion();
   const [mounted, setMounted] = useState(false);
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
   const rm = mounted && reduce;
 
-  // Localized currency formatter for the recovered figure.
+  // Localized currency formatter: the visitor's language for grouping/digits, the
+  // geo-resolved currency for the symbol.
   const fmt = useMemo(() => {
     try {
-      return new Intl.NumberFormat(locale, { style: "currency", currency: copy.currency, maximumFractionDigits: 0 });
+      return new Intl.NumberFormat(fig.intlLocale, { style: "currency", currency: fig.currency, currencyDisplay: "narrowSymbol", maximumFractionDigits: 0 });
     } catch {
       return new Intl.NumberFormat("en", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
     }
-  }, [locale, copy.currency]);
+  }, [fig.intlLocale, fig.currency]);
 
   // Number font size is picked from the FINAL formatted length (stable while the
   // value counts up), so long-currency strings (IDR, VND, KRW) still fit the ring.
-  const finalStr = fmt.format(copy.amount);
+  const finalStr = fmt.format(fig.amount);
   const numFontSize = finalStr.length <= 8 ? 44 : finalStr.length <= 10 ? 38 : finalStr.length <= 12 ? 32 : 27;
 
   // Count-up. Reduced motion renders the final value directly (see `shown`), so
@@ -60,15 +66,15 @@ export function RecoveryLoop() {
   const [value, setValue] = useState(0);
   useEffect(() => {
     if (rm) return;
-    const controls = animate(0, copy.amount, {
+    const controls = animate(0, fig.amount, {
       duration: 1.4,
       delay: 0.7,
       ease: [0.16, 1, 0.3, 1],
       onUpdate: (v) => setValue(Math.round(v)),
     });
     return () => controls.stop();
-  }, [rm, copy.amount]);
-  const shown = rm ? copy.amount : value;
+  }, [rm, fig.amount]);
+  const shown = rm ? fig.amount : value;
 
   // Sequential stage highlight, in step with the 6.5s comet (one lap = 4 stages).
   const [active, setActive] = useState(0);
