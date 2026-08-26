@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
       "badge": "لفرق الموارد البشرية والأفراد",
       "titleLine1": "جدول زمني مبني على الوردية.",
       "titleLine2": "ليس على الأسبوع الماضي.",
-      "description": "تباين العمالة الحية حسب الموقع. تم وضع علامة على مخاطر العمل الإضافي قبل حدوثها. يتم قياس الإنتاجية لكل ساعة FOH، وليس لكل فترة دفع.",
+      "description": "تباين عمالة حي لكل موقع - يُسنَد إلى مدير محدد ويُقاس مجدداً على الهامش. وقت إضافي يُرفَع قبل أن يُسجَّل، وإنتاجية تُقاس بساعة لا بدورة رواتب.",
       "primaryCta": "احجز جولة عمل",
       "secondaryCta": "انظر عرض العمل",
       "problemsEyebrow": "حيث يتسرب العمل",
@@ -63,11 +63,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "ما التغييرات بالنسبة للموارد البشرية",
-      "outcomesDescription": "جداول زمنية أكثر صرامة، ومفاجآت أقل، وإنتاجية يمكنك إظهارها.",
+      "outcomesDescription": "جداول أحكم، ووقت إضافي بعهدة مدير، وهامش عمالة مستردّ يُقاس مجدداً.",
       "outcomes": [
         {
-          "title": "قطع التعرض OT قبل أن يهبط",
-          "description": "إعادة تخصيص ساعات العمل في منتصف الأسبوع، وليس بعد تشغيل كشوف المرتبات.",
+          "title": "استردّ OT قبل أن يُدفَع",
+          "description": "أعد توزيع الساعات في منتصف الأسبوع إلى مدير محدد وقِس هامش العمالة مجدداً مقابل خط الأساس - لا بعد تشغيل الرواتب.",
           "icon": "speed"
         },
         {
@@ -92,15 +92,15 @@ export const generatedLocalCopy = {
         "description": "يدير Crew الجدولة والوقت والحضور وكشوف المرتبات متعددة المناطق (الولايات المتحدة وكندا والمملكة المتحدة والاتحاد الأوروبي ودول مجلس التعاون الخليجي - محرك واحد)، وأكثر من 60 سطحًا للموارد البشرية - تصبح كل نوبة عمل وساعة ودورة دفع إشارة تدعم ذكاء العمل في هذه الصفحة. اختياري: قم بإحضار HR الخاص بك (Bayzat، Personio، Gusto) وستظل Sundae تقرأ نفس الإشارة.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "شاهد عمالتك أثناء الحركة.",
-      "ctaDescription": "30 دقيقة. الجدول الزمني الخاص بك. OT الذي كنت ستلتقطه قبل أن تهبط.",
+      "ctaTitle": "ارصد التسرب. استردّ هامش العمالة.",
+      "ctaDescription": "30 دقيقة. جدولك. ساعات OT مُسنَدة إلى مسؤول - وهامش العمالة يُقاس مجدداً مقابل خط الأساس.",
       "ctaButton": "احجز جولة عمل"
     },
     "es": {
       "badge": "Para equipos de recursos humanos y personal",
       "titleLine1": "Horario para el turno.",
       "titleLine2": "No durante la semana pasada.",
-      "description": "Variación de mano de obra viva por ubicación. Riesgo de horas extras señalado antes de que suceda. Productividad medida por hora FOH, no por período de pago.",
+      "description": "Varianza de personal en vivo por local - asignada a un gerente concreto y vuelta a medir sobre el margen. Horas extra señaladas antes de que ocurran, productividad por hora FOH, no por ciclo de nómina.",
       "primaryCta": "Agenda una sesión laboral",
       "secondaryCta": "Ver demostración laboral",
       "problemsEyebrow": "DONDE SE FUGA LA MANO DE OBRA",
@@ -157,11 +157,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "¿Qué cambios para RRHH?",
-      "outcomesDescription": "Horarios más ajustados, menos sorpresas, productividad que puedes demostrar.",
+      "outcomesDescription": "Horarios más ajustados, horas extra a cargo de un gerente, margen de personal recuperado y vuelto a medir.",
       "outcomes": [
         {
-          "title": "Reduzca la exposición a OT antes de que aterrice",
-          "description": "Reasigne horas a mitad de semana, no después de la ejecución de la nómina.",
+          "title": "Recupera las horas extra antes de pagarlas",
+          "description": "Redistribuye horas a mitad de semana a un gerente concreto y vuelve a medir el margen de personal contra la línea base - no después de la nómina.",
           "icon": "speed"
         },
         {
@@ -186,15 +186,15 @@ export const generatedLocalCopy = {
         "description": "Crew ejecuta programación, tiempo y asistencia, nómina multirregional (EE. UU., Canadá, Reino Unido, UE, CCG: un motor) y más de 60 superficies de recursos humanos: cada turno, hora y ciclo de pago se convierte en una señal que impulsa la inteligencia laboral en esta página. Opcional: traiga su propio HR (Bayzat, Personio, Gusto) y Sundae seguirá leyendo la misma señal.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "Vea su personal en movimiento.",
-      "ctaDescription": "30 minutos. Tu horario. El OT que habrías atrapado antes de que aterrizara.",
+      "ctaTitle": "Detecta la fuga. Recupera el margen de personal.",
+      "ctaDescription": "30 minutos. Tu horario. Las horas extra asignadas a un responsable - y el margen de personal vuelto a medir contra la línea base.",
       "ctaButton": "Agenda una sesión laboral"
     },
     "de": {
       "badge": "Für HR- und Personalteams",
       "titleLine1": "Zeitplan für die Schicht.",
       "titleLine2": "Nicht für letzte Woche.",
-      "description": "Live-Arbeitsvarianz nach Standort. Überstundenrisiko wird erkannt, bevor es eintritt. Die Produktivität wird pro FOH-Stunde gemessen, nicht pro Lohnperiode.",
+      "description": "Live-Arbeitsvarianz nach Standort - an einen benannten Manager übergeben und auf die Marge zurückgemessen. Überstunden markiert, bevor sie eintreffen, Produktivität pro FOH-Stunde gemessen, nicht pro Lohnperiode.",
       "primaryCta": "Buchen Sie einen Arbeitsrundgang",
       "secondaryCta": "Siehe Arbeitsdemo",
       "problemsEyebrow": "Wo Arbeitskräfte auslaufen",
@@ -251,11 +251,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Was sich für HR ändert",
-      "outcomesDescription": "Engere Zeitpläne, weniger Überraschungen, Produktivität, die Sie zeigen können.",
+      "outcomesDescription": "Engere Zeitpläne, Überstunden in Manager-Verantwortung, zurückgewonnene Personalmarge zurückgemessen.",
       "outcomes": [
         {
-          "title": "Reduzieren Sie die OT-Belichtung, bevor sie eintrifft",
-          "description": "Weisen Sie die Stunden zur Wochenmitte neu zu, nicht nach der Lohn- und Gehaltsabrechnung.",
+          "title": "Überstunden zurückholen, bevor sie bezahlt sind",
+          "description": "Verteilen Sie die Stunden zur Wochenmitte an einen benannten Manager neu und messen Sie die Personalmarge gegen die Baseline zurück - nicht nach der Lohnabrechnung.",
           "icon": "speed"
         },
         {
@@ -280,15 +280,15 @@ export const generatedLocalCopy = {
         "description": "Crew übernimmt Dienstplanung, Zeiterfassung, Gehaltsabrechnung in mehreren Regionen (USA, Kanada, Großbritannien, EU, GCC - eine Engine) und über 60 HR-Oberflächen - jede Schicht, jede Stunde und jeder Lohnzyklus wird zum Signal, das die Personalinformationen auf dieser Seite antreibt. Optional: Bringen Sie Ihre eigene Personalabteilung mit (Bayzat, Personio, Gusto) und Sundae liest weiterhin dasselbe Signal.",
         "ctaText": "Entdecken Sie Sundae Crew"
       },
-      "ctaTitle": "Erleben Sie Ihre Arbeit in Bewegung.",
-      "ctaDescription": "30 Minuten. Ihr Zeitplan. Das OT, das du gefangen hättest, bevor es gelandet wäre.",
+      "ctaTitle": "Finden Sie das Leck. Holen Sie die Personalmarge zurück.",
+      "ctaDescription": "30 Minuten. Ihr Zeitplan. Die Überstunden an einen Verantwortlichen übergeben - und die Personalmarge gegen die Baseline zurückgemessen.",
       "ctaButton": "Buchen Sie einen Arbeitsrundgang"
     },
     "fr": {
       "badge": "Pour les équipes RH et People",
       "titleLine1": "Un planning calé sur le service.",
       "titleLine2": "Pas pour la semaine dernière.",
-      "description": "Variation du travail en direct par emplacement. Le risque d’heures supplémentaires est signalé avant qu’il ne se produise. Productivité mesurée par heure FOH et non par période de paie.",
+      "description": "Variance main-d'œuvre live par site - confiée à un manager nommé et remesurée sur la marge. Heures sup' signalées avant qu'elles ne tombent, productivité par heure FOH, pas par cycle de paie.",
       "primaryCta": "Réservez une visite guidée du travail",
       "secondaryCta": "Voir la démo du travail",
       "problemsEyebrow": "OÙ LA MAIN-D'ŒUVRE FUITE",
@@ -345,11 +345,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Quels changements pour les RH",
-      "outcomesDescription": "Des horaires plus serrés, moins de surprises, une productivité dont vous pouvez faire preuve.",
+      "outcomesDescription": "Plannings plus serrés, heures sup' confiées à un manager, marge main-d'œuvre récupérée et remesurée.",
       "outcomes": [
         {
-          "title": "Réduisez l’exposition à l’OT avant qu’il n’atterrisse",
-          "description": "Réaffectez les heures en milieu de semaine, et non après le traitement de la paie.",
+          "title": "Récupérez les heures sup' avant qu'elles ne soient payées",
+          "description": "Redistribuez les heures en milieu de semaine à un manager nommé et remesurez la marge main-d'œuvre face au point de référence - pas après le run de paie.",
           "icon": "speed"
         },
         {
@@ -374,15 +374,15 @@ export const generatedLocalCopy = {
         "description": "Crew gère la planification, le temps et les présences, la paie multirégionale (États-Unis, Canada, Royaume-Uni, UE, GCC - un seul moteur) et plus de 60 surfaces RH - chaque quart, chaque heure et chaque cycle de paie devient le signal qui alimente l'intelligence de la main-d'œuvre sur cette page. Facultatif : apportez votre propre HR (Bayzat, Personio, Gusto) et Sundae lit toujours le même signal.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "Voyez votre travail en mouvement.",
-      "ctaDescription": "30 minutes. Votre emploi du temps. L'OT que vous auriez attrapé avant son atterrissage.",
+      "ctaTitle": "Repérez la fuite. Récupérez la marge main-d'œuvre.",
+      "ctaDescription": "30 minutes. Votre planning. Les heures sup' confiées à un responsable - et la marge main-d'œuvre remesurée face au point de référence.",
       "ctaButton": "Réservez une visite guidée du travail"
     },
     "pt": {
       "badge": "Para equipes de RH e pessoas",
       "titleLine1": "Cronograma para o turno.",
       "titleLine2": "Não na semana passada.",
-      "description": "Variação de mão de obra ativa por local. Risco de horas extras sinalizado antes de acontecer. Produtividade medida por hora FOH, não por período de pagamento.",
+      "description": "Variação de mão de obra ativa por local - atribuída a um gestor nomeado e medida de volta na margem. Horas extras sinalizadas antes de chegarem, produtividade medida por hora FOH, não por período de pagamento.",
       "primaryCta": "Agende uma avaliação trabalhista",
       "secondaryCta": "Veja Demonstração Trabalhista",
       "problemsEyebrow": "ONDE A MÃO DE OBRA VAZA",
@@ -439,11 +439,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "O que muda para o RH",
-      "outcomesDescription": "Prazos mais apertados, menos surpresas, produtividade que você pode demonstrar.",
+      "outcomesDescription": "Escalas mais apertadas, horas extras sob responsabilidade de um gestor, margem de mão de obra recuperada e medida de volta.",
       "outcomes": [
         {
-          "title": "Reduza a exposição ao OT antes que ele chegue",
-          "description": "Realoque as horas no meio da semana, não após a execução da folha de pagamento.",
+          "title": "Recupere as horas extras antes de pagá-las",
+          "description": "Realoque as horas no meio da semana para um gestor nomeado e meça a margem de mão de obra de volta contra a linha de base - não após a execução da folha de pagamento.",
           "icon": "speed"
         },
         {
@@ -468,15 +468,15 @@ export const generatedLocalCopy = {
         "description": "O Crew administra escala, ponto e presença, folha de pagamento multirregional (EUA, Canadá, Reino Unido, UE, GCC - um motor) e mais de 60 superfícies de RH - cada turno, hora e ciclo de pagamento se torna um sinal que alimenta a inteligência de mão de obra nesta página. Opcional: traga seu próprio RH (Bayzat, Personio, Gusto) e o Sundae continua lendo o mesmo sinal.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "Veja seu trabalho em movimento.",
-      "ctaDescription": "30 minutos. Sua programação. O OT que você teria capturado antes de pousar.",
+      "ctaTitle": "Encontre o vazamento. Recupere a margem de mão de obra.",
+      "ctaDescription": "30 minutos. Sua escala. As horas extras atribuídas a um responsável - e a margem de mão de obra medida de volta contra a linha de base.",
       "ctaButton": "Agende uma avaliação trabalhista"
     },
     "nl": {
       "badge": "Voor HR- en people-teams",
       "titleLine1": "Schema voor de dienst.",
       "titleLine2": "Niet voor vorige week.",
-      "description": "Verschil in levende arbeid per locatie. Het risico van overwerk wordt gemarkeerd voordat het zich voordoet. Productiviteit gemeten per FOH-uur, niet per betaalperiode.",
+      "description": "Live arbeidsvariantie per locatie - toegewezen aan een benoemde manager en teruggemeten op de marge. Overuren gemarkeerd voordat ze landen, productiviteit gemeten per FOH-uur, niet per betaalperiode.",
       "primaryCta": "Boek een Labor Walk-through",
       "secondaryCta": "Zie Arbeidsdemo",
       "problemsEyebrow": "WAAR ARBEID LEKT",
@@ -533,11 +533,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Wat verandert er voor HR",
-      "outcomesDescription": "Strakkere schema's, minder verrassingen, productiviteit die u kunt laten zien.",
+      "outcomesDescription": "Strakkere roosters, overuren onder beheer van een manager, teruggewonnen arbeidsmarge teruggemeten.",
       "outcomes": [
         {
-          "title": "Verminder de OT-blootstelling voordat deze landt",
-          "description": "Verdeel de uren halverwege de week opnieuw, niet na de loonadministratie.",
+          "title": "Win de overuren terug voordat ze betaald zijn",
+          "description": "Verdeel de uren halverwege de week opnieuw naar een benoemde manager en meet de arbeidsmarge terug tegen de baseline - niet na de loonadministratie.",
           "icon": "speed"
         },
         {
@@ -562,15 +562,15 @@ export const generatedLocalCopy = {
         "description": "Crew beheert planning, tijdregistratie, loonadministratie voor meerdere regio's (VS, Canada, VK, EU, GCC - één engine) en meer dan 60 HR-oppervlakken - elke dienst, uur en betaalcyclus wordt een signaal dat de arbeidsintelligentie op deze pagina aanstuurt. Optioneel: neem je eigen HR mee (Bayzat, Personio, Gusto) en Sundae leest nog steeds hetzelfde signaal.",
         "ctaText": "Ontdek Sundae Crew"
       },
-      "ctaTitle": "Zie uw personeel in beweging.",
-      "ctaDescription": "30 minuten. Jouw schema. De OT die je zou hebben gepakt voordat hij landde.",
+      "ctaTitle": "Vind het lek. Haal de arbeidsmarge terug.",
+      "ctaDescription": "30 minuten. Uw rooster. De overuren toegewezen aan een eigenaar - en de arbeidsmarge teruggemeten tegen de baseline.",
       "ctaButton": "Boek een Labor Walk-through"
     },
     "ur": {
       "badge": "HR اور لوگوں کی ٹیموں کے لیے",
       "titleLine1": "شفٹ کے لیے شیڈول۔",
       "titleLine2": "پچھلے ہفتے کے لیے نہیں۔",
-      "description": "مقام کے لحاظ سے لیبر کا براہ راست تغیر۔ اوور ٹائم کے خطرے کو ہونے سے پہلے ہی جھنڈا لگا دیا گیا۔ پیداواری صلاحیت فی FOH گھنٹہ ماپا جاتا ہے، فی تنخواہ کی مدت نہیں۔",
+      "description": "مقام کے لحاظ سے لائیو لیبر تغیر - ایک متعین منیجر کے سپرد اور مارجن پر دوبارہ ناپا گیا۔ اوور ٹائم اترنے سے پہلے پرچم لگا، پیداواری صلاحیت فی FOH گھنٹہ ماپی گئی، فی تنخواہ مدت نہیں۔",
       "primaryCta": "لیبر واک تھرو بک کریں۔",
       "secondaryCta": "لیبر ڈیمو دیکھیں",
       "problemsEyebrow": "جہاں لیبر لیک ہوتی ہے۔",
@@ -627,11 +627,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "HR کے لیے کیا تبدیلیاں؟",
-      "outcomesDescription": "سخت نظام الاوقات، کم حیرت، پیداواری صلاحیت جو آپ دکھا سکتے ہیں۔",
+      "outcomesDescription": "سخت نظام الاوقات، اوور ٹائم ایک منیجر کی ذمہ داری میں، اور بازیافت شدہ لیبر مارجن دوبارہ ناپا گیا۔",
       "outcomes": [
         {
-          "title": "اترنے سے پہلے OT کی نمائش کاٹ دیں۔",
-          "description": "ہفتے کے وسط میں اوقات دوبارہ ترتیب دیں، پے رول چلانے کے بعد نہیں۔",
+          "title": "اوور ٹائم کو ادا ہونے سے پہلے بازیافت کریں",
+          "description": "ہفتے کے وسط میں اوقات ایک متعین منیجر کو دوبارہ تفویض کریں اور لیبر مارجن کو بنیادی سطح کے مقابلے دوبارہ ناپیں - پے رول چلانے کے بعد نہیں۔",
           "icon": "speed"
         },
         {
@@ -656,15 +656,15 @@ export const generatedLocalCopy = {
         "description": "عملہ شیڈولنگ، وقت اور حاضری، ملٹی ریجن پے رول (US, Canada, UK, EU, GCC - ایک انجن) اور 60+ HR سطحوں پر چلتا ہے - ہر شفٹ، گھنٹہ، اور پے سائیکل سگنل بنتا ہے جو اس صفحہ پر لیبر انٹیلی جنس کو طاقت دیتا ہے۔ اختیاری: اپنا HR لائیں (Bayzat, Personio, Gusto) اور Sundae پھر بھی وہی سگنل پڑھتا ہے۔",
         "ctaText": "Sundae Crew کو دریافت کریں۔"
       },
-      "ctaTitle": "اپنی محنت کو حرکت میں دیکھیں۔",
-      "ctaDescription": "30 منٹ آپ کا شیڈول۔ جس OT کو آپ نے اترنے سے پہلے پکڑ لیا ہوگا۔",
+      "ctaTitle": "رساؤ تلاش کریں۔ لیبر مارجن واپس حاصل کریں۔",
+      "ctaDescription": "30 منٹ۔ آپ کا شیڈول۔ اوور ٹائم گھنٹے ایک ذمہ دار کے سپرد - اور لیبر مارجن بنیادی سطح کے مقابلے دوبارہ ناپا گیا۔",
       "ctaButton": "لیبر واک تھرو بک کریں۔"
     },
     "hi": {
       "badge": "मानव संसाधन एवं लोगों की टीमों के लिए",
       "titleLine1": "शिफ्ट के लिए शेड्यूल.",
       "titleLine2": "पिछले सप्ताह के लिए नहीं.",
-      "description": "स्थान के अनुसार लाइव श्रम भिन्नता। ओवरटाइम जोखिम होने से पहले ही चिह्नित कर लिया गया। उत्पादकता प्रति एफओएच घंटे मापी जाती है, प्रति भुगतान अवधि नहीं।",
+      "description": "स्थान के अनुसार लाइव श्रम भिन्नता - एक नामित मैनेजर को सौंपी गई और मार्जिन पर दोबारा मापी गई। ओवरटाइम उतरने से पहले चिह्नित, उत्पादकता प्रति FOH घंटे मापी गई, प्रति भुगतान अवधि नहीं।",
       "primaryCta": "लेबर वॉक-थ्रू बुक करें",
       "secondaryCta": "लेबर डेमो देखें",
       "problemsEyebrow": "जहां श्रम लीक होता है",
@@ -721,11 +721,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "एचआर के लिए क्या बदलाव?",
-      "outcomesDescription": "सख्त कार्यक्रम, कम आश्चर्य, उत्पादकता जो आप दिखा सकते हैं।",
+      "outcomesDescription": "सख्त कार्यक्रम, ओवरटाइम एक मैनेजर की जिम्मेदारी में, और वसूला गया श्रम मार्जिन दोबारा मापा गया।",
       "outcomes": [
         {
-          "title": "उतरने से पहले ओटी एक्सपोज़र को काट दें",
-          "description": "सप्ताह के मध्य में घंटों का पुनः आबंटन करें, पेरोल चलने के बाद नहीं।",
+          "title": "ओवरटाइम को भुगतान से पहले वसूलें",
+          "description": "सप्ताह के मध्य में घंटों को एक नामित मैनेजर को फिर से आवंटित करें और श्रम मार्जिन को आधार रेखा के मुकाबले दोबारा मापें - पेरोल चलने के बाद नहीं।",
           "icon": "speed"
         },
         {
@@ -750,15 +750,15 @@ export const generatedLocalCopy = {
         "description": "क्रू शेड्यूलिंग, समय और उपस्थिति, बहु-क्षेत्र पेरोल (यूएस, कनाडा, यूके, ईयू, जीसीसी - एक इंजन), और 60+ एचआर सतह - प्रत्येक शिफ्ट, घंटे और वेतन-चक्र को सिग्नल बनाता है जो इस पृष्ठ पर श्रम खुफिया को शक्ति प्रदान करता है। वैकल्पिक: अपना स्वयं का एचआर (बेज़ैट, पर्सोनियो, गुस्टो) लाएँ और Sundae अभी भी वही सिग्नल पढ़ता है।",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "अपने श्रम को गति में देखें।",
-      "ctaDescription": "30 मिनट. आपका शेड्यूल. ओटी को आपने उतरने से पहले ही पकड़ लिया होगा।",
+      "ctaTitle": "रिसाव खोजें। श्रम मार्जिन वापस पाएं।",
+      "ctaDescription": "30 मिनट। आपका शेड्यूल। ओवरटाइम घंटे एक जिम्मेदार को सौंपे गए - और श्रम मार्जिन आधार रेखा के मुकाबले दोबारा मापा गया।",
       "ctaButton": "लेबर वॉक-थ्रू बुक करें"
     },
     "pl": {
       "badge": "Dla zespołów HR i personalnych",
       "titleLine1": "Harmonogram zmiany.",
       "titleLine2": "Nie przez ostatni tydzień.",
-      "description": "Różnice w pracy na żywo według lokalizacji. Ryzyko wystąpienia nadgodzin jest sygnalizowane, zanim do nich dojdzie. Produktywność mierzona na godzinę FOH, a nie na okres rozliczeniowy.",
+      "description": "Różnice w pracy na żywo według lokalizacji - przypisane do wskazanego menedżera i zmierzone z powrotem na marży. Nadgodziny oznaczone, zanim wylądują, produktywność mierzona na godzinę FOH, a nie na okres rozliczeniowy.",
       "primaryCta": "Zarezerwuj spacer po pracy",
       "secondaryCta": "Zobacz Demo Pracy",
       "problemsEyebrow": "GDZIE WYCIEKA ROBOCIZNA",
@@ -815,11 +815,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Jakie zmiany dla HR",
-      "outcomesDescription": "Napięte harmonogramy, mniej niespodzianek, produktywność, którą możesz wykazać.",
+      "outcomesDescription": "Napięte harmonogramy, nadgodziny w gestii menedżera, odzyskana marża robocizny zmierzona z powrotem.",
       "outcomes": [
         {
-          "title": "Zmniejsz ekspozycję OT, zanim wyląduje",
-          "description": "Realokuj godziny pracy w środku tygodnia, a nie po zakończeniu listy płac.",
+          "title": "Odzyskaj nadgodziny, zanim zostaną opłacone",
+          "description": "Rozłóż godziny w środku tygodnia na wskazanego menedżera i zmierz marżę robocizny z powrotem względem punktu odniesienia - a nie po zamknięciu listy płac.",
           "icon": "speed"
         },
         {
@@ -844,15 +844,15 @@ export const generatedLocalCopy = {
         "description": "Crew zarządza grafikiem, czasem i obecnością, listą płac w wielu regionach (USA, Kanada, Wielka Brytania, UE, GCC - jeden silnik) i ponad 60 powierzchniami HR - każda zmiana, godzina i cykl płac staje się sygnałem napędzającym inteligencję personalną na tej stronie. Opcjonalnie: przynieś własne HR (Bayzat, Personio, Gusto), a Sundae nadal odczytuje ten sam sygnał.",
         "ctaText": "Poznaj Sundae Crew"
       },
-      "ctaTitle": "Zobacz swoją pracę w ruchu.",
-      "ctaDescription": "30 minut. Twój harmonogram. OT, który złapałbyś zanim wylądował.",
+      "ctaTitle": "Znajdź wyciek. Odzyskaj marżę robocizny.",
+      "ctaDescription": "30 minut. Twój harmonogram. Godziny nadliczbowe przypisane do właściciela - i marża robocizny zmierzona z powrotem względem punktu odniesienia.",
       "ctaButton": "Zarezerwuj spacer po pracy"
     },
     "it": {
       "badge": "Per i team delle risorse umane e del personale",
       "titleLine1": "Programma per il turno.",
       "titleLine2": "Non per la settimana scorsa.",
-      "description": "Variazione della manodopera viva in base alla località. Il rischio di straordinario è segnalato prima che si verifichi. Produttività misurata per ora FOH, non per periodo di paga.",
+      "description": "Variazione della manodopera viva per località - affidata a un responsabile designato e rimisurata sul margine. Straordinari segnalati prima che arrivino, produttività misurata per ora FOH, non per periodo di paga.",
       "primaryCta": "Prenota una visita guidata del lavoro",
       "secondaryCta": "Vedi Demo del lavoro",
       "problemsEyebrow": "DOVE SI DISPERDE LA MANODOPERA",
@@ -909,11 +909,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Cosa cambia per le risorse umane",
-      "outcomesDescription": "Programmi più serrati, meno sorprese, produttività che puoi mostrare.",
+      "outcomesDescription": "Orari più serrati, straordinari in carico a un responsabile, margine di manodopera recuperato e rimisurato.",
       "outcomes": [
         {
-          "title": "Taglia l'esposizione OT prima che arrivi",
-          "description": "Ridistribuire le ore a metà settimana, non dopo l'esecuzione delle buste paga.",
+          "title": "Recupera gli straordinari prima che siano pagati",
+          "description": "Ridistribuisci le ore a metà settimana a un responsabile designato e rimisura il margine di manodopera rispetto alla baseline - non dopo l'elaborazione del libro paga.",
           "icon": "speed"
         },
         {
@@ -938,15 +938,15 @@ export const generatedLocalCopy = {
         "description": "Crew gestisce la pianificazione dei turni, orari e presenze, buste paga multi-regione (Stati Uniti, Canada, Regno Unito, UE, GCC - un solo motore) e oltre 60 superfici HR: ogni turno, ora e ciclo di retribuzione diventa un segnale che alimenta l'intelligence sulla manodopera in questa pagina. Opzionale: porta il tuo HR (Bayzat, Personio, Gusto) e Sundae continuerà a leggere lo stesso segnale.",
         "ctaText": "Esplora Sundae Crew"
       },
-      "ctaTitle": "Guarda la tua manodopera in movimento.",
-      "ctaDescription": "30 minuti. Il tuo programma. L'OT che avresti catturato prima che atterrasse.",
+      "ctaTitle": "Trova la falla. Recupera il margine di manodopera.",
+      "ctaDescription": "30 minuti. Il tuo turno. Le ore di straordinario affidate a un responsabile - e il margine di manodopera rimisurato rispetto alla baseline.",
       "ctaButton": "Prenota una visita guidata del lavoro"
     },
     "zh-Hans": {
       "badge": "对于人力资源和人员团队",
       "titleLine1": "为当前班次排班。",
       "titleLine2": "而非沿用上周。",
-      "description": "不同地点的实时劳动力差异。加班风险在发生之前就被标记出来。生产力是按 FOH 小时而不是按工资周期来衡量的。",
+      "description": "按地点的实时劳动差异--指派给一位指定经理并按利润率重新衡量。加班在发生前被标记，生产力按每FOH小时衡量，而非按薪资周期。",
       "primaryCta": "预约劳工演练",
       "secondaryCta": "查看劳动演示",
       "problemsEyebrow": "劳动力流失的地方",
@@ -1003,11 +1003,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "HR 有何变化",
-      "outcomesDescription": "日程安排更紧凑，惊喜更少，您可以展示生产力。",
+      "outcomesDescription": "更紧凑的排班，加班由一位经理负责，挽回的人力利润率被重新衡量。",
       "outcomes": [
         {
-          "title": "在其落地之前减少 OT 暴露",
-          "description": "在周中重新分配工作时间，而不是在工资发放之后。",
+          "title": "在支付之前挽回加班",
+          "description": "在周中把工时重新分配给一位指定经理，并对照基线重新衡量人力利润率--而不是在薪资结算之后。",
           "icon": "speed"
         },
         {
@@ -1032,15 +1032,15 @@ export const generatedLocalCopy = {
         "description": "Crew 负责调度、考勤、多地区薪资（美国、加拿大、英国、欧盟、海湾合作委员会 - 一个引擎）和 60 多个 HR 界面 - 每个班次、每个小时和薪资周期都成为为该页面上的劳动力情报提供动力的信号。可选：带上您自己的 HR（Bayzat、Personio、Gusto），Sundae仍然读取相同的信号。",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "查看您的劳动动态。",
-      "ctaDescription": "30分钟。你的日程安排。在它落地之前你会抓住的 OT。",
+      "ctaTitle": "找出泄漏。收回人力利润率。",
+      "ctaDescription": "30分钟。您的排班。加班工时指派给一位负责人--人力利润率对照基线重新衡量。",
       "ctaButton": "预约劳工演练"
     },
     "tr": {
       "badge": "İK ve İnsan Ekipleri için",
       "titleLine1": "Vardiya için program yapın.",
       "titleLine2": "Geçen hafta için değil.",
-      "description": "Konuma göre canlı emek farkı. Fazla mesai riski gerçekleşmeden önce işaretlenir. Verimlilik, ödeme dönemi başına değil, FOH saati başına ölçülür.",
+      "description": "Konuma göre canlı iş gücü varyansı - adı belirli bir yöneticiye yönlendirilir ve marj üzerinden yeniden ölçülür. Fazla mesai düşmeden önce işaretlenir, verimlilik ödeme dönemi başına değil FOH saati başına ölçülür.",
       "primaryCta": "İşçilik İncelemesi Rezervasyonu Yapın",
       "secondaryCta": "İşçi Demosunu Görün",
       "problemsEyebrow": "İŞGÜCÜ NEREDE KAÇIYOR",
@@ -1097,11 +1097,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "İK için neler değişiyor?",
-      "outcomesDescription": "Daha sıkı programlar, daha az sürpriz, gösterebileceğiniz üretkenlik.",
+      "outcomesDescription": "Daha sıkı programlar, bir yöneticinin sorumluluğundaki fazla mesai ve yeniden ölçülen geri kazanılmış iş gücü marjı.",
       "outcomes": [
         {
-          "title": "İnmeden önce OT maruziyetini kesin",
-          "description": "Çalışma saatlerini maaş bordrosu bittikten sonra değil, hafta ortasında yeniden tahsis edin.",
+          "title": "Ödenmeden önce fazla mesaiyi geri kazanın",
+          "description": "Saatleri hafta ortasında adı belirli bir yöneticiye yeniden dağıtın ve iş gücü marjını temel çizgiye göre yeniden ölçün - bordro çalışmasından sonra değil.",
           "icon": "speed"
         },
         {
@@ -1126,15 +1126,15 @@ export const generatedLocalCopy = {
         "description": "Crew; vardiya planlamasını, zaman ve devam takibini, çok bölgeli bordroyu (ABD, Kanada, İngiltere, AB, GCC - tek motor) ve 60'tan fazla İK yüzeyini çalıştırır; her vardiya, saat ve bordro döngüsü bu sayfadaki işgücü zekasını besleyen bir sinyale dönüşür. İsteğe bağlı: kendi HR'nizi (Bayzat, Personio, Gusto) getirin, Sundae yine aynı sinyali okur.",
         "ctaText": "Sundae Crew'u keşfedin"
       },
-      "ctaTitle": "Emeğinizi hareket halinde görün.",
-      "ctaDescription": "30 dakika. Sizin programınız. İnmeden önce yakalayacağınız OT.",
+      "ctaTitle": "Sızıntıyı bulun. İş gücü marjını geri kazanın.",
+      "ctaDescription": "30 dakika. Programınız. Fazla mesai saatleri bir sorumluya yönlendirilir - ve iş gücü marjı temel çizgiye göre yeniden ölçülür.",
       "ctaButton": "İşçilik İncelemesi Rezervasyonu Yapın"
     },
     "ja": {
       "badge": "人事および人事チーム向け",
       "titleLine1": "シフトのスケジュール。",
       "titleLine2": "先週のことではありません。",
-      "description": "場所ごとの実際の労働力の差異。残業のリスクが発生する前にフラグが立てられます。生産性は給与期間ごとではなく、FOH 時間ごとに測定されます。",
+      "description": "拠点ごとのライブ労働変動--指名したマネージャーに割り当て、マージンで測り直します。残業は発生前にフラグが立ち、生産性はFOH時間あたりで測定され、給与期間ごとではありません。",
       "primaryCta": "労務ウォークスルーを予約する",
       "secondaryCta": "労務デモを見る",
       "problemsEyebrow": "労働力が漏れる場所",
@@ -1191,11 +1191,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "人事にとって何が変わるのか",
-      "outcomesDescription": "スケジュールが厳しくなり、予期せぬ事態が減り、生産性を発揮できるようになります。",
+      "outcomesDescription": "より引き締まったシフト、残業はマネージャーの担当、回収した労働マージンを測り直します。",
       "outcomes": [
         {
-          "title": "着地する前にOTの露出をカットする",
-          "description": "給与計算後ではなく、週の半ばに時間を再割り当てします。",
+          "title": "支払われる前に残業を回収する",
+          "description": "週の半ばに時間を指名したマネージャーへ再配分し、労働マージンを基準値に照らして測り直します--給与処理の後ではありません。",
           "icon": "speed"
         },
         {
@@ -1220,15 +1220,15 @@ export const generatedLocalCopy = {
         "description": "Crew は、シフト管理、勤怠管理、複数地域の給与計算 (米国、カナダ、英国、EU、GCC - 1 つのエンジン)、および 60 以上の HR サーフェスを実行します。すべてのシフト、時間、給与サイクルが、このページの労務インテリジェンスを支えるシグナルとなります。オプション: 独自の HR (Bayzat、Personio、Gusto) を持参しても、Sundae は同じシグナルを読み取ります。",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "あなたの労務をリアルタイムで見てください。",
-      "ctaDescription": "30分。あなたのスケジュール。着地する前に捕まえられたはずのOT。",
+      "ctaTitle": "漏れを見つけ、労働マージンを取り戻す。",
+      "ctaDescription": "30分。あなたのシフト。残業時間を担当者に割り当て--労働マージンを基準値に照らして測り直します。",
       "ctaButton": "労務ウォークスルーを予約する"
     },
     "sv": {
       "badge": "För HR & People Teams",
       "titleLine1": "Schema för skiftet.",
       "titleLine2": "Inte för förra veckan.",
-      "description": "Skillnad i levande arbete efter plats. Övertidsrisk flaggad innan den inträffar. Produktivitet mätt per FOH-timme, inte per löneperiod.",
+      "description": "Live arbetskraftsvariation per plats - tilldelad en utsedd chef och återmätt mot marginalen. Övertid flaggas innan den landar, produktivitet mätt per FOH-timme, inte per löneperiod.",
       "primaryCta": "Boka en Labor Walk-through",
       "secondaryCta": "Se Labor Demo",
       "problemsEyebrow": "DÄR ARBETSKRAFTEN LÄCKER",
@@ -1285,11 +1285,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Vad förändras för HR",
-      "outcomesDescription": "Tätare scheman, färre överraskningar, produktivitet du kan visa.",
+      "outcomesDescription": "Snävare scheman, övertid på en chefs ansvar, återvunnen arbetsmarginal återmätt.",
       "outcomes": [
         {
-          "title": "Klipp OT-exponeringen innan den landar",
-          "description": "Omfördela timmar mitt i veckan, inte efter lönekörningen.",
+          "title": "Återvinn övertiden innan den betalas",
+          "description": "Omfördela timmarna mitt i veckan till en utsedd chef och återmät arbetsmarginalen mot baslinjen - inte efter lönekörningen.",
           "icon": "speed"
         },
         {
@@ -1314,15 +1314,15 @@ export const generatedLocalCopy = {
         "description": "Crew sköter schemaläggning, tid och närvaro, lönehantering i flera regioner (USA, Kanada, Storbritannien, EU, GCC - en motor) och 60+ HR-ytor - varje skift, timme och lönecykel blir en signal som driver arbetskraftsintelligensen på den här sidan. Valfritt: ta med din egen HR (Bayzat, Personio, Gusto) och Sundae läser fortfarande samma signal.",
         "ctaText": "Utforska Sundae Crew"
       },
-      "ctaTitle": "Se ditt arbete i rörelse.",
-      "ctaDescription": "30 minuter. Ditt schema. OT du skulle ha fångat innan den landade.",
+      "ctaTitle": "Hitta läckan. Återvinn arbetsmarginalen.",
+      "ctaDescription": "30 minuter. Ditt schema. Övertidstimmarna tilldelade en ägare - och arbetsmarginalen återmätt mot baslinjen.",
       "ctaButton": "Boka en Labor Walk-through"
     },
     "id": {
       "badge": "Untuk Tim SDM & Manusia",
       "titleLine1": "Jadwal shiftnya.",
       "titleLine2": "Tidak untuk minggu lalu.",
-      "description": "Varians tenaga kerja nyata berdasarkan lokasi. Risiko lembur ditandai sebelum terjadi. Produktivitas diukur per jam FOH, bukan per periode pembayaran.",
+      "description": "Variansi tenaga kerja langsung per lokasi - diarahkan ke manajer yang ditunjuk dan diukur kembali pada margin. Lembur ditandai sebelum terjadi, produktivitas diukur per jam FOH, bukan per periode pembayaran.",
       "primaryCta": "Pesan Panduan Ketenagakerjaan",
       "secondaryCta": "Lihat Demo Buruh",
       "problemsEyebrow": "DIMANA KEBOCORAN TENAGA KERJA",
@@ -1379,11 +1379,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Perubahan apa yang terjadi pada HR",
-      "outcomesDescription": "Jadwal yang lebih ketat, lebih sedikit kejutan, produktivitas dapat Anda tunjukkan.",
+      "outcomesDescription": "Jadwal lebih ketat, lembur menjadi tanggung jawab seorang manajer, margin tenaga kerja yang dipulihkan diukur kembali.",
       "outcomes": [
         {
-          "title": "Pangkas eksposur OT sebelum terjadi",
-          "description": "Alokasikan kembali jam kerja pada pertengahan minggu, bukan setelah proses penggajian.",
+          "title": "Pulihkan lembur sebelum dibayar",
+          "description": "Alokasikan ulang jam di tengah minggu ke manajer yang ditunjuk dan ukur kembali margin tenaga kerja terhadap garis dasar - bukan setelah proses penggajian.",
           "icon": "speed"
         },
         {
@@ -1408,15 +1408,15 @@ export const generatedLocalCopy = {
         "description": "Crew menjalankan penjadwalan, waktu & kehadiran, penggajian multi-wilayah (AS, Kanada, Inggris, UE, GCC - satu mesin), dan 60+ permukaan SDM - setiap shift, jam, dan siklus pembayaran menjadi sinyal yang mendukung intelijen ketenagakerjaan di halaman ini. Opsional: bawa HR sendiri (Bayzat, Personio, Gusto) dan Sundae tetap membaca sinyal yang sama.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "Lihat tenaga kerja Anda bergerak.",
-      "ctaDescription": "30 menit. Jadwal Anda. OT yang pasti Anda tangkap sebelum terjadi.",
+      "ctaTitle": "Temukan kebocoran. Pulihkan margin tenaga kerja.",
+      "ctaDescription": "30 menit. Jadwal Anda. Jam lembur diarahkan ke penanggung jawab - dan margin tenaga kerja diukur kembali terhadap garis dasar.",
       "ctaButton": "Pesan Panduan Ketenagakerjaan"
     },
     "ko": {
       "badge": "HR 및 인력 팀용",
       "titleLine1": "교대 일정.",
       "titleLine2": "지난주는 아닙니다.",
-      "description": "위치별 실제 노동력 차이. 초과 근무 위험이 발생하기 전에 표시됩니다. 생산성은 급여 기간이 아닌 FOH 시간 기준으로 측정됩니다.",
+      "description": "위치별 실시간 노동 변동 - 지정된 매니저에게 배정하고 마진 기준으로 다시 측정합니다. 초과근무는 발생하기 전에 표시되고, 생산성은 급여 기간이 아니라 FOH 시간당으로 측정됩니다.",
       "primaryCta": "노동 견학 예약",
       "secondaryCta": "노동 데모 보기",
       "problemsEyebrow": "노동력이 누출되는 곳",
@@ -1473,11 +1473,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "HR의 변화",
-      "outcomesDescription": "더 빡빡한 일정, 더 적은 놀라움, 생산성을 보여줄 수 있습니다.",
+      "outcomesDescription": "더 촘촘한 일정, 매니저가 책임지는 초과근무, 회수한 노동 마진을 다시 측정합니다.",
       "outcomes": [
         {
-          "title": "OT 노출이 발생하기 전에 차단하세요.",
-          "description": "급여 지급 이후가 아니라 주중에 시간을 재할당합니다.",
+          "title": "지급되기 전에 초과근무를 회수하세요",
+          "description": "주중에 시간을 지정된 매니저에게 재배정하고 노동 마진을 기준선 대비 다시 측정하세요 - 급여 처리 이후가 아니라.",
           "icon": "speed"
         },
         {
@@ -1502,15 +1502,15 @@ export const generatedLocalCopy = {
         "description": "Crew는 일정 관리, 근태 관리, 다중 지역 급여(미국, 캐나다, 영국, EU, GCC - 단일 엔진) 및 60개 이상의 HR 표면을 실행합니다. 모든 교대, 시간 및 급여 주기는 이 페이지의 노동 인텔리전스를 강화하는 신호가 됩니다. 선택 사항: 자신의 HR(Bayzat, Personio, Gusto)을 가져와도 Sundae는 여전히 동일한 신호를 읽습니다.",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "당신의 노동이 어떻게 움직이는지 보십시오.",
-      "ctaDescription": "30분. 귀하의 일정. 착륙하기 전에 잡았을 OT.",
+      "ctaTitle": "누수를 찾으세요. 노동 마진을 되찾으세요.",
+      "ctaDescription": "30분. 당신의 일정. 초과근무 시간을 책임자에게 배정하고 - 노동 마진을 기준선 대비 다시 측정합니다.",
       "ctaButton": "노동 견학 예약"
     },
     "ro": {
       "badge": "Pentru echipele de HR și oameni",
       "titleLine1": "Program pentru tură.",
       "titleLine2": "Nu pentru săptămâna trecută.",
-      "description": "Variația forței de muncă în viață în funcție de locație. Riscul de ore suplimentare a fost semnalat înainte de a se întâmpla. Productivitatea măsurată pe oră FOH, nu pe perioadă de plată.",
+      "description": "Varianță de muncă în timp real pe locație - atribuită unui manager desemnat și remăsurată pe marjă. Orele suplimentare semnalate înainte să apară, productivitate măsurată pe oră FOH, nu pe perioadă de plată.",
       "primaryCta": "Rezervați o prezentare a forței de muncă",
       "secondaryCta": "Vezi Demo Muncii",
       "problemsEyebrow": "UNDE SE SCURGE FORȚA DE MUNCĂ",
@@ -1567,11 +1567,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Ce se schimbă pentru HR",
-      "outcomesDescription": "Programe mai strânse, mai puține surprize, productivitate pe care o poți demonstra.",
+      "outcomesDescription": "Programe mai strânse, orele suplimentare în responsabilitatea unui manager, marja de muncă recuperată și remăsurată.",
       "outcomes": [
         {
-          "title": "Reduceți expunerea OT înainte de a ateriza",
-          "description": "Realocați orele la mijlocul săptămânii, nu după rularea salariilor.",
+          "title": "Recuperează orele suplimentare înainte să fie plătite",
+          "description": "Realocați orele la mijlocul săptămânii unui manager desemnat și remăsurați marja de muncă față de referință - nu după rularea statelor de plată.",
           "icon": "speed"
         },
         {
@@ -1596,15 +1596,15 @@ export const generatedLocalCopy = {
         "description": "Crew rulează planificarea, pontajul și prezența, salarizarea în mai multe regiuni (SUA, Canada, Marea Britanie, UE, GCC - un singur motor) și peste 60 de suprafețe HR - fiecare tură, oră și ciclu de plată devine un semnal care alimentează inteligența forței de muncă de pe această pagină. Opțional: aduceți-vă propriul HR (Bayzat, Personio, Gusto) și Sundae citește în continuare același semnal.",
         "ctaText": "Explorați Sundae Crew"
       },
-      "ctaTitle": "Vedeți-vă munca în mișcare.",
-      "ctaDescription": "30 de minute. Programul tău. OT pe care l-ai fi prins înainte de a ateriza.",
+      "ctaTitle": "Găsește scurgerea. Recuperează marja de muncă.",
+      "ctaDescription": "30 de minute. Programul tău. Orele suplimentare atribuite unui responsabil - și marja de muncă remăsurată față de referință.",
       "ctaButton": "Rezervați o prezentare a forței de muncă"
     },
     "bn": {
       "badge": "এইচআর ও পিপল টিমের জন্য",
       "titleLine1": "শিফটের জন্য সময়সূচী।",
       "titleLine2": "গত সপ্তাহের জন্য নয়।",
-      "description": "অবস্থান অনুসারে লাইভ শ্রম বৈচিত্র। ওভারটাইম ঝুঁকি এটি ঘটার আগে পতাকাঙ্কিত. প্রতি FOH ঘন্টায় উৎপাদনশীলতা পরিমাপ করা হয়, প্রতি বেতনের সময়কাল নয়।",
+      "description": "অবস্থান অনুযায়ী লাইভ শ্রম পরিবর্তন - একজন নির্দিষ্ট ম্যানেজারকে দেওয়া হয় এবং মার্জিনের সাপেক্ষে আবার মাপা হয়। ওভারটাইম নামার আগেই চিহ্নিত, উৎপাদনশীলতা প্রতি FOH ঘণ্টায় মাপা হয়, বেতন-চক্র অনুযায়ী নয়।",
       "primaryCta": "একটি লেবার ওয়াক-থ্রু বুক করুন",
       "secondaryCta": "লেবার ডেমো দেখুন",
       "problemsEyebrow": "যেখানে শ্রম লিক",
@@ -1661,11 +1661,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "HR জন্য কি পরিবর্তন",
-      "outcomesDescription": "কঠোর সময়সূচী, কম চমক, উত্পাদনশীলতা আপনি দেখাতে পারেন।",
+      "outcomesDescription": "আরও আঁটসাঁট সূচি, ওভারটাইম একজন ম্যানেজারের দায়িত্বে, এবং পুনরুদ্ধার করা শ্রম মার্জিন আবার মাপা হয়।",
       "outcomes": [
         {
-          "title": "এটি অবতরণ আগে OT এক্সপোজার কাটা",
-          "description": "সপ্তাহের মাঝামাঝি সময় পুনঃনির্ধারণ করুন, বেতনের পরে নয়।",
+          "title": "বেতন দেওয়ার আগেই ওভারটাইম পুনরুদ্ধার করুন",
+          "description": "সপ্তাহের মাঝে ঘণ্টাগুলো একজন নির্দিষ্ট ম্যানেজারকে পুনর্বণ্টন করুন এবং শ্রম মার্জিন ভিত্তিরেখার সাপেক্ষে আবার মাপুন - বেতন প্রক্রিয়ার পরে নয়।",
           "icon": "speed"
         },
         {
@@ -1690,15 +1690,15 @@ export const generatedLocalCopy = {
         "description": "Crew সময়সূচী, সময় ও উপস্থিতি, বহু-অঞ্চল বেতন (US, Canada, UK, EU, GCC - একটি ইঞ্জিন), এবং 60+ HR সারফেস চালায় - প্রতিটি শিফট, ঘন্টা এবং বেতন-চক্র এই পৃষ্ঠায় শ্রম বুদ্ধিমত্তাকে শক্তি জোগানো সংকেতে পরিণত হয়। ঐচ্ছিক: আপনার নিজস্ব HR (Bayzat, Personio, Gusto) আনুন এবং Sundae এখনও একই সংকেত পড়ে।",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "আপনার শ্রমকে চলমান অবস্থায় দেখুন।",
-      "ctaDescription": "30 মিনিট আপনার সময়সূচী. আপনি যে OTটি অবতরণ করার আগেই ধরতেন।",
+      "ctaTitle": "ফাঁস খুঁজুন। শ্রম মার্জিন ফিরে পান।",
+      "ctaDescription": "৩০ মিনিট। আপনার সূচি। ওভারটাইম ঘণ্টা একজন দায়িত্বশীলকে দেওয়া হলো - এবং শ্রম মার্জিন ভিত্তিরেখার সাপেক্ষে আবার মাপা হলো।",
       "ctaButton": "একটি লেবার ওয়াক-থ্রু বুক করুন"
     },
     "vi": {
       "badge": "Dành cho nhóm nhân sự và nhân sự",
       "titleLine1": "Lên lịch cho ca làm việc.",
       "titleLine2": "Không phải cho tuần trước.",
-      "description": "Chênh lệch lao động trực tiếp theo địa điểm. Rủi ro ngoài giờ được gắn cờ trước khi nó xảy ra. Năng suất được đo theo giờ FOH, không phải theo kỳ lương.",
+      "description": "Biến động lao động trực tiếp theo địa điểm - giao cho một quản lý được chỉ định và đo lại trên biên lợi nhuận. Giờ làm thêm được cảnh báo trước khi xảy ra, năng suất được đo theo mỗi giờ FOH, không phải theo kỳ trả lương.",
       "primaryCta": "Đặt buổi hướng dẫn về nhân sự",
       "secondaryCta": "Xem demo nhân sự",
       "problemsEyebrow": "Ở ĐÂU LAO ĐỘNG RÒ RỈ",
@@ -1755,11 +1755,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Những thay đổi gì đối với nhân sự",
-      "outcomesDescription": "Lịch trình chặt chẽ hơn, ít bất ngờ hơn, bạn có thể thể hiện năng suất.",
+      "outcomesDescription": "Lịch chặt hơn, giờ làm thêm do một quản lý phụ trách, biên lao động thu hồi được đo lại.",
       "outcomes": [
         {
-          "title": "Cắt mức độ hiển thị OT trước khi nó hạ cánh",
-          "description": "Phân bổ lại số giờ vào giữa tuần, không phải sau khi tính lương.",
+          "title": "Thu hồi giờ làm thêm trước khi phải trả",
+          "description": "Phân bổ lại giờ vào giữa tuần cho một quản lý được chỉ định và đo lại biên lao động so với đường cơ sở - không phải sau khi chạy bảng lương.",
           "icon": "speed"
         },
         {
@@ -1784,15 +1784,15 @@ export const generatedLocalCopy = {
         "description": "Crew vận hành lập lịch, chấm công và điểm danh, bảng lương đa khu vực (Hoa Kỳ, Canada, Vương quốc Anh, EU, GCC - một engine) và hơn 60 bề mặt nhân sự - mỗi ca, giờ và chu kỳ trả lương trở thành tín hiệu tiếp sức cho trí tuệ lao động trên trang này. Tùy chọn: mang theo HR của riêng bạn (Bayzat, Personio, Gusto) và Sundae vẫn đọc cùng một tín hiệu.",
         "ctaText": "Khám phá Sundae Crew"
       },
-      "ctaTitle": "Xem nhân sự của bạn vận hành theo thời gian thực.",
-      "ctaDescription": "30 phút. Lịch trình của bạn. OT bạn có thể đã bắt được trước khi nó xảy ra.",
+      "ctaTitle": "Tìm ra chỗ rò rỉ. Thu hồi biên lao động.",
+      "ctaDescription": "30 phút. Lịch của bạn. Số giờ làm thêm được giao cho một người phụ trách - và biên lao động được đo lại so với đường cơ sở.",
       "ctaButton": "Đặt buổi hướng dẫn về nhân sự"
     },
     "th": {
       "badge": "สำหรับทีมงานทรัพยากรบุคคลและบุคลากร",
       "titleLine1": "กำหนดการสำหรับกะ",
       "titleLine2": "ไม่ใช่สำหรับสัปดาห์ที่แล้ว",
-      "description": "ผลต่างแรงงานสดตามสถานที่ ความเสี่ยงในการต่อเวลาถูกตั้งค่าสถานะก่อนที่จะเกิดขึ้น ผลผลิตวัดต่อชั่วโมง FOH ไม่ใช่ต่อระยะเวลาการจ่ายเงิน",
+      "description": "ความแปรปรวนของแรงงานแบบเรียลไทม์ตามสถานที่ - ส่งต่อให้ผู้จัดการที่ระบุชื่อและวัดผลกลับที่มาร์จิ้น. โอทีถูกติดธงก่อนที่จะเกิดขึ้น ผลิตภาพวัดต่อชั่วโมง FOH ไม่ใช่ต่อรอบจ่ายเงินเดือน.",
       "primaryCta": "จองการตรวจเยี่ยมแรงงาน",
       "secondaryCta": "ดูการสาธิตแรงงาน",
       "problemsEyebrow": "แรงงานรั่วไหลที่ไหน",
@@ -1849,11 +1849,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "การเปลี่ยนแปลงอะไรบ้างสำหรับ HR",
-      "outcomesDescription": "ตารางงานที่เข้มงวดมากขึ้น ความประหลาดใจน้อยลง ประสิทธิภาพการทำงานที่คุณสามารถแสดงได้",
+      "outcomesDescription": "ตารางที่กระชับขึ้น โอทีอยู่ในความรับผิดชอบของผู้จัดการ และมาร์จิ้นแรงงานที่กู้คืนถูกวัดผลกลับ.",
       "outcomes": [
         {
-          "title": "ตัดความเสี่ยง OT ก่อนที่จะลงจอด",
-          "description": "จัดสรรชั่วโมงใหม่ในช่วงกลางสัปดาห์ ไม่ใช่หลังจากการรันบัญชีเงินเดือน",
+          "title": "กู้คืนโอทีก่อนที่จะจ่าย",
+          "description": "จัดสรรชั่วโมงใหม่กลางสัปดาห์ให้ผู้จัดการที่ระบุชื่อ และวัดมาร์จิ้นแรงงานกลับเทียบกับเส้นฐาน - ไม่ใช่หลังรอบจ่ายเงินเดือน.",
           "icon": "speed"
         },
         {
@@ -1878,15 +1878,15 @@ export const generatedLocalCopy = {
         "description": "Crew ดำเนินการจัดกำหนดการ เวลาและการเข้างาน บัญชีเงินเดือนหลายภูมิภาค (สหรัฐอเมริกา แคนาดา สหราชอาณาจักร สหภาพยุโรป GCC - เอ็นจินเดียว) และพื้นผิวด้านทรัพยากรบุคคลมากกว่า 60 แห่ง - ทุกกะ ชั่วโมง และรอบการจ่ายเงิน กลายเป็นสัญญาณที่ขับเคลื่อนความฉลาดด้านแรงงานในหน้านี้ ทางเลือก: นำ HR ของคุณมาเอง (Bayzat, Personio, Gusto) และ Sundae ยังคงอ่านสัญญาณเดียวกัน",
         "ctaText": "Explore Sundae Crew"
       },
-      "ctaTitle": "ดูแรงงานของคุณเคลื่อนไหว",
-      "ctaDescription": "30 นาที กำหนดการของคุณ OT ที่คุณจะจับได้ก่อนที่มันจะลงจอด",
+      "ctaTitle": "ค้นหาการรั่วไหล กู้คืนมาร์จิ้นแรงงาน.",
+      "ctaDescription": "30 นาที ตารางของคุณ ชั่วโมงโอทีถูกส่งต่อให้ผู้รับผิดชอบ - และมาร์จิ้นแรงงานถูกวัดผลกลับเทียบกับเส้นฐาน.",
       "ctaButton": "จองการตรวจเยี่ยมแรงงาน"
     },
     "ms": {
       "badge": "Untuk Pasukan HR & People",
       "titleLine1": "Jadual untuk syif.",
       "titleLine2": "Bukan untuk minggu lepas.",
-      "description": "Varians buruh hidup mengikut lokasi. Risiko lebih masa dibenderakan sebelum ia berlaku. Produktiviti diukur setiap jam FOH, bukan setiap tempoh gaji.",
+      "description": "Varians tenaga kerja langsung mengikut lokasi - diarahkan kepada pengurus yang ditetapkan dan diukur semula pada margin. Kerja lebih masa ditandakan sebelum ia berlaku, produktiviti diukur setiap jam FOH, bukan setiap tempoh gaji.",
       "primaryCta": "Tempah Walk-through Buruh",
       "secondaryCta": "Lihat Demo Buruh",
       "problemsEyebrow": "DI MANA BURUH BOCOR",
@@ -1943,11 +1943,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Apakah perubahan untuk HR",
-      "outcomesDescription": "Jadual yang lebih padat, lebih sedikit kejutan, produktiviti yang boleh anda tunjukkan.",
+      "outcomesDescription": "Jadual lebih ketat, kerja lebih masa di bawah tanggungjawab seorang pengurus, margin tenaga kerja yang dipulihkan diukur semula.",
       "outcomes": [
         {
-          "title": "Potong pendedahan OT sebelum ia mendarat",
-          "description": "Agihkan semula waktu pada pertengahan minggu, bukan selepas pembayaran gaji.",
+          "title": "Pulihkan kerja lebih masa sebelum ia dibayar",
+          "description": "Agihkan semula jam pada pertengahan minggu kepada pengurus yang ditetapkan dan ukur semula margin tenaga kerja berbanding garis dasar - bukan selepas pemprosesan gaji.",
           "icon": "speed"
         },
         {
@@ -1972,8 +1972,8 @@ export const generatedLocalCopy = {
         "description": "Crew menjalankan penjadualan, masa & kehadiran, senarai gaji berbilang wilayah (AS, Kanada, UK, EU, GCC - satu enjin) dan 60+ permukaan HR - setiap syif, jam dan kitaran gaji menjadi isyarat yang menguatkan kecerdasan buruh pada halaman ini. Pilihan: bawa HR anda sendiri (Bayzat, Personio, Gusto) dan Sundae masih membaca isyarat yang sama.",
         "ctaText": "Terokai Sundae Crew"
       },
-      "ctaTitle": "Lihat kerja anda bergerak.",
-      "ctaDescription": "30 minit. Jadual anda. OT yang anda akan tangkap sebelum ia mendarat.",
+      "ctaTitle": "Cari kebocoran. Pulihkan margin tenaga kerja.",
+      "ctaDescription": "30 minit. Jadual anda. Jam kerja lebih masa diarahkan kepada penanggung jawab - dan margin tenaga kerja diukur semula berbanding garis dasar.",
       "ctaButton": "Tempah Walk-through Buruh"
     }
   }
