@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "ar": {
       "eyebrow": "التبادل القديم قد انتهى",
       "headline": "سريع. صحيح. ميسور. اختر الثلاثة.",
-      "description": "كان على المطاعم أن تختار بين السرعة والجودة والتكلفة. تم بناء Sundae لتقديم الثلاثة في آن واحد - هذه هي الفكرة الأساسية.",
+      "description": "كان على قطاع خدمات الطعام أن يختار بين السرعة والجودة والتكلفة. تم بناء Sundae لتقديم الثلاثة في آن واحد - هذه هي الفكرة الأساسية.",
       "oldRule": "القاعدة القديمة: اختر اثنين",
       "sundaeRule": "↓  قاعدة Sundae: اختر الثلاثة",
       "closing": "هذا ليس تبادلاً. هذه هي ميزتك التشغيلية.",
@@ -14,7 +14,7 @@ export const generatedLocalCopy = {
     "fr": {
       "eyebrow": "LE FAUX DILEMME, C'EST FINI",
       "headline": "Rapide. Précis. Abordable. Choisissez les trois.",
-      "description": "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
+      "description": "Obtenir une vraie intelligence pour la restauration, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
       "oldRule": "Ancienne règle : choisissez deux",
       "sundaeRule": "↓  Règle Sundae : choisissez les trois",
       "closing": "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
@@ -23,7 +23,7 @@ export const generatedLocalCopy = {
     "es": {
       "eyebrow": "SE ACABÓ LA FALSA DISYUNTIVA",
       "headline": "Rápido. Correcto. Asequible. Elige los tres.",
-      "description": "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
+      "description": "Tener inteligencia de hostelería de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
       "oldRule": "Regla antigua: elige dos",
       "sundaeRule": "↓  Regla Sundae: elige los tres",
       "closing": "Eso no es un compromiso. Esa es tu ventaja operativa.",
@@ -32,7 +32,7 @@ export const generatedLocalCopy = {
     "de": {
       "eyebrow": "DIE FALSCHE WAHL IST VORBEI",
       "headline": "Schnell. Richtig. Bezahlbar. Wählen Sie alle drei.",
-      "description": "Echte Restaurant-Intelligenz zu bekommen, war früher ein Kompromiss - schnell startklar, wirklich gut oder günstig genug, um sich zu rechnen. Man nahm zwei davon. Sundae wurde gebaut, um alle drei auf einmal zu liefern - genau darum geht es.",
+      "description": "Echte Gastronomie-Intelligenz zu bekommen, war früher ein Kompromiss - schnell startklar, wirklich gut oder günstig genug, um sich zu rechnen. Man nahm zwei davon. Sundae wurde gebaut, um alle drei auf einmal zu liefern - genau darum geht es.",
       "oldRule": "Alte Regel: Wählen Sie zwei",
       "sundaeRule": "↓  Sundae-Regel: Wählen Sie alle drei",
       "closing": "Das ist kein Kompromiss. Das ist Ihr Betriebsvorteil.",
@@ -41,7 +41,7 @@ export const generatedLocalCopy = {
     "nl": {
       "eyebrow": "DE VALSE KEUZE IS VOORBIJ",
       "headline": "Snel. Juist. Betaalbaar. Kies ze allemaal.",
-      "description": "Echte restaurant-intelligentie kreeg je vroeger alleen met een afweging - snel uitrolbaar, écht goed, of betaalbaar genoeg om te verantwoorden. Je koos er twee. Sundae is gebouwd om alle drie tegelijk te leveren - dat is precies de bedoeling.",
+      "description": "Echte horeca-intelligentie kreeg je vroeger alleen met een afweging - snel uitrolbaar, écht goed, of betaalbaar genoeg om te verantwoorden. Je koos er twee. Sundae is gebouwd om alle drie tegelijk te leveren - dat is precies de bedoeling.",
       "oldRule": "Oude regel: kies er twee",
       "sundaeRule": "↓  Sundae regel: kies ze allemaal",
       "closing": "Dat is geen afweging. Dat is jouw operationeel voordeel.",
@@ -50,7 +50,7 @@ export const generatedLocalCopy = {
     "pt": {
       "eyebrow": "A FALSA ESCOLHA ACABOU",
       "headline": "Rápido. Certo. Acessível. Escolha os três.",
-      "description": "Ter inteligência de restaurante de verdade significava abrir mão de algo - rápido de implantar, genuinamente bom ou barato o bastante para se justificar. Você escolhia dois. A Sundae foi criada para entregar os três de uma vez - é exatamente esse o ponto.",
+      "description": "Ter inteligência de restauração de verdade significava abrir mão de algo - rápido de implantar, genuinamente bom ou barato o bastante para se justificar. Você escolhia dois. A Sundae foi criada para entregar os três de uma vez - é exatamente esse o ponto.",
       "oldRule": "Regra antiga: escolha dois",
       "sundaeRule": "↓ Regra Sundae: escolha os três",
       "closing": "Isso não é uma troca. Essa é sua vantagem operacional.",
@@ -59,7 +59,7 @@ export const generatedLocalCopy = {
     "hi": {
       "eyebrow": "झूठा विकल्प अब खत्म हुआ",
       "headline": "तेज़। सही। किफायती। तीनों चुनें।",
-      "description": "असली रेस्टोरेंट इंटेलिजेंस पाने का मतलब हमेशा एक समझौता होता था - तेज़ी से लागू, सचमुच अच्छा, या इतना किफायती कि खर्च जायज़ लगे। दो ही चुन पाते थे। Sundae को तीनों एक साथ देने के लिए बनाया गया है - बात बस यही है।",
+      "description": "असली फ़ूड-सर्विस इंटेलिजेंस पाने का मतलब हमेशा एक समझौता होता था - तेज़ी से लागू, सचमुच अच्छा, या इतना किफायती कि खर्च जायज़ लगे। दो ही चुन पाते थे। Sundae को तीनों एक साथ देने के लिए बनाया गया है - बात बस यही है।",
       "oldRule": "पुराना नियम: दो चुनें",
       "sundaeRule": "↓  Sundae नियम: तीनों चुनें",
       "closing": "यह कोई ट्रेडऑफ नहीं है। यह आपका संचालन लाभ है।",
@@ -68,7 +68,7 @@ export const generatedLocalCopy = {
     "ur": {
       "eyebrow": "جھوٹا انتخاب اب ختم ہو چکا ہے",
       "headline": "تیز۔ درست۔ سستا۔ تینوں منتخب کریں۔",
-      "description": "اصل ریستوران انٹیلی جنس حاصل کرنے کا مطلب ہمیشہ ایک سمجھوتہ ہوتا تھا - تیزی سے نافذ، واقعی اچھا، یا اتنا سستا کہ خرچ جائز لگے۔ صرف دو ہی منتخب کر پاتے تھے۔ Sundae کو تینوں ایک ساتھ دینے کے لیے بنایا گیا ہے - بس یہی پوری بات ہے۔",
+      "description": "اصل فوڈ سروس انٹیلی جنس حاصل کرنے کا مطلب ہمیشہ ایک سمجھوتہ ہوتا تھا - تیزی سے نافذ، واقعی اچھا، یا اتنا سستا کہ خرچ جائز لگے۔ صرف دو ہی منتخب کر پاتے تھے۔ Sundae کو تینوں ایک ساتھ دینے کے لیے بنایا گیا ہے - بس یہی پوری بات ہے۔",
       "oldRule": "پرانا اصول: دو منتخب کریں",
       "sundaeRule": "↓  Sundae اصول: تینوں منتخب کریں",
       "closing": "یہ کوئی سمجھوتہ نہیں ہے۔ یہ آپ کا آپریٹنگ فائدہ ہے۔",
@@ -77,7 +77,7 @@ export const generatedLocalCopy = {
     "it": {
       "eyebrow": "LA FALSA SCELTA È FINITA",
       "headline": "Veloce. Giusto. Economico. Scegli tutti e tre.",
-      "description": "Avere una vera intelligence per ristoranti significava un compromesso - veloce da attivare, davvero valida o abbastanza economica da giustificarsi. Ne sceglievi due. Sundae è stato creato per offrirti tutti e tre insieme - è esattamente questo il punto.",
+      "description": "Avere una vera intelligence per la ristorazione significava un compromesso - veloce da attivare, davvero valida o abbastanza economica da giustificarsi. Ne sceglievi due. Sundae è stato creato per offrirti tutti e tre insieme - è esattamente questo il punto.",
       "oldRule": "Regola vecchia: scegli due",
       "sundaeRule": "↓  Regola Sundae: scegli tutti e tre",
       "closing": "Non è un compromesso. È il tuo vantaggio operativo.",
@@ -86,7 +86,7 @@ export const generatedLocalCopy = {
     "pl": {
       "eyebrow": "FAŁSZYWY WYBÓR SIĘ SKOŃCZYŁ",
       "headline": "Szybko. Dokładnie. Przystępnie. Wybierz wszystkie trzy.",
-      "description": "Prawdziwa inteligencja dla restauracji zawsze oznaczała kompromis - szybkie wdrożenie, naprawdę dobra jakość albo cena na tyle niska, by się opłacała. Wybierałeś dwie. Sundae powstało, by dostarczyć wszystkie trzy naraz - i o to właśnie chodzi.",
+      "description": "Prawdziwa inteligencja dla gastronomii zawsze oznaczała kompromis - szybkie wdrożenie, naprawdę dobra jakość albo cena na tyle niska, by się opłacała. Wybierałeś dwie. Sundae powstało, by dostarczyć wszystkie trzy naraz - i o to właśnie chodzi.",
       "oldRule": "Stara zasada: wybierz dwa",
       "sundaeRule": "↓  Zasada Sundae: wybierz wszystkie trzy",
       "closing": "To nie jest kompromis. To twoja przewaga operacyjna.",
@@ -95,7 +95,7 @@ export const generatedLocalCopy = {
     "tr": {
       "eyebrow": "SAHTE TERCİH ARTIK SONA ERDİ",
       "headline": "Hızlı. Doğru. Uygun fiyatlı. Üçünü de seçin.",
-      "description": "Gerçek restoran zekâsına sahip olmak hep bir ödünleşme demekti - hızlı kurulan, gerçekten iyi ya da masrafını haklı çıkaracak kadar uygun. İkisini seçerdiniz. Sundae üçünü birden sunmak için kuruldu - bütün mesele de bu.",
+      "description": "Gerçek yeme-içme sektörü zekâsına sahip olmak hep bir ödünleşme demekti - hızlı kurulan, gerçekten iyi ya da masrafını haklı çıkaracak kadar uygun. İkisini seçerdiniz. Sundae üçünü birden sunmak için kuruldu - bütün mesele de bu.",
       "oldRule": "Eski kural: iki tanesini seçin",
       "sundaeRule": "↓  Sundae kuralı: üçünü de seçin",
       "closing": "Bu bir denge değil. Bu, işletme avantajınızdır.",
@@ -104,7 +104,7 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "eyebrow": "非此即彼的伪命题已成过去",
       "headline": "快速。准确。实惠。三者兼得。",
-      "description": "过去要拿到真正的餐厅智能，总得有所取舍--上线够快、确实好用，或便宜到值回票价。三者只能挑两样。Sundae 从一开始就是为同时交付这三者而打造的--这正是它存在的意义。",
+      "description": "过去要拿到真正的餐饮智能，总得有所取舍--上线够快、确实好用，或便宜到值回票价。三者只能挑两样。Sundae 从一开始就是为同时交付这三者而打造的--这正是它存在的意义。",
       "oldRule": "旧规则：选择两个",
       "sundaeRule": "↓  Sundae 规则：三者兼得",
       "closing": "这不是权衡。这是你的运营优势。",
@@ -113,7 +113,7 @@ export const generatedLocalCopy = {
     "ja": {
       "eyebrow": "二者択一という幻想は終わった",
       "headline": "速い。正確。手頃。すべてを選ぼう。",
-      "description": "本物のレストラン・インテリジェンスを手に入れるには、これまで何かを諦めるしかありませんでした--導入が速い、本当に使える、あるいはコストに見合うほど手頃か。選べるのは二つまで。Sundaeは、その三つを一度に届けるために作られました--それこそが核心です。",
+      "description": "本物の飲食インテリジェンスを手に入れるには、これまで何かを諦めるしかありませんでした--導入が速い、本当に使える、あるいはコストに見合うほど手頃か。選べるのは二つまで。Sundaeは、その三つを一度に届けるために作られました--それこそが核心です。",
       "oldRule": "古いルール：2つを選ぶ",
       "sundaeRule": "↓  Sundaeのルール：すべてを選ぶ",
       "closing": "それはトレードオフではありません。それがあなたの運営上の優位性です。",
@@ -122,7 +122,7 @@ export const generatedLocalCopy = {
     "ko": {
       "eyebrow": "잘못된 양자택일은 끝났습니다",
       "headline": "빠르고, 정확하며, 저렴합니다. 세 가지 모두 선택하세요.",
-      "description": "진짜 레스토랑 인텔리전스를 얻으려면 늘 무언가를 포기해야 했습니다 - 빠른 도입, 정말 좋은 품질, 아니면 값을 치를 만큼 저렴한 비용. 둘만 고를 수 있었죠. Sundae는 이 셋을 한 번에 제공하기 위해 만들어졌습니다 - 그것이 핵심의 전부입니다.",
+      "description": "진짜 외식 인텔리전스를 얻으려면 늘 무언가를 포기해야 했습니다 - 빠른 도입, 정말 좋은 품질, 아니면 값을 치를 만큼 저렴한 비용. 둘만 고를 수 있었죠. Sundae는 이 셋을 한 번에 제공하기 위해 만들어졌습니다 - 그것이 핵심의 전부입니다.",
       "oldRule": "구식 규칙: 두 가지 선택",
       "sundaeRule": "↓  Sundae 규칙: 세 가지 모두 선택",
       "closing": "이것은 트레이드오프가 아닙니다. 이것이 귀하의 운영 우위입니다.",
@@ -131,7 +131,7 @@ export const generatedLocalCopy = {
     "id": {
       "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
       "headline": "Cepat. Tepat. Terjangkau. Pilih ketiganya.",
-      "description": "Dulu, mendapatkan intelijen restoran yang sesungguhnya selalu berarti berkompromi - cepat diterapkan, benar-benar bagus, atau cukup terjangkau agar sepadan. Anda hanya bisa memilih dua. Sundae dibangun untuk memberikan ketiganya sekaligus - justru itulah intinya.",
+      "description": "Dulu, mendapatkan intelijen layanan makanan yang sesungguhnya selalu berarti berkompromi - cepat diterapkan, benar-benar bagus, atau cukup terjangkau agar sepadan. Anda hanya bisa memilih dua. Sundae dibangun untuk memberikan ketiganya sekaligus - justru itulah intinya.",
       "oldRule": "Aturan lama: pilih dua",
       "sundaeRule": "↓  Aturan Sundae: pilih ketiganya",
       "closing": "Itu bukan kompromi. Itu adalah keunggulan operasional Anda.",
@@ -140,7 +140,7 @@ export const generatedLocalCopy = {
     "vi": {
       "eyebrow": "LỰA CHỌN ĐÁNH ĐỔI SAI LẦM ĐÃ CHẤM DỨT",
       "headline": "Nhanh. Đúng. Phải chăng. Chọn cả ba.",
-      "description": "Trước đây, để có trí tuệ nhà hàng thực thụ luôn phải đánh đổi - triển khai nhanh, thật sự tốt, hoặc đủ rẻ để xứng đáng. Bạn chỉ chọn được hai. Sundae được xây dựng để mang lại cả ba cùng lúc - đó chính là điều cốt lõi.",
+      "description": "Trước đây, để có trí tuệ dịch vụ ăn uống thực thụ luôn phải đánh đổi - triển khai nhanh, thật sự tốt, hoặc đủ rẻ để xứng đáng. Bạn chỉ chọn được hai. Sundae được xây dựng để mang lại cả ba cùng lúc - đó chính là điều cốt lõi.",
       "oldRule": "Quy tắc cũ: chọn hai",
       "sundaeRule": "↓  Quy tắc Sundae: chọn cả ba",
       "closing": "Đó không phải là sự trao đổi. Đó là lợi thế hoạt động của bạn.",
@@ -149,7 +149,7 @@ export const generatedLocalCopy = {
     "ro": {
       "eyebrow": "FALSA ALEGERE S-A TERMINAT",
       "headline": "Rapid. Corect. Accesibil. Alege toate cele trei.",
-      "description": "A avea o inteligență reală pentru restaurante însemna mereu un compromis - rapid de implementat, cu adevărat bun sau suficient de accesibil cât să merite. Alegeai două. Sundae a fost creat să le livreze pe toate trei deodată - exact ăsta e rostul.",
+      "description": "A avea o inteligență reală pentru HoReCa însemna mereu un compromis - rapid de implementat, cu adevărat bun sau suficient de accesibil cât să merite. Alegeai două. Sundae a fost creat să le livreze pe toate trei deodată - exact ăsta e rostul.",
       "oldRule": "Regula veche: alege două",
       "sundaeRule": "↓  Regula Sundae: alege toate trei",
       "closing": "Asta nu este un compromis. Asta este avantajul tău operațional.",
@@ -158,7 +158,7 @@ export const generatedLocalCopy = {
     "sv": {
       "eyebrow": "DET FALSKA VALET ÄR ÖVER",
       "headline": "Snabb. Rätt. Prisvärd. Välj alla tre.",
-      "description": "Att få riktig restauranginsikt innebar förr en kompromiss - snabb att driftsätta, riktigt bra eller billig nog att försvara. Du fick välja två. Sundae är byggt för att leverera alla tre på en gång - det är hela poängen.",
+      "description": "Att få riktig insikt för restaurangbranschen innebar förr en kompromiss - snabb att driftsätta, riktigt bra eller billig nog att försvara. Du fick välja två. Sundae är byggt för att leverera alla tre på en gång - det är hela poängen.",
       "oldRule": "Gammal regel: välj två",
       "sundaeRule": "↓  Sundae-regel: välj alla tre",
       "closing": "Det är ingen avvägning. Det är din operativa fördel.",
@@ -167,7 +167,7 @@ export const generatedLocalCopy = {
     "bn": {
       "eyebrow": "ভুয়া বাছাই এখন অতীত",
       "headline": "দ্রুত। সঠিক। সাশ্রয়ী। তিনটি বেছে নিন।",
-      "description": "সত্যিকারের রেস্তোরাঁ ইন্টেলিজেন্স পেতে হলে আগে একটা আপস করতেই হতো - দ্রুত চালু, সত্যিই ভালো, নাকি খরচ পোষানোর মতো সাশ্রয়ী। দুটোই বড়জোর বেছে নেওয়া যেত। Sundae তিনটিই একসঙ্গে দেওয়ার জন্য তৈরি - গোটা ব্যাপারটাই এই।",
+      "description": "সত্যিকারের ফুড সার্ভিস ইন্টেলিজেন্স পেতে হলে আগে একটা আপস করতেই হতো - দ্রুত চালু, সত্যিই ভালো, নাকি খরচ পোষানোর মতো সাশ্রয়ী। দুটোই বড়জোর বেছে নেওয়া যেত। Sundae তিনটিই একসঙ্গে দেওয়ার জন্য তৈরি - গোটা ব্যাপারটাই এই।",
       "oldRule": "পুরনো নিয়ম: দুটি বেছে নিন",
       "sundaeRule": "↓  Sundae নিয়ম: তিনটি বেছে নিন",
       "closing": "এটি ট্রেডঅফ নয়। এটি আপনার কার্যকরী সুবিধা।",
@@ -176,7 +176,7 @@ export const generatedLocalCopy = {
     "th": {
       "eyebrow": "ทางเลือกลวงนั้นจบลงแล้ว",
       "headline": "รวดเร็ว ถูกต้อง ราคาไม่แพง เลือกได้ทั้งสามอย่าง",
-      "description": "แต่ก่อนการจะได้ระบบอัจฉริยะสำหรับร้านอาหารจริง ๆ ต้องยอมแลกอะไรบางอย่างเสมอ - ติดตั้งเร็ว ดีจริง หรือถูกพอจะคุ้มค่า เลือกได้แค่สองอย่าง Sundae ถูกสร้างมาเพื่อมอบทั้งสามอย่างพร้อมกัน - นั่นแหละคือหัวใจทั้งหมด",
+      "description": "แต่ก่อนการจะได้ระบบอัจฉริยะสำหรับธุรกิจบริการอาหารจริง ๆ ต้องยอมแลกอะไรบางอย่างเสมอ - ติดตั้งเร็ว ดีจริง หรือถูกพอจะคุ้มค่า เลือกได้แค่สองอย่าง Sundae ถูกสร้างมาเพื่อมอบทั้งสามอย่างพร้อมกัน - นั่นแหละคือหัวใจทั้งหมด",
       "oldRule": "กฎเก่า: เลือกสองอย่าง",
       "sundaeRule": "↓  กฎของ Sundae: เลือกทั้งสามอย่าง",
       "closing": "นั่นไม่ใช่การแลกเปลี่ยน นั่นคือข้อได้เปรียบในการดำเนินงานของคุณ",
@@ -185,7 +185,7 @@ export const generatedLocalCopy = {
     "ms": {
       "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
       "headline": "Cepat. Tepat. Berpatutan. Pilih ketiga-tiganya.",
-      "description": "Dahulu, untuk mendapatkan kecerdasan restoran yang sebenar, anda terpaksa berkompromi - cepat dilaksanakan, benar-benar bagus, atau cukup berpatutan untuk berbaloi. Anda hanya boleh pilih dua. Sundae dibina untuk menyampaikan ketiga-tiganya sekaligus - itulah inti keseluruhannya.",
+      "description": "Dahulu, untuk mendapatkan kecerdasan perkhidmatan makanan yang sebenar, anda terpaksa berkompromi - cepat dilaksanakan, benar-benar bagus, atau cukup berpatutan untuk berbaloi. Anda hanya boleh pilih dua. Sundae dibina untuk menyampaikan ketiga-tiganya sekaligus - itulah inti keseluruhannya.",
       "oldRule": "Peraturan lama: pilih dua",
       "sundaeRule": "↓  Peraturan Sundae: pilih ketiga-tiganya",
       "closing": "Itu bukan kompromi. Itu adalah kelebihan operasi anda.",

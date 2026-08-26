@@ -159,7 +159,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
       { title: "External market intelligence", why: "Add the market around each restaurant: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know." },
       { title: "Peer benchmarks that compound", why: "Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more restaurants join." },
     ],
-    closing: "Not another dashboard. A restaurant intelligence layer.",
+    closing: "Not another dashboard. A food-service intelligence layer.",
   },
   ar: {
     eyebrow: "ما وراء التقرير",
@@ -171,7 +171,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
       { title: "ذكاء سوق خارجي", why: "أضف السوق حول كل مطعم: الطقس والأحداث وتسعير المنافسين وحركة المرور وإحاطات يومية لا يعرفها BI طبيعياً." },
       { title: "معايير نظراء تتراكم", why: "قارن المواقع بنظراء مجهولين بالصيغة والسوق والمقياس. الشبكة تصبح أكثر فائدة كلما انضم المزيد." },
     ],
-    closing: "ليست لوحة أخرى. طبقة ذكاء للمطاعم.",
+    closing: "ليست لوحة أخرى. طبقة ذكاء لخدمات الطعام.",
   },
   fr: {
     eyebrow: "AU-DELÀ DU RAPPORT",
@@ -183,7 +183,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
       { title: "Intelligence marché externe", why: "Ajoutez le marché autour de chaque restaurant : météo, événements, prix concurrents, signaux fréquentation et briefings quotidiens que votre BI ne connaît pas." },
       { title: "Benchmarks pairs qui se composent", why: "Comparez les sites à des pairs anonymisés par format, marché et métrique. Le réseau devient plus utile à mesure que plus de restaurants rejoignent." },
     ],
-    closing: "Pas un autre dashboard. Une couche d'intelligence restaurant.",
+    closing: "Pas un autre dashboard. Une couche d'intelligence pour la restauration.",
   },
   es: {
     eyebrow: "MÁS ALLÁ DEL INFORME",
@@ -195,7 +195,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
       { title: "Inteligencia de mercado externo", why: "Añade el mercado alrededor de cada restaurante: clima, eventos, precios de competencia, señales de tráfico y briefings diarios que tu BI no conoce." },
       { title: "Benchmarks de pares que se componen", why: "Compara locales contra pares anonimizados por formato, mercado y métrica. La red se vuelve más útil mientras más restaurantes se unen." },
     ],
-    closing: "No es otro dashboard. Es una capa de inteligencia para restaurantes.",
+    closing: "No es otro dashboard. Es una capa de inteligencia para la hostelería.",
   },
 };
 

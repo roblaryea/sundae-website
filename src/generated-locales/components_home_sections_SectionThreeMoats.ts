@@ -21,7 +21,7 @@ export const generatedLocalCopy = {
           "why": "Comparez vos établissements à des pairs anonymisés par format, marché et indicateur de performance. Le réseau gagne en valeur à mesure que de nouveaux restaurants le rejoignent."
         }
       ],
-      "closing": "Pas un autre tableau de bord. Une couche d'intelligence pour les restaurants."
+      "closing": "Pas un autre tableau de bord. Une couche d'intelligence pour la restauration."
     },
     "es": {
       "eyebrow": "MÁS ALLÁ DEL INFORME",
@@ -42,7 +42,7 @@ export const generatedLocalCopy = {
           "why": "Compara tus locales con pares anonimizados por formato, mercado y métrica de rendimiento. La red se vuelve más útil a medida que se suman más restaurantes."
         }
       ],
-      "closing": "No otro dashboard. Una capa de inteligencia para restaurantes."
+      "closing": "No otro dashboard. Una capa de inteligencia para la hostelería."
     },
     "de": {
       "eyebrow": "JENSEITS DES REPORTS",
@@ -63,7 +63,7 @@ export const generatedLocalCopy = {
           "why": "Vergleiche Standorte mit anonymisierten Peers nach Format, Markt und Leistungskennzahl. Das Netzwerk wird nützlicher, je mehr Restaurants beitreten."
         }
       ],
-      "closing": "Nicht ein weiteres Dashboard. Eine Restaurant-Intelligenz-Ebene."
+      "closing": "Nicht ein weiteres Dashboard. Eine Gastronomie-Intelligenz-Ebene."
     },
     "ar": {
       "eyebrow": "ما وراء التقرير",
@@ -84,7 +84,7 @@ export const generatedLocalCopy = {
           "why": "قارِن مواقعك بأقران مجهولي الهوية بحسب الشكل، والسوق، ومقياس الأداء. تزداد الشبكة فائدةً كلما انضمّ المزيد من المطاعم."
         }
       ],
-      "closing": "ليس لوحة معلومات أخرى. طبقة ذكاء للمطاعم."
+      "closing": "ليس لوحة معلومات أخرى. طبقة ذكاء لخدمات الطعام."
     },
     "nl": {
       "eyebrow": "VOORBIJ HET RAPPORT",
@@ -105,7 +105,7 @@ export const generatedLocalCopy = {
           "why": "Vergelijk locaties met geanonimiseerde peers op basis van formaat, markt en prestatiemaatstaf. Het netwerk wordt nuttiger naarmate meer restaurants zich aansluiten."
         }
       ],
-      "closing": "Niet nog een dashboard. Een restaurant intelligentielaag."
+      "closing": "Niet nog een dashboard. Een horeca-intelligentielaag."
     },
     "pt": {
       "eyebrow": "ALÉM DO RELATÓRIO",
@@ -126,7 +126,7 @@ export const generatedLocalCopy = {
           "why": "Compare seus locais com pares anonimizados por formato, mercado e métrica de desempenho. A rede se torna mais útil à medida que mais restaurantes se juntam."
         }
       ],
-      "closing": "Não é apenas mais um dashboard. Uma camada de inteligência para restaurantes."
+      "closing": "Não é apenas mais um dashboard. Uma camada de inteligência para a restauração."
     },
     "it": {
       "eyebrow": "OLTRE IL REPORT",
@@ -147,7 +147,7 @@ export const generatedLocalCopy = {
           "why": "Confronta le tue sedi con pari anonimizzati per formato, mercato e metrica di performance. La rete diventa più utile man mano che si uniscono altri ristoranti."
         }
       ],
-      "closing": "Non un altro dashboard. Un livello di intelligenza per ristoranti."
+      "closing": "Non un altro dashboard. Un livello di intelligenza per la ristorazione."
     },
     "hi": {
       "eyebrow": "रिपोर्ट से आगे",
@@ -168,7 +168,7 @@ export const generatedLocalCopy = {
           "why": "अपने स्थानों की तुलना प्रारूप, मार्केट और प्रदर्शन मैट्रिक के अनुसार अनाम समकक्षों से करें। जैसे-जैसे अधिक रेस्टोरेंट जुड़ते हैं, नेटवर्क और अधिक उपयोगी होता जाता है।"
         }
       ],
-      "closing": "एक और डैशबोर्ड नहीं। एक रेस्टोरेंट इंटेलिजेंस परत।"
+      "closing": "एक और डैशबोर्ड नहीं। एक फ़ूड-सर्विस इंटेलिजेंस परत।"
     },
     "ur": {
       "eyebrow": "رپورٹ سے آگے",
@@ -189,7 +189,7 @@ export const generatedLocalCopy = {
           "why": "اپنے مقامات کا موازنہ فارمیٹ، مارکیٹ، اور کارکردگی کے میٹرک کے لحاظ سے نامعلوم ہم مرتبہ ریستورانوں سے کریں۔ جیسے جیسے مزید ریستوران شامل ہوتے ہیں، نیٹ ورک زیادہ مفید ہوتا جاتا ہے۔"
         }
       ],
-      "closing": "ایک اور ڈیش بورڈ نہیں۔ ایک ریستوران کی ذہانت کی تہہ۔"
+      "closing": "ایک اور ڈیش بورڈ نہیں۔ ایک فوڈ سروس کی ذہانت کی تہہ۔"
     },
     "pl": {
       "eyebrow": "POZA RAPORTEM",
@@ -210,7 +210,7 @@ export const generatedLocalCopy = {
           "why": "Porównuj lokalizacje z zanonimizowanymi lokalami według formatu, rynku i wskaźnika wydajności. Sieć staje się bardziej użyteczna, gdy dołącza więcej restauracji."
         }
       ],
-      "closing": "Nie kolejny pulpit. Warstwa inteligencji restauracyjnej."
+      "closing": "Nie kolejny pulpit. Warstwa inteligencji gastronomicznej."
     },
     "tr": {
       "eyebrow": "RAPORUN ÖTESİNDE",
@@ -231,7 +231,7 @@ export const generatedLocalCopy = {
           "why": "Lokasyonları format, piyasa ve performans metriği bazında anonim akranlarla karşılaştırın. Daha fazla restoran katıldıkça ağ daha faydalı hale gelir."
         }
       ],
-      "closing": "Başka bir gösterge paneli değil. Bir restoran zeka katmanı."
+      "closing": "Başka bir gösterge paneli değil. Bir yeme-içme sektörü zeka katmanı."
     },
     "zh-Hans": {
       "eyebrow": "超越报表",
@@ -252,7 +252,7 @@ export const generatedLocalCopy = {
           "why": "按业态、市场和绩效指标，将各门店与匿名同行进行对比。加入的餐厅越多，这张网络就越有价值。"
         }
       ],
-      "closing": "不是另一个仪表板，而是一个餐厅智能层。"
+      "closing": "不是另一个仪表板，而是一个餐饮智能层。"
     },
     "ja": {
       "eyebrow": "レポートの先へ",
@@ -273,7 +273,7 @@ export const generatedLocalCopy = {
           "why": "フォーマット、市場、パフォーマンス指標によって匿名化されたピアと比較します。より多くのレストランが参加するほど、ネットワークはより有用になります。"
         }
       ],
-      "closing": "ただのダッシュボードではありません。レストランインテリジェンス層です。"
+      "closing": "ただのダッシュボードではありません。飲食インテリジェンス層です。"
     },
     "id": {
       "eyebrow": "MELAMPAUI LAPORAN",
@@ -294,7 +294,7 @@ export const generatedLocalCopy = {
           "why": "Bandingkan lokasi dengan rekan yang dianonimkan berdasarkan format, pasar, dan metrik kinerja. Jaringan menjadi lebih berguna seiring bertambahnya jumlah restoran yang bergabung."
         }
       ],
-      "closing": "Bukan sekadar dashboard lain. Sebuah lapisan intelijen restoran."
+      "closing": "Bukan sekadar dashboard lain. Sebuah lapisan intelijen layanan makanan."
     },
     "vi": {
       "eyebrow": "VƯỢT KHỎI BÁO CÁO",
@@ -315,7 +315,7 @@ export const generatedLocalCopy = {
           "why": "So sánh các địa điểm với những nhà hàng tương đương ẩn danh theo định dạng, thị trường và chỉ số hiệu suất. Mạng lưới càng hữu ích hơn khi có thêm nhiều nhà hàng tham gia."
         }
       ],
-      "closing": "Không phải thêm một dashboard nữa. Mà là một lớp thông tin dành cho nhà hàng."
+      "closing": "Không phải thêm một dashboard nữa. Mà là một lớp thông tin dành cho dịch vụ ăn uống."
     },
     "ro": {
       "eyebrow": "DINCOLO DE RAPORT",
@@ -336,7 +336,7 @@ export const generatedLocalCopy = {
           "why": "Compară-ți locațiile cu restaurante similare anonimizate, după format, piață și metrică de performanță. Rețeaua devine mai utilă pe măsură ce se alătură tot mai multe restaurante."
         }
       ],
-      "closing": "Nu un alt tablou. Un strat de inteligență pentru restaurante."
+      "closing": "Nu un alt tablou. Un strat de inteligență pentru HoReCa."
     },
     "ko": {
       "eyebrow": "리포트 너머",
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
           "why": "업태, 시장, 성과 지표별로 익명화된 동종 매장과 각 지점을 비교하세요. 더 많은 레스토랑이 참여할수록 네트워크는 더욱 유용해집니다."
         }
       ],
-      "closing": "또 다른 대시보드가 아닙니다. 레스토랑 인텔리전스 레이어입니다."
+      "closing": "또 다른 대시보드가 아닙니다. 외식 인텔리전스 레이어입니다."
     },
     "sv": {
       "eyebrow": "BORTOM RAPPORTEN",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
           "why": "Jämför dina platser mot anonymiserade likvärdiga restauranger efter format, marknad och prestationsmått. Nätverket blir mer användbart ju fler restauranger som ansluter."
         }
       ],
-      "closing": "Inte ännu en dashboard. Ett lager av restaurangintelligens."
+      "closing": "Inte ännu en dashboard. Ett lager av intelligens för restaurangbranschen."
     },
     "bn": {
       "eyebrow": "রিপোর্টের বাইরে",
@@ -399,7 +399,7 @@ export const generatedLocalCopy = {
           "why": "ফরম্যাট, বাজার এবং কর্মক্ষমতা মেট্রিক অনুযায়ী আপনার অবস্থানগুলিকে নাম-গোপন রাখা সমকক্ষ রেস্তোরাঁর সঙ্গে তুলনা করুন। যত বেশি রেস্তোরাঁ যোগ দেয়, নেটওয়ার্ক তত বেশি কার্যকর হয়ে ওঠে।"
         }
       ],
-      "closing": "আরেকটি ড্যাশবোর্ড নয়। একটি রেস্তোরাঁ বুদ্ধিমত্তা স্তর।"
+      "closing": "আরেকটি ড্যাশবোর্ড নয়। একটি ফুড সার্ভিস বুদ্ধিমত্তা স্তর।"
     },
     "th": {
       "eyebrow": "เหนือกว่ารายงาน",
@@ -420,7 +420,7 @@ export const generatedLocalCopy = {
           "why": "เปรียบเทียบสาขาของคุณกับร้านที่เทียบเคียงกันแบบไม่ระบุชื่อ ตามรูปแบบ ตลาด และเมตริกประสิทธิภาพ เครือข่ายจะมีประโยชน์มากขึ้นเมื่อมีร้านอาหารเข้าร่วมมากขึ้น"
         }
       ],
-      "closing": "ไม่ใช่แดชบอร์ดอีกตัวหนึ่ง แต่เป็นชั้นข้อมูลเชิงลึกสำหรับร้านอาหาร"
+      "closing": "ไม่ใช่แดชบอร์ดอีกตัวหนึ่ง แต่เป็นชั้นข้อมูลเชิงลึกสำหรับธุรกิจบริการอาหาร"
     },
     "ms": {
       "eyebrow": "MELANGKAUI LAPORAN",
@@ -441,7 +441,7 @@ export const generatedLocalCopy = {
           "why": "Bandingkan lokasi anda dengan rakan setara yang dirahsiakan identiti mengikut format, pasaran, dan metrik prestasi. Rangkaian menjadi lebih berguna apabila lebih banyak restoran menyertainya."
         }
       ],
-      "closing": "Bukan sekadar dashboard lain. Sebuah lapisan intelijen restoran."
+      "closing": "Bukan sekadar dashboard lain. Sebuah lapisan intelijen perkhidmatan makanan."
     }
   }
 } as const

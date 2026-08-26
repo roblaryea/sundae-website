@@ -25,7 +25,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
   en: {
     eyebrow: "BUILT WITH OPERATORS",
     headline: "Shaped by restaurant operators across every format.",
-    description: "QSR, casual dining, fine dining, cloud kitchens, and hospitality groups inform the intelligence layer restaurants actually need - from single-shop operators to multi-brand portfolios.",
+    description: "QSR, casual dining, fine dining, cloud kitchens, and hospitality groups inform the intelligence layer food-service actually needs - from single-shop operators to multi-brand portfolios.",
     stats: [
       { value: "200+", label: "integrations - every POS, delivery & finance tool" },
       { value: "12", label: "intelligence modules, each with AI recommendations" },
@@ -33,7 +33,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     ],
     industryEyebrow: "WHAT WE HEAR FROM OPERATORS",
     industryHeadline: "The data exists. The decision still arrives late.",
-    industryDisclaimer: "Patterns we hear from operators and see across restaurant reporting workflows. Anonymized and generalized.",
+    industryDisclaimer: "Patterns we hear from operators and see across food-service reporting workflows. Anonymized and generalized.",
     industryTodayLabel: "Industry today",
     withSundaeLabel: "With Sundae",
     industryClaims: [
@@ -41,12 +41,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they can create between 1-3% of revenue and margin leakage.", sundae: "Pulse flags exception patterns during the shift, attributed to the server, daypart, location, or behavior driving them." },
       { industry: "Margin variance is often explained at month-end, after the costs are already booked.", sundae: "Insights connects revenue, labor, food cost, discounts, and pricing so teams can see the cause while it is still actionable." },
     ],
-    footnote: "Industry observations are general restaurant-industry patterns drawn from public research and advisory feedback. Named pilot results and validated customer outcomes will replace this section as they become available.",
+    footnote: "Industry observations are general food-service industry patterns drawn from public research and advisory feedback. Named pilot results and validated customer outcomes will replace this section as they become available.",
   },
   ar: {
     eyebrow: "مبني مع المشغلين",
     headline: "صاغته مجموعات مطاعم عبر كل صيغة.",
-    description: "QSR والمطاعم العائلية والمطاعم الراقية والمطابخ السحابية ومجموعات الضيافة تُلهم طبقة الذكاء التي يحتاجها المطاعم - من مشغل واحد إلى محافظ متعددة العلامات.",
+    description: "QSR والمطاعم العائلية والمطاعم الراقية والمطابخ السحابية ومجموعات الضيافة تُلهم طبقة الذكاء التي تحتاجها خدمات الطعام - من مشغل واحد إلى محافظ متعددة العلامات.",
     stats: [
       { value: "+200", label: "تكامل - كل أنظمة POS والتوصيل والمالية" },
       { value: "12", label: "وحدة ذكاء، كل منها بتوصيات بالذكاء الاصطناعي" },
@@ -54,7 +54,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     ],
     industryEyebrow: "ما نسمعه من المشغلين",
     industryHeadline: "البيانات موجودة. القرار ما زال يصل متأخراً.",
-    industryDisclaimer: "أنماط نسمعها من المشغلين ونراها عبر سير عمل تقارير المطاعم. مجهولة ومعممة.",
+    industryDisclaimer: "أنماط نسمعها من المشغلين ونراها عبر سير عمل تقارير خدمات الطعام. مجهولة ومعممة.",
     industryTodayLabel: "الصناعة اليوم",
     withSundaeLabel: "مع Sundae",
     industryClaims: [
@@ -62,12 +62,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
       { industry: "التجاوزات والتعويضات والخصومات وحالات POS الشاذة صغيرة بذاتها. تركها بلا مراجعة قد ينتج عنه تسرب 1-3% من الإيرادات والهامش.", sundae: "Pulse يكشف أنماط الحالات الشاذة خلال الوردية، منسوبة إلى الموظف أو الفترة أو الموقع." },
       { industry: "غالباً ما يُفسر تباين الهامش في نهاية الشهر، بعد تسجيل التكاليف.", sundae: "Insights يربط الإيرادات والعمالة وتكلفة الطعام والخصومات والتسعير ليرى الفريق السبب وهو ما زال قابلاً للتنفيذ." },
     ],
-    footnote: "ملاحظات الصناعة أنماط عامة لصناعة المطاعم من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها.",
+    footnote: "ملاحظات الصناعة أنماط عامة لصناعة خدمات الطعام من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها.",
   },
   fr: {
     eyebrow: "CONSTRUIT AVEC LES OPÉRATEURS",
     headline: "Façonné par des opérateurs de restaurants dans tous les formats.",
-    description: "QSR, restauration décontractée, gastronomie, cuisines virtuelles et groupes hôteliers nourrissent la couche d'intelligence dont les restaurants ont vraiment besoin - du single-shop aux portefeuilles multi-marques.",
+    description: "QSR, restauration décontractée, gastronomie, cuisines virtuelles et groupes hôteliers nourrissent la couche d'intelligence dont la restauration a vraiment besoin - du single-shop aux portefeuilles multi-marques.",
     stats: [
       { value: "200+", label: "intégrations - chaque système POS, livraison & finance" },
       { value: "12", label: "modules d'intelligence, chacun avec recommandations IA" },
@@ -75,7 +75,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     ],
     industryEyebrow: "CE QUE NOUS ENTENDONS DES OPÉRATEURS",
     industryHeadline: "Les données existent. La décision arrive encore en retard.",
-    industryDisclaimer: "Motifs que nous entendons des opérateurs et voyons dans les workflows de reporting restaurant. Anonymisés et généralisés.",
+    industryDisclaimer: "Motifs que nous entendons des opérateurs et voyons dans les workflows de reporting de la restauration. Anonymisés et généralisés.",
     industryTodayLabel: "L'industrie aujourd'hui",
     withSundaeLabel: "Avec Sundae",
     industryClaims: [
@@ -88,7 +88,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
   es: {
     eyebrow: "CONSTRUIDO CON OPERADORES",
     headline: "Forjado por operadores de restaurantes en cada formato.",
-    description: "QSR, casual, alta cocina, cocinas en la nube y grupos de hospitalidad informan la capa de inteligencia que los restaurantes realmente necesitan - desde operadores de un solo local hasta portafolios multi-marca.",
+    description: "QSR, casual, alta cocina, cocinas en la nube y grupos de hospitalidad informan la capa de inteligencia que la hostelería realmente necesita - desde operadores de un solo local hasta portafolios multi-marca.",
     stats: [
       { value: "200+", label: "integraciones - cada sistema POS, delivery y finanzas" },
       { value: "12", label: "módulos de inteligencia, cada uno con recomendaciones IA" },
@@ -96,7 +96,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     ],
     industryEyebrow: "LO QUE ESCUCHAMOS DE OPERADORES",
     industryHeadline: "Los datos existen. La decisión sigue llegando tarde.",
-    industryDisclaimer: "Patrones que escuchamos de operadores y vemos en los workflows de reporting de restaurantes. Anonimizados y generalizados.",
+    industryDisclaimer: "Patrones que escuchamos de operadores y vemos en los workflows de reporting de hostelería. Anonimizados y generalizados.",
     industryTodayLabel: "La industria hoy",
     withSundaeLabel: "Con Sundae",
     industryClaims: [

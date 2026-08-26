@@ -4,8 +4,8 @@ export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
       "eyebrow": "WAS SIE ABLÖSEN",
-      "headline": "Ersetzen Sie den BI-Stack fürs Restaurant.",
-      "description": "Generische BI wurde für Analysten gebaut. Sundae wurde für die Menschen gebaut, die Restaurants führen.",
+      "headline": "Ersetzen Sie den BI-Stack für die Gastronomie.",
+      "description": "Generische BI wurde für Analysten gebaut. Sundae wurde für die Menschen gebaut, die die Gastronomie betreiben.",
       "todaysStackLabel": "Der heutige Stack",
       "withSundaeLabel": "Mit Sundae",
       "todaysStack": [
@@ -16,18 +16,18 @@ export const generatedLocalCopy = {
         "Wöchentliche Rückblick-Meetings statt Aktion in Echtzeit"
       ],
       "withSundae": [
-        "Sechs Intelligenzschichten, restaurant-nativ",
-        "Über 500 verwaltete Restaurant-Datenmodelle",
+        "Sechs Intelligenzschichten, gastronomie-nativ",
+        "Über 500 verwaltete Gastronomie-Datenmodelle",
         "Quellenbelegte Antworten in Sekunden",
         "12 Datenbereiche, vereint in einem einzigen Hauptbuch",
         "Echtzeit-Schichtintelligenz, keine Freitags-Rückblicke"
       ],
-      "closing": "Eine Plattform. Restaurant-nativ von Anfang an."
+      "closing": "Eine Plattform. Gastronomie-nativ von Anfang an."
     },
     "nl": {
       "eyebrow": "WAT JE UITFASEERT",
-      "headline": "Vervang de BI-stack van het restaurant.",
-      "description": "Generieke BI is gebouwd voor analisten. Sundae is gebouwd voor de mensen die restaurants runnen.",
+      "headline": "Vervang de BI-stack van de horeca.",
+      "description": "Generieke BI is gebouwd voor analisten. Sundae is gebouwd voor de mensen die de horeca runnen.",
       "todaysStackLabel": "De huidige stack",
       "withSundaeLabel": "Met Sundae",
       "todaysStack": [
@@ -38,18 +38,18 @@ export const generatedLocalCopy = {
         "Wekelijkse terugblikvergaderingen in plaats van live actie"
       ],
       "withSundae": [
-        "Zes intelligentielagen, restaurant-native",
-        "500+ beheerde restaurantdatamodellen",
+        "Zes intelligentielagen, horeca-native",
+        "500+ beheerde horeca-datamodellen",
         "Antwoorden met bronvermelding in seconden",
         "12 datadomeinen verenigd in één grootboek",
         "Live shift-intelligentie, geen vrijdagsamenvattingen"
       ],
-      "closing": "Één platform. Restaurant-native vanaf dag één."
+      "closing": "Één platform. Horeca-native vanaf dag één."
     },
     "ar": {
       "eyebrow": "ما الذي تستغني عنه",
-      "headline": "استبدل منظومة ذكاء الأعمال الخاصة بالمطاعم.",
-      "description": "صُمِّم ذكاء الأعمال العام للمحللين. أما Sundae فقد صُمِّم لمن يديرون المطاعم.",
+      "headline": "استبدل منظومة ذكاء الأعمال الخاصة بخدمات الطعام.",
+      "description": "صُمِّم ذكاء الأعمال العام للمحللين. أما Sundae فقد صُمِّم لمن يديرون خدمات الطعام.",
       "todaysStackLabel": "منظومة اليوم",
       "withSundaeLabel": "مع Sundae",
       "todaysStack": [
@@ -60,18 +60,18 @@ export const generatedLocalCopy = {
         "اجتماعات ملخّص أسبوعية بدلًا من التحرّك الفوري"
       ],
       "withSundae": [
-        "ست طبقات من الذكاء، مبنية أصلًا للمطاعم",
-        "أكثر من 500 نموذج بيانات مطاعم مُدار",
+        "ست طبقات من الذكاء، مبنية أصلًا لخدمات الطعام",
+        "أكثر من 500 نموذج بيانات مُدار لخدمات الطعام",
         "إجابات موثّقة بمصادرها في ثوانٍ",
         "12 مجال بيانات موحّدة في دفتر أستاذ واحد",
         "ذكاء فوري على مستوى الورديات، لا ملخّصات يوم الجمعة"
       ],
-      "closing": "منصة واحدة. مبنية أصلًا للمطاعم منذ اليوم الأول."
+      "closing": "منصة واحدة. مبنية أصلًا لخدمات الطعام منذ اليوم الأول."
     },
     "pt": {
       "eyebrow": "O QUE VOCÊ DESCONTINUA",
-      "headline": "Substitua a pilha de BI do restaurante.",
-      "description": "O BI genérico foi criado para analistas. A Sundae foi criada para as pessoas que gerenciam restaurantes.",
+      "headline": "Substitua a pilha de BI da restauração.",
+      "description": "O BI genérico foi criado para analistas. A Sundae foi criada para as pessoas que gerenciam a restauração.",
       "todaysStackLabel": "A pilha de hoje",
       "withSundaeLabel": "Com a Sundae",
       "todaysStack": [
@@ -82,18 +82,18 @@ export const generatedLocalCopy = {
         "Reuniões semanais de resumo em vez de ação em tempo real"
       ],
       "withSundae": [
-        "Seis camadas de inteligência, nativas de restaurante",
-        "Mais de 500 modelos de dados de restaurante governados",
+        "Seis camadas de inteligência, nativas da restauração",
+        "Mais de 500 modelos de dados de restauração governados",
         "Respostas com fontes citadas em segundos",
         "12 domínios de dados unificados em um único livro-razão",
         "Inteligência de turno em tempo real, não resumos de sexta-feira"
       ],
-      "closing": "Uma plataforma. Nativa de restaurante desde o primeiro dia."
+      "closing": "Uma plataforma. Nativa da restauração desde o primeiro dia."
     },
     "fr": {
       "eyebrow": "CE QUE VOUS METTEZ AU REBUT",
-      "headline": "Remplacez la pile BI du restaurant.",
-      "description": "La BI générique a été conçue pour les analystes. Sundae a été conçu pour celles et ceux qui font tourner les restaurants.",
+      "headline": "Remplacez la pile BI de la restauration.",
+      "description": "La BI générique a été conçue pour les analystes. Sundae a été conçu pour celles et ceux qui font tourner la restauration.",
       "todaysStackLabel": "La pile d'aujourd'hui",
       "withSundaeLabel": "Avec Sundae",
       "todaysStack": [
@@ -104,18 +104,18 @@ export const generatedLocalCopy = {
         "Des réunions de bilan hebdomadaires au lieu d'agir en temps réel"
       ],
       "withSundae": [
-        "Six couches d'intelligence, nativement pensées pour le restaurant",
-        "Plus de 500 modèles de données de restaurant gouvernés",
+        "Six couches d'intelligence, nativement pensées pour la restauration",
+        "Plus de 500 modèles de données de restauration gouvernés",
         "Des réponses sourcées en quelques secondes",
         "12 domaines de données unifiés dans un seul grand livre",
         "Une intelligence de service en temps réel, pas des bilans du vendredi"
       ],
-      "closing": "Une plateforme. Native des restaurants dès le premier jour."
+      "closing": "Une plateforme. Native de la restauration dès le premier jour."
     },
     "es": {
       "eyebrow": "LO QUE RETIRAS",
-      "headline": "Reemplaza la pila de BI del restaurante.",
-      "description": "El BI genérico se creó para analistas. Sundae se creó para las personas que dirigen restaurantes.",
+      "headline": "Reemplaza la pila de BI de la hostelería.",
+      "description": "El BI genérico se creó para analistas. Sundae se creó para las personas que dirigen la hostelería.",
       "todaysStackLabel": "La pila de hoy",
       "withSundaeLabel": "Con Sundae",
       "todaysStack": [
@@ -126,18 +126,18 @@ export const generatedLocalCopy = {
         "Reuniones semanales de resumen en lugar de actuar en tiempo real"
       ],
       "withSundae": [
-        "Seis capas de inteligencia, nativas del restaurante",
-        "Más de 500 modelos de datos de restaurante gobernados",
+        "Seis capas de inteligencia, nativas de la hostelería",
+        "Más de 500 modelos de datos de hostelería gobernados",
         "Respuestas con fuentes citadas en segundos",
         "12 dominios de datos unificados en un único libro mayor",
         "Inteligencia de turno en tiempo real, no resúmenes del viernes"
       ],
-      "closing": "Una plataforma. Nativa del restaurante desde el primer día."
+      "closing": "Una plataforma. Nativa de la hostelería desde el primer día."
     },
     "hi": {
       "eyebrow": "आप क्या हटाते हैं",
-      "headline": "रेस्टोरेंट के BI स्टैक को बदलें।",
-      "description": "सामान्य BI विश्लेषकों के लिए बनाया गया था। Sundae उन लोगों के लिए बनाया गया जो रेस्टोरेंट चलाते हैं।",
+      "headline": "फ़ूड-सर्विस के BI स्टैक को बदलें।",
+      "description": "सामान्य BI विश्लेषकों के लिए बनाया गया था। Sundae उन लोगों के लिए बनाया गया जो फ़ूड-सर्विस चलाते हैं।",
       "todaysStackLabel": "आज का स्टैक",
       "withSundaeLabel": "Sundae के साथ",
       "todaysStack": [
@@ -148,18 +148,18 @@ export const generatedLocalCopy = {
         "तुरंत कार्रवाई के बजाय साप्ताहिक समीक्षा बैठकें"
       ],
       "withSundae": [
-        "छह इंटेलिजेंस परतें, रेस्टोरेंट-नेटिव",
-        "500+ गवर्न किए गए रेस्टोरेंट डेटा मॉडल",
+        "छह इंटेलिजेंस परतें, फ़ूड-सर्विस-नेटिव",
+        "500+ गवर्न किए गए फ़ूड-सर्विस डेटा मॉडल",
         "कुछ ही सेकंड में स्रोत-संदर्भित उत्तर",
         "एक ही लेजर में एकीकृत 12 डेटा डोमेन",
         "रियल-टाइम शिफ्ट इंटेलिजेंस, शुक्रवार की समीक्षा नहीं"
       ],
-      "closing": "एक प्लेटफ़ॉर्म। पहले दिन से रेस्टोरेंट-नैटिव।"
+      "closing": "एक प्लेटफ़ॉर्म। पहले दिन से फ़ूड-सर्विस-नैटिव।"
     },
     "ur": {
       "eyebrow": "آپ کیا ختم کرتے ہیں",
-      "headline": "ریستوراں کے BI اسٹیک کو تبدیل کریں۔",
-      "description": "عام BI تجزیہ کاروں کے لیے بنایا گیا تھا۔ Sundae ریستوراں چلانے والے لوگوں کے لیے بنایا گیا ہے۔",
+      "headline": "فوڈ سروس کے BI اسٹیک کو تبدیل کریں۔",
+      "description": "عام BI تجزیہ کاروں کے لیے بنایا گیا تھا۔ Sundae فوڈ سروس چلانے والے لوگوں کے لیے بنایا گیا ہے۔",
       "todaysStackLabel": "آج کا اسٹیک",
       "withSundaeLabel": "Sundae کے ساتھ",
       "todaysStack": [
@@ -170,18 +170,18 @@ export const generatedLocalCopy = {
         "فوری کارروائی کے بجائے ہفتہ وار جائزہ میٹنگز"
       ],
       "withSundae": [
-        "ذہانت کی چھ تہیں، ریستوراں کے لیے مقامی طور پر بنی",
-        "500+ گورنڈ ریستوراں ڈیٹا ماڈلز",
+        "ذہانت کی چھ تہیں، فوڈ سروس کے لیے مقامی طور پر بنی",
+        "500+ گورنڈ فوڈ سروس ڈیٹا ماڈلز",
         "سیکنڈوں میں ماخذ کے حوالے کے ساتھ جوابات",
         "ایک ہی لیجر میں متحد 12 ڈیٹا ڈومینز",
         "ریئل ٹائم شفٹ ذہانت، جمعہ کے خلاصے نہیں"
       ],
-      "closing": "ایک پلیٹ فارم۔ پہلے دن سے ریستوراں کے لیے مقامی۔"
+      "closing": "ایک پلیٹ فارم۔ پہلے دن سے فوڈ سروس کے لیے مقامی۔"
     },
     "it": {
       "eyebrow": "COSA DISMETTI",
-      "headline": "Sostituisci lo stack BI del ristorante.",
-      "description": "La BI generica è stata creata per gli analisti. Sundae è stato creato per le persone che gestiscono i ristoranti.",
+      "headline": "Sostituisci lo stack BI della ristorazione.",
+      "description": "La BI generica è stata creata per gli analisti. Sundae è stato creato per le persone che gestiscono la ristorazione.",
       "todaysStackLabel": "Lo stack di oggi",
       "withSundaeLabel": "Con Sundae",
       "todaysStack": [
@@ -192,18 +192,18 @@ export const generatedLocalCopy = {
         "Riunioni di riepilogo settimanali invece di agire in tempo reale"
       ],
       "withSundae": [
-        "Sei livelli di intelligenza, nativi del ristorante",
-        "Oltre 500 modelli di dati per ristoranti governati",
+        "Sei livelli di intelligenza, nativi della ristorazione",
+        "Oltre 500 modelli di dati per la ristorazione governati",
         "Risposte con fonti citate in pochi secondi",
         "12 domini di dati unificati in un unico libro mastro",
         "Intelligenza di turno in tempo reale, non riepiloghi del venerdì"
       ],
-      "closing": "Una piattaforma. Nativa del ristorante fin dal primo giorno."
+      "closing": "Una piattaforma. Nativa della ristorazione fin dal primo giorno."
     },
     "zh-Hans": {
       "eyebrow": "您将淘汰什么",
-      "headline": "替换餐厅的商业智能技术栈。",
-      "description": "通用商业智能是为分析师打造的。Sundae 是为运营餐厅的人打造的。",
+      "headline": "替换餐饮的商业智能技术栈。",
+      "description": "通用商业智能是为分析师打造的。Sundae 是为运营餐饮的人打造的。",
       "todaysStackLabel": "如今的技术栈",
       "withSundaeLabel": "使用 Sundae",
       "todaysStack": [
@@ -214,18 +214,18 @@ export const generatedLocalCopy = {
         "每周复盘会议，而非实时行动"
       ],
       "withSundae": [
-        "六个智能层，餐厅原生",
-        "500+ 个受治理的餐厅数据模型",
+        "六个智能层，餐饮原生",
+        "500+ 个受治理的餐饮数据模型",
         "数秒内给出附带来源引用的答案",
         "12 个数据域统一于一个账本",
         "实时班次智能，而非周五复盘"
       ],
-      "closing": "一个平台。从第一天起就是餐厅原生。"
+      "closing": "一个平台。从第一天起就是餐饮原生。"
     },
     "pl": {
       "eyebrow": "CO WYCOFUJESZ",
-      "headline": "Zastąp restauracyjny stack BI.",
-      "description": "Ogólny BI powstał dla analityków. Sundae powstał dla osób, które prowadzą restauracje.",
+      "headline": "Zastąp gastronomiczny stack BI.",
+      "description": "Ogólny BI powstał dla analityków. Sundae powstał dla osób, które prowadzą gastronomię.",
       "todaysStackLabel": "Dzisiejszy stack",
       "withSundaeLabel": "Z Sundae",
       "todaysStack": [
@@ -236,18 +236,18 @@ export const generatedLocalCopy = {
         "Cotygodniowe spotkania podsumowujące zamiast działania na bieżąco"
       ],
       "withSundae": [
-        "Sześć warstw inteligencji, natywnych dla restauracji",
-        "Ponad 500 zarządzanych modeli danych restauracyjnych",
+        "Sześć warstw inteligencji, natywnych dla gastronomii",
+        "Ponad 500 zarządzanych modeli danych gastronomicznych",
         "Odpowiedzi z przypisami do źródeł w kilka sekund",
         "12 domen danych zjednoczonych w jednym rejestrze",
         "Inteligencja zmiany w czasie rzeczywistym, a nie piątkowe podsumowania"
       ],
-      "closing": "Jedna platforma. Natywna dla restauracji od pierwszego dnia."
+      "closing": "Jedna platforma. Natywna dla gastronomii od pierwszego dnia."
     },
     "ja": {
       "eyebrow": "あなたが手放すもの",
-      "headline": "レストランのBIスタックを置き換える。",
-      "description": "汎用のBIはアナリストのために作られました。Sundaeはレストランを運営する人々のために作られました。",
+      "headline": "飲食業のBIスタックを置き換える。",
+      "description": "汎用のBIはアナリストのために作られました。Sundaeは飲食業を営む人々のために作られました。",
       "todaysStackLabel": "今日のスタック",
       "withSundaeLabel": "Sundaeなら",
       "todaysStack": [
@@ -258,18 +258,18 @@ export const generatedLocalCopy = {
         "リアルタイムの対応ではなく、週次の振り返り会議"
       ],
       "withSundae": [
-        "6つのインテリジェンスレイヤー、レストランネイティブ",
-        "500以上の管理されたレストランデータモデル",
+        "6つのインテリジェンスレイヤー、飲食ネイティブ",
+        "500以上の管理された飲食データモデル",
         "数秒で得られる出典付きの回答",
         "1つの元帳に統合された12のデータドメイン",
         "金曜日の振り返りではなく、リアルタイムのシフトインテリジェンス"
       ],
-      "closing": "1つのプラットフォーム。初日からレストランネイティブです。"
+      "closing": "1つのプラットフォーム。初日から飲食ネイティブです。"
     },
     "id": {
       "eyebrow": "APA YANG ANDA PENSIUNKAN",
-      "headline": "Gantikan tumpukan BI restoran.",
-      "description": "BI generik dibuat untuk analis. Sundae dibuat untuk orang-orang yang menjalankan restoran.",
+      "headline": "Gantikan tumpukan BI layanan makanan.",
+      "description": "BI generik dibuat untuk analis. Sundae dibuat untuk orang-orang yang menjalankan layanan makanan.",
       "todaysStackLabel": "Tumpukan saat ini",
       "withSundaeLabel": "Dengan Sundae",
       "todaysStack": [
@@ -280,18 +280,18 @@ export const generatedLocalCopy = {
         "Rapat rekap mingguan alih-alih bertindak secara langsung"
       ],
       "withSundae": [
-        "Enam lapisan intelijen, asli restoran",
-        "500+ model data restoran yang terkelola",
+        "Enam lapisan intelijen, asli layanan makanan",
+        "500+ model data layanan makanan yang terkelola",
         "Jawaban dengan kutipan sumber dalam hitungan detik",
         "12 domain data disatukan dalam satu buku besar",
         "Intelijen shift langsung, bukan rekap hari Jumat"
       ],
-      "closing": "Satu platform. Asli restoran sejak hari pertama."
+      "closing": "Satu platform. Asli layanan makanan sejak hari pertama."
     },
     "vi": {
       "eyebrow": "NHỮNG GÌ BẠN LOẠI BỎ",
-      "headline": "Thay thế bộ công cụ BI của nhà hàng.",
-      "description": "BI chung chung được xây dựng cho các nhà phân tích. Sundae được xây dựng cho những người vận hành nhà hàng.",
+      "headline": "Thay thế bộ công cụ BI của dịch vụ ăn uống.",
+      "description": "BI chung chung được xây dựng cho các nhà phân tích. Sundae được xây dựng cho những người vận hành dịch vụ ăn uống.",
       "todaysStackLabel": "Bộ công cụ hiện tại",
       "withSundaeLabel": "Với Sundae",
       "todaysStack": [
@@ -302,18 +302,18 @@ export const generatedLocalCopy = {
         "Họp tổng kết hằng tuần thay vì hành động theo thời gian thực"
       ],
       "withSundae": [
-        "Sáu lớp trí tuệ, bản địa cho nhà hàng",
-        "Hơn 500 mô hình dữ liệu nhà hàng được quản trị",
+        "Sáu lớp trí tuệ, bản địa cho dịch vụ ăn uống",
+        "Hơn 500 mô hình dữ liệu dịch vụ ăn uống được quản trị",
         "Câu trả lời có trích dẫn nguồn trong vài giây",
         "12 miền dữ liệu hợp nhất trong một sổ cái",
         "Trí tuệ ca làm theo thời gian thực, không phải tổng kết thứ Sáu"
       ],
-      "closing": "Một nền tảng. Bản địa nhà hàng từ ngày đầu tiên."
+      "closing": "Một nền tảng. Bản địa dịch vụ ăn uống từ ngày đầu tiên."
     },
     "tr": {
       "eyebrow": "NELERDEN VAZGEÇİYORSUNUZ",
-      "headline": "Restoranın BI yığınını değiştirin.",
-      "description": "Genel amaçlı BI analistler için tasarlandı. Sundae, restoranları yöneten insanlar için tasarlandı.",
+      "headline": "Yeme-içme sektörünün BI yığınını değiştirin.",
+      "description": "Genel amaçlı BI analistler için tasarlandı. Sundae, yeme-içme sektörünü yöneten insanlar için tasarlandı.",
       "todaysStackLabel": "Bugünün yığını",
       "withSundaeLabel": "Sundae ile",
       "todaysStack": [
@@ -324,18 +324,18 @@ export const generatedLocalCopy = {
         "Gerçek zamanlı aksiyon yerine haftalık özet toplantıları"
       ],
       "withSundae": [
-        "Altı zeka katmanı, restorana özgü",
-        "500+ yönetilen restoran veri modeli",
+        "Altı zeka katmanı, yeme-içme sektörüne özgü",
+        "500+ yönetilen yeme-içme sektörü veri modeli",
         "Saniyeler içinde kaynak gösterilen yanıtlar",
         "Tek bir defterde birleştirilmiş 12 veri alanı",
         "Gerçek zamanlı vardiya zekası, Cuma özetleri değil"
       ],
-      "closing": "Tek bir platform. İlk günden itibaren restorana özgü."
+      "closing": "Tek bir platform. İlk günden itibaren yeme-içme sektörüne özgü."
     },
     "ro": {
       "eyebrow": "LA CE RENUNȚI",
-      "headline": "Înlocuiește stiva BI a restaurantului.",
-      "description": "BI-ul generic a fost construit pentru analiști. Sundae a fost construit pentru oamenii care conduc restaurante.",
+      "headline": "Înlocuiește stiva BI a sectorului HoReCa.",
+      "description": "BI-ul generic a fost construit pentru analiști. Sundae a fost construit pentru oamenii care conduc afaceri HoReCa.",
       "todaysStackLabel": "Stiva de astăzi",
       "withSundaeLabel": "Cu Sundae",
       "todaysStack": [
@@ -346,18 +346,18 @@ export const generatedLocalCopy = {
         "Întâlniri săptămânale de recapitulare în loc de acțiune în timp real"
       ],
       "withSundae": [
-        "Șase straturi de inteligență, native pentru restaurant",
-        "Peste 500 de modele de date pentru restaurante, guvernate",
+        "Șase straturi de inteligență, native pentru HoReCa",
+        "Peste 500 de modele de date pentru HoReCa, guvernate",
         "Răspunsuri cu sursă citată în câteva secunde",
         "12 domenii de date unificate într-un singur registru",
         "Inteligență în timp real pentru schimburi, nu recapitulări de vineri"
       ],
-      "closing": "O singură platformă. Nativă pentru restaurant încă din prima zi."
+      "closing": "O singură platformă. Nativă pentru HoReCa încă din prima zi."
     },
     "ko": {
       "eyebrow": "무엇을 정리하게 되는가",
-      "headline": "레스토랑 BI 스택을 교체하세요.",
-      "description": "일반적인 BI는 분석가를 위해 만들어졌습니다. Sundae는 레스토랑을 운영하는 사람들을 위해 만들어졌습니다.",
+      "headline": "외식업 BI 스택을 교체하세요.",
+      "description": "일반적인 BI는 분석가를 위해 만들어졌습니다. Sundae는 외식업을 운영하는 사람들을 위해 만들어졌습니다.",
       "todaysStackLabel": "오늘의 스택",
       "withSundaeLabel": "Sundae와 함께",
       "todaysStack": [
@@ -368,18 +368,18 @@ export const generatedLocalCopy = {
         "실시간 대응 대신 주간 요약 회의"
       ],
       "withSundae": [
-        "여섯 개의 인텔리전스 레이어, 레스토랑 네이티브",
-        "500개 이상의 거버넌스가 적용된 레스토랑 데이터 모델",
+        "여섯 개의 인텔리전스 레이어, 외식 네이티브",
+        "500개 이상의 거버넌스가 적용된 외식 데이터 모델",
         "몇 초 만에 출처가 인용된 답변",
         "하나의 원장에 통합된 12개 데이터 도메인",
         "금요일 요약이 아닌 실시간 시프트 인텔리전스"
       ],
-      "closing": "하나의 플랫폼. 첫날부터 레스토랑 네이티브."
+      "closing": "하나의 플랫폼. 첫날부터 외식 네이티브."
     },
     "sv": {
       "eyebrow": "VAD DU FASAR UT",
-      "headline": "Ersätt restaurangens BI-stack.",
-      "description": "Generisk BI byggdes för analytiker. Sundae byggdes för dem som driver restauranger.",
+      "headline": "Ersätt restaurangbranschens BI-stack.",
+      "description": "Generisk BI byggdes för analytiker. Sundae byggdes för dem som driver restaurangbranschen.",
       "todaysStackLabel": "Dagens stack",
       "withSundaeLabel": "Med Sundae",
       "todaysStack": [
@@ -390,18 +390,18 @@ export const generatedLocalCopy = {
         "Veckovisa sammanfattningsmöten istället för åtgärder i realtid"
       ],
       "withSundae": [
-        "Sex intelligenslager, restaurang-nativa",
-        "500+ styrda restaurangdatamodeller",
+        "Sex intelligenslager, restaurangbransch-nativa",
+        "500+ styrda datamodeller för restaurangbranschen",
         "Källhänvisade svar på sekunder",
         "12 datadomäner förenade i en huvudbok",
         "Skiftintelligens i realtid, inte fredagssammanfattningar"
       ],
-      "closing": "En plattform. Restaurang-nativ från dag ett."
+      "closing": "En plattform. Restaurangbransch-nativ från dag ett."
     },
     "th": {
       "eyebrow": "สิ่งที่คุณเลิกใช้",
-      "headline": "แทนที่สแต็ก BI ของร้านอาหาร",
-      "description": "BI ทั่วไปถูกสร้างขึ้นมาเพื่อนักวิเคราะห์ ส่วน Sundae ถูกสร้างขึ้นมาเพื่อผู้ที่บริหารร้านอาหาร",
+      "headline": "แทนที่สแต็ก BI ของธุรกิจบริการอาหาร",
+      "description": "BI ทั่วไปถูกสร้างขึ้นมาเพื่อนักวิเคราะห์ ส่วน Sundae ถูกสร้างขึ้นมาเพื่อผู้ที่บริหารธุรกิจบริการอาหาร",
       "todaysStackLabel": "สแต็กในวันนี้",
       "withSundaeLabel": "กับ Sundae",
       "todaysStack": [
@@ -412,18 +412,18 @@ export const generatedLocalCopy = {
         "การประชุมสรุปประจำสัปดาห์แทนการลงมือทำแบบเรียลไทม์"
       ],
       "withSundae": [
-        "ชั้นข้อมูลอัจฉริยะหกชั้น เนทีฟสำหรับร้านอาหาร",
-        "โมเดลข้อมูลร้านอาหารที่มีการกำกับดูแลกว่า 500 โมเดล",
+        "ชั้นข้อมูลอัจฉริยะหกชั้น เนทีฟสำหรับธุรกิจบริการอาหาร",
+        "โมเดลข้อมูลธุรกิจบริการอาหารที่มีการกำกับดูแลกว่า 500 โมเดล",
         "คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที",
         "โดเมนข้อมูล 12 โดเมนรวมอยู่ในบัญชีแยกประเภทเดียว",
         "ข้อมูลอัจฉริยะของกะแบบเรียลไทม์ ไม่ใช่การสรุปวันศุกร์"
       ],
-      "closing": "แพลตฟอร์มเดียว เนทีฟสำหรับร้านอาหารตั้งแต่วันแรก"
+      "closing": "แพลตฟอร์มเดียว เนทีฟสำหรับธุรกิจบริการอาหารตั้งแต่วันแรก"
     },
     "bn": {
       "eyebrow": "আপনি কী বাদ দেন",
-      "headline": "রেস্তোরাঁর BI স্ট্যাক প্রতিস্থাপন করুন।",
-      "description": "সাধারণ BI তৈরি হয়েছিল বিশ্লেষকদের জন্য। Sundae তৈরি হয়েছে যারা রেস্তোরাঁ চালান তাদের জন্য।",
+      "headline": "ফুড সার্ভিসের BI স্ট্যাক প্রতিস্থাপন করুন।",
+      "description": "সাধারণ BI তৈরি হয়েছিল বিশ্লেষকদের জন্য। Sundae তৈরি হয়েছে যারা ফুড সার্ভিস চালান তাদের জন্য।",
       "todaysStackLabel": "আজকের স্ট্যাক",
       "withSundaeLabel": "Sundae সহ",
       "todaysStack": [
@@ -434,18 +434,18 @@ export const generatedLocalCopy = {
         "রিয়েল-টাইম অ্যাকশনের পরিবর্তে সাপ্তাহিক রিক্যাপ মিটিং"
       ],
       "withSundae": [
-        "ছয়টি ইন্টেলিজেন্স স্তর, রেস্তোরাঁ-নেটিভ",
-        "৫০০+ গভর্নড রেস্তোরাঁ ডেটা মডেল",
+        "ছয়টি ইন্টেলিজেন্স স্তর, ফুড সার্ভিস-নেটিভ",
+        "৫০০+ গভর্নড ফুড সার্ভিস ডেটা মডেল",
         "কয়েক সেকেন্ডের মধ্যে উৎস-উল্লেখিত উত্তর",
         "একটি লেজারে একত্রিত ১২টি ডেটা ডোমেইন",
         "রিয়েল-টাইম শিফট ইন্টেলিজেন্স, শুক্রবারের রিক্যাপ নয়"
       ],
-      "closing": "একটি প্ল্যাটফর্ম। প্রথম দিন থেকেই রেস্তোরাঁ-নেটিভ।"
+      "closing": "একটি প্ল্যাটফর্ম। প্রথম দিন থেকেই ফুড সার্ভিস-নেটিভ।"
     },
     "ms": {
       "eyebrow": "APA YANG ANDA HENTIKAN",
-      "headline": "Gantikan timbunan BI restoran.",
-      "description": "BI generik dibina untuk penganalisis. Sundae dibina untuk orang yang mengendalikan restoran.",
+      "headline": "Gantikan timbunan BI perkhidmatan makanan.",
+      "description": "BI generik dibina untuk penganalisis. Sundae dibina untuk orang yang mengendalikan perkhidmatan makanan.",
       "todaysStackLabel": "Timbunan hari ini",
       "withSundaeLabel": "Dengan Sundae",
       "todaysStack": [
@@ -456,13 +456,13 @@ export const generatedLocalCopy = {
         "Mesyuarat ringkasan mingguan dan bukannya tindakan masa nyata"
       ],
       "withSundae": [
-        "Enam lapisan kecerdasan, asli restoran",
-        "500+ model data restoran yang ditadbir",
+        "Enam lapisan kecerdasan, asli perkhidmatan makanan",
+        "500+ model data perkhidmatan makanan yang ditadbir",
         "Jawapan dengan rujukan sumber dalam beberapa saat",
         "12 domain data disatukan dalam satu lejar",
         "Kecerdasan syif masa nyata, bukan ringkasan Jumaat"
       ],
-      "closing": "Satu platform. Asli restoran dari hari pertama."
+      "closing": "Satu platform. Asli perkhidmatan makanan dari hari pertama."
     }
   }
 } as const

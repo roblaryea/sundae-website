@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "de": {
       "eyebrow": "GEBAUT FÜR BETREIBER",
       "headline": "Von Restaurantbetreibern in allen Formaten geprägt.",
-      "description": "QSR, Casual Dining, Fine Dining, Cloud Kitchens und Gastronomiegruppen prägen die Intelligenzschicht, die Restaurants wirklich brauchen - vom Einzelbetrieb bis zum Multi-Brand-Portfolio.",
+      "description": "QSR, Casual Dining, Fine Dining, Cloud Kitchens und Gastronomiegruppen prägen die Intelligenzschicht, die die Gastronomie wirklich braucht - vom Einzelbetrieb bis zum Multi-Brand-Portfolio.",
       "stats": [
         {
           "value": "200+",
@@ -22,7 +22,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "WAS WIR VON BETREIBERN HÖREN",
       "industryHeadline": "Die Daten sind vorhanden. Die Entscheidung trifft dennoch zu spät ein.",
-      "industryDisclaimer": "Muster, die wir von Betreibern hören und in den Reporting-Workflows von Restaurants sehen. Anonymisiert und verallgemeinert.",
+      "industryDisclaimer": "Muster, die wir von Betreibern hören und in den Reporting-Workflows der Gastronomie sehen. Anonymisiert und verallgemeinert.",
       "industryTodayLabel": "Branche heute",
       "withSundaeLabel": "Mit Sundae",
       "industryClaims": [
@@ -39,12 +39,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights verbindet Umsatz, Arbeitskosten, Lebensmittelkosten, Rabatte und Preisgestaltung, damit Teams die Ursache sehen können, während sie noch handlungsfähig ist."
         }
       ],
-      "footnote": "Brancheneinsichten sind allgemeine Muster der Restaurantbranche aus öffentlicher Forschung und Beratungsfeedback. Benannte Pilotergebnisse und validierte Kundenergebnisse ersetzen diesen Abschnitt, sobald sie verfügbar sind."
+      "footnote": "Brancheneinsichten sind allgemeine Muster der Gastronomiebranche aus öffentlicher Forschung und Beratungsfeedback. Benannte Pilotergebnisse und validierte Kundenergebnisse ersetzen diesen Abschnitt, sobald sie verfügbar sind."
     },
     "fr": {
       "eyebrow": "CONSTRUIT AVEC DES OPÉRATEURS",
       "headline": "Façonné par des opérateurs de restaurant dans tous les formats.",
-      "description": "Le QSR, la restauration décontractée, la haute cuisine, les cuisines cloud et les groupes de restauration façonnent la couche d'intelligence dont les restaurants ont vraiment besoin - de l'établissement unique aux portefeuilles multi-marques.",
+      "description": "Le QSR, la restauration décontractée, la haute cuisine, les cuisines cloud et les groupes de restauration façonnent la couche d'intelligence dont la restauration a vraiment besoin - de l'établissement unique aux portefeuilles multi-marques.",
       "stats": [
         {
           "value": "200+",
@@ -61,7 +61,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "CE QUE NOUS ENTENDONS DES OPÉRATEURS",
       "industryHeadline": "Les données existent. La décision arrive toujours en retard.",
-      "industryDisclaimer": "Modèles que nous entendons des opérateurs et que nous voyons dans les flux de travail de reporting des restaurants. Anonymisés et généralisés.",
+      "industryDisclaimer": "Modèles que nous entendons des opérateurs et que nous voyons dans les flux de travail de reporting de la restauration. Anonymisés et généralisés.",
       "industryTodayLabel": "Industrie aujourd'hui",
       "withSundaeLabel": "Avec Sundae",
       "industryClaims": [
@@ -83,7 +83,7 @@ export const generatedLocalCopy = {
     "es": {
       "eyebrow": "CONSTRUIDO CON OPERADORES",
       "headline": "Modelado por operadores de restaurantes en todos los formatos.",
-      "description": "Los QSR, los restaurantes informales, la alta cocina, las cocinas cloud y los grupos de hostelería dan forma a la capa de inteligencia que los restaurantes realmente necesitan, desde operadores de un solo local hasta carteras de múltiples marcas.",
+      "description": "Los QSR, los restaurantes informales, la alta cocina, las cocinas cloud y los grupos de hostelería dan forma a la capa de inteligencia que la hostelería realmente necesita, desde operadores de un solo local hasta carteras de múltiples marcas.",
       "stats": [
         {
           "value": "200+",
@@ -100,7 +100,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "LO QUE ESCUCHAMOS DE LOS OPERADORES",
       "industryHeadline": "Los datos existen. La decisión aún llega tarde.",
-      "industryDisclaimer": "Patrones que escuchamos de los operadores y vemos en los flujos de trabajo de informes de restaurantes. Anonimizados y generalizados.",
+      "industryDisclaimer": "Patrones que escuchamos de los operadores y vemos en los flujos de trabajo de informes de hostelería. Anonimizados y generalizados.",
       "industryTodayLabel": "Industria hoy",
       "withSundaeLabel": "Con Sundae",
       "industryClaims": [
@@ -122,7 +122,7 @@ export const generatedLocalCopy = {
     "nl": {
       "eyebrow": "GEBOUWD MET OPERATORS",
       "headline": "Vormgegeven door restaurantoperators in elk formaat.",
-      "description": "QSR, casual dining, fine dining, cloudkeukens en horecagroepen geven vorm aan de intelligentielaag die restaurants echt nodig hebben - van zelfstandige zaken tot multi-merkportefeuilles.",
+      "description": "QSR, casual dining, fine dining, cloudkeukens en horecagroepen geven vorm aan de intelligentielaag die de horeca echt nodig heeft - van zelfstandige zaken tot multi-merkportefeuilles.",
       "stats": [
         {
           "value": "200+",
@@ -139,7 +139,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "WAT WE VAN OPERATORS HOREN",
       "industryHeadline": "De gegevens zijn beschikbaar. De beslissing komt nog steeds te laat.",
-      "industryDisclaimer": "Patronen die we horen van operators en zien in restaurantrapportage-workflows. Geanonimiseerd en gegeneraliseerd.",
+      "industryDisclaimer": "Patronen die we horen van operators en zien in horeca-rapportage-workflows. Geanonimiseerd en gegeneraliseerd.",
       "industryTodayLabel": "Industrie vandaag",
       "withSundaeLabel": "Met Sundae",
       "industryClaims": [
@@ -156,12 +156,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights verbindt omzet, arbeid, voedselkosten, kortingen en prijzen, zodat teams de oorzaak kunnen zien terwijl deze nog actiegericht is."
         }
       ],
-      "footnote": "Brancheobservaties zijn algemene patronen uit de restaurantbranche, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten vervangen dit gedeelte zodra ze beschikbaar zijn."
+      "footnote": "Brancheobservaties zijn algemene patronen uit de horecabranche, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten vervangen dit gedeelte zodra ze beschikbaar zijn."
     },
     "pt": {
       "eyebrow": "CONSTRUÍDO COM OPERADORES",
       "headline": "Formado por operadores de restaurantes de todos os formatos.",
-      "description": "QSR, restaurantes informais, alta gastronomia, cozinhas cloud e grupos de hospitalidade moldam a camada de inteligência de que os restaurantes realmente precisam - desde operadores de uma única casa até portfólios de várias marcas.",
+      "description": "QSR, restaurantes informais, alta gastronomia, cozinhas cloud e grupos de hospitalidade moldam a camada de inteligência de que a restauração realmente precisa - desde operadores de uma única casa até portfólios de várias marcas.",
       "stats": [
         {
           "value": "200+",
@@ -178,7 +178,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "O QUE OUVIMOS DOS OPERADORES",
       "industryHeadline": "Os dados existem. A decisão ainda chega tarde.",
-      "industryDisclaimer": "Padrões que ouvimos de operadores e vemos em fluxos de trabalho de relatórios de restaurantes. Anonimizados e generalizados.",
+      "industryDisclaimer": "Padrões que ouvimos de operadores e vemos em fluxos de trabalho de relatórios da restauração. Anonimizados e generalizados.",
       "industryTodayLabel": "Indústria hoje",
       "withSundaeLabel": "Com Sundae",
       "industryClaims": [
@@ -200,7 +200,7 @@ export const generatedLocalCopy = {
     "hi": {
       "eyebrow": "ऑपरेटरों के साथ निर्मित",
       "headline": "हर प्रारूप में रेस्तरां संचालकों द्वारा आकारित।",
-      "description": "QSR, कैजुअल डाइनिंग, फाइन डाइनिंग, क्लाउड किचन और हॉस्पिटैलिटी समूहों से मिली जानकारी वह बुद्धिमत्ता परत है जिसकी रेस्तरां को वास्तव में आवश्यकता है - एकल-शॉप ऑपरेटर से लेकर मल्टी-ब्रांड पोर्टफोलियो तक।",
+      "description": "QSR, कैजुअल डाइनिंग, फाइन डाइनिंग, क्लाउड किचन और हॉस्पिटैलिटी समूहों से मिली जानकारी वह बुद्धिमत्ता परत है जिसकी फ़ूड-सर्विस को वास्तव में आवश्यकता है - एकल-शॉप ऑपरेटर से लेकर मल्टी-ब्रांड पोर्टफोलियो तक।",
       "stats": [
         {
           "value": "200+",
@@ -217,7 +217,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "हम जो ऑपरेटरों से सुनते हैं",
       "industryHeadline": "डेटा मौजूद है। निर्णय अभी भी देर से आता है।",
-      "industryDisclaimer": "ऑपरेटरों से हमें जो पैटर्न सुनाई देते हैं और रेस्तरां रिपोर्टिंग वर्कफ़्लो में जो दिखाई देते हैं। अनाम और सामान्यीकृत।",
+      "industryDisclaimer": "ऑपरेटरों से हमें जो पैटर्न सुनाई देते हैं और फ़ूड-सर्विस रिपोर्टिंग वर्कफ़्लो में जो दिखाई देते हैं। अनाम और सामान्यीकृत।",
       "industryTodayLabel": "आज का उद्योग",
       "withSundaeLabel": "Sundae के साथ",
       "industryClaims": [
@@ -234,12 +234,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights राजस्व, श्रम, खाद्य लागत, छूट और मूल्य निर्धारण को जोड़ता है ताकि टीमें कारण देख सकें जब यह अभी भी कार्रवाई योग्य हो।"
         }
       ],
-      "footnote": "इंडस्ट्री अवलोकन सार्वजनिक शोध और सलाहकार फीडबैक से लिए गए रेस्टोरेंट इंडस्ट्री के सामान्य पैटर्न हैं। नामित पायलट नतीजे और सत्यापित ग्राहक परिणाम उपलब्ध होते ही इस सेक्शन की जगह लेंगे।"
+      "footnote": "इंडस्ट्री अवलोकन सार्वजनिक शोध और सलाहकार फीडबैक से लिए गए फ़ूड-सर्विस इंडस्ट्री के सामान्य पैटर्न हैं। नामित पायलट नतीजे और सत्यापित ग्राहक परिणाम उपलब्ध होते ही इस सेक्शन की जगह लेंगे।"
     },
     "it": {
       "eyebrow": "CREATO CON GLI OPERATORI",
       "headline": "Modellato dagli operatori di ristoranti in ogni formato.",
-      "description": "QSR, ristorazione informale, alta cucina, cucine cloud e gruppi di ospitalità danno forma al livello di intelligenza di cui i ristoranti hanno davvero bisogno - dal locale singolo ai portafogli multi-brand.",
+      "description": "QSR, ristorazione informale, alta cucina, cucine cloud e gruppi di ospitalità danno forma al livello di intelligenza di cui la ristorazione ha davvero bisogno - dal locale singolo ai portafogli multi-brand.",
       "stats": [
         {
           "value": "200+",
@@ -256,7 +256,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "COSA SENTIAMO DAGLI OPERATORI",
       "industryHeadline": "I dati esistono. La decisione arriva ancora in ritardo.",
-      "industryDisclaimer": "Modelli che sentiamo dagli operatori e vediamo nei flussi di lavoro della reportistica ristorativa. Anonimizzati e generalizzati.",
+      "industryDisclaimer": "Modelli che sentiamo dagli operatori e vediamo nei flussi di lavoro della reportistica della ristorazione. Anonimizzati e generalizzati.",
       "industryTodayLabel": "Settore oggi",
       "withSundaeLabel": "Con Sundae",
       "industryClaims": [
@@ -278,7 +278,7 @@ export const generatedLocalCopy = {
     "ar": {
       "eyebrow": "مبني مع المشغلين",
       "headline": "صاغه مشغلو المطاعم على اختلاف أنماطهم.",
-      "description": "تساعد مطاعم الوجبات السريعة، والمطاعم غير الرسمية، والمطاعم الراقية، والمطابخ السحابية، ومجموعات الضيافة في تشكيل طبقة الذكاء التي تحتاجها المطاعم فعليًا - من مشغلي المتاجر الفردية إلى محافظ العلامات التجارية المتعددة.",
+      "description": "تساعد مطاعم الوجبات السريعة، والمطاعم غير الرسمية، والمطاعم الراقية، والمطابخ السحابية، ومجموعات الضيافة في تشكيل طبقة الذكاء التي تحتاجها خدمات الطعام فعليًا - من مشغلي المتاجر الفردية إلى محافظ العلامات التجارية المتعددة.",
       "stats": [
         {
           "value": "+200",
@@ -295,7 +295,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "ماذا نسمع من المشغلين",
       "industryHeadline": "البيانات موجودة. القرار لا يزال يصل متأخراً.",
-      "industryDisclaimer": "أنماط نسمعها من المشغلين ونراها عبر سير عمل تقارير المطاعم. تم إخفاء الهوية وتعميمها.",
+      "industryDisclaimer": "أنماط نسمعها من المشغلين ونراها عبر سير عمل تقارير خدمات الطعام. تم إخفاء الهوية وتعميمها.",
       "industryTodayLabel": "صناعة اليوم",
       "withSundaeLabel": "مع Sundae",
       "industryClaims": [
@@ -312,12 +312,12 @@ export const generatedLocalCopy = {
           "sundae": "تربط Insights الإيرادات، والعمالة، وتكاليف الطعام، والخصومات، والأسعار حتى تتمكن الفرق من رؤية السبب بينما لا يزال قابلاً للتنفيذ."
         }
       ],
-      "footnote": "ملاحظات الصناعة أنماط عامة لصناعة المطاعم من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها."
+      "footnote": "ملاحظات الصناعة أنماط عامة لصناعة خدمات الطعام من بحث عام وملاحظات استشارية. نتائج تجريبية مسماة ونتائج عملاء مُتحقّقة ستحل محل هذا القسم عند توفرها."
     },
     "ur": {
       "eyebrow": "آپریٹرز کے ساتھ بنایا گیا",
       "headline": "ہر شکل میں ریستوران کے آپریٹرز کے ذریعہ تشکیل دیا گیا۔",
-      "description": "QSR، غیر رسمی کھانے، عمدہ کھانے، کلاؤڈ کچنز، اور مہمان نوازی کے گروپ وہ ذہانت کی تہہ فراہم کرتے ہیں جس کی ریستورانوں کو واقعی ضرورت ہے - ایک دکان کے آپریٹرز سے لے کر کثیر برانڈ پورٹ فولیوز تک۔",
+      "description": "QSR، غیر رسمی کھانے، عمدہ کھانے، کلاؤڈ کچنز، اور مہمان نوازی کے گروپ وہ ذہانت کی تہہ فراہم کرتے ہیں جس کی فوڈ سروس کو واقعی ضرورت ہے - ایک دکان کے آپریٹرز سے لے کر کثیر برانڈ پورٹ فولیوز تک۔",
       "stats": [
         {
           "value": "+200",
@@ -334,7 +334,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "ہمیں آپریٹرز سے کیا سننے کو ملتا ہے",
       "industryHeadline": "ڈیٹا موجود ہے۔ فیصلہ اب بھی دیر سے آتا ہے۔",
-      "industryDisclaimer": "آپریٹرز سے جو پیٹرن ہم سنتے ہیں اور ریستوراں کی رپورٹنگ کے ورک فلو میں دیکھتے ہیں۔ نامعلوم اور عمومی۔",
+      "industryDisclaimer": "آپریٹرز سے جو پیٹرن ہم سنتے ہیں اور فوڈ سروس کی رپورٹنگ کے ورک فلو میں دیکھتے ہیں۔ نامعلوم اور عمومی۔",
       "industryTodayLabel": "آج کی صنعت",
       "withSundaeLabel": "Sundae کے ساتھ",
       "industryClaims": [
@@ -351,12 +351,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights آمدنی، مزدوری، خوراک کی قیمت، رعایتیں، اور قیمتوں کو جوڑتا ہے تاکہ ٹیمیں دیکھ سکیں کہ وجہ کیا ہے جب یہ ابھی بھی عمل درآمد کے قابل ہو۔"
         }
       ],
-      "footnote": "صنعتی مشاہدات عوامی تحقیق اور مشاورتی فیڈ بیک سے اخذ کردہ ریستوران انڈسٹری کے عمومی نمونے ہیں۔ نامزد پائلٹ نتائج اور تصدیق شدہ کسٹمر نتائج دستیاب ہوتے ہی اس حصے کی جگہ لے لیں گے۔"
+      "footnote": "صنعتی مشاہدات عوامی تحقیق اور مشاورتی فیڈ بیک سے اخذ کردہ فوڈ سروس انڈسٹری کے عمومی نمونے ہیں۔ نامزد پائلٹ نتائج اور تصدیق شدہ کسٹمر نتائج دستیاب ہوتے ہی اس حصے کی جگہ لے لیں گے۔"
     },
     "tr": {
       "eyebrow": "OPERATÖRLERLE İNŞA EDİLDİ",
       "headline": "Her formatın restoran işletmecileri tarafından şekillendirilmiştir.",
-      "description": "QSR, rahat yemek, fine dining, bulut mutfaklar ve konaklama grupları, restoranların gerçekten ihtiyaç duyduğu zeka katmanını şekillendirir - tek şubeli işletmelerden çok markalı portföylere kadar.",
+      "description": "QSR, rahat yemek, fine dining, bulut mutfaklar ve konaklama grupları, yeme-içme sektörünün gerçekten ihtiyaç duyduğu zeka katmanını şekillendirir - tek şubeli işletmelerden çok markalı portföylere kadar.",
       "stats": [
         {
           "value": "200+",
@@ -373,7 +373,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "OPERATÖRLERDEN DUYDUĞUMUZ",
       "industryHeadline": "Veri mevcut. Karar hala geç geliyor.",
-      "industryDisclaimer": "Operatörlerden duyduğumuz ve restoran raporlama iş akışlarında gördüğümüz kalıplar. Anonimleştirilmiş ve genelleştirilmiş.",
+      "industryDisclaimer": "Operatörlerden duyduğumuz ve yeme-içme sektörü raporlama iş akışlarında gördüğümüz kalıplar. Anonimleştirilmiş ve genelleştirilmiş.",
       "industryTodayLabel": "Bugünün Endüstrisi",
       "withSundaeLabel": "Sundae ile",
       "industryClaims": [
@@ -390,12 +390,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights; geliri, iş gücünü, gıda maliyetini, indirimleri ve fiyatlandırmayı birbirine bağlar; böylece ekipler hâlâ aksiyon alınabilirken nedeni görebilir."
         }
       ],
-      "footnote": "Sektör gözlemleri, kamuya açık araştırmalar ve danışmanlık geri bildirimlerinden derlenen genel restoran sektörü kalıplarıdır. İsimli pilot sonuçlar ve doğrulanmış müşteri sonuçları, kullanıma sunulduğunda bu bölümün yerini alacaktır."
+      "footnote": "Sektör gözlemleri, kamuya açık araştırmalar ve danışmanlık geri bildirimlerinden derlenen genel yeme-içme sektörü kalıplarıdır. İsimli pilot sonuçlar ve doğrulanmış müşteri sonuçları, kullanıma sunulduğunda bu bölümün yerini alacaktır."
     },
     "pl": {
       "eyebrow": "TWORZONE Z OPERATORAMI",
       "headline": "Kształtowane przez operatorów restauracji w każdym formacie.",
-      "description": "QSR, casual dining, fine dining, kuchnie w chmurze i grupy gastronomiczne kształtują warstwę inteligencji, której restauracje naprawdę potrzebują - od pojedynczych lokali po portfele wielomarkowe.",
+      "description": "QSR, casual dining, fine dining, kuchnie w chmurze i grupy gastronomiczne kształtują warstwę inteligencji, której gastronomia naprawdę potrzebuje - od pojedynczych lokali po portfele wielomarkowe.",
       "stats": [
         {
           "value": "200+",
@@ -412,7 +412,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "CO SŁYSZYMY OD OPERATORÓW",
       "industryHeadline": "Dane istnieją. Decyzja nadal przychodzi za późno.",
-      "industryDisclaimer": "Wzorce, które słyszymy od operatorów i widzimy w raportowaniu w restauracjach. Zanonimizowane i uogólnione.",
+      "industryDisclaimer": "Wzorce, które słyszymy od operatorów i widzimy w raportowaniu w gastronomii. Zanonimizowane i uogólnione.",
       "industryTodayLabel": "Branża dzisiaj",
       "withSundaeLabel": "Z Sundae",
       "industryClaims": [
@@ -429,12 +429,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights łączy przychody, koszty pracy, koszty żywności, zniżki i ceny, aby zespoły mogły zobaczyć przyczynę, gdy jest jeszcze możliwa do działania."
         }
       ],
-      "footnote": "Obserwacje branżowe to ogólne wzorce branży restauracyjnej oparte na publicznych badaniach i opiniach doradczych. Nazwane wyniki pilotaży i zweryfikowane wyniki klientów zastąpią tę sekcję, gdy będą dostępne."
+      "footnote": "Obserwacje branżowe to ogólne wzorce branży gastronomicznej oparte na publicznych badaniach i opiniach doradczych. Nazwane wyniki pilotaży i zweryfikowane wyniki klientów zastąpią tę sekcję, gdy będą dostępne."
     },
     "ja": {
       "eyebrow": "オペレーターによって構築されました",
       "headline": "すべての業態のレストランオペレーターによって形作られています。",
-      "description": "QSR、カジュアルダイニング、ファインダイニング、クラウドキッチン、ホスピタリティグループは、単一店舗のオペレーターからマルチブランドポートフォリオまで、レストランが実際に必要とするインテリジェンスレイヤーを提供します。",
+      "description": "QSR、カジュアルダイニング、ファインダイニング、クラウドキッチン、ホスピタリティグループは、単一店舗のオペレーターからマルチブランドポートフォリオまで、飲食業が実際に必要とするインテリジェンスレイヤーを提供します。",
       "stats": [
         {
           "value": "200+",
@@ -451,7 +451,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "オペレーターからの声",
       "industryHeadline": "データは存在しますが、決定は依然として遅れています。",
-      "industryDisclaimer": "オペレーターから聞くパターンと、レストランの報告ワークフロー全体で見られるパターン。匿名化され、一般化されています。",
+      "industryDisclaimer": "オペレーターから聞くパターンと、飲食業の報告ワークフロー全体で見られるパターン。匿名化され、一般化されています。",
       "industryTodayLabel": "今日の業界",
       "withSundaeLabel": "Sundaeと共に",
       "industryClaims": [
@@ -473,7 +473,7 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "eyebrow": "由运营商构建",
       "headline": "由各类餐厅运营商塑造。",
-      "description": "快餐、休闲餐饮、高档餐饮、云厨房和餐饮集团共同塑造了餐厅真正需要的智能层 - 从单店经营者到多品牌集团。",
+      "description": "快餐、休闲餐饮、高档餐饮、云厨房和餐饮集团共同塑造了餐饮真正需要的智能层 - 从单店经营者到多品牌集团。",
       "stats": [
         {
           "value": "200+",
@@ -490,7 +490,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "我们从运营商那里听到的",
       "industryHeadline": "数据存在，但决策仍然迟到。",
-      "industryDisclaimer": "我们从运营商那里听到的模式，以及在餐厅报告工作流程中看到的模式。经过匿名化和概括。",
+      "industryDisclaimer": "我们从运营商那里听到的模式，以及在餐饮报告工作流程中看到的模式。经过匿名化和概括。",
       "industryTodayLabel": "今天的行业",
       "withSundaeLabel": "与Sundae一起",
       "industryClaims": [
@@ -512,7 +512,7 @@ export const generatedLocalCopy = {
     "id": {
       "eyebrow": "DIBANGUN DENGAN OPERATOR",
       "headline": "Dibentuk oleh operator restoran di setiap format.",
-      "description": "QSR, santapan kasual, santapan mewah, dapur awan, dan grup perhotelan membentuk lapisan intelijen yang sungguh-sungguh dibutuhkan restoran - dari operator satu gerai hingga portofolio multi-merek.",
+      "description": "QSR, santapan kasual, santapan mewah, dapur awan, dan grup perhotelan membentuk lapisan intelijen yang sungguh-sungguh dibutuhkan layanan makanan - dari operator satu gerai hingga portofolio multi-merek.",
       "stats": [
         {
           "value": "200+",
@@ -529,7 +529,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "APA YANG KAMI DENGAR DARI OPERATOR",
       "industryHeadline": "Data ada. Keputusan masih datang terlambat.",
-      "industryDisclaimer": "Pola yang kami dengar dari operator dan lihat di seluruh alur kerja pelaporan restoran. Dianonimkan dan digeneralisasi.",
+      "industryDisclaimer": "Pola yang kami dengar dari operator dan lihat di seluruh alur kerja pelaporan layanan makanan. Dianonimkan dan digeneralisasi.",
       "industryTodayLabel": "Industri hari ini",
       "withSundaeLabel": "Dengan Sundae",
       "industryClaims": [
@@ -546,12 +546,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights menghubungkan pendapatan, tenaga kerja, biaya makanan, diskon, dan harga sehingga tim dapat melihat penyebabnya saat masih dapat ditindaklanjuti."
         }
       ],
-      "footnote": "Observasi industri adalah pola umum industri restoran yang diambil dari riset publik dan masukan konsultatif. Hasil pilot bernama dan hasil pelanggan tervalidasi akan menggantikan bagian ini begitu tersedia."
+      "footnote": "Observasi industri adalah pola umum industri layanan makanan yang diambil dari riset publik dan masukan konsultatif. Hasil pilot bernama dan hasil pelanggan tervalidasi akan menggantikan bagian ini begitu tersedia."
     },
     "ko": {
       "eyebrow": "운영자와 함께 구축됨",
       "headline": "모든 형식의 레스토랑 운영자들에 의해 형성되었습니다.",
-      "description": "QSR, 캐주얼 다이닝, 파인 다이닝, 클라우드 키친, 그리고 호스피탈리티 그룹이 단일 매장 운영자부터 멀티 브랜드 포트폴리오까지 레스토랑이 실제로 필요로 하는 인텔리전스 레이어를 만들어 갑니다.",
+      "description": "QSR, 캐주얼 다이닝, 파인 다이닝, 클라우드 키친, 그리고 호스피탈리티 그룹이 단일 매장 운영자부터 멀티 브랜드 포트폴리오까지 외식업이 실제로 필요로 하는 인텔리전스 레이어를 만들어 갑니다.",
       "stats": [
         {
           "value": "200+",
@@ -568,7 +568,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "운영자들이 전하는 이야기",
       "industryHeadline": "데이터는 존재합니다. 결정은 여전히 늦게 도착합니다.",
-      "industryDisclaimer": "운영자들로부터 듣고 레스토랑 보고서 워크플로우 전반에서 볼 수 있는 패턴. 익명화되고 일반화됨.",
+      "industryDisclaimer": "운영자들로부터 듣고 외식업 보고서 워크플로우 전반에서 볼 수 있는 패턴. 익명화되고 일반화됨.",
       "industryTodayLabel": "오늘의 산업",
       "withSundaeLabel": "Sundae와 함께",
       "industryClaims": [
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
     "vi": {
       "eyebrow": "XÂY DỰNG BỞI CÁC NHÀ VẬN HÀNH",
       "headline": "Được hình thành bởi các nhà điều hành nhà hàng trên mọi định dạng.",
-      "description": "QSR, ẩm thực bình dân, ẩm thực cao cấp, bếp đám mây và các nhóm khách sạn cung cấp thông tin cho lớp trí tuệ mà các nhà hàng thực sự cần - từ các nhà điều hành cửa hàng đơn lẻ đến các danh mục đa thương hiệu.",
+      "description": "QSR, ẩm thực bình dân, ẩm thực cao cấp, bếp đám mây và các nhóm khách sạn cung cấp thông tin cho lớp trí tuệ mà dịch vụ ăn uống thực sự cần - từ các nhà điều hành cửa hàng đơn lẻ đến các danh mục đa thương hiệu.",
       "stats": [
         {
           "value": "200+",
@@ -607,7 +607,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "NHỮNG GÌ CHÚNG TÔI NGHE TỪ CÁC NHÀ VẬN HÀNH",
       "industryHeadline": "Dữ liệu đã tồn tại. Quyết định vẫn đến muộn.",
-      "industryDisclaimer": "Các mẫu mà chúng tôi nghe từ các nhà điều hành và thấy trong quy trình báo cáo nhà hàng. Đã được ẩn danh và tổng quát hóa.",
+      "industryDisclaimer": "Các mẫu mà chúng tôi nghe từ các nhà điều hành và thấy trong quy trình báo cáo dịch vụ ăn uống. Đã được ẩn danh và tổng quát hóa.",
       "industryTodayLabel": "Ngành công nghiệp hôm nay",
       "withSundaeLabel": "Với Sundae",
       "industryClaims": [
@@ -624,12 +624,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights kết nối doanh thu, lao động, chi phí thực phẩm, giảm giá và giá cả để các nhóm có thể thấy nguyên nhân khi nó vẫn còn có thể hành động."
         }
       ],
-      "footnote": "Quan sát ngành là các mô hình chung của ngành nhà hàng, rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm có tên và kết quả khách hàng đã xác thực sẽ thay thế phần này ngay khi có."
+      "footnote": "Quan sát ngành là các mô hình chung của ngành dịch vụ ăn uống, rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm có tên và kết quả khách hàng đã xác thực sẽ thay thế phần này ngay khi có."
     },
     "ro": {
       "eyebrow": "CONSTRUIT CU OPERATORI",
       "headline": "Modelat de operatorii de restaurante din toate formatele.",
-      "description": "QSR, dining casual, dining rafinat, bucătării cloud și grupuri de ospitalitate informează stratul de inteligență de care au nevoie restaurantele - de la operatori unici la portofolii multi-brand.",
+      "description": "QSR, dining casual, dining rafinat, bucătării cloud și grupuri de ospitalitate informează stratul de inteligență de care are nevoie HoReCa - de la operatori unici la portofolii multi-brand.",
       "stats": [
         {
           "value": "200+",
@@ -646,7 +646,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "CE AUZIM DE LA OPERATORI",
       "industryHeadline": "Datele există. Decizia tot întârzie.",
-      "industryDisclaimer": "Modele pe care le auzim de la operatori și le vedem în fluxurile de raportare ale restaurantelor. Anonimizate și generalizate.",
+      "industryDisclaimer": "Modele pe care le auzim de la operatori și le vedem în fluxurile de raportare din HoReCa. Anonimizate și generalizate.",
       "industryTodayLabel": "Industria astăzi",
       "withSundaeLabel": "Cu Sundae",
       "industryClaims": [
@@ -663,12 +663,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights conectează veniturile, forța de muncă, costul alimentelor, reducerile și prețurile, astfel încât echipele să poată vedea cauza în timp ce este încă acționabilă."
         }
       ],
-      "footnote": "Observațiile din industrie sunt tipare generale ale industriei restaurantelor, extrase din cercetări publice și feedback de consultanță. Rezultatele piloților nominalizați și rezultatele validate ale clienților vor înlocui această secțiune de îndată ce devin disponibile."
+      "footnote": "Observațiile din industrie sunt tipare generale ale industriei HoReCa, extrase din cercetări publice și feedback de consultanță. Rezultatele piloților nominalizați și rezultatele validate ale clienților vor înlocui această secțiune de îndată ce devin disponibile."
     },
     "sv": {
       "eyebrow": "BYGGD MED OPERATÖRER",
       "headline": "Formad av restaurangoperatörer i alla format.",
-      "description": "QSR, casual dining, fine dining, molnkök och restauranggrupper formar det intelligenslager som restauranger verkligen behöver - från enskilda krögare till portföljer med flera varumärken.",
+      "description": "QSR, casual dining, fine dining, molnkök och restauranggrupper formar det intelligenslager som restaurangbranschen verkligen behöver - från enskilda krögare till portföljer med flera varumärken.",
       "stats": [
         {
           "value": "200+",
@@ -685,7 +685,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "VAD VI HÖR FRÅN OPERATÖRER",
       "industryHeadline": "Data finns. Beslutet kommer fortfarande sent.",
-      "industryDisclaimer": "Mönster vi hör från operatörer och ser i restaurangrapporteringsarbetsflöden. Anonymiserade och generaliserade.",
+      "industryDisclaimer": "Mönster vi hör från operatörer och ser i restaurangbranschens rapporteringsarbetsflöden. Anonymiserade och generaliserade.",
       "industryTodayLabel": "Branschen idag",
       "withSundaeLabel": "Med Sundae",
       "industryClaims": [
@@ -707,7 +707,7 @@ export const generatedLocalCopy = {
     "bn": {
       "eyebrow": "অপারেটরদের দ্বারা নির্মিত",
       "headline": "প্রতিটি ফরম্যাটের রেস্তোরাঁ অপারেটরদের দ্বারা গঠিত।",
-      "description": "QSR, ক্যাজুয়াল ডাইনিং, ফাইন ডাইনিং, ক্লাউড কিচেন এবং হসপিটালিটি গ্রুপগুলি সেই বুদ্ধিমত্তা স্তরকে জানায় যা রেস্তোরাঁগুলোর আসলে প্রয়োজন - একক দোকানের অপারেটর থেকে শুরু করে বহু ব্র্যান্ডের পোর্টফোলিও পর্যন্ত।",
+      "description": "QSR, ক্যাজুয়াল ডাইনিং, ফাইন ডাইনিং, ক্লাউড কিচেন এবং হসপিটালিটি গ্রুপগুলি সেই বুদ্ধিমত্তা স্তরকে জানায় যা ফুড সার্ভিসের আসলে প্রয়োজন - একক দোকানের অপারেটর থেকে শুরু করে বহু ব্র্যান্ডের পোর্টফোলিও পর্যন্ত।",
       "stats": [
         {
           "value": "200+",
@@ -724,7 +724,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "আমরা অপারেটরদের কাছ থেকে যা শুনি",
       "industryHeadline": "ডেটা বিদ্যমান। সিদ্ধান্ত এখনও দেরিতে আসে।",
-      "industryDisclaimer": "অপারেটরদের কাছ থেকে আমরা যে প্যাটার্নগুলি শুনি এবং রেস্তোরাঁর রিপোর্টিং ওয়ার্কফ্লোগুলিতে দেখি। অ্যানোনিমাইজড এবং সাধারণীকৃত।",
+      "industryDisclaimer": "অপারেটরদের কাছ থেকে আমরা যে প্যাটার্নগুলি শুনি এবং ফুড সার্ভিসের রিপোর্টিং ওয়ার্কফ্লোগুলিতে দেখি। অ্যানোনিমাইজড এবং সাধারণীকৃত।",
       "industryTodayLabel": "আজকের শিল্প",
       "withSundaeLabel": "Sundae-এর সাথে",
       "industryClaims": [
@@ -741,12 +741,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights রাজস্ব, শ্রম, খাদ্য খরচ, ডিসকাউন্ট এবং মূল্য নির্ধারণকে সংযুক্ত করে যাতে টিমগুলো কারণটি দেখতে পারে যখন এটি এখনও কার্যকর।"
         }
       ],
-      "footnote": "ইন্ডাস্ট্রি পর্যবেক্ষণ হলো সর্বজনীন গবেষণা ও পরামর্শমূলক ফিডব্যাক থেকে নেওয়া রেস্তোরাঁ শিল্পের সাধারণ প্যাটার্ন। নামসহ পাইলট ফলাফল ও যাচাইকৃত গ্রাহক ফলাফল উপলব্ধ হওয়ামাত্র এই অংশটির স্থান নেবে।"
+      "footnote": "ইন্ডাস্ট্রি পর্যবেক্ষণ হলো সর্বজনীন গবেষণা ও পরামর্শমূলক ফিডব্যাক থেকে নেওয়া ফুড সার্ভিস শিল্পের সাধারণ প্যাটার্ন। নামসহ পাইলট ফলাফল ও যাচাইকৃত গ্রাহক ফলাফল উপলব্ধ হওয়ামাত্র এই অংশটির স্থান নেবে।"
     },
     "th": {
       "eyebrow": "สร้างขึ้นโดยผู้ดำเนินการ",
       "headline": "ถูกกำหนดโดยผู้ดำเนินการร้านอาหารในทุกฟอร์แมต.",
-      "description": "QSR, ร้านอาหารสบายๆ, ร้านอาหารหรู, ครัวคลาวด์, และกลุ่มการบริการให้ข้อมูลชั้นเชิงที่ร้านอาหารต้องการจริงๆ - ตั้งแต่ผู้ประกอบการร้านเดียวไปจนถึงพอร์ตโฟลิโอหลายแบรนด์.",
+      "description": "QSR, ร้านอาหารสบายๆ, ร้านอาหารหรู, ครัวคลาวด์, และกลุ่มการบริการให้ข้อมูลชั้นเชิงที่ธุรกิจบริการอาหารต้องการจริงๆ - ตั้งแต่ผู้ประกอบการร้านเดียวไปจนถึงพอร์ตโฟลิโอหลายแบรนด์.",
       "stats": [
         {
           "value": "200+",
@@ -763,7 +763,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "สิ่งที่เราฟังจากผู้ดำเนินการ",
       "industryHeadline": "ข้อมูลมีอยู่แล้ว แต่การตัดสินใจยังมาถึงช้าอยู่ดี.",
-      "industryDisclaimer": "รูปแบบที่เรามักได้ยินจากผู้ดำเนินการและเห็นในกระบวนการรายงานของร้านอาหาร ซึ่งถูกทำให้ไม่ระบุชื่อและทั่วไป",
+      "industryDisclaimer": "รูปแบบที่เรามักได้ยินจากผู้ดำเนินการและเห็นในกระบวนการรายงานของธุรกิจบริการอาหาร ซึ่งถูกทำให้ไม่ระบุชื่อและทั่วไป",
       "industryTodayLabel": "อุตสาหกรรมในปัจจุบัน",
       "withSundaeLabel": "กับ Sundae",
       "industryClaims": [
@@ -780,12 +780,12 @@ export const generatedLocalCopy = {
           "sundae": "Insights เชื่อมโยงรายได้ แรงงาน ต้นทุนอาหาร ส่วนลด และการตั้งราคา เพื่อให้ทีมสามารถเห็นสาเหตุในขณะที่ยังสามารถดำเนินการได้."
         }
       ],
-      "footnote": "ข้อสังเกตของอุตสาหกรรมเป็นรูปแบบทั่วไปของอุตสาหกรรมร้านอาหาร ซึ่งได้จากงานวิจัยสาธารณะและความเห็นที่ปรึกษา ผลลัพธ์นำร่องที่ระบุชื่อและผลลัพธ์ลูกค้าที่ผ่านการตรวจสอบจะมาแทนที่ส่วนนี้ทันทีที่พร้อมใช้งาน"
+      "footnote": "ข้อสังเกตของอุตสาหกรรมเป็นรูปแบบทั่วไปของธุรกิจบริการอาหาร ซึ่งได้จากงานวิจัยสาธารณะและความเห็นที่ปรึกษา ผลลัพธ์นำร่องที่ระบุชื่อและผลลัพธ์ลูกค้าที่ผ่านการตรวจสอบจะมาแทนที่ส่วนนี้ทันทีที่พร้อมใช้งาน"
     },
     "ms": {
       "eyebrow": "DIBINA BERSAMA PENGENDALI",
       "headline": "Dibentuk oleh pengendali restoran di setiap format.",
-      "description": "QSR, makan santai, makan mewah, dapur awan, dan kumpulan hospitaliti membentuk lapisan kecerdasan yang sememangnya diperlukan restoran - daripada pengendali satu gerai hingga portfolio pelbagai jenama.",
+      "description": "QSR, makan santai, makan mewah, dapur awan, dan kumpulan hospitaliti membentuk lapisan kecerdasan yang sememangnya diperlukan perkhidmatan makanan - daripada pengendali satu gerai hingga portfolio pelbagai jenama.",
       "stats": [
         {
           "value": "200+",
@@ -802,7 +802,7 @@ export const generatedLocalCopy = {
       ],
       "industryEyebrow": "APA YANG KAMI DENGAR DARIPADA PENGENDALI",
       "industryHeadline": "Data wujud. Keputusan masih tiba lewat.",
-      "industryDisclaimer": "Corak yang kami dengar daripada pengendali dan lihat di seluruh aliran kerja pelaporan restoran. Dianonimkan dan digeneralisasikan.",
+      "industryDisclaimer": "Corak yang kami dengar daripada pengendali dan lihat di seluruh aliran kerja pelaporan perkhidmatan makanan. Dianonimkan dan digeneralisasikan.",
       "industryTodayLabel": "Industri hari ini",
       "withSundaeLabel": "Dengan Sundae",
       "industryClaims": [
@@ -819,7 +819,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights menghubungkan hasil, buruh, kos makanan, diskaun, dan penetapan harga supaya pasukan dapat melihat punca semasa ia masih boleh diambil tindakan."
         }
       ],
-      "footnote": "Pemerhatian industri ialah corak umum industri restoran yang diambil daripada penyelidikan awam dan maklum balas perundingan. Keputusan perintis bernama dan hasil pelanggan yang disahkan akan menggantikan bahagian ini sebaik sahaja tersedia."
+      "footnote": "Pemerhatian industri ialah corak umum industri perkhidmatan makanan yang diambil daripada penyelidikan awam dan maklum balas perundingan. Keputusan perintis bernama dan hasil pelanggan yang disahkan akan menggantikan bahagian ini sebaik sahaja tersedia."
     }
   }
 } as const
