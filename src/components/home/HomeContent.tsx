@@ -366,20 +366,26 @@ export default function HomeContent() {
                 glass caps the stack on phones; from lg it moves alongside and
                 shares the row height. */}
             <FadeUp>
-              <div className="mx-auto grid max-w-5xl gap-7 lg:grid-cols-[minmax(250px,310px)_minmax(0,1fr)] lg:items-center lg:gap-12">
-                {/* Glass - the vessel that holds every layer */}
-                <div className="relative flex justify-center lg:justify-end">
+              <div className="mx-auto grid max-w-4xl gap-6 lg:grid-cols-[auto_minmax(0,1fr)] lg:items-center lg:gap-7">
+                {/* Glass - the vessel that holds every layer. Sized to itself (auto
+                    column) and set right against the stack with a tight gap, so the
+                    two read as one unit instead of a glass floating in the margin. */}
+                <div className="relative mx-auto flex justify-center lg:mx-0">
                   <div
                     aria-hidden
-                    className="pointer-events-none absolute left-1/2 top-1/2 h-[440px] w-[380px] -translate-x-1/2 -translate-y-1/2 rounded-full"
-                    style={{ background: "radial-gradient(circle, rgba(255,92,77,.14), rgba(233,162,74,.05) 46%, transparent 72%)", filter: "blur(50px)" }}
+                    className="pointer-events-none absolute left-1/2 top-1/2 h-[380px] w-[320px] -translate-x-1/2 -translate-y-1/2 rounded-full"
+                    style={{ background: "radial-gradient(circle, rgba(255,92,77,.15), rgba(233,162,74,.06) 46%, transparent 72%)", filter: "blur(48px)" }}
                   />
+                  {/* The PNG carries ~19.5% transparent padding each side, so the
+                      visible glass floats far from the stack. On desktop a negative
+                      right margin (~the right transparent band) pulls the list up
+                      against the visible bowl so the two read as one unit. */}
                   <Image
                     src="/images/hero/sundae-glass.png"
                     alt="The Sundae glass - every layer of the business in one vessel"
                     width={232}
                     height={416}
-                    className="relative h-auto w-[128px] sm:w-[156px] lg:w-full lg:max-w-[300px]"
+                    className="relative h-auto w-[150px] sm:w-[186px] lg:w-[236px] lg:-mx-[46px]"
                     style={{ filter: "drop-shadow(0 26px 46px rgba(0,0,0,0.5))" }}
                   />
                 </div>
