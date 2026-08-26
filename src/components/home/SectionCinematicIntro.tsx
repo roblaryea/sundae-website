@@ -146,7 +146,7 @@ export function SectionCinematicIntro() {
       />
 
       <motion.div
-        className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-4 sm:gap-8 lg:grid-cols-[1.12fr_.88fr]"
+        className="relative z-10 mx-auto grid w-full max-w-[1320px] items-center gap-8 sm:gap-10 lg:gap-14 lg:grid-cols-[1.02fr_.98fr]"
         style={rm ? undefined : { opacity: sceneOpacity, y: sceneY }}
       >
         {/* min-w-0 so the nowrap headline can't expand this grid track past its

@@ -359,44 +359,46 @@ export default function HomeContent() {
               </p>
             </FadeUp>
 
-            {/* Brand motif: the sundae glass - every layer of the business in one
-                vessel. Moved here from the hero (which now leads with the recovery
-                loop). Static poster, not WebGL, so it stays light and sets up the
-                "one vessel, six layers" stack below. */}
-            <FadeUp className="mb-12 flex justify-center">
-              <div className="relative">
-                <div
-                  aria-hidden
-                  className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full"
-                  style={{ background: "radial-gradient(circle, rgba(255,92,77,.13), rgba(233,162,74,.05) 46%, transparent 72%)", filter: "blur(48px)" }}
-                />
-                <Image
-                  src="/images/hero/sundae-glass.png"
-                  alt="The Sundae glass - every layer of the business in one vessel"
-                  width={220}
-                  height={394}
-                  className="relative h-auto w-[150px] sm:w-[180px]"
-                  style={{ filter: "drop-shadow(0 24px 44px rgba(0,0,0,0.45))" }}
-                />
-              </div>
-            </FadeUp>
-
-            {/* One vessel, six layers - the modules stack like the strata in
-                the glass: a single operating system, not a grid of products. */}
+            {/* One vessel, six layers - the sundae glass sits beside the six
+                modules it stands for (its strata ARE the layers), so the metaphor
+                reads as connected, not a decorative object floating above the
+                table. Static poster (no WebGL) keeps it light. Mobile-first: the
+                glass caps the stack on phones; from lg it moves alongside and
+                shares the row height. */}
             <FadeUp>
-              <div className="relative mx-auto max-w-4xl rounded-3xl border border-[var(--border-default)] overflow-hidden divide-y divide-[var(--border-default)] bg-[var(--navy-deep)]/40 backdrop-blur shadow-[0_40px_90px_-50px_rgba(0,0,0,0.7)]">
-                {platform.layers.map((layer, i) => (
-                  <LayerCard
-                    key={layer.name}
-                    layer={layer}
-                    icon={layerIcons[layer.name]}
-                    accent={layerAccents[layer.name]}
-                    learnMoreLabel={platform.learnMore}
-                    indexLabel={`0${i + 1}`}
-                    countLabel={platform.countLabel}
-                    cta={cta}
+              <div className="mx-auto grid max-w-5xl gap-7 lg:grid-cols-[minmax(190px,232px)_minmax(0,1fr)] lg:items-center lg:gap-12">
+                {/* Glass - the vessel that holds every layer */}
+                <div className="relative flex justify-center lg:justify-end">
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full"
+                    style={{ background: "radial-gradient(circle, rgba(255,92,77,.14), rgba(233,162,74,.05) 46%, transparent 72%)", filter: "blur(50px)" }}
                   />
-                ))}
+                  <Image
+                    src="/images/hero/sundae-glass.png"
+                    alt="The Sundae glass - every layer of the business in one vessel"
+                    width={232}
+                    height={416}
+                    className="relative h-auto w-[124px] sm:w-[150px] lg:w-full lg:max-w-[232px]"
+                    style={{ filter: "drop-shadow(0 26px 46px rgba(0,0,0,0.5))" }}
+                  />
+                </div>
+
+                {/* The six layers */}
+                <div className="relative rounded-3xl border border-[var(--border-default)] overflow-hidden divide-y divide-[var(--border-default)] bg-[var(--navy-deep)]/40 backdrop-blur shadow-[0_40px_90px_-50px_rgba(0,0,0,0.7)]">
+                  {platform.layers.map((layer, i) => (
+                    <LayerCard
+                      key={layer.name}
+                      layer={layer}
+                      icon={layerIcons[layer.name]}
+                      accent={layerAccents[layer.name]}
+                      learnMoreLabel={platform.learnMore}
+                      indexLabel={`0${i + 1}`}
+                      countLabel={platform.countLabel}
+                      cta={cta}
+                    />
+                  ))}
+                </div>
               </div>
             </FadeUp>
 
