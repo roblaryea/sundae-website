@@ -197,7 +197,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "العمليات اللحظية",
-        "description": "وتيرة الإيرادات، وتكلفة العمالة، وأداء طاقم الخدمة، واكتشاف التسرب - يتم التحديث كل 5 دقائق. الوردية أصل قابل للتلف. وبمجرد أن تنتهي، يضيع الهامش.",
+        "description": "وتيرة الإيرادات، وتكلفة العمالة، وأداء طاقم الخدمة، واكتشاف التسرب - يتم التحديث كل 5 دقائق، ويُحال كل بند إلى المدير المناوب ويُقاس أثره قبل انتهاء الوردية. الوردية أصل قابل للتلف. وبمجرد أن تنتهي، يضيع الهامش.",
         "icon": "pulse",
         "features": [
           "وتيرة المبيعات الحية مقابل الأهداف",
@@ -208,12 +208,12 @@ export const generatedLocalCopy = {
           "وضع ورق الحائط للأرضية"
         ],
         "stat": "2 ألف دولار",
-        "statLabel": "يُوفَّر عن كل وردية ضعيفة تُكتشف مبكرًا"
+        "statLabel": "مُستردّ لكل وردية ضعيفة - رصد وإصلاح وقياس قبل الإغلاق"
       },
       {
         "name": "Benchmarks",
         "tagline": "الذكاء التنافسي",
-        "description": "مؤشر RevPASH، وإشغال المقاعد، ومتوسط الشيكات، ومؤشرات الإيرادات - مقارنة بأقرانهم المجهولين في قطاعك وسوقك.",
+        "description": "مؤشر RevPASH، وإشغال المقاعد، ومتوسط الشيكات، ومؤشرات الإيرادات - مقارنةً بأقران مجهولين في قطاعك وسوقك، فيتحول كل فارق دون مستوى الأقران إلى هدف هامش يمكنك استرداده وقياسه.",
         "icon": "benchmarking",
         "features": [
           "RevPASH ومؤشرات الإيرادات",
@@ -229,7 +229,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "استخبارات السوق",
-        "description": "مراقبة المنافسين وتأثير إيرادات الطقس ومعلومات الأحداث والإحاطات اليومية - قبل أن يصل التأثير إلى أرقامك.",
+        "description": "مراقبة المنافسين وتأثير إيرادات الطقس ومعلومات الأحداث والإحاطات اليومية - لتتحرك قبل أن يصل التأثير إلى أرقامك، وتقيس الهامش الذي حميته.",
         "icon": "watchtower",
         "features": [
           "أسعار المنافسين وتتبع القائمة",
@@ -245,7 +245,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 وحدة استخباراتية",
-        "description": "الإيرادات، والعمالة، والمخزون، والشراء، والتسويق، والحجوزات، والتسليم، وتجربة الضيوف، والمزيد - كل منها مع توصيات من Sundae Coach.",
+        "description": "الإيرادات، والعمالة، والمخزون، والشراء، والتسويق، والحجوزات، والتسليم، وتجربة الضيوف، والمزيد - كل توصية من Sundae Coach تُوجَّه إلى مسؤول محاسَب وتُقاس مقارنةً بخط الأساس.",
         "icon": "insights",
         "features": [
           "معلومات الإيرادات والأرباح",
@@ -260,8 +260,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "تحليلات المحادثة",
-        "description": "اطرح الأسئلة بلغة واضحة. احصل على إجابات مدعومة ببياناتك الحقيقية - بالمصادر، وليس بالتخمينات. متوفر على الويب، وTelegram، وSlack، وMicrosoft Teams.",
+        "tagline": "قرارات محادثية",
+        "description": "اطرح الأسئلة بلغة واضحة، ثم حوّل كل إجابة موثّقة إلى قرار متتبَّع يمكنك قياسه - مدعوماً ببياناتك الحقيقية، بالمصادر لا بالتخمينات. متوفر على الويب، وTelegram، وSlack، وMicrosoft Teams.",
         "icon": "conversation",
         "features": [
           "استعلامات اللغة الطبيعية",
@@ -295,7 +295,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Operaciones intradiarias",
-        "description": "Ritmo de ingresos, coste laboral, rendimiento de los camareros y detección de fugas: actualización cada 5 minutos. Un turno es un activo perecedero. Una vez que pasa, el margen se pierde.",
+        "description": "Ritmo de ingresos, coste laboral, rendimiento de los camareros y detección de fugas: actualización cada 5 minutos, con cada señal asignada al encargado de turno y medida antes de que cierre el turno. Un turno es un activo perecedero. Una vez que pasa, el margen se pierde.",
         "icon": "pulse",
         "features": [
           "Ritmo de ventas en vivo frente a objetivos",
@@ -306,12 +306,12 @@ export const generatedLocalCopy = {
           "Modo tablero para el salón"
         ],
         "stat": "$2K",
-        "statLabel": "ahorrados por cada turno flojo detectado a tiempo"
+        "statLabel": "recuperados por cada turno flojo - detectado, corregido y medido antes del cierre"
       },
       {
         "name": "Benchmarks",
         "tagline": "Inteligencia Competitiva",
-        "description": "Índice RevPASH, ocupación de mesas, ticket medio e índices de ingresos, en comparación con pares anónimos en su segmento y mercado.",
+        "description": "Índice RevPASH, ocupación de mesas, ticket medio e índices de ingresos, en comparación con pares anónimos en su segmento y mercado, de modo que cada brecha por debajo de sus pares se convierte en un margen que puede recuperar y medir.",
         "icon": "benchmarking",
         "features": [
           "RevPASH e índices de ingresos",
@@ -327,7 +327,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Inteligencia de Mercado",
-        "description": "Monitoreo de la competencia, impacto climático en los ingresos, inteligencia de eventos y sesiones informativas diarias, antes de que el impacto alcance sus cifras.",
+        "description": "Monitoreo de la competencia, impacto climático en los ingresos, inteligencia de eventos y sesiones informativas diarias, para actuar antes de que el impacto alcance sus cifras y medir el margen que protegió.",
         "icon": "watchtower",
         "features": [
           "Precio de la competencia y seguimiento del menú",
@@ -343,7 +343,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 módulos de inteligencia",
-        "description": "Ingresos, mano de obra, inventario, compras, marketing, reservas, entrega, experiencia del huésped y más, cada uno con recomendaciones de Sundae Coach.",
+        "description": "Ingresos, mano de obra, inventario, compras, marketing, reservas, entrega, experiencia del huésped y más, con cada recomendación de Sundae Coach asignada a un responsable y medida frente a una línea base.",
         "icon": "insights",
         "features": [
           "Inteligencia de ingresos y ganancias",
@@ -358,8 +358,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Análisis conversacional",
-        "description": "Haga preguntas en lenguaje sencillo. Obtenga respuestas respaldadas por sus datos reales, con fuentes, no conjeturas. Disponible en web, Telegram, Slack y Microsoft Teams.",
+        "tagline": "Decisiones conversacionales",
+        "description": "Haga preguntas en lenguaje sencillo y convierta cada respuesta citada en una decisión con seguimiento que puede medir, respaldada por sus datos reales, con fuentes, no conjeturas. Disponible en web, Telegram, Slack y Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Consultas en lenguaje natural",
@@ -393,7 +393,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Intraday-Operationen",
-        "description": "Umsatztempo, Arbeitskosten, Leistung des Servicepersonals und Schwunderkennung - Aktualisierung alle 5 Minuten. Eine Schicht ist ein vergängliches Gut. Ist sie vorbei, ist die Marge weg.",
+        "description": "Umsatztempo, Arbeitskosten, Leistung des Servicepersonals und Schwunderkennung - Aktualisierung alle 5 Minuten, wobei jeder Hinweis dem diensthabenden Manager zugewiesen und vor Schichtende gemessen wird. Eine Schicht ist ein vergängliches Gut. Ist sie vorbei, ist die Marge weg.",
         "icon": "pulse",
         "features": [
           "Live-Verkaufstempo im Vergleich zu Zielen",
@@ -404,12 +404,12 @@ export const generatedLocalCopy = {
           "Wallboard-Modus für die Fläche"
         ],
         "stat": "2.000 $",
-        "statLabel": "gespart pro früh erkannter schwacher Schicht"
+        "statLabel": "zurückgewonnen pro schwacher Schicht - erkannt, behoben und vor Schichtende gemessen"
       },
       {
         "name": "Benchmarks",
         "tagline": "Wettbewerbsintelligenz",
-        "description": "RevPASH-Index, Sitzplatzauslastung, Durchschnittsbon und Umsatzindizes - verglichen mit anonymisierten Mitbewerbern in Ihrem Segment und Markt.",
+        "description": "RevPASH-Index, Sitzplatzauslastung, Durchschnittsbon und Umsatzindizes - verglichen mit anonymisierten Mitbewerbern in Ihrem Segment und Markt, sodass jede Lücke unter dem Wettbewerb zu einer Marge wird, die Sie zurückgewinnen und messen können.",
         "icon": "benchmarking",
         "features": [
           "RevPASH- und Umsatzindizes",
@@ -425,7 +425,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Marktintelligenz",
-        "description": "Wettbewerbsüberwachung, Auswirkungen des Wetters auf Einnahmen, Informationen zu Veranstaltungen und tägliche Briefings - bevor sich die Auswirkungen auf Ihre Zahlen auswirken.",
+        "description": "Wettbewerbsüberwachung, Auswirkungen des Wetters auf Einnahmen, Informationen zu Veranstaltungen und tägliche Briefings - damit Sie handeln, bevor sich die Auswirkungen auf Ihre Zahlen niederschlagen, und die geschützte Marge messen.",
         "icon": "watchtower",
         "features": [
           "Preis- und Menüverfolgung der Konkurrenz",
@@ -441,7 +441,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 Intelligenzmodule",
-        "description": "Umsatz, Arbeit, Inventar, Einkauf, Marketing, Reservierungen, Lieferung, Gästeerlebnis und mehr - jeweils mit Empfehlungen von Sundae Coach.",
+        "description": "Umsatz, Arbeit, Inventar, Einkauf, Marketing, Reservierungen, Lieferung, Gästeerlebnis und mehr - jede Empfehlung von Sundae Coach wird einer verantwortlichen Person zugewiesen und an einer Baseline gemessen.",
         "icon": "insights",
         "features": [
           "Umsatz- und Gewinninformationen",
@@ -456,8 +456,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Konversationsanalyse",
-        "description": "Stellen Sie Fragen in einfacher Sprache. Erhalten Sie Antworten, die auf Ihren echten Daten basieren - mit Quellen, nicht mit Vermutungen. Verfügbar im Web, Telegram, Slack und Microsoft Teams.",
+        "tagline": "Dialogbasierte Entscheidungen",
+        "description": "Stellen Sie Fragen in einfacher Sprache und machen Sie aus jeder belegten Antwort eine nachverfolgte, messbare Entscheidung - gestützt auf Ihre echten Daten, mit Quellen, nicht mit Vermutungen. Verfügbar im Web, Telegram, Slack und Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Abfragen in natürlicher Sprache",
@@ -491,7 +491,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Opérations intrajournalières",
-        "description": "Rythme des revenus, coût de la main-d'œuvre, performances du personnel de salle et détection des fuites - mise à jour toutes les 5 minutes. Un service est un bien périssable. Une fois passé, la marge est perdue.",
+        "description": "Rythme des revenus, coût de la main-d'œuvre, performances du personnel de salle et détection des fuites - mise à jour toutes les 5 minutes, chaque signal confié au responsable en poste et mesuré avant la fin du service. Un service est un bien périssable. Une fois passé, la marge est perdue.",
         "icon": "pulse",
         "features": [
           "Rythme des ventes en direct par rapport aux objectifs",
@@ -502,12 +502,12 @@ export const generatedLocalCopy = {
           "Mode mur d'affichage pour la salle"
         ],
         "stat": "2 000 $",
-        "statLabel": "économisés par service faible détecté à temps"
+        "statLabel": "récupérés par service faible - repéré, corrigé et mesuré avant la clôture"
       },
       {
         "name": "Benchmarks",
         "tagline": "Veille concurrentielle",
-        "description": "Indice RevPASH, taux d'occupation des sièges, addition moyenne et indices de revenus - comparés à des pairs anonymisés de votre segment et de votre marché.",
+        "description": "Indice RevPASH, taux d'occupation des sièges, addition moyenne et indices de revenus - comparés à des pairs anonymisés de votre segment et de votre marché, si bien que chaque écart sous vos pairs devient une marge à récupérer et à mesurer.",
         "icon": "benchmarking",
         "features": [
           "RevPASH et indices de revenus",
@@ -523,7 +523,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Intelligence de marché",
-        "description": "Surveillance des concurrents, impact sur les revenus météorologiques, veille sur les événements et briefings quotidiens - avant que l'impact n'atteigne vos chiffres.",
+        "description": "Surveillance des concurrents, impact sur les revenus météorologiques, veille sur les événements et briefings quotidiens - pour agir avant que l'impact n'atteigne vos chiffres, et mesurer la marge que vous avez protégée.",
         "icon": "watchtower",
         "features": [
           "Suivi des prix et des menus des concurrents",
@@ -539,7 +539,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 modules de renseignement",
-        "description": "Revenus, main-d'œuvre, inventaire, achats, marketing, réservations, livraison, expérience client et bien plus encore, chacun avec les recommandations de Sundae Coach.",
+        "description": "Revenus, main-d'œuvre, inventaire, achats, marketing, réservations, livraison, expérience client et bien plus encore, chaque recommandation de Sundae Coach confiée à un responsable et mesurée par rapport à une référence.",
         "icon": "insights",
         "features": [
           "Intelligence des revenus et des bénéfices",
@@ -554,8 +554,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Analyse conversationnelle",
-        "description": "Posez des questions dans un langage simple. Obtenez des réponses étayées par vos données réelles - avec des sources, pas des suppositions. Disponible sur le Web, Telegram, Slack et Microsoft Teams.",
+        "tagline": "Décisions conversationnelles",
+        "description": "Posez des questions dans un langage simple, puis transformez chaque réponse sourcée en une décision suivie et mesurable - étayée par vos données réelles, avec des sources, pas des suppositions. Disponible sur le Web, Telegram, Slack et Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Requêtes en langage naturel",
@@ -589,7 +589,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Operações intradiárias",
-        "description": "Ritmo de receita, custo de mão de obra, desempenho dos atendentes e detecção de perdas - atualização a cada 5 minutos. Um turno é um bem perecível. Quando acaba, a margem acaba.",
+        "description": "Ritmo de receita, custo de mão de obra, desempenho dos atendentes e detecção de perdas - atualização a cada 5 minutos, com cada sinal atribuído ao gerente de plantão e medido antes de o turno terminar. Um turno é um bem perecível. Quando acaba, a margem acaba.",
         "icon": "pulse",
         "features": [
           "Ritmo de vendas ao vivo versus metas",
@@ -600,12 +600,12 @@ export const generatedLocalCopy = {
           "Modo Wallboard para o salão"
         ],
         "stat": "US$ 2 mil",
-        "statLabel": "economizado por turno ruim detectado antecipadamente"
+        "statLabel": "recuperado por turno ruim - detectado, corrigido e medido antes do fechamento"
       },
       {
         "name": "Benchmarks",
         "tagline": "Inteligência Competitiva",
-        "description": "Índice RevPASH, ocupação de lugares, ticket médio e índices de receita - comparados com pares anônimos no seu segmento e mercado.",
+        "description": "Índice RevPASH, ocupação de lugares, ticket médio e índices de receita - comparados com pares anônimos no seu segmento e mercado, de modo que cada lacuna abaixo dos pares vira uma margem que você pode recuperar e medir.",
         "icon": "benchmarking",
         "features": [
           "RevPASH e índices de receita",
@@ -621,7 +621,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Inteligência de Mercado",
-        "description": "Monitoramento da concorrência, impacto climático na receita, inteligência de eventos e briefings diários - antes que o impacto atinja seus números.",
+        "description": "Monitoramento da concorrência, impacto climático na receita, inteligência de eventos e briefings diários - para agir antes que o impacto atinja seus números e medir a margem que você protegeu.",
         "icon": "watchtower",
         "features": [
           "Preço do concorrente e rastreamento de menu",
@@ -637,7 +637,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 Módulos de Inteligência",
-        "description": "Receita, mão de obra, estoque, compras, marketing, reservas, entrega, experiência do hóspede e muito mais - cada um com recomendações do Sundae Coach.",
+        "description": "Receita, mão de obra, estoque, compras, marketing, reservas, entrega, experiência do hóspede e muito mais - cada recomendação do Sundae Coach encaminhada a um responsável e medida em relação a uma linha de base.",
         "icon": "insights",
         "features": [
           "Inteligência de receita e lucro",
@@ -652,8 +652,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Análise Conversacional",
-        "description": "Faça perguntas em linguagem simples. Obtenha respostas baseadas em seus dados reais - com fontes, não com suposições. Disponível na web, Telegram, Slack e Microsoft Teams.",
+        "tagline": "Decisões conversacionais",
+        "description": "Faça perguntas em linguagem simples e transforme cada resposta com fonte em uma decisão rastreada que você pode medir - baseada em seus dados reais, com fontes, não com suposições. Disponível na web, Telegram, Slack e Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Consultas em linguagem natural",
@@ -687,7 +687,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Intraday-operaties",
-        "description": "Omzettempo, arbeidskosten, prestaties van bedienend personeel en detectie van weglekkende marge - elke 5 minuten bijgewerkt. Een dienst is een vergankelijk bezit. Eenmaal voorbij, is de marge verdwenen.",
+        "description": "Omzettempo, arbeidskosten, prestaties van bedienend personeel en detectie van weglekkende marge - elke 5 minuten bijgewerkt, waarbij elk signaal naar de dienstdoende manager gaat en vóór het einde van de dienst wordt gemeten. Een dienst is een vergankelijk bezit. Eenmaal voorbij, is de marge verdwenen.",
         "icon": "pulse",
         "features": [
           "Live verkooptempo versus doelstellingen",
@@ -698,12 +698,12 @@ export const generatedLocalCopy = {
           "Wallboard-modus voor de vloer"
         ],
         "stat": "$ 2K",
-        "statLabel": "bespaard per slechte dienst die vroeg wordt opgemerkt"
+        "statLabel": "teruggewonnen per slechte dienst - opgemerkt, verholpen en gemeten voor sluiting"
       },
       {
         "name": "Benchmarks",
         "tagline": "Competitieve intelligentie",
-        "description": "RevPASH Index, stoelbezetting, gemiddelde besteding en omzetindexen - vergeleken met geanonimiseerde branchegenoten in uw segment en markt.",
+        "description": "RevPASH Index, stoelbezetting, gemiddelde besteding en omzetindexen - vergeleken met geanonimiseerde branchegenoten in uw segment en markt, zodat elk gat onder uw branchegenoten een marge wordt die u kunt terugwinnen en meten.",
         "icon": "benchmarking",
         "features": [
           "RevPASH en omzetindexen",
@@ -719,7 +719,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Marktinformatie",
-        "description": "Concurrentiemonitoring, impact op de weersomzet, informatie over gebeurtenissen en dagelijkse briefings - voordat de impact uw cijfers bereikt.",
+        "description": "Concurrentiemonitoring, impact op de weersomzet, informatie over gebeurtenissen en dagelijkse briefings - zodat u handelt voordat de impact uw cijfers bereikt, en de beschermde marge meet.",
         "icon": "watchtower",
         "features": [
           "Prijs- en menutracking van concurrenten",
@@ -735,7 +735,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 intelligentiemodules",
-        "description": "Inkomsten, arbeid, inventaris, inkoop, marketing, reserveringen, bezorging, gastervaring en meer - elk met aanbevelingen van Sundae Coach.",
+        "description": "Inkomsten, arbeid, inventaris, inkoop, marketing, reserveringen, bezorging, gastervaring en meer - elke aanbeveling van Sundae Coach toegewezen aan een verantwoordelijke en gemeten ten opzichte van een basislijn.",
         "icon": "insights",
         "features": [
           "Inkomsten- en winstinformatie",
@@ -750,8 +750,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Conversatieanalyse",
-        "description": "Stel vragen in duidelijke taal. Krijg antwoorden ondersteund door uw echte gegevens - met bronnen, geen gissingen. Beschikbaar op internet, Telegram, Slack en Microsoft Teams.",
+        "tagline": "Conversatiegestuurde beslissingen",
+        "description": "Stel vragen in duidelijke taal en zet elk antwoord met bronvermelding om in een gevolgd besluit dat u kunt meten - ondersteund door uw echte gegevens, met bronnen, geen gissingen. Beschikbaar op internet, Telegram, Slack en Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Vragen in natuurlijke taal",
@@ -785,7 +785,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "انٹرا ڈے آپریشنز",
-        "description": "ریونیو پیسنگ، لیبر لاگت، ویٹر کی کارکردگی، اور رساو کا پتہ لگانا - ہر 5 منٹ میں اپ ڈیٹ کرنا۔ ایک شفٹ ایک تباہ ہونے والا اثاثہ ہے۔ ایک بار جب یہ ختم ہو جائے تو مارجن ختم ہو جاتا ہے۔",
+        "description": "ریونیو پیسنگ، لیبر لاگت، ویٹر کی کارکردگی، اور رساو کا پتہ لگانا - ہر 5 منٹ میں اپ ڈیٹ، اور ہر اشارہ ڈیوٹی پر موجود مینیجر کو بھیجا جاتا ہے اور شفٹ ختم ہونے سے پہلے ماپا جاتا ہے۔ ایک شفٹ ایک تباہ ہونے والا اثاثہ ہے۔ ایک بار جب یہ ختم ہو جائے تو مارجن ختم ہو جاتا ہے۔",
         "icon": "pulse",
         "features": [
           "لائیو سیلز پیسنگ بمقابلہ اہداف",
@@ -796,12 +796,12 @@ export const generatedLocalCopy = {
           "سروس فلور کے لیے وال بورڈ موڈ"
         ],
         "stat": "$2K",
-        "statLabel": "بچایا گیا فی بری شفٹ جلد پکڑی گئی۔"
+        "statLabel": "فی بری شفٹ بازیافت - پکڑا، درست اور بندش سے پہلے ماپا گیا"
       },
       {
         "name": "Benchmarks",
         "tagline": "مسابقتی ذہانت",
-        "description": "RevPASH انڈیکس، سیٹ پر قبضہ، اوسط چیک، اور ریونیو انڈیکسز - آپ کے سیگمنٹ اور مارکیٹ میں گمنام ساتھیوں کے مقابلے۔",
+        "description": "RevPASH انڈیکس، سیٹ پر قبضہ، اوسط چیک، اور ریونیو انڈیکسز - آپ کے سیگمنٹ اور مارکیٹ میں گمنام ساتھیوں کے مقابلے، تاکہ ساتھیوں سے نیچے کا ہر فرق ایک ایسا مارجن بن جائے جسے آپ بازیافت اور ماپ سکیں۔",
         "icon": "benchmarking",
         "features": [
           "RevPASH اور آمدنی کے اشاریہ جات",
@@ -817,7 +817,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "مارکیٹ انٹیلی جنس",
-        "description": "مسابقتی نگرانی، موسم کی آمدنی پر اثر، واقعہ کی ذہانت، اور روزانہ کی بریفنگ - اس سے پہلے کہ اثر آپ کے نمبروں پر آئے۔",
+        "description": "مسابقتی نگرانی، موسم کی آمدنی پر اثر، واقعہ کی ذہانت، اور روزانہ کی بریفنگ - تاکہ آپ اثر آپ کے نمبروں پر آنے سے پہلے حرکت کریں، اور محفوظ کیے گئے مارجن کو ماپیں۔",
         "icon": "watchtower",
         "features": [
           "مسابقتی قیمت اور مینو سے باخبر رہنا",
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 انٹیلی جنس ماڈیولز",
-        "description": "ریونیو، لیبر، انوینٹری، خریداری، مارکیٹنگ، ریزرویشنز، ڈیلیوری، مہمان کا تجربہ، اور بہت کچھ - ہر ایک Sundae Coach کی سفارشات کے ساتھ۔",
+        "description": "ریونیو، لیبر، انوینٹری، خریداری، مارکیٹنگ، ریزرویشنز، ڈیلیوری، مہمان کا تجربہ، اور بہت کچھ - Sundae Coach کی ہر سفارش ایک جوابدہ ذمہ دار کو بھیجی جاتی ہے اور بنیادی معیار کے مقابلے میں ماپی جاتی ہے۔",
         "icon": "insights",
         "features": [
           "آمدنی اور منافع کی ذہانت",
@@ -848,8 +848,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "بات چیت کے تجزیات",
-        "description": "سادہ زبان میں سوالات پوچھیں۔ اپنے حقیقی ڈیٹا سے جوابات حاصل کریں - ذرائع کے ساتھ، اندازوں سے نہیں۔ ویب، Telegram، Slack اور Microsoft Teams پر دستیاب ہے۔",
+        "tagline": "بات چیت پر مبنی فیصلے",
+        "description": "سادہ زبان میں سوالات پوچھیں، پھر ہر باحوالہ جواب کو ایک قابلِ پیمائش، ٹریک شدہ فیصلے میں بدلیں - اپنے حقیقی ڈیٹا پر مبنی، ذرائع کے ساتھ، اندازوں سے نہیں۔ ویب، Telegram، Slack اور Microsoft Teams پر دستیاب ہے۔",
         "icon": "conversation",
         "features": [
           "فطری زبان کے سوالات",
@@ -883,7 +883,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Operazioni intraday",
-        "description": "Ritmo dei ricavi, costo del personale, performance dei camerieri e rilevamento delle perdite: aggiornamento ogni 5 minuti. Un turno è un bene deperibile. Una volta finito, il margine è perso.",
+        "description": "Ritmo dei ricavi, costo del personale, performance dei camerieri e rilevamento delle perdite: aggiornamento ogni 5 minuti, con ogni segnale assegnato al responsabile di turno e misurato prima della chiusura del turno. Un turno è un bene deperibile. Una volta finito, il margine è perso.",
         "icon": "pulse",
         "features": [
           "Ritmo delle vendite in tempo reale rispetto agli obiettivi",
@@ -894,12 +894,12 @@ export const generatedLocalCopy = {
           "Modalità wallboard per la sala"
         ],
         "stat": "$ 2K",
-        "statLabel": "risparmiato per turno difettoso individuato in anticipo"
+        "statLabel": "recuperato per turno difettoso - individuato, corretto e misurato prima della chiusura"
       },
       {
         "name": "Benchmarks",
         "tagline": "Intelligenza competitiva",
-        "description": "Indice RevPASH, occupazione dei posti, scontrino medio e indici dei ricavi, confrontati con concorrenti anonimizzati nel tuo segmento e mercato.",
+        "description": "Indice RevPASH, occupazione dei posti, scontrino medio e indici dei ricavi, confrontati con concorrenti anonimizzati nel tuo segmento e mercato, così ogni divario sotto i concorrenti diventa un margine che puoi recuperare e misurare.",
         "icon": "benchmarking",
         "features": [
           "RevPASH e indici delle entrate",
@@ -915,7 +915,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Intelligenza del mercato",
-        "description": "Monitoraggio della concorrenza, impatto meteorologico sulle entrate, intelligence sugli eventi e briefing giornalieri, prima che l'impatto colpisca i tuoi numeri.",
+        "description": "Monitoraggio della concorrenza, impatto meteorologico sulle entrate, intelligence sugli eventi e briefing giornalieri, per agire prima che l'impatto colpisca i tuoi numeri e misurare il margine che hai protetto.",
         "icon": "watchtower",
         "features": [
           "Monitoraggio del prezzo e del menu della concorrenza",
@@ -931,7 +931,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 moduli di intelligenza",
-        "description": "Entrate, manodopera, inventario, acquisti, marketing, prenotazioni, consegna, esperienza degli ospiti e altro ancora, ciascuno con i consigli di Sundae Coach.",
+        "description": "Entrate, manodopera, inventario, acquisti, marketing, prenotazioni, consegna, esperienza degli ospiti e altro ancora, con ogni raccomandazione di Sundae Coach assegnata a un responsabile e misurata rispetto a una linea di base.",
         "icon": "insights",
         "features": [
           "Informazioni su entrate e profitti",
@@ -946,8 +946,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Analisi conversazionale",
-        "description": "Fai domande in un linguaggio semplice. Ottieni risposte supportate dai tuoi dati reali, con fonti, non supposizioni. Disponibile su Web, Telegram, Slack e Microsoft Teams.",
+        "tagline": "Decisioni conversazionali",
+        "description": "Fai domande in un linguaggio semplice, poi trasforma ogni risposta con fonte in una decisione tracciata e misurabile, supportata dai tuoi dati reali, con fonti, non supposizioni. Disponibile su Web, Telegram, Slack e Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Query in linguaggio naturale",
@@ -981,7 +981,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "इंट्राडे ऑपरेशन",
-        "description": "राजस्व गति, श्रम लागत, वेटर का प्रदर्शन और रिसाव का पता लगाना - हर 5 मिनट में अपडेट करना। शिफ्ट एक नाशवान संपत्ति है। एक बार बीत जाने पर, मार्जिन भी चला जाता है।",
+        "description": "राजस्व गति, श्रम लागत, वेटर का प्रदर्शन और रिसाव का पता लगाना - हर 5 मिनट में अपडेट, और हर संकेत ड्यूटी पर मौजूद प्रबंधक को भेजा जाता है और शिफ्ट खत्म होने से पहले मापा जाता है। शिफ्ट एक नाशवान संपत्ति है। एक बार बीत जाने पर, मार्जिन भी चला जाता है।",
         "icon": "pulse",
         "features": [
           "लाइव बिक्री गति बनाम लक्ष्य",
@@ -992,12 +992,12 @@ export const generatedLocalCopy = {
           "सर्विस फ्लोर के लिए वॉलबोर्ड मोड"
         ],
         "stat": "$2K",
-        "statLabel": "जल्दी पकड़ी गई प्रति खराब शिफ्ट को बचाया गया"
+        "statLabel": "प्रति खराब शिफ्ट पुनःप्राप्त - पकड़ा, ठीक किया और बंद होने से पहले मापा गया"
       },
       {
         "name": "Benchmarks",
         "tagline": "प्रतिस्पर्धी बुद्धि",
-        "description": "RevPASH सूचकांक, सीट अधिभोग, औसत बिल और राजस्व सूचकांक - आपके सेगमेंट और बाजार में अज्ञात साथियों की तुलना में।",
+        "description": "RevPASH सूचकांक, सीट अधिभोग, औसत बिल और राजस्व सूचकांक - आपके सेगमेंट और बाजार में अज्ञात साथियों की तुलना में, ताकि साथियों से नीचे का हर अंतर एक ऐसा मार्जिन बन जाए जिसे आप पुनःप्राप्त और माप सकें।",
         "icon": "benchmarking",
         "features": [
           "RevPASH और राजस्व सूचकांक",
@@ -1013,7 +1013,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "बाज़ार आसूचना",
-        "description": "प्रतिस्पर्धी निगरानी, मौसम राजस्व प्रभाव, घटना खुफिया, और दैनिक ब्रीफिंग - प्रभाव आपके नंबरों पर पड़ने से पहले।",
+        "description": "प्रतिस्पर्धी निगरानी, मौसम राजस्व प्रभाव, घटना खुफिया, और दैनिक ब्रीफिंग - ताकि प्रभाव आपके नंबरों पर पड़ने से पहले आप कार्रवाई करें, और सुरक्षित किए गए मार्जिन को मापें।",
         "icon": "watchtower",
         "features": [
           "प्रतिस्पर्धी मूल्य और मेनू ट्रैकिंग",
@@ -1029,7 +1029,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 इंटेलिजेंस मॉड्यूल",
-        "description": "राजस्व, श्रम, इन्वेंट्री, खरीदारी, विपणन, आरक्षण, वितरण, अतिथि अनुभव, और बहुत कुछ - प्रत्येक Sundae कोच की सिफारिशों के साथ।",
+        "description": "राजस्व, श्रम, इन्वेंट्री, खरीदारी, विपणन, आरक्षण, वितरण, अतिथि अनुभव, और बहुत कुछ - Sundae कोच की हर सिफारिश एक जवाबदेह जिम्मेदार को भेजी जाती है और आधार रेखा के मुकाबले मापी जाती है।",
         "icon": "insights",
         "features": [
           "राजस्व एवं लाभ आसूचना",
@@ -1044,8 +1044,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "संवादात्मक विश्लेषण",
-        "description": "सरल भाषा में प्रश्न पूछें. अपने वास्तविक डेटा द्वारा समर्थित उत्तर प्राप्त करें - स्रोतों से, अनुमानों से नहीं। वेब, Telegram, Slack और Microsoft Teams पर उपलब्ध है।",
+        "tagline": "संवादात्मक निर्णय",
+        "description": "सरल भाषा में प्रश्न पूछें, फिर हर उद्धृत उत्तर को एक ट्रैक किए गए, मापने योग्य निर्णय में बदलें - अपने वास्तविक डेटा पर आधारित, स्रोतों के साथ, अनुमानों से नहीं। वेब, Telegram, Slack और Microsoft Teams पर उपलब्ध है।",
         "icon": "conversation",
         "features": [
           "प्राकृतिक भाषा संबंधी प्रश्न",
@@ -1079,7 +1079,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Operacje śróddzienne",
-        "description": "Tempo przychodów, koszty pracy, wydajność kelnerów i wykrywanie strat - aktualizacja co 5 minut. Zmiana jest nietrwałym aktywem. Gdy zniknie, margines zniknie.",
+        "description": "Tempo przychodów, koszty pracy, wydajność kelnerów i wykrywanie strat - aktualizacja co 5 minut, przy czym każdy sygnał trafia do kierownika na zmianie i jest mierzony przed końcem zmiany. Zmiana jest nietrwałym aktywem. Gdy zniknie, margines zniknie.",
         "icon": "pulse",
         "features": [
           "Tempo sprzedaży na żywo a cele",
@@ -1090,12 +1090,12 @@ export const generatedLocalCopy = {
           "Tryb tablicy ściennej dla sali"
         ],
         "stat": "2 tys. dolarów",
-        "statLabel": "zaoszczędzone na każdej złej zmianie wyłapanej wcześniej"
+        "statLabel": "odzyskane na każdej złej zmianie - wykryte, naprawione i zmierzone przed zamknięciem"
       },
       {
         "name": "Benchmarks",
         "tagline": "Inteligencja konkurencyjna",
-        "description": "Indeks RevPASH, obłożenie miejsc, średni rachunek i wskaźniki przychodów - w porównaniu z anonimowymi odpowiednikami w Twoim segmencie i na Twoim rynku.",
+        "description": "Indeks RevPASH, obłożenie miejsc, średni rachunek i wskaźniki przychodów - w porównaniu z anonimowymi odpowiednikami w Twoim segmencie i na Twoim rynku, tak że każda luka poniżej konkurencji staje się marżą, którą możesz odzyskać i zmierzyć.",
         "icon": "benchmarking",
         "features": [
           "RevPASH i indeksy przychodów",
@@ -1111,7 +1111,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Inteligencja rynkowa",
-        "description": "Monitorowanie konkurencji, wpływ pogody na przychody, informacje o wydarzeniach i codzienne informacje - zanim wpływ dotrze do Twoich liczb.",
+        "description": "Monitorowanie konkurencji, wpływ pogody na przychody, informacje o wydarzeniach i codzienne informacje - abyś zadziałał, zanim wpływ dotrze do Twoich liczb, i zmierzył ochronioną marżę.",
         "icon": "watchtower",
         "features": [
           "Śledzenie cen i menu konkurencji",
@@ -1127,7 +1127,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 modułów inteligencji",
-        "description": "Przychody, praca, zapasy, zakupy, marketing, rezerwacje, dostawa, wrażenia gości i nie tylko - każdy z rekomendacjami od Sundae Coach.",
+        "description": "Przychody, praca, zapasy, zakupy, marketing, rezerwacje, dostawa, wrażenia gości i nie tylko - każda rekomendacja od Sundae Coach trafia do odpowiedzialnej osoby i jest mierzona względem linii bazowej.",
         "icon": "insights",
         "features": [
           "Informacje o przychodach i zyskach",
@@ -1142,8 +1142,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Analityka konwersacji",
-        "description": "Zadawaj pytania prostym językiem. Uzyskaj odpowiedzi poparte prawdziwymi danymi - źródłami, a nie domysłami. Dostępne w Internecie, Telegramie, Slacku i Microsoft Teams.",
+        "tagline": "Decyzje konwersacyjne",
+        "description": "Zadawaj pytania prostym językiem, a następnie zamień każdą odpowiedź ze źródłem w śledzoną, mierzalną decyzję - popartą prawdziwymi danymi, źródłami, a nie domysłami. Dostępne w Internecie, Telegramie, Slacku i Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Zapytania w języku naturalnym",
@@ -1177,7 +1177,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "日内操作",
-        "description": "营收节奏、人力成本、服务员表现和流失检测 - 每 5 分钟更新一次。一个班次是易逝的资产。一旦错过，利润就没了。",
+        "description": "营收节奏、人力成本、服务员表现和流失检测 - 每 5 分钟更新一次，每一项都会指派给当班经理，并在班次结束前对照基线衡量。一个班次是易逝的资产。一旦错过，利润就没了。",
         "icon": "pulse",
         "features": [
           "实时销售节奏对比目标",
@@ -1188,12 +1188,12 @@ export const generatedLocalCopy = {
           "门店墙板模式"
         ],
         "stat": "2000 美元",
-        "statLabel": "每次及早发现不良班次的节省额"
+        "statLabel": "每个不良班次挽回额--发现、修复并在收班前衡量"
       },
       {
         "name": "Benchmarks",
         "tagline": "竞争情报",
-        "description": "RevPASH 指数、座位上座率、平均客单价和营收指数 - 与你所在细分市场中的匿名同行进行对比。",
+        "description": "RevPASH 指数、座位上座率、平均客单价和营收指数 - 与你所在细分市场中的匿名同行进行对比，让每一处低于同行的差距都成为你可以挽回并衡量的利润空间。",
         "icon": "benchmarking",
         "features": [
           "RevPASH 与营收指数",
@@ -1209,7 +1209,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "市场情报",
-        "description": "竞争对手监控、天气收入影响、事件情报和每日简报 - 在影响影响到您的数字之前。",
+        "description": "竞争对手监控、天气收入影响、事件情报和每日简报 - 让你在影响波及数字之前就采取行动，并衡量所保护的利润。",
         "icon": "watchtower",
         "features": [
           "竞争对手价格和菜单跟踪",
@@ -1225,7 +1225,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12个智能模块",
-        "description": "收入、劳动力、库存、采购、营销、预订、交付、宾客体验等 - 每一项都包含 Sundae Coach 的建议。",
+        "description": "收入、劳动力、库存、采购、营销、预订、交付、宾客体验等 - Sundae Coach 的每条建议都会指派给负责人，并对照基线衡量。",
         "icon": "insights",
         "features": [
           "收入和利润情报",
@@ -1240,8 +1240,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "对话式分析",
-        "description": "用通俗的语言提问。获得由你的真实数据支撑的答案 - 有出处，而非猜测。可在 Web、Telegram、Slack 和 Microsoft Teams 上使用。",
+        "tagline": "对话式决策",
+        "description": "用通俗的语言提问，再把每个有出处的答案转化为可衡量、可追踪的决策--以你的真实数据为依据，有出处，而非猜测。可在 Web、Telegram、Slack 和 Microsoft Teams 上使用。",
         "icon": "conversation",
         "features": [
           "自然语言查询",
@@ -1275,7 +1275,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Gün İçi Operasyonlar",
-        "description": "Gelir ilerleme hızı, işçilik maliyeti, servis personeli performansı ve kaçak tespiti - her 5 dakikada bir güncellenir. Bir vardiya bozulabilir bir varlıktır. Bir kez gittiğinde, marj gitmiş olur.",
+        "description": "Gelir ilerleme hızı, işçilik maliyeti, servis personeli performansı ve kaçak tespiti - her 5 dakikada bir güncellenir; her sinyal görevdeki müdüre yönlendirilir ve vardiya kapanmadan ölçülür. Bir vardiya bozulabilir bir varlıktır. Bir kez gittiğinde, marj gitmiş olur.",
         "icon": "pulse",
         "features": [
           "Canlı satış ilerleme hızı ve hedefler",
@@ -1286,12 +1286,12 @@ export const generatedLocalCopy = {
           "Salon için duvar panosu modu"
         ],
         "stat": "2 bin dolar",
-        "statLabel": "Erken yakalanan kötü vardiya başına tasarruf"
+        "statLabel": "kötü vardiya başına geri kazanılan - yakalanan, düzeltilen ve kapanıştan önce ölçülen"
       },
       {
         "name": "Benchmarks",
         "tagline": "Rekabetçi İstihbarat",
-        "description": "RevPASH Endeksi, koltuk doluluğu, ortalama adisyon ve gelir endeksleri - segmentinizdeki ve pazarınızdaki anonim emsallerle karşılaştırılır.",
+        "description": "RevPASH Endeksi, koltuk doluluğu, ortalama adisyon ve gelir endeksleri - segmentinizdeki ve pazarınızdaki anonim emsallerle karşılaştırılır, böylece emsallerin altındaki her açık, geri kazanıp ölçebileceğiniz bir marja dönüşür.",
         "icon": "benchmarking",
         "features": [
           "RevPASH ve gelir endeksleri",
@@ -1307,7 +1307,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Piyasa İstihbaratı",
-        "description": "Rakip izleme, hava durumunun gelire etkisi, etkinlik istihbaratı ve günlük brifingler - etki rakamlarınıza ulaşmadan önce.",
+        "description": "Rakip izleme, hava durumunun gelire etkisi, etkinlik istihbaratı ve günlük brifingler - etki rakamlarınıza ulaşmadan önce harekete geçmeniz ve koruduğunuz marjı ölçmeniz için.",
         "icon": "watchtower",
         "features": [
           "Rakip fiyat ve menü takibi",
@@ -1323,7 +1323,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 Zeka Modülü",
-        "description": "Gelir, işçilik, envanter, satın alma, pazarlama, rezervasyonlar, teslimat, misafir deneyimi ve daha fazlası; her biri Sundae Coach'un önerileriyle birlikte.",
+        "description": "Gelir, işçilik, envanter, satın alma, pazarlama, rezervasyonlar, teslimat, misafir deneyimi ve daha fazlası; Sundae Coach'un her önerisi sorumlu bir kişiye yönlendirilir ve bir temel çizgiye göre ölçülür.",
         "icon": "insights",
         "features": [
           "Gelir ve kâr istihbaratı",
@@ -1338,8 +1338,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Konuşma Analitiği",
-        "description": "Sorularınızı sade bir dille sorun. Tahminlerle değil, kaynaklarla gerçek verilerinizle desteklenen yanıtlar alın. Web'de, Telegram'da, Slack'te ve Microsoft Teams'te mevcuttur.",
+        "tagline": "Konuşmayla Kararlar",
+        "description": "Sorularınızı sade bir dille sorun, ardından kaynak gösterilen her yanıtı izlenebilir ve ölçülebilir bir karara dönüştürün - gerçek verilerinizle, kaynaklarla, tahminlerle değil. Web'de, Telegram'da, Slack'te ve Microsoft Teams'te mevcuttur.",
         "icon": "conversation",
         "features": [
           "Doğal dil sorguları",
@@ -1373,7 +1373,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Operasi Intrahari",
-        "description": "Kecepatan pendapatan, biaya tenaga kerja, kinerja pramusaji, dan deteksi kebocoran - diperbarui setiap 5 menit. Shift adalah aset yang mudah rusak. Begitu berlalu, marginnya hilang.",
+        "description": "Kecepatan pendapatan, biaya tenaga kerja, kinerja pramusaji, dan deteksi kebocoran - diperbarui setiap 5 menit, dengan setiap sinyal diarahkan ke manajer yang bertugas dan diukur sebelum shift berakhir. Shift adalah aset yang mudah rusak. Begitu berlalu, marginnya hilang.",
         "icon": "pulse",
         "features": [
           "Kecepatan penjualan langsung vs target",
@@ -1384,12 +1384,12 @@ export const generatedLocalCopy = {
           "Mode papan dinding untuk area layanan"
         ],
         "stat": "$2K",
-        "statLabel": "disimpan per shift buruk yang diketahui lebih awal"
+        "statLabel": "dipulihkan per shift buruk - terdeteksi, diperbaiki, dan diukur sebelum tutup"
       },
       {
         "name": "Benchmarks",
         "tagline": "Intelijen Kompetitif",
-        "description": "Indeks RevPASH, tingkat hunian kursi, tagihan rata-rata, dan indeks pendapatan - dibandingkan dengan rekan-rekan yang dianonimkan di segmen dan pasar Anda.",
+        "description": "Indeks RevPASH, tingkat hunian kursi, tagihan rata-rata, dan indeks pendapatan - dibandingkan dengan rekan-rekan yang dianonimkan di segmen dan pasar Anda, sehingga setiap selisih di bawah rekan menjadi margin yang dapat Anda pulihkan dan ukur.",
         "icon": "benchmarking",
         "features": [
           "RevPASH & indeks pendapatan",
@@ -1405,7 +1405,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Intelijen Pasar",
-        "description": "Pemantauan pesaing, dampak pendapatan terhadap cuaca, intelijen peristiwa, dan pengarahan harian - sebelum dampaknya mencapai angka Anda.",
+        "description": "Pemantauan pesaing, dampak pendapatan terhadap cuaca, intelijen peristiwa, dan pengarahan harian - agar Anda bertindak sebelum dampaknya mencapai angka Anda, dan mengukur margin yang Anda lindungi.",
         "icon": "watchtower",
         "features": [
           "Harga pesaing & pelacakan menu",
@@ -1421,7 +1421,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 Modul Intelijen",
-        "description": "Pendapatan, tenaga kerja, inventaris, pembelian, pemasaran, reservasi, pengiriman, pengalaman tamu, dan banyak lagi - masing-masing dengan rekomendasi dari Sundae Coach.",
+        "description": "Pendapatan, tenaga kerja, inventaris, pembelian, pemasaran, reservasi, pengiriman, pengalaman tamu, dan banyak lagi - setiap rekomendasi dari Sundae Coach diarahkan ke penanggung jawab dan diukur terhadap garis dasar.",
         "icon": "insights",
         "features": [
           "Intelijen pendapatan & laba",
@@ -1436,8 +1436,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Analisis Percakapan",
-        "description": "Ajukan pertanyaan dengan bahasa yang sederhana. Dapatkan jawaban yang didukung oleh data Anda yang sebenarnya - dengan sumber, bukan tebakan. Tersedia di web, Telegram, Slack, dan Microsoft Teams.",
+        "tagline": "Keputusan Percakapan",
+        "description": "Ajukan pertanyaan dengan bahasa yang sederhana, lalu ubah setiap jawaban bersumber menjadi keputusan terlacak yang dapat Anda ukur - didukung oleh data Anda yang sebenarnya, dengan sumber, bukan tebakan. Tersedia di web, Telegram, Slack, dan Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Kueri bahasa alami",
@@ -1471,7 +1471,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "日中のオペレーション",
-        "description": "収益ペース、人件費、接客スタッフのパフォーマンス、ロス検出 - 5 分ごとに更新されます。シフトは朽ちる資産です。それがなくなるとマージンはなくなります。",
+        "description": "収益ペース、人件費、接客スタッフのパフォーマンス、ロス検出 - 5 分ごとに更新され、各項目は担当マネージャーに割り当てられ、シフト終了前にベースラインと照らして測定されます。シフトは朽ちる資産です。それがなくなるとマージンはなくなります。",
         "icon": "pulse",
         "features": [
           "実際の販売ペースと目標",
@@ -1482,12 +1482,12 @@ export const generatedLocalCopy = {
           "フロア向けウォールボードモード"
         ],
         "stat": "2,000ドル",
-        "statLabel": "不調なシフトを早期に発見して節約"
+        "statLabel": "不調なシフトごとに回収--発見、修正し、締め前に測定"
       },
       {
         "name": "Benchmarks",
         "tagline": "競合インテリジェンス",
-        "description": "RevPASH インデックス、座席稼働率、平均客単価、収益インデックスを、セグメントと市場内の匿名化された同業他社と比較します。",
+        "description": "RevPASH インデックス、座席稼働率、平均客単価、収益インデックスを、セグメントと市場内の匿名化された同業他社と比較し、同業を下回るギャップを、回収して測定できる利益へと変えます。",
         "icon": "benchmarking",
         "features": [
           "RevPASH と収益インデックス",
@@ -1503,7 +1503,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "マーケットインテリジェンス",
-        "description": "競合他社のモニタリング、気象収益への影響、イベント情報、毎日のブリーフィング - 影響が数値に影響を与える前に。",
+        "description": "競合他社のモニタリング、気象収益への影響、イベント情報、毎日のブリーフィング - 影響が数値に及ぶ前に動き、守った利益を測定できます。",
         "icon": "watchtower",
         "features": [
           "競合他社の価格とメニューの追跡",
@@ -1519,7 +1519,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 個のインテリジェンス モジュール",
-        "description": "収益、労働力、在庫、購入、マーケティング、予約、配達、ゲストエクスペリエンスなど - それぞれにSundaeコーチからの推奨事項が含まれています。",
+        "description": "収益、労働力、在庫、購入、マーケティング、予約、配達、ゲストエクスペリエンスなど - Sundaeコーチの各推奨は担当者に割り当てられ、ベースラインと照らして測定されます。",
         "icon": "insights",
         "features": [
           "収益と利益のインテリジェンス",
@@ -1534,8 +1534,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "会話型アナリティクス",
-        "description": "平易な言葉で質問するだけ。推測ではなく実際のデータに裏付けられた、出典付きの回答が得られます。Web、Telegram、Slack、Microsoft Teams で利用できます。",
+        "tagline": "会話型の意思決定",
+        "description": "平易な言葉で質問し、出典付きの各回答を追跡・測定できる意思決定へと変えます--推測ではなく、実際のデータと出典に裏付けられています。Web、Telegram、Slack、Microsoft Teams で利用できます。",
         "icon": "conversation",
         "features": [
           "自然言語クエリ",
@@ -1569,7 +1569,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "일중 운영",
-        "description": "수익 속도, 인건비, 홀 직원 성과 및 누수 감지 - 5분마다 업데이트됩니다. 교대는 부패하기 쉬운 자산입니다. 일단 사라지면 마진도 사라집니다.",
+        "description": "수익 속도, 인건비, 홀 직원 성과 및 누수 감지 - 5분마다 업데이트되며, 각 신호는 당직 매니저에게 배정되고 교대가 끝나기 전에 측정됩니다. 교대는 부패하기 쉬운 자산입니다. 일단 사라지면 마진도 사라집니다.",
         "icon": "pulse",
         "features": [
           "실시간 판매 속도 대비 목표",
@@ -1580,12 +1580,12 @@ export const generatedLocalCopy = {
           "매장용 월보드 모드"
         ],
         "stat": "$2,000",
-        "statLabel": "조기에 잡아낸 부진한 교대당 절감액"
+        "statLabel": "부진한 교대당 회수액 - 감지하고 바로잡아 마감 전에 측정"
       },
       {
         "name": "Benchmarks",
         "tagline": "경쟁 정보",
-        "description": "RevPASH 지수, 좌석 점유율, 평균 객단가 및 수익 지수 - 해당 부문 및 시장의 익명화된 동료와 비교됩니다.",
+        "description": "RevPASH 지수, 좌석 점유율, 평균 객단가 및 수익 지수 - 해당 부문 및 시장의 익명화된 동종 업체와 비교되어, 동종 업체보다 낮은 모든 격차가 회수하고 측정할 수 있는 마진으로 바뀝니다.",
         "icon": "benchmarking",
         "features": [
           "RevPASH 및 수익 지수",
@@ -1601,7 +1601,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "시장 정보",
-        "description": "경쟁사 모니터링, 기상 수익 영향, 이벤트 인텔리전스 및 일일 브리핑 - 영향이 귀하의 수치에 도달하기 전에.",
+        "description": "경쟁사 모니터링, 기상 수익 영향, 이벤트 인텔리전스 및 일일 브리핑 - 영향이 수치에 도달하기 전에 대응하고 지켜낸 마진을 측정할 수 있도록 합니다.",
         "icon": "watchtower",
         "features": [
           "경쟁사 가격 및 메뉴 추적",
@@ -1617,7 +1617,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12개의 인텔리전스 모듈",
-        "description": "수익, 인건비, 재고, 구매, 마케팅, 예약, 배달, 고객 경험 등 - 각 항목마다 Sundae Coach의 추천이 함께합니다.",
+        "description": "수익, 인건비, 재고, 구매, 마케팅, 예약, 배달, 고객 경험 등 - Sundae Coach의 각 추천은 책임자에게 배정되고 기준선 대비 측정됩니다.",
         "icon": "insights",
         "features": [
           "수익 및 이익 인텔리전스",
@@ -1632,8 +1632,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "대화형 분석",
-        "description": "쉬운 언어로 질문하세요. 추측이 아닌 출처를 통해 실제 데이터를 바탕으로 답변을 얻으세요. 웹, Telegram, Slack 및 Microsoft Teams에서 사용할 수 있습니다.",
+        "tagline": "대화형 의사결정",
+        "description": "쉬운 언어로 질문한 뒤, 출처가 있는 각 답변을 측정 가능한 추적 결정으로 바꾸세요 - 추측이 아니라 실제 데이터와 출처에 근거합니다. 웹, Telegram, Slack 및 Microsoft Teams에서 사용할 수 있습니다.",
         "icon": "conversation",
         "features": [
           "자연어 쿼리",
@@ -1667,7 +1667,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Operațiuni în cursul zilei",
-        "description": "Ritmul veniturilor, costul forței de muncă, performanța personalului de servire și detectarea pierderilor - se actualizează la fiecare 5 minute. O schimbare este un bun perisabil. Odată ce a dispărut, marja a dispărut.",
+        "description": "Ritmul veniturilor, costul forței de muncă, performanța personalului de servire și detectarea pierderilor - se actualizează la fiecare 5 minute, fiecare semnal fiind direcționat către managerul de tură și măsurat înainte de finalul turei. O schimbare este un bun perisabil. Odată ce a dispărut, marja a dispărut.",
         "icon": "pulse",
         "features": [
           "Ritmul vânzărilor live vs obiective",
@@ -1678,12 +1678,12 @@ export const generatedLocalCopy = {
           "Mod Wallboard pentru sală"
         ],
         "stat": "2.000 USD",
-        "statLabel": "economisiți la fiecare tură slabă depistată din timp"
+        "statLabel": "recuperați la fiecare tură slabă - depistată, corectată și măsurată înainte de închidere"
       },
       {
         "name": "Benchmarks",
         "tagline": "Inteligența competitivă",
-        "description": "Indicele RevPASH, ocuparea locurilor, nota medie și indici de venituri - în comparație cu colegii anonimizați din segmentul și piața dvs.",
+        "description": "Indicele RevPASH, ocuparea locurilor, nota medie și indici de venituri - în comparație cu colegii anonimizați din segmentul și piața dvs., astfel încât fiecare diferență sub nivelul acestora devine o marjă pe care o puteți recupera și măsura.",
         "icon": "benchmarking",
         "features": [
           "RevPASH și indici de venituri",
@@ -1699,7 +1699,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Inteligența de piață",
-        "description": "Monitorizarea concurenților, impactul asupra veniturilor meteo, informații despre evenimente și briefing-uri zilnice - înainte ca impactul să atingă numărul dvs.",
+        "description": "Monitorizarea concurenților, impactul asupra veniturilor meteo, informații despre evenimente și briefing-uri zilnice - ca să acționați înainte ca impactul să atingă cifrele dvs. și să măsurați marja protejată.",
         "icon": "watchtower",
         "features": [
           "Prețul concurentului și urmărirea meniului",
@@ -1715,7 +1715,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 module de inteligență",
-        "description": "Venituri, forță de muncă, inventar, achiziții, marketing, rezervări, livrare, experiență pentru oaspeți și multe altele - fiecare cu recomandări de la Sundae Coach.",
+        "description": "Venituri, forță de muncă, inventar, achiziții, marketing, rezervări, livrare, experiență pentru oaspeți și multe altele - fiecare recomandare de la Sundae Coach este direcționată către un responsabil și măsurată față de o linie de referință.",
         "icon": "insights",
         "features": [
           "Informații despre venituri și profit",
@@ -1730,8 +1730,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Analiza conversațională",
-        "description": "Pune întrebări într-un limbaj simplu. Obțineți răspunsuri susținute de datele dvs. reale - cu surse, nu presupuneri. Disponibil pe web, Telegram, Slack și Microsoft Teams.",
+        "tagline": "Decizii conversaționale",
+        "description": "Pune întrebări într-un limbaj simplu, apoi transformă fiecare răspuns cu sursă într-o decizie urmărită și măsurabilă - susținută de datele dvs. reale, cu surse, nu presupuneri. Disponibil pe web, Telegram, Slack și Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Interogări în limbaj natural",
@@ -1765,7 +1765,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Hoạt động trong ngày",
-        "description": "Tốc độ doanh thu, chi phí nhân công, hiệu suất nhân viên phục vụ và phát hiện thất thoát - cập nhật 5 phút một lần. Một ca làm việc là tài sản dễ hư hỏng. Một khi đã qua, biên lợi nhuận cũng mất.",
+        "description": "Tốc độ doanh thu, chi phí nhân công, hiệu suất nhân viên phục vụ và phát hiện thất thoát - cập nhật 5 phút một lần, mỗi tín hiệu được chuyển đến quản lý trực ca và được đo lường trước khi ca kết thúc. Một ca làm việc là tài sản dễ hư hỏng. Một khi đã qua, biên lợi nhuận cũng mất.",
         "icon": "pulse",
         "features": [
           "Tốc độ bán hàng trực tiếp so với mục tiêu",
@@ -1776,12 +1776,12 @@ export const generatedLocalCopy = {
           "Chế độ bảng tường cho khu vực phục vụ"
         ],
         "stat": "$2K",
-        "statLabel": "được lưu cho mỗi ca xấu được phát hiện sớm"
+        "statLabel": "thu hồi cho mỗi ca xấu - phát hiện, khắc phục và đo lường trước khi đóng ca"
       },
       {
         "name": "Benchmarks",
         "tagline": "Thông tin cạnh tranh",
-        "description": "Chỉ số RevPASH, tỷ lệ lấp đầy chỗ ngồi, hóa đơn trung bình và chỉ số doanh thu - được so sánh với các đối thủ ẩn danh trong phân khúc và thị trường của bạn.",
+        "description": "Chỉ số RevPASH, tỷ lệ lấp đầy chỗ ngồi, hóa đơn trung bình và chỉ số doanh thu - được so sánh với các đối thủ ẩn danh trong phân khúc và thị trường của bạn, để mọi khoảng cách dưới mức đối thủ trở thành biên lợi nhuận bạn có thể thu hồi và đo lường.",
         "icon": "benchmarking",
         "features": [
           "RevPASH và chỉ số doanh thu",
@@ -1797,7 +1797,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Thông tin thị trường",
-        "description": "Giám sát đối thủ cạnh tranh, tác động đến doanh thu do thời tiết, thông tin sự kiện và thông tin tóm tắt hàng ngày - trước khi tác động đến con số của bạn.",
+        "description": "Giám sát đối thủ cạnh tranh, tác động đến doanh thu do thời tiết, thông tin sự kiện và thông tin tóm tắt hàng ngày - để bạn hành động trước khi tác động chạm đến con số của bạn, và đo lường biên lợi nhuận đã bảo vệ.",
         "icon": "watchtower",
         "features": [
           "Theo dõi giá và thực đơn của đối thủ cạnh tranh",
@@ -1813,7 +1813,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 mô-đun thông minh",
-        "description": "Doanh thu, lao động, tồn kho, mua hàng, tiếp thị, đặt chỗ, giao hàng, trải nghiệm của khách, v.v. - mỗi mục đều có đề xuất từ Sundae Coach.",
+        "description": "Doanh thu, lao động, tồn kho, mua hàng, tiếp thị, đặt chỗ, giao hàng, trải nghiệm của khách, v.v. - mỗi đề xuất từ Sundae Coach được chuyển đến một người chịu trách nhiệm và đo lường so với đường cơ sở.",
         "icon": "insights",
         "features": [
           "Thông tin doanh thu và lợi nhuận",
@@ -1828,8 +1828,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Phân tích hội thoại",
-        "description": "Đặt câu hỏi bằng ngôn ngữ đơn giản. Nhận câu trả lời được hỗ trợ bởi dữ liệu thực của bạn - bằng nguồn chứ không phải phỏng đoán. Có sẵn trên web, Telegram, Slack và Microsoft Teams.",
+        "tagline": "Quyết định hội thoại",
+        "description": "Đặt câu hỏi bằng ngôn ngữ đơn giản, rồi biến mỗi câu trả lời có nguồn thành một quyết định được theo dõi và đo lường - dựa trên dữ liệu thực của bạn, bằng nguồn chứ không phải phỏng đoán. Có sẵn trên web, Telegram, Slack và Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Truy vấn ngôn ngữ tự nhiên",
@@ -1863,7 +1863,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "ইন্ট্রাডে অপারেশন",
-        "description": "রাজস্ব পেসিং, শ্রম খরচ, ওয়েটারের কর্মক্ষমতা, এবং ফুটো সনাক্তকরণ - প্রতি 5 মিনিটে আপডেট করা হচ্ছে। একটি শিফট একটি পচনশীল সম্পদ। একবার চলে গেলে, মার্জিনও চলে যায়।",
+        "description": "রাজস্ব পেসিং, শ্রম খরচ, ওয়েটারের কর্মক্ষমতা, এবং ফুটো সনাক্তকরণ - প্রতি 5 মিনিটে আপডেট, আর প্রতিটি সংকেত দায়িত্বরত ম্যানেজারের কাছে পাঠানো হয় এবং শিফট শেষ হওয়ার আগে পরিমাপ করা হয়। একটি শিফট একটি পচনশীল সম্পদ। একবার চলে গেলে, মার্জিনও চলে যায়।",
         "icon": "pulse",
         "features": [
           "লাইভ সেলস পেসিং বনাম টার্গেট",
@@ -1874,12 +1874,12 @@ export const generatedLocalCopy = {
           "সার্ভিস ফ্লোরের জন্য ওয়ালবোর্ড মোড"
         ],
         "stat": "$2K",
-        "statLabel": "প্রথম দিকে ধরা খারাপ শিফট প্রতি সংরক্ষিত"
+        "statLabel": "প্রতি খারাপ শিফটে পুনরুদ্ধার - শনাক্ত, সংশোধন এবং বন্ধের আগে পরিমাপ করা"
       },
       {
         "name": "Benchmarks",
         "tagline": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
-        "description": "RevPASH সূচক, আসন দখল, গড় বিল, এবং রাজস্ব সূচক - আপনার সেগমেন্ট এবং বাজারে বেনামী সমবয়সীদের তুলনায়।",
+        "description": "RevPASH সূচক, আসন দখল, গড় বিল, এবং রাজস্ব সূচক - আপনার সেগমেন্ট এবং বাজারে বেনামী সমকক্ষদের তুলনায়, যাতে সমকক্ষদের নিচের প্রতিটি ব্যবধান এমন একটি মার্জিনে পরিণত হয় যা আপনি পুনরুদ্ধার ও পরিমাপ করতে পারেন।",
         "icon": "benchmarking",
         "features": [
           "RevPASH এবং রাজস্ব সূচক",
@@ -1895,7 +1895,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "মার্কেট ইন্টেলিজেন্স",
-        "description": "প্রতিযোগী পর্যবেক্ষণ, আবহাওয়া রাজস্ব প্রভাব, ইভেন্ট বুদ্ধিমত্তা, এবং দৈনিক ব্রিফিং - প্রভাব আপনার সংখ্যা হিট আগে.",
+        "description": "প্রতিযোগী পর্যবেক্ষণ, আবহাওয়া রাজস্ব প্রভাব, ইভেন্ট বুদ্ধিমত্তা, এবং দৈনিক ব্রিফিং - যাতে প্রভাব আপনার সংখ্যায় পৌঁছানোর আগেই আপনি পদক্ষেপ নেন এবং রক্ষা করা মার্জিন পরিমাপ করেন।",
         "icon": "watchtower",
         "features": [
           "প্রতিযোগী মূল্য এবং মেনু ট্র্যাকিং",
@@ -1911,7 +1911,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 ইন্টেলিজেন্স মডিউল",
-        "description": "রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, বিপণন, সংরক্ষণ, ডেলিভারি, অতিথি অভিজ্ঞতা এবং আরও অনেক কিছু - প্রত্যেকটি Sundae Coach থেকে সুপারিশ সহ।",
+        "description": "রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, বিপণন, সংরক্ষণ, ডেলিভারি, অতিথি অভিজ্ঞতা এবং আরও অনেক কিছু - Sundae Coach-এর প্রতিটি সুপারিশ একজন দায়বদ্ধ ব্যক্তির কাছে পাঠানো হয় এবং একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা হয়।",
         "icon": "insights",
         "features": [
           "রাজস্ব এবং লাভ বুদ্ধিমত্তা",
@@ -1926,8 +1926,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "কথোপকথন বিশ্লেষণ",
-        "description": "সরল ভাষায় প্রশ্ন করুন। আপনার প্রকৃত ডেটা দ্বারা সমর্থিত উত্তরগুলি পান - উত্স সহ, অনুমান নয়। ওয়েব, Telegram, Slack এবং Microsoft Teams-এ উপলব্ধ।",
+        "tagline": "কথোপকথনমূলক সিদ্ধান্ত",
+        "description": "সরল ভাষায় প্রশ্ন করুন, তারপর প্রতিটি উৎস-উদ্ধৃত উত্তরকে একটি ট্র্যাককৃত, পরিমাপযোগ্য সিদ্ধান্তে রূপান্তর করুন - আপনার প্রকৃত ডেটার উপর ভিত্তি করে, উত্স সহ, অনুমান নয়। ওয়েব, Telegram, Slack এবং Microsoft Teams-এ উপলব্ধ।",
         "icon": "conversation",
         "features": [
           "প্রাকৃতিক ভাষা প্রশ্ন",
@@ -1961,7 +1961,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Intradagsverksamhet",
-        "description": "Intäktstakt, arbetskostnad, servispersonalens prestanda och läckagedetektering - uppdatering var 5:e minut. Ett skifte är en förgänglig tillgång. När den väl är borta är marginalen borta.",
+        "description": "Intäktstakt, arbetskostnad, servispersonalens prestanda och läckagedetektering - uppdatering var 5:e minut, där varje signal tilldelas ansvarig chef på passet och mäts innan skiftet stänger. Ett skifte är en förgänglig tillgång. När den väl är borta är marginalen borta.",
         "icon": "pulse",
         "features": [
           "Försäljningstakt i realtid kontra mål",
@@ -1972,12 +1972,12 @@ export const generatedLocalCopy = {
           "Wallboard-läge för golvet"
         ],
         "stat": "$2K",
-        "statLabel": "sparas per tidigt fångat dåligt skift"
+        "statLabel": "återvunnet per dåligt skift - upptäckt, åtgärdat och mätt före stängning"
       },
       {
         "name": "Benchmarks",
         "tagline": "Konkurrenskraftig intelligens",
-        "description": "RevPASH Index, platsbeläggning, snittnota och intäktsindex - jämfört med anonymiserade likar i ditt segment och din marknad.",
+        "description": "RevPASH Index, platsbeläggning, snittnota och intäktsindex - jämfört med anonymiserade likar i ditt segment och din marknad, så att varje gap under likarna blir en marginal du kan återvinna och mäta.",
         "icon": "benchmarking",
         "features": [
           "RevPASH & intäktsindex",
@@ -1993,7 +1993,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Marknadsintelligens",
-        "description": "Konkurrentövervakning, väderinkomstens påverkan, händelseinformation och dagliga genomgångar - innan påverkan når dina siffror.",
+        "description": "Konkurrentövervakning, väderinkomstens påverkan, händelseinformation och dagliga genomgångar - så att du agerar innan påverkan når dina siffror, och mäter marginalen du skyddade.",
         "icon": "watchtower",
         "features": [
           "Konkurrentpris & menyspårning",
@@ -2009,7 +2009,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 intelligensmoduler",
-        "description": "Intäkter, arbete, lager, inköp, marknadsföring, reservationer, leverans, gästupplevelse och mer - var och en med rekommendationer från Sundae Coach.",
+        "description": "Intäkter, arbete, lager, inköp, marknadsföring, reservationer, leverans, gästupplevelse och mer - varje rekommendation från Sundae Coach tilldelas en ansvarig person och mäts mot en baslinje.",
         "icon": "insights",
         "features": [
           "Intäkts- och vinstintelligens",
@@ -2024,8 +2024,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Konversationsanalys",
-        "description": "Ställ frågor i klartext. Få svar som backas upp av dina verkliga data - med källor, inte gissningar. Tillgängligt på webben, Telegram, Slack och Microsoft Teams.",
+        "tagline": "Konversationsbeslut",
+        "description": "Ställ frågor i klartext och gör varje källhänvisat svar till ett spårat, mätbart beslut - underbyggt av dina verkliga data, med källor, inte gissningar. Tillgängligt på webben, Telegram, Slack och Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Naturliga språkfrågor",
@@ -2059,7 +2059,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "การดำเนินงานระหว่างวัน",
-        "description": "อัตรารายได้ ค่าแรง ประสิทธิภาพของพนักงานเสิร์ฟ และการตรวจจับการรั่วไหล - อัปเดตทุกๆ 5 นาที กะคือสินทรัพย์ที่เน่าเสียง่าย เมื่อกะจบลง มาร์จิ้นก็หายไป",
+        "description": "อัตรารายได้ ค่าแรง ประสิทธิภาพของพนักงานเสิร์ฟ และการตรวจจับการรั่วไหล - อัปเดตทุกๆ 5 นาที โดยแต่ละสัญญาณจะถูกส่งไปยังผู้จัดการที่ปฏิบัติหน้าที่และวัดผลก่อนจบกะ กะคือสินทรัพย์ที่เน่าเสียง่าย เมื่อกะจบลง มาร์จิ้นก็หายไป",
         "icon": "pulse",
         "features": [
           "อัตราการขายสดเทียบกับเป้าหมาย",
@@ -2070,12 +2070,12 @@ export const generatedLocalCopy = {
           "โหมดวอลล์บอร์ดสำหรับหน้าร้าน"
         ],
         "stat": "2,000 ดอลลาร์",
-        "statLabel": "ประหยัดได้ต่อกะที่อ่อนแอซึ่งตรวจพบได้เร็ว"
+        "statLabel": "กู้คืนได้ต่อกะที่อ่อนแอ - ตรวจพบ แก้ไข และวัดผลก่อนปิดกะ"
       },
       {
         "name": "Benchmarks",
         "tagline": "ข่าวกรองการแข่งขัน",
-        "description": "ดัชนี RevPASH อัตราการใช้ที่นั่ง บิลเฉลี่ย และดัชนีรายได้ เปรียบเทียบกับคู่แข่งที่ไม่เปิดเผยตัวตนในกลุ่มและตลาดของคุณ",
+        "description": "ดัชนี RevPASH อัตราการใช้ที่นั่ง บิลเฉลี่ย และดัชนีรายได้ เปรียบเทียบกับคู่แข่งที่ไม่เปิดเผยตัวตนในกลุ่มและตลาดของคุณ เพื่อให้ทุกช่องว่างที่ต่ำกว่าคู่แข่งกลายเป็นมาร์จิ้นที่คุณกู้คืนและวัดผลได้",
         "icon": "benchmarking",
         "features": [
           "RevPASH และดัชนีรายได้",
@@ -2091,7 +2091,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "ข่าวกรองตลาด",
-        "description": "การตรวจสอบคู่แข่ง ผลกระทบต่อรายได้ด้านสภาพอากาศ ข้อมูลเหตุการณ์ และการบรรยายสรุปรายวัน ก่อนที่ผลกระทบจะกระทบตัวเลขของคุณ",
+        "description": "การตรวจสอบคู่แข่ง ผลกระทบต่อรายได้ด้านสภาพอากาศ ข้อมูลเหตุการณ์ และการบรรยายสรุปรายวัน เพื่อให้คุณลงมือก่อนที่ผลกระทบจะกระทบตัวเลขของคุณ และวัดผลมาร์จิ้นที่คุณปกป้องไว้",
         "icon": "watchtower",
         "features": [
           "ราคาของคู่แข่งและการติดตามเมนู",
@@ -2107,7 +2107,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 โมดูลอัจฉริยะ",
-        "description": "รายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง การจัดส่ง ประสบการณ์ของแขก และอื่นๆ อีกมากมาย - แต่ละรายการได้รับคำแนะนำจาก Sundae Coach",
+        "description": "รายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง การจัดส่ง ประสบการณ์ของแขก และอื่นๆ อีกมากมาย - คำแนะนำแต่ละรายการจาก Sundae Coach จะถูกส่งไปยังผู้รับผิดชอบและวัดผลเทียบกับเส้นฐาน",
         "icon": "insights",
         "features": [
           "ข้อมูลรายได้และผลกำไร",
@@ -2122,8 +2122,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "การวิเคราะห์การสนทนา",
-        "description": "ถามคำถามด้วยภาษาธรรมดา รับคำตอบที่ได้รับการสนับสนุนจากข้อมูลจริงของคุณ พร้อมแหล่งข้อมูล ไม่ใช่การคาดเดา พร้อมใช้งานบนเว็บ Telegram, Slack และ Microsoft Teams",
+        "tagline": "การตัดสินใจเชิงสนทนา",
+        "description": "ถามคำถามด้วยภาษาธรรมดา แล้วเปลี่ยนทุกคำตอบที่อ้างอิงแหล่งที่มาให้เป็นการตัดสินใจที่ติดตามและวัดผลได้ - อ้างอิงจากข้อมูลจริงของคุณ พร้อมแหล่งข้อมูล ไม่ใช่การคาดเดา พร้อมใช้งานบนเว็บ Telegram, Slack และ Microsoft Teams",
         "icon": "conversation",
         "features": [
           "แบบสอบถามภาษาธรรมชาติ",
@@ -2157,7 +2157,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "Operasi Dalam Hari",
-        "description": "Rentak hasil, kos buruh, prestasi pelayan dan pengesanan kebocoran - dikemas kini setiap 5 minit. Syif adalah aset yang mudah rosak. Sebaik sahaja ia berlalu, margin hilang.",
+        "description": "Rentak hasil, kos buruh, prestasi pelayan dan pengesanan kebocoran - dikemas kini setiap 5 minit, dengan setiap isyarat disalurkan kepada pengurus bertugas dan diukur sebelum syif tamat. Syif adalah aset yang mudah rosak. Sebaik sahaja ia berlalu, margin hilang.",
         "icon": "pulse",
         "features": [
           "Rentak jualan langsung vs sasaran",
@@ -2168,12 +2168,12 @@ export const generatedLocalCopy = {
           "Mod papan dinding untuk ruang layanan"
         ],
         "stat": "$2K",
-        "statLabel": "disimpan setiap syif buruk ditangkap awal"
+        "statLabel": "dipulihkan setiap syif buruk - dikesan, dibetulkan dan diukur sebelum tutup"
       },
       {
         "name": "Benchmarks",
         "tagline": "Kecerdasan Kompetitif",
-        "description": "Indeks RevPASH, penghunian tempat duduk, bil purata dan indeks hasil - berbanding dengan rakan sebaya tanpa nama dalam segmen dan pasaran anda.",
+        "description": "Indeks RevPASH, penghunian tempat duduk, bil purata dan indeks hasil - berbanding dengan rakan sebaya tanpa nama dalam segmen dan pasaran anda, supaya setiap jurang di bawah rakan sebaya menjadi margin yang boleh anda pulihkan dan ukur.",
         "icon": "benchmarking",
         "features": [
           "RevPASH & indeks hasil",
@@ -2189,7 +2189,7 @@ export const generatedLocalCopy = {
       {
         "name": "Watchtower",
         "tagline": "Perisikan Pasaran",
-        "description": "Pemantauan pesaing, impak hasil cuaca, risikan acara dan taklimat harian - sebelum impak mencapai angka anda.",
+        "description": "Pemantauan pesaing, impak hasil cuaca, risikan acara dan taklimat harian - supaya anda bertindak sebelum impak mencapai angka anda, dan mengukur margin yang anda lindungi.",
         "icon": "watchtower",
         "features": [
           "Penjejakan harga & menu pesaing",
@@ -2205,7 +2205,7 @@ export const generatedLocalCopy = {
       {
         "name": "Insights",
         "tagline": "12 Modul Kepintaran",
-        "description": "Hasil, buruh, inventori, pembelian, pemasaran, tempahan, penghantaran, pengalaman tetamu dan banyak lagi - masing-masing dengan cadangan daripada Sundae Coach.",
+        "description": "Hasil, buruh, inventori, pembelian, pemasaran, tempahan, penghantaran, pengalaman tetamu dan banyak lagi - setiap cadangan daripada Sundae Coach disalurkan kepada individu yang bertanggungjawab dan diukur berbanding garis dasar.",
         "icon": "insights",
         "features": [
           "Risikan hasil & keuntungan",
@@ -2220,8 +2220,8 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Sundae Intelligence",
-        "tagline": "Analitis Perbualan",
-        "description": "Tanya soalan dalam bahasa yang mudah. Dapatkan jawapan yang disokong oleh data sebenar anda - dengan sumber, bukan tekaan. Tersedia di web, Telegram, Slack dan Microsoft Teams.",
+        "tagline": "Keputusan Perbualan",
+        "description": "Tanya soalan dalam bahasa yang mudah, kemudian tukarkan setiap jawapan bersumber kepada keputusan terjejak yang boleh anda ukur - disokong oleh data sebenar anda, dengan sumber, bukan tekaan. Tersedia di web, Telegram, Slack dan Microsoft Teams.",
         "icon": "conversation",
         "features": [
           "Pertanyaan bahasa semula jadi",

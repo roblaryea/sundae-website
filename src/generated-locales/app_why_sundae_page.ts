@@ -27,8 +27,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Opérations en temps réel via Pulse",
-          "description": "Suivi des ventes intrajournalières, productivité du travail, détection des fuites et coaching - avant la fin du service.",
+          "title": "Récupération en cours de journée via Pulse",
+          "description": "Détectez la fuite en temps réel, confiez la correction au responsable de service et mesurez la marge récupérée - avant la fin du service.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -58,14 +58,14 @@ export const generatedLocalCopy = {
           {
             "title": "Responsables des opérations",
             "pain": "Vous ne pouvez pas être dans chaque restaurant à la fois.",
-            "description": "Visibilité en temps réel sur chaque emplacement via Pulse et Portfolio - sachez qui a besoin d'aide avant même qu'il ne demande.",
+            "description": "Repérez la fuite dans n'importe quel site via Pulse et Portfolio, confiez la correction au manager de service et voyez la récupération se concrétiser - avant qu'il ne demande de l'aide.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finance & FP&A",
             "pain": "3 jours pour clôturer les comptes ? C'est 3 jours de trop.",
-            "description": "Intelligence des marges en temps réel, coûts de main-d'œuvre au niveau des shifts et analyse des écarts liée aux causes profondes.",
+            "description": "Chaque écart de marge remonté à sa cause racine, confié à un responsable, et la valeur récupérée mesurée par rapport à une référence.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -86,7 +86,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Arrêtez de gérer votre restaurant sur un coup de tête.",
+        "title": "Arrêtez de regarder la marge fuir. Commencez à mesurer la récupération.",
         "description": "30 minutes pour examiner vos données ensemble et voir si Sundae pourrait réellement aider votre équipe.",
         "primary": "Réserver une démo",
         "secondary": "Explorer les produits"
@@ -117,8 +117,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operaciones en Tiempo Real a través de Pulse",
-          "description": "Ritmo de ventas intradía, productividad laboral, detección de fugas y coaching - antes de que termine el turno.",
+          "title": "Recuperación Intradía a través de Pulse",
+          "description": "Detecta la fuga en el momento, asigna el arreglo al responsable del turno y mide el margen recuperado - antes de que termine el turno.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -148,14 +148,14 @@ export const generatedLocalCopy = {
           {
             "title": "Líderes de Operaciones",
             "pain": "No puedes estar en cada restaurante a la vez.",
-            "description": "Visibilidad en tiempo real de cada ubicación a través de Pulse y Portfolio - sabe quién necesita ayuda antes de que lo pida.",
+            "description": "Detecta la fuga en cualquier ubicación a través de Pulse y Portfolio, asigna el arreglo al gerente de turno y ve cómo se concreta la recuperación - antes de que pidan ayuda.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzas y FP&A",
             "pain": "¿3 días para cerrar los libros? Son 3 días de más.",
-            "description": "Inteligencia de márgenes en tiempo real, costos laborales a nivel de turno y análisis de variaciones conectados a las causas raíz.",
+            "description": "Cada variación de margen rastreada a su causa raíz, asignada a un responsable, y el valor recuperado medido frente a una línea base.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -176,7 +176,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Deja de gestionar tu restaurante basándote en corazonadas.",
+        "title": "Deja de ver el margen fugarse. Empieza a medir la recuperación.",
         "description": "30 minutos para revisar tus datos juntos y ver si Sundae realmente ayudaría a tu equipo.",
         "primary": "Reservar una Demostración",
         "secondary": "Explorar Productos"
@@ -207,8 +207,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Realtime Operaties via Pulse",
-          "description": "Intraday verkooptempo, arbeidsproductiviteit, lekdetectie en coaching - voordat de shift voorbij is.",
+          "title": "Intraday Herstel via Pulse",
+          "description": "Betrap het lek zodra het optreedt, wijs de oplossing toe aan de dienstverantwoordelijke en meet de teruggewonnen marge - voordat de shift voorbij is.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -238,14 +238,14 @@ export const generatedLocalCopy = {
           {
             "title": "Operationele Leiders",
             "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
-            "description": "Realtime inzicht in elke locatie via Pulse en Portfolio - weet wie hulp nodig heeft voordat ze het vragen.",
+            "description": "Spot het lek in elke locatie via Pulse en Portfolio, wijs de oplossing toe aan de manager van dienst en zie het herstel binnenkomen - voordat ze om hulp vragen.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Financiën & FP&A",
             "pain": "3 dagen om de boeken te sluiten? Dat is 3 dagen te veel.",
-            "description": "Realtime marge-informatie, arbeidskosten per shift en variantieanalyse verbonden aan de oorzaken.",
+            "description": "Elke margeafwijking herleid tot de grondoorzaak, toegewezen aan een verantwoordelijke, en de teruggewonnen waarde gemeten tegen een basislijn.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -266,7 +266,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Stop met het runnen van je restaurant op onderbuikgevoel.",
+        "title": "Stop met toekijken hoe marge weglekt. Begin het herstel te meten.",
         "description": "30 minuten om samen je gegevens te bekijken en te zien of Sundae echt je team zou helpen.",
         "primary": "Boek een Demo",
         "secondary": "Ontdek Producten"
@@ -297,8 +297,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "العمليات في الوقت الحقيقي عبر Pulse",
-          "description": "تسارع المبيعات اليومية، إنتاجية العمالة، اكتشاف التسرب، والتوجيه - قبل انتهاء الوردية.",
+          "title": "الاستعادة خلال اليوم عبر Pulse",
+          "description": "التقط التسرب لحظة حدوثه، ووجّه الإصلاح إلى مسؤول الوردية، وقِس الهامش المستعاد - قبل انتهاء الوردية.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -328,14 +328,14 @@ export const generatedLocalCopy = {
           {
             "title": "قادة العمليات",
             "pain": "لا يمكنك التواجد في كل مطعم في آن واحد.",
-            "description": "رؤية فورية لكل موقع عبر Pulse وPortfolio - اعرف من يحتاج المساعدة قبل أن يطلبها.",
+            "description": "ارصد التسرب في أي موقع عبر Pulse وPortfolio، ووجّه الإصلاح إلى المدير المناوب، وشاهد الاستعادة تتحقق - قبل أن يطلبوا المساعدة.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "المالية والتخطيط والتحليل",
             "pain": "3 أيام لإغلاق الحسابات؟ هذا كثير جداً.",
-            "description": "ذكاء هوامش فوري، تكاليف العمالة على مستوى التحولات، وتحليل الفروقات مرتبط بالأسباب الجذرية.",
+            "description": "تباين الهامش يُرجَع إلى سببه الجذري، ويُوجَّه إلى مسؤول، وتُقاس القيمة المستعادة مقارنةً بخط أساس.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -356,7 +356,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "توقف عن إدارة مطعمك بناءً على الحدس.",
+        "title": "توقّف عن مشاهدة الهامش يتسرّب. ابدأ بقياس الاستعادة.",
         "description": "30 دقيقة لمراجعة بياناتك معًا ورؤية ما إذا كانت Sundae ستساعد فريقك حقًا.",
         "primary": "احجز عرضًا تجريبيًا",
         "secondary": "استكشف المنتجات"
@@ -387,8 +387,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Echtzeit-Betrieb über Pulse",
-          "description": "Tagesverlauf der Verkäufe, Produktivität des Personals, Erkennung von Leckagen und Coaching - bevor die Schicht zu Ende ist.",
+          "title": "Intraday-Rückgewinnung über Pulse",
+          "description": "Erfassen Sie das Leck, sobald es auftritt, übergeben Sie die Behebung der Schichtverantwortlichen und messen Sie die zurückgewonnene Marge - bevor die Schicht zu Ende ist.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -418,14 +418,14 @@ export const generatedLocalCopy = {
           {
             "title": "Betriebsleiter",
             "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
-            "description": "Echtzeit-Transparenz für jeden Standort über Pulse und Portfolio - wissen, wer Hilfe benötigt, bevor er fragt.",
+            "description": "Erkennen Sie das Leck an jedem Standort über Pulse und Portfolio, übergeben Sie die Behebung der Schichtleitung und sehen Sie die Rückgewinnung eintreffen - bevor jemand um Hilfe bittet.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzen & FP&A",
             "pain": "3 Tage für den Abschluss der Bücher? Das sind 3 Tage zu viel.",
-            "description": "Echtzeit-Margenintelligenz, Arbeitskosten auf Schichtniveau und Abweichungsanalysen, die mit den Ursachen verbunden sind.",
+            "description": "Jede Margenabweichung auf ihre Ursache zurückgeführt, einer verantwortlichen Person übergeben und der zurückgewonnene Wert an einer Baseline gemessen.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hören Sie auf, Ihr Restaurant nach Bauchgefühl zu führen.",
+        "title": "Hören Sie auf zuzusehen, wie die Marge wegläuft. Fangen Sie an, die Rückgewinnung zu messen.",
         "description": "30 Minuten, um Ihre Daten gemeinsam zu überprüfen und zu sehen, ob Sundae Ihrem Team wirklich helfen kann.",
         "primary": "Demo buchen",
         "secondary": "Produkte erkunden"
@@ -477,8 +477,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operações em Tempo Real via Pulse",
-          "description": "Ritmo de vendas intradia, produtividade da mão de obra, detecção de vazamentos e coaching - antes que o turno termine.",
+          "title": "Recuperação Intradia via Pulse",
+          "description": "Capture o vazamento no momento em que acontece, encaminhe a correção ao responsável do turno e meça a margem recuperada - antes que o turno termine.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -508,14 +508,14 @@ export const generatedLocalCopy = {
           {
             "title": "Líderes de Operações",
             "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
-            "description": "Visibilidade em tempo real de cada local através do Pulse e Portfolio - saiba quem precisa de ajuda antes mesmo de pedir.",
+            "description": "Identifique o vazamento em qualquer local via Pulse e Portfolio, encaminhe a correção ao gerente de plantão e veja a recuperação se concretizar - antes que peçam ajuda.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanças & FP&A",
             "pain": "3 dias para fechar as contas? Isso é tempo demais.",
-            "description": "Inteligência de margem em tempo real, custos de mão de obra por turno e análise de variação conectada às causas raiz.",
+            "description": "Cada variação de margem rastreada até a causa raiz, encaminhada a um responsável, e o valor recuperado medido em relação a uma linha de base.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -536,7 +536,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Pare de gerenciar seu restaurante apenas na intuição.",
+        "title": "Pare de assistir a margem vazar. Comece a medir a recuperação.",
         "description": "30 minutos para revisar seus dados juntos e ver se o Sundae realmente ajudaria sua equipe.",
         "primary": "Agendar uma Demonstração",
         "secondary": "Explorar Produtos"
@@ -567,8 +567,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse کے ذریعے حقیقی وقت کی کارروائیاں",
-          "description": "انٹرا ڈے سیلز پیسنگ، محنت کی پیداوار، لیکیج کی شناخت، اور کوچنگ - شفٹ ختم ہونے سے پہلے۔",
+          "title": "Pulse کے ذریعے دورانِ دن مارجن کی بازیافت",
+          "description": "رساؤ کو اسی وقت پکڑیں جب یہ ہو، اصلاح کو شفٹ کے ذمہ دار کے سپرد کریں، اور بازیافت شدہ مارجن کو ناپیں - شفٹ ختم ہونے سے پہلے۔",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -598,14 +598,14 @@ export const generatedLocalCopy = {
           {
             "title": "آپریشنز کے رہنما",
             "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
-            "description": "Pulse اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
+            "description": "Pulse اور پورٹ فولیو کے ذریعے کسی بھی مقام پر رساؤ کی نشاندہی کریں، اصلاح کو ڈیوٹی پر موجود مینیجر کے سپرد کریں، اور بازیافت کو مکمل ہوتے دیکھیں - اس سے پہلے کہ وہ مدد مانگیں۔",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "مالیات اور FP&A",
             "pain": "کتابیں بند کرنے میں 3 دن؟ یہ بہت زیادہ ہیں۔",
-            "description": "حقیقی وقت کی مارجن ذہانت، شفٹ کی سطح کے مزدوری کے اخراجات، اور بنیادی وجوہات سے جڑے ہوئے فرق کا تجزیہ۔",
+            "description": "ہر مارجن فرق کو اس کی بنیادی وجہ تک پہنچایا جاتا ہے، ایک ذمہ دار کے سپرد کیا جاتا ہے، اور بازیافت شدہ قدر کو ایک بنیادی معیار کے مقابلے میں ناپا جاتا ہے۔",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -626,7 +626,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "اپنے ریستوراں کو احساسات پر چلانا بند کریں۔",
+        "title": "مارجن کو ضائع ہوتے دیکھنا بند کریں۔ بازیافت کو ناپنا شروع کریں۔",
         "description": "اپنے ڈیٹا کا جائزہ لینے کے لیے 30 منٹ نکالیں اور دیکھیں کہ کیا Sundae واقعی آپ کی ٹیم کی مدد کرے گا۔",
         "primary": "ڈیمو بک کریں",
         "secondary": "پروڈکٹس دریافت کریں"
@@ -657,8 +657,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse के माध्यम से वास्तविक समय संचालन",
-          "description": "इंट्राडे बिक्री की गति, श्रम उत्पादकता, लीक पहचान, और कोचिंग - शिफ्ट खत्म होने से पहले।",
+          "title": "Pulse के माध्यम से इंट्राडे रिकवरी",
+          "description": "लीक को उसी क्षण पकड़ें जब वह हो, सुधार को शिफ्ट प्रभारी को सौंपें, और वसूली गई मार्जिन को मापें - शिफ्ट खत्म होने से पहले।",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -688,14 +688,14 @@ export const generatedLocalCopy = {
           {
             "title": "ऑपरेशंस लीडर्स",
             "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
-            "description": "Pulse और Portfolio के माध्यम से हर स्थान पर वास्तविक समय की दृश्यता - जानें कि किसे मदद की आवश्यकता है इससे पहले कि वे पूछें।",
+            "description": "Pulse और Portfolio के माध्यम से किसी भी स्थान पर लीक को पहचानें, सुधार को ड्यूटी पर मौजूद मैनेजर को सौंपें, और रिकवरी को पूरा होते देखें - इससे पहले कि वे मदद मांगें।",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "वित्त और FP&A",
             "pain": "खातों को बंद करने में 3 दिन? यह बहुत अधिक है।",
-            "description": "वास्तविक समय का मार्जिन इंटेलिजेंस, शिफ्ट-स्तरीय श्रम लागत, और मूल कारणों से जुड़े भिन्नता विश्लेषण।",
+            "description": "हर मार्जिन विचलन उसकी मूल वजह तक जुड़ा, एक जिम्मेदार व्यक्ति को सौंपा गया, और वसूली गई राशि एक आधार रेखा के मुकाबले मापी गई।",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -716,7 +716,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "अपने रेस्तरां को केवल आंतरिक भावना पर चलाना बंद करें।",
+        "title": "मार्जिन को रिसते हुए देखना बंद करें। रिकवरी को मापना शुरू करें।",
         "description": "अपने डेटा की समीक्षा करने और यह देखने के लिए 30 मिनट बिताएं कि क्या Sundae वास्तव में आपकी टीम की मदद करेगा।",
         "primary": "डेमो बुक करें",
         "secondary": "उत्पादों का अन्वेषण करें"
@@ -747,8 +747,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operazioni in Tempo Reale tramite Pulse",
-          "description": "Pacing delle vendite intraday, produttività del lavoro, rilevamento delle perdite e coaching - prima che il turno sia finito.",
+          "title": "Recupero Infragiornaliero tramite Pulse",
+          "description": "Cogli la perdita nel momento in cui accade, affida la correzione al responsabile del turno e misura il margine recuperato - prima che il turno sia finito.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -778,14 +778,14 @@ export const generatedLocalCopy = {
           {
             "title": "Leader delle Operazioni",
             "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
-            "description": "Visibilità in tempo reale su ogni sede tramite Pulse e Portfolio - sapere chi ha bisogno di aiuto prima che lo chieda.",
+            "description": "Individua la perdita in qualsiasi sede tramite Pulse e Portfolio, affida la correzione al manager di turno e vedi il recupero concretizzarsi - prima che chieda aiuto.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanza & FP&A",
             "pain": "3 giorni per chiudere i conti? Sono 3 giorni di troppo.",
-            "description": "Intelligenza sui margini in tempo reale, costi del lavoro a livello di turno e analisi delle variazioni collegate alle cause radice.",
+            "description": "Ogni scostamento di margine ricondotto alla causa radice, affidato a un responsabile, e il valore recuperato misurato rispetto a una linea di base.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -806,7 +806,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Smetti di gestire il tuo ristorante basandoti solo sull'istinto.",
+        "title": "Smetti di guardare il margine dissiparsi. Inizia a misurare il recupero.",
         "description": "30 minuti per rivedere insieme i tuoi dati e vedere se Sundae può davvero aiutare il tuo team.",
         "primary": "Prenota una Demo",
         "secondary": "Esplora i Prodotti"
@@ -837,8 +837,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse ile Gerçek Zamanlı Operasyonlar",
-          "description": "Gün içi satış temposu, iş gücü verimliliği, sızıntı tespiti ve koçluk - vardiya bitmeden önce.",
+          "title": "Pulse ile Gün İçi Geri Kazanım",
+          "description": "Sızıntıyı olduğu anda yakalayın, düzeltmeyi vardiya sorumlusuna yönlendirin ve geri kazanılan marjı ölçün - vardiya bitmeden önce.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -868,14 +868,14 @@ export const generatedLocalCopy = {
           {
             "title": "Operasyon Liderleri",
             "pain": "Her restoranda aynı anda olamazsınız.",
-            "description": "Pulse ve Portfolio aracılığıyla her lokasyona gerçek zamanlı görünürlük - yardım isteyenleri, sormadan önce bilin.",
+            "description": "Pulse ve Portfolio ile herhangi bir lokasyondaki sızıntıyı tespit edin, düzeltmeyi nöbetteki müdüre yönlendirin ve geri kazanımın gerçekleşmesini görün - onlar yardım istemeden önce.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finans & FP&A",
             "pain": "Defterleri kapatmak 3 gün mü? Bu çok fazla.",
-            "description": "Gerçek zamanlı marj zekası, vardiya düzeyinde iş gücü maliyetleri ve kök nedenlere bağlı sapma analizi.",
+            "description": "Her marj sapması kök nedenine kadar izlenir, bir sorumluya yönlendirilir ve geri kazanılan değer bir temel çizgiye göre ölçülür.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -896,7 +896,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Restoranınızı içgüdüyle yönetmeyi bırakın.",
+        "title": "Marjın akıp gitmesini izlemeyi bırakın. Geri kazanımı ölçmeye başlayın.",
         "description": "Verilerinizi birlikte gözden geçirmek ve Sundae'nin ekibinize gerçekten yardımcı olup olmayacağını görmek için 30 dakika ayırın.",
         "primary": "Demo Talep Et",
         "secondary": "Ürünleri Keşfet"
@@ -927,8 +927,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "通过Pulse实时运营",
-          "description": "日内销售进度、劳动生产率、漏损检测和辅导 - 在班次结束之前。",
+          "title": "通过Pulse实现日内利润挽回",
+          "description": "在漏损发生的瞬间捕捉，将修复交给当班负责人，并衡量挽回的利润率--在班次结束之前。",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -958,14 +958,14 @@ export const generatedLocalCopy = {
           {
             "title": "运营领导",
             "pain": "您无法同时在每个餐厅。",
-            "description": "通过Pulse和Portfolio实时了解每个位置的情况 - 在他们请求帮助之前就知道谁需要帮助。",
+            "description": "通过Pulse和Portfolio发现任何门店的漏损，将修复交给当班经理，并看着挽回落地--在他们求助之前。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "财务与FP&A",
             "pain": "关闭账本需要3天？那太多了。",
-            "description": "实时利润智能、班次级别的劳动成本和与根本原因相关的差异分析。",
+            "description": "每一笔利润率偏差都追溯到根本原因，交给一位负责人，挽回的价值对照基线衡量。",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -986,7 +986,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "别再凭感觉经营餐厅了。",
+        "title": "别再眼看利润流失。开始衡量挽回的成果。",
         "description": "花30分钟一起审查您的数据，看看Sundae是否真的能帮助您的团队。",
         "primary": "预约演示",
         "secondary": "探索产品"
@@ -1017,8 +1017,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operacje w Czasie Rzeczywistym dzięki Pulse",
-          "description": "Pacing sprzedaży w ciągu dnia, produktywność pracy, wykrywanie strat i coaching - zanim zmiana się skończy.",
+          "title": "Odzyskiwanie w Ciągu Dnia dzięki Pulse",
+          "description": "Wychwyć wyciek w momencie jego wystąpienia, przekaż naprawę osobie odpowiedzialnej za zmianę i zmierz odzyskaną marżę - zanim zmiana się skończy.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1048,14 +1048,14 @@ export const generatedLocalCopy = {
           {
             "title": "Liderzy Operacji",
             "pain": "Nie możesz być w każdej restauracji jednocześnie.",
-            "description": "Widoczność w czasie rzeczywistym w każdej lokalizacji dzięki Pulse i Portfolio - wiedz, kto potrzebuje pomocy, zanim poprosi.",
+            "description": "Wykryj wyciek w dowolnej lokalizacji dzięki Pulse i Portfolio, przekaż naprawę kierownikowi na zmianie i zobacz, jak odzyskanie się realizuje - zanim poproszą o pomoc.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanse i FP&A",
             "pain": "3 dni na zamknięcie ksiąg? To za dużo.",
-            "description": "Inteligencja marż w czasie rzeczywistym, koszty pracy na poziomie zmiany i analiza odchyleń połączona z przyczynami źródłowymi.",
+            "description": "Każde odchylenie marży doprowadzone do przyczyny źródłowej, przekazane osobie odpowiedzialnej, a odzyskana wartość zmierzona względem linii bazowej.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1076,7 +1076,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Przestań prowadzić swoją restaurację na podstawie intuicji.",
+        "title": "Przestań patrzeć, jak marża wycieka. Zacznij mierzyć odzyskanie.",
         "description": "30 minut na wspólne przeglądanie danych i sprawdzenie, czy Sundae naprawdę pomoże Twojemu zespołowi.",
         "primary": "Umów się na prezentację",
         "secondary": "Poznaj produkty"
@@ -1107,8 +1107,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulseによるリアルタイムオペレーション",
-          "description": "シフトが終わる前に、日内売上のペース、労働生産性、漏れの検出、コーチングを行います。",
+          "title": "Pulseによる日中の利益回収",
+          "description": "漏れが起きた瞬間に捉え、修正をシフト責任者に割り当て、回収したマージンを測定します--シフトが終わる前に。",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1138,14 +1138,14 @@ export const generatedLocalCopy = {
           {
             "title": "オペレーションリーダー",
             "pain": "すべてのレストランに同時にいることはできません。",
-            "description": "PulseとPortfolioを通じて、各ロケーションのリアルタイムの可視性 - 誰が助けを必要としているかを事前に把握します。",
+            "description": "PulseとPortfolioで各拠点の漏れを発見し、修正を当番マネージャーに割り当て、回収が実現するのを見届けます--助けを求められる前に。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "財務 & FP&A",
             "pain": "帳簿を閉じるのに3日？それは多すぎます。",
-            "description": "リアルタイムのマージンインテリジェンス、シフトレベルの労働コスト、根本原因に結びついた変動分析。",
+            "description": "あらゆるマージンのばらつきを根本原因まで遡り、責任者に割り当て、回収した価値をベースラインと比較して測定します。",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1166,7 +1166,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "感覚だけでレストランを運営するのはやめましょう。",
+        "title": "マージンが漏れ出るのを眺めるのはやめましょう。回収の測定を始めましょう。",
         "description": "データを一緒にレビューするための30分で、Sundaeが本当にあなたのチームを助けるかどうかを確認しましょう。",
         "primary": "デモを予約",
         "secondary": "製品を探る"
@@ -1197,8 +1197,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Hoạt Động Thời Gian Thực Qua Pulse",
-          "description": "Theo dõi doanh số trong ngày, năng suất lao động, phát hiện rò rỉ và huấn luyện - trước khi ca làm việc kết thúc.",
+          "title": "Thu Hồi Trong Ngày Qua Pulse",
+          "description": "Bắt lấy rò rỉ ngay khi nó xảy ra, giao việc khắc phục cho người phụ trách ca và đo lường biên lợi nhuận thu hồi - trước khi ca làm việc kết thúc.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1228,14 +1228,14 @@ export const generatedLocalCopy = {
           {
             "title": "Lãnh đạo Vận hành",
             "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
-            "description": "Tầm nhìn thời gian thực vào mọi địa điểm qua Pulse và Portfolio - biết ai cần giúp đỡ trước khi họ yêu cầu.",
+            "description": "Phát hiện rò rỉ tại bất kỳ địa điểm nào qua Pulse và Portfolio, giao việc khắc phục cho quản lý trực ca và chứng kiến việc thu hồi thành hiện thực - trước khi họ cần trợ giúp.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Tài chính & FP&A",
             "pain": "3 ngày để đóng sổ sách? Đó là 3 ngày quá nhiều.",
-            "description": "Thông tin biên lợi nhuận thời gian thực, chi phí lao động theo ca, và phân tích biến động liên kết với nguyên nhân gốc.",
+            "description": "Mỗi sai lệch biên lợi nhuận được truy về nguyên nhân gốc, giao cho một người chịu trách nhiệm, và giá trị thu hồi được đo so với đường cơ sở.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1256,7 +1256,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Ngừng điều hành nhà hàng của bạn chỉ dựa vào cảm tính.",
+        "title": "Ngừng đứng nhìn biên lợi nhuận rò rỉ. Bắt đầu đo lường việc thu hồi.",
         "description": "30 phút để xem xét dữ liệu của bạn cùng nhau và xem liệu Sundae có thực sự giúp đội ngũ của bạn không.",
         "primary": "Đặt Lịch Demo",
         "secondary": "Khám Phá Sản Phẩm"
@@ -1287,8 +1287,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operasi Waktu Nyata melalui Pulse",
-          "description": "Pacing penjualan intrahari, produktivitas tenaga kerja, deteksi kebocoran, dan pelatihan - sebelum shift berakhir.",
+          "title": "Pemulihan Intrahari melalui Pulse",
+          "description": "Tangkap kebocoran begitu terjadi, arahkan perbaikan ke penanggung jawab shift, dan ukur margin yang dipulihkan - sebelum shift berakhir.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1318,14 +1318,14 @@ export const generatedLocalCopy = {
           {
             "title": "Pemimpin Operasi",
             "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
-            "description": "Visibilitas waktu nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang membutuhkan bantuan sebelum mereka meminta.",
+            "description": "Temukan kebocoran di lokasi mana pun melalui Pulse dan Portfolio, arahkan perbaikan ke manajer yang bertugas, dan saksikan pemulihan terwujud - sebelum mereka meminta bantuan.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Keuangan & FP&A",
             "pain": "3 hari untuk menutup buku? Itu terlalu lama.",
-            "description": "Intelijen margin waktu nyata, biaya tenaga kerja tingkat shift, dan analisis varians yang terhubung ke penyebab utama.",
+            "description": "Setiap selisih margin dilacak hingga akar penyebabnya, diarahkan ke penanggung jawab, dan nilai yang dipulihkan diukur terhadap garis dasar.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1346,7 +1346,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hentikan mengelola restoran Anda hanya berdasarkan insting.",
+        "title": "Berhenti menonton margin bocor. Mulai ukur pemulihannya.",
         "description": "30 menit untuk meninjau data Anda bersama dan melihat apakah Sundae benar-benar dapat membantu tim Anda.",
         "primary": "Pesan Demo",
         "secondary": "Jelajahi Produk"
@@ -1377,8 +1377,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse를 통한 실시간 운영",
-          "description": "근무 중 판매 속도, 인력 생산성, 유출 감지 및 코칭 - 근무가 끝나기 전에.",
+          "title": "Pulse를 통한 당일 이익 회수",
+          "description": "누수가 발생하는 순간 포착하고, 수정을 근무 책임자에게 배정하며, 회수한 마진을 측정하세요 - 근무가 끝나기 전에.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1408,14 +1408,14 @@ export const generatedLocalCopy = {
           {
             "title": "운영 리더",
             "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
-            "description": "Pulse와 Portfolio를 통해 모든 위치에 대한 실시간 가시성을 제공 - 누가 도움을 필요로 하는지 미리 알 수 있습니다.",
+            "description": "Pulse와 Portfolio로 어느 매장의 누수든 발견하고, 수정을 근무 중인 매니저에게 배정하며, 회수가 실현되는 것을 확인하세요 - 그들이 도움을 요청하기 전에.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "재무 및 FP&A",
             "pain": "장부 마감에 3일이 걸리나요? 그건 너무 많은 시간입니다.",
-            "description": "실시간 마진 인텔리전스, 교대별 인건비, 그리고 근본 원인에 연결된 변동 분석.",
+            "description": "모든 마진 편차를 근본 원인까지 추적하고, 책임자에게 배정하며, 회수한 가치를 기준선과 비교해 측정합니다.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1436,7 +1436,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "직감만으로 식당을 운영하는 것을 멈추세요.",
+        "title": "마진이 새어 나가는 것을 지켜보기를 멈추세요. 회수를 측정하기 시작하세요.",
         "description": "데이터를 함께 검토하고 Sundae가 팀에 진정으로 도움이 되는지 확인하는 데 30분이 소요됩니다.",
         "primary": "데모 예약",
         "secondary": "제품 탐색"
@@ -1467,8 +1467,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operațiuni în Timp Real prin Pulse",
-          "description": "Pacing-ul vânzărilor intraday, productivitatea muncii, detectarea scurgerilor și coaching - înainte ca schimbul să se termine.",
+          "title": "Recuperare Intraday prin Pulse",
+          "description": "Prinde scurgerea în momentul în care apare, direcționează remedierea către responsabilul de tură și măsoară marja recuperată - înainte ca schimbul să se termine.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1498,14 +1498,14 @@ export const generatedLocalCopy = {
           {
             "title": "Lideri de Operațiuni",
             "pain": "Nu poți fi în fiecare restaurant în același timp.",
-            "description": "Vizibilitate în timp real în fiecare locație prin Pulse și Portfolio - știi cine are nevoie de ajutor înainte să ceară.",
+            "description": "Identifică scurgerea în orice locație prin Pulse și Portfolio, direcționează remedierea către managerul de tură și vezi cum recuperarea se concretizează - înainte să ceară ajutor.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanțe & FP&A",
             "pain": "3 zile pentru a închide cărțile? Asta e prea mult.",
-            "description": "Inteligență de marjă în timp real, costuri de muncă la nivel de schimb și analiză a variațiilor conectate la cauzele fundamentale.",
+            "description": "Fiecare abatere de marjă urmărită până la cauza fundamentală, direcționată către un responsabil, iar valoarea recuperată măsurată față de o linie de referință.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1526,7 +1526,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Nu mai conduceți restaurantul pe baza intuiției.",
+        "title": "Nu mai privi cum se scurge marja. Începe să măsori recuperarea.",
         "description": "30 de minute pentru a revizui datele împreună și a vedea dacă Sundae ar ajuta cu adevărat echipa dumneavoastră.",
         "primary": "Programează o demonstrație",
         "secondary": "Explorează produsele"
@@ -1557,8 +1557,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Verksamhet i realtid via Pulse",
-          "description": "Försäljningspacing under dagen, arbetsproduktivitet, läckagedetektering och coaching - innan skiftet är över.",
+          "title": "Återvinning under dagen via Pulse",
+          "description": "Fånga läckan i samma stund den uppstår, skicka åtgärden till den skiftansvarige och mät den återvunna marginalen - innan skiftet är över.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1588,14 +1588,14 @@ export const generatedLocalCopy = {
           {
             "title": "Operationsledare",
             "pain": "Du kan inte vara på varje restaurang samtidigt.",
-            "description": "Realtidsinsyn i varje plats via Pulse och Portfolio - vet vem som behöver hjälp innan de frågar.",
+            "description": "Upptäck läckan på vilken plats som helst via Pulse och Portfolio, skicka åtgärden till skiftchefen och se återvinningen bli verklighet - innan de ber om hjälp.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Ekonomi & FP&A",
             "pain": "3 dagar för att stänga böckerna? Det är 3 dagar för mycket.",
-            "description": "Realtidsmarginalintelligens, arbetskostnader på skift-nivå och avvikelseanalys kopplad till grundorsaker.",
+            "description": "Varje marginalavvikelse spårad till sin grundorsak, tilldelad en ansvarig, och det återvunna värdet mätt mot en baslinje.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1616,7 +1616,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Sluta driva din restaurang på magkänsla.",
+        "title": "Sluta se på när marginalen läcker. Börja mäta återvinningen.",
         "description": "30 minuter för att granska dina data tillsammans och se om Sundae verkligen skulle hjälpa ditt team.",
         "primary": "Boka en demo",
         "secondary": "Utforska produkter"
@@ -1647,8 +1647,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse এর মাধ্যমে রিয়েল-টাইম অপারেশন",
-          "description": "দিনের মধ্যে বিক্রয় পেসিং, শ্রম উৎপাদনশীলতা, লিকেজ সনাক্তকরণ, এবং কোচিং - শিফট শেষ হওয়ার আগে।",
+          "title": "Pulse এর মাধ্যমে দিনের মধ্যে মার্জিন পুনরুদ্ধার",
+          "description": "লিকেজ ঘটার মুহূর্তেই ধরুন, সমাধানটি শিফট দায়িত্বপ্রাপ্তের কাছে পাঠান, এবং পুনরুদ্ধার করা মার্জিন পরিমাপ করুন - শিফট শেষ হওয়ার আগে।",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1678,14 +1678,14 @@ export const generatedLocalCopy = {
           {
             "title": "অপারেশন নেতৃবৃন্দ",
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-            "description": "Pulse এবং Portfolio এর মাধ্যমে প্রতিটি লোকেশনের রিয়েল-টাইম দৃশ্যমানতা - কে সাহায্য চাইবে, তা চাওয়ার আগেই জেনে নিন।",
+            "description": "Pulse এবং Portfolio এর মাধ্যমে যেকোনো লোকেশনে লিকেজ শনাক্ত করুন, সমাধানটি দায়িত্বরত ম্যানেজারের কাছে পাঠান, এবং পুনরুদ্ধার বাস্তবে রূপ নিতে দেখুন - তারা সাহায্য চাওয়ার আগে।",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "অর্থ ও FP&A",
             "pain": "বই বন্ধ করতে ৩ দিন? এটা ৩ দিন বেশি।",
-            "description": "বাস্তব-সময়ের মার্জিন বুদ্ধিমত্তা, শিফট-স্তরের শ্রম খরচ, এবং মূল কারণের সাথে সংযুক্ত ভেরিয়েন্স বিশ্লেষণ।",
+            "description": "প্রতিটি মার্জিন বিচ্যুতি এর মূল কারণ পর্যন্ত অনুসরণ করা হয়, একজন দায়িত্বপ্রাপ্তের কাছে পাঠানো হয়, এবং পুনরুদ্ধার করা মূল্য একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা হয়।",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1706,7 +1706,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "আপনার রেস্টুরেন্টকে অনুভূতির উপর চালানো বন্ধ করুন।",
+        "title": "মার্জিন বেরিয়ে যাওয়া দেখা বন্ধ করুন। পুনরুদ্ধার পরিমাপ করা শুরু করুন।",
         "description": "আপনার ডেটা একসাথে পর্যালোচনা করতে ৩০ মিনিট এবং দেখুন কি Sundae সত্যিই আপনার দলের সাহায্য করবে।",
         "primary": "ডেমো বুক করুন",
         "secondary": "পণ্যগুলি অন্বেষণ করুন"
@@ -1737,8 +1737,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "การดำเนินงานแบบเรียลไทม์ผ่าน Pulse",
-          "description": "การติดตามยอดขายระหว่างวัน, ผลผลิตแรงงาน, การตรวจจับการรั่วไหล, และการฝึกสอน - ก่อนที่การเปลี่ยนกะจะสิ้นสุด.",
+          "title": "การกู้คืนภายในวันผ่าน Pulse",
+          "description": "จับการรั่วไหลทันทีที่เกิดขึ้น ส่งการแก้ไขไปยังผู้รับผิดชอบกะ และวัดมาร์จิ้นที่กู้คืนได้ - ก่อนที่กะจะสิ้นสุด.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1768,14 +1768,14 @@ export const generatedLocalCopy = {
           {
             "title": "ผู้นำด้านการดำเนินงาน",
             "pain": "คุณไม่สามารถอยู่ในทุกสาขาได้ในครั้งเดียว.",
-            "description": "การมองเห็นแบบเรียลไทม์ในทุกสถานที่ผ่าน Pulse และ Portfolio - รู้ว่าใครต้องการความช่วยเหลือก่อนที่พวกเขาจะขอ.",
+            "description": "ตรวจพบการรั่วไหลในทุกสาขาผ่าน Pulse และ Portfolio ส่งการแก้ไขไปยังผู้จัดการที่เข้าเวร และเห็นการกู้คืนเกิดขึ้นจริง - ก่อนที่พวกเขาจะขอความช่วยเหลือ.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "การเงิน & FP&A",
             "pain": "ปิดบัญชีใน 3 วัน? นั่นคือ 3 วันที่มากเกินไป.",
-            "description": "ข้อมูลเชิงลึกเกี่ยวกับมาร์จิ้นแบบเรียลไทม์, ต้นทุนแรงงานระดับกะ, และการวิเคราะห์ความแปรปรวนที่เชื่อมโยงกับสาเหตุหลัก.",
+            "description": "ความแปรปรวนของมาร์จิ้นทุกรายการถูกสืบย้อนไปยังสาเหตุหลัก ส่งต่อให้ผู้รับผิดชอบ และวัดมูลค่าที่กู้คืนได้เทียบกับเส้นฐาน.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1796,7 +1796,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "หยุดบริหารร้านอาหารของคุณด้วยความรู้สึก.",
+        "title": "หยุดเฝ้าดูมาร์จิ้นรั่วไหล เริ่มวัดการกู้คืน.",
         "description": "30 นาทีในการตรวจสอบข้อมูลของคุณร่วมกันและดูว่า Sundae จะช่วยทีมของคุณได้จริงหรือไม่.",
         "primary": "จองการสาธิต",
         "secondary": "สำรวจผลิตภัณฑ์"
@@ -1827,8 +1827,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operasi Masa Nyata melalui Pulse",
-          "description": "Pacing jualan intrahari, produktiviti buruh, pengesanan kebocoran, dan latihan - sebelum syif berakhir.",
+          "title": "Pemulihan Intrahari melalui Pulse",
+          "description": "Tangkap kebocoran sebaik ia berlaku, salurkan pembetulan kepada penyelia syif, dan ukur margin yang dipulihkan - sebelum syif berakhir.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1858,14 +1858,14 @@ export const generatedLocalCopy = {
           {
             "title": "Pemimpin Operasi",
             "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
-            "description": "Keterlihatan masa nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang memerlukan bantuan sebelum mereka bertanya.",
+            "description": "Kesan kebocoran di mana-mana lokasi melalui Pulse dan Portfolio, salurkan pembetulan kepada pengurus bertugas, dan lihat pemulihan menjadi kenyataan - sebelum mereka meminta bantuan.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Kewangan & FP&A",
             "pain": "3 hari untuk menutup buku? Itu terlalu lama.",
-            "description": "Intelligence margin masa nyata, kos buruh per shift, dan analisis varians yang disambungkan kepada punca akar.",
+            "description": "Setiap sisihan margin dijejaki hingga punca akarnya, disalurkan kepada seorang yang bertanggungjawab, dan nilai yang dipulihkan diukur berbanding garis dasar.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1886,7 +1886,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hentikan mengendalikan restoran anda berdasarkan perasaan.",
+        "title": "Berhenti memerhatikan margin bocor. Mula mengukur pemulihan.",
         "description": "30 minit untuk menyemak data anda bersama dan melihat sama ada Sundae benar-benar dapat membantu pasukan anda.",
         "primary": "Tempah Demo",
         "secondary": "Terokai Produk"

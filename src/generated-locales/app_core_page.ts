@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "fr": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Connecté à votre POS, à la main-d'œuvre, à l'inventaire et à tous les systèmes importants. Core se met à jour toutes les 2 à 4 heures pour que vous puissiez agir pendant le service - et non après que les dégâts soient faits.",
+        "description": "Connecté à votre POS, à la main-d'œuvre, à l'inventaire et à tous les systèmes qui comptent. Core repère la fuite de marge, confie la correction à un responsable identifié et mesure la marge récupérée par rapport à une référence.",
         "primary": "Explorer les niveaux de Core",
         "secondary": "Réserver une démo"
       },
@@ -50,7 +50,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inclus avec Core",
         "heading": "Pulse : Votre Centre de Commande de Shift",
-        "description": "Voyez les anomalies dès qu'elles se produisent. Formez votre équipe en temps réel. Confirmez les résultats avant la fin du shift.",
+        "description": "Repérez les anomalies au moment où elles se produisent. Confiez la correction au manager en service. Puis mesurez la marge récupérée par rapport à la référence.",
         "features": [
           {
             "name": "Ventes & Rythme",
@@ -173,8 +173,8 @@ export const generatedLocalCopy = {
         "button": "En savoir plus sur Watchtower"
       },
       "cta": {
-        "title": "Arrêtez de gérer les chiffres d'hier",
-        "description": "Découvrez à quoi ressemble l'intelligence opérationnelle en temps réel avec vos données réelles.",
+        "title": "Arrêtez de signaler la fuite. Récupérez-la.",
+        "description": "Voyez Core repérer la fuite, confier la correction et mesurer la marge récupérée par rapport à votre référence - sur vos vraies données.",
         "primary": "Explorer les niveaux de Core",
         "secondary": "Réserver une démo"
       }
@@ -182,7 +182,7 @@ export const generatedLocalCopy = {
     "es": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectado a tu POS, mano de obra, inventario y a todos los sistemas que importan. Core se actualiza cada 2-4 horas para que puedas actuar durante el turno, no después de que se haya hecho el daño.",
+        "description": "Conectado a tu POS, mano de obra, inventario y a todos los sistemas que importan. Core encuentra la fuga de margen, asigna la solución a un responsable con nombre y mide el margen recuperado frente a una línea base.",
         "primary": "Explora los Niveles de Core",
         "secondary": "Reserva una Demostración"
       },
@@ -227,7 +227,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Incluido con Core",
         "heading": "Pulse: Tu Centro de Comando de Turno",
-        "description": "Ve las anomalías en el momento en que ocurren. Entrena a tu equipo en tiempo real. Confirma los resultados antes de que termine el turno.",
+        "description": "Ve las anomalías en el momento en que suceden. Asigna la solución al gerente del turno. Luego mide el margen que recuperaste frente a la línea base.",
         "features": [
           {
             "name": "Ventas y Ritmo",
@@ -350,8 +350,8 @@ export const generatedLocalCopy = {
         "button": "Conocer más sobre Watchtower"
       },
       "cta": {
-        "title": "Deja de gestionar los números de ayer",
-        "description": "Ve cómo se ve la inteligencia operativa en tiempo real con tus datos reales.",
+        "title": "Deja de reportar la fuga. Recupérala.",
+        "description": "Mira a Core encontrar la fuga, asignar la solución y medir el margen recuperado frente a tu línea base - con tus datos reales.",
         "primary": "Explora los niveles de Core",
         "secondary": "Reserva una demostración"
       }
@@ -359,10 +359,10 @@ export const generatedLocalCopy = {
     "de": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core wird alle 2-4 Stunden aktualisiert, damit Sie während der Schicht handeln können - nicht erst, nachdem der Schaden angerichtet wurde.",
+        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core findet das Margen-Leck, übergibt die Korrektur an einen benannten Verantwortlichen und misst die zurückgewonnene Marge gegen eine Basislinie.",
         "primary": "Core-Tarife erkunden",
         "secondary": "Demo buchen",
-        "title": "Echtzeit-Betrieb. Keine Tagesabschlussberichte."
+        "title": "Finden Sie das Leck. Holen Sie die Marge zurück."
       },
       "dimensions": {
         "heading": "Das 4D-Intelligenzmodell",
@@ -405,7 +405,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inklusive mit Core",
         "heading": "Pulse: Ihr Schicht-Kommandocenter",
-        "description": "Sehen Sie Anomalien, sobald sie auftreten. Coachen Sie Ihr Team in Echtzeit. Bestätigen Sie die Ergebnisse, bevor die Schicht endet.",
+        "description": "Sehen Sie Anomalien, sobald sie auftreten. Übergeben Sie die Korrektur an den Schichtleiter. Messen Sie dann die zurückgewonnene Marge gegen die Basislinie.",
         "features": [
           {
             "name": "Verkäufe & Tempo",
@@ -528,8 +528,8 @@ export const generatedLocalCopy = {
         "button": "Erfahren Sie mehr über Watchtower"
       },
       "cta": {
-        "title": "Verwalten Sie nicht die Zahlen von gestern",
-        "description": "Sehen Sie, wie Echtzeit-Betriebsintelligenz mit Ihren tatsächlichen Daten aussieht.",
+        "title": "Melden Sie das Leck nicht - holen Sie es zurück.",
+        "description": "Sehen Sie, wie Core das Leck findet, die Korrektur übergibt und die zurückgewonnene Marge gegen Ihre Basislinie misst - mit Ihren echten Daten.",
         "primary": "Core-Tarife erkunden",
         "secondary": "Demo buchen"
       }
@@ -537,10 +537,10 @@ export const generatedLocalCopy = {
     "nl": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core ververst elke 2-4 uur, zodat je tijdens de shift kunt handelen - niet nadat de schade is aangericht.",
+        "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core vindt het margelek, wijst de oplossing toe aan een benoemde eigenaar en meet de teruggewonnen marge af tegen een basislijn.",
         "primary": "Ontdek Core Tiers",
         "secondary": "Boek een Demo",
-        "title": "Realtime operatie. Geen eindedagrapporten."
+        "title": "Vind het lek. Haal de marge terug."
       },
       "dimensions": {
         "heading": "Het 4D Informatie Model",
@@ -583,7 +583,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inclusief bij Core",
         "heading": "Pulse: Jouw Shift Command Center",
-        "description": "Zie anomalieën op het moment dat ze zich voordoen. Coach je team in real-time. Bevestig resultaten voordat de shift eindigt.",
+        "description": "Zie anomalieën op het moment dat ze zich voordoen. Wijs de oplossing toe aan de manager in dienst. Meet daarna de teruggewonnen marge af tegen de basislijn.",
         "features": [
           {
             "name": "Verkoop & Tempo",
@@ -706,8 +706,8 @@ export const generatedLocalCopy = {
         "button": "Leer Meer Over Watchtower"
       },
       "cta": {
-        "title": "Stop met het Beheren van de Cijfers van Gisteren",
-        "description": "Zie hoe operationele intelligentie in real-time eruitziet met je actuele gegevens.",
+        "title": "Stop met het melden van het lek. Haal het terug.",
+        "description": "Zie hoe Core het lek vindt, de oplossing toewijst en de teruggewonnen marge afmeet tegen je basislijn - met je echte gegevens.",
         "primary": "Verken Core Tiers",
         "secondary": "Boek een Demo"
       }
@@ -715,7 +715,7 @@ export const generatedLocalCopy = {
     "ar": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يتم تحديث Core كل 2-4 ساعات حتى تتمكن من التصرف خلال الوردية - وليس بعد حدوث الضرر.",
+        "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يكشف Core تسرّب الربح، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الهامش المسترجع مقابل خط أساس.",
         "primary": "استكشاف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
       },
@@ -760,7 +760,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "مضمن مع Core",
         "heading": "Pulse: مركز قيادة نوبتك",
-        "description": "شاهد الشذوذ في اللحظة التي تحدث فيها. درب فريقك في الوقت الحقيقي. أكد النتائج قبل انتهاء النوبة.",
+        "description": "شاهد الشذوذ في اللحظة التي يحدث فيها. وجّه الإصلاح إلى مدير الوردية. ثم قِس الهامش الذي استرجعته مقابل خط الأساس.",
         "features": [
           {
             "name": "المبيعات والوتيرة",
@@ -883,8 +883,8 @@ export const generatedLocalCopy = {
         "button": "تعرف على Watchtower"
       },
       "cta": {
-        "title": "توقف عن إدارة أرقام الأمس",
-        "description": "اكتشف كيف تبدو الذكاء التشغيلي في الوقت الحقيقي مع بياناتك الفعلية.",
+        "title": "توقف عن الإبلاغ عن التسرب. استرجعه.",
+        "description": "شاهد Core يكشف التسرّب، ويوجّه الإصلاح، ويقيس الهامش المسترجع مقابل خط أساسك - على بياناتك الفعلية.",
         "primary": "استكشف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
       }
@@ -892,10 +892,10 @@ export const generatedLocalCopy = {
     "pt": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core é atualizado a cada 2-4 horas para que você possa agir durante o turno - e não depois que o dano já foi feito.",
+        "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core encontra o vazamento de margem, encaminha a correção a um responsável nomeado e mede a margem recuperada em relação a uma linha de base.",
         "primary": "Explore os Níveis do Core",
         "secondary": "Agende uma Demonstração",
-        "title": "Operações em tempo real. Não relatórios de fim de dia."
+        "title": "Encontre o vazamento. Recupere a margem."
       },
       "dimensions": {
         "heading": "O Modelo de Inteligência 4D",
@@ -938,7 +938,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Incluído com o Core",
         "heading": "Pulse: Seu Centro de Comando de Turno",
-        "description": "Veja anomalias no momento em que acontecem. Treine sua equipe em tempo real. Confirme os resultados antes do final do turno.",
+        "description": "Veja anomalias no momento em que acontecem. Encaminhe a correção ao gerente do turno. Depois meça a margem que você recuperou em relação à linha de base.",
         "features": [
           {
             "name": "Vendas & Ritmo",
@@ -1061,8 +1061,8 @@ export const generatedLocalCopy = {
         "button": "Saiba Mais Sobre o Watchtower"
       },
       "cta": {
-        "title": "Pare de Gerenciar Números do Ontem",
-        "description": "Veja como é a inteligência operacional em tempo real com seus dados reais.",
+        "title": "Pare de relatar o vazamento. Recupere-o.",
+        "description": "Veja o Core encontrar o vazamento, encaminhar a correção e medir a margem recuperada em relação à sua linha de base - com seus dados reais.",
         "primary": "Explore os Níveis do Core",
         "secondary": "Agende uma Demonstração"
       }
@@ -1070,10 +1070,10 @@ export const generatedLocalCopy = {
     "it": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core si aggiorna ogni 2-4 ore così puoi agire durante il turno - non dopo che il danno è fatto.",
+        "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core trova la falla di margine, assegna la correzione a un responsabile con nome e misura il margine recuperato rispetto a una linea di base.",
         "primary": "Esplora i livelli di Core",
         "secondary": "Prenota una demo",
-        "title": "Operazioni in tempo reale. Non report di fine giornata."
+        "title": "Trova la falla. Recupera il margine."
       },
       "dimensions": {
         "heading": "Il Modello di Intelligenza 4D",
@@ -1116,7 +1116,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Incluso con Core",
         "heading": "Pulse: Il tuo Centro di Comando per i Turni",
-        "description": "Vedi le anomalie nel momento in cui si verificano. Allena il tuo team in tempo reale. Conferma i risultati prima della fine del turno.",
+        "description": "Vedi le anomalie nel momento in cui si verificano. Assegna la correzione al responsabile del turno. Poi misura il margine recuperato rispetto alla linea di base.",
         "features": [
           {
             "name": "Vendite & Ritmo",
@@ -1239,8 +1239,8 @@ export const generatedLocalCopy = {
         "button": "Scopri di più su Watchtower"
       },
       "cta": {
-        "title": "Smetti di Gestire i Numeri di Ieri",
-        "description": "Scopri come appare l'intelligenza operativa in tempo reale con i tuoi dati reali.",
+        "title": "Smetti di segnalare la falla. Recuperala.",
+        "description": "Guarda Core trovare la falla, assegnare la correzione e misurare il margine recuperato rispetto alla tua linea di base - con i tuoi dati reali.",
         "primary": "Esplora i Livelli di Core",
         "secondary": "Prenota una Demo"
       }
@@ -1248,10 +1248,10 @@ export const generatedLocalCopy = {
     "hi": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core हर 2-4 घंटे में अपडेट होता है ताकि आप शिफ्ट के दौरान कार्रवाई कर सकें - नुकसान होने के बाद नहीं।",
+        "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core मुनाफ़े का रिसाव ढूँढता है, सुधार को एक नामित जिम्मेदार व्यक्ति को सौंपता है, और वापस पाए गए मार्जिन को एक आधार रेखा के मुकाबले मापता है।",
         "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें",
-        "title": "रियल-टाइम ऑपरेशन। दिन के अंत की रिपोर्ट नहीं।"
+        "title": "रिसाव खोजें। मुनाफ़ा वापस पाएं।"
       },
       "dimensions": {
         "heading": "4D इंटेलिजेंस मॉडल",
@@ -1294,7 +1294,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core के साथ शामिल",
         "heading": "Pulse: आपका शिफ्ट कमांड सेंटर",
-        "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। अपने टीम को वास्तविक समय में कोच करें। शिफ्ट खत्म होने से पहले परिणामों की पुष्टि करें।",
+        "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। सुधार को शिफ्ट प्रबंधक को सौंपें। फिर आपने जो मार्जिन वापस पाया उसे आधार रेखा के मुकाबले मापें।",
         "features": [
           {
             "name": "बिक्री और गति",
@@ -1417,8 +1417,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower के बारे में जानें"
       },
       "cta": {
-        "title": "कल के नंबरों का प्रबंधन करना बंद करें",
-        "description": "अपने वास्तविक डेटा के साथ वास्तविक समय की परिचालन बुद्धिमत्ता कैसी दिखती है, देखें।",
+        "title": "रिसाव की रिपोर्ट करना बंद करें। इसे वापस पाएं।",
+        "description": "देखें कि Core कैसे रिसाव ढूँढता है, सुधार सौंपता है, और वापस पाए गए मार्जिन को आपकी आधार रेखा के मुकाबले मापता है - आपके वास्तविक डेटा पर।",
         "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें"
       }
@@ -1426,10 +1426,10 @@ export const generatedLocalCopy = {
     "ur": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core ہر 2-4 گھنٹے میں تازہ ہوتا ہے تاکہ آپ شفٹ کے دوران عمل کر سکیں - نقصان کے بعد نہیں۔",
+        "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core منافع کے رساؤ کو تلاش کرتا ہے، درستگی کو ایک نامزد ذمہ دار کے سپرد کرتا ہے، اور بازیافت شدہ مارجن کو ایک بنیادی خط کے مقابلے میں ماپتا ہے۔",
         "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں",
-        "title": "ریئل ٹائم آپریشن۔ دن کے اختتام کی رپورٹیں نہیں۔"
+        "title": "رساؤ تلاش کریں۔ منافع واپس حاصل کریں۔"
       },
       "dimensions": {
         "heading": "4D انٹیلیجنس ماڈل",
@@ -1472,7 +1472,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core کے ساتھ شامل",
         "heading": "Pulse: آپ کا شفٹ کمانڈ سینٹر",
-        "description": "انحرافات کو اس لمحے دیکھیں جب وہ ہوتے ہیں۔ اپنے ٹیم کو حقیقی وقت میں تربیت دیں۔ شفٹ ختم ہونے سے پہلے نتائج کی تصدیق کریں۔",
+        "description": "بے قاعدگیوں کو اسی لمحے دیکھیں جب وہ ہوتی ہیں۔ درستگی کو شفٹ مینیجر کے سپرد کریں۔ پھر جو مارجن آپ نے بازیافت کیا اسے بنیادی خط کے مقابلے میں ماپیں۔",
         "features": [
           {
             "name": "سیلز اور رفتار",
@@ -1595,8 +1595,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower کے بارے میں جانیں"
       },
       "cta": {
-        "title": "کل کے اعداد و شمار کا انتظام کرنا بند کریں",
-        "description": "اپنے حقیقی ڈیٹا کے ساتھ حقیقی وقت کی عملی ذہانت کیسی نظر آتی ہے، یہ دیکھیں۔",
+        "title": "رساؤ کی رپورٹنگ بند کریں۔ اسے واپس حاصل کریں۔",
+        "description": "دیکھیں کہ Core کیسے رساؤ تلاش کرتا ہے، درستگی سونپتا ہے، اور بازیافت شدہ مارجن کو آپ کے بنیادی خط کے مقابلے میں ماپتا ہے - آپ کے حقیقی ڈیٹا پر۔",
         "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں"
       }
@@ -1604,10 +1604,10 @@ export const generatedLocalCopy = {
     "pl": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core odświeża się co 2-4 godziny, abyś mógł działać w trakcie zmiany - a nie po wyrządzeniu szkód.",
+        "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core znajduje wyciek marży, kieruje poprawkę do wskazanego właściciela i mierzy odzyskaną marżę względem linii bazowej.",
         "primary": "Poznaj poziomy Core",
         "secondary": "Umów się na demo",
-        "title": "Operacje w czasie rzeczywistym. Nie raporty na koniec dnia."
+        "title": "Znajdź wyciek. Odzyskaj marżę."
       },
       "dimensions": {
         "heading": "Model Inteligencji 4D",
@@ -1650,7 +1650,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Wliczone w Core",
         "heading": "Pulse: Twoje Centrum Dowodzenia Zmianą",
-        "description": "Zobacz anomalie w momencie, gdy się pojawią. Trenuj swój zespół w czasie rzeczywistym. Potwierdź wyniki przed zakończeniem zmiany.",
+        "description": "Zobacz anomalie w momencie, gdy się pojawią. Skieruj poprawkę do menedżera na zmianie. Następnie zmierz odzyskaną marżę względem linii bazowej.",
         "features": [
           {
             "name": "Sprzedaż i Tempo",
@@ -1773,8 +1773,8 @@ export const generatedLocalCopy = {
         "button": "Dowiedz się więcej o Watchtower"
       },
       "cta": {
-        "title": "Przestań zarządzać danymi z wczoraj",
-        "description": "Zobacz, jak wygląda rzeczywista inteligencja operacyjna w czasie rzeczywistym z Twoimi danymi.",
+        "title": "Przestań zgłaszać wyciek. Odzyskaj go.",
+        "description": "Zobacz, jak Core znajduje wyciek, kieruje poprawkę i mierzy odzyskaną marżę względem Twojej linii bazowej - na Twoich rzeczywistych danych.",
         "primary": "Zbadaj poziomy Core",
         "secondary": "Umów się na demo"
       }
@@ -1782,10 +1782,10 @@ export const generatedLocalCopy = {
     "tr": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, vardiya sırasında harekete geçebilmeniz için her 2-4 saatte bir yenilenir - hasar verildikten sonra değil.",
+        "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, kâr sızıntısını bulur, düzeltmeyi belirli bir sorumluya yönlendirir ve geri kazanılan marjı bir temel çizgiye göre ölçer.",
         "primary": "Core Katmanlarını Keşfedin",
         "secondary": "Demo Rezervasyonu Yap",
-        "title": "Gerçek zamanlı operasyon. Gün sonu raporları değil."
+        "title": "Sızıntıyı bulun. Kârı geri kazanın."
       },
       "dimensions": {
         "heading": "4D Zeka Modeli",
@@ -1828,7 +1828,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core ile Dahil",
         "heading": "Pulse: Vardiya Komuta Merkeziniz",
-        "description": "Anomalileri anında görün. Ekibinizi gerçek zamanlı olarak yönlendirin. Vardiya bitmeden sonuçları onaylayın.",
+        "description": "Anomalileri gerçekleştikleri anda görün. Düzeltmeyi vardiyadaki yöneticiye yönlendirin. Ardından geri kazandığınız marjı temel çizgiye göre ölçün.",
         "features": [
           {
             "name": "Satış & Hız",
@@ -1951,8 +1951,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower Hakkında Bilgi Al"
       },
       "cta": {
-        "title": "Dünün Rakamlarını Yönetmeyi Bırakın",
-        "description": "Gerçek verilerinizle gerçek zamanlı operasyonel zekanın nasıl göründüğünü görün.",
+        "title": "Sızıntıyı raporlamayı bırakın. Onu geri kazanın.",
+        "description": "Core'un sızıntıyı nasıl bulduğunu, düzeltmeyi yönlendirdiğini ve geri kazanılan marjı temel çizginize göre ölçtüğünü görün - gerçek verilerinizle.",
         "primary": "Core Katmanlarını Keşfedin",
         "secondary": "Demo Talep Edin"
       }
@@ -1960,10 +1960,10 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "连接到您的POS、劳动力、库存和所有重要系统。Core每2-4小时刷新一次，让您在班次期间采取行动，而不是在损害发生后再处理。",
+        "description": "连接到您的POS、劳动力、库存和所有重要系统。Core找出利润泄漏，将修复分派给指定负责人，并按基线衡量收回的利润率。",
         "primary": "探索Core层级",
         "secondary": "预约演示",
-        "title": "实时运营，而非日终报表。"
+        "title": "找出泄漏。收回利润。"
       },
       "dimensions": {
         "heading": "4D智能模型",
@@ -2006,7 +2006,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "包含在Core中",
         "heading": "Pulse：您的班次指挥中心",
-        "description": "实时查看异常情况。实时指导您的团队。在班次结束前确认结果。",
+        "description": "异常发生的那一刻即可看到。将修复分派给当班经理。然后按基线衡量您收回的利润率。",
         "features": [
           {
             "name": "销售与节奏",
@@ -2129,8 +2129,8 @@ export const generatedLocalCopy = {
         "button": "了解 Watchtower"
       },
       "cta": {
-        "title": "停止管理过时的数据",
-        "description": "查看您实际数据的实时运营智能是什么样的。",
+        "title": "别再上报泄漏--把它收回来。",
+        "description": "看看Core如何找出泄漏、分派修复，并按您的基线衡量收回的利润率--用您的真实数据。",
         "primary": "探索Core层级",
         "secondary": "预约演示"
       }
@@ -2138,10 +2138,10 @@ export const generatedLocalCopy = {
     "ja": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続されています。Coreは2〜4時間ごとに更新されるため、被害が出た後ではなく、シフト中に行動できます。",
+        "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続。Coreは利益の漏れを見つけ、修正を指名された責任者に割り当て、回収したマージンをベースラインと照らして測定します。",
         "primary": "Coreティアを探る",
         "secondary": "デモを予約",
-        "title": "リアルタイムの運営。日次レポートではなく。"
+        "title": "漏れを見つけ、利益を取り戻す。"
       },
       "dimensions": {
         "heading": "4Dインテリジェンスモデル",
@@ -2184,7 +2184,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Coreに含まれています",
         "heading": "Pulse: あなたのシフトコマンドセンター",
-        "description": "異常が発生した瞬間に確認できます。リアルタイムでチームを指導します。シフト終了前に結果を確認してください。",
+        "description": "異常が発生した瞬間に把握できます。修正をシフト責任者に割り当てます。そして回収したマージンをベースラインと照らして測定します。",
         "features": [
           {
             "name": "売上とペース",
@@ -2307,8 +2307,8 @@ export const generatedLocalCopy = {
         "button": "Watchtowerについて学ぶ"
       },
       "cta": {
-        "title": "昨日の数字を管理するのはやめましょう",
-        "description": "実際のデータでリアルタイムのオペレーショナルインテリジェンスがどのようなものかを見てみましょう。",
+        "title": "漏れを報告するのはやめましょう--取り戻すのです。",
+        "description": "Coreが漏れを見つけ、修正を割り当て、回収したマージンをあなたのベースラインと照らして測定します--すべてあなたの実データで。",
         "primary": "Coreティアを探る",
         "secondary": "デモを予約"
       }
@@ -2316,10 +2316,10 @@ export const generatedLocalCopy = {
     "ko": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 2-4시간마다 새로 고쳐져서 피해가 발생한 후가 아닌 근무 중에 조치를 취할 수 있습니다.",
+        "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 이익 누수를 찾아내고, 수정 작업을 지정된 책임자에게 배정하며, 회수한 마진을 기준선과 비교해 측정합니다.",
         "primary": "Core 티어 탐색",
         "secondary": "데모 예약",
-        "title": "실시간 운영. 마감 보고서가 아닙니다."
+        "title": "누수를 찾아내세요. 이익을 되찾으세요."
       },
       "dimensions": {
         "heading": "4D 인텔리전스 모델",
@@ -2362,7 +2362,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core 포함",
         "heading": "Pulse: 당신의 근무 명령 센터",
-        "description": "이상이 발생하는 순간을 확인하세요. 팀을 실시간으로 코칭하세요. 근무가 끝나기 전에 결과를 확인하세요.",
+        "description": "이상이 발생하는 순간을 확인하세요. 수정 작업을 근무 중인 매니저에게 배정하세요. 그런 다음 회수한 마진을 기준선과 비교해 측정하세요.",
         "features": [
           {
             "name": "판매 및 속도",
@@ -2485,8 +2485,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower에 대해 알아보기"
       },
       "cta": {
-        "title": "어제의 숫자를 관리하는 것을 중단하세요",
-        "description": "실제 데이터를 통해 실시간 운영 인텔리전스가 어떻게 보이는지 확인하세요.",
+        "title": "누수를 보고만 하지 마세요. 되찾으세요.",
+        "description": "Core가 누수를 찾아내고, 수정 작업을 배정하며, 회수한 마진을 귀하의 기준선과 비교해 측정하는 모습을 확인하세요 - 모두 실제 데이터로.",
         "primary": "Core 티어 탐색하기",
         "secondary": "데모 예약하기"
       }
@@ -2494,10 +2494,10 @@ export const generatedLocalCopy = {
     "id": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core diperbarui setiap 2-4 jam sehingga Anda dapat bertindak selama shift - bukan setelah kerusakan terjadi.",
+        "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core menemukan kebocoran margin, mengarahkan perbaikan ke penanggung jawab yang ditunjuk, dan mengukur margin yang dipulihkan terhadap garis dasar.",
         "primary": "Jelajahi Tingkatan Core",
         "secondary": "Pesan Demo",
-        "title": "Operasi waktu nyata. Bukan laporan akhir hari."
+        "title": "Temukan kebocoran. Pulihkan keuntungan."
       },
       "dimensions": {
         "heading": "Model Intelijen 4D",
@@ -2540,7 +2540,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Termasuk dengan Core",
         "heading": "Pulse: Pusat Komando Shift Anda",
-        "description": "Lihat anomali saat mereka terjadi. Latih tim Anda secara real-time. Konfirmasi hasil sebelum shift berakhir.",
+        "description": "Lihat anomali saat mereka terjadi. Arahkan perbaikan ke manajer yang bertugas. Lalu ukur margin yang Anda pulihkan terhadap garis dasar.",
         "features": [
           {
             "name": "Penjualan & Kecepatan",
@@ -2663,8 +2663,8 @@ export const generatedLocalCopy = {
         "button": "Pelajari Tentang Watchtower"
       },
       "cta": {
-        "title": "Hentikan Mengelola Angka Kemarin",
-        "description": "Lihat seperti apa kecerdasan operasional waktu nyata dengan data aktual Anda.",
+        "title": "Berhenti melaporkan kebocoran. Pulihkan.",
+        "description": "Lihat Core menemukan kebocoran, mengarahkan perbaikan, dan mengukur margin yang dipulihkan terhadap garis dasar Anda - dengan data aktual Anda.",
         "primary": "Jelajahi Tingkatan Core",
         "secondary": "Pesan Demo"
       }
@@ -2672,10 +2672,10 @@ export const generatedLocalCopy = {
     "vi": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core được làm mới mỗi 2-4 giờ để bạn có thể hành động trong ca làm việc - không phải sau khi thiệt hại đã xảy ra.",
+        "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core tìm ra chỗ rò rỉ lợi nhuận, giao việc khắc phục cho người chịu trách nhiệm cụ thể và đo lường biên lợi nhuận thu hồi được so với đường cơ sở.",
         "primary": "Khám phá các cấp độ Core",
         "secondary": "Đặt lịch Demo",
-        "title": "Vận hành thời gian thực. Không phải báo cáo cuối ngày."
+        "title": "Tìm ra chỗ rò rỉ. Thu hồi lợi nhuận."
       },
       "dimensions": {
         "heading": "Mô Hình Trí Tuệ 4D",
@@ -2718,7 +2718,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Bao gồm trong Core",
         "heading": "Pulse: Trung tâm chỉ huy ca làm việc của bạn",
-        "description": "Xem các bất thường ngay khi chúng xảy ra. Huấn luyện đội ngũ của bạn theo thời gian thực. Xác nhận kết quả trước khi ca làm việc kết thúc.",
+        "description": "Xem các bất thường ngay khi chúng xảy ra. Giao việc khắc phục cho quản lý đang trong ca. Sau đó đo lường biên lợi nhuận bạn thu hồi được so với đường cơ sở.",
         "features": [
           {
             "name": "Doanh thu & Tốc độ",
@@ -2841,8 +2841,8 @@ export const generatedLocalCopy = {
         "button": "Tìm hiểu về Watchtower"
       },
       "cta": {
-        "title": "Ngừng Quản Lý Số Liệu Của Ngày Hôm Qua",
-        "description": "Xem trí tuệ hoạt động theo thời gian thực với dữ liệu thực tế của bạn.",
+        "title": "Đừng chỉ báo cáo chỗ rò rỉ. Hãy thu hồi nó.",
+        "description": "Xem Core tìm ra chỗ rò rỉ, giao việc khắc phục và đo lường biên lợi nhuận thu hồi được so với đường cơ sở của bạn - trên dữ liệu thực tế của bạn.",
         "primary": "Khám Phá Các Cấp Độ Core",
         "secondary": "Đặt Lịch Dùng Thử"
       }
@@ -2850,10 +2850,10 @@ export const generatedLocalCopy = {
     "ro": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core se actualizează la fiecare 2-4 ore, astfel încât să poți acționa în timpul schimbului - nu după ce daunele sunt făcute.",
+        "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core găsește scurgerea de marjă, direcționează remedierea către un responsabil desemnat și măsoară marja recuperată față de o linie de referință.",
         "primary": "Explorează nivelurile Core",
         "secondary": "Programează o demonstrație",
-        "title": "Operațiuni în timp real. Nu rapoarte de final de zi."
+        "title": "Găsește scurgerea. Recuperează profitul."
       },
       "dimensions": {
         "heading": "Modelul de Inteligență 4D",
@@ -2896,7 +2896,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inclus în Core",
         "heading": "Pulse: Centrul de Comandă pentru Schimbul Tău",
-        "description": "Vezi anomaliile în momentul în care apar. Antrenează-ți echipa în timp real. Confirmă rezultatele înainte de încheierea schimbului.",
+        "description": "Vezi anomaliile în momentul în care apar. Direcționează remedierea către managerul de tură. Apoi măsoară marja pe care ai recuperat-o față de linia de referință.",
         "features": [
           {
             "name": "Vânzări & Ritm",
@@ -3019,8 +3019,8 @@ export const generatedLocalCopy = {
         "button": "Află mai multe despre Watchtower"
       },
       "cta": {
-        "title": "Oprește-te din a gestiona cifrele de ieri",
-        "description": "Vezi cum arată inteligența operațională în timp real cu datele tale reale.",
+        "title": "Nu mai raporta scurgerea. Recuperează-o.",
+        "description": "Vezi cum Core găsește scurgerea, direcționează remedierea și măsoară marja recuperată față de linia ta de referință - cu datele tale reale.",
         "primary": "Explorează nivelurile Core",
         "secondary": "Programează o demonstrație"
       }
@@ -3028,10 +3028,10 @@ export const generatedLocalCopy = {
     "sv": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core uppdateras var 2-4 timme så att du kan agera under skiftet - inte efter att skadan är skedd.",
+        "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core hittar marginalläckan, styr åtgärden till en utsedd ansvarig och mäter den återvunna marginalen mot en baslinje.",
         "primary": "Utforska Core-nivåer",
         "secondary": "Boka en demo",
-        "title": "Drift i realtid. Inte dagsavslutsrapporter."
+        "title": "Hitta läckan. Återvinn vinsten."
       },
       "dimensions": {
         "heading": "4D Intelligensmodellen",
@@ -3074,7 +3074,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Ingår i Core",
         "heading": "Pulse: Ditt Skift Kommandocenter",
-        "description": "Se avvikelser i realtid. Coacha ditt team i realtid. Bekräfta resultat innan skiftet avslutas.",
+        "description": "Se avvikelser i det ögonblick de inträffar. Styr åtgärden till chefen på skiftet. Mät sedan den marginal du återvann mot baslinjen.",
         "features": [
           {
             "name": "Försäljning & Takt",
@@ -3197,8 +3197,8 @@ export const generatedLocalCopy = {
         "button": "Lär dig mer om Watchtower"
       },
       "cta": {
-        "title": "Sluta hantera gårdagens siffror",
-        "description": "Se hur verklig operationell intelligens ser ut med dina faktiska data.",
+        "title": "Sluta rapportera läckan. Återvinn den.",
+        "description": "Se hur Core hittar läckan, styr åtgärden och mäter den återvunna marginalen mot din baslinje - med dina faktiska data.",
         "primary": "Utforska Core-nivåer",
         "secondary": "Boka en demo"
       }
@@ -3206,10 +3206,10 @@ export const generatedLocalCopy = {
     "bn": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core প্রতি ২-৪ ঘণ্টায় রিফ্রেশ হয় যাতে আপনি শিফটের সময় কাজ করতে পারেন - ক্ষতি হওয়ার পরে নয়।",
+        "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core মুনাফার ফাঁস খুঁজে বের করে, সংশোধনটি একজন নির্ধারিত দায়িত্বপ্রাপ্তকে বরাদ্দ করে, এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার সাপেক্ষে পরিমাপ করে।",
         "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন",
-        "title": "রিয়েল-টাইম অপারেশন। দিনশেষের রিপোর্ট নয়।"
+        "title": "ফাঁস খুঁজুন। মুনাফা ফিরে পান।"
       },
       "dimensions": {
         "heading": "4D ইন্টেলিজেন্স মডেল",
@@ -3252,7 +3252,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core এর সাথে অন্তর্ভুক্ত",
         "heading": "Pulse: আপনার শিফট কমান্ড সেন্টার",
-        "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। আপনার দলের প্রশিক্ষণ দিন বাস্তব সময়ে। শিফট শেষ হওয়ার আগে ফলাফল নিশ্চিত করুন।",
+        "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। সংশোধনটি শিফটের ম্যানেজারকে বরাদ্দ করুন। তারপর আপনি যে মার্জিন পুনরুদ্ধার করেছেন তা ভিত্তিরেখার সাপেক্ষে পরিমাপ করুন।",
         "features": [
           {
             "name": "বিক্রয় ও গতি",
@@ -3375,8 +3375,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower সম্পর্কে জানুন"
       },
       "cta": {
-        "title": "গতকালের সংখ্যা পরিচালনা করা বন্ধ করুন",
-        "description": "আপনার প্রকৃত ডেটার সাথে বাস্তব-সময়ের অপারেশনাল বুদ্ধিমত্তা কেমন দেখায় তা দেখুন।",
+        "title": "ফাঁস শুধু রিপোর্ট করা বন্ধ করুন। এটি ফিরে পান।",
+        "description": "দেখুন Core কীভাবে ফাঁস খুঁজে বের করে, সংশোধন বরাদ্দ করে, এবং পুনরুদ্ধার করা মার্জিন আপনার ভিত্তিরেখার সাপেক্ষে পরিমাপ করে - আপনার প্রকৃত ডেটায়।",
         "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন"
       }
@@ -3384,10 +3384,10 @@ export const generatedLocalCopy = {
     "th": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core จะรีเฟรชทุก 2-4 ชั่วโมง เพื่อให้คุณสามารถดำเนินการได้ในระหว่างการทำงาน - ไม่ใช่หลังจากที่เกิดความเสียหายแล้ว.",
+        "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core ค้นหาการรั่วไหลของกำไร มอบหมายการแก้ไขให้ผู้รับผิดชอบที่ระบุไว้ และวัดกำไรที่กู้คืนได้เทียบกับเส้นฐาน",
         "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต",
-        "title": "การดำเนินงานแบบเรียลไทม์ ไม่ใช่รายงานสิ้นวัน"
+        "title": "ค้นหาการรั่วไหล กู้คืนกำไร"
       },
       "dimensions": {
         "heading": "โมเดลอัจฉริยะ 4D",
@@ -3430,7 +3430,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "รวมอยู่ใน Core",
         "heading": "Pulse: ศูนย์ควบคุมกะของคุณ",
-        "description": "ดูความผิดปกติในทันทีที่เกิดขึ้น สอนทีมของคุณแบบเรียลไทม์ ยืนยันผลลัพธ์ก่อนสิ้นสุดกะ",
+        "description": "ดูความผิดปกติในทันทีที่เกิดขึ้น มอบหมายการแก้ไขให้ผู้จัดการที่อยู่ในกะ แล้ววัดกำไรที่คุณกู้คืนได้เทียบกับเส้นฐาน",
         "features": [
           {
             "name": "ยอดขาย & อัตรา",
@@ -3553,8 +3553,8 @@ export const generatedLocalCopy = {
         "button": "เรียนรู้เกี่ยวกับ Watchtower"
       },
       "cta": {
-        "title": "หยุดจัดการตัวเลขเมื่อวานนี้",
-        "description": "ดูว่าข้อมูลเชิงลึกในการดำเนินงานแบบเรียลไทม์เป็นอย่างไรด้วยข้อมูลจริงของคุณ",
+        "title": "หยุดเพียงรายงานการรั่วไหล กู้คืนมันกลับมา",
+        "description": "ดูว่า Core ค้นหาการรั่วไหล มอบหมายการแก้ไข และวัดกำไรที่กู้คืนได้เทียบกับเส้นฐานของคุณอย่างไร - ด้วยข้อมูลจริงของคุณ",
         "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต"
       }
@@ -3562,10 +3562,10 @@ export const generatedLocalCopy = {
     "ms": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core menyegarkan setiap 2-4 jam supaya anda boleh bertindak semasa waktu kerja - bukan selepas kerosakan berlaku.",
+        "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core mengesan kebocoran margin, menyalurkan pembaikan kepada pemilik yang ditetapkan dan mengukur margin yang dipulihkan berbanding garis dasar.",
         "primary": "Terokai Tahap Core",
         "secondary": "Tempah Demo",
-        "title": "Operasi masa nyata. Bukan laporan hujung hari."
+        "title": "Cari kebocoran. Pulihkan keuntungan."
       },
       "dimensions": {
         "heading": "Model Kecerdasan 4D",
@@ -3608,7 +3608,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Termasuk dengan Core",
         "heading": "Pulse: Pusat Komando Shift Anda",
-        "description": "Lihat anomali sebaik sahaja ia berlaku. Latih pasukan anda secara langsung. Sahkan hasil sebelum shift berakhir.",
+        "description": "Lihat anomali sebaik sahaja ia berlaku. Salurkan pembaikan kepada pengurus yang bertugas. Kemudian ukur margin yang anda pulihkan berbanding garis dasar.",
         "features": [
           {
             "name": "Jualan & Rentak",
@@ -3731,8 +3731,8 @@ export const generatedLocalCopy = {
         "button": "Ketahui Lebih Lanjut Tentang Watchtower"
       },
       "cta": {
-        "title": "Hentikan Mengurus Nombor Semalam",
-        "description": "Lihat bagaimana kecerdasan operasi masa nyata dengan data sebenar anda.",
+        "title": "Berhenti sekadar melaporkan kebocoran. Pulihkannya.",
+        "description": "Lihat cara Core mengesan kebocoran, menyalurkan pembaikan dan mengukur margin yang dipulihkan berbanding garis dasar anda - dengan data sebenar anda.",
         "primary": "Terokai Tahap Core",
         "secondary": "Tempah Demo"
       }

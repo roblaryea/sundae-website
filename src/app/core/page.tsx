@@ -26,18 +26,18 @@ const localizedCoreCopy = {
   en: {
     hero: {
       badge: "Sundae Core",
-      title: 'Real-Time Operations. Not End-of-Day Reports.',
+      title: 'Find the Leak. Recover the Profit.',
       description:
-        "Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift - not after the damage is done.",
+        "Connected to your POS, labor, inventory, and every system that matters. Core finds the profit leak, routes the fix to an accountable owner, and measures the recovered margin against a baseline.",
       primary: "Explore Core Tiers",
       secondary: "Book a Demo",
     },
     realTime: {
-      heading: "The Real-Time Intelligence Layer",
+      heading: "The Closed-Loop Intelligence Layer",
       description:
-        "Built for operators who can't wait for end-of-day reports. Whether you manage 10 locations or 100+, Core gives you the speed to see what's happening now, understand why it matters, and get recommended actions before problems escalate.",
+        "Built for operators who need the money back, not another dashboard. Whether you manage 10 locations or 100+, Core finds what's leaking, routes the fix to a named owner, and measures the recovered margin against a baseline - so every decision closes the loop.",
       cards: [
-        { title: "Predictive, Not Reactive", desc: "Get alerts before problems become expensive. Sundae Coach recommendations for immediate action - not dashboards that update.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Measured, Not Just Flagged", desc: "Sundae Coach routes each leak to an accountable owner, then measures the recovered margin against a baseline - not a dashboard that only updates.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Every Location, One View", desc: "Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "Grows With You", desc: "From one location to a thousand. The package sets the depth; the location bands set the price as you add sites.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
@@ -104,7 +104,7 @@ const localizedCoreCopy = {
     pulse: {
       badge: "Included with Core",
       heading: "Pulse: Your Shift Command Center",
-      description: "See anomalies the moment they happen. Coach your team in real time. Confirm results before the shift ends.",
+      description: "See anomalies the moment they happen. Route the fix to the manager on shift. Then measure the margin you recovered against the baseline.",
       features: [
         { name: "Sales & Pace", description: "Intraday sales pacing, KPIs, and hourly trend visualization", icon: "chart" as SundaeIconName },
         { name: "Labor Live", description: "Intraday labor pacing, overtime risk tracking, and break compliance", icon: "benchmarking" as SundaeIconName },
@@ -158,8 +158,8 @@ const localizedCoreCopy = {
       ],
     },
     cta: {
-      title: "Stop Managing Yesterday's Numbers",
-      description: "See what real-time operational intelligence looks like with your actual data.",
+      title: "Stop Reporting the Leak. Recover It.",
+      description: "Watch Core find the leak, route the fix, and measure the recovered margin against your baseline - on your actual data.",
       primary: "Explore Core Tiers",
       secondary: "Book a Demo",
     },
@@ -167,18 +167,18 @@ const localizedCoreCopy = {
   ar: {
     hero: {
       badge: "Sundae Core",
-      title: "العمليات الفورية. لا تقارير نهاية اليوم.",
+      title: "اكشف التسرب. استرجع الربح.",
       description:
-        "متصل بنقاط البيع والعمالة والمخزون وكل نظام مهم. يحدث Core كل 2-4 ساعات حتى تتحرك أثناء الوردية - لا بعد انتهاء الضرر.",
+        "متصل بنقاط البيع والعمالة والمخزون وكل نظام مهم. يكشف Core تسرّب الربح، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الهامش المسترجع مقابل خط أساس.",
       primary: "استعرض مستويات Core",
       secondary: "احجز عرضاً",
     },
     realTime: {
-      heading: "طبقة الذكاء الفوري",
+      heading: "طبقة الذكاء ذات الحلقة المغلقة",
       description:
-        "مصمم للمشغلين الذين لا يستطيعون انتظار تقارير نهاية اليوم. سواء كنت تدير 10 مواقع او 100+، يمنحك Core السرعة لترى ما يحدث الان، وتفهم لماذا يهم، وتحصل على توصيات قبل تفاقم المشكلات.",
+        "مصمم للمشغلين الذين يريدون استرجاع المال، لا لوحة تحكم أخرى. سواء كنت تدير 10 مواقع او 100+، يكشف Core ما يتسرّب، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الهامش المسترجع مقابل خط أساس - فيغلق كل قرار الحلقة.",
       cards: [
-        { title: "استباقي لا تفاعلي", desc: "تنبيهات قبل ان تتحول المشكلات الى تكلفة. توصيات Sundae Coach للعمل الفوري - لا لوحات تحكم تتحدث متأخرة.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "مقيس، لا مجرّد تنبيه", desc: "يوجّه Sundae Coach كل تسرّب إلى مسؤول محدّد، ثم يقيس الهامش المسترجع مقابل خط أساس - لا لوحة تحكم تكتفي بالتحديث.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "كل موقع في عرض واحد", desc: "رؤية موحدة عبر كل المواقع. أنماط على مستوى المحفظة وتفاصيل على مستوى الموقع في لوحة واحدة.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "ينمو معك", desc: "من موقع واحد إلى ألف. الباقة تحدد العمق، وشرائح المواقع تحدد السعر كلما أضفت موقعًا.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
@@ -245,7 +245,7 @@ const localizedCoreCopy = {
     pulse: {
       badge: "مضمن مع Core",
       heading: "Pulse: مركز قيادة الوردية",
-      description: "شاهد الشذوذات لحظة حدوثها. درّب فريقك في الوقت الحقيقي. تأكد من النتائج قبل انتهاء الوردية.",
+      description: "شاهد الشذوذات لحظة حدوثها. وجّه الإصلاح إلى مدير الوردية. ثم قِس الهامش الذي استرجعته مقابل خط الأساس.",
       features: [
         { name: "المبيعات والإيقاع", description: "وتيرة المبيعات خلال اليوم، ومؤشرات الاداء، وعرض الاتجاه بالساعة", icon: "chart" as SundaeIconName },
         { name: "العمالة المباشرة", description: "وتيرة العمالة خلال اليوم، وتتبع خطر العمل الاضافي، والالتزام بالاستراحات", icon: "benchmarking" as SundaeIconName },
@@ -299,8 +299,8 @@ const localizedCoreCopy = {
       ],
     },
     cta: {
-      title: "توقف عن إدارة ارقام الامس",
-      description: "شاهد كيف يبدو الذكاء التشغيلي الفوري باستخدام بياناتك الفعلية.",
+      title: "توقف عن الإبلاغ عن التسرب. استرجعه.",
+      description: "شاهد Core يكشف التسرّب، ويوجّه الإصلاح، ويقيس الهامش المسترجع مقابل خط أساسك - على بياناتك الفعلية.",
       primary: "استعرض مستويات Core",
       secondary: "احجز عرضاً",
     },
@@ -308,18 +308,18 @@ const localizedCoreCopy = {
   fr: {
     hero: {
       badge: "Sundae Core",
-      title: "Operations en temps reel. Pas de rapports de fin de journee.",
+      title: "Trouvez la fuite. Recuperez la marge.",
       description:
-        "Connecte a votre POS, a la main-d oeuvre, aux stocks et a tous les systemes qui comptent. Core se rafraichit toutes les 2 a 4 heures pour que vous puissiez agir pendant le service - pas une fois le probleme deja cree.",
+        "Connecte a votre POS, a la main-d oeuvre, aux stocks et a tous les systemes qui comptent. Core repere la fuite de marge, confie la correction a un responsable identifie et mesure la marge recuperee par rapport a une reference.",
       primary: "Explorer les niveaux Core",
       secondary: "Reserver une demo",
     },
     realTime: {
-      heading: "La couche d intelligence en temps reel",
+      heading: "La couche d intelligence en boucle fermee",
       description:
-        "Concu pour les exploitants qui ne peuvent pas attendre les rapports de fin de journee. Que vous gériez 10 sites ou 100+, Core vous donne la vitesse pour voir ce qui se passe maintenant, comprendre pourquoi c est important et obtenir des actions recommandees avant que les problemes ne s aggravent.",
+        "Concu pour les exploitants qui veulent recuperer l argent, pas un tableau de bord de plus. Que vous geriez 10 sites ou 100+, Core repere ce qui fuit, confie la correction a un responsable nomme et mesure la marge recuperee par rapport a une reference - chaque decision boucle la boucle.",
       cards: [
-        { title: "Predictif, pas reactif", desc: "Recevez des alertes avant que les problemes ne deviennent couteux. Les recommandations de Sundae Coach passent a l action - pas des tableaux qui se mettent a jour plus tard.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Mesure, pas seulement signale", desc: "Sundae Coach confie chaque fuite a un responsable identifie, puis mesure la marge recuperee par rapport a une reference - pas un tableau qui se contente de s actualiser.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Chaque site, une seule vue", desc: "Visibilite unifiee sur tous les sites. Tendances au niveau du portefeuille et detail au niveau du site dans un seul panneau.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "Grandit avec vous", desc: "D un site a un millier. L offre fixe la profondeur, les tranches de sites fixent le prix a mesure que vous ajoutez.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
@@ -386,7 +386,7 @@ const localizedCoreCopy = {
     pulse: {
       badge: "Inclus avec Core",
       heading: "Pulse : votre centre de commande de service",
-      description: "Reperez les anomalies au moment ou elles se produisent. Coachez votre equipe en temps reel. Validez les resultats avant la fin du service.",
+      description: "Reperez les anomalies au moment ou elles se produisent. Confiez la correction au manager en service. Puis mesurez la marge recuperee par rapport a la reference.",
       features: [
         { name: "Ventes et cadence", description: "Rythme des ventes intrajournee, KPI et visualisation des tendances horaires", icon: "chart" as SundaeIconName },
         { name: "Main-d oeuvre live", description: "Rythme de la main-d oeuvre, suivi du risque d heures sup et conformite des pauses", icon: "benchmarking" as SundaeIconName },
@@ -440,8 +440,8 @@ const localizedCoreCopy = {
       ],
     },
     cta: {
-      title: "Arretez de gerer les chiffres d hier",
-      description: "Voyez a quoi ressemble l intelligence operationnelle en temps reel avec vos vraies donnees.",
+      title: "Arretez de signaler la fuite. Recuperez-la.",
+      description: "Voyez Core reperer la fuite, confier la correction et mesurer la marge recuperee par rapport a votre reference - sur vos vraies donnees.",
       primary: "Explorer les niveaux Core",
       secondary: "Reserver une demo",
     },
@@ -449,18 +449,18 @@ const localizedCoreCopy = {
   es: {
     hero: {
       badge: "Sundae Core",
-      title: "Operaciones en tiempo real. No reportes de fin de dia.",
+      title: "Encuentra la fuga. Recupera el margen.",
       description:
-        "Conectado a tu POS, personal, inventario y cada sistema importante. Core se actualiza cada 2 a 4 horas para que puedas actuar durante el turno - no despues de que ya paso el daño.",
+        "Conectado a tu POS, personal, inventario y cada sistema importante. Core encuentra la fuga de margen, asigna la solucion a un responsable con nombre y mide el margen recuperado frente a una linea base.",
       primary: "Explorar niveles de Core",
       secondary: "Reservar demo",
     },
     realTime: {
-      heading: "La vista operativa en tiempo real",
+      heading: "La vista operativa de ciclo cerrado",
       description:
-        "Hecho para operadores que no pueden esperar al cierre del dia. Tanto si gestionas 10 locales como 100+, Core te ayuda a ver lo que pasa ahora, entender por que importa y actuar antes de que los problemas se hagan mas caros.",
+        "Hecho para operadores que quieren recuperar el dinero, no otro panel. Tanto si gestionas 10 locales como 100+, Core encuentra lo que se fuga, asigna la solucion a un responsable con nombre y mide el margen recuperado frente a una linea base - y asi cada decision cierra el ciclo.",
       cards: [
-        { title: "Predictivo, no reactivo", desc: "Recibe alertas antes de que los problemas se vuelvan costosos. Recomendaciones de Sundae Coach para actuar al momento - no paneles que se actualizan tarde.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Medido, no solo señalado", desc: "Sundae Coach asigna cada fuga a un responsable con nombre y luego mide el margen recuperado frente a una linea base - no un panel que solo se actualiza.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Cada local, una sola vista", desc: "Visibilidad unificada en todos los locales. Patrones a nivel cartera y detalle a nivel local en un solo panel.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
         { title: "Crece contigo", desc: "De un local a mil. El paquete marca la profundidad y los tramos de locales marcan el precio segun anades sitios.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
@@ -527,7 +527,7 @@ const localizedCoreCopy = {
     pulse: {
       badge: "Incluido con Core",
       heading: "Pulse: tu centro de comando del turno",
-      description: "Ve las anomalias en el momento en que suceden. Entrena a tu equipo en tiempo real. Confirma resultados antes de que termine el turno.",
+      description: "Ve las anomalias en el momento en que suceden. Asigna la solucion al gerente del turno. Luego mide el margen que recuperaste frente a la linea base.",
       features: [
         { name: "Ventas e ritmo", description: "Ritmo de ventas intradia, KPI y visualizacion de tendencias por hora", icon: "chart" as SundaeIconName },
         { name: "Labor en vivo", description: "Ritmo laboral intradia, seguimiento del riesgo de horas extra y cumplimiento de descansos", icon: "benchmarking" as SundaeIconName },
@@ -581,8 +581,8 @@ const localizedCoreCopy = {
       ],
     },
     cta: {
-      title: "Deja de gestionar los numeros de ayer",
-      description: "Mira como se ve la inteligencia operativa en tiempo real con tus datos reales.",
+      title: "Deja de reportar la fuga. Recuperala.",
+      description: "Mira a Core encontrar la fuga, asignar la solucion y medir el margen recuperado frente a tu linea base - con tus datos reales.",
       primary: "Explorar niveles de Core",
       secondary: "Reservar demo",
     },
