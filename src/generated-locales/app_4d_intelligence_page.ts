@@ -4,7 +4,7 @@ export const generatedLocalCopy = {
   "localized4DCopy": {
     "ar": {
       "heroBadge": "ذكاء القرار",
-      "heroDescription": "أربعة أبعاد للبصيرة. صورة واحدة كاملة لعملك.",
+      "heroDescription": "أربعة أبعاد للرؤية - الماضي، والخطة، والأقران، والمتوقع - تُغلقها الخطوة التي تتجاهلها معظم الأدوات: توجيه الإصلاح إلى مسؤول وقياس الهامش المسترد مقارنةً بخط أساس.",
       "problemTitle": "المشكلة مع BI التقليدية",
       "problemDescription": "تظهر لك معظم الأدوات ما حدث. ليس لماذا. ليس كيف تقارن. ليس ما يجب القيام به بعد ذلك.",
       "problemItems": [
@@ -174,7 +174,7 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "heroBadge": "Intelligence décisionnelle",
-      "heroDescription": "Quatre dimensions de la perspicacité. Une image complète de votre entreprise.",
+      "heroDescription": "Quatre dimensions d'analyse - le passé, le plan, les pairs, le prédit - bouclées par le geste que la plupart des outils négligent : confier le correctif à un responsable et mesurer la marge récupérée par rapport à une base de référence.",
       "problemTitle": "Le problème avec la BI traditionnelle",
       "problemDescription": "La plupart des outils vous montrent ce qui s'est passé. Pas pourquoi. Pas comment vous comparez. Pas quoi faire ensuite.",
       "problemItems": [
@@ -344,7 +344,7 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "heroBadge": "Inteligência de Decisão",
-      "heroDescription": "Quatro dimensões de insight. Uma imagem completa do seu negócio.",
+      "heroDescription": "Quatro dimensões de insight - passado, plano, pares, previsto - fechadas pelo passo que a maioria das ferramentas ignora: encaminhar a correção a um responsável e medir a margem recuperada em relação a uma linha de base.",
       "problemTitle": "O problema do BI tradicional",
       "problemDescription": "A maioria das ferramentas mostra o que aconteceu. Não por quê. Não como você compara. Não o que fazer a seguir.",
       "problemItems": [
@@ -511,11 +511,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Veja 4D Intelligence com seus dados. Passado, plano, pares e previsões - tudo em uma única visualização.",
       "ctaPrimary": "Agende uma demonstração",
       "ctaSecondary": "Explore a Arquitetura",
-      "heroTitle": "De relatórios a inteligência real"
+      "heroTitle": "De relatórios a lucro recuperado."
     },
     "de": {
       "heroBadge": "Entscheidungsintelligenz",
-      "heroDescription": "Vier Dimensionen der Einsicht. Ein vollständiges Bild Ihres Unternehmens.",
+      "heroDescription": "Vier Dimensionen der Einsicht - Vergangenheit, Plan, Vergleichsgruppe, Prognose - geschlossen durch den Schritt, den die meisten Tools auslassen: die Korrektur einer verantwortlichen Person übergeben und die zurückgewonnene Marge an einer Baseline messen.",
       "problemTitle": "Das Problem mit traditioneller BI",
       "problemDescription": "Die meisten Tools zeigen Ihnen, was passiert ist. Nicht warum. Nicht, wie Sie vergleichen. Nicht, was als nächstes zu tun ist.",
       "problemItems": [
@@ -682,11 +682,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen - alles in einer Ansicht.",
       "ctaPrimary": "Buchen Sie eine Demo",
       "ctaSecondary": "Entdecken Sie die Architektur",
-      "heroTitle": "Von Berichten zu echter Intelligenz"
+      "heroTitle": "Von Berichten zu zurückgewonnenem Gewinn."
     },
     "nl": {
       "heroBadge": "Beslissingsinformatie",
-      "heroDescription": "Vier dimensies van inzicht. Eén compleet beeld van uw bedrijf.",
+      "heroDescription": "Vier dimensies van inzicht - verleden, plan, peers, voorspeld - gesloten door de stap die de meeste tools overslaan: de oplossing toewijzen aan een verantwoordelijke en de teruggewonnen marge afmeten tegen een basislijn.",
       "problemTitle": "Het probleem met traditionele BI",
       "problemDescription": "De meeste tools laten zien wat er is gebeurd. Niet waarom. Niet hoe je het vergelijkt. Niet wat nu te doen.",
       "problemItems": [
@@ -853,11 +853,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Zie 4D Intelligence met uw gegevens. Verleden, plannen, peers en voorspellingen - alles in één weergave.",
       "ctaPrimary": "Boek een demo",
       "ctaSecondary": "Ontdek de architectuur",
-      "heroTitle": "Van rapporten naar echte intelligentie"
+      "heroTitle": "Van rapporten naar teruggewonnen winst."
     },
     "es": {
       "heroBadge": "Inteligencia de decisiones",
-      "heroDescription": "Cuatro dimensiones del insight. Una imagen completa de su negocio.",
+      "heroDescription": "Cuatro dimensiones de análisis - pasado, plan, pares, previsto - cerradas por el paso que la mayoría de las herramientas omite: asignar la solución a un responsable y medir el margen recuperado frente a una línea base.",
       "problemTitle": "El problema del BI tradicional",
       "problemDescription": "La mayoría de las herramientas le muestran lo que sucedió. No por qué. No como te comparas. No qué hacer a continuación.",
       "problemItems": [
@@ -1027,7 +1027,7 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "heroBadge": "فیصلہ انٹیلی جنس",
-      "heroDescription": "بصیرت کی چار جہتیں۔ آپ کے کاروبار کی ایک مکمل تصویر۔",
+      "heroDescription": "بصیرت کی چار جہتیں - ماضی، منصوبہ، ہم مرتبہ، اور پیش گوئی - اُس قدم سے مکمل ہوتی ہیں جسے زیادہ تر ٹولز نظرانداز کر دیتے ہیں: حل کو ایک ذمہ دار شخص کے سپرد کرنا اور بازیافت شدہ مارجن کو ایک بنیادی معیار کے مقابلے میں ناپنا۔",
       "problemTitle": "روایتی BI کے ساتھ مسئلہ",
       "problemDescription": "زیادہ تر ٹولز آپ کو دکھاتے ہیں کہ کیا ہوا ہے۔ کیوں نہیں. اس طرح نہیں جس طرح آپ موازنہ کرتے ہیں۔ نہیں آگے کیا کرنا ہے۔",
       "problemItems": [
@@ -1194,11 +1194,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "اپنے ڈیٹا کے ساتھ 4D انٹیلی جنس دیکھیں۔ ماضی، منصوبہ، ساتھی، اور پیشین گوئیاں - سب ایک نظر میں۔",
       "ctaPrimary": "ایک ڈیمو بک کرو",
       "ctaSecondary": "فن تعمیر کو دریافت کریں۔",
-      "heroTitle": "رپورٹس سے حقیقی انٹیلیجنس تک"
+      "heroTitle": "رپورٹس سے بازیافت شدہ منافع تک"
     },
     "hi": {
       "heroBadge": "निर्णय बुद्धि",
-      "heroDescription": "अंतर्दृष्टि के चार आयाम. आपके व्यवसाय की एक संपूर्ण तस्वीर.",
+      "heroDescription": "अंतर्दृष्टि के चार आयाम - अतीत, योजना, समकक्ष, अनुमानित - उस कदम से पूरे होते हैं जिसे अधिकांश उपकरण छोड़ देते हैं: सुधार को एक जवाबदेह व्यक्ति को सौंपना और वसूली गई मार्जिन को एक आधार रेखा के मुकाबले मापना।",
       "problemTitle": "पारंपरिक बीआई के साथ समस्या",
       "problemDescription": "अधिकांश उपकरण आपको दिखाते हैं कि क्या हुआ। नहीं क्यों। यह नहीं कि आप कैसे तुलना करते हैं. आगे क्या करना है ये नहीं.",
       "problemItems": [
@@ -1365,11 +1365,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "अपने डेटा के साथ 4डी इंटेलिजेंस देखें। अतीत, योजना, सहकर्मी, और भविष्यवाणियाँ - सभी एक दृश्य में।",
       "ctaPrimary": "एक डेमो बुक करें",
       "ctaSecondary": "वास्तुकला का अन्वेषण करें",
-      "heroTitle": "रिपोर्ट से असली इंटेलिजेंस तक"
+      "heroTitle": "रिपोर्ट से वसूले गए मुनाफे तक"
     },
     "zh-Hans": {
       "heroBadge": "决策智能",
-      "heroDescription": "洞察力的四个维度。您企业的一张完整图片。",
+      "heroDescription": "四个维度的洞察--过去、计划、同行、预测--由多数工具略过的那一步收尾：把修正交给负责人，并对照基线衡量挽回的利润率。",
       "problemTitle": "传统 BI 的问题",
       "problemDescription": "大多数工具都会向您展示发生了什么。不是为什么。不是你怎么比较。不是接下来要做什么。",
       "problemItems": [
@@ -1536,11 +1536,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "查看 4D Intelligence 与您的数据。过去、计划、同行和预测 - 尽在一个视图中。",
       "ctaPrimary": "预订演示",
       "ctaSecondary": "探索架构",
-      "heroTitle": "从报表到真正的智能"
+      "heroTitle": "从报表到挽回的利润。"
     },
     "pl": {
       "heroBadge": "Inteligencja decyzyjna",
-      "heroDescription": "Cztery wymiary wglądu. Jeden pełny obraz Twojej firmy.",
+      "heroDescription": "Cztery wymiary wglądu - przeszłość, plan, konkurenci, prognoza - domknięte krokiem, który większość narzędzi pomija: skierowanie poprawki do odpowiedzialnej osoby i zmierzenie odzyskanej marży względem linii bazowej.",
       "problemTitle": "Problem z tradycyjnym BI",
       "problemDescription": "Większość narzędzi pokazuje, co się stało. Nie dlaczego. Nie to, co porównujesz. Nie, co dalej robić.",
       "problemItems": [
@@ -1707,11 +1707,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy - wszystko w jednym widoku.",
       "ctaPrimary": "Zarezerwuj wersję demonstracyjną",
       "ctaSecondary": "Poznaj architekturę",
-      "heroTitle": "Od raportów do prawdziwej inteligencji"
+      "heroTitle": "Od raportów do odzyskanego zysku."
     },
     "it": {
       "heroBadge": "Intelligenza decisionale",
-      "heroDescription": "Quattro dimensioni dell'intuizione. Un quadro completo della tua attività.",
+      "heroDescription": "Quattro dimensioni di analisi - passato, piano, concorrenti, previsione - chiuse dal passaggio che la maggior parte degli strumenti salta: affidare la correzione a un responsabile e misurare il margine recuperato rispetto a una linea di base.",
       "problemTitle": "Il problema con la BI tradizionale",
       "problemDescription": "La maggior parte degli strumenti ti mostra cosa è successo. Non perché. Non è il tuo paragone. Non cosa fare dopo.",
       "problemItems": [
@@ -1878,11 +1878,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Vedi 4D Intelligence con i tuoi dati. Passato, pianificazione, peer e previsioni: tutto in un'unica visualizzazione.",
       "ctaPrimary": "Prenota una dimostrazione",
       "ctaSecondary": "Esplora l'architettura",
-      "heroTitle": "Dai report alla vera intelligence"
+      "heroTitle": "Dai report al profitto recuperato."
     },
     "tr": {
       "heroBadge": "Karar Zekası",
-      "heroDescription": "İçgörünün dört boyutu. İşletmenizin eksiksiz bir resmi.",
+      "heroDescription": "İçgörünün dört boyutu - geçmiş, plan, emsaller, tahmin - çoğu aracın atladığı adımla tamamlanır: düzeltmeyi bir sorumluya yönlendirmek ve geri kazanılan marjı bir temel çizgiye göre ölçmek.",
       "problemTitle": "Geleneksel BI ile İlgili Sorun",
       "problemDescription": "Çoğu araç size ne olduğunu gösterir. Nedeni değil. Nasıl karşılaştırdığınız değil. Bundan sonra ne yapılacağı değil.",
       "problemItems": [
@@ -2049,11 +2049,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Verilerinizle birlikte 4D Intelligence'ı görün. Geçmiş, plan, akranlar ve tahminler; hepsi tek bir görünümde.",
       "ctaPrimary": "Demo Rezervasyonu Yapın",
       "ctaSecondary": "Mimariyi Keşfedin",
-      "heroTitle": "Raporlardan gerçek zekaya"
+      "heroTitle": "Raporlardan geri kazanılan kâra."
     },
     "ko": {
       "heroBadge": "의사결정 인텔리전스",
-      "heroDescription": "통찰력의 4가지 차원. 귀하의 비즈니스에 대한 하나의 완전한 그림입니다.",
+      "heroDescription": "통찰의 네 가지 차원 - 과거, 계획, 동종업계, 예측 - 은 대부분의 도구가 건너뛰는 단계로 완성됩니다: 개선을 책임자에게 배정하고 회수한 마진을 기준선과 비교해 측정하는 것.",
       "problemTitle": "기존 BI의 문제점",
       "problemDescription": "대부분의 도구는 무슨 일이 일어났는지 보여줍니다. 이유는 아닙니다. 당신이 비교하는 방식이 아닙니다. 다음에 무엇을 해야할지가 아닙니다.",
       "problemItems": [
@@ -2220,11 +2220,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "데이터로 4D Intelligence를 확인하세요. 과거, 계획, 동료 및 예측이 모두 하나의 보기에 표시됩니다.",
       "ctaPrimary": "데모 예약",
       "ctaSecondary": "아키텍처 살펴보기",
-      "heroTitle": "보고서에서 진정한 인텔리전스로"
+      "heroTitle": "보고서에서 회수한 이익으로."
     },
     "ja": {
       "heroBadge": "意思決定インテリジェンス",
-      "heroDescription": "洞察力の 4 つの次元。あなたのビジネスの全体像を 1 つ。",
+      "heroDescription": "洞察の 4 つの次元--過去、計画、同業、予測--を締めくくるのは、ほとんどのツールが省くこの一手です。対策を責任者に割り当て、回収したマージンをベースラインと比較して測定します。",
       "problemTitle": "従来の BI の問題点",
       "problemDescription": "ほとんどのツールは何が起こったかを示します。理由ではありません。どう比較するかではありません。次に何をするかではありません。",
       "problemItems": [
@@ -2391,11 +2391,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "データを使用した 4D Intelligence を参照してください。過去、計画、同僚、予測がすべて 1 つのビューに表示されます。",
       "ctaPrimary": "デモを予約する",
       "ctaSecondary": "アーキテクチャを探索する",
-      "heroTitle": "レポートから本物のインテリジェンスへ"
+      "heroTitle": "レポートから取り戻した利益へ。"
     },
     "id": {
       "heroBadge": "Kecerdasan Keputusan",
-      "heroDescription": "Empat dimensi wawasan. Satu gambaran lengkap tentang bisnis Anda.",
+      "heroDescription": "Empat dimensi wawasan - masa lalu, rencana, pesaing sejenis, prediksi - ditutup oleh langkah yang dilewati sebagian besar alat: mengarahkan perbaikan ke seorang penanggung jawab dan mengukur margin yang dipulihkan terhadap garis dasar.",
       "problemTitle": "Masalah dengan BI Tradisional",
       "problemDescription": "Sebagian besar alat menunjukkan apa yang terjadi. Bukan alasannya. Bukan bagaimana Anda membandingkannya. Bukan apa yang harus dilakukan selanjutnya.",
       "problemItems": [
@@ -2562,11 +2562,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Lihat Kecerdasan 4D dengan data Anda. Masa lalu, rencana, rekan, dan prediksi - semuanya dalam satu tampilan.",
       "ctaPrimary": "Pesan Demo",
       "ctaSecondary": "Jelajahi Arsitektur",
-      "heroTitle": "Dari laporan ke inteligensi nyata"
+      "heroTitle": "Dari laporan ke laba yang dipulihkan."
     },
     "vi": {
       "heroBadge": "Quyết định thông minh",
-      "heroDescription": "Bốn chiều của cái nhìn sâu sắc. Một bức tranh hoàn chỉnh về doanh nghiệp của bạn.",
+      "heroDescription": "Bốn chiều của sự thấu hiểu - quá khứ, kế hoạch, đối thủ, dự báo - được khép lại bằng bước mà hầu hết công cụ bỏ qua: giao biện pháp khắc phục cho một người chịu trách nhiệm và đo lường biên lợi nhuận thu hồi so với đường cơ sở.",
       "problemTitle": "Vấn đề với BI truyền thống",
       "problemDescription": "Hầu hết các công cụ đều cho bạn thấy điều gì đã xảy ra. Không phải tại sao. Không phải cách bạn so sánh. Không phải làm gì tiếp theo.",
       "problemItems": [
@@ -2733,11 +2733,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Xem Thông minh 4D với dữ liệu của bạn. Quá khứ, kế hoạch, đồng nghiệp và dự đoán - tất cả ở một chế độ xem.",
       "ctaPrimary": "Đặt bản demo",
       "ctaSecondary": "Khám phá kiến trúc",
-      "heroTitle": "Từ báo cáo đến trí tuệ thực sự"
+      "heroTitle": "Từ báo cáo đến lợi nhuận thu hồi."
     },
     "ro": {
       "heroBadge": "Inteligența de decizie",
-      "heroDescription": "Patru dimensiuni ale intuiției. O imagine completă a afacerii dvs.",
+      "heroDescription": "Patru dimensiuni ale analizei - trecut, plan, concurenți, prognoză - închise de pasul pe care majoritatea instrumentelor îl omit: direcționarea corecției către un responsabil și măsurarea marjei recuperate față de o linie de referință.",
       "problemTitle": "Problema cu BI tradițional",
       "problemDescription": "Majoritatea instrumentelor vă arată ce s-a întâmplat. Nu de ce. Nu cum compari. Nu ce să faci în continuare.",
       "problemItems": [
@@ -2904,11 +2904,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Vedeți 4D Intelligence cu datele dvs. Trecut, plan, colegi și previziuni - toate într-o singură vizualizare.",
       "ctaPrimary": "Rezervați o demonstrație",
       "ctaSecondary": "Explorați Arhitectura",
-      "heroTitle": "De la rapoarte la inteligență reală"
+      "heroTitle": "De la rapoarte la profit recuperat."
     },
     "sv": {
       "heroBadge": "Decision Intelligence",
-      "heroDescription": "Fyra dimensioner av insikt. En komplett bild av ditt företag.",
+      "heroDescription": "Fyra dimensioner av insikt - historik, plan, jämförbara, prognos - sluts av steget som de flesta verktyg hoppar över: att tilldela åtgärden till en ansvarig person och mäta den återvunna marginalen mot en baslinje.",
       "problemTitle": "Problemet med traditionell BI",
       "problemDescription": "De flesta verktyg visar dig vad som hände. Inte varför. Inte hur du jämför. Inte vad du ska göra härnäst.",
       "problemItems": [
@@ -3075,11 +3075,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "Se 4D Intelligence med dina data. Tidigare, planera, peers och förutsägelser - allt i en vy.",
       "ctaPrimary": "Boka en demo",
       "ctaSecondary": "Utforska arkitekturen",
-      "heroTitle": "Från rapporter till verklig intelligens"
+      "heroTitle": "Från rapporter till återvunnen vinst."
     },
     "bn": {
       "heroBadge": "সিদ্ধান্ত বুদ্ধিমত্তা",
-      "heroDescription": "অন্তর্দৃষ্টি চার মাত্রা. আপনার ব্যবসার একটি সম্পূর্ণ ছবি।",
+      "heroDescription": "অন্তর্দৃষ্টির চার মাত্রা - অতীত, পরিকল্পনা, সমকক্ষ, পূর্বাভাস - সেই পদক্ষেপে সম্পূর্ণ হয় যা বেশিরভাগ সরঞ্জাম এড়িয়ে যায়: সংশোধন একজন দায়বদ্ধ ব্যক্তির কাছে পাঠানো এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা।",
       "problemTitle": "ঐতিহ্যগত BI এর সমস্যা",
       "problemDescription": "বেশিরভাগ সরঞ্জামই আপনাকে দেখায় কি ঘটেছে। না কেন। আপনি যেভাবে তুলনা করেন তা নয়। এরপর কি করা যায় না।",
       "problemItems": [
@@ -3246,11 +3246,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "আপনার ডেটা সহ 4D ইন্টেলিজেন্স দেখুন। অতীত, পরিকল্পনা, সমকক্ষ, এবং ভবিষ্যদ্বাণী - সব এক দৃষ্টিতে।",
       "ctaPrimary": "একটি ডেমো বুক করুন",
       "ctaSecondary": "স্থাপত্য অন্বেষণ",
-      "heroTitle": "রিপোর্ট থেকে প্রকৃত ইন্টেলিজেন্সে"
+      "heroTitle": "রিপোর্ট থেকে পুনরুদ্ধার করা মুনাফায়"
     },
     "th": {
       "heroBadge": "หน่วยสืบราชการลับในการตัดสินใจ",
-      "heroDescription": "สี่มิติแห่งความเข้าใจ ภาพธุรกิจของคุณที่สมบูรณ์เพียงภาพเดียว",
+      "heroDescription": "ความเข้าใจสี่มิติ - อดีต แผน คู่เทียบ และการคาดการณ์ - ปิดท้ายด้วยขั้นตอนที่เครื่องมือส่วนใหญ่มองข้าม: ส่งต่อการแก้ไขไปยังผู้รับผิดชอบ และวัดมาร์จิ้นที่กู้คืนได้เทียบกับเส้นฐาน",
       "problemTitle": "ปัญหากับ BI แบบดั้งเดิม",
       "problemDescription": "เครื่องมือส่วนใหญ่จะแสดงให้คุณเห็นว่าเกิดอะไรขึ้น ไม่ใช่เพราะเหตุใด ไม่ใช่วิธีที่คุณเปรียบเทียบ ไม่ใช่ว่าจะทำอย่างไรต่อไป",
       "problemItems": [
@@ -3417,11 +3417,11 @@ export const generatedLocalCopy = {
       "ctaDescription": "ดู 4D Intelligence พร้อมข้อมูลของคุณ อดีต แผน เพื่อนร่วมงาน และการทำนาย ทั้งหมดในมุมมองเดียว",
       "ctaPrimary": "จองการสาธิต",
       "ctaSecondary": "สำรวจสถาปัตยกรรม",
-      "heroTitle": "จากรายงานสู่อัจฉริยะที่แท้จริง"
+      "heroTitle": "จากรายงานสู่กำไรที่กู้คืนได้"
     },
     "ms": {
       "heroBadge": "Kepintaran Keputusan",
-      "heroDescription": "Empat dimensi wawasan. Satu gambaran lengkap perniagaan anda.",
+      "heroDescription": "Empat dimensi wawasan - masa lalu, rancangan, setara, ramalan - dilengkapkan oleh langkah yang kebanyakan alat abaikan: menyalurkan pembetulan kepada seorang penanggungjawab dan mengukur margin yang dipulihkan berbanding garis dasar.",
       "problemTitle": "Masalah dengan BI Tradisional",
       "problemDescription": "Kebanyakan alat menunjukkan kepada anda apa yang berlaku. Tidak mengapa. Bukan bagaimana anda membandingkan. Bukan apa yang perlu dilakukan seterusnya.",
       "problemItems": [
@@ -3588,7 +3588,7 @@ export const generatedLocalCopy = {
       "ctaDescription": "Lihat Kecerdasan 4D dengan data anda. Masa lalu, rancangan, rakan sebaya dan ramalan - semuanya dalam satu paparan.",
       "ctaPrimary": "Tempah Demo",
       "ctaSecondary": "Terokai Seni Bina",
-      "heroTitle": "Daripada laporan kepada kecerdasan sebenar"
+      "heroTitle": "Daripada laporan kepada keuntungan yang dipulihkan."
     }
   }
 } as const

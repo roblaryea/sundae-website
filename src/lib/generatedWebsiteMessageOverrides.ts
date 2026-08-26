@@ -222,10 +222,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Entscheidungsintelligenz-Plattform",
-      "titleTop": "Entscheidungsintelligenz",
-      "titleBottom": "für Restaurants mit mehreren Standorten",
-      "subheadline": "Wissen Sie, was sich geändert hat, warum, und was zu tun ist, bevor die Schicht endet.",
+      "badge": "Entscheidungsintelligenz für Gewinnrückgewinnung im geschlossenen Regelkreis",
+      "titleTop": "Holen Sie jeden Tag Gewinn zurück,",
+      "titleBottom": "in jedem Standort.",
+      "subheadline": "Finden Sie das Leck, übergeben Sie die Behebung an einen eindeutig Verantwortlichen und messen Sie die Rückgewinnung gegen eine Baseline - ein prüfbarer Regelkreis, in jeder Schicht.",
       "description": "Ihre Daten liegen verstreut in Kasse, Lieferung, Reservierungen, Personal, Lager und Finanzen.",
       "descriptionEmphasis": "Sundae führt sie in einer lebendigen Betriebsebene zusammen.",
       "narrativeAnchor": "Von Reporting-Lücken zu operativem Tempo.",
@@ -993,10 +993,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Beslissingsintelligentieplatform",
-      "titleTop": "Beslissingsintelligentie",
-      "titleBottom": "voor restaurants met meerdere vestigingen",
-      "subheadline": "Weet wat er veranderde, waarom, en wat je moet doen voordat de dienst voorbij is.",
+      "badge": "Beslissingsintelligentie voor winstherstel in een gesloten lus",
+      "titleTop": "Herstel elke dag winst,",
+      "titleBottom": "in elke vestiging.",
+      "subheadline": "Vind het lek, wijs de oplossing toe aan één verantwoordelijke eigenaar en meet het herstel af tegen een baseline - één controleerbare lus, elke dienst.",
       "description": "Je data zit verspreid over kassa, bezorging, reserveringen, personeel, voorraad en financiën.",
       "descriptionEmphasis": "Sundae brengt alles samen in een live operationele laag.",
       "narrativeAnchor": "Van rapportagevertraging naar operationeel tempo.",
@@ -1764,10 +1764,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Plataforma de Inteligência de Decisão",
-      "titleTop": "Inteligência de Decisão",
-      "titleBottom": "para restaurantes multiunidade",
-      "subheadline": "Saiba o que mudou, por que mudou e o que fazer antes do turno terminar.",
+      "badge": "Inteligência de Decisão para recuperação de lucro em ciclo fechado",
+      "titleTop": "Recupere lucro todos os dias,",
+      "titleBottom": "em cada unidade.",
+      "subheadline": "Encontre a perda, atribua a correção a um único responsável e meça a recuperação em relação a uma linha de base - um ciclo auditável, a cada turno.",
       "description": "Seus dados ficam espalhados pelo PDV, entregas, reservas, equipe, estoque e finanças.",
       "descriptionEmphasis": "A Sundae reúne tudo numa única camada operacional ao vivo.",
       "narrativeAnchor": "Da lentidão na geração de relatórios à agilidade nas operações.",
@@ -2535,10 +2535,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
-      "titleTop": "निर्णय बुद्धिमत्ता",
-      "titleBottom": "मल्टी-लोकेशन रेस्टोरेंट के लिए",
-      "subheadline": "Janein kya badla, kyun badla, aur shift khatam hone se pehle kya karna hai.",
+      "badge": "क्लोज़्ड-लूप मुनाफ़ा रिकवरी के लिए निर्णय बुद्धिमत्ता",
+      "titleTop": "हर दिन मुनाफ़ा वापस पाएँ,",
+      "titleBottom": "हर आउटलेट पर।",
+      "subheadline": "रिसाव कहाँ है यह पहचानें, समाधान की ज़िम्मेदारी किसी एक जवाबदेह व्यक्ति को दें, और रिकवरी को एक बेसलाइन के मुक़ाबले मापें - हर शिफ़्ट में एक ऑडिट-योग्य लूप।",
       "description": "Aapka data POS, delivery, booking, staff, inventory aur finance mein bikhra hai.",
       "descriptionEmphasis": "Sundae use ek live operating layer mein le aata hai.",
       "narrativeAnchor": "रिपोर्टिंग में देरी से संचालन की गति तक।",
@@ -3306,10 +3306,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "فیصلہ سازی کی ذہانت کا پلیٹ فارم",
-      "titleTop": "فیصلہ سازی کی ذہانت",
-      "titleBottom": "متعدد مقامات والے ریستورانوں کے لیے",
-      "subheadline": "Janiye kya badla, kyun badla, aur shift khatam hone se pehle kya karna hai.",
+      "badge": "کلوزڈ-لوپ منافع کی بحالی کے لیے فیصلہ سازی کی ذہانت",
+      "titleTop": "ہر دن منافع دوبارہ حاصل کریں،",
+      "titleBottom": "ہر آؤٹ لیٹ پر۔",
+      "subheadline": "معلوم کریں کہ رساؤ کہاں ہے، اصلاح کی ذمہ داری کسی ایک جوابدہ فرد کو سونپیں، اور بحالی کو ایک بنیادی معیار کے مقابلے میں ماپیں - ہر شفٹ میں ایک قابلِ آڈٹ لوپ۔",
       "description": "Aap ka data POS, delivery, booking, staff, inventory aur finance mein bikhra hua hai.",
       "descriptionEmphasis": "Sundae ise ek live operating layer mein le aata hai.",
       "narrativeAnchor": "رپورٹنگ کی تاخیر سے آپریشن کی رفتار تک۔",
@@ -4077,10 +4077,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Piattaforma di Intelligenza Decisionale",
-      "titleTop": "Intelligenza Decisionale",
-      "titleBottom": "per ristoranti multi-sede",
-      "subheadline": "Scopri cosa e cambiato, perche, e cosa fare prima che il turno finisca.",
+      "badge": "Intelligenza Decisionale per il recupero di margine a ciclo chiuso",
+      "titleTop": "Recupera margine ogni giorno,",
+      "titleBottom": "in ogni punto vendita.",
+      "subheadline": "Individua la perdita, assegna la correzione a un unico responsabile e misura il recupero rispetto a una baseline - un unico ciclo verificabile, a ogni turno.",
       "description": "I tuoi dati sono sparsi tra cassa, consegne, prenotazioni, personale, magazzino e finanza.",
       "descriptionEmphasis": "Sundae li riunisce in un unico livello operativo in tempo reale.",
       "narrativeAnchor": "Dalla lentezza dei report alla velocità operativa.",
@@ -4848,10 +4848,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platforma Inteligencji Decyzyjnej",
-      "titleTop": "Inteligencja Decyzyjna",
-      "titleBottom": "dla restauracji wielolokalizacyjnych",
-      "subheadline": "Wiedz, co sie zmienilo, dlaczego i co zrobic, zanim skonczy sie zmiana.",
+      "badge": "Inteligencja Decyzyjna dla odzyskiwania zysku w zamkniętej pętli",
+      "titleTop": "Odzyskuj zysk każdego dnia,",
+      "titleBottom": "w każdym lokalu.",
+      "subheadline": "Znajdź przeciek, przypisz naprawę jednemu odpowiedzialnemu właścicielowi i zmierz odzysk względem punktu odniesienia - jedna audytowalna pętla, na każdej zmianie.",
       "description": "Twoje dane sa rozproszone w kasie, dostawach, rezerwacjach, kadrach, magazynie i finansach.",
       "descriptionEmphasis": "Sundae laczy je w jedna zywa warstwe operacyjna.",
       "narrativeAnchor": "Od opóźnień w raportowaniu do szybkości operacji.",
@@ -5619,10 +5619,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Karar Zekası Platformu",
-      "titleTop": "Karar Zekası",
-      "titleBottom": "çok şubeli restoranlar için",
-      "subheadline": "Vardiya bitmeden neyin degistigini, nedenini ve ne yapacaginizi bilin.",
+      "badge": "Kapalı döngü kâr kurtarma için Karar Zekası",
+      "titleTop": "Her gün kârı geri kazanın,",
+      "titleBottom": "her şubede.",
+      "subheadline": "Sızıntıyı bulun, düzeltmeyi tek bir sorumlu kişiye atayın ve kurtarmayı bir temel çizgiye göre ölçün - her vardiyada tek ve denetlenebilir bir döngü.",
       "description": "Verileriniz POS, teslimat, rezervasyon, personel, stok ve finansa dagilmis durumda.",
       "descriptionEmphasis": "Sundae hepsini tek bir canli operasyon katmaninda toplar.",
       "narrativeAnchor": "Raporlama gecikmesinden operasyon hızına.",
@@ -6390,10 +6390,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "决策智能平台",
-      "titleTop": "决策智能",
-      "titleBottom": "为多门店餐厅打造",
-      "subheadline": "在班次结束前，知道什么变了、为何而变，以及该怎么做。",
+      "badge": "面向闭环利润回收的决策智能",
+      "titleTop": "每天挽回利润，",
+      "titleBottom": "覆盖每一家门店。",
+      "subheadline": "找到漏损，把整改指派给唯一的责任人，并对照基线衡量回收成效--每个班次，一条可审计的闭环。",
       "description": "你的数据分散在 POS、外卖、订位、人力、库存和财务之间。",
       "descriptionEmphasis": "Sundae 将它们汇入一个实时运营层。",
       "narrativeAnchor": "从报告滞后到运营提速。",
@@ -7161,10 +7161,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "意思決定インテリジェンスプラットフォーム",
-      "titleTop": "意思決定インテリジェンス",
-      "titleBottom": "多店舗レストランのための",
-      "subheadline": "シフトが終わる前に、何が変わり、なぜ変わり、何をすべきかを把握。",
+      "badge": "クローズドループの利益回収のための意思決定インテリジェンス",
+      "titleTop": "毎日、利益を取り戻す、",
+      "titleBottom": "すべての店舗で。",
+      "subheadline": "漏れを見つけ、対策を一人の責任者に割り当て、回収をベースラインと照らして測定する--監査可能な一つのループを、すべてのシフトで。",
       "description": "あなたのデータは POS、デリバリー、予約、人員、在庫、会計に散らばっています。",
       "descriptionEmphasis": "Sundae がそれらを一つのライブ運用レイヤーにまとめます。",
       "narrativeAnchor": "報告の遅延から運営のスピードへ。",
@@ -7932,10 +7932,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "결정 지능 플랫폼",
-      "titleTop": "결정 지능",
-      "titleBottom": "다점포 레스토랑을 위한",
-      "subheadline": "근무가 끝나기 전에 무엇이 바뀌었고, 왜 바뀌었으며, 무엇을 해야 하는지 파악하세요.",
+      "badge": "폐쇄 루프 이익 회수를 위한 결정 지능",
+      "titleTop": "매일 이익을 회수하세요,",
+      "titleBottom": "모든 매장에서.",
+      "subheadline": "누수를 찾아내고, 해결을 한 명의 책임자에게 배정하고, 회수 성과를 기준선과 대조해 측정하세요 - 모든 교대 근무마다 감사 가능한 하나의 루프.",
       "description": "데이터가 POS, 배달, 예약, 인력, 재고, 재무에 흩어져 있습니다.",
       "descriptionEmphasis": "Sundae가 이를 하나의 실시간 운영 레이어로 모읍니다.",
       "narrativeAnchor": "보고 지연에서 운영 속도로.",
@@ -8703,10 +8703,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platform Intelijen Keputusan",
-      "titleTop": "Intelijen Keputusan",
-      "titleBottom": "untuk restoran multi-lokasi",
-      "subheadline": "Ketahui apa yang berubah, kenapa, dan apa yang harus dilakukan sebelum shift berakhir.",
+      "badge": "Intelijen Keputusan untuk pemulihan laba lingkar tertutup",
+      "titleTop": "Pulihkan laba setiap hari,",
+      "titleBottom": "di setiap outlet.",
+      "subheadline": "Temukan kebocoran, tugaskan perbaikan kepada satu penanggung jawab, dan ukur pemulihan terhadap garis dasar - satu lingkar yang dapat diaudit, setiap shift.",
       "description": "Data Anda tersebar di POS, pengiriman, reservasi, tenaga kerja, stok, dan keuangan.",
       "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasional langsung.",
       "narrativeAnchor": "Dari keterlambatan pelaporan ke kecepatan operasional.",
@@ -9474,10 +9474,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Nền tảng Trí tuệ Quyết định",
-      "titleTop": "Trí tuệ Quyết định",
-      "titleBottom": "cho nhà hàng nhiều chi nhánh",
-      "subheadline": "Biet ngay dieu gi thay doi, vi sao, va phai lam gi truoc khi het ca.",
+      "badge": "Trí tuệ Quyết định cho thu hồi lợi nhuận theo vòng khép kín",
+      "titleTop": "Thu hồi lợi nhuận mỗi ngày,",
+      "titleBottom": "trên mọi chi nhánh.",
+      "subheadline": "Tìm ra chỗ thất thoát, giao việc khắc phục cho một người chịu trách nhiệm duy nhất, và đo mức thu hồi so với đường cơ sở - một vòng lặp có thể kiểm toán, ở mỗi ca làm việc.",
       "description": "Du lieu cua ban nam rai rac qua POS, giao hang, dat ban, nhan su, kho va tai chinh.",
       "descriptionEmphasis": "Sundae gop tat ca vao mot lop van hanh truc tiep duy nhat.",
       "narrativeAnchor": "Từ độ trễ báo cáo đến tốc độ vận hành.",
@@ -10245,10 +10245,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platforma de Inteligență Decizională",
-      "titleTop": "Inteligența Decizională",
-      "titleBottom": "pentru restaurante multi-locație",
-      "subheadline": "Afla ce s-a schimbat, de ce si ce ai de facut inainte sa se termine tura.",
+      "badge": "Inteligența Decizională pentru recuperarea profitului în buclă închisă",
+      "titleTop": "Recuperează profit în fiecare zi,",
+      "titleBottom": "în fiecare locație.",
+      "subheadline": "Găsește scurgerea, atribuie remedierea unui singur responsabil și măsoară recuperarea față de o valoare de referință - o singură buclă auditabilă, în fiecare tură.",
       "description": "Datele tale sunt imprastiate prin POS, livrari, rezervari, personal, stocuri si finante.",
       "descriptionEmphasis": "Sundae le aduce intr-un singur strat operational live.",
       "narrativeAnchor": "De la întârzierea raportării la viteza operațiunilor.",
@@ -11016,10 +11016,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Beslutsintelligensplattform",
-      "titleTop": "Beslutsintelligens",
-      "titleBottom": "för restauranger med flera enheter",
-      "subheadline": "Vet vad som andrades, varfor, och vad du ska gora innan passet ar slut.",
+      "badge": "Beslutsintelligens för lönsamhetsåtervinning i sluten loop",
+      "titleTop": "Återvinn vinst varje dag,",
+      "titleBottom": "på varje enhet.",
+      "subheadline": "Hitta läckan, tilldela åtgärden till en enda ansvarig ägare och mät återvinningen mot en baslinje - en granskningsbar loop, varje pass.",
       "description": "Dina data ligger spridda over kassa, leverans, bokningar, personal, lager och ekonomi.",
       "descriptionEmphasis": "Sundae samlar allt i ett levande driftlager.",
       "narrativeAnchor": "Från rapporteringsfördröjning till operativ hastighet.",
@@ -11787,10 +11787,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
-      "titleTop": "সিদ্ধান্ত বুদ্ধিমত্তা",
-      "titleBottom": "মাল্টি-লোকেশন রেস্তোরাঁর জন্য",
-      "subheadline": "Janun ki bodlechhe, keno bodlechhe, ar shift sesh howar age ki korte hobe.",
+      "badge": "ক্লোজড-লুপ মুনাফা পুনরুদ্ধারের জন্য সিদ্ধান্ত বুদ্ধিমত্তা",
+      "titleTop": "প্রতিদিন মুনাফা পুনরুদ্ধার করুন,",
+      "titleBottom": "প্রতিটি আউটলেটে।",
+      "subheadline": "কোথায় ক্ষরণ হচ্ছে তা খুঁজে বের করুন, সমাধানের দায়িত্ব একজন জবাবদিহিমূলক ব্যক্তিকে দিন, এবং একটি বেসলাইনের বিপরীতে পুনরুদ্ধার পরিমাপ করুন - প্রতিটি শিফটে একটি নিরীক্ষাযোগ্য লুপ।",
       "description": "Apnar data POS, delivery, booking, kormi, inventory ar finance e chhoriye achhe.",
       "descriptionEmphasis": "Sundae sob ekti live operating layer e niye ase.",
       "narrativeAnchor": "রিপোর্টিং বিলম্ব থেকে অপারেশন গতি।",
@@ -12558,10 +12558,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "แพลตฟอร์มการตัดสินใจอัจฉริยะ",
-      "titleTop": "ปัญญาการตัดสินใจ",
-      "titleBottom": "สำหรับร้านอาหารหลายสาขา",
-      "subheadline": "ru wa arai plian pai tammai lae tong tham arai kon mod ka.",
+      "badge": "ปัญญาการตัดสินใจเพื่อการกู้คืนกำไรแบบวงจรปิด",
+      "titleTop": "กู้คืนกำไรทุกวัน",
+      "titleBottom": "ในทุกสาขา",
+      "subheadline": "ค้นหาจุดรั่วไหล มอบหมายการแก้ไขให้ผู้รับผิดชอบเพียงคนเดียว และวัดผลการกู้คืนเทียบกับเส้นฐาน - หนึ่งวงจรที่ตรวจสอบได้ ในทุกกะการทำงาน",
       "description": "khomun khong khun krachai yu thua POS dilivoeri kanchong tee thiti ngan singkhong khong khlang lae kanngoen.",
       "descriptionEmphasis": "Sundae ruam thanghmod wai nai chan kan tham ngan baep sod chan diao.",
       "narrativeAnchor": "จากความล่าช้าในการรายงานสู่ความเร็วในการดำเนินงาน.",
@@ -13329,10 +13329,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platform Kecerdasan Keputusan",
-      "titleTop": "Kecerdasan Keputusan",
-      "titleBottom": "untuk restoran berbilang lokasi",
-      "subheadline": "Ketahui apa yang berubah, mengapa, dan apa yang perlu dibuat sebelum syif tamat.",
+      "badge": "Kecerdasan Keputusan untuk pemulihan untung gelung tertutup",
+      "titleTop": "Pulihkan untung setiap hari,",
+      "titleBottom": "di setiap outlet.",
+      "subheadline": "Cari kebocoran, tugaskan pembetulan kepada satu pemilik yang bertanggungjawab, dan ukur pemulihan berbanding garis dasar - satu gelung boleh diaudit, setiap syif.",
       "description": "Data anda bertaburan merentasi POS, penghantaran, tempahan, pekerja, stok dan kewangan.",
       "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasi langsung.",
       "narrativeAnchor": "Dari kelewatan laporan kepada kelajuan operasi.",

@@ -61,8 +61,8 @@ type Copy = {
 const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
   en: {
     heroBadge: "The Sundae Platform",
-    heroTitle: "500 Data Models. 12 Domains. One Truth.",
-    heroDescription: "Six intelligence layers that turn fragmented restaurant data into decisions that compound - shift by shift, outlet by outlet.",
+    heroTitle: "500 Data Models. One Auditable Loop.",
+    heroDescription: "Six intelligence layers find where margin leaks, route each fix to an accountable owner, and measure the recovery back against a baseline - one closed loop, from profit signal to proven result.",
     heroPrimary: "See Plans",
     heroSecondary: "Book a Working Session",
     freeLabel: "DECISION SUBSTRATE",
@@ -86,8 +86,8 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
   },
   ar: {
     heroBadge: "منصة Sundae",
-    heroTitle: "500 نموذج بيانات. 12 مجالاً. حقيقة واحدة.",
-    heroDescription: "ست طبقات ذكاء تحول بيانات المطعم المتناثرة إلى قرارات تتراكم قيمتها - من الوردية إلى الموقع.",
+    heroTitle: "500 نموذج بيانات. حلقة واحدة قابلة للتدقيق.",
+    heroDescription: "ست طبقات ذكاء ترصد أين يتسرّب الهامش، وتوجّه كل حل إلى مسؤول محاسَب، وتقيس الاستعادة مقارنةً بخط أساس - حلقة مغلقة واحدة، من إشارة الربح إلى نتيجة مثبتة.",
     heroPrimary: "اطّلع على الباقات",
     heroSecondary: "احجز عرضاً",
     freeLabel: "ركيزة القرار",
@@ -111,8 +111,8 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
   },
   fr: {
     heroBadge: "La plateforme Sundae",
-    heroTitle: "500 modeles de donnees. 12 domaines. Une seule verite.",
-    heroDescription: "Six couches d'intelligence qui transforment des donnees restaurant fragmentees en decisions cumulatives - service par service, site par site.",
+    heroTitle: "500 modèles de données. Une seule boucle auditable.",
+    heroDescription: "Six couches d'intelligence repèrent où fuit la marge, confient chaque correction à un responsable et mesurent la récupération par rapport à une référence - une boucle fermée, du signal de profit au résultat prouvé.",
     heroPrimary: "Voir les offres",
     heroSecondary: "Reserver une demo",
     freeLabel: "BASE DE DECISION",
@@ -136,8 +136,8 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
   },
   es: {
     heroBadge: "La plataforma Sundae",
-    heroTitle: "500 modelos de datos. 12 dominios. Una sola verdad.",
-    heroDescription: "Seis capas de inteligencia que convierten datos fragmentados de restaurantes en decisiones acumulativas - turno a turno, local a local.",
+    heroTitle: "500 modelos de datos. Un solo ciclo auditable.",
+    heroDescription: "Seis capas de inteligencia detectan por dónde se escapa el margen, asignan cada solución a un responsable y miden la recuperación frente a una línea base - un ciclo cerrado, de la señal de beneficio al resultado demostrado.",
     heroPrimary: "Ver paquetes",
     heroSecondary: "Reservar una demo",
     freeLabel: "SUSTRATO DE DECISION",

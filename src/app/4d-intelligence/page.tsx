@@ -13,8 +13,8 @@ import { generatedLocalCopy } from '@/generated-locales/app_4d_intelligence_page
 const localized4DCopy = {
   en: {
     heroBadge: 'Decision Intelligence',
-    heroTitle: 'From Reports to Real Intelligence',
-    heroDescription: 'Four dimensions of insight. One complete picture of your business.',
+    heroTitle: 'From Reports to Recovered Profit.',
+    heroDescription: 'Four dimensions of insight - past, plan, peers, predicted - closed by the move most tools skip: routing the fix to an owner and measuring the recovered margin back against a baseline.',
     problemTitle: 'The Problem with Traditional BI',
     problemDescription: 'Most tools show you what happened. Not why. Not how you compare. Not what to do next.',
     problemItems: [
@@ -99,8 +99,8 @@ const localized4DCopy = {
   },
   ar: {
     heroBadge: 'ذكاء القرار',
-    heroTitle: <>من التقارير إلى <span className="text-gradient">الذكاء الحقيقي</span></>,
-    heroDescription: 'أربعة أبعاد من الرؤية. صورة واحدة كاملة لعملك.',
+    heroTitle: <>من التقارير إلى <span className="text-gradient">الربح المستعاد</span></>,
+    heroDescription: 'أربعة أبعاد للرؤية - الماضي، الخطة، الأقران، المتوقع - تُغلقها الخطوة التي تتجاهلها أغلب الأدوات: توجيه الحل إلى مسؤول وقياس الهامش المستعاد مقارنةً بخط أساس.',
     problemTitle: 'مشكلة BI التقليدي',
     problemDescription: 'معظم الأدوات تُريك ما حدث. لا تُريك لماذا. ولا كيف تقارن. ولا ما الذي يجب فعله بعد ذلك.',
     problemItems: [
@@ -145,8 +145,8 @@ const localized4DCopy = {
   },
   fr: {
     heroBadge: 'Intelligence décisionnelle',
-    heroTitle: <>Des rapports à <span className="text-gradient">la vraie intelligence</span></>,
-    heroDescription: 'Quatre dimensions de compréhension. Une vue complète de votre activité.',
+    heroTitle: <>Des rapports au <span className="text-gradient">profit récupéré</span></>,
+    heroDescription: 'Quatre dimensions d’analyse - passé, plan, pairs, prévision - complétées par le geste que la plupart des outils négligent : confier la correction à un responsable et mesurer la marge récupérée par rapport à une référence.',
     problemTitle: 'Le problème du BI traditionnel',
     problemDescription: 'La plupart des outils montrent ce qui s’est passé. Pas pourquoi. Pas comment vous vous situez. Pas quoi faire ensuite.',
     problemItems: [
@@ -191,8 +191,8 @@ const localized4DCopy = {
   },
   es: {
     heroBadge: 'Inteligencia de decisiones',
-    heroTitle: <>De informes a <span className="text-gradient">inteligencia real</span></>,
-    heroDescription: 'Cuatro dimensiones de insight. Una imagen completa de tu negocio.',
+    heroTitle: <>De informes a <span className="text-gradient">beneficio recuperado</span></>,
+    heroDescription: 'Cuatro dimensiones de análisis - pasado, plan, pares, predicción - cerradas con el paso que la mayoría de las herramientas omite: asignar la corrección a un responsable y medir el margen recuperado frente a una línea base.',
     problemTitle: 'El problema del BI tradicional',
     problemDescription: 'La mayoría de las herramientas te muestran qué pasó. No por qué. No cómo comparas. No qué hacer después.',
     problemItems: [

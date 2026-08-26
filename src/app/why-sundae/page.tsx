@@ -46,9 +46,9 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   en: {
     hero: {
       badge: "Why Sundae",
-      title: "The Intelligence Layer Restaurants Never Had",
+      title: "Detection Is Table Stakes. Measured Recovery Isn't.",
       description:
-        "Your data lives in disconnected silos. Your team makes million-dollar decisions by gut feel. We built the platform that changes that.",
+        "Every rival can now spot a problem and recommend a fix. Sundae routes it to one accountable owner, tracks it through execution, and measures the recovered margin back against a baseline - the whole loop, proven per decision.",
     },
     problems: {
       eyebrow: "THE PROBLEM",
@@ -93,8 +93,8 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   ar: {
     hero: {
       badge: "لماذا Sundae",
-      title: "طبقة الذكاء التي لم تكن لدى المطاعم من قبل",
-      description: "بياناتك تعيش في جزر معزولة. فريقك يتخذ قرارات بملايين الدولارات اعتماداً على الحدس. بنينا المنصة التي تغيّر ذلك.",
+      title: "كشف المشكلة أصبح الحد الأدنى. أما الاستعادة المقاسة فلا.",
+      description: "بات كل منافس قادراً على رصد مشكلة واقتراح حل. أما Sundae فتوجّه المشكلة إلى مسؤول واحد محاسَب، وتتابعها حتى التنفيذ، وتقيس الهامش المستعاد مقارنةً بخط أساس - الحلقة كاملة، مثبتة قراراً بقرار.",
     },
     problems: {
       eyebrow: "المشكلة",
@@ -139,8 +139,8 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   fr: {
     hero: {
       badge: "Pourquoi Sundae",
-      title: "Une plateforme de decision claire pour les restaurants",
-      description: "Vos donnees restent eparpillees dans des silos de travail, alors que vos equipes doivent decider vite. Nous avons construit Sundae pour remettre cette vision au meme endroit.",
+      title: "Détecter est devenu la norme. Récupérer, mesures à l'appui, ne l'est pas.",
+      description: "Chaque concurrent sait désormais repérer un problème et recommander une correction. Sundae la confie à un responsable unique, la suit jusqu'à l'exécution et mesure la marge récupérée par rapport à une référence - la boucle entière, prouvée décision par décision.",
     },
     problems: {
       eyebrow: "LE PROBLÈME",
@@ -185,8 +185,8 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   es: {
     hero: {
       badge: "Por qué Sundae",
-      title: "Una plataforma de decision clara para restaurantes",
-      description: "Tus datos siguen repartidos en silos, mientras tu equipo necesita decidir rapido. Construimos Sundae para reunir esa vision en un solo lugar.",
+      title: "Detectar ya no distingue a nadie. Recuperar con cifras, sí.",
+      description: "Cualquier rival ya sabe detectar un problema y recomendar una solución. Sundae lo asigna a un responsable único, lo sigue hasta la ejecución y mide el margen recuperado frente a una línea base - el ciclo completo, demostrado en cada decisión.",
     },
     problems: {
       eyebrow: "EL PROBLEMA",

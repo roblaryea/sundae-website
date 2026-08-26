@@ -5,8 +5,8 @@ export const generatedLocalCopy = {
     "fr": {
       "hero": {
         "badge": "Pourquoi Sundae",
-        "title": "La couche d'intelligence que les restaurants n'ont jamais eue",
-        "description": "Vos données vivent dans des silos déconnectés. Votre équipe prend des décisions de plusieurs millions de dollars sur un coup de tête. Nous avons construit la plateforme qui change cela."
+        "title": "La détection est un minimum. La récupération mesurée, non.",
+        "description": "Tous vos concurrents savent désormais repérer un problème et suggérer une solution. Sundae la confie à un responsable unique, la suit jusqu'à son exécution et mesure la marge récupérée par rapport à une base de référence - la boucle entière, prouvée pour chaque décision."
       },
       "problems": {
         "eyebrow": "LE PROBLÈME",
@@ -95,8 +95,8 @@ export const generatedLocalCopy = {
     "es": {
       "hero": {
         "badge": "Por qué Sundae",
-        "title": "La Capa de Inteligencia que los Restaurantes Nunca Tuvieron",
-        "description": "Tus datos viven en silos desconectados. Tu equipo toma decisiones millonarias basadas en la intuición. Creamos la plataforma que cambia eso."
+        "title": "Detectar es lo mínimo. Recuperar y medirlo, no.",
+        "description": "Ahora cualquier rival puede detectar un problema y recomendar una solución. Sundae la asigna a un único responsable, la supervisa hasta su ejecución y mide el margen recuperado frente a una línea base - el ciclo completo, demostrado en cada decisión."
       },
       "problems": {
         "eyebrow": "EL PROBLEMA",
@@ -185,8 +185,8 @@ export const generatedLocalCopy = {
     "nl": {
       "hero": {
         "badge": "Waarom Sundae",
-        "title": "De Intelligentie Laag die Restaurants Nooit Hebben Gehad",
-        "description": "Jouw data bevindt zich in losstaande silo's. Jouw team maakt miljoenenbeslissingen op gevoel. Wij hebben het platform gebouwd dat dat verandert."
+        "title": "Detectie is het minimum. Gemeten herstel niet.",
+        "description": "Elke concurrent kan nu een probleem opsporen en een oplossing aanbevelen. Sundae wijst die toe aan één verantwoordelijke, volgt de uitvoering en meet de teruggewonnen marge af tegen een basislijn - de volledige lus, per beslissing bewezen."
       },
       "problems": {
         "eyebrow": "HET PROBLEEM",
@@ -275,8 +275,8 @@ export const generatedLocalCopy = {
     "ar": {
       "hero": {
         "badge": "لماذا Sundae",
-        "title": "طبقة الذكاء التي لم تمتلكها المطاعم من قبل",
-        "description": "تعيش بياناتك في صوامع غير متصلة. يقوم فريقك باتخاذ قرارات بملايين الدولارات بناءً على الحدس. لقد أنشأنا المنصة التي تغير ذلك."
+        "title": "الكشف عن المشكلة أمر بديهي. أما استرداد الهامش وقياسه فلا.",
+        "description": "بات بإمكان أي منافس رصد مشكلة واقتراح حل. أما Sundae فتوكل المهمة إلى مسؤول واحد، وتتابعها حتى التنفيذ، وتقيس الهامش المسترد مقارنةً بخط أساس - الحلقة كاملة، مُثبتة لكل قرار."
       },
       "problems": {
         "eyebrow": "المشكلة",
@@ -365,8 +365,8 @@ export const generatedLocalCopy = {
     "de": {
       "hero": {
         "badge": "Warum Sundae",
-        "title": "Die Intelligenzschicht, die Restaurants nie hatten",
-        "description": "Ihre Daten leben in getrennten Silos. Ihr Team trifft Millionenentscheidungen aus dem Bauch heraus. Wir haben die Plattform entwickelt, die das ändert."
+        "title": "Erkennen kann jeder. Gemessene Rückgewinnung nicht.",
+        "description": "Jeder Wettbewerber kann heute ein Problem erkennen und eine Lösung empfehlen. Sundae übergibt sie einer verantwortlichen Person, verfolgt die Umsetzung und misst die zurückgewonnene Marge an einer Baseline - der gesamte Kreislauf, für jede Entscheidung belegt."
       },
       "problems": {
         "eyebrow": "DAS PROBLEM",
@@ -455,8 +455,8 @@ export const generatedLocalCopy = {
     "pt": {
       "hero": {
         "badge": "Por que Sundae",
-        "title": "A Camada de Inteligência que os Restaurantes Nunca Tiveram",
-        "description": "Seus dados estão em silos desconectados. Sua equipe toma decisões de milhões de dólares com base na intuição. Nós construímos a plataforma que muda isso."
+        "title": "Detectar é o mínimo. Recuperar e comprovar, não.",
+        "description": "Qualquer concorrente já consegue identificar um problema e recomendar uma solução. A Sundae a encaminha para um único responsável, acompanha até a execução e mede a margem recuperada em relação a uma linha de base - o ciclo completo, comprovado a cada decisão."
       },
       "problems": {
         "eyebrow": "O PROBLEMA",
@@ -545,8 +545,8 @@ export const generatedLocalCopy = {
     "ur": {
       "hero": {
         "badge": "کیوں Sundae",
-        "title": "وہ ذہانت کی تہہ جو ریستورانوں کے پاس کبھی نہیں تھی",
-        "description": "آپ کا ڈیٹا الگ الگ سائلوز میں موجود ہے۔ آپ کی ٹیم لاکھوں ڈالر کے فیصلے احساس کی بنیاد پر کرتی ہے۔ ہم نے وہ پلیٹ فارم بنایا ہے جو یہ سب بدل دیتا ہے۔"
+        "title": "مسئلہ پہچاننا تو معمولی بات ہے۔ ناپ کر مارجن واپس لانا نہیں۔",
+        "description": "اب ہر حریف کسی مسئلے کو پہچان کر حل تجویز کر سکتا ہے۔ Sundae اسے ایک ذمہ دار شخص کے سپرد کرتا ہے، عمل درآمد تک اس کی نگرانی کرتا ہے، اور بازیافت شدہ مارجن کو ایک بنیادی معیار کے مقابلے میں ناپتا ہے - پورا دائرہ، ہر فیصلے پر ثابت۔"
       },
       "problems": {
         "eyebrow": "مسئلہ",
@@ -635,8 +635,8 @@ export const generatedLocalCopy = {
     "hi": {
       "hero": {
         "badge": "Sundae क्यों",
-        "title": "इंटेलिजेंस लेयर जो रेस्तरां के पास कभी नहीं थी",
-        "description": "आपका डेटा अलग-अलग साइलो में रहता है। आपकी टीम आंतरिक भावना से लाखों डॉलर के निर्णय लेती है। हमने वह प्लेटफ़ॉर्म बनाया है जो इसे बदलता है।"
+        "title": "समस्या पहचानना तो आम बात है। मापी गई रिकवरी नहीं।",
+        "description": "अब हर प्रतिद्वंद्वी किसी समस्या को पहचान सकता है और समाधान सुझा सकता है। Sundae इसे एक जवाबदेह व्यक्ति को सौंपता है, उसे क्रियान्वयन तक ट्रैक करता है, और वसूली गई मार्जिन को एक आधार रेखा के मुकाबले मापता है - पूरा चक्र, हर निर्णय पर सिद्ध।"
       },
       "problems": {
         "eyebrow": "समस्या",
@@ -725,8 +725,8 @@ export const generatedLocalCopy = {
     "it": {
       "hero": {
         "badge": "Perché Sundae",
-        "title": "Il Livello di Intelligenza che i Ristoranti Non Hanno Mai Avuto",
-        "description": "I tuoi dati vivono in silos disconnessi. Il tuo team prende decisioni da milioni di dollari basandosi sull'istinto. Abbiamo costruito la piattaforma che cambia tutto."
+        "title": "Rilevare è il minimo. Recuperare e misurarlo, no.",
+        "description": "Ogni concorrente ormai sa individuare un problema e consigliare una soluzione. Sundae la affida a un unico responsabile, la segue fino all'esecuzione e misura il margine recuperato rispetto a una linea di base - l'intero ciclo, dimostrato per ogni decisione."
       },
       "problems": {
         "eyebrow": "IL PROBLEMA",
@@ -815,8 +815,8 @@ export const generatedLocalCopy = {
     "tr": {
       "hero": {
         "badge": "Neden Sundae",
-        "title": "Restoranların Hiç Sahip Olmadığı Zeka Katmanı",
-        "description": "Verileriniz bağlantısız silolarda yaşıyor. Ekibiniz milyon dolarlık kararları içgüdüyle alıyor. Bunu değiştiren platformu geliştirdik."
+        "title": "Tespit etmek asgari şart. Ölçülmüş geri kazanım değil.",
+        "description": "Artık her rakip bir sorunu tespit edip çözüm önerebiliyor. Sundae ise onu tek bir sorumluya yönlendirir, uygulanana kadar izler ve geri kazanılan marjı bir temel çizgiye göre ölçer - döngünün tamamı, her karar için kanıtlanmış."
       },
       "problems": {
         "eyebrow": "SORUN",
@@ -905,8 +905,8 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "hero": {
         "badge": "为什么选择Sundae",
-        "title": "餐厅从未拥有的智能层",
-        "description": "您的数据存在于孤立的孤岛中。您的团队凭直觉做出百万美元的决策。我们构建了改变这一切的平台。"
+        "title": "发现问题是基本功。量化的利润挽回不是。",
+        "description": "如今每个对手都能发现问题并给出建议。而Sundae会将其交给唯一负责人，全程跟踪执行，并对照基线衡量挽回的利润率--完整闭环，每个决策都有据可证。"
       },
       "problems": {
         "eyebrow": "问题",
@@ -995,8 +995,8 @@ export const generatedLocalCopy = {
     "pl": {
       "hero": {
         "badge": "Dlaczego Sundae",
-        "title": "Warstwa Inteligencji, której Restauracje Nigdy Nie Miały",
-        "description": "Twoje dane znajdują się w odizolowanych silosach. Twój zespół podejmuje decyzje warte miliony dolarów na podstawie intuicji. Stworzyliśmy platformę, która to zmienia."
+        "title": "Wykrycie to standard. Zmierzone odzyskanie już nie.",
+        "description": "Każdy konkurent potrafi już wykryć problem i zaproponować rozwiązanie. Sundae kieruje je do jednej odpowiedzialnej osoby, śledzi aż do realizacji i mierzy odzyskaną marżę względem linii bazowej - cała pętla, udowodniona przy każdej decyzji."
       },
       "problems": {
         "eyebrow": "PROBLEM",
@@ -1085,8 +1085,8 @@ export const generatedLocalCopy = {
     "ja": {
       "hero": {
         "badge": "なぜSundaeなのか",
-        "title": "レストランが持っていなかったインテリジェンスレイヤー",
-        "description": "あなたのデータは切り離されたサイロに存在しています。あなたのチームは直感で百万ドルの決定を下します。私たちはそれを変えるプラットフォームを構築しました。"
+        "title": "検知は当たり前。測定できる利益回収は違う。",
+        "description": "今やどの競合も問題を見つけて対策を提案できます。Sundaeはそれを一人の責任者に割り当て、実行まで追跡し、回収したマージンをベースラインと比較して測定します--ループ全体を、意思決定ごとに証明します。"
       },
       "problems": {
         "eyebrow": "問題",
@@ -1175,8 +1175,8 @@ export const generatedLocalCopy = {
     "vi": {
       "hero": {
         "badge": "Tại sao Sundae",
-        "title": "Lớp thông minh mà các nhà hàng chưa từng có",
-        "description": "Dữ liệu của bạn sống trong các silo không kết nối. Nhóm của bạn đưa ra quyết định triệu đô chỉ dựa vào cảm giác. Chúng tôi đã xây dựng nền tảng thay đổi điều đó."
+        "title": "Phát hiện là chuyện đương nhiên. Thu hồi có đo lường thì không.",
+        "description": "Giờ đây mọi đối thủ đều có thể phát hiện vấn đề và đề xuất giải pháp. Sundae giao nó cho một người chịu trách nhiệm duy nhất, theo dõi đến khi thực thi và đo lường biên lợi nhuận thu hồi so với đường cơ sở - trọn vòng lặp, được chứng minh cho từng quyết định."
       },
       "problems": {
         "eyebrow": "VẤN ĐỀ",
@@ -1265,8 +1265,8 @@ export const generatedLocalCopy = {
     "id": {
       "hero": {
         "badge": "Mengapa Sundae",
-        "title": "Lapisan Intelijen yang Belum Pernah Dimiliki Restoran",
-        "description": "Data Anda terletak di silo yang terputus. Tim Anda membuat keputusan senilai jutaan dolar berdasarkan insting. Kami membangun platform yang mengubah itu."
+        "title": "Mendeteksi itu standar. Pemulihan yang terukur tidak.",
+        "description": "Kini setiap pesaing bisa menemukan masalah dan merekomendasikan solusi. Sundae mengarahkannya ke satu penanggung jawab, melacaknya hingga eksekusi, dan mengukur margin yang dipulihkan terhadap garis dasar - seluruh siklus, terbukti di setiap keputusan."
       },
       "problems": {
         "eyebrow": "MASALAH",
@@ -1355,8 +1355,8 @@ export const generatedLocalCopy = {
     "ko": {
       "hero": {
         "badge": "왜 Sundae인가",
-        "title": "레스토랑이 결코 가지지 못했던 인텔리전스 레이어",
-        "description": "귀하의 데이터는 분리된 사일로에 존재합니다. 귀하의 팀은 직감으로 백만 달러의 결정을 내립니다. 우리는 이를 변화시키는 플랫폼을 구축했습니다."
+        "title": "탐지는 기본입니다. 측정된 이익 회수는 다릅니다.",
+        "description": "이제 모든 경쟁사가 문제를 발견하고 해결책을 제안할 수 있습니다. Sundae는 이를 한 명의 책임자에게 배정하고, 실행까지 추적하며, 회수한 마진을 기준선과 비교해 측정합니다 - 전체 루프를, 모든 의사결정마다 입증합니다."
       },
       "problems": {
         "eyebrow": "문제",
@@ -1445,8 +1445,8 @@ export const generatedLocalCopy = {
     "ro": {
       "hero": {
         "badge": "De ce Sundae",
-        "title": "Stratul de Inteligență pe care restaurantele nu l-au avut niciodată",
-        "description": "Datele tale trăiesc în silozuri deconectate. Echipa ta ia decizii de milioane de dolari bazate pe intuiție. Am construit platforma care schimbă asta."
+        "title": "Detectarea e minimul. Recuperarea măsurată, nu.",
+        "description": "Orice concurent poate acum să identifice o problemă și să recomande o soluție. Sundae o direcționează către un singur responsabil, o urmărește până la execuție și măsoară marja recuperată față de o linie de referință - întreaga buclă, dovedită la fiecare decizie."
       },
       "problems": {
         "eyebrow": "PROBLEMA",
@@ -1535,8 +1535,8 @@ export const generatedLocalCopy = {
     "sv": {
       "hero": {
         "badge": "Varför Sundae",
-        "title": "Intelligenslagret som restauranger aldrig haft",
-        "description": "Dina data finns i avskilda silos. Ditt team fattar beslut värda miljoner baserat på magkänsla. Vi har byggt plattformen som förändrar det."
+        "title": "Att upptäcka är en självklarhet. Mätt återvinning är det inte.",
+        "description": "Varje konkurrent kan nu upptäcka ett problem och rekommendera en lösning. Sundae tilldelar den till en ansvarig person, följer den genom genomförandet och mäter den återvunna marginalen mot en baslinje - hela slingan, bevisad för varje beslut."
       },
       "problems": {
         "eyebrow": "PROBLEMET",
@@ -1625,8 +1625,8 @@ export const generatedLocalCopy = {
     "bn": {
       "hero": {
         "badge": "কেন Sundae",
-        "title": "যে বুদ্ধিমত্তার স্তর রেস্তোরাঁর কখনো ছিল না",
-        "description": "আপনার ডেটা বিচ্ছিন্ন সাইলোতে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা মিলিয়ন ডলারের সিদ্ধান্ত নেয়। আমরা সেই প্ল্যাটফর্ম তৈরি করেছি যা এটি পরিবর্তন করে।"
+        "title": "সমস্যা শনাক্ত করা স্বাভাবিক ব্যাপার। পরিমাপ করা মার্জিন পুনরুদ্ধার নয়।",
+        "description": "এখন প্রতিটি প্রতিদ্বন্দ্বী একটি সমস্যা শনাক্ত করে সমাধান সুপারিশ করতে পারে। Sundae এটিকে একজন দায়বদ্ধ ব্যক্তির কাছে পাঠায়, বাস্তবায়ন পর্যন্ত ট্র্যাক করে, এবং একটি ভিত্তিরেখার বিপরীতে পুনরুদ্ধার করা মার্জিন পরিমাপ করে - সম্পূর্ণ চক্র, প্রতিটি সিদ্ধান্তে প্রমাণিত।"
       },
       "problems": {
         "eyebrow": "সমস্যা",
@@ -1715,8 +1715,8 @@ export const generatedLocalCopy = {
     "th": {
       "hero": {
         "badge": "ทำไมต้อง Sundae",
-        "title": "ชั้นข้อมูลอัจฉริยะที่ร้านอาหารไม่เคยมี",
-        "description": "ข้อมูลของคุณอยู่ในซิลอสที่ไม่เชื่อมต่อ ทีมของคุณตัดสินใจมูลค่าหลายล้านดอลลาร์จากความรู้สึก เราสร้างแพลตฟอร์มที่เปลี่ยนแปลงสิ่งนั้น."
+        "title": "การตรวจจับเป็นเรื่องพื้นฐาน แต่การกู้คืนที่วัดผลได้ไม่ใช่",
+        "description": "ตอนนี้คู่แข่งทุกรายสามารถตรวจพบปัญหาและแนะนำวิธีแก้ได้ แต่ Sundae ส่งต่อไปยังผู้รับผิดชอบเพียงคนเดียว ติดตามจนถึงการดำเนินการ และวัดมาร์จิ้นที่กู้คืนได้เทียบกับเส้นฐาน - ครบทั้งวงจร พิสูจน์ได้ในทุกการตัดสินใจ"
       },
       "problems": {
         "eyebrow": "ปัญหา",
@@ -1805,8 +1805,8 @@ export const generatedLocalCopy = {
     "ms": {
       "hero": {
         "badge": "Mengapa Sundae",
-        "title": "Lapisan Kecerdasan yang Tidak Pernah Dimiliki Restoran",
-        "description": "Data anda terperangkap dalam silo yang tidak bersambung. Pasukan anda membuat keputusan bernilai jutaan dolar berdasarkan naluri. Kami membina platform yang mengubah itu."
+        "title": "Mengesan itu perkara biasa. Pemulihan yang diukur tidak.",
+        "description": "Kini setiap pesaing boleh mengesan masalah dan mencadangkan penyelesaian. Sundae menyalurkannya kepada satu individu yang bertanggungjawab, menjejakinya sehingga pelaksanaan, dan mengukur margin yang dipulihkan berbanding garis dasar - keseluruhan gelung, terbukti pada setiap keputusan."
       },
       "problems": {
         "eyebrow": "MASALAH",

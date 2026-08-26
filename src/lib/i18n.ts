@@ -351,10 +351,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Decision Intelligence Platform',
-      titleTop: 'Decision Intelligence',
-      titleBottom: 'for multi-location restaurants',
-      subheadline: 'Know what changed, why it changed, and what to do before the shift is over.',
+      badge: 'Decision Intelligence for closed-loop profit recovery',
+      titleTop: 'Recover profit every day,',
+      titleBottom: 'across every outlet.',
+      subheadline: 'Find the leak, assign the fix to one accountable owner, and measure the recovery back against a baseline - one auditable loop, every shift.',
       description:
         'Your data lives across POS, delivery, reservations, labor, inventory, and finance.',
       descriptionEmphasis: 'Sundae brings it into one live operating layer.',
@@ -816,10 +816,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'منصة ذكاء القرار',
-      titleTop: 'ذكاء القرار',
-      titleBottom: 'للمطاعم متعددة الفروع',
-      subheadline: 'اعرف ما الذي تغيّر، ولماذا تغيّر، وما الذي يجب فعله قبل أن تنتهي الوردية.',
+      badge: 'ذكاء القرار لاستعادة الأرباح بحلقة مغلقة',
+      titleTop: 'استعِد الأرباح كل يوم،',
+      titleBottom: 'في كل فرع.',
+      subheadline: 'اكتشف موضع التسرّب، وأسنِد الإصلاح إلى مسؤول واحد يتحمّل المسؤولية، وقِس الاستعادة مقابل خط أساس - حلقة واحدة قابلة للتدقيق، في كل وردية.',
       description:
         'بياناتك موزّعة على أنظمة الـ POS والتوصيل والحجوزات والعمالة والمخزون والمالية.',
       descriptionEmphasis: 'يجمعها صنداي في طبقة تشغيل حيّة واحدة.',
@@ -1261,10 +1261,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Plateforme d\'intelligence décisionnelle',
-      titleTop: 'Intelligence décisionnelle',
-      titleBottom: 'pour les restaurants multi-sites',
-      subheadline: 'Sachez ce qui a changé, pourquoi, et quoi faire avant la fin du service.',
+      badge: 'Intelligence décisionnelle pour une récupération de marge en boucle fermée',
+      titleTop: 'Récupérez de la marge chaque jour,',
+      titleBottom: 'dans chaque établissement.',
+      subheadline: 'Repérez la fuite, confiez la correction à un seul responsable, et mesurez la récupération par rapport à une référence - une boucle auditable, à chaque service.',
       description:
         'Vos données vivent dans le POS, la livraison, les réservations, le personnel, les stocks et la finance.',
       descriptionEmphasis: 'Sundae les réunit dans une seule couche opérationnelle en direct.',
@@ -1725,10 +1725,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Plataforma de inteligencia de decisión',
-      titleTop: 'Inteligencia de decisión',
-      titleBottom: 'para restaurantes multilocal',
-      subheadline: 'Sabe qué cambió, por qué cambió y qué hacer antes de que acabe el turno.',
+      badge: 'Inteligencia de decisión para la recuperación de beneficios en circuito cerrado',
+      titleTop: 'Recupera beneficio cada día,',
+      titleBottom: 'en cada local.',
+      subheadline: 'Encuentra la fuga, asigna la corrección a un único responsable y mide la recuperación frente a una base de referencia - un circuito auditable, en cada turno.',
       description:
         'Tus datos viven en el POS, el delivery, las reservas, el personal, el inventario y las finanzas.',
       descriptionEmphasis: 'Sundae los reúne en una sola capa operativa en vivo.',
