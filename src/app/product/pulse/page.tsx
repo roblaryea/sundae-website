@@ -666,7 +666,7 @@ const localizedPulseCopy = {
   es: {
     hero: {
       badge: "Pulse - Operaciones intradía",
-      title: "Pérdida de $2K por cada turno malo. Pulse la detecta en vivo.",
+      title: "El margen se pierde durante el turno. Pulse lo detecta en vivo.",
       description:
         "Ritmo de ingresos, costo laboral, rendimiento de servidores y detección de fugas - actualizándose cada 5 minutos. Objetivos adaptativos que aprenden tus patrones, estacionalidad y eventos locales. Actúa antes de que te cueste.",
       primary: "Reservar demo",

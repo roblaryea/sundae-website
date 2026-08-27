@@ -188,13 +188,14 @@ const Navbar = () => {
   // Close mobile menu on ESC key
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
-      if (event.key === 'Escape' && isMenuOpen) {
-        setIsMenuOpen(false);
+      if (event.key === 'Escape') {
+        if (isMenuOpen) setIsMenuOpen(false);
+        if (activeDropdown) setActiveDropdown(null);
       }
     };
     window.addEventListener('keydown', handleEsc);
     return () => window.removeEventListener('keydown', handleEsc);
-  }, [isMenuOpen]);
+  }, [activeDropdown, isMenuOpen]);
 
   // Toggle accordion section
   const toggleSection = useCallback((section: string) => {
@@ -284,7 +285,8 @@ const Navbar = () => {
                 type="button"
                 className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('product')}
-                onClick={() => setActiveDropdown(activeDropdown === 'product' ? null : 'product')}
+                onFocus={() => setActiveDropdown('product')}
+                onClick={() => setActiveDropdown('product')}
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'product'}
               >
@@ -364,7 +366,8 @@ const Navbar = () => {
                 type="button"
                 className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('solutions')}
-                onClick={() => setActiveDropdown(activeDropdown === 'solutions' ? null : 'solutions')}
+                onFocus={() => setActiveDropdown('solutions')}
+                onClick={() => setActiveDropdown('solutions')}
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'solutions'}
               >
@@ -433,7 +436,8 @@ const Navbar = () => {
                 type="button"
                 className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('pricing')}
-                onClick={() => setActiveDropdown(activeDropdown === 'pricing' ? null : 'pricing')}
+                onFocus={() => setActiveDropdown('pricing')}
+                onClick={() => setActiveDropdown('pricing')}
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'pricing'}
               >
@@ -492,7 +496,8 @@ const Navbar = () => {
                 type="button"
                 className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('resources')}
-                onClick={() => setActiveDropdown(activeDropdown === 'resources' ? null : 'resources')}
+                onFocus={() => setActiveDropdown('resources')}
+                onClick={() => setActiveDropdown('resources')}
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'resources'}
               >

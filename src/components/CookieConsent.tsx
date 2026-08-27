@@ -150,10 +150,10 @@ export function CookieConsent({ initialConsent = null }: { initialConsent?: Cons
       role="dialog"
       aria-label={copy.ariaLabel}
       data-cookie-banner
-      className="animate-fade-in-up fixed bottom-3 left-3 right-3 z-[9999] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] motion-reduce:animate-none [body.mobile-menu-open_&]:hidden"
+      className="animate-fade-in-up fixed bottom-2 left-2 right-2 z-[9999] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[520px] motion-reduce:animate-none [body.mobile-menu-open_&]:hidden"
     >
-      <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy-surface)]/85 px-4 py-3.5 shadow-[0_18px_50px_-16px_rgba(0,0,0,0.7)] backdrop-blur-xl">
-        <p className="text-[12.5px] leading-relaxed text-[var(--text-secondary)]">
+      <div className="flex items-center gap-2.5 rounded-xl border border-[var(--border-default)] bg-[var(--navy-surface)]/90 px-3 py-2.5 shadow-[0_18px_50px_-16px_rgba(0,0,0,0.7)] backdrop-blur-xl sm:rounded-2xl sm:px-4 sm:py-3">
+        <p className="min-w-0 flex-1 text-[11px] leading-snug text-[var(--text-secondary)] sm:text-[12.5px] sm:leading-relaxed">
           {copy.message}{" "}
           <Link
             href={localizeWebsiteHref("/privacy", locale)}
@@ -162,16 +162,16 @@ export function CookieConsent({ initialConsent = null }: { initialConsent?: Cons
             {copy.privacy}
           </Link>
         </p>
-        <div className="mt-3 flex justify-end gap-2">
+        <div className="flex shrink-0 items-center gap-1 sm:gap-2">
           <button
             onClick={handleDecline}
-            className="rounded-lg px-3 py-1.5 text-[13px] font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-warm)]/40"
+            className="rounded-md px-2 py-1 text-[11px] font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-warm)]/40 sm:rounded-lg sm:px-3 sm:py-1.5 sm:text-[13px]"
           >
             {copy.decline}
           </button>
           <button
             onClick={handleAccept}
-            className="rounded-lg bg-[#FF5C4D] [html.light_&]:bg-[var(--ink)] px-4 py-1.5 text-[13px] font-semibold text-white transition-transform hover:-translate-y-px focus:outline-none focus:ring-2 focus:ring-[#FF8473]"
+            className="rounded-md bg-[#FF5C4D] [html.light_&]:bg-[var(--ink)] px-2.5 py-1 text-[11px] font-semibold text-white transition-transform hover:-translate-y-px focus:outline-none focus:ring-2 focus:ring-[#FF8473] sm:rounded-lg sm:px-4 sm:py-1.5 sm:text-[13px]"
           >
             {copy.accept}
           </button>

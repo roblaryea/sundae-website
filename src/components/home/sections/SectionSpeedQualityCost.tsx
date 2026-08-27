@@ -15,6 +15,7 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionSpeedQualityCost'
+import { getPositioningCopy } from '@/lib/positioningCopy';
 import { balanceSentences } from "@/lib/balanceSentences";
 
 /* ─── i18n copy ─── */
@@ -43,8 +44,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     closing: "That is how Core starts. Crew migrations and wider estates get scoped on the systems involved.",
     vertices: [
       { label: "Speed", headline: "Deploy in days. Recover from day one.", body: "Connect your stack fast. Pulse updates through the shift, and Ask Sundae answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
-      { label: "Quality", headline: "Built for food-service. Governed for recovery.", body: "Sundae ships with 500+ governed food-service data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
-      { label: "Cost", headline: "Lower cost than rebuilding BI around food-service.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is food-service-ready from day one: one package, eleven domain modules, no BI build.", chips: ["One package", "Less custom BI", "Lower analyst load"] },
+      { label: "Quality", headline: "Built for food-service. Governed for recovery.", body: "Sundae connects operating evidence to one accountable owner, then measures what came back against the agreed baseline.", chips: ["Ready on day one", "Source-cited AI", "Peer benchmarks"] },
+      { label: "Cost", headline: "Lower cost than rebuilding BI around food-service.", body: "BI licenses are only the visible cost. Sundae reduces the analyst, integration, model-maintenance and decision-delay burden around recovery.", chips: ["Live in days", "Less custom BI", "Lower analyst load"] },
     ],
   },
   ar: {
@@ -58,8 +59,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     closing: "هكذا تبدأ Core. أما ترحيلات Crew والمنظومات الأوسع فيُحدَّد نطاقها حسب الأنظمة المعنية.",
     vertices: [
       { label: "السرعة", headline: "انشر في أيام. استرجع من اليوم الأول.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وAsk Sundae يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
-      { label: "الجودة", headline: "مصمم لخدمات الطعام. محكوم لاسترجاع الأرباح.", body: "Sundae يأتي بأكثر من 500 نموذج بيانات محكوم لخدمات الطعام، ومعايير نظراء، وإجابات AI مع مصادر - فلا تبني من لوحة BI فارغة.", chips: ["+500 نموذج", "AI بمصادر", "معايير نظراء"] },
-      { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول خدمات الطعام.", body: "تراخيص BI ليست سوى التكلفة المرئية. الإنفاق الحقيقي محللون وتكاملات ونماذج مخصصة وصيانة لوحات وقرارات متأخرة. Sundae جاهز لخدمات الطعام من اليوم الأول: باقة واحدة وإحدى عشرة وحدة، بلا بناء BI.", chips: ["باقة واحدة", "BI مخصص أقل", "حمل محلل أقل"] },
+      { label: "الجودة", headline: "مصمم لخدمات الطعام. محكوم لاسترجاع الأرباح.", body: "يربط Sundae الأدلة التشغيلية بمسؤول واحد، ثم يقيس ما عاد مقارنة بخط الأساس المتفق عليه.", chips: ["جاهز من اليوم الأول", "AI بمصادر", "معايير نظراء"] },
+      { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول خدمات الطعام.", body: "تراخيص BI ليست سوى التكلفة المرئية. يقلل Sundae عبء المحللين والتكاملات وصيانة النماذج وتأخر القرارات حول الاسترداد.", chips: ["جاهز خلال أيام", "BI مخصص أقل", "حمل محلل أقل"] },
     ],
   },
   fr: {
@@ -73,8 +74,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     closing: "C'est ainsi que Core démarre. Les migrations Crew et les parcs plus larges sont cadrés selon les systèmes concernés.",
     vertices: [
       { label: "Vitesse", headline: "Déployez en jours. Récupérez dès le premier jour.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Ask Sundae répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
-      { label: "Qualité", headline: "Conçu pour la restauration. Gouverné pour la récupération.", body: "Sundae livre 500+ modèles de données de restauration gouvernés, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["500+ modèles", "IA sourcée", "Benchmarks pairs"] },
-      { label: "Coût", headline: "Moins cher que reconstruire la BI autour de la restauration.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt pour la restauration dès le premier jour : une offre, onze modules métier, aucun chantier BI.", chips: ["Une seule offre", "Moins de BI custom", "Moins d'analystes"] },
+      { label: "Qualité", headline: "Conçu pour la restauration. Gouverné pour la récupération.", body: "Sundae relie les preuves d'exploitation à un responsable, puis mesure ce qui revient par rapport à la référence convenue.", chips: ["Prêt dès le premier jour", "IA sourcée", "Benchmarks pairs"] },
+      { label: "Coût", headline: "Moins cher que reconstruire la BI autour de la restauration.", body: "Les licences BI ne sont que le coût visible. Sundae réduit la charge d'analyse, d'intégration, de maintenance des modèles et les retards de décision autour de la récupération.", chips: ["Opérationnel en jours", "Moins de BI custom", "Moins d'analystes"] },
     ],
   },
   es: {
@@ -88,8 +89,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     closing: "Así empieza Core. Las migraciones de Crew y los parques más amplios se dimensionan según los sistemas implicados.",
     vertices: [
       { label: "Velocidad", headline: "Despliega en días. Recupera desde el primer día.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Ask Sundae responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
-      { label: "Calidad", headline: "Hecho para la hostelería. Gobernado para la recuperación.", body: "Sundae trae 500+ modelos de datos de hostelería gobernados, benchmarks de pares y respuestas IA con fuente - para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["500+ modelos", "IA con fuente", "Benchmarks pares"] },
-      { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de la hostelería.", body: "Las licencias BI son solo el coste visible. El gasto real son analistas, integraciones, modelos a medida, mantenimiento de dashboards y decisiones tardías. Sundae viene listo para la hostelería desde el día uno: un paquete, once modulos de dominio, sin proyecto BI.", chips: ["Un solo paquete", "Menos BI custom", "Menos analistas"] },
+      { label: "Calidad", headline: "Hecho para la hostelería. Gobernado para la recuperación.", body: "Sundae conecta la evidencia operativa con un responsable y mide lo que vuelve frente a la referencia acordada.", chips: ["Listo desde el primer día", "IA con fuente", "Benchmarks pares"] },
+      { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de la hostelería.", body: "Las licencias BI son solo el coste visible. Sundae reduce la carga de análisis, integración, mantenimiento de modelos y demora de decisiones alrededor de la recuperación.", chips: ["Operativo en días", "Menos BI custom", "Menos analistas"] },
     ],
   },
 };
@@ -144,10 +145,10 @@ const EDGES: [number, number][] = [[0, 1], [1, 2], [2, 0]];
 
 // Per-vertex headline metric (language-neutral - number + universal unit, so no
 // new localized strings). Each maps to a real proof point: Speed = signal→action
-// time, Quality = governed data models, Cost = one package instead of a BI build.
+// time, Quality = governed recovery, Cost = a live operating system instead of a BI build.
 const VERTEX_METRICS: { value: number; prefix: string; suffix: string; count: boolean }[] = [
   { value: 5,   prefix: "",  suffix: " min", count: true  }, // Speed
-  { value: 500, prefix: "",  suffix: "+",    count: true  }, // Quality
+  { value: 0,   prefix: "",  suffix: "",     count: false }, // Quality (localized text is rendered)
   { value: 0,   prefix: "$", suffix: "",     count: false }, // Cost
 ];
 
@@ -218,7 +219,29 @@ export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
   const { theme } = useTheme();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const copy: LocalizedSQC = {
+    ...sourceCopy,
+    vertices: sourceCopy.vertices.map((vertex, index) => {
+      if (index === 1) {
+        return {
+          ...vertex,
+          headline: positioning.productHeroTitle,
+          body: positioning.productCoreDescription,
+          chips: [sourceCopy.qualityMetric, vertex.chips[1], vertex.chips[2]],
+        };
+      }
+      if (index === 2) {
+        return {
+          ...vertex,
+          body: positioning.productCoreDescription,
+          chips: [sourceCopy.costMetric, vertex.chips[1], vertex.chips[2]],
+        };
+      }
+      return vertex;
+    }) as LocalizedSQC['vertices'],
+  };
 
   const vertices = copy.vertices;
   const [activeIdx, setActiveIdx] = useState(0);

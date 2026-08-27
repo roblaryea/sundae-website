@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
+import { getPositioningCopy } from '@/lib/positioningCopy';
+import { resolveWebsiteLocale } from "@/lib/i18n";
 
-export const metadata: Metadata = {
-  title: "Sundae for CEOs and Owners - Daily AI Briefings Across the Portfolio",
-  description:
-    "Daily AI briefings across every brand and location. Portfolio truth in the morning, not at the weekly review - with peer benchmarks and market context built in.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = resolveWebsiteLocale(await cookies());
+  const copy = getPositioningCopy(locale).critical;
+  return {
+    title: copy.cSuiteMetaTitle,
+    description: copy.cSuiteMetaDescription,
+  };
+}
 
 export default function Layout({
   children,

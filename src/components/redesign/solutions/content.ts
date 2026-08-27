@@ -308,7 +308,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR TECH AND DATA LEADS",
     headline: "Twelve vendor APIs. Five data formats. Zero unified schema.",
     subhead:
-      "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into 500+ governed data models - with a public API, webhooks, RBAC, and audit trails out of the box.",
+      "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into one governed operating picture - with a public API, webhooks, RBAC, and audit trails out of the box.",
     todayTitle: "Today",
     todayPoints: [
       "Every new dashboard request is a six-week integration project.",
@@ -331,7 +331,7 @@ const en: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 unified data domains",
-        body: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and more - modeled into 500+ governed schemas.",
+        body: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and more - governed in one operating picture.",
         intelLayer: "Architecture",
       },
       {
@@ -351,7 +351,7 @@ const en: SolutionsContent = {
     connectedSystemsEyebrow: "WHAT YOU PLUG INTO",
     connectedSystems: [
       "12 unified data domains",
-      "500+ governed models",
+      "Governed operating evidence",
       "Public API + webhooks",
       "RBAC + audit trails",
       "Warehouse exports",
@@ -860,7 +860,7 @@ const ar: SolutionsContent = {
     eyebrow: "لقادة التقنية والبيانات",
     headline: "اثنا عشر واجهة برمجية. خمسة تنسيقات بيانات. لا مخطط موحد.",
     subhead:
-      "Sundae يوحد نقاط البيع والعمالة والمخزون والتوصيل والمحاسبة والحجوزات وإدارة العملاء في أكثر من 500 نموذج بيانات محكوم - مع واجهة برمجة عامة وWebhooks وRBAC وسجلات تدقيق جاهزة.",
+      "يوحّد Sundae نقاط البيع والعمالة والمخزون والتوصيل والمحاسبة والحجوزات وإدارة العملاء في صورة تشغيلية محكومة واحدة - مع واجهة برمجة عامة وWebhooks وRBAC وسجلات تدقيق جاهزة.",
     todayTitle: "اليوم",
     todayPoints: [
       "كل طلب لوحة جديدة هو مشروع تكامل لستة أسابيع.",
@@ -883,7 +883,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 نطاق بيانات موحد",
-        body: "نقاط البيع، العمالة، المخزون، المشتريات، الحجوزات، التوصيل، التسويق، تجربة الضيف، إدارة العملاء، المحاسبة، والمزيد - ضمن أكثر من 500 مخططاً محكوماً.",
+        body: "نقاط البيع والعمالة والمخزون والمشتريات والحجوزات والتوصيل والتسويق وتجربة الضيف وإدارة العملاء والمحاسبة - محكومة في صورة تشغيلية واحدة.",
         intelLayer: "Architecture",
       },
       {
@@ -903,7 +903,7 @@ const ar: SolutionsContent = {
     connectedSystemsEyebrow: "ما الذي تتصل به",
     connectedSystems: [
       "12 نطاق بيانات موحد",
-      "أكثر من 500 نموذجاً محكوماً",
+      "أدلة تشغيلية محكومة",
       "واجهة برمجة عامة + Webhooks",
       "RBAC + سجلات تدقيق",
       "تصدير للمستودع",
@@ -1412,7 +1412,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES ÉQUIPES TECH ET DATA",
     headline: "Douze APIs vendeurs. Cinq formats de données. Aucun schéma unifié.",
     subhead:
-      "Sundae unifie caisse, RH, stocks, livraison, comptabilité, réservations et CRM dans plus de 500 modèles de données gouvernés - avec API publique, webhooks, RBAC et audit trails inclus.",
+      "Sundae unifie caisse, RH, stocks, livraison, comptabilité, réservations et CRM dans une seule image d'exploitation gouvernée - avec API publique, webhooks, RBAC et audit trails inclus.",
     todayTitle: "Aujourd'hui",
     todayPoints: [
       "Chaque nouveau dashboard est un projet d'intégration de six semaines.",
@@ -1435,7 +1435,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 domaines de données unifiés",
-        body: "Caisse, RH, stocks, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité et plus - modélisés en 500+ schémas gouvernés.",
+        body: "Caisse, RH, stocks, achats, réservations, livraison, marketing, expérience client, CRM et comptabilité - gouvernés dans une seule image d'exploitation.",
         intelLayer: "Architecture",
       },
       {
@@ -1455,7 +1455,7 @@ const fr: SolutionsContent = {
     connectedSystemsEyebrow: "CE À QUOI VOUS VOUS BRANCHEZ",
     connectedSystems: [
       "12 domaines de données unifiés",
-      "500+ modèles gouvernés",
+      "Preuves d'exploitation gouvernées",
       "API publique + webhooks",
       "RBAC + audit trails",
       "Exports warehouse",
@@ -1964,7 +1964,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA EQUIPOS DE TECH Y DATA",
     headline: "Doce APIs de proveedores. Cinco formatos de datos. Cero esquema unificado.",
     subhead:
-      "Sundae unifica POS, mano de obra, inventario, delivery, contabilidad, reservas y CRM en más de 500 modelos de datos gobernados - con API pública, webhooks, RBAC y audit trails listos.",
+      "Sundae unifica POS, personal, inventario, delivery, contabilidad, reservas y CRM en una sola imagen operativa gobernada - con API pública, webhooks, RBAC y audit trails listos.",
     todayTitle: "Hoy",
     todayPoints: [
       "Cada nuevo dashboard es un proyecto de integración de seis semanas.",
@@ -1987,7 +1987,7 @@ const es: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 dominios de datos unificados",
-        body: "POS, mano de obra, inventario, compras, reservas, delivery, marketing, experiencia del cliente, CRM, contabilidad y más - modelados en 500+ esquemas gobernados.",
+        body: "POS, personal, inventario, compras, reservas, delivery, marketing, experiencia del cliente, CRM y contabilidad - gobernados en una sola imagen operativa.",
         intelLayer: "Architecture",
       },
       {
@@ -2007,7 +2007,7 @@ const es: SolutionsContent = {
     connectedSystemsEyebrow: "A LO QUE TE CONECTAS",
     connectedSystems: [
       "12 dominios de datos unificados",
-      "500+ modelos gobernados",
+      "Evidencia operativa gobernada",
       "API pública + webhooks",
       "RBAC + audit trails",
       "Exportes a warehouse",

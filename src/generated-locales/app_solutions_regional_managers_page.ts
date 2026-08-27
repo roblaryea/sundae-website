@@ -19,7 +19,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Les performances du serveur varient de plus de 30 %",
+          "title": "Variations de performance par service et par emplacement",
           "description": "Vous connaissez vos meilleurs éléments et vos retardataires. Vous ne le savez pas à temps pour les jumeler.",
           "icon": "performance"
         },
@@ -107,7 +107,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "يختلف أداء النُّدُل بنسبة 30%+",
+          "title": "تغيّر الأداء حسب الوردية والموقع",
           "description": "أنت تعرف الأفضل أداءً والمتأخرين. لكنك لا تعرف ذلك في الوقت المناسب لإقرانهم.",
           "icon": "performance"
         },
@@ -195,7 +195,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "El rendimiento de los camareros varía en un 30%+",
+          "title": "Cambios de rendimiento por turno y ubicación",
           "description": "Conoces a los de mejor desempeño y a los rezagados. No lo sabes a tiempo para emparejarlos.",
           "icon": "performance"
         },
@@ -283,7 +283,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Prestaties van bedienend personeel verschillen met 30%+",
+          "title": "Prestatieverschillen per dienst en locatie",
           "description": "Je kent de toppresteerders en de achterblijvers. Je weet het niet op tijd om ze te koppelen.",
           "icon": "performance"
         },
@@ -371,7 +371,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "O desempenho dos garçons varia em 30%+",
+          "title": "Desempenho varia por turno e localização",
           "description": "Você conhece os melhores e os retardatários. Você não sabe a tempo de emparelhá-los.",
           "icon": "performance"
         },
@@ -459,7 +459,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Die Leistung der Servicekräfte variiert um mehr als 30 %",
+          "title": "Leistungsunterschiede nach Schicht und Standort",
           "description": "Sie kennen die Leistungsträger und die Nachzügler. Sie wissen es nicht rechtzeitig, um sie zu paaren.",
           "icon": "performance"
         },
@@ -547,7 +547,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "ویٹرز کی کارکردگی 30%+ تک مختلف ہوتی ہے۔",
+          "title": "شفٹ اور مقام کے لحاظ سے کارکردگی میں تبدیلیاں",
           "description": "آپ بہترین کارکردگی دکھانے والوں اور پیچھے رہ جانے والوں کو جانتے ہیں۔ لیکن آپ انہیں جوڑنے کے لیے بروقت نہیں جان پاتے۔",
           "icon": "performance"
         },
@@ -635,7 +635,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "वेटर का प्रदर्शन 30%+ तक भिन्न होता है",
+          "title": "प्रदर्शन: शिफ्ट और स्थान के अनुसार बदलाव",
           "description": "आप शीर्ष प्रदर्शन करने वालों और पिछड़ने वालों को जानते हैं। पर उन्हें जोड़ने के लिए आप समय रहते नहीं जान पाते।",
           "icon": "performance"
         },
@@ -723,7 +723,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Le prestazioni dei camerieri variano del 30%+",
+          "title": "Variazioni delle prestazioni per turno e sede",
           "description": "Conosci i migliori e i ritardatari. Non lo sai in tempo per accoppiarli.",
           "icon": "performance"
         },
@@ -811,7 +811,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "服务员的表现相差 30% 以上",
+          "title": "按班次与门店的绩效差异",
           "description": "你知道谁表现出色，谁落在后面。但你来不及在合适的时机把他们搭配起来。",
           "icon": "performance"
         },
@@ -899,7 +899,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Wydajność kelnerów waha się o ponad 30%.",
+          "title": "Wydajność zmienia się w zależności od zmiany i lokalizacji",
           "description": "Znasz najlepszych i maruderów. Nie wiesz tego na czas, aby ich połączyć.",
           "icon": "performance"
         },
@@ -987,7 +987,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Garson performansı %30+ oranında değişir",
+          "title": "Vardiya ve lokasyona göre performans değişimleri",
           "description": "En iyi performans gösterenleri ve geride kalanları bilirsiniz. Ama onları eşleştirecek vakti zamanında bilemezsiniz.",
           "icon": "performance"
         },
@@ -1075,7 +1075,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "서빙 직원의 성과는 30% 이상 차이가 납니다.",
+          "title": "교대·지점별 성과 변화",
           "description": "누가 잘하고 누가 뒤처지는지는 알고 있습니다. 하지만 그들을 짝지을 제때를 알지 못합니다.",
           "icon": "performance"
         },
@@ -1163,7 +1163,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Kinerja pramusaji bervariasi sebesar 30%+",
+          "title": "Performa berubah antar shift dan lokasi",
           "description": "Anda tahu siapa yang berkinerja terbaik dan yang lamban. Tetapi Anda tidak tahu tepat waktu untuk memasangkannya.",
           "icon": "performance"
         },
@@ -1251,7 +1251,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "接客スタッフのパフォーマンスは 30% 以上ばらつきます",
+          "title": "シフトと店舗ごとのパフォーマンスの変化",
           "description": "誰が優秀で誰が出遅れているかは分かっています。でも、組ませるのに間に合うタイミングでは分からないのです。",
           "icon": "performance"
         },
@@ -1339,7 +1339,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Hiệu suất nhân viên phục vụ chênh lệch từ 30% trở lên",
+          "title": "Hiệu suất thay đổi theo ca và theo địa điểm",
           "description": "Bạn biết ai làm tốt nhất và ai tụt lại. Nhưng bạn không biết kịp lúc để ghép họ với nhau.",
           "icon": "performance"
         },
@@ -1427,7 +1427,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "ওয়েটারের পারফরম্যান্স 30%+ পর্যন্ত ভিন্ন হয়",
+          "title": "শিফট ও লোকেশনে কর্মক্ষমতার পরিবর্তন",
           "description": "আপনি সেরা পারফর্মার এবং পিছিয়ে পড়াদের জানেন। কিন্তু তাদের জোড়া বাঁধার জন্য সময়মতো তা জানেন না।",
           "icon": "performance"
         },
@@ -1515,7 +1515,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Performanța ospătarilor variază cu 30%+",
+          "title": "Variații de performanță pe tură și locație",
           "description": "Îi cunoști pe cei mai buni și pe cei rămași în urmă. Dar nu la timp ca să-i împerechezi.",
           "icon": "performance"
         },
@@ -1603,7 +1603,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Servitörernas prestanda varierar med 30 %+",
+          "title": "Prestandaförändringar per skift och plats",
           "description": "Du känner topppresterarna och eftersläntrarna. Du vet det bara inte i tid för att para ihop dem.",
           "icon": "performance"
         },
@@ -1691,7 +1691,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "Prestasi pelayan berbeza-beza sebanyak 30%+",
+          "title": "Perubahan prestasi mengikut syif dan lokasi",
           "description": "Anda tahu siapa yang berprestasi tinggi dan yang ketinggalan. Tetapi anda tidak tahu tepat pada masanya untuk memasangkannya.",
           "icon": "performance"
         },
@@ -1779,7 +1779,7 @@ export const generatedLocalCopy = {
           "icon": "operators"
         },
         {
-          "title": "ประสิทธิภาพของพนักงานเสิร์ฟแตกต่างกันไป 30%+",
+          "title": "ประสิทธิภาพที่เปลี่ยนตามกะและสาขา",
           "description": "คุณรู้ว่าใครทำผลงานได้ดีและใครล้าหลัง แต่คุณไม่รู้ทันเวลาที่จะจับคู่พวกเขา",
           "icon": "performance"
         },

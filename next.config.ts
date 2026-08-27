@@ -142,13 +142,16 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withBotId(
-  withSentryConfig(nextConfig, {
-    org: process.env.SENTRY_ORG,
-    project: process.env.SENTRY_PROJECT,
-    silent: !process.env.CI,
-    sourcemaps: {
-      filesToDeleteAfterUpload: ["./next/**/*.map"],
-    },
-  }),
-);
+const configuredNext =
+  process.env.SENTRY_SKIP_UPLOAD === "1"
+    ? nextConfig
+    : withSentryConfig(nextConfig, {
+        org: process.env.SENTRY_ORG,
+        project: process.env.SENTRY_PROJECT,
+        silent: !process.env.CI,
+        sourcemaps: {
+          filesToDeleteAfterUpload: ["./next/**/*.map"],
+        },
+      });
+
+export default withBotId(configuredNext);

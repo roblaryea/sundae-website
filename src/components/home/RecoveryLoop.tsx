@@ -6,12 +6,14 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { recoveryLoopCopy } from "./recoveryLoopCopy";
 import { resolveRecoveryFigure, type RecoveryFigure } from "@/lib/recovery-figure";
 import type { WebsiteLocale } from "@/lib/i18n";
+import { positioningCopy } from "@/generated-locales/positioning_recovery";
 
 /**
  * RecoveryLoop - the homepage hero-1 signature. The visual IS the message:
- * detect a margin leak, decide an owner, execute the fix, measure the recovery -
- * with the recovered value, measured against a baseline, at the center of the
- * loop. Pure SVG (no WebGL), so the hero stays fast; the 3D "sundae glass" now
+ * detect a margin leak, decide an owner, execute the fix, measure the recovery,
+ * and learn from the outcome - with the recovered value, measured against a
+ * baseline, at the center of the loop. Pure SVG (no WebGL), so the hero stays
+ * fast; the 3D "sundae glass" now
  * lives deeper in the page as a brand motif.
  *
  * Alive by design: the recovered figure counts up on load, the four stages light
@@ -26,17 +28,21 @@ const CX = 236;
 const CY = 190;
 const R = 122;
 const CIRC = 2 * Math.PI * R;
+const LOOP_DURATION = 7.5;
 
 const STAGE_POS = [
   { x: CX, y: CY - R, anchor: "middle", lx: CX, ly: CY - R - 24 }, // Detect (top)
-  { x: CX + R, y: CY, anchor: "start", lx: CX + R + 16, ly: CY + 4 }, // Decide (right)
-  { x: CX, y: CY + R, anchor: "middle", lx: CX, ly: CY + R + 28 }, // Execute (bottom)
-  { x: CX - R, y: CY, anchor: "end", lx: CX - R - 16, ly: CY + 4 }, // Measure (left)
+  { x: 352, y: 152, anchor: "start", lx: 368, ly: 156 }, // Decide (upper right)
+  { x: 308, y: 289, anchor: "start", lx: 320, ly: 314 }, // Execute (lower right)
+  { x: 164, y: 289, anchor: "end", lx: 152, ly: 314 }, // Measure (lower left)
+  { x: 120, y: 152, anchor: "end", lx: 104, ly: 156 }, // Learn (upper left)
 ] as const;
 
 export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
   const { locale } = useWebsiteI18n();
   const copy = recoveryLoopCopy[locale as keyof typeof recoveryLoopCopy] ?? recoveryLoopCopy.en;
+  const positioning = positioningCopy[locale as keyof typeof positioningCopy] ?? positioningCopy.en;
+  const stages = positioning.recovery.stages.map((stage) => stage.name);
   // Currency + amount come geo-resolved from the server (page.tsx); fall back to
   // the language locale if the component is ever rendered without a figure.
   const fig = figure ?? resolveRecoveryFigure(locale as WebsiteLocale);
@@ -76,13 +82,13 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
   }, [rm, fig.amount]);
   const shown = rm ? fig.amount : value;
 
-  // Sequential stage highlight, in step with the 6.5s comet (one lap = 4 stages).
+  // Sequential stage highlight, in step with the comet (one lap = five stages).
   const [active, setActive] = useState(0);
   useEffect(() => {
     if (rm) return;
-    const id = setInterval(() => setActive((i) => (i + 1) % 4), 6500 / 4);
+    const id = setInterval(() => setActive((i) => (i + 1) % stages.length), (LOOP_DURATION * 1000) / stages.length);
     return () => clearInterval(id);
-  }, [rm]);
+  }, [rm, stages.length]);
 
   return (
     <motion.div
@@ -116,7 +122,7 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
           </span>
         </div>
 
-        <svg viewBox="0 0 472 388" className="block w-full" role="img" aria-label={`${copy.loopTitle}: ${copy.stages.join(", ")}. ${finalStr} ${copy.recoveredThisWeek}, ${copy.measuredVsBaseline}.`}>
+        <svg viewBox="0 0 472 388" className="block w-full" role="img" aria-label={`${copy.loopTitle}: ${stages.join(", ")}. ${finalStr} ${copy.recoveredThisWeek}, ${copy.measuredVsBaseline}.`}>
           <defs>
             <linearGradient id="recoveryLoopGrad" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stopColor="#F6C66B" />
@@ -147,7 +153,7 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
                 opacity="0.5"
                 initial={{ strokeDashoffset: 0 }}
                 animate={{ strokeDashoffset: -CIRC }}
-                transition={{ duration: 6.5, ease: "linear", repeat: Infinity }}
+                transition={{ duration: LOOP_DURATION, ease: "linear", repeat: Infinity }}
               />
               <motion.circle
                 cx={CX}
@@ -161,7 +167,7 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
                 transform={`rotate(-90 ${CX} ${CY})`}
                 initial={{ strokeDashoffset: 0 }}
                 animate={{ strokeDashoffset: -CIRC }}
-                transition={{ duration: 6.5, ease: "linear", repeat: Infinity }}
+                transition={{ duration: LOOP_DURATION, ease: "linear", repeat: Infinity }}
               />
             </>
           )}
@@ -189,7 +195,7 @@ export function RecoveryLoop({ figure }: { figure?: RecoveryFigure } = {}) {
                   fill={i === 0 || on ? "rgba(251,248,244,0.95)" : "rgba(251,248,244,0.66)"}
                   style={{ fontFamily: "var(--font-hanken)", fontSize: 13, fontWeight: i === 0 ? 600 : 500, transition: "fill .3s ease" }}
                 >
-                  {copy.stages[i]}
+                  {stages[i]}
                 </text>
               </g>
             );

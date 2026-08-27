@@ -207,8 +207,8 @@ export const generatedLocalCopy = {
           "المتصدرين المحفظة",
           "وضع ورق الحائط للأرضية"
         ],
-        "stat": "2 ألف دولار",
-        "statLabel": "مُستردّ لكل وردية ضعيفة - رصد وإصلاح وقياس قبل الإغلاق"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -255,8 +255,8 @@ export const generatedLocalCopy = {
           "إسناد عائد الاستثمار التسويقي",
           "محرك ارتباط Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "مجالاً تشغيلياً مترابطة ببعضها"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -305,8 +305,8 @@ export const generatedLocalCopy = {
           "Tabla de clasificación de la cartera",
           "Modo tablero para el salón"
         ],
-        "stat": "$2K",
-        "statLabel": "recuperados por cada turno flojo - detectado, corregido y medido antes del cierre"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -353,8 +353,8 @@ export const generatedLocalCopy = {
           "Atribución del ROI de marketing",
           "Motor de correlación Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "áreas operativas, cruzadas entre sí"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -403,8 +403,8 @@ export const generatedLocalCopy = {
           "Portfolio-Bestenliste",
           "Wallboard-Modus für die Fläche"
         ],
-        "stat": "2.000 $",
-        "statLabel": "zurückgewonnen pro schwacher Schicht - erkannt, behoben und vor Schichtende gemessen"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -451,8 +451,8 @@ export const generatedLocalCopy = {
           "Zuordnung des Marketing-ROI",
           "Cross-Intelligence-Korrelations-Engine"
         ],
-        "stat": "12",
-        "statLabel": "operative Bereiche, miteinander verknüpft"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -501,8 +501,8 @@ export const generatedLocalCopy = {
           "Classement du portefeuille",
           "Mode mur d'affichage pour la salle"
         ],
-        "stat": "2 000 $",
-        "statLabel": "récupérés par service faible - repéré, corrigé et mesuré avant la clôture"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -549,8 +549,8 @@ export const generatedLocalCopy = {
           "Attribution du ROI marketing",
           "Moteur de corrélation Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "domaines opérationnels, croisés entre eux"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -599,8 +599,8 @@ export const generatedLocalCopy = {
           "Tabela de classificação do portfólio",
           "Modo Wallboard para o salão"
         ],
-        "stat": "US$ 2 mil",
-        "statLabel": "recuperado por turno ruim - detectado, corrigido e medido antes do fechamento"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -647,8 +647,8 @@ export const generatedLocalCopy = {
           "Atribuição de ROI de marketing",
           "Motor de correlação Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "áreas operacionais, cruzadas entre si"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -697,8 +697,8 @@ export const generatedLocalCopy = {
           "Portfolio-ranglijst",
           "Wallboard-modus voor de vloer"
         ],
-        "stat": "$ 2K",
-        "statLabel": "teruggewonnen per slechte dienst - opgemerkt, verholpen en gemeten voor sluiting"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -745,8 +745,8 @@ export const generatedLocalCopy = {
           "Toeschrijving van marketing-ROI",
           "Cross-Intelligence-correlatie-engine"
         ],
-        "stat": "12",
-        "statLabel": "operationele gebieden, onderling gekoppeld"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -795,8 +795,8 @@ export const generatedLocalCopy = {
           "پورٹ فولیو لیڈر بورڈ",
           "سروس فلور کے لیے وال بورڈ موڈ"
         ],
-        "stat": "$2K",
-        "statLabel": "فی بری شفٹ بازیافت - پکڑا، درست اور بندش سے پہلے ماپا گیا"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -843,8 +843,8 @@ export const generatedLocalCopy = {
           "مارکیٹنگ ROI انتساب",
           "Cross-Intelligence کوریلیشن انجن"
         ],
-        "stat": "12",
-        "statLabel": "آپریشنل شعبے، آپس میں مربوط"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -893,8 +893,8 @@ export const generatedLocalCopy = {
           "Classifica del portafoglio",
           "Modalità wallboard per la sala"
         ],
-        "stat": "$ 2K",
-        "statLabel": "recuperato per turno difettoso - individuato, corretto e misurato prima della chiusura"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -941,8 +941,8 @@ export const generatedLocalCopy = {
           "Attribuzione del ROI di marketing",
           "Motore di correlazione Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "aree operative, correlate tra loro"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -991,8 +991,8 @@ export const generatedLocalCopy = {
           "पोर्टफोलियो लीडरबोर्ड",
           "सर्विस फ्लोर के लिए वॉलबोर्ड मोड"
         ],
-        "stat": "$2K",
-        "statLabel": "प्रति खराब शिफ्ट पुनःप्राप्त - पकड़ा, ठीक किया और बंद होने से पहले मापा गया"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1039,8 +1039,8 @@ export const generatedLocalCopy = {
           "मार्केटिंग आरओआई एट्रिब्यूशन",
           "Cross-Intelligence सहसंबंध इंजन"
         ],
-        "stat": "12",
-        "statLabel": "परिचालन क्षेत्र, आपस में सहसंबद्ध"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1089,8 +1089,8 @@ export const generatedLocalCopy = {
           "Tabela liderów portfela",
           "Tryb tablicy ściennej dla sali"
         ],
-        "stat": "2 tys. dolarów",
-        "statLabel": "odzyskane na każdej złej zmianie - wykryte, naprawione i zmierzone przed zamknięciem"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1137,8 +1137,8 @@ export const generatedLocalCopy = {
           "Przypisanie ROI marketingu",
           "Silnik korelacji Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "obszary operacyjne, powiązane ze sobą"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1187,8 +1187,8 @@ export const generatedLocalCopy = {
           "门店排行榜",
           "门店墙板模式"
         ],
-        "stat": "2000 美元",
-        "statLabel": "每个不良班次挽回额--发现、修复并在收班前衡量"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1235,8 +1235,8 @@ export const generatedLocalCopy = {
           "营销投资回报率归因",
           "Cross-Intelligence 关联引擎"
         ],
-        "stat": "12",
-        "statLabel": "个运营领域，彼此交叉关联"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1285,8 +1285,8 @@ export const generatedLocalCopy = {
           "Portföy skor tablosu",
           "Salon için duvar panosu modu"
         ],
-        "stat": "2 bin dolar",
-        "statLabel": "kötü vardiya başına geri kazanılan - yakalanan, düzeltilen ve kapanıştan önce ölçülen"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1333,8 +1333,8 @@ export const generatedLocalCopy = {
           "Pazarlama yatırım getirisi ilişkilendirmesi",
           "Cross-Intelligence korelasyon motoru"
         ],
-        "stat": "12",
-        "statLabel": "operasyonel alan, birbiriyle ilişkilendirilmiş"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1383,8 +1383,8 @@ export const generatedLocalCopy = {
           "Papan peringkat portofolio",
           "Mode papan dinding untuk area layanan"
         ],
-        "stat": "$2K",
-        "statLabel": "dipulihkan per shift buruk - terdeteksi, diperbaiki, dan diukur sebelum tutup"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1431,8 +1431,8 @@ export const generatedLocalCopy = {
           "Atribusi ROI pemasaran",
           "Mesin korelasi Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "area operasional, saling dikaitkan"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1481,8 +1481,8 @@ export const generatedLocalCopy = {
           "ポートフォリオのリーダーボード",
           "フロア向けウォールボードモード"
         ],
-        "stat": "2,000ドル",
-        "statLabel": "不調なシフトごとに回収--発見、修正し、締め前に測定"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1529,8 +1529,8 @@ export const generatedLocalCopy = {
           "マーケティング ROI の帰属",
           "Cross-Intelligence 相関エンジン"
         ],
-        "stat": "12",
-        "statLabel": "の業務領域を相互に関連づけ"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1579,8 +1579,8 @@ export const generatedLocalCopy = {
           "포트폴리오 리더보드",
           "매장용 월보드 모드"
         ],
-        "stat": "$2,000",
-        "statLabel": "부진한 교대당 회수액 - 감지하고 바로잡아 마감 전에 측정"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1627,8 +1627,8 @@ export const generatedLocalCopy = {
           "마케팅 ROI 기여",
           "Cross-Intelligence 상관 엔진"
         ],
-        "stat": "12",
-        "statLabel": "개 운영 영역을 서로 연관 분석"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1677,8 +1677,8 @@ export const generatedLocalCopy = {
           "Clasament portofoliu",
           "Mod Wallboard pentru sală"
         ],
-        "stat": "2.000 USD",
-        "statLabel": "recuperați la fiecare tură slabă - depistată, corectată și măsurată înainte de închidere"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1725,8 +1725,8 @@ export const generatedLocalCopy = {
           "Atribuirea rentabilității investiției în marketing",
           "Motor de corelare Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "domenii operaționale, corelate între ele"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1775,8 +1775,8 @@ export const generatedLocalCopy = {
           "Bảng xếp hạng danh mục đầu tư",
           "Chế độ bảng tường cho khu vực phục vụ"
         ],
-        "stat": "$2K",
-        "statLabel": "thu hồi cho mỗi ca xấu - phát hiện, khắc phục và đo lường trước khi đóng ca"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1823,8 +1823,8 @@ export const generatedLocalCopy = {
           "Phân bổ ROI tiếp thị",
           "Công cụ tương quan Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "lĩnh vực vận hành, đối chiếu lẫn nhau"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1873,8 +1873,8 @@ export const generatedLocalCopy = {
           "পোর্টফোলিও লিডারবোর্ড",
           "সার্ভিস ফ্লোরের জন্য ওয়ালবোর্ড মোড"
         ],
-        "stat": "$2K",
-        "statLabel": "প্রতি খারাপ শিফটে পুনরুদ্ধার - শনাক্ত, সংশোধন এবং বন্ধের আগে পরিমাপ করা"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -1921,8 +1921,8 @@ export const generatedLocalCopy = {
           "বিপণন ROI অ্যাট্রিবিউশন",
           "Cross-Intelligence কোরিলেশন ইঞ্জিন"
         ],
-        "stat": "12",
-        "statLabel": "পরিচালন ক্ষেত্র, পরস্পর সম্পর্কিত"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -1971,8 +1971,8 @@ export const generatedLocalCopy = {
           "Portföljens topplista",
           "Wallboard-läge för golvet"
         ],
-        "stat": "$2K",
-        "statLabel": "återvunnet per dåligt skift - upptäckt, åtgärdat och mätt före stängning"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -2019,8 +2019,8 @@ export const generatedLocalCopy = {
           "Marknadsföring ROI attribution",
           "Cross-Intelligence korrelationsmotor"
         ],
-        "stat": "12",
-        "statLabel": "verksamhetsområden, korsvis kopplade"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -2069,8 +2069,8 @@ export const generatedLocalCopy = {
           "ลีดเดอร์บอร์ดพอร์ตโฟลิโอ",
           "โหมดวอลล์บอร์ดสำหรับหน้าร้าน"
         ],
-        "stat": "2,000 ดอลลาร์",
-        "statLabel": "กู้คืนได้ต่อกะที่อ่อนแอ - ตรวจพบ แก้ไข และวัดผลก่อนปิดกะ"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -2117,8 +2117,8 @@ export const generatedLocalCopy = {
           "การระบุแหล่งที่มา ROI ทางการตลาด",
           "เครื่องมือหาความสัมพันธ์ Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "ด้านการดำเนินงานที่เชื่อมโยงกัน"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",
@@ -2167,8 +2167,8 @@ export const generatedLocalCopy = {
           "Papan pendahulu portfolio",
           "Mod papan dinding untuk ruang layanan"
         ],
-        "stat": "$2K",
-        "statLabel": "dipulihkan setiap syif buruk - dikesan, dibetulkan dan diukur sebelum tutup"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Benchmarks",
@@ -2215,8 +2215,8 @@ export const generatedLocalCopy = {
           "Atribusi ROI pemasaran",
           "Enjin korelasi Cross-Intelligence"
         ],
-        "stat": "12",
-        "statLabel": "bidang operasi, saling dikaitkan"
+        "stat": "",
+        "statLabel": ""
       },
       {
         "name": "Ask Sundae",

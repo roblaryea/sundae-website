@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Gemessene Gewinnrückgewinnung, pro Entscheidung",
         "Sechs Intelligenzschichten, gastronomie-nativ",
-        "Über 500 verwaltete Gastronomie-Datenmodelle",
+        "Ein einheitliches Lagebild zu Umsatz, Personal, Kosten und Gästen. Wählen Sie das Sundae Core‑Paket, das zu den Entscheidungswegen, der Geschwindigkeit und dem operativen Tiefgang Ihres Teams passt.",
         "Quellenbelegte Antworten in Sekunden",
         "12 Datenbereiche, vereint in einem einzigen Hauptbuch",
         "Echtzeit-Schichtintelligenz, keine Freitags-Rückblicke"
@@ -41,7 +41,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Gemeten winstherstel, per beslissing",
         "Zes intelligentielagen, horeca-native",
-        "500+ beheerde horeca-datamodellen",
+        "Één operationeel overzicht van omzet, personeel, kosten en gasten. Kies het Sundae Core-pakket dat past bij de beslissingen, snelheid en operationele diepgang die uw team nodig heeft.",
         "Antwoorden met bronvermelding in seconden",
         "12 datadomeinen verenigd in één grootboek",
         "Live shift-intelligentie, geen vrijdagsamenvattingen"
@@ -64,7 +64,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "استرداد أرباح مُقاس، مع كل قرار",
         "ست طبقات من الذكاء، مبنية أصلًا لخدمات الطعام",
-        "أكثر من 500 نموذج بيانات مُدار لخدمات الطعام",
+        "صورة تشغيلية واحدة عبر الإيرادات والعمالة والتكلفة والضيوف. اختر حزمة Sundae Core التي تناسب القرارات والسرعة وعمق التشغيل الذي يحتاجه فريقك.",
         "إجابات موثّقة بمصادرها في ثوانٍ",
         "12 مجال بيانات موحّدة في دفتر أستاذ واحد",
         "ذكاء فوري على مستوى الورديات، لا ملخّصات يوم الجمعة"
@@ -87,7 +87,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Recuperação de lucro medida, por decisão",
         "Seis camadas de inteligência, nativas da restauração",
-        "Mais de 500 modelos de dados de restauração governados",
+        "Uma visão operacional única de receitas, pessoal, custos e clientes. Escolha o pacote Core que corresponde às decisões, velocidade e profundidade operacional de que a sua equipa precisa.",
         "Respostas com fontes citadas em segundos",
         "12 domínios de dados unificados em um único livro-razão",
         "Inteligência de turno em tempo real, não resumos de sexta-feira"
@@ -110,7 +110,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Récupération de profit mesurée, à chaque décision",
         "Six couches d'intelligence, nativement pensées pour la restauration",
-        "Plus de 500 modèles de données de restauration gouvernés",
+        "Un seul tableau opérationnel des revenus, de la main-d'œuvre, des coûts et des clients. Choisissez l'offre Sundae Core qui correspond aux décisions, à la vitesse et à la profondeur opérationnelle dont votre équipe a besoin.",
         "Des réponses sourcées en quelques secondes",
         "12 domaines de données unifiés dans un seul grand livre",
         "Une intelligence de service en temps réel, pas des bilans du vendredi"
@@ -133,7 +133,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Recuperación de beneficio medida, en cada decisión",
         "Seis capas de inteligencia, nativas de la hostelería",
-        "Más de 500 modelos de datos de hostelería gobernados",
+        "Una visión operativa única de ingresos, mano de obra, costes y clientes. Elija el paquete Core que coincida con las decisiones, la velocidad y la profundidad operativa que su equipo necesita.",
         "Respuestas con fuentes citadas en segundos",
         "12 dominios de datos unificados en un único libro mayor",
         "Inteligencia de turno en tiempo real, no resúmenes del viernes"
@@ -156,7 +156,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "मापी गई मुनाफ़ा वसूली, हर निर्णय पर",
         "छह इंटेलिजेंस परतें, फ़ूड-सर्विस-नेटिव",
-        "500+ गवर्न किए गए फ़ूड-सर्विस डेटा मॉडल",
+        "राजस्व, श्रम, लागत और मेहमानों पर एक समेकित संचालन दृश्य। अपनी टीम की निर्णय‑गति और संचालन‑गहराई के अनुसार Core पैकेज चुनें।",
         "कुछ ही सेकंड में स्रोत-संदर्भित उत्तर",
         "एक ही लेजर में एकीकृत 12 डेटा डोमेन",
         "रियल-टाइम शिफ्ट इंटेलिजेंस, शुक्रवार की समीक्षा नहीं"
@@ -179,7 +179,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "ناپی گئی منافع کی وصولی، ہر فیصلے پر",
         "ذہانت کی چھ تہیں، فوڈ سروس کے لیے مقامی طور پر بنی",
-        "500+ گورنڈ فوڈ سروس ڈیٹا ماڈلز",
+        "آمدنی، مزدوری، لاگت اور مہمانوں کے بارے میں ایک واحد آپریٹنگ منظر۔ اپنی ٹیم کی فیصلے، رفتار اور آپریشنل گہرائی کے مطابق Core پیکج منتخب کریں۔",
         "سیکنڈوں میں ماخذ کے حوالے کے ساتھ جوابات",
         "ایک ہی لیجر میں متحد 12 ڈیٹا ڈومینز",
         "ریئل ٹائم شفٹ ذہانت، جمعہ کے خلاصے نہیں"
@@ -202,7 +202,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Recupero di profitto misurato, a ogni decisione",
         "Sei livelli di intelligenza, nativi della ristorazione",
-        "Oltre 500 modelli di dati per la ristorazione governati",
+        "Un'unica visione operativa su ricavi, personale, costi e ospiti. Scegli il pacchetto Core che si adatta alle decisioni, alla velocità e alla profondità operativa di cui il tuo team ha bisogno.",
         "Risposte con fonti citate in pochi secondi",
         "12 domini di dati unificati in un unico libro mastro",
         "Intelligenza di turno in tempo reale, non riepiloghi del venerdì"
@@ -225,7 +225,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "可量化的利润挽回，逐笔决策",
         "六个智能层，餐饮原生",
-        "500+ 个受治理的餐饮数据模型",
+        "在营收、劳务、成本与顾客方面形成统一的运营视图。选择与团队决策、速度和运营深度相符的 Sundae Core 套餐。",
         "数秒内给出附带来源引用的答案",
         "12 个数据域统一于一个账本",
         "实时班次智能，而非周五复盘"
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Zmierzone odzyskiwanie zysku, przy każdej decyzji",
         "Sześć warstw inteligencji, natywnych dla gastronomii",
-        "Ponad 500 zarządzanych modeli danych gastronomicznych",
+        "Jedny obraz operacyjny obejmujący przychody, pracę, koszty i gości. Wybierz pakiet Core, który odpowiada decyzjom, tempu i głębokości operacyjnej, jakich potrzebuje Twój zespół.",
         "Odpowiedzi z przypisami do źródeł w kilka sekund",
         "12 domen danych zjednoczonych w jednym rejestrze",
         "Inteligencja zmiany w czasie rzeczywistym, a nie piątkowe podsumowania"
@@ -271,7 +271,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "数値化された利益回収、意思決定ごとに",
         "6つのインテリジェンスレイヤー、飲食ネイティブ",
-        "500以上の管理された飲食データモデル",
+        "売上、人件費、コスト、ゲストを横断する単一の運用像。チームの判断、スピード、運用の深さに合ったCoreパッケージを選んでください。",
         "数秒で得られる出典付きの回答",
         "1つの元帳に統合された12のデータドメイン",
         "金曜日の振り返りではなく、リアルタイムのシフトインテリジェンス"
@@ -294,7 +294,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Pemulihan laba terukur, per keputusan",
         "Enam lapisan intelijen, asli layanan makanan",
-        "500+ model data layanan makanan yang terkelola",
+        "Satu tampilan operasi untuk pendapatan, tenaga kerja, biaya, dan tamu. Pilih paket Sundae Core yang sesuai dengan keputusan, kecepatan, dan kedalaman operasional yang dibutuhkan tim Anda.",
         "Jawaban dengan kutipan sumber dalam hitungan detik",
         "12 domain data disatukan dalam satu buku besar",
         "Intelijen shift langsung, bukan rekap hari Jumat"
@@ -317,7 +317,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Phục hồi lợi nhuận được đo lường, theo từng quyết định",
         "Sáu lớp trí tuệ, bản địa cho dịch vụ ăn uống",
-        "Hơn 500 mô hình dữ liệu dịch vụ ăn uống được quản trị",
+        "Một bức tranh vận hành duy nhất bao quát doanh thu, nhân công, chi phí và khách hàng. Chọn gói Sundae Core phù hợp với mức quyết định, tốc độ và độ sâu vận hành mà đội ngũ bạn cần.",
         "Câu trả lời có trích dẫn nguồn trong vài giây",
         "12 miền dữ liệu hợp nhất trong một sổ cái",
         "Trí tuệ ca làm theo thời gian thực, không phải tổng kết thứ Sáu"
@@ -340,7 +340,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Ölçülen kâr kurtarma, her kararda",
         "Altı zeka katmanı, yeme-içme sektörüne özgü",
-        "500+ yönetilen yeme-içme sektörü veri modeli",
+        "Gelir, işçilik, maliyet ve misafirler için tek işletme görünümü. Ekibinizin karar alma, hız ve işletme derinliğine uyan Sundae Core paketini seçin.",
         "Saniyeler içinde kaynak gösterilen yanıtlar",
         "Tek bir defterde birleştirilmiş 12 veri alanı",
         "Gerçek zamanlı vardiya zekası, Cuma özetleri değil"
@@ -363,7 +363,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Recuperare de profit măsurată, la fiecare decizie",
         "Șase straturi de inteligență, native pentru HoReCa",
-        "Peste 500 de modele de date pentru HoReCa, guvernate",
+        "O imagine operațională unificată pentru venituri, forță de muncă, costuri și clienți. Alege pachetul Sundae Core care se potrivește deciziilor, vitezei și adâncimii operaționale de care are nevoie echipa ta.",
         "Răspunsuri cu sursă citată în câteva secunde",
         "12 domenii de date unificate într-un singur registru",
         "Inteligență în timp real pentru schimburi, nu recapitulări de vineri"
@@ -386,7 +386,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "측정되는 이익 회수, 의사결정마다",
         "여섯 개의 인텔리전스 레이어, 외식 네이티브",
-        "500개 이상의 거버넌스가 적용된 외식 데이터 모델",
+        "매출, 인력, 비용, 고객을 아우르는 단일 운영 뷰. 팀이 필요로 하는 의사결정, 속도, 운영 깊이에 맞는 Core 패키지를 선택하세요.",
         "몇 초 만에 출처가 인용된 답변",
         "하나의 원장에 통합된 12개 데이터 도메인",
         "금요일 요약이 아닌 실시간 시프트 인텔리전스"
@@ -409,7 +409,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Uppmätt vinståtervinning, per beslut",
         "Sex intelligenslager, restaurangbransch-nativa",
-        "500+ styrda datamodeller för restaurangbranschen",
+        "En samlad bild av intäkter, personal, kostnader och gäster. Välj Sundae Core‑paketet som motsvarar de beslut, den takt och det driftsdjup ert team behöver.",
         "Källhänvisade svar på sekunder",
         "12 datadomäner förenade i en huvudbok",
         "Skiftintelligens i realtid, inte fredagssammanfattningar"
@@ -432,7 +432,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "การกู้คืนกำไรที่วัดผลได้ ในทุกการตัดสินใจ",
         "ชั้นข้อมูลอัจฉริยะหกชั้น เนทีฟสำหรับธุรกิจบริการอาหาร",
-        "โมเดลข้อมูลธุรกิจบริการอาหารที่มีการกำกับดูแลกว่า 500 โมเดล",
+        "ภาพปฏิบัติการเดียวครอบคลุมรายได้ แรงงาน ต้นทุน และลูกค้า เลือกแพ็กเกจ Sundae Core ที่ตรงกับการตัดสินใจ ความเร็ว และระดับการปฏิบัติการที่ทีมคุณต้องการ",
         "คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที",
         "โดเมนข้อมูล 12 โดเมนรวมอยู่ในบัญชีแยกประเภทเดียว",
         "ข้อมูลอัจฉริยะของกะแบบเรียลไทม์ ไม่ใช่การสรุปวันศุกร์"
@@ -455,7 +455,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "পরিমাপ করা মুনাফা পুনরুদ্ধার, প্রতিটি সিদ্ধান্তে",
         "ছয়টি ইন্টেলিজেন্স স্তর, ফুড সার্ভিস-নেটিভ",
-        "৫০০+ গভর্নড ফুড সার্ভিস ডেটা মডেল",
+        "আয়, শ্রম, খরচ ও অতিথিদের জুড়ে একটিই অপারেটিং ভিউ। আপনার টিমের সিদ্ধান্ত, গতি ও অপারেটিং গভীরতার সঙ্গে মানানসই Core প্যাকেজটি নির্বাচন করুন।",
         "কয়েক সেকেন্ডের মধ্যে উৎস-উল্লেখিত উত্তর",
         "একটি লেজারে একত্রিত ১২টি ডেটা ডোমেইন",
         "রিয়েল-টাইম শিফট ইন্টেলিজেন্স, শুক্রবারের রিক্যাপ নয়"
@@ -478,7 +478,7 @@ export const generatedLocalCopy = {
       "withSundae": [
         "Pemulihan untung yang diukur, setiap keputusan",
         "Enam lapisan kecerdasan, asli perkhidmatan makanan",
-        "500+ model data perkhidmatan makanan yang ditadbir",
+        "Satu gambaran operasi merentasi hasil, tenaga kerja, kos dan tetamu. Pilih pakej Core yang sepadan dengan keputusan, kelajuan dan kedalaman operasi yang pasukan anda perlukan.",
         "Jawapan dengan rujukan sumber dalam beberapa saat",
         "12 domain data disatukan dalam satu lejar",
         "Kecerdasan syif masa nyata, bukan ringkasan Jumaat"
