@@ -72,7 +72,7 @@ function SwatchTile({ s }: { s: Swatch }) {
 export function ColorSwatches() {
   return (
     <div className="space-y-10">
-      {/* The mark gradient — the brand's signature */}
+      {/* The mark gradient - the brand's signature */}
       <div>
         <div className="mb-3 flex items-center justify-between">
           <span className="eyebrow">Signature gradient</span>

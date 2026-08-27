@@ -16,7 +16,7 @@ import { LOC } from './locales/CrewProfileMobile.locales';
 // User-visible English copy. Proper nouns (Lena Moretti, Sundae — DIFC, DIFC,
 // EMP-0241) and pure dates stay inline and are NOT translated.
 const EN = {
-  orgName: 'Sundae — DIFC',
+  orgName: 'Sundae - DIFC',
   role: 'Server',
   statusActive: 'Active',
   tenureYears: 'yrs',

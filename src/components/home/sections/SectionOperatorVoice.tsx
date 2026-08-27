@@ -1,11 +1,12 @@
 'use client';
 
-import { Fragment, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { EditorialImage } from '@/components/ui/EditorialImage';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { useCta } from '@/lib/cta';
 import { operatorVoiceCopy } from './operatorVoiceCopy';
+import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 
 /**
  * Operator voice - the human-presence beat. Puts a real face on a page that is
@@ -23,15 +24,11 @@ const coral = { color: 'var(--accent-warm)' } as const;
 
 /** Split on the `*…*` emphasis marker → warm-coral span (shared convention). */
 function renderQuote(quote: string): ReactNode {
-  return quote.split(/\*([^*]+)\*/g).map((part, i) =>
-    i % 2 === 1 ? (
-      <span key={i} style={coral}>
+  return balanceEmphasisSentences(quote, (part, key) => (
+    <span key={key} style={coral}>
         {part}
       </span>
-    ) : (
-      <Fragment key={i}>{part}</Fragment>
-    )
-  );
+  ));
 }
 
 export function SectionOperatorVoice() {

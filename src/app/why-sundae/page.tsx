@@ -10,6 +10,7 @@ import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_page'
 import { whySundaeCreamCopy } from './whySundaeCreamCopy'
+import { balanceSentences } from '@/lib/balanceSentences';
 
 type WhySundaeCopy = {
   hero: {
@@ -53,9 +54,10 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "THE PROBLEM",
       title: "Three gaps costing you money every day",
-      description: "Every restaurant group we've worked with faces the same three challenges.",
+      description: "Every multi-location group we work with meets the same three gaps.",
     },
     differentiators: [
+      { title: "Closed-Loop Profit Recovery", description: "Fourteen detectors find the margin leaking across labour, procurement, waste, delivery and pricing. Each one becomes a single owned action, measured against a baseline frozen before the work starts. Sundae will not call a saving recovered until it has been measured.", icon: "intelligence", color: "bg-rose-600" },
       { title: "12-Domain Data Ingestion", description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting - all unified. No more disconnected systems.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "4D Intelligence Model", description: "What happened. How it compares to plan. Where you stand in the market. What to do next. Four dimensions of every decision.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "Intraday Recovery via Pulse", description: "Catch leakage as it happens, route the fix to the shift owner, and measure the recovered margin - before the shift is over.", icon: "speed", color: "bg-green-600" },
@@ -99,9 +101,10 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "المشكلة",
       title: "ثلاث فجوات تكلفك المال كل يوم",
-      description: "كل مجموعة مطاعم عملنا معها تواجه التحديات الثلاث نفسها.",
+      description: "كل مجموعة متعددة المواقع نعمل معها تواجه الفجوات الثلاث نفسها.",
     },
     differentiators: [
+      { title: "استرجاع الأرباح بحلقة مغلقة", description: "أربعة عشر كاشفاً تجد الأرباح المتسرّبة عبر العمالة والمشتريات والهدر والتوصيل والتسعير. تتحوّل كل فرصة إلى إجراء واحد بمسؤول واحد، ويُقاس مقابل خط أساس مجمّد قبل بدء العمل. ولا تعتبر Sundae أي توفير مستَرجعاً قبل قياسه.", icon: "intelligence", color: "bg-rose-600" },
       { title: "إدخال البيانات عبر 12 مجالاً", description: "POS والعمالة والمخزون والشراء والحجوزات والتوصيل والتسويق وتجربة الضيف وCRM والمحاسبة - كلها موحّدة.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "نموذج ذكاء رباعي الأبعاد", description: "ماذا حدث. كيف يقارن بالخطة. أين تقف في السوق. ماذا تفعل بعد ذلك.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "الاستعادة خلال اليوم عبر Pulse", description: "التقط التسرب لحظة حدوثه، ووجّه الإصلاح إلى مسؤول الوردية، وقِس الهامش المستعاد - قبل انتهاء الوردية.", icon: "speed", color: "bg-green-600" },
@@ -145,9 +148,10 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "LE PROBLÈME",
       title: "Trois écarts qui vous coûtent de l'argent chaque jour",
-      description: "Tous les groupes de restaurants avec lesquels nous avons travaillé rencontrent les mêmes trois défis.",
+      description: "Chaque groupe multi-sites avec lequel nous travaillons rencontre les memes trois manques.",
     },
     differentiators: [
+      { title: "Recuperation de marge en boucle fermee", description: "Quatorze detecteurs reperent la marge qui fuit sur la main-d'oeuvre, les achats, le gaspillage, la livraison et les prix. Chaque opportunite devient une action confiee a une seule personne, mesuree contre une base figee avant le debut du travail. Sundae ne declare aucune economie recuperee tant qu'elle n'a pas ete mesuree.", icon: "intelligence", color: "bg-rose-600" },
       { title: "Ingestion de données sur 12 domaines", description: "POS, main-d'œuvre, stock, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout unifié.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "Modèle d'intelligence 4D", description: "Ce qui s'est passé. Comment cela se compare au plan. Où vous vous situez sur le marché. Que faire ensuite.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "Récupération en cours de journée via Pulse", description: "Détectez la fuite en temps réel, confiez la correction au responsable de service et mesurez la marge récupérée - avant la fin du service.", icon: "speed", color: "bg-green-600" },
@@ -191,9 +195,10 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     problems: {
       eyebrow: "EL PROBLEMA",
       title: "Tres brechas que te cuestan dinero cada día",
-      description: "Todos los grupos de restaurantes con los que hemos trabajado enfrentan los mismos tres desafíos.",
+      description: "Cada grupo multilocal con el que trabajamos encuentra las mismas tres brechas.",
     },
     differentiators: [
+      { title: "Recuperacion de margen en circuito cerrado", description: "Catorce detectores encuentran el margen que se escapa en personal, compras, desperdicio, reparto y precios. Cada oportunidad se convierte en una accion con un unico responsable, medida contra una linea base congelada antes de empezar. Sundae no da por recuperado ningun ahorro hasta haberlo medido.", icon: "intelligence", color: "bg-rose-600" },
       { title: "Ingesta de datos de 12 dominios", description: "POS, mano de obra, inventario, compras, reservas, delivery, marketing, experiencia del huésped, CRM, contabilidad: todo unificado.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "Modelo de inteligencia 4D", description: "Qué pasó. Cómo se compara con el plan. Dónde estás en el mercado. Qué hacer después.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "Recuperación intradía via Pulse", description: "Detecta la fuga en el momento, asigna el arreglo al responsable del turno y mide el margen recuperado - antes de que termine el turno.", icon: "speed", color: "bg-green-600" },
@@ -237,7 +242,7 @@ export default function WhySundaePage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={copy.hero.badge} title={copy.hero.title} description={copy.hero.description} />
+      <PageHero badge={copy.hero.badge} title={balanceSentences(copy.hero.title)} description={copy.hero.description} />
 
       {/* Cream relief - early warm break right after the hero, before the long dark problems/comparison/roles stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
@@ -264,7 +269,7 @@ export default function WhySundaePage() {
                     <div className="lg:col-span-2 flex items-center justify-center p-6 bg-[var(--navy-deep)]">
                       <div className="text-center">
                         <div className="text-3xl font-bold text-accent-gradient">{["12", "4D", "Pulse", "Watchtower", "Q&A", "Multi"][index]}</div>
-                        <div className="text-xs text-[var(--text-muted)] uppercase tracking-wider mt-1">{index === 0 ? "domains" : index === 1 ? "model" : index === 2 ? "monitoring" : index === 3 ? "intelligence" : index === 4 ? "access" : "operators"}</div>
+                        <div className="text-xs text-[var(--text-muted)] uppercase tracking-wider mt-1">{index === 0 ? "operational areas" : index === 1 ? "model" : index === 2 ? "monitoring" : index === 3 ? "intelligence" : index === 4 ? "access" : "operators"}</div>
                       </div>
                     </div>
 

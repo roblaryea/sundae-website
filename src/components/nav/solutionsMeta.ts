@@ -44,7 +44,7 @@ export const ROLE_META: Record<string, SolutionMeta> = {
     Icon: Compass,
   },
   "/solutions/technology-teams": {
-    description: "12 domains, 500 models, zero plumbing.",
+    description: "The whole operation covered, with no plumbing to build.",
     Icon: Cable,
   },
   "/solutions/hr-teams": {

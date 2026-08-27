@@ -163,7 +163,7 @@ Para un portafolio de $45M, reducir la fuga por anulaciones/descuentos en 0.75 p
 
 **Paso 3: construye protocolos de investigación**
 
-- Cuando se detecten patrones, usa Sundae Intelligence para preguntar "¿por qué son altas las anulaciones en X?"
+- Cuando se detecten patrones, usa Ask Sundae para preguntar "¿por qué son altas las anulaciones en X?"
 - Revisa la inteligencia 4D que muestra el patrón frente al histórico, plan y benchmark
 - Investiga con datos concretos: "El mesero X anuló Y artículos valorados en Z dólares durante turnos específicos"
 - Distingue brechas de capacitación, problemas operativos o posible fraude
@@ -344,7 +344,7 @@ Para un portafolio de 30 ubicaciones, mejorar en 2 puntos el desempeño de los g
 **Paso 2: habilita el autoservicio del gerente**
 
 - Proporciona a cada gerente un dashboard de Sundae Core con el desempeño en tiempo real de su ubicación
-- Capacita a los gerentes para usar Sundae Intelligence en análisis autodirigido
+- Capacita a los gerentes para usar Ask Sundae en análisis autodirigido
 - Fomenta la revisión diaria: "¿Cómo me fue ayer frente al objetivo?"
 - Celebra a los gerentes que identifican y corrigen problemas de forma proactiva
 

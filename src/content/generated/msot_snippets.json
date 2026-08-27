@@ -1,7 +1,7 @@
 {
   "audiences": [
     {
-      "answer": "Sundae turns those scattered signals into a ranked decision loop: Pulse catches what is breaking during the shift, Insights explains why margin moved, and Sundae Intelligence answers in plain English with the recommended move and evidence behind it.",
+      "answer": "Sundae turns those scattered signals into a ranked decision loop: Pulse catches what is breaking during the shift, Insights explains why margin moved, and Ask Sundae answers in plain English with the recommended move and evidence behind it.",
       "pain": "I have data in five different systems. I make most decisions on gut feel because pulling reports takes hours and the answer arrives after the shift is gone.",
       "persona": "Restaurant Owner / GM"
     },
@@ -37,7 +37,7 @@
         "No real-time shift intelligence (Pulse)",
         "No industry benchmarking (Benchmark)",
         "No external/competitive intelligence (Watchtower)",
-        "No conversational data access (Sundae Intelligence)"
+        "No conversational data access (Ask Sundae)"
       ],
       "name": "Nory"
     },
@@ -110,7 +110,7 @@
       "title": "Network effect"
     },
     {
-      "description": "Sundae Intelligence lets operators ask plain-English questions and get evidence-backed answers without waiting for analysts",
+      "description": "Ask Sundae lets operators ask plain-English questions and get evidence-backed answers without waiting for analysts",
       "title": "Conversational AI"
     },
     {
@@ -195,7 +195,7 @@
         "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
         "Voice input via Web Speech API"
       ],
-      "name": "Sundae Intelligence",
+      "name": "Ask Sundae",
       "tagline": "Ask in plain English. Get the answer, the recommended move, and the evidence behind it."
     }
   ],
@@ -257,7 +257,7 @@
         "Voice input via Web Speech API",
         "Conversation folders with pinning"
       ],
-      "name": "Sundae Intelligence"
+      "name": "Ask Sundae"
     },
     {
       "blurb": "External market and competitive intelligence engine with 3 sections.",
@@ -303,7 +303,7 @@
   "proof": {
     "bullets": [
       "Crew turns schedules, punches, and pay cycles into labor truth for the decision loop.",
-      "Sundae Intelligence answers operator questions in plain English with the driver, recommendation, and evidence.",
+      "Ask Sundae answers operator questions in plain English with the driver, recommendation, and evidence.",
       "Watchtower turns competitors, events, weather, and reviews into weekly moves.",
       "Insights explains why margin moved and what to do next.",
       "Pulse catches the broken shift while there is still time to fix it.",

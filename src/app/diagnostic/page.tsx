@@ -216,9 +216,9 @@ export default function DiagnosticPage() {
           {(() => {
             const canResume = !!savedProgress && answeredCount(savedProgress.responses) > 0;
             const RESUME_COPY: Record<string, { resume: string; fresh: string; note: (n: number) => string }> = {
-              en: { resume: "Resume your diagnostic", fresh: "Start fresh", note: (n) => `We saved your progress on this device — ${n} question${n === 1 ? "" : "s"} answered.` },
-              ar: { resume: "استأنف تشخيصك", fresh: "ابدأ من جديد", note: (n) => `حفظنا تقدمك على هذا الجهاز — تمت الإجابة على ${n} سؤال.` },
-              fr: { resume: "Reprendre votre diagnostic", fresh: "Recommencer", note: (n) => `Nous avons enregistré votre progression sur cet appareil — ${n} question(s) répondues.` },
+              en: { resume: "Resume your diagnostic", fresh: "Start fresh", note: (n) => `We saved your progress on this device - ${n} question${n === 1 ? "" : "s"} answered.` },
+              ar: { resume: "استأنف تشخيصك", fresh: "ابدأ من جديد", note: (n) => `حفظنا تقدمك على هذا الجهاز - تمت الإجابة على ${n} سؤال.` },
+              fr: { resume: "Reprendre votre diagnostic", fresh: "Recommencer", note: (n) => `Nous avons enregistré votre progression sur cet appareil - ${n} question(s) répondues.` },
             };
             const rl = RESUME_COPY[locale as keyof typeof RESUME_COPY] ?? RESUME_COPY.en;
             if (canResume) {

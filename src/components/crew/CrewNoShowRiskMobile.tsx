@@ -21,7 +21,7 @@ import { LOC } from './locales/CrewNoShowRiskMobile.locales';
 
 const EN = {
   // header
-  orgName: 'Sundae — DIFC',
+  orgName: 'Sundae - DIFC',
   // title
   title: 'No-show risk',
   tonight: 'Tonight',
@@ -30,7 +30,7 @@ const EN = {
   riskEyebrow: 'Risk',
   tonightLower: 'tonight',
   shifts: 'shifts',
-  verdictBody: 'Two shifts likely to go uncovered tonight — line up cover early.',
+  verdictBody: 'Two shifts likely to go uncovered tonight - line up cover early.',
   // section
   atRiskShifts: 'At-risk shifts',
   // risk badge suffix ("68% risk")
@@ -253,7 +253,7 @@ export function CrewNoShowRiskMobile() {
         name="Jonas Dietrich"
         role={`${t.roleBar} · JBR`}
         risk={`68% ${t.riskSuffix}`}
-        time="8:00 PM – 2:00 AM · JBR"
+        time="8:00 PM - 2:00 AM · JBR"
         drivers={[t.driverNoClockIn.replace('{n}', '2'), t.driverLateThisMonth.replace('{n}', '3')]}
         ctaLabel={t.lineUpCover}
       />
@@ -264,7 +264,7 @@ export function CrewNoShowRiskMobile() {
         name="Mona Aziz"
         role={`${t.roleServer} · DIFC`}
         risk={`54% ${t.riskSuffix}`}
-        time="6:00 PM – 12:00 AM · DIFC"
+        time="6:00 PM - 12:00 AM · DIFC"
         drivers={[t.driverSwappedTwice, t.driverOpenRequest]}
         ctaLabel={t.lineUpCover}
       />

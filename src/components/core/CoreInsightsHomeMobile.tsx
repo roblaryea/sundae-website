@@ -27,7 +27,7 @@ const EN = {
   updatedJustNow: 'Updated just now',
   healthy: 'Healthy',
   verdictBody:
-    'Revenue and profit are ahead of plan. Two areas want a look — delivery and labour — neither is urgent.',
+    'Revenue and profit are ahead of plan. Two areas want a look - delivery and labour - neither is urgent.',
   critical: 'critical',
   watch: 'watch',
   healthyCount: 'healthy',

@@ -24,12 +24,13 @@ import { pulseCreamCopy } from "./pulseCreamCopy";
 import { CoreMobileShowcase } from "@/components/core/CoreMobileShowcase";
 import { CorePulseFloorMobile } from "@/components/core/CorePulseFloorMobile";
 import { CoreHomeMobile } from "@/components/core/CoreHomeMobile";
+import { balanceSentences } from '@/lib/balanceSentences';
 
 const localizedPulseCopy = {
   en: {
     hero: {
       badge: "Pulse - Intraday Operations",
-      title: "$2K Lost Per Bad Shift. Pulse Catches It Live.",
+      title: "A Bad Shift Cannot Be Re-Run. Pulse Catches It Live.",
       description:
         "Revenue pacing, labor cost, server performance, and leakage detection - updating every 5 minutes. Adaptive targets that learn your patterns, seasonality, and local events. Act before it costs you.",
       primary: "Book a Demo",
@@ -115,7 +116,7 @@ const localizedPulseCopy = {
       },
       {
         title: "Leakage Monitoring",
-        headline: "2-5% of Revenue Leaks Every Month",
+        headline: "Voids, Comps and Discounts, Against Your Own Baseline",
         description:
           "Voids, discounts, comps, and refunds - tracked in real time against your baselines. Pulse flags when leakage rates spike, identifies the servers, items, and time windows involved, and alerts you before small issues become expensive patterns - then routes the fix to an accountable owner and measures the recovered margin back against baseline.",
         capabilities: [
@@ -203,7 +204,7 @@ const localizedPulseCopy = {
         eyebrow: "SERVER INTELLIGENCE",
         heading: "From Leaderboard to Coaching Tool",
         description:
-          "See who's driving your revenue and who needs support - in real time. Filter by hour, by service phase, or compare against last week. Every server gets a productivity score, an hourly breakdown, and auto-detected strengths and improvement areas. The best restaurants don't just track servers - they develop them.",
+          "See who's driving your revenue and who needs support - in real time. Filter by hour, by service phase, or compare against last week. Every server gets a productivity score, an hourly breakdown, and auto-detected strengths and improvement areas. The best operators do not just track servers - they develop them.",
       },
       cost: {
         eyebrow: "SHIFT COSTING",
@@ -241,7 +242,7 @@ const localizedPulseCopy = {
   ar: {
     hero: {
       badge: "Pulse - عمليات داخل اليوم",
-      title: "خسارة 2,000 دولار لكل وردية سيئة. Pulse يلتقطها مباشرة.",
+      title: "الوردية السيئة لا تُعاد. Pulse يلتقطها مباشرة.",
       description:
         "وتيرة الايرادات وتكلفة العمالة واداء الموظفين ومراقبة التسرب - تتحدث كل 5 دقائق. اهداف تكيفية تتعلم من انماطك والموسمية والاحداث المحلية. تحرك قبل ان تدفع الثمن.",
       primary: "احجز عرضاً",
@@ -327,7 +328,7 @@ const localizedPulseCopy = {
       },
       {
         title: "مراقبة التسرب",
-        headline: "2-5% من الايرادات تتسرب شهرياً",
+        headline: "الإلغاءات والمجانيات والخصومات، مقابل خط أساسك أنت",
         description:
           "الإلغاءات والخصومات والهدايا والاستردادات - تتبع في الوقت الحقيقي مقابل خطوطك الاساسية. يحدد Pulse عندما ترتفع معدلات التسرب، ويعرف الموظفين والاصناف والنافذات الزمنية المرتبطة، وينبهك قبل ان تتحول المشكلات الصغيرة الى انماط مكلفة - ثم يوجّه الإصلاح إلى مالك مسؤول ويقيس الهامش المُستَرد مقابل خط الأساس.",
         capabilities: [
@@ -751,7 +752,7 @@ const localizedPulseCopy = {
       },
       {
         title: "Monitoreo de fugas",
-        headline: "2-5% de los ingresos se fugan cada mes",
+        headline: "Anulaciones, invitaciones y descuentos, frente a tu propia referencia",
         description:
           "Void, descuentos, comps y reembolsos - rastreados en tiempo real contra tus bases. Pulse marca cuando suben las fugas, identifica los servidores, items y ventanas de tiempo involucradas, y te alerta antes de que los pequeños problemas se vuelvan patrones costosos - luego dirige la corrección a un responsable asignado y mide el margen recuperado frente a la línea de base.",
         capabilities: [
@@ -1305,7 +1306,7 @@ export default function PulsePage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.quickGrid.heading}</h2>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{balanceSentences(ui.quickGrid.heading)}</h2>
             <p className="body-lg text-[var(--text-supporting)] mb-12">{ui.quickGrid.description}</p>
           </FadeUp>
 

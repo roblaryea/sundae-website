@@ -18,7 +18,7 @@ import { LOC } from './locales/CorePulseFloorMobile.locales';
 const EN = {
   floorMode: 'Floor Mode',
   twoMinAgo: '2m ago',
-  subtitle: 'Intraday Operations Monitor — detect, act, confirm within the shift.',
+  subtitle: 'Intraday Operations Monitor - detect, act, confirm within the shift.',
   shiftSnapshot: 'Shift snapshot',
   watch: 'Watch',
   dinnerBehind: 'Dinner · slightly behind pace',

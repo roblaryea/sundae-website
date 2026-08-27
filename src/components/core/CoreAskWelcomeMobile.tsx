@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Faithful implementation of Sundae Intelligence "Ask — Welcome / empty state"
+ * Faithful implementation of Ask Sundae "Ask — Welcome / empty state"
  * (dark variant) from the Claude Design source — a warm opener with a scope chip,
  * pulsing Sundae mark, tappable starter prompts with topic tags, and the command
  * bar (mic · text · send) pinned in the thumb zone. Same cool-slate token set as
@@ -18,7 +18,7 @@ const EN = {
   headlineL1: 'Ask Sundae anything',
   headlineL2: 'about your business',
   subhead:
-    'Revenue, labor, menu, guests — in plain language. Answers come with the evidence and a next step.',
+    'Revenue, labor, menu, guests - in plain language. Answers come with the evidence and a next step.',
   tryAsking: 'Try asking',
   q1: 'Why was revenue down yesterday?',
   q1Tag: 'Revenue · DIFC',
@@ -28,7 +28,7 @@ const EN = {
   q3Tag: 'Labor',
   q4: 'Which outlet is most profitable?',
   q4Tag: 'Portfolio',
-  inputPlaceholder: 'Ask Sundae anything…',
+  inputPlaceholder: 'Ask Sundae anything...',
 } as const;
 
 const T = {
@@ -145,7 +145,7 @@ export function CoreAskWelcomeMobile() {
             S
           </span>
           <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>
-            Sundae — DIFC
+            Sundae - DIFC
           </span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>▾</span>
         </span>

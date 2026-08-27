@@ -21,7 +21,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'متأخّر',
     market: 'السوق',
     biggestGapLabel: 'أكبر فجوة',
-    biggestGapBody: 'الإيراد لكل مقعد بالساعة دون الربع الأعلى — بطء دوران البار في أول المساء.',
+    biggestGapBody: 'الإيراد لكل مقعد بالساعة دون الربع الأعلى - بطء دوران البار في أول المساء.',
     seeFullBenchmarks: 'عرض المقارنات كاملة',
   },
   fr: {
@@ -42,7 +42,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'de retard',
     market: 'marché',
     biggestGapLabel: 'Plus grand écart',
-    biggestGapBody: 'Le RevPASH est sous le quartile supérieur — rotations du bar lentes en début de soirée.',
+    biggestGapBody: 'Le RevPASH est sous le quartile supérieur - rotations du bar lentes en début de soirée.',
     seeFullBenchmarks: 'Voir tous les benchmarks',
   },
   es: {
@@ -63,7 +63,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'por detrás',
     market: 'mercado',
     biggestGapLabel: 'Mayor brecha',
-    biggestGapBody: 'El RevPASH está por debajo del cuartil superior — rotación lenta de barra a primera hora de la noche.',
+    biggestGapBody: 'El RevPASH está por debajo del cuartil superior - rotación lenta de barra a primera hora de la noche.',
     seeFullBenchmarks: 'Ver todos los benchmarks',
   },
   de: {
@@ -84,7 +84,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'zurück',
     market: 'Markt',
     biggestGapLabel: 'Größte Lücke',
-    biggestGapBody: 'RevPASH unter dem oberen Quartil — langsamer Bar-Umschlag am frühen Abend.',
+    biggestGapBody: 'RevPASH unter dem oberen Quartil - langsamer Bar-Umschlag am frühen Abend.',
     seeFullBenchmarks: 'Alle Benchmarks ansehen',
   },
   nl: {
@@ -105,7 +105,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'achterstand',
     market: 'markt',
     biggestGapLabel: 'Grootste verschil',
-    biggestGapBody: 'RevPASH blijft onder het topkwartiel — trage baromzet in de vroege avond.',
+    biggestGapBody: 'RevPASH blijft onder het topkwartiel - trage baromzet in de vroege avond.',
     seeFullBenchmarks: 'Alle benchmarks bekijken',
   },
   pt: {
@@ -126,7 +126,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'atrás',
     market: 'mercado',
     biggestGapLabel: 'Maior lacuna',
-    biggestGapBody: 'O RevPASH está abaixo do quartil superior — rotação lenta do bar no início da noite.',
+    biggestGapBody: 'O RevPASH está abaixo do quartil superior - rotação lenta do bar no início da noite.',
     seeFullBenchmarks: 'Ver todos os benchmarks',
   },
   hi: {
@@ -147,7 +147,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'पीछे',
     market: 'बाज़ार',
     biggestGapLabel: 'सबसे बड़ा अंतर',
-    biggestGapBody: 'RevPASH शीर्ष चौथाई से पीछे है — शाम की शुरुआत में बार का धीमा टर्न।',
+    biggestGapBody: 'RevPASH शीर्ष चौथाई से पीछे है - शाम की शुरुआत में बार का धीमा टर्न।',
     seeFullBenchmarks: 'पूरे बेंचमार्क देखें',
   },
   ur: {
@@ -168,7 +168,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'پیچھے',
     market: 'مارکیٹ',
     biggestGapLabel: 'سب سے بڑا فرق',
-    biggestGapBody: 'RevPASH اعلیٰ چوتھائی سے پیچھے ہے — شام کے آغاز میں بار کی سست گردش۔',
+    biggestGapBody: 'RevPASH اعلیٰ چوتھائی سے پیچھے ہے - شام کے آغاز میں بار کی سست گردش۔',
     seeFullBenchmarks: 'مکمل بینچ مارکس دیکھیں',
   },
   it: {
@@ -189,7 +189,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'di ritardo',
     market: 'mercato',
     biggestGapLabel: 'Divario maggiore',
-    biggestGapBody: 'Il RevPASH è sotto il quartile superiore — rotazione lenta del bar nel primo serale.',
+    biggestGapBody: 'Il RevPASH è sotto il quartile superiore - rotazione lenta del bar nel primo serale.',
     seeFullBenchmarks: 'Vedi tutti i benchmark',
   },
   pl: {
@@ -210,7 +210,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'straty',
     market: 'rynek',
     biggestGapLabel: 'Największa luka',
-    biggestGapBody: 'RevPASH poniżej górnego kwartyla — wolna rotacja baru wczesnym wieczorem.',
+    biggestGapBody: 'RevPASH poniżej górnego kwartyla - wolna rotacja baru wczesnym wieczorem.',
     seeFullBenchmarks: 'Zobacz wszystkie benchmarki',
   },
   tr: {
@@ -231,7 +231,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'geride',
     market: 'pazar',
     biggestGapLabel: 'En büyük fark',
-    biggestGapBody: 'RevPASH üst çeyreğin altında — akşam başında bar dönüşü yavaş.',
+    biggestGapBody: 'RevPASH üst çeyreğin altında - akşam başında bar dönüşü yavaş.',
     seeFullBenchmarks: 'Tüm kıyaslamaları gör',
   },
   'zh-Hans': {
@@ -252,7 +252,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: '落后',
     market: '市场',
     biggestGapLabel: '最大差距',
-    biggestGapBody: 'RevPASH 落后于前四分位——傍晚初段吧台周转偏慢。',
+    biggestGapBody: 'RevPASH 落后于前四分位----傍晚初段吧台周转偏慢。',
     seeFullBenchmarks: '查看完整对标',
   },
   ja: {
@@ -273,7 +273,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: '遅れ',
     market: '市場',
     biggestGapLabel: '最大の差',
-    biggestGapBody: 'RevPASHが上位四分位に届かず — 宵の口のバー回転が遅い。',
+    biggestGapBody: 'RevPASHが上位四分位に届かず--宵の口のバー回転が遅い。',
     seeFullBenchmarks: '全ベンチマークを見る',
   },
   ko: {
@@ -294,7 +294,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: '뒤처짐',
     market: '시장',
     biggestGapLabel: '가장 큰 격차',
-    biggestGapBody: 'RevPASH가 상위 4분위에 못 미침 — 초저녁 바 회전이 느림.',
+    biggestGapBody: 'RevPASH가 상위 4분위에 못 미침--초저녁 바 회전이 느림.',
     seeFullBenchmarks: '전체 벤치마크 보기',
   },
   id: {
@@ -315,7 +315,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'tertinggal',
     market: 'pasar',
     biggestGapLabel: 'Selisih terbesar',
-    biggestGapBody: 'RevPASH di bawah kuartil atas — perputaran bar lambat di awal malam.',
+    biggestGapBody: 'RevPASH di bawah kuartil atas - perputaran bar lambat di awal malam.',
     seeFullBenchmarks: 'Lihat semua tolok ukur',
   },
   vi: {
@@ -336,7 +336,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'tụt lại',
     market: 'thị trường',
     biggestGapLabel: 'Khoảng cách lớn nhất',
-    biggestGapBody: 'RevPASH dưới nhóm tứ phân vị đầu — quầy bar xoay vòng chậm đầu buổi tối.',
+    biggestGapBody: 'RevPASH dưới nhóm tứ phân vị đầu - quầy bar xoay vòng chậm đầu buổi tối.',
     seeFullBenchmarks: 'Xem toàn bộ đối chuẩn',
   },
   ro: {
@@ -357,7 +357,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'în urmă',
     market: 'piață',
     biggestGapLabel: 'Cea mai mare diferență',
-    biggestGapBody: 'RevPASH sub cuartila superioară — rotație lentă a barului seara devreme.',
+    biggestGapBody: 'RevPASH sub cuartila superioară - rotație lentă a barului seara devreme.',
     seeFullBenchmarks: 'Vezi toate benchmarkurile',
   },
   sv: {
@@ -378,7 +378,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'efter',
     market: 'marknad',
     biggestGapLabel: 'Största gapet',
-    biggestGapBody: 'RevPASH under översta kvartilen — långsam baromsättning tidig kväll.',
+    biggestGapBody: 'RevPASH under översta kvartilen - långsam baromsättning tidig kväll.',
     seeFullBenchmarks: 'Se alla benchmarks',
   },
   bn: {
@@ -399,7 +399,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'পিছিয়ে',
     market: 'বাজার',
     biggestGapLabel: 'সবচেয়ে বড় ব্যবধান',
-    biggestGapBody: 'RevPASH শীর্ষ চতুর্থাংশের নিচে — সন্ধ্যার শুরুতে বারের ধীর টার্ন।',
+    biggestGapBody: 'RevPASH শীর্ষ চতুর্থাংশের নিচে - সন্ধ্যার শুরুতে বারের ধীর টার্ন।',
     seeFullBenchmarks: 'সম্পূর্ণ বেঞ্চমার্ক দেখুন',
   },
   th: {
@@ -420,7 +420,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'ตามหลัง',
     market: 'ตลาด',
     biggestGapLabel: 'ช่องว่างมากที่สุด',
-    biggestGapBody: 'RevPASH ต่ำกว่าควอไทล์บน — บาร์หมุนเวียนช้าช่วงต้นค่ำ',
+    biggestGapBody: 'RevPASH ต่ำกว่าควอไทล์บน - บาร์หมุนเวียนช้าช่วงต้นค่ำ',
     seeFullBenchmarks: 'ดูเกณฑ์เปรียบเทียบทั้งหมด',
   },
   ms: {
@@ -441,7 +441,7 @@ export const LOC: Record<string, Record<string, string>> = {
     behind: 'ketinggalan',
     market: 'pasaran',
     biggestGapLabel: 'Jurang terbesar',
-    biggestGapBody: 'RevPASH di bawah kuartil teratas — pusing ganti bar perlahan awal malam.',
+    biggestGapBody: 'RevPASH di bawah kuartil teratas - pusing ganti bar perlahan awal malam.',
     seeFullBenchmarks: 'Lihat semua penanda aras',
   },
 };

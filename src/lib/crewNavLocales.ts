@@ -24,7 +24,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "Payroll",
-        "description": "Pay-ready in 39+ countries",
+        "description": "Pay-ready in 36+ countries",
         "href": "/crew/payroll"
       },
       {
@@ -189,7 +189,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "Salaris",
-        "description": "Klaar om uit te betalen in 39+ landen",
+        "description": "Klaar om uit te betalen in 36+ landen",
         "href": "/crew/payroll"
       },
       {
@@ -255,7 +255,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "पेरोल",
-        "description": "39+ देशों में भुगतान के लिए तैयार",
+        "description": "36+ देशों में भुगतान के लिए तैयार",
         "href": "/crew/payroll"
       },
       {
@@ -387,7 +387,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "Bordro",
-        "description": "39+ ülkede ödemeye hazır",
+        "description": "36+ ülkede ödemeye hazır",
         "href": "/crew/payroll"
       },
       {
@@ -420,7 +420,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "薪资",
-        "description": "可在 39+ 个国家发薪",
+        "description": "可在 36+ 个国家发薪",
         "href": "/crew/payroll"
       },
       {
@@ -519,7 +519,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "Penggajian",
-        "description": "Siap bayar di 39+ negara",
+        "description": "Siap bayar di 36+ negara",
         "href": "/crew/payroll"
       },
       {
@@ -618,7 +618,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "Lön",
-        "description": "Redo att betala i 39+ länder",
+        "description": "Redo att betala i 36+ länder",
         "href": "/crew/payroll"
       },
       {
@@ -684,7 +684,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "เงินเดือน",
-        "description": "พร้อมจ่ายใน 39+ ประเทศ",
+        "description": "พร้อมจ่ายใน 36+ ประเทศ",
         "href": "/crew/payroll"
       },
       {
@@ -717,7 +717,7 @@ export const crewNavLocales: Record<string, CrewNav> = {
       },
       {
         "name": "Gaji",
-        "description": "Sedia bayar di 39+ negara",
+        "description": "Sedia bayar di 36+ negara",
         "href": "/crew/payroll"
       },
       {

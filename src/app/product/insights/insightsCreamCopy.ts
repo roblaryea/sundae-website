@@ -100,8 +100,8 @@ export const insightsCreamCopy: Record<string, InsightsCreamCopy> = {
   },
   ko: {
     eyebrow: '대시보드에서 결정으로',
-    statement: '모든 모듈은 정말 중요한 단 하나의 질문에 답합니다 - *다음에 무엇을 해야 하는가?*',
-    lede: 'Insights는 열두 갈래의 운영 데이터를 모든 역할을 위한 하나의 명확한 다음 단계로 바꿉니다 - 현장에서도, 백오피스에서도.',
+    statement: '모든 모듈은 정말 중요한 단 하나의 질문에 답합니다--*다음에 무엇을 해야 하는가?*',
+    lede: 'Insights는 열두 갈래의 운영 데이터를 모든 역할을 위한 하나의 명확한 다음 단계로 바꿉니다--현장에서도, 백오피스에서도.',
   },
   id: {
     eyebrow: 'DARI DASBOR KE KEPUTUSAN',

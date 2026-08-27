@@ -41,9 +41,9 @@ export const EconomicsSchema = z.object({
     basis: z.string().describe('One line: which SKUs × outlet band drove it; call it a starting footprint, not a quote'),
   }),
   currentSpend: z.object({
-    range: z.string().describe('Like-for-like "what you spend on this today" — the LOADED cost of the tools + in-house analyst time Sundae consolidates (software slice + reporting headcount). NOT a savings figure. e.g. "$2,100-5,400 / mo"'),
+    range: z.string().describe('Like-for-like "what you spend on this today" - the LOADED cost of the tools + in-house analyst time Sundae consolidates (software slice + reporting headcount). NOT a savings figure. e.g. "$2,100-5,400 / mo"'),
     basis: z.string().describe('One line: the consolidatable software slice of their stated SaaS band PLUS the loaded in-house reporting time (from their analyst headcount). State it is loaded and directional, never a quote.'),
-    net: z.string().describe('Honest one-line delta of monthlyCost vs this loaded current spend. If the investment is higher, say so plainly ("≈ +$X/mo over today\'s loaded spend, for one consolidated platform…before the EBITDA return"); only call it a net saving when the investment is genuinely lower. NEVER imply a saving the numbers contradict.'),
+    net: z.string().describe('Honest one-line delta of monthlyCost vs this loaded current spend. If the investment is higher, say so plainly ("≈ +$X/mo over today\'s loaded spend, for one consolidated platform...before the EBITDA return"); only call it a net saving when the investment is genuinely lower. NEVER imply a saving the numbers contradict.'),
   }),
   ebitdaUplift: z.object({
     pctRange: z.string().describe('EBITDA-margin point uplift range, conservative and consistent with the expectedImpact margin lift e.g. "+1-3 margin points"'),

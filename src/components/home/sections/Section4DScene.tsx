@@ -220,7 +220,7 @@ export function Section4DScene() {
 
         {/* Compact scenario hook */}
         <div className="text-center max-w-3xl mx-auto mb-5 sm:mb-6">
-          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold mb-3">
+          <div className="eyebrow mb-3">
             {copy.scenarioTime}
           </div>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
@@ -242,7 +242,7 @@ export function Section4DScene() {
         >
           {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
               Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
-          {/* Through-line stepper — numbered nodes joined by a connector that
+          {/* Through-line stepper - numbered nodes joined by a connector that
               fills as the scenario reasons forward (what happened → the fix). */}
           <div className="relative mx-auto mb-5 sm:mb-6 max-w-2xl">
             <div className="absolute left-[12.5%] right-[12.5%] top-[15px] h-0.5 rounded-full bg-[var(--border-default)]" aria-hidden />

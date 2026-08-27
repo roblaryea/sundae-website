@@ -19,7 +19,7 @@ import { crewMoney } from '../crew/crewCurrency';
 import { LOC } from './locales/CoreWatchtowerMobile.locales';
 
 const EN = {
-  orgChip: 'Sundae — DIFC',
+  orgChip: 'Sundae - DIFC',
   headerTitle: 'Watchtower',
   headerSub: '· market signals',
   verdict: 'Verdict · near you',
@@ -34,7 +34,7 @@ const EN = {
   pillWatch: 'Watch',
 
   // Signal 2 — event (info)
-  sig2Title: 'Big event Friday — DIFC',
+  sig2Title: 'Big event Friday - DIFC',
   sig2Meaning: 'concert 400m away, expect +18% covers',
   sig2Action: 'staff up + prep stock',
   pillOpportunity: 'Opportunity',

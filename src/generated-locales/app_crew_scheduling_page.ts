@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · الجدولة",
     "heroLine1": "ابنِ جدول العمل",
     "heroLine2": "في دقائق، لا ساعات.",
-    "description": "تحوّل Crew Scheduling الطلب إلى جدول عمل يثق به فريقك فعلاً. يصيغه AI Builder انطلاقاً من توقعاتك ومزيج الأدوار ومن هو متاح؛ يعدّله المديرون عبر أربعة عروض؛ ويرى الموظفون مناوبتهم القادمة، ويؤكدونها، ويتبادلونها — كل ذلك من هواتفهم.",
+    "description": "تحوّل Crew Scheduling الطلب إلى جدول عمل يثق به فريقك فعلاً. يصيغه AI Builder انطلاقاً من توقعاتك ومزيج الأدوار ومن هو متاح؛ يعدّله المديرون عبر أربعة عروض؛ ويرى الموظفون مناوبتهم القادمة، ويؤكدونها، ويتبادلونها - كل ذلك من هواتفهم.",
     "primaryCta": "احجز جولة تعريفية على Crew",
     "secondaryCta": "شاهد Crew أثناء العمل",
     "heroProof": [
@@ -28,12 +28,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "ما الذي تضمّه الجدولة",
-    "featuresTitle": "كل ما يحتاجه الجدول — في مكان واحد.",
+    "featuresTitle": "كل ما يحتاجه الجدول - في مكان واحد.",
     "featuresDescription": "مصمَّم لصالة العمل اليومية، لا لعرضٍ تجريبي: طلبٌ يدخل، وجدولٌ منشور يخرج، وكل مناوبة تتدفق عائدةً إلى قراراتك.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "يصيغ الأسبوع من توقعاتك ومزيج الأدوار ومن هو متاح — في خطوة واحدة. أنت تنقّحه؛ ولا تبدأ أبداً من شبكة فارغة.",
+        "body": "يصيغ الأسبوع من توقعاتك ومزيج الأدوار ومن هو متاح - في خطوة واحدة. أنت تنقّحه؛ ولا تبدأ أبداً من شبكة فارغة.",
         "chips": [
           "مدركٌ للطلب",
           "مزيج الأدوار",
@@ -42,7 +42,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "أربع طرق للعرض",
-        "body": "اقرأ الأسبوع ذاته وعدّله حسب النظرة العامة، أو حسب الشخص، أو حسب المناوبة، أو حسب الدور — أيّاً كان السؤال الذي تجيب عنه.",
+        "body": "اقرأ الأسبوع ذاته وعدّله حسب النظرة العامة، أو حسب الشخص، أو حسب المناوبة، أو حسب الدور - أيّاً كان السؤال الذي تجيب عنه.",
         "chips": [
           "حسب اليوم",
           "حسب الشخص",
@@ -51,7 +51,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "الأشخاص المناسبون فقط",
-        "body": "لا يُسنَد إلى المناوبة إلا الموظفون المؤهلون والمتاحون. تظهر التعارضات والعمل الإضافي وتنبيهات التدريب المنتهي قبل النشر — لا بعده.",
+        "body": "لا يُسنَد إلى المناوبة إلا الموظفون المؤهلون والمتاحون. تظهر التعارضات والعمل الإضافي وتنبيهات التدريب المنتهي قبل النشر - لا بعده.",
         "chips": [
           "الأشخاص المناسبون",
           "تنبيهات التعارض",
@@ -78,7 +78,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule على الجوال",
-        "body": "يرى كل موظف مناوبته القادمة، ومن يعمل معه، ويؤكدها أو يتبادلها بلمسة واحدة — بيدٍ واحدة، وهو في طريقه إلى العمل.",
+        "body": "يرى كل موظف مناوبته القادمة، ومن يعمل معه، ويؤكدها أو يتبادلها بلمسة واحدة - بيدٍ واحدة، وهو في طريقه إلى العمل.",
         "chips": [
           "المناوبة القادمة",
           "التأكيد",
@@ -102,7 +102,7 @@ export const generatedLocalCopy = {
         "body": "يؤكّد الموظفون ويتبادلون من هواتفهم؛ وأنت تُنهي الموافقات من قائمة واحدة."
       }
     ],
-    "loopLine": "تتدفق كل مناوبة منشورة إلى Labor Intelligence لحظة ضبطها — فلا تتأخر الصورة أسبوعاً أبداً.",
+    "loopLine": "تتدفق كل مناوبة منشورة إلى Labor Intelligence لحظة ضبطها - فلا تتأخر الصورة أسبوعاً أبداً.",
     "creamEyebrow": "مصمَّم لصالة العمل",
     "creamStatement": "الجدول الذي يفتحه الناس فعلاً.",
     "creamLede": "مصمَّم ليديرَه ثقلٌ بيدٍ واحدة في صالةٍ مزدحمة: الإجابة أولاً، قرارٌ واحد لكل شاشة، والإجراء تحت إبهامك مباشرة. يرى الموظفون ما هو التالي ويتصرفون في ثوانٍ؛ ويقرأ المديرون التغطية بلمحة، لا في جدول بيانات.",
@@ -118,7 +118,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Planning",
     "heroLine1": "Construisez le planning",
     "heroLine2": "en minutes, pas en heures.",
-    "description": "Crew Scheduling transforme la demande en un planning auquel votre équipe fait vraiment confiance. L'AI Builder le rédige à partir de vos prévisions, de votre mix de postes et des disponibilités ; les managers l'ajustent via quatre vues ; le personnel voit son prochain service, le confirme et l'échange — le tout depuis son téléphone.",
+    "description": "Crew Scheduling transforme la demande en un planning auquel votre équipe fait vraiment confiance. L'AI Builder le rédige à partir de vos prévisions, de votre mix de postes et des disponibilités ; les managers l'ajustent via quatre vues ; le personnel voit son prochain service, le confirme et l'échange - le tout depuis son téléphone.",
     "primaryCta": "Réserver une démo de Crew",
     "secondaryCta": "Voir Crew en action",
     "heroProof": [
@@ -140,12 +140,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Ce que contient le Planning",
-    "featuresTitle": "Tout ce dont le planning a besoin — au même endroit.",
+    "featuresTitle": "Tout ce dont le planning a besoin - au même endroit.",
     "featuresDescription": "Pensé pour le terrain au quotidien, pas pour une démo : la demande entre, un planning publié sort, et chaque service nourrit vos décisions.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Rédige la semaine à partir de vos prévisions, de votre mix de postes et des disponibilités — en une seule passe. Vous l'affinez ; vous ne partez jamais d'une grille vide.",
+        "body": "Rédige la semaine à partir de vos prévisions, de votre mix de postes et des disponibilités - en une seule passe. Vous l'affinez ; vous ne partez jamais d'une grille vide.",
         "chips": [
           "Sensible à la demande",
           "Mix de postes",
@@ -154,7 +154,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Quatre façons de voir",
-        "body": "Lisez et modifiez la même semaine par vue d'ensemble, par personne, par service ou par poste — selon la question à laquelle vous répondez.",
+        "body": "Lisez et modifiez la même semaine par vue d'ensemble, par personne, par service ou par poste - selon la question à laquelle vous répondez.",
         "chips": [
           "Par jour",
           "Par personne",
@@ -163,7 +163,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Uniquement les bonnes personnes",
-        "body": "Seul le personnel qualifié et disponible est affecté à un service. Conflits, heures sup et alertes de formation expirée apparaissent avant la publication — pas après.",
+        "body": "Seul le personnel qualifié et disponible est affecté à un service. Conflits, heures sup et alertes de formation expirée apparaissent avant la publication - pas après.",
         "chips": [
           "Bonnes personnes",
           "Alertes conflits",
@@ -190,7 +190,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule sur mobile",
-        "body": "Chaque employé voit son prochain service, qui travaille avec lui, et confirme ou échange en un geste — d'une seule main, en allant au travail.",
+        "body": "Chaque employé voit son prochain service, qui travaille avec lui, et confirme ou échange en un geste - d'une seule main, en allant au travail.",
         "chips": [
           "Prochain service",
           "Confirmer",
@@ -214,7 +214,7 @@ export const generatedLocalCopy = {
         "body": "Le personnel confirme et échange depuis son téléphone ; vous traitez les approbations depuis une file unique."
       }
     ],
-    "loopLine": "Chaque service publié alimente Labor Intelligence dès qu'il est défini — pour que l'image n'ait jamais une semaine de retard.",
+    "loopLine": "Chaque service publié alimente Labor Intelligence dès qu'il est défini - pour que l'image n'ait jamais une semaine de retard.",
     "creamEyebrow": "Pensé pour le terrain",
     "creamStatement": "Le planning que les gens ouvrent vraiment.",
     "creamLede": "Pensé pour une seule main sur un terrain chargé : la réponse d'abord, une décision par écran, l'action juste sous le pouce. Le personnel voit ce qui suit et agit en quelques secondes ; les managers lisent la couverture d'un coup d'œil, pas dans un tableur.",
@@ -230,7 +230,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Horarios",
     "heroLine1": "Crea el horario",
     "heroLine2": "en minutos, no en horas.",
-    "description": "Crew Scheduling convierte la demanda en un horario en el que tu equipo confía de verdad. El AI Builder lo redacta a partir de tu previsión, tu mezcla de roles y quién está disponible; los managers lo editan en cuatro vistas; el personal ve su próximo turno, lo confirma y lo intercambia — todo desde el móvil.",
+    "description": "Crew Scheduling convierte la demanda en un horario en el que tu equipo confía de verdad. El AI Builder lo redacta a partir de tu previsión, tu mezcla de roles y quién está disponible; los managers lo editan en cuatro vistas; el personal ve su próximo turno, lo confirma y lo intercambia - todo desde el móvil.",
     "primaryCta": "Reserva una demo de Crew",
     "secondaryCta": "Mira Crew en acción",
     "heroProof": [
@@ -252,12 +252,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Qué incluye Horarios",
-    "featuresTitle": "Todo lo que el horario necesita — en un solo lugar.",
+    "featuresTitle": "Todo lo que el horario necesita - en un solo lugar.",
     "featuresDescription": "Pensado para el día a día del local, no para una demo: entra la demanda, sale un horario publicado, y cada turno regresa a tus decisiones.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Redacta la semana a partir de tu previsión, tu mezcla de roles y quién está disponible — en una sola pasada. Tú la afinas; nunca empiezas desde una cuadrícula en blanco.",
+        "body": "Redacta la semana a partir de tu previsión, tu mezcla de roles y quién está disponible - en una sola pasada. Tú la afinas; nunca empiezas desde una cuadrícula en blanco.",
         "chips": [
           "Atento a la demanda",
           "Mezcla de roles",
@@ -266,7 +266,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Cuatro formas de ver",
-        "body": "Lee y edita la misma semana por vista general, por persona, por turno o por rol — según la pregunta que estés respondiendo.",
+        "body": "Lee y edita la misma semana por vista general, por persona, por turno o por rol - según la pregunta que estés respondiendo.",
         "chips": [
           "Por día",
           "Por persona",
@@ -275,7 +275,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Solo la gente adecuada",
-        "body": "Solo el personal cualificado y disponible entra en un turno. Choques, horas extra y avisos de formación caducada aparecen antes de publicar — no después.",
+        "body": "Solo el personal cualificado y disponible entra en un turno. Choques, horas extra y avisos de formación caducada aparecen antes de publicar - no después.",
         "chips": [
           "Gente adecuada",
           "Avisos de choque",
@@ -302,7 +302,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule en el móvil",
-        "body": "Cada empleado ve su próximo turno, quién está con él, y confirma o cambia con un toque — con una sola mano, de camino al trabajo.",
+        "body": "Cada empleado ve su próximo turno, quién está con él, y confirma o cambia con un toque - con una sola mano, de camino al trabajo.",
         "chips": [
           "Próximo turno",
           "Confirmar",
@@ -326,7 +326,7 @@ export const generatedLocalCopy = {
         "body": "El personal confirma y cambia desde su móvil; tú resuelves las aprobaciones desde una sola cola."
       }
     ],
-    "loopLine": "Cada turno publicado alimenta Labor Intelligence en cuanto se fija — para que la imagen nunca lleve una semana de retraso.",
+    "loopLine": "Cada turno publicado alimenta Labor Intelligence en cuanto se fija - para que la imagen nunca lleve una semana de retraso.",
     "creamEyebrow": "Pensado para el local",
     "creamStatement": "El horario que la gente abre de verdad.",
     "creamLede": "Pensado para una sola mano en un local con prisa: la respuesta primero, una decisión por pantalla, la acción justo bajo el pulgar. El personal ve qué sigue y actúa en segundos; los managers leen la cobertura de un vistazo, no en una hoja de cálculo.",
@@ -340,9 +340,9 @@ export const generatedLocalCopy = {
   },
   "de": {
     "badge": "Crew · Dienstplanung",
-    "heroLine1": "Dienstpläne erstellen –",
+    "heroLine1": "Dienstpläne erstellen - ",
     "heroLine2": "in Minuten, nicht Stunden.",
-    "description": "Crew Scheduling macht aus Nachfrage einen Dienstplan, dem Ihr Team wirklich vertraut. Der AI Builder erstellt den Entwurf aus Ihrer Prognose, dem Rollen-Mix und der Verfügbarkeit; Manager bearbeiten ihn in vier Ansichten; Mitarbeitende sehen ihre nächste Schicht, bestätigen sie und tauschen – alles direkt vom Handy.",
+    "description": "Crew Scheduling macht aus Nachfrage einen Dienstplan, dem Ihr Team wirklich vertraut. Der AI Builder erstellt den Entwurf aus Ihrer Prognose, dem Rollen-Mix und der Verfügbarkeit; Manager bearbeiten ihn in vier Ansichten; Mitarbeitende sehen ihre nächste Schicht, bestätigen sie und tauschen - alles direkt vom Handy.",
     "primaryCta": "Crew-Demo buchen",
     "secondaryCta": "Crew live erleben",
     "heroProof": [
@@ -364,12 +364,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Das steckt in Scheduling",
-    "featuresTitle": "Alles für den Dienstplan – an einem Ort.",
+    "featuresTitle": "Alles für den Dienstplan - an einem Ort.",
     "featuresDescription": "Gebaut für den täglichen Betrieb, nicht für die Demo: Nachfrage rein, fertiger Dienstplan raus, und jede Schicht fließt zurück in Ihre Entscheidungen.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Erstellt die Woche aus Ihrer Prognose, dem Rollen-Mix und der Verfügbarkeit – in einem Durchgang. Sie verfeinern; Sie starten nie vor einem leeren Raster.",
+        "body": "Erstellt die Woche aus Ihrer Prognose, dem Rollen-Mix und der Verfügbarkeit - in einem Durchgang. Sie verfeinern; Sie starten nie vor einem leeren Raster.",
         "chips": [
           "Nachfrageorientiert",
           "Rollen-Mix",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Vier Ansichten",
-        "body": "Lesen und bearbeiten Sie dieselbe Woche per Überblick, nach Person, nach Schicht oder nach Rolle – je nachdem, welche Frage Sie beantworten.",
+        "body": "Lesen und bearbeiten Sie dieselbe Woche per Überblick, nach Person, nach Schicht oder nach Rolle - je nachdem, welche Frage Sie beantworten.",
         "chips": [
           "Nach Tag",
           "Nach Person",
@@ -387,7 +387,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Nur die richtigen Leute",
-        "body": "Nur qualifizierte und verfügbare Mitarbeitende landen auf einer Schicht. Überschneidungen, Überstunden und abgelaufene Schulungen werden vor der Veröffentlichung sichtbar – nicht danach.",
+        "body": "Nur qualifizierte und verfügbare Mitarbeitende landen auf einer Schicht. Überschneidungen, Überstunden und abgelaufene Schulungen werden vor der Veröffentlichung sichtbar - nicht danach.",
         "chips": [
           "Richtige Leute",
           "Konfliktwarnung",
@@ -396,7 +396,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Tauschen & einspringen",
-        "body": "Mitarbeitende bieten Schichten an, tauschen und springen vom Handy ein; Manager genehmigen aus einer Warteschlange – nur für ihr eigenes Team.",
+        "body": "Mitarbeitende bieten Schichten an, tauschen und springen vom Handy ein; Manager genehmigen aus einer Warteschlange - nur für ihr eigenes Team.",
         "chips": [
           "Tausch",
           "Vertretung",
@@ -405,7 +405,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Wiederholen & Vorlagen",
-        "body": "Wiederholen Sie Muster, speichern Sie Schichtvorlagen mit eigener Farbe und nutzen Sie Feiertagspakete – so ist die Woche fast fertig aufgebaut.",
+        "body": "Wiederholen Sie Muster, speichern Sie Schichtvorlagen mit eigener Farbe und nutzen Sie Feiertagspakete - so ist die Woche fast fertig aufgebaut.",
         "chips": [
           "Muster wiederholen",
           "Vorlagen",
@@ -414,7 +414,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Mobil: My Schedule",
-        "body": "Jede:r Mitarbeitende sieht die nächste Schicht, wer mit dabei ist, und bestätigt oder tauscht mit einem Tipp – einhändig, auf dem Weg zur Arbeit.",
+        "body": "Jede:r Mitarbeitende sieht die nächste Schicht, wer mit dabei ist, und bestätigt oder tauscht mit einem Tipp - einhändig, auf dem Weg zur Arbeit.",
         "chips": [
           "Nächste Schicht",
           "Bestätigen",
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
         "body": "Mitarbeitende bestätigen und tauschen vom Handy; Sie erledigen Genehmigungen aus einer Warteschlange."
       }
     ],
-    "loopLine": "Jede veröffentlichte Schicht fließt in dem Moment in Labor Intelligence, in dem sie steht – das Bild hinkt nie eine Woche hinterher.",
+    "loopLine": "Jede veröffentlichte Schicht fließt in dem Moment in Labor Intelligence, in dem sie steht - das Bild hinkt nie eine Woche hinterher.",
     "creamEyebrow": "Gebaut für den Betrieb",
     "creamStatement": "Der Dienstplan, den man wirklich öffnet.",
     "creamLede": "Gebaut für eine Hand im hektischen Betrieb: zuerst die Antwort, eine Entscheidung pro Bildschirm, die Aktion direkt unter dem Daumen. Das Team sieht, was als Nächstes ansteht, und handelt in Sekunden; Manager erfassen die Besetzung auf einen Blick, nicht in der Tabelle.",
@@ -454,7 +454,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Roosters",
     "heroLine1": "Maak het rooster",
     "heroLine2": "in minuten, geen uren.",
-    "description": "Crew Scheduling vertaalt vraag naar een rooster waar je team echt op vertrouwt. De AI Builder maakt het concept op basis van je voorspelling, rolverdeling en wie beschikbaar is; managers passen het aan in vier weergaven; medewerkers zien hun volgende dienst, bevestigen die en ruilen – allemaal vanaf hun telefoon.",
+    "description": "Crew Scheduling vertaalt vraag naar een rooster waar je team echt op vertrouwt. De AI Builder maakt het concept op basis van je voorspelling, rolverdeling en wie beschikbaar is; managers passen het aan in vier weergaven; medewerkers zien hun volgende dienst, bevestigen die en ruilen - allemaal vanaf hun telefoon.",
     "primaryCta": "Plan een Crew-demo",
     "secondaryCta": "Bekijk Crew in actie",
     "heroProof": [
@@ -476,12 +476,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Wat zit er in Scheduling",
-    "featuresTitle": "Alles wat het rooster nodig heeft – op één plek.",
+    "featuresTitle": "Alles wat het rooster nodig heeft - op één plek.",
     "featuresDescription": "Gebouwd voor de dagelijkse vloer, niet voor een demo: vraag erin, een gepubliceerd rooster eruit, en elke dienst stroomt terug in je beslissingen.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Maakt de week op basis van je voorspelling, rolverdeling en wie beschikbaar is – in één keer. Jij verfijnt het; je begint nooit met een leeg raster.",
+        "body": "Maakt de week op basis van je voorspelling, rolverdeling en wie beschikbaar is - in één keer. Jij verfijnt het; je begint nooit met een leeg raster.",
         "chips": [
           "Vraaggericht",
           "Rolverdeling",
@@ -490,7 +490,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Vier weergaven",
-        "body": "Lees en bewerk dezelfde week per overzicht, per persoon, per dienst of per rol – net welke vraag je beantwoordt.",
+        "body": "Lees en bewerk dezelfde week per overzicht, per persoon, per dienst of per rol - net welke vraag je beantwoordt.",
         "chips": [
           "Per dag",
           "Per persoon",
@@ -499,7 +499,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Alleen de juiste mensen",
-        "body": "Alleen gekwalificeerde en beschikbare medewerkers belanden op een dienst. Overlap, overuren en verlopen certificeringen zie je vóór publicatie – niet erna.",
+        "body": "Alleen gekwalificeerde en beschikbare medewerkers belanden op een dienst. Overlap, overuren en verlopen certificeringen zie je vóór publicatie - niet erna.",
         "chips": [
           "Juiste mensen",
           "Conflictmelding",
@@ -517,7 +517,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Herhalen & sjablonen",
-        "body": "Herhaal patronen, bewaar dienstsjablonen met hun eigen kleur en pas feestdagpakketten toe – zo staat de week grotendeels al klaar.",
+        "body": "Herhaal patronen, bewaar dienstsjablonen met hun eigen kleur en pas feestdagpakketten toe - zo staat de week grotendeels al klaar.",
         "chips": [
           "Patronen herhalen",
           "Sjablonen",
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Mobiel My Schedule",
-        "body": "Elke medewerker ziet zijn volgende dienst, wie er mee werkt, en bevestigt of ruilt met één tik – met één hand, onderweg naar het werk.",
+        "body": "Elke medewerker ziet zijn volgende dienst, wie er mee werkt, en bevestigt of ruilt met één tik - met één hand, onderweg naar het werk.",
         "chips": [
           "Volgende dienst",
           "Bevestigen",
@@ -550,7 +550,7 @@ export const generatedLocalCopy = {
         "body": "Medewerkers bevestigen en ruilen vanaf hun telefoon; jij werkt goedkeuringen weg vanuit één wachtrij."
       }
     ],
-    "loopLine": "Elke gepubliceerde dienst voedt Labor Intelligence op het moment dat hij vaststaat – zo loopt het beeld nooit een week achter.",
+    "loopLine": "Elke gepubliceerde dienst voedt Labor Intelligence op het moment dat hij vaststaat - zo loopt het beeld nooit een week achter.",
     "creamEyebrow": "Gebouwd voor de vloer",
     "creamStatement": "Het rooster dat mensen echt openen.",
     "creamLede": "Gebouwd voor één hand op een drukke vloer: eerst het antwoord, één beslissing per scherm, de actie pal onder je duim. Medewerkers zien wat er aankomt en handelen in seconden; managers lezen de bezetting in één oogopslag, niet in een spreadsheet.",
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Escalas",
     "heroLine1": "Monte a escala",
     "heroLine2": "em minutos, não horas.",
-    "description": "O Crew Scheduling transforma a procura numa escala em que a sua equipa confia de verdade. O AI Builder cria o rascunho a partir da sua previsão, da combinação de funções e de quem está disponível; os gestores ajustam-na em quatro vistas; os colaboradores veem o próximo turno, confirmam-no e trocam — tudo a partir do telemóvel.",
+    "description": "O Crew Scheduling transforma a procura numa escala em que a sua equipa confia de verdade. O AI Builder cria o rascunho a partir da sua previsão, da combinação de funções e de quem está disponível; os gestores ajustam-na em quatro vistas; os colaboradores veem o próximo turno, confirmam-no e trocam - tudo a partir do telemóvel.",
     "primaryCta": "Marcar uma demo do Crew",
     "secondaryCta": "Veja o Crew em ação",
     "heroProof": [
@@ -588,12 +588,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "O que há no Scheduling",
-    "featuresTitle": "Tudo o que a escala precisa — num só lugar.",
+    "featuresTitle": "Tudo o que a escala precisa - num só lugar.",
     "featuresDescription": "Feito para o dia a dia da operação, não para uma demo: procura para dentro, escala publicada para fora, e cada turno a voltar para as suas decisões.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Cria a semana a partir da sua previsão, da combinação de funções e de quem está disponível — numa só passagem. Você refina; nunca começa de uma grelha em branco.",
+        "body": "Cria a semana a partir da sua previsão, da combinação de funções e de quem está disponível - numa só passagem. Você refina; nunca começa de uma grelha em branco.",
         "chips": [
           "Sensível à procura",
           "Combinação de funções",
@@ -602,7 +602,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Quatro vistas",
-        "body": "Leia e edite a mesma semana por visão geral, por pessoa, por turno ou por função — conforme a pergunta que está a responder.",
+        "body": "Leia e edite a mesma semana por visão geral, por pessoa, por turno ou por função - conforme a pergunta que está a responder.",
         "chips": [
           "Por dia",
           "Por pessoa",
@@ -611,7 +611,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Só as pessoas certas",
-        "body": "Só colaboradores qualificados e disponíveis entram num turno. Conflitos, horas extra e formações expiradas aparecem antes de publicar — não depois.",
+        "body": "Só colaboradores qualificados e disponíveis entram num turno. Conflitos, horas extra e formações expiradas aparecem antes de publicar - não depois.",
         "chips": [
           "Pessoas certas",
           "Alerta de conflito",
@@ -629,7 +629,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Repetir & modelos",
-        "body": "Repita padrões, guarde modelos de turno com cor própria e aplique pacotes de feriados — para a semana começar quase toda montada.",
+        "body": "Repita padrões, guarde modelos de turno com cor própria e aplique pacotes de feriados - para a semana começar quase toda montada.",
         "chips": [
           "Repetir padrões",
           "Modelos",
@@ -638,7 +638,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule no telemóvel",
-        "body": "Cada colaborador vê o próximo turno, quem está com ele, e confirma ou troca num toque — com uma só mão, a caminho do trabalho.",
+        "body": "Cada colaborador vê o próximo turno, quem está com ele, e confirma ou troca num toque - com uma só mão, a caminho do trabalho.",
         "chips": [
           "Próximo turno",
           "Confirmar",
@@ -662,7 +662,7 @@ export const generatedLocalCopy = {
         "body": "Os colaboradores confirmam e trocam pelo telemóvel; você resolve as aprovações numa única fila."
       }
     ],
-    "loopLine": "Cada turno publicado alimenta o Labor Intelligence no instante em que fica definido — para o quadro nunca andar uma semana atrasado.",
+    "loopLine": "Cada turno publicado alimenta o Labor Intelligence no instante em que fica definido - para o quadro nunca andar uma semana atrasado.",
     "creamEyebrow": "Feito para a operação",
     "creamStatement": "A escala que as pessoas abrem de verdade.",
     "creamLede": "Feito para uma só mão numa operação a abarrotar: primeiro a resposta, uma decisão por ecrã, a ação mesmo debaixo do polegar. Os colaboradores veem o que vem a seguir e agem em segundos; os gestores leem a cobertura num relance, não numa folha de cálculo.",
@@ -678,7 +678,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Scheduling",
     "heroLine1": "शेड्यूल बनाएं",
     "heroLine2": "घंटों में नहीं, मिनटों में।",
-    "description": "Crew Scheduling डिमांड को ऐसे शेड्यूल में बदल देता है जिस पर आपकी टीम सच में भरोसा करती है। AI Builder इसे आपके फ़ोरकास्ट, रोल मिक्स और उपलब्धता से तैयार करता है; मैनेजर इसे चार व्यू में एडिट करते हैं; स्टाफ अपनी अगली शिफ़्ट देखते हैं, उसे स्वीकारते हैं और स्वैप करते हैं — सब कुछ अपने फ़ोन से।",
+    "description": "Crew Scheduling डिमांड को ऐसे शेड्यूल में बदल देता है जिस पर आपकी टीम सच में भरोसा करती है। AI Builder इसे आपके फ़ोरकास्ट, रोल मिक्स और उपलब्धता से तैयार करता है; मैनेजर इसे चार व्यू में एडिट करते हैं; स्टाफ अपनी अगली शिफ़्ट देखते हैं, उसे स्वीकारते हैं और स्वैप करते हैं - सब कुछ अपने फ़ोन से।",
     "primaryCta": "Crew का वॉकथ्रू बुक करें",
     "secondaryCta": "Crew को काम करते देखें",
     "heroProof": [
@@ -714,7 +714,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "देखने के चार तरीके",
-        "body": "एक ही हफ़्ते को ओवरव्यू से, व्यक्ति से, शिफ़्ट से या रोल से पढ़ें और एडिट करें — जो भी सवाल आप हल कर रहे हों।",
+        "body": "एक ही हफ़्ते को ओवरव्यू से, व्यक्ति से, शिफ़्ट से या रोल से पढ़ें और एडिट करें - जो भी सवाल आप हल कर रहे हों।",
         "chips": [
           "दिन के हिसाब से",
           "व्यक्ति के हिसाब से",
@@ -723,7 +723,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "सिर्फ़ सही लोग",
-        "body": "शिफ़्ट पर सिर्फ़ वही स्टाफ आता है जो योग्य और उपलब्ध हो। टकराव, ओवरटाइम और एक्सपायर्ड-ट्रेनिंग की चेतावनियाँ पब्लिश करने से पहले दिखती हैं — बाद में नहीं।",
+        "body": "शिफ़्ट पर सिर्फ़ वही स्टाफ आता है जो योग्य और उपलब्ध हो। टकराव, ओवरटाइम और एक्सपायर्ड-ट्रेनिंग की चेतावनियाँ पब्लिश करने से पहले दिखती हैं - बाद में नहीं।",
         "chips": [
           "सही लोग",
           "टकराव अलर्ट",
@@ -750,7 +750,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "मोबाइल My Schedule",
-        "body": "हर कर्मचारी अपनी अगली शिफ़्ट, साथ में कौन है यह देखता है, और एक टैप में स्वीकारता या स्वैप करता है — एक हाथ से, काम पर जाते हुए।",
+        "body": "हर कर्मचारी अपनी अगली शिफ़्ट, साथ में कौन है यह देखता है, और एक टैप में स्वीकारता या स्वैप करता है - एक हाथ से, काम पर जाते हुए।",
         "chips": [
           "अगली शिफ़्ट",
           "स्वीकारें",
@@ -774,7 +774,7 @@ export const generatedLocalCopy = {
         "body": "स्टाफ अपने फ़ोन से स्वीकारते और स्वैप करते हैं; आप एक ही क़तार से मंज़ूरियाँ निपटाते हैं।"
       }
     ],
-    "loopLine": "हर पब्लिश शिफ़्ट सेट होते ही Labor Intelligence को फ़ीड हो जाती है — ताकि तस्वीर कभी एक हफ़्ता पीछे न रहे।",
+    "loopLine": "हर पब्लिश शिफ़्ट सेट होते ही Labor Intelligence को फ़ीड हो जाती है - ताकि तस्वीर कभी एक हफ़्ता पीछे न रहे।",
     "creamEyebrow": "फ़्लोर के लिए बना",
     "creamStatement": "वह शेड्यूल जिसे लोग सच में खोलते हैं।",
     "creamLede": "व्यस्त फ़्लोर पर एक हाथ के लिए बना: पहले जवाब, हर स्क्रीन पर एक फ़ैसला, और एक्शन बिल्कुल आपके अंगूठे के नीचे। स्टाफ देखते हैं आगे क्या है और सेकंडों में एक्ट करते हैं; मैनेजर कवरेज एक नज़र में पढ़ते हैं, स्प्रेडशीट में नहीं।",
@@ -790,7 +790,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Scheduling",
     "heroLine1": "شیڈول بنائیں",
     "heroLine2": "گھنٹوں میں نہیں، منٹوں میں۔",
-    "description": "Crew Scheduling ڈیمانڈ کو ایسے شیڈول میں بدل دیتا ہے جس پر آپ کی ٹیم واقعی بھروسا کرتی ہے۔ AI Builder اسے آپ کے فورکاسٹ، رول مکس اور دستیابی سے تیار کرتا ہے؛ مینیجر اسے چار ویوز میں ایڈٹ کرتے ہیں؛ اسٹاف اپنی اگلی شفٹ دیکھتے ہیں، اسے قبول کرتے ہیں اور سواپ کرتے ہیں — سب کچھ اپنے فون سے۔",
+    "description": "Crew Scheduling ڈیمانڈ کو ایسے شیڈول میں بدل دیتا ہے جس پر آپ کی ٹیم واقعی بھروسا کرتی ہے۔ AI Builder اسے آپ کے فورکاسٹ، رول مکس اور دستیابی سے تیار کرتا ہے؛ مینیجر اسے چار ویوز میں ایڈٹ کرتے ہیں؛ اسٹاف اپنی اگلی شفٹ دیکھتے ہیں، اسے قبول کرتے ہیں اور سواپ کرتے ہیں - سب کچھ اپنے فون سے۔",
     "primaryCta": "Crew کا واک تھرو بک کریں",
     "secondaryCta": "Crew کو کام کرتے دیکھیں",
     "heroProof": [
@@ -826,7 +826,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "دیکھنے کے چار طریقے",
-        "body": "ایک ہی ہفتے کو اوور ویو سے، شخص سے، شفٹ سے یا رول سے پڑھیں اور ایڈٹ کریں — جو بھی سوال آپ حل کر رہے ہوں۔",
+        "body": "ایک ہی ہفتے کو اوور ویو سے، شخص سے، شفٹ سے یا رول سے پڑھیں اور ایڈٹ کریں - جو بھی سوال آپ حل کر رہے ہوں۔",
         "chips": [
           "دن کے حساب سے",
           "شخص کے حساب سے",
@@ -835,7 +835,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "صرف صحیح لوگ",
-        "body": "شفٹ پر صرف وہی اسٹاف آتا ہے جو اہل اور دستیاب ہو۔ ٹکراؤ، اوور ٹائم اور میعاد ختم تربیت کی وارننگ شائع کرنے سے پہلے دکھتی ہیں — بعد میں نہیں۔",
+        "body": "شفٹ پر صرف وہی اسٹاف آتا ہے جو اہل اور دستیاب ہو۔ ٹکراؤ، اوور ٹائم اور میعاد ختم تربیت کی وارننگ شائع کرنے سے پہلے دکھتی ہیں - بعد میں نہیں۔",
         "chips": [
           "صحیح لوگ",
           "ٹکراؤ الرٹ",
@@ -862,7 +862,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "موبائل My Schedule",
-        "body": "ہر ملازم اپنی اگلی شفٹ، ساتھ میں کون ہے یہ دیکھتا ہے، اور ایک ٹیپ میں قبول یا سواپ کرتا ہے — ایک ہاتھ سے، کام پر جاتے ہوئے۔",
+        "body": "ہر ملازم اپنی اگلی شفٹ، ساتھ میں کون ہے یہ دیکھتا ہے، اور ایک ٹیپ میں قبول یا سواپ کرتا ہے - ایک ہاتھ سے، کام پر جاتے ہوئے۔",
         "chips": [
           "اگلی شفٹ",
           "قبول کریں",
@@ -886,7 +886,7 @@ export const generatedLocalCopy = {
         "body": "اسٹاف اپنے فون سے قبول اور سواپ کرتے ہیں؛ آپ ایک ہی قطار سے منظوریاں نمٹاتے ہیں۔"
       }
     ],
-    "loopLine": "ہر شائع شدہ شفٹ سیٹ ہوتے ہی Labor Intelligence کو فیڈ ہو جاتی ہے — تاکہ تصویر کبھی ایک ہفتہ پیچھے نہ رہے۔",
+    "loopLine": "ہر شائع شدہ شفٹ سیٹ ہوتے ہی Labor Intelligence کو فیڈ ہو جاتی ہے - تاکہ تصویر کبھی ایک ہفتہ پیچھے نہ رہے۔",
     "creamEyebrow": "فلور کے لیے بنا",
     "creamStatement": "وہ شیڈول جسے لوگ واقعی کھولتے ہیں۔",
     "creamLede": "مصروف فلور پر ایک ہاتھ کے لیے بنا: پہلے جواب، ہر اسکرین پر ایک فیصلہ، اور ایکشن بالکل آپ کے انگوٹھے کے نیچے۔ اسٹاف دیکھتے ہیں آگے کیا ہے اور سیکنڈوں میں عمل کرتے ہیں؛ مینیجر کوریج ایک نظر میں پڑھتے ہیں، اسپریڈ شیٹ میں نہیں۔",
@@ -902,7 +902,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Scheduling",
     "heroLine1": "Crea i turni",
     "heroLine2": "in minuti, non in ore.",
-    "description": "Crew Scheduling trasforma la domanda in turni di cui il tuo team si fida davvero. L'AI Builder li imposta partendo da previsioni, mix di ruoli e disponibilità; i manager li modificano in quattro viste; il personale vede il prossimo turno, lo conferma e fa cambi — tutto dal telefono.",
+    "description": "Crew Scheduling trasforma la domanda in turni di cui il tuo team si fida davvero. L'AI Builder li imposta partendo da previsioni, mix di ruoli e disponibilità; i manager li modificano in quattro viste; il personale vede il prossimo turno, lo conferma e fa cambi - tutto dal telefono.",
     "primaryCta": "Prenota una demo di Crew",
     "secondaryCta": "Guarda Crew in azione",
     "heroProof": [
@@ -924,12 +924,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Cosa offre Scheduling",
-    "featuresTitle": "Tutto ciò che serve ai turni — in un unico posto.",
+    "featuresTitle": "Tutto ciò che serve ai turni - in un unico posto.",
     "featuresDescription": "Pensato per la sala di tutti i giorni, non per una demo: domanda in entrata, turni pubblicati in uscita, e ogni turno che torna nelle tue decisioni.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Imposta la settimana da previsioni, mix di ruoli e disponibilità — in un solo passaggio. Tu la rifinisci; non parti mai da una griglia vuota.",
+        "body": "Imposta la settimana da previsioni, mix di ruoli e disponibilità - in un solo passaggio. Tu la rifinisci; non parti mai da una griglia vuota.",
         "chips": [
           "Guidato dalla domanda",
           "Mix di ruoli",
@@ -938,7 +938,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Quattro modi di vedere",
-        "body": "Leggi e modifica la stessa settimana per panoramica, per persona, per turno o per ruolo — a seconda della domanda a cui stai rispondendo.",
+        "body": "Leggi e modifica la stessa settimana per panoramica, per persona, per turno o per ruolo - a seconda della domanda a cui stai rispondendo.",
         "chips": [
           "Per giorno",
           "Per persona",
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Solo le persone giuste",
-        "body": "In un turno entra solo chi è qualificato e disponibile. Conflitti, straordinari e avvisi di formazione scaduta compaiono prima di pubblicare — non dopo.",
+        "body": "In un turno entra solo chi è qualificato e disponibile. Conflitti, straordinari e avvisi di formazione scaduta compaiono prima di pubblicare - non dopo.",
         "chips": [
           "Persone giuste",
           "Avvisi conflitti",
@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule da mobile",
-        "body": "Ogni dipendente vede il prossimo turno, con chi lavora, e conferma o scambia con un tocco — con una mano sola, mentre va al lavoro.",
+        "body": "Ogni dipendente vede il prossimo turno, con chi lavora, e conferma o scambia con un tocco - con una mano sola, mentre va al lavoro.",
         "chips": [
           "Prossimo turno",
           "Conferma",
@@ -998,7 +998,7 @@ export const generatedLocalCopy = {
         "body": "Il personale conferma e scambia dal telefono; tu smaltisci le approvazioni da un'unica coda."
       }
     ],
-    "loopLine": "Ogni turno pubblicato alimenta Labor Intelligence nell'istante in cui è definito — così il quadro non è mai indietro di una settimana.",
+    "loopLine": "Ogni turno pubblicato alimenta Labor Intelligence nell'istante in cui è definito - così il quadro non è mai indietro di una settimana.",
     "creamEyebrow": "Pensato per la sala",
     "creamStatement": "I turni che le persone aprono davvero.",
     "creamLede": "Pensato per una mano sola in una sala affollata: prima la risposta, una decisione per schermata, l'azione proprio sotto il pollice. Il personale vede cosa viene dopo e agisce in pochi secondi; i manager leggono la copertura in un colpo d'occhio, non in un foglio di calcolo.",
@@ -1014,7 +1014,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Grafiki",
     "heroLine1": "Ułóż grafik",
     "heroLine2": "w minuty, nie godziny.",
-    "description": "Crew Scheduling zamienia popyt w grafik, któremu zespół naprawdę ufa. AI Builder układa go na podstawie Twojej prognozy, składu ról i dostępności; menedżerowie edytują go w czterech widokach; pracownicy widzą najbliższą zmianę, potwierdzają ją i wymieniają się — wszystko z telefonu.",
+    "description": "Crew Scheduling zamienia popyt w grafik, któremu zespół naprawdę ufa. AI Builder układa go na podstawie Twojej prognozy, składu ról i dostępności; menedżerowie edytują go w czterech widokach; pracownicy widzą najbliższą zmianę, potwierdzają ją i wymieniają się - wszystko z telefonu.",
     "primaryCta": "Umów prezentację Crew",
     "secondaryCta": "Zobacz Crew w akcji",
     "heroProof": [
@@ -1036,12 +1036,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Co znajdziesz w Scheduling",
-    "featuresTitle": "Wszystko, czego potrzebuje grafik — w jednym miejscu.",
+    "featuresTitle": "Wszystko, czego potrzebuje grafik - w jednym miejscu.",
     "featuresDescription": "Stworzone na realną zmianę, nie na demo: popyt na wejściu, opublikowany grafik na wyjściu, a każda zmiana wraca do Twoich decyzji.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Układa tydzień z Twojej prognozy, składu ról i dostępności — za jednym razem. Ty go dopracowujesz; nigdy nie zaczynasz od pustej siatki.",
+        "body": "Układa tydzień z Twojej prognozy, składu ról i dostępności - za jednym razem. Ty go dopracowujesz; nigdy nie zaczynasz od pustej siatki.",
         "chips": [
           "Świadomy popytu",
           "Skład ról",
@@ -1050,7 +1050,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Cztery sposoby na widok",
-        "body": "Czytaj i edytuj ten sam tydzień w przeglądzie, według osoby, według zmiany lub według roli — zależnie od pytania, na które odpowiadasz.",
+        "body": "Czytaj i edytuj ten sam tydzień w przeglądzie, według osoby, według zmiany lub według roli - zależnie od pytania, na które odpowiadasz.",
         "chips": [
           "Według dnia",
           "Według osoby",
@@ -1059,7 +1059,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Tylko właściwe osoby",
-        "body": "Na zmianie ląduje tylko ktoś, kto ma kwalifikacje i jest dostępny. Kolizje, nadgodziny i ostrzeżenia o wygasłych szkoleniach widzisz przed publikacją — nie po.",
+        "body": "Na zmianie ląduje tylko ktoś, kto ma kwalifikacje i jest dostępny. Kolizje, nadgodziny i ostrzeżenia o wygasłych szkoleniach widzisz przed publikacją - nie po.",
         "chips": [
           "Właściwe osoby",
           "Alerty kolizji",
@@ -1086,7 +1086,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Mobilne My Schedule",
-        "body": "Każdy pracownik widzi najbliższą zmianę, z kim pracuje, i potwierdza lub wymienia się jednym dotknięciem — jedną ręką, w drodze do pracy.",
+        "body": "Każdy pracownik widzi najbliższą zmianę, z kim pracuje, i potwierdza lub wymienia się jednym dotknięciem - jedną ręką, w drodze do pracy.",
         "chips": [
           "Najbliższa zmiana",
           "Potwierdzenie",
@@ -1110,7 +1110,7 @@ export const generatedLocalCopy = {
         "body": "Pracownicy potwierdzają i wymieniają się z telefonu; Ty czyścisz zatwierdzenia z jednej kolejki."
       }
     ],
-    "loopLine": "Każda opublikowana zmiana zasila Labor Intelligence w chwili, gdy zostaje ustalona — więc obraz nigdy nie jest spóźniony o tydzień.",
+    "loopLine": "Każda opublikowana zmiana zasila Labor Intelligence w chwili, gdy zostaje ustalona - więc obraz nigdy nie jest spóźniony o tydzień.",
     "creamEyebrow": "Stworzone na zmianę",
     "creamStatement": "Grafik, który ludzie naprawdę otwierają.",
     "creamLede": "Stworzony na jedną rękę w ferworze zmiany: najpierw odpowiedź, jedna decyzja na ekran, akcja tuż pod kciukiem. Pracownicy widzą, co dalej, i działają w kilka sekund; menedżerowie czytają obsadę jednym spojrzeniem, nie w arkuszu.",
@@ -1126,7 +1126,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Vardiya Planlama",
     "heroLine1": "Vardiyayı kur,",
     "heroLine2": "saatlerle değil dakikalarla.",
-    "description": "Crew Scheduling, talebi ekibinizin gerçekten güvendiği bir vardiya planına çevirir. AI Builder onu tahmininizden, rol dağılımınızdan ve kimin müsait olduğundan taslak hâlinde çıkarır; yöneticiler dört görünümde düzenler; personel bir sonraki vardiyasını görür, onaylar ve değiştirir — hepsi telefonundan.",
+    "description": "Crew Scheduling, talebi ekibinizin gerçekten güvendiği bir vardiya planına çevirir. AI Builder onu tahmininizden, rol dağılımınızdan ve kimin müsait olduğundan taslak hâlinde çıkarır; yöneticiler dört görünümde düzenler; personel bir sonraki vardiyasını görür, onaylar ve değiştirir - hepsi telefonundan.",
     "primaryCta": "Crew tanıtımı planlayın",
     "secondaryCta": "Crew'i iş başında görün",
     "heroProof": [
@@ -1148,7 +1148,7 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Scheduling'de neler var",
-    "featuresTitle": "Vardiyanın ihtiyacı olan her şey — tek yerde.",
+    "featuresTitle": "Vardiyanın ihtiyacı olan her şey - tek yerde.",
     "featuresDescription": "Demo için değil, günlük salon için kurgulandı: talep girer, yayınlanmış vardiya çıkar ve her vardiya kararlarınıza geri akar.",
     "features": [
       {
@@ -1162,7 +1162,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Dört farklı görünüm",
-        "body": "Aynı haftayı genel bakışla, kişiye göre, vardiyaya göre veya role göre okuyup düzenleyin — hangi soruyu yanıtlıyorsanız ona göre.",
+        "body": "Aynı haftayı genel bakışla, kişiye göre, vardiyaya göre veya role göre okuyup düzenleyin - hangi soruyu yanıtlıyorsanız ona göre.",
         "chips": [
           "Güne göre",
           "Kişiye göre",
@@ -1171,7 +1171,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Yalnızca doğru kişiler",
-        "body": "Bir vardiyaya yalnızca yetkin ve müsait personel düşer. Çakışmalar, fazla mesai ve süresi dolmuş eğitim uyarıları yayınlamadan önce çıkar — sonra değil.",
+        "body": "Bir vardiyaya yalnızca yetkin ve müsait personel düşer. Çakışmalar, fazla mesai ve süresi dolmuş eğitim uyarıları yayınlamadan önce çıkar - sonra değil.",
         "chips": [
           "Doğru kişiler",
           "Çakışma uyarıları",
@@ -1198,7 +1198,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Mobil My Schedule",
-        "body": "Her çalışan bir sonraki vardiyasını, kiminle birlikte olduğunu görür ve tek dokunuşla onaylar veya değiştirir — tek elle, işe giderken.",
+        "body": "Her çalışan bir sonraki vardiyasını, kiminle birlikte olduğunu görür ve tek dokunuşla onaylar veya değiştirir - tek elle, işe giderken.",
         "chips": [
           "Sonraki vardiya",
           "Onayla",
@@ -1222,7 +1222,7 @@ export const generatedLocalCopy = {
         "body": "Personel telefonundan onaylar ve değiştirir; siz onayları tek bir kuyruktan temizlersiniz."
       }
     ],
-    "loopLine": "Yayınlanan her vardiya, belirlendiği anda Labor Intelligence'a akar — yani tablo asla bir hafta geriden gelmez.",
+    "loopLine": "Yayınlanan her vardiya, belirlendiği anda Labor Intelligence'a akar - yani tablo asla bir hafta geriden gelmez.",
     "creamEyebrow": "Salon için kurgulandı",
     "creamStatement": "İnsanların gerçekten açtığı vardiya planı.",
     "creamLede": "Yoğun bir salonda tek el için kurgulandı: önce yanıt, ekran başına tek karar, eylem tam parmağınızın altında. Personel sırada ne olduğunu görüp saniyeler içinde harekete geçer; yöneticiler doluluğu bir tabloda değil, bir bakışta okur.",
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · 排班",
     "heroLine1": "排出班表，",
     "heroLine2": "只需几分钟，而非几小时。",
-    "description": "Crew Scheduling 把需求变成团队真正信得过的班表。AI Builder 依据你的预测、岗位配比和谁有空，一次性起好草稿；管理者在四种视图中调整；员工查看下一班、确认、并换班——全在手机上完成。",
+    "description": "Crew Scheduling 把需求变成团队真正信得过的班表。AI Builder 依据你的预测、岗位配比和谁有空，一次性起好草稿；管理者在四种视图中调整；员工查看下一班、确认、并换班 -  - 全在手机上完成。",
     "primaryCta": "预约 Crew 演示",
     "secondaryCta": "看 Crew 实战",
     "heroProof": [
@@ -1260,7 +1260,7 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Scheduling 里有什么",
-    "featuresTitle": "班表所需的一切——尽在一处。",
+    "featuresTitle": "班表所需的一切 -  - 尽在一处。",
     "featuresDescription": "为每天的现场而建，而非演示：需求进，发布的班表出，每一班都回流到你的决策中。",
     "features": [
       {
@@ -1274,7 +1274,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "四种查看方式",
-        "body": "按总览、按人、按班次或按岗位，阅读并编辑同一周——取决于你正在回答哪个问题。",
+        "body": "按总览、按人、按班次或按岗位，阅读并编辑同一周 -  - 取决于你正在回答哪个问题。",
         "chips": [
           "按天",
           "按人",
@@ -1283,7 +1283,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "只有对的人",
-        "body": "只有具备资质且有空的员工才会被排上班。冲突、加班和培训过期警示在发布前就会显示——而非发布后。",
+        "body": "只有具备资质且有空的员工才会被排上班。冲突、加班和培训过期警示在发布前就会显示 -  - 而非发布后。",
         "chips": [
           "对的人",
           "冲突提醒",
@@ -1310,7 +1310,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "手机版 My Schedule",
-        "body": "每位员工都能看到下一班、与谁同班，一键确认或换班——单手操作，在上班路上即可完成。",
+        "body": "每位员工都能看到下一班、与谁同班，一键确认或换班 -  - 单手操作，在上班路上即可完成。",
         "chips": [
           "下一班",
           "确认",
@@ -1334,7 +1334,7 @@ export const generatedLocalCopy = {
         "body": "员工在手机上确认并换班;你在一个队列里清掉审批。"
       }
     ],
-    "loopLine": "每一班一经确定即刻汇入 Labor Intelligence——所以全局画面永远不会落后一周。",
+    "loopLine": "每一班一经确定即刻汇入 Labor Intelligence -  - 所以全局画面永远不会落后一周。",
     "creamEyebrow": "为现场而建",
     "creamStatement": "员工真正会打开的班表。",
     "creamLede": "为繁忙现场的一只手而建:先给答案,一屏一个决策,操作就在拇指下方。员工看清下一步,几秒内行动;管理者一眼读懂排班覆盖,而非埋头表格。",
@@ -1484,7 +1484,7 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Scheduling에 담긴 것",
-    "featuresTitle": "스케줄에 필요한 모든 것 — 한곳에.",
+    "featuresTitle": "스케줄에 필요한 모든 것 - 한곳에.",
     "featuresDescription": "데모가 아닌 매일의 현장을 위해 설계했습니다. 수요가 들어오면 완성된 스케줄이 나오고, 모든 근무가 다시 의사결정으로 흘러듭니다.",
     "features": [
       {
@@ -1498,7 +1498,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "네 가지 뷰",
-        "body": "같은 한 주를 개요별, 사람별, 근무별, 역할별로 읽고 편집하세요 — 풀어야 할 질문에 맞게.",
+        "body": "같은 한 주를 개요별, 사람별, 근무별, 역할별로 읽고 편집하세요 - 풀어야 할 질문에 맞게.",
         "chips": [
           "요일별",
           "사람별",
@@ -1534,7 +1534,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "모바일 My Schedule",
-        "body": "직원마다 다음 근무, 함께 일하는 동료를 확인하고 한 번의 탭으로 승인하거나 교대합니다 — 출근길에 한 손으로.",
+        "body": "직원마다 다음 근무, 함께 일하는 동료를 확인하고 한 번의 탭으로 승인하거나 교대합니다 - 출근길에 한 손으로.",
         "chips": [
           "다음 근무",
           "승인",
@@ -1558,7 +1558,7 @@ export const generatedLocalCopy = {
         "body": "직원은 휴대폰으로 확인하고 교대하며, 매니저는 하나의 대기열에서 승인을 처리합니다."
       }
     ],
-    "loopLine": "게시된 모든 근무는 설정되는 순간 Labor Intelligence로 흘러듭니다 — 그래서 현황이 한 주 뒤처지는 일이 없습니다.",
+    "loopLine": "게시된 모든 근무는 설정되는 순간 Labor Intelligence로 흘러듭니다 - 그래서 현황이 한 주 뒤처지는 일이 없습니다.",
     "creamEyebrow": "현장을 위한 설계",
     "creamStatement": "직원이 실제로 여는 스케줄.",
     "creamLede": "바쁜 현장에서 한 손으로 쓰도록 설계했습니다. 답이 먼저, 화면당 하나의 결정, 행동은 엄지손가락 바로 아래에. 직원은 다음 일을 확인하고 몇 초 만에 움직이고, 매니저는 스프레드시트가 아니라 한눈에 인력 충원을 읽습니다.",
@@ -1574,7 +1574,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Scheduling",
     "heroLine1": "Susun jadwal kerja",
     "heroLine2": "dalam hitungan menit.",
-    "description": "Crew Scheduling mengubah permintaan menjadi jadwal yang benar-benar dipercaya tim Anda. AI Builder menyusunnya dari prakiraan, komposisi peran, dan siapa yang tersedia; manajer mengeditnya lewat empat tampilan; staf melihat shift berikutnya, mengonfirmasinya, dan menukar shift — semuanya dari ponsel mereka.",
+    "description": "Crew Scheduling mengubah permintaan menjadi jadwal yang benar-benar dipercaya tim Anda. AI Builder menyusunnya dari prakiraan, komposisi peran, dan siapa yang tersedia; manajer mengeditnya lewat empat tampilan; staf melihat shift berikutnya, mengonfirmasinya, dan menukar shift - semuanya dari ponsel mereka.",
     "primaryCta": "Jadwalkan demo Crew",
     "secondaryCta": "Lihat Crew beraksi",
     "heroProof": [
@@ -1596,12 +1596,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Isi Scheduling",
-    "featuresTitle": "Semua yang dibutuhkan jadwal — di satu tempat.",
+    "featuresTitle": "Semua yang dibutuhkan jadwal - di satu tempat.",
     "featuresDescription": "Dibuat untuk operasi harian, bukan sekadar demo: permintaan masuk, jadwal terbit, dan setiap shift mengalir kembali ke keputusan Anda.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Menyusun jadwal seminggu dari prakiraan, komposisi peran, dan siapa yang tersedia — dalam satu langkah. Anda tinggal menyempurnakan; tidak perlu mulai dari grid kosong.",
+        "body": "Menyusun jadwal seminggu dari prakiraan, komposisi peran, dan siapa yang tersedia - dalam satu langkah. Anda tinggal menyempurnakan; tidak perlu mulai dari grid kosong.",
         "chips": [
           "Sadar permintaan",
           "Komposisi peran",
@@ -1610,7 +1610,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Empat cara melihat",
-        "body": "Baca dan edit minggu yang sama lewat ringkasan, per orang, per shift, atau per peran — mana pun yang sedang Anda jawab.",
+        "body": "Baca dan edit minggu yang sama lewat ringkasan, per orang, per shift, atau per peran - mana pun yang sedang Anda jawab.",
         "chips": [
           "Per hari",
           "Per orang",
@@ -1619,7 +1619,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Hanya orang yang tepat",
-        "body": "Hanya staf yang memenuhi syarat dan tersedia yang masuk ke shift. Bentrok jadwal, lembur, dan peringatan pelatihan kedaluwarsa muncul sebelum Anda terbitkan — bukan setelahnya.",
+        "body": "Hanya staf yang memenuhi syarat dan tersedia yang masuk ke shift. Bentrok jadwal, lembur, dan peringatan pelatihan kedaluwarsa muncul sebelum Anda terbitkan - bukan setelahnya.",
         "chips": [
           "Orang yang tepat",
           "Peringatan bentrok",
@@ -1646,7 +1646,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule di ponsel",
-        "body": "Setiap karyawan melihat shift berikutnya, siapa yang bertugas bersamanya, lalu mengonfirmasi atau menukar dengan satu ketukan — satu tangan, sambil berangkat kerja.",
+        "body": "Setiap karyawan melihat shift berikutnya, siapa yang bertugas bersamanya, lalu mengonfirmasi atau menukar dengan satu ketukan - satu tangan, sambil berangkat kerja.",
         "chips": [
           "Shift berikutnya",
           "Konfirmasi",
@@ -1670,7 +1670,7 @@ export const generatedLocalCopy = {
         "body": "Staf mengonfirmasi dan menukar shift dari ponsel; Anda membereskan persetujuan dari satu antrean."
       }
     ],
-    "loopLine": "Setiap shift yang terbit langsung memberi makan Labor Intelligence saat itu juga — jadi gambarannya tidak pernah tertinggal seminggu.",
+    "loopLine": "Setiap shift yang terbit langsung memberi makan Labor Intelligence saat itu juga - jadi gambarannya tidak pernah tertinggal seminggu.",
     "creamEyebrow": "Dibuat untuk lapangan",
     "creamStatement": "Jadwal yang benar-benar dibuka orang.",
     "creamLede": "Dirancang untuk satu tangan di tengah kesibukan: jawaban dulu, satu keputusan per layar, aksi tepat di bawah jempol Anda. Staf melihat apa yang berikutnya dan bertindak dalam hitungan detik; manajer membaca cakupan sekilas, bukan di spreadsheet.",
@@ -1686,7 +1686,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Lập lịch",
     "heroLine1": "Lên lịch làm việc",
     "heroLine2": "trong vài phút, không phải vài giờ.",
-    "description": "Crew Scheduling biến nhu cầu thực tế thành lịch làm việc mà cả đội thật sự tin tưởng. AI Builder dựng lịch từ dự báo, cơ cấu vị trí và ai đang rảnh; quản lý chỉnh sửa qua bốn chế độ xem; nhân viên thấy ca sắp tới, xác nhận và đổi ca — tất cả ngay trên điện thoại.",
+    "description": "Crew Scheduling biến nhu cầu thực tế thành lịch làm việc mà cả đội thật sự tin tưởng. AI Builder dựng lịch từ dự báo, cơ cấu vị trí và ai đang rảnh; quản lý chỉnh sửa qua bốn chế độ xem; nhân viên thấy ca sắp tới, xác nhận và đổi ca - tất cả ngay trên điện thoại.",
     "primaryCta": "Đặt lịch demo Crew",
     "secondaryCta": "Xem Crew vận hành",
     "heroProof": [
@@ -1708,12 +1708,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Có gì trong Scheduling",
-    "featuresTitle": "Tất cả những gì lịch cần — gói gọn một nơi.",
+    "featuresTitle": "Tất cả những gì lịch cần - gói gọn một nơi.",
     "featuresDescription": "Sinh ra cho ca làm thực tế, không phải bản demo: nhu cầu vào, lịch đã công bố ra, và mọi ca quay về phục vụ quyết định của bạn.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Dựng cả tuần từ dự báo, cơ cấu vị trí và ai đang rảnh — chỉ trong một lượt. Bạn tinh chỉnh; không bao giờ bắt đầu từ một bảng trống.",
+        "body": "Dựng cả tuần từ dự báo, cơ cấu vị trí và ai đang rảnh - chỉ trong một lượt. Bạn tinh chỉnh; không bao giờ bắt đầu từ một bảng trống.",
         "chips": [
           "Bám nhu cầu",
           "Cơ cấu vị trí",
@@ -1722,7 +1722,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Bốn cách xem",
-        "body": "Đọc và chỉnh cùng một tuần theo tổng quan, theo người, theo ca, hay theo vị trí — tùy câu hỏi bạn đang trả lời.",
+        "body": "Đọc và chỉnh cùng một tuần theo tổng quan, theo người, theo ca, hay theo vị trí - tùy câu hỏi bạn đang trả lời.",
         "chips": [
           "Theo ngày",
           "Theo người",
@@ -1731,7 +1731,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Chỉ đúng người",
-        "body": "Chỉ nhân viên đủ điều kiện và đang rảnh mới được xếp vào ca. Trùng ca, làm thêm giờ và cảnh báo chứng chỉ hết hạn hiện ra trước khi công bố — chứ không phải sau.",
+        "body": "Chỉ nhân viên đủ điều kiện và đang rảnh mới được xếp vào ca. Trùng ca, làm thêm giờ và cảnh báo chứng chỉ hết hạn hiện ra trước khi công bố - chứ không phải sau.",
         "chips": [
           "Đúng người",
           "Cảnh báo trùng ca",
@@ -1758,7 +1758,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule trên di động",
-        "body": "Mỗi nhân viên thấy ca kế tiếp, ai làm cùng mình, rồi xác nhận hay đổi ca chỉ bằng một chạm — một tay, ngay trên đường đi làm.",
+        "body": "Mỗi nhân viên thấy ca kế tiếp, ai làm cùng mình, rồi xác nhận hay đổi ca chỉ bằng một chạm - một tay, ngay trên đường đi làm.",
         "chips": [
           "Ca kế tiếp",
           "Xác nhận",
@@ -1782,7 +1782,7 @@ export const generatedLocalCopy = {
         "body": "Nhân viên xác nhận và đổi ca trên điện thoại; bạn xử lý phê duyệt từ một hàng chờ."
       }
     ],
-    "loopLine": "Mỗi ca được công bố lập tức chảy vào Labor Intelligence — nên bức tranh không bao giờ trễ một tuần.",
+    "loopLine": "Mỗi ca được công bố lập tức chảy vào Labor Intelligence - nên bức tranh không bao giờ trễ một tuần.",
     "creamEyebrow": "Sinh ra cho ca làm",
     "creamStatement": "Lịch làm việc mà người ta thật sự mở ra.",
     "creamLede": "Sinh ra cho một tay giữa ca làm bận rộn: câu trả lời trước, mỗi màn hình một quyết định, hành động ngay dưới ngón cái. Nhân viên thấy việc kế tiếp và xử lý trong vài giây; quản lý đọc độ phủ ca trong nháy mắt, không cần bảng tính.",
@@ -1798,7 +1798,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Planificare",
     "heroLine1": "Construiește programul",
     "heroLine2": "în minute, nu în ore.",
-    "description": "Crew Scheduling transformă cererea într-un program în care echipa ta chiar are încredere. AI Builder îl schițează din prognoză, mixul de roluri și cine e disponibil; managerii îl editează în patru vizualizări; angajații își văd tura următoare, o confirmă și fac schimb de ture — totul de pe telefon.",
+    "description": "Crew Scheduling transformă cererea într-un program în care echipa ta chiar are încredere. AI Builder îl schițează din prognoză, mixul de roluri și cine e disponibil; managerii îl editează în patru vizualizări; angajații își văd tura următoare, o confirmă și fac schimb de ture - totul de pe telefon.",
     "primaryCta": "Programează o demonstrație Crew",
     "secondaryCta": "Vezi Crew în acțiune",
     "heroProof": [
@@ -1820,12 +1820,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Ce conține Scheduling",
-    "featuresTitle": "Tot ce-i trebuie programului — într-un singur loc.",
+    "featuresTitle": "Tot ce-i trebuie programului - într-un singur loc.",
     "featuresDescription": "Gândit pentru tura de zi cu zi, nu pentru o demonstrație: intră cererea, iese un program publicat, iar fiecare tură se întoarce în deciziile tale.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Schițează săptămâna din prognoză, mixul de roluri și cine e disponibil — dintr-o singură trecere. Tu o rafinezi; nu pornești niciodată de la o grilă goală.",
+        "body": "Schițează săptămâna din prognoză, mixul de roluri și cine e disponibil - dintr-o singură trecere. Tu o rafinezi; nu pornești niciodată de la o grilă goală.",
         "chips": [
           "Atent la cerere",
           "Mix de roluri",
@@ -1834,7 +1834,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Patru moduri de vizualizare",
-        "body": "Citește și editează aceeași săptămână pe ansamblu, pe persoană, pe tură sau pe rol — în funcție de întrebarea la care răspunzi.",
+        "body": "Citește și editează aceeași săptămână pe ansamblu, pe persoană, pe tură sau pe rol - în funcție de întrebarea la care răspunzi.",
         "chips": [
           "Pe zi",
           "Pe persoană",
@@ -1843,7 +1843,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Doar oamenii potriviți",
-        "body": "Pe o tură ajung doar angajații calificați și disponibili. Suprapunerile, orele suplimentare și avertizările de instruire expirată apar înainte de publicare — nu după.",
+        "body": "Pe o tură ajung doar angajații calificați și disponibili. Suprapunerile, orele suplimentare și avertizările de instruire expirată apar înainte de publicare - nu după.",
         "chips": [
           "Oamenii potriviți",
           "Alerte de suprapunere",
@@ -1870,7 +1870,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule pe mobil",
-        "body": "Fiecare angajat își vede tura următoare, cine e cu el și confirmă sau schimbă printr-o atingere — cu o mână, pe drum spre muncă.",
+        "body": "Fiecare angajat își vede tura următoare, cine e cu el și confirmă sau schimbă printr-o atingere - cu o mână, pe drum spre muncă.",
         "chips": [
           "Tura următoare",
           "Confirmă",
@@ -1894,7 +1894,7 @@ export const generatedLocalCopy = {
         "body": "Angajații confirmă și schimbă ture de pe telefon; tu rezolvi aprobările dintr-o singură coadă."
       }
     ],
-    "loopLine": "Fiecare tură publicată alimentează Labor Intelligence din clipa în care e fixată — așa că imaginea nu rămâne niciodată în urmă cu o săptămână.",
+    "loopLine": "Fiecare tură publicată alimentează Labor Intelligence din clipa în care e fixată - așa că imaginea nu rămâne niciodată în urmă cu o săptămână.",
     "creamEyebrow": "Gândit pentru tură",
     "creamStatement": "Programul pe care oamenii chiar îl deschid.",
     "creamLede": "Gândit pentru o singură mână pe o tură aglomerată: răspunsul mai întâi, o decizie pe ecran, acțiunea chiar sub degetul tău. Angajații văd ce urmează și acționează în câteva secunde; managerii citesc acoperirea dintr-o privire, nu într-un tabel.",
@@ -1910,7 +1910,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Schemaläggning",
     "heroLine1": "Bygg schemat",
     "heroLine2": "på minuter, inte timmar.",
-    "description": "Crew Scheduling förvandlar efterfrågan till ett schema som teamet faktiskt litar på. AI Builder skissar det utifrån din prognos, rollmix och vem som är tillgänglig; cheferna redigerar det i fyra vyer; personalen ser sitt nästa pass, kvitterar det och byter — allt från mobilen.",
+    "description": "Crew Scheduling förvandlar efterfrågan till ett schema som teamet faktiskt litar på. AI Builder skissar det utifrån din prognos, rollmix och vem som är tillgänglig; cheferna redigerar det i fyra vyer; personalen ser sitt nästa pass, kvitterar det och byter - allt från mobilen.",
     "primaryCta": "Boka en Crew-genomgång",
     "secondaryCta": "Se Crew i praktiken",
     "heroProof": [
@@ -1932,12 +1932,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Det här finns i Scheduling",
-    "featuresTitle": "Allt schemat behöver — på ett ställe.",
+    "featuresTitle": "Allt schemat behöver - på ett ställe.",
     "featuresDescription": "Byggt för den dagliga golvet, inte en demo: efterfrågan in, ett publicerat schema ut, och varje pass tillbaka in i dina beslut.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Skissar veckan utifrån din prognos, rollmix och vem som är tillgänglig — i ett enda svep. Du finslipar den; du börjar aldrig från ett tomt rutnät.",
+        "body": "Skissar veckan utifrån din prognos, rollmix och vem som är tillgänglig - i ett enda svep. Du finslipar den; du börjar aldrig från ett tomt rutnät.",
         "chips": [
           "Efterfrågestyrt",
           "Rollmix",
@@ -1946,7 +1946,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Fyra sätt att se",
-        "body": "Läs och redigera samma vecka som översikt, per person, per pass eller per roll — beroende på vilken fråga du besvarar.",
+        "body": "Läs och redigera samma vecka som översikt, per person, per pass eller per roll - beroende på vilken fråga du besvarar.",
         "chips": [
           "Per dag",
           "Per person",
@@ -1955,7 +1955,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Bara rätt personer",
-        "body": "Bara personal som är kvalificerad och tillgänglig hamnar på ett pass. Krockar, övertid och varningar om utgången utbildning dyker upp innan du publicerar — inte efter.",
+        "body": "Bara personal som är kvalificerad och tillgänglig hamnar på ett pass. Krockar, övertid och varningar om utgången utbildning dyker upp innan du publicerar - inte efter.",
         "chips": [
           "Rätt personer",
           "Krockvarningar",
@@ -1982,7 +1982,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule i mobilen",
-        "body": "Varje medarbetare ser sitt nästa pass, vem som jobbar med dem, och kvitterar eller byter med ett tryck — med en hand, på väg till jobbet.",
+        "body": "Varje medarbetare ser sitt nästa pass, vem som jobbar med dem, och kvitterar eller byter med ett tryck - med en hand, på väg till jobbet.",
         "chips": [
           "Nästa pass",
           "Kvittera",
@@ -2006,7 +2006,7 @@ export const generatedLocalCopy = {
         "body": "Personalen kvitterar och byter från mobilen; du betar av godkännanden från en enda kö."
       }
     ],
-    "loopLine": "Varje publicerat pass matar Labor Intelligence i samma stund det sätts — så bilden ligger aldrig en vecka efter.",
+    "loopLine": "Varje publicerat pass matar Labor Intelligence i samma stund det sätts - så bilden ligger aldrig en vecka efter.",
     "creamEyebrow": "Byggt för golvet",
     "creamStatement": "Schemat folk faktiskt öppnar.",
     "creamLede": "Byggt för en hand på ett hektiskt golv: svaret först, ett beslut per skärm, åtgärden precis under tummen. Personalen ser vad som kommer härnäst och agerar på sekunder; cheferna läser bemanningen med en blick, inte i ett kalkylark.",
@@ -2022,7 +2022,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Scheduling",
     "heroLine1": "শিডিউল তৈরি করুন",
     "heroLine2": "ঘণ্টায় নয়, কয়েক মিনিটে।",
-    "description": "Crew Scheduling চাহিদাকে এমন এক শিডিউলে রূপ দেয় যাকে আপনার টিম সত্যিই ভরসা করে। AI Builder আপনার পূর্বাভাস, রোল মিক্স আর কে ফাঁকা আছে তা থেকেই খসড়া বানিয়ে দেয়; ম্যানেজাররা চারটি ভিউ জুড়ে এটি সম্পাদনা করেন; স্টাফরা তাদের পরবর্তী শিফট দেখেন, স্বীকার করেন আর অদলবদল করেন — সবই নিজের ফোন থেকে।",
+    "description": "Crew Scheduling চাহিদাকে এমন এক শিডিউলে রূপ দেয় যাকে আপনার টিম সত্যিই ভরসা করে। AI Builder আপনার পূর্বাভাস, রোল মিক্স আর কে ফাঁকা আছে তা থেকেই খসড়া বানিয়ে দেয়; ম্যানেজাররা চারটি ভিউ জুড়ে এটি সম্পাদনা করেন; স্টাফরা তাদের পরবর্তী শিফট দেখেন, স্বীকার করেন আর অদলবদল করেন - সবই নিজের ফোন থেকে।",
     "primaryCta": "একটি Crew ওয়াকথ্রু বুক করুন",
     "secondaryCta": "Crew-কে কাজে দেখুন",
     "heroProof": [
@@ -2044,7 +2044,7 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Scheduling-এ যা আছে",
-    "featuresTitle": "শিডিউলের যা যা দরকার — সবই এক জায়গায়।",
+    "featuresTitle": "শিডিউলের যা যা দরকার - সবই এক জায়গায়।",
     "featuresDescription": "ডেমোর জন্য নয়, প্রতিদিনের ফ্লোরের জন্য বানানো: চাহিদা ভেতরে যায়, প্রকাশিত শিডিউল বেরিয়ে আসে, আর প্রতিটি শিফট ফিরে আসে আপনার সিদ্ধান্তে।",
     "features": [
       {
@@ -2058,7 +2058,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "চার রকম ভিউ",
-        "body": "একই সপ্তাহ ওভারভিউ, ব্যক্তি, শিফট কিংবা রোল অনুযায়ী পড়ুন ও সম্পাদনা করুন — যে প্রশ্নের উত্তর খুঁজছেন সেই অনুযায়ী।",
+        "body": "একই সপ্তাহ ওভারভিউ, ব্যক্তি, শিফট কিংবা রোল অনুযায়ী পড়ুন ও সম্পাদনা করুন - যে প্রশ্নের উত্তর খুঁজছেন সেই অনুযায়ী।",
         "chips": [
           "দিন অনুযায়ী",
           "ব্যক্তি অনুযায়ী",
@@ -2067,7 +2067,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "শুধু সঠিক মানুষই",
-        "body": "যারা যোগ্য আর ফাঁকা আছে কেবল তারাই শিফটে আসে। সংঘর্ষ, ওভারটাইম আর মেয়াদোত্তীর্ণ ট্রেনিংয়ের সতর্কতা প্রকাশের আগেই দেখা দেয় — পরে নয়।",
+        "body": "যারা যোগ্য আর ফাঁকা আছে কেবল তারাই শিফটে আসে। সংঘর্ষ, ওভারটাইম আর মেয়াদোত্তীর্ণ ট্রেনিংয়ের সতর্কতা প্রকাশের আগেই দেখা দেয় - পরে নয়।",
         "chips": [
           "সঠিক মানুষ",
           "সংঘর্ষ সতর্কতা",
@@ -2085,7 +2085,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "পুনরাবৃত্তি ও টেমপ্লেট",
-        "body": "প্যাটার্ন পুনরাবৃত্তি করুন, নিজস্ব রঙসহ শিফট টেমপ্লেট সংরক্ষণ করুন আর ছুটির প্যাক প্রয়োগ করুন — যাতে সপ্তাহটা প্রায় সাজানো অবস্থাতেই শুরু হয়।",
+        "body": "প্যাটার্ন পুনরাবৃত্তি করুন, নিজস্ব রঙসহ শিফট টেমপ্লেট সংরক্ষণ করুন আর ছুটির প্যাক প্রয়োগ করুন - যাতে সপ্তাহটা প্রায় সাজানো অবস্থাতেই শুরু হয়।",
         "chips": [
           "পুনরাবৃত্ত প্যাটার্ন",
           "টেমপ্লেট",
@@ -2094,7 +2094,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "মোবাইল My Schedule",
-        "body": "প্রত্যেক কর্মী দেখেন তাদের পরবর্তী শিফট, কে তাদের সঙ্গে আছে, আর এক ট্যাপে স্বীকার বা অদলবদল করেন — কাজে যাওয়ার পথে, এক হাতেই।",
+        "body": "প্রত্যেক কর্মী দেখেন তাদের পরবর্তী শিফট, কে তাদের সঙ্গে আছে, আর এক ট্যাপে স্বীকার বা অদলবদল করেন - কাজে যাওয়ার পথে, এক হাতেই।",
         "chips": [
           "পরবর্তী শিফট",
           "স্বীকার করুন",
@@ -2103,7 +2103,7 @@ export const generatedLocalCopy = {
       }
     ],
     "howEyebrow": "যেভাবে কাজ করে",
-    "howTitle": "পূর্বাভাস থেকে প্রকাশ — তিন ধাপে।",
+    "howTitle": "পূর্বাভাস থেকে প্রকাশ - তিন ধাপে।",
     "howSteps": [
       {
         "title": "সপ্তাহের পূর্বাভাস করুন",
@@ -2118,7 +2118,7 @@ export const generatedLocalCopy = {
         "body": "স্টাফরা ফোন থেকে স্বীকার ও অদলবদল করে; আপনি একটি কিউ থেকেই অনুমোদন সাফ করেন।"
       }
     ],
-    "loopLine": "প্রতিটি প্রকাশিত শিফট সেট হওয়ার সঙ্গে সঙ্গে Labor Intelligence-এ যায় — তাই চিত্রটা কখনও এক সপ্তাহ পিছিয়ে থাকে না।",
+    "loopLine": "প্রতিটি প্রকাশিত শিফট সেট হওয়ার সঙ্গে সঙ্গে Labor Intelligence-এ যায় - তাই চিত্রটা কখনও এক সপ্তাহ পিছিয়ে থাকে না।",
     "creamEyebrow": "ফ্লোরের জন্য তৈরি",
     "creamStatement": "যে শিডিউল মানুষ সত্যিই খোলে।",
     "creamLede": "ব্যস্ত ফ্লোরে এক হাতের জন্য তৈরি: আগে উত্তর, প্রতি স্ক্রিনে একটি সিদ্ধান্ত, পদক্ষেপটি ঠিক বুড়ো আঙুলের নিচে। স্টাফরা পরেরটা দেখে সেকেন্ডেই পদক্ষেপ নেয়; ম্যানেজাররা কভারেজ এক নজরেই পড়েন, স্প্রেডশিটে নয়।",
@@ -2246,7 +2246,7 @@ export const generatedLocalCopy = {
     "badge": "Crew · Scheduling",
     "heroLine1": "Bina jadual kerja",
     "heroLine2": "dalam minit, bukan berjam-jam.",
-    "description": "Crew Scheduling menukar permintaan kepada jadual yang benar-benar dipercayai pasukan anda. AI Builder merangkanya daripada ramalan, gabungan peranan dan siapa yang lapang; pengurus menyuntingnya merentas empat paparan; staf melihat syif seterusnya, mengesahkannya, dan bertukar syif — semuanya dari telefon mereka.",
+    "description": "Crew Scheduling menukar permintaan kepada jadual yang benar-benar dipercayai pasukan anda. AI Builder merangkanya daripada ramalan, gabungan peranan dan siapa yang lapang; pengurus menyuntingnya merentas empat paparan; staf melihat syif seterusnya, mengesahkannya, dan bertukar syif - semuanya dari telefon mereka.",
     "primaryCta": "Tempah sesi tunjuk cara Crew",
     "secondaryCta": "Lihat Crew beraksi",
     "heroProof": [
@@ -2268,12 +2268,12 @@ export const generatedLocalCopy = {
       }
     ],
     "featuresEyebrow": "Apa yang ada dalam Scheduling",
-    "featuresTitle": "Segala yang jadual perlukan — di satu tempat.",
+    "featuresTitle": "Segala yang jadual perlukan - di satu tempat.",
     "featuresDescription": "Dibina untuk lantai operasi harian, bukan sekadar demo: permintaan masuk, jadual diterbitkan keluar, dan setiap syif mengalir kembali ke keputusan anda.",
     "features": [
       {
         "title": "AI Builder",
-        "body": "Merangka seminggu daripada ramalan, gabungan peranan dan siapa yang lapang — dalam satu pusingan. Anda hanya perlu memperhalusi; anda tidak pernah bermula dari grid kosong.",
+        "body": "Merangka seminggu daripada ramalan, gabungan peranan dan siapa yang lapang - dalam satu pusingan. Anda hanya perlu memperhalusi; anda tidak pernah bermula dari grid kosong.",
         "chips": [
           "Peka permintaan",
           "Gabungan peranan",
@@ -2282,7 +2282,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Empat cara paparan",
-        "body": "Baca dan sunting minggu yang sama mengikut gambaran keseluruhan, mengikut orang, mengikut syif, atau mengikut peranan — ikut soalan yang sedang anda jawab.",
+        "body": "Baca dan sunting minggu yang sama mengikut gambaran keseluruhan, mengikut orang, mengikut syif, atau mengikut peranan - ikut soalan yang sedang anda jawab.",
         "chips": [
           "Ikut hari",
           "Ikut orang",
@@ -2291,7 +2291,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "Hanya orang yang betul",
-        "body": "Hanya staf yang layak dan lapang masuk ke sesuatu syif. Pertindihan, kerja lebih masa dan amaran latihan luput muncul sebelum anda terbit — bukan selepasnya.",
+        "body": "Hanya staf yang layak dan lapang masuk ke sesuatu syif. Pertindihan, kerja lebih masa dan amaran latihan luput muncul sebelum anda terbit - bukan selepasnya.",
         "chips": [
           "Orang yang betul",
           "Amaran pertindihan",
@@ -2318,7 +2318,7 @@ export const generatedLocalCopy = {
       },
       {
         "title": "My Schedule mudah alih",
-        "body": "Setiap pekerja melihat syif seterusnya, siapa bertugas bersamanya, dan mengesah atau bertukar dengan satu ketik — guna sebelah tangan, dalam perjalanan ke kerja.",
+        "body": "Setiap pekerja melihat syif seterusnya, siapa bertugas bersamanya, dan mengesah atau bertukar dengan satu ketik - guna sebelah tangan, dalam perjalanan ke kerja.",
         "chips": [
           "Syif seterusnya",
           "Sahkan",
@@ -2342,7 +2342,7 @@ export const generatedLocalCopy = {
         "body": "Staf mengesah dan bertukar dari telefon mereka; anda melangsaikan kelulusan dari satu baris gilir."
       }
     ],
-    "loopLine": "Setiap syif yang diterbitkan menyuap Labor Intelligence sebaik sahaja ia ditetapkan — jadi gambarannya tidak pernah ketinggalan seminggu.",
+    "loopLine": "Setiap syif yang diterbitkan menyuap Labor Intelligence sebaik sahaja ia ditetapkan - jadi gambarannya tidak pernah ketinggalan seminggu.",
     "creamEyebrow": "Dibina untuk lantai operasi",
     "creamStatement": "Jadual yang orang betul-betul buka.",
     "creamLede": "Dibina untuk sebelah tangan di lantai yang sibuk: jawapan dahulu, satu keputusan setiap skrin, tindakan tepat di bawah ibu jari anda. Staf nampak apa yang seterusnya dan bertindak dalam saat; pengurus membaca liputan sekali pandang, bukan dalam hamparan.",

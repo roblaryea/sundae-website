@@ -4,7 +4,7 @@
 // each object holds every EN key, per the shared crew-i18n contract.
 export const LOC: Record<string, Record<string, string>> = {
   ar: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'نادل',
     statusActive: 'نشط',
     tenureYears: 'سنوات',
@@ -23,7 +23,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'تعديل الملف الشخصي',
   },
   fr: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Serveur',
     statusActive: 'Actif',
     tenureYears: 'ans',
@@ -42,7 +42,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Modifier le profil',
   },
   es: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Camarero',
     statusActive: 'Activo',
     tenureYears: 'años',
@@ -61,7 +61,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Editar perfil',
   },
   de: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Kellner',
     statusActive: 'Aktiv',
     tenureYears: 'J.',
@@ -80,7 +80,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Profil bearbeiten',
   },
   nl: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Kelner',
     statusActive: 'Actief',
     tenureYears: 'jr',
@@ -99,7 +99,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Profiel bewerken',
   },
   pt: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Garçom',
     statusActive: 'Ativo',
     tenureYears: 'anos',
@@ -118,7 +118,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Editar perfil',
   },
   hi: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'सर्वर',
     statusActive: 'सक्रिय',
     tenureYears: 'वर्ष',
@@ -137,7 +137,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'प्रोफ़ाइल संपादित करें',
   },
   ur: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'ویٹر',
     statusActive: 'فعال',
     tenureYears: 'سال',
@@ -156,7 +156,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'پروفائل میں ترمیم کریں',
   },
   it: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Cameriere',
     statusActive: 'Attivo',
     tenureYears: 'anni',
@@ -175,7 +175,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Modifica profilo',
   },
   pl: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Kelner',
     statusActive: 'Aktywny',
     tenureYears: 'lata',
@@ -194,7 +194,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Edytuj profil',
   },
   tr: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Garson',
     statusActive: 'Aktif',
     tenureYears: 'yıl',
@@ -213,7 +213,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Profili düzenle',
   },
   'zh-Hans': {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae--DIFC',
     role: '服务员',
     statusActive: '在职',
     tenureYears: '年',
@@ -232,7 +232,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: '编辑资料',
   },
   ja: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae--DIFC',
     role: 'サーバー',
     statusActive: '在籍中',
     tenureYears: '年',
@@ -251,7 +251,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'プロフィールを編集',
   },
   ko: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae--DIFC',
     role: '서버',
     statusActive: '재직 중',
     tenureYears: '년',
@@ -270,7 +270,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: '프로필 편집',
   },
   id: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Pramusaji',
     statusActive: 'Aktif',
     tenureYears: 'thn',
@@ -289,7 +289,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Edit profil',
   },
   vi: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Phục vụ',
     statusActive: 'Đang làm việc',
     tenureYears: 'năm',
@@ -308,7 +308,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Chỉnh sửa hồ sơ',
   },
   ro: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Ospătar',
     statusActive: 'Activ',
     tenureYears: 'ani',
@@ -327,7 +327,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Editează profilul',
   },
   sv: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Servitör',
     statusActive: 'Aktiv',
     tenureYears: 'år',
@@ -346,7 +346,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'Redigera profil',
   },
   bn: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'সার্ভার',
     statusActive: 'সক্রিয়',
     tenureYears: 'বছর',
@@ -365,7 +365,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'প্রোফাইল সম্পাদনা',
   },
   th: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'พนักงานเสิร์ฟ',
     statusActive: 'ทำงานอยู่',
     tenureYears: 'ปี',
@@ -384,7 +384,7 @@ export const LOC: Record<string, Record<string, string>> = {
     editProfile: 'แก้ไขโปรไฟล์',
   },
   ms: {
-    orgName: 'Sundae — DIFC',
+    orgName: 'Sundae - DIFC',
     role: 'Pelayan',
     statusActive: 'Aktif',
     tenureYears: 'thn',

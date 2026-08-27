@@ -82,7 +82,7 @@ export default function HeroGlassLazy({ active, onHover, onLayout, poster, class
 
   return (
     <div ref={wrapRef} className={className} style={{ position: "relative" }}>
-      {/* The old SVG glass is ONLY the reduced-motion / no-WebGL fallback now — it
+      {/* The old SVG glass is ONLY the reduced-motion / no-WebGL fallback now - it
           never flashes during the normal 3D load (undetermined state renders
           nothing; the section's warm wash shows through until the canvas fades in). */}
       {showSvg && <div className="absolute inset-0">{poster}</div>}

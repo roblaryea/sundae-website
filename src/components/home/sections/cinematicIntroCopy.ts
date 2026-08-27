@@ -1,7 +1,7 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
 // Locale copy for the cinematic intro. Everything localizes, including the
-// "See every layer. / Act in time." headline (native transcreation per locale).
+// "Recover the profit. / Prove what worked." headline (native transcreation per locale).
 export type CinematicLayer = { name: string; sub: string };
 export type CinematicIntroCopy = { headline: string; tagline: string; eyebrow: string; sub: string; cta: string; layers: CinematicLayer[] };
 
@@ -15,7 +15,7 @@ export const cinematicIntroCopy: Record<WebsiteLocale, CinematicIntroCopy> = {
     layers: [
       { name: 'Foundation', sub: 'org topology' },
       { name: 'Revenue', sub: 'sales & mix' },
-      { name: 'Labor', sub: 'crew & cost' },
+      { name: 'Labour', sub: 'crew & cost' },
       { name: 'Inventory', sub: 'stock & waste' },
       { name: 'Marketing', sub: 'reach & ROI' },
       { name: 'Guests', sub: 'CRM & loyalty' },

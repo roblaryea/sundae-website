@@ -52,7 +52,7 @@ export const generatedLocalCopy = {
         {
           "title": "Respuestas citadas en la fuente en segundos",
           "description": "Pregunta por qué la marca C comprimió margen o qué locales pierden frente a promociones de la competencia. Obtén una respuesta citada con los datos que la respaldan.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -140,7 +140,7 @@ export const generatedLocalCopy = {
         {
           "title": "إجابات موثَّقة بمصدرها في ثوانٍ",
           "description": "اسأل عن سبب انضغاط هامش العلامة التجارية C أو أي الفروع تخسر أمام عروض المنافسين الترويجية. احصل على إجابة مدعومة بالبيانات التي تستند إليها.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -228,7 +228,7 @@ export const generatedLocalCopy = {
         {
           "title": "Respostas citadas pela fonte em segundos",
           "description": "Pergunte por que a Marca C comprimiu a margem ou quais pontos de venda perdem para as promoções dos concorrentes. Obtenha uma resposta com citação da fonte, junto dos dados que a sustentam.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -316,7 +316,7 @@ export const generatedLocalCopy = {
         {
           "title": "Quellenzitierte Antworten in Sekundenschnelle",
           "description": "Fragen Sie, warum die Marge von Marke C gesunken ist oder welche Filialen aufgrund der Werbeaktionen der Konkurrenz verlieren. Erhalten Sie eine quellenbelegte Antwort samt der Daten, aus denen sie stammt.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -404,7 +404,7 @@ export const generatedLocalCopy = {
         {
           "title": "Réponses citées par la source en quelques secondes",
           "description": "Demandez pourquoi la marque C a comprimé la marge ou quels points de vente perdent face aux promotions des concurrents. Obtenez une réponse sourcée, accompagnée des données dont elle est tirée.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -492,7 +492,7 @@ export const generatedLocalCopy = {
         {
           "title": "Bronvermelde antwoorden in seconden",
           "description": "Vraag waarom merk C de marge heeft gecomprimeerd of welke verkooppunten verliezen door promoties van concurrenten. Krijg een antwoord met bronvermelding, inclusief de gegevens waaruit het is afgeleid.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -580,7 +580,7 @@ export const generatedLocalCopy = {
         {
           "title": "سیکنڈوں میں ماخذ کے حوالے سے جوابات",
           "description": "پوچھیں کہ برانڈ C کا مارجن کیوں دب گیا یا کون سے آؤٹ لیٹس حریفوں کے پروموز سے ہار رہے ہیں۔ اُس ڈیٹا کے ساتھ ماخذ کا حوالہ دیا گیا جواب حاصل کریں جس سے یہ اخذ کیا گیا ہے۔",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -668,7 +668,7 @@ export const generatedLocalCopy = {
         {
           "title": "स्रोत-उद्धृत उत्तर सेकंडों में",
           "description": "पूछें कि ब्रांड सी का मार्जिन क्यों कम हुआ या कौन से आउटलेट प्रतिस्पर्धी प्रोमो से हार गए। जिस डेटा से यह लिया गया है, उसके साथ स्रोत-उद्धृत उत्तर प्राप्त करें।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -756,7 +756,7 @@ export const generatedLocalCopy = {
         {
           "title": "Risposte citate dalla fonte in pochi secondi",
           "description": "Chiedi perché il marchio C ha compresso il margine o quali punti vendita perdono a causa delle promozioni della concorrenza. Ottieni una risposta con citazione della fonte, insieme ai dati da cui è tratta.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -844,7 +844,7 @@ export const generatedLocalCopy = {
         {
           "title": "几秒钟内引用来源的答案",
           "description": "询问品牌 C 为何利润率受压，或哪些门店在竞争对手的促销中失利。获得一个标注来源的答案，并附上其依据的数据。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -932,7 +932,7 @@ export const generatedLocalCopy = {
         {
           "title": "Odpowiedzi cytowane w źródle w ciągu kilku sekund",
           "description": "Zapytaj, dlaczego marża Marki C spadła lub które punkty sprzedaży przegrywają z promocjami konkurencji. Uzyskaj odpowiedź z cytowanym źródłem wraz z danymi, z których została wyciągnięta.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1020,7 +1020,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kaynaktan alıntılanan yanıtlar saniyeler içinde",
           "description": "C Markasının marjının neden daraldığını veya hangi satış noktalarının rakip promosyonlara karşı kaybettiğini sorun. Dayandığı verilerle birlikte kaynak gösterilen bir yanıt alın.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1108,7 +1108,7 @@ export const generatedLocalCopy = {
         {
           "title": "出典を引用した回答を数秒で表示",
           "description": "ブランド C がなぜ利益率を圧縮したのか、どの販売店が競合他社のプロモーションに負けたのかを尋ねます。根拠となるデータを添えた、出典付きの回答が得られます。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1196,7 +1196,7 @@ export const generatedLocalCopy = {
         {
           "title": "Răspunsuri citate de sursă în câteva secunde",
           "description": "Întrebați de ce marca C a comprimat marja sau ce puncte de vânzare pierd în fața promoțiilor concurenților. Obțineți un răspuns cu sursă citată, însoțit de datele din care este extras.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1284,7 +1284,7 @@ export const generatedLocalCopy = {
         {
           "title": "몇 초 만에 출처 인용 답변",
           "description": "브랜드 C의 마진이 왜 줄었는지, 어떤 매장이 경쟁업체 프로모션에 밀리는지 물어보세요. 근거가 된 데이터와 함께 출처가 표시된 답변을 받으세요.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1372,7 +1372,7 @@ export const generatedLocalCopy = {
         {
           "title": "Källangivna svar på några sekunder",
           "description": "Fråga varför Brand C pressade marginalen eller vilka butiker som förlorar mot konkurrenters kampanjer. Få ett källhänvisat svar med uppgifterna det är hämtat från.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1460,7 +1460,7 @@ export const generatedLocalCopy = {
         {
           "title": "Câu trả lời được trích dẫn nguồn trong vài giây",
           "description": "Hỏi tại sao biên lợi nhuận của Thương hiệu C bị nén hoặc cửa hàng nào thua các chương trình khuyến mãi của đối thủ cạnh tranh. Nhận câu trả lời có trích dẫn nguồn, kèm theo dữ liệu mà nó được rút ra.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1548,7 +1548,7 @@ export const generatedLocalCopy = {
         {
           "title": "সেকেন্ডের মধ্যে উৎস-উদ্ধৃত উত্তর",
           "description": "কেন ব্র্যান্ড সি-এর মার্জিন কমেছে বা কোন আউটলেটগুলি প্রতিযোগীদের প্রচারের কাছে হারছে তা জিজ্ঞাসা করুন। এটি যে ডেটা থেকে নেওয়া, তার সাথে উৎস-উদ্ধৃত একটি উত্তর পান।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1636,7 +1636,7 @@ export const generatedLocalCopy = {
         {
           "title": "คำตอบที่อ้างอิงแหล่งที่มาในไม่กี่วินาที",
           "description": "ถามว่าทำไม Brand C ถึงบีบอัตรากำไร หรือร้านไหนแพ้โปรโมชั่นของคู่แข่ง รับคำตอบที่มีตัวเลขพร้อมข้อมูลที่ดึงมา",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1724,7 +1724,7 @@ export const generatedLocalCopy = {
         {
           "title": "Jawaban yang dikutip sumber dalam hitungan detik",
           "description": "Tanyakan mengapa margin Brand C menyusut atau outlet mana yang kalah dari promo kompetitor. Dapatkan jawaban dengan kutipan sumber, beserta data yang menjadi dasarnya.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1812,7 +1812,7 @@ export const generatedLocalCopy = {
         {
           "title": "Jawapan yang dipetik sumber dalam beberapa saat",
           "description": "Tanya mengapa margin Jenama C mengecil atau cawangan mana yang kalah kepada promosi pesaing. Dapatkan jawapan yang memetik sumber, berserta data yang menjadi asasnya.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {

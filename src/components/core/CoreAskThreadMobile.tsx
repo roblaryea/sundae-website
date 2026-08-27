@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Faithful implementation of "Sundae Intelligence · Ask — Conversation thread"
+ * Faithful implementation of "Ask Sundae · Ask — Conversation thread"
  * (the core surface — answer-first replies with inline evidence) from the Claude
  * Design source. DARK variant only. Cool-slate token set shared with the Crew
  * scheduling design. Sits inside <PhoneFrame screenBg="#020617">. Pure markup.
@@ -22,14 +22,14 @@ const EN = {
   a1HeadlineKey: 'Down 7%',
   a1HeadlineRest: 'driven by fewer covers, not lower spend.',
   a1Body: 'Covers fell 9% vs a typical Monday while average check held steady at',
-  a1BodyEnd: '. The gap is almost entirely walk-ins during the 6–8 PM window.',
+  a1BodyEnd: '. The gap is almost entirely walk-ins during the 6 - 8 PM window.',
   netRevYesterday: 'Net Revenue · yesterday',
   vsPlanPrefix: 'vs',
   vsPlanSuffix: 'plan · DIFC',
   revenueByDay: 'Revenue by day',
   thisWeek: 'This week',
   a1Weather:
-    'The dip lines up with heavy rain across DIFC on Monday evening — foot traffic was down across the area.',
+    'The dip lines up with heavy rain across DIFC on Monday evening - foot traffic was down across the area.',
   chipOutlet: 'Break down by outlet',
   chipCompareWeek: 'Compare to last week',
   chipLabor: 'What about labor?',
@@ -45,7 +45,7 @@ const EN = {
   provenance: 'Provenance',
   openDesktop: 'Open full analysis on desktop ↗',
   // composer
-  askPlaceholder: 'Ask Sundae anything…',
+  askPlaceholder: 'Ask Sundae anything...',
 } as const;
 
 const T = {
@@ -255,7 +255,7 @@ export function CoreAskThreadMobile() {
           >
             S
           </span>
-          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae — DIFC</span>
+          <span style={{ font: `600 11.5px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>Sundae - DIFC</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>▾</span>
         </button>
         <span style={{ font: `600 15px ${FONT}`, color: T.tx }}>{t.screenTitle}</span>
@@ -273,7 +273,7 @@ export function CoreAskThreadMobile() {
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ font: `600 16px/1.4 ${FONT}`, color: T.tx, marginBottom: 4 }}>
             <span style={{ color: T.warnk, fontWeight: 700 }}>{t.a1HeadlineKey}</span>
-            {' — '}
+            {' - '}
             {crewMoney(locale, belowPlanGbp)} {t.a1HeadlineRest}
           </div>
           <div style={{ font: `400 13.5px/1.55 ${FONT}`, color: T.tx2, margin: '8px 0' }}>

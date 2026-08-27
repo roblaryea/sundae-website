@@ -58,7 +58,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach donne le prochain coup",
           "description": "Quand un site est 14% en retard sur son rythme, Coach recommande une action précise au directeur - main-d'œuvre ajustée, un coup de fidélité, un changement de carte - puis mesure la marge récupérée par rapport à une référence.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -146,7 +146,7 @@ export const generatedLocalCopy = {
         {
           "title": "مدرب Sundae يعطي الخطوة التالية",
           "description": "حين يتأخر موقع 14% عن وتيرته، يوصي Coach المديرَ بخطوة محددة - تعديل العمالة، دفعة ولاء، تبديل صنف في القائمة - ثم يقيس الهامش المسترد مقابل خط أساس.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -234,7 +234,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach da el siguiente paso",
           "description": "Cuando un local va 14% por debajo del ritmo, Coach recomienda una jugada concreta al gerente - mano de obra ajustada, un empujón de fidelidad, un cambio de menú - y luego mide el margen recuperado contra una línea base.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -322,7 +322,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach geeft de volgende zet",
           "description": "Als een vestiging 14% achterloopt op de pacing, beveelt Coach de GM een concrete zet aan - bijgestelde bezetting, een loyaliteitsactie, een menuwissel - en meet daarna de teruggewonnen marge tegen een basislijn.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -410,7 +410,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach dá o próximo passo",
           "description": "Quando uma unidade está 14% atrás do ritmo, o Coach recomenda uma jogada específica ao gerente - mão de obra ajustada, um empurrão de fidelidade, uma troca de menu - e depois mede a margem recuperada contra uma linha de base.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -498,7 +498,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach gibt den nächsten Schritt",
           "description": "Wenn ein Standort 14% hinter dem Pacing liegt, empfiehlt Coach dem GM einen konkreten Zug - angepasste Personalplanung, ein Loyalty-Push, ein Menütausch - und misst dann die zurückgewonnene Marge an einer Basislinie.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -586,7 +586,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae کوچ اگلا اقدام دیتا ہے۔",
           "description": "جب کوئی مقام اپنی رفتار سے 14% پیچھے ہو، Coach مینیجر کو ایک مخصوص چال تجویز کرتا ہے - ایڈجسٹ شدہ عملہ، وفاداری کا زور، مینو میں تبدیلی - پھر بحال شدہ مارجن کو بنیادی خط کے مقابل ماپتا ہے۔",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae कोच अगली चाल देता है",
           "description": "जब कोई साइट पेसिंग से 14% पीछे हो, Coach मैनेजर को एक ठोस कदम सुझाता है - समायोजित लेबर, लॉयल्टी पुश, मेन्यू बदलाव - फिर वापस पाए गए मार्जिन को बेसलाइन के मुक़ाबले मापता है।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -762,7 +762,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach dà la mossa successiva",
           "description": "Quando una sede è al 14% sotto il ritmo, Coach consiglia al direttore una mossa precisa - personale rimodulato, una spinta fedeltà, un cambio di menu - poi misura il margine recuperato rispetto a una linea di base.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -850,7 +850,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae教练给出了下一步行动",
           "description": "当某家门店落后节奏 14% 时，Coach 会向店长推荐一招具体打法--调整用工、推一波会员、换一道菜品--然后以基准线衡量收回的利润。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -938,7 +938,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach wykonuje kolejny ruch",
           "description": "Gdy placówka jest 14% za tempem, Coach rekomenduje kierownikowi konkretne zagranie - dostosowana obsada, akcja lojalnościowa, zmiana w menu - a potem mierzy odzyskaną marżę względem punktu odniesienia.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1026,7 +1026,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach bir sonraki hamleyi veriyor",
           "description": "Bir şube tempoda 14% geride kaldığında Coach, müdüre belirli bir hamle önerir - ayarlanmış personel, bir sadakat hamlesi, bir menü değişikliği - ardından geri kazanılan marjı taban çizgisine göre ölçer.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1114,7 +1114,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach가 다음 수를 제시합니다",
           "description": "한 매장이 페이스보다 14% 뒤처지면, Coach가 매니저에게 구체적인 방안을 제안합니다 - 인력 조정, 로열티 프로모션, 메뉴 교체 - 그런 다음 회수한 마진을 기준선과 비교해 측정합니다.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1202,7 +1202,7 @@ export const generatedLocalCopy = {
         {
           "title": "Pelatih Sundae memberikan langkah selanjutnya",
           "description": "Saat sebuah gerai tertinggal 14% dari pacing, Coach merekomendasikan langkah spesifik ke manajer - tenaga kerja disesuaikan, dorongan loyalitas, penggantian menu - lalu mengukur margin yang dipulihkan terhadap garis dasar.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1290,7 +1290,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundaeコーチが次の一手を出す",
           "description": "ある店舗がペースを14%下回ると、Coach は店長に具体的な一手を提案します--人員の調整、ロイヤルティ施策、メニューの入れ替え--そのうえで回収した利益をベースラインと比べて測定します。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1378,7 +1378,7 @@ export const generatedLocalCopy = {
         {
           "title": "Huấn luyện viên Sundae đưa ra động thái tiếp theo",
           "description": "Khi một cửa hàng chậm 14% so với nhịp độ, Coach đề xuất cho quản lý một nước đi cụ thể - điều chỉnh nhân lực, một cú hích khách hàng thân thiết, đổi món trong menu - rồi đo phần biên lợi nhuận thu hồi được so với đường cơ sở.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1466,7 +1466,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae কোচ পরবর্তী পদক্ষেপ দেয়",
           "description": "কোনো সাইট পেসিং থেকে 14% পিছিয়ে থাকলে Coach ম্যানেজারকে একটি নির্দিষ্ট পদক্ষেপ সুপারিশ করে - সমন্বিত শ্রম, একটি লয়্যালটি পুশ, মেনু অদলবদল - তারপর পুনরুদ্ধার করা মার্জিন বেসলাইনের বিপরীতে মাপে।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1554,7 +1554,7 @@ export const generatedLocalCopy = {
         {
           "title": "Antrenorul Sundae dă următoarea mișcare",
           "description": "Când o locație este cu 14% sub ritm, Coach recomandă managerului o mișcare concretă - personal ajustat, un impuls de loialitate, o schimbare de meniu - apoi măsoară marja recuperată față de o linie de referință.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1642,7 +1642,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach ger nästa drag",
           "description": "När en plats ligger 14% efter tempot rekommenderar Coach platschefen ett specifikt drag - justerad bemanning, en lojalitetspush, ett menybyte - och mäter sedan den återvunna marginalen mot en baslinje.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1730,7 +1730,7 @@ export const generatedLocalCopy = {
         {
           "title": "Jurulatih Sundae memberikan langkah seterusnya",
           "description": "Apabila sesebuah lokasi ketinggalan 14% daripada rentak, Coach mengesyorkan langkah khusus kepada pengurus - tenaga kerja diselaraskan, dorongan kesetiaan, pertukaran menu - kemudian mengukur margin yang dipulihkan berbanding garis dasar.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],
@@ -1818,7 +1818,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundaeโค้ชให้การเคลื่อนไหวต่อไป",
           "description": "เมื่อสาขาหนึ่งตามจังหวะช้าอยู่ 14% Coach จะแนะนำผู้จัดการถึงหมากที่เจาะจง - ปรับกำลังคน ดันโปรแกรมสมาชิก สลับเมนู - แล้ววัดมาร์จินที่กู้คืนได้เทียบกับเส้นฐาน",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         }
       ],

@@ -5,7 +5,7 @@ export const LOC: Record<string, Record<string, string>> = {
   ar: {
     floorMode: 'وضع الصالة',
     twoMinAgo: 'قبل دقيقتين',
-    subtitle: 'مراقب العمليات اللحظي — اكتشف وتصرّف وأكّد ضمن المناوبة.',
+    subtitle: 'مراقب العمليات اللحظي - اكتشف وتصرّف وأكّد ضمن المناوبة.',
     shiftSnapshot: 'لقطة المناوبة',
     watch: 'انتباه',
     dinnerBehind: 'العشاء · متأخر قليلاً عن الوتيرة',
@@ -40,7 +40,7 @@ export const LOC: Record<string, Record<string, string>> = {
   fr: {
     floorMode: 'Mode Salle',
     twoMinAgo: 'il y a 2 min',
-    subtitle: 'Moniteur des opérations en temps réel — détecter, agir, confirmer pendant le service.',
+    subtitle: 'Moniteur des opérations en temps réel - détecter, agir, confirmer pendant le service.',
     shiftSnapshot: 'Aperçu du service',
     watch: 'Vigilance',
     dinnerBehind: 'Dîner · légèrement en retard sur le rythme',
@@ -110,7 +110,7 @@ export const LOC: Record<string, Record<string, string>> = {
   de: {
     floorMode: 'Service-Modus',
     twoMinAgo: 'vor 2 Min',
-    subtitle: 'Echtzeit-Betriebsmonitor — erkennen, handeln, bestätigen innerhalb der Schicht.',
+    subtitle: 'Echtzeit-Betriebsmonitor - erkennen, handeln, bestätigen innerhalb der Schicht.',
     shiftSnapshot: 'Schicht-Übersicht',
     watch: 'Beobachten',
     dinnerBehind: 'Abendservice · leicht hinter dem Tempo',
@@ -145,7 +145,7 @@ export const LOC: Record<string, Record<string, string>> = {
   nl: {
     floorMode: 'Vloermodus',
     twoMinAgo: '2 min geleden',
-    subtitle: 'Realtime operationele monitor — signaleren, handelen, bevestigen binnen de dienst.',
+    subtitle: 'Realtime operationele monitor - signaleren, handelen, bevestigen binnen de dienst.',
     shiftSnapshot: 'Dienstoverzicht',
     watch: 'Let op',
     dinnerBehind: 'Diner · iets achter op tempo',
@@ -180,7 +180,7 @@ export const LOC: Record<string, Record<string, string>> = {
   pt: {
     floorMode: 'Modo Salão',
     twoMinAgo: 'há 2 min',
-    subtitle: 'Monitor de operações em tempo real — detectar, agir, confirmar dentro do turno.',
+    subtitle: 'Monitor de operações em tempo real - detectar, agir, confirmar dentro do turno.',
     shiftSnapshot: 'Resumo do turno',
     watch: 'Atenção',
     dinnerBehind: 'Jantar · ligeiramente abaixo do ritmo',
@@ -215,7 +215,7 @@ export const LOC: Record<string, Record<string, string>> = {
   hi: {
     floorMode: 'फ्लोर मोड',
     twoMinAgo: '2 मिनट पहले',
-    subtitle: 'इंट्राडे ऑपरेशन्स मॉनिटर — शिफ्ट के भीतर पहचानें, कार्य करें, पुष्टि करें।',
+    subtitle: 'इंट्राडे ऑपरेशन्स मॉनिटर - शिफ्ट के भीतर पहचानें, कार्य करें, पुष्टि करें।',
     shiftSnapshot: 'शिफ्ट स्नैपशॉट',
     watch: 'निगरानी',
     dinnerBehind: 'डिनर · गति से थोड़ा पीछे',
@@ -250,7 +250,7 @@ export const LOC: Record<string, Record<string, string>> = {
   ur: {
     floorMode: 'فلور موڈ',
     twoMinAgo: '2 منٹ پہلے',
-    subtitle: 'انٹرا ڈے آپریشنز مانیٹر — شفٹ کے اندر شناخت کریں، عمل کریں، تصدیق کریں۔',
+    subtitle: 'انٹرا ڈے آپریشنز مانیٹر - شفٹ کے اندر شناخت کریں، عمل کریں، تصدیق کریں۔',
     shiftSnapshot: 'شفٹ کا خلاصہ',
     watch: 'نگرانی',
     dinnerBehind: 'ڈنر · رفتار سے قدرے پیچھے',
@@ -320,7 +320,7 @@ export const LOC: Record<string, Record<string, string>> = {
   pl: {
     floorMode: 'Tryb Sali',
     twoMinAgo: '2 min temu',
-    subtitle: 'Monitor operacji w czasie rzeczywistym — wykryj, zadziałaj, potwierdź w trakcie zmiany.',
+    subtitle: 'Monitor operacji w czasie rzeczywistym - wykryj, zadziałaj, potwierdź w trakcie zmiany.',
     shiftSnapshot: 'Migawka zmiany',
     watch: 'Uwaga',
     dinnerBehind: 'Kolacja · nieco poniżej tempa',
@@ -355,7 +355,7 @@ export const LOC: Record<string, Record<string, string>> = {
   tr: {
     floorMode: 'Salon Modu',
     twoMinAgo: '2 dk önce',
-    subtitle: 'Gün içi operasyon monitörü — vardiya içinde tespit et, harekete geç, doğrula.',
+    subtitle: 'Gün içi operasyon monitörü - vardiya içinde tespit et, harekete geç, doğrula.',
     shiftSnapshot: 'Vardiya özeti',
     watch: 'İzle',
     dinnerBehind: 'Akşam servisi · tempodan biraz geride',
@@ -390,7 +390,7 @@ export const LOC: Record<string, Record<string, string>> = {
   'zh-Hans': {
     floorMode: '前厅模式',
     twoMinAgo: '2分钟前',
-    subtitle: '实时运营监控——在本班次内发现、行动、确认。',
+    subtitle: '实时运营监控----在本班次内发现、行动、确认。',
     shiftSnapshot: '班次快照',
     watch: '关注',
     dinnerBehind: '晚市 · 略低于进度',
@@ -425,7 +425,7 @@ export const LOC: Record<string, Record<string, string>> = {
   ja: {
     floorMode: 'フロアモード',
     twoMinAgo: '2分前',
-    subtitle: 'リアルタイム運営モニター — シフト内で検知・対応・確認。',
+    subtitle: 'リアルタイム運営モニター--シフト内で検知・対応・確認。',
     shiftSnapshot: 'シフトの概況',
     watch: '注視',
     dinnerBehind: 'ディナー · ペースをやや下回る',
@@ -460,7 +460,7 @@ export const LOC: Record<string, Record<string, string>> = {
   ko: {
     floorMode: '플로어 모드',
     twoMinAgo: '2분 전',
-    subtitle: '실시간 운영 모니터 — 근무 중 감지·조치·확인.',
+    subtitle: '실시간 운영 모니터--근무 중 감지·조치·확인.',
     shiftSnapshot: '근무 스냅샷',
     watch: '주시',
     dinnerBehind: '디너 · 페이스보다 약간 뒤처짐',
@@ -495,7 +495,7 @@ export const LOC: Record<string, Record<string, string>> = {
   id: {
     floorMode: 'Mode Lantai',
     twoMinAgo: '2 mnt lalu',
-    subtitle: 'Monitor operasi intraday — deteksi, tindak, konfirmasi dalam shift.',
+    subtitle: 'Monitor operasi intraday - deteksi, tindak, konfirmasi dalam shift.',
     shiftSnapshot: 'Ringkasan shift',
     watch: 'Perhatian',
     dinnerBehind: 'Makan malam · sedikit di bawah tempo',
@@ -530,7 +530,7 @@ export const LOC: Record<string, Record<string, string>> = {
   vi: {
     floorMode: 'Chế độ Sàn',
     twoMinAgo: '2 phút trước',
-    subtitle: 'Giám sát vận hành trong ngày — phát hiện, hành động, xác nhận trong ca.',
+    subtitle: 'Giám sát vận hành trong ngày - phát hiện, hành động, xác nhận trong ca.',
     shiftSnapshot: 'Tổng quan ca',
     watch: 'Theo dõi',
     dinnerBehind: 'Bữa tối · hơi chậm so với nhịp',
@@ -565,7 +565,7 @@ export const LOC: Record<string, Record<string, string>> = {
   ro: {
     floorMode: 'Mod Sală',
     twoMinAgo: 'acum 2 min',
-    subtitle: 'Monitor operațional în timp real — detectează, acționează, confirmă în tură.',
+    subtitle: 'Monitor operațional în timp real - detectează, acționează, confirmă în tură.',
     shiftSnapshot: 'Sinteza turei',
     watch: 'Atenție',
     dinnerBehind: 'Cină · ușor sub ritm',
@@ -600,7 +600,7 @@ export const LOC: Record<string, Record<string, string>> = {
   sv: {
     floorMode: 'Golvläge',
     twoMinAgo: '2 min sedan',
-    subtitle: 'Realtidsövervakning av driften — upptäck, agera, bekräfta inom passet.',
+    subtitle: 'Realtidsövervakning av driften - upptäck, agera, bekräfta inom passet.',
     shiftSnapshot: 'Passöversikt',
     watch: 'Bevaka',
     dinnerBehind: 'Middag · något efter takten',
@@ -635,7 +635,7 @@ export const LOC: Record<string, Record<string, string>> = {
   bn: {
     floorMode: 'ফ্লোর মোড',
     twoMinAgo: '২ মিনিট আগে',
-    subtitle: 'ইন্ট্রাডে অপারেশন্স মনিটর — শিফটের মধ্যেই শনাক্ত, পদক্ষেপ ও নিশ্চিত করুন।',
+    subtitle: 'ইন্ট্রাডে অপারেশন্স মনিটর - শিফটের মধ্যেই শনাক্ত, পদক্ষেপ ও নিশ্চিত করুন।',
     shiftSnapshot: 'শিফট স্ন্যাপশট',
     watch: 'নজরে',
     dinnerBehind: 'ডিনার · গতির তুলনায় সামান্য পিছিয়ে',
@@ -670,7 +670,7 @@ export const LOC: Record<string, Record<string, string>> = {
   th: {
     floorMode: 'โหมดหน้าร้าน',
     twoMinAgo: '2 นาทีที่แล้ว',
-    subtitle: 'มอนิเตอร์การปฏิบัติงานแบบเรียลไทม์ — ตรวจจับ ลงมือ ยืนยัน ภายในกะ',
+    subtitle: 'มอนิเตอร์การปฏิบัติงานแบบเรียลไทม์ - ตรวจจับ ลงมือ ยืนยัน ภายในกะ',
     shiftSnapshot: 'สรุปกะ',
     watch: 'เฝ้าระวัง',
     dinnerBehind: 'มื้อค่ำ · ช้ากว่าจังหวะเล็กน้อย',
@@ -705,7 +705,7 @@ export const LOC: Record<string, Record<string, string>> = {
   ms: {
     floorMode: 'Mod Lantai',
     twoMinAgo: '2 min lalu',
-    subtitle: 'Pemantau operasi masa nyata — kesan, bertindak, sahkan dalam syif.',
+    subtitle: 'Pemantau operasi masa nyata - kesan, bertindak, sahkan dalam syif.',
     shiftSnapshot: 'Ringkasan syif',
     watch: 'Perhatian',
     dinnerBehind: 'Makan malam · sedikit di bawah rentak',

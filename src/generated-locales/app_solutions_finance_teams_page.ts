@@ -46,7 +46,7 @@ export const generatedLocalCopy = {
         {
           "title": "التباين مع الإسناد",
           "description": "انقر على فجوة الهامش ← شاهد الحدث الذي تسبب في حدوثها: التشغيل الفارغ، أو الإفراط في تغطية العمالة، أو اختبار السعر، أو ارتفاع عمولة التسليم.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -134,7 +134,7 @@ export const generatedLocalCopy = {
         {
           "title": "Variación con atribución",
           "description": "Haga clic en una brecha de margen → vea el evento que la causó: una anulación de venta, un exceso de personal, una prueba de precios, un aumento en la comisión de entrega.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -222,7 +222,7 @@ export const generatedLocalCopy = {
         {
           "title": "Écart avec attribution",
           "description": "Cliquez sur un écart de marge → voyez l'événement qui l'a provoqué : une annulation de vente, un sureffectif, un test de prix, une hausse de commission de livraison.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -310,7 +310,7 @@ export const generatedLocalCopy = {
         {
           "title": "Variação com atribuição",
           "description": "Clique em uma lacuna de margem → veja o evento que a causou: um cancelamento de venda, excesso de pessoal, um teste de preço, um aumento na comissão de entrega.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -398,7 +398,7 @@ export const generatedLocalCopy = {
         {
           "title": "Varianz mit Zuschreibung",
           "description": "Klicken Sie auf eine Margenlücke → sehen Sie sich das Ereignis an, das sie verursacht hat: eine Storno-Buchung, eine personelle Überbesetzung, ein Preistest, ein Anstieg der Lieferprovision.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -486,7 +486,7 @@ export const generatedLocalCopy = {
         {
           "title": "Variantie met attributie",
           "description": "Klik op een margegat → bekijk de gebeurtenis die dit heeft veroorzaakt: een geannuleerde verkoop, overbezetting van personeel, een prijstest, een piek in de leveringscommissie.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -574,7 +574,7 @@ export const generatedLocalCopy = {
         {
           "title": "انتساب کے ساتھ تغیر",
           "description": "مارجن گیپ پر کلک کریں → وہ واقعہ دیکھیں جس کی وجہ سے یہ ہوا: ایک منسوخ شدہ فروخت، عملے کی زائد تعداد، قیمت کا ٹیسٹ، ڈیلیوری کمیشن میں اضافہ۔",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -662,7 +662,7 @@ export const generatedLocalCopy = {
         {
           "title": "एट्रिब्यूशन के साथ भिन्नता",
           "description": "मार्जिन गैप पर क्लिक करें → उस घटना को देखें जिसके कारण यह हुआ: एक रद्द बिक्री, अधिक स्टाफिंग, एक मूल्य परीक्षण, एक डिलीवरी कमीशन उछाल।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -750,7 +750,7 @@ export const generatedLocalCopy = {
         {
           "title": "Varianza con attribuzione",
           "description": "Fai clic su un gap di margine → visualizza l'evento che lo ha causato: uno storno di vendita, un eccesso di personale, un test dei prezzi, un picco delle commissioni di consegna.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -838,7 +838,7 @@ export const generatedLocalCopy = {
         {
           "title": "İlişkilendirmeyle farklılık",
           "description": "Bir marj boşluğuna tıklayın → buna neden olan olayı görün: iptal edilen bir satış, fazla personel, fiyat testi, teslimat komisyonunda artış.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -926,7 +926,7 @@ export const generatedLocalCopy = {
         {
           "title": "带归因的差异",
           "description": "点击利润率缺口 → 查看导致它的事件：作废交易、人员过度排班、价格测试、配送佣金飙升。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1014,7 +1014,7 @@ export const generatedLocalCopy = {
         {
           "title": "Rozbieżność z atrybucją",
           "description": "Kliknij lukę w marży → zobacz zdarzenie, które ją spowodowało: anulowanie sprzedaży, nadmiar obsady, test cenowy, gwałtowny wzrost prowizji za dostawę.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1102,7 +1102,7 @@ export const generatedLocalCopy = {
         {
           "title": "속성에 따른 차이",
           "description": "마진 격차를 클릭하고 → 이를 유발한 이벤트(판매 취소, 인력 과잉 배치, 가격 테스트, 배송 수수료 급증)를 확인하세요.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1190,7 +1190,7 @@ export const generatedLocalCopy = {
         {
           "title": "帰属による差異",
           "description": "マージンギャップをクリックすると、その原因となったイベント（売上の取消、人員の過剰配置、価格テスト、配送手数料の高騰）が表示されます。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1278,7 +1278,7 @@ export const generatedLocalCopy = {
         {
           "title": "Varians dengan atribusi",
           "description": "Klik kesenjangan margin → lihat peristiwa yang menyebabkannya: pembatalan penjualan, kelebihan staf, pengujian harga, lonjakan komisi pengiriman.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1366,7 +1366,7 @@ export const generatedLocalCopy = {
         {
           "title": "Varianță cu atribuire",
           "description": "Faceți clic pe un decalaj de marjă → vedeți evenimentul care l-a cauzat: o anulare de vânzare, supraîncadrare cu personal, un test de preț, o creștere a comisionului de livrare.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1454,7 +1454,7 @@ export const generatedLocalCopy = {
         {
           "title": "বৈশিষ্ট্যের সাথে পার্থক্য",
           "description": "একটি মার্জিন গ্যাপে ক্লিক করুন → যে ঘটনাটি এটি ঘটিয়েছে তা দেখুন: একটি বাতিল বিক্রয়, অতিরিক্ত কর্মী নিয়োগ, একটি মূল্য পরীক্ষা, একটি ডেলিভারি কমিশন বৃদ্ধি।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1542,7 +1542,7 @@ export const generatedLocalCopy = {
         {
           "title": "Chênh lệch kèm quy kết nguyên nhân",
           "description": "Nhấp vào khoảng chênh lệch biên lợi nhuận → xem sự kiện gây ra nó: một giao dịch bị hủy, bố trí nhân sự dư thừa, kiểm tra giá, hoa hồng giao hàng tăng đột biến.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1630,7 +1630,7 @@ export const generatedLocalCopy = {
         {
           "title": "Varians med tillskrivning",
           "description": "Klicka på ett marginalgap → se händelsen som orsakade det: en makulerad försäljning, överbemanning, ett pristest, en ökning av leveransprovisionen.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1718,7 +1718,7 @@ export const generatedLocalCopy = {
         {
           "title": "ความแปรปรวนกับการระบุแหล่งที่มา",
           "description": "คลิกช่องว่างมาร์จิ้น → ดูเหตุการณ์ที่ทำให้เกิด: การยกเลิกการขาย การจัดพนักงานเกินจำเป็น การทดสอบราคา ค่าคอมมิชชันการจัดส่งที่พุ่งสูงขึ้น",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1806,7 +1806,7 @@ export const generatedLocalCopy = {
         {
           "title": "Varians dengan atribusi",
           "description": "Klik jurang margin → lihat peristiwa yang menyebabkannya: pembatalan jualan, lebihan kakitangan, ujian harga, kenaikan komisen penghantaran.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {

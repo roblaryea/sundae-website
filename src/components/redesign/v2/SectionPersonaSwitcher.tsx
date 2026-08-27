@@ -80,7 +80,7 @@ const personas: Persona[] = [
     outcome: "Portfolio truth, every morning.",
     outcomeCopy:
       "Daily AI briefings across every brand and location. Where you're winning, where you're leaking, what the market did to you, what to do today.",
-    intelLayers: ["Sundae Intelligence", "Benchmarks"],
+    intelLayers: ["Ask Sundae", "Benchmarks"],
     Mockup: IntelligenceChatMockup,
   },
   {
@@ -93,7 +93,7 @@ const personas: Persona[] = [
     outcome: "Campaign ROI, day-by-day.",
     outcomeCopy:
       "Tie campaign spend to covers, average check, and net margin - within 24 hours of activation. Re-allocate while the campaign is still running.",
-    intelLayers: ["Insights", "Sundae Intelligence"],
+    intelLayers: ["Insights", "Ask Sundae"],
     Mockup: MarketingPerformanceMockup,
   },
   {

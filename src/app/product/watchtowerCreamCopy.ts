@@ -92,7 +92,7 @@ export const watchtowerCreamCopy: Record<string, { eyebrow: string; statement: s
   ko: {
     eyebrow: '마켓 인텔리전스',
     statement: '시장이 먼저 움직입니다. *당신*은 더 먼저 움직입니다.',
-    lede: '경쟁사, 날씨, 이벤트 - 매출에 닿기 전에 미리 포착합니다.',
+    lede: '경쟁사, 날씨, 이벤트--매출에 닿기 전에 미리 포착합니다.',
   },
   id: {
     eyebrow: 'INTELIJEN PASAR',

@@ -85,7 +85,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     nowShowingPrefix: "Now showing:",
     primaryCta: "Book a Working Session",
     secondaryCta: "See plans",
-    shapedByLabel: "Shaped by restaurant operators across",
+    shapedByLabel: "Shaped by operators across",
     formats: ["QSR", "Casual Dining", "Fine Dining", "Cloud Kitchens", "Hospitality Groups", "Multi-Brand Operators"],
     closingEyebrow: "NOT SURE WHICH ONE",
     closingTitle: "We'll tailor the session to your team.",
@@ -128,7 +128,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "SPECIALIZED FORMATS",
-        title: "Built for how restaurants actually run today.",
+        title: "Built for the formats that do not fit the standard shape.",
         description: "Format-specific intelligence for cloud kitchens, virtual brands, and franchise networks.",
         seeSolutionPrefix: "See",
         personas: [
@@ -146,7 +146,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     nowShowingPrefix: "نعرض الآن:",
     primaryCta: "احجز جلسة عمل",
     secondaryCta: "اطّلع على الباقات",
-    shapedByLabel: "صاغته مجموعات مطاعم في",
+    shapedByLabel: "صاغه مشغلون في",
     formats: ["الوجبات السريعة", "المطاعم العائلية", "المطاعم الراقية", "المطابخ السحابية", "مجموعات الضيافة", "المشغّلين متعددي العلامات"],
     closingEyebrow: "غير متأكد أيها يناسبك",
     closingTitle: "سنصمم الجلسة لفريقك.",
@@ -189,7 +189,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "الصيغ المتخصصة",
-        title: "مصمم لكيفية تشغيل المطاعم اليوم.",
+        title: "مصمم للصيغ التي لا تنطبق عليها القوالب المعتادة.",
         description: "ذكاء حسب الصيغة للمطابخ السحابية والعلامات الافتراضية وشبكات الامتياز.",
         seeSolutionPrefix: "شاهد",
         personas: [
@@ -207,7 +207,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     nowShowingPrefix: "Affiché maintenant :",
     primaryCta: "Réserver une session de travail",
     secondaryCta: "Voir les offres",
-    shapedByLabel: "Façonné par des opérateurs de restauration",
+    shapedByLabel: "Façonné par des opérateurs",
     formats: ["QSR", "Restauration décontractée", "Gastronomie", "Cuisines virtuelles", "Groupes hôteliers", "Opérateurs multi-marques"],
     closingEyebrow: "PAS SÛR DU CHOIX",
     closingTitle: "Nous adaptons la session à votre équipe.",
@@ -250,7 +250,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "FORMATS SPÉCIALISÉS",
-        title: "Conçu pour la restauration d'aujourd'hui.",
+        title: "Conçu pour les formats qui sortent du modèle standard.",
         description: "Intelligence par format pour cuisines virtuelles, marques virtuelles et réseaux de franchise.",
         seeSolutionPrefix: "Voir",
         personas: [
@@ -268,7 +268,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     nowShowingPrefix: "Mostrando ahora:",
     primaryCta: "Reservar sesión de trabajo",
     secondaryCta: "Ver paquetes",
-    shapedByLabel: "Forjada por operadores de restaurantes en",
+    shapedByLabel: "Forjada por operadores en",
     formats: ["QSR", "Casual", "Alta cocina", "Cocinas en la nube", "Grupos de hospitalidad", "Operadores multi-marca"],
     closingEyebrow: "¿NO SABES CUÁL ELEGIR?",
     closingTitle: "Adaptamos la sesión a tu equipo.",
@@ -311,7 +311,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "FORMATOS ESPECIALIZADOS",
-        title: "Construido para cómo opera la restauración hoy.",
+        title: "Diseñado para los formatos que no encajan en el modelo estándar.",
         description: "Inteligencia por formato para cocinas en la nube, marcas virtuales y redes de franquicia.",
         seeSolutionPrefix: "Ver",
         personas: [
@@ -360,7 +360,7 @@ export default function SolutionsHubPage() {
         <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
 
-          <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-16 items-center">
+          <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-10 lg:gap-16 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
                 <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">

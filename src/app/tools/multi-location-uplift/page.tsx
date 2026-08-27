@@ -36,6 +36,10 @@ type UpliftCopy = {
     menu: string;
     operations: string;
     benchmarking: string;
+    laborDetail: string;
+    menuDetail: string;
+    operationsDetail: string;
+    benchmarkingDetail: string;
     note: string;
   };
   timeframe: {
@@ -61,7 +65,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       revenuePlaceholder: "e.g., 50000",
       improvementLabel: "Target Improvement (%)",
       improvementPlaceholder: "e.g., 5",
-      tip: "Typical improvements range from 2-10% with systematic optimization.",
+      tip: "A typical single site lands near 3-4% in total once the levers below are worked together. Treat anything higher as a stretch case, not a plan.",
       button: "Calculate Revenue Uplift",
     },
     results: {
@@ -75,7 +79,11 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       menu: "Menu Engineering",
       operations: "Operational Excellence",
       benchmarking: "Location Benchmarking",
-      note: "These estimates are based on industry benchmarks. Actual results depend on current performance levels, market conditions, and execution quality. Sundae helps identify and track opportunities across all locations.",
+      laborDetail: "Tighten scheduling against demand and cut avoidable overtime.",
+      menuDetail: "Reprice and reposition around the items that actually carry margin.",
+      operationsDetail: "Cut controllable waste and close the gap between ordered and used.",
+      benchmarkingDetail: "Find what the top site does differently, then run it everywhere.",
+      note: "This applies the target you entered to the revenue you entered - it is your assumption, sized, not a Sundae forecast. What it is actually worth depends on where your margin is leaking today and whether the work gets done. Sundae finds the opportunities, gives each one an owner, and measures what came back.",
     },
     timeframe: { small: "3-6 months with focused operational improvements", medium: "6-12 months with consistent optimization", large: "12-18 months with strategic initiatives", xlarge: "18-24 months with major transformation" },
     cta: { intro: "Want to identify specific improvement opportunities across your locations?", button: "See How Sundae Can Help" },
@@ -93,7 +101,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       revenuePlaceholder: "مثال: 50000",
       improvementLabel: "التحسن المستهدف (%)",
       improvementPlaceholder: "مثال: 5",
-      tip: "تتراوح التحسينات المعتادة بين 2-10% مع التحسين المنهجي.",
+      tip: "الموقع المفرد المعتاد يصل إلى نحو 3-4% إجمالاً عند العمل على الروافع أدناه معاً. وما يزيد عن ذلك حالة طموحة، لا خطة.",
       button: "احسب ارتفاع الإيرادات",
     },
     results: {
@@ -107,7 +115,11 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       menu: "هندسة القائمة",
       operations: "التميز التشغيلي",
       benchmarking: "معيارية المواقع",
-      note: "تعتمد هذه التقديرات على معايير الصناعة. النتائج الفعلية تعتمد على مستويات الأداء الحالية وظروف السوق وجودة التنفيذ. تساعد Sundae في تحديد الفرص وتتبعها عبر جميع المواقع.",
+      laborDetail: "اضبط الجدولة على الطلب الفعلي وقلّص الوقت الإضافي القابل للتجنب.",
+      menuDetail: "أعد التسعير والترتيب حول الأصناف التي تحمل الهامش فعلاً.",
+      operationsDetail: "قلّص الهدر القابل للتحكم وأغلق الفجوة بين المطلوب والمستهلك.",
+      benchmarkingDetail: "اعرف ما يفعله الموقع الأفضل بشكل مختلف، ثم طبّقه في كل مكان.",
+      note: "هذا يطبّق الهدف الذي أدخلته على الإيراد الذي أدخلته - إنه افتراضك محسوباً، وليس توقعاً من Sundae. وقيمته الحقيقية تعتمد على أين يتسرب هامشك اليوم وهل يُنفَّذ العمل. Sundae يجد الفرص، ويسند كل واحدة إلى مسؤول، ويقيس ما عاد.",
     },
     timeframe: { small: "3-6 أشهر مع تحسينات تشغيلية مركزة", medium: "6-12 شهراً مع تحسين مستمر", large: "12-18 شهراً مع مبادرات استراتيجية", xlarge: "18-24 شهراً مع تحول كبير" },
     cta: { intro: "هل تريد تحديد فرص تحسين محددة عبر مواقعك؟", button: "شاهد كيف يمكن لـ Sundae المساعدة" },
@@ -125,7 +137,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       revenuePlaceholder: "ex. 50000",
       improvementLabel: "Amélioration cible (%)",
       improvementPlaceholder: "ex. 5",
-      tip: "Les améliorations typiques vont de 2 à 10 % avec une optimisation systématique.",
+      tip: "Un site isolé atteint généralement 3 à 4 % au total lorsque les leviers ci-dessous sont travaillés ensemble. Au-delà, considérez-le comme un cas ambitieux, pas comme un plan.",
       button: "Calculer le gain de revenus",
     },
     results: {
@@ -139,7 +151,11 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       menu: "Menu engineering",
       operations: "Excellence opérationnelle",
       benchmarking: "Benchmarking des sites",
-      note: "Ces estimations sont basées sur les benchmarks du secteur. Les résultats réels dépendent du niveau de performance actuel, des conditions du marché et de la qualité d'exécution. Sundae aide à identifier et suivre les opportunités sur tous les sites.",
+      laborDetail: "Ajustez les plannings a la demande reelle et reduisez les heures supplementaires evitables.",
+      menuDetail: "Repositionnez et retarifez autour des plats qui portent vraiment la marge.",
+      operationsDetail: "Reduisez le gaspillage maitrisable et refermez l'ecart entre commande et consommation.",
+      benchmarkingDetail: "Identifiez ce que fait le meilleur site, puis deployez-le partout.",
+      note: "Ceci applique l'objectif que vous avez saisi au chiffre d'affaires que vous avez saisi : c'est votre hypothèse, chiffrée, pas une prévision Sundae. Sa valeur réelle dépend de l'endroit où votre marge fuit aujourd'hui et du fait que le travail soit fait. Sundae repère les opportunités, attribue un responsable à chacune et mesure ce qui est revenu.",
     },
     timeframe: { small: "3-6 mois avec des améliorations opérationnelles ciblées", medium: "6-12 mois avec une optimisation continue", large: "12-18 mois avec des initiatives stratégiques", xlarge: "18-24 mois avec une transformation majeure" },
     cta: { intro: "Vous voulez identifier des opportunités d'amélioration spécifiques sur vos sites ?", button: "Voir comment Sundae peut aider" },
@@ -157,7 +173,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       revenuePlaceholder: "ej., 50000",
       improvementLabel: "Mejora objetivo (%)",
       improvementPlaceholder: "ej., 5",
-      tip: "Las mejoras típicas van del 2 al 10% con optimización sistemática.",
+      tip: "Un local típico llega a cerca del 3-4% en total cuando se trabajan juntas las palancas de abajo. Por encima de eso, trátalo como un caso ambicioso, no como un plan.",
       button: "Calcular uplift de ingresos",
     },
     results: {
@@ -171,7 +187,11 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
       menu: "Ingeniería de menú",
       operations: "Excelencia operativa",
       benchmarking: "Benchmarking de ubicaciones",
-      note: "Estas estimaciones se basan en benchmarks del sector. Los resultados reales dependen del nivel actual de rendimiento, las condiciones del mercado y la calidad de ejecución. Sundae ayuda a identificar y rastrear oportunidades en todas las ubicaciones.",
+      laborDetail: "Ajusta los turnos a la demanda real y recorta las horas extra evitables.",
+      menuDetail: "Reprecia y reordena en torno a los platos que de verdad sostienen el margen.",
+      operationsDetail: "Reduce la merma controlable y cierra la brecha entre lo pedido y lo usado.",
+      benchmarkingDetail: "Descubre que hace distinto el mejor local y replicalo en todos.",
+      note: "Esto aplica el objetivo que introdujiste a los ingresos que introdujiste: es tu supuesto, dimensionado, no un pronóstico de Sundae. Lo que valga de verdad depende de dónde se fuga tu margen hoy y de que el trabajo se haga. Sundae encuentra las oportunidades, asigna un responsable a cada una y mide lo que volvió.",
     },
     timeframe: { small: "3-6 meses con mejoras operativas focalizadas", medium: "6-12 meses con optimización constante", large: "12-18 meses con iniciativas estratégicas", xlarge: "18-24 meses con una transformación mayor" },
     cta: { intro: "¿Quieres identificar oportunidades de mejora específicas en tus ubicaciones?", button: "Ver cómo Sundae puede ayudar" },
@@ -286,10 +306,10 @@ export default function MultiLocationUpliftPage() {
               <div className="bg-[var(--surface-faint)] rounded-lg p-6">
                 <div className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{copy.results.areasTitle}</div>
                 <ul className="space-y-2">
-                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.labor}:</strong> Improve scheduling efficiency and reduce overtime (2-4% impact)</span></li>
-                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.menu}:</strong> Optimize pricing and promote high-margin items (1-3% impact)</span></li>
-                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.operations}:</strong> Reduce waste, improve inventory management (1-2% impact)</span></li>
-                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.benchmarking}:</strong> Replicate best practices from top performers (2-5% impact)</span></li>
+                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.labor}:</strong> {copy.results.laborDetail}</span></li>
+                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.menu}:</strong> {copy.results.menuDetail}</span></li>
+                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.operations}:</strong> {copy.results.operationsDetail}</span></li>
+                  <li className="flex items-start space-x-2"><span className="text-purple-400 mt-1">•</span><span className="text-[var(--text-supporting)]"><strong>{copy.results.benchmarking}:</strong> {copy.results.benchmarkingDetail}</span></li>
                 </ul>
               </div>
 

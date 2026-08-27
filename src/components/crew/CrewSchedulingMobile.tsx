@@ -128,7 +128,7 @@ export function CrewSchedulingMobile() {
           >
             S
           </span>
-          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae — DIFC</span>
+          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae - DIFC</span>
           <svg width="11" height="11" viewBox="0 0 15 15" fill="none">
             <path d="M4 6l3.5 3.5L11 6" stroke={T.tx3} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
@@ -153,7 +153,7 @@ export function CrewSchedulingMobile() {
           <svg width="13" height="13" viewBox="0 0 15 15" fill="none"><path d="M9 3L5 7.5l4 4.5" stroke={T.tx2} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </span>
         <div style={{ textAlign: 'center' }}>
-          <div style={{ font: `700 14px ${FONT}`, color: T.tx }}>Jun 22 – 28</div>
+          <div style={{ font: `700 14px ${FONT}`, color: T.tx }}>Jun 22 - 28</div>
           <div style={{ font: `500 10px ${FONT}`, color: T.tx3, marginTop: 1 }}>4 {t.shiftsLabel} · 30h</div>
         </div>
         <span style={{ width: 30, height: 30, borderRadius: 9, background: T.surf, border: `1px solid ${T.bd}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -189,8 +189,8 @@ export function CrewSchedulingMobile() {
           <span style={{ font: `700 10px ${FONT}`, letterSpacing: '.09em', textTransform: 'uppercase', color: T.tx3 }}>{t.nextShift}</span>
           <span style={{ font: `600 10px ${FONT}`, color: T.tx3 }}>{t.startsIn} 2h 40m</span>
         </div>
-        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.01em', color: T.tx, marginTop: 8 }}>5:30 – 11:00 PM</div>
-        <div style={{ font: `500 11.5px ${FONT}`, color: T.tx2, marginTop: 4 }}>Sundae — DIFC · {t.roleServer} · {t.section} 3</div>
+        <div style={{ font: `700 20px ${FONT}`, letterSpacing: '-.01em', color: T.tx, marginTop: 8 }}>5:30 - 11:00 PM</div>
+        <div style={{ font: `500 11.5px ${FONT}`, color: T.tx2, marginTop: 4 }}>Sundae - DIFC · {t.roleServer} · {t.section} 3</div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 13 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
             <div style={{ display: 'flex' }}>
@@ -226,10 +226,10 @@ export function CrewSchedulingMobile() {
         <span style={{ width: 4, background: C.purple, flex: 'none' }} />
         <div style={{ flex: 1, padding: '12px 12px 12px 11px', minWidth: 0 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <span style={{ font: `700 13px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>5:30 – 11:00 PM</span>
+            <span style={{ font: `700 13px ${FONT}`, color: T.tx, whiteSpace: 'nowrap' }}>5:30 - 11:00 PM</span>
             <span style={{ font: `700 9px ${FONT}`, letterSpacing: '.04em', textTransform: 'uppercase', background: 'rgba(96,165,250,.16)', color: '#93c5fd', borderRadius: 6, padding: '3px 7px', whiteSpace: 'nowrap' }}>{t.upcoming}</span>
           </div>
-          <div style={{ font: `500 11px ${FONT}`, color: T.tx2, marginTop: 4 }}>Sundae — DIFC · {t.roleServer}</div>
+          <div style={{ font: `500 11px ${FONT}`, color: T.tx2, marginTop: 4 }}>Sundae - DIFC · {t.roleServer}</div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '0 11px' }}>
           <span style={{ width: 32, height: 32, borderRadius: 10, background: T.surf2, border: `1px solid ${T.bd}`, display: 'flex', alignItems: 'center', justifyContent: 'center', color: T.tx2 }}>

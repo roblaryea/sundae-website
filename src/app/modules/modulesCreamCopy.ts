@@ -99,7 +99,7 @@ export const modulesCreamCopy: Record<string, ModulesCreamCopy> = {
   ko: {
     eyebrow: '나만의 스택 구성',
     statement: '필요한 것을, *필요할 때* 더하세요.',
-    lede: 'Core 구독에 포함된 열두 개의 분석 모듈 - 성장에 맞춰 확장하세요.',
+    lede: 'Core 구독에 포함된 열두 개의 분석 모듈--성장에 맞춰 확장하세요.',
   },
   id: {
     eyebrow: 'SUSUN STACK ANDA',

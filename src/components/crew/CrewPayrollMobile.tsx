@@ -76,7 +76,7 @@ export function CrewPayrollMobile() {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, background: T.surf, border: `1px solid ${T.bd}`, borderRadius: 999, padding: '5px 10px 5px 5px' }}>
           <span style={{ width: 20, height: 20, borderRadius: 6, background: T.acc, color: T.acck, font: `800 10px ${FONT}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>S</span>
-          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae — DIFC</span>
+          <span style={{ font: `600 12px ${FONT}`, color: T.tx }}>Sundae - DIFC</span>
           <svg width="11" height="11" viewBox="0 0 15 15" fill="none"><path d="M4 6l3.5 3.5L11 6" stroke={T.tx3} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </span>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>

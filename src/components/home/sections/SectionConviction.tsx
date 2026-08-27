@@ -1,7 +1,8 @@
 'use client';
 
-import { Fragment, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { FadeUp } from '@/components/ui/PageAnimations';
+import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 
 /**
  * SectionConviction - a reusable "belief beat" (the USHG copy-first move),
@@ -24,15 +25,11 @@ export type ConvictionCopy = {
 const coral = { color: 'var(--accent-warm)' } as const;
 
 function renderStatement(statement: string): ReactNode {
-  return statement.split(/\*([^*]+)\*/g).map((part, i) =>
-    i % 2 === 1 ? (
-      <em key={i} className="not-italic font-medium" style={coral}>
+  return balanceEmphasisSentences(statement, (part, key) => (
+    <em key={key} className="not-italic font-medium" style={coral}>
         {part}
       </em>
-    ) : (
-      <Fragment key={i}>{part}</Fragment>
-    )
-  );
+  ));
 }
 
 export function SectionConviction({

@@ -21,23 +21,23 @@ import { LOC } from './locales/CoreInsightsCollabMobile.locales';
 const EN = {
   threadTitle: 'Why is delivery down in DIFC?',
   threadMeta: '3 people · open',
-  attachedScope: 'Delivery · DIFC · Jul 1–7 · Talabat',
+  attachedScope: 'Delivery · DIFC · Jul 1 - 7 · Talabat',
   attachedView: 'attached view',
   openView: 'Open view ↗',
   msg1Time: '12m',
   msg1Body:
-    'Marcus — Talabat slipped to page 3 and 9pm orders auto-paused. Can we expedite the rating fix?',
+    'Marcus - Talabat slipped to page 3 and 9pm orders auto-paused. Can we expedite the rating fix?',
   msg2Time: '9m',
   viaSlack: 'via Slack',
   msg2Body:
-    'On it. Ops flagged the rating dip to Talabat — ETA tomorrow AM. Bumping prep priority tonight.',
+    'On it. Ops flagged the rating dip to Talabat - ETA tomorrow AM. Bumping prep priority tonight.',
   msg3Time: '4m',
   viaTelegram: 'via Telegram',
   msg3Pre: 'Let’s also push a 15% delivery code for DIFC this weekend to recover the listing.',
   msg3Mention: '@Dana',
   msg3Post: 'can you set it up?',
   attachmentName: 'listing-page3.png',
-  composerPlaceholder: 'Reply, @mention…',
+  composerPlaceholder: 'Reply, @mention...',
   resolve: 'Resolve',
 } as const;
 
@@ -158,7 +158,7 @@ export function CoreInsightsCollabMobile() {
         </div>
       </div>
 
-      {/* attached-view source chip — deep-link back to the exact filtered view */}
+      {/* attached-view source chip - deep-link back to the exact filtered view */}
       <div
         style={{
           marginTop: 10,
@@ -211,7 +211,7 @@ export function CoreInsightsCollabMobile() {
 
       {/* comment thread */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 14, margin: '14px 0 16px' }}>
-        {/* message 1 — Dana Habib */}
+        {/* message 1 - Dana Habib */}
         <div style={{ display: 'flex', gap: 10 }}>
           <Avatar initials="DH" bg={T.avBlue} />
           <div style={{ flex: 1 }}>
@@ -236,7 +236,7 @@ export function CoreInsightsCollabMobile() {
           </div>
         </div>
 
-        {/* message 2 — Marcus R. (via Slack) */}
+        {/* message 2 - Marcus R. (via Slack) */}
         <div style={{ display: 'flex', gap: 10 }}>
           <Avatar initials="MR" bg={T.avPurple} />
           <div style={{ flex: 1 }}>
@@ -262,7 +262,7 @@ export function CoreInsightsCollabMobile() {
           </div>
         </div>
 
-        {/* message 3 — Sara Khan (via Telegram) + @mention + image annotation */}
+        {/* message 3 - Sara Khan (via Telegram) + @mention + image annotation */}
         <div style={{ display: 'flex', gap: 10 }}>
           <Avatar initials="SK" bg={T.avGreen} />
           <div style={{ flex: 1 }}>

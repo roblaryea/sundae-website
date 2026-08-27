@@ -31,7 +31,7 @@ export type CrewModule = {
 
 const skuMonthly = (id: string): number => {
   const sku = CREW_SKUS.find((s) => s.id === id);
-  if (!sku) throw new Error(`Unknown Crew SKU "${id}" — price book v1.7 has no such entry.`);
+  if (!sku) throw new Error(`Unknown Crew SKU "${id}" - price book v1.7 has no such entry.`);
   return sku.monthly;
 };
 

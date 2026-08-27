@@ -99,13 +99,13 @@ const GALLERY: GalleryItem[] = [
   {
     id: "intelligence",
     src: "/images/product/2026-fresh/intelligence.png",
-    alt: "Sundae Intelligence - conversational decision interface",
-    caption: "Sundae Intelligence",
+    alt: "Ask Sundae - conversational decision interface",
+    caption: "Ask Sundae",
     whatYouSee:
       "Ask your data in plain language and get an answer grounded in tonight's real numbers - AED 96,555 in revenue across 379 orders, your top sellers, and a suggested follow-up when something like Banana Bread suddenly climbs the menu. Threads and collections keep every line of questioning where you left it.",
     personas: ["operations", "cfo", "c_suite"],
     productHref: "/intelligence",
-    productLabel: "Sundae Intelligence →",
+    productLabel: "Ask Sundae →",
   },
 
   // ─── Pulse - Operations command ──────────────────────────────
@@ -254,7 +254,7 @@ const GALLERY: GalleryItem[] = [
       "Pull one lever and watch it ripple through the whole model - covers and ticket flow into revenue, then food cost and labor, all the way down to EBITDA - with every driver on a slider, so you can see what a single change is really worth before you make it.",
     personas: ["cfo", "operations"],
     productHref: "/intelligence",
-    productLabel: "Sundae Intelligence →",
+    productLabel: "Ask Sundae →",
   },
 
   // ─── Watchtower - Competitive & market intelligence ──────────
@@ -455,7 +455,7 @@ const GALLERY: GalleryItem[] = [
     id: "topology-org-tree",
     src: "/images/product/2026-fresh/topology-org-tree.png",
     alt: "Crew Organization Tree - 75-node reporting structure",
-    caption: "Topology - Organization Tree",
+    caption: "Your reporting structure, group to outlet",
     whatYouSee:
       "Your entire reporting structure mapped into one living org tree - dozens of nodes from group down to outlet, rendered as photo cards with every reporting line drawn in - so who answers to whom across brands and regions is finally one clear picture, not a stack of spreadsheets.",
     personas: ["topology", "hr"],
@@ -527,7 +527,7 @@ const PERSONA_FILTERS: { id: Persona | "all"; label: string }[] = [
   { id: "c_suite",    label: "C-Suite" },
   { id: "cfo",        label: "Finance" },
   { id: "multi_loc",  label: "Multi-location" },
-  { id: "topology",   label: "Topology-aware" },
+  { id: "topology",   label: "Multi-brand & region" },
   { id: "hr",         label: "HR" },
   { id: "marketing",  label: "Marketing" },
 ];
@@ -565,7 +565,7 @@ const localizedCopy: Record<"en", LocalizedGallery> = {
       c_suite: "C-Suite",
       cfo: "Finance",
       multi_loc: "Multi-location",
-      topology: "Topology-aware",
+      topology: "Multi-brand & region",
       hr: "HR",
       marketing: "Marketing",
       tech: "Technology",

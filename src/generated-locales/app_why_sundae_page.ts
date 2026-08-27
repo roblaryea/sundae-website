@@ -11,9 +11,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "LE PROBLÈME",
         "title": "Trois lacunes qui vous coûtent de l'argent chaque jour",
-        "description": "Chaque groupe de restaurants avec lequel nous avons travaillé fait face aux mêmes trois défis."
+        "description": "Chaque groupe multi-sites avec lequel nous travaillons rencontre les memes trois manques."
       },
       "differentiators": [
+        {
+          "title": "Recuperation de marge en boucle fermee",
+          "description": "Quatorze detecteurs reperent la marge qui fuit sur la main-d'oeuvre, les achats, le gaspillage, la livraison et les prix. Chaque opportunite devient une action confiee a une seule personne, mesuree contre une base figee avant le debut du travail. Sundae ne declare aucune economie recuperee tant qu'elle n'a pas ete mesuree.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestion de données à 12 domaines",
           "description": "POS, main-d'œuvre, inventaire, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout est unifié. Fini les systèmes déconnectés.",
@@ -101,9 +107,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "EL PROBLEMA",
         "title": "Tres brechas que te cuestan dinero cada día",
-        "description": "Cada grupo de restaurantes con el que hemos trabajado enfrenta los mismos tres desafíos."
+        "description": "Cada grupo multilocal con el que trabajamos encuentra las mismas tres brechas."
       },
       "differentiators": [
+        {
+          "title": "Recuperacion de margen en circuito cerrado",
+          "description": "Catorce detectores encuentran el margen que se escapa en personal, compras, desperdicio, reparto y precios. Cada oportunidad se convierte en una accion con un unico responsable, medida contra una linea base congelada antes de empezar. Sundae no da por recuperado ningun ahorro hasta haberlo medido.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingesta de Datos de 12 Dominios",
           "description": "POS, mano de obra, inventario, compras, reservas, entrega, marketing, experiencia del cliente, CRM, contabilidad - todo unificado. No más sistemas desconectados.",
@@ -191,9 +203,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "HET PROBLEEM",
         "title": "Drie hiaten die je elke dag geld kosten",
-        "description": "Elke restaurantgroep waarmee we hebben samengewerkt, staat voor dezelfde drie uitdagingen."
+        "description": "Elke multi-vestigingsgroep waarmee we werken loopt tegen dezelfde drie gaten aan."
       },
       "differentiators": [
+        {
+          "title": "Margeherstel in een gesloten lus",
+          "description": "Veertien detectoren vinden de marge die weglekt via personeel, inkoop, verspilling, bezorging en prijs. Elke kans wordt een actie met een eigenaar, gemeten tegen een basislijn die vastligt voordat het werk begint. Sundae noemt een besparing pas teruggewonnen als die gemeten is.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domein Gegevensinvoer",
           "description": "POS, arbeid, inventaris, inkoop, reserveringen, levering, marketing, gastenervaring, CRM, boekhouding - allemaal verenigd. Geen losgekoppelde systemen meer.",
@@ -281,9 +299,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "المشكلة",
         "title": "ثلاث فجوات تكلفك المال كل يوم",
-        "description": "تواجه كل مجموعة مطاعم عملنا معها نفس التحديات الثلاث."
+        "description": "كل مجموعة متعددة المواقع نعمل معها تواجه الفجوات الثلاث نفسها."
       },
       "differentiators": [
+        {
+          "title": "استرجاع الأرباح بحلقة مغلقة",
+          "description": "أربعة عشر كاشفاً تجد الأرباح المتسرّبة عبر العمالة والمشتريات والهدر والتوصيل والتسعير. تتحوّل كل فرصة إلى إجراء واحد بمسؤول واحد، ويُقاس مقابل خط أساس مجمّد قبل بدء العمل. ولا تعتبر Sundae أي توفير مستَرجعاً قبل قياسه.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "استيعاب البيانات عبر 12 مجالاً",
           "description": "POS، العمالة، المخزون، الشراء، الحجوزات، التوصيل، التسويق، تجربة الضيوف، إدارة علاقات العملاء، المحاسبة - جميعها موحدة. لا مزيد من الأنظمة المنفصلة.",
@@ -371,9 +395,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "DAS PROBLEM",
         "title": "Drei Lücken, die Sie jeden Tag Geld kosten",
-        "description": "Jede Restaurantgruppe, mit der wir zusammengearbeitet haben, steht vor denselben drei Herausforderungen."
+        "description": "Jede Gruppe mit mehreren Standorten, mit der wir arbeiten, trifft auf dieselben drei Luecken."
       },
       "differentiators": [
+        {
+          "title": "Margenrueckgewinnung im geschlossenen Kreis",
+          "description": "Vierzehn Detektoren finden die Marge, die ueber Personal, Einkauf, Verschwendung, Lieferung und Preise verloren geht. Jede Chance wird eine Aufgabe mit genau einem Verantwortlichen, gemessen gegen eine vor Arbeitsbeginn eingefrorene Basis. Sundae nennt eine Einsparung erst zurueckgewonnen, wenn sie gemessen wurde.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domain-Datenaufnahme",
           "description": "POS, Personal, Inventar, Einkauf, Reservierungen, Lieferung, Marketing, Gästeerlebnis, CRM, Buchhaltung - alles vereint. Keine getrennten Systeme mehr.",
@@ -461,9 +491,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "O PROBLEMA",
         "title": "Três lacunas que custam dinheiro todos os dias",
-        "description": "Todo grupo de restaurantes com o qual trabalhamos enfrenta os mesmos três desafios."
+        "description": "Todo grupo multiunidade com quem trabalhamos encontra as mesmas tres lacunas."
       },
       "differentiators": [
+        {
+          "title": "Recuperacao de margem em circuito fechado",
+          "description": "Catorze detectores encontram a margem que escapa em pessoal, compras, desperdicio, entrega e preco. Cada oportunidade vira uma acao com um unico responsavel, medida contra uma linha de base congelada antes do inicio. A Sundae so considera uma economia recuperada depois de medi-la.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestão de Dados em 12 Domínios",
           "description": "POS, mão de obra, inventário, compras, reservas, entrega, marketing, experiência do cliente, CRM, contabilidade - tudo unificado. Chega de sistemas desconectados.",
@@ -555,6 +591,12 @@ export const generatedLocalCopy = {
       },
       "differentiators": [
         {
+          "title": "بند لوپ میں منافع کی بحالی",
+          "description": "چودہ ڈٹیکٹر محنت، خریداری، ضیاع، ڈیلیوری اور قیمتوں میں ضائع ہوتا منافع تلاش کرتے ہیں۔ ہر موقع ایک ذمہ دار کے سپرد ایک کام بن جاتا ہے، جو کام شروع ہونے سے پہلے منجمد بنیاد کے مقابلے میں ماپا جاتا ہے۔ Sundae کسی بچت کو ماپے بغیر بحال شدہ نہیں کہتا۔",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
+        {
           "title": "12-ڈومین ڈیٹا اِنجیشن",
           "description": "POS، محنت، انوینٹری، خریداری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اکاؤنٹنگ - سب متحد۔ مزید غیر مربوط نظام نہیں۔",
           "icon": "integration",
@@ -641,9 +683,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "समस्या",
         "title": "तीन कमियां जो आपको हर दिन पैसे का नुकसान पहुंचाती हैं",
-        "description": "हर रेस्तरां समूह जिसके साथ हमने काम किया है, उन्हीं तीन चुनौतियों का सामना करता है।"
+        "description": "हर मल्टी-लोकेशन ग्रुप जिसके साथ हम काम करते हैं, उन्हीं तीन कमियों से टकराता है।"
       },
       "differentiators": [
+        {
+          "title": "क्लोज्ड-लूप मुनाफ़ा रिकवरी",
+          "description": "चौदह डिटेक्टर श्रम, खरीद, बर्बादी, डिलीवरी और मूल्य निर्धारण में रिस रहे मुनाफ़े को पकड़ते हैं. हर अवसर एक ज़िम्मेदार व्यक्ति का काम बनता है, जिसे काम शुरू होने से पहले जमे हुए बेसलाइन के मुकाबले मापा जाता है. Sundae किसी बचत को मापे बिना वसूल नहीं मानता.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-डोमेन डेटा इनजेशन",
           "description": "POS, श्रम, इन्वेंटरी, खरीदारी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, लेखा - सभी एकीकृत। अब और डिस्कनेक्टेड सिस्टम नहीं।",
@@ -731,9 +779,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "IL PROBLEMA",
         "title": "Tre lacune che ti costano soldi ogni giorno",
-        "description": "Ogni gruppo di ristoranti con cui abbiamo lavorato affronta le stesse tre sfide."
+        "description": "Ogni gruppo multi-sede con cui lavoriamo incontra le stesse tre lacune."
       },
       "differentiators": [
+        {
+          "title": "Recupero del margine a ciclo chiuso",
+          "description": "Quattordici rilevatori individuano il margine che si perde tra personale, acquisti, sprechi, consegne e prezzi. Ogni opportunita diventa un'azione con un solo responsabile, misurata rispetto a una base congelata prima dell'inizio. Sundae non considera un risparmio recuperato finche non e stato misurato.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestione Dati a 12 Domini",
           "description": "POS, lavoro, inventario, acquisti, prenotazioni, consegne, marketing, esperienza degli ospiti, CRM, contabilità - tutto unificato. Niente più sistemi disconnessi.",
@@ -825,6 +879,12 @@ export const generatedLocalCopy = {
       },
       "differentiators": [
         {
+          "title": "Kapali dongu kar geri kazanimi",
+          "description": "On dort dedektor isgucu, satin alma, israf, teslimat ve fiyatlamada sizan kari bulur. Her firsat tek bir sorumlusu olan bir ise donusur ve is baslamadan once dondurulan bir taban ile olculur. Sundae bir tasarrufu olcmeden geri kazanilmis saymaz.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
+        {
           "title": "12-Domain Veri Alımı",
           "description": "POS, iş gücü, envanter, satın alma, rezervasyon, teslimat, pazarlama, misafir deneyimi, CRM, muhasebe - hepsi bir arada. Artık bağlantısız sistemler yok.",
           "icon": "integration",
@@ -914,6 +974,12 @@ export const generatedLocalCopy = {
         "description": "我们合作过的每个餐饮集团都面临着同样的三个挑战。"
       },
       "differentiators": [
+        {
+          "title": "闭环利润追回",
+          "description": "十四个检测器找出在人力、采购、损耗、配送与定价上流失的利润。每个机会变成一项有唯一负责人的任务，并以开工前冻结的基线来衡量。未经衡量，Sundae 不会称任何节省已被追回。",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12个领域数据摄取",
           "description": "POS、劳动力、库存、采购、预订、配送、营销、客户体验、CRM、会计 - 全部统一。再也没有脱节的系统。",
@@ -1005,6 +1071,12 @@ export const generatedLocalCopy = {
       },
       "differentiators": [
         {
+          "title": "Odzyskiwanie marzy w zamknietej petli",
+          "description": "Czternascie detektorow znajduje marze traconą w pracy, zakupach, marnotrawstwie, dostawie i cenach. Kazda szansa staje sie zadaniem z jednym wlascicielem, mierzonym wzgledem bazy zamrozonej przed rozpoczeciem prac. Sundae nie uzna oszczednosci za odzyskana, dopoki jej nie zmierzy.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
+        {
           "title": "12-Domenowa Ingestia Danych",
           "description": "POS, praca, zapasy, zakupy, rezerwacje, dostawy, marketing, doświadczenie gości, CRM, księgowość - wszystko zintegrowane. Koniec z rozłączonymi systemami.",
           "icon": "integration",
@@ -1091,9 +1163,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "問題",
         "title": "毎日お金を失う3つのギャップ",
-        "description": "私たちが関わったすべてのレストラングループは、同じ3つの課題に直面しています。"
+        "description": "私たちが関わる多店舗グループは、いずれも同じ三つの欠落に突き当たります。"
       },
       "differentiators": [
+        {
+          "title": "クローズドループの利益リカバリー",
+          "description": "十四の検出器が人件費、調達、廃棄、配送、価格設定で漏れている利益を見つけます。各機会は担当者が一人だけの作業となり、着手前に凍結した基準と比較して測定されます。測定されるまで、Sundae は節減を回収済みとは呼びません。",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12ドメインデータ取り込み",
           "description": "POS、労働、在庫、購買、予約、配送、マーケティング、ゲスト体験、CRM、会計 - すべてが統合されています。もはや切り離されたシステムはありません。",
@@ -1185,6 +1263,12 @@ export const generatedLocalCopy = {
       },
       "differentiators": [
         {
+          "title": "Thu hoi loi nhuan theo vong khep kin",
+          "description": "Muoi bon bo phat hien tim ra loi nhuan that thoat o nhan cong, mua hang, hao hut, giao hang va dinh gia. Moi co hoi tro thanh mot cong viec voi mot nguoi chiu trach nhiem, do luong voi moc co so duoc dong bang truoc khi bat dau. Sundae khong goi mot khoan tiet kiem la da thu hoi cho den khi do duoc.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
+        {
           "title": "Tiếp Nhận Dữ Liệu 12 Miền",
           "description": "POS, lao động, tồn kho, mua sắm, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM, kế toán - tất cả được thống nhất. Không còn hệ thống tách rời.",
           "icon": "integration",
@@ -1275,6 +1359,12 @@ export const generatedLocalCopy = {
       },
       "differentiators": [
         {
+          "title": "Pemulihan laba lingkar tertutup",
+          "description": "Empat belas detektor menemukan laba yang bocor di tenaga kerja, pengadaan, susut, pengiriman dan penetapan harga. Setiap peluang menjadi satu tugas dengan satu penanggung jawab, diukur terhadap garis dasar yang dibekukan sebelum pekerjaan dimulai. Sundae tidak menyebut penghematan sebagai kembali sebelum diukur.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
+        {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, tenaga kerja, inventaris, pembelian, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, akuntansi - semua terintegrasi. Tidak ada lagi sistem yang terputus.",
           "icon": "integration",
@@ -1361,9 +1451,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "문제",
         "title": "매일 돈을 잃게 만드는 세 가지 격차",
-        "description": "우리가 함께 일한 모든 레스토랑 그룹은 동일한 세 가지 문제에 직면합니다."
+        "description": "우리가 함께 일한 모든 다점포 그룹이 같은 세 가지 공백을 만납니다."
       },
       "differentiators": [
+        {
+          "title": "폐쇄 루프 이익 회수",
+          "description": "열네 개의 탐지기가 인건비, 구매, 폐기, 배달, 가격에서 새는 이익을 찾아냅니다. 각 기회는 담당자가 한 명인 업무가 되고, 작업 시작 전에 고정한 기준선과 비교해 측정됩니다. 측정되기 전까지 Sundae는 절감이 회수되었다고 말하지 않습니다.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12개 도메인 데이터 수집",
           "description": "POS, 인력, 재고, 구매, 예약, 배달, 마케팅, 고객 경험, CRM, 회계 - 모두 통합되었습니다. 더 이상 분리된 시스템이 없습니다.",
@@ -1451,9 +1547,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "PROBLEMA",
         "title": "Trei lacune care îți costă bani în fiecare zi",
-        "description": "Fiecare grup de restaurante cu care am colaborat se confruntă cu aceleași trei provocări."
+        "description": "Fiecare grup multi-locatie cu care lucram intalneste aceleasi trei lipsuri."
       },
       "differentiators": [
+        {
+          "title": "Recuperarea marjei in buclă inchisa",
+          "description": "Paisprezece detectoare gasesc marja pierduta la personal, achizitii, risipa, livrare si preturi. Fiecare oportunitate devine o sarcina cu un singur responsabil, masurata fata de o baza inghetata inainte de inceperea lucrului. Sundae nu considera o economie recuperata pana nu este masurata.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestie de Date pe 12 Domenii",
           "description": "POS, muncă, inventar, achiziții, rezervări, livrare, marketing, experiența oaspeților, CRM, contabilitate - toate unificate. Fără sisteme deconectate.",
@@ -1541,9 +1643,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "PROBLEMET",
         "title": "Tre luckor som kostar dig pengar varje dag",
-        "description": "Varje restauranggrupp vi har arbetat med står inför samma tre utmaningar."
+        "description": "Varje flerenhetsgrupp vi arbetar med moter samma tre luckor."
       },
       "differentiators": [
+        {
+          "title": "Marginalatervinning i sluten loop",
+          "description": "Fjorton detektorer hittar marginalen som lacker i personal, inkop, svinn, leverans och prissattning. Varje mojlighet blir en uppgift med en enda ansvarig, matt mot en baslinje som frystes innan arbetet borjade. Sundae kallar inte en besparing atervunnen forran den har matts.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-domäners datainhämtning",
           "description": "POS, arbetskraft, lager, inköp, reservationer, leverans, marknadsföring, gästupplevelse, CRM, bokföring - allt enat. Inga fler frånkopplade system.",
@@ -1635,6 +1743,12 @@ export const generatedLocalCopy = {
       },
       "differentiators": [
         {
+          "title": "ক্লোজড-লুপ মুনাফা পুনরুদ্ধার",
+          "description": "চৌদ্দটি ডিটেক্টর শ্রম, ক্রয়, অপচয়, ডেলিভারি ও মূল্যনির্ধারণে বেরিয়ে যাওয়া মুনাফা খুঁজে বের করে। প্রতিটি সুযোগ একজন দায়িত্বপ্রাপ্ত ব্যক্তির কাজ হয়ে ওঠে, যা কাজ শুরুর আগে স্থির করা ভিত্তির সঙ্গে মেপে দেখা হয়। মাপা না হওয়া পর্যন্ত Sundae কোনও সাশ্রয়কে পুনরুদ্ধার বলে না।",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
+        {
           "title": "১২-ডোমেইন ডেটা ইনজেশন",
           "description": "POS, শ্রম, ইনভেন্টরি, ক্রয়, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, হিসাব - সবকিছু একত্রিত। আর বিচ্ছিন্ন সিস্টেম নেই।",
           "icon": "integration",
@@ -1721,9 +1835,15 @@ export const generatedLocalCopy = {
       "problems": {
         "eyebrow": "ปัญหา",
         "title": "สามช่องว่างที่ทำให้คุณเสียเงินทุกวัน",
-        "description": "กลุ่มร้านอาหารทุกกลุ่มที่เราทำงานด้วยเผชิญกับสามความท้าทายเดียวกัน."
+        "description": "ทุกกลุ่มหลายสาขาที่เราทำงานด้วยเจอช่องว่างสามอย่างเดียวกัน"
       },
       "differentiators": [
+        {
+          "title": "การกู้คืนกำไรแบบวงจรปิด",
+          "description": "ตัวตรวจจับสิบสี่ตัวค้นหากำไรที่รั่วไหลในแรงงาน การจัดซื้อ ของเสีย การจัดส่ง และการตั้งราคา ทุกโอกาสกลายเป็นงานที่มีผู้รับผิดชอบเพียงคนเดียว วัดเทียบกับเส้นฐานที่ตรึงไว้ก่อนเริ่มงาน Sundae จะไม่เรียกการประหยัดใดว่ากู้คืนแล้วจนกว่าจะวัดได้",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "การนำเข้าข้อมูล 12 ด้าน",
           "description": "POS, แรงงาน, สินค้าคงคลัง, การสั่งซื้อ, การจอง, การจัดส่ง, การตลาด, ประสบการณ์แขก, CRM, การบัญชี - ทั้งหมดรวมกัน ไม่มีระบบที่แยกจากกันอีกต่อไป.",
@@ -1814,6 +1934,12 @@ export const generatedLocalCopy = {
         "description": "Setiap kumpulan restoran yang kami bekerjasama menghadapi tiga cabaran yang sama."
       },
       "differentiators": [
+        {
+          "title": "Pemulihan margin gelung tertutup",
+          "description": "Empat belas pengesan mencari margin yang bocor pada tenaga kerja, perolehan, pembaziran, penghantaran dan penetapan harga. Setiap peluang menjadi satu tugas dengan seorang penanggungjawab, diukur terhadap garis dasar yang dibekukan sebelum kerja bermula. Sundae tidak menyebut penjimatan sebagai pulih sebelum ia diukur.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, buruh, inventori, pembelian, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, perakaunan - semua disatukan. Tiada lagi sistem yang tidak bersambung.",

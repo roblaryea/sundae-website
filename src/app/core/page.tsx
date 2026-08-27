@@ -42,6 +42,17 @@ const localizedCoreCopy = {
         { title: "Grows With You", desc: "From one location to a thousand. The package sets the depth; the location bands set the price as you add sites.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "WHERE THE MARGIN GOES",
+      heading: "Four places profit leaks. Your package decides which ones you close.",
+      description: "Start from the loss, not the licence. Each package covers a different set of the four - Core Performance covers all of them.",
+      areas: [
+        { title: "Revenue & Profit", loss: "Voids, comps, discounts and mispriced items that never show up as a line you can question.", covered: "Revenue and profit intelligence, revenue assurance, item-level contribution.", icon: "cost" as SundaeIconName },
+        { title: "Food & Supply", loss: "The gap between what you ordered, what you used and what you sold - waste, variance and vendor price drift.", covered: "Inventory and purchasing intelligence, theoretical versus actual usage, supplier movement.", icon: "insights" as SundaeIconName },
+        { title: "Guest & Market", loss: "Covers that never arrive, guests who do not return, and channel margin eaten after commission.", covered: "Guest experience and CRM, reservations, delivery economics, marketing attribution, peer benchmarks.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Decisions taken late, on last month's numbers, with no way to tell afterwards whether they worked.", covered: "Forecasting, scenario modelling and the approve-in-the-loop action layer. An expansion on top of Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     proof: {
       eyebrow: "HOW YOU KNOW IT'S REAL",
       heading: "Anyone can claim recovery. Sundae lets you check.",
@@ -56,25 +67,26 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "CHOOSE YOUR PACKAGE",
       heading: "Four Core packages",
-      description: "Same eleven domain modules in every package. What changes is how deep each one goes.",
+      description: "Each package covers a different set of the four areas. Pick the one that matches where your margin is going.",
       bestForLabel: "Best for:",
       viewPrefix: "See",
       priceLabel: "first location / month",
       bandsLabel: "Then, per additional location",
       walletLabel: "AI credits / month",
-      includesModules: "All eleven Core domain modules, included",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "Covers Revenue & Profit",
           name: "Core Foundation",
           badge: "Start here",
           subtitle: "The operating baseline",
-          description: "One decision substrate over POS, labor, cost and operations, refreshed while the shift is still running.",
+          description: "One place to decide from, over POS, labor, cost and operations, refreshed while the shift is still running.",
           bestFor: "Groups getting off spreadsheets and disconnected dashboards",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "Covers Revenue & Profit, Food & Supply",
           name: "Core Margin",
           badge: "Most Popular",
           subtitle: "Depth on cost and leakage",
@@ -84,6 +96,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "Covers Revenue & Profit, Guest & Market",
           name: "Core Growth",
           badge: "Demand side",
           subtitle: "Depth on demand",
@@ -93,6 +106,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "Covers all four areas, incl. Foresight & Action",
           name: "Core Performance",
           badge: "Full depth",
           subtitle: "Multi-brand, multi-region",
@@ -100,16 +114,6 @@ const localizedCoreCopy = {
           bestFor: "Large groups running several brands or several markets",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "The 4D Intelligence Model",
-      description: "Core delivers all four dimensions - expanded.",
-      items: [
-        { dimension: "1D", title: "What Happened", status: "Real-Time", description: "Complete operational truth, updated every 2-4 hours. Near real-time visibility for same-shift interventions.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs. Actual", status: "Real-Time", description: "Real-time budget variance tracking. Flash reporting for finance teams. Week-to-date and month-to-date visibility.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Market Context", status: "Expanded", description: "Full benchmarking suite (30+ metrics). Portfolio comparisons. Competitive context via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "What's Next", status: "Expanded", description: "14-30 day forecasting. Proactive alerts before problems escalate. Sundae Coach recommendations with confidence scores.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -144,25 +148,25 @@ const localizedCoreCopy = {
       heading: "Add Modules for Specialized Intelligence",
       description: "Deepen Core with focused modules for your specific operational challenges.",
       items: [
-        { name: "Labor Intelligence", description: "Real-time schedule optimization, predictive labor demand", icon: "benchmarking" as SundaeIconName },
-        { name: "Inventory Intelligence", description: "Real-time waste tracking, automated par levels", icon: "insights" as SundaeIconName },
-        { name: "Purchasing Intelligence", description: "Real-time price optimization, vendor comparison", icon: "marketing" as SundaeIconName },
-        { name: "Marketing Intelligence", description: "Real-time campaign tracking, CAC monitoring", icon: "growth" as SundaeIconName },
-        { name: "Reservations Intelligence", description: "Real-time booking patterns, table optimization", icon: "operators" as SundaeIconName },
+        { name: "Labor Intelligence", description: "Same-shift schedule optimization, predictive labor demand", icon: "benchmarking" as SundaeIconName },
+        { name: "Inventory Intelligence", description: "Same-shift waste tracking, automated par levels", icon: "insights" as SundaeIconName },
+        { name: "Purchasing Intelligence", description: "Price movement tracking, vendor comparison", icon: "marketing" as SundaeIconName },
+        { name: "Marketing Intelligence", description: "Same-shift campaign tracking, CAC monitoring", icon: "growth" as SundaeIconName },
+        { name: "Reservations Intelligence", description: "Same-shift booking patterns, table optimization", icon: "operators" as SundaeIconName },
       ],
       button: "Explore All Modules",
     },
     watchtower: {
-      heading: "Core + Watchtower = Complete Intelligence",
+      heading: "Watchtower brings the outside world into Core",
       description: "Core tells you how you're performing right now. Watchtower tells you what's happening around you. Together, they give you the complete picture - internal operations and external market context in one intelligence layer.",
       button: "Learn About Watchtower",
     },
     faq: {
       heading: "Frequently Asked Questions",
       items: [
-        { q: "How do the four Core packages differ?", a: "Every package carries the same eleven domain modules and differs in how deep each one goes. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
-        { q: "Can I upgrade from Report to Core?", a: "Yes. All historical data is preserved. Transition with no data loss." },
-        { q: "Do I need Core if I only have 5 locations?", a: "Not required, but recommended if you need operational speed (2-4 hour refresh). Report works great for 1-10 locations if daily reports are sufficient." },
+        { q: "How do the four Core packages differ?", a: "They cover different areas, not the same ground at different depths. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
+        { q: "Can I move up a package later?", a: "Yes. Your full connected history is preserved and nothing is re-onboarded - you change the depth, not the data." },
+        { q: "Is Core worth it at five locations?", a: "Yes. Five locations carry the package anchor and the first band, and get the same coverage a fifty-location group gets. The location bands only start to matter as you add sites." },
         { q: "Can Core handle multiple POS systems?", a: "Yes. Core connects across mixed POS estates, and Core Performance adds consolidation across brands and regions on top." },
         { q: "Can I use Core with Watchtower?", a: "Highly recommended. Core provides internal intelligence, Watchtower adds external market intelligence for complete visibility." },
         { q: "Can I use Core with Modules?", a: "Yes. All 5 specialized modules work with Core to deepen intelligence in specific operational areas." },
@@ -194,6 +198,17 @@ const localizedCoreCopy = {
         { title: "ينمو معك", desc: "من موقع واحد إلى ألف. الباقة تحدد العمق، وشرائح المواقع تحدد السعر كلما أضفت موقعًا.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "أين يذهب الهامش",
+      heading: "أربعة مواضع يتسرب منها الربح. وباقتك تحدد أيها تُغلق.",
+      description: "ابدأ من الخسارة لا من الترخيص. كل باقة تغطي مجموعة مختلفة من المواضع الأربعة، وCore Performance يغطيها جميعاً.",
+      areas: [
+        { title: "الإيراد والربح", loss: "إلغاءات ومجانيات وخصومات وأصناف مسعّرة خطأً لا تظهر أبداً كبند يمكنك مساءلته.", covered: "ذكاء الإيراد والربح، وضمان الإيراد، ومساهمة كل صنف.", icon: "cost" as SundaeIconName },
+        { title: "الطعام والتوريد", loss: "الفجوة بين ما طلبته وما استُهلك وما بِيع - هدر وانحراف وتغيّر أسعار المورّدين.", covered: "ذكاء المخزون والمشتريات، والاستهلاك النظري مقابل الفعلي، وحركة المورّدين.", icon: "insights" as SundaeIconName },
+        { title: "الضيف والسوق", loss: "حجوزات لا تصل، وضيوف لا يعودون، وهامش قناة يلتهمه العمولة.", covered: "تجربة الضيف وCRM، والحجوزات، واقتصاديات التوصيل، وإسناد التسويق، ومقارنات النظراء.", icon: "operators" as SundaeIconName },
+        { title: "الاستشراف والتنفيذ", loss: "قرارات تُتخذ متأخرة، بأرقام الشهر الماضي، دون طريقة لمعرفة إن كانت قد نجحت.", covered: "التوقّع ونمذجة السيناريوهات وطبقة التنفيذ باعتماد بشري. توسعة فوق Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     proof: {
       eyebrow: "كيف تعرف أنه حقيقي",
       heading: "أي أحد يستطيع ادّعاء الاسترجاع. Sundae يتيح لك التحقّق.",
@@ -208,16 +223,16 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "اختر باقتك",
       heading: "أربع باقات Core",
-      description: "الوحدات الإحدى عشرة نفسها في كل باقة. ما يتغير هو عمق كل وحدة.",
+      description: "كل باقة تغطي مجموعة مختلفة من المجالات الأربعة. اختر ما يناسب المكان الذي يتسرب منه هامشك.",
       bestForLabel: "الانسب لـ:",
       viewPrefix: "عرض",
       priceLabel: "للموقع الأول شهريًا",
       bandsLabel: "ثم لكل موقع إضافي",
       walletLabel: "رصيد ذكاء شهريًا",
-      includesModules: "كل وحدات Core الإحدى عشرة مضمّنة",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "يغطي الإيراد والربح",
           name: "Core Foundation",
           badge: "ابدأ هنا",
           subtitle: "الأساس التشغيلي",
@@ -227,6 +242,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "يغطي الإيراد والربح، والطعام والتوريد",
           name: "Core Margin",
           badge: "الأكثر شيوعًا",
           subtitle: "عمق في التكلفة والتسرب",
@@ -236,6 +252,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "يغطي الإيراد والربح، والضيف والسوق",
           name: "Core Growth",
           badge: "جانب الطلب",
           subtitle: "عمق في الطلب",
@@ -245,6 +262,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "يغطي المجالات الأربعة، بما فيها الاستشراف والتنفيذ",
           name: "Core Performance",
           badge: "العمق الكامل",
           subtitle: "متعدد العلامات والأسواق",
@@ -252,16 +270,6 @@ const localizedCoreCopy = {
           bestFor: "المجموعات الكبيرة التي تدير عدة علامات أو عدة أسواق",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "نموذج الذكاء الرباعي",
-      description: "Core يقدم جميع الابعاد الاربعة - وبشكل موسع.",
-      items: [
-        { dimension: "1D", title: "ماذا حدث", status: "فوري", description: "حقيقة تشغيلية كاملة تحدث كل 2-4 ساعات. رؤية شبه فورية للتدخل داخل الوردية.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "الخطة مقابل الفعلي", status: "فوري", description: "تتبع فوري لانحرافات الميزانية. تقارير سريعة لفرق المالية. رؤية من بداية الاسبوع حتى اليوم ومن بداية الشهر حتى اليوم.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "سياق السوق", status: "موسع", description: "مجموعة مقارنات كاملة (30+ مقياس). مقارنات المحفظة. سياق تنافسي عبر Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "ما التالي", status: "موسع", description: "توقعات 14-30 يوماً. تنبيهات استباقية قبل تفاقم المشكلات. توصيات Sundae Coach مع درجات ثقة.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -305,16 +313,16 @@ const localizedCoreCopy = {
       button: "استعرض كل الوحدات",
     },
     watchtower: {
-      heading: "Core + Watchtower = ذكاء كامل",
+      heading: "Watchtower يُدخل العالم الخارجي إلى Core",
       description: "Core يخبرك بادائك الان. Watchtower يخبرك بما يحدث حولك. معاً يمنحانك الصورة الكاملة - العمليات الداخلية وسياق السوق الخارجي في طبقة ذكاء واحدة.",
       button: "تعرف على Watchtower",
     },
     faq: {
       heading: "الاسئلة الشائعة",
       items: [
-        { q: "ما الفرق بين باقات Core الأربع؟", a: "كل باقة تضم الوحدات الإحدى عشرة نفسها، والفرق في عمق كل وحدة. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
-        { q: "هل يمكنني الترقية من Report الى Core؟", a: "نعم. يتم الحفاظ على كل البيانات التاريخية. الانتقال دون فقدان للبيانات." },
-        { q: "هل احتاج Core اذا كان لدي 5 مواقع فقط؟", a: "ليس ضرورياً، لكنه موصى به اذا كنت تحتاج سرعة تشغيلية (تحديث كل 2-4 ساعات). Report يعمل جيداً لـ 1-10 مواقع اذا كانت التقارير اليومية كافية." },
+        { q: "ما الفرق بين باقات Core الأربع؟", a: "الباقات تغطي مجالات مختلفة، لا المجال نفسه بأعماق مختلفة. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
+        { q: "هل يمكنني الانتقال إلى باقة أعلى لاحقاً؟", a: "نعم. يُحفَظ تاريخك المتصل بالكامل ولا يُعاد أي إعداد - أنت تغيّر العمق لا البيانات." },
+        { q: "هل تستحق Core العناء عند خمسة مواقع؟", a: "نعم. الخمسة مواقع تحمل مرتكز الباقة والنطاق الأول، وتحصل على التغطية نفسها التي تحصل عليها مجموعة من خمسين موقعاً. ونطاقات المواقع لا تبدأ في التأثير إلا مع إضافة مواقع." },
         { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "نعم. يتصل Core بأنظمة POS المختلطة، وتضيف Core Performance فوق ذلك التجميع عبر العلامات والمناطق." },
         { q: "هل يمكنني استخدام Core مع Watchtower؟", a: "موصى به بشدة. Core يوفر الذكاء الداخلي، وWatchtower يضيف ذكاء السوق الخارجي لرؤية كاملة." },
         { q: "هل يمكنني استخدام Core مع Modules؟", a: "نعم. جميع الوحدات المتخصصة الخمس تعمل مع Core لتعميق الذكاء في المجالات التشغيلية المحددة." },
@@ -346,6 +354,17 @@ const localizedCoreCopy = {
         { title: "Grandit avec vous", desc: "D'un site à un millier. L'offre fixe la profondeur, les tranches de sites fixent le prix à mesure que vous ajoutez.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "OÙ PART LA MARGE",
+      heading: "Quatre endroits où le profit fuit. Votre offre décide lesquels vous fermez.",
+      description: "Partez de la perte, pas de la licence. Chaque offre couvre un ensemble différent des quatre - Core Performance les couvre tous.",
+      areas: [
+        { title: "Revenu & Profit", loss: "Annulations, offerts, remises et articles mal tarifés qui n'apparaissent jamais comme une ligne que vous pouvez interroger.", covered: "Intelligence revenu et profit, revenue assurance, contribution par article.", icon: "cost" as SundaeIconName },
+        { title: "Nourriture & Approvisionnement", loss: "L'écart entre ce que vous avez commandé, consommé et vendu - gaspillage, écarts et dérive des prix fournisseurs.", covered: "Intelligence stocks et achats, consommation théorique contre réelle, mouvements fournisseurs.", icon: "insights" as SundaeIconName },
+        { title: "Client & Marché", loss: "Des couverts qui n'arrivent jamais, des clients qui ne reviennent pas, et une marge de canal mangée par la commission.", covered: "Expérience client et CRM, réservations, économie de la livraison, attribution marketing, benchmarks pairs.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Des décisions prises tard, sur les chiffres du mois dernier, sans moyen de savoir ensuite si elles ont marché.", covered: "Prévision, modélisation de scénarios et couche d'action avec validation humaine. Une expansion au-dessus de Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     proof: {
       eyebrow: "COMMENT SAVOIR QUE C'EST RÉEL",
       heading: "N'importe qui peut revendiquer une récupération. Sundae vous laisse vérifier.",
@@ -360,16 +379,16 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "CHOISISSEZ VOTRE OFFRE",
       heading: "Quatre offres Core",
-      description: "Les mêmes onze modules métier dans chaque offre. Ce qui change, c'est la profondeur de chacun.",
+      description: "Chaque offre couvre un ensemble différent des quatre domaines. Choisissez celle qui correspond à l'endroit où part votre marge.",
       bestForLabel: "Idéal pour :",
       viewPrefix: "Voir",
       priceLabel: "premier site / mois",
       bandsLabel: "Puis, par site additionnel",
       walletLabel: "crédits IA / mois",
-      includesModules: "Les onze modules métier Core, inclus",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "Couvre Revenu & Profit",
           name: "Core Foundation",
           badge: "Commencez ici",
           subtitle: "Le socle opérationnel",
@@ -379,6 +398,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "Couvre Revenu & Profit, Nourriture & Approvisionnement",
           name: "Core Margin",
           badge: "Le plus populaire",
           subtitle: "Profondeur sur les coûts et les pertes",
@@ -388,6 +408,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "Couvre Revenu & Profit, Client & Marché",
           name: "Core Growth",
           badge: "Côté demande",
           subtitle: "Profondeur sur la demande",
@@ -397,6 +418,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "Couvre les quatre domaines, dont Foresight & Action",
           name: "Core Performance",
           badge: "Profondeur complète",
           subtitle: "Multi-marques, multi-régions",
@@ -404,16 +426,6 @@ const localizedCoreCopy = {
           bestFor: "Les grands groupes qui opèrent plusieurs marques ou plusieurs marchés",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "Le modèle d'intelligence 4D",
-      description: "Core livre les quatre dimensions - en version étendue.",
-      items: [
-        { dimension: "1D", title: "Ce qui s'est passé", status: "Temps réel", description: "Vérité opérationnelle complète, mise à jour toutes les 2 à 4 heures. Visibilité quasi temps réel pour intervenir pendant le service.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs réel", status: "Temps réel", description: "Suivi en temps réel des écarts de budget. Flash reporting pour les équipes finance. Visibilité semaine à date et mois à date.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Contexte marché", status: "Étendu", description: "Suite complète de benchmarking (30+ indicateurs). Comparaisons de portefeuille. Contexte concurrentiel via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "Et ensuite ?", status: "Étendu", description: "Prévisions 14 à 30 jours. Alertes proactives avant que les problèmes ne s'aggravent. Recommandations Sundae Coach avec scores de confiance.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -457,16 +469,16 @@ const localizedCoreCopy = {
       button: "Explorer tous les modules",
     },
     watchtower: {
-      heading: "Core + Watchtower = intelligence complète",
+      heading: "Watchtower fait entrer le monde extérieur dans Core",
       description: "Core vous dit comment vous performez maintenant. Watchtower vous dit ce qui se passe autour de vous. Ensemble, ils donnent la vue complète - opérations internes et contexte marché externe dans une seule couche d'intelligence.",
       button: "En savoir plus sur Watchtower",
     },
     faq: {
       heading: "Questions fréquentes",
       items: [
-        { q: "Quelle est la différence entre les quatre offres Core ?", a: "Chaque offre embarque les mêmes onze modules métier et se distingue par la profondeur de chacun. Foundation est le socle opérationnel, Margin ajoute la profondeur coûts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-régions avec accès gouverné." },
-        { q: "Puis-je passer de Report à Core ?", a: "Oui. Toutes les données historiques sont conservées. La transition se fait sans perte de données." },
-        { q: "Ai-je besoin de Core si je n'ai que 5 sites ?", a: "Pas obligatoire, mais recommandé si vous avez besoin de vitesse opérationnelle (rafraîchissement toutes les 2 à 4 heures). Report fonctionne très bien pour 1 à 10 sites si les rapports quotidiens suffisent." },
+        { q: "Quelle est la différence entre les quatre offres Core ?", a: "Les offres couvrent des domaines différents, et non le même périmètre à des profondeurs différentes. Foundation est le socle opérationnel, Margin ajoute la profondeur coûts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-régions avec accès gouverné." },
+        { q: "Puis-je passer à une offre supérieure plus tard ?", a: "Oui. Tout votre historique connecté est conservé et rien n'est re-onboardé : vous changez la profondeur, pas les données." },
+        { q: "Core vaut-il le coup à cinq sites ?", a: "Oui. Cinq sites portent l'ancrage de l'offre et le premier palier, et reçoivent la même couverture qu'un groupe de cinquante. Les paliers par site ne comptent qu'à partir du moment où vous en ajoutez." },
         { q: "Core peut-il gérer plusieurs systèmes POS ?", a: "Oui. Core se connecte à des parcs POS hétérogènes, et Core Performance ajoute par-dessus la consolidation entre marques et régions." },
         { q: "Puis-je utiliser Core avec Watchtower ?", a: "Fortement recommandé. Core fournit l'intelligence interne, Watchtower ajoute l'intelligence marché externe pour une visibilité complète." },
         { q: "Puis-je utiliser Core avec les Modules ?", a: "Oui. Les 5 modules spécialisés fonctionnent avec Core pour approfondir l'intelligence dans des zones opérationnelles spécifiques." },
@@ -498,6 +510,17 @@ const localizedCoreCopy = {
         { title: "Crece contigo", desc: "De un local a mil. El paquete marca la profundidad y los tramos de locales marcan el precio según añades sitios.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "DÓNDE SE VA EL MARGEN",
+      heading: "Cuatro sitios por donde se fuga el beneficio. Tu paquete decide cuáles cierras.",
+      description: "Empieza por la pérdida, no por la licencia. Cada paquete cubre un conjunto distinto de los cuatro; Core Performance los cubre todos.",
+      areas: [
+        { title: "Ingresos y Beneficio", loss: "Anulaciones, invitaciones, descuentos y artículos mal tarifados que nunca aparecen como una línea que puedas cuestionar.", covered: "Inteligencia de ingresos y beneficio, revenue assurance, contribución por artículo.", icon: "cost" as SundaeIconName },
+        { title: "Comida y Suministro", loss: "La brecha entre lo que pediste, lo que usaste y lo que vendiste: merma, desviación y deriva de precios de proveedor.", covered: "Inteligencia de inventario y compras, consumo teórico frente a real, movimiento de proveedores.", icon: "insights" as SundaeIconName },
+        { title: "Cliente y Mercado", loss: "Comensales que no llegan, clientes que no vuelven y margen de canal comido por la comisión.", covered: "Experiencia de cliente y CRM, reservas, economía del delivery, atribución de marketing, benchmarks de pares.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Decisiones tomadas tarde, con las cifras del mes pasado, sin forma de saber después si funcionaron.", covered: "Previsión, modelado de escenarios y la capa de acción con aprobación humana. Una expansión sobre Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
     proof: {
       eyebrow: "CÓMO SABES QUE ES REAL",
       heading: "Cualquiera puede afirmar que recuperó. Sundae te deja comprobarlo.",
@@ -512,16 +535,16 @@ const localizedCoreCopy = {
     tiers: {
       eyebrow: "ELIGE TU PAQUETE",
       heading: "Cuatro paquetes Core",
-      description: "Los mismos once módulos de dominio en cada paquete. Lo que cambia es cuánto profundiza cada uno.",
+      description: "Cada paquete cubre un conjunto distinto de las cuatro áreas. Elige el que se ajuste a por dónde se va tu margen.",
       bestForLabel: "Ideal para:",
       viewPrefix: "Ver",
       priceLabel: "primer local / mes",
       bandsLabel: "Después, por local adicional",
       walletLabel: "créditos de IA / mes",
-      includesModules: "Los once módulos de dominio de Core, incluidos",
       items: [
         {
           packageId: "core_foundation" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio",
           name: "Core Foundation",
           badge: "Empieza aquí",
           subtitle: "La base operativa",
@@ -531,6 +554,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_margin" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio, Comida y Suministro",
           name: "Core Margin",
           badge: "Más popular",
           subtitle: "Profundidad en coste y fuga",
@@ -540,6 +564,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_growth" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio, Cliente y Mercado",
           name: "Core Growth",
           badge: "Lado demanda",
           subtitle: "Profundidad en demanda",
@@ -549,6 +574,7 @@ const localizedCoreCopy = {
         },
         {
           packageId: "core_performance" as CorePackageId,
+          areas: "Cubre las cuatro áreas, incl. Foresight & Action",
           name: "Core Performance",
           badge: "Profundidad completa",
           subtitle: "Multimarca, multirregión",
@@ -556,16 +582,6 @@ const localizedCoreCopy = {
           bestFor: "Grupos grandes que operan varias marcas o varios mercados",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "El modelo de inteligencia 4D",
-      description: "Core entrega las cuatro dimensiones - ampliadas.",
-      items: [
-        { dimension: "1D", title: "Qué pasó", status: "Tiempo real", description: "Verdad operativa completa, actualizada cada 2 a 4 horas. Visibilidad casi en tiempo real para intervenir durante el turno.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs real", status: "Tiempo real", description: "Seguimiento en tiempo real de la variación presupuestaria. Flash reporting para equipos financieros. Visibilidad semana a la fecha y mes a la fecha.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Contexto de mercado", status: "Ampliado", description: "Suite completa de benchmarking (30+ métricas). Comparaciones de cartera. Contexto competitivo vía Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "Qué sigue", status: "Ampliado", description: "Pronósticos de 14 a 30 días. Alertas proactivas antes de que los problemas escalen. Recomendaciones de Sundae Coach con puntuaciones de confianza.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
@@ -609,16 +625,16 @@ const localizedCoreCopy = {
       button: "Explorar todos los módulos",
     },
     watchtower: {
-      heading: "Core + Watchtower = inteligencia completa",
+      heading: "Watchtower trae el mundo exterior a Core",
       description: "Core te muestra cómo va la operación ahora. Watchtower te da el contexto del mercado que la rodea. Juntos te dan una lectura completa para decidir con más criterio.",
       button: "Saber más sobre Watchtower",
     },
     faq: {
       heading: "Preguntas frecuentes",
       items: [
-        { q: "¿En qué se diferencian los cuatro paquetes Core?", a: "Todos llevan los mismos once módulos de dominio y se diferencian en cuánto profundiza cada uno. Foundation es la base operativa, Margin añade profundidad de coste y fuga, Growth añade profundidad de cliente, promoción y canal, y Performance añade consolidación multimarca y multirregión con acceso gobernado." },
-        { q: "¿Puedo pasar de Report a Core?", a: "Sí. Se conservan todos los datos históricos. La transición ocurre sin pérdida de datos." },
-        { q: "¿Necesito Core si solo tengo 5 locales?", a: "No es obligatorio, pero se recomienda si necesitas velocidad operativa (actualización cada 2 a 4 horas). Report funciona muy bien para 1 a 10 locales si los reportes diarios son suficientes." },
+        { q: "¿En qué se diferencian los cuatro paquetes Core?", a: "Cubren áreas distintas, no el mismo terreno a distintas profundidades. Foundation es la base operativa, Margin añade profundidad de coste y fuga, Growth añade profundidad de cliente, promoción y canal, y Performance añade consolidación multimarca y multirregión con acceso gobernado." },
+        { q: "¿Puedo subir de paquete más adelante?", a: "Sí. Se conserva todo tu histórico conectado y no se vuelve a incorporar nada: cambias la profundidad, no los datos." },
+        { q: "¿Merece la pena Core con cinco locales?", a: "Sí. Cinco locales soportan el anclaje del paquete y el primer tramo, y reciben la misma cobertura que un grupo de cincuenta. Los tramos por local solo empiezan a importar cuando añades sitios." },
         { q: "¿Core puede manejar varios sistemas POS?", a: "Sí. Core se conecta a parques POS mixtos, y Core Performance añade encima la consolidación entre marcas y regiones." },
         { q: "¿Puedo usar Core con Watchtower?", a: "Muy recomendable. Core aporta inteligencia interna y Watchtower añade inteligencia externa de mercado para visibilidad completa." },
         { q: "¿Puedo usar Core con Modules?", a: "Sí. Los 5 módulos especializados funcionan con Core para profundizar la inteligencia en áreas operativas específicas." },
@@ -639,7 +655,6 @@ export default function CoreProductPage() {
   const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
   const cream = coreCreamCopy[locale as keyof typeof coreCreamCopy] ?? coreCreamCopy.en;
   const coreTiers = ui.tiers.items;
-  const fourDimensions = ui.dimensions.items;
   const modules = ui.modules.items;
   const integrations = ui.integrations.items;
   const faqs = ui.faq.items;
@@ -672,7 +687,24 @@ export default function CoreProductPage() {
         </div>
       </PageHero>
 
-      {/* The Real-Time Intelligence Layer */}
+      {/* My Sundae - what an operator actually opens. Placed directly after the
+          hero because it is the first screen of the product, not a feature of it. */}
+      <section className="pt-14 pb-4 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <FadeUp>
+            <ThemedShot
+              framed
+              width={1600}
+              height={1000}
+              dark="/images/product/2026-fresh/my-sundae-dark.png"
+              light="/images/product/2026-fresh/my-sundae.png"
+              alt="My Sundae: the personalised daily home, showing what needs attention today, the shift spine with what is open and what is still to come, and the estate broken down by concept"
+            />
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* The Same-Shift Intelligence Layer */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp>
@@ -732,139 +764,42 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Cream relief - early warm break BEFORE the long dark tiers/4D/Pulse stretch (the volume system) */}
+      {/* Cream relief - early warm break before the long dark capability stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
-      {/* Three Tiers */}
+      {/* What Core solves - the four places margin leaks. Leads the page so a
+          buyer meets the economic problem before the package architecture. */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
+              <p className="eyebrow mb-4">{ui.solves.eyebrow}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.solves.heading}</h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.solves.description}</p>
             </div>
           </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-            {coreTiers.map((tier, index) => {
-              // Prices are read from the v1.7 price book, never from copy.
-              // Core packages are marginal-band SKUs: a first-location anchor
-              // plus a stepped rate per additional location. There is no flat
-              // per-location rate and no included-locations allowance.
-              const pkg = CORE_PACKAGES_BY_ID[tier.packageId as CorePackageId];
-              return (
-              <motion.div
-                key={tier.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card variant="elevated" className="h-full relative">
-                  {tier.badge && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
-                        {tier.badge}
-                      </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {ui.solves.areas.map((area, index) => (
+              <FadeUp key={area.title} delay={index * 0.05}>
+                <div className="h-full rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#FF7E6F] to-[#FF5C4D] flex items-center justify-center flex-shrink-0">
+                      <SundaeIcon name={area.icon} size="md" className="text-white" />
                     </div>
-                  )}
-                    <CardHeader className="pt-8">
-                      <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
-                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
-                      <div className="mb-3">
-                        <span className="text-3xl font-bold text-[var(--text-primary)] tabular-nums">
-                          {usd(pkg.firstUnitMonthly)}
-                        </span>
-                        <p className="text-xs text-[var(--text-muted)]">{ui.tiers.priceLabel}</p>
-                      </div>
-                      <CardDescription>{tier.description}</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="mb-6 rounded-lg border border-[var(--border-default)] p-3">
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">
-                          {ui.tiers.bandsLabel}
-                        </p>
-                        <p className="text-sm text-[var(--text-secondary)] tabular-nums">
-                          {describeBands(pkg)}
-                        </p>
-                      </div>
-                      <ul className="space-y-3 mb-6">
-                        <li className="flex items-start gap-2">
-                          <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-[var(--text-supporting)]">
-                            {pkg.aiCreditWallet.toLocaleString('en-US')} {ui.tiers.walletLabel}
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-[var(--text-supporting)]">{ui.tiers.includesModules}</span>
-                        </li>
-                      </ul>
-                      <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
-                        <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
-                      </div>
-                      <Button
-                        variant="primary"
-                      size="lg"
-                      className="w-full"
-                        href={PRICING_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {ui.tiers.viewPrefix} {tier.name}
-                      </Button>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* 4D Intelligence Model */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.dimensions.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.dimensions.description}</p>
-            </div>
-          </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {fourDimensions.map((dim, index) => (
-              <motion.div
-                key={dim.dimension}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card variant="elevated" className="h-full">
-                  <CardHeader>
-                    <div className="text-center mb-4">
-                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center mb-3 shadow-lg`}>
-                        <SundaeIcon name={dim.icon} size="xl" className="text-white" />
-                      </div>
-                      <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">{dim.dimension}</div>
-                      <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{dim.title}</CardTitle>
-                      <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[rgba(34,197,94,0.15)] text-[#22C55E]">
-                        &#10003; {dim.status}
-                      </span>
-                    </div>
-                    <CardDescription className="text-center text-sm">
-                      {dim.description}
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
-              </motion.div>
+                    <h3 className="section-h3 text-[var(--text-display)]">{area.title}</h3>
+                  </div>
+                  <p className="body-base text-[var(--text-supporting)] mb-4">{area.loss}</p>
+                  <p className="body-sm text-[var(--text-muted)]">
+                    <span className="font-semibold text-[var(--text-primary)]">Core covers it with </span>
+                    {area.covered}
+                  </p>
+                </div>
+              </FadeUp>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* Pulse - Included with Core */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
@@ -995,6 +930,96 @@ export default function CoreProductPage() {
               {ui.watchtower.button} →
             </Button>
           </FadeUp>
+        </div>
+      </section>
+
+
+      {/* Three Tiers */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-7xl mx-auto">
+          <FadeUp>
+            <div className="text-center mb-16">
+              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
+            </div>
+          </FadeUp>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+            {coreTiers.map((tier, index) => {
+              // Prices are read from the v1.7 price book, never from copy.
+              // Core packages are marginal-band SKUs: a first-location anchor
+              // plus a stepped rate per additional location. There is no flat
+              // per-location rate and no included-locations allowance.
+              const pkg = CORE_PACKAGES_BY_ID[tier.packageId as CorePackageId];
+              return (
+              <motion.div
+                key={tier.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card variant="elevated" className="h-full relative">
+                  {tier.badge && (
+                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                      <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
+                        {tier.badge}
+                      </span>
+                    </div>
+                  )}
+                    <CardHeader className="pt-8">
+                      <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
+                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
+                      <div className="mb-3">
+                        <span className="text-3xl font-bold text-[var(--text-primary)] tabular-nums">
+                          {usd(pkg.firstUnitMonthly)}
+                        </span>
+                        <p className="text-xs text-[var(--text-muted)]">{ui.tiers.priceLabel}</p>
+                      </div>
+                      <CardDescription>{tier.description}</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="mb-6 rounded-lg border border-[var(--border-default)] p-3">
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">
+                          {ui.tiers.bandsLabel}
+                        </p>
+                        <p className="text-sm text-[var(--text-secondary)] tabular-nums">
+                          {describeBands(pkg)}
+                        </p>
+                      </div>
+                      <ul className="space-y-3 mb-6">
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">
+                            {pkg.aiCreditWallet.toLocaleString('en-US')} {ui.tiers.walletLabel}
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">{tier.areas}</span>
+                        </li>
+                      </ul>
+                      <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
+                        <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
+                      </div>
+                      <Button
+                        variant="primary"
+                      size="lg"
+                      className="w-full"
+                        href={PRICING_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {ui.tiers.viewPrefix} {tier.name}
+                      </Button>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
       </section>
 

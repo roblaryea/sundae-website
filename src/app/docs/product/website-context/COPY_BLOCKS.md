@@ -11,7 +11,7 @@
 - **Package name:** `sundae-app`
 - **Category:** Restaurant Decision Intelligence Platform
 - **General Product definition:** Sundae is a **Decision Intelligence platform** for restaurant and hospitality operators. 
-It ingests internal operational data (POS, labor, inventory, finance) and external signals (benchmarks, delivery aggregators, footfall, weather, pricing, reviews, currency, competitor activity, events), transforming fragmented information into real-time decision views, AI-powered analysis, operational monitoring (Pulse), and conversational access (via Sundae Intelligence).
+It ingests internal operational data (POS, labor, inventory, finance) and external signals (benchmarks, delivery aggregators, footfall, weather, pricing, reviews, currency, competitor activity, events), transforming fragmented information into real-time decision views, AI-powered analysis, operational monitoring (Pulse), and conversational access (via Ask Sundae).
 ---
 
 ## Module Taglines (Verbatim from Page Headers)
@@ -326,7 +326,7 @@ offers, and carry no standalone price.
 | `dashboards:view` | Access Benchmarks, Watchtower, Insights |
 | `integrations:view` | View Data & Integrations |
 | `integrations:manage` | Manage integration connections |
-| `ai:use` | Access Sundae Intelligence |
+| `ai:use` | Access Ask Sundae |
 | `data:view` | View data sources and sync dashboard |
 | `org:settings` | Organization settings, departments, job roles |
 | `restaurants:view` | View restaurant list |

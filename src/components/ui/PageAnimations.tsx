@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { balanceSentences } from "@/lib/balanceSentences";
 
 // Reusable fade-up section with scroll trigger
 export function FadeUp({
@@ -93,7 +94,7 @@ export function PageHero({
       {/* Subtle radial glow */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 pt-32 pb-20 text-center">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 pt-32 pb-20 text-center">
         {badge && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -116,7 +117,7 @@ export function PageHero({
           }}
           className="mt-6 hero-h1"
         >
-          {title}
+          {balanceSentences(title)}
         </motion.h1>
 
         <motion.p

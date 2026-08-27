@@ -45,6 +45,28 @@
   color: var(--text-display);
 }
 
+/* Line balancing. Headings distribute their lines evenly instead of leaving a
+   single orphan word on the last row ("...and could not / buy."), and body
+   copy avoids a one-word final line. Both degrade to normal wrapping where
+   unsupported, so this is safe everywhere rather than per-headline patching. */
+.hero-h1,
+.hero-h2,
+.section-h2,
+.section-h3,
+.section-h4,
+.card-title,
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+.body-xl,
+.body-lg,
+.body-base,
+.body-sm,
+p {
+  text-wrap: pretty;
+}
+
 /* Display face (Fraunces) for all headings - warm, editorial, premium.
    Weights stay per-heading; only the family + optical sizing are unified. */
 .hero-h1,

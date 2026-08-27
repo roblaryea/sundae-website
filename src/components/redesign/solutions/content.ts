@@ -145,7 +145,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR CEOS AND OWNERS",
     headline: "Your worst location is invisible until Thursday's recap.",
     subhead:
-      "Sundae Intelligence delivers daily AI briefings across every brand and location - so portfolio truth lands in the morning, not at the weekly review.",
+      "Ask Sundae delivers daily AI briefings across every brand and location - so portfolio truth lands in the morning, not at the weekly review.",
     todayTitle: "Today",
     todayPoints: [
       "The weekly portfolio recap arrives Wednesday.",
@@ -169,7 +169,7 @@ const en: SolutionsContent = {
         iconKey: "compass",
         title: "Daily executive briefings",
         body: "AI-written summaries across every brand and location. What changed, why it changed, what to do about it.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
       {
         iconKey: "briefcase",
@@ -235,7 +235,7 @@ const en: SolutionsContent = {
         iconKey: "target",
         title: "Conversational campaign Q&A",
         body: "Ask Sundae which campaign drove your best Saturday - get a sourced answer in seconds, not a deck in a week.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
     ],
     mockupKey: "marketingPerformance",
@@ -697,7 +697,7 @@ const ar: SolutionsContent = {
     eyebrow: "للمدراء التنفيذيين والملاك",
     headline: "أسوأ موقع لديك غير مرئي حتى ملخص الخميس.",
     subhead:
-      "Sundae Intelligence يقدم إيجازات يومية بالذكاء الاصطناعي عبر كل علامة وكل موقع - لتصل حقيقة المحفظة في الصباح، لا في المراجعة الأسبوعية.",
+      "Ask Sundae يقدم إيجازات يومية بالذكاء الاصطناعي عبر كل علامة وكل موقع - لتصل حقيقة المحفظة في الصباح، لا في المراجعة الأسبوعية.",
     todayTitle: "اليوم",
     todayPoints: [
       "ملخص المحفظة الأسبوعي يصل يوم الأربعاء.",
@@ -721,7 +721,7 @@ const ar: SolutionsContent = {
         iconKey: "compass",
         title: "إيجازات تنفيذية يومية",
         body: "ملخصات يكتبها الذكاء الاصطناعي عبر كل علامة وموقع. ما الذي تغير، ولماذا، وما الذي يجب فعله.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
       {
         iconKey: "briefcase",
@@ -787,7 +787,7 @@ const ar: SolutionsContent = {
         iconKey: "target",
         title: "أسئلة وأجوبة محادثة عن الحملات",
         body: "اسأل Sundae أي حملة قادت أفضل سبت - اقرأ إجابة موثقة في ثوانٍ، لا عرضاً في أسبوع.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
     ],
     mockupKey: "marketingPerformance",
@@ -1249,7 +1249,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES CEO ET PROPRIÉTAIRES",
     headline: "Votre pire site est invisible jusqu'au récap du jeudi.",
     subhead:
-      "Sundae Intelligence délivre des briefings IA quotidiens sur chaque marque et chaque établissement - la vérité du portefeuille arrive le matin, pas à la revue hebdo.",
+      "Ask Sundae délivre des briefings IA quotidiens sur chaque marque et chaque établissement - la vérité du portefeuille arrive le matin, pas à la revue hebdo.",
     todayTitle: "Aujourd'hui",
     todayPoints: [
       "Le récap portefeuille arrive le mercredi.",
@@ -1273,7 +1273,7 @@ const fr: SolutionsContent = {
         iconKey: "compass",
         title: "Briefings exécutifs quotidiens",
         body: "Synthèses écrites par IA sur chaque marque et chaque site. Ce qui a changé, pourquoi, et quoi en faire.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
       {
         iconKey: "briefcase",
@@ -1339,7 +1339,7 @@ const fr: SolutionsContent = {
         iconKey: "target",
         title: "Q&R conversationnel sur les campagnes",
         body: "Demandez à Sundae quelle campagne a porté votre meilleur samedi - réponse sourcée en secondes, pas un deck en une semaine.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
     ],
     mockupKey: "marketingPerformance",
@@ -1801,7 +1801,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA CEOS Y DUEÑOS",
     headline: "Tu peor local es invisible hasta el resumen del jueves.",
     subhead:
-      "Sundae Intelligence entrega briefings diarios con IA en cada marca y cada local - la verdad del portafolio llega en la mañana, no en la revisión semanal.",
+      "Ask Sundae entrega briefings diarios con IA en cada marca y cada local - la verdad del portafolio llega en la mañana, no en la revisión semanal.",
     todayTitle: "Hoy",
     todayPoints: [
       "El resumen semanal del portafolio llega el miércoles.",
@@ -1825,7 +1825,7 @@ const es: SolutionsContent = {
         iconKey: "compass",
         title: "Briefings ejecutivos diarios",
         body: "Resúmenes escritos por IA en cada marca y cada local. Qué cambió, por qué, y qué hacer al respecto.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
       {
         iconKey: "briefcase",
@@ -1891,7 +1891,7 @@ const es: SolutionsContent = {
         iconKey: "target",
         title: "Q&A conversacional sobre campañas",
         body: "Pregúntale a Sundae qué campaña impulsó tu mejor sábado - respuesta con fuente en segundos, no un deck en una semana.",
-        intelLayer: "Sundae Intelligence",
+        intelLayer: "Ask Sundae",
       },
     ],
     mockupKey: "marketingPerformance",

@@ -222,7 +222,7 @@ function computeEconomics(
   // of `bandedMonthlyTotal` — we never multiply a flat per-location rate.
   const corePackage = CORE_PACKAGES_BY_ID[pickCorePackage(responses, outlets)];
   const coreQuote = bandedMonthlyTotal(corePackage, outlets);
-  let monthly = coreQuote.monthlyTotal;   // Core includes Sundae Intelligence (NL-to-SQL)
+  let monthly = coreQuote.monthlyTotal;   // Core includes Ask Sundae (NL-to-SQL)
 
   // Above the published band ceiling (100 locations) the marginal rate is not
   // published, so we must not extrapolate a number at all.
@@ -273,15 +273,15 @@ function computeEconomics(
   const currentHigh = peopleMonthly > 0 ? softwareMonthly + peopleMonthly : softwareMonthly * 1.25;
 
   const spendBasis = budgetAnnual
-    ? `≈ ${money(softwareMonthly)}/mo of consolidatable software (the BI, scheduling, reporting & payroll-readiness slice of your ~${money(budgetMonthly)}/mo ops-tech spend)${peopleMonthly > 0 ? ` plus ~${fte} FTE of in-house reporting time Sundae frees (≈ ${money(peopleMonthly)}/mo loaded)` : ` (you flagged no dedicated reporting headcount)`}. Loaded and directional — never a quote.`
+    ? `≈ ${money(softwareMonthly)}/mo of consolidatable software (the BI, scheduling, reporting & payroll-readiness slice of your ~${money(budgetMonthly)}/mo ops-tech spend)${peopleMonthly > 0 ? ` plus ~${fte} FTE of in-house reporting time Sundae frees (≈ ${money(peopleMonthly)}/mo loaded)` : ` (you flagged no dedicated reporting headcount)`}. Loaded and directional - never a quote.`
     : `≈ ${money(softwareMonthly)}/mo of consolidatable software across ~${outlets} outlet${outlets === 1 ? "" : "s"} (BI, scheduling, reporting)${peopleMonthly > 0 ? ` plus ~${fte} FTE of in-house reporting time (≈ ${money(peopleMonthly)}/mo loaded)` : ""}. Add your SaaS spend for a tighter figure.`;
 
   // Honest net comparison: investment point-estimate vs. loaded current spend.
   const net = monthly <= currentLow
-    ? `Net lower than today's loaded spend by ~${money(currentLow - monthly)}/mo — before any margin gain.`
+    ? `Net lower than today's loaded spend by ~${money(currentLow - monthly)}/mo - before any margin gain.`
     : monthly <= currentHigh
-      ? `Roughly comparable to today's loaded spend — for one consolidated platform with materially more capability.`
-      : `≈ +${money(monthly - currentHigh)}/mo over today's loaded spend — for a single platform that replaces your tooling and frees analyst time, before the EBITDA return below.`;
+      ? `Roughly comparable to today's loaded spend - for one consolidated platform with materially more capability.`
+      : `≈ +${money(monthly - currentHigh)}/mo over today's loaded spend - for a single platform that replaces your tooling and frees analyst time, before the EBITDA return below.`;
 
   const currentSpend = {
     range: `${money(currentLow)}-${money(currentHigh)} / mo`,
@@ -318,7 +318,7 @@ function computeEconomics(
       }
     : {
         range: `${money(monthly * 0.85)}-${money(monthly * 1.2)} / mo`,
-        basis: `${costBasis}, across ~${outlets} outlet${outlets === 1 ? "" : "s"} — ${usd(monthly)}/mo at list, a ${usd(coreQuote.blendedAveragePerUnit)} blended average per location on the Core line (an average of the total, not a per-location rate). Indicative list pricing, a starting footprint, not a quote.${expansionNote}`,
+        basis: `${costBasis}, across ~${outlets} outlet${outlets === 1 ? "" : "s"} - ${usd(monthly)}/mo at list, a ${usd(coreQuote.blendedAveragePerUnit)} blended average per location on the Core line (an average of the total, not a per-location rate). Indicative list pricing, a starting footprint, not a quote.${expansionNote}`,
       };
 
   return {
@@ -494,7 +494,7 @@ export function runDiagnostic(
   if (has(responses.decision_data, "spreadsheet") || has(responses.decision_data, "pos_report") || has(responses.decision_data, "bi_dashboard") || has(responses.decision_data, "in_house_data")) {
     recommendedStack.push({
       layer: "intelligence",
-      label: "Sundae Intelligence",
+      label: "Ask Sundae",
       detail: "Ask-your-data NL → SQL with source citations",
       why: "Replaces the spreadsheet-pull → analyst → answer loop with sub-minute, sourced answers.",
     });
