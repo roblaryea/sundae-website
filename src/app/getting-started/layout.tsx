@@ -18,7 +18,7 @@ const copy = {
   fr: {
     title: "Bien démarrer",
     description:
-      "Comment se déroule réellement un déploiement Sundae : dimensionnez un package Core selon vos sites, connectez vos systèmes POS et main-d'oeuvre, et agissez sur les chiffres dès le premier mois.",
+      "Comment se déroule réellement un déploiement Sundae : dimensionnez un package Core selon vos sites, connectez vos systèmes POS et main-d'œuvre, et agissez sur les chiffres dès le premier mois.",
   },
   es: {
     title: "Primeros pasos",

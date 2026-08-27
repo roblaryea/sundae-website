@@ -177,7 +177,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
     },
     cta: {
       title: "Arrêtez de regarder la marge fuir. Commencez à mesurer la récupération.",
-      description: "Trente minutes pour regarder vos donnees ensemble et voir si Sundae peut vraiment aider votre equipe.",
+      description: "Trente minutes pour regarder vos données ensemble et voir si Sundae peut vraiment aider votre équipe.",
       primary: "Réserver une démo",
       secondary: "Explorer les produits",
     },

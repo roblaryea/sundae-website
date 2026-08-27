@@ -4,8 +4,8 @@
 export const generatedWebsiteMessageOverrides = {
   "de": {
     "metadata": {
-      "title": "Sundae - Entscheidungsintelligenz für Restaurants",
-      "description": "Die KI-Plattform, die Restaurantdaten in Aktionen umwandelt - vereinheitlichen Sie POS-, Arbeits-, Kosten- und Betriebsdaten, um die Leistung zu benchmarken und sofortige Einblicke zu erhalten."
+      "title": "Sundae - Entscheidungsintelligenz, die Gewinne für die Gastronomie zurückholt",
+      "description": "Die Entscheidungsintelligenz-Plattform für die Gastronomie mit mehreren Standorten - Sundae findet das Margenleck, leitet die Korrektur an einen zuständigen Verantwortlichen weiter und misst den zurückgewonnenen Gewinn gegen einen Ausgangswert."
     },
     "layout": {
       "skipToContent": "Zum Hauptinhalt springen",
@@ -775,8 +775,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "nl": {
     "metadata": {
-      "title": "Sundae - Besluitvormingsintelligentie voor Restaurants",
-      "description": "Het AI-platform dat restaurantdata omzet in actie - verenig POS-, arbeids-, kosten- en operationele gegevens om prestaties te benchmarken en directe inzichten te krijgen."
+      "title": "Sundae - Besluitvormingsintelligentie die winst terugwint voor de horeca",
+      "description": "Het besluitvormingsintelligentie-platform voor horeca met meerdere vestigingen - Sundae vindt het margelek, wijst de oplossing toe aan een verantwoordelijke eigenaar en meet de teruggewonnen winst af tegen een basislijn."
     },
     "layout": {
       "skipToContent": "Overslaan naar hoofdinhoud",
@@ -1546,8 +1546,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "pt": {
     "metadata": {
-      "title": "Sundae - Inteligência de Decisão para Restaurantes",
-      "description": "A plataforma de IA que transforma dados de restaurantes em ações - unifique dados de POS, mão de obra, custos e operações para avaliar o desempenho e obter insights instantâneos."
+      "title": "Sundae - Inteligência de decisão que recupera o lucro para serviços de alimentação",
+      "description": "A plataforma de inteligência de decisão para serviços de alimentação com múltiplas unidades - o Sundae encontra o vazamento de margem, encaminha a correção a um responsável designado e mede o lucro que você recupera em relação a uma linha de base."
     },
     "layout": {
       "skipToContent": "Pular para o conteúdo principal",
@@ -2317,8 +2317,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "hi": {
     "metadata": {
-      "title": "Sundae - रेस्तरां के लिए निर्णय बुद्धिमत्ता",
-      "description": "AI प्लेटफ़ॉर्म जो रेस्तरां के डेटा को कार्रवाई में बदलता है - POS, श्रम, लागत, और संचालन डेटा को एकीकृत करें ताकि प्रदर्शन का मानक स्थापित किया जा सके और तात्कालिक अंतर्दृष्टि प्राप्त की जा सके।"
+      "title": "Sundae - खाद्य सेवा के लिए मुनाफ़ा वापस लाने वाली निर्णय बुद्धिमत्ता",
+      "description": "बहु-स्थान खाद्य सेवा के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म - Sundae मार्जिन लीक का पता लगाता है, समाधान को एक जवाबदेह ज़िम्मेदार व्यक्ति को सौंपता है, और आपके द्वारा वापस पाए गए मुनाफ़े को एक आधार रेखा के मुक़ाबले मापता है।"
     },
     "layout": {
       "skipToContent": "मुख्य सामग्री पर जाएं",
@@ -3088,8 +3088,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ur": {
     "metadata": {
-      "title": "Sundae - ریستورانوں کے لیے فیصلہ سازی کی ذہانت",
-      "description": "AI پلیٹ فارم جو ریستوران کے ڈیٹا کو عمل میں تبدیل کرتا ہے - POS، مزدوری، لاگت، اور آپریشنل ڈیٹا کو یکجا کریں تاکہ کارکردگی کا معیار طے کریں اور فوری بصیرت حاصل کریں۔"
+      "title": "Sundae - فوڈ سروس کے لیے منافع واپس لانے والی فیصلہ سازی کی ذہانت",
+      "description": "متعدد مقامات کی فوڈ سروس کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم - Sundae مارجن لیک کا پتا لگاتا ہے، اصلاح کو ایک جواب دہ ذمہ دار کے سپرد کرتا ہے، اور آپ کے بازیافت کردہ منافع کو ایک بنیادی معیار کے مقابلے میں ماپتا ہے۔"
     },
     "layout": {
       "skipToContent": "اہم مواد پر جائیں",
@@ -3859,8 +3859,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "it": {
     "metadata": {
-      "title": "Sundae - Intelligenza Decisionale per Ristoranti",
-      "description": "La piattaforma AI che trasforma i dati dei ristoranti in azioni - unifica i dati POS, di lavoro, di costo e operativi per valutare le performance e ottenere intuizioni immediate."
+      "title": "Sundae - Intelligenza decisionale che recupera i profitti per la ristorazione",
+      "description": "La piattaforma di intelligenza decisionale per la ristorazione multi-sede - Sundae individua la falla di margine, affida la correzione a un responsabile designato e misura il profitto recuperato rispetto a una linea di base."
     },
     "layout": {
       "skipToContent": "Salta al contenuto principale",
@@ -4630,8 +4630,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "pl": {
     "metadata": {
-      "title": "Sundae - Inteligencja Decyzyjna dla Restauracji",
-      "description": "Platforma AI, która przekształca dane restauracyjne w działania - zjednocz dane POS, pracownicze, koszty i operacyjne, aby ocenić wydajność i uzyskać natychmiastowe spostrzeżenia."
+      "title": "Sundae - Inteligencja decyzyjna, która odzyskuje zysk dla gastronomii",
+      "description": "Platforma inteligencji decyzyjnej dla gastronomii wielolokalowej - Sundae wykrywa wyciek marży, kieruje naprawę do odpowiedzialnej osoby i mierzy odzyskany zysk względem punktu odniesienia."
     },
     "layout": {
       "skipToContent": "Przejdź do głównej treści",
@@ -5401,8 +5401,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "tr": {
     "metadata": {
-      "title": "Sundae - Restoranlar için Karar Zekası",
-      "description": "Restoran verilerini eyleme dönüştüren AI platformu - POS, iş gücü, maliyet ve operasyonel verileri birleştirerek performansı kıyaslayın ve anında içgörüler elde edin."
+      "title": "Sundae - Yeme-içme sektörü için kârı geri kazandıran Karar Zekası",
+      "description": "Çok şubeli yeme-içme sektörü için karar zekası platformu - Sundae kâr marjı sızıntısını bulur, düzeltmeyi hesap verebilir bir sorumluya yönlendirir ve geri kazandığınız kârı bir referans değere göre ölçer."
     },
     "layout": {
       "skipToContent": "Ana içeriğe atla",
@@ -6172,8 +6172,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "zh-Hans": {
     "metadata": {
-      "title": "Sundae - 餐厅决策智能",
-      "description": "将餐厅数据转化为行动的AI平台 - 统一POS、劳动力、成本和运营数据，以基准性能并获得即时洞察。"
+      "title": "Sundae--为餐饮行业挽回利润的决策智能",
+      "description": "面向多门店餐饮的决策智能平台--Sundae 找出毛利漏损，将修复动作分派给负责到底的责任人，并对照基准线衡量你挽回的利润。"
     },
     "layout": {
       "skipToContent": "跳到主要内容",
@@ -6943,8 +6943,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ja": {
     "metadata": {
-      "title": "Sundae - レストランのための意思決定インテリジェンス",
-      "description": "レストランデータをアクションに変えるAIプラットフォーム - POS、労働、コスト、運用データを統合してパフォーマンスをベンチマークし、瞬時にインサイトを得る。"
+      "title": "Sundae--外食向けに利益を取り戻す意思決定インテリジェンス",
+      "description": "多店舗の外食向け意思決定インテリジェンス・プラットフォーム--Sundae は利益の漏れを見つけ、対策を説明責任を負う担当者に割り当て、取り戻した利益をベースラインと比較して測定します。"
     },
     "layout": {
       "skipToContent": "メインコンテンツにスキップ",
@@ -7714,8 +7714,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ko": {
     "metadata": {
-      "title": "Sundae - 레스토랑을 위한 의사결정 인텔리전스",
-      "description": "레스토랑 데이터를 행동으로 전환하는 AI 플랫폼 - POS, 인력, 비용 및 운영 데이터를 통합하여 성과를 벤치마킹하고 즉각적인 통찰력을 얻으세요."
+      "title": "Sundae - 외식업의 수익을 회복하는 의사결정 인텔리전스",
+      "description": "다점포 외식업을 위한 의사결정 인텔리전스 플랫폼 - Sundae는 마진 누수를 찾아내고, 해결책을 책임 담당자에게 배정하며, 회복한 수익을 기준선과 비교해 측정합니다."
     },
     "layout": {
       "skipToContent": "주 콘텐츠로 건너뛰기",
@@ -8485,8 +8485,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "id": {
     "metadata": {
-      "title": "Sundae - Kecerdasan Keputusan untuk Restoran",
-      "description": "Platform AI yang mengubah data restoran menjadi tindakan - menyatukan data POS, tenaga kerja, biaya, dan operasional untuk membandingkan kinerja dan mendapatkan wawasan instan."
+      "title": "Sundae - Kecerdasan Keputusan yang memulihkan laba untuk layanan makanan",
+      "description": "Platform kecerdasan keputusan untuk layanan makanan multi-lokasi - Sundae menemukan kebocoran margin, mengarahkan perbaikan ke penanggung jawab yang akuntabel, dan mengukur laba yang Anda pulihkan terhadap garis dasar."
     },
     "layout": {
       "skipToContent": "Lewati ke konten utama",
@@ -9256,8 +9256,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "vi": {
     "metadata": {
-      "title": "Sundae - Trí tuệ quyết định cho nhà hàng",
-      "description": "Nền tảng AI biến dữ liệu nhà hàng thành hành động - hợp nhất dữ liệu POS, lao động, chi phí và hoạt động để đánh giá hiệu suất và nhận thông tin ngay lập tức."
+      "title": "Sundae - Trí tuệ quyết định giúp phục hồi lợi nhuận cho dịch vụ ăn uống",
+      "description": "Nền tảng trí tuệ quyết định cho dịch vụ ăn uống đa điểm - Sundae phát hiện rò rỉ biên lợi nhuận, giao việc khắc phục cho một người chịu trách nhiệm, và đo lường lợi nhuận bạn thu hồi so với đường cơ sở."
     },
     "layout": {
       "skipToContent": "Bỏ qua nội dung chính",
@@ -10027,8 +10027,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ro": {
     "metadata": {
-      "title": "Sundae - Inteligență Decizională pentru Restaurante",
-      "description": "Platforma AI care transformă datele restaurantelor în acțiune - unifică datele POS, de muncă, costurile și cele operaționale pentru a evalua performanța și a obține informații instantanee."
+      "title": "Sundae - Inteligență decizională care recuperează profitul pentru food-service",
+      "description": "Platforma de inteligență decizională pentru food-service cu mai multe locații - Sundae găsește scurgerea de marjă, direcționează remedierea către un responsabil desemnat și măsoară profitul recuperat față de o valoare de referință."
     },
     "layout": {
       "skipToContent": "Sari la conținutul principal",
@@ -10798,8 +10798,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "sv": {
     "metadata": {
-      "title": "Sundae - Beslutsintelligens för Restauranger",
-      "description": "AI-plattformen som omvandlar restaurangdata till handling - förena POS, arbetskraft, kostnader och driftsdata för att jämföra prestanda och få omedelbara insikter."
+      "title": "Sundae - Beslutsintelligens som återvinner vinst för restaurangbranschen",
+      "description": "Beslutsintelligensplattformen för restaurangverksamheter med flera enheter - Sundae hittar marginalläckan, skickar åtgärden till en ansvarig ägare och mäter den återvunna vinsten mot en baslinje."
     },
     "layout": {
       "skipToContent": "Hoppa till huvudinnehåll",
@@ -11569,8 +11569,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "bn": {
     "metadata": {
-      "title": "Sundae - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা",
-      "description": "এটি একটি AI প্ল্যাটফর্ম যা রেস্তোরাঁর ডেটাকে কার্যকরীতে রূপান্তরিত করে - POS, শ্রম, খরচ এবং অপারেশনাল ডেটাকে একত্রিত করে পারফরম্যান্সের মান নির্ধারণ করুন এবং তাত্ক্ষণিক অন্তর্দৃষ্টি পান।"
+      "title": "Sundae - খাদ্য পরিষেবার জন্য মুনাফা পুনরুদ্ধারকারী সিদ্ধান্ত বুদ্ধিমত্তা",
+      "description": "বহু-শাখার খাদ্য পরিষেবার জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম - Sundae মার্জিন লিক খুঁজে বের করে, সমাধানটি একজন জবাবদিহি দায়িত্বশীল ব্যক্তির কাছে পাঠায়, এবং আপনি যে মুনাফা পুনরুদ্ধার করেন তা একটি ভিত্তিরেখার বিপরীতে পরিমাপ করে।"
     },
     "layout": {
       "skipToContent": "মুখ্য বিষয়বস্তুতে যান",
@@ -12340,8 +12340,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "th": {
     "metadata": {
-      "title": "Sundae - ปัญญาประดิษฐ์ในการตัดสินใจสำหรับร้านอาหาร",
-      "description": "แพลตฟอร์ม AI ที่เปลี่ยนข้อมูลร้านอาหารให้เป็นการกระทำ - รวมข้อมูล POS, แรงงาน, ต้นทุน และข้อมูลการดำเนินงานเพื่อเปรียบเทียบประสิทธิภาพและรับข้อมูลเชิงลึกทันที."
+      "title": "Sundae - ปัญญาประดิษฐ์ในการตัดสินใจที่กู้คืนกำไรสำหรับธุรกิจบริการอาหาร",
+      "description": "แพลตฟอร์มปัญญาประดิษฐ์ในการตัดสินใจสำหรับธุรกิจบริการอาหารหลายสาขา - Sundae ค้นหาจุดรั่วไหลของมาร์จิน มอบหมายการแก้ไขให้ผู้รับผิดชอบที่ตรวจสอบได้ และวัดกำไรที่คุณกู้คืนเทียบกับเส้นฐาน"
     },
     "layout": {
       "skipToContent": "ข้ามไปยังเนื้อหาหลัก",
@@ -13111,8 +13111,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ms": {
     "metadata": {
-      "title": "Sundae - Kecerdasan Keputusan untuk Restoran",
-      "description": "Platform AI yang mengubah data restoran menjadi tindakan - menyatukan data POS, tenaga kerja, kos, dan operasi untuk menilai prestasi dan mendapatkan pandangan segera."
+      "title": "Sundae - Kecerdasan Keputusan yang memulihkan keuntungan untuk perkhidmatan makanan",
+      "description": "Platform kecerdasan keputusan untuk perkhidmatan makanan berbilang lokasi - Sundae mengesan kebocoran margin, menyalurkan pembetulan kepada pemilik yang bertanggungjawab, dan mengukur keuntungan yang anda pulihkan berbanding garis dasar."
     },
     "layout": {
       "skipToContent": "Lompat ke kandungan utama",

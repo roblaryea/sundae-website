@@ -38,13 +38,13 @@ export const coreCreamCopy: Record<string, CoreCreamCopy> = {
   },
   fr: {
     eyebrow: 'LE POSTE DE PILOTAGE',
-    statement: 'Une seule surface pour *toute* votre activite.',
+    statement: 'Une seule surface pour *toute* votre activité.',
     lede: "Pulse, benchmarks, analytics et IA - le quotidien de l'exploitant en un seul endroit.",
   },
   es: {
     eyebrow: 'EL CENTRO DE MANDO',
     statement: 'Una sola pantalla para *todo* el negocio.',
-    lede: 'Pulse, benchmarks, analitica e IA - la base diaria del operador.',
+    lede: 'Pulse, benchmarks, analítica e IA - la base diaria del operador.',
   },
   de: {
     eyebrow: 'DIE KOMMANDOZENTRALE',

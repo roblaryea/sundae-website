@@ -35,14 +35,14 @@ export const benchmarkingCreamCopy: Record<string, BenchmarkingCreamCopy> = {
     lede: 'مقارنات نظراء مجهولة عبر أكثر من 30 مقياسًا، تتحدث مع نمو الشبكة.',
   },
   fr: {
-    eyebrow: 'SACHEZ OU VOUS EN ETES',
-    statement: 'Sachez ou vous en etes - *face* au marche, pas a une supposition.',
-    lede: 'Benchmarks anonymes de pairs sur plus de 30 metriques, actualises avec la croissance du reseau.',
+    eyebrow: 'SACHEZ OÙ VOUS EN ÊTES',
+    statement: 'Sachez où vous en êtes - *face* au marché, pas à une supposition.',
+    lede: 'Benchmarks anonymes de pairs sur plus de 30 métriques, actualisés avec la croissance du réseau.',
   },
   es: {
-    eyebrow: 'SABE DONDE ESTAS',
-    statement: 'Sabe donde estas - *frente* al mercado, no a una suposicion.',
-    lede: 'Benchmarks anonimos de pares en mas de 30 metricas, actualizados a medida que crece la red.',
+    eyebrow: 'SABE DÓNDE ESTÁS',
+    statement: 'Sabe dónde estás - *frente* al mercado, no a una suposición.',
+    lede: 'Benchmarks anónimos de pares en más de 30 métricas, actualizados a medida que crece la red.',
   },
   de: {
     eyebrow: 'WISSEN, WO SIE STEHEN',

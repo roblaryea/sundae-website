@@ -238,7 +238,7 @@ const Navbar = () => {
           {/* Inner flex span: `nav a { display:inline-block }` (accessibility.css,
               unlayered) overrides Tailwind's flex on the anchor itself, so the
               mark + wordmark lockup must flex on a child element. */}
-          <Link href={localizeHref('/')} className="group" aria-label="Sundae - Decision Intelligence for Restaurants">
+          <Link href={localizeHref('/')} className="group" aria-label="Sundae - Decision Intelligence for Food-Service">
             <span
               className="flex items-center gap-2.5"
               onMouseEnter={() => setIsLogoHovered(true)}

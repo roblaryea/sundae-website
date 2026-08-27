@@ -272,7 +272,7 @@ export const generatedLocalCopy = {
         {
           "type": "Labor Cost Alert",
           "location": "Emplacement du centre-ville",
-          "message": "Le coût de la main-d’oeuvre est 12% au-dessus du benchmark pour des restaurants similaires. Correction recommandée : rééquilibrer le planning - confiée au responsable du point de vente, avec la marge de main-d’oeuvre récupérée mesurée par rapport à la référence de la semaine dernière.",
+          "message": "Le coût de la main-d’œuvre est 12% au-dessus du benchmark pour des restaurants similaires. Correction recommandée : rééquilibrer le planning - confiée au responsable du point de vente, avec la marge de main-d’œuvre récupérée mesurée par rapport à la référence de la semaine dernière.",
           "severity": "avertissement",
           "action": "Calendrier de révision",
           "icon": "warning"

@@ -69,7 +69,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
     vertices: [
       { label: "Vitesse", headline: "Déployez en jours. Récupérez dès le premier jour.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Sundae Intelligence répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
       { label: "Qualité", headline: "Conçu pour la restauration. Gouverné pour la récupération.", body: "Sundae livre 500+ modèles de données de restauration gouvernés, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["500+ modèles", "IA sourcée", "Benchmarks pairs"] },
-      { label: "Coût", headline: "Moins cher que reconstruire la BI autour de la restauration.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt pour la restauration dès le premier jour : une offre, onze modules metier, aucun chantier BI.", chips: ["Une seule offre", "Moins de BI custom", "Moins d'analystes"] },
+      { label: "Coût", headline: "Moins cher que reconstruire la BI autour de la restauration.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt pour la restauration dès le premier jour : une offre, onze modules métier, aucun chantier BI.", chips: ["Une seule offre", "Moins de BI custom", "Moins d'analystes"] },
     ],
   },
   es: {

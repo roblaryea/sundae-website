@@ -182,7 +182,7 @@ const aboutCopy = {
     missionDescription: "Les opérateurs multi-sites gèrent des activités complexes et volumineuses à travers des dizaines de systèmes déconnectés. Résultat: des décisions à plusieurs millions prises à l'intuition, des fuites de marge invisibles trop longtemps et aucun contexte marché pour benchmarker.",
     missionSupport: "Nous avons construit Sundae parce que nous avons vécu cette réalité sur le terrain. Notre fondateur a développé des concepts restaurant au-delà de 10 M$ de revenus annuels et a retrouvé le même blocage partout : trop de silos de données, pas assez de clarté pour décider vite et bien.",
     missionSteps: [
-      { title: "Unifier 12+ sources", description: "POS, main-d'oeuvre, stock, livraison, réservations, achats, marketing - une couche intelligente au lieu de douze onglets." },
+      { title: "Unifier 12+ sources", description: "POS, main-d'œuvre, stock, livraison, réservations, achats, marketing - une couche intelligente au lieu de douze onglets." },
       { title: "Benchmarker le marché", description: "Votre coût matière à 31% est-il bon ou mauvais ? Sans contexte pair, impossible à savoir. Sundae ajoute l'intelligence concurrentielle à chaque métrique." },
       { title: "Décider avec confiance", description: "Intelligence temps réel, recommandations IA et prévisions - pour décider avec des données, pas au hasard." },
     ],
@@ -213,7 +213,7 @@ const aboutCopy = {
     milestones: [
       { year: "2025", title: "Fondation de Sundae", description: "Née d'une douleur opérateur directe - des données fragmentées coûtant des millions en marge invisible." },
       { year: "2025", title: "Premiers déploiements", description: "Partenariats avec des groupes multi-marques aux Émirats arabes unis. Vraies données, vrais opérateurs, vraies décisions dès le premier jour." },
-      { year: "2026", title: "12 modules en ligne", description: "Intelligence revenus, main-d'oeuvre, stock, livraison, réservations, achats, marketing et profit - unifiée sur 12 domaines." },
+      { year: "2026", title: "12 modules en ligne", description: "Intelligence revenus, main-d'œuvre, stock, livraison, réservations, achats, marketing et profit - unifiée sur 12 domaines." },
       { year: "2026", title: "GCC et Amérique du Nord", description: "Des groupes hospitality adoptent Sundae à l'échelle plateforme aux Émirats, en KSA, au Qatar et en Amérique du Nord." },
       { year: "2027+", title: "Expansion mondiale", description: "Expansion vers l'Europe et l'Asie-Pacifique. Intelligence enterprise pour marques multi-pays." },
     ],

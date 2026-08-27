@@ -357,6 +357,35 @@ export const generatedLocalCopy = {
       }
     },
     "de": {
+      "proof": {
+        "eyebrow": "SO WISSEN SIE, DASS ES ECHT IST",
+        "heading": "Rückgewinnung behaupten kann jeder. Sundae lässt Sie es überprüfen.",
+        "description": "Eine zurückgewonnene Zahl verdient nur dann Vertrauen, wenn Sie sehen können, ob sie wirklich zustande kam. Sundae beantwortet die drei Fragen, die ein sorgfältiger Betreiber - oder sein CFO - immer stellt.",
+        "items": [
+          {
+            "question": "Schließt sich der Regelkreis wirklich?",
+            "title": "Zustand des Regelkreises",
+            "desc": "Sehen Sie, wie viele erkannte Lecks tatsächlich zu einem gemessenen Ergebnis führen - die echte Abschlussquote, keine Schönfärberei. Es ist die eine Zahl, die zeigt, dass der Regelkreis funktioniert, und sie bleibt ehrlich, auch wenn sie niedrig ist.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Wäre das ohnehin passiert?",
+            "title": "Vergleichbare Basislinien",
+            "desc": "Jede zurückgewonnene Zahl wird gegen eine passende Basislinie über eine volle Woche gemessen - dieselben Tage, derselbe Rhythmus - damit ein echter Gewinn nie mit einer bloß geschäftigen Woche verwechselt wird.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Hat es sich bezahlt gemacht?",
+            "title": "Rendite auf Sundae",
+            "desc": "Sehen Sie den zurückgewonnenen Wert im Verhältnis zu dem, was Sie zahlen, Periode für Periode - der Beweis, in gemessenem Geld, dass Sundae seine Kosten mehr als deckt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Und wenn der Beleg fehlt, sagt Sundae das offen. Jedes Ergebnis bleibt richtungweisend, bis ein Mensch es bestätigt, und ein Detektor schweigt lieber, als eine Zahl zu erfinden."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core findet das Margen-Leck, übergibt die Korrektur an einen benannten Verantwortlichen und misst die zurückgewonnene Marge gegen eine Basislinie.",
@@ -535,6 +564,35 @@ export const generatedLocalCopy = {
       }
     },
     "nl": {
+      "proof": {
+        "eyebrow": "ZO WEET U DAT HET ECHT IS",
+        "heading": "Herstel claimen kan iedereen. Sundae laat u het controleren.",
+        "description": "Een teruggewonnen bedrag is pas te vertrouwen als u kunt zien of het echt is gebeurd. Sundae beantwoordt de drie vragen die een zorgvuldige operator - of zijn CFO - altijd stelt.",
+        "items": [
+          {
+            "question": "Sluit de lus zich echt?",
+            "title": "Gezondheid van de lus",
+            "desc": "Zie hoeveel gedetecteerde lekken daadwerkelijk tot een gemeten resultaat komen - het echte sluitingspercentage, geen cijfer voor de bühne. Het is het ene getal dat laat zien dat de lus werkt, en het blijft eerlijk als dat getal laag is.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Was dat toch al gebeurd?",
+            "title": "Gelijkwaardige basislijnen",
+            "desc": "Elk teruggewonnen bedrag wordt gemeten tegen een overeenkomende basislijn over een volledige week - dezelfde dagen, hetzelfde ritme - zodat echte winst nooit wordt verward met een gewoon drukke week.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Heeft het zichzelf terugverdiend?",
+            "title": "Rendement op Sundae",
+            "desc": "Zie de teruggewonnen waarde afgezet tegen wat u betaalt, periode na periode - het bewijs, in gemeten geld, dat Sundae zijn kosten ruimschoots dekt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "En als het bewijs er niet is, zegt Sundae dat. Elk resultaat blijft indicatief totdat een mens het bevestigt, en een detector zwijgt liever dan een getal te verzinnen."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core vindt het margelek, wijst de oplossing toe aan een benoemde eigenaar en meet de teruggewonnen marge af tegen een basislijn.",
@@ -890,6 +948,35 @@ export const generatedLocalCopy = {
       }
     },
     "pt": {
+      "proof": {
+        "eyebrow": "COMO VOCÊ SABE QUE É REAL",
+        "heading": "Qualquer um pode alegar recuperação. A Sundae deixa você conferir.",
+        "description": "Um valor recuperado só merece confiança se você consegue ver se ele realmente aconteceu. A Sundae responde às três perguntas que um operador cuidadoso - ou o seu CFO - sempre faz.",
+        "items": [
+          {
+            "question": "O ciclo está mesmo fechando?",
+            "title": "Saúde do ciclo",
+            "desc": "Veja quantos vazamentos detectados realmente chegam a um resultado medido - a taxa real de fechamento, não uma contagem de fachada. É o único número que mostra que o ciclo está funcionando, e ele continua honesto quando esse número é baixo.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Isso teria acontecido de qualquer forma?",
+            "title": "Bases comparáveis",
+            "desc": "Cada valor recuperado é medido contra uma base equivalente de uma semana inteira - os mesmos dias, o mesmo ritmo - para que um ganho real nunca seja confundido com uma semana apenas movimentada.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Ele se pagou?",
+            "title": "Retorno sobre a Sundae",
+            "desc": "Veja o valor que você recuperou frente ao que paga, período a período - a prova, em dinheiro medido, de que a Sundae cobre bem mais que o seu custo.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "E quando a evidência não está lá, a Sundae diz isso. Todo resultado permanece direcional até que uma pessoa o confirme, e um detector prefere ficar em silêncio a inventar um número."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core encontra o vazamento de margem, encaminha a correção a um responsável nomeado e mede a margem recuperada em relação a uma linha de base.",
@@ -1068,6 +1155,35 @@ export const generatedLocalCopy = {
       }
     },
     "it": {
+      "proof": {
+        "eyebrow": "COME SAI CHE È REALE",
+        "heading": "Chiunque può dichiarare un recupero. Sundae ti fa verificare.",
+        "description": "Un valore recuperato merita fiducia solo se puoi vedere se è davvero accaduto. Sundae risponde alle tre domande che un operatore attento - o il suo CFO - si pone sempre.",
+        "items": [
+          {
+            "question": "Il ciclo si sta davvero chiudendo?",
+            "title": "Salute del ciclo",
+            "desc": "Guarda quante perdite rilevate arrivano davvero a un risultato misurato - il vero tasso di chiusura, non un numero di facciata. È l'unico dato che ti dice che il ciclo funziona, e resta onesto anche quando quel numero è basso.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Sarebbe successo comunque?",
+            "title": "Basi di confronto equivalenti",
+            "desc": "Ogni valore recuperato è misurato rispetto a una base equivalente su una settimana intera - stessi giorni, stesso ritmo - così un guadagno reale non viene mai scambiato per una semplice settimana intensa.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Si è ripagato da solo?",
+            "title": "Ritorno su Sundae",
+            "desc": "Guarda il valore recuperato messo a confronto con quello che paghi, periodo per periodo - la prova, in denaro misurato, che Sundae copre ampiamente il suo costo.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "E quando la prova non c'è, Sundae lo dice. Ogni risultato resta indicativo finché una persona non lo conferma, e un rilevatore preferisce tacere piuttosto che inventare un numero."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core trova la falla di margine, assegna la correzione a un responsabile con nome e misura il margine recuperato rispetto a una linea di base.",
@@ -1246,6 +1362,35 @@ export const generatedLocalCopy = {
       }
     },
     "hi": {
+      "proof": {
+        "eyebrow": "आपको कैसे पता चलेगा कि यह असली है",
+        "heading": "वसूली का दावा कोई भी कर सकता है। Sundae आपको जाँच करने देता है।",
+        "description": "वसूली गई राशि पर तभी भरोसा करना ठीक है जब आप देख सकें कि वह सचमुच हुई या नहीं। Sundae उन तीन सवालों का जवाब देता है जो एक सतर्क ऑपरेटर - या उसका CFO - हमेशा पूछता है।",
+        "items": [
+          {
+            "question": "क्या लूप सचमुच बंद हो रहा है?",
+            "title": "लूप की सेहत",
+            "desc": "देखें कि पकड़े गए कितने रिसाव असल में मापे गए नतीजे तक पहुँचते हैं - असली क्लोज़-रेट, दिखावे की गिनती नहीं। यही वह एक आँकड़ा है जो बताता है कि लूप काम कर रहा है, और यह आँकड़ा कम होने पर भी ईमानदार बना रहता है।",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "क्या यह वैसे भी हो जाता?",
+            "title": "समरूप आधार-रेखाएँ",
+            "desc": "हर वसूली गई राशि को एक मेल खाती, पूरे-हफ़्ते की आधार-रेखा के मुक़ाबले मापा जाता है - वही दिन, वही लय - ताकि असली बढ़त को कभी किसी आम व्यस्त हफ़्ते समझ न लिया जाए।",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "क्या इसने अपनी लागत निकाल दी?",
+            "title": "Sundae पर प्रतिफल",
+            "desc": "देखें कि आपने जो वसूला उसे आप जो चुकाते हैं उसके सामने रखकर, हर अवधि में - मापे गए पैसे में वह प्रमाण कि Sundae अपनी लागत से कहीं ज़्यादा वसूल कर देता है।",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "और जब प्रमाण मौजूद न हो, तो Sundae साफ़ कह देता है। हर नतीजा तब तक दिशा-सूचक भर रहता है जब तक कोई व्यक्ति उसकी पुष्टि न करे, और कोई डिटेक्टर आँकड़ा गढ़ने के बजाय चुप रहना बेहतर समझता है।"
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core मुनाफ़े का रिसाव ढूँढता है, सुधार को एक नामित जिम्मेदार व्यक्ति को सौंपता है, और वापस पाए गए मार्जिन को एक आधार रेखा के मुकाबले मापता है।",
@@ -1424,6 +1569,35 @@ export const generatedLocalCopy = {
       }
     },
     "ur": {
+      "proof": {
+        "eyebrow": "آپ کیسے جانیں گے کہ یہ حقیقی ہے",
+        "heading": "بازیابی کا دعویٰ کوئی بھی کر سکتا ہے۔ Sundae آپ کو جانچنے دیتا ہے۔",
+        "description": "بازیاب کیا گیا عدد صرف تب قابلِ اعتماد ہے جب آپ دیکھ سکیں کہ وہ واقعی ہوا یا نہیں۔ Sundae اُن تین سوالوں کا جواب دیتا ہے جو ایک محتاط آپریٹر - یا اُس کا CFO - ہمیشہ پوچھتا ہے۔",
+        "items": [
+          {
+            "question": "کیا لوپ واقعی بند ہو رہا ہے؟",
+            "title": "لوپ کی صحت",
+            "desc": "دیکھیں کہ پکڑے گئے کتنے رساؤ واقعی ایک ماپے گئے نتیجے تک پہنچتے ہیں - اصل کلوز-ریٹ، نہ کہ نمائشی گنتی۔ یہی وہ واحد عدد ہے جو بتاتا ہے کہ لوپ کام کر رہا ہے، اور یہ عدد کم ہونے پر بھی ایماندار رہتا ہے۔",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "کیا یہ ویسے بھی ہو جاتا؟",
+            "title": "مساوی بنیادی خطوط",
+            "desc": "ہر بازیاب کردہ عدد ایک ہم آہنگ، پورے ہفتے کے بنیادی خط کے مقابلے میں ماپا جاتا ہے - وہی دن، وہی تال - تاکہ کسی حقیقی منافع کو کبھی محض ایک عام مصروف ہفتہ نہ سمجھ لیا جائے۔",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "کیا اِس نے اپنی لاگت نکال دی؟",
+            "title": "Sundae پر منافع",
+            "desc": "دیکھیں کہ آپ نے جو بازیاب کیا اُسے اُس کے مقابل رکھیں جو آپ ادا کرتے ہیں، ہر مدت میں - ماپی گئی رقم میں وہ ثبوت کہ Sundae اپنی لاگت سے کہیں زیادہ پوری کر دیتا ہے۔",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "اور جب ثبوت موجود نہ ہو، تو Sundae صاف کہہ دیتا ہے۔ ہر نتیجہ اُس وقت تک محض سمتی رہتا ہے جب تک کوئی انسان اُس کی تصدیق نہ کرے، اور کوئی ڈٹیکٹر عدد گھڑنے کے بجائے خاموش رہنا بہتر سمجھتا ہے۔"
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core منافع کے رساؤ کو تلاش کرتا ہے، درستگی کو ایک نامزد ذمہ دار کے سپرد کرتا ہے، اور بازیافت شدہ مارجن کو ایک بنیادی خط کے مقابلے میں ماپتا ہے۔",
@@ -1602,6 +1776,35 @@ export const generatedLocalCopy = {
       }
     },
     "pl": {
+      "proof": {
+        "eyebrow": "SKĄD WIESZ, ŻE TO PRAWDA",
+        "heading": "Odzyskanie może zadeklarować każdy. Sundae pozwala to sprawdzić.",
+        "description": "Odzyskana kwota zasługuje na zaufanie tylko wtedy, gdy widzisz, czy naprawdę do niej doszło. Sundae odpowiada na trzy pytania, które zawsze zadaje uważny operator - albo jego CFO.",
+        "items": [
+          {
+            "question": "Czy pętla naprawdę się domyka?",
+            "title": "Kondycja pętli",
+            "desc": "Zobacz, ile wykrytych wycieków faktycznie kończy się zmierzonym wynikiem - realny wskaźnik domknięcia, a nie liczba na pokaz. To jedyna liczba, która mówi, że pętla działa, i pozostaje uczciwa, gdy ta liczba jest niska.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Czy i tak by się to wydarzyło?",
+            "title": "Porównywalne punkty odniesienia",
+            "desc": "Każda odzyskana kwota jest mierzona względem odpowiadającego, pełnotygodniowego punktu odniesienia - te same dni, ten sam rytm - żeby realnego zysku nigdy nie pomylić ze zwykłym ruchliwym tygodniem.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Czy to się zwróciło?",
+            "title": "Zwrot z Sundae",
+            "desc": "Zobacz odzyskaną wartość zestawioną z tym, co płacisz, okres po okresie - dowód, w zmierzonych pieniądzach, że Sundae z nadwyżką pokrywa swój koszt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "A gdy dowodów brakuje, Sundae to mówi. Każdy wynik pozostaje orientacyjny, dopóki nie potwierdzi go człowiek, a detektor woli milczeć, niż wymyślić liczbę."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core znajduje wyciek marży, kieruje poprawkę do wskazanego właściciela i mierzy odzyskaną marżę względem linii bazowej.",
@@ -1780,6 +1983,35 @@ export const generatedLocalCopy = {
       }
     },
     "tr": {
+      "proof": {
+        "eyebrow": "GERÇEK OLDUĞUNU NASIL ANLARSINIZ",
+        "heading": "Geri kazanımı herkes iddia edebilir. Sundae doğrulamanıza izin verir.",
+        "description": "Geri kazanılan bir rakam, gerçekten olup olmadığını görebiliyorsanız güvenmeye değerdir. Sundae, dikkatli bir işletmecinin - ya da CFO'sunun - her zaman sorduğu üç soruyu yanıtlar.",
+        "items": [
+          {
+            "question": "Döngü gerçekten kapanıyor mu?",
+            "title": "Döngü sağlığı",
+            "desc": "Tespit edilen kaçakların kaçının gerçekten ölçülmüş bir sonuca ulaştığını görün - gösteriş için bir sayı değil, gerçek kapanma oranı. Döngünün çalıştığını söyleyen tek sayıdır ve o sayı düşükken bile dürüst kalır.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Zaten olacak mıydı?",
+            "title": "Eşdeğer karşılaştırma tabanları",
+            "desc": "Geri kazanılan her rakam, eşleşen, tam haftalık bir taban çizgisiyle ölçülür - aynı günler, aynı ritim - böylece gerçek bir kazanç, sıradan yoğun bir haftayla asla karıştırılmaz.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Kendini amorti etti mi?",
+            "title": "Sundae getirisi",
+            "desc": "Geri kazandığınız değeri ödediğinizle dönem dönem karşılaştırın - ölçülmüş parayla, Sundae'nin maliyetini fazlasıyla karşıladığının kanıtı.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Kanıt olmadığında ise Sundae bunu söyler. Her sonuç, bir insan doğrulayana kadar yönelim niteliğinde kalır ve bir dedektör, bir sayı uydurmaktansa susmayı yeğler."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, kâr sızıntısını bulur, düzeltmeyi belirli bir sorumluya yönlendirir ve geri kazanılan marjı bir temel çizgiye göre ölçer.",
@@ -1958,6 +2190,35 @@ export const generatedLocalCopy = {
       }
     },
     "zh-Hans": {
+      "proof": {
+        "eyebrow": "如何确认它是真的",
+        "heading": "谁都可以声称收回了利润。Sundae 让你亲自核实。",
+        "description": "一个收回的数字，只有当你能看清它是否真的发生过，才值得信任。Sundae 回答审慎的经营者--或其 CFO--总会追问的三个问题。",
+        "items": [
+          {
+            "question": "闭环真的在闭合吗？",
+            "title": "闭环健康度",
+            "desc": "看清检测到的泄漏中，有多少真正抵达了可衡量的结果--真实的闭合率，而非好看的计数。这是唯一能告诉你闭环正在运转的数字，即使这个数字很低，它也如实呈现。",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "那本来不也会发生吗？",
+            "title": "同口径基线",
+            "desc": "每一个收回的数字，都与一条匹配的整周基线相比较--相同的日子、相同的节奏--这样真正的收益就绝不会被误认成一个普通的繁忙周。",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "它收回成本了吗？",
+            "title": "Sundae 的投资回报",
+            "desc": "把你收回的价值与你支付的费用逐期并列查看--这就是用可衡量的金额给出的证据，证明 Sundae 远不止覆盖自身成本。",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "而当证据不足时，Sundae 会如实说明。每个结果在有人确认之前都只作方向性参考，检测器宁可保持沉默，也不会凭空编造数字。"
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "连接到您的POS、劳动力、库存和所有重要系统。Core找出利润泄漏，将修复分派给指定负责人，并按基线衡量收回的利润率。",
@@ -2136,6 +2397,35 @@ export const generatedLocalCopy = {
       }
     },
     "ja": {
+      "proof": {
+        "eyebrow": "それが本物だとわかる理由",
+        "heading": "回収を主張するのは誰にでもできます。Sundaeなら、確かめられます。",
+        "description": "回収された数字は、それが本当に起きたかを確認できて初めて信頼に値します。Sundaeは、慎重な経営者--あるいはそのCFO--が必ず問う3つの質問に答えます。",
+        "items": [
+          {
+            "question": "ループは本当に閉じているか？",
+            "title": "ループの健全性",
+            "desc": "検知された漏れのうち、実際に測定済みの結果に至ったのはどれだけか--見栄えだけの件数ではなく、本当のクローズ率を確認できます。ループが機能していることを示す唯一の数字であり、その数字が低いときも正直なままです。",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "どのみち起きていたのでは？",
+            "title": "同条件のベースライン",
+            "desc": "回収されたすべての数字は、一致する丸一週間のベースライン--同じ曜日、同じリズム--と照らして測定されます。だから本当の成果を、ただ忙しかった週と取り違えることはありません。",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "元は取れたのか？",
+            "title": "Sundaeの投資対効果",
+            "desc": "回収した価値を、支払う額と期ごとに並べて確認できます--測定された金額で、Sundaeがコストを十分に上回って賄っているという証拠です。",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "そして証拠がないときは、Sundaeはそうと告げます。すべての結果は人が確認するまで方向性を示すにとどまり、検知器は数字をでっち上げるくらいなら黙っています。"
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続。Coreは利益の漏れを見つけ、修正を指名された責任者に割り当て、回収したマージンをベースラインと照らして測定します。",
@@ -2314,6 +2604,35 @@ export const generatedLocalCopy = {
       }
     },
     "ko": {
+      "proof": {
+        "eyebrow": "진짜임을 확인하는 방법",
+        "heading": "회수는 누구나 주장할 수 있습니다. Sundae는 확인하게 해줍니다.",
+        "description": "회수된 숫자는 그것이 정말 일어났는지 확인할 수 있을 때에만 신뢰할 가치가 있습니다. Sundae는 신중한 운영자 - 또는 그의 CFO - 가 늘 던지는 세 가지 질문에 답합니다.",
+        "items": [
+          {
+            "question": "루프가 실제로 닫히고 있나요?",
+            "title": "루프 상태",
+            "desc": "감지된 누수 중 실제로 측정된 결과에 도달한 비율을 확인하세요 - 보여주기식 집계가 아니라 진짜 종료율입니다. 루프가 작동하고 있음을 알려주는 유일한 숫자이며, 그 숫자가 낮을 때에도 정직하게 유지됩니다.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "어차피 일어났을 일 아닌가요?",
+            "title": "동일 조건 기준선",
+            "desc": "회수된 모든 숫자는 일치하는 한 주 전체 기준선 - 같은 요일, 같은 리듬 - 과 비교해 측정됩니다. 그래서 진짜 성과가 그저 바빴던 한 주로 오인되는 일이 없습니다.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "제값을 했나요?",
+            "title": "Sundae 투자수익",
+            "desc": "회수한 가치를 지불액과 기간별로 나란히 확인하세요 - 측정된 금액으로, Sundae가 비용을 충분히 상회한다는 증거입니다.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "그리고 증거가 없을 때 Sundae는 그렇다고 말합니다. 모든 결과는 사람이 확인하기 전까지 방향성만 나타내며, 감지기는 숫자를 지어내느니 침묵을 지킵니다."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 이익 누수를 찾아내고, 수정 작업을 지정된 책임자에게 배정하며, 회수한 마진을 기준선과 비교해 측정합니다.",
@@ -2492,6 +2811,35 @@ export const generatedLocalCopy = {
       }
     },
     "id": {
+      "proof": {
+        "eyebrow": "CARA ANDA TAHU INI NYATA",
+        "heading": "Siapa pun bisa mengklaim pemulihan. Sundae membuat Anda bisa memeriksanya.",
+        "description": "Angka yang dipulihkan hanya layak dipercaya jika Anda bisa melihat apakah itu benar-benar terjadi. Sundae menjawab tiga pertanyaan yang selalu diajukan operator yang cermat - atau CFO-nya.",
+        "items": [
+          {
+            "question": "Apakah loop benar-benar menutup?",
+            "title": "Kesehatan loop",
+            "desc": "Lihat berapa banyak kebocoran terdeteksi yang benar-benar mencapai hasil terukur - tingkat penutupan yang sebenarnya, bukan angka pemanis. Inilah satu-satunya angka yang menunjukkan loop bekerja, dan ia tetap jujur saat angka itu rendah.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Apakah itu akan terjadi juga?",
+            "title": "Basis pembanding setara",
+            "desc": "Setiap angka yang dipulihkan diukur terhadap basis satu minggu penuh yang setara - hari yang sama, ritme yang sama - sehingga keuntungan nyata tidak pernah dikira sekadar minggu yang sibuk.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Apakah biayanya kembali?",
+            "title": "Imbal hasil atas Sundae",
+            "desc": "Lihat nilai yang Anda pulihkan dibandingkan dengan yang Anda bayar, periode demi periode - bukti, dalam uang terukur, bahwa Sundae lebih dari menutup biayanya.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Dan ketika buktinya tidak ada, Sundae mengatakannya. Setiap hasil tetap bersifat arah sampai seseorang mengonfirmasinya, dan detektor memilih diam daripada mengarang angka."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core menemukan kebocoran margin, mengarahkan perbaikan ke penanggung jawab yang ditunjuk, dan mengukur margin yang dipulihkan terhadap garis dasar.",
@@ -2670,6 +3018,35 @@ export const generatedLocalCopy = {
       }
     },
     "vi": {
+      "proof": {
+        "eyebrow": "LÀM SAO BẠN BIẾT ĐIỀU ĐÓ LÀ THẬT",
+        "heading": "Ai cũng có thể tuyên bố đã thu hồi. Sundae để bạn tự kiểm chứng.",
+        "description": "Một con số thu hồi chỉ đáng tin khi bạn thấy được nó có thực sự xảy ra hay không. Sundae trả lời ba câu hỏi mà một nhà điều hành cẩn trọng - hoặc CFO của họ - luôn đặt ra.",
+        "items": [
+          {
+            "question": "Vòng lặp có thực sự khép lại không?",
+            "title": "Sức khỏe vòng lặp",
+            "desc": "Xem có bao nhiêu rò rỉ được phát hiện thực sự đạt đến một kết quả đo được - tỷ lệ khép vòng thật, không phải con số để phô trương. Đó là con số duy nhất cho bạn biết vòng lặp đang hoạt động, và nó vẫn trung thực ngay cả khi con số đó thấp.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Liệu điều đó có xảy ra dù sao đi nữa?",
+            "title": "Đường cơ sở tương đương",
+            "desc": "Mỗi con số thu hồi được đo với một đường cơ sở trọn tuần tương ứng - cùng những ngày, cùng nhịp độ - để một khoản lợi thật không bao giờ bị nhầm với một tuần bận rộn thông thường.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Nó có tự hoàn vốn không?",
+            "title": "Lợi tức trên Sundae",
+            "desc": "Xem giá trị bạn thu hồi được đặt cạnh khoản bạn chi trả, theo từng kỳ - bằng chứng, bằng tiền đo lường được, rằng Sundae thừa sức bù đắp chi phí của nó.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Và khi chứng cứ không có, Sundae nói thẳng điều đó. Mọi kết quả vẫn chỉ mang tính định hướng cho đến khi một con người xác nhận, và bộ dò chọn im lặng thay vì bịa ra một con số."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core tìm ra chỗ rò rỉ lợi nhuận, giao việc khắc phục cho người chịu trách nhiệm cụ thể và đo lường biên lợi nhuận thu hồi được so với đường cơ sở.",
@@ -2848,6 +3225,35 @@ export const generatedLocalCopy = {
       }
     },
     "ro": {
+      "proof": {
+        "eyebrow": "CUM ȘTII CĂ E REAL",
+        "heading": "Oricine poate pretinde o recuperare. Sundae te lasă să verifici.",
+        "description": "O sumă recuperată merită încredere doar dacă poți vedea dacă s-a întâmplat cu adevărat. Sundae răspunde la cele trei întrebări pe care un operator atent - sau CFO-ul său - le pune mereu.",
+        "items": [
+          {
+            "question": "Se închide bucla cu adevărat?",
+            "title": "Sănătatea buclei",
+            "desc": "Vezi câte scurgeri detectate ajung efectiv la un rezultat măsurat - rata reală de închidere, nu o cifră de fațadă. Este singurul număr care îți arată că bucla funcționează și rămâne cinstit chiar și când numărul e mic.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "S-ar fi întâmplat oricum?",
+            "title": "Baze de comparație echivalente",
+            "desc": "Fiecare sumă recuperată este măsurată față de o bază echivalentă pe o săptămână întreagă - aceleași zile, același ritm - astfel încât un câștig real să nu fie niciodată confundat cu o săptămână pur și simplu aglomerată.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "S-a plătit singur?",
+            "title": "Randament pe Sundae",
+            "desc": "Vezi valoarea recuperată pusă față în față cu ceea ce plătești, perioadă după perioadă - dovada, în bani măsurați, că Sundae își acoperă cu mult costul.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Iar când dovada lipsește, Sundae o spune. Fiecare rezultat rămâne orientativ până când un om îl confirmă, iar un detector preferă să tacă decât să inventeze o cifră."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core găsește scurgerea de marjă, direcționează remedierea către un responsabil desemnat și măsoară marja recuperată față de o linie de referință.",
@@ -3026,6 +3432,35 @@ export const generatedLocalCopy = {
       }
     },
     "sv": {
+      "proof": {
+        "eyebrow": "SÅ VET DU ATT DET ÄR PÅ RIKTIGT",
+        "heading": "Vem som helst kan påstå återvinning. Sundae låter dig kontrollera.",
+        "description": "En återvunnen siffra är bara värd att lita på om du kan se om den verkligen hände. Sundae svarar på de tre frågor som en noggrann operatör - eller dennes CFO - alltid ställer.",
+        "items": [
+          {
+            "question": "Sluts slingan verkligen?",
+            "title": "Slingans hälsa",
+            "desc": "Se hur många upptäckta läckor som faktiskt når ett mätt resultat - den verkliga slutandelen, inte en siffra för syns skull. Det är den enda siffran som visar att slingan fungerar, och den förblir ärlig även när siffran är låg.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Hade det hänt ändå?",
+            "title": "Likvärdiga jämförelsetal",
+            "desc": "Varje återvunnen siffra mäts mot ett matchande basvärde för en hel vecka - samma dagar, samma rytm - så att en verklig vinst aldrig förväxlas med en helt vanlig hektisk vecka.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Betalade det sig självt?",
+            "title": "Avkastning på Sundae",
+            "desc": "Se värdet du återvann ställt mot vad du betalar, period för period - beviset, i mätta pengar, på att Sundae mer än täcker sin kostnad.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Och när belägget saknas säger Sundae det. Varje resultat förblir vägledande tills en människa bekräftar det, och en detektor tiger hellre än hittar på en siffra."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core hittar marginalläckan, styr åtgärden till en utsedd ansvarig och mäter den återvunna marginalen mot en baslinje.",
@@ -3204,6 +3639,35 @@ export const generatedLocalCopy = {
       }
     },
     "bn": {
+      "proof": {
+        "eyebrow": "কীভাবে বুঝবেন এটি সত্যি",
+        "heading": "পুনরুদ্ধারের দাবি যে কেউ করতে পারে। Sundae আপনাকে যাচাই করতে দেয়।",
+        "description": "পুনরুদ্ধার করা সংখ্যা তখনই বিশ্বাসযোগ্য, যখন আপনি দেখতে পান তা সত্যিই ঘটেছে কি না। একজন সতর্ক পরিচালক - বা তাঁর CFO - সবসময় যে তিনটি প্রশ্ন করেন, Sundae তার উত্তর দেয়।",
+        "items": [
+          {
+            "question": "লুপ কি সত্যিই বন্ধ হচ্ছে?",
+            "title": "লুপের সুস্থতা",
+            "desc": "দেখুন শনাক্ত হওয়া কতগুলো লিক আসলে একটি পরিমাপযোগ্য ফলাফলে পৌঁছায় - আসল ক্লোজ-রেট, লোক-দেখানো গণনা নয়। এটিই একমাত্র সংখ্যা যা জানায় লুপ কাজ করছে, আর সংখ্যাটি কম হলেও তা সৎ থাকে।",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "এটা কি এমনিতেও ঘটত?",
+            "title": "সমতুল্য ভিত্তিরেখা",
+            "desc": "প্রতিটি পুনরুদ্ধার করা সংখ্যা মেলানো, পূর্ণ-সপ্তাহের একটি ভিত্তিরেখার সঙ্গে মাপা হয় - একই দিন, একই ছন্দ - যাতে সত্যিকারের লাভকে কখনো নিছক ব্যস্ত এক সপ্তাহ ভেবে ভুল না হয়।",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "এটা কি নিজের খরচ তুলে এনেছে?",
+            "title": "Sundae-তে প্রতিদান",
+            "desc": "দেখুন আপনি যা পুনরুদ্ধার করেছেন তা আপনার পরিশোধের বিপরীতে, প্রতি মেয়াদে - পরিমাপ করা অর্থে সেই প্রমাণ যে Sundae তার খরচের চেয়ে অনেক বেশি পুষিয়ে দেয়।",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "আর যখন প্রমাণ থাকে না, Sundae তা বলে দেয়। প্রতিটি ফলাফল একজন মানুষ নিশ্চিত না করা পর্যন্ত কেবল দিকনির্দেশক থাকে, আর কোনো ডিটেক্টর সংখ্যা বানানোর চেয়ে চুপ থাকাই বেছে নেয়।"
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core মুনাফার ফাঁস খুঁজে বের করে, সংশোধনটি একজন নির্ধারিত দায়িত্বপ্রাপ্তকে বরাদ্দ করে, এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার সাপেক্ষে পরিমাপ করে।",
@@ -3382,6 +3846,35 @@ export const generatedLocalCopy = {
       }
     },
     "th": {
+      "proof": {
+        "eyebrow": "รู้ได้อย่างไรว่ามันเป็นเรื่องจริง",
+        "heading": "ใครก็อ้างว่ากู้คืนได้ทั้งนั้น Sundae ให้คุณตรวจสอบเอง",
+        "description": "ตัวเลขที่กู้คืนมาจะน่าเชื่อถือก็ต่อเมื่อคุณเห็นได้ว่ามันเกิดขึ้นจริงหรือไม่ Sundae ตอบสามคำถามที่ผู้ดำเนินงานผู้รอบคอบ - หรือ CFO ของเขา - ถามอยู่เสมอ",
+        "items": [
+          {
+            "question": "วงจรปิดครบจริงหรือไม่",
+            "title": "สุขภาพของวงจร",
+            "desc": "ดูว่าจากรอยรั่วที่ตรวจพบ มีกี่รายที่ไปถึงผลลัพธ์ที่วัดได้จริง - อัตราการปิดวงจรที่แท้จริง ไม่ใช่ตัวเลขไว้อวด นี่คือตัวเลขเดียวที่บอกคุณว่าวงจรกำลังทำงาน และมันยังคงซื่อตรงแม้เมื่อตัวเลขนั้นต่ำ",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "มันก็คงเกิดขึ้นอยู่ดีหรือเปล่า",
+            "title": "เส้นฐานเทียบเท่ากัน",
+            "desc": "ทุกตัวเลขที่กู้คืนถูกวัดเทียบกับเส้นฐานเต็มสัปดาห์ที่ตรงกัน - วันเดียวกัน จังหวะเดียวกัน - เพื่อไม่ให้กำไรจริงถูกเข้าใจผิดว่าเป็นเพียงสัปดาห์ที่ยุ่งตามปกติ",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "มันคุ้มค่าที่จ่ายไปหรือไม่",
+            "title": "ผลตอบแทนจาก Sundae",
+            "desc": "ดูมูลค่าที่คุณกู้คืนมาเทียบกับสิ่งที่คุณจ่าย งวดต่องวด - หลักฐานเป็นเม็ดเงินที่วัดได้ว่า Sundae คุ้มยิ่งกว่าค่าใช้จ่ายของมัน",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "และเมื่อไม่มีหลักฐาน Sundae ก็จะบอกตามตรง ทุกผลลัพธ์ยังคงเป็นเพียงทิศทางจนกว่าจะมีคนยืนยัน และตัวตรวจจับเลือกที่จะเงียบมากกว่าจะกุตัวเลขขึ้นมา"
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core ค้นหาการรั่วไหลของกำไร มอบหมายการแก้ไขให้ผู้รับผิดชอบที่ระบุไว้ และวัดกำไรที่กู้คืนได้เทียบกับเส้นฐาน",
@@ -3560,6 +4053,35 @@ export const generatedLocalCopy = {
       }
     },
     "ms": {
+      "proof": {
+        "eyebrow": "BAGAIMANA ANDA TAHU IANYA BENAR",
+        "heading": "Sesiapa pun boleh mendakwa pemulihan. Sundae membolehkan anda menyemaknya.",
+        "description": "Angka yang dipulihkan hanya layak dipercayai jika anda dapat melihat sama ada ia benar-benar berlaku. Sundae menjawab tiga soalan yang sentiasa ditanya oleh pengendali yang teliti - atau CFO mereka.",
+        "items": [
+          {
+            "question": "Adakah gelung benar-benar tertutup?",
+            "title": "Kesihatan gelung",
+            "desc": "Lihat berapa banyak kebocoran yang dikesan benar-benar mencapai hasil yang diukur - kadar penutupan sebenar, bukan angka hiasan. Inilah satu-satunya angka yang menunjukkan gelung berfungsi, dan ia kekal jujur apabila angka itu rendah.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Adakah ia akan berlaku juga?",
+            "title": "Asas perbandingan setara",
+            "desc": "Setiap angka yang dipulihkan diukur terhadap asas seminggu penuh yang sepadan - hari yang sama, rentak yang sama - supaya keuntungan sebenar tidak sekali-kali disalah anggap sebagai minggu yang sekadar sibuk.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Adakah ia berbaloi?",
+            "title": "Pulangan atas Sundae",
+            "desc": "Lihat nilai yang anda pulihkan berbanding apa yang anda bayar, tempoh demi tempoh - bukti, dalam wang yang diukur, bahawa Sundae menampung kosnya lebih daripada cukup.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Dan apabila buktinya tiada, Sundae menyatakannya. Setiap keputusan kekal bersifat arah sehingga seseorang mengesahkannya, dan pengesan memilih untuk berdiam daripada mereka-reka angka."
+      },
       "hero": {
         "badge": "Sundae Core",
         "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core mengesan kebocoran margin, menyalurkan pembaikan kepada pemilik yang ditetapkan dan mengukur margin yang dipulihkan berbanding garis dasar.",

@@ -248,9 +248,9 @@ export function buildWebsiteAlternateUrls(pathname: string, baseUrl: string) {
 export const websiteMessages = {
   en: {
     metadata: {
-      title: 'Sundae - Decision Intelligence for Restaurants',
+      title: 'Sundae - Decision Intelligence That Recovers Profit for Food-Service',
       description:
-        'The decision intelligence platform for restaurants - unify POS, labor, cost, and operational data to benchmark performance and turn it into the next right move.',
+        'The decision intelligence platform for multi-location food-service - Sundae finds the margin leak, routes the fix to an accountable owner, and measures the profit you recover back against a baseline.',
     },
     layout: {
       skipToContent: 'Skip to main content',
@@ -724,9 +724,9 @@ export const websiteMessages = {
   },
   ar: {
     metadata: {
-      title: 'صنداي - ذكاء القرار للمطاعم',
+      title: 'صنداي - ذكاء القرار الذي يستعيد الأرباح لقطاع خدمات الطعام',
       description:
-        'منصة ذكاء القرار للمطاعم - توحّد نقاط البيع والعمالة والتكاليف والعمليات لمقارنة الأداء وتحويله إلى الخطوة الصحيحة التالية.',
+        'منصة ذكاء القرار لخدمات الطعام متعددة الفروع - يكتشف صنداي تسرّب الهامش، ويوجّه الإصلاح إلى مسؤول مُحاسَب، ويقيس الربح الذي تستعيده مقابل خط الأساس.',
     },
     layout: {
       skipToContent: 'انتقل إلى المحتوى الرئيسي',
@@ -1169,9 +1169,9 @@ export const websiteMessages = {
   },
   fr: {
     metadata: {
-      title: 'Sundae - Intelligence décisionnelle pour la restauration',
+      title: 'Sundae - Intelligence décisionnelle qui récupère les profits pour la restauration',
       description:
-        "La plateforme d'intelligence décisionnelle pour les restaurants - unifie POS, main-d'œuvre, coûts et opérations pour comparer les performances et en faire la prochaine bonne décision.",
+        "La plateforme d'intelligence décisionnelle pour la restauration multi-établissements - Sundae détecte la fuite de marge, confie le correctif à un responsable désigné et mesure le profit récupéré par rapport à une base de référence.",
     },
     layout: {
       skipToContent: 'Aller au contenu principal',
@@ -1484,7 +1484,7 @@ export const websiteMessages = {
           badge: 'Tarifs',
           title: 'Tarifs simples et transparents',
           description:
-            'Quatre offres Core, tarifées à partir de votre premier site puis au tarif marginal de chaque site suivant. Chaque offre embarque les onze modules metier et des crédits IA.',
+            'Quatre offres Core, tarifées à partir de votre premier site puis au tarif marginal de chaque site suivant. Chaque offre embarque les onze modules métier et des crédits IA.',
           monthly: 'Mensuel',
           annual: 'Annuel',
           savePercent: 'Économisez 10 %',
@@ -1633,9 +1633,9 @@ export const websiteMessages = {
   },
   es: {
     metadata: {
-      title: 'Sundae - Inteligencia de decisión para restaurantes',
+      title: 'Sundae - Inteligencia de decisión que recupera las ganancias para la restauración',
       description:
-        'La plataforma de inteligencia de decisión para restaurantes: unifica POS, personal, costos y operaciones para comparar el rendimiento y convertirlo en tu próximo movimiento acertado.',
+        'La plataforma de inteligencia de decisión para la restauración con múltiples locales - Sundae detecta la fuga de margen, asigna la solución a un responsable que rinde cuentas y mide las ganancias que recuperas frente a una base de referencia.',
     },
     layout: {
       skipToContent: 'Ir al contenido principal',

@@ -27,14 +27,14 @@ export const crossIntelligenceCreamCopy: Record<string, { eyebrow: string; state
     lede: 'العمالة والمبيعات والمخزون والضيوف - مترابطة لترى السبب، لا الأعراض فقط.',
   },
   fr: {
-    eyebrow: 'SIGNAUX CONNECTES',
-    statement: 'Chaque signal, *relie* a toute votre operation.',
-    lede: 'Main-d oeuvre, ventes, stock et clients - correles pour voir la cause, pas seulement les symptomes.',
+    eyebrow: 'SIGNAUX CONNECTÉS',
+    statement: 'Chaque signal, *relié* à toute votre opération.',
+    lede: "Main-d'œuvre, ventes, stock et clients - corrélés pour voir la cause, pas seulement les symptômes.",
   },
   es: {
-    eyebrow: 'SENALES CONECTADAS',
-    statement: 'Cada senal, *conectada* en toda la operacion.',
-    lede: 'Personal, ventas, inventario y clientes - correlacionados para ver la causa, no solo los sintomas.',
+    eyebrow: 'SEÑALES CONECTADAS',
+    statement: 'Cada señal, *conectada* en toda la operación.',
+    lede: 'Personal, ventas, inventario y clientes - correlacionados para ver la causa, no solo los síntomas.',
   },
   de: {
     eyebrow: 'VERBUNDENE SIGNALE',

@@ -34,7 +34,7 @@ const integrationCategoriesByLocale = {
   ],
   fr: [
     { category: "Point de vente (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB directe)", "SQL Server / Azure SQL (DB directe)"] },
-    { category: "Main-d'oeuvre et planning", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
+    { category: "Main-d'œuvre et planning", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
     { category: "Stock et disponibilite", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
     { category: "Achats et approvisionnement", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
     { category: "Livraison et 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
