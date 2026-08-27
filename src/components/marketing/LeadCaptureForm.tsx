@@ -255,6 +255,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   const [isSuccess, setIsSuccess] = useState(false);
   const [apiError, setApiError] = useState('');
   const fieldRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const submissionKeyRef = useRef<string>(globalThis.crypto.randomUUID());
 
   useEffect(() => {
     if (!messageEdited) {
@@ -360,7 +361,10 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         : `${formData.countryCode || ''}${localPhone}`;
       const response = await fetch('/api/cta/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'Idempotency-Key': submissionKeyRef.current,
+        },
         body: JSON.stringify({
           ...formData,
           phone: normalizePhoneForStorage(fullPhone),
@@ -376,6 +380,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         throw new Error(data.error || copy.genericError);
       }
       setIsSuccess(true);
+      submissionKeyRef.current = globalThis.crypto.randomUUID();
       setMessageEdited(false);
       setFormData({
         name: '',
