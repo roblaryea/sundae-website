@@ -78,7 +78,7 @@ const localizedChatCopy = {
       { title: "Interactive Charts with Drill-Down", description: "Click any data point to explore deeper. Leave annotations for your team. Toggle chart types on the fly.", icon: "chart" },
       { title: "Scheduled Intelligence Delivery", description: "Daily, weekly, or monthly insights delivered via email, Slack, Telegram, Teams, or webhook.", icon: "schedule" },
       { title: "Connected to Everything", description: "Pulls from every connected source - POS, labor, inventory, reservations, delivery. Fully scoped per organization.", icon: "integration" },
-      { title: "Decision Tracking", description: "Track what you did with each insight. Log actions taken, items monitored, or decisions dismissed.", icon: "success" },
+      { title: "Decision Tracking", description: "Track what you did with each insight. Log actions taken, items monitored, or decisions dismissed - then see the outcome measured back against baseline so the loop closes.", icon: "success" },
     ],
     queries: [
       "What was my best-selling item last Thursday?",
@@ -154,7 +154,7 @@ const localizedChatCopy = {
       { title: "رسوم قابلة للتعمق", description: "انقر على أي نقطة بيانات لاستكشافها أكثر. أضف ملاحظات لفريقك وبدّل أنواع الرسوم بسرعة.", icon: "chart" },
       { title: "توصيل مجدول للذكاء", description: "رؤى يومية أو أسبوعية أو شهرية تصل عبر البريد أو Slack أو Telegram أو Teams أو webhook.", icon: "schedule" },
       { title: "متصل بكل شيء", description: "يسحب من كل مصدر متصل - POS والعمالة والمخزون والحجوزات والتوصيل - ضمن نطاق كل منظمة.", icon: "integration" },
-      { title: "تتبع القرار", description: "تابع ما فعلته بكل رؤية: إجراء تم اتخاذه، عنصر قيد المراقبة، أو قرار تم رفضه.", icon: "success" },
+      { title: "تتبع القرار", description: "تابع ما فعلته بكل رؤية: إجراء تم اتخاذه، عنصر قيد المراقبة، أو قرار تم رفضه - ثم شاهد النتيجة وهي تُقاس مقابل خط الأساس حتى تُغلق الحلقة.", icon: "success" },
     ],
     queries: [
       "ما هو الصنف الأكثر مبيعًا يوم الخميس الماضي؟",
@@ -230,7 +230,7 @@ const localizedChatCopy = {
       { title: "Graphiques interactifs avec détail", description: "Cliquez sur n'importe quel point pour approfondir. Ajoutez des annotations pour votre équipe. Changez le type de graphique à la volée.", icon: "chart" },
       { title: "Diffusion planifiée", description: "Informations quotidiennes, hebdomadaires ou mensuelles envoyées par e-mail, Slack, Telegram, Teams ou webhook.", icon: "schedule" },
       { title: "Connecté à tout", description: "Se branche sur chaque source connectée - POS, main-d'oeuvre, stock, réservations, livraison. Portée complète par organisation.", icon: "integration" },
-      { title: "Suivi des décisions", description: "Suivez ce que vous avez fait pour chaque insight. Journalisez les actions, les éléments surveillés ou les décisions rejetées.", icon: "success" },
+      { title: "Suivi des décisions", description: "Suivez ce que vous avez fait pour chaque insight. Journalisez les actions, les éléments surveillés ou les décisions rejetées - puis voyez le résultat mesuré par rapport à la référence pour que la boucle se referme.", icon: "success" },
     ],
     queries: [
       "Quel article s'est le mieux vendu jeudi dernier ?",
@@ -306,7 +306,7 @@ const localizedChatCopy = {
       { title: "Gráficos interactivos con detalle", description: "Haz clic en cualquier punto para profundizar. Deja anotaciones para tu equipo. Cambia el tipo de gráfico al vuelo.", icon: "chart" },
       { title: "Entrega programada de inteligencia", description: "Insights diarios, semanales o mensuales enviados por email, Slack, Telegram, Teams o webhook.", icon: "schedule" },
       { title: "Conectado a todo", description: "Extrae datos de cualquier fuente conectada - POS, personal, inventario, reservas, delivery. Alcance completo por organización.", icon: "integration" },
-      { title: "Seguimiento de decisiones", description: "Registra lo que hiciste con cada insight: acciones tomadas, elementos monitorizados o decisiones descartadas.", icon: "success" },
+      { title: "Seguimiento de decisiones", description: "Registra lo que hiciste con cada insight: acciones tomadas, elementos monitorizados o decisiones descartadas - luego ve el resultado medido frente a la línea de base para que el bucle se cierre.", icon: "success" },
     ],
     queries: [
       "¿Cuál fue mi plato más vendido el jueves pasado?",

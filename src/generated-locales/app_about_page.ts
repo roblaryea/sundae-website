@@ -3,8 +3,8 @@
 export const generatedLocalCopy = {
   "aboutCopy": {
     "de": {
-      "metadataTitle": "Über Sundae - Die Entscheidungsintelligenz-Plattform für Restaurants",
-      "metadataDescription": "Sundae vereint über 12 Datenquellen in einer einzigen Intelligenzschicht für Multi-Unit-Restaurantgruppen. Entwickelt von Betreibern, die das Problem selbst erlebt haben. Lokalisiert in 22 Sprachen.",
+      "metadataTitle": "Über Sundae - Die Entscheidungsintelligenz-Plattform für die Gastronomie",
+      "metadataDescription": "Sundae vereint über 12 Datenquellen in einer einzigen Intelligenzschicht für Multi-Unit-Gastronomiegruppen. Entwickelt von Betreibern, die das Problem selbst erlebt haben. Lokalisiert in 22 Sprachen.",
       "badge": "Über Sundae",
       "description": "Restaurantdaten befinden sich normalerweise in einem Dutzend voneinander getrennter Systeme. Sundae bringt dieses Betriebsbild an einem Ort zusammen, damit Teams Entscheidungen auf der Grundlage aktueller Zahlen, Marktkontext und zukunftsorientierter Signale treffen können.",
       "stats": [
@@ -26,7 +26,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Was wir gebaut haben",
-      "builtDescription": "Sechs verbundene Ebenen, die Betreibern helfen, von der Echtzeitplanung zu 90-Tage-Prognosen zu wechseln, ohne zwischen Systemen zu springen.",
+      "builtDescription": "Sechs verbundene Ebenen, die Betreibern helfen, das Leck zu finden, die Behebung einem Verantwortlichen zuzuweisen und die zurückgewonnene Marge zu messen - von der Echtzeitplanung bis zu 90-Tage-Prognosen, ohne zwischen Systemen zu springen.",
       "missionTitle": "Warum Sundae existiert",
       "missionDescription": "Betriebe mit mehreren Standorten führen komplexe, umsatzstarke Geschäfte über Dutzende von voneinander getrennten Systemen. Das Ergebnis: Millionenentscheidungen basieren auf Bauchgefühl, Margenverluste sind unsichtbar, bis es zu spät ist, und es fehlt an Marktkenntnis für die Leistungsbewertung.",
       "missionSupport": "Wir haben Sundae gegründet, weil wir das Problem selbst erlebt haben. Unser Gründer hat Restaurantkonzepte auf über 10 Millionen Dollar Jahresumsatz skaliert und stieß immer wieder auf dasselbe Problem: zu viele Systeme, zu wenig Klarheit bei Entscheidungen.",
@@ -233,8 +233,8 @@ export const generatedLocalCopy = {
       "title": "Die Intelligenzebene, die Restaurants nie hatten"
     },
     "fr": {
-      "metadataTitle": "À propos de Sundae - La plateforme d'intelligence décisionnelle pour les restaurants",
-      "metadataDescription": "Sundae unifie plus de 12 sources de données en une seule couche d'intelligence pour les groupes de restaurants multi-unités. Conçu par des opérateurs ayant vécu le problème. Localisé en 22 langues.",
+      "metadataTitle": "À propos de Sundae - La plateforme d'intelligence décisionnelle pour la restauration",
+      "metadataDescription": "Sundae unifie plus de 12 sources de données en une seule couche d'intelligence pour les groupes de restauration multi-unités. Conçu par des opérateurs ayant vécu le problème. Localisé en 22 langues.",
       "badge": "À propos de Sundae",
       "description": "Les données des restaurants se trouvent généralement dans une douzaine de systèmes déconnectés. Sundae regroupe cette vue d'ensemble en un seul endroit afin que les équipes puissent prendre des décisions avec des chiffres actuels, un contexte de marché et des signaux prospectifs.",
       "stats": [
@@ -256,7 +256,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Ce que nous avons construit",
-      "builtDescription": "Six couches connectées qui aident les opérateurs à passer de la gestion en temps réel à des prévisions sur 90 jours sans sauter entre les systèmes.",
+      "builtDescription": "Six couches connectées qui aident les opérateurs à trouver la fuite, à confier la correction à un responsable et à mesurer la marge récupérée - du pilotage en temps réel aux prévisions à 90 jours, sans passer d'un système à l'autre.",
       "missionTitle": "Pourquoi Sundae existe",
       "missionDescription": "Les opérateurs de restaurants multi-unités gèrent des entreprises complexes et à fort volume à travers des dizaines de systèmes déconnectés. Le résultat : des décisions de plusieurs millions de dollars prises sur un coup de cœur, des fuites de marge invisibles jusqu'à ce qu'il soit trop tard, et aucun contexte de marché pour évaluer la performance.",
       "missionSupport": "Nous avons créé Sundae parce que nous avons vécu le problème. Notre fondateur a développé des concepts de restaurant dépassant 10 millions de dollars de revenus annuels et a constamment rencontré le même problème : trop de systèmes, trop peu de clarté dans les décisions.",
@@ -445,8 +445,8 @@ export const generatedLocalCopy = {
       ]
     },
     "es": {
-      "metadataTitle": "Acerca de Sundae - La Plataforma de Inteligencia de Decisiones para Restaurantes",
-      "metadataDescription": "Sundae unifica más de 12 fuentes de datos en una única capa de inteligencia para grupos de restaurantes de múltiples unidades. Creado por operadores que vivieron el problema. Localizado en 22 idiomas.",
+      "metadataTitle": "Acerca de Sundae - La Plataforma de Inteligencia de Decisiones para la Restauración",
+      "metadataDescription": "Sundae unifica más de 12 fuentes de datos en una única capa de inteligencia para grupos de restauración de múltiples unidades. Creado por operadores que vivieron el problema. Localizado en 22 idiomas.",
       "badge": "Acerca de Sundae",
       "description": "Los datos del restaurante suelen estar en una docena de sistemas desconectados. Sundae reúne esa información en un solo lugar para que los equipos puedan tomar decisiones con números actuales, contexto de mercado y señales futuras.",
       "stats": [
@@ -468,7 +468,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Lo Que Hemos Construido",
-      "builtDescription": "Seis capas conectadas que ayudan a los operadores a pasar de la programación en tiempo real a pronósticos de 90 días sin saltar entre sistemas.",
+      "builtDescription": "Seis capas conectadas que ayudan a los operadores a encontrar la fuga, asignar la corrección a un responsable y medir el margen recuperado - del ritmo en tiempo real a los pronósticos de 90 días, sin saltar entre sistemas.",
       "missionTitle": "Por qué existe Sundae",
       "missionDescription": "Los operadores de restaurantes de múltiples unidades gestionan negocios complejos y de alto volumen a través de docenas de sistemas desconectados. El resultado: decisiones de millones de dólares tomadas por intuición, fugas de margen invisibles hasta que es demasiado tarde y cero contexto de mercado para evaluar el rendimiento.",
       "missionSupport": "Creamos Sundae porque vivimos el problema. Nuestro fundador escaló conceptos de restaurantes más allá de $10M en ingresos anuales y seguía enfrentándose al mismo problema: demasiados sistemas, poca claridad en la toma de decisiones.",
@@ -657,8 +657,8 @@ export const generatedLocalCopy = {
       ]
     },
     "ar": {
-      "metadataTitle": "حول Sundae - منصة الذكاء في اتخاذ القرار للمطاعم",
-      "metadataDescription": "Sundae يجمع أكثر من 12 مصدر بيانات في طبقة ذكاء واحدة لمجموعات المطاعم متعددة الوحدات. تم بناؤه بواسطة مشغلين عاشوا المشكلة. متوفّر بـ 22 لغة.",
+      "metadataTitle": "حول Sundae - منصة الذكاء في اتخاذ القرار لقطاع خدمات الطعام",
+      "metadataDescription": "Sundae يجمع أكثر من 12 مصدر بيانات في طبقة ذكاء واحدة لمجموعات خدمات الطعام متعددة الوحدات. تم بناؤه بواسطة مشغلين عاشوا المشكلة. متوفّر بـ 22 لغة.",
       "badge": "حول Sundae",
       "description": "تعيش بيانات المطاعم عادةً في مجموعة من الأنظمة المنفصلة. تجمع Sundae هذه الصورة التشغيلية في مكان واحد حتى تتمكن الفرق من اتخاذ قرارات استنادًا إلى الأرقام الحالية وسياق السوق والإشارات المستقبلية.",
       "stats": [
@@ -680,7 +680,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "ما قمنا ببنائه",
-      "builtDescription": "ست طبقات متصلة تساعد المشغلين على الانتقال من التوقيت الفوري إلى التوقعات لمدة 90 يومًا دون الحاجة للتنقل بين الأنظمة.",
+      "builtDescription": "ست طبقات متصلة تساعد المشغلين على تحديد موضع التسرب، وإسناد المعالجة إلى مسؤول، وقياس الهامش المُستَرَد - من المتابعة اللحظية إلى توقعات التسعين يومًا، دون التنقل بين الأنظمة.",
       "missionTitle": "لماذا توجد Sundae",
       "missionDescription": "يدير مشغّلو المطاعم متعددة الوحدات أعمالًا معقدة وعالية الحجم عبر عشرات الأنظمة غير المتصلة. النتيجة: قرارات بملايين الدولارات تُتخذ بناءً على الحدس، تسرب هوامش غير مرئي حتى فوات الأوان، وعدم وجود سياق سوقي لمعايرة الأداء.",
       "missionSupport": "أنشأنا Sundae لأننا عشنا المشكلة. مؤسسنا قام بتوسيع مفاهيم المطاعم لتتجاوز 10 ملايين دولار في الإيرادات السنوية واستمر في مواجهة نفس المشكلة: أنظمة كثيرة، ووضوح قرار قليل.",
@@ -869,8 +869,8 @@ export const generatedLocalCopy = {
       ]
     },
     "nl": {
-      "metadataTitle": "Over Sundae - Het Besluitvormingsintelligentieplatform voor Restaurants",
-      "metadataDescription": "Sundae verenigt 12+ gegevensbronnen in één intelligentielaag voor multi-unit restaurantgroepen. Gebouwd door operators die het probleem hebben ervaren. Gelokaliseerd in 22 talen.",
+      "metadataTitle": "Over Sundae - Het Besluitvormingsintelligentieplatform voor de foodservice",
+      "metadataDescription": "Sundae verenigt 12+ gegevensbronnen in één intelligentielaag voor multi-unit foodservicegroepen. Gebouwd door operators die het probleem hebben ervaren. Gelokaliseerd in 22 talen.",
       "badge": "Over Sundae",
       "description": "Restaurantdata bevindt zich meestal in een dozijn losgekoppelde systemen. Sundae brengt dat operationele overzicht op één plek samen, zodat teams beslissingen kunnen nemen op basis van actuele cijfers, marktcontext en vooruitziende signalen.",
       "stats": [
@@ -892,7 +892,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Wat We Hebben Gebouwd",
-      "builtDescription": "Zes verbonden lagen die operators helpen om van realtime pacing naar 90-dagenvoorspellingen te gaan zonder tussen systemen te schakelen.",
+      "builtDescription": "Zes verbonden lagen die operators helpen het lek te vinden, de oplossing aan een eigenaar toe te wijzen en de teruggewonnen marge te meten - van realtime pacing tot 90-dagenprognoses, zonder tussen systemen te schakelen.",
       "missionTitle": "Waarom Sundae Bestaat",
       "missionDescription": "Multi-unit restaurantoperators beheren complexe, hoogvolume bedrijven via tientallen losgekoppelde systemen. Het resultaat: miljoenenbeslissingen gebaseerd op onderbuikgevoel, marges die pas zichtbaar worden als het te laat is, en geen marktondersteuning voor het benchmarken van prestaties.",
       "missionSupport": "We hebben Sundae gebouwd omdat we het probleem zelf hebben ervaren. Onze oprichter heeft restaurantconcepten opgeschaald tot meer dan $10M aan jaarlijkse omzet en liep steeds tegen hetzelfde probleem aan: te veel systemen, te weinig duidelijkheid in beslissingen.",
@@ -1099,8 +1099,8 @@ export const generatedLocalCopy = {
       "title": "De intelligentielaag die restaurants nooit hadden"
     },
     "pt": {
-      "metadataTitle": "Sobre a Sundae - A Plataforma de Inteligência de Decisão para Restaurantes",
-      "metadataDescription": "O Sundae unifica mais de 12 fontes de dados em uma única camada de inteligência para grupos de restaurantes com várias unidades. Criado por operadores que vivenciaram o problema. Localizado em 22 idiomas.",
+      "metadataTitle": "Sobre a Sundae - A Plataforma de Inteligência de Decisão para Serviços de Alimentação",
+      "metadataDescription": "O Sundae unifica mais de 12 fontes de dados em uma única camada de inteligência para grupos de serviços de alimentação com várias unidades. Criado por operadores que vivenciaram o problema. Localizado em 22 idiomas.",
       "badge": "Sobre a Sundae",
       "description": "Os dados do restaurante geralmente estão em uma dúzia de sistemas desconectados. A Sundae reúne essa visão operacional em um só lugar, para que as equipes possam tomar decisões com números atualizados, contexto de mercado e sinais futuros.",
       "stats": [
@@ -1122,7 +1122,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "O Que Construímos",
-      "builtDescription": "Seis camadas conectadas que ajudam os operadores a passar do ritmo em tempo real para previsões de 90 dias sem precisar alternar entre sistemas.",
+      "builtDescription": "Seis camadas conectadas que ajudam os operadores a encontrar o vazamento, encaminhar a correção a um responsável e medir a margem recuperada - do ritmo em tempo real às previsões de 90 dias, sem alternar entre sistemas.",
       "missionTitle": "Por que a Sundae Existe",
       "missionDescription": "Operadores de restaurantes com várias unidades gerenciam negócios complexos e de alto volume em dezenas de sistemas desconectados. O resultado: decisões de milhões de dólares tomadas com base na intuição, vazamentos de margem invisíveis até que seja tarde demais e nenhum contexto de mercado para avaliar o desempenho.",
       "missionSupport": "Criamos o Sundae porque vivemos o problema. Nosso fundador escalou conceitos de restaurantes além de $10M em receita anual e continuou enfrentando a mesma questão: muitos sistemas, pouca clareza nas decisões.",
@@ -1284,8 +1284,8 @@ export const generatedLocalCopy = {
       "title": "A camada de inteligência que os restaurantes nunca tiveram"
     },
     "ur": {
-      "metadataTitle": "Sundae کے بارے میں - ریستورانوں کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
-      "metadataDescription": "Sundae 12+ ڈیٹا ذرائع کو ایک واحد ذہانت کی تہہ میں یکجا کرتا ہے جو کثیر یونٹ ریستوراں گروپوں کے لیے ہے۔ یہ آپریٹرز کے ذریعہ بنایا گیا ہے جو اس مسئلے کا سامنا کر چکے ہیں۔ 22 زبانوں میں دستیاب ہے۔",
+      "metadataTitle": "Sundae کے بارے میں - فوڈ سروس کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
+      "metadataDescription": "Sundae 12+ ڈیٹا ذرائع کو ایک واحد ذہانت کی تہہ میں یکجا کرتا ہے جو کثیر یونٹ فوڈ سروس گروپوں کے لیے ہے۔ یہ آپریٹرز کے ذریعہ بنایا گیا ہے جو اس مسئلے کا سامنا کر چکے ہیں۔ 22 زبانوں میں دستیاب ہے۔",
       "badge": "Sundae کے بارے میں",
       "description": "ریستوران کا ڈیٹا عام طور پر درجن بھر غیر مربوط نظاموں میں موجود ہوتا ہے۔ Sundae اس آپریٹنگ تصویر کو ایک جگہ پر لاتا ہے تاکہ ٹیمیں موجودہ اعداد و شمار، مارکیٹ کے سیاق و سباق، اور مستقبل کی نشانیوں کے ساتھ فیصلے کر سکیں۔",
       "stats": [
@@ -1307,7 +1307,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "ہم نے کیا بنایا ہے",
-      "builtDescription": "چھ جڑے ہوئے تہیں جو آپریٹرز کو حقیقی وقت کی رفتار سے 90 دن کی پیش گوئیوں میں منتقل ہونے میں مدد کرتی ہیں بغیر سسٹمز کے درمیان چھلانگ لگائے۔",
+      "builtDescription": "چھ جڑی ہوئی تہیں جو آپریٹرز کو رساؤ تلاش کرنے، اصلاح کسی ذمہ دار کے سپرد کرنے اور بازیاب شدہ مارجن کی پیمائش کرنے میں مدد دیتی ہیں - حقیقی وقت کی رفتار سے 90 دن کی پیش گوئیوں تک، سسٹمز کے درمیان چھلانگ لگائے بغیر۔",
       "missionTitle": "Sundae کیوں موجود ہے",
       "missionDescription": "کئی یونٹ والے ریستوراں کے آپریٹرز پیچیدہ، بڑے حجم کے کاروبار چلاتے ہیں جو درجنوں غیر مربوط نظاموں میں بکھرے ہوئے ہیں۔ نتیجہ: لاکھوں ڈالر کے فیصلے احساس پر کیے جاتے ہیں، مارجن کی کمی نظر نہیں آتی جب تک کہ بہت دیر نہ ہو جائے، اور کارکردگی کی پیمائش کے لیے مارکیٹ کا کوئی سیاق و سباق نہیں ہوتا۔",
       "missionSupport": "ہم نے Sundae اس لیے بنایا کیونکہ ہم نے اس مسئلے کا سامنا کیا۔ ہمارے بانی نے ریستوران کے تصورات کو سالانہ آمدنی میں 10 ملین ڈالر سے زیادہ تک بڑھایا اور ہمیشہ ایک ہی مسئلے کا سامنا کیا: بہت سے نظام، فیصلہ سازی میں بہت کم وضاحت۔",
@@ -1514,8 +1514,8 @@ export const generatedLocalCopy = {
       "title": "وہ انٹیلیجنس پرت جو ریستورانوں کے پاس کبھی نہ تھی"
     },
     "hi": {
-      "metadataTitle": "Sundae के बारे में - रेस्तरां के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
-      "metadataDescription": "Sundae 12+ डेटा स्रोतों को मल्टी-यूनिट रेस्तरां समूहों के लिए एकल इंटेलिजेंस लेयर में एकीकृत करता है। इसे उन ऑपरेटरों द्वारा बनाया गया है जिन्होंने इस समस्या का अनुभव किया है। 22 भाषाओं में उपलब्ध।",
+      "metadataTitle": "Sundae के बारे में - खाद्य सेवा के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
+      "metadataDescription": "Sundae 12+ डेटा स्रोतों को मल्टी-यूनिट खाद्य सेवा समूहों के लिए एकल इंटेलिजेंस लेयर में एकीकृत करता है। इसे उन ऑपरेटरों द्वारा बनाया गया है जिन्होंने इस समस्या का अनुभव किया है। 22 भाषाओं में उपलब्ध।",
       "badge": "Sundae के बारे में",
       "description": "रेस्टोरेंट डेटा आमतौर पर दर्जन भर असंबंधित सिस्टम में होता है। Sundae उस संचालन चित्र को एक जगह लाता है ताकि टीमें वर्तमान आंकड़ों, बाजार संदर्भ और भविष्य की संकेतों के साथ निर्णय ले सकें।",
       "stats": [
@@ -1537,7 +1537,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "हमने क्या बनाया है",
-      "builtDescription": "छह जुड़े हुए स्तर जो ऑपरेटरों को वास्तविक समय की गति से 90-दिन की पूर्वानुमान में जाने में मदद करते हैं बिना सिस्टम के बीच कूदे।",
+      "builtDescription": "छह जुड़े हुए स्तर जो ऑपरेटरों को रिसाव खोजने, समाधान किसी जिम्मेदार व्यक्ति को सौंपने और वसूल किए गए मार्जिन को मापने में मदद करते हैं - वास्तविक समय की गति से 90-दिन के पूर्वानुमानों तक, सिस्टम के बीच कूदे बिना।",
       "missionTitle": "Sundae का अस्तित्व क्यों है",
       "missionDescription": "मल्टी-यूनिट रेस्तरां ऑपरेटर जटिल, उच्च-वॉल्यूम व्यवसाय चलाते हैं जो दर्जनों असंबंधित सिस्टम में फैले होते हैं। परिणाम: लाखों डॉलर के निर्णय जो अंतर्ज्ञान पर आधारित होते हैं, मार्जिन लीक जो तब तक अदृश्य रहते हैं जब तक कि बहुत देर न हो जाए, और प्रदर्शन की बेंचमार्किंग के लिए कोई बाजार संदर्भ नहीं होता।",
       "missionSupport": "हमने Sundae बनाया क्योंकि हमने इस समस्या का अनुभव किया। हमारे संस्थापक ने रेस्तरां के विचारों को वार्षिक राजस्व में $10M से अधिक बढ़ाया और लगातार एक ही समस्या का सामना किया: बहुत सारे सिस्टम, निर्णय की स्पष्टता बहुत कम।",
@@ -1744,8 +1744,8 @@ export const generatedLocalCopy = {
       "title": "वह इंटेलिजेंस लेयर जो रेस्टोरेंट के पास कभी नहीं थी"
     },
     "it": {
-      "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per ristoranti",
-      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un unico livello di intelligenza per gruppi di ristoranti multi-unità. Creato da operatori che hanno vissuto il problema. Localizzato in 22 lingue.",
+      "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per la ristorazione",
+      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un unico livello di intelligenza per gruppi di ristorazione multi-unità. Creato da operatori che hanno vissuto il problema. Localizzato in 22 lingue.",
       "badge": "Informazioni su Sundae",
       "description": "I dati del ristorante di solito risiedono in una dozzina di sistemi disconnessi. Sundae raccoglie quell'immagine operativa in un unico posto, così i team possono prendere decisioni con numeri aggiornati, contesto di mercato e segnali futuri.",
       "stats": [
@@ -1767,7 +1767,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Cosa Abbiamo Costruito",
-      "builtDescription": "Sei livelli connessi che aiutano gli operatori a passare dalla pianificazione in tempo reale a previsioni a 90 giorni senza dover saltare tra i sistemi.",
+      "builtDescription": "Sei livelli connessi che aiutano gli operatori a individuare la perdita, assegnare la correzione a un responsabile e misurare il margine recuperato - dal ritmo in tempo reale alle previsioni a 90 giorni, senza passare da un sistema all'altro.",
       "missionTitle": "Perché Sundae Esiste",
       "missionDescription": "Gli operatori di ristoranti multi-unit gestiscono attività complesse e ad alto volume attraverso dozzine di sistemi disconnessi. Il risultato: decisioni da milioni di dollari basate sull'istinto, perdite di margine invisibili fino a quando non è troppo tardi e nessun contesto di mercato per il benchmarking delle performance.",
       "missionSupport": "Abbiamo creato Sundae perché abbiamo vissuto il problema. Il nostro fondatore ha scalato concetti di ristorazione oltre i 10 milioni di dollari di fatturato annuale e continuava a imbattersi nello stesso problema: troppi sistemi, poca chiarezza nelle decisioni.",
@@ -1929,8 +1929,8 @@ export const generatedLocalCopy = {
       "title": "Lo strato di intelligence che i ristoranti non hanno mai avuto"
     },
     "pl": {
-      "metadataTitle": "O Sundae - Platforma Inteligencji Decyzyjnej dla Restauracji",
-      "metadataDescription": "Sundae łączy 12+ źródeł danych w jedną warstwę inteligencji dla grup restauracyjnych z wieloma lokalizacjami. Stworzony przez operatorów, którzy doświadczyli tego problemu. Zlokalizowana w 22 językach.",
+      "metadataTitle": "O Sundae - Platforma Inteligencji Decyzyjnej dla Gastronomii",
+      "metadataDescription": "Sundae łączy 12+ źródeł danych w jedną warstwę inteligencji dla grup gastronomicznych z wieloma lokalizacjami. Stworzony przez operatorów, którzy doświadczyli tego problemu. Zlokalizowana w 22 językach.",
       "badge": "O Sundae",
       "description": "Dane restauracyjne zazwyczaj znajdują się w kilkunastu odłączonych systemach. Sundae łączy te informacje w jednym miejscu, aby zespoły mogły podejmować decyzje na podstawie aktualnych danych, kontekstu rynkowego i sygnałów przyszłości.",
       "stats": [
@@ -1952,7 +1952,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Co Zbudowaliśmy",
-      "builtDescription": "Sześć połączonych warstw, które pomagają operatorom przejść od bieżącego tempa do prognoz na 90 dni bez przeskakiwania między systemami.",
+      "builtDescription": "Sześć połączonych warstw, które pomagają operatorom znaleźć wyciek, przypisać naprawę właścicielowi i zmierzyć odzyskaną marżę - od śledzenia w czasie rzeczywistym po prognozy 90-dniowe, bez przeskakiwania między systemami.",
       "missionTitle": "Dlaczego istnieje Sundae",
       "missionDescription": "Operatorzy restauracji wielooddziałowych prowadzą skomplikowane, wysokowolumenowe biznesy w dziesiątkach odłączonych systemów. Efekt: decyzje warte miliony podejmowane na podstawie intuicji, wycieki marży niewidoczne, aż będzie za późno, oraz brak kontekstu rynkowego do benchmarkingu wydajności.",
       "missionSupport": "Stworzyliśmy Sundae, ponieważ doświadczyliśmy tego problemu. Nasz założyciel rozwijał koncepcje restauracyjne, osiągając ponad 10 milionów dolarów rocznych przychodów, i ciągle napotykał ten sam problem: zbyt wiele systemów, zbyt mała klarowność decyzji.",
@@ -2114,8 +2114,8 @@ export const generatedLocalCopy = {
       "title": "Warstwa inteligencji, której restauracje nigdy nie miały"
     },
     "tr": {
-      "metadataTitle": "Sundae Hakkında - Restoranlar için Karar Zeka Platformu",
-      "metadataDescription": "Sundae, çoklu birim restoran grupları için 12'den fazla veri kaynağını tek bir zeka katmanında birleştirir. Sorunu yaşayan operatörler tarafından geliştirildi. 22 dilde yerelleştirildi.",
+      "metadataTitle": "Sundae Hakkında - Yeme-İçme Sektörü için Karar Zeka Platformu",
+      "metadataDescription": "Sundae, çoklu birim yeme-içme grupları için 12'den fazla veri kaynağını tek bir zeka katmanında birleştirir. Sorunu yaşayan operatörler tarafından geliştirildi. 22 dilde yerelleştirildi.",
       "badge": "Sundae Hakkında",
       "description": "Restoran verileri genellikle bir düzine bağlantısız sistemde bulunur. Sundae, bu işletme resmini tek bir yerde toplar, böylece ekipler güncel rakamlar, piyasa bağlamı ve geleceğe yönelik sinyallerle kararlar alabilir.",
       "stats": [
@@ -2137,7 +2137,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Ne Yaptık",
-      "builtDescription": "Gerçek zamanlı hızdan 90 günlük tahminlere geçişi sağlayan altı bağlı katman.",
+      "builtDescription": "Operatörlerin sızıntıyı bulmasına, düzeltmeyi bir sorumluya atamasına ve geri kazanılan marjı ölçmesine yardımcı olan altı bağlı katman - gerçek zamanlı takipten 90 günlük tahminlere kadar, sistemler arasında geçiş yapmadan.",
       "missionTitle": "Sundae Neden Var?",
       "missionDescription": "Çoklu birim restoran işletmecileri, birbirinden bağımsız sistemler arasında karmaşık, yüksek hacimli işler yürütmektedir. Sonuç: içgüdüye dayalı milyon dolarlık kararlar, geç kalınana kadar görünmeyen marj kayıpları ve performansı kıyaslamak için sıfır piyasa bağlamı.",
       "missionSupport": "Sundae'yi, bu sorunu yaşadığımız için kurduk. Kurucumuz, restoran konseptlerini yıllık 10 milyon doların üzerinde ölçeklendirdi ve sürekli aynı sorunla karşılaştı: çok fazla sistem, çok az karar netliği.",
@@ -2344,7 +2344,7 @@ export const generatedLocalCopy = {
       "title": "Restoranların hiç sahip olmadığı zeka katmanı"
     },
     "zh-Hans": {
-      "metadataTitle": "关于Sundae - 餐厅决策智能平台",
+      "metadataTitle": "关于Sundae - 餐饮决策智能平台",
       "metadataDescription": "Sundae 将 12 个以上的数据源统一为一个多单位餐饮集团的智能层。由经历过这一问题的运营商构建。已本地化为 22 种语言。",
       "badge": "关于Sundae",
       "description": "餐厅数据通常分散在十几个不相连的系统中。Sundae 将这些运营信息集中到一个地方，以便团队能够根据当前数据、市场背景和前瞻性信号做出决策。",
@@ -2367,7 +2367,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "我们所构建的",
-      "builtDescription": "六个连接的层次，帮助运营商从实时节奏过渡到90天的预测，无需在系统之间跳转。",
+      "builtDescription": "六个互联的层级，帮助运营者找到漏损、把修复指派给负责人并衡量已挽回的利润率，覆盖从实时监控到90天预测，无需在系统之间切换。",
       "missionTitle": "Sundae 存在的原因",
       "missionDescription": "多单位餐厅运营商在数十个不相连的系统中运营复杂的高容量业务。结果是：基于直觉做出的百万美元决策，直到为时已晚才发现的利润流失，以及缺乏市场背景来基准性能。",
       "missionSupport": "我们创建Sundae是因为我们亲身经历了这个问题。我们的创始人将餐饮概念的年收入提升到超过1000万美元，但始终面临同样的问题：系统过多，决策不清晰。",
@@ -2574,8 +2574,8 @@ export const generatedLocalCopy = {
       "title": "餐厅从未拥有的智能层"
     },
     "ja": {
-      "metadataTitle": "Sundaeについて - レストラン向けの意思決定インテリジェンスプラットフォーム",
-      "metadataDescription": "Sundaeは、12以上のデータソースを統合し、マルチユニットレストラングループ向けの単一のインテリジェンスレイヤーを提供します。問題を経験したオペレーターによって構築されました。22言語にローカライズ済み。",
+      "metadataTitle": "Sundaeについて - フードサービス向けの意思決定インテリジェンスプラットフォーム",
+      "metadataDescription": "Sundaeは、12以上のデータソースを統合し、マルチユニットのフードサービスグループ向けの単一のインテリジェンスレイヤーを提供します。問題を経験したオペレーターによって構築されました。22言語にローカライズ済み。",
       "badge": "Sundaeについて",
       "description": "レストランデータは通常、数多くの切り離されたシステムに存在します。Sundaeは、その運営状況を一つの場所に集約し、チームが最新の数字、市場の文脈、将来のシグナルをもとに意思決定できるようにします。",
       "stats": [
@@ -2597,7 +2597,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "私たちが構築したもの",
-      "builtDescription": "リアルタイムのペーシングから90日間の予測に移行するための6つの接続されたレイヤーがあり、システム間を行き来する必要がありません。",
+      "builtDescription": "オペレーターが漏れを見つけ、修正を担当者に割り当て、取り戻したマージンを測定するのに役立つ6つの連携レイヤー。リアルタイムのペーシングから90日間の予測まで、システム間を行き来する必要はありません。",
       "missionTitle": "Sundaeの存在理由",
       "missionDescription": "複数の店舗を運営するレストランオペレーターは、数十の切り離されたシステムを通じて複雑で高ボリュームのビジネスを展開しています。その結果、直感に基づいた百万ドルの意思決定、手遅れになるまで見えないマージンの漏れ、パフォーマンスをベンチマークするための市場コンテキストがゼロになります。",
       "missionSupport": "私たちはSundaeを作りました。なぜなら、私たち自身がその問題を経験したからです。創業者はレストランのコンセプトを年間収益1000万ドル以上に拡大しましたが、常に同じ問題に直面していました：システムが多すぎて、意思決定が不明確すぎるのです。",
@@ -2804,8 +2804,8 @@ export const generatedLocalCopy = {
       "title": "レストランがこれまで持てなかったインテリジェンス層"
     },
     "id": {
-      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
-      "metadataDescription": "Sundae menggabungkan 12+ sumber data menjadi satu lapisan intelijen untuk grup restoran multi-unit. Dibangun oleh operator yang mengalami masalah tersebut. Dilokalkan dalam 22 bahasa.",
+      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Layanan Makanan",
+      "metadataDescription": "Sundae menggabungkan 12+ sumber data menjadi satu lapisan intelijen untuk grup layanan makanan multi-unit. Dibangun oleh operator yang mengalami masalah tersebut. Dilokalkan dalam 22 bahasa.",
       "badge": "Tentang Sundae",
       "description": "Data restoran biasanya tersebar di berbagai sistem yang tidak terhubung. Sundae mengumpulkan informasi tersebut ke dalam satu tempat sehingga tim dapat membuat keputusan dengan angka terkini, konteks pasar, dan sinyal yang mengarah ke depan.",
       "stats": [
@@ -2827,7 +2827,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Apa yang Telah Kami Bangun",
-      "builtDescription": "Enam lapisan terhubung yang membantu operator beralih dari penjadwalan waktu nyata ke perkiraan 90 hari tanpa berpindah antar sistem.",
+      "builtDescription": "Enam lapisan terhubung yang membantu operator menemukan kebocoran, menugaskan perbaikan kepada penanggung jawab, dan mengukur margin yang dipulihkan - dari pemantauan waktu nyata hingga perkiraan 90 hari, tanpa berpindah antar sistem.",
       "missionTitle": "Mengapa Sundae Ada",
       "missionDescription": "Operator restoran multi-unit menjalankan bisnis yang kompleks dan bervolume tinggi di berbagai sistem yang tidak terhubung. Hasilnya: keputusan bernilai jutaan dolar dibuat berdasarkan insting, kebocoran margin yang tidak terlihat hingga terlambat, dan tidak ada konteks pasar untuk membandingkan kinerja.",
       "missionSupport": "Kami membangun Sundae karena kami mengalami masalah tersebut. Pendiri kami mengembangkan konsep restoran hingga lebih dari $10 juta dalam pendapatan tahunan dan terus menghadapi masalah yang sama: terlalu banyak sistem, terlalu sedikit kejelasan dalam pengambilan keputusan.",
@@ -3034,8 +3034,8 @@ export const generatedLocalCopy = {
       "title": "Lapisan inteligensi yang tak pernah dimiliki restoran"
     },
     "vi": {
-      "metadataTitle": "Giới thiệu về Sundae - Nền tảng Trí tuệ Quyết định cho Nhà hàng",
-      "metadataDescription": "Sundae hợp nhất hơn 12 nguồn dữ liệu thành một lớp trí tuệ duy nhất cho các nhóm nhà hàng đa đơn vị. Được xây dựng bởi những người điều hành đã trải qua vấn đề này. Được bản địa hóa bằng 22 ngôn ngữ.",
+      "metadataTitle": "Giới thiệu về Sundae - Nền tảng Trí tuệ Quyết định cho Dịch vụ Ăn uống",
+      "metadataDescription": "Sundae hợp nhất hơn 12 nguồn dữ liệu thành một lớp trí tuệ duy nhất cho các nhóm dịch vụ ăn uống đa đơn vị. Được xây dựng bởi những người điều hành đã trải qua vấn đề này. Được bản địa hóa bằng 22 ngôn ngữ.",
       "badge": "Về Sundae",
       "description": "Dữ liệu nhà hàng thường nằm rải rác trong nhiều hệ thống không liên kết. Sundae tập hợp bức tranh hoạt động đó vào một nơi để các nhóm có thể đưa ra quyết định dựa trên số liệu hiện tại, bối cảnh thị trường và các tín hiệu dự báo.",
       "stats": [
@@ -3057,7 +3057,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Những gì chúng tôi đã xây dựng",
-      "builtDescription": "Sáu lớp kết nối giúp các nhà điều hành chuyển từ việc theo dõi thời gian thực sang dự báo 90 ngày mà không cần chuyển đổi giữa các hệ thống.",
+      "builtDescription": "Sáu lớp kết nối giúp các nhà điều hành tìm ra điểm thất thoát, giao việc khắc phục cho một người phụ trách và đo lường phần biên lợi nhuận đã thu hồi - từ theo dõi thời gian thực đến dự báo 90 ngày, mà không cần chuyển đổi giữa các hệ thống.",
       "missionTitle": "Tại sao Sundae tồn tại",
       "missionDescription": "Các nhà điều hành nhà hàng đa đơn vị điều hành các doanh nghiệp phức tạp, có khối lượng lớn trên hàng chục hệ thống không liên kết. Kết quả: những quyết định triệu đô được đưa ra dựa trên cảm tính, sự rò rỉ lợi nhuận không thể nhìn thấy cho đến khi quá muộn, và không có bối cảnh thị trường nào để so sánh hiệu suất.",
       "missionSupport": "Chúng tôi xây dựng Sundae vì chúng tôi đã trải qua vấn đề này. Người sáng lập của chúng tôi đã mở rộng các khái niệm nhà hàng vượt qua 10 triệu đô la doanh thu hàng năm và liên tục gặp phải cùng một vấn đề: quá nhiều hệ thống, quá ít sự rõ ràng trong quyết định.",
@@ -3264,8 +3264,8 @@ export const generatedLocalCopy = {
       "title": "Tầng trí tuệ mà nhà hàng chưa từng có"
     },
     "ko": {
-      "metadataTitle": "Sundae - 레스토랑을 위한 의사결정 인텔리전스 플랫폼",
-      "metadataDescription": "Sundae는 12개 이상의 데이터 소스를 통합하여 다중 단위 레스토랑 그룹을 위한 단일 인텔리전스 레이어를 제공합니다. 문제를 경험한 운영자들이 만든 솔루션입니다. 22개 언어로 현지화되었습니다.",
+      "metadataTitle": "Sundae - 외식업을 위한 의사결정 인텔리전스 플랫폼",
+      "metadataDescription": "Sundae는 12개 이상의 데이터 소스를 통합하여 다중 단위 외식 그룹을 위한 단일 인텔리전스 레이어를 제공합니다. 문제를 경험한 운영자들이 만든 솔루션입니다. 22개 언어로 현지화되었습니다.",
       "badge": "Sundae에 대하여",
       "description": "레스토랑 데이터는 보통 여러 개의 분리된 시스템에 존재합니다. Sundae는 이러한 운영 정보를 한 곳으로 모아 팀이 현재 수치, 시장 맥락 및 미래 신호를 기반으로 의사 결정을 할 수 있도록 합니다.",
       "stats": [
@@ -3287,7 +3287,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "우리가 만든 것",
-      "builtDescription": "운영자가 시스템 간 전환 없이 실시간 속도 조정에서 90일 예측으로 이동할 수 있도록 돕는 6개의 연결된 레이어.",
+      "builtDescription": "운영자가 누수를 찾아내고, 수정 작업을 담당자에게 배정하고, 회수한 마진을 측정하도록 돕는 6개의 연결된 레이어 - 실시간 페이싱부터 90일 예측까지, 시스템 간 전환 없이.",
       "missionTitle": "Sundae가 존재하는 이유",
       "missionDescription": "다수의 매장을 운영하는 레스토랑 운영자들은 수십 개의 분리된 시스템에서 복잡하고 대량의 비즈니스를 운영합니다. 그 결과: 직감에 의한 백만 달러 규모의 결정, 너무 늦기 전까지 보이지 않는 마진 유출, 성과 벤치마킹을 위한 시장 맥락의 부재가 발생합니다.",
       "missionSupport": "우리는 문제를 직접 경험했기 때문에 Sundae를 만들었습니다. 우리의 창립자는 연간 수익 1천만 달러를 넘는 레스토랑 개념을 확장하면서 같은 문제에 계속 부딪혔습니다: 너무 많은 시스템, 너무 적은 의사결정 명확성.",
@@ -3494,8 +3494,8 @@ export const generatedLocalCopy = {
       "title": "레스토랑이 갖지 못했던 인텔리전스 레이어"
     },
     "ro": {
-      "metadataTitle": "Despre Sundae - Platforma de Inteligență Decizională pentru Restaurante",
-      "metadataDescription": "Sundae unifică peste 12 surse de date într-un singur strat de inteligență pentru grupuri de restaurante multi-unitate. Creat de operatori care au trăit problema. Localizat în 22 de limbi.",
+      "metadataTitle": "Despre Sundae - Platforma de Inteligență Decizională pentru Servicii de Alimentație",
+      "metadataDescription": "Sundae unifică peste 12 surse de date într-un singur strat de inteligență pentru grupuri de servicii de alimentație multi-unitate. Creat de operatori care au trăit problema. Localizat în 22 de limbi.",
       "badge": "Despre Sundae",
       "description": "Datele restaurantului trăiesc de obicei în zeci de sisteme deconectate. Sundae adună această imagine operațională într-un singur loc, astfel încât echipele să poată lua decizii bazate pe cifre actuale, context de piață și semnale viitoare.",
       "stats": [
@@ -3517,7 +3517,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Ce am construit",
-      "builtDescription": "Șase straturi conectate care ajută operatorii să treacă de la ritmul în timp real la prognoze pe 90 de zile fără a sări între sisteme.",
+      "builtDescription": "Șase straturi conectate care ajută operatorii să găsească scurgerea, să atribuie remedierea unui responsabil și să măsoare marja recuperată - de la monitorizarea în timp real la prognoze pe 90 de zile, fără a comuta între sisteme.",
       "missionTitle": "De ce există Sundae",
       "missionDescription": "Operatorii de restaurante multi-unitate conduc afaceri complexe și de mare volum prin zeci de sisteme deconectate. Rezultatul: decizii de milioane de dolari luate pe baza intuiției, pierderi de marjă invizibile până când este prea târziu și lipsa unui context de piață pentru evaluarea performanței.",
       "missionSupport": "Am construit Sundae pentru că am trăit problema. Fondatorul nostru a extins conceptele de restaurant peste 10 milioane de dolari în venituri anuale și s-a confruntat constant cu aceeași problemă: prea multe sisteme, prea puțină claritate în decizii.",
@@ -3679,8 +3679,8 @@ export const generatedLocalCopy = {
       "title": "Stratul de inteligență pe care restaurantele nu l-au avut niciodată"
     },
     "sv": {
-      "metadataTitle": "Om Sundae - Plattformen för Beslutsintelligens för Restauranger",
-      "metadataDescription": "Sundae förenar 12+ datakällor i ett enda intelligenslager för fleranläggningsrestauranggrupper. Byggt av operatörer som har upplevt problemet. Lokaliserad på 22 språk.",
+      "metadataTitle": "Om Sundae - Plattformen för Beslutsintelligens för Foodservice",
+      "metadataDescription": "Sundae förenar 12+ datakällor i ett enda intelligenslager för foodservicegrupper med flera anläggningar. Byggt av operatörer som har upplevt problemet. Lokaliserad på 22 språk.",
       "badge": "Om Sundae",
       "description": "Restaurangdata finns vanligtvis i ett dussin avskilda system. Sundae samlar den operativa bilden på ett ställe så att team kan fatta beslut med aktuella siffror, marknadskontext och framtidsinriktade signaler.",
       "stats": [
@@ -3702,7 +3702,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Vad vi har byggt",
-      "builtDescription": "Sex sammanlänkade lager som hjälper operatörer att gå från realtidsplanering till 90-dagarsprognoser utan att hoppa mellan system.",
+      "builtDescription": "Sex sammanlänkade lager som hjälper operatörer att hitta läckan, tilldela åtgärden till en ansvarig och mäta den återvunna marginalen - från realtidsuppföljning till 90-dagarsprognoser, utan att hoppa mellan system.",
       "missionTitle": "Varför Sundae Existerar",
       "missionDescription": "Flerenhetsrestaurangoperatörer driver komplexa, högvolymföretag över dussintals avskilda system. Resultatet: miljonbeslut baserade på magkänsla, osynlig marginalförlust tills det är för sent, och ingen marknadskontext för att jämföra prestation.",
       "missionSupport": "Vi byggde Sundae eftersom vi upplevde problemet. Vår grundare skalerade restaurangkoncept till över 10 miljoner dollar i årlig intäkt och stötte ständigt på samma problem: för många system, för lite beslutsklarhet.",
@@ -3909,8 +3909,8 @@ export const generatedLocalCopy = {
       "title": "Intelligenslagret som restauranger aldrig haft"
     },
     "bn": {
-      "metadataTitle": "Sundae সম্পর্কে - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
-      "metadataDescription": "Sundae 12+ ডেটা সোর্সকে একক বুদ্ধিমত্তা স্তরে একত্রিত করে বহু ইউনিট রেস্তোরাঁ গ্রুপের জন্য। যারা সমস্যাটি অনুভব করেছেন তাদের দ্বারা নির্মিত। ২২টি ভাষায় স্থানীয়কৃত।",
+      "metadataTitle": "Sundae সম্পর্কে - খাদ্য পরিষেবার জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
+      "metadataDescription": "Sundae 12+ ডেটা সোর্সকে একক বুদ্ধিমত্তা স্তরে একত্রিত করে বহু ইউনিট খাদ্য পরিষেবা গ্রুপের জন্য। যারা সমস্যাটি অনুভব করেছেন তাদের দ্বারা নির্মিত। ২২টি ভাষায় স্থানীয়কৃত।",
       "badge": "Sundae সম্পর্কে",
       "description": "রেস্টুরেন্টের তথ্য সাধারণত এক ডজন বিচ্ছিন্ন সিস্টেমে থাকে। Sundae সেই কার্যকরী চিত্রটিকে এক জায়গায় নিয়ে আসে যাতে দলগুলি বর্তমান সংখ্যা, বাজারের প্রেক্ষাপট এবং ভবিষ্যত সংকেতের সাথে সিদ্ধান্ত নিতে পারে।",
       "stats": [
@@ -3932,7 +3932,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "আমরা কী তৈরি করেছি",
-      "builtDescription": "ছয়টি সংযুক্ত স্তর যা অপারেটরদের বাস্তব সময়ের গতি থেকে 90 দিনের পূর্বাভাসে যেতে সাহায্য করে, সিস্টেমগুলির মধ্যে ঝাঁপিয়ে না গিয়ে।",
+      "builtDescription": "ছয়টি সংযুক্ত স্তর যা অপারেটরদের ফুটো খুঁজে বের করতে, সমাধান একজন দায়িত্বশীলের কাছে হস্তান্তর করতে এবং পুনরুদ্ধার করা মার্জিন পরিমাপ করতে সাহায্য করে - বাস্তব সময়ের গতি থেকে ৯০ দিনের পূর্বাভাস পর্যন্ত, সিস্টেমগুলির মধ্যে লাফ না দিয়ে।",
       "missionTitle": "Sundae কেন রয়েছে",
       "missionDescription": "মাল্টি-ইউনিট রেস্টুরেন্ট অপারেটররা অসংখ্য বিচ্ছিন্ন সিস্টেম জুড়ে জটিল, উচ্চ-পরিমাণ ব্যবসা পরিচালনা করেন। ফলস্বরূপ: অন্তর্দৃষ্টি ভিত্তিক মিলিয়ন ডলারের সিদ্ধান্ত, মার্জিন লিকেজ যা খুব দেরিতে দেখা যায়, এবং কর্মক্ষমতার বেঞ্চমার্কিংয়ের জন্য শূন্য বাজারের প্রেক্ষাপট।",
       "missionSupport": "আমরা Sundae তৈরি করেছি কারণ আমরা সমস্যাটি অনুভব করেছি। আমাদের প্রতিষ্ঠাতা রেস্তোরাঁর ধারণাগুলিকে বার্ষিক $10M রাজস্বের বেশি বৃদ্ধি করেছিলেন এবং একই সমস্যার মুখোমুখি হচ্ছিলেন: অনেক বেশি সিস্টেম, সিদ্ধান্তের স্বচ্ছতার অভাব।",
@@ -4139,8 +4139,8 @@ export const generatedLocalCopy = {
       "title": "যে ইন্টেলিজেন্স লেয়ার রেস্তোরাঁর কখনও ছিল না"
     },
     "th": {
-      "metadataTitle": "เกี่ยวกับ Sundae - แพลตฟอร์มการตัดสินใจอัจฉริยะสำหรับร้านอาหาร",
-      "metadataDescription": "Sundae รวมแหล่งข้อมูลกว่า 12 แหล่งเข้าด้วยกันเป็นชั้นข้อมูลอัจฉริยะเดียวสำหรับกลุ่มร้านอาหารหลายแห่ง สร้างขึ้นโดยผู้ดำเนินการที่เคยเผชิญปัญหานี้ รองรับ 22 ภาษา",
+      "metadataTitle": "เกี่ยวกับ Sundae - แพลตฟอร์มการตัดสินใจอัจฉริยะสำหรับธุรกิจบริการอาหาร",
+      "metadataDescription": "Sundae รวมแหล่งข้อมูลกว่า 12 แหล่งเข้าด้วยกันเป็นชั้นข้อมูลอัจฉริยะเดียวสำหรับกลุ่มธุรกิจบริการอาหารหลายสาขา สร้างขึ้นโดยผู้ดำเนินการที่เคยเผชิญปัญหานี้ รองรับ 22 ภาษา",
       "badge": "เกี่ยวกับ Sundae",
       "description": "ข้อมูลร้านอาหารมักจะอยู่ในระบบที่ไม่เชื่อมต่อกันหลายสิบระบบ Sundae จึงรวบรวมภาพรวมการดำเนินงานไว้ในที่เดียว เพื่อให้ทีมสามารถตัดสินใจได้ด้วยข้อมูลที่ทันสมัย บริบทของตลาด และสัญญาณที่มองไปข้างหน้า.",
       "stats": [
@@ -4162,7 +4162,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "สิ่งที่เราสร้างขึ้น",
-      "builtDescription": "หกชั้นที่เชื่อมต่อกันซึ่งช่วยให้ผู้ปฏิบัติงานสามารถเปลี่ยนจากการติดตามแบบเรียลไทม์ไปสู่การคาดการณ์ 90 วันโดยไม่ต้องสลับระหว่างระบบ.",
+      "builtDescription": "หกชั้นที่เชื่อมต่อกันซึ่งช่วยให้ผู้ปฏิบัติงานค้นหาจุดรั่วไหล มอบหมายการแก้ไขให้ผู้รับผิดชอบ และวัดกำไรที่กู้คืนมาได้ - ตั้งแต่การติดตามแบบเรียลไทม์ไปจนถึงการคาดการณ์ 90 วัน โดยไม่ต้องสลับไปมาระหว่างระบบ",
       "missionTitle": "ทำไมSundaeถึงมีอยู่",
       "missionDescription": "ผู้ดำเนินการร้านอาหารหลายแห่งดำเนินธุรกิจที่ซับซ้อนและมีปริมาณสูงในระบบที่ไม่เชื่อมต่อกันหลายสิบระบบ ผลลัพธ์คือการตัดสินใจมูลค่าหลายล้านดอลลาร์ที่ทำจากความรู้สึก, การรั่วไหลของกำไรที่มองไม่เห็นจนกว่าจะสายเกินไป, และไม่มีบริบทตลาดสำหรับการเปรียบเทียบประสิทธิภาพ.",
       "missionSupport": "เราได้สร้าง Sundae เพราะเราได้ประสบปัญหานี้มาแล้ว ผู้ก่อตั้งของเราได้ขยายแนวคิดร้านอาหารจนมีรายได้เกิน 10 ล้านดอลลาร์ต่อปี และพบเจอปัญหาเดียวกันซ้ำแล้วซ้ำเล่า: ระบบมากเกินไป แต่ความชัดเจนในการตัดสินใจน้อยเกินไป.",
@@ -4369,8 +4369,8 @@ export const generatedLocalCopy = {
       "title": "ชั้นอัจฉริยะที่ร้านอาหารไม่เคยมี"
     },
     "ms": {
-      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
-      "metadataDescription": "Sundae menyatukan 12+ sumber data ke dalam satu lapisan kecerdasan untuk kumpulan restoran berbilang unit. Dibina oleh pengendali yang mengalami masalah tersebut. Disetempatkan dalam 22 bahasa.",
+      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Perkhidmatan Makanan",
+      "metadataDescription": "Sundae menyatukan 12+ sumber data ke dalam satu lapisan kecerdasan untuk kumpulan perkhidmatan makanan berbilang unit. Dibina oleh pengendali yang mengalami masalah tersebut. Disetempatkan dalam 22 bahasa.",
       "badge": "Tentang Sundae",
       "description": "Data restoran biasanya berada dalam beberapa sistem yang tidak berkaitan. Sundae mengumpulkan gambaran operasi itu ke dalam satu tempat supaya pasukan dapat membuat keputusan dengan angka terkini, konteks pasaran, dan isyarat yang menjangkau masa depan.",
       "stats": [
@@ -4392,7 +4392,7 @@ export const generatedLocalCopy = {
         }
       ],
       "builtTitle": "Apa yang Kami Telah Bina",
-      "builtDescription": "Enam lapisan yang saling terhubung yang membantu pengendali beralih dari penjadualan masa nyata kepada ramalan 90 hari tanpa perlu melompat antara sistem.",
+      "builtDescription": "Enam lapisan bersambung yang membantu pengendali mencari kebocoran, menyerahkan pembetulan kepada seorang penanggungjawab, dan mengukur margin yang dipulihkan - daripada pemantauan masa nyata hingga ramalan 90 hari, tanpa perlu melompat antara sistem.",
       "missionTitle": "Mengapa Sundae Wujud",
       "missionDescription": "Pengendali restoran berbilang unit menjalankan perniagaan yang kompleks dan bervolume tinggi merentasi puluhan sistem yang tidak berkaitan. Hasilnya: keputusan bernilai jutaan dolar dibuat berdasarkan perasaan, kebocoran margin yang tidak dapat dilihat sehingga terlambat, dan tiada konteks pasaran untuk penanda aras prestasi.",
       "missionSupport": "Kami membina Sundae kerana kami mengalami masalah tersebut. Pengasas kami mengembangkan konsep restoran melebihi $10M dalam pendapatan tahunan dan terus menghadapi isu yang sama: terlalu banyak sistem, terlalu sedikit kejelasan keputusan.",

@@ -19,7 +19,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "استباقية، وليس رد الفعل",
-          "text": "احصل على تنبيهات عندما يتحرك المنافسون. التنبؤ بتحولات الطلب. رؤية الاتجاهات قبل أن تصل."
+          "text": "احصل على تنبيهات عندما يتحرك المنافسون. التنبؤ بتحولات الطلب. تحرّك على الاتجاهات قبل أن تصيب هامشك."
         },
         {
           "icon": "intelligence",
@@ -121,7 +121,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "الأسئلة المتداولة",
       "ctaTitle": "أضف الذكاء الخارجي إلى النظام الأساسي الخاص بك",
-      "ctaDescription": "شاهد عملك في سياق السوق الكامل. لن يتم القبض عليك على حين غرة مرة أخرى.",
+      "ctaDescription": "شاهد عملك في سياق السوق الكامل. احمِ هامشك قبل أن يحرّكه السوق.",
       "ctaAdd": "أضف إلى خطتك",
       "ctaDemo": "شاهده عمليًا",
       "ctaSales": "تحدث إلى المبيعات"
@@ -143,7 +143,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proactif, pas réactif",
-          "text": "Recevez des alertes lorsque les concurrents bougent. Anticipez les variations de la demande. Découvrez les tendances avant qu'elles ne surviennent."
+          "text": "Recevez des alertes lorsque les concurrents bougent. Anticipez les variations de la demande. Agissez sur les tendances avant qu'elles ne touchent votre marge."
         },
         {
           "icon": "intelligence",
@@ -245,7 +245,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Foire aux questions",
       "ctaTitle": "Ajoutez une intelligence externe à votre plateforme",
-      "ctaDescription": "Visualisez votre entreprise dans le contexte complet du marché. Ne soyez plus jamais pris au dépourvu.",
+      "ctaDescription": "Visualisez votre entreprise dans le contexte complet du marché. Protégez votre marge avant que le marché ne la déplace.",
       "ctaAdd": "Ajoutez à votre forfait",
       "ctaDemo": "Voyez-le en action",
       "ctaSales": "Parlez aux ventes"
@@ -267,7 +267,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proactivo, no reactivo",
-          "text": "Reciba alertas cuando los competidores se muevan. Predecir cambios en la demanda. Vea las tendencias antes de que lleguen."
+          "text": "Reciba alertas cuando los competidores se muevan. Predecir cambios en la demanda. Actúe sobre las tendencias antes de que afecten su margen."
         },
         {
           "icon": "intelligence",
@@ -369,7 +369,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Preguntas frecuentes",
       "ctaTitle": "Agregue inteligencia externa a su plataforma",
-      "ctaDescription": "Vea su negocio en el contexto completo del mercado. Nunca más te tomarán desprevenido.",
+      "ctaDescription": "Vea su negocio en el contexto completo del mercado. Proteja su margen antes de que el mercado lo mueva.",
       "ctaAdd": "Agregue a su plan",
       "ctaDemo": "Véalo en acción",
       "ctaSales": "Habla con Ventas"
@@ -391,7 +391,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proaktiv, nicht reaktiv",
-          "text": "Erhalten Sie Benachrichtigungen, wenn Konkurrenten umziehen. Prognostizieren Sie Nachfrageverschiebungen. Sehen Sie Trends, bevor sie eintreten."
+          "text": "Erhalten Sie Benachrichtigungen, wenn Konkurrenten umziehen. Prognostizieren Sie Nachfrageverschiebungen. Handeln Sie bei Trends, bevor sie Ihre Marge treffen."
         },
         {
           "icon": "intelligence",
@@ -493,7 +493,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Häufig gestellte Fragen",
       "ctaTitle": "Fügen Sie Ihrer Plattform externe Intelligenz hinzu",
-      "ctaDescription": "Sehen Sie Ihr Unternehmen im vollständigen Marktkontext. Lassen Sie sich nie wieder unvorbereitet überraschen.",
+      "ctaDescription": "Sehen Sie Ihr Unternehmen im vollständigen Marktkontext. Schützen Sie Ihre Marge, bevor der Markt sie verschiebt.",
       "ctaAdd": "Zu Ihrem Plan hinzufügen",
       "ctaDemo": "Sehen Sie es in Aktion",
       "ctaSales": "Sprechen Sie mit dem Vertrieb",
@@ -516,7 +516,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proactief, niet reactief",
-          "text": "Ontvang waarschuwingen wanneer concurrenten bewegen. Voorspel verschuivingen in de vraag. Zie trends voordat ze toeslaan."
+          "text": "Ontvang waarschuwingen wanneer concurrenten bewegen. Voorspel verschuivingen in de vraag. Speel in op trends voordat ze uw marge raken."
         },
         {
           "icon": "intelligence",
@@ -618,7 +618,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Veelgestelde vragen",
       "ctaTitle": "Voeg externe intelligentie toe aan uw platform",
-      "ctaDescription": "Bekijk uw bedrijf in de volledige marktcontext. Laat u nooit meer verrassen.",
+      "ctaDescription": "Bekijk uw bedrijf in de volledige marktcontext. Bescherm uw marge voordat de markt die verschuift.",
       "ctaAdd": "Voeg toe aan uw abonnement",
       "ctaDemo": "Zie het in actie",
       "ctaSales": "Praat met Verkoop",
@@ -641,7 +641,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proativo, não reativo",
-          "text": "Receba alertas quando os concorrentes se moverem. Preveja mudanças na demanda. Veja as tendências antes que elas cheguem."
+          "text": "Receba alertas quando os concorrentes se moverem. Preveja mudanças na demanda. Aja nas tendências antes que elas atinjam a sua margem."
         },
         {
           "icon": "intelligence",
@@ -743,7 +743,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Perguntas frequentes",
       "ctaTitle": "Adicione inteligência externa à sua plataforma",
-      "ctaDescription": "Veja o seu negócio em todo o contexto do mercado. Nunca mais seja pego desprevenido.",
+      "ctaDescription": "Veja o seu negócio em todo o contexto do mercado. Proteja a sua margem antes que o mercado a mova.",
       "ctaAdd": "Adicione ao seu plano",
       "ctaDemo": "Veja em ação",
       "ctaSales": "Fale com Vendas",
@@ -766,7 +766,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "فعال، رد عمل نہیں",
-          "text": "جب حریف حرکت کرتے ہیں تو الرٹس حاصل کریں۔ مانگ کی تبدیلیوں کی پیشن گوئی کریں۔ رجحانات کو مارنے سے پہلے دیکھیں۔"
+          "text": "جب حریف حرکت کرتے ہیں تو الرٹس حاصل کریں۔ مانگ کی تبدیلیوں کی پیشن گوئی کریں۔ رجحانات آپ کے مارجن پر اثر ڈالنے سے پہلے اُن پر عمل کریں۔"
         },
         {
           "icon": "intelligence",
@@ -868,7 +868,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "اکثر پوچھے گئے سوالات",
       "ctaTitle": "اپنے پلیٹ فارم میں بیرونی ذہانت شامل کریں۔",
-      "ctaDescription": "اپنے کاروبار کو پورے بازار کے تناظر میں دیکھیں۔ دوبارہ کبھی بھی چوکس نہ ہوں۔",
+      "ctaDescription": "اپنے کاروبار کو پورے بازار کے تناظر میں دیکھیں۔ بازار کے اثر انداز ہونے سے پہلے اپنے مارجن کی حفاظت کریں۔",
       "ctaAdd": "اپنے منصوبے میں شامل کریں۔",
       "ctaDemo": "اسے ایکشن میں دیکھیں",
       "ctaSales": "سیلز سے بات کریں۔",
@@ -891,7 +891,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "प्रोएक्टिव, रिएक्टिव नहीं",
-          "text": "जब प्रतिस्पर्धी आगे बढ़ें तो अलर्ट प्राप्त करें। मांग में बदलाव की भविष्यवाणी करें। रुझान आने से पहले देखें."
+          "text": "जब प्रतिस्पर्धी आगे बढ़ें तो अलर्ट प्राप्त करें। मांग में बदलाव की भविष्यवाणी करें। रुझान आपके मार्जिन पर असर डालने से पहले उन पर कदम उठाएँ।"
         },
         {
           "icon": "intelligence",
@@ -993,7 +993,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "अक्सर पूछे जाने वाले प्रश्न",
       "ctaTitle": "अपने प्लेटफ़ॉर्म पर बाहरी इंटेलिजेंस जोड़ें",
-      "ctaDescription": "अपने व्यवसाय को पूर्ण बाज़ार संदर्भ में देखें। फिर कभी भी सतर्क न रहें।",
+      "ctaDescription": "अपने व्यवसाय को पूर्ण बाज़ार संदर्भ में देखें। बाज़ार के असर डालने से पहले अपने मार्जिन की रक्षा करें।",
       "ctaAdd": "अपनी योजना में जोड़ें",
       "ctaDemo": "इसे क्रियान्वित रूप में देखें",
       "ctaSales": "सेल्स से बात करें",
@@ -1016,7 +1016,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proaktif, Reaktif Değil",
-          "text": "Rakipler hareket ettiğinde uyarı alın. Talep değişimlerini tahmin edin. Trendleri ortaya çıkmadan önce görün."
+          "text": "Rakipler hareket ettiğinde uyarı alın. Talep değişimlerini tahmin edin. Trendler marjınızı etkilemeden önce harekete geçin."
         },
         {
           "icon": "intelligence",
@@ -1118,7 +1118,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Sıkça Sorulan Sorular",
       "ctaTitle": "Platformunuza Dış Zeka Ekleyin",
-      "ctaDescription": "İşletmenizi tam pazar bağlamında görün. Bir daha asla hazırlıksız yakalanmayın.",
+      "ctaDescription": "İşletmenizi tam pazar bağlamında görün. Pazar marjınızı hareket ettirmeden önce onu koruyun.",
       "ctaAdd": "Planınıza Ekle",
       "ctaDemo": "İş Başında Görün",
       "ctaSales": "Satışla Konuşun",
@@ -1141,7 +1141,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proattivo, non reattivo",
-          "text": "Ricevi avvisi quando i concorrenti si muovono. Prevedere i cambiamenti della domanda. Scopri le tendenze prima che colpiscano."
+          "text": "Ricevi avvisi quando i concorrenti si muovono. Prevedere i cambiamenti della domanda. Agisci sulle tendenze prima che colpiscano il tuo margine."
         },
         {
           "icon": "intelligence",
@@ -1243,7 +1243,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Domande frequenti",
       "ctaTitle": "Aggiungi intelligenza esterna alla tua piattaforma",
-      "ctaDescription": "Osserva la tua attività nell'intero contesto del mercato. Non farti mai più prendere alla sprovvista.",
+      "ctaDescription": "Osserva la tua attività nell'intero contesto del mercato. Proteggi il tuo margine prima che sia il mercato a muoverlo.",
       "ctaAdd": "Aggiungi al tuo piano",
       "ctaDemo": "Guardalo in azione",
       "ctaSales": "Parla con le vendite",
@@ -1266,7 +1266,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proaktywny, nie reaktywny",
-          "text": "Otrzymuj powiadomienia, gdy konkurencja się poruszy. Przewiduj zmiany popytu. Zobacz trendy, zanim uderzą."
+          "text": "Otrzymuj powiadomienia, gdy konkurencja się poruszy. Przewiduj zmiany popytu. Zareaguj na trendy, zanim uderzą w twoją marżę."
         },
         {
           "icon": "intelligence",
@@ -1368,7 +1368,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Często zadawane pytania",
       "ctaTitle": "Dodaj zewnętrzną inteligencję do swojej platformy",
-      "ctaDescription": "Zobacz swoją firmę w pełnym kontekście rynkowym. Nigdy więcej nie daj się zaskoczyć.",
+      "ctaDescription": "Zobacz swoją firmę w pełnym kontekście rynkowym. Chroń swoją marżę, zanim ruszy ją rynek.",
       "ctaAdd": "Dodaj do swojego planu",
       "ctaDemo": "Zobacz to w akcji",
       "ctaSales": "Porozmawiaj z działem sprzedaży",
@@ -1391,7 +1391,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "主动，而非被动",
-          "text": "当竞争对手移动时收到警报。预测需求变化。在趋势出现之前了解趋势。"
+          "text": "当竞争对手移动时收到警报。预测需求变化。在趋势冲击利润之前就先行动。"
         },
         {
           "icon": "intelligence",
@@ -1493,7 +1493,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "常见问题解答",
       "ctaTitle": "将外部智能添加到您的平台",
-      "ctaDescription": "在完整的市场背景下了解您的业务。再也不会措手不及。",
+      "ctaDescription": "在完整的市场背景下了解您的业务。在市场撼动利润之前就守住它。",
       "ctaAdd": "添加到您的计划",
       "ctaDemo": "查看实际效果",
       "ctaSales": "与销售人员交谈",
@@ -1516,7 +1516,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "事後対応ではなく、積極的な対応",
-          "text": "競合他社が移動したときにアラートを受け取ります。需要の変化を予測します。ヒットする前にトレンドを確認します。"
+          "text": "競合他社が移動したときにアラートを受け取ります。需要の変化を予測します。トレンドが利益率に響く前に動く。"
         },
         {
           "icon": "intelligence",
@@ -1618,7 +1618,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "よくある質問",
       "ctaTitle": "外部インテリジェンスをプラットフォームに追加",
-      "ctaDescription": "完全な市場コンテキストでビジネスを確認します。もう二度と不意を突かれることはありません。",
+      "ctaDescription": "完全な市場コンテキストでビジネスを確認します。市場が動かす前に、利益率を守る。",
       "ctaAdd": "プランに追加",
       "ctaDemo": "実際に見てみる",
       "ctaSales": "営業担当者に相談する",
@@ -1641,7 +1641,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "사전 대응적, 사후 대응적이지 않음",
-          "text": "경쟁업체가 움직일 때 알림을 받으세요. 수요 변화를 예측합니다. 추세가 나타나기 전에 확인하세요."
+          "text": "경쟁업체가 움직일 때 알림을 받으세요. 수요 변화를 예측합니다. 추세가 마진에 영향을 주기 전에 대응하세요."
         },
         {
           "icon": "intelligence",
@@ -1743,7 +1743,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "자주 묻는 질문",
       "ctaTitle": "플랫폼에 외부 인텔리전스 추가",
-      "ctaDescription": "전체 시장 상황에서 귀하의 비즈니스를 살펴보세요. 다시는 방심하지 마십시오.",
+      "ctaDescription": "전체 시장 상황에서 귀하의 비즈니스를 살펴보세요. 시장이 마진을 흔들기 전에 마진을 지키세요.",
       "ctaAdd": "계획에 추가",
       "ctaDemo": "실제 사례 보기",
       "ctaSales": "영업팀에 문의하세요",
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proaktif, Bukan Reaktif",
-          "text": "Dapatkan peringatan saat pesaing bergerak. Memprediksi pergeseran permintaan. Lihat tren sebelum terjadi."
+          "text": "Dapatkan peringatan saat pesaing bergerak. Memprediksi pergeseran permintaan. Bertindak atas tren sebelum menggerus margin Anda."
         },
         {
           "icon": "intelligence",
@@ -1868,7 +1868,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Pertanyaan yang Sering Diajukan",
       "ctaTitle": "Tambahkan Kecerdasan Eksternal ke Platform Anda",
-      "ctaDescription": "Lihat bisnis Anda dalam konteks pasar penuh. Jangan pernah lengah lagi.",
+      "ctaDescription": "Lihat bisnis Anda dalam konteks pasar penuh. Lindungi margin Anda sebelum pasar menggesernya.",
       "ctaAdd": "Tambahkan ke Paket Anda",
       "ctaDemo": "Lihat Aksinya",
       "ctaSales": "Bicaralah dengan Penjualan",
@@ -1891,7 +1891,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proactiv, nu reactiv",
-          "text": "Primiți alerte când concurenții se mișcă. Preziceți schimbările cererii. Vedeți tendințele înainte ca acestea să ajungă."
+          "text": "Primiți alerte când concurenții se mișcă. Preziceți schimbările cererii. Acționați asupra tendințelor înainte să vă afecteze marja."
         },
         {
           "icon": "intelligence",
@@ -1993,7 +1993,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Întrebări frecvente",
       "ctaTitle": "Adăugați informații externe pe platforma dvs",
-      "ctaDescription": "Vedeți-vă afacerea în contextul complet al pieței. Să nu mai fiți niciodată luat prin surprindere.",
+      "ctaDescription": "Vedeți-vă afacerea în contextul complet al pieței. Protejați-vă marja înainte ca piața să o miște.",
       "ctaAdd": "Adaugă la planul tău",
       "ctaDemo": "Vedeți-l în acțiune",
       "ctaSales": "Vorbește cu vânzări",
@@ -2016,7 +2016,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Chủ động, không phản ứng",
-          "text": "Nhận thông báo khi đối thủ cạnh tranh di chuyển. Dự đoán sự thay đổi nhu cầu. Xem xu hướng trước khi chúng xảy ra."
+          "text": "Nhận thông báo khi đối thủ cạnh tranh di chuyển. Dự đoán sự thay đổi nhu cầu. Hành động theo xu hướng trước khi chúng ảnh hưởng đến biên lợi nhuận của bạn."
         },
         {
           "icon": "intelligence",
@@ -2118,7 +2118,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Câu hỏi thường gặp",
       "ctaTitle": "Thêm thông tin bên ngoài vào nền tảng của bạn",
-      "ctaDescription": "Xem doanh nghiệp của bạn trong bối cảnh thị trường đầy đủ. Đừng bao giờ mất cảnh giác nữa.",
+      "ctaDescription": "Xem doanh nghiệp của bạn trong bối cảnh thị trường đầy đủ. Bảo vệ biên lợi nhuận của bạn trước khi thị trường làm nó dịch chuyển.",
       "ctaAdd": "Thêm vào kế hoạch của bạn",
       "ctaDemo": "Xem nó trong hành động",
       "ctaSales": "Nói chuyện với bộ phận bán hàng",
@@ -2141,7 +2141,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proaktiv, inte reaktiv",
-          "text": "Få varningar när konkurrenterna rör sig. Förutse förändringar i efterfrågan. Se trender innan de slår till."
+          "text": "Få varningar när konkurrenterna rör sig. Förutse förändringar i efterfrågan. Agera på trender innan de slår mot din marginal."
         },
         {
           "icon": "intelligence",
@@ -2243,7 +2243,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Vanliga frågor",
       "ctaTitle": "Lägg till extern intelligens till din plattform",
-      "ctaDescription": "Se ditt företag i hela marknadssammanhang. Bli aldrig överraskad igen.",
+      "ctaDescription": "Se ditt företag i hela marknadssammanhang. Skydda din marginal innan marknaden rubbar den.",
       "ctaAdd": "Lägg till i din plan",
       "ctaDemo": "Se det i aktion",
       "ctaSales": "Prata med försäljningen",
@@ -2266,7 +2266,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "সক্রিয়, প্রতিক্রিয়াশীল নয়",
-          "text": "প্রতিযোগীরা সরে গেলে সতর্কতা পান। চাহিদা পরিবর্তনের পূর্বাভাস দিন। তারা আঘাত করার আগে প্রবণতা দেখুন."
+          "text": "প্রতিযোগীরা সরে গেলে সতর্কতা পান। চাহিদা পরিবর্তনের পূর্বাভাস দিন। প্রবণতা আপনার মার্জিনে আঘাত করার আগেই পদক্ষেপ নিন।"
         },
         {
           "icon": "intelligence",
@@ -2368,7 +2368,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
       "ctaTitle": "আপনার প্ল্যাটফর্মে বাহ্যিক বুদ্ধিমত্তা যোগ করুন",
-      "ctaDescription": "সম্পূর্ণ বাজার প্রসঙ্গে আপনার ব্যবসা দেখুন। আর কখনও অপ্রস্তুত অবস্থায় ধরা পড়বেন না।",
+      "ctaDescription": "সম্পূর্ণ বাজার প্রসঙ্গে আপনার ব্যবসা দেখুন। বাজার তা নাড়িয়ে দেওয়ার আগেই আপনার মার্জিন রক্ষা করুন।",
       "ctaAdd": "আপনার পরিকল্পনা যোগ করুন",
       "ctaDemo": "এটি কাজ করতে দেখুন",
       "ctaSales": "সেলসের সাথে কথা বলুন",
@@ -2391,7 +2391,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "เชิงรุก ไม่ใช่เชิงโต้ตอบ",
-          "text": "รับการแจ้งเตือนเมื่อคู่แข่งเคลื่อนไหว คาดการณ์การเปลี่ยนแปลงอุปสงค์ ดูเทรนด์ก่อนที่จะโดน"
+          "text": "รับการแจ้งเตือนเมื่อคู่แข่งเคลื่อนไหว คาดการณ์การเปลี่ยนแปลงอุปสงค์ ลงมือกับเทรนด์ก่อนที่มันจะกระทบมาร์จินของคุณ"
         },
         {
           "icon": "intelligence",
@@ -2493,7 +2493,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "คำถามที่พบบ่อย",
       "ctaTitle": "เพิ่มความฉลาดภายนอกให้กับแพลตฟอร์มของคุณ",
-      "ctaDescription": "ดูธุรกิจของคุณในบริบทของตลาดเต็มรูปแบบ อย่าตั้งตัวไม่ทันอีกต่อไป",
+      "ctaDescription": "ดูธุรกิจของคุณในบริบทของตลาดเต็มรูปแบบ ปกป้องมาร์จินของคุณก่อนที่ตลาดจะทำให้มันเปลี่ยน",
       "ctaAdd": "เพิ่มในแผนของคุณ",
       "ctaDemo": "ดูการใช้งานจริง",
       "ctaSales": "พูดคุยกับฝ่ายขาย",
@@ -2516,7 +2516,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proaktif, Bukan Reaktif",
-          "text": "Dapatkan makluman apabila pesaing bergerak. Ramalkan perubahan permintaan. Lihat trend sebelum ia mencecah."
+          "text": "Dapatkan makluman apabila pesaing bergerak. Ramalkan perubahan permintaan. Bertindak atas trend sebelum ia menjejaskan margin anda."
         },
         {
           "icon": "intelligence",
@@ -2618,7 +2618,7 @@ export const generatedLocalCopy = {
       ],
       "faqHeading": "Soalan Lazim",
       "ctaTitle": "Tambahkan Kecerdasan Luaran pada Platform Anda",
-      "ctaDescription": "Lihat perniagaan anda dalam konteks pasaran penuh. Jangan sekali-kali tertangkap basah lagi.",
+      "ctaDescription": "Lihat perniagaan anda dalam konteks pasaran penuh. Lindungi margin anda sebelum pasaran menggerakkannya.",
       "ctaAdd": "Tambahkan pada Pelan Anda",
       "ctaDemo": "Lihat Ia dalam Tindakan",
       "ctaSales": "Bercakap dengan Jualan",

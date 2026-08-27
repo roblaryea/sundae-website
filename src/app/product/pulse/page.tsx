@@ -38,7 +38,7 @@ const localizedPulseCopy = {
     },
     quickGrid: {
       heading: "10 Capabilities. One Operational Nerve Center.",
-      description: "Pulse monitors your operation in real time and coaches your team when things go off-track.",
+      description: "Pulse monitors your operation in real time and coaches your team when things go off-track - then routes each fix to an accountable owner and measures the recovered margin back against baseline.",
       capabilities: [
         "Adaptive Targets",
         "Sales Pacing",
@@ -117,7 +117,7 @@ const localizedPulseCopy = {
         title: "Leakage Monitoring",
         headline: "2-5% of Revenue Leaks Every Month",
         description:
-          "Voids, discounts, comps, and refunds - tracked in real time against your baselines. Pulse flags when leakage rates spike, identifies the servers, items, and time windows involved, and alerts you before small issues become expensive patterns.",
+          "Voids, discounts, comps, and refunds - tracked in real time against your baselines. Pulse flags when leakage rates spike, identifies the servers, items, and time windows involved, and alerts you before small issues become expensive patterns - then routes the fix to an accountable owner and measures the recovered margin back against baseline.",
         capabilities: [
           "Real-time void, discount, and comp tracking",
           "Server-level leakage attribution",
@@ -130,7 +130,7 @@ const localizedPulseCopy = {
         title: "Sundae Coach",
         headline: "Prioritized Actions, Not Dashboards",
         description:
-          "Sundae Coach monitors all signals in real time and surfaces prioritized, actionable recommendations based on live data. Not generic tips - specific actions tied to what's happening on your floor right now.",
+          "Sundae Coach monitors all signals in real time and surfaces prioritized, actionable recommendations based on live data. Not generic tips - specific actions tied to what's happening on your floor right now, each routed to the owner on shift with the recovery measured back against baseline.",
         capabilities: [
           "Real-time contextual recommendations",
           "Prioritized by revenue impact",
@@ -250,7 +250,7 @@ const localizedPulseCopy = {
     },
     quickGrid: {
       heading: "10 قدرات. مركز اعصاب تشغيلي واحد.",
-      description: "يراقب Pulse عملياتك لحظة بلحظة ويدرب فريقك عندما تخرج الامور عن المسار.",
+      description: "يراقب Pulse عملياتك لحظة بلحظة ويدرب فريقك عندما تخرج الامور عن المسار - ثم يوجّه كل إصلاح إلى مالك مسؤول ويقيس الهامش المُستَرد مقابل خط الأساس.",
       capabilities: [
         "الاهداف التكيفية",
         "وتيرة المبيعات",
@@ -329,7 +329,7 @@ const localizedPulseCopy = {
         title: "مراقبة التسرب",
         headline: "2-5% من الايرادات تتسرب شهرياً",
         description:
-          "الإلغاءات والخصومات والهدايا والاستردادات - تتبع في الوقت الحقيقي مقابل خطوطك الاساسية. يحدد Pulse عندما ترتفع معدلات التسرب، ويعرف الموظفين والاصناف والنافذات الزمنية المرتبطة، وينبهك قبل ان تتحول المشكلات الصغيرة الى انماط مكلفة.",
+          "الإلغاءات والخصومات والهدايا والاستردادات - تتبع في الوقت الحقيقي مقابل خطوطك الاساسية. يحدد Pulse عندما ترتفع معدلات التسرب، ويعرف الموظفين والاصناف والنافذات الزمنية المرتبطة، وينبهك قبل ان تتحول المشكلات الصغيرة الى انماط مكلفة - ثم يوجّه الإصلاح إلى مالك مسؤول ويقيس الهامش المُستَرد مقابل خط الأساس.",
         capabilities: [
           "تتبع الوقت الحقيقي للإلغاء والخصم والهدايا",
           "نسبة التسرب على مستوى الموظف",
@@ -342,7 +342,7 @@ const localizedPulseCopy = {
         title: "Sundae Coach",
         headline: "اجراءات مرتبة حسب الاولوية، لا لوحات",
         description:
-          "يراقب Sundae Coach جميع الاشارات في الوقت الحقيقي ويعرض توصيات قابلة للتنفيذ ومرتبة حسب الاولويات استناداً الى البيانات الحية. ليست نصائح عامة - بل اجراءات محددة مرتبطة بما يحدث على الارض الان.",
+          "يراقب Sundae Coach جميع الاشارات في الوقت الحقيقي ويعرض توصيات قابلة للتنفيذ ومرتبة حسب الاولويات استناداً الى البيانات الحية. ليست نصائح عامة - بل اجراءات محددة مرتبطة بما يحدث على الارض الان، مع توجيه كل إجراء إلى المالك المسؤول في الوردية وقياس التعافي مقابل خط الأساس.",
         capabilities: [
           "توصيات سياقية في الوقت الحقيقي",
           "مرتبة بحسب اثر الايراد",
@@ -462,7 +462,7 @@ const localizedPulseCopy = {
     },
     quickGrid: {
       heading: "10 capacites. Un seul centre nerveux operationnel.",
-      description: "Pulse surveille votre operation en temps reel et coache votre equipe quand quelque chose deraille.",
+      description: "Pulse surveille votre operation en temps reel et coache votre equipe quand quelque chose deraille - puis achemine chaque correctif vers un responsable designe et mesure la marge recuperee par rapport a la reference.",
       capabilities: [
         "Objectifs adaptatifs",
         "Rythme des ventes",
@@ -541,7 +541,7 @@ const localizedPulseCopy = {
         title: "Suivi des fuites",
         headline: "2 a 5% du revenu fuit chaque mois",
         description:
-          "Voids, remises, comps et remboursements - suivis en temps reel par rapport a vos bases. Pulse signale les pics de fuite, identifie les serveurs, articles et plages horaires impliquees et vous alerte avant que de petits ecarts deviennent des habitudes couteuses.",
+          "Voids, remises, comps et remboursements - suivis en temps reel par rapport a vos bases. Pulse signale les pics de fuite, identifie les serveurs, articles et plages horaires impliquees et vous alerte avant que de petits ecarts deviennent des habitudes couteuses - puis achemine le correctif vers un responsable designe et mesure la marge recuperee par rapport a la reference.",
         capabilities: [
           "Suivi en temps reel des voids, remises et comps",
           "Attribution des fuites au niveau serveur",
@@ -554,7 +554,7 @@ const localizedPulseCopy = {
         title: "Sundae Coach",
         headline: "Actions priorisees, pas des tableaux",
         description:
-          "Sundae Coach surveille tous les signaux en temps reel et fait remonter des recommandations prioritaires et actionnables basees sur les donnees en direct. Pas des conseils generiques - des actions precises liees a ce qui se passe sur le terrain maintenant.",
+          "Sundae Coach surveille tous les signaux en temps reel et fait remonter des recommandations prioritaires et actionnables basees sur les donnees en direct. Pas des conseils generiques - des actions precises liees a ce qui se passe sur le terrain maintenant, chacune confiee au responsable en poste, avec la recuperation mesuree par rapport a la reference.",
         capabilities: [
           "Recommandations contextuelles en temps reel",
           "Priorisees par impact revenu",
@@ -674,7 +674,7 @@ const localizedPulseCopy = {
     },
     quickGrid: {
       heading: "10 capacidades. Un solo centro nervioso operativo.",
-      description: "Pulse monitorea tu operacion en tiempo real y entrena a tu equipo cuando algo se sale del rumbo.",
+      description: "Pulse monitorea tu operacion en tiempo real y entrena a tu equipo cuando algo se sale del rumbo - luego dirige cada correccion a un responsable asignado y mide el margen recuperado frente a la linea de base.",
       capabilities: [
         "Objetivos adaptativos",
         "Ritmo de ventas",
@@ -753,7 +753,7 @@ const localizedPulseCopy = {
         title: "Monitoreo de fugas",
         headline: "2-5% de los ingresos se fugan cada mes",
         description:
-          "Void, descuentos, comps y reembolsos - rastreados en tiempo real contra tus bases. Pulse marca cuando suben las fugas, identifica los servidores, items y ventanas de tiempo involucradas, y te alerta antes de que los pequenos problemas se vuelvan patrones costosos.",
+          "Void, descuentos, comps y reembolsos - rastreados en tiempo real contra tus bases. Pulse marca cuando suben las fugas, identifica los servidores, items y ventanas de tiempo involucradas, y te alerta antes de que los pequenos problemas se vuelvan patrones costosos - luego dirige la correccion a un responsable asignado y mide el margen recuperado frente a la linea de base.",
         capabilities: [
           "Seguimiento en tiempo real de voids, descuentos y comps",
           "Atribucion de fugas a nivel servidor",
@@ -766,7 +766,7 @@ const localizedPulseCopy = {
         title: "Sundae Coach",
         headline: "Acciones priorizadas, no dashboards",
         description:
-          "Sundae Coach monitorea todas las señales en tiempo real y muestra recomendaciones priorizadas y accionables basadas en datos vivos. No consejos genericos - acciones especificas ligadas a lo que pasa en tu piso ahora mismo.",
+          "Sundae Coach monitorea todas las señales en tiempo real y muestra recomendaciones priorizadas y accionables basadas en datos vivos. No consejos genericos - acciones especificas ligadas a lo que pasa en tu piso ahora mismo, cada una asignada al responsable de turno, con la recuperacion medida frente a la linea de base.",
         capabilities: [
           "Recomendaciones contextuales en tiempo real",
           "Priorizadas por impacto en ingresos",
