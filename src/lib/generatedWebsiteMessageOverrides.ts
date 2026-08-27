@@ -4,8 +4,8 @@
 export const generatedWebsiteMessageOverrides = {
   "de": {
     "metadata": {
-      "title": "Sundae - Entscheidungsintelligenz für Food-Service-Gruppen mit mehreren Standorten",
-      "description": "Sundae verbindet die Systeme, die Sie ohnehin nutzen, findet die Marge, die über Umsatz, Personal, Bestand und Gäste verloren geht, gibt jeder Chance einen Verantwortlichen und misst, was tatsächlich zurückkam."
+      "title": "Sundae - Entscheidungsintelligenz, die Gewinne für die Gastronomie zurückholt",
+      "description": "Die Entscheidungsintelligenz-Plattform für die Gastronomie mit mehreren Standorten - Sundae findet das Margenleck, leitet die Korrektur an einen zuständigen Verantwortlichen weiter und misst den zurückgewonnenen Gewinn gegen einen Ausgangswert."
     },
     "layout": {
       "skipToContent": "Zum Hauptinhalt springen",
@@ -181,7 +181,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Schließen Sie sich Betreibern an, die vom Raten zum Wissen gewechselt sind.",
       "bookDemo": "Demo buchen",
       "startFree": "Kostenlos starten mit Report",
-      "brandDescription": "Die Entscheidungsintelligenz-Plattform für Betreiber mit mehreren Standorten. Holen Sie die Marge zurück. Beweisen Sie, was gewirkt hat.",
+      "brandDescription": "Entscheidungsintelligenz für die Gastronomie mit mehreren Standorten. Finde das Leck, hol den Gewinn zurück.",
       "global": "Weltweit",
       "allCurrencies": "Alle Währungen",
       "sectionProduct": "Produkt",
@@ -222,10 +222,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Entscheidungsintelligenz-Plattform",
-      "titleTop": "Entscheidungsintelligenz",
-      "titleBottom": "für Gastronomie mit mehreren Standorten",
-      "subheadline": "Wissen, was sich geaendert hat, wer die Korrektur verantwortet und was das unterm Strich zurueckgebracht hat.",
+      "badge": "Live ansehen",
+      "titleTop": "Sehen Sie den Regelkreis",
+      "titleBottom": "eine Live-Schicht lang laufen.",
+      "subheadline": "Echtes Tempo, ein Live-Coach, ein einziger Serviceabend - der Rückgewinnungs-Regelkreis in Aktion auf Pulse.",
       "description": "Ihre Daten liegen verstreut in Kasse, Lieferung, Reservierungen, Personal, Lager und Finanzen.",
       "descriptionEmphasis": "Sundae führt sie in einer lebendigen Betriebsebene zusammen.",
       "narrativeAnchor": "Von Reporting-Lücken zu operativem Tempo.",
@@ -234,12 +234,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Keine Kreditkarte erforderlich",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Verbundene Systeme"
+          "number": "6",
+          "label": "Ebenen, eine Rückgewinnungsschleife"
         },
         {
           "number": "18",
-          "label": "Heute aufgezeigte Entscheidungen"
+          "label": "Heute erkannte Lecks"
         },
         {
           "number": "12",
@@ -247,7 +247,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Vom Signal zur Handlung"
+          "label": "Vom Leck zur zugewiesenen Behebung"
         }
       ],
       "problem": {
@@ -282,9 +282,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 EBENEN · EINE WAHRHEIT",
-        "heading": "Sechs Ebenen. Eine Wahrheit.",
-        "description": "Von der laufenden Schicht bis zum langfristigen Plan - ein Stack, sechs Ebenen, die miteinander sprechen.",
+        "eyebrow": "6 EBENEN · EIN REGELKREIS",
+        "heading": "Sechs Ebenen. Ein Regelkreis.",
+        "description": "Von der laufenden Schicht bis zum langfristigen Plan - sechs Ebenen, die das Leck finden, die Behebung übernehmen und die Rückgewinnung messen.",
         "countLabel": "von 6",
         "exploreModules": "Alle Module erkunden",
         "learnMore": "Mehr erfahren",
@@ -500,7 +500,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K. hat eine Upsell-Rate von 14% unter dem Schichtdurchschnitt. Ziehen Sie in Betracht, ihn für die nächsten 2 Tische mit Sarah zu kombinieren."
       },
-      "closingTitle": "Hören Sie auf, sich auf die Zahlen von gestern zu verlassen.",
+      "closingTitle": "Schluss mit dem Margenleck, das Sie zurückgewinnen könnten.",
       "closingDescription": "30 Minuten. Ihre Daten. Was Sundae tatsächlich für das Team ändern würde.",
       "pages": {
         "signIn": {
@@ -775,8 +775,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "nl": {
     "metadata": {
-      "title": "Sundae - Decision intelligence voor multi-vestiging foodservice",
-      "description": "Sundae koppelt de systemen die je al gebruikt, vindt de marge die weglekt via omzet, personeel, voorraad en gasten, geeft elke kans één eigenaar en meet wat er echt terugkwam."
+      "title": "Sundae - Besluitvormingsintelligentie die winst terugwint voor de horeca",
+      "description": "Het besluitvormingsintelligentie-platform voor horeca met meerdere vestigingen - Sundae vindt het margelek, wijst de oplossing toe aan een verantwoordelijke eigenaar en meet de teruggewonnen winst af tegen een basislijn."
     },
     "layout": {
       "skipToContent": "Overslaan naar hoofdinhoud",
@@ -952,7 +952,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Sluit je aan bij operators die zijn overgestapt van gokken naar weten.",
       "bookDemo": "Boek een Demo",
       "startFree": "Begin Gratis met Report",
-      "brandDescription": "Het decision intelligence-platform voor operators met meerdere vestigingen. Haal de marge terug. Bewijs wat werkte.",
+      "brandDescription": "Decision intelligence voor foodservice met meerdere vestigingen. Vind het lek, herwin de winst.",
       "global": "Globaal",
       "allCurrencies": "Alle valuta",
       "sectionProduct": "Product",
@@ -993,10 +993,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Beslissingsintelligentieplatform",
-      "titleTop": "Beslissingsintelligentie",
-      "titleBottom": "voor foodservice met meerdere vestigingen",
-      "subheadline": "Weet wat er veranderde, wie de correctie oppakt en wat het onderaan de streep opleverde.",
+      "badge": "Bekijk het live",
+      "titleTop": "Zie de lus draaien",
+      "titleBottom": "tijdens een live dienst.",
+      "subheadline": "Echt tempo, een live Coach, één serviceavond - de herstel-lus die draait op Pulse.",
       "description": "Je data zit verspreid over kassa, bezorging, reserveringen, personeel, voorraad en financiën.",
       "descriptionEmphasis": "Sundae brengt alles samen in een live operationele laag.",
       "narrativeAnchor": "Van rapportagevertraging naar operationeel tempo.",
@@ -1005,12 +1005,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Geen creditcard vereist",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Gekoppelde systemen"
+          "number": "6",
+          "label": "Lagen, één herstellus"
         },
         {
           "number": "18",
-          "label": "Vandaag aangereikte beslissingen"
+          "label": "Vandaag gedetecteerde lekken"
         },
         {
           "number": "12",
@@ -1018,7 +1018,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Van signaal naar actie"
+          "label": "Van lek naar toegewezen oplossing"
         }
       ],
       "problem": {
@@ -1053,9 +1053,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAGEN · ÉÉN WAARHEID",
-        "heading": "Zes lagen. Één waarheid.",
-        "description": "Van de live shift tot het lange termijnplan - één stack, zes lagen die met elkaar communiceren.",
+        "eyebrow": "6 LAGEN · ÉÉN LUS",
+        "heading": "Zes lagen. Één lus.",
+        "description": "Van de live shift tot het langetermijnplan - zes lagen die het lek vinden, de oplossing oppakken en het herstel meten.",
         "countLabel": "van 6",
         "exploreModules": "Verken alle modules",
         "learnMore": "Meer leren",
@@ -1271,7 +1271,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K. upsellpercentage is 14% onder het gemiddelde van de shift. Overweeg om met Sarah te koppelen voor de volgende 2 tafels."
       },
-      "closingTitle": "Stop met het werken op basis van de cijfers van gisteren.",
+      "closingTitle": "Stop het weglekken van marge die je kunt terugwinnen.",
       "closingDescription": "30 minuten. Jouw gegevens. Wat Sundae daadwerkelijk zou veranderen voor het team.",
       "pages": {
         "signIn": {
@@ -1546,8 +1546,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "pt": {
     "metadata": {
-      "title": "Sundae - Decision intelligence para grupos multiunidade de food service",
-      "description": "A Sundae conecta os sistemas que você já usa, encontra a margem que escapa em vendas, mão de obra, estoque e clientes, dá um responsável a cada oportunidade e mede o que de fato voltou."
+      "title": "Sundae - Inteligência de decisão que recupera o lucro para serviços de alimentação",
+      "description": "A plataforma de inteligência de decisão para serviços de alimentação com múltiplas unidades - o Sundae encontra o vazamento de margem, encaminha a correção a um responsável designado e mede o lucro que você recupera em relação a uma linha de base."
     },
     "layout": {
       "skipToContent": "Pular para o conteúdo principal",
@@ -1723,7 +1723,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Junte-se aos operadores que passaram de adivinhações para certezas.",
       "bookDemo": "Agendar uma Demonstração",
       "startFree": "Comece Grátis com o Report",
-      "brandDescription": "A plataforma de decision intelligence para operadores multiunidade. Recupere a margem. Prove o que funcionou.",
+      "brandDescription": "Decision intelligence para o foodservice multiunidade. Ache o vazamento, recupere o lucro.",
       "global": "Global",
       "allCurrencies": "Todas as moedas",
       "sectionProduct": "Produto",
@@ -1764,10 +1764,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Plataforma de Inteligência de Decisão",
-      "titleTop": "Inteligência de Decisão",
-      "titleBottom": "para foodservice multiunidade",
-      "subheadline": "Saiba o que mudou, quem cuida da correcao e quanto isso devolveu ao resultado.",
+      "badge": "Veja ao vivo",
+      "titleTop": "Veja o ciclo rodar",
+      "titleBottom": "durante um turno ao vivo.",
+      "subheadline": "Ritmo real, um Coach ao vivo, uma noite de serviço - o ciclo de recuperação rodando no Pulse.",
       "description": "Seus dados ficam espalhados pelo PDV, entregas, reservas, equipe, estoque e finanças.",
       "descriptionEmphasis": "A Sundae reúne tudo numa única camada operacional ao vivo.",
       "narrativeAnchor": "Da lentidão na geração de relatórios à agilidade nas operações.",
@@ -1776,12 +1776,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nenhum cartão de crédito necessário",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Sistemas conectados"
+          "number": "6",
+          "label": "Camadas, um ciclo de recuperação"
         },
         {
           "number": "18",
-          "label": "Decisões reveladas hoje"
+          "label": "Vazamentos detectados hoje"
         },
         {
           "number": "12",
@@ -1789,7 +1789,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Do sinal à ação"
+          "label": "Do vazamento à correção atribuída"
         }
       ],
       "problem": {
@@ -1824,9 +1824,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 CAMADAS · UMA VERDADE",
-        "heading": "Seis camadas. Uma verdade.",
-        "description": "Da operação ao vivo ao plano de longo prazo - uma pilha, seis camadas que se comunicam entre si.",
+        "eyebrow": "6 CAMADAS · UM CICLO",
+        "heading": "Seis camadas. Um ciclo.",
+        "description": "Da operação ao vivo ao plano de longo prazo - seis camadas que encontram o vazamento, assumem a correção e medem a recuperação.",
         "countLabel": "de 6",
         "exploreModules": "Explore todos os módulos",
         "learnMore": "Saiba mais",
@@ -2042,7 +2042,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "A taxa de upsell de James K. está 14% abaixo da média do turno. Considere emparelhá-lo com Sarah para as próximas 2 mesas."
       },
-      "closingTitle": "Pare de se basear nos números de ontem.",
+      "closingTitle": "Pare de deixar vazar a margem que você poderia recuperar.",
       "closingDescription": "30 minutos. Seus dados. O que a Sundae realmente mudaria para a equipe.",
       "pages": {
         "signIn": {
@@ -2317,8 +2317,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "hi": {
     "metadata": {
-      "title": "Sundae - मल्टी-लोकेशन फ़ूड सर्विस के लिए डिसीज़न इंटेलिजेंस",
-      "description": "Sundae आपके मौजूदा सिस्टम से जुड़ता है, राजस्व, श्रम, इन्वेंट्री और मेहमानों में रिस रहे मुनाफ़े को पकड़ता है, हर अवसर को एक ज़िम्मेदार व्यक्ति सौंपता है, और मापता है कि वास्तव में कितना वापस आया।"
+      "title": "Sundae - खाद्य सेवा के लिए मुनाफ़ा वापस लाने वाली निर्णय बुद्धिमत्ता",
+      "description": "बहु-स्थान खाद्य सेवा के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म - Sundae मार्जिन लीक का पता लगाता है, समाधान को एक जवाबदेह ज़िम्मेदार व्यक्ति को सौंपता है, और आपके द्वारा वापस पाए गए मुनाफ़े को एक आधार रेखा के मुक़ाबले मापता है।"
     },
     "layout": {
       "skipToContent": "मुख्य सामग्री पर जाएं",
@@ -2494,7 +2494,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "उन ऑपरेटरों में शामिल हों जिन्होंने अनुमान लगाने से जानने की ओर कदम बढ़ाया है।",
       "bookDemo": "डेमो बुक करें",
       "startFree": "Report के साथ मुफ्त शुरू करें",
-      "brandDescription": "मल्टी-लोकेशन ऑपरेटरों के लिए डिसीज़न इंटेलिजेंस प्लेटफ़ॉर्म। मुनाफ़ा वापस पाइए। और साबित कीजिए क्या काम आया।",
+      "brandDescription": "मल्टी-लोकेशन फ़ूड-सर्विस के लिए डिसीज़न इंटेलिजेंस। लीक ढूँढें, मुनाफ़ा वापस पाएँ।",
       "global": "वैश्विक",
       "allCurrencies": "सभी मुद्राएँ",
       "sectionProduct": "उत्पाद",
@@ -2535,10 +2535,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
-      "titleTop": "निर्णय बुद्धिमत्ता",
-      "titleBottom": "मल्टी-लोकेशन फ़ूड सर्विस के लिए",
-      "subheadline": "जानिए क्या बदला, सुधार किसका ज़िम्मा है, और उससे मुनाफ़े में कितना वापस आया.",
+      "badge": "इसे लाइव देखें",
+      "titleTop": "लूप को चलते हुए देखें",
+      "titleBottom": "पूरी एक लाइव शिफ़्ट।",
+      "subheadline": "असली रफ़्तार, एक लाइव Coach, एक ही सर्विस की शाम - Pulse पर चलती रिकवरी लूप।",
       "description": "Aapka data POS, delivery, booking, staff, inventory aur finance mein bikhra hai.",
       "descriptionEmphasis": "Sundae use ek live operating layer mein le aata hai.",
       "narrativeAnchor": "रिपोर्टिंग में देरी से संचालन की गति तक।",
@@ -2547,12 +2547,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "क्रेडिट कार्ड की आवश्यकता नहीं है",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "जुड़े सिस्टम"
+          "number": "6",
+          "label": "परतें, एक रिकवरी चक्र"
         },
         {
           "number": "18",
-          "label": "आज सामने आए फैसले"
+          "label": "आज पकड़े गए रिसाव"
         },
         {
           "number": "12",
@@ -2560,7 +2560,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 मिनट",
-          "label": "संकेत से कार्रवाई तक"
+          "label": "रिसाव से जिम्मेदार समाधान तक"
         }
       ],
       "problem": {
@@ -2595,9 +2595,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 परतें · एक सत्य",
-        "heading": "छह परतें। एक सत्य।",
-        "description": "लाइव शिफ्ट से लेकर दीर्घकालिक योजना तक - एक स्टैक, छह परतें जो आपस में बात करती हैं।",
+        "eyebrow": "6 परतें · एक चक्र",
+        "heading": "छह परतें। एक चक्र।",
+        "description": "लाइव शिफ्ट से लेकर दीर्घकालिक योजना तक - छह परतें जो रिसाव खोजती हैं, समाधान संभालती हैं और रिकवरी मापती हैं।",
         "countLabel": "6 में से",
         "exploreModules": "सभी मॉड्यूल्स का अन्वेषण करें",
         "learnMore": "और जानें",
@@ -2813,7 +2813,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "जेम्स के. का अपसेल दर शिफ्ट के औसत से 14% कम है। अगले 2 टेबल के लिए सारा के साथ जोड़ी बनाने पर विचार करें।"
       },
-      "closingTitle": "कल के आंकड़ों पर चलना बंद करें।",
+      "closingTitle": "जिस मार्जिन को आप वापस पा सकते हैं, उसका रिसाव रोकें।",
       "closingDescription": "30 मिनट। आपका डेटा। Sundae वास्तव में टीम के लिए क्या बदलेगा।",
       "pages": {
         "signIn": {
@@ -3088,8 +3088,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ur": {
     "metadata": {
-      "title": "Sundae - کئی مقامات والی فوڈ سروس کے لیے فیصلہ ساز ذہانت",
-      "description": "Sundae آپ کے موجودہ نظاموں سے جڑتا ہے، آمدنی، محنت، انوینٹری اور مہمانوں میں ضائع ہوتا منافع تلاش کرتا ہے، ہر موقع ایک ذمہ دار کے سپرد کرتا ہے، اور ماپتا ہے کہ حقیقت میں کتنا واپس آیا۔"
+      "title": "Sundae - فوڈ سروس کے لیے منافع واپس لانے والی فیصلہ سازی کی ذہانت",
+      "description": "متعدد مقامات کی فوڈ سروس کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم - Sundae مارجن لیک کا پتا لگاتا ہے، اصلاح کو ایک جواب دہ ذمہ دار کے سپرد کرتا ہے، اور آپ کے بازیافت کردہ منافع کو ایک بنیادی معیار کے مقابلے میں ماپتا ہے۔"
     },
     "layout": {
       "skipToContent": "اہم مواد پر جائیں",
@@ -3265,7 +3265,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "ان آپریٹرز میں شامل ہوں جو اندازے سے جاننے کی طرف منتقل ہو چکے ہیں۔",
       "bookDemo": "ڈیمو بک کریں",
       "startFree": "رپورٹ کے ساتھ مفت شروع کریں",
-      "brandDescription": "متعدد مقامات والے آپریٹرز کے لیے ڈیسیژن انٹیلیجنس پلیٹ فارم۔ منافع واپس حاصل کریں۔ اور ثابت کریں کیا کام آیا۔",
+      "brandDescription": "متعدد مقامات والی فوڈ سروس کے لیے ڈیسیژن انٹیلیجنس۔ رساؤ تلاش کریں، منافع واپس پائیں۔",
       "global": "عالمی",
       "allCurrencies": "تمام کرنسیاں",
       "sectionProduct": "پروڈکٹ",
@@ -3306,10 +3306,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "فیصلہ سازی کی ذہانت کا پلیٹ فارم",
-      "titleTop": "فیصلہ سازی کی ذہانت",
-      "titleBottom": "متعدد مقامات والی فوڈ سروس کے لیے",
-      "subheadline": "جانیے کیا بدلا، اصلاح کس کی ذمہ داری ہے، اور اس سے منافع میں کتنا واپس آیا۔",
+      "badge": "اسے لائیو دیکھیں",
+      "titleTop": "لوپ کو چلتے ہوئے دیکھیں",
+      "titleBottom": "پوری ایک لائیو شفٹ۔",
+      "subheadline": "اصل رفتار، ایک لائیو Coach، صرف ایک سروس کی شام - Pulse پر چلتا ریکوری لوپ۔",
       "description": "Aap ka data POS, delivery, booking, staff, inventory aur finance mein bikhra hua hai.",
       "descriptionEmphasis": "Sundae ise ek live operating layer mein le aata hai.",
       "narrativeAnchor": "رپورٹنگ کی تاخیر سے آپریشن کی رفتار تک۔",
@@ -3318,12 +3318,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "کریڈٹ کارڈ کی ضرورت نہیں",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "منسلک نظام"
+          "number": "6",
+          "label": "تہیں، ایک ریکوری چکر"
         },
         {
           "number": "18",
-          "label": "آج سامنے آئے فیصلے"
+          "label": "آج پکڑے گئے رساؤ"
         },
         {
           "number": "12",
@@ -3331,7 +3331,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 منٹ",
-          "label": "اشارے سے عمل تک"
+          "label": "رساؤ سے ذمہ دار حل تک"
         }
       ],
       "problem": {
@@ -3366,9 +3366,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 تہیں · ایک سچائی",
-        "heading": "چھ تہیں۔ ایک سچائی۔",
-        "description": "لائیو شفٹ سے طویل مدتی منصوبے تک - ایک اسٹیک، چھ تہیں جو آپس میں بات کرتی ہیں۔",
+        "eyebrow": "6 تہیں · ایک چکر",
+        "heading": "چھ تہیں۔ ایک چکر۔",
+        "description": "لائیو شفٹ سے طویل مدتی منصوبے تک - چھ تہیں جو رساؤ کو ڈھونڈتی ہیں، حل کو سنبھالتی ہیں اور بحالی کو ماپتی ہیں۔",
         "countLabel": "6 میں سے",
         "exploreModules": "تمام ماڈیولز کا جائزہ لیں",
         "learnMore": "مزید جانیں",
@@ -3584,7 +3584,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "جیمز کے. کی اپ سیل کی شرح شفٹ کے اوسط سے 14% کم ہے۔ اگلی 2 میزوں کے لیے سارہ کے ساتھ جوڑنے پر غور کریں۔"
       },
-      "closingTitle": "کل کے اعداد و شمار پر چلنا بند کریں۔",
+      "closingTitle": "وہ مارجن جو آپ واپس پا سکتے ہیں، اس کا رساؤ روکیں۔",
       "closingDescription": "30 منٹ۔ آپ کا ڈیٹا۔ سنڈے واقعی ٹیم کے لیے کیا تبدیل کرے گا۔",
       "pages": {
         "signIn": {
@@ -3859,8 +3859,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "it": {
     "metadata": {
-      "title": "Sundae - Decision intelligence per gruppi multi-sede del food service",
-      "description": "Sundae si collega ai sistemi che già usi, individua il margine che si perde tra ricavi, personale, magazzino e ospiti, assegna ogni opportunità a un responsabile e misura quanto è davvero rientrato."
+      "title": "Sundae - Intelligenza decisionale che recupera i profitti per la ristorazione",
+      "description": "La piattaforma di intelligenza decisionale per la ristorazione multi-sede - Sundae individua la falla di margine, affida la correzione a un responsabile designato e misura il profitto recuperato rispetto a una linea di base."
     },
     "layout": {
       "skipToContent": "Salta al contenuto principale",
@@ -4036,7 +4036,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Unisciti agli operatori che sono passati dal fare ipotesi a conoscere.",
       "bookDemo": "Prenota una Demo",
       "startFree": "Inizia gratis con Report",
-      "brandDescription": "La piattaforma di decision intelligence per operatori multi-sede. Recupera il margine. Dimostra cosa ha funzionato.",
+      "brandDescription": "Decision intelligence per la ristorazione multi-sede. Trova la falla, recupera il profitto.",
       "global": "Globale",
       "allCurrencies": "Tutte le valute",
       "sectionProduct": "Prodotto",
@@ -4077,10 +4077,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Piattaforma di Intelligenza Decisionale",
-      "titleTop": "Intelligenza Decisionale",
-      "titleBottom": "per la ristorazione multi-sede",
-      "subheadline": "Sapere cosa e cambiato, chi si occupa della correzione e quanto ha restituito al risultato.",
+      "badge": "Guardalo dal vivo",
+      "titleTop": "Guarda il ciclo girare",
+      "titleBottom": "per un intero turno dal vivo.",
+      "subheadline": "Ritmo reale, un Coach dal vivo, una sola sera di servizio - il ciclo di recupero in azione su Pulse.",
       "description": "I tuoi dati sono sparsi tra cassa, consegne, prenotazioni, personale, magazzino e finanza.",
       "descriptionEmphasis": "Sundae li riunisce in un unico livello operativo in tempo reale.",
       "narrativeAnchor": "Dalla lentezza dei report alla velocità operativa.",
@@ -4089,12 +4089,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nessuna carta di credito richiesta",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Sistemi collegati"
+          "number": "6",
+          "label": "Livelli, un ciclo di recupero"
         },
         {
           "number": "18",
-          "label": "Decisioni emerse oggi"
+          "label": "Fughe rilevate oggi"
         },
         {
           "number": "12",
@@ -4102,7 +4102,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Dal segnale all'azione"
+          "label": "Dalla fuga alla correzione assegnata"
         }
       ],
       "problem": {
@@ -4137,9 +4137,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LIVELLI · UN'UNICA VERITÀ",
-        "heading": "Sei livelli. Un'unica verità.",
-        "description": "Dal turno in corso al piano a lungo termine - un unico stack, sei livelli che comunicano tra loro.",
+        "eyebrow": "6 LIVELLI · UN CICLO",
+        "heading": "Sei livelli. Un ciclo.",
+        "description": "Dal turno in corso al piano a lungo termine - sei livelli che individuano la fuga, prendono in carico la correzione e misurano il recupero.",
         "countLabel": "di 6",
         "exploreModules": "Esplora tutti i moduli",
         "learnMore": "Scopri di più",
@@ -4355,7 +4355,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Il tasso di upsell di James K. è inferiore del 14% rispetto alla media del turno. Considera di affiancarlo a Sarah per i prossimi 2 tavoli."
       },
-      "closingTitle": "Smetti di basarti sui numeri di ieri.",
+      "closingTitle": "Smetti di lasciar sfuggire il margine che potresti recuperare.",
       "closingDescription": "30 minuti. I tuoi dati. Cosa cambierebbe realmente Sundae per il team.",
       "pages": {
         "signIn": {
@@ -4630,8 +4630,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "pl": {
     "metadata": {
-      "title": "Sundae - Decision intelligence dla wielolokalizacyjnych grup gastronomicznych",
-      "description": "Sundae łączy się z systemami, których już używasz, znajduje marżę traconą w przychodach, pracy, zapasach i gościach, przypisuje każdą szansę jednej osobie i mierzy, ile naprawdę wróciło."
+      "title": "Sundae - Inteligencja decyzyjna, która odzyskuje zysk dla gastronomii",
+      "description": "Platforma inteligencji decyzyjnej dla gastronomii wielolokalowej - Sundae wykrywa wyciek marży, kieruje naprawę do odpowiedzialnej osoby i mierzy odzyskany zysk względem punktu odniesienia."
     },
     "layout": {
       "skipToContent": "Przejdź do głównej treści",
@@ -4807,7 +4807,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Dołącz do operatorów, którzy przeszli od zgadywania do wiedzy.",
       "bookDemo": "Umów się na demo",
       "startFree": "Rozpocznij za darmo z Report",
-      "brandDescription": "Platforma decision intelligence dla operatorów wielolokalizacyjnych. Odzyskaj marżę. Udowodnij, co zadziałało.",
+      "brandDescription": "Decision intelligence dla gastronomii wielolokalizacyjnej. Znajdź przeciek, odzyskaj zysk.",
       "global": "Globalny",
       "allCurrencies": "Wszystkie waluty",
       "sectionProduct": "Produkt",
@@ -4848,10 +4848,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platforma Inteligencji Decyzyjnej",
-      "titleTop": "Inteligencja Decyzyjna",
-      "titleBottom": "dla wielolokalizacyjnej gastronomii",
-      "subheadline": "Wiedz, co sie zmienilo, kto odpowiada za poprawe i ile to zwrocilo w wyniku.",
+      "badge": "Zobacz na żywo",
+      "titleTop": "Zobacz pętlę w działaniu",
+      "titleBottom": "przez całą zmianę na żywo.",
+      "subheadline": "Realne tempo, Coach na żywo, jeden wieczór serwisu - pętla odzyskiwania działająca w Pulse.",
       "description": "Twoje dane sa rozproszone w kasie, dostawach, rezerwacjach, kadrach, magazynie i finansach.",
       "descriptionEmphasis": "Sundae laczy je w jedna zywa warstwe operacyjna.",
       "narrativeAnchor": "Od opóźnień w raportowaniu do szybkości operacji.",
@@ -4860,12 +4860,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nie jest wymagana karta kredytowa",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Połączone systemy"
+          "number": "6",
+          "label": "Warstwy, jedna pętla odzyskiwania"
         },
         {
           "number": "18",
-          "label": "Decyzje ujawnione dziś"
+          "label": "Wykryte dziś wycieki"
         },
         {
           "number": "12",
@@ -4873,7 +4873,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Od sygnału do działania"
+          "label": "Od wycieku do przypisanej poprawki"
         }
       ],
       "problem": {
@@ -4908,9 +4908,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 WARSTW · JEDNA PRAWDA",
-        "heading": "Sześć warstw. Jedna prawda.",
-        "description": "Od bieżącej zmiany do długoterminowego planu - jeden stos, sześć warstw, które ze sobą rozmawiają.",
+        "eyebrow": "6 WARSTW · JEDNA PĘTLA",
+        "heading": "Sześć warstw. Jedna pętla.",
+        "description": "Od bieżącej zmiany do długoterminowego planu - sześć warstw, które znajdują wyciek, przejmują poprawkę i mierzą odzysk.",
         "countLabel": "z 6",
         "exploreModules": "Zbadaj wszystkie moduły",
         "learnMore": "Dowiedz się więcej",
@@ -5126,7 +5126,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Wskaźnik upsell Jamesa K. jest o 14% poniżej średniej zmiany. Rozważ połączenie z Sarah przy następnych 2 stolikach."
       },
-      "closingTitle": "Nie opieraj się na wczorajszych danych.",
+      "closingTitle": "Przestań tracić przez wycieki marżę, którą możesz odzyskać.",
       "closingDescription": "30 minut. Twoje dane. Co Sundae naprawdę zmieniłoby dla zespołu.",
       "pages": {
         "signIn": {
@@ -5401,8 +5401,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "tr": {
     "metadata": {
-      "title": "Sundae - Çok şubeli yeme-içme grupları için karar zekası",
-      "description": "Sundae hâlihazırda kullandığınız sistemlere bağlanır, ciro, işgücü, stok ve misafir tarafında sızan kârı bulur, her fırsata tek bir sorumlu atar ve gerçekte ne kadarının geri geldiğini ölçer."
+      "title": "Sundae - Yeme-içme sektörü için kârı geri kazandıran Karar Zekası",
+      "description": "Çok şubeli yeme-içme sektörü için karar zekası platformu - Sundae kâr marjı sızıntısını bulur, düzeltmeyi hesap verebilir bir sorumluya yönlendirir ve geri kazandığınız kârı bir referans değere göre ölçer."
     },
     "layout": {
       "skipToContent": "Ana içeriğe atla",
@@ -5578,7 +5578,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Tahminden bilmeye geçen işletmecilere katılın.",
       "bookDemo": "Demo Al",
       "startFree": "Report ile Ücretsiz Başlayın",
-      "brandDescription": "Çok şubeli işletmeciler için decision intelligence platformu. Kârı geri kazanın. Neyin işe yaradığını kanıtlayın.",
+      "brandDescription": "Çok şubeli yeme-içme sektörü için decision intelligence. Sızıntıyı bul, kârı geri kazan.",
       "global": "Küresel",
       "allCurrencies": "Tüm para birimleri",
       "sectionProduct": "Ürün",
@@ -5619,10 +5619,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Karar Zekası Platformu",
-      "titleTop": "Karar Zekası",
-      "titleBottom": "çok şubeli yeme-içme işletmeleri için",
-      "subheadline": "Neyin degistigini, duzeltmeden kimin sorumlu oldugunu ve bunun kara ne kadar geri kattigini bilin.",
+      "badge": "Canlı izleyin",
+      "titleTop": "Döngüyü çalışırken izleyin",
+      "titleBottom": "tam bir canlı vardiya boyunca.",
+      "subheadline": "Gerçek tempo, canlı bir Coach, tek bir servis akşamı - Pulse üzerinde çalışan kurtarma döngüsü.",
       "description": "Verileriniz POS, teslimat, rezervasyon, personel, stok ve finansa dagilmis durumda.",
       "descriptionEmphasis": "Sundae hepsini tek bir canli operasyon katmaninda toplar.",
       "narrativeAnchor": "Raporlama gecikmesinden operasyon hızına.",
@@ -5631,12 +5631,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Kredi kartı gerekmez",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Bağlı sistem"
+          "number": "6",
+          "label": "Katmanlar, tek geri kazanım döngüsü"
         },
         {
           "number": "18",
-          "label": "Bugün öne çıkan kararlar"
+          "label": "Bugün yakalanan sızıntılar"
         },
         {
           "number": "12",
@@ -5644,7 +5644,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 dk",
-          "label": "Sinyalden aksiyona"
+          "label": "Sızıntıdan sorumlusu atanmış düzeltmeye"
         }
       ],
       "problem": {
@@ -5679,9 +5679,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 KATMAN · BİR GERÇEK",
-        "heading": "Altı katman. Bir gerçek.",
-        "description": "Canlı vardiyadan uzun vadeli plana - tek bir yığın, birbirleriyle iletişim kuran altı katman.",
+        "eyebrow": "6 KATMAN · TEK DÖNGÜ",
+        "heading": "Altı katman. Tek döngü.",
+        "description": "Canlı vardiyadan uzun vadeli plana - sızıntıyı bulan, düzeltmeyi üstlenen ve geri kazanımı ölçen altı katman.",
         "countLabel": "6'nın içinde",
         "exploreModules": "Tüm modülleri keşfedin",
         "learnMore": "Daha fazla bilgi edinin",
@@ -5897,7 +5897,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K.'nın upsell oranı vardiya ortalamasının %14 altında. Sonraki 2 masa için Sarah ile eşleştirmeyi düşün."
       },
-      "closingTitle": "Dünün rakamlarıyla devam etmeyi bırakın.",
+      "closingTitle": "Geri kazanabileceğiniz marjı sızdırmayı bırakın.",
       "closingDescription": "30 dakika. Verileriniz. Sundae'nin ekip için gerçekten değiştireceği şey.",
       "pages": {
         "signIn": {
@@ -6172,8 +6172,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "zh-Hans": {
     "metadata": {
-      "title": "Sundae - 面向多门店餐饮集团的决策智能",
-      "description": "Sundae 接入你已在使用的系统，找出在营收、人力、库存与客户环节流失的利润，为每一个机会指定唯一负责人，并衡量真正追回了多少。"
+      "title": "Sundae--为餐饮行业挽回利润的决策智能",
+      "description": "面向多门店餐饮的决策智能平台--Sundae 找出毛利漏损，将修复动作分派给负责到底的责任人，并对照基准线衡量你挽回的利润。"
     },
     "layout": {
       "skipToContent": "跳到主要内容",
@@ -6349,7 +6349,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "加入那些从猜测转向了解的运营商。",
       "bookDemo": "预约演示",
       "startFree": "免费开始使用Report",
-      "brandDescription": "面向多门店运营者的决策智能平台。把利润追回来，并证明什么真正奏效。",
+      "brandDescription": "面向多门店餐饮的决策智能。找到漏损，追回利润。",
       "global": "全球",
       "allCurrencies": "所有货币",
       "sectionProduct": "产品",
@@ -6390,10 +6390,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "决策智能平台",
-      "titleTop": "决策智能",
-      "titleBottom": "为多门店餐饮集团打造",
-      "subheadline": "知道发生了什么变化、由谁负责修复，以及这为利润挽回了多少。",
+      "badge": "实时观看",
+      "titleTop": "看闭环跑完",
+      "titleBottom": "一整个现场班次。",
+      "subheadline": "真实的节奏、一位实时 Coach、一个营业夜晚--回收闭环正在 Pulse 上运行。",
       "description": "你的数据分散在 POS、外卖、订位、人力、库存和财务之间。",
       "descriptionEmphasis": "Sundae 将它们汇入一个实时运营层。",
       "narrativeAnchor": "从报告滞后到运营提速。",
@@ -6402,12 +6402,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "无需信用卡",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "已接入系统"
+          "number": "6",
+          "label": "层，一个回收闭环"
         },
         {
           "number": "18",
-          "label": "今日浮现的决策"
+          "label": "今日捕获的泄漏"
         },
         {
           "number": "12",
@@ -6415,7 +6415,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5分钟",
-          "label": "从信号到行动"
+          "label": "从泄漏到指派修复"
         }
       ],
       "problem": {
@@ -6450,9 +6450,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 层 · 一个真相",
-        "heading": "六层。一个真相。",
-        "description": "从实时班次到长期计划 - 一套系统，六层相互沟通。",
+        "eyebrow": "6 层 · 一个闭环",
+        "heading": "六层。一个闭环。",
+        "description": "从实时班次到长期计划 - 六层协同找出泄漏、认领修复并衡量回收。",
         "countLabel": "共 6",
         "exploreModules": "探索所有模块",
         "learnMore": "了解更多",
@@ -6668,7 +6668,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K. 的追加销售率比班次平均低14%。考虑与Sarah搭配处理接下来的2张桌子。"
       },
-      "closingTitle": "不要再依赖昨天的数据。",
+      "closingTitle": "别再让本可挽回的利润白白流失。",
       "closingDescription": "30分钟。您的数据。Sundae 实际上会为团队带来什么变化。",
       "pages": {
         "signIn": {
@@ -6943,8 +6943,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ja": {
     "metadata": {
-      "title": "Sundae - 多店舗フードサービス向けの意思決定インテリジェンス",
-      "description": "Sundae は既存のシステムに接続し、売上、人件費、在庫、顧客の各領域で漏れている利益を見つけ、機会ごとに担当者を一人定め、実際に戻った金額を測定します。"
+      "title": "Sundae--外食向けに利益を取り戻す意思決定インテリジェンス",
+      "description": "多店舗の外食向け意思決定インテリジェンス・プラットフォーム--Sundae は利益の漏れを見つけ、対策を説明責任を負う担当者に割り当て、取り戻した利益をベースラインと比較して測定します。"
     },
     "layout": {
       "skipToContent": "メインコンテンツにスキップ",
@@ -7120,7 +7120,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "推測から知識へと移行したオペレーターに参加しましょう。",
       "bookDemo": "デモを予約する",
       "startFree": "Reportで無料開始",
-      "brandDescription": "多店舗オペレーター向けの意思決定インテリジェンス・プラットフォーム。利益を取り戻し、効果を証明する。",
+      "brandDescription": "多店舗フードサービス向けの意思決定インテリジェンス。漏れを見つけ、利益を取り戻す。",
       "global": "グローバル",
       "allCurrencies": "すべての通貨",
       "sectionProduct": "製品",
@@ -7161,10 +7161,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "意思決定インテリジェンスプラットフォーム",
-      "titleTop": "意思決定インテリジェンス",
-      "titleBottom": "多店舗フードサービスのための",
-      "subheadline": "何が変わったか、誰が是正を担うか、そしてそれが利益にいくら戻したかを把握できます。",
+      "badge": "ライブで見る",
+      "titleTop": "ループが回るのを見る、",
+      "titleBottom": "ライブのワンシフトまるごと。",
+      "subheadline": "本物のペース、ライブの Coach、たった一夜の営業--回収ループが Pulse 上で回り続ける。",
       "description": "あなたのデータは POS、デリバリー、予約、人員、在庫、会計に散らばっています。",
       "descriptionEmphasis": "Sundae がそれらを一つのライブ運用レイヤーにまとめます。",
       "narrativeAnchor": "報告の遅延から運営のスピードへ。",
@@ -7173,12 +7173,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "クレジットカードは不要です",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "接続システム"
+          "number": "6",
+          "label": "層、ひとつの回収ループ"
         },
         {
           "number": "18",
-          "label": "今日見えた意思決定"
+          "label": "本日検知した漏れ"
         },
         {
           "number": "12",
@@ -7186,7 +7186,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5分",
-          "label": "シグナルから行動へ"
+          "label": "漏れから担当者付きの修正へ"
         }
       ],
       "problem": {
@@ -7221,9 +7221,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6層 · 1つの真実",
-        "heading": "6つの層。1つの真実。",
-        "description": "ライブシフトから長期計画まで - 1つのスタック、互いに連携する6つの層。",
+        "eyebrow": "6層 · 1つのループ",
+        "heading": "6つの層。1つのループ。",
+        "description": "ライブシフトから長期計画まで - 漏れを見つけ、修正を引き受け、回収を測る6つの層。",
         "countLabel": "の6",
         "exploreModules": "すべてのモジュールを探る",
         "learnMore": "詳しく学ぶ",
@@ -7439,7 +7439,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "ジェームス K. のアップセル率はシフト平均を14%下回っています。次の2テーブルのためにサラとペアを組むことを検討してください。"
       },
-      "closingTitle": "昨日の数字に頼るのはやめましょう。",
+      "closingTitle": "取り戻せるはずの利益を漏らし続けるのはやめましょう。",
       "closingDescription": "30分。あなたのデータ。Sundaeがチームのために実際に変えること。",
       "pages": {
         "signIn": {
@@ -7714,8 +7714,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ko": {
     "metadata": {
-      "title": "Sundae - 다점포 푸드서비스를 위한 의사결정 인텔리전스",
-      "description": "Sundae는 이미 사용 중인 시스템에 연결해 매출, 인건비, 재고, 고객에서 새는 이익을 찾아내고, 기회마다 담당자를 한 명씩 지정하며, 실제로 얼마가 돌아왔는지 측정합니다."
+      "title": "Sundae - 외식업의 수익을 회복하는 의사결정 인텔리전스",
+      "description": "다점포 외식업을 위한 의사결정 인텔리전스 플랫폼 - Sundae는 마진 누수를 찾아내고, 해결책을 책임 담당자에게 배정하며, 회복한 수익을 기준선과 비교해 측정합니다."
     },
     "layout": {
       "skipToContent": "주 콘텐츠로 건너뛰기",
@@ -7891,7 +7891,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "추측에서 확실함으로 나아간 운영자들과 함께하세요.",
       "bookDemo": "데모 예약하기",
       "startFree": "Report로 무료 시작하기",
-      "brandDescription": "다점포 운영자를 위한 의사결정 인텔리전스 플랫폼. 이익을 되찾고, 무엇이 효과가 있었는지 증명하세요.",
+      "brandDescription": "다점포 외식업을 위한 의사결정 인텔리전스. 누수를 찾고, 이익을 되찾으세요.",
       "global": "글로벌",
       "allCurrencies": "모든 통화",
       "sectionProduct": "제품",
@@ -7932,10 +7932,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "결정 지능 플랫폼",
-      "titleTop": "결정 지능",
-      "titleBottom": "다점포 외식 사업을 위한",
-      "subheadline": "무엇이 바뀌었는지, 누가 바로잡는지, 그리고 그것이 이익으로 얼마를 되돌렸는지 알 수 있습니다.",
+      "badge": "실시간으로 보기",
+      "titleTop": "루프가 도는 모습을 지켜보세요,",
+      "titleBottom": "라이브 한 교대 내내.",
+      "subheadline": "실제 페이스, 라이브 Coach, 단 하루의 영업 - Pulse에서 도는 회수 루프.",
       "description": "데이터가 POS, 배달, 예약, 인력, 재고, 재무에 흩어져 있습니다.",
       "descriptionEmphasis": "Sundae가 이를 하나의 실시간 운영 레이어로 모읍니다.",
       "narrativeAnchor": "보고 지연에서 운영 속도로.",
@@ -7944,12 +7944,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "신용 카드가 필요하지 않습니다",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "연결된 시스템"
+          "number": "6",
+          "label": "레이어, 하나의 회수 루프"
         },
         {
           "number": "18",
-          "label": "오늘 드러난 의사결정"
+          "label": "오늘 포착한 누수"
         },
         {
           "number": "12",
@@ -7957,7 +7957,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5분",
-          "label": "신호에서 실행까지"
+          "label": "누수에서 담당자가 지정된 해결까지"
         }
       ],
       "problem": {
@@ -7992,9 +7992,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 레이어 · 하나의 진실",
-        "heading": "여섯 개의 레이어. 하나의 진실.",
-        "description": "실시간 근무부터 장기 계획까지 - 하나의 스택, 서로 소통하는 여섯 개의 레이어.",
+        "eyebrow": "6 레이어 · 하나의 루프",
+        "heading": "여섯 개의 레이어. 하나의 루프.",
+        "description": "실시간 근무부터 장기 계획까지 - 누수를 찾고, 해결을 맡고, 회수를 측정하는 여섯 개의 레이어.",
         "countLabel": "중 6",
         "exploreModules": "모든 모듈 탐색하기",
         "learnMore": "자세히 알아보기",
@@ -8210,7 +8210,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K.의 업셀 비율이 교대 평균보다 14% 낮습니다. 다음 2개의 테이블을 위해 Sarah와 함께하는 것을 고려하세요."
       },
-      "closingTitle": "어제의 숫자에 의존하지 마세요.",
+      "closingTitle": "되찾을 수 있는 마진을 흘려보내지 마세요.",
       "closingDescription": "30분. 당신의 데이터. Sundae가 팀을 위해 실제로 변경할 사항.",
       "pages": {
         "signIn": {
@@ -8485,8 +8485,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "id": {
     "metadata": {
-      "title": "Sundae - Decision intelligence untuk food service multi-lokasi",
-      "description": "Sundae terhubung ke sistem yang sudah Anda pakai, menemukan laba yang bocor di pendapatan, tenaga kerja, persediaan, dan tamu, memberi satu penanggung jawab untuk tiap peluang, lalu mengukur berapa yang benar-benar kembali."
+      "title": "Sundae - Kecerdasan Keputusan yang memulihkan laba untuk layanan makanan",
+      "description": "Platform kecerdasan keputusan untuk layanan makanan multi-lokasi - Sundae menemukan kebocoran margin, mengarahkan perbaikan ke penanggung jawab yang akuntabel, dan mengukur laba yang Anda pulihkan terhadap garis dasar."
     },
     "layout": {
       "skipToContent": "Lewati ke konten utama",
@@ -8662,7 +8662,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Bergabunglah dengan operator yang telah beralih dari menebak menjadi mengetahui.",
       "bookDemo": "Jadwalkan Demo",
       "startFree": "Mulai Gratis dengan Report",
-      "brandDescription": "Platform decision intelligence untuk operator multi-lokasi. Rebut kembali laba Anda. Lalu buktikan apa yang berhasil.",
+      "brandDescription": "Decision intelligence untuk foodservice multi-lokasi. Temukan kebocoran, pulihkan labanya.",
       "global": "Global",
       "allCurrencies": "Semua mata uang",
       "sectionProduct": "Produk",
@@ -8703,10 +8703,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platform Intelijen Keputusan",
-      "titleTop": "Intelijen Keputusan",
-      "titleBottom": "untuk bisnis kuliner multi-lokasi",
-      "subheadline": "Ketahui apa yang berubah, siapa yang menangani perbaikan, dan berapa yang kembali ke laba.",
+      "badge": "Lihat langsung",
+      "titleTop": "Lihat lingkar berjalan",
+      "titleBottom": "sepanjang satu shift langsung.",
+      "subheadline": "Tempo nyata, Coach langsung, satu malam layanan - lingkar pemulihan yang berjalan di Pulse.",
       "description": "Data Anda tersebar di POS, pengiriman, reservasi, tenaga kerja, stok, dan keuangan.",
       "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasional langsung.",
       "narrativeAnchor": "Dari keterlambatan pelaporan ke kecepatan operasional.",
@@ -8715,12 +8715,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Tidak perlu kartu kredit",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Sistem terhubung"
+          "number": "6",
+          "label": "Lapis, satu siklus pemulihan"
         },
         {
           "number": "18",
-          "label": "Keputusan yang muncul hari ini"
+          "label": "Kebocoran yang terdeteksi hari ini"
         },
         {
           "number": "12",
@@ -8728,7 +8728,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 menit",
-          "label": "Dari sinyal ke aksi"
+          "label": "Dari kebocoran ke perbaikan bertanggung jawab"
         }
       ],
       "problem": {
@@ -8763,9 +8763,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAPIS · SATU KEBENARAN",
-        "heading": "Enam lapis. Satu kebenaran.",
-        "description": "Dari shift langsung hingga rencana jangka panjang - satu tumpukan, enam lapis yang saling terhubung.",
+        "eyebrow": "6 LAPIS · SATU SIKLUS",
+        "heading": "Enam lapis. Satu siklus.",
+        "description": "Dari shift langsung hingga rencana jangka panjang - enam lapis yang menemukan kebocoran, menangani perbaikan, dan mengukur pemulihan.",
         "countLabel": "dari 6",
         "exploreModules": "Jelajahi semua modul",
         "learnMore": "Pelajari lebih lanjut",
@@ -8981,7 +8981,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Tingkat upsell James K. adalah 14% di bawah rata-rata shift. Pertimbangkan untuk berpasangan dengan Sarah untuk 2 meja berikutnya."
       },
-      "closingTitle": "Hentikan penggunaan angka dari kemarin.",
+      "closingTitle": "Berhenti membiarkan margin yang bisa Anda pulihkan bocor.",
       "closingDescription": "30 menit. Data Anda. Apa yang sebenarnya akan diubah Sundae untuk tim.",
       "pages": {
         "signIn": {
@@ -9256,8 +9256,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "vi": {
     "metadata": {
-      "title": "Sundae - Trí tuệ quyết định cho chuỗi dịch vụ ăn uống nhiều chi nhánh",
-      "description": "Sundae kết nối các hệ thống bạn đang dùng, tìm ra lợi nhuận thất thoát ở doanh thu, nhân công, tồn kho và khách hàng, giao mỗi cơ hội cho một người chịu trách nhiệm, rồi đo lường phần thực sự thu về."
+      "title": "Sundae - Trí tuệ quyết định giúp phục hồi lợi nhuận cho dịch vụ ăn uống",
+      "description": "Nền tảng trí tuệ quyết định cho dịch vụ ăn uống đa điểm - Sundae phát hiện rò rỉ biên lợi nhuận, giao việc khắc phục cho một người chịu trách nhiệm, và đo lường lợi nhuận bạn thu hồi so với đường cơ sở."
     },
     "layout": {
       "skipToContent": "Bỏ qua nội dung chính",
@@ -9433,7 +9433,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Tham gia cùng các nhà điều hành đã chuyển từ đoán mò sang hiểu biết.",
       "bookDemo": "Đặt lịch Demo",
       "startFree": "Bắt đầu miễn phí với Report",
-      "brandDescription": "Nền tảng decision intelligence cho nhà điều hành nhiều chi nhánh. Thu hồi lợi nhuận. Và chứng minh điều gì hiệu quả.",
+      "brandDescription": "Decision intelligence cho ngành ẩm thực nhiều chi nhánh. Tìm chỗ rò rỉ, thu lại lợi nhuận.",
       "global": "Toàn cầu",
       "allCurrencies": "Tất cả các loại tiền tệ",
       "sectionProduct": "Sản phẩm",
@@ -9474,10 +9474,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Nền tảng Trí tuệ Quyết định",
-      "titleTop": "Trí tuệ Quyết định",
-      "titleBottom": "cho chuỗi dịch vụ ăn uống nhiều chi nhánh",
-      "subheadline": "Biet dieu gi da thay doi, ai chiu trach nhiem khac phuc, va no da mang lai bao nhieu cho loi nhuan.",
+      "badge": "Xem trực tiếp",
+      "titleTop": "Xem vòng lặp vận hành",
+      "titleBottom": "suốt một ca trực tiếp.",
+      "subheadline": "Nhịp độ thực, một Coach trực tiếp, một đêm phục vụ - vòng lặp thu hồi đang chạy trên Pulse.",
       "description": "Du lieu cua ban nam rai rac qua POS, giao hang, dat ban, nhan su, kho va tai chinh.",
       "descriptionEmphasis": "Sundae gop tat ca vao mot lop van hanh truc tiep duy nhat.",
       "narrativeAnchor": "Từ độ trễ báo cáo đến tốc độ vận hành.",
@@ -9486,12 +9486,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Không cần thẻ tín dụng",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Hệ thống kết nối"
+          "number": "6",
+          "label": "Lớp, một vòng lặp phục hồi"
         },
         {
           "number": "18",
-          "label": "Quyết định hiện ra hôm nay"
+          "label": "Rò rỉ phát hiện hôm nay"
         },
         {
           "number": "12",
@@ -9499,7 +9499,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 phút",
-          "label": "Từ tín hiệu đến hành động"
+          "label": "Từ rò rỉ đến bản sửa có người phụ trách"
         }
       ],
       "problem": {
@@ -9534,9 +9534,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LỚP · MỘT SỰ THẬT",
-        "heading": "Sáu lớp. Một sự thật.",
-        "description": "Từ ca làm việc trực tiếp đến kế hoạch dài hạn - một hệ thống, sáu lớp tương tác với nhau.",
+        "eyebrow": "6 LỚP · MỘT VÒNG LẶP",
+        "heading": "Sáu lớp. Một vòng lặp.",
+        "description": "Từ ca làm việc trực tiếp đến kế hoạch dài hạn - sáu lớp tìm ra rò rỉ, đảm nhận bản sửa và đo lường mức phục hồi.",
         "countLabel": "trong số 6",
         "exploreModules": "Khám phá tất cả các mô-đun",
         "learnMore": "Tìm hiểu thêm",
@@ -9752,7 +9752,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Tỷ lệ upsell của James K. thấp hơn 14% so với trung bình ca. Cân nhắc kết hợp với Sarah cho 2 bàn tiếp theo."
       },
-      "closingTitle": "Đừng dựa vào số liệu của ngày hôm qua.",
+      "closingTitle": "Đừng để rò rỉ biên lợi nhuận mà bạn có thể thu hồi.",
       "closingDescription": "30 phút. Dữ liệu của bạn. Những gì Sundae thực sự sẽ thay đổi cho đội.",
       "pages": {
         "signIn": {
@@ -10027,8 +10027,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ro": {
     "metadata": {
-      "title": "Sundae - Inteligență decizională pentru grupuri food service multi-locație",
-      "description": "Sundae se conectează la sistemele pe care le folosești deja, găsește marja pierdută în vânzări, forță de muncă, stocuri și oaspeți, atribuie fiecare oportunitate unui responsabil și măsoară cât s-a recuperat cu adevărat."
+      "title": "Sundae - Inteligență decizională care recuperează profitul pentru food-service",
+      "description": "Platforma de inteligență decizională pentru food-service cu mai multe locații - Sundae găsește scurgerea de marjă, direcționează remedierea către un responsabil desemnat și măsoară profitul recuperat față de o valoare de referință."
     },
     "layout": {
       "skipToContent": "Sari la conținutul principal",
@@ -10204,7 +10204,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Alătură-te operatorilor care au trecut de la presupuneri la certitudini.",
       "bookDemo": "Programează o demonstrație",
       "startFree": "Începe gratuit cu Report",
-      "brandDescription": "Platforma de decision intelligence pentru operatori multi-locație. Recuperează marja. Dovedește ce a funcționat.",
+      "brandDescription": "Decision intelligence pentru food-service multi-locație. Găsește scurgerea, recuperează profitul.",
       "global": "Global",
       "allCurrencies": "Toate monedele",
       "sectionProduct": "Produs",
@@ -10245,10 +10245,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platforma de Inteligență Decizională",
-      "titleTop": "Inteligența Decizională",
-      "titleBottom": "pentru alimentație publică multi-locație",
-      "subheadline": "Afla ce s-a schimbat, cine raspunde de remediere si cat a adus inapoi in rezultat.",
+      "badge": "Vezi în direct",
+      "titleTop": "Urmărește bucla rulând",
+      "titleBottom": "pe parcursul unei ture live.",
+      "subheadline": "Ritm real, un Coach live, o singură seară de serviciu - bucla de recuperare rulând pe Pulse.",
       "description": "Datele tale sunt imprastiate prin POS, livrari, rezervari, personal, stocuri si finante.",
       "descriptionEmphasis": "Sundae le aduce intr-un singur strat operational live.",
       "narrativeAnchor": "De la întârzierea raportării la viteza operațiunilor.",
@@ -10257,12 +10257,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Nu este necesară o carte de credit",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Sisteme conectate"
+          "number": "6",
+          "label": "Straturi, o buclă de recuperare"
         },
         {
           "number": "18",
-          "label": "Decizii apărute azi"
+          "label": "Scurgeri depistate azi"
         },
         {
           "number": "12",
@@ -10270,7 +10270,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "De la semnal la acțiune"
+          "label": "De la scurgere la remedierea atribuită"
         }
       ],
       "problem": {
@@ -10305,9 +10305,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 STRATURI · UN SINGUR ADEVĂR",
-        "heading": "Șase straturi. Un singur adevăr.",
-        "description": "De la schimbul live la planul pe termen lung - o stivă, șase straturi care comunică între ele.",
+        "eyebrow": "6 STRATURI · O BUCLĂ",
+        "heading": "Șase straturi. O buclă.",
+        "description": "De la schimbul live la planul pe termen lung - șase straturi care găsesc scurgerea, preiau remedierea și măsoară recuperarea.",
         "countLabel": "din 6",
         "exploreModules": "Explorează toate modulele",
         "learnMore": "Află mai multe",
@@ -10523,7 +10523,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Rata de upsell a lui James K. este cu 14% sub media schimbului. Ia în considerare să colaborezi cu Sarah pentru următoarele 2 mese."
       },
-      "closingTitle": "Nu mai alergați după cifrele de ieri.",
+      "closingTitle": "Nu mai lăsa să se scurgă marja pe care ai putea-o recupera.",
       "closingDescription": "30 de minute. Datele tale. Ce ar schimba de fapt Sundae pentru echipă.",
       "pages": {
         "signIn": {
@@ -10798,8 +10798,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "sv": {
     "metadata": {
-      "title": "Sundae - Beslutsintelligens för foodservice med flera enheter",
-      "description": "Sundae kopplar ihop systemen ni redan använder, hittar marginalen som läcker i försäljning, personal, lager och gäster, ger varje möjlighet en ansvarig och mäter hur mycket som faktiskt kom tillbaka."
+      "title": "Sundae - Beslutsintelligens som återvinner vinst för restaurangbranschen",
+      "description": "Beslutsintelligensplattformen för restaurangverksamheter med flera enheter - Sundae hittar marginalläckan, skickar åtgärden till en ansvarig ägare och mäter den återvunna vinsten mot en baslinje."
     },
     "layout": {
       "skipToContent": "Hoppa till huvudinnehåll",
@@ -10975,7 +10975,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Gå med operatörer som har gått från att gissa till att veta.",
       "bookDemo": "Boka en demo",
       "startFree": "Börja gratis med Report",
-      "brandDescription": "Decision intelligence-plattformen för operatörer med flera enheter. Ta tillbaka marginalen. Bevisa vad som fungerade.",
+      "brandDescription": "Decision intelligence för foodservice med flera enheter. Hitta läckan, ta tillbaka vinsten.",
       "global": "Globalt",
       "allCurrencies": "Alla valutor",
       "sectionProduct": "Produkt",
@@ -11016,10 +11016,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Beslutsintelligensplattform",
-      "titleTop": "Beslutsintelligens",
-      "titleBottom": "för restaurangverksamhet med flera enheter",
-      "subheadline": "Vet vad som andrats, vem som ager atgarden och vad det gav tillbaka pa sista raden.",
+      "badge": "Se det live",
+      "titleTop": "Se loopen köra",
+      "titleBottom": "under ett helt live-pass.",
+      "subheadline": "Verkligt tempo, en live-Coach, en enda servicekväll - återvinningsloopen som körs på Pulse.",
       "description": "Dina data ligger spridda over kassa, leverans, bokningar, personal, lager och ekonomi.",
       "descriptionEmphasis": "Sundae samlar allt i ett levande driftlager.",
       "narrativeAnchor": "Från rapporteringsfördröjning till operativ hastighet.",
@@ -11028,12 +11028,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Inget kreditkort krävs",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Anslutna system"
+          "number": "6",
+          "label": "Lager, en återvinningsloop"
         },
         {
           "number": "18",
-          "label": "Beslut som synliggjorts idag"
+          "label": "Läckor upptäckta idag"
         },
         {
           "number": "12",
@@ -11041,7 +11041,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Från signal till handling"
+          "label": "Från läcka till åtgärd med ansvarig"
         }
       ],
       "problem": {
@@ -11076,9 +11076,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAGER · EN SANNING",
-        "heading": "Sex lager. En sanning.",
-        "description": "Från det aktuella skiftet till den långsiktiga planen - en stack, sex lager som kommunicerar med varandra.",
+        "eyebrow": "6 LAGER · EN LOOP",
+        "heading": "Sex lager. En loop.",
+        "description": "Från det aktuella skiftet till den långsiktiga planen - sex lager som hittar läckan, tar hand om åtgärden och mäter återvinningen.",
         "countLabel": "av 6",
         "exploreModules": "Utforska alla moduler",
         "learnMore": "Läs mer",
@@ -11294,7 +11294,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "James K:s uppförsäljningsgrad är 14% under skiftets genomsnitt. Överväg att para ihop honom med Sarah för de nästa 2 borden."
       },
-      "closingTitle": "Sluta basera er på gårdagens siffror.",
+      "closingTitle": "Sluta läcka marginal som du skulle kunna återvinna.",
       "closingDescription": "30 minuter. Dina data. Vad Sundae faktiskt skulle förändra för teamet.",
       "pages": {
         "signIn": {
@@ -11569,8 +11569,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "bn": {
     "metadata": {
-      "title": "Sundae - মাল্টি-লোকেশন ফুড সার্ভিসের জন্য ডিসিশন ইন্টেলিজেন্স",
-      "description": "Sundae আপনার বিদ্যমান সিস্টেমের সঙ্গে যুক্ত হয়, রাজস্ব, শ্রম, ইনভেন্টরি ও অতিথিদের মধ্যে বেরিয়ে যাওয়া মুনাফা খুঁজে বের করে, প্রতিটি সুযোগের জন্য একজন দায়িত্বপ্রাপ্ত ব্যক্তি ঠিক করে, এবং মাপে সত্যিই কতটা ফিরে এল।"
+      "title": "Sundae - খাদ্য পরিষেবার জন্য মুনাফা পুনরুদ্ধারকারী সিদ্ধান্ত বুদ্ধিমত্তা",
+      "description": "বহু-শাখার খাদ্য পরিষেবার জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম - Sundae মার্জিন লিক খুঁজে বের করে, সমাধানটি একজন জবাবদিহি দায়িত্বশীল ব্যক্তির কাছে পাঠায়, এবং আপনি যে মুনাফা পুনরুদ্ধার করেন তা একটি ভিত্তিরেখার বিপরীতে পরিমাপ করে।"
     },
     "layout": {
       "skipToContent": "মুখ্য বিষয়বস্তুতে যান",
@@ -11746,7 +11746,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "যারা অনুমান থেকে জানার দিকে এগিয়ে গেছে তাদের সাথে যোগ দিন।",
       "bookDemo": "ডেমো বুক করুন",
       "startFree": "রিপোর্টের সাথে বিনামূল্যে শুরু করুন",
-      "brandDescription": "মাল্টি-লোকেশন অপারেটরদের জন্য ডিসিশন ইন্টেলিজেন্স প্ল্যাটফর্ম। মুনাফা ফিরিয়ে আনুন। আর প্রমাণ করুন কী কাজ করেছে।",
+      "brandDescription": "মাল্টি-লোকেশন ফুড-সার্ভিসের জন্য ডিসিশন ইন্টেলিজেন্স। লিক খুঁজে বের করুন, মুনাফা ফিরিয়ে আনুন।",
       "global": "গ্লোবাল",
       "allCurrencies": "সমস্ত মুদ্রা",
       "sectionProduct": "পণ্য",
@@ -11787,10 +11787,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
-      "titleTop": "সিদ্ধান্ত বুদ্ধিমত্তা",
-      "titleBottom": "মাল্টি-লোকেশন ফুড সার্ভিসের জন্য",
-      "subheadline": "জানুন কী বদলেছে, সংশোধনের দায়িত্ব কার, আর তাতে মুনাফায় কতটা ফিরে এল।",
+      "badge": "সরাসরি দেখুন",
+      "titleTop": "লুপটিকে চলতে দেখুন",
+      "titleBottom": "পুরো একটি লাইভ শিফট জুড়ে।",
+      "subheadline": "সত্যিকারের গতি, একজন লাইভ Coach, একটিই সার্ভিস সন্ধ্যা - Pulse-এ চলমান পুনরুদ্ধার লুপ।",
       "description": "Apnar data POS, delivery, booking, kormi, inventory ar finance e chhoriye achhe.",
       "descriptionEmphasis": "Sundae sob ekti live operating layer e niye ase.",
       "narrativeAnchor": "রিপোর্টিং বিলম্ব থেকে অপারেশন গতি।",
@@ -11799,12 +11799,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "কোন ক্রেডিট কার্ডের প্রয়োজন নেই",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "সংযুক্ত সিস্টেম"
+          "number": "6",
+          "label": "স্তর, একটি পুনরুদ্ধার চক্র"
         },
         {
           "number": "18",
-          "label": "আজ উঠে আসা সিদ্ধান্ত"
+          "label": "আজ ধরা পড়া লিক"
         },
         {
           "number": "12",
@@ -11812,7 +11812,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 মিনিট",
-          "label": "সংকেত থেকে পদক্ষেপে"
+          "label": "লিক থেকে দায়িত্বপ্রাপ্ত সমাধানে"
         }
       ],
       "problem": {
@@ -11847,9 +11847,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "৬ স্তর · একটি সত্য",
-        "heading": "ছয় স্তর। একটি সত্য।",
-        "description": "লাইভ শিফট থেকে দীর্ঘমেয়াদী পরিকল্পনা - একটি স্ট্যাক, ছয়টি স্তর যা একে অপরের সাথে কথা বলে।",
+        "eyebrow": "৬ স্তর · একটি চক্র",
+        "heading": "ছয় স্তর। একটি চক্র।",
+        "description": "লাইভ শিফট থেকে দীর্ঘমেয়াদী পরিকল্পনা - ছয়টি স্তর যা লিক খুঁজে বের করে, সমাধান হাতে নেয় এবং পুনরুদ্ধার মাপে।",
         "countLabel": "৬ এর মধ্যে",
         "exploreModules": "সমস্ত মডিউল অন্বেষণ করুন",
         "learnMore": "আরও জানুন",
@@ -12065,7 +12065,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "জেমস কে. এর আপসেল হার শিফট গড়ের ১৪% নিচে। পরবর্তী ২ টেবিলের জন্য সারা এর সাথে জুড়তে বিবেচনা করুন।"
       },
-      "closingTitle": "গতকালের সংখ্যার উপর চলা বন্ধ করুন।",
+      "closingTitle": "যে মার্জিন আপনি ফিরে পেতে পারেন, তা লিক হওয়া বন্ধ করুন।",
       "closingDescription": "৩০ মিনিট। আপনার ডেটা। Sundae আসলে দলের জন্য কী পরিবর্তন আনবে।",
       "pages": {
         "signIn": {
@@ -12340,8 +12340,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "th": {
     "metadata": {
-      "title": "Sundae - ปัญญาการตัดสินใจสำหรับธุรกิจอาหารหลายสาขา",
-      "description": "Sundae เชื่อมต่อกับระบบที่คุณใช้อยู่แล้ว ค้นหากำไรที่รั่วไหลในรายได้ แรงงาน สินค้าคงคลัง และลูกค้า มอบหมายผู้รับผิดชอบหนึ่งคนต่อหนึ่งโอกาส แล้ววัดว่ากลับคืนมาจริงเท่าใด"
+      "title": "Sundae - ปัญญาประดิษฐ์ในการตัดสินใจที่กู้คืนกำไรสำหรับธุรกิจบริการอาหาร",
+      "description": "แพลตฟอร์มปัญญาประดิษฐ์ในการตัดสินใจสำหรับธุรกิจบริการอาหารหลายสาขา - Sundae ค้นหาจุดรั่วไหลของมาร์จิน มอบหมายการแก้ไขให้ผู้รับผิดชอบที่ตรวจสอบได้ และวัดกำไรที่คุณกู้คืนเทียบกับเส้นฐาน"
     },
     "layout": {
       "skipToContent": "ข้ามไปยังเนื้อหาหลัก",
@@ -12517,7 +12517,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "เข้าร่วมกับผู้ดำเนินการที่เปลี่ยนจากการเดาเป็นการรู้จริง.",
       "bookDemo": "จองการสาธิต",
       "startFree": "เริ่มใช้งานฟรีกับ Report",
-      "brandDescription": "แพลตฟอร์ม decision intelligence สำหรับผู้ดำเนินการหลายสาขา ดึงกำไรกลับคืนมา และพิสูจน์ว่าอะไรได้ผล",
+      "brandDescription": "Decision intelligence สำหรับธุรกิจอาหารหลายสาขา หาจุดรั่ว ทวงกำไรคืน",
       "global": "ทั่วโลก",
       "allCurrencies": "ทุกสกุลเงิน",
       "sectionProduct": "ผลิตภัณฑ์",
@@ -12558,10 +12558,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "แพลตฟอร์มการตัดสินใจอัจฉริยะ",
-      "titleTop": "ปัญญาการตัดสินใจ",
-      "titleBottom": "สำหรับธุรกิจอาหารหลายสาขา",
-      "subheadline": "รู้ว่าอะไรเปลี่ยนไป ใครรับผิดชอบแก้ไข และมันคืนกำไรกลับมาเท่าใด",
+      "badge": "ดูแบบสด",
+      "titleTop": "ดูวงจรทำงาน",
+      "titleBottom": "ตลอดกะสดหนึ่งกะ",
+      "subheadline": "จังหวะจริง Coach แบบสด หนึ่งค่ำคืนของการให้บริการ - วงจรการกู้คืนที่กำลังทำงานบน Pulse",
       "description": "khomun khong khun krachai yu thua POS dilivoeri kanchong tee thiti ngan singkhong khong khlang lae kanngoen.",
       "descriptionEmphasis": "Sundae ruam thanghmod wai nai chan kan tham ngan baep sod chan diao.",
       "narrativeAnchor": "จากความล่าช้าในการรายงานสู่ความเร็วในการดำเนินงาน.",
@@ -12570,12 +12570,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "ไม่ต้องใช้บัตรเครดิต",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "ระบบที่เชื่อมต่อ"
+          "number": "6",
+          "label": "ชั้น หนึ่งวงจรกู้คืน"
         },
         {
           "number": "18",
-          "label": "การตัดสินใจที่ปรากฏวันนี้"
+          "label": "การรั่วไหลที่พบวันนี้"
         },
         {
           "number": "12",
@@ -12583,7 +12583,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 นาที",
-          "label": "จากสัญญาณสู่การลงมือ"
+          "label": "จากการรั่วไหลสู่การแก้ไขที่มีผู้รับผิดชอบ"
         }
       ],
       "problem": {
@@ -12618,9 +12618,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 ชั้น · ความจริงเดียว",
-        "heading": "หกชั้น ความจริงเดียว",
-        "description": "จากกะที่กำลังดำเนินอยู่ไปจนถึงแผนระยะยาว - หนึ่งชุด หกชั้นที่สื่อสารกัน",
+        "eyebrow": "6 ชั้น · หนึ่งวงจร",
+        "heading": "หกชั้น หนึ่งวงจร",
+        "description": "จากกะที่กำลังดำเนินอยู่ไปจนถึงแผนระยะยาว - หกชั้นที่ค้นหาการรั่วไหล รับผิดชอบการแก้ไข และวัดผลการกู้คืน",
         "countLabel": "จาก 6",
         "exploreModules": "สำรวจโมดูลทั้งหมด",
         "learnMore": "เรียนรู้เพิ่มเติม",
@@ -12836,7 +12836,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "อัตราการขายเพิ่มของ James K. ต่ำกว่าค่าเฉลี่ยของกะ 14%. พิจารณาจับคู่กับ Sarah สำหรับ 2 โต๊ะถัดไป."
       },
-      "closingTitle": "หยุดวิ่งตามตัวเลขเมื่อวานนี้.",
+      "closingTitle": "หยุดปล่อยให้มาร์จินที่คุณกู้คืนได้รั่วไหลไป.",
       "closingDescription": "30 นาที ข้อมูลของคุณ สิ่งที่ Sundae จะเปลี่ยนแปลงสำหรับทีมจริงๆ",
       "pages": {
         "signIn": {
@@ -13111,8 +13111,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ms": {
     "metadata": {
-      "title": "Sundae - Kecerdasan keputusan untuk perkhidmatan makanan berbilang lokasi",
-      "description": "Sundae menyambung sistem yang anda sudah guna, mengesan keuntungan yang bocor pada hasil, tenaga kerja, inventori dan tetamu, memberikan satu penanggungjawab bagi setiap peluang, dan mengukur berapa yang benar-benar kembali."
+      "title": "Sundae - Kecerdasan Keputusan yang memulihkan keuntungan untuk perkhidmatan makanan",
+      "description": "Platform kecerdasan keputusan untuk perkhidmatan makanan berbilang lokasi - Sundae mengesan kebocoran margin, menyalurkan pembetulan kepada pemilik yang bertanggungjawab, dan mengukur keuntungan yang anda pulihkan berbanding garis dasar."
     },
     "layout": {
       "skipToContent": "Lompat ke kandungan utama",
@@ -13288,7 +13288,7 @@ export const generatedWebsiteMessageOverrides = {
       "readyDescription": "Sertai pengendali yang telah beralih dari meneka kepada mengetahui.",
       "bookDemo": "Tempah Demo",
       "startFree": "Mulakan Percuma dengan Report",
-      "brandDescription": "Platform decision intelligence untuk pengendali berbilang lokasi. Dapatkan semula keuntungan. Buktikan apa yang berkesan.",
+      "brandDescription": "Decision intelligence untuk food-service berbilang lokasi. Cari kebocoran, dapatkan semula untung.",
       "global": "Global",
       "allCurrencies": "Semua mata wang",
       "sectionProduct": "Produk",
@@ -13329,10 +13329,10 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Platform Kecerdasan Keputusan",
-      "titleTop": "Kecerdasan Keputusan",
-      "titleBottom": "untuk perniagaan makanan berbilang lokasi",
-      "subheadline": "Ketahui apa yang berubah, siapa yang menangani pembetulan, dan berapa yang kembali kepada untung.",
+      "badge": "Lihat secara langsung",
+      "titleTop": "Lihat gelung berjalan",
+      "titleBottom": "sepanjang satu syif langsung.",
+      "subheadline": "Tempo sebenar, seorang Coach langsung, satu malam perkhidmatan - gelung pemulihan yang berjalan pada Pulse.",
       "description": "Data anda bertaburan merentasi POS, penghantaran, tempahan, pekerja, stok dan kewangan.",
       "descriptionEmphasis": "Sundae menyatukannya dalam satu lapisan operasi langsung.",
       "narrativeAnchor": "Dari kelewatan laporan kepada kelajuan operasi.",
@@ -13341,12 +13341,12 @@ export const generatedWebsiteMessageOverrides = {
       "noCard": "Tiada kad kredit diperlukan",
       "proofStats": [
         {
-          "number": "200+",
-          "label": "Sistem bersambung"
+          "number": "6",
+          "label": "Lapisan, satu gelung pemulihan"
         },
         {
           "number": "18",
-          "label": "Keputusan yang muncul hari ini"
+          "label": "Kebocoran dikesan hari ini"
         },
         {
           "number": "12",
@@ -13354,7 +13354,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Daripada isyarat ke tindakan"
+          "label": "Daripada kebocoran ke pembetulan berpenanggungjawab"
         }
       ],
       "problem": {
@@ -13389,9 +13389,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAPIS · SATU KEBENARAN",
-        "heading": "Enam lapisan. Satu kebenaran.",
-        "description": "Dari shift langsung ke pelan jangka panjang - satu tumpukan, enam lapisan yang berkomunikasi antara satu sama lain.",
+        "eyebrow": "6 LAPIS · SATU GELUNG",
+        "heading": "Enam lapisan. Satu gelung.",
+        "description": "Dari shift langsung ke pelan jangka panjang - enam lapisan yang mengesan kebocoran, mengambil alih pembetulan dan mengukur pemulihan.",
         "countLabel": "daripada 6",
         "exploreModules": "Terokai semua modul",
         "learnMore": "Ketahui lebih lanjut",
@@ -13607,7 +13607,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "coachAlert": "Kadar upsell James K. adalah 14% di bawah purata shift. Pertimbangkan untuk berganding dengan Sarah untuk 2 meja seterusnya."
       },
-      "closingTitle": "Hentikan bergantung pada angka semalam.",
+      "closingTitle": "Berhenti membiarkan margin yang boleh anda pulihkan bocor.",
       "closingDescription": "30 minit. Data anda. Apa yang Sundae sebenarnya akan ubah untuk pasukan.",
       "pages": {
         "signIn": {

@@ -248,9 +248,9 @@ export function buildWebsiteAlternateUrls(pathname: string, baseUrl: string) {
 export const websiteMessages = {
   en: {
     metadata: {
-      title: 'Sundae - Decision Intelligence for Multi-Location Food Service',
+      title: 'Sundae - Decision Intelligence That Recovers Profit for Food-Service',
       description:
-        'Sundae connects the systems you already run, finds the profit leaking across revenue, labour, inventory and guests, gives each opportunity one owner, and measures what actually came back.',
+        'The decision intelligence platform for multi-location food-service - Sundae finds the margin leak, routes the fix to an accountable owner, and measures the profit you recover back against a baseline.',
     },
     layout: {
       skipToContent: 'Skip to main content',
@@ -290,7 +290,7 @@ export const websiteMessages = {
         { name: 'Profit Recovery', description: 'Find, fix and prove recovered margin', href: '/product/recovery' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'Expansion on Core - forecasts, scenarios and the action layer', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'Forecasts, scenarios, and the action layer', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'Real-time operations', href: '/core' },
         { name: 'Sundae Crew', description: 'Operational substrate · people, schedules, payroll', href: '/crew' },
       ],
@@ -329,7 +329,7 @@ export const websiteMessages = {
       bookDemo: 'Book a Working Session',
       startFree: 'Get started',
       brandDescription:
-        'The decision intelligence platform for multi-location operators. Recover the profit. Prove what worked.',
+        'Decision intelligence for multi-location food-service. Find the leak, recover the profit.',
       global: 'Global',
       allCurrencies: 'All currencies',
       sectionProduct: 'Product',
@@ -352,10 +352,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Decision Intelligence Platform',
-      titleTop: 'Decision Intelligence',
-      titleBottom: 'for multi-location food service',
-      subheadline: 'Know what changed, who owns the fix, and what it put back on the bottom line.',
+      badge: 'See it live',
+      titleTop: 'Watch the loop run',
+      titleBottom: 'a live shift.',
+      subheadline: 'Real pacing, a live Coach, one service night - the recovery loop running on Pulse.',
       description:
         'Your data lives across POS, delivery, reservations, labor, inventory, and finance.',
       descriptionEmphasis: 'Sundae brings it into one live operating layer.',
@@ -364,10 +364,10 @@ export const websiteMessages = {
       bookDemo: 'See Pulse live',
       noCard: '',
       proofStats: [
-        { number: '5 min', label: 'From signal to action' },
-        { number: '18', label: 'Decisions surfaced today' },
-        { number: '12', label: 'Operational areas covered' },
-        { number: '200+', label: 'Systems connected' },
+        { number: '5 min', label: 'From leak to owned fix' },
+        { number: '18', label: 'Leaks caught today' },
+        { number: '12', label: 'Operating domains unified' },
+        { number: '6', label: 'Layers, one recovery loop' },
       ],
       problem: {
         eyebrow: 'THE PROBLEM',
@@ -381,9 +381,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '6 LAYERS · ONE TRUTH',
-        heading: 'Six layers. One truth.',
-        description: 'From the live shift to the long-range plan - one stack, six layers that talk to each other.',
+        eyebrow: '6 LAYERS · ONE LOOP',
+        heading: 'Six layers. One loop.',
+        description: 'From the live shift to the long-range plan - six layers that find the leak, own the fix, and measure the recovery.',
         countLabel: 'of 6',
         exploreModules: 'Explore all modules',
         learnMore: 'Learn more',
@@ -454,7 +454,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'James K. upsell rate is 14% below shift average. Consider pairing with Sarah for the next 2 tables.',
       },
-      closingTitle: 'Stop running on yesterday’s numbers.',
+      closingTitle: 'Stop leaking margin you could recover.',
       closingDescription: '30 minutes. Your data. What Sundae would actually change for the team.',
       pages: {
         signIn: {
@@ -725,9 +725,9 @@ export const websiteMessages = {
   },
   ar: {
     metadata: {
-      title: 'Sundae - ذكاء القرار لمجموعات خدمات الطعام متعددة المواقع',
+      title: 'صنداي - ذكاء القرار الذي يستعيد الأرباح لقطاع خدمات الطعام',
       description:
-        'يتصل Sundae بالأنظمة التي تشغّلها اليوم، ويكشف الأرباح المتسرّبة عبر الإيرادات والعمالة والمخزون والضيوف، ويسند كل فرصة إلى مسؤول واحد، ثم يقيس ما استُرجع فعلاً.',
+        'منصة ذكاء القرار لخدمات الطعام متعددة الفروع - يكتشف صنداي تسرّب الهامش، ويوجّه الإصلاح إلى مسؤول مُحاسَب، ويقيس الربح الذي تستعيده مقابل خط الأساس.',
     },
     layout: {
       skipToContent: 'انتقل إلى المحتوى الرئيسي',
@@ -762,7 +762,7 @@ export const websiteMessages = {
         { name: 'Foresight', description: 'تنبؤات وذكاء استشرافي', href: '/product/foresight' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'توسعة على Core - التوقعات والسيناريوهات وطبقة التنفيذ', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'التوقعات والسيناريوهات وطبقة التنفيذ', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'عمليات في الوقت الحقيقي', href: '/core' },
         { name: 'Sundae Crew', description: 'ركيزة تشغيلية · موظفون، جدولة، رواتب', href: '/crew' },
       ],
@@ -794,7 +794,7 @@ export const websiteMessages = {
       bookDemo: 'احجز جلسة عمل',
       startFree: 'ابدأ الآن',
       brandDescription:
-        'منصة الذكاء القراري لمشغّلي المواقع المتعددة. استرجع الأرباح. وأثبت ما نجح.',
+        'ذكاء قراري لخدمات الطعام متعددة المواقع. اكتشف موضع التسرّب واستعِد الربح.',
       global: 'عالمي',
       allCurrencies: 'كل العملات',
       sectionProduct: 'المنتج',
@@ -817,10 +817,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'منصة ذكاء القرار',
-      titleTop: 'ذكاء القرار',
-      titleBottom: 'لمجموعات خدمات الطعام متعددة المواقع',
-      subheadline: 'اعرف ما تغيّر، ومن يتولّى المعالجة، وكم أعاد ذلك إلى صافي أرباحك.',
+      badge: 'شاهدها مباشرةً',
+      titleTop: 'شاهد الحلقة تُدير',
+      titleBottom: 'وردية مباشرة.',
+      subheadline: 'إيقاع حقيقي، وCoach مباشر، وليلة خدمة واحدة - حلقة الاستعادة وهي تعمل على Pulse.',
       description:
         'بياناتك موزّعة على أنظمة الـ POS والتوصيل والحجوزات والعمالة والمخزون والمالية.',
       descriptionEmphasis: 'يجمعها صنداي في طبقة تشغيل حيّة واحدة.',
@@ -829,10 +829,10 @@ export const websiteMessages = {
       bookDemo: 'احجز عرضاً',
       noCard: 'لا حاجة إلى بطاقة ائتمان',
       proofStats: [
-        { number: '200+', label: 'نظاماً متصلاً' },
-        { number: '18', label: 'قرارات أُبرزت اليوم' },
-        { number: '12', label: 'مجالاً تشغيلياً مغطى' },
-        { number: '5 د', label: 'من الإشارة إلى الإجراء' },
+        { number: '6', label: 'طبقات، حلقة استرداد واحدة' },
+        { number: '18', label: 'تسرّبات رُصدت اليوم' },
+        { number: '12', label: 'مجالات تشغيل موحّدة' },
+        { number: '5 د', label: 'من التسرّب إلى إصلاح مُسنَد' },
       ],
       problem: {
         eyebrow: 'المشكلة',
@@ -846,9 +846,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '٦ طبقات · حقيقة واحدة',
-        heading: 'ست طبقات. حقيقة واحدة.',
-        description: 'من الوردية الحية إلى الخطة طويلة المدى - منصة واحدة، ست طبقات تتحدث مع بعضها.',
+        eyebrow: '٦ طبقات · حلقة واحدة',
+        heading: 'ست طبقات. حلقة واحدة.',
+        description: 'من الوردية الحية إلى الخطة طويلة المدى - ست طبقات ترصد التسرّب، وتتولّى الإصلاح، وتقيس الاسترداد.',
         countLabel: 'من ٦',
         exploreModules: 'استعرض كل الوحدات',
         learnMore: 'اعرف المزيد',
@@ -919,7 +919,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'معدل البيع الإضافي لدى James K. أقل بـ 14% من متوسط الوردية. فكر في إقرانه مع Sarah للطلبتين القادمتين.',
       },
-      closingTitle: 'توقف عن إدارة مطعمك بأرقام الأمس.',
+      closingTitle: 'أوقِف تسرّب الهامش الذي يمكنك استرداده.',
       closingDescription: '30 دقيقة. بياناتك. ما الذي سيتغير فعلياً لفريقك مع Sundae.',
       pages: {
         signIn: {
@@ -1170,9 +1170,9 @@ export const websiteMessages = {
   },
   fr: {
     metadata: {
-      title: 'Sundae - Intelligence décisionnelle pour la restauration',
+      title: 'Sundae - Intelligence décisionnelle qui récupère les profits pour la restauration',
       description:
-        "La plateforme d'intelligence décisionnelle pour les restaurants - unifie POS, main-d'œuvre, coûts et opérations pour comparer les performances et en faire la prochaine bonne décision.",
+        "La plateforme d'intelligence décisionnelle pour la restauration multi-établissements - Sundae détecte la fuite de marge, confie le correctif à un responsable désigné et mesure le profit récupéré par rapport à une base de référence.",
     },
     layout: {
       skipToContent: 'Aller au contenu principal',
@@ -1207,7 +1207,7 @@ export const websiteMessages = {
         { name: 'Foresight', description: 'Prévision et intelligence prédictive', href: '/product/foresight' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'Expansion sur Core - previsions, scenarios et couche d\'action', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'Previsions, scenarios et couche d\'action', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'Opérations en temps réel', href: '/core' },
         { name: 'Sundae Crew', description: 'Socle opérationnel · équipes, plannings, paie', href: '/crew' },
       ],
@@ -1239,7 +1239,7 @@ export const websiteMessages = {
       bookDemo: 'Réserver une session de travail',
       startFree: 'Commencer',
       brandDescription:
-        "La plateforme d'intelligence décisionnelle pour les opérateurs multi-sites. Récupérez la marge. Prouvez ce qui a marché.",
+        "L'intelligence décisionnelle pour la restauration multi-sites. Trouvez la fuite, récupérez le profit.",
       global: 'Global',
       allCurrencies: 'Toutes les devises',
       sectionProduct: 'Produit',
@@ -1262,10 +1262,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Plateforme d\'intelligence décisionnelle',
-      titleTop: 'Intelligence décisionnelle',
-      titleBottom: 'pour la restauration multi-sites',
-      subheadline: 'Sachez ce qui a change, qui pilote la correction, et ce que cela a rapporte au resultat.',
+      badge: 'Voyez-le en direct',
+      titleTop: 'Regardez la boucle tourner',
+      titleBottom: 'pendant un service en direct.',
+      subheadline: 'Un rythme réel, un Coach en direct, un seul service du soir - la boucle de récupération qui tourne sur Pulse.',
       description:
         'Vos données vivent dans le POS, la livraison, les réservations, le personnel, les stocks et la finance.',
       descriptionEmphasis: 'Sundae les réunit dans une seule couche opérationnelle en direct.',
@@ -1274,10 +1274,10 @@ export const websiteMessages = {
       bookDemo: 'Demander une démo',
       noCard: 'Aucune carte bancaire requise',
       proofStats: [
-        { number: '200+', label: 'Systèmes connectés' },
-        { number: '18', label: 'Décisions remontées aujourd\'hui' },
-        { number: '12', label: 'Domaines opérationnels couverts' },
-        { number: '5 min', label: 'Du signal à l\'action' },
+        { number: '6', label: 'Couches, une boucle de récupération' },
+        { number: '18', label: 'Fuites détectées aujourd\'hui' },
+        { number: '12', label: 'Domaines opérationnels unifiés' },
+        { number: '5 min', label: 'De la fuite au correctif pris en charge' },
       ],
       problem: {
         eyebrow: 'LE PROBLÈME',
@@ -1291,9 +1291,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '6 COUCHES · UNE SEULE VÉRITÉ',
-        heading: 'Six couches. Une seule vérité.',
-        description: 'Du service en direct au plan long terme - une plateforme, six couches qui se parlent.',
+        eyebrow: '6 COUCHES · UNE BOUCLE',
+        heading: 'Six couches. Une boucle.',
+        description: 'Du service en direct au plan long terme - six couches qui repèrent la fuite, prennent en charge le correctif et mesurent la récupération.',
         countLabel: 'sur 6',
         exploreModules: 'Explorer tous les modules',
         learnMore: 'En savoir plus',
@@ -1364,7 +1364,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'Le taux d\'upsell de James K. est 14% sous la moyenne du service. Pensez à le faire travailler avec Sarah sur les 2 prochaines tables.',
       },
-      closingTitle: 'Arrêtez de piloter sur les chiffres d\'hier.',
+      closingTitle: 'Arrêtez de laisser fuir la marge que vous pourriez récupérer.',
       closingDescription: '30 minutes. Vos données. Ce que Sundae changerait concrètement pour l\'équipe.',
       pages: {
         signIn: {
@@ -1485,7 +1485,7 @@ export const websiteMessages = {
           badge: 'Tarifs',
           title: 'Tarifs simples et transparents',
           description:
-            'Quatre offres Core, tarifées à partir de votre premier site puis au tarif marginal de chaque site suivant. Chaque offre embarque les onze modules metier et des crédits IA.',
+            'Quatre offres Core, tarifées à partir de votre premier site puis au tarif marginal de chaque site suivant. Chaque offre embarque les onze modules métier et des crédits IA.',
           monthly: 'Mensuel',
           annual: 'Annuel',
           savePercent: 'Économisez 10 %',
@@ -1634,9 +1634,9 @@ export const websiteMessages = {
   },
   es: {
     metadata: {
-      title: 'Sundae - Inteligencia de decisión para grupos multilocal de restauración',
+      title: 'Sundae - Inteligencia de decisión que recupera las ganancias para la restauración',
       description:
-        'Sundae se conecta a los sistemas que ya usas, detecta el margen que se escapa en ventas, personal, inventario y clientes, asigna cada oportunidad a un responsable y mide lo que de verdad se recuperó.',
+        'La plataforma de inteligencia de decisión para la restauración con múltiples locales - Sundae detecta la fuga de margen, asigna la solución a un responsable que rinde cuentas y mide las ganancias que recuperas frente a una base de referencia.',
     },
     layout: {
       skipToContent: 'Ir al contenido principal',
@@ -1671,7 +1671,7 @@ export const websiteMessages = {
         { name: 'Foresight', description: 'Inteligencia predictiva y pronósticos', href: '/product/foresight' },
       ],
       plansList: [
-        { name: 'Foresight & Action', description: 'Expansion sobre Core - previsiones, escenarios y capa de accion', href: '/product/foresight' },
+        { name: 'Foresight & Action', description: 'Previsiones, escenarios y capa de accion', href: '/product/foresight' },
         { name: 'Sundae Core', description: 'Operaciones en tiempo real', href: '/core' },
         { name: 'Sundae Crew', description: 'Sustrato operativo · personal, horarios, nómina', href: '/crew' },
       ],
@@ -1703,7 +1703,7 @@ export const websiteMessages = {
       bookDemo: 'Reservar una sesión de trabajo',
       startFree: 'Empezar',
       brandDescription:
-        'La plataforma de inteligencia de decisión para operadores multilocal. Recupera el margen. Demuestra qué funcionó.',
+        'Inteligencia de decisión para la restauración multilocal. Encuentra la fuga, recupera el beneficio.',
       global: 'Global',
       allCurrencies: 'Todas las monedas',
       sectionProduct: 'Producto',
@@ -1726,10 +1726,10 @@ export const websiteMessages = {
       ],
     },
     home: {
-      badge: 'Plataforma de inteligencia de decisión',
-      titleTop: 'Inteligencia de decisión',
-      titleBottom: 'para grupos multilocal de restauracion',
-      subheadline: 'Sepa que cambio, quien se ocupa de corregirlo y cuanto devolvio al resultado.',
+      badge: 'Míralo en vivo',
+      titleTop: 'Mira el circuito funcionar',
+      titleBottom: 'durante un turno en vivo.',
+      subheadline: 'Ritmo real, un Coach en vivo, una sola noche de servicio - el circuito de recuperación funcionando en Pulse.',
       description:
         'Tus datos viven en el POS, el delivery, las reservas, el personal, el inventario y las finanzas.',
       descriptionEmphasis: 'Sundae los reúne en una sola capa operativa en vivo.',
@@ -1738,10 +1738,10 @@ export const websiteMessages = {
       bookDemo: 'Reservar demo',
       noCard: 'No se requiere tarjeta de crédito',
       proofStats: [
-        { number: '200+', label: 'Sistemas conectados' },
-        { number: '18', label: 'Decisiones reveladas hoy' },
-        { number: '12', label: 'Áreas operativas cubiertas' },
-        { number: '5 min', label: 'De la señal a la acción' },
+        { number: '6', label: 'Capas, un ciclo de recuperación' },
+        { number: '18', label: 'Fugas detectadas hoy' },
+        { number: '12', label: 'Dominios operativos unificados' },
+        { number: '5 min', label: 'De la fuga a la corrección asignada' },
       ],
       problem: {
         eyebrow: 'EL PROBLEMA',
@@ -1755,9 +1755,9 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: '6 CAPAS · UNA VERDAD',
-        heading: 'Seis capas. Una verdad.',
-        description: 'Del turno en vivo al plan a largo plazo: una plataforma, seis capas que se hablan entre sí.',
+        eyebrow: '6 CAPAS · UN CICLO',
+        heading: 'Seis capas. Un ciclo.',
+        description: 'Del turno en vivo al plan a largo plazo - seis capas que detectan la fuga, asumen la corrección y miden la recuperación.',
         countLabel: 'de 6',
         exploreModules: 'Explorar todos los módulos',
         learnMore: 'Saber más',
@@ -1828,7 +1828,7 @@ export const websiteMessages = {
         ],
         coachAlert: 'La tasa de upsell de James K. está 14% por debajo del promedio del turno. Considera emparejarlo con Sarah para las próximas 2 mesas.',
       },
-      closingTitle: 'Deja de operar con los números de ayer.',
+      closingTitle: 'Deja de perder por fugas el margen que podrías recuperar.',
       closingDescription: '30 minutos. Tus datos. Lo que Sundae cambiaría realmente para tu equipo.',
       pages: {
         signIn: {

@@ -82,24 +82,22 @@ export function CrewModulePage({
       {/* ── Hero ── */}
       <section className="relative overflow-hidden px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pt-32">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
-        <div className="absolute inset-0 bg-grid-texture opacity-60" />
         <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.82fr)] lg:gap-14">
           <div>
             <motion.div {...fade} transition={{ duration: 0.7, ease }} className="mb-5">
               <Link
                 href="/crew"
-                className="inline-flex items-center gap-2 rounded-full border border-[rgba(255,92,77,0.2)] bg-[rgba(255,92,77,0.12)] px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-[#FF8473] transition-colors hover:bg-[rgba(255,92,77,0.18)]"
+                className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)]"
               >
-                <span className="h-1.5 w-1.5 rounded-full bg-[#FF8473]" />
                 {copy.badge}
               </Link>
             </motion.div>
             <motion.h1 {...fade} transition={{ duration: 0.8, ease, delay: 0.1 }} className="hero-h1 mb-6 text-balance">
-              <span className="bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80 bg-clip-text text-transparent">
+              <span className="text-[var(--text-primary)]">
                 {copy.heroLine1}
               </span>
               <br />
-              <span className="bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E] bg-clip-text text-transparent">
+              <span className="italic text-[#F6C66B]">
                 {copy.heroLine2}
               </span>
             </motion.h1>

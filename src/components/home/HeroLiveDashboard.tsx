@@ -6,6 +6,7 @@ import { useSettledReducedMotion as useReducedMotion } from "@/lib/useSettledRed
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getWebsiteIntlLocale } from "@/lib/i18n";
 import { heroDashboardCopy, currencyByLocale, coachItemsBehind } from "./heroDashboardCopy";
+import { recoveryLoopCopy } from "./recoveryLoopCopy";
 
 /**
  * Hero live dashboard — a product-accurate recreation of the Sundae Pulse "Sales
@@ -124,6 +125,9 @@ function CoachIcon({ category }: { category: Category }) {
 export function HeroLiveDashboard() {
   const { locale } = useWebsiteI18n();
   const copy = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
+  // Localized recovered-figure strings, shared with the hero-1 recovery loop so
+  // both heroes read the same "recovered this week / measured vs baseline".
+  const loopCopy = recoveryLoopCopy[locale as keyof typeof recoveryLoopCopy] ?? recoveryLoopCopy.en;
   const reduceMotion = useReducedMotion();
   const [tick, setTick] = useState(0);
   const [coachIdx, setCoachIdx] = useState(0);
@@ -447,8 +451,22 @@ export function HeroLiveDashboard() {
               ))}
             </AnimatePresence>
           </div>
-          <div className={`mt-3 flex items-center justify-between border-t border-[var(--border-default)] pt-2 font-mono text-[8.5px] sm:text-[9px] font-semibold uppercase tracking-wider ${muted}`}>
-            <span>{copy.decisionIntelligence}</span>
+          {/* Loop-closed footer: the coach recommends above; this proves the fix
+              was routed and the recovered margin measured back - detect -> act ->
+              measure. Made prominent (large amber figure) so it stands out. */}
+          <div className="mt-3 border-t border-[var(--border-default)] pt-2">
+            <span className={`font-mono text-[8.5px] sm:text-[9px] font-semibold uppercase tracking-wider ${muted}`}>
+              {copy.decisionIntelligence}
+            </span>
+            <div className="mt-1.5 flex items-baseline justify-between gap-2">
+              <span className="font-mono text-[8.5px] uppercase tracking-wide text-[var(--text-secondary)]">
+                {loopCopy.recoveredThisWeek}
+              </span>
+              <span className="inline-flex items-baseline gap-1.5 whitespace-nowrap">
+                <span className="text-[15px] leading-none font-semibold tabular-nums text-[#F6C66B]">&#9650; {fmt(5120)}</span>
+                <span className={`font-mono text-[8px] ${muted}`}>{loopCopy.measuredVsBaseline}</span>
+              </span>
+            </div>
           </div>
         </div>
       </div>

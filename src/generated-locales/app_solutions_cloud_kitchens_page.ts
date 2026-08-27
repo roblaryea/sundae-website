@@ -56,8 +56,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Rythme opérationnel en direct",
-          "description": "Volume de commandes, temps de préparation, commandes en retard par heure. La cuisine voit le pic se former - pas le post-mortem.",
+          "title": "Du signal en direct à la marge récupérée",
+          "description": "Le volume de commandes, le temps de préparation et les retards à l'heure font remonter la fuite dès qu'elle se forme - Sundae confie le correctif à un responsable unique et mesure la marge récupérée par rapport à la référence, pas un post-mortem une semaine plus tard.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -81,13 +81,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Gérez une cuisine plus efficace",
-          "description": "Temps de préparation, débit, productivité du travail par heure - visible pendant que le service est encore en cours.",
+          "title": "Mesurez la marge que vous récupérez",
+          "description": "Chaque correction - un canal abandonné, une marque rééquilibrée, un service plus léger - est mesurée par rapport à la référence, de sorte que la marge récupérée est prouvée, pas supposée.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Voir la marge nette par plateforme.",
-      "ctaDescription": "30 minutes. Vos cuisines. Le canal que vous pourriez vouloir abandonner.",
+      "ctaTitle": "Récupérez la marge, plateforme par plateforme.",
+      "ctaDescription": "30 minutes. Vos cuisines. Le canal que vous abandonneriez - et la marge que vous récupéreriez.",
       "ctaButton": "Réservez une visite de cuisine cloud"
     },
     "es": {
@@ -144,8 +144,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Ritmo operativo en vivo",
-          "description": "Volumen de pedidos, tiempo de preparación, pedidos tardíos por hora. La cocina ve el aumento formándose - no el post-mortem.",
+          "title": "De la señal en vivo al margen recuperado",
+          "description": "El volumen de pedidos, el tiempo de preparación y los retrasos por hora hacen aflorar la fuga en cuanto se forma - Sundae asigna la corrección a un único responsable y mide el margen recuperado frente a la línea base, no un post-mortem una semana después.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -169,13 +169,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Opera una cocina más eficiente",
-          "description": "Tiempo de preparación, rendimiento, productividad laboral por hora - visible mientras el turno aún está en curso.",
+          "title": "Mide el margen que recuperas",
+          "description": "Cada corrección - un canal eliminado, una marca reequilibrada, un turno más ágil - se mide frente a la línea base, así el margen recuperado se prueba, no se supone.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Ver el margen neto por plataforma.",
-      "ctaDescription": "30 minutos. Tus cocinas. El canal que podrías querer eliminar.",
+      "ctaTitle": "Recupera el margen, plataforma por plataforma.",
+      "ctaDescription": "30 minutos. Tus cocinas. El canal que soltarías - y el margen que recuperarías.",
       "ctaButton": "Reserva un recorrido por la cocina fantasma"
     },
     "de": {
@@ -232,8 +232,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Live-Betriebsüberwachung",
-          "description": "Bestellvolumen, Vorbereitungszeit, verspätete Bestellungen nach Stunde. Die Küche sieht den Anstieg kommen - nicht die Nachbesprechung.",
+          "title": "Vom Live-Signal zur zurückgewonnenen Marge",
+          "description": "Bestellvolumen, Vorbereitungszeit und verspätete Bestellungen pro Stunde bringen das Leck zutage, sobald es entsteht - Sundae übergibt die Behebung einem einzigen Verantwortlichen und misst die zurückgewonnene Marge an der Baseline, nicht in einer Nachbesprechung eine Woche später.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -257,13 +257,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Führen Sie eine schlankere Küche",
-          "description": "Vorbereitungszeit, Durchsatz, Arbeitsproduktivität pro Stunde - sichtbar, während die Schicht noch läuft.",
+          "title": "Messen Sie die Marge, die Sie zurückgewinnen",
+          "description": "Jede Korrektur - ein abgestoßener Kanal, eine neu ausbalancierte Marke, eine schlankere Schicht - wird an der Baseline gemessen, sodass die zurückgewonnene Marge bewiesen und nicht angenommen wird.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Netto-Marge pro Plattform anzeigen.",
-      "ctaDescription": "30 Minuten. Ihre Küchen. Der Kanal, den Sie möglicherweise ablegen möchten.",
+      "ctaTitle": "Gewinnen Sie die Marge zurück, Plattform für Plattform.",
+      "ctaDescription": "30 Minuten. Ihre Küchen. Der Kanal, den Sie abstoßen würden - und die Marge, die Sie zurückgewinnen würden.",
       "ctaButton": "Buchen Sie eine Cloud-Kitchen-Besichtigung"
     },
     "ar": {
@@ -320,8 +320,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "تسارع العمليات الحي",
-          "description": "حجم الطلبات، وقت التحضير، الطلبات المتأخرة حسب الساعة. يرى المطبخ الزيادة تتشكل - وليس التحليل اللاحق.",
+          "title": "من الإشارة الحية إلى الهامش المستعاد",
+          "description": "حجم الطلبات ووقت التحضير والطلبات المتأخرة بالساعة تكشف التسرّب فور تكوّنه - يوجّه Sundae الإصلاح إلى مالك واحد ويقيس الهامش المستعاد مقابل خط الأساس، لا تحليلاً لاحقاً بعد أسبوع.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -345,13 +345,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "تشغيل مطبخ أكثر كفاءة",
-          "description": "وقت التحضير، الإنتاجية، إنتاجية العمالة لكل ساعة - مرئية أثناء استمرار الوردية.",
+          "title": "قِس الهامش الذي تستعيده",
+          "description": "كل إصلاح - قناة مُسقَطة، علامة أُعيد توازنها، وردية أنحف - يُقاس مقابل خط الأساس، فيصبح الهامش المستعاد مُثبَتاً لا مفترضاً.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "شاهد الهامش الصافي لكل منصة.",
-      "ctaDescription": "30 دقيقة. مطابخك. القناة التي قد ترغب في إلغائها.",
+      "ctaTitle": "استعد الهامش، منصةً بمنصة.",
+      "ctaDescription": "30 دقيقة. مطابخك. القناة التي ستسقطها - والهامش الذي ستستعيده.",
       "ctaButton": "احجز جولة في مطبخ سحابي"
     },
     "nl": {
@@ -408,8 +408,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Live operationele pacing",
-          "description": "Bestelvolume, bereidingstijd, late bestellingen per uur. De keuken ziet de piek zich vormen - niet de post-mortem.",
+          "title": "Van live signaal naar teruggewonnen marge",
+          "description": "Bestelvolume, bereidingstijd en te late bestellingen per uur brengen het lek naar boven zodra het ontstaat - Sundae wijst de oplossing toe aan één eigenaar en meet de teruggewonnen marge af tegen de basislijn, niet in een post-mortem een week later.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -433,13 +433,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Beheer een efficiëntere keuken",
-          "description": "Voorbereidingstijd, doorvoer, arbeidsproductiviteit per uur - zichtbaar terwijl de shift nog loopt.",
+          "title": "Meet de marge die je terugwint",
+          "description": "Elke ingreep - een geschrapt kanaal, een geherbalanceerd merk, een efficiëntere shift - wordt afgemeten aan de basislijn, zodat de teruggewonnen marge bewezen is, niet aangenomen.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Bekijk de nettomarge per platform.",
-      "ctaDescription": "30 minuten. Jouw keukens. Het kanaal dat je misschien wilt laten vallen.",
+      "ctaTitle": "Herwin de marge, platform voor platform.",
+      "ctaDescription": "30 minuten. Jouw keukens. Het kanaal dat je zou laten vallen - en de marge die je zou terugwinnen.",
       "ctaButton": "Boek een rondleiding door een Cloud Kitchen"
     },
     "pt": {
@@ -496,8 +496,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Ritmo operacional ao vivo",
-          "description": "Volume de pedidos, tempo de preparo, pedidos atrasados por hora. A cozinha vê o pico se formando - não o pós-morte.",
+          "title": "Do sinal ao vivo à margem recuperada",
+          "description": "Volume de pedidos, tempo de preparo e pedidos atrasados por hora fazem o vazamento aparecer assim que se forma - a Sundae encaminha a correção a um único responsável e mede a margem recuperada em relação à linha de base, não um post-mortem uma semana depois.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -521,13 +521,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Administre uma cozinha mais enxuta",
-          "description": "Tempo de preparo, rendimento, produtividade da mão de obra por hora - visível enquanto o turno ainda está em andamento.",
+          "title": "Meça a margem que você recupera",
+          "description": "Cada correção - um canal descartado, uma marca reequilibrada, um turno mais enxuto - é medida em relação à linha de base, de modo que a margem recuperada é comprovada, não presumida.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Veja a margem líquida por plataforma.",
-      "ctaDescription": "30 minutos. Suas cozinhas. O canal que você pode querer descartar.",
+      "ctaTitle": "Recupere a margem, plataforma por plataforma.",
+      "ctaDescription": "30 minutos. Suas cozinhas. O canal que você descartaria - e a margem que você recuperaria.",
       "ctaButton": "Agende uma Visita à Cozinha Cloud"
     },
     "ur": {
@@ -584,8 +584,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "لائیو آپریشنل پیسنگ",
-          "description": "آرڈر کی مقدار، تیاری کا وقت، گھنٹہ وار دیر سے آرڈرز۔ کچن میں ابھرتی ہوئی چوٹی کو دیکھا جا سکتا ہے - نہ کہ بعد کی جانچ۔",
+          "title": "لائیو سگنل سے بازیافت شدہ مارجن تک",
+          "description": "آرڈر کی مقدار، تیاری کا وقت، اور گھنٹہ وار دیر سے آرڈرز رساؤ کو بنتے ہی سامنے لے آتے ہیں - Sundae اصلاح کو ایک مالک کے سپرد کرتا ہے اور بازیافت شدہ مارجن کو بنیادی خط کے مقابلے میں ماپتا ہے، ہفتہ بعد کی جانچ نہیں۔",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -609,13 +609,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "ایک پتلا کچن چلائیں",
-          "description": "پریپ کا وقت، تھروپٹ، فی گھنٹہ لیبر کی پیداوار - شفٹ کے دوران نظر آنے والا۔",
+          "title": "جو مارجن آپ بازیافت کرتے ہیں اسے ماپیں",
+          "description": "ہر اصلاح - چھوڑا گیا چینل، دوبارہ متوازن کیا گیا برانڈ، ایک پتلی شفٹ - بنیادی خط کے مقابلے میں ماپی جاتی ہے، تاکہ بازیافت شدہ مارجن ثابت ہو، فرض نہ ہو۔",
           "icon": "support"
         }
       ],
-      "ctaTitle": "ہر پلیٹ فارم پر خالص منافع دیکھیں۔",
-      "ctaDescription": "30 منٹ۔ آپ کے کچن۔ وہ چینل جسے آپ چھوڑنا چاہتے ہیں۔",
+      "ctaTitle": "مارجن دوبارہ حاصل کریں، پلیٹ فارم بہ پلیٹ فارم۔",
+      "ctaDescription": "30 منٹ۔ آپ کے کچن۔ وہ چینل جسے آپ چھوڑ دیں گے - اور وہ مارجن جو آپ دوبارہ حاصل کریں گے۔",
       "ctaButton": "کلاؤڈ کچن کا دورہ بک کریں"
     },
     "it": {
@@ -672,8 +672,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Pacing operativo dal vivo",
-          "description": "Volume degli ordini, tempo di preparazione, ordini in ritardo per ora. La cucina vede il picco formarsi - non il post-mortem.",
+          "title": "Dal segnale dal vivo al margine recuperato",
+          "description": "Volume degli ordini, tempo di preparazione e ordini in ritardo per ora fanno emergere la falla non appena si forma - Sundae affida la correzione a un unico responsabile e misura il margine recuperato rispetto alla baseline, non un post-mortem una settimana dopo.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -697,13 +697,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Gestisci una cucina più snella",
-          "description": "Tempo di preparazione, produttività oraria del lavoro - visibile mentre il turno è ancora in corso.",
+          "title": "Misura il margine che recuperi",
+          "description": "Ogni correzione - un canale abbandonato, un marchio riequilibrato, un turno più snello - viene misurata rispetto alla baseline, così il margine recuperato è dimostrato, non presunto.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Visualizza il margine netto per piattaforma.",
-      "ctaDescription": "30 minuti. Le tue cucine. Il canale che potresti voler abbandonare.",
+      "ctaTitle": "Recupera il margine, piattaforma per piattaforma.",
+      "ctaDescription": "30 minuti. Le tue cucine. Il canale che abbandoneresti - e il margine che recupereresti.",
       "ctaButton": "Prenota un tour della Cloud Kitchen"
     },
     "hi": {
@@ -760,8 +760,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "लाइव ऑपरेशनल पेसिंग",
-          "description": "ऑर्डर मात्रा, तैयारी का समय, घंटे के अनुसार देर से ऑर्डर। रसोई में वृद्धि का आकार बनता हुआ दिखाई देता है - पोस्ट-मॉर्टम नहीं।",
+          "title": "लाइव सिग्नल से पुनर्प्राप्त मार्जिन तक",
+          "description": "ऑर्डर मात्रा, तैयारी का समय और घंटे के हिसाब से देर से आए ऑर्डर रिसाव को बनते ही सामने ले आते हैं - Sundae एक जिम्मेदार व्यक्ति को सुधार सौंपता है और पुनर्प्राप्त मार्जिन को आधार रेखा के मुकाबले मापता है, न कि एक हफ्ते बाद का पोस्ट-मॉर्टम।",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -785,13 +785,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "एक पतली रसोई चलाएं",
-          "description": "प्रेप समय, थ्रूपुट, प्रति घंटे श्रम उत्पादकता - जब शिफ्ट अभी भी चल रही हो तब दिखाई दे।",
+          "title": "आप जो मार्जिन वापस पाते हैं उसे मापें",
+          "description": "हर सुधार - छोड़ा गया चैनल, पुनः संतुलित ब्रांड, अधिक दुबली शिफ्ट - आधार रेखा के मुकाबले मापा जाता है, ताकि पुनर्प्राप्त मार्जिन सिद्ध हो, माना हुआ न हो।",
           "icon": "support"
         }
       ],
-      "ctaTitle": "प्रत्येक प्लेटफ़ॉर्म पर शुद्ध मार्जिन देखें।",
-      "ctaDescription": "30 मिनट। आपके किचन। वह चैनल जिसे आप छोड़ना चाह सकते हैं।",
+      "ctaTitle": "मार्जिन वापस पाएं, प्लेटफ़ॉर्म दर प्लेटफ़ॉर्म।",
+      "ctaDescription": "30 मिनट। आपके किचन। वह चैनल जिसे आप छोड़ देंगे - और वह मार्जिन जो आप वापस पाएंगे।",
       "ctaButton": "क्लाउड किचन वॉक-थ्रू बुक करें"
     },
     "pl": {
@@ -848,8 +848,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Operacyjne tempo na żywo",
-          "description": "Wolumen zamówień, czas przygotowania, spóźnione zamówienia według godziny. Kuchnia widzi formujący się szczyt - a nie analizę po fakcie.",
+          "title": "Od sygnału na żywo do odzyskanej marży",
+          "description": "Wolumen zamówień, czas przygotowania i spóźnione zamówienia według godziny ujawniają wyciek, gdy tylko się tworzy - Sundae kieruje poprawkę do jednego właściciela i mierzy odzyskaną marżę względem punktu odniesienia, a nie analizę tydzień później.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -873,13 +873,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Prowadź bardziej efektywną kuchnię",
-          "description": "Czas przygotowania, wydajność, produktywność pracy na godzinę - widoczne podczas trwania zmiany.",
+          "title": "Zmierz marżę, którą odzyskujesz",
+          "description": "Każda poprawka - porzucony kanał, zrównoważona marka, sprawniejsza zmiana - jest mierzona względem punktu odniesienia, dzięki czemu odzyskana marża jest udowodniona, a nie zakładana.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz marżę netto na platformę.",
-      "ctaDescription": "30 minut. Twoje kuchnie. Kanał, który możesz chcieć usunąć.",
+      "ctaTitle": "Odzyskaj marżę, platforma po platformie.",
+      "ctaDescription": "30 minut. Twoje kuchnie. Kanał, który byś porzucił - i marża, którą byś odzyskał.",
       "ctaButton": "Zarezerwuj spacer po kuchni chmurowej"
     },
     "tr": {
@@ -936,8 +936,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Canlı operasyon hızı",
-          "description": "Sipariş hacmi, hazırlık süresi, saat başına geç siparişler. Mutfak, oluşan zirveyi görüyor - sonrasında değil.",
+          "title": "Canlı sinyalden geri kazanılan marja",
+          "description": "Sipariş hacmi, hazırlık süresi ve saat başına geç siparişler, sızıntı oluşur oluşmaz onu yüzeye çıkarır - Sundae düzeltmeyi tek bir sahibine yönlendirir ve geri kazanılan marjı temel çizgiye göre ölçer, bir hafta sonraki analizle değil.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -961,13 +961,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Daha verimli bir mutfak yönetin",
-          "description": "Hazırlık süresi, üretim hızı, saat başına iş gücü verimliliği - vardiya hala devam ederken görünür.",
+          "title": "Geri kazandığınız marjı ölçün",
+          "description": "Her düzeltme - bırakılan bir kanal, yeniden dengelenen bir marka, daha verimli bir vardiya - temel çizgiye göre ölçülür, böylece geri kazanılan marj varsayılmaz, kanıtlanır.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Platform başına net marjı görün.",
-      "ctaDescription": "30 dakika. Mutfaklarınız. Bırakmak isteyebileceğiniz kanal.",
+      "ctaTitle": "Marjı geri kazanın, platform platform.",
+      "ctaDescription": "30 dakika. Mutfaklarınız. Bırakacağınız kanal - ve geri kazanacağınız marj.",
       "ctaButton": "Bir Bulut Mutfak Turu Rezervasyonu Yapın"
     },
     "zh-Hans": {
@@ -1024,8 +1024,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "实时运营节奏",
-          "description": "订单量、准备时间、每小时的延迟订单。厨房看到形成的高峰 - 而不是事后分析。",
+          "title": "从实时信号到收回的利润",
+          "description": "订单量、准备时间和每小时的延迟订单在漏损形成时即刻将其显现--Sundae 将修复交给一位负责人，并对照基线衡量收回的利润，而不是一周后的事后分析。",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1049,13 +1049,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "运营更精简的厨房",
-          "description": "准备时间、产出、每小时劳动生产率--在班次仍在进行时可见。",
+          "title": "衡量你收回的利润",
+          "description": "每一次修复--放弃一个渠道、重新平衡一个品牌、精简一个班次--都对照基线衡量，因此收回的利润是被证明的，而非假设的。",
           "icon": "support"
         }
       ],
-      "ctaTitle": "查看每个平台的净利润率。",
-      "ctaDescription": "30分钟。您的厨房。您可能想要放弃的渠道。",
+      "ctaTitle": "逐个平台，收回利润。",
+      "ctaDescription": "30分钟。您的厨房。您会放弃的渠道--以及您会收回的利润。",
       "ctaButton": "预约云厨房参观"
     },
     "ja": {
@@ -1112,8 +1112,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "ライブオペレーショナルペーシング",
-          "description": "注文量、準備時間、時間ごとの遅延注文。キッチンはスパイクが形成されるのを見ています - 事後分析ではありません。",
+          "title": "ライブシグナルから取り戻したマージンへ",
+          "description": "注文量、準備時間、時間ごとの遅延注文が、漏れが生じた瞬間にそれを浮かび上がらせます--Sundaeは修正を一人の担当者に割り当て、取り戻したマージンをベースラインと照らして測定します。一週間後の事後分析ではありません。",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1137,13 +1137,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "より効率的なキッチンを運営",
-          "description": "準備時間、スループット、時間あたりの労働生産性 - シフトがまだ稼働中の間に可視化されます。",
+          "title": "取り戻したマージンを測定する",
+          "description": "すべての修正--チャネルの停止、ブランドの再調整、より無駄のないシフト--はベースラインと照らして測定されるため、取り戻したマージンは想定ではなく証明されます。",
           "icon": "support"
         }
       ],
-      "ctaTitle": "プラットフォームごとの純利益率を確認してください。",
-      "ctaDescription": "30分。あなたのキッチン。削除したいかもしれないチャネル。",
+      "ctaTitle": "プラットフォームごとに、マージンを取り戻す。",
+      "ctaDescription": "30分。あなたのキッチン。あなたが手放すチャネル--そして取り戻すマージン。",
       "ctaButton": "クラウドキッチンの見学を予約する"
     },
     "id": {
@@ -1200,8 +1200,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Pacing operasional langsung",
-          "description": "Volume pesanan, waktu persiapan, pesanan terlambat per jam. Dapur melihat lonjakan yang terbentuk - bukan analisis pasca kejadian.",
+          "title": "Dari sinyal langsung ke margin yang dipulihkan",
+          "description": "Volume pesanan, waktu persiapan, dan pesanan terlambat per jam memunculkan kebocoran begitu terbentuk - Sundae mengarahkan perbaikan ke satu pemilik dan mengukur margin yang dipulihkan terhadap garis dasar, bukan analisis sepekan kemudian.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1225,13 +1225,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Jalankan dapur yang lebih ramping",
-          "description": "Waktu persiapan, throughput, produktivitas tenaga kerja per jam - terlihat saat shift masih berjalan.",
+          "title": "Ukur margin yang Anda pulihkan",
+          "description": "Setiap perbaikan - saluran yang dihentikan, merek yang diseimbangkan ulang, shift yang lebih ramping - diukur kembali terhadap garis dasar, sehingga margin yang dipulihkan terbukti, bukan diasumsikan.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat margin bersih per platform.",
-      "ctaDescription": "30 menit. Dapur Anda. Saluran yang mungkin ingin Anda tinggalkan.",
+      "ctaTitle": "Pulihkan margin, platform demi platform.",
+      "ctaDescription": "30 menit. Dapur Anda. Saluran yang akan Anda tinggalkan - dan margin yang akan Anda pulihkan.",
       "ctaButton": "Pesan Tur Dapur Cloud"
     },
     "ro": {
@@ -1288,8 +1288,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Pacing operațional în timp real",
-          "description": "Volumul comenzilor, timpul de pregătire, comenzile întârziate pe oră. Bucătăria vede formarea vârfului - nu analiza post-mortem.",
+          "title": "De la semnalul live la marja recuperată",
+          "description": "Volumul comenzilor, timpul de pregătire și comenzile întârziate pe oră scot la suprafață scurgerea de îndată ce se formează - Sundae direcționează remedierea către un singur responsabil și măsoară marja recuperată față de valoarea de referință, nu o analiză de o săptămână mai târziu.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1313,13 +1313,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Funcționați cu o bucătărie mai eficientă",
-          "description": "Timp de pregătire, capacitate de procesare, productivitate a muncii pe oră - vizibile în timp ce schimbul este încă în desfășurare.",
+          "title": "Măsurați marja pe care o recuperați",
+          "description": "Fiecare remediere - un canal eliminat, un brand reechilibrat, un schimb mai eficient - este măsurată față de valoarea de referință, astfel încât marja recuperată este dovedită, nu presupusă.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vezi marja netă pe platformă.",
-      "ctaDescription": "30 de minute. Bucătăriile tale. Canalul la care s-ar putea să vrei să renunți.",
+      "ctaTitle": "Recuperați marja, platformă cu platformă.",
+      "ctaDescription": "30 de minute. Bucătăriile tale. Canalul la care ai renunța - și marja pe care ai recupera-o.",
       "ctaButton": "Rezervați o prezentare a bucătăriei Cloud"
     },
     "vi": {
@@ -1376,8 +1376,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Theo dõi hoạt động trực tiếp",
-          "description": "Khối lượng đơn hàng, thời gian chuẩn bị, đơn hàng trễ theo giờ. Bếp thấy sự gia tăng hình thành - không phải là phân tích sau khi sự việc xảy ra.",
+          "title": "Từ tín hiệu trực tiếp đến biên lợi nhuận được thu hồi",
+          "description": "Khối lượng đơn hàng, thời gian chuẩn bị và đơn hàng trễ theo giờ đưa lỗ rò lên bề mặt ngay khi nó hình thành - Sundae giao việc khắc phục cho một người phụ trách và đo biên lợi nhuận thu hồi so với đường cơ sở, không phải bản phân tích một tuần sau.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1401,13 +1401,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Vận hành bếp hiệu quả hơn",
-          "description": "Thời gian chuẩn bị, thông lượng, năng suất lao động mỗi giờ - hiển thị trong khi ca làm việc vẫn đang diễn ra.",
+          "title": "Đo biên lợi nhuận bạn thu hồi",
+          "description": "Mỗi lần khắc phục - một kênh bị bỏ, một thương hiệu được cân bằng lại, một ca làm gọn hơn - đều được đo lại so với đường cơ sở, nên biên lợi nhuận thu hồi được chứng minh, chứ không phải phỏng đoán.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Xem biên lợi nhuận ròng theo nền tảng.",
-      "ctaDescription": "30 phút. Bếp của bạn. Kênh mà bạn có thể muốn bỏ.",
+      "ctaTitle": "Thu hồi biên lợi nhuận, từng nền tảng một.",
+      "ctaDescription": "30 phút. Bếp của bạn. Kênh mà bạn sẽ bỏ - và biên lợi nhuận mà bạn sẽ thu hồi.",
       "ctaButton": "Đặt lịch tham quan Cloud Kitchen"
     },
     "sv": {
@@ -1464,8 +1464,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Live operativ taktkontroll",
-          "description": "Beställningsvolym, förberedelsetid, sena beställningar per timme. Köket ser toppen som bildas - inte efteranalysen.",
+          "title": "Från livesignal till återvunnen marginal",
+          "description": "Beställningsvolym, förberedelsetid och sena beställningar per timme lyfter fram läckan så snart den bildas - Sundae skickar åtgärden till en enda ägare och mäter den återvunna marginalen mot baslinjen, inte en efteranalys en vecka senare.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1489,13 +1489,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Driv ett smidigare kök",
-          "description": "Förberedelsetid, genomströmning, arbetsproduktivitet per timme - synligt medan skiftet fortfarande pågår.",
+          "title": "Mät marginalen du återvinner",
+          "description": "Varje åtgärd - en borttagen kanal, ett ombalanserat varumärke, ett smidigare skift - mäts mot baslinjen, så att den återvunna marginalen är bevisad, inte antagen.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Se nettomarginal per plattform.",
-      "ctaDescription": "30 minuter. Dina kök. Kanalen du kanske vill ta bort.",
+      "ctaTitle": "Återvinn marginalen, plattform för plattform.",
+      "ctaDescription": "30 minuter. Dina kök. Kanalen du skulle ta bort - och marginalen du skulle återvinna.",
       "ctaButton": "Boka en rundtur i Cloud Kitchen"
     },
     "ko": {
@@ -1552,8 +1552,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "실시간 운영 속도 조절",
-          "description": "주문량, 준비 시간, 시간대별 지연 주문. 주방은 형성되는 급증을 보고 있습니다 - 사후 분석이 아닙니다.",
+          "title": "실시간 신호에서 되찾은 마진까지",
+          "description": "주문량, 준비 시간, 시간대별 지연 주문이 누수가 생기는 순간 이를 드러냅니다 - Sundae는 수정 작업을 한 명의 담당자에게 배정하고 되찾은 마진을 기준선과 대조해 측정합니다. 일주일 뒤의 사후 분석이 아닙니다.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1577,13 +1577,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "더 효율적인 주방 운영",
-          "description": "준비 시간, 처리량, 시간당 노동 생산성 - 교대 근무가 진행 중일 때 가시화됩니다.",
+          "title": "되찾은 마진을 측정하세요",
+          "description": "모든 수정 - 접은 채널, 재조정한 브랜드, 더 효율적인 교대 - 은 기준선과 대조해 측정되므로, 되찾은 마진은 가정이 아니라 입증됩니다.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "플랫폼별 순이익률 보기.",
-      "ctaDescription": "30분. 당신의 주방. 제거하고 싶은 채널.",
+      "ctaTitle": "플랫폼별로 마진을 되찾으세요.",
+      "ctaDescription": "30분. 당신의 주방. 당신이 접을 채널 - 그리고 당신이 되찾을 마진.",
       "ctaButton": "클라우드 키친 투어 예약하기"
     },
     "bn": {
@@ -1640,8 +1640,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "লাইভ অপারেশনাল পেসিং",
-          "description": "অর্ডারের পরিমাণ, প্রস্তুতির সময়, প্রতি ঘণ্টায় দেরিতে অর্ডার। রান্নাঘরটি স্পাইকটি গঠন করতে দেখছে - পোস্ট-মর্টেম নয়।",
+          "title": "লাইভ সিগন্যাল থেকে পুনরুদ্ধার করা মার্জিন পর্যন্ত",
+          "description": "অর্ডারের পরিমাণ, প্রস্তুতির সময় এবং ঘণ্টাভিত্তিক দেরি অর্ডার তৈরি হওয়ার সঙ্গে সঙ্গেই ফুটোটি সামনে নিয়ে আসে - Sundae সংশোধনটি একজন দায়িত্বশীলের কাছে পাঠায় এবং পুনরুদ্ধার করা মার্জিন বেসলাইনের বিপরীতে মাপে, এক সপ্তাহ পরের পোস্ট-মর্টেম নয়।",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1665,13 +1665,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "একটি পাতলা রান্নাঘর চালান",
-          "description": "প্রিপ টাইম, থ্রুপুট, প্রতি ঘণ্টায় শ্রম উৎপাদনশীলতা - শিফট চলাকালীন দৃশ্যমান।",
+          "title": "আপনি যে মার্জিন পুনরুদ্ধার করেন তা মাপুন",
+          "description": "প্রতিটি সংশোধন - বাদ দেওয়া চ্যানেল, পুনঃভারসাম্যপূর্ণ ব্র্যান্ড, আরও দক্ষ শিফট - বেসলাইনের বিপরীতে মাপা হয়, ফলে পুনরুদ্ধার করা মার্জিন অনুমান নয়, প্রমাণিত।",
           "icon": "support"
         }
       ],
-      "ctaTitle": "প্রতিটি প্ল্যাটফর্মের নিট মার্জিন দেখুন।",
-      "ctaDescription": "৩০ মিনিট। আপনার রান্নাঘর। চ্যানেলটি আপনি বাদ দিতে চাইতে পারেন।",
+      "ctaTitle": "মার্জিন ফিরিয়ে আনুন, প্ল্যাটফর্ম ধরে ধরে।",
+      "ctaDescription": "৩০ মিনিট। আপনার রান্নাঘর। যে চ্যানেলটি আপনি বাদ দেবেন - এবং যে মার্জিন আপনি ফিরে পাবেন।",
       "ctaButton": "একটি ক্লাউড কিচেন ওয়াক-থ্রু বুক করুন"
     },
     "th": {
@@ -1728,8 +1728,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "การติดตามการดำเนินงานแบบสด",
-          "description": "ปริมาณคำสั่งซื้อ เวลาการเตรียม คำสั่งซื้อที่ล่าช้าตามชั่วโมง ครัวจะเห็นการเพิ่มขึ้นที่กำลังเกิดขึ้น - ไม่ใช่การวิเคราะห์หลังเหตุการณ์",
+          "title": "จากสัญญาณสดสู่กำไรที่กู้คืน",
+          "description": "ปริมาณคำสั่งซื้อ เวลาเตรียม และคำสั่งซื้อล่าช้าตามชั่วโมงเผยจุดรั่วทันทีที่ก่อตัว - Sundae มอบการแก้ไขให้เจ้าของคนเดียวและวัดกำไรที่กู้คืนเทียบกับเส้นฐาน ไม่ใช่การวิเคราะห์หลังเหตุการณ์อีกหนึ่งสัปดาห์",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1753,13 +1753,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "ทำครัวให้มีประสิทธิภาพมากขึ้น",
-          "description": "เวลาเตรียม, การผลิต, ประสิทธิภาพแรงงานต่อชั่วโมง - มองเห็นได้ในขณะที่การทำงานยังดำเนินอยู่.",
+          "title": "วัดกำไรที่คุณกู้คืน",
+          "description": "ทุกการแก้ไข - ช่องทางที่เลิก แบรนด์ที่ปรับสมดุลใหม่ กะที่กระชับขึ้น - จะถูกวัดเทียบกับเส้นฐาน กำไรที่กู้คืนจึงพิสูจน์ได้ ไม่ใช่การสันนิษฐาน",
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูอัตรากำไรสุทธิแต่ละแพลตฟอร์ม.",
-      "ctaDescription": "30 นาที ครัวของคุณ ช่องทางที่คุณอาจต้องการยกเลิก.",
+      "ctaTitle": "กู้คืนกำไร แพลตฟอร์มต่อแพลตฟอร์ม",
+      "ctaDescription": "30 นาที ครัวของคุณ ช่องทางที่คุณจะเลิก - และกำไรที่คุณจะกู้คืน",
       "ctaButton": "จองการเยี่ยมชม Cloud Kitchen"
     },
     "ms": {
@@ -1816,8 +1816,8 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         },
         {
-          "title": "Pacing operasi secara langsung",
-          "description": "Jumlah pesanan, masa penyediaan, pesanan lewat mengikut jam. Dapur melihat lonjakan yang terbentuk - bukan pasca-mortem.",
+          "title": "Daripada isyarat langsung kepada margin yang dipulihkan",
+          "description": "Jumlah pesanan, masa penyediaan, dan pesanan lewat mengikut jam mendedahkan kebocoran sebaik ia terbentuk - Sundae menyalurkan pembetulan kepada satu pemilik dan mengukur margin yang dipulihkan berbanding garis dasar, bukan pasca-mortem seminggu kemudian.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1841,13 +1841,13 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Jalankan dapur yang lebih cekap",
-          "description": "Masa penyediaan, throughput, produktiviti buruh setiap jam - dapat dilihat semasa shift masih berjalan.",
+          "title": "Ukur margin yang anda pulihkan",
+          "description": "Setiap pembetulan - saluran yang ditinggalkan, jenama yang diseimbangkan semula, syif yang lebih cekap - diukur semula berbanding garis dasar, jadi margin yang dipulihkan terbukti, bukan diandaikan.",
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat margin bersih setiap platform.",
-      "ctaDescription": "30 minit. Dapur anda. Saluran yang mungkin anda ingin tinggalkan.",
+      "ctaTitle": "Dapatkan semula margin, platform demi platform.",
+      "ctaDescription": "30 minit. Dapur anda. Saluran yang anda akan tinggalkan - dan margin yang anda akan dapatkan semula.",
       "ctaButton": "Tempah Lawatan Dapur Awan"
     }
   }

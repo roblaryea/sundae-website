@@ -3283,7 +3283,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "有免费版吗？",
-            "content": "没有。Sundae 的每个套餐都是付费的，从第一家门店起计价。我们提供的是在你决定之前，基于你自己数字的一场工作会谈——让你在签字之前先看到回报。"
+            "content": "没有。Sundae 的每个套餐都是付费的，从第一家门店起计价。我们提供的是在你决定之前，基于你自己数字的一场工作会谈--让你在签字之前先看到回报。"
           },
           {
             "title": "Core 各套餐有什么区别？",
@@ -3291,7 +3291,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "需要签长期合同吗？",
-            "content": "不需要。每个套餐都可按月订阅，取消不收违约金。年度与两年期承诺之所以存在，是因为更便宜——分别优惠 10% 和 15%——而不是因为强制。"
+            "content": "不需要。每个套餐都可按月订阅，取消不收违约金。年度与两年期承诺之所以存在，是因为更便宜--分别优惠 10% 和 15%--而不是因为强制。"
           }
         ]
       },
@@ -3301,7 +3301,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae 提供哪些产品？",
-            "content": "**四个主要产品：**\n\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）——决策底座，承载全部十一个领域模块\n2. **Foresight & Action**——预测、情景建模，以及带人工审批的行动层\n3. **Sundae Crew**——人力底座：排班、考勤、薪酬就绪、人事与人才洞察\n4. **Watchtower**——外部市场情报，与你的 Core 套餐一并确定范围\n\n**此外：**面向你集团经营模式的概念型 SKU——加盟、酒店餐饮、云厨房、宴会外烩、生产、租赁中央厨房。"
+            "content": "**四个主要产品：**\n\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）--决策底座，承载全部十一个领域模块\n2. **Foresight & Action**--预测、情景建模，以及带人工审批的行动层\n3. **Sundae Crew**--人力底座：排班、考勤、薪酬就绪、人事与人才洞察\n4. **Watchtower**--外部市场情报，与你的 Core 套餐一并确定范围\n\n**此外：**面向你集团经营模式的概念型 SKU--加盟、酒店餐饮、云厨房、宴会外烩、生产、租赁中央厨房。"
           },
           {
             "title": "我该选哪个 Core 套餐？",
@@ -3313,7 +3313,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "什么是 4D Intelligence 模型？",
-            "content": "Sundae 的决策智能框架：\n\n**1D：发生了什么**——销售、人力与成本的真实情况\n**2D：计划与实际**——预算与预测偏差\n**3D：市场背景**——对标、同行与竞争者\n**4D：接下来会怎样**——预测与建议\n\n每个 Core 套餐都覆盖这四个维度，套餐决定每个维度的纵深。"
+            "content": "Sundae 的决策智能框架：\n\n**1D：发生了什么**--销售、人力与成本的真实情况\n**2D：计划与实际**--预算与预测偏差\n**3D：市场背景**--对标、同行与竞争者\n**4D：接下来会怎样**--预测与建议\n\n每个 Core 套餐都覆盖这四个维度，套餐决定每个维度的纵深。"
           }
         ]
       },
@@ -3327,7 +3327,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "我的数据怎么进入 Sundae？",
-            "content": "通过与 POS 及其余运营系统的 API 连接。若某个系统没有 API，Sundae 也接受结构化文件投递和智能解析上传——PDF、Excel、截图——由你确认后再处理。"
+            "content": "通过与 POS 及其余运营系统的 API 连接。若某个系统没有 API，Sundae 也接受结构化文件投递和智能解析上传--PDF、Excel、截图--由你确认后再处理。"
           },
           {
             "title": "你们支持哪些POS系统的集成？",
@@ -3339,7 +3339,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "实施需要多久？",
-            "content": "多数集团在 1-2 周内上线。更大的多品牌或多区域推广，视范围需 2-4 周。\n\n实施为一次性费用，按你所选的最高级别一次性计收——从零费用的自助，到范围明确的 Class D 服务。"
+            "content": "多数集团在 1-2 周内上线。更大的多品牌或多区域推广，视范围需 2-4 周。\n\n实施为一次性费用，按你所选的最高级别一次性计收--从零费用的自助，到范围明确的 Class D 服务。"
           },
           {
             "title": "如果我取消，数据会怎样？",
@@ -3365,7 +3365,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "模块是一个一个加上去的吗？",
-            "content": "不是。没有什么要加。每个 Core 套餐从第一天起就带有全部十一个领域模块——你选的套餐只决定每个模块的纵深。"
+            "content": "不是。没有什么要加。每个 Core 套餐从第一天起就带有全部十一个领域模块--你选的套餐只决定每个模块的纵深。"
           },
           {
             "title": "我该先看哪个模块？",
@@ -3373,7 +3373,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "模块如何计价？",
-            "content": "没有模块计价。模块既没有独立价格，也没有自己的门店额度——你买的是套餐。\n\nCore 套餐从第一家门店起计价，之后每增加一家按边际费率计算，且随着规模增长逐级下降。{{WORKED_EXAMPLE}}\n\n精确算法请用 pricing.sundae.io。"
+            "content": "没有模块计价。模块既没有独立价格，也没有自己的门店额度--你买的是套餐。\n\nCore 套餐从第一家门店起计价，之后每增加一家按边际费率计算，且随着规模增长逐级下降。{{WORKED_EXAMPLE}}\n\n精确算法请用 pricing.sundae.io。"
           }
         ]
       },
@@ -3461,7 +3461,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "你们提供培训吗？",
-            "content": "提供。培训属于实施的一部分，按你所选的最高级别一次性计收——自助文档零费用，更高级别则包含带教课程与体系化的能力建设。"
+            "content": "提供。培训属于实施的一部分，按你所选的最高级别一次性计收--自助文档零费用，更高级别则包含带教课程与体系化的能力建设。"
           },
           {
             "title": "你们支持哪些时区？",
@@ -3511,7 +3511,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae 与 POS 报表有什么不同？",
-            "content": "**POS 报表：**单一系统、上下文有限、需要人工解读\n\n**Sundae Core：**在 POS 分析之上，加入对标、建议与模式识别，把人力、成本与客户放进同一张运营图\n\n**Foresight & Action：**再往上是向前看的部分——预测、情景，以及针对它们所揭示内容采取行动的那一层"
+            "content": "**POS 报表：**单一系统、上下文有限、需要人工解读\n\n**Sundae Core：**在 POS 分析之上，加入对标、建议与模式识别，把人力、成本与客户放进同一张运营图\n\n**Foresight & Action：**再往上是向前看的部分--预测、情景，以及针对它们所揭示内容采取行动的那一层"
           },
           {
             "title": "Sundae与Excel有什么不同？",
@@ -3567,7 +3567,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Crew 多少钱？",
-            "content": "**Crew SKU（固定月费，不按门店加收）：**\n\n{{CREW_SKU_LINES}}\n\n**套装（各自有独立净价——不是对其中 SKU 的折扣）：**\n\n{{CREW_BUNDLE_LINES}}\n\n精确算法请用 pricing.sundae.io。"
+            "content": "**Crew SKU（固定月费，不按门店加收）：**\n\n{{CREW_SKU_LINES}}\n\n**套装（各自有独立净价--不是对其中 SKU 的折扣）：**\n\n{{CREW_BUNDLE_LINES}}\n\n精确算法请用 pricing.sundae.io。"
           }
         ]
       }

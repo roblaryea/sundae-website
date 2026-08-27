@@ -13,14 +13,14 @@ import { generatedLocalCopy } from '@/generated-locales/app_4d_intelligence_page
 const localized4DCopy = {
   en: {
     heroBadge: 'Decision Intelligence',
-    heroTitle: 'From Reports to Real Intelligence',
-    heroDescription: 'Four dimensions of insight. One complete picture of your business.',
+    heroTitle: 'From Reports to Recovered Profit.',
+    heroDescription: 'Four dimensions of insight - past, plan, peers, predicted - closed by the move most tools skip: routing the fix to an owner and measuring the recovered margin back against a baseline.',
     problemTitle: 'The Problem with Traditional BI',
     problemDescription: 'Most tools show you what happened. Not why. Not how you compare. Not what to do next.',
     problemItems: [
       { title: 'Reactive, Not Proactive', description: "You discover problems at month-end when they're already expensive to fix. No early warnings, no predictive signals.", icon: 'warning' },
       { title: 'No Market Context', description: "You don't know how you compare to competitors, what the market is doing, or whether your performance is good or bad relative to peers.", icon: 'visibility' },
-      { title: 'No Recommended Actions', description: "Even when you see a problem, the system doesn't tell you what to do about it. You're left to figure out the next steps on your own.", icon: 'document' },
+      { title: 'No Owner, No Measured Recovery', description: "Even the tools that suggest a fix stop at the suggestion. No one is named to own it, nobody executes it, and no one measures whether the margin actually came back.", icon: 'document' },
     ],
     dimensionsTitle: 'Four Dimensions. One Complete View.',
     dimensionsDescription: 'Each dimension builds on the last. Together, they tell the whole story.',
@@ -56,34 +56,34 @@ const localized4DCopy = {
         icon: 'watchtower',
         color: 'from-green-500 to-green-600',
         textColor: 'text-green-600',
-        bgColor: 'bg-green-50',
+        bgColor: 'bg-green-500/10',
       },
       {
         id: '4D',
         title: 'AI Foresight & Actions',
         subtitle: 'What Will Happen Next, and What Should We Do?',
-        description: "The final dimension: predictions, alerts, and AI-generated recommendations. Sundae's multi-agent AI forecasts outcomes, flags anomalies before they escalate, and tells you exactly what action to take.",
+        description: "The final dimension: predictions, alerts, and AI-generated recommendations. Sundae's multi-agent AI forecasts outcomes and flags anomalies before they escalate - then routes each fix to an accountable owner and measures the recovered margin back against a baseline, so the loop closes on profit recovered, not just action taken.",
         examples: ['Predicted sales and demand forecasts', 'Proactive alerts for labor cost spikes', 'AI-recommended menu pricing changes', 'Staffing optimization suggestions', 'Anomaly detection and root cause analysis'],
         icon: 'forecasting',
         color: 'from-orange-500 to-orange-600',
         textColor: 'text-orange-600',
-        bgColor: 'bg-orange-50',
+        bgColor: 'bg-orange-500/10',
       },
     ],
     alertsTitle: 'What 4D Intelligence Looks Like',
-    alertsDescription: 'Proactive alerts. Clear recommendations. Actions you can take today.',
+    alertsDescription: 'Proactive alerts. An accountable owner for every fix. Recovered margin measured back against a baseline.',
     alerts: [
-      { type: 'Labor Cost Alert', location: 'Downtown Location', message: 'Labor cost is 12% above benchmark for similar restaurants. Recommended action: Review scheduling efficiency and consider staffing adjustment.', severity: 'warning', action: 'Review Schedule', icon: 'warning' },
-      { type: 'Sales Opportunity', location: 'Airport Location', message: 'Sales trending 8% above forecast. Weather and local events suggest continued strong demand. Recommended action: Increase inventory orders.', severity: 'success', action: 'Adjust Inventory', icon: 'growth' },
-      { type: 'Competitor Alert', location: 'Market Area', message: 'Major competitor launched 20% off promotion. Your traffic is down 5% this week. Recommended action: Consider limited-time offer or targeted marketing.', severity: 'info', action: 'Review Promotions', icon: 'watchtower' },
+      { type: 'Labor Cost Alert', location: 'Downtown Location', message: 'Labor cost is 12% above benchmark for similar restaurants. Recommended fix: rebalance the schedule - routed to the store manager, with the recovered labor margin measured back against the prior-week baseline.', severity: 'warning', action: 'Review Schedule', icon: 'warning' },
+      { type: 'Sales Opportunity', location: 'Airport Location', message: 'Sales trending 8% above forecast. Weather and local events suggest continued strong demand. Recommended fix: increase inventory orders - routed to the purchasing lead, with the captured revenue measured back against the forecast baseline.', severity: 'success', action: 'Adjust Inventory', icon: 'growth' },
+      { type: 'Competitor Alert', location: 'Market Area', message: 'Major competitor launched 20% off promotion. Your traffic is down 5% this week. Recommended fix: a limited-time offer - routed to the marketing owner, with recovered traffic and margin measured back against the prior-week baseline.', severity: 'info', action: 'Review Promotions', icon: 'watchtower' },
     ],
     impactTitle: 'The Impact on Your Business',
     impactDescription: 'Outcomes that actually move the needle',
     outcomes: [
       { title: 'Higher Margins and Revenue Quality', description: 'Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.', icon: 'finance' },
-      { title: 'Faster, More Confident Decisions', description: 'No more waiting for monthly reports. Get real-time intelligence and act on issues as they emerge.', icon: 'speed' },
+      { title: 'Closed Loops, Not Just Faster Decisions', description: 'No more waiting for monthly reports. Every issue is routed to an owner, executed, and the recovered margin is measured back against a baseline.', icon: 'speed' },
       { title: 'Less Firefighting, More Proactive Leadership', description: 'Move from reactive management to strategic planning with predictive signals and early warnings.', icon: 'marketing' },
-      { title: 'Stronger Competitive Position', description: 'Understand your market context, benchmark against peers, and respond to competitor moves in real-time.', icon: 'growth' },
+      { title: 'Stronger Competitive Position', description: 'Understand your market context, benchmark against peers, and turn competitor moves into an owned fix - with the recovered margin measured back against a baseline.', icon: 'growth' },
     ],
     howTitle: 'How It Works',
     howDescription: 'AI-powered analysis at every layer of your operations',
@@ -93,43 +93,43 @@ const localized4DCopy = {
       { title: 'Actionable Intelligence', description: 'Sundae Core decision views, Ask Sundae natural language queries, and proactive alerts deliver insights when and where you need them.', icon: 'insights' },
     ],
     ctaTitle: 'Ready for the Full Picture?',
-    ctaDescription: 'See 4D Intelligence with your data. Past, plan, peers, and predictions - all in one view.',
+    ctaDescription: 'See 4D Intelligence with your data. Past, plan, peers, and predictions - closed on an owned fix and the recovered margin measured back against a baseline.',
     ctaPrimary: 'Book a Demo',
     ctaSecondary: 'Explore the Architecture',
   },
   ar: {
     heroBadge: 'ذكاء القرار',
-    heroTitle: <>من التقارير إلى <span className="text-gradient">الذكاء الحقيقي</span></>,
-    heroDescription: 'أربعة أبعاد من الرؤية. صورة واحدة كاملة لعملك.',
+    heroTitle: <>من التقارير إلى <span className="text-gradient">الربح المستعاد</span></>,
+    heroDescription: 'أربعة أبعاد للرؤية - الماضي، الخطة، الأقران، المتوقع - تُغلقها الخطوة التي تتجاهلها أغلب الأدوات: توجيه الحل إلى مسؤول وقياس الهامش المستعاد مقارنةً بخط أساس.',
     problemTitle: 'مشكلة BI التقليدي',
     problemDescription: 'معظم الأدوات تُريك ما حدث. لا تُريك لماذا. ولا كيف تقارن. ولا ما الذي يجب فعله بعد ذلك.',
     problemItems: [
       { title: 'تفاعلي لا استباقي', description: 'تكتشف المشاكل في نهاية الشهر عندما تكون مكلفة بالفعل. لا إنذارات مبكرة ولا إشارات تنبؤية.', icon: 'warning' },
       { title: 'بلا سياق سوقي', description: 'لا تعرف كيف تقارن بالمنافسين أو ماذا يفعل السوق أو هل أداءك جيد أم سيئ مقارنة بالنظراء.', icon: 'visibility' },
-      { title: 'بلا إجراءات موصى بها', description: 'حتى عندما ترى مشكلة، لا يخبرك النظام بما يجب فعله. وتبقى مضطرًا لتحديد الخطوات التالية بنفسك.', icon: 'document' },
+      { title: 'بلا مالك، بلا استرداد مقيس', description: 'حتى الأدوات التي تقترح حلًا تتوقف عند الاقتراح. لا أحد يُكلَّف بتنفيذه، ولا أحد ينفّذه، ولا أحد يقيس ما إذا كان الهامش قد عاد فعلًا.', icon: 'document' },
     ],
     dimensionsTitle: 'أربعة أبعاد. رؤية كاملة واحدة.',
     dimensionsDescription: 'كل بُعد يبني على الذي قبله. معًا، يروون القصة كاملة.',
     dimensions: [
       { id: '1D', title: 'النتائج الداخلية', subtitle: 'ماذا حدث؟', description: 'هنا تتوقف معظم الأدوات. تعرض منصات BI التقليدية المبيعات والعمالة والحجوزات والهدر من أنظمة POS والرواتب والمخزون. لكنها تخبرك فقط بما حدث في الماضي، من دون سياق أو مقارنة أو توقع.', examples: ['المبيعات اليومية حسب الموقع وفترة اليوم', 'ساعات وتكاليف العمالة من الرواتب', 'استخدام المخزون وتقارير الهدر', 'عدد الضيوف ومتوسط الفاتورة', 'تتبع الإلغاءات والإكراميات'], icon: 'benchmarking', color: 'from-[#FF5C4D] to-[#E9A24A]', textColor: 'text-[#FF8473]', bgColor: 'bg-[rgba(255,92,77,0.1)]' },
       { id: '2D', title: 'الفعل مقابل الخطة', subtitle: 'ما الذي كان يجب أن يحدث؟', description: 'أدخل الميزانيات والتوقعات والأهداف. الآن يمكنك رؤية الانحراف - هل أنت متقدم أم متأخر عن الخطة؟ هذا يضيف سياقًا تخطيطيًا، لكنه لا يزال بلا ذكاء سوقي أو قوة تنبؤية.', examples: ['انحراف المبيعات الفعلية عن الميزانية', 'تكلفة العمالة مقابل الأهداف', 'انحراف تكلفة الطعام حسب الفترة', 'الأداء على مستوى الموقع مقابل الخطة', 'تتبع دقة التوقعات'], icon: 'marketing', color: 'from-[#F2B45C] to-[#C2410C]', textColor: 'text-[#C2410C]', bgColor: 'bg-[#FF5C4D]/10' },
-      { id: '3D', title: 'السوق والمنافسون', subtitle: 'كيف نقارن؟', description: 'أضف المقاييس المرجعية ومجموعات النظراء والذكاء التنافسي. شاهد كيف يتماشى أداؤك مع مطاعم مشابهة في فئتك ومنطقتك. افهم سياق السوق، لا المقاييس الداخلية فقط.', examples: ['المبيعات لكل قدم مربع مقابل مجموعة النظراء', 'تكلفة العمالة % مقارنة بالمقاييس المرجعية', 'تسعير المنافسين وعروضهم', 'اتجاهات الفئات والمناطق', 'الحصة السوقية والتموضع'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-50' },
-      { id: '4D', title: 'رؤية الذكاء الاصطناعي والإجراءات', subtitle: 'ماذا سيحدث بعد ذلك، وماذا يجب أن نفعل؟', description: 'البعد الأخير: التوقعات والتنبيهات والتوصيات المولدة بالذكاء الاصطناعي. يتنبأ الذكاء متعدد الوكلاء في Sundae بالنتائج، ويكشف الشذوذ قبل أن يتصاعد، ويخبرك بالإجراء الصحيح.', examples: ['توقعات المبيعات والطلب', 'تنبيهات استباقية لارتفاع تكاليف العمالة', 'تعديلات تسعير القائمة الموصى بها بالذكاء', 'اقتراحات تحسين التوظيف', 'اكتشاف الشذوذ وتحليل السبب الجذري'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-50' },
+      { id: '3D', title: 'السوق والمنافسون', subtitle: 'كيف نقارن؟', description: 'أضف المقاييس المرجعية ومجموعات النظراء والذكاء التنافسي. شاهد كيف يتماشى أداؤك مع مطاعم مشابهة في فئتك ومنطقتك. افهم سياق السوق، لا المقاييس الداخلية فقط.', examples: ['المبيعات لكل قدم مربع مقابل مجموعة النظراء', 'تكلفة العمالة % مقارنة بالمقاييس المرجعية', 'تسعير المنافسين وعروضهم', 'اتجاهات الفئات والمناطق', 'الحصة السوقية والتموضع'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-500/10' },
+      { id: '4D', title: 'رؤية الذكاء الاصطناعي والإجراءات', subtitle: 'ماذا سيحدث بعد ذلك، وماذا يجب أن نفعل؟', description: 'البعد الأخير: التوقعات والتنبيهات والتوصيات المولّدة بالذكاء الاصطناعي (AI). يتنبأ الذكاء الاصطناعي متعدد الوكلاء في Sundae بالنتائج ويكشف الشذوذ قبل أن يتصاعد - ثم يوجّه كل حل إلى مسؤول محدد ويقيس الهامش المسترد مقارنةً بخط أساس، فتُغلق الحلقة على ربح مُستعاد لا على مجرد إجراء.', examples: ['توقعات المبيعات والطلب', 'تنبيهات استباقية لارتفاع تكاليف العمالة', 'تعديلات تسعير القائمة الموصى بها بالذكاء', 'اقتراحات تحسين التوظيف', 'اكتشاف الشذوذ وتحليل السبب الجذري'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-500/10' },
     ],
     alertsTitle: 'كيف يبدو ذكاء 4D',
-    alertsDescription: 'تنبيهات استباقية. توصيات واضحة. إجراءات يمكنك اتخاذها اليوم.',
+    alertsDescription: 'تنبيهات استباقية. مسؤول محدد لكل حل. هامش مسترد يُقاس مقارنةً بخط أساس.',
     alerts: [
-      { type: 'تنبيه تكلفة العمالة', location: 'موقع وسط المدينة', message: 'تكلفة العمالة أعلى بنسبة 12% من المعيار المرجعي للمطاعم المشابهة. الإجراء الموصى به: مراجعة كفاءة الجدولة والنظر في تعديل التوظيف.', severity: 'warning', action: 'مراجعة الجدول', icon: 'warning' },
-      { type: 'فرصة مبيعات', location: 'موقع المطار', message: 'المبيعات أعلى من التوقعات بنسبة 8%. يشير الطقس والأحداث المحلية إلى استمرار الطلب القوي. الإجراء الموصى به: زيادة طلبات المخزون.', severity: 'success', action: 'تعديل المخزون', icon: 'growth' },
-      { type: 'تنبيه منافس', location: 'منطقة السوق', message: 'أطلق منافس رئيسي عرضًا بخصم 20%. حركة الزوار لديك منخفضة 5% هذا الأسبوع. الإجراء الموصى به: عرض محدود المدة أو تسويق موجّه.', severity: 'info', action: 'مراجعة العروض', icon: 'watchtower' },
+      { type: 'تنبيه تكلفة العمالة', location: 'موقع وسط المدينة', message: 'تكلفة العمالة أعلى بنسبة 12% من المعيار المرجعي للمطاعم المشابهة. الحل الموصى به: إعادة موازنة الجدول - موجَّه إلى مدير الفرع، مع قياس هامش العمالة المسترد مقارنةً بخط أساس الأسبوع الماضي.', severity: 'warning', action: 'مراجعة الجدول', icon: 'warning' },
+      { type: 'فرصة مبيعات', location: 'موقع المطار', message: 'المبيعات أعلى من التوقعات بنسبة 8%. يشير الطقس والأحداث المحلية إلى استمرار الطلب القوي. الحل الموصى به: زيادة طلبات المخزون - موجَّه إلى مسؤول المشتريات، مع قياس الإيراد المُحقَّق مقارنةً بخط أساس التوقعات.', severity: 'success', action: 'تعديل المخزون', icon: 'growth' },
+      { type: 'تنبيه منافس', location: 'منطقة السوق', message: 'أطلق منافس رئيسي عرضًا بخصم 20%. حركة الزوار لديك منخفضة 5% هذا الأسبوع. الحل الموصى به: عرض محدود المدة - موجَّه إلى مسؤول التسويق، مع قياس ما استُعيد من زوار وهامش مقارنةً بخط أساس الأسبوع الماضي.', severity: 'info', action: 'مراجعة العروض', icon: 'watchtower' },
     ],
     impactTitle: 'الأثر على عملك',
     impactDescription: 'نتائج تحرك المؤشر فعليًا',
     outcomes: [
       { title: 'هوامش أعلى وجودة إيرادات أفضل', description: 'اكتشف تآكل الهامش مبكرًا، وحسّن التسعير، وقلل الهدر قبل أن يؤثر على الأرباح والخسائر.', icon: 'finance' },
-      { title: 'قرارات أسرع وأكثر ثقة', description: 'لا مزيد من انتظار التقارير الشهرية. احصل على ذكاء لحظي وتصرف مع المشاكل فور ظهورها.', icon: 'speed' },
+      { title: 'حلقات مغلقة، لا مجرد قرارات أسرع', description: 'لا مزيد من انتظار التقارير الشهرية. تُوجَّه كل مشكلة إلى مسؤول وتُنفَّذ، ويُقاس الهامش المسترد مقارنةً بخط أساس.', icon: 'speed' },
       { title: 'إدارة استباقية بدلًا من إطفاء الحرائق', description: 'انتقل من الإدارة التفاعلية إلى التخطيط الاستراتيجي عبر إشارات تنبؤية وإنذارات مبكرة.', icon: 'marketing' },
-      { title: 'موقع تنافسي أقوى', description: 'افهم سياق السوق، وقارن نفسك بالنظراء، واستجب لتحركات المنافسين لحظيًا.', icon: 'growth' },
+      { title: 'موقع تنافسي أقوى', description: 'افهم سياق السوق، وقارن نفسك بالنظراء، وحوّل تحركات المنافسين إلى حل مملوك لمسؤول - مع قياس الهامش المسترد مقارنةً بخط أساس.', icon: 'growth' },
     ],
     howTitle: 'كيف يعمل',
     howDescription: 'تحليل مدعوم بالذكاء الاصطناعي في كل طبقة من عملياتك',
@@ -139,89 +139,89 @@ const localized4DCopy = {
       { title: 'ذكاء قابل للتنفيذ', description: 'لوحات Sundae Core واستعلامات Ask Sundae باللغة الطبيعية والتنبيهات الاستباقية تقدّم الرؤى عندما وأين تحتاجها.', icon: 'insights' },
     ],
     ctaTitle: 'هل أنت مستعد للصورة الكاملة؟',
-    ctaDescription: 'شاهد ذكاء 4D مع بياناتك. الماضي والخطة والنظراء والتوقعات - كلها في عرض واحد.',
+    ctaDescription: 'شاهد ذكاء 4D مع بياناتك. الماضي والخطة والنظراء والتوقعات - مُغلقة على حل مملوك لمسؤول وهامش مسترد يُقاس مقارنةً بخط أساس.',
     ctaPrimary: 'احجز عرضًا',
     ctaSecondary: 'استكشف المعمارية',
   },
   fr: {
     heroBadge: 'Intelligence décisionnelle',
-    heroTitle: <>Des rapports à <span className="text-gradient">la vraie intelligence</span></>,
-    heroDescription: 'Quatre dimensions de compréhension. Une vue complète de votre activité.',
+    heroTitle: <>Des rapports au <span className="text-gradient">profit récupéré</span></>,
+    heroDescription: 'Quatre dimensions d’analyse - passé, plan, pairs, prévision - complétées par le geste que la plupart des outils négligent : confier la correction à un responsable et mesurer la marge récupérée par rapport à une référence.',
     problemTitle: 'Le problème du BI traditionnel',
     problemDescription: 'La plupart des outils montrent ce qui s’est passé. Pas pourquoi. Pas comment vous vous situez. Pas quoi faire ensuite.',
     problemItems: [
       { title: 'Réactif, pas proactif', description: 'Vous découvrez les problèmes en fin de mois, lorsqu’ils sont déjà coûteux à corriger. Pas d’alerte précoce, pas de signal prédictif.', icon: 'warning' },
       { title: 'Sans contexte marché', description: 'Vous ne savez pas comment vous comparez à vos concurrents, ce que fait le marché ou si votre performance est bonne ou mauvaise.', icon: 'visibility' },
-      { title: 'Sans actions recommandées', description: 'Même lorsqu’un problème apparaît, le système ne vous dit pas quoi faire. Vous devez trouver la suite par vous-même.', icon: 'document' },
+      { title: 'Sans responsable, sans reprise mesurée', description: 'Même les outils qui suggèrent une correction s’arrêtent à la suggestion. Personne n’est désigné pour la porter, personne ne l’exécute, et personne ne mesure si la marge est réellement revenue.', icon: 'document' },
     ],
     dimensionsTitle: 'Quatre dimensions. Une vue complète.',
     dimensionsDescription: 'Chaque dimension s’appuie sur la précédente. Ensemble, elles racontent toute l’histoire.',
     dimensions: [
-      { id: '1D', title: 'Constats internes', subtitle: 'Que s’est-il passé ?', description: 'C’est là que la plupart des outils s’arrêtent. Les BI traditionnels montrent ventes, main-d’oeuvre, couverts, annulations et gaspillage depuis le POS, la paie et l’inventaire. Mais ils ne donnent que le passé, sans contexte ni comparaison.', examples: ['Ventes journalières par site et tranche horaire', 'Heures et coûts de main-d’oeuvre', 'Usage stock et gaspillage', 'Nombre de couverts et ticket moyen', 'Suivi des annulations et offs'], icon: 'benchmarking', color: 'from-[#FF5C4D] to-[#E9A24A]', textColor: 'text-[#FF8473]', bgColor: 'bg-[rgba(255,92,77,0.1)]' },
-      { id: '2D', title: 'Réel vs plan', subtitle: 'Que devait-il se passer ?', description: 'Ajoutez budgets, prévisions et objectifs. Vous voyez alors l’écart - êtes-vous en avance ou en retard ? Cela ajoute du contexte de planification, mais pas encore d’intelligence marché.', examples: ['Écart ventes budget vs réel', 'Coût main-d’oeuvre vs objectifs', 'Écart coût matière par période', 'Performance par site vs plan', 'Suivi de précision des prévisions'], icon: 'marketing', color: 'from-[#F2B45C] to-[#C2410C]', textColor: 'text-[#C2410C]', bgColor: 'bg-[#FF5C4D]/10' },
-      { id: '3D', title: 'Marché & concurrents', subtitle: 'Comment nous situons-nous ?', description: 'Ajoutez des benchmarks, des groupes de pairs et de l’intelligence concurrentielle. Comparez votre performance à des restaurants similaires dans votre catégorie et votre région.', examples: ['Ventes au m² vs groupe de pairs', 'Coût main-d’oeuvre vs benchmarks', 'Tarifs et promotions concurrents', 'Tendances de catégorie et de territoire', 'Part de marché et positionnement'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-50' },
-      { id: '4D', title: 'Prévision IA & actions', subtitle: 'Que va-t-il se passer ensuite, et que devons-nous faire ?', description: 'La dimension finale : prévisions, alertes et recommandations générées par l’IA. L’IA multi-agents de Sundae prévoit les résultats, détecte les anomalies avant qu’elles ne s’aggravent et indique l’action exacte à prendre.', examples: ['Prévisions de ventes et de demande', 'Alertes proactives sur les pics de coût main-d’oeuvre', 'Recommandations de prix menu', 'Suggestions d’optimisation du staffing', 'Détection d’anomalies et analyse racine'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-50' },
+      { id: '1D', title: 'Constats internes', subtitle: 'Que s’est-il passé ?', description: 'C’est là que la plupart des outils s’arrêtent. Les BI traditionnels montrent ventes, main-d’œuvre, couverts, annulations et gaspillage depuis le POS, la paie et l’inventaire. Mais ils ne donnent que le passé, sans contexte ni comparaison.', examples: ['Ventes journalières par site et tranche horaire', 'Heures et coûts de main-d’œuvre', 'Usage stock et gaspillage', 'Nombre de couverts et ticket moyen', 'Suivi des annulations et offs'], icon: 'benchmarking', color: 'from-[#FF5C4D] to-[#E9A24A]', textColor: 'text-[#FF8473]', bgColor: 'bg-[rgba(255,92,77,0.1)]' },
+      { id: '2D', title: 'Réel vs plan', subtitle: 'Que devait-il se passer ?', description: 'Ajoutez budgets, prévisions et objectifs. Vous voyez alors l’écart - êtes-vous en avance ou en retard ? Cela ajoute du contexte de planification, mais pas encore d’intelligence marché.', examples: ['Écart ventes budget vs réel', 'Coût main-d’œuvre vs objectifs', 'Écart coût matière par période', 'Performance par site vs plan', 'Suivi de précision des prévisions'], icon: 'marketing', color: 'from-[#F2B45C] to-[#C2410C]', textColor: 'text-[#C2410C]', bgColor: 'bg-[#FF5C4D]/10' },
+      { id: '3D', title: 'Marché & concurrents', subtitle: 'Comment nous situons-nous ?', description: 'Ajoutez des benchmarks, des groupes de pairs et de l’intelligence concurrentielle. Comparez votre performance à des restaurants similaires dans votre catégorie et votre région.', examples: ['Ventes au m² vs groupe de pairs', 'Coût main-d’œuvre vs benchmarks', 'Tarifs et promotions concurrents', 'Tendances de catégorie et de territoire', 'Part de marché et positionnement'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-500/10' },
+      { id: '4D', title: 'Prévision IA & actions', subtitle: 'Que va-t-il se passer ensuite, et que devons-nous faire ?', description: 'La dimension finale : prévisions, alertes et recommandations générées par l’IA. L’IA multi-agents de Sundae prévoit les résultats et signale les anomalies avant qu’elles ne s’aggravent - puis confie chaque correction à un responsable désigné et mesure la marge récupérée par rapport à une référence, si bien que la boucle se referme sur le profit récupéré, pas seulement sur l’action menée.', examples: ['Prévisions de ventes et de demande', 'Alertes proactives sur les pics de coût main-d’œuvre', 'Recommandations de prix menu', 'Suggestions d’optimisation du staffing', 'Détection d’anomalies et analyse racine'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-500/10' },
     ],
     alertsTitle: 'À quoi ressemble la 4D Intelligence',
-    alertsDescription: 'Alertes proactives. Recommandations claires. Actions que vous pouvez prendre aujourd’hui.',
+    alertsDescription: 'Alertes proactives. Un responsable désigné pour chaque correction. Une marge récupérée mesurée par rapport à une référence.',
     alerts: [
-      { type: 'Alerte coût main-d’oeuvre', location: 'Site centre-ville', message: 'Le coût main-d’oeuvre est 12% au-dessus du benchmark pour des restaurants similaires. Action recommandée : revoir l’efficacité du planning et ajuster les effectifs.', severity: 'warning', action: 'Revoir le planning', icon: 'warning' },
-      { type: 'Opportunité de vente', location: 'Site aéroport', message: 'Les ventes sont 8% au-dessus des prévisions. La météo et les événements locaux suggèrent une demande durable. Action recommandée : augmenter les commandes stock.', severity: 'success', action: 'Ajuster le stock', icon: 'growth' },
-      { type: 'Alerte concurrent', location: 'Zone marché', message: 'Un concurrent majeur a lancé une promo à -20%. Votre trafic est en baisse de 5% cette semaine. Action recommandée : proposer une offre limitée ou un marketing ciblé.', severity: 'info', action: 'Revoir les promos', icon: 'watchtower' },
+      { type: 'Alerte coût main-d’œuvre', location: 'Site centre-ville', message: 'Le coût de la main-d’œuvre est 12% au-dessus du benchmark pour des restaurants similaires. Correction recommandée : rééquilibrer le planning - confiée au responsable du point de vente, avec la marge de main-d’œuvre récupérée mesurée par rapport à la référence de la semaine dernière.', severity: 'warning', action: 'Revoir le planning', icon: 'warning' },
+      { type: 'Opportunité de vente', location: 'Site aéroport', message: 'Les ventes sont 8% au-dessus des prévisions. La météo et les événements locaux suggèrent une demande durable. Correction recommandée : augmenter les commandes de stock - confiée au responsable des achats, avec le chiffre d’affaires capté mesuré par rapport à la référence des prévisions.', severity: 'success', action: 'Ajuster le stock', icon: 'growth' },
+      { type: 'Alerte concurrent', location: 'Zone marché', message: 'Un concurrent majeur a lancé une promo à -20%. Votre trafic est en baisse de 5% cette semaine. Correction recommandée : une offre à durée limitée - confiée au responsable marketing, avec le trafic et la marge récupérés mesurés par rapport à la référence de la semaine dernière.', severity: 'info', action: 'Revoir les promos', icon: 'watchtower' },
     ],
     impactTitle: 'L’impact sur votre activité',
     impactDescription: 'Des résultats qui font vraiment bouger les lignes',
     outcomes: [
       { title: 'Marges plus élevées et revenus de meilleure qualité', description: 'Détectez tôt l’érosion de marge, optimisez les prix et réduisez le gaspillage avant qu’il n’impacte le compte de résultat.', icon: 'finance' },
-      { title: 'Décisions plus rapides et plus sûres', description: 'Plus besoin d’attendre les rapports mensuels. Obtenez une intelligence temps réel et agissez dès que les problèmes émergent.', icon: 'speed' },
+      { title: 'Des boucles bouclées, pas seulement des décisions plus rapides', description: 'Plus besoin d’attendre les rapports mensuels. Chaque problème est confié à un responsable, exécuté, et la marge récupérée est mesurée par rapport à une référence.', icon: 'speed' },
       { title: 'Moins d’incendies, plus de leadership proactif', description: 'Passez d’une gestion réactive à une planification stratégique grâce aux signaux prédictifs et aux alertes précoces.', icon: 'marketing' },
-      { title: 'Position concurrentielle renforcée', description: 'Comprenez votre contexte marché, benchmarkez-vous et répondez aux mouvements concurrents en temps réel.', icon: 'growth' },
+      { title: 'Position concurrentielle renforcée', description: 'Comprenez votre contexte marché, benchmarkez-vous et transformez les mouvements concurrents en une correction confiée à un responsable - avec la marge récupérée mesurée par rapport à une référence.', icon: 'growth' },
     ],
     howTitle: 'Comment ça marche',
     howDescription: 'Une analyse pilotée par l’IA à chaque couche de vos opérations',
     howItems: [
-      { title: 'Couche de données unifiée', description: 'Sundae Core intègre plus de 25 systèmes - POS, main-d’oeuvre, inventaire, budgets et sources externes - dans une base intelligente unique.', icon: 'integration' },
+      { title: 'Couche de données unifiée', description: 'Sundae Core intègre plus de 25 systèmes - POS, main-d’œuvre, inventaire, budgets et sources externes - dans une base intelligente unique.', icon: 'integration' },
       { title: 'Moteur IA multi-agents', description: 'Des agents spécialisés analysent les motifs, détectent les anomalies, prévoient les résultats et génèrent des recommandations sur les quatre dimensions.', icon: 'intelligence' },
       { title: 'Intelligence actionnable', description: 'Les dashboards Sundae Core, les requêtes en langage naturel de Ask Sundae et les alertes proactives livrent les insights quand et où vous en avez besoin.', icon: 'insights' },
     ],
     ctaTitle: 'Prêt pour la vue complète ?',
-    ctaDescription: 'Découvrez la 4D Intelligence avec vos données. Passé, plan, pairs et prévisions - tout dans une seule vue.',
+    ctaDescription: 'Découvrez la 4D Intelligence avec vos données. Passé, plan, pairs et prévisions - bouclés sur une correction confiée à un responsable et une marge récupérée mesurée par rapport à une référence.',
     ctaPrimary: 'Reserver une demo',
     ctaSecondary: 'Explorer l’architecture',
   },
   es: {
     heroBadge: 'Inteligencia de decisiones',
-    heroTitle: <>De informes a <span className="text-gradient">inteligencia real</span></>,
-    heroDescription: 'Cuatro dimensiones de insight. Una imagen completa de tu negocio.',
+    heroTitle: <>De informes a <span className="text-gradient">beneficio recuperado</span></>,
+    heroDescription: 'Cuatro dimensiones de análisis - pasado, plan, pares, predicción - cerradas con el paso que la mayoría de las herramientas omite: asignar la corrección a un responsable y medir el margen recuperado frente a una línea base.',
     problemTitle: 'El problema del BI tradicional',
     problemDescription: 'La mayoría de las herramientas te muestran qué pasó. No por qué. No cómo comparas. No qué hacer después.',
     problemItems: [
       { title: 'Reactivo, no proactivo', description: 'Descubres los problemas al cierre del mes, cuando ya son caros de corregir. Sin alertas tempranas ni señales predictivas.', icon: 'warning' },
       { title: 'Sin contexto de mercado', description: 'No sabes cómo te comparas con la competencia, qué está haciendo el mercado o si tu rendimiento es bueno o malo frente a pares.', icon: 'visibility' },
-      { title: 'Sin acciones recomendadas', description: 'Incluso cuando ves un problema, el sistema no te dice qué hacer. Te toca decidir los siguientes pasos por tu cuenta.', icon: 'document' },
+      { title: 'Sin responsable, sin recuperación medida', description: 'Incluso las herramientas que sugieren una solución se detienen en la sugerencia. Nadie queda a cargo de ejecutarla, nadie la ejecuta y nadie mide si el margen realmente volvió.', icon: 'document' },
     ],
     dimensionsTitle: 'Cuatro dimensiones. Una vista completa.',
     dimensionsDescription: 'Cada dimensión construye sobre la anterior. Juntas cuentan la historia completa.',
     dimensions: [
       { id: '1D', title: 'Resultados internos', subtitle: '¿Qué pasó?', description: 'Aquí es donde la mayoría de las herramientas se detienen. Las plataformas BI tradicionales muestran ventas, personal, cubiertos, anulaciones y desperdicio desde POS, nómina e inventario. Pero solo cuentan el pasado, sin contexto ni comparación.', examples: ['Ventas diarias por ubicación y franja', 'Horas y costes laborales', 'Uso de inventario y desperdicio', 'Número de cubiertos y ticket medio', 'Seguimiento de anulaciones y cortesías'], icon: 'benchmarking', color: 'from-[#FF5C4D] to-[#E9A24A]', textColor: 'text-[#FF8473]', bgColor: 'bg-[rgba(255,92,77,0.1)]' },
       { id: '2D', title: 'Real vs plan', subtitle: '¿Qué debería haber pasado?', description: 'Añade presupuestos, previsiones y objetivos. Ahora ves la variación: ¿vas por delante o por detrás del plan? Esto añade contexto de planificación, pero aún sin inteligencia de mercado ni poder predictivo.', examples: ['Variación de ventas presupuesto vs real', 'Coste laboral frente a objetivos', 'Variación de coste de comida por periodo', 'Rendimiento por ubicación vs plan', 'Seguimiento de precisión de pronósticos'], icon: 'marketing', color: 'from-[#F2B45C] to-[#C2410C]', textColor: 'text-[#C2410C]', bgColor: 'bg-[#FF5C4D]/10' },
-      { id: '3D', title: 'Mercado y competidores', subtitle: '¿Cómo nos comparamos?', description: 'Añade benchmarks, grupos de pares e inteligencia competitiva. Ve cómo se posiciona tu rendimiento frente a restaurantes similares en tu categoría y región.', examples: ['Ventas por metro cuadrado vs grupo par', 'Coste laboral % comparado con benchmarks', 'Precios y promociones de competidores', 'Tendencias de categoría y territorio', 'Cuota de mercado y posicionamiento'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-50' },
-      { id: '4D', title: 'Visión IA y acciones', subtitle: '¿Qué pasará después y qué debemos hacer?', description: 'La dimensión final: predicciones, alertas y recomendaciones generadas por IA. La IA multiagente de Sundae pronostica resultados, marca anomalías antes de que escalen y te dice exactamente qué hacer.', examples: ['Pronósticos de ventas y demanda', 'Alertas proactivas de picos de coste laboral', 'Cambios de precio recomendados por IA', 'Sugerencias de optimización de personal', 'Detección de anomalías y análisis de causa raíz'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-50' },
+      { id: '3D', title: 'Mercado y competidores', subtitle: '¿Cómo nos comparamos?', description: 'Añade benchmarks, grupos de pares e inteligencia competitiva. Ve cómo se posiciona tu rendimiento frente a restaurantes similares en tu categoría y región.', examples: ['Ventas por metro cuadrado vs grupo par', 'Coste laboral % comparado con benchmarks', 'Precios y promociones de competidores', 'Tendencias de categoría y territorio', 'Cuota de mercado y posicionamiento'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-500/10' },
+      { id: '4D', title: 'Visión IA y acciones', subtitle: '¿Qué pasará después y qué debemos hacer?', description: 'La dimensión final: predicciones, alertas y recomendaciones generadas por IA. La IA multiagente de Sundae pronostica resultados y marca anomalías antes de que escalen - luego asigna cada solución a un responsable y mide el margen recuperado frente a una línea base, de modo que el ciclo se cierra en beneficio recuperado, no solo en acción tomada.', examples: ['Pronósticos de ventas y demanda', 'Alertas proactivas de picos de coste laboral', 'Cambios de precio recomendados por IA', 'Sugerencias de optimización de personal', 'Detección de anomalías y análisis de causa raíz'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-500/10' },
     ],
     alertsTitle: 'Cómo se ve la inteligencia 4D',
-    alertsDescription: 'Alertas proactivas. Recomendaciones claras. Acciones que puedes tomar hoy.',
+    alertsDescription: 'Alertas proactivas. Un responsable para cada solución. Margen recuperado medido frente a una línea base.',
     alerts: [
-      { type: 'Alerta de coste laboral', location: 'Ubicación centro', message: 'El coste laboral está un 12% por encima del benchmark para restaurantes similares. Acción recomendada: revisar la eficiencia de horarios y ajustar personal.', severity: 'warning', action: 'Revisar horario', icon: 'warning' },
-      { type: 'Oportunidad de ventas', location: 'Ubicación aeropuerto', message: 'Las ventas van un 8% por encima del pronóstico. El clima y los eventos locales sugieren demanda sostenida. Acción recomendada: aumentar pedidos de inventario.', severity: 'success', action: 'Ajustar inventario', icon: 'growth' },
-      { type: 'Alerta de competidor', location: 'Zona de mercado', message: 'Un competidor principal lanzó una promoción del 20%. Tu tráfico baja un 5% esta semana. Acción recomendada: considerar una oferta limitada o marketing segmentado.', severity: 'info', action: 'Revisar promociones', icon: 'watchtower' },
+      { type: 'Alerta de coste laboral', location: 'Ubicación centro', message: 'El coste laboral está un 12% por encima del benchmark para restaurantes similares. Solución recomendada: reequilibrar el horario - asignada al gerente del local, con el margen laboral recuperado medido frente a la línea base de la semana pasada.', severity: 'warning', action: 'Revisar horario', icon: 'warning' },
+      { type: 'Oportunidad de ventas', location: 'Ubicación aeropuerto', message: 'Las ventas van un 8% por encima del pronóstico. El clima y los eventos locales sugieren demanda sostenida. Solución recomendada: aumentar los pedidos de inventario - asignada al responsable de compras, con los ingresos captados medidos frente a la línea base del pronóstico.', severity: 'success', action: 'Ajustar inventario', icon: 'growth' },
+      { type: 'Alerta de competidor', location: 'Zona de mercado', message: 'Un competidor principal lanzó una promoción del 20%. Tu tráfico baja un 5% esta semana. Solución recomendada: una oferta por tiempo limitado - asignada al responsable de marketing, con el tráfico y el margen recuperados medidos frente a la línea base de la semana pasada.', severity: 'info', action: 'Revisar promociones', icon: 'watchtower' },
     ],
     impactTitle: 'El impacto en tu negocio',
     impactDescription: 'Resultados que realmente mueven la aguja',
     outcomes: [
       { title: 'Mayores márgenes y mejor calidad de ingresos', description: 'Detecta pronto la erosión del margen, optimiza precios y reduce desperdicio antes de que afecte al P&L.', icon: 'finance' },
-      { title: 'Decisiones más rápidas y seguras', description: 'Se acabó esperar a informes mensuales. Obtén inteligencia en tiempo real y actúa cuando surjan problemas.', icon: 'speed' },
+      { title: 'Ciclos cerrados, no solo decisiones más rápidas', description: 'Se acabó esperar a informes mensuales. Cada problema se asigna a un responsable, se ejecuta y el margen recuperado se mide frente a una línea base.', icon: 'speed' },
       { title: 'Menos incendios, más liderazgo proactivo', description: 'Pasa de una gestión reactiva a una planificación estratégica con señales predictivas y alertas tempranas.', icon: 'marketing' },
-      { title: 'Posición competitiva más fuerte', description: 'Entiende tu contexto de mercado, compárate con pares y responde a movimientos de competidores en tiempo real.', icon: 'growth' },
+      { title: 'Posición competitiva más fuerte', description: 'Entiende tu contexto de mercado, compárate con pares y convierte los movimientos de la competencia en una solución con responsable - con el margen recuperado medido frente a una línea base.', icon: 'growth' },
     ],
     howTitle: 'Cómo funciona',
     howDescription: 'Análisis impulsado por IA en cada capa de tus operaciones',
@@ -231,7 +231,7 @@ const localized4DCopy = {
       { title: 'Inteligencia accionable', description: 'Dashboards de Sundae Core, consultas en lenguaje natural de Ask Sundae y alertas proactivas entregan insights cuando y donde los necesitas.', icon: 'insights' },
     ],
     ctaTitle: '¿Listo para la imagen completa?',
-    ctaDescription: 'Ve 4D Intelligence con tus datos. Pasado, plan, pares y predicciones - todo en una sola vista.',
+    ctaDescription: 'Ve 4D Intelligence con tus datos. Pasado, plan, pares y predicciones - cerrados en una solución con responsable y un margen recuperado medido frente a una línea base.',
     ctaPrimary: 'Reservar una demo',
     ctaSecondary: 'Explorar la arquitectura',
   },
@@ -242,7 +242,7 @@ export default function FourDIntelligencePage() {
   const ui = localized4DCopy[locale as keyof typeof localized4DCopy] ?? getGeneratedLocalCopy(localized4DCopy, generatedLocalCopy.localized4DCopy, locale) ?? localized4DCopy.en;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-stone-50 via-white to-orange-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-center mb-12">
@@ -264,7 +264,7 @@ export default function FourDIntelligencePage() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Card variant="elevated" className="bg-gradient-to-br from-stone-50 to-stone-100">
+            <Card variant="elevated" className="bg-white/[0.03]">
               <CardContent className="p-8">
                 <div className="space-y-6">
                   {ui.problemItems.map((item) => (
@@ -285,7 +285,7 @@ export default function FourDIntelligencePage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.dimensionsTitle}</h2>
@@ -372,7 +372,7 @@ export default function FourDIntelligencePage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.impactTitle}</h2>

@@ -209,7 +209,7 @@ export function PulseDashboardMockup() {
   const revenue = locale === "ar" ? "الايراد" : locale === "fr" ? "Revenu" : locale === "es" ? "Ingresos" : "Revenue";
   const covers = locale === "ar" ? "الضيوف" : locale === "fr" ? "Couverts" : locale === "es" ? "Cubiertos" : "Covers";
   const avgCheck = locale === "ar" ? "متوسط الفاتورة" : locale === "fr" ? "Ticket moyen" : locale === "es" ? "Ticket medio" : "Avg Check";
-  const labor = locale === "ar" ? "العمالة %" : locale === "fr" ? "Main-d'oeuvre %" : locale === "es" ? "% Labor" : "Labor %";
+  const labor = locale === "ar" ? "العمالة %" : locale === "fr" ? "Main-d'œuvre %" : locale === "es" ? "% Labor" : "Labor %";
   const paceLabel = locale === "ar" ? "وتيرة الايراد" : locale === "fr" ? "Rythme du revenu" : locale === "es" ? "Ritmo de ingresos" : "Revenue Pace";
   const headers = locale === "ar" ? ["الموظف", "المبيعات", "نسبة البيع الاضافي", "متوسط الفاتورة"] : locale === "fr" ? ["Serveur", "Ventes", "Ventes additionnelles %", "Ticket moyen"] : locale === "es" ? ["Mesero", "Ventas", "Venta adicional %", "Ticket medio"] : ["Server", "Sales", "Upsell %", "Avg Check"];
   const coachAlert = locale === "ar"

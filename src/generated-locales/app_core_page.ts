@@ -5,14 +5,52 @@ export const generatedLocalCopy = {
     "fr": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Connecté à votre POS, à la main-d'œuvre, à l'inventaire et à tous les systèmes importants. Core se met à jour toutes les 2 à 4 heures pour que vous puissiez agir pendant le service - et non après que les dégâts soient faits.",
+        "description": "Connecté à votre POS, à la main-d'œuvre, à l'inventaire et à tous les systèmes qui comptent. Core repère la fuite de marge, confie la correction à un responsable identifié et mesure la marge récupérée par rapport à une référence.",
         "primary": "Explorer les niveaux de Core",
         "secondary": "Réserver une démo"
+      },
+      "dimensions": {
+        "heading": "Le Modèle d'Intelligence 4D",
+        "description": "Core fournit les quatre dimensions - élargies.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Ce qui s'est passé",
+            "status": "Temps Réel",
+            "description": "Vérité opérationnelle complète, mise à jour toutes les 2-4 heures. Visibilité quasi temps réel pour les interventions de même quart.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Prévision vs. Réel",
+            "status": "Temps Réel",
+            "description": "Suivi des écarts budgétaires en temps réel. Rapports flash pour les équipes financières. Visibilité semaine à ce jour et mois à ce jour.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Contexte du Marché",
+            "status": "Élargi",
+            "description": "Suite complète de benchmarking (30+ métriques). Comparaisons de portefeuille. Contexte concurrentiel via Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Qu'est-ce qui vient ensuite",
+            "status": "Élargi",
+            "description": "Prévisions de 14 à 30 jours. Alertes proactives avant que les problèmes ne s'aggravent. Recommandations de Sundae Coach avec des scores de confiance.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Inclus avec Core",
         "heading": "Pulse : Votre Centre de Commande de Shift",
-        "description": "Voyez les anomalies dès qu'elles se produisent. Formez votre équipe en temps réel. Confirmez les résultats avant la fin du shift.",
+        "description": "Repérez les anomalies au moment où elles se produisent. Confiez la correction au manager en service. Puis mesurez la marge récupérée par rapport à la référence.",
         "features": [
           {
             "name": "Ventes & Rythme",
@@ -135,8 +173,8 @@ export const generatedLocalCopy = {
         "button": "En savoir plus sur Watchtower"
       },
       "cta": {
-        "title": "Arrêtez de gérer les chiffres d'hier",
-        "description": "Découvrez à quoi ressemble l'intelligence opérationnelle en temps réel avec vos données réelles.",
+        "title": "Arrêtez de signaler la fuite. Récupérez-la.",
+        "description": "Voyez Core repérer la fuite, confier la correction et mesurer la marge récupérée par rapport à votre référence - sur vos vraies données.",
         "primary": "Explorer les niveaux de Core",
         "secondary": "Réserver une démo"
       }
@@ -144,14 +182,52 @@ export const generatedLocalCopy = {
     "es": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectado a tu POS, mano de obra, inventario y a todos los sistemas que importan. Core se actualiza cada 2-4 horas para que puedas actuar durante el turno, no después de que se haya hecho el daño.",
+        "description": "Conectado a tu POS, mano de obra, inventario y a todos los sistemas que importan. Core encuentra la fuga de margen, asigna la solución a un responsable con nombre y mide el margen recuperado frente a una línea base.",
         "primary": "Explora los Niveles de Core",
         "secondary": "Reserva una Demostración"
+      },
+      "dimensions": {
+        "heading": "El Modelo de Inteligencia 4D",
+        "description": "Core ofrece las cuatro dimensiones - ampliadas.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Qué Sucedió",
+            "status": "En Tiempo Real",
+            "description": "Verdad operativa completa, actualizada cada 2-4 horas. Visibilidad casi en tiempo real para intervenciones en el mismo turno.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Plan vs. Real",
+            "status": "En Tiempo Real",
+            "description": "Seguimiento de variaciones presupuestarias en tiempo real. Informes rápidos para equipos financieros. Visibilidad de la semana hasta la fecha y del mes hasta la fecha.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Contexto del Mercado",
+            "status": "Ampliado",
+            "description": "Suite completa de benchmarking (30+ métricas). Comparaciones de portafolios. Contexto competitivo a través de Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Qué Sigue",
+            "status": "Ampliado",
+            "description": "Pronósticos de 14-30 días. Alertas proactivas antes de que los problemas escalen. Recomendaciones de Sundae Coach con puntajes de confianza.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Incluido con Core",
         "heading": "Pulse: Tu Centro de Comando de Turno",
-        "description": "Ve las anomalías en el momento en que ocurren. Entrena a tu equipo en tiempo real. Confirma los resultados antes de que termine el turno.",
+        "description": "Ve las anomalías en el momento en que suceden. Asigna la solución al gerente del turno. Luego mide el margen que recuperaste frente a la línea base.",
         "features": [
           {
             "name": "Ventas y Ritmo",
@@ -274,24 +350,91 @@ export const generatedLocalCopy = {
         "button": "Conocer más sobre Watchtower"
       },
       "cta": {
-        "title": "Deja de gestionar los números de ayer",
-        "description": "Ve cómo se ve la inteligencia operativa en tiempo real con tus datos reales.",
+        "title": "Deja de reportar la fuga. Recupérala.",
+        "description": "Mira a Core encontrar la fuga, asignar la solución y medir el margen recuperado frente a tu línea base - con tus datos reales.",
         "primary": "Explora los niveles de Core",
         "secondary": "Reserva una demostración"
       }
     },
     "de": {
+      "proof": {
+        "eyebrow": "SO WISSEN SIE, DASS ES ECHT IST",
+        "heading": "Rückgewinnung behaupten kann jeder. Sundae lässt Sie es überprüfen.",
+        "description": "Eine zurückgewonnene Zahl verdient nur dann Vertrauen, wenn Sie sehen können, ob sie wirklich zustande kam. Sundae beantwortet die drei Fragen, die ein sorgfältiger Betreiber - oder sein CFO - immer stellt.",
+        "items": [
+          {
+            "question": "Schließt sich der Regelkreis wirklich?",
+            "title": "Zustand des Regelkreises",
+            "desc": "Sehen Sie, wie viele erkannte Lecks tatsächlich zu einem gemessenen Ergebnis führen - die echte Abschlussquote, keine Schönfärberei. Es ist die eine Zahl, die zeigt, dass der Regelkreis funktioniert, und sie bleibt ehrlich, auch wenn sie niedrig ist.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Wäre das ohnehin passiert?",
+            "title": "Vergleichbare Basislinien",
+            "desc": "Jede zurückgewonnene Zahl wird gegen eine passende Basislinie über eine volle Woche gemessen - dieselben Tage, derselbe Rhythmus - damit ein echter Gewinn nie mit einer bloß geschäftigen Woche verwechselt wird.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Hat es sich bezahlt gemacht?",
+            "title": "Rendite auf Sundae",
+            "desc": "Sehen Sie den zurückgewonnenen Wert im Verhältnis zu dem, was Sie zahlen, Periode für Periode - der Beweis, in gemessenem Geld, dass Sundae seine Kosten mehr als deckt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Und wenn der Beleg fehlt, sagt Sundae das offen. Jedes Ergebnis bleibt richtungweisend, bis ein Mensch es bestätigt, und ein Detektor schweigt lieber, als eine Zahl zu erfinden."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core aktualisiert im Lauf des Handelstages - typischerweise alle 2-4 Stunden, und schneller wo eine Quelle es zulässt - damit Sie während der Schicht handeln, nicht wenn der Schaden da ist.",
+        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core findet das Margen-Leck, übergibt die Korrektur an einen benannten Verantwortlichen und misst die zurückgewonnene Marge gegen eine Basislinie.",
         "primary": "Core-Tarife erkunden",
         "secondary": "Demo buchen",
-        "title": "Betrieb in der laufenden Schicht. Keine Tagesabschlussberichte."
+        "title": "Finden Sie das Leck. Holen Sie die Marge zurück."
+      },
+      "dimensions": {
+        "heading": "Das 4D-Intelligenzmodell",
+        "description": "Core liefert alle vier Dimensionen - erweitert.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Was ist passiert",
+            "status": "Echtzeit",
+            "description": "Vollständige betriebliche Wahrheit, alle 2-4 Stunden aktualisiert. Nahezu Echtzeit-Sichtbarkeit für Interventionen zur gleichen Schicht.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Plan vs. Ist",
+            "status": "Echtzeit",
+            "description": "Echtzeit-Überwachung der Budgetabweichungen. Blitzberichte für Finanzteams. Sichtbarkeit bis zur Woche und bis zum Monat.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Markt Kontext",
+            "status": "Erweitert",
+            "description": "Vollständige Benchmarking-Suite (30+ Kennzahlen). Portfoliovergleiche. Wettbewerbsumfeld über Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Was kommt als Nächstes",
+            "status": "Erweitert",
+            "description": "14-30 Tage Prognose. Proaktive Warnungen, bevor Probleme eskalieren. Sundae Coach Empfehlungen mit Vertrauensbewertungen.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Inklusive mit Core",
         "heading": "Pulse: Ihr Schicht-Kommandocenter",
-        "description": "Sehen Sie Anomalien, sobald sie auftreten. Coachen Sie Ihr Team in Echtzeit. Bestätigen Sie die Ergebnisse, bevor die Schicht endet.",
+        "description": "Sehen Sie Anomalien, sobald sie auftreten. Übergeben Sie die Korrektur an den Schichtleiter. Messen Sie dann die zurückgewonnene Marge gegen die Basislinie.",
         "features": [
           {
             "name": "Verkäufe & Tempo",
@@ -414,8 +557,8 @@ export const generatedLocalCopy = {
         "button": "Erfahren Sie mehr über Watchtower"
       },
       "cta": {
-        "title": "Verwalten Sie nicht die Zahlen von gestern",
-        "description": "Sehen Sie, wie Echtzeit-Betriebsintelligenz mit Ihren tatsächlichen Daten aussieht.",
+        "title": "Melden Sie das Leck nicht - holen Sie es zurück.",
+        "description": "Sehen Sie, wie Core das Leck findet, die Korrektur übergibt und die zurückgewonnene Marge gegen Ihre Basislinie misst - mit Ihren echten Daten.",
         "primary": "Core-Tarife erkunden",
         "secondary": "Demo buchen"
       },
@@ -488,17 +631,84 @@ export const generatedLocalCopy = {
       }
     },
     "nl": {
+      "proof": {
+        "eyebrow": "ZO WEET U DAT HET ECHT IS",
+        "heading": "Herstel claimen kan iedereen. Sundae laat u het controleren.",
+        "description": "Een teruggewonnen bedrag is pas te vertrouwen als u kunt zien of het echt is gebeurd. Sundae beantwoordt de drie vragen die een zorgvuldige operator - of zijn CFO - altijd stelt.",
+        "items": [
+          {
+            "question": "Sluit de lus zich echt?",
+            "title": "Gezondheid van de lus",
+            "desc": "Zie hoeveel gedetecteerde lekken daadwerkelijk tot een gemeten resultaat komen - het echte sluitingspercentage, geen cijfer voor de bühne. Het is het ene getal dat laat zien dat de lus werkt, en het blijft eerlijk als dat getal laag is.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Was dat toch al gebeurd?",
+            "title": "Gelijkwaardige basislijnen",
+            "desc": "Elk teruggewonnen bedrag wordt gemeten tegen een overeenkomende basislijn over een volledige week - dezelfde dagen, hetzelfde ritme - zodat echte winst nooit wordt verward met een gewoon drukke week.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Heeft het zichzelf terugverdiend?",
+            "title": "Rendement op Sundae",
+            "desc": "Zie de teruggewonnen waarde afgezet tegen wat u betaalt, periode na periode - het bewijs, in gemeten geld, dat Sundae zijn kosten ruimschoots dekt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "En als het bewijs er niet is, zegt Sundae dat. Elk resultaat blijft indicatief totdat een mens het bevestigt, en een detector zwijgt liever dan een getal te verzinnen."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Gekoppeld aan je POS, personeel, voorraad en elk systeem dat telt. Core ververst gedurende de handelsdag - meestal elke 2-4 uur, en sneller waar een bron dat toelaat - zodat je tijdens de dienst ingrijpt, niet als de schade er al is.",
+        "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core vindt het margelek, wijst de oplossing toe aan een benoemde eigenaar en meet de teruggewonnen marge af tegen een basislijn.",
         "primary": "Ontdek Core Tiers",
         "secondary": "Boek een Demo",
-        "title": "Werken tijdens de dienst. Geen dagafsluitrapporten."
+        "title": "Vind het lek. Haal de marge terug."
+      },
+      "dimensions": {
+        "heading": "Het 4D Informatie Model",
+        "description": "Core levert alle vier dimensies - uitgebreid.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Wat is er gebeurd",
+            "status": "Realtime",
+            "description": "Volledige operationele waarheid, elke 2-4 uur bijgewerkt. Bijna realtime zichtbaarheid voor interventies in dezelfde shift.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Plan vs. Werkelijk",
+            "status": "Realtime",
+            "description": "Realtime budgetafwijking tracking. Flashrapportage voor financiële teams. Zichtbaarheid van week tot nu en maand tot nu.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Marktcontext",
+            "status": "Uitgebreid",
+            "description": "Volledige benchmark suite (30+ metrics). Portfolio vergelijkingen. Concurrentiecontext via Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Wat is de volgende stap",
+            "status": "Uitgebreid",
+            "description": "14-30 dagen forecasting. Proactieve waarschuwingen voordat problemen escaleren. Sundae Coach aanbevelingen met vertrouwensscores.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Inclusief bij Core",
         "heading": "Pulse: Jouw Shift Command Center",
-        "description": "Zie anomalieën op het moment dat ze zich voordoen. Coach je team in real-time. Bevestig resultaten voordat de shift eindigt.",
+        "description": "Zie anomalieën op het moment dat ze zich voordoen. Wijs de oplossing toe aan de manager in dienst. Meet daarna de teruggewonnen marge af tegen de basislijn.",
         "features": [
           {
             "name": "Verkoop & Tempo",
@@ -621,8 +831,8 @@ export const generatedLocalCopy = {
         "button": "Leer Meer Over Watchtower"
       },
       "cta": {
-        "title": "Stop met het Beheren van de Cijfers van Gisteren",
-        "description": "Zie hoe operationele intelligentie in real-time eruitziet met je actuele gegevens.",
+        "title": "Stop met het melden van het lek. Haal het terug.",
+        "description": "Zie hoe Core het lek vindt, de oplossing toewijst en de teruggewonnen marge afmeet tegen je basislijn - met je echte gegevens.",
         "primary": "Verken Core Tiers",
         "secondary": "Boek een Demo"
       },
@@ -697,14 +907,52 @@ export const generatedLocalCopy = {
     "ar": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يتم تحديث Core كل 2-4 ساعات حتى تتمكن من التصرف خلال الوردية - وليس بعد حدوث الضرر.",
+        "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يكشف Core تسرّب الربح، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الهامش المسترجع مقابل خط أساس.",
         "primary": "استكشاف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
+      },
+      "dimensions": {
+        "heading": "نموذج الذكاء الرباعي الأبعاد",
+        "description": "Core يقدم جميع الأبعاد الأربعة - موسعة.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "ماذا حدث",
+            "status": "في الوقت الحقيقي",
+            "description": "حقيقة تشغيلية كاملة، يتم تحديثها كل 2-4 ساعات. رؤية شبه حقيقية للتدخلات في نفس الوردية.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "المخطط مقابل الفعلي",
+            "status": "في الوقت الحقيقي",
+            "description": "تتبع فرق الميزانية في الوقت الحقيقي. تقارير سريعة لفرق المالية. رؤية للأسبوع حتى الآن والشهر حتى الآن.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "سياق السوق",
+            "status": "موسع",
+            "description": "مجموعة كاملة من المقاييس (30+ مقياس). مقارنات المحفظة. سياق تنافسي عبر Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "ما هو التالي",
+            "status": "موسع",
+            "description": "توقعات لمدة 14-30 يوم. تنبيهات استباقية قبل تصعيد المشاكل. توصيات Sundae Coach مع درجات الثقة.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "مضمن مع Core",
         "heading": "Pulse: مركز قيادة نوبتك",
-        "description": "شاهد الشذوذ في اللحظة التي تحدث فيها. درب فريقك في الوقت الحقيقي. أكد النتائج قبل انتهاء النوبة.",
+        "description": "شاهد الشذوذ في اللحظة التي يحدث فيها. وجّه الإصلاح إلى مدير الوردية. ثم قِس الهامش الذي استرجعته مقابل خط الأساس.",
         "features": [
           {
             "name": "المبيعات والوتيرة",
@@ -827,24 +1075,91 @@ export const generatedLocalCopy = {
         "button": "تعرف على Watchtower"
       },
       "cta": {
-        "title": "توقف عن إدارة أرقام الأمس",
-        "description": "اكتشف كيف تبدو الذكاء التشغيلي في الوقت الحقيقي مع بياناتك الفعلية.",
+        "title": "توقف عن الإبلاغ عن التسرب. استرجعه.",
+        "description": "شاهد Core يكشف التسرّب، ويوجّه الإصلاح، ويقيس الهامش المسترجع مقابل خط أساسك - على بياناتك الفعلية.",
         "primary": "استكشف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
       }
     },
     "pt": {
+      "proof": {
+        "eyebrow": "COMO VOCÊ SABE QUE É REAL",
+        "heading": "Qualquer um pode alegar recuperação. A Sundae deixa você conferir.",
+        "description": "Um valor recuperado só merece confiança se você consegue ver se ele realmente aconteceu. A Sundae responde às três perguntas que um operador cuidadoso - ou o seu CFO - sempre faz.",
+        "items": [
+          {
+            "question": "O ciclo está mesmo fechando?",
+            "title": "Saúde do ciclo",
+            "desc": "Veja quantos vazamentos detectados realmente chegam a um resultado medido - a taxa real de fechamento, não uma contagem de fachada. É o único número que mostra que o ciclo está funcionando, e ele continua honesto quando esse número é baixo.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Isso teria acontecido de qualquer forma?",
+            "title": "Bases comparáveis",
+            "desc": "Cada valor recuperado é medido contra uma base equivalente de uma semana inteira - os mesmos dias, o mesmo ritmo - para que um ganho real nunca seja confundido com uma semana apenas movimentada.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Ele se pagou?",
+            "title": "Retorno sobre a Sundae",
+            "desc": "Veja o valor que você recuperou frente ao que paga, período a período - a prova, em dinheiro medido, de que a Sundae cobre bem mais que o seu custo.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "E quando a evidência não está lá, a Sundae diz isso. Todo resultado permanece direcional até que uma pessoa o confirme, e um detector prefere ficar em silêncio a inventar um número."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Ligado ao seu POS, pessoal, inventário e a todos os sistemas que contam. O Core atualiza ao longo do dia - normalmente a cada 2-4 horas, e mais depressa onde a fonte o permite - para agir durante o turno, não depois do estrago.",
+        "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core encontra o vazamento de margem, encaminha a correção a um responsável nomeado e mede a margem recuperada em relação a uma linha de base.",
         "primary": "Explore os Níveis do Core",
         "secondary": "Agende uma Demonstração",
-        "title": "Operações dentro do turno. Não relatórios de fim de dia."
+        "title": "Encontre o vazamento. Recupere a margem."
+      },
+      "dimensions": {
+        "heading": "O Modelo de Inteligência 4D",
+        "description": "Core oferece todas as quatro dimensões - ampliadas.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "O Que Aconteceu",
+            "status": "Em Tempo Real",
+            "description": "Verdade operacional completa, atualizada a cada 2-4 horas. Visibilidade quase em tempo real para intervenções no mesmo turno.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Planejado vs. Real",
+            "status": "Em Tempo Real",
+            "description": "Rastreamento de variação orçamentária em tempo real. Relatórios rápidos para equipes financeiras. Visibilidade da semana até a data e do mês até a data.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Contexto de Mercado",
+            "status": "Ampliado",
+            "description": "Conjunto completo de benchmarking (30+ métricas). Comparações de portfólio. Contexto competitivo via Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "O Que Vem a Seguir",
+            "status": "Ampliado",
+            "description": "Previsão de 14-30 dias. Alertas proativos antes que os problemas se agravem. Recomendações do Sundae Coach com pontuações de confiança.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Incluído com o Core",
         "heading": "Pulse: Seu Centro de Comando de Turno",
-        "description": "Veja anomalias no momento em que acontecem. Treine sua equipe em tempo real. Confirme os resultados antes do final do turno.",
+        "description": "Veja anomalias no momento em que acontecem. Encaminhe a correção ao gerente do turno. Depois meça a margem que você recuperou em relação à linha de base.",
         "features": [
           {
             "name": "Vendas & Ritmo",
@@ -967,8 +1282,8 @@ export const generatedLocalCopy = {
         "button": "Saiba Mais Sobre o Watchtower"
       },
       "cta": {
-        "title": "Pare de Gerenciar Números do Ontem",
-        "description": "Veja como é a inteligência operacional em tempo real com seus dados reais.",
+        "title": "Pare de relatar o vazamento. Recupere-o.",
+        "description": "Veja o Core encontrar o vazamento, encaminhar a correção e medir a margem recuperada em relação à sua linha de base - com seus dados reais.",
         "primary": "Explore os Níveis do Core",
         "secondary": "Agende uma Demonstração"
       },
@@ -1041,17 +1356,84 @@ export const generatedLocalCopy = {
       }
     },
     "it": {
+      "proof": {
+        "eyebrow": "COME SAI CHE È REALE",
+        "heading": "Chiunque può dichiarare un recupero. Sundae ti fa verificare.",
+        "description": "Un valore recuperato merita fiducia solo se puoi vedere se è davvero accaduto. Sundae risponde alle tre domande che un operatore attento - o il suo CFO - si pone sempre.",
+        "items": [
+          {
+            "question": "Il ciclo si sta davvero chiudendo?",
+            "title": "Salute del ciclo",
+            "desc": "Guarda quante perdite rilevate arrivano davvero a un risultato misurato - il vero tasso di chiusura, non un numero di facciata. È l'unico dato che ti dice che il ciclo funziona, e resta onesto anche quando quel numero è basso.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Sarebbe successo comunque?",
+            "title": "Basi di confronto equivalenti",
+            "desc": "Ogni valore recuperato è misurato rispetto a una base equivalente su una settimana intera - stessi giorni, stesso ritmo - così un guadagno reale non viene mai scambiato per una semplice settimana intensa.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Si è ripagato da solo?",
+            "title": "Ritorno su Sundae",
+            "desc": "Guarda il valore recuperato messo a confronto con quello che paghi, periodo per periodo - la prova, in denaro misurato, che Sundae copre ampiamente il suo costo.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "E quando la prova non c'è, Sundae lo dice. Ogni risultato resta indicativo finché una persona non lo conferma, e un rilevatore preferisce tacere piuttosto che inventare un numero."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Collegato a POS, personale, magazzino e a ogni sistema che conta. Core si aggiorna durante la giornata - di norma ogni 2-4 ore, e più spesso dove la fonte lo consente - così intervieni nel turno, non a danno fatto.",
+        "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core trova la falla di margine, assegna la correzione a un responsabile con nome e misura il margine recuperato rispetto a una linea di base.",
         "primary": "Esplora i livelli di Core",
         "secondary": "Prenota una demo",
-        "title": "Operatività nel turno. Non report di fine giornata."
+        "title": "Trova la falla. Recupera il margine."
+      },
+      "dimensions": {
+        "heading": "Il Modello di Intelligenza 4D",
+        "description": "Core offre tutte e quattro le dimensioni - espanse.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Cosa è Successo",
+            "status": "In Tempo Reale",
+            "description": "Verità operativa completa, aggiornata ogni 2-4 ore. Visibilità quasi in tempo reale per interventi nello stesso turno.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Piano vs. Reale",
+            "status": "In Tempo Reale",
+            "description": "Monitoraggio delle variazioni di budget in tempo reale. Report flash per i team finanziari. Visibilità settimana fino ad oggi e mese fino ad oggi.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Contesto di Mercato",
+            "status": "Espanso",
+            "description": "Suite completa di benchmarking (30+ metriche). Confronti di portafoglio. Contesto competitivo tramite Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Cosa C'è Dopo",
+            "status": "Espanso",
+            "description": "Previsioni da 14 a 30 giorni. Avvisi proattivi prima che i problemi si aggravino. Raccomandazioni di Sundae Coach con punteggi di fiducia.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Incluso con Core",
         "heading": "Pulse: Il tuo Centro di Comando per i Turni",
-        "description": "Vedi le anomalie nel momento in cui si verificano. Allena il tuo team in tempo reale. Conferma i risultati prima della fine del turno.",
+        "description": "Vedi le anomalie nel momento in cui si verificano. Assegna la correzione al responsabile del turno. Poi misura il margine recuperato rispetto alla linea di base.",
         "features": [
           {
             "name": "Vendite & Ritmo",
@@ -1174,8 +1556,8 @@ export const generatedLocalCopy = {
         "button": "Scopri di più su Watchtower"
       },
       "cta": {
-        "title": "Smetti di Gestire i Numeri di Ieri",
-        "description": "Scopri come appare l'intelligenza operativa in tempo reale con i tuoi dati reali.",
+        "title": "Smetti di segnalare la falla. Recuperala.",
+        "description": "Guarda Core trovare la falla, assegnare la correzione e misurare il margine recuperato rispetto alla tua linea di base - con i tuoi dati reali.",
         "primary": "Esplora i Livelli di Core",
         "secondary": "Prenota una Demo"
       },
@@ -1248,17 +1630,84 @@ export const generatedLocalCopy = {
       }
     },
     "hi": {
+      "proof": {
+        "eyebrow": "आपको कैसे पता चलेगा कि यह असली है",
+        "heading": "वसूली का दावा कोई भी कर सकता है। Sundae आपको जाँच करने देता है।",
+        "description": "वसूली गई राशि पर तभी भरोसा करना ठीक है जब आप देख सकें कि वह सचमुच हुई या नहीं। Sundae उन तीन सवालों का जवाब देता है जो एक सतर्क ऑपरेटर - या उसका CFO - हमेशा पूछता है।",
+        "items": [
+          {
+            "question": "क्या लूप सचमुच बंद हो रहा है?",
+            "title": "लूप की सेहत",
+            "desc": "देखें कि पकड़े गए कितने रिसाव असल में मापे गए नतीजे तक पहुँचते हैं - असली क्लोज़-रेट, दिखावे की गिनती नहीं। यही वह एक आँकड़ा है जो बताता है कि लूप काम कर रहा है, और यह आँकड़ा कम होने पर भी ईमानदार बना रहता है।",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "क्या यह वैसे भी हो जाता?",
+            "title": "समरूप आधार-रेखाएँ",
+            "desc": "हर वसूली गई राशि को एक मेल खाती, पूरे-हफ़्ते की आधार-रेखा के मुक़ाबले मापा जाता है - वही दिन, वही लय - ताकि असली बढ़त को कभी किसी आम व्यस्त हफ़्ते समझ न लिया जाए।",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "क्या इसने अपनी लागत निकाल दी?",
+            "title": "Sundae पर प्रतिफल",
+            "desc": "देखें कि आपने जो वसूला उसे आप जो चुकाते हैं उसके सामने रखकर, हर अवधि में - मापे गए पैसे में वह प्रमाण कि Sundae अपनी लागत से कहीं ज़्यादा वसूल कर देता है।",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "और जब प्रमाण मौजूद न हो, तो Sundae साफ़ कह देता है। हर नतीजा तब तक दिशा-सूचक भर रहता है जब तक कोई व्यक्ति उसकी पुष्टि न करे, और कोई डिटेक्टर आँकड़ा गढ़ने के बजाय चुप रहना बेहतर समझता है।"
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "आपके POS, श्रम, इन्वेंट्री और हर ज़रूरी सिस्टम से जुड़ा। Core कारोबारी दिन के दौरान रिफ़्रेश होता है - आमतौर पर हर 2-4 घंटे, और जहाँ स्रोत साथ दे वहाँ उससे भी तेज़ - ताकि आप नुक़सान के बाद नहीं, शिफ़्ट के दौरान कार्रवाई करें।",
+        "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core मुनाफ़े का रिसाव ढूँढता है, सुधार को एक नामित जिम्मेदार व्यक्ति को सौंपता है, और वापस पाए गए मार्जिन को एक आधार रेखा के मुकाबले मापता है।",
         "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें",
-        "title": "शिफ्ट के भीतर संचालन। दिन के अंत की रिपोर्ट नहीं।"
+        "title": "रिसाव खोजें। मुनाफ़ा वापस पाएं।"
+      },
+      "dimensions": {
+        "heading": "4D इंटेलिजेंस मॉडल",
+        "description": "Core सभी चार आयाम प्रदान करता है - विस्तारित।",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "क्या हुआ",
+            "status": "वास्तविक समय",
+            "description": "पूर्ण परिचालन सत्य, हर 2-4 घंटे में अपडेट किया गया। समान-शिफ्ट हस्तक्षेपों के लिए निकट वास्तविक समय दृश्यता।",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "योजना बनाम वास्तविक",
+            "status": "वास्तविक समय",
+            "description": "वास्तविक समय बजट भिन्नता ट्रैकिंग। वित्त टीमों के लिए फ्लैश रिपोर्टिंग। सप्ताह-दिन और महीने-दिन दृश्यता।",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "बाजार संदर्भ",
+            "status": "विस्तारित",
+            "description": "पूर्ण बेंचमार्किंग सूट (30+ मैट्रिक्स)। पोर्टफोलियो तुलना। Watchtower के माध्यम से प्रतिस्पर्धात्मक संदर्भ।",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "अगला क्या है",
+            "status": "विस्तारित",
+            "description": "14-30 दिन का पूर्वानुमान। समस्याओं के बढ़ने से पहले सक्रिय अलर्ट। विश्वास स्कोर के साथ Sundae Coach सिफारिशें।",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Core के साथ शामिल",
         "heading": "Pulse: आपका शिफ्ट कमांड सेंटर",
-        "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। अपने टीम को वास्तविक समय में कोच करें। शिफ्ट खत्म होने से पहले परिणामों की पुष्टि करें।",
+        "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। सुधार को शिफ्ट प्रबंधक को सौंपें। फिर आपने जो मार्जिन वापस पाया उसे आधार रेखा के मुकाबले मापें।",
         "features": [
           {
             "name": "बिक्री और गति",
@@ -1381,8 +1830,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower के बारे में जानें"
       },
       "cta": {
-        "title": "कल के नंबरों का प्रबंधन करना बंद करें",
-        "description": "अपने वास्तविक डेटा के साथ वास्तविक समय की परिचालन बुद्धिमत्ता कैसी दिखती है, देखें।",
+        "title": "रिसाव की रिपोर्ट करना बंद करें। इसे वापस पाएं।",
+        "description": "देखें कि Core कैसे रिसाव ढूँढता है, सुधार सौंपता है, और वापस पाए गए मार्जिन को आपकी आधार रेखा के मुकाबले मापता है - आपके वास्तविक डेटा पर।",
         "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें"
       },
@@ -1455,17 +1904,84 @@ export const generatedLocalCopy = {
       }
     },
     "ur": {
+      "proof": {
+        "eyebrow": "آپ کیسے جانیں گے کہ یہ حقیقی ہے",
+        "heading": "بازیابی کا دعویٰ کوئی بھی کر سکتا ہے۔ Sundae آپ کو جانچنے دیتا ہے۔",
+        "description": "بازیاب کیا گیا عدد صرف تب قابلِ اعتماد ہے جب آپ دیکھ سکیں کہ وہ واقعی ہوا یا نہیں۔ Sundae اُن تین سوالوں کا جواب دیتا ہے جو ایک محتاط آپریٹر - یا اُس کا CFO - ہمیشہ پوچھتا ہے۔",
+        "items": [
+          {
+            "question": "کیا لوپ واقعی بند ہو رہا ہے؟",
+            "title": "لوپ کی صحت",
+            "desc": "دیکھیں کہ پکڑے گئے کتنے رساؤ واقعی ایک ماپے گئے نتیجے تک پہنچتے ہیں - اصل کلوز-ریٹ، نہ کہ نمائشی گنتی۔ یہی وہ واحد عدد ہے جو بتاتا ہے کہ لوپ کام کر رہا ہے، اور یہ عدد کم ہونے پر بھی ایماندار رہتا ہے۔",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "کیا یہ ویسے بھی ہو جاتا؟",
+            "title": "مساوی بنیادی خطوط",
+            "desc": "ہر بازیاب کردہ عدد ایک ہم آہنگ، پورے ہفتے کے بنیادی خط کے مقابلے میں ماپا جاتا ہے - وہی دن، وہی تال - تاکہ کسی حقیقی منافع کو کبھی محض ایک عام مصروف ہفتہ نہ سمجھ لیا جائے۔",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "کیا اِس نے اپنی لاگت نکال دی؟",
+            "title": "Sundae پر منافع",
+            "desc": "دیکھیں کہ آپ نے جو بازیاب کیا اُسے اُس کے مقابل رکھیں جو آپ ادا کرتے ہیں، ہر مدت میں - ماپی گئی رقم میں وہ ثبوت کہ Sundae اپنی لاگت سے کہیں زیادہ پوری کر دیتا ہے۔",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "اور جب ثبوت موجود نہ ہو، تو Sundae صاف کہہ دیتا ہے۔ ہر نتیجہ اُس وقت تک محض سمتی رہتا ہے جب تک کوئی انسان اُس کی تصدیق نہ کرے، اور کوئی ڈٹیکٹر عدد گھڑنے کے بجائے خاموش رہنا بہتر سمجھتا ہے۔"
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "آپ کے POS، محنت، انوینٹری اور ہر اہم نظام سے منسلک۔ Core کاروباری دن کے دوران تازہ ہوتا ہے - عموماً ہر 2-4 گھنٹے، اور جہاں ذریعہ اجازت دے وہاں اس سے بھی تیز - تاکہ آپ نقصان کے بعد نہیں، شفٹ کے دوران قدم اٹھائیں۔",
+        "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core منافع کے رساؤ کو تلاش کرتا ہے، درستگی کو ایک نامزد ذمہ دار کے سپرد کرتا ہے، اور بازیافت شدہ مارجن کو ایک بنیادی خط کے مقابلے میں ماپتا ہے۔",
         "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں",
-        "title": "شفٹ کے اندر آپریشن۔ دن کے اختتام کی رپورٹ نہیں۔"
+        "title": "رساؤ تلاش کریں۔ منافع واپس حاصل کریں۔"
+      },
+      "dimensions": {
+        "heading": "4D انٹیلیجنس ماڈل",
+        "description": "Core چاروں جہتیں فراہم کرتا ہے - توسیع شدہ۔",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "کیا ہوا",
+            "status": "حقیقی وقت",
+            "description": "مکمل عملیاتی حقیقت، ہر 2-4 گھنٹے میں اپ ڈیٹ۔ ایک ہی شفٹ میں مداخلت کے لیے قریب حقیقی وقت کی بصیرت۔",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "منصوبہ بمقابلہ حقیقی",
+            "status": "حقیقی وقت",
+            "description": "حقیقی وقت میں بجٹ کی تغیرات کی نگرانی۔ مالیاتی ٹیموں کے لیے فلیش رپورٹنگ۔ ہفتے اور مہینے کی تاریخ کی بصیرت۔",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "مارکیٹ کا سیاق و سباق",
+            "status": "توسیع شدہ",
+            "description": "مکمل بینچ مارکنگ سوٹ (30+ میٹرکس)۔ پورٹ فولیو کے موازنہ۔ Watchtower کے ذریعے مسابقتی سیاق و سباق۔",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "اگلا کیا ہے",
+            "status": "توسیع شدہ",
+            "description": "14-30 دن کی پیش گوئی۔ مسائل کے بڑھنے سے پہلے پیشگی انتباہات۔ Sundae Coach کی سفارشات کے ساتھ اعتماد کے اسکور۔",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Core کے ساتھ شامل",
         "heading": "Pulse: آپ کا شفٹ کمانڈ سینٹر",
-        "description": "انحرافات کو اس لمحے دیکھیں جب وہ ہوتے ہیں۔ اپنے ٹیم کو حقیقی وقت میں تربیت دیں۔ شفٹ ختم ہونے سے پہلے نتائج کی تصدیق کریں۔",
+        "description": "بے قاعدگیوں کو اسی لمحے دیکھیں جب وہ ہوتی ہیں۔ درستگی کو شفٹ مینیجر کے سپرد کریں۔ پھر جو مارجن آپ نے بازیافت کیا اسے بنیادی خط کے مقابلے میں ماپیں۔",
         "features": [
           {
             "name": "سیلز اور رفتار",
@@ -1588,8 +2104,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower کے بارے میں جانیں"
       },
       "cta": {
-        "title": "کل کے اعداد و شمار کا انتظام کرنا بند کریں",
-        "description": "اپنے حقیقی ڈیٹا کے ساتھ حقیقی وقت کی عملی ذہانت کیسی نظر آتی ہے، یہ دیکھیں۔",
+        "title": "رساؤ کی رپورٹنگ بند کریں۔ اسے واپس حاصل کریں۔",
+        "description": "دیکھیں کہ Core کیسے رساؤ تلاش کرتا ہے، درستگی سونپتا ہے، اور بازیافت شدہ مارجن کو آپ کے بنیادی خط کے مقابلے میں ماپتا ہے - آپ کے حقیقی ڈیٹا پر۔",
         "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں"
       },
@@ -1662,17 +2178,84 @@ export const generatedLocalCopy = {
       }
     },
     "pl": {
+      "proof": {
+        "eyebrow": "SKĄD WIESZ, ŻE TO PRAWDA",
+        "heading": "Odzyskanie może zadeklarować każdy. Sundae pozwala to sprawdzić.",
+        "description": "Odzyskana kwota zasługuje na zaufanie tylko wtedy, gdy widzisz, czy naprawdę do niej doszło. Sundae odpowiada na trzy pytania, które zawsze zadaje uważny operator - albo jego CFO.",
+        "items": [
+          {
+            "question": "Czy pętla naprawdę się domyka?",
+            "title": "Kondycja pętli",
+            "desc": "Zobacz, ile wykrytych wycieków faktycznie kończy się zmierzonym wynikiem - realny wskaźnik domknięcia, a nie liczba na pokaz. To jedyna liczba, która mówi, że pętla działa, i pozostaje uczciwa, gdy ta liczba jest niska.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Czy i tak by się to wydarzyło?",
+            "title": "Porównywalne punkty odniesienia",
+            "desc": "Każda odzyskana kwota jest mierzona względem odpowiadającego, pełnotygodniowego punktu odniesienia - te same dni, ten sam rytm - żeby realnego zysku nigdy nie pomylić ze zwykłym ruchliwym tygodniem.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Czy to się zwróciło?",
+            "title": "Zwrot z Sundae",
+            "desc": "Zobacz odzyskaną wartość zestawioną z tym, co płacisz, okres po okresie - dowód, w zmierzonych pieniądzach, że Sundae z nadwyżką pokrywa swój koszt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "A gdy dowodów brakuje, Sundae to mówi. Każdy wynik pozostaje orientacyjny, dopóki nie potwierdzi go człowiek, a detektor woli milczeć, niż wymyślić liczbę."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Połączony z POS, kadrami, magazynem i każdym istotnym systemem. Core odświeża się w trakcie dnia handlowego - zwykle co 2-4 godziny, a szybciej tam, gdzie źródło na to pozwala - żebyś reagował w trakcie zmiany, a nie po szkodzie.",
+        "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core znajduje wyciek marży, kieruje poprawkę do wskazanego właściciela i mierzy odzyskaną marżę względem linii bazowej.",
         "primary": "Poznaj poziomy Core",
         "secondary": "Umów się na demo",
-        "title": "Operacje w trakcie zmiany. Nie raporty na koniec dnia."
+        "title": "Znajdź wyciek. Odzyskaj marżę."
+      },
+      "dimensions": {
+        "heading": "Model Inteligencji 4D",
+        "description": "Core dostarcza wszystkie cztery wymiary - rozszerzone.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Co się stało",
+            "status": "Czas rzeczywisty",
+            "description": "Pełna prawda operacyjna, aktualizowana co 2-4 godziny. Prawie rzeczywista widoczność dla interwencji w tej samej zmianie.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Plan vs. Rzeczywistość",
+            "status": "Czas rzeczywisty",
+            "description": "Śledzenie odchyleń budżetowych w czasie rzeczywistym. Raportowanie błyskawiczne dla zespołów finansowych. Widoczność od początku tygodnia i miesiąca.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Kontekst Rynkowy",
+            "status": "Rozszerzone",
+            "description": "Pełny zestaw benchmarków (ponad 30 metryk). Porównania portfela. Kontekst konkurencyjny za pomocą Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Co dalej",
+            "status": "Rozszerzone",
+            "description": "Prognozowanie na 14-30 dni. Proaktywne powiadomienia przed eskalacją problemów. Rekomendacje Sundae Coach z wynikami pewności.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Wliczone w Core",
         "heading": "Pulse: Twoje Centrum Dowodzenia Zmianą",
-        "description": "Zobacz anomalie w momencie, gdy się pojawią. Trenuj swój zespół w czasie rzeczywistym. Potwierdź wyniki przed zakończeniem zmiany.",
+        "description": "Zobacz anomalie w momencie, gdy się pojawią. Skieruj poprawkę do menedżera na zmianie. Następnie zmierz odzyskaną marżę względem linii bazowej.",
         "features": [
           {
             "name": "Sprzedaż i Tempo",
@@ -1795,8 +2378,8 @@ export const generatedLocalCopy = {
         "button": "Dowiedz się więcej o Watchtower"
       },
       "cta": {
-        "title": "Przestań zarządzać danymi z wczoraj",
-        "description": "Zobacz, jak wygląda rzeczywista inteligencja operacyjna w czasie rzeczywistym z Twoimi danymi.",
+        "title": "Przestań zgłaszać wyciek. Odzyskaj go.",
+        "description": "Zobacz, jak Core znajduje wyciek, kieruje poprawkę i mierzy odzyskaną marżę względem Twojej linii bazowej - na Twoich rzeczywistych danych.",
         "primary": "Zbadaj poziomy Core",
         "secondary": "Umów się na demo"
       },
@@ -1869,17 +2452,84 @@ export const generatedLocalCopy = {
       }
     },
     "tr": {
+      "proof": {
+        "eyebrow": "GERÇEK OLDUĞUNU NASIL ANLARSINIZ",
+        "heading": "Geri kazanımı herkes iddia edebilir. Sundae doğrulamanıza izin verir.",
+        "description": "Geri kazanılan bir rakam, gerçekten olup olmadığını görebiliyorsanız güvenmeye değerdir. Sundae, dikkatli bir işletmecinin - ya da CFO'sunun - her zaman sorduğu üç soruyu yanıtlar.",
+        "items": [
+          {
+            "question": "Döngü gerçekten kapanıyor mu?",
+            "title": "Döngü sağlığı",
+            "desc": "Tespit edilen kaçakların kaçının gerçekten ölçülmüş bir sonuca ulaştığını görün - gösteriş için bir sayı değil, gerçek kapanma oranı. Döngünün çalıştığını söyleyen tek sayıdır ve o sayı düşükken bile dürüst kalır.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Zaten olacak mıydı?",
+            "title": "Eşdeğer karşılaştırma tabanları",
+            "desc": "Geri kazanılan her rakam, eşleşen, tam haftalık bir taban çizgisiyle ölçülür - aynı günler, aynı ritim - böylece gerçek bir kazanç, sıradan yoğun bir haftayla asla karıştırılmaz.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Kendini amorti etti mi?",
+            "title": "Sundae getirisi",
+            "desc": "Geri kazandığınız değeri ödediğinizle dönem dönem karşılaştırın - ölçülmüş parayla, Sundae'nin maliyetini fazlasıyla karşıladığının kanıtı.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Kanıt olmadığında ise Sundae bunu söyler. Her sonuç, bir insan doğrulayana kadar yönelim niteliğinde kalır ve bir dedektör, bir sayı uydurmaktansa susmayı yeğler."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "POS, personel, stok ve önemli her sisteme bağlı. Core gün içinde yenilenir - genelde 2-4 saatte bir, kaynağın izin verdiği yerde daha sık - böylece zarar oluştuktan sonra değil, vardiya sürerken müdahale edersiniz.",
+        "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, kâr sızıntısını bulur, düzeltmeyi belirli bir sorumluya yönlendirir ve geri kazanılan marjı bir temel çizgiye göre ölçer.",
         "primary": "Core Katmanlarını Keşfedin",
         "secondary": "Demo Rezervasyonu Yap",
-        "title": "Vardiya içinde operasyon. Gün sonu raporu değil."
+        "title": "Sızıntıyı bulun. Kârı geri kazanın."
+      },
+      "dimensions": {
+        "heading": "4D Zeka Modeli",
+        "description": "Core, dört boyutu da sunar - genişletilmiş.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Ne Oldu",
+            "status": "Gerçek Zamanlı",
+            "description": "Tam operasyonel gerçeklik, her 2-4 saatte bir güncellenir. Aynı vardiya müdahaleleri için neredeyse gerçek zamanlı görünürlük.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Plan vs. Gerçek",
+            "status": "Gerçek Zamanlı",
+            "description": "Gerçek zamanlı bütçe sapması takibi. Finans ekipleri için hızlı raporlama. Haftalık ve aylık görünürlük.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Pazar Bağlamı",
+            "status": "Genişletilmiş",
+            "description": "Tam kıyaslama seti (30+ metrik). Portföy karşılaştırmaları. Watchtower aracılığıyla rekabetçi bağlam.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Sırada Ne Var",
+            "status": "Genişletilmiş",
+            "description": "14-30 günlük tahmin. Sorunlar büyümeden önce proaktif uyarılar. Sundae Coach önerileri ile güven puanları.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Core ile Dahil",
         "heading": "Pulse: Vardiya Komuta Merkeziniz",
-        "description": "Anomalileri anında görün. Ekibinizi gerçek zamanlı olarak yönlendirin. Vardiya bitmeden sonuçları onaylayın.",
+        "description": "Anomalileri gerçekleştikleri anda görün. Düzeltmeyi vardiyadaki yöneticiye yönlendirin. Ardından geri kazandığınız marjı temel çizgiye göre ölçün.",
         "features": [
           {
             "name": "Satış & Hız",
@@ -2002,8 +2652,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower Hakkında Bilgi Al"
       },
       "cta": {
-        "title": "Dünün Rakamlarını Yönetmeyi Bırakın",
-        "description": "Gerçek verilerinizle gerçek zamanlı operasyonel zekanın nasıl göründüğünü görün.",
+        "title": "Sızıntıyı raporlamayı bırakın. Onu geri kazanın.",
+        "description": "Core'un sızıntıyı nasıl bulduğunu, düzeltmeyi yönlendirdiğini ve geri kazanılan marjı temel çizginize göre ölçtüğünü görün - gerçek verilerinizle.",
         "primary": "Core Katmanlarını Keşfedin",
         "secondary": "Demo Talep Edin"
       },
@@ -2076,17 +2726,84 @@ export const generatedLocalCopy = {
       }
     },
     "zh-Hans": {
+      "proof": {
+        "eyebrow": "如何确认它是真的",
+        "heading": "谁都可以声称收回了利润。Sundae 让你亲自核实。",
+        "description": "一个收回的数字，只有当你能看清它是否真的发生过，才值得信任。Sundae 回答审慎的经营者--或其 CFO--总会追问的三个问题。",
+        "items": [
+          {
+            "question": "闭环真的在闭合吗？",
+            "title": "闭环健康度",
+            "desc": "看清检测到的泄漏中，有多少真正抵达了可衡量的结果--真实的闭合率，而非好看的计数。这是唯一能告诉你闭环正在运转的数字，即使这个数字很低，它也如实呈现。",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "那本来不也会发生吗？",
+            "title": "同口径基线",
+            "desc": "每一个收回的数字，都与一条匹配的整周基线相比较--相同的日子、相同的节奏--这样真正的收益就绝不会被误认成一个普通的繁忙周。",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "它收回成本了吗？",
+            "title": "Sundae 的投资回报",
+            "desc": "把你收回的价值与你支付的费用逐期并列查看--这就是用可衡量的金额给出的证据，证明 Sundae 远不止覆盖自身成本。",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "而当证据不足时，Sundae 会如实说明。每个结果在有人确认之前都只作方向性参考，检测器宁可保持沉默，也不会凭空编造数字。"
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "接入你的 POS、人力、库存以及每一个要紧的系统。Core 在营业时段内持续刷新——通常每 2-4 小时一次，数据源支持时更快——让你在班次进行中就能动手，而不是等损失已经造成。",
+        "description": "连接到您的POS、劳动力、库存和所有重要系统。Core找出利润泄漏，将修复分派给指定负责人，并按基线衡量收回的利润率。",
         "primary": "探索Core层级",
         "secondary": "预约演示",
-        "title": "班次之内就把事办了，不是等日终报表。"
+        "title": "找出泄漏。收回利润。"
+      },
+      "dimensions": {
+        "heading": "4D智能模型",
+        "description": "Core提供所有四个维度 - 扩展版。",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "发生了什么",
+            "status": "实时",
+            "description": "完整的运营真相，每2-4小时更新一次。近实时的同班干预可见性。",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "计划与实际",
+            "status": "实时",
+            "description": "实时预算差异跟踪。财务团队的快速报告。本周和本月的可见性。",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "市场背景",
+            "status": "扩展",
+            "description": "完整的基准套件（30+指标）。投资组合比较。通过Watchtower提供竞争背景。",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "接下来是什么",
+            "status": "扩展",
+            "description": "14-30天的预测。在问题升级之前的主动警报。Sundae Coach的推荐及信心评分。",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "包含在Core中",
         "heading": "Pulse：您的班次指挥中心",
-        "description": "实时查看异常情况。实时指导您的团队。在班次结束前确认结果。",
+        "description": "异常发生的那一刻即可看到。将修复分派给当班经理。然后按基线衡量您收回的利润率。",
         "features": [
           {
             "name": "销售与节奏",
@@ -2209,8 +2926,8 @@ export const generatedLocalCopy = {
         "button": "了解 Watchtower"
       },
       "cta": {
-        "title": "停止管理过时的数据",
-        "description": "查看您实际数据的实时运营智能是什么样的。",
+        "title": "别再上报泄漏--把它收回来。",
+        "description": "看看Core如何找出泄漏、分派修复，并按您的基线衡量收回的利润率--用您的真实数据。",
         "primary": "探索Core层级",
         "secondary": "预约演示"
       },
@@ -2283,17 +3000,84 @@ export const generatedLocalCopy = {
       }
     },
     "ja": {
+      "proof": {
+        "eyebrow": "それが本物だとわかる理由",
+        "heading": "回収を主張するのは誰にでもできます。Sundaeなら、確かめられます。",
+        "description": "回収された数字は、それが本当に起きたかを確認できて初めて信頼に値します。Sundaeは、慎重な経営者--あるいはそのCFO--が必ず問う3つの質問に答えます。",
+        "items": [
+          {
+            "question": "ループは本当に閉じているか？",
+            "title": "ループの健全性",
+            "desc": "検知された漏れのうち、実際に測定済みの結果に至ったのはどれだけか--見栄えだけの件数ではなく、本当のクローズ率を確認できます。ループが機能していることを示す唯一の数字であり、その数字が低いときも正直なままです。",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "どのみち起きていたのでは？",
+            "title": "同条件のベースライン",
+            "desc": "回収されたすべての数字は、一致する丸一週間のベースライン--同じ曜日、同じリズム--と照らして測定されます。だから本当の成果を、ただ忙しかった週と取り違えることはありません。",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "元は取れたのか？",
+            "title": "Sundaeの投資対効果",
+            "desc": "回収した価値を、支払う額と期ごとに並べて確認できます--測定された金額で、Sundaeがコストを十分に上回って賄っているという証拠です。",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "そして証拠がないときは、Sundaeはそうと告げます。すべての結果は人が確認するまで方向性を示すにとどまり、検知器は数字をでっち上げるくらいなら黙っています。"
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "POS、人件費、在庫、そして重要なすべてのシステムに接続。Core は営業時間中に更新されます。通常は2〜4時間ごと、データ元が許せばさらに短い間隔で。損失が出たあとではなく、シフトの最中に動けます。",
+        "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続。Coreは利益の漏れを見つけ、修正を指名された責任者に割り当て、回収したマージンをベースラインと照らして測定します。",
         "primary": "Coreティアを探る",
         "secondary": "デモを予約",
-        "title": "その日のシフト中に動く。日次レポートを待たない。"
+        "title": "漏れを見つけ、利益を取り戻す。"
+      },
+      "dimensions": {
+        "heading": "4Dインテリジェンスモデル",
+        "description": "Coreはすべての4つの次元を提供します - 拡張されています。",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "何が起こったか",
+            "status": "リアルタイム",
+            "description": "完全な運用の真実、2〜4時間ごとに更新。シフト内介入のためのほぼリアルタイムの可視性。",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "計画対実績",
+            "status": "リアルタイム",
+            "description": "リアルタイムの予算差異追跡。財務チーム向けのフラッシュレポート。週ごとのおよび月ごとの可視性。",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "市場の文脈",
+            "status": "拡張",
+            "description": "完全なベンチマーキングスイート（30以上の指標）。ポートフォリオ比較。Watchtowerを通じた競争の文脈。",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "次は何か",
+            "status": "拡張",
+            "description": "14〜30日の予測。問題が悪化する前のプロアクティブなアラート。Sundae Coachの推奨事項と信頼度スコア。",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Coreに含まれています",
         "heading": "Pulse: あなたのシフトコマンドセンター",
-        "description": "異常が発生した瞬間に確認できます。リアルタイムでチームを指導します。シフト終了前に結果を確認してください。",
+        "description": "異常が発生した瞬間に把握できます。修正をシフト責任者に割り当てます。そして回収したマージンをベースラインと照らして測定します。",
         "features": [
           {
             "name": "売上とペース",
@@ -2416,8 +3200,8 @@ export const generatedLocalCopy = {
         "button": "Watchtowerについて学ぶ"
       },
       "cta": {
-        "title": "昨日の数字を管理するのはやめましょう",
-        "description": "実際のデータでリアルタイムのオペレーショナルインテリジェンスがどのようなものかを見てみましょう。",
+        "title": "漏れを報告するのはやめましょう--取り戻すのです。",
+        "description": "Coreが漏れを見つけ、修正を割り当て、回収したマージンをあなたのベースラインと照らして測定します--すべてあなたの実データで。",
         "primary": "Coreティアを探る",
         "secondary": "デモを予約"
       },
@@ -2490,17 +3274,84 @@ export const generatedLocalCopy = {
       }
     },
     "ko": {
+      "proof": {
+        "eyebrow": "진짜임을 확인하는 방법",
+        "heading": "회수는 누구나 주장할 수 있습니다. Sundae는 확인하게 해줍니다.",
+        "description": "회수된 숫자는 그것이 정말 일어났는지 확인할 수 있을 때에만 신뢰할 가치가 있습니다. Sundae는 신중한 운영자 - 또는 그의 CFO - 가 늘 던지는 세 가지 질문에 답합니다.",
+        "items": [
+          {
+            "question": "루프가 실제로 닫히고 있나요?",
+            "title": "루프 상태",
+            "desc": "감지된 누수 중 실제로 측정된 결과에 도달한 비율을 확인하세요 - 보여주기식 집계가 아니라 진짜 종료율입니다. 루프가 작동하고 있음을 알려주는 유일한 숫자이며, 그 숫자가 낮을 때에도 정직하게 유지됩니다.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "어차피 일어났을 일 아닌가요?",
+            "title": "동일 조건 기준선",
+            "desc": "회수된 모든 숫자는 일치하는 한 주 전체 기준선 - 같은 요일, 같은 리듬 - 과 비교해 측정됩니다. 그래서 진짜 성과가 그저 바빴던 한 주로 오인되는 일이 없습니다.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "제값을 했나요?",
+            "title": "Sundae 투자수익",
+            "desc": "회수한 가치를 지불액과 기간별로 나란히 확인하세요 - 측정된 금액으로, Sundae가 비용을 충분히 상회한다는 증거입니다.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "그리고 증거가 없을 때 Sundae는 그렇다고 말합니다. 모든 결과는 사람이 확인하기 전까지 방향성만 나타내며, 감지기는 숫자를 지어내느니 침묵을 지킵니다."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "POS, 인력, 재고 등 중요한 모든 시스템에 연결됩니다. Core는 영업 시간 중에 갱신되며, 보통 2~4시간 간격, 데이터 원본이 지원하면 더 빠르게 갱신됩니다. 손실이 난 뒤가 아니라 근무 중에 손쓸 수 있습니다.",
+        "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 이익 누수를 찾아내고, 수정 작업을 지정된 책임자에게 배정하며, 회수한 마진을 기준선과 비교해 측정합니다.",
         "primary": "Core 티어 탐색",
         "secondary": "데모 예약",
-        "title": "근무 중에 움직입니다. 마감 보고서를 기다리지 않습니다."
+        "title": "누수를 찾아내세요. 이익을 되찾으세요."
+      },
+      "dimensions": {
+        "heading": "4D 인텔리전스 모델",
+        "description": "Core는 모든 네 가지 차원을 제공합니다 - 확장됨.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "무슨 일이 있었나요",
+            "status": "실시간",
+            "description": "완전한 운영 진실, 2-4시간마다 업데이트됩니다. 같은 교대 근무 중 개입을 위한 거의 실시간 가시성.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "계획 vs. 실제",
+            "status": "실시간",
+            "description": "실시간 예산 변동 추적. 재무 팀을 위한 플래시 보고서. 주간 및 월간 가시성.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "시장 맥락",
+            "status": "확장됨",
+            "description": "전체 벤치마킹 스위트(30개 이상의 지표). 포트폴리오 비교. Watchtower를 통한 경쟁 맥락.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "다음은 무엇인가요",
+            "status": "확장됨",
+            "description": "14-30일 예측. 문제가 악화되기 전에 사전 경고. Sundae Coach의 추천과 신뢰도 점수.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Core 포함",
         "heading": "Pulse: 당신의 근무 명령 센터",
-        "description": "이상이 발생하는 순간을 확인하세요. 팀을 실시간으로 코칭하세요. 근무가 끝나기 전에 결과를 확인하세요.",
+        "description": "이상이 발생하는 순간을 확인하세요. 수정 작업을 근무 중인 매니저에게 배정하세요. 그런 다음 회수한 마진을 기준선과 비교해 측정하세요.",
         "features": [
           {
             "name": "판매 및 속도",
@@ -2623,8 +3474,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower에 대해 알아보기"
       },
       "cta": {
-        "title": "어제의 숫자를 관리하는 것을 중단하세요",
-        "description": "실제 데이터를 통해 실시간 운영 인텔리전스가 어떻게 보이는지 확인하세요.",
+        "title": "누수를 보고만 하지 마세요. 되찾으세요.",
+        "description": "Core가 누수를 찾아내고, 수정 작업을 배정하며, 회수한 마진을 귀하의 기준선과 비교해 측정하는 모습을 확인하세요 - 모두 실제 데이터로.",
         "primary": "Core 티어 탐색하기",
         "secondary": "데모 예약하기"
       },
@@ -2697,17 +3548,84 @@ export const generatedLocalCopy = {
       }
     },
     "id": {
+      "proof": {
+        "eyebrow": "CARA ANDA TAHU INI NYATA",
+        "heading": "Siapa pun bisa mengklaim pemulihan. Sundae membuat Anda bisa memeriksanya.",
+        "description": "Angka yang dipulihkan hanya layak dipercaya jika Anda bisa melihat apakah itu benar-benar terjadi. Sundae menjawab tiga pertanyaan yang selalu diajukan operator yang cermat - atau CFO-nya.",
+        "items": [
+          {
+            "question": "Apakah loop benar-benar menutup?",
+            "title": "Kesehatan loop",
+            "desc": "Lihat berapa banyak kebocoran terdeteksi yang benar-benar mencapai hasil terukur - tingkat penutupan yang sebenarnya, bukan angka pemanis. Inilah satu-satunya angka yang menunjukkan loop bekerja, dan ia tetap jujur saat angka itu rendah.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Apakah itu akan terjadi juga?",
+            "title": "Basis pembanding setara",
+            "desc": "Setiap angka yang dipulihkan diukur terhadap basis satu minggu penuh yang setara - hari yang sama, ritme yang sama - sehingga keuntungan nyata tidak pernah dikira sekadar minggu yang sibuk.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Apakah biayanya kembali?",
+            "title": "Imbal hasil atas Sundae",
+            "desc": "Lihat nilai yang Anda pulihkan dibandingkan dengan yang Anda bayar, periode demi periode - bukti, dalam uang terukur, bahwa Sundae lebih dari menutup biayanya.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Dan ketika buktinya tidak ada, Sundae mengatakannya. Setiap hasil tetap bersifat arah sampai seseorang mengonfirmasinya, dan detektor memilih diam daripada mengarang angka."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Terhubung ke POS, tenaga kerja, persediaan, dan setiap sistem yang penting. Core menyegarkan sepanjang hari operasional - biasanya tiap 2-4 jam, dan lebih cepat bila sumbernya mendukung - jadi Anda bertindak saat shift berjalan, bukan setelah kerugian terjadi.",
+        "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core menemukan kebocoran margin, mengarahkan perbaikan ke penanggung jawab yang ditunjuk, dan mengukur margin yang dipulihkan terhadap garis dasar.",
         "primary": "Jelajahi Tingkatan Core",
         "secondary": "Pesan Demo",
-        "title": "Operasi di dalam shift. Bukan laporan akhir hari."
+        "title": "Temukan kebocoran. Pulihkan keuntungan."
+      },
+      "dimensions": {
+        "heading": "Model Intelijen 4D",
+        "description": "Core menyajikan keempat dimensi - diperluas.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Apa yang Terjadi",
+            "status": "Waktu Nyata",
+            "description": "Kebenaran operasional lengkap, diperbarui setiap 2-4 jam. Visibilitas hampir waktu nyata untuk intervensi dalam shift yang sama.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Rencana vs. Aktual",
+            "status": "Waktu Nyata",
+            "description": "Pelacakan varians anggaran waktu nyata. Laporan cepat untuk tim keuangan. Visibilitas minggu ini dan bulan ini.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Konteks Pasar",
+            "status": "Diperluas",
+            "description": "Kumpulan benchmarking lengkap (30+ metrik). Perbandingan portofolio. Konteks kompetitif melalui Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Apa Selanjutnya",
+            "status": "Diperluas",
+            "description": "Peramalan 14-30 hari. Peringatan proaktif sebelum masalah meningkat. Rekomendasi Sundae Coach dengan skor kepercayaan.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Termasuk dengan Core",
         "heading": "Pulse: Pusat Komando Shift Anda",
-        "description": "Lihat anomali saat mereka terjadi. Latih tim Anda secara real-time. Konfirmasi hasil sebelum shift berakhir.",
+        "description": "Lihat anomali saat mereka terjadi. Arahkan perbaikan ke manajer yang bertugas. Lalu ukur margin yang Anda pulihkan terhadap garis dasar.",
         "features": [
           {
             "name": "Penjualan & Kecepatan",
@@ -2830,8 +3748,8 @@ export const generatedLocalCopy = {
         "button": "Pelajari Tentang Watchtower"
       },
       "cta": {
-        "title": "Hentikan Mengelola Angka Kemarin",
-        "description": "Lihat seperti apa kecerdasan operasional waktu nyata dengan data aktual Anda.",
+        "title": "Berhenti melaporkan kebocoran. Pulihkan.",
+        "description": "Lihat Core menemukan kebocoran, mengarahkan perbaikan, dan mengukur margin yang dipulihkan terhadap garis dasar Anda - dengan data aktual Anda.",
         "primary": "Jelajahi Tingkatan Core",
         "secondary": "Pesan Demo"
       },
@@ -2904,17 +3822,84 @@ export const generatedLocalCopy = {
       }
     },
     "vi": {
+      "proof": {
+        "eyebrow": "LÀM SAO BẠN BIẾT ĐIỀU ĐÓ LÀ THẬT",
+        "heading": "Ai cũng có thể tuyên bố đã thu hồi. Sundae để bạn tự kiểm chứng.",
+        "description": "Một con số thu hồi chỉ đáng tin khi bạn thấy được nó có thực sự xảy ra hay không. Sundae trả lời ba câu hỏi mà một nhà điều hành cẩn trọng - hoặc CFO của họ - luôn đặt ra.",
+        "items": [
+          {
+            "question": "Vòng lặp có thực sự khép lại không?",
+            "title": "Sức khỏe vòng lặp",
+            "desc": "Xem có bao nhiêu rò rỉ được phát hiện thực sự đạt đến một kết quả đo được - tỷ lệ khép vòng thật, không phải con số để phô trương. Đó là con số duy nhất cho bạn biết vòng lặp đang hoạt động, và nó vẫn trung thực ngay cả khi con số đó thấp.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Liệu điều đó có xảy ra dù sao đi nữa?",
+            "title": "Đường cơ sở tương đương",
+            "desc": "Mỗi con số thu hồi được đo với một đường cơ sở trọn tuần tương ứng - cùng những ngày, cùng nhịp độ - để một khoản lợi thật không bao giờ bị nhầm với một tuần bận rộn thông thường.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Nó có tự hoàn vốn không?",
+            "title": "Lợi tức trên Sundae",
+            "desc": "Xem giá trị bạn thu hồi được đặt cạnh khoản bạn chi trả, theo từng kỳ - bằng chứng, bằng tiền đo lường được, rằng Sundae thừa sức bù đắp chi phí của nó.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Và khi chứng cứ không có, Sundae nói thẳng điều đó. Mọi kết quả vẫn chỉ mang tính định hướng cho đến khi một con người xác nhận, và bộ dò chọn im lặng thay vì bịa ra một con số."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Kết nối POS, nhân sự, tồn kho và mọi hệ thống quan trọng. Core làm mới trong ngày kinh doanh - thường mỗi 2-4 giờ, và nhanh hơn khi nguồn cho phép - để bạn xử lý ngay trong ca, không phải sau khi đã mất tiền.",
+        "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core tìm ra chỗ rò rỉ lợi nhuận, giao việc khắc phục cho người chịu trách nhiệm cụ thể và đo lường biên lợi nhuận thu hồi được so với đường cơ sở.",
         "primary": "Khám phá các cấp độ Core",
         "secondary": "Đặt lịch Demo",
-        "title": "Vận hành ngay trong ca. Không phải báo cáo cuối ngày."
+        "title": "Tìm ra chỗ rò rỉ. Thu hồi lợi nhuận."
+      },
+      "dimensions": {
+        "heading": "Mô Hình Trí Tuệ 4D",
+        "description": "Core cung cấp cả bốn chiều - mở rộng.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Điều Gì Đã Xảy Ra",
+            "status": "Thời Gian Thực",
+            "description": "Sự thật vận hành hoàn chỉnh, được cập nhật mỗi 2-4 giờ. Tầm nhìn gần thời gian thực cho các can thiệp cùng ca.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Kế Hoạch So Với Thực Tế",
+            "status": "Thời Gian Thực",
+            "description": "Theo dõi biến động ngân sách theo thời gian thực. Báo cáo nhanh cho các đội tài chính. Tầm nhìn từ đầu tuần đến nay và từ đầu tháng đến nay.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Bối Cảnh Thị Trường",
+            "status": "Mở Rộng",
+            "description": "Bộ công cụ chuẩn hóa đầy đủ (30+ chỉ số). So sánh danh mục. Bối cảnh cạnh tranh qua Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Điều Gì Tiếp Theo",
+            "status": "Mở Rộng",
+            "description": "Dự báo từ 14-30 ngày. Cảnh báo chủ động trước khi vấn đề leo thang. Đề xuất từ Sundae Coach với điểm số tự tin.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Bao gồm trong Core",
         "heading": "Pulse: Trung tâm chỉ huy ca làm việc của bạn",
-        "description": "Xem các bất thường ngay khi chúng xảy ra. Huấn luyện đội ngũ của bạn theo thời gian thực. Xác nhận kết quả trước khi ca làm việc kết thúc.",
+        "description": "Xem các bất thường ngay khi chúng xảy ra. Giao việc khắc phục cho quản lý đang trong ca. Sau đó đo lường biên lợi nhuận bạn thu hồi được so với đường cơ sở.",
         "features": [
           {
             "name": "Doanh thu & Tốc độ",
@@ -3037,8 +4022,8 @@ export const generatedLocalCopy = {
         "button": "Tìm hiểu về Watchtower"
       },
       "cta": {
-        "title": "Ngừng Quản Lý Số Liệu Của Ngày Hôm Qua",
-        "description": "Xem trí tuệ hoạt động theo thời gian thực với dữ liệu thực tế của bạn.",
+        "title": "Đừng chỉ báo cáo chỗ rò rỉ. Hãy thu hồi nó.",
+        "description": "Xem Core tìm ra chỗ rò rỉ, giao việc khắc phục và đo lường biên lợi nhuận thu hồi được so với đường cơ sở của bạn - trên dữ liệu thực tế của bạn.",
         "primary": "Khám Phá Các Cấp Độ Core",
         "secondary": "Đặt Lịch Dùng Thử"
       },
@@ -3111,17 +4096,84 @@ export const generatedLocalCopy = {
       }
     },
     "ro": {
+      "proof": {
+        "eyebrow": "CUM ȘTII CĂ E REAL",
+        "heading": "Oricine poate pretinde o recuperare. Sundae te lasă să verifici.",
+        "description": "O sumă recuperată merită încredere doar dacă poți vedea dacă s-a întâmplat cu adevărat. Sundae răspunde la cele trei întrebări pe care un operator atent - sau CFO-ul său - le pune mereu.",
+        "items": [
+          {
+            "question": "Se închide bucla cu adevărat?",
+            "title": "Sănătatea buclei",
+            "desc": "Vezi câte scurgeri detectate ajung efectiv la un rezultat măsurat - rata reală de închidere, nu o cifră de fațadă. Este singurul număr care îți arată că bucla funcționează și rămâne cinstit chiar și când numărul e mic.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "S-ar fi întâmplat oricum?",
+            "title": "Baze de comparație echivalente",
+            "desc": "Fiecare sumă recuperată este măsurată față de o bază echivalentă pe o săptămână întreagă - aceleași zile, același ritm - astfel încât un câștig real să nu fie niciodată confundat cu o săptămână pur și simplu aglomerată.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "S-a plătit singur?",
+            "title": "Randament pe Sundae",
+            "desc": "Vezi valoarea recuperată pusă față în față cu ceea ce plătești, perioadă după perioadă - dovada, în bani măsurați, că Sundae își acoperă cu mult costul.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Iar când dovada lipsește, Sundae o spune. Fiecare rezultat rămâne orientativ până când un om îl confirmă, iar un detector preferă să tacă decât să inventeze o cifră."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectat la POS, personal, stocuri și fiecare sistem care contează. Core se împrospătează pe parcursul zilei - de regulă la 2-4 ore, și mai des acolo unde sursa permite - ca să acționezi în timpul turei, nu după pagubă.",
+        "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core găsește scurgerea de marjă, direcționează remedierea către un responsabil desemnat și măsoară marja recuperată față de o linie de referință.",
         "primary": "Explorează nivelurile Core",
         "secondary": "Programează o demonstrație",
-        "title": "Operațiuni în timpul turei. Nu rapoarte de final de zi."
+        "title": "Găsește scurgerea. Recuperează profitul."
+      },
+      "dimensions": {
+        "heading": "Modelul de Inteligență 4D",
+        "description": "Core oferă toate cele patru dimensiuni - extins.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Ce s-a întâmplat",
+            "status": "În timp real",
+            "description": "Adevărul operațional complet, actualizat la fiecare 2-4 ore. Vizibilitate aproape în timp real pentru intervenții în aceeași tură.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Plan vs. Realitate",
+            "status": "În timp real",
+            "description": "Urmărirea variației bugetare în timp real. Raportare rapidă pentru echipele financiare. Vizibilitate săptămânală și lunară.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Contextul Pieței",
+            "status": "Extins",
+            "description": "Suită completă de benchmarking (30+ metrici). Compararea portofoliilor. Context competitiv prin Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Ce urmează",
+            "status": "Extins",
+            "description": "Previziuni pe 14-30 de zile. Alerte proactive înainte ca problemele să escaladeze. Recomandări Sundae Coach cu scoruri de încredere.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Inclus în Core",
         "heading": "Pulse: Centrul de Comandă pentru Schimbul Tău",
-        "description": "Vezi anomaliile în momentul în care apar. Antrenează-ți echipa în timp real. Confirmă rezultatele înainte de încheierea schimbului.",
+        "description": "Vezi anomaliile în momentul în care apar. Direcționează remedierea către managerul de tură. Apoi măsoară marja pe care ai recuperat-o față de linia de referință.",
         "features": [
           {
             "name": "Vânzări & Ritm",
@@ -3244,8 +4296,8 @@ export const generatedLocalCopy = {
         "button": "Află mai multe despre Watchtower"
       },
       "cta": {
-        "title": "Oprește-te din a gestiona cifrele de ieri",
-        "description": "Vezi cum arată inteligența operațională în timp real cu datele tale reale.",
+        "title": "Nu mai raporta scurgerea. Recuperează-o.",
+        "description": "Vezi cum Core găsește scurgerea, direcționează remedierea și măsoară marja recuperată față de linia ta de referință - cu datele tale reale.",
         "primary": "Explorează nivelurile Core",
         "secondary": "Programează o demonstrație"
       },
@@ -3318,17 +4370,84 @@ export const generatedLocalCopy = {
       }
     },
     "sv": {
+      "proof": {
+        "eyebrow": "SÅ VET DU ATT DET ÄR PÅ RIKTIGT",
+        "heading": "Vem som helst kan påstå återvinning. Sundae låter dig kontrollera.",
+        "description": "En återvunnen siffra är bara värd att lita på om du kan se om den verkligen hände. Sundae svarar på de tre frågor som en noggrann operatör - eller dennes CFO - alltid ställer.",
+        "items": [
+          {
+            "question": "Sluts slingan verkligen?",
+            "title": "Slingans hälsa",
+            "desc": "Se hur många upptäckta läckor som faktiskt når ett mätt resultat - den verkliga slutandelen, inte en siffra för syns skull. Det är den enda siffran som visar att slingan fungerar, och den förblir ärlig även när siffran är låg.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Hade det hänt ändå?",
+            "title": "Likvärdiga jämförelsetal",
+            "desc": "Varje återvunnen siffra mäts mot ett matchande basvärde för en hel vecka - samma dagar, samma rytm - så att en verklig vinst aldrig förväxlas med en helt vanlig hektisk vecka.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Betalade det sig självt?",
+            "title": "Avkastning på Sundae",
+            "desc": "Se värdet du återvann ställt mot vad du betalar, period för period - beviset, i mätta pengar, på att Sundae mer än täcker sin kostnad.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Och när belägget saknas säger Sundae det. Varje resultat förblir vägledande tills en människa bekräftar det, och en detektor tiger hellre än hittar på en siffra."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Kopplat till er POS, personal, lager och varje system som spelar roll. Core uppdateras under handelsdagen - vanligtvis var 2-4 timme, och snabbare där källan tillåter - så att ni agerar under passet, inte efter skadan.",
+        "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core hittar marginalläckan, styr åtgärden till en utsedd ansvarig och mäter den återvunna marginalen mot en baslinje.",
         "primary": "Utforska Core-nivåer",
         "secondary": "Boka en demo",
-        "title": "Drift under passet. Inte dagsavslutsrapporter."
+        "title": "Hitta läckan. Återvinn vinsten."
+      },
+      "dimensions": {
+        "heading": "4D Intelligensmodellen",
+        "description": "Core levererar alla fyra dimensioner - utvidgade.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Vad hände",
+            "status": "Realtid",
+            "description": "Fullständig operationell sanning, uppdaterad var 2-4 timme. Nära realtidsinsyn för insatser under samma skift.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Plan vs. Verklig",
+            "status": "Realtid",
+            "description": "Realtidsövervakning av budgetavvikelser. Snabbrapportering för ekonomiteam. Veckans och månadens insyn.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Marknadskontext",
+            "status": "Utvidgad",
+            "description": "Fullständig benchmarkinguppsättning (30+ mätvärden). Portföljjämförelser. Konkurrenskontext via Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Vad är nästa steg",
+            "status": "Utvidgad",
+            "description": "14-30 dagars prognoser. Proaktiva varningar innan problem eskalerar. Sundae Coach-rekommendationer med förtroendepoäng.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Ingår i Core",
         "heading": "Pulse: Ditt Skift Kommandocenter",
-        "description": "Se avvikelser i realtid. Coacha ditt team i realtid. Bekräfta resultat innan skiftet avslutas.",
+        "description": "Se avvikelser i det ögonblick de inträffar. Styr åtgärden till chefen på skiftet. Mät sedan den marginal du återvann mot baslinjen.",
         "features": [
           {
             "name": "Försäljning & Takt",
@@ -3451,8 +4570,8 @@ export const generatedLocalCopy = {
         "button": "Lär dig mer om Watchtower"
       },
       "cta": {
-        "title": "Sluta hantera gårdagens siffror",
-        "description": "Se hur verklig operationell intelligens ser ut med dina faktiska data.",
+        "title": "Sluta rapportera läckan. Återvinn den.",
+        "description": "Se hur Core hittar läckan, styr åtgärden och mäter den återvunna marginalen mot din baslinje - med dina faktiska data.",
         "primary": "Utforska Core-nivåer",
         "secondary": "Boka en demo"
       },
@@ -3525,17 +4644,84 @@ export const generatedLocalCopy = {
       }
     },
     "bn": {
+      "proof": {
+        "eyebrow": "কীভাবে বুঝবেন এটি সত্যি",
+        "heading": "পুনরুদ্ধারের দাবি যে কেউ করতে পারে। Sundae আপনাকে যাচাই করতে দেয়।",
+        "description": "পুনরুদ্ধার করা সংখ্যা তখনই বিশ্বাসযোগ্য, যখন আপনি দেখতে পান তা সত্যিই ঘটেছে কি না। একজন সতর্ক পরিচালক - বা তাঁর CFO - সবসময় যে তিনটি প্রশ্ন করেন, Sundae তার উত্তর দেয়।",
+        "items": [
+          {
+            "question": "লুপ কি সত্যিই বন্ধ হচ্ছে?",
+            "title": "লুপের সুস্থতা",
+            "desc": "দেখুন শনাক্ত হওয়া কতগুলো লিক আসলে একটি পরিমাপযোগ্য ফলাফলে পৌঁছায় - আসল ক্লোজ-রেট, লোক-দেখানো গণনা নয়। এটিই একমাত্র সংখ্যা যা জানায় লুপ কাজ করছে, আর সংখ্যাটি কম হলেও তা সৎ থাকে।",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "এটা কি এমনিতেও ঘটত?",
+            "title": "সমতুল্য ভিত্তিরেখা",
+            "desc": "প্রতিটি পুনরুদ্ধার করা সংখ্যা মেলানো, পূর্ণ-সপ্তাহের একটি ভিত্তিরেখার সঙ্গে মাপা হয় - একই দিন, একই ছন্দ - যাতে সত্যিকারের লাভকে কখনো নিছক ব্যস্ত এক সপ্তাহ ভেবে ভুল না হয়।",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "এটা কি নিজের খরচ তুলে এনেছে?",
+            "title": "Sundae-তে প্রতিদান",
+            "desc": "দেখুন আপনি যা পুনরুদ্ধার করেছেন তা আপনার পরিশোধের বিপরীতে, প্রতি মেয়াদে - পরিমাপ করা অর্থে সেই প্রমাণ যে Sundae তার খরচের চেয়ে অনেক বেশি পুষিয়ে দেয়।",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "আর যখন প্রমাণ থাকে না, Sundae তা বলে দেয়। প্রতিটি ফলাফল একজন মানুষ নিশ্চিত না করা পর্যন্ত কেবল দিকনির্দেশক থাকে, আর কোনো ডিটেক্টর সংখ্যা বানানোর চেয়ে চুপ থাকাই বেছে নেয়।"
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "আপনার POS, শ্রম, ইনভেন্টরি ও প্রতিটি গুরুত্বপূর্ণ সিস্টেমের সঙ্গে যুক্ত। Core ব্যবসার দিনজুড়ে রিফ্রেশ হয় - সাধারণত প্রতি ২-৪ ঘণ্টায়, আর উৎস অনুমতি দিলে আরও দ্রুত - যাতে ক্ষতি হয়ে যাওয়ার পরে নয়, শিফট চলাকালীনই আপনি ব্যবস্থা নিতে পারেন।",
+        "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core মুনাফার ফাঁস খুঁজে বের করে, সংশোধনটি একজন নির্ধারিত দায়িত্বপ্রাপ্তকে বরাদ্দ করে, এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার সাপেক্ষে পরিমাপ করে।",
         "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন",
-        "title": "শিফটের মধ্যেই পরিচালনা। দিনশেষের রিপোর্ট নয়।"
+        "title": "ফাঁস খুঁজুন। মুনাফা ফিরে পান।"
+      },
+      "dimensions": {
+        "heading": "4D ইন্টেলিজেন্স মডেল",
+        "description": "Core চারটি মাত্রা প্রদান করে - সম্প্রসারিত।",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "কি ঘটেছে",
+            "status": "রিয়েল-টাইম",
+            "description": "সম্পূর্ণ অপারেশনাল সত্য, প্রতি ২-৪ ঘন্টায় আপডেট হয়। একই শিফটে হস্তক্ষেপের জন্য নিকট রিয়েল-টাইম দৃশ্যমানতা।",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "পরিকল্পনা বনাম বাস্তব",
+            "status": "রিয়েল-টাইম",
+            "description": "রিয়েল-টাইম বাজেট ভেরিয়েন্স ট্র্যাকিং। ফাইন্যান্স টিমের জন্য ফ্ল্যাশ রিপোর্টিং। সপ্তাহের এবং মাসের জন্য দৃশ্যমানতা।",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "বাজারের প্রেক্ষাপট",
+            "status": "সম্প্রসারিত",
+            "description": "পূর্ণ বেঞ্চমার্কিং স্যুট (৩০+ মেট্রিক)। পোর্টফোলিও তুলনা। Watchtower এর মাধ্যমে প্রতিযোগিতামূলক প্রেক্ষাপট।",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "পরবর্তী কি",
+            "status": "সম্প্রসারিত",
+            "description": "১৪-৩০ দিনের পূর্বাভাস। সমস্যা বাড়ার আগে সক্রিয় সতর্কতা। Sundae Coach এর সুপারিশগুলি আত্মবিশ্বাসের স্কোর সহ।",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Core এর সাথে অন্তর্ভুক্ত",
         "heading": "Pulse: আপনার শিফট কমান্ড সেন্টার",
-        "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। আপনার দলের প্রশিক্ষণ দিন বাস্তব সময়ে। শিফট শেষ হওয়ার আগে ফলাফল নিশ্চিত করুন।",
+        "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। সংশোধনটি শিফটের ম্যানেজারকে বরাদ্দ করুন। তারপর আপনি যে মার্জিন পুনরুদ্ধার করেছেন তা ভিত্তিরেখার সাপেক্ষে পরিমাপ করুন।",
         "features": [
           {
             "name": "বিক্রয় ও গতি",
@@ -3658,8 +4844,8 @@ export const generatedLocalCopy = {
         "button": "Watchtower সম্পর্কে জানুন"
       },
       "cta": {
-        "title": "গতকালের সংখ্যা পরিচালনা করা বন্ধ করুন",
-        "description": "আপনার প্রকৃত ডেটার সাথে বাস্তব-সময়ের অপারেশনাল বুদ্ধিমত্তা কেমন দেখায় তা দেখুন।",
+        "title": "ফাঁস শুধু রিপোর্ট করা বন্ধ করুন। এটি ফিরে পান।",
+        "description": "দেখুন Core কীভাবে ফাঁস খুঁজে বের করে, সংশোধন বরাদ্দ করে, এবং পুনরুদ্ধার করা মার্জিন আপনার ভিত্তিরেখার সাপেক্ষে পরিমাপ করে - আপনার প্রকৃত ডেটায়।",
         "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন"
       },
@@ -3732,17 +4918,84 @@ export const generatedLocalCopy = {
       }
     },
     "th": {
+      "proof": {
+        "eyebrow": "รู้ได้อย่างไรว่ามันเป็นเรื่องจริง",
+        "heading": "ใครก็อ้างว่ากู้คืนได้ทั้งนั้น Sundae ให้คุณตรวจสอบเอง",
+        "description": "ตัวเลขที่กู้คืนมาจะน่าเชื่อถือก็ต่อเมื่อคุณเห็นได้ว่ามันเกิดขึ้นจริงหรือไม่ Sundae ตอบสามคำถามที่ผู้ดำเนินงานผู้รอบคอบ - หรือ CFO ของเขา - ถามอยู่เสมอ",
+        "items": [
+          {
+            "question": "วงจรปิดครบจริงหรือไม่",
+            "title": "สุขภาพของวงจร",
+            "desc": "ดูว่าจากรอยรั่วที่ตรวจพบ มีกี่รายที่ไปถึงผลลัพธ์ที่วัดได้จริง - อัตราการปิดวงจรที่แท้จริง ไม่ใช่ตัวเลขไว้อวด นี่คือตัวเลขเดียวที่บอกคุณว่าวงจรกำลังทำงาน และมันยังคงซื่อตรงแม้เมื่อตัวเลขนั้นต่ำ",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "มันก็คงเกิดขึ้นอยู่ดีหรือเปล่า",
+            "title": "เส้นฐานเทียบเท่ากัน",
+            "desc": "ทุกตัวเลขที่กู้คืนถูกวัดเทียบกับเส้นฐานเต็มสัปดาห์ที่ตรงกัน - วันเดียวกัน จังหวะเดียวกัน - เพื่อไม่ให้กำไรจริงถูกเข้าใจผิดว่าเป็นเพียงสัปดาห์ที่ยุ่งตามปกติ",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "มันคุ้มค่าที่จ่ายไปหรือไม่",
+            "title": "ผลตอบแทนจาก Sundae",
+            "desc": "ดูมูลค่าที่คุณกู้คืนมาเทียบกับสิ่งที่คุณจ่าย งวดต่องวด - หลักฐานเป็นเม็ดเงินที่วัดได้ว่า Sundae คุ้มยิ่งกว่าค่าใช้จ่ายของมัน",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "และเมื่อไม่มีหลักฐาน Sundae ก็จะบอกตามตรง ทุกผลลัพธ์ยังคงเป็นเพียงทิศทางจนกว่าจะมีคนยืนยัน และตัวตรวจจับเลือกที่จะเงียบมากกว่าจะกุตัวเลขขึ้นมา"
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "เชื่อมต่อกับ POS แรงงาน สินค้าคงคลัง และทุกระบบที่สำคัญ Core รีเฟรชตลอดวันทำการ โดยทั่วไปทุก 2-4 ชั่วโมง และเร็วกว่านั้นเมื่อแหล่งข้อมูลรองรับ คุณจึงลงมือได้ระหว่างกะ ไม่ใช่หลังจากเสียหายไปแล้ว",
+        "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core ค้นหาการรั่วไหลของกำไร มอบหมายการแก้ไขให้ผู้รับผิดชอบที่ระบุไว้ และวัดกำไรที่กู้คืนได้เทียบกับเส้นฐาน",
         "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต",
-        "title": "ลงมือภายในกะ ไม่ใช่รายงานสิ้นวัน"
+        "title": "ค้นหาการรั่วไหล กู้คืนกำไร"
+      },
+      "dimensions": {
+        "heading": "โมเดลอัจฉริยะ 4D",
+        "description": "Core นำเสนอทั้งสี่มิติ - ขยายออกไปแล้ว.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "เกิดอะไรขึ้น",
+            "status": "เรียลไทม์",
+            "description": "ความจริงในการดำเนินงานที่ครบถ้วน อัปเดตทุก 2-4 ชั่วโมง มองเห็นใกล้เรียลไทม์สำหรับการแทรกแซงในกะเดียวกัน.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "แผนกับจริง",
+            "status": "เรียลไทม์",
+            "description": "ติดตามความแปรปรวนของงบประมาณแบบเรียลไทม์ รายงานด่วนสำหรับทีมการเงิน มองเห็นตั้งแต่ต้นสัปดาห์ถึงปัจจุบันและต้นเดือนถึงปัจจุบัน.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "บริบทตลาด",
+            "status": "ขยาย",
+            "description": "ชุดการเปรียบเทียบที่ครบถ้วน (มากกว่า 30 เมตริก) การเปรียบเทียบพอร์ตโฟลิโอ บริบทการแข่งขันผ่าน Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "ต่อไปจะเป็นอย่างไร",
+            "status": "ขยาย",
+            "description": "การคาดการณ์ 14-30 วัน การแจ้งเตือนเชิงรุกก่อนที่ปัญหาจะลุกลาม คำแนะนำจาก Sundae Coach พร้อมคะแนนความมั่นใจ.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "รวมอยู่ใน Core",
         "heading": "Pulse: ศูนย์ควบคุมกะของคุณ",
-        "description": "ดูความผิดปกติในทันทีที่เกิดขึ้น สอนทีมของคุณแบบเรียลไทม์ ยืนยันผลลัพธ์ก่อนสิ้นสุดกะ",
+        "description": "ดูความผิดปกติในทันทีที่เกิดขึ้น มอบหมายการแก้ไขให้ผู้จัดการที่อยู่ในกะ แล้ววัดกำไรที่คุณกู้คืนได้เทียบกับเส้นฐาน",
         "features": [
           {
             "name": "ยอดขาย & อัตรา",
@@ -3865,8 +5118,8 @@ export const generatedLocalCopy = {
         "button": "เรียนรู้เกี่ยวกับ Watchtower"
       },
       "cta": {
-        "title": "หยุดจัดการตัวเลขเมื่อวานนี้",
-        "description": "ดูว่าข้อมูลเชิงลึกในการดำเนินงานแบบเรียลไทม์เป็นอย่างไรด้วยข้อมูลจริงของคุณ",
+        "title": "หยุดเพียงรายงานการรั่วไหล กู้คืนมันกลับมา",
+        "description": "ดูว่า Core ค้นหาการรั่วไหล มอบหมายการแก้ไข และวัดกำไรที่กู้คืนได้เทียบกับเส้นฐานของคุณอย่างไร - ด้วยข้อมูลจริงของคุณ",
         "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต"
       },
@@ -3939,17 +5192,84 @@ export const generatedLocalCopy = {
       }
     },
     "ms": {
+      "proof": {
+        "eyebrow": "BAGAIMANA ANDA TAHU IANYA BENAR",
+        "heading": "Sesiapa pun boleh mendakwa pemulihan. Sundae membolehkan anda menyemaknya.",
+        "description": "Angka yang dipulihkan hanya layak dipercayai jika anda dapat melihat sama ada ia benar-benar berlaku. Sundae menjawab tiga soalan yang sentiasa ditanya oleh pengendali yang teliti - atau CFO mereka.",
+        "items": [
+          {
+            "question": "Adakah gelung benar-benar tertutup?",
+            "title": "Kesihatan gelung",
+            "desc": "Lihat berapa banyak kebocoran yang dikesan benar-benar mencapai hasil yang diukur - kadar penutupan sebenar, bukan angka hiasan. Inilah satu-satunya angka yang menunjukkan gelung berfungsi, dan ia kekal jujur apabila angka itu rendah.",
+            "icon": "forecasting",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "question": "Adakah ia akan berlaku juga?",
+            "title": "Asas perbandingan setara",
+            "desc": "Setiap angka yang dipulihkan diukur terhadap asas seminggu penuh yang sepadan - hari yang sama, rentak yang sama - supaya keuntungan sebenar tidak sekali-kali disalah anggap sebagai minggu yang sekadar sibuk.",
+            "icon": "benchmarking",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "question": "Adakah ia berbaloi?",
+            "title": "Pulangan atas Sundae",
+            "desc": "Lihat nilai yang anda pulihkan berbanding apa yang anda bayar, tempoh demi tempoh - bukti, dalam wang yang diukur, bahawa Sundae menampung kosnya lebih daripada cukup.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
+          }
+        ],
+        "honesty": "Dan apabila buktinya tiada, Sundae menyatakannya. Setiap keputusan kekal bersifat arah sehingga seseorang mengesahkannya, dan pengesan memilih untuk berdiam daripada mereka-reka angka."
+      },
       "hero": {
         "badge": "Sundae Core",
-        "description": "Bersambung dengan POS, tenaga kerja, inventori dan setiap sistem yang penting. Core disegar sepanjang hari perniagaan - biasanya setiap 2-4 jam, dan lebih pantas jika sumbernya membenarkan - supaya anda bertindak semasa syif, bukan selepas kerugian berlaku.",
+        "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core mengesan kebocoran margin, menyalurkan pembaikan kepada pemilik yang ditetapkan dan mengukur margin yang dipulihkan berbanding garis dasar.",
         "primary": "Terokai Tahap Core",
         "secondary": "Tempah Demo",
-        "title": "Operasi dalam syif. Bukan laporan hujung hari."
+        "title": "Cari kebocoran. Pulihkan keuntungan."
+      },
+      "dimensions": {
+        "heading": "Model Kecerdasan 4D",
+        "description": "Core menyampaikan keempat dimensi - diperluas.",
+        "items": [
+          {
+            "dimension": "1D",
+            "title": "Apa yang Berlaku",
+            "status": "Masa Nyata",
+            "description": "Kebenaran operasi lengkap, dikemas kini setiap 2-4 jam. Keterlihatan hampir masa nyata untuk intervensi dalam syif yang sama.",
+            "icon": "report",
+            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+          },
+          {
+            "dimension": "2D",
+            "title": "Rancangan vs. Sebenarnya",
+            "status": "Masa Nyata",
+            "description": "Pengesanan varians bajet masa nyata. Laporan kilat untuk pasukan kewangan. Keterlihatan minggu hingga kini dan bulan hingga kini.",
+            "icon": "marketing",
+            "color": "from-[#F2B45C] to-[#C2410C]"
+          },
+          {
+            "dimension": "3D",
+            "title": "Konteks Pasaran",
+            "status": "Diperluas",
+            "description": "Suite penanda aras penuh (30+ metrik). Perbandingan portfolio. Konteks persaingan melalui Watchtower.",
+            "icon": "multiLocation",
+            "color": "from-green-500 to-green-600"
+          },
+          {
+            "dimension": "4D",
+            "title": "Apa Seterusnya",
+            "status": "Diperluas",
+            "description": "Ramalan 14-30 hari. Amaran proaktif sebelum masalah meningkat. Cadangan Sundae Coach dengan skor keyakinan.",
+            "icon": "growth",
+            "color": "from-orange-500 to-orange-600"
+          }
+        ]
       },
       "pulse": {
         "badge": "Termasuk dengan Core",
         "heading": "Pulse: Pusat Komando Shift Anda",
-        "description": "Lihat anomali sebaik sahaja ia berlaku. Latih pasukan anda secara langsung. Sahkan hasil sebelum shift berakhir.",
+        "description": "Lihat anomali sebaik sahaja ia berlaku. Salurkan pembaikan kepada pengurus yang bertugas. Kemudian ukur margin yang anda pulihkan berbanding garis dasar.",
         "features": [
           {
             "name": "Jualan & Rentak",
@@ -4072,8 +5392,8 @@ export const generatedLocalCopy = {
         "button": "Ketahui Lebih Lanjut Tentang Watchtower"
       },
       "cta": {
-        "title": "Hentikan Mengurus Nombor Semalam",
-        "description": "Lihat bagaimana kecerdasan operasi masa nyata dengan data sebenar anda.",
+        "title": "Berhenti sekadar melaporkan kebocoran. Pulihkannya.",
+        "description": "Lihat cara Core mengesan kebocoran, menyalurkan pembaikan dan mengukur margin yang dipulihkan berbanding garis dasar anda - dengan data sebenar anda.",
         "primary": "Terokai Tahap Core",
         "secondary": "Tempah Demo"
       },

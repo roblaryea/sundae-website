@@ -60,17 +60,17 @@ type LocalizedFourD = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   en: {
     eyebrow: "THE 4D INTELLIGENCE MODEL",
-    headline: "Watch one revenue problem become a measured result.",
-    description: "Sundae connects performance, plan, market context, and next action - so teams can move before the shift is over.",
+    headline: "Watch one margin leak become recovered profit.",
+    description: "Sundae connects performance, plan, market context, and the owned fix - then measures the margin recovered, so teams don’t just decide, they recover.",
     scenarioTime: "TUESDAY · 9:14 AM · DOWNTOWN",
     scenarioHook: "Lunch revenue is pacing 14% behind plan.",
     illustrativeNote: "Illustrative scenario based on Sundae capabilities.",
-    closing: "From signal to cause to action - before the shift ends.",
+    closing: "From signal to cause to owned fix to measured recovery.",
     dimensions: [
       { shortLabel: "What happened", eyebrow: "WHAT HAPPENED", title: "Covers are down 22%.", body: "Average check is steady, so the issue is traffic - not pricing." },
       { shortLabel: "Plan vs actual", eyebrow: "PLAN VS ACTUAL", title: "The location is $3,800 behind forecast.", body: "Labor is still staffed to baseline, so margin is eroding by the hour." },
       { shortLabel: "Market context", eyebrow: "MARKET CONTEXT", title: "The market explains the gap.", body: "Nearby competitors dropped lunch combos, and a local office event is reducing foot traffic." },
-      { shortLabel: "Next action", eyebrow: "NEXT ACTION", title: "Sundae Coach recommends the next move.", body: "Adjust labor if coverage allows, push the lunch offer, and give the team a chance to recover part of the gap before peak ends." },
+      { shortLabel: "Recover & measure", eyebrow: "RECOVER & MEASURE", title: "The fix is owned, and the recovery measured.", body: "One owner adjusts labor and pushes the lunch offer - and Sundae measures the margin recovered against the forecast baseline." },
     ],
     visualHeader: "Pulse - Downtown · Lunch Service",
     visualLabels: {
@@ -92,17 +92,17 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   ar: {
     eyebrow: "نموذج الذكاء رباعي الأبعاد",
-    headline: "شاهد مشكلة إيرادات واحدة تتحول إلى نتيجة مقاسة.",
-    description: "Sundae يربط الأداء والخطة وسياق السوق والخطوة التالية - فتستطيع الفِرَق التحرك قبل نهاية الوردية.",
+    headline: "شاهد تسرّب هامش واحد يتحوّل إلى ربح مُستعاد.",
+    description: "Sundae يربط الأداء والخطة وسياق السوق والإصلاح المُسنَد - ثم يقيس الهامش المُستعاد، فلا تكتفي الفِرَق بالقرار، بل تستعيد.",
     scenarioTime: "الثلاثاء · 9:14 صباحاً · وسط المدينة",
     scenarioHook: "إيرادات الغداء تتأخر 14% خلف الخطة.",
     illustrativeNote: "سيناريو توضيحي بناءً على قدرات Sundae.",
-    closing: "من إشارة إلى سبب إلى فعل - قبل نهاية الوردية.",
+    closing: "من الإشارة إلى السبب إلى الإصلاح المُسنَد إلى الاستعادة المقيسة.",
     dimensions: [
       { shortLabel: "ما حدث", eyebrow: "ما حدث", title: "الضيوف انخفضوا 22%.", body: "متوسط الفاتورة ثابت، فالمشكلة في حركة الزبائن - لا التسعير." },
       { shortLabel: "الخطة مقابل الفعلي", eyebrow: "الخطة مقابل الفعلي", title: "الموقع يتأخر 3,800$ عن التوقع.", body: "العمالة ما زالت على الأساس، فالهامش يتآكل بالساعة." },
       { shortLabel: "سياق السوق", eyebrow: "سياق السوق", title: "السوق يفسر الفجوة.", body: "المنافسون القريبون خفضوا كومبو الغداء، وحدث مكتبي محلي يقلل حركة المرور." },
-      { shortLabel: "الفعل التالي", eyebrow: "الفعل التالي", title: "Sundae Coach يوصي بالخطوة التالية.", body: "اضبط العمالة إن سمحت التغطية، اعرض الغداء، وامنح الفريق فرصة لاستعادة جزء من الفجوة قبل ذروة الغداء." },
+      { shortLabel: "الاستعادة والقياس", eyebrow: "الاستعادة والقياس", title: "الإصلاح له مالك، والاستعادة مقيسة.", body: "مالك واحد يضبط العمالة ويدفع عرض الغداء - وSundae يقيس الهامش المُستعاد مقابل خط الأساس المتوقَّع." },
     ],
     visualHeader: "Pulse - وسط المدينة · خدمة الغداء",
     visualLabels: {
@@ -124,17 +124,17 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   fr: {
     eyebrow: "LE MODÈLE D'INTELLIGENCE 4D",
-    headline: "Regardez un probleme de revenu devenir un resultat mesure.",
-    description: "Sundae connecte performance, plan, contexte marché et action suivante - pour que les équipes bougent avant la fin du service.",
+    headline: "Regardez une fuite de marge devenir un profit récupéré.",
+    description: "Sundae connecte performance, plan, contexte marché et le correctif attribué - puis mesure la marge récupérée, pour que les équipes ne se contentent pas de décider, elles récupèrent.",
     scenarioTime: "MARDI · 9H14 · CENTRE-VILLE",
     scenarioHook: "Le revenu déjeuner est à 14% en dessous du plan.",
     illustrativeNote: "Scénario illustratif basé sur les capacités Sundae.",
-    closing: "Du signal à la cause à l'action - avant la fin du service.",
+    closing: "Du signal à la cause au correctif attribué à la récupération mesurée.",
     dimensions: [
       { shortLabel: "Ce qui s'est passé", eyebrow: "CE QUI S'EST PASSÉ", title: "Les couverts ont baissé de 22%.", body: "Le ticket moyen est stable, le problème c'est le trafic - pas le prix." },
       { shortLabel: "Plan vs réel", eyebrow: "PLAN VS RÉEL", title: "Le site est à 3 800$ derrière la prévision.", body: "La main-d'œuvre est toujours au baseline, la marge s'érode à l'heure." },
       { shortLabel: "Contexte marché", eyebrow: "CONTEXTE MARCHÉ", title: "Le marché explique l'écart.", body: "Les concurrents proches ont baissé les combos déjeuner et un événement bureau local réduit le passage." },
-      { shortLabel: "Action suivante", eyebrow: "ACTION SUIVANTE", title: "Sundae Coach recommande le coup suivant.", body: "Ajustez la main-d'œuvre si la couverture le permet, poussez l'offre déjeuner et donnez à l'équipe une chance de récupérer avant la fin du peak." },
+      { shortLabel: "Récupérer et mesurer", eyebrow: "RÉCUPÉRER ET MESURER", title: "Le correctif est attribué, et la récupération mesurée.", body: "Un responsable ajuste la main-d'œuvre et pousse l'offre déjeuner - et Sundae mesure la marge récupérée par rapport à la référence prévue." },
     ],
     visualHeader: "Pulse - Centre-ville · Service déjeuner",
     visualLabels: {
@@ -156,17 +156,17 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   es: {
     eyebrow: "EL MODELO DE INTELIGENCIA 4D",
-    headline: "Mira como un problema de ingresos se vuelve un resultado medido.",
-    description: "Sundae conecta rendimiento, plan, contexto de mercado y próxima acción - para que los equipos actúen antes de que termine el turno.",
+    headline: "Mira cómo una fuga de margen se convierte en beneficio recuperado.",
+    description: "Sundae conecta rendimiento, plan, contexto de mercado y la solución con responsable - y luego mide el margen recuperado, para que los equipos no solo decidan, sino que recuperen.",
     scenarioTime: "MARTES · 9:14 AM · CENTRO",
     scenarioHook: "El ingreso del almuerzo va 14% atrás del plan.",
     illustrativeNote: "Escenario ilustrativo basado en capacidades de Sundae.",
-    closing: "De señal a causa a acción - antes del fin del turno.",
+    closing: "De la señal a la causa a la solución con responsable a la recuperación medida.",
     dimensions: [
       { shortLabel: "Qué pasó", eyebrow: "QUÉ PASÓ", title: "Los cubiertos bajaron 22%.", body: "El ticket medio está estable, el problema es tráfico - no precio." },
       { shortLabel: "Plan vs real", eyebrow: "PLAN VS REAL", title: "El local va $3,800 atrás del forecast.", body: "El personal sigue en baseline, así que el margen se erosiona por hora." },
       { shortLabel: "Contexto de mercado", eyebrow: "CONTEXTO DE MERCADO", title: "El mercado explica la brecha.", body: "Competidores cercanos bajaron combos de almuerzo y un evento de oficina local reduce el tráfico." },
-      { shortLabel: "Próxima acción", eyebrow: "PRÓXIMA ACCIÓN", title: "Sundae Coach recomienda el siguiente movimiento.", body: "Ajusta personal si la cobertura lo permite, empuja la oferta de almuerzo y da al equipo una oportunidad de recuperar parte de la brecha antes del cierre del peak." },
+      { shortLabel: "Recuperar y medir", eyebrow: "RECUPERAR Y MEDIR", title: "La solución tiene responsable, y la recuperación se mide.", body: "Un responsable ajusta el personal e impulsa la oferta de almuerzo - y Sundae mide el margen recuperado frente a la línea base pronosticada." },
     ],
     visualHeader: "Pulse - Centro · Servicio de almuerzo",
     visualLabels: {

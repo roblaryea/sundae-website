@@ -808,22 +808,22 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Comment démarrer ?',
           content:
-            'Vous avez deux options :\n\n1. **Voir votre tarif** - Utilisez le calculateur sur pricing.sundae.io pour dimensionner une offre Core sur votre nombre de sites.\n\n2. **Reserver une demo** - 15 minutes avec notre equipe pour voir Sundae tourner sur vos donnees.',
+            'Vous avez deux options :\n\n1. **Voir votre tarif** - Utilisez le calculateur sur pricing.sundae.io pour dimensionner une offre Core sur votre nombre de sites.\n\n2. **Réserver une demo** - 15 minutes avec notre équipe pour voir Sundae tourner sur vos données.',
         },
         {
           title: 'Existe-t-il une offre gratuite ?',
           content:
-            'Non. Toutes les offres Sundae sont payantes et tarifees a partir de votre premier site. En revanche, nous faisons une session de travail sur vos propres chiffres avant tout engagement, pour que vous voyiez le retour avant de signer.',
+            'Non. Toutes les offres Sundae sont payantes et tarifées à partir de votre premier site. En revanche, nous faisons une session de travail sur vos propres chiffres avant tout engagement, pour que vous voyiez le retour avant de signer.',
         },
         {
-          title: 'Quelle est la difference entre les offres Core ?',
+          title: 'Quelle est la différence entre les offres Core ?',
           content:
-            '**Core Foundation** - le socle operationnel : une seule base de decision sur le POS, la main-d oeuvre, les couts et l exploitation.\n\n**Core Margin** - profondeur sur les couts et les pertes : theorique contre reel, gaspillage, demarque, annulations et offerts, contribution par article.\n\n**Core Growth** - profondeur sur la demande : cohortes clients et valeur vie, attribution des promos par canal, marge livraison apres commission.\n\n**Core Performance** - consolidation multi-marques et multi-regions, correlation inter-modules, acces gouverne avec pistes d audit.\n\nLes quatre embarquent les memes onze modules metier. Ce qui change, c est la profondeur de chacun.',
+            '**Core Foundation** - le socle opérationnel : une seule base de décision sur le POS, la main-d’œuvre, les coûts et l’exploitation.\n\n**Core Margin** - profondeur sur les coûts et les pertes : théorique contre réel, gaspillage, démarque, annulations et offerts, contribution par article.\n\n**Core Growth** - profondeur sur la demande : cohortes clients et valeur vie, attribution des promos par canal, marge livraison après commission.\n\n**Core Performance** - consolidation multi-marques et multi-régions, corrélation inter-modules, accès gouverné avec pistes d’audit.\n\nLes quatre embarquent les mêmes onze modules métier. Ce qui change, c’est la profondeur de chacun.',
         },
         {
           title: 'Dois-je signer un contrat long terme ?',
           content:
-            'Non. Chaque offre est disponible au mois et resiliable sans penalite. Les engagements annuel et 2 ans existent parce qu ils coutent moins cher - 10 % et 15 % de remise - pas parce qu ils sont obligatoires.',
+            'Non. Chaque offre est disponible au mois et résiliable sans pénalité. Les engagements annuel et 2 ans existent parce qu’ils coûtent moins cher - 10 % et 15 % de remise - pas parce qu’ils sont obligatoires.',
         },
       ],
     },
@@ -834,12 +834,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Quels produits propose Sundae ?',
           content:
-            '**Quatre produits principaux :**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - la base de decision, qui embarque les onze modules metier\n2. **Foresight & Action** - previsions, modelisation de scenarios et couche d action validee par un humain\n3. **Sundae Crew** - le socle RH : plannings, temps et presence, preparation de la paie, dossiers et analytics people\n4. **Watchtower** - intelligence de marche externe, chiffree en meme temps que votre offre Core\n\n**Plus :** des concepts pour les modeles d exploitation de votre groupe - franchise, hotellerie F&B, cuisine virtuelle, traiteur, production, commissary en location.',
+            '**Quatre produits principaux :**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - la base de décision, qui embarque les onze modules métier\n2. **Foresight & Action** - prévisions, modélisation de scénarios et couche d’action validée par un humain\n3. **Sundae Crew** - le socle RH : plannings, temps et présence, préparation de la paie, dossiers et analytics people\n4. **Watchtower** - intelligence de marché externe, chiffrée en même temps que votre offre Core\n\n**Plus :** des concepts pour les modèles d’exploitation de votre groupe - franchise, hôtellerie F&B, cuisine virtuelle, traiteur, production, commissary en location.',
         },
         {
           title: 'Quelle offre Core choisir ?',
           content:
-            '**Core Foundation si :**\n• Vous quittez les tableurs et les dashboards eparpilles\n• Vous voulez une seule image d exploitation avant d aller plus loin\n\n**Core Margin si :**\n• Votre marge part dans le cout matiere, le gaspillage, les annulations et les offerts\n• Vous avez besoin de la contribution par article, pas seulement du mix de ventes\n\n**Core Growth si :**\n• Le revenu recurrent et le mix de canaux sont la contrainte\n• Vous avez besoin des cohortes clients, de l attribution promo et de la marge livraison\n\n**Core Performance si :**\n• Vous exploitez plusieurs marques ou plusieurs marches\n• Vous avez besoin de consolidation, de correlation inter-modules et d acces gouverne',
+            '**Core Foundation si :**\n• Vous quittez les tableurs et les dashboards éparpillés\n• Vous voulez une seule image d’exploitation avant d’aller plus loin\n\n**Core Margin si :**\n• Votre marge part dans le coût matière, le gaspillage, les annulations et les offerts\n• Vous avez besoin de la contribution par article, pas seulement du mix de ventes\n\n**Core Growth si :**\n• Le revenu récurrent et le mix de canaux sont la contrainte\n• Vous avez besoin des cohortes clients, de l’attribution promo et de la marge livraison\n\n**Core Performance si :**\n• Vous exploitez plusieurs marques ou plusieurs marchés\n• Vous avez besoin de consolidation, de corrélation inter-modules et d’accès gouverné',
         },
         {
           title: 'Puis-je changer de niveau plus tard ?',
@@ -849,7 +849,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Qu’est-ce que le modèle 4D Intelligence ?',
           content:
-            'Le cadre de decision Sundae :\n\n**1D : Ce qui s est passe** - la verite ventes, main-d oeuvre et couts\n**2D : Plan contre reel** - ecarts budget et prevision\n**3D : Contexte marche** - benchmarks, pairs et concurrents\n**4D : Ce qui arrive** - predictions et recommandations\n\nChaque offre Core couvre les quatre. L offre fixe la profondeur de chaque dimension.',
+            'Le cadre de décision Sundae :\n\n**1D : Ce qui s’est passé** - la vérité ventes, main-d’œuvre et coûts\n**2D : Plan contre réel** - écarts budget et prévision\n**3D : Contexte marché** - benchmarks, pairs et concurrents\n**4D : Ce qui arrive** - prédictions et recommandations\n\nChaque offre Core couvre les quatre. L’offre fixe la profondeur de chaque dimension.',
         },
       ],
     },
@@ -860,12 +860,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Quelles données faut-il fournir ?',
           content:
-            '**Pour toute offre Core :**\n• Le POS via API\n• Le systeme de gestion du personnel\n• Le systeme d inventaire\n• Les plateformes marketing\n• Le systeme de reservations\n\nLe POS seul suffit pour avoir de la valeur des le premier jour. Le reste approfondit l image a mesure que vous connectez.',
+            '**Pour toute offre Core :**\n• Le POS via API\n• Le système de gestion du personnel\n• Le système d’inventaire\n• Les plateformes marketing\n• Le système de réservations\n\nLe POS seul suffit pour avoir de la valeur dès le premier jour. Le reste approfondit l’image à mesure que vous connectez.',
         },
         {
           title: 'Comment importer mes données dans Sundae ?',
           content:
-            'Via des connexions API a votre POS et au reste de votre pile operationnelle. Quand un systeme n a pas d API, Sundae accepte des depots de fichiers structures et des imports intelligents - PDF, Excel, captures - que vous validez avant traitement.',
+            'Via des connexions API à votre POS et au reste de votre pile opérationnelle. Quand un système n’a pas d’API, Sundae accepte des dépôts de fichiers structurés et des imports intelligents - PDF, Excel, captures - que vous validez avant traitement.',
         },
         {
           title: 'Quels POS sont pris en charge ?',
@@ -875,12 +875,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Puis-je utiliser plusieurs POS ?',
           content:
-            'Oui. Sundae se connecte a des parcs POS heterogenes et normalise les donnees pour une comparaison a perimetre egal. Core Performance ajoute par-dessus la consolidation entre marques et regions.',
+            'Oui. Sundae se connecte à des parcs POS hétérogènes et normalise les données pour une comparaison à périmètre égal. Core Performance ajoute par-dessus la consolidation entre marques et régions.',
         },
         {
           title: 'Combien de temps prend le déploiement ?',
           content:
-            'La plupart des groupes sont en production en 1 a 2 semaines. Les deploiements multi-marques ou multi-regions plus larges prennent 2 a 4 semaines selon le perimetre.\n\nLa mise en oeuvre est un frais unique, facture une fois a la classe la plus elevee de votre selection - du self-service gratuit jusqu a un engagement de classe D chiffre.',
+            'La plupart des groupes sont en production en 1 à 2 semaines. Les déploiements multi-marques ou multi-régions plus larges prennent 2 à 4 semaines selon le périmètre.\n\nLa mise en œuvre est un frais unique, facturé une fois à la classe la plus élevée de votre sélection - du self-service gratuit jusqu’à un engagement de classe D chiffré.',
         },
         {
           title: 'Que deviennent mes données si je résilie ?',
@@ -901,12 +901,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Ai-je besoin des modules ?',
           content:
-            'Ils ne sont ni optionnels ni vendus separement. Les onze modules metier sont livres avec chaque offre Core.\n\nCe que vous choisissez, c est l offre, et l offre fixe la profondeur de chaque module.',
+            'Ils ne sont ni optionnels ni vendus séparément. Les onze modules métier sont livrés avec chaque offre Core.\n\nCe que vous choisissez, c’est l’offre, et l’offre fixe la profondeur de chaque module.',
         },
         {
           title: 'Puis-je acheter un seul module ?',
           content:
-            'Non. Les onze modules metier sont des composants d une offre Core, pas des produits autonomes, et il n existe pas de prix par module. Choisir une offre, c est les obtenir tous.',
+            'Non. Les onze modules métier sont des composants d’une offre Core, pas des produits autonomes, et il n’existe pas de prix par module. Choisir une offre, c’est les obtenir tous.',
         },
         {
           title: 'Dois-je ajouter les modules un par un ?',
@@ -952,7 +952,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Watchtower nécessite-t-il Core ?',
           content:
-            'Oui. Watchtower fonctionne mieux quand ses signaux de marche sont poses sur des donnees d exploitation en direct, ce que fournit une offre Core. Il est chiffre en meme temps que votre offre plutot que vendu seul.',
+            'Oui. Watchtower fonctionne mieux quand ses signaux de marché sont posés sur des données d’exploitation en direct, ce que fournit une offre Core. Il est chiffré en même temps que votre offre plutôt que vendu seul.',
         },
       ],
     },
@@ -963,7 +963,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Combien coûte Sundae ?',
           content:
-            `Le tarif depend de :\n• L offre Core retenue\n• Le nombre de sites\n• L inclusion ou non de Foresight & Action, de Crew ou des concepts\n\nLes offres Core sont tarifees a partir d un prix d ancrage sur le premier site, puis d un tarif marginal par site additionnel qui baisse a mesure que vous grandissez. Core Foundation demarre a ${usd(CORE_PACKAGES[0].firstUnitMonthly)} pour votre premier site.\n\nPour un chiffrage precis, utilisez pricing.sundae.io.`,
+            `Le tarif dépend de :\n• L'offre Core retenue\n• Le nombre de sites\n• L'inclusion ou non de Foresight & Action, de Crew ou des concepts\n\nLes offres Core sont tarifées à partir d'un prix d'ancrage sur le premier site, puis d'un tarif marginal par site additionnel qui baisse à mesure que vous grandissez. Core Foundation démarre à ${usd(CORE_PACKAGES[0].firstUnitMonthly)} pour votre premier site.\n\nPour un chiffrage précis, utilisez pricing.sundae.io.`,
         },
         {
           title: 'Y a-t-il des frais de mise en place ?',
@@ -994,22 +994,22 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Comment fonctionnent les crédits d’intelligence ?',
           content:
-            `Les credits d intelligence alimentent les questions, les analyses et les recommandations. Chaque offre Core embarque un portefeuille mensuel :\n\n${AI_WALLET_LINES}\n\nSi vous l epuisez, vous pouvez le recharger sur n importe quelle offre.`,
+            `Les crédits d'intelligence alimentent les questions, les analyses et les recommandations. Chaque offre Core embarque un portefeuille mensuel :\n\n${AI_WALLET_LINES}\n\nSi vous l'épuisez, vous pouvez le recharger sur n'importe quelle offre.`,
         },
         {
           title: 'Quel historique est disponible ?',
           content:
-            'Chaque offre Core conserve tout votre historique connecte avec une retention pluriannuelle. Les accords Enterprise peuvent l etendre avec des durees sur mesure.',
+            'Chaque offre Core conserve tout votre historique connecté avec une rétention pluriannuelle. Les accords Enterprise peuvent l’étendre avec des durées sur mesure.',
         },
         {
           title: 'À quelle fréquence les données sont-elles rafraîchies ?',
           content:
-            'Core se rafraichit pendant le service et non en fin de journee, si bien que Pulse et les modules bougent tant que vous pouvez encore agir. La cadence exacte depend de ce que vos systemes connectes exposent.',
+            'Core se rafraîchit pendant le service et non en fin de journée, si bien que Pulse et les modules bougent tant que vous pouvez encore agir. La cadence exacte dépend de ce que vos systèmes connectés exposent.',
         },
         {
           title: 'Ai-je accès à des tableaux de bord personnalisés ?',
           content:
-            'Oui. Chaque offre Core inclut des tableaux de bord personnalises en plus des vues prefabriquees livrees avec chaque module metier.',
+            'Oui. Chaque offre Core inclut des tableaux de bord personnalisés en plus des vues préfabriquées livrées avec chaque module métier.',
         },
       ],
     },
@@ -1020,12 +1020,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Quel support est inclus ?',
           content:
-            'Chaque offre Core inclut le support e-mail, chat et telephone. Les accords Enterprise ajoutent une couverture 24/7, des delais de reponse contractuels et un referent Customer Success dedie.',
+            'Chaque offre Core inclut le support e-mail, chat et téléphone. Les accords Enterprise ajoutent une couverture 24/7, des délais de réponse contractuels et un référent Customer Success dédié.',
         },
         {
           title: 'Proposez-vous de la formation ?',
           content:
-            'Oui. La formation fait partie de la mise en oeuvre, un frais unique facture a la classe la plus elevee de votre selection - documentation en self-service gratuite, sessions guidees et programme structure aux classes superieures.',
+            'Oui. La formation fait partie de la mise en œuvre, un frais unique facturé à la classe la plus élevée de votre sélection - documentation en self-service gratuite, sessions guidées et programme structuré aux classes supérieures.',
         },
         {
           title: 'Quels fuseaux horaires couvrez-vous ?',
@@ -1083,7 +1083,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Quelle différence avec les rapports POS ?',
           content:
-            '**Rapports POS :** un seul systeme, contexte limite, interpretation manuelle\n\n**Sundae Core :** l analyse POS plus les benchmarks, les recommandations et la detection de motifs, sur la main-d oeuvre, les couts et le client dans une seule image d exploitation\n\n**Foresight & Action :** la vue avant par-dessus - previsions, scenarios, et la couche qui agit sur ce qu ils revelent',
+            '**Rapports POS :** un seul système, contexte limité, interprétation manuelle\n\n**Sundae Core :** l’analyse POS plus les benchmarks, les recommandations et la détection de motifs, sur la main-d’œuvre, les coûts et le client dans une seule image d’exploitation\n\n**Foresight & Action :** la vue avant par-dessus - prévisions, scénarios, et la couche qui agit sur ce qu’ils révèlent',
         },
         {
           title: 'Quelle différence avec Excel ?',
@@ -1093,7 +1093,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Combien puis-je économiser face aux outils historiques ?',
           content:
-            'Les exploitants constatent souvent un cout total nettement inferieur, parce qu une offre Core contient deja les onze modules metier au lieu d empiler des frais par module et par site. L ecart exact depend de votre pile actuelle et de votre perimetre.',
+            'Les exploitants constatent souvent un coût total nettement inférieur, parce qu’une offre Core contient déjà les onze modules métier au lieu d’empiler des frais par module et par site. L’écart exact dépend de votre pile actuelle et de votre périmètre.',
         },
       ],
     },
@@ -1104,7 +1104,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Je n’ai qu’un seul site. Sundae est-il adapté ?',
           content:
-            'Oui. Un site unique porte le prix d ancrage de l offre et rien de plus, et il obtient les memes onze modules qu un groupe de cinquante sites. Les tranches de sites ne comptent qu a partir du moment ou vous ajoutez des sites.',
+            'Oui. Un site unique porte le prix d’ancrage de l’offre et rien de plus, et il obtient les mêmes onze modules qu’un groupe de cinquante sites. Les tranches de sites ne comptent qu’à partir du moment où vous ajoutez des sites.',
         },
         {
           title: 'Je gère une plateforme de franchise. Sundae peut-il aider ?',
@@ -1168,22 +1168,22 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Cómo empiezo?',
           content:
-            'Tienes dos opciones:\n\n1. **Ver tu precio** - Usa la calculadora en pricing.sundae.io para dimensionar un paquete Core segun tu numero de locales.\n\n2. **Reservar una demo** - 15 minutos con nuestro equipo para ver Sundae funcionando con tus datos.',
+            'Tienes dos opciones:\n\n1. **Ver tu precio** - Usa la calculadora en pricing.sundae.io para dimensionar un paquete Core según tu número de locales.\n\n2. **Reservar una demo** - 15 minutos con nuestro equipo para ver Sundae funcionando con tus datos.',
         },
         {
           title: '¿Hay un plan gratuito?',
           content:
-            'No. Todos los paquetes de Sundae son de pago y se tarifican desde tu primer local. Lo que si hacemos es una sesion de trabajo con tus propios numeros antes de comprometerte, para que veas el retorno antes de firmar.',
+            'No. Todos los paquetes de Sundae son de pago y se tarifican desde tu primer local. Lo que sí hacemos es una sesión de trabajo con tus propios números antes de comprometerte, para que veas el retorno antes de firmar.',
         },
         {
-          title: '¿En que se diferencian los paquetes Core?',
+          title: '¿En qué se diferencian los paquetes Core?',
           content:
-            '**Core Foundation** - la base operativa: un unico sustrato de decision sobre POS, personal, costes y operacion.\n\n**Core Margin** - profundidad en coste y fuga: teorico frente a real, merma, desperdicio, anulaciones e invitaciones, contribucion por articulo.\n\n**Core Growth** - profundidad en demanda: cohortes de clientes y valor de vida, atribucion de promociones por canal, margen de delivery tras comision.\n\n**Core Performance** - consolidacion multimarca y multirregion, correlacion entre modulos, acceso gobernado con auditoria.\n\nLos cuatro llevan los mismos once modulos de dominio. Lo que cambia es cuanto profundiza cada uno.',
+            '**Core Foundation** - la base operativa: un único sustrato de decisión sobre POS, personal, costes y operación.\n\n**Core Margin** - profundidad en coste y fuga: teórico frente a real, merma, desperdicio, anulaciones e invitaciones, contribución por artículo.\n\n**Core Growth** - profundidad en demanda: cohortes de clientes y valor de vida, atribución de promociones por canal, margen de delivery tras comisión.\n\n**Core Performance** - consolidación multimarca y multirregión, correlación entre módulos, acceso gobernado con auditoría.\n\nLos cuatro llevan los mismos once módulos de dominio. Lo que cambia es cuánto profundiza cada uno.',
         },
         {
           title: '¿Necesito un contrato a largo plazo?',
           content:
-            'No. Cada paquete esta disponible mes a mes y puedes cancelar sin penalizacion. Los compromisos anual y de 2 anos existen porque cuestan menos - 10% y 15% de descuento - no porque sean obligatorios.',
+            'No. Cada paquete está disponible mes a mes y puedes cancelar sin penalización. Los compromisos anual y de 2 años existen porque cuestan menos - 10% y 15% de descuento - no porque sean obligatorios.',
         },
       ],
     },
@@ -1194,12 +1194,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Qué productos ofrece Sundae?',
           content:
-            '**Cuatro productos principales:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - el sustrato de decision, que lleva los once modulos de dominio\n2. **Foresight & Action** - previsiones, modelado de escenarios y la capa de accion con aprobacion humana\n3. **Sundae Crew** - el sustrato de personal: horarios, control horario, preparacion de nominas, RR. HH. y people intelligence\n4. **Watchtower** - inteligencia de mercado externa, dimensionada junto a tu paquete Core\n\n**Ademas:** conceptos para los modelos operativos de tu grupo - franquicia, hotel F&B, cocina en la nube, catering, produccion y comisariato en alquiler.',
+            '**Cuatro productos principales:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - el sustrato de decisión, que lleva los once módulos de dominio\n2. **Foresight & Action** - previsiones, modelado de escenarios y la capa de acción con aprobación humana\n3. **Sundae Crew** - el sustrato de personal: horarios, control horario, preparación de nóminas, RR. HH. y people intelligence\n4. **Watchtower** - inteligencia de mercado externa, dimensionada junto a tu paquete Core\n\n**Además:** conceptos para los modelos operativos de tu grupo - franquicia, hotel F&B, cocina en la nube, catering, producción y comisariato en alquiler.',
         },
         {
-          title: '¿Que paquete Core elijo?',
+          title: '¿Qué paquete Core elijo?',
           content:
-            '**Core Foundation si:**\n• Estas saliendo de hojas de calculo y paneles sueltos\n• Quieres una sola imagen operativa antes de profundizar\n\n**Core Margin si:**\n• Tu margen se va en coste de comida, merma, anulaciones o invitaciones\n• Necesitas contribucion por articulo, no solo mix de ventas\n\n**Core Growth si:**\n• El ingreso recurrente y el mix de canales son la restriccion\n• Necesitas cohortes de clientes, atribucion de promociones y margen de delivery\n\n**Core Performance si:**\n• Operas varias marcas o varios mercados\n• Necesitas consolidacion, correlacion entre modulos y acceso gobernado',
+            '**Core Foundation si:**\n• Estás saliendo de hojas de cálculo y paneles sueltos\n• Quieres una sola imagen operativa antes de profundizar\n\n**Core Margin si:**\n• Tu margen se va en coste de comida, merma, anulaciones o invitaciones\n• Necesitas contribución por artículo, no solo mix de ventas\n\n**Core Growth si:**\n• El ingreso recurrente y el mix de canales son la restricción\n• Necesitas cohortes de clientes, atribución de promociones y margen de delivery\n\n**Core Performance si:**\n• Operas varias marcas o varios mercados\n• Necesitas consolidación, correlación entre módulos y acceso gobernado',
         },
         {
           title: '¿Puedo subir o bajar de plan después?',
@@ -1209,7 +1209,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Qué es el modelo 4D Intelligence?',
           content:
-            'El marco de decision de Sundae:\n\n**1D: Que paso** - la verdad de ventas, personal y coste\n**2D: Plan frente a real** - desviacion de presupuesto y prevision\n**3D: Contexto de mercado** - benchmarks, pares y competidores\n**4D: Que viene** - predicciones y recomendaciones\n\nCada paquete Core cubre las cuatro. El paquete marca cuanto profundiza cada dimension.',
+            'El marco de decisión de Sundae:\n\n**1D: Qué pasó** - la verdad de ventas, personal y coste\n**2D: Plan frente a real** - desviación de presupuesto y previsión\n**3D: Contexto de mercado** - benchmarks, pares y competidores\n**4D: Qué viene** - predicciones y recomendaciones\n\nCada paquete Core cubre las cuatro. El paquete marca cuánto profundiza cada dimensión.',
         },
       ],
     },
@@ -1220,7 +1220,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Qué datos necesita Sundae?',
           content:
-            '**Para cualquier paquete Core:**\n• POS via API\n• Sistema de personal\n• Sistema de inventario\n• Plataformas de marketing\n• Sistema de reservas\n\nSolo con el POS ya obtienes valor el primer dia. El resto profundiza la imagen segun lo vas conectando.',
+            '**Para cualquier paquete Core:**\n• POS via API\n• Sistema de personal\n• Sistema de inventario\n• Plataformas de marketing\n• Sistema de reservas\n\nSolo con el POS ya obtienes valor el primer día. El resto profundiza la imagen según lo vas conectando.',
         },
         {
           title: '¿Cómo meto mis datos en Sundae?',
@@ -1235,12 +1235,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Puedo usar varios POS?',
           content:
-            'Si. Sundae se conecta a parques POS mixtos y normaliza los datos para comparar con el mismo criterio. Core Performance anade encima la consolidacion entre marcas y regiones.',
+            'Sí. Sundae se conecta a parques POS mixtos y normaliza los datos para comparar con el mismo criterio. Core Performance añade encima la consolidación entre marcas y regiones.',
         },
         {
           title: '¿Cuánto tarda la implementación?',
           content:
-            'La mayoria de los grupos estan en produccion en 1 o 2 semanas. Los despliegues multimarca o multirregion mas grandes llevan de 2 a 4 semanas segun el alcance.\n\nLa implantacion es una cuota unica, cobrada una sola vez por la clase mas alta de tu seleccion: desde autoservicio sin coste hasta un compromiso de clase D dimensionado.',
+            'La mayoría de los grupos están en producción en 1 o 2 semanas. Los despliegues multimarca o multirregión más grandes llevan de 2 a 4 semanas según el alcance.\n\nLa implantación es una cuota única, cobrada una sola vez por la clase más alta de tu selección: desde autoservicio sin coste hasta un compromiso de clase D dimensionado.',
         },
         {
           title: '¿Qué pasa con mis datos si cancelo?',
@@ -1261,12 +1261,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Necesito los módulos?',
           content:
-            'No son opcionales ni compras separadas. Los once modulos de dominio vienen con cada paquete Core.\n\nLo que eliges es el paquete, y el paquete marca cuanto profundiza cada modulo.',
+            'No son opcionales ni compras separadas. Los once módulos de dominio vienen con cada paquete Core.\n\nLo que eliges es el paquete, y el paquete marca cuánto profundiza cada módulo.',
         },
         {
-          title: '¿Puedo comprar un solo modulo?',
+          title: '¿Puedo comprar un solo módulo?',
           content:
-            'No. Los once modulos de dominio son componentes de un paquete Core, no productos independientes, y no hay precio por modulo. Elegir un paquete es como los obtienes todos.',
+            'No. Los once módulos de dominio son componentes de un paquete Core, no productos independientes, y no hay precio por módulo. Elegir un paquete es cómo los obtienes todos.',
         },
         {
           title: '¿Añado los módulos de uno en uno?',
@@ -1312,7 +1312,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Watchtower requiere Core?',
           content:
-            'Si. Watchtower funciona mejor cuando sus senales de mercado se superponen a datos operativos en vivo, que es lo que aporta un paquete Core. Se dimensiona y cotiza junto a tu paquete, no por separado.',
+            'Sí. Watchtower funciona mejor cuando sus señales de mercado se superponen a datos operativos en vivo, que es lo que aporta un paquete Core. Se dimensiona y cotiza junto a tu paquete, no por separado.',
         },
       ],
     },
@@ -1323,7 +1323,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Cuánto cuesta Sundae?',
           content:
-            `El precio depende de:\n• Que paquete Core\n• El numero de locales\n• Si incluyes Foresight & Action, Crew o conceptos\n\nLos paquetes Core se tarifican desde un precio ancla en el primer local mas una tarifa marginal por cada local adicional, que baja segun creces. Core Foundation empieza en ${usd(CORE_PACKAGES[0].firstUnitMonthly)} para tu primer local.\n\nPara un precio exacto, usa pricing.sundae.io.`,
+            `El precio depende de:\n• Qué paquete Core\n• El número de locales\n• Si incluyes Foresight & Action, Crew o conceptos\n\nLos paquetes Core se tarifican desde un precio ancla en el primer local más una tarifa marginal por cada local adicional, que baja según creces. Core Foundation empieza en ${usd(CORE_PACKAGES[0].firstUnitMonthly)} para tu primer local.\n\nPara un precio exacto, usa pricing.sundae.io.`,
         },
         {
           title: '¿Hay costes de setup?',
@@ -1354,22 +1354,22 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Cómo funcionan los créditos de inteligencia?',
           content:
-            `Los creditos de inteligencia alimentan preguntas, analisis y recomendaciones. Cada paquete Core lleva una bolsa mensual:\n\n${AI_WALLET_LINES}\n\nSi te la acabas, puedes recargar en cualquier paquete.`,
+            `Los créditos de inteligencia alimentan preguntas, análisis y recomendaciones. Cada paquete Core lleva una bolsa mensual:\n\n${AI_WALLET_LINES}\n\nSi te la acabas, puedes recargar en cualquier paquete.`,
         },
         {
           title: '¿Cuánto histórico tendré disponible?',
           content:
-            'Cada paquete Core conserva todo tu historico conectado con retencion de varios anos. Los acuerdos Enterprise pueden ampliarlo con plazos a medida.',
+            'Cada paquete Core conserva todo tu histórico conectado con retención de varios años. Los acuerdos Enterprise pueden ampliarlo con plazos a medida.',
         },
         {
           title: '¿Con qué frecuencia se actualizan los datos?',
           content:
-            'Core se actualiza durante el turno y no al cierre del dia, de modo que Pulse y los modulos se mueven mientras aun puedes actuar. La cadencia exacta depende de lo que expongan tus sistemas conectados.',
+            'Core se actualiza durante el turno y no al cierre del día, de modo que Pulse y los módulos se mueven mientras aún puedes actuar. La cadencia exacta depende de lo que expongan tus sistemas conectados.',
         },
         {
           title: '¿Tendré dashboards personalizados?',
           content:
-            'Si. Cada paquete Core incluye paneles personalizados ademas de las vistas predefinidas que vienen con cada modulo de dominio.',
+            'Sí. Cada paquete Core incluye paneles personalizados además de las vistas predefinidas que vienen con cada módulo de dominio.',
         },
       ],
     },
@@ -1380,12 +1380,12 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Qué soporte incluye el plan?',
           content:
-            'Cada paquete Core incluye soporte por email, chat y telefono. Los acuerdos Enterprise anaden cobertura 24/7, tiempos de respuesta contractuales y un responsable de Customer Success dedicado.',
+            'Cada paquete Core incluye soporte por email, chat y teléfono. Los acuerdos Enterprise añaden cobertura 24/7, tiempos de respuesta contractuales y un responsable de Customer Success dedicado.',
         },
         {
           title: '¿Ofrecéis formación?',
           content:
-            'Si. La formacion forma parte de la implantacion, una cuota unica cobrada por la clase mas alta de tu seleccion: documentacion de autoservicio sin coste, sesiones guiadas y habilitacion estructurada en las clases superiores.',
+            'Sí. La formación forma parte de la implantación, una cuota única cobrada por la clase más alta de tu selección: documentación de autoservicio sin coste, sesiones guiadas y habilitación estructurada en las clases superiores.',
         },
         {
           title: '¿Qué husos horarios cubrís?',
@@ -1443,7 +1443,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿En qué se diferencia Sundae de los informes POS?',
           content:
-            '**Informes del POS:** un solo sistema, contexto limitado, interpretacion manual\n\n**Sundae Core:** analisis del POS mas benchmarks, recomendaciones y deteccion de patrones, sobre personal, coste y cliente en una sola imagen operativa\n\n**Foresight & Action:** la vista hacia delante encima: previsiones, escenarios y la capa que actua sobre lo que revelan',
+            '**Informes del POS:** un solo sistema, contexto limitado, interpretación manual\n\n**Sundae Core:** análisis del POS más benchmarks, recomendaciones y detección de patrones, sobre personal, coste y cliente en una sola imagen operativa\n\n**Foresight & Action:** la vista hacia delante encima: previsiones, escenarios y la capa que actúa sobre lo que revelan',
         },
         {
           title: '¿En qué se diferencia Sundae de Excel?',
@@ -1453,7 +1453,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Cuánto puedo ahorrar frente a plataformas antiguas?',
           content:
-            'Los operadores suelen reportar un coste total bastante menor, porque un paquete Core ya contiene los once modulos de dominio en vez de acumular tarifas por modulo y por local. La diferencia exacta depende de tu mezcla de herramientas actual y de tu tamano.',
+            'Los operadores suelen reportar un coste total bastante menor, porque un paquete Core ya contiene los once módulos de dominio en vez de acumular tarifas por módulo y por local. La diferencia exacta depende de tu mezcla de herramientas actual y de tu tamaño.',
         },
       ],
     },
@@ -1464,7 +1464,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Solo tengo un local. ¿Sundae sigue teniendo sentido?',
           content:
-            'Si. Un solo local lleva el precio ancla del paquete y nada mas, y obtiene los mismos once modulos que un grupo de cincuenta. Los tramos de locales solo empiezan a importar cuando anades sitios.',
+            'Sí. Un solo local lleva el precio ancla del paquete y nada más, y obtiene los mismos once módulos que un grupo de cincuenta. Los tramos de locales solo empiezan a importar cuando añades sitios.',
         },
         {
           title: 'Gestiono una plataforma de franquicia. ¿Sundae puede ayudar?',

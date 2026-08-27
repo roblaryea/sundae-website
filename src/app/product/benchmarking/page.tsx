@@ -124,7 +124,7 @@ const localizedBenchmarkCopy = {
     ],
     forecastFeatures: ["Prévisions 14-30 jours", "Reconnaissance des saisons", "Prévisions ajustées au marché", "Intervalles de confiance"],
     tiers: [
-      { label: "COUVERTURE", title: "30+ métriques", description: "Performance, efficacité et position marché, normalisées pour comparer a perimetre egal." },
+      { label: "COUVERTURE", title: "30+ métriques", description: "Performance, efficacité et position marché, normalisées pour comparer à périmètre égal." },
       { label: "COHORTE", title: "Pairs anonymisés", description: "Apparies par cuisine, taille, marché et modèle de service. Jamais identifiables." },
       { label: "HISTORIQUE", title: "Rétention pluriannuelle", description: "Votre historique connecté reste avec vous, pour que les tendances aient une base." },
     ],

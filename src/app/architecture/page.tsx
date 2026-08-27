@@ -112,7 +112,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "Explore Products",
     layers: [
       { title: "Decision Intelligence", subtitle: "Top Layer", description: "Benchmarks, insights, forecasting, automated decisions", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "AI Processing", subtitle: "Intelligence Layer", description: "Multi-agent AI, pattern detection, anomaly detection, reasoning", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "AI Processing", subtitle: "Intelligence Layer", description: "Multi-agent AI, pattern detection, anomaly detection, reasoning", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Data Processing", subtitle: "Transformation Layer", description: "Cleaning, transformation, metrics logic, enrichment", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "Data Integration", subtitle: "Unification Layer", description: "POS, labor, inventory, reservations, delivery aggregators, raw data unification", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Foundation / Infrastructure", subtitle: "Base Layer", description: "Secure pipelines, API ingestion, normalization, governance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -177,7 +177,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "استعرض المنتجات",
     layers: [
       { title: "ذكاء القرار", subtitle: "الطبقة العليا", description: "مقارنات، رؤى، توقعات، وقرارات آلية", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "معالجة الذكاء الاصطناعي", subtitle: "طبقة الذكاء", description: "ذكاء متعدد الوكلاء، واكتشاف الأنماط، واكتشاف الشذوذ، والاستدلال", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "معالجة الذكاء الاصطناعي", subtitle: "طبقة الذكاء", description: "ذكاء متعدد الوكلاء، واكتشاف الأنماط، واكتشاف الشذوذ، والاستدلال", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "معالجة البيانات", subtitle: "طبقة التحويل", description: "تنظيف، تحويل، منطق المقاييس، وإثراء البيانات", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "تكامل البيانات", subtitle: "طبقة التوحيد", description: "POS والعمالة والمخزون والحجوزات والتوصيل وتوحيد البيانات الخام", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "الأساس / البنية التحتية", subtitle: "طبقة الأساس", description: "مسارات آمنة، واستقبال عبر API، وتوحيد، وحوكمة", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -222,29 +222,29 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
   fr: {
     badge: "Architecture plateforme",
     title: "Pile d'architecture en cinq couches",
-    description: "De l'ingestion brute a des recommandations utiles pour l equipe, cette architecture montre comment Sundae organise des donnees eparses en un systeme de decision exploitable.",
+    description: "De l'ingestion brute à des recommandations utiles pour l'équipe, cette architecture montre comment Sundae organise des données éparses en un système de décision exploitable.",
     stackTitle: "La pile d'intelligence Sundae",
-    stackDescription: "Cinq couches reliees entre elles pour faire tourner les produits essentiels de Sundae",
-    foundation: "Construite sur une base claire de securite, de gouvernance et de fiabilite",
+    stackDescription: "Cinq couches reliées entre elles pour faire tourner les produits essentiels de Sundae",
+    foundation: "Construite sur une base claire de sécurité, de gouvernance et de fiabilité",
     flowTitle: "Des données aux décisions",
-    flowDescription: "Comment les donnees passent de l ingestion a une lecture exploitable dans le produit",
+    flowDescription: "Comment les données passent de l'ingestion à une lecture exploitable dans le produit",
     agentsTitle: "Moteur IA multi-agents",
-    agentsDescription: "Des agents specialises se repartissent l analyse pour produire une lecture plus utile et plus rapide",
+    agentsDescription: "Des agents spécialisés se répartissent l'analyse pour produire une lecture plus utile et plus rapide",
     modulesTitle: "Modules d'architecture",
-    modulesDescription: "Cinq couches principales qui structurent la circulation des donnees et des analyses dans la plateforme",
+    modulesDescription: "Cinq couches principales qui structurent la circulation des données et des analyses dans la plateforme",
     securityTitle: "Sécurité et conformité d'entreprise",
     securityDescription: "Des standards de sécurité et de conformité de niveau bancaire protègent vos données",
-    engineeringTitle: "Concu avec une ingenierie solide",
-    engineeringDescription: "Une base technique pensee pour la continuite de service, la vitesse et une croissance fiable",
+    engineeringTitle: "Conçu avec une ingénierie solide",
+    engineeringDescription: "Une base technique pensée pour la continuité de service, la vitesse et une croissance fiable",
     ctaTitle: "Voir l'architecture en action",
     ctaDescription: "Réservez une présentation technique avec notre équipe.",
-    ctaPrimary: "Reserver une demo",
+    ctaPrimary: "Réserver une demo",
     ctaSecondary: "Explorer les produits",
     layers: [
       { title: "Intelligence décisionnelle", subtitle: "Couche supérieure", description: "Benchmarks, insights, prévisions, décisions automatisées", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "Traitement IA", subtitle: "Couche intelligence", description: "IA multi-agents, détection de motifs, anomalies, raisonnement", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "Traitement IA", subtitle: "Couche intelligence", description: "IA multi-agents, détection de motifs, anomalies, raisonnement", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Traitement des données", subtitle: "Couche transformation", description: "Nettoyage, transformation, logique métrique, enrichissement", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
-      { title: "Intégration des données", subtitle: "Couche unification", description: "POS, main-d'oeuvre, stock, réservations, livraison, unification brute", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
+      { title: "Intégration des données", subtitle: "Couche unification", description: "POS, main-d'œuvre, stock, réservations, livraison, unification brute", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Fondation / infrastructure", subtitle: "Couche de base", description: "Pipelines sécurisés, ingestion API, normalisation, gouvernance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
@@ -254,11 +254,11 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ],
     agents: [
       { name: "Agents de motifs", description: "Identifient les patterns récurrents, tendances saisonnières et corrélations cachées", icon: "visibility" },
-      { name: "Agents de prévision", description: "Prédissent ventes, besoins en main-d'oeuvre, inventaire et demande opérationnelle", icon: "forecasting" },
+      { name: "Agents de prévision", description: "Prédissent ventes, besoins en main-d'œuvre, inventaire et demande opérationnelle", icon: "forecasting" },
       { name: "Agents de contexte", description: "Comprennent le contexte opérationnel, les spécificités de site et les règles métier", icon: "intelligence" },
     ],
     modules: [
-      { name: "Sundae Core", description: "Couche d'intégration universelle reliant 200+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'oeuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "Couche d'intégration universelle reliant 200+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'œuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "Détection d'anomalies assistée par IA et alertes en temps réel", icon: "pulse", features: ["Détection d'anomalies", "Alertes temps réel", "Analyse de motifs", "Surveillance des seuils"], colorClass: "component-icon--pulse" },
       { name: "Ask Sundae", description: "Moteur d'IA conversationnelle en langage naturel", icon: "forge", features: ["Langage naturel", "Compréhension du contexte", "Moteur de requête", "Réponses IA"], colorClass: "component-icon--forge" },
       { name: "Insights", description: "Couche de visualisation dynamique et d'intelligence de dashboard", icon: "canvas", features: ["Dashboards temps réel", "Vues personnalisées", "Analytique visuelle", "Rapports interactifs"], colorClass: "component-icon--canvas" },
@@ -287,27 +287,27 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
   es: {
     badge: "Arquitectura de plataforma",
     title: "Pila de arquitectura de cinco capas",
-    description: "Desde la ingesta de datos en bruto hasta recomendaciones utiles para el equipo, esta arquitectura muestra como Sundae ordena datos dispersos y los convierte en un sistema de decision util.",
+    description: "Desde la ingesta de datos en bruto hasta recomendaciones útiles para el equipo, esta arquitectura muestra cómo Sundae ordena datos dispersos y los convierte en un sistema de decisión útil.",
     stackTitle: "La pila de inteligencia de Sundae",
-    stackDescription: "Cinco capas conectadas entre si para sostener los productos principales de Sundae",
+    stackDescription: "Cinco capas conectadas entre sí para sostener los productos principales de Sundae",
     foundation: "Construida sobre una base clara de seguridad, gobernanza y fiabilidad",
     flowTitle: "De datos a decisiones",
-    flowDescription: "Como pasan los datos desde la ingesta hasta una lectura util dentro del producto",
+    flowDescription: "Cómo pasan los datos desde la ingesta hasta una lectura útil dentro del producto",
     agentsTitle: "Motor de IA multiagente",
-    agentsDescription: "Agentes especializados se reparten el analisis para entregar una lectura mas util y mas rapida",
+    agentsDescription: "Agentes especializados se reparten el análisis para entregar una lectura más útil y más rápida",
     modulesTitle: "Módulos de arquitectura",
-    modulesDescription: "Cinco capas principales que ordenan como circulan los datos y el analisis por la plataforma",
+    modulesDescription: "Cinco capas principales que ordenan cómo circulan los datos y el análisis por la plataforma",
     securityTitle: "Seguridad y cumplimiento empresarial",
     securityDescription: "Estándares de seguridad y cumplimiento de nivel bancario protegen tus datos",
-    engineeringTitle: "Construido con ingenieria solida",
-    engineeringDescription: "Una base tecnica pensada para continuidad operativa, velocidad y crecimiento fiable",
+    engineeringTitle: "Construido con ingeniería sólida",
+    engineeringDescription: "Una base técnica pensada para continuidad operativa, velocidad y crecimiento fiable",
     ctaTitle: "Ver la arquitectura en acción",
     ctaDescription: "Reserva una visita técnica con nuestro equipo.",
     ctaPrimary: "Reservar una demo",
     ctaSecondary: "Explorar productos",
     layers: [
       { title: "Inteligencia de decisiones", subtitle: "Capa superior", description: "Benchmarks, insights, forecasting, decisiones automatizadas", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "Procesamiento de IA", subtitle: "Capa de inteligencia", description: "IA multiagente, detección de patrones, anomalías y razonamiento", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "Procesamiento de IA", subtitle: "Capa de inteligencia", description: "IA multiagente, detección de patrones, anomalías y razonamiento", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Procesamiento de datos", subtitle: "Capa de transformación", description: "Limpieza, transformación, lógica de métricas, enriquecimiento", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "Integración de datos", subtitle: "Capa de unificación", description: "POS, personal, inventario, reservas, delivery y unificación de datos", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Base / infraestructura", subtitle: "Capa base", description: "Pipelines seguros, ingesta API, normalización, gobernanza", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -395,7 +395,7 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.flowTitle}</h2>
@@ -443,7 +443,7 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.modulesTitle}</h2>
@@ -502,7 +502,7 @@ export default function ArchitecturePage() {
             </FadeUp>
 
             <FadeUp delay={0.15}>
-              <div className="bg-gradient-to-br from-stone-50 to-orange-50/30 rounded-2xl p-8 shadow-xl border-2 border-[var(--border-default)]">
+              <div className="bg-white/[0.03] rounded-2xl p-8 shadow-xl border border-[var(--border-default)]">
                 <div className="text-center mb-6">
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                     <SundaeIcon name="success" size="xl" className="text-white" />

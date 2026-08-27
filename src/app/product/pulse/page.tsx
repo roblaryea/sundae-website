@@ -39,7 +39,7 @@ const localizedPulseCopy = {
     },
     quickGrid: {
       heading: "10 Capabilities. One Operational Nerve Center.",
-      description: "Pulse monitors your operation in real time and coaches your team when things go off-track.",
+      description: "Pulse monitors your operation in real time and coaches your team when things go off-track - then routes each fix to an accountable owner and measures the recovered margin back against baseline.",
       capabilities: [
         "Adaptive Targets",
         "Sales Pacing",
@@ -118,7 +118,7 @@ const localizedPulseCopy = {
         title: "Leakage Monitoring",
         headline: "Voids, Comps and Discounts, Against Your Own Baseline",
         description:
-          "Voids, discounts, comps, and refunds - tracked in real time against your baselines. Pulse flags when leakage rates spike, identifies the servers, items, and time windows involved, and alerts you before small issues become expensive patterns.",
+          "Voids, discounts, comps, and refunds - tracked in real time against your baselines. Pulse flags when leakage rates spike, identifies the servers, items, and time windows involved, and alerts you before small issues become expensive patterns - then routes the fix to an accountable owner and measures the recovered margin back against baseline.",
         capabilities: [
           "Real-time void, discount, and comp tracking",
           "Server-level leakage attribution",
@@ -131,7 +131,7 @@ const localizedPulseCopy = {
         title: "Sundae Coach",
         headline: "Prioritized Actions, Not Dashboards",
         description:
-          "Sundae Coach monitors all signals in real time and surfaces prioritized, actionable recommendations based on live data. Not generic tips - specific actions tied to what's happening on your floor right now.",
+          "Sundae Coach monitors all signals in real time and surfaces prioritized, actionable recommendations based on live data. Not generic tips - specific actions tied to what's happening on your floor right now, each routed to the owner on shift with the recovery measured back against baseline.",
         capabilities: [
           "Real-time contextual recommendations",
           "Prioritized by revenue impact",
@@ -251,7 +251,7 @@ const localizedPulseCopy = {
     },
     quickGrid: {
       heading: "10 قدرات. مركز اعصاب تشغيلي واحد.",
-      description: "يراقب Pulse عملياتك لحظة بلحظة ويدرب فريقك عندما تخرج الامور عن المسار.",
+      description: "يراقب Pulse عملياتك لحظة بلحظة ويدرب فريقك عندما تخرج الامور عن المسار - ثم يوجّه كل إصلاح إلى مالك مسؤول ويقيس الهامش المُستَرد مقابل خط الأساس.",
       capabilities: [
         "الاهداف التكيفية",
         "وتيرة المبيعات",
@@ -330,7 +330,7 @@ const localizedPulseCopy = {
         title: "مراقبة التسرب",
         headline: "الإلغاءات والمجانيات والخصومات، مقابل خط أساسك أنت",
         description:
-          "الإلغاءات والخصومات والهدايا والاستردادات - تتبع في الوقت الحقيقي مقابل خطوطك الاساسية. يحدد Pulse عندما ترتفع معدلات التسرب، ويعرف الموظفين والاصناف والنافذات الزمنية المرتبطة، وينبهك قبل ان تتحول المشكلات الصغيرة الى انماط مكلفة.",
+          "الإلغاءات والخصومات والهدايا والاستردادات - تتبع في الوقت الحقيقي مقابل خطوطك الاساسية. يحدد Pulse عندما ترتفع معدلات التسرب، ويعرف الموظفين والاصناف والنافذات الزمنية المرتبطة، وينبهك قبل ان تتحول المشكلات الصغيرة الى انماط مكلفة - ثم يوجّه الإصلاح إلى مالك مسؤول ويقيس الهامش المُستَرد مقابل خط الأساس.",
         capabilities: [
           "تتبع الوقت الحقيقي للإلغاء والخصم والهدايا",
           "نسبة التسرب على مستوى الموظف",
@@ -343,7 +343,7 @@ const localizedPulseCopy = {
         title: "Sundae Coach",
         headline: "اجراءات مرتبة حسب الاولوية، لا لوحات",
         description:
-          "يراقب Sundae Coach جميع الاشارات في الوقت الحقيقي ويعرض توصيات قابلة للتنفيذ ومرتبة حسب الاولويات استناداً الى البيانات الحية. ليست نصائح عامة - بل اجراءات محددة مرتبطة بما يحدث على الارض الان.",
+          "يراقب Sundae Coach جميع الاشارات في الوقت الحقيقي ويعرض توصيات قابلة للتنفيذ ومرتبة حسب الاولويات استناداً الى البيانات الحية. ليست نصائح عامة - بل اجراءات محددة مرتبطة بما يحدث على الارض الان، مع توجيه كل إجراء إلى المالك المسؤول في الوردية وقياس التعافي مقابل خط الأساس.",
         capabilities: [
           "توصيات سياقية في الوقت الحقيقي",
           "مرتبة بحسب اثر الايراد",
@@ -453,21 +453,21 @@ const localizedPulseCopy = {
   },
   fr: {
     hero: {
-      badge: "Pulse - Operations intra-journee",
-      title: "Un mauvais service ne se rejoue pas. Pulse le detecte en direct.",
+      badge: "Pulse - Opérations intra-journée",
+      title: "2K$ perdus par mauvais service. Pulse les détecte en direct.",
       description:
-        "Rythme du revenu, cout de main-d'oeuvre, performance des serveurs et detection des fuites - mis a jour toutes les 5 minutes. Des objectifs adaptatifs qui apprennent vos habitudes, la saisonnalite et les evenements locaux. Agissez avant que cela ne coute.",
-      primary: "Reserver une demo",
+        "Rythme du revenu, coût de main-d'œuvre, performance des serveurs et détection des fuites - mis à jour toutes les 5 minutes. Des objectifs adaptatifs qui apprennent vos habitudes, la saisonnalité et les événements locaux. Agissez avant que cela ne coûte.",
+      primary: "Réserver une démo",
       secondary: "Voir Pulse en action",
       note: "Disponible dans les plans Sundae Core.",
     },
     quickGrid: {
-      heading: "10 capacites. Un seul centre nerveux operationnel.",
-      description: "Pulse surveille votre operation en temps reel et coache votre equipe quand quelque chose deraille.",
+      heading: "10 capacités. Un seul centre nerveux opérationnel.",
+      description: "Pulse surveille votre opération en temps réel et coache votre équipe quand quelque chose déraille - puis achemine chaque correctif vers un responsable désigné et mesure la marge récupérée par rapport à la référence.",
       capabilities: [
         "Objectifs adaptatifs",
         "Rythme des ventes",
-        "Productivite de la main-d'oeuvre",
+        "Productivité de la main-d'œuvre",
         "Analyses des serveurs",
         "Suivi des fuites",
         "Sundae Coach",
@@ -478,114 +478,114 @@ const localizedPulseCopy = {
       ],
     },
     featuresIntro: {
-      eyebrow: "DETAIL",
-      heading: "Chaque fonctionnalite, en detail",
+      eyebrow: "DÉTAIL",
+      heading: "Chaque fonctionnalité, en détail",
     },
     blocks: [
       {
-        title: "Objectifs d intelligence adaptative",
-        headline: "Des objectifs qui apprennent votre activite",
+        title: "Objectifs d'intelligence adaptative",
+        headline: "Des objectifs qui apprennent votre activité",
         description:
-          "Pulse analyse votre historique de ventes, detecte les anomalies, cartographie les tendances d une annee sur l autre et ajuste automatiquement les evenements du calendrier comme le Ramadan, les jours feries et la saisonnalite locale. Definissez une ambition de croissance. Le systeme calcule des objectifs quotidiens pour chaque site.",
+          "Pulse analyse votre historique de ventes, détecte les anomalies, cartographie les tendances d'une année sur l'autre et ajuste automatiquement les événements du calendrier comme le Ramadan, les jours fériés et la saisonnalité locale. Définissez une ambition de croissance. Le système calcule des objectifs quotidiens pour chaque site.",
         capabilities: [
-          "Cartographie des objectifs hebdomadaires d une annee sur l autre",
+          "Cartographie des objectifs hebdomadaires d'une année sur l'autre",
           "Multiplicateurs de croissance configurables",
-          "Detection d anomalies avec marquage en un clic",
-          "Conscience des evenements du calendrier (Ramadan, Eid, NYE)",
-          "Detection des changements de tendance avec alertes proactives",
-          "Simulation et apercu des objectifs futurs",
+          "Détection d'anomalies avec marquage en un clic",
+          "Conscience des événements du calendrier (Ramadan, Eid, NYE)",
+          "Détection des changements de tendance avec alertes proactives",
+          "Simulation et aperçu des objectifs futurs",
         ],
         icon: "intelligence" as SundaeIconName,
       },
       {
         title: "Suivi des ventes et du rythme",
-        headline: "Savoir ou vous en etes, chaque heure",
+        headline: "Savoir où vous en êtes, chaque heure",
         description:
-          "Cadence des ventes en temps reel par rapport a vos objectifs, decoupee par tranche horaire. Revenu attendu a ce stade du service, ecart a l objectif, rythme de rattrapage necessaire et tendance du jour.",
+          "Cadence des ventes en temps réel par rapport à vos objectifs, découpée par tranche horaire. Revenu attendu à ce stade du service, écart à l'objectif, rythme de rattrapage nécessaire et tendance du jour.",
         capabilities: [
-          "Cadence intrajournee par tranches configurables",
-          "Calculs temps reel de l ecart a l objectif",
+          "Cadence intrajournée par tranches configurables",
+          "Calculs temps réel de l'écart à l'objectif",
           "Visualisation horaire des tendances de revenu",
           "Vue portefeuille multi-sites avec statut RAG",
         ],
         icon: "chart" as SundaeIconName,
       },
       {
-        title: "Productivite de la main-d'oeuvre",
-        headline: "Du headcount a la productivite",
+        title: "Productivité de la main-d'œuvre",
+        headline: "Du headcount à la productivité",
         description:
-          "La main-d'oeuvre n est pas qu une question d heures - c est un resultat. Ventes par heure de travail, couverts par heure de travail et indice de productivite compose - en temps reel. Voyez quels services sont surstaffes, lesquels generent le plus de revenu par heure et ce que coute vraiment chaque service.",
+          "La main-d'œuvre n'est pas qu'une question d'heures - c'est un résultat. Ventes par heure de travail, couverts par heure de travail et indice de productivité composé - en temps réel. Voyez quels services sont surstaffés, lesquels génèrent le plus de revenu par heure et ce que coûte vraiment chaque service.",
         capabilities: [
-          "SPLH et CPLH en temps reel",
-          "Ratio de cout de main-d'oeuvre vs objectif",
-          "Cout par service avec detail par employe",
-          "Suivi des tendances de productivite sur 14 jours",
-          "Taux horaires configurables par role",
+          "SPLH et CPLH en temps réel",
+          "Ratio de coût de main-d'œuvre vs objectif",
+          "Coût par service avec détail par employé",
+          "Suivi des tendances de productivité sur 14 jours",
+          "Taux horaires configurables par rôle",
         ],
         icon: "benchmarking" as SundaeIconName,
       },
       {
         title: "Performance des serveurs",
-        headline: "Voir qui genere le revenu",
+        headline: "Voir qui génère le revenu",
         description:
-          "Un classement en direct des serveurs selon le revenu, le ticket moyen, les couverts, le taux de vente additionnelle et un score de productivite compose. Filtrez par heure, phase de service ou periode de comparaison. Utilisez-le pour le coaching, les incentives et les decisions de staffing.",
+          "Un classement en direct des serveurs selon le revenu, le ticket moyen, les couverts, le taux de vente additionnelle et un score de productivité composé. Filtrez par heure, phase de service ou période de comparaison. Utilisez-le pour le coaching, les incentives et les décisions de staffing.",
         capabilities: [
-          "Filtrer par heure, phase ou plage personnalisee",
-          "Comparer a hier ou a la moyenne 4 semaines",
-          "Score de productivite compose (0-100)",
-          "Detail serveur individuel avec graphiques",
-          "Points forts et axes d amelioration detectes automatiquement",
+          "Filtrer par heure, phase ou plage personnalisée",
+          "Comparer à hier ou à la moyenne 4 semaines",
+          "Score de productivité composé (0-100)",
+          "Détail serveur individuel avec graphiques",
+          "Points forts et axes d'amélioration détectés automatiquement",
         ],
         icon: "multiLocation" as SundaeIconName,
       },
       {
         title: "Suivi des fuites",
-        headline: "Annulations, offerts et remises, face a votre propre reference",
+        headline: "2 à 5% du revenu fuit chaque mois",
         description:
-          "Voids, remises, comps et remboursements - suivis en temps reel par rapport a vos bases. Pulse signale les pics de fuite, identifie les serveurs, articles et plages horaires impliquees et vous alerte avant que de petits ecarts deviennent des habitudes couteuses.",
+          "Voids, remises, comps et remboursements - suivis en temps réel par rapport à vos bases. Pulse signale les pics de fuite, identifie les serveurs, articles et plages horaires impliquées et vous alerte avant que de petits écarts deviennent des habitudes coûteuses - puis achemine le correctif vers un responsable désigné et mesure la marge récupérée par rapport à la référence.",
         capabilities: [
-          "Suivi en temps reel des voids, remises et comps",
+          "Suivi en temps réel des voids, remises et comps",
           "Attribution des fuites au niveau serveur",
-          "Detection des pics par rapport aux lignes de base",
-          "Alertes automatisees pour les schémas anormaux",
+          "Détection des pics par rapport aux lignes de base",
+          "Alertes automatisées pour les schémas anormaux",
         ],
         icon: "cost" as SundaeIconName,
       },
       {
         title: "Sundae Coach",
-        headline: "Actions priorisees, pas des tableaux",
+        headline: "Actions priorisées, pas des tableaux",
         description:
-          "Sundae Coach surveille tous les signaux en temps reel et fait remonter des recommandations prioritaires et actionnables basees sur les donnees en direct. Pas des conseils generiques - des actions precises liees a ce qui se passe sur le terrain maintenant.",
+          "Sundae Coach surveille tous les signaux en temps réel et fait remonter des recommandations prioritaires et actionnables basées sur les données en direct. Pas des conseils génériques - des actions précises liées à ce qui se passe sur le terrain maintenant, chacune confiée au responsable en poste, avec la récupération mesurée par rapport à la référence.",
         capabilities: [
-          "Recommandations contextuelles en temps reel",
-          "Priorisees par impact revenu",
-          "Basees sur les donnees Pulse live",
-          "Playbooks configurables par scenario",
+          "Recommandations contextuelles en temps réel",
+          "Priorisées par impact revenu",
+          "Basées sur les données Pulse live",
+          "Playbooks configurables par scénario",
         ],
         icon: "intelligence" as SundaeIconName,
       },
       {
         title: "Alertes et playbooks",
-        headline: "Des reponses automatisees quand c est important",
+        headline: "Des réponses automatisées quand c'est important",
         description:
-          "Definissez des seuils. Recevez une alerte. Agissez vite. Les workflows automatisees declenchent des exceptions - des anomalies de void aux pics de cout de main-d'oeuvre - avec des chemins d escalation integres.",
+          "Définissez des seuils. Recevez une alerte. Agissez vite. Les workflows automatisées déclenchent des exceptions - des anomalies de void aux pics de coût de main-d'œuvre - avec des chemins d'escalation intégrés.",
         capabilities: [
-          "Declencheurs d alertes basees sur des seuils",
-          "Workflows de notification automatise",
+          "Déclencheurs d'alertes basées sur des seuils",
+          "Workflows de notification automatisé",
           "Playbooks configurables par exception",
-          "Chemins d escalation en temps reel",
+          "Chemins d'escalation en temps réel",
         ],
         icon: "forecasting" as SundaeIconName,
       },
       {
         title: "Scorecard de service",
-        headline: "Resume de performance de fin de service",
+        headline: "Résumé de performance de fin de service",
         description:
-          "Chaque service est note. Revenu, couverts, ticket moyen, cout de main-d'oeuvre, fuites et faits marquants des serveurs - le tout resume dans une seule vue. Partagez-le avec votre equipe ou consultez-le le lendemain matin.",
+          "Chaque service est noté. Revenu, couverts, ticket moyen, coût de main-d'œuvre, fuites et faits marquants des serveurs - le tout résumé dans une seule vue. Partagez-le avec votre équipe ou consultez-le le lendemain matin.",
         capabilities: [
-          "Resume KPI sur tous les sites",
+          "Résumé KPI sur tous les sites",
           "Note de service avec points forts et faibles",
-          "Axes d amelioration detectes automatiquement",
+          "Axes d'amélioration détectés automatiquement",
           "Rapport de service partageable",
         ],
         icon: "report" as SundaeIconName,
@@ -594,25 +594,25 @@ const localizedPulseCopy = {
         title: "Classement du portefeuille",
         headline: "Comparez chaque site en direct",
         description:
-          "Comparaison de performance multi-sites avec suivi des series et classement concurrentiel. Voyez quels sites performent et lesquels demandent de l attention - avant la fin de la journee.",
+          "Comparaison de performance multi-sites avec suivi des séries et classement concurrentiel. Voyez quels sites performent et lesquels demandent de l'attention - avant la fin de la journée.",
         capabilities: [
           "Classement cross-site",
-          "Suivi des series et indicateurs de tendance",
-          "Detail par site",
-          "Signalement des sites a risque",
+          "Suivi des séries et indicateurs de tendance",
+          "Détail par site",
+          "Signalement des sites à risque",
         ],
         icon: "multiLocation" as SundaeIconName,
       },
       {
         title: "Mode wallboard",
-        headline: "Mettez Pulse sur grand ecran",
+        headline: "Mettez Pulse sur grand écran",
         description:
-          "Un affichage optimise TV pour les pass-through cuisine, les bureaux de direction et les espaces equipe. Rotation automatique entre les sites, priorisation des sites a risque, et vue partagee du service.",
+          "Un affichage optimisé TV pour les pass-through cuisine, les bureaux de direction et les espaces équipe. Rotation automatique entre les sites, priorisation des sites à risque, et vue partagée du service.",
         capabilities: [
-          "Affichage 16:9 optimise TV",
+          "Affichage 16:9 optimisé TV",
           "Rotation automatique entre sites",
-          "Priorisation des sites a risque",
-          "Frequence de rafraichissement et metriques configurables",
+          "Priorisation des sites à risque",
+          "Fréquence de rafraîchissement et métriques configurables",
         ],
         icon: "canvas" as SundaeIconName,
       },
@@ -622,25 +622,25 @@ const localizedPulseCopy = {
         eyebrow: "INTELLIGENCE QUI APPREND",
         heading: "Des objectifs plus intelligents chaque semaine",
         description:
-          "La plupart des plateformes vous forcent a definir les objectifs manuellement - ou a copier la semaine precedente. Le moteur d intelligence adaptative de Sundae analyse l ensemble de votre historique de ventes, detecte les anomalies et la saisonnalite, associe les evenements du calendrier a leur impact reel sur le revenu et genere des objectifs prospectifs qui refletent votre rythme reel. Marquez un evenement ponctuel et il sera exclu. Marquez un evenement recurrent et le systeme s ajustera l annee suivante automatiquement.",
+          "La plupart des plateformes vous forcent à définir les objectifs manuellement - ou à copier la semaine précédente. Le moteur d'intelligence adaptative de Sundae analyse l'ensemble de votre historique de ventes, détecte les anomalies et la saisonnalité, associe les événements du calendrier à leur impact réel sur le revenu et génère des objectifs prospectifs qui reflètent votre rythme réel. Marquez un événement ponctuel et il sera exclu. Marquez un événement récurrent et le système s'ajustera l'année suivante automatiquement.",
       },
       server: {
         eyebrow: "INTELLIGENCE SERVEUR",
-        heading: "Du classement a l outil de coaching",
+        heading: "Du classement à l'outil de coaching",
         description:
-          "Voyez qui genere le revenu et qui a besoin de soutien - en temps reel. Filtrez par heure, par phase de service ou comparez a la semaine precedente. Chaque serveur recoit un score de productivite, un detail horaire et des points forts/axes d amelioration detectes automatiquement. Les meilleurs restaurants ne se contentent pas de suivre les serveurs - ils les developpent.",
+          "Voyez qui génère le revenu et qui a besoin de soutien - en temps réel. Filtrez par heure, par phase de service ou comparez à la semaine précédente. Chaque serveur reçoit un score de productivité, un détail horaire et des points forts/axes d'amélioration détectés automatiquement. Les meilleurs restaurants ne se contentent pas de suivre les serveurs - ils les développent.",
       },
       cost: {
-        eyebrow: "COUT DE SERVICE",
-        heading: "Savoir ce que coute chaque service",
+        eyebrow: "COÛT DE SERVICE",
+        heading: "Savoir ce que coûte chaque service",
         description:
-          "Votre service du matin tourne avec 4 personnes pendant 8 heures. Votre service du soir avec 8 personnes pendant 5 heures. Lequel est vraiment rentable ? Pulse detaille le cout de chaque service - par role, par personne - et le compare au revenu genere. Voyez votre ratio de cout de main-d'oeuvre par service, identifiez le surstaffing et prenez de meilleures decisions de planning.",
+          "Votre service du matin tourne avec 4 personnes pendant 8 heures. Votre service du soir avec 8 personnes pendant 5 heures. Lequel est vraiment rentable ? Pulse détaille le coût de chaque service - par rôle, par personne - et le compare au revenu généré. Voyez votre ratio de coût de main-d'œuvre par service, identifiez le surstaffing et prenez de meilleures décisions de planning.",
       },
     },
     cta: {
-      title: "Arretez de gerer les services a l aveugle",
-      description: "Pulse est inclus dans chaque plan Sundae Core. Voyez ce qui se passe maintenant - pas a la fin de la journee.",
-      primary: "Reserver une demo",
+      title: "Arrêtez de gérer les services à l'aveugle",
+      description: "Pulse est inclus dans chaque plan Sundae Core. Voyez ce qui se passe maintenant - pas à la fin de la journée.",
+      primary: "Réserver une démo",
       secondary: "Commencer gratuitement",
     },
     heroMockup: {
@@ -651,7 +651,7 @@ const localizedPulseCopy = {
         { label: "Revenu", value: "$14,280", trend: "+12% vs objectif", trendUp: true },
         { label: "Couverts", value: "287", trend: "+12 vs plan", trendUp: true, color: "#22C55E" },
         { label: "Ticket moyen", value: "$49.50", trend: "-2.1%", trendUp: false, color: "#FBBF24" },
-        { label: "Main-d'oeuvre %", value: "28.4%", trend: "Sous l objectif de 30%", trendUp: true, color: "#22C55E" },
+        { label: "Main-d'œuvre %", value: "28.4%", trend: "Sous l'objectif de 30%", trendUp: true, color: "#22C55E" },
       ],
       paceLabel: "Rythme du revenu",
       tableHeaders: ["Serveur", "Ventes", "Ventes additionnelles %", "Ticket moyen"],
@@ -665,22 +665,22 @@ const localizedPulseCopy = {
   },
   es: {
     hero: {
-      badge: "Pulse - Operaciones intradia",
-      title: "Un turno malo no se repite. Pulse lo detecta en vivo.",
+      badge: "Pulse - Operaciones intradía",
+      title: "Pérdida de $2K por cada turno malo. Pulse la detecta en vivo.",
       description:
-        "Ritmo de ingresos, costo laboral, rendimiento de servidores y deteccion de fugas - actualizandose cada 5 minutos. Objetivos adaptativos que aprenden tus patrones, estacionalidad y eventos locales. Actua antes de que te cueste.",
+        "Ritmo de ingresos, costo laboral, rendimiento de servidores y detección de fugas - actualizándose cada 5 minutos. Objetivos adaptativos que aprenden tus patrones, estacionalidad y eventos locales. Actúa antes de que te cueste.",
       primary: "Reservar demo",
-      secondary: "Ver Pulse en accion",
+      secondary: "Ver Pulse en acción",
       note: "Disponible en los planes Sundae Core.",
     },
     quickGrid: {
       heading: "10 capacidades. Un solo centro nervioso operativo.",
-      description: "Pulse monitorea tu operacion en tiempo real y entrena a tu equipo cuando algo se sale del rumbo.",
+      description: "Pulse monitorea tu operación en tiempo real y entrena a tu equipo cuando algo se sale del rumbo - luego dirige cada corrección a un responsable asignado y mide el margen recuperado frente a la línea de base.",
       capabilities: [
         "Objetivos adaptativos",
         "Ritmo de ventas",
         "Productividad laboral",
-        "Analisis de servidores",
+        "Análisis de servidores",
         "Monitoreo de fugas",
         "Sundae Coach",
         "Alertas y playbooks",
@@ -698,26 +698,26 @@ const localizedPulseCopy = {
         title: "Objetivos de inteligencia adaptativa",
         headline: "Objetivos que aprenden tu negocio",
         description:
-          "Pulse analiza tu historico de ventas, detecta anomalías, mapea patrones año contra año y ajusta eventos de calendario como Ramadan, feriados y estacionalidad local - automaticamente. Define una ambicion de crecimiento. El sistema calcula objetivos diarios para cada local.",
+          "Pulse analiza tu histórico de ventas, detecta anomalías, mapea patrones año contra año y ajusta eventos de calendario como Ramadan, feriados y estacionalidad local - automáticamente. Define una ambición de crecimiento. El sistema calcula objetivos diarios para cada local.",
         capabilities: [
           "Mapeo semanal de objetivos año contra año",
           "Multiplicadores de crecimiento configurables",
-          "Deteccion de anomalías con etiquetado de un clic",
+          "Detección de anomalías con etiquetado de un clic",
           "Conciencia de eventos de calendario (Ramadan, Eid, NYE)",
-          "Deteccion de cambios de tendencia con alertas proactivas",
-          "Simulacion y vista previa de objetivos futuros",
+          "Detección de cambios de tendencia con alertas proactivas",
+          "Simulación y vista previa de objetivos futuros",
         ],
         icon: "intelligence" as SundaeIconName,
       },
       {
         title: "Seguimiento de ventas y ritmo",
-        headline: "Sabe donde estas, cada hora",
+        headline: "Sabe dónde estás, cada hora",
         description:
-          "Ritmo de ventas en tiempo real contra tus objetivos, dividido por parte del dia. Ingreso esperado hasta este punto del turno, brecha al objetivo, ritmo de recuperacion necesario y si vas a superar o quedar por debajo del dia.",
+          "Ritmo de ventas en tiempo real contra tus objetivos, dividido por parte del día. Ingreso esperado hasta este punto del turno, brecha al objetivo, ritmo de recuperación necesario y si vas a superar o quedar por debajo del día.",
         capabilities: [
-          "Ritmo intradia con partes del dia configurables",
-          "Calculos de brecha al objetivo en tiempo real",
-          "Visualizacion horaria de tendencias de ingresos",
+          "Ritmo intradía con partes del día configurables",
+          "Cálculos de brecha al objetivo en tiempo real",
+          "Visualización horaria de tendencias de ingresos",
           "Vista de cartera multi-local con estado RAG",
         ],
         icon: "chart" as SundaeIconName,
@@ -726,27 +726,27 @@ const localizedPulseCopy = {
         title: "Productividad laboral",
         headline: "De headcount a productividad",
         description:
-          "La mano de obra no son solo horas - es output. Ventas por hora laboral, cubiertos por hora laboral e indice compuesto de productividad - en tiempo real. Mira que turnos estan sobredimensionados, cuales generan mas ingresos por hora y cuanto cuesta realmente cada turno.",
+          "La mano de obra no son solo horas - es output. Ventas por hora laboral, cubiertos por hora laboral e índice compuesto de productividad - en tiempo real. Mira qué turnos están sobredimensionados, cuáles generan más ingresos por hora y cuánto cuesta realmente cada turno.",
         capabilities: [
           "SPLH y CPLH en tiempo real",
           "Ratio de costo laboral vs objetivo",
           "Costo por turno con detalle por empleado",
-          "Seguimiento de tendencia de productividad por 14 dias",
+          "Seguimiento de tendencia de productividad por 14 días",
           "Tarifas por hora configurables por rol",
         ],
         icon: "benchmarking" as SundaeIconName,
       },
       {
         title: "Rendimiento de servidores",
-        headline: "Ve quien impulsa ingresos",
+        headline: "Ve quién impulsa ingresos",
         description:
-          "Leaderboard en vivo que clasifica servidores por ingresos, ticket promedio, cubiertos, venta adicional y una puntuacion compuesta de productividad. Filtra por hora, fase de servicio o periodo de comparacion. Usalo para coaching, incentivos y decisiones de staffing.",
+          "Leaderboard en vivo que clasifica servidores por ingresos, ticket promedio, cubiertos, venta adicional y una puntuación compuesta de productividad. Filtra por hora, fase de servicio o periodo de comparación. Úsalo para coaching, incentivos y decisiones de staffing.",
         capabilities: [
           "Filtrar por hora, fase o rango personalizado",
           "Comparar vs ayer o promedio de 4 semanas",
-          "Puntuacion compuesta de productividad (0-100)",
-          "Detalle individual con graficos",
-          "Fortalezas y areas de mejora detectadas automaticamente",
+          "Puntuación compuesta de productividad (0-100)",
+          "Detalle individual con gráficos",
+          "Fortalezas y áreas de mejora detectadas automáticamente",
         ],
         icon: "multiLocation" as SundaeIconName,
       },
@@ -754,11 +754,11 @@ const localizedPulseCopy = {
         title: "Monitoreo de fugas",
         headline: "Anulaciones, invitaciones y descuentos, frente a tu propia referencia",
         description:
-          "Void, descuentos, comps y reembolsos - rastreados en tiempo real contra tus bases. Pulse marca cuando suben las fugas, identifica los servidores, items y ventanas de tiempo involucradas, y te alerta antes de que los pequenos problemas se vuelvan patrones costosos.",
+          "Void, descuentos, comps y reembolsos - rastreados en tiempo real contra tus bases. Pulse marca cuando suben las fugas, identifica los servidores, items y ventanas de tiempo involucradas, y te alerta antes de que los pequeños problemas se vuelvan patrones costosos - luego dirige la corrección a un responsable asignado y mide el margen recuperado frente a la línea de base.",
         capabilities: [
           "Seguimiento en tiempo real de voids, descuentos y comps",
-          "Atribucion de fugas a nivel servidor",
-          "Deteccion de picos contra bases moviles",
+          "Atribución de fugas a nivel servidor",
+          "Detección de picos contra bases móviles",
           "Alertas automatizadas para patrones anómalos",
         ],
         icon: "cost" as SundaeIconName,
@@ -767,7 +767,7 @@ const localizedPulseCopy = {
         title: "Sundae Coach",
         headline: "Acciones priorizadas, no dashboards",
         description:
-          "Sundae Coach monitorea todas las señales en tiempo real y muestra recomendaciones priorizadas y accionables basadas en datos vivos. No consejos genericos - acciones especificas ligadas a lo que pasa en tu piso ahora mismo.",
+          "Sundae Coach monitorea todas las señales en tiempo real y muestra recomendaciones priorizadas y accionables basadas en datos vivos. No consejos genéricos - acciones específicas ligadas a lo que pasa en tu piso ahora mismo, cada una asignada al responsable de turno, con la recuperación medida frente a la línea de base.",
         capabilities: [
           "Recomendaciones contextuales en tiempo real",
           "Priorizadas por impacto en ingresos",
@@ -780,11 +780,11 @@ const localizedPulseCopy = {
         title: "Alertas y playbooks",
         headline: "Respuestas automatizadas cuando importa",
         description:
-          "Define umbrales. Recibe una alerta. Actua rapido. Workflows de respuesta automatizados disparados por excepciones - desde anomalías de void hasta picos de costo laboral - con rutas de escalamiento integradas.",
+          "Define umbrales. Recibe una alerta. Actúa rápido. Workflows de respuesta automatizados disparados por excepciones - desde anomalías de void hasta picos de costo laboral - con rutas de escalamiento integradas.",
         capabilities: [
           "Disparadores de alerta basados en umbrales",
-          "Workflows de notificacion automatizados",
-          "Playbooks configurables por excepcion",
+          "Workflows de notificación automatizados",
+          "Playbooks configurables por excepción",
           "Rutas de escalamiento en tiempo real",
         ],
         icon: "forecasting" as SundaeIconName,
@@ -793,11 +793,11 @@ const localizedPulseCopy = {
         title: "Scorecard de turno",
         headline: "Resumen de rendimiento al final del turno",
         description:
-          "Cada turno recibe una nota. Ingresos, cubiertos, ticket promedio, costo laboral, fugas y destacados del servidor - resumidos en una sola vista. Compartelo con tu equipo o revisalo a la manana siguiente.",
+          "Cada turno recibe una nota. Ingresos, cubiertos, ticket promedio, costo laboral, fugas y destacados del servidor - resumidos en una sola vista. Compártelo con tu equipo o revísalo a la mañana siguiente.",
         capabilities: [
           "Resumen KPI en todos los locales",
           "Nota de turno con positivos y negativos",
-          "Areas de mejora detectadas automaticamente",
+          "Áreas de mejora detectadas automáticamente",
           "Reporte de turno compartible",
         ],
         icon: "report" as SundaeIconName,
@@ -806,11 +806,11 @@ const localizedPulseCopy = {
         title: "Leaderboard de cartera",
         headline: "Compara cada local, en vivo",
         description:
-          "Comparacion de rendimiento multi-local con seguimiento de rachas y ranking competitivo. Mira que locales van con todo y cuales necesitan atencion - antes del cierre.",
+          "Comparación de rendimiento multi-local con seguimiento de rachas y ranking competitivo. Mira qué locales van con todo y cuáles necesitan atención - antes del cierre.",
         capabilities: [
           "Ranking de rendimiento entre locales",
           "Seguimiento de rachas e indicadores de tendencia",
-          "Drill-down a metricas individuales por local",
+          "Drill-down a métricas individuales por local",
           "Marcado de locales en riesgo",
         ],
         icon: "multiLocation" as SundaeIconName,
@@ -819,12 +819,12 @@ const localizedPulseCopy = {
         title: "Modo wallboard",
         headline: "Pon Pulse en la pantalla grande",
         description:
-          "Una pantalla optimizada para TV, pensada para pass-through de cocina, oficinas de gerencia y areas de staff. Rota automaticamente entre locales, prioriza ubicaciones en riesgo y le da al equipo una vista compartida del turno.",
+          "Una pantalla optimizada para TV, pensada para pass-through de cocina, oficinas de gerencia y áreas de staff. Rota automáticamente entre locales, prioriza ubicaciones en riesgo y le da al equipo una vista compartida del turno.",
         capabilities: [
           "Pantalla 16:9 optimizada para TV",
-          "Rotacion automatica entre locales",
+          "Rotación automática entre locales",
           "Orden de prioridad (riesgo primero)",
-          "Frecuencia de actualizacion y metricas configurables",
+          "Frecuencia de actualización y métricas configurables",
         ],
         icon: "canvas" as SundaeIconName,
       },
@@ -832,26 +832,26 @@ const localizedPulseCopy = {
     deepDives: {
       targets: {
         eyebrow: "INTELIGENCIA QUE APRENDE",
-        heading: "Objetivos mas inteligentes cada semana",
+        heading: "Objetivos más inteligentes cada semana",
         description:
-          "La mayoria de las plataformas te obligan a fijar objetivos manualmente - o copiar la semana pasada. El motor de inteligencia adaptativa de Sundae escanea todo tu historico de ventas, detecta anomalías y estacionalidad, vincula eventos de calendario con su impacto real en ingresos y genera objetivos prospectivos que reflejan tu ritmo real de negocio. Marca un evento unico y se excluye. Marca un evento recurrente y el sistema se ajusta automaticamente el ano siguiente.",
+          "La mayoría de las plataformas te obligan a fijar objetivos manualmente - o copiar la semana pasada. El motor de inteligencia adaptativa de Sundae escanea todo tu histórico de ventas, detecta anomalías y estacionalidad, vincula eventos de calendario con su impacto real en ingresos y genera objetivos prospectivos que reflejan tu ritmo real de negocio. Marca un evento único y se excluye. Marca un evento recurrente y el sistema se ajusta automáticamente el año siguiente.",
       },
       server: {
         eyebrow: "INTELIGENCIA DE SERVIDORES",
         heading: "Del leaderboard a la herramienta de coaching",
         description:
-          "Ve quien impulsa ingresos y quien necesita apoyo en tiempo real. Filtra por hora, por fase de servicio o compara contra la semana pasada. Cada servidor obtiene una puntuacion de productividad, un desglose por hora y fortalezas y areas de mejora detectadas automaticamente. Los mejores restaurantes usan estos datos para formar mejor al equipo.",
+          "Ve quién impulsa ingresos y quién necesita apoyo en tiempo real. Filtra por hora, por fase de servicio o compara contra la semana pasada. Cada servidor obtiene una puntuación de productividad, un desglose por hora y fortalezas y áreas de mejora detectadas automáticamente. Los mejores restaurantes usan estos datos para formar mejor al equipo.",
       },
       cost: {
         eyebrow: "COSTO DE TURNO",
-        heading: "Sabe cuanto cuesta cada turno",
+        heading: "Sabe cuánto cuesta cada turno",
         description:
-          "Tu turno de manana opera con 4 personas durante 8 horas. Tu turno de noche con 8 durante 5 horas. Cual es realmente rentable? Pulse desglosa el costo de cada turno - por rol y por persona - y lo compara con los ingresos que genera. Ve tu ratio de costo laboral por turno, identifica el exceso de personal y toma decisiones de scheduling mas inteligentes.",
+          "Tu turno de mañana opera con 4 personas durante 8 horas. Tu turno de noche con 8 durante 5 horas. ¿Cuál es realmente rentable? Pulse desglosa el costo de cada turno - por rol y por persona - y lo compara con los ingresos que genera. Ve tu ratio de costo laboral por turno, identifica el exceso de personal y toma decisiones de scheduling más inteligentes.",
       },
     },
     cta: {
       title: "Deja de gestionar turnos a ciegas",
-      description: "Pulse esta incluido en cada plan Sundae Core. Ve lo que pasa ahora - no al final del dia.",
+      description: "Pulse está incluido en cada plan Sundae Core. Ve lo que pasa ahora - no al final del día.",
       primary: "Reservar demo",
       secondary: "Empezar gratis",
     },
@@ -872,7 +872,7 @@ const localizedPulseCopy = {
         ["Marcus J.", "$2,410", "28%", "$48.20"],
         ["James K.", "$1,960", "18%", "$44.50"],
       ],
-      coachAlert: "La tasa de venta adicional de James K. esta 14% por debajo del promedio del turno. Considera emparejarlo con Sarah para las proximas 2 mesas.",
+      coachAlert: "La tasa de venta adicional de James K. está 14% por debajo del promedio del turno. Considera emparejarlo con Sarah para las próximas 2 mesas.",
     },
   },
 } as const;
@@ -889,9 +889,9 @@ function AdaptiveTargetsMockup() {
   const alert = locale === "ar"
     ? "تعديل رمضان: تم تطبيق -12% على اهداف ايام الاسبوع. تم رفع اهداف الجمعة +18% لخدمة الافطار."
     : locale === "fr"
-      ? "Ajustement Ramadan : -12% appliques aux objectifs en semaine. Les objectifs du vendredi augmentent de +18% pour le service d iftar."
+      ? "Ajustement Ramadan : -12% appliqués aux objectifs en semaine. Les objectifs du vendredi augmentent de +18% pour le service d'iftar."
       : locale === "es"
-        ? "Ajuste de Ramadan: se aplico -12% a los objetivos de dias laborales. Los objetivos del viernes suben +18% para el servicio de iftar."
+        ? "Ajuste de Ramadan: se aplicó -12% a los objetivos de días laborales. Los objetivos del viernes suben +18% para el servicio de iftar."
         : "Ramadan adjustment: -12% applied to weekday targets. Friday targets boosted +18% for iftar service.";
   return (
     <MockupFrame label={label} glow={false}>
@@ -924,9 +924,9 @@ function SalesPacingMockup() {
   const { locale } = useWebsiteI18n();
   const label = locale === "ar" ? "Pulse - وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse - Sales Pacing";
   const live = locale === "ar" ? "الثلاثاء، 7:42 مساءً" : locale === "fr" ? "Mardi, 19:42" : locale === "es" ? "Martes, 7:42 PM" : "Tuesday, 7:42 PM";
-  const actual = locale === "ar" ? "الفعلي" : locale === "fr" ? "Reel" : locale === "es" ? "Real" : "Actual";
+  const actual = locale === "ar" ? "الفعلي" : locale === "fr" ? "Réel" : locale === "es" ? "Real" : "Actual";
   const expected = locale === "ar" ? "المتوقع" : locale === "fr" ? "Attendu" : locale === "es" ? "Esperado" : "Expected";
-  const dayTarget = locale === "ar" ? "هدف اليوم" : locale === "fr" ? "Objectif du jour" : locale === "es" ? "Objetivo del dia" : "Day Target";
+  const dayTarget = locale === "ar" ? "هدف اليوم" : locale === "fr" ? "Objectif du jour" : locale === "es" ? "Objetivo del día" : "Day Target";
   const revenuePace = locale === "ar" ? "وتيرة الايراد" : locale === "fr" ? "Rythme du revenu" : locale === "es" ? "Ritmo de ingresos" : "Revenue Pace";
   const coversPace = locale === "ar" ? "وتيرة الضيوف" : locale === "fr" ? "Rythme des couverts" : locale === "es" ? "Ritmo de cubiertos" : "Covers Pace";
   return (
@@ -961,8 +961,8 @@ function SalesPacingMockup() {
 
 function LaborMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse - انتاجية العمالة" : locale === "fr" ? "Pulse - Productivite de la main-d'oeuvre" : locale === "es" ? "Pulse - Productividad laboral" : "Pulse - Labor Productivity";
-  const headers = locale === "ar" ? ["الدور", "الطاقم", "الساعات", "التكلفة", "SPLH"] : locale === "fr" ? ["Role", "Equipe", "Heures", "Cout", "SPLH"] : locale === "es" ? ["Rol", "Equipo", "Horas", "Costo", "SPLH"] : ["Role", "Staff", "Hours", "Cost", "SPLH"];
+  const label = locale === "ar" ? "Pulse - انتاجية العمالة" : locale === "fr" ? "Pulse - Productivité de la main-d'œuvre" : locale === "es" ? "Pulse - Productividad laboral" : "Pulse - Labor Productivity";
+  const headers = locale === "ar" ? ["الدور", "الطاقم", "الساعات", "التكلفة", "SPLH"] : locale === "fr" ? ["Rôle", "Équipe", "Heures", "Coût", "SPLH"] : locale === "es" ? ["Rol", "Equipo", "Horas", "Costo", "SPLH"] : ["Role", "Staff", "Hours", "Cost", "SPLH"];
   const rows = locale === "ar"
     ? [["النادلون", "4", "24h", "$720", "$79.50"], ["المطبخ", "3", "21h", "$630", "$54.30"], ["البار", "2", "12h", "$360", "$71.20"], ["الاستقبال", "1", "8h", "$130", "-"]]
     : locale === "fr"
@@ -976,8 +976,8 @@ function LaborMockup() {
         <div className="grid grid-cols-4 gap-3">
           <MockupKPI label="SPLH" value="$62.40" trend={locale === "ar" ? "+8% مقابل المتوسط" : locale === "fr" ? "+8% vs moyenne" : locale === "es" ? "+8% vs promedio" : "+8% vs avg"} trendUp color="#22C55E" />
           <MockupKPI label="CPLH" value="4.2" color="#FF5C4D" />
-          <MockupKPI label={locale === "ar" ? "نسبة العمالة" : locale === "fr" ? "Main-d'oeuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="28.1%" trend={locale === "ar" ? "اقل من 30%" : locale === "fr" ? "Sous 30%" : locale === "es" ? "Bajo 30%" : "Under 30%"} trendUp color="#22C55E" />
-          <MockupKPI label={locale === "ar" ? "تكلفة الوردية" : locale === "fr" ? "Cout de service" : locale === "es" ? "Costo de turno" : "Shift Cost"} value="$1,840" color="#FBBF24" />
+          <MockupKPI label={locale === "ar" ? "نسبة العمالة" : locale === "fr" ? "Main-d'œuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="28.1%" trend={locale === "ar" ? "اقل من 30%" : locale === "fr" ? "Sous 30%" : locale === "es" ? "Bajo 30%" : "Under 30%"} trendUp color="#22C55E" />
+          <MockupKPI label={locale === "ar" ? "تكلفة الوردية" : locale === "fr" ? "Coût de service" : locale === "es" ? "Costo de turno" : "Shift Cost"} value="$1,840" color="#FBBF24" />
         </div>
         <MockupTable
           headers={headers}
@@ -995,9 +995,9 @@ function ServerPerformanceMockup() {
   const alert = locale === "ar"
     ? "معدل البيع الاضافي لدى James K. اقل بـ 14 نقطة عن متوسط الوردية. فكر في إقرانه مع Sarah للطلبتين القادمتين."
     : locale === "fr"
-      ? "Le taux de vente additionnelle de James K. est 14 points sous la moyenne du service. Pensez a le faire travailler avec Sarah pour les 2 prochaines tables."
+      ? "Le taux de vente additionnelle de James K. est 14 points sous la moyenne du service. Pensez à le faire travailler avec Sarah pour les 2 prochaines tables."
       : locale === "es"
-        ? "La tasa de venta adicional de James K. esta 14 puntos por debajo del promedio del turno. Considera emparejarlo con Sarah para las proximas 2 mesas."
+        ? "La tasa de venta adicional de James K. está 14 puntos por debajo del promedio del turno. Considera emparejarlo con Sarah para las próximas 2 mesas."
         : "James K. upsell rate is 14pp below shift average. Consider pairing with Sarah for the next 2 tables.";
   return (
     <MockupFrame label={label} glow={false}>
@@ -1029,9 +1029,9 @@ function LeakageMockup() {
   const alert = locale === "ar"
     ? "لدى James K. خمس استثناءات في هذه الوردية - 3x متوسط الفريق. يوصى بالمراجعة."
     : locale === "fr"
-      ? "James K. a 5 exceptions sur ce service - 3x la moyenne de l equipe. Revue recommandee."
+      ? "James K. a 5 exceptions sur ce service - 3x la moyenne de l'équipe. Revue recommandée."
       : locale === "es"
-        ? "James K. tiene 5 excepciones en este turno - 3x el promedio del equipo. Se recomienda revision."
+        ? "James K. tiene 5 excepciones en este turno - 3x el promedio del equipo. Se recomienda revisión."
         : "James K. has 5 exceptions this shift - 3x the team average. Review recommended.";
   return (
     <MockupFrame label={label} glow={false}>
@@ -1065,16 +1065,16 @@ function CoachMockup() {
     <MockupFrame label={label} glow={false}>
       <div className="space-y-3">
         <MockupAlert type="coach">
-          {locale === "ar" ? "وتيرة الايراد متقدمة 12% عن الهدف. حافظ على التوظيف الحالي - لا تخفض مبكراً." : locale === "fr" ? "Le rythme du revenu est 12% au-dessus de l objectif. Maintenez le staff actuel - ne reduisez pas trop tot." : locale === "es" ? "El ritmo de ingresos va 12% por delante del objetivo. Mantiene el personal actual - no recortes temprano." : "Revenue pace is 12% ahead of target. Maintain current staffing - do not cut early."}
+          {locale === "ar" ? "وتيرة الايراد متقدمة 12% عن الهدف. حافظ على التوظيف الحالي - لا تخفض مبكراً." : locale === "fr" ? "Le rythme du revenu est 12% au-dessus de l'objectif. Maintenez le staff actuel - ne réduisez pas trop tôt." : locale === "es" ? "El ritmo de ingresos va 12% por delante del objetivo. Mantiene el personal actual - no recortes temprano." : "Revenue pace is 12% ahead of target. Maintain current staffing - do not cut early."}
         </MockupAlert>
         <MockupAlert type="warning">
-          {locale === "ar" ? "انخفض متوسط الفاتورة 4.20 دولار في الساعة الاخيرة. يمثل James K. 60% من التراجع. يحتاج الى تدريب على البيع الاضافي." : locale === "fr" ? "Le ticket moyen a baisse de 4,20$ durant la derniere heure. James K. represente 60% de la baisse. Coaching de vente additionnelle necessaire." : locale === "es" ? "El ticket medio cayo $4.20 en la ultima hora. James K. representa el 60% de la caida. Hace falta coaching de venta adicional." : "Avg check dropped $4.20 in the last hour. Server James K. accounts for 60% of the decline. Upsell coaching needed."}
+          {locale === "ar" ? "انخفض متوسط الفاتورة 4.20 دولار في الساعة الاخيرة. يمثل James K. 60% من التراجع. يحتاج الى تدريب على البيع الاضافي." : locale === "fr" ? "Le ticket moyen a baissé de 4,20$ durant la dernière heure. James K. représente 60% de la baisse. Coaching de vente additionnelle nécessaire." : locale === "es" ? "El ticket medio cayó $4.20 en la última hora. James K. representa el 60% de la caída. Hace falta coaching de venta adicional." : "Avg check dropped $4.20 in the last hour. Server James K. accounts for 60% of the decline. Upsell coaching needed."}
         </MockupAlert>
         <MockupAlert type="critical">
-          {locale === "ar" ? "ارتفع معدل الإلغاء الى 3.2% (الاساس: 1.8%). 4 حالات في 45 دقيقة من الطرفية #3. يوصى بمراجعة المدير." : locale === "fr" ? "Le taux de void est monte a 3,2% (base: 1,8%). 4 voids en 45 min depuis le terminal #3. Revue manager recommandee." : locale === "es" ? "La tasa de void subio a 3.2% (base: 1.8%). 4 voids en 45 min desde el terminal #3. Se recomienda revision del gerente." : "Void rate spiked to 3.2% (baseline: 1.8%). 4 voids in 45 min from terminal #3. Manager review recommended."}
+          {locale === "ar" ? "ارتفع معدل الإلغاء الى 3.2% (الاساس: 1.8%). 4 حالات في 45 دقيقة من الطرفية #3. يوصى بمراجعة المدير." : locale === "fr" ? "Le taux de void est monté à 3,2% (base: 1,8%). 4 voids en 45 min depuis le terminal #3. Revue manager recommandée." : locale === "es" ? "La tasa de void subió a 3.2% (base: 1.8%). 4 voids en 45 min desde el terminal #3. Se recomienda revisión del gerente." : "Void rate spiked to 3.2% (baseline: 1.8%). 4 voids in 45 min from terminal #3. Manager review recommended."}
         </MockupAlert>
         <MockupAlert type="info">
-          {locale === "ar" ? "توقع السبت: +22% ضيوف استناداً الى حدث محلي (ماراثون). جهز الاصناف عالية الدوران بحلول الجمعة 4 مساءً." : locale === "fr" ? "Prevision samedi: +22% de couverts grace a un evenement local (marathon). Pre-stockez les articles a forte rotation avant vendredi 16h." : locale === "es" ? "Pronostico sabado: +22% cubiertos por evento local (maraton). Pre-stock de items de alta rotacion antes del viernes 4 PM." : "Saturday forecast: +22% covers based on local event (marathon). Pre-stock high-turnover items by Friday 4 PM."}
+          {locale === "ar" ? "توقع السبت: +22% ضيوف استناداً الى حدث محلي (ماراثون). جهز الاصناف عالية الدوران بحلول الجمعة 4 مساءً." : locale === "fr" ? "Prévision samedi: +22% de couverts grâce à un événement local (marathon). Pre-stockez les articles à forte rotation avant vendredi 16h." : locale === "es" ? "Pronóstico sábado: +22% cubiertos por evento local (maratón). Pre-stock de items de alta rotación antes del viernes 4 PM." : "Saturday forecast: +22% covers based on local event (marathon). Pre-stock high-turnover items by Friday 4 PM."}
         </MockupAlert>
       </div>
     </MockupFrame>
@@ -1084,18 +1084,18 @@ function CoachMockup() {
 function AlertsMockup() {
   const { locale } = useWebsiteI18n();
   const label = locale === "ar" ? "Pulse - التنبيهات وخطط التشغيل" : locale === "fr" ? "Pulse - Alertes et playbooks" : locale === "es" ? "Pulse - Alertas y playbooks" : "Pulse - Alerts & Playbooks";
-  const headers = locale === "ar" ? ["التنبيه", "المحفز", "الحالة", "الاجراء"] : locale === "fr" ? ["Alerte", "Declencheur", "Statut", "Action"] : locale === "es" ? ["Alerta", "Disparador", "Estado", "Accion"] : ["Alert", "Trigger", "Status", "Action"];
-  const alert = locale === "ar" ? "تم تشغيل الخطة: \"بروتوكول البيع الاضافي\" - تم إشعار الموظفين تلقائياً عبر Sundae Coach بأفضل 3 عناصر هامشاً." : locale === "fr" ? "Playbook declenche: \"Protocole de vente additionnelle\" - serveurs auto-notifies via Sundae Coach avec les 3 meilleurs articles marge." : locale === "es" ? "Playbook activado: \"Protocolo de venta adicional\" - servidores notificados automaticamente via Sundae Coach con los 3 items de mejor margen." : "Playbook triggered: \"Upsell Protocol\" - auto-notified servers via Sundae Coach with top 3 margin items.";
+  const headers = locale === "ar" ? ["التنبيه", "المحفز", "الحالة", "الاجراء"] : locale === "fr" ? ["Alerte", "Déclencheur", "Statut", "Action"] : locale === "es" ? ["Alerta", "Disparador", "Estado", "Acción"] : ["Alert", "Trigger", "Status", "Action"];
+  const alert = locale === "ar" ? "تم تشغيل الخطة: \"بروتوكول البيع الاضافي\" - تم إشعار الموظفين تلقائياً عبر Sundae Coach بأفضل 3 عناصر هامشاً." : locale === "fr" ? "Playbook déclenché:\"Protocole de vente additionnelle\" - serveurs auto-notifiés via Sundae Coach avec les 3 meilleurs articles marge." : locale === "es" ? "Playbook activado: \"Protocolo de venta adicional\" - servidores notificados automáticamente vía Sundae Coach con los 3 items de mejor margen." : "Playbook triggered: \"Upsell Protocol\" - auto-notified servers via Sundae Coach with top 3 margin items.";
   return (
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
         <MockupTable
           headers={headers}
           rows={[
-            [locale === "ar" ? "الايراد متأخر" : locale === "fr" ? "Revenu en retard" : locale === "es" ? "Ingresos atras" : "Revenue behind pace", locale === "ar" ? "فجوة >15% عند 2 مساءً" : locale === "fr" ? "Ecart >15% a 14h" : locale === "es" ? "Brecha >15% a las 2PM" : ">15% gap at 2PM", "🔴 Active", locale === "ar" ? "فعّل بروتوكول البيع الاضافي" : locale === "fr" ? "Lancer le protocole de vente additionnelle" : locale === "es" ? "Disparar protocolo de venta adicional" : "Push upsell protocol"],
-            [locale === "ar" ? "ارتفاع تكلفة العمالة" : locale === "fr" ? "Pic de cout main-d'oeuvre" : locale === "es" ? "Pico de costo laboral" : "Labor cost spike", locale === "ar" ? ">32% نسبة" : locale === "fr" ? ">32% ratio" : locale === "es" ? ">32% ratio" : ">32% ratio", "🟡 Warning", locale === "ar" ? "راجع staffing المسائي" : locale === "fr" ? "Revoir le staff du soir" : locale === "es" ? "Revisar staffing de la tarde" : "Review evening staffing"],
-            [locale === "ar" ? "شذوذ الإلغاء" : locale === "fr" ? "Anomalie de void" : locale === "es" ? "Anomalia de void" : "Void anomaly", locale === "ar" ? ">2x الخط الاساسي" : locale === "fr" ? ">2x base" : locale === "es" ? ">2x base" : ">2x baseline", "🔴 Active", locale === "ar" ? "مراجعة المدير" : locale === "fr" ? "Revue manager" : locale === "es" ? "Revision del gerente" : "Manager review"],
-            [locale === "ar" ? "الضيوف متقدمون" : locale === "fr" ? "Couverts en avance" : locale === "es" ? "Cubiertos por delante" : "Covers ahead", locale === "ar" ? ">20% فوق الخطة" : locale === "fr" ? ">20% au-dessus du plan" : locale === "es" ? ">20% sobre el plan" : ">20% over plan", "🟢 Positive", locale === "ar" ? "جهز محطات الاحتياط" : locale === "fr" ? "Preparer les stations de secours" : locale === "es" ? "Preparar estaciones de respaldo" : "Prep backup stations"],
+            [locale === "ar" ? "الايراد متأخر" : locale === "fr" ? "Revenu en retard" : locale === "es" ? "Ingresos atrás" : "Revenue behind pace", locale === "ar" ? "فجوة >15% عند 2 مساءً" : locale === "fr" ? "Écart >15% à 14h" : locale === "es" ? "Brecha >15% a las 2PM" : ">15% gap at 2PM", "🔴 Active", locale === "ar" ? "فعّل بروتوكول البيع الاضافي" : locale === "fr" ? "Lancer le protocole de vente additionnelle" : locale === "es" ? "Disparar protocolo de venta adicional" : "Push upsell protocol"],
+            [locale === "ar" ? "ارتفاع تكلفة العمالة" : locale === "fr" ? "Pic de coût main-d'œuvre" : locale === "es" ? "Pico de costo laboral" : "Labor cost spike", locale === "ar" ? ">32% نسبة" : locale === "fr" ? ">32% ratio" : locale === "es" ? ">32% ratio" : ">32% ratio", "🟡 Warning", locale === "ar" ? "راجع staffing المسائي" : locale === "fr" ? "Revoir le staff du soir" : locale === "es" ? "Revisar staffing de la tarde" : "Review evening staffing"],
+            [locale === "ar" ? "شذوذ الإلغاء" : locale === "fr" ? "Anomalie de void" : locale === "es" ? "Anomalía de void" : "Void anomaly", locale === "ar" ? ">2x الخط الاساسي" : locale === "fr" ? ">2x base" : locale === "es" ? ">2x base" : ">2x baseline", "🔴 Active", locale === "ar" ? "مراجعة المدير" : locale === "fr" ? "Revue manager" : locale === "es" ? "Revisión del gerente" : "Manager review"],
+            [locale === "ar" ? "الضيوف متقدمون" : locale === "fr" ? "Couverts en avance" : locale === "es" ? "Cubiertos por delante" : "Covers ahead", locale === "ar" ? ">20% فوق الخطة" : locale === "fr" ? ">20% au-dessus du plan" : locale === "es" ? ">20% sobre el plan" : ">20% over plan", "🟢 Positive", locale === "ar" ? "جهز محطات الاحتياط" : locale === "fr" ? "Préparer les stations de secours" : locale === "es" ? "Preparar estaciones de respaldo" : "Prep backup stations"],
           ]}
         />
         <MockupAlert type="info">
@@ -1113,7 +1113,7 @@ function ScorecardMockup() {
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
         <div className="text-center">
-          <div className="text-[10px] text-[var(--text-muted)] uppercase tracking-wider">{locale === "ar" ? "ملخص وردية الغداء" : locale === "fr" ? "Resume du service de midi" : locale === "es" ? "Resumen del turno de almuerzo" : "Lunch Shift Summary"}</div>
+          <div className="text-[10px] text-[var(--text-muted)] uppercase tracking-wider">{locale === "ar" ? "ملخص وردية الغداء" : locale === "fr" ? "Résumé du service de midi" : locale === "es" ? "Resumen del turno de almuerzo" : "Lunch Shift Summary"}</div>
           <div className="text-3xl font-bold font-mono text-[#22C55E] mt-1">A−</div>
           <div className="text-[11px] text-[var(--text-muted)]">{locale === "ar" ? "الدرجة الاجمالية للوردية" : locale === "fr" ? "Note globale du service" : locale === "es" ? "Nota general del turno" : "Overall Shift Grade"}</div>
         </div>
@@ -1121,10 +1121,10 @@ function ScorecardMockup() {
           <MockupKPI label={locale === "ar" ? "الايراد" : locale === "fr" ? "Revenu" : locale === "es" ? "Ingresos" : "Revenue"} value="$9,840" trend="+6%" trendUp />
           <MockupKPI label={locale === "ar" ? "الضيوف" : locale === "fr" ? "Couverts" : locale === "es" ? "Cubiertos" : "Covers"} value="187" trend="+12" trendUp color="#22C55E" />
           <MockupKPI label={locale === "ar" ? "متوسط الفاتورة" : locale === "fr" ? "Ticket moyen" : locale === "es" ? "Ticket medio" : "Avg Check"} value="$52.60" trend="+$1.40" trendUp color="#22C55E" />
-          <MockupKPI label={locale === "ar" ? "العمالة %" : locale === "fr" ? "Main-d'oeuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="27.8%" trend={locale === "ar" ? "اقل من 30%" : locale === "fr" ? "Sous 30%" : locale === "es" ? "Bajo 30%" : "Under 30%"} trendUp color="#22C55E" />
+          <MockupKPI label={locale === "ar" ? "العمالة %" : locale === "fr" ? "Main-d'œuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="27.8%" trend={locale === "ar" ? "اقل من 30%" : locale === "fr" ? "Sous 30%" : locale === "es" ? "Bajo 30%" : "Under 30%"} trendUp color="#22C55E" />
         </div>
         <MockupAlert type="coach">
-          {locale === "ar" ? "ابرز النقاط: وصل معدل البيع الاضافي الى 28% (الافضل هذا الشهر). مجال التحسين: متوسط زمن تذكرة المطبخ 14 دقيقة (الهدف: 12)." : locale === "fr" ? "Points forts: taux de vente additionnelle a 28% (meilleur du mois). A ameliorer: ticket cuisine moyen de 14 min (objectif: 12)." : locale === "es" ? "Puntos fuertes: venta adicional al 28% (mejor del mes). A mejorar: ticket de cocina promedio 14 min (objetivo: 12)." : "Highlights: Upsell rate hit 28% (best this month). Area to improve: Kitchen ticket time averaged 14 min (target: 12 min)."}
+          {locale === "ar" ? "ابرز النقاط: وصل معدل البيع الاضافي الى 28% (الافضل هذا الشهر). مجال التحسين: متوسط زمن تذكرة المطبخ 14 دقيقة (الهدف: 12)." : locale === "fr" ? "Points forts: taux de vente additionnelle à 28% (meilleur du mois). À améliorer: ticket cuisine moyen de 14 min (objectif: 12)." : locale === "es" ? "Puntos fuertes: venta adicional al 28% (mejor del mes). A mejorar: ticket de cocina promedio 14 min (objetivo: 12)." : "Highlights: Upsell rate hit 28% (best this month). Area to improve: Kitchen ticket time averaged 14 min (target: 12 min)."}
         </MockupAlert>
       </div>
     </MockupFrame>
@@ -1135,7 +1135,7 @@ function LeaderboardMockup() {
   const { locale } = useWebsiteI18n();
   const label = locale === "ar" ? "Pulse - لوحة ترتيب المحفظة" : locale === "fr" ? "Pulse - Classement du portefeuille" : locale === "es" ? "Pulse - Ranking de cartera" : "Pulse - Portfolio Leaderboard";
   const headers = locale === "ar" ? ["#", "الموقع", "الايراد", "مقابل الهدف", "السلسلة"] : locale === "fr" ? ["#", "Site", "Revenu", "vs objectif", "Serie"] : locale === "es" ? ["#", "Local", "Ingresos", "vs objetivo", "Racha"] : ["#", "Outlet", "Revenue", "vs Target", "Streak"];
-  const alert = locale === "ar" ? "المطار متأخر 8% عن الهدف ليومين متتاليين. اكبر مشكلة: انخفاض الضيوف في فترة 2-5 مساءً (38% اقل من الخطة)." : locale === "fr" ? "L aeroport est 8% sous l objectif depuis 2 jours. Probleme principal: faibles couverts sur le créneau 14h-17h (38% sous le plan)." : locale === "es" ? "El aeropuerto va 8% por debajo del objetivo por 2 dias seguidos. Problema principal: cubiertos bajos entre 2-5 PM (38% por debajo del plan)." : "Airport is 8% behind target for 2 consecutive days. Top issue: low covers during 2-5 PM daypart (38% below plan).";
+  const alert = locale === "ar" ? "المطار متأخر 8% عن الهدف ليومين متتاليين. اكبر مشكلة: انخفاض الضيوف في فترة 2-5 مساءً (38% اقل من الخطة)." : locale === "fr" ? "L'aéroport est 8% sous l'objectif depuis 2 jours. Problème principal: faibles couverts sur le créneau 14h-17h (38% sous le plan)." : locale === "es" ? "El aeropuerto va 8% por debajo del objetivo por 2 días seguidos. Problema principal: cubiertos bajos entre 2-5 PM (38% por debajo del plan)." : "Airport is 8% behind target for 2 consecutive days. Top issue: low covers during 2-5 PM daypart (38% below plan).";
   return (
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
@@ -1164,13 +1164,13 @@ function WallboardMockup() {
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <span className="inline-flex items-center gap-1.5 text-[10px] text-[var(--text-muted)]"><span className="animate-live-dot" />{locale === "ar" ? "مباشر" : locale === "fr" ? "EN DIRECT" : locale === "es" ? "EN VIVO" : "LIVE"}</span>
-          <span className="text-[10px] text-[var(--text-muted)] font-mono">{locale === "ar" ? "وسط المدينة - تدوير تلقائي" : locale === "fr" ? "Downtown - Rotation automatique" : locale === "es" ? "Downtown - Rotacion automatica" : "Downtown - Auto-rotating"}</span>
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">{locale === "ar" ? "وسط المدينة - تدوير تلقائي" : locale === "fr" ? "Downtown - Rotation automatique" : locale === "es" ? "Downtown - Rotación automática" : "Downtown - Auto-rotating"}</span>
         </div>
         <div className="grid grid-cols-4 gap-3">
           <MockupKPI label={locale === "ar" ? "الايراد" : locale === "fr" ? "Revenu" : locale === "es" ? "Ingresos" : "Revenue"} value="$14,280" trend="+12%" trendUp />
           <MockupKPI label={locale === "ar" ? "الضيوف" : locale === "fr" ? "Couverts" : locale === "es" ? "Cubiertos" : "Covers"} value="287" trend="+12" trendUp color="#22C55E" />
           <MockupKPI label={locale === "ar" ? "متوسط الفاتورة" : locale === "fr" ? "Ticket moyen" : locale === "es" ? "Ticket medio" : "Avg Check"} value="$49.50" color="#FBBF24" />
-          <MockupKPI label={locale === "ar" ? "العمالة %" : locale === "fr" ? "Main-d'oeuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="28.4%" trend={locale === "ar" ? "على الهدف" : locale === "fr" ? "Dans l objectif" : locale === "es" ? "En objetivo" : "On target"} trendUp color="#22C55E" />
+          <MockupKPI label={locale === "ar" ? "العمالة %" : locale === "fr" ? "Main-d'œuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="28.4%" trend={locale === "ar" ? "على الهدف" : locale === "fr" ? "Dans l'objectif" : locale === "es" ? "En objetivo" : "On target"} trendUp color="#22C55E" />
         </div>
         <MockupPaceBar label={locale === "ar" ? "وتيرة الايراد" : locale === "fr" ? "Rythme du revenu" : locale === "es" ? "Ritmo de ingresos" : "Revenue Pace"} current={14280} target={18200} unit="$" />
         <div className="text-center text-[10px] text-[var(--text-muted)]">
@@ -1183,21 +1183,21 @@ function WallboardMockup() {
 
 function ShiftCostMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse - اقتصاديات الوردية" : locale === "fr" ? "Pulse - Economie du service" : locale === "es" ? "Pulse - Economia de turno" : "Pulse - Shift Economics";
-  const headers = locale === "ar" ? ["الوردية", "الطاقم", "الساعات", "التكلفة", "الايراد", "العمالة %"] : locale === "fr" ? ["Service", "Equipe", "Heures", "Cout", "Revenu", "Main-d'oeuvre %"] : locale === "es" ? ["Turno", "Equipo", "Horas", "Costo", "Ingresos", "% Labor"] : ["Shift", "Staff", "Hours", "Cost", "Revenue", "Labor %"];
-  const alert = locale === "ar" ? "نسبة العمالة في وردية الصباح اعلى بـ 10 نقاط من المساء. فكر في تقليل العدد الى 3 موظفين قبل 10:30 صباحاً." : locale === "fr" ? "Le ratio main-d'oeuvre du service du matin est 10 points au-dessus du soir. Pensez a reduire a 3 personnes avant 10h30." : locale === "es" ? "El porcentaje de labor del turno de manana es 10 puntos mas alto que el de la noche. Considera bajar a 3 personas antes de las 10:30 AM." : "Morning shift labor % is 10pp higher than evening. Consider reducing to 3 staff before 10:30 AM.";
+  const label = locale === "ar" ? "Pulse - اقتصاديات الوردية" : locale === "fr" ? "Pulse - Économie du service" : locale === "es" ? "Pulse - Economía de turno" : "Pulse - Shift Economics";
+  const headers = locale === "ar" ? ["الوردية", "الطاقم", "الساعات", "التكلفة", "الايراد", "العمالة %"] : locale === "fr" ? ["Service", "Équipe", "Heures", "Coût", "Revenu", "Main-d'œuvre %"] : locale === "es" ? ["Turno", "Equipo", "Horas", "Costo", "Ingresos", "% Labor"] : ["Shift", "Staff", "Hours", "Cost", "Revenue", "Labor %"];
+  const alert = locale === "ar" ? "نسبة العمالة في وردية الصباح اعلى بـ 10 نقاط من المساء. فكر في تقليل العدد الى 3 موظفين قبل 10:30 صباحاً." : locale === "fr" ? "Le ratio main-d'œuvre du service du matin est 10 points au-dessus du soir. Pensez à réduire à 3 personnes avant 10h30." : locale === "es" ? "El porcentaje de labor del turno de mañana es 10 puntos más alto que el de la noche. Considera bajar a 3 personas antes de las 10:30 AM." : "Morning shift labor % is 10pp higher than evening. Consider reducing to 3 staff before 10:30 AM.";
   return (
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
         <div className="grid grid-cols-3 gap-3">
           <MockupKPI label={locale === "ar" ? "ايراد الوردية" : locale === "fr" ? "Revenu du service" : locale === "es" ? "Ingresos del turno" : "Shift Revenue"} value="$9,840" color="#22C55E" />
-          <MockupKPI label={locale === "ar" ? "تكلفة الوردية" : locale === "fr" ? "Cout du service" : locale === "es" ? "Costo del turno" : "Shift Cost"} value="$2,760" color="#FF5450" />
+          <MockupKPI label={locale === "ar" ? "تكلفة الوردية" : locale === "fr" ? "Coût du service" : locale === "es" ? "Costo del turno" : "Shift Cost"} value="$2,760" color="#FF5450" />
           <MockupKPI label={locale === "ar" ? "هامش الوردية" : locale === "fr" ? "Marge du service" : locale === "es" ? "Margen del turno" : "Shift Margin"} value="72%" color="#22C55E" />
         </div>
         <MockupTable
           headers={headers}
           rows={[
-            [locale === "ar" ? "الصباح" : locale === "fr" ? "Matin" : locale === "es" ? "Manana" : "Morning", "4", "32h", "$960", "$3,200", "30.0%"],
+            [locale === "ar" ? "الصباح" : locale === "fr" ? "Matin" : locale === "es" ? "Mañana" : "Morning", "4", "32h", "$960", "$3,200", "30.0%"],
             [locale === "ar" ? "الغداء" : locale === "fr" ? "Midi" : locale === "es" ? "Almuerzo" : "Lunch", "6", "36h", "$1,080", "$5,400", "20.0%"],
             [locale === "ar" ? "المساء" : locale === "fr" ? "Soir" : locale === "es" ? "Noche" : "Evening", "8", "40h", "$1,600", "$8,200", "19.5%"],
           ]}

@@ -60,7 +60,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Voir le schéma, pas la diapositive.",
+      "ctaTitle": "Chaque dollar récupéré, traçable jusqu'à sa ligne source.",
       "ctaDescription": "30 minutes. Votre stack. Les semaines d'intégration que Sundae ferait gagner à votre équipe.",
       "ctaButton": "Réservez une démonstration technique"
     },
@@ -122,7 +122,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Siehe das Schema, nicht die Folie.",
+      "ctaTitle": "Jeder zurückgewonnene Dollar, rückverfolgbar bis zur Quellzeile.",
       "ctaDescription": "30 Minuten. Ihr Stack. Die Integrationswochen, die Sundae Ihrem Team sparen würde.",
       "ctaButton": "Buchen Sie eine technische Durchsicht"
     },
@@ -184,7 +184,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "انظر إلى المخطط، وليس الشريحة.",
+      "ctaTitle": "كل دولار مُستعاد، يمكن تتبعه حتى صف المصدر.",
       "ctaDescription": "30 دقيقة. التقنية الخاصة بك. الأسابيع التي ستوفرها Sundae لفريقك.",
       "ctaButton": "احجز جولة تقنية"
     },
@@ -246,7 +246,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Ve el esquema, no la diapositiva.",
+      "ctaTitle": "Cada dólar recuperado, rastreable hasta su fila de origen.",
       "ctaDescription": "30 minutos. Tu stack. Las semanas de integración que Sundae ahorraría a tu equipo.",
       "ctaButton": "Reserva una demostración técnica"
     },
@@ -308,7 +308,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Bekijk het schema, niet de dia.",
+      "ctaTitle": "Elke teruggewonnen dollar, herleidbaar tot de bronrij.",
       "ctaDescription": "30 minuten. Jouw stack. De integratieweken die Sundae jouw team zou besparen.",
       "ctaButton": "Boek een technische walkthrough"
     },
@@ -370,7 +370,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Veja o esquema, não o slide.",
+      "ctaTitle": "Cada dólar recuperado, rastreável até sua linha de origem.",
       "ctaDescription": "30 minutos. Sua pilha. As semanas de integração que o Sundae economizaria para sua equipe.",
       "ctaButton": "Agende uma Demonstração Técnica"
     },
@@ -432,7 +432,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "اسکیمہ دیکھیں، سلائیڈ نہیں۔",
+      "ctaTitle": "ہر واپس حاصل کیا گیا ڈالر، اپنے ماخذ صف تک قابلِ سراغ۔",
       "ctaDescription": "30 منٹ۔ آپ کا اسٹیک۔ انضمام کے ہفتے جو Sundae آپ کی ٹیم کے لیے بچائے گا۔",
       "ctaButton": "ایک تکنیکی واک تھرو بک کریں"
     },
@@ -494,7 +494,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "स्कीमा देखें, स्लाइड नहीं।",
+      "ctaTitle": "हर वापस पाया गया डॉलर, अपनी स्रोत पंक्ति तक ट्रेस करने योग्य।",
       "ctaDescription": "30 मिनट। आपका स्टैक। इंटीग्रेशन के हफ्ते जो Sundae आपकी टीम के लिए बचाएगा।",
       "ctaButton": "तकनीकी वॉक-थ्रू बुक करें"
     },
@@ -556,7 +556,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Guarda lo schema, non la diapositiva.",
+      "ctaTitle": "Ogni dollaro recuperato, tracciabile fino alla sua riga sorgente.",
       "ctaDescription": "30 minuti. Il tuo stack. Le settimane di integrazione che Sundae risparmierebbe al tuo team.",
       "ctaButton": "Prenota una Dimostrazione Tecnica"
     },
@@ -618,7 +618,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz schemat, a nie slajd.",
+      "ctaTitle": "Każdy odzyskany dolar, możliwy do prześledzenia aż do wiersza źródłowego.",
       "ctaDescription": "30 minut. Twój stack. Tygodnie integracji, które Sundae zaoszczędziłby Twojemu zespołowi.",
       "ctaButton": "Zarezerwuj techniczne wprowadzenie"
     },
@@ -680,7 +680,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Şemayı görün, slaytı değil.",
+      "ctaTitle": "Geri kazanılan her dolar, kaynak satırına kadar izlenebilir.",
       "ctaDescription": "30 dakika. Sizin yığınınız. Sundae'nin ekibinize kazandıracağı entegrasyon haftaları.",
       "ctaButton": "Teknik Geçiş Randevusu Al"
     },
@@ -742,7 +742,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "查看架构，而不是幻灯片。",
+      "ctaTitle": "每收回一美元，都能追溯到它的源行。",
       "ctaDescription": "30分钟。您的技术栈。Sundae将为您的团队节省的集成时间。",
       "ctaButton": "预约技术演示"
     },
@@ -804,7 +804,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "スライドではなく、スキーマを確認してください。",
+      "ctaTitle": "取り戻した1ドルごとに、そのソース行まで追跡可能。",
       "ctaDescription": "30分。あなたのスタック。Sundaeがあなたのチームに節約する統合の数週間。",
       "ctaButton": "技術的なウォークスルーを予約する"
     },
@@ -866,7 +866,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat skema, bukan slide.",
+      "ctaTitle": "Setiap dolar yang dipulihkan, dapat dilacak hingga baris sumbernya.",
       "ctaDescription": "30 menit. Tumpukan Anda. Minggu integrasi yang akan dihemat Sundae untuk tim Anda.",
       "ctaButton": "Pesan Penjelasan Teknis"
     },
@@ -928,7 +928,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Xem sơ đồ, không phải slide.",
+      "ctaTitle": "Mỗi đô la thu hồi được, truy vết đến tận hàng nguồn của nó.",
       "ctaDescription": "30 phút. Ngăn xếp của bạn. Thời gian tích hợp mà Sundae sẽ tiết kiệm cho đội ngũ của bạn.",
       "ctaButton": "Đặt một buổi hướng dẫn kỹ thuật"
     },
@@ -990,7 +990,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "슬라이드가 아닌 스키마를 확인하세요.",
+      "ctaTitle": "되찾은 모든 달러, 소스 행까지 추적 가능.",
       "ctaDescription": "30분. 당신의 스택. Sundae가 귀하의 팀에게 절약해 줄 통합 작업 몇 주.",
       "ctaButton": "기술 안내 예약하기"
     },
@@ -1052,7 +1052,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Se schemat, inte bilden.",
+      "ctaTitle": "Varje återvunnen dollar, spårbar till sin källrad.",
       "ctaDescription": "30 minuter. Din stack. De integrationsveckor som Sundae skulle spara för ditt team.",
       "ctaButton": "Boka en teknisk genomgång"
     },
@@ -1114,7 +1114,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vezi schema, nu diapozitivul.",
+      "ctaTitle": "Fiecare dolar recuperat, trasabil până la rândul sursă.",
       "ctaDescription": "30 de minute. Stack-ul tău. Săptămânile de integrare pe care Sundae le-ar economisi echipei tale.",
       "ctaButton": "Rezervați un tur tehnic"
     },
@@ -1176,7 +1176,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "স্কিমা দেখুন, স্লাইড নয়।",
+      "ctaTitle": "ফিরে পাওয়া প্রতিটি ডলার, তার উৎস সারি পর্যন্ত ট্রেসযোগ্য।",
       "ctaDescription": "৩০ মিনিট। আপনার স্ট্যাক। Sundae আপনার দলের জন্য সপ্তাহের সংযোগ সাশ্রয় করবে।",
       "ctaButton": "একটি প্রযুক্তিগত ওয়াক-থ্রু বুক করুন"
     },
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูสคีมา ไม่ใช่สไลด์.",
+      "ctaTitle": "ทุกดอลลาร์ที่เรียกคืน ตรวจสอบย้อนกลับได้ถึงแถวต้นทาง",
       "ctaDescription": "30 นาที. สแต็คของคุณ. การรวมระบบที่ Sundae จะช่วยประหยัดเวลาให้ทีมของคุณได้หลายสัปดาห์.",
       "ctaButton": "จองการสาธิตทางเทคนิค"
     },
@@ -1300,7 +1300,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat skema, bukan slaid.",
+      "ctaTitle": "Setiap dolar yang diperoleh semula, boleh dijejaki hingga ke baris sumbernya.",
       "ctaDescription": "30 minit. Tumpukan anda. Integrasi yang akan menjimatkan minggu Sundae untuk pasukan anda.",
       "ctaButton": "Tempah Penerangan Teknikal"
     }

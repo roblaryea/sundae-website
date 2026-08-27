@@ -30,14 +30,14 @@ export const foresightCreamCopy: Record<string, { eyebrow: string; statement: st
     lede: 'توقعات من 14 إلى 90 يوماً وسيناريوهات ماذا لو تصحح نفسها مع وصول البيانات.',
   },
   fr: {
-    eyebrow: 'INTELLIGENCE PREDICTIVE',
-    statement: "Les problemes de demain, reveles *aujourd'hui*.",
-    lede: 'Des previsions de 14 a 90 jours et des scenarios qui se corrigent a mesure que les donnees arrivent.',
+    eyebrow: 'INTELLIGENCE PRÉDICTIVE',
+    statement: "Les problèmes de demain, révélés *aujourd'hui*.",
+    lede: 'Des prévisions de 14 à 90 jours et des scénarios qui se corrigent à mesure que les données arrivent.',
   },
   es: {
     eyebrow: 'INTELIGENCIA PREDICTIVA',
-    statement: 'Los problemas de manana, visibles *hoy*.',
-    lede: 'Previsiones de 14 a 90 dias y escenarios que se corrigen solos a medida que llegan los datos.',
+    statement: 'Los problemas de mañana, visibles *hoy*.',
+    lede: 'Previsiones de 14 a 90 días y escenarios que se corrigen solos a medida que llegan los datos.',
   },
   de: {
     eyebrow: 'PROGNOSTISCHE INTELLIGENZ',

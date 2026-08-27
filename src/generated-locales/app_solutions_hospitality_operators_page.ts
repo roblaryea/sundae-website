@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
       "badge": "Voor Hospitality Operators",
       "titleLine1": "Één intelligentielaag.",
       "titleLine2": "Elke F&B-locatie.",
-      "description": "Hotelrestaurants, banketten, IRD, lobbybar - een uniforme live-weergave van elke omzetbron. Marge, mix en arbeid in één overzicht.",
+      "description": "Hotelrestaurants, banket, IRD, lobbybar - elk lek per vestiging gevonden, opgepakt en teruggemeten op de marge. Marge, mix en arbeid in één beeld.",
       "primaryCta": "Boek een Hospitality Rondleiding",
       "secondaryCta": "Bekijk de Hospitality Demo",
       "problemsEyebrow": "F&B BINNEN DE HOSPITALITY",
@@ -63,11 +63,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Wat verandert er voor de F&B-leidinggevende",
-      "outcomesDescription": "Duidelijkheid op outlet-niveau, beslissingen op eigendom-niveau.",
+      "outcomesDescription": "Duidelijkheid op vestigingsniveau, elk lek opgepakt, teruggewonnen marge teruggemeten.",
       "outcomes": [
         {
-          "title": "Stuur F&B op outlet-niveau",
-          "description": "Restaurant in de problemen? Lobbybar buiten de planning? Je ziet het per outlet, tijdens de shift.",
+          "title": "Win de F&B-marge terug op vestigingsniveau",
+          "description": "Restaurant zakt weg? Lobbybar boven plan? De correctie krijgt een eigenaar en de teruggewonnen marge wordt per vestiging teruggemeten.",
           "icon": "speed"
         },
         {
@@ -86,15 +86,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Bekijk elke F&B-locatie in één overzicht.",
-      "ctaDescription": "30 minuten. Jouw eigendom. De outlet die je anders zou hebben geprioriteerd.",
+      "ctaTitle": "Vind het lek. Haal de F&B-marge terug.",
+      "ctaDescription": "30 minuten. Uw vestiging. Het vestigingslek toegewezen aan een eigenaar - en de teruggewonnen marge teruggemeten tegen de baseline.",
       "ctaButton": "Boek een Hospitality Rondleiding"
     },
     "es": {
       "badge": "Para Operadores de Hospitalidad",
       "titleLine1": "Una capa de inteligencia.",
       "titleLine2": "Cada establecimiento de F&B.",
-      "description": "Restaurantes de hotel, banquetes, servicio de habitaciones, bar del vestíbulo: vista unificada en tiempo real de cada punto de ingresos. Margen, mezcla y mano de obra en un solo marco.",
+      "description": "Restaurantes, banquetes, room service, bar lobby - la fuga de cada punto detectada, asumida y vuelta a medir sobre el margen. Margen, mix, personal en un solo marco.",
       "primaryCta": "Reserva una visita guiada de hospitalidad",
       "secondaryCta": "Ver demostración de hospitalidad",
       "problemsEyebrow": "F&B DENTRO DE LA HOSPITALIDAD",
@@ -151,11 +151,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "¿Qué cambia para el liderazgo de F&B?",
-      "outcomesDescription": "Claridad a nivel de outlet, decisiones a nivel de propiedad.",
+      "outcomesDescription": "Claridad por punto, cada fuga asumida, margen recuperado y vuelto a medir.",
       "outcomes": [
         {
-          "title": "Dirige F&B a nivel de local",
-          "description": "¿El restaurante está en declive? ¿El bar del vestíbulo está sobre plan? Lo ves por local, en el turno.",
+          "title": "Recupera el margen de A&B con granularidad de punto",
+          "description": "¿Restaurante deslizándose? ¿Lobby por encima del plan? La corrección recibe un responsable y el margen recuperado se vuelve a medir por punto.",
           "icon": "speed"
         },
         {
@@ -174,15 +174,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Ve todos los puntos de venta de F&B en una sola vista.",
-      "ctaDescription": "30 minutos. Tu propiedad. El punto de venta que habrías priorizado de manera diferente.",
+      "ctaTitle": "Detecta la fuga. Recupera el margen de A&B.",
+      "ctaDescription": "30 minutos. Tu propiedad. La fuga del punto asignada a un responsable - y el margen recuperado vuelto a medir contra la línea base.",
       "ctaButton": "Reserva una visita guiada de hospitalidad"
     },
     "fr": {
       "badge": "Pour les opérateurs de l'hospitalité",
       "titleLine1": "Une couche d'intelligence.",
       "titleLine2": "Chaque point de vente F&B.",
-      "description": "Restaurants d'hôtel, banquets, service en chambre, bar du hall - vue en direct unifiée de chaque point de vente. Marge, mix et main-d'œuvre dans un seul cadre.",
+      "description": "Restaurants, banqueting, room service, bar lobby - la fuite de chaque point repérée, prise en charge et remesurée sur la marge. Marge, mix, main-d'œuvre dans un seul cadre.",
       "primaryCta": "Réservez une visite de l'hospitalité",
       "secondaryCta": "Voir la démonstration de l'hospitalité",
       "problemsEyebrow": "F&B DANS L'HOSPITALITÉ",
@@ -239,11 +239,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Qu'est-ce qui change pour les dirigeants F&B",
-      "outcomesDescription": "Clarté au niveau des points de vente, décisions au niveau de la propriété.",
+      "outcomesDescription": "Clarté point par point, chaque fuite prise en charge, marge récupérée et remesurée.",
       "outcomes": [
         {
-          "title": "Gérez la restauration au niveau de chaque point de vente",
-          "description": "Le restaurant est en déclin ? Le bar du hall dépasse le budget ? Vous le voyez par point de vente, pendant le service.",
+          "title": "Récupérez la marge F&B à la granularité point",
+          "description": "Restaurant qui décroche ? Lobby au-dessus du plan ? La correction trouve un responsable et la marge récupérée est remesurée par point.",
           "icon": "speed"
         },
         {
@@ -262,15 +262,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Voir tous les points de vente F&B en un seul coup d'œil.",
-      "ctaDescription": "30 minutes. Votre propriété. Le point de vente que vous auriez priorisé différemment.",
+      "ctaTitle": "Repérez la fuite. Récupérez la marge F&B.",
+      "ctaDescription": "30 minutes. Votre propriété. La fuite du point confiée à un responsable - et la marge récupérée remesurée face au point de référence.",
       "ctaButton": "Réservez une visite guidée de l'hospitalité"
     },
     "ur": {
       "badge": "مہمان نوازی آپریٹرز کے لیے",
       "titleLine1": "ایک انٹیلی جنس پرت.",
       "titleLine2": "ہر F&B آؤٹ لیٹ۔",
-      "description": "ہوٹل کے ریستوراں، ضیافت، IRD، لابی بار - ہر آمدنی کے آؤٹ لیٹ پر متحد لائیو منظر۔ مارجن، مکس، اور لیبر ایک فریم میں۔",
+      "description": "ہوٹل ریستوران، بینکویٹ، آئی آر ڈی، لابی بار - ہر آؤٹ لیٹ کا رساؤ ملا، ذمہ داری طے ہوئی، اور مارجن پر دوبارہ ناپا گیا۔ مارجن، مکس اور لیبر ایک ہی فریم میں۔",
       "primaryCta": "مہمان نوازی کی واک تھرو بک کرو",
       "secondaryCta": "مہمان نوازی کا ڈیمو دیکھیں",
       "problemsEyebrow": "مہمان نوازی کے اندر F&B",
@@ -327,11 +327,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "F&B قیادت کے لیے کیا تبدیلیاں؟",
-      "outcomesDescription": "آؤٹ لیٹ کی سطح کی وضاحت، پراپرٹی کی سطح کے فیصلے۔",
+      "outcomesDescription": "آؤٹ لیٹ کی سطح پر وضاحت، ہر رساؤ کی ذمہ داری طے، بازیافت شدہ مارجن دوبارہ ناپا گیا۔",
       "outcomes": [
         {
-          "title": "آؤٹ لیٹ گرینولریٹی پر F&B کو آگے بڑھائیں۔",
-          "description": "ریسٹورانٹ پھسلنا؟ لابی بار اوور پلان؟ آپ اسے آؤٹ لیٹ کے ذریعے، شفٹ میں دیکھتے ہیں۔",
+          "title": "آؤٹ لیٹ کی باریکی پر F&B مارجن بازیافت کریں",
+          "description": "ریستوران پھسل رہا ہے؟ لابی بار منصوبے سے اوپر؟ اصلاح کو ایک ذمہ دار ملتا ہے اور بازیافت شدہ مارجن ہر آؤٹ لیٹ کے حساب سے دوبارہ ناپا جاتا ہے۔",
           "icon": "speed"
         },
         {
@@ -350,15 +350,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ہر F&B آؤٹ لیٹ کو ایک ہی منظر میں دیکھیں۔",
-      "ctaDescription": "30 منٹ آپ کی جائیداد. آؤٹ لیٹ جس کو آپ نے مختلف طریقے سے ترجیح دی ہوگی۔",
+      "ctaTitle": "رساؤ تلاش کریں۔ F&B مارجن واپس حاصل کریں۔",
+      "ctaDescription": "30 منٹ۔ آپ کی پراپرٹی۔ آؤٹ لیٹ کا رساؤ ایک ذمہ دار کے سپرد - اور بازیافت شدہ مارجن بنیادی سطح کے مقابلے دوبارہ ناپا گیا۔",
       "ctaButton": "مہمان نوازی کی واک تھرو بک کرو"
     },
     "ar": {
       "badge": "لمشغلي الضيافة",
       "titleLine1": "طبقة ذكاء واحدة.",
       "titleLine2": "كل منفذ للأطعمة والمشروبات.",
-      "description": "مطاعم الفندق، والولائم، وIRD، وبار اللوبي - عرض مباشر موحد عبر كل منفذ للإيرادات. الهامش والمزج والعمل في إطار واحد.",
+      "description": "مطاعم الفنادق، البانكيت، خدمة الغرف، بار اللوبي - تسرب كل منفذ يُرصد، ويُسنَد، ويُقاس مجدداً على الهامش.",
       "primaryCta": "حجز جولة الضيافة",
       "secondaryCta": "انظر العرض التوضيحي للضيافة",
       "problemsEyebrow": "المأكولات والمشروبات داخل الضيافة",
@@ -415,11 +415,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "ما هي التغييرات في قيادة الأغذية والمشروبات",
-      "outcomesDescription": "الوضوح على مستوى المنفذ، والقرارات على مستوى الملكية.",
+      "outcomesDescription": "وضوح على مستوى المنفذ، كل تسرب بعهدة مسؤول، وهامش مستردّ يُقاس مجدداً.",
       "outcomes": [
         {
-          "title": "وجّه المأكولات والمشروبات على مستوى المنفذ",
-          "description": "المطعم يتراجع؟ بار اللوبي يتجاوز الخطة؟ تراه حسب المنفذ، أثناء الوردية.",
+          "title": "استردّ هامش F&B بدقة المنفذ",
+          "description": "مطعم ينزلق؟ بار اللوبي متجاوز الخطة؟ يحصل الإصلاح على مسؤول ويُقاس الهامش المستردّ مجدداً لكل منفذ.",
           "icon": "speed"
         },
         {
@@ -438,15 +438,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "شاهد كل منافذ المأكولات والمشروبات في عرض واحد.",
-      "ctaDescription": "30 دقيقة. الممتلكات الخاصة بك. المنفذ الذي كنت ستعطيه الأولوية بشكل مختلف.",
+      "ctaTitle": "ارصد التسرب. استردّ هامش F&B.",
+      "ctaDescription": "30 دقيقة. عقارك. تسرب المنفذ مُسنَد إلى مسؤول - والهامش المستردّ يُقاس مجدداً مقابل خط الأساس.",
       "ctaButton": "حجز جولة الضيافة"
     },
     "de": {
       "badge": "Für Hospitality-Betreiber",
       "titleLine1": "Eine Intelligence-Ebene.",
       "titleLine2": "Jeder F&B-Outlet.",
-      "description": "Hotelrestaurants, Bankette, IRD, Lobbybar - eine einheitliche Live-Ansicht jeder Umsatzquelle. Marge, Mix und Personal in einem Bild.",
+      "description": "Hotelrestaurants, Bankett, IRD, Lobbybar - jedes Outlet-Leck gefunden, übernommen und auf die Marge zurückgemessen. Marge, Mix und Personal in einem Bild.",
       "primaryCta": "Hospitality-Rundgang buchen",
       "secondaryCta": "Hospitality-Demo ansehen",
       "problemsEyebrow": "F&B IN DER HOSPITALITY",
@@ -503,11 +503,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Was sich für die F&B-Führung ändert",
-      "outcomesDescription": "Klarheit auf Outlet-Ebene, Entscheidungen auf Objektebene.",
+      "outcomesDescription": "Klarheit auf Outlet-Ebene, jedes Leck übernommen, zurückgewonnene Marge zurückgemessen.",
       "outcomes": [
         {
-          "title": "Steuern Sie F&B auf Outlet-Ebene",
-          "description": "Restaurant rutscht ab? Lobbybar über Plan? Sie sehen es nach Outlet, während der Schicht.",
+          "title": "F&B-Marge auf Outlet-Ebene zurückholen",
+          "description": "Restaurant schwächelt? Lobbybar über Plan? Die Korrektur erhält einen Verantwortlichen und die zurückgewonnene Marge wird pro Outlet zurückgemessen.",
           "icon": "speed"
         },
         {
@@ -526,15 +526,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Sehen Sie jeden F&B-Outlet in einer Ansicht.",
-      "ctaDescription": "30 Minuten. Ihr Haus. Der Outlet, den Sie anders priorisiert hätten.",
+      "ctaTitle": "Finden Sie das Leck. Holen Sie die F&B-Marge zurück.",
+      "ctaDescription": "30 Minuten. Ihr Objekt. Das Outlet-Leck an einen Verantwortlichen übergeben - und die zurückgewonnene Marge gegen die Baseline zurückgemessen.",
       "ctaButton": "Hospitality-Rundgang buchen"
     },
     "hi": {
       "badge": "आतिथ्य संचालकों के लिए",
       "titleLine1": "एक इंटेलिजेंस लेयर।",
       "titleLine2": "हर F&B आउटलेट।",
-      "description": "होटल रेस्तरां, भोज, आईआरडी, लॉबी बार - प्रत्येक राजस्व आउटलेट पर एकीकृत लाइव दृश्य। एक फ्रेम में मार्जिन, मिश्रण और श्रम।",
+      "description": "होटल रेस्तरां, बैनक्वेट, आईआरडी, लॉबी बार - हर आउटलेट का रिसाव मिला, उसका मालिक तय, और मार्जिन पर दोबारा मापा गया। मार्जिन, मिक्स और श्रम एक ही फ्रेम में।",
       "primaryCta": "आतिथ्य वॉक-थ्रू बुक करें",
       "secondaryCta": "आतिथ्य डेमो देखें",
       "problemsEyebrow": "आतिथ्य के अंदर एफ एंड बी",
@@ -591,11 +591,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "F&B नेतृत्व के लिए क्या परिवर्तन",
-      "outcomesDescription": "आउटलेट-स्तर की स्पष्टता, संपत्ति-स्तर के निर्णय।",
+      "outcomesDescription": "आउटलेट-स्तर पर स्पष्टता, हर रिसाव का मालिक तय, वसूला गया मार्जिन दोबारा मापा गया।",
       "outcomes": [
         {
-          "title": "आउटलेट ग्रैन्युलैरिटी पर F&B को संचालित करें",
-          "description": "रेस्तरां फिसल रहा है? योजना से अधिक लॉबी बार? आप इसे आउटलेट द्वारा, शिफ्ट में देखते हैं।",
+          "title": "आउटलेट सूक्ष्मता पर F&B मार्जिन वसूलें",
+          "description": "रेस्तरां फिसल रहा है? लॉबी बार योजना से ऊपर? सुधार को एक मालिक मिलता है और वसूला गया मार्जिन आउटलेट के अनुसार दोबारा मापा जाता है।",
           "icon": "speed"
         },
         {
@@ -614,15 +614,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "प्रत्येक F&B आउटलेट को एक दृश्य में देखें।",
-      "ctaDescription": "30 मिनट. आपकी संपत्ति. जिस आउटलेट को आपने अलग तरह से प्राथमिकता दी होगी।",
+      "ctaTitle": "रिसाव खोजें। F&B मार्जिन वापस पाएं।",
+      "ctaDescription": "30 मिनट। आपकी संपत्ति। आउटलेट का रिसाव एक जिम्मेदार को सौंपा गया - और वसूला गया मार्जिन आधार रेखा के मुकाबले दोबारा मापा गया।",
       "ctaButton": "आतिथ्य वॉक-थ्रू बुक करें"
     },
     "pt": {
       "badge": "Para operadores de hospitalidade",
       "titleLine1": "Uma camada de inteligência.",
       "titleLine2": "Cada loja de F&B.",
-      "description": "Restaurantes de hotéis, banquetes, IRD, lobby bar - visualização ao vivo unificada em todos os pontos de receita. Margem, mixagem e trabalho em um quadro.",
+      "description": "Restaurantes de hotel, banquete, IRD, lobby bar - o vazamento de cada ponto encontrado, assumido e medido de volta na margem. Margem, mix e mão de obra num só quadro.",
       "primaryCta": "Reserve um passeio de hospitalidade",
       "secondaryCta": "Veja a demonstração de hospitalidade",
       "problemsEyebrow": "F&B DENTRO DA HOSPITALIDADE",
@@ -679,11 +679,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "O que muda para a liderança de F&B",
-      "outcomesDescription": "Clareza no nível do ponto de venda, decisões no nível da propriedade.",
+      "outcomesDescription": "Clareza por ponto, cada vazamento assumido, margem recuperada medida de volta.",
       "outcomes": [
         {
-          "title": "Orientar alimentos e bebidas na granularidade do outlet",
-          "description": "Restaurante escorregando? Lobby bar acima do plano? Você vê pelo outlet, no turno.",
+          "title": "Recupere a margem de F&B por ponto",
+          "description": "Restaurante escorregando? Lobby bar acima do plano? A correção ganha um responsável e a margem recuperada é medida de volta por ponto.",
           "icon": "speed"
         },
         {
@@ -702,15 +702,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Veja todos os estabelecimentos de F&B em uma única visualização.",
-      "ctaDescription": "30 minutos. Sua propriedade. A saída que você teria priorizado de forma diferente.",
+      "ctaTitle": "Encontre o vazamento. Recupere a margem de F&B.",
+      "ctaDescription": "30 minutos. Sua propriedade. O vazamento do ponto atribuído a um responsável - e a margem recuperada medida de volta contra a linha de base.",
       "ctaButton": "Reserve um passeio de hospitalidade"
     },
     "it": {
       "badge": "Per gli operatori dell'ospitalità",
       "titleLine1": "Uno strato di intelligenza.",
       "titleLine2": "Ogni punto vendita di cibo e bevande.",
-      "description": "Ristoranti di hotel, banchetti, IRD, lobby bar: visualizzazione live unificata su ogni punto vendita. Margine, mix e lavoro in un unico fotogramma.",
+      "description": "Ristoranti d'albergo, banchetto, IRD, lobby bar - la perdita di ogni punto individuata, presa in carico e rimisurata sul margine. Margine, mix e manodopera in un solo quadro.",
       "primaryCta": "Prenota una visita guidata per l'ospitalità",
       "secondaryCta": "Vedi la demo dell'ospitalità",
       "problemsEyebrow": "F&B DENTRO L'OSPITALITÀ",
@@ -767,11 +767,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Cosa cambia per la leadership del F&B",
-      "outcomesDescription": "Chiarezza a livello di outlet, decisioni a livello di proprietà.",
+      "outcomesDescription": "Chiarezza a livello di punto, ogni perdita presa in carico, margine recuperato rimisurato.",
       "outcomes": [
         {
-          "title": "Guida il F&B a livello di punto vendita",
-          "description": "Il ristorante è in calo? Bar della hall oltre il piano? Lo vedi per punto vendita, durante il turno.",
+          "title": "Recupera il margine F&B alla granularità del punto",
+          "description": "Il ristorante scivola? Lobby bar sopra il piano? La correzione trova un responsabile e il margine recuperato viene rimisurato per punto.",
           "icon": "speed"
         },
         {
@@ -790,15 +790,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Guarda tutti i punti vendita di cibo e bevande in un'unica vista.",
-      "ctaDescription": "30 minuti. La tua proprietà. Il punto vendita a cui avresti dato la priorità in modo diverso.",
+      "ctaTitle": "Trova la falla. Recupera il margine F&B.",
+      "ctaDescription": "30 minuti. La tua struttura. La perdita del punto affidata a un responsabile - e il margine recuperato rimisurato rispetto alla baseline.",
       "ctaButton": "Prenota una visita guidata per l'ospitalità"
     },
     "zh-Hans": {
       "badge": "对于酒店经营者",
       "titleLine1": "一层智能层。",
       "titleLine2": "每个餐饮店。",
-      "description": "酒店餐厅、宴会厅、IRD、大堂酒吧--每个收入网点的统一实时视图。边际、混合和劳动力都集中在一个框架中。",
+      "description": "酒店餐厅、宴会、客房送餐、大堂吧--每个门店的漏损被找到、有人负责、并按利润率重新衡量。利润率、结构与人力在同一画面。",
       "primaryCta": "预订接待演练",
       "secondaryCta": "查看酒店演示",
       "problemsEyebrow": "酒店内餐饮",
@@ -855,11 +855,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "餐饮领导层发生哪些变化",
-      "outcomesDescription": "门店级清晰、物业级决策。",
+      "outcomesDescription": "门店级清晰度，每处漏损有人负责，挽回的利润率被重新衡量。",
       "outcomes": [
         {
-          "title": "在门店粒度上掌舵餐饮",
-          "description": "餐厅业绩下滑？大堂酒吧超出计划？你可以在轮班期间按门店看到它。",
+          "title": "在门店粒度上挽回餐饮利润率",
+          "description": "餐厅下滑？大堂吧超出计划？修正获得一位负责人，挽回的利润率按门店重新衡量。",
           "icon": "speed"
         },
         {
@@ -878,15 +878,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "在一个视图中查看每个餐饮店。",
-      "ctaDescription": "30 分钟。你的物业。那个你本会以不同方式优先考虑的门店。",
+      "ctaTitle": "找出泄漏。收回餐饮利润率。",
+      "ctaDescription": "30分钟。您的物业。门店漏损指派给一位负责人--挽回的利润率对照基线重新衡量。",
       "ctaButton": "预订接待演练"
     },
     "pl": {
       "badge": "Dla operatorów hotelarskich",
       "titleLine1": "Jedna warstwa inteligencji.",
       "titleLine2": "Każdy lokal F&B.",
-      "description": "Restauracje hotelowe, bankiety, IRD, bar w holu - ujednolicony podgląd na żywo we wszystkich punktach sprzedaży. Margines, miks i praca w jednej ramce.",
+      "description": "Restauracje hotelowe, bankiet, IRD, lobby bar - wyciek każdego lokalu wykryty, przypisany i zmierzony z powrotem na marży. Marża, miks i praca w jednym kadrze.",
       "primaryCta": "Zarezerwuj wycieczkę po hotelarstwie",
       "secondaryCta": "Zobacz demonstrację gościnności",
       "problemsEyebrow": "F&B WEWNĄTRZ Gościnności",
@@ -943,11 +943,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Jakie zmiany w kierownictwie F&B",
-      "outcomesDescription": "Przejrzystość na poziomie punktu sprzedaży, decyzje na poziomie nieruchomości.",
+      "outcomesDescription": "Jasność na poziomie lokalu, każdy wyciek przypisany, odzyskana marża zmierzona z powrotem.",
       "outcomes": [
         {
-          "title": "Steruj F&B na poziomie pojedynczej placówki",
-          "description": "Restauracja notuje spadki? Lobby bar ponad planem? Widzisz to według placówki, w trakcie zmiany.",
+          "title": "Odzyskaj marżę F&B na poziomie lokalu",
+          "description": "Restauracja się osuwa? Lobby bar powyżej planu? Poprawka dostaje właściciela, a odzyskana marża jest mierzona z powrotem według lokalu.",
           "icon": "speed"
         },
         {
@@ -966,15 +966,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz wszystkie sklepy F&B w jednym widoku.",
-      "ctaDescription": "30 minut. Twoja własność. Punkt sprzedaży, dla którego priorytet miałbyś inny.",
+      "ctaTitle": "Znajdź wyciek. Odzyskaj marżę F&B.",
+      "ctaDescription": "30 minut. Twój obiekt. Wyciek lokalu przypisany do właściciela - i odzyskana marża zmierzona z powrotem względem punktu odniesienia.",
       "ctaButton": "Zarezerwuj wycieczkę po hotelarstwie"
     },
     "ja": {
       "badge": "ホスピタリティ事業者向け",
       "titleLine1": "1 つのインテリジェンス層。",
       "titleLine2": "すべての飲食店。",
-      "description": "ホテルのレストラン、宴会場、IRD、ロビーバー - あらゆる収益店舗にわたる統一されたライブビュー。マージン、ミックス、人件費をひとつのフレームに。",
+      "description": "ホテルレストラン、バンケット、IRD、ロビーバー--各アウトレットの漏れを発見し、担当を定め、マージンで測り直します。マージン、構成、労働を一つの画面に。",
       "primaryCta": "ホスピタリティのウォークスルーを予約する",
       "secondaryCta": "ホスピタリティのデモを見る",
       "problemsEyebrow": "ホスピタリティ内の飲食",
@@ -1031,11 +1031,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "F&B のリーダーにとって何が変わるのか",
-      "outcomesDescription": "アウトレットレベルの明確さ、不動産レベルの決定。",
+      "outcomesDescription": "アウトレット単位の明確さ、各漏れに担当を定め、回収したマージンを測り直します。",
       "outcomes": [
         {
-          "title": "アウトレットの粒度に応じて F&B を制御する",
-          "description": "レストランが滑る？ロビーバーは計画を超えていますか？シフトのアウトレットごとにわかります。",
+          "title": "アウトレット粒度でF&Bマージンを回収する",
+          "description": "レストランが落ち込む？ロビーバーが計画超過？対策に担当者が付き、回収したマージンをアウトレットごとに測り直します。",
           "icon": "speed"
         },
         {
@@ -1054,15 +1054,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "すべての F&B 店舗を 1 つのビューで確認できます。",
-      "ctaDescription": "30分。あなたの財産。別の方法で優先順位を付けたであろうアウトレット。",
+      "ctaTitle": "漏れを見つけ、F&Bマージンを取り戻す。",
+      "ctaDescription": "30分。あなたの施設。アウトレットの漏れを担当者に割り当て--回収したマージンを基準値に照らして測り直します。",
       "ctaButton": "ホスピタリティのウォークスルーを予約する"
     },
     "ko": {
       "badge": "숙박업체 운영자용",
       "titleLine1": "하나의 지능 계층.",
       "titleLine2": "모든 F&B 매장.",
-      "description": "호텔 레스토랑, 연회장, IRD, 로비 바 - 모든 매출처에 대한 통합 라이브 뷰를 제공합니다. 마진, 매출 믹스, 인건비를 하나의 프레임에서 확인하세요.",
+      "description": "호텔 레스토랑, 연회, 객실 서비스, 로비 바 - 모든 매장의 누수를 찾아 책임자를 지정하고 마진 기준으로 다시 측정합니다. 마진, 구성, 노동을 한 화면에.",
       "primaryCta": "환대 체험 예약하기",
       "secondaryCta": "Hospitality 데모 보기",
       "problemsEyebrow": "F&B 내부 환대",
@@ -1119,11 +1119,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "F&B 리더십의 변화",
-      "outcomesDescription": "매장 수준의 명확성, 자산 수준의 결정.",
+      "outcomesDescription": "매장 단위의 명확성, 모든 누수에 책임자 지정, 회수한 마진을 다시 측정합니다.",
       "outcomes": [
         {
-          "title": "F&B를 매장 단위로 운영하세요",
-          "description": "레스토랑 실적이 하락 중인가요? 로비 바가 계획을 초과했나요? 근무 중에 매장별로 확인할 수 있습니다.",
+          "title": "매장 단위로 F&B 마진을 회수하세요",
+          "description": "레스토랑이 미끄러지나요? 로비 바가 계획을 초과했나요? 수정에 책임자가 지정되고 회수한 마진을 매장별로 다시 측정합니다.",
           "icon": "speed"
         },
         {
@@ -1142,15 +1142,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "모든 F&B 매장을 한 눈에 볼 수 있습니다.",
-      "ctaDescription": "30분. 귀하의 호텔. 당신이 다르게 우선순위를 정했을 그 매장.",
+      "ctaTitle": "누수를 찾으세요. F&B 마진을 되찾으세요.",
+      "ctaDescription": "30분. 당신의 사업장. 매장 누수를 책임자에게 배정하고 - 회수한 마진을 기준선 대비 다시 측정합니다.",
       "ctaButton": "환대 체험 예약하기"
     },
     "tr": {
       "badge": "Konaklama İşletmecileri için",
       "titleLine1": "Bir zeka katmanı.",
       "titleLine2": "Her F&B çıkışı.",
-      "description": "Otel restoranları, ziyafetler, IRD, lobi bar - her gelir noktasında birleşik canlı görüntü. Tek karede marj, karışım ve işçilik.",
+      "description": "Otel restoranları, banket, IRD, lobi bar - her noktanın sızıntısı bulunur, sahiplenilir ve marj üzerinden yeniden ölçülür. Marj, karma ve iş gücü tek bir karede.",
       "primaryCta": "Konukseverlik Gezintisi rezervasyonu yaptırın",
       "secondaryCta": "Ağırlama Demosunu Görün",
       "problemsEyebrow": "AĞIRLAMA İÇİNDE F&B",
@@ -1207,11 +1207,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "F&B liderliğinde neler değişiyor?",
-      "outcomesDescription": "Satış noktası düzeyinde netlik, mülk düzeyinde kararlar.",
+      "outcomesDescription": "Nokta düzeyinde netlik, her sızıntı sahiplenilir, geri kazanılan marj yeniden ölçülür.",
       "outcomes": [
         {
-          "title": "F&B'yi satış noktası ayrıntı düzeyinde yönetin",
-          "description": "Restoran mı geriliyor? Lobi bar planın üzerinde mi? Bunu vardiya sırasında satış noktasına göre görüyorsunuz.",
+          "title": "Nokta ayrıntısında F&B marjını geri kazanın",
+          "description": "Restoran mı geriliyor? Lobi bar plan üstünde mi? Düzeltme bir sorumlu bulur ve geri kazanılan marj nokta bazında yeniden ölçülür.",
           "icon": "speed"
         },
         {
@@ -1230,15 +1230,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Tüm F&B satış noktalarını tek görünümde görün.",
-      "ctaDescription": "30 dakika. Senin mülkün. Farklı şekilde öncelik vereceğiniz çıkış.",
+      "ctaTitle": "Sızıntıyı bulun. F&B marjını geri kazanın.",
+      "ctaDescription": "30 dakika. Tesisiniz. Nokta sızıntısı bir sorumluya yönlendirilir - ve geri kazanılan marj temel çizgiye göre yeniden ölçülür.",
       "ctaButton": "Konukseverlik Gezintisi rezervasyonu yaptırın"
     },
     "id": {
       "badge": "Untuk Operator Perhotelan",
       "titleLine1": "Satu lapisan intelijen.",
       "titleLine2": "Setiap outlet F&B.",
-      "description": "Restoran hotel, jamuan makan, IRD, bar lobi - tampilan langsung terpadu di setiap sumber pendapatan. Margin, bauran penjualan, dan tenaga kerja dalam satu bingkai.",
+      "description": "Restoran hotel, banket, IRD, lobby bar - kebocoran setiap outlet ditemukan, diampu, dan diukur kembali pada margin. Margin, bauran, dan tenaga kerja dalam satu bingkai.",
       "primaryCta": "Pesan Panduan Perhotelan",
       "secondaryCta": "Lihat Demo Perhotelan",
       "problemsEyebrow": "F&B DI DALAM PERHOTELAN",
@@ -1295,11 +1295,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Perubahan apa yang terjadi pada kepemimpinan F&B",
-      "outcomesDescription": "Kejelasan di tingkat outlet, keputusan di tingkat properti.",
+      "outcomesDescription": "Kejelasan tingkat outlet, setiap kebocoran diampu, margin yang dipulihkan diukur kembali.",
       "outcomes": [
         {
-          "title": "Arahkan F&B pada rincian outlet",
-          "description": "Restoran tergelincir? Bar lobi melebihi rencana? Anda melihatnya berdasarkan outlet, dalam shift.",
+          "title": "Pulihkan margin F&B pada granularitas outlet",
+          "description": "Restoran menurun? Lobby bar di atas rencana? Perbaikan mendapat penanggung jawab dan margin yang dipulihkan diukur kembali per outlet.",
           "icon": "speed"
         },
         {
@@ -1318,15 +1318,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat setiap outlet F&B dalam satu tampilan.",
-      "ctaDescription": "30 menit. Properti Anda. Outlet yang akan Anda prioritaskan secara berbeda.",
+      "ctaTitle": "Temukan kebocoran. Pulihkan margin F&B.",
+      "ctaDescription": "30 menit. Properti Anda. Kebocoran outlet diarahkan ke penanggung jawab - dan margin yang dipulihkan diukur kembali terhadap garis dasar.",
       "ctaButton": "Pesan Panduan Perhotelan"
     },
     "bn": {
       "badge": "আতিথেয়তা অপারেটরদের জন্য",
       "titleLine1": "একটি ইন্টেলিজেন্স লেয়ার।",
       "titleLine2": "প্রতিটি F&B আউটলেট।",
-      "description": "হোটেল রেস্তোরাঁ, ভোজ, IRD, লবি বার - প্রতিটি রাজস্ব আউটলেট জুড়ে ইউনিফাইড লাইভ ভিউ। মার্জিন, মিশ্রণ এবং শ্রম এক ফ্রেমে।",
+      "description": "হোটেল রেস্তোরাঁ, ব্যাংকুয়েট, আইআরডি, লবি বার - প্রতিটি আউটলেটের লিক ধরা পড়ল, দায়িত্ব বণ্টন হলো, এবং মার্জিনের সাপেক্ষে আবার মাপা হলো। মার্জিন, মিক্স এবং শ্রম এক ফ্রেমে।",
       "primaryCta": "একটি হসপিটালিটি ওয়াক-থ্রু বুক করুন",
       "secondaryCta": "আতিথেয়তা ডেমো দেখুন",
       "problemsEyebrow": "আতিথেয়তার ভিতরে F&B",
@@ -1383,11 +1383,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "F&B নেতৃত্বের জন্য কি পরিবর্তন",
-      "outcomesDescription": "আউটলেট-স্তরের স্পষ্টতা, সম্পত্তি-স্তরের সিদ্ধান্ত।",
+      "outcomesDescription": "আউটলেট-স্তরের স্পষ্টতা, প্রতিটি লিকের দায়িত্ব বণ্টন, পুনরুদ্ধার করা মার্জিন আবার মাপা হলো।",
       "outcomes": [
         {
-          "title": "আউটলেট গ্রানুলারিটিতে F&B চালান",
-          "description": "রেস্টুরেন্ট স্লিপিং? পরিকল্পনার উপর লবি বার? আপনি এটি আউটলেট দ্বারা, শিফটে দেখতে পাবেন।",
+          "title": "আউটলেট সূক্ষ্মতায় F&B মার্জিন পুনরুদ্ধার করুন",
+          "description": "রেস্তোরাঁ পিছলে যাচ্ছে? লবি বার পরিকল্পনার উপরে? সংশোধন একজন দায়িত্বশীল পায় এবং পুনরুদ্ধার করা মার্জিন আউটলেট অনুযায়ী আবার মাপা হয়।",
           "icon": "speed"
         },
         {
@@ -1406,15 +1406,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "প্রতিটি F&B আউটলেট এক দৃশ্যে দেখুন।",
-      "ctaDescription": "30 মিনিট আপনার সম্পত্তি. আউটলেট আপনি ভিন্নভাবে অগ্রাধিকার দিতে হবে.",
+      "ctaTitle": "লিক খুঁজুন। F&B মার্জিন ফিরে পান।",
+      "ctaDescription": "৩০ মিনিট। আপনার প্রপার্টি। আউটলেটের লিক একজন দায়িত্বশীলকে দেওয়া হলো - এবং পুনরুদ্ধার করা মার্জিন ভিত্তিরেখার সাপেক্ষে আবার মাপা হলো।",
       "ctaButton": "একটি হসপিটালিটি ওয়াক-থ্রু বুক করুন"
     },
     "ro": {
       "badge": "Pentru operatorii de ospitalitate",
       "titleLine1": "Un singur strat de inteligență.",
       "titleLine2": "Fiecare magazin F&B.",
-      "description": "Restaurante de hotel, banchet, IRD, bar în hol - vizualizare live unificată pentru fiecare punct de vânzare. Marja, amestecul și forța de muncă într-un singur cadru.",
+      "description": "Restaurante de hotel, banchet, IRD, lobby bar - scurgerea fiecărei locații găsită, asumată și remăsurată pe marjă. Marjă, mix și forță de muncă într-un singur cadru.",
       "primaryCta": "Rezervați o prezentare pentru ospitalitate",
       "secondaryCta": "Vedeți demonstrația pentru ospitalitate",
       "problemsEyebrow": "F&B ÎN OSPITALITATE",
@@ -1471,11 +1471,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Ce se schimbă pentru conducerea F&B",
-      "outcomesDescription": "Claritate la nivel de desfacere, decizii la nivel de proprietate.",
+      "outcomesDescription": "Claritate la nivel de locație, fiecare scurgere asumată, marja recuperată remăsurată.",
       "outcomes": [
         {
-          "title": "Conduceți F&B la nivel de punct de vânzare",
-          "description": "Restaurantul scade? Barul din hol peste plan? Îl vezi pe punct de vânzare, în timpul turei.",
+          "title": "Recuperează marja F&B la granularitatea locației",
+          "description": "Restaurantul alunecă? Lobby bar peste plan? Corecția primește un responsabil și marja recuperată este remăsurată pe locație.",
           "icon": "speed"
         },
         {
@@ -1494,15 +1494,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vedeți fiecare magazin F&B într-o singură vizualizare.",
-      "ctaDescription": "30 de minute. Proprietatea ta. Priza pe care ai fi prioritizat altfel.",
+      "ctaTitle": "Găsește scurgerea. Recuperează marja F&B.",
+      "ctaDescription": "30 de minute. Proprietatea ta. Scurgerea locației atribuită unui responsabil - și marja recuperată remăsurată față de referință.",
       "ctaButton": "Rezervați o prezentare pentru ospitalitate"
     },
     "sv": {
       "badge": "För hotelloperatörer",
       "titleLine1": "Ett intelligenslager.",
       "titleLine2": "Varje F&B-butik.",
-      "description": "Hotellrestauranger, bankett, IRD, lobbybar - enhetlig livevy över alla försäljningsställen. Marginal, blanda och arbeta i en ram.",
+      "description": "Hotellrestauranger, bankett, IRD, lobbybar - varje enhets läcka hittad, ägd och återmätt mot marginalen. Marginal, mix och arbetskraft i en enda bild.",
       "primaryCta": "Boka en gästfrihetsgenomgång",
       "secondaryCta": "Se gästfrihetsdemo",
       "problemsEyebrow": "F&B INOM GÄSTFRIHET",
@@ -1559,11 +1559,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Vad förändras för F&B ledarskap",
-      "outcomesDescription": "Tydlighet på outletnivå, beslut på fastighetsnivå.",
+      "outcomesDescription": "Tydlighet på enhetsnivå, varje läcka ägd, återvunnen marginal återmätt.",
       "outcomes": [
         {
-          "title": "Styr F&B på försäljningsställesnivå",
-          "description": "Tappar restaurangen? Lobbybar över plan? Du ser det per försäljningsställe, under passet.",
+          "title": "Återvinn F&B-marginalen på enhetsnivå",
+          "description": "Restaurangen glider? Lobbybaren över plan? Åtgärden får en ägare och den återvunna marginalen återmäts per enhet.",
           "icon": "speed"
         },
         {
@@ -1582,15 +1582,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Se alla F&B-butiker i en vy.",
-      "ctaDescription": "30 minuter. Din egendom. Outleten skulle du ha prioriterat annorlunda.",
+      "ctaTitle": "Hitta läckan. Återvinn F&B-marginalen.",
+      "ctaDescription": "30 minuter. Din anläggning. Enhetens läcka tilldelad en ägare - och den återvunna marginalen återmätt mot baslinjen.",
       "ctaButton": "Boka en gästfrihetsgenomgång"
     },
     "th": {
       "badge": "สำหรับผู้ประกอบการด้านการบริการ",
       "titleLine1": "ชั้นสติปัญญาหนึ่งชั้น",
       "titleLine2": "ร้านอาหารและเครื่องดื่มทุกสาขา",
-      "description": "ร้านอาหารในโรงแรม ห้องจัดเลี้ยง IRD ล็อบบี้บาร์ - มุมมองสดแบบรวมศูนย์ทุกช่องทางรายได้ มาร์จิน สัดส่วนการขาย และแรงงานในเฟรมเดียว",
+      "description": "ร้านอาหารในโรงแรม งานเลี้ยง IRD ล็อบบี้บาร์ - จุดรั่วไหลของทุกสาขาถูกพบ มีผู้รับผิดชอบ และวัดผลกลับที่มาร์จิ้น. มาร์จิ้น ส่วนผสม และแรงงานในเฟรมเดียว.",
       "primaryCta": "จองการต้อนรับแบบ Walk-through",
       "secondaryCta": "ดูการสาธิตการบริการ",
       "problemsEyebrow": "F&B ภายในธุรกิจการบริการ",
@@ -1647,11 +1647,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "การเปลี่ยนแปลงอะไรสำหรับผู้นำด้านอาหารและเครื่องดื่ม",
-      "outcomesDescription": "ความชัดเจนระดับร้าน การตัดสินใจระดับทรัพย์สิน",
+      "outcomesDescription": "ความชัดเจนระดับสาขา ทุกจุดรั่วไหลมีผู้รับผิดชอบ และมาร์จิ้นที่กู้คืนถูกวัดผลกลับ.",
       "outcomes": [
         {
-          "title": "คัดท้าย F&B ที่ความละเอียดของร้าน",
-          "description": "ร้านอาหารลื่นไถล? ล็อบบี้บาร์เกินแผนเหรอ? คุณเห็นมันตามร้านในกะ",
+          "title": "กู้คืนมาร์จิ้น F&B ที่ระดับความละเอียดของสาขา",
+          "description": "ร้านอาหารกำลังตก? ล็อบบี้บาร์เกินแผน? การแก้ไขได้ผู้รับผิดชอบ และมาร์จิ้นที่กู้คืนถูกวัดผลกลับตามสาขา.",
           "icon": "speed"
         },
         {
@@ -1670,15 +1670,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูร้านอาหารและเครื่องดื่มทุกร้านในมุมมองเดียว",
-      "ctaDescription": "30 นาที ทรัพย์สินของคุณ ร้านที่คุณจะจัดลำดับความสำคัญแตกต่างออกไป",
+      "ctaTitle": "ค้นหาการรั่วไหล กู้คืนมาร์จิ้น F&B.",
+      "ctaDescription": "30 นาที ทรัพย์สินของคุณ จุดรั่วไหลของสาขาถูกส่งต่อให้ผู้รับผิดชอบ - และมาร์จิ้นที่กู้คืนถูกวัดผลกลับเทียบกับเส้นฐาน.",
       "ctaButton": "จองการต้อนรับแบบ Walk-through"
     },
     "vi": {
       "badge": "Dành cho nhà điều hành khách sạn",
       "titleLine1": "Một lớp thông minh.",
       "titleLine2": "Mọi cửa hàng F&B.",
-      "description": "Nhà hàng khách sạn, tiệc chiêu đãi, IRD, quầy bar ở sảnh - chế độ xem trực tiếp thống nhất trên mọi nguồn doanh thu. Biên lợi nhuận, cơ cấu doanh thu và nhân công trong một khung hình.",
+      "description": "Nhà hàng khách sạn, tiệc, IRD, quầy bar sảnh - chỗ rò rỉ của mỗi cơ sở được tìm ra, có người phụ trách và đo lại trên biên lợi nhuận. Biên lợi nhuận, cơ cấu và lao động trong một khung hình.",
       "primaryCta": "Đặt một buổi hướng dẫn khách sạn",
       "secondaryCta": "Xem Demo Khách sạn",
       "problemsEyebrow": "F&B TRONG NGÀNH KHÁCH SẠN",
@@ -1735,11 +1735,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Lãnh đạo F&B có gì thay đổi",
-      "outcomesDescription": "Sự rõ ràng ở cấp độ cửa hàng, các quyết định ở cấp độ tài sản.",
+      "outcomesDescription": "Rõ ràng ở cấp cơ sở, mỗi chỗ rò rỉ có người phụ trách, biên lợi nhuận thu hồi được đo lại.",
       "outcomes": [
         {
-          "title": "Chỉ đạo F&B ở mức độ chi tiết của cửa hàng",
-          "description": "Nhà hàng trượt? Quầy bar ở sảnh vượt quá kế hoạch? Bạn nhìn thấy nó ở cửa hàng, trong ca làm việc.",
+          "title": "Thu hồi biên F&B ở mức chi tiết cơ sở",
+          "description": "Nhà hàng đang tụt? Quầy bar sảnh vượt kế hoạch? Việc khắc phục có người phụ trách và biên thu hồi được đo lại theo từng cơ sở.",
           "icon": "speed"
         },
         {
@@ -1758,15 +1758,15 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Xem mọi cửa hàng F&B trong một chế độ xem.",
-      "ctaDescription": "30 phút. Tài sản của bạn. Cửa hàng mà bạn sẽ ưu tiên khác nhau.",
+      "ctaTitle": "Tìm ra chỗ rò rỉ. Thu hồi biên F&B.",
+      "ctaDescription": "30 phút. Cơ sở của bạn. Chỗ rò rỉ cơ sở được giao cho một người phụ trách - và biên thu hồi được đo lại so với đường cơ sở.",
       "ctaButton": "Đặt một buổi hướng dẫn khách sạn"
     },
     "ms": {
       "badge": "Untuk Operator Hospitaliti",
       "titleLine1": "Satu lapisan kecerdasan.",
       "titleLine2": "Setiap kedai F&B.",
-      "description": "Restoran hotel, jamuan, IRD, bar lobi - paparan langsung bersatu merentas setiap saluran pendapatan. Margin, gaul dan kerja dalam satu bingkai.",
+      "description": "Restoran hotel, jamuan, IRD, bar lobi - kebocoran setiap outlet ditemukan, diampu, dan diukur semula pada margin. Margin, gabungan dan tenaga kerja dalam satu bingkai.",
       "primaryCta": "Tempah Walk-through Hospitaliti",
       "secondaryCta": "Lihat Demo Hospitaliti",
       "problemsEyebrow": "F&B DALAM HOSPITALITI",
@@ -1823,11 +1823,11 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "Apakah perubahan untuk kepimpinan F&B",
-      "outcomesDescription": "Kejelasan peringkat outlet, keputusan peringkat hartanah.",
+      "outcomesDescription": "Kejelasan peringkat outlet, setiap kebocoran diampu, margin yang dipulihkan diukur semula.",
       "outcomes": [
         {
-          "title": "Pandu F&B di butiran outlet",
-          "description": "Restoran tergelincir? Bar lobi atas rancangan? Anda melihatnya melalui saluran keluar, dalam syif.",
+          "title": "Pulihkan margin F&B pada perincian outlet",
+          "description": "Restoran merosot? Bar lobi melebihi rancangan? Pembetulan mendapat penanggung jawab dan margin yang dipulihkan diukur semula mengikut outlet.",
           "icon": "speed"
         },
         {
@@ -1846,8 +1846,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat setiap kedai F&B dalam satu paparan.",
-      "ctaDescription": "30 minit. Harta anda. Cawangan yang anda akan utamakan secara berbeza.",
+      "ctaTitle": "Cari kebocoran. Pulihkan margin F&B.",
+      "ctaDescription": "30 minit. Hartanah anda. Kebocoran outlet diarahkan kepada penanggung jawab - dan margin yang dipulihkan diukur semula berbanding garis dasar.",
       "ctaButton": "Tempah Walk-through Hospitaliti"
     }
   }

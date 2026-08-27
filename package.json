@@ -10,6 +10,7 @@
     "lint": "eslint",
     "linkcheck": "node scripts/linkcheck.mjs",
     "lead:preflight": "node scripts/check-lead-capture-env.mjs",
+    "test:diagnostic-lead": "node --test tests/diagnostic-lead-outbox.test.mjs",
     "qa:blog-copy": "node scripts/qa-blog-copy.mjs",
     "qa:blog-locales": "node scripts/blog-locale-status.mjs",
     "qa:i18n": "node scripts/qa-i18n-stack.mjs",

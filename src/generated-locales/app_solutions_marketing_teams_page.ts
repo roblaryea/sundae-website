@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
       "badge": "Pour les responsables marketing",
       "titleLine1": "Réaffectez les dépenses.",
       "titleLine2": "Avant la clôture du budget.",
-      "description": "ROI de la campagne lié aux couverts et à la marge nette en 24 heures. Mix de canaux, attribution et que faire ensuite - pas un récapitulatif mensuel.",
+      "description": "ROI de la campagne lié aux couverts et à la marge nette en 24 heures. Mix de canaux, attribution et la marge que vous récupérez en réallouant - pas un récapitulatif mensuel.",
       "primaryCta": "Réservez une visite marketing",
       "secondaryCta": "Voir la démo marketing",
       "problemsEyebrow": "OÙ LE BUDGET FUITE",
@@ -86,7 +86,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Visualisez le mixage de vos chaînes en mouvement.",
+      "ctaTitle": "Récupérez la marge que votre mix de canaux laisse fuir.",
       "ctaDescription": "30 minutes. Vos campagnes. Le budget que vous auriez réaffecté la semaine dernière.",
       "ctaButton": "Réservez une visite marketing"
     },
@@ -94,7 +94,7 @@ export const generatedLocalCopy = {
       "badge": "Para responsables de marketing",
       "titleLine1": "Reasignar el gasto.",
       "titleLine2": "Antes de que se cierre el presupuesto.",
-      "description": "ROI de la campaña ligado a comensales y margen neto en 24 horas. Mix de canales, atribución y qué hacer a continuación, no un resumen mensual.",
+      "description": "ROI de la campaña ligado a comensales y margen neto en 24 horas. Mix de canales, atribución y el margen que recuperas al reasignar, no un resumen mensual.",
       "primaryCta": "Agenda una sesión de marketing",
       "secondaryCta": "Ver demostración de marketing",
       "problemsEyebrow": "DONDE SE FUGA EL PRESUPUESTO",
@@ -174,7 +174,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vea su mezcla de canales en movimiento.",
+      "ctaTitle": "Recupera el margen que tu mix de canales está fugando.",
       "ctaDescription": "30 minutos. Tus campañas. El presupuesto que habría reasignado la semana pasada.",
       "ctaButton": "Agenda una sesión de marketing"
     },
@@ -182,7 +182,7 @@ export const generatedLocalCopy = {
       "badge": "Für Marketing-Leads",
       "titleLine1": "Ordnen Sie die Ausgaben neu zu.",
       "titleLine2": "Bevor das Budget schließt.",
-      "description": "Kampagnen-ROI, innerhalb von 24 Stunden mit Gästen und Nettomarge verknüpft. Kanalmix, Attribution und was als Nächstes zu tun ist - keine monatliche Zusammenfassung.",
+      "description": "Kampagnen-ROI, innerhalb von 24 Stunden mit Gästen und Nettomarge verknüpft. Kanalmix, Attribution und die Marge, die Sie durch Umverteilung zurückgewinnen - keine monatliche Zusammenfassung.",
       "primaryCta": "Buchen Sie einen Marketing-Rundgang",
       "secondaryCta": "Siehe Marketing-Demo",
       "problemsEyebrow": "WO DAS BUDGET VERSICKERT",
@@ -262,7 +262,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Erleben Sie Ihren Kanalmix in Bewegung.",
+      "ctaTitle": "Gewinnen Sie die Marge zurück, die Ihr Kanalmix verliert.",
       "ctaDescription": "30 Minuten. Ihre Kampagnen. Das Budget, das Sie letzte Woche umverteilt hätten.",
       "ctaButton": "Buchen Sie einen Marketing-Rundgang"
     },
@@ -270,7 +270,7 @@ export const generatedLocalCopy = {
       "badge": "لمسؤولي التسويق",
       "titleLine1": "إعادة تخصيص الإنفاق.",
       "titleLine2": "قبل أن تُغلق الميزانية.",
-      "description": "يرتبط عائد استثمار الحملة بعدد الضيوف والهامش الصافي خلال 24 ساعة. مزيج القنوات، والإسناد، وما يجب فعله بعد ذلك - وليس ملخصًا شهريًا.",
+      "description": "يرتبط عائد استثمار الحملة بعدد الضيوف والهامش الصافي خلال 24 ساعة. مزيج القنوات، والإسناد، والهامش الذي تستعيده بإعادة التخصيص - وليس ملخصًا شهريًا.",
       "primaryCta": "احجز جولة تسويقية",
       "secondaryCta": "انظر العرض التوضيحي للتسويق",
       "problemsEyebrow": "حيث تتسرب الميزانية",
@@ -350,7 +350,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "شاهد مزيج قناتك أثناء الحركة.",
+      "ctaTitle": "استعِد الهامش الذي يتسرب من مزيج قنواتك.",
       "ctaDescription": "30 دقيقة. حملاتك. الميزانية التي كنت ستعيد تخصيصها الأسبوع الماضي.",
       "ctaButton": "احجز جولة تسويقية"
     },
@@ -358,7 +358,7 @@ export const generatedLocalCopy = {
       "badge": "Para leads de marketing",
       "titleLine1": "Realoque os gastos.",
       "titleLine2": "Antes que o orçamento feche.",
-      "description": "ROI da campanha vinculado a clientes e margem líquida em 24 horas. Mix de canais, atribuição e o que fazer a seguir - não uma recapitulação mensal.",
+      "description": "ROI da campanha vinculado a clientes e margem líquida em 24 horas. Mix de canais, atribuição e a margem que você recupera ao realocar - não uma recapitulação mensal.",
       "primaryCta": "Agende um guia de marketing",
       "secondaryCta": "Veja a demonstração de marketing",
       "problemsEyebrow": "ONDE O ORÇAMENTO VAZA",
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Veja o mix do seu canal em movimento.",
+      "ctaTitle": "Recupere a margem que seu mix de canais está vazando.",
       "ctaDescription": "30 minutos. Suas campanhas. O orçamento que você teria realocado na semana passada.",
       "ctaButton": "Agende um guia de marketing"
     },
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
       "badge": "Voor marketingleads",
       "titleLine1": "Verdeel de uitgaven opnieuw.",
       "titleLine2": "Voordat de begroting sluit.",
-      "description": "Campagne-ROI gekoppeld aan gasten en nettomarge binnen 24 uur. Kanaalmix, attributie en wat je vervolgens moet doen - geen maandelijkse samenvatting.",
+      "description": "Campagne-ROI gekoppeld aan gasten en nettomarge binnen 24 uur. Kanaalmix, attributie en de marge die u terugwint door te herverdelen - geen maandelijkse samenvatting.",
       "primaryCta": "Boek een Marketing Walk-through",
       "secondaryCta": "Bekijk de marketingdemo",
       "problemsEyebrow": "WAAR HET BUDGET WEGLEKT",
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zie uw kanaalmix in beweging.",
+      "ctaTitle": "Win de marge terug die uw kanaalmix weglekt.",
       "ctaDescription": "30 minuten. Uw campagnes. Het budget dat u vorige week opnieuw zou hebben toegewezen.",
       "ctaButton": "Boek een Marketing Walk-through"
     },
@@ -534,7 +534,7 @@ export const generatedLocalCopy = {
       "badge": "مارکیٹنگ کے ذمہ داروں کے لیے",
       "titleLine1": "خرچ کو دوبارہ مختص کریں۔",
       "titleLine2": "بجٹ بند ہونے سے پہلے۔",
-      "description": "مہم کا ROI 24 گھنٹوں کے اندر مہمانوں اور خالص مارجن سے منسلک ہے۔ چینل مکس، انتساب، اور آگے کیا کرنا ہے - ماہانہ ریکاپ نہیں۔",
+      "description": "مہم کا ROI 24 گھنٹوں کے اندر مہمانوں اور خالص مارجن سے منسلک ہے۔ چینل مکس، انتساب، اور وہ مارجن جو آپ دوبارہ مختص کر کے واپس حاصل کرتے ہیں - ماہانہ ریکاپ نہیں۔",
       "primaryCta": "مارکیٹنگ واک تھرو بک کریں۔",
       "secondaryCta": "مارکیٹنگ ڈیمو دیکھیں",
       "problemsEyebrow": "جہاں بجٹ لیک ہوتا ہے۔",
@@ -614,7 +614,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "اپنے چینل کی حرکت کو دیکھیں۔",
+      "ctaTitle": "وہ مارجن واپس حاصل کریں جو آپ کے چینل مکس سے لیک ہو رہا ہے۔",
       "ctaDescription": "30 منٹ آپ کی مہمات۔ بجٹ جو آپ نے پچھلے ہفتے دوبارہ مختص کیا ہوگا۔",
       "ctaButton": "مارکیٹنگ واک تھرو بک کریں۔"
     },
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
       "badge": "Per i lead di marketing",
       "titleLine1": "Ridistribuire la spesa.",
       "titleLine2": "Prima della chiusura del bilancio.",
-      "description": "ROI della campagna legato ai coperti e al margine netto entro 24 ore. Mix di canali, attribuzione e cosa fare dopo: non un riepilogo mensile.",
+      "description": "ROI della campagna legato ai coperti e al margine netto entro 24 ore. Mix di canali, attribuzione e il margine che recuperi riallocando: non un riepilogo mensile.",
       "primaryCta": "Prenota una visita guidata di marketing",
       "secondaryCta": "Guarda la demo di marketing",
       "problemsEyebrow": "DOVE SI DISPERDE IL BUDGET",
@@ -702,7 +702,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Guarda il mix del tuo canale in movimento.",
+      "ctaTitle": "Recupera il margine che il tuo mix di canali sta disperdendo.",
       "ctaDescription": "30 minuti. Le tue campagne. Il budget che avresti riassegnato la settimana scorsa.",
       "ctaButton": "Prenota una visita guidata di marketing"
     },
@@ -710,7 +710,7 @@ export const generatedLocalCopy = {
       "badge": "मार्केटिंग लीड के लिए",
       "titleLine1": "खर्च को पुनः आवंटित करें.",
       "titleLine2": "बजट ख़त्म होने से पहले.",
-      "description": "अभियान ROI 24 घंटों के भीतर मेहमानों और शुद्ध मार्जिन से जुड़ा हुआ है। चैनल मिक्स, एट्रिब्यूशन, और आगे क्या करना है - मासिक पुनर्कथन नहीं।",
+      "description": "अभियान ROI 24 घंटों के भीतर मेहमानों और शुद्ध मार्जिन से जुड़ा हुआ है। चैनल मिक्स, एट्रिब्यूशन, और वह मार्जिन जो आप पुनः आवंटन करके वापस पाते हैं - मासिक पुनर्कथन नहीं।",
       "primaryCta": "मार्केटिंग वॉक-थ्रू बुक करें",
       "secondaryCta": "मार्केटिंग डेमो देखें",
       "problemsEyebrow": "बजट कहां लीक हो गया",
@@ -790,7 +790,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "अपने चैनल मिश्रण को गति में देखें।",
+      "ctaTitle": "वह मार्जिन वापस पाएं जो आपका चैनल मिक्स लीक कर रहा है।",
       "ctaDescription": "30 मिनट. आपके अभियान. वह बजट जिसे आपने पिछले सप्ताह पुनः आवंटित किया होगा।",
       "ctaButton": "मार्केटिंग वॉक-थ्रू बुक करें"
     },
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
       "badge": "面向营销负责人",
       "titleLine1": "重新分配支出。",
       "titleLine2": "在预算关闭之前。",
-      "description": "活动 ROI 在 24 小时内与客流和净利润挂钩。渠道组合、归因以及下一步该做什么 - 而不是每月回顾。",
+      "description": "活动 ROI 在 24 小时内与客流和净利润挂钩。渠道组合、归因以及你通过重新分配收回的利润 - 而不是每月回顾。",
       "primaryCta": "预约营销演练",
       "secondaryCta": "查看营销演示",
       "problemsEyebrow": "预算从哪里流失",
@@ -878,7 +878,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "实时查看你的渠道组合。",
+      "ctaTitle": "收回你的渠道组合正在流失的利润。",
       "ctaDescription": "30分钟。您的活动。您上周将重新分配的预算。",
       "ctaButton": "预约营销演练"
     },
@@ -886,7 +886,7 @@ export const generatedLocalCopy = {
       "badge": "Pazarlama Sorumluları İçin",
       "titleLine1": "Harcamayı yeniden tahsis edin.",
       "titleLine2": "Bütçe kapanmadan önce.",
-      "description": "Kampanya ROI'si 24 saat içinde misafir sayısına ve net marja bağlanır. Kanal karması, ilişkilendirme ve bundan sonra yapılacaklar; aylık bir özet değil.",
+      "description": "Kampanya ROI'si 24 saat içinde misafir sayısına ve net marja bağlanır. Kanal karması, ilişkilendirme ve yeniden tahsis ederek geri kazandığınız marj; aylık bir özet değil.",
       "primaryCta": "Pazarlama Gezintisi rezervasyonu yaptırın",
       "secondaryCta": "Pazarlama Demosunu Görün",
       "problemsEyebrow": "BÜTÇE NEREDE SIZIYOR",
@@ -966,7 +966,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Kanal karışımınızı hareket halinde görün.",
+      "ctaTitle": "Kanal karmanızın sızdırdığı marjı geri kazanın.",
       "ctaDescription": "30 dakika. Kampanyalarınız. Geçen hafta yeniden tahsis edeceğiniz bütçe.",
       "ctaButton": "Pazarlama Gezintisi rezervasyonu yaptırın"
     },
@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       "badge": "Dla leadów marketingowych",
       "titleLine1": "Zmień alokację wydatków.",
       "titleLine2": "Przed zamknięciem budżetu.",
-      "description": "ROI kampanii powiązany z liczbą gości i marżą netto w ciągu 24 godzin. Miks kanałów, atrybucja i dalsze działania - a nie miesięczne podsumowanie.",
+      "description": "ROI kampanii powiązany z liczbą gości i marżą netto w ciągu 24 godzin. Miks kanałów, atrybucja i marża, którą odzyskujesz dzięki realokacji - a nie miesięczne podsumowanie.",
       "primaryCta": "Zarezerwuj prezentację marketingową",
       "secondaryCta": "Zobacz demo marketingowe",
       "problemsEyebrow": "GDZIE WYCIEKA BUDŻET",
@@ -1054,7 +1054,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz swój miks kanałów w ruchu.",
+      "ctaTitle": "Odzyskaj marżę, którą przecieka Twój miks kanałów.",
       "ctaDescription": "30 minut. Twoje kampanie. Budżet, który przesunąłbyś w zeszłym tygodniu.",
       "ctaButton": "Zarezerwuj prezentację marketingową"
     },
@@ -1062,7 +1062,7 @@ export const generatedLocalCopy = {
       "badge": "마케팅 책임자를 위해",
       "titleLine1": "지출을 재할당하세요.",
       "titleLine2": "예산이 마감되기 전에.",
-      "description": "24시간 이내에 고객 수 및 순마진과 연결되는 캠페인 ROI. 채널 믹스, 기여도, 다음에 해야 할 일 - 월간 요약이 아닙니다.",
+      "description": "24시간 이내에 고객 수 및 순마진과 연결되는 캠페인 ROI. 채널 믹스, 기여도, 그리고 재할당으로 되찾는 마진 - 월간 요약이 아닙니다.",
       "primaryCta": "마케팅 둘러보기 예약",
       "secondaryCta": "마케팅 데모 보기",
       "problemsEyebrow": "예산이 누출되는 곳",
@@ -1142,7 +1142,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "채널 믹스의 진행 상황을 확인하세요.",
+      "ctaTitle": "채널 믹스에서 새고 있는 마진을 되찾으세요.",
       "ctaDescription": "30분. 귀하의 캠페인. 지난 주에 재할당했을 예산입니다.",
       "ctaButton": "마케팅 둘러보기 예약"
     },
@@ -1150,7 +1150,7 @@ export const generatedLocalCopy = {
       "badge": "マーケティング責任者向け",
       "titleLine1": "支出を再配分します。",
       "titleLine2": "予算が締まる前に。",
-      "description": "キャンペーンの ROI は 24 時間以内に客数と純利益に結びつきます。チャネルミックス、アトリビューション、次に何をすべきか - 毎月の総括ではありません。",
+      "description": "キャンペーンの ROI は 24 時間以内に客数と純利益に結びつきます。チャネルミックス、アトリビューション、再配分によって取り戻すマージン - 毎月の総括ではありません。",
       "primaryCta": "マーケティングウォークスルーを予約する",
       "secondaryCta": "マーケティングデモを見る",
       "problemsEyebrow": "予算が漏れる場所",
@@ -1230,7 +1230,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "チャンネルミックスの動作を確認してください。",
+      "ctaTitle": "チャネルミックスが漏らしているマージンを取り戻しましょう。",
       "ctaDescription": "30分。あなたのキャンペーン。先週再割り当てする予定だった予算。",
       "ctaButton": "マーケティングウォークスルーを予約する"
     },
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Pemimpin Pemasaran",
       "titleLine1": "Alokasikan kembali pembelanjaan.",
       "titleLine2": "Sebelum anggaran ditutup.",
-      "description": "ROI kampanye terkait dengan jumlah tamu dan margin bersih dalam waktu 24 jam. Bauran saluran, atribusi, dan tindakan selanjutnya - bukan rekap bulanan.",
+      "description": "ROI kampanye terkait dengan jumlah tamu dan margin bersih dalam waktu 24 jam. Bauran saluran, atribusi, dan margin yang Anda pulihkan dengan mengalokasikan ulang - bukan rekap bulanan.",
       "primaryCta": "Pesan Panduan Pemasaran",
       "secondaryCta": "Lihat Demo Pemasaran",
       "problemsEyebrow": "DI MANA ANGGARAN BOCOR",
@@ -1318,7 +1318,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat campuran saluran Anda bergerak.",
+      "ctaTitle": "Pulihkan margin yang bocor dari campuran saluran Anda.",
       "ctaDescription": "30 menit. Kampanye Anda. Anggaran yang akan Anda alokasikan kembali minggu lalu.",
       "ctaButton": "Pesan Panduan Pemasaran"
     },
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
       "badge": "Dành cho trưởng nhóm tiếp thị",
       "titleLine1": "Phân bổ lại chi tiêu.",
       "titleLine2": "Trước khi đóng ngân sách.",
-      "description": "ROI của chiến dịch được gắn với lượt khách và lợi nhuận ròng trong vòng 24 giờ. Kết hợp kênh, phân bổ và việc cần làm tiếp theo - không phải là bản tóm tắt hàng tháng.",
+      "description": "ROI của chiến dịch được gắn với lượt khách và lợi nhuận ròng trong vòng 24 giờ. Kết hợp kênh, phân bổ và biên lợi nhuận bạn thu hồi bằng cách phân bổ lại - không phải là bản tóm tắt hàng tháng.",
       "primaryCta": "Đặt một buổi hướng dẫn tiếp thị",
       "secondaryCta": "Xem bản trình diễn tiếp thị",
       "problemsEyebrow": "NƠI Rò Rỉ NGÂN SÁCH",
@@ -1406,7 +1406,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Xem kênh của bạn kết hợp chuyển động.",
+      "ctaTitle": "Thu hồi biên lợi nhuận mà kết hợp kênh của bạn đang rò rỉ.",
       "ctaDescription": "30 phút. Chiến dịch của bạn. Ngân sách mà lẽ ra bạn đã phân bổ lại vào tuần trước.",
       "ctaButton": "Đặt một buổi hướng dẫn tiếp thị"
     },
@@ -1414,7 +1414,7 @@ export const generatedLocalCopy = {
       "badge": "Pentru clienți potențiali de marketing",
       "titleLine1": "Realocați cheltuielile.",
       "titleLine2": "Înainte să se închidă bugetul.",
-      "description": "ROI-ul campaniei este legat de clienți și de marja netă în 24 de ore. Mix de canale, atribuire și ce trebuie făcut în continuare - nu o recapitulare lunară.",
+      "description": "ROI-ul campaniei este legat de clienți și de marja netă în 24 de ore. Mix de canale, atribuire și marja pe care o recuperați prin realocare - nu o recapitulare lunară.",
       "primaryCta": "Rezervați o prezentare de marketing",
       "secondaryCta": "Vedeți demo de marketing",
       "problemsEyebrow": "UNDE SE SCURGE BUGETUL",
@@ -1494,7 +1494,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vedeți mixul canalului dvs. în mișcare.",
+      "ctaTitle": "Recuperați marja pe care mixul dvs. de canale o pierde.",
       "ctaDescription": "30 de minute. Campaniile dvs. Bugetul pe care l-ați fi realocat săptămâna trecută.",
       "ctaButton": "Rezervați o prezentare de marketing"
     },
@@ -1502,7 +1502,7 @@ export const generatedLocalCopy = {
       "badge": "För marknadschefer",
       "titleLine1": "Omfördela utgifterna.",
       "titleLine2": "Innan budgeten stänger.",
-      "description": "Kampanjens ROI kopplad till gäster och nettomarginal inom 24 timmar. Kanalmix, attribution och vad du ska göra härnäst - inte en månatlig sammanfattning.",
+      "description": "Kampanjens ROI kopplad till gäster och nettomarginal inom 24 timmar. Kanalmix, attribution och marginalen du återvinner genom att omfördela - inte en månatlig sammanfattning.",
       "primaryCta": "Boka en marknadsföringsgenomgång",
       "secondaryCta": "Se marknadsföringsdemo",
       "problemsEyebrow": "DÄR BUDGETEN LÄCKAR",
@@ -1582,7 +1582,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Se din kanalmix i rörelse.",
+      "ctaTitle": "Återvinn marginalen som din kanalmix läcker.",
       "ctaDescription": "30 minuter. Dina kampanjer. Budgeten du skulle ha omfördelat förra veckan.",
       "ctaButton": "Boka en marknadsföringsgenomgång"
     },
@@ -1590,7 +1590,7 @@ export const generatedLocalCopy = {
       "badge": "মার্কেটিং প্রধানদের জন্য",
       "titleLine1": "খরচ পুনরায় বরাদ্দ করুন।",
       "titleLine2": "বাজেট বন্ধ হওয়ার আগেই।",
-      "description": "ক্যাম্পেইন ROI 24 ঘণ্টার মধ্যে অতিথি এবং নেট মার্জিনের সাথে সংযুক্ত। চ্যানেল মিক্স, অ্যাট্রিবিউশন এবং পরবর্তীতে কী করতে হবে - মাসিক রিক্যাপ নয়।",
+      "description": "ক্যাম্পেইন ROI 24 ঘণ্টার মধ্যে অতিথি এবং নেট মার্জিনের সাথে সংযুক্ত। চ্যানেল মিক্স, অ্যাট্রিবিউশন এবং যে মার্জিন আপনি পুনরায় বরাদ্দ করে ফিরে পান - মাসিক রিক্যাপ নয়।",
       "primaryCta": "একটি মার্কেটিং ওয়াক-থ্রু বুক করুন",
       "secondaryCta": "মার্কেটিং ডেমো দেখুন",
       "problemsEyebrow": "যেখানে বাজেট ফাঁস হয়",
@@ -1670,7 +1670,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "চলমান আপনার চ্যানেল মিশ্রণ দেখুন.",
+      "ctaTitle": "আপনার চ্যানেল মিক্স থেকে যে মার্জিন ফাঁস হচ্ছে তা ফিরে পান।",
       "ctaDescription": "30 মিনিট আপনার প্রচারাভিযান. বাজেট আপনি গত সপ্তাহে পুনরায় বরাদ্দ করা হবে.",
       "ctaButton": "একটি মার্কেটিং ওয়াক-থ্রু বুক করুন"
     },
@@ -1678,7 +1678,7 @@ export const generatedLocalCopy = {
       "badge": "สำหรับผู้นำทางการตลาด",
       "titleLine1": "จัดสรรการใช้จ่ายใหม่",
       "titleLine2": "ก่อนปิดงบ",
-      "description": "ROI ของแคมเปญเชื่อมโยงกับจำนวนลูกค้าและกำไรสุทธิภายใน 24 ชั่วโมง การผสมช่องทาง การระบุแหล่งที่มา และสิ่งที่ต้องทำต่อไป ไม่ใช่สรุปรายเดือน",
+      "description": "ROI ของแคมเปญเชื่อมโยงกับจำนวนลูกค้าและกำไรสุทธิภายใน 24 ชั่วโมง การผสมช่องทาง การระบุแหล่งที่มา และมาร์จิ้นที่คุณเรียกคืนได้ด้วยการจัดสรรใหม่ ไม่ใช่สรุปรายเดือน",
       "primaryCta": "จองคำแนะนำทางการตลาด",
       "secondaryCta": "ดูการสาธิตการตลาด",
       "problemsEyebrow": "งบประมาณรั่วไหลที่ไหน",
@@ -1758,7 +1758,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูการผสมช่องทางของคุณขณะกำลังเคลื่อนไหว",
+      "ctaTitle": "เรียกคืนมาร์จิ้นที่ช่องทางของคุณกำลังรั่วไหล",
       "ctaDescription": "30 นาที แคมเปญของคุณ งบประมาณที่คุณจะจัดสรรใหม่เมื่อสัปดาห์ที่แล้ว",
       "ctaButton": "จองคำแนะนำทางการตลาด"
     },
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Pemimpin Pemasaran",
       "titleLine1": "Agihkan semula perbelanjaan.",
       "titleLine2": "Sebelum bajet ditutup.",
-      "description": "ROI kempen terikat pada jumlah tetamu dan margin bersih dalam masa 24 jam. Campuran saluran, atribusi dan perkara yang perlu dilakukan seterusnya - bukan rekap bulanan.",
+      "description": "ROI kempen terikat pada jumlah tetamu dan margin bersih dalam masa 24 jam. Campuran saluran, atribusi dan margin yang anda peroleh semula dengan mengagihkan semula - bukan rekap bulanan.",
       "primaryCta": "Tempah Walk-through Pemasaran",
       "secondaryCta": "Lihat Demo Pemasaran",
       "problemsEyebrow": "MANA BAJET BOCOR",
@@ -1846,7 +1846,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat campuran saluran anda bergerak.",
+      "ctaTitle": "Peroleh semula margin yang bocor daripada campuran saluran anda.",
       "ctaDescription": "30 minit. Kempen anda. Belanjawan yang anda akan peruntukkan semula minggu lepas.",
       "ctaButton": "Tempah Walk-through Pemasaran"
     }

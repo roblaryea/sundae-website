@@ -71,8 +71,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "اضبط تسرب الهامش داخل الوردية",
-          "description": "الإلغاءات، والوجبات المجانية، والتغطية الزائدة - تُوضع عليها علامة في الموقع بينما لا يزال هناك وقت للتصرف.",
+          "title": "أمسك التسرّب وقِس استرداده",
+          "description": "الإلغاءات، والوجبات المجانية، والتغطية الزائدة - تُوجَّه إلى مسؤول الموقع ويُقاس الهامش المستردّ مقابل خط الأساس، بدلاً من شطبها في نهاية الشهر.",
           "icon": "owners"
         },
         {
@@ -86,7 +86,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "شاهد هامشك أثناء الحركة.",
+      "ctaTitle": "من تسرّب الهامش إلى استرداد مقيس.",
       "ctaDescription": "30 دقيقة. بياناتك أنت. ما الذي سيغيّره Sundae فعليًا بالنسبة للوظيفة المالية.",
       "ctaButton": "احجز جولة تمويلية"
     },
@@ -159,8 +159,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Detecta fugas de margen en el turno",
-          "description": "Anulaciones, invitaciones, exceso de personal: marcados en el sitio mientras todavía hay tiempo para actuar.",
+          "title": "Atrapa la fuga y mide su recuperación",
+          "description": "Anulaciones, invitaciones, exceso de personal: dirigidos al responsable del local y el margen recuperado medido frente a la línea base, en vez de darse por perdido a fin de mes.",
           "icon": "owners"
         },
         {
@@ -174,7 +174,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vea su margen en movimiento.",
+      "ctaTitle": "De la fuga de margen a una recuperación medida.",
       "ctaDescription": "30 minutos. Tus datos. Lo que Sundae realmente cambiaría para la función financiera.",
       "ctaButton": "Agenda un recorrido financiero"
     },
@@ -247,8 +247,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Capturer une fuite de marge pendant le service",
-          "description": "Annulations, offerts, sureffectif - signalés sur place pendant qu'il est encore temps d'agir.",
+          "title": "Attrapez la fuite, mesurez sa récupération",
+          "description": "Annulations, offerts, sureffectif - transmis au responsable du site et la marge récupérée mesurée par rapport à la référence, plutôt que passée en perte en fin de mois.",
           "icon": "owners"
         },
         {
@@ -262,7 +262,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Voyez votre marge en mouvement.",
+      "ctaTitle": "De la fuite de marge à une récupération mesurée.",
       "ctaDescription": "30 minutes. Vos données. Ce que Sundae changerait réellement pour la fonction financière.",
       "ctaButton": "Réservez une visite guidée financière"
     },
@@ -335,8 +335,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Capture o vazamento de margem no turno",
-          "description": "Cancelamentos, cortesias, excesso de pessoal - sinalizados no local enquanto ainda há tempo para agir.",
+          "title": "Capture o vazamento e meça a recuperação",
+          "description": "Cancelamentos, cortesias, excesso de pessoal - encaminhados ao responsável do local e a margem recuperada medida em relação à linha de base, em vez de baixada no fim do mês.",
           "icon": "owners"
         },
         {
@@ -350,7 +350,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Veja sua margem em movimento.",
+      "ctaTitle": "Do vazamento de margem à recuperação medida.",
       "ctaDescription": "30 minutos. Seus dados. O que o Sundae realmente mudaria para a função financeira.",
       "ctaButton": "Agende um tour financeiro"
     },
@@ -423,8 +423,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Margenverlust in der Schicht erkennen",
-          "description": "Stornos, Gratisleistungen, Überbesetzung - werden vor Ort markiert, solange noch Zeit zum Handeln bleibt.",
+          "title": "Leck erkennen, Rückgewinnung messen",
+          "description": "Stornos, Gratisleistungen, Überbesetzung - werden an den Standortverantwortlichen geleitet und die zurückgewonnene Marge wird gegen die Baseline gemessen, statt zum Monatsende abgeschrieben.",
           "icon": "owners"
         },
         {
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Sehen Sie, wie sich Ihre Marge bewegt.",
+      "ctaTitle": "Vom Margenleck zur gemessenen Rückgewinnung.",
       "ctaDescription": "30 Minuten. Ihre Daten. Was Sundae eigentlich für die Finanzfunktion ändern würde.",
       "ctaButton": "Buchen Sie einen Finanzrundgang"
     },
@@ -511,8 +511,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Vang het margelek tijdens de dienst op",
-          "description": "Annuleringen, gratis verstrekkingen, overbezetting: gemarkeerd op de locatie terwijl er nog tijd is om in te grijpen.",
+          "title": "Vang het lek, meet het terug",
+          "description": "Annuleringen, gratis verstrekkingen, overbezetting: naar de locatieverantwoordelijke gestuurd en de teruggewonnen marge gemeten tegen de baseline, in plaats van aan het einde van de maand afgeschreven.",
           "icon": "owners"
         },
         {
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zie uw marge in beweging.",
+      "ctaTitle": "Van margelek naar gemeten herstel.",
       "ctaDescription": "30 minuten. Jouw gegevens. Wat Sundae feitelijk zou veranderen voor de financiële functie.",
       "ctaButton": "Boek een Financiële Walk-through"
     },
@@ -599,8 +599,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "شفٹ میں مارجن لیک کو پکڑیں۔",
-          "description": "منسوخیاں، مفت پیشکشیں، اوور کوریج - مقام پر نشان زد کر دیا جاتا ہے جبکہ ابھی عمل کرنے کا وقت باقی ہے۔",
+          "title": "لیک پکڑیں، اُس کی بازیافت ماپیں",
+          "description": "منسوخیاں، مفت پیشکشیں، اوور کوریج - مقام کے ذمہ دار تک پہنچائی جاتی ہیں اور بازیافت شدہ مارجن بیس لائن کے مقابلے میں ماپا جاتا ہے، بجائے اِس کے کہ مہینے کے آخر میں بٹے کھاتے ڈال دیا جائے۔",
           "icon": "owners"
         },
         {
@@ -614,7 +614,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "حرکت میں اپنا مارجن دیکھیں۔",
+      "ctaTitle": "مارجن لیک سے ماپی گئی بازیافت تک۔",
       "ctaDescription": "30 منٹ آپ کا ڈیٹا۔ Sundae اصل میں فنانس فنکشن کے لیے کیا تبدیل کرے گا۔",
       "ctaButton": "فنانس واک تھرو بک کریں۔"
     },
@@ -687,8 +687,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "शिफ्ट में मार्जिन लीक को पकड़ें",
-          "description": "रद्दीकरण, मुफ़्त सेवाएं, अधिक स्टाफिंग - कार्रवाई के लिए समय रहते ही स्थान पर ध्वजांकित कर दिए जाते हैं।",
+          "title": "रिसाव पकड़ें, उसकी वसूली मापें",
+          "description": "रद्दीकरण, मुफ़्त सेवाएं, अधिक स्टाफिंग - स्थान के जिम्मेदार व्यक्ति तक पहुँचते हैं और पुनर्प्राप्त मार्जिन बेसलाइन के मुकाबले मापा जाता है, न कि माह-अंत में बट्टे खाते में डाला जाता है।",
           "icon": "owners"
         },
         {
@@ -702,7 +702,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "अपने मार्जिन को गति में देखें.",
+      "ctaTitle": "मार्जिन लीक से मापी गई वसूली तक।",
       "ctaDescription": "30 मिनट. आपका डेटा. वित्त कार्य के लिए Sundae वास्तव में क्या बदलेगा।",
       "ctaButton": "फाइनेंस वॉक-थ्रू बुक करें"
     },
@@ -775,8 +775,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Rileva le perdite di margine durante il turno",
-          "description": "Storni, omaggi, eccesso di personale: segnalati sul posto mentre c'è ancora tempo per agire.",
+          "title": "Cattura la perdita, misura il recupero",
+          "description": "Storni, omaggi, eccesso di personale: inoltrati al responsabile della sede e il margine recuperato misurato rispetto alla baseline, invece di essere svalutato a fine mese.",
           "icon": "owners"
         },
         {
@@ -790,7 +790,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Guarda il tuo margine in movimento.",
+      "ctaTitle": "Dalla perdita di margine al recupero misurato.",
       "ctaDescription": "30 minuti. I tuoi dati. Cosa cambierebbe davvero Sundae per la funzione finanziaria.",
       "ctaButton": "Prenota una consulenza finanziaria"
     },
@@ -863,8 +863,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Vardiyada marj sızıntısını yakalayın",
-          "description": "İptaller, ikramlar, fazla personel - harekete geçmek için hâlâ zaman varken konumunda işaretlenir.",
+          "title": "Sızıntıyı yakalayın, geri kazanımı ölçün",
+          "description": "İptaller, ikramlar, fazla personel - konum sorumlusuna yönlendirilir ve geri kazanılan marj temel çizgiye göre ölçülür, ay sonunda zarar yazılmaz.",
           "icon": "owners"
         },
         {
@@ -878,7 +878,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Marjınızı hareket halinde görün.",
+      "ctaTitle": "Marj sızıntısından ölçülen geri kazanıma.",
       "ctaDescription": "30 dakika. Verileriniz. Sundae'nin finans fonksiyonu için gerçekte neyi değiştireceği.",
       "ctaButton": "Finans İncelemesi için rezervasyon yaptırın"
     },
@@ -951,8 +951,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "在班次内捕捉利润率泄漏",
-          "description": "作废、赠送、过度排班 - 在仍有时间采取行动时就地标记。",
+          "title": "抓住漏损，衡量挽回",
+          "description": "作废、赠送、过度排班，都会被分派给门店负责人，已挽回的利润率对照基线衡量，而不是在月末一笔勾销。",
           "icon": "owners"
         },
         {
@@ -966,7 +966,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "查看您的利润率实时变化。",
+      "ctaTitle": "从利润率漏损到可衡量的挽回。",
       "ctaDescription": "30分钟。你的数据。Sundae实际上会为财务职能做出哪些改变。",
       "ctaButton": "预约财务演练"
     },
@@ -1039,8 +1039,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Wychwyć wyciek marży na zmianie",
-          "description": "Anulowania, gratisy, nadmiar obsady - oznaczane na miejscu, dopóki jest jeszcze czas na działanie.",
+          "title": "Wychwyć wyciek, zmierz odzysk",
+          "description": "Anulacje, gratisy, nadmiar obsady - kierowane do osoby odpowiedzialnej za lokal, a odzyskana marża mierzona względem poziomu bazowego, zamiast spisywana na koniec miesiąca.",
           "icon": "owners"
         },
         {
@@ -1054,7 +1054,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz, jak Twój margines jest w ruchu.",
+      "ctaTitle": "Od wycieku marży do zmierzonego odzysku.",
       "ctaDescription": "30 minut. Twoje dane. Co właściwie Sundae zmieniłoby w funkcji finansowej.",
       "ctaButton": "Zarezerwuj przewodnik po finansach"
     },
@@ -1127,8 +1127,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "교대조 내 마진 누출을 포착",
-          "description": "취소, 무료 제공, 인력 과잉 - 아직 조치할 시간이 있는 동안 현장에서 플래그가 지정됩니다.",
+          "title": "누수를 잡고 회복분을 측정",
+          "description": "취소, 무료 제공, 인력 과잉은 매장 책임자에게 배정되고 회복된 마진은 기준선과 대비해 측정됩니다 - 월말에 손실 처리하지 않습니다.",
           "icon": "owners"
         },
         {
@@ -1142,7 +1142,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "움직이는 마진을 확인하세요.",
+      "ctaTitle": "마진 누수에서 측정된 회복으로.",
       "ctaDescription": "30분. 귀사의 데이터. Sundae가 재무 기능을 위해 실제로 무엇을 바꿀지.",
       "ctaButton": "금융 둘러보기 예약"
     },
@@ -1215,8 +1215,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "シフト中のマージン漏れを捕捉",
-          "description": "取消、無償提供、人員過剰 - 対処する時間がまだあるうちに、その場でフラグが立てられます。",
+          "title": "漏れを捉え、取り戻した分を測る",
+          "description": "取消、無償提供、人員過剰は店舗の責任者に割り当てられ、取り戻したマージンをベースラインと照らして測定します。月末に損金処理して終わりにはしません。",
           "icon": "owners"
         },
         {
@@ -1230,7 +1230,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "マージンの動きを確認してください。",
+      "ctaTitle": "マージンの漏れから、測定された回収へ。",
       "ctaDescription": "30分。あなたのデータ。Sundaeが実際に金融機能に与える影響。",
       "ctaButton": "財務ウォークスルーを予約する"
     },
@@ -1303,8 +1303,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Tangkap kebocoran margin dalam shift",
-          "description": "Pembatalan, pemberian gratis, kelebihan staf - ditandai di lokasi selagi masih ada waktu untuk bertindak.",
+          "title": "Tangkap kebocoran, ukur pemulihannya",
+          "description": "Pembatalan, pemberian gratis, kelebihan staf - diarahkan ke penanggung jawab lokasi dan margin yang dipulihkan diukur terhadap baseline, bukan dihapusbukukan di akhir bulan.",
           "icon": "owners"
         },
         {
@@ -1318,7 +1318,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat margin Anda bergerak.",
+      "ctaTitle": "Dari kebocoran margin ke pemulihan terukur.",
       "ctaDescription": "30 menit. Data Anda. Apa yang sebenarnya Sundae ubah untuk fungsi keuangan.",
       "ctaButton": "Pesan Panduan Keuangan"
     },
@@ -1391,8 +1391,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Prinde scurgerea de marjă în tură",
-          "description": "Anulări, produse oferite gratuit, supraîncadrare cu personal - semnalate la locație cât mai aveți timp să acționați.",
+          "title": "Prindeți scurgerea, măsurați recuperarea",
+          "description": "Anulări, produse oferite gratuit, supraîncadrare - direcționate către responsabilul locației, iar marja recuperată măsurată față de valoarea de referință, în loc să fie trecută pe pierdere la sfârșit de lună.",
           "icon": "owners"
         },
         {
@@ -1406,7 +1406,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vedeți-vă marja în mișcare.",
+      "ctaTitle": "De la scurgerea de marjă la recuperarea măsurată.",
       "ctaDescription": "30 de minute. Datele dvs. Ce ar schimba de fapt Sundae pentru funcția financiară.",
       "ctaButton": "Rezervați o prezentare financiară"
     },
@@ -1479,8 +1479,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "শিফটে মার্জিন লিক ধরুন",
-          "description": "বাতিল, ফ্রি অফার, অতিরিক্ত কর্মী - এখনও পদক্ষেপ নেওয়ার সময় থাকতেই অবস্থানে ফ্ল্যাগ করা হয়।",
+          "title": "লিক ধরুন, পুনরুদ্ধার মাপুন",
+          "description": "বাতিল, ফ্রি অফার, অতিরিক্ত কর্মী - অবস্থানের দায়িত্বশীলের কাছে পাঠানো হয় এবং পুনরুদ্ধার করা মার্জিন বেসলাইনের বিপরীতে মাপা হয়, মাস-শেষে বাতিল করে দেওয়া হয় না।",
           "icon": "owners"
         },
         {
@@ -1494,7 +1494,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "গতিতে আপনার মার্জিন দেখুন.",
+      "ctaTitle": "মার্জিন লিক থেকে পরিমাপ করা পুনরুদ্ধারে।",
       "ctaDescription": "30 মিনিট আপনার তথ্য. ফাইনান্স ফাংশনের জন্য Sundae আসলে কী পরিবর্তন করবে।",
       "ctaButton": "একটি ফিনান্স ওয়াক-থ্রু বুক করুন"
     },
@@ -1567,8 +1567,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Bắt rò rỉ biên lợi nhuận trong ca",
-          "description": "Hủy giao dịch, suất miễn phí, dư thừa nhân sự - được gắn cờ ngay tại chỗ khi vẫn còn thời gian để hành động.",
+          "title": "Bắt chỗ rò rỉ, đo phần thu hồi",
+          "description": "Hủy giao dịch, suất miễn phí, dư thừa nhân sự - được chuyển cho người phụ trách địa điểm và biên lợi nhuận thu hồi được đo so với đường cơ sở, thay vì xóa sổ vào cuối tháng.",
           "icon": "owners"
         },
         {
@@ -1582,7 +1582,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Xem biên lợi nhuận của bạn đang chuyển động.",
+      "ctaTitle": "Từ rò rỉ biên lợi nhuận đến thu hồi đo lường được.",
       "ctaDescription": "30 phút. Dữ liệu của bạn. Sundae thực sự sẽ thay đổi điều gì đối với chức năng tài chính.",
       "ctaButton": "Đặt một hướng dẫn tài chính"
     },
@@ -1655,8 +1655,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Fånga marginalläckor i skiftet",
-          "description": "Makuleringar, fribjudningar, överbemanning - flaggas på platsen medan det fortfarande finns tid att agera.",
+          "title": "Fånga läckan, mät återvinningen",
+          "description": "Makuleringar, fribjudningar, överbemanning - skickas till platsansvarig och den återvunna marginalen mäts mot baslinjen, i stället för att skrivas av vid månadsskiftet.",
           "icon": "owners"
         },
         {
@@ -1670,7 +1670,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Se din marginal i rörelse.",
+      "ctaTitle": "Från marginalläcka till mätt återvinning.",
       "ctaDescription": "30 minuter. Dina data. Vad Sundae egentligen skulle förändra för ekonomifunktionen.",
       "ctaButton": "Boka en ekonomigenomgång"
     },
@@ -1743,8 +1743,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "จับการรั่วของมาร์จิ้นในกะ",
-          "description": "การยกเลิก, การแจกฟรี, การจัดพนักงานเกินจำเป็น - ตั้งค่าสถานะ ณ ตำแหน่งนั้นในขณะที่ยังมีเวลาดำเนินการ",
+          "title": "จับจุดรั่ว วัดผลการกู้คืน",
+          "description": "การยกเลิก การแจกฟรี การจัดพนักงานเกิน - ถูกส่งไปยังผู้รับผิดชอบสาขา และมาร์จิ้นที่กู้คืนถูกวัดเทียบกับเส้นฐาน แทนที่จะตัดเป็นขาดทุนตอนสิ้นเดือน",
           "icon": "owners"
         },
         {
@@ -1758,7 +1758,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูมาร์จิ้นของคุณเคลื่อนไหว",
+      "ctaTitle": "จากจุดรั่วของมาร์จิ้นสู่การกู้คืนที่วัดผลได้",
       "ctaDescription": "30 นาที ข้อมูลของคุณ สิ่งที่ Sundae จะเปลี่ยนแปลงให้กับสายงานการเงินอย่างแท้จริง",
       "ctaButton": "จอง Walk-through ทางการเงิน"
     },
@@ -1831,8 +1831,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "title": "Tangkap kebocoran margin dalam syif",
-          "description": "Pembatalan, pemberian percuma, lebihan kakitangan - dibenderakan di lokasi sementara masih ada masa untuk bertindak.",
+          "title": "Tangkap kebocoran, ukur pemulihannya",
+          "description": "Pembatalan, pemberian percuma, lebihan kakitangan - dihalakan kepada penanggungjawab lokasi dan margin yang dipulihkan diukur berbanding garis dasar, bukannya dihapus kira pada hujung bulan.",
           "icon": "owners"
         },
         {
@@ -1846,7 +1846,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat margin anda sedang bergerak.",
+      "ctaTitle": "Daripada kebocoran margin kepada pemulihan terukur.",
       "ctaDescription": "30 minit. Data anda. Apa yang Sundae sebenarnya akan berubah untuk fungsi kewangan.",
       "ctaButton": "Tempah Walk-through Kewangan"
     }

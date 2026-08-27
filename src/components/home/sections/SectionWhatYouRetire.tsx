@@ -22,8 +22,8 @@ type LocalizedCopy = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   en: {
     eyebrow: "WHAT YOU RETIRE",
-    headline: "Your systems capture. BI explains. Neither decides.",
-    description: "Generic BI was built for analysts. Sundae was built for the people who have to act on it.",
+    headline: "Replace the food-service BI stack.",
+    description: "Generic BI was built for analysts. Sundae was built for the people running food-service.",
     todaysStackLabel: "Today's stack",
     withSundaeLabel: "With Sundae",
     todaysStack: [
@@ -34,18 +34,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Weekly recap meetings instead of live action",
     ],
     withSundae: [
-      "Decisions ranked by margin impact, not dashboards",
-      "A governed food-service model, ready on day one",
+      "Measured profit recovery, per decision",
+      "Six intelligence layers, food-service-native",
+      "500+ governed food-service data models",
       "Source-cited answers in seconds",
       "12 data domains unified in one ledger",
       "Live shift intelligence, not Friday recaps",
     ],
-    closing: "One platform. Operator-native from day one.",
+    closing: "One platform. Food-service-native from day one.",
   },
   ar: {
     eyebrow: "ما تتقاعد عنه",
-    headline: "أنظمتك تسجّل. وأدوات التحليل تشرح. ولا شيء منها يقرّر.",
-    description: "BI العام صُمم للمحللين. Sundae صُمم لمن عليه أن يتصرّف.",
+    headline: "استبدل مكدس BI لخدمات الطعام.",
+    description: "BI العام صُمم للمحللين. Sundae صُمم لمن يدير خدمات الطعام.",
     todaysStackLabel: "مكدس اليوم",
     withSundaeLabel: "مع Sundae",
     todaysStack: [
@@ -56,18 +57,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "اجتماعات أسبوعية بدل فعل حي",
     ],
     withSundae: [
-      "قرارات مرتبة بأثرها على الهامش، لا لوحات",
-      "نموذج بيانات محكوم للخدمات الغذائية، جاهز من اليوم الأول",
+      "استرداد أرباح مُقاس، مع كل قرار",
+      "ست طبقات ذكاء، أصيلة لخدمات الطعام",
+      "أكثر من 500 نموذج بيانات لخدمات الطعام محكوم",
       "إجابات بمصادر في ثوانٍ",
       "12 مجال بيانات موحد في دفتر واحد",
       "ذكاء وردية حي لا تقارير الجمعة",
     ],
-    closing: "منصة واحدة. مبنية للتشغيل من اليوم الأول.",
+    closing: "منصة واحدة. أصيلة لخدمات الطعام من اليوم الأول.",
   },
   fr: {
     eyebrow: "CE QUE VOUS RETIREZ",
-    headline: "Vos systemes enregistrent. La BI explique. Aucun ne decide.",
-    description: "La BI generique a ete construite pour les analystes. Sundae a ete construit pour ceux qui doivent agir.",
+    headline: "Remplacez la stack BI de la restauration.",
+    description: "La BI générique a été construite pour les analystes. Sundae a été construit pour ceux qui font tourner la restauration.",
     todaysStackLabel: "La stack d'aujourd'hui",
     withSundaeLabel: "Avec Sundae",
     todaysStack: [
@@ -78,18 +80,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Réunions hebdo au lieu d'action live",
     ],
     withSundae: [
-      "Des decisions classees par impact sur la marge, pas des tableaux de bord",
-      "Un modele de donnees restauration gouverne, pret des le premier jour",
+      "Récupération de profit mesurée, à chaque décision",
+      "Six couches d'intelligence, natives restauration",
+      "500+ modèles de données restauration gouvernés",
       "Réponses sourcées en secondes",
       "12 domaines de données dans un seul livre",
       "Intelligence de service live, pas récap vendredi",
     ],
-    closing: "Une plateforme. Native exploitation des le premier jour.",
+    closing: "Une plateforme. Native restauration dès le premier jour.",
   },
   es: {
     eyebrow: "QUÉ RETIRAS",
-    headline: "Tus sistemas registran. El BI explica. Ninguno decide.",
-    description: "La BI generica se construyo para analistas. Sundae se construyo para quienes tienen que actuar.",
+    headline: "Reemplaza la stack BI de hostelería.",
+    description: "La BI genérica se construyó para analistas. Sundae se construyó para quienes operan en hostelería.",
     todaysStackLabel: "Stack actual",
     withSundaeLabel: "Con Sundae",
     todaysStack: [
@@ -100,13 +103,14 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Reuniones semanales en lugar de acción en vivo",
     ],
     withSundae: [
-      "Decisiones ordenadas por impacto en el margen, no paneles",
-      "Un modelo de datos de restauracion gobernado, listo desde el primer dia",
+      "Recuperación de beneficio medida, en cada decisión",
+      "Seis capas de inteligencia, nativas para hostelería",
+      "500+ modelos de datos de hostelería gobernados",
       "Respuestas con fuente en segundos",
       "12 dominios de datos unificados en un libro",
       "Inteligencia de turno en vivo, no recap del viernes",
     ],
-    closing: "Una plataforma. Nativa para la operacion desde el dia uno.",
+    closing: "Una plataforma. Nativa para hostelería desde el día uno.",
   },
 };
 

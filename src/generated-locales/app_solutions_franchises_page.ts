@@ -86,8 +86,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "شاهد شبكتك في تصنيف واحد.",
-      "ctaDescription": "30 دقيقة. أصحاب الامتياز لديك. المعايير التي كنت ستلاحظ تراجعها.",
+      "ctaTitle": "رتّب الشبكة. استعد الهامش.",
+      "ctaDescription": "30 دقيقة. حاملو امتيازك. المعايير التي كنت ستلتقطها وهي تنزلق - والهامش الذي ستستعيده بإعادتها.",
       "ctaButton": "حجز جولة الامتياز"
     },
     "fr": {
@@ -174,8 +174,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Visualisez votre réseau sur un seul classement.",
-      "ctaDescription": "30 minutes. Vos franchisés. Les normes que vous auriez vues déraper.",
+      "ctaTitle": "Classez le réseau. Récupérez la marge.",
+      "ctaDescription": "30 minutes. Vos franchisés. Les standards que vous auriez vus glisser - et la marge que vous récupéreriez en les redressant.",
       "ctaButton": "Réservez une visite guidée de votre franchise"
     },
     "es": {
@@ -262,8 +262,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vea su red en un ranking.",
-      "ctaDescription": "30 minutos. Tus franquiciados. Los estándares que habrías visto deslizarse.",
+      "ctaTitle": "Clasifica la red. Recupera el margen.",
+      "ctaDescription": "30 minutos. Tus franquiciados. Los estándares que habrías visto deslizarse - y el margen que recuperarías al restablecerlos.",
       "ctaButton": "Agenda un recorrido por la franquicia"
     },
     "de": {
@@ -350,8 +350,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Sehen Sie Ihr Netzwerk in einem Ranking.",
-      "ctaDescription": "30 Minuten. Ihre Franchisenehmer. Die Standards, die Sie beim Verrutschen bemerkt hätten.",
+      "ctaTitle": "Erstellen Sie die Rangliste. Gewinnen Sie die Marge zurück.",
+      "ctaDescription": "30 Minuten. Ihre Franchisenehmer. Die Standards, die Sie beim Verrutschen bemerkt hätten - und die Marge, die Sie beim Zurückholen zurückgewinnen würden.",
       "ctaButton": "Buchen Sie einen Franchise-Rundgang"
     },
     "pt": {
@@ -438,8 +438,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Veja sua rede em um ranking.",
-      "ctaDescription": "30 minutos. Seus franqueados. Os padrões que você teria notado escorregando.",
+      "ctaTitle": "Classifique a rede. Recupere a margem.",
+      "ctaDescription": "30 minutos. Seus franqueados. Os padrões que você teria notado escorregando - e a margem que você recuperaria ao restabelecê-los.",
       "ctaButton": "Agende uma visita guiada à franquia"
     },
     "nl": {
@@ -526,8 +526,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Bekijk uw netwerk op één ranglijst.",
-      "ctaDescription": "30 minuten. Jouw franchisenemers. De standaarden die anders ongemerkt zouden wegglijden.",
+      "ctaTitle": "Rangschik het netwerk. Herwin de marge.",
+      "ctaDescription": "30 minuten. Jouw franchisenemers. De standaarden die je zou zien wegglijden - en de marge die je terugwint door ze te herstellen.",
       "ctaButton": "Boek een franchisesessie"
     },
     "ur": {
@@ -614,8 +614,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "اپنے نیٹ ورک کو ایک درجہ بندی پر دیکھیں۔",
-      "ctaDescription": "30 منٹ۔ آپ کی فرنچائزز۔ وہ معیارات جنہیں آپ نے گرتے ہوئے دیکھا ہوتا۔",
+      "ctaTitle": "نیٹ ورک کی درجہ بندی کریں۔ مارجن دوبارہ حاصل کریں۔",
+      "ctaDescription": "30 منٹ۔ آپ کی فرنچائزز۔ وہ معیارات جنہیں آپ گرتے ہوئے دیکھ لیتے - اور وہ مارجن جو آپ انہیں واپس لا کر بازیافت کریں گے۔",
       "ctaButton": "فرنچائز واک تھرو بک کریں۔"
     },
     "it": {
@@ -702,8 +702,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Visualizza la tua rete in una classifica.",
-      "ctaDescription": "30 minuti. I tuoi affiliati. Gli standard che avresti visto scivolare.",
+      "ctaTitle": "Classifica la rete. Recupera il margine.",
+      "ctaDescription": "30 minuti. I tuoi affiliati. Gli standard che avresti visto scivolare - e il margine che recupereresti riportandoli su.",
       "ctaButton": "Prenota una visita guidata in franchising"
     },
     "hi": {
@@ -790,8 +790,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "अपने नेटवर्क को एक रैंकिंग पर देखें।",
-      "ctaDescription": "30 मिनट. आपकी फ्रेंचाइजी. जिन मानकों को आपने फिसलते हुए देखा होगा।",
+      "ctaTitle": "नेटवर्क को रैंक करें। मार्जिन वापस पाएं।",
+      "ctaDescription": "30 मिनट। आपके फ्रैंचाइज़ी। जिन मानकों को आप फिसलते हुए देख लेते - और वह मार्जिन जो उन्हें वापस लाकर आप हासिल करते।",
       "ctaButton": "फ्रैंचाइज़ वॉक-थ्रू बुक करें"
     },
     "tr": {
@@ -878,8 +878,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Ağınızı tek sıralamada görün.",
-      "ctaDescription": "30 dakika. Franchise alanlarınız. Kaydığını fark edeceğiniz standartlar.",
+      "ctaTitle": "Ağı sıralayın. Marjı geri kazanın.",
+      "ctaDescription": "30 dakika. Franchise alanlarınız. Kaydığını fark edeceğiniz standartlar - ve onları geri getirerek kazanacağınız marj.",
       "ctaButton": "Bayilik Gezintisi rezervasyonu yapın"
     },
     "pl": {
@@ -966,8 +966,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz swoją sieć w jednym rankingu.",
-      "ctaDescription": "30 minut. Twoi franczyzobiorcy. Standardy, których spadek byś zauważył.",
+      "ctaTitle": "Uszereguj sieć. Odzyskaj marżę.",
+      "ctaDescription": "30 minut. Twoi franczyzobiorcy. Standardy, których spadek byś zauważył - i marża, którą odzyskasz, przywracając je.",
       "ctaButton": "Zarezerwuj przewodnik po franczyzie"
     },
     "zh-Hans": {
@@ -1054,8 +1054,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "在一项排名中查看您的网络。",
-      "ctaDescription": "30分钟。您的加盟商。您会发现标准有所下降。",
+      "ctaTitle": "为网络排名。收回利润。",
+      "ctaDescription": "30分钟。您的加盟商。您本会发现正在下滑的标准--以及您把它们拉回后收回的利润。",
       "ctaButton": "预订特许经营演练"
     },
     "ko": {
@@ -1142,8 +1142,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "하나의 순위로 네트워크를 확인하세요.",
-      "ctaDescription": "30분. 귀하의 프랜차이즈. 흔들리는 것을 미리 발견했을 표준들.",
+      "ctaTitle": "네트워크를 순위화하세요. 마진을 되찾으세요.",
+      "ctaDescription": "30분. 귀하의 프랜차이즈. 흔들리는 것을 미리 발견했을 표준 - 그리고 그것을 되돌려 되찾을 마진.",
       "ctaButton": "프랜차이즈 둘러보기 예약"
     },
     "id": {
@@ -1230,8 +1230,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat jaringan Anda pada satu peringkat.",
-      "ctaDescription": "30 menit. Penerima waralaba Anda. Standar yang mungkin Anda lihat tergelincir.",
+      "ctaTitle": "Beri peringkat jaringan. Pulihkan margin.",
+      "ctaDescription": "30 menit. Penerima waralaba Anda. Standar yang akan Anda lihat tergelincir - dan margin yang akan Anda pulihkan dengan memulihkannya.",
       "ctaButton": "Pesan Walk-through Waralaba"
     },
     "ja": {
@@ -1318,8 +1318,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ネットワークを 1 つのランキングで確認します。",
-      "ctaDescription": "30分。フランチャイズ加盟者の皆様。あなたが見落としていたはずの基準。",
+      "ctaTitle": "ネットワークをランク付けする。マージンを取り戻す。",
+      "ctaDescription": "30分。フランチャイズ加盟者の皆様。あなたが滑り落ちるのに気づいたはずの基準--そしてそれを立て直すことで取り戻すマージン。",
       "ctaButton": "フランチャイズのウォークスルーを予約する"
     },
     "ro": {
@@ -1406,8 +1406,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vedeți-vă rețeaua într-un singur clasament.",
-      "ctaDescription": "30 de minute. Francizații tăi. Standardele pe care le-ai fi observat alunecând.",
+      "ctaTitle": "Clasați rețeaua. Recuperați marja.",
+      "ctaDescription": "30 de minute. Francizații tăi. Standardele pe care le-ai fi observat alunecând - și marja pe care ai recupera-o readucându-le la normal.",
       "ctaButton": "Rezervați o prezentare a francizei"
     },
     "vi": {
@@ -1494,8 +1494,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Xem mạng của bạn trên một bảng xếp hạng.",
-      "ctaDescription": "30 phút. Những người được nhượng quyền của bạn. Các tiêu chuẩn bạn sẽ nhận thấy bị trượt.",
+      "ctaTitle": "Xếp hạng mạng lưới. Thu hồi biên lợi nhuận.",
+      "ctaDescription": "30 phút. Những người nhận nhượng quyền của bạn. Các tiêu chuẩn bạn sẽ nhận thấy bị trượt - và biên lợi nhuận bạn sẽ thu hồi khi đưa chúng trở lại.",
       "ctaButton": "Đặt một buổi hướng dẫn nhượng quyền thương mại"
     },
     "bn": {
@@ -1582,8 +1582,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "এক র্যাঙ্কিংয়ে আপনার নেটওয়ার্ক দেখুন।",
-      "ctaDescription": "৩০ মিনিট। আপনার ফ্র্যাঞ্চাইজি। যেসব মান পিছলে যাচ্ছে তা আপনি আগেই ধরতে পারতেন।",
+      "ctaTitle": "নেটওয়ার্ককে র্যাঙ্ক করুন। মার্জিন ফিরিয়ে আনুন।",
+      "ctaDescription": "৩০ মিনিট। আপনার ফ্র্যাঞ্চাইজি। যেসব মান পিছলে যাচ্ছে তা আপনি আগেই ধরতে পারতেন - এবং সেগুলো ফিরিয়ে এনে যে মার্জিন আপনি পুনরুদ্ধার করতেন।",
       "ctaButton": "একটি ফ্র্যাঞ্চাইজ ওয়াক-থ্রু বুক করুন"
     },
     "sv": {
@@ -1670,8 +1670,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Se ditt nätverk på en ranking.",
-      "ctaDescription": "30 minuter. Dina franchisetagare. Standarden du skulle ha sett halka.",
+      "ctaTitle": "Ranka nätverket. Återvinn marginalen.",
+      "ctaDescription": "30 minuter. Dina franchisetagare. Standarden du skulle ha sett halka - och marginalen du skulle återvinna genom att återställa den.",
       "ctaButton": "Boka en Franchise-genomgång"
     },
     "th": {
@@ -1758,8 +1758,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูเครือข่ายของคุณในอันดับเดียว",
-      "ctaDescription": "30 นาที แฟรนไชส์ของคุณ มาตรฐานที่คุณจะได้เห็นการลื่นไถล",
+      "ctaTitle": "จัดอันดับเครือข่าย กู้คืนกำไร",
+      "ctaDescription": "30 นาที แฟรนไชส์ของคุณ มาตรฐานที่คุณจะได้เห็นการลื่นไถล - และกำไรที่คุณจะกู้คืนเมื่อดึงมันกลับมา",
       "ctaButton": "จองแฟรนไชส์แบบ Walk-through"
     },
     "ms": {
@@ -1846,8 +1846,8 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat rangkaian anda pada satu kedudukan.",
-      "ctaDescription": "30 minit. Francaisi anda. Piawaian yang anda akan nampak tergelincir.",
+      "ctaTitle": "Beri kedudukan rangkaian. Dapatkan semula margin.",
+      "ctaDescription": "30 minit. Francaisi anda. Piawaian yang anda akan nampak tergelincir - dan margin yang anda akan dapatkan semula dengan memulihkannya.",
       "ctaButton": "Tempah Walk-through Francais"
     }
   }

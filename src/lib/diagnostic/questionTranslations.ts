@@ -304,7 +304,7 @@ const optionLabels = {
       none: "Pas une priorité aujourd'hui",
     },
     kpis_measured: {
-      labor_pct: "% coût de main-d'oeuvre",
+      labor_pct: "% coût de main-d'œuvre",
       food_cost: "% coût matière",
       void_comp: "Annulations / Offerts",
       avg_check: "Ticket moyen",
@@ -876,7 +876,7 @@ const localizedText: Record<WebsiteLocale, LocaleOverrides> = {
         prompt: "Comment planifiez-vous les équipes aujourd'hui ?",
         helper: "Sélectionnez tout ce qui s'applique - beaucoup d'opérateurs utilisent plusieurs systèmes selon les marques ou régions.",
       },
-      labor_pain: { prompt: "Où les coûts de main-d'oeuvre fuient-ils le plus ?", helper: "Sélectionnez tout ce qui s'applique." },
+      labor_pain: { prompt: "Où les coûts de main-d'œuvre fuient-ils le plus ?", helper: "Sélectionnez tout ce qui s'applique." },
       payroll_regions: {
         prompt: "Quels pays sont concernés par la paie ?",
         helper: "Sélectionnez tout ce qui s'applique - cela détermine les packs pays pertinents.",
