@@ -42,9 +42,36 @@ export const generatedLocalCopy = {
       "costMetric": "Kein BI-Projekt",
       "qualityMetric": "Bereit ab Tag eins",
       "vertices": [
-        { "label": "Tempo", "headline": "In Tagen startklar. Ab Tag eins zurückgewinnen.", "body": "Binden Sie Ihren Stack schnell an. Pulse aktualisiert sich über die Schicht hinweg, und Ask Sundae antwortet mit Quellen, statt Teams zurück in die Report-Warteschlange zu schicken.", "chips": ["Tage bis live", "Live-Core-Refresh", "Antworten in Sekunden"] },
-        { "label": "Qualität", "headline": "Für die Gastronomie gebaut. Für Rückgewinnung geregelt.", "body": "Sundae liefert 500+ geregelte Gastronomie-Datenmodelle, Peer-verankerte Benchmarks und quellenbelegte AI-Antworten - Teams bauen also nicht auf einer leeren BI-Leinwand auf.", "chips": ["500+ Modelle", "Quellenbelegte AI", "Peer-Benchmarks"] },
-        { "label": "Kosten", "headline": "Günstiger als BI rund um die Gastronomie neu zu bauen.", "body": "BI-Lizenzen sind nur die sichtbaren Kosten. Der eigentliche Aufwand sind Analysten, Integrationen, Custom-Modelle, Dashboard-Pflege und verzögerte Entscheidungen. Sundae ist ab Tag eins gastronomiebereit: ein Paket, elf Fachmodule, kein BI-Aufbau.", "chips": ["Ein Paket", "Weniger Custom-BI", "Weniger Analystenlast"] }
+        {
+          "label": "Tempo",
+          "headline": "In Tagen startklar. Ab Tag eins zurückgewinnen.",
+          "body": "Binden Sie Ihren Stack schnell an. Pulse aktualisiert sich über die Schicht hinweg, und Ask Sundae antwortet mit Quellen, statt Teams zurück in die Report-Warteschlange zu schicken.",
+          "chips": [
+            "Tage bis live",
+            "Live-Core-Refresh",
+            "Antworten in Sekunden"
+          ]
+        },
+        {
+          "label": "Qualität",
+          "headline": "Eine prüfbare Recovery‑Schleife.",
+          "body": "Sundae: Ein einheitliches Lagebild zu Umsatz, Personal, Kosten und Gästen. Wählen Sie das Sundae Core‑Paket, das zu den Entscheidungswegen, der Geschwindigkeit und dem operativen Tiefgang Ihres Teams passt.",
+          "chips": [
+            "Bereit ab Tag eins",
+            "Quellenbelegte AI",
+            "Peer-Benchmarks"
+          ]
+        },
+        {
+          "label": "Kosten",
+          "headline": "Günstiger als BI rund um die Gastronomie neu zu bauen.",
+          "body": "Sundae: Ein einheitliches Lagebild zu Umsatz, Personal, Kosten und Gästen. Wählen Sie das Sundae Core‑Paket, das zu den Entscheidungswegen, der Geschwindigkeit und dem operativen Tiefgang Ihres Teams passt.",
+          "chips": [
+            "Kein BI-Projekt",
+            "Weniger Custom-BI",
+            "Weniger Analystenlast"
+          ]
+        }
       ]
     },
     "nl": {
@@ -57,9 +84,36 @@ export const generatedLocalCopy = {
       "costMetric": "Geen BI-traject",
       "qualityMetric": "Klaar vanaf dag één",
       "vertices": [
-        { "label": "Snelheid", "headline": "In dagen live. Terugwinnen vanaf dag één.", "body": "Koppel je stack snel. Pulse werkt bij tijdens de dienst, en Ask Sundae antwoordt met bronnen in plaats van teams terug te sturen naar de rapportwachtrij.", "chips": ["Dagen tot live", "Live Core-refresh", "Antwoorden in seconden"] },
-        { "label": "Kwaliteit", "headline": "Gebouwd voor de horeca. Beheerd voor terugwinning.", "body": "Sundae komt met 500+ beheerde horeca-datamodellen, benchmarks tegen branchegenoten en AI-antwoorden mét bron - zo bouwen teams niet op een leeg BI-canvas.", "chips": ["500+ modellen", "AI mét bron", "Peer-benchmarks"] },
-        { "label": "Kosten", "headline": "Goedkoper dan BI opnieuw bouwen rond de horeca.", "body": "BI-licenties zijn alleen de zichtbare kosten. De echte uitgave zijn analisten, integraties, maatwerkmodellen, dashboardonderhoud en trage beslissingen. Sundae is vanaf dag één horecaklaar: één pakket, elf domeinmodules, geen BI-bouwtraject.", "chips": ["Eén pakket", "Minder maatwerk-BI", "Minder analistenwerk"] }
+        {
+          "label": "Snelheid",
+          "headline": "In dagen live. Terugwinnen vanaf dag één.",
+          "body": "Koppel je stack snel. Pulse werkt bij tijdens de dienst, en Ask Sundae antwoordt met bronnen in plaats van teams terug te sturen naar de rapportwachtrij.",
+          "chips": [
+            "Dagen tot live",
+            "Live Core-refresh",
+            "Antwoorden in seconden"
+          ]
+        },
+        {
+          "label": "Kwaliteit",
+          "headline": "Een auditbare herstelcyclus.",
+          "body": "Sundae: Één operationeel overzicht van omzet, personeel, kosten en gasten. Kies het Sundae Core-pakket dat past bij de beslissingen, snelheid en operationele diepgang die uw team nodig heeft.",
+          "chips": [
+            "Klaar vanaf dag één",
+            "AI mét bron",
+            "Peer-benchmarks"
+          ]
+        },
+        {
+          "label": "Kosten",
+          "headline": "Goedkoper dan BI opnieuw bouwen rond de horeca.",
+          "body": "Sundae: Één operationeel overzicht van omzet, personeel, kosten en gasten. Kies het Sundae Core-pakket dat past bij de beslissingen, snelheid en operationele diepgang die uw team nodig heeft.",
+          "chips": [
+            "Geen BI-traject",
+            "Minder maatwerk-BI",
+            "Minder analistenwerk"
+          ]
+        }
       ]
     },
     "pt": {
@@ -72,9 +126,36 @@ export const generatedLocalCopy = {
       "costMetric": "Sem projeto de BI",
       "qualityMetric": "Pronto desde o primeiro dia",
       "vertices": [
-        { "label": "Velocidade", "headline": "Implante em dias. Recupere desde o primeiro dia.", "body": "Conecte sua stack rápido. O Pulse atualiza ao longo do turno, e o Ask Sundae responde com fontes em vez de mandar as equipes de volta à fila de relatórios.", "chips": ["Dias para implantar", "Refresh Core ao vivo", "Respostas em segundos"] },
-        { "label": "Qualidade", "headline": "Feito para a restauração. Governado para a recuperação.", "body": "O Sundae já vem com mais de 500 modelos de dados de restauração governados, benchmarks entre pares e respostas de AI com fonte citada - assim as equipes não partem de uma tela BI em branco.", "chips": ["500+ modelos", "AI com fonte", "Benchmarks entre pares"] },
-        { "label": "Custo", "headline": "Custa menos que reconstruir a BI em torno da restauração.", "body": "As licenças de BI são só o custo visível. O gasto real são analistas, integrações, modelos sob medida, manutenção de dashboards e decisões atrasadas. O Sundae já chega pronto para a restauração desde o primeiro dia: um pacote, onze módulos de domínio, sem projeto de BI.", "chips": ["Um pacote", "Menos BI sob medida", "Menos carga de analistas"] }
+        {
+          "label": "Velocidade",
+          "headline": "Implante em dias. Recupere desde o primeiro dia.",
+          "body": "Conecte sua stack rápido. O Pulse atualiza ao longo do turno, e o Ask Sundae responde com fontes em vez de mandar as equipes de volta à fila de relatórios.",
+          "chips": [
+            "Dias para implantar",
+            "Refresh Core ao vivo",
+            "Respostas em segundos"
+          ]
+        },
+        {
+          "label": "Qualidade",
+          "headline": "Um loop de recuperação auditável.",
+          "body": "Sundae: Uma visão operacional única de receitas, pessoal, custos e clientes. Escolha o pacote Core que corresponde às decisões, velocidade e profundidade operacional de que a sua equipa precisa.",
+          "chips": [
+            "Pronto desde o primeiro dia",
+            "AI com fonte",
+            "Benchmarks entre pares"
+          ]
+        },
+        {
+          "label": "Custo",
+          "headline": "Custa menos que reconstruir a BI em torno da restauração.",
+          "body": "Sundae: Uma visão operacional única de receitas, pessoal, custos e clientes. Escolha o pacote Core que corresponde às decisões, velocidade e profundidade operacional de que a sua equipa precisa.",
+          "chips": [
+            "Sem projeto de BI",
+            "Menos BI sob medida",
+            "Menos carga de analistas"
+          ]
+        }
       ]
     },
     "hi": {
@@ -87,9 +168,36 @@ export const generatedLocalCopy = {
       "costMetric": "कोई BI निर्माण नहीं",
       "qualityMetric": "पहले दिन से तैयार",
       "vertices": [
-        { "label": "गति", "headline": "कुछ दिनों में तैनात। पहले दिन से रिकवरी।", "body": "अपना स्टैक तेज़ी से जोड़ें। Pulse हर शिफ़्ट के दौरान अपडेट होता है, और Ask Sundae टीमों को रिपोर्ट कतार में वापस भेजने के बजाय स्रोतों के साथ जवाब देता है।", "chips": ["तैनाती में कुछ दिन", "लाइव Core रिफ़्रेश", "सेकंडों में जवाब"] },
-        { "label": "गुणवत्ता", "headline": "फ़ूड-सर्विस के लिए बना। रिकवरी के लिए नियंत्रित।", "body": "Sundae के साथ 500+ नियंत्रित फ़ूड-सर्विस डेटा मॉडल, समकक्षों पर आधारित बेंचमार्क और स्रोत-सहित AI जवाब आते हैं - ताकि टीमें खाली BI कैनवास से शुरू न करें।", "chips": ["500+ मॉडल", "स्रोत-सहित AI", "समकक्ष बेंचमार्क"] },
-        { "label": "लागत", "headline": "फ़ूड-सर्विस के इर्द-गिर्द BI दोबारा बनाने से कम लागत।", "body": "BI लाइसेंस तो बस दिखने वाली लागत है। असली खर्च है विश्लेषक, इंटीग्रेशन, कस्टम मॉडल, डैशबोर्ड रखरखाव और देर से लिए गए फ़ैसले। Sundae पहले दिन से फ़ूड-सर्विस के लिए तैयार है: एक पैकेज, ग्यारह डोमेन मॉड्यूल, कोई BI निर्माण नहीं।", "chips": ["एक पैकेज", "कम कस्टम BI", "विश्लेषकों पर कम बोझ"] }
+        {
+          "label": "गति",
+          "headline": "कुछ दिनों में तैनात। पहले दिन से रिकवरी।",
+          "body": "अपना स्टैक तेज़ी से जोड़ें। Pulse हर शिफ़्ट के दौरान अपडेट होता है, और Ask Sundae टीमों को रिपोर्ट कतार में वापस भेजने के बजाय स्रोतों के साथ जवाब देता है।",
+          "chips": [
+            "तैनाती में कुछ दिन",
+            "लाइव Core रिफ़्रेश",
+            "सेकंडों में जवाब"
+          ]
+        },
+        {
+          "label": "गुणवत्ता",
+          "headline": "एक ऑडिट योग्य रिकवरी लूप।",
+          "body": "Sundae: राजस्व, श्रम, लागत और मेहमानों पर एक समेकित संचालन दृश्य। अपनी टीम की निर्णय‑गति और संचालन‑गहराई के अनुसार Core पैकेज चुनें।",
+          "chips": [
+            "पहले दिन से तैयार",
+            "स्रोत-सहित AI",
+            "समकक्ष बेंचमार्क"
+          ]
+        },
+        {
+          "label": "लागत",
+          "headline": "फ़ूड-सर्विस के इर्द-गिर्द BI दोबारा बनाने से कम लागत।",
+          "body": "Sundae: राजस्व, श्रम, लागत और मेहमानों पर एक समेकित संचालन दृश्य। अपनी टीम की निर्णय‑गति और संचालन‑गहराई के अनुसार Core पैकेज चुनें।",
+          "chips": [
+            "कोई BI निर्माण नहीं",
+            "कम कस्टम BI",
+            "विश्लेषकों पर कम बोझ"
+          ]
+        }
       ]
     },
     "ur": {
@@ -102,9 +210,36 @@ export const generatedLocalCopy = {
       "costMetric": "کوئی BI تعمیر نہیں",
       "qualityMetric": "پہلے دن سے تیار",
       "vertices": [
-        { "label": "رفتار", "headline": "چند دنوں میں تعیناتی۔ پہلے دن سے ریکوری۔", "body": "اپنا اسٹیک تیزی سے جوڑیں۔ Pulse ہر شفٹ کے دوران اپ ڈیٹ ہوتا ہے، اور Ask Sundae ٹیموں کو رپورٹ قطار میں واپس بھیجنے کے بجائے مآخذ کے ساتھ جواب دیتا ہے۔", "chips": ["تعیناتی میں چند دن", "لائیو Core ریفریش", "سیکنڈوں میں جواب"] },
-        { "label": "معیار", "headline": "فوڈ سروس کے لیے بنایا گیا۔ ریکوری کے لیے کنٹرول شدہ۔", "body": "Sundae کے ساتھ 500+ کنٹرول شدہ فوڈ سروس ڈیٹا ماڈل، ہم مرتبہ اداروں پر مبنی بینچ مارک اور مآخذ کے ساتھ AI جوابات آتے ہیں - تاکہ ٹیمیں خالی BI کینوس سے شروع نہ کریں۔", "chips": ["500+ ماڈل", "مآخذ کے ساتھ AI", "ہم مرتبہ بینچ مارک"] },
-        { "label": "لاگت", "headline": "فوڈ سروس کے گرد BI دوبارہ بنانے سے کم لاگت۔", "body": "BI لائسنس تو صرف نظر آنے والی لاگت ہیں۔ اصل خرچ تجزیہ کار، انٹیگریشن، کسٹم ماڈل، ڈیش بورڈ کی دیکھ بھال اور تاخیر سے فیصلے ہیں۔ Sundae پہلے دن سے فوڈ سروس کے لیے تیار ہے: ایک پیکیج، گیارہ ڈومین ماڈیول، کوئی BI تعمیر نہیں۔", "chips": ["ایک پیکیج", "کم کسٹم BI", "تجزیہ کاروں پر کم بوجھ"] }
+        {
+          "label": "رفتار",
+          "headline": "چند دنوں میں تعیناتی۔ پہلے دن سے ریکوری۔",
+          "body": "اپنا اسٹیک تیزی سے جوڑیں۔ Pulse ہر شفٹ کے دوران اپ ڈیٹ ہوتا ہے، اور Ask Sundae ٹیموں کو رپورٹ قطار میں واپس بھیجنے کے بجائے مآخذ کے ساتھ جواب دیتا ہے۔",
+          "chips": [
+            "تعیناتی میں چند دن",
+            "لائیو Core ریفریش",
+            "سیکنڈوں میں جواب"
+          ]
+        },
+        {
+          "label": "معیار",
+          "headline": "ایک قابلِ جانچ بازیابی لوپ۔",
+          "body": "Sundae: آمدنی، مزدوری، لاگت اور مہمانوں کے بارے میں ایک واحد آپریٹنگ منظر۔ اپنی ٹیم کی فیصلے، رفتار اور آپریشنل گہرائی کے مطابق Core پیکج منتخب کریں۔",
+          "chips": [
+            "پہلے دن سے تیار",
+            "مآخذ کے ساتھ AI",
+            "ہم مرتبہ بینچ مارک"
+          ]
+        },
+        {
+          "label": "لاگت",
+          "headline": "فوڈ سروس کے گرد BI دوبارہ بنانے سے کم لاگت۔",
+          "body": "Sundae: آمدنی، مزدوری، لاگت اور مہمانوں کے بارے میں ایک واحد آپریٹنگ منظر۔ اپنی ٹیم کی فیصلے، رفتار اور آپریشنل گہرائی کے مطابق Core پیکج منتخب کریں۔",
+          "chips": [
+            "کوئی BI تعمیر نہیں",
+            "کم کسٹم BI",
+            "تجزیہ کاروں پر کم بوجھ"
+          ]
+        }
       ]
     },
     "it": {
@@ -117,9 +252,36 @@ export const generatedLocalCopy = {
       "costMetric": "Nessun progetto BI",
       "qualityMetric": "Pronto dal primo giorno",
       "vertices": [
-        { "label": "Velocità", "headline": "Attiva in giorni. Recupera dal primo giorno.", "body": "Collega il tuo stack in fretta. Pulse si aggiorna durante il turno e Ask Sundae risponde con le fonti invece di rimandare i team in coda ai report.", "chips": ["Giorni per attivare", "Refresh Core live", "Risposte in secondi"] },
-        { "label": "Qualità", "headline": "Creato per la ristorazione. Governato per il recupero.", "body": "Sundae arriva con oltre 500 modelli dati di ristorazione governati, benchmark tra pari e risposte AI con fonte citata - così i team non partono da una tela BI vuota.", "chips": ["500+ modelli", "AI con fonte", "Benchmark tra pari"] },
-        { "label": "Costo", "headline": "Costa meno che ricostruire la BI intorno alla ristorazione.", "body": "Le licenze BI sono solo il costo visibile. La spesa vera sono analisti, integrazioni, modelli su misura, manutenzione dei dashboard e decisioni in ritardo. Sundae è pronto per la ristorazione dal primo giorno: un pacchetto, undici moduli di dominio, nessun cantiere BI.", "chips": ["Un pacchetto", "Meno BI su misura", "Meno carico analisti"] }
+        {
+          "label": "Velocità",
+          "headline": "Attiva in giorni. Recupera dal primo giorno.",
+          "body": "Collega il tuo stack in fretta. Pulse si aggiorna durante il turno e Ask Sundae risponde con le fonti invece di rimandare i team in coda ai report.",
+          "chips": [
+            "Giorni per attivare",
+            "Refresh Core live",
+            "Risposte in secondi"
+          ]
+        },
+        {
+          "label": "Qualità",
+          "headline": "Un ciclo di recupero verificabile.",
+          "body": "Sundae: Un'unica visione operativa su ricavi, personale, costi e ospiti. Scegli il pacchetto Core che si adatta alle decisioni, alla velocità e alla profondità operativa di cui il tuo team ha bisogno.",
+          "chips": [
+            "Pronto dal primo giorno",
+            "AI con fonte",
+            "Benchmark tra pari"
+          ]
+        },
+        {
+          "label": "Costo",
+          "headline": "Costa meno che ricostruire la BI intorno alla ristorazione.",
+          "body": "Sundae: Un'unica visione operativa su ricavi, personale, costi e ospiti. Scegli il pacchetto Core che si adatta alle decisioni, alla velocità e alla profondità operativa di cui il tuo team ha bisogno.",
+          "chips": [
+            "Nessun progetto BI",
+            "Meno BI su misura",
+            "Meno carico analisti"
+          ]
+        }
       ]
     },
     "pl": {
@@ -132,9 +294,36 @@ export const generatedLocalCopy = {
       "costMetric": "Bez wdrożenia BI",
       "qualityMetric": "Gotowe od pierwszego dnia",
       "vertices": [
-        { "label": "Szybkość", "headline": "Wdrożenie w kilka dni. Odzyskiwanie od pierwszego dnia.", "body": "Podłącz swój stack szybko. Pulse aktualizuje się w trakcie zmiany, a Ask Sundae odpowiada ze źródłami, zamiast odsyłać zespoły z powrotem do kolejki raportów.", "chips": ["Dni do wdrożenia", "Odświeżanie Core na żywo", "Odpowiedzi w sekundy"] },
-        { "label": "Jakość", "headline": "Stworzony dla gastronomii. Nadzorowany dla odzyskiwania.", "body": "Sundae dostarcza ponad 500 nadzorowanych modeli danych gastronomicznych, benchmarki wśród podobnych firm i odpowiedzi AI z podanym źródłem - zespoły nie zaczynają od pustego płótna BI.", "chips": ["500+ modeli", "AI ze źródłem", "Benchmarki branżowe"] },
-        { "label": "Koszt", "headline": "Taniej niż budowanie BI wokół gastronomii od nowa.", "body": "Licencje BI to tylko widoczny koszt. Prawdziwy wydatek to analitycy, integracje, modele na zamówienie, utrzymanie dashboardów i spóźnione decyzje. Sundae jest gotowy dla gastronomii od pierwszego dnia: jeden pakiet, jedenaście modułów dziedzinowych, żadnej budowy BI.", "chips": ["Jeden pakiet", "Mniej BI na zamówienie", "Mniejsze obciążenie analityków"] }
+        {
+          "label": "Szybkość",
+          "headline": "Wdrożenie w kilka dni. Odzyskiwanie od pierwszego dnia.",
+          "body": "Podłącz swój stack szybko. Pulse aktualizuje się w trakcie zmiany, a Ask Sundae odpowiada ze źródłami, zamiast odsyłać zespoły z powrotem do kolejki raportów.",
+          "chips": [
+            "Dni do wdrożenia",
+            "Odświeżanie Core na żywo",
+            "Odpowiedzi w sekundy"
+          ]
+        },
+        {
+          "label": "Jakość",
+          "headline": "Jedna audytowalna pętla odzysku.",
+          "body": "Sundae: Jedny obraz operacyjny obejmujący przychody, pracę, koszty i gości. Wybierz pakiet Core, który odpowiada decyzjom, tempu i głębokości operacyjnej, jakich potrzebuje Twój zespół.",
+          "chips": [
+            "Gotowe od pierwszego dnia",
+            "AI ze źródłem",
+            "Benchmarki branżowe"
+          ]
+        },
+        {
+          "label": "Koszt",
+          "headline": "Taniej niż budowanie BI wokół gastronomii od nowa.",
+          "body": "Sundae: Jedny obraz operacyjny obejmujący przychody, pracę, koszty i gości. Wybierz pakiet Core, który odpowiada decyzjom, tempu i głębokości operacyjnej, jakich potrzebuje Twój zespół.",
+          "chips": [
+            "Bez wdrożenia BI",
+            "Mniej BI na zamówienie",
+            "Mniejsze obciążenie analityków"
+          ]
+        }
       ]
     },
     "tr": {
@@ -147,9 +336,36 @@ export const generatedLocalCopy = {
       "costMetric": "BI projesi yok",
       "qualityMetric": "İlk günden hazır",
       "vertices": [
-        { "label": "Hız", "headline": "Günler içinde devreye alın. İlk günden geri kazanın.", "body": "Yığınınızı hızla bağlayın. Pulse vardiya boyunca güncellenir ve Ask Sundae ekipleri rapor kuyruğuna geri göndermek yerine kaynaklarıyla yanıt verir.", "chips": ["Devreye almada günler", "Canlı Core yenileme", "Saniyeler içinde yanıt"] },
-        { "label": "Kalite", "headline": "Yeme-içme için tasarlandı. Geri kazanım için yönetildi.", "body": "Sundae, 500'ün üzerinde yönetilen yeme-içme veri modeli, emsal kıyaslamaları ve kaynak gösteren AI yanıtlarıyla gelir - ekipler boş bir BI tuvalinden başlamaz.", "chips": ["500+ model", "Kaynaklı AI", "Emsal kıyaslamalar"] },
-        { "label": "Maliyet", "headline": "BI'yı yeme-içme çevresinde yeniden kurmaktan daha düşük maliyet.", "body": "BI lisansları yalnızca görünen maliyettir. Asıl harcama analistler, entegrasyonlar, özel modeller, dashboard bakımı ve geciken kararlardır. Sundae ilk günden yeme-içme için hazırdır: tek paket, on bir alan modülü, BI kurulumu yok.", "chips": ["Tek paket", "Daha az özel BI", "Daha az analist yükü"] }
+        {
+          "label": "Hız",
+          "headline": "Günler içinde devreye alın. İlk günden geri kazanın.",
+          "body": "Yığınınızı hızla bağlayın. Pulse vardiya boyunca güncellenir ve Ask Sundae ekipleri rapor kuyruğuna geri göndermek yerine kaynaklarıyla yanıt verir.",
+          "chips": [
+            "Devreye almada günler",
+            "Canlı Core yenileme",
+            "Saniyeler içinde yanıt"
+          ]
+        },
+        {
+          "label": "Kalite",
+          "headline": "Denetlenebilir tek bir geri kazanım döngüsü.",
+          "body": "Sundae: Gelir, işçilik, maliyet ve misafirler için tek işletme görünümü. Ekibinizin karar alma, hız ve işletme derinliğine uyan Sundae Core paketini seçin.",
+          "chips": [
+            "İlk günden hazır",
+            "Kaynaklı AI",
+            "Emsal kıyaslamalar"
+          ]
+        },
+        {
+          "label": "Maliyet",
+          "headline": "BI'yı yeme-içme çevresinde yeniden kurmaktan daha düşük maliyet.",
+          "body": "Sundae: Gelir, işçilik, maliyet ve misafirler için tek işletme görünümü. Ekibinizin karar alma, hız ve işletme derinliğine uyan Sundae Core paketini seçin.",
+          "chips": [
+            "BI projesi yok",
+            "Daha az özel BI",
+            "Daha az analist yükü"
+          ]
+        }
       ]
     },
     "zh-Hans": {
@@ -162,9 +378,36 @@ export const generatedLocalCopy = {
       "costMetric": "无需搭建 BI",
       "qualityMetric": "第一天即可用",
       "vertices": [
-        { "label": "速度", "headline": "数日部署，首日即开始追回。", "body": "快速接入你的技术栈。Pulse 在整个班次持续刷新，Ask Sundae 带着来源作答，而不是把团队再推回报表队列。", "chips": ["数日即部署", "Core 实时刷新", "秒级作答"] },
-        { "label": "质量", "headline": "为餐饮而建，为追回而治理。", "body": "Sundae 内置 500+ 套受治理的餐饮数据模型、同行锚定基准和标注来源的 AI 作答--团队无需从空白的 BI 画布起步。", "chips": ["500+ 模型", "标注来源的 AI", "同行基准"] },
-        { "label": "成本", "headline": "比围绕餐饮重建 BI 成本更低。", "body": "BI 许可只是看得见的成本。真正的开销是分析师、集成、定制模型、看板维护和迟到的决策。Sundae 从第一天起就为餐饮就绪：一个套餐、十一个领域模块，无需搭建 BI。", "chips": ["一个套餐", "更少定制 BI", "更轻分析师负担"] }
+        {
+          "label": "速度",
+          "headline": "数日部署，首日即开始追回。",
+          "body": "快速接入你的技术栈。Pulse 在整个班次持续刷新，Ask Sundae 带着来源作答，而不是把团队再推回报表队列。",
+          "chips": [
+            "数日即部署",
+            "Core 实时刷新",
+            "秒级作答"
+          ]
+        },
+        {
+          "label": "质量",
+          "headline": "一个可审计的恢复闭环。",
+          "body": "Sundae: 在营收、劳务、成本与顾客方面形成统一的运营视图。选择与团队决策、速度和运营深度相符的 Sundae Core 套餐。",
+          "chips": [
+            "第一天即可用",
+            "标注来源的 AI",
+            "同行基准"
+          ]
+        },
+        {
+          "label": "成本",
+          "headline": "比围绕餐饮重建 BI 成本更低。",
+          "body": "Sundae: 在营收、劳务、成本与顾客方面形成统一的运营视图。选择与团队决策、速度和运营深度相符的 Sundae Core 套餐。",
+          "chips": [
+            "无需搭建 BI",
+            "更少定制 BI",
+            "更轻分析师负担"
+          ]
+        }
       ]
     },
     "ja": {
@@ -177,9 +420,36 @@ export const generatedLocalCopy = {
       "costMetric": "BI構築なし",
       "qualityMetric": "初日から使える",
       "vertices": [
-        { "label": "スピード", "headline": "数日で導入。初日から取り戻す。", "body": "スタックを素早く接続。Pulseはシフト中も更新し続け、Ask Sundaeはチームをレポート待ち行列に戻すのではなく、出典付きで答えます。", "chips": ["数日で導入", "Coreをライブ更新", "数秒で回答"] },
-        { "label": "品質", "headline": "飲食のために構築。取り戻しのために統制。", "body": "Sundaeは500以上の統制された飲食データモデル、同業ベンチマーク、出典付きAI回答を備えて届きます--チームは空白のBIキャンバスから作り始めずに済みます。", "chips": ["500+モデル", "出典付きAI", "同業ベンチマーク"] },
-        { "label": "コスト", "headline": "飲食向けにBIを作り直すより低コスト。", "body": "BIライセンスは見えるコストにすぎません。本当の出費はアナリスト、連携、カスタムモデル、ダッシュボード保守、そして遅れた意思決定です。Sundaeは初日から飲食対応です。ひとつのパッケージ、11のドメインモジュール、BI構築は不要。", "chips": ["ひとつのパッケージ", "カスタムBIを削減", "アナリスト負荷を軽減"] }
+        {
+          "label": "スピード",
+          "headline": "数日で導入。初日から取り戻す。",
+          "body": "スタックを素早く接続。Pulseはシフト中も更新し続け、Ask Sundaeはチームをレポート待ち行列に戻すのではなく、出典付きで答えます。",
+          "chips": [
+            "数日で導入",
+            "Coreをライブ更新",
+            "数秒で回答"
+          ]
+        },
+        {
+          "label": "品質",
+          "headline": "監査可能な単一の回復ループ。",
+          "body": "Sundae: 売上、人件費、コスト、ゲストを横断する単一の運用像。チームの判断、スピード、運用の深さに合ったCoreパッケージを選んでください。",
+          "chips": [
+            "初日から使える",
+            "出典付きAI",
+            "同業ベンチマーク"
+          ]
+        },
+        {
+          "label": "コスト",
+          "headline": "飲食向けにBIを作り直すより低コスト。",
+          "body": "Sundae: 売上、人件費、コスト、ゲストを横断する単一の運用像。チームの判断、スピード、運用の深さに合ったCoreパッケージを選んでください。",
+          "chips": [
+            "BI構築なし",
+            "カスタムBIを削減",
+            "アナリスト負荷を軽減"
+          ]
+        }
       ]
     },
     "ko": {
@@ -192,9 +462,36 @@ export const generatedLocalCopy = {
       "costMetric": "BI 구축 불필요",
       "qualityMetric": "첫날부터 사용 가능",
       "vertices": [
-        { "label": "속도", "headline": "며칠 만에 도입. 첫날부터 회수.", "body": "스택을 빠르게 연결하세요. Pulse는 근무 시간 내내 갱신되고, Ask Sundae는 팀을 보고서 대기열로 돌려보내는 대신 출처와 함께 답합니다.", "chips": ["도입까지 며칠", "Core 실시간 갱신", "몇 초 만의 답변"] },
-        { "label": "품질", "headline": "외식을 위해 설계. 회수를 위해 관리.", "body": "Sundae는 관리형 외식 데이터 모델 500여 개, 동종 업체 기준 벤치마크, 출처를 인용한 AI 답변을 갖추고 제공됩니다 - 팀이 빈 BI 캔버스에서 시작하지 않도록.", "chips": ["500+ 모델", "출처 인용 AI", "동종 벤치마크"] },
-        { "label": "비용", "headline": "외식에 맞춰 BI를 새로 짜는 것보다 낮은 비용.", "body": "BI 라이선스는 눈에 보이는 비용일 뿐입니다. 진짜 지출은 분석가, 연동, 맞춤 모델, 대시보드 유지보수, 그리고 늦어진 의사결정입니다. Sundae는 첫날부터 외식에 준비되어 있습니다. 하나의 패키지, 열한 개 도메인 모듈, BI 구축 없음.", "chips": ["하나의 패키지", "맞춤 BI 감소", "분석가 부담 감소"] }
+        {
+          "label": "속도",
+          "headline": "며칠 만에 도입. 첫날부터 회수.",
+          "body": "스택을 빠르게 연결하세요. Pulse는 근무 시간 내내 갱신되고, Ask Sundae는 팀을 보고서 대기열로 돌려보내는 대신 출처와 함께 답합니다.",
+          "chips": [
+            "도입까지 며칠",
+            "Core 실시간 갱신",
+            "몇 초 만의 답변"
+          ]
+        },
+        {
+          "label": "품질",
+          "headline": "감사 가능한 단일 복구 루프.",
+          "body": "Sundae: 매출, 인력, 비용, 고객을 아우르는 단일 운영 뷰. 팀이 필요로 하는 의사결정, 속도, 운영 깊이에 맞는 Core 패키지를 선택하세요.",
+          "chips": [
+            "첫날부터 사용 가능",
+            "출처 인용 AI",
+            "동종 벤치마크"
+          ]
+        },
+        {
+          "label": "비용",
+          "headline": "외식에 맞춰 BI를 새로 짜는 것보다 낮은 비용.",
+          "body": "Sundae: 매출, 인력, 비용, 고객을 아우르는 단일 운영 뷰. 팀이 필요로 하는 의사결정, 속도, 운영 깊이에 맞는 Core 패키지를 선택하세요.",
+          "chips": [
+            "BI 구축 불필요",
+            "맞춤 BI 감소",
+            "분석가 부담 감소"
+          ]
+        }
       ]
     },
     "id": {
@@ -207,9 +504,36 @@ export const generatedLocalCopy = {
       "costMetric": "Tanpa proyek BI",
       "qualityMetric": "Siap sejak hari pertama",
       "vertices": [
-        { "label": "Kecepatan", "headline": "Terapkan dalam hitungan hari. Pulihkan sejak hari pertama.", "body": "Hubungkan stack Anda dengan cepat. Pulse memperbarui sepanjang shift, dan Ask Sundae menjawab dengan sumber alih-alih mengembalikan tim ke antrean laporan.", "chips": ["Hari untuk terapkan", "Refresh Core langsung", "Jawaban dalam hitungan detik"] },
-        { "label": "Kualitas", "headline": "Dibangun untuk layanan makanan. Diatur untuk pemulihan.", "body": "Sundae hadir dengan 500+ model data layanan makanan yang terkelola, tolok ukur antar-sesama, dan jawaban AI dengan sumber - jadi tim tidak mulai dari kanvas BI kosong.", "chips": ["500+ model", "AI dengan sumber", "Tolok ukur sesama"] },
-        { "label": "Biaya", "headline": "Lebih murah daripada membangun ulang BI seputar layanan makanan.", "body": "Lisensi BI hanyalah biaya yang terlihat. Pengeluaran sebenarnya adalah analis, integrasi, model khusus, perawatan dashboard, dan keputusan yang tertunda. Sundae siap untuk layanan makanan sejak hari pertama: satu paket, sebelas modul domain, tanpa proyek BI.", "chips": ["Satu paket", "Lebih sedikit BI khusus", "Beban analis lebih ringan"] }
+        {
+          "label": "Kecepatan",
+          "headline": "Terapkan dalam hitungan hari. Pulihkan sejak hari pertama.",
+          "body": "Hubungkan stack Anda dengan cepat. Pulse memperbarui sepanjang shift, dan Ask Sundae menjawab dengan sumber alih-alih mengembalikan tim ke antrean laporan.",
+          "chips": [
+            "Hari untuk terapkan",
+            "Refresh Core langsung",
+            "Jawaban dalam hitungan detik"
+          ]
+        },
+        {
+          "label": "Kualitas",
+          "headline": "Satu loop pemulihan yang dapat diaudit.",
+          "body": "Sundae: Satu tampilan operasi untuk pendapatan, tenaga kerja, biaya, dan tamu. Pilih paket Sundae Core yang sesuai dengan keputusan, kecepatan, dan kedalaman operasional yang dibutuhkan tim Anda.",
+          "chips": [
+            "Siap sejak hari pertama",
+            "AI dengan sumber",
+            "Tolok ukur sesama"
+          ]
+        },
+        {
+          "label": "Biaya",
+          "headline": "Lebih murah daripada membangun ulang BI seputar layanan makanan.",
+          "body": "Sundae: Satu tampilan operasi untuk pendapatan, tenaga kerja, biaya, dan tamu. Pilih paket Sundae Core yang sesuai dengan keputusan, kecepatan, dan kedalaman operasional yang dibutuhkan tim Anda.",
+          "chips": [
+            "Tanpa proyek BI",
+            "Lebih sedikit BI khusus",
+            "Beban analis lebih ringan"
+          ]
+        }
       ]
     },
     "vi": {
@@ -222,9 +546,36 @@ export const generatedLocalCopy = {
       "costMetric": "Không phải dựng BI",
       "qualityMetric": "Sẵn sàng từ ngày đầu",
       "vertices": [
-        { "label": "Tốc độ", "headline": "Triển khai trong vài ngày. Thu hồi ngay từ ngày đầu.", "body": "Kết nối stack của bạn thật nhanh. Pulse cập nhật xuyên suốt ca làm, và Ask Sundae trả lời kèm nguồn thay vì đẩy các đội trở lại hàng chờ báo cáo.", "chips": ["Vài ngày để triển khai", "Làm mới Core trực tiếp", "Trả lời trong vài giây"] },
-        { "label": "Chất lượng", "headline": "Xây cho dịch vụ ăn uống. Quản trị cho thu hồi.", "body": "Sundae đi kèm hơn 500 mô hình dữ liệu dịch vụ ăn uống được quản trị, các chuẩn so sánh theo đồng nghiệp và câu trả lời AI có trích nguồn - để các đội không bắt đầu từ khung BI trống.", "chips": ["500+ mô hình", "AI trích nguồn", "Chuẩn so sánh đồng nghiệp"] },
-        { "label": "Chi phí", "headline": "Chi phí thấp hơn việc dựng lại BI quanh dịch vụ ăn uống.", "body": "Giấy phép BI chỉ là chi phí nhìn thấy. Khoản chi thật sự là chuyên viên phân tích, tích hợp, mô hình tùy chỉnh, bảo trì dashboard và những quyết định trễ. Sundae sẵn sàng cho dịch vụ ăn uống ngay từ ngày đầu: một gói, mười một mô-đun lĩnh vực, không dựng BI.", "chips": ["Một gói", "Ít BI tùy chỉnh hơn", "Giảm tải cho phân tích viên"] }
+        {
+          "label": "Tốc độ",
+          "headline": "Triển khai trong vài ngày. Thu hồi ngay từ ngày đầu.",
+          "body": "Kết nối stack của bạn thật nhanh. Pulse cập nhật xuyên suốt ca làm, và Ask Sundae trả lời kèm nguồn thay vì đẩy các đội trở lại hàng chờ báo cáo.",
+          "chips": [
+            "Vài ngày để triển khai",
+            "Làm mới Core trực tiếp",
+            "Trả lời trong vài giây"
+          ]
+        },
+        {
+          "label": "Chất lượng",
+          "headline": "Một vòng phục hồi có thể kiểm toán.",
+          "body": "Sundae: Một bức tranh vận hành duy nhất bao quát doanh thu, nhân công, chi phí và khách hàng. Chọn gói Sundae Core phù hợp với mức quyết định, tốc độ và độ sâu vận hành mà đội ngũ bạn cần.",
+          "chips": [
+            "Sẵn sàng từ ngày đầu",
+            "AI trích nguồn",
+            "Chuẩn so sánh đồng nghiệp"
+          ]
+        },
+        {
+          "label": "Chi phí",
+          "headline": "Chi phí thấp hơn việc dựng lại BI quanh dịch vụ ăn uống.",
+          "body": "Sundae: Một bức tranh vận hành duy nhất bao quát doanh thu, nhân công, chi phí và khách hàng. Chọn gói Sundae Core phù hợp với mức quyết định, tốc độ và độ sâu vận hành mà đội ngũ bạn cần.",
+          "chips": [
+            "Không phải dựng BI",
+            "Ít BI tùy chỉnh hơn",
+            "Giảm tải cho phân tích viên"
+          ]
+        }
       ]
     },
     "ro": {
@@ -237,9 +588,36 @@ export const generatedLocalCopy = {
       "costMetric": "Fără proiect BI",
       "qualityMetric": "Gata din prima zi",
       "vertices": [
-        { "label": "Viteză", "headline": "Implementezi în zile. Recuperezi din prima zi.", "body": "Conectează-ți stack-ul rapid. Pulse se actualizează pe parcursul turei, iar Ask Sundae răspunde cu surse în loc să trimită echipele înapoi în coada de rapoarte.", "chips": ["Zile până la implementare", "Refresh Core live", "Răspunsuri în secunde"] },
-        { "label": "Calitate", "headline": "Construit pentru HoReCa. Guvernat pentru recuperare.", "body": "Sundae vine cu peste 500 de modele de date HoReCa guvernate, benchmark-uri între companii similare și răspunsuri AI cu sursă citată - așa că echipele nu pornesc de la o pânză BI goală.", "chips": ["500+ modele", "AI cu sursă", "Benchmark-uri similare"] },
-        { "label": "Cost", "headline": "Cost mai mic decât reconstruirea BI în jurul HoReCa.", "body": "Licențele BI sunt doar costul vizibil. Cheltuiala reală înseamnă analiști, integrări, modele personalizate, întreținerea dashboardurilor și decizii întârziate. Sundae e gata pentru HoReCa din prima zi: un pachet, unsprezece module de domeniu, fără proiect BI.", "chips": ["Un singur pachet", "Mai puțin BI personalizat", "Mai puțină muncă de analiză"] }
+        {
+          "label": "Viteză",
+          "headline": "Implementezi în zile. Recuperezi din prima zi.",
+          "body": "Conectează-ți stack-ul rapid. Pulse se actualizează pe parcursul turei, iar Ask Sundae răspunde cu surse în loc să trimită echipele înapoi în coada de rapoarte.",
+          "chips": [
+            "Zile până la implementare",
+            "Refresh Core live",
+            "Răspunsuri în secunde"
+          ]
+        },
+        {
+          "label": "Calitate",
+          "headline": "Un ciclu de recuperare auditabil.",
+          "body": "Sundae: O imagine operațională unificată pentru venituri, forță de muncă, costuri și clienți. Alege pachetul Sundae Core care se potrivește deciziilor, vitezei și adâncimii operaționale de care are nevoie echipa ta.",
+          "chips": [
+            "Gata din prima zi",
+            "AI cu sursă",
+            "Benchmark-uri similare"
+          ]
+        },
+        {
+          "label": "Cost",
+          "headline": "Cost mai mic decât reconstruirea BI în jurul HoReCa.",
+          "body": "Sundae: O imagine operațională unificată pentru venituri, forță de muncă, costuri și clienți. Alege pachetul Sundae Core care se potrivește deciziilor, vitezei și adâncimii operaționale de care are nevoie echipa ta.",
+          "chips": [
+            "Fără proiect BI",
+            "Mai puțin BI personalizat",
+            "Mai puțină muncă de analiză"
+          ]
+        }
       ]
     },
     "sv": {
@@ -252,9 +630,36 @@ export const generatedLocalCopy = {
       "costMetric": "Inget BI-bygge",
       "qualityMetric": "Klart från dag ett",
       "vertices": [
-        { "label": "Snabbhet", "headline": "Driftsätt på dagar. Återvinn från dag ett.", "body": "Koppla in din stack snabbt. Pulse uppdateras genom passet, och Ask Sundae svarar med källor i stället för att skicka tillbaka teamen i rapportkön.", "chips": ["Dagar till drift", "Live Core-uppdatering", "Svar på sekunder"] },
-        { "label": "Kvalitet", "headline": "Byggd för restaurangbranschen. Styrd för återvinning.", "body": "Sundae levereras med 500+ styrda datamodeller för restaurangbranschen, jämförelser mot likar och AI-svar med källa - så teamen inte börjar från ett tomt BI-canvas.", "chips": ["500+ modeller", "AI med källa", "Jämförelser mot likar"] },
-        { "label": "Kostnad", "headline": "Lägre kostnad än att bygga om BI kring restaurangbranschen.", "body": "BI-licenser är bara den synliga kostnaden. Den verkliga utgiften är analytiker, integrationer, skräddarsydda modeller, dashboardunderhåll och sena beslut. Sundae är redo för restaurangbranschen från dag ett: ett paket, elva domänmoduler, inget BI-bygge.", "chips": ["Ett paket", "Mindre skräddarsydd BI", "Lägre analytikerbelastning"] }
+        {
+          "label": "Snabbhet",
+          "headline": "Driftsätt på dagar. Återvinn från dag ett.",
+          "body": "Koppla in din stack snabbt. Pulse uppdateras genom passet, och Ask Sundae svarar med källor i stället för att skicka tillbaka teamen i rapportkön.",
+          "chips": [
+            "Dagar till drift",
+            "Live Core-uppdatering",
+            "Svar på sekunder"
+          ]
+        },
+        {
+          "label": "Kvalitet",
+          "headline": "Ett revisionsbart återhämtningsflöde.",
+          "body": "Sundae: En samlad bild av intäkter, personal, kostnader och gäster. Välj Sundae Core‑paketet som motsvarar de beslut, den takt och det driftsdjup ert team behöver.",
+          "chips": [
+            "Klart från dag ett",
+            "AI med källa",
+            "Jämförelser mot likar"
+          ]
+        },
+        {
+          "label": "Kostnad",
+          "headline": "Lägre kostnad än att bygga om BI kring restaurangbranschen.",
+          "body": "Sundae: En samlad bild av intäkter, personal, kostnader och gäster. Välj Sundae Core‑paketet som motsvarar de beslut, den takt och det driftsdjup ert team behöver.",
+          "chips": [
+            "Inget BI-bygge",
+            "Mindre skräddarsydd BI",
+            "Lägre analytikerbelastning"
+          ]
+        }
       ]
     },
     "bn": {
@@ -267,9 +672,36 @@ export const generatedLocalCopy = {
       "costMetric": "কোনো BI নির্মাণ নয়",
       "qualityMetric": "প্রথম দিন থেকেই প্রস্তুত",
       "vertices": [
-        { "label": "গতি", "headline": "কয়েক দিনে মোতায়েন। প্রথম দিন থেকেই পুনরুদ্ধার।", "body": "আপনার স্ট্যাক দ্রুত যুক্ত করুন। Pulse পুরো শিফট জুড়ে হালনাগাদ হয়, আর Ask Sundae দলগুলোকে রিপোর্ট সারিতে ফেরত পাঠানোর বদলে উৎসসহ উত্তর দেয়।", "chips": ["মোতায়েনে কয়েক দিন", "লাইভ Core রিফ্রেশ", "সেকেন্ডে উত্তর"] },
-        { "label": "গুণমান", "headline": "ফুড সার্ভিসের জন্য তৈরি। পুনরুদ্ধারের জন্য নিয়ন্ত্রিত।", "body": "Sundae আসে 500+ নিয়ন্ত্রিত ফুড সার্ভিস ডেটা মডেল, সমগোত্রীয়দের সঙ্গে বেঞ্চমার্ক এবং উৎস-উদ্ধৃত AI উত্তর নিয়ে - যাতে দলগুলোকে ফাঁকা BI ক্যানভাস থেকে শুরু করতে না হয়।", "chips": ["500+ মডেল", "উৎস-উদ্ধৃত AI", "সমগোত্রীয় বেঞ্চমার্ক"] },
-        { "label": "খরচ", "headline": "ফুড সার্ভিসকে ঘিরে BI নতুন করে গড়ার চেয়ে কম খরচ।", "body": "BI লাইসেন্স তো কেবল দৃশ্যমান খরচ। আসল ব্যয় হলো বিশ্লেষক, ইন্টিগ্রেশন, কাস্টম মডেল, ড্যাশবোর্ড রক্ষণাবেক্ষণ আর দেরিতে নেওয়া সিদ্ধান্ত। Sundae প্রথম দিন থেকেই ফুড সার্ভিসের জন্য প্রস্তুত: একটি প্যাকেজ, এগারোটি ডোমেইন মডিউল, কোনো BI নির্মাণ নেই।", "chips": ["একটি প্যাকেজ", "কম কাস্টম BI", "বিশ্লেষকের ওপর কম চাপ"] }
+        {
+          "label": "গতি",
+          "headline": "কয়েক দিনে মোতায়েন। প্রথম দিন থেকেই পুনরুদ্ধার।",
+          "body": "আপনার স্ট্যাক দ্রুত যুক্ত করুন। Pulse পুরো শিফট জুড়ে হালনাগাদ হয়, আর Ask Sundae দলগুলোকে রিপোর্ট সারিতে ফেরত পাঠানোর বদলে উৎসসহ উত্তর দেয়।",
+          "chips": [
+            "মোতায়েনে কয়েক দিন",
+            "লাইভ Core রিফ্রেশ",
+            "সেকেন্ডে উত্তর"
+          ]
+        },
+        {
+          "label": "গুণমান",
+          "headline": "একটি অডিটযোগ্য রিকভারি লুপ।",
+          "body": "Sundae: আয়, শ্রম, খরচ ও অতিথিদের জুড়ে একটিই অপারেটিং ভিউ। আপনার টিমের সিদ্ধান্ত, গতি ও অপারেটিং গভীরতার সঙ্গে মানানসই Core প্যাকেজটি নির্বাচন করুন।",
+          "chips": [
+            "প্রথম দিন থেকেই প্রস্তুত",
+            "উৎস-উদ্ধৃত AI",
+            "সমগোত্রীয় বেঞ্চমার্ক"
+          ]
+        },
+        {
+          "label": "খরচ",
+          "headline": "ফুড সার্ভিসকে ঘিরে BI নতুন করে গড়ার চেয়ে কম খরচ।",
+          "body": "Sundae: আয়, শ্রম, খরচ ও অতিথিদের জুড়ে একটিই অপারেটিং ভিউ। আপনার টিমের সিদ্ধান্ত, গতি ও অপারেটিং গভীরতার সঙ্গে মানানসই Core প্যাকেজটি নির্বাচন করুন।",
+          "chips": [
+            "কোনো BI নির্মাণ নয়",
+            "কম কাস্টম BI",
+            "বিশ্লেষকের ওপর কম চাপ"
+          ]
+        }
       ]
     },
     "th": {
@@ -282,9 +714,36 @@ export const generatedLocalCopy = {
       "costMetric": "ไม่ต้องสร้าง BI",
       "qualityMetric": "พร้อมใช้ตั้งแต่วันแรก",
       "vertices": [
-        { "label": "ความเร็ว", "headline": "ติดตั้งภายในไม่กี่วัน กู้คืนตั้งแต่วันแรก", "body": "เชื่อมต่อสแตกของคุณได้อย่างรวดเร็ว Pulse อัปเดตตลอดกะการทำงาน และ Ask Sundae ตอบพร้อมแหล่งอ้างอิงแทนที่จะส่งทีมกลับไปต่อคิวรายงาน", "chips": ["ไม่กี่วันก็ติดตั้ง", "รีเฟรช Core แบบสด", "ตอบได้ในไม่กี่วินาที"] },
-        { "label": "คุณภาพ", "headline": "สร้างมาเพื่อธุรกิจบริการอาหาร กำกับดูแลเพื่อการกู้คืน", "body": "Sundae มาพร้อมโมเดลข้อมูลธุรกิจบริการอาหารที่กำกับดูแลกว่า 500 ชุด เกณฑ์เทียบกับเพื่อนร่วมวงการ และคำตอบ AI ที่อ้างอิงแหล่งที่มา - ทีมจึงไม่ต้องเริ่มจากผืนผ้าใบ BI ที่ว่างเปล่า", "chips": ["500+ โมเดล", "AI อ้างอิงแหล่งที่มา", "เกณฑ์เทียบเพื่อนร่วมวงการ"] },
-        { "label": "ต้นทุน", "headline": "ต้นทุนต่ำกว่าการสร้าง BI ขึ้นใหม่รอบธุรกิจบริการอาหาร", "body": "ค่าลิขสิทธิ์ BI เป็นเพียงต้นทุนที่มองเห็น ค่าใช้จ่ายจริงคือนักวิเคราะห์ การเชื่อมต่อ โมเดลที่ปรับแต่งเอง การดูแลแดชบอร์ด และการตัดสินใจที่ล่าช้า Sundae พร้อมสำหรับธุรกิจบริการอาหารตั้งแต่วันแรก: หนึ่งแพ็กเกจ สิบเอ็ดโมดูลโดเมน ไม่ต้องสร้าง BI", "chips": ["หนึ่งแพ็กเกจ", "BI ปรับแต่งน้อยลง", "ภาระนักวิเคราะห์น้อยลง"] }
+        {
+          "label": "ความเร็ว",
+          "headline": "ติดตั้งภายในไม่กี่วัน กู้คืนตั้งแต่วันแรก",
+          "body": "เชื่อมต่อสแตกของคุณได้อย่างรวดเร็ว Pulse อัปเดตตลอดกะการทำงาน และ Ask Sundae ตอบพร้อมแหล่งอ้างอิงแทนที่จะส่งทีมกลับไปต่อคิวรายงาน",
+          "chips": [
+            "ไม่กี่วันก็ติดตั้ง",
+            "รีเฟรช Core แบบสด",
+            "ตอบได้ในไม่กี่วินาที"
+          ]
+        },
+        {
+          "label": "คุณภาพ",
+          "headline": "วงจรกู้คืนที่ตรวจสอบได้",
+          "body": "Sundae: ภาพปฏิบัติการเดียวครอบคลุมรายได้ แรงงาน ต้นทุน และลูกค้า เลือกแพ็กเกจ Sundae Core ที่ตรงกับการตัดสินใจ ความเร็ว และระดับการปฏิบัติการที่ทีมคุณต้องการ",
+          "chips": [
+            "พร้อมใช้ตั้งแต่วันแรก",
+            "AI อ้างอิงแหล่งที่มา",
+            "เกณฑ์เทียบเพื่อนร่วมวงการ"
+          ]
+        },
+        {
+          "label": "ต้นทุน",
+          "headline": "ต้นทุนต่ำกว่าการสร้าง BI ขึ้นใหม่รอบธุรกิจบริการอาหาร",
+          "body": "Sundae: ภาพปฏิบัติการเดียวครอบคลุมรายได้ แรงงาน ต้นทุน และลูกค้า เลือกแพ็กเกจ Sundae Core ที่ตรงกับการตัดสินใจ ความเร็ว และระดับการปฏิบัติการที่ทีมคุณต้องการ",
+          "chips": [
+            "ไม่ต้องสร้าง BI",
+            "BI ปรับแต่งน้อยลง",
+            "ภาระนักวิเคราะห์น้อยลง"
+          ]
+        }
       ]
     },
     "ms": {
@@ -297,9 +756,36 @@ export const generatedLocalCopy = {
       "costMetric": "Tiada projek BI",
       "qualityMetric": "Sedia dari hari pertama",
       "vertices": [
-        { "label": "Kelajuan", "headline": "Laksana dalam beberapa hari. Pulih sejak hari pertama.", "body": "Sambungkan stack anda dengan pantas. Pulse dikemas kini sepanjang syif, dan Ask Sundae menjawab dengan sumber daripada menghantar pasukan kembali ke barisan laporan.", "chips": ["Hari untuk laksana", "Refresh Core langsung", "Jawapan dalam saat"] },
-        { "label": "Kualiti", "headline": "Dibina untuk perkhidmatan makanan. Ditadbir untuk pemulihan.", "body": "Sundae hadir dengan 500+ model data perkhidmatan makanan yang ditadbir, penanda aras sesama setara, dan jawapan AI dengan sumber - jadi pasukan tidak bermula daripada kanvas BI kosong.", "chips": ["500+ model", "AI dengan sumber", "Penanda aras setara"] },
-        { "label": "Kos", "headline": "Kos lebih rendah berbanding membina semula BI sekitar perkhidmatan makanan.", "body": "Lesen BI hanyalah kos yang kelihatan. Perbelanjaan sebenar ialah penganalisis, integrasi, model tersuai, penyelenggaraan dashboard, dan keputusan yang tertangguh. Sundae sedia untuk perkhidmatan makanan sejak hari pertama: satu pakej, sebelas modul domain, tiada pembinaan BI.", "chips": ["Satu pakej", "Kurang BI tersuai", "Beban penganalisis lebih rendah"] }
+        {
+          "label": "Kelajuan",
+          "headline": "Laksana dalam beberapa hari. Pulih sejak hari pertama.",
+          "body": "Sambungkan stack anda dengan pantas. Pulse dikemas kini sepanjang syif, dan Ask Sundae menjawab dengan sumber daripada menghantar pasukan kembali ke barisan laporan.",
+          "chips": [
+            "Hari untuk laksana",
+            "Refresh Core langsung",
+            "Jawapan dalam saat"
+          ]
+        },
+        {
+          "label": "Kualiti",
+          "headline": "Satu kitar pemulihan boleh diaudit.",
+          "body": "Sundae: Satu gambaran operasi merentasi hasil, tenaga kerja, kos dan tetamu. Pilih pakej Core yang sepadan dengan keputusan, kelajuan dan kedalaman operasi yang pasukan anda perlukan.",
+          "chips": [
+            "Sedia dari hari pertama",
+            "AI dengan sumber",
+            "Penanda aras setara"
+          ]
+        },
+        {
+          "label": "Kos",
+          "headline": "Kos lebih rendah berbanding membina semula BI sekitar perkhidmatan makanan.",
+          "body": "Sundae: Satu gambaran operasi merentasi hasil, tenaga kerja, kos dan tetamu. Pilih pakej Core yang sepadan dengan keputusan, kelajuan dan kedalaman operasi yang pasukan anda perlukan.",
+          "chips": [
+            "Tiada projek BI",
+            "Kurang BI tersuai",
+            "Beban penganalisis lebih rendah"
+          ]
+        }
       ]
     }
   }

@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
-import { getWebsiteMessages, resolveWebsiteLocale, type WebsiteMessages } from "@/lib/i18n";
+import { resolveWebsiteLocale } from "@/lib/i18n";
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = await cookies();
   const locale = resolveWebsiteLocale(cookieStore);
-  const messages = (getWebsiteMessages(locale) as WebsiteMessages).pages.demo;
+  const positioning = getPositioningCopy(locale).critical;
   return {
-    title: messages.metadataTitle,
-    description: messages.metadataDescription,
+    title: positioning.demoMetaTitle,
+    description: positioning.demoMetaDescription,
   };
 }
 

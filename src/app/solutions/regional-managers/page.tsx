@@ -6,6 +6,7 @@ import { SectionProductGallery } from "@/components/home/sections/SectionProduct
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_solutions_regional_managers_page'
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
@@ -20,7 +21,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     problemsDescription: "Too many sites, not enough time, too much data after the fact.",
     challenges: [
       { title: "You can't be in every restaurant at once", description: "By the time the bad shift is over, you find out from the recap - not the floor.", icon: "operators" },
-      { title: "Server performance varies by 30%+", description: "You know the top performers and the laggards. You don't know it in time to pair them up.", icon: "performance" },
+      { title: "Performance varies more than the weekly report shows", description: "You know the top performers and the laggards. You don't know it in time to pair them up.", icon: "performance" },
       { title: "Leakage hides in the noise", description: "Voids, comps, discounts, over-coverage - small per shift, expensive over a month.", icon: "balance" },
       { title: "Every site asks for help at once", description: "Without pacing visibility, you triage on instinct, not on which location is actually slipping.", icon: "support" },
     ],
@@ -56,7 +57,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     problemsDescription: "مواقع كثيرة، وقت قليل، وبيانات تصل بعد فوات الأوان.",
     challenges: [
       { title: "لا يمكنك أن تكون في كل مطعم في آن واحد", description: "حين تنتهي الوردية السيئة، تعرف من التقرير - لا من الموقع.", icon: "operators" },
-      { title: "أداء الموظفين يتفاوت 30%+", description: "تعرف من يتفوق ومن يتأخر. لا تعرفه في الوقت المناسب لإقرانهم.", icon: "performance" },
+      { title: "يتفاوت الأداء أكثر مما يظهره التقرير الأسبوعي", description: "تعرف من يتفوق ومن يتأخر. لا تعرفه في الوقت المناسب لإقرانهم.", icon: "performance" },
       { title: "التسرب يختبئ في الضوضاء", description: "تجاوزات وتعويضات وخصومات وعمالة زائدة - صغيرة بالوردية، باهظة بالشهر.", icon: "balance" },
       { title: "كل المواقع تطلب المساعدة معاً", description: "بلا رؤية للوتيرة، تعتمد الحدس لا الموقع الذي ينزلق فعلاً.", icon: "support" },
     ],
@@ -92,7 +93,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     problemsDescription: "Trop de sites, pas assez de temps, trop de données après coup.",
     challenges: [
       { title: "Vous ne pouvez pas être partout", description: "Le service raté, vous l'apprenez du récap - pas de la salle.", icon: "operators" },
-      { title: "Performance serveurs : 30%+ d'écart", description: "Vous connaissez les meilleurs et les retardataires. Pas à temps pour les associer.", icon: "performance" },
+      { title: "La performance varie plus que ne le montre le rapport hebdomadaire", description: "Vous connaissez les meilleurs et les retardataires. Pas à temps pour les associer.", icon: "performance" },
       { title: "La fuite se cache dans le bruit", description: "Annulations, remises, sur-couverture - petits au service, coûteux au mois.", icon: "balance" },
       { title: "Tous les sites demandent de l'aide", description: "Sans visibilité sur le rythme, vous triez à l'instinct, pas sur qui dévisse vraiment.", icon: "support" },
     ],
@@ -128,7 +129,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     problemsDescription: "Demasiados locales, poco tiempo, datos que llegan tarde.",
     challenges: [
       { title: "No puedes estar en todos a la vez", description: "El turno malo lo descubres por el reporte - no por el local.", icon: "operators" },
-      { title: "Rendimiento de personal varía 30%+", description: "Conoces a los mejores y a los rezagados. No a tiempo para emparejarlos.", icon: "performance" },
+      { title: "El rendimiento varía más de lo que muestra el informe semanal", description: "Conoces a los mejores y a los rezagados. No a tiempo para emparejarlos.", icon: "performance" },
       { title: "La fuga se esconde en el ruido", description: "Anulaciones, comps, descuentos, sobreasignación - pequeños por turno, caros al mes.", icon: "balance" },
       { title: "Todos los locales piden ayuda", description: "Sin visibilidad del ritmo, decides por intuición, no por el que realmente se desliza.", icon: "support" },
     ],
@@ -156,6 +157,14 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 
 export default function RegionalManagersPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const copy = {
+    ...sourceCopy,
+    challenges: sourceCopy.challenges.map((challenge, index) =>
+      index === 1
+        ? { ...challenge, title: getPositioningCopy(locale).critical.regionalVariationTitle }
+        : challenge,
+    ),
+  };
   return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/pulse-leaderboard-dark.png" light="/images/product/2026-fresh/pulse-leaderboard.png" alt="Pulse Portfolio Leaderboard - every outlet ranked live by revenue versus target, labor %, and status" />} gallery={<SectionProductGallery defaultPersona="operations" />} />;
 }

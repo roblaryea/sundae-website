@@ -15,6 +15,7 @@ import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { crewCreamCopy } from "./crewCreamCopy";
 import { balanceSentences } from '@/lib/balanceSentences';
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 /* ─── Structural data (icons / accents stay constant across locales) ─── */
 
@@ -590,7 +591,14 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
 export default function CrewPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const copy = {
+    ...sourceCopy,
+    loopEyebrow: positioning.crewExecutionEyebrow,
+    loopTitle: positioning.crewExecutionTitle,
+    loopDescription: positioning.crewExecutionDescription,
+  };
   const cream = crewCreamCopy[locale as keyof typeof crewCreamCopy] ?? crewCreamCopy.en;
 
   return (

@@ -55,7 +55,7 @@ export default function RecoveryPage() {
               height={1000}
               dark="/images/product/2026-fresh/recovery-brief-dark.png"
               light="/images/product/2026-fresh/recovery-brief.png"
-              alt="The daily profit brief: estimated recoverable value, measured recovery reported separately, the current queue, and the top opportunities each with an owner and a frozen baseline"
+              alt={copy.briefAlt}
             />
           </FadeUp>
         </div>
@@ -108,9 +108,60 @@ export default function RecoveryPage() {
               height={1000}
               dark="/images/product/2026-fresh/recovery-decisions-dark.png"
               light="/images/product/2026-fresh/recovery-decisions.png"
-              alt="The decisions queue ranked by value, each opportunity showing its outlet, status, detector source, frozen baseline and estimated value"
+              alt={copy.decisionsAlt}
             />
           </FadeUp>
+        </div>
+      </section>
+
+      {/* The differentiator is not another detector count. It is the visible
+          health of the loop, evidence and measured value. */}
+      <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 border-y border-[var(--border-default)]">
+        <div className="mx-auto max-w-6xl">
+          <FadeUp className="max-w-3xl">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
+              {copy.proofEyebrow}
+            </p>
+            <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-[var(--text-primary)] text-balance">
+              {copy.proofTitle}
+            </h2>
+            <p className="mt-5 text-sm sm:text-base leading-relaxed text-[var(--text-muted)] max-w-[68ch]">
+              {copy.proofDescription}
+            </p>
+          </FadeUp>
+
+          <div className="mt-12 grid gap-10 lg:grid-cols-[0.9fr_1.3fr] lg:items-start">
+            <StaggerContainer className="border-t border-[var(--border-default)]">
+              {copy.proofItems.map((item) => (
+                <StaggerItem key={item.label}>
+                  <div className="grid gap-2 border-b border-[var(--border-default)] py-6 sm:grid-cols-[8.5rem_1fr] sm:gap-6">
+                    <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[var(--warm-coral)]">
+                      {item.label}
+                    </p>
+                    <div>
+                      <h3 className="text-base font-semibold text-[var(--text-primary)]">
+                        {item.question}
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-[var(--text-muted)]">
+                        {item.answer}
+                      </p>
+                    </div>
+                  </div>
+                </StaggerItem>
+              ))}
+            </StaggerContainer>
+
+            <FadeUp>
+              <ThemedShot
+                framed
+                width={1600}
+                height={1000}
+                dark="/images/product/2026-fresh/recovery-what-works-dark.png"
+                light="/images/product/2026-fresh/recovery-what-works.png"
+                alt={copy.proofAlt}
+              />
+            </FadeUp>
+          </div>
         </div>
       </section>
 

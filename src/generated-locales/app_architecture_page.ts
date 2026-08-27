@@ -4,19 +4,19 @@ export const generatedLocalCopy = {
   "localizedArchitectureCopy": {
     "ar": {
       "badge": "بنية المنصة",
-      "title": "مكدس معمارية من خمس طبقات",
-      "description": "تعرف على كيفية انتقال Sundae من بيانات المطاعم الأولية إلى الذكاء العملي عبر خمس طبقات معمارية.",
+      "title": "حلقة استرداد واحدة قابلة للتدقيق.",
+      "description": "اطّلع كيف تحوّل Sundae بيانات خدمات الطعام الموصولة إلى قرارات محكومة، وإجراءات مملوكة، واسترداد أرباح مقاس عبر خمس طبقات معمارية.",
       "stackTitle": "كومة الاستخبارات Sundae",
       "stackDescription": "خمس طبقات معمارية تعمل على تشغيل ستة منتجات استخباراتية",
       "foundation": "بنيت على أساس متين من الأمن والحوكمة والموثوقية",
       "flowTitle": "من البيانات إلى القرارات",
       "flowDescription": "كيف تصبح البيانات الأولية ذكاءً قابلاً للتنفيذ بالمللي ثانية",
-      "agentsTitle": "محرك الذكاء الاصطناعي متعدد الوكلاء",
-      "agentsDescription": "وكلاء الذكاء الاصطناعي المتخصصون يعملون معًا على الاكتشاف والتنبؤ والسياق.",
+      "agentsTitle": "محرك القرار والقياس",
+      "agentsDescription": "تكتشف الخدمات المتخصصة كل قرار استرداد وتُصنّفه وتُرسله وتقيسه مع الحفاظ على الأدلة المرفقة.",
       "modulesTitle": "وحدات الهندسة المعمارية",
       "modulesDescription": "خمس وحدات أساسية تعمل على تشغيل Ask Sundae Stack",
       "securityTitle": "أمن المؤسسات والامتثال",
-      "securityDescription": "ضوابط الأمان والامتثال مصممة لبيانات تشغيل المطاعم الحساسة.",
+      "securityDescription": "Sundae: شهادة SOC 2 Type II قيد العمل. تظل ضوابط GDPR وCCPA جزءًا من برنامج أمان Sundae.",
       "engineeringTitle": "بنيت مع الهندسة المتميزة",
       "engineeringDescription": "مجموعة إنتاج مصممة لتحقيق الموثوقية والسرعة والنطاق التشغيلي.",
       "ctaTitle": "انظر الهندسة المعمارية في العمل",
@@ -32,9 +32,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "معالجة الذكاء الاصطناعي",
+          "title": "اتخاذ قرارات محكومة",
           "subtitle": "طبقة الذكاء",
-          "description": "الذكاء الاصطناعي متعدد الوكلاء، اكتشاف الأنماط، اكتشاف الشذوذ، الاستدلال",
+          "description": "تحوّل القواعد والنماذج والتعليل المستند إلى المصادر الإشارة إلى قرار يمكن للمشغّل فحصه والتصرّف بناءً عليه.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -70,8 +70,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "معالجة الذكاء الاصطناعي",
-          "description": "يقوم الذكاء الاصطناعي متعدد الوكلاء بتحليل الأنماط ويولد رؤى",
+          "title": "اتخاذ قرارات محكومة",
+          "description": "تحوّل القواعد والنماذج والتعليل المستند إلى المصادر الإشارة إلى قرار يمكن للمشغّل فحصه والتصرّف بناءً عليه.",
           "icon": "intelligence"
         },
         {
@@ -173,15 +173,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "معايير الامتثال",
-          "description": "متوافق مع SOC 2 Type II وGDPR وCCPA",
+          "description": "شهادة SOC 2 Type II قيد العمل. تظل ضوابط GDPR وCCPA جزءًا من برنامج أمان Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 النوع الثاني",
-          "state": "✓ معتمد",
-          "stateClass": "text-green-600"
+          "state": "قيد التنفيذ",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "اللائحة العامة لحماية البيانات",
@@ -260,7 +260,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "متوافق مع SOC 2 النوع II",
+            "برنامج SOC 2 Type II قيد التنفيذ",
             "التشفير من النهاية إلى النهاية",
             "التحكم في الوصول على أساس الدور",
             "عمليات تدقيق أمنية منتظمة"
@@ -270,19 +270,19 @@ export const generatedLocalCopy = {
     },
     "es": {
       "badge": "Arquitectura de plataforma",
-      "title": "Pila de arquitectura de cinco capas",
-      "description": "Vea cómo Sundae pasa de los datos sin procesar de los restaurantes a la inteligencia operativa en cinco capas arquitectónicas.",
+      "title": "Un bucle de recuperación auditable.",
+      "description": "Vea cómo Sundae convierte datos conectados del servicio de alimentos en decisiones gobernadas, acciones asignadas y recuperación de margen medida a través de cinco capas arquitectónicas.",
       "stackTitle": "La pila de inteligencia Sundae",
       "stackDescription": "Cinco capas de arquitectura que impulsan seis productos de inteligencia",
       "foundation": "Construido sobre una base sólida de seguridad, gobernanza y confiabilidad",
       "flowTitle": "De los datos a las decisiones",
       "flowDescription": "Cómo los datos sin procesar se convierten en inteligencia procesable en milisegundos",
-      "agentsTitle": "Motor de IA multiagente",
-      "agentsDescription": "Agentes de IA especializados que trabajan juntos en detección, pronóstico y contexto.",
+      "agentsTitle": "Motor de decisión y medición",
+      "agentsDescription": "Servicios especializados detectan, clasifican, enrutan y miden cada decisión de recuperación mientras mantienen la evidencia adjunta.",
       "modulesTitle": "Módulos de arquitectura",
       "modulesDescription": "Cinco módulos principales que impulsan Ask Sundae Stack",
       "securityTitle": "Seguridad y cumplimiento empresarial",
-      "securityDescription": "Controles de seguridad y cumplimiento diseñados para datos operativos confidenciales de restaurantes.",
+      "securityDescription": "Sundae: La certificación SOC 2 Type II está en curso. Los controles GDPR y CCPA siguen formando parte del programa de seguridad de Sundae.",
       "engineeringTitle": "Construido con ingeniería premium",
       "engineeringDescription": "Una pila de producción diseñada para brindar confiabilidad, velocidad y escala operativa.",
       "ctaTitle": "Vea la arquitectura en acción",
@@ -298,9 +298,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Procesamiento de IA",
+          "title": "Toma de decisiones gobernada",
           "subtitle": "Capa de inteligencia",
-          "description": "IA multiagente, detección de patrones, detección de anomalías, razonamiento",
+          "description": "Reglas, modelos y razonamiento citado por la fuente transforman una señal en una decisión que un operador puede inspeccionar y ejecutar.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -336,8 +336,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Procesamiento de IA",
-          "description": "La IA multiagente analiza patrones y genera información",
+          "title": "Toma de decisiones gobernada",
+          "description": "Reglas, modelos y razonamiento citado por la fuente transforman una señal en una decisión que un operador puede inspeccionar y ejecutar.",
           "icon": "intelligence"
         },
         {
@@ -439,15 +439,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Estándares de cumplimiento",
-          "description": "Cumple con SOC 2 tipo II, GDPR y CCPA",
+          "description": "La certificación SOC 2 Type II está en curso. Los controles GDPR y CCPA siguen formando parte del programa de seguridad de Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Tipo II",
-          "state": "✓ Certificado",
-          "stateClass": "text-green-600"
+          "state": "En curso",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "RGPD",
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Cumple con SOC 2 Tipo II",
+            "Programa SOC 2 Type II en curso",
             "Cifrado de extremo a extremo",
             "Control de acceso basado en roles",
             "Auditorías de seguridad periódicas"
@@ -536,19 +536,19 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "badge": "Architecture de la plateforme",
-      "title": "Pile d'architecture à cinq couches",
-      "description": "Découvrez comment Sundae passe des données brutes des restaurants à l'intelligence opérationnelle à travers cinq couches architecturales.",
+      "title": "Une boucle de récupération auditable.",
+      "description": "Voyez comment Sundae transforme les données connectées de la restauration en décisions gouvernées, actions assignées et récupération de marge mesurée sur cinq couches d'architecture.",
       "stackTitle": "La pile de renseignements Sundae",
       "stackDescription": "Cinq couches d'architecture qui alimentent six produits de renseignement",
       "foundation": "Construit sur une base solide de sécurité, de gouvernance et de fiabilité",
       "flowTitle": "Des données aux décisions",
       "flowDescription": "Comment les données brutes deviennent des renseignements exploitables en quelques millisecondes",
-      "agentsTitle": "Moteur d'IA multi-agents",
-      "agentsDescription": "Agents d'IA spécialisés travaillant ensemble sur la détection, la prévision et le contexte.",
+      "agentsTitle": "Moteur de décision et de mesure",
+      "agentsDescription": "Des services spécialisés détectent, classent, orientent et mesurent chaque décision de récupération en conservant les preuves associées.",
       "modulesTitle": "Modules d'architecture",
       "modulesDescription": "Cinq modules de base qui alimentent la Ask Sundae Stack",
       "securityTitle": "Sécurité et conformité d'entreprise",
-      "securityDescription": "Contrôles de sécurité et de conformité conçus pour les données sensibles d'exploitation des restaurants.",
+      "securityDescription": "Sundae: La certification SOC 2 Type II est en cours. Les contrôles GDPR et CCPA restent partie intégrante du programme de sécurité de Sundae.",
       "engineeringTitle": "Construit avec une ingénierie premium",
       "engineeringDescription": "Une pile de production conçue pour la fiabilité, la vitesse et l’échelle opérationnelle.",
       "ctaTitle": "Voir l'architecture en action",
@@ -564,9 +564,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Traitement de l'IA",
+          "title": "Décision gouvernée",
           "subtitle": "Couche de renseignement",
-          "description": "IA multi-agents, détection de modèles, détection d'anomalies, raisonnement",
+          "description": "Règles, modèles et raisonnement référencé transforment un signal en décision que l'opérateur peut vérifier et appliquer.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -602,8 +602,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Traitement de l'IA",
-          "description": "L'IA multi-agents analyse les modèles et génère des informations",
+          "title": "Décision gouvernée",
+          "description": "Règles, modèles et raisonnement référencé transforment un signal en décision que l'opérateur peut vérifier et appliquer.",
           "icon": "intelligence"
         },
         {
@@ -705,15 +705,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Normes de conformité",
-          "description": "Conforme SOC 2 Type II, RGPD et CCPA",
+          "description": "La certification SOC 2 Type II est en cours. Les contrôles GDPR et CCPA restent partie intégrante du programme de sécurité de Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC2 Type II",
-          "state": "✓ Certifié",
-          "stateClass": "text-green-600"
+          "state": "En cours",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "RGPD",
@@ -792,7 +792,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Conforme SOC 2 Type II",
+            "Programme SOC 2 Type II en cours",
             "Chiffrement de bout en bout",
             "Contrôle d'accès basé sur les rôles",
             "Audits de sécurité réguliers"
@@ -802,19 +802,19 @@ export const generatedLocalCopy = {
     },
     "de": {
       "badge": "Plattformarchitektur",
-      "title": "Fünfschichtiger Architekturstapel",
-      "description": "Sehen Sie, wie Sundae über fünf Architekturebenen hinweg von rohen Restaurantdaten zu funktionierender Intelligenz übergeht.",
+      "title": "Eine prüfbare Recovery‑Schleife.",
+      "description": "Sehen Sie, wie Sundae vernetzte Food‑Service‑Daten in geregelte Entscheidungen, zugeordnete Maßnahmen und messbare Gewinnrückgewinnung über fünf architektonische Schichten verwandelt.",
       "stackTitle": "Der Ask Sundae Stack",
       "stackDescription": "Fünf Architekturebenen, die sechs Intelligence-Produkte unterstützen",
       "foundation": "Aufbauend auf einem soliden Fundament aus Sicherheit, Governance und Zuverlässigkeit",
       "flowTitle": "Von Daten zu Entscheidungen",
       "flowDescription": "Wie aus Rohdaten in Millisekunden verwertbare Informationen werden",
-      "agentsTitle": "Multi-Agent-KI-Engine",
-      "agentsDescription": "Spezialisierte KI-Agenten arbeiten bei Erkennung, Prognose und Kontext zusammen.",
+      "agentsTitle": "Entscheidungs- und Mess‑Engine",
+      "agentsDescription": "Spezialisierte Dienste erkennen, priorisieren, weiterleiten und messen jede Recovery‑Entscheidung — dabei bleibt der Nachweis stets angehängt.",
       "modulesTitle": "Architekturmodule",
       "modulesDescription": "Fünf Kernmodule, die den Ask Sundae Stack antreiben",
       "securityTitle": "Unternehmenssicherheit und Compliance",
-      "securityDescription": "Sicherheits- und Compliance-Kontrollen für sensible Restaurantbetriebsdaten.",
+      "securityDescription": "Sundae: Die SOC 2 Type II‑Zertifizierung läuft. GDPR‑ und CCPA‑Kontrollen bleiben Teil des Sicherheitsprogramms von Sundae.",
       "engineeringTitle": "Gebaut mit erstklassiger Technik",
       "engineeringDescription": "Ein Produktions-Stack, der auf Zuverlässigkeit, Geschwindigkeit und betriebliche Skalierbarkeit ausgelegt ist.",
       "ctaTitle": "Sehen Sie die Architektur in Aktion",
@@ -830,9 +830,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "KI-Verarbeitung",
+          "title": "Geregelte Entscheidungsfindung",
           "subtitle": "Intelligenzschicht",
-          "description": "Multi-Agent-KI, Mustererkennung, Anomalieerkennung, Argumentation",
+          "description": "Regeln, Modelle und quellbezogene Begründungen verwandeln ein Signal in eine Entscheidung, die ein Operator prüfen und umsetzen kann.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -868,8 +868,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "KI-Verarbeitung",
-          "description": "Multiagenten-KI analysiert Muster und generiert Erkenntnisse",
+          "title": "Geregelte Entscheidungsfindung",
+          "description": "Regeln, Modelle und quellbezogene Begründungen verwandeln ein Signal in eine Entscheidung, die ein Operator prüfen und umsetzen kann.",
           "icon": "intelligence"
         },
         {
@@ -971,15 +971,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Compliance-Standards",
-          "description": "SOC 2 Typ II, DSGVO und CCPA-konform",
+          "description": "Die SOC 2 Type II‑Zertifizierung läuft. GDPR‑ und CCPA‑Kontrollen bleiben Teil des Sicherheitsprogramms von Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Typ II",
-          "state": "✓ Zertifiziert",
-          "stateClass": "text-green-600"
+          "state": "In Bearbeitung",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "DSGVO",
@@ -1058,7 +1058,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC 2 Typ II-konform",
+            "SOC 2 Type II‑Programm in Bearbeitung",
             "Ende-zu-Ende-Verschlüsselung",
             "Rollenbasierte Zugriffskontrolle",
             "Regelmäßige Sicherheitsaudits"
@@ -1068,19 +1068,19 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "badge": "Arquitetura de plataforma",
-      "title": "Pilha de arquitetura de cinco camadas",
-      "description": "Veja como o Sundae passa dos dados brutos do restaurante para a inteligência funcional em cinco camadas arquitetônicas.",
+      "title": "Um loop de recuperação auditável.",
+      "description": "Veja como a Sundae transforma dados conectados de restauração em decisões governadas, ações atribuídas e recuperação de lucro medida ao longo de cinco camadas arquitectónicas.",
       "stackTitle": "A pilha de inteligência do Sundae",
       "stackDescription": "Cinco camadas de arquitetura que alimentam seis produtos de inteligência",
       "foundation": "Construído sobre uma base sólida de segurança, governança e confiabilidade",
       "flowTitle": "Dos dados às decisões",
       "flowDescription": "Como os dados brutos se transformam em inteligência acionável em milissegundos",
-      "agentsTitle": "Mecanismo de IA multiagente",
-      "agentsDescription": "Agentes especializados em IA trabalhando juntos na detecção, previsão e contexto.",
+      "agentsTitle": "Motor de decisão e medição",
+      "agentsDescription": "Serviços especializados detectam, classificam, encaminham e medem cada decisão de recuperação, mantendo as evidências anexadas.",
       "modulesTitle": "Módulos de Arquitetura",
       "modulesDescription": "Cinco módulos principais que alimentam o Ask Sundae Stack",
       "securityTitle": "Segurança e conformidade empresarial",
-      "securityDescription": "Controles de segurança e conformidade criados para dados operacionais confidenciais de restaurantes.",
+      "securityDescription": "Sundae: A certificação SOC 2 Type II está em progresso. Os controlos GDPR e CCPA continuam a fazer parte do programa de segurança da Sundae.",
       "engineeringTitle": "Construído com Engenharia Premium",
       "engineeringDescription": "Uma pilha de produção construída para oferecer confiabilidade, velocidade e escala operacional.",
       "ctaTitle": "Veja a arquitetura em ação",
@@ -1096,9 +1096,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Processamento de IA",
+          "title": "Decisão governada",
           "subtitle": "Camada de Inteligência",
-          "description": "IA multiagente, detecção de padrões, detecção de anomalias, raciocínio",
+          "description": "Regras, modelos e raciocínio com fonte citada transformam um sinal numa decisão que um operador pode inspecionar e executar.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -1134,8 +1134,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Processamento de IA",
-          "description": "A IA multiagente analisa padrões e gera insights",
+          "title": "Decisão governada",
+          "description": "Regras, modelos e raciocínio com fonte citada transformam um sinal numa decisão que um operador pode inspecionar e executar.",
           "icon": "intelligence"
         },
         {
@@ -1237,15 +1237,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Padrões de Conformidade",
-          "description": "Compatível com SOC 2 Tipo II, GDPR e CCPA",
+          "description": "A certificação SOC 2 Type II está em progresso. Os controlos GDPR e CCPA continuam a fazer parte do programa de segurança da Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Tipo II",
-          "state": "✓ Certificado",
-          "stateClass": "text-green-600"
+          "state": "Em progresso",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -1324,7 +1324,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Compatível com SOC 2 Tipo II",
+            "Programa SOC 2 Type II em progresso",
             "Criptografia ponta a ponta",
             "Controle de acesso baseado em função",
             "Auditorias regulares de segurança"
@@ -1334,19 +1334,19 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "badge": "Platformarchitectuur",
-      "title": "Architectuurstapel met vijf lagen",
-      "description": "Ontdek hoe Sundae van onbewerkte restaurantgegevens naar werkende intelligentie gaat in vijf architectuurlagen.",
+      "title": "Een auditbare herstelcyclus.",
+      "description": "Bekijk hoe Sundae verbonden foodservicegegevens omzet in gecontroleerde beslissingen, toegewezen acties en gemeten winstherstel over vijf architectuurlagen.",
       "stackTitle": "De Sundae-inlichtingenstapel",
       "stackDescription": "Vijf architectuurlagen die zes intelligentieproducten aandrijven",
       "foundation": "Gebouwd op een solide basis van beveiliging, bestuur en betrouwbaarheid",
       "flowTitle": "Van data naar beslissingen",
       "flowDescription": "Hoe ruwe data in milliseconden bruikbare intelligentie worden",
-      "agentsTitle": "AI-engine met meerdere agenten",
-      "agentsDescription": "Gespecialiseerde AI-agenten die samenwerken op het gebied van detectie, voorspelling en context.",
+      "agentsTitle": "Besluit- en meetmotor",
+      "agentsDescription": "Gespecialiseerde services detecteren, rangschikken, routeren en meten elke herstelbeslissing, terwijl het bewijs eraan gekoppeld blijft.",
       "modulesTitle": "Architectuurmodules",
       "modulesDescription": "Vijf kernmodules die de Ask Sundae Stack aandrijven",
       "securityTitle": "Bedrijfsbeveiliging en compliance",
-      "securityDescription": "Beveiligings- en nalevingscontroles gebouwd voor gevoelige bedrijfsgegevens van restaurants.",
+      "securityDescription": "Sundae: SOC 2 Type II-certificering is in uitvoering. GDPR- en CCPA-controles blijven onderdeel van Sundae's beveiligingsprogramma.",
       "engineeringTitle": "Gebouwd met premium techniek",
       "engineeringDescription": "Een productiestack gebouwd voor betrouwbaarheid, snelheid en operationele schaal.",
       "ctaTitle": "Zie de architectuur in actie",
@@ -1362,9 +1362,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "AI-verwerking",
+          "title": "Gereguleerde besluitvorming",
           "subtitle": "Intelligentielaag",
-          "description": "Multi-agent AI, patroondetectie, detectie van afwijkingen, redenering",
+          "description": "Regels, modellen en brongeciteerde onderbouwing veranderen een signaal in een beslissing die een uitbater kan bekijken en uitvoeren.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -1400,8 +1400,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "AI-verwerking",
-          "description": "Multi-agent AI analyseert patronen en genereert inzichten",
+          "title": "Gereguleerde besluitvorming",
+          "description": "Regels, modellen en brongeciteerde onderbouwing veranderen een signaal in een beslissing die een uitbater kan bekijken en uitvoeren.",
           "icon": "intelligence"
         },
         {
@@ -1503,15 +1503,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Nalevingsnormen",
-          "description": "SOC 2 Type II, AVG- en CCPA-compatibel",
+          "description": "SOC 2 Type II-certificering is in uitvoering. GDPR- en CCPA-controles blijven onderdeel van Sundae's beveiligingsprogramma.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Type II",
-          "state": "✓ Gecertificeerd",
-          "stateClass": "text-green-600"
+          "state": "In uitvoering",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "AVG",
@@ -1590,7 +1590,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC 2 Type II-compatibel",
+            "SOC 2 Type II-programma in uitvoering",
             "End-to-end-codering",
             "Rolgebaseerde toegangscontrole",
             "Regelmatige veiligheidsaudits"
@@ -1600,19 +1600,19 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "badge": "پلیٹ فارم آرکیٹیکچر",
-      "title": "پانچ پرتوں کا آرکیٹیکچر اسٹیک",
-      "description": "دیکھیں کہ Sundae کس طرح ریسٹورنٹ کے خام ڈیٹا سے پانچ آرکیٹیکچرل پرتوں میں کام کرنے والی ذہانت میں منتقل ہوتا ہے۔",
+      "title": "ایک قابلِ جانچ بازیابی لوپ۔",
+      "description": "دیکھیں کہ Sundae منسلک فوڈ سروس ڈیٹا کو پانچ آرکیٹیکچرل سطحوں میں باقائدہ فیصلوں، ذمہ دارانہ کارروائیوں اور ناپی جانے والی منافع کی بازیابی میں کیسے بدلتا ہے۔",
       "stackTitle": "Sundae انٹیلی جنس اسٹیک",
       "stackDescription": "فن تعمیر کی پانچ پرتیں جو چھ انٹیلی جنس مصنوعات کو طاقت دیتی ہیں۔",
       "foundation": "سیکورٹی، گورننس، اور وشوسنییتا کی مضبوط بنیاد پر بنایا گیا ہے۔",
       "flowTitle": "ڈیٹا سے فیصلوں تک",
       "flowDescription": "کس طرح خام ڈیٹا ملی سیکنڈ میں قابل عمل ذہانت بن جاتا ہے۔",
-      "agentsTitle": "ملٹی ایجنٹ AI انجن",
-      "agentsDescription": "پتہ لگانے، پیشین گوئی اور سیاق و سباق پر مل کر کام کرنے والے خصوصی AI ایجنٹس۔",
+      "agentsTitle": "فیصلہ اور پیمائش انجن",
+      "agentsDescription": "ماہر خدمات ہر بازیابی فیصلے کا پتہ لگاتی ہیں، درجہ بندی کرتی ہیں، راستہ طے کرتی ہیں اور ماپتی ہیں جبکہ شواہد منسلک رکھتے ہیں۔",
       "modulesTitle": "آرکیٹیکچر ماڈیولز",
       "modulesDescription": "پانچ بنیادی ماڈیولز جو Ask Sundae Stack کو طاقت دیتے ہیں۔",
       "securityTitle": "انٹرپرائز سیکیورٹی اور تعمیل",
-      "securityDescription": "حساس ریستوراں آپریٹنگ ڈیٹا کے لیے بنائے گئے سیکیورٹی اور تعمیل کنٹرولز۔",
+      "securityDescription": "Sundae: SOC 2 Type II سرٹیفیکیشن جاری ہے۔ GDPR اور CCPA کنٹرولز Sundae کے سیکیورٹی پروگرام کا حصہ رہیں گے۔",
       "engineeringTitle": "پریمیم انجینئرنگ کے ساتھ بنایا گیا۔",
       "engineeringDescription": "وشوسنییتا، رفتار، اور آپریشنل پیمانے کے لیے بنایا گیا پروڈکشن اسٹیک۔",
       "ctaTitle": "آرکیٹیکچر ان ایکشن دیکھیں",
@@ -1628,9 +1628,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "AI پروسیسنگ",
+          "title": "قواعد کے تحت فیصلہ سازی",
           "subtitle": "انٹیلی جنس پرت",
-          "description": "ملٹی ایجنٹ AI، پیٹرن کا پتہ لگانا، بے ضابطگی کا پتہ لگانا، استدلال",
+          "description": "قواعد، ماڈلز اور ماخذ حوالہ جات پر مبنی منطق ایک سگنل کو ایسے فیصلے میں بدل دیتی ہے جسے آپریٹر جانچ اور عمل کر سکے۔",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -1666,8 +1666,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "AI پروسیسنگ",
-          "description": "ملٹی ایجنٹ AI پیٹرن کا تجزیہ کرتا ہے اور بصیرت پیدا کرتا ہے۔",
+          "title": "قواعد کے تحت فیصلہ سازی",
+          "description": "قواعد، ماڈلز اور ماخذ حوالہ جات پر مبنی منطق ایک سگنل کو ایسے فیصلے میں بدل دیتی ہے جسے آپریٹر جانچ اور عمل کر سکے۔",
           "icon": "intelligence"
         },
         {
@@ -1769,15 +1769,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "تعمیل کے معیارات",
-          "description": "SOC 2 قسم II، GDPR، اور CCPA کے مطابق",
+          "description": "SOC 2 Type II سرٹیفیکیشن جاری ہے۔ GDPR اور CCPA کنٹرولز Sundae کے سیکیورٹی پروگرام کا حصہ رہیں گے۔",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 قسم II",
-          "state": "✓ تصدیق شدہ",
-          "stateClass": "text-green-600"
+          "state": "جاری ہے",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "جی ڈی پی آر",
@@ -1856,7 +1856,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC 2 قسم II کے مطابق",
+            "SOC 2 Type II پروگرام جاری ہے",
             "اینڈ ٹو اینڈ انکرپشن",
             "کردار پر مبنی رسائی کنٹرول",
             "باقاعدگی سے سیکورٹی آڈٹ"
@@ -1866,19 +1866,19 @@ export const generatedLocalCopy = {
     },
     "it": {
       "badge": "Architettura della piattaforma",
-      "title": "Stack di architettura a cinque livelli",
-      "description": "Scopri come Sundae passa dai dati grezzi dei ristoranti all'intelligenza operativa attraverso cinque livelli architettonici.",
+      "title": "Un ciclo di recupero verificabile.",
+      "description": "Scopri come Sundae trasforma i dati connessi del food-service in decisioni governate, azioni assegnate e recupero di profitto misurato attraverso cinque livelli architetturali.",
       "stackTitle": "Il Ask Sundae Stack",
       "stackDescription": "Cinque livelli di architettura che alimentano sei prodotti di intelligence",
       "foundation": "Costruito su solide basi di sicurezza, governance e affidabilità",
       "flowTitle": "Dai dati alle decisioni",
       "flowDescription": "Come i dati grezzi diventano intelligenza utilizzabile in pochi millisecondi",
-      "agentsTitle": "Motore AI multi-agente",
-      "agentsDescription": "Agenti IA specializzati che lavorano insieme su rilevamento, previsione e contesto.",
+      "agentsTitle": "Motore di decisione e misurazione",
+      "agentsDescription": "Servizi specializzati rilevano, classificano, instradano e misurano ogni decisione di recupero mantenendo l'evidenza allegata.",
       "modulesTitle": "Moduli di architettura",
       "modulesDescription": "Cinque moduli principali che alimentano il Ask Sundae Stack",
       "securityTitle": "Sicurezza e conformità aziendale",
-      "securityDescription": "Controlli di sicurezza e conformità realizzati per i dati operativi sensibili dei ristoranti.",
+      "securityDescription": "Sundae: La certificazione SOC 2 Type II è in corso. I controlli GDPR e CCPA restano parte del programma di sicurezza di Sundae.",
       "engineeringTitle": "Costruito con ingegneria premium",
       "engineeringDescription": "Uno stack di produzione costruito per garantire affidabilità, velocità e scala operativa.",
       "ctaTitle": "Guarda l'architettura in azione",
@@ -1894,9 +1894,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Elaborazione dell'intelligenza artificiale",
+          "title": "Decisioni governate",
           "subtitle": "Livello di intelligenza",
-          "description": "IA multi-agente, rilevamento di pattern, rilevamento di anomalie, ragionamento",
+          "description": "Regole, modelli e ragionamento citato alla fonte trasformano un segnale in una decisione che l'operatore può ispezionare e mettere in pratica.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -1932,8 +1932,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Elaborazione dell'intelligenza artificiale",
-          "description": "L'intelligenza artificiale multi-agente analizza i modelli e genera approfondimenti",
+          "title": "Decisioni governate",
+          "description": "Regole, modelli e ragionamento citato alla fonte trasformano un segnale in una decisione che l'operatore può ispezionare e mettere in pratica.",
           "icon": "intelligence"
         },
         {
@@ -2035,15 +2035,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standard di conformità",
-          "description": "Conforme a SOC 2 Tipo II, GDPR e CCPA",
+          "description": "La certificazione SOC 2 Type II è in corso. I controlli GDPR e CCPA restano parte del programma di sicurezza di Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC2 Tipo II",
-          "state": "✓ Certificato",
-          "stateClass": "text-green-600"
+          "state": "In corso",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -2122,7 +2122,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Conforme a SOC 2 Tipo II",
+            "Programma SOC 2 Type II in corso",
             "Crittografia end-to-end",
             "Controllo degli accessi basato sui ruoli",
             "Controlli di sicurezza regolari"
@@ -2132,19 +2132,19 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "badge": "प्लेटफार्म वास्तुकला",
-      "title": "फाइव-लेयर आर्किटेक्चर स्टैक",
-      "description": "देखें कि कैसे Sundae कच्चे रेस्तरां डेटा से पांच वास्तुशिल्प परतों में कार्यशील बुद्धिमत्ता की ओर बढ़ता है।",
+      "title": "एक ऑडिट योग्य रिकवरी लूप।",
+      "description": "देखें कि Sundae कैसे जुड़े खाद्य‑सेवा डेटा को पाँच आर्किटेक्चर परतों में शासित निर्णय, जिम्मेदार कार्रवाई और मापा हुआ लाभ वसूली बनाता है।",
       "stackTitle": "Sundae इंटेलिजेंस स्टैक",
       "stackDescription": "पांच वास्तुकला परतें जो छह खुफिया उत्पादों को शक्ति प्रदान करती हैं",
       "foundation": "सुरक्षा, शासन और विश्वसनीयता की ठोस नींव पर निर्मित",
       "flowTitle": "डेटा से निर्णय तक",
       "flowDescription": "कैसे कच्चा डेटा मिलीसेकंड में कार्रवाई योग्य बुद्धिमत्ता बन जाता है",
-      "agentsTitle": "मल्टी-एजेंट एआई इंजन",
-      "agentsDescription": "विशिष्ट एआई एजेंट पता लगाने, पूर्वानुमान और संदर्भ पर एक साथ काम कर रहे हैं।",
+      "agentsTitle": "निर्णय और मापन इंजन",
+      "agentsDescription": "विशेषीकृत सेवाएँ प्रत्येक रिकवरी निर्णय का पता लगाती हैं, रैंक करती हैं, मार्गित करती हैं और मापती हैं, साथ ही प्रमाण संलग्न रखती हैं।",
       "modulesTitle": "वास्तुकला मॉड्यूल",
       "modulesDescription": "पांच मुख्य मॉड्यूल जो Sundae इंटेलिजेंस स्टैक को शक्ति प्रदान करते हैं",
       "securityTitle": "उद्यम सुरक्षा एवं अनुपालन",
-      "securityDescription": "संवेदनशील रेस्तरां संचालन डेटा के लिए सुरक्षा और अनुपालन नियंत्रण बनाए गए।",
+      "securityDescription": "Sundae: SOC 2 Type II प्रमाणन प्रक्रिया में है। GDPR और CCPA नियंत्रण Sundae के सुरक्षा कार्यक्रम का हिस्सा बने हुए हैं।",
       "engineeringTitle": "प्रीमियम इंजीनियरिंग से निर्मित",
       "engineeringDescription": "विश्वसनीयता, गति और परिचालन पैमाने के लिए बनाया गया उत्पादन स्टैक।",
       "ctaTitle": "कार्रवाई में वास्तुकला देखें",
@@ -2160,9 +2160,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "एआई प्रोसेसिंग",
+          "title": "शासित निर्णय‑प्रक्रिया",
           "subtitle": "खुफिया परत",
-          "description": "मल्टी-एजेंट एआई, पैटर्न का पता लगाना, विसंगति का पता लगाना, तर्क करना",
+          "description": "नियम, मॉडल और स्रोत‑उद्धृत तर्क एक संकेत को ऐसे निर्णय में बदलते हैं जिसे ऑपरेटर जांचकर कार्रवाई कर सके।",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -2198,8 +2198,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "एआई प्रोसेसिंग",
-          "description": "मल्टी-एजेंट एआई पैटर्न का विश्लेषण करता है और अंतर्दृष्टि उत्पन्न करता है",
+          "title": "शासित निर्णय‑प्रक्रिया",
+          "description": "नियम, मॉडल और स्रोत‑उद्धृत तर्क एक संकेत को ऐसे निर्णय में बदलते हैं जिसे ऑपरेटर जांचकर कार्रवाई कर सके।",
           "icon": "intelligence"
         },
         {
@@ -2301,15 +2301,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "अनुपालन मानक",
-          "description": "एसओसी 2 टाइप II, जीडीपीआर और सीसीपीए के अनुरूप",
+          "description": "SOC 2 Type II प्रमाणन प्रक्रिया में है। GDPR और CCPA नियंत्रण Sundae के सुरक्षा कार्यक्रम का हिस्सा बने हुए हैं।",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "एसओसी 2 प्रकार II",
-          "state": "✓ प्रमाणित",
-          "stateClass": "text-green-600"
+          "state": "प्रगति में",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "जीडीपीआर",
@@ -2388,7 +2388,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "एसओसी 2 टाइप II के अनुरूप",
+            "SOC 2 Type II कार्यक्रम प्रगति में",
             "एंड-टू-एंड एन्क्रिप्शन",
             "भूमिका-आधारित अभिगम नियंत्रण",
             "नियमित सुरक्षा ऑडिट"
@@ -2398,19 +2398,19 @@ export const generatedLocalCopy = {
     },
     "tr": {
       "badge": "Platform Mimarisi",
-      "title": "Beş Katmanlı Mimari Yığını",
-      "description": "Sundae'nin ham restoran verilerinden beş mimari katmanda çalışma zekasına nasıl geçiş yaptığını görün.",
+      "title": "Denetlenebilir tek bir geri kazanım döngüsü.",
+      "description": "Sundae'nin bağlı yiyecek-hizmeti verilerini beş mimari katmanda yönetilen kararlara, sahiplenilmiş eylemlere ve ölçülen kâr geri kazanımına nasıl dönüştürdüğünü görün.",
       "stackTitle": "Sundae İstihbarat Yığını",
       "stackDescription": "Altı zeka ürününe güç veren beş mimari katman",
       "foundation": "Sağlam bir güvenlik, yönetim ve güvenilirlik temeli üzerine kurulmuştur",
       "flowTitle": "Verilerden Kararlara",
       "flowDescription": "Ham veriler milisaniyeler içinde nasıl eyleme dönüştürülebilir zekaya dönüşür?",
-      "agentsTitle": "Çok Aracılı Yapay Zeka Motoru",
-      "agentsDescription": "Tespit, tahmin ve bağlam üzerinde birlikte çalışan uzman yapay zeka aracıları.",
+      "agentsTitle": "Karar ve ölçüm motoru",
+      "agentsDescription": "Özelleşmiş hizmetler her geri kazanım kararını tespit eder, sıraya koyar, yönlendirir ve kanıtı ekli tutarak ölçer.",
       "modulesTitle": "Mimari Modüller",
       "modulesDescription": "Ask Sundae Stack'a güç veren beş temel modül",
       "securityTitle": "Kurumsal Güvenlik ve Uyumluluk",
-      "securityDescription": "Hassas restoran işletme verileri için oluşturulmuş güvenlik ve uyumluluk kontrolleri.",
+      "securityDescription": "Sundae: SOC 2 Type II sertifikasyonu devam ediyor. GDPR ve CCPA kontrolleri Sundae'nin güvenlik programının parçası olmaya devam ediyor.",
       "engineeringTitle": "Üstün Mühendislik ile Üretildi",
       "engineeringDescription": "Güvenilirlik, hız ve operasyonel ölçek için oluşturulmuş bir üretim yığını.",
       "ctaTitle": "Mimariyi Çalışırken Görün",
@@ -2426,9 +2426,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Yapay Zeka İşleme",
+          "title": "Yönetilen karar alma",
           "subtitle": "Zeka Katmanı",
-          "description": "Çok aracılı yapay zeka, model tespiti, anormallik tespiti, muhakeme",
+          "description": "Kurallar, modeller ve kaynağa dayalı gerekçelendirme bir sinyali operatörün inceleyip harekete geçebileceği bir karara dönüştürür.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -2464,8 +2464,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Yapay Zeka İşleme",
-          "description": "Çok aracılı yapay zeka, kalıpları analiz eder ve içgörüler üretir",
+          "title": "Yönetilen karar alma",
+          "description": "Kurallar, modeller ve kaynağa dayalı gerekçelendirme bir sinyali operatörün inceleyip harekete geçebileceği bir karara dönüştürür.",
           "icon": "intelligence"
         },
         {
@@ -2567,15 +2567,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Uyumluluk Standartları",
-          "description": "SOC 2 Tip II, GDPR ve CCPA uyumlu",
+          "description": "SOC 2 Type II sertifikasyonu devam ediyor. GDPR ve CCPA kontrolleri Sundae'nin güvenlik programının parçası olmaya devam ediyor.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Tip II",
-          "state": "✓ Sertifikalı",
-          "stateClass": "text-green-600"
+          "state": "Devam ediyor",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -2654,7 +2654,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC 2 Tip II uyumlu",
+            "SOC 2 Type II programı devam ediyor",
             "Uçtan uca şifreleme",
             "Rol tabanlı erişim kontrolü",
             "Düzenli güvenlik denetimleri"
@@ -2664,19 +2664,19 @@ export const generatedLocalCopy = {
     },
     "pl": {
       "badge": "Architektura platformy",
-      "title": "Stos architektury pięciowarstwowej",
-      "description": "Zobacz, jak Sundae przechodzi od surowych danych o restauracjach do roboczej inteligencji w pięciu warstwach architektonicznych.",
+      "title": "Jedna audytowalna pętla odzysku.",
+      "description": "Zobacz, jak Sundae zamienia połączone dane z gastronomii w zarządzane decyzje, przypisane działania i mierzone odzyski w pięciu warstwach architektury.",
       "stackTitle": "Stos inteligencji Sundae",
       "stackDescription": "Pięć warstw architektury obsługujących sześć inteligentnych produktów",
       "foundation": "Zbudowany na solidnym fundamencie bezpieczeństwa, zarządzania i niezawodności",
       "flowTitle": "Od danych do decyzji",
       "flowDescription": "Jak surowe dane w ciągu milisekund stają się praktyczną inteligencją",
-      "agentsTitle": "Wieloagentowy silnik AI",
-      "agentsDescription": "Wyspecjalizowani agenci sztucznej inteligencji współpracujący w zakresie wykrywania, prognozowania i kontekstu.",
+      "agentsTitle": "Silnik decyzji i pomiaru",
+      "agentsDescription": "Specjalne usługi wykrywają, klasyfikują, kierują i mierzą każdą decyzję odzyskową, zachowując przy tym dowody w załączniku.",
       "modulesTitle": "Moduły architektury",
       "modulesDescription": "Pięć podstawowych modułów zasilających stos Ask Sundae",
       "securityTitle": "Bezpieczeństwo i zgodność w przedsiębiorstwie",
-      "securityDescription": "Kontrole bezpieczeństwa i zgodności stworzone z myślą o wrażliwych danych operacyjnych restauracji.",
+      "securityDescription": "Sundae: SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
       "engineeringTitle": "Zbudowany w oparciu o inżynierię Premium",
       "engineeringDescription": "Stos produkcyjny zbudowany z myślą o niezawodności, szybkości i skali operacyjnej.",
       "ctaTitle": "Zobacz architekturę w działaniu",
@@ -2692,9 +2692,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Przetwarzanie AI",
+          "title": "Zarządzane podejmowanie decyzji",
           "subtitle": "Warstwa inteligencji",
-          "description": "Wieloagentowa sztuczna inteligencja, wykrywanie wzorców, wykrywanie anomalii, wnioskowanie",
+          "description": "Reguły, modele i cytowane źródła powodują, że sygnał staje się decyzją, którą operator może sprawdzić i wykonać.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -2730,8 +2730,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Przetwarzanie AI",
-          "description": "Wieloagentowa sztuczna inteligencja analizuje wzorce i generuje spostrzeżenia",
+          "title": "Zarządzane podejmowanie decyzji",
+          "description": "Reguły, modele i cytowane źródła powodują, że sygnał staje się decyzją, którą operator może sprawdzić i wykonać.",
           "icon": "intelligence"
         },
         {
@@ -2833,15 +2833,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standardy zgodności",
-          "description": "Zgodność z SOC 2 typu II, RODO i CCPA",
+          "description": "SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Typ II",
-          "state": "✓ Certyfikowany",
-          "stateClass": "text-green-600"
+          "state": "W toku",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "RODO",
@@ -2920,7 +2920,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Zgodny z SOC 2 typu II",
+            "Program SOC 2 Type II w toku",
             "Szyfrowanie typu end-to-end",
             "Kontrola dostępu oparta na rolach",
             "Regularne audyty bezpieczeństwa"
@@ -2930,19 +2930,19 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "badge": "平台架构",
-      "title": "五层架构堆栈",
-      "description": "了解 Sundae 如何从原始餐厅数据转变为跨五个架构层的工作智能。",
+      "title": "一个可审计的恢复闭环。",
+      "description": "查看 Sundae 如何将互联的餐饮服务数据，透过五个架构层级，转化为受治理的决策、被认领的行动和可衡量的利润回收。",
       "stackTitle": "Sundae智能堆栈",
       "stackDescription": "五个架构层为六种智能产品提供支持",
       "foundation": "建立在安全性、治理和可靠性的坚实基础之上",
       "flowTitle": "从数据到决策",
       "flowDescription": "原始数据如何在几毫秒内变成可操作的情报",
-      "agentsTitle": "多智能体人工智能引擎",
-      "agentsDescription": "专门的人工智能代理在检测、预测和背景方面协同工作。",
+      "agentsTitle": "决策与测量引擎",
+      "agentsDescription": "专用服务检测、排序、路由并测量每项恢复决策，同时将证据附留在决策之上。",
       "modulesTitle": "架构模块",
       "modulesDescription": "为Sundae智能堆栈提供动力的五个核心模块",
       "securityTitle": "企业安全与合规性",
-      "securityDescription": "为敏感的餐厅运营数据构建的安全和合规控制。",
+      "securityDescription": "Sundae: SOC 2 Type II 认证正在进行中。GDPR 和 CCPA 控制仍是 Sundae 安全计划的一部分。",
       "engineeringTitle": "采用优质工程建造",
       "engineeringDescription": "专为可靠性、速度和运营规模而构建的生产堆栈。",
       "ctaTitle": "查看实际架构",
@@ -2958,9 +2958,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "人工智能处理",
+          "title": "治理型决策",
           "subtitle": "智能层",
-          "description": "多智能体人工智能、模式检测、异常检测、推理",
+          "description": "规则、模型与标注来源的推理将信号转化为运营者可检查并执行的决策。",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -2996,8 +2996,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "人工智能处理",
-          "description": "多智能体人工智能分析模式并生成见解",
+          "title": "治理型决策",
+          "description": "规则、模型与标注来源的推理将信号转化为运营者可检查并执行的决策。",
           "icon": "intelligence"
         },
         {
@@ -3099,15 +3099,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "合规标准",
-          "description": "符合 SOC 2 Type II、GDPR 和 CCPA 标准",
+          "description": "SOC 2 Type II 认证正在进行中。GDPR 和 CCPA 控制仍是 Sundae 安全计划的一部分。",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 类型 II",
-          "state": "✓ 认证",
-          "stateClass": "text-green-600"
+          "state": "进行中",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -3186,7 +3186,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "符合 SOC 2 Type II 标准",
+            "SOC 2 Type II 计划进行中",
             "端到端加密",
             "基于角色的访问控制",
             "定期安全审核"
@@ -3196,19 +3196,19 @@ export const generatedLocalCopy = {
     },
     "ko": {
       "badge": "플랫폼 아키텍처",
-      "title": "5계층 아키텍처 스택",
-      "description": "Sundae가 원시 레스토랑 데이터에서 5개 아키텍처 계층에 걸쳐 작업 인텔리전스로 어떻게 이동하는지 알아보세요.",
+      "title": "감사 가능한 단일 복구 루프.",
+      "description": "Sundae가 연결된 식음료 데이터를 다섯 개 아키텍처 레이어에서 거버넌스된 결정, 책임 있는 실행, 측정된 이익 회복으로 전환하는 방식을 확인하세요.",
       "stackTitle": "The Ask Sundae Stack",
       "stackDescription": "6가지 인텔리전스 제품을 구동하는 5가지 아키텍처 계층",
       "foundation": "보안, 거버넌스, 안정성의 견고한 기반 위에 구축됨",
       "flowTitle": "데이터에서 의사결정까지",
       "flowDescription": "원시 데이터가 밀리초 안에 실행 가능한 인텔리전스가 되는 방법",
-      "agentsTitle": "다중 에이전트 AI 엔진",
-      "agentsDescription": "감지, 예측, 상황 파악을 위해 협력하는 전문 AI 에이전트입니다.",
+      "agentsTitle": "결정 및 측정 엔진",
+      "agentsDescription": "전문화된 서비스가 각 복구 결정을 탐지·우선순위화·전달하고 증거를 연결한 채 측정합니다.",
       "modulesTitle": "아키텍처 모듈",
       "modulesDescription": "Ask Sundae Stack을 구동하는 5개의 핵심 모듈",
       "securityTitle": "기업 보안 및 규정 준수",
-      "securityDescription": "민감한 레스토랑 운영 데이터를 위해 구축된 보안 및 규정 준수 제어 기능입니다.",
+      "securityDescription": "Sundae: SOC 2 Type II 인증 진행 중입니다. GDPR 및 CCPA 통제는 Sundae의 보안 프로그램의 일부로 유지됩니다.",
       "engineeringTitle": "프리미엄 엔지니어링으로 제작",
       "engineeringDescription": "신뢰성, 속도 및 운영 규모를 위해 구축된 생산 스택입니다.",
       "ctaTitle": "실제 아키텍처 보기",
@@ -3224,9 +3224,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "AI 처리",
+          "title": "거버넌스된 의사결정",
           "subtitle": "인텔리전스 레이어",
-          "description": "멀티에이전트 AI, 패턴탐지, 이상탐지, 추론",
+          "description": "규칙, 모델, 출처 기반 추론이 신호를 운영자가 검토하고 실행할 수 있는 결정으로 전환합니다.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -3262,8 +3262,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "AI 처리",
-          "description": "멀티 에이전트 AI가 패턴을 분석하고 통찰력을 생성합니다.",
+          "title": "거버넌스된 의사결정",
+          "description": "규칙, 모델, 출처 기반 추론이 신호를 운영자가 검토하고 실행할 수 있는 결정으로 전환합니다.",
           "icon": "intelligence"
         },
         {
@@ -3365,15 +3365,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "규정 준수 표준",
-          "description": "SOC 2 Type II, GDPR 및 CCPA 준수",
+          "description": "SOC 2 Type II 인증 진행 중입니다. GDPR 및 CCPA 통제는 Sundae의 보안 프로그램의 일부로 유지됩니다.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 유형 II",
-          "state": "✓ 인증됨",
-          "stateClass": "text-green-600"
+          "state": "진행 중",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -3452,7 +3452,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC 2 유형 II 준수",
+            "SOC 2 Type II 프로그램 진행 중",
             "엔드투엔드 암호화",
             "역할 기반 액세스 제어",
             "정기 보안 감사"
@@ -3462,19 +3462,19 @@ export const generatedLocalCopy = {
     },
     "ro": {
       "badge": "Arhitectura platformei",
-      "title": "Stivă de arhitectură cu cinci straturi",
-      "description": "Vedeți cum Sundae trece de la datele brute ale restaurantelor la inteligența de lucru pe cinci straturi arhitecturale.",
+      "title": "Un ciclu de recuperare auditabil.",
+      "description": "Vezi cum Sundae transformă datele conectate din serviciile de alimentație în decizii guvernate, acțiuni asumate și recuperare de profit măsurată, prin cinci straturi arhitecturale.",
       "stackTitle": "The Ask Sundae Stack",
       "stackDescription": "Cinci straturi de arhitectură care alimentează șase produse de inteligență",
       "foundation": "Construit pe o bază solidă de securitate, guvernanță și fiabilitate",
       "flowTitle": "De la date la decizii",
       "flowDescription": "Cum datele brute devin inteligență acționabilă în milisecunde",
-      "agentsTitle": "Motor AI multi-agent",
-      "agentsDescription": "Agenți AI specializați care lucrează împreună la detectare, prognoză și context.",
+      "agentsTitle": "Motor de decizie și măsurare",
+      "agentsDescription": "Servicii specializate detectează, clasifică, redirecționează și măsoară fiecare decizie de recuperare, păstrând probele atașate.",
       "modulesTitle": "Module de arhitectură",
       "modulesDescription": "Cinci module de bază care alimentează Ask Sundae Stack",
       "securityTitle": "Securitatea și conformitatea întreprinderilor",
-      "securityDescription": "Controale de securitate și conformitate create pentru datele sensibile de operare a restaurantelor.",
+      "securityDescription": "Sundae: SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
       "engineeringTitle": "Construit cu Premium Engineering",
       "engineeringDescription": "O stivă de producție construită pentru fiabilitate, viteză și scară operațională.",
       "ctaTitle": "Vedeți Arhitectura în acțiune",
@@ -3490,9 +3490,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Procesare AI",
+          "title": "Guvernanța deciziilor",
           "subtitle": "Stratul de inteligență",
-          "description": "AI multi-agent, detectarea modelelor, detectarea anomaliilor, raționament",
+          "description": "Reguli, modele și raționamente cu referință la sursă transformă un semnal într-o decizie pe care operatorul o poate verifica și executa.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -3528,8 +3528,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Procesare AI",
-          "description": "AI multi-agent analizează tiparele și generează informații",
+          "title": "Guvernanța deciziilor",
+          "description": "Reguli, modele și raționamente cu referință la sursă transformă un semnal într-o decizie pe care operatorul o poate verifica și executa.",
           "icon": "intelligence"
         },
         {
@@ -3631,15 +3631,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standarde de conformitate",
-          "description": "Conform SOC 2 Tip II, GDPR și CCPA",
+          "description": "SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Tip II",
-          "state": "✓ Certificat",
-          "stateClass": "text-green-600"
+          "state": "În curs",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -3718,7 +3718,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Conform SOC 2 Tip II",
+            "Program SOC 2 Type II în curs",
             "Criptare end-to-end",
             "Controlul accesului bazat pe roluri",
             "Audituri regulate de securitate"
@@ -3728,19 +3728,19 @@ export const generatedLocalCopy = {
     },
     "ja": {
       "badge": "プラットフォームのアーキテクチャ",
-      "title": "5層アーキテクチャスタック",
-      "description": "Sundae がレストランの生のデータから 5 つのアーキテクチャ層にわたる実用的なインテリジェンスにどのように移行するかをご覧ください。",
+      "title": "監査可能な単一の回復ループ。",
+      "description": "Sundaeが接続されたフードサービスデータを、5つのアーキテクチャ層で管理された判断、担当アクション、測定された利益回復に変える方法を確認してください。",
       "stackTitle": "Sundae インテリジェンス スタック",
       "stackDescription": "6 つのインテリジェンス製品を強化する 5 つのアーキテクチャ層",
       "foundation": "セキュリティ、ガバナンス、信頼性の強固な基盤の上に構築",
       "flowTitle": "データから意思決定まで",
       "flowDescription": "生データがミリ秒以内に実用的なインテリジェンスになる仕組み",
-      "agentsTitle": "マルチエージェント AI エンジン",
-      "agentsDescription": "専門の AI エージェントが連携して検出、予測、コンテキストを実行します。",
+      "agentsTitle": "判断と測定のエンジン",
+      "agentsDescription": "専用サービスが各回復判断を検出、ランク付け、ルーティング、測定し、証拠を結び付けたまま管理します。",
       "modulesTitle": "アーキテクチャモジュール",
       "modulesDescription": "Sundae インテリジェンス スタックを強化する 5 つのコア モジュール",
       "securityTitle": "エンタープライズセキュリティとコンプライアンス",
-      "securityDescription": "機密性の高いレストラン運営データ向けに構築されたセキュリティとコンプライアンスの管理。",
+      "securityDescription": "Sundae: SOC 2 Type IIの認証は進行中です。GDPRおよびCCPAのコントロールはSundaeのセキュリティプログラムの一部として維持されています。",
       "engineeringTitle": "プレミアムエンジニアリングで構築",
       "engineeringDescription": "信頼性、速度、運用規模を考慮して構築された実稼働スタック。",
       "ctaTitle": "実際のアーキテクチャをご覧ください",
@@ -3756,9 +3756,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "AI処理",
+          "title": "ガバナンスされた意思決定",
           "subtitle": "インテリジェンス層",
-          "description": "マルチエージェントAI、パターン検出、異常検出、推論",
+          "description": "ルール、モデル、出典を示した理由付けにより、信号をオペレーターが検査し実行できる判断に変えます。",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -3794,8 +3794,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "AI処理",
-          "description": "マルチエージェント AI がパターンを分析し、洞察を生成します",
+          "title": "ガバナンスされた意思決定",
+          "description": "ルール、モデル、出典を示した理由付けにより、信号をオペレーターが検査し実行できる判断に変えます。",
           "icon": "intelligence"
         },
         {
@@ -3897,15 +3897,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "準拠基準",
-          "description": "SOC 2 Type II、GDPR、および CCPA 準拠",
+          "description": "SOC 2 Type IIの認証は進行中です。GDPRおよびCCPAのコントロールはSundaeのセキュリティプログラムの一部として維持されています。",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 タイプ II",
-          "state": "✓ 認定済み",
-          "stateClass": "text-green-600"
+          "state": "進行中",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -3984,7 +3984,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC2タイプII準拠",
+            "SOC 2 Type IIプログラム進行中",
             "エンドツーエンドの暗号化",
             "役割ベースのアクセス制御",
             "定期的なセキュリティ監査"
@@ -3994,19 +3994,19 @@ export const generatedLocalCopy = {
     },
     "id": {
       "badge": "Arsitektur Platform",
-      "title": "Tumpukan Arsitektur Lima Lapisan",
-      "description": "Lihat bagaimana Sundae beralih dari data mentah restoran ke kecerdasan kerja di lima lapisan arsitektur.",
+      "title": "Satu loop pemulihan yang dapat diaudit.",
+      "description": "Lihat bagaimana Sundae mengubah data food-service yang terhubung menjadi keputusan yang diatur, tindakan yang dimiliki, dan pemulihan laba yang terukur di lima lapisan arsitektur.",
       "stackTitle": "Tumpukan Intelijen Sundae",
       "stackDescription": "Lima lapisan arsitektur yang mendukung enam produk intelijen",
       "foundation": "Dibangun di atas dasar keamanan, tata kelola, dan keandalan yang kuat",
       "flowTitle": "Dari Data hingga Keputusan",
       "flowDescription": "Bagaimana data mentah menjadi intelijen yang dapat ditindaklanjuti dalam hitungan milidetik",
-      "agentsTitle": "Mesin AI Multi-Agen",
-      "agentsDescription": "Agen AI khusus bekerja sama dalam deteksi, perkiraan, dan konteks.",
+      "agentsTitle": "Mesin pengambilan keputusan dan pengukuran",
+      "agentsDescription": "Layanan khusus mendeteksi, memberi peringkat, mengarahkan, dan mengukur setiap keputusan pemulihan sambil menjaga bukti tetap terlampir.",
       "modulesTitle": "Modul Arsitektur",
       "modulesDescription": "Lima modul inti yang mendukung Ask Sundae Stack",
       "securityTitle": "Keamanan & Kepatuhan Perusahaan",
-      "securityDescription": "Kontrol keamanan dan kepatuhan dibuat untuk data operasional restoran yang sensitif.",
+      "securityDescription": "Sundae: Sertifikasi SOC 2 Type II sedang dalam proses. Kontrol GDPR dan CCPA tetap menjadi bagian dari program keamanan Sundae.",
       "engineeringTitle": "Dibangun dengan Rekayasa Premium",
       "engineeringDescription": "Tumpukan produksi dibuat untuk keandalan, kecepatan, dan skala operasional.",
       "ctaTitle": "Lihat Arsitektur dalam Aksi",
@@ -4022,9 +4022,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Pemrosesan AI",
+          "title": "Pengambilan keputusan yang diatur",
           "subtitle": "Lapisan Intelijen",
-          "description": "AI multi-agen, deteksi pola, deteksi anomali, penalaran",
+          "description": "Aturan, model, dan alasan yang mengutip sumber mengubah sinyal menjadi keputusan yang dapat diperiksa dan ditindaklanjuti oleh operator.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -4060,8 +4060,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Pemrosesan AI",
-          "description": "AI multi-agen menganalisis pola dan menghasilkan wawasan",
+          "title": "Pengambilan keputusan yang diatur",
+          "description": "Aturan, model, dan alasan yang mengutip sumber mengubah sinyal menjadi keputusan yang dapat diperiksa dan ditindaklanjuti oleh operator.",
           "icon": "intelligence"
         },
         {
@@ -4163,15 +4163,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Standar Kepatuhan",
-          "description": "Sesuai SOC 2 Tipe II, GDPR, dan CCPA",
+          "description": "Sertifikasi SOC 2 Type II sedang dalam proses. Kontrol GDPR dan CCPA tetap menjadi bagian dari program keamanan Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Tipe II",
-          "state": "✓ Bersertifikat",
-          "stateClass": "text-green-600"
+          "state": "In progress",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -4250,7 +4250,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Sesuai SOC 2 Tipe II",
+            "Program SOC 2 Type II sedang berlangsung",
             "Enkripsi ujung ke ujung",
             "Kontrol akses berbasis peran",
             "Audit keamanan rutin"
@@ -4260,19 +4260,19 @@ export const generatedLocalCopy = {
     },
     "vi": {
       "badge": "Kiến trúc nền tảng",
-      "title": "Ngăn xếp kiến trúc năm lớp",
-      "description": "Xem cách Sundae chuyển từ dữ liệu nhà hàng thô sang hoạt động thông minh qua năm lớp kiến trúc.",
+      "title": "Một vòng phục hồi có thể kiểm toán.",
+      "description": "Xem cách Sundae biến dữ liệu dịch vụ ăn uống kết nối thành quyết định được quản trị, hành động có chủ sở hữu và phục hồi lợi nhuận được đo lường qua năm tầng kiến trúc.",
       "stackTitle": "Ngăn xếp thông minh Sundae",
       "stackDescription": "Năm lớp kiến trúc hỗ trợ sáu sản phẩm thông minh",
       "foundation": "Được xây dựng trên nền tảng vững chắc về bảo mật, quản trị và độ tin cậy",
       "flowTitle": "Từ dữ liệu đến quyết định",
       "flowDescription": "Cách dữ liệu thô trở thành thông tin hữu ích trong mili giây",
-      "agentsTitle": "Công cụ AI đa tác nhân",
-      "agentsDescription": "Các tác nhân AI chuyên biệt làm việc cùng nhau để phát hiện, dự báo và bối cảnh.",
+      "agentsTitle": "Động cơ quyết định và đo lường",
+      "agentsDescription": "Các dịch vụ chuyên biệt phát hiện, xếp hạng, phân luồng và đo lường từng quyết định phục hồi trong khi giữ nguyên bằng chứng kèm theo.",
       "modulesTitle": "Mô-đun kiến trúc",
       "modulesDescription": "Năm mô-đun cốt lõi hỗ trợ Ask Sundae Stack",
       "securityTitle": "Bảo mật & Tuân thủ Doanh nghiệp",
-      "securityDescription": "Kiểm soát bảo mật và tuân thủ được xây dựng cho dữ liệu vận hành nhà hàng nhạy cảm.",
+      "securityDescription": "Sundae: Chứng nhận SOC 2 Type II đang được thực hiện. Các biện pháp kiểm soát GDPR và CCPA vẫn là phần của chương trình bảo mật của Sundae.",
       "engineeringTitle": "Được xây dựng với kỹ thuật cao cấp",
       "engineeringDescription": "Một ngăn xếp sản xuất được xây dựng để đảm bảo độ tin cậy, tốc độ và quy mô hoạt động.",
       "ctaTitle": "Xem Kiến trúc đang hoạt động",
@@ -4288,9 +4288,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Xử lý AI",
+          "title": "Quyết định được quản trị",
           "subtitle": "Lớp thông minh",
-          "description": "AI đa tác nhân, phát hiện mẫu, phát hiện bất thường, lý luận",
+          "description": "Luật, mô hình và lý giải có nguồn dẫn biến một tín hiệu thành quyết định mà người vận hành có thể kiểm tra và thực thi.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -4326,8 +4326,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Xử lý AI",
-          "description": "AI đa tác nhân phân tích các mẫu và tạo ra thông tin chuyên sâu",
+          "title": "Quyết định được quản trị",
+          "description": "Luật, mô hình và lý giải có nguồn dẫn biến một tín hiệu thành quyết định mà người vận hành có thể kiểm tra và thực thi.",
           "icon": "intelligence"
         },
         {
@@ -4429,15 +4429,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tiêu chuẩn tuân thủ",
-          "description": "Tuân thủ SOC 2 Loại II, GDPR và CCPA",
+          "description": "Chứng nhận SOC 2 Type II đang được thực hiện. Các biện pháp kiểm soát GDPR và CCPA vẫn là phần của chương trình bảo mật của Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Loại II",
-          "state": "✓ Được chứng nhận",
-          "stateClass": "text-green-600"
+          "state": "Đang tiến hành",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -4516,7 +4516,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "Tuân thủ SOC 2 Loại II",
+            "Chương trình SOC 2 Type II đang được thực hiện",
             "Mã hóa đầu cuối",
             "Kiểm soát truy cập dựa trên vai trò",
             "Kiểm tra an ninh thường xuyên"
@@ -4526,19 +4526,19 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "badge": "প্ল্যাটফর্ম আর্কিটেকচার",
-      "title": "পাঁচ-স্তর আর্কিটেকচার স্ট্যাক",
-      "description": "দেখুন কিভাবে Sundae কাঁচা রেস্তোরাঁর ডেটা থেকে পাঁচটি আর্কিটেকচারাল স্তর জুড়ে কাজের বুদ্ধিমত্তার দিকে চলে যায়৷",
+      "title": "একটি অডিটযোগ্য রিকভারি লুপ।",
+      "description": "দেখুন কীভাবে Sundae সংযুক্ত ফুড‑সার্ভিস ডেটাকে পাঁচটি আর্কিটেকচারাল স্তরের মাধ্যমে শাসিত সিদ্ধান্ত, দায়ী কর্ম ও পরিমাপযোগ্য লাভ পুনরুদ্ধারে পরিণত করে।",
       "stackTitle": "Sundae ইন্টেলিজেন্স স্ট্যাক",
       "stackDescription": "পাঁচটি স্থাপত্য স্তর যা ছয়টি বুদ্ধিমত্তা পণ্যকে শক্তি দেয়",
       "foundation": "নিরাপত্তা, শাসন এবং নির্ভরযোগ্যতার একটি শক্ত ভিত্তির উপর নির্মিত",
       "flowTitle": "ডেটা থেকে সিদ্ধান্ত পর্যন্ত",
       "flowDescription": "কিভাবে কাঁচা তথ্য মিলিসেকেন্ডে কর্মযোগ্য বুদ্ধিমত্তা হয়ে ওঠে",
-      "agentsTitle": "মাল্টি-এজেন্ট এআই ইঞ্জিন",
-      "agentsDescription": "বিশেষায়িত AI এজেন্টরা সনাক্তকরণ, পূর্বাভাস এবং প্রসঙ্গে একসাথে কাজ করে।",
+      "agentsTitle": "সিদ্ধান্ত ও পরিমাপ ইঞ্জিন",
+      "agentsDescription": "বিশেষায়িত সার্ভিসগুলো প্রতিটি পুনরুদ্ধার সিদ্ধান্তকে সনাক্ত, শ্রেণিবদ্ধ, রুট এবং পরিমাপ করে, প্রমাণ সংযুক্ত রেখেই।",
       "modulesTitle": "আর্কিটেকচার মডিউল",
       "modulesDescription": "পাঁচটি মূল মডিউল যা Sundae ইন্টেলিজেন্স স্ট্যাককে শক্তি দেয়",
       "securityTitle": "এন্টারপ্রাইজ নিরাপত্তা এবং সম্মতি",
-      "securityDescription": "সংবেদনশীল রেস্তোরাঁ অপারেটিং ডেটার জন্য তৈরি নিরাপত্তা এবং সম্মতি নিয়ন্ত্রণ।",
+      "securityDescription": "Sundae: SOC 2 Type II সার্টিফিকেশন প্রক্রিয়াধীন। GDPR and CCPA নিয়ন্ত্রণগুলি Sundae-এর সিকিউরিটি প্রোগ্রামের অংশ হিসেবে বজায় আছে।",
       "engineeringTitle": "প্রিমিয়াম ইঞ্জিনিয়ারিং দিয়ে তৈরি",
       "engineeringDescription": "নির্ভরযোগ্যতা, গতি এবং অপারেশনাল স্কেলের জন্য তৈরি একটি প্রোডাকশন স্ট্যাক।",
       "ctaTitle": "অ্যাকশনে আর্কিটেকচার দেখুন",
@@ -4554,9 +4554,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "এআই প্রসেসিং",
+          "title": "শাসিত সিদ্ধান্ত গ্রহণ",
           "subtitle": "বুদ্ধিমত্তা স্তর",
-          "description": "মাল্টি-এজেন্ট এআই, প্যাটার্ন সনাক্তকরণ, অসঙ্গতি সনাক্তকরণ, যুক্তি",
+          "description": "নিয়ম, মডেল ও সূত্র-উল্লেখিত যুক্তি একটি সংকেতকে এমন সিদ্ধান্তে পরিণত করে যা অপারেটর পরীক্ষা করে কাজ করতে পারে।",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -4592,8 +4592,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "এআই প্রসেসিং",
-          "description": "মাল্টি-এজেন্ট এআই প্যাটার্ন বিশ্লেষণ করে এবং অন্তর্দৃষ্টি তৈরি করে",
+          "title": "শাসিত সিদ্ধান্ত গ্রহণ",
+          "description": "নিয়ম, মডেল ও সূত্র-উল্লেখিত যুক্তি একটি সংকেতকে এমন সিদ্ধান্তে পরিণত করে যা অপারেটর পরীক্ষা করে কাজ করতে পারে।",
           "icon": "intelligence"
         },
         {
@@ -4695,15 +4695,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "কমপ্লায়েন্স স্ট্যান্ডার্ড",
-          "description": "SOC 2 প্রকার II, GDPR এবং CCPA অনুগত",
+          "description": "SOC 2 Type II সার্টিফিকেশন প্রক্রিয়াধীন। GDPR and CCPA নিয়ন্ত্রণগুলি Sundae-এর সিকিউরিটি প্রোগ্রামের অংশ হিসেবে বজায় আছে।",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 প্রকার II",
-          "state": "✓ প্রত্যয়িত",
-          "stateClass": "text-green-600"
+          "state": "প্রক্রিয়াধীন",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "জিডিপিআর",
@@ -4782,7 +4782,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC 2 প্রকার II অনুগত",
+            "SOC 2 Type II প্রোগ্রাম প্রক্রিয়াধীন",
             "এন্ড-টু-এন্ড এনক্রিপশন",
             "ভূমিকা-ভিত্তিক অ্যাক্সেস নিয়ন্ত্রণ",
             "নিয়মিত নিরাপত্তা অডিট"
@@ -4792,19 +4792,19 @@ export const generatedLocalCopy = {
     },
     "sv": {
       "badge": "Plattformsarkitektur",
-      "title": "Arkitekturstapel i fem lager",
-      "description": "Se hur Sundae går från rå restaurangdata till fungerande intelligens över fem arkitektoniska lager.",
+      "title": "Ett revisionsbart återhämtningsflöde.",
+      "description": "Se hur Sundae förvandlar ansluten restaurangdata till styrda beslut, ägda åtgärder och mätbar vinståterhämtning över fem arkitektoniska lager.",
       "stackTitle": "Ask Sundae Stack",
       "stackDescription": "Fem arkitekturlager som driver sex intelligensprodukter",
       "foundation": "Byggd på en solid grund av säkerhet, styrning och tillförlitlighet",
       "flowTitle": "Från data till beslut",
       "flowDescription": "Hur rådata blir handlingsbar intelligens på millisekunder",
-      "agentsTitle": "Multi-Agent AI-motor",
-      "agentsDescription": "Specialiserade AI-agenter som arbetar tillsammans om upptäckt, prognoser och sammanhang.",
+      "agentsTitle": "Besluts- och mätmotor",
+      "agentsDescription": "Specialiserade tjänster upptäcker, rangordnar, vidarebefordrar och mäter varje återhämtningsbeslut samtidigt som bevisen följer med.",
       "modulesTitle": "Arkitekturmoduler",
       "modulesDescription": "Fem kärnmoduler som driver Ask Sundae Stack",
       "securityTitle": "Företagssäkerhet och efterlevnad",
-      "securityDescription": "Säkerhets- och efterlevnadskontroller byggda för känslig restaurangdriftsdata.",
+      "securityDescription": "Sundae: SOC 2 Type II‑certifiering pågår. GDPR‑ och CCPA‑kontroller är fortfarande en del av Sundaes säkerhetsprogram.",
       "engineeringTitle": "Byggd med Premium Engineering",
       "engineeringDescription": "En produktionsstack byggd för tillförlitlighet, hastighet och driftskala.",
       "ctaTitle": "Se Arkitektur i aktion",
@@ -4820,9 +4820,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "AI-bearbetning",
+          "title": "Styrd beslutsfattning",
           "subtitle": "Intelligenslager",
-          "description": "Multi-agent AI, mönsterdetektering, anomalidetektering, resonemang",
+          "description": "Regler, modeller och källbelagd motivering omvandlar en signal till ett beslut som en operatör kan granska och agera på.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -4858,8 +4858,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "AI-bearbetning",
-          "description": "Multi-agent AI analyserar mönster och genererar insikter",
+          "title": "Styrd beslutsfattning",
+          "description": "Regler, modeller och källbelagd motivering omvandlar en signal till ett beslut som en operatör kan granska och agera på.",
           "icon": "intelligence"
         },
         {
@@ -4961,15 +4961,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Överensstämmelsestandarder",
-          "description": "SOC 2 Typ II, GDPR och CCPA-kompatibel",
+          "description": "SOC 2 Type II‑certifiering pågår. GDPR‑ och CCPA‑kontroller är fortfarande en del av Sundaes säkerhetsprogram.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 typ II",
-          "state": "✓ Certifierad",
-          "stateClass": "text-green-600"
+          "state": "Pågår",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -5048,7 +5048,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "SOC 2 Typ II-kompatibel",
+            "SOC 2 Type II‑program pågår",
             "End-to-end-kryptering",
             "Rollbaserad åtkomstkontroll",
             "Regelbundna säkerhetsrevisioner"
@@ -5058,19 +5058,19 @@ export const generatedLocalCopy = {
     },
     "th": {
       "badge": "สถาปัตยกรรมแพลตฟอร์ม",
-      "title": "กองสถาปัตยกรรมห้าชั้น",
-      "description": "ดูว่า Sundae ย้ายจากข้อมูลร้านอาหารดิบไปสู่การทำงานอัจฉริยะผ่านสถาปัตยกรรมห้าชั้นได้อย่างไร",
+      "title": "วงจรกู้คืนที่ตรวจสอบได้",
+      "description": "ดูว่า Sundae เปลี่ยนข้อมูลบริการอาหารที่เชื่อมต่อกันเป็นการตัดสินใจภายใต้การกำกับ การกระทำที่มีเจ้าของ และการวัดการกู้คืนกำไรข้ามห้าชั้นสถาปัตยกรรมอย่างไร",
       "stackTitle": "กองข่าวกรอง Sundae",
       "stackDescription": "สถาปัตยกรรมห้าชั้นที่ขับเคลื่อนหกผลิตภัณฑ์อัจฉริยะ",
       "foundation": "สร้างขึ้นบนรากฐานที่มั่นคงของการรักษาความปลอดภัย การกำกับดูแล และความน่าเชื่อถือ",
       "flowTitle": "จากข้อมูลสู่การตัดสินใจ",
       "flowDescription": "ข้อมูลดิบกลายเป็นข้อมูลอัจฉริยะที่นำไปปฏิบัติได้อย่างไรในหน่วยมิลลิวินาที",
-      "agentsTitle": "เอ็นจิ้น AI หลายตัวแทน",
-      "agentsDescription": "ตัวแทน AI เฉพาะทางที่ทำงานร่วมกันในการตรวจจับ การคาดการณ์ และบริบท",
+      "agentsTitle": "เอนจินการตัดสินใจและการวัด",
+      "agentsDescription": "บริการเฉพาะทางตรวจจับ จัดลำดับ เส้นทาง และวัดแต่ละการตัดสินใจกู้คืน พร้อมแนบหลักฐานไว้",
       "modulesTitle": "โมดูลสถาปัตยกรรม",
       "modulesDescription": "โมดูลหลักห้าโมดูลที่ขับเคลื่อน Ask Sundae Stack",
       "securityTitle": "การรักษาความปลอดภัยและการปฏิบัติตามข้อกำหนดขององค์กร",
-      "securityDescription": "การควบคุมความปลอดภัยและการปฏิบัติตามข้อกำหนดที่สร้างขึ้นสำหรับข้อมูลการดำเนินงานร้านอาหารที่ละเอียดอ่อน",
+      "securityDescription": "Sundae: การรับรอง SOC 2 Type II อยู่ระหว่างดำเนินการ ขณะเดียวกันการควบคุมตาม GDPR และ CCPA ยังคงเป็นส่วนหนึ่งของโปรแกรมความปลอดภัยของ Sundae",
       "engineeringTitle": "สร้างด้วยวิศวกรรมระดับพรีเมียม",
       "engineeringDescription": "กลุ่มการผลิตที่สร้างขึ้นเพื่อความน่าเชื่อถือ ความเร็ว และขนาดการปฏิบัติงาน",
       "ctaTitle": "ดูสถาปัตยกรรมในการใช้งานจริง",
@@ -5086,9 +5086,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "การประมวลผลเอไอ",
+          "title": "การตัดสินใจภายใต้การกำกับ",
           "subtitle": "ชั้นสติปัญญา",
-          "description": "AI หลายตัวแทน การตรวจจับรูปแบบ การตรวจจับความผิดปกติ การให้เหตุผล",
+          "description": "กฎ โมเดล และเหตุผลที่อ้างอิงแหล่งที่มาเปลี่ยนสัญญาณเป็นการตัดสินใจที่ผู้ปฏิบัติการสามารถตรวจสอบและลงมือได้",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -5124,8 +5124,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "การประมวลผลเอไอ",
-          "description": "AI หลายตัวแทนวิเคราะห์รูปแบบและสร้างข้อมูลเชิงลึก",
+          "title": "การตัดสินใจภายใต้การกำกับ",
+          "description": "กฎ โมเดล และเหตุผลที่อ้างอิงแหล่งที่มาเปลี่ยนสัญญาณเป็นการตัดสินใจที่ผู้ปฏิบัติการสามารถตรวจสอบและลงมือได้",
           "icon": "intelligence"
         },
         {
@@ -5227,15 +5227,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "มาตรฐานการปฏิบัติตาม",
-          "description": "เป็นไปตาม SOC 2 Type II, GDPR และ CCPA",
+          "description": "การรับรอง SOC 2 Type II อยู่ระหว่างดำเนินการ ขณะเดียวกันการควบคุมตาม GDPR และ CCPA ยังคงเป็นส่วนหนึ่งของโปรแกรมความปลอดภัยของ Sundae",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 ประเภท II",
-          "state": "✓ ได้รับการรับรอง",
-          "stateClass": "text-green-600"
+          "state": "อยู่ระหว่างดำเนินการ",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -5314,7 +5314,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "สอดคล้องตามมาตรฐาน SOC 2 ประเภท II",
+            "โปรแกรม SOC 2 Type II อยู่ระหว่างดำเนินการ",
             "การเข้ารหัสจากต้นทางถึงปลายทาง",
             "การควบคุมการเข้าถึงตามบทบาท",
             "การตรวจสอบความปลอดภัยเป็นประจำ"
@@ -5324,19 +5324,19 @@ export const generatedLocalCopy = {
     },
     "ms": {
       "badge": "Seni Bina Platform",
-      "title": "Timbunan Seni Bina Lima Lapisan",
-      "description": "Lihat cara Sundae beralih daripada data restoran mentah kepada perisikan yang berfungsi merentas lima lapisan seni bina.",
+      "title": "Satu kitar pemulihan boleh diaudit.",
+      "description": "Lihat bagaimana Sundae menukar data perkhidmatan makanan yang bersambung menjadi keputusan terurus, tindakan dimiliki dan pemulihan keuntungan yang diukur merentasi lima lapisan seni bina.",
       "stackTitle": "Timbunan Perisikan Sundae",
       "stackDescription": "Lima lapisan seni bina yang menguasai enam produk kecerdasan",
       "foundation": "Dibina di atas asas keselamatan, tadbir urus dan kebolehpercayaan yang kukuh",
       "flowTitle": "Daripada Data kepada Keputusan",
       "flowDescription": "Cara data mentah menjadi risikan yang boleh diambil tindakan dalam milisaat",
-      "agentsTitle": "Enjin AI Berbilang Ejen",
-      "agentsDescription": "Ejen AI khusus bekerjasama dalam pengesanan, ramalan dan konteks.",
+      "agentsTitle": "Enjin keputusan dan pengukuran",
+      "agentsDescription": "Perkhidmatan khusus mengesan, mengutamakan, menghala dan mengukur setiap keputusan pemulihan sambil mengekalkan bukti yang disertakan.",
       "modulesTitle": "Modul Seni Bina",
       "modulesDescription": "Lima modul teras yang menguasakan Timbunan Perisikan Sundae",
       "securityTitle": "Keselamatan & Pematuhan Perusahaan",
-      "securityDescription": "Kawalan keselamatan dan pematuhan dibina untuk data pengendalian restoran yang sensitif.",
+      "securityDescription": "Sundae: Pensijilan SOC 2 Type II sedang dalam proses. Kawalan GDPR dan CCPA kekal menjadi sebahagian daripada program keselamatan Sundae.",
       "engineeringTitle": "Dibina dengan Kejuruteraan Premium",
       "engineeringDescription": "Timbunan pengeluaran yang dibina untuk kebolehpercayaan, kelajuan dan skala operasi.",
       "ctaTitle": "Lihat Seni Bina dalam Tindakan",
@@ -5352,9 +5352,9 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Pemprosesan AI",
+          "title": "Keputusan terkawal",
           "subtitle": "Lapisan Perisikan",
-          "description": "AI berbilang ejen, pengesanan corak, pengesanan anomali, penaakulan",
+          "description": "Peraturan, model dan alasan berpaut sumber menukar isyarat kepada keputusan yang boleh diperiksa dan dilaksanakan oleh operator.",
           "color": "bg-gradient-to-r from-stone-700 to-stone-800",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
@@ -5390,8 +5390,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Pemprosesan AI",
-          "description": "AI berbilang ejen menganalisis corak dan menjana cerapan",
+          "title": "Keputusan terkawal",
+          "description": "Peraturan, model dan alasan berpaut sumber menukar isyarat kepada keputusan yang boleh diperiksa dan dilaksanakan oleh operator.",
           "icon": "intelligence"
         },
         {
@@ -5493,15 +5493,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Piawaian Pematuhan",
-          "description": "SOC 2 Type II, GDPR dan patuh CCPA",
+          "description": "Pensijilan SOC 2 Type II sedang dalam proses. Kawalan GDPR dan CCPA kekal menjadi sebahagian daripada program keselamatan Sundae.",
           "icon": "success"
         }
       ],
       "certs": [
         {
           "label": "SOC 2 Jenis II",
-          "state": "✓ Diperakui",
-          "stateClass": "text-green-600"
+          "state": "Dalam proses",
+          "stateClass": "text-amber-600"
         },
         {
           "label": "GDPR",
@@ -5580,7 +5580,7 @@ export const generatedLocalCopy = {
           "icon": "quality",
           "color": "from-red-500 to-red-600",
           "features": [
-            "patuh SOC 2 Jenis II",
+            "Program SOC 2 Type II sedang dijalankan",
             "Penyulitan hujung ke hujung",
             "Kawalan akses berasaskan peranan",
             "Audit keselamatan yang kerap"

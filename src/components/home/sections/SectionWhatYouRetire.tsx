@@ -6,6 +6,7 @@ import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionWhatYouRetire'
+import { getPositioningCopy } from '@/lib/positioningCopy';
 import { balanceSentences } from "@/lib/balanceSentences";
 
 type LocalizedCopy = {
@@ -36,7 +37,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     withSundae: [
       "Measured profit recovery, per decision",
       "Six intelligence layers, food-service-native",
-      "500+ governed food-service data models",
+      "Evidence health and source reconciliation",
       "Source-cited answers in seconds",
       "12 data domains unified in one ledger",
       "Live shift intelligence, not Friday recaps",
@@ -59,7 +60,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     withSundae: [
       "استرداد أرباح مُقاس، مع كل قرار",
       "ست طبقات ذكاء، أصيلة لخدمات الطعام",
-      "أكثر من 500 نموذج بيانات لخدمات الطعام محكوم",
+      "سلامة الأدلة ومطابقة السجلات المصدرية",
       "إجابات بمصادر في ثوانٍ",
       "12 مجال بيانات موحد في دفتر واحد",
       "ذكاء وردية حي لا تقارير الجمعة",
@@ -82,7 +83,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     withSundae: [
       "Récupération de profit mesurée, à chaque décision",
       "Six couches d'intelligence, natives restauration",
-      "500+ modèles de données restauration gouvernés",
+      "Santé des preuves et rapprochement des sources",
       "Réponses sourcées en secondes",
       "12 domaines de données dans un seul livre",
       "Intelligence de service live, pas récap vendredi",
@@ -105,7 +106,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     withSundae: [
       "Recuperación de beneficio medida, en cada decisión",
       "Seis capas de inteligencia, nativas para hostelería",
-      "500+ modelos de datos de hostelería gobernados",
+      "Salud de la evidencia y conciliación de fuentes",
       "Respuestas con fuente en segundos",
       "12 dominios de datos unificados en un libro",
       "Inteligencia de turno en vivo, no recap del viernes",
@@ -117,7 +118,14 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
 export function SectionWhatYouRetire() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const copy: LocalizedCopy = {
+    ...sourceCopy,
+    withSundae: sourceCopy.withSundae.map((item, index) =>
+      index === 2 ? positioning.productCoreDescription : item,
+    ),
+  };
 
   return (
     <section aria-labelledby="retire-headline" className="relative py-20 px-4 sm:px-6 lg:px-8">

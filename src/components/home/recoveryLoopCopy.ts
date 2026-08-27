@@ -1,13 +1,13 @@
 // Copy for the homepage hero-1 recovery-loop signature (RecoveryLoop.tsx).
-// Owned by the design pass; the four stage verbs + loop title are the closed-loop
-// spine vocabulary. recoveredThisWeek / measuredVsBaseline mirror the strings the
+// Owned by the design pass; the loop title and recovery-value labels complement
+// the five stage verbs from the positioning source of truth. recoveredThisWeek / measuredVsBaseline mirror the strings the
 // second hero (heroDashboardCopy) already ships, so both heroes read the same.
 // House style: plain spaced hyphen, no em-dashes; product terms stay literal.
 
 
 export type RecoveryLoopCopy = {
   loopTitle: string;
-  stages: [string, string, string, string]; // Detect, Decide, Execute, Measure
+  stages: [string, string, string, string]; // Legacy fallback; the rendered five-stage loop comes from positioning_recovery.
   recoveredThisWeek: string;
   measuredVsBaseline: string;
 };

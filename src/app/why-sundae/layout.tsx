@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { resolveWebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_layout'
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 const copy = {
   en: {
@@ -29,7 +30,11 @@ const copy = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  return copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
+  const localized = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
+  return {
+    ...localized,
+    description: getPositioningCopy(locale).critical.whyMetaDescription,
+  };
 }
 
 export default function WhySundaeLayout({

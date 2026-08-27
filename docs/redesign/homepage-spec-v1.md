@@ -106,7 +106,7 @@ MOBILE (<640px)
   - `250+ pilot locations` — **NEEDS VALIDATION** (confirm: are these signed pilots or all interested operators?)
   - `12 data domains unified` — **APPROVED PUBLIC**
   - `Live Core refresh` — **CAPABILITY CLAIM ONLY** (generalized; tier specifics surface in the SQC triangle and pricing page)
-  - `179 restaurant data models` — **APPROVED PUBLIC**
+  - Governed operating data across the connected domains — do not publish a data-model count until Engineering re-derives and approves the inventory (see CLM-002)
 
 ### Animation Job: Explain Product
 
@@ -237,7 +237,7 @@ MOBILE
 | Vertex | Headline | Body |
 |---|---|---|
 | **SPEED** | `5-minute refresh. 30-second answers.` | `Live shift signals on Pulse. Instant answers from Sundae Intelligence. Forecasts that update every cycle.` |
-| **QUALITY** | `Restaurant-specific. Source-cited.` | `179 restaurant data models. Governed metrics. Peer-anchored benchmarks. Source-cited AI answers — not guesses.` |
+| **QUALITY** | `Food-service specific. Source-cited.` | `Governed metrics. Peer-anchored benchmarks. Source-cited answers — with the evidence behind the decision.` |
 | **COST** | `Free benchmark to start. Without adding to your analyst queue.` | `Report Lite is free. Core reduces dependence on custom BI dashboards, manual reports, and analyst backlogs.` |
 
 **Closing line**: `That's not a tradeoff. That's the moat.`
