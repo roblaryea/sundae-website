@@ -2,6 +2,85 @@ import type { BlogPost } from './types';
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "revenue-grew-profit-fell-restaurant-operators",
+    title: "Revenue Grew. Restaurant Profit Fell 44%. What Operators Can Still Control",
+    category: "Industry Insights",
+    date: "2026-08-30",
+    summary: "The UK's top 100 restaurant groups grew combined turnover while combined profit fell 44%. The useful question for operators is which pressures are external and which losses can still be found, owned, and measured.",
+    readTime: "6 min read",
+    tags: ["restaurant profit recovery", "restaurant margins", "multi-location restaurants", "decision intelligence", "restaurant operations"],
+    content: `## Revenue growth did not protect restaurant profit
+
+The UK's top 100 restaurant groups increased combined turnover from £12.9 billion to £13.3 billion while combined profit fell from £365 million to £204 million, a 44% decline.
+
+The figures were reported by [MCA](https://www.mca-insight.com/analysis-and-insight/britains-largest-restaurants-see-profits-halve/722788.article) and covered by [QSR Media](https://qsrmedia.co.uk/research/in-focus/uks-top-restaurant-groups-see-profits-fall-44-costs-surge). Reported pressures included minimum wage increases, employer National Insurance, business rates, food and energy inflation, and volatile commodity costs.
+
+The headline matters because it exposes a problem restaurant operators already feel: revenue can grow while profit disappears.
+
+## What the figures do and do not prove
+
+The figures show sector-wide pressure. They do not show that every restaurant group lost profit for the same reason, and they do not prove that an operating platform could have prevented the full decline.
+
+Wages, taxes, rates, energy prices, and commodity inflation are largely external. Restaurant teams cannot remove them through better dashboards or faster alerts.
+
+They can still improve how quickly they identify and respond to the operational effects of those pressures.
+
+That distinction is important. A credible profit-recovery programme separates three things:
+
+1. **External pressure** that must be planned for, priced, or absorbed.
+2. **Controllable variance** such as overstaffing, waste, discount leakage, weak menu contribution, or inconsistent execution.
+3. **Measured recovery** that can be tied to a named action and compared with a baseline.
+
+## Where preventable loss can hide
+
+When cost pressure rises, small operating variances become more expensive. A location can meet its sales target and still give away margin through the way the shift was run.
+
+Common examples include:
+
+- labor hours that did not adjust when demand changed;
+- high-volume menu items selling with weak contribution;
+- waste or theoretical-versus-actual usage gaps;
+- voids, comps, and discounts outside expected patterns;
+- delivery growth that adds revenue but weakens contribution after commission;
+- one location repeating a variance that another location has already corrected.
+
+Each issue can appear in a report. The harder part is turning the evidence into accountable action while the margin is still recoverable.
+
+## Why an alert is not enough
+
+An alert tells someone that a threshold moved. It does not establish why the movement matters, who owns the response, what action was taken, or whether the result improved.
+
+Closed-loop profit recovery requires a fuller operating sequence:
+
+1. **Detect** the variance and the value at risk.
+2. **Decide** whether it is external, explainable, or controllable.
+3. **Execute** a specific action with one accountable owner.
+4. **Measure** the result against a frozen baseline.
+5. **Learn** which actions should be repeated across other locations.
+
+Without those steps, a restaurant group can accumulate alerts while the same margin leak returns every week.
+
+## Questions owners should ask
+
+The UK figures make five questions especially useful for owners, finance leaders, and operations teams:
+
+- Which locations grew revenue but lost contribution?
+- Which cost increases were external, and which variances were controllable?
+- How long does it take from detecting a margin issue to changing the operation?
+- Is every material action assigned to one accountable person?
+- Can the team prove what changed after the action?
+
+These questions move the discussion from general cost pressure to operational evidence.
+
+## Sundae's role
+
+Sundae cannot remove wage increases, taxes, rates, or commodity inflation. It helps multi-location food-service teams find where profit is slipping, give the next action to the right person, and measure what changed.
+
+The goal is not to claim every lost pound was preventable. The goal is to stop controllable loss from hiding inside a difficult market.
+
+Explore [Sundae Profit Recovery](/product/recovery) or [book a working session](/demo) around one real operating question.`
+  },
+  {
     slug: "inside-sundae-canvas",
     title: "Inside Sundae Core: Turning Raw Data Into Clear Dashboards Automatically",
     category: "Product",

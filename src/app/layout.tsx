@@ -23,7 +23,7 @@ import {
   websiteLocaleDirection,
 } from "@/lib/i18n";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
-import { resolvePageTitle } from "@/lib/pageTitles";
+import { resolvePageDescription, resolvePageTitle } from "@/lib/pageTitles";
 
 // Display - warm, optical serif for headlines & key numbers (the human, premium voice).
 const fraunces = Fraunces({
@@ -56,7 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const headerStore = await headers();
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io';
   const publicPath = headerStore.get(WEBSITE_PUBLIC_PATH_HEADER) || '/';
   const { pathname: canonicalPath } = parseWebsiteLocaleFromPathname(publicPath);
   const normalizedPath = normalizeWebsitePathname(canonicalPath);
@@ -67,6 +67,8 @@ export async function generateMetadata(): Promise<Metadata> {
   // that DOES export its own title still overrides this via Next.js metadata
   // merging; the template applies only to those child titles, not to this default.
   const routeTitle = resolvePageTitle(normalizedPath, locale);
+  const routeDescription = resolvePageDescription(normalizedPath, locale);
+  const metadataDescription = routeDescription ?? messages.metadata.description;
 
   return {
     metadataBase: new URL(baseUrl),
@@ -74,7 +76,7 @@ export async function generateMetadata(): Promise<Metadata> {
       default: routeTitle ?? messages.metadata.title,
       template: "%s | Sundae",
     },
-    description: messages.metadata.description,
+    description: metadataDescription,
     alternates: {
       canonical: localizedCanonicalPath,
       languages: alternates.languages,
@@ -109,7 +111,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       siteName: "Sundae",
       title: messages.metadata.title,
-      description: messages.metadata.description,
+      description: metadataDescription,
       url: new URL(localizedCanonicalPath, baseUrl).toString(),
       images: [
         {
@@ -123,7 +125,7 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: messages.metadata.title,
-      description: messages.metadata.description,
+      description: metadataDescription,
       images: ["/logos/og-card.png"],
     },
     robots: {
@@ -162,7 +164,7 @@ export default async function RootLayout({
   const consentCookie = cookieStore.get("sundae_cookie_consent")?.value;
   const initialConsent =
     consentCookie === "accepted" || consentCookie === "declined" ? consentCookie : null;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sundae.io";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.sundae.io";
   const organizationId = new URL("/#organization", baseUrl).toString();
   const websiteId = new URL("/#website", baseUrl).toString();
   const softwareId = new URL("/product/recovery#software", baseUrl).toString();
@@ -213,6 +215,13 @@ export default async function RootLayout({
     <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
+        {/* Vercel BotID - instruments the expensive AI diagnostic endpoint so
+            bots/crawlers are classified client-side and rejected server-side
+            (see src/app/api/diagnostic/route.ts) before any paid model call. */}
+        <BotIdClient protect={[{ path: "/api/diagnostic", method: "POST" }]} />
+      </head>
+
+      <body className="relative antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
         <Script
           id="sundae-global-structured-data"
           type="application/ld+json"
@@ -221,13 +230,6 @@ export default async function RootLayout({
             __html: JSON.stringify(globalJsonLd).replace(/</g, "\\u003c"),
           }}
         />
-        {/* Vercel BotID - instruments the expensive AI diagnostic endpoint so
-            bots/crawlers are classified client-side and rejected server-side
-            (see src/app/api/diagnostic/route.ts) before any paid model call. */}
-        <BotIdClient protect={[{ path: "/api/diagnostic", method: "POST" }]} />
-      </head>
-
-      <body className="relative antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#FF5C4D] focus:text-white focus:rounded-lg focus:outline-none"

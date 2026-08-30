@@ -124,7 +124,7 @@ export default async function BlogPostPage({
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
   const copy = localizedBlogPostPageCopy[locale as keyof typeof localizedBlogPostPageCopy] ?? getGeneratedLocalCopy(localizedBlogPostPageCopy, generatedLocalCopy.localizedBlogPostPageCopy, locale) ?? localizedBlogPostPageCopy.en;
   const post = getLocalizedBlogPost(slug, locale);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io';
   const localizedBlogPath = getLocalizedPathname('/blog', locale);
   const localizedPostPath = getLocalizedPathname(`/blog/${slug}`, locale);
   const localizedDemoPath = getLocalizedPathname('/demo', locale);
@@ -275,7 +275,7 @@ export async function generateMetadata({ params, searchParams }: BlogPostPagePro
   const forcedEnglish = resolvedSearchParams?.lang === 'en';
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
   const post = getLocalizedBlogPost(slug, locale);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io';
   
   if (!post) {
     return {

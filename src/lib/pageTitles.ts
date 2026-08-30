@@ -55,6 +55,19 @@ export const pageTitlesEn: Record<string, string> = {
   '/tiktok-review': 'Creator Review - Sundae',
 };
 
+const pageDescriptionsEn: Record<string, string> = {
+  '/product':
+    'Explore Sundae decision intelligence for multi-location food-service: detect profit leaks, route accountable action, and measure what changed.',
+  '/product/intelligence':
+    'Ask Sundae is restaurant AI for operational decisions. Ask questions across POS, labor, cost, inventory and guest data, then act on answers with evidence.',
+  '/diagnostic':
+    'Take the free restaurant operations diagnostic to identify decision delays, disconnected data and likely sources of preventable profit loss across your locations.',
+  '/blog':
+    'Practical analysis for restaurant owners and multi-location operators on profit recovery, restaurant AI, decision intelligence, labor, margin and operations.',
+  '/tools':
+    'Free restaurant calculators for labor cost, menu margin, break-even covers, daypart margin leaks, upsell opportunity and multi-location improvement planning.',
+};
+
 type PageTitleOverrides = Record<string, Partial<Record<string, string>>>;
 
 /**
@@ -67,4 +80,9 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
   if (locale === 'en') return en;
   const overrides = (generatedLocalCopy as { pageTitles?: PageTitleOverrides }).pageTitles;
   return overrides?.[locale]?.[path] ?? en;
+}
+
+export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
+  if (locale !== 'en') return null;
+  return pageDescriptionsEn[path] ?? null;
 }

@@ -8,13 +8,13 @@ Sundae does not claim to remove macroeconomic pressures such as wage increases, 
 
 ## Primary pages
 
-- [Sundae](https://sundae.io/): Platform overview
-- [Profit Recovery](https://sundae.io/product/recovery): Closed-loop profit recovery workflow
-- [Why Sundae](https://sundae.io/why-sundae): Product differentiation
-- [Solutions](https://sundae.io/solutions): Food-service use cases
-- [Tools](https://sundae.io/tools): Operator tools and calculators
-- [Blog](https://sundae.io/blog): Research, guidance, and product updates
-- [Book a demo](https://sundae.io/demo): Product demonstration
+- [Sundae](https://www.sundae.io/): Platform overview
+- [Profit Recovery](https://www.sundae.io/product/recovery): Closed-loop profit recovery workflow
+- [Why Sundae](https://www.sundae.io/why-sundae): Product differentiation
+- [Solutions](https://www.sundae.io/solutions): Food-service use cases
+- [Tools](https://www.sundae.io/tools): Operator tools and calculators
+- [Blog](https://www.sundae.io/blog): Research, guidance, and product updates
+- [Book a demo](https://www.sundae.io/demo): Product demonstration
 
 ## Official profiles
 

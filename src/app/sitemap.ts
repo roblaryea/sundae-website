@@ -8,17 +8,21 @@ import {
 } from '@/lib/i18n'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io'
   
   // Core pages
   const corePages = [
     '',
     '/about',
     '/demo',
+    '/diagnostic',
     '/contact',
     '/blog',
+    '/faq',
     '/tools',
     '/resources',
+    '/getting-started',
+    '/core',
     '/4d-intelligence',
     '/architecture',
     '/why-sundae',
@@ -76,6 +80,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/labor-analyzer',
     '/tools/benchmark-readiness',
     '/tools/multi-location-uplift',
+    '/tools/daypart-margin-leak',
+    '/tools/upsell-opportunity-index',
   ]
 
   const staticRoutes = [...corePages, ...productPages, ...crewPages, ...solutionPages, ...toolPages]
