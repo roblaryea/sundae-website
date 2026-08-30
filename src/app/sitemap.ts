@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { getSourceBlogPosts } from '@/lib/blogTranslations'
+import { getAvailableBlogPostLocales, getSourceBlogPosts } from '@/lib/blogTranslations'
 import {
   buildWebsiteAlternateUrls,
   getLocalizedPathname,
@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/product/intelligence',
     '/product/insights',
     '/product/benchmarking',
+    '/product/recovery',
   ]
 
   // Crew pages (operational suite + per-module surfaces)
@@ -85,7 +86,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return websiteLocales.map((locale) => ({
       url: new URL(getLocalizedPathname(normalizedRoute, locale), baseUrl).toString(),
-      lastModified: new Date(),
       changeFrequency: normalizedRoute === '/' ? 'weekly' as const : 'monthly' as const,
       priority: normalizedRoute === '/' ? 1.0 : normalizedRoute.startsWith('/product') ? 0.9 : 0.7,
       alternates: {
@@ -96,15 +96,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPostPages = getSourceBlogPosts().flatMap((post) => {
     const blogPath = `/blog/${post.slug}`
-    const alternates = buildWebsiteAlternateUrls(blogPath, baseUrl)
+    const availableLocales = getAvailableBlogPostLocales(post.slug)
+    const localizedUrls = Object.fromEntries(
+      availableLocales.map((locale) => [
+        locale,
+        new URL(getLocalizedPathname(blogPath, locale), baseUrl).toString(),
+      ]),
+    )
+    const languages = {
+      ...localizedUrls,
+      'x-default': new URL(getLocalizedPathname(blogPath, 'en'), baseUrl).toString(),
+    }
 
-    return websiteLocales.map((locale) => ({
+    return availableLocales.map((locale) => ({
       url: new URL(getLocalizedPathname(blogPath, locale), baseUrl).toString(),
       lastModified: new Date(post.date),
       changeFrequency: 'monthly' as const,
       priority: 0.6,
       alternates: {
-        languages: alternates.languages,
+        languages,
       },
     }))
   })

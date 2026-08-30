@@ -2,38 +2,28 @@
  * Centralized CTA Tracking & UTM Management System
  * 
  * This module provides utilities for:
- * - Tracking CTA clicks via Google Analytics
+ * - Tracking consented CTA clicks via PostHog
  * - Preserving and propagating UTM parameters
  * - Managing navigation with tracking
  */
 
+import { trackEvent } from "@/lib/posthog";
+
 type GtagValue = string | number | boolean | null | undefined;
 type CtaMetadata = Record<string, GtagValue>;
 
-declare global {
-  interface Window {
-    gtag?: (
-      command: "event",
-      action: string,
-      params: Record<string, GtagValue>
-    ) => void;
-  }
-}
-
 /**
- * Track a CTA click event in Google Analytics
+ * Track a CTA click in the site's consent-gated PostHog instance.
  * 
  * @param label - Descriptive label for the CTA (e.g., "book_demo_hero")
  * @param metadata - Additional data to attach to the event
  */
 export const trackCta = (label: string, metadata: CtaMetadata = {}) => {
-  if (typeof window !== "undefined" && window.gtag) {
-    window.gtag("event", "cta_click", {
-      event_category: "CTA",
-      event_label: label,
-      ...metadata,
-    });
-  }
+  trackEvent("cta_click", {
+    event_category: "CTA",
+    event_label: label,
+    ...metadata,
+  });
   
   // Also log to console in development for debugging
   if (process.env.NODE_ENV === "development") {

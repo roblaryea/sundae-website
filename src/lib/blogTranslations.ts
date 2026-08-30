@@ -1,5 +1,5 @@
 import { blogPosts, type BlogPost } from '@/lib/blogData';
-import type { WebsiteLocale } from '@/lib/i18n';
+import { websiteLocales, type WebsiteLocale } from '@/lib/i18n';
 import {
   blogLocaleTranslations,
   type BlogLocaleTranslation,
@@ -118,6 +118,19 @@ export function getBlogTranslationStatus(
 ): BlogTranslationStatus {
   if (locale === 'en') return 'source';
   return getTranslation(locale, slug)?.status ?? 'missing';
+}
+
+/**
+ * Return only the locales that contain a publishable version of an article.
+ * English is the source and is always available; non-English locales must be
+ * explicitly marked as translated before they are advertised to crawlers.
+ */
+export function getAvailableBlogPostLocales(slug: string): WebsiteLocale[] {
+  if (!getSourceBlogPost(slug)) return [];
+
+  return websiteLocales.filter(
+    (locale) => locale === 'en' || getBlogTranslationStatus(slug, locale) === 'translated',
+  );
 }
 
 export type BlogTranslationCoverageRow = {

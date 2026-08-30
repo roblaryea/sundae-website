@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Fraunces, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
@@ -78,7 +79,15 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: localizedCanonicalPath,
       languages: alternates.languages,
     },
-    keywords: ["restaurant analytics", "decision intelligence", "restaurant benchmarks", "4D intelligence", "restaurant AI", "multi-location restaurants", "F&B analytics"],
+    keywords: [
+      "restaurant profit recovery",
+      "food-service decision intelligence",
+      "multi-location restaurant software",
+      "restaurant margin management",
+      "restaurant AI",
+      "controllable profit loss",
+      "restaurant operations intelligence",
+    ],
     authors: [{ name: "Sundae Team" }],
     creator: "Sundae",
     publisher: "Sundae",
@@ -153,11 +162,65 @@ export default async function RootLayout({
   const consentCookie = cookieStore.get("sundae_cookie_consent")?.value;
   const initialConsent =
     consentCookie === "accepted" || consentCookie === "declined" ? consentCookie : null;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sundae.io";
+  const organizationId = new URL("/#organization", baseUrl).toString();
+  const websiteId = new URL("/#website", baseUrl).toString();
+  const softwareId = new URL("/product/recovery#software", baseUrl).toString();
+  const globalJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": organizationId,
+        name: "Sundae",
+        url: new URL("/", baseUrl).toString(),
+        logo: new URL("/logos/sundae-app-icon.png", baseUrl).toString(),
+        description:
+          "Sundae provides decision intelligence for closed-loop profit recovery in multi-location food-service operations.",
+        sameAs: [
+          "https://www.linkedin.com/company/managewithsundae",
+          "https://x.com/sundae_io",
+          "https://www.youtube.com/@Sundae_io",
+        ],
+      },
+      {
+        "@type": "WebSite",
+        "@id": websiteId,
+        name: "Sundae",
+        url: new URL("/", baseUrl).toString(),
+        publisher: { "@id": organizationId },
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": softwareId,
+        name: "Sundae",
+        applicationCategory: "BusinessApplication",
+        applicationSubCategory: "Restaurant decision intelligence",
+        operatingSystem: "Web",
+        url: new URL("/product/recovery", baseUrl).toString(),
+        description:
+          "Sundae finds where profit is slipping, helps the right person act, and measures what changed across multi-location food-service operations.",
+        provider: { "@id": organizationId },
+        audience: {
+          "@type": "BusinessAudience",
+          audienceType: "Multi-location food-service operators",
+        },
+      },
+    ],
+  };
 
   return (
     <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
+        <Script
+          id="sundae-global-structured-data"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(globalJsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
         {/* Vercel BotID - instruments the expensive AI diagnostic endpoint so
             bots/crawlers are classified client-side and rejected server-side
             (see src/app/api/diagnostic/route.ts) before any paid model call. */}
