@@ -24,12 +24,12 @@ export function initPostHog() {
 }
 
 export function trackEvent(event: string, properties?: Record<string, unknown>) {
-  if (!POSTHOG_KEY) return;
+  if (!POSTHOG_KEY || !initialized) return;
   posthog.capture(event, properties);
 }
 
 export function trackPageView(url?: string) {
-  if (!POSTHOG_KEY) return;
+  if (!POSTHOG_KEY || !initialized) return;
   posthog.capture("$pageview", { $current_url: url || window.location.href });
 }
 

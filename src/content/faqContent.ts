@@ -83,7 +83,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'What is Sundae?',
           content:
-            'Sundae is a decision intelligence platform for restaurants and hospitality teams. It pulls scattered operating data into one place so leaders can see what happened, what is changing, and where to act next.',
+            'Sundae is decision intelligence for closed-loop profit recovery in multi-location food-service. It finds where profit is slipping, helps the right person act, and measures what changed against a baseline.',
         },
         {
           title: 'How do I get started?',

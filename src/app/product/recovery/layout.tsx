@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getPositioningCopy(locale).recovery;
   const c: RecoveryMeta = {
-    title: `${copy.badge} - Sundae`,
+    title: copy.badge,
     description: copy.description,
     openGraphTitle: `${copy.title} ${copy.titleAccent}`,
     openGraphDescription: copy.ctaDescription,
