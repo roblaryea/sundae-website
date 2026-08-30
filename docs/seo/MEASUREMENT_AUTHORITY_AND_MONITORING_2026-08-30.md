@@ -55,6 +55,36 @@ Capture the following after property verification and sitemap submission:
 
 Do not set arbitrary ranking promises. The first verified export is the baseline.
 
+## Initial baseline status — 31 August 2026
+
+### Google Search Console
+
+- Property: `https://www.sundae.io/` (verified).
+- Sitemap: submitted and accepted; Google discovered 1,445 URLs.
+- Performance report: still processing, with no query, page, click, or impression data available yet. Search Console reported its latest update approximately 6.5 hours before the check.
+- Indexing and Core Web Vitals reports: still awaiting Google's first processing cycle.
+- Baseline start date: 30 August 2026. Do not interpret the temporary zero-data state as zero organic visibility.
+
+### PostHog
+
+- Project: US Cloud project `332239`.
+- Dashboard: [Sundae Website — SEO, GEO & Conversion](https://us.posthog.com/project/332239/dashboard/2048486).
+- Website acquisition funnel, last 30 days: 62 unique `$pageview` entrants; 0 tracked `cta_click` or `lead_form_submitted` completions. The conversion events were newly deployed and had not accumulated yet.
+- Diagnostic funnel, last 30 days: 1 `diagnostic_started`; 0 later-step completions.
+- Current partial week: 155 total pageviews and 4 unique visitors; 0 lead-form or diagnostic lead conversions. Treat this partial week as directional only.
+- CTA, form-friction, and landing-page conversion views currently have no post-deployment results. This is the expected initial state, not an instrumentation failure.
+
+The dashboard contains all six required views:
+
+1. Website acquisition funnel (`vRxuh8xi`).
+2. Diagnostic funnel (`ZWfaXw3V`).
+3. Landing-page conversion by entry URL and UTM campaign (`w5uzsSVL`).
+4. CTA performance by label and source page (`Y22Viw1K`).
+5. Form friction by invalid field and submission-failure rate (`T4a1P5bV`).
+6. Weekly unique visitors and qualified conversions versus total traffic (`adZkZYzH`).
+
+The first decision-grade comparison should be made after at least 14 complete days of post-deployment event collection. Search Console should be checked again once Google replaces the processing message with performance data.
+
 ## Commercial outcome hierarchy
 
 1. Qualified demo or working-session request.
@@ -116,4 +146,3 @@ Quarterly:
 - priority pages have distinct titles, descriptions, H1s, and one clear conversion path;
 - Search Console property is verified and the production sitemap is submitted;
 - the first Search Console and PostHog baselines are recorded.
-
