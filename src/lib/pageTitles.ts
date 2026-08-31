@@ -66,6 +66,22 @@ const pageDescriptionsEn: Record<string, string> = {
     'Practical analysis for restaurant owners and multi-location operators on profit recovery, restaurant AI, decision intelligence, labor, margin and operations.',
   '/tools':
     'Free restaurant calculators for labor cost, menu margin, break-even covers, daypart margin leaks, upsell opportunity and multi-location improvement planning.',
+  '/tools/benchmark-readiness':
+    'Assess whether your restaurant data, governance and operating processes are ready for reliable multi-location benchmarking, then see the gaps to address.',
+  '/tools/breakeven-covers':
+    'Calculate the restaurant covers needed to break even from fixed costs, variable cost per cover and average selling price.',
+  '/tools/daypart-margin-leak':
+    'Compare sales and labor across restaurant dayparts, estimate where margin may be leaking and identify the operating window to investigate first.',
+  '/tools/labor-analyzer':
+    'Compare actual restaurant labor costs with your target, quantify the variance and see where scheduling efficiency needs attention.',
+  '/tools/labor-cost':
+    'Calculate restaurant labor cost percentage from labor spend and sales, then compare the result with common operating ranges.',
+  '/tools/menu-margin':
+    'Calculate restaurant menu item gross profit and margin from selling price and food cost, then test the effect of a different price.',
+  '/tools/multi-location-uplift':
+    'Estimate the potential revenue impact of an operating improvement across multiple restaurant locations using your own sales assumptions.',
+  '/tools/upsell-opportunity-index':
+    'Score restaurant menu attach-rate health, quantify the annual revenue opportunity by category and identify the first upsell priorities to test.',
 };
 
 type PageTitleOverrides = Record<string, Partial<Record<string, string>>>;
