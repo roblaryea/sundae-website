@@ -23,60 +23,92 @@ export function balanceSentences(text: React.ReactNode): React.ReactNode {
   ));
 }
 
-// Private-use sentinels: stand in for the authored asterisk markers so that a
-// marker containing the sentence-ending period cannot be torn in half by the
-// sentence split below. They never occur in copy.
-const OPEN = "";
-const CLOSE = "";
-const MARKER = new RegExp(`${OPEN}([^${CLOSE}]+)${CLOSE}`, "g");
+type EmphasisRun = {
+  text: string;
+  emphasized: boolean;
+};
+
+const EMPHASIS_MARKER = /\*([^*]+)\*/g;
+const SENTENCE_BOUNDARY = /([.!?\u3002\uFF01\uFF1F]+)(\s+)/g;
+
+function emphasisRuns(statement: string): EmphasisRun[] {
+  const runs: EmphasisRun[] = [];
+  let cursor = 0;
+
+  for (const match of statement.matchAll(EMPHASIS_MARKER)) {
+    const start = match.index ?? 0;
+    if (start > cursor) {
+      runs.push({ text: statement.slice(cursor, start), emphasized: false });
+    }
+    runs.push({ text: match[1], emphasized: true });
+    cursor = start + match[0].length;
+  }
+
+  if (cursor < statement.length) {
+    runs.push({ text: statement.slice(cursor), emphasized: false });
+  }
+
+  return runs.length > 0 ? runs : [{ text: statement, emphasized: false }];
+}
+
+function sentenceRuns(runs: EmphasisRun[]): EmphasisRun[][] {
+  const sentences: EmphasisRun[][] = [[]];
+
+  for (const run of runs) {
+    let cursor = 0;
+
+    for (const match of run.text.matchAll(SENTENCE_BOUNDARY)) {
+      const start = match.index ?? 0;
+      const punctuationEnd = start + match[1].length;
+      const text = run.text.slice(cursor, punctuationEnd);
+
+      if (text) {
+        sentences[sentences.length - 1].push({ ...run, text });
+      }
+
+      sentences.push([]);
+      cursor = start + match[0].length;
+    }
+
+    const tail = run.text.slice(cursor);
+    if (tail) {
+      sentences[sentences.length - 1].push({ ...run, text: tail });
+    }
+  }
+
+  return sentences.filter((sentence) => sentence.some((run) => run.text.length > 0));
+}
 
 /**
- * The cream/conviction statements carry an authored `*emphasis*` marker. Making
- * those marker parts atomic is wrong when the emphasis sits mid-sentence: a
- * marker like `*decision.*` gets pushed onto a line of its own. Sentences are
- * the right atomic unit, so split there instead, treating the marker as
- * transparent when locating sentence boundaries.
- *
- * Falls back to atomic emphasis for a single-sentence statement, where the
- * marker is the only break point the author gave us.
+ * The cream/conviction statements carry an authored `*emphasis*` marker. Parse
+ * those markers before finding sentence boundaries so an emphasized passage
+ * can safely contain multiple sentences. This also avoids placeholder glyphs
+ * ever entering the rendered output.
  */
 export function balanceEmphasisSentences(
   statement: string,
   renderEmphasis: (part: string, key: string) => React.ReactNode,
 ): React.ReactNode {
-  const marked = statement.replace(/\*([^*]+)\*/g, (_m, part) => OPEN + part + CLOSE);
+  const runs = emphasisRuns(statement);
+  const sentences = sentenceRuns(runs);
 
-  const renderRuns = (chunk: string, prefix: string) =>
-    chunk
-      .split(MARKER)
-      .map((part, i) =>
-        i % 2 === 1 ? (
-          renderEmphasis(part, `${prefix}-${i}`)
-        ) : (
-          <React.Fragment key={`${prefix}-${i}`}>{part}</React.Fragment>
-        ),
-      );
-
-  const sentences = marked.split(new RegExp(`(?<=[.!?\\u3002\\uFF01\\uFF1F]${CLOSE}?)\\s+`));
+  const renderRuns = (parts: EmphasisRun[], prefix: string) =>
+    parts.map((part, i) =>
+      part.emphasized ? (
+        renderEmphasis(part.text, `${prefix}-${i}`)
+      ) : (
+        <React.Fragment key={`${prefix}-${i}`}>{part.text}</React.Fragment>
+      ),
+    );
 
   if (sentences.length < 2) {
-    return marked
-      .split(MARKER)
-      .map((part, i) =>
-        i % 2 === 1 ? (
-          renderEmphasis(part, `s-${i}`)
-        ) : (
-          <span key={`s-${i}`} className="inline-block">
-            {part}
-          </span>
-        ),
-      );
+    return renderRuns(runs, "s");
   }
 
   return sentences.map((sentence, s) => (
-    <span key={s} className="inline-block">
-      {renderRuns(sentence, String(s))}
-      {s < sentences.length - 1 ? " " : ""}
-    </span>
+    <React.Fragment key={s}>
+      <span className="inline-block">{renderRuns(sentence, String(s))}</span>
+      {s < sentences.length - 1 ? " " : null}
+    </React.Fragment>
   ));
 }

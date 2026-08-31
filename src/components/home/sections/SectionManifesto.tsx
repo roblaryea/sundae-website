@@ -5,6 +5,7 @@ import { type ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 import { useSettledReducedMotion } from '@/lib/useSettledReducedMotion';
 import { manifestoCopy, manifestoMoments } from './manifestoCopy';
 
@@ -27,17 +28,11 @@ const coral = { color: 'var(--accent-warm)' } as const;
 
 /** Split on the `*…*` emphasis marker → warm-coral italic span (shared convention). */
 function renderStatement(statement: string): ReactNode {
-  return statement.split(/\*([^*]+)\*/g).map((part, i) =>
-    i % 2 === 1 ? (
-      <em key={i} className="not-italic font-medium inline-block" style={coral}>
-        {part}
-      </em>
-    ) : (
-      <span key={i} className="inline-block">
-        {part}
-      </span>
-    )
-  );
+  return balanceEmphasisSentences(statement, (part, key) => (
+    <em key={key} className="not-italic font-medium" style={coral}>
+      {part}
+    </em>
+  ));
 }
 
 export function SectionManifesto() {

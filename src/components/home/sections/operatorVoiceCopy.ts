@@ -33,9 +33,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   en: {
     eyebrow: 'Instinct, backed by evidence',
     quote:
-      'You can feel the night turning by 7:15 - the covers, the pace, the table that’s been sitting too long. *The best operators trust that instinct. Sundae hands it the numbers - and proves what the call brought back.*',
+      'You can feel the night turning by 7:15 - the covers, the pace, the table that’s been sitting too long. *The best operators trust that instinct. Sundae backs it with numbers - and proves what the call brought back.*',
     resolution:
-      'Every read you have about the floor - confirmed or corrected the moment it matters - so every call is backed by evidence and measured by the margin it brings back.',
+      'Every read of the floor is confirmed or corrected when it matters - so every call is backed by evidence and measured by the margin it brings back.',
     attribution: 'What we hear on every floor we build for',
     cta: 'See how it works',
     alt: 'A server attending guests in a warmly lit dining room during evening service',
