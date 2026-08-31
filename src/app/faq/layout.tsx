@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { cookies } from "next/headers";
 import { getWebsiteMessages, resolveWebsiteLocale, type WebsiteMessages } from "@/lib/i18n";
 import { getLocalizedFaqSections } from "@/content/faqContent";
@@ -44,7 +43,7 @@ export default async function FAQLayout({ children }: { children: React.ReactNod
 
   return (
     <>
-      <Script
+      <script
         id="faq-structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
