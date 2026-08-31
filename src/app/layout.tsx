@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Fraunces, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
@@ -222,10 +221,9 @@ export default async function RootLayout({
       </head>
 
       <body className="relative antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
-        <Script
+        <script
           id="sundae-global-structured-data"
           type="application/ld+json"
-          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(globalJsonLd).replace(/</g, "\\u003c"),
           }}
