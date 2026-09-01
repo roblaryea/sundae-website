@@ -8,6 +8,7 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_architecture_page'
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 type ArchitectureLayer = {
   title: string;
@@ -91,9 +92,9 @@ type ArchitectureCopy = {
 const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureCopy> = {
   en: {
     badge: "Platform Architecture",
-    title: "Five-Layer Architecture Stack",
+    title: "One Auditable Recovery Loop",
     description: "See how Sundae moves from raw restaurant data to working intelligence across five architectural layers.",
-    stackTitle: "The Sundae Intelligence Stack",
+    stackTitle: "The Ask Sundae Stack",
     stackDescription: "Five architecture layers that power six intelligence products",
     foundation: "Built on a solid foundation of security, governance, and reliability",
     flowTitle: "From Data to Decisions",
@@ -101,9 +102,9 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     agentsTitle: "Multi-Agent AI Engine",
     agentsDescription: "Specialized AI agents working together on detection, forecasting, and context.",
     modulesTitle: "Architecture Modules",
-    modulesDescription: "Five core modules that power the Sundae Intelligence Stack",
+    modulesDescription: "Five core modules that power the Ask Sundae Stack",
     securityTitle: "Enterprise Security & Compliance",
-    securityDescription: "Security and compliance controls built for sensitive restaurant operating data.",
+    securityDescription: "SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
     engineeringTitle: "Built with Premium Engineering",
     engineeringDescription: "A production stack built for reliability, speed, and operational scale.",
     ctaTitle: "See the Architecture in Action",
@@ -112,13 +113,13 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "Explore Products",
     layers: [
       { title: "Decision Intelligence", subtitle: "Top Layer", description: "Benchmarks, insights, forecasting, automated decisions", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "AI Processing", subtitle: "Intelligence Layer", description: "Multi-agent AI, pattern detection, anomaly detection, reasoning", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "AI Processing", subtitle: "Intelligence Layer", description: "Multi-agent AI, pattern detection, anomaly detection, reasoning", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Data Processing", subtitle: "Transformation Layer", description: "Cleaning, transformation, metrics logic, enrichment", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "Data Integration", subtitle: "Unification Layer", description: "POS, labor, inventory, reservations, delivery aggregators, raw data unification", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Foundation / Infrastructure", subtitle: "Base Layer", description: "Secure pipelines, API ingestion, normalization, governance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
-      { step: "1", title: "Data Collection", description: "Sundae Core connects to 200+ restaurant systems across 12 data domains and external sources", icon: "integration" },
+      { step: "1", title: "Data Collection", description: "Sundae Core connects to 200+ food-service systems across 12 data domains and external sources", icon: "integration" },
       { step: "2", title: "AI Processing", description: "Multi-agent AI analyzes patterns and generates insights", icon: "intelligence" },
       { step: "3", title: "Intelligence Delivery", description: "Actionable recommendations delivered through language and visualizations", icon: "insights" },
     ],
@@ -128,19 +129,19 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Context Agents", description: "Understand operational context, location specifics, and business rules to provide relevant insights", icon: "intelligence" },
     ],
     modules: [
-      { name: "Sundae Core", description: "Universal data integration layer connecting 200+ restaurant systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "Universal data integration layer connecting 200+ food-service systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "AI-powered anomaly detection and real-time alert system", icon: "pulse", features: ["Anomaly Detection", "Real-time Alerts", "Pattern Analysis", "Threshold Monitoring"], colorClass: "component-icon--pulse" },
-      { name: "Sundae Intelligence", description: "Conversational AI engine for natural language intelligence", icon: "forge", features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"], colorClass: "component-icon--forge" },
+      { name: "Ask Sundae", description: "Conversational AI engine for natural language intelligence", icon: "forge", features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"], colorClass: "component-icon--forge" },
       { name: "Insights", description: "Deep analytics that turn operational data into decisions", icon: "canvas", features: ["Real-time Views", "Custom Analysis", "Visual Analytics", "Interactive Reports"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "Market intelligence and competitive benchmarking engine", icon: "watchtower", features: ["Market Insights", "Competitor Data", "Trend Analysis", "Geographic Intelligence"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
       { title: "End-to-End Encryption", description: "AES-256 encryption for data in transit and at rest", icon: "alerts" },
       { title: "Access Control", description: "Role-based access with multi-factor authentication", icon: "integration" },
-      { title: "Compliance Standards", description: "SOC 2 Type II, GDPR, and CCPA compliant", icon: "success" },
+      { title: "Compliance Programme", description: "SOC 2 Type II certification is in progress; GDPR and CCPA controls remain part of the security programme", icon: "success" },
     ],
     certs: [
-      { label: "SOC 2 Type II", state: "✓ Certified", stateClass: "text-green-600" },
+      { label: "SOC 2 Type II", state: "In progress", stateClass: "text-amber-600" },
       { label: "GDPR", state: "✓ Compliant", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ Compliant", stateClass: "text-[#C2410C]" },
       { label: "ISO 27001", state: "In Progress", stateClass: "text-amber-600" },
@@ -151,14 +152,14 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Integration Engine", icon: "integration", color: "from-green-500 to-green-600", features: ["12-domain data connectors", "RESTful API architecture", "Webhook support", "Custom integration tools"] },
       { title: "Intelligence Core", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Advanced algorithms", "Machine learning models", "Pattern recognition", "Anomaly detection"] },
       { title: "Delivery Layer", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["Interactive dashboards", "Natural language queries", "Mobile-responsive design", "Real-time alerts"] },
-      { title: "Security & Governance", icon: "quality", color: "from-red-500 to-red-600", features: ["SOC 2 Type II compliant", "End-to-end encryption", "Role-based access control", "Regular security audits"] },
+      { title: "Security & Governance", icon: "quality", color: "from-red-500 to-red-600", features: ["SOC 2 Type II programme in progress", "End-to-end encryption", "Role-based access control", "Regular security audits"] },
     ],
   },
   ar: {
     badge: "معمارية المنصة",
-    title: "حزمة معمارية من خمس طبقات",
+    title: "حلقة استرداد واحدة قابلة للتدقيق",
     description: "من استقبال البيانات الخام إلى توصيات أوضح للفريق، توضّح هذه المعمارية كيف تنظّم Sundae البيانات المتفرقة وتحولها إلى نظام قرار عملي.",
-    stackTitle: "حزمة Sundae Intelligence",
+    stackTitle: "حزمة Ask Sundae",
     stackDescription: "خمس طبقات مترابطة تشغّل منتجات Sundae الأساسية",
     foundation: "مبني على أساس واضح من الأمن والحوكمة والاعتمادية",
     flowTitle: "من البيانات إلى القرارات",
@@ -168,7 +169,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     modulesTitle: "وحدات المعمارية",
     modulesDescription: "خمس طبقات أساسية تنظّم كيف تتحرك البيانات والتحليلات عبر المنصة",
     securityTitle: "أمن وامتثال على مستوى المؤسسات",
-    securityDescription: "معايير أمن وامتثال بمستوى البنوك تحمي بيانات مطعمك",
+    securityDescription: "الحصول على شهادة SOC 2 Type II قيد التنفيذ، وتظل ضوابط GDPR وCCPA جزءاً من برنامج الأمن لدى Sundae.",
     engineeringTitle: "مبني بهندسة عملية",
     engineeringDescription: "بنية موثوقة مصممة للتشغيل المستمر، والسرعة، والتوسع الآمن",
     ctaTitle: "شاهد المعمارية أثناء العمل",
@@ -177,7 +178,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "استعرض المنتجات",
     layers: [
       { title: "ذكاء القرار", subtitle: "الطبقة العليا", description: "مقارنات، رؤى، توقعات، وقرارات آلية", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "معالجة الذكاء الاصطناعي", subtitle: "طبقة الذكاء", description: "ذكاء متعدد الوكلاء، واكتشاف الأنماط، واكتشاف الشذوذ، والاستدلال", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "معالجة الذكاء الاصطناعي", subtitle: "طبقة الذكاء", description: "ذكاء متعدد الوكلاء، واكتشاف الأنماط، واكتشاف الشذوذ، والاستدلال", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "معالجة البيانات", subtitle: "طبقة التحويل", description: "تنظيف، تحويل، منطق المقاييس، وإثراء البيانات", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "تكامل البيانات", subtitle: "طبقة التوحيد", description: "POS والعمالة والمخزون والحجوزات والتوصيل وتوحيد البيانات الخام", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "الأساس / البنية التحتية", subtitle: "طبقة الأساس", description: "مسارات آمنة، واستقبال عبر API، وتوحيد، وحوكمة", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -195,17 +196,17 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     modules: [
       { name: "Sundae Core", description: "طبقة تكامل بيانات موحدة تربط أكثر من 30 نظامًا عبر 12 مجالًا", icon: "scout", features: ["تكامل POS", "أنظمة العمالة", "المخزون", "مزامنة فورية"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "اكتشاف شذوذ مدعوم بالذكاء الاصطناعي ونظام تنبيهات لحظي", icon: "pulse", features: ["اكتشاف الشذوذ", "تنبيهات لحظية", "تحليل الأنماط", "مراقبة الحدود"], colorClass: "component-icon--pulse" },
-      { name: "Sundae Intelligence", description: "محرك ذكاء محادثي باللغة الطبيعية", icon: "forge", features: ["لغة طبيعية", "فهم السياق", "محرك استعلام", "استجابات ذكية"], colorClass: "component-icon--forge" },
+      { name: "Ask Sundae", description: "محرك ذكاء محادثي باللغة الطبيعية", icon: "forge", features: ["لغة طبيعية", "فهم السياق", "محرك استعلام", "استجابات ذكية"], colorClass: "component-icon--forge" },
       { name: "Insights", description: "طبقة تصوّر ديناميكية ولوحات ذكاء", icon: "canvas", features: ["لوحات لحظية", "عروض مخصصة", "تحليلات مرئية", "تقارير تفاعلية"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "محرك ذكاء سوقي ومقارنة تنافسية", icon: "watchtower", features: ["رؤى السوق", "بيانات المنافسين", "تحليل الاتجاهات", "ذكاء جغرافي"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
       { title: "تشفير شامل", description: "تشفير AES-256 للبيانات أثناء النقل والتخزين", icon: "alerts" },
       { title: "التحكم بالوصول", description: "وصول قائم على الأدوار مع مصادقة متعددة العوامل", icon: "integration" },
-      { title: "معايير الامتثال", description: "متوافق مع SOC 2 Type II وGDPR وCCPA", icon: "success" },
+      { title: "برنامج الامتثال", description: "الحصول على شهادة SOC 2 Type II قيد التنفيذ، وتظل ضوابط GDPR وCCPA جزءاً من برنامج الأمن", icon: "success" },
     ],
     certs: [
-      { label: "SOC 2 Type II", state: "✓ معتمد", stateClass: "text-green-600" },
+      { label: "SOC 2 Type II", state: "قيد التنفيذ", stateClass: "text-amber-600" },
       { label: "GDPR", state: "✓ متوافق", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ متوافق", stateClass: "text-[#C2410C]" },
       { label: "ISO 27001", state: "قيد التنفيذ", stateClass: "text-amber-600" },
@@ -216,35 +217,35 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "محرك التكامل", icon: "integration", color: "from-green-500 to-green-600", features: ["موصلات بيانات عبر 12 مجالًا", "معمارية RESTful", "دعم Webhook", "أدوات تكامل مخصصة"] },
       { title: "نواة الذكاء", icon: "insights", color: "from-orange-500 to-orange-600", features: ["خوارزميات متقدمة", "نماذج تعلم آلي", "التعرف على الأنماط", "اكتشاف الشذوذ"] },
       { title: "طبقة الإخراج", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["لوحات تفاعلية", "استعلامات باللغة الطبيعية", "تصميم متجاوب للجوال", "تنبيهات فورية"] },
-      { title: "الأمن والحوكمة", icon: "quality", color: "from-red-500 to-red-600", features: ["متوافق مع SOC 2 Type II", "تشفير شامل", "التحكم بالوصول حسب الدور", "مراجعات أمنية منتظمة"] },
+      { title: "الأمن والحوكمة", icon: "quality", color: "from-red-500 to-red-600", features: ["برنامج SOC 2 Type II قيد التنفيذ", "تشفير شامل", "التحكم بالوصول حسب الدور", "مراجعات أمنية منتظمة"] },
     ],
   },
   fr: {
     badge: "Architecture plateforme",
-    title: "Pile d'architecture en cinq couches",
-    description: "De l'ingestion brute a des recommandations utiles pour l equipe, cette architecture montre comment Sundae organise des donnees eparses en un systeme de decision exploitable.",
+    title: "Une boucle de récupération auditable",
+    description: "De l'ingestion brute à des recommandations utiles pour l'équipe, cette architecture montre comment Sundae organise des données éparses en un système de décision exploitable.",
     stackTitle: "La pile d'intelligence Sundae",
-    stackDescription: "Cinq couches reliees entre elles pour faire tourner les produits essentiels de Sundae",
-    foundation: "Construite sur une base claire de securite, de gouvernance et de fiabilite",
+    stackDescription: "Cinq couches reliées entre elles pour faire tourner les produits essentiels de Sundae",
+    foundation: "Construite sur une base claire de sécurité, de gouvernance et de fiabilité",
     flowTitle: "Des données aux décisions",
-    flowDescription: "Comment les donnees passent de l ingestion a une lecture exploitable dans le produit",
+    flowDescription: "Comment les données passent de l'ingestion à une lecture exploitable dans le produit",
     agentsTitle: "Moteur IA multi-agents",
-    agentsDescription: "Des agents specialises se repartissent l analyse pour produire une lecture plus utile et plus rapide",
+    agentsDescription: "Des agents spécialisés se répartissent l'analyse pour produire une lecture plus utile et plus rapide",
     modulesTitle: "Modules d'architecture",
-    modulesDescription: "Cinq couches principales qui structurent la circulation des donnees et des analyses dans la plateforme",
+    modulesDescription: "Cinq couches principales qui structurent la circulation des données et des analyses dans la plateforme",
     securityTitle: "Sécurité et conformité d'entreprise",
-    securityDescription: "Des standards de sécurité et de conformité de niveau bancaire protègent vos données",
-    engineeringTitle: "Concu avec une ingenierie solide",
-    engineeringDescription: "Une base technique pensee pour la continuite de service, la vitesse et une croissance fiable",
+    securityDescription: "La certification SOC 2 Type II est en cours. Les contrôles RGPD et CCPA restent intégrés au programme de sécurité de Sundae.",
+    engineeringTitle: "Conçu avec une ingénierie solide",
+    engineeringDescription: "Une base technique pensée pour la continuité de service, la vitesse et une croissance fiable",
     ctaTitle: "Voir l'architecture en action",
     ctaDescription: "Réservez une présentation technique avec notre équipe.",
-    ctaPrimary: "Reserver une demo",
+    ctaPrimary: "Réserver une demo",
     ctaSecondary: "Explorer les produits",
     layers: [
       { title: "Intelligence décisionnelle", subtitle: "Couche supérieure", description: "Benchmarks, insights, prévisions, décisions automatisées", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "Traitement IA", subtitle: "Couche intelligence", description: "IA multi-agents, détection de motifs, anomalies, raisonnement", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "Traitement IA", subtitle: "Couche intelligence", description: "IA multi-agents, détection de motifs, anomalies, raisonnement", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Traitement des données", subtitle: "Couche transformation", description: "Nettoyage, transformation, logique métrique, enrichissement", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
-      { title: "Intégration des données", subtitle: "Couche unification", description: "POS, main-d'oeuvre, stock, réservations, livraison, unification brute", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
+      { title: "Intégration des données", subtitle: "Couche unification", description: "POS, main-d'œuvre, stock, réservations, livraison, unification brute", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Fondation / infrastructure", subtitle: "Couche de base", description: "Pipelines sécurisés, ingestion API, normalisation, gouvernance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
@@ -254,23 +255,23 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ],
     agents: [
       { name: "Agents de motifs", description: "Identifient les patterns récurrents, tendances saisonnières et corrélations cachées", icon: "visibility" },
-      { name: "Agents de prévision", description: "Prédissent ventes, besoins en main-d'oeuvre, inventaire et demande opérationnelle", icon: "forecasting" },
+      { name: "Agents de prévision", description: "Prédissent ventes, besoins en main-d'œuvre, inventaire et demande opérationnelle", icon: "forecasting" },
       { name: "Agents de contexte", description: "Comprennent le contexte opérationnel, les spécificités de site et les règles métier", icon: "intelligence" },
     ],
     modules: [
-      { name: "Sundae Core", description: "Couche d'intégration universelle reliant 200+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'oeuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "Couche d'intégration universelle reliant 200+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'œuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "Détection d'anomalies assistée par IA et alertes en temps réel", icon: "pulse", features: ["Détection d'anomalies", "Alertes temps réel", "Analyse de motifs", "Surveillance des seuils"], colorClass: "component-icon--pulse" },
-      { name: "Sundae Intelligence", description: "Moteur d'IA conversationnelle en langage naturel", icon: "forge", features: ["Langage naturel", "Compréhension du contexte", "Moteur de requête", "Réponses IA"], colorClass: "component-icon--forge" },
+      { name: "Ask Sundae", description: "Moteur d'IA conversationnelle en langage naturel", icon: "forge", features: ["Langage naturel", "Compréhension du contexte", "Moteur de requête", "Réponses IA"], colorClass: "component-icon--forge" },
       { name: "Insights", description: "Couche de visualisation dynamique et d'intelligence de dashboard", icon: "canvas", features: ["Dashboards temps réel", "Vues personnalisées", "Analytique visuelle", "Rapports interactifs"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "Moteur de veille marché et benchmarking concurrentiel", icon: "watchtower", features: ["Insights marché", "Données concurrents", "Analyse de tendances", "Intelligence géographique"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
       { title: "Chiffrement de bout en bout", description: "AES-256 pour les données en transit et au repos", icon: "alerts" },
       { title: "Contrôle d'accès", description: "Accès basé sur les rôles avec authentification multi-facteur", icon: "integration" },
-      { title: "Standards de conformité", description: "Conforme SOC 2 Type II, GDPR et CCPA", icon: "success" },
+      { title: "Programme de conformité", description: "La certification SOC 2 Type II est en cours ; les contrôles RGPD et CCPA restent intégrés au programme de sécurité", icon: "success" },
     ],
     certs: [
-      { label: "SOC 2 Type II", state: "✓ Certifié", stateClass: "text-green-600" },
+      { label: "SOC 2 Type II", state: "En cours", stateClass: "text-amber-600" },
       { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ Conforme", stateClass: "text-[#C2410C]" },
       { label: "ISO 27001", state: "En cours", stateClass: "text-amber-600" },
@@ -281,33 +282,33 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Moteur d'intégration", icon: "integration", color: "from-green-500 to-green-600", features: ["Connecteurs 12 domaines", "Architecture API REST", "Support webhook", "Outils d'intégration personnalisés"] },
       { title: "Core intelligence", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Algorithmes avancés", "Modèles ML", "Reconnaissance de motifs", "Détection d'anomalies"] },
       { title: "Couche de diffusion", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["Dashboards interactifs", "Requêtes en langage naturel", "Design responsive", "Alertes temps réel"] },
-      { title: "Sécurité et gouvernance", icon: "quality", color: "from-red-500 to-red-600", features: ["Conforme SOC 2 Type II", "Chiffrement de bout en bout", "Contrôle d'accès par rôle", "Audits de sécurité réguliers"] },
+      { title: "Sécurité et gouvernance", icon: "quality", color: "from-red-500 to-red-600", features: ["Programme SOC 2 Type II en cours", "Chiffrement de bout en bout", "Contrôle d'accès par rôle", "Audits de sécurité réguliers"] },
     ],
   },
   es: {
     badge: "Arquitectura de plataforma",
-    title: "Pila de arquitectura de cinco capas",
-    description: "Desde la ingesta de datos en bruto hasta recomendaciones utiles para el equipo, esta arquitectura muestra como Sundae ordena datos dispersos y los convierte en un sistema de decision util.",
+    title: "Un ciclo de recuperación auditable",
+    description: "Desde la ingesta de datos en bruto hasta recomendaciones útiles para el equipo, esta arquitectura muestra cómo Sundae ordena datos dispersos y los convierte en un sistema de decisión útil.",
     stackTitle: "La pila de inteligencia de Sundae",
-    stackDescription: "Cinco capas conectadas entre si para sostener los productos principales de Sundae",
+    stackDescription: "Cinco capas conectadas entre sí para sostener los productos principales de Sundae",
     foundation: "Construida sobre una base clara de seguridad, gobernanza y fiabilidad",
     flowTitle: "De datos a decisiones",
-    flowDescription: "Como pasan los datos desde la ingesta hasta una lectura util dentro del producto",
+    flowDescription: "Cómo pasan los datos desde la ingesta hasta una lectura útil dentro del producto",
     agentsTitle: "Motor de IA multiagente",
-    agentsDescription: "Agentes especializados se reparten el analisis para entregar una lectura mas util y mas rapida",
+    agentsDescription: "Agentes especializados se reparten el análisis para entregar una lectura más útil y más rápida",
     modulesTitle: "Módulos de arquitectura",
-    modulesDescription: "Cinco capas principales que ordenan como circulan los datos y el analisis por la plataforma",
+    modulesDescription: "Cinco capas principales que ordenan cómo circulan los datos y el análisis por la plataforma",
     securityTitle: "Seguridad y cumplimiento empresarial",
-    securityDescription: "Estándares de seguridad y cumplimiento de nivel bancario protegen tus datos",
-    engineeringTitle: "Construido con ingenieria solida",
-    engineeringDescription: "Una base tecnica pensada para continuidad operativa, velocidad y crecimiento fiable",
+    securityDescription: "La certificación SOC 2 Type II está en curso. Los controles GDPR y CCPA siguen formando parte del programa de seguridad de Sundae.",
+    engineeringTitle: "Construido con ingeniería sólida",
+    engineeringDescription: "Una base técnica pensada para continuidad operativa, velocidad y crecimiento fiable",
     ctaTitle: "Ver la arquitectura en acción",
     ctaDescription: "Reserva una visita técnica con nuestro equipo.",
     ctaPrimary: "Reservar una demo",
     ctaSecondary: "Explorar productos",
     layers: [
       { title: "Inteligencia de decisiones", subtitle: "Capa superior", description: "Benchmarks, insights, forecasting, decisiones automatizadas", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "Procesamiento de IA", subtitle: "Capa de inteligencia", description: "IA multiagente, detección de patrones, anomalías y razonamiento", color: "bg-gradient-to-r from-stone-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "Procesamiento de IA", subtitle: "Capa de inteligencia", description: "IA multiagente, detección de patrones, anomalías y razonamiento", color: "bg-gradient-to-r from-stone-700 to-stone-800", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Procesamiento de datos", subtitle: "Capa de transformación", description: "Limpieza, transformación, lógica de métricas, enriquecimiento", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "Integración de datos", subtitle: "Capa de unificación", description: "POS, personal, inventario, reservas, delivery y unificación de datos", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Base / infraestructura", subtitle: "Capa base", description: "Pipelines seguros, ingesta API, normalización, gobernanza", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -325,17 +326,17 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     modules: [
       { name: "Sundae Core", description: "Capa de integración universal que conecta más de 30 sistemas en 12 dominios", icon: "scout", features: ["Integración POS", "Sistemas de personal", "Inventario", "Sincronización en tiempo real"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "Detección de anomalías con IA y alertas en tiempo real", icon: "pulse", features: ["Detección de anomalías", "Alertas en tiempo real", "Análisis de patrones", "Monitoreo de umbrales"], colorClass: "component-icon--pulse" },
-      { name: "Sundae Intelligence", description: "Motor conversacional de IA para inteligencia en lenguaje natural", icon: "forge", features: ["Lenguaje natural", "Comprensión de contexto", "Motor de consultas", "Respuestas de IA"], colorClass: "component-icon--forge" },
+      { name: "Ask Sundae", description: "Motor conversacional de IA para inteligencia en lenguaje natural", icon: "forge", features: ["Lenguaje natural", "Comprensión de contexto", "Motor de consultas", "Respuestas de IA"], colorClass: "component-icon--forge" },
       { name: "Insights", description: "Capa dinámica de visualización e inteligencia de paneles", icon: "canvas", features: ["Paneles en tiempo real", "Vistas personalizadas", "Analítica visual", "Informes interactivos"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "Motor de inteligencia de mercado y benchmarking competitivo", icon: "watchtower", features: ["Insights de mercado", "Datos de competidores", "Análisis de tendencias", "Inteligencia geográfica"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
       { title: "Cifrado de extremo a extremo", description: "AES-256 para datos en tránsito y en reposo", icon: "alerts" },
       { title: "Control de acceso", description: "Acceso basado en roles con autenticación multifactor", icon: "integration" },
-      { title: "Estándares de cumplimiento", description: "Compatible con SOC 2 Type II, GDPR y CCPA", icon: "success" },
+      { title: "Programa de cumplimiento", description: "La certificación SOC 2 Type II está en curso; los controles GDPR y CCPA siguen formando parte del programa de seguridad", icon: "success" },
     ],
     certs: [
-      { label: "SOC 2 Type II", state: "✓ Certificado", stateClass: "text-green-600" },
+      { label: "SOC 2 Type II", state: "En curso", stateClass: "text-amber-600" },
       { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ Conforme", stateClass: "text-[#C2410C]" },
       { label: "ISO 27001", state: "En progreso", stateClass: "text-amber-600" },
@@ -346,14 +347,57 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Motor de integración", icon: "integration", color: "from-green-500 to-green-600", features: ["Conectores de 12 dominios", "Arquitectura API REST", "Soporte de webhooks", "Herramientas de integración personalizadas"] },
       { title: "Núcleo de inteligencia", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Algoritmos avanzados", "Modelos ML", "Reconocimiento de patrones", "Detección de anomalías"] },
       { title: "Capa de entrega", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["Paneles interactivos", "Consultas en lenguaje natural", "Diseño responsive", "Alertas en tiempo real"] },
-      { title: "Seguridad y gobernanza", icon: "quality", color: "from-red-500 to-red-600", features: ["Cumple SOC 2 Type II", "Cifrado de extremo a extremo", "Control de acceso por roles", "Auditorías de seguridad regulares"] },
+      { title: "Seguridad y gobernanza", icon: "quality", color: "from-red-500 to-red-600", features: ["Programa SOC 2 Type II en curso", "Cifrado de extremo a extremo", "Control de acceso por roles", "Auditorías de seguridad regulares"] },
     ],
   },
 } as const;
 
 export default function ArchitecturePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedArchitectureCopy[locale as keyof typeof localizedArchitectureCopy] ?? getGeneratedLocalCopy(localizedArchitectureCopy, generatedLocalCopy.localizedArchitectureCopy, locale) ?? localizedArchitectureCopy.en;
+  const sourceUi = localizedArchitectureCopy[locale as keyof typeof localizedArchitectureCopy] ?? getGeneratedLocalCopy(localizedArchitectureCopy, generatedLocalCopy.localizedArchitectureCopy, locale) ?? localizedArchitectureCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const ui = {
+    ...sourceUi,
+    title: positioning.productHeroTitle,
+    description: positioning.architectureDescription,
+    securityDescription: positioning.soc2Description,
+    layers: sourceUi.layers.map((layer, index) =>
+      index === 1
+        ? {
+            ...layer,
+            title: positioning.architectureProcessTitle,
+            description: positioning.architectureProcessDescription,
+          }
+        : layer,
+    ),
+    steps: sourceUi.steps.map((step, index) =>
+      index === 1
+        ? {
+            ...step,
+            title: positioning.architectureProcessTitle,
+            description: positioning.architectureProcessDescription,
+          }
+        : step,
+    ),
+    agentsTitle: positioning.architectureEngineTitle,
+    agentsDescription: positioning.architectureEngineDescription,
+    securityBullets: sourceUi.securityBullets.map((bullet, index) =>
+      index === 2 ? { ...bullet, description: positioning.soc2Description } : bullet,
+    ),
+    certs: sourceUi.certs.map((cert, index) =>
+      index === 0
+        ? { ...cert, state: positioning.soc2State, stateClass: 'text-amber-600' }
+        : cert,
+    ),
+    engineeringCards: sourceUi.engineeringCards.map((card, index) =>
+      index === sourceUi.engineeringCards.length - 1
+        ? {
+            ...card,
+            features: [positioning.securityCardSoc2, ...card.features.slice(1)],
+          }
+        : card,
+    ),
+  };
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -395,7 +439,7 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.flowTitle}</h2>
@@ -443,7 +487,7 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.modulesTitle}</h2>
@@ -502,7 +546,7 @@ export default function ArchitecturePage() {
             </FadeUp>
 
             <FadeUp delay={0.15}>
-              <div className="bg-gradient-to-br from-stone-50 to-orange-50/30 rounded-2xl p-8 shadow-xl border-2 border-[var(--border-default)]">
+              <div className="bg-white/[0.03] rounded-2xl p-8 shadow-xl border border-[var(--border-default)]">
                 <div className="text-center mb-6">
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                     <SundaeIcon name="success" size="xl" className="text-white" />
@@ -561,7 +605,7 @@ export default function ArchitecturePage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" href="/demo">{ui.ctaPrimary}</Button>
-        <Button variant="outline-light" size="lg" href="/product">{ui.ctaSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/product">{ui.ctaSecondary}</Button>
       </PageCTA>
     </div>
   );

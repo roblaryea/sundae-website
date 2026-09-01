@@ -40,8 +40,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Best practices propagate organically", description: "Cross-Intelligence finds what's working at the top performer and routes it to the rest.", icon: "owners" },
       { title: "Royalty disputes drop to near-zero", description: "One source of truth on net revenue. The conversation becomes coaching, not auditing.", icon: "support" },
     ],
-    ctaTitle: "See your network on one ranking.",
-    ctaDescription: "30 minutes. Your franchisees. The standards you would have spotted slipping.",
+    ctaTitle: "Rank the network. Recover the margin.",
+    ctaDescription: "30 minutes. Your franchisees. The standards you would have spotted slipping - and the margin you would recover bringing them back.",
     ctaButton: "Book a Franchise Walk-through",
   },
   ar: {
@@ -76,8 +76,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "أفضل الممارسات تنتشر عضوياً", description: "Cross-Intelligence يجد ما يعمل عند الأفضل ويوجهه للبقية.", icon: "owners" },
       { title: "نزاعات الإتاوة تنخفض إلى الصفر تقريباً", description: "مصدر حقيقة واحد على صافي الإيرادات. المحادثة تصبح تدريباً لا تدقيقاً.", icon: "support" },
     ],
-    ctaTitle: "شاهد شبكتك في ترتيب واحد.",
-    ctaDescription: "30 دقيقة. حاملو امتيازك. المعايير التي كنت ستلتقطها وهي تنزلق.",
+    ctaTitle: "رتّب الشبكة. استعد الهامش.",
+    ctaDescription: "30 دقيقة. حاملو امتيازك. المعايير التي كنت ستلتقطها وهي تنزلق - والهامش الذي ستستعيده بإعادتها.",
     ctaButton: "احجز جولة امتياز",
   },
   fr: {
@@ -112,8 +112,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Les meilleures pratiques se propagent", description: "Cross-Intelligence trouve ce qui marche chez le meilleur et le route vers les autres.", icon: "owners" },
       { title: "Disputes royalties quasi nulles", description: "Une source de vérité sur le revenu net. La conversation devient coaching, pas audit.", icon: "support" },
     ],
-    ctaTitle: "Votre réseau sur un seul classement.",
-    ctaDescription: "30 minutes. Vos franchisés. Les standards que vous auriez vus glisser.",
+    ctaTitle: "Classez le réseau. Récupérez la marge.",
+    ctaDescription: "30 minutes. Vos franchisés. Les standards que vous auriez vus glisser - et la marge que vous récupéreriez en les redressant.",
     ctaButton: "Réserver une visite franchise",
   },
   es: {
@@ -148,8 +148,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Las mejores prácticas se propagan orgánicamente", description: "Cross-Intelligence encuentra lo que funciona en el mejor y lo enruta al resto.", icon: "owners" },
       { title: "Disputas de regalías casi cero", description: "Una fuente de verdad en ingreso neto. La conversación es coaching, no auditoría.", icon: "support" },
     ],
-    ctaTitle: "Tu red en un solo ranking.",
-    ctaDescription: "30 minutos. Tus franquiciados. Los estándares que habrías visto deslizarse.",
+    ctaTitle: "Clasifica la red. Recupera el margen.",
+    ctaDescription: "30 minutos. Tus franquiciados. Los estándares que habrías visto deslizarse - y el margen que recuperarías al restablecerlos.",
     ctaButton: "Reservar recorrido franquicia",
   },
 };

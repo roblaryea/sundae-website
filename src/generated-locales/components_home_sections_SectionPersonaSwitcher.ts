@@ -17,7 +17,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Betriebsleiter",
           "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
           "painCopy": "Fünfzig Standorte, nur ein Sie - und kein einziger Live-Blick darauf, welcher heute Abend kippt.",
-          "outcome": "Echtzeit-Transparenz für jede Schicht.",
+          "outcome": "Zurückgewonnene Marge in jeder Schicht.",
           "outcomeCopy": "Ob Sie der Filialleiter vor Ort sind oder der COO von fünfzig Standorten - Pulse zeigt Ihnen, welcher Standort gerade jetzt Hilfe braucht: Tempo, Personal, Verluste, alles wird während der Schicht aktualisiert."
         },
         {
@@ -33,7 +33,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEOs und Eigentümer",
           "pain": "Ihr schlechtester Standort ist bis zur Zusammenfassung am Donnerstag unsichtbar.",
           "painCopy": "Bis Sie es sehen, sind drei weitere Tage Marge verloren gegangen.",
-          "outcome": "Portfolio-Wahrheit, jeden Morgen.",
+          "outcome": "Die Lecks - und die Rückgewinnung - jeden Morgen.",
           "outcomeCopy": "Tägliche AI-Briefings für jede Marke und jeden Standort. Wo Sie gewinnen, wo Sie verlieren, was der Markt Ihnen angetan hat, was Sie heute tun sollten."
         },
         {
@@ -49,7 +49,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "HR- und Personalverantwortliche",
           "pain": "Arbeitsabweichungen zeigen sich zu spät.",
           "painCopy": "Änderungen im Dienstplan erfolgen instinktiv. Bis der Bericht zurückkommt, ist die Überstundenvergütung bereits gezahlt.",
-          "outcome": "Arbeitsabweichungen in Echtzeit.",
+          "outcome": "Zurückgewonnene Arbeitsmarge, in Echtzeit.",
           "outcomeCopy": "Pulse zeigt live den Arbeitsanteil nach Standort, die Produktivität der Mitarbeiter und das Risiko von Überstunden - nach Schicht, nicht nach Monat."
         },
         {
@@ -77,7 +77,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Responsables des opérations",
           "pain": "Vous ne pouvez pas être dans chaque restaurant en même temps.",
           "painCopy": "Cinquante salles, un seul vous - et aucune vue live de celle qui décroche ce soir.",
-          "outcome": "Visibilité en temps réel sur chaque service.",
+          "outcome": "Marge récupérée sur chaque service.",
           "outcomeCopy": "Que vous soyez le directeur sur le terrain ou le COO de cinquante points de vente, Pulse montre quel emplacement a besoin d'aide en ce moment - cadence, main-d'œuvre, fuites, le tout mis à jour pendant le service."
         },
         {
@@ -93,7 +93,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "PDG et Propriétaires",
           "pain": "Votre pire emplacement est invisible jusqu'au récapitulatif de jeudi.",
           "painCopy": "Au moment où vous le voyez, trois jours de marge supplémentaires se sont évaporés.",
-          "outcome": "Vérité du portefeuille, chaque matin.",
+          "outcome": "Les fuites - et la récupération - chaque matin.",
           "outcomeCopy": "Briefings quotidiens en IA pour chaque marque et emplacement. Où vous gagnez, où vous perdez, ce que le marché vous a fait, quoi faire aujourd'hui."
         },
         {
@@ -109,7 +109,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Responsables RH et Personnel",
           "pain": "La variance de main-d'œuvre apparaît trop tard.",
           "painCopy": "Les changements d'horaire se font par instinct. Au moment où le rapport revient, les heures supplémentaires sont déjà payées.",
-          "outcome": "Variance de main-d'œuvre, en temps réel.",
+          "outcome": "Marge de main-d'œuvre récupérée, en temps réel.",
           "outcomeCopy": "Pulse affiche en direct le pourcentage de main-d'œuvre par emplacement, la productivité des serveurs et le risque d'heures supplémentaires - par quart, pas par mois."
         },
         {
@@ -137,7 +137,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Operationele Leiders",
           "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
           "painCopy": "Vijftig vloeren, één u - en geen enkel live beeld van welke vanavond wegzakt.",
-          "outcome": "Live inzicht in elke shift.",
+          "outcome": "Teruggewonnen marge in elke shift.",
           "outcomeCopy": "Of u nu de bedrijfsleider op de vloer bent of de COO over vijftig vestigingen - Pulse toont u welke locatie nu hulp nodig heeft: tempo, personeel, lekkage, allemaal bijgewerkt tijdens de shift."
         },
         {
@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO's en Eigenaren",
           "pain": "Je slechtste locatie is onzichtbaar tot de recap van donderdag.",
           "painCopy": "Tegen de tijd dat je het ziet, zijn er alweer drie dagen marge verloren.",
-          "outcome": "Portfolio waarheid, elke ochtend.",
+          "outcome": "De lekken - en het herstel - elke ochtend.",
           "outcomeCopy": "Dagelijkse AI-briefings voor elk merk en elke locatie. Waar je wint, waar je verliest, wat de markt met je deed, wat je vandaag moet doen."
         },
         {
@@ -169,7 +169,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "HR en Personeelsleiders",
           "pain": "Arbeidsafwijkingen worden te laat zichtbaar.",
           "painCopy": "Roosterwijzigingen gebeuren op gevoel. Tegen de tijd dat het rapport terugkomt, zijn de overuren al uitbetaald.",
-          "outcome": "Arbeidsvariantie, op het moment zelf.",
+          "outcome": "Teruggewonnen arbeidsmarge, op het moment zelf.",
           "outcomeCopy": "Pulse toont live het arbeidspercentage per locatie, de productiviteit van de bediening en het risico op overuren - per shift, niet per maand."
         },
         {
@@ -197,7 +197,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "قادة العمليات",
           "pain": "لا يمكنك أن تكون في كل مطعم في آن واحد.",
           "painCopy": "خمسون صالة، وأنت وحدك - ولا رؤية حية واحدة تكشف أيها يتعثّر الليلة.",
-          "outcome": "رؤية حية لكل وردية.",
+          "outcome": "استرداد الهامش عبر كل وردية.",
           "outcomeCopy": "سواء كنت مدير الفرع على أرض الواقع أو الرئيس التنفيذي للعمليات على خمسين فرعاً، يُظهر لك Pulse أي موقع يحتاج إلى مساعدة الآن - الإيقاع، العمالة، التسرب، كل ذلك يُحدَّث أثناء الوردية."
         },
         {
@@ -213,7 +213,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "الرؤساء التنفيذيون والمالكون",
           "pain": "أسوأ موقع لديك غير مرئي حتى ملخص يوم الخميس.",
           "painCopy": "بحلول الوقت الذي تراه فيه، تسربت ثلاثة أيام أخرى من الهامش.",
-          "outcome": "حقيقة المحفظة، كل صباح.",
+          "outcome": "التسربات - والاسترداد - كل صباح.",
           "outcomeCopy": "تحديثات يومية بالذكاء الاصطناعي عبر كل علامة تجارية وموقع. أين تفوز، أين تتسرب، ماذا فعل السوق بك، ماذا تفعل اليوم."
         },
         {
@@ -229,7 +229,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "قادة الموارد البشرية والأفراد",
           "pain": "تظهر فروقات العمل في وقت متأخر جداً.",
           "painCopy": "تحدث تغييرات الجدول بناءً على الحدس. بحلول الوقت الذي يعود فيه التقرير، يكون قد تم دفع ساعات العمل الإضافية بالفعل.",
-          "outcome": "فروقات العمل، في الوقت الحالي.",
+          "outcome": "استرداد هامش العمالة، في اللحظة.",
           "outcomeCopy": "يُظهر Pulse نسبة العمالة الحية حسب الموقع، وإنتاجية النُّدُل، ومخاطر الساعات الإضافية - حسب الوردية، وليس حسب الشهر."
         },
         {
@@ -257,7 +257,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Líderes de Operaciones",
           "pain": "No puedes estar en cada restaurante a la vez.",
           "painCopy": "Cincuenta locales, un solo tú - y ninguna vista en vivo de cuál se está cayendo esta noche.",
-          "outcome": "Visibilidad en tiempo real de cada turno.",
+          "outcome": "Margen recuperado en cada turno.",
           "outcomeCopy": "Ya seas el gerente en el local o el COO de cincuenta sucursales, Pulse te muestra qué ubicación necesita ayuda ahora mismo: ritmo, mano de obra, pérdidas, todo actualizado durante el turno."
         },
         {
@@ -273,7 +273,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEOs y Propietarios",
           "pain": "Tu peor ubicación es invisible hasta el resumen del jueves.",
           "painCopy": "Para cuando lo veas, tres días más de margen se han perdido.",
-          "outcome": "Verdad del portafolio, cada mañana.",
+          "outcome": "Las fugas - y la recuperación - cada mañana.",
           "outcomeCopy": "Informes diarios de IA en todas las marcas y ubicaciones. Donde estás ganando, donde estás perdiendo, lo que el mercado te hizo, qué hacer hoy."
         },
         {
@@ -289,7 +289,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Líderes de RRHH y Personas",
           "pain": "La variación laboral aparece demasiado tarde.",
           "painCopy": "Los cambios de horario se hacen por instinto. Para cuando vuelve el informe, las horas extra ya están pagadas.",
-          "outcome": "Variación laboral, en el momento.",
+          "outcome": "Margen laboral recuperado, en el momento.",
           "outcomeCopy": "Pulse muestra el % de mano de obra en vivo por ubicación, la productividad del personal de sala y el riesgo de horas extras - por turno, no por mes."
         },
         {
@@ -317,7 +317,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Líderes de Operações",
           "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
           "painCopy": "Cinquenta salões, só você - e nenhuma visão ao vivo de qual está escorregando hoje à noite.",
-          "outcome": "Visibilidade em tempo real de cada turno.",
+          "outcome": "Margem recuperada em cada turno.",
           "outcomeCopy": "Seja você o gerente no salão ou o COO de cinquenta unidades, o Pulse mostra qual local precisa de ajuda agora - ritmo, mão de obra, vazamentos, tudo atualizado durante o turno."
         },
         {
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEOs e Proprietários",
           "pain": "Sua pior localização está invisível até o resumo de quinta-feira.",
           "painCopy": "Quando você vê, mais três dias de margem já se foram.",
-          "outcome": "Verdade do portfólio, todas as manhãs.",
+          "outcome": "Os vazamentos - e a recuperação - todas as manhãs.",
           "outcomeCopy": "Briefings diários de IA em todas as marcas e locais. Onde você está ganhando, onde está perdendo, o que o mercado fez com você, o que fazer hoje."
         },
         {
@@ -349,7 +349,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Líderes de RH e Pessoas",
           "pain": "A variação de mão de obra aparece tarde demais.",
           "painCopy": "Mudanças de horário acontecem por instinto. Quando o relatório chega, as horas extras já foram pagas.",
-          "outcome": "Variação de mão de obra, no momento.",
+          "outcome": "Margem de mão de obra recuperada, no momento.",
           "outcomeCopy": "O Pulse mostra a porcentagem de mão de obra ao vivo por localização, a produtividade da equipe de salão e o risco de horas extras - por turno, não por mês."
         },
         {
@@ -377,7 +377,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "آپریشنز کے رہنما",
           "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
           "painCopy": "پچاس فلور، اور اکیلے آپ - اور یہ دیکھنے کا کوئی لائیو منظر نہیں کہ آج رات کون سا پھسل رہا ہے۔",
-          "outcome": "ہر شفٹ میں براہ راست نظر۔",
+          "outcome": "ہر شفٹ میں بحال کیا گیا مارجن۔",
           "outcomeCopy": "چاہے آپ فلور پر جنرل مینیجر ہوں یا پچاس آؤٹ لیٹس کے سی او او، Pulse آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے - رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
         },
         {
@@ -393,7 +393,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "سی ای اوز اور مالکان",
           "pain": "آپ کا بدترین مقام جمعرات کی رپورٹ تک نظر نہیں آتا۔",
           "painCopy": "جب آپ اسے دیکھتے ہیں، تو تین مزید دن کا مارجن بہہ چکا ہوتا ہے۔",
-          "outcome": "ہر صبح پورٹ فولیو کی حقیقت۔",
+          "outcome": "رساؤ - اور بحالی - ہر صبح۔",
           "outcomeCopy": "ہر برانڈ اور مقام پر روزانہ AI بریفنگز۔ جہاں آپ جیت رہے ہیں، جہاں آپ نقصان میں ہیں، مارکیٹ نے آپ کے ساتھ کیا کیا، آج کیا کرنا ہے۔"
         },
         {
@@ -409,7 +409,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "ایچ آر اور لوگوں کے رہنما",
           "pain": "محنت کی تبدیلی بہت دیر سے ظاہر ہوتی ہے۔",
           "painCopy": "شیڈول میں تبدیلیاں بدیہی طور پر ہوتی ہیں۔ جب تک رپورٹ واپس آتی ہے، اوور ٹائم پہلے ہی ادا کیا جا چکا ہوتا ہے۔",
-          "outcome": "محنت کی تبدیلی، اس لمحے میں۔",
+          "outcome": "مزدوری کا بحال شدہ مارجن، اسی لمحے۔",
           "outcomeCopy": "Pulse ہر مقام کے لحاظ سے براہ راست مزدوری کی فیصد، عملے کی پیداواری صلاحیت، اور اوور ٹائم کا خطرہ دکھاتا ہے - شفٹ کے لحاظ سے، مہینے کے لحاظ سے نہیں۔"
         },
         {
@@ -437,7 +437,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "ऑपरेशंस लीडर्स",
           "pain": "आप एक समय में हर रेस्तरां में नहीं हो सकते।",
           "painCopy": "पचास फ्लोर, और अकेले आप - और यह देखने का कोई लाइव नज़रिया नहीं कि आज रात कौन-सा फिसल रहा है।",
-          "outcome": "हर शिफ्ट में लाइव दृश्यता।",
+          "outcome": "हर शिफ्ट में पुनःप्राप्त मार्जिन।",
           "outcomeCopy": "चाहे आप फ्लोर पर जीएम हों या पचास आउटलेट्स के सीओओ, Pulse आपको दिखाता है कि अभी किस लोकेशन को मदद की ज़रूरत है - गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
         },
         {
@@ -453,7 +453,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "सीईओ और मालिक",
           "pain": "आपका सबसे खराब स्थान गुरुवार की पुनरावृत्ति तक अदृश्य है।",
           "painCopy": "जब तक आप इसे देखते हैं, तीन और दिनों का मार्जिन लीक हो चुका होता है।",
-          "outcome": "हर सुबह पोर्टफोलियो की सच्चाई।",
+          "outcome": "रिसाव - और भरपाई - हर सुबह।",
           "outcomeCopy": "हर ब्रांड और स्थान पर दैनिक एआई ब्रीफिंग। आप कहाँ जीत रहे हैं, कहाँ लीक हो रहा है, बाजार ने आपके साथ क्या किया, आज क्या करना है।"
         },
         {
@@ -469,7 +469,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "एचआर और लोग लीड",
           "pain": "श्रम भिन्नता बहुत देर से दिखती है।",
           "painCopy": "शेड्यूल में बदलाव अंदाज़े से होते हैं। जब तक रिपोर्ट वापस आती है, ओवरटाइम का भुगतान हो चुका होता है।",
-          "outcome": "श्रम भिन्नता, उसी क्षण।",
+          "outcome": "श्रम मार्जिन की भरपाई, उसी क्षण।",
           "outcomeCopy": "Pulse स्थान के अनुसार लाइव श्रम%, स्टाफ की उत्पादकता, और ओवरटाइम जोखिम दिखाता है - शिफ्ट के अनुसार, महीने के अनुसार नहीं।"
         },
         {
@@ -497,7 +497,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Operasyon Liderleri",
           "pain": "Her restoranda aynı anda olamazsınız.",
           "painCopy": "Elli salon, tek bir siz - ve bu gece hangisinin kaydığını gösteren tek bir canlı görünüm bile yok.",
-          "outcome": "Her vardiya için canlı görünürlük.",
+          "outcome": "Her vardiyada geri kazanılan marj.",
           "outcomeCopy": "İster sahadaki müdür olun ister elli şubenin COO'su, Pulse hangi lokasyonun şu anda yardıma ihtiyacı olduğunu gösterir - tempo, iş gücü, kayıplar, hepsi vardiya boyunca güncellenir."
         },
         {
@@ -513,7 +513,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO'lar ve Sahipler",
           "pain": "En kötü lokasyonunuz, Perşembe günkü özetinize kadar görünmez.",
           "painCopy": "Bunu gördüğünüzde, üç gün daha marj kaybetmiş olacaksınız.",
-          "outcome": "Portföy gerçeği, her sabah.",
+          "outcome": "Sızıntılar - ve geri kazanım - her sabah.",
           "outcomeCopy": "Her marka ve lokasyonda günlük AI brifingleri. Nerede kazanıyorsunuz, nerede kaybediyorsunuz, piyasa size ne yaptı, bugün ne yapmalısınız."
         },
         {
@@ -529,7 +529,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "İK ve İnsan Kaynakları Liderleri",
           "pain": "İş gücü varyansı çok geç ortaya çıkıyor.",
           "painCopy": "Program değişiklikleri içgüdüyle gerçekleşiyor. Rapor geri geldiğinde, fazla mesai zaten ödenmiş oluyor.",
-          "outcome": "Anlık iş gücü varyansı.",
+          "outcome": "Geri kazanılan iş gücü marjı, anlık.",
           "outcomeCopy": "Pulse, lokasyona göre canlı iş gücü yüzdesini, personel verimliliğini ve fazla mesai riskini - vardiya bazında, ay bazında değil - gösterir."
         },
         {
@@ -557,7 +557,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Leader delle Operazioni",
           "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
           "painCopy": "Cinquanta sale, un solo tu - e nessuna vista live di quale stia scivolando stasera.",
-          "outcome": "Visibilità in tempo reale su ogni turno.",
+          "outcome": "Margine recuperato in ogni turno.",
           "outcomeCopy": "Che tu sia il direttore in sala o il COO di cinquanta punti vendita, Pulse ti mostra quale sede ha bisogno di aiuto proprio adesso - ritmo, personale, perdite, tutto aggiornato durante il turno."
         },
         {
@@ -573,7 +573,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO e Proprietari",
           "pain": "La tua peggiore posizione è invisibile fino al riepilogo di giovedì.",
           "painCopy": "Quando lo vedi, sono già passati altri tre giorni di margine.",
-          "outcome": "Verità del portafoglio, ogni mattina.",
+          "outcome": "Le perdite - e il recupero - ogni mattina.",
           "outcomeCopy": "Rassegne quotidiane di AI per ogni marchio e sede. Dove stai vincendo, dove stai perdendo, cosa ti ha fatto il mercato, cosa fare oggi."
         },
         {
@@ -589,7 +589,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Responsabili HR e Persone",
           "pain": "La variazione del lavoro si manifesta troppo tardi.",
           "painCopy": "Le modifiche ai turni avvengono per istinto. Quando il report torna, gli straordinari sono già stati pagati.",
-          "outcome": "Variazione del lavoro, in tempo reale.",
+          "outcome": "Margine del lavoro recuperato, in tempo reale.",
           "outcomeCopy": "Pulse mostra in tempo reale la percentuale di lavoro per sede, la produttività del personale di sala e il rischio di straordinari - per turno, non per mese."
         },
         {
@@ -617,7 +617,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "运营领导",
           "pain": "您无法同时在每个餐厅。",
           "painCopy": "五十家门店，只有你一个人 - 却没有一个实时视图告诉你今晚哪家正在下滑。",
-          "outcome": "实时查看每个班次。",
+          "outcome": "每个班次都追回利润。",
           "outcomeCopy": "无论你是店面经理，还是管着五十家门店的首席运营官，Pulse 都会告诉你此刻哪个门店需要帮助--节奏、人力、损耗，全部在班次中实时更新。"
         },
         {
@@ -633,7 +633,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "首席执行官和所有者",
           "pain": "您最糟糕的地点在周四的回顾之前是看不见的。",
           "painCopy": "等您看到时，又流失了三天的利润。",
-          "outcome": "每个早晨的投资组合真相。",
+          "outcome": "漏损--以及追回--每天早晨。",
           "outcomeCopy": "每天针对每个品牌和地点的AI简报。您在哪些地方获胜，在哪些地方流失，市场对您做了什么，今天该做什么。"
         },
         {
@@ -649,7 +649,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "人力资源和人员负责人",
           "pain": "劳动力差异出现得太晚。",
           "painCopy": "排班变更是凭直觉进行的。当报告返回时，加班费已经支付。",
-          "outcome": "实时的劳动力差异。",
+          "outcome": "实时追回人力利润。",
           "outcomeCopy": "Pulse按班次显示各地点的实时劳动力百分比、服务员生产力和加班风险，而不是按月。"
         },
         {
@@ -677,7 +677,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Liderzy Operacji",
           "pain": "Nie możesz być w każdej restauracji jednocześnie.",
           "painCopy": "Pięćdziesiąt lokali, jeden ty - i żadnego podglądu na żywo, który dziś wieczorem się osuwa.",
-          "outcome": "Widoczność każdej zmiany na żywo.",
+          "outcome": "Odzyskana marża na każdej zmianie.",
           "outcomeCopy": "Niezależnie od tego, czy jesteś kierownikiem na sali, czy COO pięćdziesięciu lokali, Pulse pokazuje, która lokalizacja potrzebuje pomocy właśnie teraz - tempo, obsada, straty, wszystko aktualizowane w trakcie zmiany."
         },
         {
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO i Właściciele",
           "pain": "Twoja najgorsza lokalizacja jest niewidoczna do podsumowania w czwartek.",
           "painCopy": "Zanim to zobaczysz, trzy kolejne dni marży już uciekły.",
-          "outcome": "Prawda o portfelu, każdego ranka.",
+          "outcome": "Wycieki - i odzysk - każdego ranka.",
           "outcomeCopy": "Codzienne briefingi AI dla każdej marki i lokalizacji. Gdzie wygrywasz, gdzie tracisz, co zrobił ci rynek, co zrobić dzisiaj."
         },
         {
@@ -709,7 +709,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Liderzy HR i Ludzi",
           "pain": "Wariancja pracy pojawia się za późno.",
           "painCopy": "Zmiany w harmonogramie są podejmowane instynktownie. W momencie, gdy raport wraca, nadgodziny są już wypłacone.",
-          "outcome": "Wariancja pracy, w danym momencie.",
+          "outcome": "Odzyskana marża pracy, w danym momencie.",
           "outcomeCopy": "Pulse pokazuje na żywo % kosztów pracy według lokalizacji, produktywność obsługi i ryzyko nadgodzin - według zmiany, a nie miesiąca."
         },
         {
@@ -737,7 +737,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "オペレーションリーダー",
           "pain": "すべてのレストランに同時にいることはできません。",
           "painCopy": "五十の客席に、あなたは一人 - 今夜どこが崩れかけているかを映すライブな視界は、どこにもない。",
-          "outcome": "すべてのシフトをリアルタイムで把握できます。",
+          "outcome": "シフトごとに取り戻すマージン。",
           "outcomeCopy": "現場の店長でも、50店舗を統括するCOOでも、Pulseは今どの店舗が支援を必要としているかを示します--ペース、人員、漏れ、すべてシフトを通じて更新されます。"
         },
         {
@@ -753,7 +753,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEOとオーナー",
           "pain": "最悪のロケーションは木曜日のレポートまで見えません。",
           "painCopy": "それを見る頃には、さらに3日分のマージンが漏れています。",
-          "outcome": "ポートフォリオの真実、毎朝。",
+          "outcome": "漏れ--そして回収--毎朝。",
           "outcomeCopy": "すべてのブランドとロケーションでの毎日のAIブリーフィング。どこで勝っているか、どこで漏れているか、市場があなたに何をしたか、今日何をすべきか。"
         },
         {
@@ -769,7 +769,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "人事および人々のリーダー",
           "pain": "労働の変動が遅れて現れる。",
           "painCopy": "スケジュールの変更は直感で行われます。レポートが戻ってくる頃には、残業代はすでに支払われています。",
-          "outcome": "その瞬間の労働の変動。",
+          "outcome": "その瞬間に取り戻す労働マージン。",
           "outcomeCopy": "Pulseは、店舗ごとのライブ人件費率、スタッフの生産性、残業リスクを表示します - 月単位ではなく、シフト単位で。"
         },
         {
@@ -797,7 +797,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "운영 리더",
           "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
           "painCopy": "쉰 개의 매장, 당신은 한 명 - 오늘 밤 어디가 무너지고 있는지 보여 주는 실시간 화면은 하나도 없습니다.",
-          "outcome": "모든 근무에 대한 실시간 가시성.",
+          "outcome": "모든 근무에서 되찾는 마진.",
           "outcomeCopy": "현장의 점장이든 매장 50곳을 총괄하는 COO든, Pulse는 지금 어느 매장이 도움이 필요한지 보여줍니다 - 속도, 인력, 누수까지 모두 근무 중에 업데이트됩니다."
         },
         {
@@ -813,7 +813,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO 및 소유자",
           "pain": "가장 나쁜 위치는 목요일 요약까지 보이지 않습니다.",
           "painCopy": "당신이 그것을 볼 때쯤이면, 사흘치 마진이 더 새어나간 뒤입니다.",
-          "outcome": "포트폴리오의 진실, 매일 아침.",
+          "outcome": "누수 - 그리고 회복 - 매일 아침.",
           "outcomeCopy": "모든 브랜드와 위치에서의 일일 AI 브리핑. 당신이 이기는 곳, 새는 곳, 시장이 당신에게 한 일, 오늘 해야 할 일."
         },
         {
@@ -829,7 +829,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "인사 및 인력 리더",
           "pain": "노동 변동이 너무 늦게 나타납니다.",
           "painCopy": "일정 변경이 본능적으로 발생합니다. 보고서가 돌아올 때쯤에는 이미 초과 근무 수당이 지급됩니다.",
-          "outcome": "즉각적인 노동 변동.",
+          "outcome": "그 순간에 되찾는 인건비 마진.",
           "outcomeCopy": "Pulse는 매장별 실시간 인건비 비율, 직원 생산성, 초과 근무 위험을 보여줍니다 - 월별이 아닌 시프트별로."
         },
         {
@@ -857,7 +857,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Lãnh đạo Vận hành",
           "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
           "painCopy": "Năm mươi sàn phục vụ, chỉ mình bạn - và không một khung nhìn trực tiếp nào cho thấy nơi nào đang sa sút tối nay.",
-          "outcome": "Khả năng nhìn thấy trực tiếp mọi ca làm việc.",
+          "outcome": "Biên lợi nhuận được thu hồi trong mỗi ca.",
           "outcomeCopy": "Dù bạn là quản lý tại cửa hàng hay COO của năm mươi chi nhánh, Pulse cho biết địa điểm nào cần giúp đỡ ngay lúc này - nhịp độ, nhân sự, thất thoát, tất cả được cập nhật trong ca làm việc."
         },
         {
@@ -873,7 +873,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Giám đốc điều hành và Chủ sở hữu",
           "pain": "Địa điểm tồi tệ nhất của bạn sẽ không hiển thị cho đến khi bản tóm tắt vào thứ Năm.",
           "painCopy": "Khi bạn thấy được, thêm ba ngày biên lợi nhuận đã thất thoát.",
-          "outcome": "Sự thật danh mục, mỗi buổi sáng.",
+          "outcome": "Những chỗ thất thoát - và sự thu hồi - mỗi buổi sáng.",
           "outcomeCopy": "Báo cáo AI hàng ngày trên mọi thương hiệu và địa điểm. Nơi bạn đang thắng, nơi bạn đang thua, thị trường đã làm gì với bạn, hôm nay nên làm gì."
         },
         {
@@ -889,7 +889,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Lãnh đạo Nhân sự và Con người",
           "pain": "Biến động lao động xuất hiện quá muộn.",
           "painCopy": "Các thay đổi lịch trình xảy ra theo bản năng. Đến khi báo cáo trở lại, tiền làm thêm giờ đã được trả.",
-          "outcome": "Biến động lao động, ngay tại thời điểm.",
+          "outcome": "Biên lợi nhuận lao động được thu hồi, ngay tại thời điểm.",
           "outcomeCopy": "Pulse hiển thị tỷ lệ lao động trực tiếp theo vị trí, năng suất phục vụ và rủi ro làm thêm giờ - theo ca, không phải theo tháng."
         },
         {
@@ -917,7 +917,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Pemimpin Operasi",
           "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
           "painCopy": "Lima puluh ruang, hanya Anda seorang - dan tak ada satu pun tampilan langsung tentang mana yang sedang merosot malam ini.",
-          "outcome": "Visibilitas langsung ke setiap shift.",
+          "outcome": "Margin yang dipulihkan di setiap shift.",
           "outcomeCopy": "Baik Anda manajer di lantai maupun COO atas lima puluh outlet, Pulse menunjukkan lokasi mana yang membutuhkan bantuan saat ini - kecepatan, tenaga kerja, kebocoran, semua diperbarui sepanjang shift."
         },
         {
@@ -933,7 +933,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO dan Pemilik",
           "pain": "Lokasi terburuk Anda tidak terlihat hingga rekap Kamis.",
           "painCopy": "Saat Anda melihatnya, tiga hari margin lagi telah bocor.",
-          "outcome": "Kebenaran portofolio, setiap pagi.",
+          "outcome": "Kebocoran - dan pemulihannya - setiap pagi.",
           "outcomeCopy": "Briefing AI harian di setiap merek dan lokasi. Di mana Anda menang, di mana Anda bocor, apa yang dilakukan pasar kepada Anda, apa yang harus dilakukan hari ini."
         },
         {
@@ -949,7 +949,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Pemimpin HR dan Orang",
           "pain": "Variansi tenaga kerja muncul terlambat.",
           "painCopy": "Perubahan jadwal terjadi berdasarkan insting. Begitu laporan kembali, lembur sudah dibayar.",
-          "outcome": "Variansi tenaga kerja, saat itu juga.",
+          "outcome": "Margin tenaga kerja dipulihkan, saat itu juga.",
           "outcomeCopy": "Pulse menunjukkan persentase tenaga kerja secara langsung berdasarkan lokasi, produktivitas pelayan, dan risiko lembur - berdasarkan shift, bukan berdasarkan bulan."
         },
         {
@@ -977,7 +977,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Lideri de Operațiuni",
           "pain": "Nu poți fi în fiecare restaurant în același timp.",
           "painCopy": "Cincizeci de săli, doar tu - și nicio vedere live a celei care alunecă în seara asta.",
-          "outcome": "Vizibilitate în timp real asupra fiecărei ture.",
+          "outcome": "Marjă recuperată în fiecare tură.",
           "outcomeCopy": "Fie că ești managerul din locație, fie COO peste cincizeci de locații, Pulse îți arată ce locație are nevoie de ajutor chiar acum - ritm, personal, pierderi, toate actualizate pe parcursul turei."
         },
         {
@@ -993,7 +993,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO și Proprietari",
           "pain": "Cea mai proastă locație este invizibilă până la recapitularea de joi.",
           "painCopy": "Până când o vezi, trei zile suplimentare de marjă s-au scurs.",
-          "outcome": "Adevărul portofoliului, în fiecare dimineață.",
+          "outcome": "Pierderile - și recuperarea - în fiecare dimineață.",
           "outcomeCopy": "Briefinguri zilnice AI pentru fiecare brand și locație. Unde câștigi, unde pierzi, ce ți-a făcut piața, ce să faci astăzi."
         },
         {
@@ -1009,7 +1009,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Responsabili HR și Oameni",
           "pain": "Varianta de muncă apare prea târziu.",
           "painCopy": "Schimbările de program se fac pe instinct. Până când raportul revine, orele suplimentare sunt deja plătite.",
-          "outcome": "Varianta de muncă, în timp real.",
+          "outcome": "Marja de muncă recuperată, în timp real.",
           "outcomeCopy": "Pulse arată în timp real procentul costului cu personalul pe locație, productivitatea personalului de sală și riscul de ore suplimentare - pe schimb, nu pe lună."
         },
         {
@@ -1037,7 +1037,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "অপারেশন নেতারা",
           "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
           "painCopy": "পঞ্চাশটি ফ্লোর, আর আপনি একা - আজ রাতে কোনটি পিছলে যাচ্ছে তা দেখার একটিও লাইভ চিত্র নেই।",
-          "outcome": "প্রতিটি শিফটে লাইভ দৃশ্যমানতা।",
+          "outcome": "প্রতি শিফটে পুনরুদ্ধার করা মার্জিন।",
           "outcomeCopy": "আপনি ফ্লোরের জিএম হোন বা পঞ্চাশটি আউটলেটের সিওও, Pulse আপনাকে দেখায় এই মুহূর্তে কোন লোকেশনের সাহায্য দরকার - গতি, শ্রম, লিকেজ, সব শিফটের মধ্যেই আপডেট হয়।"
         },
         {
@@ -1053,7 +1053,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "সিইও এবং মালিকরা",
           "pain": "আপনার সবচেয়ে খারাপ অবস্থান বৃহস্পতিবারের সারসংক্ষেপ পর্যন্ত অদৃশ্য।",
           "painCopy": "আপনি এটি দেখার আগেই, মার্জিনের আরও তিন দিন ফাঁস হয়ে গেছে।",
-          "outcome": "প্রতিদিনের পোর্টফোলিও সত্য।",
+          "outcome": "ফাঁস - এবং তার পুনরুদ্ধার - প্রতিদিন সকালে।",
           "outcomeCopy": "প্রতিটি ব্র্যান্ড এবং অবস্থানে দৈনিক AI ব্রিফিং। আপনি কোথায় জিতছেন, কোথায় ফাঁস হচ্ছে, বাজার আপনার সাথে কী করেছে, আজ কী করতে হবে।"
         },
         {
@@ -1069,7 +1069,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "এইচআর এবং মানুষ লিড",
           "pain": "শ্রমের পরিবর্তন খুব দেরিতে দেখা দেয়।",
           "painCopy": "শিডিউল পরিবর্তন আন্দাজে হয়। রিপোর্ট ফিরে আসার সময়ে, ওভারটাইম ইতিমধ্যেই পরিশোধিত হয়ে গেছে।",
-          "outcome": "শ্রমের পরিবর্তন, ঠিক সেই মুহূর্তে।",
+          "outcome": "শ্রম মার্জিন পুনরুদ্ধার, ঠিক সেই মুহূর্তে।",
           "outcomeCopy": "Pulse স্থান অনুযায়ী লাইভ শ্রম%, কর্মীদের উৎপাদনশীলতা এবং ওভারটাইমের ঝুঁকি দেখায় - শিফট অনুযায়ী, মাস অনুযায়ী নয়।"
         },
         {
@@ -1097,7 +1097,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "ผู้นำฝ่ายปฏิบัติการ",
           "pain": "คุณไม่สามารถอยู่ในทุกร้านอาหารได้ในครั้งเดียว.",
           "painCopy": "ห้าสิบหน้าร้าน มีคุณเพียงคนเดียว - และไม่มีมุมมองสดสักภาพที่บอกว่าคืนนี้สาขาไหนกำลังร่วง",
-          "outcome": "มองเห็นการทำงานแบบเรียลไทม์ในทุกกะ.",
+          "outcome": "มาร์จิ้นที่กู้คืนได้ในทุกกะ.",
           "outcomeCopy": "ไม่ว่าคุณจะเป็นผู้จัดการหน้าร้านหรือ COO ที่ดูแลห้าสิบสาขา Pulse ก็แสดงให้เห็นว่าสาขาไหนต้องการความช่วยเหลือในตอนนี้ - จังหวะ กำลังคน การรั่วไหล ทั้งหมดอัปเดตตลอดกะ"
         },
         {
@@ -1113,7 +1113,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO และเจ้าของ",
           "pain": "สถานที่ที่แย่ที่สุดของคุณจะมองไม่เห็นจนถึงการสรุปผลในวันพฤหัสบดี",
           "painCopy": "เมื่อคุณเห็นมันแล้ว มาร์จิ้นอีกสามวันก็รั่วไหลไปแล้ว",
-          "outcome": "ความจริงของพอร์ตโฟลิโอ ทุกเช้า",
+          "outcome": "จุดรั่วไหล - และการกู้คืน - ทุกเช้า",
           "outcomeCopy": "การบรรยายสรุป AI รายวันในทุกแบรนด์และสถานที่ ที่คุณชนะ ที่คุณรั่วไหล สิ่งที่ตลาดทำกับคุณ และสิ่งที่ต้องทำในวันนี้."
         },
         {
@@ -1129,7 +1129,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "ผู้นำด้าน HR และบุคคล",
           "pain": "ความแปรปรวนของแรงงานปรากฏขึ้นช้าเกินไป.",
           "painCopy": "การเปลี่ยนแปลงตารางเวลามักเกิดจากสัญชาตญาณ เมื่อรายงานกลับมา ค่าล่วงเวลาก็ถูกจ่ายไปแล้ว.",
-          "outcome": "ความแปรปรวนของแรงงานในขณะนั้น.",
+          "outcome": "กู้คืนมาร์จิ้นแรงงานในขณะนั้น.",
           "outcomeCopy": "Pulse แสดงเปอร์เซ็นต์แรงงานสดตามสถานที่ ผลผลิตของพนักงาน และความเสี่ยงโอที - ตามกะ ไม่ใช่ตามเดือน."
         },
         {
@@ -1157,7 +1157,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Operationsledare",
           "pain": "Du kan inte vara på varje restaurang samtidigt.",
           "painCopy": "Femtio golv, en enda du - och ingen enda livebild av vilket som glider ikväll.",
-          "outcome": "Live-insyn i varje skift.",
+          "outcome": "Återvunnen marginal i varje skift.",
           "outcomeCopy": "Oavsett om du är platschefen på golvet eller COO över femtio enheter visar Pulse vilken plats som behöver hjälp just nu - takt, bemanning, läckage, allt uppdaterat under skiftet."
         },
         {
@@ -1173,7 +1173,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "VD:ar och Ägare",
           "pain": "Din sämsta plats är osynlig tills torsdagens sammanfattning.",
           "painCopy": "När du ser det har tre dagar av marginal läckt ut.",
-          "outcome": "Portföljens sanning, varje morgon.",
+          "outcome": "Läckorna - och återvinningen - varje morgon.",
           "outcomeCopy": "Dagliga AI-briefingar för varje varumärke och plats. Där du vinner, där du läcker, vad marknaden gjorde mot dig, vad du ska göra idag."
         },
         {
@@ -1189,7 +1189,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "HR och Personalansvariga",
           "pain": "Arbetsavvikelser syns för sent.",
           "painCopy": "Schemaändringar sker på instinkt. När rapporten kommer tillbaka har övertiden redan betalats.",
-          "outcome": "Arbetsavvikelser, i realtid.",
+          "outcome": "Återvunnen arbetsmarginal, i realtid.",
           "outcomeCopy": "Pulse visar live personalkostnad i % per plats, personalens produktivitet och övertidsrisk - per skift, inte per månad."
         },
         {
@@ -1217,7 +1217,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Pemimpin Operasi",
           "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
           "painCopy": "Lima puluh ruang, hanya anda seorang - dan tiada satu pun paparan langsung tentang yang mana sedang merosot malam ini.",
-          "outcome": "Keterlihatan langsung ke dalam setiap shift.",
+          "outcome": "Margin dipulihkan dalam setiap syif.",
           "outcomeCopy": "Sama ada anda pengurus di lantai atau COO bagi lima puluh cawangan, Pulse menunjukkan lokasi mana yang memerlukan bantuan sekarang - rentak, tenaga kerja, kebocoran, semua dikemas kini sepanjang shift."
         },
         {
@@ -1233,7 +1233,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "CEO dan Pemilik",
           "pain": "Lokasi terburuk anda tidak dapat dilihat sehingga ringkasan Khamis.",
           "painCopy": "Pada masa anda melihatnya, tiga hari lagi margin telah bocor.",
-          "outcome": "Kebenaran portfolio, setiap pagi.",
+          "outcome": "Kebocoran - dan pemulihannya - setiap pagi.",
           "outcomeCopy": "Taklimat AI harian di setiap jenama dan lokasi. Di mana anda menang, di mana anda bocor, apa yang dilakukan pasaran kepada anda, apa yang perlu dilakukan hari ini."
         },
         {
@@ -1249,7 +1249,7 @@ export const generatedLocalCopy = {
           "pluralLabel": "Ketua HR dan Orang",
           "pain": "Varians buruh muncul terlalu lewat.",
           "painCopy": "Perubahan jadual berlaku secara naluri. Pada masa laporan kembali, kerja lebih masa sudah dibayar.",
-          "outcome": "Varians buruh, pada saat itu.",
+          "outcome": "Margin buruh dipulihkan, pada saat itu.",
           "outcomeCopy": "Pulse menunjukkan peratusan kos buruh secara langsung mengikut lokasi, produktiviti pelayan, dan risiko kerja lebih masa - mengikut syif, bukan mengikut bulan."
         },
         {

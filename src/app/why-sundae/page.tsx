@@ -10,6 +10,7 @@ import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_page'
 import { whySundaeCreamCopy } from './whySundaeCreamCopy'
+import { balanceSentences } from '@/lib/balanceSentences';
 
 type WhySundaeCopy = {
   hero: {
@@ -46,45 +47,46 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   en: {
     hero: {
       badge: "Why Sundae",
-      title: "The Intelligence Layer Restaurants Never Had",
+      title: "Detection Is Table Stakes. Measured Recovery Isn't.",
       description:
-        "Your data lives in disconnected silos. Your team makes million-dollar decisions by gut feel. We built the platform that changes that.",
+        "Every rival can now spot a problem and recommend a fix. Sundae routes it to one accountable owner, tracks it through execution, and measures the recovered margin back against a baseline - the whole loop, proven per decision.",
     },
     problems: {
       eyebrow: "THE PROBLEM",
       title: "Three gaps costing you money every day",
-      description: "Every restaurant group we've worked with faces the same three challenges.",
+      description: "Every multi-location group we work with meets the same three gaps.",
     },
     differentiators: [
+      { title: "Closed-Loop Profit Recovery", description: "Fourteen detectors find the margin leaking across labour, procurement, waste, delivery and pricing. Each one becomes a single owned action, measured against a baseline frozen before the work starts. Sundae will not call a saving recovered until it has been measured.", icon: "intelligence", color: "bg-rose-600" },
       { title: "12-Domain Data Ingestion", description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting - all unified. No more disconnected systems.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "4D Intelligence Model", description: "What happened. How it compares to plan. Where you stand in the market. What to do next. Four dimensions of every decision.", icon: "intelligence", color: "bg-[#FF5C4D]" },
-      { title: "Real-Time Operations via Pulse", description: "Intraday sales pacing, labor productivity, leakage detection, and coaching - before the shift is over.", icon: "speed", color: "bg-green-600" },
+      { title: "Intraday Recovery via Pulse", description: "Catch leakage as it happens, route the fix to the shift owner, and measure the recovered margin - before the shift is over.", icon: "speed", color: "bg-green-600" },
       { title: "External Intelligence via Watchtower", description: "New competitor? Weather tanking covers? Concert announced? You’ll know before it hits your numbers.", icon: "watchtower", color: "bg-red-600" },
       { title: "Conversational Access", description: "Natural language queries via web, Telegram, Slack, or Teams - answers in seconds, not days.", icon: "forge", color: "bg-orange-600" },
       { title: "Built for Multi-Location Operators", description: "Multi-tenant RBAC, portfolio leaderboards, cross-location benchmarking, multi-currency, and region-level drill-downs.", icon: "multiLocation", color: "bg-teal-600" },
     ],
     comparison: {
       eyebrow: "COMPARISON",
-      title: "Beyond traditional dashboards",
-      description: "Most platforms show you what happened. We show you what's happening, what it means, and what to do about it.",
+      title: "Beyond dashboards that stop at the alert",
+      description: "Most platforms show you what happened. Sundae routes the fix to an accountable owner, drives it through execution, and measures the recovered margin against a baseline.",
       columns: [
         { title: "Traditional BI", items: ["Historical reporting", "Manual data pulls", "Siloed metrics", "Reactive management"], icon: "warning", highlight: false },
         { title: "Generic Dashboards", items: ["Multi-source dashboards", "Scheduled reports", "Basic alerting", "No industry context"], icon: "sync", highlight: false },
-        { title: "Sundae", items: ["4D Intelligence Model", "Real-time Pulse monitoring", "Market context via Watchtower", "Intelligent recommendations"], icon: "speed", highlight: true, cta: "No one owns the full stack. Until now." },
+        { title: "Sundae", items: ["4D Intelligence Model", "Real-time Pulse monitoring", "Market context via Watchtower", "Recovery measured vs baseline"], icon: "speed", highlight: true, cta: "No one owns the full stack. Until now." },
       ],
     },
     roles: {
       eyebrow: "BUILT FOR",
       title: "Built for every role in the organization",
       items: [
-        { title: "Operations Leaders", pain: "You can't be in every restaurant at once.", description: "Real-time visibility into every location via Pulse and Portfolio - know who needs help before they ask.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
-        { title: "Finance & FP&A", pain: "3 days to close the books? That's 3 days too many.", description: "Real-time margin intelligence, shift-level labor costs, and variance analysis connected to root causes.", icon: "benchmarking", color: "bg-green-600" },
+        { title: "Operations Leaders", pain: "You can't be in every restaurant at once.", description: "Spot the leak in any location via Pulse and Portfolio, route the fix to the manager on shift, and see the recovery land - before they ask for help.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "Finance & FP&A", pain: "3 days to close the books? That's 3 days too many.", description: "Margin variance traced to root cause, routed to an owner, and the recovered value measured against a baseline.", icon: "benchmarking", color: "bg-green-600" },
         { title: "C-Suite & Owners", pain: "Your worst-performing outlet is invisible until Thursday.", description: "Portfolio dashboards, daily briefings, competitive intelligence, and strategic decision views.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "Technology Teams", pain: "12 vendor APIs. 5 data formats. Zero unified schema.", description: "Public API, webhooks, 12-domain integrations, governed metrics, and RBAC controls out of the box.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "Stop running your restaurant on gut feel.",
+      title: "Stop watching margin leak. Start measuring the recovery.",
       description: "30 minutes to review your data together and see whether Sundae would genuinely help your team.",
       primary: "Book a Demo",
       secondary: "Explore Products",
@@ -93,44 +95,45 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   ar: {
     hero: {
       badge: "لماذا Sundae",
-      title: "طبقة الذكاء التي لم تكن لدى المطاعم من قبل",
-      description: "بياناتك تعيش في جزر معزولة. فريقك يتخذ قرارات بملايين الدولارات اعتماداً على الحدس. بنينا المنصة التي تغيّر ذلك.",
+      title: "كشف المشكلة أصبح الحد الأدنى. أما الاستعادة المقاسة فلا.",
+      description: "بات كل منافس قادراً على رصد مشكلة واقتراح حل. أما Sundae فتوجّه المشكلة إلى مسؤول واحد محاسَب، وتتابعها حتى التنفيذ، وتقيس الهامش المستعاد مقارنةً بخط أساس - الحلقة كاملة، مثبتة قراراً بقرار.",
     },
     problems: {
       eyebrow: "المشكلة",
       title: "ثلاث فجوات تكلفك المال كل يوم",
-      description: "كل مجموعة مطاعم عملنا معها تواجه التحديات الثلاث نفسها.",
+      description: "كل مجموعة متعددة المواقع نعمل معها تواجه الفجوات الثلاث نفسها.",
     },
     differentiators: [
+      { title: "استرجاع الأرباح بحلقة مغلقة", description: "أربعة عشر كاشفاً تجد الأرباح المتسرّبة عبر العمالة والمشتريات والهدر والتوصيل والتسعير. تتحوّل كل فرصة إلى إجراء واحد بمسؤول واحد، ويُقاس مقابل خط أساس مجمّد قبل بدء العمل. ولا تعتبر Sundae أي توفير مستَرجعاً قبل قياسه.", icon: "intelligence", color: "bg-rose-600" },
       { title: "إدخال البيانات عبر 12 مجالاً", description: "POS والعمالة والمخزون والشراء والحجوزات والتوصيل والتسويق وتجربة الضيف وCRM والمحاسبة - كلها موحّدة.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "نموذج ذكاء رباعي الأبعاد", description: "ماذا حدث. كيف يقارن بالخطة. أين تقف في السوق. ماذا تفعل بعد ذلك.", icon: "intelligence", color: "bg-[#FF5C4D]" },
-      { title: "عمليات لحظية عبر Pulse", description: "وتيرة المبيعات خلال اليوم، إنتاجية العمالة، كشف التسرب، والتوجيه - قبل انتهاء الوردية.", icon: "speed", color: "bg-green-600" },
+      { title: "الاستعادة خلال اليوم عبر Pulse", description: "التقط التسرب لحظة حدوثه، ووجّه الإصلاح إلى مسؤول الوردية، وقِس الهامش المستعاد - قبل انتهاء الوردية.", icon: "speed", color: "bg-green-600" },
       { title: "ذكاء خارجي عبر Watchtower", description: "منافس جديد؟ الطقس يهبط بالمبيعات؟ حفل أُعلن؟ ستعرف قبل أن يؤثر على أرقامك.", icon: "watchtower", color: "bg-red-600" },
       { title: "وصول حواري", description: "استفسارات باللغة الطبيعية عبر الويب أو Telegram أو Slack أو Teams - إجابات خلال ثوانٍ.", icon: "forge", color: "bg-orange-600" },
       { title: "مبني للمشغّلين متعددي المواقع", description: "RBAC متعدد المستأجرين، لوحات قيادة للمحفظة، معيارية عبر المواقع، تعدد العملات، وتعمق على مستوى المنطقة.", icon: "multiLocation", color: "bg-teal-600" },
     ],
     comparison: {
       eyebrow: "المقارنة",
-      title: "ما وراء لوحات المعلومات التقليدية",
-      description: "معظم المنصات تعرض ما حدث. نحن نعرض ما يحدث، وما يعنيه، وما الذي يجب فعله بشأنه.",
+      title: "أبعد من لوحات تتوقف عند التنبيه",
+      description: "معظم المنصات تعرض ما حدث. أما Sundae فتوجّه الإصلاح إلى مسؤول محاسَب، وتدفعه حتى التنفيذ، وتقيس الهامش المستعاد مقارنةً بخط أساس.",
       columns: [
         { title: "BI التقليدي", items: ["تقارير تاريخية", "سحب يدوي للبيانات", "مقاييس معزولة", "إدارة تفاعلية"], icon: "warning", highlight: false },
         { title: "لوحات عامة", items: ["لوحات من مصادر متعددة", "تقارير مجدولة", "تنبيهات أساسية", "لا سياق صناعي"], icon: "sync", highlight: false },
-        { title: "Sundae", items: ["نموذج ذكاء 4D", "مراقبة Pulse لحظياً", "سياق سوقي عبر Watchtower", "توصيات ذكية"], icon: "speed", highlight: true, cta: "لا أحد يملك الحزمة كاملة. حتى الآن." },
+        { title: "Sundae", items: ["نموذج ذكاء 4D", "مراقبة Pulse لحظياً", "سياق سوقي عبر Watchtower", "الاستعادة مقاسة مقابل خط الأساس"], icon: "speed", highlight: true, cta: "لا أحد يملك الحزمة كاملة. حتى الآن." },
       ],
     },
     roles: {
       eyebrow: "مبني لـ",
       title: "مبني لكل دور في المؤسسة",
       items: [
-        { title: "قادة العمليات", pain: "لا يمكنك أن تكون في كل مطعم في الوقت نفسه.", description: "رؤية لحظية لكل موقع عبر Pulse وPortfolio - تعرف من يحتاج المساعدة قبل أن يطلبها.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
-        { title: "المالية وFP&A", pain: "ثلاثة أيام لإغلاق الدفاتر؟ هذا كثير جداً.", description: "ذكاء فوري للهامش، تكاليف العمالة على مستوى الوردية، وتحليل التباين مرتبط بالأسباب الجذرية.", icon: "benchmarking", color: "bg-green-600" },
+        { title: "قادة العمليات", pain: "لا يمكنك أن تكون في كل مطعم في الوقت نفسه.", description: "ارصد التسرب في أي موقع عبر Pulse وPortfolio، ووجّه الإصلاح إلى المدير المناوب، وشاهد الاستعادة تتحقق - قبل أن يطلبوا المساعدة.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "المالية وFP&A", pain: "ثلاثة أيام لإغلاق الدفاتر؟ هذا كثير جداً.", description: "تباين الهامش يُرجَع إلى سببه الجذري، ويُوجَّه إلى مسؤول، وتُقاس القيمة المستعادة مقارنةً بخط أساس.", icon: "benchmarking", color: "bg-green-600" },
         { title: "القيادة العليا والملّاك", pain: "أسوأ موقع أداءً يظل مخفياً حتى الخميس.", description: "لوحات محفظة، موجزات يومية، ذكاء تنافسي، ومنظورات قرار استراتيجية.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "فرق التقنية", pain: "12 واجهة API للموردين. 5 صيغ بيانات. لا مخطط موحد.", description: "واجهة عامة، webhooks، تكاملات عبر 12 مجالاً، مقاييس محكومة، وضوابط RBAC جاهزة.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "توقّف عن إدارة مطعمك بالحدس.",
+      title: "توقّف عن مشاهدة الهامش يتسرّب. ابدأ بقياس الاستعادة.",
       description: "30 دقيقة مع بياناتك. رؤى حقيقية. بدون عرض تسويقي.",
       primary: "احجز عرضاً",
       secondary: "استكشف المنتجات",
@@ -139,45 +142,46 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   fr: {
     hero: {
       badge: "Pourquoi Sundae",
-      title: "Une plateforme de decision claire pour les restaurants",
-      description: "Vos donnees restent eparpillees dans des silos de travail, alors que vos equipes doivent decider vite. Nous avons construit Sundae pour remettre cette vision au meme endroit.",
+      title: "Détecter est devenu la norme. Récupérer, mesures à l'appui, ne l'est pas.",
+      description: "Chaque concurrent sait désormais repérer un problème et recommander une correction. Sundae la confie à un responsable unique, la suit jusqu'à l'exécution et mesure la marge récupérée par rapport à une référence - la boucle entière, prouvée décision par décision.",
     },
     problems: {
       eyebrow: "LE PROBLÈME",
       title: "Trois écarts qui vous coûtent de l'argent chaque jour",
-      description: "Tous les groupes de restaurants avec lesquels nous avons travaillé rencontrent les mêmes trois défis.",
+      description: "Chaque groupe multi-sites avec lequel nous travaillons rencontre les memes trois manques.",
     },
     differentiators: [
+      { title: "Recuperation de marge en boucle fermee", description: "Quatorze detecteurs reperent la marge qui fuit sur la main-d'oeuvre, les achats, le gaspillage, la livraison et les prix. Chaque opportunite devient une action confiee a une seule personne, mesuree contre une base figee avant le debut du travail. Sundae ne declare aucune economie recuperee tant qu'elle n'a pas ete mesuree.", icon: "intelligence", color: "bg-rose-600" },
       { title: "Ingestion de données sur 12 domaines", description: "POS, main-d'œuvre, stock, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout unifié.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "Modèle d'intelligence 4D", description: "Ce qui s'est passé. Comment cela se compare au plan. Où vous vous situez sur le marché. Que faire ensuite.", icon: "intelligence", color: "bg-[#FF5C4D]" },
-      { title: "Opérations en temps réel via Pulse", description: "Pacing des ventes dans la journée, productivité de la main-d'œuvre, détection des fuites et coaching - avant la fin du service.", icon: "speed", color: "bg-green-600" },
+      { title: "Récupération en cours de journée via Pulse", description: "Détectez la fuite en temps réel, confiez la correction au responsable de service et mesurez la marge récupérée - avant la fin du service.", icon: "speed", color: "bg-green-600" },
       { title: "Intelligence externe via Watchtower", description: "Nouveau concurrent ? Météo qui fait chuter les couverts ? Concert annoncé ? Vous le saurez avant l'impact.", icon: "watchtower", color: "bg-red-600" },
       { title: "Accès conversationnel", description: "Questions en langage naturel via le web, Telegram, Slack ou Teams - réponses en quelques secondes.", icon: "forge", color: "bg-orange-600" },
       { title: "Conçu pour les opérateurs multi-sites", description: "RBAC multi-tenant, leaderboards portefeuille, benchmarking inter-sites, multi-devises et drill-down par région.", icon: "multiLocation", color: "bg-teal-600" },
     ],
     comparison: {
       eyebrow: "COMPARAISON",
-      title: "Au-delà des tableaux de bord traditionnels",
-      description: "La plupart des plateformes montrent ce qui s'est passé. Nous montrons ce qui se passe, ce que cela signifie et quoi faire.",
+      title: "Au-delà des tableaux de bord qui s'arrêtent à l'alerte",
+      description: "La plupart des plateformes montrent ce qui s'est passé. Sundae confie la correction à un responsable identifié, la mène jusqu'à l'exécution et mesure la marge récupérée par rapport à une référence.",
       columns: [
         { title: "BI traditionnel", items: ["Reporting historique", "Extraction manuelle", "Métriques en silos", "Gestion réactive"], icon: "warning", highlight: false },
         { title: "Tableaux génériques", items: ["Dashboards multi-sources", "Rapports planifiés", "Alertes basiques", "Pas de contexte sectoriel"], icon: "sync", highlight: false },
-        { title: "Sundae", items: ["Modèle d'intelligence 4D", "Surveillance Pulse en temps réel", "Contexte marché via Watchtower", "Recommandations intelligentes"], icon: "speed", highlight: true, cta: "Personne ne possédait la pile complète. Jusqu'ici." },
+        { title: "Sundae", items: ["Modèle d'intelligence 4D", "Surveillance Pulse en temps réel", "Contexte marché via Watchtower", "Récupération mesurée vs référence"], icon: "speed", highlight: true, cta: "Personne ne possédait la pile complète. Jusqu'ici." },
       ],
     },
     roles: {
       eyebrow: "CONÇU POUR",
       title: "Conçu pour chaque rôle de l'organisation",
       items: [
-        { title: "Leaders Ops", pain: "Vous ne pouvez pas être dans chaque restaurant à la fois.", description: "Visibilité en temps réel sur chaque site via Pulse et Portfolio - sachez qui a besoin d'aide avant qu'il ne la demande.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
-        { title: "Finance & FP&A", pain: "3 jours pour clôturer les comptes ? C'est 3 jours de trop.", description: "Intelligence de marge en temps réel, coûts de main-d'œuvre par service et analyse des écarts reliée aux causes racines.", icon: "benchmarking", color: "bg-green-600" },
+        { title: "Leaders Ops", pain: "Vous ne pouvez pas être dans chaque restaurant à la fois.", description: "Repérez la fuite dans n'importe quel site via Pulse et Portfolio, confiez la correction au manager de service et voyez la récupération se concrétiser - avant qu'il ne demande de l'aide.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "Finance & FP&A", pain: "3 jours pour clôturer les comptes ? C'est 3 jours de trop.", description: "Chaque écart de marge remonté à sa cause racine, confié à un responsable, et la valeur récupérée mesurée par rapport à une référence.", icon: "benchmarking", color: "bg-green-600" },
         { title: "Direction & propriétaires", pain: "Votre pire site reste invisible jusqu'au jeudi.", description: "Dashboards portefeuille, briefings quotidiens, intelligence concurrentielle et vues stratégiques.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "Équipes techniques", pain: "12 API fournisseurs. 5 formats de données. Aucun schéma unifié.", description: "API publique, webhooks, intégrations sur 12 domaines, métriques gouvernées et contrôles RBAC prêts à l'emploi.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "Arrêtez de gérer votre restaurant à l'intuition.",
-      description: "Trente minutes pour regarder vos donnees ensemble et voir si Sundae peut vraiment aider votre equipe.",
+      title: "Arrêtez de regarder la marge fuir. Commencez à mesurer la récupération.",
+      description: "Trente minutes pour regarder vos données ensemble et voir si Sundae peut vraiment aider votre équipe.",
       primary: "Réserver une démo",
       secondary: "Explorer les produits",
     },
@@ -185,44 +189,45 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   es: {
     hero: {
       badge: "Por qué Sundae",
-      title: "Una plataforma de decision clara para restaurantes",
-      description: "Tus datos siguen repartidos en silos, mientras tu equipo necesita decidir rapido. Construimos Sundae para reunir esa vision en un solo lugar.",
+      title: "Detectar ya no distingue a nadie. Recuperar con cifras, sí.",
+      description: "Cualquier rival ya sabe detectar un problema y recomendar una solución. Sundae lo asigna a un responsable único, lo sigue hasta la ejecución y mide el margen recuperado frente a una línea base - el ciclo completo, demostrado en cada decisión.",
     },
     problems: {
       eyebrow: "EL PROBLEMA",
       title: "Tres brechas que te cuestan dinero cada día",
-      description: "Todos los grupos de restaurantes con los que hemos trabajado enfrentan los mismos tres desafíos.",
+      description: "Cada grupo multilocal con el que trabajamos encuentra las mismas tres brechas.",
     },
     differentiators: [
+      { title: "Recuperacion de margen en circuito cerrado", description: "Catorce detectores encuentran el margen que se escapa en personal, compras, desperdicio, reparto y precios. Cada oportunidad se convierte en una accion con un unico responsable, medida contra una linea base congelada antes de empezar. Sundae no da por recuperado ningun ahorro hasta haberlo medido.", icon: "intelligence", color: "bg-rose-600" },
       { title: "Ingesta de datos de 12 dominios", description: "POS, mano de obra, inventario, compras, reservas, delivery, marketing, experiencia del huésped, CRM, contabilidad: todo unificado.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "Modelo de inteligencia 4D", description: "Qué pasó. Cómo se compara con el plan. Dónde estás en el mercado. Qué hacer después.", icon: "intelligence", color: "bg-[#FF5C4D]" },
-      { title: "Operaciones en tiempo real via Pulse", description: "Pacing de ventas intradía, productividad laboral, detección de fugas y coaching, antes de que termine el turno.", icon: "speed", color: "bg-green-600" },
+      { title: "Recuperación intradía via Pulse", description: "Detecta la fuga en el momento, asigna el arreglo al responsable del turno y mide el margen recuperado - antes de que termine el turno.", icon: "speed", color: "bg-green-600" },
       { title: "Inteligencia externa via Watchtower", description: "¿Nuevo competidor? ¿El clima hunde cubiertos? ¿Se anunció un concierto? Lo sabrás antes de que afecte tus números.", icon: "watchtower", color: "bg-red-600" },
       { title: "Acceso conversacional", description: "Consultas en lenguaje natural por web, Telegram, Slack o Teams: respuestas en segundos, no en días.", icon: "forge", color: "bg-orange-600" },
       { title: "Diseñado para operadores multiubicación", description: "RBAC multi-tenant, leaderboards de portafolio, benchmarking entre ubicaciones, multi-moneda y drill-down por región.", icon: "multiLocation", color: "bg-teal-600" },
     ],
     comparison: {
       eyebrow: "COMPARACIÓN",
-      title: "Más allá de los dashboards tradicionales",
-      description: "La mayoría de las plataformas te muestran qué pasó. Nosotros te mostramos qué está pasando, qué significa y qué hacer al respecto.",
+      title: "Más allá de los dashboards que se quedan en la alerta",
+      description: "La mayoría de las plataformas te muestran qué pasó. Sundae asigna el arreglo a un responsable único, lo lleva hasta la ejecución y mide el margen recuperado frente a una línea base.",
       columns: [
         { title: "BI tradicional", items: ["Reportes históricos", "Extracciones manuales", "Métricas en silos", "Gestión reactiva"], icon: "warning", highlight: false },
         { title: "Dashboards genéricos", items: ["Dashboards multi-fuente", "Reportes programados", "Alertas básicas", "Sin contexto sectorial"], icon: "sync", highlight: false },
-        { title: "Sundae", items: ["Modelo de inteligencia 4D", "Monitoreo Pulse en tiempo real", "Contexto de mercado via Watchtower", "Recomendaciones inteligentes"], icon: "speed", highlight: true, cta: "Nadie había tenido la pila completa. Hasta ahora." },
+        { title: "Sundae", items: ["Modelo de inteligencia 4D", "Monitoreo Pulse en tiempo real", "Contexto de mercado via Watchtower", "Recuperación medida frente a línea base"], icon: "speed", highlight: true, cta: "Nadie había tenido la pila completa. Hasta ahora." },
       ],
     },
     roles: {
       eyebrow: "DISEÑADO PARA",
       title: "Diseñado para cada rol de la organización",
       items: [
-        { title: "Líderes de operaciones", pain: "No puedes estar en todos los restaurantes al mismo tiempo.", description: "Visibilidad en tiempo real de cada ubicación via Pulse y Portfolio: sabe quién necesita ayuda antes de que la pida.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
-        { title: "Finanzas y FP&A", pain: "¿3 días para cerrar los libros? Son 3 días de más.", description: "Inteligencia de margen en tiempo real, costos laborales por turno y análisis de variaciones conectados a causas raíz.", icon: "benchmarking", color: "bg-green-600" },
+        { title: "Líderes de operaciones", pain: "No puedes estar en todos los restaurantes al mismo tiempo.", description: "Detecta la fuga en cualquier ubicación via Pulse y Portfolio, asigna el arreglo al gerente de turno y ve cómo se concreta la recuperación - antes de que pidan ayuda.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
+        { title: "Finanzas y FP&A", pain: "¿3 días para cerrar los libros? Son 3 días de más.", description: "Cada variación de margen rastreada a su causa raíz, asignada a un responsable, y el valor recuperado medido frente a una línea base.", icon: "benchmarking", color: "bg-green-600" },
         { title: "C-Suite y propietarios", pain: "Tu peor ubicación pasa desapercibida hasta el jueves.", description: "Dashboards de portafolio, briefings diarios, inteligencia competitiva y vistas de decisión estratégica.", icon: "intelligence", color: "bg-[#FF5C4D]" },
         { title: "Equipos de tecnología", pain: "12 APIs de proveedores. 5 formatos de datos. Cero esquema unificado.", description: "API pública, webhooks, integraciones de 12 dominios, métricas gobernadas y controles RBAC listos.", icon: "integration", color: "bg-orange-600" },
       ],
     },
     cta: {
-      title: "Deja de gestionar tu restaurante por intuición.",
+      title: "Deja de ver el margen fugarse. Empieza a medir la recuperación.",
       description: "Treinta minutos para revisar tus datos contigo y ver si Sundae puede ayudar de verdad a tu equipo.",
       primary: "Reservar demo",
       secondary: "Explorar productos",
@@ -237,7 +242,7 @@ export default function WhySundaePage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero badge={copy.hero.badge} title={copy.hero.title} description={copy.hero.description} />
+      <PageHero badge={copy.hero.badge} title={balanceSentences(copy.hero.title)} description={copy.hero.description} />
 
       {/* Cream relief - early warm break right after the hero, before the long dark problems/comparison/roles stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
@@ -264,7 +269,7 @@ export default function WhySundaePage() {
                     <div className="lg:col-span-2 flex items-center justify-center p-6 bg-[var(--navy-deep)]">
                       <div className="text-center">
                         <div className="text-3xl font-bold text-accent-gradient">{["12", "4D", "Pulse", "Watchtower", "Q&A", "Multi"][index]}</div>
-                        <div className="text-xs text-[var(--text-muted)] uppercase tracking-wider mt-1">{index === 0 ? "domains" : index === 1 ? "model" : index === 2 ? "monitoring" : index === 3 ? "intelligence" : index === 4 ? "access" : "operators"}</div>
+                        <div className="text-xs text-[var(--text-muted)] uppercase tracking-wider mt-1">{index === 0 ? "operational areas" : index === 1 ? "model" : index === 2 ? "monitoring" : index === 3 ? "intelligence" : index === 4 ? "access" : "operators"}</div>
                       </div>
                     </div>
 
@@ -352,7 +357,7 @@ export default function WhySundaePage() {
 
       <PageCTA title={copy.cta.title} description={copy.cta.description}>
         <Button variant="cta" size="lg" href="/demo">{copy.cta.primary}</Button>
-        <Button variant="outline-light" size="lg" href="/product">{copy.cta.secondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/product">{copy.cta.secondary}</Button>
       </PageCTA>
     </div>
   );

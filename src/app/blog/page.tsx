@@ -258,7 +258,7 @@ export default function BlogPage() {
         description={copy.ctaDescription}
       >
         <Button variant="cta" size="lg" href={demoHref}>{copy.bookDemo}</Button>
-        <Button variant="outline-light" size="lg" href={contactHref}>{copy.contactUs}</Button>
+        <Button variant="outline-ink" size="lg" href={contactHref}>{copy.contactUs}</Button>
       </PageCTA>
     </div>
   );

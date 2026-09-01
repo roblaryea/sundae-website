@@ -6,6 +6,7 @@ import { SectionProductGallery } from "@/components/home/sections/SectionProduct
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_solutions_technology_teams_page'
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
@@ -27,10 +28,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "How Sundae works for tech & data teams",
     howDescription: "One platform, twelve domains, zero plumbing.",
     howSundaeHelps: [
-      { title: "500+ governed restaurant data models", description: "Unified schema across POS, labor, inventory, delivery, reservations, accounting. Every metric defined once, used everywhere.", product: "Sundae Core", icon: "data" },
+      { title: "One auditable recovery loop", description: "A governed operating picture across POS, labor, inventory, delivery, reservations and accounting. Evidence becomes owned action and measured recovery.", product: "Sundae Core", icon: "data" },
       { title: "Public API + webhooks out of the box", description: "REST endpoints for every entity. Webhook events on order, shift, void, comp. RBAC and audit trails built in.", product: "Sundae Core · API", icon: "integration" },
-      { title: "Live Core refresh", description: "Pulse runs on a 5-minute refresh on Core Pro. No batch ETL, no nightly job, no \"why is the dashboard 6 hours behind\".", product: "Pulse", icon: "speed" },
-      { title: "AI you can govern", description: "Sundae Intelligence answers cite the source row, the metric definition, and the query. Auditable AI, not a black box.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Live Core refresh", description: "Pulse refreshes through the shift, not overnight. No batch ETL, no nightly job, no \"why is the dashboard 6 hours behind\".", product: "Pulse", icon: "speed" },
+      { title: "AI you can govern", description: "Ask Sundae answers cite the source row, the metric definition, and the query. Auditable AI, not a black box.", product: "Ask Sundae", icon: "intelligence" },
     ],
     outcomesTitle: "What changes for the data team",
     outcomesDescription: "Shorter backlog, cleaner governance, AI you can defend.",
@@ -40,7 +41,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Audit-grade traceability", description: "Every number → source row → query → metric definition. Finance, audit, and AI can all defend it.", icon: "owners" },
       { title: "AI that explains its reasoning", description: "Citations, confidence bands, query inspection. Ship AI features your CISO will sign off on.", icon: "support" },
     ],
-    ctaTitle: "See the schema, not the slide.",
+    ctaTitle: "Every recovered dollar, traceable to its source row.",
     ctaDescription: "30 minutes. Your stack. The integration weeks Sundae would save your team.",
     ctaButton: "Book a Technical Walk-through",
   },
@@ -63,10 +64,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "كيف يعمل Sundae لفِرَق التقنية والبيانات",
     howDescription: "منصة واحدة، اثنا عشر مجالاً، صفر سباكة.",
     howSundaeHelps: [
-      { title: "500+ نموذج بيانات مطعم محكوم", description: "مخطط موحد عبر POS وعمالة ومخزون وتوصيل وحجوزات ومحاسبة. كل مقياس معرف مرة، يُستخدم في كل مكان.", product: "Sundae Core", icon: "data" },
+      { title: "حلقة استرداد واحدة قابلة للتدقيق", description: "صورة تشغيلية محكومة عبر POS والعمالة والمخزون والتوصيل والحجوزات والمحاسبة. تتحول الأدلة إلى تنفيذ بمسؤول واسترداد قابل للقياس.", product: "Sundae Core", icon: "data" },
       { title: "API عامة + webhooks جاهزة", description: "نقاط REST لكل كيان. أحداث webhook على الطلب والوردية والتجاوز والتعويض. RBAC وتتبع مدمجان.", product: "Sundae Core · API", icon: "integration" },
-      { title: "تحديث Core حي", description: "Pulse يعمل بتحديث كل 5 دقائق على Core Pro. لا ETL دفعي، لا مهمة ليلية، لا \"لماذا اللوحة متأخرة 6 ساعات\".", product: "Pulse", icon: "speed" },
-      { title: "ذكاء يمكن حوكمته", description: "إجابات Sundae Intelligence تستشهد بالصف المصدر وتعريف المقياس والاستعلام. ذكاء قابل للتدقيق لا صندوق أسود.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "تحديث Core حي", description: "Pulse يتحدث أثناء الوردية لا ليلًا. لا ETL دفعي، لا مهمة ليلية، لا \"لماذا اللوحة متأخرة 6 ساعات\".", product: "Pulse", icon: "speed" },
+      { title: "ذكاء يمكن حوكمته", description: "إجابات Ask Sundae تستشهد بالصف المصدر وتعريف المقياس والاستعلام. ذكاء قابل للتدقيق لا صندوق أسود.", product: "Ask Sundae", icon: "intelligence" },
     ],
     outcomesTitle: "ما يتغير لفريق البيانات",
     outcomesDescription: "backlog أقصر، حوكمة أنظف، ذكاء يمكنك الدفاع عنه.",
@@ -76,7 +77,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "تتبع بدرجة تدقيق", description: "كل رقم ← صف المصدر ← الاستعلام ← تعريف المقياس. المالية والتدقيق والذكاء يدافعون عنه.", icon: "owners" },
       { title: "ذكاء يشرح منطقه", description: "استشهادات وفجوات ثقة وفحص استعلام. اشحن ميزات ذكاء سيوقع عليها CISO.", icon: "support" },
     ],
-    ctaTitle: "شاهد المخطط لا الشريحة.",
+    ctaTitle: "كل دولار مُستعاد، يمكن تتبعه حتى صف المصدر.",
     ctaDescription: "30 دقيقة. تكدسك. أسابيع التكامل التي سيوفرها Sundae.",
     ctaButton: "احجز جولة تقنية",
   },
@@ -99,10 +100,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "Comment Sundae sert Tech & Data",
     howDescription: "Une plateforme, douze domaines, zéro plomberie.",
     howSundaeHelps: [
-      { title: "500+ modèles de données restaurant gouvernés", description: "Schéma unifié sur POS, main-d'œuvre, stocks, livraison, réservations, compta. Une définition, partout.", product: "Sundae Core", icon: "data" },
+      { title: "Une boucle de récupération auditable", description: "Une image d'exploitation gouvernée sur le POS, la main-d'œuvre, les stocks, la livraison, les réservations et la comptabilité. Les preuves deviennent actions attribuées et récupération mesurée.", product: "Sundae Core", icon: "data" },
       { title: "API publique + webhooks prêts", description: "REST sur chaque entité. Webhooks sur commande, shift, annulation, comp. RBAC et audit inclus.", product: "Sundae Core · API", icon: "integration" },
-      { title: "Refresh Core live", description: "Pulse en 5 min sur Core Pro. Pas d'ETL batch, pas de job nuit, pas de \"pourquoi le dashboard est en retard de 6h\".", product: "Pulse", icon: "speed" },
-      { title: "IA gouvernable", description: "Réponses Sundae Intelligence avec source, définition, requête. IA auditable, pas boîte noire.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Refresh Core live", description: "Pulse se rafraichit pendant le service, pas la nuit. Pas d'ETL batch, pas de job nuit, pas de \"pourquoi le dashboard est en retard de 6h\".", product: "Pulse", icon: "speed" },
+      { title: "IA gouvernable", description: "Réponses Ask Sundae avec source, définition, requête. IA auditable, pas boîte noire.", product: "Ask Sundae", icon: "intelligence" },
     ],
     outcomesTitle: "Ce qui change pour l'équipe data",
     outcomesDescription: "Backlog plus court, gouvernance propre, IA défendable.",
@@ -112,7 +113,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Traçabilité niveau audit", description: "Chaque chiffre → ligne source → requête → définition. Finance, audit et IA peuvent défendre.", icon: "owners" },
       { title: "IA qui explique son raisonnement", description: "Citations, intervalles de confiance, inspection de requête. Livrez de l'IA que votre CISO valide.", icon: "support" },
     ],
-    ctaTitle: "Voyez le schéma, pas le slide.",
+    ctaTitle: "Chaque dollar récupéré, traçable jusqu'à sa ligne source.",
     ctaDescription: "30 minutes. Votre stack. Les semaines d'intégration que Sundae économise.",
     ctaButton: "Réserver une visite technique",
   },
@@ -135,10 +136,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "Cómo trabaja Sundae para Tecnología y Data",
     howDescription: "Una plataforma, doce dominios, cero plomería.",
     howSundaeHelps: [
-      { title: "500+ modelos de datos restaurante gobernados", description: "Esquema unificado en POS, personal, inventario, delivery, reservas, contabilidad. Una definición, en todas partes.", product: "Sundae Core", icon: "data" },
+      { title: "Un ciclo de recuperación auditable", description: "Una imagen operativa gobernada sobre POS, personal, inventario, delivery, reservas y contabilidad. La evidencia se convierte en acción con responsable y recuperación medida.", product: "Sundae Core", icon: "data" },
       { title: "API pública + webhooks listos", description: "REST en cada entidad. Webhooks en pedido, turno, anulación, comp. RBAC y auditoría incluidos.", product: "Sundae Core · API", icon: "integration" },
-      { title: "Refresh Core en vivo", description: "Pulse en 5 min en Core Pro. Sin ETL batch, sin job nocturno, sin \"por qué el dashboard va 6 horas tarde\".", product: "Pulse", icon: "speed" },
-      { title: "IA gobernable", description: "Respuestas de Sundae Intelligence con fuente, definición, query. IA auditable, no caja negra.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Refresh Core en vivo", description: "Pulse se actualiza durante el turno, no de noche. Sin ETL batch, sin job nocturno, sin \"por qué el dashboard va 6 horas tarde\".", product: "Pulse", icon: "speed" },
+      { title: "IA gobernable", description: "Respuestas de Ask Sundae con fuente, definición, query. IA auditable, no caja negra.", product: "Ask Sundae", icon: "intelligence" },
     ],
     outcomesTitle: "Qué cambia para el equipo data",
     outcomesDescription: "Backlog más corto, gobernanza limpia, IA defendible.",
@@ -148,7 +149,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Trazabilidad nivel auditoría", description: "Cada cifra → fila fuente → query → definición. Finanzas, auditoría e IA pueden defender.", icon: "owners" },
       { title: "IA que explica su razonamiento", description: "Citas, intervalos de confianza, inspección de query. Lanza IA que tu CISO valida.", icon: "support" },
     ],
-    ctaTitle: "Ve el esquema, no la diapositiva.",
+    ctaTitle: "Cada dólar recuperado, rastreable hasta su fila fuente.",
     ctaDescription: "30 minutos. Tu stack. Las semanas de integración que Sundae ahorraría.",
     ctaButton: "Reservar recorrido técnico",
   },
@@ -156,6 +157,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 
 export default function TechnologyTeamsPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const copy: SolutionCopy = {
+    ...sourceCopy,
+    howSundaeHelps: sourceCopy.howSundaeHelps.map((item, index) =>
+      index === 0
+        ? {
+            ...item,
+            title: positioning.productHeroTitle,
+            description: positioning.productCoreDescription,
+          }
+        : item,
+    ),
+  };
   return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/integrations-dark.png" light="/images/product/2026-fresh/integrations.png" alt="Data & Integrations - POS, labor, inventory, and delivery unified across dozens of governed connectors" />} gallery={<SectionProductGallery defaultPersona="tech" />} />;
 }

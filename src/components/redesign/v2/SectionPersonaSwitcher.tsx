@@ -11,7 +11,6 @@ import {
   LaborOpsMockup,
   IntegrationsHubMockup,
 } from "@/components/ui/MockupFrame";
-import { SundaeWordmark } from "./SundaeWordmark";
 
 /**
  * Section 2 - Persona Switcher (homepage-spec-v1.1).
@@ -81,7 +80,7 @@ const personas: Persona[] = [
     outcome: "Portfolio truth, every morning.",
     outcomeCopy:
       "Daily AI briefings across every brand and location. Where you're winning, where you're leaking, what the market did to you, what to do today.",
-    intelLayers: ["Sundae Intelligence", "Benchmarks"],
+    intelLayers: ["Ask Sundae", "Benchmarks"],
     Mockup: IntelligenceChatMockup,
   },
   {
@@ -94,7 +93,7 @@ const personas: Persona[] = [
     outcome: "Campaign ROI, day-by-day.",
     outcomeCopy:
       "Tie campaign spend to covers, average check, and net margin - within 24 hours of activation. Re-allocate while the campaign is still running.",
-    intelLayers: ["Insights", "Sundae Intelligence"],
+    intelLayers: ["Insights", "Ask Sundae"],
     Mockup: MarketingPerformanceMockup,
   },
   {
@@ -144,7 +143,7 @@ export function SectionPersonaSwitcher() {
             className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2.5 sm:gap-x-3.5 gap-y-1.5"
           >
             <span>See</span>
-            <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
+            <span>Sundae</span>
             <span>for</span>
             <span className="text-[var(--warm-coral)]">
               {active.pluralLabel}.

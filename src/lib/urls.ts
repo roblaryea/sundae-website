@@ -7,7 +7,7 @@
  *
  * Required env vars (set in Vercel / .env.local):
  *   NEXT_PUBLIC_APP_URL        - Sundae web-app root  (default: https://app.sundaetech.ai)
- *   NEXT_PUBLIC_SITE_URL       - Marketing site root   (default: https://sundae.io)
+ *   NEXT_PUBLIC_SITE_URL       - Marketing site root   (default: https://www.sundae.io)
  *   NEXT_PUBLIC_PRICING_URL    - Pricing micro-site    (default: https://pricing.sundae.io)
  *   NEXT_PUBLIC_REPORT_APP_URL - Report app root       (default: https://report.sundae.io)
  *   NEXT_PUBLIC_CORE_APP_URL   - Core app root         (default: https://core.sundae.io)
@@ -25,7 +25,7 @@ export const APP_URL = clean(
 
 /** Main marketing website (canonical) */
 export const SITE_URL = clean(
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io',
+  process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io',
 );
 
 /** Pricing micro-site */

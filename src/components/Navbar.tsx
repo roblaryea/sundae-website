@@ -10,11 +10,12 @@ import { SundaeLogotype } from './ui/SundaeLogotype';
 import { SundaeMark } from './ui/SundaeMark';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
-import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
+import { SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
+import { crewNavLocales } from '@/lib/crewNavLocales';
 
 type NavbarLink = {
   name: string;
@@ -118,6 +119,9 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
 const Navbar = () => {
   const { locale, messages } = useWebsiteI18n();
   const nav = messages.navbar;
+  // Crew + Core nav labels come from a per-locale source (the i18n.ts navbar
+  // blocks predate these fields), so every locale gets them translated.
+  const cn = crewNavLocales[locale as keyof typeof crewNavLocales] ?? crewNavLocales.en;
   const cta = useCta();
   // Wordmark is CSS theme-swapped in the markup below (driven by the .light class,
   // which is set before hydration) - no JS state, so no flash and no stale-src caching.
@@ -130,6 +134,7 @@ const Navbar = () => {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     product: true,
     solutions: true,
+    pricing: false,
     resources: false,
     company: false,
   });
@@ -183,13 +188,14 @@ const Navbar = () => {
   // Close mobile menu on ESC key
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
-      if (event.key === 'Escape' && isMenuOpen) {
-        setIsMenuOpen(false);
+      if (event.key === 'Escape') {
+        if (isMenuOpen) setIsMenuOpen(false);
+        if (activeDropdown) setActiveDropdown(null);
       }
     };
     window.addEventListener('keydown', handleEsc);
     return () => window.removeEventListener('keydown', handleEsc);
-  }, [isMenuOpen]);
+  }, [activeDropdown, isMenuOpen]);
 
   // Toggle accordion section
   const toggleSection = useCallback((section: string) => {
@@ -207,8 +213,11 @@ const Navbar = () => {
   // Six Intelligence Layers
   const pillars: ReadonlyArray<NavbarLink> = nav.pillars;
 
-  // Product Tiers
+  // Product Tiers (now surfaced under the Pricing dropdown)
   const plans: ReadonlyArray<NavbarLink> = nav.plansList;
+
+  // Sundae Crew operational modules (Product → Sundae Crew group)
+  const crewLinks: ReadonlyArray<NavbarLink> = cn.crewList;
 
   // Solutions organized by category
   const solutionsSegments: ReadonlyArray<NavbarLink> = nav.solutionsSegments;
@@ -219,18 +228,28 @@ const Navbar = () => {
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 backdrop-blur-md border-b ${
-      isScrolled
-        ? 'bg-[var(--navy-deep)]/90 border-[var(--border-default)] shadow-[0_4px_30px_rgba(0,0,0,0.3)]'
-        : 'bg-[var(--navy-deep)]/70 border-[var(--border-default)]'
+    <nav className={`fixed top-0 left-0 right-0 z-[100] transition-shadow duration-300 border-b border-[var(--border-default)] ${
+      isScrolled ? 'shadow-[0_4px_30px_rgba(0,0,0,0.3)]' : ''
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* The blur + tint live on this layer, NOT on <nav>. `backdrop-filter` makes
+          an element a containing block for its `position: fixed` descendants, so
+          while it sat on <nav> the mobile drawer's `fixed inset-0` scrim resolved
+          against the 80px-tall nav instead of the viewport - tap-outside-to-close
+          only worked in the top strip. It is also the documented cause of fixed
+          headers detaching and drifting during momentum scroll on iOS Safari. */}
+      <div
+        aria-hidden
+        className={`absolute inset-0 backdrop-blur-md transition-colors duration-300 ${
+          isScrolled ? 'bg-[var(--navy-deep)]/90' : 'bg-[var(--navy-deep)]/70'
+        }`}
+      />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo - Left Aligned with Animation */}
           {/* Inner flex span: `nav a { display:inline-block }` (accessibility.css,
               unlayered) overrides Tailwind's flex on the anchor itself, so the
               mark + wordmark lockup must flex on a child element. */}
-          <Link href={localizeHref('/')} className="group" aria-label="Sundae - Decision Intelligence for Restaurants">
+          <Link href={localizeHref('/')} className="group" aria-label="Sundae - Decision Intelligence for Food-Service">
             <span
               className="flex items-center gap-2.5"
               onMouseEnter={() => setIsLogoHovered(true)}
@@ -266,7 +285,8 @@ const Navbar = () => {
                 type="button"
                 className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('product')}
-                onClick={() => setActiveDropdown(activeDropdown === 'product' ? null : 'product')}
+                onFocus={() => setActiveDropdown('product')}
+                onClick={() => setActiveDropdown('product')}
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'product'}
               >
@@ -280,10 +300,10 @@ const Navbar = () => {
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                 <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
-                  {/* Intelligence Pillars */}
+                  {/* Core - the decision-intelligence modules */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.intelligence}
+                      {cn.core}
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
                       {pillars.map((pillar) => (
@@ -307,43 +327,32 @@ const Navbar = () => {
                   {/* Separator */}
                   <div className="border-t border-[var(--border-default)] my-4"></div>
 
-                  {/* Plans */}
+                  {/* Sundae Crew - the operational modules */}
                   <div>
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.plans}
+                      {cn.crew}
                     </h3>
-                    <div className="grid grid-cols-3 gap-1 mb-3">
-                      {plans.map((plan) => (
+                    <div className="grid grid-cols-2 gap-1 mb-2">
+                      {crewLinks.map((m) => (
                         <Link
-                          key={plan.name}
-                          href={localizeHref(plan.href)}
+                          key={m.name}
+                          href={localizeHref(m.href)}
                           className={dropdownLinkClass}
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className={dropdownTitleClass}>
-                            {plan.name}
-                          </div>
-                          <div className={dropdownDescriptionClass}>
-                            {plan.description}
-                          </div>
+                          <div className={dropdownTitleClass}>{m.name}</div>
+                          <div className={dropdownDescriptionClass}>{m.description}</div>
                         </Link>
                       ))}
                     </div>
-                    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
+                    <div className="px-3">
                       <Link
-                        href={localizeHref('/report-vs-core')}
-                        className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
+                        href={localizeHref('/crew')}
+                        className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        {nav.comparePlans}
+                        {cn.crewAll}
                       </Link>
-                      <a
-                        href={REPORT_APP_URL}
-                        className="min-w-0 text-sm font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--text-secondary)] break-words"
-                        onClick={() => setActiveDropdown(null)}
-                      >
-                        {nav.startFree}
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -357,7 +366,8 @@ const Navbar = () => {
                 type="button"
                 className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('solutions')}
-                onClick={() => setActiveDropdown(activeDropdown === 'solutions' ? null : 'solutions')}
+                onFocus={() => setActiveDropdown('solutions')}
+                onClick={() => setActiveDropdown('solutions')}
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'solutions'}
               >
@@ -420,9 +430,61 @@ const Navbar = () => {
               )}
             </div>
 
-            <a href={PRICING_URL} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
-              {nav.pricing}
-            </a>
+            {/* Pricing Mega Menu - Plans now live here */}
+            <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
+              <button
+                type="button"
+                className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
+                onMouseEnter={() => setActiveDropdown('pricing')}
+                onFocus={() => setActiveDropdown('pricing')}
+                onClick={() => setActiveDropdown('pricing')}
+                aria-haspopup="true"
+                aria-expanded={activeDropdown === 'pricing'}
+              >
+                {nav.pricing}
+              </button>
+
+              {activeDropdown === 'pricing' && (
+                <div
+                  className="absolute top-full left-0 z-50 w-[min(26rem,calc(100vw-2rem))] pt-2"
+                  onMouseEnter={() => setActiveDropdown('pricing')}
+                  onMouseLeave={() => setActiveDropdown(null)}
+                >
+                  <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
+                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">{nav.plans}</h3>
+                    <div className="grid grid-cols-1 gap-1 mb-3">
+                      {plans.map((plan) => (
+                        <Link
+                          key={plan.name}
+                          href={localizeHref(plan.href)}
+                          className={dropdownLinkClass}
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          <div className={dropdownTitleClass}>{plan.name}</div>
+                          <div className={dropdownDescriptionClass}>{plan.description}</div>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
+                      <Link
+                        href={localizeHref('/core')}
+                        className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
+                        onClick={() => setActiveDropdown(null)}
+                      >
+                        {nav.comparePlans}
+                      </Link>
+                      <a
+                        href={PRICING_URL}
+                        className="min-w-0 text-sm font-semibold text-[var(--warm-coral)] transition-colors hover:text-[var(--text-primary)] break-words"
+                        onClick={() => setActiveDropdown(null)}
+                      >
+                        {cn.viewPricing}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
 
             <Link href={localizeHref('/about')} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
               {nav.about}
@@ -434,7 +496,8 @@ const Navbar = () => {
                 type="button"
                 className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('resources')}
-                onClick={() => setActiveDropdown(activeDropdown === 'resources' ? null : 'resources')}
+                onFocus={() => setActiveDropdown('resources')}
+                onClick={() => setActiveDropdown('resources')}
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'resources'}
               >
@@ -600,7 +663,7 @@ const Navbar = () => {
               onToggle={() => toggleSection('product')}
             >
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{nav.intelligence}</span>
+                <span className="eyebrow text-[var(--text-muted)]">{cn.core}</span>
               </div>
               {pillars.map((pillar) => (
                 <MobileNavLink
@@ -613,30 +676,24 @@ const Navbar = () => {
               ))}
               <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">{nav.plans}</span>
+                <span className="eyebrow text-[var(--text-muted)]">{cn.crew}</span>
               </div>
-              {plans.map((plan) => (
+              {crewLinks.map((m) => (
                 <MobileNavLink
-                  key={plan.name}
-                  href={localizeHref(plan.href)}
+                  key={m.name}
+                  href={localizeHref(m.href)}
                   onClick={handleMobileNavClick}
                 >
-                  {plan.name}
+                  {m.name}
                 </MobileNavLink>
               ))}
               <MobileNavLink
-                href={localizeHref('/report-vs-core')}
+                href={localizeHref('/crew')}
                 onClick={handleMobileNavClick}
+                isHighlighted
               >
-                {nav.comparePlans}
+                {cn.crewAll}
               </MobileNavLink>
-              <a
-                href={SIGNUP_URL}
-                onClick={handleMobileNavClick}
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
-              >
-                {nav.startFree}
-              </a>
             </AccordionSection>
 
             {/* Solutions Section */}
@@ -673,6 +730,40 @@ const Navbar = () => {
               ))}
             </AccordionSection>
 
+            {/* Pricing Section - Plans live here */}
+            <AccordionSection
+              title={nav.pricing}
+              id="pricing"
+              isExpanded={expandedSections.pricing}
+              onToggle={() => toggleSection('pricing')}
+            >
+              <div className="px-4 pt-1 pb-1">
+                <span className="eyebrow text-[var(--text-muted)]">{nav.plans}</span>
+              </div>
+              {plans.map((plan) => (
+                <MobileNavLink key={plan.name} href={localizeHref(plan.href)} onClick={handleMobileNavClick}>
+                  {plan.name}
+                </MobileNavLink>
+              ))}
+              <MobileNavLink href={localizeHref('/core')} onClick={handleMobileNavClick}>
+                {nav.comparePlans}
+              </MobileNavLink>
+              <a
+                href={SIGNUP_URL}
+                onClick={handleMobileNavClick}
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
+              >
+                {nav.startFree}
+              </a>
+              <a
+                href={PRICING_URL}
+                onClick={handleMobileNavClick}
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]"
+              >
+                {cn.viewPricing}
+              </a>
+            </AccordionSection>
+
             {/* Resources Section */}
             <AccordionSection
               title={nav.resources}
@@ -698,12 +789,6 @@ const Navbar = () => {
               isExpanded={expandedSections.company}
               onToggle={() => toggleSection('company')}
             >
-              <a 
-                href={PRICING_URL} 
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]"
-              >
-                {nav.pricing}
-              </a>
               <MobileNavLink href={localizeHref('/about')} onClick={handleMobileNavClick}>
                 {nav.about}
               </MobileNavLink>

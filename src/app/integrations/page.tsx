@@ -6,6 +6,7 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_integrations_page'
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 const integrationCategoriesByLocale = {
   en: [
@@ -34,7 +35,7 @@ const integrationCategoriesByLocale = {
   ],
   fr: [
     { category: "Point de vente (POS)", icon: "restaurant" as const, status: "Live" as const, systems: ["Oracle MICROS Simphony", "Square", "Toast", "Clover", "PostgreSQL (DB directe)", "SQL Server / Azure SQL (DB directe)"] },
-    { category: "Main-d'oeuvre et planning", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
+    { category: "Main-d'œuvre et planning", icon: "labor" as const, status: "Live" as const, systems: ["7shifts", "HotSchedules (Fourth)", "Deputy"] },
     { category: "Stock et disponibilite", icon: "inventory" as const, status: "Live" as const, systems: ["MarketMan", "Craftable", "BinWise"] },
     { category: "Achats et approvisionnement", icon: "purchasing" as const, status: "Live" as const, systems: ["MarketMan"] },
     { category: "Livraison et 3PD", icon: "speed" as const, status: "Live" as const, systems: ["Deliverect", "Uber Eats", "DoorDash", "Talabat"] },
@@ -98,6 +99,7 @@ export default function IntegrationsPage() {
   const copy = messages.pages.integrations;
   const integrationCategories = integrationCategoriesByLocale[locale as keyof typeof integrationCategoriesByLocale] ?? getGeneratedLocalCopy(integrationCategoriesByLocale, generatedLocalCopy.integrationCategoriesByLocale, locale) ?? integrationCategoriesByLocale.en;
   const ui = localizedIntegrationCopy[locale as keyof typeof localizedIntegrationCopy] ?? getGeneratedLocalCopy(localizedIntegrationCopy, generatedLocalCopy.localizedIntegrationCopy, locale) ?? localizedIntegrationCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -119,6 +121,18 @@ export default function IntegrationsPage() {
             ))}
           </StaggerContainer>
         </div>
+      </section>
+
+      <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-20 border-b border-[var(--border-default)] bg-[var(--surface-faint)]">
+        <FadeUp className="mx-auto max-w-4xl">
+          <p className="eyebrow mb-4">{positioning.integrationsProofEyebrow}</p>
+          <h2 className="section-h2 text-[var(--text-primary)] text-balance">
+            {positioning.integrationsProofTitle}
+          </h2>
+          <p className="mt-5 body-lg max-w-3xl text-[var(--text-supporting)]">
+            {positioning.integrationsProofDescription}
+          </p>
+        </FadeUp>
       </section>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8">
@@ -225,7 +239,7 @@ export default function IntegrationsPage() {
         <Button variant="cta" size="lg" href="/demo">
           {messages.pages.demo.bookDemo}
         </Button>
-          <Button variant="outline-light" size="lg" href="/product">
+          <Button variant="outline-ink" size="lg" href="/product">
           {ui.exploreProducts}
           </Button>
       </PageCTA>

@@ -7,7 +7,6 @@ import { motion, MotionConfig } from "framer-motion";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
-import { ElegantShape } from "@/components/ui/ElegantShape";
 import { MockupFrame } from "@/components/ui/MockupFrame";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -46,27 +45,28 @@ const HOME_CHAPTERS: Omit<HomeChapter, "label">[] = [
 // Localized chapter labels (order matches HOME_CHAPTERS). Short, native nav
 // labels - "Crew" is the product name, kept literal in every locale.
 const CHAPTER_LABELS: Record<string, string[]> = {
-  en: ["Every layer", "The shift", "The platform", "The moat", "Crew", "Proof", "Your move"],
-  fr: ["Chaque couche", "Le service", "La plateforme", "L'avantage", "Crew", "Preuves", "À vous de jouer"],
-  es: ["Cada capa", "El turno", "La plataforma", "La ventaja", "Crew", "Pruebas", "Te toca"],
-  de: ["Jede Ebene", "Die Schicht", "Die Plattform", "Der Vorsprung", "Crew", "Belege", "Ihr Zug"],
-  nl: ["Elke laag", "De dienst", "Het platform", "De voorsprong", "Crew", "Bewijs", "Jouw beurt"],
-  pt: ["Cada camada", "O turno", "A plataforma", "A vantagem", "Crew", "Provas", "É a sua vez"],
-  it: ["Ogni livello", "Il turno", "La piattaforma", "Il vantaggio", "Crew", "Prove", "Tocca a te"],
-  pl: ["Każda warstwa", "Zmiana", "Platforma", "Przewaga", "Crew", "Dowody", "Twój ruch"],
-  ro: ["Fiecare strat", "Tura", "Platforma", "Avantajul", "Crew", "Dovezi", "Rândul tău"],
-  sv: ["Varje lager", "Passet", "Plattformen", "Försprånget", "Crew", "Bevis", "Din tur"],
-  tr: ["Her katman", "Vardiya", "Platform", "Avantaj", "Crew", "Kanıt", "Sıra sizde"],
-  id: ["Setiap lapisan", "Shift", "Platform", "Keunggulan", "Crew", "Bukti", "Giliran Anda"],
-  ms: ["Setiap lapisan", "Syif", "Platform", "Kelebihan", "Crew", "Bukti", "Giliran anda"],
-  vi: ["Mọi tầng", "Ca làm", "Nền tảng", "Lợi thế", "Crew", "Bằng chứng", "Lượt của bạn"],
-  hi: ["हर परत", "शिफ्ट", "प्लेटफ़ॉर्म", "बढ़त", "Crew", "प्रमाण", "आपकी बारी"],
-  ur: ["ہر پرت", "شفٹ", "پلیٹ فارم", "برتری", "Crew", "ثبوت", "آپ کی باری"],
-  bn: ["প্রতিটি স্তর", "শিফট", "প্ল্যাটফর্ম", "সুবিধা", "Crew", "প্রমাণ", "আপনার পালা"],
-  th: ["ทุกชั้น", "กะ", "แพลตฟอร์ม", "ความได้เปรียบ", "Crew", "หลักฐาน", "ตาคุณแล้ว"],
-  "zh-Hans": ["每一层", "营业班次", "平台", "护城河", "Crew", "实证", "该你了"],
-  ja: ["すべての層", "シフト", "プラットフォーム", "優位性", "Crew", "実証", "あなたの番"],
-  ko: ["모든 계층", "시프트", "플랫폼", "우위", "Crew", "증거", "당신 차례"],
+  en: ["The leak", "The catch", "The platform", "The moat", "Crew", "Proof", "Your move"],
+  fr: ["La fuite", "Le rattrapage", "La plateforme", "L'avantage", "Crew", "Preuves", "À vous de jouer"],
+  es: ["La fuga", "El rescate", "La plataforma", "La ventaja", "Crew", "Pruebas", "Te toca"],
+  de: ["Das Leck", "Das Auffangen", "Die Plattform", "Der Vorsprung", "Crew", "Belege", "Ihr Zug"],
+  nl: ["Het lek", "De vangst", "Het platform", "De voorsprong", "Crew", "Bewijs", "Jouw beurt"],
+  pt: ["O vazamento", "O resgate", "A plataforma", "A vantagem", "Crew", "Provas", "É a sua vez"],
+  it: ["La perdita", "La ripresa", "La piattaforma", "Il vantaggio", "Crew", "Prove", "Tocca a te"],
+  pl: ["Wyciek", "Przechwyt", "Platforma", "Przewaga", "Crew", "Dowody", "Twój ruch"],
+  ro: ["Scurgerea", "Recuperarea", "Platforma", "Avantajul", "Crew", "Dovezi", "Rândul tău"],
+  sv: ["Läckan", "Räddningen", "Plattformen", "Försprånget", "Crew", "Bevis", "Din tur"],
+  tr: ["Sızıntı", "Yakalama", "Platform", "Avantaj", "Crew", "Kanıt", "Sıra sizde"],
+  id: ["Kebocoran", "Tangkapan", "Platform", "Keunggulan", "Crew", "Bukti", "Giliran Anda"],
+  ms: ["Kebocoran", "Tangkapan", "Platform", "Kelebihan", "Crew", "Bukti", "Giliran anda"],
+  vi: ["Thất thoát", "Bắt kịp", "Nền tảng", "Lợi thế", "Crew", "Bằng chứng", "Lượt của bạn"],
+  hi: ["रिसाव", "पकड़", "प्लेटफ़ॉर्म", "बढ़त", "Crew", "प्रमाण", "आपकी बारी"],
+  ur: ["رساؤ", "پکڑ", "پلیٹ فارم", "برتری", "Crew", "ثبوت", "آپ کی باری"],
+  bn: ["ফাঁস", "ধরা", "প্ল্যাটফর্ম", "সুবিধা", "Crew", "প্রমাণ", "আপনার পালা"],
+  th: ["จุดรั่วไหล", "การกู้คืน", "แพลตฟอร์ม", "ความได้เปรียบ", "Crew", "หลักฐาน", "ตาคุณแล้ว"],
+  "zh-Hans": ["漏损", "截住", "平台", "护城河", "Crew", "实证", "该你了"],
+  ja: ["漏れ", "捕捉", "プラットフォーム", "優位性", "Crew", "実証", "あなたの番"],
+  ko: ["누수", "포착", "플랫폼", "우위", "Crew", "증거", "당신 차례"],
+  ar: ["التسرب", "الالتقاط", "المنصة", "الميزة", "Crew", "الإثبات", "دورك"],
 };
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
@@ -75,29 +75,6 @@ import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 // preserved at its original path for reuse on product + solutions pages.
 // Homepage shows only the slim 4-card teaser per Option B from review.
 // SectionCommercialHubs moved to /about page (presence section).
-
-/* ─── Data ─────────────────────────────────────────────────────── */
-
-/**
- * Render copy with the standalone brand name "Sundae" swapped for the wordmark
- * (where Sundae is the subject). Brand name is constant across all 22 locales, so
- * splitting on it is locale-safe; the product lockup "Sundae Intelligence" is left
- * as text so the wordmark never breaks a product name.
- */
-function withWordmark(text: string, markClassName: string) {
-  return text.split(/(\bSundae\b(?!\s+Intelligence))/g).map((part, i) =>
-    part === "Sundae" ? (
-      // aria-hidden wordmark + sr-only text so screen readers announce "Sundae"
-      // once AND raw textContent (SEO / extraction) still reads the brand name.
-      <span key={i} className="inline-flex items-baseline">
-        <SundaeWordmark aria-hidden className={markClassName} />
-        <span className="sr-only">Sundae</span>
-      </span>
-    ) : (
-      <span key={i}>{part}</span>
-    )
-  );
-}
 
 /* ─── Component ────────────────────────────────────────────────── */
 
@@ -151,18 +128,13 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
-        <section id="chapter-overview" className="relative scroll-mt-24 pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          {/* Background layers */}
+        <section id="chapter-overview" className="relative scroll-mt-24 pt-20 pb-14 px-4 sm:px-6 lg:px-8 overflow-hidden">
+          {/* Background layers - two soft warm radial washes only. The grid-texture
+              overlay and floating "elegant shape" blobs were retired: they read as
+              generic SaaS-template scaffolding and fought the editorial photo backdrop
+              below. Depth now comes from the real room photo + the product glow. */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
-          <div className="absolute inset-0 bg-grid-texture" />
-
-          {/* Floating shapes */}
-          <div className="absolute inset-0 overflow-hidden">
-            <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
-            <ElegantShape delay={0.5} width={500} height={120} rotate={-15} gradient="from-white/[0.02]" className="right-[-5%] top-[70%]" />
-            <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[5%]" />
-          </div>
 
           {/* Editorial backdrop - grounds the product hero in the restaurant world.
               Heavily darkened, blurred and vignetted into the page bg so it reads as
@@ -176,13 +148,13 @@ export default function HomeContent() {
               alt=""
               fill
               sizes="100vw"
-              className="object-cover object-center hidden [html.light_&]:block opacity-[0.55]"
+              className="object-cover object-center hidden [html.light_&]:block opacity-[0.7]"
             />
             <div
               className="absolute inset-0 hidden [html.light_&]:block"
               style={{
                 background:
-                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.16) 0%, transparent 52%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.22) 0%, transparent 54%), radial-gradient(ellipse 62% 52% at 50% 40%, rgba(255,250,245,0.86) 0%, rgba(255,246,239,0.42) 46%, transparent 72%), linear-gradient(180deg, rgba(255,246,239,0.32) 0%, rgba(255,255,255,0.55) 60%, #FFFFFF 96%)',
+                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.22) 0%, transparent 54%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.30) 0%, transparent 56%), radial-gradient(ellipse 56% 46% at 50% 38%, rgba(255,250,245,0.62) 0%, rgba(255,246,239,0.26) 48%, transparent 72%), linear-gradient(180deg, rgba(255,246,239,0.18) 0%, rgba(255,251,247,0.4) 62%, #FBF7F1 96%)',
               }}
             />
             <Image
@@ -193,9 +165,11 @@ export default function HomeContent() {
               sizes="100vw"
               className="object-cover object-center scale-105 opacity-[0.7] [html.light_&]:opacity-0"
             />
-            {/* warm grade - strong caramel/coral so the room reads unmistakably warm (V2 feel) */}
+            {/* warm grade - strong caramel/coral so the room reads unmistakably warm.
+                Kept ON in light too (was disabled) at reduced strength, so the photo
+                reads as an intentional warm room, not a washed-out beige panel. */}
             <div
-              className="absolute inset-0 mix-blend-soft-light opacity-90 [html.light_&]:opacity-0"
+              className="absolute inset-0 mix-blend-soft-light opacity-90 [html.light_&]:opacity-[0.55]"
               style={{
                 background:
                   'radial-gradient(ellipse 85% 75% at 64% 30%, rgba(233,162,74,0.65) 0%, transparent 62%), radial-gradient(ellipse 70% 60% at 18% 88%, rgba(255,92,77,0.5) 0%, transparent 60%)',
@@ -223,16 +197,23 @@ export default function HomeContent() {
           </div>
 
           <div className="max-w-5xl mx-auto text-center relative z-20">
-            {/* Eyebrow badge */}
+            {/* Eyebrow - the site's own editorial eyebrow (uppercase, tracked),
+                matching the cinematic intro. The prior rounded "pill + pulsing dot"
+                badge was the single most-cloned AI-SaaS pattern; retired here. A
+                small live tick is kept because this hero opens a genuinely live
+                Pulse visual - meaning preserved, template dropped. */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0, ease: [0.25, 0.4, 0.25, 1] }}
-              className="flex justify-center mb-8"
+              className="flex justify-center mb-7"
             >
-              <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.28)] text-[#FF8473]">
-                <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
+              <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.24em] text-[var(--text-secondary)]">
+                <span className="relative inline-flex h-1.5 w-1.5 flex-shrink-0" aria-hidden>
+                  <span className="absolute inline-flex h-full w-full rounded-full bg-[var(--warm-coral)] opacity-60 motion-safe:animate-ping" />
+                  <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[var(--warm-coral)]" />
+                </span>
                 {home.badge}
               </span>
             </motion.div>
@@ -244,12 +225,17 @@ export default function HomeContent() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.9, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
             >
+              {/* Restrained two-part display headline, matching the cinematic
+                  intro's treatment: a solid warm-white lead line + a single-color
+                  amber italic emphasis. The prior three-stop bg-clip gradient on the
+                  italic read as generic "gradient text"; a single warm accent is
+                  more confident and keeps coral rationed for action (CTAs). */}
               <h2 className="section-h2 mb-5 max-w-3xl mx-auto" aria-label={`${home.titleTop} ${home.titleBottom}`}>
-                <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
+                <span className="text-[var(--text-primary)]">
                   {home.titleTop}
                 </span>{" "}
                 <br />
-                <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-[#E9A24A] via-[#FF7E6F] to-[#FF5C4D]">
+                <span className="italic text-[#F6C66B]">
                   {home.titleBottom}
                 </span>
               </h2>
@@ -267,53 +253,15 @@ export default function HomeContent() {
               </p>
             </motion.div>
 
-            {/* Tagline */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.9, delay: 0.25, ease: [0.25, 0.4, 0.25, 1] }}
-            >
-              <p className="body-lg max-w-xl mx-auto mb-10 text-[var(--text-supporting)]">
-                {home.description}
-                <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.66em] w-auto inline-block align-baseline mx-[0.08em] translate-y-[0.02em] text-[var(--text-primary)]")}</span>
-              </p>
-            </motion.div>
-
-            {/* CTAs */}
-            <motion.div
-              className="flex flex-col sm:flex-row gap-3 justify-center mb-4"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.9, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-            >
-              <Button
-                variant="cta"
-                size="lg"
-                href="/demo"
-                onClick={(e) => { e.preventDefault(); cta("/demo", "book_walkthrough_hero", { page: "/home" }); }}
-              >
-                {home.startFree}
-              </Button>
-            </motion.div>
-            {home.noCard ? (
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="text-xs text-[var(--text-muted)]"
-              >
-                {home.noCard}
-              </motion.p>
-            ) : null}
+            {/* Description + CTA intentionally omitted here: this section leads
+                into the live revenue/pacing visual, so it reads as a normal page,
+                not a second full hero (the cinematic intro above carries the CTA). */}
           </div>
 
           {/* Hero CSS Mockup - Pulse Dashboard */}
           <motion.div
             id="pulse-live"
-            className="max-w-5xl mx-auto mt-16 relative z-20 px-4 scroll-mt-24"
+            className="max-w-5xl mx-auto mt-10 relative z-20 px-4 scroll-mt-24"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.2 }}
@@ -412,22 +360,52 @@ export default function HomeContent() {
               </p>
             </FadeUp>
 
-            {/* One vessel, six layers - the modules stack like the strata in
-                the glass: a single operating system, not a grid of products. */}
+            {/* One vessel, six layers - the sundae glass sits beside the six
+                modules it stands for (its strata ARE the layers), so the metaphor
+                reads as connected, not a decorative object floating above the
+                table. Static poster (no WebGL) keeps it light. Mobile-first: the
+                glass caps the stack on phones; from lg it moves alongside and
+                shares the row height. */}
             <FadeUp>
-              <div className="relative mx-auto max-w-4xl rounded-3xl border border-[var(--border-default)] overflow-hidden divide-y divide-[var(--border-default)] bg-[var(--navy-deep)]/40 backdrop-blur shadow-[0_40px_90px_-50px_rgba(0,0,0,0.7)]">
-                {platform.layers.map((layer, i) => (
-                  <LayerCard
-                    key={layer.name}
-                    layer={layer}
-                    icon={layerIcons[layer.name]}
-                    accent={layerAccents[layer.name]}
-                    learnMoreLabel={platform.learnMore}
-                    indexLabel={`0${i + 1}`}
-                    countLabel={platform.countLabel}
-                    cta={cta}
+              <div className="mx-auto grid max-w-4xl gap-6 lg:grid-cols-[auto_minmax(0,1fr)] lg:items-center lg:gap-7">
+                {/* Glass - the vessel that holds every layer. Sized to itself (auto
+                    column) and set right against the stack with a tight gap, so the
+                    two read as one unit instead of a glass floating in the margin. */}
+                <div className="relative mx-auto flex justify-center lg:mx-0">
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute left-1/2 top-1/2 h-[380px] w-[320px] -translate-x-1/2 -translate-y-1/2 rounded-full"
+                    style={{ background: "radial-gradient(circle, rgba(255,92,77,.15), rgba(233,162,74,.06) 46%, transparent 72%)", filter: "blur(48px)" }}
                   />
-                ))}
+                  {/* The PNG carries ~19.5% transparent padding each side, so the
+                      visible glass floats far from the stack. On desktop a negative
+                      right margin (~the right transparent band) pulls the list up
+                      against the visible bowl so the two read as one unit. */}
+                  <Image
+                    src="/images/hero/sundae-glass.png"
+                    alt="The Sundae glass - every layer of the business in one vessel"
+                    width={232}
+                    height={416}
+                    className="relative h-auto w-[150px] sm:w-[186px] lg:w-[236px] lg:-mx-[46px]"
+                    style={{ filter: "drop-shadow(0 26px 46px rgba(0,0,0,0.5))" }}
+                  />
+                </div>
+
+                {/* The six layers */}
+                <div className="relative rounded-3xl border border-[var(--border-default)] overflow-hidden divide-y divide-[var(--border-default)] bg-[var(--navy-deep)]/40 backdrop-blur shadow-[0_40px_90px_-50px_rgba(0,0,0,0.7)]">
+                  {platform.layers.map((layer, i) => (
+                    <LayerCard
+                      key={layer.name}
+                      layer={layer}
+                      icon={layerIcons[layer.name]}
+                      accent={layerAccents[layer.name]}
+                      learnMoreLabel={platform.learnMore}
+                      indexLabel={`0${i + 1}`}
+                      countLabel={platform.countLabel}
+                      cta={cta}
+                    />
+                  ))}
+                </div>
               </div>
             </FadeUp>
 
@@ -451,10 +429,7 @@ export default function HomeContent() {
           objectPosition="center 72%"
           alt={editorial.band2.alt}
           eyebrow={editorial.band2.eyebrow}
-          headline={withWordmark(
-            editorial.band2.headline,
-            "h-[0.72em] w-auto inline-block align-baseline translate-y-[0.02em] text-white"
-          )}
+          headline={editorial.band2.headline}
           sub={editorial.band2.sub}
         />
 
@@ -542,54 +517,45 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section id="chapter-cta" className="relative scroll-mt-24 py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
-          {/* photographic base - the floor, warm-graded */}
-          <Image
-            src="/images/editorial/dining-night.jpg"
-            alt=""
-            fill
-            sizes="100vw"
-            className="object-cover object-center brightness-[0.5]"
-          />
-          {/* warm gradient - the bold "punctuation" jolt that closes the page */}
+        <section
+          id="chapter-cta"
+          className="relative scroll-mt-24 py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden"
+          style={{ background: 'var(--cream)', color: 'var(--ink)' }}
+        >
+          {/* warm caramel glow - the calm cream close, consistent with the page's
+              cream relief bands. The coral energy now lives in the primary button. */}
           <div
-            className="absolute inset-0 mix-blend-multiply"
-            style={{ background: 'linear-gradient(135deg, rgba(233,162,74,0.95) 0%, rgba(255,92,77,0.95) 52%, rgba(224,62,72,0.96) 100%)' }}
+            aria-hidden
+            className="absolute inset-0"
+            style={{ background: 'radial-gradient(ellipse 60% 75% at 50% 0%, rgba(233,162,74,0.22) 0%, transparent 62%)' }}
           />
-          <div
-            className="absolute inset-0 opacity-75"
-            style={{ background: 'linear-gradient(135deg, var(--warm-caramel) 0%, var(--warm-coral) 52%, var(--warm-cherry) 100%)' }}
-          />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,255,255,0.22),transparent_60%)]" />
 
-          {/* the mark as a layout device - bleeds into the corner, not a sticker */}
-          <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.12] text-white pointer-events-none">
+          {/* the mark as a layout device - bleeds into the corner, ink at low opacity */}
+          <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.06] pointer-events-none" style={{ color: 'var(--ink)' }}>
             <SundaeWordmark className="w-full h-auto" />
           </div>
 
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <FadeUp>
-              <h2 className="section-h2 mb-4 !text-white">
+              <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>
                 {home.closingTitle}
-                {/* Warm off-white (not near-black ink) - lighter, more refined on the
-                    caramel->coral->cherry gradient, and uniformly legible across it. */}
-                <span className="mt-1 block text-[#FBF6EE]">{withWordmark(closerLine, "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
+                {/* cherry-toned sign-off - matches the cream relief emphasis */}
+                <span className="mt-1 block" style={{ color: 'var(--warm-cherry)' }}>{closerLine}</span>
               </h2>
-              <p className="body-lg mb-10 max-w-xl mx-auto !text-white/90">
+              <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>
                 {home.closingDescription}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
-                  variant="ink"
+                  variant="cta"
                   size="lg"
                   onClick={() => cta("/demo", "book_demo_footer_cta", { page: "/home" })}
                 >
                   {home.bookDemo}
                 </Button>
                 <Button
-                  variant="outline-light"
+                  variant="outline-ink"
                   size="lg"
-                  className="!border-white/60 !text-white hover:!bg-white/15"
                   onClick={() => cta(SIGNUP_URL, "get_report_footer_cta", { page: "/home" })}
                 >
                   {home.startFree}

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { Fraunces, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
@@ -23,6 +22,7 @@ import {
   websiteLocaleDirection,
 } from "@/lib/i18n";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
+import { resolvePageDescription, resolvePageTitle } from "@/lib/pageTitles";
 
 // Display - warm, optical serif for headlines & key numbers (the human, premium voice).
 const fraunces = Fraunces({
@@ -55,24 +55,40 @@ export async function generateMetadata(): Promise<Metadata> {
   const headerStore = await headers();
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io';
   const publicPath = headerStore.get(WEBSITE_PUBLIC_PATH_HEADER) || '/';
   const { pathname: canonicalPath } = parseWebsiteLocaleFromPathname(publicPath);
-  const localizedCanonicalPath = getLocalizedPathname(normalizeWebsitePathname(canonicalPath), locale);
+  const normalizedPath = normalizeWebsitePathname(canonicalPath);
+  const localizedCanonicalPath = getLocalizedPathname(normalizedPath, locale);
   const alternates = buildWebsiteAlternateUrls(canonicalPath, baseUrl);
+  // Route-specific default title for pages that don't ship their own metadata
+  // title (fixes ~36 routes that otherwise share the generic root title). A page
+  // that DOES export its own title still overrides this via Next.js metadata
+  // merging; the template applies only to those child titles, not to this default.
+  const routeTitle = resolvePageTitle(normalizedPath, locale);
+  const routeDescription = resolvePageDescription(normalizedPath, locale);
+  const metadataDescription = routeDescription ?? messages.metadata.description;
 
   return {
     metadataBase: new URL(baseUrl),
     title: {
-      default: messages.metadata.title,
+      default: routeTitle ?? messages.metadata.title,
       template: "%s | Sundae",
     },
-    description: messages.metadata.description,
+    description: metadataDescription,
     alternates: {
       canonical: localizedCanonicalPath,
       languages: alternates.languages,
     },
-    keywords: ["restaurant analytics", "decision intelligence", "restaurant benchmarks", "4D intelligence", "restaurant AI", "multi-location restaurants", "F&B analytics"],
+    keywords: [
+      "restaurant profit recovery",
+      "food-service decision intelligence",
+      "multi-location restaurant software",
+      "restaurant margin management",
+      "restaurant AI",
+      "controllable profit loss",
+      "restaurant operations intelligence",
+    ],
     authors: [{ name: "Sundae Team" }],
     creator: "Sundae",
     publisher: "Sundae",
@@ -94,7 +110,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       siteName: "Sundae",
       title: messages.metadata.title,
-      description: messages.metadata.description,
+      description: metadataDescription,
       url: new URL(localizedCanonicalPath, baseUrl).toString(),
       images: [
         {
@@ -108,7 +124,7 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: messages.metadata.title,
-      description: messages.metadata.description,
+      description: metadataDescription,
       images: ["/logos/og-card.png"],
     },
     robots: {
@@ -140,6 +156,59 @@ export default async function RootLayout({
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
   const dir = websiteLocaleDirection[locale];
+  // Read the consent decision server-side so the banner is suppressed in the
+  // SSR HTML for returning visitors - no post-hydration flash of a banner they
+  // already dismissed. (localStorage is client-only; a mirrored cookie is the
+  // only consent signal the server can see.)
+  const consentCookie = cookieStore.get("sundae_cookie_consent")?.value;
+  const initialConsent =
+    consentCookie === "accepted" || consentCookie === "declined" ? consentCookie : null;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.sundae.io";
+  const organizationId = new URL("/#organization", baseUrl).toString();
+  const websiteId = new URL("/#website", baseUrl).toString();
+  const softwareId = new URL("/product/recovery#software", baseUrl).toString();
+  const globalJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": organizationId,
+        name: "Sundae",
+        url: new URL("/", baseUrl).toString(),
+        logo: new URL("/logos/sundae-app-icon.png", baseUrl).toString(),
+        description:
+          "Sundae provides decision intelligence for closed-loop profit recovery in multi-location food-service operations.",
+        sameAs: [
+          "https://www.linkedin.com/company/managewithsundae",
+          "https://x.com/sundae_io",
+          "https://www.youtube.com/@Sundae_io",
+        ],
+      },
+      {
+        "@type": "WebSite",
+        "@id": websiteId,
+        name: "Sundae",
+        url: new URL("/", baseUrl).toString(),
+        publisher: { "@id": organizationId },
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": softwareId,
+        name: "Sundae",
+        applicationCategory: "BusinessApplication",
+        applicationSubCategory: "Restaurant decision intelligence",
+        operatingSystem: "Web",
+        url: new URL("/product/recovery", baseUrl).toString(),
+        description:
+          "Sundae finds where profit is slipping, helps the right person act, and measures what changed across multi-location food-service operations.",
+        provider: { "@id": organizationId },
+        audience: {
+          "@type": "BusinessAudience",
+          audienceType: "Multi-location food-service operators",
+        },
+      },
+    ],
+  };
 
   return (
     <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
@@ -152,30 +221,35 @@ export default async function RootLayout({
       </head>
 
       <body className="relative antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
+        <script
+          id="sundae-global-structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(globalJsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#FF5C4D] focus:text-white focus:rounded-lg focus:outline-none"
         >
           {messages.layout.skipToContent}
         </a>
-        <Suspense fallback={null}>
-          <PostHogProvider>
-            <LocaleProvider initialLocale={locale}>
-              <ThemeProvider>
-                <header role="banner">
-                  <Navbar />
-                </header>
-                <main id="main-content" className="relative min-h-screen overflow-x-hidden" role="main">
-                  <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
-                  {children}
-                </main>
-                <Footer />
-                <Analytics />
-                <CookieConsent />
-              </ThemeProvider>
-            </LocaleProvider>
-          </PostHogProvider>
-        </Suspense>
+        <PostHogProvider>
+          <LocaleProvider initialLocale={locale}>
+            <ThemeProvider>
+              <header role="banner">
+                <Navbar />
+              </header>
+              <main id="main-content" className="relative min-h-screen overflow-x-hidden" role="main">
+                <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
+                {children}
+              </main>
+              <Footer />
+              <Analytics />
+              <CookieConsent initialConsent={initialConsent} />
+            </ThemeProvider>
+          </LocaleProvider>
+        </PostHogProvider>
       </body>
     </html>
   );

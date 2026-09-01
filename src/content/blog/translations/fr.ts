@@ -221,10 +221,10 @@ Le workflow change lui aussi. Au lieu de naviguer dans des tableaux de bord pour
 
 Approche traditionnelle: le manager opérations passe 2 heures avant la réunion à extraire des rapports de 6 tableaux de bord, à construire des synthèses Excel et à préparer des slides. La réunion ne revient que sur ce qui s’est passé la semaine dernière, sans contexte sur les raisons ni sur les actions à prendre.
 
-Avec Sundae Intelligence:
+Avec Ask Sundae:
 
 - Le manager demande: "Montrez-moi les 5 principaux problèmes de performance cette semaine"
-- Sundae Intelligence identifie instantanément: un écart de main-d’œuvre sur 3 sites, une dérive du food cost sur 2 sites, une satisfaction client en baisse sur 1 site
+- Ask Sundae identifie instantanément: un écart de main-d’œuvre sur 3 sites, une dérive du food cost sur 2 sites, une satisfaction client en baisse sur 1 site
 - Chaque problème inclut un contexte 4D, une analyse de la cause racine et des actions recommandées
 - La réunion opérationnelle devient une discussion stratégique sur les solutions plutôt qu’un simple point de statut
 - Résultat: 2 heures économisées chaque semaine, des décisions prises plus vite avec un meilleur contexte
@@ -233,10 +233,10 @@ Avec Sundae Intelligence:
 
 Le DAF constate que le coût global de la main-d’œuvre augmente, mais doit comprendre quels sites, quels rôles et quelles périodes alimentent cette hausse. L’approche traditionnelle exige d’interroger le système de paie, d’exporter les données, de construire des tableaux croisés et d’analyser les tendances.
 
-Avec Sundae Intelligence:
+Avec Ask Sundae:
 
 - Le DAF demande: "Pourquoi le coût de la main-d’œuvre augmente-t-il sur l’ensemble du portefeuille ?"
-- Sundae Intelligence analyse tous les sites et identifie: 12 sites au-dessus du plan à cause d’inefficacités de planning, 5 sites impactés par des hausses de salaire minimum, 3 sites surstaffés par rapport au volume de transactions
+- Ask Sundae analyse tous les sites et identifie: 12 sites au-dessus du plan à cause d’inefficacités de planning, 5 sites impactés par des hausses de salaire minimum, 3 sites surstaffés par rapport au volume de transactions
 - Décompose l’impact par site et affiche une comparaison 4D (Réel vs Plan vs Benchmark vs Prévision)
 - Recommande des actions: mettre en place une optimisation du planning sur les 12 sites, ajuster les budgets pour les hausses de salaires, recalibrer les effectifs sur les sites surstaffés
 - Résultat: le DAF obtient une analyse complète en 30 secondes au lieu de 3 heures
@@ -245,10 +245,10 @@ Avec Sundae Intelligence:
 
 Le responsable marketing a lancé une promotion sur 15 sites mais doit comprendre rapidement le ROI pour décider d’un déploiement à l’échelle du portefeuille.
 
-Avec Sundae Intelligence:
+Avec Ask Sundae:
 
 - Il demande: "Quel est le ROI de la promotion de la semaine dernière ?"
-- Sundae Intelligence analyse les données de transaction, calcule le revenu incrémental, prend en compte le coût de la remise et compare aux sites témoins
+- Ask Sundae analyse les données de transaction, calcule le revenu incrémental, prend en compte le coût de la remise et compare aux sites témoins
 - Affiche une vue 4D: gain réel vs gain prévu vs performance promotionnelle de référence vs résultats prédits en cas de déploiement
 - Identifie: la promotion a très bien fonctionné sur 10 sites, mais a sous-performé sur 5 sites
 - Recommande: étendre aux sites similaires et éviter l’extension aux sites dont le profil ressemble à celui des sous-performeurs
@@ -275,7 +275,7 @@ Ce gain de temps est facile à quantifier: si votre équipe opérations économi
 - Combien de temps passez-vous à trouver des réponses par rapport à agir sur les insights ?
 - Combien de temps faut-il à de nouveaux membres de l’équipe pour devenir autonomes ?
 
-**Étape 2: Connecter Sundae Intelligence à vos données**
+**Étape 2: Connecter Ask Sundae à vos données**
 
 - POS (ventes, transactions, mix)
 - Main-d’œuvre (heures, coûts, planning)
@@ -286,12 +286,12 @@ Ce gain de temps est facile à quantifier: si votre équipe opérations économi
 **Étape 3: Commencer à poser des questions**
 
 - Commencez par vos questions les plus fréquentes: "Pourquoi les ventes ont-elles baissé ?" "Où la main-d’œuvre dépasse-t-elle le plan ?" "Quels sites sous-performent ?"
-- Sundae Intelligence apprend votre langage et améliore ses réponses au fil du temps
+- Ask Sundae apprend votre langage et améliore ses réponses au fil du temps
 - Enregistrez les questions fréquentes comme raccourcis pour votre équipe
 
 **Étape 4: Remplacer les tableaux de bord de manière systématique**
 
-- Identifiez quels tableaux de bord à usage unique Sundae Intelligence remplace mieux
+- Identifiez quels tableaux de bord à usage unique Ask Sundae remplace mieux
 - Supprimez les outils redondants pour réaliser des économies
 - Concentrez les tableaux de bord restants sur les besoins de visualisation spécialisés
 
@@ -299,7 +299,7 @@ Ce gain de temps est facile à quantifier: si votre équipe opérations économi
 
 L’intelligence dans la restauration s’éloigne de la navigation permanente entre tableaux de bord pour aller vers des questions directes accompagnées de contexte. Au lieu de chercher des indicateurs isolés dans 7 systèmes différents, les opérateurs peuvent poser ce dont ils ont besoin en langage courant et obtenir une réponse exploitable.
 
-Sundae Core aide les équipes à passer moins de temps à chercher des chiffres et plus de temps à bien les utiliser. **Réservez une démo** pour voir comment Sundae Intelligence peut remplacer les tableaux de bord redondants et rendre les décisions du quotidien plus simples à exécuter.`,
+Sundae Core aide les équipes à passer moins de temps à chercher des chiffres et plus de temps à bien les utiliser. **Réservez une démo** pour voir comment Ask Sundae peut remplacer les tableaux de bord redondants et rendre les décisions du quotidien plus simples à exécuter.`,
   },
   ...frBatch2BlogTranslations,
   ...frBatch3BlogTranslations,

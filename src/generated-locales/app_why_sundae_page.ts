@@ -5,15 +5,21 @@ export const generatedLocalCopy = {
     "fr": {
       "hero": {
         "badge": "Pourquoi Sundae",
-        "title": "La couche d'intelligence que les restaurants n'ont jamais eue",
-        "description": "Vos données vivent dans des silos déconnectés. Votre équipe prend des décisions de plusieurs millions de dollars sur un coup de tête. Nous avons construit la plateforme qui change cela."
+        "title": "La détection est un minimum. La récupération mesurée, non.",
+        "description": "Tous vos concurrents savent désormais repérer un problème et suggérer une solution. Sundae la confie à un responsable unique, la suit jusqu'à son exécution et mesure la marge récupérée par rapport à une base de référence - la boucle entière, prouvée pour chaque décision."
       },
       "problems": {
         "eyebrow": "LE PROBLÈME",
         "title": "Trois lacunes qui vous coûtent de l'argent chaque jour",
-        "description": "Chaque groupe de restaurants avec lequel nous avons travaillé fait face aux mêmes trois défis."
+        "description": "Chaque groupe multi-sites avec lequel nous travaillons rencontre les memes trois manques."
       },
       "differentiators": [
+        {
+          "title": "Recuperation de marge en boucle fermee",
+          "description": "Quatorze detecteurs reperent la marge qui fuit sur la main-d'oeuvre, les achats, le gaspillage, la livraison et les prix. Chaque opportunite devient une action confiee a une seule personne, mesuree contre une base figee avant le debut du travail. Sundae ne declare aucune economie recuperee tant qu'elle n'a pas ete mesuree.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestion de données à 12 domaines",
           "description": "POS, main-d'œuvre, inventaire, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout est unifié. Fini les systèmes déconnectés.",
@@ -27,8 +33,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Opérations en temps réel via Pulse",
-          "description": "Suivi des ventes intrajournalières, productivité du travail, détection des fuites et coaching - avant la fin du service.",
+          "title": "Récupération en cours de journée via Pulse",
+          "description": "Détectez la fuite en temps réel, confiez la correction au responsable de service et mesurez la marge récupérée - avant la fin du service.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -51,44 +57,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAISON",
-        "title": "Au-delà des tableaux de bord traditionnels",
-        "description": "La plupart des plateformes vous montrent ce qui s'est passé. Nous vous montrons ce qui se passe, ce que cela signifie et quoi faire à ce sujet.",
-        "columns": [
-          {
-            "title": "BI Traditionnel",
-            "items": [
-              "Rapports historiques",
-              "Extraction manuelle des données",
-              "Métriques isolées",
-              "Gestion réactive"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Tableaux de bord génériques",
-            "items": [
-              "Tableaux de bord multi-sources",
-              "Rapports programmés",
-              "Alertes basiques",
-              "Pas de contexte sectoriel"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modèle d'intelligence 4D",
-              "Real-time Pulse monitoring",
-              "Contexte de marché via Watchtower",
-              "Recommandations intelligentes"
-            ],
-            "icon": "speed",
-            "cta": "Personne ne possède l'ensemble de la pile. Jusqu'à présent."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CONÇU POUR",
         "title": "Conçu pour chaque rôle dans l'organisation",
@@ -96,14 +64,14 @@ export const generatedLocalCopy = {
           {
             "title": "Responsables des opérations",
             "pain": "Vous ne pouvez pas être dans chaque restaurant à la fois.",
-            "description": "Visibilité en temps réel sur chaque emplacement via Pulse et Portfolio - sachez qui a besoin d'aide avant même qu'il ne demande.",
+            "description": "Repérez la fuite dans n'importe quel site via Pulse et Portfolio, confiez la correction au manager de service et voyez la récupération se concrétiser - avant qu'il ne demande de l'aide.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finance & FP&A",
             "pain": "3 jours pour clôturer les comptes ? C'est 3 jours de trop.",
-            "description": "Intelligence des marges en temps réel, coûts de main-d'œuvre au niveau des shifts et analyse des écarts liée aux causes profondes.",
+            "description": "Chaque écart de marge remonté à sa cause racine, confié à un responsable, et la valeur récupérée mesurée par rapport à une référence.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -124,7 +92,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Arrêtez de gérer votre restaurant sur un coup de tête.",
+        "title": "Arrêtez de regarder la marge fuir. Commencez à mesurer la récupération.",
         "description": "30 minutes pour examiner vos données ensemble et voir si Sundae pourrait réellement aider votre équipe.",
         "primary": "Réserver une démo",
         "secondary": "Explorer les produits"
@@ -133,15 +101,21 @@ export const generatedLocalCopy = {
     "es": {
       "hero": {
         "badge": "Por qué Sundae",
-        "title": "La Capa de Inteligencia que los Restaurantes Nunca Tuvieron",
-        "description": "Tus datos viven en silos desconectados. Tu equipo toma decisiones millonarias basadas en la intuición. Creamos la plataforma que cambia eso."
+        "title": "Detectar es lo mínimo. Recuperar y medirlo, no.",
+        "description": "Ahora cualquier rival puede detectar un problema y recomendar una solución. Sundae la asigna a un único responsable, la supervisa hasta su ejecución y mide el margen recuperado frente a una línea base - el ciclo completo, demostrado en cada decisión."
       },
       "problems": {
         "eyebrow": "EL PROBLEMA",
         "title": "Tres brechas que te cuestan dinero cada día",
-        "description": "Cada grupo de restaurantes con el que hemos trabajado enfrenta los mismos tres desafíos."
+        "description": "Cada grupo multilocal con el que trabajamos encuentra las mismas tres brechas."
       },
       "differentiators": [
+        {
+          "title": "Recuperacion de margen en circuito cerrado",
+          "description": "Catorce detectores encuentran el margen que se escapa en personal, compras, desperdicio, reparto y precios. Cada oportunidad se convierte en una accion con un unico responsable, medida contra una linea base congelada antes de empezar. Sundae no da por recuperado ningun ahorro hasta haberlo medido.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingesta de Datos de 12 Dominios",
           "description": "POS, mano de obra, inventario, compras, reservas, entrega, marketing, experiencia del cliente, CRM, contabilidad - todo unificado. No más sistemas desconectados.",
@@ -155,8 +129,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operaciones en Tiempo Real a través de Pulse",
-          "description": "Ritmo de ventas intradía, productividad laboral, detección de fugas y coaching - antes de que termine el turno.",
+          "title": "Recuperación Intradía a través de Pulse",
+          "description": "Detecta la fuga en el momento, asigna el arreglo al responsable del turno y mide el margen recuperado - antes de que termine el turno.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -179,44 +153,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARACIÓN",
-        "title": "Más allá de los paneles tradicionales",
-        "description": "La mayoría de las plataformas te muestran lo que sucedió. Nosotros te mostramos lo que está sucediendo, lo que significa y qué hacer al respecto.",
-        "columns": [
-          {
-            "title": "BI Tradicional",
-            "items": [
-              "Informes históricos",
-              "Extracciones de datos manuales",
-              "Métricas aisladas",
-              "Gestión reactiva"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Paneles Genéricos",
-            "items": [
-              "Paneles de múltiples fuentes",
-              "Informes programados",
-              "Alertas básicas",
-              "Sin contexto de la industria"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modelo de Inteligencia 4D",
-              "Real-time Pulse monitoring",
-              "Contexto de mercado a través de Watchtower",
-              "Recomendaciones inteligentes"
-            ],
-            "icon": "speed",
-            "cta": "Nadie posee toda la pila. Hasta ahora."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CONSTRUIDO PARA",
         "title": "Construido para cada rol en la organización",
@@ -224,14 +160,14 @@ export const generatedLocalCopy = {
           {
             "title": "Líderes de Operaciones",
             "pain": "No puedes estar en cada restaurante a la vez.",
-            "description": "Visibilidad en tiempo real de cada ubicación a través de Pulse y Portfolio - sabe quién necesita ayuda antes de que lo pida.",
+            "description": "Detecta la fuga en cualquier ubicación a través de Pulse y Portfolio, asigna el arreglo al gerente de turno y ve cómo se concreta la recuperación - antes de que pidan ayuda.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzas y FP&A",
             "pain": "¿3 días para cerrar los libros? Son 3 días de más.",
-            "description": "Inteligencia de márgenes en tiempo real, costos laborales a nivel de turno y análisis de variaciones conectados a las causas raíz.",
+            "description": "Cada variación de margen rastreada a su causa raíz, asignada a un responsable, y el valor recuperado medido frente a una línea base.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -252,7 +188,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Deja de gestionar tu restaurante basándote en corazonadas.",
+        "title": "Deja de ver el margen fugarse. Empieza a medir la recuperación.",
         "description": "30 minutos para revisar tus datos juntos y ver si Sundae realmente ayudaría a tu equipo.",
         "primary": "Reservar una Demostración",
         "secondary": "Explorar Productos"
@@ -261,15 +197,21 @@ export const generatedLocalCopy = {
     "nl": {
       "hero": {
         "badge": "Waarom Sundae",
-        "title": "De Intelligentie Laag die Restaurants Nooit Hebben Gehad",
-        "description": "Jouw data bevindt zich in losstaande silo's. Jouw team maakt miljoenenbeslissingen op gevoel. Wij hebben het platform gebouwd dat dat verandert."
+        "title": "Detectie is het minimum. Gemeten herstel niet.",
+        "description": "Elke concurrent kan nu een probleem opsporen en een oplossing aanbevelen. Sundae wijst die toe aan één verantwoordelijke, volgt de uitvoering en meet de teruggewonnen marge af tegen een basislijn - de volledige lus, per beslissing bewezen."
       },
       "problems": {
         "eyebrow": "HET PROBLEEM",
         "title": "Drie hiaten die je elke dag geld kosten",
-        "description": "Elke restaurantgroep waarmee we hebben samengewerkt, staat voor dezelfde drie uitdagingen."
+        "description": "Elke multi-vestigingsgroep waarmee we werken loopt tegen dezelfde drie gaten aan."
       },
       "differentiators": [
+        {
+          "title": "Margeherstel in een gesloten lus",
+          "description": "Veertien detectoren vinden de marge die weglekt via personeel, inkoop, verspilling, bezorging en prijs. Elke kans wordt een actie met een eigenaar, gemeten tegen een basislijn die vastligt voordat het werk begint. Sundae noemt een besparing pas teruggewonnen als die gemeten is.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domein Gegevensinvoer",
           "description": "POS, arbeid, inventaris, inkoop, reserveringen, levering, marketing, gastenervaring, CRM, boekhouding - allemaal verenigd. Geen losgekoppelde systemen meer.",
@@ -283,8 +225,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Realtime Operaties via Pulse",
-          "description": "Intraday verkooptempo, arbeidsproductiviteit, lekdetectie en coaching - voordat de shift voorbij is.",
+          "title": "Intraday Herstel via Pulse",
+          "description": "Betrap het lek zodra het optreedt, wijs de oplossing toe aan de dienstverantwoordelijke en meet de teruggewonnen marge - voordat de shift voorbij is.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -307,44 +249,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "VERGELIJKING",
-        "title": "Voorbij traditionele dashboards",
-        "description": "De meeste platforms tonen je wat er is gebeurd. Wij tonen je wat er gebeurt, wat het betekent en wat je eraan kunt doen.",
-        "columns": [
-          {
-            "title": "Traditionele BI",
-            "items": [
-              "Historische rapportage",
-              "Handmatige gegevensverzameling",
-              "Afgebakende metrics",
-              "Reactief management"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Generieke Dashboards",
-            "items": [
-              "Multi-source dashboards",
-              "Geplande rapporten",
-              "Basiswaarschuwingen",
-              "Geen branchecontext"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D Inlichtingenmodel",
-              "Realtime Pulse monitoring",
-              "Marktcontext via Watchtower",
-              "Intelligente aanbevelingen"
-            ],
-            "icon": "speed",
-            "cta": "Niemand bezit de volledige stack. Tot nu toe."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "GEBOUWD VOOR",
         "title": "Gebouwd voor elke rol in de organisatie",
@@ -352,14 +256,14 @@ export const generatedLocalCopy = {
           {
             "title": "Operationele Leiders",
             "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
-            "description": "Realtime inzicht in elke locatie via Pulse en Portfolio - weet wie hulp nodig heeft voordat ze het vragen.",
+            "description": "Spot het lek in elke locatie via Pulse en Portfolio, wijs de oplossing toe aan de manager van dienst en zie het herstel binnenkomen - voordat ze om hulp vragen.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Financiën & FP&A",
             "pain": "3 dagen om de boeken te sluiten? Dat is 3 dagen te veel.",
-            "description": "Realtime marge-informatie, arbeidskosten per shift en variantieanalyse verbonden aan de oorzaken.",
+            "description": "Elke margeafwijking herleid tot de grondoorzaak, toegewezen aan een verantwoordelijke, en de teruggewonnen waarde gemeten tegen een basislijn.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -380,7 +284,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Stop met het runnen van je restaurant op onderbuikgevoel.",
+        "title": "Stop met toekijken hoe marge weglekt. Begin het herstel te meten.",
         "description": "30 minuten om samen je gegevens te bekijken en te zien of Sundae echt je team zou helpen.",
         "primary": "Boek een Demo",
         "secondary": "Ontdek Producten"
@@ -389,15 +293,21 @@ export const generatedLocalCopy = {
     "ar": {
       "hero": {
         "badge": "لماذا Sundae",
-        "title": "طبقة الذكاء التي لم تمتلكها المطاعم من قبل",
-        "description": "تعيش بياناتك في صوامع غير متصلة. يقوم فريقك باتخاذ قرارات بملايين الدولارات بناءً على الحدس. لقد أنشأنا المنصة التي تغير ذلك."
+        "title": "الكشف عن المشكلة أمر بديهي. أما استرداد الهامش وقياسه فلا.",
+        "description": "بات بإمكان أي منافس رصد مشكلة واقتراح حل. أما Sundae فتوكل المهمة إلى مسؤول واحد، وتتابعها حتى التنفيذ، وتقيس الهامش المسترد مقارنةً بخط أساس - الحلقة كاملة، مُثبتة لكل قرار."
       },
       "problems": {
         "eyebrow": "المشكلة",
         "title": "ثلاث فجوات تكلفك المال كل يوم",
-        "description": "تواجه كل مجموعة مطاعم عملنا معها نفس التحديات الثلاث."
+        "description": "كل مجموعة متعددة المواقع نعمل معها تواجه الفجوات الثلاث نفسها."
       },
       "differentiators": [
+        {
+          "title": "استرجاع الأرباح بحلقة مغلقة",
+          "description": "أربعة عشر كاشفاً تجد الأرباح المتسرّبة عبر العمالة والمشتريات والهدر والتوصيل والتسعير. تتحوّل كل فرصة إلى إجراء واحد بمسؤول واحد، ويُقاس مقابل خط أساس مجمّد قبل بدء العمل. ولا تعتبر Sundae أي توفير مستَرجعاً قبل قياسه.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "استيعاب البيانات عبر 12 مجالاً",
           "description": "POS، العمالة، المخزون، الشراء، الحجوزات، التوصيل، التسويق، تجربة الضيوف، إدارة علاقات العملاء، المحاسبة - جميعها موحدة. لا مزيد من الأنظمة المنفصلة.",
@@ -411,8 +321,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "العمليات في الوقت الحقيقي عبر Pulse",
-          "description": "تسارع المبيعات اليومية، إنتاجية العمالة، اكتشاف التسرب، والتوجيه - قبل انتهاء الوردية.",
+          "title": "الاستعادة خلال اليوم عبر Pulse",
+          "description": "التقط التسرب لحظة حدوثه، ووجّه الإصلاح إلى مسؤول الوردية، وقِس الهامش المستعاد - قبل انتهاء الوردية.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -435,44 +345,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "المقارنة",
-        "title": "ما وراء لوحات المعلومات التقليدية",
-        "description": "تظهر معظم المنصات لك ما حدث. نحن نعرض لك ما يحدث، وما يعنيه، وماذا تفعل حيال ذلك.",
-        "columns": [
-          {
-            "title": "تحليلات الأعمال التقليدية",
-            "items": [
-              "تقارير تاريخية",
-              "سحب بيانات يدوي",
-              "مقاييس معزولة",
-              "إدارة تفاعلية"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "لوحات المعلومات العامة",
-            "items": [
-              "لوحات معلومات متعددة المصادر",
-              "تقارير مجدولة",
-              "تنبيهات أساسية",
-              "عدم وجود سياق صناعي"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "نموذج الذكاء الرباعي الأبعاد",
-              "مراقبة Pulse الوقت الحقيقي",
-              "سياق السوق عبر Watchtower",
-              "توصيات ذكية"
-            ],
-            "icon": "speed",
-            "cta": "لا أحد يمتلك المجموعة الكاملة. حتى الآن."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "مُصمَّم من أجل",
         "title": "مُصمَّم لكل دور في المؤسسة",
@@ -480,14 +352,14 @@ export const generatedLocalCopy = {
           {
             "title": "قادة العمليات",
             "pain": "لا يمكنك التواجد في كل مطعم في آن واحد.",
-            "description": "رؤية فورية لكل موقع عبر Pulse وPortfolio - اعرف من يحتاج المساعدة قبل أن يطلبها.",
+            "description": "ارصد التسرب في أي موقع عبر Pulse وPortfolio، ووجّه الإصلاح إلى المدير المناوب، وشاهد الاستعادة تتحقق - قبل أن يطلبوا المساعدة.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "المالية والتخطيط والتحليل",
             "pain": "3 أيام لإغلاق الحسابات؟ هذا كثير جداً.",
-            "description": "ذكاء هوامش فوري، تكاليف العمالة على مستوى التحولات، وتحليل الفروقات مرتبط بالأسباب الجذرية.",
+            "description": "تباين الهامش يُرجَع إلى سببه الجذري، ويُوجَّه إلى مسؤول، وتُقاس القيمة المستعادة مقارنةً بخط أساس.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -508,7 +380,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "توقف عن إدارة مطعمك بناءً على الحدس.",
+        "title": "توقّف عن مشاهدة الهامش يتسرّب. ابدأ بقياس الاستعادة.",
         "description": "30 دقيقة لمراجعة بياناتك معًا ورؤية ما إذا كانت Sundae ستساعد فريقك حقًا.",
         "primary": "احجز عرضًا تجريبيًا",
         "secondary": "استكشف المنتجات"
@@ -517,15 +389,21 @@ export const generatedLocalCopy = {
     "de": {
       "hero": {
         "badge": "Warum Sundae",
-        "title": "Die Intelligenzschicht, die Restaurants nie hatten",
-        "description": "Ihre Daten leben in getrennten Silos. Ihr Team trifft Millionenentscheidungen aus dem Bauch heraus. Wir haben die Plattform entwickelt, die das ändert."
+        "title": "Erkennen kann jeder. Gemessene Rückgewinnung nicht.",
+        "description": "Jeder Wettbewerber kann heute ein Problem erkennen und eine Lösung empfehlen. Sundae übergibt sie einer verantwortlichen Person, verfolgt die Umsetzung und misst die zurückgewonnene Marge an einer Baseline - der gesamte Kreislauf, für jede Entscheidung belegt."
       },
       "problems": {
         "eyebrow": "DAS PROBLEM",
         "title": "Drei Lücken, die Sie jeden Tag Geld kosten",
-        "description": "Jede Restaurantgruppe, mit der wir zusammengearbeitet haben, steht vor denselben drei Herausforderungen."
+        "description": "Jede Gruppe mit mehreren Standorten, mit der wir arbeiten, trifft auf dieselben drei Luecken."
       },
       "differentiators": [
+        {
+          "title": "Margenrueckgewinnung im geschlossenen Kreis",
+          "description": "Vierzehn Detektoren finden die Marge, die ueber Personal, Einkauf, Verschwendung, Lieferung und Preise verloren geht. Jede Chance wird eine Aufgabe mit genau einem Verantwortlichen, gemessen gegen eine vor Arbeitsbeginn eingefrorene Basis. Sundae nennt eine Einsparung erst zurueckgewonnen, wenn sie gemessen wurde.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domain-Datenaufnahme",
           "description": "POS, Personal, Inventar, Einkauf, Reservierungen, Lieferung, Marketing, Gästeerlebnis, CRM, Buchhaltung - alles vereint. Keine getrennten Systeme mehr.",
@@ -539,8 +417,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Echtzeit-Betrieb über Pulse",
-          "description": "Tagesverlauf der Verkäufe, Produktivität des Personals, Erkennung von Leckagen und Coaching - bevor die Schicht zu Ende ist.",
+          "title": "Intraday-Rückgewinnung über Pulse",
+          "description": "Erfassen Sie das Leck, sobald es auftritt, übergeben Sie die Behebung der Schichtverantwortlichen und messen Sie die zurückgewonnene Marge - bevor die Schicht zu Ende ist.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -563,44 +441,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "VERGLEICH",
-        "title": "Über traditionelle Dashboards hinaus",
-        "description": "Die meisten Plattformen zeigen Ihnen, was passiert ist. Wir zeigen Ihnen, was gerade passiert, was es bedeutet und was Sie dagegen tun können.",
-        "columns": [
-          {
-            "title": "Traditionelle BI",
-            "items": [
-              "Historische Berichterstattung",
-              "Manuelle Datenabfragen",
-              "Isolierte Kennzahlen",
-              "Reaktive Verwaltung"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Generische Dashboards",
-            "items": [
-              "Dashboards aus mehreren Quellen",
-              "Geplante Berichte",
-              "Einfache Benachrichtigungen",
-              "Kein branchenspezifischer Kontext"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D-Intelligenzmodell",
-              "Echtzeit-Pulseüberwachung",
-              "Marktkontext über Watchtower",
-              "Intelligente Empfehlungen"
-            ],
-            "icon": "speed",
-            "cta": "Niemand besitzt den gesamten Stack. Bis jetzt."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "ENTWICKELT FÜR",
         "title": "Entwickelt für jede Rolle in der Organisation",
@@ -608,14 +448,14 @@ export const generatedLocalCopy = {
           {
             "title": "Betriebsleiter",
             "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
-            "description": "Echtzeit-Transparenz für jeden Standort über Pulse und Portfolio - wissen, wer Hilfe benötigt, bevor er fragt.",
+            "description": "Erkennen Sie das Leck an jedem Standort über Pulse und Portfolio, übergeben Sie die Behebung der Schichtleitung und sehen Sie die Rückgewinnung eintreffen - bevor jemand um Hilfe bittet.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzen & FP&A",
             "pain": "3 Tage für den Abschluss der Bücher? Das sind 3 Tage zu viel.",
-            "description": "Echtzeit-Margenintelligenz, Arbeitskosten auf Schichtniveau und Abweichungsanalysen, die mit den Ursachen verbunden sind.",
+            "description": "Jede Margenabweichung auf ihre Ursache zurückgeführt, einer verantwortlichen Person übergeben und der zurückgewonnene Wert an einer Baseline gemessen.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -636,7 +476,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hören Sie auf, Ihr Restaurant nach Bauchgefühl zu führen.",
+        "title": "Hören Sie auf zuzusehen, wie die Marge wegläuft. Fangen Sie an, die Rückgewinnung zu messen.",
         "description": "30 Minuten, um Ihre Daten gemeinsam zu überprüfen und zu sehen, ob Sundae Ihrem Team wirklich helfen kann.",
         "primary": "Demo buchen",
         "secondary": "Produkte erkunden"
@@ -645,15 +485,21 @@ export const generatedLocalCopy = {
     "pt": {
       "hero": {
         "badge": "Por que Sundae",
-        "title": "A Camada de Inteligência que os Restaurantes Nunca Tiveram",
-        "description": "Seus dados estão em silos desconectados. Sua equipe toma decisões de milhões de dólares com base na intuição. Nós construímos a plataforma que muda isso."
+        "title": "Detectar é o mínimo. Recuperar e comprovar, não.",
+        "description": "Qualquer concorrente já consegue identificar um problema e recomendar uma solução. A Sundae a encaminha para um único responsável, acompanha até a execução e mede a margem recuperada em relação a uma linha de base - o ciclo completo, comprovado a cada decisão."
       },
       "problems": {
         "eyebrow": "O PROBLEMA",
         "title": "Três lacunas que custam dinheiro todos os dias",
-        "description": "Todo grupo de restaurantes com o qual trabalhamos enfrenta os mesmos três desafios."
+        "description": "Todo grupo multiunidade com quem trabalhamos encontra as mesmas tres lacunas."
       },
       "differentiators": [
+        {
+          "title": "Recuperacao de margem em circuito fechado",
+          "description": "Catorze detectores encontram a margem que escapa em pessoal, compras, desperdicio, entrega e preco. Cada oportunidade vira uma acao com um unico responsavel, medida contra uma linha de base congelada antes do inicio. A Sundae so considera uma economia recuperada depois de medi-la.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestão de Dados em 12 Domínios",
           "description": "POS, mão de obra, inventário, compras, reservas, entrega, marketing, experiência do cliente, CRM, contabilidade - tudo unificado. Chega de sistemas desconectados.",
@@ -667,8 +513,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operações em Tempo Real via Pulse",
-          "description": "Ritmo de vendas intradia, produtividade da mão de obra, detecção de vazamentos e coaching - antes que o turno termine.",
+          "title": "Recuperação Intradia via Pulse",
+          "description": "Capture o vazamento no momento em que acontece, encaminhe a correção ao responsável do turno e meça a margem recuperada - antes que o turno termine.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -691,44 +537,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAÇÃO",
-        "title": "Além dos painéis tradicionais",
-        "description": "A maioria das plataformas mostra o que aconteceu. Nós mostramos o que está acontecendo, o que isso significa e o que fazer a respeito.",
-        "columns": [
-          {
-            "title": "BI Tradicional",
-            "items": [
-              "Relatórios históricos",
-              "Extrações de dados manuais",
-              "Métricas isoladas",
-              "Gestão reativa"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Painéis Genéricos",
-            "items": [
-              "Painéis de múltiplas fontes",
-              "Relatórios programados",
-              "Alertas básicos",
-              "Sem contexto da indústria"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modelo de Inteligência 4D",
-              "Real-time Pulse monitoring",
-              "Contexto de mercado via Watchtower",
-              "Recomendações inteligentes"
-            ],
-            "icon": "speed",
-            "cta": "Ninguém possui toda a pilha. Até agora."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DESENVOLVIDO PARA",
         "title": "Desenvolvido para cada função na organização",
@@ -736,14 +544,14 @@ export const generatedLocalCopy = {
           {
             "title": "Líderes de Operações",
             "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
-            "description": "Visibilidade em tempo real de cada local através do Pulse e Portfolio - saiba quem precisa de ajuda antes mesmo de pedir.",
+            "description": "Identifique o vazamento em qualquer local via Pulse e Portfolio, encaminhe a correção ao gerente de plantão e veja a recuperação se concretizar - antes que peçam ajuda.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanças & FP&A",
             "pain": "3 dias para fechar as contas? Isso é tempo demais.",
-            "description": "Inteligência de margem em tempo real, custos de mão de obra por turno e análise de variação conectada às causas raiz.",
+            "description": "Cada variação de margem rastreada até a causa raiz, encaminhada a um responsável, e o valor recuperado medido em relação a uma linha de base.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -764,7 +572,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Pare de gerenciar seu restaurante apenas na intuição.",
+        "title": "Pare de assistir a margem vazar. Comece a medir a recuperação.",
         "description": "30 minutos para revisar seus dados juntos e ver se o Sundae realmente ajudaria sua equipe.",
         "primary": "Agendar uma Demonstração",
         "secondary": "Explorar Produtos"
@@ -773,8 +581,8 @@ export const generatedLocalCopy = {
     "ur": {
       "hero": {
         "badge": "کیوں Sundae",
-        "title": "وہ ذہانت کی تہہ جو ریستورانوں کے پاس کبھی نہیں تھی",
-        "description": "آپ کا ڈیٹا الگ الگ سائلوز میں موجود ہے۔ آپ کی ٹیم لاکھوں ڈالر کے فیصلے احساس کی بنیاد پر کرتی ہے۔ ہم نے وہ پلیٹ فارم بنایا ہے جو یہ سب بدل دیتا ہے۔"
+        "title": "مسئلہ پہچاننا تو معمولی بات ہے۔ ناپ کر مارجن واپس لانا نہیں۔",
+        "description": "اب ہر حریف کسی مسئلے کو پہچان کر حل تجویز کر سکتا ہے۔ Sundae اسے ایک ذمہ دار شخص کے سپرد کرتا ہے، عمل درآمد تک اس کی نگرانی کرتا ہے، اور بازیافت شدہ مارجن کو ایک بنیادی معیار کے مقابلے میں ناپتا ہے - پورا دائرہ، ہر فیصلے پر ثابت۔"
       },
       "problems": {
         "eyebrow": "مسئلہ",
@@ -782,6 +590,12 @@ export const generatedLocalCopy = {
         "description": "ہر ریستوراں گروپ جس کے ساتھ ہم نے کام کیا ہے، اسی تین چیلنجز کا سامنا کرتا ہے۔"
       },
       "differentiators": [
+        {
+          "title": "بند لوپ میں منافع کی بحالی",
+          "description": "چودہ ڈٹیکٹر محنت، خریداری، ضیاع، ڈیلیوری اور قیمتوں میں ضائع ہوتا منافع تلاش کرتے ہیں۔ ہر موقع ایک ذمہ دار کے سپرد ایک کام بن جاتا ہے، جو کام شروع ہونے سے پہلے منجمد بنیاد کے مقابلے میں ماپا جاتا ہے۔ Sundae کسی بچت کو ماپے بغیر بحال شدہ نہیں کہتا۔",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-ڈومین ڈیٹا اِنجیشن",
           "description": "POS، محنت، انوینٹری، خریداری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اکاؤنٹنگ - سب متحد۔ مزید غیر مربوط نظام نہیں۔",
@@ -795,8 +609,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse کے ذریعے حقیقی وقت کی کارروائیاں",
-          "description": "انٹرا ڈے سیلز پیسنگ، محنت کی پیداوار، لیکیج کی شناخت، اور کوچنگ - شفٹ ختم ہونے سے پہلے۔",
+          "title": "Pulse کے ذریعے دورانِ دن مارجن کی بازیافت",
+          "description": "رساؤ کو اسی وقت پکڑیں جب یہ ہو، اصلاح کو شفٹ کے ذمہ دار کے سپرد کریں، اور بازیافت شدہ مارجن کو ناپیں - شفٹ ختم ہونے سے پہلے۔",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -819,44 +633,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "موازنہ",
-        "title": "روایتی ڈیش بورڈز سے آگے",
-        "description": "زیادہ تر پلیٹ فارم آپ کو یہ دکھاتے ہیں کہ کیا ہوا۔ ہم آپ کو یہ دکھاتے ہیں کہ کیا ہو رہا ہے، اس کا کیا مطلب ہے، اور اس کے بارے میں کیا کرنا ہے۔",
-        "columns": [
-          {
-            "title": "روایتی BI",
-            "items": [
-              "تاریخی رپورٹنگ",
-              "ہاتھ سے ڈیٹا نکالنا",
-              "مخصوص میٹرکس",
-              "جوابی انتظام"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "جنرل ڈیش بورڈز",
-            "items": [
-              "کئی ذرائع کے ڈیش بورڈز",
-              "شیڈول کردہ رپورٹس",
-              "بنیادی الرٹس",
-              "صنعتی سیاق و سباق کی کمی"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D انٹیلی جنس ماڈل",
-              "حقیقی وقت کی Pulse مانیٹرنگ",
-              "Watchtower کے ذریعے مارکیٹ کا سیاق و سباق",
-              "ذہین سفارشات"
-            ],
-            "icon": "speed",
-            "cta": "کوئی بھی مکمل اسٹیک کا مالک نہیں ہے۔ اب تک."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "کے لیے بنایا گیا",
         "title": "تنظیم میں ہر کردار کے لیے بنایا گیا",
@@ -864,14 +640,14 @@ export const generatedLocalCopy = {
           {
             "title": "آپریشنز کے رہنما",
             "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
-            "description": "Pulse اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
+            "description": "Pulse اور پورٹ فولیو کے ذریعے کسی بھی مقام پر رساؤ کی نشاندہی کریں، اصلاح کو ڈیوٹی پر موجود مینیجر کے سپرد کریں، اور بازیافت کو مکمل ہوتے دیکھیں - اس سے پہلے کہ وہ مدد مانگیں۔",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "مالیات اور FP&A",
             "pain": "کتابیں بند کرنے میں 3 دن؟ یہ بہت زیادہ ہیں۔",
-            "description": "حقیقی وقت کی مارجن ذہانت، شفٹ کی سطح کے مزدوری کے اخراجات، اور بنیادی وجوہات سے جڑے ہوئے فرق کا تجزیہ۔",
+            "description": "ہر مارجن فرق کو اس کی بنیادی وجہ تک پہنچایا جاتا ہے، ایک ذمہ دار کے سپرد کیا جاتا ہے، اور بازیافت شدہ قدر کو ایک بنیادی معیار کے مقابلے میں ناپا جاتا ہے۔",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -892,7 +668,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "اپنے ریستوراں کو احساسات پر چلانا بند کریں۔",
+        "title": "مارجن کو ضائع ہوتے دیکھنا بند کریں۔ بازیافت کو ناپنا شروع کریں۔",
         "description": "اپنے ڈیٹا کا جائزہ لینے کے لیے 30 منٹ نکالیں اور دیکھیں کہ کیا Sundae واقعی آپ کی ٹیم کی مدد کرے گا۔",
         "primary": "ڈیمو بک کریں",
         "secondary": "پروڈکٹس دریافت کریں"
@@ -901,15 +677,21 @@ export const generatedLocalCopy = {
     "hi": {
       "hero": {
         "badge": "Sundae क्यों",
-        "title": "इंटेलिजेंस लेयर जो रेस्तरां के पास कभी नहीं थी",
-        "description": "आपका डेटा अलग-अलग साइलो में रहता है। आपकी टीम आंतरिक भावना से लाखों डॉलर के निर्णय लेती है। हमने वह प्लेटफ़ॉर्म बनाया है जो इसे बदलता है।"
+        "title": "समस्या पहचानना तो आम बात है। मापी गई रिकवरी नहीं।",
+        "description": "अब हर प्रतिद्वंद्वी किसी समस्या को पहचान सकता है और समाधान सुझा सकता है। Sundae इसे एक जवाबदेह व्यक्ति को सौंपता है, उसे क्रियान्वयन तक ट्रैक करता है, और वसूली गई मार्जिन को एक आधार रेखा के मुकाबले मापता है - पूरा चक्र, हर निर्णय पर सिद्ध।"
       },
       "problems": {
         "eyebrow": "समस्या",
         "title": "तीन कमियां जो आपको हर दिन पैसे का नुकसान पहुंचाती हैं",
-        "description": "हर रेस्तरां समूह जिसके साथ हमने काम किया है, उन्हीं तीन चुनौतियों का सामना करता है।"
+        "description": "हर मल्टी-लोकेशन ग्रुप जिसके साथ हम काम करते हैं, उन्हीं तीन कमियों से टकराता है।"
       },
       "differentiators": [
+        {
+          "title": "क्लोज्ड-लूप मुनाफ़ा रिकवरी",
+          "description": "चौदह डिटेक्टर श्रम, खरीद, बर्बादी, डिलीवरी और मूल्य निर्धारण में रिस रहे मुनाफ़े को पकड़ते हैं. हर अवसर एक ज़िम्मेदार व्यक्ति का काम बनता है, जिसे काम शुरू होने से पहले जमे हुए बेसलाइन के मुकाबले मापा जाता है. Sundae किसी बचत को मापे बिना वसूल नहीं मानता.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-डोमेन डेटा इनजेशन",
           "description": "POS, श्रम, इन्वेंटरी, खरीदारी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, लेखा - सभी एकीकृत। अब और डिस्कनेक्टेड सिस्टम नहीं।",
@@ -923,8 +705,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse के माध्यम से वास्तविक समय संचालन",
-          "description": "इंट्राडे बिक्री की गति, श्रम उत्पादकता, लीक पहचान, और कोचिंग - शिफ्ट खत्म होने से पहले।",
+          "title": "Pulse के माध्यम से इंट्राडे रिकवरी",
+          "description": "लीक को उसी क्षण पकड़ें जब वह हो, सुधार को शिफ्ट प्रभारी को सौंपें, और वसूली गई मार्जिन को मापें - शिफ्ट खत्म होने से पहले।",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -947,44 +729,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "तुलना",
-        "title": "पारंपरिक डैशबोर्ड से परे",
-        "description": "अधिकांश प्लेटफ़ॉर्म आपको बताते हैं कि क्या हुआ। हम आपको बताते हैं कि क्या हो रहा है, इसका क्या मतलब है, और इसके बारे में क्या करना है।",
-        "columns": [
-          {
-            "title": "पारंपरिक BI",
-            "items": [
-              "ऐतिहासिक रिपोर्टिंग",
-              "मैनुअल डेटा खींचना",
-              "अलग-अलग मैट्रिक्स",
-              "प्रतिक्रियात्मक प्रबंधन"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "सामान्य डैशबोर्ड",
-            "items": [
-              "बहु-स्रोत डैशबोर्ड",
-              "निर्धारित रिपोर्ट",
-              "बुनियादी अलर्टिंग",
-              "कोई उद्योग संदर्भ नहीं"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D इंटेलिजेंस मॉडल",
-              "वास्तविक समय की Pulse निगरानी",
-              "Watchtower के माध्यम से बाजार संदर्भ",
-              "बुद्धिमान सिफारिशें"
-            ],
-            "icon": "speed",
-            "cta": "कोई भी पूर्ण स्टैक का मालिक नहीं है। अब तक।"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "के लिए बनाया गया",
         "title": "संगठन में हर भूमिका के लिए बनाया गया",
@@ -992,14 +736,14 @@ export const generatedLocalCopy = {
           {
             "title": "ऑपरेशंस लीडर्स",
             "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
-            "description": "Pulse और Portfolio के माध्यम से हर स्थान पर वास्तविक समय की दृश्यता - जानें कि किसे मदद की आवश्यकता है इससे पहले कि वे पूछें।",
+            "description": "Pulse और Portfolio के माध्यम से किसी भी स्थान पर लीक को पहचानें, सुधार को ड्यूटी पर मौजूद मैनेजर को सौंपें, और रिकवरी को पूरा होते देखें - इससे पहले कि वे मदद मांगें।",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "वित्त और FP&A",
             "pain": "खातों को बंद करने में 3 दिन? यह बहुत अधिक है।",
-            "description": "वास्तविक समय का मार्जिन इंटेलिजेंस, शिफ्ट-स्तरीय श्रम लागत, और मूल कारणों से जुड़े भिन्नता विश्लेषण।",
+            "description": "हर मार्जिन विचलन उसकी मूल वजह तक जुड़ा, एक जिम्मेदार व्यक्ति को सौंपा गया, और वसूली गई राशि एक आधार रेखा के मुकाबले मापी गई।",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1020,7 +764,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "अपने रेस्तरां को केवल आंतरिक भावना पर चलाना बंद करें।",
+        "title": "मार्जिन को रिसते हुए देखना बंद करें। रिकवरी को मापना शुरू करें।",
         "description": "अपने डेटा की समीक्षा करने और यह देखने के लिए 30 मिनट बिताएं कि क्या Sundae वास्तव में आपकी टीम की मदद करेगा।",
         "primary": "डेमो बुक करें",
         "secondary": "उत्पादों का अन्वेषण करें"
@@ -1029,15 +773,21 @@ export const generatedLocalCopy = {
     "it": {
       "hero": {
         "badge": "Perché Sundae",
-        "title": "Il Livello di Intelligenza che i Ristoranti Non Hanno Mai Avuto",
-        "description": "I tuoi dati vivono in silos disconnessi. Il tuo team prende decisioni da milioni di dollari basandosi sull'istinto. Abbiamo costruito la piattaforma che cambia tutto."
+        "title": "Rilevare è il minimo. Recuperare e misurarlo, no.",
+        "description": "Ogni concorrente ormai sa individuare un problema e consigliare una soluzione. Sundae la affida a un unico responsabile, la segue fino all'esecuzione e misura il margine recuperato rispetto a una linea di base - l'intero ciclo, dimostrato per ogni decisione."
       },
       "problems": {
         "eyebrow": "IL PROBLEMA",
         "title": "Tre lacune che ti costano soldi ogni giorno",
-        "description": "Ogni gruppo di ristoranti con cui abbiamo lavorato affronta le stesse tre sfide."
+        "description": "Ogni gruppo multi-sede con cui lavoriamo incontra le stesse tre lacune."
       },
       "differentiators": [
+        {
+          "title": "Recupero del margine a ciclo chiuso",
+          "description": "Quattordici rilevatori individuano il margine che si perde tra personale, acquisti, sprechi, consegne e prezzi. Ogni opportunita diventa un'azione con un solo responsabile, misurata rispetto a una base congelata prima dell'inizio. Sundae non considera un risparmio recuperato finche non e stato misurato.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestione Dati a 12 Domini",
           "description": "POS, lavoro, inventario, acquisti, prenotazioni, consegne, marketing, esperienza degli ospiti, CRM, contabilità - tutto unificato. Niente più sistemi disconnessi.",
@@ -1051,8 +801,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operazioni in Tempo Reale tramite Pulse",
-          "description": "Pacing delle vendite intraday, produttività del lavoro, rilevamento delle perdite e coaching - prima che il turno sia finito.",
+          "title": "Recupero Infragiornaliero tramite Pulse",
+          "description": "Cogli la perdita nel momento in cui accade, affida la correzione al responsabile del turno e misura il margine recuperato - prima che il turno sia finito.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1075,44 +825,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAZIONE",
-        "title": "Oltre i dashboard tradizionali",
-        "description": "La maggior parte delle piattaforme ti mostra cosa è successo. Noi ti mostriamo cosa sta succedendo, cosa significa e cosa fare al riguardo.",
-        "columns": [
-          {
-            "title": "BI Tradizionale",
-            "items": [
-              "Report storici",
-              "Estrazione manuale dei dati",
-              "Metriche isolate",
-              "Gestione reattiva"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Dashboard Generici",
-            "items": [
-              "Dashboard multi-sorgente",
-              "Report programmati",
-              "Allerta di base",
-              "Nessun contesto di settore"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Modello di Intelligenza 4D",
-              "Real-time Pulse monitoring",
-              "Contesto di mercato tramite Watchtower",
-              "Raccomandazioni intelligenti"
-            ],
-            "icon": "speed",
-            "cta": "Nessuno possiede l'intero stack. Fino ad ora."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CREATO PER",
         "title": "Creato per ogni ruolo nell'organizzazione",
@@ -1120,14 +832,14 @@ export const generatedLocalCopy = {
           {
             "title": "Leader delle Operazioni",
             "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
-            "description": "Visibilità in tempo reale su ogni sede tramite Pulse e Portfolio - sapere chi ha bisogno di aiuto prima che lo chieda.",
+            "description": "Individua la perdita in qualsiasi sede tramite Pulse e Portfolio, affida la correzione al manager di turno e vedi il recupero concretizzarsi - prima che chieda aiuto.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanza & FP&A",
             "pain": "3 giorni per chiudere i conti? Sono 3 giorni di troppo.",
-            "description": "Intelligenza sui margini in tempo reale, costi del lavoro a livello di turno e analisi delle variazioni collegate alle cause radice.",
+            "description": "Ogni scostamento di margine ricondotto alla causa radice, affidato a un responsabile, e il valore recuperato misurato rispetto a una linea di base.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1148,7 +860,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Smetti di gestire il tuo ristorante basandoti solo sull'istinto.",
+        "title": "Smetti di guardare il margine dissiparsi. Inizia a misurare il recupero.",
         "description": "30 minuti per rivedere insieme i tuoi dati e vedere se Sundae può davvero aiutare il tuo team.",
         "primary": "Prenota una Demo",
         "secondary": "Esplora i Prodotti"
@@ -1157,8 +869,8 @@ export const generatedLocalCopy = {
     "tr": {
       "hero": {
         "badge": "Neden Sundae",
-        "title": "Restoranların Hiç Sahip Olmadığı Zeka Katmanı",
-        "description": "Verileriniz bağlantısız silolarda yaşıyor. Ekibiniz milyon dolarlık kararları içgüdüyle alıyor. Bunu değiştiren platformu geliştirdik."
+        "title": "Tespit etmek asgari şart. Ölçülmüş geri kazanım değil.",
+        "description": "Artık her rakip bir sorunu tespit edip çözüm önerebiliyor. Sundae ise onu tek bir sorumluya yönlendirir, uygulanana kadar izler ve geri kazanılan marjı bir temel çizgiye göre ölçer - döngünün tamamı, her karar için kanıtlanmış."
       },
       "problems": {
         "eyebrow": "SORUN",
@@ -1166,6 +878,12 @@ export const generatedLocalCopy = {
         "description": "Çalıştığımız her restoran grubu aynı üç zorlukla karşılaşıyor."
       },
       "differentiators": [
+        {
+          "title": "Kapali dongu kar geri kazanimi",
+          "description": "On dort dedektor isgucu, satin alma, israf, teslimat ve fiyatlamada sizan kari bulur. Her firsat tek bir sorumlusu olan bir ise donusur ve is baslamadan once dondurulan bir taban ile olculur. Sundae bir tasarrufu olcmeden geri kazanilmis saymaz.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domain Veri Alımı",
           "description": "POS, iş gücü, envanter, satın alma, rezervasyon, teslimat, pazarlama, misafir deneyimi, CRM, muhasebe - hepsi bir arada. Artık bağlantısız sistemler yok.",
@@ -1179,8 +897,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse ile Gerçek Zamanlı Operasyonlar",
-          "description": "Gün içi satış temposu, iş gücü verimliliği, sızıntı tespiti ve koçluk - vardiya bitmeden önce.",
+          "title": "Pulse ile Gün İçi Geri Kazanım",
+          "description": "Sızıntıyı olduğu anda yakalayın, düzeltmeyi vardiya sorumlusuna yönlendirin ve geri kazanılan marjı ölçün - vardiya bitmeden önce.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1203,44 +921,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "KARŞILAŞTIRMA",
-        "title": "Geleneksel panellerin ötesinde",
-        "description": "Çoğu platform ne olduğunu gösterir. Biz, ne olduğunu, ne anlama geldiğini ve ne yapmanız gerektiğini gösteriyoruz.",
-        "columns": [
-          {
-            "title": "Geleneksel BI",
-            "items": [
-              "Tarihsel raporlama",
-              "Manuel veri çekme",
-              "Ayrık metrikler",
-              "Reaktif yönetim"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Genel Paneller",
-            "items": [
-              "Çoklu kaynak panelleri",
-              "Zamanlanmış raporlar",
-              "Temel uyarılar",
-              "Sektör bağlamı yok"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D Zeka Modeli",
-              "Real-time Pulse monitoring",
-              "Watchtower aracılığıyla piyasa bağlamı",
-              "Akıllı öneriler"
-            ],
-            "icon": "speed",
-            "cta": "Tam yığın kimseye ait değil. Şimdiye kadar."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "İÇİN İNŞA EDİLDİ",
         "title": "Organizasyondaki her rol için inşa edildi",
@@ -1248,14 +928,14 @@ export const generatedLocalCopy = {
           {
             "title": "Operasyon Liderleri",
             "pain": "Her restoranda aynı anda olamazsınız.",
-            "description": "Pulse ve Portfolio aracılığıyla her lokasyona gerçek zamanlı görünürlük - yardım isteyenleri, sormadan önce bilin.",
+            "description": "Pulse ve Portfolio ile herhangi bir lokasyondaki sızıntıyı tespit edin, düzeltmeyi nöbetteki müdüre yönlendirin ve geri kazanımın gerçekleşmesini görün - onlar yardım istemeden önce.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finans & FP&A",
             "pain": "Defterleri kapatmak 3 gün mü? Bu çok fazla.",
-            "description": "Gerçek zamanlı marj zekası, vardiya düzeyinde iş gücü maliyetleri ve kök nedenlere bağlı sapma analizi.",
+            "description": "Her marj sapması kök nedenine kadar izlenir, bir sorumluya yönlendirilir ve geri kazanılan değer bir temel çizgiye göre ölçülür.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1276,7 +956,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Restoranınızı içgüdüyle yönetmeyi bırakın.",
+        "title": "Marjın akıp gitmesini izlemeyi bırakın. Geri kazanımı ölçmeye başlayın.",
         "description": "Verilerinizi birlikte gözden geçirmek ve Sundae'nin ekibinize gerçekten yardımcı olup olmayacağını görmek için 30 dakika ayırın.",
         "primary": "Demo Talep Et",
         "secondary": "Ürünleri Keşfet"
@@ -1285,8 +965,8 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "hero": {
         "badge": "为什么选择Sundae",
-        "title": "餐厅从未拥有的智能层",
-        "description": "您的数据存在于孤立的孤岛中。您的团队凭直觉做出百万美元的决策。我们构建了改变这一切的平台。"
+        "title": "发现问题是基本功。量化的利润挽回不是。",
+        "description": "如今每个对手都能发现问题并给出建议。而Sundae会将其交给唯一负责人，全程跟踪执行，并对照基线衡量挽回的利润率--完整闭环，每个决策都有据可证。"
       },
       "problems": {
         "eyebrow": "问题",
@@ -1294,6 +974,12 @@ export const generatedLocalCopy = {
         "description": "我们合作过的每个餐饮集团都面临着同样的三个挑战。"
       },
       "differentiators": [
+        {
+          "title": "闭环利润追回",
+          "description": "十四个检测器找出在人力、采购、损耗、配送与定价上流失的利润。每个机会变成一项有唯一负责人的任务，并以开工前冻结的基线来衡量。未经衡量，Sundae 不会称任何节省已被追回。",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12个领域数据摄取",
           "description": "POS、劳动力、库存、采购、预订、配送、营销、客户体验、CRM、会计 - 全部统一。再也没有脱节的系统。",
@@ -1307,8 +993,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "通过Pulse实时运营",
-          "description": "日内销售进度、劳动生产率、漏损检测和辅导 - 在班次结束之前。",
+          "title": "通过Pulse实现日内利润挽回",
+          "description": "在漏损发生的瞬间捕捉，将修复交给当班负责人，并衡量挽回的利润率--在班次结束之前。",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1331,44 +1017,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "比较",
-        "title": "超越传统仪表板",
-        "description": "大多数平台只告诉你发生了什么。我们告诉你正在发生什么、这意味着什么，以及该如何应对。",
-        "columns": [
-          {
-            "title": "传统商业智能",
-            "items": [
-              "历史报告",
-              "手动数据提取",
-              "孤立的指标",
-              "反应式管理"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "通用仪表板",
-            "items": [
-              "多源仪表板",
-              "定期报告",
-              "基本警报",
-              "没有行业背景"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D智能模型",
-              "实时Pulse监测",
-              "通过Watchtower提供市场背景",
-              "智能推荐"
-            ],
-            "icon": "speed",
-            "cta": "没有人拥有完整的技术栈。直到现在。"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "为您打造",
         "title": "为组织中的每个角色而设计",
@@ -1376,14 +1024,14 @@ export const generatedLocalCopy = {
           {
             "title": "运营领导",
             "pain": "您无法同时在每个餐厅。",
-            "description": "通过Pulse和Portfolio实时了解每个位置的情况 - 在他们请求帮助之前就知道谁需要帮助。",
+            "description": "通过Pulse和Portfolio发现任何门店的漏损，将修复交给当班经理，并看着挽回落地--在他们求助之前。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "财务与FP&A",
             "pain": "关闭账本需要3天？那太多了。",
-            "description": "实时利润智能、班次级别的劳动成本和与根本原因相关的差异分析。",
+            "description": "每一笔利润率偏差都追溯到根本原因，交给一位负责人，挽回的价值对照基线衡量。",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1404,7 +1052,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "别再凭感觉经营餐厅了。",
+        "title": "别再眼看利润流失。开始衡量挽回的成果。",
         "description": "花30分钟一起审查您的数据，看看Sundae是否真的能帮助您的团队。",
         "primary": "预约演示",
         "secondary": "探索产品"
@@ -1413,8 +1061,8 @@ export const generatedLocalCopy = {
     "pl": {
       "hero": {
         "badge": "Dlaczego Sundae",
-        "title": "Warstwa Inteligencji, której Restauracje Nigdy Nie Miały",
-        "description": "Twoje dane znajdują się w odizolowanych silosach. Twój zespół podejmuje decyzje warte miliony dolarów na podstawie intuicji. Stworzyliśmy platformę, która to zmienia."
+        "title": "Wykrycie to standard. Zmierzone odzyskanie już nie.",
+        "description": "Każdy konkurent potrafi już wykryć problem i zaproponować rozwiązanie. Sundae kieruje je do jednej odpowiedzialnej osoby, śledzi aż do realizacji i mierzy odzyskaną marżę względem linii bazowej - cała pętla, udowodniona przy każdej decyzji."
       },
       "problems": {
         "eyebrow": "PROBLEM",
@@ -1422,6 +1070,12 @@ export const generatedLocalCopy = {
         "description": "Każda grupa restauracyjna, z którą współpracowaliśmy, boryka się z tymi samymi trzema wyzwaniami."
       },
       "differentiators": [
+        {
+          "title": "Odzyskiwanie marzy w zamknietej petli",
+          "description": "Czternascie detektorow znajduje marze traconą w pracy, zakupach, marnotrawstwie, dostawie i cenach. Kazda szansa staje sie zadaniem z jednym wlascicielem, mierzonym wzgledem bazy zamrozonej przed rozpoczeciem prac. Sundae nie uzna oszczednosci za odzyskana, dopoki jej nie zmierzy.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-Domenowa Ingestia Danych",
           "description": "POS, praca, zapasy, zakupy, rezerwacje, dostawy, marketing, doświadczenie gości, CRM, księgowość - wszystko zintegrowane. Koniec z rozłączonymi systemami.",
@@ -1435,8 +1089,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operacje w Czasie Rzeczywistym dzięki Pulse",
-          "description": "Pacing sprzedaży w ciągu dnia, produktywność pracy, wykrywanie strat i coaching - zanim zmiana się skończy.",
+          "title": "Odzyskiwanie w Ciągu Dnia dzięki Pulse",
+          "description": "Wychwyć wyciek w momencie jego wystąpienia, przekaż naprawę osobie odpowiedzialnej za zmianę i zmierz odzyskaną marżę - zanim zmiana się skończy.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1459,44 +1113,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "PORÓWNANIE",
-        "title": "Ponad tradycyjne pulpity nawigacyjne",
-        "description": "Większość platform pokazuje, co się wydarzyło. My pokazujemy, co się dzieje, co to oznacza i co z tym zrobić.",
-        "columns": [
-          {
-            "title": "Tradycyjne BI",
-            "items": [
-              "Raportowanie historyczne",
-              "Ręczne pobieranie danych",
-              "Izolowane metryki",
-              "Reaktywne zarządzanie"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Ogólne pulpity nawigacyjne",
-            "items": [
-              "Pulpity z wielu źródeł",
-              "Zaplanowane raporty",
-              "Podstawowe powiadomienia",
-              "Brak kontekstu branżowego"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model Inteligencji 4D",
-              "Real-time Pulse monitoring",
-              "Kontekst rynkowy za pomocą Watchtower",
-              "Inteligentne rekomendacje"
-            ],
-            "icon": "speed",
-            "cta": "Nikt nie posiada pełnego stosu. Do teraz."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "STWORZONE DLA",
         "title": "Stworzone dla każdej roli w organizacji",
@@ -1504,14 +1120,14 @@ export const generatedLocalCopy = {
           {
             "title": "Liderzy Operacji",
             "pain": "Nie możesz być w każdej restauracji jednocześnie.",
-            "description": "Widoczność w czasie rzeczywistym w każdej lokalizacji dzięki Pulse i Portfolio - wiedz, kto potrzebuje pomocy, zanim poprosi.",
+            "description": "Wykryj wyciek w dowolnej lokalizacji dzięki Pulse i Portfolio, przekaż naprawę kierownikowi na zmianie i zobacz, jak odzyskanie się realizuje - zanim poproszą o pomoc.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanse i FP&A",
             "pain": "3 dni na zamknięcie ksiąg? To za dużo.",
-            "description": "Inteligencja marż w czasie rzeczywistym, koszty pracy na poziomie zmiany i analiza odchyleń połączona z przyczynami źródłowymi.",
+            "description": "Każde odchylenie marży doprowadzone do przyczyny źródłowej, przekazane osobie odpowiedzialnej, a odzyskana wartość zmierzona względem linii bazowej.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1532,7 +1148,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Przestań prowadzić swoją restaurację na podstawie intuicji.",
+        "title": "Przestań patrzeć, jak marża wycieka. Zacznij mierzyć odzyskanie.",
         "description": "30 minut na wspólne przeglądanie danych i sprawdzenie, czy Sundae naprawdę pomoże Twojemu zespołowi.",
         "primary": "Umów się na prezentację",
         "secondary": "Poznaj produkty"
@@ -1541,15 +1157,21 @@ export const generatedLocalCopy = {
     "ja": {
       "hero": {
         "badge": "なぜSundaeなのか",
-        "title": "レストランが持っていなかったインテリジェンスレイヤー",
-        "description": "あなたのデータは切り離されたサイロに存在しています。あなたのチームは直感で百万ドルの決定を下します。私たちはそれを変えるプラットフォームを構築しました。"
+        "title": "検知は当たり前。測定できる利益回収は違う。",
+        "description": "今やどの競合も問題を見つけて対策を提案できます。Sundaeはそれを一人の責任者に割り当て、実行まで追跡し、回収したマージンをベースラインと比較して測定します--ループ全体を、意思決定ごとに証明します。"
       },
       "problems": {
         "eyebrow": "問題",
         "title": "毎日お金を失う3つのギャップ",
-        "description": "私たちが関わったすべてのレストラングループは、同じ3つの課題に直面しています。"
+        "description": "私たちが関わる多店舗グループは、いずれも同じ三つの欠落に突き当たります。"
       },
       "differentiators": [
+        {
+          "title": "クローズドループの利益リカバリー",
+          "description": "十四の検出器が人件費、調達、廃棄、配送、価格設定で漏れている利益を見つけます。各機会は担当者が一人だけの作業となり、着手前に凍結した基準と比較して測定されます。測定されるまで、Sundae は節減を回収済みとは呼びません。",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12ドメインデータ取り込み",
           "description": "POS、労働、在庫、購買、予約、配送、マーケティング、ゲスト体験、CRM、会計 - すべてが統合されています。もはや切り離されたシステムはありません。",
@@ -1563,8 +1185,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulseによるリアルタイムオペレーション",
-          "description": "シフトが終わる前に、日内売上のペース、労働生産性、漏れの検出、コーチングを行います。",
+          "title": "Pulseによる日中の利益回収",
+          "description": "漏れが起きた瞬間に捉え、修正をシフト責任者に割り当て、回収したマージンを測定します--シフトが終わる前に。",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1587,44 +1209,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "比較",
-        "title": "従来のダッシュボードを超えて",
-        "description": "ほとんどのプラットフォームは何が起こったかを示します。私たちは何が起こっているのか、それが何を意味するのか、そしてどうすればよいのかを示します。",
-        "columns": [
-          {
-            "title": "従来のBI",
-            "items": [
-              "履歴レポート",
-              "手動データ取得",
-              "孤立した指標",
-              "反応的管理"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "一般的なダッシュボード",
-            "items": [
-              "マルチソースダッシュボード",
-              "スケジュールされたレポート",
-              "基本的なアラート",
-              "業界コンテキストなし"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4Dインテリジェンスモデル",
-              "リアルタイムPulse監視",
-              "Watchtowerによる市場コンテキスト",
-              "インテリジェントな推奨"
-            ],
-            "icon": "speed",
-            "cta": "完全なスタックを所有する者はいません。今までは。"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "すべての役割のために構築",
         "title": "組織内のすべての役割のために構築",
@@ -1632,14 +1216,14 @@ export const generatedLocalCopy = {
           {
             "title": "オペレーションリーダー",
             "pain": "すべてのレストランに同時にいることはできません。",
-            "description": "PulseとPortfolioを通じて、各ロケーションのリアルタイムの可視性 - 誰が助けを必要としているかを事前に把握します。",
+            "description": "PulseとPortfolioで各拠点の漏れを発見し、修正を当番マネージャーに割り当て、回収が実現するのを見届けます--助けを求められる前に。",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "財務 & FP&A",
             "pain": "帳簿を閉じるのに3日？それは多すぎます。",
-            "description": "リアルタイムのマージンインテリジェンス、シフトレベルの労働コスト、根本原因に結びついた変動分析。",
+            "description": "あらゆるマージンのばらつきを根本原因まで遡り、責任者に割り当て、回収した価値をベースラインと比較して測定します。",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1660,7 +1244,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "感覚だけでレストランを運営するのはやめましょう。",
+        "title": "マージンが漏れ出るのを眺めるのはやめましょう。回収の測定を始めましょう。",
         "description": "データを一緒にレビューするための30分で、Sundaeが本当にあなたのチームを助けるかどうかを確認しましょう。",
         "primary": "デモを予約",
         "secondary": "製品を探る"
@@ -1669,8 +1253,8 @@ export const generatedLocalCopy = {
     "vi": {
       "hero": {
         "badge": "Tại sao Sundae",
-        "title": "Lớp thông minh mà các nhà hàng chưa từng có",
-        "description": "Dữ liệu của bạn sống trong các silo không kết nối. Nhóm của bạn đưa ra quyết định triệu đô chỉ dựa vào cảm giác. Chúng tôi đã xây dựng nền tảng thay đổi điều đó."
+        "title": "Phát hiện là chuyện đương nhiên. Thu hồi có đo lường thì không.",
+        "description": "Giờ đây mọi đối thủ đều có thể phát hiện vấn đề và đề xuất giải pháp. Sundae giao nó cho một người chịu trách nhiệm duy nhất, theo dõi đến khi thực thi và đo lường biên lợi nhuận thu hồi so với đường cơ sở - trọn vòng lặp, được chứng minh cho từng quyết định."
       },
       "problems": {
         "eyebrow": "VẤN ĐỀ",
@@ -1678,6 +1262,12 @@ export const generatedLocalCopy = {
         "description": "Mỗi nhóm nhà hàng mà chúng tôi đã làm việc đều gặp phải ba thách thức giống nhau."
       },
       "differentiators": [
+        {
+          "title": "Thu hoi loi nhuan theo vong khep kin",
+          "description": "Muoi bon bo phat hien tim ra loi nhuan that thoat o nhan cong, mua hang, hao hut, giao hang va dinh gia. Moi co hoi tro thanh mot cong viec voi mot nguoi chiu trach nhiem, do luong voi moc co so duoc dong bang truoc khi bat dau. Sundae khong goi mot khoan tiet kiem la da thu hoi cho den khi do duoc.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Tiếp Nhận Dữ Liệu 12 Miền",
           "description": "POS, lao động, tồn kho, mua sắm, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM, kế toán - tất cả được thống nhất. Không còn hệ thống tách rời.",
@@ -1691,8 +1281,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Hoạt Động Thời Gian Thực Qua Pulse",
-          "description": "Theo dõi doanh số trong ngày, năng suất lao động, phát hiện rò rỉ và huấn luyện - trước khi ca làm việc kết thúc.",
+          "title": "Thu Hồi Trong Ngày Qua Pulse",
+          "description": "Bắt lấy rò rỉ ngay khi nó xảy ra, giao việc khắc phục cho người phụ trách ca và đo lường biên lợi nhuận thu hồi - trước khi ca làm việc kết thúc.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1715,44 +1305,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "SO SÁNH",
-        "title": "Vượt ra ngoài bảng điều khiển truyền thống",
-        "description": "Hầu hết các nền tảng chỉ cho bạn những gì đã xảy ra. Chúng tôi cho bạn biết những gì đang xảy ra, ý nghĩa của nó và bạn nên làm gì với nó.",
-        "columns": [
-          {
-            "title": "BI Truyền Thống",
-            "items": [
-              "Báo cáo lịch sử",
-              "Kéo dữ liệu thủ công",
-              "Chỉ số tách biệt",
-              "Quản lý phản ứng"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Bảng Điều Khiển Chung",
-            "items": [
-              "Bảng điều khiển đa nguồn",
-              "Báo cáo theo lịch",
-              "Cảnh báo cơ bản",
-              "Không có ngữ cảnh ngành"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Mô hình Trí Tuệ 4D",
-              "Real-time Pulse monitoring",
-              "Ngữ cảnh thị trường qua Watchtower",
-              "Khuyến nghị thông minh"
-            ],
-            "icon": "speed",
-            "cta": "Không ai sở hữu toàn bộ hệ thống. Cho đến bây giờ."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DÀNH CHO",
         "title": "Dành cho mọi vai trò trong tổ chức",
@@ -1760,14 +1312,14 @@ export const generatedLocalCopy = {
           {
             "title": "Lãnh đạo Vận hành",
             "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
-            "description": "Tầm nhìn thời gian thực vào mọi địa điểm qua Pulse và Portfolio - biết ai cần giúp đỡ trước khi họ yêu cầu.",
+            "description": "Phát hiện rò rỉ tại bất kỳ địa điểm nào qua Pulse và Portfolio, giao việc khắc phục cho quản lý trực ca và chứng kiến việc thu hồi thành hiện thực - trước khi họ cần trợ giúp.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Tài chính & FP&A",
             "pain": "3 ngày để đóng sổ sách? Đó là 3 ngày quá nhiều.",
-            "description": "Thông tin biên lợi nhuận thời gian thực, chi phí lao động theo ca, và phân tích biến động liên kết với nguyên nhân gốc.",
+            "description": "Mỗi sai lệch biên lợi nhuận được truy về nguyên nhân gốc, giao cho một người chịu trách nhiệm, và giá trị thu hồi được đo so với đường cơ sở.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1788,7 +1340,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Ngừng điều hành nhà hàng của bạn chỉ dựa vào cảm tính.",
+        "title": "Ngừng đứng nhìn biên lợi nhuận rò rỉ. Bắt đầu đo lường việc thu hồi.",
         "description": "30 phút để xem xét dữ liệu của bạn cùng nhau và xem liệu Sundae có thực sự giúp đội ngũ của bạn không.",
         "primary": "Đặt Lịch Demo",
         "secondary": "Khám Phá Sản Phẩm"
@@ -1797,8 +1349,8 @@ export const generatedLocalCopy = {
     "id": {
       "hero": {
         "badge": "Mengapa Sundae",
-        "title": "Lapisan Intelijen yang Belum Pernah Dimiliki Restoran",
-        "description": "Data Anda terletak di silo yang terputus. Tim Anda membuat keputusan senilai jutaan dolar berdasarkan insting. Kami membangun platform yang mengubah itu."
+        "title": "Mendeteksi itu standar. Pemulihan yang terukur tidak.",
+        "description": "Kini setiap pesaing bisa menemukan masalah dan merekomendasikan solusi. Sundae mengarahkannya ke satu penanggung jawab, melacaknya hingga eksekusi, dan mengukur margin yang dipulihkan terhadap garis dasar - seluruh siklus, terbukti di setiap keputusan."
       },
       "problems": {
         "eyebrow": "MASALAH",
@@ -1806,6 +1358,12 @@ export const generatedLocalCopy = {
         "description": "Setiap grup restoran yang kami tangani menghadapi tiga tantangan yang sama."
       },
       "differentiators": [
+        {
+          "title": "Pemulihan laba lingkar tertutup",
+          "description": "Empat belas detektor menemukan laba yang bocor di tenaga kerja, pengadaan, susut, pengiriman dan penetapan harga. Setiap peluang menjadi satu tugas dengan satu penanggung jawab, diukur terhadap garis dasar yang dibekukan sebelum pekerjaan dimulai. Sundae tidak menyebut penghematan sebagai kembali sebelum diukur.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, tenaga kerja, inventaris, pembelian, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, akuntansi - semua terintegrasi. Tidak ada lagi sistem yang terputus.",
@@ -1819,8 +1377,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operasi Waktu Nyata melalui Pulse",
-          "description": "Pacing penjualan intrahari, produktivitas tenaga kerja, deteksi kebocoran, dan pelatihan - sebelum shift berakhir.",
+          "title": "Pemulihan Intrahari melalui Pulse",
+          "description": "Tangkap kebocoran begitu terjadi, arahkan perbaikan ke penanggung jawab shift, dan ukur margin yang dipulihkan - sebelum shift berakhir.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1843,44 +1401,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "PERBANDINGAN",
-        "title": "Lebih dari sekadar dasbor tradisional",
-        "description": "Sebagian besar platform menunjukkan apa yang terjadi. Kami menunjukkan apa yang sedang terjadi, apa artinya, dan apa yang harus dilakukan.",
-        "columns": [
-          {
-            "title": "BI Tradisional",
-            "items": [
-              "Pelaporan historis",
-              "Pengambilan data manual",
-              "Metrik terpisah",
-              "Manajemen reaktif"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Dasbor Umum",
-            "items": [
-              "Dasbor multi-sumber",
-              "Laporan terjadwal",
-              "Peringatan dasar",
-              "Tanpa konteks industri"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model Intelijen 4D",
-              "Pemantauan Pulse waktu nyata",
-              "Konteks pasar melalui Watchtower",
-              "Rekomendasi cerdas"
-            ],
-            "icon": "speed",
-            "cta": "Tidak ada yang memiliki tumpukan penuh. Sampai sekarang."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DIBANGUN UNTUK",
         "title": "Dibangun untuk setiap peran dalam organisasi",
@@ -1888,14 +1408,14 @@ export const generatedLocalCopy = {
           {
             "title": "Pemimpin Operasi",
             "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
-            "description": "Visibilitas waktu nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang membutuhkan bantuan sebelum mereka meminta.",
+            "description": "Temukan kebocoran di lokasi mana pun melalui Pulse dan Portfolio, arahkan perbaikan ke manajer yang bertugas, dan saksikan pemulihan terwujud - sebelum mereka meminta bantuan.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Keuangan & FP&A",
             "pain": "3 hari untuk menutup buku? Itu terlalu lama.",
-            "description": "Intelijen margin waktu nyata, biaya tenaga kerja tingkat shift, dan analisis varians yang terhubung ke penyebab utama.",
+            "description": "Setiap selisih margin dilacak hingga akar penyebabnya, diarahkan ke penanggung jawab, dan nilai yang dipulihkan diukur terhadap garis dasar.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -1916,7 +1436,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hentikan mengelola restoran Anda hanya berdasarkan insting.",
+        "title": "Berhenti menonton margin bocor. Mulai ukur pemulihannya.",
         "description": "30 menit untuk meninjau data Anda bersama dan melihat apakah Sundae benar-benar dapat membantu tim Anda.",
         "primary": "Pesan Demo",
         "secondary": "Jelajahi Produk"
@@ -1925,15 +1445,21 @@ export const generatedLocalCopy = {
     "ko": {
       "hero": {
         "badge": "왜 Sundae인가",
-        "title": "레스토랑이 결코 가지지 못했던 인텔리전스 레이어",
-        "description": "귀하의 데이터는 분리된 사일로에 존재합니다. 귀하의 팀은 직감으로 백만 달러의 결정을 내립니다. 우리는 이를 변화시키는 플랫폼을 구축했습니다."
+        "title": "탐지는 기본입니다. 측정된 이익 회수는 다릅니다.",
+        "description": "이제 모든 경쟁사가 문제를 발견하고 해결책을 제안할 수 있습니다. Sundae는 이를 한 명의 책임자에게 배정하고, 실행까지 추적하며, 회수한 마진을 기준선과 비교해 측정합니다 - 전체 루프를, 모든 의사결정마다 입증합니다."
       },
       "problems": {
         "eyebrow": "문제",
         "title": "매일 돈을 잃게 만드는 세 가지 격차",
-        "description": "우리가 함께 일한 모든 레스토랑 그룹은 동일한 세 가지 문제에 직면합니다."
+        "description": "우리가 함께 일한 모든 다점포 그룹이 같은 세 가지 공백을 만납니다."
       },
       "differentiators": [
+        {
+          "title": "폐쇄 루프 이익 회수",
+          "description": "열네 개의 탐지기가 인건비, 구매, 폐기, 배달, 가격에서 새는 이익을 찾아냅니다. 각 기회는 담당자가 한 명인 업무가 되고, 작업 시작 전에 고정한 기준선과 비교해 측정됩니다. 측정되기 전까지 Sundae는 절감이 회수되었다고 말하지 않습니다.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12개 도메인 데이터 수집",
           "description": "POS, 인력, 재고, 구매, 예약, 배달, 마케팅, 고객 경험, CRM, 회계 - 모두 통합되었습니다. 더 이상 분리된 시스템이 없습니다.",
@@ -1947,8 +1473,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse를 통한 실시간 운영",
-          "description": "근무 중 판매 속도, 인력 생산성, 유출 감지 및 코칭 - 근무가 끝나기 전에.",
+          "title": "Pulse를 통한 당일 이익 회수",
+          "description": "누수가 발생하는 순간 포착하고, 수정을 근무 책임자에게 배정하며, 회수한 마진을 측정하세요 - 근무가 끝나기 전에.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -1971,44 +1497,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "비교",
-        "title": "전통적인 대시보드를 넘어서",
-        "description": "대부분의 플랫폼은 발생한 일을 보여줍니다. 우리는 현재 무슨 일이 일어나고 있는지, 그것이 의미하는 바, 그리고 어떻게 대처해야 하는지를 보여줍니다.",
-        "columns": [
-          {
-            "title": "전통적인 BI",
-            "items": [
-              "과거 보고",
-              "수동 데이터 추출",
-              "분리된 메트릭",
-              "반응적 관리"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "일반 대시보드",
-            "items": [
-              "다중 소스 대시보드",
-              "예약된 보고서",
-              "기본 경고",
-              "산업 맥락 없음"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D 인텔리전스 모델",
-              "Real-time Pulse monitoring",
-              "Watchtower를 통한 시장 맥락",
-              "지능형 추천"
-            ],
-            "icon": "speed",
-            "cta": "누구도 전체 스택을 소유하지 않습니다. 지금까지는."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "모든 역할을 위해 설계됨",
         "title": "조직의 모든 역할을 위한 솔루션",
@@ -2016,14 +1504,14 @@ export const generatedLocalCopy = {
           {
             "title": "운영 리더",
             "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
-            "description": "Pulse와 Portfolio를 통해 모든 위치에 대한 실시간 가시성을 제공 - 누가 도움을 필요로 하는지 미리 알 수 있습니다.",
+            "description": "Pulse와 Portfolio로 어느 매장의 누수든 발견하고, 수정을 근무 중인 매니저에게 배정하며, 회수가 실현되는 것을 확인하세요 - 그들이 도움을 요청하기 전에.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "재무 및 FP&A",
             "pain": "장부 마감에 3일이 걸리나요? 그건 너무 많은 시간입니다.",
-            "description": "실시간 마진 인텔리전스, 교대별 인건비, 그리고 근본 원인에 연결된 변동 분석.",
+            "description": "모든 마진 편차를 근본 원인까지 추적하고, 책임자에게 배정하며, 회수한 가치를 기준선과 비교해 측정합니다.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -2044,7 +1532,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "직감만으로 식당을 운영하는 것을 멈추세요.",
+        "title": "마진이 새어 나가는 것을 지켜보기를 멈추세요. 회수를 측정하기 시작하세요.",
         "description": "데이터를 함께 검토하고 Sundae가 팀에 진정으로 도움이 되는지 확인하는 데 30분이 소요됩니다.",
         "primary": "데모 예약",
         "secondary": "제품 탐색"
@@ -2053,15 +1541,21 @@ export const generatedLocalCopy = {
     "ro": {
       "hero": {
         "badge": "De ce Sundae",
-        "title": "Stratul de Inteligență pe care restaurantele nu l-au avut niciodată",
-        "description": "Datele tale trăiesc în silozuri deconectate. Echipa ta ia decizii de milioane de dolari bazate pe intuiție. Am construit platforma care schimbă asta."
+        "title": "Detectarea e minimul. Recuperarea măsurată, nu.",
+        "description": "Orice concurent poate acum să identifice o problemă și să recomande o soluție. Sundae o direcționează către un singur responsabil, o urmărește până la execuție și măsoară marja recuperată față de o linie de referință - întreaga buclă, dovedită la fiecare decizie."
       },
       "problems": {
         "eyebrow": "PROBLEMA",
         "title": "Trei lacune care îți costă bani în fiecare zi",
-        "description": "Fiecare grup de restaurante cu care am colaborat se confruntă cu aceleași trei provocări."
+        "description": "Fiecare grup multi-locatie cu care lucram intalneste aceleasi trei lipsuri."
       },
       "differentiators": [
+        {
+          "title": "Recuperarea marjei in buclă inchisa",
+          "description": "Paisprezece detectoare gasesc marja pierduta la personal, achizitii, risipa, livrare si preturi. Fiecare oportunitate devine o sarcina cu un singur responsabil, masurata fata de o baza inghetata inainte de inceperea lucrului. Sundae nu considera o economie recuperata pana nu este masurata.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Ingestie de Date pe 12 Domenii",
           "description": "POS, muncă, inventar, achiziții, rezervări, livrare, marketing, experiența oaspeților, CRM, contabilitate - toate unificate. Fără sisteme deconectate.",
@@ -2075,8 +1569,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operațiuni în Timp Real prin Pulse",
-          "description": "Pacing-ul vânzărilor intraday, productivitatea muncii, detectarea scurgerilor și coaching - înainte ca schimbul să se termine.",
+          "title": "Recuperare Intraday prin Pulse",
+          "description": "Prinde scurgerea în momentul în care apare, direcționează remedierea către responsabilul de tură și măsoară marja recuperată - înainte ca schimbul să se termine.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -2099,44 +1593,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "COMPARAȚIE",
-        "title": "Dincolo de tablourile de bord tradiționale",
-        "description": "Cele mai multe platforme îți arată ce s-a întâmplat. Noi îți arătăm ce se întâmplă, ce înseamnă și ce trebuie să faci în legătură cu asta.",
-        "columns": [
-          {
-            "title": "BI Tradițional",
-            "items": [
-              "Raportare istorică",
-              "Extrageri manuale de date",
-              "Metrici izolate",
-              "Management reactiv"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Tablouri de bord Generice",
-            "items": [
-              "Tablouri de bord din surse multiple",
-              "Rapoarte programate",
-              "Alerta de bază",
-              "Fără context industrial"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model de Inteligență 4D",
-              "Monitorizare Pulse în timp real",
-              "Context de piață prin Watchtower",
-              "Recomandări inteligente"
-            ],
-            "icon": "speed",
-            "cta": "Nimeni nu deține întreaga stivă. Până acum."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "CREAT PENTRU",
         "title": "Creat pentru fiecare rol din organizație",
@@ -2144,14 +1600,14 @@ export const generatedLocalCopy = {
           {
             "title": "Lideri de Operațiuni",
             "pain": "Nu poți fi în fiecare restaurant în același timp.",
-            "description": "Vizibilitate în timp real în fiecare locație prin Pulse și Portfolio - știi cine are nevoie de ajutor înainte să ceară.",
+            "description": "Identifică scurgerea în orice locație prin Pulse și Portfolio, direcționează remedierea către managerul de tură și vezi cum recuperarea se concretizează - înainte să ceară ajutor.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanțe & FP&A",
             "pain": "3 zile pentru a închide cărțile? Asta e prea mult.",
-            "description": "Inteligență de marjă în timp real, costuri de muncă la nivel de schimb și analiză a variațiilor conectate la cauzele fundamentale.",
+            "description": "Fiecare abatere de marjă urmărită până la cauza fundamentală, direcționată către un responsabil, iar valoarea recuperată măsurată față de o linie de referință.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -2172,7 +1628,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Nu mai conduceți restaurantul pe baza intuiției.",
+        "title": "Nu mai privi cum se scurge marja. Începe să măsori recuperarea.",
         "description": "30 de minute pentru a revizui datele împreună și a vedea dacă Sundae ar ajuta cu adevărat echipa dumneavoastră.",
         "primary": "Programează o demonstrație",
         "secondary": "Explorează produsele"
@@ -2181,15 +1637,21 @@ export const generatedLocalCopy = {
     "sv": {
       "hero": {
         "badge": "Varför Sundae",
-        "title": "Intelligenslagret som restauranger aldrig haft",
-        "description": "Dina data finns i avskilda silos. Ditt team fattar beslut värda miljoner baserat på magkänsla. Vi har byggt plattformen som förändrar det."
+        "title": "Att upptäcka är en självklarhet. Mätt återvinning är det inte.",
+        "description": "Varje konkurrent kan nu upptäcka ett problem och rekommendera en lösning. Sundae tilldelar den till en ansvarig person, följer den genom genomförandet och mäter den återvunna marginalen mot en baslinje - hela slingan, bevisad för varje beslut."
       },
       "problems": {
         "eyebrow": "PROBLEMET",
         "title": "Tre luckor som kostar dig pengar varje dag",
-        "description": "Varje restauranggrupp vi har arbetat med står inför samma tre utmaningar."
+        "description": "Varje flerenhetsgrupp vi arbetar med moter samma tre luckor."
       },
       "differentiators": [
+        {
+          "title": "Marginalatervinning i sluten loop",
+          "description": "Fjorton detektorer hittar marginalen som lacker i personal, inkop, svinn, leverans och prissattning. Varje mojlighet blir en uppgift med en enda ansvarig, matt mot en baslinje som frystes innan arbetet borjade. Sundae kallar inte en besparing atervunnen forran den har matts.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "12-domäners datainhämtning",
           "description": "POS, arbetskraft, lager, inköp, reservationer, leverans, marknadsföring, gästupplevelse, CRM, bokföring - allt enat. Inga fler frånkopplade system.",
@@ -2203,8 +1665,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Verksamhet i realtid via Pulse",
-          "description": "Försäljningspacing under dagen, arbetsproduktivitet, läckagedetektering och coaching - innan skiftet är över.",
+          "title": "Återvinning under dagen via Pulse",
+          "description": "Fånga läckan i samma stund den uppstår, skicka åtgärden till den skiftansvarige och mät den återvunna marginalen - innan skiftet är över.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -2227,44 +1689,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "JÄMFÖRELSE",
-        "title": "Bortom traditionella instrumentpaneler",
-        "description": "De flesta plattformar visar vad som hände. Vi visar vad som händer, vad det betyder och vad du ska göra åt det.",
-        "columns": [
-          {
-            "title": "Traditionell BI",
-            "items": [
-              "Historisk rapportering",
-              "Manuella datadragningar",
-              "Isolerade mätvärden",
-              "Reaktivt ledarskap"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Generiska instrumentpaneler",
-            "items": [
-              "Multi-källinstrumentpaneler",
-              "Schemalagda rapporter",
-              "Grundläggande aviseringar",
-              "Ingen branschkontext"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D-intelligensmodell",
-              "Övervakning av realtids-Pulse",
-              "Marknadskontext via Watchtower",
-              "Intelligenta rekommendationer"
-            ],
-            "icon": "speed",
-            "cta": "Ingen äger hela stacken. Tills nu."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "BYGGD FÖR",
         "title": "Byggd för varje roll i organisationen",
@@ -2272,14 +1696,14 @@ export const generatedLocalCopy = {
           {
             "title": "Operationsledare",
             "pain": "Du kan inte vara på varje restaurang samtidigt.",
-            "description": "Realtidsinsyn i varje plats via Pulse och Portfolio - vet vem som behöver hjälp innan de frågar.",
+            "description": "Upptäck läckan på vilken plats som helst via Pulse och Portfolio, skicka åtgärden till skiftchefen och se återvinningen bli verklighet - innan de ber om hjälp.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Ekonomi & FP&A",
             "pain": "3 dagar för att stänga böckerna? Det är 3 dagar för mycket.",
-            "description": "Realtidsmarginalintelligens, arbetskostnader på skift-nivå och avvikelseanalys kopplad till grundorsaker.",
+            "description": "Varje marginalavvikelse spårad till sin grundorsak, tilldelad en ansvarig, och det återvunna värdet mätt mot en baslinje.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -2300,7 +1724,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Sluta driva din restaurang på magkänsla.",
+        "title": "Sluta se på när marginalen läcker. Börja mäta återvinningen.",
         "description": "30 minuter för att granska dina data tillsammans och se om Sundae verkligen skulle hjälpa ditt team.",
         "primary": "Boka en demo",
         "secondary": "Utforska produkter"
@@ -2309,8 +1733,8 @@ export const generatedLocalCopy = {
     "bn": {
       "hero": {
         "badge": "কেন Sundae",
-        "title": "যে বুদ্ধিমত্তার স্তর রেস্তোরাঁর কখনো ছিল না",
-        "description": "আপনার ডেটা বিচ্ছিন্ন সাইলোতে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা মিলিয়ন ডলারের সিদ্ধান্ত নেয়। আমরা সেই প্ল্যাটফর্ম তৈরি করেছি যা এটি পরিবর্তন করে।"
+        "title": "সমস্যা শনাক্ত করা স্বাভাবিক ব্যাপার। পরিমাপ করা মার্জিন পুনরুদ্ধার নয়।",
+        "description": "এখন প্রতিটি প্রতিদ্বন্দ্বী একটি সমস্যা শনাক্ত করে সমাধান সুপারিশ করতে পারে। Sundae এটিকে একজন দায়বদ্ধ ব্যক্তির কাছে পাঠায়, বাস্তবায়ন পর্যন্ত ট্র্যাক করে, এবং একটি ভিত্তিরেখার বিপরীতে পুনরুদ্ধার করা মার্জিন পরিমাপ করে - সম্পূর্ণ চক্র, প্রতিটি সিদ্ধান্তে প্রমাণিত।"
       },
       "problems": {
         "eyebrow": "সমস্যা",
@@ -2318,6 +1742,12 @@ export const generatedLocalCopy = {
         "description": "প্রতিটি রেস্টুরেন্ট গ্রুপের সাথে আমরা কাজ করেছি একই তিনটি চ্যালেঞ্জের মুখোমুখি হয়।"
       },
       "differentiators": [
+        {
+          "title": "ক্লোজড-লুপ মুনাফা পুনরুদ্ধার",
+          "description": "চৌদ্দটি ডিটেক্টর শ্রম, ক্রয়, অপচয়, ডেলিভারি ও মূল্যনির্ধারণে বেরিয়ে যাওয়া মুনাফা খুঁজে বের করে। প্রতিটি সুযোগ একজন দায়িত্বপ্রাপ্ত ব্যক্তির কাজ হয়ে ওঠে, যা কাজ শুরুর আগে স্থির করা ভিত্তির সঙ্গে মেপে দেখা হয়। মাপা না হওয়া পর্যন্ত Sundae কোনও সাশ্রয়কে পুনরুদ্ধার বলে না।",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "১২-ডোমেইন ডেটা ইনজেশন",
           "description": "POS, শ্রম, ইনভেন্টরি, ক্রয়, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, হিসাব - সবকিছু একত্রিত। আর বিচ্ছিন্ন সিস্টেম নেই।",
@@ -2331,8 +1761,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Pulse এর মাধ্যমে রিয়েল-টাইম অপারেশন",
-          "description": "দিনের মধ্যে বিক্রয় পেসিং, শ্রম উৎপাদনশীলতা, লিকেজ সনাক্তকরণ, এবং কোচিং - শিফট শেষ হওয়ার আগে।",
+          "title": "Pulse এর মাধ্যমে দিনের মধ্যে মার্জিন পুনরুদ্ধার",
+          "description": "লিকেজ ঘটার মুহূর্তেই ধরুন, সমাধানটি শিফট দায়িত্বপ্রাপ্তের কাছে পাঠান, এবং পুনরুদ্ধার করা মার্জিন পরিমাপ করুন - শিফট শেষ হওয়ার আগে।",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -2355,44 +1785,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "তুলনা",
-        "title": "প্রথাগত ড্যাশবোর্ডের বাইরে",
-        "description": "বেশিরভাগ প্ল্যাটফর্ম আপনাকে দেখায় কি ঘটেছে। আমরা আপনাকে দেখাই কি ঘটছে, এর মানে কি, এবং এর জন্য কি করতে হবে।",
-        "columns": [
-          {
-            "title": "প্রথাগত BI",
-            "items": [
-              "ঐতিহাসিক রিপোর্টিং",
-              "ম্যানুয়াল ডেটা টানার",
-              "সাইলোড মেট্রিক্স",
-              "প্রতিক্রিয়াশীল ব্যবস্থাপনা"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "সাধারণ ড্যাশবোর্ড",
-            "items": [
-              "মাল্টি-সোর্স ড্যাশবোর্ড",
-              "নির্ধারিত রিপোর্ট",
-              "মৌলিক সতর্কতা",
-              "কোন শিল্পের প্রেক্ষাপট নেই"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "4D ইন্টেলিজেন্স মডেল",
-              "Real-time Pulse monitoring",
-              "Watchtower এর মাধ্যমে বাজারের প্রেক্ষাপট",
-              "বুদ্ধিমান সুপারিশ"
-            ],
-            "icon": "speed",
-            "cta": "কেউ পুরো স্ট্যাকের মালিক নয়। এখন পর্যন্ত।"
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "নির্মিত হয়েছে",
         "title": "প্রতিটি ভূমিকার জন্য নির্মিত",
@@ -2400,14 +1792,14 @@ export const generatedLocalCopy = {
           {
             "title": "অপারেশন নেতৃবৃন্দ",
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-            "description": "Pulse এবং Portfolio এর মাধ্যমে প্রতিটি লোকেশনের রিয়েল-টাইম দৃশ্যমানতা - কে সাহায্য চাইবে, তা চাওয়ার আগেই জেনে নিন।",
+            "description": "Pulse এবং Portfolio এর মাধ্যমে যেকোনো লোকেশনে লিকেজ শনাক্ত করুন, সমাধানটি দায়িত্বরত ম্যানেজারের কাছে পাঠান, এবং পুনরুদ্ধার বাস্তবে রূপ নিতে দেখুন - তারা সাহায্য চাওয়ার আগে।",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "অর্থ ও FP&A",
             "pain": "বই বন্ধ করতে ৩ দিন? এটা ৩ দিন বেশি।",
-            "description": "বাস্তব-সময়ের মার্জিন বুদ্ধিমত্তা, শিফট-স্তরের শ্রম খরচ, এবং মূল কারণের সাথে সংযুক্ত ভেরিয়েন্স বিশ্লেষণ।",
+            "description": "প্রতিটি মার্জিন বিচ্যুতি এর মূল কারণ পর্যন্ত অনুসরণ করা হয়, একজন দায়িত্বপ্রাপ্তের কাছে পাঠানো হয়, এবং পুনরুদ্ধার করা মূল্য একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা হয়।",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -2428,7 +1820,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "আপনার রেস্টুরেন্টকে অনুভূতির উপর চালানো বন্ধ করুন।",
+        "title": "মার্জিন বেরিয়ে যাওয়া দেখা বন্ধ করুন। পুনরুদ্ধার পরিমাপ করা শুরু করুন।",
         "description": "আপনার ডেটা একসাথে পর্যালোচনা করতে ৩০ মিনিট এবং দেখুন কি Sundae সত্যিই আপনার দলের সাহায্য করবে।",
         "primary": "ডেমো বুক করুন",
         "secondary": "পণ্যগুলি অন্বেষণ করুন"
@@ -2437,15 +1829,21 @@ export const generatedLocalCopy = {
     "th": {
       "hero": {
         "badge": "ทำไมต้อง Sundae",
-        "title": "ชั้นข้อมูลอัจฉริยะที่ร้านอาหารไม่เคยมี",
-        "description": "ข้อมูลของคุณอยู่ในซิลอสที่ไม่เชื่อมต่อ ทีมของคุณตัดสินใจมูลค่าหลายล้านดอลลาร์จากความรู้สึก เราสร้างแพลตฟอร์มที่เปลี่ยนแปลงสิ่งนั้น."
+        "title": "การตรวจจับเป็นเรื่องพื้นฐาน แต่การกู้คืนที่วัดผลได้ไม่ใช่",
+        "description": "ตอนนี้คู่แข่งทุกรายสามารถตรวจพบปัญหาและแนะนำวิธีแก้ได้ แต่ Sundae ส่งต่อไปยังผู้รับผิดชอบเพียงคนเดียว ติดตามจนถึงการดำเนินการ และวัดมาร์จิ้นที่กู้คืนได้เทียบกับเส้นฐาน - ครบทั้งวงจร พิสูจน์ได้ในทุกการตัดสินใจ"
       },
       "problems": {
         "eyebrow": "ปัญหา",
         "title": "สามช่องว่างที่ทำให้คุณเสียเงินทุกวัน",
-        "description": "กลุ่มร้านอาหารทุกกลุ่มที่เราทำงานด้วยเผชิญกับสามความท้าทายเดียวกัน."
+        "description": "ทุกกลุ่มหลายสาขาที่เราทำงานด้วยเจอช่องว่างสามอย่างเดียวกัน"
       },
       "differentiators": [
+        {
+          "title": "การกู้คืนกำไรแบบวงจรปิด",
+          "description": "ตัวตรวจจับสิบสี่ตัวค้นหากำไรที่รั่วไหลในแรงงาน การจัดซื้อ ของเสีย การจัดส่ง และการตั้งราคา ทุกโอกาสกลายเป็นงานที่มีผู้รับผิดชอบเพียงคนเดียว วัดเทียบกับเส้นฐานที่ตรึงไว้ก่อนเริ่มงาน Sundae จะไม่เรียกการประหยัดใดว่ากู้คืนแล้วจนกว่าจะวัดได้",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "การนำเข้าข้อมูล 12 ด้าน",
           "description": "POS, แรงงาน, สินค้าคงคลัง, การสั่งซื้อ, การจอง, การจัดส่ง, การตลาด, ประสบการณ์แขก, CRM, การบัญชี - ทั้งหมดรวมกัน ไม่มีระบบที่แยกจากกันอีกต่อไป.",
@@ -2459,8 +1857,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "การดำเนินงานแบบเรียลไทม์ผ่าน Pulse",
-          "description": "การติดตามยอดขายระหว่างวัน, ผลผลิตแรงงาน, การตรวจจับการรั่วไหล, และการฝึกสอน - ก่อนที่การเปลี่ยนกะจะสิ้นสุด.",
+          "title": "การกู้คืนภายในวันผ่าน Pulse",
+          "description": "จับการรั่วไหลทันทีที่เกิดขึ้น ส่งการแก้ไขไปยังผู้รับผิดชอบกะ และวัดมาร์จิ้นที่กู้คืนได้ - ก่อนที่กะจะสิ้นสุด.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -2483,44 +1881,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "การเปรียบเทียบ",
-        "title": "เหนือกว่าแดชบอร์ดแบบดั้งเดิม",
-        "description": "แพลตฟอร์มส่วนใหญ่จะแสดงสิ่งที่เกิดขึ้น เราจะแสดงสิ่งที่กำลังเกิดขึ้น ความหมายของมัน และสิ่งที่ควรทำเกี่ยวกับมัน.",
-        "columns": [
-          {
-            "title": "BI แบบดั้งเดิม",
-            "items": [
-              "การรายงานย้อนหลัง",
-              "การดึงข้อมูลด้วยมือ",
-              "เมตริกที่แยกจากกัน",
-              "การจัดการเชิงรับ"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "แดชบอร์ดทั่วไป",
-            "items": [
-              "แดชบอร์ดจากหลายแหล่ง",
-              "รายงานตามกำหนดเวลา",
-              "การแจ้งเตือนพื้นฐาน",
-              "ไม่มีบริบทในอุตสาหกรรม"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "โมเดลปัญญา 4D",
-              "การตรวจสอบ Pulse แบบเรียลไทม์",
-              "บริบทตลาดผ่าน Watchtower",
-              "คำแนะนำที่ชาญฉลาด"
-            ],
-            "icon": "speed",
-            "cta": "ไม่มีใครเป็นเจ้าของสแต็คทั้งหมด จนถึงตอนนี้."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "สร้างขึ้นสำหรับ",
         "title": "สร้างขึ้นสำหรับทุกบทบาทในองค์กร",
@@ -2528,14 +1888,14 @@ export const generatedLocalCopy = {
           {
             "title": "ผู้นำด้านการดำเนินงาน",
             "pain": "คุณไม่สามารถอยู่ในทุกสาขาได้ในครั้งเดียว.",
-            "description": "การมองเห็นแบบเรียลไทม์ในทุกสถานที่ผ่าน Pulse และ Portfolio - รู้ว่าใครต้องการความช่วยเหลือก่อนที่พวกเขาจะขอ.",
+            "description": "ตรวจพบการรั่วไหลในทุกสาขาผ่าน Pulse และ Portfolio ส่งการแก้ไขไปยังผู้จัดการที่เข้าเวร และเห็นการกู้คืนเกิดขึ้นจริง - ก่อนที่พวกเขาจะขอความช่วยเหลือ.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "การเงิน & FP&A",
             "pain": "ปิดบัญชีใน 3 วัน? นั่นคือ 3 วันที่มากเกินไป.",
-            "description": "ข้อมูลเชิงลึกเกี่ยวกับมาร์จิ้นแบบเรียลไทม์, ต้นทุนแรงงานระดับกะ, และการวิเคราะห์ความแปรปรวนที่เชื่อมโยงกับสาเหตุหลัก.",
+            "description": "ความแปรปรวนของมาร์จิ้นทุกรายการถูกสืบย้อนไปยังสาเหตุหลัก ส่งต่อให้ผู้รับผิดชอบ และวัดมูลค่าที่กู้คืนได้เทียบกับเส้นฐาน.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -2556,7 +1916,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "หยุดบริหารร้านอาหารของคุณด้วยความรู้สึก.",
+        "title": "หยุดเฝ้าดูมาร์จิ้นรั่วไหล เริ่มวัดการกู้คืน.",
         "description": "30 นาทีในการตรวจสอบข้อมูลของคุณร่วมกันและดูว่า Sundae จะช่วยทีมของคุณได้จริงหรือไม่.",
         "primary": "จองการสาธิต",
         "secondary": "สำรวจผลิตภัณฑ์"
@@ -2565,8 +1925,8 @@ export const generatedLocalCopy = {
     "ms": {
       "hero": {
         "badge": "Mengapa Sundae",
-        "title": "Lapisan Kecerdasan yang Tidak Pernah Dimiliki Restoran",
-        "description": "Data anda terperangkap dalam silo yang tidak bersambung. Pasukan anda membuat keputusan bernilai jutaan dolar berdasarkan naluri. Kami membina platform yang mengubah itu."
+        "title": "Mengesan itu perkara biasa. Pemulihan yang diukur tidak.",
+        "description": "Kini setiap pesaing boleh mengesan masalah dan mencadangkan penyelesaian. Sundae menyalurkannya kepada satu individu yang bertanggungjawab, menjejakinya sehingga pelaksanaan, dan mengukur margin yang dipulihkan berbanding garis dasar - keseluruhan gelung, terbukti pada setiap keputusan."
       },
       "problems": {
         "eyebrow": "MASALAH",
@@ -2574,6 +1934,12 @@ export const generatedLocalCopy = {
         "description": "Setiap kumpulan restoran yang kami bekerjasama menghadapi tiga cabaran yang sama."
       },
       "differentiators": [
+        {
+          "title": "Pemulihan margin gelung tertutup",
+          "description": "Empat belas pengesan mencari margin yang bocor pada tenaga kerja, perolehan, pembaziran, penghantaran dan penetapan harga. Setiap peluang menjadi satu tugas dengan seorang penanggungjawab, diukur terhadap garis dasar yang dibekukan sebelum kerja bermula. Sundae tidak menyebut penjimatan sebagai pulih sebelum ia diukur.",
+          "icon": "intelligence",
+          "color": "bg-rose-600"
+        },
         {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, buruh, inventori, pembelian, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, perakaunan - semua disatukan. Tiada lagi sistem yang tidak bersambung.",
@@ -2587,8 +1953,8 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Operasi Masa Nyata melalui Pulse",
-          "description": "Pacing jualan intrahari, produktiviti buruh, pengesanan kebocoran, dan latihan - sebelum syif berakhir.",
+          "title": "Pemulihan Intrahari melalui Pulse",
+          "description": "Tangkap kebocoran sebaik ia berlaku, salurkan pembetulan kepada penyelia syif, dan ukur margin yang dipulihkan - sebelum syif berakhir.",
           "icon": "speed",
           "color": "bg-green-600"
         },
@@ -2611,44 +1977,6 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         }
       ],
-      "comparison": {
-        "eyebrow": "PERBANDINGAN",
-        "title": "Lebih daripada papan pemuka tradisional",
-        "description": "Kebanyakan platform menunjukkan apa yang telah berlaku. Kami menunjukkan kepada anda apa yang sedang berlaku, apa maksudnya, dan apa yang perlu dilakukan mengenainya.",
-        "columns": [
-          {
-            "title": "BI Tradisional",
-            "items": [
-              "Laporan sejarah",
-              "Pengambilan data manual",
-              "Metrik terasing",
-              "Pengurusan reaktif"
-            ],
-            "icon": "warning"
-          },
-          {
-            "title": "Papan Pemuka Umum",
-            "items": [
-              "Papan pemuka pelbagai sumber",
-              "Laporan terjadual",
-              "Amaran asas",
-              "Tiada konteks industri"
-            ],
-            "icon": "sync"
-          },
-          {
-            "title": "Sundae",
-            "items": [
-              "Model Kecerdasan 4D",
-              "Pemantauan Pulse masa nyata",
-              "Konteks pasaran melalui Watchtower",
-              "Cadangan pintar"
-            ],
-            "icon": "speed",
-            "cta": "Tiada siapa yang memiliki keseluruhan tumpukan. Sehingga kini."
-          }
-        ]
-      },
       "roles": {
         "eyebrow": "DIBINA UNTUK",
         "title": "Dibina untuk setiap peranan dalam organisasi",
@@ -2656,14 +1984,14 @@ export const generatedLocalCopy = {
           {
             "title": "Pemimpin Operasi",
             "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
-            "description": "Keterlihatan masa nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang memerlukan bantuan sebelum mereka bertanya.",
+            "description": "Kesan kebocoran di mana-mana lokasi melalui Pulse dan Portfolio, salurkan pembetulan kepada pengurus bertugas, dan lihat pemulihan menjadi kenyataan - sebelum mereka meminta bantuan.",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Kewangan & FP&A",
             "pain": "3 hari untuk menutup buku? Itu terlalu lama.",
-            "description": "Intelligence margin masa nyata, kos buruh per shift, dan analisis varians yang disambungkan kepada punca akar.",
+            "description": "Setiap sisihan margin dijejaki hingga punca akarnya, disalurkan kepada seorang yang bertanggungjawab, dan nilai yang dipulihkan diukur berbanding garis dasar.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -2684,7 +2012,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "Hentikan mengendalikan restoran anda berdasarkan perasaan.",
+        "title": "Berhenti memerhatikan margin bocor. Mula mengukur pemulihan.",
         "description": "30 minit untuk menyemak data anda bersama dan melihat sama ada Sundae benar-benar dapat membantu pasukan anda.",
         "primary": "Tempah Demo",
         "secondary": "Terokai Produk"

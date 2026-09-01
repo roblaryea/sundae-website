@@ -46,7 +46,7 @@ export function SectionCrewSubstrate() {
               delay={i * 0.08}
               className="flex flex-col gap-2 bg-[var(--navy-deep)] p-6"
             >
-              <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-[var(--warm-coral)]/80">
+              <span className="eyebrow">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h3 className="text-base font-semibold text-[var(--text-primary)]">{pillar.title}</h3>

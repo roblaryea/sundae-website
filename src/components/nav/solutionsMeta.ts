@@ -28,7 +28,7 @@ export interface SolutionMeta {
 
 export const ROLE_META: Record<string, SolutionMeta> = {
   "/solutions/regional-managers": {
-    description: "Live shift visibility across every location.",
+    description: "Margin recovered across every shift.",
     Icon: Activity,
   },
   "/solutions/finance-teams": {
@@ -40,15 +40,15 @@ export const ROLE_META: Record<string, SolutionMeta> = {
     Icon: Megaphone,
   },
   "/solutions/c-suite-executives": {
-    description: "Portfolio truth, every morning.",
+    description: "The leaks - and the recovery - every morning.",
     Icon: Compass,
   },
   "/solutions/technology-teams": {
-    description: "12 domains, 500 models, zero plumbing.",
+    description: "The whole operation covered, with no plumbing to build.",
     Icon: Cable,
   },
   "/solutions/hr-teams": {
-    description: "Labor variance, in the moment.",
+    description: "Labor margin recovered, in the moment.",
     Icon: Users,
   },
 };

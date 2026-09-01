@@ -8,19 +8,21 @@ import { DemoDiagnosticPromo } from '@/components/marketing/DemoDiagnosticPromo'
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { getWebsiteMessages, resolveWebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL } from '@/lib/links';
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  const copy = getWebsiteMessages(locale).pages.demo;
+  const positioning = getPositioningCopy(locale).critical;
   return {
-    title: copy.metadataTitle,
-    description: copy.metadataDescription,
+    title: positioning.demoMetaTitle,
+    description: positioning.demoMetaDescription,
   };
 }
 
 export default async function DemoPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getWebsiteMessages(locale).pages.demo;
+  const positioning = getPositioningCopy(locale).critical;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -34,18 +36,18 @@ export default async function DemoPage() {
               fall back to normal wrapping so they never overflow. */}
           <h1 className="hero-h1 text-[var(--text-primary)] mb-6 text-balance">
             {(() => {
-              const parts = copy.title.split(/(?<=[.!?。！？؟])\s*/).filter(Boolean);
-              if (parts.length <= 1) return copy.title;
+              const parts = positioning.demoTitle.split(/(?<=[.!?。！？؟])\s*/).filter(Boolean);
+              if (parts.length <= 1) return positioning.demoTitle;
               return parts.map((sentence, i) => (
                 <span key={i} className="inline-block whitespace-nowrap">
                   {sentence}
-                  {i < parts.length - 1 ? " " : ""}
+                  {i < parts.length - 1 ? "\u00A0" : ""}
                 </span>
               ));
             })()}
           </h1>
           <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
-            {copy.description}
+            {positioning.demoDescription}
           </p>
         </div>
       </section>
@@ -61,7 +63,7 @@ export default async function DemoPage() {
               {copy.requestTitle}
             </h2>
             <p className="body-lg text-[var(--text-supporting)]">
-              {copy.requestDescription}
+              {positioning.demoRequestDescription}
             </p>
           </div>
 
@@ -77,10 +79,10 @@ export default async function DemoPage() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              {copy.whatYoullSeeTitle}
+              {positioning.demoWhatTitle}
             </h2>
             <p className="body-lg text-[var(--text-supporting)]">
-              {copy.whatYoullSeeDescription}
+              {positioning.demoWhatDescription}
             </p>
           </div>
 

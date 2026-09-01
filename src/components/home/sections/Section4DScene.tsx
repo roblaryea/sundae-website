@@ -60,17 +60,17 @@ type LocalizedFourD = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   en: {
     eyebrow: "THE 4D INTELLIGENCE MODEL",
-    headline: "Watch one revenue problem become a decision.",
-    description: "Sundae connects performance, plan, market context, and next action - so teams can move before the shift is over.",
+    headline: "Watch one margin leak become recovered profit.",
+    description: "Sundae connects performance, plan, market context, and the owned fix - then measures the margin recovered, so teams don’t just decide, they recover.",
     scenarioTime: "TUESDAY · 9:14 AM · DOWNTOWN",
     scenarioHook: "Lunch revenue is pacing 14% behind plan.",
     illustrativeNote: "Illustrative scenario based on Sundae capabilities.",
-    closing: "From signal to cause to action - before the shift ends.",
+    closing: "From signal to cause to owned fix to measured recovery.",
     dimensions: [
       { shortLabel: "What happened", eyebrow: "WHAT HAPPENED", title: "Covers are down 22%.", body: "Average check is steady, so the issue is traffic - not pricing." },
       { shortLabel: "Plan vs actual", eyebrow: "PLAN VS ACTUAL", title: "The location is $3,800 behind forecast.", body: "Labor is still staffed to baseline, so margin is eroding by the hour." },
       { shortLabel: "Market context", eyebrow: "MARKET CONTEXT", title: "The market explains the gap.", body: "Nearby competitors dropped lunch combos, and a local office event is reducing foot traffic." },
-      { shortLabel: "Next action", eyebrow: "NEXT ACTION", title: "Sundae Coach recommends the next move.", body: "Adjust labor if coverage allows, push the lunch offer, and give the team a chance to recover part of the gap before peak ends." },
+      { shortLabel: "Recover & measure", eyebrow: "RECOVER & MEASURE", title: "The fix is owned, and the recovery measured.", body: "One owner adjusts labor and pushes the lunch offer - and Sundae measures the margin recovered against the forecast baseline." },
     ],
     visualHeader: "Pulse - Downtown · Lunch Service",
     visualLabels: {
@@ -92,17 +92,17 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   ar: {
     eyebrow: "نموذج الذكاء رباعي الأبعاد",
-    headline: "شاهد مشكلة إيرادات واحدة تتحول إلى قرار.",
-    description: "Sundae يربط الأداء والخطة وسياق السوق والخطوة التالية - فتستطيع الفِرَق التحرك قبل نهاية الوردية.",
+    headline: "شاهد تسرّب هامش واحد يتحوّل إلى ربح مُستعاد.",
+    description: "Sundae يربط الأداء والخطة وسياق السوق والإصلاح المُسنَد - ثم يقيس الهامش المُستعاد، فلا تكتفي الفِرَق بالقرار، بل تستعيد.",
     scenarioTime: "الثلاثاء · 9:14 صباحاً · وسط المدينة",
     scenarioHook: "إيرادات الغداء تتأخر 14% خلف الخطة.",
     illustrativeNote: "سيناريو توضيحي بناءً على قدرات Sundae.",
-    closing: "من إشارة إلى سبب إلى فعل - قبل نهاية الوردية.",
+    closing: "من الإشارة إلى السبب إلى الإصلاح المُسنَد إلى الاستعادة المقيسة.",
     dimensions: [
       { shortLabel: "ما حدث", eyebrow: "ما حدث", title: "الضيوف انخفضوا 22%.", body: "متوسط الفاتورة ثابت، فالمشكلة في حركة الزبائن - لا التسعير." },
       { shortLabel: "الخطة مقابل الفعلي", eyebrow: "الخطة مقابل الفعلي", title: "الموقع يتأخر 3,800$ عن التوقع.", body: "العمالة ما زالت على الأساس، فالهامش يتآكل بالساعة." },
       { shortLabel: "سياق السوق", eyebrow: "سياق السوق", title: "السوق يفسر الفجوة.", body: "المنافسون القريبون خفضوا كومبو الغداء، وحدث مكتبي محلي يقلل حركة المرور." },
-      { shortLabel: "الفعل التالي", eyebrow: "الفعل التالي", title: "Sundae Coach يوصي بالخطوة التالية.", body: "اضبط العمالة إن سمحت التغطية، اعرض الغداء، وامنح الفريق فرصة لاستعادة جزء من الفجوة قبل ذروة الغداء." },
+      { shortLabel: "الاستعادة والقياس", eyebrow: "الاستعادة والقياس", title: "الإصلاح له مالك، والاستعادة مقيسة.", body: "مالك واحد يضبط العمالة ويدفع عرض الغداء - وSundae يقيس الهامش المُستعاد مقابل خط الأساس المتوقَّع." },
     ],
     visualHeader: "Pulse - وسط المدينة · خدمة الغداء",
     visualLabels: {
@@ -124,17 +124,17 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   fr: {
     eyebrow: "LE MODÈLE D'INTELLIGENCE 4D",
-    headline: "Regardez un problème de revenu devenir une décision.",
-    description: "Sundae connecte performance, plan, contexte marché et action suivante - pour que les équipes bougent avant la fin du service.",
+    headline: "Regardez une fuite de marge devenir un profit récupéré.",
+    description: "Sundae connecte performance, plan, contexte marché et le correctif attribué - puis mesure la marge récupérée, pour que les équipes ne se contentent pas de décider, elles récupèrent.",
     scenarioTime: "MARDI · 9H14 · CENTRE-VILLE",
     scenarioHook: "Le revenu déjeuner est à 14% en dessous du plan.",
     illustrativeNote: "Scénario illustratif basé sur les capacités Sundae.",
-    closing: "Du signal à la cause à l'action - avant la fin du service.",
+    closing: "Du signal à la cause au correctif attribué à la récupération mesurée.",
     dimensions: [
       { shortLabel: "Ce qui s'est passé", eyebrow: "CE QUI S'EST PASSÉ", title: "Les couverts ont baissé de 22%.", body: "Le ticket moyen est stable, le problème c'est le trafic - pas le prix." },
       { shortLabel: "Plan vs réel", eyebrow: "PLAN VS RÉEL", title: "Le site est à 3 800$ derrière la prévision.", body: "La main-d'œuvre est toujours au baseline, la marge s'érode à l'heure." },
       { shortLabel: "Contexte marché", eyebrow: "CONTEXTE MARCHÉ", title: "Le marché explique l'écart.", body: "Les concurrents proches ont baissé les combos déjeuner et un événement bureau local réduit le passage." },
-      { shortLabel: "Action suivante", eyebrow: "ACTION SUIVANTE", title: "Sundae Coach recommande le coup suivant.", body: "Ajustez la main-d'œuvre si la couverture le permet, poussez l'offre déjeuner et donnez à l'équipe une chance de récupérer avant la fin du peak." },
+      { shortLabel: "Récupérer et mesurer", eyebrow: "RÉCUPÉRER ET MESURER", title: "Le correctif est attribué, et la récupération mesurée.", body: "Un responsable ajuste la main-d'œuvre et pousse l'offre déjeuner - et Sundae mesure la marge récupérée par rapport à la référence prévue." },
     ],
     visualHeader: "Pulse - Centre-ville · Service déjeuner",
     visualLabels: {
@@ -156,17 +156,17 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   },
   es: {
     eyebrow: "EL MODELO DE INTELIGENCIA 4D",
-    headline: "Mira cómo un problema de ingresos se vuelve una decisión.",
-    description: "Sundae conecta rendimiento, plan, contexto de mercado y próxima acción - para que los equipos actúen antes de que termine el turno.",
+    headline: "Mira cómo una fuga de margen se convierte en beneficio recuperado.",
+    description: "Sundae conecta rendimiento, plan, contexto de mercado y la solución con responsable - y luego mide el margen recuperado, para que los equipos no solo decidan, sino que recuperen.",
     scenarioTime: "MARTES · 9:14 AM · CENTRO",
     scenarioHook: "El ingreso del almuerzo va 14% atrás del plan.",
     illustrativeNote: "Escenario ilustrativo basado en capacidades de Sundae.",
-    closing: "De señal a causa a acción - antes del fin del turno.",
+    closing: "De la señal a la causa a la solución con responsable a la recuperación medida.",
     dimensions: [
       { shortLabel: "Qué pasó", eyebrow: "QUÉ PASÓ", title: "Los cubiertos bajaron 22%.", body: "El ticket medio está estable, el problema es tráfico - no precio." },
       { shortLabel: "Plan vs real", eyebrow: "PLAN VS REAL", title: "El local va $3,800 atrás del forecast.", body: "El personal sigue en baseline, así que el margen se erosiona por hora." },
       { shortLabel: "Contexto de mercado", eyebrow: "CONTEXTO DE MERCADO", title: "El mercado explica la brecha.", body: "Competidores cercanos bajaron combos de almuerzo y un evento de oficina local reduce el tráfico." },
-      { shortLabel: "Próxima acción", eyebrow: "PRÓXIMA ACCIÓN", title: "Sundae Coach recomienda el siguiente movimiento.", body: "Ajusta personal si la cobertura lo permite, empuja la oferta de almuerzo y da al equipo una oportunidad de recuperar parte de la brecha antes del cierre del peak." },
+      { shortLabel: "Recuperar y medir", eyebrow: "RECUPERAR Y MEDIR", title: "La solución tiene responsable, y la recuperación se mide.", body: "Un responsable ajusta el personal e impulsa la oferta de almuerzo - y Sundae mide el margen recuperado frente a la línea base pronosticada." },
     ],
     visualHeader: "Pulse - Centro · Servicio de almuerzo",
     visualLabels: {
@@ -220,7 +220,7 @@ export function Section4DScene() {
 
         {/* Compact scenario hook */}
         <div className="text-center max-w-3xl mx-auto mb-5 sm:mb-6">
-          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold mb-3">
+          <div className="eyebrow mb-3">
             {copy.scenarioTime}
           </div>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
@@ -242,32 +242,53 @@ export function Section4DScene() {
         >
           {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
               Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
-          <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[13px] sm:text-[14px] mb-5 sm:mb-6">
-            {dimensions.map((d, i) => {
-              const isActive = i === activeIdx;
-              return (
-                <button
-                  key={i}
-                  type="button"
-                  onClick={() => {
-                    setActiveIdx(i);
-                    setPaused(true);
-                  }}
-                  className={`px-4 py-1.5 rounded-full font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] ${
-                    isActive
-                      ? "bg-[var(--warm-coral)] text-white shadow-[0_0_18px_rgba(255,92,77,0.45)]"
-                      : "bg-[var(--surface-subtle)] text-[var(--text-supporting)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]"
-                  }`}
-                  aria-label={d.shortLabel}
-                  aria-current={isActive}
-                >
-                  <span className={`font-mono mr-2 ${isActive ? "opacity-80" : "opacity-50"}`}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span>{d.shortLabel}</span>
-                </button>
-              );
-            })}
+          {/* Through-line stepper - numbered nodes joined by a connector that
+              fills as the scenario reasons forward (what happened → the fix). */}
+          <div className="relative mx-auto mb-5 sm:mb-6 max-w-2xl">
+            <div className="absolute left-[12.5%] right-[12.5%] top-[15px] h-0.5 rounded-full bg-[var(--border-default)]" aria-hidden />
+            <div
+              className="absolute left-[12.5%] top-[15px] h-0.5 rounded-full bg-gradient-to-r from-[#FF7E6F] to-[var(--warm-coral)] shadow-[0_0_10px_rgba(255,92,77,0.5)] transition-[width] duration-500 ease-out"
+              style={{ width: `${(activeIdx / (dimensions.length - 1)) * 75}%` }}
+              aria-hidden
+            />
+            <div className="relative grid grid-cols-4">
+              {dimensions.map((d, i) => {
+                const isActive = i === activeIdx;
+                const isPast = i < activeIdx;
+                return (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => {
+                      setActiveIdx(i);
+                      setPaused(true);
+                    }}
+                    className="group flex flex-col items-center gap-2 px-1 focus:outline-none"
+                    aria-label={d.shortLabel}
+                    aria-current={isActive}
+                  >
+                    <span
+                      className={`grid h-[30px] w-[30px] place-items-center rounded-full font-mono text-[11px] font-semibold transition-all duration-300 ${
+                        isActive
+                          ? "bg-[var(--warm-coral)] text-white shadow-[0_0_0_4px_rgba(255,92,77,0.16),0_6px_18px_-6px_rgba(255,92,77,0.7)]"
+                          : isPast
+                            ? "border border-[rgba(255,92,77,0.36)] bg-[rgba(255,92,77,0.18)] text-[#FF7E6F]"
+                            : "border border-[var(--border-default)] bg-[var(--surface-subtle)] text-[var(--text-muted)] group-hover:text-[var(--text-primary)]"
+                      }`}
+                    >
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <span
+                      className={`hidden text-center font-mono text-[10.5px] font-semibold uppercase tracking-[0.12em] transition-colors sm:block ${
+                        isActive ? "text-[var(--text-primary)]" : "text-[var(--text-muted)] group-hover:text-[var(--text-supporting)]"
+                      }`}
+                    >
+                      {d.shortLabel}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
           {/* Visual indicator: arrow connecting pills to the panel/visual below */}
@@ -334,10 +355,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         <span className="ml-auto text-[10px] uppercase tracking-[0.14em] font-bold text-[var(--warm-amber)]/80">{labels.illustrative}</span>
       </div>
 
-      {/* Fixed "screen": all four panels are ALWAYS present (constant height),
-          so the section never resizes - the active context simply lights up as
-          the scenario advances 1 → 4. */}
-      <div className="p-5 space-y-4">
+      {/* Fixed "screen": all four panels are ALWAYS present (constant height) in
+          a 2×2 grid (half the height of a 1×4 stack, so the section fits one
+          view); the active context lights up as the scenario advances 1 → 4. */}
+      <div className="grid grid-cols-2 items-start gap-3 p-5">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="text-[13px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
@@ -364,7 +385,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 2: forecast variance */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 1 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 1 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
         >
@@ -394,7 +415,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 3: market context */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 2 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 2 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{
@@ -420,7 +441,7 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         {/* Dimension 4: Sundae Coach recommendation */}
         <motion.div
           initial={false}
-          animate={{ opacity: activeIdx >= 3 ? 1 : 0.4 }}
+          animate={{ opacity: activeIdx >= 3 ? 1 : 0.22 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           className="rounded-lg p-4"
           style={{

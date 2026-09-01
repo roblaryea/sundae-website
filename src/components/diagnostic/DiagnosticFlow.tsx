@@ -132,9 +132,9 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
   const showEmailErr = emailTouched && email.trim().length > 0 && !emailValid;
   const showPhoneErr = phoneTouched && phone.trim().length > 0 && !phoneValid;
   const VAL_COPY: Record<string, { email: string; phone: string; autofill: string }> = {
-    en: { email: "Enter a valid work email", phone: "Enter a valid phone number", autofill: "Filled from your email — edit if needed" },
-    ar: { email: "أدخل بريداً إلكترونياً صالحاً", phone: "أدخل رقم هاتف صالحاً", autofill: "تم ملؤه من بريدك — عدّله إن لزم" },
-    fr: { email: "Saisissez un e-mail professionnel valide", phone: "Saisissez un numéro de téléphone valide", autofill: "Rempli depuis votre e-mail — modifiable" },
+    en: { email: "Enter a valid work email", phone: "Enter a valid phone number", autofill: "Filled from your email - edit if needed" },
+    ar: { email: "أدخل بريداً إلكترونياً صالحاً", phone: "أدخل رقم هاتف صالحاً", autofill: "تم ملؤه من بريدك - عدّله إن لزم" },
+    fr: { email: "Saisissez un e-mail professionnel valide", phone: "Saisissez un numéro de téléphone valide", autofill: "Rempli depuis votre e-mail - modifiable" },
   };
   const vc = VAL_COPY[locale as keyof typeof VAL_COPY] ?? VAL_COPY.en;
 

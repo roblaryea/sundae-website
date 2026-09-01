@@ -5,26 +5,9 @@ export const generatedLocalCopy = {
     "fr": {
       "badge": "Modules Spécialisés",
       "title": "Allez plus loin là où cela compte le plus",
-      "description": "Ajoutez des modules spécialisés à Sundae Core. Obtenez des informations opérationnelles approfondies sur le travail, l'inventaire, les achats, le marketing et les réservations.",
-      "mixAndMatch": "Mélangez et associez en fonction de vos priorités.",
       "exploreAllModules": "Explorer tous les modules",
       "calculateModuleRoi": "Calculer le ROI du module",
       "whatAreModules": "Qu'est-ce que les modules Sundae ?",
-      "whatAreModulesDescription": "Les modules sont des compléments d'intelligence spécialisés qui approfondissent vos connaissances dans des domaines opérationnels spécifiques.",
-      "pillars": [
-        {
-          "title": "Spécialisé par Fonction",
-          "description": "Chaque module est conçu pour un domaine opérationnel spécifique au lieu d'essayer de tout couvrir en même temps."
-        },
-        {
-          "title": "Ajoutez Ce Dont Vous Avez Besoin",
-          "description": "Commencez par votre plus grand point de douleur. Ajoutez des modules au fur et à mesure que les priorités changent. Pas de forfaits obligatoires."
-        },
-        {
-          "title": "Intégré Avec Core",
-          "description": "Les modules partagent des données avec Core, permettant aux équipes de travailler à partir d'une image opérationnelle connectée."
-        }
-      ],
       "fiveModules": "CINQ MODULES SPÉCIALISÉS",
       "chooseStack": "Choisissez votre pile d'intelligence",
       "chooseStackDescription": "Ajoutez un module ou les cinq. Construisez l'intelligence dont votre opération a besoin.",
@@ -117,44 +100,6 @@ export const generatedLocalCopy = {
           "roi": "ROI typique : augmentation de 10-15% des couverts",
           "bestFor": "Restaurants axés sur les réservations et gastronomie",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Ai-je besoin du niveau Core pour utiliser les Modules ?",
-          "a": "Oui. Les Modules sont exclusifs au niveau Core (Lite, Pro ou Enterprise)."
-        },
-        {
-          "q": "Puis-je ajouter des modules plus tard ?",
-          "a": "Oui. Commencez avec le niveau Core, puis ajoutez des modules selon vos besoins."
-        },
-        {
-          "q": "Que se passe-t-il si j'ai besoin d'un module uniquement dans certains lieux ?",
-          "a": "La licence d'organisation couvre vos 5 premiers lieux. Contactez-nous pour un tarif personnalisé."
-        },
-        {
-          "q": "Combien de temps prend la mise en œuvre d'un module ?",
-          "a": "La plupart des modules prennent 1 à 2 semaines."
-        },
-        {
-          "q": "Les modules peuvent-ils fonctionner ensemble ?",
-          "a": "Oui. Les modules partagent des données et fournissent des insights inter-modules."
-        },
-        {
-          "q": "Puis-je essayer un module avant de m'engager ?",
-          "a": "Oui. Contactez-nous pour des programmes d'essai de modules."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Modèle de licence d'organisation",
-          "description": "Chaque module couvre vos 5 premiers emplacements. Les emplacements supplémentaires sont facturés par emplacement."
-        },
-        {
-          "step": "2",
-          "title": "Nécessite le niveau Core",
-          "description": "Les modules sont exclusifs au niveau Core pour une intelligence spécialisée en temps réel."
         }
       ],
       "categories": [
@@ -259,26 +204,9 @@ export const generatedLocalCopy = {
     "es": {
       "badge": "Módulos Especializados",
       "title": "Profundiza donde más importa",
-      "description": "Agrega módulos especializados a Sundae Core. Obtén inteligencia operativa profunda en mano de obra, inventario, compras, marketing y reservas.",
-      "mixAndMatch": "Mezcla y combina según tus prioridades.",
       "exploreAllModules": "Explorar Todos los Módulos",
       "calculateModuleRoi": "Calcular ROI del Módulo",
       "whatAreModules": "¿Qué son los Módulos de Sundae?",
-      "whatAreModulesDescription": "Los módulos son complementos de inteligencia especializados que profundizan tus conocimientos en áreas operativas específicas.",
-      "pillars": [
-        {
-          "title": "Especializado por Función",
-          "description": "Cada módulo está diseñado para un área operativa específica en lugar de intentar cubrir todo a la vez."
-        },
-        {
-          "title": "Agrega Lo Que Necesitas",
-          "description": "Comienza con tu mayor punto de dolor. Agrega módulos a medida que cambian las prioridades. Sin paquetes forzados."
-        },
-        {
-          "title": "Integrado Con Core",
-          "description": "Los módulos comparten datos con Core, para que los equipos puedan trabajar desde una imagen operativa conectada."
-        }
-      ],
       "fiveModules": "CINCO MÓDULOS ESPECIALIZADOS",
       "chooseStack": "Elige tu pila de inteligencia",
       "chooseStackDescription": "Agrega un módulo o los cinco. Construye la inteligencia que necesita tu operación.",
@@ -371,44 +299,6 @@ export const generatedLocalCopy = {
           "roi": "ROI típico: aumento del 10-15% en comensales",
           "bestFor": "Restaurantes impulsados por reservas y alta cocina",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "¿Necesito el nivel Core para usar Módulos?",
-          "a": "Sí. Los Módulos son exclusivos del nivel Core (Lite, Pro o Enterprise)."
-        },
-        {
-          "q": "¿Puedo agregar módulos más tarde?",
-          "a": "Sí. Comienza con el nivel Core y luego agrega módulos según sea necesario."
-        },
-        {
-          "q": "¿Qué pasa si solo necesito un módulo en algunas ubicaciones?",
-          "a": "La licencia de la organización cubre tus primeras 5 ubicaciones. Contáctanos para precios personalizados."
-        },
-        {
-          "q": "¿Cuánto tiempo lleva la implementación de un módulo?",
-          "a": "La mayoría de los módulos tardan de 1 a 2 semanas."
-        },
-        {
-          "q": "¿Pueden los módulos trabajar juntos?",
-          "a": "Sí. Los módulos comparten datos y proporcionan información cruzada."
-        },
-        {
-          "q": "¿Puedo probar un módulo antes de comprometerme?",
-          "a": "Sí. Contáctanos para programas de prueba de módulos."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Modelo de Licencia de Organización",
-          "description": "Cada módulo cubre tus primeras 5 ubicaciones. Las ubicaciones adicionales se escalan por ubicación."
-        },
-        {
-          "step": "2",
-          "title": "Requiere Nivel Core",
-          "description": "Los módulos son exclusivos del nivel Core para inteligencia especializada en tiempo real."
         }
       ],
       "categories": [
@@ -513,26 +403,9 @@ export const generatedLocalCopy = {
     "de": {
       "badge": "Spezialisierte Module",
       "title": "Gehe tiefer, wo es am wichtigsten ist",
-      "description": "Fügen Sie spezialisierte Module zu Sundae Core hinzu. Erhalten Sie tiefgehende betriebliche Einblicke in Personal, Inventar, Einkauf, Marketing und Reservierungen.",
-      "mixAndMatch": "Mischen und anpassen basierend auf Ihren Prioritäten.",
       "exploreAllModules": "Alle Module erkunden",
       "calculateModuleRoi": "Modul-ROI berechnen",
       "whatAreModules": "Was sind Sundae-Module?",
-      "whatAreModulesDescription": "Module sind spezialisierte Intelligenz-Erweiterungen, die Ihre Einblicke in spezifische Betriebsbereiche vertiefen.",
-      "pillars": [
-        {
-          "title": "Spezialisiert nach Funktion",
-          "description": "Jedes Modul ist für einen bestimmten Betriebsbereich entwickelt, anstatt zu versuchen, alles auf einmal abzudecken."
-        },
-        {
-          "title": "Fügen Sie hinzu, was Sie benötigen",
-          "description": "Beginnen Sie mit Ihrem größten Schmerzpunkt. Fügen Sie Module hinzu, wenn sich die Prioritäten ändern. Keine erzwungenen Bündel."
-        },
-        {
-          "title": "Integriert mit Core",
-          "description": "Module teilen Daten mit Core, sodass Teams aus einem verbundenen Betriebsbild arbeiten können."
-        }
-      ],
       "fiveModules": "FÜNF SPEZIALISIERTE MODULE",
       "chooseStack": "Wählen Sie Ihren Intelligence-Stack",
       "chooseStackDescription": "Fügen Sie ein Modul oder alle fünf hinzu. Bauen Sie die Intelligenz auf, die Ihr Betrieb benötigt.",
@@ -625,44 +498,6 @@ export const generatedLocalCopy = {
           "roi": "Typischer ROI: 10-15% mehr Gäste",
           "bestFor": "Reservierungsorientierte Restaurants und gehobene Gastronomie",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Benötige ich die Core-Stufe, um Module zu verwenden?",
-          "a": "Ja. Module sind exklusiv für die Core-Stufe (Lite, Pro oder Enterprise)."
-        },
-        {
-          "q": "Kann ich Module später hinzufügen?",
-          "a": "Ja. Beginnen Sie mit der Core-Stufe und fügen Sie nach Bedarf Module hinzu."
-        },
-        {
-          "q": "Was ist, wenn ich nur an einigen Standorten ein Modul benötige?",
-          "a": "Die Organisationslizenz deckt Ihre ersten 5 Standorte ab. Kontaktieren Sie uns für individuelle Preisgestaltung."
-        },
-        {
-          "q": "Wie lange dauert die Implementierung eines Moduls?",
-          "a": "Die meisten Module benötigen 1-2 Wochen."
-        },
-        {
-          "q": "Können Module zusammenarbeiten?",
-          "a": "Ja. Module teilen Daten und bieten Einblicke über Module hinweg."
-        },
-        {
-          "q": "Kann ich ein Modul ausprobieren, bevor ich mich verpflichte?",
-          "a": "Ja. Kontaktieren Sie uns für Testprogramme für Module."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Organisationslizenzmodell",
-          "description": "Jedes Modul deckt Ihre ersten 5 Standorte ab. Zusätzliche Standorte skalieren pro Standort."
-        },
-        {
-          "step": "2",
-          "title": "Erfordert Core-Stufe",
-          "description": "Module sind exklusiv für die Core-Stufe für Echtzeit-spezialisierte Intelligenz."
         }
       ],
       "categories": [
@@ -767,26 +602,9 @@ export const generatedLocalCopy = {
     "nl": {
       "badge": "Gespecialiseerde Modules",
       "title": "Ga Dieper Waar Het Het Meest Telt",
-      "description": "Voeg gespecialiseerde modules toe aan Sundae Core. Krijg diepgaande operationele inzichten in arbeid, voorraad, inkoop, marketing en reserveringen.",
-      "mixAndMatch": "Mix en match op basis van je prioriteiten.",
       "exploreAllModules": "Verken Alle Modules",
       "calculateModuleRoi": "Bereken Module ROI",
       "whatAreModules": "Wat zijn Sundae Modules?",
-      "whatAreModulesDescription": "Modules zijn gespecialiseerde intelligentie-add-ons die uw inzichten in specifieke operationele gebieden verdiepen.",
-      "pillars": [
-        {
-          "title": "Gespecialiseerd per Functie",
-          "description": "Elke module is gebouwd voor een specifiek operationeel gebied in plaats van alles in één keer te proberen te dekken."
-        },
-        {
-          "title": "Voeg Toe Wat Je Nodig Hebt",
-          "description": "Begin met je grootste pijnpunt. Voeg modules toe naarmate prioriteiten verschuiven. Geen verplichte bundels."
-        },
-        {
-          "title": "Geïntegreerd Met Core",
-          "description": "Modules delen gegevens met Core, zodat teams vanuit één verbonden operationeel beeld kunnen werken."
-        }
-      ],
       "fiveModules": "Vijf gespecialiseerde modules",
       "chooseStack": "Kies uw Intelligence Stack",
       "chooseStackDescription": "Voeg één module of alle vijf toe. Bouw de intelligentie die jouw operatie nodig heeft.",
@@ -879,44 +697,6 @@ export const generatedLocalCopy = {
           "roi": "Typische ROI: 10-15% stijging van de bezetting",
           "bestFor": "Reserveringsgestuurde restaurants en fine dining",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Heb ik het Core-abonnement nodig om Modules te gebruiken?",
-          "a": "Ja. Modules zijn exclusief voor het Core-abonnement (Lite, Pro of Enterprise)."
-        },
-        {
-          "q": "Kan ik later modules toevoegen?",
-          "a": "Ja. Begin met het Core-abonnement en voeg modules toe wanneer nodig."
-        },
-        {
-          "q": "Wat als ik slechts een module op sommige locaties nodig heb?",
-          "a": "De organisatie licentie dekt je eerste 5 locaties. Neem contact met ons op voor aangepaste prijzen."
-        },
-        {
-          "q": "Hoe lang duurt de implementatie van een module?",
-          "a": "De meeste modules duren 1-2 weken."
-        },
-        {
-          "q": "Kunnen modules samen werken?",
-          "a": "Ja. Modules delen gegevens en bieden inzichten tussen modules."
-        },
-        {
-          "q": "Kan ik een module uitproberen voordat ik me verbind?",
-          "a": "Ja. Neem contact met ons op voor proefprogramma's voor modules."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Organisatie Licentiemodel",
-          "description": "Elke module dekt je eerste 5 locaties. Extra locaties schalen per locatie."
-        },
-        {
-          "step": "2",
-          "title": "Vereist Core Tier",
-          "description": "Modules zijn exclusief voor de Core tier voor real-time gespecialiseerde intelligentie."
         }
       ],
       "categories": [
@@ -1021,26 +801,9 @@ export const generatedLocalCopy = {
     "ar": {
       "badge": "وحدات متخصصة",
       "title": "اذهب أعمق حيث يهم الأمر أكثر",
-      "description": "أضف وحدات متخصصة إلى Sundae Core. احصل على ذكاء تشغيلي عميق في العمالة والمخزون والمشتريات والتسويق والحجوزات.",
-      "mixAndMatch": "امزج ونسق بناءً على أولوياتك.",
       "exploreAllModules": "استكشاف جميع الوحدات",
       "calculateModuleRoi": "احسب عائد الاستثمار للوحدة",
       "whatAreModules": "ما هي وحدات Sundae؟",
-      "whatAreModulesDescription": "الوحدات هي إضافات ذكاء متخصصة تعمق رؤيتك في مجالات تشغيلية محددة.",
-      "pillars": [
-        {
-          "title": "متخصص حسب الوظيفة",
-          "description": "تم بناء كل وحدة لمنطقة تشغيل محددة بدلاً من محاولة تغطية كل شيء دفعة واحدة."
-        },
-        {
-          "title": "أضف ما تحتاجه",
-          "description": "ابدأ بأكبر نقطة ألم لديك. أضف الوحدات مع تغير الأولويات. لا توجد حزم إجبارية."
-        },
-        {
-          "title": "متكامل مع Core",
-          "description": "تشارك الوحدات البيانات مع Core، بحيث يمكن للفرق العمل من صورة تشغيلية متصلة واحدة."
-        }
-      ],
       "fiveModules": "خمسة وحدات متخصصة",
       "chooseStack": "اختر مجموعة الذكاء الخاصة بك",
       "chooseStackDescription": "أضف وحدة واحدة أو جميع الوحدات الخمس. ابني الذكاء الذي تحتاجه عملياتك.",
@@ -1133,44 +896,6 @@ export const generatedLocalCopy = {
           "roi": "العائد على الاستثمار النموذجي: زيادة عدد الضيوف بنسبة 10-15%",
           "bestFor": "المطاعم التي تعتمد على الحجوزات والمطاعم الراقية",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "هل أحتاج إلى مستوى Core لاستخدام الوحدات؟",
-          "a": "نعم. الوحدات حصرية لمستوى Core (Lite أو Pro أو Enterprise)."
-        },
-        {
-          "q": "هل يمكنني إضافة وحدات لاحقًا؟",
-          "a": "نعم. ابدأ بمستوى Core، ثم أضف الوحدات حسب الحاجة."
-        },
-        {
-          "q": "ماذا لو كنت بحاجة إلى وحدة في بعض المواقع فقط؟",
-          "a": "ترخيص المنظمة يغطي أول 5 مواقع لك. اتصل بنا للحصول على تسعير مخصص."
-        },
-        {
-          "q": "كم من الوقت يستغرق تنفيذ الوحدة؟",
-          "a": "تستغرق معظم الوحدات من 1 إلى 2 أسبوع."
-        },
-        {
-          "q": "هل يمكن أن تعمل الوحدات معًا؟",
-          "a": "نعم. الوحدات تتشارك البيانات وتوفر رؤى عبر الوحدات."
-        },
-        {
-          "q": "هل يمكنني تجربة وحدة قبل الالتزام؟",
-          "a": "نعم. اتصل بنا للحصول على برامج تجربة الوحدات."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "نموذج ترخيص المؤسسة",
-          "description": "كل وحدة تغطي أول 5 مواقع لك. المواقع الإضافية تتوسع حسب الموقع."
-        },
-        {
-          "step": "2",
-          "title": "يتطلب مستوى Core",
-          "description": "الوحدات حصرية لمستوى Core للحصول على ذكاء متخصص في الوقت الحقيقي."
         }
       ],
       "categories": [
@@ -1275,26 +1000,9 @@ export const generatedLocalCopy = {
     "pt": {
       "badge": "Módulos Especializados",
       "title": "Aprofunde-se Onde Mais Importa",
-      "description": "Adicione módulos especializados ao Sundae Core. Obtenha inteligência operacional profunda em mão de obra, inventário, compras, marketing e reservas.",
-      "mixAndMatch": "Misture e combine com base em suas prioridades.",
       "exploreAllModules": "Explore Todos os Módulos",
       "calculateModuleRoi": "Calcular ROI do Módulo",
       "whatAreModules": "O que são Módulos Sundae?",
-      "whatAreModulesDescription": "Os módulos são complementos de inteligência especializados que aprofundam suas percepções em áreas operacionais específicas.",
-      "pillars": [
-        {
-          "title": "Especializado por Função",
-          "description": "Cada módulo é construído para uma área operacional específica, em vez de tentar cobrir tudo de uma vez."
-        },
-        {
-          "title": "Adicione o Que Você Precisa",
-          "description": "Comece com seu maior ponto de dor. Adicione módulos à medida que as prioridades mudam. Sem pacotes forçados."
-        },
-        {
-          "title": "Integrado com o Core",
-          "description": "Os módulos compartilham dados com o Core, para que as equipes possam trabalhar a partir de uma única visão operacional conectada."
-        }
-      ],
       "fiveModules": "CINCO MÓDULOS ESPECIALIZADOS",
       "chooseStack": "Escolha Seu Conjunto de Inteligência",
       "chooseStackDescription": "Adicione um módulo ou todos os cinco. Construa a inteligência que sua operação precisa.",
@@ -1387,44 +1095,6 @@ export const generatedLocalCopy = {
           "roi": "ROI típico: aumento de 10-15% no número de clientes",
           "bestFor": "Restaurantes focados em reservas e alta gastronomia",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Preciso do nível Core para usar os Módulos?",
-          "a": "Sim. Os Módulos são exclusivos do nível Core (Lite, Pro ou Enterprise)."
-        },
-        {
-          "q": "Posso adicionar módulos depois?",
-          "a": "Sim. Comece com o nível Core e adicione módulos conforme necessário."
-        },
-        {
-          "q": "E se eu precisar de um módulo apenas em alguns locais?",
-          "a": "A licença da organização cobre seus primeiros 5 locais. Entre em contato conosco para preços personalizados."
-        },
-        {
-          "q": "Quanto tempo leva a implementação do módulo?",
-          "a": "A maioria dos módulos leva de 1 a 2 semanas."
-        },
-        {
-          "q": "Os módulos podem trabalhar juntos?",
-          "a": "Sim. Os módulos compartilham dados e fornecem insights entre módulos."
-        },
-        {
-          "q": "Posso experimentar um módulo antes de me comprometer?",
-          "a": "Sim. Entre em contato conosco para programas de teste de módulos."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Modelo de Licença da Organização",
-          "description": "Cada módulo cobre suas primeiras 5 localizações. Localizações adicionais são escalonadas por local."
-        },
-        {
-          "step": "2",
-          "title": "Requer Nível Core",
-          "description": "Os módulos são exclusivos do nível Core para inteligência especializada em tempo real."
         }
       ],
       "categories": [
@@ -1529,26 +1199,9 @@ export const generatedLocalCopy = {
     "ur": {
       "badge": "خصوصی ماڈیولز",
       "title": "جہاں یہ سب سے زیادہ اہم ہے، وہاں گہرائی میں جائیں",
-      "description": "Sundae Core میں خصوصی ماڈیولز شامل کریں۔ مزدوری، انوینٹری، خریداری، مارکیٹنگ، اور ریزرویشنز میں گہرائی سے عملی ذہانت حاصل کریں۔",
-      "mixAndMatch": "اپنی ترجیحات کی بنیاد پر ملا کر منتخب کریں۔",
       "exploreAllModules": "تمام ماڈیولز کا جائزہ لیں",
       "calculateModuleRoi": "ماڈیول ROI کا حساب لگائیں",
       "whatAreModules": "Sundae ماڈیولز کیا ہیں؟",
-      "whatAreModulesDescription": "ماڈیولز خصوصی ذہانت کے اضافے ہیں جو آپ کی مخصوص عملی شعبوں میں بصیرت کو گہرا کرتے ہیں۔",
-      "pillars": [
-        {
-          "title": "فنکشن کے لحاظ سے مخصوص",
-          "description": "ہر ماڈیول ایک مخصوص آپریٹنگ علاقے کے لیے بنایا گیا ہے بجائے اس کے کہ سب کچھ ایک ساتھ کرنے کی کوشش کی جائے۔"
-        },
-        {
-          "title": "جو آپ کو ضرورت ہے وہ شامل کریں",
-          "description": "اپنی سب سے بڑی پریشانی سے شروع کریں۔ جیسے جیسے ترجیحات تبدیل ہوں، ماڈیولز شامل کریں۔ کوئی زبردستی کے بنڈل نہیں۔"
-        },
-        {
-          "title": "کور کے ساتھ مربوط",
-          "description": "ماڈیولز کور کے ساتھ ڈیٹا کا اشتراک کرتے ہیں، تاکہ ٹیمیں ایک جڑے ہوئے آپریٹنگ منظر سے کام کر سکیں۔"
-        }
-      ],
       "fiveModules": "پانچ خصوصی ماڈیول",
       "chooseStack": "اپنی انٹیلی جنس اسٹیک منتخب کریں",
       "chooseStackDescription": "ایک ماڈیول یا تمام پانچ شامل کریں۔ وہ ذہانت بنائیں جس کی آپریشن کو ضرورت ہے۔",
@@ -1641,44 +1294,6 @@ export const generatedLocalCopy = {
           "roi": "عام ROI: 10-15% مہمانوں میں اضافہ",
           "bestFor": "ریزرویشن پر مبنی ریستوران اور عمدہ کھانا",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "کیا مجھے ماڈیولز استعمال کرنے کے لیے کور ٹیر کی ضرورت ہے؟",
-          "a": "جی ہاں۔ ماڈیولز کور ٹیر (لائٹ، پرو، یا انٹرپرائز) کے لیے مخصوص ہیں۔"
-        },
-        {
-          "q": "کیا میں بعد میں ماڈیولز شامل کر سکتا ہوں؟",
-          "a": "جی ہاں۔ کور ٹیر سے شروع کریں، پھر ضرورت کے مطابق ماڈیولز شامل کریں۔"
-        },
-        {
-          "q": "اگر مجھے صرف کچھ مقامات پر ماڈیول کی ضرورت ہو تو کیا ہوگا؟",
-          "a": "تنظیم کا لائسنس آپ کے پہلے 5 مقامات کا احاطہ کرتا ہے۔ حسب ضرورت قیمتوں کے لیے ہم سے رابطہ کریں۔"
-        },
-        {
-          "q": "ماڈیول کے نفاذ میں کتنا وقت لگتا ہے؟",
-          "a": "زیادہ تر ماڈیولز کو 1-2 ہفتے لگتے ہیں۔"
-        },
-        {
-          "q": "کیا ماڈیولز ایک ساتھ کام کر سکتے ہیں؟",
-          "a": "جی ہاں۔ ماڈیولز ڈیٹا کا اشتراک کرتے ہیں اور کراس ماڈیول بصیرت فراہم کرتے ہیں۔"
-        },
-        {
-          "q": "کیا میں عزم کرنے سے پہلے ماڈیول آزما سکتا ہوں؟",
-          "a": "جی ہاں۔ ماڈیول کے ٹرائل پروگرامز کے لیے ہم سے رابطہ کریں۔"
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "تنظیم کا لائسنس ماڈل",
-          "description": "ہر ماڈیول آپ کے پہلے 5 مقامات کا احاطہ کرتا ہے۔ اضافی مقامات ہر مقام کے لحاظ سے بڑھتے ہیں۔"
-        },
-        {
-          "step": "2",
-          "title": "کور ٹیر کی ضرورت ہے",
-          "description": "ماڈیولز حقیقی وقت کی خصوصی ذہانت کے لیے کور ٹیر کے لیے مخصوص ہیں۔"
         }
       ],
       "categories": [
@@ -1783,26 +1398,9 @@ export const generatedLocalCopy = {
     "hi": {
       "badge": "विशेषीकृत मॉड्यूल",
       "title": "जहाँ यह सबसे महत्वपूर्ण है, वहाँ गहराई में जाएँ",
-      "description": "Sundae Core में विशेषीकृत मॉड्यूल जोड़ें। श्रम, इन्वेंटरी, खरीद, मार्केटिंग और आरक्षण में गहरी संचालन बुद्धिमत्ता प्राप्त करें।",
-      "mixAndMatch": "अपनी प्राथमिकताओं के आधार पर मिलाएं और चुनें।",
       "exploreAllModules": "सभी मॉड्यूल्स का अन्वेषण करें",
       "calculateModuleRoi": "मॉड्यूल ROI की गणना करें",
       "whatAreModules": "Sundae मॉड्यूल क्या हैं?",
-      "whatAreModulesDescription": "मॉड्यूल विशेषीकृत इंटेलिजेंस ऐड-ऑन हैं जो आपको विशिष्ट संचालन क्षेत्रों में गहरी अंतर्दृष्टि प्रदान करते हैं।",
-      "pillars": [
-        {
-          "title": "कार्य के अनुसार विशेषीकृत",
-          "description": "प्रत्येक मॉड्यूल एक विशिष्ट संचालन क्षेत्र के लिए बनाया गया है, बजाय इसके कि सब कुछ एक साथ कवर करने की कोशिश की जाए।"
-        },
-        {
-          "title": "जो आपको चाहिए वो जोड़ें",
-          "description": "अपने सबसे बड़े दर्द बिंदु से शुरू करें। प्राथमिकताएँ बदलने पर मॉड्यूल जोड़ें। कोई मजबूर बंडल नहीं।"
-        },
-        {
-          "title": "कोर के साथ एकीकृत",
-          "description": "मॉड्यूल कोर के साथ डेटा साझा करते हैं, ताकि टीमें एक जुड़े हुए संचालन चित्र से काम कर सकें।"
-        }
-      ],
       "fiveModules": "पाँच विशेषीकृत मॉड्यूल",
       "chooseStack": "अपनी इंटेलिजेंस स्टैक चुनें",
       "chooseStackDescription": "एक मॉड्यूल या सभी पांच जोड़ें। अपनी ऑपरेशन की जरूरतों के अनुसार बुद्धिमत्ता बनाएं।",
@@ -1895,44 +1493,6 @@ export const generatedLocalCopy = {
           "roi": "सामान्य ROI: 10-15% अधिक मेहमान",
           "bestFor": "आरक्षण-आधारित रेस्तरां और फाइन डाइनिंग",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "क्या मुझे मॉड्यूल्स का उपयोग करने के लिए कोर टियर की आवश्यकता है?",
-          "a": "हाँ। मॉड्यूल्स कोर टियर (लाइट, प्रो, या एंटरप्राइज) के लिए विशेष हैं।"
-        },
-        {
-          "q": "क्या मैं बाद में मॉड्यूल्स जोड़ सकता हूँ?",
-          "a": "हाँ। कोर टियर से शुरू करें, फिर आवश्यकता के अनुसार मॉड्यूल्स जोड़ें।"
-        },
-        {
-          "q": "अगर मुझे केवल कुछ स्थानों पर एक मॉड्यूल की आवश्यकता है तो क्या होगा?",
-          "a": "संगठन लाइसेंस आपके पहले 5 स्थानों को कवर करता है। कस्टम मूल्य निर्धारण के लिए हमसे संपर्क करें।"
-        },
-        {
-          "q": "मॉड्यूल कार्यान्वयन में कितना समय लगता है?",
-          "a": "अधिकांश मॉड्यूल्स को 1-2 सप्ताह लगते हैं।"
-        },
-        {
-          "q": "क्या मॉड्यूल्स एक साथ काम कर सकते हैं?",
-          "a": "हाँ। मॉड्यूल्स डेटा साझा करते हैं और क्रॉस-मॉड्यूल अंतर्दृष्टि प्रदान करते हैं।"
-        },
-        {
-          "q": "क्या मैं प्रतिबद्ध होने से पहले एक मॉड्यूल का परीक्षण कर सकता हूँ?",
-          "a": "हाँ। मॉड्यूल परीक्षण कार्यक्रमों के लिए हमसे संपर्क करें।"
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "संस्थान लाइसेंस मॉडल",
-          "description": "प्रत्येक मॉड्यूल आपके पहले 5 स्थानों को कवर करता है। अतिरिक्त स्थानों के लिए प्रति स्थान स्केल होता है।"
-        },
-        {
-          "step": "2",
-          "title": "कोर टियर की आवश्यकता है",
-          "description": "मॉड्यूल वास्तविक समय की विशेषीकृत बुद्धिमत्ता के लिए कोर टियर के लिए विशेष हैं।"
         }
       ],
       "categories": [
@@ -2037,26 +1597,9 @@ export const generatedLocalCopy = {
     "tr": {
       "badge": "Uzman Modüller",
       "title": "Önemli Olan Yerde Daha Derine İn",
-      "description": "Sundae Core'a özel modüller ekleyin. İş gücü, envanter, satın alma, pazarlama ve rezervasyonlarda derin operasyonel zekaya ulaşın.",
-      "mixAndMatch": "Önceliklerinize göre karıştırın ve eşleştirin.",
       "exploreAllModules": "Tüm Modülleri Keşfedin",
       "calculateModuleRoi": "Modül ROI Hesapla",
       "whatAreModules": "Sundae Modülleri Nedir?",
-      "whatAreModulesDescription": "Modüller, belirli operasyonel alanlarda içgörülerinizi derinleştiren özel zeka eklentileridir.",
-      "pillars": [
-        {
-          "title": "Fonksiyona Göre Uzmanlaşmış",
-          "description": "Her modül, her şeyi bir anda kapsamak yerine belirli bir işletim alanı için tasarlanmıştır."
-        },
-        {
-          "title": "İhtiyacınız Olanı Ekleyin",
-          "description": "En büyük sorun alanınızdan başlayın. Öncelikler değiştikçe modüller ekleyin. Zorunlu paketler yok."
-        },
-        {
-          "title": "Core ile Entegre",
-          "description": "Modüller, Core ile veri paylaşır, böylece ekipler tek bir bağlı işletim resmi üzerinden çalışabilir."
-        }
-      ],
       "fiveModules": "BEŞ UZMANLAŞMIŞ MODÜL",
       "chooseStack": "Zeka Yığınınızı Seçin",
       "chooseStackDescription": "Bir modül veya beşinin tamamını ekleyin. İşletmenizin ihtiyaç duyduğu zekayı oluşturun.",
@@ -2149,44 +1692,6 @@ export const generatedLocalCopy = {
           "roi": "Tipik ROI: %10-15 daha fazla misafir",
           "bestFor": "Rezervasyon odaklı restoranlar ve şık yemek mekanları",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Modülleri kullanmak için Core katmanına ihtiyacım var mı?",
-          "a": "Evet. Modüller yalnızca Core katmanına (Lite, Pro veya Enterprise) özeldir."
-        },
-        {
-          "q": "Modülleri daha sonra ekleyebilir miyim?",
-          "a": "Evet. Core katmanıyla başlayın, ardından ihtiyaç duydukça modülleri ekleyin."
-        },
-        {
-          "q": "Sadece bazı lokasyonlarda bir modüle ihtiyacım olursa ne olur?",
-          "a": "Organizasyon lisansı ilk 5 lokasyonunuzu kapsar. Özel fiyatlandırma için bizimle iletişime geçin."
-        },
-        {
-          "q": "Modül uygulaması ne kadar sürer?",
-          "a": "Çoğu modül 1-2 hafta sürer."
-        },
-        {
-          "q": "Modüller birlikte çalışabilir mi?",
-          "a": "Evet. Modüller veri paylaşır ve çapraz modül içgörüleri sağlar."
-        },
-        {
-          "q": "Taahhütte bulunmadan önce bir modülü deneyebilir miyim?",
-          "a": "Evet. Modül deneme programları için bizimle iletişime geçin."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Organizasyon Lisans Modeli",
-          "description": "Her modül, ilk 5 lokasyonunuzu kapsar. Ek lokasyonlar, lokasyon başına ölçeklenir."
-        },
-        {
-          "step": "2",
-          "title": "Core Katmanı Gerektirir",
-          "description": "Modüller, gerçek zamanlı özel zeka için yalnızca Core katmanına özeldir."
         }
       ],
       "categories": [
@@ -2291,26 +1796,9 @@ export const generatedLocalCopy = {
     "it": {
       "badge": "Moduli Specializzati",
       "title": "Scopri di più dove conta di più",
-      "description": "Aggiungi moduli specializzati a Sundae Core. Ottieni approfondimenti operativi su lavoro, inventario, acquisti, marketing e prenotazioni.",
-      "mixAndMatch": "Mescola e abbina in base alle tue priorità.",
       "exploreAllModules": "Esplora tutti i moduli",
       "calculateModuleRoi": "Calcola ROI del Modulo",
       "whatAreModules": "Cosa Sono i Moduli Sundae?",
-      "whatAreModulesDescription": "I moduli sono componenti aggiuntivi di intelligenza specializzati che approfondiscono le tue intuizioni in aree operative specifiche.",
-      "pillars": [
-        {
-          "title": "Specializzato per Funzione",
-          "description": "Ogni modulo è costruito per un'area operativa specifica invece di cercare di coprire tutto in una volta."
-        },
-        {
-          "title": "Aggiungi Ciò di Cui Hai Bisogno",
-          "description": "Inizia con il tuo problema più grande. Aggiungi moduli man mano che le priorità cambiano. Nessun pacchetto forzato."
-        },
-        {
-          "title": "Integrato con Core",
-          "description": "I moduli condividono dati con Core, così i team possono lavorare da un'unica immagine operativa connessa."
-        }
-      ],
       "fiveModules": "CINQUE MODULI SPECIALIZZATI",
       "chooseStack": "Scegli il tuo stack di intelligenza",
       "chooseStackDescription": "Aggiungi un modulo o tutti e cinque. Costruisci l'intelligenza di cui ha bisogno la tua operazione.",
@@ -2403,44 +1891,6 @@ export const generatedLocalCopy = {
           "roi": "ROI tipico: aumento coperti del 10-15%",
           "bestFor": "Ristoranti orientati alle prenotazioni e ristoranti di alta cucina",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Ho bisogno del livello Core per utilizzare i Moduli?",
-          "a": "Sì. I Moduli sono esclusivi per il livello Core (Lite, Pro o Enterprise)."
-        },
-        {
-          "q": "Posso aggiungere moduli in seguito?",
-          "a": "Sì. Inizia con il livello Core, poi aggiungi moduli secondo necessità."
-        },
-        {
-          "q": "E se ho bisogno di un modulo solo in alcune sedi?",
-          "a": "La licenza dell'organizzazione copre le tue prime 5 sedi. Contattaci per prezzi personalizzati."
-        },
-        {
-          "q": "Quanto tempo ci vuole per implementare un modulo?",
-          "a": "La maggior parte dei moduli richiede 1-2 settimane."
-        },
-        {
-          "q": "I moduli possono lavorare insieme?",
-          "a": "Sì. I moduli condividono dati e forniscono approfondimenti tra moduli."
-        },
-        {
-          "q": "Posso provare un modulo prima di impegnarmi?",
-          "a": "Sì. Contattaci per programmi di prova dei moduli."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Modello di Licenza per Organizzazione",
-          "description": "Ogni modulo copre le tue prime 5 sedi. Le sedi aggiuntive si scalano per sede."
-        },
-        {
-          "step": "2",
-          "title": "Richiede il Livello Core",
-          "description": "I moduli sono esclusivi per il livello Core per un'intelligenza specializzata in tempo reale."
         }
       ],
       "categories": [
@@ -2545,26 +1995,9 @@ export const generatedLocalCopy = {
     "pl": {
       "badge": "Moduły specjalistyczne",
       "title": "Zanurz się głębiej tam, gdzie ma to największe znaczenie",
-      "description": "Dodaj specjalistyczne moduły do Sundae Core. Uzyskaj głęboką inteligencję operacyjną w zakresie pracy, zapasów, zakupów, marketingu i rezerwacji.",
-      "mixAndMatch": "Mieszaj i dopasowuj w oparciu o swoje priorytety.",
       "exploreAllModules": "Zbadaj wszystkie moduły",
       "calculateModuleRoi": "Oblicz ROI modułu",
       "whatAreModules": "Czym są moduły Sundae?",
-      "whatAreModulesDescription": "Moduły to specjalistyczne dodatki inteligencji, które pogłębiają Twoje spostrzeżenia w określonych obszarach operacyjnych.",
-      "pillars": [
-        {
-          "title": "Specjalizowane według funkcji",
-          "description": "Każdy moduł jest stworzony dla konkretnego obszaru operacyjnego, zamiast próbować pokryć wszystko naraz."
-        },
-        {
-          "title": "Dodaj to, czego potrzebujesz",
-          "description": "Zacznij od największego problemu. Dodawaj moduły w miarę zmiany priorytetów. Brak wymuszonych pakietów."
-        },
-        {
-          "title": "Zintegrowane z Core",
-          "description": "Moduły dzielą się danymi z Core, dzięki czemu zespoły mogą pracować na jednym połączonym obrazie operacyjnym."
-        }
-      ],
       "fiveModules": "PIĘĆ SPECJALIZOWANYCH MODUŁÓW",
       "chooseStack": "Wybierz swój stos inteligencji",
       "chooseStackDescription": "Dodaj jeden moduł lub wszystkie pięć. Zbuduj inteligencję, której potrzebuje Twoja operacja.",
@@ -2657,44 +2090,6 @@ export const generatedLocalCopy = {
           "roi": "Typowy ROI: 10-15% więcej gości",
           "bestFor": "Restauracje oparte na rezerwacjach i fine dining",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Czy potrzebuję poziomu Core, aby korzystać z modułów?",
-          "a": "Tak. Moduły są dostępne wyłącznie w poziomie Core (Lite, Pro lub Enterprise)."
-        },
-        {
-          "q": "Czy mogę dodać moduły później?",
-          "a": "Tak. Zacznij od poziomu Core, a następnie dodawaj moduły w miarę potrzeb."
-        },
-        {
-          "q": "Co jeśli potrzebuję modułu tylko w niektórych lokalizacjach?",
-          "a": "Licencja organizacyjna obejmuje pierwsze 5 lokalizacji. Skontaktuj się z nami w celu uzyskania niestandardowej wyceny."
-        },
-        {
-          "q": "Jak długo trwa wdrożenie modułu?",
-          "a": "Większość modułów zajmuje od 1 do 2 tygodni."
-        },
-        {
-          "q": "Czy moduły mogą współpracować?",
-          "a": "Tak. Moduły dzielą się danymi i dostarczają spostrzeżeń między modułami."
-        },
-        {
-          "q": "Czy mogę wypróbować moduł przed podjęciem decyzji?",
-          "a": "Tak. Skontaktuj się z nami w celu uzyskania informacji o programach próbnych modułów."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Model Licencji Organizacji",
-          "description": "Każdy moduł obejmuje Twoje pierwsze 5 lokalizacji. Dodatkowe lokalizacje są skalowane na lokalizację."
-        },
-        {
-          "step": "2",
-          "title": "Wymaga Poziomu Core",
-          "description": "Moduły są dostępne wyłącznie w poziomie Core dla specjalistycznej inteligencji w czasie rzeczywistym."
         }
       ],
       "categories": [
@@ -2799,26 +2194,9 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "badge": "专业模块",
       "title": "深入关注最重要的地方",
-      "description": "为Sundae Core添加专业模块。获取有关劳动力、库存、采购、营销和预订的深度运营智能。",
-      "mixAndMatch": "根据您的优先事项进行组合和匹配。",
       "exploreAllModules": "探索所有模块",
       "calculateModuleRoi": "计算模块投资回报率",
       "whatAreModules": "什么是Sundae模块？",
-      "whatAreModulesDescription": "模块是专门的智能附加组件，可以加深您在特定运营领域的洞察力。",
-      "pillars": [
-        {
-          "title": "按功能专业化",
-          "description": "每个模块都是为特定的操作领域而构建，而不是试图一次性覆盖所有内容。"
-        },
-        {
-          "title": "添加所需功能",
-          "description": "从您最大的痛点开始。随着优先级的变化，添加模块。没有强制捆绑。"
-        },
-        {
-          "title": "与Core集成",
-          "description": "模块与Core共享数据，因此团队可以从一个连接的操作视图中工作。"
-        }
-      ],
       "fiveModules": "五个专业模块",
       "chooseStack": "选择您的智能堆栈",
       "chooseStackDescription": "添加一个模块或全部五个。构建您运营所需的智能。",
@@ -2911,44 +2289,6 @@ export const generatedLocalCopy = {
           "roi": "典型投资回报率：上座人次提升 10-15%",
           "bestFor": "以预订为驱动的餐厅和高档餐饮",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "我需要 Core 级别才能使用模块吗？",
-          "a": "是的。模块仅适用于 Core 级别（Lite、Pro 或 Enterprise）。"
-        },
-        {
-          "q": "我可以稍后添加模块吗？",
-          "a": "可以。先从 Core 级别开始，然后根据需要添加模块。"
-        },
-        {
-          "q": "如果我只在某些地点需要模块怎么办？",
-          "a": "组织许可证覆盖您前 5 个地点。请联系我们获取定制定价。"
-        },
-        {
-          "q": "模块实施需要多长时间？",
-          "a": "大多数模块需要 1-2 周。"
-        },
-        {
-          "q": "模块可以一起工作吗？",
-          "a": "可以。模块共享数据并提供跨模块的洞察。"
-        },
-        {
-          "q": "我可以在承诺之前试用模块吗？",
-          "a": "可以。请联系我们获取模块试用计划。"
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "组织许可证模型",
-          "description": "每个模块覆盖您的前5个地点。额外地点按位置扩展。"
-        },
-        {
-          "step": "2",
-          "title": "需要 Core 层级",
-          "description": "模块仅限于 Core 层级，以提供实时专业智能。"
         }
       ],
       "categories": [
@@ -3053,26 +2393,9 @@ export const generatedLocalCopy = {
     "ja": {
       "badge": "専門モジュール",
       "title": "重要な場所でより深く掘り下げる",
-      "description": "Sundae Coreに専門モジュールを追加します。労働、在庫、購買、マーケティング、予約に関する深い運用インテリジェンスを得ることができます。",
-      "mixAndMatch": "優先順位に基づいて組み合わせてください。",
       "exploreAllModules": "すべてのモジュールを探る",
       "calculateModuleRoi": "モジュールROIを計算する",
       "whatAreModules": "Sundaeモジュールとは？",
-      "whatAreModulesDescription": "モジュールは、特定の運用分野における洞察を深めるための専門的なインテリジェンスアドオンです。",
-      "pillars": [
-        {
-          "title": "機能別専門",
-          "description": "各モジュールは、すべてを一度にカバーしようとするのではなく、特定の運用エリアのために構築されています。"
-        },
-        {
-          "title": "必要なものを追加",
-          "description": "最も大きな課題から始めましょう。優先順位が変わるにつれてモジュールを追加します。強制的なバンドルはありません。"
-        },
-        {
-          "title": "Coreとの統合",
-          "description": "モジュールはCoreとデータを共有するため、チームは一つの接続された運用状況から作業できます。"
-        }
-      ],
       "fiveModules": "5つの専門モジュール",
       "chooseStack": "インテリジェンススタックを選択してください",
       "chooseStackDescription": "1つのモジュールまたは5つすべてを追加します。あなたの業務に必要なインテリジェンスを構築しましょう。",
@@ -3165,44 +2488,6 @@ export const generatedLocalCopy = {
           "roi": "典型的なROI: 来客数10-15%増加",
           "bestFor": "予約重視のレストランと高級ダイニング",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "モジュールを使用するにはCoreプランが必要ですか？",
-          "a": "はい。モジュールはCoreプラン（Lite、Pro、またはEnterprise）のみに限定されています。"
-        },
-        {
-          "q": "後でモジュールを追加できますか？",
-          "a": "はい。Coreプランから始めて、必要に応じてモジュールを追加できます。"
-        },
-        {
-          "q": "特定の場所でのみモジュールが必要な場合はどうなりますか？",
-          "a": "組織ライセンスは最初の5つの場所をカバーします。カスタム価格についてはお問い合わせください。"
-        },
-        {
-          "q": "モジュールの実装にはどれくらいの時間がかかりますか？",
-          "a": "ほとんどのモジュールは1〜2週間かかります。"
-        },
-        {
-          "q": "モジュールは一緒に機能しますか？",
-          "a": "はい。モジュールはデータを共有し、クロスモジュールのインサイトを提供します。"
-        },
-        {
-          "q": "コミットする前にモジュールを試すことはできますか？",
-          "a": "はい。モジュールのトライアルプログラムについてはお問い合わせください。"
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "組織ライセンスモデル",
-          "description": "各モジュールは最初の5つのロケーションをカバーします。追加のロケーションは、ロケーションごとにスケールします。"
-        },
-        {
-          "step": "2",
-          "title": "Coreティアが必要",
-          "description": "モジュールはリアルタイムの専門的インテリジェンスのためにCoreティア専用です。"
         }
       ],
       "categories": [
@@ -3307,26 +2592,9 @@ export const generatedLocalCopy = {
     "id": {
       "badge": "Modul Khusus",
       "title": "Jelajahi Lebih Dalam di Tempat yang Paling Penting",
-      "description": "Tambahkan modul khusus ke Sundae Core. Dapatkan intelijen operasional mendalam dalam tenaga kerja, inventaris, pembelian, pemasaran, dan reservasi.",
-      "mixAndMatch": "Campur dan sesuaikan berdasarkan prioritas Anda.",
       "exploreAllModules": "Jelajahi Semua Modul",
       "calculateModuleRoi": "Hitung ROI Modul",
       "whatAreModules": "Apa Itu Modul Sundae?",
-      "whatAreModulesDescription": "Modul adalah tambahan kecerdasan khusus yang memperdalam wawasan Anda di area operasional tertentu.",
-      "pillars": [
-        {
-          "title": "Spesialisasi Berdasarkan Fungsi",
-          "description": "Setiap modul dirancang untuk area operasional tertentu alih-alih mencoba mencakup semuanya sekaligus."
-        },
-        {
-          "title": "Tambahkan Apa yang Anda Butuhkan",
-          "description": "Mulailah dengan masalah terbesar Anda. Tambahkan modul saat prioritas berubah. Tidak ada paket yang dipaksakan."
-        },
-        {
-          "title": "Terintegrasi Dengan Core",
-          "description": "Modul berbagi data dengan Core, sehingga tim dapat bekerja dari satu gambaran operasional yang terhubung."
-        }
-      ],
       "fiveModules": "LIMA MODUL SPESIALIS",
       "chooseStack": "Pilih Tumpukan Kecerdasan Anda",
       "chooseStackDescription": "Tambahkan satu modul atau semua lima. Bangun kecerdasan yang dibutuhkan operasi Anda.",
@@ -3419,44 +2687,6 @@ export const generatedLocalCopy = {
           "roi": "ROI Tipikal: 10-15% peningkatan jumlah tamu",
           "bestFor": "Restoran yang berfokus pada reservasi dan fine dining",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Apakah saya perlu tingkat Core untuk menggunakan Modul?",
-          "a": "Ya. Modul eksklusif untuk tingkat Core (Lite, Pro, atau Enterprise)."
-        },
-        {
-          "q": "Bisakah saya menambahkan modul nanti?",
-          "a": "Ya. Mulailah dengan tingkat Core, lalu tambahkan modul sesuai kebutuhan."
-        },
-        {
-          "q": "Bagaimana jika saya hanya membutuhkan modul di beberapa lokasi?",
-          "a": "Lisensi organisasi mencakup 5 lokasi pertama Anda. Hubungi kami untuk harga khusus."
-        },
-        {
-          "q": "Berapa lama waktu yang dibutuhkan untuk implementasi modul?",
-          "a": "Sebagian besar modul memerlukan waktu 1-2 minggu."
-        },
-        {
-          "q": "Bisakah modul bekerja bersama?",
-          "a": "Ya. Modul berbagi data dan memberikan wawasan lintas modul."
-        },
-        {
-          "q": "Bisakah saya mencoba modul sebelum berkomitmen?",
-          "a": "Ya. Hubungi kami untuk program percobaan modul."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Model Lisensi Organisasi",
-          "description": "Setiap modul mencakup 5 lokasi pertama Anda. Lokasi tambahan dihitung per lokasi."
-        },
-        {
-          "step": "2",
-          "title": "Memerlukan Tingkat Core",
-          "description": "Modul eksklusif untuk tingkat Core untuk intelijen khusus secara real-time."
         }
       ],
       "categories": [
@@ -3561,26 +2791,9 @@ export const generatedLocalCopy = {
     "vi": {
       "badge": "Các Mô-đun Chuyên Biệt",
       "title": "Đi Sâu Vào Những Nơi Quan Trọng Nhất",
-      "description": "Thêm các mô-đun chuyên biệt vào Sundae Core. Nhận thông tin chi tiết về hoạt động trong lao động, tồn kho, mua sắm, tiếp thị và đặt chỗ.",
-      "mixAndMatch": "Kết hợp và chọn lựa dựa trên ưu tiên của bạn.",
       "exploreAllModules": "Khám Phá Tất Cả Các Mô-đun",
       "calculateModuleRoi": "Tính ROI của Module",
       "whatAreModules": "Các Mô-đun Sundae Là Gì?",
-      "whatAreModulesDescription": "Các mô-đun là các tiện ích trí tuệ chuyên biệt giúp bạn hiểu sâu hơn về các lĩnh vực hoạt động cụ thể.",
-      "pillars": [
-        {
-          "title": "Chuyên biệt theo Chức năng",
-          "description": "Mỗi mô-đun được xây dựng cho một lĩnh vực hoạt động cụ thể thay vì cố gắng bao quát mọi thứ cùng một lúc."
-        },
-        {
-          "title": "Thêm những gì bạn cần",
-          "description": "Bắt đầu với vấn đề lớn nhất của bạn. Thêm mô-đun khi ưu tiên thay đổi. Không có gói bắt buộc."
-        },
-        {
-          "title": "Tích hợp với Core",
-          "description": "Các mô-đun chia sẻ dữ liệu với Core, vì vậy các nhóm có thể làm việc từ một bức tranh hoạt động kết nối."
-        }
-      ],
       "fiveModules": "NĂM MÔ-ĐUN CHUYÊN BIỆT",
       "chooseStack": "Chọn Bộ Công Cụ Trí Tuệ Của Bạn",
       "chooseStackDescription": "Thêm một mô-đun hoặc tất cả năm mô-đun. Xây dựng trí tuệ mà hoạt động của bạn cần.",
@@ -3673,44 +2886,6 @@ export const generatedLocalCopy = {
           "roi": "ROI điển hình: Tăng 10-15% lượng khách",
           "bestFor": "Nhà hàng dựa vào đặt chỗ và ẩm thực cao cấp",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Tôi có cần cấp độ Core để sử dụng Modules không?",
-          "a": "Có. Modules chỉ dành riêng cho cấp độ Core (Lite, Pro hoặc Enterprise)."
-        },
-        {
-          "q": "Tôi có thể thêm modules sau không?",
-          "a": "Có. Bắt đầu với cấp độ Core, sau đó thêm modules khi cần."
-        },
-        {
-          "q": "Nếu tôi chỉ cần một module ở một số địa điểm thì sao?",
-          "a": "Giấy phép tổ chức bao gồm 5 địa điểm đầu tiên của bạn. Liên hệ với chúng tôi để biết giá tùy chỉnh."
-        },
-        {
-          "q": "Quá trình triển khai module mất bao lâu?",
-          "a": "Hầu hết các module mất từ 1-2 tuần."
-        },
-        {
-          "q": "Các module có thể hoạt động cùng nhau không?",
-          "a": "Có. Các module chia sẻ dữ liệu và cung cấp thông tin liên quan giữa các module."
-        },
-        {
-          "q": "Tôi có thể thử một module trước khi cam kết không?",
-          "a": "Có. Liên hệ với chúng tôi để biết về các chương trình thử nghiệm module."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Mô Hình Giấy Phép Tổ Chức",
-          "description": "Mỗi mô-đun bao gồm 5 địa điểm đầu tiên của bạn. Các địa điểm bổ sung sẽ tính phí theo từng địa điểm."
-        },
-        {
-          "step": "2",
-          "title": "Yêu Cầu Cấp Độ Core",
-          "description": "Các mô-đun chỉ dành riêng cho cấp độ Core để có thông tin chuyên biệt theo thời gian thực."
         }
       ],
       "categories": [
@@ -3815,26 +2990,9 @@ export const generatedLocalCopy = {
     "ro": {
       "badge": "Module Specializate",
       "title": "Aprofundează acolo unde contează cel mai mult",
-      "description": "Adăugați module specializate la Sundae Core. Obțineți informații operaționale profunde în muncă, inventar, achiziții, marketing și rezervări.",
-      "mixAndMatch": "Combină și potrivește în funcție de prioritățile tale.",
       "exploreAllModules": "Explorați toate modulele",
       "calculateModuleRoi": "Calculați ROI-ul modulului",
       "whatAreModules": "Ce sunt modulele Sundae?",
-      "whatAreModulesDescription": "Modulele sunt extensii specializate de inteligență care îmbunătățesc perspectivele tale în domenii operaționale specifice.",
-      "pillars": [
-        {
-          "title": "Specializat pe Funcție",
-          "description": "Fiecare modul este construit pentru un domeniu operațional specific, în loc să încerce să acopere totul deodată."
-        },
-        {
-          "title": "Adaugă Ce Ai Nevoie",
-          "description": "Începe cu cea mai mare problemă. Adaugă module pe măsură ce prioritățile se schimbă. Fără pachete forțate."
-        },
-        {
-          "title": "Integrat cu Core",
-          "description": "Modulele împărtășesc date cu Core, astfel încât echipele să poată lucra dintr-o imagine operațională conectată."
-        }
-      ],
       "fiveModules": "CINCI MODULE SPECIALIZATE",
       "chooseStack": "Alegeți Stiva Dvs. de Inteligență",
       "chooseStackDescription": "Adăugați un modul sau toate cele cinci. Construiește inteligența de care are nevoie operațiunea dumneavoastră.",
@@ -3927,44 +3085,6 @@ export const generatedLocalCopy = {
           "roi": "ROI tipic: 10-15% creștere a numărului de clienți",
           "bestFor": "Restaurante axate pe rezervări și gastronomie de lux",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Am nevoie de nivelul Core pentru a folosi Module?",
-          "a": "Da. Modulele sunt exclusive pentru nivelul Core (Lite, Pro sau Enterprise)."
-        },
-        {
-          "q": "Pot adăuga module mai târziu?",
-          "a": "Da. Începeți cu nivelul Core, apoi adăugați module după cum este necesar."
-        },
-        {
-          "q": "Ce se întâmplă dacă am nevoie de un modul doar în anumite locații?",
-          "a": "Licența organizației acoperă primele 5 locații. Contactați-ne pentru prețuri personalizate."
-        },
-        {
-          "q": "Cât timp durează implementarea unui modul?",
-          "a": "Cele mai multe module durează 1-2 săptămâni."
-        },
-        {
-          "q": "Pot modulele să funcționeze împreună?",
-          "a": "Da. Modulele împărtășesc date și oferă perspective între module."
-        },
-        {
-          "q": "Pot încerca un modul înainte de a mă angaja?",
-          "a": "Da. Contactați-ne pentru programe de încercare a modulelor."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Model de Licență pentru Organizație",
-          "description": "Fiecare modul acoperă primele 5 locații. Locațiile suplimentare se scalază pe locație."
-        },
-        {
-          "step": "2",
-          "title": "Necesită Nivel Core",
-          "description": "Modulele sunt exclusive pentru nivelul Core pentru inteligență specializată în timp real."
         }
       ],
       "categories": [
@@ -4069,26 +3189,9 @@ export const generatedLocalCopy = {
     "ko": {
       "badge": "전문 모듈",
       "title": "가장 중요한 곳에서 더 깊이 들어가세요",
-      "description": "Sundae Core에 전문 모듈을 추가하세요. 인력, 재고, 구매, 마케팅 및 예약에 대한 심층 운영 정보를 얻으세요.",
-      "mixAndMatch": "우선순위에 따라 조합하세요.",
       "exploreAllModules": "모든 모듈 탐색",
       "calculateModuleRoi": "모듈 ROI 계산하기",
       "whatAreModules": "Sundae 모듈이란 무엇인가요?",
-      "whatAreModulesDescription": "모듈은 특정 운영 분야에서 통찰력을 심화시키는 전문화된 인텔리전스 추가 기능입니다.",
-      "pillars": [
-        {
-          "title": "기능별 전문화",
-          "description": "각 모듈은 모든 것을 한 번에 다루기보다는 특정 운영 영역을 위해 구축되었습니다."
-        },
-        {
-          "title": "필요한 것 추가하기",
-          "description": "가장 큰 문제점부터 시작하세요. 우선순위가 바뀌면 모듈을 추가하세요. 강제 번들은 없습니다."
-        },
-        {
-          "title": "Core와 통합",
-          "description": "모듈은 Core와 데이터를 공유하므로 팀이 하나의 연결된 운영 그림에서 작업할 수 있습니다."
-        }
-      ],
       "fiveModules": "다섯 개의 전문 모듈",
       "chooseStack": "인텔리전스 스택 선택",
       "chooseStackDescription": "모듈 하나 또는 다섯 개 모두 추가하세요. 귀하의 운영에 필요한 인텔리전스를 구축하세요.",
@@ -4181,44 +3284,6 @@ export const generatedLocalCopy = {
           "roi": "일반적인 ROI: 내점객수 10-15% 증가",
           "bestFor": "예약 중심의 레스토랑 및 고급 식당",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "모듈을 사용하려면 Core 등급이 필요합니까?",
-          "a": "네. 모듈은 Core 등급(라이트, 프로 또는 엔터프라이즈)에만 독점적입니다."
-        },
-        {
-          "q": "나중에 모듈을 추가할 수 있나요?",
-          "a": "네. Core 등급으로 시작한 후 필요에 따라 모듈을 추가하세요."
-        },
-        {
-          "q": "일부 위치에서만 모듈이 필요하면 어떻게 하나요?",
-          "a": "조직 라이센스는 처음 5개 위치를 포함합니다. 맞춤 가격을 원하시면 문의하세요."
-        },
-        {
-          "q": "모듈 구현에는 얼마나 걸리나요?",
-          "a": "대부분의 모듈은 1-2주가 소요됩니다."
-        },
-        {
-          "q": "모듈이 함께 작동할 수 있나요?",
-          "a": "네. 모듈은 데이터를 공유하고 교차 모듈 통찰력을 제공합니다."
-        },
-        {
-          "q": "약정하기 전에 모듈을 시험해 볼 수 있나요?",
-          "a": "네. 모듈 체험 프로그램에 대해 문의하세요."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "조직 라이센스 모델",
-          "description": "각 모듈은 처음 5개 위치를 포함합니다. 추가 위치는 위치당 요금이 부과됩니다."
-        },
-        {
-          "step": "2",
-          "title": "Core 티어 필요",
-          "description": "모듈은 실시간 전문 지능을 위해 Core 티어에만 제공됩니다."
         }
       ],
       "categories": [
@@ -4323,26 +3388,9 @@ export const generatedLocalCopy = {
     "sv": {
       "badge": "Specialiserade Moduler",
       "title": "Gå djupare där det betyder mest",
-      "description": "Lägg till specialiserade moduler till Sundae Core. Få djup operativ insikt inom arbetskraft, lager, inköp, marknadsföring och bokningar.",
-      "mixAndMatch": "Blanda och matcha baserat på dina prioriteringar.",
       "exploreAllModules": "Utforska alla moduler",
       "calculateModuleRoi": "Beräkna Modul ROI",
       "whatAreModules": "Vad är Sundae-moduler?",
-      "whatAreModulesDescription": "Moduler är specialiserade intelligens-tillägg som fördjupar dina insikter inom specifika verksamhetsområden.",
-      "pillars": [
-        {
-          "title": "Specialiserad efter Funktion",
-          "description": "Varje modul är byggd för ett specifikt verksamhetsområde istället för att försöka täcka allt på en gång."
-        },
-        {
-          "title": "Lägg till det du behöver",
-          "description": "Börja med din största smärtpunkt. Lägg till moduler när prioriteringar förändras. Inga tvingande paket."
-        },
-        {
-          "title": "Integrerad med Core",
-          "description": "Moduler delar data med Core, så team kan arbeta utifrån en sammanhängande verksamhetsbild."
-        }
-      ],
       "fiveModules": "FEM SPECIALISERADE MODULER",
       "chooseStack": "Välj din intelligensstack",
       "chooseStackDescription": "Lägg till en modul eller alla fem. Bygg den intelligens din verksamhet behöver.",
@@ -4435,44 +3483,6 @@ export const generatedLocalCopy = {
           "roi": "Typisk ROI: 10-15% fler gäster",
           "bestFor": "Bokningsdrivna restauranger och finare matställen",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Behöver jag Core-nivån för att använda moduler?",
-          "a": "Ja. Moduler är exklusiva för Core-nivån (Lite, Pro eller Enterprise)."
-        },
-        {
-          "q": "Kan jag lägga till moduler senare?",
-          "a": "Ja. Börja med Core-nivån och lägg till moduler vid behov."
-        },
-        {
-          "q": "Vad händer om jag bara behöver en modul på vissa platser?",
-          "a": "Organisationslicensen täcker dina första 5 platser. Kontakta oss för anpassad prissättning."
-        },
-        {
-          "q": "Hur lång tid tar implementeringen av moduler?",
-          "a": "De flesta moduler tar 1-2 veckor."
-        },
-        {
-          "q": "Kan moduler fungera tillsammans?",
-          "a": "Ja. Moduler delar data och ger insikter över moduler."
-        },
-        {
-          "q": "Kan jag prova en modul innan jag åtar mig?",
-          "a": "Ja. Kontakta oss för program för modulprov."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Organisationslicensmodell",
-          "description": "Varje modul täcker dina första 5 platser. Ytterligare platser skalar per plats."
-        },
-        {
-          "step": "2",
-          "title": "Kräver Core-nivå",
-          "description": "Moduler är exklusiva för Core-nivån för realtids specialiserad intelligens."
         }
       ],
       "categories": [
@@ -4577,26 +3587,9 @@ export const generatedLocalCopy = {
     "th": {
       "badge": "โมดูลเฉพาะทาง",
       "title": "ไปลึกในที่ที่สำคัญที่สุด",
-      "description": "เพิ่มโมดูลเฉพาะทางลงใน Sundae Core รับข้อมูลเชิงลึกเกี่ยวกับการดำเนินงานในด้านแรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด และการจอง",
-      "mixAndMatch": "ผสมและจับคู่ตามความสำคัญของคุณ.",
       "exploreAllModules": "สำรวจโมดูลทั้งหมด",
       "calculateModuleRoi": "คำนวณ ROI ของโมดูล",
       "whatAreModules": "โมดูลของ Sundae คืออะไร?",
-      "whatAreModulesDescription": "โมดูลคือส่วนเสริมด้านปัญญาที่เชี่ยวชาญซึ่งช่วยให้คุณเข้าใจในด้านการดำเนินงานเฉพาะได้ลึกซึ้งยิ่งขึ้น.",
-      "pillars": [
-        {
-          "title": "เฉพาะทางตามฟังก์ชัน",
-          "description": "แต่ละโมดูลถูกสร้างขึ้นสำหรับพื้นที่การดำเนินงานเฉพาะแทนที่จะพยายามครอบคลุมทุกอย่างในครั้งเดียว."
-        },
-        {
-          "title": "เพิ่มสิ่งที่คุณต้องการ",
-          "description": "เริ่มต้นด้วยจุดเจ็บปวดที่ใหญ่ที่สุดของคุณ เพิ่มโมดูลเมื่อความสำคัญเปลี่ยนไป ไม่มีการบังคับรวมแพ็คเกจ."
-        },
-        {
-          "title": "รวมเข้ากับ Core",
-          "description": "โมดูลแชร์ข้อมูลกับ Core ดังนั้นทีมสามารถทำงานจากภาพการดำเนินงานที่เชื่อมต่อกัน."
-        }
-      ],
       "fiveModules": "ห้าโมดูลเฉพาะทาง",
       "chooseStack": "เลือกชุดข้อมูลอัจฉริยะของคุณ",
       "chooseStackDescription": "เพิ่มโมดูลหนึ่งตัวหรือทั้งหมดห้าตัว สร้างความฉลาดที่การดำเนินงานของคุณต้องการ.",
@@ -4689,44 +3682,6 @@ export const generatedLocalCopy = {
           "roi": "ROI ปกติ: ลูกค้าเพิ่มขึ้น 10-15%",
           "bestFor": "ร้านอาหารที่ขับเคลื่อนด้วยการจองและร้านอาหารชั้นดี",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "ฉันต้องการระดับ Core เพื่อใช้โมดูลหรือไม่?",
-          "a": "ใช่ โมดูลเป็นเอกสิทธิ์เฉพาะระดับ Core (Lite, Pro หรือ Enterprise)."
-        },
-        {
-          "q": "ฉันสามารถเพิ่มโมดูลในภายหลังได้หรือไม่?",
-          "a": "ใช่ เริ่มต้นด้วยระดับ Core แล้วเพิ่มโมดูลตามต้องการ."
-        },
-        {
-          "q": "ถ้าฉันต้องการโมดูลเฉพาะที่บางสถานที่จะทำอย่างไร?",
-          "a": "ใบอนุญาตองค์กรครอบคลุมสถานที่แรก 5 แห่ง ติดต่อเราสำหรับการกำหนดราคาที่กำหนดเอง."
-        },
-        {
-          "q": "การดำเนินการติดตั้งโมดูลใช้เวลานานแค่ไหน?",
-          "a": "โมดูลส่วนใหญ่ใช้เวลา 1-2 สัปดาห์."
-        },
-        {
-          "q": "โมดูลสามารถทำงานร่วมกันได้หรือไม่?",
-          "a": "ใช่ โมดูลแชร์ข้อมูลและให้ข้อมูลเชิงลึกข้ามโมดูล."
-        },
-        {
-          "q": "ฉันสามารถทดลองใช้โมดูลก่อนตัดสินใจได้หรือไม่?",
-          "a": "ใช่ ติดต่อเราสำหรับโปรแกรมทดลองใช้โมดูล."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "โมเดลใบอนุญาตองค์กร",
-          "description": "แต่ละโมดูลครอบคลุมสถานที่แรก 5 แห่งของคุณ สถานที่เพิ่มเติมจะมีค่าใช้จ่ายตามจำนวนสถานที่."
-        },
-        {
-          "step": "2",
-          "title": "ต้องการระดับ Core",
-          "description": "โมดูลเป็นเอกสิทธิ์เฉพาะระดับ Core สำหรับข้อมูลเชิงลึกเฉพาะที่เรียลไทม์."
         }
       ],
       "categories": [
@@ -4831,26 +3786,9 @@ export const generatedLocalCopy = {
     "ms": {
       "badge": "Modul Khusus",
       "title": "Selami Lebih Dalam Di Tempat Yang Paling Penting",
-      "description": "Tambah modul khusus ke Sundae Core. Dapatkan intelijen operasi mendalam dalam tenaga kerja, inventori, pembelian, pemasaran, dan tempahan.",
-      "mixAndMatch": "Campur dan padankan berdasarkan keutamaan anda.",
       "exploreAllModules": "Terokai Semua Modul",
       "calculateModuleRoi": "Kira ROI Modul",
       "whatAreModules": "Apakah Modul Sundae?",
-      "whatAreModulesDescription": "Modul adalah tambahan kecerdasan khusus yang memperdalam pemahaman anda dalam bidang operasi tertentu.",
-      "pillars": [
-        {
-          "title": "Dikhususkan Mengikut Fungsi",
-          "description": "Setiap modul dibina untuk kawasan operasi tertentu dan bukannya cuba merangkumi semuanya sekaligus."
-        },
-        {
-          "title": "Tambah Apa Yang Anda Perlukan",
-          "description": "Mulakan dengan masalah terbesar anda. Tambah modul apabila keutamaan berubah. Tiada pakej yang dipaksa."
-        },
-        {
-          "title": "Terintegrasi Dengan Core",
-          "description": "Modul berkongsi data dengan Core, jadi pasukan boleh bekerja dari satu gambaran operasi yang terhubung."
-        }
-      ],
       "fiveModules": "LIMA MODUL KHUSUS",
       "chooseStack": "Pilih Tumpukan Kecerdasan Anda",
       "chooseStackDescription": "Tambah satu modul atau semua lima. Bangunkan kecerdasan yang diperlukan oleh operasi anda.",
@@ -4943,44 +3881,6 @@ export const generatedLocalCopy = {
           "roi": "ROI Tipikal: 10-15% peningkatan jumlah tetamu",
           "bestFor": "Restoran yang bergantung kepada tempahan dan makan malam mewah",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Adakah saya perlu tier Core untuk menggunakan Modul?",
-          "a": "Ya. Modul adalah eksklusif untuk tier Core (Lite, Pro, atau Enterprise)."
-        },
-        {
-          "q": "Bolehkah saya menambah modul kemudian?",
-          "a": "Ya. Mulakan dengan tier Core, kemudian tambah modul mengikut keperluan."
-        },
-        {
-          "q": "Bagaimana jika saya hanya memerlukan modul di beberapa lokasi?",
-          "a": "Lesen organisasi merangkumi 5 lokasi pertama anda. Hubungi kami untuk harga khusus."
-        },
-        {
-          "q": "Berapa lama pelaksanaan modul mengambil masa?",
-          "a": "Kebanyakan modul mengambil masa 1-2 minggu."
-        },
-        {
-          "q": "Bolehkah modul berfungsi bersama?",
-          "a": "Ya. Modul berkongsi data dan memberikan pandangan silang modul."
-        },
-        {
-          "q": "Bolehkah saya mencuba modul sebelum komit?",
-          "a": "Ya. Hubungi kami untuk program percubaan modul."
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "Model Lesen Organisasi",
-          "description": "Setiap modul merangkumi 5 lokasi pertama anda. Lokasi tambahan akan dikenakan bayaran mengikut lokasi."
-        },
-        {
-          "step": "2",
-          "title": "Memerlukan Tahap Core",
-          "description": "Modul adalah eksklusif untuk tahap Core bagi kecerdasan khusus masa nyata."
         }
       ],
       "categories": [
@@ -5085,26 +3985,9 @@ export const generatedLocalCopy = {
     "bn": {
       "badge": "বিশেষায়িত মডিউল",
       "title": "যেখানে এটি সবচেয়ে গুরুত্বপূর্ণ সেখানে গভীরভাবে যান",
-      "description": "Sundae Core-এ বিশেষায়িত মডিউল যোগ করুন। শ্রম, ইনভেন্টরি, ক্রয়, বিপণন এবং সংরক্ষণে গভীর কার্যকরী বুদ্ধিমত্তা পান।",
-      "mixAndMatch": "আপনার অগ্রাধিকার অনুযায়ী মিশ্রণ এবং মেলান করুন।",
       "exploreAllModules": "সমস্ত মডিউল অন্বেষণ করুন",
       "calculateModuleRoi": "মডিউল ROI গণনা করুন",
       "whatAreModules": "Sundae মডিউল কী?",
-      "whatAreModulesDescription": "মডিউলগুলি বিশেষায়িত বুদ্ধিমত্তা অ্যাড-অন যা নির্দিষ্ট অপারেশনাল এলাকায় আপনার অন্তর্দৃষ্টি গভীর করে।",
-      "pillars": [
-        {
-          "title": "কার্যকারিতার দ্বারা বিশেষীকৃত",
-          "description": "প্রতিটি মডিউল একটি নির্দিষ্ট কার্যকরী ক্ষেত্রের জন্য তৈরি করা হয়েছে, সবকিছু একসাথে কভার করার চেষ্টা করার পরিবর্তে।"
-        },
-        {
-          "title": "আপনার প্রয়োজনীয়তা যোগ করুন",
-          "description": "আপনার সবচেয়ে বড় সমস্যা থেকে শুরু করুন। অগ্রাধিকার পরিবর্তিত হলে মডিউল যোগ করুন। কোন বাধ্যতামূলক প্যাকেজ নেই।"
-        },
-        {
-          "title": "কোরের সাথে সংহত",
-          "description": "মডিউলগুলি কোরের সাথে ডেটা শেয়ার করে, তাই দলগুলি একটি সংযুক্ত কার্যকরী চিত্র থেকে কাজ করতে পারে।"
-        }
-      ],
       "fiveModules": "পাঁচটি বিশেষায়িত মডিউল",
       "chooseStack": "আপনার ইন্টেলিজেন্স স্ট্যাক নির্বাচন করুন",
       "chooseStackDescription": "একটি মডিউল বা সব পাঁচটি যুক্ত করুন। আপনার অপারেশনের জন্য প্রয়োজনীয় বুদ্ধিমত্তা তৈরি করুন।",
@@ -5197,44 +4080,6 @@ export const generatedLocalCopy = {
           "roi": "সাধারণ ROI: ১০-১৫% বেশি অতিথি",
           "bestFor": "রিজার্ভেশন-চালিত রেস্তোরাঁ এবং ফাইন ডাইনিং",
           "color": "from-[#FF6B5B] to-[#E03E48]"
-        }
-      ],
-      "faqs": [
-        {
-          "q": "মডিউল ব্যবহার করতে কি আমাকে কোর টিয়ার প্রয়োজন?",
-          "a": "হ্যাঁ। মডিউল কোর টিয়ারের (লাইট, প্রো, বা এন্টারপ্রাইজ) জন্য একচেটিয়া।"
-        },
-        {
-          "q": "আমি কি পরে মডিউল যোগ করতে পারি?",
-          "a": "হ্যাঁ। কোর টিয়ার দিয়ে শুরু করুন, তারপর প্রয়োজন অনুযায়ী মডিউল যোগ করুন।"
-        },
-        {
-          "q": "যদি আমি শুধুমাত্র কিছু স্থানে একটি মডিউল প্রয়োজন হয় তবে কি হবে?",
-          "a": "সংগঠন লাইসেন্স আপনার প্রথম ৫টি স্থানের জন্য প্রযোজ্য। কাস্টম মূল্যায়নের জন্য আমাদের সাথে যোগাযোগ করুন।"
-        },
-        {
-          "q": "মডিউল বাস্তবায়নে কত সময় লাগে?",
-          "a": "বেশিরভাগ মডিউল ১-২ সপ্তাহ সময় নেয়।"
-        },
-        {
-          "q": "মডিউলগুলো কি একসাথে কাজ করতে পারে?",
-          "a": "হ্যাঁ। মডিউলগুলো তথ্য শেয়ার করে এবং ক্রস-মডিউল অন্তর্দৃষ্টি প্রদান করে।"
-        },
-        {
-          "q": "আমি কি প্রতিশ্রুতি দেওয়ার আগে একটি মডিউল চেষ্টা করতে পারি?",
-          "a": "হ্যাঁ। মডিউল ট্রায়াল প্রোগ্রামের জন্য আমাদের সাথে যোগাযোগ করুন।"
-        }
-      ],
-      "howItWorks": [
-        {
-          "step": "1",
-          "title": "সংগঠন লাইসেন্স মডেল",
-          "description": "প্রতিটি মডিউল আপনার প্রথম ৫টি অবস্থান কভার করে। অতিরিক্ত অবস্থান প্রতি অবস্থানের জন্য স্কেল করে।"
-        },
-        {
-          "step": "2",
-          "title": "কোর টিয়ার প্রয়োজন",
-          "description": "মডিউলগুলি রিয়েল-টাইম বিশেষায়িত বুদ্ধিমত্তার জন্য কোর টিয়ারের জন্য একচেটিয়া।"
         }
       ],
       "categories": [
@@ -5339,423 +4184,66 @@ export const generatedLocalCopy = {
   },
   "localizedModulesUi": {
     "fr": {
-      "overviewNote": "La licence d'organisation couvre vos 5 premiers emplacements, puis s'adapte par emplacement.",
-      "examplesLabel": "Exemples :",
-      "exampleLines": [
-        "• 3 emplacements : La licence d'organisation couvre tous",
-        "• 12 emplacements : Licence d'organisation + 7 emplacements supplémentaires",
-        "• Mélangez et associez à différents emplacements"
-      ],
-      "refreshLabels": [
-        "Rafraîchissement de 4 heures avec intelligence opérationnelle spécialisée",
-        "Rafraîchissement de 2 heures avec intelligence spécialisée approfondie",
-        "Rafraîchissement personnalisé avec intelligence spécialisée illimitée"
-      ],
-      "stackLabels": [
-        "Core Lite + Modules",
-        "Core Pro + Modules",
-        "Enterprise + Modules"
-      ],
       "faqButtonLabel": "Questions Fréquemment Posées"
     },
     "es": {
-      "overviewNote": "La licencia de organización cubre tus primeras 5 ubicaciones y luego se escala por ubicación.",
-      "examplesLabel": "Ejemplos:",
-      "exampleLines": [
-        "• 3 ubicaciones: La licencia de organización cubre todas",
-        "• 12 ubicaciones: Licencia de organización + 7 ubicaciones adicionales",
-        "• Mezcla y combina en diferentes ubicaciones"
-      ],
-      "refreshLabels": [
-        "Actualización cada 4 horas con inteligencia operativa especializada",
-        "Actualización cada 2 horas con inteligencia especializada profunda",
-        "Actualización personalizada con inteligencia especializada ilimitada"
-      ],
-      "stackLabels": [
-        "Core Lite + Módulos",
-        "Core Pro + Módulos",
-        "Enterprise + Módulos"
-      ],
       "faqButtonLabel": "Preguntas Frecuentes"
     },
     "de": {
-      "overviewNote": "Die Organisationslizenz deckt Ihre ersten 5 Standorte ab und skaliert dann pro Standort.",
-      "examplesLabel": "Beispiele:",
-      "exampleLines": [
-        "• 3 Standorte: Organisationslizenz deckt alle ab",
-        "• 12 Standorte: Org-Lizenz + 7 Zusatzstandorte",
-        "• Mix & Match an verschiedenen Standorten"
-      ],
-      "refreshLabels": [
-        "4-Stunden-Aktualisierung mit spezialisierter Betriebsintelligenz",
-        "2-Stunden-Aktualisierung mit tiefgreifender spezialisierter Intelligenz",
-        "Benutzerdefinierte Aktualisierung mit unbegrenzter spezialisierter Intelligenz"
-      ],
-      "stackLabels": [
-        "Core Lite + Module",
-        "Core Pro + Module",
-        "Enterprise + Module"
-      ],
       "faqButtonLabel": "Häufig gestellte Fragen"
     },
     "nl": {
-      "overviewNote": "De organisatie licentie dekt je eerste 5 locaties, daarna schaalt het per locatie.",
-      "examplesLabel": "Voorbeelden:",
-      "exampleLines": [
-        "• 3 locaties: Organisatie licentie dekt alles",
-        "• 12 locaties: Org licentie + 7 extra locaties",
-        "• Mix & match op verschillende locaties"
-      ],
-      "refreshLabels": [
-        "4-uurs verversing met gespecialiseerde operationele intelligentie",
-        "2-uurs verversing met diepe gespecialiseerde intelligentie",
-        "Aangepaste verversing met onbeperkte gespecialiseerde intelligentie"
-      ],
-      "stackLabels": [
-        "Core Lite + Modules",
-        "Core Pro + Modules",
-        "Enterprise + Modules"
-      ],
       "faqButtonLabel": "Veelgestelde Vragen"
     },
     "ar": {
-      "overviewNote": "ترخيص المنظمة يغطي أول 5 مواقع لك، ثم يتوسع لكل موقع.",
-      "examplesLabel": "أمثلة:",
-      "exampleLines": [
-        "• 3 مواقع: ترخيص المنظمة يغطي الكل",
-        "• 12 موقع: ترخيص المنظمة + 7 مواقع إضافية",
-        "• مزج وتطابق في مواقع مختلفة"
-      ],
-      "refreshLabels": [
-        "تحديث كل 4 ساعات مع ذكاء تشغيلي متخصص",
-        "تحديث كل ساعتين مع ذكاء متخصص عميق",
-        "تحديث مخصص مع ذكاء متخصص غير محدود"
-      ],
-      "stackLabels": [
-        "Core Lite + Modules",
-        "Core Pro + Modules",
-        "Enterprise + Modules"
-      ],
       "faqButtonLabel": "الأسئلة المتكررة"
     },
     "pt": {
-      "overviewNote": "A licença da organização cobre suas primeiras 5 localizações, depois escala por localização.",
-      "examplesLabel": "Exemplos:",
-      "exampleLines": [
-        "• 3 localizações: A licença da organização cobre todas",
-        "• 12 localizações: Licença da org + 7 localizações adicionais",
-        "• Misture e combine em diferentes localizações"
-      ],
-      "refreshLabels": [
-        "Atualização de 4 horas com inteligência operacional especializada",
-        "Atualização de 2 horas com inteligência especializada profunda",
-        "Atualização personalizada com inteligência especializada ilimitada"
-      ],
-      "stackLabels": [
-        "Core Lite + Módulos",
-        "Core Pro + Módulos",
-        "Enterprise + Módulos"
-      ],
       "faqButtonLabel": "Perguntas Frequentes"
     },
     "ur": {
-      "overviewNote": "تنظیمات کا لائسنس آپ کے پہلے 5 مقامات کا احاطہ کرتا ہے، پھر ہر مقام کے لحاظ سے بڑھتا ہے۔",
-      "examplesLabel": "مثالیں:",
-      "exampleLines": [
-        "• 3 مقامات: تنظیم کا لائسنس سب کو احاطہ کرتا ہے",
-        "• 12 مقامات: تنظیم کا لائسنس + 7 اضافی مقامات",
-        "• مختلف مقامات پر ملا جلا استعمال کریں"
-      ],
-      "refreshLabels": [
-        "4 گھنٹے کی تازہ کاری خصوصی عملیاتی ذہانت کے ساتھ",
-        "2 گھنٹے کی تازہ کاری گہری خصوصی ذہانت کے ساتھ",
-        "حسب ضرورت تازہ کاری لامحدود خصوصی ذہانت کے ساتھ"
-      ],
-      "stackLabels": [
-        "Core Lite + ماڈیولز",
-        "Core Pro + ماڈیولز",
-        "Enterprise + ماڈیولز"
-      ],
       "faqButtonLabel": "اکثر پوچھے جانے والے سوالات"
     },
     "hi": {
-      "overviewNote": "संगठन लाइसेंस आपके पहले 5 स्थानों को कवर करता है, फिर प्रत्येक स्थान के अनुसार बढ़ता है।",
-      "examplesLabel": "उदाहरण:",
-      "exampleLines": [
-        "• 3 स्थान: संगठन लाइसेंस सभी को कवर करता है",
-        "• 12 स्थान: संगठन लाइसेंस + 7 अतिरिक्त स्थान",
-        "• विभिन्न स्थानों पर मिलाएं और चुनें"
-      ],
-      "refreshLabels": [
-        "4-घंटे का रिफ्रेश विशेष परिचालन बुद्धिमत्ता के साथ",
-        "2-घंटे का रिफ्रेश गहन विशेष बुद्धिमत्ता के साथ",
-        "अनलिमिटेड विशेष बुद्धिमत्ता के साथ कस्टम रिफ्रेश"
-      ],
-      "stackLabels": [
-        "Core Lite + मॉड्यूल",
-        "Core Pro + मॉड्यूल",
-        "एंटरप्राइज + मॉड्यूल"
-      ],
       "faqButtonLabel": "अक्सर पूछे जाने वाले प्रश्न"
     },
     "tr": {
-      "overviewNote": "Organizasyon lisansı ilk 5 lokasyonunuzu kapsar, ardından her lokasyon başına ölçeklenir.",
-      "examplesLabel": "Örnekler:",
-      "exampleLines": [
-        "• 3 lokasyon: Organizasyon lisansı hepsini kapsar",
-        "• 12 lokasyon: Org lisansı + 7 ek lokasyon",
-        "• Farklı lokasyonlarda karıştır ve eşleştir"
-      ],
-      "refreshLabels": [
-        "4 saatlik yenileme ile özel operasyonel zeka",
-        "2 saatlik yenileme ile derin özel zeka",
-        "Sınırsız özel zeka ile özel yenileme"
-      ],
-      "stackLabels": [
-        "Core Lite + Modüller",
-        "Core Pro + Modüller",
-        "Enterprise + Modüller"
-      ],
       "faqButtonLabel": "Sıkça Sorulan Sorular"
     },
     "it": {
-      "overviewNote": "La licenza dell'organizzazione copre i tuoi primi 5 locali, poi si espande per ogni locale.",
-      "examplesLabel": "Esempi:",
-      "exampleLines": [
-        "• 3 locali: La licenza dell'organizzazione copre tutti",
-        "• 12 locali: Licenza dell'org + 7 locali aggiuntivi",
-        "• Mix & match in diversi locali"
-      ],
-      "refreshLabels": [
-        "Aggiornamento ogni 4 ore con intelligenza operativa specializzata",
-        "Aggiornamento ogni 2 ore con intelligenza specializzata approfondita",
-        "Aggiornamento personalizzato con intelligenza specializzata illimitata"
-      ],
-      "stackLabels": [
-        "Core Lite + Moduli",
-        "Core Pro + Moduli",
-        "Enterprise + Moduli"
-      ],
       "faqButtonLabel": "Domande Frequenti"
     },
     "pl": {
-      "overviewNote": "Licencja organizacji obejmuje Twoje pierwsze 5 lokalizacji, a następnie skaluje się na każdą lokalizację.",
-      "examplesLabel": "Przykłady:",
-      "exampleLines": [
-        "• 3 lokalizacje: Licencja organizacji obejmuje wszystkie",
-        "• 12 lokalizacji: Licencja organizacji + 7 dodatkowych lokalizacji",
-        "• Mieszaj i dopasowuj w różnych lokalizacjach"
-      ],
-      "refreshLabels": [
-        "Odświeżenie co 4 godziny z wyspecjalizowaną inteligencją operacyjną",
-        "Odświeżenie co 2 godziny z głęboką wyspecjalizowaną inteligencją",
-        "Niestandardowe odświeżenie z nieograniczoną wyspecjalizowaną inteligencją"
-      ],
-      "stackLabels": [
-        "Core Lite + Moduły",
-        "Core Pro + Moduły",
-        "Enterprise + Moduły"
-      ],
       "faqButtonLabel": "Najczęściej Zadawane Pytania"
     },
     "zh-Hans": {
-      "overviewNote": "组织许可证涵盖您的前 5 个地点，然后按地点扩展。",
-      "examplesLabel": "示例：",
-      "exampleLines": [
-        "• 3 个地点：组织许可证涵盖所有",
-        "• 12 个地点：组织许可证 + 7 个附加地点",
-        "• 在不同地点混合搭配"
-      ],
-      "refreshLabels": [
-        "4 小时刷新，提供专业的运营智能",
-        "2 小时刷新，提供深度专业智能",
-        "自定义刷新，提供无限专业智能"
-      ],
-      "stackLabels": [
-        "Core Lite + 模块",
-        "Core Pro + 模块",
-        "企业版 + 模块"
-      ],
       "faqButtonLabel": "常见问题"
     },
     "ja": {
-      "overviewNote": "組織ライセンスは最初の5つのロケーションをカバーし、その後はロケーションごとにスケールします。",
-      "examplesLabel": "例：",
-      "exampleLines": [
-        "• 3つのロケーション：組織ライセンスがすべてをカバー",
-        "• 12のロケーション：組織ライセンス + 7つの追加ロケーション",
-        "• 異なるロケーションでのミックス＆マッチ"
-      ],
-      "refreshLabels": [
-        "専門的な運用インテリジェンスによる4時間のリフレッシュ",
-        "深い専門的インテリジェンスによる2時間のリフレッシュ",
-        "無制限の専門的インテリジェンスによるカスタムリフレッシュ"
-      ],
-      "stackLabels": [
-        "Core Lite + モジュール",
-        "Core Pro + モジュール",
-        "エンタープライズ + モジュール"
-      ],
       "faqButtonLabel": "よくある質問"
     },
     "id": {
-      "overviewNote": "Lisensi organisasi mencakup 5 lokasi pertama Anda, kemudian berkembang per lokasi.",
-      "examplesLabel": "Contoh:",
-      "exampleLines": [
-        "• 3 lokasi: Lisensi organisasi mencakup semuanya",
-        "• 12 lokasi: Lisensi organisasi + 7 lokasi tambahan",
-        "• Campur & padankan di lokasi yang berbeda"
-      ],
-      "refreshLabels": [
-        "Pembaruan 4 jam dengan intelijen operasional khusus",
-        "Pembaruan 2 jam dengan intelijen khusus mendalam",
-        "Pembaruan kustom dengan intelijen khusus tanpa batas"
-      ],
-      "stackLabels": [
-        "Core Lite + Modul",
-        "Core Pro + Modul",
-        "Enterprise + Modul"
-      ],
       "faqButtonLabel": "Pertanyaan yang Sering Diajukan"
     },
     "vi": {
-      "overviewNote": "Giấy phép tổ chức bao gồm 5 địa điểm đầu tiên của bạn, sau đó mở rộng theo từng địa điểm.",
-      "examplesLabel": "Ví dụ:",
-      "exampleLines": [
-        "• 3 địa điểm: Giấy phép tổ chức bao gồm tất cả",
-        "• 12 địa điểm: Giấy phép tổ chức + 7 địa điểm bổ sung",
-        "• Kết hợp tại các địa điểm khác nhau"
-      ],
-      "refreshLabels": [
-        "Làm mới 4 giờ với trí tuệ hoạt động chuyên biệt",
-        "Làm mới 2 giờ với trí tuệ chuyên sâu",
-        "Làm mới tùy chỉnh với trí tuệ chuyên biệt không giới hạn"
-      ],
-      "stackLabels": [
-        "Core Lite + Mô-đun",
-        "Core Pro + Mô-đun",
-        "Enterprise + Mô-đun"
-      ],
       "faqButtonLabel": "Câu hỏi thường gặp"
     },
     "ro": {
-      "overviewNote": "Licența organizației acoperă primele 5 locații, apoi se scalează pe locație.",
-      "examplesLabel": "Exemple:",
-      "exampleLines": [
-        "• 3 locații: Licența organizației acoperă toate",
-        "• 12 locații: Licența organizației + 7 locații suplimentare",
-        "• Mix & match în diferite locații"
-      ],
-      "refreshLabels": [
-        "Actualizare la fiecare 4 ore cu inteligență operațională specializată",
-        "Actualizare la fiecare 2 ore cu inteligență specializată profundă",
-        "Actualizare personalizată cu inteligență specializată nelimitată"
-      ],
-      "stackLabels": [
-        "Core Lite + Module",
-        "Core Pro + Module",
-        "Enterprise + Module"
-      ],
       "faqButtonLabel": "Întrebări frecvente"
     },
     "ko": {
-      "overviewNote": "조직 라이센스는 처음 5개 위치를 포함하며, 이후 위치당 확장됩니다.",
-      "examplesLabel": "예시:",
-      "exampleLines": [
-        "• 3개 위치: 조직 라이센스가 모두 포함됨",
-        "• 12개 위치: 조직 라이센스 + 7개 추가 위치",
-        "• 다양한 위치에서 혼합 및 조합 가능"
-      ],
-      "refreshLabels": [
-        "4시간마다 전문 운영 인텔리전스 갱신",
-        "2시간마다 심층 전문 인텔리전스 갱신",
-        "무제한 전문 인텔리전스 맞춤 갱신"
-      ],
-      "stackLabels": [
-        "Core Lite + 모듈",
-        "Core Pro + 모듈",
-        "Enterprise + 모듈"
-      ],
       "faqButtonLabel": "자주 묻는 질문"
     },
     "sv": {
-      "overviewNote": "Organisationslicensen täcker dina första 5 platser, sedan skalar den per plats.",
-      "examplesLabel": "Exempel:",
-      "exampleLines": [
-        "• 3 platser: Organisationslicensen täcker alla",
-        "• 12 platser: Org-licens + 7 tilläggsplatser",
-        "• Blanda och matcha på olika platser"
-      ],
-      "refreshLabels": [
-        "4-timmars uppdatering med specialiserad operativ intelligens",
-        "2-timmars uppdatering med djup specialiserad intelligens",
-        "Anpassad uppdatering med obegränsad specialiserad intelligens"
-      ],
-      "stackLabels": [
-        "Core Lite + Moduler",
-        "Core Pro + Moduler",
-        "Enterprise + Moduler"
-      ],
       "faqButtonLabel": "Vanliga frågor"
     },
     "th": {
-      "overviewNote": "ใบอนุญาตองค์กรครอบคลุมสถานที่แรก 5 แห่ง จากนั้นจะขยายตามจำนวนสถานที่",
-      "examplesLabel": "ตัวอย่าง:",
-      "exampleLines": [
-        "• 3 สถานที่: ใบอนุญาตองค์กรครอบคลุมทั้งหมด",
-        "• 12 สถานที่: ใบอนุญาตองค์กร + สถานที่เพิ่มเติม 7 แห่ง",
-        "• ผสมและจับคู่ที่สถานที่ต่างๆ"
-      ],
-      "refreshLabels": [
-        "การรีเฟรชทุก 4 ชั่วโมงด้วยข้อมูลเชิงปฏิบัติการเฉพาะทาง",
-        "การรีเฟรชทุก 2 ชั่วโมงด้วยข้อมูลเชิงลึกเฉพาะทาง",
-        "การรีเฟรชแบบกำหนดเองด้วยข้อมูลเชิงลึกเฉพาะทางไม่จำกัด"
-      ],
-      "stackLabels": [
-        "Core Lite + โมดูล",
-        "Core Pro + โมดูล",
-        "Enterprise + โมดูล"
-      ],
       "faqButtonLabel": "คำถามที่พบบ่อย"
     },
     "ms": {
-      "overviewNote": "Lesen organisasi merangkumi 5 lokasi pertama anda, kemudian berkembang mengikut lokasi.",
-      "examplesLabel": "Contoh:",
-      "exampleLines": [
-        "• 3 lokasi: Lesen organisasi merangkumi semua",
-        "• 12 lokasi: Lesen organisasi + 7 lokasi tambahan",
-        "• Campur & padan di lokasi yang berbeza"
-      ],
-      "refreshLabels": [
-        "Penyegaran 4 jam dengan kecerdasan operasi khusus",
-        "Penyegaran 2 jam dengan kecerdasan khusus yang mendalam",
-        "Penyegaran khusus dengan kecerdasan khusus tanpa had"
-      ],
-      "stackLabels": [
-        "Core Lite + Modul",
-        "Core Pro + Modul",
-        "Enterprise + Modul"
-      ],
       "faqButtonLabel": "Soalan Lazim"
     },
     "bn": {
-      "overviewNote": "সংগঠন লাইসেন্স আপনার প্রথম ৫টি অবস্থান কভার করে, তারপর প্রতি অবস্থানের জন্য স্কেল করে।",
-      "examplesLabel": "উদাহরণ:",
-      "exampleLines": [
-        "• ৩টি অবস্থান: সংগঠন লাইসেন্স সব কভার করে",
-        "• ১২টি অবস্থান: সংগঠন লাইসেন্স + ৭টি অ্যাড-অন অবস্থান",
-        "• বিভিন্ন অবস্থানে মিশ্রণ ও মেলানো"
-      ],
-      "refreshLabels": [
-        "৪-ঘণ্টার রিফ্রেশ বিশেষায়িত অপারেশনাল ইন্টেলিজেন্স সহ",
-        "২-ঘণ্টার রিফ্রেশ গভীর বিশেষায়িত ইন্টেলিজেন্স সহ",
-        "কাস্টম রিফ্রেশ অসীম বিশেষায়িত ইন্টেলিজেন্স সহ"
-      ],
-      "stackLabels": [
-        "Core Lite + মডিউল",
-        "Core Pro + মডিউল",
-        "এন্টারপ্রাইজ + মডিউল"
-      ],
       "faqButtonLabel": "প্রায়শই জিজ্ঞাসিত প্রশ্ন"
     }
   }

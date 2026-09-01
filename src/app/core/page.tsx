@@ -12,6 +12,12 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { galleryHeading } from "@/components/home/sections/galleryHeadingsCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import {
+  CORE_PACKAGES_BY_ID,
+  describeBands,
+  usd,
+  type CorePackageId,
+} from '@/lib/pricing/priceBook'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { coreCreamCopy } from "./coreCreamCopy";
@@ -20,72 +26,100 @@ const localizedCoreCopy = {
   en: {
     hero: {
       badge: "Sundae Core",
-      title: 'Real-Time Operations. Not End-of-Day Reports.',
+      title: 'Find the Leak. Recover the Profit.',
       description:
-        "Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift - not after the damage is done.",
+        "Connected to your POS, labor, inventory, and every system that matters. Core finds the profit leak, routes the fix to an accountable owner, and measures the recovered margin against a baseline.",
       primary: "Explore Core Tiers",
       secondary: "Book a Demo",
     },
     realTime: {
-      heading: "The Real-Time Intelligence Layer",
+      heading: "The Closed-Loop Intelligence Layer",
       description:
-        "Built for operators who can't wait for end-of-day reports. Whether you manage 10 locations or 100+, Core gives you the speed to see what's happening now, understand why it matters, and get recommended actions before problems escalate.",
+        "Built for operators who need the money back, not another dashboard. Whether you manage 10 locations or 100+, Core finds what's leaking, routes the fix to a named owner, and measures the recovered margin against a baseline - so every decision closes the loop.",
       cards: [
-        { title: "Predictive, Not Reactive", desc: "Get alerts before problems become expensive. Sundae Coach recommendations for immediate action - not dashboards that update.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Measured, Not Just Flagged", desc: "Sundae Coach routes each leak to an accountable owner, then measures the recovered margin against a baseline - not a dashboard that only updates.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Every Location, One View", desc: "Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "Grows With You", desc: "From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise - the platform scales as you do.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "Grows With You", desc: "From one location to a thousand. The package sets the depth; the location bands set the price as you add sites.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "WHERE THE MARGIN GOES",
+      heading: "Four places profit leaks. Your package decides which ones you close.",
+      description: "Start from the loss, not the licence. Each package covers a different set of the four - Core Performance covers all of them.",
+      areas: [
+        { title: "Revenue & Profit", loss: "Voids, comps, discounts and mispriced items that never show up as a line you can question.", covered: "Revenue and profit intelligence, revenue assurance, item-level contribution.", icon: "cost" as SundaeIconName },
+        { title: "Food & Supply", loss: "The gap between what you ordered, what you used and what you sold - waste, variance and vendor price drift.", covered: "Inventory and purchasing intelligence, theoretical versus actual usage, supplier movement.", icon: "insights" as SundaeIconName },
+        { title: "Guest & Market", loss: "Covers that never arrive, guests who do not return, and channel margin eaten after commission.", covered: "Guest experience and CRM, reservations, delivery economics, marketing attribution, peer benchmarks.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Decisions taken late, on last month's numbers, with no way to tell afterwards whether they worked.", covered: "Forecasting, scenario modelling and the approve-in-the-loop action layer. An expansion on top of Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
+    proof: {
+      eyebrow: "HOW YOU KNOW IT'S REAL",
+      heading: "Anyone can claim recovery. Sundae lets you check.",
+      description: "A recovered number is only worth trusting if you can see whether it truly happened. Sundae answers the three questions a careful operator - or their CFO - always asks.",
+      items: [
+        { question: "Is the loop actually closing?", title: "Loop Health", desc: "See how many detected leaks actually reach a measured result - the real close-rate, not a vanity count. It is the one number that tells you the loop is working, and it stays honest when that number is low.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { question: "Would that have happened anyway?", title: "Like-for-like baselines", desc: "Every recovered number is measured against a matching, full-week baseline - same days, same rhythm - so a real gain is never mistaken for an ordinary busy week.", icon: "benchmarking" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
+        { question: "Did it pay for itself?", title: "Return on Sundae", desc: "See the value you recovered set against what you pay, period by period - the proof, in measured money, that Sundae more than covers its cost.", icon: "finance" as SundaeIconName, color: "from-green-500 to-green-600" },
+      ],
+      honesty: "And when the evidence isn't there, Sundae says so. Every result stays directional until a human confirms it, and a detector stays silent rather than invent a number.",
+    },
     tiers: {
-      eyebrow: "CHOOSE YOUR TIER",
-      heading: "Three Tiers for Every Scale",
-      description: "From growing operations to global enterprises. Pick your speed.",
+      eyebrow: "CHOOSE YOUR PACKAGE",
+      heading: "Four Core packages",
+      description: "Each package covers a different set of the four areas. Pick the one that matches where your margin is going.",
       bestForLabel: "Best for:",
       viewPrefix: "See",
+      priceLabel: "first location / month",
+      bandsLabel: "Then, per additional location",
+      walletLabel: "AI credits / month",
       items: [
         {
-          name: "Core Lite",
-          badge: "Growing Operations",
-          subtitle: "Real-Time Intelligence for 1-29 Locations",
-          description: "For restaurant groups scaling from single-location to multi-location operations. 4-hour refresh cycles and single POS integration.",
-          features: ["4-hour refresh (6x daily)", "600 base credits + 120/location", "30 custom dashboards", "2-year retention", "Single POS integration", "Email + Chat + Phone support"],
-          bestFor: "1-10 locations, single-brand portfolios",
+          packageId: "core_foundation" as CorePackageId,
+          areas: "Covers Revenue & Profit",
+          name: "Core Foundation",
+          badge: "Start here",
+          subtitle: "The operating baseline",
+          description: "One place to decide from, over POS, labor, cost and operations, refreshed while the shift is still running.",
+          bestFor: "Groups getting off spreadsheets and disconnected dashboards",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
+          packageId: "core_margin" as CorePackageId,
+          areas: "Covers Revenue & Profit, Food & Supply",
+          name: "Core Margin",
           badge: "Most Popular",
-          subtitle: "Optimized for 30-100 Location Portfolios",
-          description: "For established multi-location operators who need faster refresh cycles and advanced forecasting across brands.",
-          features: ["2-hour refresh (12x daily)", "1,200 base credits + 240/location", "75 custom dashboards", "3-year retention", "Multi-POS support", "Priority phone support (2hr SLA)"],
-          bestFor: "30-100 locations, multi-brand operators",
+          subtitle: "Depth on cost and leakage",
+          description: "Theoretical vs. actual usage, waste, shrinkage, voids and comps, and item-level contribution.",
+          bestFor: "Operators whose margin is leaking faster than they can see it",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "Custom Everything",
-          subtitle: "Built for 100+ Locations",
-          description: "For large-scale operations requiring custom refresh frequency, unlimited dashboards, white-label, SSO, and dedicated support.",
-          features: ["Custom refresh frequency", "Unlimited credits", "Unlimited dashboards", "Custom retention", "White-label, SSO, dedicated CSM", "24/7 support with custom SLAs"],
-          bestFor: "100+ locations, multi-brand enterprises",
+          packageId: "core_growth" as CorePackageId,
+          areas: "Covers Revenue & Profit, Guest & Market",
+          name: "Core Growth",
+          badge: "Demand side",
+          subtitle: "Depth on demand",
+          description: "Guest cohorts and lifetime value, promo attribution by channel, delivery margin after commission.",
+          bestFor: "Groups pushing on repeat revenue and channel mix",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          areas: "Covers all four areas, incl. Foresight & Action",
+          name: "Core Performance",
+          badge: "Full depth",
+          subtitle: "Multi-brand, multi-region",
+          description: "Consolidation across brands and regions, cross-module correlation, governed access with audit trails.",
+          bestFor: "Large groups running several brands or several markets",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "The 4D Intelligence Model",
-      description: "Core delivers all four dimensions - expanded.",
-      items: [
-        { dimension: "1D", title: "What Happened", status: "Real-Time", description: "Complete operational truth, updated every 2-4 hours. Near real-time visibility for same-shift interventions.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs. Actual", status: "Real-Time", description: "Real-time budget variance tracking. Flash reporting for finance teams. Week-to-date and month-to-date visibility.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Market Context", status: "Expanded", description: "Full benchmarking suite (30+ metrics). Portfolio comparisons. Competitive context via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "What's Next", status: "Expanded", description: "14-30 day forecasting. Proactive alerts before problems escalate. Sundae Coach recommendations with confidence scores.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
       badge: "Included with Core",
       heading: "Pulse: Your Shift Command Center",
-      description: "See anomalies the moment they happen. Coach your team in real time. Confirm results before the shift ends.",
+      description: "See anomalies the moment they happen. Route the fix to the manager on shift. Then measure the margin you recovered against the baseline.",
       features: [
         { name: "Sales & Pace", description: "Intraday sales pacing, KPIs, and hourly trend visualization", icon: "chart" as SundaeIconName },
         { name: "Labor Live", description: "Intraday labor pacing, overtime risk tracking, and break compliance", icon: "benchmarking" as SundaeIconName },
@@ -114,33 +148,33 @@ const localizedCoreCopy = {
       heading: "Add Modules for Specialized Intelligence",
       description: "Deepen Core with focused modules for your specific operational challenges.",
       items: [
-        { name: "Labor Intelligence", description: "Real-time schedule optimization, predictive labor demand", icon: "benchmarking" as SundaeIconName },
-        { name: "Inventory Intelligence", description: "Real-time waste tracking, automated par levels", icon: "insights" as SundaeIconName },
-        { name: "Purchasing Intelligence", description: "Real-time price optimization, vendor comparison", icon: "marketing" as SundaeIconName },
-        { name: "Marketing Intelligence", description: "Real-time campaign tracking, CAC monitoring", icon: "growth" as SundaeIconName },
-        { name: "Reservations Intelligence", description: "Real-time booking patterns, table optimization", icon: "operators" as SundaeIconName },
+        { name: "Labor Intelligence", description: "Same-shift schedule optimization, predictive labor demand", icon: "benchmarking" as SundaeIconName },
+        { name: "Inventory Intelligence", description: "Same-shift waste tracking, automated par levels", icon: "insights" as SundaeIconName },
+        { name: "Purchasing Intelligence", description: "Price movement tracking, vendor comparison", icon: "marketing" as SundaeIconName },
+        { name: "Marketing Intelligence", description: "Same-shift campaign tracking, CAC monitoring", icon: "growth" as SundaeIconName },
+        { name: "Reservations Intelligence", description: "Same-shift booking patterns, table optimization", icon: "operators" as SundaeIconName },
       ],
       button: "Explore All Modules",
     },
     watchtower: {
-      heading: "Core + Watchtower = Complete Intelligence",
+      heading: "Watchtower brings the outside world into Core",
       description: "Core tells you how you're performing right now. Watchtower tells you what's happening around you. Together, they give you the complete picture - internal operations and external market context in one intelligence layer.",
       button: "Learn About Watchtower",
     },
     faq: {
       heading: "Frequently Asked Questions",
       items: [
-        { q: "What's the difference between Core Lite and Core Pro?", a: "Core Lite: 4-hour refresh, 600 base credits, 30 dashboards, single POS. Core Pro: 2-hour refresh, 1,200 base credits, 75 dashboards, multi-POS support." },
-        { q: "Can I upgrade from Report to Core?", a: "Yes. All historical data is preserved. Transition with no data loss." },
-        { q: "Do I need Core if I only have 5 locations?", a: "Not required, but recommended if you need operational speed (2-4 hour refresh). Report works great for 1-10 locations if daily reports are sufficient." },
-        { q: "Can Core handle multiple POS systems?", a: "Core Pro and Enterprise support multi-POS environments. Core Lite supports single POS across all locations." },
+        { q: "How do the four Core packages differ?", a: "They cover different areas, not the same ground at different depths. Foundation is the operating baseline; Margin adds cost and leakage depth; Growth adds guest, promo and channel depth; Performance adds multi-brand and multi-region consolidation with governed access." },
+        { q: "Can I move up a package later?", a: "Yes. Your full connected history is preserved and nothing is re-onboarded - you change the depth, not the data." },
+        { q: "Is Core worth it at five locations?", a: "Yes. Five locations carry the package anchor and the first band, and get the same coverage a fifty-location group gets. The location bands only start to matter as you add sites." },
+        { q: "Can Core handle multiple POS systems?", a: "Yes. Core connects across mixed POS estates, and Core Performance adds consolidation across brands and regions on top." },
         { q: "Can I use Core with Watchtower?", a: "Highly recommended. Core provides internal intelligence, Watchtower adds external market intelligence for complete visibility." },
         { q: "Can I use Core with Modules?", a: "Yes. All 5 specialized modules work with Core to deepen intelligence in specific operational areas." },
       ],
     },
     cta: {
-      title: "Stop Managing Yesterday's Numbers",
-      description: "See what real-time operational intelligence looks like with your actual data.",
+      title: "Stop Reporting the Leak. Recover It.",
+      description: "Watch Core find the leak, route the fix, and measure the recovered margin against your baseline - on your actual data.",
       primary: "Explore Core Tiers",
       secondary: "Book a Demo",
     },
@@ -148,72 +182,100 @@ const localizedCoreCopy = {
   ar: {
     hero: {
       badge: "Sundae Core",
-      title: "العمليات الفورية. لا تقارير نهاية اليوم.",
+      title: "اكشف التسرب. استرجع الربح.",
       description:
-        "متصل بنقاط البيع والعمالة والمخزون وكل نظام مهم. يحدث Core كل 2-4 ساعات حتى تتحرك أثناء الوردية - لا بعد انتهاء الضرر.",
+        "متصل بنقاط البيع والعمالة والمخزون وكل نظام مهم. يكشف Core تسرّب الربح، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الهامش المسترجع مقابل خط أساس.",
       primary: "استعرض مستويات Core",
       secondary: "احجز عرضاً",
     },
     realTime: {
-      heading: "طبقة الذكاء الفوري",
+      heading: "طبقة الذكاء ذات الحلقة المغلقة",
       description:
-        "مصمم للمشغلين الذين لا يستطيعون انتظار تقارير نهاية اليوم. سواء كنت تدير 10 مواقع او 100+، يمنحك Core السرعة لترى ما يحدث الان، وتفهم لماذا يهم، وتحصل على توصيات قبل تفاقم المشكلات.",
+        "مصمم للمشغلين الذين يريدون استرجاع المال، لا لوحة تحكم أخرى. سواء كنت تدير 10 مواقع او 100+، يكشف Core ما يتسرّب، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الهامش المسترجع مقابل خط أساس - فيغلق كل قرار الحلقة.",
       cards: [
-        { title: "استباقي لا تفاعلي", desc: "تنبيهات قبل ان تتحول المشكلات الى تكلفة. توصيات Sundae Coach للعمل الفوري - لا لوحات تحكم تتحدث متأخرة.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "مقيس، لا مجرّد تنبيه", desc: "يوجّه Sundae Coach كل تسرّب إلى مسؤول محدّد، ثم يقيس الهامش المسترجع مقابل خط أساس - لا لوحة تحكم تكتفي بالتحديث.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "كل موقع في عرض واحد", desc: "رؤية موحدة عبر كل المواقع. أنماط على مستوى المحفظة وتفاصيل على مستوى الموقع في لوحة واحدة.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "ينمو معك", desc: "من 10 الى اكثر من 1,000 موقع. Core Lite او Pro او Enterprise - المنصة تتوسع معك.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "ينمو معك", desc: "من موقع واحد إلى ألف. الباقة تحدد العمق، وشرائح المواقع تحدد السعر كلما أضفت موقعًا.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "أين يذهب الهامش",
+      heading: "أربعة مواضع يتسرب منها الربح. وباقتك تحدد أيها تُغلق.",
+      description: "ابدأ من الخسارة لا من الترخيص. كل باقة تغطي مجموعة مختلفة من المواضع الأربعة، وCore Performance يغطيها جميعاً.",
+      areas: [
+        { title: "الإيراد والربح", loss: "إلغاءات ومجانيات وخصومات وأصناف مسعّرة خطأً لا تظهر أبداً كبند يمكنك مساءلته.", covered: "ذكاء الإيراد والربح، وضمان الإيراد، ومساهمة كل صنف.", icon: "cost" as SundaeIconName },
+        { title: "الطعام والتوريد", loss: "الفجوة بين ما طلبته وما استُهلك وما بِيع - هدر وانحراف وتغيّر أسعار المورّدين.", covered: "ذكاء المخزون والمشتريات، والاستهلاك النظري مقابل الفعلي، وحركة المورّدين.", icon: "insights" as SundaeIconName },
+        { title: "الضيف والسوق", loss: "حجوزات لا تصل، وضيوف لا يعودون، وهامش قناة يلتهمه العمولة.", covered: "تجربة الضيف وCRM، والحجوزات، واقتصاديات التوصيل، وإسناد التسويق، ومقارنات النظراء.", icon: "operators" as SundaeIconName },
+        { title: "الاستشراف والتنفيذ", loss: "قرارات تُتخذ متأخرة، بأرقام الشهر الماضي، دون طريقة لمعرفة إن كانت قد نجحت.", covered: "التوقّع ونمذجة السيناريوهات وطبقة التنفيذ باعتماد بشري. توسعة فوق Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
+    proof: {
+      eyebrow: "كيف تعرف أنه حقيقي",
+      heading: "أي أحد يستطيع ادّعاء الاسترجاع. Sundae يتيح لك التحقّق.",
+      description: "الرقم المسترجع لا يستحق الثقة إلا إذا كان بإمكانك رؤية ما إذا كان قد حدث فعلاً. يجيب Sundae عن الأسئلة الثلاثة التي يطرحها دائماً مشغّل حصيف - أو مديره المالي (CFO).",
+      items: [
+        { question: "هل تُغلَق الحلقة فعلاً؟", title: "صحة الحلقة", desc: "اطّلع على كم من التسرّبات المكتشفة تصل فعلاً إلى نتيجة مقيسة - معدّل الإغلاق الحقيقي، لا عدّ استعراضي. إنه الرقم الوحيد الذي يخبرك أن الحلقة تعمل، ويبقى صادقاً حين يكون ذلك الرقم منخفضاً.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { question: "هل كان ذلك ليحدث على أي حال؟", title: "خطوط أساس مكافئة", desc: "كل رقم مسترجع يُقاس مقابل خط أساس مطابق لأسبوع كامل - الأيام نفسها والإيقاع نفسه - كي لا يُخلَط مكسب حقيقي بأسبوع مزدحم عادي.", icon: "benchmarking" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
+        { question: "هل غطّى تكلفته؟", title: "العائد على Sundae", desc: "انظر إلى القيمة التي استرجعتها مقابل ما تدفعه، فترةً بفترة - الدليل، بالمال المقيس، على أن Sundae يغطّي تكلفته وأكثر.", icon: "finance" as SundaeIconName, color: "from-green-500 to-green-600" },
+      ],
+      honesty: "وحين لا يتوفّر الدليل، يقولها Sundae صراحةً. تبقى كل نتيجة توجيهية حتى يؤكّدها إنسان، ويظل الكاشف صامتاً بدل أن يختلق رقماً.",
+    },
     tiers: {
-      eyebrow: "اختر المستوى",
-      heading: "ثلاثة مستويات لكل حجم",
-      description: "من العمليات النامية الى المؤسسات العالمية. اختر السرعة المناسبة لك.",
+      eyebrow: "اختر باقتك",
+      heading: "أربع باقات Core",
+      description: "كل باقة تغطي مجموعة مختلفة من المجالات الأربعة. اختر ما يناسب المكان الذي يتسرب منه هامشك.",
       bestForLabel: "الانسب لـ:",
       viewPrefix: "عرض",
+      priceLabel: "للموقع الأول شهريًا",
+      bandsLabel: "ثم لكل موقع إضافي",
+      walletLabel: "رصيد ذكاء شهريًا",
       items: [
         {
-          name: "Core Lite",
-          badge: "عمليات نامية",
-          subtitle: "ذكاء فوري لـ 1-29 موقعاً",
-          description: "للمجموعات التي تتوسع من موقع واحد الى عمليات متعددة المواقع. دورات تحديث كل 4 ساعات وتكامل POS واحد.",
-          features: ["تحديث كل 4 ساعات (6 مرات يومياً)", "600 رصيد اساسي + 120 لكل موقع", "30 لوحة مخصصة", "احتفاظ لمدة سنتين", "تكامل POS واحد", "دعم عبر البريد والدردشة والهاتف"],
-          bestFor: "1-10 مواقع، محافظ بعلامة واحدة",
+          packageId: "core_foundation" as CorePackageId,
+          areas: "يغطي الإيراد والربح",
+          name: "Core Foundation",
+          badge: "ابدأ هنا",
+          subtitle: "الأساس التشغيلي",
+          description: "ركيزة قرار واحدة فوق نقاط البيع والعمالة والتكلفة والعمليات، تتحدّث والوردية ما زالت قائمة.",
+          bestFor: "المجموعات المنتقلة من الجداول ولوحات المعلومات المتفرقة",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
-          badge: "الاكثر شيوعاً",
-          subtitle: "مصمم لمحافظ 30-100 موقع",
-          description: "للمشغلين متعددي المواقع الذين يحتاجون دورات تحديث اسرع وتوقعات متقدمة عبر العلامات.",
-          features: ["تحديث كل ساعتين (12 مرة يومياً)", "1,200 رصيد اساسي + 240 لكل موقع", "75 لوحة مخصصة", "احتفاظ لمدة 3 سنوات", "دعم Multi-POS", "دعم هاتفي مميز (SLA ساعتان)"],
-          bestFor: "30-100 موقع، مشغلون متعددو العلامات",
+          packageId: "core_margin" as CorePackageId,
+          areas: "يغطي الإيراد والربح، والطعام والتوريد",
+          name: "Core Margin",
+          badge: "الأكثر شيوعًا",
+          subtitle: "عمق في التكلفة والتسرب",
+          description: "الاستهلاك النظري مقابل الفعلي، والهدر، والفاقد، والإلغاءات والمجانيات، ومساهمة كل صنف.",
+          bestFor: "المشغلون الذين يتسرب هامشهم أسرع مما يرون",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "تخصيص كامل",
-          subtitle: "مصمم لـ 100+ موقع",
-          description: "للعمليات الكبيرة التي تحتاج وتيرة تحديث مخصصة، ولوحات غير محدودة، وعلامة بيضاء، وSSO، ودعماً مخصصاً.",
-          features: ["وتيرة تحديث مخصصة", "رصيد غير محدود", "لوحات غير محدودة", "احتفاظ مخصص", "علامة بيضاء وSSO ومدير نجاح مخصص", "دعم 24/7 مع SLAs مخصصة"],
-          bestFor: "100+ موقع، مؤسسات متعددة العلامات",
+          packageId: "core_growth" as CorePackageId,
+          areas: "يغطي الإيراد والربح، والضيف والسوق",
+          name: "Core Growth",
+          badge: "جانب الطلب",
+          subtitle: "عمق في الطلب",
+          description: "شرائح الضيوف وقيمتهم مدى الحياة، وإسناد العروض حسب القناة، وهامش التوصيل بعد العمولة.",
+          bestFor: "المجموعات التي تركز على الإيراد المتكرر ومزيج القنوات",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          areas: "يغطي المجالات الأربعة، بما فيها الاستشراف والتنفيذ",
+          name: "Core Performance",
+          badge: "العمق الكامل",
+          subtitle: "متعدد العلامات والأسواق",
+          description: "التجميع عبر العلامات والمناطق، والترابط بين الوحدات، ووصول محوكم بسجل تدقيق.",
+          bestFor: "المجموعات الكبيرة التي تدير عدة علامات أو عدة أسواق",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "نموذج الذكاء الرباعي",
-      description: "Core يقدم جميع الابعاد الاربعة - وبشكل موسع.",
-      items: [
-        { dimension: "1D", title: "ماذا حدث", status: "فوري", description: "حقيقة تشغيلية كاملة تحدث كل 2-4 ساعات. رؤية شبه فورية للتدخل داخل الوردية.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "الخطة مقابل الفعلي", status: "فوري", description: "تتبع فوري لانحرافات الميزانية. تقارير سريعة لفرق المالية. رؤية من بداية الاسبوع حتى اليوم ومن بداية الشهر حتى اليوم.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "سياق السوق", status: "موسع", description: "مجموعة مقارنات كاملة (30+ مقياس). مقارنات المحفظة. سياق تنافسي عبر Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "ما التالي", status: "موسع", description: "توقعات 14-30 يوماً. تنبيهات استباقية قبل تفاقم المشكلات. توصيات Sundae Coach مع درجات ثقة.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
       badge: "مضمن مع Core",
       heading: "Pulse: مركز قيادة الوردية",
-      description: "شاهد الشذوذات لحظة حدوثها. درّب فريقك في الوقت الحقيقي. تأكد من النتائج قبل انتهاء الوردية.",
+      description: "شاهد الشذوذات لحظة حدوثها. وجّه الإصلاح إلى مدير الوردية. ثم قِس الهامش الذي استرجعته مقابل خط الأساس.",
       features: [
         { name: "المبيعات والإيقاع", description: "وتيرة المبيعات خلال اليوم، ومؤشرات الاداء، وعرض الاتجاه بالساعة", icon: "chart" as SundaeIconName },
         { name: "العمالة المباشرة", description: "وتيرة العمالة خلال اليوم، وتتبع خطر العمل الاضافي، والالتزام بالاستراحات", icon: "benchmarking" as SundaeIconName },
@@ -251,24 +313,24 @@ const localizedCoreCopy = {
       button: "استعرض كل الوحدات",
     },
     watchtower: {
-      heading: "Core + Watchtower = ذكاء كامل",
+      heading: "Watchtower يُدخل العالم الخارجي إلى Core",
       description: "Core يخبرك بادائك الان. Watchtower يخبرك بما يحدث حولك. معاً يمنحانك الصورة الكاملة - العمليات الداخلية وسياق السوق الخارجي في طبقة ذكاء واحدة.",
       button: "تعرف على Watchtower",
     },
     faq: {
       heading: "الاسئلة الشائعة",
       items: [
-        { q: "ما الفرق بين Core Lite وCore Pro؟", a: "Core Lite: تحديث كل 4 ساعات، 600 رصيد اساسي، 30 لوحة، POS واحد. Core Pro: تحديث كل ساعتين، 1,200 رصيد اساسي، 75 لوحة، ودعم Multi-POS." },
-        { q: "هل يمكنني الترقية من Report الى Core؟", a: "نعم. يتم الحفاظ على كل البيانات التاريخية. الانتقال دون فقدان للبيانات." },
-        { q: "هل احتاج Core اذا كان لدي 5 مواقع فقط؟", a: "ليس ضرورياً، لكنه موصى به اذا كنت تحتاج سرعة تشغيلية (تحديث كل 2-4 ساعات). Report يعمل جيداً لـ 1-10 مواقع اذا كانت التقارير اليومية كافية." },
-        { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "يدعم Core Pro وEnterprise بيئات Multi-POS. Core Lite يدعم POS واحداً عبر كل المواقع." },
+        { q: "ما الفرق بين باقات Core الأربع؟", a: "الباقات تغطي مجالات مختلفة، لا المجال نفسه بأعماق مختلفة. Foundation هي الأساس التشغيلي، وMargin تضيف عمق التكلفة والتسرب، وGrowth تضيف عمق الضيوف والعروض والقنوات، وPerformance تضيف التجميع متعدد العلامات والمناطق مع وصول محوكم." },
+        { q: "هل يمكنني الانتقال إلى باقة أعلى لاحقاً؟", a: "نعم. يُحفَظ تاريخك المتصل بالكامل ولا يُعاد أي إعداد - أنت تغيّر العمق لا البيانات." },
+        { q: "هل تستحق Core العناء عند خمسة مواقع؟", a: "نعم. الخمسة مواقع تحمل مرتكز الباقة والنطاق الأول، وتحصل على التغطية نفسها التي تحصل عليها مجموعة من خمسين موقعاً. ونطاقات المواقع لا تبدأ في التأثير إلا مع إضافة مواقع." },
+        { q: "هل يستطيع Core التعامل مع عدة انظمة POS؟", a: "نعم. يتصل Core بأنظمة POS المختلطة، وتضيف Core Performance فوق ذلك التجميع عبر العلامات والمناطق." },
         { q: "هل يمكنني استخدام Core مع Watchtower؟", a: "موصى به بشدة. Core يوفر الذكاء الداخلي، وWatchtower يضيف ذكاء السوق الخارجي لرؤية كاملة." },
         { q: "هل يمكنني استخدام Core مع Modules؟", a: "نعم. جميع الوحدات المتخصصة الخمس تعمل مع Core لتعميق الذكاء في المجالات التشغيلية المحددة." },
       ],
     },
     cta: {
-      title: "توقف عن إدارة ارقام الامس",
-      description: "شاهد كيف يبدو الذكاء التشغيلي الفوري باستخدام بياناتك الفعلية.",
+      title: "توقف عن الإبلاغ عن التسرب. استرجعه.",
+      description: "شاهد Core يكشف التسرّب، ويوجّه الإصلاح، ويقيس الهامش المسترجع مقابل خط أساسك - على بياناتك الفعلية.",
       primary: "استعرض مستويات Core",
       secondary: "احجز عرضاً",
     },
@@ -276,215 +338,271 @@ const localizedCoreCopy = {
   fr: {
     hero: {
       badge: "Sundae Core",
-      title: "Operations en temps reel. Pas de rapports de fin de journee.",
+      title: "Trouvez la fuite. Récupérez la marge.",
       description:
-        "Connecte a votre POS, a la main-d oeuvre, aux stocks et a tous les systemes qui comptent. Core se rafraichit toutes les 2 a 4 heures pour que vous puissiez agir pendant le service - pas une fois le probleme deja cree.",
+        "Connecté à votre POS, à la main-d'œuvre, aux stocks et à tous les systèmes qui comptent. Core repère la fuite de marge, confie la correction à un responsable identifié et mesure la marge récupérée par rapport à une référence.",
       primary: "Explorer les niveaux Core",
-      secondary: "Reserver une demo",
+      secondary: "Réserver une démo",
     },
     realTime: {
-      heading: "La couche d intelligence en temps reel",
+      heading: "La couche d'intelligence en boucle fermée",
       description:
-        "Concu pour les exploitants qui ne peuvent pas attendre les rapports de fin de journee. Que vous gériez 10 sites ou 100+, Core vous donne la vitesse pour voir ce qui se passe maintenant, comprendre pourquoi c est important et obtenir des actions recommandees avant que les problemes ne s aggravent.",
+        "Conçu pour les exploitants qui veulent récupérer l'argent, pas un tableau de bord de plus. Que vous gériez 10 sites ou 100+, Core repère ce qui fuit, confie la correction à un responsable nommé et mesure la marge récupérée par rapport à une référence - chaque décision boucle la boucle.",
       cards: [
-        { title: "Predictif, pas reactif", desc: "Recevez des alertes avant que les problemes ne deviennent couteux. Les recommandations de Sundae Coach passent a l action - pas des tableaux qui se mettent a jour plus tard.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { title: "Chaque site, une seule vue", desc: "Visibilite unifiee sur tous les sites. Tendances au niveau du portefeuille et detail au niveau du site dans un seul panneau.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "Grandit avec vous", desc: "De 10 a plus de 1,000 sites. Core Lite, Pro ou Enterprise - la plateforme evolue avec vous.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "Mesuré, pas seulement signalé", desc: "Sundae Coach confie chaque fuite à un responsable identifié, puis mesure la marge récupérée par rapport à une référence - pas un tableau qui se contente de s'actualiser.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Chaque site, une seule vue", desc: "Visibilité unifiée sur tous les sites. Tendances au niveau du portefeuille et détail au niveau du site dans un seul panneau.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
+        { title: "Grandit avec vous", desc: "D'un site à un millier. L'offre fixe la profondeur, les tranches de sites fixent le prix à mesure que vous ajoutez.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "OÙ PART LA MARGE",
+      heading: "Quatre endroits où le profit fuit. Votre offre décide lesquels vous fermez.",
+      description: "Partez de la perte, pas de la licence. Chaque offre couvre un ensemble différent des quatre - Core Performance les couvre tous.",
+      areas: [
+        { title: "Revenu & Profit", loss: "Annulations, offerts, remises et articles mal tarifés qui n'apparaissent jamais comme une ligne que vous pouvez interroger.", covered: "Intelligence revenu et profit, revenue assurance, contribution par article.", icon: "cost" as SundaeIconName },
+        { title: "Nourriture & Approvisionnement", loss: "L'écart entre ce que vous avez commandé, consommé et vendu - gaspillage, écarts et dérive des prix fournisseurs.", covered: "Intelligence stocks et achats, consommation théorique contre réelle, mouvements fournisseurs.", icon: "insights" as SundaeIconName },
+        { title: "Client & Marché", loss: "Des couverts qui n'arrivent jamais, des clients qui ne reviennent pas, et une marge de canal mangée par la commission.", covered: "Expérience client et CRM, réservations, économie de la livraison, attribution marketing, benchmarks pairs.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Des décisions prises tard, sur les chiffres du mois dernier, sans moyen de savoir ensuite si elles ont marché.", covered: "Prévision, modélisation de scénarios et couche d'action avec validation humaine. Une expansion au-dessus de Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
+    proof: {
+      eyebrow: "COMMENT SAVOIR QUE C'EST RÉEL",
+      heading: "N'importe qui peut revendiquer une récupération. Sundae vous laisse vérifier.",
+      description: "Un montant récupéré ne mérite votre confiance que si vous pouvez voir s'il a vraiment eu lieu. Sundae répond aux trois questions qu'un exploitant rigoureux - ou son CFO - se pose toujours.",
+      items: [
+        { question: "La boucle se referme-t-elle vraiment ?", title: "Santé de la boucle", desc: "Voyez combien de fuites détectées aboutissent réellement à un résultat mesuré - le vrai taux de bouclage, pas un chiffre de façade. C'est le seul indicateur qui prouve que la boucle fonctionne, et il reste honnête même quand ce chiffre est bas.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { question: "Cela serait-il arrivé de toute façon ?", title: "Références comparables", desc: "Chaque montant récupéré est mesuré face à une référence équivalente sur une semaine entière - mêmes jours, même rythme - pour qu'un vrai gain ne soit jamais confondu avec une semaine simplement chargée.", icon: "benchmarking" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
+        { question: "Est-ce que ça s'est rentabilisé ?", title: "Retour sur Sundae", desc: "Voyez la valeur récupérée mise en regard de ce que vous payez, période après période - la preuve, en argent mesuré, que Sundae couvre largement son coût.", icon: "finance" as SundaeIconName, color: "from-green-500 to-green-600" },
+      ],
+      honesty: "Et quand la preuve manque, Sundae le dit. Chaque résultat reste indicatif jusqu'à ce qu'un humain le confirme, et un détecteur préfère se taire plutôt que d'inventer un chiffre.",
+    },
     tiers: {
-      eyebrow: "CHOISISSEZ VOTRE NIVEAU",
-      heading: "Trois niveaux pour chaque echelle",
-      description: "Des operations en croissance aux groupes globaux. Choisissez votre vitesse.",
-      bestForLabel: "Ideal pour :",
+      eyebrow: "CHOISISSEZ VOTRE OFFRE",
+      heading: "Quatre offres Core",
+      description: "Chaque offre couvre un ensemble différent des quatre domaines. Choisissez celle qui correspond à l'endroit où part votre marge.",
+      bestForLabel: "Idéal pour :",
       viewPrefix: "Voir",
+      priceLabel: "premier site / mois",
+      bandsLabel: "Puis, par site additionnel",
+      walletLabel: "crédits IA / mois",
       items: [
         {
-          name: "Core Lite",
-          badge: "Operations en croissance",
-          subtitle: "Intelligence en temps reel pour 1 a 29 sites",
-          description: "Pour les groupes qui passent d un seul site a des operations multi-sites. Rafraichissement toutes les 4 heures et une seule integration POS.",
-          features: ["Rafraichissement toutes les 4 heures (6 fois/jour)", "600 credits de base + 120/site", "30 tableaux de bord personnalises", "Retention 2 ans", "Une seule integration POS", "Support e-mail, chat et telephone"],
-          bestFor: "1 a 10 sites, portefeuilles mono-marque",
+          packageId: "core_foundation" as CorePackageId,
+          areas: "Couvre Revenu & Profit",
+          name: "Core Foundation",
+          badge: "Commencez ici",
+          subtitle: "Le socle opérationnel",
+          description: "Une seule base de décision sur le POS, la main-d'œuvre, les coûts et l'exploitation, rafraîchie pendant le service.",
+          bestFor: "Les groupes qui quittent les tableurs et les dashboards éparpillés",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
+          packageId: "core_margin" as CorePackageId,
+          areas: "Couvre Revenu & Profit, Nourriture & Approvisionnement",
+          name: "Core Margin",
           badge: "Le plus populaire",
-          subtitle: "Optimise pour des portefeuilles de 30 a 100 sites",
-          description: "Pour les exploitants multi-sites etablis qui ont besoin de cycles plus rapides et de previsions avancees sur plusieurs marques.",
-          features: ["Rafraichissement toutes les 2 heures (12 fois/jour)", "1,200 credits de base + 240/site", "75 tableaux de bord personnalises", "Retention 3 ans", "Support Multi-POS", "Support telephone prioritaire (SLA 2 h)"],
-          bestFor: "30 a 100 sites, exploitants multi-marques",
+          subtitle: "Profondeur sur les coûts et les pertes",
+          description: "Théorique contre réel, gaspillage, démarque, annulations et offerts, contribution par article.",
+          bestFor: "Les exploitants dont la marge fuit plus vite qu'ils ne la voient",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "Tout sur mesure",
-          subtitle: "Concu pour 100+ sites",
-          description: "Pour les operations a grande echelle qui necessitent une frequence de rafraichissement sur mesure, des tableaux illimites, le white-label, le SSO et un support dedie.",
-          features: ["Frequence de rafraichissement sur mesure", "Credits illimites", "Tableaux illimites", "Retention sur mesure", "White-label, SSO, CSM dedie", "Support 24/7 avec SLA personnalises"],
-          bestFor: "100+ sites, groupes multi-marques",
+          packageId: "core_growth" as CorePackageId,
+          areas: "Couvre Revenu & Profit, Client & Marché",
+          name: "Core Growth",
+          badge: "Côté demande",
+          subtitle: "Profondeur sur la demande",
+          description: "Cohortes clients et valeur vie, attribution des promos par canal, marge livraison après commission.",
+          bestFor: "Les groupes qui poussent le revenu récurrent et le mix de canaux",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          areas: "Couvre les quatre domaines, dont Foresight & Action",
+          name: "Core Performance",
+          badge: "Profondeur complète",
+          subtitle: "Multi-marques, multi-régions",
+          description: "Consolidation entre marques et régions, corrélation inter-modules, accès gouverné avec pistes d'audit.",
+          bestFor: "Les grands groupes qui opèrent plusieurs marques ou plusieurs marchés",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "Le modele d intelligence 4D",
-      description: "Core livre les quatre dimensions - en version etendue.",
-      items: [
-        { dimension: "1D", title: "Ce qui s est passe", status: "Temps reel", description: "Verite operationnelle complete, mise a jour toutes les 2 a 4 heures. Visibilite quasi temps reel pour intervenir pendant le service.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs reel", status: "Temps reel", description: "Suivi en temps reel des ecarts de budget. Flash reporting pour les equipes finance. Visibilite semaine a date et mois a date.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Contexte marche", status: "Etendu", description: "Suite complete de benchmarking (30+ indicateurs). Comparaisons de portefeuille. Contexte concurrentiel via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "Et ensuite ?", status: "Etendu", description: "Previsions 14 a 30 jours. Alertes proactives avant que les problemes ne s aggravent. Recommandations Sundae Coach avec scores de confiance.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
       badge: "Inclus avec Core",
       heading: "Pulse : votre centre de commande de service",
-      description: "Reperez les anomalies au moment ou elles se produisent. Coachez votre equipe en temps reel. Validez les resultats avant la fin du service.",
+      description: "Repérez les anomalies au moment où elles se produisent. Confiez la correction au manager en service. Puis mesurez la marge récupérée par rapport à la référence.",
       features: [
-        { name: "Ventes et cadence", description: "Rythme des ventes intrajournee, KPI et visualisation des tendances horaires", icon: "chart" as SundaeIconName },
-        { name: "Main-d oeuvre live", description: "Rythme de la main-d oeuvre, suivi du risque d heures sup et conformite des pauses", icon: "benchmarking" as SundaeIconName },
-        { name: "Suivi des fuites", description: "Suivi en temps reel des voids, comps et remises par service", icon: "cost" as SundaeIconName },
-        { name: "Vitesse de service et flux", description: "Goulots d etranglement, backlog et mesures de cadence cuisine", icon: "speed" as SundaeIconName },
-        { name: "Intelligence menu", description: "Catalogue d articles, matrice de classification (Stars/Plowhorses/Puzzles/Dogs)", icon: "insights" as SundaeIconName },
-        { name: "Alertes et playbooks", description: "Workflows de reponse automatises declenches par exception", icon: "forecasting" as SundaeIconName },
+        { name: "Ventes et cadence", description: "Rythme des ventes intrajournée, KPI et visualisation des tendances horaires", icon: "chart" as SundaeIconName },
+        { name: "Main-d'œuvre live", description: "Rythme de la main-d'œuvre, suivi du risque d'heures sup et conformité des pauses", icon: "benchmarking" as SundaeIconName },
+        { name: "Suivi des fuites", description: "Suivi en temps réel des voids, comps et remises par service", icon: "cost" as SundaeIconName },
+        { name: "Vitesse de service et flux", description: "Goulots d'étranglement, backlog et mesures de cadence cuisine", icon: "speed" as SundaeIconName },
+        { name: "Intelligence menu", description: "Catalogue d'articles, matrice de classification (Stars/Plowhorses/Puzzles/Dogs)", icon: "insights" as SundaeIconName },
+        { name: "Alertes et playbooks", description: "Workflows de réponse automatisés déclenchés par exception", icon: "forecasting" as SundaeIconName },
         { name: "Sundae Coach", description: "Signaux de coaching au niveau du service pour ventes, fuites et flux", icon: "intelligence" as SundaeIconName },
-        { name: "Classement du portefeuille", description: "Comparaison multi-sites avec suivi des series", icon: "multiLocation" as SundaeIconName },
-        { name: "Mode wallboard", description: "Affichage plein ecran pour cuisine ou salle", icon: "canvas" as SundaeIconName },
+        { name: "Classement du portefeuille", description: "Comparaison multi-sites avec suivi des séries", icon: "multiLocation" as SundaeIconName },
+        { name: "Mode wallboard", description: "Affichage plein écran pour cuisine ou salle", icon: "canvas" as SundaeIconName },
       ],
     },
     integrations: {
-      heading: "Connectez tous vos systemes",
-      description: "Core se connecte a 12 domaines de donnees avec plus de 80 integrations fournisseurs.",
+      heading: "Connectez tous vos systèmes",
+      description: "Core se connecte à 12 domaines de données avec plus de 80 intégrations fournisseurs.",
       items: [
-        { category: "Systemes POS", examples: "Oracle MICROS Simphony, Square, Toast, Clover et connecteurs de base de donnees directs", icon: "integration" as SundaeIconName },
-        { category: "Main-d oeuvre et personnel", examples: "7shifts, HotSchedules, Deputy", icon: "benchmarking" as SundaeIconName },
+        { category: "Systèmes POS", examples: "Oracle MICROS Simphony, Square, Toast, Clover et connecteurs de base de données directs", icon: "integration" as SundaeIconName },
+        { category: "Main-d'œuvre et personnel", examples: "7shifts, HotSchedules, Deputy", icon: "benchmarking" as SundaeIconName },
         { category: "Stocks et achats", examples: "MarketMan, Craftable, BinWise", icon: "insights" as SundaeIconName },
-        { category: "Comptabilite", examples: "QuickBooks, Xero, Sage, FreshBooks", icon: "finance" as SundaeIconName },
-        { category: "Reservations", examples: "OpenTable, Resy, SevenRooms, Tock", icon: "operators" as SundaeIconName },
+        { category: "Comptabilité", examples: "QuickBooks, Xero, Sage, FreshBooks", icon: "finance" as SundaeIconName },
+        { category: "Réservations", examples: "OpenTable, Resy, SevenRooms, Tock", icon: "operators" as SundaeIconName },
         { category: "Livraison et marketing", examples: "Deliverect, Uber Eats, DoorDash, Meta, Google Ads, Mailchimp", icon: "marketing" as SundaeIconName },
       ],
     },
     modules: {
-      heading: "Ajoutez des modules pour une intelligence specialisee",
-      description: "Approfondissez Core avec des modules cibles pour vos defis operationnels specifique.",
+      heading: "Ajoutez des modules pour une intelligence spécialisée",
+      description: "Approfondissez Core avec des modules ciblés pour vos défis opérationnels spécifique.",
       items: [
-        { name: "Intelligence de la main-d oeuvre", description: "Optimisation des plannings en temps reel, demande previsionnelle de main-d oeuvre", icon: "benchmarking" as SundaeIconName },
-        { name: "Intelligence des stocks", description: "Suivi des pertes en temps reel, niveaux par automatiques", icon: "insights" as SundaeIconName },
-        { name: "Intelligence des achats", description: "Optimisation des prix en temps reel, comparaison des fournisseurs", icon: "marketing" as SundaeIconName },
-        { name: "Intelligence marketing", description: "Suivi des campagnes en temps reel, suivi du CAC", icon: "growth" as SundaeIconName },
-        { name: "Intelligence des reservations", description: "Schemas de reservation en temps reel, optimisation des tables", icon: "operators" as SundaeIconName },
+        { name: "Intelligence de la main-d'œuvre", description: "Optimisation des plannings en temps réel, demande prévisionnelle de main-d'œuvre", icon: "benchmarking" as SundaeIconName },
+        { name: "Intelligence des stocks", description: "Suivi des pertes en temps réel, niveaux par automatiques", icon: "insights" as SundaeIconName },
+        { name: "Intelligence des achats", description: "Optimisation des prix en temps réel, comparaison des fournisseurs", icon: "marketing" as SundaeIconName },
+        { name: "Intelligence marketing", description: "Suivi des campagnes en temps réel, suivi du CAC", icon: "growth" as SundaeIconName },
+        { name: "Intelligence des réservations", description: "Schémas de réservation en temps réel, optimisation des tables", icon: "operators" as SundaeIconName },
       ],
       button: "Explorer tous les modules",
     },
     watchtower: {
-      heading: "Core + Watchtower = intelligence complete",
-      description: "Core vous dit comment vous performez maintenant. Watchtower vous dit ce qui se passe autour de vous. Ensemble, ils donnent la vue complete - operations internes et contexte marche externe dans une seule couche d intelligence.",
+      heading: "Watchtower fait entrer le monde extérieur dans Core",
+      description: "Core vous dit comment vous performez maintenant. Watchtower vous dit ce qui se passe autour de vous. Ensemble, ils donnent la vue complète - opérations internes et contexte marché externe dans une seule couche d'intelligence.",
       button: "En savoir plus sur Watchtower",
     },
     faq: {
-      heading: "Questions frequentes",
+      heading: "Questions fréquentes",
       items: [
-        { q: "Quelle est la difference entre Core Lite et Core Pro ?", a: "Core Lite : rafraichissement toutes les 4 heures, 600 credits de base, 30 tableaux, un seul POS. Core Pro : rafraichissement toutes les 2 heures, 1,200 credits de base, 75 tableaux, support Multi-POS." },
-        { q: "Puis-je passer de Report a Core ?", a: "Oui. Toutes les donnees historiques sont conservees. La transition se fait sans perte de donnees." },
-        { q: "Ai-je besoin de Core si je n ai que 5 sites ?", a: "Pas obligatoire, mais recommande si vous avez besoin de vitesse operationnelle (rafraichissement toutes les 2 a 4 heures). Report fonctionne tres bien pour 1 a 10 sites si les rapports quotidiens suffisent." },
-        { q: "Core peut-il gerer plusieurs systemes POS ?", a: "Core Pro et Enterprise prennent en charge les environnements Multi-POS. Core Lite prend en charge un seul POS sur tous les sites." },
-        { q: "Puis-je utiliser Core avec Watchtower ?", a: "Fortement recommande. Core fournit l intelligence interne, Watchtower ajoute l intelligence marche externe pour une visibilite complete." },
-        { q: "Puis-je utiliser Core avec les Modules ?", a: "Oui. Les 5 modules specialises fonctionnent avec Core pour approfondir l intelligence dans des zones operationnelles specifiques." },
+        { q: "Quelle est la différence entre les quatre offres Core ?", a: "Les offres couvrent des domaines différents, et non le même périmètre à des profondeurs différentes. Foundation est le socle opérationnel, Margin ajoute la profondeur coûts et pertes, Growth la profondeur client, promo et canal, Performance la consolidation multi-marques et multi-régions avec accès gouverné." },
+        { q: "Puis-je passer à une offre supérieure plus tard ?", a: "Oui. Tout votre historique connecté est conservé et rien n'est re-onboardé : vous changez la profondeur, pas les données." },
+        { q: "Core vaut-il le coup à cinq sites ?", a: "Oui. Cinq sites portent l'ancrage de l'offre et le premier palier, et reçoivent la même couverture qu'un groupe de cinquante. Les paliers par site ne comptent qu'à partir du moment où vous en ajoutez." },
+        { q: "Core peut-il gérer plusieurs systèmes POS ?", a: "Oui. Core se connecte à des parcs POS hétérogènes, et Core Performance ajoute par-dessus la consolidation entre marques et régions." },
+        { q: "Puis-je utiliser Core avec Watchtower ?", a: "Fortement recommandé. Core fournit l'intelligence interne, Watchtower ajoute l'intelligence marché externe pour une visibilité complète." },
+        { q: "Puis-je utiliser Core avec les Modules ?", a: "Oui. Les 5 modules spécialisés fonctionnent avec Core pour approfondir l'intelligence dans des zones opérationnelles spécifiques." },
       ],
     },
     cta: {
-      title: "Arretez de gerer les chiffres d hier",
-      description: "Voyez a quoi ressemble l intelligence operationnelle en temps reel avec vos vraies donnees.",
+      title: "Arrêtez de signaler la fuite. Récupérez-la.",
+      description: "Voyez Core repérer la fuite, confier la correction et mesurer la marge récupérée par rapport à votre référence - sur vos vraies données.",
       primary: "Explorer les niveaux Core",
-      secondary: "Reserver une demo",
+      secondary: "Réserver une démo",
     },
   },
   es: {
     hero: {
       badge: "Sundae Core",
-      title: "Operaciones en tiempo real. No reportes de fin de dia.",
+      title: "Encuentra la fuga. Recupera el margen.",
       description:
-        "Conectado a tu POS, personal, inventario y cada sistema importante. Core se actualiza cada 2 a 4 horas para que puedas actuar durante el turno - no despues de que ya paso el daño.",
+        "Conectado a tu POS, personal, inventario y cada sistema importante. Core encuentra la fuga de margen, asigna la solución a un responsable con nombre y mide el margen recuperado frente a una línea base.",
       primary: "Explorar niveles de Core",
       secondary: "Reservar demo",
     },
     realTime: {
-      heading: "La vista operativa en tiempo real",
+      heading: "La vista operativa de ciclo cerrado",
       description:
-        "Hecho para operadores que no pueden esperar al cierre del dia. Tanto si gestionas 10 locales como 100+, Core te ayuda a ver lo que pasa ahora, entender por que importa y actuar antes de que los problemas se hagan mas caros.",
+        "Hecho para operadores que quieren recuperar el dinero, no otro panel. Tanto si gestionas 10 locales como 100+, Core encuentra lo que se fuga, asigna la solución a un responsable con nombre y mide el margen recuperado frente a una línea base - y así cada decisión cierra el ciclo.",
       cards: [
-        { title: "Predictivo, no reactivo", desc: "Recibe alertas antes de que los problemas se vuelvan costosos. Recomendaciones de Sundae Coach para actuar al momento - no paneles que se actualizan tarde.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { title: "Medido, no solo señalado", desc: "Sundae Coach asigna cada fuga a un responsable con nombre y luego mide el margen recuperado frente a una línea base - no un panel que solo se actualiza.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
         { title: "Cada local, una sola vista", desc: "Visibilidad unificada en todos los locales. Patrones a nivel cartera y detalle a nivel local en un solo panel.", icon: "multiLocation" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { title: "Crece contigo", desc: "De 10 a mas de 1,000 locales. Core Lite, Pro o Enterprise - la plataforma escala contigo.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+        { title: "Crece contigo", desc: "De un local a mil. El paquete marca la profundidad y los tramos de locales marcan el precio según añades sitios.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
       ],
     },
+    solves: {
+      eyebrow: "DÓNDE SE VA EL MARGEN",
+      heading: "Cuatro sitios por donde se fuga el beneficio. Tu paquete decide cuáles cierras.",
+      description: "Empieza por la pérdida, no por la licencia. Cada paquete cubre un conjunto distinto de los cuatro; Core Performance los cubre todos.",
+      areas: [
+        { title: "Ingresos y Beneficio", loss: "Anulaciones, invitaciones, descuentos y artículos mal tarifados que nunca aparecen como una línea que puedas cuestionar.", covered: "Inteligencia de ingresos y beneficio, revenue assurance, contribución por artículo.", icon: "cost" as SundaeIconName },
+        { title: "Comida y Suministro", loss: "La brecha entre lo que pediste, lo que usaste y lo que vendiste: merma, desviación y deriva de precios de proveedor.", covered: "Inteligencia de inventario y compras, consumo teórico frente a real, movimiento de proveedores.", icon: "insights" as SundaeIconName },
+        { title: "Cliente y Mercado", loss: "Comensales que no llegan, clientes que no vuelven y margen de canal comido por la comisión.", covered: "Experiencia de cliente y CRM, reservas, economía del delivery, atribución de marketing, benchmarks de pares.", icon: "operators" as SundaeIconName },
+        { title: "Foresight & Action", loss: "Decisiones tomadas tarde, con las cifras del mes pasado, sin forma de saber después si funcionaron.", covered: "Previsión, modelado de escenarios y la capa de acción con aprobación humana. Una expansión sobre Core.", icon: "forecasting" as SundaeIconName },
+      ],
+    },
+    proof: {
+      eyebrow: "CÓMO SABES QUE ES REAL",
+      heading: "Cualquiera puede afirmar que recuperó. Sundae te deja comprobarlo.",
+      description: "Una cifra recuperada solo merece confianza si puedes ver si de verdad ocurrió. Sundae responde a las tres preguntas que un operador cuidadoso - o su CFO - siempre hace.",
+      items: [
+        { question: "¿De verdad se está cerrando el ciclo?", title: "Salud del ciclo", desc: "Mira cuántas fugas detectadas llegan de verdad a un resultado medido - la tasa de cierre real, no un número de vanidad. Es la única cifra que te dice que el ciclo funciona, y sigue siendo honesta cuando esa cifra es baja.", icon: "forecasting" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
+        { question: "¿No habría pasado de todos modos?", title: "Bases comparables", desc: "Cada cifra recuperada se mide contra una base equivalente de una semana completa - los mismos días, el mismo ritmo - para que una ganancia real nunca se confunda con una semana simplemente ajetreada.", icon: "benchmarking" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
+        { question: "¿Se pagó a sí mismo?", title: "Retorno sobre Sundae", desc: "Mira el valor que recuperaste frente a lo que pagas, periodo a periodo - la prueba, en dinero medido, de que Sundae cubre de sobra su coste.", icon: "finance" as SundaeIconName, color: "from-green-500 to-green-600" },
+      ],
+      honesty: "Y cuando la evidencia no está, Sundae lo dice. Cada resultado queda como indicativo hasta que una persona lo confirma, y un detector prefiere callar antes que inventar una cifra.",
+    },
     tiers: {
-      eyebrow: "ELIGE TU NIVEL",
-      heading: "Tres niveles para cada escala",
-      description: "Desde operaciones en crecimiento hasta empresas globales. Elige tu ritmo.",
+      eyebrow: "ELIGE TU PAQUETE",
+      heading: "Cuatro paquetes Core",
+      description: "Cada paquete cubre un conjunto distinto de las cuatro áreas. Elige el que se ajuste a por dónde se va tu margen.",
       bestForLabel: "Ideal para:",
       viewPrefix: "Ver",
+      priceLabel: "primer local / mes",
+      bandsLabel: "Después, por local adicional",
+      walletLabel: "créditos de IA / mes",
       items: [
         {
-          name: "Core Lite",
-          badge: "Operaciones en crecimiento",
-          subtitle: "Inteligencia en tiempo real para 1 a 29 locales",
-          description: "Para grupos que escalan de un local a operaciones multi-local. Ciclos de actualizacion de 4 horas y una sola integracion POS.",
-          features: ["Actualizacion cada 4 horas (6 veces al dia)", "600 creditos base + 120 por local", "30 paneles personalizados", "Retencion de 2 anos", "Una integracion POS", "Soporte por email, chat y telefono"],
-          bestFor: "1 a 10 locales, carteras de una sola marca",
+          packageId: "core_foundation" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio",
+          name: "Core Foundation",
+          badge: "Empieza aquí",
+          subtitle: "La base operativa",
+          description: "Un único sustrato de decisión sobre POS, personal, costes y operación, actualizado con el turno todavía en marcha.",
+          bestFor: "Grupos que dejan atrás hojas de cálculo y paneles sueltos",
           color: "from-[#FF7E6F] to-[#FF5C4D]",
         },
         {
-          name: "Core Pro",
-          badge: "Mas popular",
-          subtitle: "Optimizado para carteras de 30 a 100 locales",
-          description: "Para operadores multi-local establecidos que necesitan ciclos de actualizacion mas rapidos y pronosticos avanzados entre marcas.",
-          features: ["Actualizacion cada 2 horas (12 veces al dia)", "1,200 creditos base + 240 por local", "75 paneles personalizados", "Retencion de 3 anos", "Soporte Multi-POS", "Soporte telefonico prioritario (SLA de 2 h)"],
-          bestFor: "30 a 100 locales, operadores multi-marca",
+          packageId: "core_margin" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio, Comida y Suministro",
+          name: "Core Margin",
+          badge: "Más popular",
+          subtitle: "Profundidad en coste y fuga",
+          description: "Teórico frente a real, merma, desperdicio, anulaciones e invitaciones, contribución por artículo.",
+          bestFor: "Operadores cuyo margen se fuga más rápido de lo que pueden ver",
           color: "from-[#F2B45C] to-[#C2410C]",
         },
         {
-          name: "Enterprise",
-          badge: "Todo a medida",
-          subtitle: "Hecho para 100+ locales",
-          description: "Para operaciones a gran escala que requieren frecuencia de actualizacion personalizada, paneles ilimitados, white-label, SSO y soporte dedicado.",
-          features: ["Frecuencia de actualizacion personalizada", "Creditos ilimitados", "Paneles ilimitados", "Retencion personalizada", "White-label, SSO, CSM dedicado", "Soporte 24/7 con SLAs personalizados"],
-          bestFor: "100+ locales, empresas multi-marca",
+          packageId: "core_growth" as CorePackageId,
+          areas: "Cubre Ingresos y Beneficio, Cliente y Mercado",
+          name: "Core Growth",
+          badge: "Lado demanda",
+          subtitle: "Profundidad en demanda",
+          description: "Cohortes de clientes y valor de vida, atribución de promociones por canal, margen de delivery tras comisión.",
+          bestFor: "Grupos que empujan el ingreso recurrente y el mix de canales",
+          color: "from-[#E9A24A] to-[#F2C078]",
+        },
+        {
+          packageId: "core_performance" as CorePackageId,
+          areas: "Cubre las cuatro áreas, incl. Foresight & Action",
+          name: "Core Performance",
+          badge: "Profundidad completa",
+          subtitle: "Multimarca, multirregión",
+          description: "Consolidación entre marcas y regiones, correlación entre módulos, acceso gobernado con auditoría.",
+          bestFor: "Grupos grandes que operan varias marcas o varios mercados",
           color: "from-orange-500 to-orange-600",
         },
-      ],
-    },
-    dimensions: {
-      heading: "El modelo de inteligencia 4D",
-      description: "Core entrega las cuatro dimensiones - ampliadas.",
-      items: [
-        { dimension: "1D", title: "Que paso", status: "Tiempo real", description: "Verdad operativa completa, actualizada cada 2 a 4 horas. Visibilidad casi en tiempo real para intervenir durante el turno.", icon: "report" as SundaeIconName, color: "from-[#FF7E6F] to-[#FF5C4D]" },
-        { dimension: "2D", title: "Plan vs real", status: "Tiempo real", description: "Seguimiento en tiempo real de la variacion presupuestaria. Flash reporting para equipos financieros. Visibilidad semana a la fecha y mes a la fecha.", icon: "marketing" as SundaeIconName, color: "from-[#F2B45C] to-[#C2410C]" },
-        { dimension: "3D", title: "Contexto de mercado", status: "Ampliado", description: "Suite completa de benchmarking (30+ metricas). Comparaciones de cartera. Contexto competitivo via Watchtower.", icon: "multiLocation" as SundaeIconName, color: "from-green-500 to-green-600" },
-        { dimension: "4D", title: "Que sigue", status: "Ampliado", description: "Pronosticos de 14 a 30 dias. Alertas proactivas antes de que los problemas escalen. Recomendaciones de Sundae Coach con puntuaciones de confianza.", icon: "growth" as SundaeIconName, color: "from-orange-500 to-orange-600" },
       ],
     },
     pulse: {
       badge: "Incluido con Core",
       heading: "Pulse: tu centro de comando del turno",
-      description: "Ve las anomalias en el momento en que suceden. Entrena a tu equipo en tiempo real. Confirma resultados antes de que termine el turno.",
+      description: "Ve las anomalías en el momento en que suceden. Asigna la solución al gerente del turno. Luego mide el margen que recuperaste frente a la línea base.",
       features: [
-        { name: "Ventas e ritmo", description: "Ritmo de ventas intradia, KPI y visualizacion de tendencias por hora", icon: "chart" as SundaeIconName },
-        { name: "Labor en vivo", description: "Ritmo laboral intradia, seguimiento del riesgo de horas extra y cumplimiento de descansos", icon: "benchmarking" as SundaeIconName },
+        { name: "Ventas e ritmo", description: "Ritmo de ventas intradía, KPI y visualización de tendencias por hora", icon: "chart" as SundaeIconName },
+        { name: "Labor en vivo", description: "Ritmo laboral intradía, seguimiento del riesgo de horas extra y cumplimiento de descansos", icon: "benchmarking" as SundaeIconName },
         { name: "Monitoreo de fugas", description: "Monitoreo en tiempo real de voids, comps y descuentos por turno", icon: "cost" as SundaeIconName },
-        { name: "Velocidad de servicio y flujo", description: "Cuellos de botella, backlog y metricas de ritmo de cocina", icon: "speed" as SundaeIconName },
-        { name: "Inteligencia de menu", description: "Catalogo de articulos, matriz de clasificacion (Stars/Plowhorses/Puzzles/Dogs)", icon: "insights" as SundaeIconName },
+        { name: "Velocidad de servicio y flujo", description: "Cuellos de botella, backlog y métricas de ritmo de cocina", icon: "speed" as SundaeIconName },
+        { name: "Inteligencia de menú", description: "Catálogo de artículos, matriz de clasificación (Stars/Plowhorses/Puzzles/Dogs)", icon: "insights" as SundaeIconName },
         { name: "Alertas y playbooks", description: "Workflows de respuesta automatizados activados por excepciones", icon: "forecasting" as SundaeIconName },
         { name: "Sundae Coach", description: "Señales de coaching por turno para ventas, fugas y flujo", icon: "intelligence" as SundaeIconName },
-        { name: "Tabla de posiciones de cartera", description: "Comparacion de rendimiento multi-local con seguimiento de rachas", icon: "multiLocation" as SundaeIconName },
+        { name: "Tabla de posiciones de cartera", description: "Comparación de rendimiento multi-local con seguimiento de rachas", icon: "multiLocation" as SundaeIconName },
         { name: "Modo wallboard", description: "Pantalla completa para cocina o sala", icon: "canvas" as SundaeIconName },
       ],
     },
     integrations: {
       heading: "Conecta todos tus sistemas",
-      description: "Core se conecta a 12 dominios de datos con mas de 80 integraciones de proveedores.",
+      description: "Core se conecta a 12 dominios de datos con más de 80 integraciones de proveedores.",
       items: [
         { category: "Sistemas POS", examples: "Oracle MICROS Simphony, Square, Toast, Clover y conectores directos a base de datos", icon: "integration" as SundaeIconName },
         { category: "Labor y fuerza laboral", examples: "7shifts, HotSchedules, Deputy", icon: "benchmarking" as SundaeIconName },
@@ -495,36 +613,36 @@ const localizedCoreCopy = {
       ],
     },
     modules: {
-      heading: "Agrega modulos para inteligencia especializada",
-      description: "Profundiza Core con modulos enfocados para tus desafios operativos especificos.",
+      heading: "Agrega módulos para inteligencia especializada",
+      description: "Profundiza Core con módulos enfocados para tus desafíos operativos específicos.",
       items: [
-        { name: "Inteligencia laboral", description: "Optimizacion de horarios en tiempo real y demanda laboral predictiva", icon: "benchmarking" as SundaeIconName },
+        { name: "Inteligencia laboral", description: "Optimización de horarios en tiempo real y demanda laboral predictiva", icon: "benchmarking" as SundaeIconName },
         { name: "Inteligencia de inventario", description: "Seguimiento de desperdicio en tiempo real y niveles par automatizados", icon: "insights" as SundaeIconName },
-        { name: "Inteligencia de compras", description: "Optimizacion de precios en tiempo real y comparacion de proveedores", icon: "marketing" as SundaeIconName },
+        { name: "Inteligencia de compras", description: "Optimización de precios en tiempo real y comparación de proveedores", icon: "marketing" as SundaeIconName },
         { name: "Inteligencia de marketing", description: "Seguimiento de campañas en tiempo real y monitoreo de CAC", icon: "growth" as SundaeIconName },
-        { name: "Inteligencia de reservas", description: "Patrones de reserva en tiempo real y optimizacion de mesas", icon: "operators" as SundaeIconName },
+        { name: "Inteligencia de reservas", description: "Patrones de reserva en tiempo real y optimización de mesas", icon: "operators" as SundaeIconName },
       ],
-      button: "Explorar todos los modulos",
+      button: "Explorar todos los módulos",
     },
     watchtower: {
-      heading: "Core + Watchtower = inteligencia completa",
-      description: "Core te muestra como va la operacion ahora. Watchtower te da el contexto del mercado que la rodea. Juntos te dan una lectura completa para decidir con mas criterio.",
-      button: "Saber mas sobre Watchtower",
+      heading: "Watchtower trae el mundo exterior a Core",
+      description: "Core te muestra cómo va la operación ahora. Watchtower te da el contexto del mercado que la rodea. Juntos te dan una lectura completa para decidir con más criterio.",
+      button: "Saber más sobre Watchtower",
     },
     faq: {
       heading: "Preguntas frecuentes",
       items: [
-        { q: "Cual es la diferencia entre Core Lite y Core Pro?", a: "Core Lite: actualizacion cada 4 horas, 600 creditos base, 30 paneles, un solo POS. Core Pro: actualizacion cada 2 horas, 1,200 creditos base, 75 paneles, soporte Multi-POS." },
-        { q: "Puedo pasar de Report a Core?", a: "Si. Se conservan todos los datos historicos. La transicion ocurre sin perdida de datos." },
-        { q: "Necesito Core si solo tengo 5 locales?", a: "No es obligatorio, pero se recomienda si necesitas velocidad operativa (actualizacion cada 2 a 4 horas). Report funciona muy bien para 1 a 10 locales si los reportes diarios son suficientes." },
-        { q: "Core puede manejar varios sistemas POS?", a: "Core Pro y Enterprise admiten entornos Multi-POS. Core Lite admite un solo POS en todos los locales." },
-        { q: "Puedo usar Core con Watchtower?", a: "Muy recomendable. Core aporta inteligencia interna y Watchtower añade inteligencia externa de mercado para visibilidad completa." },
-        { q: "Puedo usar Core con Modules?", a: "Si. Los 5 modulos especializados funcionan con Core para profundizar la inteligencia en areas operativas especificas." },
+        { q: "¿En qué se diferencian los cuatro paquetes Core?", a: "Cubren áreas distintas, no el mismo terreno a distintas profundidades. Foundation es la base operativa, Margin añade profundidad de coste y fuga, Growth añade profundidad de cliente, promoción y canal, y Performance añade consolidación multimarca y multirregión con acceso gobernado." },
+        { q: "¿Puedo subir de paquete más adelante?", a: "Sí. Se conserva todo tu histórico conectado y no se vuelve a incorporar nada: cambias la profundidad, no los datos." },
+        { q: "¿Merece la pena Core con cinco locales?", a: "Sí. Cinco locales soportan el anclaje del paquete y el primer tramo, y reciben la misma cobertura que un grupo de cincuenta. Los tramos por local solo empiezan a importar cuando añades sitios." },
+        { q: "¿Core puede manejar varios sistemas POS?", a: "Sí. Core se conecta a parques POS mixtos, y Core Performance añade encima la consolidación entre marcas y regiones." },
+        { q: "¿Puedo usar Core con Watchtower?", a: "Muy recomendable. Core aporta inteligencia interna y Watchtower añade inteligencia externa de mercado para visibilidad completa." },
+        { q: "¿Puedo usar Core con Modules?", a: "Sí. Los 5 módulos especializados funcionan con Core para profundizar la inteligencia en áreas operativas específicas." },
       ],
     },
     cta: {
-      title: "Deja de gestionar los numeros de ayer",
-      description: "Mira como se ve la inteligencia operativa en tiempo real con tus datos reales.",
+      title: "Deja de reportar la fuga. Recupérala.",
+      description: "Mira a Core encontrar la fuga, asignar la solución y medir el margen recuperado frente a tu línea base - con tus datos reales.",
       primary: "Explorar niveles de Core",
       secondary: "Reservar demo",
     },
@@ -537,7 +655,6 @@ export default function CoreProductPage() {
   const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
   const cream = coreCreamCopy[locale as keyof typeof coreCreamCopy] ?? coreCreamCopy.en;
   const coreTiers = ui.tiers.items;
-  const fourDimensions = ui.dimensions.items;
   const modules = ui.modules.items;
   const integrations = ui.integrations.items;
   const faqs = ui.faq.items;
@@ -570,7 +687,24 @@ export default function CoreProductPage() {
         </div>
       </PageHero>
 
-      {/* The Real-Time Intelligence Layer */}
+      {/* My Sundae - what an operator actually opens. Placed directly after the
+          hero because it is the first screen of the product, not a feature of it. */}
+      <section className="pt-14 pb-4 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <FadeUp>
+            <ThemedShot
+              framed
+              width={1600}
+              height={1000}
+              dark="/images/product/2026-fresh/my-sundae-dark.png"
+              light="/images/product/2026-fresh/my-sundae.png"
+              alt="My Sundae: the personalised daily home, showing what needs attention today, the shift spine with what is open and what is still to come, and the estate broken down by concept"
+            />
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* The Same-Shift Intelligence Layer */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp>
@@ -596,114 +730,76 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Cream relief - early warm break BEFORE the long dark tiers/4D/Pulse stretch (the volume system) */}
+      {/* How you know it's real - the instrumented-honesty proof beat (question-led). */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-6xl mx-auto">
+          <FadeUp>
+            <div className="text-center mb-14">
+              <p className="eyebrow mb-4">{ui.proof.eyebrow}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4 text-balance">{ui.proof.heading}</h2>
+              <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.proof.description}</p>
+            </div>
+          </FadeUp>
+
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {ui.proof.items.map((item) => (
+              <StaggerItem key={item.title}>
+                <div className="h-full flex flex-col p-7 bg-[var(--surface-raised)] rounded-2xl border border-[var(--border-default)] shadow-sm">
+                  <div className={`w-11 h-11 bg-gradient-to-br ${item.color} rounded-xl flex items-center justify-center mb-5`}>
+                    <SundaeIcon name={item.icon} size="md" className="text-white" />
+                  </div>
+                  <h3 className="card-title text-[var(--text-primary)] mb-2">{item.question}</h3>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--coral)] mb-3">{item.title}</p>
+                  <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{item.desc}</p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+
+          <FadeUp>
+            <p className="mt-10 text-center body-sm text-[var(--text-muted)] max-w-3xl mx-auto italic">
+              {ui.proof.honesty}
+            </p>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* Cream relief - early warm break before the long dark capability stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
-      {/* Three Tiers */}
+      {/* What Core solves - the four places margin leaks. Leads the page so a
+          buyer meets the economic problem before the package architecture. */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
+              <p className="eyebrow mb-4">{ui.solves.eyebrow}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.solves.heading}</h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.solves.description}</p>
             </div>
           </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {coreTiers.map((tier, index) => (
-              <motion.div
-                key={tier.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card variant="elevated" className="h-full relative">
-                  {tier.badge && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
-                        {tier.badge}
-                      </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {ui.solves.areas.map((area, index) => (
+              <FadeUp key={area.title} delay={index * 0.05}>
+                <div className="h-full rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#FF7E6F] to-[#FF5C4D] flex items-center justify-center flex-shrink-0">
+                      <SundaeIcon name={area.icon} size="md" className="text-white" />
                     </div>
-                  )}
-                    <CardHeader className="pt-8">
-                      <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
-                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
-                      <CardDescription>{tier.description}</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <ul className="space-y-3 mb-6">
-                        {tier.features.map((feature, idx) => (
-                          <li key={idx} className="flex items-start gap-2">
-                            <span className="text-green-500 mt-1">&#10003;</span>
-                            <span className="text-sm text-[var(--text-supporting)]">{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
-                        <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
-                      </div>
-                      <Button
-                        variant="primary"
-                      size="lg"
-                      className="w-full"
-                        href={PRICING_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {ui.tiers.viewPrefix} {tier.name}
-                      </Button>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-              ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 4D Intelligence Model */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.dimensions.heading}</h2>
-              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.dimensions.description}</p>
-            </div>
-          </FadeUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {fourDimensions.map((dim, index) => (
-              <motion.div
-                key={dim.dimension}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card variant="elevated" className="h-full">
-                  <CardHeader>
-                    <div className="text-center mb-4">
-                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center mb-3 shadow-lg`}>
-                        <SundaeIcon name={dim.icon} size="xl" className="text-white" />
-                      </div>
-                      <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">{dim.dimension}</div>
-                      <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{dim.title}</CardTitle>
-                      <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[rgba(34,197,94,0.15)] text-[#22C55E]">
-                        &#10003; {dim.status}
-                      </span>
-                    </div>
-                    <CardDescription className="text-center text-sm">
-                      {dim.description}
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
-              </motion.div>
+                    <h3 className="section-h3 text-[var(--text-display)]">{area.title}</h3>
+                  </div>
+                  <p className="body-base text-[var(--text-supporting)] mb-4">{area.loss}</p>
+                  <p className="body-sm text-[var(--text-muted)]">
+                    <span className="font-semibold text-[var(--text-primary)]">Core covers it with </span>
+                    {area.covered}
+                  </p>
+                </div>
+              </FadeUp>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* Pulse - Included with Core */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
@@ -837,6 +933,96 @@ export default function CoreProductPage() {
         </div>
       </section>
 
+
+      {/* Three Tiers */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-7xl mx-auto">
+          <FadeUp>
+            <div className="text-center mb-16">
+              <p className="eyebrow mb-4">{ui.tiers.eyebrow}</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
+            </div>
+          </FadeUp>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+            {coreTiers.map((tier, index) => {
+              // Prices are read from the v1.7 price book, never from copy.
+              // Core packages are marginal-band SKUs: a first-location anchor
+              // plus a stepped rate per additional location. There is no flat
+              // per-location rate and no included-locations allowance.
+              const pkg = CORE_PACKAGES_BY_ID[tier.packageId as CorePackageId];
+              return (
+              <motion.div
+                key={tier.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card variant="elevated" className="h-full relative">
+                  {tier.badge && (
+                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                      <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
+                        {tier.badge}
+                      </span>
+                    </div>
+                  )}
+                    <CardHeader className="pt-8">
+                      <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
+                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
+                      <div className="mb-3">
+                        <span className="text-3xl font-bold text-[var(--text-primary)] tabular-nums">
+                          {usd(pkg.firstUnitMonthly)}
+                        </span>
+                        <p className="text-xs text-[var(--text-muted)]">{ui.tiers.priceLabel}</p>
+                      </div>
+                      <CardDescription>{tier.description}</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="mb-6 rounded-lg border border-[var(--border-default)] p-3">
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">
+                          {ui.tiers.bandsLabel}
+                        </p>
+                        <p className="text-sm text-[var(--text-secondary)] tabular-nums">
+                          {describeBands(pkg)}
+                        </p>
+                      </div>
+                      <ul className="space-y-3 mb-6">
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">
+                            {pkg.aiCreditWallet.toLocaleString('en-US')} {ui.tiers.walletLabel}
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-green-500 mt-1">&#10003;</span>
+                          <span className="text-sm text-[var(--text-supporting)]">{tier.areas}</span>
+                        </li>
+                      </ul>
+                      <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">{ui.tiers.bestForLabel}</p>
+                        <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
+                      </div>
+                      <Button
+                        variant="primary"
+                      size="lg"
+                      className="w-full"
+                        href={PRICING_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {ui.tiers.viewPrefix} {tier.name}
+                      </Button>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
@@ -873,7 +1059,7 @@ export default function CoreProductPage() {
           {ui.cta.primary}
         </Button>
         <Button
-          variant="outline-light"
+          variant="outline-ink"
           size="lg"
           onClick={() => cta("/demo", "book_demo_from_core", { page: "/core" })}
         >

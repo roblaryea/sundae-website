@@ -4,11 +4,11 @@ import Script from 'next/script';
 import { cookies } from 'next/headers';
 import { Button } from '@/components/ui/Button';
 import {
+  getAvailableBlogPostLocales,
   getLocalizedBlogPost,
-  getSourceBlogPost,
   getSourceBlogPosts,
 } from '@/lib/blogTranslations';
-import { buildWebsiteAlternateUrls, getLocalizedPathname, resolveWebsiteLocale, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getLocalizedPathname, resolveWebsiteLocale, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { BlogContent } from './BlogContent';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_blog_slug_page'
@@ -124,7 +124,7 @@ export default async function BlogPostPage({
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
   const copy = localizedBlogPostPageCopy[locale as keyof typeof localizedBlogPostPageCopy] ?? getGeneratedLocalCopy(localizedBlogPostPageCopy, generatedLocalCopy.localizedBlogPostPageCopy, locale) ?? localizedBlogPostPageCopy.en;
   const post = getLocalizedBlogPost(slug, locale);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io';
   const localizedBlogPath = getLocalizedPathname('/blog', locale);
   const localizedPostPath = getLocalizedPathname(`/blog/${slug}`, locale);
   const localizedDemoPath = getLocalizedPathname('/demo', locale);
@@ -168,11 +168,13 @@ export default async function BlogPostPage({
 
   return (
     <>
-      <Script
-        id="blog-jsonld"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {post.translationAvailable ? (
+        <Script
+          id="blog-jsonld"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
+        />
+      ) : null}
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <article className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
@@ -272,10 +274,8 @@ export async function generateMetadata({ params, searchParams }: BlogPostPagePro
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const forcedEnglish = resolvedSearchParams?.lang === 'en';
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
-  const post = getLocalizedBlogPost(slug, locale) ?? getSourceBlogPost(slug);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
-  const localizedPostPath = getLocalizedPathname(`/blog/${slug}`, locale);
-  const alternates = buildWebsiteAlternateUrls(`/blog/${slug}`, baseUrl);
+  const post = getLocalizedBlogPost(slug, locale);
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io';
   
   if (!post) {
     return {
@@ -283,15 +283,34 @@ export async function generateMetadata({ params, searchParams }: BlogPostPagePro
     };
   }
 
+  const availableLocales = getAvailableBlogPostLocales(slug);
+  const canonicalLocale = post.translationAvailable ? locale : 'en';
+  const canonicalPath = getLocalizedPathname(`/blog/${slug}`, canonicalLocale);
+  const languages = {
+    ...Object.fromEntries(
+      availableLocales.map((availableLocale) => [
+        availableLocale,
+        new URL(
+          getLocalizedPathname(`/blog/${slug}`, availableLocale),
+          baseUrl,
+        ).toString(),
+      ]),
+    ),
+    'x-default': new URL(getLocalizedPathname(`/blog/${slug}`, 'en'), baseUrl).toString(),
+  };
+
   return {
     title: post.title,
     description: post.summary,
     keywords: post.tags,
     authors: [{ name: 'Sundae Team' }],
     alternates: {
-      canonical: localizedPostPath,
-      languages: alternates.languages,
+      canonical: canonicalPath,
+      languages,
     },
+    robots: post.translationAvailable
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
     openGraph: {
       title: post.title,
       description: post.summary,
@@ -299,7 +318,7 @@ export async function generateMetadata({ params, searchParams }: BlogPostPagePro
       publishedTime: post.date,
       authors: ['Sundae Team'],
       tags: post.tags,
-      url: new URL(localizedPostPath, baseUrl).toString(),
+      url: new URL(canonicalPath, baseUrl).toString(),
     },
     twitter: {
       card: 'summary_large_image',

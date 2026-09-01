@@ -18,6 +18,8 @@ import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_p
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 import { SectionConviction } from "@/components/home/sections/SectionConviction";
 import { watchtowerConviction } from "@/components/home/sections/routeConvictionCopy";
+import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
+import { CoreWatchtowerMobile } from '@/components/core/CoreWatchtowerMobile';
 
 const localizedWatchtowerCopy = {
   en: {
@@ -33,7 +35,7 @@ const localizedWatchtowerCopy = {
       "Your external intelligence layer - visibility into everything outside your four walls that impacts your business. While Pulse tells you what's happening inside your operation, Watchtower covers the competitive landscape, local environment, and broader market.",
     introCards: [
       { icon: "visibility" as SundaeIconName, title: "External Intelligence", text: "Most platforms only show you YOUR data. Watchtower shows you THE MARKET." },
-      { icon: "speed" as SundaeIconName, title: "Proactive, Not Reactive", text: "Get alerts when competitors move. Predict demand shifts. See trends before they hit." },
+      { icon: "speed" as SundaeIconName, title: "Proactive, Not Reactive", text: "Get alerts when competitors move. Predict demand shifts. Move on trends before they hit your margin." },
       { icon: "intelligence" as SundaeIconName, title: "Synthesized Briefings", text: "Daily intelligence briefings that combine internal performance with external signals." },
     ],
     internalEyebrow: "INTERNAL + EXTERNAL",
@@ -110,7 +112,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "Watchtower Pricing",
-    pricingDescription: "Available on Core tiers. Choose individual components or save ~18% with the full bundle.",
+    pricingDescription: "Available on Core Growth and above. Choose individual components or save ~18% with the full bundle.",
     pricingCards: [
       { name: "Competitive Intelligence", price: "$549", perLoc: "+$69/loc" },
       { name: "Events & Calendar", price: "$249", perLoc: "+$39/loc" },
@@ -133,7 +135,7 @@ const localizedWatchtowerCopy = {
       },
       {
         q: "Does Watchtower require Core tier?",
-        a: "Yes. Watchtower is available on Core Lite, Core Pro, and Enterprise tiers. It requires the real-time data infrastructure that Core provides to synthesize internal performance with external signals.",
+        a: "Yes. Watchtower is scoped and quoted alongside a Core package. It needs the live operating data Core provides in order to synthesize internal performance with external signals.",
       },
       {
         q: "Can I use just one intelligence type?",
@@ -145,7 +147,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     ctaTitle: "Add External Intelligence to Your Platform",
-    ctaDescription: "See your business in full market context. Never be caught off guard again.",
+    ctaDescription: "See your business in full market context. Protect your margin before the market moves it.",
     ctaAdd: "Add to Your Plan",
     ctaDemo: "See It in Action",
     ctaSales: "Talk to Sales",
@@ -163,7 +165,7 @@ const localizedWatchtowerCopy = {
       "طبقة الذكاء الخارجي لديك - رؤية لكل ما خارج جدرانك الأربعة ويؤثر على عملك. بينما يوضح لك Pulse ما يحدث داخل العملية، يغطي Watchtower المشهد التنافسي والبيئة المحلية والسوق الأوسع.",
     introCards: [
       { icon: "visibility" as SundaeIconName, title: "ذكاء خارجي", text: "معظم المنصات تعرض بياناتك فقط. Watchtower يعرض السوق." },
-      { icon: "speed" as SundaeIconName, title: "استباقي لا تفاعلي", text: "احصل على تنبيهات عندما يتحرك المنافسون. توقع تحولات الطلب. شاهد الاتجاهات قبل أن تصل." },
+      { icon: "speed" as SundaeIconName, title: "استباقي لا تفاعلي", text: "احصل على تنبيهات عندما يتحرك المنافسون. توقع تحولات الطلب. تحرّك على الاتجاهات قبل أن تصيب هامشك." },
       { icon: "intelligence" as SundaeIconName, title: "موجزات مركبة", text: "موجزات ذكاء يومية تجمع الأداء الداخلي مع الإشارات الخارجية." },
     ],
     internalEyebrow: "داخلي + خارجي",
@@ -240,7 +242,7 @@ const localizedWatchtowerCopy = {
       },
     ],
     pricingHeading: "أسعار Watchtower",
-    pricingDescription: "متاح على مستويات Core. اختر مكونات فردية أو وفّر نحو 18% مع الحزمة الكاملة.",
+    pricingDescription: "متاح على Core Growth وما فوق. اختر مكونات فردية أو وفّر نحو 18% مع الحزمة الكاملة.",
     pricingCards: [
       { name: "ذكاء المنافسين", price: "$549", perLoc: "+$69/موقع" },
       { name: "الأحداث والتقويم", price: "$249", perLoc: "+$39/موقع" },
@@ -252,51 +254,51 @@ const localizedWatchtowerCopy = {
       { q: "كم منافساً يمكنني تتبعه؟", a: "حتى أكثر من 10 منافسين لكل موقع." },
       { q: "هل يمكنني تتبع منافسين مختلفين في مواقع مختلفة؟", a: "نعم، لكل موقع مجموعة منافسين خاصة به." },
       { q: "كم مرة تُحدَّث بيانات المنافسين؟", a: "تحديث يومي آلي مع كشف للتغييرات." },
-      { q: "هل يتطلب Watchtower مستوى Core؟", a: "نعم، فهو متاح على Core Lite وCore Pro وEnterprise." },
+      { q: "هل يتطلب Watchtower باقة Core؟", a: "نعم. يُحدَّد Watchtower ويُسعَّر مع باقة Core لأنه يحتاج بيانات التشغيل الحية التي توفرها." },
       { q: "هل يمكنني استخدام نوع ذكاء واحد فقط؟", a: "نعم، اختر ما تحتاجه فقط أو احصل على الحزمة الكاملة." },
       { q: "كيف يعمل الموجز اليومي؟", a: "يدمج بيانات Pulse السابقة مع الإشارات الخارجية في موجز مرتّب الأولوية." },
     ],
     ctaTitle: "أضف الذكاء الخارجي إلى منصتك",
-    ctaDescription: "شاهد عملك ضمن سياق السوق الكامل. لن تُفاجأ مجدداً.",
+    ctaDescription: "شاهد عملك ضمن سياق السوق الكامل. احمِ هامشك قبل أن يحرّكه السوق.",
     ctaAdd: "أضف إلى خطتك",
     ctaDemo: "شاهد ذلك عملياً",
     ctaSales: "تحدث مع المبيعات",
   },
   fr: {
-    heroBadge: "Watchtower - Moteur d intelligence externe",
+    heroBadge: "Watchtower - Moteur d'intelligence externe",
     heroTitle: <>10+ concurrents suivis chaque jour.<br />Aucune recherche manuelle.</>,
     heroDescription:
-      "Les changements de prix des concurrents sont suivis chaque jour. Un concert ce week-end. Ramadan commence la semaine prochaine. Watchtower synthétise les signaux externes avec vos donnees internes dans un briefing quotidien - ce qui se passe, pourquoi c est important et quoi faire. Les signaux alimentent automatiquement les hypotheses de Foresight.",
-    heroNote: "Disponible sur les offres Core. Choisissez des types d intelligence individuels ou le bundle Watchtower complet.",
+      "Les changements de prix des concurrents sont suivis chaque jour. Un concert ce week-end. Ramadan commence la semaine prochaine. Watchtower synthétise les signaux externes avec vos données internes dans un briefing quotidien - ce qui se passe, pourquoi c'est important et quoi faire. Les signaux alimentent automatiquement les hypothèses de Foresight.",
+    heroNote: "Disponible sur les offres Core. Choisissez des types d'intelligence individuels ou le bundle Watchtower complet.",
     heroPrimary: "Ajouter Watchtower",
-    heroSecondary: "Reserver une demo",
-    introHeading: "Qu est-ce que Watchtower ?",
+    heroSecondary: "Réserver une démo",
+    introHeading: "Qu'est-ce que Watchtower ?",
     introDescription:
-      "Votre couche d intelligence externe - une visibilite sur tout ce qui se passe hors de vos murs et impacte votre activite. Alors que Pulse vous dit ce qui se passe a l interieur, Watchtower couvre le paysage concurrentiel, l environnement local et le marche au sens large.",
+      "Votre couche d'intelligence externe - une visibilité sur tout ce qui se passe hors de vos murs et impacte votre activité. Alors que Pulse vous dit ce qui se passe à l'intérieur, Watchtower couvre le paysage concurrentiel, l'environnement local et le marché au sens large.",
     introCards: [
-      { icon: "visibility" as SundaeIconName, title: "Intelligence externe", text: "La plupart des plateformes ne montrent que VOS donnees. Watchtower montre LE MARCHE." },
-      { icon: "speed" as SundaeIconName, title: "Proactif, pas reactif", text: "Recevez des alertes quand les concurrents bougent. Anticipez les changements de demande. Voyez les tendances avant qu elles n arrivent." },
-      { icon: "intelligence" as SundaeIconName, title: "Briefings synthetises", text: "Des briefings quotidiens qui combinent performance interne et signaux externes." },
+      { icon: "visibility" as SundaeIconName, title: "Intelligence externe", text: "La plupart des plateformes ne montrent que VOS données. Watchtower montre LE MARCHÉ." },
+      { icon: "speed" as SundaeIconName, title: "Proactif, pas réactif", text: "Recevez des alertes quand les concurrents bougent. Anticipez les changements de demande. Agissez sur les tendances avant qu'elles ne touchent votre marge." },
+      { icon: "intelligence" as SundaeIconName, title: "Briefings synthétisés", text: "Des briefings quotidiens qui combinent performance interne et signaux externes." },
     ],
     internalEyebrow: "INTERNE + EXTERNE",
-    internalHeading: "La seule plateforme qui voit les deux cotes",
+    internalHeading: "La seule plateforme qui voit les deux côtés",
     internalDescription:
-      "Les plateformes internes montrent ce qui s est passe. Les outils de marche montrent ce qui existe dehors. Sundae est la seule plateforme d intelligence de decision qui synthese les deux - en combinant vos donnees POS, RH et operations avec le suivi des concurrents, l intelligence des evenements locaux, les previsions meteo et les donnees de tendance du marche - dans un briefing unique qui explique ce que cela signifie pour le service d aujourd hui.",
-    featureEyebrow: "QUATRE TYPES D INTELLIGENCE",
-    featureHeading: "Intelligence externe, automatisee",
-    featureDescription: "Choisissez un, deux ou les quatre types pour une visibilite externe complete",
+      "Les plateformes internes montrent ce qui s'est passé. Les outils de marché montrent ce qui existe dehors. Sundae est la seule plateforme d'intelligence de décision qui synthétise les deux - en combinant vos données POS, RH et opérations avec le suivi des concurrents, l'intelligence des événements locaux, les prévisions météo et les données de tendance du marché - dans un briefing unique qui explique ce que cela signifie pour le service d'aujourd'hui.",
+    featureEyebrow: "QUATRE TYPES D'INTELLIGENCE",
+    featureHeading: "Intelligence externe, automatisée",
+    featureDescription: "Choisissez un, deux ou les quatre types pour une visibilité externe complète",
     features: [
       {
         title: "Centre de commande et briefing quotidien",
         headline: "Votre briefing matinal",
         description:
-          "Chaque matin, Watchtower synthese tout - les revenus et le rythme d hier de Pulse, la meteo du jour, les evenements a venir pres de votre restaurant, l activite recente des concurrents et les signaux de marche - dans un briefing priorise. Pas un tableau de bord a consulter. Une intelligence qui vient a vous.",
+          "Chaque matin, Watchtower synthétise tout - les revenus et le rythme d'hier de Pulse, la météo du jour, les événements à venir près de votre restaurant, l'activité récente des concurrents et les signaux de marché - dans un briefing priorisé. Pas un tableau de bord à consulter. Une intelligence qui vient à vous.",
         capabilities: [
-          "Briefing quotidien combinant donnees internes et externes",
-          "Recommandations priorisees par impact revenu",
-          "Diffusion par email, Telegram, Slack ou dans l app",
-          "Flux de signaux avec actions ignorer et accuser reception",
-          "Resume hebdomadaire de veille concurrentielle",
+          "Briefing quotidien combinant données internes et externes",
+          "Recommandations priorisées par impact revenu",
+          "Diffusion par email, Telegram, Slack ou dans l'app",
+          "Flux de signaux avec actions ignorer et accuser réception",
+          "Résumé hebdomadaire de veille concurrentielle",
         ],
         icon: "intelligence" as SundaeIconName,
         color: "from-red-500 to-red-600",
@@ -305,109 +307,109 @@ const localizedWatchtowerCopy = {
         title: "Intelligence concurrentielle",
         headline: "Sachez ce que font vos concurrents",
         description:
-          "Suivez des concurrents nommes - pas des moyennes anonymes. Watchtower surveille quotidiennement leurs notes Google, avis, horaires d ouverture et presence publique. L analyse de sentiment extrait ce que les clients aiment et detestent chez chaque concurrent. Recevez une alerte lorsqu une note baisse ou qu un nouveau restaurant ouvre a proximite.",
+          "Suivez des concurrents nommés - pas des moyennes anonymes. Watchtower surveille quotidiennement leurs notes Google, avis, horaires d'ouverture et présence publique. L'analyse de sentiment extrait ce que les clients aiment et détestent chez chaque concurrent. Recevez une alerte lorsqu'une note baisse ou qu'un nouveau restaurant ouvre à proximité.",
         capabilities: [
-          "Suivi de 10+ concurrents nommes par site",
-          "Decouverte automatique par lieu, cuisine et prix",
+          "Suivi de 10+ concurrents nommés par site",
+          "Découverte automatique par lieu, cuisine et prix",
           "Suivi continu des prix de menu des concurrents",
           "Surveillance quotidienne des notes et avis",
-          "Analyse de sentiment par theme",
-          "Alertes d activite concurrente",
+          "Analyse de sentiment par thème",
+          "Alertes d'activité concurrente",
           "Suivi de tendance sur 12 semaines",
         ],
         icon: "balance" as SundaeIconName,
         color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
-        title: "Intelligence evenements et calendrier",
-        headline: "Les evenements locaux qui font bouger vos chiffres",
+        title: "Intelligence événements et calendrier",
+        headline: "Les événements locaux qui font bouger vos chiffres",
         description:
-          "Un concert ce week-end, c est 40 % de trafic en plus au diner. Ramadan signifie un changement fondamental de votre mix de journee pendant 30 jours. Watchtower detecte les evenements pres de votre restaurant et genere des estimations d impact : evolution attendue de la demande, recommandations de staffing et conseils de preparation adaptes a votre site.",
+          "Un concert ce week-end, c'est 40 % de trafic en plus au dîner. Ramadan signifie un changement fondamental de votre mix de journée pendant 30 jours. Watchtower détecte les événements près de votre restaurant et génère des estimations d'impact : évolution attendue de la demande, recommandations de staffing et conseils de préparation adaptés à votre site.",
         capabilities: [
-          "Decouverte d evenements locaux dans un rayon configurable",
-          "Calendrier des jours feries et observances religieuses",
-          "Intelligence specifique au Ramadan",
-          "Analyses d impact avec recommandations de staffing et preparation",
-          "Integration avec Pulse pour un pacing sensible aux evenements",
+          "Découverte d'événements locaux dans un rayon configurable",
+          "Calendrier des jours fériés et observances religieuses",
+          "Intelligence spécifique au Ramadan",
+          "Analyses d'impact avec recommandations de staffing et préparation",
+          "Intégration avec Pulse pour un pacing sensible aux événements",
         ],
         icon: "growth" as SundaeIconName,
         color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
-        title: "Marche et tendances",
-        headline: "Votre marche en un coup d oeil",
+        title: "Marché et tendances",
+        headline: "Votre marché en un coup d'oeil",
         description:
-          "Combien de restaurants fonctionnent dans un rayon de 5 km ? Quelle est la note moyenne ? Qui a ouvert le mois dernier, qui a ferme ? Watchtower construit une image vivante de votre paysage local et remonte les signaux lorsqu un changement important survient.",
+          "Combien de restaurants fonctionnent dans un rayon de 5 km ? Quelle est la note moyenne ? Qui a ouvert le mois dernier, qui a fermé ? Watchtower construit une image vivante de votre paysage local et remonte les signaux lorsqu'un changement important survient.",
         capabilities: [
           "Cartographie du paysage de restaurants par district",
-          "Detection des ouvertures et fermetures",
+          "Détection des ouvertures et fermetures",
           "Tendances de notation et de prix par segment de cuisine",
-          "Signaux macroeconomiques",
-          "Signaux de marche remontes proactivement",
+          "Signaux macroéconomiques",
+          "Signaux de marché remontés proactivement",
           "Cascade cross-intelligence vers Foresight",
-          "Visuels financiers specifiques TVA, hotel et franchise",
+          "Visuels financiers spécifiques TVA, hôtel et franchise",
         ],
         icon: "multiLocation" as SundaeIconName,
         color: "from-orange-500 to-orange-600",
       },
     ],
     pricingHeading: "Tarifs Watchtower",
-    pricingDescription: "Disponible sur les offres Core. Choisissez des composants individuels ou economisez environ 18 % avec le bundle complet.",
+    pricingDescription: "Disponible à partir de Core Growth. Choisissez des composants individuels ou économisez environ 18 % avec le bundle complet.",
     pricingCards: [
       { name: "Intelligence concurrentielle", price: "$549", perLoc: "+$69/site" },
-      { name: "Evenements & calendrier", price: "$249", perLoc: "+$39/site" },
-      { name: "Tendances du marche", price: "$299", perLoc: "+$29/site" },
+      { name: "Événements & calendrier", price: "$249", perLoc: "+$39/site" },
+      { name: "Tendances du marché", price: "$299", perLoc: "+$29/site" },
       { name: "Bundle complet", price: "$899", perLoc: "+$109/site", highlight: true },
     ],
-    faqHeading: "Questions frequentes",
+    faqHeading: "Questions fréquentes",
     faqs: [
-      { q: "Combien de concurrents puis-je suivre ?", a: "Jusqu a 10+ concurrents par site." },
-      { q: "Puis-je suivre des concurrents differents selon les sites ?", a: "Oui, chaque site a son propre ensemble de concurrents." },
-      { q: "A quelle frequence les donnees sont-elles mises a jour ?", a: "Surveillance quotidienne avec detection de changement." },
-      { q: "Watchtower requiert-il Core ?", a: "Oui, il est disponible sur Core Lite, Core Pro et Enterprise." },
-      { q: "Puis-je utiliser un seul type d intelligence ?", a: "Oui, choisissez ce dont vous avez besoin ou prenez le bundle complet." },
-      { q: "Comment fonctionne le briefing quotidien ?", a: "Il combine les donnees Pulse de la veille avec les signaux externes du jour." },
+      { q: "Combien de concurrents puis-je suivre ?", a: "Jusqu'à 10+ concurrents par site." },
+      { q: "Puis-je suivre des concurrents différents selon les sites ?", a: "Oui, chaque site a son propre ensemble de concurrents." },
+      { q: "À quelle fréquence les données sont-elles mises à jour ?", a: "Surveillance quotidienne avec détection de changement." },
+      { q: "Watchtower requiert-il Core ?", a: "Oui. Watchtower est chiffré en même temps qu'une offre Core, car il a besoin des données d'exploitation en direct qu'elle fournit." },
+      { q: "Puis-je utiliser un seul type d'intelligence ?", a: "Oui, choisissez ce dont vous avez besoin ou prenez le bundle complet." },
+      { q: "Comment fonctionne le briefing quotidien ?", a: "Il combine les données Pulse de la veille avec les signaux externes du jour." },
     ],
-    ctaTitle: "Ajouter l intelligence externe a votre plateforme",
-    ctaDescription: "Voyez votre activite dans son contexte marche complet. Ne soyez plus jamais pris au depourvu.",
-    ctaAdd: "Ajouter a votre offre",
+    ctaTitle: "Ajouter l'intelligence externe à votre plateforme",
+    ctaDescription: "Voyez votre activité dans son contexte marché complet. Protégez votre marge avant que le marché ne la déplace.",
+    ctaAdd: "Ajouter à votre offre",
     ctaDemo: "Voir en action",
-    ctaSales: "Parler a l equipe commerciale",
+    ctaSales: "Parler à l'équipe commerciale",
   },
   es: {
     heroBadge: "Watchtower - Motor de inteligencia externa",
-    heroTitle: <>Mas de 10 competidores seguidos cada dia.<br />Sin investigacion manual.</>,
+    heroTitle: <>Más de 10 competidores seguidos cada día.<br />Sin investigación manual.</>,
     heroDescription:
-      "Los cambios de precios de los competidores se registran a diario. Un concierto este fin de semana. Ramadan empieza la proxima semana. Watchtower sintetiza las senales externas con tus datos internos en un informe diario de inteligencia - que esta pasando, por que importa y que hacer al respecto. Las senales se incorporan automaticamente a Foresight.",
+      "Los cambios de precios de los competidores se registran a diario. Un concierto este fin de semana. Ramadan empieza la próxima semana. Watchtower sintetiza las señales externas con tus datos internos en un informe diario de inteligencia - qué está pasando, por qué importa y qué hacer al respecto. Las señales se incorporan automáticamente a Foresight.",
     heroNote: "Disponible en los planes Core. Elige tipos de inteligencia individuales o el bundle completo de Watchtower.",
     heroPrimary: "Agregar Watchtower",
     heroSecondary: "Reservar una demo",
-    introHeading: "Que es Watchtower?",
+    introHeading: "¿Qué es Watchtower?",
     introDescription:
-      "Una vista clara de todo lo que ocurre fuera de tus cuatro paredes y afecta al negocio. Mientras Pulse te dice lo que pasa dentro, Watchtower sigue el panorama competitivo, el entorno local y el mercado mas amplio.",
+      "Una vista clara de todo lo que ocurre fuera de tus cuatro paredes y afecta al negocio. Mientras Pulse te dice lo que pasa dentro, Watchtower sigue el panorama competitivo, el entorno local y el mercado más amplio.",
     introCards: [
-      { icon: "visibility" as SundaeIconName, title: "Inteligencia externa", text: "La mayoria de las plataformas solo muestran TUS datos. Watchtower muestra EL MERCADO." },
-      { icon: "speed" as SundaeIconName, title: "Proactivo, no reactivo", text: "Recibe alertas cuando los competidores se mueven. Anticipa cambios en la demanda. Ve tendencias antes de que impacten." },
-      { icon: "intelligence" as SundaeIconName, title: "Informes sintetizados", text: "Informes diarios que combinan rendimiento interno y senales externas." },
+      { icon: "visibility" as SundaeIconName, title: "Inteligencia externa", text: "La mayoría de las plataformas solo muestran TUS datos. Watchtower muestra EL MERCADO." },
+      { icon: "speed" as SundaeIconName, title: "Proactivo, no reactivo", text: "Recibe alertas cuando los competidores se mueven. Anticipa cambios en la demanda. Actúa sobre las tendencias antes de que afecten tu margen." },
+      { icon: "intelligence" as SundaeIconName, title: "Informes sintetizados", text: "Informes diarios que combinan rendimiento interno y señales externas." },
     ],
     internalEyebrow: "INTERNO + EXTERNO",
-    internalHeading: "La unica plataforma que ve ambos lados",
+    internalHeading: "La única plataforma que ve ambos lados",
     internalDescription:
-      "Las plataformas internas muestran lo que paso. Las herramientas de mercado muestran lo que hay fuera. Sundae es la unica plataforma de inteligencia de decision que sintetiza ambos - combinando tus datos de POS, RR.HH. y operaciones con seguimiento de competidores, inteligencia de eventos locales, pronosticos del clima y datos de tendencias del mercado - en un informe unico que explica lo que significa para el turno de hoy.",
+      "Las plataformas internas muestran lo que pasó. Las herramientas de mercado muestran lo que hay fuera. Sundae es la única plataforma de inteligencia de decisión que sintetiza ambos - combinando tus datos de POS, RR.HH. y operaciones con seguimiento de competidores, inteligencia de eventos locales, pronósticos del clima y datos de tendencias del mercado - en un informe único que explica lo que significa para el turno de hoy.",
     featureEyebrow: "CUATRO TIPOS DE INTELIGENCIA",
     featureHeading: "Inteligencia externa automatizada",
     featureDescription: "Elige uno, dos o los cuatro tipos para tener visibilidad externa completa",
     features: [
       {
         title: "Centro de comando e informe diario",
-        headline: "Tu briefing de la manana",
+        headline: "Tu briefing de la mañana",
         description:
-          "Cada manana, Watchtower sintetiza todo - ingresos y ritmo de ayer de Pulse, el pronostico del clima de hoy, eventos proximos, actividad reciente de competidores y senales del mercado - en un briefing priorizado. No un tablero que tengas que revisar. Inteligencia que llega a ti.",
+          "Cada mañana, Watchtower sintetiza todo - ingresos y ritmo de ayer de Pulse, el pronóstico del clima de hoy, eventos próximos, actividad reciente de competidores y señales del mercado - en un briefing priorizado. No un tablero que tengas que revisar. Inteligencia que llega a ti.",
         capabilities: [
           "Briefing diario con datos internos y externos",
           "Recomendaciones priorizadas por impacto en ingresos",
           "Entrega por email, Telegram, Slack o dentro de la app",
-          "Feed de senales con acciones de descartar y reconocer",
+          "Feed de señales con acciones de descartar y reconocer",
           "Digest semanal de inteligencia competitiva",
         ],
         icon: "intelligence" as SundaeIconName,
@@ -415,15 +417,15 @@ const localizedWatchtowerCopy = {
       },
       {
         title: "Inteligencia competitiva",
-        headline: "Sabe lo que estan haciendo tus competidores",
+        headline: "Sabe lo que están haciendo tus competidores",
         description:
-          "Haz seguimiento de competidores concretos, no de promedios anonimos. Watchtower monitorea a diario sus valoraciones de Google, reseñas, horarios y presencia publica. El analisis de sentimiento extrae lo que los clientes aman y odian de cada competidor. Recibe alertas cuando baja una calificacion o abre un nuevo restaurante cerca.",
+          "Haz seguimiento de competidores concretos, no de promedios anónimos. Watchtower monitorea a diario sus valoraciones de Google, reseñas, horarios y presencia pública. El análisis de sentimiento extrae lo que los clientes aman y odian de cada competidor. Recibe alertas cuando baja una calificación o abre un nuevo restaurante cerca.",
         capabilities: [
-          "Seguimiento de mas de 10 competidores por ubicacion",
-          "Descubrimiento automatico por ubicacion, cocina y rango de precio",
-          "Seguimiento continuo de precios de menu de competidores",
+          "Seguimiento de más de 10 competidores por ubicación",
+          "Descubrimiento automático por ubicación, cocina y rango de precio",
+          "Seguimiento continuo de precios de menú de competidores",
           "Monitoreo diario de reseñas y valoraciones",
-          "Analisis de sentimiento por tema",
+          "Análisis de sentimiento por tema",
           "Alertas de actividad competitiva",
           "Seguimiento de tendencias durante 12 semanas",
         ],
@@ -432,15 +434,15 @@ const localizedWatchtowerCopy = {
       },
       {
         title: "Inteligencia de eventos y calendario",
-        headline: "Eventos locales que mueven tus numeros",
+        headline: "Eventos locales que mueven tus números",
         description:
-          "Un concierto este fin de semana significa 40% mas trafico durante la cena. Ramadan implica un cambio fundamental en tu mix diario durante 30 dias. Watchtower descubre eventos cerca de tu restaurante y genera estimaciones de impacto: cambio esperado de demanda, recomendaciones de personal y guias de preparacion adaptadas a tu ubicacion.",
+          "Un concierto este fin de semana significa 40% más tráfico durante la cena. Ramadan implica un cambio fundamental en tu mix diario durante 30 días. Watchtower descubre eventos cerca de tu restaurante y genera estimaciones de impacto: cambio esperado de demanda, recomendaciones de personal y guías de preparación adaptadas a tu ubicación.",
         capabilities: [
           "Descubrimiento de eventos locales dentro de un radio configurable",
           "Calendario de festivos y observancias religiosas",
-          "Inteligencia especifica para Ramadan",
-          "Analisis de impacto con recomendaciones de personal y preparacion",
-          "Integracion con Pulse para ritmo sensible a eventos",
+          "Inteligencia específica para Ramadan",
+          "Análisis de impacto con recomendaciones de personal y preparación",
+          "Integración con Pulse para ritmo sensible a eventos",
         ],
         icon: "growth" as SundaeIconName,
         color: "from-[#F2B45C] to-[#C2410C]",
@@ -449,41 +451,41 @@ const localizedWatchtowerCopy = {
         title: "Mercado y tendencias",
         headline: "Tu mercado de un vistazo",
         description:
-          "Cuantos restaurantes operan en un radio de 5 km? Cual es la calificacion media? Quien abrio el mes pasado y quien cerro? Watchtower construye una imagen viva de tu panorama local y saca a la superficie senales cuando cambia algo importante.",
+          "¿Cuántos restaurantes operan en un radio de 5 km? ¿Cuál es la calificación media? ¿Quién abrió el mes pasado y quién cerró? Watchtower construye una imagen viva de tu panorama local y saca a la superficie señales cuando cambia algo importante.",
         capabilities: [
           "Mapeo del panorama de restaurantes por distrito",
-          "Deteccion de nuevas aperturas y cierres",
-          "Tendencias de valoracion y precios por segmento",
-          "Senales macroeconomicas",
-          "Senales de mercado mostradas de forma proactiva",
+          "Detección de nuevas aperturas y cierres",
+          "Tendencias de valoración y precios por segmento",
+          "Señales macroeconómicas",
+          "Señales de mercado mostradas de forma proactiva",
           "Cadena cross-intelligence hacia Foresight",
-          "Visuales financieros especificos para IVA, hoteles y franquicias",
+          "Visuales financieros específicos para IVA, hoteles y franquicias",
         ],
         icon: "multiLocation" as SundaeIconName,
         color: "from-orange-500 to-orange-600",
       },
     ],
     pricingHeading: "Precios de Watchtower",
-    pricingDescription: "Disponible en los planes Core. Elige componentes individuales o ahorra alrededor de 18% con el bundle completo.",
+    pricingDescription: "Disponible desde Core Growth. Elige componentes individuales o ahorra alrededor de 18% con el bundle completo.",
     pricingCards: [
-      { name: "Inteligencia competitiva", price: "$549", perLoc: "+$69/ubicacion" },
-      { name: "Eventos y calendario", price: "$249", perLoc: "+$39/ubicacion" },
-      { name: "Tendencias del mercado", price: "$299", perLoc: "+$29/ubicacion" },
-      { name: "Bundle completo", price: "$899", perLoc: "+$109/ubicacion", highlight: true },
+      { name: "Inteligencia competitiva", price: "$549", perLoc: "+$69/ubicación" },
+      { name: "Eventos y calendario", price: "$249", perLoc: "+$39/ubicación" },
+      { name: "Tendencias del mercado", price: "$299", perLoc: "+$29/ubicación" },
+      { name: "Bundle completo", price: "$899", perLoc: "+$109/ubicación", highlight: true },
     ],
     faqHeading: "Preguntas frecuentes",
     faqs: [
-      { q: "Cuantos competidores puedo seguir?", a: "Hasta mas de 10 competidores por ubicacion." },
-      { q: "Puedo seguir competidores distintos en cada ubicacion?", a: "Si, cada ubicacion tiene su propio conjunto." },
-      { q: "Cada cuanto se actualizan los datos?", a: "Monitoreo diario automatizado con deteccion de cambios." },
-      { q: "Watchtower requiere Core?", a: "Si, esta disponible en Core Lite, Core Pro y Enterprise." },
-      { q: "Puedo usar solo un tipo de inteligencia?", a: "Si, elige lo que necesites o toma el bundle completo." },
-      { q: "Como funciona el informe diario?", a: "Combina los datos de Pulse del dia anterior con las senales externas de hoy." },
+      { q: "¿Cuántos competidores puedo seguir?", a: "Hasta más de 10 competidores por ubicación." },
+      { q: "¿Puedo seguir competidores distintos en cada ubicación?", a: "Sí, cada ubicación tiene su propio conjunto." },
+      { q: "¿Cada cuánto se actualizan los datos?", a: "Monitoreo diario automatizado con detección de cambios." },
+      { q: "¿Watchtower requiere Core?", a: "Sí. Watchtower se dimensiona y cotiza junto a un paquete Core, porque necesita los datos operativos en vivo que este aporta." },
+      { q: "¿Puedo usar solo un tipo de inteligencia?", a: "Sí, elige lo que necesites o toma el bundle completo." },
+      { q: "¿Cómo funciona el informe diario?", a: "Combina los datos de Pulse del día anterior con las señales externas de hoy." },
     ],
     ctaTitle: "Agrega inteligencia externa a tu plataforma",
-    ctaDescription: "Ve tu negocio dentro del contexto completo del mercado. No te vuelvas a sorprender.",
+    ctaDescription: "Ve tu negocio dentro del contexto completo del mercado. Protege tu margen antes de que el mercado lo mueva.",
     ctaAdd: "Agregar a tu plan",
-    ctaDemo: "Verlo en accion",
+    ctaDemo: "Verlo en acción",
     ctaSales: "Hablar con ventas",
   },
 } as const;
@@ -656,6 +658,8 @@ export default function WatchtowerPage() {
         </div>
       </section>
 
+      <CoreMobileShowcase screens={[<CoreWatchtowerMobile key="watch" />]} />
+
       {/* Product gallery - Watchtower surfaces in detail */}
       <SectionProductGallery
         productFilter="/product/watchtower"
@@ -665,24 +669,24 @@ export default function WatchtowerPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
+          <StaggerItem className="p-6 border border-[rgba(26,20,15,0.12)] rounded-xl">
             <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="cost" size="lg" className="text-white" />
             </div>
-            <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaAdd}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.seeWatchtowerPricing}</p>
-            <Button variant="primary" size="md" className="w-full" href={PRICING_URL}>
+            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaAdd}</h3>
+            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.seeWatchtowerPricing}</p>
+            <Button variant="cta" size="md" className="w-full" href={PRICING_URL}>
               {ui.heroPrimary} →
             </Button>
           </StaggerItem>
-          <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
+          <StaggerItem className="p-6 border border-[rgba(26,20,15,0.12)] rounded-xl">
             <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="visibility" size="lg" className="text-white" />
             </div>
-            <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaDemo}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.watchWatchtowerDemo}</p>
+            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaDemo}</h3>
+            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.watchWatchtowerDemo}</p>
             <Button
-              variant="outline"
+              variant="outline-ink"
               size="md"
               className="w-full"
               onClick={() => cta("/demo", "watch_watchtower_demo", { page: "/product/watchtower" })}
@@ -690,14 +694,14 @@ export default function WatchtowerPage() {
               {ui.ctaDemo} →
             </Button>
           </StaggerItem>
-          <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
+          <StaggerItem className="p-6 border border-[rgba(26,20,15,0.12)] rounded-xl">
             <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="conversation" size="lg" className="text-white" />
             </div>
-            <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaSales}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.customWatchtowerConfiguration}</p>
+            <h3 className="font-semibold text-[var(--ink)] mb-2 text-center">{ui.ctaSales}</h3>
+            <p className="text-sm text-[rgba(26,20,15,0.66)] mb-4 text-center">{labels.customWatchtowerConfiguration}</p>
             <Button
-              variant="outline"
+              variant="outline-ink"
               size="md"
               className="w-full"
               onClick={() => cta("/contact", "contact_watchtower_sales", { page: "/product/watchtower" })}

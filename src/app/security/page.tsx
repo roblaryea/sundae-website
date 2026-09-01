@@ -197,7 +197,7 @@ export default async function SecurityPage() {
 
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
         <Button variant="cta" size="lg" href="/contact">{copy.ctaPrimary}</Button>
-        <Button variant="outline-light" size="lg" href="/docs">{copy.ctaSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/docs">{copy.ctaSecondary}</Button>
       </PageCTA>
     </div>
   );

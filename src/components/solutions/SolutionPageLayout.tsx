@@ -7,7 +7,6 @@ import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { ElegantShape } from "@/components/ui/ElegantShape";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 import { CreamBreak } from "@/components/ui/CreamBreak";
@@ -66,8 +65,8 @@ interface Props {
  * Shared visual layout for /solutions/* persona pages.
  *
  * The copy lives per-page so each page remains a discrete file (Option B
- * discipline). Only the visual frame - gradient hero, ElegantShape floats,
- * mockup column, three content sections, closing CTA - is shared, so the
+ * discipline). Only the visual frame - editorial hero, mockup column,
+ * three content sections, closing CTA - is shared, so the
  * persona pages stay visually consistent without per-page JSX drift.
  */
 export function SolutionPageLayout({
@@ -90,24 +89,15 @@ export function SolutionPageLayout({
         ════════════════════════════════════════════════ */}
         <section className="relative pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.10),transparent_60%)]" />
-          <div className="absolute inset-0 bg-grid-texture" />
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
-            <ElegantShape delay={0.5} width={500} height={120} rotate={-15} gradient="from-white/[0.02]" className="right-[-5%] top-[60%]" />
-            <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[10%]" />
-          </div>
           <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-12 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] text-[#FF8473]">
-                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
-                  {copy.badge}
-                </span>
+                <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">{copy.badge}</span>
               </motion.div>
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance" aria-label={`${copy.titleLine1} ${copy.titleLine2}`}>
-                <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">{copy.titleLine1}</span>{" "}
+                <span className="text-[var(--text-primary)]">{copy.titleLine1}</span>{" "}
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E]">{copy.titleLine2}</span>
+                <span className="italic text-[#F6C66B]">{copy.titleLine2}</span>
               </motion.h1>
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
                 {copy.description}
@@ -271,15 +261,12 @@ export function SolutionPageLayout({
         {/* ════════════════════════════════════════════════
             CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
-          <div className="absolute inset-0 bg-grid-texture" />
-          <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
-          <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
+        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ background: 'var(--cream)', color: 'var(--ink)' }}>
+          <div aria-hidden className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 55% 55% at 50% 18%, rgba(233,162,74,0.16) 0%, transparent 65%)' }} />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>
-              <h2 className="section-h2 mb-4">{copy.ctaTitle}</h2>
-              <p className="body-lg mb-10 max-w-xl mx-auto">{copy.ctaDescription}</p>
+              <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
+              <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>{copy.ctaDescription}</p>
               <Link href={ctaButtonHref}><Button variant="cta" size="lg">{copy.ctaButton}</Button></Link>
             </FadeUp>
           </div>

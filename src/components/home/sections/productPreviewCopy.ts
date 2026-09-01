@@ -9,7 +9,7 @@ import type { WebsiteLocale } from '@/lib/i18n';
  * with an English fallback, kept out of the large per-locale i18n.ts trees.
  *
  * Glossary discipline (mirrors scripts/qa-translation-quality.mjs): the product
- * surface names "Pulse", "Foresight", "Insights", "Sundae Intelligence", "POS", and
+ * surface names "Pulse", "Foresight", "Insights", "Ask Sundae", "POS", and
  * the role abbreviation "GM" stay untranslated in every locale. The card identity
  * (`id`, `src`, `href`) is NOT part of this copy map - only the human-readable text.
  *
@@ -81,8 +81,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'See full Foresight gallery →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - conversational decision interface',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - conversational decision interface',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Ask your business anything in plain English. Questions like "what drove last night\'s revenue?" come back with the answer, the numbers behind it, and the sources - a conversation, not a dashboard.',
         productLabel: 'See full Intelligence gallery →',
@@ -126,8 +126,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'شاهد معرض Foresight الكامل ←',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - واجهة قرار حوارية',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - واجهة قرار حوارية',
+        caption: 'Ask Sundae',
         whatYouSee:
           'اسأل عملك أي شيء بلغة بسيطة. أسئلة مثل «ما الذي حرّك إيرادات الليلة الماضية؟» تأتيك بالإجابة والأرقام التي تستند إليها والمصادر - محادثة، لا لوحة معلومات.',
         productLabel: 'شاهد معرض Intelligence الكامل ←',
@@ -171,8 +171,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Voir toute la galerie Foresight →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - interface de décision conversationnelle',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - interface de décision conversationnelle',
+        caption: 'Ask Sundae',
         whatYouSee:
           "Posez n'importe quelle question sur votre activité, en langage courant. Des questions comme « qu'est-ce qui a porté le chiffre d'hier soir ? » reviennent avec la réponse, les chiffres derrière et les sources - une conversation, pas un tableau de bord.",
         productLabel: 'Voir toute la galerie Intelligence →',
@@ -216,8 +216,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Ver galería completa de Foresight →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - interfaz de decisión conversacional',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - interfaz de decisión conversacional',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Pregúntale a tu negocio lo que quieras, en lenguaje natural. Preguntas como «¿qué impulsó los ingresos de anoche?» vuelven con la respuesta, los números detrás y las fuentes - una conversación, no un panel.',
         productLabel: 'Ver galería completa de Intelligence →',
@@ -261,8 +261,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Komplette Foresight-Galerie ansehen →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - dialogbasierte Entscheidungsoberfläche',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - dialogbasierte Entscheidungsoberfläche',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Fragen Sie Ihr Geschäft alles, in normaler Sprache. Fragen wie „Was hat den Umsatz von gestern Abend getrieben?“ kommen mit der Antwort, den Zahlen dahinter und den Quellen zurück - ein Gespräch, kein Dashboard.',
         productLabel: 'Komplette Intelligence-Galerie ansehen →',
@@ -306,8 +306,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Bekijk de volledige Foresight-galerij →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - conversationele beslisinterface',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - conversationele beslisinterface',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Vraag uw zaak alles, in gewone taal. Vragen als "wat dreef de omzet van gisteravond?" komen terug met het antwoord, de cijfers erachter en de bronnen - een gesprek, geen dashboard.',
         productLabel: 'Bekijk de volledige Intelligence-galerij →',
@@ -351,8 +351,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Ver galeria completa de Foresight →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - interface de decisão conversacional',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - interface de decisão conversacional',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Pergunte qualquer coisa ao seu negócio, em linguagem simples. Perguntas como "o que puxou a receita de ontem à noite?" voltam com a resposta, os números por trás e as fontes - uma conversa, não um painel.',
         productLabel: 'Ver galeria completa de Intelligence →',
@@ -396,8 +396,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'पूरी Foresight गैलरी देखें →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - संवादात्मक निर्णय इंटरफ़ेस',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - संवादात्मक निर्णय इंटरफ़ेस',
+        caption: 'Ask Sundae',
         whatYouSee:
           'अपने कारोबार से सरल भाषा में कुछ भी पूछें। "कल रात के रेवेन्यू की वजह क्या थी?" जैसे सवालों का जवाब आँकड़ों और स्रोतों समेत मिलता है - एक बातचीत, कोई डैशबोर्ड नहीं।',
         productLabel: 'पूरी Intelligence गैलरी देखें →',
@@ -441,8 +441,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'مکمل Foresight گیلری دیکھیں ←',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - مکالماتی فیصلہ انٹرفیس',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - مکالماتی فیصلہ انٹرفیس',
+        caption: 'Ask Sundae',
         whatYouSee:
           'اپنے کاروبار سے سادہ زبان میں کچھ بھی پوچھیں۔ "کل رات کی آمدنی کس چیز نے بڑھائی؟" جیسے سوالوں کا جواب اعداد اور ذرائع سمیت ملتا ہے - ایک گفتگو، کوئی ڈیش بورڈ نہیں۔',
         productLabel: 'مکمل Intelligence گیلری دیکھیں ←',
@@ -486,8 +486,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Vedi la galleria Foresight completa →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - interfaccia decisionale conversazionale',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - interfaccia decisionale conversazionale',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Chiedi al tuo locale qualsiasi cosa, in linguaggio naturale. Domande come «cosa ha trainato i ricavi di ieri sera?» tornano con la risposta, i numeri dietro e le fonti - una conversazione, non una dashboard.',
         productLabel: 'Vedi la galleria Intelligence completa →',
@@ -531,8 +531,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Zobacz pełną galerię Foresight →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - konwersacyjny interfejs decyzyjny',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - konwersacyjny interfejs decyzyjny',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Zapytaj swój biznes o cokolwiek, zwykłym językiem. Pytania w stylu „co napędziło wczorajszy przychód?" wracają z odpowiedzią, liczbami za nią i źródłami - rozmowa, nie pulpit.',
         productLabel: 'Zobacz pełną galerię Intelligence →',
@@ -576,8 +576,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Tüm Foresight galerisini gör →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - sohbet tabanlı karar arayüzü',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - sohbet tabanlı karar arayüzü',
+        caption: 'Ask Sundae',
         whatYouSee:
           'İşletmenize sade bir dille her şeyi sorun. "Dün geceki geliri ne yükseltti?" gibi sorular yanıtla, ardındaki sayılarla ve kaynaklarla geri döner - bir sohbet, bir gösterge paneli değil.',
         productLabel: 'Tüm Intelligence galerisini gör →',
@@ -621,8 +621,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: '查看完整 Foresight 图库 →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence--对话式决策界面',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae--对话式决策界面',
+        caption: 'Ask Sundae',
         whatYouSee:
           '用大白话问你的生意任何问题。像「昨晚营收是什么带动的？」这样的问题，会连同答案、背后的数字和数据来源一并返回--是一场对话，而不是一块仪表盘。',
         productLabel: '查看完整 Intelligence 图库 →',
@@ -666,8 +666,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Foresight の全ギャラリーを見る →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence--対話型の意思決定インターフェース',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae--対話型の意思決定インターフェース',
+        caption: 'Ask Sundae',
         whatYouSee:
           'ふだんの言葉で、ビジネスに何でも尋ねられます。「昨夜の売上を押し上げたのは何か？」といった問いに、答えと、その根拠の数字と、出典がそろって返ってきます--ダッシュボードではなく、会話です。',
         productLabel: 'Intelligence の全ギャラリーを見る →',
@@ -690,36 +690,36 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
     sub: '플랫폼 곳곳의 네 가지 화면. 아무거나 클릭하면 확대되고, 각 제품 페이지에서 전체 갤러리를 볼 수 있습니다.',
     cards: {
       execSummary: {
-        alt: '경영 요약 - 모든 모듈의 KPI, 알림, 헬스 스코어',
+        alt: '경영 요약--모든 모듈의 KPI, 알림, 헬스 스코어',
         caption: '경영 요약',
         whatYouSee:
-          '모든 모듈을 아우르는 하나의 헬스 스코어가 오늘 당신이 봐야 할 단 하나를 끌어올립니다 - 여기서는 마땅한 수준을 크게 웃도는 식자재 원가 편차 - 그래서 중요한 일이 너무 늦을 때까지 보고서 속에 숨지 않습니다.',
+          '모든 모듈을 아우르는 하나의 헬스 스코어가 오늘 당신이 봐야 할 단 하나를 끌어올립니다--여기서는 마땅한 수준을 크게 웃도는 식자재 원가 편차--그래서 중요한 일이 너무 늦을 때까지 보고서 속에 숨지 않습니다.',
         productLabel: '전체 Insights 갤러리 보기 →',
       },
       pulseWallboard: {
-        alt: 'Pulse - 목표 대비 실시간 매출 페이스',
-        caption: 'Pulse - 실시간 페이스',
+        alt: 'Pulse--목표 대비 실시간 매출 페이스',
+        caption: 'Pulse--실시간 페이스',
         whatYouSee:
-          '진행 중인 근무를 한눈에 - 매장별 목표 대비 매출 - 그리고 마감 전에 격차를 메우는 데 정확히 무엇이 필요한지: 남은 영업 시간 동안 각 매장이 필요로 하는 시간당 페이스.',
+          '진행 중인 근무를 한눈에--매장별 목표 대비 매출--그리고 마감 전에 격차를 메우는 데 정확히 무엇이 필요한지: 남은 영업 시간 동안 각 매장이 필요로 하는 시간당 페이스.',
         productLabel: '전체 Pulse 갤러리 보기 →',
       },
       foresightScenarios: {
-        alt: 'Foresight 시나리오 - 10개의 퀵스타트 템플릿을 갖춘 시나리오 라이브러리',
-        caption: 'Foresight - 시나리오',
+        alt: 'Foresight 시나리오--10개의 퀵스타트 템플릿을 갖춘 시나리오 라이브러리',
+        caption: 'Foresight--시나리오',
         whatYouSee:
-          '결정에 발을 들이기 전에 먼저 모델링하세요. 템플릿에서 시작 - 5% 가격 인상, 10% 인건비 절감, 마케팅 푸시 - 그 어떤 것도 현실이 되기 전에 매출과 마진에 미칠 영향을 확인하세요.',
+          '결정에 발을 들이기 전에 먼저 모델링하세요. 템플릿에서 시작--5% 가격 인상, 10% 인건비 절감, 마케팅 푸시--그 어떤 것도 현실이 되기 전에 매출과 마진에 미칠 영향을 확인하세요.',
         productLabel: '전체 Foresight 갤러리 보기 →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - 대화형 의사결정 인터페이스',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae--대화형 의사결정 인터페이스',
+        caption: 'Ask Sundae',
         whatYouSee:
-          '일상 언어로 비즈니스에 무엇이든 물어보세요. "어젯밤 매출을 끌어올린 건 무엇인가?" 같은 질문에 답과, 그 뒤의 숫자와, 출처가 함께 돌아옵니다 - 대시보드가 아니라 대화입니다.',
+          '일상 언어로 비즈니스에 무엇이든 물어보세요. "어젯밤 매출을 끌어올린 건 무엇인가?" 같은 질문에 답과, 그 뒤의 숫자와, 출처가 함께 돌아옵니다--대시보드가 아니라 대화입니다.',
         productLabel: '전체 Intelligence 갤러리 보기 →',
       },
     },
     adaptsNote:
-      '게다가 이것들은 고정돼 있지 않습니다 - 모든 화면이 역할과 팀의 일하는 방식에 맞춰 바뀌어, CEO와 GM, 재무 리드가 각자 자신에게 중요한 것만 정확히 봅니다.',
+      '게다가 이것들은 고정돼 있지 않습니다--모든 화면이 역할과 팀의 일하는 방식에 맞춰 바뀌어, CEO와 GM, 재무 리드가 각자 자신에게 중요한 것만 정확히 봅니다.',
     footnoteLead: '제품 내 실제 화면입니다. 표시된 데이터는 설명용 합성 데이터입니다.',
     diagnosticLink: '운영 진단 받기',
     footnoteTail: '를 통해 당신의 화면이 어떻게 보일지 확인하세요.',
@@ -756,8 +756,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Lihat galeri Foresight lengkap →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - antarmuka keputusan percakapan',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - antarmuka keputusan percakapan',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Tanyakan apa saja pada bisnis Anda dengan bahasa sehari-hari. Pertanyaan seperti "apa yang mendorong pendapatan tadi malam?" kembali dengan jawaban, angka di baliknya, dan sumbernya - sebuah percakapan, bukan dasbor.',
         productLabel: 'Lihat galeri Intelligence lengkap →',
@@ -801,8 +801,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Xem toàn bộ thư viện Foresight →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - giao diện ra quyết định bằng hội thoại',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - giao diện ra quyết định bằng hội thoại',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Hỏi việc kinh doanh của bạn bất cứ điều gì, bằng ngôn ngữ đời thường. Những câu như "điều gì kéo doanh thu tối qua?" trả về kèm câu trả lời, những con số phía sau và nguồn - một cuộc trò chuyện, không phải bảng số liệu.',
         productLabel: 'Xem toàn bộ thư viện Intelligence →',
@@ -846,8 +846,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Vezi galeria Foresight completă →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - interfață de decizie conversațională',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - interfață de decizie conversațională',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Întreabă-ți afacerea orice, în limbaj obișnuit. Întrebări precum „ce a dus veniturile de aseară?" revin cu răspunsul, cifrele din spate și sursele - o conversație, nu un panou.',
         productLabel: 'Vezi galeria Intelligence completă →',
@@ -891,8 +891,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Se hela Foresight-galleriet →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - konversationellt beslutsgränssnitt',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - konversationellt beslutsgränssnitt',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Fråga din verksamhet vad som helst, på vanligt språk. Frågor som "vad drev gårdagskvällens intäkter?" kommer tillbaka med svaret, siffrorna bakom och källorna - ett samtal, inte en instrumentpanel.',
         productLabel: 'Se hela Intelligence-galleriet →',
@@ -936,8 +936,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'পুরো Foresight গ্যালারি দেখুন →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - কথোপকথনমূলক সিদ্ধান্ত ইন্টারফেস',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - কথোপকথনমূলক সিদ্ধান্ত ইন্টারফেস',
+        caption: 'Ask Sundae',
         whatYouSee:
           'সহজ ভাষায় আপনার ব্যবসাকে যা খুশি জিজ্ঞেস করুন। "গতকাল রাতের রাজস্ব কীসে বাড়ল?" এমন প্রশ্নের উত্তর, পেছনের সংখ্যা ও সূত্রসহ ফিরে আসে - একটি কথোপকথন, কোনো ড্যাশবোর্ড নয়।',
         productLabel: 'পুরো Intelligence গ্যালারি দেখুন →',
@@ -981,8 +981,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'ดูแกลเลอรี Foresight ทั้งหมด →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - อินเทอร์เฟซตัดสินใจแบบสนทนา',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - อินเทอร์เฟซตัดสินใจแบบสนทนา',
+        caption: 'Ask Sundae',
         whatYouSee:
           'ถามธุรกิจของคุณได้ทุกเรื่องเป็นภาษาคนทั่วไป คำถามอย่าง "เมื่อคืนอะไรดันยอดขาย?" จะตอบกลับพร้อมคำตอบ ตัวเลขเบื้องหลัง และแหล่งที่มา - เป็นบทสนทนา ไม่ใช่แดชบอร์ด',
         productLabel: 'ดูแกลเลอรี Intelligence ทั้งหมด →',
@@ -1026,8 +1026,8 @@ export const productPreviewCopy: Record<WebsiteLocale, ProductPreviewCopy> = {
         productLabel: 'Lihat galeri Foresight penuh →',
       },
       intelligence: {
-        alt: 'Sundae Intelligence - antara muka keputusan perbualan',
-        caption: 'Sundae Intelligence',
+        alt: 'Ask Sundae - antara muka keputusan perbualan',
+        caption: 'Ask Sundae',
         whatYouSee:
           'Tanya perniagaan anda apa-apa sahaja dalam bahasa biasa. Soalan seperti "apa yang mendorong hasil malam tadi?" kembali dengan jawapan, angka di sebaliknya dan sumbernya - satu perbualan, bukan papan pemuka.',
         productLabel: 'Lihat galeri Intelligence penuh →',

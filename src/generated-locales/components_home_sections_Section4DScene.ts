@@ -4,12 +4,12 @@ export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
       "eyebrow": "DAS 4D INTELLIGENZMODELL",
-      "headline": "Beobachten Sie, wie ein Umsatzproblem zu einer Entscheidung wird.",
-      "description": "Sundae verbindet Leistung, Planung, Marktumfeld und nächste Schritte - damit Teams handeln können, bevor die Schicht vorbei ist.",
+      "headline": "Sehen Sie zu, wie ein Margenleck zu zurückgewonnenem Gewinn wird.",
+      "description": "Sundae verbindet Leistung, Planung, Marktumfeld und die zugewiesene Lösung - und misst dann die zurückgewonnene Marge, damit Teams nicht nur entscheiden, sondern zurückgewinnen.",
       "scenarioTime": "DIENSTAG · 9:14 UHR · IN DER STADT",
       "scenarioHook": "Die Mittagsumsätze liegen 14% hinter dem Plan.",
       "illustrativeNote": "Illustratives Szenario basierend auf den Fähigkeiten von Sundae.",
-      "closing": "Von Signal zu Ursache zu Handlung - bevor die Schicht endet.",
+      "closing": "Vom Signal zur Ursache zur zugewiesenen Lösung zur gemessenen Rückgewinnung.",
       "dimensions": [
         {
           "shortLabel": "Was ist passiert",
@@ -30,10 +30,10 @@ export const generatedLocalCopy = {
           "body": "Nahegelegene Wettbewerber haben Mittagsangebote gestrichen, und eine lokale Büroveranstaltung reduziert den Fußverkehr."
         },
         {
-          "shortLabel": "Nächste Aktion",
-          "eyebrow": "NÄCHSTE AKTION",
-          "title": "Sundae Coach empfiehlt den nächsten Schritt.",
-          "body": "Passen Sie das Personal an, wenn die Besetzung es zulässt, pushen Sie das Mittagsangebot und geben Sie dem Team die Chance, einen Teil der Lücke vor dem Ende der Stoßzeit zu schließen."
+          "shortLabel": "Zurückgewinnen & messen",
+          "eyebrow": "ZURÜCKGEWINNEN & MESSEN",
+          "title": "Die Lösung hat einen Verantwortlichen, und die Rückgewinnung wird gemessen.",
+          "body": "Ein Verantwortlicher passt das Personal an und bewirbt das Mittagsangebot - und Sundae misst die zurückgewonnene Marge gegenüber der Prognose-Baseline."
         }
       ],
       "visualHeader": "Pulse - Innenstadt · Mittagsservice",
@@ -56,12 +56,12 @@ export const generatedLocalCopy = {
     },
     "es": {
       "eyebrow": "EL MODELO DE INTELIGENCIA 4D",
-      "headline": "Mira cómo un problema de ingresos se convierte en una decisión.",
-      "description": "Sundae conecta el rendimiento, el plan, el contexto del mercado y la próxima acción, para que los equipos puedan actuar antes de que termine el turno.",
+      "headline": "Mira cómo una fuga de margen se convierte en beneficio recuperado.",
+      "description": "Sundae conecta el rendimiento, el plan, el contexto del mercado y la solución con responsable - y luego mide el margen recuperado, para que los equipos no solo decidan, sino que recuperen.",
       "scenarioTime": "MARTES · 9:14 AM · CENTRO",
       "scenarioHook": "Los ingresos del almuerzo están un 14% por debajo del plan.",
       "illustrativeNote": "Escenario ilustrativo basado en las capacidades de Sundae.",
-      "closing": "De la señal a la causa a la acción - antes de que termine el turno.",
+      "closing": "De la señal a la causa a la solución con responsable a la recuperación medida.",
       "dimensions": [
         {
           "shortLabel": "Qué pasó",
@@ -82,10 +82,10 @@ export const generatedLocalCopy = {
           "body": "Los competidores cercanos han eliminado los combos de almuerzo, y un evento local está reduciendo el tráfico peatonal."
         },
         {
-          "shortLabel": "Próxima acción",
-          "eyebrow": "PRÓXIMA ACCIÓN",
-          "title": "Sundae Coach recomienda el siguiente movimiento.",
-          "body": "Ajusta la mano de obra si la cobertura lo permite, impulsa la oferta de almuerzo y da al equipo la oportunidad de recuperar parte de la brecha antes de que termine el pico."
+          "shortLabel": "Recuperar y medir",
+          "eyebrow": "RECUPERAR Y MEDIR",
+          "title": "La solución tiene responsable, y la recuperación se mide.",
+          "body": "Un responsable ajusta el personal e impulsa la oferta de almuerzo - y Sundae mide el margen recuperado frente a la línea base pronosticada."
         }
       ],
       "visualHeader": "Pulse - Centro · Servicio de Almuerzo",
@@ -108,12 +108,12 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "eyebrow": "HET 4D INTELLIGENTIEMODEL",
-      "headline": "Bekijk hoe één omzetprobleem een beslissing wordt.",
-      "description": "Sundae verbindt prestaties, planning, marktcontext en de volgende actie - zodat teams kunnen handelen voordat de dienst voorbij is.",
+      "headline": "Zie hoe één margelek verandert in teruggewonnen winst.",
+      "description": "Sundae verbindt prestaties, planning, marktcontext en de toegewezen oplossing - en meet vervolgens de teruggewonnen marge, zodat teams niet alleen beslissen, maar ook terugwinnen.",
       "scenarioTime": "DINSDAG · 9:14 AM · CENTRUM",
       "scenarioHook": "De lunchomzet loopt 14% achter op het plan.",
       "illustrativeNote": "Illustratief scenario gebaseerd op de mogelijkheden van Sundae.",
-      "closing": "Van signaal naar oorzaak naar actie - voordat de dienst eindigt.",
+      "closing": "Van signaal naar oorzaak naar toegewezen oplossing naar gemeten herstel.",
       "dimensions": [
         {
           "shortLabel": "Wat is er gebeurd",
@@ -134,10 +134,10 @@ export const generatedLocalCopy = {
           "body": "Concurrenten in de buurt hebben lunchcombinaties geschrapt, en een lokaal kantoorevenement vermindert het voetverkeer."
         },
         {
-          "shortLabel": "Volgende actie",
-          "eyebrow": "VOLGENDE ACTIE",
-          "title": "Sundae Coach raadt de volgende stap aan.",
-          "body": "Pas het personeel aan als de bezetting het toelaat, promoot het lunchaanbod en geef het team de kans om een deel van de kloof te herstellen voordat de piek eindigt."
+          "shortLabel": "Terugwinnen & meten",
+          "eyebrow": "TERUGWINNEN & METEN",
+          "title": "De oplossing heeft een eigenaar, en het herstel wordt gemeten.",
+          "body": "Eén eigenaar past het personeel aan en promoot het lunchaanbod - en Sundae meet de teruggewonnen marge ten opzichte van de voorspelde basislijn."
         }
       ],
       "visualHeader": "Pulse - Centrum · Lunchservice",
@@ -160,12 +160,12 @@ export const generatedLocalCopy = {
     },
     "ar": {
       "eyebrow": "نموذج الذكاء الرباعي",
-      "headline": "شاهد مشكلة إيرادات واحدة تتحول إلى قرار.",
-      "description": "Sundae تربط بين الأداء، والخطة، وسياق السوق، والإجراء التالي - حتى تتمكن الفرق من التحرك قبل انتهاء الوردية.",
+      "headline": "شاهد تسرّب هامش واحد يتحوّل إلى ربح مُستعاد.",
+      "description": "Sundae تربط بين الأداء، والخطة، وسياق السوق، والإصلاح المُسنَد - ثم تقيس الهامش المُستعاد، فلا تكتفي الفرق بالقرار، بل تستعيد.",
       "scenarioTime": "الثلاثاء · 9:14 ص · وسط المدينة",
       "scenarioHook": "إيرادات الغداء تتخلف عن الخطة بنسبة 14%.",
       "illustrativeNote": "سيناريو توضيحي يعتمد على قدرات Sundae.",
-      "closing": "من الإشارة إلى السبب إلى الفعل - قبل انتهاء الوردية.",
+      "closing": "من الإشارة إلى السبب إلى الإصلاح المُسنَد إلى الاستعادة المقيسة.",
       "dimensions": [
         {
           "shortLabel": "ماذا حدث",
@@ -186,10 +186,10 @@ export const generatedLocalCopy = {
           "body": "المنافسون القريبون أوقفوا عروض الغداء، وحدث محلي في مكتب يقلل من حركة المرور."
         },
         {
-          "shortLabel": "الإجراء التالي",
-          "eyebrow": "الإجراء التالي",
-          "title": "Sundae Coach يوصي بالخطوة التالية.",
-          "body": "عدّل العمالة إذا سمحت التغطية، وروّج لعرض الغداء، وامنح الفريق فرصة لاستعادة جزء من الفجوة قبل انتهاء الذروة."
+          "shortLabel": "الاستعادة والقياس",
+          "eyebrow": "الاستعادة والقياس",
+          "title": "الإصلاح له مالك، والاستعادة مقيسة.",
+          "body": "مالك واحد يضبط العمالة ويدفع عرض الغداء - وSundae تقيس الهامش المُستعاد مقابل خط الأساس المتوقَّع."
         }
       ],
       "visualHeader": "Pulse - وسط المدينة · خدمة الغداء",
@@ -212,12 +212,12 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "eyebrow": "LE MODÈLE D'INTELLIGENCE 4D",
-      "headline": "Regardez un problème de revenus se transformer en décision.",
-      "description": "Sundae connecte la performance, le plan, le contexte du marché et la prochaine action - afin que les équipes puissent agir avant la fin du service.",
+      "headline": "Regardez une fuite de marge devenir un profit récupéré.",
+      "description": "Sundae connecte la performance, le plan, le contexte du marché et le correctif attribué - puis mesure la marge récupérée, pour que les équipes ne se contentent pas de décider, elles récupèrent.",
       "scenarioTime": "MARDI · 9:14 AM · CENTRE-VILLE",
       "scenarioHook": "Les revenus du déjeuner sont en retard de 14 % par rapport au plan.",
       "illustrativeNote": "Scénario illustratif basé sur les capacités de Sundae.",
-      "closing": "Du signal à la cause jusqu'à l'action - avant la fin du service.",
+      "closing": "Du signal à la cause au correctif attribué à la récupération mesurée.",
       "dimensions": [
         {
           "shortLabel": "Que s'est-il passé",
@@ -238,10 +238,10 @@ export const generatedLocalCopy = {
           "body": "Les concurrents à proximité ont supprimé les combos de déjeuner, et un événement local réduit le trafic piéton."
         },
         {
-          "shortLabel": "Prochaine action",
-          "eyebrow": "PROCHAINE ACTION",
-          "title": "Sundae Coach recommande la prochaine étape.",
-          "body": "Ajustez le personnel si la couverture le permet, poussez l'offre de déjeuner et donnez à l'équipe une chance de récupérer une partie de l'écart avant la fin du pic."
+          "shortLabel": "Récupérer et mesurer",
+          "eyebrow": "RÉCUPÉRER ET MESURER",
+          "title": "Le correctif est attribué, et la récupération mesurée.",
+          "body": "Un responsable ajuste la main-d'œuvre et pousse l'offre déjeuner - et Sundae mesure la marge récupérée par rapport à la référence prévue."
         }
       ],
       "visualHeader": "Pulse - Centre-ville · Service de déjeuner",
@@ -264,12 +264,12 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "eyebrow": "O MODELO DE INTELIGÊNCIA 4D",
-      "headline": "Assista a um problema de receita se transformar em uma decisão.",
-      "description": "Sundae conecta desempenho, planejamento, contexto de mercado e próxima ação - para que as equipes possam agir antes que o turno termine.",
+      "headline": "Veja um vazamento de margem se transformar em lucro recuperado.",
+      "description": "Sundae conecta desempenho, planejamento, contexto de mercado e a correção com responsável - e então mede a margem recuperada, para que as equipes não apenas decidam, mas recuperem.",
       "scenarioTime": "TERÇA-FEIRA · 9:14 AM · CENTRO",
       "scenarioHook": "A receita do almoço está 14% abaixo do planejado.",
       "illustrativeNote": "Cenário ilustrativo baseado nas capacidades do Sundae.",
-      "closing": "Do sinal à causa à ação - antes que o turno termine.",
+      "closing": "Do sinal à causa à correção com responsável à recuperação medida.",
       "dimensions": [
         {
           "shortLabel": "O que aconteceu",
@@ -290,10 +290,10 @@ export const generatedLocalCopy = {
           "body": "Concorrentes próximos eliminaram combos de almoço, e um evento local está reduzindo o tráfego de clientes."
         },
         {
-          "shortLabel": "Próxima ação",
-          "eyebrow": "PRÓXIMA AÇÃO",
-          "title": "O Sundae Coach recomenda o próximo passo.",
-          "body": "Ajuste a equipe se a cobertura permitir, impulsione a oferta de almoço e dê à equipe uma chance de recuperar parte da diferença antes que o pico termine."
+          "shortLabel": "Recuperar e medir",
+          "eyebrow": "RECUPERAR E MEDIR",
+          "title": "A correção tem responsável, e a recuperação é medida.",
+          "body": "Um responsável ajusta a equipe e impulsiona a oferta de almoço - e o Sundae mede a margem recuperada em relação à linha de base prevista."
         }
       ],
       "visualHeader": "Pulse - Centro · Serviço de Almoço",
@@ -316,12 +316,12 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "eyebrow": "4D इंटेलिजेंस मॉडल",
-      "headline": "एक राजस्व समस्या को निर्णय में बदलते हुए देखें।",
-      "description": "Sundae प्रदर्शन, योजना, बाजार संदर्भ और अगली कार्रवाई को जोड़ता है - ताकि टीमें शिफ्ट खत्म होने से पहले आगे बढ़ सकें।",
+      "headline": "देखें कैसे एक मार्जिन लीक वसूले गए मुनाफे में बदल जाता है।",
+      "description": "Sundae प्रदर्शन, योजना, बाजार संदर्भ और सौंपे गए समाधान को जोड़ता है - फिर वसूले गए मार्जिन को मापता है, ताकि टीमें सिर्फ निर्णय न लें, बल्कि वसूली करें।",
       "scenarioTime": "मंगलवार · 9:14 पूर्वाह्न · डाउनटाउन",
       "scenarioHook": "दोपहर के भोजन की आय योजना से 14% पीछे है।",
       "illustrativeNote": "Sundae की क्षमताओं पर आधारित एक चित्रात्मक परिदृश्य।",
-      "closing": "संकेत से कारण तक और फिर क्रिया तक - शिफ्ट समाप्त होने से पहले।",
+      "closing": "संकेत से कारण तक, सौंपे गए समाधान तक, और मापी गई वसूली तक।",
       "dimensions": [
         {
           "shortLabel": "क्या हुआ",
@@ -342,10 +342,10 @@ export const generatedLocalCopy = {
           "body": "नजदीकी प्रतिस्पर्धियों ने लंच कॉम्बो गिरा दिए हैं, और एक स्थानीय कार्यालय कार्यक्रम फुट ट्रैफिक को कम कर रहा है।"
         },
         {
-          "shortLabel": "अगला कदम",
-          "eyebrow": "अगला कदम",
-          "title": "Sundae Coach अगला कदम सुझाता है।",
-          "body": "यदि कवरेज की अनुमति हो तो श्रम को समायोजित करें, लंच ऑफर को बढ़ावा दें, और टीम को पीक खत्म होने से पहले अंतर का कुछ हिस्सा पुनर्प्राप्त करने का मौका दें।"
+          "shortLabel": "वसूली और माप",
+          "eyebrow": "वसूली और माप",
+          "title": "समाधान का एक मालिक है, और वसूली मापी जाती है।",
+          "body": "एक मालिक श्रम को समायोजित करता है और लंच ऑफर को बढ़ावा देता है - और Sundae पूर्वानुमानित बेसलाइन के मुकाबले वसूले गए मार्जिन को मापता है।"
         }
       ],
       "visualHeader": "Pulse - डाउनटाउन · लंच सेवा",
@@ -368,12 +368,12 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "eyebrow": "4D ذہانت ماڈل",
-      "headline": "ایک آمدنی کے مسئلے کو ایک فیصلے میں تبدیل ہوتے ہوئے دیکھیں۔",
-      "description": "Sundae کارکردگی، منصوبہ، مارکیٹ کے سیاق و سباق، اور اگلی کارروائی کو جوڑتا ہے - تاکہ ٹیمیں شفٹ ختم ہونے سے پہلے آگے بڑھ سکیں۔",
+      "headline": "دیکھیں کہ کیسے ایک مارجن لیک بحال شدہ منافع میں بدل جاتا ہے۔",
+      "description": "Sundae کارکردگی، منصوبہ، مارکیٹ کے سیاق و سباق، اور تفویض کردہ حل کو جوڑتا ہے - پھر بحال شدہ مارجن کی پیمائش کرتا ہے، تاکہ ٹیمیں صرف فیصلہ ہی نہ کریں بلکہ بحالی بھی کریں۔",
       "scenarioTime": "منگل · 9:14 صبح · شہر کے وسط میں",
       "scenarioHook": "دوپہر کے کھانے کی آمدنی منصوبے سے 14% پیچھے ہے۔",
       "illustrativeNote": "Sundae کی صلاحیتوں پر مبنی وضاحتی منظرنامہ۔",
-      "closing": "سگنل سے سبب تک اور عمل تک - شفٹ ختم ہونے سے پہلے۔",
+      "closing": "سگنل سے سبب تک، تفویض کردہ حل تک، اور ماپی گئی بحالی تک۔",
       "dimensions": [
         {
           "shortLabel": "کیا ہوا",
@@ -394,10 +394,10 @@ export const generatedLocalCopy = {
           "body": "قریب کے حریفوں نے دوپہر کے کھانے کے کمبوز چھوڑ دیے ہیں، اور ایک مقامی دفتر کا واقعہ پیروں کی ٹریفک کو کم کر رہا ہے۔"
         },
         {
-          "shortLabel": "اگلا اقدام",
-          "eyebrow": "اگلا اقدام",
-          "title": "Sundae Coach اگلا اقدام تجویز کرتا ہے۔",
-          "body": "اگر کوریج کی اجازت ہو تو مزدوری کو ایڈجسٹ کریں، دوپہر کے کھانے کی پیشکش کو بڑھائیں، اور ٹیم کو چوٹی کے ختم ہونے سے پہلے فرق کا کچھ حصہ بحال کرنے کا موقع دیں۔"
+          "shortLabel": "بحالی اور پیمائش",
+          "eyebrow": "بحالی اور پیمائش",
+          "title": "حل کا ایک مالک ہے، اور بحالی کی پیمائش ہوتی ہے۔",
+          "body": "ایک مالک مزدوری کو ایڈجسٹ کرتا ہے اور دوپہر کے کھانے کی پیشکش کو آگے بڑھاتا ہے - اور Sundae پیش گوئی کردہ بنیادی لائن کے مقابلے میں بحال شدہ مارجن کی پیمائش کرتا ہے۔"
         }
       ],
       "visualHeader": "Pulse - شہر کا مرکز · دوپہر کے کھانے کی سروس",
@@ -420,12 +420,12 @@ export const generatedLocalCopy = {
     },
     "it": {
       "eyebrow": "IL MODELLO DI INTELLIGENZA 4D",
-      "headline": "Guarda un problema di fatturato diventare una decisione.",
-      "description": "Sundae collega performance, piano, contesto di mercato e prossima azione - così i team possono muoversi prima che il turno sia finito.",
+      "headline": "Guarda una perdita di margine trasformarsi in profitto recuperato.",
+      "description": "Sundae collega performance, piano, contesto di mercato e la soluzione con un responsabile - poi misura il margine recuperato, così i team non si limitano a decidere, ma recuperano.",
       "scenarioTime": "MARTEDÌ · 9:14 · CENTRO",
       "scenarioHook": "Il fatturato del pranzo è in ritardo del 14% rispetto al piano.",
       "illustrativeNote": "Scenario illustrativo basato sulle capacità di Sundae.",
-      "closing": "Dal segnale alla causa all'azione - prima che il turno finisca.",
+      "closing": "Dal segnale alla causa alla soluzione con un responsabile al recupero misurato.",
       "dimensions": [
         {
           "shortLabel": "Cosa è successo",
@@ -446,10 +446,10 @@ export const generatedLocalCopy = {
           "body": "I concorrenti vicini hanno eliminato i pacchetti pranzo e un evento locale in ufficio sta riducendo il traffico pedonale."
         },
         {
-          "shortLabel": "Prossima azione",
-          "eyebrow": "PROSSIMA AZIONE",
-          "title": "Sundae Coach raccomanda la prossima mossa.",
-          "body": "Regola il personale se la copertura lo consente, promuovi l'offerta pranzo e dai al team la possibilità di recuperare parte del divario prima che il picco finisca."
+          "shortLabel": "Recupera e misura",
+          "eyebrow": "RECUPERA E MISURA",
+          "title": "La soluzione ha un responsabile e il recupero è misurato.",
+          "body": "Un responsabile regola il personale e promuove l'offerta pranzo - e Sundae misura il margine recuperato rispetto alla baseline prevista."
         }
       ],
       "visualHeader": "Pulse - Centro · Servizio Pranzo",
@@ -472,12 +472,12 @@ export const generatedLocalCopy = {
     },
     "pl": {
       "eyebrow": "MODEL INTELIGENCJI 4D",
-      "headline": "Obserwuj, jak jeden problem z przychodami staje się decyzją.",
-      "description": "Sundae łączy wydajność, plan, kontekst rynkowy i następne działania - dzięki czemu zespoły mogą działać zanim zmiana się skończy.",
+      "headline": "Zobacz, jak jeden wyciek marży zamienia się w odzyskany zysk.",
+      "description": "Sundae łączy wydajność, plan, kontekst rynkowy i przypisaną naprawę - a następnie mierzy odzyskaną marżę, aby zespoły nie tylko decydowały, ale też odzyskiwały.",
       "scenarioTime": "WTOREK · 9:14 · CENTRUM",
       "scenarioHook": "Przychody z lunchu są o 14% poniżej planu.",
       "illustrativeNote": "Ilustrowany scenariusz oparty na możliwościach Sundae.",
-      "closing": "Od sygnału do przyczyny do działania - zanim zmiana się skończy.",
+      "closing": "Od sygnału do przyczyny do przypisanej naprawy do zmierzonego odzysku.",
       "dimensions": [
         {
           "shortLabel": "Co się stało",
@@ -498,10 +498,10 @@ export const generatedLocalCopy = {
           "body": "Okoliczni konkurenci zrezygnowali z lunchowych zestawów, a lokalne wydarzenie biurowe zmniejsza ruch pieszy."
         },
         {
-          "shortLabel": "Następne działanie",
-          "eyebrow": "NASTĘPNE DZIAŁANIE",
-          "title": "Sundae Coach zaleca następny krok.",
-          "body": "Dostosuj zatrudnienie, jeśli pokrycie na to pozwala, promuj ofertę lunchową i daj zespołowi szansę na odzyskanie części różnicy przed końcem szczytu."
+          "shortLabel": "Odzyskaj i zmierz",
+          "eyebrow": "ODZYSKAJ I ZMIERZ",
+          "title": "Naprawa ma właściciela, a odzysk jest mierzony.",
+          "body": "Jeden właściciel dostosowuje personel i promuje ofertę lunchową - a Sundae mierzy odzyskaną marżę względem prognozowanej linii bazowej."
         }
       ],
       "visualHeader": "Pulse - Centrum · Serwis Lunchowy",
@@ -524,12 +524,12 @@ export const generatedLocalCopy = {
     },
     "tr": {
       "eyebrow": "4D ZEKÂ MODELİ",
-      "headline": "Bir gelir sorununu karar haline getirin.",
-      "description": "Sundae, performansı, planı, piyasa bağlamını ve bir sonraki eylemi birleştirir - böylece ekipler değişim bitmeden harekete geçebilir.",
+      "headline": "Bir marj sızıntısının geri kazanılan kâra dönüşmesini izleyin.",
+      "description": "Sundae performansı, planı, piyasa bağlamını ve sahibi olan çözümü birleştirir - ardından geri kazanılan marjı ölçer, böylece ekipler yalnızca karar vermez, geri kazanır.",
       "scenarioTime": "SALI · 9:14 ÖÖ · ŞEHİR MERKEZİ",
       "scenarioHook": "Öğle yemeği geliri planın %14 gerisinde ilerliyor.",
       "illustrativeNote": "Sundae yeteneklerine dayanan örnek senaryo.",
-      "closing": "Sinyalden nedene, oradan da eyleme - değişim sona ermeden önce.",
+      "closing": "Sinyalden nedene, sahibi olan çözüme, ölçülen geri kazanıma.",
       "dimensions": [
         {
           "shortLabel": "Ne oldu",
@@ -550,10 +550,10 @@ export const generatedLocalCopy = {
           "body": "Yakındaki rakipler öğle yemeği kombinasyonlarını bıraktı ve yerel bir ofis etkinliği yaya trafiğini azaltıyor."
         },
         {
-          "shortLabel": "Sonraki eylem",
-          "eyebrow": "SONRAKİ EYLEM",
-          "title": "Sundae Coach bir sonraki adımı öneriyor.",
-          "body": "Kapsama izin veriyorsa iş gücünü ayarlayın, öğle yemeği teklifini öne çıkarın ve ekipten zirve bitmeden farkın bir kısmını kapatma şansı verin."
+          "shortLabel": "Geri kazan ve ölç",
+          "eyebrow": "GERİ KAZAN VE ÖLÇ",
+          "title": "Çözümün bir sahibi var ve geri kazanım ölçülüyor.",
+          "body": "Bir sahip iş gücünü ayarlar ve öğle yemeği teklifini öne çıkarır - ve Sundae geri kazanılan marjı tahmin temel çizgisine göre ölçer."
         }
       ],
       "visualHeader": "Pulse - Şehir Merkezi · Öğle Servisi",
@@ -576,12 +576,12 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "eyebrow": "4D智能模型",
-      "headline": "观察一个收入问题如何转变为决策。",
-      "description": "Sundae 连接了绩效、计划、市场背景和下一步行动--让团队在变动结束前就能采取行动。",
+      "headline": "见证一个利润率漏洞如何变成挽回的利润。",
+      "description": "Sundae 连接绩效、计划、市场背景和有归属的修复方案--然后衡量挽回的利润率，让团队不仅仅是决策，而是真正挽回。",
       "scenarioTime": "星期二 · 上午 9:14 · 市中心",
       "scenarioHook": "午餐收入落后计划14%。",
       "illustrativeNote": "基于Sundae功能的示例场景。",
-      "closing": "从信号到原因再到行动--在班次结束之前。",
+      "closing": "从信号到原因，到有归属的修复，再到可衡量的挽回。",
       "dimensions": [
         {
           "shortLabel": "发生了什么",
@@ -602,10 +602,10 @@ export const generatedLocalCopy = {
           "body": "附近的竞争对手取消了午餐套餐，而当地的办公室活动减少了客流量。"
         },
         {
-          "shortLabel": "下一步行动",
-          "eyebrow": "下一步行动",
-          "title": "Sundae Coach建议下一步。",
-          "body": "如果覆盖允许，调整劳动力，推动午餐优惠，并给团队一个机会在高峰结束前弥补部分差距。"
+          "shortLabel": "挽回并衡量",
+          "eyebrow": "挽回并衡量",
+          "title": "修复方案有了归属，挽回也得到衡量。",
+          "body": "一位负责人调整人力并推动午餐优惠--Sundae 则对照预测基准衡量挽回的利润率。"
         }
       ],
       "visualHeader": "Pulse - 市中心 · 午餐服务",
@@ -628,12 +628,12 @@ export const generatedLocalCopy = {
     },
     "vi": {
       "eyebrow": "MÔ HÌNH TRÍ TUỆ 4D",
-      "headline": "Theo dõi một vấn đề doanh thu trở thành một quyết định.",
-      "description": "Sundae kết nối hiệu suất, kế hoạch, bối cảnh thị trường và hành động tiếp theo - để các đội có thể hành động trước khi ca làm việc kết thúc.",
+      "headline": "Xem một lỗ hổng biên lợi nhuận trở thành lợi nhuận được khôi phục.",
+      "description": "Sundae kết nối hiệu suất, kế hoạch, bối cảnh thị trường và bản sửa lỗi có người phụ trách - rồi đo lường biên lợi nhuận được khôi phục, để các đội không chỉ quyết định mà còn khôi phục.",
       "scenarioTime": "THỨ BA · 9:14 SÁNG · TRUNG TÂM THÀNH PHỐ",
       "scenarioHook": "Doanh thu bữa trưa đang chậm 14% so với kế hoạch.",
       "illustrativeNote": "Kịch bản minh họa dựa trên khả năng của Sundae.",
-      "closing": "Từ tín hiệu đến nguyên nhân đến hành động - trước khi ca làm việc kết thúc.",
+      "closing": "Từ tín hiệu đến nguyên nhân đến bản sửa lỗi có người phụ trách đến khôi phục được đo lường.",
       "dimensions": [
         {
           "shortLabel": "Điều gì đã xảy ra",
@@ -654,10 +654,10 @@ export const generatedLocalCopy = {
           "body": "Các đối thủ cạnh tranh gần đó đã ngừng bán combo bữa trưa, và một sự kiện văn phòng địa phương đang giảm lưu lượng khách."
         },
         {
-          "shortLabel": "Hành động tiếp theo",
-          "eyebrow": "HÀNH ĐỘNG TIẾP THEO",
-          "title": "Sundae Coach khuyến nghị bước tiếp theo.",
-          "body": "Điều chỉnh nhân sự nếu có thể, đẩy mạnh ưu đãi bữa trưa, và cho đội ngũ cơ hội để phục hồi một phần khoảng cách trước khi giờ cao điểm kết thúc."
+          "shortLabel": "Khôi phục & đo lường",
+          "eyebrow": "KHÔI PHỤC & ĐO LƯỜNG",
+          "title": "Bản sửa lỗi có người phụ trách, và mức khôi phục được đo lường.",
+          "body": "Một người phụ trách điều chỉnh nhân sự và đẩy mạnh ưu đãi bữa trưa - và Sundae đo lường biên lợi nhuận được khôi phục so với đường cơ sở dự báo."
         }
       ],
       "visualHeader": "Pulse - Trung tâm · Dịch vụ Bữa trưa",
@@ -680,12 +680,12 @@ export const generatedLocalCopy = {
     },
     "id": {
       "eyebrow": "MODEL INTELIGENSI 4D",
-      "headline": "Saksikan satu masalah pendapatan menjadi sebuah keputusan.",
-      "description": "Sundae menghubungkan kinerja, rencana, konteks pasar, dan tindakan selanjutnya - sehingga tim dapat bergerak sebelum pergantian selesai.",
+      "headline": "Saksikan satu kebocoran margin menjadi laba yang dipulihkan.",
+      "description": "Sundae menghubungkan kinerja, rencana, konteks pasar, dan perbaikan yang ada penanggung jawabnya - lalu mengukur margin yang dipulihkan, sehingga tim tidak hanya memutuskan, tetapi memulihkan.",
       "scenarioTime": "SELASA · 9:14 AM · PUSAT KOTA",
       "scenarioHook": "Pendapatan makan siang tertinggal 14% dari rencana.",
       "illustrativeNote": "Skenario ilustratif berdasarkan kemampuan Sundae.",
-      "closing": "Dari sinyal ke penyebab hingga tindakan - sebelum pergantian selesai.",
+      "closing": "Dari sinyal ke penyebab ke perbaikan yang ditugaskan ke pemulihan yang terukur.",
       "dimensions": [
         {
           "shortLabel": "Apa yang terjadi",
@@ -706,10 +706,10 @@ export const generatedLocalCopy = {
           "body": "Kompetitor terdekat menghapus paket makan siang, dan acara kantor lokal mengurangi lalu lintas pejalan kaki."
         },
         {
-          "shortLabel": "Tindakan selanjutnya",
-          "eyebrow": "TINDAKAN SELANJUTNYA",
-          "title": "Sundae Coach merekomendasikan langkah selanjutnya.",
-          "body": "Sesuaikan tenaga kerja jika cakupan memungkinkan, dorong penawaran makan siang, dan beri tim kesempatan untuk memulihkan sebagian kesenjangan sebelum puncak berakhir."
+          "shortLabel": "Pulihkan & ukur",
+          "eyebrow": "PULIHKAN & UKUR",
+          "title": "Perbaikan memiliki penanggung jawab, dan pemulihannya terukur.",
+          "body": "Satu penanggung jawab menyesuaikan tenaga kerja dan mendorong penawaran makan siang - dan Sundae mengukur margin yang dipulihkan terhadap baseline perkiraan."
         }
       ],
       "visualHeader": "Pulse - Pusat Kota · Layanan Makan Siang",
@@ -732,12 +732,12 @@ export const generatedLocalCopy = {
     },
     "ja": {
       "eyebrow": "4Dインテリジェンスモデル",
-      "headline": "1つの収益問題が決定に変わるのを見てください。",
-      "description": "Sundaeは、パフォーマンス、計画、市場のコンテキスト、次のアクションを結びつけるため、チームがシフトが終わる前に動けるようにします。",
+      "headline": "1つの利益率の漏れが、取り戻した利益に変わる様子をご覧ください。",
+      "description": "Sundaeはパフォーマンス、計画、市場のコンテキスト、そして担当者のいる対策を結びつけ--その後、取り戻した利益率を測定するため、チームは決定するだけでなく、実際に回復します。",
       "scenarioTime": "火曜日 · 9:14 AM · ダウンタウン",
       "scenarioHook": "ランチの収益は計画の14%遅れています。",
       "illustrativeNote": "Sundaeの機能に基づく例示シナリオ。",
-      "closing": "信号から原因、そして行動へ - シフトが終了する前に。",
+      "closing": "信号から原因へ、担当者のいる対策へ、そして測定された回復へ。",
       "dimensions": [
         {
           "shortLabel": "何が起こったか",
@@ -758,10 +758,10 @@ export const generatedLocalCopy = {
           "body": "近くの競合他社がランチコンボを廃止し、地元のオフィスイベントがフットトラフィックを減少させています。"
         },
         {
-          "shortLabel": "次のアクション",
-          "eyebrow": "次のアクション",
-          "title": "Sundae Coachが次の動きを推奨します。",
-          "body": "人員配置に余裕があれば人員を調整し、ランチの販促を強化し、ピークが終わる前にチームにギャップの一部を取り戻す機会を与えます。"
+          "shortLabel": "回復と測定",
+          "eyebrow": "回復と測定",
+          "title": "対策には担当者がおり、回復も測定されます。",
+          "body": "1人の担当者が人員を調整し、ランチの販促を強化します--そしてSundaeは予測ベースラインに対して取り戻した利益率を測定します。"
         }
       ],
       "visualHeader": "Pulse - ダウンタウン · ランチサービス",
@@ -784,12 +784,12 @@ export const generatedLocalCopy = {
     },
     "ro": {
       "eyebrow": "MODELUL DE INTELIGENȚĂ 4D",
-      "headline": "Privește o problemă de venituri transformându-se într-o decizie.",
-      "description": "Sundae conectează performanța, planul, contextul pieței și următoarea acțiune - astfel încât echipele să poată acționa înainte ca tura să se încheie.",
+      "headline": "Urmăriți cum o scurgere de marjă devine profit recuperat.",
+      "description": "Sundae conectează performanța, planul, contextul pieței și soluția cu responsabil - apoi măsoară marja recuperată, astfel încât echipele nu doar decid, ci recuperează.",
       "scenarioTime": "MARȚI · 9:14 AM · CENTRUL ORAȘULUI",
       "scenarioHook": "Venitul din prânz este cu 14% sub plan.",
       "illustrativeNote": "Scenariul ilustrativ bazat pe capabilitățile Sundae.",
-      "closing": "De la semnal la cauză și acțiune - înainte ca tura să se încheie.",
+      "closing": "De la semnal la cauză la soluția cu responsabil la recuperarea măsurată.",
       "dimensions": [
         {
           "shortLabel": "Ce s-a întâmplat",
@@ -810,10 +810,10 @@ export const generatedLocalCopy = {
           "body": "Competitorii din apropiere au renunțat la combinațiile de prânz, iar un eveniment local de birou reduce traficul pietonal."
         },
         {
-          "shortLabel": "Următoarea acțiune",
-          "eyebrow": "URMĂTOAREA ACȚIUNE",
-          "title": "Sundae Coach recomandă următoarea mișcare.",
-          "body": "Ajustați forța de muncă dacă acoperirea permite, promovați oferta de prânz și oferiți echipei o șansă de a recupera o parte din diferență înainte de finalul vârfului."
+          "shortLabel": "Recuperează și măsoară",
+          "eyebrow": "RECUPEREAZĂ ȘI MĂSOARĂ",
+          "title": "Soluția are un responsabil, iar recuperarea este măsurată.",
+          "body": "Un responsabil ajustează forța de muncă și promovează oferta de prânz - iar Sundae măsoară marja recuperată față de valoarea de referință prognozată."
         }
       ],
       "visualHeader": "Pulse - Centrul orașului · Serviciu de prânz",
@@ -836,12 +836,12 @@ export const generatedLocalCopy = {
     },
     "sv": {
       "eyebrow": "4D INTELLIGENSMODELLEN",
-      "headline": "Se ett intäktsproblem bli ett beslut.",
-      "description": "Sundae kopplar samman prestation, plan, marknadssammanhang och nästa åtgärd - så att team kan agera innan skiftet är över.",
+      "headline": "Se hur en marginalläcka blir återvunnen vinst.",
+      "description": "Sundae kopplar samman prestation, plan, marknadssammanhang och den tilldelade åtgärden - och mäter sedan den återvunna marginalen, så att team inte bara beslutar utan också återvinner.",
       "scenarioTime": "TISDAG · 9:14 · CENTRALA DELARNA",
       "scenarioHook": "Lunchintäkterna ligger 14% efter planen.",
       "illustrativeNote": "Illustrativt scenario baserat på Sundae-funktioner.",
-      "closing": "Från signal till orsak till åtgärd - innan skiftet avslutas.",
+      "closing": "Från signal till orsak till tilldelad åtgärd till mätt återvinning.",
       "dimensions": [
         {
           "shortLabel": "Vad hände",
@@ -862,10 +862,10 @@ export const generatedLocalCopy = {
           "body": "Närliggande konkurrenter har tagit bort lunchkombinationer, och ett lokalt kontorsevenemang minskar fottrafiken."
         },
         {
-          "shortLabel": "Nästa åtgärd",
-          "eyebrow": "NÄSTA ÅTGÄRD",
-          "title": "Sundae Coach rekommenderar nästa steg.",
-          "body": "Justera arbetskraften om täckningen tillåter, tryck på luncherbjudandet, och ge teamet en chans att återhämta en del av skillnaden innan rusningen slutar."
+          "shortLabel": "Återvinn & mät",
+          "eyebrow": "ÅTERVINN & MÄT",
+          "title": "Åtgärden har en ansvarig, och återvinningen mäts.",
+          "body": "En ansvarig justerar bemanningen och lyfter luncherbjudandet - och Sundae mäter den återvunna marginalen mot den prognostiserade baslinjen."
         }
       ],
       "visualHeader": "Pulse - Centrum · Lunchservice",
@@ -888,12 +888,12 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "eyebrow": "৪ডি বুদ্ধিমত্তা মডেল",
-      "headline": "একটি রাজস্ব সমস্যাকে একটি সিদ্ধান্তে পরিণত হতে দেখুন।",
-      "description": "Sundae কর্মক্ষমতা, পরিকল্পনা, বাজারের প্রেক্ষাপট এবং পরবর্তী পদক্ষেপকে সংযুক্ত করে - যাতে দলগুলি শিফট শেষ হওয়ার আগে পদক্ষেপ নিতে পারে।",
+      "headline": "দেখুন কীভাবে একটি মার্জিন লিক পুনরুদ্ধার করা মুনাফায় পরিণত হয়।",
+      "description": "Sundae কর্মক্ষমতা, পরিকল্পনা, বাজারের প্রেক্ষাপট এবং দায়িত্বপ্রাপ্ত সমাধানকে সংযুক্ত করে - তারপর পুনরুদ্ধার করা মার্জিন পরিমাপ করে, যাতে দলগুলি কেবল সিদ্ধান্ত না নিয়ে পুনরুদ্ধারও করে।",
       "scenarioTime": "মঙ্গলবার · ৯:১৪ AM · ডাউনটাউন",
       "scenarioHook": "দুপুরের খাবারের রাজস্ব পরিকল্পনার থেকে ১৪% পিছিয়ে রয়েছে।",
       "illustrativeNote": "Sundae-এর সক্ষমতার উপর ভিত্তি করে একটি দৃষ্টান্তমূলক পরিস্থিতি।",
-      "closing": "সংকেত থেকে কারণ পর্যন্ত এবং তারপর কার্যক্রম - শিফট শেষ হওয়ার আগে।",
+      "closing": "সংকেত থেকে কারণ, দায়িত্বপ্রাপ্ত সমাধান, এবং পরিমাপ করা পুনরুদ্ধার পর্যন্ত।",
       "dimensions": [
         {
           "shortLabel": "কি হয়েছে",
@@ -914,10 +914,10 @@ export const generatedLocalCopy = {
           "body": "নিকটবর্তী প্রতিযোগীরা লাঞ্চ কম্বো বাদ দিয়েছে, এবং একটি স্থানীয় অফিস ইভেন্ট পায়ের ট্রাফিক কমাচ্ছে।"
         },
         {
-          "shortLabel": "পরবর্তী পদক্ষেপ",
-          "eyebrow": "পরবর্তী পদক্ষেপ",
-          "title": "Sundae Coach পরবর্তী পদক্ষেপ সুপারিশ করে।",
-          "body": "কভারেজ অনুমতি দিলে শ্রম সমন্বয় করুন, লাঞ্চ অফারটি প্রচার করুন, এবং দলের জন্য পিক শেষ হওয়ার আগে ফাঁকটির কিছু অংশ পুনরুদ্ধার করার সুযোগ দিন।"
+          "shortLabel": "পুনরুদ্ধার ও পরিমাপ",
+          "eyebrow": "পুনরুদ্ধার ও পরিমাপ",
+          "title": "সমাধানের একজন মালিক আছে, এবং পুনরুদ্ধার পরিমাপ করা হয়।",
+          "body": "একজন মালিক শ্রম সমন্বয় করেন এবং লাঞ্চ অফার প্রচার করেন - এবং Sundae পূর্বাভাসিত বেসলাইনের বিপরীতে পুনরুদ্ধার করা মার্জিন পরিমাপ করে।"
         }
       ],
       "visualHeader": "Pulse - শহরের কেন্দ্র · লাঞ্চ সার্ভিস",
@@ -940,12 +940,12 @@ export const generatedLocalCopy = {
     },
     "th": {
       "eyebrow": "โมเดลปัญญาประดิษฐ์ 4D",
-      "headline": "ดูปัญหารายได้หนึ่งปัญหาเปลี่ยนเป็นการตัดสินใจ.",
-      "description": "Sundae เชื่อมโยงประสิทธิภาพ แผน บริบทตลาด และการดำเนินการถัดไป - เพื่อให้ทีมสามารถเคลื่อนไหวได้ก่อนที่กะจะสิ้นสุด.",
+      "headline": "ดูการรั่วไหลของกำไรขั้นต้นหนึ่งจุดกลายเป็นกำไรที่กู้คืนมา.",
+      "description": "Sundae เชื่อมโยงประสิทธิภาพ แผน บริบทตลาด และการแก้ไขที่มีผู้รับผิดชอบ - จากนั้นวัดกำไรขั้นต้นที่กู้คืนมา เพื่อให้ทีมไม่เพียงตัดสินใจ แต่กู้คืนได้จริง.",
       "scenarioTime": "วันอังคาร · 9:14 น. · ย่านใจกลางเมือง",
       "scenarioHook": "รายได้จากอาหารกลางวันต่ำกว่าที่วางแผนไว้ 14%.",
       "illustrativeNote": "สถานการณ์ที่แสดงถึงความสามารถของ Sundae.",
-      "closing": "จากสัญญาณไปสู่สาเหตุไปสู่การกระทำ - ก่อนที่กะจะสิ้นสุดลง.",
+      "closing": "จากสัญญาณสู่สาเหตุ สู่การแก้ไขที่มีผู้รับผิดชอบ สู่การกู้คืนที่วัดผลได้.",
       "dimensions": [
         {
           "shortLabel": "เกิดอะไรขึ้น",
@@ -966,10 +966,10 @@ export const generatedLocalCopy = {
           "body": "คู่แข่งใกล้เคียงลดชุดอาหารกลางวัน และกิจกรรมในสำนักงานท้องถิ่นทำให้การเข้าชมลดลง."
         },
         {
-          "shortLabel": "การดำเนินการถัดไป",
-          "eyebrow": "การดำเนินการถัดไป",
-          "title": "Sundae Coach แนะนำการเคลื่อนไหวถัดไป.",
-          "body": "ปรับแรงงานหากการครอบคลุมอนุญาต, ผลักดันข้อเสนออาหารกลางวัน, และให้โอกาสทีมในการฟื้นฟูส่วนหนึ่งของช่องว่างก่อนที่ช่วงพีคจะสิ้นสุด."
+          "shortLabel": "กู้คืนและวัดผล",
+          "eyebrow": "กู้คืนและวัดผล",
+          "title": "การแก้ไขมีผู้รับผิดชอบ และการกู้คืนถูกวัดผล.",
+          "body": "ผู้รับผิดชอบหนึ่งคนปรับแรงงานและผลักดันข้อเสนออาหารกลางวัน - และ Sundae วัดกำไรขั้นต้นที่กู้คืนมาเทียบกับเส้นฐานที่คาดการณ์ไว้."
         }
       ],
       "visualHeader": "Pulse - ย่านดาวน์ทาวน์ · บริการอาหารกลางวัน",
@@ -992,12 +992,12 @@ export const generatedLocalCopy = {
     },
     "ko": {
       "eyebrow": "4D 인텔리전스 모델",
-      "headline": "하나의 수익 문제가 결정으로 바뀌는 모습을 지켜보세요.",
-      "description": "Sundae는 성과, 계획, 시장 맥락 및 다음 행동을 연결하여 팀이 교대 근무가 끝나기 전에 움직일 수 있도록 합니다.",
+      "headline": "하나의 마진 누수가 회수된 수익으로 바뀌는 과정을 지켜보세요.",
+      "description": "Sundae는 성과, 계획, 시장 맥락, 그리고 담당자가 있는 해결책을 연결하고 - 이후 회수된 마진을 측정하여, 팀이 결정에 그치지 않고 실제로 회수하도록 합니다.",
       "scenarioTime": "화요일 · 오전 9:14 · 다운타운",
       "scenarioHook": "점심 수익이 계획보다 14% 뒤처지고 있습니다.",
       "illustrativeNote": "Sundae 기능을 기반으로 한 설명 시나리오.",
-      "closing": "신호에서 원인, 행동으로 - 교대 근무가 끝나기 전에.",
+      "closing": "신호에서 원인으로, 담당자가 있는 해결책으로, 측정된 회수로.",
       "dimensions": [
         {
           "shortLabel": "무슨 일이 있었나요",
@@ -1018,10 +1018,10 @@ export const generatedLocalCopy = {
           "body": "근처 경쟁업체들이 점심 콤보를 중단했고, 지역 사무실 이벤트가 유동 인구를 줄이고 있습니다."
         },
         {
-          "shortLabel": "다음 행동",
-          "eyebrow": "다음 행동",
-          "title": "Sundae Coach가 다음 단계를 추천합니다.",
-          "body": "커버가 허용된다면 인력을 조정하고, 점심 제안을 밀어주며, 피크가 끝나기 전에 팀이 격차의 일부를 회복할 기회를 줍니다."
+          "shortLabel": "회수 및 측정",
+          "eyebrow": "회수 및 측정",
+          "title": "해결책에는 담당자가 있고, 회수는 측정됩니다.",
+          "body": "한 담당자가 인력을 조정하고 점심 제안을 밀어붙입니다 - 그리고 Sundae는 예측 기준선 대비 회수된 마진을 측정합니다."
         }
       ],
       "visualHeader": "Pulse - 다운타운 · 점심 서비스",
@@ -1044,12 +1044,12 @@ export const generatedLocalCopy = {
     },
     "ms": {
       "eyebrow": "MODEL KECERDASAN 4D",
-      "headline": "Saksikan satu masalah pendapatan menjadi keputusan.",
-      "description": "Sundae menghubungkan prestasi, pelan, konteks pasaran, dan tindakan seterusnya - supaya pasukan dapat bertindak sebelum syif berakhir.",
+      "headline": "Saksikan satu kebocoran margin bertukar menjadi keuntungan yang dipulihkan.",
+      "description": "Sundae menghubungkan prestasi, pelan, konteks pasaran, dan pembaikan yang ada penanggungjawabnya - kemudian mengukur margin yang dipulihkan, supaya pasukan bukan sekadar membuat keputusan, tetapi memulihkan.",
       "scenarioTime": "SELASA · 9:14 PAGI · PUSAT BANDAR",
       "scenarioHook": "Pendapatan makan tengah hari berada 14% di belakang rancangan.",
       "illustrativeNote": "Senario ilustratif berdasarkan keupayaan Sundae.",
-      "closing": "Dari isyarat kepada sebab kepada tindakan - sebelum syif berakhir.",
+      "closing": "Daripada isyarat kepada punca kepada pembaikan yang ditugaskan kepada pemulihan yang diukur.",
       "dimensions": [
         {
           "shortLabel": "Apa yang berlaku",
@@ -1070,10 +1070,10 @@ export const generatedLocalCopy = {
           "body": "Pesaing berdekatan menurunkan kombo makan tengah hari, dan acara pejabat tempatan mengurangkan trafik pejalan kaki."
         },
         {
-          "shortLabel": "Tindakan seterusnya",
-          "eyebrow": "TINDAKAN SETERUSNYA",
-          "title": "Sundae Coach mengesyorkan langkah seterusnya.",
-          "body": "Sesuaikan tenaga kerja jika liputan membenarkan, dorong tawaran makan tengah hari, dan beri pasukan peluang untuk memulihkan sebahagian jurang sebelum puncak berakhir."
+          "shortLabel": "Pulih & ukur",
+          "eyebrow": "PULIH & UKUR",
+          "title": "Pembaikan mempunyai penanggungjawab, dan pemulihan diukur.",
+          "body": "Seorang penanggungjawab menyesuaikan tenaga kerja dan mendorong tawaran makan tengah hari - dan Sundae mengukur margin yang dipulihkan berbanding garis dasar ramalan."
         }
       ],
       "visualHeader": "Pulse - Pusat Bandar · Perkhidmatan Makan Tengah Hari",

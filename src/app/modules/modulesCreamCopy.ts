@@ -39,12 +39,12 @@ export const modulesCreamCopy: Record<string, ModulesCreamCopy> = {
   fr: {
     eyebrow: 'COMPOSEZ VOTRE STACK',
     statement: 'Ajoutez ce qu\'il vous faut, *quand* il vous le faut.',
-    lede: 'Douze modules analytiques inclus dans votre abonnement Core - evoluez a votre rythme.',
+    lede: 'Douze modules analytiques inclus dans votre abonnement Core - évoluez à votre rythme.',
   },
   es: {
     eyebrow: 'ARMA TU STACK',
-    statement: 'Anade lo que necesitas, *cuando* lo necesitas.',
-    lede: 'Doce modulos de analitica en tu suscripcion Core - escala a tu ritmo.',
+    statement: 'Añade lo que necesitas, *cuando* lo necesitas.',
+    lede: 'Doce módulos de analítica en tu suscripción Core - escala a tu ritmo.',
   },
   de: {
     eyebrow: 'BAUEN SIE IHREN STACK',
@@ -99,7 +99,7 @@ export const modulesCreamCopy: Record<string, ModulesCreamCopy> = {
   ko: {
     eyebrow: '나만의 스택 구성',
     statement: '필요한 것을, *필요할 때* 더하세요.',
-    lede: 'Core 구독에 포함된 열두 개의 분석 모듈 - 성장에 맞춰 확장하세요.',
+    lede: 'Core 구독에 포함된 열두 개의 분석 모듈--성장에 맞춰 확장하세요.',
   },
   id: {
     eyebrow: 'SUSUN STACK ANDA',

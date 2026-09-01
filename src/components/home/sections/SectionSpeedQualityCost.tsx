@@ -15,6 +15,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionSpeedQualityCost'
+import { getPositioningCopy } from '@/lib/positioningCopy';
+import { balanceSentences } from "@/lib/balanceSentences";
 
 /* ─── i18n copy ─── */
 
@@ -26,64 +28,69 @@ type LocalizedSQC = {
   sundaeRule: string;
   closing: string;
   costMetric: string;
+  qualityMetric: string;
   vertices: { label: string; headline: string; body: string; chips: [string, string, string] }[];
 };
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   en: {
-    costMetric: "Free to start",
+    costMetric: "Live in days",
+    qualityMetric: "Ready on day one",
     eyebrow: "THE FALSE CHOICE IS OVER",
     headline: "Fast. Right. Affordable. Pick all three.",
-    description: "Getting real restaurant intelligence used to mean a tradeoff - fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once - that's the entire point.",
+    description: "Getting real food-service intelligence used to mean a tradeoff - fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once - that's the entire point.",
     oldRule: "Old rule: pick two",
     sundaeRule: "↓  Sundae rule: pick all three",
-    closing: "That's not a tradeoff. That's your operating advantage.",
+    closing: "That is how Core starts. Crew migrations and wider estates get scoped on the systems involved.",
     vertices: [
-      { label: "Speed", headline: "Deploy in days. Decide in seconds.", body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
-      { label: "Quality", headline: "Built for restaurants. Governed for decisions.", body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
-      { label: "Cost", headline: "Lower cost than rebuilding BI around restaurants.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one, with Report Lite free to start.", chips: ["Report Lite free", "Less custom BI", "Lower analyst load"] },
+      { label: "Speed", headline: "Deploy in days. Recover from day one.", body: "Connect your stack fast. Pulse updates through the shift, and Ask Sundae answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
+      { label: "Quality", headline: "Built for food-service. Governed for recovery.", body: "Sundae connects operating evidence to one accountable owner, then measures what came back against the agreed baseline.", chips: ["Ready on day one", "Source-cited AI", "Peer benchmarks"] },
+      { label: "Cost", headline: "Lower cost than rebuilding BI around food-service.", body: "BI licenses are only the visible cost. Sundae reduces the analyst, integration, model-maintenance and decision-delay burden around recovery.", chips: ["Live in days", "Less custom BI", "Lower analyst load"] },
     ],
   },
   ar: {
-    costMetric: "مجاناً للبدء",
+    costMetric: "جاهز خلال أيام",
+    qualityMetric: "جاهز من اليوم الأول",
     eyebrow: "انتهى زمن الاختيار الزائف",
     headline: "سريع. صحيح. ميسور. اختر الثلاثة.",
-    description: "كان الحصول على ذكاء مطاعم حقيقي يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
+    description: "كان الحصول على ذكاء حقيقي لخدمات الطعام يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
     oldRule: "القاعدة القديمة: اختر اثنين",
     sundaeRule: "↓ قاعدة Sundae: اختر الثلاثة",
-    closing: "هذه ليست مقايضة. هذه ميزتك التشغيلية.",
+    closing: "هكذا تبدأ Core. أما ترحيلات Crew والمنظومات الأوسع فيُحدَّد نطاقها حسب الأنظمة المعنية.",
     vertices: [
-      { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وSundae Intelligence يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
-      { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بأكثر من 500 نموذج بيانات مطعم محكوم، ومعايير نظراء، وإجابات AI مع مصادر - فلا تبني من لوحة BI فارغة.", chips: ["+500 نموذج", "AI بمصادر", "معايير نظراء"] },
-      { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول المطاعم.", body: "تراخيص BI ليست سوى التكلفة المرئية. الإنفاق الحقيقي محللون وتكاملات ونماذج مخصصة وصيانة لوحات وقرارات متأخرة. Sundae جاهز للمطاعم من اليوم الأول، مع Report Lite مجاناً.", chips: ["Report Lite مجاناً", "BI مخصص أقل", "حمل محلل أقل"] },
+      { label: "السرعة", headline: "انشر في أيام. استرجع من اليوم الأول.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وAsk Sundae يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
+      { label: "الجودة", headline: "مصمم لخدمات الطعام. محكوم لاسترجاع الأرباح.", body: "يربط Sundae الأدلة التشغيلية بمسؤول واحد، ثم يقيس ما عاد مقارنة بخط الأساس المتفق عليه.", chips: ["جاهز من اليوم الأول", "AI بمصادر", "معايير نظراء"] },
+      { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول خدمات الطعام.", body: "تراخيص BI ليست سوى التكلفة المرئية. يقلل Sundae عبء المحللين والتكاملات وصيانة النماذج وتأخر القرارات حول الاسترداد.", chips: ["جاهز خلال أيام", "BI مخصص أقل", "حمل محلل أقل"] },
     ],
   },
   fr: {
-    costMetric: "Gratuit pour démarrer",
+    costMetric: "Opérationnel en jours",
+    qualityMetric: "Prêt dès le premier jour",
     eyebrow: "LE FAUX DILEMME, C'EST FINI",
     headline: "Rapide. Juste. Abordable. Prenez les trois.",
-    description: "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
+    description: "Obtenir une vraie intelligence pour la restauration, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
     oldRule: "Ancienne règle : choisir deux",
     sundaeRule: "↓ Règle Sundae : choisir les trois",
-    closing: "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
+    closing: "C'est ainsi que Core démarre. Les migrations Crew et les parcs plus larges sont cadrés selon les systèmes concernés.",
     vertices: [
-      { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Sundae Intelligence répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
-      { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre 500+ modèles de données restaurant gouvernés, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["500+ modèles", "IA sourcée", "Benchmarks pairs"] },
-      { label: "Coût", headline: "Moins cher que reconstruire la BI autour des restaurants.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt restaurant dès le premier jour, avec Report Lite gratuit.", chips: ["Report Lite gratuit", "Moins de BI custom", "Moins d'analystes"] },
+      { label: "Vitesse", headline: "Déployez en jours. Récupérez dès le premier jour.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Ask Sundae répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
+      { label: "Qualité", headline: "Conçu pour la restauration. Gouverné pour la récupération.", body: "Sundae relie les preuves d'exploitation à un responsable, puis mesure ce qui revient par rapport à la référence convenue.", chips: ["Prêt dès le premier jour", "IA sourcée", "Benchmarks pairs"] },
+      { label: "Coût", headline: "Moins cher que reconstruire la BI autour de la restauration.", body: "Les licences BI ne sont que le coût visible. Sundae réduit la charge d'analyse, d'intégration, de maintenance des modèles et les retards de décision autour de la récupération.", chips: ["Opérationnel en jours", "Moins de BI custom", "Moins d'analystes"] },
     ],
   },
   es: {
-    costMetric: "Gratis para empezar",
+    costMetric: "Operativo en días",
+    qualityMetric: "Listo desde el primer día",
     eyebrow: "SE ACABÓ LA FALSA DISYUNTIVA",
     headline: "Rápido. Correcto. Asequible. Elige los tres.",
-    description: "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
+    description: "Tener inteligencia de hostelería de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
     oldRule: "Regla antigua: elige dos",
     sundaeRule: "↓ Regla Sundae: elige los tres",
-    closing: "Esto no es un compromiso. Es tu ventaja operativa.",
+    closing: "Así empieza Core. Las migraciones de Crew y los parques más amplios se dimensionan según los sistemas implicados.",
     vertices: [
-      { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Sundae Intelligence responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
-      { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae 500+ modelos de datos de restaurante gobernados, benchmarks de pares y respuestas IA con fuente - para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["500+ modelos", "IA con fuente", "Benchmarks pares"] },
-      { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de restaurantes.", body: "Las licencias BI son solo el coste visible. El gasto real son analistas, integraciones, modelos a medida, mantenimiento de dashboards y decisiones tardías. Sundae viene listo para restaurantes desde el día uno, con Report Lite gratis.", chips: ["Report Lite gratis", "Menos BI custom", "Menos analistas"] },
+      { label: "Velocidad", headline: "Despliega en días. Recupera desde el primer día.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Ask Sundae responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
+      { label: "Calidad", headline: "Hecho para la hostelería. Gobernado para la recuperación.", body: "Sundae conecta la evidencia operativa con un responsable y mide lo que vuelve frente a la referencia acordada.", chips: ["Listo desde el primer día", "IA con fuente", "Benchmarks pares"] },
+      { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de la hostelería.", body: "Las licencias BI son solo el coste visible. Sundae reduce la carga de análisis, integración, mantenimiento de modelos y demora de decisiones alrededor de la recuperación.", chips: ["Operativo en días", "Menos BI custom", "Menos analistas"] },
     ],
   },
 };
@@ -138,10 +145,10 @@ const EDGES: [number, number][] = [[0, 1], [1, 2], [2, 0]];
 
 // Per-vertex headline metric (language-neutral - number + universal unit, so no
 // new localized strings). Each maps to a real proof point: Speed = signal→action
-// time, Quality = governed data models, Cost = free to start (Report Lite).
+// time, Quality = governed recovery, Cost = a live operating system instead of a BI build.
 const VERTEX_METRICS: { value: number; prefix: string; suffix: string; count: boolean }[] = [
   { value: 5,   prefix: "",  suffix: " min", count: true  }, // Speed
-  { value: 500, prefix: "",  suffix: "+",    count: true  }, // Quality
+  { value: 0,   prefix: "",  suffix: "",     count: false }, // Quality (localized text is rendered)
   { value: 0,   prefix: "$", suffix: "",     count: false }, // Cost
 ];
 
@@ -189,17 +196,18 @@ function VertexStat({ idx, reduceMotion, text }: { idx: number; reduceMotion: bo
     });
     return () => controls.stop();
   }, [idx, m, reduceMotion]);
-  // A localized phrase (Cost = "Free to start") reads honestly where a bare "$0"
-  // would misleadingly imply the whole product is free. Sized down as it's words.
+  // A localized phrase (Cost = "Live in days") reads as a concrete proof point,
+  // where a bare "$0" would misleadingly imply the whole product is free. Sized
+  // down as it's words.
   if (text) {
     return (
-      <span className="font-display text-2xl sm:text-[28px] font-bold leading-tight text-[var(--warm-coral)] text-right">
+      <span className="font-display text-2xl sm:text-[28px] font-bold leading-tight text-[#1AA877] [html.light_&]:text-[#0F8A5E] text-right">
         {text}
       </span>
     );
   }
   return (
-    <span className="font-display text-3xl sm:text-4xl font-bold leading-none text-[var(--warm-coral)] tabular-nums">
+    <span className="font-display text-3xl sm:text-4xl font-bold leading-none text-[#1AA877] [html.light_&]:text-[#0F8A5E] tabular-nums">
       {m.prefix}
       {display}
       {m.suffix}
@@ -211,7 +219,29 @@ export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
   const { theme } = useTheme();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const copy: LocalizedSQC = {
+    ...sourceCopy,
+    vertices: sourceCopy.vertices.map((vertex, index) => {
+      if (index === 1) {
+        return {
+          ...vertex,
+          headline: positioning.productHeroTitle,
+          body: positioning.productCoreDescription,
+          chips: [sourceCopy.qualityMetric, vertex.chips[1], vertex.chips[2]],
+        };
+      }
+      if (index === 2) {
+        return {
+          ...vertex,
+          body: positioning.productCoreDescription,
+          chips: [sourceCopy.costMetric, vertex.chips[1], vertex.chips[2]],
+        };
+      }
+      return vertex;
+    }) as LocalizedSQC['vertices'],
+  };
 
   const vertices = copy.vertices;
   const [activeIdx, setActiveIdx] = useState(0);
@@ -365,7 +395,7 @@ export function SectionSpeedQualityCost() {
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
           <div className="eyebrow mb-4">{copy.eyebrow}</div>
           <h2 id="sqc-headline" className="section-h2 text-balance mb-5">
-            {copy.headline}
+            {balanceSentences(copy.headline)}
           </h2>
           <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </div>
@@ -420,7 +450,9 @@ export function SectionSpeedQualityCost() {
               <div className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
                 {copy.oldRule}
               </div>
-              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold">
+              {/* trust-green affirmation - the payoff line reads as 'achieved/go',
+                  matching the emerald convergence core (the warm edges = constraints). */}
+              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[#1AA877] [html.light_&]:text-[#0F8A5E] font-bold">
                 {copy.sundaeRule}
               </div>
             </div>
@@ -471,11 +503,21 @@ export function SectionSpeedQualityCost() {
                   <stop offset="55%" stopColor="rgba(255,92,77,0.13)" />
                   <stop offset="100%" stopColor="rgba(255,92,77,0)" />
                 </radialGradient>
-                {/* Convergence-core radial glow */}
+                {/* Convergence-core radial glow - emerald "trust" payoff: where the
+                    three constraints collapse into one win, the core reads as
+                    achieved/go, not alarm (the edges stay warm = the constraints). */}
                 <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-                  <stop offset="0%" stopColor="rgba(255,201,176,0.95)" />
-                  <stop offset="45%" stopColor="rgba(255,132,115,0.45)" />
-                  <stop offset="100%" stopColor="rgba(255,92,77,0)" />
+                  <stop offset="0%" stopColor="rgba(150,231,194,0.95)" />
+                  <stop offset="45%" stopColor="rgba(34,168,120,0.45)" />
+                  <stop offset="100%" stopColor="rgba(22,168,120,0)" />
+                </radialGradient>
+                {/* The cherry - the brand "signal to act" that the three constraints
+                    collapse into. Glossy depth: hot top-left highlight → deep maroon. */}
+                <radialGradient id="cherryBody" cx="36%" cy="28%" r="78%">
+                  <stop offset="0%" stopColor="#FF7A6E" />
+                  <stop offset="32%" stopColor="#E83246" />
+                  <stop offset="72%" stopColor="#C01530" />
+                  <stop offset="100%" stopColor="#7E0E20" />
                 </radialGradient>
                 {/* Top-vertex specular highlight - sharp, focused */}
                 <radialGradient id="triHighlight" cx="50%" cy="20%" r="42%">
@@ -567,7 +609,7 @@ export function SectionSpeedQualityCost() {
                   y1={trianglePoints[a].y}
                   x2={trianglePoints[c].x}
                   y2={trianglePoints[c].y}
-                  stroke="url(#triEdge)"
+                  stroke="#16A878"
                   strokeWidth="3"
                   strokeLinecap="round"
                   style={{ opacity: edgeOpacities[k] }}
@@ -586,7 +628,7 @@ export function SectionSpeedQualityCost() {
                         y1={p.y}
                         x2={CENTROID.x}
                         y2={CENTROID.y}
-                        stroke="#FF8473"
+                        stroke="#16A878"
                         strokeWidth="1.6"
                         strokeLinecap="round"
                         initial={{ opacity: 0 }}
@@ -602,31 +644,59 @@ export function SectionSpeedQualityCost() {
                     cy={CENTROID.y}
                     r="6"
                     fill="none"
-                    stroke="#FF8473"
+                    stroke="#16A878"
                     strokeWidth="1.4"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: [0, 0.65, 0], scale: [0.5, 4.2, 5.4] }}
                     transition={{ duration: 1.5, ease: "easeOut" }}
                     style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
                   />
-                  {/* persistent breathing core */}
-                  <circle cx={CENTROID.x} cy={CENTROID.y} r="18" fill="url(#coreGlow)" />
-                  <motion.circle
-                    cx={CENTROID.x}
-                    cy={CENTROID.y}
-                    r="4.5"
-                    fill="#FFC9B0"
-                    filter="url(#tracerGlow)"
-                    animate={{ opacity: [0.55, 0.95, 0.55], scale: [1, 1.25, 1] }}
+                  {/* the green "go" glow the cherry sits in - the payoff of all three */}
+                  <circle cx={CENTROID.x} cy={CENTROID.y} r="22" fill="url(#coreGlow)" />
+                  {/* the cherry - where the three tradeoffs collapse into one signal */}
+                  <motion.g
+                    animate={{ scale: [1, 1.09, 1] }}
                     transition={{ duration: 3, ease: "easeInOut", repeat: Infinity }}
                     style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
-                  />
+                  >
+                    <path
+                      d={`M ${CENTROID.x + 1.5} ${CENTROID.y - 8} q 4 -7 11 -8.5`}
+                      fill="none"
+                      stroke="#6E4326"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                    />
+                    <circle cx={CENTROID.x} cy={CENTROID.y} r="9.5" fill="url(#cherryBody)" filter="url(#tracerGlow)" />
+                    <ellipse
+                      cx={CENTROID.x - 3}
+                      cy={CENTROID.y - 3.6}
+                      rx="2.6"
+                      ry="1.7"
+                      fill="rgba(255,255,255,0.78)"
+                      transform={`rotate(-32 ${CENTROID.x - 3} ${CENTROID.y - 3.6})`}
+                    />
+                  </motion.g>
                 </g>
               )}
 
-              {/* Active-vertex pulse rings - single source of truth = activeIdx */}
+              {/* Active-vertex GREEN light-up + a beam feeding the cherry - fires at
+                  EVERY vertex (re-keyed on activeIdx), so speed/quality/cost each
+                  "achieve" green as the ball arrives and pours into the centre. */}
               {useAnimated && (
                 <g key={`pulse-${activeIdx}`}>
+                  <motion.line
+                    x1={trianglePoints[activeIdx].x}
+                    y1={trianglePoints[activeIdx].y}
+                    x2={CENTROID.x}
+                    y2={CENTROID.y}
+                    stroke="#22C55E"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    filter="url(#vertexGlow)"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: [0, 0.85, 0.15] }}
+                    transition={{ duration: 1.1, ease: "easeOut" }}
+                  />
                   {[0, 1].map((ringIdx) => (
                     <motion.circle
                       key={ringIdx}
@@ -634,10 +704,10 @@ export function SectionSpeedQualityCost() {
                       cy={trianglePoints[activeIdx].y}
                       r="20"
                       fill="none"
-                      stroke="#FF8473"
+                      stroke="#22C55E"
                       strokeWidth="1.2"
                       initial={{ opacity: 0, scale: 1 }}
-                      animate={{ opacity: [0, 0.55, 0], scale: [1, 3.2, 3.6] }}
+                      animate={{ opacity: [0, 0.6, 0], scale: [1, 3.2, 3.6] }}
                       transition={{
                         duration: 2.4,
                         delay: ringIdx * 1.2,
@@ -712,8 +782,8 @@ export function SectionSpeedQualityCost() {
                       cx={p.x}
                       cy={p.y}
                       r={isActive ? 38 : 16}
-                      fill="#FF8473"
-                      opacity={isActive ? 0.22 : 0.06}
+                      fill="#22C55E"
+                      opacity={isActive ? 0.24 : 0.05}
                       filter="url(#vertexGlow)"
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     />
@@ -723,7 +793,7 @@ export function SectionSpeedQualityCost() {
                       cy={p.y}
                       r={isActive ? 18 : 12}
                       fill="none"
-                      stroke="#FF8473"
+                      stroke="#22C55E"
                       strokeWidth={isActive ? 1 : 0.8}
                       opacity={isActive ? 0.55 : 0.25}
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
@@ -757,7 +827,7 @@ export function SectionSpeedQualityCost() {
                       fontSize="11"
                       fontWeight="600"
                       letterSpacing="0.32em"
-                      fill={isActive ? "#FF8473" : "transparent"}
+                      fill={isActive ? "#16A878" : "transparent"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     >
                       0{i + 1}
@@ -789,7 +859,7 @@ export function SectionSpeedQualityCost() {
                     {v.chips.map((chip) => (
                       <span
                         key={chip}
-                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[#1AA877]/12 text-[#1AA877] [html.light_&]:text-[#0F8A5E] border border-[#1AA877]/30"
                       >
                         {chip}
                       </span>
@@ -814,7 +884,7 @@ export function SectionSpeedQualityCost() {
                       <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mt-1.5">
                         {vertices[activeIdx].label}
                       </div>
-                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} text={activeIdx === 2 ? copy.costMetric : undefined} />
+                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} text={activeIdx === 2 ? copy.costMetric : activeIdx === 1 ? copy.qualityMetric : undefined} />
                     </div>
                     <h3 className="section-h3 mb-4">
                       {vertices[activeIdx].headline}
@@ -839,7 +909,7 @@ export function SectionSpeedQualityCost() {
                   {vertices[activeIdx].chips.map((chip) => (
                     <span
                       key={chip}
-                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
+                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[#1AA877]/12 text-[#1AA877] [html.light_&]:text-[#0F8A5E] border border-[#1AA877]/30"
                     >
                       {chip}
                     </span>

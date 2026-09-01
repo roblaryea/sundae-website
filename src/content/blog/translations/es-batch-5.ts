@@ -54,7 +54,7 @@ Estos enfoques fallan porque tratan la alfabetización de datos como una transfe
 
 Sundae acelera la alfabetización de datos mediante decisiones de diseño que vuelven accesible la analítica para operadores no técnicos:
 
-**Interfaz conversacional (Sundae Core)**: en lugar de obligar a navegar dashboards complejos y construir consultas, Sundae Intelligence permite a los gerentes hacer preguntas en lenguaje natural. "¿Por qué estuvo alta la mano de obra en mi local ayer?" Esa interacción natural enseña analítica al usarla: los gerentes aprenden haciendo, no estudiando.
+**Interfaz conversacional (Sundae Core)**: en lugar de obligar a navegar dashboards complejos y construir consultas, Ask Sundae permite a los gerentes hacer preguntas en lenguaje natural. "¿Por qué estuvo alta la mano de obra en mi local ayer?" Esa interacción natural enseña analítica al usarla: los gerentes aprenden haciendo, no estudiando.
 
 **Contexto 4D en todas partes**: cada métrica incluye automáticamente cuatro dimensiones - Actual (qué pasó), Plan (vas en camino), Benchmark (cómo te comparas), Prediction (hacia dónde te diriges). Este contexto integrado enseña a interpretar métricas correctamente sin exigir experiencia analítica.
 
@@ -76,9 +76,9 @@ Enfoque tradicional: el nuevo gerente recibe 4 horas de capacitación en analít
 
 Con el enfoque de Sundae para construir alfabetización:
 
-- Día 1: el gerente conoce la interfaz conversacional de Sundae Intelligence. "Solo haz preguntas sobre tu local."
-- Primera pregunta: "¿Cómo le fue a mi local ayer?" Sundae Intelligence responde con una vista 4D mostrando Actual vs Plan vs Benchmark vs Prediction
-- El gerente hace seguimiento: "¿Por qué estuvo más alta la mano de obra que el plan?" Sundae Intelligence explica la variación de programación con una causa raíz específica
+- Día 1: el gerente conoce la interfaz conversacional de Ask Sundae. "Solo haz preguntas sobre tu local."
+- Primera pregunta: "¿Cómo le fue a mi local ayer?" Ask Sundae responde con una vista 4D mostrando Actual vs Plan vs Benchmark vs Prediction
+- El gerente hace seguimiento: "¿Por qué estuvo más alta la mano de obra que el plan?" Ask Sundae explica la variación de programación con una causa raíz específica
 - Durante 2 semanas: el gerente hace 20-30 preguntas y aprende analítica a través de la curiosidad natural
 - Resultado del mes 1: el gerente identifica y corrige de forma independiente una variación laboral usando alertas de Insights, demostrando alfabetización de datos práctica
 
@@ -104,9 +104,9 @@ Un grupo fast-casual de 30 locales luchaba con adopción inconsistente de la ana
 
 Programa sistemático de alfabetización:
 
-**Mes 1**: sesiones grupales semanales de 15 minutos donde el líder de operaciones demostraba una pregunta de Sundae Intelligence relevante para las prioridades actuales. "Esta semana, todos pregunten a Sundae Intelligence: '¿Qué franja horaria tiene mi mayor oportunidad en mano de obra?'"
+**Mes 1**: sesiones grupales semanales de 15 minutos donde el líder de operaciones demostraba una pregunta de Ask Sundae relevante para las prioridades actuales. "Esta semana, todos pregunten a Ask Sundae: '¿Qué franja horaria tiene mi mayor oportunidad en mano de obra?'"
 
-**Mes 2**: los gerentes compartían lo que aprendían de Sundae Intelligence en las reuniones operativas. El aprendizaje entre pares aceleró la adopción al ver historias de éxito de colegas.
+**Mes 2**: los gerentes compartían lo que aprendían de Ask Sundae en las reuniones operativas. El aprendizaje entre pares aceleró la adopción al ver historias de éxito de colegas.
 
 **Mes 3**: se introdujo una competencia amistosa: ¿qué local mejoró más usando analítica? El reconocimiento creó refuerzo positivo para la toma de decisiones basada en datos.
 
@@ -124,7 +124,7 @@ El contexto operativo de Sundae ayudó a cerrar esa brecha:
 
 - Los dashboards de Sundae Core conectaban automáticamente métricas financieras con sus impulsores operativos
 - Cuando subía el costo de alimentos, el dashboard mostraba qué ubicaciones, artículos y causas raíz (control de porciones, precios del proveedor o desperdicio)
-- Sundae Intelligence permitió a finanzas explorar matices operativos: "¿Por qué el costo de alimentos de la Ubicación 12 es más alto que el de la Ubicación 7?"
+- Ask Sundae permitió a finanzas explorar matices operativos: "¿Por qué el costo de alimentos de la Ubicación 12 es más alto que el de la Ubicación 7?"
 - Resultado: las conversaciones entre finanzas y operaciones pasaron de "tu variación es X" a "la variación es X por Y, recomendamos Z"
 
 Impacto: los equipos de operaciones valoraron más los insights de finanzas, mejoró la colaboración y se implementaron acciones correctivas más rápido.

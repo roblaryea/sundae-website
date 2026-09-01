@@ -1,10 +1,11 @@
 'use client';
 
 import Image from 'next/image';
-import { Fragment, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 import { useSettledReducedMotion } from '@/lib/useSettledReducedMotion';
 import { manifestoCopy, manifestoMoments } from './manifestoCopy';
 
@@ -27,15 +28,11 @@ const coral = { color: 'var(--accent-warm)' } as const;
 
 /** Split on the `*…*` emphasis marker → warm-coral italic span (shared convention). */
 function renderStatement(statement: string): ReactNode {
-  return statement.split(/\*([^*]+)\*/g).map((part, i) =>
-    i % 2 === 1 ? (
-      <em key={i} className="not-italic font-medium" style={coral}>
-        {part}
-      </em>
-    ) : (
-      <Fragment key={i}>{part}</Fragment>
-    )
-  );
+  return balanceEmphasisSentences(statement, (part, key) => (
+    <em key={key} className="not-italic font-medium" style={coral}>
+      {part}
+    </em>
+  ));
 }
 
 export function SectionManifesto() {
@@ -64,11 +61,11 @@ export function SectionManifesto() {
             fill
             loading="lazy"
             sizes="100vw"
-            className="object-cover object-center opacity-[0.26]"
+            className="object-cover object-center opacity-[0.42]"
           />
         ) : (
           <video
-            className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.26]"
+            className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.42]"
             autoPlay
             muted
             loop
@@ -84,7 +81,7 @@ export function SectionManifesto() {
           className="absolute inset-0"
           style={{
             background:
-              'radial-gradient(ellipse 70% 60% at 50% 38%, color-mix(in srgb, var(--navy-deep) 55%, transparent) 0%, var(--navy-deep) 78%)',
+              'radial-gradient(ellipse 72% 62% at 50% 38%, color-mix(in srgb, var(--navy-deep) 40%, transparent) 0%, color-mix(in srgb, var(--navy-deep) 88%, transparent) 70%, var(--navy-deep) 92%)',
           }}
         />
       </div>

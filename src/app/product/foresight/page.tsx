@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { MockupFrame, MockupKPI, MockupTable, MockupAlert } from "@/components/ui/MockupFrame";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
@@ -16,6 +16,10 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_foresight_page'
 import { SectionConviction } from '@/components/home/sections/SectionConviction'
 import { foresightConviction } from '@/components/home/sections/routeConvictionCopy'
+import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
+import { CoreForesightMobile } from '@/components/core/CoreForesightMobile';
+import { FORESIGHT_AND_ACTION, usd } from '@/lib/pricing/priceBook'
+import { balanceSentences } from '@/lib/balanceSentences';
 
 type ForesightMockupCopy = {
   timeline: {
@@ -107,7 +111,12 @@ type ForesightPageCopy = {
   components: ForesightComponent[];
   pricingTitle: string;
   pricingDescription: string;
-  pricingTiers: Array<{ tier: string; base: string; perLocation: string; description: string; highlighted?: boolean; enhancements: string[] }>;
+  /** Foresight & Action is its own marginal-band SKU in price book v1.7. */
+  pricingFirstLocationLabel: string;
+  pricingBandsLabel: string;
+  pricingBandHeaderLocations: string;
+  pricingBandHeaderRate: string;
+  pricingIncludes: string[];
   ctaTitle: string;
   ctaDescription: string;
   ctaPrimary: string;
@@ -149,12 +158,18 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { title: "External Signal Integration", headline: "Weather, Events, Competitors, Holidays - Quantified", description: "Foresight ingests external signals and estimates their revenue impact with confidence scores.", capabilities: ["Weather impact models with hourly granularity", "Local event intelligence", "Competitor activity tracking", "Holiday and seasonal calendar", "Economic indicators"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "Monte Carlo Risk Analysis", headline: "1,000 Simulations. One Probability Distribution.", description: "Run Monte Carlo simulations against your forecast to quantify downside risk and identify worst-case scenarios.", capabilities: ["1,000-iteration Monte Carlo simulation", "P10/P50/P90 outcome ranges with probability distributions", "Risk factor decomposition", "Stress testing and scenario isolation"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "Add Foresight to Your Core Plan",
-    pricingDescription: "Every Foresight plan includes all 17 sub-pages and 32 forecast visuals. Your Core tier determines how fast, how deep, and how much you can run.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "For single-unit operators getting started with predictive intelligence.", enhancements: ["15-minute data refresh cycles", "8,000 AI credits/mo", "2 years historical training data", "50 forecast queries/day"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "For multi-unit operators with the full intelligence stack.", highlighted: true, enhancements: ["5-minute data refresh - faster recalibration", "14,000 AI credits/mo - more simulations", "3 years historical data - deeper accuracy", "150 forecast queries/day", "Analyst & Strategist intelligence modes", "Native multi-POS support"] },
-      { tier: "Enterprise", base: "Custom", perLocation: "Custom", description: "Dedicated support, SLAs, white-label options, and custom integrations.", enhancements: ["Custom data refresh intervals", "Unlimited AI credits", "Full historical data access", "Unlimited forecast queries", "All intelligence modes", "Dedicated success manager"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "Forward-looking forecasts, scenario modelling, and the approve-in-the-loop action layer that acts on what they surface. Priced on the same location bands as a Core package: an anchor for your first location, then a marginal rate for each one after it.",
+    pricingFirstLocationLabel: "first location / month",
+    pricingBandsLabel: "Then, per additional location",
+    pricingBandHeaderLocations: "Locations",
+    pricingBandHeaderRate: "Per additional location / month",
+    pricingIncludes: [
+      "All 17 sub-pages and 32 forecast visuals",
+      "14-90 day forecasts with confidence bands",
+      "What-if scenario builder and Monte Carlo risk analysis",
+      "Weekly executive briefing with prioritised actions",
+      "Approve-in-the-loop actuation across your channels",
     ],
     ctaTitle: "Ready for Predictive Intelligence?",
     ctaDescription: "Tell us what you need. We'll build the model to make it happen.",
@@ -204,12 +219,18 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { title: "دمج الإشارات الخارجية", headline: "الطقس والفعاليات والمنافسون والعطل - كلها مقاسة", description: "يستوعب Foresight الإشارات الخارجية ويقدّر أثرها على الإيرادات مع درجات الثقة.", capabilities: ["نماذج أثر الطقس بدقة ساعية", "ذكاء الفعاليات المحلية", "تتبع نشاط المنافسين", "تقويم العطل والموسمية", "مؤشرات اقتصادية"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "تحليل مخاطر Monte Carlo", headline: "1000 محاكاة. توزيع احتمال واحد.", description: "شغّل محاكاة Monte Carlo على توقعاتك لقياس المخاطر السلبية وتحديد أسوأ السيناريوهات.", capabilities: ["محاكاة 1000 مرة لكل فترة", "مخرجات P10/P50/P90 مع التوزيعات", "تفكيك عوامل المخاطر", "اختبار ضغط وعزل السيناريو"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "أضف Foresight إلى خطتك الأساسية",
-    pricingDescription: "كل باقة Foresight تشمل كل الصفحات الفرعية الـ12 والمرئيات التنبؤية الـ32. تحدد باقة Core سرعتك وعمق التشغيل وحجم الاستخدام.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "للمشغلين الأفراد الذين يبدأون بالذكاء التنبؤي.", enhancements: ["تحديث بيانات كل 15 دقيقة", "8000 رصيد AI شهرياً", "سنتان من بيانات التدريب", "50 استعلام توقع يومياً"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "للمشغلين متعددي المواقع مع كامل منظومة الذكاء.", highlighted: true, enhancements: ["تحديث بيانات كل 5 دقائق", "14000 رصيد AI شهرياً", "3 سنوات بيانات تاريخية", "150 استعلام توقع يومياً", "أوضاع Analyst و Strategist", "دعم أصيل لعدة أنظمة POS"] },
-      { tier: "Enterprise", base: "مخصص", perLocation: "مخصص", description: "دعم مخصص، اتفاقيات SLA، وخيارات white-label وتكاملات مخصصة.", enhancements: ["فواصل تحديث مخصصة", "رصيد AI غير محدود", "وصول كامل للبيانات التاريخية", "استعلامات غير محدودة", "كل أوضاع الذكاء", "مدير نجاح مخصص"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "توقعات مستقبلية ونمذجة سيناريوهات وطبقة تنفيذ باعتماد بشري. يُسعَّر بشرائح المواقع نفسها المستخدمة في باقات Core: سعر أساسي للموقع الأول ثم سعر حدّي لكل موقع بعده.",
+    pricingFirstLocationLabel: "للموقع الأول شهريًا",
+    pricingBandsLabel: "ثم لكل موقع إضافي",
+    pricingBandHeaderLocations: "المواقع",
+    pricingBandHeaderRate: "لكل موقع إضافي شهريًا",
+    pricingIncludes: [
+      "كل الصفحات الفرعية الـ17 والمرئيات التنبؤية الـ32",
+      "توقعات من 14 إلى 90 يومًا مع نطاقات ثقة",
+      "منشئ سيناريوهات ماذا لو وتحليل مخاطر Monte Carlo",
+      "ملخص تنفيذي أسبوعي بخطوات مرتبة",
+      "تنفيذ باعتماد بشري عبر قنواتك",
     ],
     ctaTitle: "هل أنت جاهز للذكاء التنبؤي؟",
     ctaDescription: "أخبرنا بما تحتاجه. وسنبني النموذج الذي يحقق ذلك.",
@@ -227,113 +248,125 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     },
   },
   fr: {
-    heroBadge: "Intelligence predictive",
-    heroTitle: "Arretez de reagir. Commencez a anticiper.",
-    heroDescription: "Previsions prospectives pour toutes les metriques importantes - revenu, main-d'oeuvre, cout alimentaire, profit. Intervalles de confiance qui se resserrent avec le temps, scenarios, et briefings executifs hebdomadaires.",
-    heroPrimary: "Reserver une demo",
+    heroBadge: "Intelligence prédictive",
+    heroTitle: "Arrêtez de réagir. Commencez à anticiper.",
+    heroDescription: "Prévisions prospectives pour toutes les métriques importantes - revenu, main-d'œuvre, coût alimentaire, profit. Intervalles de confiance qui se resserrent avec le temps, scénarios, et briefings exécutifs hebdomadaires.",
+    heroPrimary: "Réserver une démo",
     heroSecondary: "Voir le calculateur de prix",
-    problemTitle: "Votre P&L vous dit ce qui s'est passe. Pas ce qui arrive.",
-    problemDescription: "Quand les chiffres du mois precedent arrivent, le dommage est deja fait. Foresight utilise les donnees que vous avez deja pour montrer plus tot ce qui se prepare.",
+    problemTitle: "Votre P&L vous dit ce qui s'est passé. Pas ce qui arrive.",
+    problemDescription: "Quand les chiffres du mois précédent arrivent, le dommage est déjà fait. Foresight utilise les données que vous avez déjà pour montrer plus tôt ce qui se prépare.",
     stats: [
-      { stat: "91%", label: "Precision des previsions - s'ameliorant chaque semaine par auto-correction", icon: "performance" },
-      { stat: "17", label: "Metriques de business prevues simultanement : revenu, main-d'oeuvre, cout alimentaire, profit, et plus", icon: "data" },
+      { stat: "91%", label: "Précision des prévisions - s'améliorant chaque semaine par auto-correction", icon: "performance" },
+      { stat: "17", label: "Métriques de business prévues simultanément : revenu, main-d'œuvre, coût alimentaire, profit, et plus", icon: "data" },
       { stat: "48h", label: "Du branchement POS au premier forecast exploitable", icon: "speed" },
     ],
-    howEyebrow: "COMMENT CA MARCHE",
+    howEyebrow: "COMMENT ÇA MARCHE",
     howTitle: "Apprendre. Projeter. Corriger. Recommencer.",
     howSteps: [
-      { step: "01", title: "Apprend vos patterns", description: "Foresight ingere vos donnees historiques et detecte automatiquement 11 categories d'hypotheses - saisonnalite, mix daypart, split canal, tendances prix, patterns de staffing.", icon: "intelligence" },
-      { step: "02", title: "Projette vers l'avant", description: "Genere des forecasts pour 17 metriques sur 14-90 jours avec intervalles de confiance. Ajoute des signaux externes - meteo, evenements, activite concurrente - et mappe les dependances entre modules.", icon: "forecasting" },
-      { step: "03", title: "Se corrige chaque semaine", description: "Compare le forecast au reel. Detecte les biais systematiques. Ajuste le modele automatiquement.", icon: "performance" },
+      { step: "01", title: "Apprend vos patterns", description: "Foresight ingère vos données historiques et détecte automatiquement 11 catégories d'hypothèses - saisonnalité, mix daypart, split canal, tendances prix, patterns de staffing.", icon: "intelligence" },
+      { step: "02", title: "Projette vers l'avant", description: "Génère des forecasts pour 17 métriques sur 14-90 jours avec intervalles de confiance. Ajoute des signaux externes - météo, événements, activité concurrente - et mappe les dépendances entre modules.", icon: "forecasting" },
+      { step: "03", title: "Se corrige chaque semaine", description: "Compare le forecast au réel. Détecte les biais systématiques. Ajuste le modèle automatiquement.", icon: "performance" },
     ],
     componentsEyebrow: "12 SOUS-PAGES · 32 VISUELS",
     componentsTitle: "Forecast. Simuler. Brief. Agir.",
-    componentsDescription: "Des timelines unifiees au risque Monte Carlo, du scheduling pilote par le forecast aux briefings executives - chaque outil pour prendre de meilleures decisions.",
+    componentsDescription: "Des timelines unifiées au risque Monte Carlo, du scheduling piloté par le forecast aux briefings exécutives - chaque outil pour prendre de meilleures décisions.",
     components: [
-      { title: "Chronologie de forecast unifiee", headline: "Revenu, main-d'oeuvre, cout alimentaire - une vue orientee avenir", description: "Voyez les 14, 30 ou 90 prochains jours sur 17 metriques dans une seule timeline. Les bandes de confiance se resserrent.", capabilities: ["22 metriques : revenu, couverts, cout main-d'oeuvre, cout alimentaire, profit, SPLH, RevPASH et plus", "Horizons 14-365 jours avec niveaux de confiance adaptatifs", "Bandes de confiance qui se resserrent", "Overlay reel vs forecast mis a jour quotidiennement", "Granularite de 15 minutes au mensuel"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
-      { title: "Constructeur de scenarios", headline: "Testez les decisions avant de les prendre", description: "Changez un hypothese - prix, staffing, capacite, marketing - et voyez l'impact en cascade sur revenu, couverts, couts et profit.", capabilities: ["Ajustement des hypotheses de prix, capacite, marketing, staffing et cout", "Impact en cascade sur revenu, main-d'oeuvre, cout alimentaire et profit", "Comparaison de 5 scenarios max", "Templates predefinis", "Analyse de sensibilite"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
-      { title: "Registre des hypotheses", headline: "Chaque hypothese - visible, editable, auditable", description: "Foresight detecte 11 categories d'hypotheses a partir de vos donnees et vous permet de remplacer n'importe laquelle.", capabilities: ["Hypotheses detectees automatiquement", "Overrides operateur avec audit trail", "Injection de signaux externes", "Score d'impact par hypothese"], icon: "insights", color: "from-emerald-500 to-teal-600" },
-      { title: "Dependances inter-modules", headline: "Comprenez comment un changement se propage", description: "Une hausse de revenu tire la main-d'oeuvre, les achats et les marges. Foresight mappe ces dependances et les quantifie.", capabilities: ["Graphique de dependances", "Score de correlation", "Timing de cascade", "Forecast P&L integre", "Scheduling et achats pilotes par forecast"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
-      { title: "Auto-correction de precision", headline: "Le forecast qui devient meilleur chaque semaine", description: "Foresight mesure sa precision, detecte les biais systematiques, puis se corrige automatiquement.", capabilities: ["MAPE et RMSE suivis par metrique", "Detection de biais", "Auto-correction", "Journal de correction"], icon: "performance", color: "from-green-500 to-emerald-600" },
-      { title: "Briefing executif", headline: "Votre semaine a venir - resumee avec actions", description: "Chaque lundi a 6h, Foresight genere un briefing executif: resume du forecast, risques, opportunites et actions priorisees.", capabilities: ["Briefing narratif hebdomadaire", "Actions critiques/hautes/moyennes", "Identification des risques et opportunites", "Historique de briefing", "Export PDF"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
-      { title: "Integration des signaux externes", headline: "Meteo, evenements, concurrents, jours feries - quantifies", description: "Foresight ingere des signaux externes et estime leur impact sur le revenu avec scores de confiance.", capabilities: ["Impact meteo horaire", "Intelligence des evenements locaux", "Suivi des concurrents", "Calendrier des jours feries", "Indicateurs economiques"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
-      { title: "Analyse de risque Monte Carlo", headline: "1000 simulations. Une distribution.", description: "Quantifiez le risque a la baisse et identifiez les pires scenarios.", capabilities: ["Simulation Monte Carlo 1000 iterations", "P10/P50/P90", "Decomposition des facteurs de risque", "Stress test et isolation des scenarios"], icon: "risk", color: "from-rose-500 to-pink-600" },
+      { title: "Chronologie de forecast unifiée", headline: "Revenu, main-d'œuvre, coût alimentaire - une vue orientée avenir", description: "Voyez les 14, 30 ou 90 prochains jours sur 17 métriques dans une seule timeline. Les bandes de confiance se resserrent.", capabilities: ["22 métriques : revenu, couverts, coût main-d'œuvre, coût alimentaire, profit, SPLH, RevPASH et plus", "Horizons 14-365 jours avec niveaux de confiance adaptatifs", "Bandes de confiance qui se resserrent", "Overlay réel vs forecast mis à jour quotidiennement", "Granularité de 15 minutes au mensuel"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { title: "Constructeur de scénarios", headline: "Testez les décisions avant de les prendre", description: "Changez un hypothèse - prix, staffing, capacité, marketing - et voyez l'impact en cascade sur revenu, couverts, coûts et profit.", capabilities: ["Ajustement des hypothèses de prix, capacité, marketing, staffing et coût", "Impact en cascade sur revenu, main-d'œuvre, coût alimentaire et profit", "Comparaison de 5 scénarios max", "Templates prédéfinis", "Analyse de sensibilité"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
+      { title: "Registre des hypothèses", headline: "Chaque hypothèse - visible, éditable, auditable", description: "Foresight détecte 11 catégories d'hypothèses à partir de vos données et vous permet de remplacer n'importe laquelle.", capabilities: ["Hypothèses détectées automatiquement", "Overrides opérateur avec audit trail", "Injection de signaux externes", "Score d'impact par hypothèse"], icon: "insights", color: "from-emerald-500 to-teal-600" },
+      { title: "Dépendances inter-modules", headline: "Comprenez comment un changement se propage", description: "Une hausse de revenu tire la main-d'œuvre, les achats et les marges. Foresight mappe ces dépendances et les quantifie.", capabilities: ["Graphique de dépendances", "Score de corrélation", "Timing de cascade", "Forecast P&L intégré", "Scheduling et achats pilotés par forecast"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
+      { title: "Auto-correction de précision", headline: "Le forecast qui devient meilleur chaque semaine", description: "Foresight mesure sa précision, détecte les biais systématiques, puis se corrige automatiquement.", capabilities: ["MAPE et RMSE suivis par métrique", "Détection de biais", "Auto-correction", "Journal de correction"], icon: "performance", color: "from-green-500 to-emerald-600" },
+      { title: "Briefing exécutif", headline: "Votre semaine à venir - résumée avec actions", description: "Chaque lundi à 6h, Foresight génère un briefing exécutif: résumé du forecast, risques, opportunités et actions priorisées.", capabilities: ["Briefing narratif hebdomadaire", "Actions critiques/hautes/moyennes", "Identification des risques et opportunités", "Historique de briefing", "Export PDF"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
+      { title: "Intégration des signaux externes", headline: "Météo, événements, concurrents, jours fériés - quantifiés", description: "Foresight ingère des signaux externes et estime leur impact sur le revenu avec scores de confiance.", capabilities: ["Impact météo horaire", "Intelligence des événements locaux", "Suivi des concurrents", "Calendrier des jours fériés", "Indicateurs économiques"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
+      { title: "Analyse de risque Monte Carlo", headline: "1000 simulations. Une distribution.", description: "Quantifiez le risque à la baisse et identifiez les pires scénarios.", capabilities: ["Simulation Monte Carlo 1000 itérations", "P10/P50/P90", "Décomposition des facteurs de risque", "Stress test et isolation des scénarios"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "Ajoutez Foresight a votre offre Core",
-    pricingDescription: "Chaque offre inclut les 12 sous-pages et 32 visuels. Votre niveau Core definit la vitesse et la profondeur.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "Pour les exploitants qui debutent avec l'intelligence predictive.", enhancements: ["Rafraichissement toutes les 15 min", "8000 credits AI/mois", "2 ans d'historique", "50 requetes forecast/jour"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "Pour les exploitants multi-sites avec toute la pile.", highlighted: true, enhancements: ["Rafraichissement toutes les 5 min", "14000 credits AI/mois", "3 ans de donnees historiques", "150 requetes forecast/jour", "Modes Analyst & Strategist", "Support multi-POS natif"] },
-      { tier: "Enterprise", base: "Sur mesure", perLocation: "Sur mesure", description: "Support dedie, SLA, white-label et integrations custom.", enhancements: ["Intervalles de rafraichissement custom", "Credits AI illimites", "Acces historique complet", "Requetes illimitees", "Tous les modes d'intelligence", "Success manager dedie"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "Prévisions, modélisation de scénarios et couche d'action validée par un humain. Tarifée sur les mêmes tranches de sites qu'une offre Core : un prix d'ancrage pour le premier site, puis un tarif marginal pour chacun des suivants.",
+    pricingFirstLocationLabel: "premier site / mois",
+    pricingBandsLabel: "Puis, par site additionnel",
+    pricingBandHeaderLocations: "Sites",
+    pricingBandHeaderRate: "Par site additionnel / mois",
+    pricingIncludes: [
+      "Les 17 sous-pages et 32 visuels de prévision",
+      "Prévisions 14-90 jours avec bandes de confiance",
+      "Constructeur de scénarios et analyse de risque Monte Carlo",
+      "Briefing hebdomadaire avec actions priorisées",
+      "Actuation validée par un humain sur vos canaux",
     ],
-    ctaTitle: "Pret pour l'intelligence predictive ?",
-    ctaDescription: "Dites-nous ce qu'il vous faut. Nous construirons le modele pour le realiser.",
-    ctaPrimary: "Reserver une demo",
+    ctaTitle: "Prêt pour l'intelligence prédictive ?",
+    ctaDescription: "Dites-nous ce qu'il vous faut. Nous construirons le modèle pour le réaliser.",
+    ctaPrimary: "Réserver une démo",
     ctaSecondary: "Voir tous les modules",
     mockups: {
-      timeline: { label: "Chronologie de forecast unifiee - 30 jours", forecastRev: "Revenu forecast", confidence: "Confiance", accuracy: "Precision", today: "Aujourd'hui", actual: "Reel", forecast: "Forecast", band: "Bande 90%", alert: "Erreur de forecast sous 4 %. La bande de confiance se resserre." },
-      scenario: { label: "Constructeur de scenarios", baselineRev: "Revenu de base", scenarioRev: "Revenu scenario", scenarioText: "Scenario : +10 % de prix + promo week-end", alert: "La baisse de couverts est compensee par +17.6 % sur le ticket. Revenu net +$23K.", headers: ["Metrique", "Base", "Scenario", "Delta"] },
-      assumptions: { label: "Registre des hypotheses", headers: ["Hypothese", "Source", "Impact", "Statut"], rows: [["Saisonnalite week-end +18 %", "Auto-detectee", "Fort", "Active"], ["Daypart midi : 35 % du revenu", "Historique", "Fort", "Active"], ["Capacite staff : 12 FOH", "Operateur", "Moyen", "Override"], ["Evenement local : concert 22 mars", "Externe", "Moyen", "Nouveau"], ["Cout alimentaire : tendance +2.1 %", "Auto-detectee", "Faible", "Active"]], badges: ["4 auto-detectees", "1 override operateur", "1 signal externe"] },
-      dependencies: { label: "Graphique des dependances inter-modules", nodes: ["Revenu", "Main-d'oeuvre", "Stock", "Achats", "Profit"], alert: "Le changement de revenu se propage a la main-d'oeuvre en 2 jours et aux achats en 5 jours. Correlation 82 %." },
-      accuracy: { label: "Auto-correction de precision", rollingMape: "MAPE roulant", bias: "Biais", corrections: "Corrections", trend: "Tendance precision 12 semaines - auto-correction hebdomadaire" },
-      briefing: { label: "Briefing executif - hebdo", coach: "Sundae Coach", week: "Semaine du 17 mars", summary: "Revenu projete a $248K (+6.2 % vs precedent). Jeudi porte 12 % de risque a la baisse - 2 vacances staff se chevauchent avec un concert complet juste a cote. Weekend fort : un festival food local devrait apporter +15 % de trafic.", actionItems: "Actions", opportunity: "Opportunite", risk: "Risque" },
-      signals: { label: "Panneau de signaux externes", items: [{ type: "Meteo", signal: "Pluie prevue vendredi soir", impact: "-8 %", confidence: "72 %", color: "bg-[#5E9E96]" }, { type: "Evenement", signal: "Festival food samedi-dimanche", impact: "+15 %", confidence: "88 %", color: "bg-amber-400" }, { type: "Concurrent", signal: "Nouveau burger a 0.3 mile", impact: "-3 %", confidence: "45 %", color: "bg-rose-400" }, { type: "Jour ferie", signal: "St Patrick lundi", impact: "+22 %", confidence: "94 %", color: "bg-green-400" }, { type: "Economique", signal: "CPI +0.3 % MoM", impact: "-1 %", confidence: "35 %", color: "bg-purple-400" }] },
+      timeline: { label: "Chronologie de forecast unifiée - 30 jours", forecastRev: "Revenu forecast", confidence: "Confiance", accuracy: "Précision", today: "Aujourd'hui", actual: "Réel", forecast: "Forecast", band: "Bande 90%", alert: "Erreur de forecast sous 4 %. La bande de confiance se resserre." },
+      scenario: { label: "Constructeur de scénarios", baselineRev: "Revenu de base", scenarioRev: "Revenu scénario", scenarioText: "Scénario : +10 % de prix + promo week-end", alert: "La baisse de couverts est compensée par +17.6 % sur le ticket. Revenu net +$23K.", headers: ["Métrique", "Base", "Scénario", "Delta"] },
+      assumptions: { label: "Registre des hypothèses", headers: ["Hypothèse", "Source", "Impact", "Statut"], rows: [["Saisonnalité week-end +18 %", "Auto-détectée", "Fort", "Active"], ["Daypart midi : 35 % du revenu", "Historique", "Fort", "Active"], ["Capacité staff : 12 FOH", "Opérateur", "Moyen", "Override"], ["Événement local : concert 22 mars", "Externe", "Moyen", "Nouveau"], ["Coût alimentaire : tendance +2.1 %", "Auto-détectée", "Faible", "Active"]], badges: ["4 auto-détectées", "1 override opérateur", "1 signal externe"] },
+      dependencies: { label: "Graphique des dépendances inter-modules", nodes: ["Revenu", "Main-d'œuvre", "Stock", "Achats", "Profit"], alert: "Le changement de revenu se propage à la main-d'œuvre en 2 jours et aux achats en 5 jours. Corrélation 82 %." },
+      accuracy: { label: "Auto-correction de précision", rollingMape: "MAPE roulant", bias: "Biais", corrections: "Corrections", trend: "Tendance précision 12 semaines - auto-correction hebdomadaire" },
+      briefing: { label: "Briefing exécutif - hebdo", coach: "Sundae Coach", week: "Semaine du 17 mars", summary: "Revenu projeté à $248K (+6.2 % vs précédent). Jeudi porte 12 % de risque à la baisse - 2 vacances staff se chevauchent avec un concert complet juste à côté. Weekend fort : un festival food local devrait apporter +15 % de trafic.", actionItems: "Actions", opportunity: "Opportunité", risk: "Risque" },
+      signals: { label: "Panneau de signaux externes", items: [{ type: "Météo", signal: "Pluie prévue vendredi soir", impact: "-8 %", confidence: "72 %", color: "bg-[#5E9E96]" }, { type: "Événement", signal: "Festival food samedi-dimanche", impact: "+15 %", confidence: "88 %", color: "bg-amber-400" }, { type: "Concurrent", signal: "Nouveau burger à 0.3 mile", impact: "-3 %", confidence: "45 %", color: "bg-rose-400" }, { type: "Jour férié", signal: "St Patrick lundi", impact: "+22 %", confidence: "94 %", color: "bg-green-400" }, { type: "Économique", signal: "CPI +0.3 % MoM", impact: "-1 %", confidence: "35 %", color: "bg-purple-400" }] },
       monteCarlo: { label: "Analyse de risque Monte Carlo", bestCase: "Meilleur cas", mostLikely: "Plus probable", worstCase: "Pire cas", simulations: "1000 simulations", downside: "12 % de risque baissier", expectedValue: "Valeur attendue : $251K", alert: "12 % de probabilité de revenu sous $230K. Cause principale : risque de staffing jeudi." },
     },
   },
   es: {
     heroBadge: "Inteligencia predictiva",
     heroTitle: "Deja de reaccionar. Empieza a anticipar.",
-    heroDescription: "Previsiones hacia delante para todas las metricas que importan - ingresos, mano de obra, coste de comida y beneficio. Bandas de confianza que se estrechan con el tiempo, escenarios what-if y briefings ejecutivos semanales.",
+    heroDescription: "Previsiones hacia delante para todas las métricas que importan - ingresos, mano de obra, coste de comida y beneficio. Bandas de confianza que se estrechan con el tiempo, escenarios what-if y briefings ejecutivos semanales.",
     heroPrimary: "Reservar una demo",
     heroSecondary: "Ver calculadora de precios",
-    problemTitle: "Tu P&L te dice lo que paso. No lo que viene.",
-    problemDescription: "Cuando llegan las cifras del mes pasado, el dano ya esta hecho. Foresight usa los datos que ya tienes para mostrar antes lo que se esta formando.",
+    problemTitle: "Tu P&L te dice lo que pasó. No lo que viene.",
+    problemDescription: "Cuando llegan las cifras del mes pasado, el daño ya está hecho. Foresight usa los datos que ya tienes para mostrar antes lo que se está formando.",
     stats: [
-      { stat: "91%", label: "Precision de previsiones - mejorando semanalmente con autocorreccion", icon: "performance" },
-      { stat: "17", label: "Metricas de negocio previstas a la vez: ingresos, mano de obra, comida, beneficio y mas", icon: "data" },
+      { stat: "91%", label: "Precisión de previsiones - mejorando semanalmente con autocorrección", icon: "performance" },
+      { stat: "17", label: "Métricas de negocio previstas a la vez: ingresos, mano de obra, comida, beneficio y más", icon: "data" },
       { stat: "48h", label: "Desde conectar el POS hasta la primera previsión accionable", icon: "speed" },
     ],
-    howEyebrow: "COMO FUNCIONA",
+    howEyebrow: "CÓMO FUNCIONA",
     howTitle: "Aprende. Proyecta. Corrige. Repite.",
     howSteps: [
-      { step: "01", title: "Aprende tus patrones", description: "Foresight ingiere tus datos historicos y detecta automaticamente 11 categorias de supuestos - estacionalidad, mix de franjas, canal, precios y staffing.", icon: "intelligence" },
-      { step: "02", title: "Proyecta hacia delante", description: "Genera previsiones para 17 metricas a 14-90 dias con bandas de confianza. Añade señales externas - clima, eventos y competidores - y mapea dependencias.", icon: "forecasting" },
-      { step: "03", title: "Se autocorrige cada semana", description: "Compara la previsión con la realidad, detecta sesgo sistematico y ajusta el modelo automaticamente.", icon: "performance" },
+      { step: "01", title: "Aprende tus patrones", description: "Foresight ingiere tus datos históricos y detecta automáticamente 11 categorías de supuestos - estacionalidad, mix de franjas, canal, precios y staffing.", icon: "intelligence" },
+      { step: "02", title: "Proyecta hacia delante", description: "Genera previsiones para 17 métricas a 14-90 días con bandas de confianza. Añade señales externas - clima, eventos y competidores - y mapea dependencias.", icon: "forecasting" },
+      { step: "03", title: "Se autocorrige cada semana", description: "Compara la previsión con la realidad, detecta sesgo sistemático y ajusta el modelo automáticamente.", icon: "performance" },
     ],
-    componentsEyebrow: "12 subpaginas · 32 visuales",
+    componentsEyebrow: "12 subpáginas · 32 visuales",
     componentsTitle: "Prever. Simular. Resumir. Actuar.",
-    componentsDescription: "Desde la linea temporal unificada hasta el riesgo Monte Carlo, pasando por scheduling y compras guiados por previsiones, y briefings ejecutivos.",
+    componentsDescription: "Desde la línea temporal unificada hasta el riesgo Monte Carlo, pasando por scheduling y compras guiados por previsiones, y briefings ejecutivos.",
     components: [
-      { title: "Linea temporal unificada", headline: "Ingresos, mano de obra y comida - una sola vista hacia delante", description: "Ve los proximos 14, 30 o 90 dias en una sola linea temporal. Las bandas de confianza se estrechan a medida que aprende.", capabilities: ["22 metricas: ingresos, covers, mano de obra, comida, beneficio, SPLH, RevPASH y mas", "Horizontes de 14-365 dias", "Bandas que se estrechan", "Overlay real vs previsión", "Granularidad de 15 minutos a mensual"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
-      { title: "Constructor de escenarios", headline: "Prueba decisiones antes de tomarlas", description: "Cambia cualquier supuesto - precios, staffing, capacidad, marketing - y ve el impacto en cascada.", capabilities: ["Ajusta precios, capacidad, marketing, staffing y costes", "Impacto en cascada", "Comparacion de hasta 5 escenarios", "Plantillas preconstruidas", "Analisis de sensibilidad"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
-      { title: "Registro de supuestos", headline: "Cada supuesto - visible, editable y auditable", description: "Foresight detecta 11 categorias de supuestos y te deja sobrescribir cualquiera.", capabilities: ["Supuestos detectados automaticamente", "Overrides con audit trail", "Inyeccion de señales externas", "Puntuacion de impacto"], icon: "insights", color: "from-emerald-500 to-teal-600" },
-      { title: "Dependencias entre modulos", headline: "Entiende como un cambio se propaga", description: "Una subida de ingresos empuja mano de obra, compras, inventario y margenes. Foresight lo modela.", capabilities: ["Grafico de dependencias", "Puntuacion de correlacion", "Timing de cascada", "Prevision P&L", "Scheduling y compras guiadas"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
-      { title: "Autocorreccion de precision", headline: "La previsión que mejora cada semana", description: "Mide su precision, detecta sesgo y se autocorrige.", capabilities: ["MAPE y RMSE por metrica", "Deteccion de sesgo", "Autocorreccion", "Registro de correcciones"], icon: "performance", color: "from-green-500 to-emerald-600" },
-      { title: "Briefing ejecutivo", headline: "Tu semana por delante - resumida con acciones", description: "Cada lunes a las 6 AM genera un briefing ejecutivo con resumen, riesgos, oportunidades y acciones priorizadas.", capabilities: ["Briefing semanal de Sundae Coach", "Acciones criticas/altas/medias", "Riesgo y oportunidad con impacto", "Historial de briefings", "Exportacion PDF"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
-      { title: "Integracion de señales externas", headline: "Clima, eventos, competidores y festivos - medidos", description: "Ingiere señales externas y estima su impacto en ingresos con scores de confianza.", capabilities: ["Impacto del clima por hora", "Inteligencia de eventos locales", "Seguimiento de competidores", "Calendario de festivos", "Indicadores economicos"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
-      { title: "Riesgo Monte Carlo", headline: "1000 simulaciones. Una distribucion.", description: "Cuantifica el riesgo a la baja e identifica escenarios pesimos.", capabilities: ["Simulacion Monte Carlo 1000 veces", "P10/P50/P90", "Descomposicion de riesgo", "Stress test y aislamiento"], icon: "risk", color: "from-rose-500 to-pink-600" },
+      { title: "Línea temporal unificada", headline: "Ingresos, mano de obra y comida - una sola vista hacia delante", description: "Ve los próximos 14, 30 o 90 días en una sola línea temporal. Las bandas de confianza se estrechan a medida que aprende.", capabilities: ["22 métricas: ingresos, covers, mano de obra, comida, beneficio, SPLH, RevPASH y más", "Horizontes de 14-365 días", "Bandas que se estrechan", "Overlay real vs previsión", "Granularidad de 15 minutos a mensual"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { title: "Constructor de escenarios", headline: "Prueba decisiones antes de tomarlas", description: "Cambia cualquier supuesto - precios, staffing, capacidad, marketing - y ve el impacto en cascada.", capabilities: ["Ajusta precios, capacidad, marketing, staffing y costes", "Impacto en cascada", "Comparación de hasta 5 escenarios", "Plantillas preconstruidas", "Análisis de sensibilidad"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
+      { title: "Registro de supuestos", headline: "Cada supuesto - visible, editable y auditable", description: "Foresight detecta 11 categorías de supuestos y te deja sobrescribir cualquiera.", capabilities: ["Supuestos detectados automáticamente", "Overrides con audit trail", "Inyección de señales externas", "Puntuación de impacto"], icon: "insights", color: "from-emerald-500 to-teal-600" },
+      { title: "Dependencias entre módulos", headline: "Entiende cómo un cambio se propaga", description: "Una subida de ingresos empuja mano de obra, compras, inventario y márgenes. Foresight lo modela.", capabilities: ["Gráfico de dependencias", "Puntuación de correlación", "Timing de cascada", "Previsión P&L", "Scheduling y compras guiadas"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
+      { title: "Autocorrección de precisión", headline: "La previsión que mejora cada semana", description: "Mide su precisión, detecta sesgo y se autocorrige.", capabilities: ["MAPE y RMSE por métrica", "Detección de sesgo", "Autocorrección", "Registro de correcciones"], icon: "performance", color: "from-green-500 to-emerald-600" },
+      { title: "Briefing ejecutivo", headline: "Tu semana por delante - resumida con acciones", description: "Cada lunes a las 6 AM genera un briefing ejecutivo con resumen, riesgos, oportunidades y acciones priorizadas.", capabilities: ["Briefing semanal de Sundae Coach", "Acciones críticas/altas/medias", "Riesgo y oportunidad con impacto", "Historial de briefings", "Exportación PDF"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
+      { title: "Integración de señales externas", headline: "Clima, eventos, competidores y festivos - medidos", description: "Ingiere señales externas y estima su impacto en ingresos con scores de confianza.", capabilities: ["Impacto del clima por hora", "Inteligencia de eventos locales", "Seguimiento de competidores", "Calendario de festivos", "Indicadores económicos"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
+      { title: "Riesgo Monte Carlo", headline: "1000 simulaciones. Una distribución.", description: "Cuantifica el riesgo a la baja e identifica escenarios pésimos.", capabilities: ["Simulación Monte Carlo 1000 veces", "P10/P50/P90", "Descomposición de riesgo", "Stress test y aislamiento"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
-    pricingTitle: "Añade Foresight a tu plan Core",
-    pricingDescription: "Cada plan incluye las 12 subpaginas y los 32 visuales. Tu tier Core decide velocidad, profundidad y volumen.",
-    pricingTiers: [
-      { tier: "Core Lite", base: "$279", perLocation: "$27", description: "Para operadores individuales que empiezan con inteligencia predictiva.", enhancements: ["Actualizacion cada 15 min", "8000 creditos AI/mes", "2 años de datos", "50 consultas/dia"] },
-      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "Para multi-local con toda la pila de inteligencia.", highlighted: true, enhancements: ["Actualizacion cada 5 min", "14000 creditos AI/mes", "3 años de historico", "150 consultas/dia", "Modos Analyst & Strategist", "Soporte multi-POS nativo"] },
-      { tier: "Enterprise", base: "A medida", perLocation: "A medida", description: "Soporte dedicado, SLAs, white-label e integraciones custom.", enhancements: ["Intervalos custom", "Creditos AI ilimitados", "Acceso historico completo", "Consultas ilimitadas", "Todos los modos", "Success manager dedicado"] },
+    pricingTitle: "Foresight & Action",
+    pricingDescription: "Previsiones, modelado de escenarios y la capa de acción con aprobación humana. Se tarifica con los mismos tramos de locales que un paquete Core: un precio ancla para el primer local y una tarifa marginal por cada uno posterior.",
+    pricingFirstLocationLabel: "primer local / mes",
+    pricingBandsLabel: "Después, por local adicional",
+    pricingBandHeaderLocations: "Locales",
+    pricingBandHeaderRate: "Por local adicional / mes",
+    pricingIncludes: [
+      "Las 17 subpáginas y los 32 visuales de previsión",
+      "Previsiones de 14 a 90 días con bandas de confianza",
+      "Constructor de escenarios y análisis de riesgo Monte Carlo",
+      "Briefing ejecutivo semanal con acciones priorizadas",
+      "Actuación con aprobación humana en tus canales",
     ],
-    ctaTitle: "Listo para inteligencia predictiva?",
+    ctaTitle: "¿Listo para inteligencia predictiva?",
     ctaDescription: "Dinos lo que necesitas. Construiremos el modelo para hacerlo realidad.",
     ctaPrimary: "Reservar demo",
-    ctaSecondary: "Ver todos los modulos",
+    ctaSecondary: "Ver todos los módulos",
     mockups: {
-      timeline: { label: "Linea temporal unificada - 30 dias", forecastRev: "Ingresos previstos", confidence: "Confianza", accuracy: "Precision", today: "Hoy", actual: "Real", forecast: "Prevision", band: "Banda 90%", alert: "El error de previsión esta por debajo del 4%. La confianza se estrecha con mas datos." },
-      scenario: { label: "Constructor de escenarios", baselineRev: "Ingresos base", scenarioRev: "Ingresos escenario", scenarioText: "Escenario: +10% precio + promo fin de semana", alert: "La caida de covers se compensa con +17.6% de ticket. Ingreso neto +$23K.", headers: ["Metrica", "Base", "Escenario", "Delta"] },
-      assumptions: { label: "Registro de supuestos", headers: ["Supuesto", "Fuente", "Impacto", "Estado"], rows: [["Estacionalidad fin de semana +18%", "Auto-detectado", "Alto", "Activo"], ["Franja de comida: 35% de ingresos", "Historico", "Alto", "Activo"], ["Capacidad staff: 12 FOH", "Operador", "Medio", "Override"], ["Evento local: concierto 22 mar", "Externo", "Medio", "Nuevo"], ["Coste comida: tendencia +2.1%", "Auto-detectado", "Bajo", "Activo"]], badges: ["4 auto-detectados", "1 override operador", "1 señal externa"] },
-      dependencies: { label: "Grafico de dependencias entre modulos", nodes: ["Ingresos", "Mano de obra", "Inventario", "Compras", "Beneficio"], alert: "El cambio de ingresos se propaga a mano de obra en 2 dias y a compras en 5 dias. Correlacion 82%." },
-      accuracy: { label: "Autocorreccion de precision", rollingMape: "MAPE rodante", bias: "Sesgo", corrections: "Correcciones", trend: "Tendencia de precision 12 semanas - autocorreccion semanal" },
-      briefing: { label: "Briefing ejecutivo - semanal", coach: "Sundae Coach", week: "Semana del 17 de marzo", summary: "Ingresos proyectados en $248K (+6.2% vs anterior). El jueves arrastra 12% de riesgo a la baja - 2 vacaciones de staff se cruzan con un evento vendido al completo al lado. Fin de semana fuerte: un festival local de comida deberia generar +15% de trafico.", actionItems: "Acciones", opportunity: "Oportunidad", risk: "Riesgo" },
-      signals: { label: "Panel de señales externas", items: [{ type: "Clima", signal: "Lluvia prevista viernes PM", impact: "-8%", confidence: "72%", color: "bg-[#5E9E96]" }, { type: "Evento", signal: "Festival de comida sab-dom", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "Competidor", signal: "Nuevo burger a 0.3 millas", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "Festivo", signal: "San Patricio lunes", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "Economico", signal: "IPC +0.3% MoM", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
-      monteCarlo: { label: "Analisis Monte Carlo", bestCase: "Mejor caso", mostLikely: "Mas probable", worstCase: "Peor caso", simulations: "1000 simulaciones", downside: "12% de riesgo a la baja", expectedValue: "Valor esperado: $251K", alert: "12% de probabilidad de ingresos por debajo de $230K. Principal driver: riesgo de staffing el jueves." },
+      timeline: { label: "Línea temporal unificada - 30 días", forecastRev: "Ingresos previstos", confidence: "Confianza", accuracy: "Precisión", today: "Hoy", actual: "Real", forecast: "Previsión", band: "Banda 90%", alert: "El error de previsión está por debajo del 4%. La confianza se estrecha con más datos." },
+      scenario: { label: "Constructor de escenarios", baselineRev: "Ingresos base", scenarioRev: "Ingresos escenario", scenarioText: "Escenario: +10% precio + promo fin de semana", alert: "La caída de covers se compensa con +17.6% de ticket. Ingreso neto +$23K.", headers: ["Métrica", "Base", "Escenario", "Delta"] },
+      assumptions: { label: "Registro de supuestos", headers: ["Supuesto", "Fuente", "Impacto", "Estado"], rows: [["Estacionalidad fin de semana +18%", "Auto-detectado", "Alto", "Activo"], ["Franja de comida: 35% de ingresos", "Histórico", "Alto", "Activo"], ["Capacidad staff: 12 FOH", "Operador", "Medio", "Override"], ["Evento local: concierto 22 mar", "Externo", "Medio", "Nuevo"], ["Coste comida: tendencia +2.1%", "Auto-detectado", "Bajo", "Activo"]], badges: ["4 auto-detectados", "1 override operador", "1 señal externa"] },
+      dependencies: { label: "Gráfico de dependencias entre módulos", nodes: ["Ingresos", "Mano de obra", "Inventario", "Compras", "Beneficio"], alert: "El cambio de ingresos se propaga a mano de obra en 2 días y a compras en 5 días. Correlación 82%." },
+      accuracy: { label: "Autocorrección de precisión", rollingMape: "MAPE rodante", bias: "Sesgo", corrections: "Correcciones", trend: "Tendencia de precisión 12 semanas - autocorrección semanal" },
+      briefing: { label: "Briefing ejecutivo - semanal", coach: "Sundae Coach", week: "Semana del 17 de marzo", summary: "Ingresos proyectados en $248K (+6.2% vs anterior). El jueves arrastra 12% de riesgo a la baja - 2 vacaciones de staff se cruzan con un evento vendido al completo al lado. Fin de semana fuerte: un festival local de comida debería generar +15% de tráfico.", actionItems: "Acciones", opportunity: "Oportunidad", risk: "Riesgo" },
+      signals: { label: "Panel de señales externas", items: [{ type: "Clima", signal: "Lluvia prevista viernes PM", impact: "-8%", confidence: "72%", color: "bg-[#5E9E96]" }, { type: "Evento", signal: "Festival de comida sab-dom", impact: "+15%", confidence: "88%", color: "bg-amber-400" }, { type: "Competidor", signal: "Nuevo burger a 0.3 millas", impact: "-3%", confidence: "45%", color: "bg-rose-400" }, { type: "Festivo", signal: "San Patricio lunes", impact: "+22%", confidence: "94%", color: "bg-green-400" }, { type: "Económico", signal: "IPC +0.3% MoM", impact: "-1%", confidence: "35%", color: "bg-purple-400" }] },
+      monteCarlo: { label: "Análisis Monte Carlo", bestCase: "Mejor caso", mostLikely: "Más probable", worstCase: "Peor caso", simulations: "1000 simulaciones", downside: "12% de riesgo a la baja", expectedValue: "Valor esperado: $251K", alert: "12% de probabilidad de ingresos por debajo de $230K. Principal driver: riesgo de staffing el jueves." },
     },
   },
 };
@@ -579,7 +612,7 @@ export default function ForesightPage() {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={ui.heroBadge} title={ui.heroTitle} description={ui.heroDescription}>
-        <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">{locale === 'en' ? '22 forecast metrics. 14-365 day horizons. Self-correcting accuracy. 32 forecast visuals.' : locale === 'ar' ? '22 مقياس توقع. أفق 14-365 يوماً. دقة تتصحح ذاتياً. 32 مرئية تنبؤية.' : locale === 'fr' ? '22 metriques, horizons 14-365 jours, precision auto-corrigee, 32 visuels de forecast.' : '22 metricas de previsión. Horizontes de 14-365 dias. Precision con autocorreccion. 32 visuales.'}</p>
+        <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">{locale === 'en' ? '22 forecast metrics. 14-365 day horizons. Self-correcting accuracy. 32 forecast visuals.' : locale === 'ar' ? '22 مقياس توقع. أفق 14-365 يوماً. دقة تتصحح ذاتياً. 32 مرئية تنبؤية.' : locale === 'fr' ? '22 métriques, horizons 14-365 jours, précision auto-corrigée, 32 visuels de forecast.' : '22 métricas de previsión. Horizontes de 14-365 días. Precisión con autocorrección. 32 visuales.'}</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_hero", { page: "/product/foresight" })}>{ui.heroPrimary}</Button>
           <Button variant="outline-light" size="lg" href={PRICING_URL}>{ui.heroSecondary}</Button>
@@ -589,7 +622,7 @@ export default function ForesightPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <h2 className="section-h2 text-[var(--text-primary)] mb-6">{ui.problemTitle}</h2>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-6">{balanceSentences(ui.problemTitle)}</h2>
             <p className="body-lg text-[var(--text-supporting)] mb-8">{ui.problemDescription}</p>
           </FadeUp>
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -677,31 +710,57 @@ export default function ForesightPage() {
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.pricingTitle}</h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.pricingDescription}</p>
           </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {ui.pricingTiers.map((tier) => (
-              <StaggerItem key={tier.tier}>
-                <Card variant="elevated" className={`p-6 ${tier.highlighted ? 'border border-[#FF5C4D]/30' : ''}`}>
-                  <CardHeader>
-                    <CardTitle className="text-[var(--text-primary)]">{tier.tier}</CardTitle>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-3xl font-bold text-[var(--text-primary)]">{tier.base}</span>
-                      <span className="text-sm text-[var(--text-muted)]">{tier.perLocation}</span>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-[var(--text-supporting)] mb-4">{tier.description}</p>
-                    <ul className="space-y-2">
-                      {tier.enhancements.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]"><span className="text-[#FF5C4D] mt-0.5">✓</span><span>{item}</span></li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
+          <FadeUp>
+            <Card variant="elevated" className="p-6 md:p-8">
+              <CardContent className="grid md:grid-cols-2 gap-8 items-start p-0">
+                <div>
+                  <p className="text-4xl font-bold text-[var(--text-primary)] tabular-nums">
+                    {usd(FORESIGHT_AND_ACTION.firstUnitMonthly)}
+                  </p>
+                  <p className="text-sm text-[var(--text-supporting)] mb-6">{ui.pricingFirstLocationLabel}</p>
+                  <ul className="space-y-2">
+                    {ui.pricingIncludes.map((item) => (
+                      <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
+                        <span className="text-[#FF5C4D] mt-0.5">&#10003;</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--text-muted)] mb-3">
+                    {ui.pricingBandsLabel}
+                  </p>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="text-left text-xs uppercase tracking-wide text-[var(--text-muted)]">
+                          <th scope="col" className="pb-2 pe-4 font-medium">{ui.pricingBandHeaderLocations}</th>
+                          <th scope="col" className="pb-2 font-medium">{ui.pricingBandHeaderRate}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {FORESIGHT_AND_ACTION.bands.map((band) => (
+                          <tr key={band.fromUnit} className="border-t border-[var(--border-default)]">
+                            <td className="py-2 pe-4 text-[var(--text-supporting)] tabular-nums">
+                              {band.fromUnit}-{band.toUnit}
+                            </td>
+                            <td className="py-2 text-[var(--text-secondary)] font-medium tabular-nums">
+                              {usd(band.monthlyPerUnit)}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </FadeUp>
         </div>
       </section>
+
+      <CoreMobileShowcase screens={[<CoreForesightMobile key="foresight" />]} />
 
       {/* Product gallery - Foresight surfaces in detail */}
       <SectionProductGallery
@@ -712,7 +771,7 @@ export default function ForesightPage() {
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_cta", { page: "/product/foresight" })}>{ui.ctaPrimary}</Button>
-        <Button variant="outline-light" size="lg" href="/product">{ui.ctaSecondary}</Button>
+        <Button variant="outline-ink" size="lg" href="/product">{ui.ctaSecondary}</Button>
       </PageCTA>
     </div>
   );

@@ -627,7 +627,7 @@ Esa inteligencia se convierte en la base de los playbooks operativos. Cuando ide
 
 **El hito**: Despliega inteligencia conversacional que permita a cada gerente - desde un gerente general hasta un vicepresidente regional - hacer preguntas en lenguaje natural y obtener respuestas inmediatas y contextualizadas. Sin analista. Sin solicitud de reporte. Sin espera.
 
-**Lo que Sundae entrega aquí**: Sundae Intelligence permite a cualquier usuario autorizado preguntar cosas como "¿Por qué cayeron los ingresos de la Ubicación 32 la semana pasada?" o "¿Qué ubicaciones van por encima del presupuesto laboral este mes?" y recibir respuestas inmediatas con todo el contexto - comparación histórica, benchmark con pares, posibles causas raíz y acciones recomendadas. Cada gerente se vuelve alfabetizado en datos sin tener que volverse experto en datos.
+**Lo que Sundae entrega aquí**: Ask Sundae permite a cualquier usuario autorizado preguntar cosas como "¿Por qué cayeron los ingresos de la Ubicación 32 la semana pasada?" o "¿Qué ubicaciones van por encima del presupuesto laboral este mes?" y recibir respuestas inmediatas con todo el contexto - comparación histórica, benchmark con pares, posibles causas raíz y acciones recomendadas. Cada gerente se vuelve alfabetizado en datos sin tener que volverse experto en datos.
 
 **El beneficio**: La velocidad de decisión aumenta en toda la organización. Los gerentes generales toman mejores decisiones diarias. Los gerentes de área identifican y corrigen problemas más rápido. Los directores regionales asignan su tiempo con base en datos, no en la rotación de su agenda. La inversión en infraestructura de inteligencia genera retorno en todos los niveles de gestión, no solo en la alta dirección.
 

@@ -6,6 +6,8 @@ import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionWhatYouRetire'
+import { getPositioningCopy } from '@/lib/positioningCopy';
+import { balanceSentences } from "@/lib/balanceSentences";
 
 type LocalizedCopy = {
   eyebrow: string;
@@ -21,8 +23,8 @@ type LocalizedCopy = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   en: {
     eyebrow: "WHAT YOU RETIRE",
-    headline: "Replace the restaurant BI stack.",
-    description: "Generic BI was built for analysts. Sundae was built for the people running restaurants.",
+    headline: "Replace the food-service BI stack.",
+    description: "Generic BI was built for analysts. Sundae was built for the people running food-service.",
     todaysStackLabel: "Today's stack",
     withSundaeLabel: "With Sundae",
     todaysStack: [
@@ -33,18 +35,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Weekly recap meetings instead of live action",
     ],
     withSundae: [
-      "Six intelligence layers, restaurant-native",
-      "500+ governed restaurant data models",
+      "Measured profit recovery, per decision",
+      "Six intelligence layers, food-service-native",
+      "Evidence health and source reconciliation",
       "Source-cited answers in seconds",
       "12 data domains unified in one ledger",
       "Live shift intelligence, not Friday recaps",
     ],
-    closing: "One platform. Restaurant-native from day one.",
+    closing: "One platform. Food-service-native from day one.",
   },
   ar: {
     eyebrow: "ما تتقاعد عنه",
-    headline: "استبدل مكدس BI للمطاعم.",
-    description: "BI العام صُمم للمحللين. Sundae صُمم لمن يدير المطاعم.",
+    headline: "استبدل مكدس BI لخدمات الطعام.",
+    description: "BI العام صُمم للمحللين. Sundae صُمم لمن يدير خدمات الطعام.",
     todaysStackLabel: "مكدس اليوم",
     withSundaeLabel: "مع Sundae",
     todaysStack: [
@@ -55,18 +58,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "اجتماعات أسبوعية بدل فعل حي",
     ],
     withSundae: [
-      "ست طبقات ذكاء، أصيلة للمطاعم",
-      "أكثر من 500 نموذج بيانات مطعم محكوم",
+      "استرداد أرباح مُقاس، مع كل قرار",
+      "ست طبقات ذكاء، أصيلة لخدمات الطعام",
+      "سلامة الأدلة ومطابقة السجلات المصدرية",
       "إجابات بمصادر في ثوانٍ",
       "12 مجال بيانات موحد في دفتر واحد",
       "ذكاء وردية حي لا تقارير الجمعة",
     ],
-    closing: "منصة واحدة. أصيلة للمطاعم من اليوم الأول.",
+    closing: "منصة واحدة. أصيلة لخدمات الطعام من اليوم الأول.",
   },
   fr: {
     eyebrow: "CE QUE VOUS RETIREZ",
-    headline: "Remplacez la stack BI restaurant.",
-    description: "La BI générique a été construite pour les analystes. Sundae a été construit pour ceux qui font tourner les restaurants.",
+    headline: "Remplacez la stack BI de la restauration.",
+    description: "La BI générique a été construite pour les analystes. Sundae a été construit pour ceux qui font tourner la restauration.",
     todaysStackLabel: "La stack d'aujourd'hui",
     withSundaeLabel: "Avec Sundae",
     todaysStack: [
@@ -77,18 +81,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Réunions hebdo au lieu d'action live",
     ],
     withSundae: [
-      "Six couches d'intelligence, natives restaurant",
-      "500+ modèles de données restaurant gouvernés",
+      "Récupération de profit mesurée, à chaque décision",
+      "Six couches d'intelligence, natives restauration",
+      "Santé des preuves et rapprochement des sources",
       "Réponses sourcées en secondes",
       "12 domaines de données dans un seul livre",
       "Intelligence de service live, pas récap vendredi",
     ],
-    closing: "Une plateforme. Native restaurant dès le premier jour.",
+    closing: "Une plateforme. Native restauration dès le premier jour.",
   },
   es: {
     eyebrow: "QUÉ RETIRAS",
-    headline: "Reemplaza la stack BI de restaurantes.",
-    description: "La BI genérica se construyó para analistas. Sundae se construyó para quienes operan restaurantes.",
+    headline: "Reemplaza la stack BI de hostelería.",
+    description: "La BI genérica se construyó para analistas. Sundae se construyó para quienes operan en hostelería.",
     todaysStackLabel: "Stack actual",
     withSundaeLabel: "Con Sundae",
     todaysStack: [
@@ -99,20 +104,28 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
       "Reuniones semanales en lugar de acción en vivo",
     ],
     withSundae: [
-      "Seis capas de inteligencia, nativas para restaurantes",
-      "500+ modelos de datos de restaurante gobernados",
+      "Recuperación de beneficio medida, en cada decisión",
+      "Seis capas de inteligencia, nativas para hostelería",
+      "Salud de la evidencia y conciliación de fuentes",
       "Respuestas con fuente en segundos",
       "12 dominios de datos unificados en un libro",
       "Inteligencia de turno en vivo, no recap del viernes",
     ],
-    closing: "Una plataforma. Nativa para restaurantes desde el día uno.",
+    closing: "Una plataforma. Nativa para hostelería desde el día uno.",
   },
 };
 
 export function SectionWhatYouRetire() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const copy: LocalizedCopy = {
+    ...sourceCopy,
+    withSundae: sourceCopy.withSundae.map((item, index) =>
+      index === 2 ? positioning.productCoreDescription : item,
+    ),
+  };
 
   return (
     <section aria-labelledby="retire-headline" className="relative py-20 px-4 sm:px-6 lg:px-8">
@@ -121,7 +134,7 @@ export function SectionWhatYouRetire() {
       <div className="relative z-10 max-w-7xl mx-auto">
         <FadeUp className="text-center max-w-3xl mx-auto mb-14">
           <p className="eyebrow mb-4">{copy.eyebrow}</p>
-          <h2 id="retire-headline" className="section-h2 text-balance mb-5">{copy.headline}</h2>
+          <h2 id="retire-headline" className="section-h2 text-balance mb-5">{balanceSentences(copy.headline)}</h2>
           <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </FadeUp>
 
@@ -176,7 +189,7 @@ export function SectionWhatYouRetire() {
             <ul className="space-y-3.5">
               {copy.withSundae.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <svg className="w-4 h-4 text-[#FF8473] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <svg className="w-4 h-4 text-[#22C55E] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                     <path d="M20 6 9 17l-5-5" />
                   </svg>
                   <span className="text-[15px] text-[var(--text-primary)] font-medium leading-relaxed">{item}</span>

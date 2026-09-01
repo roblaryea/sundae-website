@@ -7,6 +7,7 @@ import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { COUNTRY_CODES } from '@/lib/countryCodes';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_marketing_LeadCaptureForm'
+import { trackEvent } from '@/lib/posthog';
 
 interface LeadCaptureFormProps {
   ctaLabel: string;
@@ -348,6 +349,11 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     }
     const validationErrors = validateForm();
     if (Object.keys(validationErrors).length > 0) {
+      trackEvent('lead_form_validation_failed', {
+        cta_label: ctaLabel,
+        source_page: window.location.pathname,
+        invalid_fields: Object.keys(validationErrors),
+      });
       setTimeout(() => scrollToFirstError(validationErrors), 100);
       return;
     }
@@ -379,6 +385,13 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
       if (!response.ok) {
         throw new Error(data.error || copy.genericError);
       }
+      trackEvent('lead_form_submitted', {
+        cta_label: ctaLabel,
+        source_page: sourcePage,
+        utm_source: searchParams.get('utm_source') || undefined,
+        utm_medium: searchParams.get('utm_medium') || undefined,
+        utm_campaign: searchParams.get('utm_campaign') || undefined,
+      });
       setIsSuccess(true);
       submissionKeyRef.current = globalThis.crypto.randomUUID();
       setMessageEdited(false);
@@ -395,6 +408,10 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         message: defaultMessage,
       });
     } catch (err) {
+      trackEvent('lead_form_submission_failed', {
+        cta_label: ctaLabel,
+        source_page: window.location.pathname,
+      });
       setApiError(err instanceof Error ? err.message : copy.genericError);
     } finally {
       setIsSubmitting(false);

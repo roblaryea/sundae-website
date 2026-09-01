@@ -4,7 +4,7 @@ export const generatedLocalCopy = {
   "localized4DCopy": {
     "ar": {
       "heroBadge": "ذكاء القرار",
-      "heroDescription": "أربعة أبعاد للبصيرة. صورة واحدة كاملة لعملك.",
+      "heroDescription": "أربعة أبعاد للرؤية - الماضي، والخطة، والأقران، والمتوقع - تُغلقها الخطوة التي تتجاهلها معظم الأدوات: توجيه الإصلاح إلى مسؤول وقياس الهامش المسترد مقارنةً بخط أساس.",
       "problemTitle": "المشكلة مع BI التقليدية",
       "problemDescription": "تظهر لك معظم الأدوات ما حدث. ليس لماذا. ليس كيف تقارن. ليس ما يجب القيام به بعد ذلك.",
       "problemItems": [
@@ -19,8 +19,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "لا توجد إجراءات موصى بها",
-          "description": "حتى عندما ترى مشكلة، فإن النظام لا يخبرك بما يجب عليك فعله حيال ذلك. لقد تركت لمعرفة الخطوات التالية بنفسك.",
+          "title": "بلا مالك، بلا استرداد مقيس",
+          "description": "حتى الأدوات التي تقترح حلًا تتوقف عند الاقتراح. لا أحد يُكلَّف بتنفيذه، ولا أحد ينفّذه، ولا أحد يقيس ما إذا كان الهامش قد عاد فعلًا.",
           "icon": "document"
         }
       ],
@@ -76,13 +76,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "ماذا سيحدث بعد ذلك، وماذا يجب أن نفعل؟",
-          "description": "البعد النهائي: التنبؤات والتنبيهات والتوصيات الصادرة عن الذكاء الاصطناعي. يتنبأ الذكاء الاصطناعي متعدد الوكلاء في Sundae بالنتائج، ويحدد الحالات الشاذة قبل أن تتفاقم، ويخبرك بالضبط بالإجراء الذي يجب اتخاذه.",
+          "description": "البعد الأخير: التوقعات والتنبيهات والتوصيات المولّدة بالذكاء الاصطناعي (AI). يتنبأ الذكاء الاصطناعي متعدد الوكلاء في Sundae بالنتائج ويكشف الشذوذ قبل أن يتصاعد - ثم يوجّه كل حل إلى مسؤول محدد ويقيس الهامش المسترد مقارنةً بخط أساس، فتُغلق الحلقة على ربح مُستعاد لا على مجرد إجراء.",
           "examples": [
             "توقعات المبيعات والطلب المتوقعة",
             "تنبيهات استباقية لارتفاع تكلفة العمالة",
@@ -93,16 +93,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "كيف يبدو الذكاء رباعي الأبعاد",
-      "alertsDescription": "تنبيهات استباقية. توصيات واضحة. الإجراءات التي يمكنك اتخاذها اليوم.",
+      "alertsDescription": "تنبيهات استباقية. مسؤول محدد لكل حل. هامش مسترد يُقاس مقارنةً بخط أساس.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "موقع وسط المدينة",
-          "message": "تكلفة العمالة أعلى بنسبة 12% من المعيار القياسي للمطاعم المماثلة. الإجراء الموصى به: مراجعة كفاءة الجدولة والنظر في تعديل التوظيف.",
+          "message": "تكلفة العمالة أعلى بنسبة 12% من المعيار المرجعي للمطاعم المشابهة. الحل الموصى به: إعادة موازنة الجدول - موجَّه إلى مدير الفرع، مع قياس هامش العمالة المسترد مقارنةً بخط أساس الأسبوع الماضي.",
           "severity": "تحذير",
           "action": "جدول المراجعة",
           "icon": "warning"
@@ -110,7 +110,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "موقع المطار",
-          "message": "مبيعات تتجه 8٪ فوق التوقعات. تشير الأحوال الجوية والأحداث المحلية إلى استمرار الطلب القوي. الإجراء الموصى به: زيادة أوامر المخزون.",
+          "message": "المبيعات أعلى من التوقعات بنسبة 8%. يشير الطقس والأحداث المحلية إلى استمرار الطلب القوي. الحل الموصى به: زيادة طلبات المخزون - موجَّه إلى مسؤول المشتريات، مع قياس الإيراد المُحقَّق مقارنةً بخط أساس التوقعات.",
           "severity": "النجاح",
           "action": "ضبط المخزون",
           "icon": "growth"
@@ -118,7 +118,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "منطقة السوق",
-          "message": "أطلق المنافس الرئيسي خصمًا بنسبة 20٪ على العرض الترويجي. انخفضت حركة المرور الخاصة بك بنسبة 5٪ هذا الأسبوع. الإجراء الموصى به: فكر في العرض لفترة محدودة أو التسويق المستهدف.",
+          "message": "أطلق منافس رئيسي عرضًا بخصم 20%. حركة الزوار لديك منخفضة 5% هذا الأسبوع. الحل الموصى به: عرض محدود المدة - موجَّه إلى مسؤول التسويق، مع قياس ما استُعيد من زوار وهامش مقارنةً بخط أساس الأسبوع الماضي.",
           "severity": "معلومات",
           "action": "مراجعة العروض الترويجية",
           "icon": "watchtower"
@@ -133,8 +133,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "قرارات أسرع وأكثر ثقة",
-          "description": "لا مزيد من الانتظار للتقارير الشهرية. احصل على معلومات استخباراتية في الوقت الفعلي وتعامل مع المشكلات عند ظهورها.",
+          "title": "حلقات مغلقة، لا مجرد قرارات أسرع",
+          "description": "لا مزيد من انتظار التقارير الشهرية. تُوجَّه كل مشكلة إلى مسؤول وتُنفَّذ، ويُقاس الهامش المسترد مقارنةً بخط أساس.",
           "icon": "speed"
         },
         {
@@ -144,7 +144,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "موقف تنافسي أقوى",
-          "description": "افهم سياق السوق الخاص بك، وقارن بين أقرانك، واستجب لتحركات المنافسين في الوقت الفعلي.",
+          "description": "افهم سياق السوق، وقارن نفسك بالنظراء، وحوّل تحركات المنافسين إلى حل مملوك لمسؤول - مع قياس الهامش المسترد مقارنةً بخط أساس.",
           "icon": "growth"
         }
       ],
@@ -163,18 +163,18 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الاستخبارات القابلة للتنفيذ",
-          "description": "توفر لوحات معلومات Sundae Core واستعلامات Sundae Intelligence باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
+          "description": "توفر لوحات معلومات Sundae Core واستعلامات Ask Sundae باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "جاهز للصورة الكاملة؟",
-      "ctaDescription": "شاهد الذكاء رباعي الأبعاد مع بياناتك. الماضي والخطة والأقران والتنبؤات - كل ذلك في عرض واحد.",
+      "ctaDescription": "شاهد ذكاء 4D مع بياناتك. الماضي والخطة والنظراء والتوقعات - مُغلقة على حل مملوك لمسؤول وهامش مسترد يُقاس مقارنةً بخط أساس.",
       "ctaPrimary": "احجز عرضًا توضيحيًا",
       "ctaSecondary": "استكشاف الهندسة المعمارية"
     },
     "fr": {
       "heroBadge": "Intelligence décisionnelle",
-      "heroDescription": "Quatre dimensions de la perspicacité. Une image complète de votre entreprise.",
+      "heroDescription": "Quatre dimensions d'analyse - le passé, le plan, les pairs, le prédit - bouclées par le geste que la plupart des outils négligent : confier le correctif à un responsable et mesurer la marge récupérée par rapport à une base de référence.",
       "problemTitle": "Le problème avec la BI traditionnelle",
       "problemDescription": "La plupart des outils vous montrent ce qui s'est passé. Pas pourquoi. Pas comment vous comparez. Pas quoi faire ensuite.",
       "problemItems": [
@@ -189,8 +189,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Aucune action recommandée",
-          "description": "Même lorsque vous constatez un problème, le système ne vous dit pas quoi faire. Il vous reste à déterminer vous-même les prochaines étapes.",
+          "title": "Sans responsable, sans reprise mesurée",
+          "description": "Même les outils qui suggèrent une correction s’arrêtent à la suggestion. Personne n’est désigné pour la porter, personne ne l’exécute, et personne ne mesure si la marge est réellement revenue.",
           "icon": "document"
         }
       ],
@@ -246,13 +246,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Que va-t-il se passer ensuite et que devons-nous faire ?",
-          "description": "La dernière dimension : les prédictions, les alertes et les recommandations générées par l'IA. L'IA multi-agents de Sundae prévoit les résultats, signale les anomalies avant qu'elles ne s'aggravent et vous indique exactement les mesures à prendre.",
+          "description": "La dimension finale : prévisions, alertes et recommandations générées par l’IA. L’IA multi-agents de Sundae prévoit les résultats et signale les anomalies avant qu’elles ne s’aggravent - puis confie chaque correction à un responsable désigné et mesure la marge récupérée par rapport à une référence, si bien que la boucle se referme sur le profit récupéré, pas seulement sur l’action menée.",
           "examples": [
             "Prévisions de ventes et de demande",
             "Alertes proactives en cas de hausse des coûts de main-d'œuvre",
@@ -263,16 +263,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "À quoi ressemble l'intelligence 4D",
-      "alertsDescription": "Alertes proactives. Des recommandations claires. Actions que vous pouvez entreprendre aujourd’hui.",
+      "alertsDescription": "Alertes proactives. Un responsable désigné pour chaque correction. Une marge récupérée mesurée par rapport à une référence.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Emplacement du centre-ville",
-          "message": "Le coût de la main-d’œuvre est 12 % supérieur à la référence pour des restaurants similaires. Action recommandée : Examinez l’efficacité de la planification et envisagez un ajustement des effectifs.",
+          "message": "Le coût de la main-d’œuvre est 12% au-dessus du benchmark pour des restaurants similaires. Correction recommandée : rééquilibrer le planning - confiée au responsable du point de vente, avec la marge de main-d’œuvre récupérée mesurée par rapport à la référence de la semaine dernière.",
           "severity": "avertissement",
           "action": "Calendrier de révision",
           "icon": "warning"
@@ -280,7 +280,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Emplacement de l'aéroport",
-          "message": "Ventes en tendance 8% au-dessus des prévisions. La météo et les événements locaux suggèrent une demande toujours forte. Action recommandée : Augmentez les commandes de stock.",
+          "message": "Les ventes sont 8% au-dessus des prévisions. La météo et les événements locaux suggèrent une demande durable. Correction recommandée : augmenter les commandes de stock - confiée au responsable des achats, avec le chiffre d’affaires capté mesuré par rapport à la référence des prévisions.",
           "severity": "succès",
           "action": "Ajuster l'inventaire",
           "icon": "growth"
@@ -288,7 +288,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Zone de marché",
-          "message": "Un concurrent majeur a lancé une promotion de 20 % de réduction. Votre trafic est en baisse de 5 % cette semaine. Action recommandée : Envisagez une offre à durée limitée ou un marketing ciblé.",
+          "message": "Un concurrent majeur a lancé une promo à -20%. Votre trafic est en baisse de 5% cette semaine. Correction recommandée : une offre à durée limitée - confiée au responsable marketing, avec le trafic et la marge récupérés mesurés par rapport à la référence de la semaine dernière.",
           "severity": "infos",
           "action": "Examiner les promotions",
           "icon": "watchtower"
@@ -303,8 +303,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Des décisions plus rapides et plus sûres",
-          "description": "Plus besoin d'attendre les rapports mensuels. Obtenez des renseignements en temps réel et agissez sur les problèmes dès qu'ils surviennent.",
+          "title": "Des boucles bouclées, pas seulement des décisions plus rapides",
+          "description": "Plus besoin d’attendre les rapports mensuels. Chaque problème est confié à un responsable, exécuté, et la marge récupérée est mesurée par rapport à une référence.",
           "icon": "speed"
         },
         {
@@ -314,7 +314,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Position concurrentielle plus forte",
-          "description": "Comprenez votre contexte de marché, comparez-vous à vos pairs et répondez aux mouvements des concurrents en temps réel.",
+          "description": "Comprenez votre contexte marché, benchmarkez-vous et transformez les mouvements concurrents en une correction confiée à un responsable - avec la marge récupérée mesurée par rapport à une référence.",
           "icon": "growth"
         }
       ],
@@ -333,18 +333,18 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligence exploitable",
-          "description": "Les tableaux de bord Sundae Core, les requêtes en langage naturel Sundae Intelligence et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
+          "description": "Les tableaux de bord Sundae Core, les requêtes en langage naturel Ask Sundae et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Prêt pour une image complète ?",
-      "ctaDescription": "Découvrez 4D Intelligence avec vos données. Passé, plan, pairs et prédictions, le tout dans une seule vue.",
+      "ctaDescription": "Découvrez la 4D Intelligence avec vos données. Passé, plan, pairs et prévisions - bouclés sur une correction confiée à un responsable et une marge récupérée mesurée par rapport à une référence.",
       "ctaPrimary": "Réservez une démo",
       "ctaSecondary": "Explorez l'architecture"
     },
     "pt": {
       "heroBadge": "Inteligência de Decisão",
-      "heroDescription": "Quatro dimensões de insight. Uma imagem completa do seu negócio.",
+      "heroDescription": "Quatro dimensões de insight - passado, plano, pares, previsto - fechadas pelo passo que a maioria das ferramentas ignora: encaminhar a correção a um responsável e medir a margem recuperada em relação a uma linha de base.",
       "problemTitle": "O problema do BI tradicional",
       "problemDescription": "A maioria das ferramentas mostra o que aconteceu. Não por quê. Não como você compara. Não o que fazer a seguir.",
       "problemItems": [
@@ -359,8 +359,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Nenhuma ação recomendada",
-          "description": "Mesmo quando você vê um problema, o sistema não lhe diz o que fazer a respeito. Você precisa descobrir as próximas etapas por conta própria.",
+          "title": "Sem responsável, sem recuperação medida",
+          "description": "Até as ferramentas que sugerem uma correção param na sugestão. Ninguém é designado para assumi-la, ninguém a executa e ninguém mede se a margem realmente voltou.",
           "icon": "document"
         }
       ],
@@ -416,13 +416,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "Foresight e ações de IA",
           "subtitle": "O que acontecerá a seguir e o que devemos fazer?",
-          "description": "A dimensão final: previsões, alertas e recomendações geradas por IA. A IA multiagente do Sundae prevê resultados, sinaliza anomalias antes que elas aumentem e informa exatamente quais ações tomar.",
+          "description": "A dimensão final: previsões, alertas e recomendações geradas por IA. A IA multiagente do Sundae prevê resultados e sinaliza anomalias antes que aumentem - depois encaminha cada correção a um responsável e mede a margem recuperada em relação a uma linha de base, de modo que o ciclo se fecha no lucro recuperado, não apenas na ação tomada.",
           "examples": [
             "Vendas previstas e previsões de demanda",
             "Alertas proativos para picos de custos trabalhistas",
@@ -433,16 +433,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Como é a inteligência 4D",
-      "alertsDescription": "Alertas proativos. Recomendações claras. Ações que você pode realizar hoje.",
+      "alertsDescription": "Alertas proativos. Um responsável para cada correção. Margem recuperada medida em relação a uma linha de base.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Localização no centro",
-          "message": "O custo da mão de obra está 12% acima do valor de referência para restaurantes similares. Ação recomendada: Revise a eficiência do agendamento e considere o ajuste da equipe.",
+          "message": "O custo da mão de obra está 12% acima do valor de referência para restaurantes similares. Correção recomendada: reequilibrar a escala - encaminhada ao gerente da loja, com a margem de mão de obra recuperada medida em relação à linha de base da semana passada.",
           "severity": "aviso",
           "action": "Cronograma de revisão",
           "icon": "warning"
@@ -450,7 +450,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Localização do aeroporto",
-          "message": "Tendência de vendas 8% acima do previsto. Os eventos meteorológicos e locais sugerem a continuação de uma forte procura. Ação recomendada: Aumentar os pedidos de estoque.",
+          "message": "Tendência de vendas 8% acima do previsto. O clima e os eventos locais sugerem demanda forte contínua. Correção recomendada: aumentar os pedidos de estoque - encaminhada ao responsável de compras, com a receita capturada medida em relação à linha de base da previsão.",
           "severity": "sucesso",
           "action": "Ajustar inventário",
           "icon": "growth"
@@ -458,7 +458,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Área de Mercado",
-          "message": "Grande concorrente lançou promoção de 20% de desconto. Seu tráfego caiu 5% esta semana. Ação recomendada: considere uma oferta por tempo limitado ou marketing direcionado.",
+          "message": "Grande concorrente lançou promoção de 20% de desconto. Seu tráfego caiu 5% esta semana. Correção recomendada: uma oferta por tempo limitado - encaminhada ao responsável de marketing, com o tráfego e a margem recuperados medidos em relação à linha de base da semana passada.",
           "severity": "informações",
           "action": "Revise as promoções",
           "icon": "watchtower"
@@ -473,8 +473,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Decisões mais rápidas e seguras",
-          "description": "Não há mais espera por relatórios mensais. Obtenha informações em tempo real e tome medidas em relação aos problemas à medida que surgirem.",
+          "title": "Ciclos fechados, não apenas decisões mais rápidas",
+          "description": "Não há mais espera por relatórios mensais. Cada problema é encaminhado a um responsável, executado, e a margem recuperada é medida em relação a uma linha de base.",
           "icon": "speed"
         },
         {
@@ -484,7 +484,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Posição competitiva mais forte",
-          "description": "Entenda o contexto do seu mercado, faça comparações com seus pares e responda aos movimentos dos concorrentes em tempo real.",
+          "description": "Entenda o contexto do seu mercado, compare-se com seus pares e transforme os movimentos dos concorrentes em uma correção com responsável - com a margem recuperada medida em relação a uma linha de base.",
           "icon": "growth"
         }
       ],
@@ -503,19 +503,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligência Acionável",
-          "description": "Painéis Sundae Core, consultas em linguagem natural do Sundae Intelligence e alertas proativos fornecem insights quando e onde você precisar deles.",
+          "description": "Painéis Sundae Core, consultas em linguagem natural do Ask Sundae e alertas proativos fornecem insights quando e onde você precisar deles.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Pronto para a imagem completa?",
-      "ctaDescription": "Veja 4D Intelligence com seus dados. Passado, plano, pares e previsões - tudo em uma única visualização.",
+      "ctaDescription": "Veja 4D Intelligence com seus dados. Passado, plano, pares e previsões - fechados em uma correção com responsável e uma margem recuperada medida em relação a uma linha de base.",
       "ctaPrimary": "Agende uma demonstração",
       "ctaSecondary": "Explore a Arquitetura",
-      "heroTitle": "De relatórios a inteligência real"
+      "heroTitle": "De relatórios a lucro recuperado."
     },
     "de": {
       "heroBadge": "Entscheidungsintelligenz",
-      "heroDescription": "Vier Dimensionen der Einsicht. Ein vollständiges Bild Ihres Unternehmens.",
+      "heroDescription": "Vier Dimensionen der Einsicht - Vergangenheit, Plan, Vergleichsgruppe, Prognose - geschlossen durch den Schritt, den die meisten Tools auslassen: die Korrektur einer verantwortlichen Person übergeben und die zurückgewonnene Marge an einer Baseline messen.",
       "problemTitle": "Das Problem mit traditioneller BI",
       "problemDescription": "Die meisten Tools zeigen Ihnen, was passiert ist. Nicht warum. Nicht, wie Sie vergleichen. Nicht, was als nächstes zu tun ist.",
       "problemItems": [
@@ -530,8 +530,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Keine empfohlenen Aktionen",
-          "description": "Selbst wenn Sie ein Problem erkennen, sagt Ihnen das System nicht, was Sie dagegen tun sollen. Es bleibt Ihnen überlassen, die nächsten Schritte selbst herauszufinden.",
+          "title": "Kein Verantwortlicher, keine gemessene Rückgewinnung",
+          "description": "Selbst die Tools, die eine Korrektur vorschlagen, bleiben beim Vorschlag stehen. Niemand wird benannt, um sie zu übernehmen, niemand führt sie aus, und niemand misst, ob die Marge tatsächlich zurückgekommen ist.",
           "icon": "document"
         }
       ],
@@ -587,13 +587,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Was wird als nächstes passieren und was sollten wir tun?",
-          "description": "Die letzte Dimension: Vorhersagen, Warnungen und KI-generierte Empfehlungen. Die Multiagenten-KI von Sundae prognostiziert Ergebnisse, markiert Anomalien, bevor sie eskalieren, und sagt Ihnen genau, welche Maßnahmen Sie ergreifen müssen.",
+          "description": "Die letzte Dimension: Vorhersagen, Warnungen und KI-generierte Empfehlungen. Die Multiagenten-KI von Sundae prognostiziert Ergebnisse und markiert Anomalien, bevor sie eskalieren - dann übergibt sie jede Korrektur einer verantwortlichen Person und misst die zurückgewonnene Marge an einer Baseline, sodass sich der Kreis auf zurückgewonnenem Gewinn schließt, nicht nur auf ergriffenem Handeln.",
           "examples": [
             "Prognostizierte Umsatz- und Nachfrageprognosen",
             "Proaktive Benachrichtigungen bei Arbeitskostenspitzen",
@@ -604,16 +604,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Wie 4D-Intelligenz aussieht",
-      "alertsDescription": "Proaktive Warnungen. Klare Empfehlungen. Maßnahmen, die Sie heute ergreifen können.",
+      "alertsDescription": "Proaktive Warnungen. Eine verantwortliche Person für jede Korrektur. Zurückgewonnene Marge, gemessen an einer Baseline.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Innenstadtlage",
-          "message": "Die Arbeitskosten liegen 12 % über dem Benchmark für ähnliche Restaurants. Empfohlene Maßnahme: Überprüfen Sie die Planungseffizienz und erwägen Sie eine Personalanpassung.",
+          "message": "Die Arbeitskosten liegen 12 % über dem Benchmark für ähnliche Restaurants. Empfohlene Korrektur: den Dienstplan neu ausbalancieren - übergeben an den Filialleiter, mit der zurückgewonnenen Arbeitsmarge gemessen an der Baseline der Vorwoche.",
           "severity": "Warnung",
           "action": "Überprüfen Sie den Zeitplan",
           "icon": "warning"
@@ -621,7 +621,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Flughafenstandort",
-          "message": "Der Umsatz liegt tendenziell 8 % über der Prognose. Wetter und lokale Ereignisse deuten auf eine anhaltend starke Nachfrage hin. Empfohlene Maßnahme: Lagerbestellungen erhöhen.",
+          "message": "Der Umsatz liegt tendenziell 8 % über der Prognose. Wetter und lokale Ereignisse deuten auf anhaltend starke Nachfrage hin. Empfohlene Korrektur: Lagerbestellungen erhöhen - übergeben an den Einkaufsleiter, mit dem erfassten Umsatz gemessen an der Prognose-Baseline.",
           "severity": "Erfolg",
           "action": "Lagerbestand anpassen",
           "icon": "growth"
@@ -629,7 +629,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Marktgebiet",
-          "message": "Ein großer Wettbewerber hat eine Aktion mit 20 % Rabatt eingeführt. Ihr Traffic ist diese Woche um 5 % zurückgegangen. Empfohlene Maßnahme: Erwägen Sie ein zeitlich begrenztes Angebot oder gezieltes Marketing.",
+          "message": "Ein großer Wettbewerber hat eine Aktion mit 20 % Rabatt gestartet. Ihr Traffic ist diese Woche um 5 % zurückgegangen. Empfohlene Korrektur: ein zeitlich begrenztes Angebot - übergeben an den Marketingverantwortlichen, mit zurückgewonnenem Traffic und zurückgewonnener Marge gemessen an der Baseline der Vorwoche.",
           "severity": "Infos",
           "action": "Überprüfen Sie Werbeaktionen",
           "icon": "watchtower"
@@ -644,8 +644,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Schnellere und sicherere Entscheidungen",
-          "description": "Kein Warten mehr auf monatliche Berichte. Erhalten Sie Informationen in Echtzeit und reagieren Sie auf auftretende Probleme.",
+          "title": "Geschlossene Kreisläufe, nicht nur schnellere Entscheidungen",
+          "description": "Kein Warten mehr auf monatliche Berichte. Jedes Problem wird einer verantwortlichen Person übergeben, ausgeführt, und die zurückgewonnene Marge wird an einer Baseline gemessen.",
           "icon": "speed"
         },
         {
@@ -655,7 +655,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Stärkere Wettbewerbsposition",
-          "description": "Verstehen Sie Ihren Marktkontext, vergleichen Sie ihn mit Mitbewerbern und reagieren Sie in Echtzeit auf Bewegungen der Wettbewerber.",
+          "description": "Verstehen Sie Ihren Marktkontext, vergleichen Sie sich mit Mitbewerbern und verwandeln Sie Wettbewerbsbewegungen in eine Korrektur mit Verantwortlichem - mit der zurückgewonnenen Marge gemessen an einer Baseline.",
           "icon": "growth"
         }
       ],
@@ -674,19 +674,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Umsetzbare Intelligenz",
-          "description": "Sundae Core-Dashboards, Sundae Intelligence-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
+          "description": "Sundae Core-Dashboards, Ask Sundae-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Bereit für das Gesamtbild?",
-      "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen - alles in einer Ansicht.",
+      "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen - abgeschlossen mit einer Korrektur mit Verantwortlichem und einer zurückgewonnenen Marge, gemessen an einer Baseline.",
       "ctaPrimary": "Buchen Sie eine Demo",
       "ctaSecondary": "Entdecken Sie die Architektur",
-      "heroTitle": "Von Berichten zu echter Intelligenz"
+      "heroTitle": "Von Berichten zu zurückgewonnenem Gewinn."
     },
     "nl": {
       "heroBadge": "Beslissingsinformatie",
-      "heroDescription": "Vier dimensies van inzicht. Eén compleet beeld van uw bedrijf.",
+      "heroDescription": "Vier dimensies van inzicht - verleden, plan, peers, voorspeld - gesloten door de stap die de meeste tools overslaan: de oplossing toewijzen aan een verantwoordelijke en de teruggewonnen marge afmeten tegen een basislijn.",
       "problemTitle": "Het probleem met traditionele BI",
       "problemDescription": "De meeste tools laten zien wat er is gebeurd. Niet waarom. Niet hoe je het vergelijkt. Niet wat nu te doen.",
       "problemItems": [
@@ -701,8 +701,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Geen aanbevolen acties",
-          "description": "Zelfs als u een probleem constateert, vertelt het systeem u niet wat u eraan moet doen. Je moet zelf de volgende stappen bedenken.",
+          "title": "Geen eigenaar, geen gemeten herstel",
+          "description": "Zelfs de tools die een oplossing voorstellen, blijven bij de suggestie steken. Niemand wordt aangewezen om die op te pakken, niemand voert die uit, en niemand meet of de marge echt is teruggekomen.",
           "icon": "document"
         }
       ],
@@ -758,13 +758,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Wat zal er daarna gebeuren en wat moeten we doen?",
-          "description": "De laatste dimensie: voorspellingen, waarschuwingen en door AI gegenereerde aanbevelingen. De multi-agent AI van Sundae voorspelt de uitkomsten, signaleert afwijkingen voordat ze escaleren en vertelt u precies welke actie u moet ondernemen.",
+          "description": "De laatste dimensie: voorspellingen, waarschuwingen en door AI gegenereerde aanbevelingen. De multi-agent AI van Sundae voorspelt de uitkomsten en signaleert afwijkingen voordat ze escaleren - en wijst vervolgens elke oplossing toe aan een verantwoordelijke en meet de teruggewonnen marge af tegen een basislijn, zodat de lus sluit op teruggewonnen winst, niet alleen op ondernomen actie.",
           "examples": [
             "Voorspelde verkoop- en vraagprognoses",
             "Proactieve waarschuwingen voor pieken in de arbeidskosten",
@@ -775,16 +775,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Hoe 4D-intelligentie eruit ziet",
-      "alertsDescription": "Proactieve waarschuwingen. Duidelijke aanbevelingen. Acties die u vandaag kunt ondernemen.",
+      "alertsDescription": "Proactieve waarschuwingen. Een verantwoordelijke voor elke oplossing. Teruggewonnen marge, afgemeten tegen een basislijn.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Locatie in het centrum",
-          "message": "De arbeidskosten liggen 12% boven de benchmark voor vergelijkbare restaurants. Aanbevolen actie: Beoordeel de efficiëntie van de planning en overweeg aanpassing van de personeelsbezetting.",
+          "message": "De arbeidskosten liggen 12% boven de benchmark voor vergelijkbare restaurants. Aanbevolen oplossing: het rooster opnieuw in balans brengen - toegewezen aan de filiaalmanager, met de teruggewonnen arbeidsmarge afgemeten tegen de basislijn van vorige week.",
           "severity": "waarschuwing",
           "action": "Schema bekijken",
           "icon": "warning"
@@ -792,7 +792,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Luchthaven locatie",
-          "message": "De omzet ligt 8% boven de prognose. Het weer en lokale gebeurtenissen wijzen op een aanhoudend sterke vraag. Aanbevolen actie: Verhoog de voorraadorders.",
+          "message": "De omzet ligt 8% boven de prognose. Het weer en lokale gebeurtenissen wijzen op een aanhoudend sterke vraag. Aanbevolen oplossing: verhoog de voorraadorders - toegewezen aan de inkoopverantwoordelijke, met de gerealiseerde omzet afgemeten tegen de prognose-basislijn.",
           "severity": "succes",
           "action": "Voorraad aanpassen",
           "icon": "growth"
@@ -800,7 +800,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Marktgebied",
-          "message": "Grote concurrent lanceerde een promotie van 20% korting. Uw verkeer is deze week met 5% gedaald. Aanbevolen actie: Overweeg een tijdelijke aanbieding of gerichte marketing.",
+          "message": "Een grote concurrent lanceerde een promotie van 20% korting. Uw verkeer is deze week met 5% gedaald. Aanbevolen oplossing: een tijdelijke aanbieding - toegewezen aan de marketingverantwoordelijke, met het teruggewonnen verkeer en de teruggewonnen marge afgemeten tegen de basislijn van vorige week.",
           "severity": "informatie",
           "action": "Bekijk promoties",
           "icon": "watchtower"
@@ -815,8 +815,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Snellere, zelfverzekerdere beslissingen",
-          "description": "U hoeft niet meer te wachten op maandelijkse rapporten. Ontvang realtime informatie en handel op problemen zodra deze zich voordoen.",
+          "title": "Gesloten lussen, niet alleen snellere beslissingen",
+          "description": "U hoeft niet meer te wachten op maandelijkse rapporten. Elk probleem wordt toegewezen aan een verantwoordelijke, uitgevoerd, en de teruggewonnen marge wordt afgemeten tegen een basislijn.",
           "icon": "speed"
         },
         {
@@ -826,7 +826,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sterkere concurrentiepositie",
-          "description": "Begrijp uw marktcontext, benchmark met concurrenten en reageer in realtime op bewegingen van concurrenten.",
+          "description": "Begrijp uw marktcontext, benchmark met concurrenten en zet bewegingen van concurrenten om in een oplossing met een verantwoordelijke - met de teruggewonnen marge afgemeten tegen een basislijn.",
           "icon": "growth"
         }
       ],
@@ -845,19 +845,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bruikbare intelligentie",
-          "description": "Sundae Core-dashboards, Sundae Intelligence-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
+          "description": "Sundae Core-dashboards, Ask Sundae-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Klaar voor het volledige beeld?",
-      "ctaDescription": "Zie 4D Intelligence met uw gegevens. Verleden, plannen, peers en voorspellingen - alles in één weergave.",
+      "ctaDescription": "Zie 4D Intelligence met uw gegevens. Verleden, plan, peers en voorspellingen - gesloten met een oplossing met verantwoordelijke en een teruggewonnen marge afgemeten tegen een basislijn.",
       "ctaPrimary": "Boek een demo",
       "ctaSecondary": "Ontdek de architectuur",
-      "heroTitle": "Van rapporten naar echte intelligentie"
+      "heroTitle": "Van rapporten naar teruggewonnen winst."
     },
     "es": {
       "heroBadge": "Inteligencia de decisiones",
-      "heroDescription": "Cuatro dimensiones del insight. Una imagen completa de su negocio.",
+      "heroDescription": "Cuatro dimensiones de análisis - pasado, plan, pares, previsto - cerradas por el paso que la mayoría de las herramientas omite: asignar la solución a un responsable y medir el margen recuperado frente a una línea base.",
       "problemTitle": "El problema del BI tradicional",
       "problemDescription": "La mayoría de las herramientas le muestran lo que sucedió. No por qué. No como te comparas. No qué hacer a continuación.",
       "problemItems": [
@@ -872,8 +872,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "No hay acciones recomendadas",
-          "description": "Incluso cuando ve un problema, el sistema no le dice qué hacer al respecto. Usted debe descubrir los próximos pasos por su cuenta.",
+          "title": "Sin responsable, sin recuperación medida",
+          "description": "Incluso las herramientas que sugieren una solución se detienen en la sugerencia. Nadie queda a cargo de ejecutarla, nadie la ejecuta y nadie mide si el margen realmente volvió.",
           "icon": "document"
         }
       ],
@@ -929,13 +929,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "Foresight y acciones de IA",
           "subtitle": "¿Qué pasará después y qué debemos hacer?",
-          "description": "La dimensión final: predicciones, alertas y recomendaciones generadas por IA. La IA multiagente de Sundae pronostica resultados, señala anomalías antes de que aumenten y le dice exactamente qué acción tomar.",
+          "description": "La dimensión final: predicciones, alertas y recomendaciones generadas por IA. La IA multiagente de Sundae pronostica resultados y marca anomalías antes de que escalen - luego asigna cada solución a un responsable y mide el margen recuperado frente a una línea base, de modo que el ciclo se cierra en beneficio recuperado, no solo en acción tomada.",
           "examples": [
             "Previsiones de ventas y demanda previstas.",
             "Alertas proactivas ante aumentos de costos laborales",
@@ -946,16 +946,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Cómo se ve la inteligencia 4D",
-      "alertsDescription": "Alertas proactivas. Recomendaciones claras. Acciones que puedes tomar hoy.",
+      "alertsDescription": "Alertas proactivas. Un responsable para cada solución. Margen recuperado medido frente a una línea base.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Ubicación en el centro",
-          "message": "El coste laboral está un 12% por encima del punto de referencia para restaurantes similares. Acción recomendada: revisar la eficiencia de la programación y considerar ajustes en la dotación de personal.",
+          "message": "El coste laboral está un 12% por encima del benchmark para restaurantes similares. Solución recomendada: reequilibrar el horario - asignada al gerente del local, con el margen laboral recuperado medido frente a la línea base de la semana pasada.",
           "severity": "advertencia",
           "action": "Calendario de revisión",
           "icon": "warning"
@@ -963,7 +963,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Ubicación del aeropuerto",
-          "message": "Las ventas tienden un 8% por encima de lo previsto. El clima y los acontecimientos locales sugieren que la demanda seguirá siendo fuerte. Acción recomendada: aumentar los pedidos de inventario.",
+          "message": "Las ventas van un 8% por encima del pronóstico. El clima y los eventos locales sugieren demanda sostenida. Solución recomendada: aumentar los pedidos de inventario - asignada al responsable de compras, con los ingresos captados medidos frente a la línea base del pronóstico.",
           "severity": "éxito",
           "action": "Ajustar inventario",
           "icon": "growth"
@@ -971,7 +971,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Área de mercado",
-          "message": "El principal competidor lanzó una promoción con un 20% de descuento. Su tráfico ha bajado un 5 % esta semana. Acción recomendada: considere una oferta por tiempo limitado o marketing dirigido.",
+          "message": "Un competidor principal lanzó una promoción del 20%. Tu tráfico baja un 5% esta semana. Solución recomendada: una oferta por tiempo limitado - asignada al responsable de marketing, con el tráfico y el margen recuperados medidos frente a la línea base de la semana pasada.",
           "severity": "información",
           "action": "Revisar promociones",
           "icon": "watchtower"
@@ -986,8 +986,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Decisiones más rápidas y seguras",
-          "description": "No más esperas por informes mensuales. Obtenga inteligencia en tiempo real y actúe sobre los problemas a medida que surjan.",
+          "title": "Ciclos cerrados, no solo decisiones más rápidas",
+          "description": "Se acabó esperar a informes mensuales. Cada problema se asigna a un responsable, se ejecuta y el margen recuperado se mide frente a una línea base.",
           "icon": "speed"
         },
         {
@@ -997,7 +997,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Posición competitiva más fuerte",
-          "description": "Comprenda el contexto de su mercado, compare con sus pares y responda a los movimientos de la competencia en tiempo real.",
+          "description": "Entiende tu contexto de mercado, compárate con pares y convierte los movimientos de la competencia en una solución con responsable - con el margen recuperado medido frente a una línea base.",
           "icon": "growth"
         }
       ],
@@ -1016,18 +1016,18 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencia procesable",
-          "description": "Los paneles de Sundae Core, las consultas en lenguaje natural de Sundae Intelligence y las alertas proactivas brindan información cuando y donde la necesita.",
+          "description": "Los paneles de Sundae Core, las consultas en lenguaje natural de Ask Sundae y las alertas proactivas brindan información cuando y donde la necesita.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "¿Listo para la imagen completa?",
-      "ctaDescription": "Vea 4D Intelligence con sus datos. Pasado, plan, pares y predicciones: todo en una sola vista.",
+      "ctaDescription": "Ve 4D Intelligence con tus datos. Pasado, plan, pares y predicciones - cerrados en una solución con responsable y un margen recuperado medido frente a una línea base.",
       "ctaPrimary": "Reserve una demostración",
       "ctaSecondary": "Explora la arquitectura"
     },
     "ur": {
       "heroBadge": "فیصلہ انٹیلی جنس",
-      "heroDescription": "بصیرت کی چار جہتیں۔ آپ کے کاروبار کی ایک مکمل تصویر۔",
+      "heroDescription": "بصیرت کی چار جہتیں - ماضی، منصوبہ، ہم مرتبہ، اور پیش گوئی - اُس قدم سے مکمل ہوتی ہیں جسے زیادہ تر ٹولز نظرانداز کر دیتے ہیں: حل کو ایک ذمہ دار شخص کے سپرد کرنا اور بازیافت شدہ مارجن کو ایک بنیادی معیار کے مقابلے میں ناپنا۔",
       "problemTitle": "روایتی BI کے ساتھ مسئلہ",
       "problemDescription": "زیادہ تر ٹولز آپ کو دکھاتے ہیں کہ کیا ہوا ہے۔ کیوں نہیں. اس طرح نہیں جس طرح آپ موازنہ کرتے ہیں۔ نہیں آگے کیا کرنا ہے۔",
       "problemItems": [
@@ -1042,8 +1042,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "کوئی تجویز کردہ کارروائیاں نہیں۔",
-          "description": "یہاں تک کہ جب آپ کوئی مسئلہ دیکھتے ہیں، سسٹم آپ کو یہ نہیں بتاتا ہے کہ اس کے بارے میں کیا کرنا ہے۔ آپ کو خود ہی اگلے مراحل کا پتہ لگانے کے لیے چھوڑ دیا گیا ہے۔",
+          "title": "کوئی مالک نہیں، کوئی ماپا گیا استرداد نہیں",
+          "description": "حتیٰ کہ وہ ٹولز جو کوئی حل تجویز کرتے ہیں، تجویز پر ہی رک جاتے ہیں۔ کسی کو اس کا ذمہ دار مقرر نہیں کیا جاتا، کوئی اسے نافذ نہیں کرتا، اور کوئی یہ نہیں ناپتا کہ آیا مارجن واقعی واپس آیا۔",
           "icon": "document"
         }
       ],
@@ -1099,13 +1099,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "آگے کیا ہوگا، اور ہمیں کیا کرنا چاہیے؟",
-          "description": "حتمی جہت: پیشین گوئیاں، انتباہات، اور AI سے تیار کردہ سفارشات۔ Sundae کا ملٹی ایجنٹ AI نتائج کی پیشن گوئی کرتا ہے، ان کے بڑھنے سے پہلے ہی بے ضابطگیوں کو جھنڈا دیتا ہے، اور آپ کو بالکل بتاتا ہے کہ کیا کارروائی کرنی ہے۔",
+          "description": "حتمی جہت: پیشین گوئیاں، انتباہات، اور AI سے تیار کردہ سفارشات۔ Sundae کا ملٹی ایجنٹ AI نتائج کی پیشن گوئی کرتا ہے اور بے ضابطگیوں کو بڑھنے سے پہلے جھنڈا دیتا ہے - پھر ہر حل کو ایک ذمہ دار شخص کے سپرد کرتا ہے اور بازیافت شدہ مارجن کو ایک بنیادی معیار کے مقابلے میں ناپتا ہے، تاکہ حلقہ محض کارروائی پر نہیں بلکہ بازیافت شدہ منافع پر بند ہو۔",
           "examples": [
             "پیشن گوئی کی فروخت اور طلب کی پیشن گوئی",
             "لیبر لاگت میں اضافے کے لیے فعال الرٹس",
@@ -1116,16 +1116,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D انٹیلی جنس کیسی دکھتی ہے۔",
-      "alertsDescription": "فعال انتباہات۔ واضح سفارشات۔ وہ اقدامات جو آپ آج اٹھا سکتے ہیں۔",
+      "alertsDescription": "فعال انتباہات۔ ہر حل کے لیے ایک ذمہ دار شخص۔ بازیافت شدہ مارجن جو ایک بنیادی معیار کے مقابلے میں ناپا جاتا ہے۔",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "شہر کے مرکز میں مقام",
-          "message": "اسی طرح کے ریستوراں کے لیے لیبر کی لاگت بینچ مارک سے 12% زیادہ ہے۔ تجویز کردہ کارروائی: شیڈولنگ کی کارکردگی کا جائزہ لیں اور عملے کی ایڈجسٹمنٹ پر غور کریں۔",
+          "message": "اسی طرح کے ریستوراں کے لیے لیبر کی لاگت بینچ مارک سے 12% زیادہ ہے۔ تجویز کردہ حل: شیڈول کو دوبارہ متوازن کریں - اسٹور مینیجر کے سپرد، بازیافت شدہ لیبر مارجن کو گزشتہ ہفتے کے بنیادی معیار کے مقابلے میں ناپتے ہوئے۔",
           "severity": "انتباہ",
           "action": "شیڈول کا جائزہ لیں۔",
           "icon": "warning"
@@ -1133,7 +1133,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "ہوائی اڈے کا مقام",
-          "message": "فروخت کا رجحان پیشن گوئی سے 8% زیادہ ہے۔ موسم اور مقامی واقعات مسلسل مضبوط مانگ کی تجویز کرتے ہیں۔ تجویز کردہ کارروائی: انوینٹری آرڈرز میں اضافہ کریں۔",
+          "message": "فروخت کا رجحان پیشن گوئی سے 8% زیادہ ہے۔ موسم اور مقامی واقعات مسلسل مضبوط مانگ کی تجویز کرتے ہیں۔ تجویز کردہ حل: انوینٹری آرڈرز میں اضافہ کریں - پرچیزنگ لیڈ کے سپرد، حاصل کردہ آمدنی کو پیشن گوئی کے بنیادی معیار کے مقابلے میں ناپتے ہوئے۔",
           "severity": "کامیابی",
           "action": "انوینٹری کو ایڈجسٹ کریں۔",
           "icon": "growth"
@@ -1141,7 +1141,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "مارکیٹ ایریا",
-          "message": "بڑے مدمقابل نے پروموشن پر 20% چھوٹ کا آغاز کیا۔ اس ہفتے آپ کا ٹریفک 5% کم ہے۔ تجویز کردہ کارروائی: محدود مدت کی پیشکش یا ٹارگٹڈ مارکیٹنگ پر غور کریں۔",
+          "message": "بڑے مدمقابل نے 20% رعایت کا پروموشن شروع کیا۔ اس ہفتے آپ کا ٹریفک 5% کم ہے۔ تجویز کردہ حل: محدود مدت کی پیشکش - مارکیٹنگ ذمہ دار کے سپرد، بازیافت شدہ ٹریفک اور مارجن کو گزشتہ ہفتے کے بنیادی معیار کے مقابلے میں ناپتے ہوئے۔",
           "severity": "معلومات",
           "action": "پروموشنز کا جائزہ لیں۔",
           "icon": "watchtower"
@@ -1156,8 +1156,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "تیز، زیادہ پر اعتماد فیصلے",
-          "description": "ماہانہ رپورٹس کا مزید انتظار نہیں۔ ریئل ٹائم انٹیلی جنس حاصل کریں اور مسائل کے سامنے آتے ہی ان پر عمل کریں۔",
+          "title": "بند حلقے، محض تیز فیصلے نہیں",
+          "description": "ماہانہ رپورٹس کا مزید انتظار نہیں۔ ہر مسئلہ ایک ذمہ دار شخص کے سپرد کیا اور نافذ کیا جاتا ہے، اور بازیافت شدہ مارجن کو ایک بنیادی معیار کے مقابلے میں ناپا جاتا ہے۔",
           "icon": "speed"
         },
         {
@@ -1167,7 +1167,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "مضبوط مسابقتی پوزیشن",
-          "description": "اپنے بازار کے سیاق و سباق کو سمجھیں، ساتھیوں کے خلاف بینچ مارک، اور ریئل ٹائم میں حریف کی چالوں کا جواب دیں۔",
+          "description": "اپنے بازار کے سیاق و سباق کو سمجھیں، نظیروں سے موازنہ کریں، اور حریف کی چالوں کو ایک ذمہ دار کے حل میں بدلیں - بازیافت شدہ مارجن کو ایک بنیادی معیار کے مقابلے میں ناپتے ہوئے۔",
           "icon": "growth"
         }
       ],
@@ -1186,19 +1186,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "قابل عمل انٹیلی جنس",
-          "description": "Sundae Core ڈیش بورڈز، Sundae Intelligence قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔",
+          "description": "Sundae Core ڈیش بورڈز، Ask Sundae قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔",
           "icon": "insights"
         }
       ],
       "ctaTitle": "مکمل تصویر کے لیے تیار ہیں؟",
-      "ctaDescription": "اپنے ڈیٹا کے ساتھ 4D انٹیلی جنس دیکھیں۔ ماضی، منصوبہ، ساتھی، اور پیشین گوئیاں - سب ایک نظر میں۔",
+      "ctaDescription": "اپنے ڈیٹا کے ساتھ 4D انٹیلی جنس دیکھیں۔ ماضی، منصوبہ، ساتھی، اور پیشین گوئیاں - ایک ذمہ دار کے حل اور ایک بنیادی معیار کے مقابلے میں ناپے گئے بازیافت شدہ مارجن پر بند۔",
       "ctaPrimary": "ایک ڈیمو بک کرو",
       "ctaSecondary": "فن تعمیر کو دریافت کریں۔",
-      "heroTitle": "رپورٹس سے حقیقی انٹیلیجنس تک"
+      "heroTitle": "رپورٹس سے بازیافت شدہ منافع تک"
     },
     "hi": {
       "heroBadge": "निर्णय बुद्धि",
-      "heroDescription": "अंतर्दृष्टि के चार आयाम. आपके व्यवसाय की एक संपूर्ण तस्वीर.",
+      "heroDescription": "अंतर्दृष्टि के चार आयाम - अतीत, योजना, समकक्ष, अनुमानित - उस कदम से पूरे होते हैं जिसे अधिकांश उपकरण छोड़ देते हैं: सुधार को एक जवाबदेह व्यक्ति को सौंपना और वसूली गई मार्जिन को एक आधार रेखा के मुकाबले मापना।",
       "problemTitle": "पारंपरिक बीआई के साथ समस्या",
       "problemDescription": "अधिकांश उपकरण आपको दिखाते हैं कि क्या हुआ। नहीं क्यों। यह नहीं कि आप कैसे तुलना करते हैं. आगे क्या करना है ये नहीं.",
       "problemItems": [
@@ -1213,8 +1213,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "कोई अनुशंसित कार्रवाई नहीं",
-          "description": "यहां तक कि जब आप कोई समस्या देखते हैं, तो सिस्टम आपको यह नहीं बताता कि इसके बारे में क्या करना है। आपको अगले कदम स्वयं ही तय करने होंगे।",
+          "title": "कोई स्वामी नहीं, कोई मापी गई वसूली नहीं",
+          "description": "यहां तक कि जो उपकरण कोई सुधार सुझाते हैं, वे सुझाव पर ही रुक जाते हैं। इसे संभालने के लिए किसी को नामित नहीं किया जाता, कोई इसे निष्पादित नहीं करता, और कोई यह नहीं मापता कि मार्जिन वास्तव में वापस आया या नहीं।",
           "icon": "document"
         }
       ],
@@ -1270,13 +1270,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "आगे क्या होगा और हमें क्या करना चाहिए?",
-          "description": "अंतिम आयाम: भविष्यवाणियाँ, अलर्ट और AI-जनित अनुशंसाएँ। Sundae का मल्टी-एजेंट एआई परिणामों का पूर्वानुमान लगाता है, विसंगतियों को बढ़ने से पहले चिह्नित करता है, और आपको बताता है कि वास्तव में क्या कार्रवाई करनी है।",
+          "description": "अंतिम आयाम: भविष्यवाणियाँ, अलर्ट और AI-जनित अनुशंसाएँ। Sundae का मल्टी-एजेंट AI परिणामों का पूर्वानुमान लगाता है और विसंगतियों को बढ़ने से पहले चिह्नित करता है - फिर हर सुधार को एक जवाबदेह व्यक्ति को सौंपता है और वसूली गई मार्जिन को एक आधार रेखा के मुकाबले मापता है, ताकि यह चक्र केवल की गई कार्रवाई पर नहीं बल्कि वसूले गए लाभ पर बंद हो।",
           "examples": [
             "अनुमानित बिक्री और मांग पूर्वानुमान",
             "श्रम लागत में बढ़ोतरी के लिए सक्रिय अलर्ट",
@@ -1287,16 +1287,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4डी इंटेलिजेंस कैसा दिखता है?",
-      "alertsDescription": "सक्रिय अलर्ट. स्पष्ट सिफ़ारिशें. आज आप जो कदम उठा सकते हैं.",
+      "alertsDescription": "सक्रिय अलर्ट। हर सुधार के लिए एक जवाबदेह व्यक्ति। वसूली गई मार्जिन जो एक आधार रेखा के मुकाबले मापी जाती है।",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "डाउनटाउन स्थान",
-          "message": "समान रेस्तरां के लिए श्रम लागत बेंचमार्क से 12% अधिक है। अनुशंसित कार्रवाई: शेड्यूलिंग दक्षता की समीक्षा करें और स्टाफिंग समायोजन पर विचार करें।",
+          "message": "समान रेस्तरां के लिए श्रम लागत बेंचमार्क से 12% अधिक है। अनुशंसित सुधार: शेड्यूल को फिर से संतुलित करें - स्टोर मैनेजर को सौंपा गया, वसूली गई श्रम मार्जिन को पिछले सप्ताह की आधार रेखा के मुकाबले मापते हुए।",
           "severity": "चेतावनी",
           "action": "समीक्षा अनुसूची",
           "icon": "warning"
@@ -1304,7 +1304,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "हवाई अड्डे का स्थान",
-          "message": "बिक्री पूर्वानुमान से 8% अधिक चल रही है। मौसम और स्थानीय घटनाएं लगातार मजबूत मांग का संकेत देती हैं। अनुशंसित कार्रवाई: इन्वेंट्री ऑर्डर बढ़ाएँ।",
+          "message": "बिक्री पूर्वानुमान से 8% अधिक चल रही है। मौसम और स्थानीय घटनाएं लगातार मजबूत मांग का संकेत देती हैं। अनुशंसित सुधार: इन्वेंट्री ऑर्डर बढ़ाएँ - खरीद प्रमुख को सौंपा गया, प्राप्त राजस्व को पूर्वानुमान की आधार रेखा के मुकाबले मापते हुए।",
           "severity": "सफलता",
           "action": "इन्वेंटरी समायोजित करें",
           "icon": "growth"
@@ -1312,7 +1312,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "बाज़ार क्षेत्र",
-          "message": "प्रमुख प्रतियोगी ने प्रमोशन पर 20% छूट की शुरुआत की। इस सप्ताह आपका ट्रैफ़िक 5% कम हो गया है। अनुशंसित कार्रवाई: सीमित समय की पेशकश या लक्षित विपणन पर विचार करें।",
+          "message": "प्रमुख प्रतियोगी ने 20% छूट का प्रमोशन शुरू किया। इस सप्ताह आपका ट्रैफ़िक 5% कम हुआ है। अनुशंसित सुधार: सीमित समय की पेशकश - मार्केटिंग प्रमुख को सौंपा गया, वसूले गए ट्रैफ़िक और मार्जिन को पिछले सप्ताह की आधार रेखा के मुकाबले मापते हुए।",
           "severity": "जानकारी",
           "action": "प्रमोशन की समीक्षा करें",
           "icon": "watchtower"
@@ -1327,8 +1327,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "तेज़, अधिक आत्मविश्वासपूर्ण निर्णय",
-          "description": "मासिक रिपोर्ट के लिए अब और इंतजार नहीं करना पड़ेगा। वास्तविक समय की जानकारी प्राप्त करें और जैसे ही मुद्दे सामने आएं, उन पर कार्रवाई करें।",
+          "title": "बंद चक्र, केवल तेज़ निर्णय नहीं",
+          "description": "मासिक रिपोर्ट के लिए अब और इंतजार नहीं। हर समस्या एक जवाबदेह व्यक्ति को सौंपी और निष्पादित की जाती है, और वसूली गई मार्जिन को एक आधार रेखा के मुकाबले मापा जाता है।",
           "icon": "speed"
         },
         {
@@ -1338,7 +1338,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "मजबूत प्रतिस्पर्धी स्थिति",
-          "description": "अपने बाजार संदर्भ को समझें, साथियों के मुकाबले बेंचमार्क बनाएं और वास्तविक समय में प्रतिस्पर्धी चालों का जवाब दें।",
+          "description": "अपने बाज़ार संदर्भ को समझें, साथियों के मुकाबले बेंचमार्क करें, और प्रतिस्पर्धी चालों को एक जवाबदेह व्यक्ति के सुधार में बदलें - वसूली गई मार्जिन को एक आधार रेखा के मुकाबले मापते हुए।",
           "icon": "growth"
         }
       ],
@@ -1362,14 +1362,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "पूरी तस्वीर के लिए तैयार हैं?",
-      "ctaDescription": "अपने डेटा के साथ 4डी इंटेलिजेंस देखें। अतीत, योजना, सहकर्मी, और भविष्यवाणियाँ - सभी एक दृश्य में।",
+      "ctaDescription": "अपने डेटा के साथ 4D इंटेलिजेंस देखें। अतीत, योजना, सहकर्मी, और भविष्यवाणियाँ - एक जवाबदेह व्यक्ति के सुधार और एक आधार रेखा के मुकाबले मापी गई वसूली गई मार्जिन पर बंद।",
       "ctaPrimary": "एक डेमो बुक करें",
       "ctaSecondary": "वास्तुकला का अन्वेषण करें",
-      "heroTitle": "रिपोर्ट से असली इंटेलिजेंस तक"
+      "heroTitle": "रिपोर्ट से वसूले गए मुनाफे तक"
     },
     "zh-Hans": {
       "heroBadge": "决策智能",
-      "heroDescription": "洞察力的四个维度。您企业的一张完整图片。",
+      "heroDescription": "四个维度的洞察--过去、计划、同行、预测--由多数工具略过的那一步收尾：把修正交给负责人，并对照基线衡量挽回的利润率。",
       "problemTitle": "传统 BI 的问题",
       "problemDescription": "大多数工具都会向您展示发生了什么。不是为什么。不是你怎么比较。不是接下来要做什么。",
       "problemItems": [
@@ -1384,8 +1384,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "没有建议的行动",
-          "description": "即使您发现问题，系统也不会告诉您该如何处理。您需要自己弄清楚接下来的步骤。",
+          "title": "无负责人，无可衡量的挽回",
+          "description": "即便是那些给出修正建议的工具，也止步于建议。没有人被指定去负责，没有人去执行，也没有人衡量利润率是否真的回来了。",
           "icon": "document"
         }
       ],
@@ -1441,13 +1441,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight 与行动",
           "subtitle": "接下来会发生什么，我们应该做什么？",
-          "description": "最后一个维度：预测、警报和人工智能生成的建议。Sundae的多代理人工智能可以预测结果，在异常升级之前对其进行标记，并准确地告诉您要采取什么行动。",
+          "description": "最后一个维度：预测、警报和 AI 生成的建议。Sundae 的多代理 AI 预测结果，并在异常升级之前进行标记--然后把每一项修正交给负责人，并对照基线衡量挽回的利润率，让闭环收尾于挽回的利润，而不仅仅是采取的行动。",
           "examples": [
             "预测销售和需求预测",
             "针对劳动力成本飙升主动发出警报",
@@ -1458,16 +1458,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D 智能是什么样的",
-      "alertsDescription": "主动警报。明确的建议。您今天可以采取的行动。",
+      "alertsDescription": "主动警报。每一项修正都有负责人。挽回的利润率对照基线衡量。",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "市中心位置",
-          "message": "劳动力成本比同类餐厅高出12%。建议采取的措施：审查调度效率并考虑人员配置调整。",
+          "message": "劳动力成本比同类餐厅的基准高出 12%。建议修正：重新平衡排班--交给门店经理，并将挽回的劳动力利润率对照上周基线衡量。",
           "severity": "警告",
           "action": "审核时间表",
           "icon": "warning"
@@ -1475,7 +1475,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "机场位置",
-          "message": "销售趋势比预测高 8%。天气和当地事件表明需求持续强劲。建议行动：增加库存订单。",
+          "message": "销售趋势比预测高 8%。天气和当地活动表明需求持续强劲。建议修正：增加库存订单--交给采购负责人，并将获取的收入对照预测基线衡量。",
           "severity": "成功",
           "action": "调整库存",
           "icon": "growth"
@@ -1483,7 +1483,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "市场区域",
-          "message": "主要竞争对手推出了 20% 的促销活动。本周您的流量下降了 5%。建议采取的措施：考虑限时优惠或有针对性的营销。",
+          "message": "主要竞争对手推出了 20% 的折扣促销。本周您的客流下降了 5%。建议修正：限时优惠--交给营销负责人，并将挽回的客流和利润率对照上周基线衡量。",
           "severity": "信息",
           "action": "查看促销活动",
           "icon": "watchtower"
@@ -1498,8 +1498,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "更快、更自信的决策",
-          "description": "不再需要等待月度报告。获取实时情报并在出现问题时采取行动。",
+          "title": "闭环，而不仅仅是更快的决策",
+          "description": "不再等待月度报告。每个问题都交给负责人并执行，挽回的利润率对照基线衡量。",
           "icon": "speed"
         },
         {
@@ -1509,7 +1509,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "更强的竞争地位",
-          "description": "了解您的市场环境，与同行进行比较，并实时响应竞争对手的举动。",
+          "description": "了解你的市场环境，与同行对标，并把竞争对手的动作转化为有负责人的修正--将挽回的利润率对照基线衡量。",
           "icon": "growth"
         }
       ],
@@ -1528,19 +1528,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "可行的情报",
-          "description": "Sundae Core 仪表板、Sundae Intelligence 自然语言查询和主动警报可随时随地为您提供见解。",
+          "description": "Sundae Core 仪表板、Ask Sundae 自然语言查询和主动警报可随时随地为您提供见解。",
           "icon": "insights"
         }
       ],
       "ctaTitle": "准备好全面了解了吗？",
-      "ctaDescription": "查看 4D Intelligence 与您的数据。过去、计划、同行和预测 - 尽在一个视图中。",
+      "ctaDescription": "用你的数据查看 4D Intelligence。过去、计划、同行和预测--收尾于有负责人的修正，以及对照基线衡量的挽回利润率。",
       "ctaPrimary": "预订演示",
       "ctaSecondary": "探索架构",
-      "heroTitle": "从报表到真正的智能"
+      "heroTitle": "从报表到挽回的利润。"
     },
     "pl": {
       "heroBadge": "Inteligencja decyzyjna",
-      "heroDescription": "Cztery wymiary wglądu. Jeden pełny obraz Twojej firmy.",
+      "heroDescription": "Cztery wymiary wglądu - przeszłość, plan, konkurenci, prognoza - domknięte krokiem, który większość narzędzi pomija: skierowanie poprawki do odpowiedzialnej osoby i zmierzenie odzyskanej marży względem linii bazowej.",
       "problemTitle": "Problem z tradycyjnym BI",
       "problemDescription": "Większość narzędzi pokazuje, co się stało. Nie dlaczego. Nie to, co porównujesz. Nie, co dalej robić.",
       "problemItems": [
@@ -1555,8 +1555,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Brak zalecanych działań",
-          "description": "Nawet jeśli zauważysz problem, system nie powie Ci, co z nim zrobić. Dalsze kroki musisz podjąć samodzielnie.",
+          "title": "Brak właściciela, brak zmierzonego odzysku",
+          "description": "Nawet narzędzia, które sugerują poprawkę, kończą na sugestii. Nikt nie zostaje wyznaczony, by ją przejąć, nikt jej nie wykonuje i nikt nie mierzy, czy marża faktycznie wróciła.",
           "icon": "document"
         }
       ],
@@ -1612,13 +1612,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "Foresight i działania AI",
           "subtitle": "Co stanie się dalej i co powinniśmy zrobić?",
-          "description": "Ostatni wymiar: prognozy, alerty i rekomendacje generowane przez sztuczną inteligencję. Wieloagentowa sztuczna inteligencja firmy Sundae prognozuje wyniki, sygnalizuje anomalie, zanim ulegną eskalacji, i dokładnie informuje, jakie działania należy podjąć.",
+          "description": "Ostatni wymiar: prognozy, alerty i rekomendacje generowane przez AI. Wieloagentowa AI firmy Sundae prognozuje wyniki i sygnalizuje anomalie, zanim ulegną eskalacji - następnie kieruje każdą poprawkę do odpowiedzialnej osoby i mierzy odzyskaną marżę względem linii bazowej, tak aby pętla domykała się na odzyskanym zysku, a nie tylko na podjętym działaniu.",
           "examples": [
             "Przewidywane prognozy sprzedaży i popytu",
             "Proaktywne alerty dotyczące skoków kosztów pracy",
@@ -1629,16 +1629,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Jak wygląda inteligencja 4D",
-      "alertsDescription": "Proaktywne alerty. Jasne zalecenia. Działania, które możesz podjąć już dziś.",
+      "alertsDescription": "Proaktywne alerty. Odpowiedzialna osoba do każdej poprawki. Odzyskana marża mierzona względem linii bazowej.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Lokalizacja w centrum miasta",
-          "message": "Koszt pracy jest o 12% wyższy od poziomu odniesienia dla podobnych restauracji. Zalecane działanie: Sprawdź efektywność planowania i rozważ dostosowanie personelu.",
+          "message": "Koszt pracy jest o 12% wyższy od poziomu odniesienia dla podobnych restauracji. Zalecana poprawka: przywróć równowagę grafiku - skierowana do kierownika lokalu, z odzyskaną marżą pracy mierzoną względem linii bazowej z ubiegłego tygodnia.",
           "severity": "ostrzeżenie",
           "action": "Przegląd harmonogramu",
           "icon": "warning"
@@ -1646,7 +1646,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Lokalizacja lotniska",
-          "message": "Trend sprzedaży 8% powyżej prognozy. Pogoda i wydarzenia lokalne wskazują na utrzymujący się duży popyt. Zalecane działanie: Zwiększ liczbę zamówień magazynowych.",
+          "message": "Trend sprzedaży 8% powyżej prognozy. Pogoda i wydarzenia lokalne wskazują na utrzymujący się duży popyt. Zalecana poprawka: zwiększ zamówienia magazynowe - skierowana do kierownika zakupów, z uchwyconym przychodem mierzonym względem linii bazowej prognozy.",
           "severity": "sukces",
           "action": "Dostosuj zapasy",
           "icon": "growth"
@@ -1654,7 +1654,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Obszar Targowy",
-          "message": "Główny konkurent uruchomił promocję z 20% rabatem. Twój ruch spadł w tym tygodniu o 5%. Zalecane działanie: Rozważ ofertę ograniczoną czasowo lub marketing ukierunkowany.",
+          "message": "Główny konkurent uruchomił promocję z 20% rabatem. Twój ruch spadł w tym tygodniu o 5%. Zalecana poprawka: oferta ograniczona czasowo - skierowana do osoby odpowiedzialnej za marketing, z odzyskanym ruchem i marżą mierzonymi względem linii bazowej z ubiegłego tygodnia.",
           "severity": "informacje",
           "action": "Przejrzyj promocje",
           "icon": "watchtower"
@@ -1669,8 +1669,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Szybsze i pewniejsze decyzje",
-          "description": "Koniec z czekaniem na miesięczne raporty. Uzyskaj informacje w czasie rzeczywistym i reaguj na pojawiające się problemy.",
+          "title": "Domknięte pętle, a nie tylko szybsze decyzje",
+          "description": "Koniec z czekaniem na miesięczne raporty. Każdy problem jest kierowany do odpowiedzialnej osoby, wykonywany, a odzyskana marża jest mierzona względem linii bazowej.",
           "icon": "speed"
         },
         {
@@ -1680,7 +1680,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Silniejsza pozycja konkurencyjna",
-          "description": "Zrozum kontekst rynkowy, porównaj z innymi firmami i reaguj na ruchy konkurencji w czasie rzeczywistym.",
+          "description": "Zrozum kontekst rynkowy, porównaj się z innymi firmami i przekształć ruchy konkurencji w poprawkę z osobą odpowiedzialną - z odzyskaną marżą mierzoną względem linii bazowej.",
           "icon": "growth"
         }
       ],
@@ -1704,14 +1704,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Gotowy na pełny obraz?",
-      "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy - wszystko w jednym widoku.",
+      "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy - domknięte poprawką z osobą odpowiedzialną i odzyskaną marżą mierzoną względem linii bazowej.",
       "ctaPrimary": "Zarezerwuj wersję demonstracyjną",
       "ctaSecondary": "Poznaj architekturę",
-      "heroTitle": "Od raportów do prawdziwej inteligencji"
+      "heroTitle": "Od raportów do odzyskanego zysku."
     },
     "it": {
       "heroBadge": "Intelligenza decisionale",
-      "heroDescription": "Quattro dimensioni dell'intuizione. Un quadro completo della tua attività.",
+      "heroDescription": "Quattro dimensioni di analisi - passato, piano, concorrenti, previsione - chiuse dal passaggio che la maggior parte degli strumenti salta: affidare la correzione a un responsabile e misurare il margine recuperato rispetto a una linea di base.",
       "problemTitle": "Il problema con la BI tradizionale",
       "problemDescription": "La maggior parte degli strumenti ti mostra cosa è successo. Non perché. Non è il tuo paragone. Non cosa fare dopo.",
       "problemItems": [
@@ -1726,8 +1726,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Nessuna azione consigliata",
-          "description": "Anche quando noti un problema, il sistema non ti dice cosa fare al riguardo. Non resta che capire da solo i passaggi successivi.",
+          "title": "Nessun responsabile, nessun recupero misurato",
+          "description": "Persino gli strumenti che suggeriscono una correzione si fermano al suggerimento. Nessuno viene incaricato di prenderla in carico, nessuno la esegue e nessuno misura se il margine è davvero tornato.",
           "icon": "document"
         }
       ],
@@ -1783,13 +1783,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Cosa accadrà dopo e cosa dovremmo fare?",
-          "description": "La dimensione finale: previsioni, avvisi e raccomandazioni generate dall'intelligenza artificiale. L'intelligenza artificiale multi-agente di Sundae prevede i risultati, segnala le anomalie prima che si intensifichino e ti dice esattamente quale azione intraprendere.",
+          "description": "La dimensione finale: previsioni, avvisi e raccomandazioni generate dall’IA. L’IA multi-agente di Sundae prevede i risultati e segnala le anomalie prima che si intensifichino - poi affida ogni correzione a un responsabile e misura il margine recuperato rispetto a una linea di base, così il ciclo si chiude sul profitto recuperato, non solo sull’azione intrapresa.",
           "examples": [
             "Vendite previste e previsioni della domanda",
             "Avvisi proattivi per picchi di costo del lavoro",
@@ -1800,16 +1800,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Che aspetto ha l'intelligenza 4D",
-      "alertsDescription": "Avvisi proattivi. Raccomandazioni chiare. Azioni che puoi intraprendere oggi.",
+      "alertsDescription": "Avvisi proattivi. Un responsabile per ogni correzione. Margine recuperato misurato rispetto a una linea di base.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Posizione in centro",
-          "message": "Il costo del lavoro è superiore del 12% al benchmark per ristoranti simili. Azione consigliata: rivedere l'efficienza della pianificazione e considerare l'adeguamento del personale.",
+          "message": "Il costo del lavoro è superiore del 12% al benchmark per ristoranti simili. Correzione consigliata: riequilibrare i turni - affidata al responsabile del locale, con il margine di lavoro recuperato misurato rispetto alla linea di base della settimana scorsa.",
           "severity": "avvertimento",
           "action": "Programma di revisione",
           "icon": "warning"
@@ -1817,7 +1817,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Posizione dell'aeroporto",
-          "message": "Vendite in crescita dell'8% rispetto alle previsioni. Il meteo e gli eventi locali suggeriscono che la domanda continuerà ad essere forte. Azione consigliata: aumentare gli ordini di inventario.",
+          "message": "Vendite in crescita dell’8% rispetto alle previsioni. Il meteo e gli eventi locali suggeriscono una domanda ancora forte. Correzione consigliata: aumentare gli ordini di inventario - affidata al responsabile acquisti, con i ricavi acquisiti misurati rispetto alla linea di base delle previsioni.",
           "severity": "successo",
           "action": "Modifica l'inventario",
           "icon": "growth"
@@ -1825,7 +1825,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Zona mercato",
-          "message": "Il principale concorrente ha lanciato una promozione con uno sconto del 20%. Il tuo traffico è diminuito del 5% questa settimana. Azione consigliata: prendere in considerazione un'offerta a tempo limitato o un marketing mirato.",
+          "message": "Il principale concorrente ha lanciato una promozione con uno sconto del 20%. Il tuo traffico è diminuito del 5% questa settimana. Correzione consigliata: un’offerta a tempo limitato - affidata al responsabile marketing, con il traffico e il margine recuperati misurati rispetto alla linea di base della settimana scorsa.",
           "severity": "informazioni",
           "action": "Rivedi le promozioni",
           "icon": "watchtower"
@@ -1840,8 +1840,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Decisioni più rapide e sicure",
-          "description": "Non dovrai più aspettare i rapporti mensili. Ottieni informazioni in tempo reale e agisci sui problemi non appena emergono.",
+          "title": "Cicli chiusi, non solo decisioni più rapide",
+          "description": "Non dovrai più aspettare i rapporti mensili. Ogni problema viene affidato a un responsabile, eseguito, e il margine recuperato viene misurato rispetto a una linea di base.",
           "icon": "speed"
         },
         {
@@ -1851,7 +1851,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Posizione competitiva più forte",
-          "description": "Comprendi il contesto del tuo mercato, confrontalo con i tuoi colleghi e rispondi alle mosse della concorrenza in tempo reale.",
+          "description": "Comprendi il contesto del tuo mercato, confrontalo con i concorrenti e trasforma le mosse della concorrenza in una correzione con un responsabile - con il margine recuperato misurato rispetto a una linea di base.",
           "icon": "growth"
         }
       ],
@@ -1870,19 +1870,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenza utilizzabile",
-          "description": "Dashboard Sundae Core, query in linguaggio naturale Sundae Intelligence e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
+          "description": "Dashboard Sundae Core, query in linguaggio naturale Ask Sundae e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Pronti per il quadro completo?",
-      "ctaDescription": "Vedi 4D Intelligence con i tuoi dati. Passato, pianificazione, peer e previsioni: tutto in un'unica visualizzazione.",
+      "ctaDescription": "Vedi 4D Intelligence con i tuoi dati. Passato, piano, concorrenti e previsioni - chiusi su una correzione con un responsabile e un margine recuperato misurato rispetto a una linea di base.",
       "ctaPrimary": "Prenota una dimostrazione",
       "ctaSecondary": "Esplora l'architettura",
-      "heroTitle": "Dai report alla vera intelligence"
+      "heroTitle": "Dai report al profitto recuperato."
     },
     "tr": {
       "heroBadge": "Karar Zekası",
-      "heroDescription": "İçgörünün dört boyutu. İşletmenizin eksiksiz bir resmi.",
+      "heroDescription": "İçgörünün dört boyutu - geçmiş, plan, emsaller, tahmin - çoğu aracın atladığı adımla tamamlanır: düzeltmeyi bir sorumluya yönlendirmek ve geri kazanılan marjı bir temel çizgiye göre ölçmek.",
       "problemTitle": "Geleneksel BI ile İlgili Sorun",
       "problemDescription": "Çoğu araç size ne olduğunu gösterir. Nedeni değil. Nasıl karşılaştırdığınız değil. Bundan sonra ne yapılacağı değil.",
       "problemItems": [
@@ -1897,8 +1897,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Önerilen Eylem Yok",
-          "description": "Bir sorun gördüğünüzde bile sistem size bu konuda ne yapacağınızı söylemez. Sonraki adımları kendi başınıza bulmak size kaldı.",
+          "title": "Sorumlu yok, ölçülen geri kazanım yok",
+          "description": "Bir düzeltme öneren araçlar bile öneride kalıyor. Kimse onu üstlenmek üzere görevlendirilmiyor, kimse uygulamıyor ve kimse marjın gerçekten geri gelip gelmediğini ölçmüyor.",
           "icon": "document"
         }
       ],
@@ -1954,13 +1954,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Bundan Sonra Ne Olacak ve Ne Yapmalıyız?",
-          "description": "Son boyut: tahminler, uyarılar ve yapay zeka tarafından oluşturulan öneriler. Sundae'nin çok aracılı yapay zekası sonuçları tahmin eder, anormallikleri büyümeden önce işaretler ve size tam olarak hangi eylemi gerçekleştirmeniz gerektiğini söyler.",
+          "description": "Son boyut: tahminler, uyarılar ve yapay zeka (AI) tarafından oluşturulan öneriler. Sundae'nin çok aracılı yapay zekası sonuçları tahmin eder ve anormallikleri büyümeden önce işaretler - ardından her düzeltmeyi bir sorumluya yönlendirir ve geri kazanılan marjı bir temel çizgiye göre ölçer; böylece döngü yalnızca yapılan eylemle değil, geri kazanılan kârla kapanır.",
           "examples": [
             "Tahmin edilen satış ve talep tahminleri",
             "İşgücü maliyetindeki ani artışlara karşı proaktif uyarılar",
@@ -1971,16 +1971,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D Zeka Nasıl Görünüyor?",
-      "alertsDescription": "Proaktif uyarılar. Önerileri temizle. Bugün gerçekleştirebileceğiniz eylemler.",
+      "alertsDescription": "Proaktif uyarılar. Her düzeltme için bir sorumlu. Bir temel çizgiye göre ölçülen geri kazanılan marj.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Şehir Merkezi Konumu",
-          "message": "İşçilik maliyeti benzer restoranlara göre %12 daha yüksektir. Önerilen eylem: Planlama verimliliğini gözden geçirin ve personel ayarlamasını değerlendirin.",
+          "message": "İşçilik maliyeti benzer restoranlara göre %12 daha yüksek. Önerilen düzeltme: programı yeniden dengeleyin - mağaza müdürüne yönlendirildi, geri kazanılan işçilik marjı geçen haftanın temel çizgisine göre ölçülüyor.",
           "severity": "uyarı",
           "action": "Programı İncele",
           "icon": "warning"
@@ -1988,7 +1988,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Havaalanı Konumu",
-          "message": "Satışlar tahminlerin %8 üzerinde seyrediyor. Hava durumu ve yerel olaylar güçlü talebin devam ettiğini gösteriyor. Önerilen eylem: Envanter siparişlerini artırın.",
+          "message": "Satışlar tahminlerin %8 üzerinde seyrediyor. Hava durumu ve yerel olaylar güçlü talebin sürdüğünü gösteriyor. Önerilen düzeltme: envanter siparişlerini artırın - satın alma sorumlusuna yönlendirildi, elde edilen gelir tahmin temel çizgisine göre ölçülüyor.",
           "severity": "başarı",
           "action": "Envanteri Ayarla",
           "icon": "growth"
@@ -1996,7 +1996,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Pazar Alanı",
-          "message": "Büyük rakip %20 indirim promosyonu başlattı. Trafiğiniz bu hafta %5 azaldı. Önerilen eylem: Sınırlı süreli teklifi veya hedefli pazarlamayı düşünün.",
+          "message": "Büyük rakip %20 indirim promosyonu başlattı. Trafiğiniz bu hafta %5 azaldı. Önerilen düzeltme: sınırlı süreli teklif - pazarlama sorumlusuna yönlendirildi, geri kazanılan trafik ve marj geçen haftanın temel çizgisine göre ölçülüyor.",
           "severity": "bilgi",
           "action": "Promosyonları İnceleyin",
           "icon": "watchtower"
@@ -2011,8 +2011,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Daha Hızlı, Daha Güvenli Kararlar",
-          "description": "Artık aylık raporları beklemenize gerek yok. Gerçek zamanlı istihbarat alın ve sorunlar ortaya çıktıkça harekete geçin.",
+          "title": "Kapanan döngüler, yalnızca daha hızlı kararlar değil",
+          "description": "Artık aylık raporları beklemenize gerek yok. Her sorun bir sorumluya yönlendirilir, uygulanır ve geri kazanılan marj bir temel çizgiye göre ölçülür.",
           "icon": "speed"
         },
         {
@@ -2022,7 +2022,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Daha Güçlü Rekabetçi Konum",
-          "description": "Pazar bağlamınızı anlayın, benzerleriyle kıyaslayın ve rakiplerinizin hareketlerine gerçek zamanlı olarak yanıt verin.",
+          "description": "Pazar bağlamınızı anlayın, benzerlerinizle kıyaslayın ve rakip hareketlerini bir sorumlusu olan düzeltmeye dönüştürün - geri kazanılan marjı bir temel çizgiye göre ölçerek.",
           "icon": "growth"
         }
       ],
@@ -2041,19 +2041,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Uygulanabilir İstihbarat",
-          "description": "Sundae Core kontrol panelleri, Sundae Intelligence doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar.",
+          "description": "Sundae Core kontrol panelleri, Ask Sundae doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Resmin Tamamına Hazır mısınız?",
-      "ctaDescription": "Verilerinizle birlikte 4D Intelligence'ı görün. Geçmiş, plan, akranlar ve tahminler; hepsi tek bir görünümde.",
+      "ctaDescription": "Verilerinizle 4D Intelligence'ı görün. Geçmiş, plan, emsaller ve tahminler - bir sorumlusu olan düzeltme ve bir temel çizgiye göre ölçülen geri kazanılan marj üzerine kapanır.",
       "ctaPrimary": "Demo Rezervasyonu Yapın",
       "ctaSecondary": "Mimariyi Keşfedin",
-      "heroTitle": "Raporlardan gerçek zekaya"
+      "heroTitle": "Raporlardan geri kazanılan kâra."
     },
     "ko": {
       "heroBadge": "의사결정 인텔리전스",
-      "heroDescription": "통찰력의 4가지 차원. 귀하의 비즈니스에 대한 하나의 완전한 그림입니다.",
+      "heroDescription": "통찰의 네 가지 차원 - 과거, 계획, 동종업계, 예측 - 은 대부분의 도구가 건너뛰는 단계로 완성됩니다: 개선을 책임자에게 배정하고 회수한 마진을 기준선과 비교해 측정하는 것.",
       "problemTitle": "기존 BI의 문제점",
       "problemDescription": "대부분의 도구는 무슨 일이 일어났는지 보여줍니다. 이유는 아닙니다. 당신이 비교하는 방식이 아닙니다. 다음에 무엇을 해야할지가 아닙니다.",
       "problemItems": [
@@ -2068,8 +2068,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "권장 조치 없음",
-          "description": "문제가 발견되더라도 시스템은 이에 대해 무엇을 해야 할지 알려주지 않습니다. 다음 단계는 스스로 알아내야 합니다.",
+          "title": "책임자 없음, 측정된 회수 없음",
+          "description": "개선책을 제안하는 도구조차 제안에서 멈춥니다. 이를 맡을 사람이 지정되지 않고, 아무도 실행하지 않으며, 마진이 실제로 회복되었는지 측정하는 사람도 없습니다.",
           "icon": "document"
         }
       ],
@@ -2125,13 +2125,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight 및 조치",
           "subtitle": "다음에 무슨 일이 일어날 것이며, 우리는 무엇을 해야 합니까?",
-          "description": "최종 차원: 예측, 경고 및 AI 생성 권장 사항. Sundae의 멀티 에이전트 AI는 결과를 예측하고, 이상 징후가 확대되기 전에 이를 표시하며, 취해야 할 조치를 정확히 알려줍니다.",
+          "description": "최종 차원: 예측, 경고 및 AI 생성 권장 사항. Sundae의 멀티 에이전트 AI는 결과를 예측하고 이상 징후가 확대되기 전에 표시합니다 - 그런 다음 각 개선책을 책임자에게 배정하고 회수한 마진을 기준선과 비교해 측정하여, 루프가 단지 취한 조치가 아니라 회수한 이익에서 닫히도록 합니다.",
           "examples": [
             "예상 판매 및 수요 예측",
             "인건비 급증에 대한 사전 경고",
@@ -2142,16 +2142,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D 인텔리전스의 모습",
-      "alertsDescription": "사전 경고. 명확한 추천. 오늘 취할 수 있는 조치.",
+      "alertsDescription": "사전 경고. 모든 개선책마다 지정된 책임자. 기준선과 비교해 측정하는 회수 마진.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "시내 위치",
-          "message": "인건비는 유사 레스토랑 기준보다 12% 높다. 권장 조치: 일정 효율성을 검토하고 인력 조정을 고려합니다.",
+          "message": "인건비가 유사 레스토랑 기준보다 12% 높습니다. 권장 개선책: 일정 재조정 - 매장 매니저에게 배정, 회수한 인건비 마진을 지난주 기준선과 비교해 측정.",
           "severity": "경고",
           "action": "검토 일정",
           "icon": "warning"
@@ -2159,7 +2159,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "공항 위치",
-          "message": "판매 추세는 예상보다 8% 높습니다. 날씨와 지역 상황으로 인해 수요가 계속 강할 것으로 예상됩니다. 권장 조치: 재고 주문을 늘립니다.",
+          "message": "판매 추세가 예상보다 8% 높습니다. 날씨와 지역 상황은 수요가 계속 강할 것임을 시사합니다. 권장 개선책: 재고 주문 증가 - 구매 담당자에게 배정, 확보한 매출을 예측 기준선과 비교해 측정.",
           "severity": "성공",
           "action": "재고 조정",
           "icon": "growth"
@@ -2167,7 +2167,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "시장 지역",
-          "message": "주요 경쟁업체가 20% 할인 프로모션을 시작했습니다. 이번 주에 트래픽이 5% 감소했습니다. 권장 조치: 기간 한정 제안이나 타겟 마케팅을 고려하세요.",
+          "message": "주요 경쟁업체가 20% 할인 프로모션을 시작했습니다. 이번 주 트래픽이 5% 감소했습니다. 권장 개선책: 기간 한정 제안 - 마케팅 담당자에게 배정, 회수한 트래픽과 마진을 지난주 기준선과 비교해 측정.",
           "severity": "정보",
           "action": "프로모션 검토",
           "icon": "watchtower"
@@ -2182,8 +2182,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "더욱 빠르고 자신 있는 결정",
-          "description": "더 이상 월별 보고서를 기다리지 마세요. 실시간 인텔리전스를 확보하고 문제가 발생하면 조치를 취하세요.",
+          "title": "더 빠른 결정만이 아니라, 닫힌 루프",
+          "description": "더 이상 월별 보고서를 기다리지 마세요. 모든 문제는 책임자에게 배정되어 실행되고, 회수한 마진은 기준선과 비교해 측정됩니다.",
           "icon": "speed"
         },
         {
@@ -2193,7 +2193,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "더욱 강력한 경쟁적 위치",
-          "description": "시장 상황을 이해하고, 동종 업체와 비교하여 벤치마킹하고, 경쟁업체의 움직임에 실시간으로 대응하세요.",
+          "description": "시장 상황을 이해하고 동종 업체와 비교하며, 경쟁업체의 움직임을 책임자가 있는 개선책으로 전환하세요 - 회수한 마진을 기준선과 비교해 측정하면서.",
           "icon": "growth"
         }
       ],
@@ -2212,19 +2212,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "실행 가능한 인텔리전스",
-          "description": "Sundae Core 대시보드, Sundae Intelligence 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
+          "description": "Sundae Core 대시보드, Ask Sundae 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "전체 그림을 볼 준비가 되셨나요?",
-      "ctaDescription": "데이터로 4D Intelligence를 확인하세요. 과거, 계획, 동료 및 예측이 모두 하나의 보기에 표시됩니다.",
+      "ctaDescription": "데이터로 4D Intelligence를 확인하세요. 과거, 계획, 동종업계, 예측 - 책임자가 있는 개선책과 기준선과 비교해 측정한 회수 마진에서 닫힙니다.",
       "ctaPrimary": "데모 예약",
       "ctaSecondary": "아키텍처 살펴보기",
-      "heroTitle": "보고서에서 진정한 인텔리전스로"
+      "heroTitle": "보고서에서 회수한 이익으로."
     },
     "ja": {
       "heroBadge": "意思決定インテリジェンス",
-      "heroDescription": "洞察力の 4 つの次元。あなたのビジネスの全体像を 1 つ。",
+      "heroDescription": "洞察の 4 つの次元--過去、計画、同業、予測--を締めくくるのは、ほとんどのツールが省くこの一手です。対策を責任者に割り当て、回収したマージンをベースラインと比較して測定します。",
       "problemTitle": "従来の BI の問題点",
       "problemDescription": "ほとんどのツールは何が起こったかを示します。理由ではありません。どう比較するかではありません。次に何をするかではありません。",
       "problemItems": [
@@ -2239,8 +2239,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "推奨されるアクションはありません",
-          "description": "問題が見つかったとしても、システムはそれに対して何をすべきかを教えてくれません。次のステップは自分で判断する必要があります。",
+          "title": "責任者なし、測定された回収なし",
+          "description": "対策を提案するツールでさえ、提案で止まります。誰も担当に指名されず、誰も実行せず、マージンが実際に戻ったかを誰も測定しません。",
           "icon": "document"
         }
       ],
@@ -2296,13 +2296,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight とアクション",
           "subtitle": "次に何が起こるのか、そして私たちは何をすべきでしょうか?",
-          "description": "最後の側面は、予測、アラート、AI が生成した推奨事項です。 Sundae のマルチエージェント AI は結果を予測し、異常がエスカレートする前に警告を発し、取るべきアクションを正確に伝えます。",
+          "description": "最後の次元は、予測、アラート、AI が生成した推奨事項です。Sundae のマルチエージェント AI は結果を予測し、異常がエスカレートする前に警告します--その後、各対策を責任者に割り当て、回収したマージンをベースラインと比較して測定するため、ループは取った行動だけでなく回収した利益で締めくくられます。",
           "examples": [
             "売上予測と需要予測",
             "人件費の高騰に対する事前のアラート",
@@ -2313,16 +2313,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D インテリジェンスとはどのようなものなのか",
-      "alertsDescription": "プロアクティブなアラート。明確な推奨事項。今日からできるアクション。",
+      "alertsDescription": "プロアクティブなアラート。対策ごとに責任者を割り当て。回収したマージンをベースラインと比較して測定。",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "ダウンタウンのロケーション",
-          "message": "人件費は同様のレストランのベンチマークを 12% 上回っています。推奨されるアクション: スケジュールの効率を見直し、人員配置の調整を検討してください。",
+          "message": "人件費は同様のレストランのベンチマークを 12% 上回っています。推奨される対策: シフトの再調整--店長に割り当て、回収した人件費マージンを先週のベースラインと比較して測定します。",
           "severity": "警告",
           "action": "レビュースケジュール",
           "icon": "warning"
@@ -2330,7 +2330,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "空港の場所",
-          "message": "売上高は予想を8%上回る傾向にある。天候と地元の出来事は、引き続き堅調な需要を示唆しています。推奨されるアクション: 在庫注文を増やします。",
+          "message": "売上高は予想を 8% 上回る傾向にあります。天候と地元のイベントは需要が引き続き堅調であることを示唆しています。推奨される対策: 在庫注文を増やす--購買担当に割り当て、獲得した売上を予測のベースラインと比較して測定します。",
           "severity": "成功",
           "action": "在庫の調整",
           "icon": "growth"
@@ -2338,7 +2338,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "マーケットエリア",
-          "message": "大手競合他社が 20% オフのプロモーションを開始しました。今週のトラフィックは 5% 減少しています。推奨されるアクション: 期間限定のオファーやターゲットを絞ったマーケティングを検討してください。",
+          "message": "大手競合他社が 20% オフのプロモーションを開始しました。今週のトラフィックは 5% 減少しています。推奨される対策: 期間限定のオファー--マーケティング担当に割り当て、回収したトラフィックとマージンを先週のベースラインと比較して測定します。",
           "severity": "情報",
           "action": "プロモーションをレビューする",
           "icon": "watchtower"
@@ -2353,8 +2353,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "より迅速かつ自信を持った意思決定",
-          "description": "もう月次レポートを待つ必要はありません。リアルタイムのインテリジェンスを取得し、問題が発生したときに対処します。",
+          "title": "より速い意思決定だけでなく、閉じたループ",
+          "description": "もう月次レポートを待つ必要はありません。すべての問題は責任者に割り当てられ、実行され、回収したマージンはベースラインと比較して測定されます。",
           "icon": "speed"
         },
         {
@@ -2364,7 +2364,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "より強力な競争力",
-          "description": "市場の状況を理解し、競合他社とのベンチマークを行い、競合他社の動きにリアルタイムで対応します。",
+          "description": "市場の状況を理解し、競合他社とベンチマークを行い、競合他社の動きを責任者のいる対策に変えます--回収したマージンをベースラインと比較して測定しながら。",
           "icon": "growth"
         }
       ],
@@ -2383,19 +2383,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "実用的なインテリジェンス",
-          "description": "Sundae Core ダッシュボード、Sundae Intelligence 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
+          "description": "Sundae Core ダッシュボード、Ask Sundae 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
           "icon": "insights"
         }
       ],
       "ctaTitle": "全体像を把握する準備はできましたか?",
-      "ctaDescription": "データを使用した 4D Intelligence を参照してください。過去、計画、同僚、予測がすべて 1 つのビューに表示されます。",
+      "ctaDescription": "データを使って 4D Intelligence をご覧ください。過去、計画、同業、予測--責任者のいる対策と、ベースラインと比較して測定した回収マージンで締めくくられます。",
       "ctaPrimary": "デモを予約する",
       "ctaSecondary": "アーキテクチャを探索する",
-      "heroTitle": "レポートから本物のインテリジェンスへ"
+      "heroTitle": "レポートから取り戻した利益へ。"
     },
     "id": {
       "heroBadge": "Kecerdasan Keputusan",
-      "heroDescription": "Empat dimensi wawasan. Satu gambaran lengkap tentang bisnis Anda.",
+      "heroDescription": "Empat dimensi wawasan - masa lalu, rencana, pesaing sejenis, prediksi - ditutup oleh langkah yang dilewati sebagian besar alat: mengarahkan perbaikan ke seorang penanggung jawab dan mengukur margin yang dipulihkan terhadap garis dasar.",
       "problemTitle": "Masalah dengan BI Tradisional",
       "problemDescription": "Sebagian besar alat menunjukkan apa yang terjadi. Bukan alasannya. Bukan bagaimana Anda membandingkannya. Bukan apa yang harus dilakukan selanjutnya.",
       "problemItems": [
@@ -2410,8 +2410,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Tidak Ada Tindakan yang Disarankan",
-          "description": "Bahkan ketika Anda melihat masalah, sistem tidak memberi tahu Anda apa yang harus dilakukan untuk mengatasinya. Anda tinggal memikirkan sendiri langkah selanjutnya.",
+          "title": "Tanpa penanggung jawab, tanpa pemulihan yang terukur",
+          "description": "Bahkan alat yang menyarankan perbaikan pun berhenti pada saran. Tidak ada yang ditunjuk untuk menanganinya, tidak ada yang mengeksekusinya, dan tidak ada yang mengukur apakah margin benar-benar kembali.",
           "icon": "document"
         }
       ],
@@ -2467,13 +2467,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Apa yang Akan Terjadi Selanjutnya, dan Apa yang Harus Kita Lakukan?",
-          "description": "Dimensi terakhir: prediksi, peringatan, dan rekomendasi yang dihasilkan AI. AI multi-agen Sundae memperkirakan hasil, menandai anomali sebelum meningkat, dan memberi tahu Anda tindakan apa yang harus diambil.",
+          "description": "Dimensi terakhir: prediksi, peringatan, dan rekomendasi yang dihasilkan AI. AI multi-agen Sundae memperkirakan hasil dan menandai anomali sebelum meningkat - lalu mengarahkan setiap perbaikan ke seorang penanggung jawab dan mengukur margin yang dipulihkan terhadap garis dasar, sehingga loop ditutup pada laba yang dipulihkan, bukan hanya pada tindakan yang diambil.",
           "examples": [
             "Perkiraan penjualan dan permintaan yang diprediksi",
             "Peringatan proaktif terhadap lonjakan biaya tenaga kerja",
@@ -2484,16 +2484,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Seperti Apa Kecerdasan 4D itu",
-      "alertsDescription": "Peringatan proaktif. Rekomendasi yang jelas. Tindakan yang dapat Anda ambil hari ini.",
+      "alertsDescription": "Peringatan proaktif. Seorang penanggung jawab untuk setiap perbaikan. Margin yang dipulihkan diukur terhadap garis dasar.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Lokasi Pusat Kota",
-          "message": "Biaya tenaga kerja 12% di atas standar restoran serupa. Tindakan yang disarankan: Tinjau efisiensi penjadwalan dan pertimbangkan penyesuaian staf.",
+          "message": "Biaya tenaga kerja 12% di atas standar restoran serupa. Perbaikan yang disarankan: seimbangkan ulang jadwal - diarahkan ke manajer toko, dengan margin tenaga kerja yang dipulihkan diukur terhadap garis dasar minggu lalu.",
           "severity": "peringatan",
           "action": "Jadwal Tinjauan",
           "icon": "warning"
@@ -2501,7 +2501,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Lokasi Bandara",
-          "message": "Tren penjualan 8% di atas perkiraan. Cuaca dan peristiwa lokal menunjukkan tingginya permintaan. Tindakan yang disarankan: Tingkatkan pesanan inventaris.",
+          "message": "Tren penjualan 8% di atas perkiraan. Cuaca dan peristiwa lokal menunjukkan permintaan yang terus kuat. Perbaikan yang disarankan: tingkatkan pesanan inventaris - diarahkan ke kepala pembelian, dengan pendapatan yang diperoleh diukur terhadap garis dasar perkiraan.",
           "severity": "sukses",
           "action": "Sesuaikan Inventaris",
           "icon": "growth"
@@ -2509,7 +2509,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Kawasan Pasar",
-          "message": "Pesaing utama meluncurkan promosi diskon 20%. Lalu lintas Anda turun 5% minggu ini. Tindakan yang disarankan: Pertimbangkan penawaran waktu terbatas atau pemasaran bertarget.",
+          "message": "Pesaing utama meluncurkan promosi diskon 20%. Lalu lintas Anda turun 5% minggu ini. Perbaikan yang disarankan: penawaran waktu terbatas - diarahkan ke penanggung jawab pemasaran, dengan lalu lintas dan margin yang dipulihkan diukur terhadap garis dasar minggu lalu.",
           "severity": "info",
           "action": "Tinjau Promosi",
           "icon": "watchtower"
@@ -2524,8 +2524,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Keputusan Lebih Cepat dan Lebih Percaya Diri",
-          "description": "Tidak perlu lagi menunggu laporan bulanan. Dapatkan informasi intelijen real-time dan tindak lanjuti masalah yang muncul.",
+          "title": "Loop yang tertutup, bukan sekadar keputusan lebih cepat",
+          "description": "Tidak perlu lagi menunggu laporan bulanan. Setiap masalah diarahkan ke seorang penanggung jawab, dieksekusi, dan margin yang dipulihkan diukur terhadap garis dasar.",
           "icon": "speed"
         },
         {
@@ -2535,7 +2535,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Posisi Kompetitif yang Lebih Kuat",
-          "description": "Pahami konteks pasar Anda, lakukan benchmark terhadap perusahaan sejenis, dan tanggapi pergerakan pesaing secara real-time.",
+          "description": "Pahami konteks pasar Anda, lakukan benchmark terhadap perusahaan sejenis, dan ubah pergerakan pesaing menjadi perbaikan dengan penanggung jawab - dengan margin yang dipulihkan diukur terhadap garis dasar.",
           "icon": "growth"
         }
       ],
@@ -2554,19 +2554,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan yang Dapat Ditindaklanjuti",
-          "description": "Dasbor Sundae Core, kueri bahasa alami Sundae Intelligence, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya.",
+          "description": "Dasbor Sundae Core, kueri bahasa alami Ask Sundae, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Siap untuk Gambar Lengkapnya?",
-      "ctaDescription": "Lihat Kecerdasan 4D dengan data Anda. Masa lalu, rencana, rekan, dan prediksi - semuanya dalam satu tampilan.",
+      "ctaDescription": "Lihat 4D Intelligence dengan data Anda. Masa lalu, rencana, rekan, dan prediksi - ditutup dengan perbaikan yang ada penanggung jawabnya dan margin yang dipulihkan diukur terhadap garis dasar.",
       "ctaPrimary": "Pesan Demo",
       "ctaSecondary": "Jelajahi Arsitektur",
-      "heroTitle": "Dari laporan ke inteligensi nyata"
+      "heroTitle": "Dari laporan ke laba yang dipulihkan."
     },
     "vi": {
       "heroBadge": "Quyết định thông minh",
-      "heroDescription": "Bốn chiều của cái nhìn sâu sắc. Một bức tranh hoàn chỉnh về doanh nghiệp của bạn.",
+      "heroDescription": "Bốn chiều của sự thấu hiểu - quá khứ, kế hoạch, đối thủ, dự báo - được khép lại bằng bước mà hầu hết công cụ bỏ qua: giao biện pháp khắc phục cho một người chịu trách nhiệm và đo lường biên lợi nhuận thu hồi so với đường cơ sở.",
       "problemTitle": "Vấn đề với BI truyền thống",
       "problemDescription": "Hầu hết các công cụ đều cho bạn thấy điều gì đã xảy ra. Không phải tại sao. Không phải cách bạn so sánh. Không phải làm gì tiếp theo.",
       "problemItems": [
@@ -2581,8 +2581,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Không có hành động được đề xuất",
-          "description": "Ngay cả khi bạn thấy có vấn đề, hệ thống cũng không cho bạn biết phải làm gì với vấn đề đó. Bạn còn lại để tự mình tìm ra các bước tiếp theo.",
+          "title": "Không người chịu trách nhiệm, không thu hồi đo lường được",
+          "description": "Ngay cả những công cụ đề xuất biện pháp khắc phục cũng dừng lại ở đề xuất. Không ai được chỉ định để đảm nhận, không ai thực thi, và không ai đo lường xem biên lợi nhuận có thực sự quay lại hay không.",
           "icon": "document"
         }
       ],
@@ -2638,13 +2638,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Điều gì sẽ xảy ra tiếp theo và chúng ta nên làm gì?",
-          "description": "Khía cạnh cuối cùng: dự đoán, cảnh báo và đề xuất do AI tạo ra. AI đa tác nhân của Sundae dự đoán kết quả, đánh dấu các điểm bất thường trước khi chúng leo thang và cho bạn biết chính xác hành động cần thực hiện.",
+          "description": "Chiều cuối cùng: dự đoán, cảnh báo và đề xuất do AI tạo ra. AI đa tác nhân của Sundae dự đoán kết quả và đánh dấu các điểm bất thường trước khi chúng leo thang - sau đó giao mỗi biện pháp khắc phục cho một người chịu trách nhiệm và đo lường biên lợi nhuận thu hồi so với đường cơ sở, để vòng lặp khép lại ở lợi nhuận thu hồi, chứ không chỉ ở hành động đã thực hiện.",
           "examples": [
             "Dự báo doanh thu và nhu cầu dự kiến",
             "Cảnh báo chủ động khi chi phí lao động tăng đột biến",
@@ -2655,16 +2655,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Trí thông minh 4D trông như thế nào",
-      "alertsDescription": "Cảnh báo chủ động. Khuyến nghị rõ ràng. Những hành động bạn có thể thực hiện ngay hôm nay.",
+      "alertsDescription": "Cảnh báo chủ động. Một người chịu trách nhiệm cho mỗi biện pháp khắc phục. Biên lợi nhuận thu hồi được đo so với đường cơ sở.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Vị trí trung tâm thành phố",
-          "message": "Chi phí lao động cao hơn 12% so với mức chuẩn của các nhà hàng tương tự. Hành động đề xuất: Xem xét hiệu quả lập kế hoạch và xem xét điều chỉnh nhân sự.",
+          "message": "Chi phí lao động cao hơn 12% so với mức chuẩn của các nhà hàng tương tự. Biện pháp khắc phục được đề xuất: cân đối lại lịch làm việc - giao cho quản lý cửa hàng, với biên lợi nhuận lao động thu hồi được đo so với đường cơ sở tuần trước.",
           "severity": "cảnh báo",
           "action": "Lịch trình đánh giá",
           "icon": "warning"
@@ -2672,7 +2672,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Vị trí sân bay",
-          "message": "Doanh số có xu hướng tăng 8% so với dự báo. Thời tiết và các sự kiện địa phương cho thấy nhu cầu tiếp tục mạnh mẽ. Hành động được đề xuất: Tăng số lượng đơn hàng tồn kho.",
+          "message": "Doanh số có xu hướng cao hơn 8% so với dự báo. Thời tiết và các sự kiện địa phương cho thấy nhu cầu tiếp tục mạnh mẽ. Biện pháp khắc phục được đề xuất: tăng số lượng đơn hàng tồn kho - giao cho trưởng bộ phận mua hàng, với doanh thu thu được đo so với đường cơ sở dự báo.",
           "severity": "sự thành công",
           "action": "Điều chỉnh hàng tồn kho",
           "icon": "growth"
@@ -2680,7 +2680,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Khu chợ",
-          "message": "Đối thủ lớn tung ra chương trình khuyến mãi giảm giá 20%. Lưu lượng truy cập của bạn giảm 5% trong tuần này. Hành động đề xuất: Xem xét ưu đãi trong thời gian giới hạn hoặc tiếp thị có mục tiêu.",
+          "message": "Đối thủ lớn tung ra chương trình khuyến mãi giảm giá 20%. Lưu lượng truy cập của bạn giảm 5% trong tuần này. Biện pháp khắc phục được đề xuất: ưu đãi trong thời gian giới hạn - giao cho người phụ trách tiếp thị, với lưu lượng và biên lợi nhuận thu hồi được đo so với đường cơ sở tuần trước.",
           "severity": "thông tin",
           "action": "Xem lại khuyến mãi",
           "icon": "watchtower"
@@ -2695,8 +2695,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Quyết định nhanh hơn, tự tin hơn",
-          "description": "Không còn phải chờ đợi báo cáo hàng tháng. Nhận thông tin theo thời gian thực và xử lý các vấn đề khi chúng xuất hiện.",
+          "title": "Vòng lặp khép kín, không chỉ là quyết định nhanh hơn",
+          "description": "Không còn phải chờ đợi báo cáo hàng tháng. Mỗi vấn đề được giao cho một người chịu trách nhiệm, được thực thi, và biên lợi nhuận thu hồi được đo so với đường cơ sở.",
           "icon": "speed"
         },
         {
@@ -2706,7 +2706,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Vị thế cạnh tranh mạnh mẽ hơn",
-          "description": "Hiểu bối cảnh thị trường của bạn, so sánh với các đối thủ cạnh tranh và phản hồi các động thái của đối thủ cạnh tranh trong thời gian thực.",
+          "description": "Hiểu bối cảnh thị trường của bạn, so sánh với các đối thủ và biến các động thái của đối thủ thành biện pháp khắc phục có người chịu trách nhiệm - với biên lợi nhuận thu hồi được đo so với đường cơ sở.",
           "icon": "growth"
         }
       ],
@@ -2725,19 +2725,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Trí thông minh có thể hành động",
-          "description": "Bảng điều khiển Sundae Core, truy vấn ngôn ngữ tự nhiên của Sundae Intelligence và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng.",
+          "description": "Bảng điều khiển Sundae Core, truy vấn ngôn ngữ tự nhiên của Ask Sundae và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Sẵn sàng cho hình ảnh đầy đủ?",
-      "ctaDescription": "Xem Thông minh 4D với dữ liệu của bạn. Quá khứ, kế hoạch, đồng nghiệp và dự đoán - tất cả ở một chế độ xem.",
+      "ctaDescription": "Xem 4D Intelligence với dữ liệu của bạn. Quá khứ, kế hoạch, đối thủ và dự đoán - được khép lại bằng biện pháp khắc phục có người chịu trách nhiệm và biên lợi nhuận thu hồi được đo so với đường cơ sở.",
       "ctaPrimary": "Đặt bản demo",
       "ctaSecondary": "Khám phá kiến trúc",
-      "heroTitle": "Từ báo cáo đến trí tuệ thực sự"
+      "heroTitle": "Từ báo cáo đến lợi nhuận thu hồi."
     },
     "ro": {
       "heroBadge": "Inteligența de decizie",
-      "heroDescription": "Patru dimensiuni ale intuiției. O imagine completă a afacerii dvs.",
+      "heroDescription": "Patru dimensiuni ale analizei - trecut, plan, concurenți, prognoză - închise de pasul pe care majoritatea instrumentelor îl omit: direcționarea corecției către un responsabil și măsurarea marjei recuperate față de o linie de referință.",
       "problemTitle": "Problema cu BI tradițional",
       "problemDescription": "Majoritatea instrumentelor vă arată ce s-a întâmplat. Nu de ce. Nu cum compari. Nu ce să faci în continuare.",
       "problemItems": [
@@ -2752,8 +2752,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Nicio acțiune recomandată",
-          "description": "Chiar și atunci când vedeți o problemă, sistemul nu vă spune ce să faceți în privința ei. Rămâneți să vă dați seama de următorii pași pe cont propriu.",
+          "title": "Fără responsabil, fără recuperare măsurată",
+          "description": "Chiar și instrumentele care sugerează o corecție se opresc la sugestie. Nimeni nu este desemnat să o preia, nimeni nu o execută și nimeni nu măsoară dacă marja a revenit cu adevărat.",
           "icon": "document"
         }
       ],
@@ -2809,13 +2809,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Ce se va întâmpla în continuare și ce ar trebui să facem?",
-          "description": "Dimensiunea finală: predicții, alerte și recomandări generate de AI. AI multi-agent de la Sundae prognozează rezultatele, semnalează anomaliile înainte ca acestea să escaladeze și vă spune exact ce acțiuni trebuie luate.",
+          "description": "Dimensiunea finală: predicții, alerte și recomandări generate de AI. AI-ul multi-agent de la Sundae prognozează rezultatele și semnalează anomaliile înainte ca acestea să escaladeze - apoi direcționează fiecare corecție către un responsabil și măsoară marja recuperată față de o linie de referință, astfel încât bucla se închide pe profitul recuperat, nu doar pe acțiunea întreprinsă.",
           "examples": [
             "Previziunile de vânzări și cerere",
             "Alerte proactive pentru creșterea costului forței de muncă",
@@ -2826,16 +2826,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Cum arată inteligența 4D",
-      "alertsDescription": "Alerte proactive. Recomandări clare. Acțiuni pe care le puteți întreprinde astăzi.",
+      "alertsDescription": "Alerte proactive. Un responsabil pentru fiecare corecție. Marjă recuperată măsurată față de o linie de referință.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Locație în centrul orașului",
-          "message": "Costul forței de muncă este cu 12% peste valoarea de referință pentru restaurante similare. Acțiune recomandată: revizuiți eficiența programării și luați în considerare ajustarea personalului.",
+          "message": "Costul forței de muncă este cu 12% peste valoarea de referință pentru restaurante similare. Corecție recomandată: reechilibrați programul - direcționată către managerul locației, cu marja de muncă recuperată măsurată față de linia de referință a săptămânii trecute.",
           "severity": "avertisment",
           "action": "Consultați programul",
           "icon": "warning"
@@ -2843,7 +2843,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Locația aeroportului",
-          "message": "Trend de vânzări cu 8% peste prognoză. Vremea și evenimentele locale sugerează o cerere puternică în continuare. Acțiune recomandată: creșterea comenzilor de inventar.",
+          "message": "Trend de vânzări cu 8% peste prognoză. Vremea și evenimentele locale sugerează o cerere puternică în continuare. Corecție recomandată: creșteți comenzile de inventar - direcționată către responsabilul de achiziții, cu venitul obținut măsurat față de linia de referință a prognozei.",
           "severity": "succes",
           "action": "Ajustați inventarul",
           "icon": "growth"
@@ -2851,7 +2851,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Zona pietei",
-          "message": "Principalul concurent a lansat o promoție cu 20% reducere. Traficul dvs. a scăzut cu 5% în această săptămână. Acțiune recomandată: luați în considerare oferta pe timp limitat sau marketingul direcționat.",
+          "message": "Principalul concurent a lansat o promoție cu 20% reducere. Traficul dvs. a scăzut cu 5% în această săptămână. Corecție recomandată: o ofertă pe timp limitat - direcționată către responsabilul de marketing, cu traficul și marja recuperate măsurate față de linia de referință a săptămânii trecute.",
           "severity": "info",
           "action": "Examinați promoțiile",
           "icon": "watchtower"
@@ -2866,8 +2866,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Decizii mai rapide și mai sigure",
-          "description": "Nu mai așteptați rapoarte lunare. Obțineți informații în timp real și acționați asupra problemelor pe măsură ce apar.",
+          "title": "Bucle închise, nu doar decizii mai rapide",
+          "description": "Nu mai așteptați rapoarte lunare. Fiecare problemă este direcționată către un responsabil, executată, iar marja recuperată este măsurată față de o linie de referință.",
           "icon": "speed"
         },
         {
@@ -2877,7 +2877,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Poziție competitivă mai puternică",
-          "description": "Înțelegeți contextul pieței dvs., comparați-vă cu colegii și răspundeți la mișcările concurenților în timp real.",
+          "description": "Înțelegeți contextul pieței dvs., comparați-vă cu colegii și transformați mișcările concurenților într-o corecție cu responsabil - cu marja recuperată măsurată față de o linie de referință.",
           "icon": "growth"
         }
       ],
@@ -2896,19 +2896,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligență acționabilă",
-          "description": "Tablourile de bord Sundae Core, interogările Sundae Intelligence în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele.",
+          "description": "Tablourile de bord Sundae Core, interogările Ask Sundae în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Ești gata pentru imaginea completă?",
-      "ctaDescription": "Vedeți 4D Intelligence cu datele dvs. Trecut, plan, colegi și previziuni - toate într-o singură vizualizare.",
+      "ctaDescription": "Vedeți 4D Intelligence cu datele dvs. Trecut, plan, colegi și previziuni - închise pe o corecție cu responsabil și o marjă recuperată măsurată față de o linie de referință.",
       "ctaPrimary": "Rezervați o demonstrație",
       "ctaSecondary": "Explorați Arhitectura",
-      "heroTitle": "De la rapoarte la inteligență reală"
+      "heroTitle": "De la rapoarte la profit recuperat."
     },
     "sv": {
       "heroBadge": "Decision Intelligence",
-      "heroDescription": "Fyra dimensioner av insikt. En komplett bild av ditt företag.",
+      "heroDescription": "Fyra dimensioner av insikt - historik, plan, jämförbara, prognos - sluts av steget som de flesta verktyg hoppar över: att tilldela åtgärden till en ansvarig person och mäta den återvunna marginalen mot en baslinje.",
       "problemTitle": "Problemet med traditionell BI",
       "problemDescription": "De flesta verktyg visar dig vad som hände. Inte varför. Inte hur du jämför. Inte vad du ska göra härnäst.",
       "problemItems": [
@@ -2923,8 +2923,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Inga rekommenderade åtgärder",
-          "description": "Även när du ser ett problem berättar systemet inte för dig vad du ska göra åt det. Du har kvar att räkna ut nästa steg på egen hand.",
+          "title": "Ingen ansvarig, ingen mätt återvinning",
+          "description": "Även de verktyg som föreslår en åtgärd stannar vid förslaget. Ingen utses att ta ansvar för den, ingen genomför den, och ingen mäter om marginalen faktiskt kom tillbaka.",
           "icon": "document"
         }
       ],
@@ -2980,13 +2980,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Vad kommer att hända härnäst och vad ska vi göra?",
-          "description": "Den sista dimensionen: förutsägelser, varningar och AI-genererade rekommendationer. Sundae multiagent AI förutspår resultat, flaggar avvikelser innan de eskalerar och berättar exakt vilken åtgärd du ska vidta.",
+          "description": "Den sista dimensionen: förutsägelser, varningar och AI-genererade rekommendationer. Sundae multiagent-AI förutspår resultat och flaggar avvikelser innan de eskalerar - och tilldelar sedan varje åtgärd till en ansvarig person och mäter den återvunna marginalen mot en baslinje, så att slingan sluts på återvunnen vinst, inte bara på vidtagen åtgärd.",
           "examples": [
             "Förutspådd försäljning och efterfrågan prognoser",
             "Proaktiva varningar för höga arbetskostnader",
@@ -2997,16 +2997,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Hur 4D Intelligence ser ut",
-      "alertsDescription": "Proaktiva varningar. Tydliga rekommendationer. Åtgärder du kan vidta idag.",
+      "alertsDescription": "Proaktiva varningar. En ansvarig person för varje åtgärd. Återvunnen marginal mätt mot en baslinje.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Läge i centrum",
-          "message": "Arbetskostnaden är 12 % över riktvärdet för liknande restauranger. Rekommenderad åtgärd: Se över schemaläggningseffektiviteten och överväg personalanpassning.",
+          "message": "Arbetskostnaden är 12 % över riktvärdet för liknande restauranger. Rekommenderad åtgärd: balansera om schemat - tilldelad butikschefen, med den återvunna arbetsmarginalen mätt mot förra veckans baslinje.",
           "severity": "varning",
           "action": "Granska schema",
           "icon": "warning"
@@ -3014,7 +3014,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Flygplats läge",
-          "message": "Försäljningen trendar 8 % över prognosen. Väder och lokala händelser tyder på en fortsatt stark efterfrågan. Rekommenderad åtgärd: Öka lagerbeställningarna.",
+          "message": "Försäljningen trendar 8 % över prognosen. Väder och lokala händelser tyder på fortsatt stark efterfrågan. Rekommenderad åtgärd: öka lagerbeställningarna - tilldelad inköpsansvarig, med den fångade intäkten mätt mot prognosens baslinje.",
           "severity": "framgång",
           "action": "Justera lager",
           "icon": "growth"
@@ -3022,7 +3022,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Marknadsområde",
-          "message": "Stor konkurrent lanserade 20 % rabatt på kampanjen. Din trafik har minskat med 5 % den här veckan. Rekommenderad åtgärd: Överväg ett tidsbegränsat erbjudande eller riktad marknadsföring.",
+          "message": "Stor konkurrent lanserade 20 % rabatt på kampanjen. Din trafik har minskat med 5 % den här veckan. Rekommenderad åtgärd: ett tidsbegränsat erbjudande - tilldelad marknadsansvarig, med den återvunna trafiken och marginalen mätta mot förra veckans baslinje.",
           "severity": "info",
           "action": "Granska kampanjer",
           "icon": "watchtower"
@@ -3037,8 +3037,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Snabbare, säkrare beslut",
-          "description": "Du behöver inte längre vänta på månadsrapporter. Få realtidsintelligens och agera på problem när de dyker upp.",
+          "title": "Slutna slingor, inte bara snabbare beslut",
+          "description": "Du behöver inte längre vänta på månadsrapporter. Varje problem tilldelas en ansvarig person, genomförs, och den återvunna marginalen mäts mot en baslinje.",
           "icon": "speed"
         },
         {
@@ -3048,7 +3048,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Starkare konkurrenskraftig position",
-          "description": "Förstå din marknadskontext, benchmarka mot kollegor och svara på konkurrenters rörelser i realtid.",
+          "description": "Förstå din marknadskontext, benchmarka mot kollegor och förvandla konkurrenters rörelser till en åtgärd med en ansvarig - med den återvunna marginalen mätt mot en baslinje.",
           "icon": "growth"
         }
       ],
@@ -3067,19 +3067,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Handlingsbar intelligens",
-          "description": "Sundae Core-instrumentpaneler, Sundae Intelligence-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
+          "description": "Sundae Core-instrumentpaneler, Ask Sundae-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Redo för hela bilden?",
-      "ctaDescription": "Se 4D Intelligence med dina data. Tidigare, planera, peers och förutsägelser - allt i en vy.",
+      "ctaDescription": "Se 4D Intelligence med dina data. Historik, plan, jämförbara och prognoser - slutna på en åtgärd med en ansvarig och en återvunnen marginal mätt mot en baslinje.",
       "ctaPrimary": "Boka en demo",
       "ctaSecondary": "Utforska arkitekturen",
-      "heroTitle": "Från rapporter till verklig intelligens"
+      "heroTitle": "Från rapporter till återvunnen vinst."
     },
     "bn": {
       "heroBadge": "সিদ্ধান্ত বুদ্ধিমত্তা",
-      "heroDescription": "অন্তর্দৃষ্টি চার মাত্রা. আপনার ব্যবসার একটি সম্পূর্ণ ছবি।",
+      "heroDescription": "অন্তর্দৃষ্টির চার মাত্রা - অতীত, পরিকল্পনা, সমকক্ষ, পূর্বাভাস - সেই পদক্ষেপে সম্পূর্ণ হয় যা বেশিরভাগ সরঞ্জাম এড়িয়ে যায়: সংশোধন একজন দায়বদ্ধ ব্যক্তির কাছে পাঠানো এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা।",
       "problemTitle": "ঐতিহ্যগত BI এর সমস্যা",
       "problemDescription": "বেশিরভাগ সরঞ্জামই আপনাকে দেখায় কি ঘটেছে। না কেন। আপনি যেভাবে তুলনা করেন তা নয়। এরপর কি করা যায় না।",
       "problemItems": [
@@ -3094,8 +3094,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "কোন প্রস্তাবিত কর্ম",
-          "description": "এমনকি যখন আপনি একটি সমস্যা দেখেন, সিস্টেম আপনাকে বলে না যে এটি সম্পর্কে কী করতে হবে৷ আপনি নিজেই পরবর্তী পদক্ষেপগুলি বের করতে পারবেন।",
+          "title": "কোনো মালিক নেই, কোনো পরিমাপকৃত পুনরুদ্ধার নেই",
+          "description": "এমনকি যে সরঞ্জামগুলি একটি সংশোধন প্রস্তাব করে, সেগুলিও প্রস্তাবেই থেমে যায়। কেউ এটি দায়িত্ব নিতে নিযুক্ত হয় না, কেউ এটি সম্পাদন করে না, এবং কেউ পরিমাপ করে না যে মার্জিন সত্যিই ফিরে এসেছে কিনা।",
           "icon": "document"
         }
       ],
@@ -3151,13 +3151,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "এরপর কী ঘটবে এবং আমাদের কী করা উচিত?",
-          "description": "চূড়ান্ত মাত্রা: ভবিষ্যদ্বাণী, সতর্কতা, এবং এআই-উত্পন্ন সুপারিশ। Sundae-এর মাল্টি-এজেন্ট AI ফলাফলের পূর্বাভাস দেয়, ক্রমবর্ধমান হওয়ার আগে অসামঞ্জস্যতা দেখায় এবং আপনাকে ঠিক কী পদক্ষেপ নিতে হবে তা বলে।",
+          "description": "চূড়ান্ত মাত্রা: ভবিষ্যদ্বাণী, সতর্কতা, এবং AI-উত্পন্ন সুপারিশ। Sundae-এর মাল্টি-এজেন্ট AI ফলাফলের পূর্বাভাস দেয় এবং ক্রমবর্ধমান হওয়ার আগে অসামঞ্জস্যতা চিহ্নিত করে - তারপর প্রতিটি সংশোধন একজন দায়বদ্ধ ব্যক্তির কাছে পাঠায় এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার বিপরীতে পরিমাপ করে, যাতে লুপটি কেবল নেওয়া পদক্ষেপে নয় বরং পুনরুদ্ধার করা মুনাফায় বন্ধ হয়।",
           "examples": [
             "ভবিষ্যদ্বাণী করা বিক্রয় এবং চাহিদা পূর্বাভাস",
             "শ্রম ব্যয় বৃদ্ধির জন্য সক্রিয় সতর্কতা",
@@ -3168,16 +3168,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "4D ইন্টেলিজেন্স দেখতে কেমন",
-      "alertsDescription": "সক্রিয় সতর্কতা. পরিষ্কার সুপারিশ. আপনি আজ নিতে পারেন পদক্ষেপ.",
+      "alertsDescription": "সক্রিয় সতর্কতা। প্রতিটি সংশোধনের জন্য একজন দায়বদ্ধ ব্যক্তি। পুনরুদ্ধার করা মার্জিন যা একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা হয়।",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "শহরের কেন্দ্রস্থল অবস্থান",
-          "message": "একই ধরনের রেস্তোরাঁর জন্য শ্রম খরচ বেঞ্চমার্কের 12% বেশি। প্রস্তাবিত পদক্ষেপ: সময় নির্ধারণের দক্ষতা পর্যালোচনা করুন এবং কর্মীদের সমন্বয় বিবেচনা করুন।",
+          "message": "একই ধরনের রেস্তোরাঁর জন্য শ্রম খরচ বেঞ্চমার্কের 12% বেশি। প্রস্তাবিত সংশোধন: সময়সূচী পুনরায় ভারসাম্য করুন - স্টোর ম্যানেজারের কাছে পাঠানো, পুনরুদ্ধার করা শ্রম মার্জিন গত সপ্তাহের ভিত্তিরেখার বিপরীতে পরিমাপ করে।",
           "severity": "সতর্কতা",
           "action": "সময়সূচী পর্যালোচনা করুন",
           "icon": "warning"
@@ -3185,7 +3185,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "বিমানবন্দরের অবস্থান",
-          "message": "বিক্রয় প্রবণতা পূর্বাভাসের উপরে 8%। আবহাওয়া এবং স্থানীয় ঘটনাগুলি ক্রমাগত শক্তিশালী চাহিদার পরামর্শ দেয়। প্রস্তাবিত পদক্ষেপ: ইনভেন্টরি অর্ডার বাড়ান।",
+          "message": "বিক্রয় প্রবণতা পূর্বাভাসের চেয়ে 8% বেশি। আবহাওয়া এবং স্থানীয় ঘটনাগুলি ক্রমাগত শক্তিশালী চাহিদার ইঙ্গিত দেয়। প্রস্তাবিত সংশোধন: ইনভেন্টরি অর্ডার বাড়ান - ক্রয় প্রধানের কাছে পাঠানো, অর্জিত রাজস্ব পূর্বাভাসের ভিত্তিরেখার বিপরীতে পরিমাপ করে।",
           "severity": "সাফল্য",
           "action": "ইনভেন্টরি সামঞ্জস্য করুন",
           "icon": "growth"
@@ -3193,7 +3193,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "বাজার এলাকা",
-          "message": "প্রধান প্রতিযোগী 20% ছাড়ের প্রচার চালু করেছে। এই সপ্তাহে আপনার ট্রাফিক 5% কমেছে। প্রস্তাবিত পদক্ষেপ: সীমিত সময়ের অফার বা লক্ষ্যযুক্ত বিপণন বিবেচনা করুন।",
+          "message": "প্রধান প্রতিযোগী 20% ছাড়ের প্রচার চালু করেছে। এই সপ্তাহে আপনার ট্রাফিক 5% কমেছে। প্রস্তাবিত সংশোধন: সীমিত সময়ের অফার - মার্কেটিং প্রধানের কাছে পাঠানো, পুনরুদ্ধার করা ট্রাফিক এবং মার্জিন গত সপ্তাহের ভিত্তিরেখার বিপরীতে পরিমাপ করে।",
           "severity": "তথ্য",
           "action": "প্রচার পর্যালোচনা",
           "icon": "watchtower"
@@ -3208,8 +3208,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "দ্রুত, আরো আত্মবিশ্বাসী সিদ্ধান্ত",
-          "description": "মাসিক রিপোর্টের জন্য আর অপেক্ষা করতে হবে না। রিয়েল-টাইম ইন্টেলিজেন্স পান এবং সমস্যাগুলি আবির্ভূত হওয়ার সাথে সাথে কাজ করুন।",
+          "title": "বন্ধ লুপ, কেবল দ্রুত সিদ্ধান্ত নয়",
+          "description": "মাসিক রিপোর্টের জন্য আর অপেক্ষা নয়। প্রতিটি সমস্যা একজন দায়বদ্ধ ব্যক্তির কাছে পাঠানো ও সম্পাদন করা হয়, এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা হয়।",
           "icon": "speed"
         },
         {
@@ -3219,7 +3219,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "শক্তিশালী প্রতিযোগিতামূলক অবস্থান",
-          "description": "আপনার বাজারের প্রেক্ষাপট, সমবয়সীদের বিরুদ্ধে বেঞ্চমার্ক বুঝুন এবং রিয়েল-টাইমে প্রতিযোগীদের পদক্ষেপে সাড়া দিন।",
+          "description": "আপনার বাজারের প্রেক্ষাপট বুঝুন, সমকক্ষদের সাথে বেঞ্চমার্ক করুন, এবং প্রতিযোগীদের পদক্ষেপকে একজন দায়বদ্ধ ব্যক্তির সংশোধনে পরিণত করুন - পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার বিপরীতে পরিমাপ করে।",
           "icon": "growth"
         }
       ],
@@ -3243,14 +3243,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "সম্পূর্ণ ছবির জন্য প্রস্তুত?",
-      "ctaDescription": "আপনার ডেটা সহ 4D ইন্টেলিজেন্স দেখুন। অতীত, পরিকল্পনা, সমকক্ষ, এবং ভবিষ্যদ্বাণী - সব এক দৃষ্টিতে।",
+      "ctaDescription": "আপনার ডেটা সহ 4D ইন্টেলিজেন্স দেখুন। অতীত, পরিকল্পনা, সমকক্ষ, এবং ভবিষ্যদ্বাণী - একজন দায়বদ্ধ ব্যক্তির সংশোধন এবং একটি ভিত্তিরেখার বিপরীতে পরিমাপ করা পুনরুদ্ধার করা মার্জিনে বন্ধ।",
       "ctaPrimary": "একটি ডেমো বুক করুন",
       "ctaSecondary": "স্থাপত্য অন্বেষণ",
-      "heroTitle": "রিপোর্ট থেকে প্রকৃত ইন্টেলিজেন্সে"
+      "heroTitle": "রিপোর্ট থেকে পুনরুদ্ধার করা মুনাফায়"
     },
     "th": {
       "heroBadge": "หน่วยสืบราชการลับในการตัดสินใจ",
-      "heroDescription": "สี่มิติแห่งความเข้าใจ ภาพธุรกิจของคุณที่สมบูรณ์เพียงภาพเดียว",
+      "heroDescription": "ความเข้าใจสี่มิติ - อดีต แผน คู่เทียบ และการคาดการณ์ - ปิดท้ายด้วยขั้นตอนที่เครื่องมือส่วนใหญ่มองข้าม: ส่งต่อการแก้ไขไปยังผู้รับผิดชอบ และวัดมาร์จิ้นที่กู้คืนได้เทียบกับเส้นฐาน",
       "problemTitle": "ปัญหากับ BI แบบดั้งเดิม",
       "problemDescription": "เครื่องมือส่วนใหญ่จะแสดงให้คุณเห็นว่าเกิดอะไรขึ้น ไม่ใช่เพราะเหตุใด ไม่ใช่วิธีที่คุณเปรียบเทียบ ไม่ใช่ว่าจะทำอย่างไรต่อไป",
       "problemItems": [
@@ -3265,8 +3265,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "ไม่มีการดำเนินการที่แนะนำ",
-          "description": "แม้ว่าคุณจะพบปัญหา ระบบจะไม่บอกคุณว่าต้องทำอย่างไร คุณเหลือที่จะคิดหาขั้นตอนต่อไปด้วยตัวเอง",
+          "title": "ไม่มีผู้รับผิดชอบ ไม่มีการกู้คืนที่วัดผลได้",
+          "description": "แม้แต่เครื่องมือที่แนะนำการแก้ไขก็หยุดอยู่แค่คำแนะนำ ไม่มีการมอบหมายให้ใครรับผิดชอบ ไม่มีใครดำเนินการ และไม่มีใครวัดว่ามาร์จิ้นกลับมาจริงหรือไม่",
           "icon": "document"
         }
       ],
@@ -3322,13 +3322,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "จะเกิดอะไรขึ้นต่อไป และเราควรทำอย่างไร?",
-          "description": "มิติสุดท้าย: การคาดการณ์ การแจ้งเตือน และคำแนะนำที่สร้างโดย AI AI หลายตัวแทนของ Sundae คาดการณ์ผลลัพธ์ แจ้งความผิดปกติก่อนที่จะบานปลาย และบอกคุณอย่างชัดเจนว่าต้องดำเนินการอย่างไร",
+          "description": "มิติสุดท้าย: การคาดการณ์ การแจ้งเตือน และคำแนะนำที่สร้างโดย AI AI หลายตัวแทนของ Sundae คาดการณ์ผลลัพธ์และแจ้งความผิดปกติก่อนที่จะบานปลาย - จากนั้นส่งต่อการแก้ไขแต่ละรายการไปยังผู้รับผิดชอบ และวัดมาร์จิ้นที่กู้คืนได้เทียบกับเส้นฐาน เพื่อให้ลูปปิดที่กำไรที่กู้คืนได้ ไม่ใช่แค่การดำเนินการที่ทำไป",
           "examples": [
             "การคาดการณ์ยอดขายและความต้องการที่คาดการณ์ไว้",
             "การแจ้งเตือนเชิงรุกสำหรับต้นทุนแรงงานที่เพิ่มขึ้นอย่างรวดเร็ว",
@@ -3339,16 +3339,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "ความฉลาด 4D มีลักษณะอย่างไร",
-      "alertsDescription": "การแจ้งเตือนเชิงรุก คำแนะนำที่ชัดเจน การดำเนินการที่คุณสามารถทำได้ในวันนี้",
+      "alertsDescription": "การแจ้งเตือนเชิงรุก ผู้รับผิดชอบสำหรับการแก้ไขทุกรายการ มาร์จิ้นที่กู้คืนได้ซึ่งวัดเทียบกับเส้นฐาน",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "ที่ตั้งใจกลางเมือง",
-          "message": "ค่าแรงสูงกว่าเกณฑ์มาตรฐานสำหรับร้านอาหารที่คล้ายคลึงกัน 12% การดำเนินการที่แนะนำ: ตรวจทานประสิทธิภาพการจัดกำหนดการและพิจารณาการปรับบุคลากร",
+          "message": "ค่าแรงสูงกว่าเกณฑ์มาตรฐานสำหรับร้านอาหารที่คล้ายกัน 12% การแก้ไขที่แนะนำ: ปรับสมดุลตารางเวลาใหม่ - ส่งต่อให้ผู้จัดการร้าน โดยวัดมาร์จิ้นค่าแรงที่กู้คืนได้เทียบกับเส้นฐานของสัปดาห์ที่แล้ว",
           "severity": "คำเตือน",
           "action": "ตรวจสอบกำหนดการ",
           "icon": "warning"
@@ -3356,7 +3356,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "ที่ตั้งสนามบิน",
-          "message": "ยอดขายมีแนวโน้มสูงกว่าการคาดการณ์ 8% สภาพอากาศและเหตุการณ์ในท้องถิ่นบ่งชี้ถึงความต้องการที่แข็งแกร่งอย่างต่อเนื่อง การดำเนินการที่แนะนำ: เพิ่มคำสั่งซื้อสินค้าคงคลัง",
+          "message": "ยอดขายมีแนวโน้มสูงกว่าการคาดการณ์ 8% สภาพอากาศและเหตุการณ์ในท้องถิ่นบ่งชี้ถึงความต้องการที่แข็งแกร่งอย่างต่อเนื่อง การแก้ไขที่แนะนำ: เพิ่มคำสั่งซื้อสินค้าคงคลัง - ส่งต่อให้หัวหน้าฝ่ายจัดซื้อ โดยวัดรายได้ที่ได้รับเทียบกับเส้นฐานของการคาดการณ์",
           "severity": "ความสำเร็จ",
           "action": "ปรับสินค้าคงคลัง",
           "icon": "growth"
@@ -3364,7 +3364,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "บริเวณตลาด",
-          "message": "คู่แข่งรายใหญ่เปิดตัวโปรโมชั่นลด 20% การเข้าชมของคุณลดลง 5% ในสัปดาห์นี้ การดำเนินการที่แนะนำ: พิจารณาข้อเสนอที่มีเวลาจำกัดหรือการตลาดแบบกำหนดเป้าหมาย",
+          "message": "คู่แข่งรายใหญ่เปิดตัวโปรโมชั่นลด 20% การเข้าชมของคุณลดลง 5% ในสัปดาห์นี้ การแก้ไขที่แนะนำ: ข้อเสนอแบบจำกัดเวลา - ส่งต่อให้ผู้รับผิดชอบการตลาด โดยวัดการเข้าชมและมาร์จิ้นที่กู้คืนได้เทียบกับเส้นฐานของสัปดาห์ที่แล้ว",
           "severity": "ข้อมูล",
           "action": "ตรวจสอบโปรโมชั่น",
           "icon": "watchtower"
@@ -3379,8 +3379,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "การตัดสินใจที่รวดเร็วและมั่นใจยิ่งขึ้น",
-          "description": "ไม่ต้องรอรายงานรายเดือนอีกต่อไป รับข้อมูลอัจฉริยะแบบเรียลไทม์และดำเนินการกับปัญหาที่เกิดขึ้น",
+          "title": "ลูปที่ปิดครบ ไม่ใช่แค่การตัดสินใจที่เร็วขึ้น",
+          "description": "ไม่ต้องรอรายงานรายเดือนอีกต่อไป ทุกปัญหาจะถูกส่งต่อไปยังผู้รับผิดชอบและดำเนินการ และมาร์จิ้นที่กู้คืนได้จะถูกวัดเทียบกับเส้นฐาน",
           "icon": "speed"
         },
         {
@@ -3390,7 +3390,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ตำแหน่งการแข่งขันที่แข็งแกร่งยิ่งขึ้น",
-          "description": "ทำความเข้าใจบริบทของตลาด เปรียบเทียบคู่แข่ง และตอบสนองต่อการเคลื่อนไหวของคู่แข่งแบบเรียลไทม์",
+          "description": "ทำความเข้าใจบริบทของตลาด เปรียบเทียบกับคู่แข่ง และเปลี่ยนการเคลื่อนไหวของคู่แข่งให้เป็นการแก้ไขที่มีผู้รับผิดชอบ - โดยวัดมาร์จิ้นที่กู้คืนได้เทียบกับเส้นฐาน",
           "icon": "growth"
         }
       ],
@@ -3409,19 +3409,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "หน่วยสืบราชการลับที่ดำเนินการได้",
-          "description": "แดชบอร์ด Sundae Core ข้อความค้นหาด้วยภาษาธรรมชาติของ Sundae Intelligence และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
+          "description": "แดชบอร์ด Sundae Core ข้อความค้นหาด้วยภาษาธรรมชาติของ Ask Sundae และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
           "icon": "insights"
         }
       ],
       "ctaTitle": "พร้อมสำหรับภาพเต็มหรือยัง?",
-      "ctaDescription": "ดู 4D Intelligence พร้อมข้อมูลของคุณ อดีต แผน เพื่อนร่วมงาน และการทำนาย ทั้งหมดในมุมมองเดียว",
+      "ctaDescription": "ดู 4D Intelligence พร้อมข้อมูลของคุณ อดีต แผน คู่เทียบ และการคาดการณ์ - ปิดท้ายด้วยการแก้ไขที่มีผู้รับผิดชอบ และมาร์จิ้นที่กู้คืนได้ซึ่งวัดเทียบกับเส้นฐาน",
       "ctaPrimary": "จองการสาธิต",
       "ctaSecondary": "สำรวจสถาปัตยกรรม",
-      "heroTitle": "จากรายงานสู่อัจฉริยะที่แท้จริง"
+      "heroTitle": "จากรายงานสู่กำไรที่กู้คืนได้"
     },
     "ms": {
       "heroBadge": "Kepintaran Keputusan",
-      "heroDescription": "Empat dimensi wawasan. Satu gambaran lengkap perniagaan anda.",
+      "heroDescription": "Empat dimensi wawasan - masa lalu, rancangan, setara, ramalan - dilengkapkan oleh langkah yang kebanyakan alat abaikan: menyalurkan pembetulan kepada seorang penanggungjawab dan mengukur margin yang dipulihkan berbanding garis dasar.",
       "problemTitle": "Masalah dengan BI Tradisional",
       "problemDescription": "Kebanyakan alat menunjukkan kepada anda apa yang berlaku. Tidak mengapa. Bukan bagaimana anda membandingkan. Bukan apa yang perlu dilakukan seterusnya.",
       "problemItems": [
@@ -3436,8 +3436,8 @@ export const generatedLocalCopy = {
           "icon": "visibility"
         },
         {
-          "title": "Tiada Tindakan Disyorkan",
-          "description": "Walaupun anda melihat masalah, sistem tidak memberitahu anda apa yang perlu dilakukan mengenainya. Anda dibiarkan memikirkan langkah seterusnya sendiri.",
+          "title": "Tiada penanggungjawab, tiada pemulihan yang diukur",
+          "description": "Malah alat yang mencadangkan pembetulan pun berhenti pada cadangan. Tiada siapa dilantik untuk menanganinya, tiada siapa melaksanakannya, dan tiada siapa mengukur sama ada margin benar-benar kembali.",
           "icon": "document"
         }
       ],
@@ -3493,13 +3493,13 @@ export const generatedLocalCopy = {
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
           "textColor": "text-green-600",
-          "bgColor": "bg-green-50"
+          "bgColor": "bg-green-500/10"
         },
         {
           "id": "4D",
           "title": "AI Foresight & Actions",
           "subtitle": "Apa Yang Akan Berlaku Seterusnya, dan Apa Yang Perlu Kita Lakukan?",
-          "description": "Dimensi akhir: ramalan, makluman dan pengesyoran yang dijana AI. AI berbilang ejen Sundae meramalkan hasil, menandai anomali sebelum ia meningkat dan memberitahu anda dengan tepat tindakan yang perlu diambil.",
+          "description": "Dimensi akhir: ramalan, makluman dan pengesyoran yang dijana AI. AI berbilang ejen Sundae meramalkan hasil dan menandai anomali sebelum ia meningkat - kemudian menyalurkan setiap pembetulan kepada seorang penanggungjawab dan mengukur margin yang dipulihkan berbanding garis dasar, supaya gelung ditutup pada keuntungan yang dipulihkan, bukan sekadar tindakan yang diambil.",
           "examples": [
             "Ramalan jualan dan permintaan yang diramalkan",
             "Makluman proaktif untuk kenaikan kos buruh",
@@ -3510,16 +3510,16 @@ export const generatedLocalCopy = {
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
           "textColor": "text-orange-600",
-          "bgColor": "bg-orange-50"
+          "bgColor": "bg-orange-500/10"
         }
       ],
       "alertsTitle": "Kecerdasan 4D Nampak",
-      "alertsDescription": "Makluman proaktif. Pengesyoran yang jelas. Tindakan yang boleh anda lakukan hari ini.",
+      "alertsDescription": "Makluman proaktif. Seorang penanggungjawab untuk setiap pembetulan. Margin yang dipulihkan diukur berbanding garis dasar.",
       "alerts": [
         {
           "type": "Labor Cost Alert",
           "location": "Lokasi Pusat Bandar",
-          "message": "Kos buruh adalah 12% di atas penanda aras untuk restoran yang serupa. Tindakan yang disyorkan: Semak kecekapan penjadualan dan pertimbangkan pelarasan kakitangan.",
+          "message": "Kos buruh adalah 12% di atas penanda aras untuk restoran yang serupa. Pembetulan yang disyorkan: seimbangkan semula jadual - disalurkan kepada pengurus kedai, dengan margin buruh yang dipulihkan diukur berbanding garis dasar minggu lepas.",
           "severity": "amaran",
           "action": "Jadual Semakan",
           "icon": "warning"
@@ -3527,7 +3527,7 @@ export const generatedLocalCopy = {
         {
           "type": "Sales Opportunity",
           "location": "Lokasi Lapangan Terbang",
-          "message": "Jualan trend 8% melebihi ramalan. Cuaca dan peristiwa tempatan mencadangkan permintaan kukuh yang berterusan. Tindakan yang disyorkan: Tingkatkan pesanan inventori.",
+          "message": "Jualan trend 8% melebihi ramalan. Cuaca dan peristiwa tempatan mencadangkan permintaan kukuh yang berterusan. Pembetulan yang disyorkan: tingkatkan pesanan inventori - disalurkan kepada ketua pembelian, dengan hasil yang diperoleh diukur berbanding garis dasar ramalan.",
           "severity": "kejayaan",
           "action": "Laraskan Inventori",
           "icon": "growth"
@@ -3535,7 +3535,7 @@ export const generatedLocalCopy = {
         {
           "type": "Competitor Alert",
           "location": "Kawasan Pasar",
-          "message": "Pesaing utama melancarkan promosi diskaun 20%. Trafik anda turun 5% minggu ini. Tindakan yang disyorkan: Pertimbangkan tawaran masa terhad atau pemasaran disasarkan.",
+          "message": "Pesaing utama melancarkan promosi diskaun 20%. Trafik anda turun 5% minggu ini. Pembetulan yang disyorkan: tawaran masa terhad - disalurkan kepada penanggungjawab pemasaran, dengan trafik dan margin yang dipulihkan diukur berbanding garis dasar minggu lepas.",
           "severity": "info",
           "action": "Semakan Promosi",
           "icon": "watchtower"
@@ -3550,8 +3550,8 @@ export const generatedLocalCopy = {
           "icon": "finance"
         },
         {
-          "title": "Keputusan Lebih Cepat, Lebih Yakin",
-          "description": "Tidak perlu lagi menunggu laporan bulanan. Dapatkan risikan masa nyata dan bertindak atas isu apabila ia muncul.",
+          "title": "Gelung tertutup, bukan sekadar keputusan lebih pantas",
+          "description": "Tidak perlu lagi menunggu laporan bulanan. Setiap isu disalurkan kepada seorang penanggungjawab, dilaksanakan, dan margin yang dipulihkan diukur berbanding garis dasar.",
           "icon": "speed"
         },
         {
@@ -3561,7 +3561,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kedudukan Persaingan yang Lebih Kuat",
-          "description": "Fahami konteks pasaran anda, penanda aras terhadap rakan sebaya dan balas pergerakan pesaing dalam masa nyata.",
+          "description": "Fahami konteks pasaran anda, penanda aras terhadap rakan sebaya, dan ubah pergerakan pesaing menjadi pembetulan dengan penanggungjawab - dengan margin yang dipulihkan diukur berbanding garis dasar.",
           "icon": "growth"
         }
       ],
@@ -3580,15 +3580,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan Boleh Tindakan",
-          "description": "Papan pemuka Sundae Core, pertanyaan bahasa semula jadi Sundae Intelligence dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya.",
+          "description": "Papan pemuka Sundae Core, pertanyaan bahasa semula jadi Ask Sundae dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Sedia untuk Gambar Penuh?",
-      "ctaDescription": "Lihat Kecerdasan 4D dengan data anda. Masa lalu, rancangan, rakan sebaya dan ramalan - semuanya dalam satu paparan.",
+      "ctaDescription": "Lihat 4D Intelligence dengan data anda. Masa lalu, rancangan, setara dan ramalan - ditutup dengan pembetulan yang ada penanggungjawab dan margin yang dipulihkan diukur berbanding garis dasar.",
       "ctaPrimary": "Tempah Demo",
       "ctaSecondary": "Terokai Seni Bina",
-      "heroTitle": "Daripada laporan kepada kecerdasan sebenar"
+      "heroTitle": "Daripada laporan kepada keuntungan yang dipulihkan."
     }
   }
 } as const

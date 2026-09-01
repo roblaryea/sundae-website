@@ -163,50 +163,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "أضف Foresight إلى خطتك الأساسية",
-      "pricingDescription": "تشتمل كل خطة Foresight على 17 صفحة فرعية و32 صورة تنبؤية. تحدد الطبقة الأساسية الخاصة بك مدى السرعة والعمق والمقدار الذي يمكنك تشغيله.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 دولارًا",
-          "perLocation": "27 دولارًا",
-          "description": "لمشغلي الوحدة الواحدة لبدء استخدام الذكاء التنبؤي.",
-          "enhancements": [
-            "دورات تحديث البيانات لمدة 15 دقيقة",
-            "8000 رصيد الذكاء الاصطناعي/الشهر",
-            "بيانات التدريب التاريخية لمدة عامين",
-            "50 استفسارًا عن التوقعات/اليوم"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "449 دولارًا شهريًا",
-          "perLocation": "24 دولارًا",
-          "description": "لمشغلي الوحدات المتعددة الذين يتمتعون بمجموعة الاستخبارات الكاملة.",
-          "enhancements": [
-            "تحديث البيانات لمدة 5 دقائق - إعادة معايرة أسرع",
-            "14000 نقطة من الذكاء الاصطناعي/الشهر - المزيد من عمليات المحاكاة",
-            "بيانات تاريخية لمدة 3 سنوات - دقة أعمق",
-            "150 استفسارًا عن التوقعات/اليوم",
-            "أوضاع الذكاء المحلل والاستراتيجي",
-            "دعم POS المتعددة الأصلية"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "مخصص",
-          "perLocation": "مخصص",
-          "description": "دعم مخصص، واتفاقيات مستوى الخدمة، وخيارات التسمية البيضاء، وعمليات التكامل المخصصة.",
-          "enhancements": [
-            "فترات تحديث البيانات المخصصة",
-            "أرصدة غير محدودة لمنظمة العفو الدولية",
-            "الوصول الكامل للبيانات التاريخية",
-            "استعلامات توقعات غير محدودة",
-            "جميع أوضاع الذكاء",
-            "مدير نجاح مخصص"
-          ]
-        }
-      ],
       "ctaTitle": "هل أنت مستعد للذكاء التنبؤي؟",
       "ctaDescription": "أخبرنا بما تحتاجه. سنقوم ببناء النموذج لتحقيق ذلك.",
       "ctaPrimary": "احجز عرضًا توضيحيًا",
@@ -520,50 +476,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Agregue Foresight a su plan básico",
-      "pricingDescription": "Cada plan de Foresight incluye las 17 subpáginas y 32 elementos visuales de pronóstico. Tu nivel Core determina qué tan rápido, qué tan profundo y cuánto puedes correr.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "Para operadores de una sola unidad que se inician en la inteligencia predictiva.",
-          "enhancements": [
-            "Ciclos de actualización de datos de 15 minutos",
-            "8000 créditos de IA/mes",
-            "Datos históricos de entrenamiento de 2 años.",
-            "50 consultas de Foresight/día"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/mes",
-          "perLocation": "$24",
-          "description": "Para operadores de varias unidades con la pila de inteligencia completa.",
-          "enhancements": [
-            "Actualización de datos en 5 minutos: recalibración más rápida",
-            "14.000 créditos de IA al mes: más simulaciones",
-            "Datos históricos de 3 años: mayor precisión",
-            "150 consultas de Foresight/día",
-            "Modos de inteligencia de analista y estratega",
-            "Compatibilidad nativa con múltiples POS"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "personalizado",
-          "perLocation": "personalizado",
-          "description": "Soporte dedicado, SLA, opciones de marca blanca e integraciones personalizadas.",
-          "enhancements": [
-            "Intervalos de actualización de datos personalizados",
-            "Créditos de IA ilimitados",
-            "Acceso completo a datos históricos",
-            "Consultas de pronóstico ilimitadas",
-            "Todos los modos de inteligencia",
-            "Gerente de éxito dedicado"
-          ]
         }
       ],
       "ctaTitle": "¿Listo para la inteligencia predictiva?",
@@ -881,50 +793,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Adicione Foresight ao seu plano principal",
-      "pricingDescription": "Cada plano Foresight inclui todas as 17 subpáginas e 32 recursos visuais de previsão. Seu nível Core determina quão rápido, quão profundo e quanto você pode executar.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "US$ 279",
-          "perLocation": "US$ 27",
-          "description": "Para operadores de unidade única que estão começando a usar inteligência preditiva.",
-          "enhancements": [
-            "Ciclos de atualização de dados de 15 minutos",
-            "8.000 créditos de IA/mês",
-            "Dados históricos de treinamento de 2 anos",
-            "50 consultas de previsão/dia"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "US$ 449/mês",
-          "perLocation": "US$ 24",
-          "description": "Para operadores de múltiplas unidades com pilha completa de inteligência.",
-          "enhancements": [
-            "Atualização de dados em 5 minutos - recalibração mais rápida",
-            "14.000 créditos de IA/mês - mais simulações",
-            "Dados históricos de 3 anos - maior precisão",
-            "150 consultas de previsão/dia",
-            "Modos de inteligência de analista e estrategista",
-            "Suporte nativo a vários POS"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Personalizado",
-          "perLocation": "Personalizado",
-          "description": "Suporte dedicado, SLAs, opções de marca branca e integrações personalizadas.",
-          "enhancements": [
-            "Intervalos de atualização de dados personalizados",
-            "Créditos de IA ilimitados",
-            "Acesso completo aos dados históricos",
-            "Consultas de previsão ilimitadas",
-            "Todos os modos de inteligência",
-            "Gerente de sucesso dedicado"
-          ]
-        }
-      ],
       "ctaTitle": "Pronto para Inteligência Preditiva?",
       "ctaDescription": "Diga-nos o que você precisa. Construiremos o modelo para que isso aconteça.",
       "ctaPrimary": "Agende uma demonstração",
@@ -1238,50 +1106,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Fügen Sie Foresight zu Ihrem Core-Plan hinzu",
-      "pricingDescription": "Jeder Foresight-Plan umfasst alle 17 Unterseiten und 32 Prognosevisualisierungen. Ihre Core-Stufe bestimmt, wie schnell, wie tief und wie viel Sie ausführen können.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 $",
-          "perLocation": "27 $",
-          "description": "Für Einzelbetreiber, die mit prädiktiver Intelligenz beginnen möchten.",
-          "enhancements": [
-            "15-minütige Datenaktualisierungszyklen",
-            "8.000 KI-Credits/Monat",
-            "2 Jahre historische Trainingsdaten",
-            "50 Prognoseabfragen/Tag"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "449 $/Monat",
-          "perLocation": "24 $",
-          "description": "Für Betreiber mehrerer Einheiten mit dem kompletten Intelligenz-Stack.",
-          "enhancements": [
-            "5-minütige Datenaktualisierung - schnellere Neukalibrierung",
-            "14.000 KI-Credits/Monat - mehr Simulationen",
-            "3 Jahre historische Daten - höhere Genauigkeit",
-            "150 Prognoseabfragen/Tag",
-            "Intelligenzmodi für Analysten und Strategen",
-            "Native Multi-POS-Unterstützung"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Benutzerdefiniert",
-          "perLocation": "Benutzerdefiniert",
-          "description": "Dedizierter Support, SLAs, White-Label-Optionen und benutzerdefinierte Integrationen.",
-          "enhancements": [
-            "Benutzerdefinierte Datenaktualisierungsintervalle",
-            "Unbegrenzte KI-Credits",
-            "Vollständiger Zugriff auf historische Daten",
-            "Unbegrenzte Prognoseabfragen",
-            "Alle Intelligenzmodi",
-            "Engagierter Erfolgsmanager"
-          ]
         }
       ],
       "ctaTitle": "Bereit für Predictive Intelligence?",
@@ -1599,50 +1423,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Ajoutez Foresight à votre forfait Core",
-      "pricingDescription": "Chaque plan Foresight comprend les 17 sous-pages et les 32 visuels de prévision. Votre niveau Core détermine la vitesse, la profondeur et la quantité que vous pouvez exécuter.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 $",
-          "perLocation": "27 $",
-          "description": "Pour les opérateurs d’unités individuelles qui débutent avec l’intelligence prédictive.",
-          "enhancements": [
-            "Cycles de rafraîchissement des données de 15 minutes",
-            "8 000 crédits IA/mois",
-            "Données d'entraînement historiques sur 2 ans",
-            "50 requêtes de prévisions/jour"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "449 $/mois",
-          "perLocation": "24 $",
-          "description": "Pour les opérateurs multi-unités dotés de la pile d’intelligence complète.",
-          "enhancements": [
-            "Actualisation des données en 5 minutes - recalibrage plus rapide",
-            "14 000 crédits IA/mois - plus de simulations",
-            "Données historiques sur 3 ans - précision plus profonde",
-            "150 requêtes de prévisions/jour",
-            "Modes de renseignement Analyste et Stratège",
-            "Prise en charge multi-POS native"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Personnalisé",
-          "perLocation": "Personnalisé",
-          "description": "Assistance dédiée, SLA, options en marque blanche et intégrations personnalisées.",
-          "enhancements": [
-            "Intervalles d'actualisation des données personnalisés",
-            "Crédits IA illimités",
-            "Accès complet aux données historiques",
-            "Requêtes de prévisions illimitées",
-            "Tous les modes d'intelligence",
-            "Gestionnaire de réussite dédié"
-          ]
-        }
-      ],
       "ctaTitle": "Prêt pour l’intelligence prédictive ?",
       "ctaDescription": "Dites-nous ce dont vous avez besoin. Nous construirons le modèle pour y arriver.",
       "ctaPrimary": "Réservez une démo",
@@ -1956,50 +1736,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Voeg Foresight toe aan uw Core-plan",
-      "pricingDescription": "Elk Foresight-plan bevat alle 17 subpagina's en 32 prognosevisuals. Je Core-niveau bepaalt hoe snel, hoe diep en hoeveel je kunt uitvoeren.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$ 279",
-          "perLocation": "$ 27",
-          "description": "Voor operators met één unit die aan de slag gaan met voorspellende intelligentie.",
-          "enhancements": [
-            "Gegevensvernieuwingscycli van 15 minuten",
-            "8.000 AI-credits/maand",
-            "2 jaar historische trainingsgegevens",
-            "50 voorspellingsquery's/dag"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$ 449/maand",
-          "perLocation": "$ 24",
-          "description": "Voor operators met meerdere eenheden met de volledige intelligentiestack.",
-          "enhancements": [
-            "Gegevensverversing in 5 minuten - snellere herkalibratie",
-            "14.000 AI-credits/maand - meer simulaties",
-            "3 jaar historische gegevens - diepere nauwkeurigheid",
-            "150 voorspellingsquery's/dag",
-            "Intelligentiemodi voor analisten en strategen",
-            "Native multi-POS-ondersteuning"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Aangepast",
-          "perLocation": "Aangepast",
-          "description": "Toegewijde ondersteuning, SLA's, white-label opties en aangepaste integraties.",
-          "enhancements": [
-            "Aangepaste gegevensvernieuwingsintervallen",
-            "Onbeperkte AI-credits",
-            "Volledige toegang tot historische gegevens",
-            "Onbeperkte prognosequery's",
-            "Alle intelligentiemodi",
-            "Toegewijde succesmanager"
-          ]
         }
       ],
       "ctaTitle": "Klaar voor voorspellende intelligentie?",
@@ -2317,50 +2053,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "اپنے Core پلان میں Foresight شامل کریں",
-      "pricingDescription": "ہر Foresight پلان میں تمام 17 ذیلی صفحات اور 32 پیشین گوئی کے بصری شامل ہوتے ہیں۔ آپ کا Core درجہ اس بات کا تعین کرتا ہے کہ آپ کتنی تیز، کتنی گہری اور کتنی مقدار چلا سکتے ہیں۔",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "پیش گوئی کرنے والی ذہانت کے ساتھ آغاز کرنے والے سنگل یونٹ آپریٹرز کے لیے۔",
-          "enhancements": [
-            "15 منٹ کے ڈیٹا ریفریش سائیکل",
-            "8,000 AI کریڈٹس/ماہ",
-            "2 سالہ تاریخی تربیت کا ڈیٹا",
-            "50 پیشن گوئی کے سوالات/دن"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/ماہ",
-          "perLocation": "$24",
-          "description": "مکمل انٹیلی جنس اسٹیک کے ساتھ ملٹی یونٹ آپریٹرز کے لیے۔",
-          "enhancements": [
-            "5 منٹ کا ڈیٹا ریفریش - تیز تر ری کیلیبریشن",
-            "14,000 AI کریڈٹس/ماہ - مزید نقلی",
-            "3 سال کا تاریخی ڈیٹا - گہری درستگی",
-            "150 پیشن گوئی کے سوالات/دن",
-            "تجزیہ کار اور اسٹریٹجسٹ انٹیلی جنس موڈز",
-            "مقامی ملٹی-POS سپورٹ"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "حسب ضرورت",
-          "perLocation": "حسب ضرورت",
-          "description": "سرشار سپورٹ، SLAs، وائٹ لیبل کے اختیارات، اور حسب ضرورت انضمام۔",
-          "enhancements": [
-            "حسب ضرورت ڈیٹا ریفریش وقفہ",
-            "لامحدود AI کریڈٹس",
-            "مکمل تاریخی ڈیٹا تک رسائی",
-            "لامحدود پیشن گوئی کے سوالات",
-            "تمام انٹیلی جنس طریقوں",
-            "سرشار کامیابی مینیجر"
-          ]
-        }
-      ],
       "ctaTitle": "پیش گوئی کرنے والی ذہانت کے لیے تیار ہیں؟",
       "ctaDescription": "ہمیں بتائیں کہ آپ کو کیا ضرورت ہے۔ ہم اسے انجام دینے کے لیے ماڈل بنائیں گے۔",
       "ctaPrimary": "ایک ڈیمو بک کرو",
@@ -2674,50 +2366,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Aggiungi Foresight al tuo piano Core",
-      "pricingDescription": "Ogni piano di Foresight include tutte le 17 pagine secondarie e 32 immagini di previsione. Il tuo livello Core determina quanto velocemente, quanto in profondità e quanto puoi eseguire.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$ 279",
-          "perLocation": "$ 27",
-          "description": "Per gli operatori di singole unità che iniziano a utilizzare l'intelligenza predittiva.",
-          "enhancements": [
-            "Cicli di aggiornamento dati di 15 minuti",
-            "8.000 crediti AI/mese",
-            "Dati di allenamento storici di 2 anni",
-            "50 query di previsione/giorno"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$ 449/mese",
-          "perLocation": "$ 24",
-          "description": "Per operatori multi-unità con lo stack di intelligence completo.",
-          "enhancements": [
-            "Aggiornamento dati in 5 minuti: ricalibrazione più rapida",
-            "14.000 crediti AI/mese - più simulazioni",
-            "Dati storici di 3 anni: maggiore precisione",
-            "150 query di previsione/giorno",
-            "Modalità di intelligenza analista e stratega",
-            "Supporto multi-POS nativo"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Personalizzato",
-          "perLocation": "Personalizzato",
-          "description": "Supporto dedicato, SLA, opzioni white label e integrazioni personalizzate.",
-          "enhancements": [
-            "Intervalli di aggiornamento dei dati personalizzati",
-            "Crediti IA illimitati",
-            "Accesso completo ai dati storici",
-            "Query di previsione illimitate",
-            "Tutte le modalità di intelligenza",
-            "Responsabile del successo dedicato"
-          ]
         }
       ],
       "ctaTitle": "Pronti per l'intelligenza predittiva?",
@@ -3035,50 +2683,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "अपने Core प्लान में Foresight जोड़ें",
-      "pricingDescription": "प्रत्येक Foresight योजना में सभी 17 उप-पृष्ठ और 32 पूर्वानुमान दृश्य शामिल हैं। आपका Core टियर निर्धारित करता है कि आप कितनी तेज़, कितनी गहराई और कितनी दौड़ सकते हैं।",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "एकल-इकाई ऑपरेटरों के लिए पूर्वानुमानित बुद्धिमत्ता के साथ शुरुआत करना।",
-          "enhancements": [
-            "15 मिनट का डेटा रिफ्रेश चक्र",
-            "8,000 एआई क्रेडिट/महीना",
-            "2 साल का ऐतिहासिक प्रशिक्षण डेटा",
-            "50 पूर्वानुमान प्रश्न/दिन"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/माह",
-          "perLocation": "$24",
-          "description": "संपूर्ण इंटेलिजेंस स्टैक वाले मल्टी-यूनिट ऑपरेटरों के लिए।",
-          "enhancements": [
-            "5 मिनट का डेटा रिफ्रेश - तेज़ रीकैलिब्रेशन",
-            "14,000 एआई क्रेडिट/माह - अधिक सिमुलेशन",
-            "3 साल का ऐतिहासिक डेटा - अधिक गहन सटीकता",
-            "150 पूर्वानुमान प्रश्न/दिन",
-            "विश्लेषक और रणनीतिकार खुफिया मोड",
-            "मूल मल्टी-POS समर्थन"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "कस्टम",
-          "perLocation": "कस्टम",
-          "description": "समर्पित समर्थन, एसएलए, व्हाइट-लेबल विकल्प और कस्टम एकीकरण।",
-          "enhancements": [
-            "कस्टम डेटा ताज़ा अंतराल",
-            "असीमित एआई क्रेडिट",
-            "पूर्ण ऐतिहासिक डेटा पहुंच",
-            "असीमित पूर्वानुमान प्रश्न",
-            "सभी खुफिया मोड",
-            "समर्पित सफलता प्रबंधक"
-          ]
-        }
-      ],
       "ctaTitle": "पूर्वानुमानित इंटेलिजेंस के लिए तैयार हैं?",
       "ctaDescription": "हमें बताएं कि आपको क्या चाहिए. हम इसे साकार करने के लिए मॉडल बनाएंगे।",
       "ctaPrimary": "एक डेमो बुक करें",
@@ -3392,50 +2996,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Core planınıza Foresight ekleyin",
-      "pricingDescription": "Her Foresight 17 alt sayfanın tamamını ve 32 tahmin görselini içerir. Core seviyeniz ne kadar hızlı, ne kadar derin ve ne kadar koşabileceğinizi belirler.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279$",
-          "perLocation": "27$",
-          "description": "Tahmine dayalı zekayı kullanmaya başlayan tek ünite operatörleri için.",
-          "enhancements": [
-            "15 dakikalık veri yenileme döngüleri",
-            "8.000 AI kredisi/ay",
-            "2 yıllık geçmiş eğitim verileri",
-            "Günde 50 tahmin sorgusu"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "449$/ay",
-          "perLocation": "24$",
-          "description": "Tam zeka yığınına sahip çok birimli operatörler için.",
-          "enhancements": [
-            "5 dakikalık veri yenileme - daha hızlı yeniden kalibrasyon",
-            "Aylık 14.000 AI kredisi - daha fazla simülasyon",
-            "3 yıllık geçmiş veriler - daha derin doğruluk",
-            "150 tahmin sorgusu/gün",
-            "Analist ve Stratejist istihbarat modları",
-            "Yerel çoklu POS desteği"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Özel",
-          "perLocation": "Özel",
-          "description": "Özel destek, SLA'lar, beyaz etiket seçenekleri ve özel entegrasyonlar.",
-          "enhancements": [
-            "Özel veri yenileme aralıkları",
-            "Sınırsız AI kredisi",
-            "Tam geçmiş veri erişimi",
-            "Sınırsız tahmin sorgusu",
-            "Tüm zeka modları",
-            "Özel başarı yöneticisi"
-          ]
         }
       ],
       "ctaTitle": "Tahmine Dayalı Zekaya Hazır mısınız?",
@@ -3753,50 +3313,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "将 Foresight 添加到您的 Core 计划",
-      "pricingDescription": "每个 Foresight 计划都包含所有 17 个子页面和 32 个预测视觉效果。您的 Core 级别决定了您可以运行的速度、深度和程度。",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 美元",
-          "perLocation": "27 美元",
-          "description": "适用于开始使用预测智能的单机操作员。",
-          "enhancements": [
-            "15 分钟数据刷新周期",
-            "8,000 个 AI 学分/月",
-            "2年历史训练数据",
-            "每天 50 次预测查询"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/月",
-          "perLocation": "24 美元",
-          "description": "适用于具有完整智能堆栈的多单元操作员。",
-          "enhancements": [
-            "5 分钟数据刷新 - 更快的重新校准",
-            "14,000 个 AI 积分/月 - 更多模拟",
-            "3年历史数据-更准确",
-            "每天 150 个预测查询",
-            "分析师和策略师情报模式",
-            "原生多 POS 支持"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "定制",
-          "perLocation": "定制",
-          "description": "专门的支持、SLA、白标选项和自定义集成。",
-          "enhancements": [
-            "自定义数据刷新间隔",
-            "无限AI学分",
-            "完整的历史数据访问",
-            "无限的预测查询",
-            "所有智能模式",
-            "专职成功经理"
-          ]
-        }
-      ],
       "ctaTitle": "准备好预测智能了吗？",
       "ctaDescription": "告诉我们您需要什么。我们将构建模型来实现这一目标。",
       "ctaPrimary": "预订演示",
@@ -4110,50 +3626,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Dodaj Foresight do swojego planu Core",
-      "pricingDescription": "Każdy plan Foresight zawiera wszystkie 17 podstron i 32 wizualizacje prognoz. Twój poziom Core określa, jak szybko, jak głęboko i ile możesz przetworzyć.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 dolarów",
-          "perLocation": "27 dolarów",
-          "description": "Dla operatorów pojedynczych jednostek rozpoczynających pracę z inteligencją predykcyjną.",
-          "enhancements": [
-            "15-minutowe cykle odświeżania danych",
-            "8000 kredytów AI/mies",
-            "Dane historyczne dotyczące szkoleń z 2 lat",
-            "50 zapytań o prognozę dziennie"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "449 USD miesięcznie",
-          "perLocation": "24 dolarów",
-          "description": "Dla operatorów wielojednostkowych z pełnym stosem inteligencji.",
-          "enhancements": [
-            "Odświeżanie danych w 5 minut - szybsza rekalibracja",
-            "14 000 kredytów AI/mies. - więcej symulacji",
-            "Dane historyczne z 3 lat - większa dokładność",
-            "150 zapytań o prognozę dziennie",
-            "Tryby inteligencji analityka i stratega",
-            "Natywna obsługa wielu POS"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Niestandardowe",
-          "perLocation": "Niestandardowe",
-          "description": "Dedykowane wsparcie, umowy SLA, opcje białej etykiety i niestandardowe integracje.",
-          "enhancements": [
-            "Niestandardowe interwały odświeżania danych",
-            "Nieograniczone kredyty AI",
-            "Pełny dostęp do danych historycznych",
-            "Nieograniczone zapytania dotyczące prognoz",
-            "Wszystkie tryby inteligencji",
-            "Dedykowany menadżer sukcesu"
-          ]
         }
       ],
       "ctaTitle": "Gotowy na inteligencję predykcyjną?",
@@ -4471,50 +3943,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Core プランに Foresight を追加する",
-      "pricingDescription": "すべての Foresight プランには、17 のサブページすべてと 32 の予測ビジュアルが含まれています。Core 層によって、どれくらいの速さ、どれくらいの深さ、どれだけの量を実行できるかが決まります。",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "27ドル",
-          "description": "予測インテリジェンスを使い始める単一ユニットのオペレーター向け。",
-          "enhancements": [
-            "15 分のデータ更新サイクル",
-            "8,000 AI クレジット/月",
-            "2 年間の過去のトレーニング データ",
-            "1 日あたり 50 件の予測クエリ"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/月",
-          "perLocation": "24ドル",
-          "description": "完全なインテリジェンス スタックを備えた複数ユニットのオペレーター向け。",
-          "enhancements": [
-            "5 分間のデータ更新 - 再キャリブレーションの高速化",
-            "14,000 AI クレジット/月 - より多くのシミュレーション",
-            "3 年間の履歴データ - より高い精度",
-            "150 予測クエリ/日",
-            "アナリストおよびストラテジストのインテリジェンス モード",
-            "ネイティブマルチPOSサポート"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "カスタム",
-          "perLocation": "カスタム",
-          "description": "専用サポート、SLA、ホワイトラベル オプション、カスタム統合。",
-          "enhancements": [
-            "カスタムデータ更新間隔",
-            "無制限の AI クレジット",
-            "完全な履歴データへのアクセス",
-            "無制限の予測クエリ",
-            "すべてのインテリジェンスモード",
-            "専任のサクセスマネージャー"
-          ]
-        }
-      ],
       "ctaTitle": "予測インテリジェンスを導入する準備はできていますか?",
       "ctaDescription": "必要なものをお知らせください。それを実現するためのモデルを構築していきます。",
       "ctaPrimary": "デモを予約する",
@@ -4828,50 +4256,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Thêm Foresight vào gói Core của bạn",
-      "pricingDescription": "Mọi gói Foresight đều bao gồm tất cả 17 trang phụ và 32 hình ảnh dự báo. Cấp Core của bạn xác định tốc độ, độ sâu và mức độ bạn có thể chạy.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "Dành cho người vận hành một đơn vị bắt đầu với thông tin dự đoán.",
-          "enhancements": [
-            "Chu kỳ làm mới dữ liệu 15 phút",
-            "8.000 tín chỉ AI/tháng",
-            "Dữ liệu đào tạo lịch sử 2 năm",
-            "50 truy vấn dự báo/ngày"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/tháng",
-          "perLocation": "$24",
-          "description": "Dành cho người vận hành nhiều đơn vị với ngăn xếp thông minh đầy đủ.",
-          "enhancements": [
-            "Làm mới dữ liệu trong 5 phút - hiệu chỉnh lại nhanh hơn",
-            "14.000 tín dụng AI/tháng - nhiều mô phỏng hơn",
-            "Dữ liệu lịch sử 3 năm - độ chính xác sâu hơn",
-            "150 truy vấn dự báo/ngày",
-            "Chế độ thông minh của Nhà phân tích & Chiến lược gia",
-            "Hỗ trợ đa POS gốc"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "tùy chỉnh",
-          "perLocation": "tùy chỉnh",
-          "description": "Hỗ trợ chuyên dụng, SLA, tùy chọn nhãn trắng và tích hợp tùy chỉnh.",
-          "enhancements": [
-            "Khoảng thời gian làm mới dữ liệu tùy chỉnh",
-            "Tín dụng AI không giới hạn",
-            "Truy cập dữ liệu lịch sử đầy đủ",
-            "Truy vấn dự báo không giới hạn",
-            "Tất cả các chế độ thông minh",
-            "Người quản lý thành công tận tâm"
-          ]
         }
       ],
       "ctaTitle": "Sẵn sàng cho trí thông minh dự đoán?",
@@ -5189,50 +4573,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Tambahkan Foresight ke paket Core Anda",
-      "pricingDescription": "Setiap rencana Foresight mencakup 17 sub-halaman dan 32 visual perkiraan. Tingkat Core Anda menentukan seberapa cepat, seberapa dalam, dan seberapa banyak yang dapat Anda jalankan.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "Untuk operator unit tunggal yang memulai dengan kecerdasan prediktif.",
-          "enhancements": [
-            "Siklus penyegaran data 15 menit",
-            "8.000 kredit AI/bln",
-            "Data pelatihan historis 2 tahun",
-            "50 kueri perkiraan/hari"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/bln",
-          "perLocation": "$24",
-          "description": "Untuk operator multi-unit dengan tumpukan intelijen penuh.",
-          "enhancements": [
-            "Penyegaran data 5 menit - kalibrasi ulang lebih cepat",
-            "14.000 kredit AI/bln - lebih banyak simulasi",
-            "Data historis 3 tahun - akurasi lebih dalam",
-            "150 kueri perkiraan/hari",
-            "Mode intelijen Analis & Ahli Strategi",
-            "Dukungan multi-POS asli"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Khusus",
-          "perLocation": "Khusus",
-          "description": "Dukungan khusus, SLA, opsi label putih, dan integrasi khusus.",
-          "enhancements": [
-            "Interval penyegaran data khusus",
-            "Kredit AI tanpa batas",
-            "Akses data historis penuh",
-            "Kueri perkiraan tidak terbatas",
-            "Semua mode intelijen",
-            "Manajer sukses yang berdedikasi"
-          ]
-        }
-      ],
       "ctaTitle": "Siap untuk Kecerdasan Prediktif?",
       "ctaDescription": "Beritahu kami apa yang Anda butuhkan. Kami akan membangun model untuk mewujudkannya.",
       "ctaPrimary": "Pesan Demo",
@@ -5546,50 +4886,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Lägg till Foresight i din Core-plan",
-      "pricingDescription": "Varje Foresight innehåller alla 17 undersidor och 32 prognosbilder. Din Core-nivå avgör hur snabbt, hur djupt och hur mycket du kan köra.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 USD",
-          "perLocation": "27 USD",
-          "description": "För operatörer med en enhet som kommer igång med prediktiv intelligens.",
-          "enhancements": [
-            "15 minuters datauppdateringscykler",
-            "8 000 AI-poäng/månad",
-            "2 års historisk träningsdata",
-            "50 prognosfrågor/dag"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/månad",
-          "perLocation": "24 USD",
-          "description": "För operatörer med flera enheter med hela intelligensstacken.",
-          "enhancements": [
-            "5 minuters datauppdatering - snabbare omkalibrering",
-            "14 000 AI-poäng/månad - fler simuleringar",
-            "3 års historiska data - djupare noggrannhet",
-            "150 prognosfrågor/dag",
-            "Analyslägen för analytiker och strateg",
-            "Native multi-POS-stöd"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Anpassad",
-          "perLocation": "Anpassad",
-          "description": "Dedikerad support, SLA, white-label-alternativ och anpassade integrationer.",
-          "enhancements": [
-            "Anpassade datauppdateringsintervall",
-            "Obegränsade AI-krediter",
-            "Fullständig tillgång till historisk data",
-            "Obegränsade prognosfrågor",
-            "Alla intelligenslägen",
-            "Dedikerad framgångschef"
-          ]
         }
       ],
       "ctaTitle": "Redo för prediktiv intelligens?",
@@ -5907,50 +5203,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Core 플랜에 Foresight을 추가하세요",
-      "pricingDescription": "모든 Foresight 계획에는 17개의 하위 페이지와 32개의 예측 시각적 요소가 모두 포함됩니다. Core 등급에 따라 얼마나 빨리, 얼마나 깊게, 얼마나 많이 실행할 수 있는지가 결정됩니다.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "예측 지능을 시작하는 단일 장치 운영자를 위한 것입니다.",
-          "enhancements": [
-            "15분 데이터 새로 고침 주기",
-            "8,000 AI 크레딧/월",
-            "2년간의 과거 훈련 데이터",
-            "예측 쿼리 50개/일"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/월",
-          "perLocation": "$24",
-          "description": "전체 인텔리전스 스택을 갖춘 다중 장치 운영자용입니다.",
-          "enhancements": [
-            "5분 데이터 새로 고침 - 더 빠른 재보정",
-            "14,000 AI 크레딧/월 - 더 많은 시뮬레이션",
-            "3년 간의 과거 데이터 - 더욱 향상된 정확성",
-            "예측 쿼리 150개/일",
-            "분석가 및 전략가 인텔리전스 모드",
-            "기본 다중 POS 지원"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "맞춤",
-          "perLocation": "맞춤",
-          "description": "전담 지원, SLA, 화이트 라벨 옵션 및 맞춤형 통합.",
-          "enhancements": [
-            "사용자 정의 데이터 새로 고침 간격",
-            "무제한 AI 크레딧",
-            "전체 과거 데이터 액세스",
-            "무제한 예측 쿼리",
-            "모든 지능 모드",
-            "전담 성공 관리자"
-          ]
-        }
-      ],
       "ctaTitle": "예측 지능에 대한 준비가 되셨나요?",
       "ctaDescription": "필요한 것이 무엇인지 알려주십시오. 이를 실현할 수 있는 모델을 구축하겠습니다.",
       "ctaPrimary": "데모 예약",
@@ -6264,50 +5516,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "Adaugă Foresight la planul tău Core",
-      "pricingDescription": "Fiecare plan Foresight include toate cele 17 subpagini și 32 de imagini de prognoză. Nivelul tău Core determină cât de repede, cât de adânc și cât de mult poți rula.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 USD",
-          "perLocation": "27 USD",
-          "description": "Pentru operatorii cu o singură unitate care încep cu inteligența predictivă.",
-          "enhancements": [
-            "Cicluri de reîmprospătare a datelor de 15 minute",
-            "8.000 de credite AI/lună",
-            "Date istorice de antrenament de 2 ani",
-            "50 de interogări de prognoză/zi"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "449 USD/lună",
-          "perLocation": "24 USD",
-          "description": "Pentru operatorii cu mai multe unități cu stiva completă de informații.",
-          "enhancements": [
-            "Reîmprospătare a datelor de 5 minute - recalibrare mai rapidă",
-            "14.000 de credite AI/lună - mai multe simulări",
-            "Date istorice de 3 ani - acuratețe mai profundă",
-            "150 de interogări de prognoză/zi",
-            "Moduri de inteligență analist și strateg",
-            "Suport nativ multi-POS"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Personalizat",
-          "perLocation": "Personalizat",
-          "description": "Asistență dedicată, SLA-uri, opțiuni cu etichetă albă și integrări personalizate.",
-          "enhancements": [
-            "Intervale personalizate de reîmprospătare a datelor",
-            "Credite AI nelimitate",
-            "Acces complet la date istorice",
-            "Interogări nelimitate de prognoză",
-            "Toate modurile de inteligență",
-            "Manager de succes dedicat"
-          ]
         }
       ],
       "ctaTitle": "Sunteți gata pentru Inteligența predictivă?",
@@ -6625,50 +5833,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "আপনার Core প্ল্যানে Foresight যোগ করুন",
-      "pricingDescription": "প্রতিটি Foresight পরিকল্পনায় 17টি উপ-পৃষ্ঠা এবং 32টি পূর্বাভাস ভিজ্যুয়াল অন্তর্ভুক্ত থাকে। আপনার Core স্তর নির্ধারণ করে আপনি কত দ্রুত, কতটা গভীর এবং কতটা চালাতে পারবেন।",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "একক-ইউনিট অপারেটরদের জন্য ভবিষ্যদ্বাণীমূলক বুদ্ধিমত্তার সাথে শুরু হচ্ছে।",
-          "enhancements": [
-            "15 মিনিটের ডেটা রিফ্রেশ চক্র",
-            "8,000 AI ক্রেডিট/মাস",
-            "2 বছরের ঐতিহাসিক প্রশিক্ষণ তথ্য",
-            "50টি পূর্বাভাস প্রশ্ন/দিন"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/মাস",
-          "perLocation": "$24",
-          "description": "সম্পূর্ণ বুদ্ধিমত্তা স্ট্যাক সহ বহু-ইউনিট অপারেটরদের জন্য।",
-          "enhancements": [
-            "5-মিনিটের ডেটা রিফ্রেশ - দ্রুত পুনঃক্যালিব্রেশন",
-            "14,000 AI ক্রেডিট/মা - আরও সিমুলেশন",
-            "3 বছরের ঐতিহাসিক তথ্য - গভীর নির্ভুলতা",
-            "150টি পূর্বাভাস প্রশ্ন/দিন",
-            "বিশ্লেষক এবং কৌশলবিদ বুদ্ধিমত্তা মোড",
-            "নেটিভ মাল্টি-POS সমর্থন"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "কাস্টম",
-          "perLocation": "কাস্টম",
-          "description": "ডেডিকেটেড সাপোর্ট, SLA, হোয়াইট-লেবেল অপশন এবং কাস্টম ইন্টিগ্রেশন।",
-          "enhancements": [
-            "কাস্টম ডেটা রিফ্রেশ অন্তর",
-            "আনলিমিটেড এআই ক্রেডিট",
-            "সম্পূর্ণ ঐতিহাসিক তথ্য অ্যাক্সেস",
-            "সীমাহীন পূর্বাভাস প্রশ্ন",
-            "সমস্ত বুদ্ধিমত্তা মোড",
-            "নিবেদিত সাফল্য ম্যানেজার"
-          ]
-        }
-      ],
       "ctaTitle": "ভবিষ্যদ্বাণীমূলক বুদ্ধিমত্তার জন্য প্রস্তুত?",
       "ctaDescription": "আপনি কি প্রয়োজন আমাদের বলুন. আমরা এটি ঘটতে মডেল তৈরি করব।",
       "ctaPrimary": "একটি ডেমো বুক করুন",
@@ -6984,50 +6148,6 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Tambah Foresight pada pelan Core anda",
-      "pricingDescription": "Setiap rancangan Foresight merangkumi kesemua 17 sub-halaman dan 32 visual ramalan. Peringkat Core anda menentukan kelajuan, kedalaman dan jumlah yang boleh anda jalankan.",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "$279",
-          "perLocation": "$27",
-          "description": "Untuk pengendali unit tunggal bermula dengan kecerdasan ramalan.",
-          "enhancements": [
-            "Kitaran penyegaran data selama 15 minit",
-            "8,000 kredit AI/bln",
-            "Data latihan sejarah 2 tahun",
-            "50 pertanyaan ramalan/hari"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/bln",
-          "perLocation": "$24",
-          "description": "Untuk pengendali berbilang unit dengan timbunan perisikan penuh.",
-          "enhancements": [
-            "Penyegaran semula data 5 minit - penentukuran semula yang lebih pantas",
-            "14,000 kredit AI/bln - lebih banyak simulasi",
-            "Data sejarah 3 tahun - ketepatan yang lebih mendalam",
-            "150 pertanyaan ramalan/hari",
-            "Mod kecerdasan Penganalisis & Strategi",
-            "Sokongan berbilang POS asli"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "Tersuai",
-          "perLocation": "Tersuai",
-          "description": "Sokongan khusus, SLA, pilihan label putih dan penyepaduan tersuai.",
-          "enhancements": [
-            "Selang segar semula data tersuai",
-            "Kredit AI tanpa had",
-            "Akses data sejarah penuh",
-            "Pertanyaan ramalan tanpa had",
-            "Semua mod kecerdasan",
-            "Pengurus kejayaan yang berdedikasi"
-          ]
-        }
-      ],
       "ctaTitle": "Bersedia untuk Kecerdasan Ramalan?",
       "ctaDescription": "Beritahu kami apa yang anda perlukan. Kami akan membina model untuk mewujudkannya.",
       "ctaPrimary": "Tempah Demo",
@@ -7341,50 +6461,6 @@ export const generatedLocalCopy = {
           ],
           "icon": "risk",
           "color": "from-rose-500 to-pink-600"
-        }
-      ],
-      "pricingTitle": "เพิ่ม Foresight ลงในแผน Core ของคุณ",
-      "pricingDescription": "แผน Foresight ทุกแผนประกอบด้วยหน้าย่อยทั้งหมด 17 หน้าและภาพพยากรณ์ 32 รายการ ระดับ Core ของคุณจะกำหนดว่าคุณจะประมวลผลได้เร็วแค่ไหน ลึกแค่ไหน และมากแค่ไหน",
-      "pricingTiers": [
-        {
-          "tier": "Core Lite",
-          "base": "279 ดอลลาร์",
-          "perLocation": "27 ดอลลาร์",
-          "description": "สำหรับผู้ปฏิบัติงานหน่วยเดียวที่เริ่มต้นใช้งานระบบอัจฉริยะเชิงคาดการณ์",
-          "enhancements": [
-            "รอบการรีเฟรชข้อมูล 15 นาที",
-            "8,000 เครดิต AI/เดือน",
-            "ข้อมูลการฝึกอบรมย้อนหลัง 2 ปี",
-            "การค้นหาการคาดการณ์ 50 รายการ/วัน"
-          ]
-        },
-        {
-          "tier": "Core Pro",
-          "base": "$449/เดือน",
-          "perLocation": "24 ดอลลาร์",
-          "description": "สำหรับผู้ปฏิบัติงานหลายหน่วยที่มีหน่วยข่าวกรองเต็มรูปแบบ",
-          "enhancements": [
-            "รีเฟรชข้อมูล 5 นาที - การปรับเทียบใหม่เร็วขึ้น",
-            "14,000 เครดิต AI/เดือน - การจำลองเพิ่มเติม",
-            "ข้อมูลย้อนหลัง 3 ปี - แม่นยำยิ่งขึ้น",
-            "การค้นหาการคาดการณ์ 150 รายการ/วัน",
-            "โหมดอัจฉริยะของนักวิเคราะห์และนักยุทธศาสตร์",
-            "รองรับ POS หลายตัวแบบเนทีฟ"
-          ]
-        },
-        {
-          "tier": "Enterprise",
-          "base": "กำหนดเอง",
-          "perLocation": "กำหนดเอง",
-          "description": "การสนับสนุนเฉพาะ, SLA, ตัวเลือกไวท์เลเบล และการบูรณาการแบบกำหนดเอง",
-          "enhancements": [
-            "ช่วงเวลาการรีเฟรชข้อมูลแบบกำหนดเอง",
-            "เครดิต AI ไม่จำกัด",
-            "การเข้าถึงข้อมูลประวัติแบบเต็ม",
-            "แบบสอบถามการคาดการณ์ไม่ จำกัด",
-            "โหมดสติปัญญาทั้งหมด",
-            "ผู้จัดการความสำเร็จโดยเฉพาะ"
-          ]
         }
       ],
       "ctaTitle": "พร้อมสำหรับการคาดการณ์อัจฉริยะแล้วหรือยัง?",

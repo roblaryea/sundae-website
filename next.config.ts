@@ -7,6 +7,14 @@ const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sund
 const nextConfig: NextConfig = {
   reactCompiler: true,
   poweredByHeader: false,
+  // Tree-shake the two barrel libraries imported across almost every route
+  // bundle. framer-motion (via PageAnimations) and lucide-react ship large
+  // index barrels; optimizePackageImports rewrites them to per-export deep
+  // imports so each route only pays for what it uses, trimming the shared
+  // client chunk loaded on first paint. (3D libs are already dynamic()-split.)
+  experimental: {
+    optimizePackageImports: ["framer-motion", "lucide-react"],
+  },
   // Hide the Next.js dev indicator (the circular "N" bottom-left) - it overlapped
   // content during mobile review. Dev-only; never shipped to production anyway.
   devIndicators: false,
@@ -43,6 +51,22 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Core product pages unified under /product/* — keep old top-level URLs working
+      {
+        source: '/intelligence',
+        destination: '/product/intelligence',
+        permanent: true,
+      },
+      {
+        source: '/insights',
+        destination: '/product/insights',
+        permanent: true,
+      },
+      {
+        source: '/benchmarking',
+        destination: '/product/benchmarking',
+        permanent: true,
+      },
       {
         source: '/pricing',
         destination: pricingUrl,
@@ -58,9 +82,25 @@ const nextConfig: NextConfig = {
         destination: '/sign-in',
         permanent: true,
       },
+      // Sundae Report was a product line built entirely on the Report
+      // Lite/Plus/Pro ladder, which price book v1.7 retires. Its surfaces are
+      // gone rather than restated, because there is no v1.7 SKU to restate
+      // them as. Benchmarking survives as a capability inside every Core
+      // package, so that is where the old Report URLs land; the Report-vs-Core
+      // comparison has no successor question and goes to the product hub.
       {
         source: '/product/sundae-report',
-        destination: '/report',
+        destination: '/product/benchmarking',
+        permanent: true,
+      },
+      {
+        source: '/report',
+        destination: '/product/benchmarking',
+        permanent: true,
+      },
+      {
+        source: '/report-vs-core',
+        destination: '/product',
         permanent: true,
       },
       {
@@ -102,13 +142,16 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withBotId(
-  withSentryConfig(nextConfig, {
-    org: process.env.SENTRY_ORG,
-    project: process.env.SENTRY_PROJECT,
-    silent: !process.env.CI,
-    sourcemaps: {
-      filesToDeleteAfterUpload: ["./next/**/*.map"],
-    },
-  }),
-);
+const configuredNext =
+  process.env.SENTRY_SKIP_UPLOAD === "1"
+    ? nextConfig
+    : withSentryConfig(nextConfig, {
+        org: process.env.SENTRY_ORG,
+        project: process.env.SENTRY_PROJECT,
+        silent: !process.env.CI,
+        sourcemaps: {
+          filesToDeleteAfterUpload: ["./next/**/*.map"],
+        },
+      });
+
+export default withBotId(configuredNext);

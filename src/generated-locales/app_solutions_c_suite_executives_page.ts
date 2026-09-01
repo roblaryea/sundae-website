@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
       "badge": "Para ejecutivos y propietarios",
       "titleLine1": "Gestiona la cartera.",
       "titleLine2": "No la hoja de cálculo.",
-      "description": "Briefings diarios de IA en todas las marcas. Variación de margen el mismo día en que ocurre. Señal de mercado antes de que llegue a tus números.",
+      "description": "Briefings diarios de IA en todas las marcas. Encuentra la fuga de margen el día que aparece, dirige la corrección a un operador responsable y mide el margen recuperado frente a la línea base.",
       "primaryCta": "Agenda una sesión ejecutiva",
       "secondaryCta": "Ver la demo ejecutiva",
       "problemsEyebrow": "LO QUE DETIENE A LOS EJECUTIVOS",
@@ -39,7 +39,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Centro de mando de cartera en tiempo real",
-          "description": "Ingresos, márgenes y mano de obra en vivo en todos los locales. Pulse señala qué ubicación necesita atención antes de que termine el turno.",
+          "description": "Ingresos, márgenes y mano de obra en vivo en todos los locales. El local que pierde margen aparece, la corrección dirigida a su responsable, y el margen recuperado medido frente a la línea base.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -52,7 +52,7 @@ export const generatedLocalCopy = {
         {
           "title": "Respuestas citadas en la fuente en segundos",
           "description": "Pregunta por qué la marca C comprimió margen o qué locales pierden frente a promociones de la competencia. Obtén una respuesta citada con los datos que la respaldan.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -72,7 +72,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Cartera más ajustada, menos sorpresas",
-          "description": "Las ubicaciones con bajo rendimiento aparecen en el informe de la mañana, no en la revisión trimestral.",
+          "description": "Las ubicaciones con bajo rendimiento aparecen en el informe de la mañana, la corrección dirigida a un responsable y el margen recuperado medido - no en la revisión trimestral.",
           "icon": "performance"
         },
         {
@@ -86,7 +86,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vea su cartera en una sola vista.",
+      "ctaTitle": "Recupere margen en toda la cartera.",
       "ctaDescription": "30 minutos. Tus datos. Lo que Sundae realmente cambiaría para la oficina ejecutiva.",
       "ctaButton": "Agenda una sesión ejecutiva"
     },
@@ -94,7 +94,7 @@ export const generatedLocalCopy = {
       "badge": "للجناح التنفيذي والمالكين",
       "titleLine1": "أدِر المحفظة.",
       "titleLine2": "لا جدول البيانات.",
-      "description": "ملخصات يومية بالذكاء الاصطناعي عبر كل علامة تجارية. تباين الهامش في اليوم نفسه الذي يحدث فيه. إشارة السوق قبل أن تصل إلى أرقامك.",
+      "description": "ملخصات يومية بالذكاء الاصطناعي عبر كل علامة تجارية. اعثر على تسرّب الهامش يوم حدوثه، ووجّه الإصلاح إلى مشغّل مسؤول، وقِس الهامش المستردّ مقابل خط الأساس.",
       "primaryCta": "احجز جلسة إحاطة تنفيذية",
       "secondaryCta": "شاهد العرض التوضيحي التنفيذي",
       "problemsEyebrow": "ما الذي يبطئ المديرين التنفيذيين",
@@ -127,7 +127,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "قيادة المحفظة في الوقت الفعلي",
-          "description": "الإيرادات والهامش والعمالة مباشرةً عبر كل فرع. يشير Pulse إلى الموقع الذي يحتاج إلى اهتمامك قبل أن تنتهي الوردية.",
+          "description": "الإيرادات والهامش والعمالة مباشرةً عبر كل فرع. الفرع الذي يتسرّب هامشه يظهر مع توجيه الإصلاح إلى مديره، والهامش المستردّ يُقاس مقابل خط الأساس.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -140,7 +140,7 @@ export const generatedLocalCopy = {
         {
           "title": "إجابات موثَّقة بمصدرها في ثوانٍ",
           "description": "اسأل عن سبب انضغاط هامش العلامة التجارية C أو أي الفروع تخسر أمام عروض المنافسين الترويجية. احصل على إجابة مدعومة بالبيانات التي تستند إليها.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -160,7 +160,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "محفظة أكثر إحكامًا ومفاجآت أقل",
-          "description": "تظهر المواقع ضعيفة الأداء في الموجز الصباحي - لا في المراجعة الربع سنوية.",
+          "description": "تظهر المواقع ضعيفة الأداء في الموجز الصباحي، ويُوجَّه الإصلاح إلى مسؤول ويُقاس الهامش المستردّ - لا في المراجعة الربع سنوية.",
           "icon": "performance"
         },
         {
@@ -174,7 +174,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "شاهد محفظتك في عرض واحد.",
+      "ctaTitle": "استردّ الهامش عبر المحفظة بأكملها.",
       "ctaDescription": "30 دقيقة. بياناتك أنت. ما الذي سيغيّره Sundae فعليًا بالنسبة للمكتب التنفيذي.",
       "ctaButton": "احجز جلسة إحاطة تنفيذية"
     },
@@ -182,7 +182,7 @@ export const generatedLocalCopy = {
       "badge": "Para executivos e proprietários",
       "titleLine1": "Comande o portfólio.",
       "titleLine2": "Não a planilha.",
-      "description": "Briefings diários de IA para todas as marcas. Variação da margem no dia em que isso acontece. Sinal do mercado antes de atingir seus números.",
+      "description": "Briefings diários de IA para todas as marcas. Encontre o vazamento de margem no dia em que ele surge, encaminhe a correção a um operador responsável e meça a margem recuperada em relação à linha de base.",
       "primaryCta": "Agende um Briefing Executivo",
       "secondaryCta": "Veja a demonstração executiva",
       "problemsEyebrow": "O QUE RETARDA OS EXECUTIVOS",
@@ -215,7 +215,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Comando de portfólio em tempo real",
-          "description": "Receita, margem e mão de obra em tempo real em todos os pontos de venda. O Pulse sinaliza o local que precisa de sua atenção antes do término do turno.",
+          "description": "Receita, margem e mão de obra em tempo real em todos os pontos de venda. O ponto de venda que perde margem aparece, a correção encaminhada ao seu gerente, e a margem recuperada medida em relação à linha de base.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -228,7 +228,7 @@ export const generatedLocalCopy = {
         {
           "title": "Respostas citadas pela fonte em segundos",
           "description": "Pergunte por que a Marca C comprimiu a margem ou quais pontos de venda perdem para as promoções dos concorrentes. Obtenha uma resposta com citação da fonte, junto dos dados que a sustentam.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portfólio mais restrito, menos surpresas",
-          "description": "Os locais com baixo desempenho aparecem no briefing matinal - não na revisão trimestral.",
+          "description": "Os locais com baixo desempenho aparecem no briefing matinal, a correção encaminhada a um responsável e a margem recuperada medida - não na revisão trimestral.",
           "icon": "performance"
         },
         {
@@ -262,7 +262,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Veja seu portfólio em uma única visualização.",
+      "ctaTitle": "Recupere margem em todo o portfólio.",
       "ctaDescription": "30 minutos. Seus dados. O que o Sundae realmente mudaria para a diretoria.",
       "ctaButton": "Agende um Briefing Executivo"
     },
@@ -270,7 +270,7 @@ export const generatedLocalCopy = {
       "badge": "Für C-Suite und Eigentümer",
       "titleLine1": "Steuern Sie das Portfolio.",
       "titleLine2": "Nicht die Tabelle.",
-      "description": "Tägliche KI-Briefings für alle Marken. Margenvarianz an dem Tag, an dem sie auftritt. Marktsignal, bevor es Ihre Zahlen erreicht.",
+      "description": "Tägliche KI-Briefings für alle Marken. Finden Sie das Margenleck am Tag, an dem es entsteht, leiten Sie die Behebung an einen verantwortlichen Betreiber weiter und messen Sie die zurückgewonnene Marge gegen die Baseline.",
       "primaryCta": "Buchen Sie ein Executive Briefing",
       "secondaryCta": "Siehe Executive-Demo",
       "problemsEyebrow": "Was Führungskräfte verlangsamt",
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portfolio-Steuerung in Echtzeit",
-          "description": "Live-Umsatz, Marge und Personalkosten in jeder Filiale. Pulse markiert den Standort, der Ihre Aufmerksamkeit erfordert, bevor die Schicht endet.",
+          "description": "Live-Umsatz, Marge und Personalkosten in jeder Filiale. Die Filiale mit Margenverlust taucht auf, die Behebung geht an ihren Manager, und die zurückgewonnene Marge wird gegen die Baseline gemessen.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -316,7 +316,7 @@ export const generatedLocalCopy = {
         {
           "title": "Quellenzitierte Antworten in Sekundenschnelle",
           "description": "Fragen Sie, warum die Marge von Marke C gesunken ist oder welche Filialen aufgrund der Werbeaktionen der Konkurrenz verlieren. Erhalten Sie eine quellenbelegte Antwort samt der Daten, aus denen sie stammt.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -336,7 +336,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Engeres Portfolio, weniger Überraschungen",
-          "description": "Standorte mit schlechter Leistung tauchen im Morgenbrief auf - nicht in der vierteljährlichen Überprüfung.",
+          "description": "Standorte mit schlechter Leistung tauchen im Morgenbrief auf, die Behebung geht an einen Verantwortlichen und die zurückgewonnene Marge wird gemessen - nicht erst in der vierteljährlichen Überprüfung.",
           "icon": "performance"
         },
         {
@@ -350,7 +350,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Sehen Sie Ihr Portfolio auf einen Blick.",
+      "ctaTitle": "Gewinnen Sie Marge über das gesamte Portfolio zurück.",
       "ctaDescription": "30 Minuten. Ihre Daten. Was Sundae für die Geschäftsleitung tatsächlich ändern würde.",
       "ctaButton": "Buchen Sie ein Executive Briefing"
     },
@@ -358,7 +358,7 @@ export const generatedLocalCopy = {
       "badge": "Pour les cadres supérieurs et les propriétaires",
       "titleLine1": "Pilotez le portefeuille.",
       "titleLine2": "Pas la feuille de calcul.",
-      "description": "Briefings quotidiens sur l'IA pour chaque marque. Variation de marge le jour où cela se produit. Signal du marché avant qu’il n’atteigne vos chiffres.",
+      "description": "Briefings quotidiens sur l'IA pour chaque marque. Trouvez la fuite de marge le jour où elle apparaît, confiez la correction à un opérateur responsable, et mesurez la marge récupérée par rapport à la référence.",
       "primaryCta": "Réservez un briefing exécutif",
       "secondaryCta": "Voir la démo exécutive",
       "problemsEyebrow": "CE QUI RALENTIT LES CADRES",
@@ -391,7 +391,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Pilotage du portefeuille en temps réel",
-          "description": "Revenus, marges et main-d'œuvre en direct dans chaque point de vente. Pulse signale l'établissement qui nécessite votre attention avant la fin du service.",
+          "description": "Revenus, marges et main-d'œuvre en direct dans chaque point de vente. Le point de vente qui perd de la marge remonte, la correction confiée à son responsable, et la marge récupérée mesurée par rapport à la référence.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -404,7 +404,7 @@ export const generatedLocalCopy = {
         {
           "title": "Réponses citées par la source en quelques secondes",
           "description": "Demandez pourquoi la marque C a comprimé la marge ou quels points de vente perdent face aux promotions des concurrents. Obtenez une réponse sourcée, accompagnée des données dont elle est tirée.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -424,7 +424,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portefeuille plus restreint, moins de surprises",
-          "description": "Les emplacements sous-performants font surface dans le briefing du matin - et non dans l’examen trimestriel.",
+          "description": "Les emplacements sous-performants font surface dans le briefing du matin, la correction confiée à un responsable et la marge récupérée mesurée - et non dans l'examen trimestriel.",
           "icon": "performance"
         },
         {
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Visualisez votre portefeuille en une seule vue.",
+      "ctaTitle": "Récupérez de la marge sur tout le portefeuille.",
       "ctaDescription": "30 minutes. Vos données. Ce que Sundae changerait réellement pour le bureau exécutif.",
       "ctaButton": "Réservez un briefing exécutif"
     },
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
       "badge": "Voor C-Suite en eigenaren",
       "titleLine1": "Beheer de portefeuille.",
       "titleLine2": "Niet het spreadsheet.",
-      "description": "Dagelijkse AI-briefings voor elk merk. Margeafwijking op de dag dat het gebeurt. Marktsignaal voordat het uw cijfers bereikt.",
+      "description": "Dagelijkse AI-briefings voor elk merk. Vind het margelek op de dag dat het ontstaat, stuur de oplossing naar een verantwoordelijke operator en meet de teruggewonnen marge af tegen de baseline.",
       "primaryCta": "Boek een Executive Briefing",
       "secondaryCta": "Zie Executive-demo",
       "problemsEyebrow": "WAT VERTRAAGT BESTUURDERS",
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portfoliobeheer in realtime",
-          "description": "Live omzet, marge en arbeid in elk verkooppunt. Pulse markeert de locatie die uw aandacht nodig heeft voordat de dienst eindigt.",
+          "description": "Live omzet, marge en arbeid in elk verkooppunt. Het verkooppunt met margeverlies komt naar voren, de oplossing naar zijn manager gestuurd, en de teruggewonnen marge gemeten tegen de baseline.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -492,7 +492,7 @@ export const generatedLocalCopy = {
         {
           "title": "Bronvermelde antwoorden in seconden",
           "description": "Vraag waarom merk C de marge heeft gecomprimeerd of welke verkooppunten verliezen door promoties van concurrenten. Krijg een antwoord met bronvermelding, inclusief de gegevens waaruit het is afgeleid.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -512,7 +512,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Strakkere portefeuille, minder verrassingen",
-          "description": "Slecht presterende locaties komen naar voren in de ochtendbriefing en niet in de driemaandelijkse evaluatie.",
+          "description": "Slecht presterende locaties komen naar voren in de ochtendbriefing, de oplossing naar een verantwoordelijke gestuurd en de teruggewonnen marge gemeten - niet in de driemaandelijkse evaluatie.",
           "icon": "performance"
         },
         {
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Bekijk uw portefeuille in één oogopslag.",
+      "ctaTitle": "Win marge terug in de hele portefeuille.",
       "ctaDescription": "30 minuten. Uw gegevens. Wat Sundae werkelijk zou veranderen voor het directiekantoor.",
       "ctaButton": "Boek een Executive Briefing"
     },
@@ -534,7 +534,7 @@ export const generatedLocalCopy = {
       "badge": "C-Suite اور مالکان کے لیے",
       "titleLine1": "پورٹ فولیو چلائیں۔",
       "titleLine2": "اسپریڈشیٹ نہیں۔",
-      "description": "ہر برانڈ میں روزانہ AI بریفنگ۔ مارجن میں فرق اُسی دن جس دن یہ ہوتا ہے۔ آپ کے اعداد و شمار تک پہنچنے سے پہلے مارکیٹ کا سگنل۔",
+      "description": "ہر برانڈ میں روزانہ AI بریفنگ۔ مارجن لیک کو اُسی دن تلاش کریں جس دن یہ ظاہر ہوتا ہے، اصلاح کو ایک جوابدہ آپریٹر تک پہنچائیں، اور بازیافت شدہ مارجن کو بیس لائن کے مقابلے میں ماپیں۔",
       "primaryCta": "ایک ایگزیکٹو بریفنگ بک کرو",
       "secondaryCta": "ایگزیکٹو ڈیمو دیکھیں",
       "problemsEyebrow": "جو ایگزیکٹوز کو سست کرتا ہے۔",
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "حقیقی وقت میں پورٹ فولیو کمانڈ",
-          "description": "ہر آؤٹ لیٹ میں لائیو ریونیو، مارجن، اور لیبر۔ Pulse اُس مقام کی نشاندہی کرتا ہے جسے شفٹ ختم ہونے سے پہلے آپ کی توجہ درکار ہوتی ہے۔",
+          "description": "ہر آؤٹ لیٹ میں لائیو ریونیو، مارجن، اور لیبر۔ جس آؤٹ لیٹ سے مارجن رِس رہا ہے وہ سامنے آتا ہے، اصلاح اُس کے مینیجر تک پہنچتی ہے، اور بازیافت شدہ مارجن بیس لائن کے مقابلے میں ماپا جاتا ہے۔",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -580,7 +580,7 @@ export const generatedLocalCopy = {
         {
           "title": "سیکنڈوں میں ماخذ کے حوالے سے جوابات",
           "description": "پوچھیں کہ برانڈ C کا مارجن کیوں دب گیا یا کون سے آؤٹ لیٹس حریفوں کے پروموز سے ہار رہے ہیں۔ اُس ڈیٹا کے ساتھ ماخذ کا حوالہ دیا گیا جواب حاصل کریں جس سے یہ اخذ کیا گیا ہے۔",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -600,7 +600,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "سخت پورٹ فولیو، کم حیرت",
-          "description": "ناقص کارکردگی والے مقامات صبح کے مختصر وقت میں سامنے آتے ہیں - سہ ماہی جائزہ نہیں۔",
+          "description": "ناقص کارکردگی والے مقامات صبح کی بریفنگ میں سامنے آتے ہیں، اصلاح ایک ذمہ دار تک پہنچتی ہے اور بازیافت شدہ مارجن ماپا جاتا ہے - سہ ماہی جائزہ نہیں۔",
           "icon": "performance"
         },
         {
@@ -614,7 +614,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "اپنے پورٹ فولیو کو ایک ہی نظر میں دیکھیں۔",
+      "ctaTitle": "پورے پورٹ فولیو میں مارجن بازیافت کریں۔",
       "ctaDescription": "30 منٹ آپ کا ڈیٹا۔ Sundae اصل میں ایگزیکٹو آفس کے لئے کیا تبدیل کرے گا.",
       "ctaButton": "ایک ایگزیکٹو بریفنگ بک کرو"
     },
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
       "badge": "सी-सूट और मालिकों के लिए",
       "titleLine1": "पोर्टफ़ोलियो चलाएँ.",
       "titleLine2": "स्प्रेडशीट नहीं.",
-      "description": "प्रत्येक ब्रांड पर दैनिक एआई ब्रीफिंग। जिस दिन ऐसा होता है उस दिन मार्जिन भिन्नता होती है। आपके नंबरों तक पहुंचने से पहले बाज़ार संकेत।",
+      "description": "हर ब्रांड पर दैनिक AI ब्रीफिंग। मार्जिन लीक को उसी दिन खोजें जिस दिन वह उभरता है, सुधार को एक जवाबदेह ऑपरेटर तक पहुँचाएँ, और पुनर्प्राप्त मार्जिन को बेसलाइन के मुकाबले मापें।",
       "primaryCta": "एक कार्यकारी ब्रीफिंग बुक करें",
       "secondaryCta": "कार्यकारी डेमो देखें",
       "problemsEyebrow": "अधिकारियों की गति क्या धीमी होती है?",
@@ -655,7 +655,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "वास्तविक समय में पोर्टफोलियो कमांड",
-          "description": "हर आउटलेट पर लाइव राजस्व, मार्जिन और श्रम। शिफ्ट समाप्त होने से पहले Pulse उस स्थान को चिह्नित करता है जिस पर आपका ध्यान चाहिए।",
+          "description": "हर आउटलेट पर लाइव राजस्व, मार्जिन और श्रम। जिस आउटलेट से मार्जिन रिस रहा है वह सामने आता है, सुधार उसके मैनेजर तक पहुँचता है, और पुनर्प्राप्त मार्जिन बेसलाइन के मुकाबले मापा जाता है।",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -668,7 +668,7 @@ export const generatedLocalCopy = {
         {
           "title": "स्रोत-उद्धृत उत्तर सेकंडों में",
           "description": "पूछें कि ब्रांड सी का मार्जिन क्यों कम हुआ या कौन से आउटलेट प्रतिस्पर्धी प्रोमो से हार गए। जिस डेटा से यह लिया गया है, उसके साथ स्रोत-उद्धृत उत्तर प्राप्त करें।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -688,7 +688,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "सख्त पोर्टफोलियो, कम आश्चर्य",
-          "description": "खराब प्रदर्शन वाले स्थान सुबह की संक्षिप्त जानकारी में सामने आते हैं - त्रैमासिक समीक्षा में नहीं।",
+          "description": "खराब प्रदर्शन वाले स्थान सुबह की ब्रीफिंग में सामने आते हैं, सुधार एक जिम्मेदार व्यक्ति तक पहुँचता है और पुनर्प्राप्त मार्जिन मापा जाता है - त्रैमासिक समीक्षा में नहीं।",
           "icon": "performance"
         },
         {
@@ -702,7 +702,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "अपने पोर्टफ़ोलियो को एक दृश्य में देखें.",
+      "ctaTitle": "पूरे पोर्टफ़ोलियो में मार्जिन पुनर्प्राप्त करें।",
       "ctaDescription": "30 मिनट. आपका डेटा. कार्यकारी कार्यालय के लिए Sundae वास्तव में क्या बदलेगा।",
       "ctaButton": "एक कार्यकारी ब्रीफिंग बुक करें"
     },
@@ -710,7 +710,7 @@ export const generatedLocalCopy = {
       "badge": "Per C-Suite e proprietari",
       "titleLine1": "Gestisci il portafoglio.",
       "titleLine2": "Non il foglio di calcolo.",
-      "description": "Briefing giornalieri sull'intelligenza artificiale per ogni marchio. Variazione del margine il giorno in cui accade. Segnale di mercato prima che raggiunga i tuoi numeri.",
+      "description": "Briefing giornalieri sull'intelligenza artificiale per ogni marchio. Trova la perdita di margine il giorno in cui si apre, indirizza la correzione a un operatore responsabile e misura il margine recuperato rispetto alla baseline.",
       "primaryCta": "Prenota un briefing esecutivo",
       "secondaryCta": "Vedi Demo esecutivo",
       "problemsEyebrow": "COSA RALLENTA I DIRIGENTI",
@@ -743,7 +743,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Comando del portafoglio in tempo reale",
-          "description": "Entrate, margini e manodopera in tempo reale in ogni punto vendita. Pulse segnala la sede che richiede la tua attenzione prima della fine del turno.",
+          "description": "Entrate, margini e manodopera in tempo reale in ogni punto vendita. Il punto vendita che perde margine emerge, la correzione indirizzata al suo responsabile, e il margine recuperato misurato rispetto alla baseline.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -756,7 +756,7 @@ export const generatedLocalCopy = {
         {
           "title": "Risposte citate dalla fonte in pochi secondi",
           "description": "Chiedi perché il marchio C ha compresso il margine o quali punti vendita perdono a causa delle promozioni della concorrenza. Ottieni una risposta con citazione della fonte, insieme ai dati da cui è tratta.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -776,7 +776,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portafoglio più ristretto, meno sorprese",
-          "description": "Le località con performance inferiori emergono nel brief mattutino, non nella revisione trimestrale.",
+          "description": "Le località con performance inferiori emergono nel brief mattutino, la correzione indirizzata a un responsabile e il margine recuperato misurato - non nella revisione trimestrale.",
           "icon": "performance"
         },
         {
@@ -790,7 +790,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Visualizza il tuo portafoglio in un'unica visualizzazione.",
+      "ctaTitle": "Recupera margine su tutto il portafoglio.",
       "ctaDescription": "30 minuti. I tuoi dati. Ciò che il Sundae cambierebbe effettivamente per l'ufficio esecutivo.",
       "ctaButton": "Prenota un briefing esecutivo"
     },
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
       "badge": "对于最高管理层和所有者",
       "titleLine1": "掌管投资组合。",
       "titleLine2": "而不是电子表格。",
-      "description": "覆盖每个品牌的每日 AI 简报。利润率波动当天即可掌握。市场信号在影响到您的数字之前就已送达。",
+      "description": "覆盖每个品牌的每日 AI 简报。在利润率漏损出现的当天就找到它，把修复分派给负责的运营人，并对照基线衡量已挽回的利润率。",
       "primaryCta": "预约执行简报",
       "secondaryCta": "查看执行演示",
       "problemsEyebrow": "是什么让高管们放慢脚步",
@@ -831,7 +831,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "实时投资组合掌控",
-          "description": "每个网点的实时收入、利润率和人力成本。Pulse 会在轮班结束前标记出需要您关注的门店。",
+          "description": "每个网点的实时收入、利润率和人力成本。正在漏损利润率的门店会浮现出来，修复被分派给它的经理，已挽回的利润率则对照基线衡量。",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -844,7 +844,7 @@ export const generatedLocalCopy = {
         {
           "title": "几秒钟内引用来源的答案",
           "description": "询问品牌 C 为何利润率受压，或哪些门店在竞争对手的促销中失利。获得一个标注来源的答案，并附上其依据的数据。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -864,7 +864,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "更严格的投资组合，更少的惊喜",
-          "description": "表现不佳的地点会出现在早间简报中，而不是季度回顾中。",
+          "description": "表现不佳的门店会出现在早间简报中，修复被分派给一位负责人，已挽回的利润率也被衡量，而不是留到季度回顾。",
           "icon": "performance"
         },
         {
@@ -878,7 +878,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "在一个视图中查看您的投资组合。",
+      "ctaTitle": "在整个投资组合中挽回利润率。",
       "ctaDescription": "30分钟。你的数据。Sundae实际上会给行政办公室带来什么改变。",
       "ctaButton": "预约执行简报"
     },
@@ -886,7 +886,7 @@ export const generatedLocalCopy = {
       "badge": "Dla kadry kierowniczej i właścicieli",
       "titleLine1": "Uruchom portfel.",
       "titleLine2": "Nie arkusz kalkulacyjny.",
-      "description": "Codzienne briefingi dotyczące sztucznej inteligencji dla każdej marki. Odchylenie marży w dniu, w którym to nastąpi. Sygnał rynkowy, zanim dotrze do Twoich liczb.",
+      "description": "Codzienne briefingi AI dla każdej marki. Znajdź wyciek marży w dniu, w którym się pojawia, skieruj naprawę do odpowiedzialnego operatora i zmierz odzyskaną marżę względem poziomu bazowego.",
       "primaryCta": "Zarezerwuj odprawę dla kadry kierowniczej",
       "secondaryCta": "Zobacz Demo wykonawcze",
       "problemsEyebrow": "CO SPOWOLNIA KIEROWNIKÓW",
@@ -919,7 +919,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Sterowanie portfelem w czasie rzeczywistym",
-          "description": "Przychody, marża i koszty pracy na żywo w każdym punkcie sprzedaży. Pulse wskazuje lokalizację, która wymaga Twojej uwagi przed zakończeniem zmiany.",
+          "description": "Przychody, marża i koszty pracy na żywo w każdym punkcie sprzedaży. Punkt, z którego ucieka marża, pojawia się, naprawa trafia do jego kierownika, a odzyskana marża jest mierzona względem poziomu bazowego.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -932,7 +932,7 @@ export const generatedLocalCopy = {
         {
           "title": "Odpowiedzi cytowane w źródle w ciągu kilku sekund",
           "description": "Zapytaj, dlaczego marża Marki C spadła lub które punkty sprzedaży przegrywają z promocjami konkurencji. Uzyskaj odpowiedź z cytowanym źródłem wraz z danymi, z których została wyciągnięta.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -952,7 +952,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Węższe portfolio, mniej niespodzianek",
-          "description": "Słabe lokalizacje pojawiają się w porannym podsumowaniu, a nie w przeglądzie kwartalnym.",
+          "description": "Słabe lokalizacje pojawiają się w porannym podsumowaniu, naprawa trafia do osoby odpowiedzialnej, a odzyskana marża jest mierzona - a nie w przeglądzie kwartalnym.",
           "icon": "performance"
         },
         {
@@ -966,7 +966,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Zobacz swoje portfolio w jednym widoku.",
+      "ctaTitle": "Odzyskaj marżę w całym portfelu.",
       "ctaDescription": "30 minut. Twoje dane. Co właściwie Sundae zmieniłoby w biurze wykonawczym.",
       "ctaButton": "Zarezerwuj odprawę dla kadry kierowniczej"
     },
@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       "badge": "Üst Düzey Yöneticiler ve Sahipler İçin",
       "titleLine1": "Portföyü yönetin.",
       "titleLine2": "Elektronik tabloyu değil.",
-      "description": "Her marka için günlük AI brifingleri. Marj sapması gerçekleştiği gün. Rakamlarınıza ulaşmadan önce piyasa sinyali.",
+      "description": "Her marka için günlük AI brifingleri. Marj sızıntısını ortaya çıktığı gün bulun, düzeltmeyi sorumlu bir operatöre yönlendirin ve geri kazanılan marjı temel çizgiye göre ölçün.",
       "primaryCta": "Yönetici Brifingi Rezervasyonu Yapın",
       "secondaryCta": "Yönetici Demosunu Görün",
       "problemsEyebrow": "YÖNETİCİLERİ NE YAVAŞLATIR?",
@@ -1007,7 +1007,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Gerçek zamanlı portföy komutu",
-          "description": "Her satış noktasında canlı gelir, marj ve iş gücü. Pulse, vardiya sona ermeden önce ilgilenmeniz gereken konumu işaretler.",
+          "description": "Her satış noktasında canlı gelir, marj ve iş gücü. Marj sızdıran satış noktası öne çıkar, düzeltmesi yöneticisine yönlendirilir ve geri kazanılan marj temel çizgiye göre ölçülür.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1020,7 +1020,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kaynaktan alıntılanan yanıtlar saniyeler içinde",
           "description": "C Markasının marjının neden daraldığını veya hangi satış noktalarının rakip promosyonlara karşı kaybettiğini sorun. Dayandığı verilerle birlikte kaynak gösterilen bir yanıt alın.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1040,7 +1040,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Daha sıkı portföy, daha az sürpriz",
-          "description": "Düşük performans gösteren lokasyonlar, üç aylık incelemelerde değil, sabah özetinde ortaya çıkıyor.",
+          "description": "Düşük performans gösteren lokasyonlar sabah özetinde ortaya çıkar, düzeltme bir sorumluya yönlendirilir ve geri kazanılan marj ölçülür - üç aylık incelemede değil.",
           "icon": "performance"
         },
         {
@@ -1054,7 +1054,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Portföyünüzü tek görünümde görün.",
+      "ctaTitle": "Tüm portföyde marjı geri kazanın.",
       "ctaDescription": "30 dakika. Verileriniz. Sundae'nin yönetici ofisi için gerçekte neyi değiştireceği.",
       "ctaButton": "Yönetici Brifingi Rezervasyonu Yapın"
     },
@@ -1062,7 +1062,7 @@ export const generatedLocalCopy = {
       "badge": "経営幹部とオーナー向け",
       "titleLine1": "ポートフォリオを動かす。",
       "titleLine2": "スプレッドシートではなく。",
-      "description": "すべてのブランドにわたる毎日の AI ブリーフィング。利益率の変動を、それが起きた当日に。市場シグナルを、数字に届く前に。",
+      "description": "すべてのブランドにわたる毎日の AI ブリーフィング。利益率の漏れが生じたその日に見つけ、修正を担当オペレーターに割り当て、取り戻した利益率をベースラインと照らして測定します。",
       "primaryCta": "エグゼクティブブリーフィングを予約する",
       "secondaryCta": "エグゼクティブデモを見る",
       "problemsEyebrow": "何が経営幹部の仕事を遅らせるのか",
@@ -1095,7 +1095,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "リアルタイムのポートフォリオ管理",
-          "description": "すべての販売店におけるリアルタイムの収益、利益率、人件費。Pulse は、シフトが終了する前に注意が必要な拠点にフラグを立てます。",
+          "description": "すべての販売店におけるリアルタイムの収益、利益率、人件費。利益率が漏れている店舗が浮かび上がり、修正はその店長に割り当てられ、取り戻した利益率はベースラインと照らして測定されます。",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1108,7 +1108,7 @@ export const generatedLocalCopy = {
         {
           "title": "出典を引用した回答を数秒で表示",
           "description": "ブランド C がなぜ利益率を圧縮したのか、どの販売店が競合他社のプロモーションに負けたのかを尋ねます。根拠となるデータを添えた、出典付きの回答が得られます。",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1128,7 +1128,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ポートフォリオが緊密になり、予想外の事態が少なくなる",
-          "description": "業績不振の店舗は、四半期レビューではなく、朝の概要で表面化します。",
+          "description": "業績不振の店舗は朝のブリーフに表れ、修正は責任者に割り当てられ、取り戻した利益率が測定されます。四半期レビューまで放置しません。",
           "icon": "performance"
         },
         {
@@ -1142,7 +1142,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ポートフォリオを 1 つのビューで確認できます。",
+      "ctaTitle": "ポートフォリオ全体で利益率を取り戻す。",
       "ctaDescription": "30分。あなたのデータ。Sundaeは実際に執行部にとって何を変えるだろうか。",
       "ctaButton": "エグゼクティブブリーフィングを予約する"
     },
@@ -1150,7 +1150,7 @@ export const generatedLocalCopy = {
       "badge": "Pentru C-Suite și proprietari",
       "titleLine1": "Rulați portofoliul.",
       "titleLine2": "Nu foaia de calcul.",
-      "description": "Briefing-uri zilnice de AI pentru fiecare brand. Variația marjei în ziua în care se întâmplă. Semnal de piață înainte de a vă atinge cifrele.",
+      "description": "Briefing-uri zilnice de AI pentru fiecare brand. Găsiți scurgerea de marjă în ziua în care apare, direcționați remedierea către un operator responsabil și măsurați marja recuperată față de valoarea de referință.",
       "primaryCta": "Rezervați un briefing executiv",
       "secondaryCta": "Vedeți Executive Demo",
       "problemsEyebrow": "CE ÎNCETINEȘTE DIRECTORII",
@@ -1183,7 +1183,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Comandă portofoliu în timp real",
-          "description": "Venituri, marjă și forță de muncă în timp real în fiecare punct de vânzare. Pulse semnalează locația care necesită atenția dvs. înainte de sfârșitul turei.",
+          "description": "Venituri, marjă și forță de muncă în timp real în fiecare punct de vânzare. Punctul de vânzare care pierde marjă apare, remedierea este direcționată către managerul său, iar marja recuperată este măsurată față de valoarea de referință.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1196,7 +1196,7 @@ export const generatedLocalCopy = {
         {
           "title": "Răspunsuri citate de sursă în câteva secunde",
           "description": "Întrebați de ce marca C a comprimat marja sau ce puncte de vânzare pierd în fața promoțiilor concurenților. Obțineți un răspuns cu sursă citată, însoțit de datele din care este extras.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1216,7 +1216,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portofoliu mai restrâns, mai puține surprize",
-          "description": "Locațiile cu performanțe slabe apar în rezumatul de dimineață - nu revizuirea trimestrială.",
+          "description": "Locațiile cu performanțe slabe apar în rezumatul de dimineață, remedierea este direcționată către un responsabil, iar marja recuperată este măsurată - nu la revizuirea trimestrială.",
           "icon": "performance"
         },
         {
@@ -1230,7 +1230,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Vedeți-vă portofoliul într-o singură vizualizare.",
+      "ctaTitle": "Recuperați marja în întregul portofoliu.",
       "ctaDescription": "30 de minute. Datele dvs. Ce ar schimba de fapt Sundae pentru biroul executiv.",
       "ctaButton": "Rezervați un briefing executiv"
     },
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
       "badge": "최고 경영진 및 소유자용",
       "titleLine1": "포트폴리오를 실행합니다.",
       "titleLine2": "스프레드시트가 아닙니다.",
-      "description": "모든 브랜드에 대한 일일 AI 브리핑. 발생한 날의 마진 변동. 귀하의 수치에 도달하기 전의 시장 신호입니다.",
+      "description": "모든 브랜드에 대한 일일 AI 브리핑. 마진 누수가 생기는 그날 찾아내고, 수정 작업을 책임 운영자에게 배정하며, 회복된 마진을 기준선과 대비해 측정하세요.",
       "primaryCta": "경영진 브리핑 예약",
       "secondaryCta": "경영진 데모 보기",
       "problemsEyebrow": "경영진의 업무 속도를 늦추는 요인",
@@ -1271,7 +1271,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "실시간 포트폴리오 명령",
-          "description": "모든 매장의 실시간 수익, 마진 및 인건비. Pulse는 근무가 끝나기 전에 주의가 필요한 위치를 표시합니다.",
+          "description": "모든 매장의 실시간 수익, 마진 및 인건비. 마진이 새고 있는 매장이 드러나고, 수정 작업은 해당 매니저에게 배정되며, 회복된 마진은 기준선과 대비해 측정됩니다.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1284,7 +1284,7 @@ export const generatedLocalCopy = {
         {
           "title": "몇 초 만에 출처 인용 답변",
           "description": "브랜드 C의 마진이 왜 줄었는지, 어떤 매장이 경쟁업체 프로모션에 밀리는지 물어보세요. 근거가 된 데이터와 함께 출처가 표시된 답변을 받으세요.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1304,7 +1304,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "더 탄탄한 포트폴리오, 더 적은 놀라움",
-          "description": "실적이 저조한 위치는 분기별 리뷰가 아닌 오전 브리핑에서 드러납니다.",
+          "description": "실적이 저조한 지점은 아침 브리핑에 드러나고, 수정 작업은 책임자에게 배정되며 회복된 마진이 측정됩니다 - 분기 리뷰까지 미루지 않습니다.",
           "icon": "performance"
         },
         {
@@ -1318,7 +1318,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "포트폴리오를 한 화면에서 확인하세요.",
+      "ctaTitle": "포트폴리오 전체에서 마진을 회복하세요.",
       "ctaDescription": "30분. 귀사의 데이터. Sundae가 경영진을 위해 실제로 바꿀 수 있는 것.",
       "ctaButton": "경영진 브리핑 예약"
     },
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
       "badge": "För C-Suite & Owners",
       "titleLine1": "Kör portföljen.",
       "titleLine2": "Inte kalkylbladet.",
-      "description": "Dagliga AI-genomgångar över alla märken. Marginalavvikelse dagen det händer. Marknadssignal innan den når dina siffror.",
+      "description": "Dagliga AI-genomgångar över alla märken. Hitta marginalläckan samma dag den uppstår, dirigera åtgärden till en ansvarig operatör och mät den återvunna marginalen mot baslinjen.",
       "primaryCta": "Boka en Executive Briefing",
       "secondaryCta": "Se Executive Demo",
       "problemsEyebrow": "VAD SOM BROMSAR CHEFER",
@@ -1359,7 +1359,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portföljkommando i realtid",
-          "description": "Live intäkter, marginal och arbetskraft i alla butiker. Pulse flaggar platsen som behöver din uppmärksamhet innan skiftet slutar.",
+          "description": "Live intäkter, marginal och arbetskraft i alla butiker. Butiken som läcker marginal dyker upp, åtgärden skickas till dess chef, och den återvunna marginalen mäts mot baslinjen.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1372,7 +1372,7 @@ export const generatedLocalCopy = {
         {
           "title": "Källangivna svar på några sekunder",
           "description": "Fråga varför Brand C pressade marginalen eller vilka butiker som förlorar mot konkurrenters kampanjer. Få ett källhänvisat svar med uppgifterna det är hämtat från.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tätare portfölj, färre överraskningar",
-          "description": "Underpresterande platser dyker upp i morgonrapporten - inte kvartalsöversynen.",
+          "description": "Underpresterande platser dyker upp i morgonrapporten, åtgärden skickas till en ansvarig och den återvunna marginalen mäts - inte i kvartalsöversynen.",
           "icon": "performance"
         },
         {
@@ -1406,7 +1406,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Se din portfölj i en vy.",
+      "ctaTitle": "Återvinn marginal i hela portföljen.",
       "ctaDescription": "30 minuter. Dina data. Vad Sundae faktiskt skulle förändra för det verkställande kontoret.",
       "ctaButton": "Boka en Executive Briefing"
     },
@@ -1414,7 +1414,7 @@ export const generatedLocalCopy = {
       "badge": "Dành cho C-Suite & Chủ sở hữu",
       "titleLine1": "Chạy danh mục đầu tư.",
       "titleLine2": "Không phải bảng tính.",
-      "description": "Cuộc họp giao ban AI hàng ngày trên mọi thương hiệu. Biến động biên lợi nhuận ngay trong ngày nó xảy ra. Tín hiệu thị trường trước khi nó chạm đến con số của bạn.",
+      "description": "Cuộc họp giao ban AI hàng ngày trên mọi thương hiệu. Tìm ra chỗ rò rỉ biên lợi nhuận ngay trong ngày nó phát sinh, giao việc khắc phục cho một người vận hành chịu trách nhiệm, và đo lường biên lợi nhuận đã thu hồi so với đường cơ sở.",
       "primaryCta": "Đặt một cuộc họp điều hành",
       "secondaryCta": "Xem bản demo điều hành",
       "problemsEyebrow": "ĐIỀU GÌ LÀM CHẬM CÁC ĐIỀU HÀNH",
@@ -1447,7 +1447,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Điều hành danh mục đầu tư theo thời gian thực",
-          "description": "Doanh thu, biên lợi nhuận và lao động trực tiếp trên mọi cửa hàng. Pulse đánh dấu địa điểm cần bạn chú ý trước khi ca làm việc kết thúc.",
+          "description": "Doanh thu, biên lợi nhuận và lao động trực tiếp trên mọi cửa hàng. Cửa hàng đang rò rỉ biên lợi nhuận hiện lên, việc khắc phục được giao cho quản lý của nó, và biên lợi nhuận thu hồi được đo so với đường cơ sở.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1460,7 +1460,7 @@ export const generatedLocalCopy = {
         {
           "title": "Câu trả lời được trích dẫn nguồn trong vài giây",
           "description": "Hỏi tại sao biên lợi nhuận của Thương hiệu C bị nén hoặc cửa hàng nào thua các chương trình khuyến mãi của đối thủ cạnh tranh. Nhận câu trả lời có trích dẫn nguồn, kèm theo dữ liệu mà nó được rút ra.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1480,7 +1480,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Danh mục đầu tư chặt chẽ hơn, ít bất ngờ hơn",
-          "description": "Các vị trí hoạt động kém sẽ xuất hiện trong bản tóm tắt buổi sáng - không phải trong bản đánh giá hàng quý.",
+          "description": "Các vị trí hoạt động kém sẽ xuất hiện trong bản tóm tắt buổi sáng, việc khắc phục được giao cho một người phụ trách và biên lợi nhuận thu hồi được đo lường - không phải trong bản đánh giá hàng quý.",
           "icon": "performance"
         },
         {
@@ -1494,7 +1494,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Xem danh mục đầu tư của bạn trong một chế độ xem.",
+      "ctaTitle": "Thu hồi biên lợi nhuận trên toàn bộ danh mục đầu tư.",
       "ctaDescription": "30 phút. Dữ liệu của bạn. Sundae thực sự sẽ thay đổi điều gì đối với văn phòng điều hành.",
       "ctaButton": "Đặt một cuộc họp điều hành"
     },
@@ -1502,7 +1502,7 @@ export const generatedLocalCopy = {
       "badge": "সি-স্যুট এবং মালিকদের জন্য",
       "titleLine1": "পোর্টফোলিও চালান।",
       "titleLine2": "স্প্রেডশীট নয়।",
-      "description": "প্রতিটি ব্র্যান্ড জুড়ে দৈনিক AI ব্রিফিং। মার্জিনের তারতম্য যেদিন ঘটে সেদিনই। আপনার সংখ্যায় পৌঁছানোর আগেই বাজারের সংকেত।",
+      "description": "প্রতিটি ব্র্যান্ড জুড়ে দৈনিক AI ব্রিফিং। মার্জিন লিক যেদিন তৈরি হয় সেদিনই খুঁজে বের করুন, সমাধানটি একজন জবাবদিহিমূলক অপারেটরের কাছে পাঠান, এবং পুনরুদ্ধার করা মার্জিন বেসলাইনের বিপরীতে পরিমাপ করুন।",
       "primaryCta": "একটি এক্সিকিউটিভ ব্রিফিং বুক করুন",
       "secondaryCta": "এক্সিকিউটিভ ডেমো দেখুন",
       "problemsEyebrow": "কী নির্বাহীদের ধীর করে দেয়",
@@ -1535,7 +1535,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "রিয়েল টাইমে পোর্টফোলিও কমান্ড",
-          "description": "প্রতিটি আউটলেট জুড়ে লাইভ আয়, মার্জিন এবং শ্রম। শিফট শেষ হওয়ার আগে যে অবস্থানে আপনার মনোযোগ প্রয়োজন তা Pulse চিহ্নিত করে।",
+          "description": "প্রতিটি আউটলেট জুড়ে লাইভ আয়, মার্জিন এবং শ্রম। যে আউটলেট থেকে মার্জিন বেরিয়ে যাচ্ছে তা সামনে আসে, সমাধান তার ম্যানেজারের কাছে পৌঁছায়, এবং পুনরুদ্ধার করা মার্জিন বেসলাইনের বিপরীতে পরিমাপ করা হয়।",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1548,7 +1548,7 @@ export const generatedLocalCopy = {
         {
           "title": "সেকেন্ডের মধ্যে উৎস-উদ্ধৃত উত্তর",
           "description": "কেন ব্র্যান্ড সি-এর মার্জিন কমেছে বা কোন আউটলেটগুলি প্রতিযোগীদের প্রচারের কাছে হারছে তা জিজ্ঞাসা করুন। এটি যে ডেটা থেকে নেওয়া, তার সাথে উৎস-উদ্ধৃত একটি উত্তর পান।",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1568,7 +1568,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "কঠোর পোর্টফোলিও, কম চমক",
-          "description": "কম পারফরম্যান্সকারী অবস্থানগুলি সকালের সংক্ষিপ্ত সময়ে দেখা যায় - ত্রৈমাসিক পর্যালোচনা নয়।",
+          "description": "কম পারফরম্যান্সকারী অবস্থানগুলি সকালের ব্রিফিংয়ে সামনে আসে, সমাধান একজন দায়িত্বশীলের কাছে যায় এবং পুনরুদ্ধার করা মার্জিন মাপা হয় - ত্রৈমাসিক পর্যালোচনা নয়।",
           "icon": "performance"
         },
         {
@@ -1582,7 +1582,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "এক দৃষ্টিতে আপনার পোর্টফোলিও দেখুন।",
+      "ctaTitle": "সম্পূর্ণ পোর্টফোলিও জুড়ে মার্জিন পুনরুদ্ধার করুন।",
       "ctaDescription": "30 মিনিট আপনার তথ্য. কার্যনির্বাহী অফিসের জন্য Sundae আসলে কী পরিবর্তন করবে।",
       "ctaButton": "একটি এক্সিকিউটিভ ব্রিফিং বুক করুন"
     },
@@ -1590,7 +1590,7 @@ export const generatedLocalCopy = {
       "badge": "สำหรับ C-Suite และเจ้าของ",
       "titleLine1": "เรียกใช้พอร์ตโฟลิโอ",
       "titleLine2": "ไม่ใช่สเปรดชีต",
-      "description": "การบรรยายสรุป AI รายวันในทุกแบรนด์ ความต่างของมาร์จิ้นในวันที่มันเกิดขึ้น สัญญาณตลาดก่อนที่จะถึงตัวเลขของคุณ",
+      "description": "การบรรยายสรุป AI รายวันในทุกแบรนด์ ค้นหาจุดรั่วของมาร์จิ้นในวันที่มันเกิดขึ้น ส่งต่อการแก้ไขให้ผู้ดำเนินการที่รับผิดชอบ และวัดมาร์จิ้นที่กู้คืนเทียบกับเส้นฐาน",
       "primaryCta": "จองการบรรยายสรุปผู้บริหาร",
       "secondaryCta": "ดูการสาธิตสำหรับผู้บริหาร",
       "problemsEyebrow": "สิ่งที่ทำให้ผู้บริหารช้าลง",
@@ -1623,7 +1623,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "คำสั่งพอร์ตโฟลิโอแบบเรียลไทม์",
-          "description": "รายได้สด ส่วนต่าง และแรงงานในทุกสาขา การเว้นจังหวะจะทำเครื่องหมายตำแหน่งที่ต้องการความสนใจของคุณก่อนที่กะจะสิ้นสุดลง",
+          "description": "รายได้สด ส่วนต่าง และแรงงานในทุกสาขา สาขาที่มาร์จิ้นกำลังรั่วจะปรากฏขึ้น การแก้ไขถูกส่งไปยังผู้จัดการของสาขานั้น และมาร์จิ้นที่กู้คืนถูกวัดเทียบกับเส้นฐาน",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1636,7 +1636,7 @@ export const generatedLocalCopy = {
         {
           "title": "คำตอบที่อ้างอิงแหล่งที่มาในไม่กี่วินาที",
           "description": "ถามว่าทำไม Brand C ถึงบีบอัตรากำไร หรือร้านไหนแพ้โปรโมชั่นของคู่แข่ง รับคำตอบที่มีตัวเลขพร้อมข้อมูลที่ดึงมา",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1656,7 +1656,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "พอร์ตโฟลิโอที่เข้มงวดมากขึ้น ความประหลาดใจน้อยลง",
-          "description": "สถานที่ที่มีประสิทธิภาพต่ำกว่าจะแสดงในช่วงสรุปช่วงเช้า ไม่ใช่การทบทวนรายไตรมาส",
+          "description": "สถานที่ที่มีประสิทธิภาพต่ำกว่าจะแสดงในสรุปช่วงเช้า การแก้ไขถูกส่งไปยังผู้รับผิดชอบ และมาร์จิ้นที่กู้คืนถูกวัดผล - ไม่ใช่การทบทวนรายไตรมาส",
           "icon": "performance"
         },
         {
@@ -1670,7 +1670,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "ดูผลงานของคุณในมุมมองเดียว",
+      "ctaTitle": "กู้คืนมาร์จิ้นทั่วทั้งพอร์ตโฟลิโอ",
       "ctaDescription": "30 นาที ข้อมูลของคุณ สิ่งที่ Sundae จะเปลี่ยนแปลงสำหรับสำนักงานบริหารจริงๆ",
       "ctaButton": "จองการบรรยายสรุปผู้บริหาร"
     },
@@ -1678,7 +1678,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk C-Suite & Pemilik",
       "titleLine1": "Jalankan portofolio.",
       "titleLine2": "Bukan spreadsheetnya.",
-      "description": "Pengarahan AI harian untuk setiap merek. Varians margin pada hari terjadinya. Sinyal pasar sebelum mencapai angka Anda.",
+      "description": "Pengarahan AI harian untuk setiap merek. Temukan kebocoran margin pada hari kemunculannya, arahkan perbaikan ke operator yang bertanggung jawab, dan ukur margin yang dipulihkan terhadap baseline.",
       "primaryCta": "Pesan Pengarahan Eksekutif",
       "secondaryCta": "Lihat Demo Eksekutif",
       "problemsEyebrow": "APA YANG MEMPERLAMBAT EKSEKUTIF",
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Perintah portofolio secara real time",
-          "description": "Pendapatan, margin, dan tenaga kerja secara langsung di setiap outlet. Pulse menandai lokasi yang memerlukan perhatian Anda sebelum sif berakhir.",
+          "description": "Pendapatan, margin, dan tenaga kerja secara langsung di setiap outlet. Outlet yang bocor marginnya muncul, perbaikan diarahkan ke manajernya, dan margin yang dipulihkan diukur terhadap baseline.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1724,7 +1724,7 @@ export const generatedLocalCopy = {
         {
           "title": "Jawaban yang dikutip sumber dalam hitungan detik",
           "description": "Tanyakan mengapa margin Brand C menyusut atau outlet mana yang kalah dari promo kompetitor. Dapatkan jawaban dengan kutipan sumber, beserta data yang menjadi dasarnya.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1744,7 +1744,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portofolio yang lebih ketat, lebih sedikit kejutan",
-          "description": "Lokasi yang berkinerja buruk muncul dalam laporan singkat pagi hari - bukan tinjauan triwulanan.",
+          "description": "Lokasi yang berkinerja buruk muncul dalam laporan singkat pagi hari, perbaikan diarahkan ke seorang penanggung jawab dan margin yang dipulihkan diukur - bukan tinjauan triwulanan.",
           "icon": "performance"
         },
         {
@@ -1758,7 +1758,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat portofolio Anda dalam satu tampilan.",
+      "ctaTitle": "Pulihkan margin di seluruh portofolio.",
       "ctaDescription": "30 menit. Data Anda. Apa yang sebenarnya akan diubah Sundae untuk kantor eksekutif.",
       "ctaButton": "Pesan Pengarahan Eksekutif"
     },
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk C-Suite & Pemilik",
       "titleLine1": "Jalankan portfolio.",
       "titleLine2": "Bukan hamparan.",
-      "description": "Taklimat AI harian merentas setiap jenama. Varians margin pada hari ia berlaku. Isyarat pasaran sebelum ia mencecah nombor anda.",
+      "description": "Taklimat AI harian merentas setiap jenama. Cari kebocoran margin pada hari ia muncul, halakan pembaikan kepada operator yang bertanggungjawab, dan ukur margin yang dipulihkan berbanding garis dasar.",
       "primaryCta": "Tempah Taklimat Eksekutif",
       "secondaryCta": "Lihat Demo Eksekutif",
       "problemsEyebrow": "APA YANG MELAMBATKAN EKSEKUTIF",
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Perintah portfolio dalam masa nyata",
-          "description": "Hasil, margin dan buruh secara langsung di setiap cawangan. Pulse menandakan lokasi yang memerlukan perhatian anda sebelum syif tamat.",
+          "description": "Hasil, margin dan buruh secara langsung di setiap cawangan. Cawangan yang bocor marginnya muncul, pembaikan dihalakan kepada pengurusnya, dan margin yang dipulihkan diukur berbanding garis dasar.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1812,7 +1812,7 @@ export const generatedLocalCopy = {
         {
           "title": "Jawapan yang dipetik sumber dalam beberapa saat",
           "description": "Tanya mengapa margin Jenama C mengecil atau cawangan mana yang kalah kepada promosi pesaing. Dapatkan jawapan yang memetik sumber, berserta data yang menjadi asasnya.",
-          "product": "Sundae Intelligence",
+          "product": "Ask Sundae",
           "icon": "intelligence"
         },
         {
@@ -1832,7 +1832,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portfolio yang lebih ketat, lebih sedikit kejutan",
-          "description": "Lokasi yang kurang berprestasi muncul dalam taklimat pagi - bukan ulasan suku tahunan.",
+          "description": "Lokasi yang kurang berprestasi muncul dalam taklimat pagi, pembaikan dihalakan kepada seorang yang bertanggungjawab dan margin yang dipulihkan diukur - bukan ulasan suku tahunan.",
           "icon": "performance"
         },
         {
@@ -1846,7 +1846,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "Lihat portfolio anda dalam satu paparan.",
+      "ctaTitle": "Pulihkan margin merentas keseluruhan portfolio.",
       "ctaDescription": "30 minit. Data anda. Apa yang Sundae sebenarnya akan berubah untuk pejabat eksekutif.",
       "ctaButton": "Tempah Taklimat Eksekutif"
     }

@@ -498,7 +498,7 @@ La couche IA synthétise ces inputs en langage naturel qu’un opérateur peut l
 
 ## Pour commencer
 
-Le briefing matinal est disponible pour tous les clients Sundae Core Pro et Enterprise. La configuration prend moins d’une heure :
+Le briefing matinal est disponible pour tous les clients Sundae Core. La configuration prend moins d’une heure :
 
 1. **Sélectionnez vos établissements et vos métriques** : choisissez les sites et KPI à inclure
 2. **Définissez votre canal de diffusion** : email, Slack, Teams ou push mobile
@@ -742,7 +742,7 @@ Les rôles sont configurables. Si votre structure ne correspond pas aux rôles s
 
 **Requêtes d’intelligence en lecture seule**
 
-Sundae Intelligence - la couche IA conversationnelle - fonctionne avec un accès base de données en lecture seule. Quand un opérateur demande "Pourquoi le food cost a-t-il augmenté à l’établissement 7 la semaine dernière ?", le système exécute des requêtes analytiques sur les données. Ces requêtes sont strictement des opérations SELECT - elles peuvent lire les données pour générer des insights, mais ne peuvent ni modifier, ni supprimer, ni exporter les données brutes.
+Ask Sundae - la couche IA conversationnelle - fonctionne avec un accès base de données en lecture seule. Quand un opérateur demande "Pourquoi le food cost a-t-il augmenté à l’établissement 7 la semaine dernière ?", le système exécute des requêtes analytiques sur les données. Ces requêtes sont strictement des opérations SELECT - elles peuvent lire les données pour générer des insights, mais ne peuvent ni modifier, ni supprimer, ni exporter les données brutes.
 
 De plus, les requêtes Intelligence sont soumises à des limites de lignes et de complexité qui empêchent l’extraction massive de données. Le système est conçu pour répondre à des questions analytiques, pas pour servir d’outil d’export.
 

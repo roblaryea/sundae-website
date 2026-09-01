@@ -11,6 +11,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_modules_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { modulesCreamCopy } from "./modulesCreamCopy";
+import { bandedMonthlyTotal, CORE_PACKAGES, usd } from "@/lib/pricing/priceBook";
 
 type LocalizedModuleCopy = {
   badge: string;
@@ -60,10 +61,14 @@ type LocalizedModuleCopy = {
 
 type LocalizedModuleUi = {
   overviewNote: string;
-  addModuleLabel: (name: string) => string;
+  addModuleLabel: (name?: string) => string;
   examplesLabel: string;
-  exampleLines: string[];
-  refreshLabels: string[];
+  /**
+   * The marginal-band worked example. Takes the figures already formatted from
+   * the price book so no price is ever typed into copy.
+   */
+  exampleLines: (v: { first: string; marginal: string; total: string; average: string }) => string[];
+  packageDepthLabels: string[];
   stackLabels: string[];
   faqButtonLabel: string;
 };
@@ -73,16 +78,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     badge: "Specialized Modules",
     title: "Go Deeper Where It Matters Most",
     description:
-      "Add specialized modules to Sundae Core. Get deep operational intelligence in labor, inventory, purchasing, marketing, and reservations.",
-    mixAndMatch: "Mix and match based on your priorities.",
+      "The eleven domain modules that make up every Sundae Core package - labor, inventory, purchasing, marketing, reservations, profit, revenue assurance, delivery, guest experience, Pulse, and guest CRM.",
+    mixAndMatch: "You do not pick them one by one.",
     exploreAllModules: "Explore All Modules",
     calculateModuleRoi: "Calculate Module ROI",
     whatAreModules: "What Are Sundae Modules?",
     whatAreModulesDescription:
-      "Modules are specialized intelligence add-ons that deepen your insights in specific operational areas.",
+      "Modules are the domain lenses inside a Core package. Every package carries all eleven; the package you choose sets how deep each one goes.",
     pillars: [
       { title: "Specialized by Function", description: "Each module is built for a specific operating area instead of trying to cover everything at once." },
-      { title: "Add What You Need", description: "Start with your biggest pain point. Add modules as priorities shift. No forced bundles." },
+      { title: "All Eleven, Every Package", description: "You never buy a module on its own. Choosing a Core package is how you get the full set." },
       { title: "Integrated With Core", description: "Modules share data with Core, so teams can work from one connected operating picture." },
     ],
     fiveModules: "FIVE SPECIALIZED MODULES",
@@ -155,16 +160,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
       },
     ],
     faqs: [
-      { q: "Do I need Core tier to use Modules?", a: "Yes. Modules are exclusive to Core tier (Lite, Pro, or Enterprise)." },
-      { q: "Can I add modules later?", a: "Yes. Start with Core tier, then add modules as needed." },
-      { q: "What if I only need a module at some locations?", a: "Organization license covers your first 5 locations. Contact us for custom pricing." },
-      { q: "How long does module implementation take?", a: "Most modules take 1-2 weeks." },
+      { q: "Can I buy a single module?", a: "No. The eleven domain modules are components of a Core package, not separate products. Every package includes all of them." },
+      { q: "Can I get more depth later?", a: "Yes. Moving up a Core package deepens every module at once, without changing which ones you have." },
+      { q: "How does the price change as I add locations?", a: "Your first location carries the package anchor. Each additional location is charged at the marginal rate for the band it falls in, and the rate steps down as you grow. Crossing a band does not reprice the locations below it." },
+      { q: "How long does implementation take?", a: "Most groups are live in 1-2 weeks. Implementation is a one-off fee, charged once at the highest class in your selection." },
       { q: "Can modules work together?", a: "Yes. Modules share data and provide cross-module insights." },
-      { q: "Can I try a module before committing?", a: "Yes. Contact us for module trial programs." },
+      { q: "Can I see it against my own numbers first?", a: "Yes. Book a working session and we will run your data through the package you are considering." },
     ],
     howItWorks: [
-      { step: "1", title: "Organization License Model", description: "Each module covers your first 5 locations. Additional locations scale per location." },
-      { step: "2", title: "Requires Core Tier", description: "Modules are exclusive to Core tier for real-time specialized intelligence." },
+      { step: "1", title: "Included In Your Package", description: "All eleven modules ship with every Core package. There is nothing to add and nothing priced per module." },
+      { step: "2", title: "Priced By Location Bands", description: "Your first location carries the package anchor. Each location after it is charged at the marginal rate for its band." },
     ],
     categories: [
       { name: "Revenue Intelligence", count: "4 modules" },
@@ -185,7 +190,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     crossModuleCards: [
       { title: "Labor + Inventory", description: "Correlate prep labor with waste patterns" },
       { title: "Labor + Marketing", description: "Forecast staffing needs for campaigns" },
-      { title: "Inventory + Purchasing", description: "Seamless PO generation from inventory" },
+      { title: "Inventory + Purchasing", description: "Purchase orders raised straight from inventory" },
     ],
     selectionTitle: "Which Modules Do You Need?",
     selectionDescription: "Start with your biggest pain point",
@@ -234,16 +239,16 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
       { name: "ذكاء الحجوزات", icon: "operators", headline: "حسّن الطاولات، تنبأ بعدم الحضور، وتنبأ بالطلب.", description: "حوّل الحجوزات إلى أداة لتحسين الإيرادات.", capabilities: ["توصيات تحسين الطاولات", "تنبؤ بعدم الحضور بالذكاء الاصطناعي", "تنبؤ بالطلب 7-30 يومًا", "تحسين إدارة الانتظار", "اقتراحات تسعير ديناميكية"], roi: "عائد نموذجي: زيادة 10-15% في إشغال الطاولات", bestFor: "المطاعم التي تعتمد على الحجوزات والمطاعم الراقية", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
-      { q: "هل أحتاج Core لاستخدام الوحدات؟", a: "نعم، الوحدات متاحة فقط في Core." },
+      { q: "هل يمكنني شراء وحدة واحدة؟", a: "لا. الوحدات الإحدى عشرة مكوّنات داخل باقة Core وليست منتجات منفصلة، وكل باقة تشملها جميعًا." },
       { q: "هل يمكنني إضافة الوحدات لاحقًا؟", a: "نعم، ابدأ بـ Core ثم أضف ما تحتاجه." },
-      { q: "ماذا لو احتجت الوحدة في بعض المواقع فقط؟", a: "يغطي الترخيص المؤسسي أول 5 مواقع. تواصل معنا للتسعير المخصص." },
+      { q: "كيف يتغير السعر عند إضافة مواقع؟", a: "الموقع الأول يحمل سعر الباقة الأساسي، ويُحتسب كل موقع بعده بالسعر الحدي لشريحته، وينخفض السعر كلما نميت. الانتقال إلى شريحة أرخص لا يعيد تسعير المواقع السابقة." },
       { q: "كم يستغرق التنفيذ؟", a: "معظم الوحدات تحتاج 1-2 أسبوع." },
       { q: "هل تعمل الوحدات معًا؟", a: "نعم، تتشارك البيانات وتوفر رؤى متقاطعة." },
       { q: "هل يمكنني تجربة الوحدة قبل الالتزام؟", a: "نعم، تواصل معنا لبرامج التجربة." },
     ],
     howItWorks: [
-      { step: "1", title: "نموذج الترخيص المؤسسي", description: "يغطي أول 5 مواقع ثم يتوسع لكل موقع إضافي." },
-      { step: "2", title: "يتطلب Core", description: "الوحدات حصرية لـ Core لتقديم ذكاء متخصص لحظي." },
+      { step: "1", title: "مضمّنة في باقتك", description: "الوحدات الإحدى عشرة كلها ضمن كل باقة Core. لا شيء يُضاف ولا سعر لكل وحدة." },
+      { step: "2", title: "التسعير بشرائح المواقع", description: "الموقع الأول يحمل سعر الباقة الأساسي، وكل موقع بعده يُحتسب بالسعر الحدي لشريحته." },
     ],
     categories: [
       { name: "ذكاء الإيرادات", count: "4 وحدات" },
@@ -280,232 +285,239 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     fullSuiteDescription: "ذكاء تشغيلي كامل عبر كل المجالات",
   },
   fr: {
-    badge: "Modules specialises",
+    badge: "Modules spécialisés",
     title: "Allez plus loin là où cela compte le plus",
-    description: "Ajoutez des modules specialises à Sundae Core pour une intelligence operationnelle plus profonde.",
-    mixAndMatch: "Composez selon vos priorites.",
+    description: "Ajoutez des modules spécialisés à Sundae Core pour une intelligence opérationnelle plus profonde.",
+    mixAndMatch: "Composez selon vos priorités.",
     exploreAllModules: "Explorer tous les modules",
     calculateModuleRoi: "Calculer le ROI du module",
     whatAreModules: "Que sont les modules Sundae ?",
-    whatAreModulesDescription: "Les modules sont des extensions d intelligence specialisees qui approfondissent vos analyses dans des domaines précis.",
+    whatAreModulesDescription: "Les modules sont des extensions d'intelligence spécialisées qui approfondissent vos analyses dans des domaines précis.",
     pillars: [
-      { title: "Specialise, pas dispersé", description: "Des fonctionnalites profondes pensees pour chaque domaine operationnel." },
-      { title: "Ajoutez ce dont vous avez besoin", description: "Commencez par votre plus gros point de douleur et ajoutez des modules au fil des priorites." },
-      { title: "Integre, pas en silos", description: "Les modules partagent les donnees avec Core dans une plateforme unifiee." },
+      { title: "Spécialisé, pas dispersé", description: "Des fonctionnalités profondes pensées pour chaque domaine opérationnel." },
+      { title: "Ajoutez ce dont vous avez besoin", description: "Commencez par votre plus gros point de douleur et ajoutez des modules au fil des priorités." },
+      { title: "Intégré, pas en silos", description: "Les modules partagent les données avec Core dans une plateforme unifiée." },
     ],
-    fiveModules: "Cinq modules specialises",
-    chooseStack: "Choisissez votre pile d intelligence",
-    chooseStackDescription: "Ajoutez un module ou les cinq. Construisez l intelligence dont votre operation a besoin.",
-    coreCapabilities: "Capacites principales :",
+    fiveModules: "Cinq modules spécialisés",
+    chooseStack: "Choisissez votre pile d'intelligence",
+    chooseStackDescription: "Ajoutez un module ou les cinq. Construisez l'intelligence dont votre opération a besoin.",
+    coreCapabilities: "Capacités principales :",
     roi: "ROI",
-    bestFor: "Ideal pour :",
-    faqTitle: "Questions frequentes",
-    faqDescription: "Questions courantes sur les modules, la mise à niveau, le tarif et le deploiement.",
-    ctaTitle: "Pret à ajouter une intelligence specialisee ?",
-    ctaDescription: "Commencez par le module qui resout votre plus grand probleme.",
-    bookDemo: "Reserver une demo",
+    bestFor: "Idéal pour :",
+    faqTitle: "Questions fréquentes",
+    faqDescription: "Questions courantes sur les modules, la mise à niveau, le tarif et le déploiement.",
+    ctaTitle: "Prêt à ajouter une intelligence spécialisée ?",
+    ctaDescription: "Commencez par le module qui résout votre plus grand problème.",
+    bookDemo: "Réserver une démo",
     contactSales: "Contacter les ventes",
     modules: [
-      { name: "Intelligence de la main-d oeuvre", icon: "benchmarking", headline: "Optimisez la planification et reduisez les heures sup.", description: "Transformez la main-d oeuvre en actif optimise avec planification et previsions IA.", capabilities: ["Plannings recommandes par IA", "Suivi des couts en temps reel", "Previsions 14-30 jours", "Analyse de performance des services", "Alertes heures sup"], roi: "ROI typique : reduction de 8 à 12 % du cout main-d oeuvre", bestFor: "Operations à fort volume avec planification complexe", color: "from-[#FF5C4D] to-[#E9A24A]" },
-      { name: "Intelligence inventaire", icon: "insights", headline: "Suivez le gaspillage, automatisez les niveaux et optimisez les couts.", description: "Transformez la gestion des stocks en systeme optimise.", capabilities: ["Suivi du gaspillage en temps reel", "Ajustements automatiques des niveaux", "Cout par recette", "Suivi des performances fournisseurs", "Optimisation de la rotation"], roi: "ROI typique : reduction de 5 à 7 % du cout nourriture", bestFor: "Operations à cout matiere eleve", color: "from-[#F2B45C] to-[#C2410C]" },
-      { name: "Intelligence achats", icon: "marketing", headline: "Comparez les fournisseurs, optimisez les prix et gerez les contrats.", description: "Passez des commandes reactives à l approvisionnement strategique.", capabilities: ["Comparaison multi-fournisseurs", "Suivi historique des prix", "Gestion des contrats", "Generation automatique des commandes", "Visibilite supply chain"], roi: "ROI typique : reduction de 3 à 5 % des couts d achat", bestFor: "Groupes multi-sites avec pouvoir d achat", color: "from-green-500 to-green-600" },
-      { name: "Performance marketing", icon: "growth", headline: "Suivez le ROI des campagnes et optimisez les depenses.", description: "Transformez le marketing en moteur de croissance mesurable.", capabilities: ["Suivi du ROI des campagnes", "Attribution multi-touch", "Analyse du CAC", "Efficacite des promotions", "Segmentation clients"], roi: "ROI typique : gain d efficacite de 15 à 25 %", bestFor: "Concepts multi-canaux", color: "from-orange-500 to-orange-600" },
-      { name: "Intelligence reservations", icon: "operators", headline: "Optimisez les tables, predisez les no-shows et la demande.", description: "Transformez les reservations en outil d optimisation du revenu.", capabilities: ["Recommandations d optimisation des tables", "Prediction IA des no-shows", "Prevision de la demande (7-30 jours)", "Optimisation de la liste d attente", "Suggestions de tarification"], roi: "ROI typique : hausse de 10 à 15 % du taux d occupation", bestFor: "Restaurants reserves et gastronomiques", color: "from-[#FF6B5B] to-[#E03E48]" },
+      { name: "Intelligence de la main-d'œuvre", icon: "benchmarking", headline: "Optimisez la planification et réduisez les heures sup.", description: "Transformez la main-d'œuvre en actif optimisé avec planification et prévisions IA.", capabilities: ["Plannings recommandés par IA", "Suivi des coûts en temps réel", "Prévisions 14-30 jours", "Analyse de performance des services", "Alertes heures sup"], roi: "ROI typique : réduction de 8 à 12 % du coût main-d'œuvre", bestFor: "Opérations à fort volume avec planification complexe", color: "from-[#FF5C4D] to-[#E9A24A]" },
+      { name: "Intelligence inventaire", icon: "insights", headline: "Suivez le gaspillage, automatisez les niveaux et optimisez les coûts.", description: "Transformez la gestion des stocks en système optimisé.", capabilities: ["Suivi du gaspillage en temps réel", "Ajustements automatiques des niveaux", "Coût par recette", "Suivi des performances fournisseurs", "Optimisation de la rotation"], roi: "ROI typique : réduction de 5 à 7 % du coût nourriture", bestFor: "Opérations à coût matière élevé", color: "from-[#F2B45C] to-[#C2410C]" },
+      { name: "Intelligence achats", icon: "marketing", headline: "Comparez les fournisseurs, optimisez les prix et gérez les contrats.", description: "Passez des commandes réactives à l'approvisionnement stratégique.", capabilities: ["Comparaison multi-fournisseurs", "Suivi historique des prix", "Gestion des contrats", "Génération automatique des commandes", "Visibilité supply chain"], roi: "ROI typique : réduction de 3 à 5 % des coûts d'achat", bestFor: "Groupes multi-sites avec pouvoir d'achat", color: "from-green-500 to-green-600" },
+      { name: "Performance marketing", icon: "growth", headline: "Suivez le ROI des campagnes et optimisez les dépenses.", description: "Transformez le marketing en moteur de croissance mesurable.", capabilities: ["Suivi du ROI des campagnes", "Attribution multi-touch", "Analyse du CAC", "Efficacité des promotions", "Segmentation clients"], roi: "ROI typique : gain d'efficacité de 15 à 25 %", bestFor: "Concepts multi-canaux", color: "from-orange-500 to-orange-600" },
+      { name: "Intelligence réservations", icon: "operators", headline: "Optimisez les tables, prédisez les no-shows et la demande.", description: "Transformez les réservations en outil d'optimisation du revenu.", capabilities: ["Recommandations d'optimisation des tables", "Prédiction IA des no-shows", "Prévision de la demande (7-30 jours)", "Optimisation de la liste d'attente", "Suggestions de tarification"], roi: "ROI typique : hausse de 10 à 15 % du taux d'occupation", bestFor: "Restaurants réservés et gastronomiques", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
-      { q: "Ai-je besoin de Core pour utiliser les modules ?", a: "Oui, les modules sont reserves à Core." },
+      { q: "Puis-je acheter un seul module ?", a: "Non. Les onze modules métier sont des composants d'une offre Core, pas des produits séparés, et chaque offre les contient tous." },
       { q: "Puis-je ajouter des modules plus tard ?", a: "Oui, commencez avec Core puis ajoutez selon vos besoins." },
-      { q: "Et si je n ai besoin du module que sur certains sites ?", a: "Le contrat couvre les 5 premiers sites. Contactez-nous pour un tarif personnalise." },
-      { q: "Combien de temps dure l implementation ?", a: "La plupart des modules prennent 1 à 2 semaines." },
-      { q: "Les modules peuvent-ils fonctionner ensemble ?", a: "Oui, ils partagent les donnees et offrent des insights croises." },
-      { q: "Puis-je tester un module avant de m engager ?", a: "Oui, contactez-nous pour des programmes d essai." },
+      { q: "Comment le prix évolue-t-il quand j'ajoute des sites ?", a: "Le premier site porte le prix d'ancrage de l'offre. Chaque site suivant est facturé au tarif marginal de sa tranche, et ce tarif baisse à mesure que vous grandissez. Franchir une tranche ne retarife pas les sites déjà en place." },
+      { q: "Combien de temps dure l'implémentation ?", a: "La plupart des modules prennent 1 à 2 semaines." },
+      { q: "Les modules peuvent-ils fonctionner ensemble ?", a: "Oui, ils partagent les données et offrent des insights croisés." },
+      { q: "Puis-je tester un module avant de m'engager ?", a: "Oui, contactez-nous pour des programmes d'essai." },
     ],
     howItWorks: [
-      { step: "1", title: "Modele de licence", description: "Couvre les 5 premiers sites puis evolue par site supplementaire." },
-      { step: "2", title: "Necessite Core", description: "Les modules sont reserves à Core pour une intelligence specialisee en temps reel." },
+      { step: "1", title: "Inclus dans votre offre", description: "Les onze modules sont livrés avec chaque offre Core. Rien à ajouter, aucun prix par module." },
+      { step: "2", title: "Tarifé par tranches de sites", description: "Le premier site porte le prix d'ancrage. Chaque site suivant est facturé au tarif marginal de sa tranche." },
     ],
     categories: [
       { name: "Intelligence du revenu", count: "4 modules" },
-      { name: "Intelligence de la main-d oeuvre", count: "5 modules" },
-      { name: "Experience client", count: "3 modules" },
+      { name: "Intelligence de la main-d'œuvre", count: "5 modules" },
+      { name: "Expérience client", count: "3 modules" },
       { name: "Stock et pertes", count: "3 modules" },
       { name: "Achats", count: "3 modules" },
       { name: "Performance marketing", count: "3 modules" },
       { name: "Livraison et plateformes", count: "2 modules" },
-      { name: "Reservations", count: "2 modules" },
+      { name: "Réservations", count: "2 modules" },
       { name: "Garantie du revenu", count: "2 modules" },
       { name: "Intelligence de profit", count: "3 modules" },
       { name: "CRM clients", count: "3 modules" },
-      { name: "Cross-Intelligence", count: "Moteur de correlation" },
+      { name: "Cross-Intelligence", count: "Moteur de corrélation" },
     ],
-    crossModuleTitle: "Intelligence croisee",
-    crossModuleDescription: "Les modules partagent les donnees et fournissent des insights integres",
+    crossModuleTitle: "Intelligence croisée",
+    crossModuleDescription: "Les modules partagent les données et fournissent des insights intégrés",
     crossModuleCards: [
-      { title: "Main-d oeuvre + stock", description: "Corrélez la main-d oeuvre de preparation avec les modeles de gaspillage" },
-      { title: "Main-d oeuvre + marketing", description: "Prevoyez les besoins de personnel pour les campagnes" },
-      { title: "Stock + achats", description: "Generer des commandes directement depuis le stock" },
+      { title: "Main-d'œuvre + stock", description: "Corrélez la main-d'œuvre de préparation avec les modèles de gaspillage" },
+      { title: "Main-d'œuvre + marketing", description: "Prévoyez les besoins de personnel pour les campagnes" },
+      { title: "Stock + achats", description: "Générer des commandes directement depuis le stock" },
     ],
     selectionTitle: "De quels modules avez-vous besoin ?",
     selectionDescription: "Commencez par votre plus grand point de douleur",
     selectionCards: [
-      { pain: "Cout main-d oeuvre eleve ?", solution: "Intelligence de la main-d oeuvre", benefit: "Reduire les heures sup et optimiser la planification" },
-      { pain: "Cout nourriture ou gaspillage eleve ?", solution: "Intelligence inventaire", benefit: "Suivre le gaspillage et optimiser les niveaux" },
-      { pain: "Relations fournisseurs complexes ?", solution: "Intelligence achats", benefit: "Comparer les prix et gerer les contrats" },
-      { pain: "Depenses marketing elevees ?", solution: "Performance marketing", benefit: "Suivre le ROI et reduire le CAC" },
-      { pain: "Activite basee sur les reservations ?", solution: "Intelligence reservations", benefit: "Reduire les no-shows et optimiser les tables" },
+      { pain: "Coût main-d'œuvre élevé ?", solution: "Intelligence de la main-d'œuvre", benefit: "Réduire les heures sup et optimiser la planification" },
+      { pain: "Coût nourriture ou gaspillage élevé ?", solution: "Intelligence inventaire", benefit: "Suivre le gaspillage et optimiser les niveaux" },
+      { pain: "Relations fournisseurs complexes ?", solution: "Intelligence achats", benefit: "Comparer les prix et gérer les contrats" },
+      { pain: "Dépenses marketing élevées ?", solution: "Performance marketing", benefit: "Suivre le ROI et réduire le CAC" },
+      { pain: "Activité basée sur les réservations ?", solution: "Intelligence réservations", benefit: "Réduire les no-shows et optimiser les tables" },
     ],
     wantItAll: "Tout prendre ?",
-    fullSuite: "Suite complete de modules",
-    fullSuiteDescription: "Intelligence operationnelle complete sur tous les domaines",
+    fullSuite: "Suite complète de modules",
+    fullSuiteDescription: "Intelligence opérationnelle complète sur tous les domaines",
   },
   es: {
-    badge: "Modulos especializados",
-    title: "Ve mas profundo donde mas importa",
-    description: "Anade modulos especializados a Sundae Core para una inteligencia operativa mas profunda.",
-    mixAndMatch: "Combinalos segun tus prioridades.",
-    exploreAllModules: "Explorar todos los modulos",
-    calculateModuleRoi: "Calcular ROI del modulo",
-    whatAreModules: "¿Que son los modulos Sundae?",
-    whatAreModulesDescription: "Los modulos son extensiones de inteligencia especializadas que profundizan tus analisis en areas operativas concretas.",
+    badge: "Módulos especializados",
+    title: "Ve más profundo donde más importa",
+    description: "Añade módulos especializados a Sundae Core para una inteligencia operativa más profunda.",
+    mixAndMatch: "Combínalos según tus prioridades.",
+    exploreAllModules: "Explorar todos los módulos",
+    calculateModuleRoi: "Calcular ROI del módulo",
+    whatAreModules: "¿Qué son los módulos Sundae?",
+    whatAreModulesDescription: "Los módulos son extensiones de inteligencia especializadas que profundizan tus análisis en áreas operativas concretas.",
     pillars: [
-      { title: "Especializado, no disperso", description: "Funciones profundas creadas para cada area operativa." },
-      { title: "Anade lo que necesitas", description: "Empieza por tu mayor problema y anade modulos cuando cambien las prioridades." },
-      { title: "Integrado, no aislado", description: "Los modulos comparten datos con Core en una plataforma unificada." },
+      { title: "Especializado, no disperso", description: "Funciones profundas creadas para cada área operativa." },
+      { title: "Añade lo que necesitas", description: "Empieza por tu mayor problema y añade módulos cuando cambien las prioridades." },
+      { title: "Integrado, no aislado", description: "Los módulos comparten datos con Core en una plataforma unificada." },
     ],
-    fiveModules: "Cinco modulos especializados",
+    fiveModules: "Cinco módulos especializados",
     chooseStack: "Elige tu pila de inteligencia",
-    chooseStackDescription: "Anade un modulo o los cinco. Construye la inteligencia que necesita tu operacion.",
+    chooseStackDescription: "Añade un módulo o los cinco. Construye la inteligencia que necesita tu operación.",
     coreCapabilities: "Capacidades principales:",
     roi: "ROI",
     bestFor: "Ideal para:",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Preguntas comunes sobre modulos, actualizaciones, precios e implementacion.",
-    ctaTitle: "¿Listo para anadir inteligencia especializada?",
-    ctaDescription: "Empieza con el modulo que resuelve tu mayor dolor.",
+    faqDescription: "Preguntas comunes sobre módulos, actualizaciones, precios e implementación.",
+    ctaTitle: "¿Listo para añadir inteligencia especializada?",
+    ctaDescription: "Empieza con el módulo que resuelve tu mayor dolor.",
     bookDemo: "Reservar una demo",
     contactSales: "Contactar ventas",
     modules: [
-      { name: "Inteligencia laboral", icon: "benchmarking", headline: "Optimiza la planificacion, reduce el overtime y pronostica la demanda.", description: "Convierte la mano de obra en tu activo mejor optimizado con planificacion y pronosticos de IA.", capabilities: ["Horarios recomendados por IA", "Seguimiento de costos laborales en tiempo real", "Pronostico de demanda 14-30 dias", "Analisis de rendimiento de turnos", "Alertas tempranas de overtime"], roi: "ROI tipico: reduccion del 8-12% en costos laborales", bestFor: "Operaciones de alto volumen con planificacion compleja", color: "from-[#FF5C4D] to-[#E9A24A]" },
-      { name: "Inteligencia de inventario", icon: "insights", headline: "Seguimiento de desperdicio, niveles automáticos y costos optimizados.", description: "Convierte la gestion de inventario en un sistema optimizado.", capabilities: ["Seguimiento de desperdicio en tiempo real", "Ajustes automaticos de niveles", "Costo por receta", "Monitoreo de proveedores", "Optimizacion de rotacion"], roi: "ROI tipico: reduccion del 5-7% en costo de alimentos", bestFor: "Operaciones con alto costo de inventario", color: "from-[#F2B45C] to-[#C2410C]" },
-      { name: "Inteligencia de compras", icon: "marketing", headline: "Compara proveedores, optimiza precios y gestiona contratos.", description: "Pasa de pedidos reactivos a abastecimiento estrategico.", capabilities: ["Comparacion de precios multi-proveedor", "Seguimiento historico de precios", "Gestion de contratos", "Generacion automatica de pedidos", "Visibilidad de la cadena de suministro"], roi: "ROI tipico: reduccion del 3-5% en compras", bestFor: "Grupos multiubicacion con poder de compra", color: "from-green-500 to-green-600" },
-      { name: "Rendimiento de marketing", icon: "growth", headline: "Seguimiento del ROI de campañas y optimizacion del gasto.", description: "Convierte el marketing en un motor de crecimiento medible.", capabilities: ["Seguimiento del ROI de campañas", "Atribucion multi-touch", "Analisis de CAC", "Efectividad de promociones", "Segmentacion de clientes"], roi: "ROI tipico: mejora del 15-25% en eficiencia de marketing", bestFor: "Conceptos con presencia multicanal", color: "from-orange-500 to-orange-600" },
-      { name: "Inteligencia de reservas", icon: "operators", headline: "Optimiza mesas, predice no-shows y pronostica la demanda.", description: "Convierte las reservas en una herramienta de optimizacion de ingresos.", capabilities: ["Recomendaciones de optimizacion de mesas", "Prediccion de no-shows con IA", "Pronostico de demanda (7-30 dias)", "Optimizacion de lista de espera", "Sugerencias de precios dinamicos"], roi: "ROI tipico: aumento del 10-15% en ocupacion", bestFor: "Restaurantes con reservas y alta cocina", color: "from-[#FF6B5B] to-[#E03E48]" },
+      { name: "Inteligencia laboral", icon: "benchmarking", headline: "Optimiza la planificación, reduce el overtime y pronostica la demanda.", description: "Convierte la mano de obra en tu activo mejor optimizado con planificación y pronósticos de IA.", capabilities: ["Horarios recomendados por IA", "Seguimiento de costos laborales en tiempo real", "Pronóstico de demanda 14-30 días", "Análisis de rendimiento de turnos", "Alertas tempranas de overtime"], roi: "ROI típico: reducción del 8-12% en costos laborales", bestFor: "Operaciones de alto volumen con planificación compleja", color: "from-[#FF5C4D] to-[#E9A24A]" },
+      { name: "Inteligencia de inventario", icon: "insights", headline: "Seguimiento de desperdicio, niveles automáticos y costos optimizados.", description: "Convierte la gestión de inventario en un sistema optimizado.", capabilities: ["Seguimiento de desperdicio en tiempo real", "Ajustes automáticos de niveles", "Costo por receta", "Monitoreo de proveedores", "Optimización de rotación"], roi: "ROI típico: reducción del 5-7% en costo de alimentos", bestFor: "Operaciones con alto costo de inventario", color: "from-[#F2B45C] to-[#C2410C]" },
+      { name: "Inteligencia de compras", icon: "marketing", headline: "Compara proveedores, optimiza precios y gestiona contratos.", description: "Pasa de pedidos reactivos a abastecimiento estratégico.", capabilities: ["Comparación de precios multi-proveedor", "Seguimiento histórico de precios", "Gestión de contratos", "Generación automática de pedidos", "Visibilidad de la cadena de suministro"], roi: "ROI típico: reducción del 3-5% en compras", bestFor: "Grupos multiubicación con poder de compra", color: "from-green-500 to-green-600" },
+      { name: "Rendimiento de marketing", icon: "growth", headline: "Seguimiento del ROI de campañas y optimización del gasto.", description: "Convierte el marketing en un motor de crecimiento medible.", capabilities: ["Seguimiento del ROI de campañas", "Atribución multi-touch", "Análisis de CAC", "Efectividad de promociones", "Segmentación de clientes"], roi: "ROI típico: mejora del 15-25% en eficiencia de marketing", bestFor: "Conceptos con presencia multicanal", color: "from-orange-500 to-orange-600" },
+      { name: "Inteligencia de reservas", icon: "operators", headline: "Optimiza mesas, predice no-shows y pronostica la demanda.", description: "Convierte las reservas en una herramienta de optimización de ingresos.", capabilities: ["Recomendaciones de optimización de mesas", "Predicción de no-shows con IA", "Pronóstico de demanda (7-30 días)", "Optimización de lista de espera", "Sugerencias de precios dinámicos"], roi: "ROI típico: aumento del 10-15% en ocupación", bestFor: "Restaurantes con reservas y alta cocina", color: "from-[#FF6B5B] to-[#E03E48]" },
     ],
     faqs: [
-      { q: "¿Necesito Core para usar los modulos?", a: "Si, los modulos estan disponibles solo en Core." },
-      { q: "¿Puedo anadir modulos mas tarde?", a: "Si, empieza con Core y anade lo que necesites." },
-      { q: "¿Y si solo necesito el modulo en algunos locales?", a: "La licencia cubre los primeros 5 locales. Consulta precios personalizados." },
-      { q: "¿Cuanto tarda la implementacion?", a: "La mayoria de los modulos tarda 1-2 semanas." },
-      { q: "¿Los modulos pueden trabajar juntos?", a: "Si, comparten datos y ofrecen insights cruzados." },
-      { q: "¿Puedo probar un modulo antes de comprometerme?", a: "Si, contactanos para programas de prueba." },
+      { q: "¿Puedo comprar un solo módulo?", a: "No. Los once módulos de dominio son componentes de un paquete Core, no productos sueltos, y cada paquete los incluye todos." },
+      { q: "¿Puedo añadir módulos más tarde?", a: "Sí, empieza con Core y añade lo que necesites." },
+      { q: "¿Cómo cambia el precio al añadir locales?", a: "El primer local lleva el precio ancla del paquete. Cada local posterior se cobra a la tarifa marginal de su tramo, y esa tarifa baja según creces. Entrar en un tramo más barato no revaloriza los locales anteriores." },
+      { q: "¿Cuánto tarda la implementación?", a: "La mayoría de los módulos tarda 1-2 semanas." },
+      { q: "¿Los módulos pueden trabajar juntos?", a: "Sí, comparten datos y ofrecen insights cruzados." },
+      { q: "¿Puedo probar un módulo antes de comprometerme?", a: "Sí, contáctanos para programas de prueba." },
     ],
     howItWorks: [
-      { step: "1", title: "Modelo de licencia", description: "Cubre los primeros 5 locales y luego escala por local." },
-      { step: "2", title: "Requiere Core", description: "Los modulos son exclusivos de Core para inteligencia especializada en tiempo real." },
+      { step: "1", title: "Incluidos en tu paquete", description: "Los once módulos vienen con cada paquete Core. No hay nada que añadir ni precio por módulo." },
+      { step: "2", title: "Tarifado por tramos de locales", description: "El primer local lleva el precio ancla. Cada local posterior se cobra a la tarifa marginal de su tramo." },
     ],
     categories: [
-      { name: "Inteligencia de ingresos", count: "4 modulos" },
-      { name: "Inteligencia laboral", count: "5 modulos" },
-      { name: "Experiencia del cliente", count: "3 modulos" },
-      { name: "Inventario y desperdicio", count: "3 modulos" },
-      { name: "Compras", count: "3 modulos" },
-      { name: "Rendimiento de marketing", count: "3 modulos" },
-      { name: "Delivery y plataformas", count: "2 modulos" },
-      { name: "Reservas", count: "2 modulos" },
-      { name: "Aseguramiento de ingresos", count: "2 modulos" },
-      { name: "Inteligencia de beneficio", count: "3 modulos" },
-      { name: "CRM de clientes", count: "3 modulos" },
-      { name: "Cross-Intelligence", count: "Motor de correlacion" },
+      { name: "Inteligencia de ingresos", count: "4 módulos" },
+      { name: "Inteligencia laboral", count: "5 módulos" },
+      { name: "Experiencia del cliente", count: "3 módulos" },
+      { name: "Inventario y desperdicio", count: "3 módulos" },
+      { name: "Compras", count: "3 módulos" },
+      { name: "Rendimiento de marketing", count: "3 módulos" },
+      { name: "Delivery y plataformas", count: "2 módulos" },
+      { name: "Reservas", count: "2 módulos" },
+      { name: "Aseguramiento de ingresos", count: "2 módulos" },
+      { name: "Inteligencia de beneficio", count: "3 módulos" },
+      { name: "CRM de clientes", count: "3 módulos" },
+      { name: "Cross-Intelligence", count: "Motor de correlación" },
     ],
     crossModuleTitle: "Inteligencia cruzada",
-    crossModuleDescription: "Los modulos comparten datos y ofrecen insights integrados",
+    crossModuleDescription: "Los módulos comparten datos y ofrecen insights integrados",
     crossModuleCards: [
-      { title: "Labor + inventario", description: "Correlaciona la preparacion laboral con patrones de desperdicio" },
+      { title: "Labor + inventario", description: "Correlaciona la preparación laboral con patrones de desperdicio" },
       { title: "Labor + marketing", description: "Pronostica necesidades de personal para campañas" },
-      { title: "Inventario + compras", description: "Generacion fluida de pedidos desde inventario" },
+      { title: "Inventario + compras", description: "Generación fluida de pedidos desde inventario" },
     ],
-    selectionTitle: "¿Que modulos necesitas?",
+    selectionTitle: "¿Qué módulos necesitas?",
     selectionDescription: "Empieza por tu mayor problema",
     selectionCards: [
       { pain: "¿Costo laboral alto?", solution: "Inteligencia laboral", benefit: "Reduce overtime y optimiza horarios" },
       { pain: "¿Costo de comida o desperdicio alto?", solution: "Inteligencia de inventario", benefit: "Seguimiento de desperdicio y niveles" },
       { pain: "¿Relaciones complejas con proveedores?", solution: "Inteligencia de compras", benefit: "Compara precios y gestiona contratos" },
-      { pain: "¿Gasto de marketing alto?", solution: "Rendimiento de marketing", benefit: "Seguimiento del ROI y reduccion de CAC" },
+      { pain: "¿Gasto de marketing alto?", solution: "Rendimiento de marketing", benefit: "Seguimiento del ROI y reducción de CAC" },
       { pain: "¿Negocio basado en reservas?", solution: "Inteligencia de reservas", benefit: "Reduce no-shows y optimiza mesas" },
     ],
     wantItAll: "¿Lo quieres todo?",
-    fullSuite: "Suite completa de modulos",
-    fullSuiteDescription: "Inteligencia operativa completa en todas las areas",
+    fullSuite: "Suite completa de módulos",
+    fullSuiteDescription: "Inteligencia operativa completa en todas las áreas",
   },
 };
 
 const localizedModulesUi: Record<string, LocalizedModuleUi> = {
   en: {
-    overviewNote: 'Organization license covers your first 5 locations, then scales per location.',
-    addModuleLabel: (name) => `Add ${name} →`,
-    examplesLabel: 'Examples:',
-    exampleLines: [
-      '• 3 locations: Organization license covers all',
-      '• 12 locations: Org license + 7 add-on locations',
-      '• Mix & match at different locations',
+    overviewNote:
+      'Every Core package carries all eleven. The package sets how deep each one goes; the location bands set the price.',
+    addModuleLabel: (name) => `See ${name} in a package →`,
+    examplesLabel: 'Five locations on Core Foundation:',
+    exampleLines: (v) => [
+      `• First location: ${v.first}`,
+      `• Four more at ${v.marginal} each`,
+      `• ${v.total} per month, a ${v.average} blended average per location`,
     ],
-    refreshLabels: [
-      '4-hour refresh with specialized operational intelligence',
-      '2-hour refresh with deep specialized intelligence',
-      'Custom refresh with unlimited specialized intelligence',
+    packageDepthLabels: [
+      'The operating baseline across all eleven modules',
+      'Deeper on cost and leakage: theoretical vs. actual, waste, voids',
+      'Deeper on demand: guest cohorts, promo attribution, channel margin',
+      'Full depth plus multi-brand and multi-region consolidation',
     ],
-    stackLabels: ['Core Lite + Modules', 'Core Pro + Modules', 'Enterprise + Modules'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'Frequently Asked Questions',
   },
   ar: {
-    overviewNote: 'يغطي الترخيص المؤسسي أول 5 مواقع ثم يتوسع حسب كل موقع.',
-    addModuleLabel: (name) => `إضافة ${name} →`,
-    examplesLabel: 'أمثلة:',
-    exampleLines: [
-      '• 3 مواقع: التغطية الكاملة',
-      '• 12 موقعًا: الترخيص المؤسسي + 7 مواقع إضافية',
-      '• امزج بين المواقع المختلفة',
+    overviewNote: 'كل باقة Core تضم الوحدات الإحدى عشرة. الباقة تحدد عمق كل وحدة، وشرائح المواقع تحدد السعر.',
+    addModuleLabel: (name) => `شاهد ${name} ضمن الباقات →`,
+    examplesLabel: 'خمسة مواقع على Core Foundation:',
+    exampleLines: (v) => [
+      `• الموقع الأول: ${v.first}`,
+      `• أربعة مواقع أخرى بسعر ${v.marginal} لكل منها`,
+      `• ${v.total} شهريًا، أي متوسط مُرجّح ${v.average} لكل موقع`,
     ],
-    refreshLabels: [
-      'تحديث خلال 4 ساعات مع ذكاء تشغيلي متخصص',
-      'تحديث خلال ساعتين مع ذكاء متخصص عميق',
-      'تحديث مخصص مع ذكاء متخصص غير محدود',
+    packageDepthLabels: [
+      'الأساس التشغيلي عبر الوحدات الإحدى عشرة',
+      'عمق أكبر في التكلفة والتسرب: النظري مقابل الفعلي، والهدر، والإلغاءات',
+      'عمق أكبر في الطلب: شرائح الضيوف، وإسناد العروض، وهامش القنوات',
+      'العمق الكامل مع التجميع متعدد العلامات والمناطق',
     ],
-    stackLabels: ['Core Lite + الوحدات', 'Core Pro + الوحدات', 'Enterprise + الوحدات'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'الأسئلة المتكررة',
   },
   fr: {
-    overviewNote: 'La licence organisation couvre vos 5 premiers sites, puis évolue par site.',
-    addModuleLabel: (name) => `Ajouter ${name} →`,
-    examplesLabel: 'Exemples :',
-    exampleLines: [
-      '• 3 sites : la licence couvre tout',
-      '• 12 sites : licence org + 7 sites additionnels',
-      '• Combinez les modules selon les sites',
+    overviewNote:
+      "Chaque offre Core embarque les onze modules. L'offre fixe leur profondeur, les tranches de sites fixent le prix.",
+    addModuleLabel: (name) => `Voir ${name} dans une offre →`,
+    examplesLabel: 'Cinq sites sur Core Foundation :',
+    exampleLines: (v) => [
+      `• Premier site : ${v.first}`,
+      `• Quatre autres à ${v.marginal} chacun`,
+      `• ${v.total} par mois, soit une moyenne pondérée de ${v.average} par site`,
     ],
-    refreshLabels: [
-      'Actualisation 4 h avec intelligence opérationnelle spécialisée',
-      'Actualisation 2 h avec intelligence spécialisée avancée',
-      'Actualisation personnalisée avec intelligence spécialisée illimitée',
+    packageDepthLabels: [
+      'Le socle opérationnel sur les onze modules',
+      'Plus de profondeur coûts et pertes : théorique contre réel, gaspillage, annulations',
+      'Plus de profondeur demande : cohortes clients, attribution promo, marge canal',
+      'Profondeur complète plus consolidation multi-marques et multi-régions',
     ],
-    stackLabels: ['Core Lite + modules', 'Core Pro + modules', 'Enterprise + modules'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'Questions fréquentes',
   },
   es: {
-    overviewNote: 'La licencia organizativa cubre tus primeros 5 locales y luego escala por local.',
-    addModuleLabel: (name) => `Anadir ${name} →`,
-    examplesLabel: 'Ejemplos:',
-    exampleLines: [
-      '• 3 locales: la licencia cubre todos',
-      '• 12 locales: licencia org + 7 locales adicionales',
-      '• Combina modulos en distintos locales',
+    overviewNote:
+      'Cada paquete Core lleva los once módulos. El paquete marca su profundidad y los tramos de locales marcan el precio.',
+    addModuleLabel: (name) => `Ver ${name} dentro de un paquete →`,
+    examplesLabel: 'Cinco locales en Core Foundation:',
+    exampleLines: (v) => [
+      `• Primer local: ${v.first}`,
+      `• Cuatro más a ${v.marginal} cada uno`,
+      `• ${v.total} al mes, una media ponderada de ${v.average} por local`,
     ],
-    refreshLabels: [
-      'Actualizacion de 4 horas con inteligencia operativa especializada',
-      'Actualizacion de 2 horas con inteligencia especializada profunda',
-      'Actualizacion personalizada con inteligencia especializada ilimitada',
+    packageDepthLabels: [
+      'La base operativa en los once módulos',
+      'Más profundidad en coste y fuga: teórico frente a real, merma, anulaciones',
+      'Más profundidad en demanda: cohortes de clientes, atribución de promos, margen de canal',
+      'Profundidad completa más consolidación multimarca y multirregión',
     ],
-    stackLabels: ['Core Lite + modulos', 'Core Pro + modulos', 'Enterprise + modulos'],
+    stackLabels: ['Core Foundation', 'Core Margin', 'Core Growth', 'Core Performance'],
     faqButtonLabel: 'Preguntas frecuentes',
   },
 };
@@ -518,10 +530,22 @@ export default function ModulesPage() {
   const ui = localizedModulesUi[locale as keyof typeof localizedModulesUi] ?? getGeneratedLocalCopy(localizedModulesUi, generatedLocalCopy.localizedModulesUi, locale) ?? localizedModulesUi.en;
   const cream = modulesCreamCopy[locale as keyof typeof modulesCreamCopy] ?? modulesCreamCopy.en;
 
+  // Marginal-band worked example, computed from the v1.7 price book so the
+  // page can never drift from it: 5 Core Foundation locations = the anchor
+  // plus four at the 2-10 marginal rate.
+  const foundation = CORE_PACKAGES[0];
+  const foundationFive = bandedMonthlyTotal(foundation, 5);
+  const bandExample = {
+    first: usd(foundation.firstUnitMonthly),
+    marginal: usd(foundation.bands[0].monthlyPerUnit),
+    total: usd(foundationFive.monthlyTotal),
+    average: usd(foundationFive.blendedAveragePerUnit),
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-stone-50 via-white to-orange-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50/80 via-purple-50/30 to-orange-50/60">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -584,7 +608,7 @@ export default function ModulesPage() {
               <h3 className="font-semibold text-[var(--text-primary)] mb-2">{page.pillars[1].title}</h3>
               <p className="text-sm text-[var(--text-supporting)]">{page.pillars[1].description}</p>
             </div>
-            <div className="text-center p-6 bg-green-50 rounded-xl">
+            <div className="text-center p-6 bg-green-500/10 rounded-xl">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="integration" size="lg" className="text-[var(--text-primary)]" />
               </div>
@@ -653,7 +677,7 @@ export default function ModulesPage() {
                         </ul>
                       </div>
                       <div>
-                        <div className="bg-gradient-to-br from-green-50 to-orange-50 rounded-lg p-4 mb-4">
+                        <div className="bg-green-500/10 rounded-lg p-4 mb-4">
                           <h4 className="font-semibold text-[var(--text-primary)] mb-2">{copy.roi}</h4>
                           <p className="text-sm text-[var(--text-secondary)]">{module.roi}</p>
                         </div>
@@ -689,7 +713,7 @@ export default function ModulesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gradient-to-br from-orange-50 to-purple-50 rounded-xl p-8">
+            <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   1
@@ -702,14 +726,14 @@ export default function ModulesPage() {
               <div className="bg-[var(--navy-deep)] rounded-lg p-4">
                 <p className="text-sm text-[var(--text-supporting)] mb-2"><strong>{ui.examplesLabel}</strong></p>
                 <ul className="text-sm text-[var(--text-supporting)] space-y-1">
-                  {ui.exampleLines.map((line) => (
+                  {ui.exampleLines(bandExample).map((line) => (
                     <li key={line}>{line}</li>
                   ))}
                 </ul>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#FFF1EC] to-orange-50 rounded-xl p-8">
+            <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#F0A23C] to-[#FF5C4D] rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   2
@@ -720,23 +744,19 @@ export default function ModulesPage() {
                 {page.howItWorks[1].description}
               </p>
               <div className="space-y-3">
-                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
-                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{ui.stackLabels[0]}</p>
-                  <p className="text-xs text-[var(--text-supporting)]">{ui.refreshLabels[0]}</p>
-                </div>
-                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
-                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{ui.stackLabels[1]}</p>
-                  <p className="text-xs text-[var(--text-supporting)]">{ui.refreshLabels[1]}</p>
-                </div>
-                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
-                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{ui.stackLabels[2]}</p>
-                  <p className="text-xs text-[var(--text-supporting)]">{ui.refreshLabels[2]}</p>
-                </div>
+                {ui.stackLabels.map((label, idx) => (
+                  <div key={label} className="bg-[var(--navy-deep)] rounded-lg p-3">
+                    <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">
+                      {label} · {usd(CORE_PACKAGES[idx].firstUnitMonthly)}
+                    </p>
+                    <p className="text-xs text-[var(--text-supporting)]">{ui.packageDepthLabels[idx]}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-[#FFF1EC] to-orange-50 rounded-xl p-8">
+          <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-8">
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-4 text-center">{page.crossModuleTitle}</h3>
             <p className="text-[var(--text-secondary)] text-center mb-6">{page.crossModuleDescription}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -758,7 +778,7 @@ export default function ModulesPage() {
       </section>
 
       {/* Module Selection Guide */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50 to-purple-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
@@ -778,7 +798,7 @@ export default function ModulesPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="bg-[var(--navy-deep)] rounded-xl p-6 shadow-none hover:shadow-md transition-all duration-300 h-full">
+                <div className="bg-white/[0.03] border border-[var(--border-default)] rounded-xl p-6 shadow-none hover:shadow-md transition-all duration-300 h-full">
               <p className="text-lg font-bold text-[var(--text-primary)] mb-2">{item.pain}</p>
               <p className="text-[#FF8473] font-semibold mb-2">→ {item.solution}</p>
               <p className="text-sm text-[var(--text-supporting)]">{item.benefit}</p>
@@ -828,7 +848,7 @@ export default function ModulesPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-stone-50 to-orange-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             {page.ctaTitle}
@@ -837,7 +857,7 @@ export default function ModulesPage() {
             {page.ctaDescription}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+            <div className="p-6 bg-white/[0.03] border border-[var(--border-default)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="calculator" size="lg" className="text-[var(--text-primary)]" />
               </div>
@@ -849,7 +869,7 @@ export default function ModulesPage() {
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+            <div className="p-6 bg-white/[0.03] border border-[var(--border-default)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="document" size="lg" className="text-[var(--text-primary)]" />
               </div>
@@ -861,7 +881,7 @@ export default function ModulesPage() {
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+            <div className="p-6 bg-white/[0.03] border border-[var(--border-default)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="conversation" size="lg" className="text-[var(--text-primary)]" />
               </div>

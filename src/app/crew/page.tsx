@@ -5,7 +5,6 @@ import { motion, MotionConfig } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { ElegantShape } from "@/components/ui/ElegantShape";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -15,6 +14,8 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { crewCreamCopy } from "./crewCreamCopy";
+import { balanceSentences } from '@/lib/balanceSentences';
+import { getPositioningCopy } from '@/lib/positioningCopy';
 
 /* ─── Structural data (icons / accents stay constant across locales) ─── */
 
@@ -28,7 +29,7 @@ const featurePillars = [
 ];
 
 const moduleAccents = [
-  "from-[#1C47FF] to-[#3B82F6]", // 01 Crew Lite - electric blue
+  "from-[#1C47FF] to-[#3B82F6]", // 01 Crew Starter - electric blue
   "from-[#0EA5E9] to-[#0284C7]", // 02 Crew Scheduling - sky
   "from-[#22C55E] to-[#16A34A]", // 03 Crew Operations - green
   "from-[#A855F7] to-[#7C3AED]", // 04 Crew T&A - purple
@@ -122,14 +123,14 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     badge: "CREW · WORKFORCE OPERATIONS",
     heroLine1: "Every shift",
     heroLine2: "becomes signal.",
-    description: "Crew runs your people, schedules, time, HR operations, payroll readiness, and employee support. Every action becomes operating data that feeds Sundae's decision intelligence - a loop standalone HR or payroll vendors cannot close.",
+    description: "Crew runs your people, schedules, time, HR operations, payroll readiness, and employee support. Every action becomes operating data that feeds Sundae's decision intelligence - a loop that standalone HR or payroll vendors cannot close.",
     primaryCta: "Book a Crew Walkthrough",
     secondaryCta: "See Crew in Action",
     heroProof: [
-      { value: "5", label: "Regions live" },
-      { value: "36", label: "Country / region packs" },
-      { value: "5", label: "Statutory export formats" },
-      { value: "9+", label: "Year-end form families" },
+      { value: "5", label: "Payroll regions in production" },
+      { value: "36", label: "Countries covered for payroll" },
+      { value: "5", label: "Statutory filing formats" },
+      { value: "9+", label: "Year-end form types" },
     ],
 
     loopEyebrow: "WHY CREW SITS IN SUNDAE",
@@ -156,7 +157,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     coverageLabel: "Also included in every Crew deployment",
     coverageItems: [
       { title: "Employee mobile portal", body: "Every employee gets a free Sundae account - view shifts, request time-off, swap, payslips, attestations, biometric clock-in." },
-      { title: "Communications", body: "Briefings with topology audience picker, team feed, kudos, surveys, channel registry." },
+      { title: "Communications", body: "Briefings you can target by brand, region or site, team feed, kudos, surveys, channel list." },
       { title: "Documents & e-sign", body: "Document storage, e-signature flow, evidence packs, credential tracking." },
       { title: "Support + Ask-HR", body: "SundaeAI Support handles product questions. Ask-HR handles employee HR requests, private HR queues, and personnel casework." },
       { title: "Integrations & adapters", body: "BYO-HR adapters (Bayzat, Personio, Pento, Gusto, BambooHR), POS labor sync, public-holiday packs, partner-SDK." },
@@ -172,7 +173,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { label: "Time & Attendance", title: "Punch clock + spreadsheet variance", body: "Mobile PWA clock-in with geo-fence + WebAuthn biometric. Trust scores feed Workforce Health automatically." },
       { label: "Payroll readiness", title: "Spreadsheet exports per region", body: "Multi-region engine produces NACHA / EFT / HMRC RTI / SEPA / WPS files + year-end forms. Cycle proof packs replace QA mail threads." },
       { label: "HR casework", title: "Tickets in a generic helpdesk", body: "Ask-HR queue with private channels, attestations, disciplinary workflow, evidence packs - separate from product support." },
-      { label: "Comms", title: "Shift announcements over text", body: "Briefings with topology audience picker, team feed, kudos, surveys - operator-controlled, not employees screenshotting WhatsApp." },
+      { label: "Comms", title: "Shift announcements over text", body: "Briefings you can target by brand, region or site, team feed, kudos, surveys - run by you, not employees screenshotting WhatsApp." },
       { label: "Workforce analytics", title: "BI dashboards that can't see HR", body: "Labor Intelligence reads payroll cycle status, no-show risk, schedule pipeline, trust scores, open punches - without a separate ETL." },
     ],
     retiresClosing: "Crew is optional - bring your own HR (Bayzat, Personio, Pento, Gusto) and Sundae still consolidates the signal. Optional, not parallel.",
@@ -198,18 +199,18 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     payrollClosing: "BYO-payroll? Crew exports clean files and drives partner APIs (Bayzat MEA, Personio EU, Pento UK, Gusto US).",
 
     modulesEyebrow: "MODULES",
-    modulesTitle: "Six Crew SKUs. Two bundles. Free portal for every employee.",
-    modulesDescription: "Start with Crew Lite, add focused workforce SKUs, or bundle the operating layer when you are ready to close the loop.",
+    modulesTitle: "Six Crew SKUs. Three bundles. Free portal for every employee.",
+    modulesDescription: "Start with Crew Starter, add focused workforce SKUs, or bundle the operating layer when you are ready to close the loop.",
     modules: [
-      { name: "Crew Lite", tagline: "Entry workforce self-service.", included: ["People basics", "Time-off", "Basic scheduling", "Employee self-service", "Up to 5 locations"] },
-      { name: "Crew Scheduling", tagline: "Demand-matched labor planning.", included: ["AI Builder", "Availability + swaps", "Shift offers", "Templates", "Manager approvals"] },
-      { name: "Crew Operations", tagline: "HR operations and casework.", included: ["Credentials + assets", "Attestations + e-sign", "Ask-HR helpdesk", "Onboarding → offboarding", "Workflow builders"] },
-      { name: "Crew T&A", tagline: "Clock-in, attendance, variance.", included: ["Mobile PWA clock-in", "Geo-fence + biometric", "Break tracking", "Variance + trust scores", "Payroll readiness"] },
-      { name: "Crew Payroll", tagline: "Readiness, exports, partner handoff.", included: ["Multi-region packs", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Payslips + employee portal", "Year-end surfaces", "Final pay workflows"] },
-      { name: "Crew People Intelligence", tagline: "Strategic HR and talent layer.", included: ["Performance", "Benefits + compensation", "Talent review", "Surveys + recruiting", "Training + recognition"] },
+      { name: "Crew Starter", tagline: "Entry workforce self-service.", included: ["People basics", "Time-off", "Basic scheduling", "Employee self-service"] },
+      { name: "Crew Schedule", tagline: "Demand-matched labor planning.", included: ["AI Builder", "Availability + swaps", "Shift offers", "Templates", "Manager approvals"] },
+      { name: "Crew Manage", tagline: "HR operations and casework.", included: ["Credentials + assets", "Attestations + e-sign", "Ask-HR helpdesk", "Onboarding → offboarding", "Workflow builders"] },
+      { name: "Crew Time", tagline: "Clock-in, attendance, variance.", included: ["Mobile PWA clock-in", "Geo-fence + biometric", "Break tracking", "Variance + trust scores", "Payroll readiness"] },
+      { name: "Crew Pay", tagline: "Readiness, exports, partner handoff.", included: ["Multi-region packs", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Payslips + employee portal", "Year-end surfaces", "Final pay workflows"] },
+      { name: "Crew People", tagline: "Strategic HR and talent layer.", included: ["Performance", "Benefits + compensation", "Talent review", "Surveys + recruiting", "Training + recognition"] },
     ],
-    bundleLabel: "Crew Operating + Crew Complete",
-    bundleDescription: "Operating combines Operations, T&A, and Payroll. Complete adds People Intelligence for the full workforce intelligence loop.",
+    bundleLabel: "Schedule & Time · Crew Operating · Crew Complete",
+    bundleDescription: "Schedule & Time pairs Schedule with Time. Crew Operating combines Manage, Time and Pay. Crew Complete adds People for the full workforce intelligence loop. Each bundle carries its own net price - it is not a discount applied to the SKUs inside it.",
     freeTierLabel: "Free for every employee",
     freeTierDescription: "Every Crew employee gets a free Sundae self-service account - view shifts, request time-off, view payslips, clock in. Bottom-up workforce identity, included.",
 
@@ -226,8 +227,8 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "ALREADY ON BAYZAT, PERSONIO, OR GUSTO?",
     byohrTitle: "Crew is optional. The intelligence loop isn't.",
-    byohrDescription: "Bring your own HR. Sundae's canonical HR domain contract reads from any compliant adapter - and Labor Intelligence still gets 5-10× richer than competitors who only see POS.",
-    byohrItems: ["Bayzat (MEA hospitality)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR (canonical adapter)", "POS-native HR exports"],
+    byohrDescription: "Keep the HR system you already run. Sundae reads from it through one shared people record - and labor intelligence gets materially richer when scheduling, attendance, payroll and POS sit in the same picture.",
+    byohrItems: ["Bayzat (MEA hospitality)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR", "POS-native HR exports"],
 
     ctaEyebrow: "RUN YOUR PEOPLE. POWER YOUR INTELLIGENCE.",
     ctaTitle: "See what changes when the loop closes.",
@@ -243,10 +244,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     primaryCta: "احجز جولة Crew",
     secondaryCta: "شاهد Crew في العمل",
     heroProof: [
-      { value: "5", label: "مناطق فعّالة" },
-      { value: "36", label: "حزم دول / مناطق" },
-      { value: "5", label: "صيغ تصدير قانونية" },
-      { value: "9+", label: "عائلات نماذج نهاية السنة" },
+      { value: "5", label: "مناطق رواتب في الإنتاج" },
+      { value: "36", label: "دولة مغطاة للرواتب" },
+      { value: "5", label: "صيغ إيداع قانونية" },
+      { value: "9+", label: "أنواع نماذج نهاية السنة" },
     ],
 
     loopEyebrow: "لماذا Crew داخل Sundae",
@@ -315,18 +316,18 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     payrollClosing: "تجلب رواتبك؟ Crew يصدّر ملفات نظيفة ويشغّل APIs الشركاء (Bayzat، Personio، Pento، Gusto).",
 
     modulesEyebrow: "الوحدات",
-    modulesTitle: "ستة Crew SKUs. حزمتان. بوابة مجانية لكل موظف.",
-    modulesDescription: "ابدأ بـ Crew Lite، ثم أضف SKUs القوى العاملة المركزة، أو اجمع طبقة التشغيل عندما تكون جاهزاً لإغلاق الحلقة.",
+    modulesTitle: "ستة Crew SKUs. ثلاث حزم. بوابة مجانية لكل موظف.",
+    modulesDescription: "ابدأ بـ Crew Starter، ثم أضف SKUs القوى العاملة المركزة، أو اجمع طبقة التشغيل عندما تكون جاهزاً لإغلاق الحلقة.",
     modules: [
-      { name: "Crew Lite", tagline: "خدمة ذاتية أولية للقوى العاملة.", included: ["أساسيات الأشخاص", "إجازات", "جدولة أساسية", "خدمة ذاتية للموظف", "حتى 5 مواقع"] },
-      { name: "Crew Scheduling", tagline: "تخطيط عمالة مطابق للطلب.", included: ["AI Builder", "توفر + تبديلات", "عروض ورديات", "قوالب", "موافقات المدير"] },
-      { name: "Crew Operations", tagline: "عمليات HR وحالات الموظفين.", included: ["شهادات + أصول", "إقرارات + توقيع إلكتروني", "Ask-HR helpdesk", "تعيين → إنهاء", "منشئو سير العمل"] },
-      { name: "Crew T&A", tagline: "تسجيل، حضور، تباين.", included: ["PWA جوال للتسجيل", "Geo-fence + بيومتري", "تتبع الاستراحات", "تباين + درجات ثقة", "جاهزية الرواتب"] },
-      { name: "Crew Payroll", tagline: "جاهزية وتصدير وتسليم للشركاء.", included: ["حزم متعددة المناطق", "NACHA · EFT · HMRC RTI · SEPA · WPS", "كشوف رواتب + بوابة موظف", "أسطح نهاية السنة", "سير عمل الراتب النهائي"] },
-      { name: "Crew People Intelligence", tagline: "طبقة HR استراتيجية ومواهب.", included: ["الأداء", "المزايا + التعويضات", "مراجعة المواهب", "استبيانات + توظيف", "تدريب + تقدير"] },
+      { name: "Crew Starter", tagline: "خدمة ذاتية أولية للقوى العاملة.", included: ["أساسيات الأشخاص", "إجازات", "جدولة أساسية", "خدمة ذاتية للموظف"] },
+      { name: "Crew Schedule", tagline: "تخطيط عمالة مطابق للطلب.", included: ["AI Builder", "توفر + تبديلات", "عروض ورديات", "قوالب", "موافقات المدير"] },
+      { name: "Crew Manage", tagline: "عمليات HR وحالات الموظفين.", included: ["شهادات + أصول", "إقرارات + توقيع إلكتروني", "Ask-HR helpdesk", "تعيين → إنهاء", "منشئو سير العمل"] },
+      { name: "Crew Time", tagline: "تسجيل، حضور، تباين.", included: ["PWA جوال للتسجيل", "Geo-fence + بيومتري", "تتبع الاستراحات", "تباين + درجات ثقة", "جاهزية الرواتب"] },
+      { name: "Crew Pay", tagline: "جاهزية وتصدير وتسليم للشركاء.", included: ["حزم متعددة المناطق", "NACHA · EFT · HMRC RTI · SEPA · WPS", "كشوف رواتب + بوابة موظف", "أسطح نهاية السنة", "سير عمل الراتب النهائي"] },
+      { name: "Crew People", tagline: "طبقة HR استراتيجية ومواهب.", included: ["الأداء", "المزايا + التعويضات", "مراجعة المواهب", "استبيانات + توظيف", "تدريب + تقدير"] },
     ],
-    bundleLabel: "Crew Operating + Crew Complete",
-    bundleDescription: "Operating تجمع Operations وT&A وPayroll. Complete تضيف People Intelligence للحلقة الكاملة لذكاء القوى العاملة.",
+    bundleLabel: "Schedule & Time · Crew Operating · Crew Complete",
+    bundleDescription: "Schedule & Time تجمع Schedule مع Time. وCrew Operating تجمع Manage وTime وPay. وCrew Complete تضيف People للحلقة الكاملة لذكاء القوى العاملة. لكل حزمة سعرها الصافي الخاص - وليست خصمًا يُطبَّق على مكوناتها.",
     freeTierLabel: "مجاناً لكل موظف",
     freeTierDescription: "كل موظف Crew يحصل على حساب Sundae خدمة ذاتية مجاني - مشاهدة الورديات، طلب الإجازات، مشاهدة كشوف الرواتب، تسجيل. هوية قوى عاملة من الأسفل، مشمولة.",
 
@@ -343,7 +344,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "تستخدم بالفعل Bayzat أو Personio أو Gusto؟",
     byohrTitle: "Crew اختياري. حلقة الذكاء ليست.",
-    byohrDescription: "أحضر HR الخاص بك. عقد مجال HR الموحد من Sundae يقرأ من أي محول متوافق - ويبقى Labor Intelligence أغنى 5-10× من المنافسين الذين يرون POS فقط.",
+    byohrDescription: "أحضر HR الخاص بك. عقد مجال HR الموحد من Sundae يقرأ من أي محول متوافق - ويصبح ذكاء العمالة أغنى بوضوح حين تشترك الجدولة والحضور والرواتب وPOS في سياق تشغيلي واحد.",
     byohrItems: ["Bayzat (ضيافة الشرق الأوسط)", "Personio (أوروبا)", "Pento / Onfolk (المملكة المتحدة)", "Gusto / Rippling (الولايات المتحدة)", "BambooHR (محول موحد)", "تصديرات HR من POS"],
 
     ctaEyebrow: "أدر موظفيك. شغّل ذكاءك.",
@@ -360,10 +361,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     primaryCta: "Réserver une visite Crew",
     secondaryCta: "Voir Crew en action",
     heroProof: [
-      { value: "5", label: "Régions en production" },
-      { value: "36", label: "Packs pays / régions" },
-      { value: "5", label: "Formats d'export statutaires" },
-      { value: "9+", label: "Familles de formulaires fin d'année" },
+      { value: "5", label: "Régions de paie en production" },
+      { value: "36", label: "Pays couverts pour la paie" },
+      { value: "5", label: "Formats de déclaration légale" },
+      { value: "9+", label: "Types de formulaires de fin d'année" },
     ],
 
     loopEyebrow: "POURQUOI CREW EST DANS SUNDAE",
@@ -390,7 +391,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     coverageLabel: "Inclus dans chaque déploiement Crew",
     coverageItems: [
       { title: "Portail mobile employé", body: "Chaque employé obtient un compte Sundae gratuit - voir shifts, demander congés, swap, bulletins, attestations, pointage biométrique." },
-      { title: "Communications", body: "Briefings avec picker d'audience topologique, fil d'équipe, kudos, sondages, registre de canaux." },
+      { title: "Communications", body: "Briefings ciblables par marque, region ou site, fil d'equipe, kudos, sondages, liste de canaux." },
       { title: "Documents & e-sign", body: "Stockage de documents, flux de signature électronique, evidence packs, suivi de credentials." },
       { title: "Support + Ask-HR", body: "SundaeAI Support répond aux questions produit. Ask-HR gère les demandes employés, files RH privées et casework personnel." },
       { title: "Intégrations & adapters", body: "Adapters BYO-HR (Bayzat, Personio, Pento, Gusto, BambooHR), sync POS, packs jours fériés, Partner-SDK." },
@@ -406,7 +407,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { label: "Temps & Présence", title: "Pointage + variance tableur", body: "Pointage PWA mobile avec géo-fence + biométrie WebAuthn. Scores de confiance alimentent Workforce Health." },
       { label: "Préparation paie", title: "Exports tableur par région", body: "Moteur multi-régions produit fichiers NACHA / EFT / HMRC RTI / SEPA / WPS + formulaires fin d'année. Proof packs remplacent les threads mail QA." },
       { label: "Casework RH", title: "Tickets dans un helpdesk générique", body: "Queue Ask-HR avec canaux privés, attestations, workflow disciplinaire, evidence packs - séparé du support produit." },
-      { label: "Comms", title: "Annonces par SMS", body: "Briefings avec picker audience topologique, fil d'équipe, kudos, sondages - opérateur-contrôlé, pas screenshots WhatsApp." },
+      { label: "Comms", title: "Annonces par SMS", body: "Briefings ciblables par marque, region ou site, fil d'equipe, kudos, sondages - pilotes par vous, pas des employes qui screenshotent WhatsApp." },
       { label: "Analytics main-d'œuvre", title: "BI qui ne voit pas la RH", body: "Labor Intelligence lit cycle paie, no-show risk, pipeline planning, scores de confiance, punches ouverts - sans ETL séparé." },
     ],
     retiresClosing: "Crew est optionnel - BYO-HR (Bayzat, Personio, Pento, Gusto) et Sundae consolide quand même le signal. Optionnel, pas parallèle.",
@@ -432,18 +433,18 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     payrollClosing: "BYO-paie ? Crew exporte fichiers propres et pilote APIs partenaires (Bayzat MEA, Personio EU, Pento UK, Gusto US).",
 
     modulesEyebrow: "MODULES",
-    modulesTitle: "Six Crew SKUs. Deux bundles. Portail gratuit pour chaque employé.",
-    modulesDescription: "Commencez avec Crew Lite, ajoutez les SKUs workforce ciblés, ou bundlez la couche opérationnelle quand vous êtes prêts à fermer la boucle.",
+    modulesTitle: "Six Crew SKUs. Trois bundles. Portail gratuit pour chaque employé.",
+    modulesDescription: "Commencez avec Crew Starter, ajoutez les SKUs workforce ciblés, ou bundlez la couche opérationnelle quand vous êtes prêts à fermer la boucle.",
     modules: [
-      { name: "Crew Lite", tagline: "Self-service workforce d'entrée.", included: ["Bases personnes", "Congés", "Planning basique", "Self-service employé", "Jusqu'à 5 sites"] },
-      { name: "Crew Scheduling", tagline: "Planification main-d'œuvre alignée demande.", included: ["AI Builder", "Disponibilités + swaps", "Offres de shifts", "Templates", "Approbations manager"] },
-      { name: "Crew Operations", tagline: "Opérations RH et casework.", included: ["Credentials + assets", "Attestations + e-sign", "Helpdesk Ask-HR", "Onboarding → offboarding", "Builders workflow"] },
-      { name: "Crew T&A", tagline: "Pointage, présence, variance.", included: ["Pointage PWA mobile", "Géo-fence + biométrie", "Pauses", "Variance + scores", "Préparation paie"] },
-      { name: "Crew Payroll", tagline: "Préparation, exports, handoff partenaire.", included: ["Packs multi-régions", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Bulletins + portail employé", "Surfaces fin d'année", "Workflows solde final"] },
-      { name: "Crew People Intelligence", tagline: "Couche RH stratégique et talents.", included: ["Performance", "Benefits + compensation", "Talent review", "Sondages + recrutement", "Formation + reconnaissance"] },
+      { name: "Crew Starter", tagline: "Self-service workforce d'entrée.", included: ["Bases personnes", "Congés", "Planning basique", "Self-service employé"] },
+      { name: "Crew Schedule", tagline: "Planification main-d'œuvre alignée demande.", included: ["AI Builder", "Disponibilités + swaps", "Offres de shifts", "Templates", "Approbations manager"] },
+      { name: "Crew Manage", tagline: "Opérations RH et casework.", included: ["Credentials + assets", "Attestations + e-sign", "Helpdesk Ask-HR", "Onboarding → offboarding", "Builders workflow"] },
+      { name: "Crew Time", tagline: "Pointage, présence, variance.", included: ["Pointage PWA mobile", "Géo-fence + biométrie", "Pauses", "Variance + scores", "Préparation paie"] },
+      { name: "Crew Pay", tagline: "Préparation, exports, handoff partenaire.", included: ["Packs multi-régions", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Bulletins + portail employé", "Surfaces fin d'année", "Workflows solde final"] },
+      { name: "Crew People", tagline: "Couche RH stratégique et talents.", included: ["Performance", "Benefits + compensation", "Talent review", "Sondages + recrutement", "Formation + reconnaissance"] },
     ],
-    bundleLabel: "Crew Operating + Crew Complete",
-    bundleDescription: "Operating combine Operations, T&A et Payroll. Complete ajoute People Intelligence pour la boucle complète d'intelligence workforce.",
+    bundleLabel: "Schedule & Time · Crew Operating · Crew Complete",
+    bundleDescription: "Schedule & Time associe Schedule et Time. Crew Operating combine Manage, Time et Pay. Crew Complete ajoute People pour la boucle complète d'intelligence workforce. Chaque bundle porte son propre prix net - ce n'est pas une remise appliquée aux SKUs qu'il contient.",
     freeTierLabel: "Gratuit pour chaque employé",
     freeTierDescription: "Chaque employé Crew obtient un compte Sundae self-service gratuit - voir shifts, demander congés, voir bulletins, pointer. Identité main-d'œuvre bottom-up, incluse.",
 
@@ -460,7 +461,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "DÉJÀ SUR BAYZAT, PERSONIO OU GUSTO ?",
     byohrTitle: "Crew est optionnel. La boucle d'intelligence non.",
-    byohrDescription: "BYO-HR. Le contrat de domaine RH canonique de Sundae lit depuis tout adapter conforme - et Labor Intelligence reste 5-10× plus riche que les concurrents qui ne voient que le POS.",
+    byohrDescription: "BYO-HR. Le contrat de domaine RH canonique de Sundae lit depuis tout adapter conforme - et l'intelligence main-d'oeuvre devient nettement plus riche quand planning, pointage, paie et POS partagent un meme contexte d'exploitation.",
     byohrItems: ["Bayzat (hospitality MEA)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR (adapter canonique)", "Exports RH POS-natifs"],
 
     ctaEyebrow: "GÉREZ VOS GENS. ALIMENTEZ VOTRE INTELLIGENCE.",
@@ -477,10 +478,10 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     primaryCta: "Reservar recorrido Crew",
     secondaryCta: "Ver Crew en acción",
     heroProof: [
-      { value: "5", label: "Regiones en producción" },
-      { value: "36", label: "Paquetes país / región" },
-      { value: "5", label: "Formatos de exporte estatutario" },
-      { value: "9+", label: "Familias de formularios fin de año" },
+      { value: "5", label: "Regiones de nómina en producción" },
+      { value: "36", label: "Países cubiertos para nóminas" },
+      { value: "5", label: "Formatos de declaración legal" },
+      { value: "9+", label: "Tipos de formularios de fin de año" },
     ],
 
     loopEyebrow: "POR QUÉ CREW VIVE EN SUNDAE",
@@ -549,18 +550,18 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     payrollClosing: "¿BYO-nómina? Crew exporta archivos limpios y maneja APIs partners (Bayzat MEA, Personio EU, Pento UK, Gusto US).",
 
     modulesEyebrow: "MÓDULOS",
-    modulesTitle: "Seis Crew SKUs. Dos bundles. Portal gratis para cada empleado.",
-    modulesDescription: "Empieza con Crew Lite, agrega SKUs enfocados de workforce, o bundlea la capa operativa cuando estés listo para cerrar el loop.",
+    modulesTitle: "Seis Crew SKUs. Tres bundles. Portal gratis para cada empleado.",
+    modulesDescription: "Empieza con Crew Starter, agrega SKUs enfocados de workforce, o bundlea la capa operativa cuando estés listo para cerrar el loop.",
     modules: [
-      { name: "Crew Lite", tagline: "Self-service inicial de workforce.", included: ["Personas básico", "Ausencias", "Horarios básicos", "Self-service empleado", "Hasta 5 locales"] },
-      { name: "Crew Scheduling", tagline: "Planificación laboral alineada a demanda.", included: ["AI Builder", "Disponibilidad + swaps", "Ofertas de turnos", "Templates", "Aprobaciones manager"] },
-      { name: "Crew Operations", tagline: "Operaciones RR.HH. y casos.", included: ["Credenciales + activos", "Attestations + e-sign", "Helpdesk Ask-HR", "Onboarding → offboarding", "Builders workflow"] },
-      { name: "Crew T&A", tagline: "Fichar, asistencia, varianza.", included: ["Fichar PWA móvil", "Geo-cerca + biometría", "Descansos", "Varianza + scores", "Preparación de nómina"] },
-      { name: "Crew Payroll", tagline: "Preparación, exportes, handoff partner.", included: ["Paquetes multi-región", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Nóminas + portal empleado", "Superficies fin de año", "Workflows de pago final"] },
-      { name: "Crew People Intelligence", tagline: "Capa estratégica RR.HH. y talento.", included: ["Performance", "Beneficios + compensación", "Talent review", "Encuestas + reclutamiento", "Formación + reconocimiento"] },
+      { name: "Crew Starter", tagline: "Self-service inicial de workforce.", included: ["Personas básico", "Ausencias", "Horarios básicos", "Self-service empleado"] },
+      { name: "Crew Schedule", tagline: "Planificación laboral alineada a demanda.", included: ["AI Builder", "Disponibilidad + swaps", "Ofertas de turnos", "Templates", "Aprobaciones manager"] },
+      { name: "Crew Manage", tagline: "Operaciones RR.HH. y casos.", included: ["Credenciales + activos", "Attestations + e-sign", "Helpdesk Ask-HR", "Onboarding → offboarding", "Builders workflow"] },
+      { name: "Crew Time", tagline: "Fichar, asistencia, varianza.", included: ["Fichar PWA móvil", "Geo-cerca + biometría", "Descansos", "Varianza + scores", "Preparación de nómina"] },
+      { name: "Crew Pay", tagline: "Preparación, exportes, handoff partner.", included: ["Paquetes multi-región", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Nóminas + portal empleado", "Superficies fin de año", "Workflows de pago final"] },
+      { name: "Crew People", tagline: "Capa estratégica RR.HH. y talento.", included: ["Performance", "Beneficios + compensación", "Talent review", "Encuestas + reclutamiento", "Formación + reconocimiento"] },
     ],
-    bundleLabel: "Crew Operating + Crew Complete",
-    bundleDescription: "Operating combina Operations, T&A y Payroll. Complete agrega People Intelligence para el loop completo de inteligencia workforce.",
+    bundleLabel: "Schedule & Time · Crew Operating · Crew Complete",
+    bundleDescription: "Schedule & Time combina Schedule con Time. Crew Operating combina Manage, Time y Pay. Crew Complete añade People para el loop completo de inteligencia workforce. Cada bundle tiene su propio precio neto: no es un descuento aplicado a los SKUs que contiene.",
     freeTierLabel: "Gratis para cada empleado",
     freeTierDescription: "Cada empleado Crew obtiene cuenta Sundae self-service gratis - ver turnos, pedir vacaciones, ver nómina, fichar. Identidad de fuerza laboral bottom-up, incluida.",
 
@@ -577,7 +578,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     byohrEyebrow: "¿YA EN BAYZAT, PERSONIO O GUSTO?",
     byohrTitle: "Crew es opcional. El bucle de inteligencia no.",
-    byohrDescription: "BYO-HR. El contrato de dominio RR.HH. canónico de Sundae lee desde cualquier adapter compatible - y Labor Intelligence sigue siendo 5-10× más rica que los competidores que solo ven POS.",
+    byohrDescription: "BYO-HR. El contrato de dominio RR.HH. canónico de Sundae lee desde cualquier adapter compatible - y la inteligencia de personal se vuelve notablemente más rica cuando turnos, fichajes, nómina y POS comparten un mismo contexto operativo.",
     byohrItems: ["Bayzat (hospitality MEA)", "Personio (EU)", "Pento / Onfolk (UK)", "Gusto / Rippling (US)", "BambooHR (adapter canónico)", "Exportes RR.HH. POS-nativos"],
 
     ctaEyebrow: "OPERA TU GENTE. ENERGIZA TU INTELIGENCIA.",
@@ -590,7 +591,14 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
 export default function CrewPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const sourceCopy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const positioning = getPositioningCopy(locale).critical;
+  const copy = {
+    ...sourceCopy,
+    loopEyebrow: positioning.crewExecutionEyebrow,
+    loopTitle: positioning.crewExecutionTitle,
+    loopDescription: positioning.crewExecutionDescription,
+  };
   const cream = crewCreamCopy[locale as keyof typeof crewCreamCopy] ?? crewCreamCopy.en;
 
   return (
@@ -601,25 +609,18 @@ export default function CrewPage() {
         ════════════════════════════════════════════════ */}
         <section className="relative pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
-          <div className="absolute inset-0 bg-grid-texture" />
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
-            <ElegantShape delay={0.5} width={500} height={120} rotate={-15} gradient="from-white/[0.02]" className="right-[-5%] top-[60%]" />
-            <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[10%]" />
-          </div>
 
           <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-12 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] text-[#FF8473]">
-                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
+                <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">
                   {copy.badge}
                 </span>
               </motion.div>
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
-                <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">{copy.heroLine1}</span>
+                <span className="text-[var(--text-primary)]">{copy.heroLine1}</span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E]">{copy.heroLine2}</span>
+                <span className="italic text-[#F6C66B]">{copy.heroLine2}</span>
               </motion.h1>
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
                 {copy.description}
@@ -826,7 +827,7 @@ export default function CrewPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
                   {copy.coverageItems.map((item) => (
                     <div key={item.title} className="flex items-start gap-3">
-                      <svg className="w-4 h-4 text-[#FF8473] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                      <svg className="w-4 h-4 text-[#22C55E] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
                       <div>
                         <div className="font-display text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
                         <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
@@ -890,7 +891,7 @@ export default function CrewPage() {
                   <ul className="space-y-1.5">
                     {m.included.map((inc) => (
                       <li key={inc} className="flex items-start gap-2">
-                        <svg className="w-3.5 h-3.5 text-[#FF8473] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                        <svg className="w-3.5 h-3.5 text-[#22C55E] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
                         <span className="text-[12px] text-[var(--text-muted)] leading-snug">{inc}</span>
                       </li>
                     ))}
@@ -949,7 +950,7 @@ export default function CrewPage() {
           <div className="relative z-10 max-w-5xl mx-auto">
             <FadeUp className="text-center max-w-3xl mx-auto mb-12">
               <p className="eyebrow mb-4">{copy.byohrEyebrow}</p>
-              <h2 className="section-h2 text-balance mb-5">{copy.byohrTitle}</h2>
+              <h2 className="section-h2 text-balance mb-5">{balanceSentences(copy.byohrTitle)}</h2>
               <p className="body-lg max-w-2xl mx-auto">{copy.byohrDescription}</p>
             </FadeUp>
 
@@ -974,9 +975,6 @@ export default function CrewPage() {
             CLOSING CTA
         ════════════════════════════════════════════════ */}
         <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
-          <div className="absolute inset-0 bg-grid-texture" />
-          <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
-          <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>

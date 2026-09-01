@@ -40,22 +40,22 @@ const vertices: Vertex[] = [
     id: "speed",
     label: "Speed",
     headline: "Deploy in days. Decide in seconds.",
-    body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.",
+    body: "Connect your stack fast. Pulse updates through the shift, and Ask Sundae answers with sources instead of sending teams back into the report queue.",
     chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"],
   },
   {
     id: "quality",
     label: "Quality",
     headline: "Built for restaurants. Governed for decisions.",
-    body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.",
-    chips: ["500+ models", "Source-cited AI", "Peer benchmarks"],
+    body: "Sundae connects operating evidence to one accountable owner, then measures what came back against the agreed baseline.",
+    chips: ["Ready on day one", "Source-cited AI", "Peer benchmarks"],
   },
   {
     id: "cost",
     label: "Cost",
     headline: "Lower cost than rebuilding BI around restaurants.",
-    body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one, with Report Lite free to start.",
-    chips: ["Report Lite free", "Less custom BI", "Lower analyst load"],
+    body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one: one package, eleven domain modules, no BI build.",
+    chips: ["One package", "Less custom BI", "Lower analyst load"],
   },
 ];
 

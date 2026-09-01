@@ -71,7 +71,7 @@ Avec Sundae:
 - Sundae Core montrait le coût alimentaire par site, catégorie et article avec une détection automatique des écarts
 - Insights identifiait: 3 sites avec des problèmes de contrôle des portions sur des protéines à fort volume, 2 sites avec des erreurs de réception gonflant le stock théorique, une hausse de 8 % des prix fournisseurs sur les ingrédients importés
 - Watchtower montrait que les concurrents absorbaient les hausses de coûts sans ajuster leurs prix de menu
-- Sundae Intelligence recommandait: corriger le contrôle des portions (immédiat), renégocier les contrats fournisseurs (court terme), tester des hausses de prix sur certains sites (stratégique)
+- Ask Sundae recommandait: corriger le contrôle des portions (immédiat), renégocier les contrats fournisseurs (court terme), tester des hausses de prix sur certains sites (stratégique)
 - Résultat: le coût alimentaire a été ramené à 33,1 %, soit 280 k$ d’économies annuelles
 
 **Scénario 3: Décisions d’expansion**
@@ -118,7 +118,7 @@ Pour un groupe de 30 sites réalisant 45 M$ de revenus, une amélioration de mar
 - Configurez des tableaux de bord Sundae Core affichant Réel vs Plan vs Benchmark vs Prévision pour les indicateurs clés
 - Paramétrez les alertes Insights pour les anomalies nécessitant une attention immédiate
 - Activez la surveillance concurrentielle Watchtower pour vos marchés
-- Donnez à l’équipe de direction accès à Sundae Intelligence pour l’intelligence conversationnelle
+- Donnez à l’équipe de direction accès à Ask Sundae pour l’intelligence conversationnelle
 
 **Étape 4: Construire votre rythme opérationnel**
 
@@ -191,7 +191,7 @@ Sundae Core utilise le machine learning pour surveiller en continu chaque indica
 
 **Recommandations prescriptives**: Insights ne se contente pas de signaler les problèmes - il recommande des actions précises fondées sur l’analyse des causes racines et sur ce qui a fonctionné dans des situations similaires.
 
-**Réponse intégrée**: les alertes apparaissent dans les tableaux de bord Sundae Core, dans les conversations Sundae Intelligence et dans les notifications e-mail/SMS selon la gravité et les préférences du destinataire.
+**Réponse intégrée**: les alertes apparaissent dans les tableaux de bord Sundae Core, dans les conversations Ask Sundae et dans les notifications e-mail/SMS selon la gravité et les préférences du destinataire.
 
 ## Scénarios concrets
 
@@ -324,7 +324,7 @@ Sundae Watchtower fournit une intelligence concurrentielle automatisée, directe
 
 **Alertes prédictives**: vous êtes notifié lorsque des concurrents prennent des décisions nécessitant une réaction - changements de prix, nouvelles promotions, ouvertures de sites, mises à jour majeures du menu.
 
-**Intelligence intégrée**: le contexte concurrentiel apparaît automatiquement dans les tableaux de bord Sundae Core, dans les conversations Sundae Intelligence et dans les alertes Insights. Pas besoin de vérifier une plateforme concurrentielle séparée.
+**Intelligence intégrée**: le contexte concurrentiel apparaît automatiquement dans les tableaux de bord Sundae Core, dans les conversations Ask Sundae et dans les alertes Insights. Pas besoin de vérifier une plateforme concurrentielle séparée.
 
 ## Scénarios concrets
 
@@ -480,7 +480,7 @@ Avec l’intelligence décisionnelle:
 - Sundae Report fournit des benchmarks spécifiques au marché selon le type de concept et le profil de zone de chalandise
 - Sundae Core modélise la performance à partir des données réelles de sites comparables
 - L’analyse concurrentielle Watchtower identifie la dynamique du marché et les opportunités de positionnement
-- Sundae Intelligence répond à "quel coût de main-d’œuvre faut-il attendre ?" avec une réponse fondée sur les données
+- Ask Sundae répond à "quel coût de main-d’œuvre faut-il attendre ?" avec une réponse fondée sur les données
 - Résultat: une décision d’expansion prise en confiance avec des objectifs réalistes, la performance réelle se situant à 3 % des projections
 
 **Scénario 3: Gestion des performances du portefeuille**

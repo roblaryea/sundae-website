@@ -12,20 +12,20 @@ export const generatedLocalCopy = {
             "content": "Sundae ist eine Entscheidungsintelligenzplattform für Restaurants und Gastgewerbe-Teams. Sie bündelt verstreute Betriebsdaten an einem Ort, damit Führungskräfte sehen können, was passiert ist, was sich ändert und wo sie als Nächstes handeln sollten."
           },
           {
-            "title": "Wie starte ich?",
-            "content": "Sie haben drei Optionen:\n\n1. **Kostenlos starten** - Melden Sie sich für Report Lite (für immer kostenlos) an und laden Sie Ihre Betriebsdaten hoch, um sofortige Benchmarks zu sehen. Keine Kreditkarte erforderlich.\n\n2. **Preise ansehen** - Nutzen Sie unseren interaktiven Preiskalkulator unter pricing.sundae.io, um die genauen Preise für Ihren Betrieb zu sehen.\n\n3. **Demo buchen** - Vereinbaren Sie einen 15-minütigen Rundgang mit unserem Team, um Sundae mit Ihren Daten in Aktion zu sehen."
+            "title": "Wie fange ich an?",
+            "content": "Sie haben zwei Möglichkeiten:\n\n1. **Preise ansehen** - Nutzen Sie den interaktiven Preisrechner auf pricing.sundae.io, um ein Core-Paket auf Ihre Standortzahl zuzuschneiden.\n\n2. **Demo buchen** - Vereinbaren Sie einen 15-minütigen Rundgang mit unserem Team und sehen Sie Sundae an Ihren eigenen Daten."
           },
           {
-            "title": "Gibt es wirklich eine kostenlose Stufe?",
-            "content": "Ja. Report Lite ist für immer kostenlos. Laden Sie Ihre POS-Daten hoch und erhalten Sie sofortige Benchmarks gegen 5 Kernmetriken. Eine faire Nutzungspolitik gilt für angemessene betriebliche Nutzung."
+            "title": "Gibt es eine kostenlose Stufe?",
+            "content": "Nein. Jedes Sundae-Paket ist kostenpflichtig, ab dem ersten Standort. Was wir anbieten, ist eine Arbeitssitzung an Ihren eigenen Zahlen, bevor Sie sich festlegen - so sehen Sie den Ertrag, bevor Sie etwas unterschreiben."
           },
           {
-            "title": "Was ist der Unterschied zwischen Report und Core?",
-            "content": "**Report-Stufe** = Historische Analyse (POS-Daten)\n• Laden Sie POS-Daten täglich, wöchentlich oder monatlich hoch\n• Analysieren Sie, was passiert ist\n• Benchmarking gegen Mitbewerber\n• Am besten für einen einzelnen Standort oder einen Proof of Concept\n\n**Core-Stufe** = Echtzeitbetrieb (POS + alle Systeme)\n• 2-4 Stunden Aktualisierungszyklen\n• Integriert POS + Personal + Inventar + Marketing + Reservierungen\n• Sehen Sie, was jetzt passiert\n• Erhalten Sie prädiktive Warnungen\n• Am besten für Betreiber mit mehreren Standorten\n\nHauptunterschied: Report = nur POS. Core = POS plus den Rest Ihres Stacks."
+            "title": "Worin unterscheiden sich die Core-Pakete?",
+            "content": "**Core Foundation** - die operative Grundlage: ein Entscheidungsfundament über POS, Personal, Kosten und Betrieb.\n\n**Core Margin** - Tiefe bei Kosten und Schwund: theoretischer vs. tatsächlicher Verbrauch, Abfall, Schwund, Stornos und Comps, Deckungsbeitrag je Artikel.\n\n**Core Growth** - Tiefe bei der Nachfrage: Gästekohorten und Lebenszeitwert, Promo-Attribution je Kanal, Liefermarge nach Provision.\n\n**Core Performance** - Konsolidierung über Marken und Regionen, modulübergreifende Korrelation, geregelter Zugriff mit Prüfpfaden.\n\nAlle vier tragen dieselben elf Domänenmodule. Was sich ändert, ist die Tiefe."
           },
           {
             "title": "Brauche ich einen langfristigen Vertrag?",
-            "content": "Nein. Die Report- und Core-Stufen sind monatlich. Jederzeit ohne Strafe kündbar. Unternehmensbereitstellungen verwenden in der Regel jährliche Vereinbarungen mit individuellen Bedingungen."
+            "content": "Nein. Jedes Paket ist monatlich kündbar, ohne Strafgebühr. Jahres- und Zweijahresbindungen gibt es, weil sie günstiger sind - 10 % und 15 % Nachlass -, nicht weil sie verlangt werden."
           }
         ]
       },
@@ -35,19 +35,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Welche Produkte bietet Sundae an?",
-            "content": "**Drei Hauptprodukte:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historische Analyse und Benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Echtzeit-Operationen und prädiktive Intelligenz\n3. **Watchtower** (Wettbewerb / Ereignis / Markt) - Externe Marktintelligenz\n\n**Zusätzlich:**\n\n4. **Module** - Arbeitskräfte, Inventar, Einkauf, Marketing und Reservierungsintelligenz."
+            "content": "**Vier Hauptprodukte:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - das Entscheidungsfundament, mit allen elf Domänenmodulen\n2. **Foresight & Action** - Prognosen, Szenariomodellierung und die Handlungsebene mit Freigabe im Ablauf\n3. **Sundae Crew** - das Personalfundament: Dienstplanung, Zeiterfassung, Lohnbereitschaft, HR und People Intelligence\n4. **Watchtower** - externe Marktintelligenz, zusammen mit Ihrem Core-Paket zugeschnitten\n\n**Dazu:** Konzept-SKUs für die Betriebsmodelle Ihrer Gruppe - Franchise, Hotel-F&B, Cloud Kitchen, Catering, Produktion, Mietküche."
           },
           {
-            "title": "Welches Tier sollte ich wählen?",
-            "content": "**Beginnen Sie mit Report Lite, wenn:**\n• Sie Sundae testen\n• Sie 1-2 Standorte betreiben\n• Tägliche oder wöchentliche Berichterstattung ausreichend ist\n\n**Upgrade auf Report Plus oder Pro, wenn:**\n• Sie tiefere historische Intelligenz benötigen\n• Tägliche Berichterstattung weiterhin ausreichend ist\n\n**Wählen Sie Core Lite oder Pro, wenn:**\n• Sie 10+ Standorte betreiben\n• Sie operative Geschwindigkeit benötigen\n• Echtzeit-Budgetverfolgung wichtig ist\n\n**Wählen Sie Enterprise, wenn:**\n• Sie 100+ Standorte haben\n• Sie SSO oder White-Label-Funktionen benötigen\n• Sie dedizierten Support und maßgeschneiderte Bedingungen benötigen"
+            "title": "Welches Core-Paket soll ich wählen?",
+            "content": "**Core Foundation, wenn:**\n• Sie Tabellen und unverbundene Dashboards ablösen\n• Sie erst ein gemeinsames Betriebsbild wollen, bevor Sie tiefer gehen\n\n**Core Margin, wenn:**\n• Wareneinsatz, Abfall, Stornos oder Comps Ihre Marge kosten\n• Sie Deckungsbeitrag je Artikel brauchen, nicht nur den Umsatzmix\n\n**Core Growth, wenn:**\n• Wiederkehrender Umsatz und Kanalmix die Engpässe sind\n• Sie Gästekohorten, Promo-Attribution und Liefermarge brauchen\n\n**Core Performance, wenn:**\n• Sie mehrere Marken oder Märkte führen\n• Sie Konsolidierung, modulübergreifende Korrelation und geregelten Zugriff brauchen"
           },
           {
             "title": "Kann ich später upgraden oder downgraden?",
             "content": "Ja. Sie können jederzeit zwischen den Tiers wechseln. Historische Daten werden beibehalten und es gibt keine Strafen für den Wechsel der Pläne."
           },
           {
-            "title": "Was ist das 4D-Intelligenzmodell?",
-            "content": "Das Framework für Entscheidungsintelligenz von Sundae:\n\n**1D: Was ist passiert** - Verkaufs-, Arbeits- und Kostendaten\n**2D: Plan vs. Ist** - Budget- und Prognoseabweichung\n**3D: Markt-Kontext** - Benchmarks, Peers und Wettbewerber\n**4D: Was kommt als Nächstes** - Vorhersagen und Empfehlungen\n\n**Report:** Vollständige 1D und 2D plus eingeschränkte 3D und 4D\n**Core:** Voller Zugriff auf alle 4 Dimensionen."
+            "title": "Was ist das 4D-Intelligence-Modell?",
+            "content": "Der Rahmen von Sundae für Entscheidungsintelligenz:\n\n**1D: Was geschehen ist** - Umsatz, Personal und Kostenwahrheit\n**2D: Plan gegen Ist** - Budget- und Prognoseabweichung\n**3D: Marktkontext** - Benchmarks, Vergleichsgruppen und Wettbewerber\n**4D: Was als Nächstes kommt** - Prognosen und Empfehlungen\n\nJedes Core-Paket deckt alle vier ab. Das Paket bestimmt, wie tief jede Dimension geht."
           }
         ]
       },
@@ -56,24 +56,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Welche Daten benötigt Sundae?",
-            "content": "**Minimum für Report Lite:**\n• POS-Verkaufsdaten (CSV-Export)\n\n**Für Core:**\n• POS-System über API\n• Arbeits- oder Personalsystem\n• Inventarsystem\n• Marketingplattformen\n• Reservierungssystem\n\nReport basiert auf POS-Uploads. Core ist der Ort, an dem Sie den umfassenderen Betriebsstapel verbinden."
+            "title": "Welche Daten braucht Sundae?",
+            "content": "**Für jedes Core-Paket:**\n• POS-System über API\n• Personal- oder Workforce-System\n• Warenwirtschaft\n• Marketingplattformen\n• Reservierungssystem\n\nPOS allein genügt, um am ersten Tag Nutzen zu ziehen. Der Rest vertieft das Bild, sobald Sie ihn anbinden."
           },
           {
-            "title": "Wie bekomme ich meine Daten in Sundae?",
-            "content": "**Report Lite:** Manueller CSV-Upload\n\n**Report Plus:** PDFs, Excel-Dateien oder Screenshots hochladen. Sundae extrahiert die Daten und Sie überprüfen sie vor der Verarbeitung.\n\n**Report Pro und Core:** Automatisierte Aufnahme über API-Verbindungen"
+            "title": "Wie kommen meine Daten in Sundae?",
+            "content": "Über API-Verbindungen zu Ihrem POS und dem übrigen Betriebsstapel. Wo ein System keine API hat, nimmt Sundae strukturierte Dateiablagen und intelligent ausgelesene Uploads entgegen - PDF, Excel, Screenshots -, die Sie vor der Verarbeitung prüfen."
           },
           {
             "title": "Mit welchen POS-Systemen integrieren Sie?",
             "content": "Sundae unterstützt derzeit **4 POS-Plattformen** mit aktiven Adaptern: Oracle MICROS Simphony, Square, Toast und Clover. Wir unterstützen auch **direkte Datenbankverbindungen** für PostgreSQL und SQL Server / Azure SQL, wenn ein POS-System den Datenbankzugriff bereitstellt.\n\nÜber POS hinaus verbindet die **12-Domänen-Integrationsengine** von Sundae über 30 Anbieter in den Bereichen Arbeit, Inventar, Reservierungen, Lieferung, Marketing, Gästeerfahrung, CRM und Buchhaltung.\n\nWenn Ihr System nicht aufgeführt ist, kann die Enterprise-Stufe benutzerdefinierte Integrationsarbeiten und webhook-basierte Aufnahme umfassen."
           },
           {
-            "title": "Kann ich Sundae mit mehreren POS-Systemen verwenden?",
-            "content": "**Core Lite:** Am besten, wenn alle Standorte ein POS verwenden\n\n**Core Pro und Enterprise:** Ja. Verschiedene POS-Systeme an verschiedenen Standorten werden unterstützt, und Sundae normalisiert die Daten für einen direkten Vergleich.\n\n**Report:** Jedes POS funktioniert, da die Uploads manuell sind."
+            "title": "Kann ich Sundae mit mehreren POS-Systemen nutzen?",
+            "content": "Ja. Sundae verbindet gemischte POS-Landschaften und normalisiert die Daten für einen echten Vergleich. Core Performance ergänzt darüber hinaus die Konsolidierung über Marken und Regionen."
           },
           {
-            "title": "Wie lange dauert die Implementierung?",
-            "content": "**Report Lite:** Sofort nach dem Upload\n**Report Plus / Pro:** 1-2 Tage\n**Core Lite / Pro:** 1-2 Wochen\n**Enterprise:** 2-4 Wochen, abhängig vom Umfang"
+            "title": "Wie lange dauert die Einführung?",
+            "content": "Die meisten Gruppen sind in 1-2 Wochen live. Größere Roll-outs über mehrere Marken oder Regionen laufen je nach Umfang 2-4 Wochen.\n\nDie Einführung ist eine einmalige Gebühr, berechnet einmalig nach der höchsten Klasse in Ihrer Auswahl - von Self-Service ohne Kosten bis zu einem abgestimmten Class-D-Einsatz."
           },
           {
             "title": "Was passiert mit meinen Daten, wenn ich kündige?",
@@ -87,27 +87,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Was sind Module?",
-            "content": "Module sind spezialisierte Intelligenz-Erweiterungen für Core:\n\n1. **Arbeitsintelligenz** - Planung, Produktivität und Überstunden\n2. **Bestandsintelligenz** - Abfall, Mindestbestände und Bestandsübersicht\n3. **Einkaufsintelligenz** - Anbieter-Vergleich und Vertragsvorteile\n4. **Marketingintelligenz** - ROI, CAC und Kanalperformance\n5. **Reservierungsintelligenz** - Vorhersage von No-Shows und Tischoptimierung\n\nModule benötigen Core, da sie von aktuellen, verbundenen Betriebsdaten abhängen."
+            "content": "Die elf Domänenmodule sind die Analyseflächen innerhalb von Core. Sie sind Bestandteile des Pakets, keine separat gekauften Zusätze:\n\n{{DOMAIN_MODULE_LINES}}\n\nSie setzen Core voraus, weil sie auf live verbundene Betriebsdaten angewiesen sind."
           },
           {
             "title": "Brauche ich Module?",
-            "content": "Nein. Module sind optional. Fügen Sie sie hinzu, wenn Sie eine tiefere Abdeckung in einem bestimmten Betriebsbereich wünschen.\n\n**Weg:**\n• Bei Report -> zuerst auf Core upgraden\n• Bei Core -> Module hinzufügen, wann immer der Bedarf klar ist"
+            "content": "Sie sind nicht optional und sie sind keine getrennten Käufe. Alle elf Domänenmodule sind in jedem Core-Paket enthalten.\n\nSie wählen das Paket, und das Paket bestimmt, wie tief jedes Modul geht."
           },
           {
-            "title": "Brauche ich Core für Module?",
-            "content": "Ja. Module benötigen Core Lite, Core Pro oder Enterprise.\n\nSie sind auf Live-Verbindungen zu Arbeits-, Bestands-, Marketing-, Reservierungs- und anderen Systemen angewiesen, mit denen Report nicht direkt verbunden ist."
+            "title": "Kann ich ein einzelnes Modul kaufen?",
+            "content": "Nein. Die elf Domänenmodule sind Bestandteile eines Core-Pakets, keine eigenständigen Produkte, und es gibt keinen Preis je Modul. Der Weg zu allen führt über die Paketwahl."
           },
           {
-            "title": "Kann ich mehrere Module hinzufügen?",
-            "content": "Ja. Kombinieren Sie beliebig die fünf Module. Es gibt keine Anforderung, alle zusammen zu kaufen."
+            "title": "Füge ich Module nach und nach hinzu?",
+            "content": "Nein. Es gibt nichts hinzuzufügen. Jedes Core-Paket trägt vom ersten Tag an alle elf Domänenmodule - das gewählte Paket bestimmt nur, wie tief jedes davon geht."
           },
           {
-            "title": "Welches Modul sollte ich zuerst wählen?",
-            "content": "Beginnen Sie mit dem größten Betriebsproblem:\n\n• Hohe Arbeitskosten -> Arbeitsintelligenz\n• Abfall- oder Bestandsprobleme -> Bestandsintelligenz\n• Schwache Verhandlungsposition bei Anbietern -> Einkaufsintelligenz\n• Unklarer Marketing-ROI -> Marketingintelligenz\n• Reservierungs-No-Shows -> Reservierungsintelligenz"
+            "title": "Welches Modul sollte ich zuerst ansehen?",
+            "content": "Alle sind bereits aktiv, es geht also darum, wo Sie zuerst hinschauen, nicht was Sie kaufen. Beginnen Sie beim größten operativen Schmerzpunkt:\n\n• Hohe Personalkosten -> Labor Intelligence\n• Abfall oder Bestandsprobleme -> Inventory Intelligence\n• Schwache Lieferantenhebel -> Purchasing Intelligence\n• Unklarer Marketing-ROI -> Marketing Intelligence\n• Reservierungs-No-Shows -> Reservations Intelligence"
           },
           {
-            "title": "Wie funktioniert die Preisgestaltung für Module?",
-            "content": "Jedes Modul umfasst eine Organisationslizenz, die die ersten 5 Standorte abdeckt, plus zusätzliche Standortpreise über diesen Schwellenwert hinaus.\n\nBeispiel: 8 Standorte mit Arbeitsintelligenz = 1 Organisationslizenz + 3 zusätzliche Standorte.\n\nVerwenden Sie pricing.sundae.io für genaue Preisberechnungen."
+            "title": "Wie funktioniert die Modulpreisgestaltung?",
+            "content": "Es gibt keine Modulpreise. Module haben weder einen eigenständigen Preis noch ein eigenes Standortkontingent - gekauft wird das Paket.\n\nEin Core-Paket wird ab Ihrem ersten Standort berechnet, danach zu einem Grenzpreis je weiterem Standort, der mit dem Wachstum sinkt. {{WORKED_EXAMPLE}}\n\nNutzen Sie pricing.sundae.io für die genaue Rechnung."
           }
         ]
       },
@@ -132,8 +132,8 @@ export const generatedLocalCopy = {
             "content": "Ja. Sie können Wettbewerbsintelligenz, Ereignisintelligenz oder Marktintelligenz einzeln kaufen oder kombinieren."
           },
           {
-            "title": "Benötigt Watchtower Core?",
-            "content": "Ja. Watchtower funktioniert am besten, wenn seine Marktsignale direkt auf Live-Betriebsdaten geschichtet werden, was Core bereitstellt.\n\nWenn Sie nur eine hochgeladene historische POS-Analyse benötigen, reicht Report aus. Wenn Sie Markt-Kontext, der mit den täglichen Abläufen verbunden ist, wünschen, wechseln Sie zu Core."
+            "title": "Setzt Watchtower Core voraus?",
+            "content": "Ja. Watchtower entfaltet seinen Nutzen, wenn seine Marktsignale auf live Betriebsdaten gelegt werden - genau das liefert ein Core-Paket. Es wird zusammen mit Ihrem Paket zugeschnitten und angeboten, nicht einzeln verkauft."
           }
         ]
       },
@@ -142,8 +142,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Wie viel kostet Sundae?",
-            "content": "Die Preise hängen ab von:\n• Report vs Core\n• Anzahl der Standorte\n• Ausgewählte Module\n• Ob Watchtower enthalten ist\n\n**Report Lite:** Für immer kostenlos\n\nFür genaue Preise nutzen Sie pricing.sundae.io."
+            "title": "Was kostet Sundae?",
+            "content": "Der Preis hängt ab von:\n• Welchem Core-Paket\n• Der Anzahl der Standorte\n• Ob Foresight & Action, Crew oder Konzept-SKUs enthalten sind\n\nCore-Pakete werden ab einem Anker für den ersten Standort berechnet, dazu ein Grenzpreis für jeden weiteren Standort, der mit dem Wachstum sinkt. Core Foundation beginnt bei {{FOUNDATION_FIRST_UNIT}} für Ihren ersten Standort.\n\nFür genaue Preise nutzen Sie pricing.sundae.io."
           },
           {
             "title": "Gibt es Einrichtungsgebühren?",
@@ -168,20 +168,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Wie funktionieren Intelligenz-Credits?",
-            "content": "Intelligenz-Credits ermöglichen Fragen, Analysen und Empfehlungen.\n\n**Report Lite:** 250 Basis + 80 pro Standort\n**Report Plus:** 1.200 Basis + 300 pro Standort\n**Report Pro:** 3.500 Basis + 800 pro Standort\n**Core Lite:** 8.000 Basis + 1.600 pro Standort\n**Core Pro:** 14.000 Basis + 2.800 pro Standort\n**Enterprise:** 50.000+ Basis + individuelle Zuteilung"
+            "title": "Wie funktionieren Intelligence-Credits?",
+            "content": "Intelligence-Credits treiben Fragen, Analysen und Empfehlungen an. Jedes Core-Paket enthält ein monatliches Guthaben:\n\n{{AI_WALLET_LINES}}\n\nWenn es aufgebraucht ist, können Sie bei jedem Paket aufstocken."
           },
           {
-            "title": "Wie viel historischen Zugriff erhalte ich?",
-            "content": "**Report Lite:** 90 Tage\n**Report Plus:** 1 Jahr\n**Report Pro:** 2 Jahre\n**Core Lite:** 2 Jahre\n**Core Pro:** 3 Jahre\n**Enterprise:** 5+ Jahre oder individuelle Aufbewahrung"
+            "title": "Wie viel Historie bekomme ich?",
+            "content": "Jedes Core-Paket bewahrt Ihre vollständige verbundene Historie mit mehrjähriger Aufbewahrung. Enterprise-Vereinbarungen können das mit eigenen Aufbewahrungsfristen erweitern."
           },
           {
-            "title": "Wie oft werden die Daten aktualisiert?",
-            "content": "**Report Lite:** Manuelle Uploads\n**Report Plus:** Manuell oder smart-parsed auf Anfrage\n**Report Pro:** Tägliche automatische Aktualisierung\n**Core Lite:** Alle 4 Stunden\n**Core Pro:** Alle 2 Stunden\n**Enterprise:** Individuelle Frequenz, einschließlich Echtzeit bei Bedarf"
+            "title": "Wie oft aktualisieren sich die Daten?",
+            "content": "Core aktualisiert im Lauf der Schicht statt am Tagesende, damit Pulse und die Domänenmodule sich bewegen, solange Sie noch handeln können. Die genaue Taktung hängt davon ab, was Ihre angebundenen Systeme bereitstellen."
           },
           {
-            "title": "Erhalte ich benutzerdefinierte Dashboards?",
-            "content": "**Report-Stufen:** Vorgefertigte Dashboards\n**Core Lite:** Bis zu 30 benutzerdefinierte Dashboards\n**Core Pro:** Bis zu 75 benutzerdefinierte Dashboards\n**Enterprise:** Unbegrenzte benutzerdefinierte Dashboards"
+            "title": "Bekomme ich eigene Dashboards?",
+            "content": "Ja. Jedes Core-Paket enthält eigene Dashboards zusätzlich zu den vorgefertigten Ansichten, die mit jedem Domänenmodul kommen."
           }
         ]
       },
@@ -190,12 +190,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Welche Unterstützung erhalte ich?",
-            "content": "**Report Lite:** E-Mail-Support\n**Report Plus:** E-Mail und Chat\n**Report Pro:** Priorisierter Support\n**Core Lite:** E-Mail, Chat und Telefon\n**Core Pro:** Schnellere priorisierte Telefonunterstützung\n**Enterprise:** 24/7-Support plus einen dedizierten Kundenbetreuer"
+            "title": "Welchen Support bekomme ich?",
+            "content": "Jedes Core-Paket enthält Support per E-Mail, Chat und Telefon. Enterprise-Vereinbarungen ergänzen 24/7-Abdeckung, vertragliche Reaktionszeiten und eine feste Ansprechperson im Customer Success."
           },
           {
             "title": "Bieten Sie Schulungen an?",
-            "content": "Ja.\n\n**Report:** Selbstbedienungs-Onboarding und Dokumentation\n**Core Lite:** Geführte Schulungssitzungen\n**Core Pro:** Individuelles Schulungsprogramm\n**Enterprise:** Strukturiertes Onboarding und Enablement"
+            "content": "Ja. Schulung ist Teil der Einführung, die als einmalige Gebühr nach der höchsten Klasse Ihrer Auswahl berechnet wird - Self-Service-Dokumentation ohne Kosten, begleitete Sitzungen und strukturierte Befähigung in den höheren Klassen."
           },
           {
             "title": "Welche Zeitzonen unterstützen Sie?",
@@ -244,16 +244,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Wie unterscheidet sich Sundae von POS-Berichten?",
-            "content": "**POS-Berichte:** Ein System, begrenzter Kontext, manuelle Interpretation\n\n**Sundae Report:** POS-Analyse plus Benchmarks, Empfehlungen und Mustererkennung\n\n**Sundae Core:** Alles im Report plus vereinheitlichte Daten aus Arbeitszeit, Inventar, Marketing, Reservierungen und anderen Systemen mit schnelleren Aktualisierungen"
+            "title": "Wie unterscheidet sich Sundae von POS-Reporting?",
+            "content": "**POS-Berichte:** ein System, wenig Kontext, manuelle Deutung\n\n**Sundae Core:** POS-Analyse plus Benchmarks, Empfehlungen und Mustererkennung über Personal, Kosten und Gast in einem Betriebsbild\n\n**Foresight & Action:** der Blick nach vorn obendrauf - Prognosen, Szenarien und die Ebene, die auf das reagiert, was sie zutage fördern"
           },
           {
             "title": "Wie unterscheidet sich Sundae von Excel?",
             "content": "**Excel:** Manuelle Eingabe, statische Analyse, keine gemeinsame Intelligenzschicht\n\n**Sundae:** Automatisierte Erfassung, strukturierte Benchmarks, Live-Dashboards und Empfehlungen, die die manuelle Analysezeit jede Woche reduzieren"
           },
           {
-            "title": "Wie viel kann ich im Vergleich zu herkömmlichen Analysetools sparen?",
-            "content": "Betriebsleiter berichten oft von deutlich niedrigeren Gesamtkosten, da Sundae eine gestaffelte Preisgestaltung verwendet, anstatt Gebühren pro Modul und pro Standort zu stapeln. Die genauen Einsparungen hängen von Ihrem aktuellen Tool-Mix und dem Betriebsumfang ab."
+            "title": "Wie viel spare ich gegenüber klassischen Analytics-Tools?",
+            "content": "Betreiber berichten oft von deutlich geringeren Gesamtkosten, weil ein Core-Paket bereits alle elf Domänenmodule enthält, statt Gebühren je Modul und je Standort zu stapeln. Der genaue Unterschied hängt von Ihrem heutigen Tool-Mix und Ihrer Betriebsgröße ab."
           }
         ]
       },
@@ -262,8 +262,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Ich habe nur einen Standort. Ist Sundae trotzdem geeignet?",
-            "content": "Ja. Beginnen Sie mit Report Lite für kostenlose Benchmarks und wechseln Sie dann zu tiefergehenden Report-Stufen oder Core, wenn Ihr Betrieb mehr Geschwindigkeit und Intelligenz benötigt."
+            "title": "Ich habe nur einen Standort. Passt Sundae trotzdem?",
+            "content": "Ja. Ein einzelner Standort trägt den Paketanker und sonst nichts, und er bekommt dieselben elf Module wie eine Gruppe mit fünfzig Standorten. Die Standortbänder werden erst relevant, wenn Sie Standorte hinzufügen."
           },
           {
             "title": "Ich bin eine Franchise-Plattform. Kann Sundae helfen?",
@@ -278,6 +278,32 @@ export const generatedLocalCopy = {
             "content": "Ja. Watchtower und Marktanalysen können die Analyse von Handelsgebieten, Überprüfung der Marktsättigung, Verfolgung von Wettbewerbsbewegungen und Priorisierung von unterversorgten Gebieten unterstützen."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Was ist Sundae Crew?",
+            "content": "Sundae Crew ist die operative Suite, die Ihr Personal steuert: Dienstplanung, Zeiterfassung, Lohnvorbereitung, HR-Daten und Personalanalytik. Jede geplante Schicht, jede erfasste Stunde und jeder abgelegte Datensatz wird zu einem Signal, das in Ihre Entscheidungsintelligenz zurückfließt - so teilen sich Betrieb und Erkenntnis ein System."
+          },
+          {
+            "title": "Was kann Crew?",
+            "content": "**Fünf verbundene Module:**\n\n1. **Scheduling** - Bedarfsgerechte Schichtplanung mit Eignungsprüfungen und einem KI-Builder\n2. **Zeiterfassung** - Ein- und Ausstempeln, Geofencing, Pausennachweis und Zeitnachweis-Freigaben\n3. **Payroll** - Lohnvorbereitung für mehrere Regionen und gesetzliche Exporte (Vorbereitung und Export, keine Steuer-Engine)\n4. **Personal & HR** - Mitarbeiterdaten und Dokumente vom Eintritt bis zum Austritt\n5. **Personalintelligenz** - Personalanalytik, No-Show-Risiko und Arbeitskostentrends"
+          },
+          {
+            "title": "Welche Regionen unterstützt Crew Payroll?",
+            "content": "Die Lohnvorbereitung und gesetzlichen Exporte von Crew decken derzeit die **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), die **Vereinigten Staaten** (Bund und alle Bundesstaaten), **Kanada**, das **Vereinigte Königreich** und die **Europäische Union** (alle 27 Mitgliedstaaten) ab. Lateinamerika und APAC stehen auf der Roadmap. Crew bereitet die Lohnabrechnung vor und exportiert sie - es ist keine Steuer-Engine, und die gesetzlichen Regeln stammen aus versionierten Länderpaketen."
+          },
+          {
+            "title": "Brauche ich Core, um Crew zu nutzen?",
+            "content": "Nein. Crew kann eigenständig als Ihr operatives System laufen oder neben Core, sodass seine Signale in Labor Intelligence, Pulse und Foresight einfließen. Sie können auch Ihren eigenen HR- oder Lohnanbieter mitbringen - Crew ist bewusst optional."
+          },
+          {
+            "title": "Was kostet Crew?",
+            "content": "**Crew-SKUs (fester Monatspreis, keine Gebühr je Standort):**\n\n{{CREW_SKU_LINES}}\n\n**Bundles (jedes trägt seinen eigenen Nettopreis - kein Rabatt auf die enthaltenen SKUs):**\n\n{{CREW_BUNDLE_LINES}}\n\nNutzen Sie pricing.sundae.io für die genaue Rechnung."
+          }
+        ]
       }
     ],
     "fr": [
@@ -290,20 +316,20 @@ export const generatedLocalCopy = {
             "content": "Sundae est une plateforme d'intelligence décisionnelle pour les restaurants et les équipes de l'hôtellerie. Elle regroupe des données opérationnelles éparpillées en un seul endroit afin que les dirigeants puissent voir ce qui s'est passé, ce qui change et où agir ensuite."
           },
           {
-            "title": "Comment commencer ?",
-            "content": "Vous avez trois options :\n\n1. **Commencer Gratuitement** - Inscrivez-vous à Report Lite (gratuit pour toujours) et téléchargez vos données opérationnelles pour voir un benchmarking instantané. Pas de carte de crédit requise.\n\n2. **Voir Votre Tarification** - Utilisez notre calculateur de prix interactif sur pricing.sundae.io pour voir la tarification exacte pour votre opération.\n\n3. **Réserver une Démo** - Planifiez une présentation de 15 minutes avec notre équipe pour voir Sundae en action avec vos données."
+            "title": "Comment démarrer ?",
+            "content": "Vous avez deux options :\n\n1. **Voir vos tarifs** - Utilisez le calculateur interactif sur pricing.sundae.io pour dimensionner une offre Core selon votre nombre de sites.\n\n2. **Réserver une démo** - Planifiez une présentation de 15 minutes avec notre équipe et voyez Sundae tourner sur vos données."
           },
           {
-            "title": "Y a-t-il vraiment un niveau gratuit ?",
-            "content": "Oui. Report Lite est gratuit pour toujours. Téléchargez vos données POS et obtenez un benchmarking instantané sur 5 indicateurs clés. Une politique d'utilisation équitable s'applique pour un usage opérationnel raisonnable."
+            "title": "Existe-t-il une offre gratuite ?",
+            "content": "Non. Chaque offre Sundae est payante, à partir de votre premier site. Ce que nous proposons, c'est une séance de travail sur vos propres chiffres avant tout engagement, pour que vous voyiez le retour avant de signer."
           },
           {
-            "title": "Quelle est la différence entre Report et Core ?",
-            "content": "**Niveau Report** = Analyse historique (données POS)\n• Téléchargez les données POS quotidiennement, hebdomadairement ou mensuellement\n• Analysez ce qui s'est passé\n• Comparez-vous à vos pairs\n• Idéal pour un seul emplacement ou une preuve de concept\n\n**Niveau Core** = Opérations en temps réel (POS + tous les systèmes)\n• Cycles de rafraîchissement de 2 à 4 heures\n• Intègre POS + main-d'œuvre + inventaire + marketing + réservations\n• Voyez ce qui se passe maintenant\n• Recevez des alertes prédictives\n• Idéal pour les opérateurs multi-emplacements\n\nDifférence clé : Report = uniquement POS. Core = POS plus le reste de votre stack."
+            "title": "Quelle est la différence entre les offres Core ?",
+            "content": "**Core Foundation** - la base opérationnelle : un socle de décision sur le POS, le personnel, les coûts et l'exploitation.\n\n**Core Margin** - la profondeur sur les coûts et les fuites : consommation théorique et réelle, gaspillage, démarque, annulations et offerts, contribution par article.\n\n**Core Growth** - la profondeur sur la demande : cohortes de clients et valeur à vie, attribution des promotions par canal, marge de livraison après commission.\n\n**Core Performance** - consolidation multi-marques et multi-régions, corrélation entre modules, accès gouverné avec pistes d'audit.\n\nLes quatre embarquent les mêmes onze modules métier. Ce qui change, c'est la profondeur."
           },
           {
-            "title": "Ai-je besoin d'un contrat à long terme ?",
-            "content": "Non. Les niveaux Report et Core sont mensuels. Annulez à tout moment sans pénalité. Les déploiements d'entreprise utilisent généralement des contrats annuels avec des conditions personnalisées."
+            "title": "Faut-il un engagement de longue durée ?",
+            "content": "Non. Chaque offre est disponible au mois et résiliable sans pénalité. Les engagements annuels et biennaux existent parce qu'ils coûtent moins cher - 10 % et 15 % de remise - pas parce qu'ils sont obligatoires."
           }
         ]
       },
@@ -312,20 +338,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Quels produits propose Sundae ?",
-            "content": "**Trois produits principaux :**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analyse historique et benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Opérations en temps réel et intelligence prédictive\n3. **Watchtower** (Compétitif / Événement / Marché) - Intelligence de marché externe\n\n**De plus :**\n\n4. **Modules** - Intelligence sur le travail, l'inventaire, les achats, le marketing et les réservations."
+            "title": "Quels produits Sundae propose-t-il ?",
+            "content": "**Quatre produits principaux :**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - le socle de décision, qui embarque les onze modules métier\n2. **Foresight & Action** - prévision, modélisation de scénarios et la couche d'action avec validation humaine\n3. **Sundae Crew** - le socle des équipes : planning, pointage, préparation de la paie, RH et people intelligence\n4. **Watchtower** - l'intelligence de marché externe, cadrée avec votre offre Core\n\n**En plus :** des SKU de concept pour les modèles d'exploitation de votre groupe - franchise, F&B hôtelier, cuisine virtuelle, traiteur, production, commissary en location."
           },
           {
-            "title": "Quel niveau devrais-je choisir ?",
-            "content": "**Commencez avec Report Lite si :**\n• Vous testez Sundae\n• Vous gérez 1 à 2 emplacements\n• Des rapports quotidiens ou hebdomadaires suffisent\n\n**Passez à Report Plus ou Pro si :**\n• Vous avez besoin d'une intelligence historique plus approfondie\n• Les rapports quotidiens sont encore suffisants\n\n**Choisissez Core Lite ou Pro si :**\n• Vous gérez 10+ emplacements\n• Vous avez besoin de rapidité opérationnelle\n• Le suivi budgétaire en temps réel est important\n\n**Choisissez Enterprise si :**\n• Vous avez 100+ emplacements\n• Vous avez besoin de SSO ou de capacités en marque blanche\n• Vous exigez un support dédié et des conditions personnalisées"
+            "title": "Quelle offre Core choisir ?",
+            "content": "**Core Foundation si :**\n• Vous sortez des tableurs et des tableaux de bord déconnectés\n• Vous voulez une image d'exploitation unique avant d'aller plus loin\n\n**Core Margin si :**\n• Le coût matière, le gaspillage, les annulations ou les offerts absorbent votre marge\n• Il vous faut la contribution par article, pas seulement le mix de ventes\n\n**Core Growth si :**\n• Le revenu récurrent et le mix de canaux sont la contrainte\n• Il vous faut les cohortes clients, l'attribution des promotions et la marge de livraison\n\n**Core Performance si :**\n• Vous exploitez plusieurs marques ou plusieurs marchés\n• Il vous faut la consolidation, la corrélation entre modules et un accès gouverné"
           },
           {
             "title": "Puis-je passer à un autre niveau plus tard ?",
             "content": "Oui. Vous pouvez changer de niveau à tout moment. Les données historiques sont préservées et il n'y a pas de pénalités pour changer de plan."
           },
           {
-            "title": "Quel est le modèle d'intelligence 4D ?",
-            "content": "Le cadre de Sundae pour l'intelligence décisionnelle :\n\n**1D : Que s'est-il passé** - Données sur les ventes, le travail et les coûts\n**2D : Prévu vs Réel** - Écart par rapport au budget et aux prévisions\n**3D : Contexte du marché** - Références, pairs et concurrents\n**4D : Qu'est-ce qui vient ensuite** - Prédictions et recommandations\n\n**Report :** Accès complet aux dimensions 1D et 2D plus 3D et 4D limités\n**Core :** Accès complet à toutes les 4 dimensions."
+            "title": "Qu'est-ce que le modèle 4D Intelligence ?",
+            "content": "Le cadre de Sundae pour l'intelligence décisionnelle :\n\n**1D : ce qui s'est passé** - la vérité sur les ventes, le personnel et les coûts\n**2D : plan contre réel** - écarts au budget et à la prévision\n**3D : contexte de marché** - benchmarks, pairs et concurrents\n**4D : ce qui vient** - prédictions et recommandations\n\nChaque offre Core couvre les quatre. L'offre détermine la profondeur de chaque dimension."
           }
         ]
       },
@@ -334,12 +360,12 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Quelles données Sundae nécessite-t-il ?",
-            "content": "**Minimum pour Report Lite :**\n• Données de vente POS (exportation CSV)\n\n**Pour Core :**\n• Système POS via API\n• Système de main-d'œuvre\n• Système d'inventaire\n• Plateformes marketing\n• Système de réservations\n\nReport est construit autour des téléchargements POS. Core est l'endroit où vous connectez l'ensemble de la pile opérationnelle."
+            "title": "De quelles données Sundae a-t-il besoin ?",
+            "content": "**Pour chaque offre Core :**\n• Système POS via API\n• Système de personnel ou de planning\n• Système de stocks\n• Plateformes marketing\n• Système de réservation\n\nLe POS seul suffit à créer de la valeur dès le premier jour. Le reste enrichit l'image à mesure que vous le connectez."
           },
           {
-            "title": "Comment puis-je importer mes données dans Sundae ?",
-            "content": "**Report Lite :** Téléchargement manuel de CSV\n\n**Report Plus :** Téléchargez des PDF, des fichiers Excel ou des captures d'écran. Sundae extrait les données et vous les examinez avant traitement.\n\n**Report Pro et Core :** Ingestion automatisée via des connexions API"
+            "title": "Comment mes données arrivent-elles dans Sundae ?",
+            "content": "Par des connexions API à votre POS et au reste de votre pile d'exploitation. Lorsqu'un système n'a pas d'API, Sundae accepte des dépôts de fichiers structurés et des imports lus intelligemment - PDF, Excel, captures d'écran - que vous validez avant traitement."
           },
           {
             "title": "Avec quels systèmes POS vous intégrez-vous ?",
@@ -347,11 +373,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Puis-je utiliser Sundae avec plusieurs systèmes POS ?",
-            "content": "**Core Lite :** Meilleur lorsque tous les emplacements utilisent un seul POS\n\n**Core Pro et Entreprise :** Oui. Différents systèmes POS à travers les emplacements sont pris en charge, et Sundae normalise les données pour une comparaison équitable.\n\n**Report :** Tout POS fonctionne car les téléchargements sont manuels."
+            "content": "Oui. Sundae se connecte à des parcs POS hétérogènes et normalise les données pour une comparaison à périmètre égal. Core Performance ajoute par-dessus la consolidation entre marques et régions."
           },
           {
-            "title": "Combien de temps prend l'implémentation ?",
-            "content": "**Report Lite :** Immédiat après le téléchargement\n**Report Plus / Pro :** 1-2 jours\n**Core Lite / Pro :** 1-2 semaines\n**Entreprise :** 2-4 semaines selon l'ampleur"
+            "title": "Combien de temps prend la mise en place ?",
+            "content": "La plupart des groupes sont en production en 1 à 2 semaines. Les déploiements plus larges, multi-marques ou multi-régions, prennent 2 à 4 semaines selon le périmètre.\n\nLa mise en place est un frais unique, facturé une seule fois au niveau le plus élevé de votre sélection - du self-service gratuit jusqu'à un accompagnement Class D cadré."
           },
           {
             "title": "Que se passe-t-il avec mes données si j'annule ?",
@@ -364,28 +390,28 @@ export const generatedLocalCopy = {
         "icon": "network",
         "faqs": [
           {
-            "title": "Qu'est-ce que les modules ?",
-            "content": "Les modules sont des compléments d'intelligence spécialisés pour Core :\n\n1. **Intelligence du travail** - Planification, productivité et heures supplémentaires\n2. **Intelligence des stocks** - Gaspillage, niveaux de par et visibilité des stocks\n3. **Intelligence des achats** - Comparaison des fournisseurs et levier contractuel\n4. **Intelligence marketing** - ROI, CAC et performance des canaux\n5. **Intelligence des réservations** - Prédiction des absences et optimisation des tables\n\nLes modules nécessitent Core car ils dépendent de données opérationnelles en direct et connectées."
+            "title": "Que sont les modules ?",
+            "content": "Les onze modules métier sont les surfaces d'analyse à l'intérieur de Core. Ce sont des composants de l'offre, pas des options achetées à côté :\n\n{{DOMAIN_MODULE_LINES}}\n\nIls nécessitent Core parce qu'ils dépendent de données d'exploitation connectées en direct."
           },
           {
             "title": "Ai-je besoin de modules ?",
-            "content": "Non. Les modules sont optionnels. Ajoutez-les lorsque vous souhaitez une couverture plus approfondie dans un domaine opérationnel spécifique.\n\n**Chemin :**\n• Sur Report -> mettez à niveau vers Core d'abord\n• Sur Core -> ajoutez des modules dès que le besoin est clair"
+            "content": "Ils ne sont ni optionnels ni vendus séparément. Les onze modules métier sont livrés avec chaque offre Core.\n\nCe que vous choisissez, c'est l'offre, et l'offre détermine la profondeur de chaque module."
           },
           {
-            "title": "Ai-je besoin de Core pour les modules ?",
-            "content": "Oui. Les modules nécessitent Core Lite, Core Pro ou Enterprise.\n\nIls s'appuient sur des connexions en direct aux systèmes de travail, d'inventaire, de marketing, de réservations et d'autres systèmes auxquels Report ne se connecte pas directement."
+            "title": "Puis-je acheter un seul module ?",
+            "content": "Non. Les onze modules métier sont des composants d'une offre Core, pas des produits autonomes, et il n'existe pas de prix au module. C'est le choix de l'offre qui vous les donne tous."
           },
           {
-            "title": "Puis-je ajouter plusieurs modules ?",
-            "content": "Oui. Mélangez et associez n'importe lequel des cinq modules. Il n'est pas nécessaire de tous les acheter ensemble."
+            "title": "Dois-je ajouter les modules un par un ?",
+            "content": "Non. Il n'y a rien à ajouter. Chaque offre Core embarque les onze modules métier dès le premier jour - l'offre choisie détermine seulement la profondeur de chacun."
           },
           {
-            "title": "Quel module devrais-je choisir en premier ?",
-            "content": "Commencez par le plus grand point de douleur opérationnel :\n\n• Coût du travail élevé -> Intelligence du travail\n• Problèmes de gaspillage ou de stock -> Intelligence des stocks\n• Faible levier fournisseur -> Intelligence des achats\n• ROI marketing peu clair -> Intelligence marketing\n• Absences de réservations -> Intelligence des réservations"
+            "title": "Par quel module commencer ?",
+            "content": "Ils sont déjà tous activés : la question est de savoir par où regarder, pas quoi acheter. Commencez par le point de douleur opérationnel le plus fort :\n\n• Coût de main-d'œuvre élevé -> Labor Intelligence\n• Gaspillage ou problèmes de stock -> Inventory Intelligence\n• Faible levier fournisseur -> Purchasing Intelligence\n• ROI marketing flou -> Marketing Intelligence\n• No-shows sur les réservations -> Reservations Intelligence"
           },
           {
             "title": "Comment fonctionne la tarification des modules ?",
-            "content": "Chaque module comprend une licence d'organisation qui couvre les 5 premières emplacements, plus un tarif supplémentaire pour les emplacements au-delà de ce seuil.\n\nExemple : 8 emplacements avec Intelligence du travail = 1 licence d'organisation + 3 emplacements supplémentaires.\n\nUtilisez pricing.sundae.io pour des calculs de plan exacts."
+            "content": "Il n'y a pas de tarification par module. Les modules n'ont ni prix autonome ni quota de sites propre - ce que vous achetez, c'est l'offre.\n\nUne offre Core est facturée à partir de votre premier site, puis à un tarif marginal par site supplémentaire, qui décroît à mesure que vous grandissez. {{WORKED_EXAMPLE}}\n\nUtilisez pricing.sundae.io pour le calcul exact."
           }
         ]
       },
@@ -411,7 +437,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Watchtower nécessite-t-il Core ?",
-            "content": "Oui. Watchtower fonctionne mieux lorsque ses signaux de marché sont superposés directement aux données opérationnelles en temps réel, ce que fournit Core.\n\nSi vous avez seulement besoin d'une analyse historique des POS téléchargée, Report suffit. Si vous souhaitez un contexte de marché lié aux opérations quotidiennes, passez à Core."
+            "content": "Oui. Watchtower donne sa pleine valeur quand ses signaux de marché se posent sur des données d'exploitation en direct, ce que fournit une offre Core. Il est cadré et chiffré avec votre offre plutôt que vendu seul."
           }
         ]
       },
@@ -421,7 +447,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Combien coûte Sundae ?",
-            "content": "Les prix dépendent de :\n• Report vs Core\n• Nombre d'emplacements\n• Modules sélectionnés\n• Inclusion de Watchtower\n\n**Report Lite :** Gratuit pour toujours\n\nPour un prix précis, utilisez pricing.sundae.io."
+            "content": "Le prix dépend de :\n• L'offre Core choisie\n• Le nombre de sites\n• L'inclusion ou non de Foresight & Action, Crew ou des SKU de concept\n\nLes offres Core sont facturées à partir d'un ancrage sur le premier site, plus un tarif marginal par site supplémentaire qui décroît à mesure que vous grandissez. Core Foundation démarre à {{FOUNDATION_FIRST_UNIT}} pour votre premier site.\n\nPour un chiffrage précis, utilisez pricing.sundae.io."
           },
           {
             "title": "Y a-t-il des frais d'installation ?",
@@ -447,19 +473,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Comment fonctionnent les crédits d'intelligence ?",
-            "content": "Les crédits d'intelligence alimentent les questions, analyses et recommandations.\n\n**Report Lite :** 250 de base + 80 par emplacement\n**Report Plus :** 1 200 de base + 300 par emplacement\n**Report Pro :** 3 500 de base + 800 par emplacement\n**Core Lite :** 8 000 de base + 1 600 par emplacement\n**Core Pro :** 14 000 de base + 2 800 par emplacement\n**Enterprise :** 50 000+ de base + allocation personnalisée"
+            "content": "Les crédits d'intelligence alimentent les questions, les analyses et les recommandations. Chaque offre Core comprend un portefeuille mensuel :\n\n{{AI_WALLET_LINES}}\n\nSi vous l'épuisez, vous pouvez recharger sur n'importe quelle offre."
           },
           {
-            "title": "Quel accès historique ai-je ?",
-            "content": "**Report Lite :** 90 jours\n**Report Plus :** 1 an\n**Report Pro :** 2 ans\n**Core Lite :** 2 ans\n**Core Pro :** 3 ans\n**Enterprise :** 5+ ans ou conservation personnalisée"
+            "title": "De quel historique je dispose ?",
+            "content": "Chaque offre Core conserve tout votre historique connecté avec une rétention pluriannuelle. Les accords Enterprise peuvent l'étendre avec des durées de conservation sur mesure."
           },
           {
-            "title": "À quelle fréquence les données sont-elles actualisées ?",
-            "content": "**Report Lite :** Téléchargements manuels\n**Report Plus :** Manuel ou analysé intelligemment à la demande\n**Report Pro :** Actualisation automatique quotidienne\n**Core Lite :** Toutes les 4 heures\n**Core Pro :** Toutes les 2 heures\n**Enterprise :** Cadence personnalisée, y compris en temps réel lorsque défini"
+            "title": "À quelle fréquence les données se rafraîchissent-elles ?",
+            "content": "Core se rafraîchit pendant le service plutôt qu'en fin de journée, pour que Pulse et les modules métier bougent tant que vous pouvez encore agir. La cadence exacte dépend de ce que vos systèmes connectés exposent."
           },
           {
-            "title": "Ai-je des tableaux de bord personnalisés ?",
-            "content": "**Niveaux de Report :** Tableaux de bord préconçus\n**Core Lite :** Jusqu'à 30 tableaux de bord personnalisés\n**Core Pro :** Jusqu'à 75 tableaux de bord personnalisés\n**Enterprise :** Tableaux de bord personnalisés illimités"
+            "title": "Ai-je des tableaux de bord sur mesure ?",
+            "content": "Oui. Chaque offre Core inclut des tableaux de bord sur mesure en plus des vues prêtes à l'emploi livrées avec chaque module métier."
           }
         ]
       },
@@ -468,12 +494,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Quel support offrez-vous ?",
-            "content": "**Report Lite :** Support par email\n**Report Plus :** Support par email et chat\n**Report Pro :** Support prioritaire\n**Core Lite :** Support par email, chat et téléphone\n**Core Pro :** Support téléphonique prioritaire plus rapide\n**Enterprise :** Support 24/7 avec un responsable de la réussite client dédié"
+            "title": "Quel support ai-je ?",
+            "content": "Chaque offre Core inclut le support par e-mail, chat et téléphone. Les accords Enterprise ajoutent une couverture 24/7, des délais de réponse contractuels et un référent customer success dédié."
           },
           {
-            "title": "Fournissez-vous une formation ?",
-            "content": "Oui.\n\n**Report :** Intégration et documentation en libre-service\n**Core Lite :** Sessions de formation guidées\n**Core Pro :** Programme de formation personnalisé\n**Enterprise :** Intégration et habilitation structurées"
+            "title": "Proposez-vous de la formation ?",
+            "content": "Oui. La formation fait partie de la mise en place, facturée une seule fois au niveau le plus élevé de votre sélection - documentation en self-service gratuite, sessions accompagnées et montée en compétence structurée aux niveaux supérieurs."
           },
           {
             "title": "Quels fuseaux horaires supportez-vous ?",
@@ -522,16 +548,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "En quoi Sundae est-il différent des rapports POS ?",
-            "content": "**Rapports POS :** Un système, contexte limité, interprétation manuelle\n\n**Sundae Report :** Analyse POS plus benchmarks, recommandations et détection de motifs\n\n**Sundae Core :** Tout dans Report plus des données unifiées provenant du travail, de l'inventaire, du marketing, des réservations et d'autres systèmes avec un rafraîchissement plus rapide"
+            "title": "En quoi Sundae diffère-t-il du reporting POS ?",
+            "content": "**Rapports POS :** un seul système, contexte limité, interprétation manuelle\n\n**Sundae Core :** l'analyse POS, plus les benchmarks, les recommandations et la détection de motifs, sur la main-d'œuvre, les coûts et le client dans une seule image d'exploitation\n\n**Foresight & Action :** la vue avant par-dessus - prévisions, scénarios et la couche qui agit sur ce qu'ils font remonter"
           },
           {
             "title": "En quoi Sundae est-il différent d'Excel ?",
             "content": "**Excel :** Saisie manuelle, analyse statique, pas de couche d'intelligence partagée\n\n**Sundae :** Ingestion automatisée, benchmarking structuré, tableaux de bord en direct et recommandations qui réduisent le temps d'analyse manuelle chaque semaine"
           },
           {
-            "title": "Combien puis-je économiser par rapport aux outils d'analyse traditionnels ?",
-            "content": "Les opérateurs signalent souvent un coût total nettement inférieur car Sundae utilise une tarification par paliers au lieu d'accumuler des frais par module et par emplacement. Les économies exactes dépendent de votre combinaison d'outils actuelle et de votre périmètre opérationnel."
+            "title": "Combien puis-je économiser face aux outils d'analytique classiques ?",
+            "content": "Les opérateurs constatent souvent un coût total nettement inférieur, parce qu'une offre Core contient déjà les onze modules métier au lieu d'empiler des frais par module et par site. L'écart exact dépend de votre parc d'outils actuel et de votre empreinte d'exploitation."
           }
         ]
       },
@@ -540,8 +566,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Je n'ai qu'un seul emplacement. Sundae est-il toujours adapté ?",
-            "content": "Oui. Commencez avec Report Lite pour un benchmarking gratuit, puis passez à des niveaux de Report plus approfondis ou à Core si votre opération nécessite plus de rapidité et d'intelligence."
+            "title": "Je n'ai qu'un seul site. Sundae est-il quand même adapté ?",
+            "content": "Oui. Un site unique porte l'ancrage de l'offre et rien de plus, et il reçoit les mêmes onze modules qu'un groupe de cinquante sites. Les paliers de sites ne comptent qu'à partir du moment où vous en ajoutez."
           },
           {
             "title": "Je suis une plateforme de franchise. Sundae peut-il aider ?",
@@ -569,19 +595,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "¿Cómo empiezo?",
-            "content": "Tienes tres opciones:\n\n1. **Comienza Gratis** - Regístrate en Report Lite (gratis para siempre) y sube tus datos operativos para ver comparaciones instantáneas. No se requiere tarjeta de crédito.\n\n2. **Ver Tu Precio** - Utiliza nuestra calculadora de precios interactiva en pricing.sundae.io para ver el precio exacto para tu operación.\n\n3. **Reservar una Demostración** - Programa un recorrido de 15 minutos con nuestro equipo para ver Sundae en acción con tus datos."
+            "content": "Tienes dos opciones:\n\n1. **Ver tu precio** - Usa la calculadora interactiva en pricing.sundae.io para dimensionar un paquete Core según tu número de locales.\n\n2. **Reservar una demo** - Agenda un recorrido de 15 minutos con nuestro equipo y ve Sundae funcionando con tus datos."
           },
           {
-            "title": "¿Realmente hay un nivel gratuito?",
-            "content": "Sí. Report Lite es gratis para siempre. Sube tus datos de POS y obtén comparaciones instantáneas contra 5 métricas clave. Se aplica una política de uso razonable para el uso operativo."
+            "title": "¿Hay un plan gratuito?",
+            "content": "No. Todos los paquetes de Sundae son de pago, desde el primer local. Lo que sí ofrecemos es una sesión de trabajo con tus propios números antes de que te comprometas, para que veas el retorno antes de firmar nada."
           },
           {
-            "title": "¿Cuál es la diferencia entre Report y Core?",
-            "content": "**Nivel Report** = Análisis histórico (datos de POS)\n• Sube datos de POS diariamente, semanalmente o mensualmente\n• Analiza lo que sucedió\n• Compara con tus pares\n• Mejor para una sola ubicación o prueba de concepto\n\n**Nivel Core** = Operaciones en tiempo real (POS + todos los sistemas)\n• Ciclos de actualización de 2 a 4 horas\n• Integra POS + mano de obra + inventario + marketing + reservas\n• Ve lo que está sucediendo ahora\n• Recibe alertas predictivas\n• Mejor para operadores de múltiples ubicaciones\n\nDiferencia clave: Report = solo POS. Core = POS más el resto de tu stack."
+            "title": "¿En qué se diferencian los paquetes Core?",
+            "content": "**Core Foundation** - la base operativa: un sustrato de decisión sobre POS, personal, coste y operación.\n\n**Core Margin** - profundidad en coste y fugas: consumo teórico frente a real, merma, pérdida desconocida, anulaciones e invitaciones, contribución por artículo.\n\n**Core Growth** - profundidad en demanda: cohortes de clientes y valor de vida, atribución de promociones por canal, margen de delivery tras comisión.\n\n**Core Performance** - consolidación multimarca y multirregión, correlación entre módulos, acceso gobernado con pistas de auditoría.\n\nLos cuatro llevan los mismos once módulos de dominio. Lo que cambia es la profundidad."
           },
           {
-            "title": "¿Necesito un contrato a largo plazo?",
-            "content": "No. Los niveles Report y Core son mes a mes. Cancela en cualquier momento sin penalización. Las implementaciones empresariales suelen utilizar acuerdos anuales con términos personalizados."
+            "title": "¿Necesito un contrato de larga duración?",
+            "content": "No. Cada paquete está disponible mes a mes y puedes cancelar sin penalización. Los compromisos anuales y a dos años existen porque cuestan menos - 10 % y 15 % de descuento -, no porque sean obligatorios."
           }
         ]
       },
@@ -591,19 +617,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Qué productos ofrece Sundae?",
-            "content": "**Tres productos principales:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análisis histórico y comparación\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operaciones en tiempo real e inteligencia predictiva\n3. **Watchtower** (Competitivo / Evento / Mercado) - Inteligencia de mercado externa\n\n**Además:**\n\n4. **Módulos** - Inteligencia Laboral, de Inventario, Compras, Marketing y Reservas."
+            "content": "**Cuatro productos principales:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - el sustrato de decisión, que lleva los once módulos de dominio\n2. **Foresight & Action** - pronóstico, modelado de escenarios y la capa de acción con aprobación humana\n3. **Sundae Crew** - el sustrato de personal: turnos, control horario, preparación de nóminas, RR. HH. y people intelligence\n4. **Watchtower** - inteligencia de mercado externa, dimensionada junto a tu paquete Core\n\n**Además:** SKU de concepto para los modelos operativos de tu grupo - franquicia, F&B hotelero, cocina virtual, catering, producción, obrador en alquiler."
           },
           {
-            "title": "¿Qué nivel debo elegir?",
-            "content": "**Comienza con Report Lite si:**\n• Estás probando Sundae\n• Tienes 1-2 ubicaciones\n• Informes diarios o semanales son suficientes\n\n**Actualiza a Report Plus o Pro si:**\n• Necesitas inteligencia histórica más profunda\n• Los informes diarios siguen siendo suficientes\n\n**Elige Core Lite o Pro si:**\n• Tienes 10+ ubicaciones\n• Necesitas velocidad operativa\n• El seguimiento del presupuesto en tiempo real es importante\n\n**Elige Enterprise si:**\n• Tienes 100+ ubicaciones\n• Necesitas capacidades de SSO o marca blanca\n• Requieres soporte dedicado y términos personalizados"
+            "title": "¿Qué paquete Core debo elegir?",
+            "content": "**Core Foundation si:**\n• Estás saliendo de hojas de cálculo y paneles desconectados\n• Quieres una imagen operativa única antes de profundizar\n\n**Core Margin si:**\n• El coste de materia, la merma, las anulaciones o las invitaciones se llevan tu margen\n• Necesitas contribución por artículo, no solo mix de ventas\n\n**Core Growth si:**\n• El ingreso recurrente y el mix de canales son la restricción\n• Necesitas cohortes de clientes, atribución de promociones y margen de delivery\n\n**Core Performance si:**\n• Operas varias marcas o varios mercados\n• Necesitas consolidación, correlación entre módulos y acceso gobernado"
           },
           {
             "title": "¿Puedo actualizar o degradar más tarde?",
             "content": "Sí. Puedes moverte entre niveles en cualquier momento. Los datos históricos se conservan y no hay penalizaciones por cambiar de plan."
           },
           {
-            "title": "¿Cuál es el Modelo de Inteligencia 4D?",
-            "content": "El marco de Sundae para la inteligencia de decisiones:\n\n**1D: Qué Sucedió** - Datos de ventas, mano de obra y costos\n**2D: Plan vs Realidad** - Variación de presupuesto y pronóstico\n**3D: Contexto del Mercado** - Referencias, pares y competidores\n**4D: Qué Sigue** - Predicciones y recomendaciones\n\n**Report:** Acceso completo a 1D y 2D más 3D y 4D limitados\n**Core:** Acceso completo en las 4 dimensiones."
+            "title": "¿Qué es el modelo 4D Intelligence?",
+            "content": "El marco de Sundae para la inteligencia de decisión:\n\n**1D: qué pasó** - la verdad de ventas, personal y coste\n**2D: plan frente a real** - desviación de presupuesto y de pronóstico\n**3D: contexto de mercado** - benchmarks, pares y competidores\n**4D: qué viene** - pronósticos y recomendaciones\n\nCada paquete Core cubre los cuatro. El paquete marca cuánto profundiza cada dimensión."
           }
         ]
       },
@@ -613,23 +639,23 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Qué datos necesita Sundae?",
-            "content": "**Mínimo para Report Lite:**\n• Datos de ventas del POS (exportación CSV)\n\n**Para Core:**\n• Sistema POS a través de API\n• Sistema de mano de obra o fuerza laboral\n• Sistema de inventario\n• Plataformas de marketing\n• Sistema de reservas\n\nReport se basa en las cargas del POS. Core es donde conectas la pila operativa más amplia."
+            "content": "**Para cualquier paquete Core:**\n• Sistema POS vía API\n• Sistema de personal o turnos\n• Sistema de inventario\n• Plataformas de marketing\n• Sistema de reservas\n\nCon el POS solo ya obtienes valor el primer día. El resto profundiza la imagen a medida que lo conectas."
           },
           {
-            "title": "¿Cómo ingreso mis datos en Sundae?",
-            "content": "**Report Lite:** Carga manual de CSV\n\n**Report Plus:** Carga de PDFs, archivos de Excel o capturas de pantalla. Sundae extrae los datos y tú los revisas antes de procesarlos.\n\n**Report Pro y Core:** Ingesta automatizada a través de conexiones API"
+            "title": "¿Cómo llegan mis datos a Sundae?",
+            "content": "Mediante conexiones API a tu POS y al resto de tu stack operativo. Cuando un sistema no tiene API, Sundae acepta cargas de archivos estructurados y subidas leídas de forma inteligente - PDF, Excel, capturas - que tú revisas antes de procesar."
           },
           {
             "title": "¿Con qué sistemas POS se integra?",
             "content": "Sundae actualmente soporta **4 plataformas POS** con adaptadores en vivo: Oracle MICROS Simphony, Square, Toast y Clover. También soportamos **conectores de base de datos directos** para PostgreSQL y SQL Server / Azure SQL cuando un sistema POS expone acceso a la base de datos.\n\nMás allá del POS, el **motor de integración de 12 dominios** de Sundae se conecta con más de 30 proveedores en labor, inventario, reservas, entrega, marketing, experiencia del cliente, CRM y contabilidad.\n\nSi no ves tu sistema listado, el nivel Enterprise puede incluir trabajo de integración personalizado e ingestión basada en webhook."
           },
           {
-            "title": "¿Puedo usar Sundae con múltiples sistemas POS?",
-            "content": "**Core Lite:** Mejor cuando todas las ubicaciones usan un solo POS\n\n**Core Pro y Enterprise:** Sí. Se soportan diferentes sistemas POS en distintas ubicaciones, y Sundae normaliza los datos para comparaciones equivalentes.\n\n**Report:** Cualquier POS funciona porque las cargas son manuales."
+            "title": "¿Puedo usar Sundae con varios sistemas POS?",
+            "content": "Sí. Sundae conecta parques de POS mixtos y normaliza los datos para comparar en igualdad de condiciones. Core Performance añade encima la consolidación entre marcas y regiones."
           },
           {
-            "title": "¿Cuánto tiempo toma la implementación?",
-            "content": "**Report Lite:** Inmediato después de la carga\n**Report Plus / Pro:** 1-2 días\n**Core Lite / Pro:** 1-2 semanas\n**Enterprise:** 2-4 semanas dependiendo del alcance"
+            "title": "¿Cuánto tarda la implantación?",
+            "content": "La mayoría de los grupos están en producción en 1-2 semanas. Los despliegues mayores, multimarca o multirregión, llevan de 2 a 4 semanas según el alcance.\n\nLa implantación es una tarifa única, cobrada una sola vez según la clase más alta de tu selección - desde autoservicio sin coste hasta un acompañamiento Class D acotado."
           },
           {
             "title": "¿Qué pasa con mis datos si cancelo?",
@@ -643,27 +669,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Qué son los módulos?",
-            "content": "Los módulos son complementos de inteligencia especializados para Core:\n\n1. **Inteligencia Laboral** - Programación, productividad y horas extras\n2. **Inteligencia de Inventario** - Desperdicio, niveles mínimos y visibilidad de stock\n3. **Inteligencia de Compras** - Comparación de proveedores y aprovechamiento de contratos\n4. **Inteligencia de Marketing** - ROI, CAC y rendimiento de canales\n5. **Inteligencia de Reservas** - Predicción de no-shows y optimización de mesas\n\nLos módulos requieren Core porque dependen de datos operativos en vivo y conectados."
+            "content": "Los once módulos de dominio son las superficies analíticas dentro de Core. Son componentes del paquete, no complementos que se compran aparte:\n\n{{DOMAIN_MODULE_LINES}}\n\nRequieren Core porque dependen de datos operativos conectados en vivo."
           },
           {
             "title": "¿Necesito módulos?",
-            "content": "No. Los módulos son opcionales. Agréguelos cuando desee una cobertura más profunda en un área operativa específica.\n\n**Ruta:**\n• En Report -> actualice a Core primero\n• En Core -> agregue módulos siempre que la necesidad sea clara"
+            "content": "No son opcionales ni son compras separadas. Los once módulos de dominio vienen con cada paquete Core.\n\nLo que eliges es el paquete, y el paquete marca cuánto profundiza cada módulo."
           },
           {
-            "title": "¿Necesito Core para los módulos?",
-            "content": "Sí. Los módulos requieren Core Lite, Core Pro o Enterprise.\n\nDependen de conexiones en vivo a mano de obra, inventario, marketing, reservas y otros sistemas a los que Report no se conecta directamente."
+            "title": "¿Puedo comprar un solo módulo?",
+            "content": "No. Los once módulos de dominio son componentes de un paquete Core, no productos independientes, y no hay precio por módulo. Elegir un paquete es la forma de tenerlos todos."
           },
           {
-            "title": "¿Puedo agregar múltiples módulos?",
-            "content": "Sí. Mezcle y combine cualquiera de los cinco módulos. No hay requisito de comprar todos juntos."
+            "title": "¿Los módulos se añaden de uno en uno?",
+            "content": "No. No hay nada que añadir. Cada paquete Core lleva los once módulos de dominio desde el primer día; el paquete que elijas solo marca cuánto profundiza cada uno."
           },
           {
-            "title": "¿Cuál módulo debo elegir primero?",
-            "content": "Comience con el mayor punto de dolor operativo:\n\n• Alto costo laboral -> Inteligencia Laboral\n• Problemas de desperdicio o stock -> Inteligencia de Inventario\n• Débil aprovechamiento de proveedores -> Inteligencia de Compras\n• ROI de marketing poco claro -> Inteligencia de Marketing\n• No-shows en reservas -> Inteligencia de Reservas"
+            "title": "¿Por qué módulo debería empezar?",
+            "content": "Ya están todos activos, así que se trata de por dónde empezar a mirar, no de qué comprar. Empieza por el mayor dolor operativo:\n\n• Coste laboral alto -> Labor Intelligence\n• Merma o problemas de stock -> Inventory Intelligence\n• Poca palanca con proveedores -> Purchasing Intelligence\n• ROI de marketing poco claro -> Marketing Intelligence\n• No-shows en reservas -> Reservations Intelligence"
           },
           {
             "title": "¿Cómo funciona el precio de los módulos?",
-            "content": "Cada módulo incluye una licencia organizacional que cubre las primeras 5 ubicaciones, más precios adicionales por ubicaciones más allá de ese umbral.\n\nEjemplo: 8 ubicaciones con Inteligencia Laboral = 1 licencia org + 3 ubicaciones adicionales.\n\nUtilice pricing.sundae.io para cálculos exactos del plan."
+            "content": "No hay precio de módulos. Los módulos no tienen precio propio ni asignación de locales propia: lo que compras es el paquete.\n\nUn paquete Core se cobra desde tu primer local y luego a una tarifa marginal por cada local adicional, que baja a medida que creces. {{WORKED_EXAMPLE}}\n\nUsa pricing.sundae.io para el cálculo exacto."
           }
         ]
       },
@@ -688,8 +714,8 @@ export const generatedLocalCopy = {
             "content": "Sí. Puedes comprar Inteligencia Competitiva, Inteligencia de Eventos o Inteligencia de Mercado de forma individual, o combinarlas."
           },
           {
-            "title": "¿Requiere Watchtower Core?",
-            "content": "Sí. Watchtower funciona mejor cuando sus señales de mercado se superponen directamente a los datos operativos en vivo, que es lo que proporciona Core.\n\nSi solo necesitas análisis histórico de POS subido, Report es suficiente. Si deseas contexto de mercado vinculado a las operaciones diarias, pasa a Core."
+            "title": "¿Watchtower requiere Core?",
+            "content": "Sí. Watchtower rinde mejor cuando sus señales de mercado se apoyan en datos operativos en vivo, que es lo que aporta un paquete Core. Se dimensiona y cotiza junto a tu paquete en lugar de venderse por separado."
           }
         ]
       },
@@ -699,7 +725,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Cuánto cuesta Sundae?",
-            "content": "El precio depende de:\n• Report vs Core\n• Número de ubicaciones\n• Módulos seleccionados\n• Si se incluye Watchtower\n\n**Report Lite:** Gratis para siempre\n\nPara precios precisos, utiliza pricing.sundae.io."
+            "content": "El precio depende de:\n• Qué paquete Core\n• Número de locales\n• Si se incluyen Foresight & Action, Crew o SKU de concepto\n\nLos paquetes Core se cobran desde un anclaje en el primer local, más una tarifa marginal por cada local adicional que baja a medida que creces. Core Foundation empieza en {{FOUNDATION_FIRST_UNIT}} para tu primer local.\n\nPara un precio exacto, usa pricing.sundae.io."
           },
           {
             "title": "¿Hay tarifas de configuración?",
@@ -725,19 +751,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Cómo funcionan los créditos de inteligencia?",
-            "content": "Los créditos de inteligencia alimentan preguntas, análisis y recomendaciones.\n\n**Report Lite:** 250 base + 80 por ubicación\n**Report Plus:** 1,200 base + 300 por ubicación\n**Report Pro:** 3,500 base + 800 por ubicación\n**Core Lite:** 8,000 base + 1,600 por ubicación\n**Core Pro:** 14,000 base + 2,800 por ubicación\n**Enterprise:** 50,000+ base + asignación personalizada"
+            "content": "Los créditos de inteligencia alimentan preguntas, análisis y recomendaciones. Cada paquete Core lleva una bolsa mensual:\n\n{{AI_WALLET_LINES}}\n\nSi la agotas, puedes recargar en cualquier paquete."
           },
           {
-            "title": "¿Cuánto acceso histórico obtengo?",
-            "content": "**Report Lite:** 90 días\n**Report Plus:** 1 año\n**Report Pro:** 2 años\n**Core Lite:** 2 años\n**Core Pro:** 3 años\n**Enterprise:** 5+ años o retención personalizada"
+            "title": "¿Cuánto histórico tengo?",
+            "content": "Cada paquete Core conserva todo tu histórico conectado con retención plurianual. Los acuerdos Enterprise pueden ampliarlo con plazos de retención a medida."
           },
           {
             "title": "¿Con qué frecuencia se actualizan los datos?",
-            "content": "**Report Lite:** Cargas manuales\n**Report Plus:** Manual o analizado de forma inteligente bajo demanda\n**Report Pro:** Actualización automática diaria\n**Core Lite:** Cada 4 horas\n**Core Pro:** Cada 2 horas\n**Enterprise:** Cadencia personalizada, incluyendo tiempo real cuando se define"
+            "content": "Core se actualiza durante el turno en lugar de al cierre del día, para que Pulse y los módulos de dominio se muevan mientras aún puedes actuar. La cadencia exacta depende de lo que expongan tus sistemas conectados."
           },
           {
-            "title": "¿Obtengo paneles personalizados?",
-            "content": "**Niveles de Report:** Paneles preconstruidos\n**Core Lite:** Hasta 30 paneles personalizados\n**Core Pro:** Hasta 75 paneles personalizados\n**Enterprise:** Paneles personalizados ilimitados"
+            "title": "¿Tengo cuadros de mando personalizados?",
+            "content": "Sí. Cada paquete Core incluye cuadros de mando personalizados además de las vistas predefinidas que vienen con cada módulo de dominio."
           }
         ]
       },
@@ -746,12 +772,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "¿Qué soporte obtengo?",
-            "content": "**Report Lite:** Soporte por correo electrónico\n**Report Plus:** Soporte por correo electrónico y chat\n**Report Pro:** Soporte prioritario\n**Core Lite:** Soporte por correo electrónico, chat y teléfono\n**Core Pro:** Soporte telefónico prioritario más rápido\n**Enterprise:** Soporte 24/7 más un líder de éxito del cliente dedicado"
+            "title": "¿Qué soporte tengo?",
+            "content": "Cada paquete Core incluye soporte por correo, chat y teléfono. Los acuerdos Enterprise añaden cobertura 24/7, tiempos de respuesta contractuales y un responsable de customer success dedicado."
           },
           {
-            "title": "¿Proporcionan capacitación?",
-            "content": "Sí.\n\n**Report:** Incorporación y documentación de autoservicio\n**Core Lite:** Sesiones de capacitación guiadas\n**Core Pro:** Programa de capacitación personalizado\n**Enterprise:** Incorporación y habilitación estructuradas"
+            "title": "¿Ofrecéis formación?",
+            "content": "Sí. La formación forma parte de la implantación, que se cobra una sola vez según la clase más alta de tu selección: documentación en autoservicio sin coste, sesiones guiadas y capacitación estructurada en las clases superiores."
           },
           {
             "title": "¿Qué zonas horarias apoyan?",
@@ -800,16 +826,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "¿Cómo se diferencia Sundae de los informes de POS?",
-            "content": "**Informes de POS:** Un sistema, contexto limitado, interpretación manual\n\n**Sundae Report:** Análisis de POS más benchmarks, recomendaciones y detección de patrones\n\n**Sundae Core:** Todo en Report más datos unificados de mano de obra, inventario, marketing, reservas y otros sistemas con actualizaciones más rápidas"
+            "title": "¿En qué se diferencia Sundae del reporting de POS?",
+            "content": "**Informes de POS:** un sistema, contexto limitado, interpretación manual\n\n**Sundae Core:** análisis de POS más benchmarks, recomendaciones y detección de patrones, cruzando personal, coste y cliente en una sola imagen operativa\n\n**Foresight & Action:** la vista hacia delante encima: previsiones, escenarios y la capa que actúa sobre lo que sacan a la luz"
           },
           {
             "title": "¿Cómo se diferencia Sundae de Excel?",
             "content": "**Excel:** Entrada manual, análisis estático, sin capa de inteligencia compartida\n\n**Sundae:** Ingesta automatizada, benchmarking estructurado, paneles en vivo y recomendaciones que reducen el tiempo de análisis manual cada semana"
           },
           {
-            "title": "¿Cuánto puedo ahorrar en comparación con las herramientas de análisis heredadas?",
-            "content": "Los operadores a menudo informan un costo total materialmente más bajo porque Sundae utiliza precios basados en niveles en lugar de acumular tarifas por módulo y por ubicación. Los ahorros exactos dependen de la combinación de herramientas actuales y el alcance operativo."
+            "title": "¿Cuánto puedo ahorrar frente a herramientas de analítica tradicionales?",
+            "content": "Los operadores suelen reportar un coste total bastante menor porque un paquete Core ya contiene los once módulos de dominio, en vez de apilar tarifas por módulo y por local. La diferencia exacta depende de tu mezcla actual de herramientas y de tu huella operativa."
           }
         ]
       },
@@ -818,8 +844,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Solo tengo una ubicación. ¿Sundae sigue siendo una opción?",
-            "content": "Sí. Comienza con Report Lite para benchmarking gratuito, luego pasa a niveles más profundos de Report o Core si tu operación necesita más velocidad e inteligencia."
+            "title": "Solo tengo un local. ¿Sundae encaja igualmente?",
+            "content": "Sí. Un local único soporta el anclaje del paquete y nada más, y recibe los mismos once módulos que un grupo de cincuenta locales. Los tramos por local solo empiezan a importar cuando añades sitios."
           },
           {
             "title": "Soy una plataforma de franquicias. ¿Puede ayudar Sundae?",
@@ -847,19 +873,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Hoe begin ik?",
-            "content": "Je hebt drie opties:\n\n1. **Begin Gratis** - Meld je aan voor Report Lite (voor altijd gratis) en upload je operationele gegevens om directe benchmarking te zien. Geen creditcard vereist.\n\n2. **Bekijk Je Prijzen** - Gebruik onze interactieve prijs calculator op pricing.sundae.io om exacte prijzen voor jouw operatie te zien.\n\n3. **Boek een Demo** - Plan een 15 minuten durende rondleiding met ons team om Sundae in actie te zien met jouw gegevens."
+            "content": "Je hebt twee opties:\n\n1. **Bekijk je prijs** - Gebruik de interactieve prijscalculator op pricing.sundae.io om een Core-pakket op je aantal vestigingen te schalen.\n\n2. **Boek een demo** - Plan een rondleiding van 15 minuten met ons team en zie Sundae draaien op je eigen data."
           },
           {
-            "title": "Is er echt een gratis niveau?",
-            "content": "Ja. Report Lite is voor altijd gratis. Upload je POS-gegevens en krijg directe benchmarking tegen 5 kernmetrics. Fair-use beleid is van toepassing voor redelijk operationeel gebruik."
+            "title": "Is er een gratis versie?",
+            "content": "Nee. Elk Sundae-pakket is betaald, vanaf je eerste vestiging. Wat we wel bieden is een werksessie op je eigen cijfers voordat je je vastlegt, zodat je het rendement ziet voordat je iets tekent."
           },
           {
-            "title": "Wat is het verschil tussen Report en Core?",
-            "content": "**Report Niveau** = Historische analyse (POS-gegevens)\n• Upload POS-gegevens dagelijks, wekelijks of maandelijks\n• Analyseer wat er is gebeurd\n• Benchmark tegen peers\n• Het beste voor een enkele locatie of proof of concept\n\n**Core Niveau** = Real-time operaties (POS + alle systemen)\n• 2-4 uur verfrissingscycli\n• Integreert POS + arbeid + inventaris + marketing + reserveringen\n• Zie wat er nu gebeurt\n• Ontvang voorspellende waarschuwingen\n• Het beste voor operators met meerdere locaties\n\nBelangrijkste verschil: Report = alleen POS. Core = POS plus de rest van je stack."
+            "title": "Wat is het verschil tussen de Core-pakketten?",
+            "content": "**Core Foundation** - de operationele basis: één beslissingsfundament over POS, personeel, kosten en operatie.\n\n**Core Margin** - diepgang op kosten en lekkage: theoretisch versus werkelijk verbruik, verspilling, derving, annuleringen en weggevers, bijdrage per artikel.\n\n**Core Growth** - diepgang op vraag: gastcohorten en levenslange waarde, promotie-attributie per kanaal, bezorgmarge na commissie.\n\n**Core Performance** - consolidatie over merken en regio's, correlatie tussen modules, beheerste toegang met audit trails.\n\nAlle vier dragen dezelfde elf domeinmodules. Wat verandert is de diepgang."
           },
           {
-            "title": "Heb ik een langetermijncontract nodig?",
-            "content": "Nee. Report en Core niveaus zijn maand tot maand. Annuleer op elk moment zonder boete. Enterprise-implementaties gebruiken doorgaans jaarlijkse overeenkomsten met aangepaste voorwaarden."
+            "title": "Heb ik een langlopend contract nodig?",
+            "content": "Nee. Elk pakket is per maand beschikbaar en je kunt zonder boete opzeggen. Jaar- en tweejaarsafspraken bestaan omdat ze goedkoper zijn - 10% en 15% korting - niet omdat ze verplicht zijn."
           }
         ]
       },
@@ -868,20 +894,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Welke producten biedt Sundae aan?",
-            "content": "**Drie hoofdproducten:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historische analyse en benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Real-time operaties en voorspellende intelligentie\n3. **Watchtower** (Concurrentie / Evenement / Markt) - Externe marktintelligentie\n\n**Plus:**\n\n4. **Modules** - Arbeid, Voorraad, Aankopen, Marketing en Reserveringsintelligentie."
+            "title": "Welke producten biedt Sundae?",
+            "content": "**Vier hoofdproducten:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - het beslissingsfundament, met alle elf domeinmodules\n2. **Foresight & Action** - prognoses, scenariomodellen en de actielaag met goedkeuring in de lus\n3. **Sundae Crew** - het personeelsfundament: roosters, tijdregistratie, loonvoorbereiding, HR en people intelligence\n4. **Watchtower** - externe marktintelligentie, afgestemd naast je Core-pakket\n\n**Daarnaast:** concept-SKU's voor de bedrijfsmodellen van je groep - franchise, hotel-F&B, cloud kitchen, catering, productie, verhuurcommissary."
           },
           {
-            "title": "Welke tier moet ik kiezen?",
-            "content": "**Begin met Report Lite als:**\n• Je Sundae aan het testen bent\n• Je 1-2 locaties beheert\n• Dagelijkse of wekelijkse rapportage voldoende is\n\n**Upgrade naar Report Plus of Pro als:**\n• Je diepere historische intelligentie nodig hebt\n• Dagelijkse rapportage nog steeds voldoende is\n\n**Kies Core Lite of Pro als:**\n• Je 10+ locaties beheert\n• Je operationele snelheid nodig hebt\n• Real-time budgetbewaking belangrijk is\n\n**Kies Enterprise als:**\n• Je 100+ locaties hebt\n• Je SSO of white-label mogelijkheden nodig hebt\n• Je dedicated ondersteuning en aangepaste voorwaarden vereist"
+            "title": "Welk Core-pakket moet ik kiezen?",
+            "content": "**Core Foundation als:**\n• Je weg wilt van spreadsheets en losse dashboards\n• Je eerst één operationeel beeld wilt voordat je dieper gaat\n\n**Core Margin als:**\n• Inkoopkosten, verspilling, annuleringen of weggevers je marge opeten\n• Je bijdrage per artikel nodig hebt, niet alleen de verkoopmix\n\n**Core Growth als:**\n• Herhaalomzet en kanaalmix de beperking zijn\n• Je gastcohorten, promotie-attributie en bezorgmarge nodig hebt\n\n**Core Performance als:**\n• Je meerdere merken of markten draait\n• Je consolidatie, correlatie tussen modules en beheerste toegang nodig hebt"
           },
           {
             "title": "Kan ik later upgraden of downgraden?",
             "content": "Ja. Je kunt op elk moment tussen tiers wisselen. Historische gegevens worden bewaard en er zijn geen boetes voor het wijzigen van plannen."
           },
           {
-            "title": "Wat is het 4D Intelligence Model?",
-            "content": "Sundae's kader voor besluitvorming:\n\n**1D: Wat is er gebeurd** - Verkoop-, arbeids- en kostengegevens\n**2D: Plan vs Werkelijk** - Budget en forecast afwijking\n**3D: Marktcontext** - Benchmarks, peers en concurrenten\n**4D: Wat is de volgende stap** - Voorspellingen en aanbevelingen\n\n**Report:** Volledige 1D en 2D plus beperkte 3D en 4D\n**Core:** Volledige toegang over alle 4 dimensies."
+            "title": "Wat is het 4D Intelligence-model?",
+            "content": "Sundae's kader voor beslissingsintelligentie:\n\n**1D: wat er gebeurde** - de waarheid over omzet, personeel en kosten\n**2D: plan versus werkelijk** - budget- en prognoseafwijking\n**3D: marktcontext** - benchmarks, vergelijkbare bedrijven en concurrenten\n**4D: wat er komt** - voorspellingen en aanbevelingen\n\nElk Core-pakket dekt alle vier. Het pakket bepaalt hoe diep elke dimensie gaat."
           }
         ]
       },
@@ -890,24 +916,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Welke gegevens heeft Sundae nodig?",
-            "content": "**Minimaal voor Report Lite:**\n• POS verkoopgegevens (CSV-export)\n\n**Voor Core:**\n• POS-systeem via API\n• Arbeids- of personeelsysteem\n• Voorraadbeheersysteem\n• Marketingplatforms\n• Reserveringssysteem\n\nReport is opgebouwd rond POS-upload. Core is waar je de bredere operationele stack verbindt."
+            "title": "Welke data heeft Sundae nodig?",
+            "content": "**Voor elk Core-pakket:**\n• POS-systeem via API\n• Personeels- of workforcesysteem\n• Voorraadsysteem\n• Marketingplatforms\n• Reserveringssysteem\n\nAlleen de POS is al genoeg om op dag één waarde te halen. De rest verdiept het beeld zodra je het koppelt."
           },
           {
-            "title": "Hoe krijg ik mijn gegevens in Sundae?",
-            "content": "**Report Lite:** Handmatige CSV-upload\n\n**Report Plus:** Upload PDF's, Excel-bestanden of screenshots. Sundae extraheert de gegevens en je bekijkt deze voordat je ze verwerkt.\n\n**Report Pro en Core:** Geautomatiseerde opname via API-verbindingen"
+            "title": "Hoe krijg ik mijn data in Sundae?",
+            "content": "Via API-koppelingen met je POS en de rest van je operationele stack. Waar een systeem geen API heeft, accepteert Sundae gestructureerde bestandsuploads en slim uitgelezen bestanden - PDF, Excel, screenshots - die je vóór verwerking controleert."
           },
           {
             "title": "Met welke POS-systemen integreren jullie?",
             "content": "Sundae ondersteunt momenteel **4 POS-platforms** met live adapters: Oracle MICROS Simphony, Square, Toast en Clover. We ondersteunen ook **directe databaseverbindingen** voor PostgreSQL en SQL Server / Azure SQL wanneer een POS-systeem database-toegang biedt.\n\nBuiten POS verbindt Sundae's **12-domein integratiemotor** met meer dan 30 leveranciers op het gebied van arbeid, voorraad, reserveringen, levering, marketing, gastenervaring, CRM en boekhouding.\n\nAls je jouw systeem niet vermeld ziet, kan het Enterprise-niveau maatwerk integratiewerk en webhook-gebaseerde opname omvatten."
           },
           {
-            "title": "Kan ik Sundae gebruiken met meerdere POS-systemen?",
-            "content": "**Core Lite:** Het beste wanneer alle locaties één POS gebruiken\n\n**Core Pro en Enterprise:** Ja. Verschillende POS-systemen op verschillende locaties worden ondersteund, en Sundae normaliseert de gegevens voor een eerlijke vergelijking.\n\n**Report:** Elk POS werkt omdat uploads handmatig zijn."
+            "title": "Kan ik Sundae met meerdere POS-systemen gebruiken?",
+            "content": "Ja. Sundae koppelt gemengde POS-landschappen en normaliseert de data zodat je appels met appels vergelijkt. Core Performance voegt daar consolidatie over merken en regio's aan toe."
           },
           {
             "title": "Hoe lang duurt de implementatie?",
-            "content": "**Report Lite:** Onmiddellijk na upload\n**Report Plus / Pro:** 1-2 dagen\n**Core Lite / Pro:** 1-2 weken\n**Enterprise:** 2-4 weken, afhankelijk van de scope"
+            "content": "De meeste groepen zijn binnen 1-2 weken live. Grotere uitrollen over meerdere merken of regio's duren 2-4 weken, afhankelijk van de scope.\n\nDe implementatie is een eenmalig bedrag, één keer berekend op de hoogste klasse in je selectie - van kosteloze self-service tot een afgebakend Class D-traject."
           },
           {
             "title": "Wat gebeurt er met mijn gegevens als ik annuleer?",
@@ -921,27 +947,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Wat zijn modules?",
-            "content": "Modules zijn gespecialiseerde intelligentie-add-ons voor Core:\n\n1. **Arbeidsintelligentie** - Planning, productiviteit en overuren\n2. **Voorraadintelligentie** - Verspilling, par-niveaus en voorraadzichtbaarheid\n3. **Inkoopintelligentie** - Leveranciervergelijking en contractondersteuning\n4. **Marketingintelligentie** - ROI, CAC en kanaalprestaties\n5. **Reserveringsintelligentie** - Voorspelling van no-shows en tafeloptimalisatie\n\nModules vereisen Core omdat ze afhankelijk zijn van live, verbonden operationele gegevens."
+            "content": "De elf domeinmodules zijn de analysevlakken binnen Core. Het zijn onderdelen van het pakket, geen los gekochte extra's:\n\n{{DOMAIN_MODULE_LINES}}\n\nZe vereisen Core omdat ze afhankelijk zijn van live gekoppelde operationele data."
           },
           {
             "title": "Heb ik modules nodig?",
-            "content": "Nee. Modules zijn optioneel. Voeg ze toe wanneer je diepere dekking wilt in een specifiek operationeel gebied.\n\n**Pad:**\n• Op Report -> upgrade eerst naar Core\n• Op Core -> voeg modules toe wanneer de behoefte duidelijk is"
+            "content": "Ze zijn niet optioneel en het zijn geen aparte aankopen. Alle elf domeinmodules zitten in elk Core-pakket.\n\nWat je kiest is het pakket, en het pakket bepaalt hoe diep elke module gaat."
           },
           {
-            "title": "Heb ik Core nodig voor modules?",
-            "content": "Ja. Modules vereisen Core Lite, Core Pro of Enterprise.\n\nZe zijn afhankelijk van live verbindingen met arbeid, voorraad, marketing, reserveringen en andere systemen waarmee Report niet direct verbinding maakt."
+            "title": "Kan ik één losse module kopen?",
+            "content": "Nee. De elf domeinmodules zijn onderdelen van een Core-pakket, geen zelfstandige producten, en er is geen prijs per module. Een pakket kiezen is hoe je ze allemaal krijgt."
           },
           {
-            "title": "Kan ik meerdere modules toevoegen?",
-            "content": "Ja. Mix en match een van de vijf modules. Er is geen vereiste om ze allemaal samen aan te schaffen."
+            "title": "Voeg ik modules één voor één toe?",
+            "content": "Nee. Er valt niets toe te voegen. Elk Core-pakket draagt vanaf dag één alle elf domeinmodules - het pakket dat je kiest bepaalt alleen hoe diep elke module gaat."
           },
           {
-            "title": "Welke module moet ik als eerste kiezen?",
-            "content": "Begin met het grootste operationele pijnpunt:\n\n• Hoge arbeidskosten -> Arbeidsintelligentie\n• Verspilling of voorraadproblemen -> Voorraadintelligentie\n• Zwakke onderhandelingspositie bij leveranciers -> Inkoopintelligentie\n• Onduidelijke marketing ROI -> Marketingintelligentie\n• No-shows bij reserveringen -> Reserveringsintelligentie"
+            "title": "Naar welke module moet ik eerst kijken?",
+            "content": "Ze staan allemaal al aan, dus het gaat om waar je begint te kijken, niet om wat je koopt. Begin bij de grootste operationele pijn:\n\n• Hoge personeelskosten -> Labor Intelligence\n• Verspilling of voorraadproblemen -> Inventory Intelligence\n• Weinig leverancierskracht -> Purchasing Intelligence\n• Onduidelijke marketing-ROI -> Marketing Intelligence\n• No-shows bij reserveringen -> Reservations Intelligence"
           },
           {
             "title": "Hoe werkt de prijsstelling van modules?",
-            "content": "Elke module omvat een organisatie licentie die de eerste 5 locaties dekt, plus extra locatieprijs boven die drempel.\n\nVoorbeeld: 8 locaties met Arbeidsintelligentie = 1 org-licentie + 3 extra locaties.\n\nGebruik pricing.sundae.io voor exacte prijsberekeningen."
+            "content": "Er is geen moduleprijs. Modules hebben geen zelfstandige prijs en geen eigen vestigingstegoed - wat je koopt is het pakket.\n\nEen Core-pakket wordt berekend vanaf je eerste vestiging, daarna tegen een marginaal tarief per extra vestiging dat daalt naarmate je groeit. {{WORKED_EXAMPLE}}\n\nGebruik pricing.sundae.io voor de exacte berekening."
           }
         ]
       },
@@ -967,7 +993,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Vereist Watchtower Core?",
-            "content": "Ja. Watchtower werkt het beste wanneer de marktsignalen direct worden gelaagd op live operationele gegevens, wat Core biedt.\n\nAls je alleen geüploade historische POS-analyse nodig hebt, is Report voldoende. Als je marktcontext wilt die is gekoppeld aan de dagelijkse operaties, ga dan naar Core."
+            "content": "Ja. Watchtower komt het best tot zijn recht wanneer de marktsignalen op live operationele data worden gelegd, en dat is precies wat een Core-pakket levert. Het wordt samen met je pakket afgebakend en geoffreerd, niet los verkocht."
           }
         ]
       },
@@ -976,8 +1002,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Hoeveel kost Sundae?",
-            "content": "De prijs is afhankelijk van:\n• Report vs Core\n• Aantal locaties\n• Geselecteerde modules\n• Of Watchtower is inbegrepen\n\n**Report Lite:** Altijd gratis\n\nVoor nauwkeurige prijzen, gebruik pricing.sundae.io."
+            "title": "Wat kost Sundae?",
+            "content": "De prijs hangt af van:\n• Welk Core-pakket\n• Het aantal vestigingen\n• Of Foresight & Action, Crew of concept-SKU's meegaan\n\nCore-pakketten worden berekend vanaf een anker voor de eerste vestiging, plus een marginaal tarief per extra vestiging dat daalt naarmate je groeit. Core Foundation begint bij {{FOUNDATION_FIRST_UNIT}} voor je eerste vestiging.\n\nGebruik pricing.sundae.io voor een precieze prijs."
           },
           {
             "title": "Zijn er opstartkosten?",
@@ -1002,20 +1028,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Hoe werken intelligentiecredits?",
-            "content": "Intelligentiecredits ondersteunen vragen, analyses en aanbevelingen.\n\n**Report Lite:** 250 basis + 80 per locatie\n**Report Plus:** 1.200 basis + 300 per locatie\n**Report Pro:** 3.500 basis + 800 per locatie\n**Core Lite:** 8.000 basis + 1.600 per locatie\n**Core Pro:** 14.000 basis + 2.800 per locatie\n**Enterprise:** 50.000+ basis + aangepaste toewijzing"
+            "title": "Hoe werken intelligence-credits?",
+            "content": "Intelligence-credits voeden vragen, analyses en aanbevelingen. Elk Core-pakket heeft een maandelijkse wallet:\n\n{{AI_WALLET_LINES}}\n\nRaakt die op, dan kun je bij elk pakket bijladen."
           },
           {
-            "title": "Hoeveel historische toegang krijg ik?",
-            "content": "**Report Lite:** 90 dagen\n**Report Plus:** 1 jaar\n**Report Pro:** 2 jaar\n**Core Lite:** 2 jaar\n**Core Pro:** 3 jaar\n**Enterprise:** 5+ jaar of aangepaste retentie"
+            "title": "Hoeveel historie krijg ik?",
+            "content": "Elk Core-pakket bewaart je volledige gekoppelde historie met meerjarige retentie. Enterprise-afspraken kunnen dat uitbreiden met eigen bewaartermijnen."
           },
           {
-            "title": "Hoe vaak wordt de data ververst?",
-            "content": "**Report Lite:** Handmatige uploads\n**Report Plus:** Handmatig of slim geparsed op aanvraag\n**Report Pro:** Dagelijkse automatische vernieuwing\n**Core Lite:** Elke 4 uur\n**Core Pro:** Elke 2 uur\n**Enterprise:** Aangepaste frequentie, inclusief real-time wanneer gespecificeerd"
+            "title": "Hoe vaak wordt data ververst?",
+            "content": "Core ververst tijdens de dienst in plaats van aan het eind van de dag, zodat Pulse en de domeinmodules bewegen terwijl je nog kunt ingrijpen. De precieze cadans hangt af van wat je gekoppelde systemen aanbieden."
           },
           {
-            "title": "Krijg ik aangepaste dashboards?",
-            "content": "**Report-niveaus:** Vooraf gebouwde dashboards\n**Core Lite:** Tot 30 aangepaste dashboards\n**Core Pro:** Tot 75 aangepaste dashboards\n**Enterprise:** Onbeperkte aangepaste dashboards"
+            "title": "Krijg ik eigen dashboards?",
+            "content": "Ja. Elk Core-pakket bevat eigen dashboards bovenop de kant-en-klare weergaven die met elke domeinmodule meekomen."
           }
         ]
       },
@@ -1024,12 +1050,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Welke ondersteuning krijg ik?",
-            "content": "**Report Lite:** E-mailondersteuning\n**Report Plus:** E-mail en chat\n**Report Pro:** Prioriteitsondersteuning\n**Core Lite:** E-mail, chat en telefoon\n**Core Pro:** Snellere prioriteitsondersteuning via telefoon\n**Enterprise:** 24/7 ondersteuning plus een toegewijde klantensuccesleider"
+            "title": "Welke support krijg ik?",
+            "content": "Elk Core-pakket bevat support via e-mail, chat en telefoon. Enterprise-afspraken voegen 24/7-dekking, contractuele reactietijden en een vaste customer-successlead toe."
           },
           {
-            "title": "Bieden jullie training aan?",
-            "content": "Ja.\n\n**Report:** Zelfservice onboarding en documentatie\n**Core Lite:** Begeleide trainingssessies\n**Core Pro:** Aangepast trainingsprogramma\n**Enterprise:** Gestructureerde onboarding en enablement"
+            "title": "Bieden jullie training?",
+            "content": "Ja. Training hoort bij de implementatie, die eenmalig wordt berekend op de hoogste klasse in je selectie - kosteloze self-servicedocumentatie, begeleide sessies en gestructureerde enablement in de hogere klassen."
           },
           {
             "title": "Welke tijdzones ondersteunen jullie?",
@@ -1078,16 +1104,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Hoe verschilt Sundae van POS-rapportage?",
-            "content": "**POS-rapporten:** Eén systeem, beperkte context, handmatige interpretatie\n\n**Sundae Report:** POS-analyse plus benchmarks, aanbevelingen en patroonherkenning\n\n**Sundae Core:** Alles in Report plus verenigde gegevens van arbeid, voorraad, marketing, reserveringen en andere systemen met snellere vernieuwing."
+            "title": "Waarin verschilt Sundae van POS-rapportage?",
+            "content": "**POS-rapporten:** één systeem, beperkte context, handmatige duiding\n\n**Sundae Core:** POS-analyse plus benchmarks, aanbevelingen en patroonherkenning, over personeel, kosten en gast in één operationeel beeld\n\n**Foresight & Action:** de blik vooruit daarbovenop - prognoses, scenario's en de laag die handelt op wat ze naar boven halen"
           },
           {
             "title": "Hoe verschilt Sundae van Excel?",
             "content": "**Excel:** Handmatige invoer, statische analyse, geen gedeelde intelligentielaag\n\n**Sundae:** Geautomatiseerde opname, gestructureerde benchmarking, live dashboards en aanbevelingen die de handmatige analysetijd elke week verminderen."
           },
           {
-            "title": "Hoeveel kan ik besparen ten opzichte van legacy-analysetools?",
-            "content": "Operators melden vaak aanzienlijk lagere totale kosten omdat Sundae gebruikmaakt van prijsstelling op basis van niveaus in plaats van stapelen van kosten per module en per locatie. De exacte besparingen zijn afhankelijk van uw huidige toolmix en operationele scope."
+            "title": "Hoeveel bespaar ik ten opzichte van klassieke analytics-tools?",
+            "content": "Operators melden vaak een duidelijk lagere totale kost, omdat een Core-pakket alle elf domeinmodules al bevat in plaats van kosten per module en per vestiging te stapelen. Het exacte verschil hangt af van je huidige toolmix en je operationele omvang."
           }
         ]
       },
@@ -1096,8 +1122,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Ik heb maar één locatie. Is Sundae nog steeds geschikt?",
-            "content": "Ja. Begin met Report Lite voor gratis benchmarking, en ga vervolgens verder naar diepere Report-niveaus of Core als je operatie meer snelheid en intelligentie nodig heeft."
+            "title": "Ik heb maar één vestiging. Past Sundae dan toch?",
+            "content": "Ja. Eén vestiging draagt het pakketanker en niets meer, en krijgt dezelfde elf modules als een groep met vijftig vestigingen. De vestigingsstaffels gaan pas meetellen zodra je locaties toevoegt."
           },
           {
             "title": "Ik ben een franchiseplatform. Kan Sundae helpen?",
@@ -1110,6 +1136,32 @@ export const generatedLocalCopy = {
           {
             "title": "We zijn van plan uit te breiden. Kan Sundae helpen?",
             "content": "Ja. Watchtower en marktintelligentie kunnen ondersteuning bieden bij handelsgebiedanalyse, saturatiebeoordeling, concurrentiebeweging tracking en prioritering van onderbediende gebieden."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Wat is Sundae Crew?",
+            "content": "Sundae Crew is de operationele suite die uw mensen aanstuurt: personeelsplanning, tijdregistratie, salarisvoorbereiding, HR-dossiers en personeelsanalyse. Elke geplande dienst, elk geklokt uur en elk vastgelegd dossier wordt een signaal dat terugvloeit naar uw decision intelligence - zo delen operatie en inzicht één systeem."
+          },
+          {
+            "title": "Wat kan Crew?",
+            "content": "**Vijf verbonden modules:**\n\n1. **Scheduling** - Vraaggestuurde dienstplanning met geschiktheidscontroles en een AI-builder\n2. **Tijdregistratie** - In- en uitklokken, geofencing, pauze-attestatie en urenstaat-goedkeuringen\n3. **Payroll** - Salarisvoorbereiding voor meerdere regio's en wettelijke exports (voorbereiding en export, geen belastingmotor)\n4. **Personeel & HR** - Medewerkersdossiers en documenten van indiensttreding tot uitdiensttreding\n5. **Personeelsintelligentie** - Personeelsanalyse, no-showrisico en arbeidskostentrends"
+          },
+          {
+            "title": "Welke regio's ondersteunt Crew payroll?",
+            "content": "De salarisvoorbereiding en wettelijke exports van Crew dekken momenteel de **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), de **Verenigde Staten** (federaal plus alle staten), **Canada**, het **Verenigd Koninkrijk** en de **Europese Unie** (alle 27 lidstaten). Latijns-Amerika en APAC staan op de roadmap. Crew bereidt de salarisadministratie voor en exporteert deze - het is geen belastingmotor, en wettelijke regels komen uit geversioneerde landenpakketten."
+          },
+          {
+            "title": "Heb ik Core nodig om Crew te gebruiken?",
+            "content": "Nee. Crew kan op zichzelf draaien als uw operationele systeem, of naast Core zodat het signaal Labor Intelligence, Pulse en Foresight voedt. U kunt ook uw eigen HR- of salarisprovider meenemen - Crew is optioneel van opzet."
+          },
+          {
+            "title": "Wat kost Crew?",
+            "content": "**Crew-SKU's (vast maandbedrag, geen kosten per vestiging):**\n\n{{CREW_SKU_LINES}}\n\n**Bundels (elk met een eigen nettoprijs - geen korting op de SKU's erin):**\n\n{{CREW_BUNDLE_LINES}}\n\nGebruik pricing.sundae.io voor de exacte berekening."
           }
         ]
       }
@@ -1125,19 +1177,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "كيف أبدأ؟",
-            "content": "لديك ثلاث خيارات:\n\n1. **ابدأ مجانًا** - اشترك في Report Lite (مجاني إلى الأبد) وقم بتحميل بياناتك التشغيلية لرؤية المقاييس الفورية. لا حاجة لبطاقة ائتمان.\n\n2. **اطلع على تسعيرك** - استخدم حاسبة التسعير التفاعلية لدينا على pricing.sundae.io لرؤية التسعير الدقيق لعمليتك.\n\n3. **احجز عرضًا توضيحيًا** - قم بجدولة جولة مدتها 15 دقيقة مع فريقنا لرؤية Sundae في العمل مع بياناتك."
+            "content": "أمامك خياران:\n\n1. **اطّلع على أسعارك** - استخدم حاسبة الأسعار التفاعلية على pricing.sundae.io لتحديد باقة Core المناسبة لعدد مواقعك.\n\n2. **احجز عرضاً** - رتّب جولة مدتها 15 دقيقة مع فريقنا لترى Sundae يعمل على بياناتك."
           },
           {
-            "title": "هل هناك حقًا مستوى مجاني؟",
-            "content": "نعم. Report Lite مجاني إلى الأبد. قم بتحميل بيانات POS الخاصة بك واحصل على مقاييس فورية مقابل 5 مقاييس أساسية. تنطبق سياسة الاستخدام العادل للاستخدام التشغيلي المعقول."
+            "title": "هل هناك باقة مجانية؟",
+            "content": "لا. كل باقات Sundae مدفوعة، وتبدأ من موقعك الأول. لكننا نوفّر جلسة عمل على أرقامك أنت قبل الالتزام، لترى العائد قبل أن توقّع أي شيء."
           },
           {
-            "title": "ما الفرق بين Report و Core؟",
-            "content": "**مستوى Report** = تحليل تاريخي (بيانات POS)\n• قم بتحميل بيانات POS يوميًا أو أسبوعيًا أو شهريًا\n• تحليل ما حدث\n• مقارنة مع الأقران\n• الأفضل لموقع واحد أو إثبات المفهوم\n\n**مستوى Core** = العمليات في الوقت الحقيقي (POS + جميع الأنظمة)\n• دورات تحديث من 2-4 ساعات\n• يدمج POS + العمالة + المخزون + التسويق + الحجوزات\n• رؤية ما يحدث الآن\n• الحصول على تنبيهات تنبؤية\n• الأفضل للمشغلين متعدد المواقع\n\nالفرق الرئيسي: Report = POS فقط. Core = POS بالإضافة إلى بقية مجموعتك."
+            "title": "ما الفرق بين باقات Core؟",
+            "content": "**Core Foundation** - الأساس التشغيلي: ركيزة قرار واحدة فوق POS والعمالة والتكلفة والتشغيل.\n\n**Core Margin** - عمق في التكلفة والتسرب: الاستهلاك النظري مقابل الفعلي، الهدر، العجز، الإلغاءات والمجانيات، مساهمة كل صنف.\n\n**Core Growth** - عمق في الطلب: شرائح الضيوف وقيمتهم مدى الحياة، إسناد العروض لكل قناة، هامش التوصيل بعد العمولة.\n\n**Core Performance** - توحيد عبر العلامات والمناطق، ترابط بين الوحدات، وصول محوكم مع مسارات تدقيق.\n\nالباقات الأربع تحمل الوحدات الإحدى عشرة نفسها. ما يتغير هو العمق."
           },
           {
             "title": "هل أحتاج إلى عقد طويل الأجل؟",
-            "content": "لا. مستويات Report و Core شهرية. يمكنك الإلغاء في أي وقت دون عقوبة. عادةً ما تستخدم عمليات النشر المؤسسية اتفاقيات سنوية بشروط مخصصة."
+            "content": "لا. كل باقة متاحة شهرياً ويمكنك الإلغاء دون غرامة. الالتزامات السنوية ولمدة سنتين موجودة لأنها أقل تكلفة - خصم 10% و15% - لا لأنها مطلوبة."
           }
         ]
       },
@@ -1146,20 +1198,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "ما هي المنتجات التي تقدمها Sundae؟",
-            "content": "**ثلاثة منتجات رئيسية:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - تحليل تاريخي ومقارنة\n2. **Sundae Core** (Lite / Pro / Enterprise) - عمليات في الوقت الحقيقي وذكاء تنبؤي\n3. **Watchtower** (تنافسي / حدث / سوق) - ذكاء السوق الخارجي\n\n**بالإضافة إلى:**\n\n4. **وحدات** - ذكاء العمل، المخزون، الشراء، التسويق، والحجوزات."
+            "title": "ما المنتجات التي يقدّمها Sundae؟",
+            "content": "**أربعة منتجات رئيسية:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ركيزة القرار، وتحمل الوحدات الإحدى عشرة كلها\n2. **Foresight & Action** - التنبؤ ونمذجة السيناريوهات وطبقة التنفيذ باعتماد بشري\n3. **Sundae Crew** - ركيزة القوى العاملة: الجدولة والحضور وجاهزية الرواتب والموارد البشرية وذكاء الأفراد\n4. **Watchtower** - ذكاء السوق الخارجي، يُحدَّد نطاقه مع باقة Core\n\n**وإضافةً إلى ذلك:** أصناف مخصصة لنماذج التشغيل التي تديرها مجموعتك - الامتياز، وأغذية الفنادق، والمطابخ السحابية، والتموين، والإنتاج، والمطابخ المؤجَّرة."
           },
           {
-            "title": "أي مستوى يجب أن أختار؟",
-            "content": "**ابدأ بـ Report Lite إذا:**\n• كنت تختبر Sundae\n• لديك 1-2 موقع\n• التقارير اليومية أو الأسبوعية كافية\n\n**ترقية إلى Report Plus أو Pro إذا:**\n• كنت بحاجة إلى ذكاء تاريخي أعمق\n• التقارير اليومية لا تزال كافية\n\n**اختر Core Lite أو Pro إذا:**\n• لديك 10+ مواقع\n• تحتاج إلى سرعة تشغيل\n• تتبع الميزانية في الوقت الحقيقي مهم\n\n**اختر Enterprise إذا:**\n• لديك 100+ مواقع\n• تحتاج إلى قدرات SSO أو العلامة البيضاء\n• تحتاج إلى دعم مخصص وشروط مخصصة"
+            "title": "أي باقة Core أختار؟",
+            "content": "**Core Foundation إذا:**\n• كنت تنتقل من الجداول ولوحات المعلومات المنفصلة\n• أردت صورة تشغيلية واحدة قبل التعمّق\n\n**Core Margin إذا:**\n• كانت تكلفة المواد أو الهدر أو الإلغاءات أو المجانيات تلتهم هامشك\n• احتجت مساهمة كل صنف، لا مزيج المبيعات فقط\n\n**Core Growth إذا:**\n• كان الإيراد المتكرر ومزيج القنوات هما القيد\n• احتجت شرائح الضيوف وإسناد العروض وهامش التوصيل\n\n**Core Performance إذا:**\n• كنت تدير عدة علامات أو عدة أسواق\n• احتجت التوحيد والترابط بين الوحدات والوصول المحوكم"
           },
           {
             "title": "هل يمكنني الترقية أو التخفيض لاحقًا؟",
             "content": "نعم. يمكنك الانتقال بين المستويات في أي وقت. يتم الحفاظ على البيانات التاريخية ولا توجد عقوبات على تغيير الخطط."
           },
           {
-            "title": "ما هو نموذج الذكاء 4D؟",
-            "content": "إطار عمل Sundae لذكاء القرار:\n\n**1D: ماذا حدث** - بيانات المبيعات والعمل والتكلفة\n**2D: التخطيط مقابل الفعلي** - تباين الميزانية والتوقعات\n**3D: سياق السوق** - المعايير، الأقران، والمنافسين\n**4D: ماذا بعد** - التوقعات والتوصيات\n\n**Report:** الوصول الكامل إلى 1D و2D بالإضافة إلى 3D و4D محدودين\n**Core:** وصول كامل عبر جميع الأبعاد الأربعة."
+            "title": "ما نموذج 4D Intelligence؟",
+            "content": "إطار Sundae لذكاء القرار:\n\n**البُعد الأول: ما حدث** - حقيقة المبيعات والعمالة والتكلفة\n**البُعد الثاني: الخطة مقابل الفعلي** - انحراف الموازنة والتوقّع\n**البُعد الثالث: سياق السوق** - المقارنات المرجعية والنظراء والمنافسون\n**البُعد الرابع: ما هو قادم** - التنبؤات والتوصيات\n\nكل باقة Core تغطي الأبعاد الأربعة. والباقة تحدد عمق كل بُعد."
           }
         ]
       },
@@ -1169,11 +1221,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ما البيانات التي يحتاجها Sundae؟",
-            "content": "**الحد الأدنى لReport Lite:**\n• بيانات مبيعات POS (تصدير CSV)\n\n**لـ Core:**\n• نظام POS عبر API\n• نظام العمل أو القوى العاملة\n• نظام المخزون\n• منصات التسويق\n• نظام الحجوزات\n\nيُبنى Report حول تحميلات POS. Core هو المكان الذي تتصل فيه بمجموعة التشغيل الأوسع."
+            "content": "**لكل باقة Core:**\n• نظام POS عبر واجهة برمجية\n• نظام العمالة أو القوى العاملة\n• نظام المخزون\n• منصات التسويق\n• نظام الحجوزات\n\nنظام POS وحده يكفي لتحقيق قيمة من اليوم الأول. والباقي يعمّق الصورة كلما ربطته."
           },
           {
-            "title": "كيف يمكنني إدخال بياناتي إلى Sundae؟",
-            "content": "**Report Lite:** تحميل CSV يدوي\n\n**Report Plus:** تحميل ملفات PDF أو Excel أو لقطات الشاشة. يقوم Sundae باستخراج البيانات وتراجعها قبل المعالجة.\n\n**Report Pro و Core:** استيعاب تلقائي من خلال اتصالات API"
+            "title": "كيف تصل بياناتي إلى Sundae؟",
+            "content": "عبر اتصالات برمجية بنظام POS وبقية منظومتك التشغيلية. وحين لا تتوفر واجهة برمجية لنظام ما، يقبل Sundae ملفات منظمة ورفعاً يُقرأ آلياً - PDF وExcel ولقطات الشاشة - تراجعها أنت قبل المعالجة."
           },
           {
             "title": "ما أنظمة POS التي تتكاملون معها؟",
@@ -1181,11 +1233,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "هل يمكنني استخدام Sundae مع أنظمة POS متعددة؟",
-            "content": "**Core Lite:** الأفضل عندما تستخدم جميع المواقع نظام POS واحد\n\n**Core Pro وEnterprise:** نعم. يتم دعم أنظمة POS المختلفة عبر المواقع، ويقوم Sundae بتوحيد البيانات للمقارنة المباشرة.\n\n**Report:** أي POS يعمل لأن التحميلات يدوية."
+            "content": "نعم. يتصل Sundae بمنظومات POS مختلطة ويوحّد البيانات لمقارنة عادلة. وتضيف Core Performance فوق ذلك التوحيد عبر العلامات والمناطق."
           },
           {
-            "title": "كم من الوقت يستغرق التنفيذ؟",
-            "content": "**Report Lite:** فوري بعد التحميل\n**Report Plus / Pro:** 1-2 يوم\n**Core Lite / Pro:** 1-2 أسبوع\n**Enterprise:** 2-4 أسابيع حسب النطاق"
+            "title": "كم يستغرق التطبيق؟",
+            "content": "معظم المجموعات تعمل خلال أسبوع إلى أسبوعين. أما عمليات النشر الأكبر متعددة العلامات أو المناطق فتستغرق من أسبوعين إلى أربعة حسب النطاق.\n\nالتطبيق رسم لمرة واحدة، يُحتسب مرة واحدة وفق أعلى فئة في اختيارك - من الخدمة الذاتية بلا تكلفة حتى ارتباط Class D محدَّد النطاق."
           },
           {
             "title": "ماذا يحدث لبياناتي إذا قمت بالإلغاء؟",
@@ -1199,27 +1251,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ما هي الوحدات؟",
-            "content": "الوحدات هي إضافات ذكاء متخصصة لـ Core:\n\n1. **ذكاء العمل** - الجدولة، الإنتاجية، وساعات العمل الإضافية\n2. **ذكاء المخزون** - الهدر، مستويات المخزون، ورؤية المخزون\n3. **ذكاء الشراء** - مقارنة الموردين واستغلال العقود\n4. **ذكاء التسويق** - العائد على الاستثمار، تكلفة اكتساب العملاء، وأداء القنوات\n5. **ذكاء الحجوزات** - توقع عدم الحضور وتحسين الطاولات\n\nتتطلب الوحدات Core لأنها تعتمد على بيانات التشغيل المتصلة الحية."
+            "content": "الوحدات الإحدى عشرة هي الأسطح التحليلية داخل Core. وهي مكوّنات من الباقة، لا إضافات تُشترى على حدة:\n\n{{DOMAIN_MODULE_LINES}}\n\nوهي تتطلب Core لأنها تعتمد على بيانات تشغيلية حية ومتصلة."
           },
           {
-            "title": "هل أحتاج إلى وحدات؟",
-            "content": "لا. الوحدات اختيارية. أضفها عندما تريد تغطية أعمق في منطقة تشغيل معينة.\n\n**المسار:**\n• على Report -> قم بالترقية إلى Core أولاً\n• على Core -> أضف الوحدات كلما كانت الحاجة واضحة"
+            "title": "هل أحتاج إلى الوحدات؟",
+            "content": "ليست اختيارية وليست مشتريات منفصلة. الوحدات الإحدى عشرة تأتي مع كل باقة Core.\n\nما تختاره هو الباقة، والباقة تحدد عمق كل وحدة."
           },
           {
-            "title": "هل أحتاج إلى Core للوحدات؟",
-            "content": "نعم. تتطلب الوحدات Core Lite أو Core Pro أو Enterprise.\n\nتعتمد على الاتصالات الحية مع العمل، المخزون، التسويق، الحجوزات، وأنظمة أخرى لا تتصل بها Report مباشرة."
+            "title": "هل يمكنني شراء وحدة واحدة؟",
+            "content": "لا. الوحدات الإحدى عشرة مكوّنات من باقة Core، وليست منتجات مستقلة، ولا يوجد سعر لكل وحدة. اختيار الباقة هو طريقك للحصول عليها كلها."
           },
           {
-            "title": "هل يمكنني إضافة وحدات متعددة؟",
-            "content": "نعم. يمكنك مزج وتطابق أي من الوحدات الخمس. لا يوجد شرط لشراء جميعها معًا."
+            "title": "هل أضيف الوحدات واحدة تلو الأخرى؟",
+            "content": "لا. لا شيء يُضاف. كل باقة Core تحمل الوحدات الإحدى عشرة من اليوم الأول - والباقة التي تختارها تحدد فقط عمق كل واحدة."
           },
           {
-            "title": "أي وحدة يجب أن أختار أولاً؟",
-            "content": "ابدأ بأكبر نقطة ألم تشغيلية:\n\n• تكلفة العمل العالية -> ذكاء العمل\n• مشاكل الهدر أو المخزون -> ذكاء المخزون\n• ضعف استغلال الموردين -> ذكاء الشراء\n• عدم وضوح العائد على الاستثمار في التسويق -> ذكاء التسويق\n• عدم الحضور في الحجوزات -> ذكاء الحجوزات"
+            "title": "من أي وحدة أبدأ؟",
+            "content": "جميعها مفعّلة أصلاً، فالسؤال أين تبدأ بالنظر، لا ماذا تشتري. ابدأ من أكبر ألم تشغيلي لديك:\n\n• تكلفة عمالة مرتفعة -> Labor Intelligence\n• هدر أو مشكلات مخزون -> Inventory Intelligence\n• ضعف التفاوض مع المورّدين -> Purchasing Intelligence\n• عائد تسويقي غير واضح -> Marketing Intelligence\n• تخلّف عن الحجوزات -> Reservations Intelligence"
           },
           {
-            "title": "كيف تعمل تسعيرة الوحدات؟",
-            "content": "تشمل كل وحدة ترخيص منظمة يغطي أول 5 مواقع، بالإضافة إلى تسعير المواقع الإضافية بعد هذا الحد.\n\nمثال: 8 مواقع مع ذكاء العمل = 1 ترخيص منظمة + 3 مواقع إضافية.\n\nاستخدم pricing.sundae.io للحصول على حسابات دقيقة للخطط."
+            "title": "كيف يعمل تسعير الوحدات؟",
+            "content": "لا يوجد تسعير للوحدات. فالوحدات ليس لها سعر مستقل ولا حصة مواقع خاصة بها - ما تشتريه هو الباقة.\n\nتُسعَّر باقة Core ابتداءً من موقعك الأول، ثم بسعر حدّي لكل موقع إضافي يتناقص مع نموّك. {{WORKED_EXAMPLE}}\n\nاستخدم pricing.sundae.io للحساب الدقيق."
           }
         ]
       },
@@ -1244,8 +1296,8 @@ export const generatedLocalCopy = {
             "content": "نعم. يمكنك شراء ذكاء المنافسة، ذكاء الأحداث، أو ذكاء السوق بشكل فردي، أو دمجها."
           },
           {
-            "title": "هل يتطلب Watchtower Core؟",
-            "content": "نعم. يعمل Watchtower بشكل أفضل عندما تكون إشارات السوق الخاصة به مدمجة مباشرة مع بيانات التشغيل الحية، وهو ما يوفره Core.\n\nإذا كنت بحاجة فقط إلى تحليل POS التاريخية المحملة، فإن Report يكفي. إذا كنت تريد سياق السوق مرتبطًا بالعمليات اليومية، انتقل إلى Core."
+            "title": "هل يتطلب Watchtower وجود Core؟",
+            "content": "نعم. يعمل Watchtower على أفضل وجه حين تُركَّب إشاراته السوقية فوق بيانات تشغيلية حية، وهو ما توفّره باقة Core. ويُحدَّد نطاقه ويُسعَّر مع باقتك بدل أن يُباع وحده."
           }
         ]
       },
@@ -1254,8 +1306,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "كم يكلف Sundae؟",
-            "content": "تعتمد الأسعار على:\n• Report مقابل Core\n• عدد المواقع\n• الوحدات المختارة\n• ما إذا كانت Watchtower مشمولة\n\n**Report Lite:** مجاني إلى الأبد\n\nللحصول على تسعير دقيق، استخدم pricing.sundae.io."
+            "title": "كم تكلفة Sundae؟",
+            "content": "يعتمد السعر على:\n• أي باقة Core\n• عدد المواقع\n• ما إذا كانت Foresight & Action أو Crew أو أصناف المفاهيم مشمولة\n\nتُسعَّر باقات Core من مرتكز للموقع الأول، مع سعر حدّي لكل موقع إضافي يتناقص مع نموّك. تبدأ Core Foundation من {{FOUNDATION_FIRST_UNIT}} لموقعك الأول.\n\nللحصول على سعر دقيق، استخدم pricing.sundae.io."
           },
           {
             "title": "هل هناك رسوم إعداد؟",
@@ -1280,20 +1332,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "كيف تعمل اعتمادات الذكاء؟",
-            "content": "تدعم اعتمادات الذكاء الأسئلة والتحليلات والتوصيات.\n\n**Report Lite:** 250 أساسي + 80 لكل موقع\n**Report Plus:** 1,200 أساسي + 300 لكل موقع\n**Report Pro:** 3,500 أساسي + 800 لكل موقع\n**Core Lite:** 8,000 أساسي + 1,600 لكل موقع\n**Core Pro:** 14,000 أساسي + 2,800 لكل موقع\n**Enterprise:** 50,000+ أساسي + تخصيص مخصص"
+            "title": "كيف تعمل أرصدة الذكاء؟",
+            "content": "أرصدة الذكاء تشغّل الأسئلة والتحليلات والتوصيات. وكل باقة Core تحمل محفظة شهرية:\n\n{{AI_WALLET_LINES}}\n\nوإن استنفدتها، يمكنك الشحن على أي باقة."
           },
           {
-            "title": "كم من الوصول التاريخي أحصل عليه؟",
-            "content": "**Report Lite:** 90 يومًا\n**Report Plus:** سنة واحدة\n**Report Pro:** سنتان\n**Core Lite:** سنتان\n**Core Pro:** 3 سنوات\n**Enterprise:** 5+ سنوات أو احتفاظ مخصص"
+            "title": "كم يبلغ المدى التاريخي المتاح لي؟",
+            "content": "كل باقة Core تحتفظ بتاريخك المتصل كاملاً مع احتفاظ يمتد لسنوات. واتفاقيات Enterprise يمكنها توسيع ذلك بمُدد احتفاظ مخصصة."
           },
           {
-            "title": "كم مرة يتم تحديث البيانات؟",
-            "content": "**Report Lite:** تحميلات يدوية\n**Report Plus:** يدوية أو معالجة ذكية عند الطلب\n**Report Pro:** تحديث تلقائي يومي\n**Core Lite:** كل 4 ساعات\n**Core Pro:** كل ساعتين\n**Enterprise:** وتيرة مخصصة، بما في ذلك الوقت الحقيقي عند تحديد النطاق"
+            "title": "كم مرة تُحدَّث البيانات؟",
+            "content": "يتحدّث Core أثناء الوردية بدل نهاية اليوم، حتى يتحرك Pulse ووحدات المجالات وأنت ما زلت قادراً على التصرّف. أما الوتيرة الدقيقة فتعتمد على ما تتيحه أنظمتك المتصلة."
           },
           {
-            "title": "هل أحصل على لوحات معلومات مخصصة؟",
-            "content": "**مستويات Report:** لوحات معلومات مسبقة البناء\n**Core Lite:** حتى 30 لوحة معلومات مخصصة\n**Core Pro:** حتى 75 لوحة معلومات مخصصة\n**Enterprise:** لوحات معلومات مخصصة غير محدودة."
+            "title": "هل أحصل على لوحات مخصصة؟",
+            "content": "نعم. كل باقة Core تشمل لوحات مخصصة إضافةً إلى العروض الجاهزة التي تأتي مع كل وحدة مجال."
           }
         ]
       },
@@ -1303,11 +1355,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ما الدعم الذي أحصل عليه؟",
-            "content": "**Report Lite:** دعم عبر البريد الإلكتروني\n**Report Plus:** دعم عبر البريد الإلكتروني والدردشة\n**Report Pro:** دعم ذو أولوية\n**Core Lite:** دعم عبر البريد الإلكتروني والدردشة والهاتف\n**Core Pro:** دعم هاتفي ذو أولوية أسرع\n**Enterprise:** دعم على مدار الساعة طوال أيام الأسبوع بالإضافة إلى قائد نجاح مخصص للعميل"
+            "content": "كل باقة Core تشمل الدعم عبر البريد والدردشة والهاتف. وتضيف اتفاقيات Enterprise تغطية على مدار الساعة، وأزمنة استجابة تعاقدية، ومسؤول نجاح عملاء مخصصاً."
           },
           {
-            "title": "هل تقدمون تدريبًا؟",
-            "content": "نعم.\n\n**Report:** إعداد ذاتي ووثائق\n**Core Lite:** جلسات تدريب موجهة\n**Core Pro:** برنامج تدريب مخصص\n**Enterprise:** إعداد منظَّم وتمكين"
+            "title": "هل تقدّمون تدريباً؟",
+            "content": "نعم. التدريب جزء من التطبيق، ويُحتسب مرة واحدة وفق أعلى فئة في اختيارك - توثيق ذاتي بلا تكلفة، وجلسات موجَّهة وتمكين منظَّم في الفئات الأعلى."
           },
           {
             "title": "ما المناطق الزمنية التي تدعمونها؟",
@@ -1356,16 +1408,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "كيف يختلف Sundae عن تقارير POS؟",
-            "content": "**تقارير POS:** نظام واحد، سياق محدود، تفسير يدوي\n\n**Sundae Report:** تحليل POS بالإضافة إلى المعايير، التوصيات، واكتشاف الأنماط\n\n**Sundae Core:** كل شيء في Report بالإضافة إلى بيانات موحدة من العمل، المخزون، التسويق، الحجوزات، وأنظمة أخرى مع تحديث أسرع"
+            "title": "بماذا يختلف Sundae عن تقارير POS؟",
+            "content": "**تقارير POS:** نظام واحد، وسياق محدود، وتفسير يدوي\n\n**Sundae Core:** تحليل POS إضافةً إلى المقارنات المرجعية والتوصيات وكشف الأنماط، عبر العمالة والتكلفة والضيف في صورة تشغيلية واحدة\n\n**Foresight & Action:** النظرة الأمامية فوق ذلك - توقعات وسيناريوهات والطبقة التي تتصرف بناءً على ما تكشفه"
           },
           {
             "title": "كيف يختلف Sundae عن Excel؟",
             "content": "**Excel:** إدخال يدوي، تحليل ثابت، لا توجد طبقة ذكاء مشتركة\n\n**Sundae:** إدخال تلقائي، معايير منظمة، لوحات معلومات حية، وتوصيات تقلل من وقت التحليل اليدوي كل أسبوع"
           },
           {
-            "title": "كم يمكنني أن أوفر مقارنة بأدوات التحليل القديمة؟",
-            "content": "غالبًا ما يبلغ المشغلون عن انخفاض كبير في التكلفة الإجمالية لأن Sundae يستخدم تسعيرًا قائمًا على الفئات بدلاً من تراكم الرسوم لكل وحدة ولكل موقع. تعتمد المدخرات الدقيقة على مزيج الأدوات الحالي ونطاق التشغيل."
+            "title": "كم يمكن أن أوفّر مقابل أدوات التحليلات التقليدية؟",
+            "content": "كثيراً ما يفيد المشغّلون بتكلفة إجمالية أقل بوضوح، لأن باقة Core تضم أصلاً الوحدات الإحدى عشرة بدل تكديس رسوم لكل وحدة ولكل موقع. أما الفارق الدقيق فيعتمد على مزيج أدواتك الحالي وحجم تشغيلك."
           }
         ]
       },
@@ -1374,8 +1426,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "لدي موقع واحد فقط. هل لا يزال Sundae مناسبًا؟",
-            "content": "نعم. ابدأ بـ Report Lite للحصول على تقييم مجاني، ثم انتقل إلى مستويات Report الأعمق أو Core إذا كانت عملياتك تحتاج إلى مزيد من السرعة والذكاء."
+            "title": "لديّ موقع واحد فقط. هل يناسبني Sundae؟",
+            "content": "نعم. الموقع الواحد يحمل مرتكز الباقة لا أكثر، ويحصل على الوحدات الإحدى عشرة نفسها التي تحصل عليها مجموعة من خمسين موقعاً. ونطاقات المواقع لا تبدأ في التأثير إلا حين تضيف مواقع."
           },
           {
             "title": "أنا منصة امتياز. هل يمكن أن تساعدني Sundae؟",
@@ -1402,20 +1454,20 @@ export const generatedLocalCopy = {
             "content": "Sundae é uma plataforma de inteligência de decisão para restaurantes e equipes de hospitalidade. Ela reúne dados operacionais dispersos em um só lugar, permitindo que os líderes vejam o que aconteceu, o que está mudando e onde agir a seguir."
           },
           {
-            "title": "Como eu começo?",
-            "content": "Você tem três opções:\n\n1. **Comece Grátis** - Inscreva-se no Report Lite (grátis para sempre) e faça o upload dos seus dados operacionais para ver benchmarks instantâneos. Não é necessário cartão de crédito.\n\n2. **Veja Seu Preço** - Use nossa calculadora de preços interativa em pricing.sundae.io para ver o preço exato para sua operação.\n\n3. **Agende uma Demonstração** - Marque uma apresentação de 15 minutos com nossa equipe para ver o Sundae em ação com seus dados."
+            "title": "Como começo?",
+            "content": "Tem duas opções:\n\n1. **Ver o seu preço** - Use a calculadora interativa em pricing.sundae.io para dimensionar um pacote Core face ao seu número de unidades.\n\n2. **Marcar uma demo** - Agende uma apresentação de 15 minutos com a nossa equipa e veja o Sundae a correr sobre os seus dados."
           },
           {
-            "title": "Realmente existe um plano gratuito?",
-            "content": "Sim. O Report Lite é grátis para sempre. Faça o upload dos seus dados de POS e obtenha benchmarks instantâneos em relação a 5 métricas principais. Política de uso justo se aplica para uso operacional razoável."
+            "title": "Existe um plano gratuito?",
+            "content": "Não. Todos os pacotes Sundae são pagos, a partir da primeira unidade. O que oferecemos é uma sessão de trabalho sobre os seus próprios números antes de se comprometer, para ver o retorno antes de assinar seja o que for."
           },
           {
-            "title": "Qual é a diferença entre Report e Core?",
-            "content": "**Camada Report** = Análise histórica (dados de POS)\n• Faça o upload dos dados de POS diariamente, semanalmente ou mensalmente\n• Analise o que aconteceu\n• Compare com os pares\n• Melhor para um único local ou prova de conceito\n\n**Camada Core** = Operações em tempo real (POS + todos os sistemas)\n• Ciclos de atualização de 2-4 horas\n• Integra POS + mão de obra + inventário + marketing + reservas\n• Veja o que está acontecendo agora\n• Receba alertas preditivos\n• Melhor para operadores de múltiplos locais\n\nDiferença chave: Report = apenas POS. Core = POS mais o restante da sua pilha."
+            "title": "Qual é a diferença entre os pacotes Core?",
+            "content": "**Core Foundation** - a base operacional: um substrato de decisão sobre POS, mão de obra, custo e operação.\n\n**Core Margin** - profundidade em custo e fugas: consumo teórico versus real, desperdício, quebras, cancelamentos e cortesias, contribuição por artigo.\n\n**Core Growth** - profundidade na procura: coortes de clientes e valor vitalício, atribuição de promoções por canal, margem de entrega após comissão.\n\n**Core Performance** - consolidação multimarca e multirregião, correlação entre módulos, acesso governado com trilhas de auditoria.\n\nOs quatro levam os mesmos onze módulos de domínio. O que muda é a profundidade."
           },
           {
             "title": "Preciso de um contrato de longo prazo?",
-            "content": "Não. As camadas Report e Core são mensais. Cancele a qualquer momento sem penalidade. Implantações empresariais normalmente utilizam contratos anuais com termos personalizados."
+            "content": "Não. Cada pacote está disponível mês a mês e pode cancelar sem penalização. Os compromissos anuais e a dois anos existem porque custam menos - 10% e 15% de desconto - não porque sejam obrigatórios."
           }
         ]
       },
@@ -1424,20 +1476,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Quais produtos a Sundae oferece?",
-            "content": "**Três produtos principais:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análise histórica e benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operações em tempo real e inteligência preditiva\n3. **Watchtower** (Competitivo / Evento / Mercado) - Inteligência de mercado externa\n\n**Além disso:**\n\n4. **Módulos** - Inteligência de Trabalho, Inventário, Compras, Marketing e Reservas."
+            "title": "Que produtos oferece a Sundae?",
+            "content": "**Quatro produtos principais:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - o substrato de decisão, com os onze módulos de domínio\n2. **Foresight & Action** - previsão, modelação de cenários e a camada de ação com aprovação humana\n3. **Sundae Crew** - o substrato de pessoas: escalas, assiduidade, preparação de salários, RH e people intelligence\n4. **Watchtower** - inteligência de mercado externa, dimensionada junto do seu pacote Core\n\n**Além disso:** SKU de conceito para os modelos operacionais do seu grupo - franquia, F&B hoteleiro, cozinha virtual, catering, produção, cozinha central alugada."
           },
           {
-            "title": "Qual nível devo escolher?",
-            "content": "**Comece com Report Lite se:**\n• Você está testando a Sundae\n• Você administra 1-2 locais\n• Relatórios diários ou semanais são suficientes\n\n**Faça upgrade para Report Plus ou Pro se:**\n• Você precisa de inteligência histórica mais profunda\n• Relatórios diários ainda são suficientes\n\n**Escolha Core Lite ou Pro se:**\n• Você administra 10+ locais\n• Você precisa de velocidade operacional\n• O acompanhamento orçamentário em tempo real é importante\n\n**Escolha Enterprise se:**\n• Você tem 100+ locais\n• Você precisa de SSO ou capacidades de marca branca\n• Você requer suporte dedicado e termos personalizados"
+            "title": "Que pacote Core devo escolher?",
+            "content": "**Core Foundation se:**\n• Está a sair de folhas de cálculo e painéis desligados\n• Quer uma imagem operacional única antes de aprofundar\n\n**Core Margin se:**\n• O custo de mercadoria, o desperdício, os cancelamentos ou as cortesias levam a sua margem\n• Precisa de contribuição por artigo, não apenas do mix de vendas\n\n**Core Growth se:**\n• A receita recorrente e o mix de canais são a restrição\n• Precisa de coortes de clientes, atribuição de promoções e margem de entrega\n\n**Core Performance se:**\n• Opera várias marcas ou vários mercados\n• Precisa de consolidação, correlação entre módulos e acesso governado"
           },
           {
             "title": "Posso fazer upgrade ou downgrade depois?",
             "content": "Sim. Você pode mudar entre os níveis a qualquer momento. Os dados históricos são preservados e não há penalidades por mudar de plano."
           },
           {
-            "title": "Qual é o Modelo de Inteligência 4D?",
-            "content": "O framework da Sundae para inteligência de decisão:\n\n**1D: O que Aconteceu** - Dados de vendas, trabalho e custos\n**2D: Planejado vs Real** - Variação de orçamento e previsão\n**3D: Contexto de Mercado** - Benchmarks, pares e concorrentes\n**4D: O que Vem a Seguir** - Previsões e recomendações\n\n**Report:** Acesso completo a 1D e 2D, além de 3D e 4D limitados\n**Core:** Acesso completo em todas as 4 dimensões."
+            "title": "O que é o modelo 4D Intelligence?",
+            "content": "O enquadramento da Sundae para inteligência de decisão:\n\n**1D: o que aconteceu** - a verdade das vendas, da mão de obra e do custo\n**2D: plano versus real** - desvio de orçamento e de previsão\n**3D: contexto de mercado** - benchmarks, pares e concorrentes\n**4D: o que vem a seguir** - previsões e recomendações\n\nCada pacote Core cobre os quatro. O pacote define a profundidade de cada dimensão."
           }
         ]
       },
@@ -1446,24 +1498,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Quais dados o Sundae precisa?",
-            "content": "**Mínimo para o Report Lite:**\n• Dados de vendas do POS (exportação CSV)\n\n**Para o Core:**\n• Sistema POS via API\n• Sistema de mão de obra ou força de trabalho\n• Sistema de inventário\n• Plataformas de marketing\n• Sistema de reservas\n\nO Report é construído em torno de uploads do POS. O Core é onde você conecta a pilha operacional mais ampla."
+            "title": "De que dados precisa a Sundae?",
+            "content": "**Para qualquer pacote Core:**\n• Sistema POS via API\n• Sistema de pessoal ou escalas\n• Sistema de inventário\n• Plataformas de marketing\n• Sistema de reservas\n\nO POS sozinho já chega para obter valor no primeiro dia. O resto aprofunda a imagem à medida que o liga."
           },
           {
-            "title": "Como faço para enviar meus dados para o Sundae?",
-            "content": "**Report Lite:** Upload manual de CSV\n\n**Report Plus:** Faça upload de PDFs, arquivos Excel ou capturas de tela. O Sundae extrai os dados e você os revisa antes do processamento.\n\n**Report Pro e Core:** Ingestão automatizada através de conexões API"
+            "title": "Como é que os meus dados chegam à Sundae?",
+            "content": "Através de ligações API ao seu POS e ao resto da sua stack operacional. Quando um sistema não tem API, a Sundae aceita ficheiros estruturados e carregamentos lidos de forma inteligente - PDF, Excel, capturas de ecrã - que revê antes do processamento."
           },
           {
             "title": "Quais sistemas POS vocês integram?",
             "content": "O Sundae atualmente suporta **4 plataformas POS** com adaptadores ao vivo: Oracle MICROS Simphony, Square, Toast e Clover. Também suportamos **conectores de banco de dados diretos** para PostgreSQL e SQL Server / Azure SQL quando um sistema POS expõe acesso ao banco de dados.\n\nAlém do POS, o motor de integração de **12 domínios do Sundae** conecta-se a mais de 30 fornecedores em áreas como mão de obra, inventário, reservas, entrega, marketing, experiência do cliente, CRM e contabilidade.\n\nSe você não vê seu sistema listado, o nível Enterprise pode incluir trabalho de integração personalizado e ingestão baseada em webhook."
           },
           {
-            "title": "Posso usar o Sundae com vários sistemas POS?",
-            "content": "**Core Lite:** Melhor quando todas as localizações usam um único POS\n\n**Core Pro e Enterprise:** Sim. Diferentes sistemas POS em várias localizações são suportados, e o Sundae normaliza os dados para comparação justa.\n\n**Report:** Qualquer POS funciona porque os uploads são manuais."
+            "title": "Posso usar a Sundae com vários sistemas POS?",
+            "content": "Sim. A Sundae liga parques de POS mistos e normaliza os dados para uma comparação justa. O Core Performance acrescenta por cima a consolidação entre marcas e regiões."
           },
           {
-            "title": "Quanto tempo leva a implementação?",
-            "content": "**Report Lite:** Imediato após o upload\n**Report Plus / Pro:** 1-2 dias\n**Core Lite / Pro:** 1-2 semanas\n**Enterprise:** 2-4 semanas dependendo do escopo"
+            "title": "Quanto tempo demora a implementação?",
+            "content": "A maioria dos grupos fica operacional em 1-2 semanas. Implementações maiores, multimarca ou multirregião, levam 2-4 semanas consoante o âmbito.\n\nA implementação é uma taxa única, cobrada uma só vez pela classe mais alta da sua seleção - do self-service sem custo até um acompanhamento Class D delimitado."
           },
           {
             "title": "O que acontece com meus dados se eu cancelar?",
@@ -1477,27 +1529,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "O que são módulos?",
-            "content": "Módulos são complementos de inteligência especializados para o Core:\n\n1. **Inteligência de Mão de Obra** - Agendamento, produtividade e horas extras\n2. **Inteligência de Inventário** - Desperdício, níveis mínimos e visibilidade de estoque\n3. **Inteligência de Compras** - Comparação de fornecedores e aproveitamento de contratos\n4. **Inteligência de Marketing** - ROI, CAC e desempenho de canais\n5. **Inteligência de Reservas** - Previsão de não comparecimento e otimização de mesas\n\nOs módulos requerem o Core porque dependem de dados operacionais conectados em tempo real."
+            "content": "Os onze módulos de domínio são as superfícies analíticas dentro do Core. São componentes do pacote, não extras comprados à parte:\n\n{{DOMAIN_MODULE_LINES}}\n\nExigem o Core porque dependem de dados operacionais ligados em direto."
           },
           {
-            "title": "Eu preciso de módulos?",
-            "content": "Não. Os módulos são opcionais. Adicione-os quando quiser uma cobertura mais profunda em uma área operacional específica.\n\n**Caminho:**\n• No Report -> atualize para o Core primeiro\n• No Core -> adicione módulos sempre que a necessidade estiver clara"
+            "title": "Preciso de módulos?",
+            "content": "Não são opcionais nem compras separadas. Os onze módulos de domínio vêm com cada pacote Core.\n\nO que escolhe é o pacote, e o pacote define a profundidade de cada módulo."
           },
           {
-            "title": "Eu preciso do Core para os módulos?",
-            "content": "Sim. Os módulos requerem Core Lite, Core Pro ou Enterprise.\n\nEles dependem de conexões em tempo real com mão de obra, inventário, marketing, reservas e outros sistemas que o Report não conecta diretamente."
+            "title": "Posso comprar um único módulo?",
+            "content": "Não. Os onze módulos de domínio são componentes de um pacote Core, não produtos autónomos, e não há preço por módulo. Escolher um pacote é como os obtém a todos."
           },
           {
-            "title": "Posso adicionar múltiplos módulos?",
-            "content": "Sim. Misture e combine qualquer um dos cinco módulos. Não há exigência de comprar todos juntos."
+            "title": "Acrescento os módulos um a um?",
+            "content": "Não. Não há nada a acrescentar. Cada pacote Core leva os onze módulos de domínio desde o primeiro dia - o pacote que escolher apenas define a profundidade de cada um."
           },
           {
-            "title": "Qual módulo devo escolher primeiro?",
-            "content": "Comece com o maior ponto de dor operacional:\n\n• Alto custo de mão de obra -> Inteligência de Mão de Obra\n• Desperdício ou problemas de estoque -> Inteligência de Inventário\n• Fraco aproveitamento de fornecedores -> Inteligência de Compras\n• ROI de marketing pouco claro -> Inteligência de Marketing\n• Não comparecimento em reservas -> Inteligência de Reservas"
+            "title": "Por que módulo devo começar?",
+            "content": "Já estão todos ligados, por isso a questão é por onde começar a olhar, não o que comprar. Comece pela maior dor operacional:\n\n• Custo de mão de obra elevado -> Labor Intelligence\n• Desperdício ou problemas de stock -> Inventory Intelligence\n• Pouca alavanca junto de fornecedores -> Purchasing Intelligence\n• ROI de marketing pouco claro -> Marketing Intelligence\n• Faltas em reservas -> Reservations Intelligence"
           },
           {
-            "title": "Como funciona a precificação dos módulos?",
-            "content": "Cada módulo inclui uma licença organizacional que cobre os primeiros 5 locais, além de preços adicionais para locais além desse limite.\n\nExemplo: 8 locais com Inteligência de Mão de Obra = 1 licença organizacional + 3 locais adicionais.\n\nUse pricing.sundae.io para cálculos exatos do plano."
+            "title": "Como funciona o preço dos módulos?",
+            "content": "Não existe preço de módulos. Os módulos não têm preço autónomo nem quota de unidades própria - o que compra é o pacote.\n\nUm pacote Core é cobrado a partir da sua primeira unidade e depois a uma taxa marginal por cada unidade adicional, que desce à medida que cresce. {{WORKED_EXAMPLE}}\n\nUse pricing.sundae.io para o cálculo exato."
           }
         ]
       },
@@ -1522,8 +1574,8 @@ export const generatedLocalCopy = {
             "content": "Sim. Você pode comprar Inteligência Competitiva, Inteligência de Eventos ou Inteligência de Mercado individualmente, ou combiná-los."
           },
           {
-            "title": "O Watchtower requer o Core?",
-            "content": "Sim. O Watchtower funciona melhor quando seus sinais de mercado são sobrepostos diretamente aos dados operacionais ao vivo, que é o que o Core fornece.\n\nSe você só precisa de análise histórica de POS carregada, o Report é suficiente. Se você deseja contexto de mercado ligado às operações do dia a dia, migre para o Core."
+            "title": "O Watchtower exige o Core?",
+            "content": "Sim. O Watchtower rende melhor quando os seus sinais de mercado assentam em dados operacionais em direto, que é o que um pacote Core fornece. É delimitado e orçamentado junto do seu pacote, em vez de vendido isoladamente."
           }
         ]
       },
@@ -1533,7 +1585,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quanto custa o Sundae?",
-            "content": "Os preços dependem de:\n• Report vs Core\n• Número de locais\n• Módulos selecionados\n• Se o Watchtower está incluído\n\n**Report Lite:** Grátis para sempre\n\nPara preços precisos, use pricing.sundae.io."
+            "content": "O preço depende de:\n• Qual pacote Core\n• Número de unidades\n• Se incluem Foresight & Action, Crew ou SKU de conceito\n\nOs pacotes Core são cobrados a partir de uma âncora na primeira unidade, mais uma taxa marginal por cada unidade adicional que desce à medida que cresce. O Core Foundation começa em {{FOUNDATION_FIRST_UNIT}} para a sua primeira unidade.\n\nPara um preço exato, use pricing.sundae.io."
           },
           {
             "title": "Há taxas de configuração?",
@@ -1559,19 +1611,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Como funcionam os créditos de inteligência?",
-            "content": "Os créditos de inteligência alimentam perguntas, análises e recomendações.\n\n**Report Lite:** 250 base + 80 por local\n**Report Plus:** 1.200 base + 300 por local\n**Report Pro:** 3.500 base + 800 por local\n**Core Lite:** 8.000 base + 1.600 por local\n**Core Pro:** 14.000 base + 2.800 por local\n**Enterprise:** 50.000+ base + alocação personalizada"
+            "content": "Os créditos de inteligência alimentam perguntas, análises e recomendações. Cada pacote Core traz uma carteira mensal:\n\n{{AI_WALLET_LINES}}\n\nSe a esgotar, pode recarregar em qualquer pacote."
           },
           {
-            "title": "Quanto tempo de acesso histórico eu tenho?",
-            "content": "**Report Lite:** 90 dias\n**Report Plus:** 1 ano\n**Report Pro:** 2 anos\n**Core Lite:** 2 anos\n**Core Pro:** 3 anos\n**Enterprise:** 5+ anos ou retenção personalizada"
+            "title": "Que histórico tenho disponível?",
+            "content": "Cada pacote Core guarda todo o seu histórico ligado com retenção plurianual. Os acordos Enterprise podem alargá-lo com prazos de retenção à medida."
           },
           {
             "title": "Com que frequência os dados são atualizados?",
-            "content": "**Report Lite:** Uploads manuais\n**Report Plus:** Manual ou analisados de forma inteligente sob demanda\n**Report Pro:** Atualização automática diária\n**Core Lite:** A cada 4 horas\n**Core Pro:** A cada 2 horas\n**Enterprise:** Cadência personalizada, incluindo em tempo real quando solicitado"
+            "content": "O Core atualiza ao longo do turno em vez de ao fim do dia, para que o Pulse e os módulos de domínio se movam enquanto ainda pode agir. A cadência exata depende do que os seus sistemas ligados expõem."
           },
           {
-            "title": "Eu recebo painéis personalizados?",
-            "content": "**Níveis do Report:** Painéis pré-construídos\n**Core Lite:** Até 30 painéis personalizados\n**Core Pro:** Até 75 painéis personalizados\n**Enterprise:** Painéis personalizados ilimitados"
+            "title": "Tenho dashboards personalizados?",
+            "content": "Sim. Cada pacote Core inclui dashboards personalizados além das vistas prontas que acompanham cada módulo de domínio."
           }
         ]
       },
@@ -1580,12 +1632,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Que suporte eu recebo?",
-            "content": "**Report Lite:** Suporte por e-mail\n**Report Plus:** Suporte por e-mail e chat\n**Report Pro:** Suporte prioritário\n**Core Lite:** Suporte por e-mail, chat e telefone\n**Core Pro:** Suporte telefônico prioritário mais rápido\n**Enterprise:** Suporte 24/7 além de um líder de sucesso do cliente dedicado"
+            "title": "Que apoio tenho?",
+            "content": "Cada pacote Core inclui apoio por email, chat e telefone. Os acordos Enterprise acrescentam cobertura 24/7, tempos de resposta contratuais e um responsável de customer success dedicado."
           },
           {
-            "title": "Vocês oferecem treinamento?",
-            "content": "Sim.\n\n**Report:** Onboarding e documentação de autoatendimento\n**Core Lite:** Sessões de treinamento guiadas\n**Core Pro:** Programa de treinamento personalizado\n**Enterprise:** Onboarding e capacitação estruturados"
+            "title": "Dão formação?",
+            "content": "Sim. A formação faz parte da implementação, cobrada uma só vez pela classe mais alta da sua seleção - documentação em self-service sem custo, sessões acompanhadas e capacitação estruturada nas classes superiores."
           },
           {
             "title": "Quais fusos horários vocês suportam?",
@@ -1634,16 +1686,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Como o Sundae é diferente dos relatórios de POS?",
-            "content": "**Relatórios de POS:** Um sistema, contexto limitado, interpretação manual\n\n**Sundae Report:** Análise de POS mais benchmarks, recomendações e detecção de padrões\n\n**Sundae Core:** Tudo no Report mais dados unificados de trabalho, inventário, marketing, reservas e outros sistemas com atualização mais rápida"
+            "title": "Em que é que o Sundae difere do reporting do POS?",
+            "content": "**Relatórios de POS:** um sistema, contexto limitado, interpretação manual\n\n**Sundae Core:** análise de POS mais benchmarks, recomendações e deteção de padrões, atravessando mão de obra, custo e cliente numa só imagem operacional\n\n**Foresight & Action:** a visão para a frente por cima - previsões, cenários e a camada que age sobre o que eles revelam"
           },
           {
             "title": "Como o Sundae é diferente do Excel?",
             "content": "**Excel:** Entrada manual, análise estática, sem camada de inteligência compartilhada\n\n**Sundae:** Ingestão automatizada, benchmarking estruturado, painéis ao vivo e recomendações que reduzem o tempo de análise manual a cada semana"
           },
           {
-            "title": "Quanto posso economizar em comparação com ferramentas de análise legadas?",
-            "content": "Os operadores frequentemente relatam um custo total materialmente mais baixo porque o Sundae utiliza preços baseados em camadas em vez de taxas por módulo e por local. As economias exatas dependem da combinação de ferramentas atuais e do escopo operacional."
+            "title": "Quanto posso poupar face a ferramentas de analítica tradicionais?",
+            "content": "Os operadores relatam frequentemente um custo total bastante menor, porque um pacote Core já contém os onze módulos de domínio em vez de empilhar taxas por módulo e por unidade. A diferença exata depende do seu conjunto atual de ferramentas e da sua dimensão operacional."
           }
         ]
       },
@@ -1652,8 +1704,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Eu só tenho uma localização. O Sundae ainda é uma boa opção?",
-            "content": "Sim. Comece com o Report Lite para benchmarking gratuito, depois avance para níveis mais profundos do Report ou Core se sua operação precisar de mais velocidade e inteligência."
+            "title": "Só tenho uma unidade. O Sundae ainda faz sentido?",
+            "content": "Sim. Uma unidade única suporta a âncora do pacote e nada mais, e recebe os mesmos onze módulos que um grupo de cinquenta unidades. Os escalões por unidade só começam a pesar quando acrescenta locais."
           },
           {
             "title": "Sou uma plataforma de franquias. O Sundae pode ajudar?",
@@ -1668,6 +1720,32 @@ export const generatedLocalCopy = {
             "content": "Sim. O Watchtower e a inteligência de mercado podem apoiar a análise de área comercial, revisão de saturação, rastreamento de movimentação de concorrentes e priorização de territórios carentes."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "O que é o Sundae Crew?",
+            "content": "O Sundae Crew é a suíte operacional que gere as suas pessoas: escalas, ponto e presença, preparação da folha de pagamento, registos de RH e análise da força de trabalho. Cada turno planeado, cada hora registada e cada registo arquivado torna-se um sinal que retorna à sua decision intelligence - para que operações e insight partilhem um só sistema."
+          },
+          {
+            "title": "O que o Crew faz?",
+            "content": "**Cinco módulos conectados:**\n\n1. **Scheduling** - Planeamento de turnos orientado pela procura, com verificações de elegibilidade e um construtor de IA\n2. **Ponto e presença** - Registo de entrada/saída, geofencing, atestado de pausas e aprovações de folhas de horas\n3. **Payroll** - Preparação da folha de pagamento multirregião e exportações estatutárias (preparação e exportação, não um motor fiscal)\n4. **Pessoas & RH** - Registos e documentos de colaboradores da contratação à saída\n5. **People Intelligence** - Análise da força de trabalho, risco de faltas e tendências de custo de mão de obra"
+          },
+          {
+            "title": "Que regiões a folha de pagamento do Crew suporta?",
+            "content": "A preparação da folha de pagamento e as exportações estatutárias do Crew abrangem atualmente o **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), os **Estados Unidos** (federal mais todos os estados), o **Canadá**, o **Reino Unido** e a **União Europeia** (todos os 27 Estados-Membros). A América Latina e a APAC estão no roadmap. O Crew prepara e exporta a folha de pagamento - não é um motor fiscal, e as regras estatutárias vêm de pacotes de país versionados."
+          },
+          {
+            "title": "Preciso do Core para usar o Crew?",
+            "content": "Não. O Crew pode funcionar de forma autónoma como o seu sistema operacional, ou ao lado do Core para que o seu sinal alimente o Labor Intelligence, o Pulse e o Foresight. Também pode trazer o seu próprio fornecedor de RH ou de folha de pagamento - o Crew é opcional por design."
+          },
+          {
+            "title": "Quanto custa o Crew?",
+            "content": "**SKU do Crew (mensalidade fixa, sem cobrança por unidade):**\n\n{{CREW_SKU_LINES}}\n\n**Bundles (cada um com o seu preço líquido - não é um desconto sobre os SKU que contém):**\n\n{{CREW_BUNDLE_LINES}}\n\nUse pricing.sundae.io para o cálculo exato."
+          }
+        ]
       }
     ],
     "ur": [
@@ -1680,20 +1758,20 @@ export const generatedLocalCopy = {
             "content": "Sundae ریستورانوں اور مہمان نوازی کی ٹیموں کے لیے ایک فیصلہ سازی کی ذہانت کا پلیٹ فارم ہے۔ یہ منتشر آپریشنل ڈیٹا کو ایک جگہ پر جمع کرتا ہے تاکہ رہنما دیکھ سکیں کہ کیا ہوا، کیا بدل رہا ہے، اور اگلا قدم کہاں اٹھانا ہے۔"
           },
           {
-            "title": "میں کیسے شروع کروں؟",
-            "content": "آپ کے پاس تین اختیارات ہیں:\n\n1. **مفت شروع کریں** - Report Lite کے لیے سائن اپ کریں (ہمیشہ کے لیے مفت) اور اپنے آپریشنل ڈیٹا کو اپ لوڈ کریں تاکہ فوری بینچ مارکنگ دیکھ سکیں۔ کریڈٹ کارڈ کی ضرورت نہیں۔\n\n2. **اپنی قیمتیں دیکھیں** - ہماری انٹرایکٹو قیمتوں کے کیلکولیٹر کا استعمال کریں pricing.sundae.io پر تاکہ اپنے آپریشن کے لیے درست قیمتیں دیکھ سکیں۔\n\n3. **ڈیمو بک کریں** - ہماری ٹیم کے ساتھ 15 منٹ کی واک تھرو شیڈول کریں تاکہ آپ اپنے ڈیٹا کے ساتھ Sundae کو عملی طور پر دیکھ سکیں۔"
+            "title": "میں شروعات کیسے کروں؟",
+            "content": "آپ کے پاس دو راستے ہیں:\n\n1. **اپنی قیمت دیکھیں** - pricing.sundae.io پر انٹرایکٹو کیلکولیٹر سے اپنی برانچوں کی تعداد کے مطابق Core پیکیج طے کریں۔\n\n2. **ڈیمو بک کریں** - ہماری ٹیم کے ساتھ 15 منٹ کا جائزہ طے کریں اور Sundae کو اپنے ہی ڈیٹا پر چلتا دیکھیں۔"
           },
           {
-            "title": "کیا واقعی ایک مفت سطح ہے؟",
-            "content": "جی ہاں۔ Report Lite ہمیشہ کے لیے مفت ہے۔ اپنے POS ڈیٹا کو اپ لوڈ کریں اور 5 بنیادی میٹرکس کے خلاف فوری بینچ مارکنگ حاصل کریں۔ معقول آپریشنل استعمال کے لیے منصفانہ استعمال کی پالیسی لاگو ہوتی ہے۔"
+            "title": "کیا کوئی مفت درجہ ہے؟",
+            "content": "نہیں۔ Sundae کا ہر پیکیج بامعاوضہ ہے اور پہلی برانچ سے قیمت لگتی ہے۔ ہم جو پیش کرتے ہیں وہ یہ ہے کہ فیصلے سے پہلے آپ کے اپنے اعداد پر ایک ورکنگ سیشن ہو، تاکہ دستخط سے پہلے آپ منافع دیکھ لیں۔"
           },
           {
-            "title": "Report اور Core میں کیا فرق ہے؟",
-            "content": "**Report Tier** = تاریخی تجزیہ (POS ڈیٹا)\n• روزانہ، ہفتہ وار، یا ماہانہ POS ڈیٹا اپ لوڈ کریں\n• یہ تجزیہ کریں کہ کیا ہوا\n• ہم عمروں کے خلاف بینچ مارک کریں\n• ایک ہی مقام یا تصور کے ثبوت کے لیے بہترین\n\n**Core Tier** = حقیقی وقت کی کارروائیاں (POS + تمام نظام)\n• 2-4 گھنٹے کی ریفریش سائیکلز\n• POS + محنت + انوینٹری + مارکیٹنگ + ریزرویشنز کو یکجا کرتا ہے\n• یہ دیکھیں کہ اب کیا ہو رہا ہے\n• پیشگوئی کرنے والے الرٹس حاصل کریں\n• کثیر مقامی آپریٹرز کے لیے بہترین\n\nاہم فرق: Report = صرف POS۔ Core = POS کے ساتھ آپ کے باقی اسٹیک۔"
+            "title": "Core پیکیجز میں کیا فرق ہے؟",
+            "content": "**Core Foundation** - آپریشنل بنیاد: POS، محنت، لاگت اور آپریشنز پر ایک ہی فیصلہ ساز بنیاد۔\n\n**Core Margin** - لاگت اور رساؤ میں گہرائی: نظری بمقابلہ حقیقی استعمال، ضیاع، کمی، وائیڈز اور کامپس، فی آئٹم شراکت۔\n\n**Core Growth** - طلب میں گہرائی: مہمانوں کے گروہ اور تاحیات قدر، فی چینل پروموشن انتساب، کمیشن کے بعد ڈیلیوری مارجن۔\n\n**Core Performance** - کئی برانڈز اور خطوں کا یکجا کرنا، ماڈیولز کے درمیان تعلق، آڈٹ ٹریل کے ساتھ ضابطہ بند رسائی۔\n\nچاروں میں وہی گیارہ ڈومین ماڈیولز ہیں۔ جو بدلتا ہے وہ گہرائی ہے۔"
           },
           {
-            "title": "کیا مجھے طویل مدتی معاہدے کی ضرورت ہے؟",
-            "content": "نہیں۔ Report اور Core کی سطحیں ماہانہ ہیں۔ بغیر کسی جرمانے کے کبھی بھی منسوخ کریں۔ انٹرپرائز ڈپلائمنٹس عام طور پر حسب ضرورت شرائط کے ساتھ سالانہ معاہدے استعمال کرتے ہیں۔"
+            "title": "کیا طویل مدتی معاہدہ ضروری ہے؟",
+            "content": "نہیں۔ ہر پیکیج ماہانہ بنیاد پر دستیاب ہے اور آپ بغیر جرمانے کے منسوخ کر سکتے ہیں۔ سالانہ اور دو سالہ وعدے اس لیے ہیں کہ وہ سستے پڑتے ہیں - 10% اور 15% رعایت - اس لیے نہیں کہ لازمی ہیں۔"
           }
         ]
       },
@@ -1702,20 +1780,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Sundae کون سے مصنوعات پیش کرتا ہے؟",
-            "content": "**تین اہم مصنوعات:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - تاریخی تجزیہ اور بینچ مارکنگ\n2. **Sundae Core** (Lite / Pro / Enterprise) - حقیقی وقت کی کارروائیاں اور پیش گوئی کی ذہانت\n3. **Watchtower** (مقابلہ / ایونٹ / مارکیٹ) - بیرونی مارکیٹ کی ذہانت\n\n**پلس:**\n\n4. **ماڈیولز** - مزدوری، انوینٹری، خریداری، مارکیٹنگ، اور ریزرویشن کی ذہانت."
+            "title": "Sundae کون سی مصنوعات پیش کرتا ہے؟",
+            "content": "**چار بنیادی مصنوعات:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - فیصلہ ساز بنیاد، جس میں گیارہ ڈومین ماڈیولز شامل ہیں\n2. **Foresight & Action** - پیش گوئی، منظرنامہ سازی اور انسانی منظوری والی عمل کی پرت\n3. **Sundae Crew** - افرادی قوت کی بنیاد: شیڈولنگ، حاضری، پے رول کی تیاری، ایچ آر اور پیپل انٹیلیجنس\n4. **Watchtower** - بیرونی مارکیٹ انٹیلیجنس، جو آپ کے Core پیکیج کے ساتھ طے ہوتی ہے\n\n**اس کے علاوہ:** آپ کے گروپ کے آپریٹنگ ماڈلز کے لیے کانسیپٹ SKUs - فرنچائز، ہوٹل F&B، کلاؤڈ کچن، کیٹرنگ، پروڈکشن، کرائے کی سینٹرل کچن۔"
           },
           {
-            "title": "مجھے کون سا ٹیر منتخب کرنا چاہیے؟",
-            "content": "**اگر آپ Report Lite سے شروع کریں تو:**\n• آپ Sundae کی جانچ کر رہے ہیں\n• آپ 1-2 مقامات چلا رہے ہیں\n• روزانہ یا ہفتہ وار رپورٹنگ کافی ہے\n\n**اگر آپ Report Plus یا Pro میں اپ گریڈ کریں تو:**\n• آپ کو گہری تاریخی ذہانت کی ضرورت ہے\n• روزانہ کی رپورٹنگ ابھی بھی کافی ہے\n\n**اگر آپ Core Lite یا Pro منتخب کریں تو:**\n• آپ 10+ مقامات چلا رہے ہیں\n• آپ کو عملی رفتار کی ضرورت ہے\n• حقیقی وقت کا بجٹ ٹریکنگ اہم ہے\n\n**اگر آپ Enterprise منتخب کریں تو:**\n• آپ کے پاس 100+ مقامات ہیں\n• آپ کو SSO یا وائٹ لیبل کی صلاحیتوں کی ضرورت ہے\n• آپ کو مخصوص مدد اور حسب ضرورت شرائط کی ضرورت ہے"
+            "title": "مجھے کون سا Core پیکیج چننا چاہیے؟",
+            "content": "**Core Foundation اگر:**\n• آپ اسپریڈ شیٹس اور بکھرے ڈیش بورڈز سے نکل رہے ہیں\n• گہرائی میں جانے سے پہلے ایک مشترکہ آپریشنل تصویر چاہتے ہیں\n\n**Core Margin اگر:**\n• خوراک کی لاگت، ضیاع، وائیڈز یا کامپس آپ کا مارجن کھا رہے ہیں\n• آپ کو صرف سیلز مکس نہیں، فی آئٹم شراکت چاہیے\n\n**Core Growth اگر:**\n• بار بار کی آمدنی اور چینل مکس رکاوٹ ہیں\n• آپ کو مہمانوں کے گروہ، پروموشن انتساب اور ڈیلیوری مارجن چاہیے\n\n**Core Performance اگر:**\n• آپ کئی برانڈز یا کئی مارکیٹیں چلاتے ہیں\n• آپ کو یکجا کرنا، ماڈیولز کے درمیان تعلق اور ضابطہ بند رسائی چاہیے"
           },
           {
             "title": "کیا میں بعد میں اپ گریڈ یا ڈاؤن گریڈ کر سکتا ہوں؟",
             "content": "جی ہاں۔ آپ کسی بھی وقت ٹیرز کے درمیان منتقل ہو سکتے ہیں۔ تاریخی ڈیٹا محفوظ ہے اور منصوبے تبدیل کرنے پر کوئی جرمانہ نہیں ہے۔"
           },
           {
-            "title": "4D ذہانت ماڈل کیا ہے؟",
-            "content": "Sundae کا فیصلہ سازی کی ذہانت کے لیے فریم ورک:\n\n**1D: کیا ہوا** - فروخت، مزدوری، اور لاگت کا ڈیٹا\n**2D: منصوبہ بمقابلہ حقیقی** - بجٹ اور پیش گوئی کا فرق\n**3D: مارکیٹ کا سیاق و سباق** - بینچ مارکس، ہم منصب، اور حریف\n**4D: آگے کیا ہے** - پیش گوئیاں اور سفارشات\n\n**Report:** مکمل 1D اور 2D کے ساتھ محدود 3D اور 4D\n**Core:** تمام 4 جہتوں میں مکمل رسائی."
+            "title": "4D Intelligence ماڈل کیا ہے؟",
+            "content": "فیصلہ سازی کی ذہانت کے لیے Sundae کا فریم ورک:\n\n**1D: کیا ہوا** - فروخت، محنت اور لاگت کا سچ\n**2D: منصوبہ بمقابلہ حقیقت** - بجٹ اور پیش گوئی کا فرق\n**3D: مارکیٹ کا تناظر** - بینچ مارک، ہم پلہ ادارے اور حریف\n**4D: آگے کیا** - پیش گوئیاں اور سفارشات\n\nہر Core پیکیج چاروں کا احاطہ کرتا ہے۔ پیکیج طے کرتا ہے کہ ہر پہلو کتنی گہرائی تک جائے۔"
           }
         ]
       },
@@ -1724,24 +1802,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae کو کون سا ڈیٹا درکار ہے؟",
-            "content": "**Report Lite کے لیے کم از کم:**\n• POS سیلز کا ڈیٹا (CSV ایکسپورٹ)\n\n**کور کے لیے:**\n• API کے ذریعے POS سسٹم\n• لیبر یا ورک فورس سسٹم\n• انوینٹری سسٹم\n• مارکیٹنگ پلیٹ فارم\n• ریزرویشن سسٹم\n\nرپورٹ POS اپ لوڈز کے گرد بنائی گئی ہے۔ کور وہ جگہ ہے جہاں آپ وسیع آپریٹنگ اسٹیک کو جوڑتے ہیں۔"
+            "title": "Sundae کو کن ڈیٹا کی ضرورت ہے؟",
+            "content": "**ہر Core پیکیج کے لیے:**\n• API کے ذریعے POS سسٹم\n• محنت یا افرادی قوت کا سسٹم\n• انوینٹری سسٹم\n• مارکیٹنگ پلیٹ فارمز\n• بکنگ سسٹم\n\nپہلے دن قدر حاصل کرنے کے لیے صرف POS کافی ہے۔ باقی جڑتے جانے پر تصویر گہری ہوتی جاتی ہے۔"
           },
           {
-            "title": "میں اپنے ڈیٹا کو Sundae میں کیسے شامل کروں؟",
-            "content": "**Report Lite:** دستی CSV اپ لوڈ\n\n**Report Plus:** PDFs، ایکسل فائلیں، یا اسکرین شاٹس اپ لوڈ کریں۔ Sundae ڈیٹا نکالتا ہے اور آپ اسے پروسیسنگ سے پہلے جائزہ لیتے ہیں۔\n\n**Report Pro اور کور:** API کنکشنز کے ذریعے خودکار انضمام"
+            "title": "میرا ڈیٹا Sundae میں کیسے آتا ہے؟",
+            "content": "آپ کے POS اور باقی آپریشنل اسٹیک سے API کنکشنز کے ذریعے۔ جہاں کسی سسٹم کا API نہ ہو، Sundae منظم فائل ڈراپ اور ذہانت سے پڑھی جانے والی اپلوڈز قبول کرتا ہے - PDF، Excel، اسکرین شاٹس - جنہیں آپ پروسیسنگ سے پہلے جانچتے ہیں۔"
           },
           {
             "title": "آپ کس POS سسٹم کے ساتھ انضمام کرتے ہیں؟",
             "content": "Sundae فی الحال **4 POS پلیٹ فارم** کی حمایت کرتا ہے جن میں لائیو ایڈاپٹر شامل ہیں: Oracle MICROS Simphony، Square، Toast، اور Clover۔ ہم **براہ راست ڈیٹا بیس کنیکٹرز** کی بھی حمایت کرتے ہیں PostgreSQL اور SQL Server / Azure SQL کے لیے جب کوئی POS سسٹم ڈیٹا بیس تک رسائی فراہم کرتا ہے۔\n\nPOS کے علاوہ، Sundae کا **12-ڈومین انضمام انجن** لیبر، انوینٹری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اور اکاؤنٹنگ کے 30+ وینڈرز سے جڑتا ہے۔\n\nاگر آپ کا سسٹم فہرست میں نہیں ہے تو انٹرپرائز کی سطح میں حسب ضرورت انضمام کا کام اور ویب ہک پر مبنی انضمام شامل ہو سکتا ہے۔"
           },
           {
-            "title": "کیا میں Sundae کو متعدد POS سسٹمز کے ساتھ استعمال کر سکتا ہوں؟",
-            "content": "**Core Lite:** بہترین جب تمام مقامات ایک POS استعمال کرتے ہیں\n\n**Core Pro اور انٹرپرائز:** جی ہاں۔ مختلف مقامات پر مختلف POS سسٹمز کی حمایت کی جاتی ہے، اور Sundae ڈیٹا کو سیب سے سیب کے موازنہ کے لیے معمول پر لاتا ہے۔\n\n**رپورٹ:** کوئی بھی POS کام کرتا ہے کیونکہ اپ لوڈ دستی ہیں۔"
+            "title": "کیا میں Sundae کو کئی POS سسٹمز کے ساتھ استعمال کر سکتا ہوں؟",
+            "content": "جی ہاں۔ Sundae مخلوط POS ماحول سے جڑتا ہے اور برابری کی بنیاد پر موازنے کے لیے ڈیٹا کو معیاری بناتا ہے۔ Core Performance اس کے اوپر برانڈز اور خطوں کے درمیان یکجا کرنا شامل کرتا ہے۔"
           },
           {
-            "title": "عمل درآمد میں کتنا وقت لگتا ہے؟",
-            "content": "**Report Lite:** اپ لوڈ کے بعد فوری\n**Report Plus / پرو:** 1-2 دن\n**Core Lite / پرو:** 1-2 ہفتے\n**انٹرپرائز:** دائرہ کار کے لحاظ سے 2-4 ہفتے"
+            "title": "نفاذ میں کتنا وقت لگتا ہے؟",
+            "content": "زیادہ تر گروپ 1-2 ہفتوں میں فعال ہو جاتے ہیں۔ بڑے کثیر برانڈ یا کثیر خطہ رول آؤٹ دائرہ کار کے مطابق 2-4 ہفتے لیتے ہیں۔\n\nنفاذ ایک بار کی فیس ہے، جو آپ کے انتخاب میں سب سے اعلیٰ درجے پر ایک ہی بار وصول کی جاتی ہے - مفت سیلف سروس سے لے کر متعین دائرہ کار والے Class D تعاون تک۔"
           },
           {
             "title": "اگر میں منسوخ کر دوں تو میرے ڈیٹا کا کیا ہوگا؟",
@@ -1755,27 +1833,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ماڈیولز کیا ہیں؟",
-            "content": "ماڈیولز Core کے لیے خصوصی ذہانت کے اضافے ہیں:\n\n1. **لیبر ذہانت** - شیڈولنگ، پیداوری، اور اوور ٹائم\n2. **انوینٹری ذہانت** - فضلہ، پار کی سطحیں، اور اسٹاک کی نظر\n3. **خریداری کی ذہانت** - فروشندہ موازنہ اور معاہدے کا فائدہ\n4. **مارکیٹنگ کی ذہانت** - ROI، CAC، اور چینل کی کارکردگی\n5. **ریزرویشن کی ذہانت** - عدم موجودگی کی پیش گوئی اور ٹیبل کی اصلاح\n\nماڈیولز کو Core کی ضرورت ہوتی ہے کیونکہ یہ براہ راست، جڑے ہوئے آپریٹنگ ڈیٹا پر انحصار کرتے ہیں."
+            "content": "گیارہ ڈومین ماڈیولز Core کے اندر تجزیاتی سطحیں ہیں۔ یہ پیکیج کے اجزا ہیں، الگ سے خریدے جانے والے اضافے نہیں:\n\n{{DOMAIN_MODULE_LINES}}\n\nانہیں Core درکار ہے کیونکہ یہ لائیو منسلک آپریشنل ڈیٹا پر انحصار کرتے ہیں۔"
           },
           {
             "title": "کیا مجھے ماڈیولز کی ضرورت ہے؟",
-            "content": "نہیں۔ ماڈیولز اختیاری ہیں۔ انہیں اس وقت شامل کریں جب آپ کسی مخصوص آپریٹنگ علاقے میں گہرائی سے کوریج چاہتے ہوں۔\n\n**راستہ:**\n• رپورٹ پر -> پہلے Core میں اپ گریڈ کریں\n• Core پر -> جب ضرورت واضح ہو تو ماڈیولز شامل کریں"
+            "content": "یہ اختیاری نہیں ہیں اور نہ ہی الگ خریداری ہیں۔ گیارہوں ڈومین ماڈیولز ہر Core پیکیج کے ساتھ آتے ہیں۔\n\nآپ پیکیج چنتے ہیں، اور پیکیج طے کرتا ہے کہ ہر ماڈیول کتنی گہرائی تک جائے۔"
           },
           {
-            "title": "کیا مجھے ماڈیولز کے لیے Core کی ضرورت ہے؟",
-            "content": "جی ہاں۔ ماڈیولز کو Core Lite، Core Pro، یا Enterprise کی ضرورت ہوتی ہے۔\n\nیہ لیبر، انویٹری، مارکیٹنگ، ریزرویشن، اور دیگر نظاموں سے براہ راست جڑنے پر انحصار کرتے ہیں جن سے رپورٹ براہ راست جڑتا نہیں ہے."
+            "title": "کیا میں ایک اکیلا ماڈیول خرید سکتا ہوں؟",
+            "content": "نہیں۔ گیارہ ڈومین ماڈیولز Core پیکیج کے اجزا ہیں، خودمختار مصنوعات نہیں، اور فی ماڈیول کوئی قیمت نہیں۔ سب حاصل کرنے کا راستہ پیکیج چننا ہے۔"
           },
           {
-            "title": "کیا میں متعدد ماڈیولز شامل کر سکتا ہوں؟",
-            "content": "جی ہاں۔ پانچ ماڈیولز میں سے کسی بھی ماڈیول کو ملا کر استعمال کریں۔ انہیں ایک ساتھ خریدنے کی کوئی ضرورت نہیں ہے."
+            "title": "کیا ماڈیولز ایک ایک کر کے شامل کیے جاتے ہیں؟",
+            "content": "نہیں۔ شامل کرنے کو کچھ ہے ہی نہیں۔ ہر Core پیکیج پہلے دن سے گیارہوں ڈومین ماڈیولز رکھتا ہے - آپ کا چنا پیکیج صرف یہ طے کرتا ہے کہ ہر ایک کتنی گہرائی تک جائے۔"
           },
           {
-            "title": "مجھے پہلے کون سا ماڈیول منتخب کرنا چاہیے؟",
-            "content": "سب سے بڑے آپریٹنگ درد کے نقطہ سے شروع کریں:\n\n• زیادہ لیبر لاگت -> لیبر ذہانت\n• فضلہ یا اسٹاک کے مسائل -> انوینٹری ذہانت\n• کمزور فروشندہ فائدہ -> خریداری کی ذہانت\n• غیر واضح مارکیٹنگ ROI -> مارکیٹنگ کی ذہانت\n• ریزرویشن کی عدم موجودگی -> ریزرویشن کی ذہانت"
+            "title": "مجھے پہلے کون سا ماڈیول دیکھنا چاہیے؟",
+            "content": "سب پہلے ہی فعال ہیں، تو سوال یہ ہے کہ دیکھنا کہاں سے شروع کریں، خریدنا کیا ہے یہ نہیں۔ سب سے بڑی آپریشنل تکلیف سے شروع کریں:\n\n• زیادہ محنت کی لاگت -> Labor Intelligence\n• ضیاع یا اسٹاک کے مسائل -> Inventory Intelligence\n• سپلائرز پر کمزور گرفت -> Purchasing Intelligence\n• غیر واضح مارکیٹنگ ROI -> Marketing Intelligence\n• بکنگ پر نہ آنا -> Reservations Intelligence"
           },
           {
-            "title": "ماڈیول کی قیمتیں کیسے کام کرتی ہیں؟",
-            "content": "ہر ماڈیول میں ایک تنظیمی لائسنس شامل ہوتا ہے جو پہلے 5 مقامات کا احاطہ کرتا ہے، اس حد سے آگے اضافی مقام کی قیمتیں۔\n\nمثال: 8 مقامات کے ساتھ لیبر ذہانت = 1 تنظیمی لائسنس + 3 اضافی مقامات۔\n\nصحیح منصوبے کی قیمت کے لیے pricing.sundae.io کا استعمال کریں."
+            "title": "ماڈیول کی قیمت کیسے لگتی ہے؟",
+            "content": "ماڈیول کی قیمت ہوتی ہی نہیں۔ ماڈیولز کی نہ اپنی الگ قیمت ہے نہ اپنا مقامات کا کوٹا - آپ پیکیج خریدتے ہیں۔\n\nCore پیکیج آپ کی پہلی برانچ سے لگتا ہے، پھر ہر اضافی برانچ پر ایک حاشیائی شرح سے، جو بڑھنے کے ساتھ کم ہوتی جاتی ہے۔ {{WORKED_EXAMPLE}}\n\nدرست حساب کے لیے pricing.sundae.io دیکھیں۔"
           }
         ]
       },
@@ -1800,8 +1878,8 @@ export const generatedLocalCopy = {
             "content": "جی ہاں۔ آپ مقابلتی ذہانت، ایونٹ ذہانت، یا مارکیٹ ذہانت کو انفرادی طور پر خرید سکتے ہیں، یا انہیں ملا سکتے ہیں۔"
           },
           {
-            "title": "کیا Watchtower کو Core کی ضرورت ہے؟",
-            "content": "جی ہاں۔ Watchtower بہترین کام کرتا ہے جب اس کے مارکیٹ کے اشارے براہ راست زندہ آپریٹنگ ڈیٹا پر لگائے جاتے ہیں، جو Core فراہم کرتا ہے۔\n\nاگر آپ کو صرف اپ لوڈ کردہ تاریخی POS تجزیہ کی ضرورت ہے، تو Report کافی ہے۔ اگر آپ روزمرہ کی کارروائیوں کے ساتھ مارکیٹ کے سیاق و سباق کو چاہتے ہیں، تو Core پر منتقل ہوں۔"
+            "title": "کیا Watchtower کے لیے Core ضروری ہے؟",
+            "content": "جی ہاں۔ Watchtower اُس وقت بہترین کام کرتا ہے جب اس کے مارکیٹ سگنلز لائیو آپریشنل ڈیٹا پر رکھے جائیں، اور یہی Core پیکیج فراہم کرتا ہے۔ اسے الگ بیچنے کے بجائے آپ کے پیکیج کے ساتھ ہی طے اور پیش کیا جاتا ہے۔"
           }
         ]
       },
@@ -1810,8 +1888,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Sundae کی قیمت کیا ہے؟",
-            "content": "قیمت درج ذیل پر منحصر ہے:\n• رپورٹ بمقابلہ کور\n• مقامات کی تعداد\n• منتخب کردہ ماڈیولز\n• آیا Watchtower شامل ہے یا نہیں\n\n**Report Lite:** ہمیشہ کے لیے مفت\n\nصحیح قیمت کے لیے، pricing.sundae.io کا استعمال کریں."
+            "title": "Sundae کی قیمت کتنی ہے؟",
+            "content": "قیمت اِن پر منحصر ہے:\n• کون سا Core پیکیج\n• برانچوں کی تعداد\n• آیا Foresight & Action، Crew یا کانسیپٹ SKUs شامل ہیں\n\nCore پیکیجز پہلی برانچ کے اینکر سے شروع ہوتے ہیں، پھر ہر اضافی برانچ پر ایک حاشیائی شرح لگتی ہے جو بڑھنے کے ساتھ کم ہوتی جاتی ہے۔ Core Foundation آپ کی پہلی برانچ کے لیے {{FOUNDATION_FIRST_UNIT}} سے شروع ہوتا ہے۔\n\nدرست قیمت کے لیے pricing.sundae.io دیکھیں۔"
           },
           {
             "title": "کیا سیٹ اپ کی فیس ہے؟",
@@ -1837,19 +1915,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "انٹیلیجنس کریڈٹس کیسے کام کرتے ہیں؟",
-            "content": "انٹیلیجنس کریڈٹس سوالات، تجزیات، اور سفارشات کو طاقت دیتے ہیں۔\n\n**Report Lite:** 250 بنیادی + 80 فی مقام\n**Report Plus:** 1,200 بنیادی + 300 فی مقام\n**Report Pro:** 3,500 بنیادی + 800 فی مقام\n**Core Lite:** 8,000 بنیادی + 1,600 فی مقام\n**Core Pro:** 14,000 بنیادی + 2,800 فی مقام\n**انٹرپرائز:** 50,000+ بنیادی + حسب ضرورت مختص"
+            "content": "انٹیلیجنس کریڈٹس سوالات، تجزیوں اور سفارشات کو چلاتے ہیں۔ ہر Core پیکیج کے ساتھ ماہانہ والٹ آتا ہے:\n\n{{AI_WALLET_LINES}}\n\nختم ہو جائے تو کسی بھی پیکیج پر ٹاپ اَپ کیا جا سکتا ہے۔"
           },
           {
-            "title": "مجھے کتنا تاریخی رسائی ملتا ہے؟",
-            "content": "**Report Lite:** 90 دن\n**Report Plus:** 1 سال\n**Report Pro:** 2 سال\n**Core Lite:** 2 سال\n**Core Pro:** 3 سال\n**انٹرپرائز:** 5+ سال یا حسب ضرورت برقرار رکھنا"
+            "title": "مجھے کتنا پرانا ڈیٹا ملتا ہے؟",
+            "content": "ہر Core پیکیج آپ کی منسلک مکمل تاریخ کو کئی برس تک محفوظ رکھتا ہے۔ Enterprise معاہدے اسے اپنی شرائط کے ساتھ مزید بڑھا سکتے ہیں۔"
           },
           {
             "title": "ڈیٹا کتنی بار تازہ ہوتا ہے؟",
-            "content": "**Report Lite:** دستی اپ لوڈ\n**Report Plus:** دستی یا طلب پر سمارٹ پارس کیا گیا\n**Report Pro:** روزانہ خودکار تازہ کاری\n**Core Lite:** ہر 4 گھنٹے\n**Core Pro:** ہر 2 گھنٹے\n**انٹرپرائز:** حسب ضرورت رفتار، بشمول جب دائرہ کار میں حقیقی وقت"
+            "content": "Core دن کے اختتام کے بجائے شفٹ کے دوران تازہ ہوتا ہے، تاکہ Pulse اور ڈومین ماڈیولز اُس وقت حرکت کریں جب آپ اب بھی کچھ کر سکتے ہیں۔ درست وقفہ اس پر منحصر ہے کہ آپ کے منسلک نظام کیا فراہم کرتے ہیں۔"
           },
           {
-            "title": "کیا مجھے حسب ضرورت ڈیش بورڈ ملتے ہیں؟",
-            "content": "**رپورٹ کی اقسام:** پہلے سے بنے ہوئے ڈیش بورڈ\n**Core Lite:** 30 تک حسب ضرورت ڈیش بورڈ\n**Core Pro:** 75 تک حسب ضرورت ڈیش بورڈ\n**انٹرپرائز:** لامحدود حسب ضرورت ڈیش بورڈ."
+            "title": "کیا مجھے کسٹم ڈیش بورڈز ملتے ہیں؟",
+            "content": "جی ہاں۔ ہر Core پیکیج میں، ہر ڈومین ماڈیول کے ساتھ آنے والے تیار ویوز کے علاوہ، کسٹم ڈیش بورڈز بھی شامل ہیں۔"
           }
         ]
       },
@@ -1858,12 +1936,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "مجھے کس قسم کی مدد ملے گی؟",
-            "content": "**Report Lite:** ای میل سپورٹ\n**Report Plus:** ای میل اور چیٹ\n**Report Pro:** ترجیحی سپورٹ\n**Core Lite:** ای میل، چیٹ، اور فون\n**Core Pro:** تیز ترجیحی فون سپورٹ\n**Enterprise:** 24/7 سپورٹ کے ساتھ ایک مخصوص کسٹمر کامیابی کا رہنما"
+            "title": "مجھے کیا سپورٹ ملتی ہے؟",
+            "content": "ہر Core پیکیج میں ای میل، چیٹ اور فون سپورٹ شامل ہے۔ Enterprise معاہدے 24/7 کوریج، معاہدے کے مطابق جوابی اوقات اور ایک مخصوص کسٹمر سکسیس لیڈ کا اضافہ کرتے ہیں۔"
           },
           {
             "title": "کیا آپ تربیت فراہم کرتے ہیں؟",
-            "content": "جی ہاں۔\n\n**Report:** خود سروس آن بورڈنگ اور دستاویزات\n**Core Lite:** رہنمائی کردہ تربیتی سیشن\n**Core Pro:** حسب ضرورت تربیتی پروگرام\n**Enterprise:** منظم آن بورڈنگ اور فعال کرنے کی تربیت"
+            "content": "جی ہاں۔ تربیت نفاذ کا حصہ ہے، جو آپ کے انتخاب میں سب سے اعلیٰ درجے پر ایک ہی بار وصول کی جاتی ہے - مفت سیلف سروس دستاویزات، اور اعلیٰ درجوں میں رہنمائی والے سیشن اور منظم استعداد سازی۔"
           },
           {
             "title": "آپ کس وقت کے زون کی حمایت کرتے ہیں؟",
@@ -1912,16 +1990,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Sundae، POS رپورٹنگ سے کس طرح مختلف ہے؟",
-            "content": "**POS رپورٹس:** ایک نظام، محدود سیاق و سباق، دستی تشریح\n\n**Sundae Report:** POS تجزیہ کے ساتھ بینچ مارک، سفارشات، اور پیٹرن کی شناخت\n\n**Sundae Core:** رپورٹ میں سب کچھ، ساتھ ہی مزدوری، انوینٹری، مارکیٹنگ، ریزرویشنز، اور دیگر نظاموں سے متحدہ ڈیٹا جس کی تازہ کاری تیز ہے۔"
+            "title": "Sundae، POS رپورٹنگ سے کیسے مختلف ہے؟",
+            "content": "**POS رپورٹس:** ایک نظام، محدود سیاق، ہاتھ سے تشریح\n\n**Sundae Core:** POS تجزیے کے ساتھ بینچ مارک، سفارشات اور پیٹرن کی شناخت - محنت، لاگت اور مہمان کو ایک ہی آپریشنل تصویر میں\n\n**Foresight & Action:** اُس کے اوپر آگے کی نظر - پیش گوئیاں، منظرنامے، اور وہ پرت جو اُن کے ظاہر کردہ پر عمل کرتی ہے"
           },
           {
             "title": "Sundae، Excel سے کس طرح مختلف ہے؟",
             "content": "**Excel:** دستی اندراج، جامد تجزیہ، کوئی مشترکہ ذہانت کی تہہ نہیں\n\n**Sundae:** خودکار انجماد، منظم بینچ مارکنگ، لائیو ڈیش بورڈز، اور سفارشات جو ہر ہفتے دستی تجزیے کے وقت کو کم کرتی ہیں۔"
           },
           {
-            "title": "میں وراثتی تجزیاتی ٹولز کے مقابلے میں کتنا بچت کر سکتا ہوں؟",
-            "content": "آپریٹرز اکثر رپورٹ کرتے ہیں کہ کل لاگت نمایاں طور پر کم ہے کیونکہ Sundae ماڈیول اور مقام کی فیسوں کے بجائے سطح کی بنیاد پر قیمتوں کا استعمال کرتا ہے۔ درست بچت آپ کے موجودہ ٹول مکس اور آپریشن کے دائرے پر منحصر ہے۔"
+            "title": "روایتی اینالیٹکس ٹولز کے مقابلے میں کتنی بچت ہو گی؟",
+            "content": "آپریٹرز اکثر مجموعی لاگت واضح طور پر کم ہونے کی اطلاع دیتے ہیں، کیونکہ Core پیکیج میں گیارہوں ڈومین ماڈیولز پہلے سے شامل ہیں، بجائے اس کے کہ فی ماڈیول اور فی برانچ فیس جمع ہوتی جائے۔ اصل فرق آپ کے موجودہ ٹول مکس اور آپریشن کے حجم پر منحصر ہے۔"
           }
         ]
       },
@@ -1930,8 +2008,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "میرے پاس صرف ایک جگہ ہے۔ کیا Sundae ابھی بھی موزوں ہے؟",
-            "content": "جی ہاں۔ مفت بینچ مارکنگ کے لیے Report Lite سے شروع کریں، پھر اگر آپ کی کارروائی کو مزید رفتار اور ذہانت کی ضرورت ہو تو گہرے Report tiers یا Core میں منتقل ہوں۔"
+            "title": "میرے پاس صرف ایک برانچ ہے۔ کیا Sundae پھر بھی موزوں ہے؟",
+            "content": "جی ہاں۔ اکیلی برانچ صرف پیکیج اینکر اٹھاتی ہے، اس سے زیادہ کچھ نہیں، اور اسے وہی گیارہ ماڈیولز ملتے ہیں جو پچاس برانچوں والے گروپ کو ملتے ہیں۔ برانچ بینڈز تبھی اہم ہونے لگتے ہیں جب آپ مزید مقامات شامل کریں۔"
           },
           {
             "title": "میں ایک فرنچائز پلیٹ فارم ہوں۔ کیا Sundae مدد کر سکتا ہے؟",
@@ -1946,6 +2024,32 @@ export const generatedLocalCopy = {
             "content": "جی ہاں۔ Watchtower اور مارکیٹ کی ذہانت تجارتی علاقے کے تجزیے، سچوریشن کا جائزہ، حریف کی حرکت کی نگرانی، اور کم خدمات والے علاقوں کی ترجیح میں مدد کر سکتی ہیں۔"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew کیا ہے؟",
+            "content": "Sundae Crew وہ آپریشنل سوٹ ہے جو آپ کے عملے کو چلاتا ہے: شیڈولنگ، وقت اور حاضری، پے رول کی تیاری، HR ریکارڈز اور افرادی قوت کا تجزیہ۔ ہر منصوبہ بند شفٹ، ہر درج کیا گیا گھنٹہ اور ہر فائل کیا گیا ریکارڈ ایک اشارہ بن جاتا ہے جو آپ کی decision intelligence میں واپس بہتا ہے - تاکہ آپریشن اور بصیرت ایک ہی نظام کا اشتراک کریں۔"
+          },
+          {
+            "title": "Crew کیا کر سکتا ہے؟",
+            "content": "**پانچ منسلک ماڈیولز:**\n\n1. **Scheduling** - اہلیت کی جانچ اور ایک AI بلڈر کے ساتھ طلب پر مبنی شفٹ منصوبہ بندی\n2. **وقت اور حاضری** - کلاک اِن/آؤٹ، جیو فینسنگ، وقفے کی تصدیق اور ٹائم شیٹ کی منظوری\n3. **Payroll** - کثیر خطہ پے رول کی تیاری اور قانونی برآمدات (تیاری اور برآمد، کوئی ٹیکس انجن نہیں)\n4. **لوگ اور HR** - بھرتی سے ریٹائرمنٹ تک ملازمین کے ریکارڈز اور دستاویزات\n5. **People Intelligence** - افرادی قوت کا تجزیہ، عدم حاضری کا خطرہ اور مزدوری لاگت کے رجحانات"
+          },
+          {
+            "title": "Crew پے رول کن خطوں کی حمایت کرتا ہے؟",
+            "content": "Crew کی پے رول کی تیاری اور قانونی برآمدات فی الحال **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait)، **ریاستہائے متحدہ** (وفاقی اور تمام ریاستیں)، **کینیڈا**، **برطانیہ** اور **یورپی یونین** (تمام 27 رکن ممالک) کا احاطہ کرتی ہیں۔ لاطینی امریکہ اور APAC روڈ میپ پر ہیں۔ Crew پے رول تیار اور برآمد کرتا ہے - یہ کوئی ٹیکس انجن نہیں ہے، اور قانونی قواعد ورژن شدہ ملکی پیکجز سے آتے ہیں۔"
+          },
+          {
+            "title": "کیا Crew استعمال کرنے کے لیے مجھے Core کی ضرورت ہے؟",
+            "content": "نہیں۔ Crew آپ کے آپریشنل نظام کے طور پر تنہا چل سکتا ہے، یا Core کے ساتھ تاکہ اس کا اشارہ Labor Intelligence، Pulse اور Foresight کو پرورش دے۔ آپ اپنا HR یا پے رول فراہم کنندہ بھی لا سکتے ہیں - Crew ڈیزائن کے لحاظ سے اختیاری ہے۔"
+          },
+          {
+            "title": "Crew کی قیمت کتنی ہے؟",
+            "content": "**Crew SKUs (یکساں ماہانہ، فی برانچ کوئی چارج نہیں):**\n\n{{CREW_SKU_LINES}}\n\n**بنڈلز (ہر ایک کی اپنی خالص قیمت ہے - یہ اس میں شامل SKUs پر رعایت نہیں):**\n\n{{CREW_BUNDLE_LINES}}\n\nدرست حساب کے لیے pricing.sundae.io دیکھیں۔"
+          }
+        ]
       }
     ],
     "it": [
@@ -1958,20 +2062,20 @@ export const generatedLocalCopy = {
             "content": "Sundae è una piattaforma di intelligenza decisionale per ristoranti e team dell'ospitalità. Raccoglie dati operativi sparsi in un unico posto, così i leader possono vedere cosa è successo, cosa sta cambiando e dove agire successivamente."
           },
           {
-            "title": "Come posso iniziare?",
-            "content": "Hai tre opzioni:\n\n1. **Inizia Gratis** - Registrati per Report Lite (gratis per sempre) e carica i tuoi dati operativi per vedere il benchmarking istantaneo. Nessuna carta di credito richiesta.\n\n2. **Vedi il Tuo Prezzo** - Usa il nostro calcolatore di prezzi interattivo su pricing.sundae.io per vedere il prezzo esatto per la tua operazione.\n\n3. **Prenota una Demo** - Pianifica un walkthrough di 15 minuti con il nostro team per vedere Sundae in azione con i tuoi dati."
+            "title": "Come inizio?",
+            "content": "Hai due possibilità:\n\n1. **Vedi il tuo prezzo** - Usa il calcolatore interattivo su pricing.sundae.io per dimensionare un pacchetto Core sul tuo numero di sedi.\n\n2. **Prenota una demo** - Fissa una presentazione di 15 minuti con il nostro team e guarda Sundae girare sui tuoi dati."
           },
           {
-            "title": "Esiste davvero un piano gratuito?",
-            "content": "Sì. Report Lite è gratuito per sempre. Carica i tuoi dati POS e ottieni un benchmarking istantaneo rispetto a 5 metriche chiave. Si applica una politica di uso equo per un utilizzo operativo ragionevole."
+            "title": "Esiste un piano gratuito?",
+            "content": "No. Ogni pacchetto Sundae è a pagamento, a partire dalla prima sede. Quello che offriamo è una sessione di lavoro sui tuoi numeri prima di impegnarti, così vedi il ritorno prima di firmare qualsiasi cosa."
           },
           {
-            "title": "Qual è la differenza tra Report e Core?",
-            "content": "**Report Tier** = Analisi storica (dati POS)\n• Carica i dati POS quotidianamente, settimanalmente o mensilmente\n• Analizza cosa è successo\n• Confronta con i pari\n• Ideale per una singola posizione o prova di concetto\n\n**Core Tier** = Operazioni in tempo reale (POS + tutti i sistemi)\n• Cicli di aggiornamento di 2-4 ore\n• Integra POS + lavoro + inventario + marketing + prenotazioni\n• Vedi cosa sta succedendo ora\n• Ricevi avvisi predittivi\n• Ideale per operatori multi-locazione\n\nDifferenza chiave: Report = solo POS. Core = POS più il resto del tuo stack."
+            "title": "Qual è la differenza tra i pacchetti Core?",
+            "content": "**Core Foundation** - la base operativa: un unico substrato decisionale su POS, personale, costi e operatività.\n\n**Core Margin** - profondità su costi e perdite: consumo teorico e reale, sprechi, ammanchi, storni e omaggi, contribuzione per articolo.\n\n**Core Growth** - profondità sulla domanda: coorti di ospiti e valore nel tempo, attribuzione delle promozioni per canale, margine delivery al netto delle commissioni.\n\n**Core Performance** - consolidamento tra insegne e aree, correlazione tra moduli, accessi governati con tracciabilità.\n\nTutti e quattro portano gli stessi undici moduli. Ciò che cambia è la profondità."
           },
           {
-            "title": "Ho bisogno di un contratto a lungo termine?",
-            "content": "No. I livelli Report e Core sono mensili. Annulla in qualsiasi momento senza penali. Le implementazioni aziendali utilizzano tipicamente contratti annuali con termini personalizzati."
+            "title": "Serve un contratto a lungo termine?",
+            "content": "No. Ogni pacchetto è disponibile mese per mese e puoi disdire senza penali. Gli impegni annuali e biennali esistono perché costano meno - sconti del 10% e del 15% - non perché siano obbligatori."
           }
         ]
       },
@@ -1981,19 +2085,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quali prodotti offre Sundae?",
-            "content": "**Tre prodotti principali:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisi storica e benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operazioni in tempo reale e intelligenza predittiva\n3. **Watchtower** (Competitivo / Evento / Mercato) - Intelligenza di mercato esterna\n\n**In aggiunta:**\n\n4. **Moduli** - Intelligenza su Lavoro, Inventario, Acquisti, Marketing e Prenotazioni."
+            "content": "**Quattro prodotti principali:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - il substrato decisionale, che porta tutti e undici i moduli\n2. **Foresight & Action** - previsioni, modellazione di scenari e il livello di azione con approvazione umana\n3. **Sundae Crew** - il substrato delle persone: turni, presenze, preparazione paghe, HR e people intelligence\n4. **Watchtower** - intelligence di mercato esterna, dimensionata insieme al tuo pacchetto Core\n\n**In più:** SKU di concept per i modelli operativi del tuo gruppo - franchising, F&B alberghiero, cucina virtuale, catering, produzione, laboratorio in affitto."
           },
           {
-            "title": "Quale piano dovrei scegliere?",
-            "content": "**Inizia con Report Lite se:**\n• Stai testando Sundae\n• Gestisci 1-2 sedi\n• La reportistica giornaliera o settimanale è sufficiente\n\n**Aggiorna a Report Plus o Pro se:**\n• Hai bisogno di un'intelligenza storica più approfondita\n• La reportistica giornaliera è ancora sufficiente\n\n**Scegli Core Lite o Pro se:**\n• Gestisci 10+ sedi\n• Hai bisogno di velocità operativa\n• Il monitoraggio del budget in tempo reale è importante\n\n**Scegli Enterprise se:**\n• Hai 100+ sedi\n• Hai bisogno di capacità SSO o white-label\n• Richiedi supporto dedicato e termini personalizzati"
+            "title": "Quale pacchetto Core scegliere?",
+            "content": "**Core Foundation se:**\n• Stai uscendo da fogli di calcolo e cruscotti scollegati\n• Vuoi un'unica immagine operativa prima di andare più a fondo\n\n**Core Margin se:**\n• Costo materie, sprechi, storni od omaggi si stanno mangiando il margine\n• Ti serve la contribuzione per articolo, non solo il mix di vendita\n\n**Core Growth se:**\n• Ricavo ricorrente e mix di canali sono il vincolo\n• Ti servono coorti di ospiti, attribuzione delle promozioni e margine delivery\n\n**Core Performance se:**\n• Gestisci più insegne o più mercati\n• Ti servono consolidamento, correlazione tra moduli e accessi governati"
           },
           {
             "title": "Posso aggiornare o downgrade in seguito?",
             "content": "Sì. Puoi passare tra i piani in qualsiasi momento. I dati storici vengono preservati e non ci sono penalità per cambiare piano."
           },
           {
-            "title": "Cos'è il Modello di Intelligenza 4D?",
-            "content": "Il framework di Sundae per l'intelligenza decisionale:\n\n**1D: Cosa è successo** - Dati su vendite, lavoro e costi\n**2D: Pianificato vs Reale** - Variazione di budget e previsione\n**3D: Contesto di Mercato** - Benchmark, pari e concorrenti\n**4D: Cosa c'è dopo** - Previsioni e raccomandazioni\n\n**Report:** Accesso completo a 1D e 2D più 3D e 4D limitati\n**Core:** Accesso completo a tutte e 4 le dimensioni."
+            "title": "Che cos'è il modello 4D Intelligence?",
+            "content": "Il quadro di Sundae per l'intelligenza decisionale:\n\n**1D: cosa è successo** - la verità su vendite, personale e costi\n**2D: piano contro consuntivo** - scostamento da budget e previsione\n**3D: contesto di mercato** - benchmark, pari e concorrenti\n**4D: cosa arriva** - previsioni e raccomandazioni\n\nOgni pacchetto Core copre tutte e quattro. Il pacchetto stabilisce quanto va a fondo ciascuna dimensione."
           }
         ]
       },
@@ -2002,12 +2106,12 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Quali dati sono necessari per Sundae?",
-            "content": "**Minimo per Report Lite:**\n• Dati di vendita POS (esportazione CSV)\n\n**Per Core:**\n• Sistema POS tramite API\n• Sistema di lavoro o forza lavoro\n• Sistema di inventario\n• Piattaforme di marketing\n• Sistema di prenotazioni\n\nReport è costruito attorno ai caricamenti POS. Core è dove colleghi l'intero stack operativo."
+            "title": "Di quali dati ha bisogno Sundae?",
+            "content": "**Per ogni pacchetto Core:**\n• Sistema POS via API\n• Sistema del personale o dei turni\n• Sistema di magazzino\n• Piattaforme di marketing\n• Sistema di prenotazioni\n\nIl solo POS basta per ottenere valore dal primo giorno. Il resto approfondisce il quadro man mano che lo colleghi."
           },
           {
-            "title": "Come posso inserire i miei dati in Sundae?",
-            "content": "**Report Lite:** Caricamento manuale CSV\n\n**Report Plus:** Carica PDF, file Excel o screenshot. Sundae estrae i dati e tu li rivedi prima dell'elaborazione.\n\n**Report Pro e Core:** Ingestione automatizzata tramite connessioni API"
+            "title": "Come arrivano i miei dati in Sundae?",
+            "content": "Tramite connessioni API al tuo POS e al resto dello stack operativo. Dove un sistema non ha API, Sundae accetta caricamenti di file strutturati e letti in modo intelligente - PDF, Excel, screenshot - che verifichi prima dell'elaborazione."
           },
           {
             "title": "Con quali sistemi POS vi integrate?",
@@ -2015,11 +2119,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Posso usare Sundae con più sistemi POS?",
-            "content": "**Core Lite:** Migliore quando tutte le sedi utilizzano un solo POS\n\n**Core Pro ed Enterprise:** Sì. Sono supportati diversi sistemi POS tra le sedi, e Sundae normalizza i dati per un confronto diretto.\n\n**Report:** Qualsiasi POS funziona perché i caricamenti sono manuali."
+            "content": "Sì. Sundae si collega a parchi POS eterogenei e normalizza i dati per un confronto omogeneo. Core Performance aggiunge sopra il consolidamento tra insegne e aree."
           },
           {
-            "title": "Quanto tempo richiede l'implementazione?",
-            "content": "**Report Lite:** Immediato dopo il caricamento\n**Report Plus / Pro:** 1-2 giorni\n**Core Lite / Pro:** 1-2 settimane\n**Enterprise:** 2-4 settimane a seconda dell'ambito"
+            "title": "Quanto dura l'implementazione?",
+            "content": "La maggior parte dei gruppi è operativa in 1-2 settimane. I roll-out più ampi, multi-insegna o multi-area, richiedono 2-4 settimane a seconda del perimetro.\n\nL'implementazione è un costo una tantum, addebitato una sola volta sulla classe più alta della tua selezione - dal self-service gratuito fino a un intervento Class D definito."
           },
           {
             "title": "Cosa succede ai miei dati se annullo?",
@@ -2032,28 +2136,28 @@ export const generatedLocalCopy = {
         "icon": "network",
         "faqs": [
           {
-            "title": "Cosa sono i moduli?",
-            "content": "I moduli sono componenti di intelligenza specializzati per Core:\n\n1. **Intelligenza del Lavoro** - Pianificazione, produttività e straordinari\n2. **Intelligenza dell'Inventario** - Sprechi, livelli minimi e visibilità delle scorte\n3. **Intelligenza degli Acquisti** - Confronto fornitori e leverage contrattuale\n4. **Intelligenza di Marketing** - ROI, CAC e performance dei canali\n5. **Intelligenza delle Prenotazioni** - Previsione dei no-show e ottimizzazione dei tavoli\n\nI moduli richiedono Core perché dipendono da dati operativi connessi in tempo reale."
+            "title": "Che cosa sono i moduli?",
+            "content": "Gli undici moduli sono le superfici analitiche dentro Core. Sono componenti del pacchetto, non aggiunte comprate a parte:\n\n{{DOMAIN_MODULE_LINES}}\n\nRichiedono Core perché dipendono da dati operativi collegati in tempo reale."
           },
           {
-            "title": "Ho bisogno dei moduli?",
-            "content": "No. I moduli sono facoltativi. Aggiungili quando desideri una copertura più approfondita in un'area operativa specifica.\n\n**Percorso:**\n• Su Report -> aggiorna prima a Core\n• Su Core -> aggiungi moduli quando la necessità è chiara"
+            "title": "Mi servono i moduli?",
+            "content": "Non sono opzionali e non sono acquisti separati. Tutti e undici i moduli arrivano con ogni pacchetto Core.\n\nQuello che scegli è il pacchetto, e il pacchetto stabilisce quanto va a fondo ciascun modulo."
           },
           {
-            "title": "Ho bisogno di Core per i moduli?",
-            "content": "Sì. I moduli richiedono Core Lite, Core Pro o Enterprise.\n\nSi basano su connessioni in tempo reale a lavoro, inventario, marketing, prenotazioni e altri sistemi a cui Report non si collega direttamente."
+            "title": "Posso comprare un singolo modulo?",
+            "content": "No. Gli undici moduli sono componenti di un pacchetto Core, non prodotti a sé, e non esiste un prezzo per modulo. Scegliere il pacchetto è il modo di averli tutti."
           },
           {
-            "title": "Posso aggiungere più moduli?",
-            "content": "Sì. Combina e abbina uno qualsiasi dei cinque moduli. Non è necessario acquistarli tutti insieme."
+            "title": "Devo aggiungere i moduli uno alla volta?",
+            "content": "No. Non c'è nulla da aggiungere. Ogni pacchetto Core porta tutti e undici i moduli dal primo giorno: il pacchetto scelto stabilisce solo quanto va a fondo ciascuno."
           },
           {
-            "title": "Quale modulo dovrei scegliere per primo?",
-            "content": "Inizia con il punto dolente operativo più grande:\n\n• Alto costo del lavoro -> Intelligenza del Lavoro\n• Problemi di spreco o scorte -> Intelligenza dell'Inventario\n• Debole leverage dei fornitori -> Intelligenza degli Acquisti\n• ROI di marketing poco chiaro -> Intelligenza di Marketing\n• No-show nelle prenotazioni -> Intelligenza delle Prenotazioni"
+            "title": "Da quale modulo conviene partire?",
+            "content": "Sono già tutti attivi, quindi la domanda è da dove iniziare a guardare, non cosa comprare. Parti dal problema operativo più grosso:\n\n• Costo del personale alto -> Labor Intelligence\n• Sprechi o problemi di magazzino -> Inventory Intelligence\n• Poca leva sui fornitori -> Purchasing Intelligence\n• ROI marketing poco chiaro -> Marketing Intelligence\n• No-show sulle prenotazioni -> Reservations Intelligence"
           },
           {
-            "title": "Come funziona la tariffazione dei moduli?",
-            "content": "Ogni modulo include una licenza per l'organizzazione che copre le prime 5 sedi, più la tariffazione per sedi aggiuntive oltre quella soglia.\n\nEsempio: 8 sedi con Intelligenza del Lavoro = 1 licenza org + 3 sedi aggiuntive.\n\nUsa pricing.sundae.io per i calcoli esatti del piano."
+            "title": "Come funziona il prezzo dei moduli?",
+            "content": "Non esiste un prezzo dei moduli. I moduli non hanno né un prezzo autonomo né una quota di sedi propria: quello che compri è il pacchetto.\n\nUn pacchetto Core si paga dalla prima sede, poi a una tariffa marginale per ogni sede aggiuntiva, che scende man mano che cresci. {{WORKED_EXAMPLE}}\n\nUsa pricing.sundae.io per il calcolo esatto."
           }
         ]
       },
@@ -2079,7 +2183,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Watchtower richiede Core?",
-            "content": "Sì. Watchtower funziona meglio quando i suoi segnali di mercato sono sovrapposti direttamente ai dati operativi in tempo reale, che è ciò che fornisce Core.\n\nSe hai solo bisogno di analisi storica del POS caricata, Report è sufficiente. Se desideri un contesto di mercato legato alle operazioni quotidiane, passa a Core."
+            "content": "Sì. Watchtower dà il meglio quando i suoi segnali di mercato poggiano su dati operativi in tempo reale, che è ciò che fornisce un pacchetto Core. Viene dimensionato e quotato insieme al tuo pacchetto anziché venduto da solo."
           }
         ]
       },
@@ -2089,7 +2193,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Quanto costa Sundae?",
-            "content": "I prezzi dipendono da:\n• Report vs Core\n• Numero di sedi\n• Moduli selezionati\n• Se Watchtower è incluso\n\n**Report Lite:** Gratis per sempre\n\nPer prezzi precisi, utilizza pricing.sundae.io."
+            "content": "Il prezzo dipende da:\n• Quale pacchetto Core\n• Numero di sedi\n• Se sono inclusi Foresight & Action, Crew o le SKU di concept\n\nI pacchetti Core partono da un'ancora sulla prima sede, più una tariffa marginale per ogni sede aggiuntiva che scende man mano che cresci. Core Foundation parte da {{FOUNDATION_FIRST_UNIT}} per la prima sede.\n\nPer un prezzo preciso usa pricing.sundae.io."
           },
           {
             "title": "Ci sono costi di configurazione?",
@@ -2114,20 +2218,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Come funzionano i crediti di intelligenza?",
-            "content": "I crediti di intelligenza alimentano domande, analisi e raccomandazioni.\n\n**Report Lite:** 250 base + 80 per posizione\n**Report Plus:** 1.200 base + 300 per posizione\n**Report Pro:** 3.500 base + 800 per posizione\n**Core Lite:** 8.000 base + 1.600 per posizione\n**Core Pro:** 14.000 base + 2.800 per posizione\n**Enterprise:** 50.000+ base + allocazione personalizzata"
+            "title": "Come funzionano i crediti di intelligence?",
+            "content": "I crediti di intelligence alimentano domande, analisi e raccomandazioni. Ogni pacchetto Core porta un portafoglio mensile:\n\n{{AI_WALLET_LINES}}\n\nSe lo esaurisci, puoi ricaricare su qualsiasi pacchetto."
           },
           {
-            "title": "Quanto accesso storico ottengo?",
-            "content": "**Report Lite:** 90 giorni\n**Report Plus:** 1 anno\n**Report Pro:** 2 anni\n**Core Lite:** 2 anni\n**Core Pro:** 3 anni\n**Enterprise:** 5+ anni o retention personalizzata"
+            "title": "Quanto storico ho a disposizione?",
+            "content": "Ogni pacchetto Core conserva tutto il tuo storico collegato con ritenzione pluriennale. Gli accordi Enterprise possono estenderla con termini di conservazione su misura."
           },
           {
-            "title": "Con quale frequenza vengono aggiornati i dati?",
-            "content": "**Report Lite:** Caricamenti manuali\n**Report Plus:** Manuale o smart-parsed su richiesta\n**Report Pro:** Aggiornamento automatico giornaliero\n**Core Lite:** Ogni 4 ore\n**Core Pro:** Ogni 2 ore\n**Enterprise:** Cadenza personalizzata, inclusi aggiornamenti in tempo reale quando previsto"
+            "title": "Ogni quanto si aggiornano i dati?",
+            "content": "Core si aggiorna durante il turno anziché a fine giornata, così Pulse e i moduli si muovono mentre puoi ancora intervenire. La cadenza esatta dipende da ciò che espongono i sistemi collegati."
           },
           {
-            "title": "Ottengo dashboard personalizzate?",
-            "content": "**Livelli di Report:** Dashboard predefinite\n**Core Lite:** Fino a 30 dashboard personalizzate\n**Core Pro:** Fino a 75 dashboard personalizzate\n**Enterprise:** Dashboard personalizzate illimitate"
+            "title": "Ho dashboard personalizzate?",
+            "content": "Sì. Ogni pacchetto Core include dashboard personalizzate oltre alle viste già pronte che arrivano con ciascun modulo."
           }
         ]
       },
@@ -2136,12 +2240,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Quale supporto ricevo?",
-            "content": "**Report Lite:** Supporto via email\n**Report Plus:** Supporto via email e chat\n**Report Pro:** Supporto prioritario\n**Core Lite:** Supporto via email, chat e telefono\n**Core Pro:** Supporto telefonico prioritario più veloce\n**Enterprise:** Supporto 24/7 più un responsabile del successo del cliente dedicato"
+            "title": "Che supporto ho?",
+            "content": "Ogni pacchetto Core include supporto via email, chat e telefono. Gli accordi Enterprise aggiungono copertura 24/7, tempi di risposta contrattuali e un referente customer success dedicato."
           },
           {
-            "title": "Fornite formazione?",
-            "content": "Sì.\n\n**Report:** Onboarding e documentazione self-service\n**Core Lite:** Sessioni di formazione guidate\n**Core Pro:** Programma di formazione personalizzato\n**Enterprise:** Onboarding e abilitazione strutturati"
+            "title": "Offrite formazione?",
+            "content": "Sì. La formazione fa parte dell'implementazione, addebitata una sola volta sulla classe più alta della tua selezione: documentazione in self-service gratuita, sessioni guidate e abilitazione strutturata nelle classi superiori."
           },
           {
             "title": "Quali fusi orari supportate?",
@@ -2190,16 +2294,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "In che modo Sundae è diverso dai report POS?",
-            "content": "**Report POS:** Un sistema, contesto limitato, interpretazione manuale\n\n**Sundae Report:** Analisi POS più benchmark, raccomandazioni e rilevamento di modelli\n\n**Sundae Core:** Tutto in Report più dati unificati da lavoro, inventario, marketing, prenotazioni e altri sistemi con aggiornamenti più rapidi"
+            "title": "In cosa Sundae è diverso dai report del POS?",
+            "content": "**Report POS:** un solo sistema, contesto limitato, interpretazione manuale\n\n**Sundae Core:** analisi POS più benchmark, raccomandazioni e riconoscimento di pattern, attraverso personale, costi e ospite in un'unica immagine operativa\n\n**Foresight & Action:** la vista in avanti sopra a tutto - previsioni, scenari e il livello che agisce su ciò che emerge"
           },
           {
             "title": "In che modo Sundae è diverso da Excel?",
             "content": "**Excel:** Inserimento manuale, analisi statica, nessun livello di intelligenza condivisa\n\n**Sundae:** Ingestione automatizzata, benchmarking strutturato, dashboard in tempo reale e raccomandazioni che riducono il tempo di analisi manuale ogni settimana"
           },
           {
-            "title": "Quanto posso risparmiare rispetto agli strumenti di analisi legacy?",
-            "content": "Gli operatori segnalano spesso un costo totale significativamente inferiore perché Sundae utilizza una tariffazione basata su livelli invece di accumulare costi per modulo e per posizione. I risparmi esatti dipendono dal mix degli strumenti attuali e dall'ambito operativo."
+            "title": "Quanto posso risparmiare rispetto ai tool di analytics tradizionali?",
+            "content": "Gli operatori riportano spesso un costo totale nettamente più basso, perché un pacchetto Core contiene già tutti e undici i moduli invece di sommare tariffe per modulo e per sede. La differenza esatta dipende dal mix di strumenti attuale e dalla tua dimensione operativa."
           }
         ]
       },
@@ -2208,8 +2312,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Ho solo una sede. Sundae è comunque adatto?",
-            "content": "Sì. Inizia con Report Lite per un benchmarking gratuito, poi passa a livelli di Report più approfonditi o a Core se la tua operazione ha bisogno di maggiore velocità e intelligenza."
+            "title": "Ho una sola sede. Sundae ha comunque senso?",
+            "content": "Sì. Una sede singola porta l'ancora del pacchetto e nulla più, e riceve gli stessi undici moduli di un gruppo da cinquanta sedi. Le fasce per sede iniziano a contare solo quando aggiungi punti vendita."
           },
           {
             "title": "Sono una piattaforma di franchising. Sundae può aiutare?",
@@ -2224,6 +2328,32 @@ export const generatedLocalCopy = {
             "content": "Sì. Watchtower e l'intelligenza di mercato possono supportare l'analisi dell'area commerciale, la revisione della saturazione, il monitoraggio dei movimenti dei concorrenti e la priorità dei territori sottoserviti."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Cos'è Sundae Crew?",
+            "content": "Sundae Crew è la suite operativa che gestisce il personale: pianificazione dei turni, rilevazione presenze, preparazione delle buste paga, dati HR e analisi della forza lavoro. Ogni turno pianificato, ogni ora timbrata e ogni registro archiviato diventa un segnale che rifluisce nella tua decision intelligence - così operazioni e insight condividono un unico sistema."
+          },
+          {
+            "title": "Cosa può fare Crew?",
+            "content": "**Cinque moduli collegati:**\n\n1. **Scheduling** - Pianificazione dei turni basata sulla domanda con controlli di idoneità e un builder AI\n2. **Rilevazione presenze** - Timbratura entrata/uscita, geofencing, attestazione delle pause e approvazioni dei cartellini\n3. **Payroll** - Preparazione delle buste paga multiregione ed esportazioni di legge (preparazione ed esportazione, non un motore fiscale)\n4. **Persone & HR** - Dati e documenti dei dipendenti dall'assunzione all'uscita\n5. **People Intelligence** - Analisi della forza lavoro, rischio di assenze e trend del costo del lavoro"
+          },
+          {
+            "title": "Quali regioni supporta il payroll di Crew?",
+            "content": "La preparazione delle buste paga e le esportazioni di legge di Crew coprono attualmente il **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), gli **Stati Uniti** (federale più tutti gli stati), il **Canada**, il **Regno Unito** e l'**Unione Europea** (tutti i 27 Stati membri). America Latina e APAC sono nella roadmap. Crew prepara ed esporta le buste paga - non è un motore fiscale, e le regole di legge provengono da pacchetti paese versionati."
+          },
+          {
+            "title": "Ho bisogno di Core per usare Crew?",
+            "content": "No. Crew può funzionare da solo come tuo sistema operativo, oppure accanto a Core così che il suo segnale alimenti Labor Intelligence, Pulse e Foresight. Puoi anche usare il tuo fornitore HR o di payroll - Crew è opzionale per progettazione."
+          },
+          {
+            "title": "Quanto costa Crew?",
+            "content": "**SKU Crew (canone mensile fisso, nessun costo per sede):**\n\n{{CREW_SKU_LINES}}\n\n**Bundle (ognuno ha il proprio prezzo netto: non è uno sconto sulle SKU che contiene):**\n\n{{CREW_BUNDLE_LINES}}\n\nUsa pricing.sundae.io per il calcolo esatto."
+          }
+        ]
       }
     ],
     "hi": [
@@ -2236,20 +2366,20 @@ export const generatedLocalCopy = {
             "content": "Sundae एक निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म है जो रेस्तरां और आतिथ्य टीमों के लिए है। यह बिखरे हुए संचालन डेटा को एक जगह पर लाता है ताकि नेता देख सकें कि क्या हुआ, क्या बदल रहा है, और अगला कदम कहाँ उठाना है।"
           },
           {
-            "title": "मैं कैसे शुरू करूँ?",
-            "content": "आपके पास तीन विकल्प हैं:\n\n1. **फ्री शुरू करें** - Report Lite के लिए साइन अप करें (हमेशा के लिए मुफ्त) और अपने संचालन डेटा को अपलोड करें ताकि तात्कालिक बेंचमार्किंग देख सकें। क्रेडिट कार्ड की आवश्यकता नहीं है।\n\n2. **अपनी कीमत देखें** - हमारी इंटरैक्टिव प्राइसिंग कैलकुलेटर का उपयोग करें pricing.sundae.io पर ताकि अपने संचालन के लिए सटीक कीमत देख सकें।\n\n3. **डेमो बुक करें** - हमारी टीम के साथ 15 मिनट की वॉकथ्रू शेड्यूल करें ताकि अपने डेटा के साथ Sundae को क्रियान्वित होते हुए देख सकें।"
+            "title": "मैं शुरुआत कैसे करूँ?",
+            "content": "आपके पास दो विकल्प हैं:\n\n1. **अपनी कीमत देखें** - pricing.sundae.io पर इंटरैक्टिव कैलकुलेटर से अपने आउटलेट की संख्या के हिसाब से Core पैकेज तय करें।\n\n2. **डेमो बुक करें** - हमारी टीम के साथ 15 मिनट का वॉकथ्रू तय करें और Sundae को अपने ही डेटा पर चलते देखें।"
           },
           {
-            "title": "क्या वास्तव में एक मुफ्त स्तर है?",
-            "content": "हाँ। Report Lite हमेशा के लिए मुफ्त है। अपने POS डेटा को अपलोड करें और 5 मुख्य मैट्रिक्स के खिलाफ तात्कालिक बेंचमार्किंग प्राप्त करें। उचित संचालन उपयोग के लिए उचित उपयोग नीति लागू होती है।"
+            "title": "क्या कोई मुफ़्त स्तर है?",
+            "content": "नहीं। Sundae का हर पैकेज सशुल्क है और पहले आउटलेट से ही मूल्य लगता है। हम जो देते हैं वह है प्रतिबद्धता से पहले आपके अपने आँकड़ों पर एक वर्किंग सेशन, ताकि कुछ भी साइन करने से पहले आप रिटर्न देख सकें।"
           },
           {
-            "title": "Report और Core में क्या अंतर है?",
-            "content": "**Report Tier** = ऐतिहासिक विश्लेषण (POS डेटा)\n• दैनिक, साप्ताहिक, या मासिक POS डेटा अपलोड करें\n• यह विश्लेषण करें कि क्या हुआ\n• समकक्षों के खिलाफ बेंचमार्क करें\n• एकल स्थान या प्रमाण की अवधारणा के लिए सबसे अच्छा\n\n**Core Tier** = वास्तविक समय संचालन (POS + सभी सिस्टम)\n• 2-4 घंटे के रिफ्रेश चक्र\n• POS + श्रम + इन्वेंटरी + मार्केटिंग + आरक्षण को एकीकृत करता है\n• यह देखें कि अब क्या हो रहा है\n• पूर्वानुमानित अलर्ट प्राप्त करें\n• बहु-स्थान ऑपरेटरों के लिए सबसे अच्छा\n\nमुख्य अंतर: Report = केवल POS। Core = POS के साथ आपके बाकी स्टैक।"
+            "title": "Core पैकेजों में क्या अंतर है?",
+            "content": "**Core Foundation** - परिचालन आधार: POS, श्रम, लागत और संचालन पर एक ही निर्णय-आधार।\n\n**Core Margin** - लागत और रिसाव में गहराई: सैद्धांतिक बनाम वास्तविक खपत, बर्बादी, कमी, वॉइड और कॉम्प, प्रति-आइटम योगदान।\n\n**Core Growth** - माँग में गहराई: मेहमान कोहॉर्ट और जीवनकाल मूल्य, चैनलवार प्रोमो एट्रिब्यूशन, कमीशन के बाद डिलीवरी मार्जिन।\n\n**Core Performance** - बहु-ब्रांड व बहु-क्षेत्र समेकन, मॉड्यूल-पार सहसंबंध, ऑडिट ट्रेल के साथ नियंत्रित पहुँच।\n\nचारों में वही ग्यारह डोमेन मॉड्यूल हैं। बदलती है गहराई।"
           },
           {
-            "title": "क्या मुझे दीर्घकालिक अनुबंध की आवश्यकता है?",
-            "content": "नहीं। Report और Core टियर महीने दर महीने हैं। बिना दंड के कभी भी रद्द करें। एंटरप्राइज डिप्लॉयमेंट आमतौर पर कस्टम शर्तों के साथ वार्षिक समझौतों का उपयोग करते हैं।"
+            "title": "क्या लंबी अवधि का अनुबंध ज़रूरी है?",
+            "content": "नहीं। हर पैकेज माह-दर-माह उपलब्ध है और आप बिना जुर्माने के रद्द कर सकते हैं। वार्षिक और दो-वर्षीय प्रतिबद्धताएँ इसलिए हैं क्योंकि वे सस्ती पड़ती हैं - 10% और 15% छूट - इसलिए नहीं कि वे अनिवार्य हैं।"
           }
         ]
       },
@@ -2258,20 +2388,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Sundae कौन से उत्पाद प्रदान करता है?",
-            "content": "**तीन मुख्य उत्पाद:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - ऐतिहासिक विश्लेषण और बेंचमार्किंग\n2. **Sundae Core** (Lite / Pro / Enterprise) - वास्तविक समय संचालन और पूर्वानुमानित बुद्धिमत्ता\n3. **Watchtower** (प्रतिस्पर्धात्मक / घटना / बाजार) - बाहरी बाजार की बुद्धिमत्ता\n\n**इसके अलावा:**\n\n4. **मॉड्यूल** - श्रम, इन्वेंटरी, खरीद, मार्केटिंग, और आरक्षण की बुद्धिमत्ता."
+            "title": "Sundae कौन-से उत्पाद देता है?",
+            "content": "**चार मुख्य उत्पाद:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - निर्णय-आधार, जिसमें ग्यारहों डोमेन मॉड्यूल शामिल हैं\n2. **Foresight & Action** - पूर्वानुमान, परिदृश्य मॉडलिंग और मानव-स्वीकृति वाली कार्रवाई परत\n3. **Sundae Crew** - कार्यबल आधार: शेड्यूलिंग, उपस्थिति, पेरोल तैयारी, एचआर और पीपल इंटेलिजेंस\n4. **Watchtower** - बाहरी बाज़ार इंटेलिजेंस, आपके Core पैकेज के साथ तय किया जाता है\n\n**साथ ही:** आपके समूह के संचालन मॉडलों के लिए कॉन्सेप्ट SKU - फ़्रैंचाइज़, होटल F&B, क्लाउड किचन, कैटरिंग, उत्पादन, किराए की सेंट्रल किचन।"
           },
           {
-            "title": "मुझे कौन सा स्तर चुनना चाहिए?",
-            "content": "**यदि आप Report Lite से शुरू करें:**\n• आप Sundae का परीक्षण कर रहे हैं\n• आपके पास 1-2 स्थान हैं\n• दैनिक या साप्ताहिक रिपोर्टिंग पर्याप्त है\n\n**यदि Report Plus या Pro में अपग्रेड करें:**\n• यदि आपको गहरी ऐतिहासिक बुद्धिमत्ता की आवश्यकता है\n• यदि दैनिक रिपोर्टिंग अभी भी पर्याप्त है\n\n**यदि Core Lite या Pro चुनें:**\n• यदि आपके पास 10+ स्थान हैं\n• यदि आपको संचालन की गति की आवश्यकता है\n• यदि वास्तविक समय का बजट ट्रैकिंग महत्वपूर्ण है\n\n**यदि Enterprise चुनें:**\n• यदि आपके पास 100+ स्थान हैं\n• यदि आपको SSO या व्हाइट-लेबल क्षमताओं की आवश्यकता है\n• यदि आपको समर्पित समर्थन और कस्टम शर्तों की आवश्यकता है"
+            "title": "मुझे कौन-सा Core पैकेज चुनना चाहिए?",
+            "content": "**Core Foundation अगर:**\n• आप स्प्रेडशीट और बिखरे डैशबोर्ड से बाहर आ रहे हैं\n• गहराई में जाने से पहले आपको एक साझा परिचालन तस्वीर चाहिए\n\n**Core Margin अगर:**\n• खाद्य लागत, बर्बादी, वॉइड या कॉम्प आपका मार्जिन खा रहे हैं\n• आपको केवल बिक्री मिश्रण नहीं, प्रति-आइटम योगदान चाहिए\n\n**Core Growth अगर:**\n• दोहराव वाला राजस्व और चैनल मिश्रण अड़चन हैं\n• आपको मेहमान कोहॉर्ट, प्रोमो एट्रिब्यूशन और डिलीवरी मार्जिन चाहिए\n\n**Core Performance अगर:**\n• आप कई ब्रांड या कई बाज़ार चलाते हैं\n• आपको समेकन, मॉड्यूल-पार सहसंबंध और नियंत्रित पहुँच चाहिए"
           },
           {
             "title": "क्या मैं बाद में अपग्रेड या डाउनग्रेड कर सकता हूँ?",
             "content": "हाँ। आप किसी भी समय स्तरों के बीच स्थानांतरित हो सकते हैं। ऐतिहासिक डेटा संरक्षित है और योजनाओं को बदलने पर कोई दंड नहीं है।"
           },
           {
-            "title": "4D बुद्धिमत्ता मॉडल क्या है?",
-            "content": "Sundae का निर्णय बुद्धिमत्ता के लिए ढांचा:\n\n**1D: क्या हुआ** - बिक्री, श्रम, और लागत का डेटा\n**2D: योजना बनाम वास्तविक** - बजट और पूर्वानुमान भिन्नता\n**3D: बाजार संदर्भ** - बेंचमार्क, समकक्ष, और प्रतिस्पर्धी\n**4D: अगला क्या है** - पूर्वानुमान और सिफारिशें\n\n**Report:** पूर्ण 1D और 2D के साथ सीमित 3D और 4D\n**Core:** सभी 4 आयामों में पूर्ण पहुंच."
+            "title": "4D Intelligence मॉडल क्या है?",
+            "content": "निर्णय बुद्धिमत्ता के लिए Sundae का ढाँचा:\n\n**1D: क्या हुआ** - बिक्री, श्रम और लागत का सच\n**2D: योजना बनाम वास्तविक** - बजट और पूर्वानुमान का अंतर\n**3D: बाज़ार संदर्भ** - बेंचमार्क, समकक्ष और प्रतिस्पर्धी\n**4D: आगे क्या** - भविष्यवाणियाँ और सिफ़ारिशें\n\nहर Core पैकेज चारों को कवर करता है। पैकेज तय करता है कि हर आयाम कितना गहरा जाए।"
           }
         ]
       },
@@ -2280,24 +2410,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae को कौन सा डेटा चाहिए?",
-            "content": "**Report Lite के लिए न्यूनतम:**\n• POS बिक्री डेटा (CSV निर्यात)\n\n**Core के लिए:**\n• API के माध्यम से POS प्रणाली\n• श्रम या कार्यबल प्रणाली\n• इन्वेंटरी प्रणाली\n• मार्केटिंग प्लेटफार्म\n• आरक्षण प्रणाली\n\nReport POS अपलोड के चारों ओर बनाया गया है। Core वह जगह है जहाँ आप व्यापक संचालन स्टैक को जोड़ते हैं।"
+            "title": "Sundae को किस डेटा की ज़रूरत है?",
+            "content": "**हर Core पैकेज के लिए:**\n• API के ज़रिए POS सिस्टम\n• श्रम या कार्यबल सिस्टम\n• इन्वेंट्री सिस्टम\n• मार्केटिंग प्लेटफ़ॉर्म\n• आरक्षण सिस्टम\n\nपहले दिन मूल्य पाने के लिए अकेला POS काफ़ी है। बाकी जुड़ते जाने पर तस्वीर गहरी होती जाती है।"
           },
           {
-            "title": "मैं अपने डेटा को Sundae में कैसे लाऊं?",
-            "content": "**Report Lite:** मैनुअल CSV अपलोड\n\n**Report Plus:** PDFs, Excel फ़ाइलें, या स्क्रीनशॉट अपलोड करें। Sundae डेटा निकालता है और आप इसे प्रोसेसिंग से पहले समीक्षा करते हैं।\n\n**Report Pro और Core:** API कनेक्शनों के माध्यम से स्वचालित इनजेशन"
+            "title": "मेरा डेटा Sundae में कैसे आता है?",
+            "content": "आपके POS और बाकी परिचालन स्टैक से API कनेक्शन के ज़रिए। जहाँ किसी सिस्टम में API नहीं है, वहाँ Sundae संरचित फ़ाइल ड्रॉप और स्मार्ट-पार्स अपलोड स्वीकार करता है - PDF, Excel, स्क्रीनशॉट - जिन्हें आप प्रोसेस होने से पहले जाँचते हैं।"
           },
           {
             "title": "आप किस POS सिस्टम के साथ एकीकृत होते हैं?",
             "content": "Sundae वर्तमान में **4 POS प्लेटफार्मों** का समर्थन करता है जिनमें लाइव एडेप्टर हैं: Oracle MICROS Simphony, Square, Toast, और Clover। जब कोई POS प्रणाली डेटाबेस एक्सेस प्रदान करती है, तो हम PostgreSQL और SQL Server / Azure SQL के लिए **प्रत्यक्ष डेटाबेस कनेक्टर्स** का भी समर्थन करते हैं।\n\nPOS के अलावा, Sundae का **12-डोमेन एकीकरण इंजन** श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, और लेखांकन के 30+ विक्रेताओं से जुड़ता है।\n\nयदि आप अपने सिस्टम को सूचीबद्ध नहीं देखते हैं, तो एंटरप्राइज स्तर कस्टम एकीकरण कार्य और वेबहुक-आधारित इनजेशन को शामिल कर सकता है।"
           },
           {
-            "title": "क्या मैं Sundae का उपयोग कई POS सिस्टम के साथ कर सकता हूँ?",
-            "content": "**Core Lite:** सबसे अच्छा जब सभी स्थान एक POS का उपयोग करते हैं\n\n**Core Pro और Enterprise:** हाँ। स्थानों के बीच विभिन्न POS सिस्टम का समर्थन किया जाता है, और Sundae डेटा को सेब-से-सेब तुलना के लिए सामान्य करता है।\n\n**Report:** कोई भी POS काम करता है क्योंकि अपलोड मैनुअल होते हैं।"
+            "title": "क्या मैं कई POS सिस्टम के साथ Sundae इस्तेमाल कर सकता हूँ?",
+            "content": "हाँ। Sundae मिश्रित POS संपदा से जुड़ता है और समान आधार पर तुलना के लिए डेटा को सामान्यीकृत करता है। Core Performance उसके ऊपर ब्रांड और क्षेत्रों के पार समेकन जोड़ता है।"
           },
           {
-            "title": "कार्यान्वयन में कितना समय लगता है?",
-            "content": "**Report Lite:** अपलोड के तुरंत बाद\n**Report Plus / Pro:** 1-2 दिन\n**Core Lite / Pro:** 1-2 सप्ताह\n**Enterprise:** दायरे के आधार पर 2-4 सप्ताह"
+            "title": "क्रियान्वयन में कितना समय लगता है?",
+            "content": "अधिकांश समूह 1-2 सप्ताह में लाइव हो जाते हैं। बड़े बहु-ब्रांड या बहु-क्षेत्र रोलआउट दायरे के अनुसार 2-4 सप्ताह लेते हैं।\n\nक्रियान्वयन एक बार का शुल्क है, जो आपकी चयन-सूची की सर्वोच्च श्रेणी पर एक ही बार लिया जाता है - निःशुल्क सेल्फ-सर्विस से लेकर तय दायरे वाले Class D कार्य तक।"
           },
           {
             "title": "अगर मैं रद्द कर दूं तो मेरे डेटा का क्या होगा?",
@@ -2311,27 +2441,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "मॉड्यूल क्या हैं?",
-            "content": "मॉड्यूल Core के लिए विशेषीकृत इंटेलिजेंस ऐड-ऑन हैं:\n\n1. **श्रम इंटेलिजेंस** - शेड्यूलिंग, उत्पादकता, और ओवरटाइम\n2. **इन्वेंटरी इंटेलिजेंस** - बर्बादी, पार स्तर, और स्टॉक दृश्यता\n3. **खरीदारी इंटेलिजेंस** - विक्रेता तुलना और अनुबंध लाभ\n4. **मार्केटिंग इंटेलिजेंस** - ROI, CAC, और चैनल प्रदर्शन\n5. **आरक्षण इंटेलिजेंस** - नो-शो भविष्यवाणी और टेबल ऑप्टिमाइजेशन\n\nमॉड्यूल Core की आवश्यकता होती है क्योंकि वे लाइव, जुड़े ऑपरेटिंग डेटा पर निर्भर करते हैं."
+            "content": "ग्यारह डोमेन मॉड्यूल Core के भीतर की विश्लेषणात्मक सतहें हैं। ये पैकेज के घटक हैं, अलग से खरीदे जाने वाले ऐड-ऑन नहीं:\n\n{{DOMAIN_MODULE_LINES}}\n\nइन्हें Core चाहिए क्योंकि ये लाइव जुड़े परिचालन डेटा पर निर्भर हैं।"
           },
           {
-            "title": "क्या मुझे मॉड्यूल की आवश्यकता है?",
-            "content": "नहीं। मॉड्यूल वैकल्पिक हैं। जब आप किसी विशेष ऑपरेटिंग क्षेत्र में गहरी कवरेज चाहते हैं, तो उन्हें जोड़ें।\n\n**पथ:**\n• रिपोर्ट पर -> पहले Core में अपग्रेड करें\n• Core पर -> जब आवश्यकता स्पष्ट हो, तब मॉड्यूल जोड़ें"
+            "title": "क्या मुझे मॉड्यूल चाहिए?",
+            "content": "ये वैकल्पिक नहीं हैं और अलग खरीद भी नहीं हैं। ग्यारहों डोमेन मॉड्यूल हर Core पैकेज के साथ आते हैं।\n\nआप पैकेज चुनते हैं, और पैकेज तय करता है कि हर मॉड्यूल कितना गहरा जाए।"
           },
           {
-            "title": "क्या मुझे मॉड्यूल के लिए Core की आवश्यकता है?",
-            "content": "हाँ। मॉड्यूल को Core Lite, Core Pro, या Enterprise की आवश्यकता होती है।\n\nवे श्रम, इन्वेंटरी, मार्केटिंग, आरक्षण, और अन्य सिस्टम से लाइव कनेक्शनों पर निर्भर करते हैं, जिनसे रिपोर्ट सीधे कनेक्ट नहीं होता।"
+            "title": "क्या मैं अकेला एक मॉड्यूल खरीद सकता हूँ?",
+            "content": "नहीं। ग्यारह डोमेन मॉड्यूल Core पैकेज के घटक हैं, स्वतंत्र उत्पाद नहीं, और प्रति-मॉड्यूल कोई कीमत नहीं है। पैकेज चुनना ही उन सबको पाने का तरीका है।"
           },
           {
-            "title": "क्या मैं कई मॉड्यूल जोड़ सकता हूँ?",
-            "content": "हाँ। किसी भी पांच मॉड्यूल को मिलाकर उपयोग करें। सभी को एक साथ खरीदने की आवश्यकता नहीं है।"
+            "title": "क्या मॉड्यूल एक-एक करके जोड़े जाते हैं?",
+            "content": "नहीं। जोड़ने को कुछ है ही नहीं। हर Core पैकेज पहले दिन से ग्यारहों डोमेन मॉड्यूल लेकर आता है - आपका चुना पैकेज केवल यह तय करता है कि हर एक कितना गहरा जाए।"
           },
           {
-            "title": "मुझे पहले कौन सा मॉड्यूल चुनना चाहिए?",
-            "content": "सबसे बड़े ऑपरेटिंग दर्द बिंदु से शुरू करें:\n\n• उच्च श्रम लागत -> श्रम इंटेलिजेंस\n• बर्बादी या स्टॉक मुद्दे -> इन्वेंटरी इंटेलिजेंस\n• कमजोर विक्रेता लाभ -> खरीदारी इंटेलिजेंस\n• अस्पष्ट मार्केटिंग ROI -> मार्केटिंग इंटेलिजेंस\n• आरक्षण नो-शो -> आरक्षण इंटेलिजेंस"
+            "title": "मुझे पहले कौन-सा मॉड्यूल देखना चाहिए?",
+            "content": "सभी पहले से चालू हैं, तो सवाल यह है कि देखना कहाँ से शुरू करें, खरीदना क्या है यह नहीं। सबसे बड़ी परिचालन तकलीफ़ से शुरू करें:\n\n• ऊँची श्रम लागत -> Labor Intelligence\n• बर्बादी या स्टॉक की दिक्कत -> Inventory Intelligence\n• विक्रेताओं पर कमज़ोर पकड़ -> Purchasing Intelligence\n• अस्पष्ट मार्केटिंग ROI -> Marketing Intelligence\n• आरक्षण में नो-शो -> Reservations Intelligence"
           },
           {
-            "title": "मॉड्यूल की कीमत कैसे काम करती है?",
-            "content": "प्रत्येक मॉड्यूल में एक संगठन लाइसेंस शामिल होता है जो पहले 5 स्थानों को कवर करता है, इसके अलावा उस सीमा के पार अतिरिक्त स्थान की कीमत।\n\nउदाहरण: श्रम इंटेलिजेंस के साथ 8 स्थान = 1 संगठन लाइसेंस + 3 अतिरिक्त स्थान।\n\nसटीक योजना गणना के लिए pricing.sundae.io का उपयोग करें."
+            "title": "मॉड्यूल की कीमत कैसे तय होती है?",
+            "content": "मॉड्यूल की कोई कीमत होती ही नहीं। मॉड्यूल का न अपना स्वतंत्र दाम है, न अपना आउटलेट कोटा - आप पैकेज खरीदते हैं।\n\nCore पैकेज आपके पहले आउटलेट से लगता है, फिर हर अतिरिक्त आउटलेट पर एक सीमांत दर से, जो बढ़ने के साथ घटती जाती है। {{WORKED_EXAMPLE}}\n\nसटीक गणना के लिए pricing.sundae.io देखें।"
           }
         ]
       },
@@ -2356,8 +2486,8 @@ export const generatedLocalCopy = {
             "content": "हाँ। आप प्रतिस्पर्धात्मक बुद्धिमत्ता, इवेंट बुद्धिमत्ता, या बाजार बुद्धिमत्ता को व्यक्तिगत रूप से खरीद सकते हैं, या उन्हें मिलाकर उपयोग कर सकते हैं।"
           },
           {
-            "title": "क्या Watchtower को Core की आवश्यकता है?",
-            "content": "हाँ। Watchtower तब सबसे अच्छा काम करता है जब इसके बाजार संकेत सीधे लाइव संचालन डेटा पर परत किए जाते हैं, जो Core प्रदान करता है।\n\nयदि आपको केवल अपलोड की गई ऐतिहासिक POS विश्लेषण की आवश्यकता है, तो Report पर्याप्त है। यदि आप दिन-प्रतिदिन के संचालन से जुड़े बाजार संदर्भ की तलाश में हैं, तो Core पर जाएँ।"
+            "title": "क्या Watchtower के लिए Core ज़रूरी है?",
+            "content": "हाँ। Watchtower तब सबसे अच्छा काम करता है जब उसके बाज़ार संकेत लाइव परिचालन डेटा पर रखे जाएँ, और वही Core पैकेज देता है। इसे अलग से बेचने के बजाय आपके पैकेज के साथ ही तय और उद्धृत किया जाता है।"
           }
         ]
       },
@@ -2366,8 +2496,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Sundae की कीमत कितनी है?",
-            "content": "कीमत इस पर निर्भर करती है:\n• रिपोर्ट बनाम कोर\n• स्थानों की संख्या\n• चयनित मॉड्यूल\n• क्या Watchtower शामिल है\n\n**Report Lite:** हमेशा के लिए मुफ्त\n\nसटीक कीमत के लिए, pricing.sundae.io का उपयोग करें।"
+            "title": "Sundae की लागत कितनी है?",
+            "content": "कीमत इन पर निर्भर करती है:\n• कौन-सा Core पैकेज\n• आउटलेट की संख्या\n• Foresight & Action, Crew या कॉन्सेप्ट SKU शामिल हैं या नहीं\n\nCore पैकेज पहले आउटलेट के एंकर से शुरू होते हैं, फिर हर अतिरिक्त आउटलेट पर एक सीमांत दर लगती है जो बढ़ने के साथ घटती जाती है। Core Foundation आपके पहले आउटलेट के लिए {{FOUNDATION_FIRST_UNIT}} से शुरू होता है।\n\nसटीक कीमत के लिए pricing.sundae.io देखें।"
           },
           {
             "title": "क्या सेटअप शुल्क हैं?",
@@ -2393,19 +2523,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "इंटेलिजेंस क्रेडिट कैसे काम करते हैं?",
-            "content": "इंटेलिजेंस क्रेडिट प्रश्नों, विश्लेषणों और सिफारिशों को शक्ति देते हैं।\n\n**Report Lite:** 250 बेस + 80 प्रति स्थान\n**Report Plus:** 1,200 बेस + 300 प्रति स्थान\n**Report Pro:** 3,500 बेस + 800 प्रति स्थान\n**Core Lite:** 8,000 बेस + 1,600 प्रति स्थान\n**Core Pro:** 14,000 बेस + 2,800 प्रति स्थान\n**एंटरप्राइज:** 50,000+ बेस + कस्टम आवंटन"
+            "content": "इंटेलिजेंस क्रेडिट सवालों, विश्लेषणों और सिफ़ारिशों को चलाते हैं। हर Core पैकेज के साथ एक मासिक वॉलेट आता है:\n\n{{AI_WALLET_LINES}}\n\nख़त्म हो जाए तो किसी भी पैकेज पर टॉप-अप किया जा सकता है।"
           },
           {
-            "title": "मुझे कितना ऐतिहासिक एक्सेस मिलता है?",
-            "content": "**Report Lite:** 90 दिन\n**Report Plus:** 1 वर्ष\n**Report Pro:** 2 वर्ष\n**Core Lite:** 2 वर्ष\n**Core Pro:** 3 वर्ष\n**एंटरप्राइज:** 5+ वर्ष या कस्टम रिटेंशन"
+            "title": "मुझे कितना पुराना डेटा मिलता है?",
+            "content": "हर Core पैकेज आपके जुड़े हुए पूरे इतिहास को कई वर्षों तक सहेजता है। Enterprise समझौते इसे अपनी शर्तों के साथ और बढ़ा सकते हैं।"
           },
           {
-            "title": "डेटा कितनी बार ताज़ा होता है?",
-            "content": "**Report Lite:** मैनुअल अपलोड\n**Report Plus:** मैनुअल या स्मार्ट-पार्स्ड मांग पर\n**Report Pro:** दैनिक स्वचालित ताज़ा\n**Core Lite:** हर 4 घंटे\n**Core Pro:** हर 2 घंटे\n**एंटरप्राइज:** कस्टम कैडेंस, जिसमें स्कोप किए जाने पर वास्तविक समय शामिल है"
+            "title": "डेटा कितनी बार रिफ़्रेश होता है?",
+            "content": "Core दिन के अंत के बजाय शिफ़्ट के दौरान रिफ़्रेश होता है, ताकि Pulse और डोमेन मॉड्यूल तब हिलें जब आप अब भी कुछ कर सकते हैं। सटीक अंतराल इस पर निर्भर करता है कि आपके जुड़े सिस्टम क्या देते हैं।"
           },
           {
             "title": "क्या मुझे कस्टम डैशबोर्ड मिलते हैं?",
-            "content": "**रिपोर्ट स्तर:** प्रीबिल्ट डैशबोर्ड\n**Core Lite:** 30 तक कस्टम डैशबोर्ड\n**Core Pro:** 75 तक कस्टम डैशबोर्ड\n**एंटरप्राइज:** अनलिमिटेड कस्टम डैशबोर्ड"
+            "content": "हाँ। हर Core पैकेज में हर डोमेन मॉड्यूल के साथ आने वाले तैयार व्यू के अलावा कस्टम डैशबोर्ड भी शामिल हैं।"
           }
         ]
       },
@@ -2414,12 +2544,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "मुझे कौन सा समर्थन मिलता है?",
-            "content": "**Report Lite:** ईमेल समर्थन\n**Report Plus:** ईमेल और चैट\n**Report Pro:** प्राथमिकता समर्थन\n**Core Lite:** ईमेल, चैट, और फोन\n**Core Pro:** तेज प्राथमिकता फोन समर्थन\n**Enterprise:** 24/7 समर्थन और एक समर्पित ग्राहक सफलता लीड"
+            "title": "मुझे कैसा सपोर्ट मिलता है?",
+            "content": "हर Core पैकेज में ईमेल, चैट और फ़ोन सपोर्ट शामिल है। Enterprise समझौते 24/7 कवरेज, अनुबंधित प्रतिक्रिया समय और एक समर्पित कस्टमर सक्सेस लीड जोड़ते हैं।"
           },
           {
-            "title": "क्या आप प्रशिक्षण प्रदान करते हैं?",
-            "content": "हाँ।\n\n**Report:** स्व-सेवा ऑनबोर्डिंग और दस्तावेज़ीकरण\n**Core Lite:** मार्गदर्शित प्रशिक्षण सत्र\n**Core Pro:** कस्टम प्रशिक्षण कार्यक्रम\n**Enterprise:** संरचित ऑनबोर्डिंग और सक्षम करना"
+            "title": "क्या आप प्रशिक्षण देते हैं?",
+            "content": "हाँ। प्रशिक्षण क्रियान्वयन का हिस्सा है, जो आपकी चयन-सूची की सर्वोच्च श्रेणी पर एक ही बार लिया जाता है - निःशुल्क सेल्फ-सर्विस दस्तावेज़, और ऊँची श्रेणियों में मार्गदर्शित सत्र व संरचित सक्षमता।"
           },
           {
             "title": "आप कौन से समय क्षेत्र का समर्थन करते हैं?",
@@ -2469,15 +2599,15 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae, POS रिपोर्टिंग से कैसे अलग है?",
-            "content": "**POS रिपोर्ट:** एक सिस्टम, सीमित संदर्भ, मैनुअल व्याख्या\n\n**Sundae Report:** POS विश्लेषण के साथ बेंचमार्क, सिफारिशें, और पैटर्न पहचान\n\n**Sundae Core:** रिपोर्ट में सब कुछ, साथ ही श्रम, इन्वेंटरी, मार्केटिंग, आरक्षण, और अन्य सिस्टम से एकीकृत डेटा, तेज़ रिफ्रेश के साथ"
+            "content": "**POS रिपोर्ट:** एक सिस्टम, सीमित संदर्भ, हाथ से व्याख्या\n\n**Sundae Core:** POS विश्लेषण के साथ बेंचमार्क, सिफ़ारिशें और पैटर्न पहचान - श्रम, लागत और मेहमान को एक ही परिचालन तस्वीर में\n\n**Foresight & Action:** उसके ऊपर आगे की दृष्टि - पूर्वानुमान, परिदृश्य, और वह परत जो उनके उजागर किए पर कार्रवाई करती है"
           },
           {
             "title": "Sundae, Excel से कैसे अलग है?",
             "content": "**Excel:** मैनुअल प्रविष्टि, स्थिर विश्लेषण, कोई साझा बुद्धिमत्ता परत नहीं\n\n**Sundae:** स्वचालित इनजेशन, संरचित बेंचमार्किंग, लाइव डैशबोर्ड, और सिफारिशें जो हर हफ्ते मैनुअल विश्लेषण के समय को कम करती हैं"
           },
           {
-            "title": "मैं पुराने एनालिटिक्स टूल्स की तुलना में कितना बचा सकता हूँ?",
-            "content": "ऑपरेटर अक्सर रिपोर्ट करते हैं कि कुल लागत काफी कम होती है क्योंकि Sundae स्तर-आधारित मूल्य निर्धारण का उपयोग करता है, न कि प्रति-मॉड्यूल और प्रति-स्थान शुल्क। सटीक बचत आपके वर्तमान टूल मिश्रण और संचालन के दायरे पर निर्भर करती है."
+            "title": "पुराने एनालिटिक्स टूल्स के मुकाबले कितनी बचत होगी?",
+            "content": "ऑपरेटर अक्सर कुल लागत काफ़ी कम होने की बात कहते हैं, क्योंकि Core पैकेज में ग्यारहों डोमेन मॉड्यूल पहले से हैं - प्रति-मॉड्यूल और प्रति-आउटलेट शुल्क जोड़ने की ज़रूरत नहीं। असल अंतर आपके मौजूदा टूल मिश्रण और परिचालन आकार पर निर्भर करता है।"
           }
         ]
       },
@@ -2486,8 +2616,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "मेरे पास केवल एक स्थान है। क्या Sundae अभी भी उपयुक्त है?",
-            "content": "हाँ। मुफ्त बेंचमार्किंग के लिए Report Lite से शुरू करें, फिर यदि आपके संचालन को अधिक गति और बुद्धिमत्ता की आवश्यकता है तो गहरे Report स्तरों या Core में जाएं।"
+            "title": "मेरे पास सिर्फ़ एक आउटलेट है। क्या Sundae फिर भी सही है?",
+            "content": "हाँ। अकेला आउटलेट सिर्फ़ पैकेज एंकर उठाता है, उससे ज़्यादा कुछ नहीं, और उसे वही ग्यारह मॉड्यूल मिलते हैं जो पचास आउटलेट वाले समूह को मिलते हैं। आउटलेट बैंड तभी मायने रखने लगते हैं जब आप और साइट जोड़ें।"
           },
           {
             "title": "मैं एक फ्रैंचाइज़ प्लेटफ़ॉर्म हूँ। क्या Sundae मदद कर सकता है?",
@@ -2502,6 +2632,32 @@ export const generatedLocalCopy = {
             "content": "हाँ। Watchtower और मार्केट इंटेलिजेंस व्यापार क्षेत्र विश्लेषण, संतृप्ति समीक्षा, प्रतिस्पर्धी गतिविधि ट्रैकिंग, और अल्प-सेवित क्षेत्रों की प्राथमिकता में सहायता कर सकते हैं।"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew क्या है?",
+            "content": "Sundae Crew वह संचालन सूट है जो आपके कर्मचारियों को चलाता है: शेड्यूलिंग, समय और उपस्थिति, पेरोल तैयारी, HR रिकॉर्ड और कार्यबल विश्लेषण। हर नियोजित शिफ्ट, हर दर्ज घंटा और हर दाखिल रिकॉर्ड एक संकेत बन जाता है जो आपकी decision intelligence में वापस प्रवाहित होता है - ताकि संचालन और अंतर्दृष्टि एक ही सिस्टम साझा करें।"
+          },
+          {
+            "title": "Crew क्या कर सकता है?",
+            "content": "**पाँच जुड़े हुए मॉड्यूल:**\n\n1. **Scheduling** - पात्रता जाँच और एक AI बिल्डर के साथ मांग-आधारित शिफ्ट योजना\n2. **समय और उपस्थिति** - क्लॉक-इन/आउट, जियोफेंसिंग, ब्रेक प्रमाणन और टाइमशीट अनुमोदन\n3. **Payroll** - बहु-क्षेत्रीय पेरोल तैयारी और वैधानिक निर्यात (तैयारी और निर्यात, कोई कर इंजन नहीं)\n4. **लोग और HR** - भर्ती से सेवानिवृत्ति तक कर्मचारी रिकॉर्ड और दस्तावेज़\n5. **People Intelligence** - कार्यबल विश्लेषण, नो-शो जोखिम और श्रम-लागत रुझान"
+          },
+          {
+            "title": "Crew पेरोल किन क्षेत्रों का समर्थन करता है?",
+            "content": "Crew की पेरोल तैयारी और वैधानिक निर्यात वर्तमान में **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **संयुक्त राज्य अमेरिका** (संघीय और सभी राज्य), **कनाडा**, **यूनाइटेड किंगडम** और **यूरोपीय संघ** (सभी 27 सदस्य देश) को कवर करते हैं। लैटिन अमेरिका और APAC रोडमैप पर हैं। Crew पेरोल तैयार करता है और निर्यात करता है - यह कोई कर इंजन नहीं है, और वैधानिक नियम संस्करणबद्ध देश पैकेज से आते हैं।"
+          },
+          {
+            "title": "क्या Crew का उपयोग करने के लिए मुझे Core की आवश्यकता है?",
+            "content": "नहीं। Crew आपके संचालन प्रणाली के रूप में अकेले चल सकता है, या Core के साथ चल सकता है ताकि इसका संकेत Labor Intelligence, Pulse और Foresight को पोषित करे। आप अपना खुद का HR या पेरोल प्रदाता भी ला सकते हैं - Crew डिज़ाइन के अनुसार वैकल्पिक है।"
+          },
+          {
+            "title": "Crew की लागत कितनी है?",
+            "content": "**Crew SKU (सपाट मासिक, प्रति-आउटलेट कोई शुल्क नहीं):**\n\n{{CREW_SKU_LINES}}\n\n**बंडल (हर एक की अपनी शुद्ध कीमत है - यह उसमें शामिल SKU पर छूट नहीं है):**\n\n{{CREW_BUNDLE_LINES}}\n\nसटीक गणना के लिए pricing.sundae.io देखें।"
+          }
+        ]
       }
     ],
     "tr": [
@@ -2514,20 +2670,20 @@ export const generatedLocalCopy = {
             "content": "Sundae, restoranlar ve misafirperverlik ekipleri için bir karar zeka platformudur. Dağınık işletme verilerini tek bir yerde toplar, böylece liderler ne olduğunu, neyin değiştiğini ve nerede harekete geçmeleri gerektiğini görebilir."
           },
           {
-            "title": "Nasıl başlayabilirim?",
-            "content": "Üç seçeneğiniz var:\n\n1. **Ücretsiz Başlayın** - Report Lite için kaydolun (sonsuz ücretsiz) ve operasyonel verilerinizi yükleyerek anlık karşılaştırma görün. Kredi kartı gerekmez.\n\n2. **Fiyatlarınızı Görün** - pricing.sundae.io adresindeki etkileşimli fiyat hesaplayıcımızı kullanarak işletmeniz için tam fiyatları görün.\n\n3. **Demo Randevusu Alın** - Ekibimizle 15 dakikalık bir yürüyüş planlayarak verilerinizle Sundae'yi aksiyonda görün."
+            "title": "Nasıl başlarım?",
+            "content": "İki seçeneğiniz var:\n\n1. **Fiyatınızı görün** - pricing.sundae.io adresindeki etkileşimli hesaplayıcıyla şube sayınıza göre bir Core paketi boyutlandırın.\n\n2. **Demo ayarlayın** - Ekibimizle 15 dakikalık bir tur planlayın ve Sundae'yi kendi verinizle çalışırken görün."
           },
           {
-            "title": "Gerçekten ücretsiz bir katman var mı?",
-            "content": "Evet. Report Lite sonsuza kadar ücretsizdir. POS verilerinizi yükleyin ve 5 temel metrikle anlık karşılaştırma alın. Makul operasyonel kullanım için adil kullanım politikası geçerlidir."
+            "title": "Ücretsiz bir katman var mı?",
+            "content": "Hayır. Her Sundae paketi ücretlidir ve ilk şubenizden itibaren fiyatlanır. Bunun yerine, taahhüt vermeden önce kendi rakamlarınız üzerinde bir çalışma oturumu sunuyoruz; böylece hiçbir şey imzalamadan getiriyi görürsünüz."
           },
           {
-            "title": "Report ile Core arasındaki fark nedir?",
-            "content": "**Report Katmanı** = Tarihsel analiz (POS verisi)\n• POS verilerini günlük, haftalık veya aylık yükleyin\n• Ne olduğunu analiz edin\n• Eşitlerle karşılaştırma yapın\n• Tek bir lokasyon veya konsept kanıtı için en iyisi\n\n**Core Katmanı** = Gerçek zamanlı operasyonlar (POS + tüm sistemler)\n• 2-4 saatlik yenileme döngüleri\n• POS + iş gücü + envanter + pazarlama + rezervasyonları entegre eder\n• Şu anda ne olduğunu görün\n• Tahminsel uyarılar alın\n• Çoklu lokasyon operatörleri için en iyisi\n\nAna fark: Report = sadece POS. Core = POS artı geri kalan yığın."
+            "title": "Core paketleri arasındaki fark nedir?",
+            "content": "**Core Foundation** - işletme temeli: POS, iş gücü, maliyet ve operasyon üzerinde tek bir karar zemini.\n\n**Core Margin** - maliyet ve sızıntıda derinlik: teorik ve gerçek kullanım, israf, kayıp, iptaller ve ikramlar, ürün bazında katkı.\n\n**Core Growth** - talepte derinlik: misafir kohortları ve yaşam boyu değer, kanal bazında promosyon atfı, komisyon sonrası teslimat marjı.\n\n**Core Performance** - markalar ve bölgeler arası konsolidasyon, modüller arası korelasyon, denetim izli yönetilen erişim.\n\nDördü de aynı on bir alan modülünü taşır. Değişen, derinliktir."
           },
           {
-            "title": "Uzun vadeli bir sözleşmeye ihtiyacım var mı?",
-            "content": "Hayır. Report ve Core katmanları aylık olarak sunulmaktadır. İstediğiniz zaman cezasız iptal edebilirsiniz. Kurumsal dağıtımlar genellikle özel şartlarla yıllık sözleşmeler kullanır."
+            "title": "Uzun vadeli sözleşme gerekir mi?",
+            "content": "Hayır. Her paket aylık olarak sunulur ve cezasız iptal edebilirsiniz. Yıllık ve iki yıllık taahhütler zorunlu oldukları için değil, daha ucuz oldukları için vardır - %10 ve %15 indirim."
           }
         ]
       },
@@ -2537,19 +2693,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae hangi ürünleri sunuyor?",
-            "content": "**Üç ana ürün:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Tarihsel analiz ve kıyaslama\n2. **Sundae Core** (Lite / Pro / Enterprise) - Gerçek zamanlı operasyonlar ve öngörücü zeka\n3. **Watchtower** (Rekabetçi / Etkinlik / Pazar) - Dış pazar zekası\n\n**Ek olarak:**\n\n4. **Modüller** - İş gücü, Envanter, Satın alma, Pazarlama ve Rezervasyon zekası."
+            "content": "**Dört ana ürün:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - karar zemini; on bir alan modülünün tamamını taşır\n2. **Foresight & Action** - tahmin, senaryo modelleme ve insan onaylı eylem katmanı\n3. **Sundae Crew** - iş gücü zemini: vardiya planlama, puantaj, bordro hazırlığı, İK ve people intelligence\n4. **Watchtower** - dış pazar zekası; Core paketinizle birlikte kapsamlanır\n\n**Ayrıca:** grubunuzun işletme modellerine özel konsept SKU'ları - franchise, otel F&B, cloud kitchen, catering, üretim, kiralık merkez mutfak."
           },
           {
-            "title": "Hangi katmanı seçmeliyim?",
-            "content": "**Eğer şunlar geçerliyse Report Lite ile başlayın:**\n• Sundae'yi test ediyorsanız\n• 1-2 lokasyon işletiyorsanız\n• Günlük veya haftalık raporlama yeterliyse\n\n**Eğer şunlar geçerliyse Report Plus veya Pro'ya geçin:**\n• Daha derin tarihsel zekaya ihtiyacınız varsa\n• Günlük raporlama hala yeterliyse\n\n**Eğer şunlar geçerliyse Core Lite veya Pro'yu seçin:**\n• 10+ lokasyon işletiyorsanız\n• Operasyonel hız önemliyse\n• Gerçek zamanlı bütçe takibi önemliyse\n\n**Eğer şunlar geçerliyse Enterprise'ı seçin:**\n• 100+ lokasyonunuz varsa\n• SSO veya beyaz etiket yeteneklerine ihtiyacınız varsa\n• Özel destek ve özel şartlar talep ediyorsanız"
+            "title": "Hangi Core paketini seçmeliyim?",
+            "content": "**Core Foundation şu durumda:**\n• Tablolardan ve kopuk panolardan çıkıyorsanız\n• Derinleşmeden önce tek bir işletme görüntüsü istiyorsanız\n\n**Core Margin şu durumda:**\n• Maliyet, israf, iptaller ya da ikramlar marjınızı yiyorsa\n• Yalnızca satış karması değil, ürün bazında katkı gerekiyorsa\n\n**Core Growth şu durumda:**\n• Tekrarlayan ciro ve kanal karması darboğazsa\n• Misafir kohortları, promosyon atfı ve teslimat marjı gerekiyorsa\n\n**Core Performance şu durumda:**\n• Birden fazla marka ya da pazar işletiyorsanız\n• Konsolidasyon, modüller arası korelasyon ve yönetilen erişim gerekiyorsa"
           },
           {
             "title": "Sonradan yükseltebilir veya düşürebilir miyim?",
             "content": "Evet. İstediğiniz zaman katmanlar arasında geçiş yapabilirsiniz. Tarihsel veriler korunur ve plan değişikliği için ceza yoktur."
           },
           {
-            "title": "4D Zeka Modeli nedir?",
-            "content": "Sundae'nin karar zeka çerçevesi:\n\n**1D: Ne Oldu** - Satış, iş gücü ve maliyet verileri\n**2D: Plan vs Gerçek** - Bütçe ve tahmin farkı\n**3D: Pazar Bağlamı** - Kıyaslamalar, akranlar ve rakipler\n**4D: Sırada Ne Var** - Tahminler ve öneriler\n\n**Report:** Tam 1D ve 2D artı sınırlı 3D ve 4D\n**Core:** Tüm 4 boyutta tam erişim."
+            "title": "4D Intelligence modeli nedir?",
+            "content": "Sundae'nin karar zekası çerçevesi:\n\n**1D: ne oldu** - satış, iş gücü ve maliyet gerçeği\n**2D: plan ve gerçekleşen** - bütçe ve tahmin sapması\n**3D: pazar bağlamı** - kıyaslamalar, emsaller ve rakipler\n**4D: sırada ne var** - tahminler ve öneriler\n\nHer Core paketi dördünü de kapsar. Paket, her boyutun ne kadar derine indiğini belirler."
           }
         ]
       },
@@ -2558,12 +2714,12 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae'nin hangi verilere ihtiyacı var?",
-            "content": "**Report Lite için minimum:**\n• POS satış verileri (CSV dışa aktarma)\n\n**Core için:**\n• API üzerinden POS sistemi\n• İş gücü veya iş gücü sistemi\n• Envanter sistemi\n• Pazarlama platformları\n• Rezervasyon sistemi\n\nReport, POS yüklemeleri etrafında inşa edilmiştir. Core, daha geniş işletim yığınına bağlandığınız yerdir."
+            "title": "Sundae hangi verilere ihtiyaç duyar?",
+            "content": "**Her Core paketi için:**\n• API üzerinden POS sistemi\n• Personel veya iş gücü sistemi\n• Stok sistemi\n• Pazarlama platformları\n• Rezervasyon sistemi\n\nİlk gün değer almak için tek başına POS yeterlidir. Gerisi, bağladıkça resmi derinleştirir."
           },
           {
-            "title": "Verilerimi Sundae'ye nasıl aktarabilirim?",
-            "content": "**Report Lite:** Manuel CSV yüklemesi\n\n**Report Plus:** PDF, Excel dosyaları veya ekran görüntüleri yükleyin. Sundae verileri çıkarır ve işlemden önce gözden geçirirsiniz.\n\n**Report Pro ve Core:** API bağlantıları aracılığıyla otomatik veri alımı"
+            "title": "Verilerimi Sundae'ye nasıl aktarırım?",
+            "content": "POS'unuza ve operasyon yığınınızın geri kalanına API bağlantılarıyla. Bir sistemin API'si yoksa Sundae yapılandırılmış dosya aktarımlarını ve akıllı okunan yüklemeleri kabul eder - PDF, Excel, ekran görüntüsü - siz işleme almadan önce gözden geçirirsiniz."
           },
           {
             "title": "Hangi POS sistemleriyle entegre oluyorsunuz?",
@@ -2571,11 +2727,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Sundae'yi birden fazla POS sistemiyle kullanabilir miyim?",
-            "content": "**Core Lite:** Tüm lokasyonların tek bir POS kullanması en iyisidir.\n\n**Core Pro ve Enterprise:** Evet. Lokasyonlar arasında farklı POS sistemleri desteklenir ve Sundae verileri karşılaştırma için normalize eder.\n\n**Report:** Herhangi bir POS çalışır çünkü yüklemeler manuel."
+            "content": "Evet. Sundae karma POS parklarına bağlanır ve verileri eşit koşullarda karşılaştırma için normalleştirir. Core Performance bunun üzerine markalar ve bölgeler arası konsolidasyon ekler."
           },
           {
-            "title": "Uygulama süresi ne kadar?",
-            "content": "**Report Lite:** Yüklemeden hemen sonra\n**Report Plus / Pro:** 1-2 gün\n**Core Lite / Pro:** 1-2 hafta\n**Enterprise:** Kapsama bağlı olarak 2-4 hafta"
+            "title": "Kurulum ne kadar sürer?",
+            "content": "Çoğu grup 1-2 hafta içinde canlıya çıkar. Daha büyük, çok markalı veya çok bölgeli yayılımlar kapsama göre 2-4 hafta sürer.\n\nKurulum tek seferlik bir ücrettir ve seçiminizdeki en yüksek sınıf üzerinden bir kez alınır - ücretsiz self servisten kapsamı belirlenmiş bir Class D çalışmasına kadar."
           },
           {
             "title": "İptal edersem verilerime ne olur?",
@@ -2589,27 +2745,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Modüller nedir?",
-            "content": "Modüller, Core için özel zeka eklentileridir:\n\n1. **İş Gücü Zekası** - Planlama, verimlilik ve fazla mesai\n2. **Stok Zekası** - Atık, stok seviyeleri ve stok görünürlüğü\n3. **Satın Alma Zekası** - Tedarikçi karşılaştırması ve sözleşme avantajı\n4. **Pazarlama Zekası** - ROI, CAC ve kanal performansı\n5. **Rezervasyon Zekası** - Gelmeme tahmini ve masa optimizasyonu\n\nModüller, canlı, bağlı işletme verilerine bağımlı oldukları için Core gerektirir."
+            "content": "On bir alan modülü, Core içindeki analitik yüzeylerdir. Paketin bileşenleridir; yanında satın alınan eklentiler değil:\n\n{{DOMAIN_MODULE_LINES}}\n\nCanlı bağlı operasyon verisine dayandıkları için Core gerektirirler."
           },
           {
             "title": "Modüllere ihtiyacım var mı?",
-            "content": "Hayır. Modüller isteğe bağlıdır. Belirli bir işletme alanında daha derin bir kapsama ihtiyaç duyduğunuzda ekleyebilirsiniz.\n\n**Yol:**\n• Report'ta -> önce Core'a yükseltin\n• Core'da -> ihtiyaç netleştiğinde modülleri ekleyin"
+            "content": "İsteğe bağlı değiller ve ayrı satın alınmıyorlar. On bir alan modülünün tamamı her Core paketiyle gelir.\n\nSeçtiğiniz şey pakettir ve paket, her modülün ne kadar derine indiğini belirler."
           },
           {
-            "title": "Modüller için Core'a ihtiyacım var mı?",
-            "content": "Evet. Modüller, Core Lite, Core Pro veya Enterprise gerektirir.\n\nİş gücü, envanter, pazarlama, rezervasyonlar ve Report'un doğrudan bağlanmadığı diğer sistemlere canlı bağlantılara dayanırlar."
+            "title": "Tek bir modül satın alabilir miyim?",
+            "content": "Hayır. On bir alan modülü bir Core paketinin bileşenidir, bağımsız ürün değildir ve modül başına fiyat yoktur. Hepsine sahip olmanın yolu paketi seçmektir."
           },
           {
-            "title": "Birden fazla modül ekleyebilir miyim?",
-            "content": "Evet. Beş modülden herhangi birini karıştırıp eşleştirebilirsiniz. Hepsini birlikte satın alma zorunluluğu yoktur."
+            "title": "Modülleri teker teker mi ekliyorum?",
+            "content": "Hayır. Eklenecek bir şey yok. Her Core paketi ilk günden on bir alan modülünün tamamını taşır; seçtiğiniz paket yalnızca her birinin derinliğini belirler."
           },
           {
-            "title": "Hangi modülü önce seçmeliyim?",
-            "content": "En büyük işletme sorunuyla başlayın:\n\n• Yüksek iş gücü maliyeti -> İş Gücü Zekası\n• Atık veya stok sorunları -> Stok Zekası\n• Zayıf tedarikçi avantajı -> Satın Alma Zekası\n• Belirsiz pazarlama ROI'si -> Pazarlama Zekası\n• Rezervasyon gelmeme durumları -> Rezervasyon Zekası"
+            "title": "Önce hangi modüle bakmalıyım?",
+            "content": "Hepsi zaten açık; yani soru neyi satın alacağınız değil, nereye bakmaya başlayacağınız. En büyük operasyonel sıkıntıdan başlayın:\n\n• Yüksek iş gücü maliyeti -> Labor Intelligence\n• İsraf veya stok sorunları -> Inventory Intelligence\n• Zayıf tedarikçi pazarlığı -> Purchasing Intelligence\n• Belirsiz pazarlama getirisi -> Marketing Intelligence\n• Rezervasyonlarda gelmeyenler -> Reservations Intelligence"
           },
           {
-            "title": "Modül fiyatlandırması nasıl çalışır?",
-            "content": "Her modül, ilk 5 lokasyonu kapsayan bir organizasyon lisansı içerir, bu eşik sonrası ek lokasyon fiyatlandırması vardır.\n\nÖrnek: İş Gücü Zekası ile 8 lokasyon = 1 organizasyon lisansı + 3 ek lokasyon.\n\nKesin plan hesaplaması için pricing.sundae.io'yu kullanın."
+            "title": "Modül fiyatlandırması nasıl işliyor?",
+            "content": "Modül fiyatlandırması yok. Modüllerin ne bağımsız bir fiyatı ne de kendine ait bir lokasyon hakkı vardır; satın aldığınız şey pakettir.\n\nBir Core paketi ilk lokasyonunuzdan itibaren, sonra her ek lokasyon için büyüdükçe azalan marjinal bir oranla fiyatlanır. {{WORKED_EXAMPLE}}\n\nKesin hesap için pricing.sundae.io adresini kullanın."
           }
         ]
       },
@@ -2634,8 +2790,8 @@ export const generatedLocalCopy = {
             "content": "Evet. Rekabetçi Zeka, Olay Zekası veya Pazar Zekası'nı ayrı ayrı satın alabilir veya bunları birleştirebilirsiniz."
           },
           {
-            "title": "Watchtower, Core'a ihtiyaç duyar mı?",
-            "content": "Evet. Watchtower, pazar sinyalleri doğrudan canlı işletme verileri üzerine katmanlandığında en iyi şekilde çalışır; bu da Core'un sağladığı şeydir.\n\nEğer sadece yüklenmiş tarihsel POS analizine ihtiyacınız varsa, Report yeterlidir. Günlük operasyonlarla bağlantılı pazar bağlamı istiyorsanız, Core'a geçin."
+            "title": "Watchtower için Core şart mı?",
+            "content": "Evet. Watchtower, pazar sinyalleri canlı operasyon verisinin üzerine bindiğinde en iyi sonucu verir; bunu da bir Core paketi sağlar. Tek başına satılmak yerine paketinizle birlikte kapsamlanır ve fiyatlanır."
           }
         ]
       },
@@ -2645,7 +2801,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae ne kadar?",
-            "content": "Fiyatlandırma şunlara bağlıdır:\n• Report vs Core\n• Lokasyon sayısı\n• Seçilen modüller\n• Watchtower'ın dahil olup olmadığı\n\n**Report Lite:** Sonsuza dek ücretsiz\n\nKesin fiyatlandırma için pricing.sundae.io adresini kullanın."
+            "content": "Fiyat şunlara bağlıdır:\n• Hangi Core paketi\n• Lokasyon sayısı\n• Foresight & Action, Crew veya konsept SKU'larının dahil olup olmadığı\n\nCore paketleri ilk lokasyon için bir çıpayla başlar, ardından her ek lokasyon için büyüdükçe azalan marjinal bir oran uygulanır. Core Foundation ilk lokasyonunuz için {{FOUNDATION_FIRST_UNIT}} seviyesinden başlar.\n\nNet fiyat için pricing.sundae.io adresini kullanın."
           },
           {
             "title": "Kurulum ücreti var mı?",
@@ -2670,20 +2826,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Zeka kredileri nasıl çalışır?",
-            "content": "Zeka kredileri soruları, analizleri ve önerileri destekler.\n\n**Report Lite:** 250 temel + 80 her lokasyon için\n**Report Plus:** 1,200 temel + 300 her lokasyon için\n**Report Pro:** 3,500 temel + 800 her lokasyon için\n**Core Lite:** 8,000 temel + 1,600 her lokasyon için\n**Core Pro:** 14,000 temel + 2,800 her lokasyon için\n**Enterprise:** 50,000+ temel + özel tahsis"
+            "title": "Intelligence kredileri nasıl çalışır?",
+            "content": "Intelligence kredileri soruları, analizleri ve önerileri besler. Her Core paketi aylık bir cüzdanla gelir:\n\n{{AI_WALLET_LINES}}\n\nTükettiğinizde, her pakette yükleme yapabilirsiniz."
           },
           {
-            "title": "Ne kadar geçmişe dönük erişim alırım?",
-            "content": "**Report Lite:** 90 gün\n**Report Plus:** 1 yıl\n**Report Pro:** 2 yıl\n**Core Lite:** 2 yıl\n**Core Pro:** 3 yıl\n**Enterprise:** 5+ yıl veya özel saklama"
+            "title": "Ne kadar geçmişe erişebilirim?",
+            "content": "Her Core paketi bağlı geçmişinizin tamamını çok yıllı saklamayla korur. Enterprise anlaşmaları bunu özel saklama süreleriyle uzatabilir."
           },
           {
-            "title": "Veri ne sıklıkla güncellenir?",
-            "content": "**Report Lite:** Manuel yüklemeler\n**Report Plus:** Manuel veya talep üzerine akıllı ayrıştırma\n**Report Pro:** Günlük otomatik güncelleme\n**Core Lite:** Her 4 saatte bir\n**Core Pro:** Her 2 saatte bir\n**Enterprise:** Özel ritim, kapsam dahilinde gerçek zamanlı güncellemeler de dahil"
+            "title": "Veriler ne sıklıkla yenilenir?",
+            "content": "Core, gün sonunda değil vardiya boyunca yenilenir; böylece Pulse ve alan modülleri siz hâlâ müdahale edebilirken hareket eder. Kesin sıklık, bağlı sistemlerinizin neyi paylaştığına bağlıdır."
           },
           {
-            "title": "Özel panolar alır mıyım?",
-            "content": "**Report katmanları:** Önceden hazırlanmış panolar\n**Core Lite:** 30'a kadar özel pano\n**Core Pro:** 75'e kadar özel pano\n**Enterprise:** Sınırsız özel pano."
+            "title": "Özel gösterge panoları alıyor muyum?",
+            "content": "Evet. Her Core paketi, her alan modülüyle gelen hazır görünümlerin üzerine özel gösterge panoları içerir."
           }
         ]
       },
@@ -2692,12 +2848,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Hangi destekleri alıyorum?",
-            "content": "**Report Lite:** E-posta desteği\n**Report Plus:** E-posta ve sohbet\n**Report Pro:** Öncelikli destek\n**Core Lite:** E-posta, sohbet ve telefon\n**Core Pro:** Daha hızlı öncelikli telefon desteği\n**Enterprise:** 7/24 destek ve özel müşteri başarı lideri"
+            "title": "Hangi desteği alıyorum?",
+            "content": "Her Core paketi e-posta, sohbet ve telefon desteğini içerir. Enterprise anlaşmaları 7/24 kapsama, sözleşmeye bağlı yanıt süreleri ve özel bir müşteri başarısı sorumlusu ekler."
           },
           {
-            "title": "Eğitim sağlıyor musunuz?",
-            "content": "Evet.\n\n**Report:** Kendin yap onboarding ve dokümantasyon\n**Core Lite:** Rehberli eğitim oturumları\n**Core Pro:** Özel eğitim programı\n**Enterprise:** Yapılandırılmış onboarding ve yetkilendirme"
+            "title": "Eğitim veriyor musunuz?",
+            "content": "Evet. Eğitim, kurulumun parçasıdır ve seçiminizdeki en yüksek sınıf üzerinden bir kez ücretlendirilir - ücretsiz self servis dokümantasyon, üst sınıflarda rehberli oturumlar ve yapılandırılmış yetkinlik programı."
           },
           {
             "title": "Hangi saat dilimlerini destekliyorsunuz?",
@@ -2746,16 +2902,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Sundae, POS raporlamasından nasıl farklıdır?",
-            "content": "**POS raporları:** Tek sistem, sınırlı bağlam, manuel yorumlama\n\n**Sundae Report:** POS analizi artı kıyaslamalar, öneriler ve desen tespiti\n\n**Sundae Core:** Report'taki her şey artı iş gücü, envanter, pazarlama, rezervasyonlar ve diğer sistemlerden hızlı güncellemelerle birleştirilmiş veriler"
+            "title": "Sundae, POS raporlamasından nasıl ayrılır?",
+            "content": "**POS raporları:** tek sistem, sınırlı bağlam, elle yorum\n\n**Sundae Core:** POS analizinin yanında kıyaslamalar, öneriler ve örüntü tespiti; iş gücü, maliyet ve misafiri tek bir işletme görüntüsünde birleştirir\n\n**Foresight & Action:** bunun üzerine ileriye bakış - tahminler, senaryolar ve ortaya çıkanlara göre harekete geçen katman"
           },
           {
             "title": "Sundae, Excel'den nasıl farklıdır?",
             "content": "**Excel:** Manuel giriş, statik analiz, paylaşılan zeka katmanı yok\n\n**Sundae:** Otomatik veri alma, yapılandırılmış kıyaslamalar, canlı panolar ve her hafta manuel analiz süresini azaltan öneriler"
           },
           {
-            "title": "Eski analiz araçlarına kıyasla ne kadar tasarruf edebilirim?",
-            "content": "Operatörler genellikle Sundae'nin modül başına ve lokasyon başına ücretlendirme yerine katmanlı fiyatlandırma kullandığı için toplam maliyetin önemli ölçüde daha düşük olduğunu bildiriyor. Kesin tasarruf, mevcut araç karışımınıza ve işletme kapsamınıza bağlıdır."
+            "title": "Klasik analitik araçlara kıyasla ne kadar tasarruf ederim?",
+            "content": "İşletmeciler çoğu zaman belirgin biçimde daha düşük toplam maliyet bildiriyor; çünkü bir Core paketi modül başına ve lokasyon başına ücretleri üst üste yığmak yerine on bir alan modülünün tamamını zaten içeriyor. Kesin fark, mevcut araç bileşiminize ve operasyon büyüklüğünüze bağlıdır."
           }
         ]
       },
@@ -2764,8 +2920,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Sadece bir lokasyonum var. Sundae hala uygun mu?",
-            "content": "Evet. Ücretsiz kıyaslama için Report Lite ile başlayın, ardından operasyonunuz daha fazla hız ve zeka gerektiriyorsa daha derin Report katmanlarına veya Core'a geçin."
+            "title": "Tek bir şubem var. Sundae yine de uygun mu?",
+            "content": "Evet. Tek şube yalnızca paket çıpasını taşır ve elli şubelik bir grubun aldığı on bir modülün aynısını alır. Lokasyon bantları ancak şube eklemeye başladığınızda önem kazanır."
           },
           {
             "title": "Ben bir franchise platformuyum. Sundae yardımcı olabilir mi?",
@@ -2780,6 +2936,32 @@ export const generatedLocalCopy = {
             "content": "Evet. Watchtower ve pazar istihbaratı, ticaret alanı analizi, doygunluk incelemesi, rakip hareket takibi ve hizmet verilmeyen bölgelerin önceliklendirilmesi konusunda destek olabilir."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew nedir?",
+            "content": "Sundae Crew, ekiplerinizi yöneten operasyon paketidir: vardiya planlama, giriş-çıkış takibi, bordro hazırlığı, İK kayıtları ve iş gücü analitiği. Planlanan her vardiya, kaydedilen her saat ve dosyalanan her kayıt, decision intelligence'ınıza geri akan bir sinyale dönüşür - böylece operasyon ve içgörü tek bir sistemi paylaşır."
+          },
+          {
+            "title": "Crew ne yapabilir?",
+            "content": "**Beş bağlantılı modül:**\n\n1. **Scheduling** - Uygunluk kontrolleri ve bir yapay zeka oluşturucu ile talebe duyarlı vardiya planlama\n2. **Giriş-çıkış takibi** - Giriş/çıkış, coğrafi sınırlandırma, mola beyanı ve puantaj onayları\n3. **Payroll** - Çok bölgeli bordro hazırlığı ve yasal dışa aktarımlar (hazırlık ve dışa aktarım, bir vergi motoru değil)\n4. **Kişiler & İK** - İşe alımdan ayrılışa kadar çalışan kayıtları ve belgeleri\n5. **People Intelligence** - İş gücü analitiği, gelmeme riski ve iş gücü maliyeti trendleri"
+          },
+          {
+            "title": "Crew bordrosu hangi bölgeleri destekler?",
+            "content": "Crew'in bordro hazırlığı ve yasal dışa aktarımları şu anda **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Amerika Birleşik Devletleri** (federal ve tüm eyaletler), **Kanada**, **Birleşik Krallık** ve **Avrupa Birliği** (27 üye devletin tamamı) kapsar. Latin Amerika ve APAC yol haritasındadır. Crew bordroyu hazırlar ve dışa aktarır - bir vergi motoru değildir ve yasal kurallar sürümlenmiş ülke paketlerinden gelir."
+          },
+          {
+            "title": "Crew kullanmak için Core'a ihtiyacım var mı?",
+            "content": "Hayır. Crew, operasyon sisteminiz olarak tek başına çalışabilir veya Core ile birlikte çalışarak sinyalini Labor Intelligence, Pulse ve Foresight'a besleyebilir. Kendi İK veya bordro sağlayıcınızı da getirebilirsiniz - Crew tasarım gereği isteğe bağlıdır."
+          },
+          {
+            "title": "Crew ne kadar?",
+            "content": "**Crew SKU'ları (sabit aylık, lokasyon başına ücret yok):**\n\n{{CREW_SKU_LINES}}\n\n**Paketler (her biri kendi net fiyatını taşır - içindeki SKU'lara indirim değildir):**\n\n{{CREW_BUNDLE_LINES}}\n\nKesin hesap için pricing.sundae.io adresini kullanın."
+          }
+        ]
       }
     ],
     "pl": [
@@ -2792,20 +2974,20 @@ export const generatedLocalCopy = {
             "content": "Sundae to platforma inteligencji decyzyjnej dla restauracji i zespołów z branży hotelarskiej. Zbiera rozproszone dane operacyjne w jednym miejscu, aby liderzy mogli zobaczyć, co się wydarzyło, co się zmienia i gdzie działać dalej."
           },
           {
-            "title": "Jak mogę zacząć?",
-            "content": "Masz trzy opcje:\n\n1. **Zacznij za darmo** - Zarejestruj się w Report Lite (za darmo na zawsze) i załaduj swoje dane operacyjne, aby zobaczyć natychmiastowe porównania. Nie jest wymagana karta kredytowa.\n\n2. **Zobacz swoje ceny** - Skorzystaj z naszego interaktywnego kalkulatora cen na pricing.sundae.io, aby zobaczyć dokładne ceny dla swojej operacji.\n\n3. **Umów się na demo** - Zaplanuj 15-minutowy spacer z naszym zespołem, aby zobaczyć Sundae w akcji z Twoimi danymi."
+            "title": "Jak zacząć?",
+            "content": "Masz dwie możliwości:\n\n1. **Zobacz swoją cenę** - Skorzystaj z interaktywnego kalkulatora na pricing.sundae.io, aby dobrać pakiet Core do liczby lokalizacji.\n\n2. **Umów demo** - Zarezerwuj 15-minutowy przegląd z naszym zespołem i zobacz Sundae na swoich danych."
           },
           {
-            "title": "Czy naprawdę jest darmowy poziom?",
-            "content": "Tak. Report Lite jest za darmo na zawsze. Załaduj swoje dane POS i uzyskaj natychmiastowe porównania w oparciu o 5 podstawowych wskaźników. Obowiązuje zasada uczciwego użytkowania dla rozsądnego wykorzystania operacyjnego."
+            "title": "Czy jest darmowy plan?",
+            "content": "Nie. Każdy pakiet Sundae jest płatny, już od pierwszej lokalizacji. Oferujemy natomiast sesję roboczą na twoich własnych liczbach przed decyzją, żebyś zobaczył zwrot, zanim cokolwiek podpiszesz."
           },
           {
-            "title": "Jaka jest różnica między Report a Core?",
-            "content": "**Poziom Report** = Analiza historyczna (dane POS)\n• Ładuj dane POS codziennie, co tydzień lub co miesiąc\n• Analizuj, co się wydarzyło\n• Porównuj się z rówieśnikami\n• Najlepsze dla jednej lokalizacji lub dowodu koncepcji\n\n**Poziom Core** = Operacje w czasie rzeczywistym (POS + wszystkie systemy)\n• Cykl odświeżania 2-4 godziny\n• Integruje POS + pracę + zapasy + marketing + rezerwacje\n• Zobacz, co się dzieje teraz\n• Otrzymuj powiadomienia predykcyjne\n• Najlepsze dla operatorów wielolokalizacyjnych\n\nKluczowa różnica: Report = tylko POS. Core = POS plus reszta Twojego stosu."
+            "title": "Czym różnią się pakiety Core?",
+            "content": "**Core Foundation** - baza operacyjna: jeden fundament decyzyjny nad POS, pracą, kosztem i operacjami.\n\n**Core Margin** - głębia w kosztach i wyciekach: zużycie teoretyczne kontra rzeczywiste, straty, ubytki, anulacje i gratisy, kontrybucja pozycji.\n\n**Core Growth** - głębia w popycie: kohorty gości i wartość w czasie, atrybucja promocji wg kanału, marża dostaw po prowizji.\n\n**Core Performance** - konsolidacja wielu marek i regionów, korelacja między modułami, kontrolowany dostęp ze śladem audytowym.\n\nWszystkie cztery niosą te same jedenaście modułów. Zmienia się głębia."
           },
           {
-            "title": "Czy potrzebuję długoterminowej umowy?",
-            "content": "Nie. Poziomy Report i Core są miesięczne. Możesz anulować w dowolnym momencie bez kary. Wdrożenia dla przedsiębiorstw zazwyczaj korzystają z rocznych umów z dostosowanymi warunkami."
+            "title": "Czy potrzebuję długiej umowy?",
+            "content": "Nie. Każdy pakiet jest dostępny miesięcznie i możesz zrezygnować bez kary. Zobowiązania roczne i dwuletnie istnieją, bo kosztują mniej - 10% i 15% taniej - a nie dlatego, że są wymagane."
           }
         ]
       },
@@ -2815,19 +2997,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Jakie produkty oferuje Sundae?",
-            "content": "**Trzy główne produkty:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analiza historyczna i benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operacje w czasie rzeczywistym i inteligencja predykcyjna\n3. **Watchtower** (Konkurencyjny / Wydarzenie / Rynek) - Zewnętrzna inteligencja rynkowa\n\n**Dodatkowo:**\n\n4. **Moduły** - Inteligencja dotycząca pracy, zapasów, zakupów, marketingu i rezerwacji."
+            "content": "**Cztery główne produkty:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - fundament decyzyjny, niosący wszystkie jedenaście modułów\n2. **Foresight & Action** - prognozy, modelowanie scenariuszy i warstwa działania z akceptacją człowieka\n3. **Sundae Crew** - fundament kadrowy: grafiki, ewidencja czasu, gotowość płacowa, HR i people intelligence\n4. **Watchtower** - zewnętrzna inteligencja rynkowa, wyceniana razem z pakietem Core\n\n**Dodatkowo:** SKU koncepcyjne dla modeli działania twojej grupy - franczyza, F&B hotelowe, cloud kitchen, catering, produkcja, wynajmowana kuchnia centralna."
           },
           {
-            "title": "Którą wersję powinienem wybrać?",
-            "content": "**Zacznij od Report Lite, jeśli:**\n• Testujesz Sundae\n• Prowadzisz 1-2 lokalizacje\n• Codzienne lub tygodniowe raportowanie wystarcza\n\n**Ulepsz do Report Plus lub Pro, jeśli:**\n• Potrzebujesz głębszej inteligencji historycznej\n• Codzienne raportowanie nadal wystarcza\n\n**Wybierz Core Lite lub Pro, jeśli:**\n• Prowadzisz 10+ lokalizacji\n• Potrzebujesz szybkości operacyjnej\n• Śledzenie budżetu w czasie rzeczywistym ma znaczenie\n\n**Wybierz Enterprise, jeśli:**\n• Masz 100+ lokalizacji\n• Potrzebujesz możliwości SSO lub białej etykiety\n• Wymagasz dedykowanego wsparcia i niestandardowych warunków"
+            "title": "Który pakiet Core wybrać?",
+            "content": "**Core Foundation, jeśli:**\n• Odchodzisz od arkuszy i niepołączonych pulpitów\n• Chcesz najpierw jeden obraz operacyjny, zanim pójdziesz głębiej\n\n**Core Margin, jeśli:**\n• Koszt surowca, straty, anulacje lub gratisy zjadają twoją marżę\n• Potrzebujesz kontrybucji pozycji, nie tylko miksu sprzedaży\n\n**Core Growth, jeśli:**\n• Ograniczeniem są przychód powtarzalny i miks kanałów\n• Potrzebujesz kohort gości, atrybucji promocji i marży dostaw\n\n**Core Performance, jeśli:**\n• Prowadzisz kilka marek lub kilka rynków\n• Potrzebujesz konsolidacji, korelacji między modułami i kontrolowanego dostępu"
           },
           {
             "title": "Czy mogę później zaktualizować lub obniżyć wersję?",
             "content": "Tak. Możesz przechodzić między wersjami w dowolnym momencie. Dane historyczne są zachowane, a zmiana planu nie wiąże się z żadnymi karami."
           },
           {
-            "title": "Czym jest model inteligencji 4D?",
-            "content": "Ramowy model Sundae dla inteligencji decyzyjnej:\n\n**1D: Co się stało** - Dane o sprzedaży, pracy i kosztach\n**2D: Plan vs Rzeczywistość** - Odchylenia budżetowe i prognozy\n**3D: Kontekst rynkowy** - Benchmarki, rówieśnicy i konkurenci\n**4D: Co dalej** - Prognozy i rekomendacje\n\n**Report:** Pełny dostęp do 1D i 2D oraz ograniczony 3D i 4D\n**Core:** Pełny dostęp we wszystkich 4 wymiarach."
+            "title": "Czym jest model 4D Intelligence?",
+            "content": "Rama Sundae dla inteligencji decyzyjnej:\n\n**1D: co się wydarzyło** - prawda o sprzedaży, pracy i koszcie\n**2D: plan kontra wykonanie** - odchylenie od budżetu i prognozy\n**3D: kontekst rynkowy** - benchmarki, porównywalni i konkurenci\n**4D: co dalej** - prognozy i rekomendacje\n\nKażdy pakiet Core obejmuje wszystkie cztery. Pakiet ustala, jak głęboko sięga każdy wymiar."
           }
         ]
       },
@@ -2836,12 +3018,12 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Jakie dane potrzebuje Sundae?",
-            "content": "**Minimum dla Report Lite:**\n• Dane sprzedaży z POS (eksport CSV)\n\n**Dla Core:**\n• System POS przez API\n• System pracy lub zatrudnienia\n• System zarządzania zapasami\n• Platformy marketingowe\n• System rezerwacji\n\nReport opiera się na przesyłaniu danych z POS. Core to miejsce, w którym łączysz szerszy stos operacyjny."
+            "title": "Jakich danych potrzebuje Sundae?",
+            "content": "**Dla każdego pakietu Core:**\n• System POS przez API\n• System kadrowy lub grafikowy\n• System magazynowy\n• Platformy marketingowe\n• System rezerwacji\n\nSam POS wystarczy, by uzyskać wartość pierwszego dnia. Reszta pogłębia obraz, w miarę jak ją podłączasz."
           },
           {
-            "title": "Jak mogę wprowadzić moje dane do Sundae?",
-            "content": "**Report Lite:** Ręczne przesyłanie CSV\n\n**Report Plus:** Przesyłaj pliki PDF, Excel lub zrzuty ekranu. Sundae wyodrębnia dane, a Ty przeglądasz je przed przetworzeniem.\n\n**Report Pro i Core:** Automatyczne wprowadzanie przez połączenia API"
+            "title": "Jak moje dane trafiają do Sundae?",
+            "content": "Przez połączenia API z twoim POS i resztą stosu operacyjnego. Tam gdzie system nie ma API, Sundae przyjmuje ustrukturyzowane pliki i inteligentnie odczytywane wgrania - PDF, Excel, zrzuty ekranu - które sprawdzasz przed przetworzeniem."
           },
           {
             "title": "Z jakimi systemami POS integrujecie się?",
@@ -2849,11 +3031,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Czy mogę używać Sundae z wieloma systemami POS?",
-            "content": "**Core Lite:** Najlepsze, gdy wszystkie lokalizacje używają jednego POS\n\n**Core Pro i Enterprise:** Tak. Różne systemy POS w różnych lokalizacjach są wspierane, a Sundae normalizuje dane dla porównań jeden do jednego.\n\n**Report:** Każdy POS działa, ponieważ przesyłanie jest ręczne."
+            "content": "Tak. Sundae łączy mieszane parki POS i normalizuje dane do porównań na równych zasadach. Core Performance dokłada do tego konsolidację między markami i regionami."
           },
           {
-            "title": "Jak długo trwa wdrożenie?",
-            "content": "**Report Lite:** Natychmiast po przesłaniu\n**Report Plus / Pro:** 1-2 dni\n**Core Lite / Pro:** 1-2 tygodnie\n**Enterprise:** 2-4 tygodnie w zależności od zakresu"
+            "title": "Ile trwa wdrożenie?",
+            "content": "Większość grup działa w 1-2 tygodnie. Większe wdrożenia wielomarkowe lub wieloregionalne zajmują 2-4 tygodnie w zależności od zakresu.\n\nWdrożenie to opłata jednorazowa, naliczana raz według najwyższej klasy w twoim wyborze - od bezpłatnego self-service po określone zaangażowanie Class D."
           },
           {
             "title": "Co się stanie z moimi danymi, jeśli anuluję?",
@@ -2867,27 +3049,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Czym są moduły?",
-            "content": "Moduły to specjalistyczne dodatki inteligencji dla Core:\n\n1. **Inteligencja Pracy** - Harmonogramowanie, wydajność i nadgodziny\n2. **Inteligencja Zapasów** - Marnotrawstwo, poziomy zapasów i widoczność stanu\n3. **Inteligencja Zakupów** - Porównanie dostawców i wykorzystanie umów\n4. **Inteligencja Marketingowa** - ROI, CAC i wydajność kanałów\n5. **Inteligencja Rezerwacji** - Prognozowanie nieobecności i optymalizacja stolików\n\nModuły wymagają Core, ponieważ zależą od danych operacyjnych w czasie rzeczywistym."
+            "content": "Jedenaście modułów dziedzinowych to powierzchnie analityczne wewnątrz Core. To składniki pakietu, a nie dodatki kupowane osobno:\n\n{{DOMAIN_MODULE_LINES}}\n\nWymagają Core, bo opierają się na na żywo podłączonych danych operacyjnych."
           },
           {
             "title": "Czy potrzebuję modułów?",
-            "content": "Nie. Moduły są opcjonalne. Dodaj je, gdy chcesz uzyskać głębszy wgląd w konkretny obszar operacyjny.\n\n**Ścieżka:**\n• W Report -> najpierw zaktualizuj do Core\n• W Core -> dodaj moduły, gdy potrzeba jest jasna"
+            "content": "Nie są opcjonalne i nie są osobnym zakupem. Wszystkie jedenaście modułów wchodzi w skład każdego pakietu Core.\n\nWybierasz pakiet, a pakiet ustala, jak głęboko sięga każdy moduł."
           },
           {
-            "title": "Czy potrzebuję Core do modułów?",
-            "content": "Tak. Moduły wymagają Core Lite, Core Pro lub Enterprise.\n\nOpierają się na połączeniach w czasie rzeczywistym z systemami pracy, zapasów, marketingu, rezerwacji i innymi systemami, z którymi Report nie łączy się bezpośrednio."
+            "title": "Czy mogę kupić pojedynczy moduł?",
+            "content": "Nie. Jedenaście modułów to składniki pakietu Core, a nie samodzielne produkty, i nie ma ceny za moduł. Wybór pakietu to sposób, by mieć je wszystkie."
           },
           {
-            "title": "Czy mogę dodać wiele modułów?",
-            "content": "Tak. Łącz i dopasowuj dowolne z pięciu modułów. Nie ma wymogu zakupu wszystkich razem."
+            "title": "Czy dodaje się moduły po kolei?",
+            "content": "Nie. Nie ma czego dodawać. Każdy pakiet Core niesie wszystkie jedenaście modułów od pierwszego dnia - wybrany pakiet ustala jedynie, jak głęboko sięga każdy z nich."
           },
           {
-            "title": "Który moduł powinienem wybrać jako pierwszy?",
-            "content": "Zacznij od największego problemu operacyjnego:\n\n• Wysokie koszty pracy -> Inteligencja Pracy\n• Problemy z marnotrawstwem lub zapasami -> Inteligencja Zapasów\n• Słabe wykorzystanie dostawców -> Inteligencja Zakupów\n• Niejasne ROI marketingowe -> Inteligencja Marketingowa\n• Nieobecności w rezerwacjach -> Inteligencja Rezerwacji"
+            "title": "Od którego modułu zacząć?",
+            "content": "Wszystkie są już włączone, więc chodzi o to, gdzie zacząć patrzeć, a nie co kupić. Zacznij od największego bólu operacyjnego:\n\n• Wysoki koszt pracy -> Labor Intelligence\n• Straty lub problemy magazynowe -> Inventory Intelligence\n• Słaba dźwignia u dostawców -> Purchasing Intelligence\n• Niejasny ROI marketingu -> Marketing Intelligence\n• Nieodwołane rezerwacje -> Reservations Intelligence"
           },
           {
             "title": "Jak działa wycena modułów?",
-            "content": "Każdy moduł zawiera licencję organizacyjną, która obejmuje pierwsze 5 lokalizacji, plus dodatkowe ceny lokalizacji powyżej tego progu.\n\nPrzykład: 8 lokalizacji z Inteligencją Pracy = 1 licencja organizacyjna + 3 dodatkowe lokalizacje.\n\nUżyj pricing.sundae.io, aby uzyskać dokładne obliczenia planu."
+            "content": "Nie ma wyceny modułów. Moduły nie mają własnej ceny ani własnego limitu lokalizacji - kupujesz pakiet.\n\nPakiet Core liczony jest od pierwszej lokalizacji, a potem według stawki krańcowej za każdą kolejną, która maleje wraz ze wzrostem. {{WORKED_EXAMPLE}}\n\nDokładne wyliczenie znajdziesz na pricing.sundae.io."
           }
         ]
       },
@@ -2913,7 +3095,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Czy Watchtower wymaga Core?",
-            "content": "Tak. Watchtower działa najlepiej, gdy jego sygnały rynkowe są bezpośrednio nakładane na dane operacyjne w czasie rzeczywistym, co zapewnia Core.\n\nJeśli potrzebujesz tylko przesłanej analizy historycznej POS, Report wystarczy. Jeśli chcesz kontekstu rynkowego powiązanego z codziennymi operacjami, przejdź do Core."
+            "content": "Tak. Watchtower działa najlepiej, gdy jego sygnały rynkowe nakładają się na żywe dane operacyjne, a te daje pakiet Core. Jest wyceniany razem z twoim pakietem, a nie sprzedawany osobno."
           }
         ]
       },
@@ -2923,7 +3105,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Ile kosztuje Sundae?",
-            "content": "Ceny zależą od:\n• Report vs Core\n• Liczba lokalizacji\n• Wybrane moduły\n• Czy Watchtower jest wliczony\n\n**Report Lite:** Zawsze za darmo\n\nAby uzyskać dokładne ceny, odwiedź pricing.sundae.io."
+            "content": "Cena zależy od:\n• Wybranego pakietu Core\n• Liczby lokalizacji\n• Tego, czy dochodzą Foresight & Action, Crew lub SKU koncepcyjne\n\nPakiety Core wyceniane są od kotwicy za pierwszą lokalizację plus stawka krańcowa za każdą kolejną, malejąca wraz ze wzrostem. Core Foundation zaczyna się od {{FOUNDATION_FIRST_UNIT}} za pierwszą lokalizację.\n\nDokładną wycenę znajdziesz na pricing.sundae.io."
           },
           {
             "title": "Czy są opłaty za konfigurację?",
@@ -2949,19 +3131,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Jak działają kredyty inteligencji?",
-            "content": "Kredyty inteligencji zasilają pytania, analizy i rekomendacje.\n\n**Report Lite:** 250 podstawowych + 80 za lokalizację\n**Report Plus:** 1,200 podstawowych + 300 za lokalizację\n**Report Pro:** 3,500 podstawowych + 800 za lokalizację\n**Core Lite:** 8,000 podstawowych + 1,600 za lokalizację\n**Core Pro:** 14,000 podstawowych + 2,800 za lokalizację\n**Enterprise:** 50,000+ podstawowych + niestandardowy podział"
+            "content": "Kredyty inteligencji zasilają pytania, analizy i rekomendacje. Każdy pakiet Core ma miesięczny portfel:\n\n{{AI_WALLET_LINES}}\n\nJeśli go wyczerpiesz, możesz doładować przy każdym pakiecie."
           },
           {
-            "title": "Jak długo mam dostęp do danych historycznych?",
-            "content": "**Report Lite:** 90 dni\n**Report Plus:** 1 rok\n**Report Pro:** 2 lata\n**Core Lite:** 2 lata\n**Core Pro:** 3 lata\n**Enterprise:** 5+ lat lub niestandardowy okres przechowywania"
+            "title": "Do jakiej historii mam dostęp?",
+            "content": "Każdy pakiet Core przechowuje pełną podłączoną historię z wieloletnią retencją. Umowy Enterprise mogą ją wydłużyć o indywidualne terminy przechowywania."
           },
           {
-            "title": "Jak często dane są aktualizowane?",
-            "content": "**Report Lite:** Ręczne przesyłanie\n**Report Plus:** Ręczne lub inteligentnie analizowane na żądanie\n**Report Pro:** Codzienna automatyczna aktualizacja\n**Core Lite:** Co 4 godziny\n**Core Pro:** Co 2 godziny\n**Enterprise:** Niestandardowa częstotliwość, w tym w czasie rzeczywistym, gdy jest to wymagane"
+            "title": "Jak często odświeżają się dane?",
+            "content": "Core odświeża się w trakcie zmiany, a nie na koniec dnia, dzięki czemu Pulse i moduły dziedzinowe zmieniają się, póki jeszcze możesz zareagować. Dokładny rytm zależy od tego, co udostępniają twoje podłączone systemy."
           },
           {
-            "title": "Czy otrzymam niestandardowe pulpity nawigacyjne?",
-            "content": "**Poziomy raportów:** Wstępnie zbudowane pulpity nawigacyjne\n**Core Lite:** Do 30 niestandardowych pulpitów nawigacyjnych\n**Core Pro:** Do 75 niestandardowych pulpitów nawigacyjnych\n**Enterprise:** Nielimitowane niestandardowe pulpity nawigacyjne"
+            "title": "Czy dostanę własne pulpity?",
+            "content": "Tak. Każdy pakiet Core zawiera własne pulpity obok gotowych widoków dostarczanych z każdym modułem dziedzinowym."
           }
         ]
       },
@@ -2970,12 +3152,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Jakie wsparcie otrzymam?",
-            "content": "**Report Lite:** Wsparcie e-mailowe\n**Report Plus:** Wsparcie e-mailowe i czat\n**Report Pro:** Wsparcie priorytetowe\n**Core Lite:** Wsparcie e-mailowe, czat i telefon\n**Core Pro:** Szybsze wsparcie telefoniczne priorytetowe\n**Enterprise:** Wsparcie 24/7 oraz dedykowany lider sukcesu klienta"
+            "title": "Jakie wsparcie otrzymuję?",
+            "content": "Każdy pakiet Core obejmuje wsparcie mailowe, czat i telefon. Umowy Enterprise dokładają całodobową obsługę, umowne czasy reakcji i dedykowaną osobę od customer success."
           },
           {
-            "title": "Czy oferujecie szkolenia?",
-            "content": "Tak.\n\n**Report:** Samodzielne wprowadzenie i dokumentacja\n**Core Lite:** Prowadzone sesje szkoleniowe\n**Core Pro:** Spersonalizowany program szkoleniowy\n**Enterprise:** Strukturalne wprowadzenie i wsparcie"
+            "title": "Czy prowadzicie szkolenia?",
+            "content": "Tak. Szkolenie jest częścią wdrożenia, rozliczanego jednorazowo według najwyższej klasy w twoim wyborze - bezpłatna dokumentacja self-service, prowadzone sesje i uporządkowane wdrażanie w wyższych klasach."
           },
           {
             "title": "Jakie strefy czasowe wspieracie?",
@@ -3024,16 +3206,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Jak Sundae różni się od raportowania POS?",
-            "content": "**Raporty POS:** Jeden system, ograniczony kontekst, ręczna interpretacja\n\n**Sundae Report:** Analiza POS plus benchmarki, rekomendacje i wykrywanie wzorców\n\n**Sundae Core:** Wszystko w Report plus zintegrowane dane z pracy, zapasów, marketingu, rezerwacji i innych systemów z szybszym odświeżaniem"
+            "title": "Czym Sundae różni się od raportów z POS?",
+            "content": "**Raporty POS:** jeden system, ograniczony kontekst, ręczna interpretacja\n\n**Sundae Core:** analiza POS plus benchmarki, rekomendacje i wykrywanie wzorców, w poprzek pracy, kosztu i gościa w jednym obrazie operacyjnym\n\n**Foresight & Action:** widok w przód na wierzchu - prognozy, scenariusze i warstwa, która działa na to, co wychodzi na jaw"
           },
           {
             "title": "Jak Sundae różni się od Excela?",
             "content": "**Excel:** Ręczne wprowadzanie, statyczna analiza, brak wspólnej warstwy inteligencji\n\n**Sundae:** Zautomatyzowane pobieranie, strukturalne benchmarki, interaktywne pulpity nawigacyjne i rekomendacje, które skracają czas ręcznej analizy każdego tygodnia"
           },
           {
-            "title": "Ile mogę zaoszczędzić w porównaniu do tradycyjnych narzędzi analitycznych?",
-            "content": "Operatorzy często zgłaszają znacznie niższe całkowite koszty, ponieważ Sundae stosuje ceny oparte na poziomach zamiast naliczać opłaty za każdy moduł i lokalizację. Dokładne oszczędności zależą od obecnego zestawu narzędzi i zakresu działalności."
+            "title": "Ile zaoszczędzę wobec klasycznych narzędzi analitycznych?",
+            "content": "Operatorzy często raportują wyraźnie niższy koszt całkowity, bo pakiet Core zawiera już wszystkie jedenaście modułów zamiast piętrzyć opłaty za moduł i za lokalizację. Dokładna różnica zależy od twojego obecnego zestawu narzędzi i skali działania."
           }
         ]
       },
@@ -3042,8 +3224,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Mam tylko jedną lokalizację. Czy Sundae nadal będzie odpowiedni?",
-            "content": "Tak. Zacznij od Report Lite, aby uzyskać darmowe porównania, a następnie przejdź do głębszych poziomów Report lub Core, jeśli Twoja operacja potrzebuje większej szybkości i inteligencji."
+            "title": "Mam tylko jedną lokalizację. Czy Sundae ma sens?",
+            "content": "Tak. Pojedyncza lokalizacja niesie kotwicę pakietu i nic więcej, a dostaje te same jedenaście modułów co grupa z pięćdziesięcioma lokalizacjami. Progi lokalizacyjne zaczynają mieć znaczenie dopiero, gdy dokładasz kolejne."
           },
           {
             "title": "Jestem platformą franczyzową. Czy Sundae może pomóc?",
@@ -3056,6 +3238,32 @@ export const generatedLocalCopy = {
           {
             "title": "Planujemy ekspansję. Czy Sundae może pomóc?",
             "content": "Tak. Watchtower i inteligencja rynkowa mogą wspierać analizę obszarów handlowych, przegląd nasycenia, śledzenie ruchów konkurencji oraz priorytetyzację niedostatecznie obsługiwanych terytoriów."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Czym jest Sundae Crew?",
+            "content": "Sundae Crew to pakiet operacyjny, który zarządza Twoimi ludźmi: grafiki, ewidencja czasu pracy, przygotowanie listy płac, dane HR i analityka kadrowa. Każda zaplanowana zmiana, każda zarejestrowana godzina i każdy złożony dokument staje się sygnałem, który wraca do Twojej decision intelligence - dzięki czemu operacje i wgląd korzystają z jednego systemu."
+          },
+          {
+            "title": "Co potrafi Crew?",
+            "content": "**Pięć połączonych modułów:**\n\n1. **Scheduling** - Planowanie zmian oparte na popycie z kontrolą uprawnień i kreatorem AI\n2. **Ewidencja czasu pracy** - Rejestracja wejść/wyjść, geofencing, potwierdzanie przerw i zatwierdzanie kart pracy\n3. **Payroll** - Wielorregionowe przygotowanie listy płac i eksporty ustawowe (przygotowanie i eksport, a nie silnik podatkowy)\n4. **Ludzie & HR** - Akta pracowników i dokumenty od zatrudnienia do odejścia\n5. **People Intelligence** - Analityka kadrowa, ryzyko nieobecności i trendy kosztów pracy"
+          },
+          {
+            "title": "Które regiony obsługuje payroll Crew?",
+            "content": "Przygotowanie listy płac i eksporty ustawowe Crew obejmują obecnie **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Stany Zjednoczone** (federalne plus wszystkie stany), **Kanadę**, **Wielką Brytanię** oraz **Unię Europejską** (wszystkie 27 państw członkowskich). Ameryka Łacińska i APAC są w planach. Crew przygotowuje i eksportuje listę płac - nie jest to silnik podatkowy, a przepisy ustawowe pochodzą z wersjonowanych pakietów krajowych."
+          },
+          {
+            "title": "Czy potrzebuję Core, aby używać Crew?",
+            "content": "Nie. Crew może działać samodzielnie jako Twój system operacyjny lub obok Core, aby jego sygnał zasilał Labor Intelligence, Pulse i Foresight. Możesz też korzystać z własnego dostawcy HR lub listy płac - Crew jest opcjonalny z założenia."
+          },
+          {
+            "title": "Ile kosztuje Crew?",
+            "content": "**SKU Crew (stała opłata miesięczna, bez opłat za lokalizację):**\n\n{{CREW_SKU_LINES}}\n\n**Pakiety (każdy ma własną cenę netto - to nie rabat na zawarte w nim SKU):**\n\n{{CREW_BUNDLE_LINES}}\n\nDokładne wyliczenie znajdziesz na pricing.sundae.io."
           }
         ]
       }
@@ -3071,19 +3279,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "我该如何开始？",
-            "content": "您有三个选择：\n\n1. **免费开始** - 注册Report Lite（永久免费）并上传您的运营数据，以查看即时基准。无需信用卡。\n\n2. **查看您的定价** - 使用我们在pricing.sundae.io上的互动定价计算器，查看您运营的确切定价。\n\n3. **预约演示** - 与我们的团队安排15分钟的演示，查看Sundae如何使用您的数据。"
+            "content": "你有两个选择：\n\n1. **查看你的报价** - 在 pricing.sundae.io 使用交互式计算器，按门店数量匹配一个 Core 套餐。\n\n2. **预约演示** - 与团队约一场 15 分钟的讲解，看 Sundae 跑在你自己的数据上。"
           },
           {
-            "title": "真的有免费层吗？",
-            "content": "是的。Report Lite永久免费。上传您的POS数据，并根据5个核心指标获得即时基准。适用合理使用政策。"
+            "title": "有免费版吗？",
+            "content": "没有。Sundae 的每个套餐都是付费的，从第一家门店起计价。我们提供的是在你决定之前，基于你自己数字的一场工作会谈--让你在签字之前先看到回报。"
           },
           {
-            "title": "Report和Core有什么区别？",
-            "content": "**Report层** = 历史分析（POS数据）\n• 每天、每周或每月上传POS数据\n• 分析发生了什么\n• 与同行进行基准比较\n• 最适合单个地点或概念验证\n\n**Core层** = 实时运营（POS + 所有系统）\n• 2-4小时刷新周期\n• 集成POS + 劳动力 + 库存 + 营销 + 预订\n• 查看当前发生的事情\n• 获取预测警报\n• 最适合多地点运营商\n\n主要区别：Report = 仅POS。Core = POS加上您其余的技术栈。"
+            "title": "Core 各套餐有什么区别？",
+            "content": "**Core Foundation** - 运营基线：覆盖 POS、人力、成本与运营的统一决策底座。\n\n**Core Margin** - 成本与流失的纵深：理论用量与实际用量、损耗、盘亏、作废与赠单、单品贡献。\n\n**Core Growth** - 需求侧的纵深：客户分群与生命周期价值、按渠道的促销归因、扣佣后的外卖毛利。\n\n**Core Performance** - 跨品牌跨区域合并、模块间关联分析、带审计轨迹的受控访问。\n\n四者携带同样的十一个领域模块，改变的是各自的纵深。"
           },
           {
-            "title": "我需要长期合同吗？",
-            "content": "不需要。Report和Core层是按月计费。随时取消，无需支付罚金。企业部署通常使用年度协议和自定义条款。"
+            "title": "需要签长期合同吗？",
+            "content": "不需要。每个套餐都可按月订阅，取消不收违约金。年度与两年期承诺之所以存在，是因为更便宜--分别优惠 10% 和 15%--而不是因为强制。"
           }
         ]
       },
@@ -3093,19 +3301,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae 提供哪些产品？",
-            "content": "**三大主要产品：**\n\n1. **Sundae Report**（Lite / Plus / Pro）- 历史分析和基准测试\n2. **Sundae Core**（Lite / Pro / Enterprise）- 实时运营和预测智能\n3. **Watchtower**（竞争 / 事件 / 市场）- 外部市场情报\n\n**此外：**\n\n4. **模块** - 劳动力、库存、采购、营销和预订智能。"
+            "content": "**四个主要产品：**\n\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）--决策底座，承载全部十一个领域模块\n2. **Foresight & Action**--预测、情景建模，以及带人工审批的行动层\n3. **Sundae Crew**--人力底座：排班、考勤、薪酬就绪、人事与人才洞察\n4. **Watchtower**--外部市场情报，与你的 Core 套餐一并确定范围\n\n**此外：**面向你集团经营模式的概念型 SKU--加盟、酒店餐饮、云厨房、宴会外烩、生产、租赁中央厨房。"
           },
           {
-            "title": "我应该选择哪个级别？",
-            "content": "**如果您是：**\n• 测试 Sundae\n• 经营 1-2 个地点\n• 每日或每周报告足够\n\n**则可以选择 Report Lite；如果您需要：**\n• 更深入的历史智能\n• 每日报告仍然足够\n\n**则可以升级到 Report Plus 或 Pro；如果您是：**\n• 经营 10 个以上地点\n• 需要运营速度\n• 实时预算跟踪很重要\n\n**则可以选择 Core Lite 或 Pro；如果您是：**\n• 经营 100 个以上地点\n• 需要 SSO 或白标功能\n• 需要专门支持和定制条款"
+            "title": "我该选哪个 Core 套餐？",
+            "content": "**选 Core Foundation，如果：**\n• 你正在摆脱表格和彼此割裂的看板\n• 你想先有一张统一的运营图，再往深处走\n\n**选 Core Margin，如果：**\n• 食材成本、损耗、作废或赠单正在吃掉你的毛利\n• 你需要单品贡献，而不只是销售结构\n\n**选 Core Growth，如果：**\n• 复购收入与渠道结构是瓶颈\n• 你需要客户分群、促销归因和外卖毛利\n\n**选 Core Performance，如果：**\n• 你经营多个品牌或多个市场\n• 你需要合并、跨模块关联和受控访问"
           },
           {
             "title": "我可以稍后升级或降级吗？",
             "content": "可以。您可以随时在不同级别之间切换。历史数据会被保留，变更计划没有惩罚。"
           },
           {
-            "title": "什么是 4D 智能模型？",
-            "content": "Sundae 的决策智能框架：\n\n**1D：发生了什么** - 销售、劳动力和成本数据\n**2D：计划与实际** - 预算和预测差异\n**3D：市场背景** - 基准、同行和竞争对手\n**4D：接下来是什么** - 预测和建议\n\n**Report：** 完整的 1D 和 2D 加上有限的 3D 和 4D\n**Core：** 在所有 4 个维度上完全访问。"
+            "title": "什么是 4D Intelligence 模型？",
+            "content": "Sundae 的决策智能框架：\n\n**1D：发生了什么**--销售、人力与成本的真实情况\n**2D：计划与实际**--预算与预测偏差\n**3D：市场背景**--对标、同行与竞争者\n**4D：接下来会怎样**--预测与建议\n\n每个 Core 套餐都覆盖这四个维度，套餐决定每个维度的纵深。"
           }
         ]
       },
@@ -3114,24 +3322,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae需要什么数据？",
-            "content": "**Report Lite的最低要求：**\n• POS销售数据（CSV导出）\n\n**对于Core：**\n• 通过API连接的POS系统\n• 劳动力或员工系统\n• 库存系统\n• 营销平台\n• 预订系统\n\nReport围绕POS上传构建。Core是您连接更广泛操作堆栈的地方。"
+            "title": "Sundae 需要哪些数据？",
+            "content": "**每个 Core 套餐都需要：**\n• 通过 API 接入的 POS 系统\n• 人力或排班系统\n• 库存系统\n• 营销平台\n• 预订系统\n\n仅接入 POS，第一天就能产生价值。其余系统接入后会让画面更完整。"
           },
           {
-            "title": "我如何将数据导入Sundae？",
-            "content": "**Report Lite：** 手动CSV上传\n\n**Report Plus：** 上传PDF、Excel文件或截图。Sundae提取数据，您在处理前进行审核。\n\n**Report Pro和Core：** 通过API连接进行自动化摄取"
+            "title": "我的数据怎么进入 Sundae？",
+            "content": "通过与 POS 及其余运营系统的 API 连接。若某个系统没有 API，Sundae 也接受结构化文件投递和智能解析上传--PDF、Excel、截图--由你确认后再处理。"
           },
           {
             "title": "你们支持哪些POS系统的集成？",
             "content": "Sundae目前支持**4个POS平台**的实时适配器：Oracle MICROS Simphony、Square、Toast和Clover。当POS系统提供数据库访问时，我们还支持**PostgreSQL和SQL Server / Azure SQL的直接数据库连接**。\n\n除了POS，Sundae的**12域集成引擎**连接到30多个供应商，涵盖劳动力、库存、预订、配送、营销、客户体验、CRM和会计。\n\n如果您没有看到您的系统列出，企业级可以包括自定义集成工作和基于Webhook的摄取。"
           },
           {
-            "title": "我可以在多个POS系统上使用Sundae吗？",
-            "content": "**Core Lite：** 当所有地点使用一个POS时效果最佳\n\n**Core Pro和Enterprise：** 可以。支持不同地点的不同POS系统，Sundae会对数据进行标准化，以便进行公平比较。\n\n**Report：** 任何POS都可以，因为上传是手动的。"
+            "title": "我能在多套 POS 系统上使用 Sundae 吗？",
+            "content": "可以。Sundae 可跨混合 POS 环境接入，并将数据标准化以便同口径比较。Core Performance 在此之上再加跨品牌、跨区域的合并。"
           },
           {
-            "title": "实施需要多长时间？",
-            "content": "**Report Lite：** 上传后立即可用\n**Report Plus / Pro：** 1-2天\n**Core Lite / Pro：** 1-2周\n**Enterprise：** 2-4周，具体取决于范围"
+            "title": "实施需要多久？",
+            "content": "多数集团在 1-2 周内上线。更大的多品牌或多区域推广，视范围需 2-4 周。\n\n实施为一次性费用，按你所选的最高级别一次性计收--从零费用的自助，到范围明确的 Class D 服务。"
           },
           {
             "title": "如果我取消，数据会怎样？",
@@ -3145,27 +3353,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "什么是模块？",
-            "content": "模块是针对Core的专业智能附加组件：\n\n1. **劳动智能** - 排班、生产力和加班\n2. **库存智能** - 浪费、库存水平和库存可见性\n3. **采购智能** - 供应商比较和合同杠杆\n4. **营销智能** - 投资回报率、客户获取成本和渠道表现\n5. **预订智能** - 缺席预测和桌位优化\n\n模块需要Core，因为它们依赖于实时的连接操作数据。"
+            "content": "十一个领域模块是 Core 内部的分析界面。它们是套餐的组成部分，不是另行购买的附加项：\n\n{{DOMAIN_MODULE_LINES}}\n\n它们需要 Core，因为它们依赖实时接入的运营数据。"
           },
           {
             "title": "我需要模块吗？",
-            "content": "不需要。模块是可选的。您可以在需要更深入覆盖特定操作领域时添加它们。\n\n**路径：**\n• 在Report上 -> 首先升级到Core\n• 在Core上 -> 当需求明确时随时添加模块"
+            "content": "它们不是可选项，也不是单独购买的东西。十一个领域模块随每个 Core 套餐一同提供。\n\n你选择的是套餐，而套餐决定每个模块的纵深。"
           },
           {
-            "title": "模块需要Core吗？",
-            "content": "是的。模块需要Core Lite、Core Pro或Enterprise。\n\n它们依赖于与劳动、库存、营销、预订和其他系统的实时连接，而Report并不直接连接这些系统。"
+            "title": "我能单买一个模块吗？",
+            "content": "不能。十一个领域模块是 Core 套餐的组成部分，不是独立产品，也没有按模块计价。选择套餐就是获得全部模块的方式。"
           },
           {
-            "title": "我可以添加多个模块吗？",
-            "content": "可以。可以自由组合这五个模块。没有要求必须一起购买所有模块。"
+            "title": "模块是一个一个加上去的吗？",
+            "content": "不是。没有什么要加。每个 Core 套餐从第一天起就带有全部十一个领域模块--你选的套餐只决定每个模块的纵深。"
           },
           {
-            "title": "我应该首先选择哪个模块？",
-            "content": "从最大的操作痛点开始：\n\n• 高劳动成本 -> 劳动智能\n• 浪费或库存问题 -> 库存智能\n• 供应商杠杆弱 -> 采购智能\n• 营销投资回报不明确 -> 营销智能\n• 预订缺席 -> 预订智能"
+            "title": "我该先看哪个模块？",
+            "content": "它们都已开启，所以问题是从哪里开始看，而不是买什么。从最大的运营痛点开始：\n\n• 人力成本偏高 -> Labor Intelligence\n• 损耗或库存问题 -> Inventory Intelligence\n• 对供应商议价力弱 -> Purchasing Intelligence\n• 营销回报不清 -> Marketing Intelligence\n• 预订爽约 -> Reservations Intelligence"
           },
           {
-            "title": "模块定价是如何工作的？",
-            "content": "每个模块包括一个组织许可证，覆盖前5个地点，超过该阈值的额外地点定价。\n\n示例：8个地点使用劳动智能 = 1个组织许可证 + 3个额外地点。\n\n请使用pricing.sundae.io获取确切的计划定价。"
+            "title": "模块如何计价？",
+            "content": "没有模块计价。模块既没有独立价格，也没有自己的门店额度--你买的是套餐。\n\nCore 套餐从第一家门店起计价，之后每增加一家按边际费率计算，且随着规模增长逐级下降。{{WORKED_EXAMPLE}}\n\n精确算法请用 pricing.sundae.io。"
           }
         ]
       },
@@ -3191,7 +3399,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Watchtower 需要 Core 吗？",
-            "content": "是的。Watchtower 在其市场信号直接与实时运营数据叠加时效果最佳，而这正是 Core 提供的。\n\n如果您只需要上传的历史 POS 分析，Report 就足够了。如果您想要与日常运营相关的市场背景，请转向 Core。"
+            "content": "需要。当 Watchtower 的市场信号叠加在实时运营数据之上时效果最好，而这正是 Core 套餐提供的。它与你的套餐一并确定范围和报价，而不是单独销售。"
           }
         ]
       },
@@ -3200,8 +3408,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Sundae 的费用是多少？",
-            "content": "定价取决于：\n• Report 与 Core\n• 位置数量\n• 选择的模块\n• 是否包含 Watchtower\n\n**Report Lite：** 永久免费\n\n要获取准确的定价，请访问 pricing.sundae.io."
+            "title": "Sundae 多少钱？",
+            "content": "价格取决于：\n• 选择哪个 Core 套餐\n• 门店数量\n• 是否包含 Foresight & Action、Crew 或概念型 SKU\n\nCore 套餐以第一家门店为锚点计价，之后每增加一家按边际费率计算，且随着规模增长逐级下降。Core Foundation 第一家门店从 {{FOUNDATION_FIRST_UNIT}} 起。\n\n精确报价请用 pricing.sundae.io。"
           },
           {
             "title": "是否有设置费用？",
@@ -3226,20 +3434,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "智能积分如何运作？",
-            "content": "智能积分用于提问、分析和推荐。\n\n**Report Lite：** 250基础 + 每个地点80\n**Report Plus：** 1,200基础 + 每个地点300\n**Report Pro：** 3,500基础 + 每个地点800\n**Core Lite：** 8,000基础 + 每个地点1,600\n**Core Pro：** 14,000基础 + 每个地点2,800\n**Enterprise：** 50,000+基础 + 自定义分配"
+            "title": "智能额度怎么用？",
+            "content": "智能额度驱动提问、分析与建议。每个 Core 套餐都带有每月额度：\n\n{{AI_WALLET_LINES}}\n\n用完之后，任何套餐都可以加购。"
           },
           {
-            "title": "我能获得多少历史访问权限？",
-            "content": "**Report Lite：** 90天\n**Report Plus：** 1年\n**Report Pro：** 2年\n**Core Lite：** 2年\n**Core Pro：** 3年\n**Enterprise：** 5年以上或自定义保留"
+            "title": "我能查多久的历史数据？",
+            "content": "每个 Core 套餐都保留你全部已接入的历史数据，留存跨越多年。企业协议可以按自定条款进一步延长。"
           },
           {
             "title": "数据多久刷新一次？",
-            "content": "**Report Lite：** 手动上传\n**Report Plus：** 手动或按需智能解析\n**Report Pro：** 每日自动刷新\n**Core Lite：** 每4小时\n**Core Pro：** 每2小时\n**Enterprise：** 自定义节奏，包括在范围内的实时更新"
+            "content": "Core 在班次进行中刷新，而不是等到日终，这样 Pulse 和各领域模块会在你还能采取行动时就动起来。具体频率取决于你已接入系统所能提供的内容。"
           },
           {
-            "title": "我能获得自定义仪表板吗？",
-            "content": "**Report 层级：** 预构建仪表板\n**Core Lite：** 最多30个自定义仪表板\n**Core Pro：** 最多75个自定义仪表板\n**Enterprise：** 无限自定义仪表板"
+            "title": "我能有自定义看板吗？",
+            "content": "可以。每个 Core 套餐都包含自定义看板，在各领域模块自带的预置视图之外。"
           }
         ]
       },
@@ -3249,11 +3457,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "我能获得什么支持？",
-            "content": "**Report Lite:** 邮件支持\n**Report Plus:** 邮件和聊天支持\n**Report Pro:** 优先支持\n**Core Lite:** 邮件、聊天和电话支持\n**Core Pro:** 更快的优先电话支持\n**Enterprise:** 24/7 支持以及专属客户成功负责人"
+            "content": "每个 Core 套餐都包含邮件、在线聊天与电话支持。企业协议再加上 7×24 覆盖、合同约定的响应时限，以及一位专属客户成功负责人。"
           },
           {
             "title": "你们提供培训吗？",
-            "content": "是的。\n\n**Report:** 自助式入门和文档\n**Core Lite:** 指导培训课程\n**Core Pro:** 定制培训计划\n**Enterprise:** 结构化入门和赋能"
+            "content": "提供。培训属于实施的一部分，按你所选的最高级别一次性计收--自助文档零费用，更高级别则包含带教课程与体系化的能力建设。"
           },
           {
             "title": "你们支持哪些时区？",
@@ -3302,16 +3510,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Sundae与POS报告有什么不同？",
-            "content": "**POS报告：** 一个系统，有限的上下文，手动解释\n\n**Sundae Report：** POS分析加基准、建议和模式检测\n\n**Sundae Core：** Report 中的所有内容加上来自劳动力、库存、营销、预订和其他系统的统一数据，刷新速度更快"
+            "title": "Sundae 与 POS 报表有什么不同？",
+            "content": "**POS 报表：**单一系统、上下文有限、需要人工解读\n\n**Sundae Core：**在 POS 分析之上，加入对标、建议与模式识别，把人力、成本与客户放进同一张运营图\n\n**Foresight & Action：**再往上是向前看的部分--预测、情景，以及针对它们所揭示内容采取行动的那一层"
           },
           {
             "title": "Sundae与Excel有什么不同？",
             "content": "**Excel：** 手动输入，静态分析，没有共享智能层\n\n**Sundae：** 自动化摄取，结构化基准，实时仪表板和建议，每周减少手动分析时间"
           },
           {
-            "title": "与传统分析工具相比，我能节省多少？",
-            "content": "运营商通常报告总成本显著降低，因为Sundae使用基于层级的定价，而不是按模块和按位置叠加费用。具体节省取决于您当前的工具组合和运营范围。"
+            "title": "相比传统分析工具能省多少？",
+            "content": "运营者常反馈总成本明显更低，因为一个 Core 套餐已经包含全部十一个领域模块，而不是按模块、按门店层层叠加费用。具体差额取决于你现有的工具组合与经营规模。"
           }
         ]
       },
@@ -3320,8 +3528,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "我只有一个地点。Sundae 仍然适合吗？",
-            "content": "是的。首先使用免费的 Report Lite 进行基准测试，然后根据您的运营需求转向更深入的 Report 级别或 Core。"
+            "title": "我只有一家门店，Sundae 也合适吗？",
+            "content": "合适。单店只承担套餐锚点，不再多付，而且拿到的十一个模块与五十家门店的集团完全相同。门店阶梯只有在你开始增开门店时才起作用。"
           },
           {
             "title": "我是一个特许经营平台。Sundae 能帮忙吗？",
@@ -3336,6 +3544,32 @@ export const generatedLocalCopy = {
             "content": "可以。Watchtower 和市场情报可以支持贸易区分析、饱和度审查、竞争对手动态跟踪以及优先考虑服务不足的地区。"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "什么是 Sundae Crew？",
+            "content": "Sundae Crew 是管理您团队的运营套件：排班、考勤、薪资准备、人力资源记录和劳动力分析。每一个计划的班次、每一个打卡的工时、每一份归档的记录都会成为回流到您 decision intelligence 的信号 -  - 让运营与洞察共享同一个系统。"
+          },
+          {
+            "title": "Crew 能做什么？",
+            "content": "**五个相互连接的模块：**\n\n1. **Scheduling** - 需求感知的排班，配备资格检查和 AI 构建器\n2. **考勤** - 打卡进出、地理围栏、休息证明和工时表审批\n3. **Payroll** - 多地区薪资准备和法定导出（准备与导出，而非税务引擎）\n4. **人员与人力资源** - 从入职到离职的员工记录和文档\n5. **People Intelligence** - 劳动力分析、缺勤风险和人工成本趋势"
+          },
+          {
+            "title": "Crew 薪资支持哪些地区？",
+            "content": "Crew 的薪资准备和法定导出目前覆盖 **GCC**（UAE、KSA、Qatar、Bahrain、Oman、Kuwait）、**美国**（联邦及所有州）、**加拿大**、**英国** 以及 **欧盟**（全部 27 个成员国）。拉丁美洲和 APAC 已列入路线图。Crew 负责准备和导出薪资 -  - 它不是税务引擎，法定规则来自版本化的国家/地区规则包。"
+          },
+          {
+            "title": "使用 Crew 需要 Core 吗？",
+            "content": "不需要。Crew 可以作为您的运营系统独立运行，也可以与 Core 并行运行，让其信号馈送到 Labor Intelligence、Pulse 和 Foresight。您也可以自带人力资源或薪资服务商 -  - Crew 在设计上是可选的。"
+          },
+          {
+            "title": "Crew 多少钱？",
+            "content": "**Crew SKU（固定月费，不按门店加收）：**\n\n{{CREW_SKU_LINES}}\n\n**套装（各自有独立净价--不是对其中 SKU 的折扣）：**\n\n{{CREW_BUNDLE_LINES}}\n\n精确算法请用 pricing.sundae.io。"
+          }
+        ]
       }
     ],
     "ja": [
@@ -3348,20 +3582,20 @@ export const generatedLocalCopy = {
             "content": "Sundaeは、レストランやホスピタリティチームのための意思決定インテリジェンスプラットフォームです。散在する運営データを一箇所に集約し、リーダーが何が起こったのか、何が変わっているのか、次にどこで行動すべきかを把握できるようにします。"
           },
           {
-            "title": "どのように始めればよいですか？",
-            "content": "3つのオプションがあります：\n\n1. **無料で始める** - Report Liteにサインアップ（永遠に無料）し、運営データをアップロードして即座にベンチマークを確認します。クレジットカードは不要です。\n\n2. **料金を確認する** - pricing.sundae.ioのインタラクティブな料金計算機を使用して、あなたの運営に対する正確な料金を確認します。\n\n3. **デモを予約する** - 私たちのチームと15分のウォークスルーをスケジュールし、あなたのデータを使ったSundaeの実際の動作を確認します。"
+            "title": "どう始めればいいですか？",
+            "content": "方法は二つあります。\n\n1. **料金を確認する** - pricing.sundae.io の対話型計算ツールで、店舗数に合わせて Core パッケージを見積もれます。\n\n2. **デモを予約する** - 15分の説明を予約し、自社データ上で動く Sundae をご覧ください。"
           },
           {
-            "title": "本当に無料プランはありますか？",
-            "content": "はい。Report Liteは永遠に無料です。あなたのPOSデータをアップロードし、5つの主要指標に対する即座のベンチマークを取得します。合理的な運営使用に対してフェアユースポリシーが適用されます。"
+            "title": "無料プランはありますか？",
+            "content": "ありません。Sundae のパッケージはすべて有料で、1店舗目から課金されます。その代わり、ご契約前に自社の数字を使った作業セッションをご用意しています。署名の前に効果をご確認いただけます。"
           },
           {
-            "title": "ReportとCoreの違いは何ですか？",
-            "content": "**Report Tier** = 過去の分析（POSデータ）\n• POSデータを毎日、毎週、または毎月アップロード\n• 何が起こったのかを分析\n• 同業者とベンチマーク\n• 単一のロケーションまたは概念実証に最適\n\n**Core Tier** = リアルタイム運営（POS + すべてのシステム）\n• 2-4時間のリフレッシュサイクル\n• POS + 労働 + 在庫 + マーケティング + 予約を統合\n• 現在何が起こっているかを確認\n• 予測アラートを受け取る\n• 複数のロケーションオペレーターに最適\n\n主な違い：Report = POSのみ。Core = POSに加えて、あなたのスタックの残りすべて。"
+            "title": "Core パッケージの違いは何ですか？",
+            "content": "**Core Foundation** - 運営の土台。POS、人件費、原価、オペレーションをまたぐ一つの意思決定基盤です。\n\n**Core Margin** - 原価と漏れの深掘り。理論使用量と実使用量、廃棄、棚卸差異、取消・サービス提供、商品別の貢献度。\n\n**Core Growth** - 需要側の深掘り。顧客コホートと生涯価値、チャネル別の販促寄与、手数料控除後のデリバリー利益。\n\n**Core Performance** - 複数ブランド・複数地域の連結、モジュール横断の相関、監査証跡を伴う統制されたアクセス。\n\n四つとも同じ11の業務モジュールを備えます。変わるのは深さです。"
           },
           {
             "title": "長期契約は必要ですか？",
-            "content": "いいえ。ReportおよびCoreティアは月ごとの契約です。いつでもペナルティなしでキャンセルできます。エンタープライズ展開は通常、カスタム条件の年間契約を使用します。"
+            "content": "不要です。どのパッケージも月単位でご利用でき、違約金なしで解約できます。年間契約と2年契約があるのは、その方が安いから（それぞれ10%と15%引き）であり、必須だからではありません。"
           }
         ]
       },
@@ -3370,20 +3604,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Sundaeはどのような製品を提供していますか？",
-            "content": "**主な製品は3つです：**\n\n1. **Sundae Report** (Lite / Plus / Pro) - 過去の分析とベンチマーキング\n2. **Sundae Core** (Lite / Pro / Enterprise) - リアルタイムの運用と予測インテリジェンス\n3. **Watchtower** (競合 / イベント / 市場) - 外部市場インテリジェンス\n\n**さらに：**\n\n4. **モジュール** - 労働、在庫、購買、マーケティング、予約のインテリジェンス."
+            "title": "Sundae にはどんな製品がありますか？",
+            "content": "**主要な4製品：**\n\n1. **Sundae Core**（Foundation / Margin / Growth / Performance）- 意思決定の基盤。11の業務モジュールすべてを備えます\n2. **Foresight & Action** - 予測、シナリオ設計、そして人の承認を挟む実行レイヤー\n3. **Sundae Crew** - 人材の基盤。シフト、勤怠、給与準備、人事、ピープルインテリジェンス\n4. **Watchtower** - 外部の市場インテリジェンス。Core パッケージと合わせて範囲を決めます\n\n**さらに：**貴社の運営形態に合わせたコンセプト SKU - フランチャイズ、ホテル F&B、クラウドキッチン、ケータリング、製造、レンタルセントラルキッチン。"
           },
           {
-            "title": "どのティアを選ぶべきですか？",
-            "content": "**Report Liteから始めるべき場合：**\n• Sundaeをテストしている\n• 1-2のロケーションを運営している\n• 日次または週次の報告で十分\n\n**Report PlusまたはProにアップグレードすべき場合：**\n• より深い過去のインテリジェンスが必要\n• 日次報告がまだ十分\n\n**Core LiteまたはProを選ぶべき場合：**\n• 10以上のロケーションを運営している\n• 運用のスピードが必要\n• リアルタイムの予算追跡が重要\n\n**Enterpriseを選ぶべき場合：**\n• 100以上のロケーションがある\n• SSOまたはホワイトラベル機能が必要\n• 専用サポートとカスタム条件が必要"
+            "title": "どの Core パッケージを選べばよいですか？",
+            "content": "**Core Foundation が向く場合：**\n• 表計算やばらばらのダッシュボードから脱却したい\n• 深掘りの前に、まず一つの運営像がほしい\n\n**Core Margin が向く場合：**\n• 原価、廃棄、取消、サービス提供が利益を削っている\n• 売上構成だけでなく、商品別の貢献度が必要\n\n**Core Growth が向く場合：**\n• リピート売上とチャネル構成が制約になっている\n• 顧客コホート、販促寄与、デリバリー利益が必要\n\n**Core Performance が向く場合：**\n• 複数ブランドや複数市場を運営している\n• 連結、モジュール横断の相関、統制されたアクセスが必要"
           },
           {
             "title": "後でアップグレードまたはダウングレードできますか？",
             "content": "はい。いつでもティアを移動できます。過去のデータは保持され、プラン変更にペナルティはありません。"
           },
           {
-            "title": "4Dインテリジェンスモデルとは何ですか？",
-            "content": "Sundaeの意思決定インテリジェンスのフレームワーク：\n\n**1D: 何が起こったか** - 売上、労働、コストのデータ\n**2D: 計画対実績** - 予算と予測の差異\n**3D: 市場の文脈** - ベンチマーク、同業者、競合\n**4D: 次は何か** - 予測と推奨\n\n**Report:** 完全な1Dと2D、限定的な3Dと4D\n**Core:** すべての4次元にわたる完全なアクセス"
+            "title": "4D Intelligence モデルとは何ですか？",
+            "content": "Sundae の意思決定インテリジェンスの枠組みです。\n\n**1D：何が起きたか** - 売上、人件費、原価の事実\n**2D：計画と実績** - 予算と予測の差異\n**3D：市場の文脈** - ベンチマーク、同業、競合\n**4D：次に何が起きるか** - 予測と推奨\n\nどの Core パッケージも4つすべてを扱います。パッケージが各次元の深さを決めます。"
           }
         ]
       },
@@ -3392,24 +3626,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundaeにはどのデータが必要ですか？",
-            "content": "**Report Liteの最小要件:**\n• POS売上データ（CSVエクスポート）\n\n**Coreの場合:**\n• API経由のPOSシステム\n• 労働または人材システム\n• 在庫システム\n• マーケティングプラットフォーム\n• 予約システム\n\nReportはPOSアップロードを中心に構築されています。Coreは、より広範なオペレーティングスタックを接続する場所です。"
+            "title": "Sundae にはどのデータが必要ですか？",
+            "content": "**すべての Core パッケージで：**\n• API 経由の POS システム\n• 人件費・要員管理システム\n• 在庫システム\n• マーケティング基盤\n• 予約システム\n\nPOS だけでも初日から価値が出ます。ほかは接続するほど解像度が上がります。"
           },
           {
-            "title": "データをSundaeに取り込むにはどうすればよいですか？",
-            "content": "**Report Lite:** 手動CSVアップロード\n\n**Report Plus:** PDF、Excelファイル、またはスクリーンショットをアップロードします。Sundaeがデータを抽出し、処理前に確認します。\n\n**Report ProおよびCore:** API接続を通じた自動取り込み"
+            "title": "データはどうやって Sundae に入りますか？",
+            "content": "POS とその他の業務システムへの API 接続によります。API のないシステムについては、Sundae が構造化ファイルの受け渡しと自動解析付きアップロード（PDF、Excel、スクリーンショット）に対応しており、処理前にご確認いただけます。"
           },
           {
             "title": "どのPOSシステムと統合していますか？",
             "content": "Sundaeは現在、**4つのPOSプラットフォーム**（Oracle MICROS Simphony、Square、Toast、Clover）をライブアダプターでサポートしています。また、POSシステムがデータベースアクセスを公開している場合、PostgreSQLおよびSQL Server / Azure SQL用の**直接データベースコネクタ**もサポートしています。\n\nPOSを超えて、Sundaeの**12ドメイン統合エンジン**は、労働、在庫、予約、配達、マーケティング、ゲスト体験、CRM、会計の30以上のベンダーに接続します。\n\nリストにシステムが表示されていない場合、エンタープライズプランにはカスタム統合作業やWebhookベースの取り込みが含まれることがあります。"
           },
           {
-            "title": "複数のPOSシステムでSundaeを使用できますか？",
-            "content": "**Core Lite:** すべてのロケーションが1つのPOSを使用する場合に最適です。\n\n**Core ProおよびEnterprise:** はい。ロケーションごとに異なるPOSシステムがサポートされており、Sundaeはデータを正規化して比較可能にします。\n\n**Report:** アップロードが手動のため、どのPOSでも機能します。"
+            "title": "Sundae は複数の POS システムでも使えますか？",
+            "content": "はい。Sundae は複数ベンダーの POS 環境をまたいで接続し、同じ土俵で比較できるようデータを標準化します。Core Performance はその上にブランド横断・地域横断の連結を加えます。"
           },
           {
-            "title": "実装にはどのくらいの時間がかかりますか？",
-            "content": "**Report Lite:** アップロード後すぐ\n**Report Plus / Pro:** 1-2日\n**Core Lite / Pro:** 1-2週間\n**Enterprise:** スコープに応じて2-4週間"
+            "title": "導入にはどのくらいかかりますか？",
+            "content": "多くのグループは1〜2週間で稼働します。複数ブランド・複数地域にまたがる大規模な展開は、範囲により2〜4週間です。\n\n導入費用は一度きりで、選択された中で最上位のクラスに基づき一回だけ請求されます。無償のセルフサービスから、範囲を定めた Class D の支援まで幅があります。"
           },
           {
             "title": "キャンセルした場合、私のデータはどうなりますか？",
@@ -3423,27 +3657,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "モジュールとは何ですか？",
-            "content": "モジュールはCoreのための専門的なインテリジェンスアドオンです：\n\n1. **労働インテリジェンス** - スケジューリング、生産性、残業\n2. **在庫インテリジェンス** - 廃棄、パーレベル、在庫の可視性\n3. **購買インテリジェンス** - ベンダー比較と契約の活用\n4. **マーケティングインテリジェンス** - ROI、CAC、チャネルパフォーマンス\n5. **予約インテリジェンス** - ノーショー予測とテーブル最適化\n\nモジュールは、ライブで接続された運用データに依存しているため、Coreが必要です。"
+            "content": "11の業務モジュールは Core の内側にある分析面です。パッケージの構成要素であり、別途購入する追加機能ではありません。\n\n{{DOMAIN_MODULE_LINES}}\n\nライブ接続された業務データに依存するため、Core が前提になります。"
           },
           {
             "title": "モジュールは必要ですか？",
-            "content": "いいえ。モジュールはオプションです。特定の運用エリアでの深いカバレッジが必要なときに追加してください。\n\n**手順：**\n• Reportで -> まずCoreにアップグレード\n• Coreで -> 必要が明確なときにモジュールを追加"
+            "content": "任意ではありませんし、別売でもありません。11の業務モジュールはすべての Core パッケージに含まれます。\n\n選ぶのはパッケージで、パッケージが各モジュールの深さを決めます。"
           },
           {
-            "title": "モジュールにはCoreが必要ですか？",
-            "content": "はい。モジュールはCore Lite、Core Pro、またはEnterpriseが必要です。\n\nこれらは、Reportが直接接続しない労働、在庫、マーケティング、予約、その他のシステムへのライブ接続に依存しています。"
+            "title": "モジュールを単体で購入できますか？",
+            "content": "できません。11の業務モジュールは Core パッケージの構成要素であって単体製品ではなく、モジュール単位の価格もありません。すべてを手にする方法はパッケージを選ぶことです。"
           },
           {
-            "title": "複数のモジュールを追加できますか？",
-            "content": "はい。5つのモジュールの中から自由に組み合わせて選べます。すべてを一緒に購入する必要はありません。"
+            "title": "モジュールは一つずつ追加するのですか？",
+            "content": "いいえ。追加するものはありません。どの Core パッケージも初日から11の業務モジュールをすべて備えており、選んだパッケージが各モジュールの深さを決めるだけです。"
           },
           {
-            "title": "最初にどのモジュールを選ぶべきですか？",
-            "content": "最も大きな運用上の痛点から始めてください：\n\n• 高い労働コスト -> 労働インテリジェンス\n• 廃棄または在庫の問題 -> 在庫インテリジェンス\n• 弱いベンダーの活用 -> 購買インテリジェンス\n• 不明確なマーケティングROI -> マーケティングインテリジェンス\n• 予約のノーショー -> 予約インテリジェンス"
+            "title": "最初にどのモジュールを見ればよいですか？",
+            "content": "すべてすでに有効なので、何を買うかではなく、どこから見るかという話です。いちばん大きな運営上の痛みから始めてください。\n\n• 人件費が高い -> Labor Intelligence\n• 廃棄や在庫の問題 -> Inventory Intelligence\n• 仕入先への交渉力が弱い -> Purchasing Intelligence\n• マーケティングの費用対効果が不明 -> Marketing Intelligence\n• 予約の無断キャンセル -> Reservations Intelligence"
           },
           {
-            "title": "モジュールの価格設定はどのように機能しますか？",
-            "content": "各モジュールには、最初の5つのロケーションをカバーする組織ライセンスが含まれており、その閾値を超えた追加ロケーションの価格が設定されています。\n\n例：労働インテリジェンスを持つ8つのロケーション = 1つの組織ライセンス + 3つの追加ロケーション。\n\n正確なプランの計算にはpricing.sundae.ioを使用してください。"
+            "title": "モジュールの料金はどうなっていますか？",
+            "content": "モジュール単位の料金はありません。モジュールには独立した価格も、独自の店舗数枠もありません。購入するのはパッケージです。\n\nCore パッケージは1店舗目から課金され、以降は追加店舗ごとの限界料率で計算され、規模が大きくなるほどその料率は下がります。{{WORKED_EXAMPLE}}\n\n正確な計算は pricing.sundae.io をご利用ください。"
           }
         ]
       },
@@ -3468,8 +3702,8 @@ export const generatedLocalCopy = {
             "content": "はい。競合情報、イベント情報、または市場情報を個別に購入することも、組み合わせて購入することもできます。"
           },
           {
-            "title": "WatchtowerはCoreを必要としますか？",
-            "content": "はい。Watchtowerは、その市場信号がライブ運用データに直接重ねられるときに最も効果的であり、それがCoreが提供するものです。\n\nアップロードされた過去のPOS分析だけが必要な場合は、Reportで十分です。日々の運用に関連する市場コンテキストが必要な場合は、Coreに移行してください。"
+            "title": "Watchtower には Core が必要ですか？",
+            "content": "必要です。Watchtower は市場シグナルをライブの業務データに重ねたときに最も力を発揮し、それを与えるのが Core パッケージです。単体販売ではなく、パッケージと合わせて範囲と価格を決めます。"
           }
         ]
       },
@@ -3478,8 +3712,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Sundaeの料金はいくらですか？",
-            "content": "料金は以下によって異なります：\n• Report vs Core\n• ロケーションの数\n• 選択したモジュール\n• Watchtowerが含まれているかどうか\n\n**Report Lite:** 永久に無料\n\n正確な料金については、pricing.sundae.ioをご利用ください。"
+            "title": "Sundae の費用はどれくらいですか？",
+            "content": "料金は次の要素で決まります。\n• どの Core パッケージか\n• 店舗数\n• Foresight & Action、Crew、コンセプト SKU を含めるかどうか\n\nCore パッケージは1店舗目のアンカー価格に加え、追加店舗ごとの限界料率で計算され、規模が大きくなるほどその料率は下がります。Core Foundation は1店舗目が {{FOUNDATION_FIRST_UNIT}} からです。\n\n正確な金額は pricing.sundae.io をご利用ください。"
           },
           {
             "title": "セットアップ料金はありますか？",
@@ -3504,20 +3738,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "インテリジェンスクレジットはどのように機能しますか？",
-            "content": "インテリジェンスクレジットは、質問、分析、推奨を支えます。\n\n**Report Lite:** 基本250 + 1ロケーションあたり80\n**Report Plus:** 基本1,200 + 1ロケーションあたり300\n**Report Pro:** 基本3,500 + 1ロケーションあたり800\n**Core Lite:** 基本8,000 + 1ロケーションあたり1,600\n**Core Pro:** 基本14,000 + 1ロケーションあたり2,800\n**Enterprise:** 基本50,000以上 + カスタム配分"
+            "title": "インテリジェンス・クレジットの仕組みは？",
+            "content": "インテリジェンス・クレジットは、質問、分析、推奨を動かします。各 Core パッケージには月ごとの残高が付きます。\n\n{{AI_WALLET_LINES}}\n\n使い切った場合は、どのパッケージでも追加購入できます。"
           },
           {
-            "title": "どれくらいの過去データにアクセスできますか？",
-            "content": "**Report Lite:** 90日\n**Report Plus:** 1年\n**Report Pro:** 2年\n**Core Lite:** 2年\n**Core Pro:** 3年\n**Enterprise:** 5年以上またはカスタム保持"
+            "title": "過去データはどこまで見られますか？",
+            "content": "どの Core パッケージでも、接続済みの履歴を複数年にわたって保持します。Enterprise 契約では保持期間を個別に延長できます。"
           },
           {
             "title": "データはどのくらいの頻度で更新されますか？",
-            "content": "**Report Lite:** 手動アップロード\n**Report Plus:** 手動またはオンデマンドでスマート解析\n**Report Pro:** 毎日自動更新\n**Core Lite:** 4時間ごと\n**Core Pro:** 2時間ごと\n**Enterprise:** カスタム頻度、スコープに応じてリアルタイムを含む"
+            "content": "Core は一日の終わりではなくシフトの最中に更新されるため、Pulse と各業務モジュールは、まだ手を打てるうちに動きます。正確な間隔は、接続されたシステムが何を公開しているかによります。"
           },
           {
-            "title": "カスタムダッシュボードは利用できますか？",
-            "content": "**Report tiers:** プリビルドダッシュボード\n**Core Lite:** 最大30のカスタムダッシュボード\n**Core Pro:** 最大75のカスタムダッシュボード\n**Enterprise:** 無制限のカスタムダッシュボード"
+            "title": "カスタムダッシュボードは作れますか？",
+            "content": "はい。各 Core パッケージには、各業務モジュールに付属する既定のビューに加えて、カスタムダッシュボードが含まれます。"
           }
         ]
       },
@@ -3526,12 +3760,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "どのようなサポートがありますか？",
-            "content": "**Report Lite:** メールサポート\n**Report Plus:** メールとチャット\n**Report Pro:** 優先サポート\n**Core Lite:** メール、チャット、電話\n**Core Pro:** より迅速な優先電話サポート\n**Enterprise:** 24時間年中無休のサポートと専任のカスタマーサクセスリード"
+            "title": "どのようなサポートが受けられますか？",
+            "content": "各 Core パッケージにメール、チャット、電話でのサポートが含まれます。Enterprise 契約では、24時間365日の対応、契約上の応答時間、専任のカスタマーサクセス担当が加わります。"
           },
           {
-            "title": "トレーニングは提供していますか？",
-            "content": "はい。\n\n**Report:** セルフサービスのオンボーディングとドキュメント\n**Core Lite:** ガイド付きトレーニングセッション\n**Core Pro:** カスタムトレーニングプログラム\n**Enterprise:** 構造化されたオンボーディングとエンゲージメント"
+            "title": "トレーニングはありますか？",
+            "content": "あります。トレーニングは導入の一部で、選択された中で最上位のクラスに基づき一回だけ請求されます。無償のセルフサービス資料に加え、上位クラスでは伴走型セッションと体系的な定着支援が付きます。"
           },
           {
             "title": "どのタイムゾーンをサポートしていますか？",
@@ -3580,16 +3814,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "SundaeはPOSレポートとどう違うのか？",
-            "content": "**POSレポート:** 一つのシステム、限られたコンテキスト、手動解釈\n\n**Sundae Report:** POS分析に加え、ベンチマーク、推奨事項、パターン検出\n\n**Sundae Core:** Reportのすべてに加え、労働、在庫、マーケティング、予約、その他のシステムから統合されたデータと、より高速な更新"
+            "title": "Sundae は POS のレポートと何が違いますか？",
+            "content": "**POS レポート：**単一システム、限られた文脈、手作業での解釈\n\n**Sundae Core：**POS 分析に加えて、ベンチマーク、推奨、パターン検出を、人件費・原価・顧客をまたぐ一つの運営像として提供します\n\n**Foresight & Action：**その上に前向きの視点 - 予測、シナリオ、そしてそれらが示したことに対して動く層"
           },
           {
             "title": "SundaeはExcelとどう違うのか？",
             "content": "**Excel:** 手動入力、静的分析、共有インテリジェンス層なし\n\n**Sundae:** 自動取り込み、構造化されたベンチマーキング、ライブダッシュボード、手動分析時間を毎週削減する推奨事項"
           },
           {
-            "title": "従来の分析ツールと比べてどれくらい節約できるのか？",
-            "content": "オペレーターは、Sundaeがモジュールごとやロケーションごとの料金を重ねるのではなく、階層ベースの価格設定を使用しているため、総コストが大幅に低くなると報告しています。正確な節約額は、現在のツールの組み合わせと運用範囲によります。"
+            "title": "従来の分析ツールと比べてどれくらい削減できますか？",
+            "content": "運営者からは、総コストが明確に下がったという声が多く寄せられます。モジュール単位・店舗単位の料金を積み上げるのではなく、Core パッケージが11の業務モジュールをすでに含んでいるためです。実際の差は、現在のツール構成と運営規模によります。"
           }
         ]
       },
@@ -3598,8 +3832,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "1つの店舗しかありません。Sundaeは適していますか？",
-            "content": "はい。まずは無料のReport Liteでベンチマークを行い、その後、運営に必要なスピードとインテリジェンスに応じて、より深いReportティアやCoreに移行できます。"
+            "title": "店舗が1つだけでも Sundae は合いますか？",
+            "content": "合います。1店舗ならパッケージのアンカー分だけを負担し、それ以上はかかりません。しかも50店舗のグループと同じ11のモジュールが使えます。店舗帯が効いてくるのは、店舗を増やし始めてからです。"
           },
           {
             "title": "私はフランチャイズプラットフォームです。Sundaeは助けてくれますか？",
@@ -3612,6 +3846,32 @@ export const generatedLocalCopy = {
           {
             "title": "私たちは拡大を計画しています。Sundaeは助けてくれますか？",
             "content": "はい。Watchtowerと市場インテリジェンスは、商圏分析、飽和度レビュー、競合の動向追跡、サービスが行き届いていないテリトリーの優先順位付けをサポートできます。"
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew とは？",
+            "content": "Sundae Crew は、あなたの人材を動かす運用スイートです：シフト管理、勤怠管理、給与準備、人事記録、そして労働力分析。計画されたすべてのシフト、打刻されたすべての時間、記録されたすべてのデータが、あなたの decision intelligence へと還流するシグナルになります - こうして運用とインサイトが一つのシステムを共有します。"
+          },
+          {
+            "title": "Crew で何ができますか？",
+            "content": "**5つの連携モジュール：**\n\n1. **Scheduling** - 適格性チェックと AI ビルダーを備えた需要対応型のシフト計画\n2. **勤怠管理** - 出退勤打刻、ジオフェンシング、休憩の証明、タイムシート承認\n3. **Payroll** - 複数地域の給与準備と法定エクスポート（準備とエクスポートであり、税計算エンジンではありません）\n4. **ピープル & 人事** - 入社から退職までの従業員記録と書類\n5. **People Intelligence** - 労働力分析、無断欠勤リスク、労務コストの傾向"
+          },
+          {
+            "title": "Crew の給与はどの地域に対応していますか？",
+            "content": "Crew の給与準備と法定エクスポートは、現在 **GCC**（UAE、KSA、Qatar、Bahrain、Oman、Kuwait）、**アメリカ合衆国**（連邦および全州）、**カナダ**、**イギリス**、そして **欧州連合**（全27加盟国）をカバーしています。ラテンアメリカと APAC はロードマップに含まれています。Crew は給与を準備してエクスポートします - 税計算エンジンではなく、法定ルールはバージョン管理された国別パックから提供されます。"
+          },
+          {
+            "title": "Crew を使うのに Core は必要ですか？",
+            "content": "いいえ。Crew は単独であなたの運用システムとして稼働できるほか、Core と併用してそのシグナルを Labor Intelligence、Pulse、Foresight に供給することもできます。ご自身の人事または給与プロバイダーを持ち込むことも可能です - Crew は設計上オプションです。"
+          },
+          {
+            "title": "Crew の費用はどれくらいですか？",
+            "content": "**Crew の SKU（月額固定、店舗ごとの追加課金なし）：**\n\n{{CREW_SKU_LINES}}\n\n**バンドル（それぞれ独自の正味価格です。中身の SKU に対する割引ではありません）：**\n\n{{CREW_BUNDLE_LINES}}\n\n正確な計算は pricing.sundae.io をご利用ください。"
           }
         ]
       }
@@ -3627,19 +3887,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "어떻게 시작하나요?",
-            "content": "세 가지 옵션이 있습니다:\n\n1. **무료 시작** - Report Lite에 가입하고 운영 데이터를 업로드하여 즉시 벤치마킹을 확인하세요. 신용카드 필요 없습니다.\n\n2. **가격 확인하기** - pricing.sundae.io에서 인터랙티브 가격 계산기를 사용하여 귀하의 운영에 대한 정확한 가격을 확인하세요.\n\n3. **데모 예약** - 저희 팀과 15분간의 워크스루를 예약하여 귀하의 데이터로 Sundae가 어떻게 작동하는지 확인하세요."
+            "content": "두 가지 방법이 있습니다.\n\n1. **가격 확인하기** - pricing.sundae.io의 대화형 계산기로 매장 수에 맞춰 Core 패키지를 산정해 보세요.\n\n2. **데모 예약하기** - 15분 설명을 예약하고, 실제 데이터 위에서 동작하는 Sundae를 확인하세요."
           },
           {
-            "title": "정말 무료 계층이 있나요?",
-            "content": "네. Report Lite는 영구적으로 무료입니다. 귀하의 POS 데이터를 업로드하고 5개의 핵심 지표에 대한 즉시 벤치마킹을 받으세요. 합리적인 운영 사용에 대한 공정 사용 정책이 적용됩니다."
+            "title": "무료 플랜이 있나요?",
+            "content": "없습니다. Sundae의 모든 패키지는 유료이며 첫 매장부터 과금됩니다. 대신 결정 전에 고객사의 실제 숫자로 진행하는 워킹 세션을 제공합니다. 서명하기 전에 효과를 먼저 보실 수 있습니다."
           },
           {
-            "title": "Report와 Core의 차이점은 무엇인가요?",
-            "content": "**Report Tier** = 역사적 분석 (POS 데이터)\n• POS 데이터를 매일, 매주 또는 매월 업로드\n• 무슨 일이 있었는지 분석\n• 동료들과 벤치마킹\n• 단일 위치 또는 개념 증명을 위한 최적\n\n**Core Tier** = 실시간 운영 (POS + 모든 시스템)\n• 2-4시간 새로 고침 주기\n• POS + 노동 + 재고 + 마케팅 + 예약 통합\n• 지금 무슨 일이 일어나고 있는지 확인\n• 예측 알림 받기\n• 다중 위치 운영자에게 최적\n\n주요 차이점: Report = POS만. Core = POS와 나머지 스택."
+            "title": "Core 패키지는 어떻게 다른가요?",
+            "content": "**Core Foundation** - 운영의 기준선. POS, 인건비, 원가, 운영을 아우르는 하나의 의사결정 기반입니다.\n\n**Core Margin** - 원가와 누수의 심화. 이론 사용량 대 실제 사용량, 폐기, 재고 손실, 취소와 서비스 제공, 품목별 기여도.\n\n**Core Growth** - 수요 측면의 심화. 고객 코호트와 생애가치, 채널별 프로모션 기여도, 수수료 차감 후 배달 마진.\n\n**Core Performance** - 다중 브랜드·다중 지역 통합, 모듈 간 상관분석, 감사 추적을 갖춘 통제된 접근.\n\n네 패키지 모두 동일한 11개 도메인 모듈을 담습니다. 달라지는 것은 깊이입니다."
           },
           {
             "title": "장기 계약이 필요한가요?",
-            "content": "아니요. Report 및 Core 계층은 월 단위입니다. 언제든지 페널티 없이 취소할 수 있습니다. 엔터프라이즈 배포는 일반적으로 맞춤형 조건의 연간 계약을 사용합니다."
+            "content": "아닙니다. 모든 패키지는 월 단위로 이용할 수 있고 위약금 없이 해지할 수 있습니다. 연간·2년 약정이 있는 이유는 더 저렴하기 때문이며(각각 10%, 15% 할인), 필수이기 때문이 아닙니다."
           }
         ]
       },
@@ -3649,19 +3909,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae는 어떤 제품을 제공하나요?",
-            "content": "**세 가지 주요 제품:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - 역사적 분석 및 벤치마킹\n2. **Sundae Core** (Lite / Pro / Enterprise) - 실시간 운영 및 예측 지능\n3. **Watchtower** (경쟁 / 이벤트 / 시장) - 외부 시장 정보\n\n**추가:**\n\n4. **모듈** - 노동, 재고, 구매, 마케팅 및 예약 정보."
+            "content": "**주요 4개 제품:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - 의사결정 기반으로, 11개 도메인 모듈을 모두 담습니다\n2. **Foresight & Action** - 예측, 시나리오 모델링, 그리고 사람이 승인하는 실행 레이어\n3. **Sundae Crew** - 인력 기반: 근무 편성, 근태, 급여 준비, 인사, 피플 인텔리전스\n4. **Watchtower** - 외부 시장 인텔리전스로, Core 패키지와 함께 범위를 정합니다\n\n**추가로:** 그룹의 운영 모델에 맞춘 콘셉트 SKU - 프랜차이즈, 호텔 F&B, 클라우드 키친, 케이터링, 생산, 임대 센트럴 키친."
           },
           {
-            "title": "어떤 티어를 선택해야 하나요?",
-            "content": "**Report Lite로 시작하세요:**\n• Sundae를 테스트 중인 경우\n• 1-2개 위치를 운영하는 경우\n• 일일 또는 주간 보고로 충분한 경우\n\n**Report Plus 또는 Pro로 업그레이드하세요:**\n• 더 깊은 역사적 정보가 필요한 경우\n• 일일 보고로 충분한 경우\n\n**Core Lite 또는 Pro를 선택하세요:**\n• 10개 이상의 위치를 운영하는 경우\n• 운영 속도가 필요한 경우\n• 실시간 예산 추적이 중요한 경우\n\n**Enterprise를 선택하세요:**\n• 100개 이상의 위치가 있는 경우\n• SSO 또는 화이트 라벨 기능이 필요한 경우\n• 전담 지원 및 맞춤 조건이 필요한 경우"
+            "title": "어떤 Core 패키지를 선택해야 하나요?",
+            "content": "**Core Foundation이 맞는 경우:**\n• 스프레드시트와 흩어진 대시보드에서 벗어나려는 경우\n• 더 깊이 들어가기 전에 하나의 운영 그림이 필요한 경우\n\n**Core Margin이 맞는 경우:**\n• 원가, 폐기, 취소, 서비스 제공이 마진을 갉아먹는 경우\n• 매출 구성이 아니라 품목별 기여도가 필요한 경우\n\n**Core Growth가 맞는 경우:**\n• 재방문 매출과 채널 구성이 제약인 경우\n• 고객 코호트, 프로모션 기여도, 배달 마진이 필요한 경우\n\n**Core Performance가 맞는 경우:**\n• 여러 브랜드나 여러 시장을 운영하는 경우\n• 통합, 모듈 간 상관분석, 통제된 접근이 필요한 경우"
           },
           {
             "title": "나중에 업그레이드 또는 다운그레이드할 수 있나요?",
             "content": "네. 언제든지 티어 간 이동이 가능합니다. 역사적 데이터는 보존되며, 요금제 변경에 대한 패널티는 없습니다."
           },
           {
-            "title": "4D 인텔리전스 모델이란 무엇인가요?",
-            "content": "Sundae의 의사 결정 지능 프레임워크:\n\n**1D: 무슨 일이 있었나** - 판매, 노동 및 비용 데이터\n**2D: 계획 대비 실제** - 예산 및 예측 차이\n**3D: 시장 맥락** - 벤치마크, 동료 및 경쟁자\n**4D: 다음은 무엇인가** - 예측 및 권장 사항\n\n**Report:** 전체 1D 및 2D와 제한된 3D 및 4D\n**Core:** 모든 4차원에 대한 전체 접근"
+            "title": "4D Intelligence 모델이란 무엇인가요?",
+            "content": "Sundae의 의사결정 인텔리전스 프레임워크입니다.\n\n**1D: 무슨 일이 있었나** - 매출, 인건비, 원가의 사실\n**2D: 계획 대 실적** - 예산 및 예측 대비 편차\n**3D: 시장 맥락** - 벤치마크, 동종업계, 경쟁사\n**4D: 다음은 무엇인가** - 예측과 권고\n\n모든 Core 패키지가 네 가지를 모두 다루며, 패키지가 각 차원의 깊이를 정합니다."
           }
         ]
       },
@@ -3670,24 +3930,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae에 필요한 데이터는 무엇인가요?",
-            "content": "**Report Lite의 최소 요구사항:**\n• POS 판매 데이터 (CSV 내보내기)\n\n**Core의 경우:**\n• API를 통한 POS 시스템\n• 노동 또는 인력 시스템\n• 재고 시스템\n• 마케팅 플랫폼\n• 예약 시스템\n\nReport는 POS 업로드를 중심으로 구성됩니다. Core는 더 넓은 운영 스택을 연결하는 곳입니다."
+            "title": "Sundae에는 어떤 데이터가 필요한가요?",
+            "content": "**모든 Core 패키지 공통:**\n• API로 연결되는 POS 시스템\n• 인력 또는 근무 관리 시스템\n• 재고 시스템\n• 마케팅 플랫폼\n• 예약 시스템\n\nPOS만 연결해도 첫날부터 가치를 얻습니다. 나머지는 연결할수록 그림이 깊어집니다."
           },
           {
-            "title": "내 데이터를 Sundae에 어떻게 가져오나요?",
-            "content": "**Report Lite:** 수동 CSV 업로드\n\n**Report Plus:** PDF, Excel 파일 또는 스크린샷 업로드. Sundae가 데이터를 추출하고 처리 전에 검토합니다.\n\n**Report Pro 및 Core:** API 연결을 통한 자동 수집"
+            "title": "제 데이터는 어떻게 Sundae로 들어가나요?",
+            "content": "POS와 나머지 운영 시스템에 대한 API 연결을 통해 들어갑니다. API가 없는 시스템은 Sundae가 구조화된 파일 전달과 자동 판독 업로드(PDF, Excel, 스크린샷)를 지원하며, 처리 전에 직접 검토하실 수 있습니다."
           },
           {
             "title": "어떤 POS 시스템과 통합하나요?",
             "content": "Sundae는 현재 **4개의 POS 플랫폼**을 실시간 어댑터로 지원합니다: Oracle MICROS Simphony, Square, Toast, Clover. 또한 POS 시스템이 데이터베이스 접근을 제공할 때 PostgreSQL 및 SQL Server / Azure SQL에 대한 **직접 데이터베이스 커넥터**를 지원합니다.\n\nPOS를 넘어, Sundae의 **12개 도메인 통합 엔진**은 노동, 재고, 예약, 배달, 마케팅, 고객 경험, CRM 및 회계 분야의 30개 이상의 공급업체와 연결됩니다.\n\n목록에 시스템이 없으면, 엔터프라이즈 등급에서 맞춤 통합 작업 및 웹훅 기반 수집을 포함할 수 있습니다."
           },
           {
-            "title": "여러 POS 시스템에서 Sundae를 사용할 수 있나요?",
-            "content": "**Core Lite:** 모든 위치가 하나의 POS를 사용할 때 최적\n\n**Core Pro 및 Enterprise:** 가능합니다. 위치마다 다른 POS 시스템이 지원되며, Sundae는 데이터를 동등 비교를 위해 정규화합니다.\n\n**Report:** 업로드가 수동이기 때문에 어떤 POS도 작동합니다."
+            "title": "Sundae를 여러 POS 시스템과 함께 쓸 수 있나요?",
+            "content": "네. Sundae는 서로 다른 POS가 섞인 환경에 연결하고, 같은 기준으로 비교할 수 있도록 데이터를 표준화합니다. Core Performance는 그 위에 브랜드·지역 간 통합을 더합니다."
           },
           {
-            "title": "구현에는 얼마나 걸리나요?",
-            "content": "**Report Lite:** 업로드 후 즉시\n**Report Plus / Pro:** 1-2일\n**Core Lite / Pro:** 1-2주\n**Enterprise:** 범위에 따라 2-4주"
+            "title": "도입에는 얼마나 걸리나요?",
+            "content": "대부분의 그룹은 1~2주 안에 가동합니다. 여러 브랜드나 여러 지역에 걸친 큰 규모의 도입은 범위에 따라 2~4주가 걸립니다.\n\n도입 비용은 일회성이며, 선택하신 항목 중 가장 높은 등급을 기준으로 한 번만 청구됩니다. 무상 셀프서비스부터 범위가 정해진 Class D 지원까지 있습니다."
           },
           {
             "title": "취소하면 내 데이터는 어떻게 되나요?",
@@ -3701,27 +3961,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "모듈이란 무엇인가요?",
-            "content": "모듈은 Core를 위한 전문 지능 추가 기능입니다:\n\n1. **노동 지능** - 일정 관리, 생산성 및 초과 근무\n2. **재고 지능** - 폐기물, 최소 재고 수준 및 재고 가시성\n3. **구매 지능** - 공급업체 비교 및 계약 활용\n4. **마케팅 지능** - ROI, CAC 및 채널 성과\n5. **예약 지능** - 노쇼 예측 및 테이블 최적화\n\n모듈은 실시간 연결된 운영 데이터에 의존하므로 Core가 필요합니다."
+            "content": "11개 도메인 모듈은 Core 안의 분석 화면입니다. 패키지의 구성 요소이며, 따로 구매하는 부가 기능이 아닙니다.\n\n{{DOMAIN_MODULE_LINES}}\n\n실시간으로 연결된 운영 데이터에 의존하기 때문에 Core가 필요합니다."
           },
           {
-            "title": "모듈이 필요하나요?",
-            "content": "아니요. 모듈은 선택 사항입니다. 특정 운영 영역에서 더 깊은 커버리지가 필요할 때 추가하세요.\n\n**경로:**\n• Report에서 -> 먼저 Core로 업그레이드\n• Core에서 -> 필요가 명확할 때 언제든지 모듈 추가"
+            "title": "모듈이 꼭 필요한가요?",
+            "content": "선택 사항도 아니고 별도 구매도 아닙니다. 11개 도메인 모듈은 모든 Core 패키지에 포함됩니다.\n\n고객이 고르는 것은 패키지이고, 패키지가 각 모듈의 깊이를 정합니다."
           },
           {
-            "title": "모듈에 Core가 필요한가요?",
-            "content": "네. 모듈은 Core Lite, Core Pro 또는 Enterprise가 필요합니다.\n\n모듈은 Report가 직접 연결하지 않는 노동, 재고, 마케팅, 예약 및 기타 시스템에 대한 실시간 연결에 의존합니다."
+            "title": "모듈 하나만 살 수 있나요?",
+            "content": "불가능합니다. 11개 도메인 모듈은 Core 패키지의 구성 요소이지 독립 제품이 아니며, 모듈별 가격도 없습니다. 패키지를 선택하는 것이 모두를 갖는 방법입니다."
           },
           {
-            "title": "여러 모듈을 추가할 수 있나요?",
-            "content": "네. 다섯 개의 모듈을 자유롭게 조합할 수 있습니다. 모든 모듈을 함께 구매할 필요는 없습니다."
+            "title": "모듈을 하나씩 추가하나요?",
+            "content": "아닙니다. 추가할 것이 없습니다. 모든 Core 패키지가 첫날부터 11개 도메인 모듈을 모두 담고 있으며, 선택한 패키지는 각 모듈의 깊이만 정합니다."
           },
           {
-            "title": "어떤 모듈을 먼저 선택해야 하나요?",
-            "content": "가장 큰 운영 문제점부터 시작하세요:\n\n• 높은 노동 비용 -> 노동 지능\n• 폐기물 또는 재고 문제 -> 재고 지능\n• 약한 공급업체 활용 -> 구매 지능\n• 불확실한 마케팅 ROI -> 마케팅 지능\n• 예약 노쇼 -> 예약 지능"
+            "title": "어떤 모듈부터 봐야 하나요?",
+            "content": "이미 전부 켜져 있으므로, 무엇을 살지가 아니라 어디부터 볼지의 문제입니다. 가장 큰 운영 문제부터 시작하세요.\n\n• 높은 인건비 -> Labor Intelligence\n• 폐기나 재고 문제 -> Inventory Intelligence\n• 공급업체 협상력 부족 -> Purchasing Intelligence\n• 불분명한 마케팅 성과 -> Marketing Intelligence\n• 예약 노쇼 -> Reservations Intelligence"
           },
           {
             "title": "모듈 가격은 어떻게 되나요?",
-            "content": "각 모듈에는 첫 5개 위치를 포함하는 조직 라이센스가 포함되며, 그 임계값을 초과하는 추가 위치 가격이 있습니다.\n\n예: 노동 지능이 있는 8개 위치 = 1개 조직 라이센스 + 3개 추가 위치.\n\n정확한 요금 계산은 pricing.sundae.io를 사용하세요."
+            "content": "모듈 가격이라는 것이 없습니다. 모듈에는 독립적인 가격도, 자체 매장 한도도 없습니다. 구매하시는 것은 패키지입니다.\n\nCore 패키지는 첫 매장부터 과금되고, 이후 매장마다 한계 요율이 적용되며 규모가 커질수록 그 요율은 내려갑니다. {{WORKED_EXAMPLE}}\n\n정확한 계산은 pricing.sundae.io를 이용하세요."
           }
         ]
       },
@@ -3746,8 +4006,8 @@ export const generatedLocalCopy = {
             "content": "네. 경쟁 정보, 이벤트 정보 또는 시장 정보를 개별적으로 구매하거나 조합할 수 있습니다."
           },
           {
-            "title": "Watchtower는 Core가 필요하나요?",
-            "content": "네. Watchtower는 시장 신호가 실시간 운영 데이터에 직접 겹쳐질 때 가장 잘 작동하며, 이는 Core가 제공합니다.\n\n업로드된 과거 POS 분석만 필요하다면 Report로 충분합니다. 일상 운영과 연결된 시장 맥락이 필요하다면 Core로 이동하세요."
+            "title": "Watchtower는 Core가 필요한가요?",
+            "content": "네. Watchtower는 시장 신호가 실시간 운영 데이터 위에 얹힐 때 가장 잘 작동하며, 그것을 제공하는 것이 Core 패키지입니다. 단독 판매가 아니라 패키지와 함께 범위를 정하고 견적합니다."
           }
         ]
       },
@@ -3756,8 +4016,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Sundae의 가격은 얼마인가요?",
-            "content": "가격은 다음에 따라 다릅니다:\n• Report vs Core\n• 위치 수\n• 선택한 모듈\n• Watchtower 포함 여부\n\n**Report Lite:** 영구 무료\n\n정확한 가격은 pricing.sundae.io를 사용하세요."
+            "title": "Sundae 비용은 얼마인가요?",
+            "content": "가격은 다음에 따라 달라집니다.\n• 어떤 Core 패키지인지\n• 매장 수\n• Foresight & Action, Crew, 콘셉트 SKU 포함 여부\n\nCore 패키지는 첫 매장 기준가에 더해, 매장이 늘어날 때마다 한계 요율이 적용되며 규모가 커질수록 그 요율은 내려갑니다. Core Foundation은 첫 매장 기준 {{FOUNDATION_FIRST_UNIT}}부터 시작합니다.\n\n정확한 금액은 pricing.sundae.io를 이용하세요."
           },
           {
             "title": "설치 비용이 있나요?",
@@ -3783,19 +4043,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "인텔리전스 크레딧은 어떻게 작동하나요?",
-            "content": "인텔리전스 크레딧은 질문, 분석 및 추천을 지원합니다.\n\n**Report Lite:** 250 기본 + 위치당 80\n**Report Plus:** 1,200 기본 + 위치당 300\n**Report Pro:** 3,500 기본 + 위치당 800\n**Core Lite:** 8,000 기본 + 위치당 1,600\n**Core Pro:** 14,000 기본 + 위치당 2,800\n**엔터프라이즈:** 50,000+ 기본 + 맞춤 할당"
+            "content": "인텔리전스 크레딧은 질문, 분석, 권고를 구동합니다. 모든 Core 패키지에는 월 단위 잔액이 포함됩니다.\n\n{{AI_WALLET_LINES}}\n\n모두 사용하면 어느 패키지에서든 충전할 수 있습니다."
           },
           {
-            "title": "얼마나 많은 과거 데이터에 접근할 수 있나요?",
-            "content": "**Report Lite:** 90일\n**Report Plus:** 1년\n**Report Pro:** 2년\n**Core Lite:** 2년\n**Core Pro:** 3년\n**엔터프라이즈:** 5년 이상 또는 맞춤 보존"
+            "title": "과거 데이터는 얼마나 볼 수 있나요?",
+            "content": "모든 Core 패키지가 연결된 전체 이력을 다년간 보관합니다. Enterprise 계약에서는 별도 보관 조건으로 기간을 늘릴 수 있습니다."
           },
           {
-            "title": "데이터는 얼마나 자주 새로 고쳐지나요?",
-            "content": "**Report Lite:** 수동 업로드\n**Report Plus:** 수동 또는 필요 시 스마트 파싱\n**Report Pro:** 매일 자동 새로 고침\n**Core Lite:** 4시간마다\n**Core Pro:** 2시간마다\n**엔터프라이즈:** 맞춤 주기, 범위에 따라 실시간 포함"
+            "title": "데이터는 얼마나 자주 갱신되나요?",
+            "content": "Core는 하루가 끝난 뒤가 아니라 근무 중에 갱신됩니다. 그래서 Pulse와 도메인 모듈이 아직 손쓸 수 있을 때 움직입니다. 정확한 주기는 연결된 시스템이 무엇을 제공하는지에 달려 있습니다."
           },
           {
-            "title": "맞춤 대시보드를 받을 수 있나요?",
-            "content": "**리포트 계층:** 미리 구축된 대시보드\n**Core Lite:** 최대 30개의 맞춤 대시보드\n**Core Pro:** 최대 75개의 맞춤 대시보드\n**엔터프라이즈:** 무제한 맞춤 대시보드"
+            "title": "맞춤 대시보드를 만들 수 있나요?",
+            "content": "네. 모든 Core 패키지에는 각 도메인 모듈에 기본 제공되는 화면 외에 맞춤 대시보드가 포함됩니다."
           }
         ]
       },
@@ -3805,11 +4065,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "어떤 지원을 받나요?",
-            "content": "**Report Lite:** 이메일 지원\n**Report Plus:** 이메일 및 채팅 지원\n**Report Pro:** 우선 지원\n**Core Lite:** 이메일, 채팅 및 전화 지원\n**Core Pro:** 더 빠른 우선 전화 지원\n**Enterprise:** 24/7 지원 및 전담 고객 성공 리드"
+            "content": "모든 Core 패키지에 이메일, 채팅, 전화 지원이 포함됩니다. Enterprise 계약에는 24/7 커버리지, 계약상 응답 시간, 전담 고객 성공 담당자가 추가됩니다."
           },
           {
-            "title": "교육을 제공하나요?",
-            "content": "네.\n\n**Report:** 셀프 서비스 온보딩 및 문서\n**Core Lite:** 안내 교육 세션\n**Core Pro:** 맞춤형 교육 프로그램\n**Enterprise:** 구조화된 온보딩 및 활성화"
+            "title": "교육도 제공하나요?",
+            "content": "제공합니다. 교육은 도입 과정의 일부이며, 선택하신 항목 중 가장 높은 등급을 기준으로 한 번만 청구됩니다. 무상 셀프서비스 문서에 더해, 상위 등급에서는 동행 세션과 체계적인 정착 지원이 포함됩니다."
           },
           {
             "title": "어떤 시간대를 지원하나요?",
@@ -3858,16 +4118,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Sundae는 POS 보고서와 어떻게 다른가요?",
-            "content": "**POS 보고서:** 하나의 시스템, 제한된 맥락, 수동 해석\n\n**Sundae Report:** POS 분석과 벤치마크, 추천, 패턴 탐지 포함\n\n**Sundae Core:** Report의 모든 기능과 함께 노동, 재고, 마케팅, 예약 및 기타 시스템의 통합 데이터와 더 빠른 새로 고침 제공"
+            "title": "Sundae는 POS 리포팅과 무엇이 다른가요?",
+            "content": "**POS 리포트:** 단일 시스템, 제한된 맥락, 수작업 해석\n\n**Sundae Core:** POS 분석에 더해 벤치마크, 권고, 패턴 탐지를 인건비·원가·고객에 걸쳐 하나의 운영 그림으로 제공합니다\n\n**Foresight & Action:** 그 위에 얹히는 앞을 보는 시야 - 예측, 시나리오, 그리고 그것들이 드러낸 것에 대해 움직이는 레이어"
           },
           {
             "title": "Sundae는 Excel과 어떻게 다른가요?",
             "content": "**Excel:** 수동 입력, 정적 분석, 공유 지능 레이어 없음\n\n**Sundae:** 자동 데이터 수집, 구조화된 벤치마킹, 실시간 대시보드 및 매주 수동 분석 시간을 줄이는 추천 제공"
           },
           {
-            "title": "구형 분석 도구에 비해 얼마나 절약할 수 있나요?",
-            "content": "운영자들은 Sundae가 모듈 및 위치별 요금을 쌓는 대신 계층 기반 가격 책정을 사용하기 때문에 총 비용이 실질적으로 낮아진다고 보고합니다. 정확한 절감액은 현재 사용하는 도구 조합과 운영 범위에 따라 다릅니다."
+            "title": "기존 분석 도구 대비 얼마나 절감되나요?",
+            "content": "운영자들은 총비용이 뚜렷하게 낮아졌다고 자주 이야기합니다. 모듈별·매장별 요금을 쌓는 대신, Core 패키지가 11개 도메인 모듈을 이미 포함하기 때문입니다. 정확한 차이는 현재 사용 중인 도구 구성과 운영 규모에 따라 달라집니다."
           }
         ]
       },
@@ -3876,8 +4136,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "저는 한 곳만 운영합니다. Sundae가 적합할까요?",
-            "content": "네. 무료 벤치마킹을 위해 Report Lite로 시작한 후, 운영에 더 많은 속도와 지능이 필요하면 더 깊은 Report 계층이나 Core로 이동하세요."
+            "title": "매장이 하나뿐인데 Sundae가 맞을까요?",
+            "content": "맞습니다. 단일 매장은 패키지 기준가만 부담하며, 50개 매장 그룹이 받는 것과 동일한 11개 모듈을 받습니다. 매장 구간은 매장을 늘리기 시작할 때부터 의미가 생깁니다."
           },
           {
             "title": "저는 프랜차이즈 플랫폼입니다. Sundae가 도움이 될까요?",
@@ -3890,6 +4150,32 @@ export const generatedLocalCopy = {
           {
             "title": "우리는 확장을 계획하고 있습니다. Sundae가 도움이 될까요?",
             "content": "네. Watchtower와 시장 정보는 거래 지역 분석, 포화도 검토, 경쟁자 동향 추적 및 서비스가 부족한 지역의 우선 순위 지정을 지원할 수 있습니다."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew란 무엇인가요?",
+            "content": "Sundae Crew는 인력을 운영하는 운영 제품군입니다: 근무 일정, 근태 관리, 급여 준비, 인사 기록, 인력 분석. 계획된 모든 근무, 기록된 모든 시간, 보관된 모든 기록이 귀하의 decision intelligence로 다시 흘러드는 신호가 됩니다 - 그래서 운영과 인사이트가 하나의 시스템을 공유합니다."
+          },
+          {
+            "title": "Crew는 무엇을 할 수 있나요?",
+            "content": "**다섯 개의 연결된 모듈:**\n\n1. **Scheduling** - 적격성 검사와 AI 빌더를 갖춘 수요 인식형 근무 일정\n2. **근태 관리** - 출퇴근 기록, 지오펜싱, 휴게 시간 증명, 근무 시간표 승인\n3. **Payroll** - 다지역 급여 준비 및 법정 내보내기(준비 및 내보내기이며 세금 엔진이 아님)\n4. **인력 & 인사** - 채용부터 퇴직까지의 직원 기록 및 문서\n5. **People Intelligence** - 인력 분석, 노쇼 위험, 인건비 추세"
+          },
+          {
+            "title": "Crew 급여는 어떤 지역을 지원하나요?",
+            "content": "Crew의 급여 준비와 법정 내보내기는 현재 **GCC**(UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **미국**(연방 및 모든 주), **캐나다**, **영국**, **유럽 연합**(전체 27개 회원국)을 지원합니다. 라틴 아메리카와 APAC는 로드맵에 있습니다. Crew는 급여를 준비하고 내보냅니다 - 세금 엔진이 아니며, 법정 규칙은 버전이 지정된 국가 팩에서 제공됩니다."
+          },
+          {
+            "title": "Crew를 사용하려면 Core가 필요한가요?",
+            "content": "아니요. Crew는 운영 시스템으로 단독 실행하거나, Core와 함께 실행하여 그 신호를 Labor Intelligence, Pulse, Foresight에 공급할 수 있습니다. 자체 인사 또는 급여 제공업체를 사용할 수도 있습니다 - Crew는 설계상 선택 사항입니다."
+          },
+          {
+            "title": "Crew 비용은 얼마인가요?",
+            "content": "**Crew SKU (월 정액, 매장별 추가 과금 없음):**\n\n{{CREW_SKU_LINES}}\n\n**번들 (각각 자체 순가격을 가집니다. 포함된 SKU에 대한 할인이 아닙니다):**\n\n{{CREW_BUNDLE_LINES}}\n\n정확한 계산은 pricing.sundae.io를 이용하세요."
           }
         ]
       }
@@ -3905,19 +4191,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Bagaimana cara memulai?",
-            "content": "Anda memiliki tiga opsi:\n\n1. **Mulai Gratis** - Daftar untuk Report Lite (gratis selamanya) dan unggah data operasional Anda untuk melihat benchmarking instan. Tidak perlu kartu kredit.\n\n2. **Lihat Harga Anda** - Gunakan kalkulator harga interaktif kami di pricing.sundae.io untuk melihat harga tepat untuk operasi Anda.\n\n3. **Jadwalkan Demo** - Atur pertemuan 15 menit dengan tim kami untuk melihat Sundae beraksi dengan data Anda."
+            "content": "Ada dua pilihan:\n\n1. **Lihat harga Anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menyesuaikan paket Core dengan jumlah gerai Anda.\n\n2. **Pesan demo** - Jadwalkan peninjauan 15 menit bersama tim kami dan lihat Sundae berjalan di atas data Anda."
           },
           {
-            "title": "Apakah benar ada tier gratis?",
-            "content": "Ya. Report Lite gratis selamanya. Unggah data POS Anda dan dapatkan benchmarking instan terhadap 5 metrik inti. Kebijakan penggunaan wajar berlaku untuk penggunaan operasional yang wajar."
+            "title": "Apakah ada tingkat gratis?",
+            "content": "Tidak. Semua paket Sundae berbayar, dihitung mulai dari gerai pertama. Yang kami tawarkan adalah sesi kerja dengan angka Anda sendiri sebelum Anda berkomitmen, sehingga Anda melihat hasilnya sebelum menandatangani apa pun."
           },
           {
-            "title": "Apa perbedaan antara Report dan Core?",
-            "content": "**Tier Report** = Analisis historis (data POS)\n• Unggah data POS harian, mingguan, atau bulanan\n• Analisis apa yang terjadi\n• Benchmark terhadap rekan-rekan\n• Terbaik untuk satu lokasi atau bukti konsep\n\n**Tier Core** = Operasi waktu nyata (POS + semua sistem)\n• Siklus penyegaran 2-4 jam\n• Mengintegrasikan POS + tenaga kerja + inventaris + pemasaran + reservasi\n• Lihat apa yang sedang terjadi sekarang\n• Dapatkan peringatan prediktif\n• Terbaik untuk operator multi-lokasi\n\nPerbedaan kunci: Report = hanya POS. Core = POS ditambah sisa tumpukan Anda."
+            "title": "Apa beda paket-paket Core?",
+            "content": "**Core Foundation** - dasar operasional: satu fondasi keputusan di atas POS, tenaga kerja, biaya, dan operasi.\n\n**Core Margin** - kedalaman pada biaya dan kebocoran: pemakaian teoretis versus aktual, susut, selisih stok, void dan komplimen, kontribusi per item.\n\n**Core Growth** - kedalaman pada permintaan: kohort tamu dan nilai seumur hidup, atribusi promo per kanal, margin pengiriman setelah komisi.\n\n**Core Performance** - konsolidasi lintas merek dan wilayah, korelasi antarmodul, akses terkelola dengan jejak audit.\n\nKeempatnya membawa sebelas modul domain yang sama. Yang berubah adalah kedalamannya."
           },
           {
-            "title": "Apakah saya perlu kontrak jangka panjang?",
-            "content": "Tidak. Tier Report dan Core adalah bulanan. Batalkan kapan saja tanpa penalti. Penempatan perusahaan biasanya menggunakan perjanjian tahunan dengan syarat khusus."
+            "title": "Apakah saya butuh kontrak jangka panjang?",
+            "content": "Tidak. Setiap paket tersedia bulanan dan bisa dibatalkan tanpa penalti. Komitmen tahunan dan dua tahunan ada karena lebih murah - diskon 10% dan 15% - bukan karena diwajibkan."
           }
         ]
       },
@@ -3926,20 +4212,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Produk apa yang ditawarkan Sundae?",
-            "content": "**Tiga produk utama:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisis historis dan pembandingan\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operasi waktu nyata dan kecerdasan prediktif\n3. **Watchtower** (Kompetitif / Acara / Pasar) - Kecerdasan pasar eksternal\n\n**Plus:**\n\n4. **Modul** - Kecerdasan Tenaga Kerja, Inventaris, Pembelian, Pemasaran, dan Reservasi."
+            "title": "Produk apa saja yang ditawarkan Sundae?",
+            "content": "**Empat produk utama:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa seluruh sebelas modul domain\n2. **Foresight & Action** - prakiraan, pemodelan skenario, dan lapisan tindakan dengan persetujuan manusia\n3. **Sundae Crew** - substrat tenaga kerja: penjadwalan, absensi, kesiapan penggajian, HR, dan people intelligence\n4. **Watchtower** - inteligensi pasar eksternal, dilingkupi bersama paket Core Anda\n\n**Ditambah:** SKU konsep untuk model operasi grup Anda - waralaba, F&B hotel, cloud kitchen, katering, produksi, dapur sentral sewa."
           },
           {
-            "title": "Tingkat mana yang harus saya pilih?",
-            "content": "**Mulai dengan Report Lite jika:**\n• Anda sedang menguji Sundae\n• Anda mengelola 1-2 lokasi\n• Laporan harian atau mingguan sudah cukup\n\n**Tingkatkan ke Report Plus atau Pro jika:**\n• Anda memerlukan kecerdasan historis yang lebih dalam\n• Laporan harian masih cukup\n\n**Pilih Core Lite atau Pro jika:**\n• Anda mengelola 10+ lokasi\n• Anda memerlukan kecepatan operasional\n• Pelacakan anggaran waktu nyata penting\n\n**Pilih Enterprise jika:**\n• Anda memiliki 100+ lokasi\n• Anda memerlukan kemampuan SSO atau label putih\n• Anda memerlukan dukungan khusus dan syarat kustom"
+            "title": "Paket Core mana yang sebaiknya saya pilih?",
+            "content": "**Core Foundation bila:**\n• Anda beralih dari spreadsheet dan dasbor yang terpisah-pisah\n• Anda ingin satu gambaran operasi sebelum masuk lebih dalam\n\n**Core Margin bila:**\n• Biaya bahan, susut, void, atau komplimen yang menggerus margin Anda\n• Anda butuh kontribusi per item, bukan sekadar bauran penjualan\n\n**Core Growth bila:**\n• Pendapatan berulang dan bauran kanal jadi kendala\n• Anda butuh kohort tamu, atribusi promo, dan margin pengiriman\n\n**Core Performance bila:**\n• Anda menjalankan beberapa merek atau beberapa pasar\n• Anda butuh konsolidasi, korelasi antarmodul, dan akses terkelola"
           },
           {
             "title": "Bisakah saya meningkatkan atau menurunkan tingkat nanti?",
             "content": "Ya. Anda dapat berpindah antar tingkat kapan saja. Data historis akan dipertahankan dan tidak ada penalti untuk mengubah rencana."
           },
           {
-            "title": "Apa itu Model Kecerdasan 4D?",
-            "content": "Kerangka kerja Sundae untuk kecerdasan keputusan:\n\n**1D: Apa yang Terjadi** - Data penjualan, tenaga kerja, dan biaya\n**2D: Rencana vs Aktual** - Varians anggaran dan perkiraan\n**3D: Konteks Pasar** - Tolok ukur, rekan, dan pesaing\n**4D: Apa Selanjutnya** - Prediksi dan rekomendasi\n\n**Report:** Akses penuh 1D dan 2D ditambah 3D dan 4D terbatas\n**Core:** Akses penuh di semua 4 dimensi."
+            "title": "Apa itu model 4D Intelligence?",
+            "content": "Kerangka Sundae untuk inteligensi keputusan:\n\n**1D: apa yang terjadi** - kebenaran penjualan, tenaga kerja, dan biaya\n**2D: rencana versus aktual** - selisih anggaran dan prakiraan\n**3D: konteks pasar** - tolok ukur, sesama pelaku, dan pesaing\n**4D: apa berikutnya** - prediksi dan rekomendasi\n\nSetiap paket Core mencakup keempatnya. Paket menentukan seberapa dalam tiap dimensi."
           }
         ]
       },
@@ -3949,23 +4235,23 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Data apa yang dibutuhkan Sundae?",
-            "content": "**Minimum untuk Report Lite:**\n• Data penjualan POS (ekspor CSV)\n\n**Untuk Core:**\n• Sistem POS melalui API\n• Sistem tenaga kerja\n• Sistem inventaris\n• Platform pemasaran\n• Sistem reservasi\n\nReport dibangun di sekitar unggahan POS. Core adalah tempat Anda menghubungkan tumpukan operasi yang lebih luas."
+            "content": "**Untuk setiap paket Core:**\n• Sistem POS melalui API\n• Sistem tenaga kerja atau penjadwalan\n• Sistem persediaan\n• Platform pemasaran\n• Sistem reservasi\n\nPOS saja sudah cukup untuk memberi nilai pada hari pertama. Sisanya memperdalam gambaran seiring Anda menghubungkannya."
           },
           {
-            "title": "Bagaimana cara saya memasukkan data saya ke Sundae?",
-            "content": "**Report Lite:** Unggah CSV secara manual\n\n**Report Plus:** Unggah PDF, file Excel, atau tangkapan layar. Sundae mengekstrak data dan Anda meninjaunya sebelum diproses.\n\n**Report Pro dan Core:** Penerimaan otomatis melalui koneksi API"
+            "title": "Bagaimana data saya masuk ke Sundae?",
+            "content": "Lewat koneksi API ke POS dan sisa tumpukan operasional Anda. Bila sebuah sistem tidak punya API, Sundae menerima kiriman berkas terstruktur dan unggahan yang dibaca secara cerdas - PDF, Excel, tangkapan layar - yang Anda tinjau sebelum diproses."
           },
           {
             "title": "Sistem POS mana yang Anda integrasikan?",
             "content": "Sundae saat ini mendukung **4 platform POS** dengan adaptor langsung: Oracle MICROS Simphony, Square, Toast, dan Clover. Kami juga mendukung **penghubung database langsung** untuk PostgreSQL dan SQL Server / Azure SQL ketika sistem POS membuka akses database.\n\nDi luar POS, mesin integrasi **12-domain** Sundae terhubung ke lebih dari 30 vendor di bidang tenaga kerja, inventaris, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, dan akuntansi.\n\nJika Anda tidak melihat sistem Anda terdaftar, tingkat Enterprise dapat mencakup pekerjaan integrasi kustom dan penerimaan berbasis webhook."
           },
           {
-            "title": "Bisakah saya menggunakan Sundae dengan beberapa sistem POS?",
-            "content": "**Core Lite:** Terbaik ketika semua lokasi menggunakan satu POS\n\n**Core Pro dan Enterprise:** Ya. Berbagai sistem POS di berbagai lokasi didukung, dan Sundae menormalkan data untuk perbandingan yang setara.\n\n**Report:** Sistem POS mana pun berfungsi karena unggahan dilakukan secara manual."
+            "title": "Bisakah saya memakai Sundae dengan beberapa sistem POS?",
+            "content": "Bisa. Sundae terhubung ke lanskap POS campuran dan menormalkan datanya agar perbandingannya setara. Core Performance menambahkan konsolidasi lintas merek dan wilayah di atasnya."
           },
           {
-            "title": "Berapa lama waktu yang dibutuhkan untuk implementasi?",
-            "content": "**Report Lite:** Segera setelah unggahan\n**Report Plus / Pro:** 1-2 hari\n**Core Lite / Pro:** 1-2 minggu\n**Enterprise:** 2-4 minggu tergantung pada ruang lingkup"
+            "title": "Berapa lama implementasinya?",
+            "content": "Sebagian besar grup aktif dalam 1-2 minggu. Peluncuran yang lebih besar, lintas merek atau lintas wilayah, memakan 2-4 minggu tergantung cakupan.\n\nImplementasi adalah biaya sekali bayar, dikenakan satu kali pada kelas tertinggi dalam pilihan Anda - dari layanan mandiri tanpa biaya hingga pendampingan Class D yang tercakup."
           },
           {
             "title": "Apa yang terjadi pada data saya jika saya membatalkan?",
@@ -3979,27 +4265,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Apa itu modul?",
-            "content": "Modul adalah tambahan kecerdasan khusus untuk Core:\n\n1. **Kecerdasan Tenaga Kerja** - Penjadwalan, produktivitas, dan lembur\n2. **Kecerdasan Inventaris** - Limbah, tingkat par, dan visibilitas stok\n3. **Kecerdasan Pembelian** - Perbandingan vendor dan leverage kontrak\n4. **Kecerdasan Pemasaran** - ROI, CAC, dan kinerja saluran\n5. **Kecerdasan Reservasi** - Prediksi no-show dan optimasi meja\n\nModul memerlukan Core karena bergantung pada data operasional yang terhubung secara langsung."
+            "content": "Sebelas modul domain adalah permukaan analitis di dalam Core. Semuanya komponen paket, bukan tambahan yang dibeli terpisah:\n\n{{DOMAIN_MODULE_LINES}}\n\nSemuanya memerlukan Core karena bergantung pada data operasi yang terhubung langsung."
           },
           {
-            "title": "Apakah saya perlu modul?",
-            "content": "Tidak. Modul bersifat opsional. Tambahkan saat Anda ingin cakupan yang lebih dalam di area operasional tertentu.\n\n**Jalur:**\n• Di Report -> tingkatkan ke Core terlebih dahulu\n• Di Core -> tambahkan modul kapan pun kebutuhan jelas"
+            "title": "Apakah saya butuh modul?",
+            "content": "Modul bukan opsional dan bukan pembelian terpisah. Kesebelas modul domain hadir di setiap paket Core.\n\nYang Anda pilih adalah paketnya, dan paket menentukan sedalam apa tiap modul bekerja."
           },
           {
-            "title": "Apakah saya perlu Core untuk modul?",
-            "content": "Ya. Modul memerlukan Core Lite, Core Pro, atau Enterprise.\n\nMereka bergantung pada koneksi langsung ke tenaga kerja, inventaris, pemasaran, reservasi, dan sistem lain yang tidak terhubung langsung dengan Report."
+            "title": "Bisakah saya membeli satu modul saja?",
+            "content": "Tidak. Kesebelas modul domain adalah komponen paket Core, bukan produk berdiri sendiri, dan tidak ada harga per modul. Memilih paket adalah cara mendapatkan semuanya."
           },
           {
-            "title": "Bisakah saya menambahkan beberapa modul?",
-            "content": "Ya. Campur dan padukan salah satu dari lima modul. Tidak ada persyaratan untuk membeli semuanya sekaligus."
+            "title": "Apakah modul ditambahkan satu per satu?",
+            "content": "Tidak. Tidak ada yang perlu ditambahkan. Setiap paket Core membawa kesebelas modul domain sejak hari pertama - paket yang Anda pilih hanya menentukan kedalaman masing-masing."
           },
           {
-            "title": "Modul mana yang harus saya pilih terlebih dahulu?",
-            "content": "Mulailah dengan titik nyeri operasional terbesar:\n\n• Biaya tenaga kerja tinggi -> Kecerdasan Tenaga Kerja\n• Masalah limbah atau stok -> Kecerdasan Inventaris\n• Leverage vendor yang lemah -> Kecerdasan Pembelian\n• ROI pemasaran yang tidak jelas -> Kecerdasan Pemasaran\n• No-show reservasi -> Kecerdasan Reservasi"
+            "title": "Modul mana yang sebaiknya dilihat lebih dulu?",
+            "content": "Semuanya sudah aktif, jadi ini soal dari mana mulai melihat, bukan apa yang dibeli. Mulailah dari titik nyeri operasional terbesar:\n\n• Biaya tenaga kerja tinggi -> Labor Intelligence\n• Susut atau masalah stok -> Inventory Intelligence\n• Daya tawar pemasok lemah -> Purchasing Intelligence\n• ROI pemasaran tidak jelas -> Marketing Intelligence\n• Reservasi tidak hadir -> Reservations Intelligence"
           },
           {
-            "title": "Bagaimana cara kerja harga modul?",
-            "content": "Setiap modul mencakup lisensi organisasi yang mencakup 5 lokasi pertama, ditambah harga lokasi tambahan di luar ambang tersebut.\n\nContoh: 8 lokasi dengan Kecerdasan Tenaga Kerja = 1 lisensi org + 3 lokasi tambahan.\n\nGunakan pricing.sundae.io untuk perhitungan rencana yang tepat."
+            "title": "Bagaimana penetapan harga modul?",
+            "content": "Tidak ada penetapan harga modul. Modul tidak punya harga sendiri maupun jatah lokasi sendiri - yang Anda beli adalah paketnya.\n\nPaket Core dihitung mulai dari gerai pertama, lalu dengan tarif marginal untuk tiap gerai tambahan yang turun seiring pertumbuhan. {{WORKED_EXAMPLE}}\n\nGunakan pricing.sundae.io untuk perhitungan pastinya."
           }
         ]
       },
@@ -4025,7 +4311,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Apakah Watchtower memerlukan Core?",
-            "content": "Ya. Watchtower bekerja paling baik ketika sinyal pasar dilapisi langsung pada data operasional langsung, yang disediakan oleh Core.\n\nJika Anda hanya perlu analisis POS historis yang diunggah, Report sudah cukup. Jika Anda ingin konteks pasar yang terkait dengan operasi sehari-hari, beralihlah ke Core."
+            "content": "Ya. Watchtower bekerja paling baik saat sinyal pasarnya dilapiskan di atas data operasi langsung, dan itulah yang diberikan paket Core. Ia dilingkupi dan ditawarkan bersama paket Anda, bukan dijual sendiri."
           }
         ]
       },
@@ -4035,7 +4321,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Berapa biaya Sundae?",
-            "content": "Harga tergantung pada:\n• Report vs Core\n• Jumlah lokasi\n• Modul yang dipilih\n• Apakah Watchtower termasuk\n\n**Report Lite:** Gratis selamanya\n\nUntuk harga yang tepat, gunakan pricing.sundae.io."
+            "content": "Harganya bergantung pada:\n• Paket Core yang dipilih\n• Jumlah gerai\n• Apakah Foresight & Action, Crew, atau SKU konsep disertakan\n\nPaket Core dihitung dari jangkar gerai pertama, ditambah tarif marginal untuk tiap gerai berikutnya yang turun seiring pertumbuhan. Core Foundation mulai dari {{FOUNDATION_FIRST_UNIT}} untuk gerai pertama Anda.\n\nUntuk harga pastinya, gunakan pricing.sundae.io."
           },
           {
             "title": "Apakah ada biaya setup?",
@@ -4060,20 +4346,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Bagaimana cara kerja kredit intelijen?",
-            "content": "Kredit intelijen mendukung pertanyaan, analisis, dan rekomendasi.\n\n**Report Lite:** 250 dasar + 80 per lokasi\n**Report Plus:** 1.200 dasar + 300 per lokasi\n**Report Pro:** 3.500 dasar + 800 per lokasi\n**Core Lite:** 8.000 dasar + 1.600 per lokasi\n**Core Pro:** 14.000 dasar + 2.800 per lokasi\n**Enterprise:** 50.000+ dasar + alokasi kustom"
+            "title": "Bagaimana kredit inteligensi bekerja?",
+            "content": "Kredit inteligensi menggerakkan pertanyaan, analisis, dan rekomendasi. Setiap paket Core membawa dompet bulanan:\n\n{{AI_WALLET_LINES}}\n\nJika habis, Anda bisa menambah di paket mana pun."
           },
           {
-            "title": "Berapa banyak akses historis yang saya dapatkan?",
-            "content": "**Report Lite:** 90 hari\n**Report Plus:** 1 tahun\n**Report Pro:** 2 tahun\n**Core Lite:** 2 tahun\n**Core Pro:** 3 tahun\n**Enterprise:** 5+ tahun atau retensi kustom"
+            "title": "Seberapa jauh riwayat yang saya dapat?",
+            "content": "Setiap paket Core menyimpan seluruh riwayat terhubung Anda dengan retensi bertahun-tahun. Perjanjian Enterprise bisa memperpanjangnya dengan ketentuan retensi khusus."
           },
           {
-            "title": "Seberapa sering data diperbarui?",
-            "content": "**Report Lite:** Unggahan manual\n**Report Plus:** Manual atau diparsing cerdas sesuai permintaan\n**Report Pro:** Pembaruan otomatis harian\n**Core Lite:** Setiap 4 jam\n**Core Pro:** Setiap 2 jam\n**Enterprise:** Irama kustom, termasuk waktu nyata saat ditentukan"
+            "title": "Seberapa sering data disegarkan?",
+            "content": "Core menyegarkan sepanjang shift, bukan di akhir hari, sehingga Pulse dan modul domain bergerak selagi Anda masih bisa bertindak. Kekerapan persisnya bergantung pada apa yang dibuka oleh sistem yang Anda hubungkan."
           },
           {
-            "title": "Apakah saya mendapatkan dasbor kustom?",
-            "content": "**Tingkat laporan:** Dasbor yang sudah dibuat\n**Core Lite:** Hingga 30 dasbor kustom\n**Core Pro:** Hingga 75 dasbor kustom\n**Enterprise:** Dasbor kustom tanpa batas."
+            "title": "Apakah saya mendapat dasbor kustom?",
+            "content": "Ya. Setiap paket Core menyertakan dasbor kustom di samping tampilan siap pakai yang datang bersama tiap modul domain."
           }
         ]
       },
@@ -4082,12 +4368,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Dukungan apa yang saya dapatkan?",
-            "content": "**Report Lite:** Dukungan email\n**Report Plus:** Dukungan email dan chat\n**Report Pro:** Dukungan prioritas\n**Core Lite:** Dukungan email, chat, dan telepon\n**Core Pro:** Dukungan telepon prioritas lebih cepat\n**Enterprise:** Dukungan 24/7 ditambah pemimpin keberhasilan pelanggan yang ditugaskan"
+            "title": "Dukungan apa yang saya dapat?",
+            "content": "Setiap paket Core mencakup dukungan email, chat, dan telepon. Perjanjian Enterprise menambah cakupan 24/7, waktu respons kontraktual, dan penanggung jawab customer success khusus."
           },
           {
             "title": "Apakah Anda menyediakan pelatihan?",
-            "content": "Ya.\n\n**Report:** Onboarding dan dokumentasi mandiri\n**Core Lite:** Sesi pelatihan terpandu\n**Core Pro:** Program pelatihan kustom\n**Enterprise:** Onboarding dan pemberdayaan terstruktur"
+            "content": "Ya. Pelatihan adalah bagian dari implementasi, yang ditagih sekali pada kelas tertinggi dalam pilihan Anda - dokumentasi mandiri tanpa biaya, sesi terpandu dan pendampingan terstruktur di kelas yang lebih tinggi."
           },
           {
             "title": "Zona waktu apa yang Anda dukung?",
@@ -4136,16 +4422,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Apa perbedaan Sundae dengan laporan POS?",
-            "content": "**Laporan POS:** Satu sistem, konteks terbatas, interpretasi manual\n\n**Sundae Report:** Analisis POS ditambah tolok ukur, rekomendasi, dan deteksi pola\n\n**Sundae Core:** Segala sesuatu dalam Report ditambah data terpadu dari tenaga kerja, inventaris, pemasaran, reservasi, dan sistem lainnya dengan pembaruan lebih cepat"
+            "title": "Apa beda Sundae dengan laporan POS?",
+            "content": "**Laporan POS:** satu sistem, konteks terbatas, tafsir manual\n\n**Sundae Core:** analisis POS ditambah tolok ukur, rekomendasi, dan deteksi pola, melintasi tenaga kerja, biaya, dan tamu dalam satu gambaran operasi\n\n**Foresight & Action:** pandangan ke depan di atasnya - prakiraan, skenario, dan lapisan yang bertindak atas apa yang mereka munculkan"
           },
           {
             "title": "Apa perbedaan Sundae dengan Excel?",
             "content": "**Excel:** Entri manual, analisis statis, tidak ada lapisan kecerdasan bersama\n\n**Sundae:** Pengambilan otomatis, tolok ukur terstruktur, dasbor langsung, dan rekomendasi yang mengurangi waktu analisis manual setiap minggu"
           },
           {
-            "title": "Berapa banyak yang bisa saya hemat dibandingkan dengan alat analitik lama?",
-            "content": "Operator sering melaporkan biaya total yang jauh lebih rendah karena Sundae menggunakan harga berbasis tier alih-alih biaya per modul dan per lokasi. Penghematan yang tepat tergantung pada campuran alat Anda saat ini dan ruang lingkup operasional."
+            "title": "Berapa hemat dibanding perkakas analitik lama?",
+            "content": "Operator kerap melaporkan biaya total yang jauh lebih rendah, karena satu paket Core sudah memuat kesebelas modul domain alih-alih menumpuk biaya per modul dan per gerai. Selisih persisnya bergantung pada bauran perkakas Anda saat ini dan skala operasi."
           }
         ]
       },
@@ -4154,8 +4440,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Saya hanya memiliki satu lokasi. Apakah Sundae tetap cocok?",
-            "content": "Ya. Mulailah dengan Report Lite untuk benchmarking gratis, kemudian beralih ke tier Report yang lebih dalam atau Core jika operasi Anda membutuhkan lebih banyak kecepatan dan kecerdasan."
+            "title": "Saya hanya punya satu gerai. Apakah Sundae tetap cocok?",
+            "content": "Ya. Satu gerai hanya menanggung jangkar paket dan tidak lebih, serta mendapat kesebelas modul yang sama seperti grup dengan lima puluh gerai. Pita lokasi baru berpengaruh ketika Anda menambah gerai."
           },
           {
             "title": "Saya adalah platform waralaba. Dapatkah Sundae membantu?",
@@ -4170,6 +4456,32 @@ export const generatedLocalCopy = {
             "content": "Ya. Watchtower dan intelijen pasar dapat mendukung analisis area perdagangan, tinjauan saturasi, pelacakan pergerakan pesaing, dan prioritas wilayah yang kurang terlayani."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Apa itu Sundae Crew?",
+            "content": "Sundae Crew adalah rangkaian operasional yang menjalankan orang-orang Anda: penjadwalan, absensi, kesiapan penggajian, catatan SDM, dan analitik tenaga kerja. Setiap shift yang direncanakan, setiap jam yang tercatat, dan setiap catatan yang diarsipkan menjadi sinyal yang mengalir kembali ke decision intelligence Anda - sehingga operasi dan wawasan berbagi satu sistem."
+          },
+          {
+            "title": "Apa yang bisa dilakukan Crew?",
+            "content": "**Lima modul yang terhubung:**\n\n1. **Scheduling** - Perencanaan shift yang peka permintaan dengan pemeriksaan kelayakan dan pembangun AI\n2. **Absensi** - Absen masuk/keluar, geofencing, atestasi istirahat, dan persetujuan lembar waktu\n3. **Payroll** - Kesiapan penggajian multi-wilayah dan ekspor statutori (kesiapan dan ekspor, bukan mesin pajak)\n4. **Orang & SDM** - Catatan dan dokumen karyawan dari perekrutan hingga pensiun\n5. **People Intelligence** - Analitik tenaga kerja, risiko ketidakhadiran, dan tren biaya tenaga kerja"
+          },
+          {
+            "title": "Wilayah mana saja yang didukung penggajian Crew?",
+            "content": "Kesiapan penggajian dan ekspor statutori Crew saat ini mencakup **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Amerika Serikat** (federal plus semua negara bagian), **Kanada**, **Inggris**, dan **Uni Eropa** (seluruh 27 negara anggota). Amerika Latin dan APAC ada dalam roadmap. Crew menyiapkan dan mengekspor penggajian - ini bukan mesin pajak, dan aturan statutori berasal dari paket negara berversi."
+          },
+          {
+            "title": "Apakah saya memerlukan Core untuk menggunakan Crew?",
+            "content": "Tidak. Crew dapat berjalan sendiri sebagai sistem operasional Anda, atau berdampingan dengan Core sehingga sinyalnya memberi masukan ke Labor Intelligence, Pulse, dan Foresight. Anda juga dapat membawa penyedia SDM atau penggajian Anda sendiri - Crew bersifat opsional secara desain."
+          },
+          {
+            "title": "Berapa biaya Crew?",
+            "content": "**SKU Crew (bulanan tetap, tanpa biaya per gerai):**\n\n{{CREW_SKU_LINES}}\n\n**Bundel (masing-masing punya harga bersih sendiri - bukan diskon atas SKU di dalamnya):**\n\n{{CREW_BUNDLE_LINES}}\n\nGunakan pricing.sundae.io untuk perhitungan pastinya."
+          }
+        ]
       }
     ],
     "vi": [
@@ -4182,20 +4494,20 @@ export const generatedLocalCopy = {
             "content": "Sundae là một nền tảng trí tuệ quyết định dành cho các nhà hàng và đội ngũ khách sạn. Nó tập hợp dữ liệu hoạt động rải rác vào một nơi để các nhà lãnh đạo có thể thấy những gì đã xảy ra, những gì đang thay đổi và nơi cần hành động tiếp theo."
           },
           {
-            "title": "Tôi bắt đầu như thế nào?",
-            "content": "Bạn có ba lựa chọn:\n\n1. **Bắt đầu miễn phí** - Đăng ký Report Lite (miễn phí mãi mãi) và tải lên dữ liệu hoạt động của bạn để xem các chỉ số so sánh ngay lập tức. Không cần thẻ tín dụng.\n\n2. **Xem giá của bạn** - Sử dụng máy tính giá tương tác của chúng tôi tại pricing.sundae.io để xem giá chính xác cho hoạt động của bạn.\n\n3. **Đặt lịch demo** - Lên lịch một buổi hướng dẫn 15 phút với đội ngũ của chúng tôi để xem Sundae hoạt động với dữ liệu của bạn."
+            "title": "Tôi bắt đầu thế nào?",
+            "content": "Bạn có hai lựa chọn:\n\n1. **Xem mức giá của bạn** - Dùng công cụ tính tương tác tại pricing.sundae.io để chọn gói Core theo số điểm bán.\n\n2. **Đặt lịch demo** - Hẹn buổi giới thiệu 15 phút cùng đội ngũ của chúng tôi và xem Sundae chạy trên dữ liệu của bạn."
           },
           {
-            "title": "Có thật sự có cấp độ miễn phí không?",
-            "content": "Có. Report Lite miễn phí mãi mãi. Tải lên dữ liệu POS của bạn và nhận các chỉ số so sánh ngay lập tức với 5 chỉ số cốt lõi. Chính sách sử dụng hợp lý áp dụng cho việc sử dụng hoạt động hợp lý."
+            "title": "Có bản miễn phí không?",
+            "content": "Không. Mọi gói Sundae đều tính phí, bắt đầu từ điểm bán đầu tiên. Điều chúng tôi cung cấp là một buổi làm việc trên chính số liệu của bạn trước khi cam kết, để bạn thấy phần thu về trước khi ký bất cứ điều gì."
           },
           {
-            "title": "Sự khác biệt giữa Report và Core là gì?",
-            "content": "**Cấp độ Report** = Phân tích lịch sử (dữ liệu POS)\n• Tải lên dữ liệu POS hàng ngày, hàng tuần hoặc hàng tháng\n• Phân tích những gì đã xảy ra\n• So sánh với các đối thủ\n• Tốt nhất cho một địa điểm hoặc bằng chứng về khái niệm\n\n**Cấp độ Core** = Hoạt động theo thời gian thực (POS + tất cả các hệ thống)\n• Chu kỳ làm mới 2-4 giờ\n• Tích hợp POS + lao động + tồn kho + tiếp thị + đặt chỗ\n• Xem những gì đang xảy ra ngay bây giờ\n• Nhận cảnh báo dự đoán\n• Tốt nhất cho các nhà điều hành đa địa điểm\n\nSự khác biệt chính: Report = chỉ POS. Core = POS cộng với phần còn lại của hệ thống của bạn."
+            "title": "Các gói Core khác nhau ra sao?",
+            "content": "**Core Foundation** - nền vận hành: một nền tảng ra quyết định trên POS, nhân công, chi phí và vận hành.\n\n**Core Margin** - chiều sâu về chi phí và thất thoát: định mức so với thực dùng, hao hụt, thiếu hụt kho, huỷ món và tặng, đóng góp theo từng món.\n\n**Core Growth** - chiều sâu về nhu cầu: nhóm khách và giá trị vòng đời, quy kết khuyến mãi theo kênh, biên giao hàng sau hoa hồng.\n\n**Core Performance** - hợp nhất đa thương hiệu và đa vùng, đối chiếu giữa các phân hệ, truy cập được quản trị kèm dấu vết kiểm toán.\n\nCả bốn đều mang cùng mười một phân hệ nghiệp vụ. Thứ thay đổi là chiều sâu."
           },
           {
             "title": "Tôi có cần hợp đồng dài hạn không?",
-            "content": "Không. Các cấp độ Report và Core là hàng tháng. Hủy bất cứ lúc nào mà không bị phạt. Các triển khai doanh nghiệp thường sử dụng các thỏa thuận hàng năm với các điều khoản tùy chỉnh."
+            "content": "Không. Mọi gói đều dùng theo tháng và có thể huỷ mà không bị phạt. Cam kết một năm và hai năm tồn tại vì rẻ hơn - giảm 10% và 15% - chứ không phải vì bắt buộc."
           }
         ]
       },
@@ -4205,19 +4517,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae cung cấp những sản phẩm nào?",
-            "content": "**Ba sản phẩm chính:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Phân tích lịch sử và chuẩn hóa\n2. **Sundae Core** (Lite / Pro / Enterprise) - Hoạt động thời gian thực và trí tuệ dự đoán\n3. **Watchtower** (Cạnh tranh / Sự kiện / Thị trường) - Thông tin thị trường bên ngoài\n\n**Thêm vào đó:**\n\n4. **Modules** - Thông tin về Lao động, Tồn kho, Mua sắm, Tiếp thị và Đặt chỗ."
+            "content": "**Bốn sản phẩm chính:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - nền tảng ra quyết định, mang đủ mười một phân hệ nghiệp vụ\n2. **Foresight & Action** - dự báo, dựng kịch bản và lớp hành động có phê duyệt của con người\n3. **Sundae Crew** - nền tảng nhân sự: xếp ca, chấm công, sẵn sàng tính lương, nhân sự và people intelligence\n4. **Watchtower** - trí tuệ thị trường bên ngoài, xác định phạm vi cùng gói Core của bạn\n\n**Ngoài ra:** các SKU theo mô hình vận hành của tập đoàn - nhượng quyền, F&B khách sạn, bếp trên mây, tiệc, sản xuất, bếp trung tâm cho thuê."
           },
           {
-            "title": "Tôi nên chọn cấp độ nào?",
-            "content": "**Bắt đầu với Report Lite nếu:**\n• Bạn đang thử nghiệm Sundae\n• Bạn điều hành 1-2 địa điểm\n• Báo cáo hàng ngày hoặc hàng tuần là đủ\n\n**Nâng cấp lên Report Plus hoặc Pro nếu:**\n• Bạn cần thông tin lịch sử sâu hơn\n• Báo cáo hàng ngày vẫn là đủ\n\n**Chọn Core Lite hoặc Pro nếu:**\n• Bạn điều hành 10+ địa điểm\n• Bạn cần tốc độ hoạt động\n• Theo dõi ngân sách thời gian thực là quan trọng\n\n**Chọn Enterprise nếu:**\n• Bạn có 100+ địa điểm\n• Bạn cần khả năng SSO hoặc nhãn trắng\n• Bạn yêu cầu hỗ trợ chuyên dụng và điều khoản tùy chỉnh"
+            "title": "Tôi nên chọn gói Core nào?",
+            "content": "**Core Foundation nếu:**\n• Bạn đang thoát khỏi bảng tính và các bảng điều khiển rời rạc\n• Bạn muốn một bức tranh vận hành thống nhất trước khi đi sâu\n\n**Core Margin nếu:**\n• Giá vốn, hao hụt, huỷ món hay đồ tặng đang ăn vào biên lợi nhuận\n• Bạn cần đóng góp theo từng món, không chỉ cơ cấu doanh thu\n\n**Core Growth nếu:**\n• Doanh thu lặp lại và cơ cấu kênh là điểm nghẽn\n• Bạn cần nhóm khách, quy kết khuyến mãi và biên giao hàng\n\n**Core Performance nếu:**\n• Bạn vận hành nhiều thương hiệu hoặc nhiều thị trường\n• Bạn cần hợp nhất, đối chiếu giữa các phân hệ và truy cập được quản trị"
           },
           {
             "title": "Tôi có thể nâng cấp hoặc hạ cấp sau không?",
             "content": "Có. Bạn có thể chuyển đổi giữa các cấp độ bất kỳ lúc nào. Dữ liệu lịch sử được bảo tồn và không có hình phạt cho việc thay đổi kế hoạch."
           },
           {
-            "title": "Mô hình Trí tuệ 4D là gì?",
-            "content": "Khung làm việc của Sundae cho trí tuệ quyết định:\n\n**1D: Điều gì đã xảy ra** - Dữ liệu về doanh thu, lao động và chi phí\n**2D: Kế hoạch so với Thực tế** - Biến động ngân sách và dự báo\n**3D: Bối cảnh Thị trường** - Các chuẩn mực, đồng nghiệp và đối thủ\n**4D: Điều gì tiếp theo** - Dự đoán và khuyến nghị\n\n**Report:** Toàn bộ 1D và 2D cộng với 3D và 4D hạn chế\n**Core:** Truy cập đầy đủ trên tất cả 4 chiều."
+            "title": "Mô hình 4D Intelligence là gì?",
+            "content": "Khung trí tuệ ra quyết định của Sundae:\n\n**1D: điều gì đã xảy ra** - sự thật về doanh thu, nhân công và chi phí\n**2D: kế hoạch so với thực tế** - chênh lệch ngân sách và dự báo\n**3D: bối cảnh thị trường** - đối sánh, đơn vị tương đương và đối thủ\n**4D: điều gì sắp tới** - dự báo và khuyến nghị\n\nMọi gói Core đều bao trùm cả bốn. Gói quyết định mỗi chiều đi sâu tới đâu."
           }
         ]
       },
@@ -4226,24 +4538,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae cần dữ liệu gì?",
-            "content": "**Tối thiểu cho Report Lite:**\n• Dữ liệu bán hàng POS (xuất CSV)\n\n**Đối với Core:**\n• Hệ thống POS qua API\n• Hệ thống lao động hoặc nhân sự\n• Hệ thống tồn kho\n• Nền tảng tiếp thị\n• Hệ thống đặt chỗ\n\nReport được xây dựng xung quanh việc tải lên POS. Core là nơi bạn kết nối với hệ thống vận hành rộng hơn."
+            "title": "Sundae cần những dữ liệu nào?",
+            "content": "**Với mọi gói Core:**\n• Hệ thống POS qua API\n• Hệ thống nhân công hoặc xếp ca\n• Hệ thống tồn kho\n• Các nền tảng tiếp thị\n• Hệ thống đặt chỗ\n\nChỉ riêng POS đã đủ để tạo giá trị ngay ngày đầu. Phần còn lại làm bức tranh sâu hơn khi bạn kết nối thêm."
           },
           {
-            "title": "Làm thế nào để tôi đưa dữ liệu vào Sundae?",
-            "content": "**Report Lite:** Tải lên CSV thủ công\n\n**Report Plus:** Tải lên PDF, tệp Excel hoặc ảnh chụp màn hình. Sundae trích xuất dữ liệu và bạn xem xét trước khi xử lý.\n\n**Report Pro và Core:** Nhập tự động qua kết nối API"
+            "title": "Dữ liệu của tôi vào Sundae bằng cách nào?",
+            "content": "Qua kết nối API tới POS và phần còn lại của hệ thống vận hành. Nơi nào hệ thống không có API, Sundae nhận tệp có cấu trúc và các bản tải lên được đọc thông minh - PDF, Excel, ảnh chụp màn hình - bạn xem lại trước khi xử lý."
           },
           {
             "title": "Sundae tích hợp với những hệ thống POS nào?",
             "content": "Sundae hiện hỗ trợ **4 nền tảng POS** với bộ điều hợp trực tiếp: Oracle MICROS Simphony, Square, Toast và Clover. Chúng tôi cũng hỗ trợ **kết nối cơ sở dữ liệu trực tiếp** cho PostgreSQL và SQL Server / Azure SQL khi một hệ thống POS cung cấp quyền truy cập cơ sở dữ liệu.\n\nNgoài POS, động cơ tích hợp **12 miền** của Sundae kết nối với hơn 30 nhà cung cấp trong các lĩnh vực lao động, tồn kho, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM và kế toán.\n\nNếu bạn không thấy hệ thống của mình trong danh sách, cấp độ Doanh nghiệp có thể bao gồm công việc tích hợp tùy chỉnh và nhập liệu dựa trên webhook."
           },
           {
-            "title": "Tôi có thể sử dụng Sundae với nhiều hệ thống POS không?",
-            "content": "**Core Lite:** Tốt nhất khi tất cả các địa điểm sử dụng một hệ thống POS\n\n**Core Pro và Doanh nghiệp:** Có. Hỗ trợ các hệ thống POS khác nhau giữa các địa điểm, và Sundae chuẩn hóa dữ liệu để so sánh chính xác.\n\n**Report:** Bất kỳ POS nào cũng hoạt động vì việc tải lên là thủ công."
+            "title": "Tôi có thể dùng Sundae với nhiều hệ thống POS không?",
+            "content": "Có. Sundae kết nối trên các hệ POS hỗn hợp và chuẩn hoá dữ liệu để so sánh cùng một thước đo. Core Performance bổ sung thêm việc hợp nhất giữa các thương hiệu và khu vực."
           },
           {
-            "title": "Quá trình triển khai mất bao lâu?",
-            "content": "**Report Lite:** Ngay lập tức sau khi tải lên\n**Report Plus / Pro:** 1-2 ngày\n**Core Lite / Pro:** 1-2 tuần\n**Doanh nghiệp:** 2-4 tuần tùy thuộc vào phạm vi"
+            "title": "Triển khai mất bao lâu?",
+            "content": "Phần lớn tập đoàn đi vào hoạt động trong 1-2 tuần. Các đợt triển khai lớn hơn, nhiều thương hiệu hoặc nhiều vùng, mất 2-4 tuần tuỳ phạm vi.\n\nTriển khai là khoản phí một lần, tính một lần theo hạng cao nhất trong lựa chọn của bạn - từ tự phục vụ miễn phí đến gói Class D có phạm vi rõ ràng."
           },
           {
             "title": "Điều gì sẽ xảy ra với dữ liệu của tôi nếu tôi hủy?",
@@ -4256,28 +4568,28 @@ export const generatedLocalCopy = {
         "icon": "network",
         "faqs": [
           {
-            "title": "Mô-đun là gì?",
-            "content": "Mô-đun là các tiện ích thông minh chuyên biệt cho Core:\n\n1. **Thông minh về lao động** - Lịch trình, năng suất và làm thêm giờ\n2. **Thông minh về tồn kho** - Lãng phí, mức tồn kho tối thiểu và khả năng nhìn thấy hàng tồn\n3. **Thông minh về mua sắm** - So sánh nhà cung cấp và tận dụng hợp đồng\n4. **Thông minh về tiếp thị** - ROI, CAC và hiệu suất kênh\n5. **Thông minh về đặt chỗ** - Dự đoán không đến và tối ưu hóa bàn\n\nMô-đun yêu cầu Core vì chúng phụ thuộc vào dữ liệu hoạt động trực tiếp, kết nối."
+            "title": "Phân hệ là gì?",
+            "content": "Mười một phân hệ nghiệp vụ là các bề mặt phân tích bên trong Core. Chúng là thành phần của gói, không phải tiện ích mua thêm bên ngoài:\n\n{{DOMAIN_MODULE_LINES}}\n\nChúng cần Core vì phụ thuộc vào dữ liệu vận hành được kết nối trực tiếp."
           },
           {
-            "title": "Tôi có cần mô-đun không?",
-            "content": "Không. Mô-đun là tùy chọn. Thêm chúng khi bạn muốn có sự bao phủ sâu hơn trong một lĩnh vực hoạt động cụ thể.\n\n**Đường dẫn:**\n• Trên Report -> nâng cấp lên Core trước\n• Trên Core -> thêm mô-đun bất cứ khi nào nhu cầu rõ ràng"
+            "title": "Tôi có cần phân hệ không?",
+            "content": "Chúng không phải tuỳ chọn và cũng không bán riêng. Cả mười một phân hệ nghiệp vụ đều đi kèm mọi gói Core.\n\nThứ bạn chọn là gói, và gói quyết định mỗi phân hệ đi sâu tới đâu."
           },
           {
-            "title": "Tôi có cần Core cho mô-đun không?",
-            "content": "Có. Mô-đun yêu cầu Core Lite, Core Pro hoặc Enterprise.\n\nChúng phụ thuộc vào các kết nối trực tiếp với lao động, tồn kho, tiếp thị, đặt chỗ và các hệ thống khác mà Report không kết nối trực tiếp."
+            "title": "Tôi có thể mua lẻ một phân hệ không?",
+            "content": "Không. Mười một phân hệ nghiệp vụ là thành phần của gói Core, không phải sản phẩm độc lập, và không có giá theo từng phân hệ. Chọn gói là cách để có tất cả."
           },
           {
-            "title": "Tôi có thể thêm nhiều mô-đun không?",
-            "content": "Có. Kết hợp và chọn bất kỳ mô-đun nào trong năm mô-đun. Không có yêu cầu phải mua tất cả chúng cùng một lúc."
+            "title": "Có phải thêm từng phân hệ một không?",
+            "content": "Không. Không có gì để thêm. Mọi gói Core đều mang đủ mười một phân hệ nghiệp vụ ngay từ ngày đầu - gói bạn chọn chỉ quyết định mỗi phân hệ đi sâu tới đâu."
           },
           {
-            "title": "Tôi nên chọn mô-đun nào trước?",
-            "content": "Bắt đầu với điểm đau lớn nhất trong hoạt động:\n\n• Chi phí lao động cao -> Thông minh về lao động\n• Vấn đề lãng phí hoặc hàng tồn kho -> Thông minh về tồn kho\n• Khả năng thương lượng nhà cung cấp yếu -> Thông minh về mua sắm\n• ROI tiếp thị không rõ ràng -> Thông minh về tiếp thị\n• Không đến đặt chỗ -> Thông minh về đặt chỗ"
+            "title": "Nên xem phân hệ nào trước?",
+            "content": "Tất cả đã bật sẵn, nên câu hỏi là bắt đầu nhìn từ đâu, không phải mua gì. Hãy bắt đầu từ điểm đau vận hành lớn nhất:\n\n• Chi phí nhân công cao -> Labor Intelligence\n• Hao hụt hoặc vấn đề tồn kho -> Inventory Intelligence\n• Yếu thế với nhà cung cấp -> Purchasing Intelligence\n• ROI tiếp thị không rõ -> Marketing Intelligence\n• Khách đặt chỗ không đến -> Reservations Intelligence"
           },
           {
-            "title": "Giá mô-đun hoạt động như thế nào?",
-            "content": "Mỗi mô-đun bao gồm một giấy phép tổ chức cho 5 địa điểm đầu tiên, cộng với giá cho các địa điểm bổ sung vượt ngưỡng đó.\n\nVí dụ: 8 địa điểm với Thông minh về lao động = 1 giấy phép tổ chức + 3 địa điểm bổ sung.\n\nSử dụng pricing.sundae.io để tính toán giá chính xác cho gói của bạn."
+            "title": "Giá phân hệ tính thế nào?",
+            "content": "Không có giá phân hệ. Phân hệ không có giá riêng và cũng không có hạn mức điểm bán riêng - thứ bạn mua là gói.\n\nGói Core tính từ điểm bán đầu tiên, sau đó theo mức biên cho mỗi điểm bán tăng thêm, và mức ấy giảm dần khi bạn mở rộng. {{WORKED_EXAMPLE}}\n\nDùng pricing.sundae.io để tính chính xác."
           }
         ]
       },
@@ -4303,7 +4615,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Watchtower có cần Core không?",
-            "content": "Có. Watchtower hoạt động tốt nhất khi các tín hiệu thị trường của nó được xếp chồng trực tiếp lên dữ liệu hoạt động trực tiếp, đó là những gì Core cung cấp.\n\nNếu bạn chỉ cần phân tích POS lịch sử đã tải lên, Report là đủ. Nếu bạn muốn ngữ cảnh thị trường liên quan đến hoạt động hàng ngày, hãy chuyển sang Core."
+            "content": "Có. Watchtower phát huy tốt nhất khi tín hiệu thị trường của nó đặt lên dữ liệu vận hành trực tiếp, và đó chính là thứ gói Core mang lại. Nó được xác định phạm vi và báo giá cùng gói của bạn thay vì bán riêng."
           }
         ]
       },
@@ -4313,7 +4625,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae có giá bao nhiêu?",
-            "content": "Giá cả phụ thuộc vào:\n• Report vs Core\n• Số lượng địa điểm\n• Các mô-đun được chọn\n• Có bao gồm Watchtower hay không\n\n**Report Lite:** Miễn phí mãi mãi\n\nĐể biết giá chính xác, hãy sử dụng pricing.sundae.io."
+            "content": "Giá phụ thuộc vào:\n• Gói Core nào\n• Số điểm bán\n• Có kèm Foresight & Action, Crew hay SKU theo mô hình hay không\n\nGói Core tính từ mức neo cho điểm bán đầu tiên, cộng mức biên cho mỗi điểm bán tăng thêm và mức ấy giảm dần khi bạn mở rộng. Core Foundation bắt đầu từ {{FOUNDATION_FIRST_UNIT}} cho điểm bán đầu tiên.\n\nĐể có giá chính xác, hãy dùng pricing.sundae.io."
           },
           {
             "title": "Có phí thiết lập không?",
@@ -4338,20 +4650,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Tín dụng trí tuệ hoạt động như thế nào?",
-            "content": "Tín dụng trí tuệ cung cấp câu hỏi, phân tích và khuyến nghị.\n\n**Report Lite:** 250 cơ bản + 80 mỗi địa điểm\n**Report Plus:** 1,200 cơ bản + 300 mỗi địa điểm\n**Report Pro:** 3,500 cơ bản + 800 mỗi địa điểm\n**Core Lite:** 8,000 cơ bản + 1,600 mỗi địa điểm\n**Core Pro:** 14,000 cơ bản + 2,800 mỗi địa điểm\n**Enterprise:** 50,000+ cơ bản + phân bổ tùy chỉnh"
+            "title": "Tín dụng trí tuệ hoạt động thế nào?",
+            "content": "Tín dụng trí tuệ vận hành các câu hỏi, phân tích và khuyến nghị. Mỗi gói Core đều có hạn mức hằng tháng:\n\n{{AI_WALLET_LINES}}\n\nNếu dùng hết, bạn có thể nạp thêm ở bất kỳ gói nào."
           },
           {
-            "title": "Tôi có bao nhiêu quyền truy cập lịch sử?",
-            "content": "**Report Lite:** 90 ngày\n**Report Plus:** 1 năm\n**Report Pro:** 2 năm\n**Core Lite:** 2 năm\n**Core Pro:** 3 năm\n**Enterprise:** 5+ năm hoặc giữ lại tùy chỉnh"
+            "title": "Tôi xem được dữ liệu quá khứ bao lâu?",
+            "content": "Mọi gói Core đều giữ toàn bộ lịch sử đã kết nối của bạn với thời gian lưu trữ nhiều năm. Thoả thuận Enterprise có thể kéo dài thêm theo điều khoản riêng."
           },
           {
-            "title": "Dữ liệu được làm mới bao lâu một lần?",
-            "content": "**Report Lite:** Tải lên thủ công\n**Report Plus:** Tải lên thủ công hoặc phân tích thông minh theo yêu cầu\n**Report Pro:** Làm mới tự động hàng ngày\n**Core Lite:** Mỗi 4 giờ\n**Core Pro:** Mỗi 2 giờ\n**Enterprise:** Nhịp độ tùy chỉnh, bao gồm thời gian thực khi được xác định"
+            "title": "Dữ liệu làm mới bao lâu một lần?",
+            "content": "Core làm mới ngay trong ca thay vì đợi cuối ngày, để Pulse và các phân hệ chuyển động khi bạn vẫn còn kịp xử lý. Nhịp cụ thể tuỳ vào những gì hệ thống bạn kết nối cung cấp."
           },
           {
-            "title": "Tôi có nhận được bảng điều khiển tùy chỉnh không?",
-            "content": "**Các cấp độ Report:** Bảng điều khiển được xây dựng sẵn\n**Core Lite:** Tối đa 30 bảng điều khiển tùy chỉnh\n**Core Pro:** Tối đa 75 bảng điều khiển tùy chỉnh\n**Enterprise:** Bảng điều khiển tùy chỉnh không giới hạn."
+            "title": "Tôi có bảng điều khiển riêng không?",
+            "content": "Có. Mọi gói Core đều bao gồm bảng điều khiển tuỳ chỉnh bên cạnh các khung xem dựng sẵn đi kèm từng phân hệ."
           }
         ]
       },
@@ -4360,12 +4672,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Tôi nhận được hỗ trợ gì?",
-            "content": "**Report Lite:** Hỗ trợ qua email\n**Report Plus:** Hỗ trợ qua email và chat\n**Report Pro:** Hỗ trợ ưu tiên\n**Core Lite:** Hỗ trợ qua email, chat và điện thoại\n**Core Pro:** Hỗ trợ điện thoại ưu tiên nhanh hơn\n**Enterprise:** Hỗ trợ 24/7 cùng với một người dẫn dắt thành công khách hàng riêng"
+            "title": "Tôi nhận được hỗ trợ nào?",
+            "content": "Mọi gói Core đều có hỗ trợ qua email, chat và điện thoại. Thoả thuận Enterprise bổ sung phủ 24/7, thời gian phản hồi theo hợp đồng và một đầu mối customer success riêng."
           },
           {
-            "title": "Bạn có cung cấp đào tạo không?",
-            "content": "Có.\n\n**Report:** Tự phục vụ hướng dẫn và tài liệu\n**Core Lite:** Các buổi đào tạo có hướng dẫn\n**Core Pro:** Chương trình đào tạo tùy chỉnh\n**Enterprise:** Hướng dẫn và hỗ trợ có cấu trúc"
+            "title": "Các bạn có đào tạo không?",
+            "content": "Có. Đào tạo nằm trong quá trình triển khai, tính phí một lần theo hạng cao nhất trong lựa chọn của bạn - tài liệu tự phục vụ miễn phí, các buổi có người hướng dẫn và chương trình nâng năng lực bài bản ở hạng cao hơn."
           },
           {
             "title": "Bạn hỗ trợ các múi giờ nào?",
@@ -4415,15 +4727,15 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae khác gì so với báo cáo POS?",
-            "content": "**Báo cáo POS:** Một hệ thống, bối cảnh hạn chế, cần giải thích thủ công\n\n**Sundae Report:** Phân tích POS cộng với các tiêu chuẩn, khuyến nghị và phát hiện mẫu\n\n**Sundae Core:** Tất cả trong Report cộng với dữ liệu thống nhất từ lao động, tồn kho, tiếp thị, đặt chỗ và các hệ thống khác với tốc độ làm mới nhanh hơn."
+            "content": "**Báo cáo POS:** một hệ thống, bối cảnh hạn chế, phải tự diễn giải\n\n**Sundae Core:** phân tích POS cộng thêm đối sánh, khuyến nghị và phát hiện mẫu hình, trải trên nhân công, chi phí và khách trong một bức tranh vận hành\n\n**Foresight & Action:** tầm nhìn về phía trước đặt lên trên - dự báo, kịch bản, và lớp hành động dựa trên những gì chúng chỉ ra"
           },
           {
             "title": "Sundae khác gì so với Excel?",
             "content": "**Excel:** Nhập liệu thủ công, phân tích tĩnh, không có lớp trí tuệ chia sẻ\n\n**Sundae:** Tiếp nhận tự động, tiêu chuẩn hóa có cấu trúc, bảng điều khiển trực tiếp và khuyến nghị giúp giảm thời gian phân tích thủ công mỗi tuần."
           },
           {
-            "title": "Tôi có thể tiết kiệm bao nhiêu so với các công cụ phân tích truyền thống?",
-            "content": "Các nhà điều hành thường báo cáo chi phí tổng thể thấp hơn đáng kể vì Sundae sử dụng giá theo cấp độ thay vì tính phí theo mô-đun và theo địa điểm. Số tiền tiết kiệm chính xác phụ thuộc vào sự kết hợp công cụ hiện tại và phạm vi hoạt động của bạn."
+            "title": "So với công cụ phân tích truyền thống thì tiết kiệm bao nhiêu?",
+            "content": "Nhà điều hành thường cho biết tổng chi phí thấp hơn rõ rệt, vì một gói Core đã chứa đủ mười một phân hệ thay vì cộng dồn phí theo từng phân hệ và từng điểm bán. Mức chênh cụ thể tuỳ vào bộ công cụ hiện tại và quy mô vận hành của bạn."
           }
         ]
       },
@@ -4432,8 +4744,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Tôi chỉ có một địa điểm. Sundae có phù hợp không?",
-            "content": "Có. Bắt đầu với Report Lite để benchmark miễn phí, sau đó chuyển sang các cấp độ Report sâu hơn hoặc Core nếu hoạt động của bạn cần nhiều tốc độ và trí tuệ hơn."
+            "title": "Tôi chỉ có một điểm bán. Sundae có phù hợp không?",
+            "content": "Có. Một điểm bán chỉ gánh mức neo của gói, không hơn, và vẫn nhận đủ mười một phân hệ như một tập đoàn năm mươi điểm bán. Các bậc điểm bán chỉ bắt đầu có ý nghĩa khi bạn mở thêm."
           },
           {
             "title": "Tôi là một nền tảng nhượng quyền. Sundae có thể giúp gì không?",
@@ -4446,6 +4758,32 @@ export const generatedLocalCopy = {
           {
             "title": "Chúng tôi đang có kế hoạch mở rộng. Sundae có thể giúp gì không?",
             "content": "Có. Watchtower và trí tuệ thị trường có thể hỗ trợ phân tích khu vực thương mại, xem xét độ bão hòa, theo dõi sự di chuyển của đối thủ và ưu tiên các lãnh thổ chưa được phục vụ."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew là gì?",
+            "content": "Sundae Crew là bộ công cụ vận hành điều hành nhân sự của bạn: xếp lịch, chấm công, chuẩn bị bảng lương, hồ sơ nhân sự và phân tích lực lượng lao động. Mỗi ca được lên lịch, mỗi giờ được chấm công và mỗi hồ sơ được lưu đều trở thành tín hiệu quay trở lại decision intelligence của bạn - để vận hành và thông tin chi tiết cùng chia sẻ một hệ thống."
+          },
+          {
+            "title": "Crew có thể làm gì?",
+            "content": "**Năm mô-đun được kết nối:**\n\n1. **Scheduling** - Lập kế hoạch ca theo nhu cầu với kiểm tra điều kiện và trình tạo AI\n2. **Chấm công** - Chấm công vào/ra, geofencing, xác nhận giờ nghỉ và phê duyệt bảng chấm công\n3. **Payroll** - Chuẩn bị bảng lương đa khu vực và xuất theo luật định (chuẩn bị và xuất, không phải công cụ tính thuế)\n4. **Nhân sự & HR** - Hồ sơ và tài liệu nhân viên từ tuyển dụng đến nghỉ việc\n5. **People Intelligence** - Phân tích lực lượng lao động, rủi ro vắng mặt và xu hướng chi phí lao động"
+          },
+          {
+            "title": "Crew hỗ trợ bảng lương ở những khu vực nào?",
+            "content": "Chuẩn bị bảng lương và xuất theo luật định của Crew hiện bao gồm **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Hoa Kỳ** (liên bang cùng tất cả các bang), **Canada**, **Vương quốc Anh** và **Liên minh Châu Âu** (toàn bộ 27 quốc gia thành viên). Mỹ Latinh và APAC nằm trong lộ trình. Crew chuẩn bị và xuất bảng lương - đây không phải công cụ tính thuế, và các quy tắc luật định đến từ các gói quốc gia được phiên bản hóa."
+          },
+          {
+            "title": "Tôi có cần Core để dùng Crew không?",
+            "content": "Không. Crew có thể chạy độc lập như hệ thống vận hành của bạn, hoặc chạy cùng Core để tín hiệu của nó đưa vào Labor Intelligence, Pulse và Foresight. Bạn cũng có thể mang theo nhà cung cấp HR hoặc bảng lương của riêng mình - Crew là tùy chọn theo thiết kế."
+          },
+          {
+            "title": "Crew có giá bao nhiêu?",
+            "content": "**SKU Crew (cố định hằng tháng, không tính theo điểm bán):**\n\n{{CREW_SKU_LINES}}\n\n**Gói kết hợp (mỗi gói có giá thuần riêng - không phải chiết khấu trên các SKU bên trong):**\n\n{{CREW_BUNDLE_LINES}}\n\nDùng pricing.sundae.io để tính chính xác."
           }
         ]
       }
@@ -4461,19 +4799,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Cum încep?",
-            "content": "Ai trei opțiuni:\n\n1. **Începe Gratuit** - Înscrie-te pentru Report Lite (gratuit pentru totdeauna) și încarcă datele tale operaționale pentru a vedea benchmarking instant. Nu este necesară o carte de credit.\n\n2. **Vezi Prețurile Tale** - Folosește calculatorul nostru interactiv de prețuri la pricing.sundae.io pentru a vedea prețurile exacte pentru operațiunea ta.\n\n3. **Programează o Demonstrație** - Programează o prezentare de 15 minute cu echipa noastră pentru a vedea Sundae în acțiune cu datele tale."
+            "content": "Ai două opțiuni:\n\n1. **Vezi-ți prețul** - Folosește calculatorul interactiv de pe pricing.sundae.io pentru a dimensiona un pachet Core după numărul de locații.\n\n2. **Programează un demo** - Rezervă o prezentare de 15 minute cu echipa noastră și vezi Sundae rulând pe datele tale."
           },
           {
-            "title": "Există cu adevărat un nivel gratuit?",
-            "content": "Da. Report Lite este gratuit pentru totdeauna. Încarcă datele tale POS și obține benchmarking instant pe baza a 5 metrici de bază. Se aplică politica de utilizare echitabilă pentru utilizarea operațională rezonabilă."
+            "title": "Există un plan gratuit?",
+            "content": "Nu. Fiecare pachet Sundae este cu plată, începând de la prima locație. Ce oferim este o sesiune de lucru pe propriile tale cifre înainte să te angajezi, ca să vezi randamentul înainte de a semna ceva."
           },
           {
-            "title": "Care este diferența dintre Report și Core?",
-            "content": "**Nivelul Report** = Analiză istorică (date POS)\n• Încarcă date POS zilnic, săptămânal sau lunar\n• Analizează ce s-a întâmplat\n• Compară-te cu colegii\n• Cel mai bine pentru o singură locație sau dovada conceptului\n\n**Nivelul Core** = Operațiuni în timp real (POS + toate sistemele)\n• Ciclu de actualizare de 2-4 ore\n• Integrează POS + muncă + inventar + marketing + rezervări\n• Vezi ce se întâmplă acum\n• Primește alerte predictive\n• Cel mai bine pentru operatori cu mai multe locații\n\nDiferența cheie: Report = doar POS. Core = POS plus restul stivei tale."
+            "title": "Care este diferența dintre pachetele Core?",
+            "content": "**Core Foundation** - baza operațională: un singur substrat de decizie peste POS, forță de muncă, cost și operațiuni.\n\n**Core Margin** - profunzime pe cost și pierderi: consum teoretic față de real, risipă, minusuri, anulări și gratuități, contribuție pe produs.\n\n**Core Growth** - profunzime pe cerere: cohorte de clienți și valoare pe durata relației, atribuirea promoțiilor pe canal, marja de livrare după comision.\n\n**Core Performance** - consolidare pe mai multe branduri și regiuni, corelare între module, acces guvernat cu piste de audit.\n\nToate patru poartă aceleași unsprezece module. Ce se schimbă este profunzimea."
           },
           {
             "title": "Am nevoie de un contract pe termen lung?",
-            "content": "Nu. Nivelurile Report și Core sunt lunare. Poți anula oricând fără penalizare. Implementările Enterprise folosesc de obicei acorduri anuale cu termeni personalizați."
+            "content": "Nu. Fiecare pachet este disponibil lunar și poți renunța fără penalizare. Angajamentele anuale și pe doi ani există pentru că sunt mai ieftine - 10% și 15% reducere - nu pentru că ar fi obligatorii."
           }
         ]
       },
@@ -4483,19 +4821,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Ce produse oferă Sundae?",
-            "content": "**Trei produse principale:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analiză istorică și benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operațiuni în timp real și inteligență predictivă\n3. **Watchtower** (Competitiv / Eveniment / Piață) - Inteligență de piață externă\n\n**Plus:**\n\n4. **Module** - Inteligență pentru Muncă, Inventar, Achiziții, Marketing și Rezervări."
+            "content": "**Patru produse principale:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substratul de decizie, care poartă toate cele unsprezece module\n2. **Foresight & Action** - prognoză, modelare de scenarii și stratul de acțiune cu aprobare umană\n3. **Sundae Crew** - substratul de personal: planificare, pontaj, pregătirea salarizării, HR și people intelligence\n4. **Watchtower** - inteligență de piață externă, dimensionată alături de pachetul Core\n\n**În plus:** SKU-uri de concept pentru modelele de operare ale grupului tău - franciză, F&B hotelier, cloud kitchen, catering, producție, bucătărie centrală închiriată."
           },
           {
-            "title": "Ce nivel ar trebui să aleg?",
-            "content": "**Începeți cu Report Lite dacă:**\n• Testați Sundae\n• Aveți 1-2 locații\n• Raportarea zilnică sau săptămânală este suficientă\n\n**Faceți upgrade la Report Plus sau Pro dacă:**\n• Aveți nevoie de inteligență istorică mai profundă\n• Raportarea zilnică este încă suficientă\n\n**Alegeți Core Lite sau Pro dacă:**\n• Aveți 10+ locații\n• Aveți nevoie de viteză operațională\n• Urmărirea bugetului în timp real contează\n\n**Alegeți Enterprise dacă:**\n• Aveți 100+ locații\n• Aveți nevoie de SSO sau capacități de white-label\n• Necesitați suport dedicat și termeni personalizați"
+            "title": "Ce pachet Core să aleg?",
+            "content": "**Core Foundation dacă:**\n• Ieși din foi de calcul și tablouri de bord deconectate\n• Vrei o singură imagine operațională înainte de a merge mai adânc\n\n**Core Margin dacă:**\n• Costul mărfii, risipa, anulările sau gratuitățile îți iau marja\n• Ai nevoie de contribuție pe produs, nu doar de mixul de vânzări\n\n**Core Growth dacă:**\n• Venitul recurent și mixul de canale sunt constrângerea\n• Ai nevoie de cohorte de clienți, atribuirea promoțiilor și marja de livrare\n\n**Core Performance dacă:**\n• Operezi mai multe branduri sau mai multe piețe\n• Ai nevoie de consolidare, corelare între module și acces guvernat"
           },
           {
             "title": "Pot face upgrade sau downgrade mai târziu?",
             "content": "Da. Puteți trece între niveluri în orice moment. Datele istorice sunt păstrate și nu există penalizări pentru schimbarea planurilor."
           },
           {
-            "title": "Care este Modelul de Inteligență 4D?",
-            "content": "Cadrele Sundae pentru inteligența decizională:\n\n**1D: Ce s-a întâmplat** - Date despre vânzări, muncă și costuri\n**2D: Plan vs Realitate** - Varianta bugetului și prognozei\n**3D: Contextul Pieței** - Benchmark-uri, colegi și concurenți\n**4D: Ce urmează** - Predicții și recomandări\n\n**Report:** Acces complet 1D și 2D plus 3D și 4D limitat\n**Core:** Acces complet pe toate cele 4 dimensiuni."
+            "title": "Ce este modelul 4D Intelligence?",
+            "content": "Cadrul Sundae pentru inteligența decizională:\n\n**1D: ce s-a întâmplat** - adevărul despre vânzări, forță de muncă și cost\n**2D: plan față de realizat** - abaterea de la buget și prognoză\n**3D: contextul pieței** - repere, companii similare și concurenți\n**4D: ce urmează** - predicții și recomandări\n\nFiecare pachet Core le acoperă pe toate patru. Pachetul stabilește cât de adânc merge fiecare dimensiune."
           }
         ]
       },
@@ -4504,12 +4842,12 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Ce date are nevoie Sundae?",
-            "content": "**Minim pentru Report Lite:**\n• Date de vânzări POS (export CSV)\n\n**Pentru Core:**\n• Sistem POS prin API\n• Sistem de muncă sau forță de muncă\n• Sistem de inventar\n• Platforme de marketing\n• Sistem de rezervări\n\nReport este construit în jurul încărcărilor POS. Core este locul unde conectezi stiva operațională mai largă."
+            "title": "De ce date are nevoie Sundae?",
+            "content": "**Pentru orice pachet Core:**\n• Sistem POS prin API\n• Sistem de personal sau de planificare\n• Sistem de stocuri\n• Platforme de marketing\n• Sistem de rezervări\n\nDoar POS-ul este suficient pentru valoare din prima zi. Restul adâncește imaginea pe măsură ce le conectezi."
           },
           {
-            "title": "Cum îmi aduc datele în Sundae?",
-            "content": "**Report Lite:** Încărcare manuală CSV\n\n**Report Plus:** Încărcați PDF-uri, fișiere Excel sau capturi de ecran. Sundae extrage datele și le revizuiți înainte de procesare.\n\n**Report Pro și Core:** Ingestie automată prin conexiuni API"
+            "title": "Cum ajung datele mele în Sundae?",
+            "content": "Prin conexiuni API către POS și restul stivei tale operaționale. Acolo unde un sistem nu are API, Sundae acceptă fișiere structurate și încărcări citite inteligent - PDF, Excel, capturi de ecran - pe care le verifici înainte de procesare."
           },
           {
             "title": "Cu ce sisteme POS vă integrați?",
@@ -4517,11 +4855,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Pot folosi Sundae cu mai multe sisteme POS?",
-            "content": "**Core Lite:** Cel mai bine când toate locațiile folosesc un singur POS\n\n**Core Pro și Enterprise:** Da. Diferite sisteme POS în locații sunt acceptate, iar Sundae normalizează datele pentru comparații corecte.\n\n**Report:** Orice POS funcționează deoarece încărcările sunt manuale."
+            "content": "Da. Sundae se conectează la parcuri POS mixte și normalizează datele pentru o comparație corectă. Core Performance adaugă deasupra consolidarea între branduri și regiuni."
           },
           {
             "title": "Cât durează implementarea?",
-            "content": "**Report Lite:** Imediat după încărcare\n**Report Plus / Pro:** 1-2 zile\n**Core Lite / Pro:** 1-2 săptămâni\n**Enterprise:** 2-4 săptămâni, în funcție de amploare"
+            "content": "Majoritatea grupurilor sunt funcționale în 1-2 săptămâni. Implementările mai mari, cu mai multe branduri sau regiuni, durează 2-4 săptămâni în funcție de amploare.\n\nImplementarea este o taxă unică, facturată o singură dată la cea mai înaltă clasă din selecția ta - de la self-service gratuit până la un angajament Class D delimitat."
           },
           {
             "title": "Ce se întâmplă cu datele mele dacă anulez?",
@@ -4535,27 +4873,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Ce sunt modulele?",
-            "content": "Modulele sunt extensii de inteligență specializate pentru Core:\n\n1. **Inteligența Muncii** - Programare, productivitate și ore suplimentare\n2. **Inteligența Inventarului** - Deșeuri, niveluri de stoc și vizibilitate a stocului\n3. **Inteligența Achizițiilor** - Compararea furnizorilor și negocierea contractelor\n4. **Inteligența Marketingului** - ROI, CAC și performanța canalelor\n5. **Inteligența Rezervărilor** - Predicția absențelor și optimizarea meselor\n\nModulele necesită Core deoarece depind de date operaționale conectate în timp real."
+            "content": "Cele unsprezece module sunt suprafețele analitice din interiorul Core. Sunt componente ale pachetului, nu extraopțiuni cumpărate separat:\n\n{{DOMAIN_MODULE_LINES}}\n\nAu nevoie de Core pentru că depind de date operaționale conectate în timp real."
           },
           {
             "title": "Am nevoie de module?",
-            "content": "Nu. Modulele sunt opționale. Adaugă-le când dorești o acoperire mai profundă într-un anumit domeniu operațional.\n\n**Calea:**\n• Pe Report -> actualizează mai întâi la Core\n• Pe Core -> adaugă module ori de câte ori nevoia este clară"
+            "content": "Nu sunt opționale și nu sunt achiziții separate. Toate cele unsprezece module vin cu fiecare pachet Core.\n\nCeea ce alegi este pachetul, iar pachetul stabilește cât de adânc merge fiecare modul."
           },
           {
-            "title": "Am nevoie de Core pentru module?",
-            "content": "Da. Modulele necesită Core Lite, Core Pro sau Enterprise.\n\nEle se bazează pe conexiuni live la muncă, inventar, marketing, rezervări și alte sisteme la care Report nu se conectează direct."
+            "title": "Pot cumpăra un singur modul?",
+            "content": "Nu. Cele unsprezece module sunt componente ale unui pachet Core, nu produse de sine stătătoare, și nu există preț pe modul. Alegerea pachetului este modul în care le primești pe toate."
           },
           {
-            "title": "Pot adăuga mai multe module?",
-            "content": "Da. Combină și potrivește oricare dintre cele cinci module. Nu există cerința de a le cumpăra pe toate împreună."
+            "title": "Adaug modulele pe rând?",
+            "content": "Nu. Nu e nimic de adăugat. Fiecare pachet Core poartă toate cele unsprezece module din prima zi - pachetul ales stabilește doar cât de adânc merge fiecare."
           },
           {
-            "title": "Care modul ar trebui să aleg mai întâi?",
-            "content": "Începe cu cea mai mare problemă operațională:\n\n• Costuri mari cu forța de muncă -> Inteligența Muncii\n• Probleme cu deșeurile sau stocul -> Inteligența Inventarului\n• Putere de negociere slabă cu furnizorii -> Inteligența Achizițiilor\n• ROI de marketing neclar -> Inteligența Marketingului\n• Absențe la rezervări -> Inteligența Rezervărilor"
+            "title": "Cu ce modul ar trebui să încep?",
+            "content": "Toate sunt deja pornite, deci întrebarea e de unde începi să te uiți, nu ce cumperi. Începe cu cea mai mare durere operațională:\n\n• Cost mare cu forța de muncă -> Labor Intelligence\n• Risipă sau probleme de stoc -> Inventory Intelligence\n• Putere mică în fața furnizorilor -> Purchasing Intelligence\n• ROI de marketing neclar -> Marketing Intelligence\n• Neprezentări la rezervări -> Reservations Intelligence"
           },
           {
-            "title": "Cum funcționează prețurile modulelor?",
-            "content": "Fiecare modul include o licență organizațională care acoperă primele 5 locații, plus prețuri suplimentare pentru locațiile dincolo de acest prag.\n\nExemplu: 8 locații cu Inteligența Muncii = 1 licență organizațională + 3 locații suplimentare.\n\nFolosește pricing.sundae.io pentru calcule exacte ale planului."
+            "title": "Cum funcționează prețul modulelor?",
+            "content": "Nu există preț pe module. Modulele nu au nici preț de sine stătător, nici alocare proprie de locații - ceea ce cumperi este pachetul.\n\nUn pachet Core se tarifează de la prima locație, apoi cu o rată marginală pentru fiecare locație suplimentară, care scade pe măsură ce crești. {{WORKED_EXAMPLE}}\n\nFolosește pricing.sundae.io pentru calculul exact."
           }
         ]
       },
@@ -4580,8 +4918,8 @@ export const generatedLocalCopy = {
             "content": "Da. Poți achiziționa Inteligența Competitivă, Inteligența de Eveniment sau Inteligența de Piață individual, sau le poți combina."
           },
           {
-            "title": "Necesită Watchtower Core?",
-            "content": "Da. Watchtower funcționează cel mai bine când semnalele sale de piață sunt suprapuse direct pe datele operaționale live, ceea ce oferă Core.\n\nDacă ai nevoie doar de analiza istorică a POS-ului încărcată, Report este suficient. Dacă vrei contextul pieței legat de operațiunile zilnice, treci la Core."
+            "title": "Watchtower necesită Core?",
+            "content": "Da. Watchtower dă cele mai bune rezultate când semnalele sale de piață se așază peste date operaționale live, exact ce oferă un pachet Core. Este delimitat și cotat împreună cu pachetul tău, nu vândut separat."
           }
         ]
       },
@@ -4591,7 +4929,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Cât costă Sundae?",
-            "content": "Prețul depinde de:\n• Report vs Core\n• Numărul de locații\n• Modulele selectate\n• Dacă Watchtower este inclus\n\n**Report Lite:** Gratuit pentru totdeauna\n\nPentru prețuri precise, folosiți pricing.sundae.io."
+            "content": "Prețul depinde de:\n• Ce pachet Core\n• Numărul de locații\n• Dacă includ Foresight & Action, Crew sau SKU-uri de concept\n\nPachetele Core se tarifează de la o ancoră pentru prima locație, plus o rată marginală pentru fiecare locație suplimentară, care scade pe măsură ce crești. Core Foundation pornește de la {{FOUNDATION_FIRST_UNIT}} pentru prima locație.\n\nPentru un preț exact, folosește pricing.sundae.io."
           },
           {
             "title": "Există taxe de configurare?",
@@ -4617,19 +4955,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Cum funcționează creditele de inteligență?",
-            "content": "Creditele de inteligență alimentează întrebările, analizele și recomandările.\n\n**Report Lite:** 250 de bază + 80 per locație\n**Report Plus:** 1,200 de bază + 300 per locație\n**Report Pro:** 3,500 de bază + 800 per locație\n**Core Lite:** 8,000 de bază + 1,600 per locație\n**Core Pro:** 14,000 de bază + 2,800 per locație\n**Enterprise:** 50,000+ de bază + alocare personalizată"
+            "content": "Creditele de inteligență alimentează întrebările, analizele și recomandările. Fiecare pachet Core vine cu un portofel lunar:\n\n{{AI_WALLET_LINES}}\n\nDacă îl epuizezi, poți reîncărca la orice pachet."
           },
           {
-            "title": "Cât acces istoric primesc?",
-            "content": "**Report Lite:** 90 de zile\n**Report Plus:** 1 an\n**Report Pro:** 2 ani\n**Core Lite:** 2 ani\n**Core Pro:** 3 ani\n**Enterprise:** 5+ ani sau retenție personalizată"
+            "title": "Ce istoric am la dispoziție?",
+            "content": "Fiecare pachet Core păstrează întregul tău istoric conectat, cu retenție pe mai mulți ani. Acordurile Enterprise pot extinde asta cu termene de păstrare personalizate."
           },
           {
-            "title": "Cât de des se actualizează datele?",
-            "content": "**Report Lite:** Încărcări manuale\n**Report Plus:** Manual sau analizate inteligent la cerere\n**Report Pro:** Actualizare automată zilnică\n**Core Lite:** La fiecare 4 ore\n**Core Pro:** La fiecare 2 ore\n**Enterprise:** Cadentă personalizată, inclusiv în timp real când este specificat"
+            "title": "Cât de des se împrospătează datele?",
+            "content": "Core se împrospătează pe parcursul turei, nu la finalul zilei, astfel încât Pulse și modulele să se miște cât încă poți interveni. Ritmul exact depinde de ce expun sistemele tale conectate."
           },
           {
             "title": "Primesc tablouri de bord personalizate?",
-            "content": "**Niveluri Report:** Tablouri de bord preconstruite\n**Core Lite:** Până la 30 de tablouri de bord personalizate\n**Core Pro:** Până la 75 de tablouri de bord personalizate\n**Enterprise:** Tablouri de bord personalizate nelimitate."
+            "content": "Da. Fiecare pachet Core include tablouri de bord personalizate peste vizualizările gata făcute care vin cu fiecare modul."
           }
         ]
       },
@@ -4639,11 +4977,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Ce suport primesc?",
-            "content": "**Report Lite:** Suport prin email\n**Report Plus:** Suport prin email și chat\n**Report Pro:** Suport prioritar\n**Core Lite:** Suport prin email, chat și telefon\n**Core Pro:** Suport telefonic prioritar mai rapid\n**Enterprise:** Suport 24/7 plus un lider dedicat pentru succesul clienților"
+            "content": "Fiecare pachet Core include suport pe e-mail, chat și telefon. Acordurile Enterprise adaugă acoperire 24/7, timpi de răspuns contractuali și un responsabil dedicat de customer success."
           },
           {
             "title": "Oferiți instruire?",
-            "content": "Da.\n\n**Report:** Onboarding și documentație self-service\n**Core Lite:** Sesiuni de instruire ghidate\n**Core Pro:** Program de instruire personalizat\n**Enterprise:** Onboarding structurat și activare"
+            "content": "Da. Instruirea face parte din implementare, facturată o singură dată la cea mai înaltă clasă din selecția ta - documentație self-service gratuită, sesiuni ghidate și pregătire structurată la clasele superioare."
           },
           {
             "title": "Ce fusuri orare susțineți?",
@@ -4692,16 +5030,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Cum se deosebește Sundae de raportarea POS?",
-            "content": "**Rapoartele POS:** Un sistem, context limitat, interpretare manuală\n\n**Sundae Report:** Analiza POS plus benchmark-uri, recomandări și detectarea pattern-urilor\n\n**Sundae Core:** Tot ce este în Report plus date unificate din muncă, inventar, marketing, rezervări și alte sisteme cu actualizări mai rapide"
+            "title": "Prin ce diferă Sundae de raportarea din POS?",
+            "content": "**Rapoarte POS:** un singur sistem, context limitat, interpretare manuală\n\n**Sundae Core:** analiza POS plus repere, recomandări și detectarea tiparelor, peste forță de muncă, cost și oaspete într-o singură imagine operațională\n\n**Foresight & Action:** privirea înainte deasupra - prognoze, scenarii și stratul care acționează pe baza a ceea ce scot la iveală"
           },
           {
             "title": "Cum se deosebește Sundae de Excel?",
             "content": "**Excel:** Introducere manuală, analiză statică, fără strat de inteligență partajată\n\n**Sundae:** Ingestie automată, benchmark-uri structurate, tablouri de bord live și recomandări care reduc timpul de analiză manuală în fiecare săptămână"
           },
           {
-            "title": "Cât pot economisi față de instrumentele de analiză tradiționale?",
-            "content": "Operatorii raportează adesea un cost total semnificativ mai mic deoarece Sundae folosește prețuri pe niveluri în loc de taxe pe module și pe locații. Economiile exacte depind de mixul de instrumente actual și de domeniul de operare."
+            "title": "Cât economisesc față de instrumentele clasice de analiză?",
+            "content": "Operatorii raportează adesea un cost total semnificativ mai mic, pentru că un pachet Core conține deja toate cele unsprezece module, în loc să adune taxe pe modul și pe locație. Diferența exactă depinde de setul tău actual de instrumente și de amploarea operațiunii."
           }
         ]
       },
@@ -4710,8 +5048,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Am doar o locație. Este Sundae potrivit pentru mine?",
-            "content": "Da. Începe cu Report Lite pentru benchmarking gratuit, apoi treci la niveluri mai avansate de Report sau Core dacă operațiunea ta are nevoie de mai multă viteză și inteligență."
+            "title": "Am o singură locație. Sundae mi se potrivește?",
+            "content": "Da. O singură locație susține doar ancora pachetului și nimic mai mult, și primește aceleași unsprezece module ca un grup cu cincizeci de locații. Pragurile pe locație încep să conteze abia când adaugi puncte de lucru."
           },
           {
             "title": "Sunt o platformă de franciză. Poate Sundae să ajute?",
@@ -4724,6 +5062,32 @@ export const generatedLocalCopy = {
           {
             "title": "Plănuim să ne extindem. Poate Sundae să ajute?",
             "content": "Da. Watchtower și inteligența de piață pot susține analiza zonei comerciale, revizuirea saturării, urmărirea mișcărilor competitorilor și prioritizarea teritoriilor neexploatate."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Ce este Sundae Crew?",
+            "content": "Sundae Crew este suita operațională care îți conduce oamenii: planificarea turelor, pontajul, pregătirea salarizării, evidențele HR și analiza forței de muncă. Fiecare tură planificată, fiecare oră pontată și fiecare document depus devine un semnal care se întoarce în decision intelligence - astfel operațiunile și perspectiva împart un singur sistem."
+          },
+          {
+            "title": "Ce poate face Crew?",
+            "content": "**Cinci module conectate:**\n\n1. **Scheduling** - Planificarea turelor în funcție de cerere, cu verificări de eligibilitate și un constructor AI\n2. **Pontaj** - Pontare intrare/ieșire, geofencing, atestarea pauzelor și aprobarea fișelor de pontaj\n3. **Payroll** - Pregătirea salarizării pentru mai multe regiuni și exporturi statutare (pregătire și export, nu un motor fiscal)\n4. **Oameni & HR** - Evidențe și documente ale angajaților de la angajare până la plecare\n5. **People Intelligence** - Analiza forței de muncă, riscul de absență și tendințele costurilor cu munca"
+          },
+          {
+            "title": "Ce regiuni acceptă salarizarea Crew?",
+            "content": "Pregătirea salarizării și exporturile statutare ale Crew acoperă în prezent **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Statele Unite** (federal plus toate statele), **Canada**, **Regatul Unit** și **Uniunea Europeană** (toate cele 27 de state membre). America Latină și APAC sunt pe foaia de parcurs. Crew pregătește și exportă salarizarea - nu este un motor fiscal, iar regulile statutare provin din pachete de țară versionate."
+          },
+          {
+            "title": "Am nevoie de Core pentru a folosi Crew?",
+            "content": "Nu. Crew poate funcționa de sine stătător ca sistem operațional al tău sau alături de Core, astfel încât semnalul său să alimenteze Labor Intelligence, Pulse și Foresight. Poți aduce și propriul furnizor de HR sau salarizare - Crew este opțional prin design."
+          },
+          {
+            "title": "Cât costă Crew?",
+            "content": "**SKU-uri Crew (lunar fix, fără taxă pe locație):**\n\n{{CREW_SKU_LINES}}\n\n**Pachete (fiecare are propriul preț net - nu este o reducere pe SKU-urile din el):**\n\n{{CREW_BUNDLE_LINES}}\n\nFolosește pricing.sundae.io pentru calculul exact."
           }
         ]
       }
@@ -4739,19 +5103,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Hur kommer jag igång?",
-            "content": "Du har tre alternativ:\n\n1. **Börja gratis** - Registrera dig för Report Lite (gratis för alltid) och ladda upp din driftsdata för att se omedelbar benchmarking. Ingen kreditkort krävs.\n\n2. **Se din prissättning** - Använd vår interaktiva priskalkylator på pricing.sundae.io för att se exakt prissättning för din verksamhet.\n\n3. **Boka en demo** - Schemalägg en 15-minuters genomgång med vårt team för att se Sundae i aktion med dina data."
+            "content": "Du har två alternativ:\n\n1. **Se ditt pris** - Använd den interaktiva priskalkylatorn på pricing.sundae.io för att dimensionera ett Core-paket efter antalet enheter.\n\n2. **Boka en demo** - Boka en 15 minuters genomgång med vårt team och se Sundae köra mot era egna data."
           },
           {
-            "title": "Finns det verkligen ett gratisalternativ?",
-            "content": "Ja. Report Lite är gratis för alltid. Ladda upp din POS-data och få omedelbar benchmarking mot 5 kärnmetrik. Rättvis användningspolicy gäller för rimlig driftsanvändning."
+            "title": "Finns det en gratisnivå?",
+            "content": "Nej. Varje Sundae-paket är betalt och prissätts från er första enhet. Det vi erbjuder är en arbetssession mot era egna siffror innan ni binder er, så att ni ser avkastningen innan ni skriver på något."
           },
           {
-            "title": "Vad är skillnaden mellan Report och Core?",
-            "content": "**Report-nivå** = Historisk analys (POS-data)\n• Ladda upp POS-data dagligen, veckovis eller månadsvis\n• Analysera vad som har hänt\n• Benchmarka mot kollegor\n• Bäst för en enskild plats eller bevis på koncept\n\n**Core-nivå** = Realtidsoperationer (POS + alla system)\n• 2-4 timmars uppdateringscykler\n• Integrerar POS + arbetskraft + lager + marknadsföring + bokningar\n• Se vad som händer nu\n• Få förutsägbara varningar\n• Bäst för operatörer med flera platser\n\nHuvudskillnad: Report = endast POS. Core = POS plus resten av din stack."
+            "title": "Vad skiljer Core-paketen åt?",
+            "content": "**Core Foundation** - den operativa basen: ett beslutsunderlag över POS, personal, kostnad och drift.\n\n**Core Margin** - djup i kostnad och läckage: teoretisk kontra faktisk förbrukning, svinn, lagerdifferenser, makuleringar och comps, bidrag per artikel.\n\n**Core Growth** - djup i efterfrågan: gästkohorter och livstidsvärde, kampanjattribution per kanal, leveransmarginal efter provision.\n\n**Core Performance** - konsolidering över varumärken och regioner, korrelation mellan moduler, styrd åtkomst med spårbarhet.\n\nAlla fyra bär samma elva domänmoduler. Det som ändras är djupet."
           },
           {
-            "title": "Behöver jag ett långsiktigt avtal?",
-            "content": "Nej. Report- och Core-nivåer är månadsvis. Avbryt när som helst utan straff. Företagsimplementeringar använder vanligtvis årliga avtal med anpassade villkor."
+            "title": "Behöver jag ett långt avtal?",
+            "content": "Nej. Varje paket finns månadsvis och går att säga upp utan avgift. Års- och tvåårsavtal finns för att de kostar mindre - 10 % och 15 % rabatt - inte för att de krävs."
           }
         ]
       },
@@ -4761,19 +5125,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Vilka produkter erbjuder Sundae?",
-            "content": "**Tre huvudprodukter:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Historisk analys och benchmarking\n2. **Sundae Core** (Lite / Pro / Enterprise) - Realtidsoperationer och prediktiv intelligens\n3. **Watchtower** (Konkurrens / Evenemang / Marknad) - Extern marknadsintelligens\n\n**Plus:**\n\n4. **Moduler** - Arbete, Lager, Inköp, Marknadsföring och Reservationsintelligens."
+            "content": "**Fyra huvudprodukter:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - beslutssubstratet, som bär alla elva domänmoduler\n2. **Foresight & Action** - prognoser, scenariomodellering och handlingslagret med mänskligt godkännande\n3. **Sundae Crew** - personalsubstratet: schemaläggning, tidrapportering, löneberedskap, HR och people intelligence\n4. **Watchtower** - extern marknadsintelligens, omfångsatt tillsammans med ert Core-paket\n\n**Dessutom:** koncept-SKU:er för de driftsmodeller er koncern kör - franchise, hotell-F&B, cloud kitchen, catering, produktion, hyrt centralkök."
           },
           {
-            "title": "Vilken nivå ska jag välja?",
-            "content": "**Börja med Report Lite om:**\n• Du testar Sundae\n• Du driver 1-2 platser\n• Daglig eller veckovis rapportering räcker\n\n**Uppgradera till Report Plus eller Pro om:**\n• Du behöver djupare historisk intelligens\n• Daglig rapportering är fortfarande tillräcklig\n\n**Välj Core Lite eller Pro om:**\n• Du driver 10+ platser\n• Du behöver operationell hastighet\n• Realtidsbudgetuppföljning är viktigt\n\n**Välj Enterprise om:**\n• Du har 100+ platser\n• Du behöver SSO eller white-label-funktioner\n• Du kräver dedikerat stöd och anpassade villkor"
+            "title": "Vilket Core-paket ska jag välja?",
+            "content": "**Core Foundation om:**\n• Ni lämnar kalkylblad och frikopplade instrumentpaneler\n• Ni vill ha en samlad driftbild innan ni går djupare\n\n**Core Margin om:**\n• Råvarukostnad, svinn, makuleringar eller comps äter er marginal\n• Ni behöver bidrag per artikel, inte bara försäljningsmix\n\n**Core Growth om:**\n• Återkommande intäkt och kanalmix är begränsningen\n• Ni behöver gästkohorter, kampanjattribution och leveransmarginal\n\n**Core Performance om:**\n• Ni driver flera varumärken eller flera marknader\n• Ni behöver konsolidering, korrelation mellan moduler och styrd åtkomst"
           },
           {
             "title": "Kan jag uppgradera eller nedgradera senare?",
             "content": "Ja. Du kan flytta mellan nivåer när som helst. Historiska data bevaras och det finns inga straff för att ändra planer."
           },
           {
-            "title": "Vad är 4D Intelligence Model?",
-            "content": "Ramverket för beslutsintelligens från Sundae:\n\n**1D: Vad hände** - Försäljnings-, arbets- och kostnadsdata\n**2D: Plan vs Faktisk** - Budget och prognosavvikelse\n**3D: Marknadskontext** - Benchmarking, kollegor och konkurrenter\n**4D: Vad är nästa** - Prognoser och rekommendationer\n\n**Report:** Full 1D och 2D plus begränsad 3D och 4D\n**Core:** Full tillgång över alla 4 dimensioner."
+            "title": "Vad är 4D Intelligence-modellen?",
+            "content": "Ramverket från Sundae för beslutsintelligens:\n\n**1D: vad som hände** - sanningen om försäljning, personal och kostnad\n**2D: plan mot utfall** - avvikelse mot budget och prognos\n**3D: marknadskontext** - jämförelser, likvärdiga aktörer och konkurrenter\n**4D: vad som kommer** - prognoser och rekommendationer\n\nVarje Core-paket täcker alla fyra. Paketet avgör hur djupt varje dimension går."
           }
         ]
       },
@@ -4782,12 +5146,12 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Vilken data behöver Sundae?",
-            "content": "**Minimi för Report Lite:**\n• POS försäljningsdata (CSV-export)\n\n**För Core:**\n• POS-system via API\n• Arbetskraftssystem\n• Lagerhanteringssystem\n• Marknadsföringsplattformar\n• Bokningssystem\n\nReport är byggt kring POS-uppladdningar. Core är där du kopplar ihop den bredare driftsstacken."
+            "title": "Vilka data behöver Sundae?",
+            "content": "**För varje Core-paket:**\n• POS-system via API\n• Personal- eller bemanningssystem\n• Lagersystem\n• Marknadsföringsplattformar\n• Bokningssystem\n\nEnbart POS räcker för värde dag ett. Resten fördjupar bilden allteftersom ni kopplar in dem."
           },
           {
-            "title": "Hur får jag min data till Sundae?",
-            "content": "**Report Lite:** Manuell CSV-uppladdning\n\n**Report Plus:** Ladda upp PDF-filer, Excel-filer eller skärmdumpar. Sundae extraherar datan och du granskar den innan bearbetning.\n\n**Report Pro och Core:** Automatisk inhämtning genom API-anslutningar"
+            "title": "Hur kommer mina data in i Sundae?",
+            "content": "Via API-kopplingar till er POS och resten av driftstacken. Där ett system saknar API tar Sundae emot strukturerade filleveranser och smart inlästa uppladdningar - PDF, Excel, skärmbilder - som ni granskar före bearbetning."
           },
           {
             "title": "Vilka POS-system integrerar ni med?",
@@ -4795,11 +5159,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Kan jag använda Sundae med flera POS-system?",
-            "content": "**Core Lite:** Bäst när alla platser använder ett POS\n\n**Core Pro och Enterprise:** Ja. Olika POS-system på olika platser stöds, och Sundae normaliserar datan för rättvis jämförelse.\n\n**Report:** Alla POS fungerar eftersom uppladdningar är manuella."
+            "content": "Ja. Sundae kopplar ihop blandade POS-bestånd och normaliserar data för jämförelser på lika villkor. Core Performance lägger till konsolidering över varumärken och regioner ovanpå det."
           },
           {
-            "title": "Hur lång tid tar implementeringen?",
-            "content": "**Report Lite:** Omedelbart efter uppladdning\n**Report Plus / Pro:** 1-2 dagar\n**Core Lite / Pro:** 1-2 veckor\n**Enterprise:** 2-4 veckor beroende på omfattning"
+            "title": "Hur lång tid tar införandet?",
+            "content": "De flesta koncerner är i drift på 1-2 veckor. Större utrullningar över flera varumärken eller regioner tar 2-4 veckor beroende på omfattning.\n\nInförandet är en engångsavgift som tas ut en gång enligt den högsta klassen i ert val - från kostnadsfri självbetjäning upp till ett avgränsat Class D-uppdrag."
           },
           {
             "title": "Vad händer med min data om jag avbryter?",
@@ -4813,27 +5177,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Vad är moduler?",
-            "content": "Moduler är specialiserade intelligens-tillägg för Core:\n\n1. **Arbetsintelligens** - Schemaläggning, produktivitet och övertid\n2. **Inventariet intelligens** - Avfall, parnivåer och lageröversikt\n3. **Inköpsintelligens** - Leverantörsjämförelse och kontraktsfördelar\n4. **Marknadsföringsintelligens** - ROI, CAC och kanalprestanda\n5. **Bokningsintelligens** - Förutsägelse av no-shows och optimering av bord\n\nModuler kräver Core eftersom de är beroende av live, anslutna driftsdata."
+            "content": "De elva domänmodulerna är analysytorna inuti Core. De är delar av paketet, inte tillval som köps vid sidan av:\n\n{{DOMAIN_MODULE_LINES}}\n\nDe kräver Core eftersom de bygger på live uppkopplade driftdata."
           },
           {
             "title": "Behöver jag moduler?",
-            "content": "Nej. Moduler är valfria. Lägg till dem när du vill ha djupare täckning inom ett specifikt driftsområde.\n\n**Väg:**\n• På Report -> uppgradera till Core först\n• På Core -> lägg till moduler när behovet är tydligt"
+            "content": "De är inte valfria och de är inte separata köp. Alla elva domänmoduler ingår i varje Core-paket.\n\nDet ni väljer är paketet, och paketet avgör hur djupt varje modul går."
           },
           {
-            "title": "Behöver jag Core för moduler?",
-            "content": "Ja. Moduler kräver Core Lite, Core Pro eller Enterprise.\n\nDe är beroende av live-anslutningar till arbetskraft, inventarier, marknadsföring, bokningar och andra system som Report inte ansluter direkt till."
+            "title": "Kan jag köpa en enskild modul?",
+            "content": "Nej. De elva domänmodulerna är delar av ett Core-paket, inte fristående produkter, och det finns inget pris per modul. Att välja paket är hur ni får dem alla."
           },
           {
-            "title": "Kan jag lägga till flera moduler?",
-            "content": "Ja. Blanda och matcha vilka som helst av de fem modulerna. Det finns inget krav på att köpa alla tillsammans."
+            "title": "Lägger jag till moduler en i taget?",
+            "content": "Nej. Det finns inget att lägga till. Varje Core-paket bär alla elva domänmoduler från dag ett - paketet ni väljer avgör bara hur djupt var och en går."
           },
           {
-            "title": "Vilken modul ska jag välja först?",
-            "content": "Börja med den största driftsutmaningen:\n\n• Höga arbetskostnader -> Arbetsintelligens\n• Avfalls- eller lagerproblem -> Inventariet intelligens\n• Svag leverantörsfördel -> Inköpsintelligens\n• Otydlig marknadsförings-ROI -> Marknadsföringsintelligens\n• Bokningsno-shows -> Bokningsintelligens"
+            "title": "Vilken modul bör jag titta på först?",
+            "content": "De är redan påslagna allihop, så frågan är var ni börjar titta, inte vad ni köper. Börja i den största operativa smärtpunkten:\n\n• Hög personalkostnad -> Labor Intelligence\n• Svinn eller lagerproblem -> Inventory Intelligence\n• Svag leverantörsförhandling -> Purchasing Intelligence\n• Otydlig marknadsförings-ROI -> Marketing Intelligence\n• Uteblivna bokningar -> Reservations Intelligence"
           },
           {
-            "title": "Hur fungerar prissättningen för moduler?",
-            "content": "Varje modul inkluderar en organisationslicens som täcker de första 5 platserna, plus ytterligare platspriser utöver den gränsen.\n\nExempel: 8 platser med Arbetsintelligens = 1 org-licens + 3 ytterligare platser.\n\nAnvänd pricing.sundae.io för exakt planberäkning."
+            "title": "Hur fungerar prissättningen av moduler?",
+            "content": "Det finns ingen modulprissättning. Moduler har varken eget pris eller egen enhetstilldelning - det ni köper är paketet.\n\nEtt Core-paket prissätts från er första enhet och därefter till en marginalsats per ytterligare enhet, en sats som sjunker när ni växer. {{WORKED_EXAMPLE}}\n\nAnvänd pricing.sundae.io för exakt uträkning."
           }
         ]
       },
@@ -4859,7 +5223,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Kräver Watchtower Core?",
-            "content": "Ja. Watchtower fungerar bäst när dess marknadssignaler är direkt kopplade till live driftsdata, vilket Core tillhandahåller.\n\nOm du bara behöver uppladdad historisk POS-analys är Report tillräckligt. Om du vill ha marknadskontext kopplad till den dagliga verksamheten, gå till Core."
+            "content": "Ja. Watchtower gör bäst nytta när marknadssignalerna läggs ovanpå live driftdata, vilket är precis vad ett Core-paket ger. Det omfångsätts och offereras tillsammans med ert paket i stället för att säljas separat."
           }
         ]
       },
@@ -4868,8 +5232,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Hur mycket kostar Sundae?",
-            "content": "Prissättning beror på:\n• Report vs Core\n• Antal platser\n• Valda moduler\n• Om Watchtower ingår\n\n**Report Lite:** Gratis för alltid\n\nFör exakt prissättning, använd pricing.sundae.io."
+            "title": "Vad kostar Sundae?",
+            "content": "Priset beror på:\n• Vilket Core-paket\n• Antal enheter\n• Om Foresight & Action, Crew eller koncept-SKU:er ingår\n\nCore-paket prissätts från ett ankare för första enheten, plus en marginalsats per ytterligare enhet som sjunker när ni växer. Core Foundation börjar på {{FOUNDATION_FIRST_UNIT}} för er första enhet.\n\nFör exakt pris, använd pricing.sundae.io."
           },
           {
             "title": "Finns det installationsavgifter?",
@@ -4894,20 +5258,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Hur fungerar intelligenskrediter?",
-            "content": "Intelligenskrediter driver frågor, analyser och rekommendationer.\n\n**Report Lite:** 250 bas + 80 per plats\n**Report Plus:** 1,200 bas + 300 per plats\n**Report Pro:** 3,500 bas + 800 per plats\n**Core Lite:** 8,000 bas + 1,600 per plats\n**Core Pro:** 14,000 bas + 2,800 per plats\n**Enterprise:** 50,000+ bas + anpassad fördelning"
+            "title": "Hur fungerar intelligence-krediter?",
+            "content": "Intelligence-krediter driver frågor, analyser och rekommendationer. Varje Core-paket har en månadsplånbok:\n\n{{AI_WALLET_LINES}}\n\nOm den tar slut kan ni fylla på i vilket paket som helst."
           },
           {
-            "title": "Hur mycket historisk åtkomst får jag?",
-            "content": "**Report Lite:** 90 dagar\n**Report Plus:** 1 år\n**Report Pro:** 2 år\n**Core Lite:** 2 år\n**Core Pro:** 3 år\n**Enterprise:** 5+ år eller anpassad retention"
+            "title": "Hur mycket historik får jag?",
+            "content": "Varje Core-paket bevarar hela er uppkopplade historik med flerårig lagring. Enterprise-avtal kan förlänga det med egna lagringsvillkor."
           },
           {
             "title": "Hur ofta uppdateras data?",
-            "content": "**Report Lite:** Manuella uppladdningar\n**Report Plus:** Manuellt eller smart-parsat på begäran\n**Report Pro:** Daglig automatisk uppdatering\n**Core Lite:** Varje 4 timmar\n**Core Pro:** Varje 2 timmar\n**Enterprise:** Anpassad takt, inklusive realtid när det är specificerat"
+            "content": "Core uppdateras under passet i stället för vid dagens slut, så att Pulse och domänmodulerna rör sig medan ni fortfarande kan agera. Exakt takt beror på vad era uppkopplade system exponerar."
           },
           {
-            "title": "Får jag anpassade instrumentpaneler?",
-            "content": "**Report-nivåer:** Förbyggda instrumentpaneler\n**Core Lite:** Upp till 30 anpassade instrumentpaneler\n**Core Pro:** Upp till 75 anpassade instrumentpaneler\n**Enterprise:** Obegränsade anpassade instrumentpaneler"
+            "title": "Får jag egna dashboards?",
+            "content": "Ja. Varje Core-paket innehåller egna dashboards utöver de färdiga vyer som följer med varje domänmodul."
           }
         ]
       },
@@ -4917,11 +5281,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Vilken support får jag?",
-            "content": "**Report Lite:** E-postsupport\n**Report Plus:** E-post och chatt\n**Report Pro:** Prioriterad support\n**Core Lite:** E-post, chatt och telefon\n**Core Pro:** Snabbare prioriterad telefonsupport\n**Enterprise:** 24/7 support plus en dedikerad kundframgångsledare"
+            "content": "Varje Core-paket innehåller support via e-post, chatt och telefon. Enterprise-avtal lägger till dygnet runt-täckning, avtalade svarstider och en dedikerad customer success-ansvarig."
           },
           {
             "title": "Erbjuder ni utbildning?",
-            "content": "Ja.\n\n**Report:** Självbetjäningsintroduktion och dokumentation\n**Core Lite:** Guidad utbildning\n**Core Pro:** Anpassat utbildningsprogram\n**Enterprise:** Strukturerad introduktion och möjliggörande"
+            "content": "Ja. Utbildning ingår i införandet, som debiteras en gång enligt den högsta klassen i ert val - kostnadsfri självbetjäningsdokumentation, och guidade sessioner och strukturerad enablement i de högre klasserna."
           },
           {
             "title": "Vilka tidszoner stöder ni?",
@@ -4971,15 +5335,15 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Hur skiljer sig Sundae från POS-rapportering?",
-            "content": "**POS-rapporter:** Ett system, begränsad kontext, manuell tolkning\n\n**Sundae Report:** POS-analys plus benchmarks, rekommendationer och mönsterigenkänning\n\n**Sundae Core:** Allt i Report plus enhetliga data från arbetskraft, lager, marknadsföring, reservationer och andra system med snabbare uppdateringar"
+            "content": "**POS-rapporter:** ett system, begränsad kontext, manuell tolkning\n\n**Sundae Core:** POS-analys plus jämförelser, rekommendationer och mönsterigenkänning, tvärs över personal, kostnad och gäst i en samlad driftbild\n\n**Foresight & Action:** blicken framåt ovanpå - prognoser, scenarier och lagret som agerar på det de lyfter fram"
           },
           {
             "title": "Hur skiljer sig Sundae från Excel?",
             "content": "**Excel:** Manuell inmatning, statisk analys, ingen delad intelligenslager\n\n**Sundae:** Automatisk inhämtning, strukturerad benchmarking, live-instrumentpaneler och rekommendationer som minskar den manuella analysen varje vecka"
           },
           {
-            "title": "Hur mycket kan jag spara jämfört med äldre analysverktyg?",
-            "content": "Operatörer rapporterar ofta om betydligt lägre totala kostnader eftersom Sundae använder nivåbaserad prissättning istället för att stapla avgifter per modul och per plats. De exakta besparingarna beror på din nuvarande verktygsmix och driftsomfång."
+            "title": "Hur mycket sparar jag mot äldre analysverktyg?",
+            "content": "Operatörer rapporterar ofta en tydligt lägre totalkostnad, eftersom ett Core-paket redan innehåller alla elva domänmoduler i stället för att stapla avgifter per modul och per enhet. Exakt skillnad beror på er nuvarande verktygsmix och er operativa storlek."
           }
         ]
       },
@@ -4988,8 +5352,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Jag har bara en plats. Passar Sundae fortfarande?",
-            "content": "Ja. Börja med Report Lite för gratis benchmarking, och gå sedan vidare till djupare Report-nivåer eller Core om din verksamhet behöver mer hastighet och intelligens."
+            "title": "Jag har bara en enhet. Passar Sundae ändå?",
+            "content": "Ja. En enskild enhet bär paketets ankare och inget mer, och får samma elva moduler som en koncern med femtio enheter. Enhetsintervallen börjar spela roll först när ni lägger till fler."
           },
           {
             "title": "Jag är en franchiseplattform. Kan Sundae hjälpa till?",
@@ -5002,6 +5366,32 @@ export const generatedLocalCopy = {
           {
             "title": "Vi planerar att expandera. Kan Sundae hjälpa till?",
             "content": "Ja. Watchtower och marknadsintelligens kan stödja analys av handelsområden, översyn av mättnad, spårning av konkurrenters rörelser och prioritering av underbetjänade territorier."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Vad är Sundae Crew?",
+            "content": "Sundae Crew är den operativa sviten som driver din personal: schemaläggning, tidrapportering, lönehantering, HR-uppgifter och personalanalys. Varje planerat pass, varje stämplad timme och varje registrerad uppgift blir en signal som flödar tillbaka till din decision intelligence - så att drift och insikt delar ett system."
+          },
+          {
+            "title": "Vad kan Crew göra?",
+            "content": "**Fem sammankopplade moduler:**\n\n1. **Scheduling** - Efterfrågestyrd schemaläggning med behörighetskontroller och en AI-byggare\n2. **Tidrapportering** - In- och utstämpling, geofencing, rastintyg och godkännande av tidrapporter\n3. **Payroll** - Löneunderlag för flera regioner och lagstadgade exporter (underlag och export, inte en skattemotor)\n4. **Personal & HR** - Medarbetaruppgifter och dokument från anställning till avgång\n5. **People Intelligence** - Personalanalys, uteblivanderisker och trender för arbetskraftskostnad"
+          },
+          {
+            "title": "Vilka regioner stöder Crew-lön?",
+            "content": "Crews löneunderlag och lagstadgade exporter täcker för närvarande **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **USA** (federalt plus alla delstater), **Kanada**, **Storbritannien** och **Europeiska unionen** (alla 27 medlemsländer). Latinamerika och APAC finns på färdplanen. Crew förbereder och exporterar lön - det är ingen skattemotor, och lagstadgade regler kommer från versionshanterade landspaket."
+          },
+          {
+            "title": "Behöver jag Core för att använda Crew?",
+            "content": "Nej. Crew kan köras fristående som ditt operativa system, eller vid sidan av Core så att dess signal matar Labor Intelligence, Pulse och Foresight. Du kan också ta med din egen HR- eller löneleverantör - Crew är valfritt i sin design."
+          },
+          {
+            "title": "Vad kostar Crew?",
+            "content": "**Crew-SKU:er (fast månadsavgift, ingen avgift per enhet):**\n\n{{CREW_SKU_LINES}}\n\n**Paket (vart och ett har sitt eget nettopris - det är ingen rabatt på SKU:erna i det):**\n\n{{CREW_BUNDLE_LINES}}\n\nAnvänd pricing.sundae.io för exakt uträkning."
           }
         ]
       }
@@ -5017,19 +5407,19 @@ export const generatedLocalCopy = {
           },
           {
             "title": "আমি কীভাবে শুরু করব?",
-            "content": "আপনার তিনটি বিকল্প রয়েছে:\n\n1. **ফ্রি শুরু করুন** - Report Liteের জন্য সাইন আপ করুন (চিরকাল ফ্রি) এবং আপনার অপারেশনাল ডেটা আপলোড করুন যাতে আপনি তাত্ক্ষণিক বেঞ্চমার্কিং দেখতে পারেন। ক্রেডিট কার্ডের প্রয়োজন নেই।\n\n2. **আপনার মূল্য দেখুন** - আপনার অপারেশনের জন্য সঠিক মূল্য দেখতে pricing.sundae.io এ আমাদের ইন্টারেক্টিভ প্রাইসিং ক্যালকুলেটর ব্যবহার করুন।\n\n3. **ডেমো বুক করুন** - আমাদের দলের সাথে ১৫ মিনিটের ওয়াকথ্রু নির্ধারণ করুন যাতে আপনি আপনার ডেটার সাথে Sundae কার্যকরীভাবে দেখতে পারেন।"
+            "content": "আপনার দুটি উপায় আছে:\n\n1. **আপনার দাম দেখুন** - pricing.sundae.io-তে ইন্টার‌্যাক্টিভ ক্যালকুলেটর দিয়ে আউটলেট সংখ্যা অনুযায়ী Core প্যাকেজ ঠিক করুন।\n\n2. **ডেমো বুক করুন** - আমাদের টিমের সঙ্গে ১৫ মিনিটের পরিদর্শন ঠিক করুন এবং নিজের ডেটার ওপর Sundae চলতে দেখুন।"
           },
           {
-            "title": "কি সত্যিই একটি ফ্রি টিয়ার আছে?",
-            "content": "হ্যাঁ। Report Lite চিরকাল ফ্রি। আপনার POS ডেটা আপলোড করুন এবং ৫টি মূল মেট্রিকের বিরুদ্ধে তাত্ক্ষণিক বেঞ্চমার্কিং পান। যুক্তিসঙ্গত অপারেশনাল ব্যবহারের জন্য ফেয়ার-ইউজ নীতি প্রযোজ্য।"
+            "title": "কোনো ফ্রি স্তর আছে কি?",
+            "content": "না। Sundae-র প্রতিটি প্যাকেজই সশুল্ক, প্রথম আউটলেট থেকেই দাম ধরা হয়। আমরা যা দিই তা হলো প্রতিশ্রুতির আগে আপনার নিজের সংখ্যার ওপর একটি ওয়ার্কিং সেশন, যাতে কিছু সই করার আগেই আপনি ফলটা দেখতে পান।"
           },
           {
-            "title": "রিপোর্ট এবং কোরের মধ্যে পার্থক্য কী?",
-            "content": "**রিপোর্ট টিয়ার** = ঐতিহাসিক বিশ্লেষণ (POS ডেটা)\n• দৈনিক, সাপ্তাহিক, বা মাসিক POS ডেটা আপলোড করুন\n• কী ঘটেছে তা বিশ্লেষণ করুন\n• সহকর্মীদের বিরুদ্ধে বেঞ্চমার্ক করুন\n• একটি একক অবস্থান বা প্রমাণের জন্য সেরা\n\n**কোর টিয়ার** = রিয়েল-টাইম অপারেশন (POS + সমস্ত সিস্টেম)\n• ২-৪ ঘণ্টার রিফ্রেশ সাইকেল\n• POS + শ্রম + ইনভেন্টরি + মার্কেটিং + রিজার্ভেশন একত্রিত করে\n• এখন কী ঘটছে তা দেখুন\n• পূর্বাভাসমূলক সতর্কতা পান\n• বহু অবস্থানের অপারেটরদের জন্য সেরা\n\nমূল পার্থক্য: রিপোর্ট = শুধুমাত্র POS। কোর = POS প্লাস আপনার বাকি স্ট্যাক।"
+            "title": "Core প্যাকেজগুলোর পার্থক্য কী?",
+            "content": "**Core Foundation** - পরিচালনার ভিত্তি: POS, শ্রম, খরচ ও অপারেশনের ওপর একটিই সিদ্ধান্ত-ভিত্তি।\n\n**Core Margin** - খরচ ও ক্ষরণে গভীরতা: তাত্ত্বিক বনাম প্রকৃত ব্যবহার, অপচয়, ঘাটতি, ভয়েড ও কম্প, প্রতি আইটেমের অবদান।\n\n**Core Growth** - চাহিদায় গভীরতা: অতিথি কোহর্ট ও আজীবন মূল্য, চ্যানেলভিত্তিক প্রোমো অ্যাট্রিবিউশন, কমিশনের পর ডেলিভারি মার্জিন।\n\n**Core Performance** - বহু-ব্র্যান্ড ও বহু-অঞ্চল সংহতকরণ, মডিউলের মধ্যে সম্পর্ক, অডিট ট্রেইলসহ নিয়ন্ত্রিত প্রবেশাধিকার।\n\nচারটিতেই একই এগারোটি ডোমেইন মডিউল থাকে। বদলায় কেবল গভীরতা।"
           },
           {
-            "title": "আমার কি দীর্ঘমেয়াদী চুক্তির প্রয়োজন?",
-            "content": "না। রিপোর্ট এবং কোর টিয়ার মাসে মাসে। কোনও জরিমানা ছাড়াই যে কোনও সময় বাতিল করুন। এন্টারপ্রাইজ স্থাপনগুলি সাধারণত কাস্টম শর্তাবলীর সাথে বার্ষিক চুক্তি ব্যবহার করে।"
+            "title": "দীর্ঘমেয়াদি চুক্তি কি লাগবে?",
+            "content": "না। প্রতিটি প্যাকেজ মাসভিত্তিক পাওয়া যায় এবং জরিমানা ছাড়াই বাতিল করা যায়। বার্ষিক ও দুই বছরের প্রতিশ্রুতি আছে কারণ তাতে খরচ কম - ১০% ও ১৫% ছাড় - বাধ্যতামূলক বলে নয়।"
           }
         ]
       },
@@ -5038,20 +5428,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Sundae কী কী পণ্য অফার করে?",
-            "content": "**তিনটি প্রধান পণ্য:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - ঐতিহাসিক বিশ্লেষণ এবং বেঞ্চমার্কিং\n2. **Sundae Core** (Lite / Pro / Enterprise) - রিয়েল-টাইম অপারেশন এবং পূর্বাভাসী বুদ্ধিমত্তা\n3. **Watchtower** (প্রতিযোগিতামূলক / ইভেন্ট / বাজার) - বাইরের বাজারের বুদ্ধিমত্তা\n\n**প্লাস:**\n\n4. **মডিউলস** - শ্রম, ইনভেন্টরি, ক্রয়, মার্কেটিং, এবং রিজার্ভেশন বুদ্ধিমত্তা."
+            "title": "Sundae কী কী পণ্য দেয়?",
+            "content": "**চারটি প্রধান পণ্য:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - সিদ্ধান্তের ভিত্তি, যাতে এগারোটি ডোমেইন মডিউলই থাকে\n2. **Foresight & Action** - পূর্বাভাস, দৃশ্যকল্প মডেলিং এবং মানুষের অনুমোদনসহ কর্ম-স্তর\n3. **Sundae Crew** - কর্মীবাহিনীর ভিত্তি: সময়সূচি, হাজিরা, বেতন প্রস্তুতি, এইচআর ও পিপল ইন্টেলিজেন্স\n4. **Watchtower** - বাইরের বাজার ইন্টেলিজেন্স, আপনার Core প্যাকেজের সঙ্গেই পরিসর ঠিক হয়\n\n**সেই সঙ্গে:** আপনার গ্রুপের পরিচালন মডেলের জন্য কনসেপ্ট SKU - ফ্র্যাঞ্চাইজ, হোটেল F&B, ক্লাউড কিচেন, ক্যাটারিং, উৎপাদন, ভাড়ার সেন্ট্রাল কিচেন।"
           },
           {
-            "title": "কোন স্তরটি আমি নির্বাচন করব?",
-            "content": "**যদি আপনি Report Lite দিয়ে শুরু করেন:**\n• আপনি Sundae পরীক্ষা করছেন\n• আপনি 1-2টি লোকেশন পরিচালনা করেন\n• দৈনিক বা সাপ্তাহিক রিপোর্টিং যথেষ্ট\n\n**যদি Report Plus বা Pro-তে আপগ্রেড করতে চান:**\n• আপনি গভীর ঐতিহাসিক বুদ্ধিমত্তা প্রয়োজন\n• দৈনিক রিপোর্টিং এখনও যথেষ্ট\n\n**Core Lite বা Pro নির্বাচন করুন যদি:**\n• আপনি 10+ লোকেশন পরিচালনা করেন\n• আপনাকে অপারেশনাল গতি প্রয়োজন\n• রিয়েল-টাইম বাজেট ট্র্যাকিং গুরুত্বপূর্ণ\n\n**Enterprise নির্বাচন করুন যদি:**\n• আপনার 100+ লোকেশন আছে\n• আপনাকে SSO বা হোয়াইট-লেবেল ক্ষমতা প্রয়োজন\n• আপনাকে নিবেদিত সমর্থন এবং কাস্টম শর্তাবলী প্রয়োজন"
+            "title": "আমি কোন Core প্যাকেজ নেব?",
+            "content": "**Core Foundation যদি:**\n• আপনি স্প্রেডশিট আর বিচ্ছিন্ন ড্যাশবোর্ড থেকে বেরোচ্ছেন\n• গভীরে যাওয়ার আগে একটিই পরিচালন চিত্র চান\n\n**Core Margin যদি:**\n• খাদ্যের খরচ, অপচয়, ভয়েড বা কম্প আপনার মার্জিন খেয়ে ফেলছে\n• কেবল বিক্রির মিশ্রণ নয়, প্রতি আইটেমের অবদান দরকার\n\n**Core Growth যদি:**\n• পুনরাবৃত্ত রাজস্ব আর চ্যানেল মিশ্রণই বাধা\n• অতিথি কোহর্ট, প্রোমো অ্যাট্রিবিউশন ও ডেলিভারি মার্জিন দরকার\n\n**Core Performance যদি:**\n• আপনি একাধিক ব্র্যান্ড বা একাধিক বাজার চালান\n• সংহতকরণ, মডিউল-পার সম্পর্ক আর নিয়ন্ত্রিত প্রবেশাধিকার দরকার"
           },
           {
             "title": "আমি কি পরে আপগ্রেড বা ডাউনগ্রেড করতে পারি?",
             "content": "হ্যাঁ। আপনি যেকোনো সময় স্তরের মধ্যে স্থানান্তর করতে পারেন। ঐতিহাসিক তথ্য সংরক্ষিত থাকে এবং পরিকল্পনা পরিবর্তনের জন্য কোন জরিমানা নেই।"
           },
           {
-            "title": "4D বুদ্ধিমত্তা মডেল কী?",
-            "content": "Sundae-এর সিদ্ধান্ত বুদ্ধিমত্তার জন্য কাঠামো:\n\n**1D: কী ঘটেছে** - বিক্রয়, শ্রম, এবং খরচের ডেটা\n**2D: পরিকল্পনা বনাম বাস্তব** - বাজেট এবং পূর্বাভাসের পার্থক্য\n**3D: বাজারের প্রেক্ষাপট** - বেঞ্চমার্ক, সহকর্মী, এবং প্রতিযোগী\n**4D: পরবর্তী কী** - পূর্বাভাস এবং সুপারিশ\n\n**Report:** সম্পূর্ণ 1D এবং 2D সহ সীমিত 3D এবং 4D\n**Core:** সমস্ত 4 মাত্রায় সম্পূর্ণ অ্যাক্সেস."
+            "title": "4D Intelligence মডেল কী?",
+            "content": "সিদ্ধান্ত বুদ্ধিমত্তার জন্য Sundae-র কাঠামো:\n\n**1D: কী ঘটেছে** - বিক্রি, শ্রম ও খরচের সত্য\n**2D: পরিকল্পনা বনাম বাস্তব** - বাজেট ও পূর্বাভাসের বিচ্যুতি\n**3D: বাজারের প্রেক্ষাপট** - বেঞ্চমার্ক, সমগোত্রীয় ও প্রতিযোগী\n**4D: এরপর কী** - পূর্বাভাস ও সুপারিশ\n\nপ্রতিটি Core প্যাকেজ চারটিই ধরে। প্যাকেজ ঠিক করে প্রতিটি মাত্রা কতটা গভীরে যাবে।"
           }
         ]
       },
@@ -5060,24 +5450,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae-কে কোন তথ্যের প্রয়োজন?",
-            "content": "**Report Liteের জন্য ন্যূনতম:**\n• POS বিক্রয় তথ্য (CSV রপ্তানি)\n\n**কোরের জন্য:**\n• API-এর মাধ্যমে POS সিস্টেম\n• শ্রম বা কর্মী সিস্টেম\n• ইনভেন্টরি সিস্টেম\n• মার্কেটিং প্ল্যাটফর্ম\n• রিজার্ভেশন সিস্টেম\n\nরিপোর্ট POS আপলোডের চারপাশে তৈরি। কোর হল যেখানে আপনি বৃহত্তর অপারেটিং স্ট্যাক সংযুক্ত করেন।"
+            "title": "Sundae-র কী ডেটা লাগে?",
+            "content": "**যেকোনো Core প্যাকেজের জন্য:**\n• API-র মাধ্যমে POS সিস্টেম\n• শ্রম বা কর্মী ব্যবস্থাপনা সিস্টেম\n• ইনভেন্টরি সিস্টেম\n• মার্কেটিং প্ল্যাটফর্ম\n• রিজার্ভেশন সিস্টেম\n\nপ্রথম দিন থেকেই মূল্য পেতে কেবল POS-ই যথেষ্ট। বাকিগুলো যুক্ত হতে হতে ছবিটা গভীর হয়।"
           },
           {
-            "title": "আমি কিভাবে আমার তথ্য Sundae-তে নিয়ে আসব?",
-            "content": "**Report Lite:** ম্যানুয়াল CSV আপলোড\n\n**Report Plus:** PDF, Excel ফাইল, বা স্ক্রিনশট আপলোড করুন। Sundae তথ্য বের করে এবং আপনি প্রক্রিয়াকরণের আগে এটি পর্যালোচনা করেন।\n\n**Report Pro এবং কোর:** API সংযোগের মাধ্যমে স্বয়ংক্রিয় গ্রহণ।"
+            "title": "আমার ডেটা Sundae-তে কীভাবে আসে?",
+            "content": "আপনার POS ও বাকি পরিচালন স্ট্যাকের সঙ্গে API সংযোগের মাধ্যমে। যেখানে কোনো সিস্টেমের API নেই, সেখানে Sundae সুসংগঠিত ফাইল জমা ও স্মার্ট-পঠিত আপলোড নেয় - PDF, Excel, স্ক্রিনশট - যেগুলো প্রক্রিয়াকরণের আগে আপনি যাচাই করেন।"
           },
           {
             "title": "আপনারা কোন POS সিস্টেমগুলির সাথে ইন্টিগ্রেট করেন?",
             "content": "Sundae বর্তমানে **4টি POS প্ল্যাটফর্ম** এর লাইভ অ্যাডাপ্টার সমর্থন করে: Oracle MICROS Simphony, Square, Toast, এবং Clover। আমরা PostgreSQL এবং SQL Server / Azure SQL-এর জন্য **সরাসরি ডেটাবেস সংযোগকারী** সমর্থন করি যখন একটি POS সিস্টেম ডেটাবেস অ্যাক্সেস প্রকাশ করে।\n\nPOS ছাড়াও, Sundae-এর **12-ডোমেইন ইন্টিগ্রেশন ইঞ্জিন** শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, এবং হিসাবরক্ষণে 30+ বিক্রেতার সাথে সংযুক্ত হয়।\n\nযদি আপনি আপনার সিস্টেম তালিকাভুক্ত না দেখেন, তবে এন্টারপ্রাইজ স্তর কাস্টম ইন্টিগ্রেশন কাজ এবং ওয়েবহুক-ভিত্তিক গ্রহণ অন্তর্ভুক্ত করতে পারে।"
           },
           {
-            "title": "আমি কি একাধিক POS সিস্টেমের সাথে Sundae ব্যবহার করতে পারি?",
-            "content": "**Core Lite:** যখন সব লোকেশন একটি POS ব্যবহার করে তখন এটি সেরা\n\n**Core Pro এবং এন্টারপ্রাইজ:** হ্যাঁ। বিভিন্ন লোকেশনে বিভিন্ন POS সিস্টেম সমর্থিত, এবং Sundae আপেল থেকে আপেল তুলনার জন্য তথ্য স্বাভাবিক করে।\n\n**রিপোর্ট:** যেকোনো POS কাজ করে কারণ আপলোডগুলি ম্যানুয়াল।"
+            "title": "আমি কি একাধিক POS সিস্টেমের সঙ্গে Sundae ব্যবহার করতে পারি?",
+            "content": "হ্যাঁ। Sundae মিশ্র POS পরিবেশে যুক্ত হয় এবং সমান ভিত্তিতে তুলনার জন্য ডেটা সমন্বিত করে। Core Performance এর ওপরে ব্র্যান্ড ও অঞ্চলজুড়ে সংহতকরণ যোগ করে।"
           },
           {
             "title": "বাস্তবায়নে কত সময় লাগে?",
-            "content": "**Report Lite:** আপলোডের পরে তাৎক্ষণিক\n**Report Plus / প্রো:** 1-2 দিন\n**Core Lite / প্রো:** 1-2 সপ্তাহ\n**এন্টারপ্রাইজ:** পরিধির উপর নির্ভর করে 2-4 সপ্তাহ"
+            "content": "বেশির ভাগ গ্রুপ ১-২ সপ্তাহে চালু হয়ে যায়। একাধিক ব্র্যান্ড বা একাধিক অঞ্চলজুড়ে বড় রোলআউট পরিসর অনুযায়ী ২-৪ সপ্তাহ নেয়।\n\nবাস্তবায়ন একবারের ফি, আপনার নির্বাচনের সর্বোচ্চ শ্রেণির ভিত্তিতে একবারই ধরা হয় - বিনা খরচের সেলফ-সার্ভিস থেকে নির্দিষ্ট পরিসরের Class D সম্পৃক্ততা পর্যন্ত।"
           },
           {
             "title": "যদি আমি বাতিল করি তবে আমার তথ্যের কি হবে?",
@@ -5091,27 +5481,27 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "মডিউল কী?",
-            "content": "মডিউল হল Core-এর জন্য বিশেষায়িত বুদ্ধিমত্তা অ্যাড-অন:\n\n1. **শ্রম বুদ্ধিমত্তা** - সময়সূচী, উৎপাদনশীলতা, এবং অতিরিক্ত সময়\n2. **মালপত্র বুদ্ধিমত্তা** - অপচয়, পার স্তর, এবং স্টক দৃশ্যমানতা\n3. **ক্রয় বুদ্ধিমত্তা** - বিক্রেতা তুলনা এবং চুক্তির সুবিধা\n4. **মার্কেটিং বুদ্ধিমত্তা** - ROI, CAC, এবং চ্যানেল কর্মক্ষমতা\n5. **রিজার্ভেশন বুদ্ধিমত্তা** - না-শো পূর্বাভাস এবং টেবিল অপ্টিমাইজেশন\n\nমডিউলগুলি Core-এর প্রয়োজন কারণ এগুলি লাইভ, সংযুক্ত অপারেটিং ডেটার উপর নির্ভর করে।"
+            "content": "এগারোটি ডোমেইন মডিউল হলো Core-এর ভেতরের বিশ্লেষণী পৃষ্ঠ। এগুলো প্যাকেজের উপাদান, আলাদা করে কেনা অ্যাড-অন নয়:\n\n{{DOMAIN_MODULE_LINES}}\n\nএগুলোর জন্য Core দরকার, কারণ এরা লাইভ সংযুক্ত পরিচালন ডেটার ওপর নির্ভর করে।"
           },
           {
-            "title": "আমার কি মডিউল প্রয়োজন?",
-            "content": "না। মডিউল ঐচ্ছিক। একটি নির্দিষ্ট অপারেটিং এলাকায় গভীর কভারেজ প্রয়োজন হলে সেগুলি যোগ করুন।\n\n**পথ:**\n• রিপোর্টে -> প্রথমে Core-এ আপগ্রেড করুন\n• Core-এ -> যখন প্রয়োজন স্পষ্ট তখন মডিউল যোগ করুন"
+            "title": "আমার কি মডিউল দরকার?",
+            "content": "এগুলো ঐচ্ছিক নয় এবং আলাদা কেনাও নয়। এগারোটি ডোমেইন মডিউলই প্রতিটি Core প্যাকেজের সঙ্গে আসে।\n\nআপনি বেছে নেন প্যাকেজ, আর প্যাকেজই ঠিক করে প্রতিটি মডিউল কতটা গভীরে যাবে।"
           },
           {
-            "title": "মডিউলের জন্য কি Core প্রয়োজন?",
-            "content": "হ্যাঁ। মডিউলগুলির জন্য Core Lite, Core Pro, বা Enterprise প্রয়োজন।\n\nএগুলি শ্রম, মালপত্র, মার্কেটিং, রিজার্ভেশন এবং অন্যান্য সিস্টেমের লাইভ সংযোগের উপর নির্ভর করে যা রিপোর্ট সরাসরি সংযুক্ত করে না।"
+            "title": "আমি কি একটি মডিউল আলাদা কিনতে পারি?",
+            "content": "না। এগারোটি ডোমেইন মডিউল Core প্যাকেজের উপাদান, স্বতন্ত্র পণ্য নয়, আর প্রতি-মডিউল কোনো দামও নেই। প্যাকেজ বেছে নেওয়াই সবগুলো পাওয়ার উপায়।"
           },
           {
-            "title": "আমি কি একাধিক মডিউল যোগ করতে পারি?",
-            "content": "হ্যাঁ। পাঁচটি মডিউলের যেকোনোটি মিশ্রিত এবং মেলাতে পারেন। সেগুলি একসাথে কিনতে বাধ্যতামূলক নয়।"
+            "title": "মডিউল কি একটি একটি করে যোগ করতে হয়?",
+            "content": "না। যোগ করার কিছুই নেই। প্রতিটি Core প্যাকেজ প্রথম দিন থেকেই এগারোটি ডোমেইন মডিউল বহন করে - আপনার বেছে নেওয়া প্যাকেজ কেবল ঠিক করে প্রতিটি কতটা গভীরে যাবে।"
           },
           {
-            "title": "কোন মডিউলটি প্রথমে নির্বাচন করা উচিত?",
-            "content": "সবচেয়ে বড় অপারেটিং সমস্যা দিয়ে শুরু করুন:\n\n• উচ্চ শ্রম খরচ -> শ্রম বুদ্ধিমত্তা\n• অপচয় বা স্টক সমস্যা -> মালপত্র বুদ্ধিমত্তা\n• দুর্বল বিক্রেতা সুবিধা -> ক্রয় বুদ্ধিমত্তা\n• অস্পষ্ট মার্কেটিং ROI -> মার্কেটিং বুদ্ধিমত্তা\n• রিজার্ভেশন না-শো -> রিজার্ভেশন বুদ্ধিমত্তা"
+            "title": "প্রথমে কোন মডিউল দেখা উচিত?",
+            "content": "সবগুলোই আগে থেকে চালু, তাই প্রশ্নটা কোথা থেকে দেখা শুরু করবেন, কী কিনবেন তা নয়। সবচেয়ে বড় পরিচালন যন্ত্রণা দিয়ে শুরু করুন:\n\n• উচ্চ শ্রম ব্যয় -> Labor Intelligence\n• অপচয় বা স্টকের সমস্যা -> Inventory Intelligence\n• সরবরাহকারীর ওপর দুর্বল নিয়ন্ত্রণ -> Purchasing Intelligence\n• অস্পষ্ট মার্কেটিং ROI -> Marketing Intelligence\n• রিজার্ভেশনে নো-শো -> Reservations Intelligence"
           },
           {
-            "title": "মডিউল মূল্যায়ন কিভাবে কাজ করে?",
-            "content": "প্রতিটি মডিউলে একটি সংগঠন লাইসেন্স অন্তর্ভুক্ত থাকে যা প্রথম 5টি অবস্থানকে কভার করে, সেই থ্রেশোল্ডের বাইরে অতিরিক্ত অবস্থানের মূল্যায়ন।\n\nউদাহরণ: শ্রম বুদ্ধিমত্তার সাথে 8টি অবস্থান = 1টি সংগঠন লাইসেন্স + 3টি অতিরিক্ত অবস্থান।\n\nনির্দিষ্ট পরিকল্পনার গণনার জন্য pricing.sundae.io ব্যবহার করুন."
+            "title": "মডিউলের দাম কীভাবে ঠিক হয়?",
+            "content": "মডিউলের কোনো দামই নেই। মডিউলের নিজস্ব দাম নেই, নিজস্ব আউটলেট বরাদ্দও নেই - আপনি কেনেন প্যাকেজ।\n\nCore প্যাকেজের দাম শুরু হয় আপনার প্রথম আউটলেট থেকে, তারপর প্রতিটি অতিরিক্ত আউটলেটে প্রান্তিক হারে, আর সেই হার বড় হওয়ার সঙ্গে সঙ্গে কমতে থাকে। {{WORKED_EXAMPLE}}\n\nনির্ভুল হিসাবের জন্য pricing.sundae.io ব্যবহার করুন।"
           }
         ]
       },
@@ -5136,8 +5526,8 @@ export const generatedLocalCopy = {
             "content": "হ্যাঁ। আপনি প্রতিযোগিতামূলক বুদ্ধিমত্তা, ইভেন্ট বুদ্ধিমত্তা, বা বাজার বুদ্ধিমত্তা আলাদাভাবে কিনতে পারেন, অথবা সেগুলি একত্রিত করতে পারেন।"
           },
           {
-            "title": "Watchtower কি Core এর প্রয়োজন?",
-            "content": "হ্যাঁ। Watchtower তখনই সবচেয়ে ভাল কাজ করে যখন এর বাজার সংকেতগুলি সরাসরি লাইভ অপারেটিং ডেটার উপর স্তরিত হয়, যা Core প্রদান করে।\n\nযদি আপনার শুধুমাত্র আপলোড করা ঐতিহাসিক POS বিশ্লেষণের প্রয়োজন হয়, তবে Report যথেষ্ট। যদি আপনি দৈনন্দিন কার্যক্রমের সাথে বাজারের প্রেক্ষাপট চান, তবে Core এ যান।"
+            "title": "Watchtower-এর জন্য কি Core লাগে?",
+            "content": "হ্যাঁ। Watchtower তখনই সবচেয়ে ভালো কাজ করে যখন তার বাজার-সংকেত লাইভ পরিচালন ডেটার ওপর বসানো হয়, আর সেটাই Core প্যাকেজ দেয়। এটি আলাদা বিক্রি না করে আপনার প্যাকেজের সঙ্গেই পরিসর ঠিক করে দাম দেওয়া হয়।"
           }
         ]
       },
@@ -5146,8 +5536,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Sundae এর দাম কত?",
-            "content": "মূল্য নির্ভর করে:\n• রিপোর্ট বনাম কোর\n• অবস্থানের সংখ্যা\n• নির্বাচিত মডিউল\n• Watchtower অন্তর্ভুক্ত কিনা\n\n**Report Lite:** চিরকাল ফ্রি\n\nনির্দিষ্ট মূল্য জানার জন্য, pricing.sundae.io ব্যবহার করুন."
+            "title": "Sundae-র খরচ কত?",
+            "content": "দাম নির্ভর করে:\n• কোন Core প্যাকেজ\n• আউটলেটের সংখ্যা\n• Foresight & Action, Crew বা কনসেপ্ট SKU যুক্ত আছে কি না\n\nCore প্যাকেজের দাম শুরু হয় প্রথম আউটলেটের অ্যাংকর থেকে, সঙ্গে প্রতিটি অতিরিক্ত আউটলেটে প্রান্তিক হার, যা বড় হওয়ার সঙ্গে কমতে থাকে। Core Foundation আপনার প্রথম আউটলেটের জন্য {{FOUNDATION_FIRST_UNIT}} থেকে শুরু।\n\nনির্ভুল দামের জন্য pricing.sundae.io দেখুন।"
           },
           {
             "title": "কোনও সেটআপ ফি আছে কি?",
@@ -5172,20 +5562,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "বুদ্ধিমত্তা ক্রেডিট কিভাবে কাজ করে?",
-            "content": "বুদ্ধিমত্তা ক্রেডিট প্রশ্ন, বিশ্লেষণ এবং সুপারিশকে শক্তি দেয়।\n\n**Report Lite:** ২৫০ বেস + ৮০ প্রতি লোকেশন\n**Report Plus:** ১,২০০ বেস + ৩০০ প্রতি লোকেশন\n**Report Pro:** ৩,৫০০ বেস + ৮০০ প্রতি লোকেশন\n**Core Lite:** ৮,০০০ বেস + ১,৬০০ প্রতি লোকেশন\n**Core Pro:** ১৪,০০০ বেস + ২,৮০০ প্রতি লোকেশন\n**এন্টারপ্রাইজ:** ৫০,০০০+ বেস + কাস্টম বরাদ্দ"
+            "title": "ইন্টেলিজেন্স ক্রেডিট কীভাবে কাজ করে?",
+            "content": "ইন্টেলিজেন্স ক্রেডিট প্রশ্ন, বিশ্লেষণ ও সুপারিশকে চালায়। প্রতিটি Core প্যাকেজের সঙ্গে মাসিক ওয়ালেট থাকে:\n\n{{AI_WALLET_LINES}}\n\nশেষ হয়ে গেলে যেকোনো প্যাকেজে টপ-আপ করা যায়।"
           },
           {
-            "title": "আমি কতটা ঐতিহাসিক অ্যাক্সেস পাব?",
-            "content": "**Report Lite:** ৯০ দিন\n**Report Plus:** ১ বছর\n**Report Pro:** ২ বছর\n**Core Lite:** ২ বছর\n**Core Pro:** ৩ বছর\n**এন্টারপ্রাইজ:** ৫+ বছর বা কাস্টম রিটেনশন"
+            "title": "কত পুরনো ডেটা পাব?",
+            "content": "প্রতিটি Core প্যাকেজ আপনার সংযুক্ত পূর্ণ ইতিহাস বহু বছরের জন্য ধরে রাখে। Enterprise চুক্তিতে নিজস্ব শর্তে তা আরও বাড়ানো যায়।"
           },
           {
             "title": "ডেটা কত ঘন ঘন রিফ্রেশ হয়?",
-            "content": "**Report Lite:** ম্যানুয়াল আপলোড\n**Report Plus:** ম্যানুয়াল বা স্মার্ট-পার্সড অন ডিমান্ড\n**Report Pro:** দৈনিক স্বয়ংক্রিয় রিফ্রেশ\n**Core Lite:** প্রতি ৪ ঘণ্টায়\n**Core Pro:** প্রতি ২ ঘণ্টায়\n**এন্টারপ্রাইজ:** কাস্টম কেডেন্স, স্কোপ করা হলে রিয়েল টাইম সহ"
+            "content": "Core দিনের শেষে নয়, শিফট চলাকালীনই রিফ্রেশ হয়, যাতে Pulse ও ডোমেইন মডিউল তখনই নড়ে যখন আপনি এখনও কিছু করতে পারেন। সঠিক ব্যবধান নির্ভর করে আপনার সংযুক্ত সিস্টেম কী দেয় তার ওপর।"
           },
           {
-            "title": "আমি কি কাস্টম ড্যাশবোর্ড পাব?",
-            "content": "**রিপোর্ট স্তর:** প্রিবিল্ট ড্যাশবোর্ড\n**Core Lite:** ৩০টি পর্যন্ত কাস্টম ড্যাশবোর্ড\n**Core Pro:** ৭৫টি পর্যন্ত কাস্টম ড্যাশবোর্ড\n**এন্টারপ্রাইজ:** অসীম কাস্টম ড্যাশবোর্ড"
+            "title": "আমি কি কাস্টম ড্যাশবোর্ড পাই?",
+            "content": "হ্যাঁ। প্রতিটি Core প্যাকেজে, প্রতিটি ডোমেইন মডিউলের সঙ্গে আসা তৈরি ভিউয়ের পাশাপাশি কাস্টম ড্যাশবোর্ডও থাকে।"
           }
         ]
       },
@@ -5194,12 +5584,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "আমি কী ধরনের সহায়তা পাব?",
-            "content": "**Report Lite:** ইমেইল সহায়তা\n**Report Plus:** ইমেইল এবং চ্যাট\n**Report Pro:** অগ্রাধিকার সহায়তা\n**Core Lite:** ইমেইল, চ্যাট, এবং ফোন\n**Core Pro:** দ্রুত অগ্রাধিকার ফোন সহায়তা\n**Enterprise:** ২৪/৭ সহায়তা এবং একটি নিবেদিত গ্রাহক সাফল্য নেতা"
+            "title": "আমি কী ধরনের সহায়তা পাই?",
+            "content": "প্রতিটি Core প্যাকেজে ইমেল, চ্যাট ও ফোন সহায়তা থাকে। Enterprise চুক্তিতে যোগ হয় ২৪/৭ কভারেজ, চুক্তিভিত্তিক সাড়া দেওয়ার সময় এবং একজন নিবেদিত কাস্টমার সাকসেস লিড।"
           },
           {
-            "title": "আপনি কি প্রশিক্ষণ প্রদান করেন?",
-            "content": "হ্যাঁ।\n\n**Report:** স্ব-পরিষেবা অনবোর্ডিং এবং ডকুমেন্টেশন\n**Core Lite:** নির্দেশিত প্রশিক্ষণ সেশন\n**Core Pro:** কাস্টম প্রশিক্ষণ প্রোগ্রাম\n**Enterprise:** কাঠামোবদ্ধ অনবোর্ডিং এবং সক্ষমতা"
+            "title": "আপনারা কি প্রশিক্ষণ দেন?",
+            "content": "হ্যাঁ। প্রশিক্ষণ বাস্তবায়নেরই অংশ, যা আপনার নির্বাচনের সর্বোচ্চ শ্রেণির ভিত্তিতে একবারই ধরা হয় - বিনা খরচের সেলফ-সার্ভিস ডকুমেন্টেশন, আর উঁচু শ্রেণিতে পরিচালিত সেশন ও কাঠামোবদ্ধ সক্ষমতা গঠন।"
           },
           {
             "title": "আপনারা কোন সময় অঞ্চলগুলিকে সমর্থন করেন?",
@@ -5248,16 +5638,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Sundae কীভাবে POS রিপোর্টিং থেকে আলাদা?",
-            "content": "**POS রিপোর্ট:** একটি সিস্টেম, সীমিত প্রসঙ্গ, ম্যানুয়াল ব্যাখ্যা\n\n**Sundae Report:** POS বিশ্লেষণ সহ বেঞ্চমার্ক, সুপারিশ এবং প্যাটার্ন সনাক্তকরণ\n\n**Sundae Core:** Report-এর সবকিছু সহ শ্রম, ইনভেন্টরি, মার্কেটিং, রিজার্ভেশন এবং অন্যান্য সিস্টেম থেকে একীভূত ডেটা যা দ্রুত রিফ্রেশ হয়"
+            "title": "POS রিপোর্টিং থেকে Sundae কীভাবে আলাদা?",
+            "content": "**POS রিপোর্ট:** একটি সিস্টেম, সীমিত প্রেক্ষাপট, হাতে ব্যাখ্যা\n\n**Sundae Core:** POS বিশ্লেষণের সঙ্গে বেঞ্চমার্ক, সুপারিশ ও প্যাটার্ন শনাক্তকরণ - শ্রম, খরচ ও অতিথিকে এক পরিচালন চিত্রে\n\n**Foresight & Action:** তার ওপরে সামনের দিকের দৃষ্টি - পূর্বাভাস, দৃশ্যকল্প, আর সেই স্তর যা তাদের উন্মোচিত বিষয়ের ওপর পদক্ষেপ নেয়"
           },
           {
             "title": "Sundae কীভাবে Excel থেকে আলাদা?",
             "content": "**Excel:** ম্যানুয়াল এন্ট্রি, স্থির বিশ্লেষণ, কোন শেয়ারড ইন্টেলিজেন্স লেয়ার নেই\n\n**Sundae:** স্বয়ংক্রিয় ইনজেশন, কাঠামোবদ্ধ বেঞ্চমার্কিং, লাইভ ড্যাশবোর্ড এবং সুপারিশ যা প্রতি সপ্তাহে ম্যানুয়াল বিশ্লেষণের সময় কমায়"
           },
           {
-            "title": "আমি পুরনো বিশ্লেষণ টুলগুলির তুলনায় কতটা সঞ্চয় করতে পারি?",
-            "content": "অপারেটররা প্রায়শই উল্লেখ করেন যে মোট খরচ উল্লেখযোগ্যভাবে কম কারণ Sundae স্তরভিত্তিক মূল্য নির্ধারণ ব্যবহার করে, মডিউল এবং লোকেশন অনুযায়ী ফি না। সঠিক সঞ্চয় আপনার বর্তমান টুল মিশ্রণ এবং অপারেটিং পরিধির উপর নির্ভর করে."
+            "title": "পুরনো অ্যানালিটিক্স টুলের তুলনায় কত সাশ্রয় হবে?",
+            "content": "অপারেটররা প্রায়ই উল্লেখযোগ্যভাবে কম মোট খরচের কথা বলেন, কারণ একটি Core প্যাকেজেই এগারোটি ডোমেইন মডিউল থাকে - প্রতি মডিউল ও প্রতি আউটলেট ফি জমা করতে হয় না। প্রকৃত পার্থক্য নির্ভর করে আপনার বর্তমান টুল-সমাহার ও পরিচালন পরিসরের ওপর।"
           }
         ]
       },
@@ -5266,8 +5656,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "আমার একটি মাত্র লোকেশন আছে। তাহলে কি Sundae উপযুক্ত?",
-            "content": "হ্যাঁ। বিনামূল্যে benchmarking এর জন্য Report Lite দিয়ে শুরু করুন, তারপর আপনার অপারেশন যদি আরও গতি এবং বুদ্ধিমত্তার প্রয়োজন হয় তবে গভীর Report স্তরে বা Core এ চলে যান।"
+            "title": "আমার মাত্র একটি আউটলেট। Sundae কি তবু মানানসই?",
+            "content": "হ্যাঁ। একক আউটলেট কেবল প্যাকেজ অ্যাংকরটুকু বহন করে, তার বেশি নয়, আর পঞ্চাশ আউটলেটের গ্রুপ যে এগারোটি মডিউল পায় সেগুলোই পায়। আউটলেট ব্যান্ড কেবল তখনই গুরুত্বপূর্ণ হয় যখন আপনি সাইট যোগ করতে থাকেন।"
           },
           {
             "title": "আমি একটি ফ্র্যাঞ্চাইজ প্ল্যাটফর্ম। Sundae কি সাহায্য করতে পারে?",
@@ -5282,6 +5672,32 @@ export const generatedLocalCopy = {
             "content": "হ্যাঁ। Watchtower এবং বাজারের বুদ্ধিমত্তা বাণিজ্য-এলাকা বিশ্লেষণ, স্যাচুরেশন পর্যালোচনা, প্রতিযোগীর গতিবিধি ট্র্যাকিং এবং অপ্রাপ্ত সেবা অঞ্চলগুলির অগ্রাধিকার নির্ধারণে সহায়তা করতে পারে।"
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew কী?",
+            "content": "Sundae Crew হল সেই অপারেশনাল স্যুট যা আপনার কর্মীদের পরিচালনা করে: শিডিউলিং, সময় ও উপস্থিতি, পেরোল প্রস্তুতি, HR রেকর্ড এবং কর্মীবাহিনী বিশ্লেষণ। পরিকল্পিত প্রতিটি শিফট, রেকর্ড করা প্রতিটি ঘণ্টা এবং দাখিল করা প্রতিটি রেকর্ড একটি সংকেতে পরিণত হয় যা আপনার decision intelligence-এ ফিরে প্রবাহিত হয় - যাতে অপারেশন এবং অন্তর্দৃষ্টি একটি সিস্টেম ভাগ করে নেয়।"
+          },
+          {
+            "title": "Crew কী করতে পারে?",
+            "content": "**পাঁচটি সংযুক্ত মডিউল:**\n\n1. **Scheduling** - যোগ্যতা যাচাই এবং একটি AI বিল্ডার সহ চাহিদা-সচেতন শিফট পরিকল্পনা\n2. **সময় ও উপস্থিতি** - ক্লক-ইন/আউট, জিওফেন্সিং, বিরতি সত্যায়ন এবং টাইমশিট অনুমোদন\n3. **Payroll** - বহু-অঞ্চল পেরোল প্রস্তুতি এবং বিধিবদ্ধ রপ্তানি (প্রস্তুতি ও রপ্তানি, কোনো কর ইঞ্জিন নয়)\n4. **মানুষ ও HR** - নিয়োগ থেকে অবসর পর্যন্ত কর্মচারীদের রেকর্ড এবং নথি\n5. **People Intelligence** - কর্মীবাহিনী বিশ্লেষণ, নো-শো ঝুঁকি এবং শ্রম-খরচের প্রবণতা"
+          },
+          {
+            "title": "Crew পেরোল কোন অঞ্চলগুলি সমর্থন করে?",
+            "content": "Crew-এর পেরোল প্রস্তুতি এবং বিধিবদ্ধ রপ্তানি বর্তমানে **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **যুক্তরাষ্ট্র** (ফেডারেল এবং সমস্ত অঙ্গরাজ্য), **কানাডা**, **যুক্তরাজ্য** এবং **ইউরোপীয় ইউনিয়ন** (সমস্ত 27টি সদস্য রাষ্ট্র) কভার করে। লাতিন আমেরিকা এবং APAC রোডম্যাপে রয়েছে। Crew পেরোল প্রস্তুত এবং রপ্তানি করে - এটি কোনো কর ইঞ্জিন নয়, এবং বিধিবদ্ধ নিয়মগুলি সংস্করণকৃত দেশ প্যাক থেকে আসে।"
+          },
+          {
+            "title": "Crew ব্যবহার করতে কি আমার Core দরকার?",
+            "content": "না। Crew আপনার অপারেশনাল সিস্টেম হিসেবে একা চলতে পারে, অথবা Core-এর পাশাপাশি চলতে পারে যাতে এর সংকেত Labor Intelligence, Pulse এবং Foresight-কে সরবরাহ করে। আপনি আপনার নিজের HR বা পেরোল প্রদানকারীও আনতে পারেন - Crew নকশা অনুযায়ী ঐচ্ছিক।"
+          },
+          {
+            "title": "Crew-র খরচ কত?",
+            "content": "**Crew SKU (নির্দিষ্ট মাসিক, প্রতি আউটলেটে কোনো চার্জ নেই):**\n\n{{CREW_SKU_LINES}}\n\n**বান্ডল (প্রতিটির নিজস্ব নিট দাম - ভেতরের SKU-র ওপর ছাড় নয়):**\n\n{{CREW_BUNDLE_LINES}}\n\nনির্ভুল হিসাবের জন্য pricing.sundae.io ব্যবহার করুন।"
+          }
+        ]
       }
     ],
     "th": [
@@ -5294,20 +5710,20 @@ export const generatedLocalCopy = {
             "content": "Sundae เป็นแพลตฟอร์มการวิเคราะห์การตัดสินใจสำหรับร้านอาหารและทีมงานด้านการบริการ มันรวบรวมข้อมูลการดำเนินงานที่กระจัดกระจายมาไว้ในที่เดียว เพื่อให้ผู้นำสามารถเห็นสิ่งที่เกิดขึ้น สิ่งที่กำลังเปลี่ยนแปลง และที่ที่ควรดำเนินการต่อไป."
           },
           {
-            "title": "ฉันจะเริ่มต้นได้อย่างไร?",
-            "content": "คุณมีสามตัวเลือก:\n\n1. **เริ่มต้นฟรี** - ลงทะเบียนสำหรับ Report Lite (ฟรีตลอดไป) และอัปโหลดข้อมูลการดำเนินงานของคุณเพื่อดูการเปรียบเทียบทันที ไม่ต้องใช้บัตรเครดิต.\n\n2. **ดูราคา** - ใช้เครื่องคำนวณราคาที่โต้ตอบได้ที่ pricing.sundae.io เพื่อดูราคาที่แน่นอนสำหรับการดำเนินงานของคุณ.\n\n3. **จองการสาธิต** - นัดหมายการสาธิต 15 นาที กับทีมงานของเราเพื่อดู Sundae ในการใช้งานกับข้อมูลของคุณ."
+            "title": "ฉันจะเริ่มอย่างไร",
+            "content": "คุณมีสองทางเลือก\n\n1. **ดูราคาของคุณ** - ใช้เครื่องคำนวณแบบโต้ตอบที่ pricing.sundae.io เพื่อจัดขนาดแพ็กเกจ Core ตามจำนวนสาขาของคุณ\n\n2. **จองเดโม** - นัดชมแบบ 15 นาทีกับทีมงาน และดู Sundae ทำงานบนข้อมูลจริงของคุณ"
           },
           {
-            "title": "มีระดับฟรีจริงหรือ?",
-            "content": "ใช่. Report Lite ฟรีตลอดไป อัปโหลดข้อมูล POS ของคุณและรับการเปรียบเทียบทันทีตาม 5 เมตริกหลัก นโยบายการใช้งานที่เป็นธรรมใช้สำหรับการใช้งานที่เหมาะสม."
+            "title": "มีแพ็กเกจฟรีไหม",
+            "content": "ไม่มี ทุกแพ็กเกจของ Sundae มีค่าใช้จ่าย โดยคิดตั้งแต่สาขาแรก สิ่งที่เรามีให้คือเซสชันทำงานบนตัวเลขของคุณเองก่อนตัดสินใจ เพื่อให้คุณเห็นผลตอบแทนก่อนเซ็นอะไรทั้งสิ้น"
           },
           {
-            "title": "ความแตกต่างระหว่าง Report และ Core คืออะไร?",
-            "content": "**ระดับ Report** = การวิเคราะห์ประวัติศาสตร์ (ข้อมูล POS)\n• อัปโหลดข้อมูล POS ทุกวัน สัปดาห์ หรือเดือน\n• วิเคราะห์สิ่งที่เกิดขึ้น\n• เปรียบเทียบกับเพื่อนร่วมงาน\n• เหมาะสำหรับสถานที่เดียวหรือการพิสูจน์แนวคิด\n\n**ระดับ Core** = การดำเนินงานแบบเรียลไทม์ (POS + ทุกระบบ)\n• รอบการรีเฟรช 2-4 ชั่วโมง\n• รวมข้อมูล POS + แรงงาน + สินค้าคงคลัง + การตลาด + การจอง\n• ดูสิ่งที่เกิดขึ้นในขณะนี้\n• รับการแจ้งเตือนเชิงพยากรณ์\n• เหมาะสำหรับผู้ดำเนินการหลายสถานที่\n\nความแตกต่างที่สำคัญ: Report = POS เท่านั้น. Core = POS บวกกับส่วนที่เหลือของสแต็คของคุณ."
+            "title": "แพ็กเกจ Core ต่างกันอย่างไร",
+            "content": "**Core Foundation** - พื้นฐานการดำเนินงาน ฐานการตัดสินใจเดียวครอบคลุม POS แรงงาน ต้นทุน และการปฏิบัติงาน\n\n**Core Margin** - เจาะลึกต้นทุนและการรั่วไหล ปริมาณตามทฤษฎีเทียบกับที่ใช้จริง ของเสีย ของขาด การยกเลิกและการให้ฟรี กำไรส่วนเพิ่มรายเมนู\n\n**Core Growth** - เจาะลึกด้านอุปสงค์ กลุ่มลูกค้าและมูลค่าตลอดช่วงชีวิต การระบุผลโปรโมชันรายช่องทาง กำไรเดลิเวอรีหลังหักค่าคอมมิชชัน\n\n**Core Performance** - รวมข้อมูลข้ามแบรนด์และข้ามภูมิภาค การเชื่อมโยงข้ามโมดูล การเข้าถึงที่กำกับดูแลพร้อมร่องรอยการตรวจสอบ\n\nทั้งสี่แพ็กเกจมีสิบเอ็ดโมดูลเดียวกัน สิ่งที่ต่างคือความลึก"
           },
           {
-            "title": "ฉันต้องการสัญญาระยะยาวหรือไม่?",
-            "content": "ไม่. ระดับ Report และ Core เป็นรายเดือน ยกเลิกได้ทุกเมื่อโดยไม่มีค่าปรับ การใช้งานในระดับองค์กรมักใช้ข้อตกลงรายปีที่มีเงื่อนไขที่กำหนดเอง."
+            "title": "ต้องทำสัญญาระยะยาวไหม",
+            "content": "ไม่ต้อง ทุกแพ็กเกจใช้แบบรายเดือนได้และยกเลิกได้โดยไม่มีค่าปรับ สัญญารายปีและสองปีมีไว้เพราะราคาถูกกว่า - ลด 10% และ 15% - ไม่ใช่เพราะบังคับ"
           }
         ]
       },
@@ -5316,20 +5732,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Sundae มีผลิตภัณฑ์อะไรบ้าง?",
-            "content": "**ผลิตภัณฑ์หลักสามรายการ:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - การวิเคราะห์ประวัติและการเปรียบเทียบ\n2. **Sundae Core** (Lite / Pro / Enterprise) - การดำเนินงานแบบเรียลไทม์และปัญญาเชิงพยากรณ์\n3. **Watchtower** (Competitive / Event / Market) - ข้อมูลเชิงลึกเกี่ยวกับตลาดภายนอก\n\n**เพิ่มเติม:**\n\n4. **Modules** - ข้อมูลเชิงลึกเกี่ยวกับแรงงาน, สินค้าคงคลัง, การจัดซื้อ, การตลาด, และการจอง."
+            "title": "Sundae มีผลิตภัณฑ์อะไรบ้าง",
+            "content": "**สี่ผลิตภัณฑ์หลัก**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - ฐานการตัดสินใจ ซึ่งมีโมดูลทั้งสิบเอ็ดด้านครบ\n2. **Foresight & Action** - การพยากรณ์ การจำลองสถานการณ์ และชั้นการลงมือที่มีคนอนุมัติ\n3. **Sundae Crew** - ฐานกำลังคน จัดตาราง ลงเวลา เตรียมจ่ายเงินเดือน งานบุคคล และ people intelligence\n4. **Watchtower** - ข้อมูลตลาดภายนอก กำหนดขอบเขตไปพร้อมแพ็กเกจ Core ของคุณ\n\n**และเพิ่มเติม** SKU เฉพาะรูปแบบธุรกิจที่กลุ่มของคุณทำ ทั้งแฟรนไชส์ อาหารในโรงแรม คลาวด์คิทเช่น จัดเลี้ยง การผลิต และครัวกลางให้เช่า"
           },
           {
-            "title": "ควรเลือกระดับไหน?",
-            "content": "**เริ่มต้นด้วย Report Lite หาก:**\n• คุณกำลังทดสอบ Sundae\n• คุณมีสถานที่ 1-2 แห่ง\n• การรายงานรายวันหรือรายสัปดาห์เพียงพอแล้ว\n\n**อัปเกรดเป็น Report Plus หรือ Pro หาก:**\n• คุณต้องการข้อมูลเชิงลึกทางประวัติศาสตร์ที่ลึกซึ้งกว่า\n• การรายงานรายวันยังคงเพียงพอ\n\n**เลือก Core Lite หรือ Pro หาก:**\n• คุณมีสถานที่ 10 แห่งขึ้นไป\n• คุณต้องการความเร็วในการดำเนินงาน\n• การติดตามงบประมาณแบบเรียลไทม์มีความสำคัญ\n\n**เลือก Enterprise หาก:**\n• คุณมีสถานที่ 100 แห่งขึ้นไป\n• คุณต้องการ SSO หรือความสามารถในการทำแบรนด์ส่วนตัว\n• คุณต้องการการสนับสนุนเฉพาะและเงื่อนไขที่กำหนดเอง"
+            "title": "ฉันควรเลือกแพ็กเกจ Core ไหน",
+            "content": "**เลือก Core Foundation ถ้า**\n• คุณกำลังเลิกใช้สเปรดชีตและแดชบอร์ดที่ไม่เชื่อมกัน\n• คุณอยากได้ภาพการดำเนินงานภาพเดียวก่อนลงลึก\n\n**เลือก Core Margin ถ้า**\n• ต้นทุนวัตถุดิบ ของเสีย การยกเลิก หรือการให้ฟรี กำลังกินกำไรคุณ\n• คุณต้องการกำไรส่วนเพิ่มรายเมนู ไม่ใช่แค่สัดส่วนยอดขาย\n\n**เลือก Core Growth ถ้า**\n• รายได้จากลูกค้าเดิมและสัดส่วนช่องทางคือข้อจำกัด\n• คุณต้องการกลุ่มลูกค้า การระบุผลโปรโมชัน และกำไรเดลิเวอรี\n\n**เลือก Core Performance ถ้า**\n• คุณทำหลายแบรนด์หรือหลายตลาด\n• คุณต้องการการรวมข้อมูล การเชื่อมโยงข้ามโมดูล และการเข้าถึงที่กำกับดูแล"
           },
           {
             "title": "สามารถอัปเกรดหรือลดระดับในภายหลังได้ไหม?",
             "content": "ใช่ คุณสามารถเปลี่ยนระดับได้ตลอดเวลา ข้อมูลประวัติจะถูกเก็บรักษาไว้และไม่มีการลงโทษสำหรับการเปลี่ยนแผน."
           },
           {
-            "title": "โมเดลปัญญา 4D คืออะไร?",
-            "content": "กรอบการทำงานของ Sundae สำหรับปัญญาการตัดสินใจ:\n\n**1D: เกิดอะไรขึ้น** - ข้อมูลเกี่ยวกับยอดขาย, แรงงาน, และต้นทุน\n**2D: แผนกับจริง** - ความแตกต่างระหว่างงบประมาณและการคาดการณ์\n**3D: บริบทตลาด** - มาตรฐาน, เพื่อนร่วมอุตสาหกรรม, และคู่แข่ง\n**4D: อะไรต่อไป** - การคาดการณ์และคำแนะนำ\n\n**Report:** เข้าถึง 1D และ 2D เต็มรูปแบบพร้อม 3D และ 4D ที่จำกัด\n**Core:** เข้าถึงเต็มรูปแบบในทุกมิติทั้ง 4"
+            "title": "โมเดล 4D Intelligence คืออะไร",
+            "content": "กรอบการทำงานของ Sundae สำหรับปัญญาการตัดสินใจ\n\n**1D: เกิดอะไรขึ้น** - ความจริงเรื่องยอดขาย แรงงาน และต้นทุน\n**2D: แผนเทียบผลจริง** - ส่วนต่างจากงบประมาณและการพยากรณ์\n**3D: บริบทตลาด** - การเทียบเคียง คู่เทียบ และคู่แข่ง\n**4D: อะไรจะเกิดต่อไป** - การคาดการณ์และข้อเสนอแนะ\n\nทุกแพ็กเกจ Core ครอบคลุมทั้งสี่ด้าน แพ็กเกจเป็นตัวกำหนดว่าแต่ละด้านลึกแค่ไหน"
           }
         ]
       },
@@ -5338,24 +5754,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Sundae ต้องการข้อมูลอะไร?",
-            "content": "**ขั้นต่ำสำหรับ Report Lite:**\n• ข้อมูลการขายจาก POS (การส่งออก CSV)\n\n**สำหรับ Core:**\n• ระบบ POS ผ่าน API\n• ระบบแรงงานหรือแรงงาน\n• ระบบสินค้าคงคลัง\n• แพลตฟอร์มการตลาด\n• ระบบการจอง\n\nReport ถูกสร้างขึ้นจากการอัปโหลด POS. Core คือที่ที่คุณเชื่อมต่อกับสแต็กการดำเนินงานที่กว้างขึ้น."
+            "title": "Sundae ต้องใช้ข้อมูลอะไรบ้าง",
+            "content": "**สำหรับทุกแพ็กเกจ Core**\n• ระบบ POS ผ่าน API\n• ระบบแรงงานหรือกำลังคน\n• ระบบสินค้าคงคลัง\n• แพลตฟอร์มการตลาด\n• ระบบการจอง\n\nแค่ POS อย่างเดียวก็สร้างคุณค่าได้ตั้งแต่วันแรก ส่วนที่เหลือจะทำให้ภาพชัดขึ้นเมื่อคุณเชื่อมต่อเพิ่ม"
           },
           {
-            "title": "ฉันจะนำข้อมูลของฉันเข้าสู่ Sundae ได้อย่างไร?",
-            "content": "**Report Lite:** การอัปโหลด CSV ด้วยตนเอง\n\n**Report Plus:** อัปโหลด PDF, ไฟล์ Excel หรือภาพหน้าจอ. Sundae จะดึงข้อมูลและคุณจะตรวจสอบก่อนการประมวลผล.\n\n**Report Pro และ Core:** การนำเข้าที่อัตโนมัติผ่านการเชื่อมต่อ API"
+            "title": "ข้อมูลของฉันเข้าสู่ Sundae อย่างไร",
+            "content": "ผ่านการเชื่อมต่อ API กับ POS และระบบปฏิบัติการอื่น ๆ ของคุณ หากระบบใดไม่มี API Sundae รับไฟล์แบบมีโครงสร้างและไฟล์อัปโหลดที่อ่านอัตโนมัติ ทั้ง PDF Excel และภาพหน้าจอ โดยคุณตรวจสอบก่อนประมวลผล"
           },
           {
             "title": "คุณรวมระบบ POS อะไรบ้าง?",
             "content": "Sundae รองรับ **4 แพลตฟอร์ม POS** ที่มีตัวเชื่อมสด: Oracle MICROS Simphony, Square, Toast และ Clover. เรายังรองรับ **ตัวเชื่อมฐานข้อมูลโดยตรง** สำหรับ PostgreSQL และ SQL Server / Azure SQL เมื่อระบบ POS เปิดเผยการเข้าถึงฐานข้อมูล.\n\nนอกเหนือจาก POS, เครื่องยนต์การรวม **12 โดเมน** ของ Sundae เชื่อมต่อกับผู้ขายกว่า 30 รายในด้านแรงงาน, สินค้าคงคลัง, การจอง, การจัดส่ง, การตลาด, ประสบการณ์แขก, CRM และบัญชี.\n\nหากคุณไม่เห็นระบบของคุณในรายการ, ระดับ Enterprise สามารถรวมงานการรวมที่กำหนดเองและการนำเข้าผ่าน webhook."
           },
           {
-            "title": "ฉันสามารถใช้ Sundae กับระบบ POS หลายระบบได้หรือไม่?",
-            "content": "**Core Lite:** ดีที่สุดเมื่อทุกสถานที่ใช้ POS เดียว\n\n**Core Pro และ Enterprise:** ใช่. ระบบ POS ที่แตกต่างกันในแต่ละสถานที่ได้รับการสนับสนุน, และ Sundae จะทำให้ข้อมูลเป็นมาตรฐานเพื่อการเปรียบเทียบที่เท่าเทียมกัน.\n\n**Report:** POS ใด ๆ ก็ทำงานได้เพราะการอัปโหลดเป็นแบบแมนนวล."
+            "title": "ฉันใช้ Sundae กับ POS หลายระบบได้ไหม",
+            "content": "ได้ Sundae เชื่อมต่อกับสภาพแวดล้อม POS ที่ผสมกันและปรับข้อมูลให้เป็นมาตรฐานเดียวเพื่อเทียบกันอย่างเป็นธรรม Core Performance เพิ่มการรวมข้อมูลข้ามแบรนด์และข้ามภูมิภาคเข้าไปอีกชั้น"
           },
           {
-            "title": "การดำเนินการใช้เวลานานเท่าใด?",
-            "content": "**Report Lite:** ทันทีหลังจากการอัปโหลด\n**Report Plus / Pro:** 1-2 วัน\n**Core Lite / Pro:** 1-2 สัปดาห์\n**Enterprise:** 2-4 สัปดาห์ขึ้นอยู่กับขอบเขต"
+            "title": "การติดตั้งใช้เวลานานแค่ไหน",
+            "content": "กลุ่มธุรกิจส่วนใหญ่เริ่มใช้งานได้ใน 1-2 สัปดาห์ การเปิดใช้ที่ใหญ่กว่าแบบหลายแบรนด์หรือหลายภูมิภาคใช้เวลา 2-4 สัปดาห์ ขึ้นกับขอบเขต\n\nค่าติดตั้งเป็นค่าใช้จ่ายครั้งเดียว เรียกเก็บครั้งเดียวตามระดับสูงสุดในรายการที่คุณเลือก ตั้งแต่แบบบริการตนเองที่ไม่มีค่าใช้จ่าย ไปจนถึงงาน Class D ที่กำหนดขอบเขตไว้"
           },
           {
             "title": "จะเกิดอะไรขึ้นกับข้อมูลของฉันหากฉันยกเลิก?",
@@ -5368,28 +5784,28 @@ export const generatedLocalCopy = {
         "icon": "network",
         "faqs": [
           {
-            "title": "โมดูลคืออะไร?",
-            "content": "โมดูลคือส่วนเสริมด้านปัญญาที่เชี่ยวชาญสำหรับ Core:\n\n1. **ปัญญาด้านแรงงาน** - การจัดตารางเวลา ผลผลิต และการทำงานล่วงเวลา\n2. **ปัญญาด้านสินค้าคงคลัง** - การสูญเสีย ระดับสต็อก และการมองเห็นสต็อก\n3. **ปัญญาด้านการจัดซื้อ** - การเปรียบเทียบผู้ขายและการใช้ประโยชน์จากสัญญา\n4. **ปัญญาด้านการตลาด** - ROI, CAC และประสิทธิภาพของช่องทาง\n5. **ปัญญาด้านการจอง** - การคาดการณ์การไม่มาและการเพิ่มประสิทธิภาพโต๊ะ\n\nโมดูลต้องการ Core เพราะพวกเขาขึ้นอยู่กับข้อมูลการดำเนินงานที่เชื่อมต่อแบบเรียลไทม์."
+            "title": "โมดูลคืออะไร",
+            "content": "โมดูลด้านงานทั้งสิบเอ็ดคือพื้นที่วิเคราะห์ภายใน Core เป็นองค์ประกอบของแพ็กเกจ ไม่ใช่ส่วนเสริมที่ซื้อแยก\n\n{{DOMAIN_MODULE_LINES}}\n\nโมดูลเหล่านี้ต้องใช้ Core เพราะพึ่งพาข้อมูลการดำเนินงานที่เชื่อมต่อแบบสด"
           },
           {
-            "title": "ฉันต้องการโมดูลหรือไม่?",
-            "content": "ไม่. โมดูลเป็นทางเลือก เสริมเมื่อคุณต้องการการครอบคลุมที่ลึกซึ้งในพื้นที่การดำเนินงานเฉพาะ.\n\n**เส้นทาง:**\n• บน Report -> อัปเกรดเป็น Core ก่อน\n• บน Core -> เพิ่มโมดูลเมื่อความต้องการชัดเจน"
+            "title": "ฉันจำเป็นต้องมีโมดูลไหม",
+            "content": "ไม่ใช่ตัวเลือกเสริมและไม่ใช่การซื้อแยก โมดูลด้านงานทั้งสิบเอ็ดมาพร้อมทุกแพ็กเกจ Core\n\nสิ่งที่คุณเลือกคือแพ็กเกจ และแพ็กเกจเป็นตัวกำหนดว่าแต่ละโมดูลลึกแค่ไหน"
           },
           {
-            "title": "ฉันต้องการ Core สำหรับโมดูลหรือไม่?",
-            "content": "ใช่. โมดูลต้องการ Core Lite, Core Pro หรือ Enterprise.\n\nพวกเขาขึ้นอยู่กับการเชื่อมต่อแบบเรียลไทม์กับแรงงาน สินค้าคงคลัง การตลาด การจอง และระบบอื่น ๆ ที่ Report ไม่เชื่อมต่อโดยตรง."
+            "title": "ซื้อโมดูลเดียวได้ไหม",
+            "content": "ไม่ได้ โมดูลด้านงานทั้งสิบเอ็ดเป็นองค์ประกอบของแพ็กเกจ Core ไม่ใช่ผลิตภัณฑ์เดี่ยว และไม่มีราคาต่อโมดูล การเลือกแพ็กเกจคือวิธีที่จะได้ครบทุกโมดูล"
           },
           {
-            "title": "ฉันสามารถเพิ่มโมดูลหลายตัวได้หรือไม่?",
-            "content": "ใช่. ผสมและจับคู่โมดูลทั้งห้าตัว ไม่มีข้อกำหนดในการซื้อทั้งหมดพร้อมกัน."
+            "title": "ต้องเพิ่มโมดูลทีละตัวไหม",
+            "content": "ไม่ต้อง ไม่มีอะไรให้เพิ่ม ทุกแพ็กเกจ Core มีโมดูลด้านงานครบสิบเอ็ดตั้งแต่วันแรก แพ็กเกจที่คุณเลือกเป็นเพียงตัวกำหนดความลึกของแต่ละโมดูล"
           },
           {
-            "title": "ฉันควรเลือกโมดูลไหนก่อน?",
-            "content": "เริ่มจากจุดเจ็บปวดในการดำเนินงานที่ใหญ่ที่สุด:\n\n• ต้นทุนแรงงานสูง -> ปัญญาด้านแรงงาน\n• ปัญหาการสูญเสียหรือสต็อก -> ปัญญาด้านสินค้าคงคลัง\n• การใช้ประโยชน์จากผู้ขายอ่อนแอ -> ปัญญาด้านการจัดซื้อ\n• ROI การตลาดไม่ชัดเจน -> ปัญญาด้านการตลาด\n• การไม่มาจอง -> ปัญญาด้านการจอง"
+            "title": "ควรเริ่มดูโมดูลไหนก่อน",
+            "content": "ทุกโมดูลเปิดใช้อยู่แล้ว คำถามจึงอยู่ที่ว่าจะเริ่มดูตรงไหน ไม่ใช่จะซื้ออะไร เริ่มจากจุดที่เจ็บที่สุดในการดำเนินงาน\n\n• ต้นทุนแรงงานสูง -> Labor Intelligence\n• ของเสียหรือปัญหาสต๊อก -> Inventory Intelligence\n• อำนาจต่อรองกับซัพพลายเออร์น้อย -> Purchasing Intelligence\n• ผลตอบแทนการตลาดไม่ชัด -> Marketing Intelligence\n• ลูกค้าจองแล้วไม่มา -> Reservations Intelligence"
           },
           {
-            "title": "การกำหนดราคาโมดูลทำงานอย่างไร?",
-            "content": "แต่ละโมดูลรวมถึงใบอนุญาตองค์กรที่ครอบคลุมสถานที่แรก 5 แห่ง พร้อมกับราคาสถานที่เพิ่มเติมเกินกว่าขีดจำกัดนั้น.\n\nตัวอย่าง: 8 สถานที่ที่มีปัญญาด้านแรงงาน = ใบอนุญาตองค์กร 1 ใบ + สถานที่เพิ่มเติม 3 แห่ง.\n\nใช้ pricing.sundae.io สำหรับการคำนวณแผนที่แน่นอน."
+            "title": "ราคาโมดูลคิดอย่างไร",
+            "content": "ไม่มีการคิดราคาต่อโมดูล โมดูลไม่มีราคาของตัวเองและไม่มีโควตาสาขาของตัวเอง สิ่งที่คุณซื้อคือแพ็กเกจ\n\nแพ็กเกจ Core คิดจากสาขาแรกของคุณ จากนั้นคิดอัตราส่วนเพิ่มต่อสาขาถัดไป ซึ่งจะลดลงเมื่อคุณขยายมากขึ้น {{WORKED_EXAMPLE}}\n\nดูการคำนวณที่แม่นยำได้ที่ pricing.sundae.io"
           }
         ]
       },
@@ -5414,8 +5830,8 @@ export const generatedLocalCopy = {
             "content": "ได้ คุณสามารถซื้อข้อมูลเชิงการแข่งขัน ข้อมูลเหตุการณ์ หรือข้อมูลตลาดแยกกันได้ หรือรวมกันก็ได้."
           },
           {
-            "title": "Watchtower ต้องการ Core หรือไม่?",
-            "content": "ใช่ Watchtower ทำงานได้ดีที่สุดเมื่อสัญญาณตลาดถูกซ้อนทับโดยตรงกับข้อมูลการดำเนินงานสด ซึ่งเป็นสิ่งที่ Core ให้บริการ\n\nหากคุณต้องการเพียงการวิเคราะห์ POS ประวัติศาสตร์ที่อัปโหลด Report ก็เพียงพอ หากคุณต้องการบริบทตลาดที่เชื่อมโยงกับการดำเนินงานประจำวัน ให้ย้ายไปที่ Core."
+            "title": "Watchtower ต้องใช้ Core ไหม",
+            "content": "ต้องใช้ Watchtower ให้ผลดีที่สุดเมื่อสัญญาณตลาดถูกวางทับบนข้อมูลการดำเนินงานแบบสด ซึ่งเป็นสิ่งที่แพ็กเกจ Core มอบให้ โดยจะกำหนดขอบเขตและเสนอราคาไปพร้อมแพ็กเกจของคุณ แทนที่จะขายแยก"
           }
         ]
       },
@@ -5424,8 +5840,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Sundae มีค่าใช้จ่ายเท่าไหร่?",
-            "content": "ราคา ขึ้นอยู่กับ:\n• Report vs Core\n• จำนวนสถานที่\n• โมดูลที่เลือก\n• ว่ามี Watchtower รวมอยู่ด้วยหรือไม่\n\n**Report Lite:** ฟรีตลอดไป\n\nสำหรับราคาที่แน่นอน โปรดใช้ pricing.sundae.io."
+            "title": "Sundae ราคาเท่าไร",
+            "content": "ราคาขึ้นอยู่กับ\n• เลือกแพ็กเกจ Core ใด\n• จำนวนสาขา\n• รวม Foresight & Action, Crew หรือ SKU เฉพาะรูปแบบธุรกิจหรือไม่\n\nแพ็กเกจ Core คิดจากราคาตั้งต้นของสาขาแรก บวกอัตราส่วนเพิ่มต่อสาขาถัดไป ซึ่งลดลงเมื่อคุณขยายมากขึ้น Core Foundation เริ่มต้นที่ {{FOUNDATION_FIRST_UNIT}} สำหรับสาขาแรกของคุณ\n\nสำหรับราคาที่แม่นยำ ใช้ pricing.sundae.io"
           },
           {
             "title": "มีค่าธรรมเนียมการตั้งค่าหรือไม่?",
@@ -5450,20 +5866,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "เครดิตอัจฉริยะทำงานอย่างไร?",
-            "content": "เครดิตอัจฉริยะใช้สำหรับคำถาม การวิเคราะห์ และคำแนะนำ\n\n**Report Lite:** 250 เบส + 80 ต่อสถานที่\n**Report Plus:** 1,200 เบส + 300 ต่อสถานที่\n**Report Pro:** 3,500 เบส + 800 ต่อสถานที่\n**Core Lite:** 8,000 เบส + 1,600 ต่อสถานที่\n**Core Pro:** 14,000 เบส + 2,800 ต่อสถานที่\n**Enterprise:** 50,000+ เบส + การจัดสรรที่กำหนดเอง"
+            "title": "เครดิตอัจฉริยะทำงานอย่างไร",
+            "content": "เครดิตอัจฉริยะขับเคลื่อนคำถาม การวิเคราะห์ และข้อเสนอแนะ ทุกแพ็กเกจ Core มีวงเงินรายเดือน\n\n{{AI_WALLET_LINES}}\n\nหากใช้หมด สามารถเติมเพิ่มได้ในทุกแพ็กเกจ"
           },
           {
-            "title": "ฉันจะได้รับการเข้าถึงข้อมูลย้อนหลังมากแค่ไหน?",
-            "content": "**Report Lite:** 90 วัน\n**Report Plus:** 1 ปี\n**Report Pro:** 2 ปี\n**Core Lite:** 2 ปี\n**Core Pro:** 3 ปี\n**Enterprise:** 5+ ปี หรือการเก็บรักษาที่กำหนดเอง"
+            "title": "ฉันดูข้อมูลย้อนหลังได้แค่ไหน",
+            "content": "ทุกแพ็กเกจ Core เก็บประวัติที่เชื่อมต่อไว้ทั้งหมด โดยเก็บรักษาข้ามหลายปี ข้อตกลง Enterprise สามารถขยายได้ตามเงื่อนไขเฉพาะ"
           },
           {
-            "title": "ข้อมูลจะรีเฟรชบ่อยแค่ไหน?",
-            "content": "**Report Lite:** อัปโหลดด้วยตนเอง\n**Report Plus:** อัปโหลดด้วยตนเองหรือประมวลผลอัจฉริยะตามความต้องการ\n**Report Pro:** รีเฟรชอัตโนมัติทุกวัน\n**Core Lite:** ทุก 4 ชั่วโมง\n**Core Pro:** ทุก 2 ชั่วโมง\n**Enterprise:** จังหวะที่กำหนดเอง รวมถึงเรียลไทม์เมื่อกำหนดขอบเขต"
+            "title": "ข้อมูลรีเฟรชบ่อยแค่ไหน",
+            "content": "Core รีเฟรชระหว่างกะแทนที่จะรอสิ้นวัน เพื่อให้ Pulse และโมดูลต่าง ๆ ขยับตอนที่คุณยังลงมือแก้ได้ ความถี่ที่แน่นอนขึ้นอยู่กับสิ่งที่ระบบซึ่งคุณเชื่อมต่อเปิดให้"
           },
           {
-            "title": "ฉันจะได้รับแดชบอร์ดที่กำหนดเองหรือไม่?",
-            "content": "**ระดับรายงาน:** แดชบอร์ดที่สร้างไว้ล่วงหน้า\n**Core Lite:** สูงสุด 30 แดชบอร์ดที่กำหนดเอง\n**Core Pro:** สูงสุด 75 แดชบอร์ดที่กำหนดเอง\n**Enterprise:** แดชบอร์ดที่กำหนดเองไม่จำกัด."
+            "title": "ฉันได้แดชบอร์ดเฉพาะของตัวเองไหม",
+            "content": "ได้ ทุกแพ็กเกจ Core มีแดชบอร์ดที่ปรับแต่งได้ เพิ่มเติมจากมุมมองสำเร็จรูปที่มากับแต่ละโมดูล"
           }
         ]
       },
@@ -5472,12 +5888,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "ฉันจะได้รับการสนับสนุนอะไรบ้าง?",
-            "content": "**Report Lite:** การสนับสนุนทางอีเมล\n**Report Plus:** การสนับสนุนทางอีเมลและแชท\n**Report Pro:** การสนับสนุนลำดับความสำคัญ\n**Core Lite:** การสนับสนุนทางอีเมล แชท และโทรศัพท์\n**Core Pro:** การสนับสนุนทางโทรศัพท์ลำดับความสำคัญที่เร็วขึ้น\n**Enterprise:** การสนับสนุนตลอด 24 ชั่วโมง 7 วัน พร้อมผู้นำความสำเร็จของลูกค้าเฉพาะ"
+            "title": "ฉันได้รับการสนับสนุนแบบใด",
+            "content": "ทุกแพ็กเกจ Core มีการสนับสนุนทางอีเมล แชท และโทรศัพท์ ข้อตกลง Enterprise เพิ่มการดูแลตลอด 24 ชั่วโมง เวลาตอบกลับตามสัญญา และผู้ดูแลความสำเร็จลูกค้าโดยเฉพาะ"
           },
           {
-            "title": "คุณมีการฝึกอบรมหรือไม่?",
-            "content": "ใช่.\n\n**Report:** การเริ่มต้นใช้งานด้วยตนเองและเอกสารประกอบ\n**Core Lite:** การฝึกอบรมที่มีการแนะนำ\n**Core Pro:** โปรแกรมการฝึกอบรมที่กำหนดเอง\n**Enterprise:** การเริ่มต้นใช้งานและการสนับสนุนที่มีโครงสร้าง"
+            "title": "มีการฝึกอบรมไหม",
+            "content": "มี การฝึกอบรมเป็นส่วนหนึ่งของการติดตั้ง ซึ่งเรียกเก็บครั้งเดียวตามระดับสูงสุดในรายการที่คุณเลือก ตั้งแต่เอกสารแบบบริการตนเองที่ไม่มีค่าใช้จ่าย ไปจนถึงเซสชันแบบมีผู้แนะนำและการสร้างความพร้อมอย่างเป็นระบบในระดับที่สูงขึ้น"
           },
           {
             "title": "คุณสนับสนุนเขตเวลาที่ไหนบ้าง?",
@@ -5526,16 +5942,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Sundae แตกต่างจากรายงาน POS อย่างไร?",
-            "content": "**รายงาน POS:** ระบบเดียว, ข้อความจำกัด, การตีความด้วยมือ\n\n**Sundae Report:** การวิเคราะห์ POS พร้อมเกณฑ์มาตรฐาน, คำแนะนำ, และการตรวจจับรูปแบบ\n\n**Sundae Core:** ทุกอย่างใน Report พร้อมข้อมูลรวมจากแรงงาน, สินค้าคงคลัง, การตลาด, การจอง, และระบบอื่น ๆ ที่มีการรีเฟรชที่เร็วขึ้น"
+            "title": "Sundae ต่างจากรายงานของ POS อย่างไร",
+            "content": "**รายงาน POS** ระบบเดียว บริบทจำกัด ต้องตีความเอง\n\n**Sundae Core** วิเคราะห์ POS พร้อมการเทียบเคียง ข้อเสนอแนะ และการตรวจจับรูปแบบ ครอบคลุมแรงงาน ต้นทุน และลูกค้าในภาพการดำเนินงานเดียว\n\n**Foresight & Action** มุมมองไปข้างหน้าซ้อนอยู่ด้านบน ทั้งการพยากรณ์ สถานการณ์จำลอง และชั้นที่ลงมือทำกับสิ่งที่ค้นพบ"
           },
           {
             "title": "Sundae แตกต่างจาก Excel อย่างไร?",
             "content": "**Excel:** การป้อนข้อมูลด้วยมือ, การวิเคราะห์แบบคงที่, ไม่มีชั้นข้อมูลที่แชร์กัน\n\n**Sundae:** การนำเข้าที่อัตโนมัติ, การเปรียบเทียบที่มีโครงสร้าง, แดชบอร์ดสด, และคำแนะนำที่ลดเวลาการวิเคราะห์ด้วยมือทุกสัปดาห์"
           },
           {
-            "title": "ฉันสามารถประหยัดได้เท่าไหร่เมื่อเปรียบเทียบกับเครื่องมือวิเคราะห์เก่า?",
-            "content": "ผู้ดำเนินการมักรายงานว่ามีต้นทุนรวมที่ต่ำกว่ามากเพราะ Sundae ใช้การตั้งราคาแบบชั้นแทนที่จะเป็นการเรียกเก็บค่าธรรมเนียมต่อโมดูลและต่อสถานที่ การประหยัดที่แน่นอนขึ้นอยู่กับการผสมผสานเครื่องมือปัจจุบันและขอบเขตการดำเนินงานของคุณ."
+            "title": "เทียบกับเครื่องมือวิเคราะห์แบบเดิม ประหยัดได้เท่าไร",
+            "content": "ผู้ดำเนินการมักบอกว่าต้นทุนรวมต่ำลงอย่างเห็นได้ชัด เพราะแพ็กเกจ Core มีโมดูลครบสิบเอ็ดอยู่แล้ว แทนที่จะบวกค่าใช้จ่ายรายโมดูลและรายสาขาซ้อนกันไป ส่วนต่างที่แท้จริงขึ้นอยู่กับชุดเครื่องมือที่คุณใช้อยู่และขนาดการดำเนินงาน"
           }
         ]
       },
@@ -5544,8 +5960,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "ฉันมีสถานที่เดียว จะใช้ Sundae ได้ไหม?",
-            "content": "ใช่ เริ่มต้นด้วย Report Lite เพื่อการเปรียบเทียบฟรี จากนั้นย้ายไปยังระดับ Report ที่ลึกขึ้นหรือ Core หากการดำเนินงานของคุณต้องการความเร็วและข้อมูลเชิงลึกมากขึ้น."
+            "title": "ฉันมีสาขาเดียว Sundae ยังเหมาะอยู่ไหม",
+            "content": "เหมาะ สาขาเดียวรับเฉพาะราคาตั้งต้นของแพ็กเกจเท่านั้น และได้โมดูลครบสิบเอ็ดเท่ากับกลุ่มที่มีห้าสิบสาขา ช่วงราคาตามจำนวนสาขาจะเริ่มมีผลก็ต่อเมื่อคุณเพิ่มสาขา"
           },
           {
             "title": "ฉันเป็นแพลตฟอร์มแฟรนไชส์ Sundae สามารถช่วยได้ไหม?",
@@ -5560,6 +5976,32 @@ export const generatedLocalCopy = {
             "content": "ใช่ Watchtower และข้อมูลเชิงตลาดสามารถสนับสนุนการวิเคราะห์พื้นที่การค้า การตรวจสอบความหนาแน่น การติดตามการเคลื่อนไหวของคู่แข่ง และการจัดลำดับความสำคัญของพื้นที่ที่ไม่ได้รับบริการ."
           }
         ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Sundae Crew คืออะไร?",
+            "content": "Sundae Crew คือชุดการดำเนินงานที่บริหารบุคลากรของคุณ: การจัดตารางกะ การลงเวลาเข้าออก การเตรียมจ่ายเงินเดือน ระเบียนทรัพยากรบุคคล และการวิเคราะห์แรงงาน ทุกกะที่วางแผนไว้ ทุกชั่วโมงที่ลงเวลา และทุกระเบียนที่จัดเก็บจะกลายเป็นสัญญาณที่ไหลกลับเข้าสู่ decision intelligence ของคุณ - เพื่อให้การดำเนินงานและข้อมูลเชิงลึกใช้ระบบเดียวกัน"
+          },
+          {
+            "title": "Crew ทำอะไรได้บ้าง?",
+            "content": "**ห้าโมดูลที่เชื่อมโยงกัน:**\n\n1. **Scheduling** - การวางแผนกะที่รับรู้ความต้องการ พร้อมการตรวจสอบคุณสมบัติและตัวสร้างด้วย AI\n2. **การลงเวลาเข้าออก** - เข้า/ออกงาน การกำหนดขอบเขตพื้นที่ การรับรองการพัก และการอนุมัติใบลงเวลา\n3. **Payroll** - การเตรียมจ่ายเงินเดือนหลายภูมิภาคและการส่งออกตามกฎหมาย (การเตรียมและส่งออก ไม่ใช่เครื่องมือคำนวณภาษี)\n4. **บุคลากรและ HR** - ระเบียนและเอกสารพนักงานตั้งแต่รับเข้าจนถึงพ้นสภาพ\n5. **People Intelligence** - การวิเคราะห์แรงงาน ความเสี่ยงการขาดงาน และแนวโน้มต้นทุนแรงงาน"
+          },
+          {
+            "title": "Crew payroll รองรับภูมิภาคใดบ้าง?",
+            "content": "การเตรียมจ่ายเงินเดือนและการส่งออกตามกฎหมายของ Crew ปัจจุบันครอบคลุม **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **สหรัฐอเมริกา** (ระดับสหพันธรัฐและทุกรัฐ), **แคนาดา**, **สหราชอาณาจักร** และ **สหภาพยุโรป** (ทั้ง 27 ประเทศสมาชิก) ละตินอเมริกาและ APAC อยู่ในแผนงาน Crew เตรียมและส่งออกเงินเดือน - ไม่ใช่เครื่องมือคำนวณภาษี และกฎตามกฎหมายมาจากชุดกฎประเทศที่มีการกำหนดเวอร์ชัน"
+          },
+          {
+            "title": "ฉันต้องมี Core เพื่อใช้ Crew หรือไม่?",
+            "content": "ไม่ต้อง Crew สามารถทำงานได้ด้วยตัวเองในฐานะระบบการดำเนินงานของคุณ หรือทำงานควบคู่กับ Core เพื่อให้สัญญาณของมันป้อนเข้าสู่ Labor Intelligence, Pulse และ Foresight คุณยังสามารถนำผู้ให้บริการ HR หรือ payroll ของคุณเองมาใช้ได้ - Crew เป็นทางเลือกโดยการออกแบบ"
+          },
+          {
+            "title": "Crew ราคาเท่าไร",
+            "content": "**SKU ของ Crew (รายเดือนคงที่ ไม่คิดตามสาขา)**\n\n{{CREW_SKU_LINES}}\n\n**ชุดรวม (แต่ละชุดมีราคาสุทธิของตัวเอง ไม่ใช่ส่วนลดของ SKU ที่อยู่ข้างใน)**\n\n{{CREW_BUNDLE_LINES}}\n\nดูการคำนวณที่แม่นยำได้ที่ pricing.sundae.io"
+          }
+        ]
       }
     ],
     "ms": [
@@ -5572,20 +6014,20 @@ export const generatedLocalCopy = {
             "content": "Sundae adalah platform kecerdasan keputusan untuk restoran dan pasukan hospitaliti. Ia mengumpulkan data operasi yang tersebar ke dalam satu tempat supaya pemimpin dapat melihat apa yang berlaku, apa yang sedang berubah, dan di mana untuk bertindak seterusnya."
           },
           {
-            "title": "Bagaimana cara untuk memulakan?",
-            "content": "Anda mempunyai tiga pilihan:\n\n1. **Mula Percuma** - Daftar untuk Report Lite (percuma selamanya) dan muat naik data operasi anda untuk melihat penanda aras segera. Tiada kad kredit diperlukan.\n\n2. **Lihat Harga Anda** - Gunakan kalkulator harga interaktif kami di pricing.sundae.io untuk melihat harga tepat untuk operasi anda.\n\n3. **Tempah Demo** - Jadwalkan sesi 15 minit bersama pasukan kami untuk melihat Sundae beraksi dengan data anda."
+            "title": "Bagaimana saya bermula?",
+            "content": "Anda ada dua pilihan:\n\n1. **Lihat harga anda** - Gunakan kalkulator interaktif di pricing.sundae.io untuk menentukan pakej Core mengikut bilangan cawangan anda.\n\n2. **Tempah demo** - Aturkan sesi 15 minit bersama pasukan kami dan lihat Sundae berjalan atas data anda sendiri."
           },
           {
-            "title": "Adakah benar terdapat tahap percuma?",
-            "content": "Ya. Report Lite adalah percuma selamanya. Muat naik data POS anda dan dapatkan penanda aras segera terhadap 5 metrik utama. Dasar penggunaan adil dikenakan untuk penggunaan operasi yang munasabah."
+            "title": "Adakah peringkat percuma?",
+            "content": "Tidak. Setiap pakej Sundae berbayar, dikira bermula dari cawangan pertama. Apa yang kami tawarkan ialah sesi kerja atas angka anda sendiri sebelum anda komited, supaya anda nampak pulangan sebelum menandatangani apa-apa."
           },
           {
-            "title": "Apa perbezaan antara Report dan Core?",
-            "content": "**Tahap Report** = Analisis sejarah (data POS)\n• Muat naik data POS setiap hari, mingguan, atau bulanan\n• Analisis apa yang berlaku\n• Penanda aras terhadap rakan sebaya\n• Terbaik untuk lokasi tunggal atau bukti konsep\n\n**Tahap Core** = Operasi masa nyata (POS + semua sistem)\n• Kitaran penyegaran 2-4 jam\n• Mengintegrasikan POS + buruh + inventori + pemasaran + tempahan\n• Lihat apa yang sedang berlaku sekarang\n• Dapatkan amaran ramalan\n• Terbaik untuk pengendali pelbagai lokasi\n\nPerbezaan utama: Report = Hanya POS. Core = POS ditambah dengan seluruh tumpukan anda."
+            "title": "Apakah beza pakej-pakej Core?",
+            "content": "**Core Foundation** - asas operasi: satu substrat keputusan merentasi POS, tenaga kerja, kos dan operasi.\n\n**Core Margin** - kedalaman pada kos dan kebocoran: penggunaan teori berbanding sebenar, pembaziran, susut nilai, pembatalan dan komplimen, sumbangan setiap item.\n\n**Core Growth** - kedalaman pada permintaan: kohort tetamu dan nilai sepanjang hayat, atribusi promosi mengikut saluran, margin penghantaran selepas komisen.\n\n**Core Performance** - penyatuan merentasi jenama dan wilayah, korelasi antara modul, akses terurus dengan jejak audit.\n\nKeempat-empatnya membawa sebelas modul domain yang sama. Yang berubah ialah kedalamannya."
           },
           {
-            "title": "Adakah saya perlu kontrak jangka panjang?",
-            "content": "Tidak. Tahap Report dan Core adalah bulanan. Batalkan bila-bila masa tanpa penalti. Pelaksanaan perusahaan biasanya menggunakan perjanjian tahunan dengan terma khusus."
+            "title": "Perlukah kontrak jangka panjang?",
+            "content": "Tidak. Setiap pakej tersedia bulan ke bulan dan boleh dibatalkan tanpa penalti. Komitmen tahunan dan dua tahun wujud kerana ia lebih murah - diskaun 10% dan 15% - bukan kerana ia diwajibkan."
           }
         ]
       },
@@ -5594,20 +6036,20 @@ export const generatedLocalCopy = {
         "icon": "data",
         "faqs": [
           {
-            "title": "Produk apa yang ditawarkan oleh Sundae?",
-            "content": "**Tiga produk utama:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Analisis sejarah dan penanda aras\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operasi masa nyata dan kecerdasan ramalan\n3. **Watchtower** (Persaingan / Acara / Pasaran) - Kecerdasan pasaran luar\n\n**Tambahan:**\n\n4. **Modul** - Kecerdasan Tenaga Kerja, Inventori, Pembelian, Pemasaran, dan Tempahan."
+            "title": "Apakah produk yang ditawarkan Sundae?",
+            "content": "**Empat produk utama:**\n\n1. **Sundae Core** (Foundation / Margin / Growth / Performance) - substrat keputusan, membawa kesemua sebelas modul domain\n2. **Foresight & Action** - ramalan, pemodelan senario dan lapisan tindakan dengan kelulusan manusia\n3. **Sundae Crew** - substrat tenaga kerja: penjadualan, kehadiran, kesediaan gaji, HR dan people intelligence\n4. **Watchtower** - risikan pasaran luaran, diskopkan bersama pakej Core anda\n\n**Tambahan:** SKU konsep untuk model operasi kumpulan anda - francais, F&B hotel, cloud kitchen, katering, pengeluaran, dapur pusat sewa."
           },
           {
-            "title": "Tier mana yang patut saya pilih?",
-            "content": "**Mulakan dengan Report Lite jika:**\n• Anda sedang menguji Sundae\n• Anda mengendalikan 1-2 lokasi\n• Laporan harian atau mingguan sudah mencukupi\n\n**Tingkatkan kepada Report Plus atau Pro jika:**\n• Anda memerlukan kecerdasan sejarah yang lebih mendalam\n• Laporan harian masih mencukupi\n\n**Pilih Core Lite atau Pro jika:**\n• Anda mengendalikan 10+ lokasi\n• Anda memerlukan kelajuan operasi\n• Penjejakan bajet masa nyata adalah penting\n\n**Pilih Enterprise jika:**\n• Anda mempunyai 100+ lokasi\n• Anda memerlukan keupayaan SSO atau label putih\n• Anda memerlukan sokongan khusus dan terma yang disesuaikan"
+            "title": "Pakej Core yang mana patut saya pilih?",
+            "content": "**Core Foundation jika:**\n• Anda beralih daripada hamparan dan papan pemuka yang terpisah\n• Anda mahu satu gambaran operasi sebelum mendalami\n\n**Core Margin jika:**\n• Kos bahan, pembaziran, pembatalan atau komplimen memakan margin anda\n• Anda perlukan sumbangan setiap item, bukan sekadar campuran jualan\n\n**Core Growth jika:**\n• Hasil berulang dan campuran saluran menjadi kekangan\n• Anda perlukan kohort tetamu, atribusi promosi dan margin penghantaran\n\n**Core Performance jika:**\n• Anda mengendalikan beberapa jenama atau beberapa pasaran\n• Anda perlukan penyatuan, korelasi antara modul dan akses terurus"
           },
           {
             "title": "Bolehkah saya naik taraf atau turun taraf kemudian?",
             "content": "Ya. Anda boleh bergerak antara tier pada bila-bila masa. Data sejarah akan dipelihara dan tiada penalti untuk menukar pelan."
           },
           {
-            "title": "Apa itu Model Kecerdasan 4D?",
-            "content": "Kerangka Sundae untuk kecerdasan keputusan:\n\n**1D: Apa yang Berlaku** - Data jualan, tenaga kerja, dan kos\n**2D: Rancangan vs Sebenarnya** - Varians bajet dan ramalan\n**3D: Konteks Pasaran** - Penanda aras, rakan sebaya, dan pesaing\n**4D: Apa yang Seterusnya** - Ramalan dan cadangan\n\n**Report:** Akses penuh 1D dan 2D serta 3D dan 4D terhad\n**Core:** Akses penuh merentasi semua 4 dimensi."
+            "title": "Apakah model 4D Intelligence?",
+            "content": "Rangka kerja Sundae untuk kecerdasan keputusan:\n\n**1D: apa yang berlaku** - kebenaran jualan, tenaga kerja dan kos\n**2D: rancangan lawan sebenar** - sisihan belanjawan dan ramalan\n**3D: konteks pasaran** - penanda aras, rakan setara dan pesaing\n**4D: apa seterusnya** - ramalan dan cadangan\n\nSetiap pakej Core meliputi keempat-empatnya. Pakej menentukan sedalam mana setiap dimensi pergi."
           }
         ]
       },
@@ -5616,24 +6058,24 @@ export const generatedLocalCopy = {
         "icon": "integration",
         "faqs": [
           {
-            "title": "Data apa yang diperlukan oleh Sundae?",
-            "content": "**Minimum untuk Report Lite:**\n• Data jualan POS (ekspor CSV)\n\n**Untuk Core:**\n• Sistem POS melalui API\n• Sistem tenaga kerja\n• Sistem inventori\n• Platform pemasaran\n• Sistem tempahan\n\nReport dibina berdasarkan muat naik POS. Core adalah tempat anda menyambungkan tumpuan operasi yang lebih luas."
+            "title": "Data apakah yang diperlukan Sundae?",
+            "content": "**Untuk setiap pakej Core:**\n• Sistem POS melalui API\n• Sistem tenaga kerja atau penjadualan\n• Sistem inventori\n• Platform pemasaran\n• Sistem tempahan\n\nPOS sahaja sudah cukup untuk memberi nilai pada hari pertama. Selebihnya mendalamkan gambaran apabila anda menyambungkannya."
           },
           {
-            "title": "Bagaimana saya boleh memasukkan data saya ke dalam Sundae?",
-            "content": "**Report Lite:** Muat naik CSV secara manual\n\n**Report Plus:** Muat naik PDF, fail Excel, atau tangkapan skrin. Sundae mengekstrak data dan anda menyemaknya sebelum pemprosesan.\n\n**Report Pro dan Core:** Pengambilan automatik melalui sambungan API"
+            "title": "Bagaimana data saya masuk ke Sundae?",
+            "content": "Melalui sambungan API ke POS anda dan selebihnya timbunan operasi. Jika sesuatu sistem tiada API, Sundae menerima penghantaran fail berstruktur dan muat naik yang dibaca secara pintar - PDF, Excel, tangkapan skrin - yang anda semak sebelum diproses."
           },
           {
             "title": "Sistem POS apa yang anda integrasikan?",
             "content": "Sundae kini menyokong **4 platform POS** dengan penyesuai langsung: Oracle MICROS Simphony, Square, Toast, dan Clover. Kami juga menyokong **penyambung pangkalan data langsung** untuk PostgreSQL dan SQL Server / Azure SQL apabila sistem POS mendedahkan akses pangkalan data.\n\nDi luar POS, enjin integrasi **12-domain** Sundae menyambungkan kepada lebih 30 vendor dalam tenaga kerja, inventori, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, dan perakaunan.\n\nJika anda tidak melihat sistem anda disenaraikan, tahap Enterprise boleh termasuk kerja integrasi khusus dan pengambilan berasaskan webhook."
           },
           {
-            "title": "Bolehkah saya menggunakan Sundae dengan pelbagai sistem POS?",
-            "content": "**Core Lite:** Terbaik apabila semua lokasi menggunakan satu POS\n\n**Core Pro dan Enterprise:** Ya. Sistem POS yang berbeza di seluruh lokasi disokong, dan Sundae menormalkan data untuk perbandingan yang adil.\n\n**Report:** Mana-mana POS berfungsi kerana muat naik adalah manual."
+            "title": "Bolehkah saya guna Sundae dengan beberapa sistem POS?",
+            "content": "Boleh. Sundae menyambung merentasi persekitaran POS bercampur dan menormalkan data untuk perbandingan yang setara. Core Performance menambah penyatuan merentasi jenama dan wilayah di atasnya."
           },
           {
-            "title": "Berapa lama masa yang diambil untuk pelaksanaan?",
-            "content": "**Report Lite:** Segera selepas muat naik\n**Report Plus / Pro:** 1-2 hari\n**Core Lite / Pro:** 1-2 minggu\n**Enterprise:** 2-4 minggu bergantung kepada skop"
+            "title": "Berapa lama pelaksanaan mengambil masa?",
+            "content": "Kebanyakan kumpulan beroperasi dalam 1-2 minggu. Pelancaran lebih besar merentasi berbilang jenama atau wilayah mengambil 2-4 minggu bergantung pada skop.\n\nPelaksanaan ialah yuran sekali sahaja, dikenakan sekali pada kelas tertinggi dalam pilihan anda - daripada layan diri tanpa kos sehingga penglibatan Class D yang berskop."
           },
           {
             "title": "Apa yang berlaku kepada data saya jika saya membatalkan?",
@@ -5646,28 +6088,28 @@ export const generatedLocalCopy = {
         "icon": "network",
         "faqs": [
           {
-            "title": "Apakah itu modul?",
-            "content": "Modul adalah tambahan kecerdasan khusus untuk Core:\n\n1. **Kecerdasan Tenaga Kerja** - Penjadualan, produktiviti, dan kerja lebih masa\n2. **Kecerdasan Inventori** - Pembaziran, tahap simpanan, dan keterlihatan stok\n3. **Kecerdasan Pembelian** - Perbandingan vendor dan kelebihan kontrak\n4. **Kecerdasan Pemasaran** - ROI, CAC, dan prestasi saluran\n5. **Kecerdasan Tempahan** - Ramalan ketidakhadiran dan pengoptimuman meja\n\nModul memerlukan Core kerana ia bergantung kepada data operasi yang hidup dan disambungkan."
+            "title": "Apakah modul?",
+            "content": "Sebelas modul domain ialah permukaan analitik di dalam Core. Semuanya komponen pakej, bukan tambahan yang dibeli berasingan:\n\n{{DOMAIN_MODULE_LINES}}\n\nSemuanya memerlukan Core kerana bergantung pada data operasi yang bersambung secara langsung."
           },
           {
-            "title": "Adakah saya memerlukan modul?",
-            "content": "Tidak. Modul adalah pilihan. Tambahkan mereka apabila anda ingin mendapatkan liputan yang lebih mendalam dalam kawasan operasi tertentu.\n\n**Jalan:**\n• Pada Report -> tingkatkan kepada Core terlebih dahulu\n• Pada Core -> tambah modul bila keperluan jelas"
+            "title": "Adakah saya perlukan modul?",
+            "content": "Ia bukan pilihan dan bukan pembelian berasingan. Kesemua sebelas modul domain disertakan dengan setiap pakej Core.\n\nApa yang anda pilih ialah pakej, dan pakej menentukan sedalam mana setiap modul pergi."
           },
           {
-            "title": "Adakah saya memerlukan Core untuk modul?",
-            "content": "Ya. Modul memerlukan Core Lite, Core Pro, atau Enterprise.\n\nMereka bergantung kepada sambungan langsung kepada tenaga kerja, inventori, pemasaran, tempahan, dan sistem lain yang tidak disambungkan secara langsung oleh Report."
+            "title": "Bolehkah saya membeli satu modul sahaja?",
+            "content": "Tidak. Sebelas modul domain ialah komponen pakej Core, bukan produk berasingan, dan tiada harga bagi setiap modul. Memilih pakej ialah cara anda mendapat kesemuanya."
           },
           {
-            "title": "Bolehkah saya menambah beberapa modul?",
-            "content": "Ya. Campurkan dan padankan mana-mana daripada lima modul. Tiada keperluan untuk membeli kesemuanya bersama."
+            "title": "Adakah modul ditambah satu demi satu?",
+            "content": "Tidak. Tiada apa-apa untuk ditambah. Setiap pakej Core membawa kesemua sebelas modul domain dari hari pertama - pakej yang anda pilih hanya menentukan kedalaman setiap satu."
           },
           {
-            "title": "Modul manakah yang patut saya pilih terlebih dahulu?",
-            "content": "Mulakan dengan titik sakit operasi yang paling besar:\n\n• Kos tenaga kerja yang tinggi -> Kecerdasan Tenaga Kerja\n• Masalah pembaziran atau stok -> Kecerdasan Inventori\n• Kelemahan dalam leverage vendor -> Kecerdasan Pembelian\n• ROI pemasaran yang tidak jelas -> Kecerdasan Pemasaran\n• Ketidakhadiran tempahan -> Kecerdasan Tempahan"
+            "title": "Modul mana patut saya lihat dahulu?",
+            "content": "Semuanya sudah dihidupkan, jadi persoalannya di mana hendak mula melihat, bukan apa hendak dibeli. Mulakan dengan kesakitan operasi yang paling besar:\n\n• Kos tenaga kerja tinggi -> Labor Intelligence\n• Pembaziran atau masalah stok -> Inventory Intelligence\n• Kuasa tawar-menawar pembekal lemah -> Purchasing Intelligence\n• ROI pemasaran tidak jelas -> Marketing Intelligence\n• Tempahan tidak hadir -> Reservations Intelligence"
           },
           {
             "title": "Bagaimana harga modul berfungsi?",
-            "content": "Setiap modul termasuk lesen organisasi yang merangkumi 5 lokasi pertama, ditambah harga lokasi tambahan di luar ambang itu.\n\nContoh: 8 lokasi dengan Kecerdasan Tenaga Kerja = 1 lesen organisasi + 3 lokasi tambahan.\n\nGunakan pricing.sundae.io untuk pengiraan pelan yang tepat."
+            "content": "Tiada harga modul. Modul tiada harga tersendiri dan tiada peruntukan lokasi sendiri - apa yang anda beli ialah pakej.\n\nPakej Core dikira bermula dari cawangan pertama anda, kemudian pada kadar marginal bagi setiap cawangan tambahan, kadar yang menurun apabila anda berkembang. {{WORKED_EXAMPLE}}\n\nGunakan pricing.sundae.io untuk pengiraan tepat."
           }
         ]
       },
@@ -5693,7 +6135,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Adakah Watchtower memerlukan Core?",
-            "content": "Ya. Watchtower berfungsi dengan baik apabila isyarat pasarnya dilapisi terus ke atas data operasi langsung, yang disediakan oleh Core.\n\nJika anda hanya memerlukan analisis POS sejarah yang dimuat naik, Report sudah mencukupi. Jika anda ingin konteks pasaran yang berkaitan dengan operasi harian, beralih ke Core."
+            "content": "Ya. Watchtower memberi hasil terbaik apabila isyarat pasarannya diletakkan di atas data operasi langsung, iaitu apa yang diberikan oleh pakej Core. Ia diskopkan dan disebut harga bersama pakej anda, bukan dijual berasingan."
           }
         ]
       },
@@ -5702,8 +6144,8 @@ export const generatedLocalCopy = {
         "icon": "cost",
         "faqs": [
           {
-            "title": "Berapa kos Sundae?",
-            "content": "Harga bergantung kepada:\n• Report vs Core\n• Jumlah lokasi\n• Modul yang dipilih\n• Sama ada Watchtower termasuk\n\n**Report Lite:** Percuma selamanya\n\nUntuk harga yang tepat, gunakan pricing.sundae.io."
+            "title": "Berapakah kos Sundae?",
+            "content": "Harga bergantung pada:\n• Pakej Core yang mana\n• Bilangan cawangan\n• Sama ada Foresight & Action, Crew atau SKU konsep disertakan\n\nPakej Core dikira dari sauh bagi cawangan pertama, ditambah kadar marginal bagi setiap cawangan tambahan yang menurun apabila anda berkembang. Core Foundation bermula pada {{FOUNDATION_FIRST_UNIT}} bagi cawangan pertama anda.\n\nUntuk harga tepat, gunakan pricing.sundae.io."
           },
           {
             "title": "Adakah terdapat yuran penyediaan?",
@@ -5728,20 +6170,20 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Bagaimana cara kerja kredit kecerdasan?",
-            "content": "Kredit kecerdasan menggerakkan soalan, analisis, dan cadangan.\n\n**Report Lite:** 250 asas + 80 setiap lokasi\n**Report Plus:** 1,200 asas + 300 setiap lokasi\n**Report Pro:** 3,500 asas + 800 setiap lokasi\n**Core Lite:** 8,000 asas + 1,600 setiap lokasi\n**Core Pro:** 14,000 asas + 2,800 setiap lokasi\n**Enterprise:** 50,000+ asas + pengagihan khusus"
+            "title": "Bagaimana kredit inteligensi berfungsi?",
+            "content": "Kredit inteligensi menggerakkan soalan, analisis dan cadangan. Setiap pakej Core membawa dompet bulanan:\n\n{{AI_WALLET_LINES}}\n\nJika habis, anda boleh menambah pada mana-mana pakej."
           },
           {
-            "title": "Berapa banyak akses sejarah yang saya dapat?",
-            "content": "**Report Lite:** 90 hari\n**Report Plus:** 1 tahun\n**Report Pro:** 2 tahun\n**Core Lite:** 2 tahun\n**Core Pro:** 3 tahun\n**Enterprise:** 5+ tahun atau penyimpanan khusus"
+            "title": "Berapa banyak sejarah yang saya dapat?",
+            "content": "Setiap pakej Core menyimpan keseluruhan sejarah bersambung anda dengan pengekalan bertahun-tahun. Perjanjian Enterprise boleh melanjutkannya dengan terma pengekalan tersuai."
           },
           {
-            "title": "Seberapa kerap data diperbaharui?",
-            "content": "**Report Lite:** Muat naik manual\n**Report Plus:** Muat naik manual atau pintar berdasarkan permintaan\n**Report Pro:** Pembaharuan automatik harian\n**Core Lite:** Setiap 4 jam\n**Core Pro:** Setiap 2 jam\n**Enterprise:** Irama khusus, termasuk masa nyata apabila ditentukan"
+            "title": "Berapa kerap data disegarkan?",
+            "content": "Core disegarkan sepanjang syif dan bukan pada hujung hari, supaya Pulse dan modul domain bergerak semasa anda masih boleh bertindak. Kekerapan tepat bergantung pada apa yang didedahkan oleh sistem yang anda sambungkan."
           },
           {
-            "title": "Adakah saya mendapat papan pemuka khusus?",
-            "content": "**Tiers Report:** Papan pemuka yang telah dibina\n**Core Lite:** Sehingga 30 papan pemuka khusus\n**Core Pro:** Sehingga 75 papan pemuka khusus\n**Enterprise:** Papan pemuka khusus tanpa had."
+            "title": "Adakah saya mendapat papan pemuka tersuai?",
+            "content": "Ya. Setiap pakej Core menyertakan papan pemuka tersuai selain paparan siap sedia yang datang bersama setiap modul domain."
           }
         ]
       },
@@ -5750,12 +6192,12 @@ export const generatedLocalCopy = {
         "icon": "conversation",
         "faqs": [
           {
-            "title": "Apakah sokongan yang saya dapat?",
-            "content": "**Report Lite:** Sokongan melalui email\n**Report Plus:** Sokongan melalui email dan chat\n**Report Pro:** Sokongan keutamaan\n**Core Lite:** Sokongan melalui email, chat, dan telefon\n**Core Pro:** Sokongan telefon keutamaan yang lebih cepat\n**Enterprise:** Sokongan 24/7 ditambah pemimpin kejayaan pelanggan yang berdedikasi"
+            "title": "Sokongan apa yang saya dapat?",
+            "content": "Setiap pakej Core merangkumi sokongan e-mel, sembang dan telefon. Perjanjian Enterprise menambah liputan 24/7, masa tindak balas berkontrak dan seorang ketua customer success khusus."
           },
           {
             "title": "Adakah anda menyediakan latihan?",
-            "content": "Ya.\n\n**Report:** Onboarding dan dokumentasi kendiri\n**Core Lite:** Sesi latihan berpandu\n**Core Pro:** Program latihan khusus\n**Enterprise:** Onboarding dan pemerkasaan yang terstruktur"
+            "content": "Ya. Latihan adalah sebahagian daripada pelaksanaan, dikenakan sekali pada kelas tertinggi dalam pilihan anda - dokumentasi layan diri tanpa kos, sesi berpandu dan pembinaan keupayaan berstruktur pada kelas yang lebih tinggi."
           },
           {
             "title": "Zon waktu manakah yang anda sokong?",
@@ -5804,16 +6246,16 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Bagaimana Sundae berbeza daripada laporan POS?",
-            "content": "**Laporan POS:** Satu sistem, konteks terhad, tafsiran manual\n\n**Sundae Report:** Analisis POS ditambah penanda aras, cadangan, dan pengesanan corak\n\n**Sundae Core:** Segala-galanya dalam Report ditambah data bersatu dari tenaga kerja, inventori, pemasaran, tempahan, dan sistem lain dengan penyegaran yang lebih pantas"
+            "title": "Apakah beza Sundae dengan pelaporan POS?",
+            "content": "**Laporan POS:** satu sistem, konteks terhad, tafsiran manual\n\n**Sundae Core:** analisis POS ditambah penanda aras, cadangan dan pengesanan corak, merentasi tenaga kerja, kos dan tetamu dalam satu gambaran operasi\n\n**Foresight & Action:** pandangan ke hadapan di atasnya - ramalan, senario, dan lapisan yang bertindak atas apa yang didedahkan"
           },
           {
             "title": "Bagaimana Sundae berbeza daripada Excel?",
             "content": "**Excel:** Pemasukan manual, analisis statik, tiada lapisan kecerdasan bersama\n\n**Sundae:** Pengambilan automatik, penanda aras terstruktur, papan pemuka langsung, dan cadangan yang mengurangkan masa analisis manual setiap minggu"
           },
           {
-            "title": "Berapa banyak yang boleh saya jimat berbanding alat analitik lama?",
-            "content": "Pengendali sering melaporkan kos keseluruhan yang jauh lebih rendah kerana Sundae menggunakan harga berasaskan tier dan bukannya mengenakan bayaran per modul dan per lokasi. Penjimatan tepat bergantung kepada campuran alat semasa dan skop operasi anda."
+            "title": "Berapa banyak saya jimat berbanding alat analitik lama?",
+            "content": "Pengendali kerap melaporkan jumlah kos yang jauh lebih rendah, kerana satu pakej Core sudah mengandungi kesemua sebelas modul domain dan bukannya menimbun yuran setiap modul dan setiap cawangan. Beza sebenarnya bergantung pada gabungan alat semasa anda dan saiz operasi."
           }
         ]
       },
@@ -5822,8 +6264,8 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "Saya hanya mempunyai satu lokasi. Adakah Sundae masih sesuai?",
-            "content": "Ya. Mulakan dengan Report Lite untuk penanda aras percuma, kemudian beralih ke tahap Report yang lebih mendalam atau Core jika operasi anda memerlukan lebih banyak kelajuan dan kecerdasan."
+            "title": "Saya hanya ada satu cawangan. Adakah Sundae masih sesuai?",
+            "content": "Ya. Satu cawangan hanya menanggung sauh pakej dan tidak lebih, dan menerima sebelas modul yang sama seperti kumpulan dengan lima puluh cawangan. Jalur cawangan hanya mula penting apabila anda menambah lokasi."
           },
           {
             "title": "Saya adalah platform francais. Bolehkah Sundae membantu?",
@@ -5836,6 +6278,32 @@ export const generatedLocalCopy = {
           {
             "title": "Kami merancang untuk berkembang. Bolehkah Sundae membantu?",
             "content": "Ya. Watchtower dan kecerdasan pasaran boleh menyokong analisis kawasan perdagangan, semakan ketepuan, penjejakan pergerakan pesaing, dan keutamaan kawasan yang kurang dilayani."
+          }
+        ]
+      },
+      {
+        "id": "crew",
+        "icon": "hr",
+        "faqs": [
+          {
+            "title": "Apakah itu Sundae Crew?",
+            "content": "Sundae Crew ialah suite operasi yang menguruskan tenaga kerja anda: penjadualan, kehadiran, kesediaan gaji, rekod HR dan analitik tenaga kerja. Setiap syif yang dirancang, setiap jam yang direkodkan dan setiap rekod yang difailkan menjadi isyarat yang mengalir semula ke decision intelligence anda - supaya operasi dan pandangan berkongsi satu sistem."
+          },
+          {
+            "title": "Apakah yang boleh dilakukan Crew?",
+            "content": "**Lima modul yang saling berhubung:**\n\n1. **Scheduling** - Perancangan syif peka permintaan dengan semakan kelayakan dan pembina AI\n2. **Kehadiran** - Daftar masuk/keluar, geofencing, atestasi rehat dan kelulusan lembaran masa\n3. **Payroll** - Kesediaan gaji pelbagai wilayah dan eksport berkanun (kesediaan dan eksport, bukan enjin cukai)\n4. **Orang & HR** - Rekod dan dokumen pekerja dari pengambilan hingga persaraan\n5. **People Intelligence** - Analitik tenaga kerja, risiko ketidakhadiran dan trend kos buruh"
+          },
+          {
+            "title": "Wilayah manakah yang disokong oleh gaji Crew?",
+            "content": "Kesediaan gaji dan eksport berkanun Crew kini merangkumi **GCC** (UAE, KSA, Qatar, Bahrain, Oman, Kuwait), **Amerika Syarikat** (persekutuan serta semua negeri), **Kanada**, **United Kingdom** dan **Kesatuan Eropah** (kesemua 27 negara anggota). Amerika Latin dan APAC berada dalam peta jalan. Crew menyediakan dan mengeksport gaji - ia bukan enjin cukai, dan peraturan berkanun datang daripada pek negara berversi."
+          },
+          {
+            "title": "Adakah saya memerlukan Core untuk menggunakan Crew?",
+            "content": "Tidak. Crew boleh berjalan sendiri sebagai sistem operasi anda, atau bersama Core supaya isyaratnya menyuap Labor Intelligence, Pulse dan Foresight. Anda juga boleh membawa pembekal HR atau gaji anda sendiri - Crew adalah pilihan secara reka bentuk."
+          },
+          {
+            "title": "Berapakah kos Crew?",
+            "content": "**SKU Crew (bulanan tetap, tiada caj setiap cawangan):**\n\n{{CREW_SKU_LINES}}\n\n**Bundel (setiap satu membawa harga bersihnya sendiri - bukan diskaun ke atas SKU di dalamnya):**\n\n{{CREW_BUNDLE_LINES}}\n\nGunakan pricing.sundae.io untuk pengiraan tepat."
           }
         ]
       }

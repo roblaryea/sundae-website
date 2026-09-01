@@ -77,7 +77,7 @@ export function SectionCTA() {
             </svg>
           </Button>
           <Button href={REPORT_APP_URL} variant="outline-light" size="lg">
-            Start with Report Lite
+            See plans
           </Button>
         </motion.div>
 

@@ -5,90 +5,9 @@ export const generatedLocalCopy = {
     "fr": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Connecté à votre POS, à la main-d'œuvre, à l'inventaire et à tous les systèmes importants. Core se met à jour toutes les 2 à 4 heures pour que vous puissiez agir pendant le service - et non après que les dégâts soient faits.",
+        "description": "Connecté à votre POS, à la main-d'œuvre, à l'inventaire et à tous les systèmes qui comptent. Core repère la fuite de marge, confie la correction à un responsable identifié et mesure la marge récupérée par rapport à une référence.",
         "primary": "Explorer les niveaux de Core",
         "secondary": "Réserver une démo"
-      },
-      "realTime": {
-        "heading": "La couche d'intelligence en temps réel",
-        "description": "Conçu pour les opérateurs qui ne peuvent pas attendre les rapports de fin de journée. Que vous gériez 10 emplacements ou 100+, Core vous offre la rapidité nécessaire pour voir ce qui se passe maintenant, comprendre pourquoi c'est important et obtenir des actions recommandées avant que les problèmes ne s'aggravent.",
-        "cards": [
-          {
-            "title": "Prédictif, pas réactif",
-            "desc": "Recevez des alertes avant que les problèmes ne deviennent coûteux. Recommandations de Sundae Coach pour une action immédiate - pas de tableaux de bord qui se mettent à jour.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "title": "Chaque emplacement, une vue",
-            "desc": "Visibilité unifiée sur tous les emplacements. Modèles au niveau du portefeuille et détails au niveau des emplacements dans une seule vue.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "title": "Évolue avec vous",
-            "desc": "De 10 à 1 000+ emplacements. Core Lite, Pro ou Enterprise - la plateforme évolue avec vous.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
-          }
-        ]
-      },
-      "tiers": {
-        "eyebrow": "CHOISISSEZ VOTRE NIVEAU",
-        "heading": "Trois Niveaux pour Chaque Échelle",
-        "description": "Des opérations en croissance aux entreprises mondiales. Choisissez votre vitesse.",
-        "bestForLabel": "Idéal pour :",
-        "viewPrefix": "Voir",
-        "items": [
-          {
-            "name": "Core Lite",
-            "badge": "Opérations en Croissance",
-            "subtitle": "Intelligence en Temps Réel pour 1-29 Lieux",
-            "description": "Pour les groupes de restaurants passant d'une opération à un seul lieu à des opérations multi-lieux. Cycles de mise à jour de 4 heures et intégration d'un seul POS.",
-            "features": [
-              "Mise à jour toutes les 4 heures (6x par jour)",
-              "600 crédits de base + 120/lieu",
-              "30 tableaux de bord personnalisés",
-              "Conservation de 2 ans",
-              "Intégration d'un seul POS",
-              "Support par Email + Chat + Téléphone"
-            ],
-            "bestFor": "1-10 lieux, portefeuilles de marques uniques",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "name": "Core Pro",
-            "badge": "Le Plus Populaire",
-            "subtitle": "Optimisé pour les Portefeuilles de 30-100 Lieux",
-            "description": "Pour les opérateurs multi-lieux établis qui ont besoin de cycles de mise à jour plus rapides et de prévisions avancées entre les marques.",
-            "features": [
-              "Mise à jour toutes les 2 heures (12x par jour)",
-              "1 200 crédits de base + 240/lieu",
-              "75 tableaux de bord personnalisés",
-              "Conservation de 3 ans",
-              "Support Multi-POS",
-              "Support téléphonique prioritaire (SLA de 2h)"
-            ],
-            "bestFor": "30-100 lieux, opérateurs multi-marques",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "name": "Enterprise",
-            "badge": "Personnalisation Totale",
-            "subtitle": "Conçu pour 100+ Lieux",
-            "description": "Pour les opérations à grande échelle nécessitant une fréquence de mise à jour personnalisée, des tableaux de bord illimités, une marque blanche, SSO et un support dédié.",
-            "features": [
-              "Fréquence de mise à jour personnalisée",
-              "Crédits illimités",
-              "Tableaux de bord illimités",
-              "Conservation personnalisée",
-              "Marque blanche, SSO, CSM dédié",
-              "Support 24/7 avec SLAs personnalisés"
-            ],
-            "bestFor": "100+ lieux, entreprises multi-marques",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
       },
       "dimensions": {
         "heading": "Le Modèle d'Intelligence 4D",
@@ -131,7 +50,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inclus avec Core",
         "heading": "Pulse : Votre Centre de Commande de Shift",
-        "description": "Voyez les anomalies dès qu'elles se produisent. Formez votre équipe en temps réel. Confirmez les résultats avant la fin du shift.",
+        "description": "Repérez les anomalies au moment où elles se produisent. Confiez la correction au manager en service. Puis mesurez la marge récupérée par rapport à la référence.",
         "features": [
           {
             "name": "Ventes & Rythme",
@@ -253,38 +172,9 @@ export const generatedLocalCopy = {
         "description": "Core vous indique comment vous performez actuellement. Watchtower vous informe de ce qui se passe autour de vous. Ensemble, ils vous offrent une vue d'ensemble - opérations internes et contexte de marché externe dans une seule couche d'intelligence.",
         "button": "En savoir plus sur Watchtower"
       },
-      "faq": {
-        "heading": "Questions Fréquemment Posées",
-        "items": [
-          {
-            "q": "Quelle est la différence entre Core Lite et Core Pro ?",
-            "a": "Core Lite : actualisation toutes les 4 heures, 600 crédits de base, 30 tableaux de bord, un seul POS. Core Pro : actualisation toutes les 2 heures, 1 200 crédits de base, 75 tableaux de bord, support multi-POS."
-          },
-          {
-            "q": "Puis-je passer de Report à Core ?",
-            "a": "Oui. Toutes les données historiques sont préservées. Transition sans perte de données."
-          },
-          {
-            "q": "Ai-je besoin de Core si j'ai seulement 5 emplacements ?",
-            "a": "Non requis, mais recommandé si vous avez besoin de rapidité opérationnelle (actualisation toutes les 2-4 heures). Report fonctionne très bien pour 1 à 10 emplacements si des rapports quotidiens suffisent."
-          },
-          {
-            "q": "Core peut-il gérer plusieurs systèmes POS ?",
-            "a": "Core Pro et Enterprise supportent les environnements multi-POS. Core Lite supporte un seul POS dans tous les emplacements."
-          },
-          {
-            "q": "Puis-je utiliser Core avec Watchtower ?",
-            "a": "Fortement recommandé. Core fournit une intelligence interne, Watchtower ajoute une intelligence de marché externe pour une visibilité complète."
-          },
-          {
-            "q": "Puis-je utiliser Core avec des Modules ?",
-            "a": "Oui. Tous les 5 modules spécialisés fonctionnent avec Core pour approfondir l'intelligence dans des domaines opérationnels spécifiques."
-          }
-        ]
-      },
       "cta": {
-        "title": "Arrêtez de gérer les chiffres d'hier",
-        "description": "Découvrez à quoi ressemble l'intelligence opérationnelle en temps réel avec vos données réelles.",
+        "title": "Arrêtez de signaler la fuite. Récupérez-la.",
+        "description": "Voyez Core repérer la fuite, confier la correction et mesurer la marge récupérée par rapport à votre référence - sur vos vraies données.",
         "primary": "Explorer les niveaux de Core",
         "secondary": "Réserver une démo"
       }
@@ -292,90 +182,9 @@ export const generatedLocalCopy = {
     "es": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "Conectado a tu POS, mano de obra, inventario y a todos los sistemas que importan. Core se actualiza cada 2-4 horas para que puedas actuar durante el turno, no después de que se haya hecho el daño.",
+        "description": "Conectado a tu POS, mano de obra, inventario y a todos los sistemas que importan. Core encuentra la fuga de margen, asigna la solución a un responsable con nombre y mide el margen recuperado frente a una línea base.",
         "primary": "Explora los Niveles de Core",
         "secondary": "Reserva una Demostración"
-      },
-      "realTime": {
-        "heading": "La Capa de Inteligencia en Tiempo Real",
-        "description": "Diseñada para operadores que no pueden esperar a los informes de fin de día. Ya sea que administres 10 ubicaciones o más de 100, Core te brinda la velocidad para ver lo que está sucediendo ahora, entender por qué es importante y recibir acciones recomendadas antes de que los problemas se agraven.",
-        "cards": [
-          {
-            "title": "Predictivo, No Reactivo",
-            "desc": "Recibe alertas antes de que los problemas se vuelvan costosos. Recomendaciones de Sundae Coach para acción inmediata - no paneles que se actualizan.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "title": "Cada Ubicación, Una Vista",
-            "desc": "Visibilidad unificada en todas las ubicaciones. Patrones a nivel de cartera y detalles a nivel de ubicación en un solo panel.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "title": "Crecemos Contigo",
-            "desc": "Desde 10 hasta más de 1,000 ubicaciones. Core Lite, Pro o Enterprise - la plataforma se adapta a tu crecimiento.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
-          }
-        ]
-      },
-      "tiers": {
-        "eyebrow": "ELIGE TU NIVEL",
-        "heading": "Tres Niveles para Cada Escala",
-        "description": "Desde operaciones en crecimiento hasta empresas globales. Elige tu velocidad.",
-        "bestForLabel": "Mejor para:",
-        "viewPrefix": "Ver",
-        "items": [
-          {
-            "name": "Core Lite",
-            "badge": "Operaciones en Crecimiento",
-            "subtitle": "Inteligencia en Tiempo Real para 1-29 Ubicaciones",
-            "description": "Para grupos de restaurantes que escalan de operaciones de una sola ubicación a múltiples ubicaciones. Ciclos de actualización de 4 horas e integración de un solo POS.",
-            "features": [
-              "Actualización cada 4 horas (6x diarias)",
-              "600 créditos base + 120/ubicación",
-              "30 paneles de control personalizados",
-              "Retención de 2 años",
-              "Integración de un solo POS",
-              "Soporte por Email + Chat + Teléfono"
-            ],
-            "bestFor": "1-10 ubicaciones, carteras de marca única",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "name": "Core Pro",
-            "badge": "Más Popular",
-            "subtitle": "Optimizado para Carteras de 30-100 Ubicaciones",
-            "description": "Para operadores establecidos de múltiples ubicaciones que necesitan ciclos de actualización más rápidos y pronósticos avanzados entre marcas.",
-            "features": [
-              "Actualización cada 2 horas (12x diarias)",
-              "1,200 créditos base + 240/ubicación",
-              "75 paneles de control personalizados",
-              "Retención de 3 años",
-              "Soporte Multi-POS",
-              "Soporte telefónico prioritario (SLA de 2 horas)"
-            ],
-            "bestFor": "30-100 ubicaciones, operadores de múltiples marcas",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "name": "Enterprise",
-            "badge": "Todo Personalizado",
-            "subtitle": "Construido para 100+ Ubicaciones",
-            "description": "Para operaciones a gran escala que requieren frecuencia de actualización personalizada, paneles ilimitados, marca blanca, SSO y soporte dedicado.",
-            "features": [
-              "Frecuencia de actualización personalizada",
-              "Créditos ilimitados",
-              "Paneles de control ilimitados",
-              "Retención personalizada",
-              "Marca blanca, SSO, CSM dedicado",
-              "Soporte 24/7 con SLAs personalizados"
-            ],
-            "bestFor": "100+ ubicaciones, empresas de múltiples marcas",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
       },
       "dimensions": {
         "heading": "El Modelo de Inteligencia 4D",
@@ -418,7 +227,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Incluido con Core",
         "heading": "Pulse: Tu Centro de Comando de Turno",
-        "description": "Ve las anomalías en el momento en que ocurren. Entrena a tu equipo en tiempo real. Confirma los resultados antes de que termine el turno.",
+        "description": "Ve las anomalías en el momento en que suceden. Asigna la solución al gerente del turno. Luego mide el margen que recuperaste frente a la línea base.",
         "features": [
           {
             "name": "Ventas y Ritmo",
@@ -540,130 +349,49 @@ export const generatedLocalCopy = {
         "description": "Core te dice cómo estás rindiendo en este momento. Watchtower te informa sobre lo que está sucediendo a tu alrededor. Juntos, te ofrecen la imagen completa: operaciones internas y contexto del mercado externo en una sola capa de inteligencia.",
         "button": "Conocer más sobre Watchtower"
       },
-      "faq": {
-        "heading": "Preguntas Frecuentes",
-        "items": [
-          {
-            "q": "¿Cuál es la diferencia entre Core Lite y Core Pro?",
-            "a": "Core Lite: actualización cada 4 horas, 600 créditos base, 30 paneles, un solo POS. Core Pro: actualización cada 2 horas, 1,200 créditos base, 75 paneles, soporte multi-POS."
-          },
-          {
-            "q": "¿Puedo actualizar de Report a Core?",
-            "a": "Sí. Todos los datos históricos se preservan. Transición sin pérdida de datos."
-          },
-          {
-            "q": "¿Necesito Core si solo tengo 5 ubicaciones?",
-            "a": "No es obligatorio, pero se recomienda si necesitas velocidad operativa (actualización cada 2-4 horas). Report funciona muy bien para 1-10 ubicaciones si los informes diarios son suficientes."
-          },
-          {
-            "q": "¿Puede Core manejar múltiples sistemas POS?",
-            "a": "Core Pro y Enterprise soportan entornos multi-POS. Core Lite soporta un solo POS en todas las ubicaciones."
-          },
-          {
-            "q": "¿Puedo usar Core con Watchtower?",
-            "a": "Altamente recomendado. Core proporciona inteligencia interna, Watchtower añade inteligencia de mercado externa para una visibilidad completa."
-          },
-          {
-            "q": "¿Puedo usar Core con Módulos?",
-            "a": "Sí. Los 5 módulos especializados funcionan con Core para profundizar la inteligencia en áreas operativas específicas."
-          }
-        ]
-      },
       "cta": {
-        "title": "Deja de gestionar los números de ayer",
-        "description": "Ve cómo se ve la inteligencia operativa en tiempo real con tus datos reales.",
+        "title": "Deja de reportar la fuga. Recupérala.",
+        "description": "Mira a Core encontrar la fuga, asignar la solución y medir el margen recuperado frente a tu línea base - con tus datos reales.",
         "primary": "Explora los niveles de Core",
         "secondary": "Reserva una demostración"
       }
     },
     "de": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core wird alle 2-4 Stunden aktualisiert, damit Sie während der Schicht handeln können - nicht erst, nachdem der Schaden angerichtet wurde.",
-        "primary": "Core-Tarife erkunden",
-        "secondary": "Demo buchen",
-        "title": "Echtzeit-Betrieb. Keine Tagesabschlussberichte."
-      },
-      "realTime": {
-        "heading": "Die Echtzeit-Intelligenzschicht",
-        "description": "Entwickelt für Betreiber, die nicht auf Tagesberichte warten können. Egal, ob Sie 10 Standorte oder 100+ verwalten, Core gibt Ihnen die Geschwindigkeit, um zu sehen, was jetzt passiert, zu verstehen, warum es wichtig ist, und empfohlene Maßnahmen zu erhalten, bevor Probleme eskalieren.",
-        "cards": [
+      "proof": {
+        "eyebrow": "SO WISSEN SIE, DASS ES ECHT IST",
+        "heading": "Rückgewinnung behaupten kann jeder. Sundae lässt Sie es überprüfen.",
+        "description": "Eine zurückgewonnene Zahl verdient nur dann Vertrauen, wenn Sie sehen können, ob sie wirklich zustande kam. Sundae beantwortet die drei Fragen, die ein sorgfältiger Betreiber - oder sein CFO - immer stellt.",
+        "items": [
           {
-            "title": "Prädiktiv, nicht reaktiv",
-            "desc": "Erhalten Sie Warnungen, bevor Probleme teuer werden. Sundae Coach Empfehlungen für sofortige Maßnahmen - keine Dashboards, die aktualisiert werden.",
+            "question": "Schließt sich der Regelkreis wirklich?",
+            "title": "Zustand des Regelkreises",
+            "desc": "Sehen Sie, wie viele erkannte Lecks tatsächlich zu einem gemessenen Ergebnis führen - die echte Abschlussquote, keine Schönfärberei. Es ist die eine Zahl, die zeigt, dass der Regelkreis funktioniert, und sie bleibt ehrlich, auch wenn sie niedrig ist.",
             "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "title": "Jeder Standort, eine Ansicht",
-            "desc": "Vereinheitlichte Sichtbarkeit über alle Standorte hinweg. Portfolio-Ebenen-Muster und standortspezifische Details in einem einzigen Fenster.",
-            "icon": "multiLocation",
+            "question": "Wäre das ohnehin passiert?",
+            "title": "Vergleichbare Basislinien",
+            "desc": "Jede zurückgewonnene Zahl wird gegen eine passende Basislinie über eine volle Woche gemessen - dieselben Tage, derselbe Rhythmus - damit ein echter Gewinn nie mit einer bloß geschäftigen Woche verwechselt wird.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "title": "Wächst mit Ihnen",
-            "desc": "Von 10 bis 1.000+ Standorten. Core Lite, Pro oder Enterprise - die Plattform skaliert mit Ihnen.",
-            "icon": "performance",
+            "question": "Hat es sich bezahlt gemacht?",
+            "title": "Rendite auf Sundae",
+            "desc": "Sehen Sie den zurückgewonnenen Wert im Verhältnis zu dem, was Sie zahlen, Periode für Periode - der Beweis, in gemessenem Geld, dass Sundae seine Kosten mehr als deckt.",
+            "icon": "finance",
             "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "Und wenn der Beleg fehlt, sagt Sundae das offen. Jedes Ergebnis bleibt richtungweisend, bis ein Mensch es bestätigt, und ein Detektor schweigt lieber, als eine Zahl zu erfinden."
       },
-      "tiers": {
-        "eyebrow": "WÄHLEN SIE IHRE STUFE",
-        "heading": "Drei Stufen für jede Größe",
-        "description": "Von wachsenden Betrieben bis hin zu globalen Unternehmen. Wählen Sie Ihre Geschwindigkeit.",
-        "bestForLabel": "Am besten für:",
-        "viewPrefix": "Ansehen",
-        "items": [
-          {
-            "name": "Core Lite",
-            "badge": "Wachsende Betriebe",
-            "subtitle": "Echtzeit-Intelligenz für 1-29 Standorte",
-            "description": "Für Restaurantgruppen, die von Einzelstandorten zu Mehrstandorten skalieren. 4-Stunden-Aktualisierungszyklen und Integration eines einzelnen POS.",
-            "features": [
-              "4-Stunden-Aktualisierung (6x täglich)",
-              "600 Basiskredite + 120/Standort",
-              "30 benutzerdefinierte Dashboards",
-              "2 Jahre Aufbewahrung",
-              "Integration eines einzelnen POS",
-              "E-Mail + Chat + Telefon-Support"
-            ],
-            "bestFor": "1-10 Standorte, Einzelmarken-Portfolios",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "name": "Core Pro",
-            "badge": "Am Beliebtesten",
-            "subtitle": "Optimiert für 30-100 Standort-Portfolios",
-            "description": "Für etablierte Mehrstandortbetreiber, die schnellere Aktualisierungszyklen und fortgeschrittene Prognosen über Marken hinweg benötigen.",
-            "features": [
-              "2-Stunden-Aktualisierung (12x täglich)",
-              "1.200 Basiskredite + 240/Standort",
-              "75 benutzerdefinierte Dashboards",
-              "3 Jahre Aufbewahrung",
-              "Multi-POS-Unterstützung",
-              "Priorisierter Telefon-Support (2 Std. SLA)"
-            ],
-            "bestFor": "30-100 Standorte, Mehrmarkenbetreiber",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "name": "Enterprise",
-            "badge": "Alles individuell",
-            "subtitle": "Für 100+ Standorte gebaut",
-            "description": "Für großangelegte Betriebe, die eine benutzerdefinierte Aktualisierungsfrequenz, unbegrenzte Dashboards, White-Label, SSO und dedizierten Support benötigen.",
-            "features": [
-              "Benutzerdefinierte Aktualisierungsfrequenz",
-              "Unbegrenzte Kredite",
-              "Unbegrenzte Dashboards",
-              "Benutzerdefinierte Aufbewahrung",
-              "White-Label, SSO, dedizierter CSM",
-              "24/7 Support mit benutzerdefinierten SLAs"
-            ],
-            "bestFor": "100+ Standorte, Mehrmarken-Unternehmen",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Verbunden mit Ihrem POS, Personal, Inventar und allen wichtigen Systemen. Core findet das Margen-Leck, übergibt die Korrektur an einen benannten Verantwortlichen und misst die zurückgewonnene Marge gegen eine Basislinie.",
+        "primary": "Core-Tarife erkunden",
+        "secondary": "Demo buchen",
+        "title": "Finden Sie das Leck. Holen Sie die Marge zurück."
       },
       "dimensions": {
         "heading": "Das 4D-Intelligenzmodell",
@@ -706,7 +434,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inklusive mit Core",
         "heading": "Pulse: Ihr Schicht-Kommandocenter",
-        "description": "Sehen Sie Anomalien, sobald sie auftreten. Coachen Sie Ihr Team in Echtzeit. Bestätigen Sie die Ergebnisse, bevor die Schicht endet.",
+        "description": "Sehen Sie Anomalien, sobald sie auftreten. Übergeben Sie die Korrektur an den Schichtleiter. Messen Sie dann die zurückgewonnene Marge gegen die Basislinie.",
         "features": [
           {
             "name": "Verkäufe & Tempo",
@@ -824,134 +552,120 @@ export const generatedLocalCopy = {
         "button": "Alle Module erkunden"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Vollständige Intelligenz",
+        "heading": "Watchtower holt die Außenwelt in Core",
         "description": "Core zeigt Ihnen, wie Sie gerade abschneiden. Watchtower informiert Sie über das, was um Sie herum passiert. Zusammen bieten sie Ihnen das vollständige Bild - interne Abläufe und externen Marktkontext in einer Intelligenzschicht.",
         "button": "Erfahren Sie mehr über Watchtower"
       },
-      "faq": {
-        "heading": "Häufig gestellte Fragen",
-        "items": [
-          {
-            "q": "Was ist der Unterschied zwischen Core Lite und Core Pro?",
-            "a": "Core Lite: 4-Stunden-Aktualisierung, 600 Basis-Credits, 30 Dashboards, ein POS. Core Pro: 2-Stunden-Aktualisierung, 1.200 Basis-Credits, 75 Dashboards, Unterstützung für mehrere POS."
-          },
-          {
-            "q": "Kann ich von Report zu Core upgraden?",
-            "a": "Ja. Alle historischen Daten werden beibehalten. Übergang ohne Datenverlust."
-          },
-          {
-            "q": "Brauche ich Core, wenn ich nur 5 Standorte habe?",
-            "a": "Nicht erforderlich, aber empfohlen, wenn Sie betriebliche Geschwindigkeit benötigen (2-4 Stunden Aktualisierung). Report funktioniert hervorragend für 1-10 Standorte, wenn tägliche Berichte ausreichen."
-          },
-          {
-            "q": "Kann Core mehrere POS-Systeme verwalten?",
-            "a": "Core Pro und Enterprise unterstützen Multi-POS-Umgebungen. Core Lite unterstützt einen POS an allen Standorten."
-          },
-          {
-            "q": "Kann ich Core mit Watchtower verwenden?",
-            "a": "Sehr empfohlen. Core bietet interne Intelligenz, Watchtower fügt externe Marktintelligenz für vollständige Sichtbarkeit hinzu."
-          },
-          {
-            "q": "Kann ich Core mit Modulen verwenden?",
-            "a": "Ja. Alle 5 spezialisierten Module arbeiten mit Core, um die Intelligenz in spezifischen Betriebsbereichen zu vertiefen."
-          }
-        ]
-      },
       "cta": {
-        "title": "Verwalten Sie nicht die Zahlen von gestern",
-        "description": "Sehen Sie, wie Echtzeit-Betriebsintelligenz mit Ihren tatsächlichen Daten aussieht.",
+        "title": "Melden Sie das Leck nicht - holen Sie es zurück.",
+        "description": "Sehen Sie, wie Core das Leck findet, die Korrektur übergibt und die zurückgewonnene Marge gegen Ihre Basislinie misst - mit Ihren echten Daten.",
         "primary": "Core-Tarife erkunden",
         "secondary": "Demo buchen"
-      }
-    },
-    "nl": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core ververst elke 2-4 uur, zodat je tijdens de shift kunt handelen - niet nadat de schade is aangericht.",
-        "primary": "Ontdek Core Tiers",
-        "secondary": "Boek een Demo",
-        "title": "Realtime operatie. Geen eindedagrapporten."
       },
-      "realTime": {
-        "heading": "De Real-Time Informatie Laag",
-        "description": "Gebouwd voor operators die niet kunnen wachten op rapporten aan het einde van de dag. Of je nu 10 locaties of 100+ beheert, Core geeft je de snelheid om te zien wat er nu gebeurt, te begrijpen waarom het belangrijk is, en aanbevolen acties te krijgen voordat problemen escaleren.",
-        "cards": [
+      "solves": {
+        "eyebrow": "WOHIN DIE MARGE GEHT",
+        "heading": "Vier Stellen, an denen Gewinn verloren geht. Ihr Paket entscheidet, welche Sie schließen.",
+        "description": "Fangen Sie beim Verlust an, nicht bei der Lizenz. Jedes Paket deckt eine andere Auswahl der vier ab - Core Performance deckt alle ab.",
+        "areas": [
           {
-            "title": "Voorspellend, Niet Reactief",
-            "desc": "Ontvang waarschuwingen voordat problemen duur worden. Sundae Coach aanbevelingen voor onmiddellijke actie - geen dashboards die bijwerken.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Umsatz & Gewinn",
+            "loss": "Stornos, Comps, Rabatte und falsch bepreiste Artikel, die nie als hinterfragbare Position auftauchen.",
+            "covered": "Umsatz- und Gewinnanalyse, Erlössicherung, Deckungsbeitrag je Artikel."
           },
           {
-            "title": "Elke Locatie, Eén Weergave",
-            "desc": "Geünificeerde zichtbaarheid over alle locaties. Portfolio-niveau patronen en locatie-niveau details in één venster.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Waren & Beschaffung",
+            "loss": "Die Lücke zwischen dem, was Sie bestellt, verbraucht und verkauft haben - Verderb, Abweichung und schleichende Lieferantenpreise.",
+            "covered": "Bestands- und Einkaufsanalyse, Soll- gegen Ist-Verbrauch, Lieferantenentwicklung."
           },
           {
-            "title": "Groeit Met Jou Mee",
-            "desc": "Van 10 tot 1.000+ locaties. Core Lite, Pro of Enterprise - het platform schaalt mee met jou.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Gast & Markt",
+            "loss": "Gäste, die nie kommen, Gäste, die nicht wiederkommen, und Kanalmarge, die die Provision auffrisst.",
+            "covered": "Gasterlebnis und CRM, Reservierungen, Lieferökonomie, Marketing-Attribution, Peer-Benchmarks."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Entscheidungen, die zu spät fallen, auf Zahlen des Vormonats, ohne hinterher sagen zu können, ob sie gewirkt haben.",
+            "covered": "Prognose, Szenariomodellierung und die Aktionsebene mit Freigabe im Ablauf. Eine Erweiterung auf Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "KIES JE TIER",
-        "heading": "Drie Tiers voor Elke Schaal",
-        "description": "Van groeiende operaties tot wereldwijde ondernemingen. Kies je snelheid.",
-        "bestForLabel": "Het beste voor:",
-        "viewPrefix": "Bekijk",
+        "eyebrow": "WÄHLEN SIE IHR PAKET",
+        "heading": "Vier Core-Pakete",
+        "description": "Jedes Paket deckt eine andere Auswahl der vier Bereiche ab. Wählen Sie das Paket, das dazu passt, wohin Ihre Marge geht.",
+        "bestForLabel": "Passt zu:",
+        "viewPrefix": "Siehe",
+        "priceLabel": "erster Standort / Monat",
+        "bandsLabel": "Danach je zusätzlichem Standort",
+        "walletLabel": "KI-Credits / Monat",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Groeiende Operaties",
-            "subtitle": "Real-Time Informatie voor 1-29 Locaties",
-            "description": "Voor restaurantgroepen die opschalen van één locatie naar meerdere locaties. 4-uurs verfrissingscycli en integratie met één POS.",
-            "features": [
-              "4-uurs verfrissing (6x per dag)",
-              "600 basiscredits + 120/locatie",
-              "30 aangepaste dashboards",
-              "2 jaar opslag",
-              "Integratie met één POS",
-              "E-mail + Chat + Telefoon ondersteuning"
-            ],
-            "bestFor": "1-10 locaties, single-brand portefeuilles",
+            "areas": "Deckt Umsatz & Gewinn ab",
+            "badge": "Hier starten",
+            "subtitle": "Die operative Grundlage",
+            "description": "Ein Ort, von dem aus Sie entscheiden - über POS, Personal, Kosten und Betrieb, aktualisiert während die Schicht noch läuft.",
+            "bestFor": "Gruppen, die von Tabellen und unverbundenen Dashboards wegwollen"
+          },
+          {
+            "areas": "Deckt Umsatz & Gewinn, Waren & Beschaffung ab",
+            "badge": "Am beliebtesten",
+            "subtitle": "Tiefe bei Kosten und Schwund",
+            "description": "Soll- gegen Ist-Verbrauch, Verderb, Schwund, Stornos und Comps sowie Deckungsbeitrag je Artikel.",
+            "bestFor": "Betriebe, deren Marge schneller abfließt, als sie es sehen"
+          },
+          {
+            "areas": "Deckt Umsatz & Gewinn, Gast & Markt ab",
+            "badge": "Nachfrageseite",
+            "subtitle": "Tiefe bei der Nachfrage",
+            "description": "Gastkohorten und Lebenszeitwert, Promo-Attribution je Kanal, Liefermarge nach Provision.",
+            "bestFor": "Gruppen, die auf Wiederkehr und Kanalmix setzen"
+          },
+          {
+            "areas": "Deckt alle vier Bereiche ab, inkl. Foresight & Action",
+            "badge": "Volle Tiefe",
+            "subtitle": "Mehrere Marken, mehrere Regionen",
+            "description": "Konsolidierung über Marken und Regionen, modulübergreifende Korrelation, geregelter Zugriff mit Prüfpfad.",
+            "bestFor": "Große Gruppen mit mehreren Marken oder Märkten"
+          }
+        ]
+      }
+    },
+    "nl": {
+      "proof": {
+        "eyebrow": "ZO WEET U DAT HET ECHT IS",
+        "heading": "Herstel claimen kan iedereen. Sundae laat u het controleren.",
+        "description": "Een teruggewonnen bedrag is pas te vertrouwen als u kunt zien of het echt is gebeurd. Sundae beantwoordt de drie vragen die een zorgvuldige operator - of zijn CFO - altijd stelt.",
+        "items": [
+          {
+            "question": "Sluit de lus zich echt?",
+            "title": "Gezondheid van de lus",
+            "desc": "Zie hoeveel gedetecteerde lekken daadwerkelijk tot een gemeten resultaat komen - het echte sluitingspercentage, geen cijfer voor de bühne. Het is het ene getal dat laat zien dat de lus werkt, en het blijft eerlijk als dat getal laag is.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Meest Populair",
-            "subtitle": "Geoptimaliseerd voor 30-100 Locatie Portefeuilles",
-            "description": "Voor gevestigde multi-locatie operators die snellere verfrissingscycli en geavanceerde prognoses over merken nodig hebben.",
-            "features": [
-              "2-uurs verfrissing (12x per dag)",
-              "1.200 basiscredits + 240/locatie",
-              "75 aangepaste dashboards",
-              "3 jaar opslag",
-              "Multi-POS ondersteuning",
-              "Prioriteit telefoon ondersteuning (2u SLA)"
-            ],
-            "bestFor": "30-100 locaties, multi-brand operators",
+            "question": "Was dat toch al gebeurd?",
+            "title": "Gelijkwaardige basislijnen",
+            "desc": "Elk teruggewonnen bedrag wordt gemeten tegen een overeenkomende basislijn over een volledige week - dezelfde dagen, hetzelfde ritme - zodat echte winst nooit wordt verward met een gewoon drukke week.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Aangepast Alles",
-            "subtitle": "Gebouwd voor 100+ Locaties",
-            "description": "Voor grootschalige operaties die aangepaste verfrissingsfrequentie, onbeperkte dashboards, white-label, SSO en toegewijde ondersteuning vereisen.",
-            "features": [
-              "Aangepaste verfrissingsfrequentie",
-              "Onbeperkte credits",
-              "Onbeperkte dashboards",
-              "Aangepaste opslag",
-              "White-label, SSO, toegewijde CSM",
-              "24/7 ondersteuning met aangepaste SLA's"
-            ],
-            "bestFor": "100+ locaties, multi-brand ondernemingen",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Heeft het zichzelf terugverdiend?",
+            "title": "Rendement op Sundae",
+            "desc": "Zie de teruggewonnen waarde afgezet tegen wat u betaalt, periode na periode - het bewijs, in gemeten geld, dat Sundae zijn kosten ruimschoots dekt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "En als het bewijs er niet is, zegt Sundae dat. Elk resultaat blijft indicatief totdat een mens het bevestigt, en een detector zwijgt liever dan een getal te verzinnen."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Verbonden met je POS, arbeid, voorraad en elk systeem dat ertoe doet. Core vindt het margelek, wijst de oplossing toe aan een benoemde eigenaar en meet de teruggewonnen marge af tegen een basislijn.",
+        "primary": "Ontdek Core Tiers",
+        "secondary": "Boek een Demo",
+        "title": "Vind het lek. Haal de marge terug."
       },
       "dimensions": {
         "heading": "Het 4D Informatie Model",
@@ -994,7 +708,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inclusief bij Core",
         "heading": "Pulse: Jouw Shift Command Center",
-        "description": "Zie anomalieën op het moment dat ze zich voordoen. Coach je team in real-time. Bevestig resultaten voordat de shift eindigt.",
+        "description": "Zie anomalieën op het moment dat ze zich voordoen. Wijs de oplossing toe aan de manager in dienst. Meet daarna de teruggewonnen marge af tegen de basislijn.",
         "features": [
           {
             "name": "Verkoop & Tempo",
@@ -1112,133 +826,90 @@ export const generatedLocalCopy = {
         "button": "Ontdek Alle Modules"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Complete Intelligence",
+        "heading": "Watchtower brengt de buitenwereld in Core",
         "description": "Core vertelt je hoe je er momenteel voorstaat. Watchtower vertelt je wat er om je heen gebeurt. Samen geven ze je het complete plaatje - interne operaties en externe marktomstandigheden in één intelligentielaag.",
         "button": "Leer Meer Over Watchtower"
       },
-      "faq": {
-        "heading": "Veelgestelde Vragen",
-        "items": [
+      "cta": {
+        "title": "Stop met het melden van het lek. Haal het terug.",
+        "description": "Zie hoe Core het lek vindt, de oplossing toewijst en de teruggewonnen marge afmeet tegen je basislijn - met je echte gegevens.",
+        "primary": "Verken Core Tiers",
+        "secondary": "Boek een Demo"
+      },
+      "solves": {
+        "eyebrow": "WAAR DE MARGE HEEN GAAT",
+        "heading": "Vier plekken waar winst weglekt. Je pakket bepaalt welke je dichtzet.",
+        "description": "Begin bij het verlies, niet bij de licentie. Elk pakket dekt een andere set van de vier - Core Performance dekt ze allemaal.",
+        "areas": [
           {
-            "q": "Wat is het verschil tussen Core Lite en Core Pro?",
-            "a": "Core Lite: 4-uurs verversing, 600 basiscredits, 30 dashboards, enkele POS. Core Pro: 2-uurs verversing, 1.200 basiscredits, 75 dashboards, ondersteuning voor meerdere POS."
+            "title": "Omzet & Winst",
+            "loss": "Annuleringen, comps, kortingen en verkeerd geprijsde items die nooit als regel opduiken waar je iets van kunt vinden.",
+            "covered": "Omzet- en winstinzicht, omzetborging, bijdrage per item."
           },
           {
-            "q": "Kan ik upgraden van Report naar Core?",
-            "a": "Ja. Alle historische gegevens worden bewaard. Overgang zonder gegevensverlies."
+            "title": "Inkoop & Voorraad",
+            "loss": "Het gat tussen wat je bestelde, wat je gebruikte en wat je verkocht - derving, afwijking en sluipende leveranciersprijzen.",
+            "covered": "Voorraad- en inkoopinzicht, theoretisch versus werkelijk verbruik, leveranciersontwikkeling."
           },
           {
-            "q": "Heb ik Core nodig als ik maar 5 locaties heb?",
-            "a": "Niet vereist, maar aanbevolen als je operationele snelheid nodig hebt (2-4 uur verversing). Report werkt prima voor 1-10 locaties als dagelijkse rapporten voldoende zijn."
+            "title": "Gast & Markt",
+            "loss": "Gasten die nooit komen, gasten die niet terugkomen, en kanaalmarge die na commissie verdwijnt.",
+            "covered": "Gastbeleving en CRM, reserveringen, bezorgeconomie, marketingattributie, peer-benchmarks."
           },
           {
-            "q": "Kan Core meerdere POS-systemen aan?",
-            "a": "Core Pro en Enterprise ondersteunen multi-POS omgevingen. Core Lite ondersteunt enkele POS op alle locaties."
-          },
-          {
-            "q": "Kan ik Core gebruiken met Watchtower?",
-            "a": "Zeer aanbevolen. Core biedt interne intelligentie, Watchtower voegt externe marktintelligentie toe voor volledige zichtbaarheid."
-          },
-          {
-            "q": "Kan ik Core gebruiken met Modules?",
-            "a": "Ja. Alle 5 gespecialiseerde modules werken met Core om de intelligentie in specifieke operationele gebieden te verdiepen."
+            "title": "Foresight & Action",
+            "loss": "Besluiten die te laat vallen, op cijfers van vorige maand, zonder achteraf te kunnen zien of ze werkten.",
+            "covered": "Prognose, scenariomodellering en de actielaag met goedkeuring in de lus. Een uitbreiding op Core."
           }
         ]
       },
-      "cta": {
-        "title": "Stop met het Beheren van de Cijfers van Gisteren",
-        "description": "Zie hoe operationele intelligentie in real-time eruitziet met je actuele gegevens.",
-        "primary": "Verken Core Tiers",
-        "secondary": "Boek een Demo"
+      "tiers": {
+        "eyebrow": "KIES JE PAKKET",
+        "heading": "Vier Core-pakketten",
+        "description": "Elk pakket dekt een andere set van de vier gebieden. Kies het pakket dat past bij waar jouw marge heen gaat.",
+        "bestForLabel": "Past bij:",
+        "viewPrefix": "Bekijk",
+        "priceLabel": "eerste locatie / maand",
+        "bandsLabel": "Daarna per extra locatie",
+        "walletLabel": "AI-credits / maand",
+        "items": [
+          {
+            "areas": "Dekt Omzet & Winst",
+            "badge": "Begin hier",
+            "subtitle": "De operationele basis",
+            "description": "Eén plek om vanuit te beslissen, over POS, personeel, kosten en operatie, ververst terwijl de dienst nog loopt.",
+            "bestFor": "Groepen die van spreadsheets en losse dashboards af willen"
+          },
+          {
+            "areas": "Dekt Omzet & Winst, Inkoop & Voorraad",
+            "badge": "Meest gekozen",
+            "subtitle": "Diepte op kosten en lekkage",
+            "description": "Theoretisch versus werkelijk verbruik, derving, krimp, annuleringen en comps, en bijdrage per item.",
+            "bestFor": "Operators bij wie de marge sneller weglekt dan ze zien"
+          },
+          {
+            "areas": "Dekt Omzet & Winst, Gast & Markt",
+            "badge": "Vraagzijde",
+            "subtitle": "Diepte op vraag",
+            "description": "Gastcohorten en levenswaarde, promo-attributie per kanaal, bezorgmarge na commissie.",
+            "bestFor": "Groepen die inzetten op herhaalomzet en kanaalmix"
+          },
+          {
+            "areas": "Dekt alle vier gebieden, incl. Foresight & Action",
+            "badge": "Volle diepte",
+            "subtitle": "Meerdere merken, meerdere regio's",
+            "description": "Consolidatie over merken en regio's, correlatie tussen modules, beheerde toegang met audittrail.",
+            "bestFor": "Grote groepen met meerdere merken of markten"
+          }
+        ]
       }
     },
     "ar": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يتم تحديث Core كل 2-4 ساعات حتى تتمكن من التصرف خلال الوردية - وليس بعد حدوث الضرر.",
+        "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يكشف Core تسرّب الربح، ويوجّه الإصلاح إلى مسؤول محدّد، ويقيس الهامش المسترجع مقابل خط أساس.",
         "primary": "استكشاف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
-      },
-      "realTime": {
-        "heading": "طبقة الذكاء في الوقت الحقيقي",
-        "description": "مصممة للمشغلين الذين لا يمكنهم الانتظار لتقارير نهاية اليوم. سواء كنت تدير 10 مواقع أو 100+، يوفر لك Core السرعة لرؤية ما يحدث الآن، وفهم لماذا يهم، والحصول على توصيات بالإجراءات قبل تصعيد المشاكل.",
-        "cards": [
-          {
-            "title": "تنبؤية، وليست تفاعلية",
-            "desc": "احصل على تنبيهات قبل أن تصبح المشاكل مكلفة. توصيات Sundae Coach للعمل الفوري - وليست لوحات معلومات تتحدّث فحسب.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "title": "كل موقع، عرض واحد",
-            "desc": "رؤية موحدة عبر جميع المواقع. أنماط على مستوى المحفظة وتفاصيل على مستوى الموقع في نافذة واحدة.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "title": "تنمو معك",
-            "desc": "من 10 إلى 1,000+ موقع. Core Lite، Pro، أو Enterprise - المنصة تتوسع كما تفعل.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
-          }
-        ]
-      },
-      "tiers": {
-        "eyebrow": "اختر فئتك",
-        "heading": "ثلاث فئات لكل حجم",
-        "description": "من العمليات المتنامية إلى الشركات العالمية. اختر سرعتك.",
-        "bestForLabel": "الأفضل لـ:",
-        "viewPrefix": "شاهد",
-        "items": [
-          {
-            "name": "Core Lite",
-            "badge": "العمليات المتنامية",
-            "subtitle": "ذكاء في الوقت الحقيقي لـ 1-29 موقع",
-            "description": "لمجموعات المطاعم التي تتوسع من موقع واحد إلى عمليات متعددة المواقع. دورات تحديث كل 4 ساعات وتكامل POS واحد.",
-            "features": [
-              "تحديث كل 4 ساعات (6 مرات يوميًا)",
-              "600 رصيد أساسي + 120/موقع",
-              "30 لوحة تحكم مخصصة",
-              "احتفاظ لمدة عامين",
-              "تكامل POS واحد",
-              "دعم عبر البريد الإلكتروني + الدردشة + الهاتف"
-            ],
-            "bestFor": "1-10 مواقع، محافظ علامة تجارية واحدة",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "name": "Core Pro",
-            "badge": "الأكثر شعبية",
-            "subtitle": "محسن لمحافظ 30-100 موقع",
-            "description": "للمشغلين ذوي المواقع المتعددة الذين يحتاجون إلى دورات تحديث أسرع وتوقعات متقدمة عبر العلامات التجارية.",
-            "features": [
-              "تحديث كل ساعتين (12 مرة يوميًا)",
-              "1,200 رصيد أساسي + 240/موقع",
-              "75 لوحة تحكم مخصصة",
-              "احتفاظ لمدة 3 سنوات",
-              "دعم متعدد POS",
-              "دعم هاتفي ذو أولوية (2 ساعة SLA)"
-            ],
-            "bestFor": "30-100 مواقع، مشغلين متعددين العلامات التجارية",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "name": "Enterprise",
-            "badge": "كل شيء مخصص",
-            "subtitle": "مصمم لأكثر من 100 موقع",
-            "description": "للعمليات الكبيرة التي تتطلب تردد تحديث مخصص، لوحات تحكم غير محدودة، علامة بيضاء، SSO، ودعم مخصص.",
-            "features": [
-              "تردد تحديث مخصص",
-              "رصيد غير محدود",
-              "لوحات تحكم غير محدودة",
-              "احتفاظ مخصص",
-              "علامة بيضاء، SSO، مدير حساب مخصص",
-              "دعم على مدار الساعة طوال أيام الأسبوع مع SLAs مخصصة"
-            ],
-            "bestFor": "أكثر من 100 موقع، مؤسسات متعددة العلامات التجارية",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
       },
       "dimensions": {
         "heading": "نموذج الذكاء الرباعي الأبعاد",
@@ -1281,7 +952,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "مضمن مع Core",
         "heading": "Pulse: مركز قيادة نوبتك",
-        "description": "شاهد الشذوذ في اللحظة التي تحدث فيها. درب فريقك في الوقت الحقيقي. أكد النتائج قبل انتهاء النوبة.",
+        "description": "شاهد الشذوذ في اللحظة التي يحدث فيها. وجّه الإصلاح إلى مدير الوردية. ثم قِس الهامش الذي استرجعته مقابل خط الأساس.",
         "features": [
           {
             "name": "المبيعات والوتيرة",
@@ -1403,130 +1074,49 @@ export const generatedLocalCopy = {
         "description": "Core يخبرك عن أدائك الحالي. Watchtower يخبرك بما يحدث من حولك. معًا، يقدمان لك الصورة الكاملة - العمليات الداخلية وسياق السوق الخارجي في طبقة واحدة من الذكاء.",
         "button": "تعرف على Watchtower"
       },
-      "faq": {
-        "heading": "الأسئلة المتكررة",
-        "items": [
-          {
-            "q": "ما الفرق بين Core Lite و Core Pro؟",
-            "a": "Core Lite: تحديث كل 4 ساعات، 600 رصيد أساسي، 30 لوحة تحكم، POS واحدة. Core Pro: تحديث كل ساعتين، 1200 رصيد أساسي، 75 لوحة تحكم، دعم متعدد لPOS."
-          },
-          {
-            "q": "هل يمكنني الترقية من Report إلى Core؟",
-            "a": "نعم. يتم الحفاظ على جميع البيانات التاريخية. الانتقال بدون فقدان البيانات."
-          },
-          {
-            "q": "هل أحتاج إلى Core إذا كان لدي 5 مواقع فقط؟",
-            "a": "ليس مطلوبًا، ولكن يُوصى به إذا كنت بحاجة إلى سرعة تشغيل (تحديث كل 2-4 ساعات). يعمل Report بشكل رائع لـ 1-10 مواقع إذا كانت التقارير اليومية كافية."
-          },
-          {
-            "q": "هل يستطيع Core التعامل مع أنظمة POS متعددة؟",
-            "a": "يدعم Core Pro وEnterprise بيئات متعددة لPOS. يدعم Core Lite POS واحدة عبر جميع المواقع."
-          },
-          {
-            "q": "هل يمكنني استخدام Core مع Watchtower؟",
-            "a": "موصى به بشدة. يوفر Core ذكاء داخلي، بينما يضيف Watchtower ذكاء السوق الخارجي لرؤية كاملة."
-          },
-          {
-            "q": "هل يمكنني استخدام Core مع Modules؟",
-            "a": "نعم. تعمل جميع الوحدات الخمس المتخصصة مع Core لتعميق الذكاء في مجالات التشغيل المحددة."
-          }
-        ]
-      },
       "cta": {
-        "title": "توقف عن إدارة أرقام الأمس",
-        "description": "اكتشف كيف تبدو الذكاء التشغيلي في الوقت الحقيقي مع بياناتك الفعلية.",
+        "title": "توقف عن الإبلاغ عن التسرب. استرجعه.",
+        "description": "شاهد Core يكشف التسرّب، ويوجّه الإصلاح، ويقيس الهامش المسترجع مقابل خط أساسك - على بياناتك الفعلية.",
         "primary": "استكشف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
       }
     },
     "pt": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core é atualizado a cada 2-4 horas para que você possa agir durante o turno - e não depois que o dano já foi feito.",
-        "primary": "Explore os Níveis do Core",
-        "secondary": "Agende uma Demonstração",
-        "title": "Operações em tempo real. Não relatórios de fim de dia."
-      },
-      "realTime": {
-        "heading": "A Camada de Inteligência em Tempo Real",
-        "description": "Construído para operadores que não podem esperar pelos relatórios de fim de dia. Seja você responsável por 10 locais ou 100+, o Core oferece a velocidade para ver o que está acontecendo agora, entender por que isso é importante e receber ações recomendadas antes que os problemas se agravem.",
-        "cards": [
+      "proof": {
+        "eyebrow": "COMO VOCÊ SABE QUE É REAL",
+        "heading": "Qualquer um pode alegar recuperação. A Sundae deixa você conferir.",
+        "description": "Um valor recuperado só merece confiança se você consegue ver se ele realmente aconteceu. A Sundae responde às três perguntas que um operador cuidadoso - ou o seu CFO - sempre faz.",
+        "items": [
           {
-            "title": "Previsivo, Não Reativo",
-            "desc": "Receba alertas antes que os problemas se tornem caros. Recomendações do Sundae Coach para ação imediata - não painéis que atualizam.",
+            "question": "O ciclo está mesmo fechando?",
+            "title": "Saúde do ciclo",
+            "desc": "Veja quantos vazamentos detectados realmente chegam a um resultado medido - a taxa real de fechamento, não uma contagem de fachada. É o único número que mostra que o ciclo está funcionando, e ele continua honesto quando esse número é baixo.",
             "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "title": "Cada Local, Uma Visão",
-            "desc": "Visibilidade unificada em todos os locais. Padrões em nível de portfólio e detalhes em nível de local em um único painel.",
-            "icon": "multiLocation",
+            "question": "Isso teria acontecido de qualquer forma?",
+            "title": "Bases comparáveis",
+            "desc": "Cada valor recuperado é medido contra uma base equivalente de uma semana inteira - os mesmos dias, o mesmo ritmo - para que um ganho real nunca seja confundido com uma semana apenas movimentada.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "title": "Cresce Com Você",
-            "desc": "De 10 a mais de 1.000 locais. Core Lite, Pro ou Enterprise - a plataforma se expande conforme você cresce.",
-            "icon": "performance",
+            "question": "Ele se pagou?",
+            "title": "Retorno sobre a Sundae",
+            "desc": "Veja o valor que você recuperou frente ao que paga, período a período - a prova, em dinheiro medido, de que a Sundae cobre bem mais que o seu custo.",
+            "icon": "finance",
             "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "E quando a evidência não está lá, a Sundae diz isso. Todo resultado permanece direcional até que uma pessoa o confirme, e um detector prefere ficar em silêncio a inventar um número."
       },
-      "tiers": {
-        "eyebrow": "ESCOLHA SEU NÍVEL",
-        "heading": "Três Níveis para Cada Escala",
-        "description": "De operações em crescimento a empresas globais. Escolha sua velocidade.",
-        "bestForLabel": "Melhor para:",
-        "viewPrefix": "Ver",
-        "items": [
-          {
-            "name": "Core Lite",
-            "badge": "Operações em Crescimento",
-            "subtitle": "Inteligência em Tempo Real para 1-29 Localizações",
-            "description": "Para grupos de restaurantes que estão escalando de operações de uma única localização para múltiplas localizações. Ciclos de atualização de 4 horas e integração com um único POS.",
-            "features": [
-              "Atualização a cada 4 horas (6x diárias)",
-              "600 créditos base + 120/localização",
-              "30 painéis personalizados",
-              "Retenção de 2 anos",
-              "Integração com um único POS",
-              "Suporte por Email + Chat + Telefone"
-            ],
-            "bestFor": "1-10 localizações, portfólios de marca única",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
-          },
-          {
-            "name": "Core Pro",
-            "badge": "Mais Popular",
-            "subtitle": "Otimizado para Portfólios de 30-100 Localizações",
-            "description": "Para operadores estabelecidos de múltiplas localizações que precisam de ciclos de atualização mais rápidos e previsões avançadas entre marcas.",
-            "features": [
-              "Atualização a cada 2 horas (12x diárias)",
-              "1.200 créditos base + 240/localização",
-              "75 painéis personalizados",
-              "Retenção de 3 anos",
-              "Suporte Multi-POS",
-              "Suporte telefônico prioritário (SLA de 2h)"
-            ],
-            "bestFor": "30-100 localizações, operadores de múltiplas marcas",
-            "color": "from-[#F2B45C] to-[#C2410C]"
-          },
-          {
-            "name": "Enterprise",
-            "badge": "Personalização Total",
-            "subtitle": "Construído para 100+ Localizações",
-            "description": "Para operações em grande escala que exigem frequência de atualização personalizada, painéis ilimitados, marca branca, SSO e suporte dedicado.",
-            "features": [
-              "Frequência de atualização personalizada",
-              "Créditos ilimitados",
-              "Painéis ilimitados",
-              "Retenção personalizada",
-              "Marca branca, SSO, CSM dedicado",
-              "Suporte 24/7 com SLAs personalizados"
-            ],
-            "bestFor": "100+ localizações, empresas de múltiplas marcas",
-            "color": "from-orange-500 to-orange-600"
-          }
-        ]
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Conectado ao seu POS, mão de obra, inventário e todos os sistemas que importam. O Core encontra o vazamento de margem, encaminha a correção a um responsável nomeado e mede a margem recuperada em relação a uma linha de base.",
+        "primary": "Explore os Níveis do Core",
+        "secondary": "Agende uma Demonstração",
+        "title": "Encontre o vazamento. Recupere a margem."
       },
       "dimensions": {
         "heading": "O Modelo de Inteligência 4D",
@@ -1569,7 +1159,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Incluído com o Core",
         "heading": "Pulse: Seu Centro de Comando de Turno",
-        "description": "Veja anomalias no momento em que acontecem. Treine sua equipe em tempo real. Confirme os resultados antes do final do turno.",
+        "description": "Veja anomalias no momento em que acontecem. Encaminhe a correção ao gerente do turno. Depois meça a margem que você recuperou em relação à linha de base.",
         "features": [
           {
             "name": "Vendas & Ritmo",
@@ -1687,134 +1277,120 @@ export const generatedLocalCopy = {
         "button": "Explore Todos os Módulos"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Inteligência Completa",
+        "heading": "O Watchtower traz o mundo exterior para dentro do Core",
         "description": "Core informa como você está se saindo agora. Watchtower mostra o que está acontecendo ao seu redor. Juntos, eles oferecem uma visão completa - operações internas e contexto de mercado externo em uma única camada de inteligência.",
         "button": "Saiba Mais Sobre o Watchtower"
       },
-      "faq": {
-        "heading": "Perguntas Frequentes",
-        "items": [
-          {
-            "q": "Qual é a diferença entre Core Lite e Core Pro?",
-            "a": "Core Lite: atualização a cada 4 horas, 600 créditos base, 30 painéis, um único POS. Core Pro: atualização a cada 2 horas, 1.200 créditos base, 75 painéis, suporte a múltiplos POS."
-          },
-          {
-            "q": "Posso fazer upgrade de Report para Core?",
-            "a": "Sim. Todos os dados históricos são preservados. Transição sem perda de dados."
-          },
-          {
-            "q": "Preciso do Core se eu tiver apenas 5 locais?",
-            "a": "Não é obrigatório, mas recomendado se você precisar de velocidade operacional (atualização de 2-4 horas). Report funciona bem para 1-10 locais se relatórios diários forem suficientes."
-          },
-          {
-            "q": "O Core pode lidar com múltiplos sistemas POS?",
-            "a": "Core Pro e Enterprise suportam ambientes multi-POS. Core Lite suporta um único POS em todos os locais."
-          },
-          {
-            "q": "Posso usar o Core com o Watchtower?",
-            "a": "Altamente recomendado. O Core fornece inteligência interna, o Watchtower adiciona inteligência de mercado externa para visibilidade completa."
-          },
-          {
-            "q": "Posso usar o Core com Módulos?",
-            "a": "Sim. Todos os 5 módulos especializados funcionam com o Core para aprofundar a inteligência em áreas operacionais específicas."
-          }
-        ]
-      },
       "cta": {
-        "title": "Pare de Gerenciar Números do Ontem",
-        "description": "Veja como é a inteligência operacional em tempo real com seus dados reais.",
+        "title": "Pare de relatar o vazamento. Recupere-o.",
+        "description": "Veja o Core encontrar o vazamento, encaminhar a correção e medir a margem recuperada em relação à sua linha de base - com seus dados reais.",
         "primary": "Explore os Níveis do Core",
         "secondary": "Agende uma Demonstração"
-      }
-    },
-    "it": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core si aggiorna ogni 2-4 ore così puoi agire durante il turno - non dopo che il danno è fatto.",
-        "primary": "Esplora i livelli di Core",
-        "secondary": "Prenota una demo",
-        "title": "Operazioni in tempo reale. Non report di fine giornata."
       },
-      "realTime": {
-        "heading": "Il Livello di Intelligenza in Tempo Reale",
-        "description": "Progettato per gli operatori che non possono aspettare i report di fine giornata. Che tu gestisca 10 sedi o 100+, Core ti offre la velocità per vedere cosa sta succedendo ora, capire perché è importante e ricevere azioni consigliate prima che i problemi si aggravino.",
-        "cards": [
+      "solves": {
+        "eyebrow": "PARA ONDE VAI A MARGEM",
+        "heading": "Quatro pontos por onde o lucro vaza. Seu pacote decide quais você fecha.",
+        "description": "Comece pela perda, não pela licença. Cada pacote cobre um conjunto diferente dos quatro - o Core Performance cobre todos.",
+        "areas": [
           {
-            "title": "Predittivo, Non Reattivo",
-            "desc": "Ricevi avvisi prima che i problemi diventino costosi. Raccomandazioni di Sundae Coach per azioni immediate - non dashboard che si aggiornano.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Receita e Lucro",
+            "loss": "Cancelamentos, cortesias, descontos e itens mal precificados que nunca aparecem como uma linha que dá para questionar.",
+            "covered": "Inteligência de receita e lucro, garantia de receita, contribuição por item."
           },
           {
-            "title": "Ogni Sede, Un'unica Vista",
-            "desc": "Visibilità unificata su tutte le sedi. Modelli a livello di portafoglio e dettagli a livello di sede in un'unica visualizzazione.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Alimentos e Suprimentos",
+            "loss": "A diferença entre o que você comprou, o que usou e o que vendeu - desperdício, variação e alta silenciosa de fornecedor.",
+            "covered": "Inteligência de estoque e compras, uso teórico versus real, movimento de fornecedores."
           },
           {
-            "title": "Cresce Con Te",
-            "desc": "Da 10 a oltre 1.000 sedi. Core Lite, Pro o Enterprise - la piattaforma si adatta alla tua crescita.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Cliente e Mercado",
+            "loss": "Clientes que nunca chegam, clientes que não voltam e margem de canal comida pela comissão.",
+            "covered": "Experiência do cliente e CRM, reservas, economia de delivery, atribuição de marketing, comparativos de mercado."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decisões tomadas tarde, com números do mês passado, sem como saber depois se funcionaram.",
+            "covered": "Previsão, modelagem de cenários e a camada de ação com aprovação no fluxo. Uma expansão sobre o Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "SCEGLI IL TUO LIVELLO",
-        "heading": "Tre Livelli per Ogni Scala",
-        "description": "Dalle operazioni in crescita alle imprese globali. Scegli la tua velocità.",
-        "bestForLabel": "Ideale per:",
-        "viewPrefix": "Vedi",
+        "eyebrow": "ESCOLHA SEU PACOTE",
+        "heading": "Quatro pacotes Core",
+        "description": "Cada pacote cobre um conjunto diferente das quatro áreas. Escolha o que corresponde a por onde sua margem está indo.",
+        "bestForLabel": "Ideal para:",
+        "viewPrefix": "Ver",
+        "priceLabel": "primeira unidade / mês",
+        "bandsLabel": "Depois, por unidade adicional",
+        "walletLabel": "créditos de IA / mês",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Operazioni in Crescita",
-            "subtitle": "Intelligenza in Tempo Reale per 1-29 Località",
-            "description": "Per gruppi di ristoranti che si espandono da una singola località a operazioni multi-località. Cicli di aggiornamento di 4 ore e integrazione con un solo POS.",
-            "features": [
-              "Aggiornamento ogni 4 ore (6x al giorno)",
-              "600 crediti base + 120/località",
-              "30 dashboard personalizzate",
-              "Conservazione di 2 anni",
-              "Integrazione con un solo POS",
-              "Supporto via Email + Chat + Telefono"
-            ],
-            "bestFor": "1-10 località, portafogli a marchio singolo",
+            "areas": "Cobre Receita e Lucro",
+            "badge": "Comece aqui",
+            "subtitle": "A base operacional",
+            "description": "Um só lugar para decidir, sobre POS, mão de obra, custo e operação, atualizado enquanto o turno ainda corre.",
+            "bestFor": "Grupos saindo de planilhas e painéis desconectados"
+          },
+          {
+            "areas": "Cobre Receita e Lucro, Alimentos e Suprimentos",
+            "badge": "Mais escolhido",
+            "subtitle": "Profundidade em custo e vazamento",
+            "description": "Uso teórico versus real, desperdício, quebra, cancelamentos e cortesias, e contribuição por item.",
+            "bestFor": "Operadores cuja margem vaza mais rápido do que conseguem ver"
+          },
+          {
+            "areas": "Cobre Receita e Lucro, Cliente e Mercado",
+            "badge": "Lado da demanda",
+            "subtitle": "Profundidade em demanda",
+            "description": "Coortes de clientes e valor ao longo do tempo, atribuição de promoções por canal, margem de delivery após comissão.",
+            "bestFor": "Grupos apostando em receita recorrente e mix de canais"
+          },
+          {
+            "areas": "Cobre as quatro áreas, incl. Foresight & Action",
+            "badge": "Profundidade total",
+            "subtitle": "Multimarca, multirregião",
+            "description": "Consolidação entre marcas e regiões, correlação entre módulos, acesso governado com trilha de auditoria.",
+            "bestFor": "Grandes grupos com várias marcas ou vários mercados"
+          }
+        ]
+      }
+    },
+    "it": {
+      "proof": {
+        "eyebrow": "COME SAI CHE È REALE",
+        "heading": "Chiunque può dichiarare un recupero. Sundae ti fa verificare.",
+        "description": "Un valore recuperato merita fiducia solo se puoi vedere se è davvero accaduto. Sundae risponde alle tre domande che un operatore attento - o il suo CFO - si pone sempre.",
+        "items": [
+          {
+            "question": "Il ciclo si sta davvero chiudendo?",
+            "title": "Salute del ciclo",
+            "desc": "Guarda quante perdite rilevate arrivano davvero a un risultato misurato - il vero tasso di chiusura, non un numero di facciata. È l'unico dato che ti dice che il ciclo funziona, e resta onesto anche quando quel numero è basso.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Il Più Popolare",
-            "subtitle": "Ottimizzato per Portafogli da 30 a 100 Località",
-            "description": "Per operatori multi-località affermati che necessitano di cicli di aggiornamento più rapidi e previsioni avanzate tra i marchi.",
-            "features": [
-              "Aggiornamento ogni 2 ore (12x al giorno)",
-              "1.200 crediti base + 240/località",
-              "75 dashboard personalizzate",
-              "Conservazione di 3 anni",
-              "Supporto Multi-POS",
-              "Supporto telefonico prioritario (SLA di 2 ore)"
-            ],
-            "bestFor": "30-100 località, operatori multi-marchio",
+            "question": "Sarebbe successo comunque?",
+            "title": "Basi di confronto equivalenti",
+            "desc": "Ogni valore recuperato è misurato rispetto a una base equivalente su una settimana intera - stessi giorni, stesso ritmo - così un guadagno reale non viene mai scambiato per una semplice settimana intensa.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Personalizzazione Totale",
-            "subtitle": "Creato per 100+ Località",
-            "description": "Per operazioni su larga scala che richiedono frequenza di aggiornamento personalizzata, dashboard illimitate, white-label, SSO e supporto dedicato.",
-            "features": [
-              "Frequenza di aggiornamento personalizzata",
-              "Crediti illimitati",
-              "Dashboard illimitate",
-              "Conservazione personalizzata",
-              "White-label, SSO, CSM dedicato",
-              "Supporto 24/7 con SLA personalizzati"
-            ],
-            "bestFor": "100+ località, imprese multi-marchio",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Si è ripagato da solo?",
+            "title": "Ritorno su Sundae",
+            "desc": "Guarda il valore recuperato messo a confronto con quello che paghi, periodo per periodo - la prova, in denaro misurato, che Sundae copre ampiamente il suo costo.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "E quando la prova non c'è, Sundae lo dice. Ogni risultato resta indicativo finché una persona non lo conferma, e un rilevatore preferisce tacere piuttosto che inventare un numero."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Collegato al tuo POS, lavoro, inventario e a tutti i sistemi che contano. Core trova la falla di margine, assegna la correzione a un responsabile con nome e misura il margine recuperato rispetto a una linea di base.",
+        "primary": "Esplora i livelli di Core",
+        "secondary": "Prenota una demo",
+        "title": "Trova la falla. Recupera il margine."
       },
       "dimensions": {
         "heading": "Il Modello di Intelligenza 4D",
@@ -1857,7 +1433,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Incluso con Core",
         "heading": "Pulse: Il tuo Centro di Comando per i Turni",
-        "description": "Vedi le anomalie nel momento in cui si verificano. Allena il tuo team in tempo reale. Conferma i risultati prima della fine del turno.",
+        "description": "Vedi le anomalie nel momento in cui si verificano. Assegna la correzione al responsabile del turno. Poi misura il margine recuperato rispetto alla linea di base.",
         "features": [
           {
             "name": "Vendite & Ritmo",
@@ -1975,134 +1551,120 @@ export const generatedLocalCopy = {
         "button": "Esplora Tutti i Moduli"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Intelligenza Completa",
+        "heading": "Watchtower porta il mondo esterno dentro Core",
         "description": "Core ti dice come stai performando in questo momento. Watchtower ti informa su ciò che sta accadendo intorno a te. Insieme, ti offrono un quadro completo - operazioni interne e contesto di mercato esterno in un unico livello di intelligenza.",
         "button": "Scopri di più su Watchtower"
       },
-      "faq": {
-        "heading": "Domande Frequenti",
-        "items": [
-          {
-            "q": "Qual è la differenza tra Core Lite e Core Pro?",
-            "a": "Core Lite: aggiornamento ogni 4 ore, 600 crediti base, 30 dashboard, POS singolo. Core Pro: aggiornamento ogni 2 ore, 1.200 crediti base, 75 dashboard, supporto multi-POS."
-          },
-          {
-            "q": "Posso passare da Report a Core?",
-            "a": "Sì. Tutti i dati storici sono preservati. Transizione senza perdita di dati."
-          },
-          {
-            "q": "Ho bisogno di Core se ho solo 5 sedi?",
-            "a": "Non è necessario, ma consigliato se hai bisogno di velocità operativa (aggiornamento ogni 2-4 ore). Report funziona bene per 1-10 sedi se i report giornalieri sono sufficienti."
-          },
-          {
-            "q": "Core può gestire più sistemi POS?",
-            "a": "Core Pro ed Enterprise supportano ambienti multi-POS. Core Lite supporta un POS singolo in tutte le sedi."
-          },
-          {
-            "q": "Posso usare Core con Watchtower?",
-            "a": "Fortemente consigliato. Core fornisce intelligenza interna, Watchtower aggiunge intelligenza di mercato esterna per una visibilità completa."
-          },
-          {
-            "q": "Posso usare Core con i Moduli?",
-            "a": "Sì. Tutti e 5 i moduli specializzati funzionano con Core per approfondire l'intelligenza in aree operative specifiche."
-          }
-        ]
-      },
       "cta": {
-        "title": "Smetti di Gestire i Numeri di Ieri",
-        "description": "Scopri come appare l'intelligenza operativa in tempo reale con i tuoi dati reali.",
+        "title": "Smetti di segnalare la falla. Recuperala.",
+        "description": "Guarda Core trovare la falla, assegnare la correzione e misurare il margine recuperato rispetto alla tua linea di base - con i tuoi dati reali.",
         "primary": "Esplora i Livelli di Core",
         "secondary": "Prenota una Demo"
-      }
-    },
-    "hi": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core हर 2-4 घंटे में अपडेट होता है ताकि आप शिफ्ट के दौरान कार्रवाई कर सकें - नुकसान होने के बाद नहीं।",
-        "primary": "Core स्तरों का अन्वेषण करें",
-        "secondary": "डेमो बुक करें",
-        "title": "रियल-टाइम ऑपरेशन। दिन के अंत की रिपोर्ट नहीं।"
       },
-      "realTime": {
-        "heading": "वास्तविक समय की बुद्धिमत्ता परत",
-        "description": "उन ऑपरेटरों के लिए बनाया गया है जो दिन के अंत की रिपोर्ट का इंतजार नहीं कर सकते। चाहे आप 10 स्थानों का प्रबंधन करें या 100+ का, Core आपको यह देखने की गति देता है कि अभी क्या हो रहा है, यह समझने के लिए कि यह क्यों महत्वपूर्ण है, और समस्याओं के बढ़ने से पहले अनुशंसित कार्रवाई प्राप्त करें।",
-        "cards": [
+      "solves": {
+        "eyebrow": "DOVE FINISCE IL MARGINE",
+        "heading": "Quattro punti da cui esce il profitto. Il tuo pacchetto decide quali chiudi.",
+        "description": "Parti dalla perdita, non dalla licenza. Ogni pacchetto copre un insieme diverso dei quattro - Core Performance li copre tutti.",
+        "areas": [
           {
-            "title": "पूर्वानुमानित, प्रतिक्रियाशील नहीं",
-            "desc": "समस्याएँ महंगी होने से पहले अलर्ट प्राप्त करें। तत्काल कार्रवाई के लिए Sundae Coach की अनुशंसाएँ - अपडेट होने वाले डैशबोर्ड नहीं।",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Ricavi e Margine",
+            "loss": "Storni, omaggi, sconti e articoli con prezzo sbagliato che non compaiono mai come una voce su cui puoi fare domande.",
+            "covered": "Intelligence su ricavi e margine, tutela dei ricavi, contribuzione per articolo."
           },
           {
-            "title": "हर स्थान, एक दृश्य",
-            "desc": "सभी स्थानों में एकीकृत दृश्यता। एकल पैन में पोर्टफोलियो-स्तरीय पैटर्न और स्थान-स्तरीय विवरण।",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Cibo e Forniture",
+            "loss": "Lo scarto tra ciò che hai ordinato, ciò che hai usato e ciò che hai venduto - sprechi, scostamenti e prezzi fornitore che salgono in silenzio.",
+            "covered": "Intelligence su magazzino e acquisti, consumo teorico rispetto al reale, andamento fornitori."
           },
           {
-            "title": "आपके साथ बढ़ता है",
-            "desc": "10 से 1,000+ स्थानों तक। Core Lite, Pro, या Enterprise - प्लेटफ़ॉर्म आपके साथ बढ़ता है।",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Ospiti e Mercato",
+            "loss": "Coperti che non arrivano mai, ospiti che non tornano e margine di canale eroso dalla commissione.",
+            "covered": "Esperienza ospite e CRM, prenotazioni, economia del delivery, attribuzione marketing, benchmark di settore."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decisioni prese tardi, sui numeri del mese scorso, senza poi poter dire se hanno funzionato.",
+            "covered": "Previsione, modellazione di scenari e il livello di azione con approvazione nel flusso. Un'espansione su Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "अपना स्तर चुनें",
-        "heading": "हर पैमाने के लिए तीन स्तर",
-        "description": "बढ़ते हुए संचालन से लेकर वैश्विक उद्यमों तक। अपनी गति चुनें।",
-        "bestForLabel": "सर्वश्रेष्ठ के लिए:",
-        "viewPrefix": "देखें",
+        "eyebrow": "SCEGLI IL TUO PACCHETTO",
+        "heading": "Quattro pacchetti Core",
+        "description": "Ogni pacchetto copre un insieme diverso delle quattro aree. Scegli quello che corrisponde a dove sta andando il tuo margine.",
+        "bestForLabel": "Ideale per:",
+        "viewPrefix": "Vedi",
+        "priceLabel": "prima sede / mese",
+        "bandsLabel": "Poi, per ogni sede aggiuntiva",
+        "walletLabel": "crediti IA / mese",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "बढ़ते हुए संचालन",
-            "subtitle": "1-29 स्थानों के लिए वास्तविक समय की जानकारी",
-            "description": "रेस्टोरेंट समूहों के लिए जो एकल स्थान से बहु-स्थान संचालन में बढ़ रहे हैं। 4-घंटे के रिफ्रेश चक्र और एकल POS एकीकरण।",
-            "features": [
-              "4-घंटे का रिफ्रेश (6x दैनिक)",
-              "600 बेस क्रेडिट + 120/स्थान",
-              "30 कस्टम डैशबोर्ड",
-              "2-वर्षीय रिटेंशन",
-              "एकल POS एकीकरण",
-              "ईमेल + चैट + फोन समर्थन"
-            ],
-            "bestFor": "1-10 स्थान, एकल-ब्रांड पोर्टफोलियो",
+            "areas": "Copre Ricavi e Margine",
+            "badge": "Inizia qui",
+            "subtitle": "La base operativa",
+            "description": "Un solo posto da cui decidere, su POS, personale, costi e operatività, aggiornato mentre il turno è ancora in corso.",
+            "bestFor": "Gruppi che stanno lasciando fogli di calcolo e dashboard scollegate"
+          },
+          {
+            "areas": "Copre Ricavi e Margine, Cibo e Forniture",
+            "badge": "Il più scelto",
+            "subtitle": "Profondità su costi e dispersione",
+            "description": "Consumo teorico rispetto al reale, sprechi, cali, storni e omaggi, e contribuzione per articolo.",
+            "bestFor": "Operatori il cui margine si disperde più in fretta di quanto riescano a vedere"
+          },
+          {
+            "areas": "Copre Ricavi e Margine, Ospiti e Mercato",
+            "badge": "Lato domanda",
+            "subtitle": "Profondità sulla domanda",
+            "description": "Coorti di ospiti e valore nel tempo, attribuzione promo per canale, margine delivery al netto della commissione.",
+            "bestFor": "Gruppi che puntano su ricavi ricorrenti e mix di canali"
+          },
+          {
+            "areas": "Copre tutte e quattro le aree, incl. Foresight & Action",
+            "badge": "Massima profondità",
+            "subtitle": "Multi-marca, multi-regione",
+            "description": "Consolidamento tra marche e regioni, correlazione tra moduli, accessi governati con tracciabilità.",
+            "bestFor": "Grandi gruppi con più marche o più mercati"
+          }
+        ]
+      }
+    },
+    "hi": {
+      "proof": {
+        "eyebrow": "आपको कैसे पता चलेगा कि यह असली है",
+        "heading": "वसूली का दावा कोई भी कर सकता है। Sundae आपको जाँच करने देता है।",
+        "description": "वसूली गई राशि पर तभी भरोसा करना ठीक है जब आप देख सकें कि वह सचमुच हुई या नहीं। Sundae उन तीन सवालों का जवाब देता है जो एक सतर्क ऑपरेटर - या उसका CFO - हमेशा पूछता है।",
+        "items": [
+          {
+            "question": "क्या लूप सचमुच बंद हो रहा है?",
+            "title": "लूप की सेहत",
+            "desc": "देखें कि पकड़े गए कितने रिसाव असल में मापे गए नतीजे तक पहुँचते हैं - असली क्लोज़-रेट, दिखावे की गिनती नहीं। यही वह एक आँकड़ा है जो बताता है कि लूप काम कर रहा है, और यह आँकड़ा कम होने पर भी ईमानदार बना रहता है।",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "सबसे लोकप्रिय",
-            "subtitle": "30-100 स्थानों के पोर्टफोलियो के लिए अनुकूलित",
-            "description": "स्थापित बहु-स्थान ऑपरेटरों के लिए जिन्हें ब्रांडों के बीच तेज रिफ्रेश चक्र और उन्नत पूर्वानुमान की आवश्यकता होती है।",
-            "features": [
-              "2-घंटे का रिफ्रेश (12x दैनिक)",
-              "1,200 बेस क्रेडिट + 240/स्थान",
-              "75 कस्टम डैशबोर्ड",
-              "3-वर्षीय रिटेंशन",
-              "मल्टी-POS समर्थन",
-              "प्राथमिकता फोन समर्थन (2 घंटे SLA)"
-            ],
-            "bestFor": "30-100 स्थान, बहु-ब्रांड ऑपरेटर",
+            "question": "क्या यह वैसे भी हो जाता?",
+            "title": "समरूप आधार-रेखाएँ",
+            "desc": "हर वसूली गई राशि को एक मेल खाती, पूरे-हफ़्ते की आधार-रेखा के मुक़ाबले मापा जाता है - वही दिन, वही लय - ताकि असली बढ़त को कभी किसी आम व्यस्त हफ़्ते समझ न लिया जाए।",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "कस्टम सब कुछ",
-            "subtitle": "100+ स्थानों के लिए निर्मित",
-            "description": "बड़े पैमाने पर संचालन के लिए जो कस्टम रिफ्रेश आवृत्ति, असीमित डैशबोर्ड, व्हाइट-लेबल, SSO, और समर्पित समर्थन की आवश्यकता होती है।",
-            "features": [
-              "कस्टम रिफ्रेश आवृत्ति",
-              "असीमित क्रेडिट",
-              "असीमित डैशबोर्ड",
-              "कस्टम रिटेंशन",
-              "व्हाइट-लेबल, SSO, समर्पित CSM",
-              "24/7 समर्थन कस्टम SLAs के साथ"
-            ],
-            "bestFor": "100+ स्थान, बहु-ब्रांड उद्यम",
-            "color": "from-orange-500 to-orange-600"
+            "question": "क्या इसने अपनी लागत निकाल दी?",
+            "title": "Sundae पर प्रतिफल",
+            "desc": "देखें कि आपने जो वसूला उसे आप जो चुकाते हैं उसके सामने रखकर, हर अवधि में - मापे गए पैसे में वह प्रमाण कि Sundae अपनी लागत से कहीं ज़्यादा वसूल कर देता है।",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "और जब प्रमाण मौजूद न हो, तो Sundae साफ़ कह देता है। हर नतीजा तब तक दिशा-सूचक भर रहता है जब तक कोई व्यक्ति उसकी पुष्टि न करे, और कोई डिटेक्टर आँकड़ा गढ़ने के बजाय चुप रहना बेहतर समझता है।"
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core मुनाफ़े का रिसाव ढूँढता है, सुधार को एक नामित जिम्मेदार व्यक्ति को सौंपता है, और वापस पाए गए मार्जिन को एक आधार रेखा के मुकाबले मापता है।",
+        "primary": "Core स्तरों का अन्वेषण करें",
+        "secondary": "डेमो बुक करें",
+        "title": "रिसाव खोजें। मुनाफ़ा वापस पाएं।"
       },
       "dimensions": {
         "heading": "4D इंटेलिजेंस मॉडल",
@@ -2145,7 +1707,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core के साथ शामिल",
         "heading": "Pulse: आपका शिफ्ट कमांड सेंटर",
-        "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। अपने टीम को वास्तविक समय में कोच करें। शिफ्ट खत्म होने से पहले परिणामों की पुष्टि करें।",
+        "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। सुधार को शिफ्ट प्रबंधक को सौंपें। फिर आपने जो मार्जिन वापस पाया उसे आधार रेखा के मुकाबले मापें।",
         "features": [
           {
             "name": "बिक्री और गति",
@@ -2263,134 +1825,120 @@ export const generatedLocalCopy = {
         "button": "सभी मॉड्यूल खोजें"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = संपूर्ण बुद्धिमत्ता",
+        "heading": "Watchtower बाहरी दुनिया को Core में लाता है",
         "description": "Core आपको बताता है कि आप अभी कैसे प्रदर्शन कर रहे हैं। Watchtower आपको बताता है कि आपके चारों ओर क्या हो रहा है। मिलकर, वे आपको संपूर्ण चित्र देते हैं - आंतरिक संचालन और बाहरी बाजार संदर्भ एक बुद्धिमत्ता परत में।",
         "button": "Watchtower के बारे में जानें"
       },
-      "faq": {
-        "heading": "अक्सर पूछे जाने वाले प्रश्न",
-        "items": [
-          {
-            "q": "Core Lite और Core Pro में क्या अंतर है?",
-            "a": "Core Lite: 4-घंटे का रिफ्रेश, 600 बेस क्रेडिट, 30 डैशबोर्ड, एकल POS। Core Pro: 2-घंटे का रिफ्रेश, 1,200 बेस क्रेडिट, 75 डैशबोर्ड, मल्टी-POS समर्थन।"
-          },
-          {
-            "q": "क्या मैं Report से Core में अपग्रेड कर सकता हूँ?",
-            "a": "हाँ। सभी ऐतिहासिक डेटा सुरक्षित रहता है। बिना डेटा हानि के संक्रमण।"
-          },
-          {
-            "q": "क्या मुझे Core की आवश्यकता है अगर मेरे पास केवल 5 स्थान हैं?",
-            "a": "आवश्यक नहीं, लेकिन यदि आपको संचालन की गति (2-4 घंटे का रिफ्रेश) की आवश्यकता है तो अनुशंसित है। यदि दैनिक रिपोर्ट पर्याप्त हैं तो Report 1-10 स्थानों के लिए शानदार काम करता है।"
-          },
-          {
-            "q": "क्या Core कई POS सिस्टम संभाल सकता है?",
-            "a": "Core Pro और Enterprise मल्टी-POS वातावरण का समर्थन करते हैं। Core Lite सभी स्थानों पर एकल POS का समर्थन करता है।"
-          },
-          {
-            "q": "क्या मैं Core को Watchtower के साथ उपयोग कर सकता हूँ?",
-            "a": "बहुत अनुशंसित। Core आंतरिक बुद्धिमत्ता प्रदान करता है, Watchtower बाहरी बाजार की बुद्धिमत्ता जोड़ता है ताकि पूर्ण दृश्यता मिल सके।"
-          },
-          {
-            "q": "क्या मैं Core को Modules के साथ उपयोग कर सकता हूँ?",
-            "a": "हाँ। सभी 5 विशेषीकृत मॉड्यूल Core के साथ काम करते हैं ताकि विशिष्ट संचालन क्षेत्रों में बुद्धिमत्ता को गहरा किया जा सके।"
-          }
-        ]
-      },
       "cta": {
-        "title": "कल के नंबरों का प्रबंधन करना बंद करें",
-        "description": "अपने वास्तविक डेटा के साथ वास्तविक समय की परिचालन बुद्धिमत्ता कैसी दिखती है, देखें।",
+        "title": "रिसाव की रिपोर्ट करना बंद करें। इसे वापस पाएं।",
+        "description": "देखें कि Core कैसे रिसाव ढूँढता है, सुधार सौंपता है, और वापस पाए गए मार्जिन को आपकी आधार रेखा के मुकाबले मापता है - आपके वास्तविक डेटा पर।",
         "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें"
-      }
-    },
-    "ur": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core ہر 2-4 گھنٹے میں تازہ ہوتا ہے تاکہ آپ شفٹ کے دوران عمل کر سکیں - نقصان کے بعد نہیں۔",
-        "primary": "Core سطحوں کا جائزہ لیں",
-        "secondary": "ڈیمو بک کریں",
-        "title": "ریئل ٹائم آپریشن۔ دن کے اختتام کی رپورٹیں نہیں۔"
       },
-      "realTime": {
-        "heading": "حقیقی وقت کی ذہانت کی پرت",
-        "description": "آپریٹرز کے لیے بنایا گیا جو دن کے آخر کی رپورٹوں کا انتظار نہیں کر سکتے۔ چاہے آپ 10 مقامات کا انتظام کریں یا 100+، Core آپ کو یہ دیکھنے کی رفتار فراہم کرتا ہے کہ اب کیا ہو رہا ہے، یہ سمجھنے کے لیے کہ یہ کیوں اہم ہے، اور مسائل بڑھنے سے پہلے تجویز کردہ اقدامات حاصل کریں۔",
-        "cards": [
+      "solves": {
+        "eyebrow": "मुनाफ़ा कहाँ जा रहा है",
+        "heading": "चार जगह मुनाफ़ा रिसता है. आपका पैकेज तय करता है कि आप कौन सी बंद करते हैं.",
+        "description": "लाइसेंस से नहीं, नुकसान से शुरू कीजिए. हर पैकेज इन चार में से अलग सेट कवर करता है - Core Performance चारों कवर करता है.",
+        "areas": [
           {
-            "title": "پیش گوئی، ردعمل نہیں",
-            "desc": "مسائل مہنگے ہونے سے پہلے الرٹس حاصل کریں۔ فوری کارروائی کے لیے Sundae Coach کی تجاویز - نہ کہ اپ ڈیٹ ہونے والے ڈیش بورڈز۔",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "राजस्व और मुनाफ़ा",
+            "loss": "वॉइड, कॉम्प, छूट और ग़लत दाम वाले आइटम, जो कभी ऐसी लाइन बनकर नहीं आते जिस पर आप सवाल कर सकें.",
+            "covered": "राजस्व और मुनाफ़ा इंटेलिजेंस, राजस्व आश्वासन, आइटम-स्तर योगदान."
           },
           {
-            "title": "ہر مقام، ایک نظر",
-            "desc": "تمام مقامات پر متحدہ بصیرت۔ پورٹ فولیو کی سطح کے پیٹرن اور مقام کی سطح کی تفصیلات ایک ہی پین میں۔",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "खाद्य और आपूर्ति",
+            "loss": "जो आपने मँगाया, जो इस्तेमाल हुआ और जो बिका - उसके बीच का फ़र्क: बर्बादी, अंतर और वेंडर के दाम का चुपचाप बढ़ना.",
+            "covered": "इन्वेंट्री और ख़रीद इंटेलिजेंस, सैद्धांतिक बनाम वास्तविक खपत, आपूर्तिकर्ता की चाल."
           },
           {
-            "title": "آپ کے ساتھ بڑھتا ہے",
-            "desc": "10 سے 1,000+ مقامات تک۔ Core Lite، Pro، یا Enterprise - یہ پلیٹ فارم آپ کے ساتھ بڑھتا ہے۔",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "मेहमान और बाज़ार",
+            "loss": "जो कवर कभी आते ही नहीं, जो मेहमान लौटकर नहीं आते, और कमीशन के बाद चैनल मार्जिन का ख़त्म हो जाना.",
+            "covered": "मेहमान अनुभव और CRM, आरक्षण, डिलीवरी अर्थशास्त्र, मार्केटिंग एट्रिब्यूशन, समकक्ष बेंचमार्क."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "देर से लिए गए फ़ैसले, पिछले महीने के आँकड़ों पर, और बाद में यह जानने का कोई रास्ता नहीं कि वे काम आए या नहीं.",
+            "covered": "पूर्वानुमान, परिदृश्य मॉडलिंग और मंज़ूरी-सहित एक्शन लेयर. Core के ऊपर एक विस्तार."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "اپنی سطح منتخب کریں",
-        "heading": "ہر پیمانے کے لیے تین سطحیں",
-        "description": "بڑھتی ہوئی کارروائیوں سے لے کر عالمی اداروں تک۔ اپنی رفتار منتخب کریں۔",
-        "bestForLabel": "بہترین کے لیے:",
-        "viewPrefix": "دیکھیں",
+        "eyebrow": "अपना पैकेज चुनिए",
+        "heading": "चार Core पैकेज",
+        "description": "हर पैकेज इन चार क्षेत्रों में से अलग सेट कवर करता है. वही चुनिए जो आपके मार्जिन के रिसाव से मेल खाता हो.",
+        "bestForLabel": "किसके लिए:",
+        "viewPrefix": "देखें",
+        "priceLabel": "पहला आउटलेट / माह",
+        "bandsLabel": "इसके बाद, हर अतिरिक्त आउटलेट पर",
+        "walletLabel": "AI क्रेडिट / माह",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "بڑھتی ہوئی کارروائیاں",
-            "subtitle": "1-29 مقامات کے لیے حقیقی وقت کی معلومات",
-            "description": "ریستوراں کے گروپوں کے لیے جو ایک مقام سے کئی مقامات کی کارروائیوں کی طرف بڑھ رہے ہیں۔ 4 گھنٹے کی تازہ کاری کے دورانیے اور ایک POS انضمام۔",
-            "features": [
-              "4 گھنٹے کی تازہ کاری (روزانہ 6 بار)",
-              "600 بنیادی کریڈٹس + 120/مقام",
-              "30 حسب ضرورت ڈیش بورڈ",
-              "2 سال کی برقرار رکھنے کی مدت",
-              "ایک POS انضمام",
-              "ای میل + چیٹ + فون سپورٹ"
-            ],
-            "bestFor": "1-10 مقامات، سنگل برانڈ پورٹ فولیو",
+            "areas": "राजस्व और मुनाफ़ा कवर करता है",
+            "badge": "यहाँ से शुरू करें",
+            "subtitle": "संचालन का आधार",
+            "description": "फ़ैसला लेने की एक जगह - POS, श्रम, लागत और संचालन पर, शिफ़्ट चलते-चलते ताज़ा होती हुई.",
+            "bestFor": "स्प्रेडशीट और बिखरे डैशबोर्ड छोड़ रहे समूह"
+          },
+          {
+            "areas": "राजस्व और मुनाफ़ा, खाद्य और आपूर्ति कवर करता है",
+            "badge": "सबसे लोकप्रिय",
+            "subtitle": "लागत और रिसाव में गहराई",
+            "description": "सैद्धांतिक बनाम वास्तविक खपत, बर्बादी, कमी, वॉइड और कॉम्प, और आइटम-स्तर योगदान.",
+            "bestFor": "वे संचालक जिनका मार्जिन देखने से तेज़ रिसता है"
+          },
+          {
+            "areas": "राजस्व और मुनाफ़ा, मेहमान और बाज़ार कवर करता है",
+            "badge": "माँग की तरफ़",
+            "subtitle": "माँग में गहराई",
+            "description": "मेहमान समूह और लाइफ़टाइम वैल्यू, चैनल-वार प्रोमो एट्रिब्यूशन, कमीशन के बाद डिलीवरी मार्जिन.",
+            "bestFor": "दोबारा आने वाली आमदनी और चैनल मिक्स पर ज़ोर देते समूह"
+          },
+          {
+            "areas": "चारों क्षेत्र कवर करता है, Foresight & Action सहित",
+            "badge": "पूरी गहराई",
+            "subtitle": "कई ब्रांड, कई क्षेत्र",
+            "description": "ब्रांड और क्षेत्रों के आर-पार समेकन, मॉड्यूल-पार सहसंबंध, ऑडिट ट्रेल के साथ नियंत्रित पहुँच.",
+            "bestFor": "कई ब्रांड या कई बाज़ार चलाने वाले बड़े समूह"
+          }
+        ]
+      }
+    },
+    "ur": {
+      "proof": {
+        "eyebrow": "آپ کیسے جانیں گے کہ یہ حقیقی ہے",
+        "heading": "بازیابی کا دعویٰ کوئی بھی کر سکتا ہے۔ Sundae آپ کو جانچنے دیتا ہے۔",
+        "description": "بازیاب کیا گیا عدد صرف تب قابلِ اعتماد ہے جب آپ دیکھ سکیں کہ وہ واقعی ہوا یا نہیں۔ Sundae اُن تین سوالوں کا جواب دیتا ہے جو ایک محتاط آپریٹر - یا اُس کا CFO - ہمیشہ پوچھتا ہے۔",
+        "items": [
+          {
+            "question": "کیا لوپ واقعی بند ہو رہا ہے؟",
+            "title": "لوپ کی صحت",
+            "desc": "دیکھیں کہ پکڑے گئے کتنے رساؤ واقعی ایک ماپے گئے نتیجے تک پہنچتے ہیں - اصل کلوز-ریٹ، نہ کہ نمائشی گنتی۔ یہی وہ واحد عدد ہے جو بتاتا ہے کہ لوپ کام کر رہا ہے، اور یہ عدد کم ہونے پر بھی ایماندار رہتا ہے۔",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "سب سے زیادہ مقبول",
-            "subtitle": "30-100 مقامات کے پورٹ فولیو کے لیے بہتر بنایا گیا",
-            "description": "موجودہ کئی مقامات کے آپریٹرز کے لیے جو تیز تر تازہ کاری کے دورانیے اور برانڈز کے درمیان جدید پیش گوئی کی ضرورت رکھتے ہیں۔",
-            "features": [
-              "2 گھنٹے کی تازہ کاری (روزانہ 12 بار)",
-              "1,200 بنیادی کریڈٹس + 240/مقام",
-              "75 حسب ضرورت ڈیش بورڈ",
-              "3 سال کی برقرار رکھنے کی مدت",
-              "کئی POS سپورٹ",
-              "ترجیحی فون سپورٹ (2 گھنٹے SLA)"
-            ],
-            "bestFor": "30-100 مقامات، ملٹی برانڈ آپریٹرز",
+            "question": "کیا یہ ویسے بھی ہو جاتا؟",
+            "title": "مساوی بنیادی خطوط",
+            "desc": "ہر بازیاب کردہ عدد ایک ہم آہنگ، پورے ہفتے کے بنیادی خط کے مقابلے میں ماپا جاتا ہے - وہی دن، وہی تال - تاکہ کسی حقیقی منافع کو کبھی محض ایک عام مصروف ہفتہ نہ سمجھ لیا جائے۔",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "ہر چیز حسب ضرورت",
-            "subtitle": "100+ مقامات کے لیے بنایا گیا",
-            "description": "بڑے پیمانے پر کارروائیوں کے لیے جو حسب ضرورت تازہ کاری کی تعدد، لامحدود ڈیش بورڈ، وائٹ لیبل، SSO، اور مخصوص سپورٹ کی ضرورت ہوتی ہے۔",
-            "features": [
-              "حسب ضرورت تازہ کاری کی تعدد",
-              "لامحدود کریڈٹس",
-              "لامحدود ڈیش بورڈ",
-              "حسب ضرورت برقرار رکھنے کی مدت",
-              "وائٹ لیبل، SSO، مخصوص CSM",
-              "24/7 سپورٹ کے ساتھ حسب ضرورت SLA"
-            ],
-            "bestFor": "100+ مقامات، ملٹی برانڈ انٹرپرائزز",
-            "color": "from-orange-500 to-orange-600"
+            "question": "کیا اِس نے اپنی لاگت نکال دی؟",
+            "title": "Sundae پر منافع",
+            "desc": "دیکھیں کہ آپ نے جو بازیاب کیا اُسے اُس کے مقابل رکھیں جو آپ ادا کرتے ہیں، ہر مدت میں - ماپی گئی رقم میں وہ ثبوت کہ Sundae اپنی لاگت سے کہیں زیادہ پوری کر دیتا ہے۔",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "اور جب ثبوت موجود نہ ہو، تو Sundae صاف کہہ دیتا ہے۔ ہر نتیجہ اُس وقت تک محض سمتی رہتا ہے جب تک کوئی انسان اُس کی تصدیق نہ کرے، اور کوئی ڈٹیکٹر عدد گھڑنے کے بجائے خاموش رہنا بہتر سمجھتا ہے۔"
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core منافع کے رساؤ کو تلاش کرتا ہے، درستگی کو ایک نامزد ذمہ دار کے سپرد کرتا ہے، اور بازیافت شدہ مارجن کو ایک بنیادی خط کے مقابلے میں ماپتا ہے۔",
+        "primary": "Core سطحوں کا جائزہ لیں",
+        "secondary": "ڈیمو بک کریں",
+        "title": "رساؤ تلاش کریں۔ منافع واپس حاصل کریں۔"
       },
       "dimensions": {
         "heading": "4D انٹیلیجنس ماڈل",
@@ -2433,7 +1981,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core کے ساتھ شامل",
         "heading": "Pulse: آپ کا شفٹ کمانڈ سینٹر",
-        "description": "انحرافات کو اس لمحے دیکھیں جب وہ ہوتے ہیں۔ اپنے ٹیم کو حقیقی وقت میں تربیت دیں۔ شفٹ ختم ہونے سے پہلے نتائج کی تصدیق کریں۔",
+        "description": "بے قاعدگیوں کو اسی لمحے دیکھیں جب وہ ہوتی ہیں۔ درستگی کو شفٹ مینیجر کے سپرد کریں۔ پھر جو مارجن آپ نے بازیافت کیا اسے بنیادی خط کے مقابلے میں ماپیں۔",
         "features": [
           {
             "name": "سیلز اور رفتار",
@@ -2551,134 +2099,120 @@ export const generatedLocalCopy = {
         "button": "تمام ماڈیولز دریافت کریں"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = مکمل ذہانت",
+        "heading": "Watchtower بیرونی دنیا کو Core میں لاتا ہے",
         "description": "Core آپ کو بتاتا ہے کہ آپ اس وقت کیسا کارکردگی دکھا رہے ہیں۔ Watchtower آپ کو بتاتا ہے کہ آپ کے ارد گرد کیا ہو رہا ہے۔ مل کر، یہ آپ کو مکمل تصویر فراہم کرتے ہیں - اندرونی آپریشنز اور بیرونی مارکیٹ کے سیاق و سباق کو ایک ذہانت کی تہہ میں۔",
         "button": "Watchtower کے بارے میں جانیں"
       },
-      "faq": {
-        "heading": "اکثر پوچھے جانے والے سوالات",
-        "items": [
-          {
-            "q": "Core Lite اور Core Pro میں کیا فرق ہے؟",
-            "a": "Core Lite: 4 گھنٹے کی تازہ کاری، 600 بنیادی کریڈٹس، 30 ڈیش بورڈز، ایک POS۔ Core Pro: 2 گھنٹے کی تازہ کاری، 1,200 بنیادی کریڈٹس، 75 ڈیش بورڈز، ملٹی-POS سپورٹ."
-          },
-          {
-            "q": "کیا میں Report سے Core میں اپ گریڈ کر سکتا ہوں؟",
-            "a": "جی ہاں۔ تمام تاریخی ڈیٹا محفوظ رہتا ہے۔ بغیر کسی ڈیٹا کے نقصان کے منتقلی."
-          },
-          {
-            "q": "کیا مجھے Core کی ضرورت ہے اگر میرے پاس صرف 5 مقامات ہیں؟",
-            "a": "ضروری نہیں، لیکن اگر آپ کو عملیاتی رفتار (2-4 گھنٹے کی تازہ کاری) کی ضرورت ہے تو تجویز کردہ ہے۔ Report 1-10 مقامات کے لیے بہترین کام کرتا ہے اگر روزانہ کی رپورٹس کافی ہوں."
-          },
-          {
-            "q": "کیا Core متعدد POS سسٹمز کو سنبھال سکتا ہے؟",
-            "a": "Core Pro اور Enterprise ملٹی-POS ماحول کی حمایت کرتے ہیں۔ Core Lite تمام مقامات پر ایک POS کی حمایت کرتا ہے."
-          },
-          {
-            "q": "کیا میں Core کو Watchtower کے ساتھ استعمال کر سکتا ہوں؟",
-            "a": "بہت تجویز کردہ۔ Core داخلی ذہانت فراہم کرتا ہے، Watchtower مکمل بصیرت کے لیے خارجی مارکیٹ کی ذہانت شامل کرتا ہے."
-          },
-          {
-            "q": "کیا میں Core کو Modules کے ساتھ استعمال کر سکتا ہوں؟",
-            "a": "جی ہاں۔ تمام 5 خصوصی ماڈیولز Core کے ساتھ کام کرتے ہیں تاکہ مخصوص عملیاتی علاقوں میں ذہانت کو گہرا کیا جا سکے."
-          }
-        ]
-      },
       "cta": {
-        "title": "کل کے اعداد و شمار کا انتظام کرنا بند کریں",
-        "description": "اپنے حقیقی ڈیٹا کے ساتھ حقیقی وقت کی عملی ذہانت کیسی نظر آتی ہے، یہ دیکھیں۔",
+        "title": "رساؤ کی رپورٹنگ بند کریں۔ اسے واپس حاصل کریں۔",
+        "description": "دیکھیں کہ Core کیسے رساؤ تلاش کرتا ہے، درستگی سونپتا ہے، اور بازیافت شدہ مارجن کو آپ کے بنیادی خط کے مقابلے میں ماپتا ہے - آپ کے حقیقی ڈیٹا پر۔",
         "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں"
-      }
-    },
-    "pl": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core odświeża się co 2-4 godziny, abyś mógł działać w trakcie zmiany - a nie po wyrządzeniu szkód.",
-        "primary": "Poznaj poziomy Core",
-        "secondary": "Umów się na demo",
-        "title": "Operacje w czasie rzeczywistym. Nie raporty na koniec dnia."
       },
-      "realTime": {
-        "heading": "Warstwa Inteligencji w Czasie Rzeczywistym",
-        "description": "Stworzona dla operatorów, którzy nie mogą czekać na raporty końca dnia. Niezależnie od tego, czy zarządzasz 10 lokalizacjami, czy 100+, Core daje Ci szybkość, aby zobaczyć, co się dzieje teraz, zrozumieć, dlaczego to ważne, i uzyskać zalecane działania, zanim problemy się zaostrzą.",
-        "cards": [
+      "solves": {
+        "eyebrow": "منافع کہاں جا رہا ہے",
+        "heading": "چار جگہیں جہاں سے منافع رستا ہے۔ آپ کا پیکیج طے کرتا ہے کہ آپ کون سی بند کرتے ہیں۔",
+        "description": "لائسنس سے نہیں، نقصان سے شروع کیجیے۔ ہر پیکیج ان چار میں سے مختلف سیٹ کور کرتا ہے - Core Performance چاروں کور کرتا ہے۔",
+        "areas": [
           {
-            "title": "Predykcyjne, a nie Reaktywne",
-            "desc": "Otrzymuj powiadomienia zanim problemy staną się kosztowne. Rekomendacje Sundae Coach do natychmiastowego działania - a nie pulpity nawigacyjne, które się aktualizują.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "آمدنی اور منافع",
+            "loss": "وائیڈ، کامپ، رعایتیں اور غلط قیمت والے آئٹم، جو کبھی ایسی لائن بن کر سامنے نہیں آتے جس پر آپ سوال کر سکیں۔",
+            "covered": "آمدنی اور منافع انٹیلیجنس، آمدنی کی یقین دہانی، آئٹم کی سطح پر شراکت۔"
           },
           {
-            "title": "Każda Lokalizacja, Jeden Widok",
-            "desc": "Zjednoczona widoczność we wszystkich lokalizacjach. Wzorce na poziomie portfela i szczegóły na poziomie lokalizacji w jednym oknie.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "خوراک اور رسد",
+            "loss": "جو آپ نے منگوایا، جو استعمال ہوا اور جو بکا - ان کے درمیان فرق: ضیاع، تفاوت اور سپلائر کی قیمتوں کا خاموش اضافہ۔",
+            "covered": "انوینٹری اور خریداری انٹیلیجنس، نظری بمقابلہ اصل استعمال، سپلائر کی حرکت۔"
           },
           {
-            "title": "Rośnie z Tobą",
-            "desc": "Od 10 do 1 000+ lokalizacji. Core Lite, Pro lub Enterprise - platforma rozwija się razem z Tobą.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "مہمان اور مارکیٹ",
+            "loss": "وہ کور جو کبھی آتے ہی نہیں، وہ مہمان جو لوٹ کر نہیں آتے، اور کمیشن کے بعد چینل مارجن کا ختم ہو جانا۔",
+            "covered": "مہمان کا تجربہ اور CRM، بکنگ، ڈیلیوری معیشت، مارکیٹنگ اٹریبیوشن، ہم پلہ بینچ مارک۔"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "دیر سے کیے گئے فیصلے، پچھلے مہینے کے اعداد پر، اور بعد میں یہ جاننے کا کوئی راستہ نہیں کہ وہ کام آئے یا نہیں۔",
+            "covered": "پیش گوئی، منظرنامہ ماڈلنگ اور منظوری کے ساتھ ایکشن پرت۔ Core کے اوپر ایک توسیع۔"
           }
         ]
       },
       "tiers": {
-        "eyebrow": "WYBIERZ SWÓJ POZIOM",
-        "heading": "Trzy Poziomy dla Każdej Skali",
-        "description": "Od rozwijających się operacji po globalne przedsiębiorstwa. Wybierz swoją prędkość.",
-        "bestForLabel": "Najlepsze dla:",
-        "viewPrefix": "Zobacz",
+        "eyebrow": "اپنا پیکیج منتخب کریں",
+        "heading": "چار Core پیکیج",
+        "description": "ہر پیکیج ان چار شعبوں میں سے مختلف سیٹ کور کرتا ہے۔ وہی منتخب کریں جو آپ کے مارجن کے رساؤ سے میل کھاتا ہو۔",
+        "bestForLabel": "کن کے لیے:",
+        "viewPrefix": "دیکھیں",
+        "priceLabel": "پہلا آؤٹ لیٹ / ماہ",
+        "bandsLabel": "اس کے بعد، ہر اضافی آؤٹ لیٹ پر",
+        "walletLabel": "AI کریڈٹ / ماہ",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Rozwijające się Operacje",
-            "subtitle": "Inteligencja w Czasie Rzeczywistym dla 1-29 Lokalizacji",
-            "description": "Dla grup restauracyjnych rozwijających się z jednej lokalizacji do wielu. Cykl odświeżania co 4 godziny i integracja z jednym POS.",
-            "features": [
-              "Odświeżanie co 4 godziny (6x dziennie)",
-              "600 podstawowych kredytów + 120/lokalizację",
-              "30 niestandardowych pulpitów nawigacyjnych",
-              "2-letnia retencja",
-              "Integracja z jednym POS",
-              "Wsparcie przez e-mail + czat + telefon"
-            ],
-            "bestFor": "1-10 lokalizacji, portfele jednobrandowe",
+            "areas": "آمدنی اور منافع کور کرتا ہے",
+            "badge": "یہاں سے شروع کریں",
+            "subtitle": "آپریشن کی بنیاد",
+            "description": "فیصلہ کرنے کی ایک جگہ - POS، محنت، لاگت اور آپریشن پر، شفٹ چلتے چلتے تازہ ہوتی ہوئی۔",
+            "bestFor": "اسپریڈ شیٹ اور بکھرے ڈیش بورڈ چھوڑتے گروپ"
+          },
+          {
+            "areas": "آمدنی اور منافع، خوراک اور رسد کور کرتا ہے",
+            "badge": "سب سے مقبول",
+            "subtitle": "لاگت اور رساؤ میں گہرائی",
+            "description": "نظری بمقابلہ اصل استعمال، ضیاع، کمی، وائیڈ اور کامپ، اور آئٹم کی سطح پر شراکت۔",
+            "bestFor": "وہ آپریٹر جن کا مارجن دیکھنے سے تیز رستا ہے"
+          },
+          {
+            "areas": "آمدنی اور منافع، مہمان اور مارکیٹ کور کرتا ہے",
+            "badge": "طلب کی طرف",
+            "subtitle": "طلب میں گہرائی",
+            "description": "مہمان گروہ اور لائف ٹائم ویلیو، چینل کے حساب سے پرومو اٹریبیوشن، کمیشن کے بعد ڈیلیوری مارجن۔",
+            "bestFor": "بار بار آنے والی آمدنی اور چینل مکس پر زور دیتے گروپ"
+          },
+          {
+            "areas": "چاروں شعبے کور کرتا ہے، بشمول Foresight & Action",
+            "badge": "مکمل گہرائی",
+            "subtitle": "کئی برانڈ، کئی خطے",
+            "description": "برانڈز اور خطوں کے آر پار یکجائی، ماڈیولز کے درمیان تعلق، آڈٹ ٹریل کے ساتھ ضابطہ بند رسائی۔",
+            "bestFor": "کئی برانڈ یا کئی مارکیٹ چلانے والے بڑے گروپ"
+          }
+        ]
+      }
+    },
+    "pl": {
+      "proof": {
+        "eyebrow": "SKĄD WIESZ, ŻE TO PRAWDA",
+        "heading": "Odzyskanie może zadeklarować każdy. Sundae pozwala to sprawdzić.",
+        "description": "Odzyskana kwota zasługuje na zaufanie tylko wtedy, gdy widzisz, czy naprawdę do niej doszło. Sundae odpowiada na trzy pytania, które zawsze zadaje uważny operator - albo jego CFO.",
+        "items": [
+          {
+            "question": "Czy pętla naprawdę się domyka?",
+            "title": "Kondycja pętli",
+            "desc": "Zobacz, ile wykrytych wycieków faktycznie kończy się zmierzonym wynikiem - realny wskaźnik domknięcia, a nie liczba na pokaz. To jedyna liczba, która mówi, że pętla działa, i pozostaje uczciwa, gdy ta liczba jest niska.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Najbardziej Popularny",
-            "subtitle": "Optymalizowany dla Portfeli 30-100 Lokalizacji",
-            "description": "Dla ustabilizowanych operatorów wielolokalowych, którzy potrzebują szybszych cykli odświeżania i zaawansowanego prognozowania w różnych markach.",
-            "features": [
-              "Odświeżanie co 2 godziny (12x dziennie)",
-              "1,200 podstawowych kredytów + 240/lokalizację",
-              "75 niestandardowych pulpitów nawigacyjnych",
-              "3-letnia retencja",
-              "Wsparcie dla wielu POS",
-              "Priorytetowe wsparcie telefoniczne (2 godziny SLA)"
-            ],
-            "bestFor": "30-100 lokalizacji, operatorzy wielobrandowi",
+            "question": "Czy i tak by się to wydarzyło?",
+            "title": "Porównywalne punkty odniesienia",
+            "desc": "Każda odzyskana kwota jest mierzona względem odpowiadającego, pełnotygodniowego punktu odniesienia - te same dni, ten sam rytm - żeby realnego zysku nigdy nie pomylić ze zwykłym ruchliwym tygodniem.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Niestandardowe Wszystko",
-            "subtitle": "Stworzony dla 100+ Lokalizacji",
-            "description": "Dla operacji na dużą skalę wymagających niestandardowej częstotliwości odświeżania, nieograniczonych pulpitów nawigacyjnych, białej etykiety, SSO i dedykowanego wsparcia.",
-            "features": [
-              "Niestandardowa częstotliwość odświeżania",
-              "Nieograniczone kredyty",
-              "Nieograniczone pulpity nawigacyjne",
-              "Niestandardowa retencja",
-              "Biała etykieta, SSO, dedykowany CSM",
-              "Wsparcie 24/7 z niestandardowymi SLA"
-            ],
-            "bestFor": "100+ lokalizacji, przedsiębiorstwa wielobrandowe",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Czy to się zwróciło?",
+            "title": "Zwrot z Sundae",
+            "desc": "Zobacz odzyskaną wartość zestawioną z tym, co płacisz, okres po okresie - dowód, w zmierzonych pieniądzach, że Sundae z nadwyżką pokrywa swój koszt.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "A gdy dowodów brakuje, Sundae to mówi. Każdy wynik pozostaje orientacyjny, dopóki nie potwierdzi go człowiek, a detektor woli milczeć, niż wymyślić liczbę."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Połączone z Twoim POS, pracą, zapasami i każdym istotnym systemem. Core znajduje wyciek marży, kieruje poprawkę do wskazanego właściciela i mierzy odzyskaną marżę względem linii bazowej.",
+        "primary": "Poznaj poziomy Core",
+        "secondary": "Umów się na demo",
+        "title": "Znajdź wyciek. Odzyskaj marżę."
       },
       "dimensions": {
         "heading": "Model Inteligencji 4D",
@@ -2721,7 +2255,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Wliczone w Core",
         "heading": "Pulse: Twoje Centrum Dowodzenia Zmianą",
-        "description": "Zobacz anomalie w momencie, gdy się pojawią. Trenuj swój zespół w czasie rzeczywistym. Potwierdź wyniki przed zakończeniem zmiany.",
+        "description": "Zobacz anomalie w momencie, gdy się pojawią. Skieruj poprawkę do menedżera na zmianie. Następnie zmierz odzyskaną marżę względem linii bazowej.",
         "features": [
           {
             "name": "Sprzedaż i Tempo",
@@ -2839,134 +2373,120 @@ export const generatedLocalCopy = {
         "button": "Zobacz wszystkie moduły"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Pełna Inteligencja",
+        "heading": "Watchtower wnosi świat zewnętrzny do Core",
         "description": "Core informuje, jak obecnie sobie radzisz. Watchtower mówi, co się dzieje wokół ciebie. Razem dają pełny obraz - wewnętrzne operacje i zewnętrzny kontekst rynkowy w jednej warstwie inteligencji.",
         "button": "Dowiedz się więcej o Watchtower"
       },
-      "faq": {
-        "heading": "Najczęściej Zadawane Pytania",
-        "items": [
-          {
-            "q": "Jaka jest różnica między Core Lite a Core Pro?",
-            "a": "Core Lite: odświeżanie co 4 godziny, 600 podstawowych kredytów, 30 pulpitów, pojedynczy POS. Core Pro: odświeżanie co 2 godziny, 1200 podstawowych kredytów, 75 pulpitów, wsparcie dla wielu POS."
-          },
-          {
-            "q": "Czy mogę zaktualizować z Report do Core?",
-            "a": "Tak. Wszystkie dane historyczne są zachowane. Przejście bez utraty danych."
-          },
-          {
-            "q": "Czy potrzebuję Core, jeśli mam tylko 5 lokalizacji?",
-            "a": "Nie jest wymagane, ale zalecane, jeśli potrzebujesz szybkości operacyjnej (odświeżanie co 2-4 godziny). Report działa świetnie dla 1-10 lokalizacji, jeśli codzienne raporty są wystarczające."
-          },
-          {
-            "q": "Czy Core obsługuje wiele systemów POS?",
-            "a": "Core Pro i Enterprise wspierają środowiska multi-POS. Core Lite obsługuje pojedynczy POS we wszystkich lokalizacjach."
-          },
-          {
-            "q": "Czy mogę używać Core z Watchtower?",
-            "a": "Zdecydowanie zalecane. Core zapewnia wewnętrzną inteligencję, Watchtower dodaje zewnętrzną inteligencję rynkową dla pełnej widoczności."
-          },
-          {
-            "q": "Czy mogę używać Core z Modułami?",
-            "a": "Tak. Wszystkie 5 specjalistycznych modułów działa z Core, aby pogłębić inteligencję w konkretnych obszarach operacyjnych."
-          }
-        ]
-      },
       "cta": {
-        "title": "Przestań zarządzać danymi z wczoraj",
-        "description": "Zobacz, jak wygląda rzeczywista inteligencja operacyjna w czasie rzeczywistym z Twoimi danymi.",
+        "title": "Przestań zgłaszać wyciek. Odzyskaj go.",
+        "description": "Zobacz, jak Core znajduje wyciek, kieruje poprawkę i mierzy odzyskaną marżę względem Twojej linii bazowej - na Twoich rzeczywistych danych.",
         "primary": "Zbadaj poziomy Core",
         "secondary": "Umów się na demo"
-      }
-    },
-    "tr": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, vardiya sırasında harekete geçebilmeniz için her 2-4 saatte bir yenilenir - hasar verildikten sonra değil.",
-        "primary": "Core Katmanlarını Keşfedin",
-        "secondary": "Demo Rezervasyonu Yap",
-        "title": "Gerçek zamanlı operasyon. Gün sonu raporları değil."
       },
-      "realTime": {
-        "heading": "Gerçek Zamanlı Zeka Katmanı",
-        "description": "Gün sonu raporlarını bekleyemeyen operatörler için tasarlandı. İster 10 lokasyon, ister 100+ yönetin, Core, şu anda neler olduğunu görme, neden önemli olduğunu anlama ve sorunlar büyümeden önce önerilen eylemleri alma hızını sunar.",
-        "cards": [
+      "solves": {
+        "eyebrow": "DOKĄD UCIEKA MARŻA",
+        "heading": "Cztery miejsca, w których ucieka zysk. Twój pakiet decyduje, które zamykasz.",
+        "description": "Zacznij od straty, nie od licencji. Każdy pakiet obejmuje inny zestaw z tych czterech - Core Performance obejmuje wszystkie.",
+        "areas": [
           {
-            "title": "Öngörücü, Tepkisel Değil",
-            "desc": "Sorunlar maliyetli hale gelmeden önce uyarılar alın. Hızlı eylem için Sundae Coach önerileri - güncellenen panolar değil.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Przychód i zysk",
+            "loss": "Storna, gratisy, rabaty i źle wycenione pozycje, które nigdy nie pojawiają się jako wiersz, o który można zapytać.",
+            "covered": "Analityka przychodu i zysku, ochrona przychodu, marża na pozycję."
           },
           {
-            "title": "Her Lokasyon, Tek Görünüm",
-            "desc": "Tüm lokasyonlar arasında birleşik görünürlük. Portföy düzeyinde kalıplar ve lokasyon düzeyinde detaylar tek bir pencerede.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Żywność i zaopatrzenie",
+            "loss": "Różnica między tym, co zamówiono, zużyto i sprzedano - straty, odchylenia i ciche podwyżki dostawców.",
+            "covered": "Analityka magazynu i zakupów, zużycie teoretyczne wobec rzeczywistego, ruchy dostawców."
           },
           {
-            "title": "Sizinle Büyür",
-            "desc": "10'dan 1.000+'e lokasyon. Core Lite, Pro veya Enterprise - platform sizinle birlikte ölçeklenir.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Goście i rynek",
+            "loss": "Nakrycia, które nigdy nie przychodzą, goście, którzy nie wracają, i marża kanału zjedzona przez prowizję.",
+            "covered": "Doświadczenie gościa i CRM, rezerwacje, ekonomia dostaw, atrybucja marketingu, porównania rynkowe."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decyzje podejmowane za późno, na liczbach z zeszłego miesiąca, bez możliwości sprawdzenia potem, czy zadziałały.",
+            "covered": "Prognozowanie, modelowanie scenariuszy i warstwa działania z akceptacją w obiegu. Rozszerzenie na Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "SEVİYENİZİ SEÇİN",
-        "heading": "Her Ölçek İçin Üç Seviye",
-        "description": "Büyüyen operasyonlardan küresel işletmelere. Hızınızı seçin.",
-        "bestForLabel": "En iyi için:",
-        "viewPrefix": "Gör",
+        "eyebrow": "WYBIERZ SWÓJ PAKIET",
+        "heading": "Cztery pakiety Core",
+        "description": "Każdy pakiet obejmuje inny zestaw z czterech obszarów. Wybierz ten, który odpowiada temu, dokąd ucieka twoja marża.",
+        "bestForLabel": "Dla kogo:",
+        "viewPrefix": "Zobacz",
+        "priceLabel": "pierwsza lokalizacja / miesiąc",
+        "bandsLabel": "Następnie za każdą kolejną lokalizację",
+        "walletLabel": "kredyty AI / miesiąc",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Büyüyen Operasyonlar",
-            "subtitle": "1-29 Lokasyon için Gerçek Zamanlı Zeka",
-            "description": "Tek lokasyondan çoklu lokasyona geçiş yapan restoran grupları için. 4 saatlik güncellemeler ve tek POS entegrasyonu.",
-            "features": [
-              "4 saatlik güncelleme (günde 6 kez)",
-              "600 temel kredi + 120/lokasyon",
-              "30 özel gösterge paneli",
-              "2 yıl saklama",
-              "Tek POS entegrasyonu",
-              "E-posta + Sohbet + Telefon desteği"
-            ],
-            "bestFor": "1-10 lokasyon, tek marka portföyleri",
+            "areas": "Obejmuje Przychód i zysk",
+            "badge": "Zacznij tutaj",
+            "subtitle": "Podstawa operacyjna",
+            "description": "Jedno miejsce, z którego decydujesz - o POS, pracy, kosztach i operacjach, odświeżane, gdy zmiana wciąż trwa.",
+            "bestFor": "Grupy odchodzące od arkuszy i rozłącznych pulpitów"
+          },
+          {
+            "areas": "Obejmuje Przychód i zysk, Żywność i zaopatrzenie",
+            "badge": "Najczęściej wybierany",
+            "subtitle": "Głębia w kosztach i stratach",
+            "description": "Zużycie teoretyczne wobec rzeczywistego, straty, ubytki, storna i gratisy oraz marża na pozycję.",
+            "bestFor": "Operatorzy, którym marża ucieka szybciej, niż to widzą"
+          },
+          {
+            "areas": "Obejmuje Przychód i zysk, Goście i rynek",
+            "badge": "Strona popytu",
+            "subtitle": "Głębia w popycie",
+            "description": "Kohorty gości i wartość w czasie, atrybucja promocji według kanału, marża dostaw po prowizji.",
+            "bestFor": "Grupy stawiające na powracający przychód i miks kanałów"
+          },
+          {
+            "areas": "Obejmuje wszystkie cztery obszary, w tym Foresight & Action",
+            "badge": "Pełna głębia",
+            "subtitle": "Wiele marek, wiele regionów",
+            "description": "Konsolidacja marek i regionów, korelacja między modułami, kontrolowany dostęp ze ścieżką audytu.",
+            "bestFor": "Duże grupy prowadzące kilka marek lub kilka rynków"
+          }
+        ]
+      }
+    },
+    "tr": {
+      "proof": {
+        "eyebrow": "GERÇEK OLDUĞUNU NASIL ANLARSINIZ",
+        "heading": "Geri kazanımı herkes iddia edebilir. Sundae doğrulamanıza izin verir.",
+        "description": "Geri kazanılan bir rakam, gerçekten olup olmadığını görebiliyorsanız güvenmeye değerdir. Sundae, dikkatli bir işletmecinin - ya da CFO'sunun - her zaman sorduğu üç soruyu yanıtlar.",
+        "items": [
+          {
+            "question": "Döngü gerçekten kapanıyor mu?",
+            "title": "Döngü sağlığı",
+            "desc": "Tespit edilen kaçakların kaçının gerçekten ölçülmüş bir sonuca ulaştığını görün - gösteriş için bir sayı değil, gerçek kapanma oranı. Döngünün çalıştığını söyleyen tek sayıdır ve o sayı düşükken bile dürüst kalır.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "En Popüler",
-            "subtitle": "30-100 Lokasyon Portföyleri İçin Optimize Edilmiş",
-            "description": "Markalar arasında daha hızlı güncellemeler ve gelişmiş tahminler gerektiren yerleşik çoklu lokasyon operatörleri için.",
-            "features": [
-              "2 saatlik güncelleme (günde 12 kez)",
-              "1,200 temel kredi + 240/lokasyon",
-              "75 özel gösterge paneli",
-              "3 yıl saklama",
-              "Çoklu POS desteği",
-              "Öncelikli telefon desteği (2 saat SLA)"
-            ],
-            "bestFor": "30-100 lokasyon, çoklu marka operatörleri",
+            "question": "Zaten olacak mıydı?",
+            "title": "Eşdeğer karşılaştırma tabanları",
+            "desc": "Geri kazanılan her rakam, eşleşen, tam haftalık bir taban çizgisiyle ölçülür - aynı günler, aynı ritim - böylece gerçek bir kazanç, sıradan yoğun bir haftayla asla karıştırılmaz.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Özel Her Şey",
-            "subtitle": "100+ Lokasyon İçin Tasarlandı",
-            "description": "Özel güncelleme sıklığı, sınırsız gösterge paneli, beyaz etiket, SSO ve özel destek gerektiren büyük ölçekli operasyonlar için.",
-            "features": [
-              "Özel güncelleme sıklığı",
-              "Sınırsız kredi",
-              "Sınırsız gösterge paneli",
-              "Özel saklama",
-              "Beyaz etiket, SSO, özel CSM",
-              "Özel SLA'larla 7/24 destek"
-            ],
-            "bestFor": "100+ lokasyon, çoklu marka işletmeleri",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Kendini amorti etti mi?",
+            "title": "Sundae getirisi",
+            "desc": "Geri kazandığınız değeri ödediğinizle dönem dönem karşılaştırın - ölçülmüş parayla, Sundae'nin maliyetini fazlasıyla karşıladığının kanıtı.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "Kanıt olmadığında ise Sundae bunu söyler. Her sonuç, bir insan doğrulayana kadar yönelim niteliğinde kalır ve bir dedektör, bir sayı uydurmaktansa susmayı yeğler."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "POS'unuz, iş gücünüz, envanteriniz ve önemli olan her sistemle bağlantılı. Core, kâr sızıntısını bulur, düzeltmeyi belirli bir sorumluya yönlendirir ve geri kazanılan marjı bir temel çizgiye göre ölçer.",
+        "primary": "Core Katmanlarını Keşfedin",
+        "secondary": "Demo Rezervasyonu Yap",
+        "title": "Sızıntıyı bulun. Kârı geri kazanın."
       },
       "dimensions": {
         "heading": "4D Zeka Modeli",
@@ -3009,7 +2529,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core ile Dahil",
         "heading": "Pulse: Vardiya Komuta Merkeziniz",
-        "description": "Anomalileri anında görün. Ekibinizi gerçek zamanlı olarak yönlendirin. Vardiya bitmeden sonuçları onaylayın.",
+        "description": "Anomalileri gerçekleştikleri anda görün. Düzeltmeyi vardiyadaki yöneticiye yönlendirin. Ardından geri kazandığınız marjı temel çizgiye göre ölçün.",
         "features": [
           {
             "name": "Satış & Hız",
@@ -3127,134 +2647,120 @@ export const generatedLocalCopy = {
         "button": "Tüm Modülleri Keşfedin"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Tam Zeka",
+        "heading": "Watchtower dış dünyayı Core’un içine taşır",
         "description": "Core, şu anda nasıl performans gösterdiğinizi söyler. Watchtower, etrafınızdaki olayları bildirir. Birlikte, size tam resmi sunar - iç operasyonlar ve dış pazar bağlamını tek bir zeka katmanında.",
         "button": "Watchtower Hakkında Bilgi Al"
       },
-      "faq": {
-        "heading": "Sıkça Sorulan Sorular",
-        "items": [
-          {
-            "q": "Core Lite ile Core Pro arasındaki fark nedir?",
-            "a": "Core Lite: 4 saatlik güncelleme, 600 temel kredi, 30 gösterge paneli, tek POS. Core Pro: 2 saatlik güncelleme, 1,200 temel kredi, 75 gösterge paneli, çoklu POS desteği."
-          },
-          {
-            "q": "Report'tan Core'a geçiş yapabilir miyim?",
-            "a": "Evet. Tüm geçmiş veriler korunur. Veri kaybı olmadan geçiş."
-          },
-          {
-            "q": "Sadece 5 lokasyonum varsa Core'a ihtiyacım var mı?",
-            "a": "Gerekli değil, ancak operasyonel hız (2-4 saatlik güncelleme) gerekiyorsa önerilir. Günlük raporlar yeterliyse Report 1-10 lokasyon için harika çalışır."
-          },
-          {
-            "q": "Core birden fazla POS sistemini yönetebilir mi?",
-            "a": "Core Pro ve Enterprise çoklu POS ortamlarını destekler. Core Lite tüm lokasyonlarda tek POS'u destekler."
-          },
-          {
-            "q": "Core'u Watchtower ile kullanabilir miyim?",
-            "a": "Kesinlikle önerilir. Core içsel zeka sağlar, Watchtower dış pazar zekası ekleyerek tam görünürlük sunar."
-          },
-          {
-            "q": "Core'u Modüller ile kullanabilir miyim?",
-            "a": "Evet. Tüm 5 özel modül, belirli operasyonel alanlarda zekayı derinleştirmek için Core ile çalışır."
-          }
-        ]
-      },
       "cta": {
-        "title": "Dünün Rakamlarını Yönetmeyi Bırakın",
-        "description": "Gerçek verilerinizle gerçek zamanlı operasyonel zekanın nasıl göründüğünü görün.",
+        "title": "Sızıntıyı raporlamayı bırakın. Onu geri kazanın.",
+        "description": "Core'un sızıntıyı nasıl bulduğunu, düzeltmeyi yönlendirdiğini ve geri kazanılan marjı temel çizginize göre ölçtüğünü görün - gerçek verilerinizle.",
         "primary": "Core Katmanlarını Keşfedin",
         "secondary": "Demo Talep Edin"
-      }
-    },
-    "zh-Hans": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "连接到您的POS、劳动力、库存和所有重要系统。Core每2-4小时刷新一次，让您在班次期间采取行动，而不是在损害发生后再处理。",
-        "primary": "探索Core层级",
-        "secondary": "预约演示",
-        "title": "实时运营，而非日终报表。"
       },
-      "realTime": {
-        "heading": "实时智能层",
-        "description": "为无法等待日终报告的运营商而构建。无论您管理10个地点还是100个以上，Core都能让您快速了解当前发生的事情，理解其重要性，并在问题升级之前获得推荐的行动方案。",
-        "cards": [
+      "solves": {
+        "eyebrow": "KÂR NEREYE GİDİYOR",
+        "heading": "Kârın sızdığı dört yer. Hangilerini kapatacağınıza paketiniz karar verir.",
+        "description": "Lisanstan değil, kayıptan başlayın. Her paket bu dördünün farklı bir kümesini kapsar - Core Performance hepsini kapsar.",
+        "areas": [
           {
-            "title": "预测，而非反应",
-            "desc": "在问题变得昂贵之前获得警报。Sundae Coach提供立即行动的建议，而不是更新的仪表板。",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Ciro ve Kâr",
+            "loss": "İptaller, ikramlar, indirimler ve yanlış fiyatlanmış ürünler - hiçbiri sorgulayabileceğiniz bir satır olarak görünmez.",
+            "covered": "Ciro ve kâr zekâsı, gelir güvencesi, ürün bazında katkı."
           },
           {
-            "title": "每个地点，一览无余",
-            "desc": "跨所有地点的统一可见性。组合级别的模式和地点级别的细节在一个视窗中。",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Gıda ve Tedarik",
+            "loss": "Sipariş ettiğiniz, kullandığınız ve sattığınız arasındaki fark - fire, sapma ve tedarikçi fiyatlarının sessiz tırmanışı.",
+            "covered": "Stok ve satın alma zekâsı, teorik ile gerçek kullanım, tedarikçi hareketi."
           },
           {
-            "title": "与您共同成长",
-            "desc": "从10个到1000个以上的地点。Core Lite、Pro或Enterprise - 平台随着您的发展而扩展。",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Misafir ve Pazar",
+            "loss": "Hiç gelmeyen kuverler, dönmeyen misafirler ve komisyondan sonra eriyen kanal marjı.",
+            "covered": "Misafir deneyimi ve CRM, rezervasyon, teslimat ekonomisi, pazarlama atfı, emsal kıyaslamaları."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Geç alınan kararlar, geçen ayın rakamlarıyla, sonrasında işe yarayıp yaramadığını anlamanın bir yolu olmadan.",
+            "covered": "Tahmin, senaryo modelleme ve onaylı aksiyon katmanı. Core üzerine bir genişleme."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "选择您的层级",
-        "heading": "适合各种规模的三个层级",
-        "description": "从成长中的运营到全球企业。选择您的速度。",
-        "bestForLabel": "最佳适用：",
-        "viewPrefix": "查看",
+        "eyebrow": "PAKETİNİZİ SEÇİN",
+        "heading": "Dört Core paketi",
+        "description": "Her paket dört alanın farklı bir kümesini kapsar. Marjınızın nereye gittiğine uyanı seçin.",
+        "bestForLabel": "Şunlar için:",
+        "viewPrefix": "Bakın",
+        "priceLabel": "ilk şube / ay",
+        "bandsLabel": "Sonrasında her ek şube için",
+        "walletLabel": "AI kredisi / ay",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "成长中的运营",
-            "subtitle": "适用于1-29个地点的实时智能",
-            "description": "适合从单一地点扩展到多地点运营的餐饮集团。4小时刷新周期和单一POS集成。",
-            "features": [
-              "4小时刷新（每天6次）",
-              "600基础积分 + 120/地点",
-              "30个自定义仪表板",
-              "2年数据保留",
-              "单一POS集成",
-              "电子邮件 + 聊天 + 电话支持"
-            ],
-            "bestFor": "1-10个地点，单品牌组合",
+            "areas": "Ciro ve Kâr'ı kapsar",
+            "badge": "Buradan başlayın",
+            "subtitle": "Operasyonel temel",
+            "description": "Karar vereceğiniz tek yer - POS, işgücü, maliyet ve operasyon üzerinde, vardiya sürerken tazelenen.",
+            "bestFor": "Tablolardan ve kopuk panolardan çıkan gruplar"
+          },
+          {
+            "areas": "Ciro ve Kâr ile Gıda ve Tedarik'i kapsar",
+            "badge": "En çok tercih edilen",
+            "subtitle": "Maliyet ve sızıntıda derinlik",
+            "description": "Teorik ile gerçek kullanım, fire, kayıp, iptal ve ikramlar, ürün bazında katkı.",
+            "bestFor": "Marjı görebildiğinden hızlı sızan işletmeler"
+          },
+          {
+            "areas": "Ciro ve Kâr ile Misafir ve Pazar'ı kapsar",
+            "badge": "Talep tarafı",
+            "subtitle": "Talepte derinlik",
+            "description": "Misafir kohortları ve yaşam boyu değer, kanal bazında promosyon atfı, komisyon sonrası teslimat marjı.",
+            "bestFor": "Tekrar eden ciroya ve kanal karmasına yüklenen gruplar"
+          },
+          {
+            "areas": "Dört alanı da kapsar, Foresight & Action dahil",
+            "badge": "Tam derinlik",
+            "subtitle": "Çok markalı, çok bölgeli",
+            "description": "Markalar ve bölgeler arası konsolidasyon, modüller arası korelasyon, denetim izli yönetişimli erişim.",
+            "bestFor": "Birden çok marka veya pazar işleten büyük gruplar"
+          }
+        ]
+      }
+    },
+    "zh-Hans": {
+      "proof": {
+        "eyebrow": "如何确认它是真的",
+        "heading": "谁都可以声称收回了利润。Sundae 让你亲自核实。",
+        "description": "一个收回的数字，只有当你能看清它是否真的发生过，才值得信任。Sundae 回答审慎的经营者--或其 CFO--总会追问的三个问题。",
+        "items": [
+          {
+            "question": "闭环真的在闭合吗？",
+            "title": "闭环健康度",
+            "desc": "看清检测到的泄漏中，有多少真正抵达了可衡量的结果--真实的闭合率，而非好看的计数。这是唯一能告诉你闭环正在运转的数字，即使这个数字很低，它也如实呈现。",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "最受欢迎",
-            "subtitle": "优化适用于30-100个地点的组合",
-            "description": "适合需要更快刷新周期和跨品牌高级预测的成熟多地点运营商。",
-            "features": [
-              "2小时刷新（每天12次）",
-              "1,200基础积分 + 240/地点",
-              "75个自定义仪表板",
-              "3年数据保留",
-              "多POS支持",
-              "优先电话支持（2小时服务水平协议）"
-            ],
-            "bestFor": "30-100个地点，多品牌运营商",
+            "question": "那本来不也会发生吗？",
+            "title": "同口径基线",
+            "desc": "每一个收回的数字，都与一条匹配的整周基线相比较--相同的日子、相同的节奏--这样真正的收益就绝不会被误认成一个普通的繁忙周。",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "定制一切",
-            "subtitle": "为100个以上地点而建",
-            "description": "适合需要自定义刷新频率、无限仪表板、白标、单点登录和专属支持的大型运营。",
-            "features": [
-              "自定义刷新频率",
-              "无限积分",
-              "无限仪表板",
-              "自定义数据保留",
-              "白标、单点登录、专属客户成功经理",
-              "24/7支持，具有自定义服务水平协议"
-            ],
-            "bestFor": "100个以上地点，多品牌企业",
-            "color": "from-orange-500 to-orange-600"
+            "question": "它收回成本了吗？",
+            "title": "Sundae 的投资回报",
+            "desc": "把你收回的价值与你支付的费用逐期并列查看--这就是用可衡量的金额给出的证据，证明 Sundae 远不止覆盖自身成本。",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "而当证据不足时，Sundae 会如实说明。每个结果在有人确认之前都只作方向性参考，检测器宁可保持沉默，也不会凭空编造数字。"
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "连接到您的POS、劳动力、库存和所有重要系统。Core找出利润泄漏，将修复分派给指定负责人，并按基线衡量收回的利润率。",
+        "primary": "探索Core层级",
+        "secondary": "预约演示",
+        "title": "找出泄漏。收回利润。"
       },
       "dimensions": {
         "heading": "4D智能模型",
@@ -3297,7 +2803,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "包含在Core中",
         "heading": "Pulse：您的班次指挥中心",
-        "description": "实时查看异常情况。实时指导您的团队。在班次结束前确认结果。",
+        "description": "异常发生的那一刻即可看到。将修复分派给当班经理。然后按基线衡量您收回的利润率。",
         "features": [
           {
             "name": "销售与节奏",
@@ -3415,134 +2921,120 @@ export const generatedLocalCopy = {
         "button": "探索所有模块"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = 完整智能",
+        "heading": "Watchtower 把外部世界带进 Core",
         "description": "Core 告诉你当前的表现。Watchtower 告诉你周围发生了什么。它们结合在一起，提供完整的视图 - 内部运营和外部市场背景在一个智能层中。",
         "button": "了解 Watchtower"
       },
-      "faq": {
-        "heading": "常见问题解答",
-        "items": [
-          {
-            "q": "Core Lite 和 Core Pro 有什么区别？",
-            "a": "Core Lite：4 小时刷新，600 基础积分，30 个仪表板，单一 POS。Core Pro：2 小时刷新，1,200 基础积分，75 个仪表板，多 POS 支持。"
-          },
-          {
-            "q": "我可以从 Report 升级到 Core 吗？",
-            "a": "可以。所有历史数据都会保留。过渡过程中不会丢失数据。"
-          },
-          {
-            "q": "如果我只有 5 个地点，我需要 Core 吗？",
-            "a": "不需要，但如果您需要操作速度（2-4 小时刷新），建议使用。对于 1-10 个地点，如果每日报告足够，Report 非常适用。"
-          },
-          {
-            "q": "Core 能处理多个 POS 系统吗？",
-            "a": "Core Pro 和 Enterprise 支持多 POS 环境。Core Lite 在所有地点支持单一 POS。"
-          },
-          {
-            "q": "我可以将 Core 与 Watchtower 一起使用吗？",
-            "a": "强烈推荐。Core 提供内部智能，Watchtower 增加外部市场智能，实现全面可见性。"
-          },
-          {
-            "q": "我可以将 Core 与模块一起使用吗？",
-            "a": "可以。所有 5 个专业模块与 Core 一起工作，以加深特定操作领域的智能。"
-          }
-        ]
-      },
       "cta": {
-        "title": "停止管理过时的数据",
-        "description": "查看您实际数据的实时运营智能是什么样的。",
+        "title": "别再上报泄漏--把它收回来。",
+        "description": "看看Core如何找出泄漏、分派修复，并按您的基线衡量收回的利润率--用您的真实数据。",
         "primary": "探索Core层级",
         "secondary": "预约演示"
-      }
-    },
-    "ja": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続されています。Coreは2〜4時間ごとに更新されるため、被害が出た後ではなく、シフト中に行動できます。",
-        "primary": "Coreティアを探る",
-        "secondary": "デモを予約",
-        "title": "リアルタイムの運営。日次レポートではなく。"
       },
-      "realTime": {
-        "heading": "リアルタイムインテリジェンスレイヤー",
-        "description": "日次レポートを待てないオペレーターのために構築されました。10のロケーションでも100以上でも、Coreは今何が起こっているかを迅速に把握し、それがなぜ重要なのかを理解し、問題が悪化する前に推奨アクションを得ることができます。",
-        "cards": [
+      "solves": {
+        "eyebrow": "利润流向哪里",
+        "heading": "利润从四处流失。你的套餐决定你先堵住哪几处。",
+        "description": "从损失出发，而不是从许可证出发。每个套餐覆盖四个领域中的不同组合，Core Performance 全部覆盖。",
+        "areas": [
           {
-            "title": "予測的、反応的ではない",
-            "desc": "問題が高額になる前にアラートを受け取ります。ダッシュボードの更新ではなく、即時アクションのためのSundae Coachの推奨。",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "营收与利润",
+            "loss": "作废、赠单、折扣和定价错误的菜品，从来不会变成一行你能追问的账。",
+            "covered": "营收与利润智能、营收保障、单品贡献。"
           },
           {
-            "title": "すべてのロケーション、1つのビュー",
-            "desc": "すべてのロケーションにわたる統一された可視性。ポートフォリオレベルのパターンとロケーションレベルの詳細を1つの画面で。",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "食材与供应",
+            "loss": "订货、用量与售出之间的差额，包括损耗、偏差和供应商悄悄涨价。",
+            "covered": "库存与采购智能、理论用量对比实际用量、供应商价格走势。"
           },
           {
-            "title": "あなたと共に成長",
-            "desc": "10から1,000以上のロケーションまで。Core Lite、Pro、またはEnterprise - プラットフォームはあなたの成長に合わせてスケールします。",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "客户与市场",
+            "loss": "始终没来的客位、不再回头的客人，以及被佣金吃掉的渠道毛利。",
+            "covered": "客户体验与 CRM、订位、外送经济性、营销归因、同行对标。"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "决策做得太晚，依据的是上个月的数字，事后也无从判断是否奏效。",
+            "covered": "预测、情景推演，以及带人工审批的行动层。这是 Core 之上的扩展。"
           }
         ]
       },
       "tiers": {
-        "eyebrow": "ティアを選択",
-        "heading": "すべての規模に対応する3つのティア",
-        "description": "成長中の運営からグローバル企業まで。あなたのスピードを選んでください。",
-        "bestForLabel": "最適:",
-        "viewPrefix": "見る",
+        "eyebrow": "选择你的套餐",
+        "heading": "四个 Core 套餐",
+        "description": "每个套餐覆盖四个领域中的不同组合。按你的利润流向来选。",
+        "bestForLabel": "适合：",
+        "viewPrefix": "查看",
+        "priceLabel": "首家门店 / 月",
+        "bandsLabel": "此后每增加一家门店",
+        "walletLabel": "AI 额度 / 月",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "成長中の運営",
-            "subtitle": "1-29店舗向けのリアルタイムインテリジェンス",
-            "description": "単一店舗から複数店舗の運営にスケールアップするレストラングループ向け。4時間ごとの更新サイクルと単一POS統合。",
-            "features": [
-              "4時間ごとの更新（1日6回）",
-              "600ベースクレジット + 120/店舗",
-              "30のカスタムダッシュボード",
-              "2年間のデータ保持",
-              "単一POS統合",
-              "メール + チャット + 電話サポート"
-            ],
-            "bestFor": "1-10店舗、単一ブランドポートフォリオ",
+            "areas": "覆盖营收与利润",
+            "badge": "从这里开始",
+            "subtitle": "运营基线",
+            "description": "一个下决定的地方，覆盖 POS、人力、成本与运营，班次进行中就在刷新。",
+            "bestFor": "正在摆脱表格和割裂看板的集团"
+          },
+          {
+            "areas": "覆盖营收与利润、食材与供应",
+            "badge": "最受欢迎",
+            "subtitle": "深入成本与流失",
+            "description": "理论用量对比实际用量、损耗、盘亏、作废与赠单，以及单品贡献。",
+            "bestFor": "利润流失速度快过自己能看清的经营者"
+          },
+          {
+            "areas": "覆盖营收与利润、客户与市场",
+            "badge": "需求侧",
+            "subtitle": "深入需求",
+            "description": "客户分群与终身价值、按渠道的促销归因、扣除佣金后的外送毛利。",
+            "bestFor": "发力复购收入与渠道结构的集团"
+          },
+          {
+            "areas": "覆盖全部四个领域，含 Foresight & Action",
+            "badge": "完整深度",
+            "subtitle": "多品牌、多区域",
+            "description": "跨品牌与跨区域合并、跨模块关联、带审计留痕的受控访问。",
+            "bestFor": "经营多个品牌或多个市场的大型集团"
+          }
+        ]
+      }
+    },
+    "ja": {
+      "proof": {
+        "eyebrow": "それが本物だとわかる理由",
+        "heading": "回収を主張するのは誰にでもできます。Sundaeなら、確かめられます。",
+        "description": "回収された数字は、それが本当に起きたかを確認できて初めて信頼に値します。Sundaeは、慎重な経営者--あるいはそのCFO--が必ず問う3つの質問に答えます。",
+        "items": [
+          {
+            "question": "ループは本当に閉じているか？",
+            "title": "ループの健全性",
+            "desc": "検知された漏れのうち、実際に測定済みの結果に至ったのはどれだけか--見栄えだけの件数ではなく、本当のクローズ率を確認できます。ループが機能していることを示す唯一の数字であり、その数字が低いときも正直なままです。",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "最も人気",
-            "subtitle": "30-100店舗ポートフォリオ向けに最適化",
-            "description": "ブランド間での迅速な更新サイクルと高度な予測が必要な確立された複数店舗運営者向け。",
-            "features": [
-              "2時間ごとの更新（1日12回）",
-              "1,200ベースクレジット + 240/店舗",
-              "75のカスタムダッシュボード",
-              "3年間のデータ保持",
-              "マルチPOSサポート",
-              "優先電話サポート（2時間SLA）"
-            ],
-            "bestFor": "30-100店舗、複数ブランド運営者",
+            "question": "どのみち起きていたのでは？",
+            "title": "同条件のベースライン",
+            "desc": "回収されたすべての数字は、一致する丸一週間のベースライン--同じ曜日、同じリズム--と照らして測定されます。だから本当の成果を、ただ忙しかった週と取り違えることはありません。",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "すべてカスタム",
-            "subtitle": "100店舗以上向けに構築",
-            "description": "カスタム更新頻度、無制限のダッシュボード、ホワイトラベル、SSO、専任サポートが必要な大規模運営向け。",
-            "features": [
-              "カスタム更新頻度",
-              "無制限のクレジット",
-              "無制限のダッシュボード",
-              "カスタムデータ保持",
-              "ホワイトラベル、SSO、専任CSM",
-              "カスタムSLAによる24/7サポート"
-            ],
-            "bestFor": "100店舗以上、複数ブランド企業",
-            "color": "from-orange-500 to-orange-600"
+            "question": "元は取れたのか？",
+            "title": "Sundaeの投資対効果",
+            "desc": "回収した価値を、支払う額と期ごとに並べて確認できます--測定された金額で、Sundaeがコストを十分に上回って賄っているという証拠です。",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "そして証拠がないときは、Sundaeはそうと告げます。すべての結果は人が確認するまで方向性を示すにとどまり、検知器は数字をでっち上げるくらいなら黙っています。"
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "あなたのPOS、労働、在庫、そして重要なすべてのシステムに接続。Coreは利益の漏れを見つけ、修正を指名された責任者に割り当て、回収したマージンをベースラインと照らして測定します。",
+        "primary": "Coreティアを探る",
+        "secondary": "デモを予約",
+        "title": "漏れを見つけ、利益を取り戻す。"
       },
       "dimensions": {
         "heading": "4Dインテリジェンスモデル",
@@ -3585,7 +3077,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Coreに含まれています",
         "heading": "Pulse: あなたのシフトコマンドセンター",
-        "description": "異常が発生した瞬間に確認できます。リアルタイムでチームを指導します。シフト終了前に結果を確認してください。",
+        "description": "異常が発生した瞬間に把握できます。修正をシフト責任者に割り当てます。そして回収したマージンをベースラインと照らして測定します。",
         "features": [
           {
             "name": "売上とペース",
@@ -3703,134 +3195,120 @@ export const generatedLocalCopy = {
         "button": "すべてのモジュールを探る"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = 完全なインテリジェンス",
+        "heading": "Watchtower が外の世界を Core に取り込みます",
         "description": "Coreは現在のパフォーマンスを教えてくれます。Watchtowerは周囲で何が起こっているかを知らせてくれます。これらを組み合わせることで、内部の運営と外部の市場コンテキストを一つのインテリジェンスレイヤーで把握できます。",
         "button": "Watchtowerについて学ぶ"
       },
-      "faq": {
-        "heading": "よくある質問",
-        "items": [
-          {
-            "q": "Core LiteとCore Proの違いは何ですか？",
-            "a": "Core Lite: 4時間ごとの更新、600ベースクレジット、30ダッシュボード、単一POS。Core Pro: 2時間ごとの更新、1,200ベースクレジット、75ダッシュボード、マルチPOSサポート。"
-          },
-          {
-            "q": "ReportからCoreにアップグレードできますか？",
-            "a": "はい。すべての履歴データは保持されます。データ損失なしで移行できます。"
-          },
-          {
-            "q": "5つの店舗しかない場合、Coreは必要ですか？",
-            "a": "必須ではありませんが、運用のスピードが必要な場合（2-4時間ごとの更新）には推奨します。日次レポートが十分であれば、Reportは1-10店舗に最適です。"
-          },
-          {
-            "q": "Coreは複数のPOSシステムを扱えますか？",
-            "a": "Core ProとEnterpriseはマルチPOS環境をサポートします。Core Liteはすべての店舗で単一POSをサポートします。"
-          },
-          {
-            "q": "CoreをWatchtowerと一緒に使用できますか？",
-            "a": "非常に推奨されます。Coreは内部インテリジェンスを提供し、Watchtowerは外部市場インテリジェンスを追加して完全な可視性を実現します。"
-          },
-          {
-            "q": "CoreをModulesと一緒に使用できますか？",
-            "a": "はい。すべての5つの専門モジュールはCoreと連携して特定の運用分野でのインテリジェンスを深めます。"
-          }
-        ]
-      },
       "cta": {
-        "title": "昨日の数字を管理するのはやめましょう",
-        "description": "実際のデータでリアルタイムのオペレーショナルインテリジェンスがどのようなものかを見てみましょう。",
+        "title": "漏れを報告するのはやめましょう--取り戻すのです。",
+        "description": "Coreが漏れを見つけ、修正を割り当て、回収したマージンをあなたのベースラインと照らして測定します--すべてあなたの実データで。",
         "primary": "Coreティアを探る",
         "secondary": "デモを予約"
-      }
-    },
-    "ko": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 2-4시간마다 새로 고쳐져서 피해가 발생한 후가 아닌 근무 중에 조치를 취할 수 있습니다.",
-        "primary": "Core 티어 탐색",
-        "secondary": "데모 예약",
-        "title": "실시간 운영. 마감 보고서가 아닙니다."
       },
-      "realTime": {
-        "heading": "실시간 인텔리전스 레이어",
-        "description": "종료 보고서를 기다릴 수 없는 운영자를 위해 설계되었습니다. 10개 위치를 관리하든 100개 이상을 관리하든, Core는 현재 발생하고 있는 일을 신속하게 파악하고, 그 중요성을 이해하며, 문제가 악화되기 전에 권장 조치를 제공합니다.",
-        "cards": [
+      "solves": {
+        "eyebrow": "利益はどこへ消えるか",
+        "heading": "利益が漏れる場所は四つ。どれを塞ぐかはパッケージが決めます。",
+        "description": "ライセンスからではなく、損失から始めてください。各パッケージは四つのうち異なる組み合わせをカバーし、Core Performance はすべてをカバーします。",
+        "areas": [
           {
-            "title": "예측적, 반응적이지 않음",
-            "desc": "문제가 비용이 많이 들기 전에 경고를 받으세요. 대시보드가 아닌 즉각적인 조치를 위한 Sundae Coach 추천.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "売上と利益",
+            "loss": "取消、サービス提供、値引き、価格設定の誤った商品。いずれも問いただせる一行としては現れません。",
+            "covered": "売上と利益のインテリジェンス、レベニューアシュアランス、商品単位の貢献度。"
           },
           {
-            "title": "모든 위치, 하나의 보기",
-            "desc": "모든 위치에 대한 통합 가시성. 포트폴리오 수준의 패턴과 위치 수준의 세부정보를 단일 창에서 제공합니다.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "食材と仕入れ",
+            "loss": "発注量、使用量、販売量の差。廃棄、差異、仕入先価格の静かな上昇。",
+            "covered": "在庫と仕入のインテリジェンス、理論使用量と実使用量の比較、仕入先の価格推移。"
           },
           {
-            "title": "당신과 함께 성장합니다",
-            "desc": "10개에서 1,000개 이상의 위치까지. Core Lite, Pro 또는 Enterprise - 플랫폼은 당신과 함께 확장됩니다.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "顧客と市場",
+            "loss": "結局来ない客数、二度と戻らない顧客、手数料に食われるチャネル利益。",
+            "covered": "顧客体験と CRM、予約、デリバリー採算、マーケティング寄与度、同業ベンチマーク。"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "先月の数字をもとに遅れて下される判断。後から効果を確かめる術もありません。",
+            "covered": "予測、シナリオ分析、そして承認を挟むアクション層。Core の上に載る拡張です。"
           }
         ]
       },
       "tiers": {
-        "eyebrow": "티어 선택",
-        "heading": "모든 규모를 위한 세 가지 티어",
-        "description": "성장하는 운영부터 글로벌 기업까지. 속도를 선택하세요.",
-        "bestForLabel": "최고의 선택:",
-        "viewPrefix": "보기",
+        "eyebrow": "パッケージを選ぶ",
+        "heading": "四つの Core パッケージ",
+        "description": "各パッケージは四つの領域のうち異なる組み合わせをカバーします。利益がどこへ漏れているかで選んでください。",
+        "bestForLabel": "向いている先：",
+        "viewPrefix": "見る",
+        "priceLabel": "1 店舗目 / 月",
+        "bandsLabel": "以降、追加1店舗ごとに",
+        "walletLabel": "AI クレジット / 月",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "성장하는 운영",
-            "subtitle": "1-29개 위치를 위한 실시간 인사이트",
-            "description": "단일 위치에서 다수 위치 운영으로 확장하는 레스토랑 그룹을 위한 솔루션. 4시간 갱신 주기 및 단일 POS 통합.",
-            "features": [
-              "4시간 갱신 (하루 6회)",
-              "기본 600 크레딧 + 위치당 120",
-              "30개의 맞춤 대시보드",
-              "2년 데이터 보존",
-              "단일 POS 통합",
-              "이메일 + 채팅 + 전화 지원"
-            ],
-            "bestFor": "1-10개 위치, 단일 브랜드 포트폴리오",
+            "areas": "売上と利益をカバー",
+            "badge": "ここから",
+            "subtitle": "運営の土台",
+            "description": "判断を下す場所をひとつに。POS、人件費、原価、オペレーションを、シフトが動いている間に更新します。",
+            "bestFor": "表計算とばらばらのダッシュボードから抜け出す企業"
+          },
+          {
+            "areas": "売上と利益、食材と仕入れをカバー",
+            "badge": "最も選ばれています",
+            "subtitle": "原価と漏れを深く",
+            "description": "理論使用量と実使用量、廃棄、ロス、取消とサービス提供、そして商品単位の貢献度。",
+            "bestFor": "見えるより速く利益が漏れている運営者"
+          },
+          {
+            "areas": "売上と利益、顧客と市場をカバー",
+            "badge": "需要サイド",
+            "subtitle": "需要を深く",
+            "description": "顧客コホートと生涯価値、チャネル別の販促寄与度、手数料差引後のデリバリー利益。",
+            "bestFor": "リピート売上とチャネル構成に力を入れる企業"
+          },
+          {
+            "areas": "四領域すべてをカバー（Foresight & Action を含む）",
+            "badge": "フル",
+            "subtitle": "複数ブランド、複数地域",
+            "description": "ブランドと地域をまたぐ集計、モジュール横断の相関、監査証跡つきの権限管理。",
+            "bestFor": "複数ブランドや複数市場を運営する大企業"
+          }
+        ]
+      }
+    },
+    "ko": {
+      "proof": {
+        "eyebrow": "진짜임을 확인하는 방법",
+        "heading": "회수는 누구나 주장할 수 있습니다. Sundae는 확인하게 해줍니다.",
+        "description": "회수된 숫자는 그것이 정말 일어났는지 확인할 수 있을 때에만 신뢰할 가치가 있습니다. Sundae는 신중한 운영자 - 또는 그의 CFO - 가 늘 던지는 세 가지 질문에 답합니다.",
+        "items": [
+          {
+            "question": "루프가 실제로 닫히고 있나요?",
+            "title": "루프 상태",
+            "desc": "감지된 누수 중 실제로 측정된 결과에 도달한 비율을 확인하세요 - 보여주기식 집계가 아니라 진짜 종료율입니다. 루프가 작동하고 있음을 알려주는 유일한 숫자이며, 그 숫자가 낮을 때에도 정직하게 유지됩니다.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "가장 인기 있는",
-            "subtitle": "30-100개 위치 포트폴리오에 최적화됨",
-            "description": "브랜드 전반에 걸쳐 더 빠른 갱신 주기와 고급 예측이 필요한 다수 위치 운영자를 위한 솔루션.",
-            "features": [
-              "2시간 갱신 (하루 12회)",
-              "기본 1,200 크레딧 + 위치당 240",
-              "75개의 맞춤 대시보드",
-              "3년 데이터 보존",
-              "다중 POS 지원",
-              "우선 전화 지원 (2시간 SLA)"
-            ],
-            "bestFor": "30-100개 위치, 다중 브랜드 운영자",
+            "question": "어차피 일어났을 일 아닌가요?",
+            "title": "동일 조건 기준선",
+            "desc": "회수된 모든 숫자는 일치하는 한 주 전체 기준선 - 같은 요일, 같은 리듬 - 과 비교해 측정됩니다. 그래서 진짜 성과가 그저 바빴던 한 주로 오인되는 일이 없습니다.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "모든 것을 맞춤 설정",
-            "subtitle": "100개 이상의 위치를 위한 솔루션",
-            "description": "맞춤 갱신 주기, 무제한 대시보드, 화이트 라벨, SSO 및 전담 지원이 필요한 대규모 운영을 위한 솔루션.",
-            "features": [
-              "맞춤 갱신 주기",
-              "무제한 크레딧",
-              "무제한 대시보드",
-              "맞춤 데이터 보존",
-              "화이트 라벨, SSO, 전담 CSM",
-              "맞춤 SLA를 갖춘 24/7 지원"
-            ],
-            "bestFor": "100개 이상의 위치, 다중 브랜드 기업",
-            "color": "from-orange-500 to-orange-600"
+            "question": "제값을 했나요?",
+            "title": "Sundae 투자수익",
+            "desc": "회수한 가치를 지불액과 기간별로 나란히 확인하세요 - 측정된 금액으로, Sundae가 비용을 충분히 상회한다는 증거입니다.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "그리고 증거가 없을 때 Sundae는 그렇다고 말합니다. 모든 결과는 사람이 확인하기 전까지 방향성만 나타내며, 감지기는 숫자를 지어내느니 침묵을 지킵니다."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "귀하의 POS, 인력, 재고 및 중요한 모든 시스템에 연결됩니다. Core는 이익 누수를 찾아내고, 수정 작업을 지정된 책임자에게 배정하며, 회수한 마진을 기준선과 비교해 측정합니다.",
+        "primary": "Core 티어 탐색",
+        "secondary": "데모 예약",
+        "title": "누수를 찾아내세요. 이익을 되찾으세요."
       },
       "dimensions": {
         "heading": "4D 인텔리전스 모델",
@@ -3873,7 +3351,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core 포함",
         "heading": "Pulse: 당신의 근무 명령 센터",
-        "description": "이상이 발생하는 순간을 확인하세요. 팀을 실시간으로 코칭하세요. 근무가 끝나기 전에 결과를 확인하세요.",
+        "description": "이상이 발생하는 순간을 확인하세요. 수정 작업을 근무 중인 매니저에게 배정하세요. 그런 다음 회수한 마진을 기준선과 비교해 측정하세요.",
         "features": [
           {
             "name": "판매 및 속도",
@@ -3991,134 +3469,120 @@ export const generatedLocalCopy = {
         "button": "모든 모듈 탐색"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = 완벽한 인사이트",
+        "heading": "Watchtower가 바깥 세상을 Core 안으로 들여옵니다",
         "description": "Core는 현재 성과를 알려줍니다. Watchtower는 주변에서 일어나는 일을 알려줍니다. 함께, 이들은 내부 운영과 외부 시장 맥락을 하나의 인사이트 레이어로 제공합니다.",
         "button": "Watchtower에 대해 알아보기"
       },
-      "faq": {
-        "heading": "자주 묻는 질문",
-        "items": [
-          {
-            "q": "Core Lite와 Core Pro의 차이점은 무엇인가요?",
-            "a": "Core Lite: 4시간 새로 고침, 600 기본 크레딧, 30개의 대시보드, 단일 POS. Core Pro: 2시간 새로 고침, 1,200 기본 크레딧, 75개의 대시보드, 다중 POS 지원."
-          },
-          {
-            "q": "Report에서 Core로 업그레이드할 수 있나요?",
-            "a": "네. 모든 역사적 데이터가 보존됩니다. 데이터 손실 없이 전환 가능합니다."
-          },
-          {
-            "q": "5개 지점만 있으면 Core가 필요한가요?",
-            "a": "필수는 아니지만 운영 속도가 필요하다면 추천합니다 (2-4시간 새로 고침). 일일 보고서가 충분하다면 Report가 1-10개 지점에 잘 작동합니다."
-          },
-          {
-            "q": "Core는 여러 POS 시스템을 처리할 수 있나요?",
-            "a": "Core Pro와 Enterprise는 다중 POS 환경을 지원합니다. Core Lite는 모든 지점에서 단일 POS를 지원합니다."
-          },
-          {
-            "q": "Core를 Watchtower와 함께 사용할 수 있나요?",
-            "a": "강력히 추천합니다. Core는 내부 인사이트를 제공하고, Watchtower는 외부 시장 인사이트를 추가하여 완전한 가시성을 제공합니다."
-          },
-          {
-            "q": "Core를 모듈과 함께 사용할 수 있나요?",
-            "a": "네. 모든 5개의 전문 모듈이 Core와 함께 작동하여 특정 운영 영역에서 인사이트를 심화합니다."
-          }
-        ]
-      },
       "cta": {
-        "title": "어제의 숫자를 관리하는 것을 중단하세요",
-        "description": "실제 데이터를 통해 실시간 운영 인텔리전스가 어떻게 보이는지 확인하세요.",
+        "title": "누수를 보고만 하지 마세요. 되찾으세요.",
+        "description": "Core가 누수를 찾아내고, 수정 작업을 배정하며, 회수한 마진을 귀하의 기준선과 비교해 측정하는 모습을 확인하세요 - 모두 실제 데이터로.",
         "primary": "Core 티어 탐색하기",
         "secondary": "데모 예약하기"
-      }
-    },
-    "id": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core diperbarui setiap 2-4 jam sehingga Anda dapat bertindak selama shift - bukan setelah kerusakan terjadi.",
-        "primary": "Jelajahi Tingkatan Core",
-        "secondary": "Pesan Demo",
-        "title": "Operasi waktu nyata. Bukan laporan akhir hari."
       },
-      "realTime": {
-        "heading": "Lapisan Intelijen Waktu Nyata",
-        "description": "Dibangun untuk operator yang tidak bisa menunggu laporan akhir hari. Apakah Anda mengelola 10 lokasi atau 100+, Core memberi Anda kecepatan untuk melihat apa yang terjadi sekarang, memahami mengapa itu penting, dan mendapatkan rekomendasi tindakan sebelum masalah memburuk.",
-        "cards": [
+      "solves": {
+        "eyebrow": "이익은 어디로 새는가",
+        "heading": "이익이 새는 곳은 네 군데입니다. 어디를 막을지는 패키지가 정합니다.",
+        "description": "라이선스가 아니라 손실에서 시작하세요. 패키지마다 네 영역 중 서로 다른 조합을 다루며, Core Performance는 전부를 다룹니다.",
+        "areas": [
           {
-            "title": "Prediktif, Bukan Reaktif",
-            "desc": "Dapatkan peringatan sebelum masalah menjadi mahal. Rekomendasi Sundae Coach untuk tindakan segera - bukan dasbor yang diperbarui.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "매출과 이익",
+            "loss": "취소, 서비스 제공, 할인, 잘못 책정된 가격. 어느 것도 따져 물을 수 있는 한 줄로는 나타나지 않습니다.",
+            "covered": "매출과 이익 인텔리전스, 매출 보증, 품목별 기여도."
           },
           {
-            "title": "Setiap Lokasi, Satu Tampilan",
-            "desc": "Visibilitas terpadu di semua lokasi. Pola tingkat portofolio dan detail tingkat lokasi dalam satu tampilan.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "식자재와 공급",
+            "loss": "발주량, 사용량, 판매량 사이의 차이. 폐기, 편차, 그리고 조용히 오르는 공급가.",
+            "covered": "재고와 구매 인텔리전스, 이론 사용량 대비 실사용량, 공급업체 가격 흐름."
           },
           {
-            "title": "Berkembang Bersama Anda",
-            "desc": "Dari 10 hingga 1.000+ lokasi. Core Lite, Pro, atau Enterprise - platform ini berkembang seiring dengan Anda.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "고객과 시장",
+            "loss": "끝내 오지 않는 좌석, 다시 오지 않는 고객, 수수료에 먹히는 채널 마진.",
+            "covered": "고객 경험과 CRM, 예약, 배달 수익성, 마케팅 기여도, 동종 업계 벤치마크."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "지난달 숫자로 뒤늦게 내리는 결정. 효과가 있었는지 나중에 확인할 방법도 없습니다.",
+            "covered": "예측, 시나리오 모델링, 승인을 거치는 실행 계층. Core 위에 얹는 확장입니다."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "PILIH TINGKAT ANDA",
-        "heading": "Tiga Tingkat untuk Setiap Skala",
-        "description": "Dari operasi yang berkembang hingga perusahaan global. Pilih kecepatan Anda.",
-        "bestForLabel": "Terbaik untuk:",
-        "viewPrefix": "Lihat",
+        "eyebrow": "패키지를 고르세요",
+        "heading": "네 가지 Core 패키지",
+        "description": "패키지마다 네 영역 중 서로 다른 조합을 다룹니다. 이익이 어디로 새는지에 맞춰 고르세요.",
+        "bestForLabel": "이런 곳에:",
+        "viewPrefix": "보기",
+        "priceLabel": "첫 매장 / 월",
+        "bandsLabel": "이후 매장 추가 시 매장당",
+        "walletLabel": "AI 크레딧 / 월",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Operasi yang Berkembang",
-            "subtitle": "Intelijen Waktu Nyata untuk 1-29 Lokasi",
-            "description": "Untuk grup restoran yang berkembang dari operasi satu lokasi ke multi-lokasi. Siklus pembaruan 4 jam dan integrasi POS tunggal.",
-            "features": [
-              "Pembaruan 4 jam (6x sehari)",
-              "600 kredit dasar + 120/lokasi",
-              "30 dasbor kustom",
-              "retensi 2 tahun",
-              "Integrasi POS tunggal",
-              "Dukungan Email + Chat + Telepon"
-            ],
-            "bestFor": "1-10 lokasi, portofolio merek tunggal",
+            "areas": "매출과 이익을 다룹니다",
+            "badge": "여기서 시작",
+            "subtitle": "운영의 기준선",
+            "description": "결정을 내리는 한 곳. POS, 인건비, 원가, 운영을 아우르며 근무가 도는 중에 갱신됩니다.",
+            "bestFor": "스프레드시트와 흩어진 대시보드에서 벗어나는 그룹"
+          },
+          {
+            "areas": "매출과 이익, 식자재와 공급을 다룹니다",
+            "badge": "가장 많이 선택",
+            "subtitle": "원가와 누수를 깊이",
+            "description": "이론 사용량 대비 실사용량, 폐기, 감모, 취소와 서비스 제공, 품목별 기여도.",
+            "bestFor": "보이는 속도보다 이익이 빨리 새는 운영자"
+          },
+          {
+            "areas": "매출과 이익, 고객과 시장을 다룹니다",
+            "badge": "수요 쪽",
+            "subtitle": "수요를 깊이",
+            "description": "고객 코호트와 생애가치, 채널별 프로모션 기여도, 수수료 차감 후 배달 마진.",
+            "bestFor": "재방문 매출과 채널 구성에 힘을 싣는 그룹"
+          },
+          {
+            "areas": "네 영역 전부를 다룹니다(Foresight & Action 포함)",
+            "badge": "최대 깊이",
+            "subtitle": "다브랜드, 다지역",
+            "description": "브랜드와 지역을 아우르는 통합, 모듈 간 상관관계, 감사 추적이 남는 통제된 접근.",
+            "bestFor": "여러 브랜드나 여러 시장을 운영하는 대형 그룹"
+          }
+        ]
+      }
+    },
+    "id": {
+      "proof": {
+        "eyebrow": "CARA ANDA TAHU INI NYATA",
+        "heading": "Siapa pun bisa mengklaim pemulihan. Sundae membuat Anda bisa memeriksanya.",
+        "description": "Angka yang dipulihkan hanya layak dipercaya jika Anda bisa melihat apakah itu benar-benar terjadi. Sundae menjawab tiga pertanyaan yang selalu diajukan operator yang cermat - atau CFO-nya.",
+        "items": [
+          {
+            "question": "Apakah loop benar-benar menutup?",
+            "title": "Kesehatan loop",
+            "desc": "Lihat berapa banyak kebocoran terdeteksi yang benar-benar mencapai hasil terukur - tingkat penutupan yang sebenarnya, bukan angka pemanis. Inilah satu-satunya angka yang menunjukkan loop bekerja, dan ia tetap jujur saat angka itu rendah.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Paling Populer",
-            "subtitle": "Dioptimalkan untuk Portofolio 30-100 Lokasi",
-            "description": "Untuk operator multi-lokasi yang sudah mapan yang membutuhkan siklus pembaruan lebih cepat dan peramalan lanjutan di seluruh merek.",
-            "features": [
-              "Pembaruan 2 jam (12x sehari)",
-              "1.200 kredit dasar + 240/lokasi",
-              "75 dasbor kustom",
-              "retensi 3 tahun",
-              "Dukungan Multi-POS",
-              "Dukungan telepon prioritas (SLA 2 jam)"
-            ],
-            "bestFor": "30-100 lokasi, operator multi-merek",
+            "question": "Apakah itu akan terjadi juga?",
+            "title": "Basis pembanding setara",
+            "desc": "Setiap angka yang dipulihkan diukur terhadap basis satu minggu penuh yang setara - hari yang sama, ritme yang sama - sehingga keuntungan nyata tidak pernah dikira sekadar minggu yang sibuk.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Kustom Segalanya",
-            "subtitle": "Dibangun untuk 100+ Lokasi",
-            "description": "Untuk operasi berskala besar yang memerlukan frekuensi pembaruan kustom, dasbor tanpa batas, label putih, SSO, dan dukungan khusus.",
-            "features": [
-              "Frekuensi pembaruan kustom",
-              "Kredit tanpa batas",
-              "Dasbor tanpa batas",
-              "Retensi kustom",
-              "Label putih, SSO, CSM khusus",
-              "Dukungan 24/7 dengan SLA kustom"
-            ],
-            "bestFor": "100+ lokasi, perusahaan multi-merek",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Apakah biayanya kembali?",
+            "title": "Imbal hasil atas Sundae",
+            "desc": "Lihat nilai yang Anda pulihkan dibandingkan dengan yang Anda bayar, periode demi periode - bukti, dalam uang terukur, bahwa Sundae lebih dari menutup biayanya.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "Dan ketika buktinya tidak ada, Sundae mengatakannya. Setiap hasil tetap bersifat arah sampai seseorang mengonfirmasinya, dan detektor memilih diam daripada mengarang angka."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Terhubung dengan POS, tenaga kerja, inventaris, dan setiap sistem yang penting. Core menemukan kebocoran margin, mengarahkan perbaikan ke penanggung jawab yang ditunjuk, dan mengukur margin yang dipulihkan terhadap garis dasar.",
+        "primary": "Jelajahi Tingkatan Core",
+        "secondary": "Pesan Demo",
+        "title": "Temukan kebocoran. Pulihkan keuntungan."
       },
       "dimensions": {
         "heading": "Model Intelijen 4D",
@@ -4161,7 +3625,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Termasuk dengan Core",
         "heading": "Pulse: Pusat Komando Shift Anda",
-        "description": "Lihat anomali saat mereka terjadi. Latih tim Anda secara real-time. Konfirmasi hasil sebelum shift berakhir.",
+        "description": "Lihat anomali saat mereka terjadi. Arahkan perbaikan ke manajer yang bertugas. Lalu ukur margin yang Anda pulihkan terhadap garis dasar.",
         "features": [
           {
             "name": "Penjualan & Kecepatan",
@@ -4279,134 +3743,120 @@ export const generatedLocalCopy = {
         "button": "Jelajahi Semua Modul"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Intelijen Lengkap",
+        "heading": "Watchtower membawa dunia luar ke dalam Core",
         "description": "Core memberi tahu Anda bagaimana kinerja Anda saat ini. Watchtower memberi tahu Anda apa yang terjadi di sekitar Anda. Bersama-sama, mereka memberikan gambaran lengkap - operasi internal dan konteks pasar eksternal dalam satu lapisan intelijen.",
         "button": "Pelajari Tentang Watchtower"
       },
-      "faq": {
-        "heading": "Pertanyaan yang Sering Diajukan",
-        "items": [
-          {
-            "q": "Apa perbedaan antara Core Lite dan Core Pro?",
-            "a": "Core Lite: penyegaran 4 jam, 600 kredit dasar, 30 dasbor, satu POS. Core Pro: penyegaran 2 jam, 1.200 kredit dasar, 75 dasbor, dukungan multi-POS."
-          },
-          {
-            "q": "Bisakah saya meningkatkan dari Report ke Core?",
-            "a": "Ya. Semua data historis dipertahankan. Transisi tanpa kehilangan data."
-          },
-          {
-            "q": "Apakah saya perlu Core jika saya hanya memiliki 5 lokasi?",
-            "a": "Tidak diperlukan, tetapi disarankan jika Anda membutuhkan kecepatan operasional (penyegaran 2-4 jam). Report bekerja dengan baik untuk 1-10 lokasi jika laporan harian sudah cukup."
-          },
-          {
-            "q": "Bisakah Core menangani beberapa sistem POS?",
-            "a": "Core Pro dan Enterprise mendukung lingkungan multi-POS. Core Lite mendukung satu POS di semua lokasi."
-          },
-          {
-            "q": "Bisakah saya menggunakan Core dengan Watchtower?",
-            "a": "Sangat disarankan. Core menyediakan intelijen internal, Watchtower menambahkan intelijen pasar eksternal untuk visibilitas lengkap."
-          },
-          {
-            "q": "Bisakah saya menggunakan Core dengan Modules?",
-            "a": "Ya. Semua 5 modul khusus bekerja dengan Core untuk memperdalam intelijen di area operasional tertentu."
-          }
-        ]
-      },
       "cta": {
-        "title": "Hentikan Mengelola Angka Kemarin",
-        "description": "Lihat seperti apa kecerdasan operasional waktu nyata dengan data aktual Anda.",
+        "title": "Berhenti melaporkan kebocoran. Pulihkan.",
+        "description": "Lihat Core menemukan kebocoran, mengarahkan perbaikan, dan mengukur margin yang dipulihkan terhadap garis dasar Anda - dengan data aktual Anda.",
         "primary": "Jelajahi Tingkatan Core",
         "secondary": "Pesan Demo"
-      }
-    },
-    "vi": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core được làm mới mỗi 2-4 giờ để bạn có thể hành động trong ca làm việc - không phải sau khi thiệt hại đã xảy ra.",
-        "primary": "Khám phá các cấp độ Core",
-        "secondary": "Đặt lịch Demo",
-        "title": "Vận hành thời gian thực. Không phải báo cáo cuối ngày."
       },
-      "realTime": {
-        "heading": "Lớp Thông Tin Thời Gian Thực",
-        "description": "Dành cho những người điều hành không thể chờ đợi báo cáo cuối ngày. Dù bạn quản lý 10 địa điểm hay 100+, Core mang đến cho bạn tốc độ để thấy những gì đang xảy ra ngay bây giờ, hiểu tại sao điều đó quan trọng, và nhận được các hành động được khuyến nghị trước khi vấn đề leo thang.",
-        "cards": [
+      "solves": {
+        "eyebrow": "KE MANA MARGIN PERGI",
+        "heading": "Empat tempat laba bocor. Paket Anda yang menentukan mana yang Anda tutup.",
+        "description": "Mulailah dari kerugian, bukan dari lisensi. Tiap paket mencakup kombinasi yang berbeda dari keempatnya - Core Performance mencakup semuanya.",
+        "areas": [
           {
-            "title": "Dự Đoán, Không Phản Ứng",
-            "desc": "Nhận thông báo trước khi vấn đề trở nên tốn kém. Đề xuất hành động ngay lập tức từ Sundae Coach - không phải bảng điều khiển cập nhật.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Pendapatan & Laba",
+            "loss": "Pembatalan, komplimen, diskon, dan item salah harga yang tidak pernah muncul sebagai baris yang bisa Anda pertanyakan.",
+            "covered": "Inteligensi pendapatan dan laba, jaminan pendapatan, kontribusi per item."
           },
           {
-            "title": "Mỗi Địa Điểm, Một Cái Nhìn",
-            "desc": "Tầm nhìn thống nhất trên tất cả các địa điểm. Mô hình cấp danh mục và chi tiết cấp địa điểm trong một khung nhìn duy nhất.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Pangan & Pasokan",
+            "loss": "Selisih antara yang Anda pesan, yang terpakai, dan yang terjual - susut, deviasi, dan harga pemasok yang naik diam-diam.",
+            "covered": "Inteligensi persediaan dan pembelian, pemakaian teoretis dibanding aktual, pergerakan pemasok."
           },
           {
-            "title": "Phát Triển Cùng Bạn",
-            "desc": "Từ 10 đến 1.000+ địa điểm. Core Lite, Pro, hoặc Enterprise - nền tảng mở rộng khi bạn phát triển.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Tamu & Pasar",
+            "loss": "Kursi yang tak pernah terisi, tamu yang tak kembali, dan margin kanal yang habis dimakan komisi.",
+            "covered": "Pengalaman tamu dan CRM, reservasi, ekonomi pengantaran, atribusi pemasaran, tolok ukur sesama."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Keputusan yang diambil terlambat, dengan angka bulan lalu, tanpa cara memastikan setelahnya apakah berhasil.",
+            "covered": "Peramalan, pemodelan skenario, dan lapisan tindakan dengan persetujuan di dalamnya. Perluasan di atas Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "CHỌN CẤP ĐỘ CỦA BẠN",
-        "heading": "Ba Cấp Độ Cho Mọi Quy Mô",
-        "description": "Từ các hoạt động đang phát triển đến các doanh nghiệp toàn cầu. Chọn tốc độ của bạn.",
-        "bestForLabel": "Tốt nhất cho:",
-        "viewPrefix": "Xem",
+        "eyebrow": "PILIH PAKET ANDA",
+        "heading": "Empat paket Core",
+        "description": "Tiap paket mencakup kombinasi yang berbeda dari keempat area. Pilih yang sesuai dengan ke mana margin Anda pergi.",
+        "bestForLabel": "Cocok untuk:",
+        "viewPrefix": "Lihat",
+        "priceLabel": "gerai pertama / bulan",
+        "bandsLabel": "Selanjutnya, per gerai tambahan",
+        "walletLabel": "kredit AI / bulan",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Hoạt Động Đang Tăng Trưởng",
-            "subtitle": "Thông Tin Thời Gian Thực cho 1-29 Địa Điểm",
-            "description": "Dành cho các nhóm nhà hàng đang mở rộng từ hoạt động một địa điểm đến nhiều địa điểm. Chu kỳ làm mới 4 giờ và tích hợp POS đơn.",
-            "features": [
-              "Làm mới 4 giờ (6 lần mỗi ngày)",
-              "600 tín dụng cơ bản + 120/địa điểm",
-              "30 bảng điều khiển tùy chỉnh",
-              "Lưu trữ 2 năm",
-              "Tích hợp POS đơn",
-              "Hỗ trợ qua Email + Chat + Điện thoại"
-            ],
-            "bestFor": "1-10 địa điểm, danh mục thương hiệu đơn",
+            "areas": "Mencakup Pendapatan & Laba",
+            "badge": "Mulai di sini",
+            "subtitle": "Dasar operasional",
+            "description": "Satu tempat untuk memutuskan, meliputi POS, tenaga kerja, biaya, dan operasi, diperbarui saat shift masih berjalan.",
+            "bestFor": "Grup yang beranjak dari spreadsheet dan dasbor terpisah"
+          },
+          {
+            "areas": "Mencakup Pendapatan & Laba, Pangan & Pasokan",
+            "badge": "Paling banyak dipilih",
+            "subtitle": "Kedalaman pada biaya dan kebocoran",
+            "description": "Pemakaian teoretis dibanding aktual, susut, penyusutan, pembatalan dan komplimen, serta kontribusi per item.",
+            "bestFor": "Operator yang marginnya bocor lebih cepat dari yang terlihat"
+          },
+          {
+            "areas": "Mencakup Pendapatan & Laba, Tamu & Pasar",
+            "badge": "Sisi permintaan",
+            "subtitle": "Kedalaman pada permintaan",
+            "description": "Kohort tamu dan nilai seumur hidup, atribusi promo per kanal, margin pengantaran setelah komisi.",
+            "bestFor": "Grup yang menggenjot pendapatan berulang dan bauran kanal"
+          },
+          {
+            "areas": "Mencakup keempat area, termasuk Foresight & Action",
+            "badge": "Kedalaman penuh",
+            "subtitle": "Multimerek, multiwilayah",
+            "description": "Konsolidasi lintas merek dan wilayah, korelasi antarmodul, akses terkelola dengan jejak audit.",
+            "bestFor": "Grup besar yang menjalankan beberapa merek atau beberapa pasar"
+          }
+        ]
+      }
+    },
+    "vi": {
+      "proof": {
+        "eyebrow": "LÀM SAO BẠN BIẾT ĐIỀU ĐÓ LÀ THẬT",
+        "heading": "Ai cũng có thể tuyên bố đã thu hồi. Sundae để bạn tự kiểm chứng.",
+        "description": "Một con số thu hồi chỉ đáng tin khi bạn thấy được nó có thực sự xảy ra hay không. Sundae trả lời ba câu hỏi mà một nhà điều hành cẩn trọng - hoặc CFO của họ - luôn đặt ra.",
+        "items": [
+          {
+            "question": "Vòng lặp có thực sự khép lại không?",
+            "title": "Sức khỏe vòng lặp",
+            "desc": "Xem có bao nhiêu rò rỉ được phát hiện thực sự đạt đến một kết quả đo được - tỷ lệ khép vòng thật, không phải con số để phô trương. Đó là con số duy nhất cho bạn biết vòng lặp đang hoạt động, và nó vẫn trung thực ngay cả khi con số đó thấp.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Phổ Biến Nhất",
-            "subtitle": "Tối Ưu Cho Danh Mục 30-100 Địa Điểm",
-            "description": "Dành cho các nhà điều hành đa địa điểm đã được thiết lập cần chu kỳ làm mới nhanh hơn và dự đoán nâng cao giữa các thương hiệu.",
-            "features": [
-              "Làm mới 2 giờ (12 lần mỗi ngày)",
-              "1,200 tín dụng cơ bản + 240/địa điểm",
-              "75 bảng điều khiển tùy chỉnh",
-              "Lưu trữ 3 năm",
-              "Hỗ trợ đa POS",
-              "Hỗ trợ điện thoại ưu tiên (2 giờ SLA)"
-            ],
-            "bestFor": "30-100 địa điểm, nhà điều hành đa thương hiệu",
+            "question": "Liệu điều đó có xảy ra dù sao đi nữa?",
+            "title": "Đường cơ sở tương đương",
+            "desc": "Mỗi con số thu hồi được đo với một đường cơ sở trọn tuần tương ứng - cùng những ngày, cùng nhịp độ - để một khoản lợi thật không bao giờ bị nhầm với một tuần bận rộn thông thường.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Tùy Chỉnh Mọi Thứ",
-            "subtitle": "Xây Dựng Cho Hơn 100 Địa Điểm",
-            "description": "Dành cho các hoạt động quy mô lớn yêu cầu tần suất làm mới tùy chỉnh, bảng điều khiển không giới hạn, nhãn trắng, SSO và hỗ trợ tận tâm.",
-            "features": [
-              "Tần suất làm mới tùy chỉnh",
-              "Tín dụng không giới hạn",
-              "Bảng điều khiển không giới hạn",
-              "Lưu trữ tùy chỉnh",
-              "Nhãn trắng, SSO, CSM tận tâm",
-              "Hỗ trợ 24/7 với SLA tùy chỉnh"
-            ],
-            "bestFor": "Hơn 100 địa điểm, doanh nghiệp đa thương hiệu",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Nó có tự hoàn vốn không?",
+            "title": "Lợi tức trên Sundae",
+            "desc": "Xem giá trị bạn thu hồi được đặt cạnh khoản bạn chi trả, theo từng kỳ - bằng chứng, bằng tiền đo lường được, rằng Sundae thừa sức bù đắp chi phí của nó.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "Và khi chứng cứ không có, Sundae nói thẳng điều đó. Mọi kết quả vẫn chỉ mang tính định hướng cho đến khi một con người xác nhận, và bộ dò chọn im lặng thay vì bịa ra một con số."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Kết nối với POS, lao động, hàng tồn kho và mọi hệ thống quan trọng. Core tìm ra chỗ rò rỉ lợi nhuận, giao việc khắc phục cho người chịu trách nhiệm cụ thể và đo lường biên lợi nhuận thu hồi được so với đường cơ sở.",
+        "primary": "Khám phá các cấp độ Core",
+        "secondary": "Đặt lịch Demo",
+        "title": "Tìm ra chỗ rò rỉ. Thu hồi lợi nhuận."
       },
       "dimensions": {
         "heading": "Mô Hình Trí Tuệ 4D",
@@ -4449,7 +3899,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Bao gồm trong Core",
         "heading": "Pulse: Trung tâm chỉ huy ca làm việc của bạn",
-        "description": "Xem các bất thường ngay khi chúng xảy ra. Huấn luyện đội ngũ của bạn theo thời gian thực. Xác nhận kết quả trước khi ca làm việc kết thúc.",
+        "description": "Xem các bất thường ngay khi chúng xảy ra. Giao việc khắc phục cho quản lý đang trong ca. Sau đó đo lường biên lợi nhuận bạn thu hồi được so với đường cơ sở.",
         "features": [
           {
             "name": "Doanh thu & Tốc độ",
@@ -4567,134 +4017,120 @@ export const generatedLocalCopy = {
         "button": "Khám Phá Tất Cả Các Mô-đun"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Trí tuệ hoàn chỉnh",
+        "heading": "Watchtower đưa thế giới bên ngoài vào Core",
         "description": "Core cho bạn biết bạn đang hoạt động như thế nào ngay bây giờ. Watchtower cho bạn biết những gì đang xảy ra xung quanh bạn. Cùng nhau, chúng cung cấp cho bạn bức tranh toàn cảnh - hoạt động nội bộ và bối cảnh thị trường bên ngoài trong một lớp trí tuệ.",
         "button": "Tìm hiểu về Watchtower"
       },
-      "faq": {
-        "heading": "Câu Hỏi Thường Gặp",
-        "items": [
-          {
-            "q": "Sự khác biệt giữa Core Lite và Core Pro là gì?",
-            "a": "Core Lite: làm mới 4 giờ, 600 tín dụng cơ bản, 30 bảng điều khiển, một POS. Core Pro: làm mới 2 giờ, 1.200 tín dụng cơ bản, 75 bảng điều khiển, hỗ trợ đa POS."
-          },
-          {
-            "q": "Tôi có thể nâng cấp từ Report lên Core không?",
-            "a": "Có. Tất cả dữ liệu lịch sử được bảo tồn. Chuyển đổi mà không mất dữ liệu."
-          },
-          {
-            "q": "Tôi có cần Core nếu chỉ có 5 địa điểm không?",
-            "a": "Không bắt buộc, nhưng được khuyến nghị nếu bạn cần tốc độ hoạt động (làm mới 2-4 giờ). Report hoạt động tốt cho 1-10 địa điểm nếu báo cáo hàng ngày là đủ."
-          },
-          {
-            "q": "Core có thể xử lý nhiều hệ thống POS không?",
-            "a": "Core Pro và Enterprise hỗ trợ môi trường đa POS. Core Lite hỗ trợ một POS trên tất cả các địa điểm."
-          },
-          {
-            "q": "Tôi có thể sử dụng Core với Watchtower không?",
-            "a": "Rất được khuyến nghị. Core cung cấp trí tuệ nội bộ, Watchtower thêm trí tuệ thị trường bên ngoài để có cái nhìn toàn diện."
-          },
-          {
-            "q": "Tôi có thể sử dụng Core với Modules không?",
-            "a": "Có. Tất cả 5 mô-đun chuyên biệt hoạt động với Core để làm sâu sắc thêm trí tuệ trong các lĩnh vực hoạt động cụ thể."
-          }
-        ]
-      },
       "cta": {
-        "title": "Ngừng Quản Lý Số Liệu Của Ngày Hôm Qua",
-        "description": "Xem trí tuệ hoạt động theo thời gian thực với dữ liệu thực tế của bạn.",
+        "title": "Đừng chỉ báo cáo chỗ rò rỉ. Hãy thu hồi nó.",
+        "description": "Xem Core tìm ra chỗ rò rỉ, giao việc khắc phục và đo lường biên lợi nhuận thu hồi được so với đường cơ sở của bạn - trên dữ liệu thực tế của bạn.",
         "primary": "Khám Phá Các Cấp Độ Core",
         "secondary": "Đặt Lịch Dùng Thử"
-      }
-    },
-    "ro": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core se actualizează la fiecare 2-4 ore, astfel încât să poți acționa în timpul schimbului - nu după ce daunele sunt făcute.",
-        "primary": "Explorează nivelurile Core",
-        "secondary": "Programează o demonstrație",
-        "title": "Operațiuni în timp real. Nu rapoarte de final de zi."
       },
-      "realTime": {
-        "heading": "Stratul de Inteligență în Timp Real",
-        "description": "Construit pentru operatorii care nu pot aștepta rapoartele de la sfârșitul zilei. Indiferent dacă gestionezi 10 locații sau 100+, Core îți oferă viteza de a vedea ce se întâmplă acum, de a înțelege de ce contează și de a primi acțiuni recomandate înainte ca problemele să escaladeze.",
-        "cards": [
+      "solves": {
+        "eyebrow": "LỢI NHUẬN ĐI ĐÂU",
+        "heading": "Bốn chỗ lợi nhuận rò rỉ. Gói của bạn quyết định bạn bịt chỗ nào.",
+        "description": "Hãy bắt đầu từ khoản mất, không phải từ giấy phép. Mỗi gói bao phủ một nhóm khác nhau trong bốn mảng - Core Performance bao phủ cả bốn.",
+        "areas": [
           {
-            "title": "Predictiv, Nu Reacționar",
-            "desc": "Primește alerte înainte ca problemele să devină costisitoare. Recomandările Sundae Coach pentru acțiuni imediate - nu tablouri de bord care se actualizează.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Doanh thu & Lợi nhuận",
+            "loss": "Hủy món, món tặng, chiết khấu và món định giá sai - không khoản nào hiện lên thành một dòng bạn có thể chất vấn.",
+            "covered": "Phân tích doanh thu và lợi nhuận, bảo toàn doanh thu, đóng góp theo từng món."
           },
           {
-            "title": "Fiecare Locație, O Viziune",
-            "desc": "Vizibilitate unificată în toate locațiile. Modele la nivel de portofoliu și detalii la nivel de locație într-o singură fereastră.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Thực phẩm & Cung ứng",
+            "loss": "Khoảng cách giữa hàng đặt, hàng dùng và hàng bán - hao hụt, sai lệch và giá nhà cung cấp lặng lẽ nhích lên.",
+            "covered": "Phân tích tồn kho và mua hàng, mức dùng lý thuyết so với thực tế, biến động nhà cung cấp."
           },
           {
-            "title": "Crește Împreună cu Tine",
-            "desc": "De la 10 la 1.000+ locații. Core Lite, Pro sau Enterprise - platforma se scalează pe măsură ce o faci și tu.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Khách & Thị trường",
+            "loss": "Những suất khách không bao giờ đến, khách không quay lại, và biên kênh bị hoa hồng ăn mất.",
+            "covered": "Trải nghiệm khách và CRM, đặt bàn, hiệu quả giao hàng, quy kết marketing, đối sánh cùng ngành."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Quyết định đưa ra muộn, dựa trên số liệu tháng trước, và sau đó cũng không có cách nào biết chúng có hiệu quả không.",
+            "covered": "Dự báo, mô phỏng kịch bản và lớp hành động có phê duyệt. Một phần mở rộng trên nền Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "Alege-ți nivelul",
-        "heading": "Trei niveluri pentru orice scară",
-        "description": "De la operațiuni în creștere la întreprinderi globale. Alege-ți viteza.",
-        "bestForLabel": "Cel mai bine pentru:",
-        "viewPrefix": "Vezi",
+        "eyebrow": "CHỌN GÓI CỦA BẠN",
+        "heading": "Bốn gói Core",
+        "description": "Mỗi gói bao phủ một nhóm khác nhau trong bốn mảng. Hãy chọn gói khớp với nơi lợi nhuận của bạn đang thất thoát.",
+        "bestForLabel": "Phù hợp với:",
+        "viewPrefix": "Xem",
+        "priceLabel": "cơ sở đầu tiên / tháng",
+        "bandsLabel": "Sau đó, mỗi cơ sở tăng thêm",
+        "walletLabel": "tín dụng AI / tháng",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Operațiuni în Creștere",
-            "subtitle": "Inteligență în Timp Real pentru 1-29 Locații",
-            "description": "Pentru grupuri de restaurante care se extind de la o singură locație la operațiuni multi-locație. Ciclu de actualizare de 4 ore și integrare POS unică.",
-            "features": [
-              "Actualizare la fiecare 4 ore (de 6 ori pe zi)",
-              "600 credite de bază + 120/locație",
-              "30 tablouri de bord personalizate",
-              "reținere de 2 ani",
-              "Integrare POS unică",
-              "Asistență prin Email + Chat + Telefon"
-            ],
-            "bestFor": "1-10 locații, portofolii de marcă unică",
+            "areas": "Bao phủ Doanh thu & Lợi nhuận",
+            "badge": "Bắt đầu ở đây",
+            "subtitle": "Nền tảng vận hành",
+            "description": "Một nơi để ra quyết định, bao quát POS, nhân công, chi phí và vận hành, cập nhật ngay khi ca vẫn đang chạy.",
+            "bestFor": "Các chuỗi đang rời bỏ bảng tính và dashboard rời rạc"
+          },
+          {
+            "areas": "Bao phủ Doanh thu & Lợi nhuận, Thực phẩm & Cung ứng",
+            "badge": "Được chọn nhiều nhất",
+            "subtitle": "Chiều sâu về chi phí và thất thoát",
+            "description": "Mức dùng lý thuyết so với thực tế, hao hụt, hụt kho, hủy món và món tặng, cùng đóng góp theo từng món.",
+            "bestFor": "Nhà điều hành có biên lợi nhuận rò nhanh hơn mức họ thấy"
+          },
+          {
+            "areas": "Bao phủ Doanh thu & Lợi nhuận, Khách & Thị trường",
+            "badge": "Phía cầu",
+            "subtitle": "Chiều sâu về nhu cầu",
+            "description": "Nhóm khách và giá trị vòng đời, quy kết khuyến mãi theo kênh, biên giao hàng sau hoa hồng.",
+            "bestFor": "Các chuỗi đẩy mạnh doanh thu lặp lại và cơ cấu kênh"
+          },
+          {
+            "areas": "Bao phủ cả bốn mảng, gồm Foresight & Action",
+            "badge": "Chiều sâu đầy đủ",
+            "subtitle": "Đa thương hiệu, đa khu vực",
+            "description": "Hợp nhất xuyên thương hiệu và khu vực, tương quan liên phân hệ, truy cập có kiểm soát kèm dấu vết kiểm toán.",
+            "bestFor": "Chuỗi lớn vận hành nhiều thương hiệu hoặc nhiều thị trường"
+          }
+        ]
+      }
+    },
+    "ro": {
+      "proof": {
+        "eyebrow": "CUM ȘTII CĂ E REAL",
+        "heading": "Oricine poate pretinde o recuperare. Sundae te lasă să verifici.",
+        "description": "O sumă recuperată merită încredere doar dacă poți vedea dacă s-a întâmplat cu adevărat. Sundae răspunde la cele trei întrebări pe care un operator atent - sau CFO-ul său - le pune mereu.",
+        "items": [
+          {
+            "question": "Se închide bucla cu adevărat?",
+            "title": "Sănătatea buclei",
+            "desc": "Vezi câte scurgeri detectate ajung efectiv la un rezultat măsurat - rata reală de închidere, nu o cifră de fațadă. Este singurul număr care îți arată că bucla funcționează și rămâne cinstit chiar și când numărul e mic.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Cel Mai Popular",
-            "subtitle": "Optimizat pentru Portofolii de 30-100 Locații",
-            "description": "Pentru operatori stabiliți multi-locație care au nevoie de cicluri de actualizare mai rapide și prognozare avansată între mărci.",
-            "features": [
-              "Actualizare la fiecare 2 ore (de 12 ori pe zi)",
-              "1,200 credite de bază + 240/locație",
-              "75 tablouri de bord personalizate",
-              "reținere de 3 ani",
-              "Asistență Multi-POS",
-              "Asistență telefonică prioritară (SLA de 2 ore)"
-            ],
-            "bestFor": "30-100 locații, operatori multi-marcă",
+            "question": "S-ar fi întâmplat oricum?",
+            "title": "Baze de comparație echivalente",
+            "desc": "Fiecare sumă recuperată este măsurată față de o bază echivalentă pe o săptămână întreagă - aceleași zile, același ritm - astfel încât un câștig real să nu fie niciodată confundat cu o săptămână pur și simplu aglomerată.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Personalizare Totală",
-            "subtitle": "Construit pentru 100+ Locații",
-            "description": "Pentru operațiuni la scară mare care necesită frecvență de actualizare personalizată, tablouri de bord nelimitate, marcă albă, SSO și asistență dedicată.",
-            "features": [
-              "Frecvență de actualizare personalizată",
-              "Credite nelimitate",
-              "Tablouri de bord nelimitate",
-              "Reținere personalizată",
-              "Marcă albă, SSO, CSM dedicat",
-              "Asistență 24/7 cu SLA personalizate"
-            ],
-            "bestFor": "100+ locații, întreprinderi multi-marcă",
-            "color": "from-orange-500 to-orange-600"
+            "question": "S-a plătit singur?",
+            "title": "Randament pe Sundae",
+            "desc": "Vezi valoarea recuperată pusă față în față cu ceea ce plătești, perioadă după perioadă - dovada, în bani măsurați, că Sundae își acoperă cu mult costul.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "Iar când dovada lipsește, Sundae o spune. Fiecare rezultat rămâne orientativ până când un om îl confirmă, iar un detector preferă să tacă decât să inventeze o cifră."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Conectat la POS-ul tău, forța de muncă, inventar și fiecare sistem care contează. Core găsește scurgerea de marjă, direcționează remedierea către un responsabil desemnat și măsoară marja recuperată față de o linie de referință.",
+        "primary": "Explorează nivelurile Core",
+        "secondary": "Programează o demonstrație",
+        "title": "Găsește scurgerea. Recuperează profitul."
       },
       "dimensions": {
         "heading": "Modelul de Inteligență 4D",
@@ -4737,7 +4173,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Inclus în Core",
         "heading": "Pulse: Centrul de Comandă pentru Schimbul Tău",
-        "description": "Vezi anomaliile în momentul în care apar. Antrenează-ți echipa în timp real. Confirmă rezultatele înainte de încheierea schimbului.",
+        "description": "Vezi anomaliile în momentul în care apar. Direcționează remedierea către managerul de tură. Apoi măsoară marja pe care ai recuperat-o față de linia de referință.",
         "features": [
           {
             "name": "Vânzări & Ritm",
@@ -4855,134 +4291,120 @@ export const generatedLocalCopy = {
         "button": "Explorează Toate Modulele"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Inteligență Completă",
+        "heading": "Watchtower aduce lumea din afară în Core",
         "description": "Core îți arată cum te descurci în prezent. Watchtower îți spune ce se întâmplă în jurul tău. Împreună, îți oferă imaginea de ansamblu - operațiuni interne și context de piață extern într-un singur strat de inteligență.",
         "button": "Află mai multe despre Watchtower"
       },
-      "faq": {
-        "heading": "Întrebări frecvente",
-        "items": [
-          {
-            "q": "Care este diferența dintre Core Lite și Core Pro?",
-            "a": "Core Lite: actualizare la fiecare 4 ore, 600 credite de bază, 30 de tablouri de bord, un singur POS. Core Pro: actualizare la fiecare 2 ore, 1.200 credite de bază, 75 de tablouri de bord, suport multi-POS."
-          },
-          {
-            "q": "Pot face upgrade de la Report la Core?",
-            "a": "Da. Toate datele istorice sunt păstrate. Tranziție fără pierderi de date."
-          },
-          {
-            "q": "Am nevoie de Core dacă am doar 5 locații?",
-            "a": "Nu este necesar, dar este recomandat dacă ai nevoie de viteză operațională (actualizare la 2-4 ore). Report funcționează excelent pentru 1-10 locații dacă rapoartele zilnice sunt suficiente."
-          },
-          {
-            "q": "Poate Core să gestioneze mai multe sisteme POS?",
-            "a": "Core Pro și Enterprise suportă medii multi-POS. Core Lite suportă un singur POS în toate locațiile."
-          },
-          {
-            "q": "Pot folosi Core cu Watchtower?",
-            "a": "Foarte recomandat. Core oferă inteligență internă, iar Watchtower adaugă inteligență de piață externă pentru o vizibilitate completă."
-          },
-          {
-            "q": "Pot folosi Core cu Module?",
-            "a": "Da. Toate cele 5 module specializate funcționează cu Core pentru a adânci inteligența în domenii operaționale specifice."
-          }
-        ]
-      },
       "cta": {
-        "title": "Oprește-te din a gestiona cifrele de ieri",
-        "description": "Vezi cum arată inteligența operațională în timp real cu datele tale reale.",
+        "title": "Nu mai raporta scurgerea. Recuperează-o.",
+        "description": "Vezi cum Core găsește scurgerea, direcționează remedierea și măsoară marja recuperată față de linia ta de referință - cu datele tale reale.",
         "primary": "Explorează nivelurile Core",
         "secondary": "Programează o demonstrație"
-      }
-    },
-    "sv": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core uppdateras var 2-4 timme så att du kan agera under skiftet - inte efter att skadan är skedd.",
-        "primary": "Utforska Core-nivåer",
-        "secondary": "Boka en demo",
-        "title": "Drift i realtid. Inte dagsavslutsrapporter."
       },
-      "realTime": {
-        "heading": "Intelligenslag i realtid",
-        "description": "Byggd för operatörer som inte kan vänta på slutrapporter. Oavsett om du hanterar 10 eller 100+ platser, ger Core dig hastigheten att se vad som händer nu, förstå varför det är viktigt och få rekommenderade åtgärder innan problemen eskalerar.",
-        "cards": [
+      "solves": {
+        "eyebrow": "UNDE SE DUCE MARJA",
+        "heading": "Patru locuri prin care se scurge profitul. Pachetul tău decide pe care le închizi.",
+        "description": "Pornește de la pierdere, nu de la licență. Fiecare pachet acoperă un set diferit dintre cele patru - Core Performance le acoperă pe toate.",
+        "areas": [
           {
-            "title": "Prediktiv, inte reaktiv",
-            "desc": "Få varningar innan problemen blir kostsamma. Sundae Coach-rekommendationer för omedelbar åtgärd - inte instrumentpaneler som uppdateras.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Venit și profit",
+            "loss": "Anulări, produse oferite, reduceri și produse greșit tarifate, care nu apar niciodată ca o linie despre care poți întreba.",
+            "covered": "Inteligență de venit și profit, asigurarea veniturilor, contribuție pe produs."
           },
           {
-            "title": "Varje plats, en vy",
-            "desc": "Enhetlig synlighet över alla platser. Mönster på portföljnivå och detaljer på platsnivå i en enda vy.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Alimente și aprovizionare",
+            "loss": "Diferența dintre ce ai comandat, ce ai consumat și ce ai vândut - pierderi, abateri și prețuri de furnizor care cresc pe tăcute.",
+            "covered": "Inteligență de stoc și achiziții, consum teoretic față de real, evoluția furnizorilor."
           },
           {
-            "title": "Växer med dig",
-            "desc": "Från 10 till 1 000+ platser. Core Lite, Pro eller Enterprise - plattformen skalas i takt med att du gör det.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Oaspeți și piață",
+            "loss": "Acoperiri care nu apar niciodată, oaspeți care nu se întorc și marja de canal mâncată de comision.",
+            "covered": "Experiența oaspetelui și CRM, rezervări, economia livrărilor, atribuire de marketing, comparații cu piața."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Decizii luate târziu, pe cifrele lunii trecute, fără vreo cale de a ști ulterior dacă au funcționat.",
+            "covered": "Prognoză, modelare de scenarii și stratul de acțiune cu aprobare în flux. O extensie peste Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "VÄLJ DIN NIVÅ",
-        "heading": "Tre nivåer för varje skala",
-        "description": "Från växande verksamheter till globala företag. Välj din hastighet.",
-        "bestForLabel": "Bäst för:",
-        "viewPrefix": "Se",
+        "eyebrow": "ALEGE-ȚI PACHETUL",
+        "heading": "Patru pachete Core",
+        "description": "Fiecare pachet acoperă un set diferit dintre cele patru zone. Alege-l pe cel care se potrivește cu locul pe unde îți pleacă marja.",
+        "bestForLabel": "Potrivit pentru:",
+        "viewPrefix": "Vezi",
+        "priceLabel": "prima locație / lună",
+        "bandsLabel": "Apoi, pentru fiecare locație suplimentară",
+        "walletLabel": "credite AI / lună",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Växande verksamheter",
-            "subtitle": "Realtidsintelligens för 1-29 platser",
-            "description": "För restauranggrupper som växer från enstaka till flera platser. 4-timmars uppdateringscykler och integration med en enda POS.",
-            "features": [
-              "4-timmars uppdatering (6x dagligen)",
-              "600 grundkrediter + 120/plats",
-              "30 anpassade instrumentpaneler",
-              "2-årig retention",
-              "Integration med en enda POS",
-              "E-post + Chatt + Telefon support"
-            ],
-            "bestFor": "1-10 platser, enstaka varumärkesportföljer",
+            "areas": "Acoperă Venit și profit",
+            "badge": "Începe aici",
+            "subtitle": "Baza operațională",
+            "description": "Un singur loc din care decizi, peste POS, forță de muncă, cost și operațiuni, actualizat cât tura încă se desfășoară.",
+            "bestFor": "Grupuri care ies din tabele și panouri deconectate"
+          },
+          {
+            "areas": "Acoperă Venit și profit, Alimente și aprovizionare",
+            "badge": "Cel mai ales",
+            "subtitle": "Profunzime pe cost și scurgeri",
+            "description": "Consum teoretic față de real, pierderi, minusuri, anulări și produse oferite, plus contribuție pe produs.",
+            "bestFor": "Operatori cărora marja se scurge mai repede decât o pot vedea"
+          },
+          {
+            "areas": "Acoperă Venit și profit, Oaspeți și piață",
+            "badge": "Partea de cerere",
+            "subtitle": "Profunzime pe cerere",
+            "description": "Cohorte de oaspeți și valoare pe durata relației, atribuirea promoțiilor pe canal, marja de livrare după comision.",
+            "bestFor": "Grupuri care mizează pe venit repetat și mix de canale"
+          },
+          {
+            "areas": "Acoperă toate cele patru zone, inclusiv Foresight & Action",
+            "badge": "Profunzime completă",
+            "subtitle": "Multi-brand, multi-regiune",
+            "description": "Consolidare între branduri și regiuni, corelare între module, acces guvernat cu urmă de audit.",
+            "bestFor": "Grupuri mari care rulează mai multe branduri sau mai multe piețe"
+          }
+        ]
+      }
+    },
+    "sv": {
+      "proof": {
+        "eyebrow": "SÅ VET DU ATT DET ÄR PÅ RIKTIGT",
+        "heading": "Vem som helst kan påstå återvinning. Sundae låter dig kontrollera.",
+        "description": "En återvunnen siffra är bara värd att lita på om du kan se om den verkligen hände. Sundae svarar på de tre frågor som en noggrann operatör - eller dennes CFO - alltid ställer.",
+        "items": [
+          {
+            "question": "Sluts slingan verkligen?",
+            "title": "Slingans hälsa",
+            "desc": "Se hur många upptäckta läckor som faktiskt når ett mätt resultat - den verkliga slutandelen, inte en siffra för syns skull. Det är den enda siffran som visar att slingan fungerar, och den förblir ärlig även när siffran är låg.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Mest populär",
-            "subtitle": "Optimerad för 30-100 platsportföljer",
-            "description": "För etablerade flerplatsoperatörer som behöver snabbare uppdateringscykler och avancerad prognostisering över varumärken.",
-            "features": [
-              "2-timmars uppdatering (12x dagligen)",
-              "1,200 grundkrediter + 240/plats",
-              "75 anpassade instrumentpaneler",
-              "3-årig retention",
-              "Multi-POS stöd",
-              "Prioriterad telefon support (2 tim SLA)"
-            ],
-            "bestFor": "30-100 platser, fler varumärkesoperatörer",
+            "question": "Hade det hänt ändå?",
+            "title": "Likvärdiga jämförelsetal",
+            "desc": "Varje återvunnen siffra mäts mot ett matchande basvärde för en hel vecka - samma dagar, samma rytm - så att en verklig vinst aldrig förväxlas med en helt vanlig hektisk vecka.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Anpassa allt",
-            "subtitle": "Byggd för 100+ platser",
-            "description": "För storskaliga verksamheter som kräver anpassad uppdateringsfrekvens, obegränsade instrumentpaneler, vit etikett, SSO och dedikerad support.",
-            "features": [
-              "Anpassad uppdateringsfrekvens",
-              "Obegränsade krediter",
-              "Obegränsade instrumentpaneler",
-              "Anpassad retention",
-              "Vit etikett, SSO, dedikerad CSM",
-              "24/7 support med anpassade SLA:er"
-            ],
-            "bestFor": "100+ platser, fler varumärkesföretag",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Betalade det sig självt?",
+            "title": "Avkastning på Sundae",
+            "desc": "Se värdet du återvann ställt mot vad du betalar, period för period - beviset, i mätta pengar, på att Sundae mer än täcker sin kostnad.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "Och när belägget saknas säger Sundae det. Varje resultat förblir vägledande tills en människa bekräftar det, och en detektor tiger hellre än hittar på en siffra."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Ansluten till din POS, arbetskraft, lager och alla viktiga system. Core hittar marginalläckan, styr åtgärden till en utsedd ansvarig och mäter den återvunna marginalen mot en baslinje.",
+        "primary": "Utforska Core-nivåer",
+        "secondary": "Boka en demo",
+        "title": "Hitta läckan. Återvinn vinsten."
       },
       "dimensions": {
         "heading": "4D Intelligensmodellen",
@@ -5025,7 +4447,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Ingår i Core",
         "heading": "Pulse: Ditt Skift Kommandocenter",
-        "description": "Se avvikelser i realtid. Coacha ditt team i realtid. Bekräfta resultat innan skiftet avslutas.",
+        "description": "Se avvikelser i det ögonblick de inträffar. Styr åtgärden till chefen på skiftet. Mät sedan den marginal du återvann mot baslinjen.",
         "features": [
           {
             "name": "Försäljning & Takt",
@@ -5143,134 +4565,120 @@ export const generatedLocalCopy = {
         "button": "Utforska alla moduler"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Komplett Intelligens",
+        "heading": "Watchtower tar in omvärlden i Core",
         "description": "Core visar hur du presterar just nu. Watchtower berättar vad som händer runt omkring dig. Tillsammans ger de dig den kompletta bilden - interna operationer och extern marknadskontext i ett intelligenslager.",
         "button": "Lär dig mer om Watchtower"
       },
-      "faq": {
-        "heading": "Vanliga frågor",
-        "items": [
-          {
-            "q": "Vad är skillnaden mellan Core Lite och Core Pro?",
-            "a": "Core Lite: 4-timmars uppdatering, 600 grundkrediter, 30 instrumentpaneler, en POS. Core Pro: 2-timmars uppdatering, 1 200 grundkrediter, 75 instrumentpaneler, stöd för flera POS."
-          },
-          {
-            "q": "Kan jag uppgradera från Report till Core?",
-            "a": "Ja. All historisk data bevaras. Övergång utan dataförlust."
-          },
-          {
-            "q": "Behöver jag Core om jag bara har 5 platser?",
-            "a": "Inte nödvändigt, men rekommenderas om du behöver operativ hastighet (2-4 timmars uppdatering). Report fungerar utmärkt för 1-10 platser om dagliga rapporter är tillräckliga."
-          },
-          {
-            "q": "Kan Core hantera flera POS-system?",
-            "a": "Core Pro och Enterprise stödjer miljöer med flera POS. Core Lite stödjer en POS över alla platser."
-          },
-          {
-            "q": "Kan jag använda Core med Watchtower?",
-            "a": "Mycket rekommenderat. Core ger intern intelligens, Watchtower lägger till extern marknadsintelligens för fullständig insyn."
-          },
-          {
-            "q": "Kan jag använda Core med Moduler?",
-            "a": "Ja. Alla 5 specialiserade moduler fungerar med Core för att fördjupa intelligensen inom specifika operativa områden."
-          }
-        ]
-      },
       "cta": {
-        "title": "Sluta hantera gårdagens siffror",
-        "description": "Se hur verklig operationell intelligens ser ut med dina faktiska data.",
+        "title": "Sluta rapportera läckan. Återvinn den.",
+        "description": "Se hur Core hittar läckan, styr åtgärden och mäter den återvunna marginalen mot din baslinje - med dina faktiska data.",
         "primary": "Utforska Core-nivåer",
         "secondary": "Boka en demo"
-      }
-    },
-    "bn": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core প্রতি ২-৪ ঘণ্টায় রিফ্রেশ হয় যাতে আপনি শিফটের সময় কাজ করতে পারেন - ক্ষতি হওয়ার পরে নয়।",
-        "primary": "Core স্তর অন্বেষণ করুন",
-        "secondary": "একটি ডেমো বুক করুন",
-        "title": "রিয়েল-টাইম অপারেশন। দিনশেষের রিপোর্ট নয়।"
       },
-      "realTime": {
-        "heading": "রিয়েল-টাইম ইন্টেলিজেন্স লেয়ার",
-        "description": "অপারেটরদের জন্য তৈরি যারা দিনের শেষে রিপোর্টের জন্য অপেক্ষা করতে পারে না। আপনি 10টি স্থান পরিচালনা করেন বা 100টিরও বেশি, Core আপনাকে এখন কী ঘটছে তা দেখার জন্য গতি দেয়, কেন এটি গুরুত্বপূর্ণ তা বুঝতে সাহায্য করে এবং সমস্যা বাড়ার আগে সুপারিশকৃত পদক্ষেপ গ্রহণ করতে সহায়তা করে।",
-        "cards": [
+      "solves": {
+        "eyebrow": "VART MARGINALEN TAR VÄGEN",
+        "heading": "Fyra ställen där vinsten läcker. Ert paket avgör vilka ni täpper till.",
+        "description": "Utgå från förlusten, inte från licensen. Varje paket täcker en egen uppsättning av de fyra - Core Performance täcker alla.",
+        "areas": [
           {
-            "title": "পূর্বাভাসমূলক, প্রতিক্রিয়াশীল নয়",
-            "desc": "সমস্যাগুলি ব্যয়বহুল হওয়ার আগে সতর্কতা পান। তাত্ক্ষণিক পদক্ষেপের জন্য Sundae Coach সুপারিশ - আপডেট হওয়া ড্যাশবোর্ড নয়।",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "Intäkt & vinst",
+            "loss": "Makuleringar, bjudningar, rabatter och felprissatta artiklar som aldrig dyker upp som en rad ni kan ifrågasätta.",
+            "covered": "Intäkts- och vinstanalys, intäktssäkring, bidrag per artikel."
           },
           {
-            "title": "প্রতিটি স্থান, একটি দৃশ্য",
-            "desc": "সমস্ত স্থানের মধ্যে একক দৃশ্যমানতা। একটি একক প্যানেলে পোর্টফোলিও-স্তরের প্যাটার্ন এবং স্থান-স্তরের বিস্তারিত।",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "Mat & inköp",
+            "loss": "Glappet mellan vad ni beställde, vad ni gjorde av med och vad ni sålde - svinn, avvikelser och leverantörspriser som smyger uppåt.",
+            "covered": "Lager- och inköpsanalys, teoretisk mot faktisk förbrukning, leverantörernas prisrörelser."
           },
           {
-            "title": "আপনার সাথে বৃদ্ধি পায়",
-            "desc": "10 থেকে 1,000+ স্থান। Core Lite, Pro, বা Enterprise - প্ল্যাটফর্মটি আপনার সাথে বৃদ্ধি পায়।",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "Gäst & marknad",
+            "loss": "Kuvert som aldrig dyker upp, gäster som inte kommer tillbaka och kanalmarginal som provisionen äter upp.",
+            "covered": "Gästupplevelse och CRM, bokningar, leveransekonomi, marknadsföringsattribution, jämförelser med branschen."
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "Beslut som fattas för sent, på förra månadens siffror, utan sätt att i efterhand se om de gav effekt.",
+            "covered": "Prognos, scenariomodellering och handlingslagret med godkännande i flödet. En utbyggnad ovanpå Core."
           }
         ]
       },
       "tiers": {
-        "eyebrow": "আপনার স্তর নির্বাচন করুন",
-        "heading": "প্রতিটি স্কেলের জন্য তিনটি স্তর",
-        "description": "বর্ধিত অপারেশন থেকে বৈশ্বিক উদ্যোগ পর্যন্ত। আপনার গতি বেছে নিন।",
-        "bestForLabel": "সর্বোত্তম জন্য:",
-        "viewPrefix": "দেখুন",
+        "eyebrow": "VÄLJ ERT PAKET",
+        "heading": "Fyra Core-paket",
+        "description": "Varje paket täcker en egen uppsättning av de fyra områdena. Välj det som matchar vart er marginal tar vägen.",
+        "bestForLabel": "Passar:",
+        "viewPrefix": "Se",
+        "priceLabel": "första enheten / månad",
+        "bandsLabel": "Därefter per ytterligare enhet",
+        "walletLabel": "AI-krediter / månad",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "বর্ধিত অপারেশন",
-            "subtitle": "১-২৯ লোকেশনের জন্য রিয়েল-টাইম ইনটেলিজেন্স",
-            "description": "রেস্তোরাঁর গ্রুপগুলির জন্য যারা একক লোকেশন থেকে বহু লোকেশনে অপারেশন বাড়াচ্ছে। ৪-ঘণ্টার রিফ্রেশ সাইকেল এবং একক POS ইন্টিগ্রেশন।",
-            "features": [
-              "৪-ঘণ্টার রিফ্রেশ (৬x দৈনিক)",
-              "৬০০ বেস ক্রেডিট + ১২০/লোকেশন",
-              "৩০টি কাস্টম ড্যাশবোর্ড",
-              "২ বছরের রিটেনশন",
-              "একক POS ইন্টিগ্রেশন",
-              "ইমেইল + চ্যাট + ফোন সমর্থন"
-            ],
-            "bestFor": "১-১০ লোকেশন, একক-ব্র্যান্ড পোর্টফোলিও",
+            "areas": "Täcker Intäkt & vinst",
+            "badge": "Börja här",
+            "subtitle": "Den operativa grunden",
+            "description": "Ett ställe att fatta beslut från, över POS, personal, kostnad och drift, uppdaterat medan passet fortfarande pågår.",
+            "bestFor": "Grupper som lämnar kalkylblad och osammanhängande dashboards"
+          },
+          {
+            "areas": "Täcker Intäkt & vinst, Mat & inköp",
+            "badge": "Vanligaste valet",
+            "subtitle": "Djup i kostnad och läckage",
+            "description": "Teoretisk mot faktisk förbrukning, svinn, lagerdifferenser, makuleringar och bjudningar, samt bidrag per artikel.",
+            "bestFor": "Verksamheter vars marginal läcker fortare än de hinner se"
+          },
+          {
+            "areas": "Täcker Intäkt & vinst, Gäst & marknad",
+            "badge": "Efterfrågesidan",
+            "subtitle": "Djup i efterfrågan",
+            "description": "Gästkohorter och livstidsvärde, kampanjattribution per kanal, leveransmarginal efter provision.",
+            "bestFor": "Grupper som satsar på återkommande intäkt och kanalmix"
+          },
+          {
+            "areas": "Täcker alla fyra områden, inkl. Foresight & Action",
+            "badge": "Fullt djup",
+            "subtitle": "Flera varumärken, flera regioner",
+            "description": "Konsolidering över varumärken och regioner, korrelation mellan moduler, styrd åtkomst med spårbarhet.",
+            "bestFor": "Stora grupper med flera varumärken eller flera marknader"
+          }
+        ]
+      }
+    },
+    "bn": {
+      "proof": {
+        "eyebrow": "কীভাবে বুঝবেন এটি সত্যি",
+        "heading": "পুনরুদ্ধারের দাবি যে কেউ করতে পারে। Sundae আপনাকে যাচাই করতে দেয়।",
+        "description": "পুনরুদ্ধার করা সংখ্যা তখনই বিশ্বাসযোগ্য, যখন আপনি দেখতে পান তা সত্যিই ঘটেছে কি না। একজন সতর্ক পরিচালক - বা তাঁর CFO - সবসময় যে তিনটি প্রশ্ন করেন, Sundae তার উত্তর দেয়।",
+        "items": [
+          {
+            "question": "লুপ কি সত্যিই বন্ধ হচ্ছে?",
+            "title": "লুপের সুস্থতা",
+            "desc": "দেখুন শনাক্ত হওয়া কতগুলো লিক আসলে একটি পরিমাপযোগ্য ফলাফলে পৌঁছায় - আসল ক্লোজ-রেট, লোক-দেখানো গণনা নয়। এটিই একমাত্র সংখ্যা যা জানায় লুপ কাজ করছে, আর সংখ্যাটি কম হলেও তা সৎ থাকে।",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "সর্বাধিক জনপ্রিয়",
-            "subtitle": "৩০-১০০ লোকেশন পোর্টফোলিওর জন্য অপ্টিমাইজড",
-            "description": "প্রতিষ্ঠিত বহু লোকেশন অপারেটরদের জন্য যারা দ্রুত রিফ্রেশ সাইকেল এবং ব্র্যান্ডগুলির মধ্যে উন্নত পূর্বাভাস প্রয়োজন।",
-            "features": [
-              "২-ঘণ্টার রিফ্রেশ (১২x দৈনিক)",
-              "১,২০০ বেস ক্রেডিট + ২৪০/লোকেশন",
-              "৭৫টি কাস্টম ড্যাশবোর্ড",
-              "৩ বছরের রিটেনশন",
-              "মাল্টি-POS সমর্থন",
-              "প্রাধিকার ফোন সমর্থন (২ ঘন্টা SLA)"
-            ],
-            "bestFor": "৩০-১০০ লোকেশন, বহু-ব্র্যান্ড অপারেটর",
+            "question": "এটা কি এমনিতেও ঘটত?",
+            "title": "সমতুল্য ভিত্তিরেখা",
+            "desc": "প্রতিটি পুনরুদ্ধার করা সংখ্যা মেলানো, পূর্ণ-সপ্তাহের একটি ভিত্তিরেখার সঙ্গে মাপা হয় - একই দিন, একই ছন্দ - যাতে সত্যিকারের লাভকে কখনো নিছক ব্যস্ত এক সপ্তাহ ভেবে ভুল না হয়।",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "কাস্টম সবকিছু",
-            "subtitle": "১০০+ লোকেশনের জন্য নির্মিত",
-            "description": "বৃহৎ স্কেলের অপারেশনগুলির জন্য যা কাস্টম রিফ্রেশ ফ্রিকোয়েন্সি, অসীম ড্যাশবোর্ড, হোয়াইট-লেবেল, SSO, এবং নিবেদিত সমর্থন প্রয়োজন।",
-            "features": [
-              "কাস্টম রিফ্রেশ ফ্রিকোয়েন্সি",
-              "অসীম ক্রেডিট",
-              "অসীম ড্যাশবোর্ড",
-              "কাস্টম রিটেনশন",
-              "হোয়াইট-লেবেল, SSO, নিবেদিত CSM",
-              "২৪/৭ সমর্থন কাস্টম SLA সহ"
-            ],
-            "bestFor": "১০০+ লোকেশন, বহু-ব্র্যান্ড উদ্যোগ",
-            "color": "from-orange-500 to-orange-600"
+            "question": "এটা কি নিজের খরচ তুলে এনেছে?",
+            "title": "Sundae-তে প্রতিদান",
+            "desc": "দেখুন আপনি যা পুনরুদ্ধার করেছেন তা আপনার পরিশোধের বিপরীতে, প্রতি মেয়াদে - পরিমাপ করা অর্থে সেই প্রমাণ যে Sundae তার খরচের চেয়ে অনেক বেশি পুষিয়ে দেয়।",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "আর যখন প্রমাণ থাকে না, Sundae তা বলে দেয়। প্রতিটি ফলাফল একজন মানুষ নিশ্চিত না করা পর্যন্ত কেবল দিকনির্দেশক থাকে, আর কোনো ডিটেক্টর সংখ্যা বানানোর চেয়ে চুপ থাকাই বেছে নেয়।"
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core মুনাফার ফাঁস খুঁজে বের করে, সংশোধনটি একজন নির্ধারিত দায়িত্বপ্রাপ্তকে বরাদ্দ করে, এবং পুনরুদ্ধার করা মার্জিন একটি ভিত্তিরেখার সাপেক্ষে পরিমাপ করে।",
+        "primary": "Core স্তর অন্বেষণ করুন",
+        "secondary": "একটি ডেমো বুক করুন",
+        "title": "ফাঁস খুঁজুন। মুনাফা ফিরে পান।"
       },
       "dimensions": {
         "heading": "4D ইন্টেলিজেন্স মডেল",
@@ -5313,7 +4721,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Core এর সাথে অন্তর্ভুক্ত",
         "heading": "Pulse: আপনার শিফট কমান্ড সেন্টার",
-        "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। আপনার দলের প্রশিক্ষণ দিন বাস্তব সময়ে। শিফট শেষ হওয়ার আগে ফলাফল নিশ্চিত করুন।",
+        "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। সংশোধনটি শিফটের ম্যানেজারকে বরাদ্দ করুন। তারপর আপনি যে মার্জিন পুনরুদ্ধার করেছেন তা ভিত্তিরেখার সাপেক্ষে পরিমাপ করুন।",
         "features": [
           {
             "name": "বিক্রয় ও গতি",
@@ -5431,134 +4839,120 @@ export const generatedLocalCopy = {
         "button": "সমস্ত মডিউল অন্বেষণ করুন"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = সম্পূর্ণ বুদ্ধিমত্তা",
+        "heading": "Watchtower বাইরের জগৎকে Core-এ নিয়ে আসে",
         "description": "Core আপনাকে জানায় আপনি এখন কেমন পারফর্ম করছেন। Watchtower আপনাকে জানায় আপনার চারপাশে কী ঘটছে। একসাথে, তারা আপনাকে সম্পূর্ণ চিত্র দেয় - অভ্যন্তরীণ কার্যক্রম এবং বাইরের বাজারের প্রেক্ষাপট এক বুদ্ধিমত্তা স্তরে।",
         "button": "Watchtower সম্পর্কে জানুন"
       },
-      "faq": {
-        "heading": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
-        "items": [
-          {
-            "q": "Core Lite এবং Core Pro এর মধ্যে পার্থক্য কী?",
-            "a": "Core Lite: ৪ ঘণ্টার রিফ্রেশ, ৬০০ বেস ক্রেডিট, ৩০ ড্যাশবোর্ড, একক POS। Core Pro: ২ ঘণ্টার রিফ্রেশ, ১,২০০ বেস ক্রেডিট, ৭৫ ড্যাশবোর্ড, মাল্টি-POS সমর্থন।"
-          },
-          {
-            "q": "আমি কি Report থেকে Core এ আপগ্রেড করতে পারি?",
-            "a": "হ্যাঁ। সমস্ত ঐতিহাসিক তথ্য সংরক্ষিত হয়। কোনো তথ্য হারানো ছাড়াই স্থানান্তর।"
-          },
-          {
-            "q": "যদি আমার কাছে মাত্র ৫টি লোকেশন থাকে তবে কি আমাকে Core এর প্রয়োজন?",
-            "a": "প্রয়োজন নেই, তবে যদি আপনি অপারেশনাল গতি (২-৪ ঘণ্টার রিফ্রেশ) প্রয়োজন হয় তবে সুপারিশ করা হয়। দৈনিক রিপোর্ট যথেষ্ট হলে ১-১০ লোকেশনের জন্য Report চমৎকার কাজ করে।"
-          },
-          {
-            "q": "Core কি একাধিক POS সিস্টেম পরিচালনা করতে পারে?",
-            "a": "Core Pro এবং Enterprise মাল্টি-POS পরিবেশ সমর্থন করে। Core Lite সমস্ত লোকেশনের জন্য একক POS সমর্থন করে।"
-          },
-          {
-            "q": "আমি কি Watchtower এর সাথে Core ব্যবহার করতে পারি?",
-            "a": "অত্যন্ত সুপারিশ করা হয়। Core অভ্যন্তরীণ বুদ্ধিমত্তা প্রদান করে, Watchtower সম্পূর্ণ দৃশ্যমানতার জন্য বাহ্যিক বাজার বুদ্ধিমত্তা যোগ করে।"
-          },
-          {
-            "q": "আমি কি Modules এর সাথে Core ব্যবহার করতে পারি?",
-            "a": "হ্যাঁ। সমস্ত ৫টি বিশেষায়িত মডিউল Core এর সাথে কাজ করে নির্দিষ্ট অপারেশনাল এলাকায় বুদ্ধিমত্তা গভীর করতে।"
-          }
-        ]
-      },
       "cta": {
-        "title": "গতকালের সংখ্যা পরিচালনা করা বন্ধ করুন",
-        "description": "আপনার প্রকৃত ডেটার সাথে বাস্তব-সময়ের অপারেশনাল বুদ্ধিমত্তা কেমন দেখায় তা দেখুন।",
+        "title": "ফাঁস শুধু রিপোর্ট করা বন্ধ করুন। এটি ফিরে পান।",
+        "description": "দেখুন Core কীভাবে ফাঁস খুঁজে বের করে, সংশোধন বরাদ্দ করে, এবং পুনরুদ্ধার করা মার্জিন আপনার ভিত্তিরেখার সাপেক্ষে পরিমাপ করে - আপনার প্রকৃত ডেটায়।",
         "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন"
-      }
-    },
-    "th": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core จะรีเฟรชทุก 2-4 ชั่วโมง เพื่อให้คุณสามารถดำเนินการได้ในระหว่างการทำงาน - ไม่ใช่หลังจากที่เกิดความเสียหายแล้ว.",
-        "primary": "สำรวจระดับ Core",
-        "secondary": "จองการสาธิต",
-        "title": "การดำเนินงานแบบเรียลไทม์ ไม่ใช่รายงานสิ้นวัน"
       },
-      "realTime": {
-        "heading": "ชั้นข้อมูลเชิงลึกแบบเรียลไทม์",
-        "description": "สร้างขึ้นสำหรับผู้ดำเนินการที่ไม่สามารถรอรายงานตอนสิ้นวันได้ ไม่ว่าคุณจะจัดการ 10 สถานที่หรือ 100+ สถานที่ Core มอบความเร็วในการเห็นสิ่งที่เกิดขึ้นในขณะนี้ เข้าใจว่าทำไมมันถึงสำคัญ และรับคำแนะนำในการดำเนินการก่อนที่ปัญหาจะลุกลาม.",
-        "cards": [
+      "solves": {
+        "eyebrow": "মুনাফা কোথায় যাচ্ছে",
+        "heading": "চার জায়গায় মুনাফা বেরিয়ে যায়। কোনগুলো বন্ধ করবেন, তা ঠিক করে আপনার প্যাকেজ।",
+        "description": "লাইসেন্স থেকে নয়, ক্ষতি থেকে শুরু করুন। প্রতিটি প্যাকেজ এই চারটির আলাদা সমন্বয় কভার করে - Core Performance চারটিই কভার করে।",
+        "areas": [
           {
-            "title": "คาดการณ์ ไม่ใช่ตอบสนอง",
-            "desc": "รับการแจ้งเตือนก่อนที่ปัญหาจะกลายเป็นค่าใช้จ่ายสูง Sundae Coach แนะนำการดำเนินการทันที - ไม่ใช่แดชบอร์ดที่อัปเดต.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "রাজস্ব ও মুনাফা",
+            "loss": "ভয়েড, কমপ্লিমেন্টারি, ছাড় আর ভুল দামে বসানো আইটেম - কোনোটিই এমন এক লাইন হয়ে আসে না যা নিয়ে আপনি প্রশ্ন তুলতে পারেন।",
+            "covered": "রাজস্ব ও মুনাফা ইন্টেলিজেন্স, রাজস্ব নিশ্চিতকরণ, আইটেম-ভিত্তিক অবদান।"
           },
           {
-            "title": "ทุกสถานที่ มุมมองเดียว",
-            "desc": "การมองเห็นที่รวมกันทั่วทุกสถานที่ รูปแบบในระดับพอร์ตโฟลิโอและรายละเอียดในระดับสถานที่ในหน้าต่างเดียว.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "খাদ্য ও সরবরাহ",
+            "loss": "যা অর্ডার করলেন, যা ব্যবহার হলো আর যা বিক্রি হলো - এর মধ্যেকার ফারাক: অপচয়, বিচ্যুতি আর সরবরাহকারীর নিঃশব্দ দাম বৃদ্ধি।",
+            "covered": "ইনভেন্টরি ও ক্রয় ইন্টেলিজেন্স, তাত্ত্বিক বনাম প্রকৃত ব্যবহার, সরবরাহকারীর দামের গতি।"
           },
           {
-            "title": "เติบโตไปพร้อมกับคุณ",
-            "desc": "จาก 10 ถึง 1,000+ สถานที่ Core Lite, Pro หรือ Enterprise - แพลตฟอร์มขยายขนาดตามที่คุณทำ.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "অতিথি ও বাজার",
+            "loss": "যে কভার কখনো আসে না, যে অতিথি ফেরেন না, আর কমিশনের পর চ্যানেল মার্জিনের নিঃশেষ হয়ে যাওয়া।",
+            "covered": "অতিথি অভিজ্ঞতা ও CRM, রিজার্ভেশন, ডেলিভারি অর্থনীতি, মার্কেটিং অ্যাট্রিবিউশন, সমমানের বেঞ্চমার্ক।"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "দেরিতে নেওয়া সিদ্ধান্ত, গত মাসের সংখ্যার ভিত্তিতে, আর পরে সেগুলো কাজে এসেছিল কি না তা জানারও উপায় নেই।",
+            "covered": "পূর্বাভাস, দৃশ্যকল্প মডেলিং আর অনুমোদন-সহ অ্যাকশন স্তর। Core-এর উপর একটি সম্প্রসারণ।"
           }
         ]
       },
       "tiers": {
-        "eyebrow": "เลือกระดับของคุณ",
-        "heading": "สามระดับสำหรับทุกขนาด",
-        "description": "จากการดำเนินงานที่กำลังเติบโตไปจนถึงองค์กรระดับโลก เลือกความเร็วของคุณ",
-        "bestForLabel": "ดีที่สุดสำหรับ:",
-        "viewPrefix": "ดู",
+        "eyebrow": "আপনার প্যাকেজ বেছে নিন",
+        "heading": "চারটি Core প্যাকেজ",
+        "description": "প্রতিটি প্যাকেজ চারটি ক্ষেত্রের আলাদা সমন্বয় কভার করে। আপনার মার্জিন যেদিকে যাচ্ছে, তার সঙ্গে মেলে এমনটি বেছে নিন।",
+        "bestForLabel": "যাদের জন্য:",
+        "viewPrefix": "দেখুন",
+        "priceLabel": "প্রথম আউটলেট / মাস",
+        "bandsLabel": "এরপর, প্রতিটি অতিরিক্ত আউটলেটে",
+        "walletLabel": "AI ক্রেডিট / মাস",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "การดำเนินงานที่กำลังเติบโต",
-            "subtitle": "ข้อมูลเชิงลึกแบบเรียลไทม์สำหรับ 1-29 สถานที่",
-            "description": "สำหรับกลุ่มร้านอาหารที่ขยายจากการดำเนินงานที่ตั้งเดียวไปยังหลายสถานที่ มีรอบการอัปเดตทุก 4 ชั่วโมงและการรวม POS เดียว",
-            "features": [
-              "การอัปเดตทุก 4 ชั่วโมง (6 ครั้งต่อวัน)",
-              "เครดิตพื้นฐาน 600 + 120/สถานที่",
-              "แดชบอร์ดที่กำหนดเอง 30 แผง",
-              "การเก็บรักษา 2 ปี",
-              "การรวม POS เดียว",
-              "การสนับสนุนทางอีเมล + แชท + โทรศัพท์"
-            ],
-            "bestFor": "1-10 สถานที่, พอร์ตโฟลิโอแบรนด์เดียว",
+            "areas": "রাজস্ব ও মুনাফা কভার করে",
+            "badge": "এখান থেকে শুরু",
+            "subtitle": "পরিচালনার ভিত্তি",
+            "description": "সিদ্ধান্ত নেওয়ার একটিই জায়গা - POS, শ্রম, খরচ আর পরিচালনা জুড়ে, শিফট চলতে চলতেই হালনাগাদ।",
+            "bestFor": "স্প্রেডশিট আর বিচ্ছিন্ন ড্যাশবোর্ড ছাড়ছে এমন গ্রুপ"
+          },
+          {
+            "areas": "রাজস্ব ও মুনাফা, খাদ্য ও সরবরাহ কভার করে",
+            "badge": "সবচেয়ে জনপ্রিয়",
+            "subtitle": "খরচ ও ক্ষরণে গভীরতা",
+            "description": "তাত্ত্বিক বনাম প্রকৃত ব্যবহার, অপচয়, ঘাটতি, ভয়েড ও কমপ্লিমেন্টারি, আর আইটেম-ভিত্তিক অবদান।",
+            "bestFor": "যাদের মার্জিন দেখার চেয়ে দ্রুত বেরিয়ে যাচ্ছে"
+          },
+          {
+            "areas": "রাজস্ব ও মুনাফা, অতিথি ও বাজার কভার করে",
+            "badge": "চাহিদার দিক",
+            "subtitle": "চাহিদায় গভীরতা",
+            "description": "অতিথি কোহর্ট ও জীবনকালীন মূল্য, চ্যানেলভিত্তিক প্রোমো অ্যাট্রিবিউশন, কমিশনের পর ডেলিভারি মার্জিন।",
+            "bestFor": "পুনরাবৃত্ত আয় ও চ্যানেল মিশ্রণে জোর দেওয়া গ্রুপ"
+          },
+          {
+            "areas": "চারটি ক্ষেত্রই কভার করে, Foresight & Action সহ",
+            "badge": "পূর্ণ গভীরতা",
+            "subtitle": "একাধিক ব্র্যান্ড, একাধিক অঞ্চল",
+            "description": "ব্র্যান্ড ও অঞ্চল জুড়ে একত্রীকরণ, মডিউল-জুড়ে সম্পর্ক, অডিট ট্রেইলসহ নিয়ন্ত্রিত অ্যাক্সেস।",
+            "bestFor": "একাধিক ব্র্যান্ড বা একাধিক বাজার চালানো বড় গ্রুপ"
+          }
+        ]
+      }
+    },
+    "th": {
+      "proof": {
+        "eyebrow": "รู้ได้อย่างไรว่ามันเป็นเรื่องจริง",
+        "heading": "ใครก็อ้างว่ากู้คืนได้ทั้งนั้น Sundae ให้คุณตรวจสอบเอง",
+        "description": "ตัวเลขที่กู้คืนมาจะน่าเชื่อถือก็ต่อเมื่อคุณเห็นได้ว่ามันเกิดขึ้นจริงหรือไม่ Sundae ตอบสามคำถามที่ผู้ดำเนินงานผู้รอบคอบ - หรือ CFO ของเขา - ถามอยู่เสมอ",
+        "items": [
+          {
+            "question": "วงจรปิดครบจริงหรือไม่",
+            "title": "สุขภาพของวงจร",
+            "desc": "ดูว่าจากรอยรั่วที่ตรวจพบ มีกี่รายที่ไปถึงผลลัพธ์ที่วัดได้จริง - อัตราการปิดวงจรที่แท้จริง ไม่ใช่ตัวเลขไว้อวด นี่คือตัวเลขเดียวที่บอกคุณว่าวงจรกำลังทำงาน และมันยังคงซื่อตรงแม้เมื่อตัวเลขนั้นต่ำ",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "ยอดนิยมที่สุด",
-            "subtitle": "ปรับให้เหมาะสมสำหรับพอร์ตโฟลิโอสถานที่ 30-100 แห่ง",
-            "description": "สำหรับผู้ดำเนินการหลายสถานที่ที่มีชื่อเสียงซึ่งต้องการรอบการอัปเดตที่เร็วขึ้นและการคาดการณ์ขั้นสูงข้ามแบรนด์",
-            "features": [
-              "การอัปเดตทุก 2 ชั่วโมง (12 ครั้งต่อวัน)",
-              "เครดิตพื้นฐาน 1,200 + 240/สถานที่",
-              "แดชบอร์ดที่กำหนดเอง 75 แผง",
-              "การเก็บรักษา 3 ปี",
-              "การสนับสนุนหลาย POS",
-              "การสนับสนุนทางโทรศัพท์ลำดับความสำคัญ (SLA 2 ชั่วโมง)"
-            ],
-            "bestFor": "30-100 สถานที่, ผู้ดำเนินการหลายแบรนด์",
+            "question": "มันก็คงเกิดขึ้นอยู่ดีหรือเปล่า",
+            "title": "เส้นฐานเทียบเท่ากัน",
+            "desc": "ทุกตัวเลขที่กู้คืนถูกวัดเทียบกับเส้นฐานเต็มสัปดาห์ที่ตรงกัน - วันเดียวกัน จังหวะเดียวกัน - เพื่อไม่ให้กำไรจริงถูกเข้าใจผิดว่าเป็นเพียงสัปดาห์ที่ยุ่งตามปกติ",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "ปรับแต่งทุกอย่าง",
-            "subtitle": "สร้างขึ้นสำหรับสถานที่ 100 แห่งขึ้นไป",
-            "description": "สำหรับการดำเนินงานขนาดใหญ่ที่ต้องการความถี่ในการอัปเดตที่กำหนดเอง แดชบอร์ดไม่จำกัด แบรนด์ส่วนตัว SSO และการสนับสนุนเฉพาะ",
-            "features": [
-              "ความถี่ในการอัปเดตที่กำหนดเอง",
-              "เครดิตไม่จำกัด",
-              "แดชบอร์ดไม่จำกัด",
-              "การเก็บรักษาที่กำหนดเอง",
-              "แบรนด์ส่วนตัว SSO ผู้จัดการความสำเร็จของลูกค้าเฉพาะ",
-              "การสนับสนุน 24/7 พร้อม SLA ที่กำหนดเอง"
-            ],
-            "bestFor": "สถานที่ 100 แห่งขึ้นไป, องค์กรหลายแบรนด์",
-            "color": "from-orange-500 to-orange-600"
+            "question": "มันคุ้มค่าที่จ่ายไปหรือไม่",
+            "title": "ผลตอบแทนจาก Sundae",
+            "desc": "ดูมูลค่าที่คุณกู้คืนมาเทียบกับสิ่งที่คุณจ่าย งวดต่องวด - หลักฐานเป็นเม็ดเงินที่วัดได้ว่า Sundae คุ้มยิ่งกว่าค่าใช้จ่ายของมัน",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "และเมื่อไม่มีหลักฐาน Sundae ก็จะบอกตามตรง ทุกผลลัพธ์ยังคงเป็นเพียงทิศทางจนกว่าจะมีคนยืนยัน และตัวตรวจจับเลือกที่จะเงียบมากกว่าจะกุตัวเลขขึ้นมา"
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core ค้นหาการรั่วไหลของกำไร มอบหมายการแก้ไขให้ผู้รับผิดชอบที่ระบุไว้ และวัดกำไรที่กู้คืนได้เทียบกับเส้นฐาน",
+        "primary": "สำรวจระดับ Core",
+        "secondary": "จองการสาธิต",
+        "title": "ค้นหาการรั่วไหล กู้คืนกำไร"
       },
       "dimensions": {
         "heading": "โมเดลอัจฉริยะ 4D",
@@ -5601,7 +4995,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "รวมอยู่ใน Core",
         "heading": "Pulse: ศูนย์ควบคุมกะของคุณ",
-        "description": "ดูความผิดปกติในทันทีที่เกิดขึ้น สอนทีมของคุณแบบเรียลไทม์ ยืนยันผลลัพธ์ก่อนสิ้นสุดกะ",
+        "description": "ดูความผิดปกติในทันทีที่เกิดขึ้น มอบหมายการแก้ไขให้ผู้จัดการที่อยู่ในกะ แล้ววัดกำไรที่คุณกู้คืนได้เทียบกับเส้นฐาน",
         "features": [
           {
             "name": "ยอดขาย & อัตรา",
@@ -5719,134 +5113,120 @@ export const generatedLocalCopy = {
         "button": "สำรวจโมดูลทั้งหมด"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = ปัญญาที่ครบถ้วน",
+        "heading": "Watchtower นำโลกภายนอกเข้ามาใน Core",
         "description": "Core บอกคุณว่าคุณทำงานได้ดีแค่ไหนในขณะนี้ Watchtower บอกคุณว่าเกิดอะไรขึ้นรอบตัวคุณ เมื่อรวมกัน พวกเขาจะให้ภาพรวมที่ครบถ้วน - การดำเนินงานภายในและบริบทตลาดภายนอกในชั้นปัญญาเดียวกัน.",
         "button": "เรียนรู้เกี่ยวกับ Watchtower"
       },
-      "faq": {
-        "heading": "คำถามที่พบบ่อย",
-        "items": [
-          {
-            "q": "ความแตกต่างระหว่าง Core Lite และ Core Pro คืออะไร?",
-            "a": "Core Lite: การรีเฟรชทุก 4 ชั่วโมง, 600 เครดิตพื้นฐาน, 30 แดชบอร์ด, POS เดียว. Core Pro: การรีเฟรชทุก 2 ชั่วโมง, 1,200 เครดิตพื้นฐาน, 75 แดชบอร์ด, รองรับหลาย POS."
-          },
-          {
-            "q": "ฉันสามารถอัปเกรดจาก Report เป็น Core ได้ไหม?",
-            "a": "ได้. ข้อมูลประวัติทั้งหมดจะถูกเก็บรักษาไว้. การเปลี่ยนแปลงไม่มีการสูญเสียข้อมูล."
-          },
-          {
-            "q": "ฉันต้องการ Core หรือไม่ถ้าฉันมีเพียง 5 สถานที่?",
-            "a": "ไม่จำเป็น, แต่แนะนำถ้าคุณต้องการความเร็วในการดำเนินงาน (การรีเฟรช 2-4 ชั่วโมง). Report ทำงานได้ดีสำหรับ 1-10 สถานที่ถ้ารายงานประจำวันเพียงพอ."
-          },
-          {
-            "q": "Core สามารถจัดการระบบ POS หลายระบบได้หรือไม่?",
-            "a": "Core Pro และ Enterprise รองรับสภาพแวดล้อมหลาย POS. Core Lite รองรับ POS เดียวในทุกสถานที่."
-          },
-          {
-            "q": "ฉันสามารถใช้ Core กับ Watchtower ได้ไหม?",
-            "a": "แนะนำอย่างยิ่ง. Core ให้ข้อมูลภายใน, Watchtower เพิ่มข้อมูลตลาดภายนอกเพื่อการมองเห็นที่ครบถ้วน."
-          },
-          {
-            "q": "ฉันสามารถใช้ Core กับ Modules ได้ไหม?",
-            "a": "ได้. โมดูลเฉพาะ 5 ตัวทั้งหมดทำงานร่วมกับ Core เพื่อเพิ่มความลึกของข้อมูลในพื้นที่การดำเนินงานเฉพาะ."
-          }
-        ]
-      },
       "cta": {
-        "title": "หยุดจัดการตัวเลขเมื่อวานนี้",
-        "description": "ดูว่าข้อมูลเชิงลึกในการดำเนินงานแบบเรียลไทม์เป็นอย่างไรด้วยข้อมูลจริงของคุณ",
+        "title": "หยุดเพียงรายงานการรั่วไหล กู้คืนมันกลับมา",
+        "description": "ดูว่า Core ค้นหาการรั่วไหล มอบหมายการแก้ไข และวัดกำไรที่กู้คืนได้เทียบกับเส้นฐานของคุณอย่างไร - ด้วยข้อมูลจริงของคุณ",
         "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต"
-      }
-    },
-    "ms": {
-      "hero": {
-        "badge": "Sundae Core",
-        "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core menyegarkan setiap 2-4 jam supaya anda boleh bertindak semasa waktu kerja - bukan selepas kerosakan berlaku.",
-        "primary": "Terokai Tahap Core",
-        "secondary": "Tempah Demo",
-        "title": "Operasi masa nyata. Bukan laporan hujung hari."
       },
-      "realTime": {
-        "heading": "Lapisan Kecerdasan Masa Nyata",
-        "description": "Dibina untuk pengendali yang tidak boleh menunggu laporan akhir hari. Sama ada anda mengurus 10 lokasi atau 100+, Core memberikan anda kelajuan untuk melihat apa yang berlaku sekarang, memahami mengapa ia penting, dan mendapatkan tindakan yang disyorkan sebelum masalah meningkat.",
-        "cards": [
+      "solves": {
+        "eyebrow": "กำไรหายไปไหน",
+        "heading": "กำไรรั่วอยู่สี่จุด แพ็กเกจของคุณเป็นตัวกำหนดว่าจะปิดจุดไหน",
+        "description": "เริ่มจากส่วนที่เสียไป ไม่ใช่จากใบอนุญาต แต่ละแพ็กเกจครอบคลุมชุดที่ต่างกันในสี่ด้านนี้ - Core Performance ครอบคลุมทั้งสี่ด้าน",
+        "areas": [
           {
-            "title": "Prediktif, Bukan Reaktif",
-            "desc": "Dapatkan amaran sebelum masalah menjadi mahal. Cadangan Sundae Coach untuk tindakan segera - bukan papan pemuka yang dikemas kini.",
-            "icon": "forecasting",
-            "color": "from-[#FF7E6F] to-[#FF5C4D]"
+            "title": "รายได้และกำไร",
+            "loss": "รายการยกเลิก ของแถม ส่วนลด และเมนูที่ตั้งราคาผิด ล้วนไม่เคยโผล่มาเป็นบรรทัดที่คุณตั้งคำถามได้",
+            "covered": "อินเทลลิเจนซ์ด้านรายได้และกำไร การรักษารายได้ กำไรส่วนเกินรายเมนู"
           },
           {
-            "title": "Setiap Lokasi, Satu Pandangan",
-            "desc": "Keterlihatan bersatu di semua lokasi. Corak peringkat portfolio dan butiran peringkat lokasi dalam satu paparan.",
-            "icon": "multiLocation",
-            "color": "from-[#F2B45C] to-[#C2410C]"
+            "title": "อาหารและซัพพลาย",
+            "loss": "ช่องว่างระหว่างของที่สั่ง ของที่ใช้ และของที่ขาย ทั้งของเสีย ส่วนต่าง และราคาซัพพลายเออร์ที่ค่อย ๆ ขยับขึ้น",
+            "covered": "อินเทลลิเจนซ์ด้านสต๊อกและการจัดซื้อ ปริมาณใช้ตามทฤษฎีเทียบกับที่ใช้จริง ความเคลื่อนไหวของซัพพลายเออร์"
           },
           {
-            "title": "Berkembang Bersama Anda",
-            "desc": "Dari 10 hingga 1,000+ lokasi. Core Lite, Pro, atau Enterprise - platform ini berkembang seiring dengan anda.",
-            "icon": "performance",
-            "color": "from-green-500 to-green-600"
+            "title": "ลูกค้าและตลาด",
+            "loss": "ที่นั่งที่ไม่เคยมีคนมา ลูกค้าที่ไม่กลับมา และมาร์จินช่องทางที่ถูกค่าคอมมิชชันกินไป",
+            "covered": "ประสบการณ์ลูกค้าและ CRM การจอง เศรษฐศาสตร์เดลิเวอรี การระบุที่มาทางการตลาด และการเทียบเคียงกับร้านอื่น"
+          },
+          {
+            "title": "Foresight & Action",
+            "loss": "การตัดสินใจที่มาช้า อิงตัวเลขเดือนที่แล้ว และไม่มีทางรู้ทีหลังว่าได้ผลหรือไม่",
+            "covered": "การพยากรณ์ การจำลองสถานการณ์ และชั้นการลงมือทำที่มีการอนุมัติกำกับ เป็นส่วนขยายบน Core"
           }
         ]
       },
       "tiers": {
-        "eyebrow": "PILIH TAHAP ANDA",
-        "heading": "Tiga Tahap untuk Setiap Skala",
-        "description": "Dari operasi yang sedang berkembang hingga perusahaan global. Pilih kelajuan anda.",
-        "bestForLabel": "Terbaik untuk:",
-        "viewPrefix": "Lihat",
+        "eyebrow": "เลือกแพ็กเกจของคุณ",
+        "heading": "สี่แพ็กเกจ Core",
+        "description": "แต่ละแพ็กเกจครอบคลุมชุดที่ต่างกันในสี่ด้านนี้ เลือกแพ็กเกจที่ตรงกับจุดที่กำไรของคุณกำลังรั่ว",
+        "bestForLabel": "เหมาะกับ:",
+        "viewPrefix": "ดู",
+        "priceLabel": "สาขาแรก / เดือน",
+        "bandsLabel": "จากนั้น ต่อสาขาที่เพิ่มขึ้น",
+        "walletLabel": "เครดิต AI / เดือน",
         "items": [
           {
-            "name": "Core Lite",
-            "badge": "Operasi yang Berkembang",
-            "subtitle": "Kecerdasan Masa Nyata untuk 1-29 Lokasi",
-            "description": "Untuk kumpulan restoran yang berkembang dari operasi lokasi tunggal ke pelbagai lokasi. Kitaran penyegaran 4 jam dan integrasi POS tunggal.",
-            "features": [
-              "Penyegaran 4 jam (6x sehari)",
-              "600 kredit asas + 120/lokasi",
-              "30 papan pemuka khusus",
-              "Penyimpanan 2 tahun",
-              "Integrasi POS tunggal",
-              "Sokongan Email + Chat + Telefon"
-            ],
-            "bestFor": "1-10 lokasi, portfolio jenama tunggal",
+            "areas": "ครอบคลุมรายได้และกำไร",
+            "badge": "เริ่มที่นี่",
+            "subtitle": "พื้นฐานการดำเนินงาน",
+            "description": "ที่เดียวสำหรับตัดสินใจ ครอบคลุม POS แรงงาน ต้นทุน และการดำเนินงาน อัปเดตตั้งแต่กะยังไม่จบ",
+            "bestFor": "เครือที่กำลังเลิกใช้สเปรดชีตและแดชบอร์ดที่ไม่เชื่อมกัน"
+          },
+          {
+            "areas": "ครอบคลุมรายได้และกำไร อาหารและซัพพลาย",
+            "badge": "เลือกมากที่สุด",
+            "subtitle": "ลงลึกต้นทุนและการรั่วไหล",
+            "description": "ปริมาณใช้ตามทฤษฎีเทียบกับที่ใช้จริง ของเสีย ของขาด รายการยกเลิกและของแถม รวมถึงกำไรส่วนเกินรายเมนู",
+            "bestFor": "ผู้ประกอบการที่มาร์จินรั่วเร็วกว่าที่มองเห็น"
+          },
+          {
+            "areas": "ครอบคลุมรายได้และกำไร ลูกค้าและตลาด",
+            "badge": "ฝั่งอุปสงค์",
+            "subtitle": "ลงลึกด้านอุปสงค์",
+            "description": "กลุ่มลูกค้าและมูลค่าตลอดช่วงชีวิต การระบุที่มาของโปรโมชันรายช่องทาง มาร์จินเดลิเวอรีหลังหักค่าคอมมิชชัน",
+            "bestFor": "เครือที่เร่งรายได้จากลูกค้าประจำและสัดส่วนช่องทาง"
+          },
+          {
+            "areas": "ครอบคลุมทั้งสี่ด้าน รวมถึง Foresight & Action",
+            "badge": "ลึกเต็มรูปแบบ",
+            "subtitle": "หลายแบรนด์ หลายภูมิภาค",
+            "description": "การรวมข้อมูลข้ามแบรนด์และภูมิภาค ความสัมพันธ์ข้ามโมดูล และการเข้าถึงที่กำกับดูแลพร้อมร่องรอยตรวจสอบ",
+            "bestFor": "เครือขนาดใหญ่ที่บริหารหลายแบรนด์หรือหลายตลาด"
+          }
+        ]
+      }
+    },
+    "ms": {
+      "proof": {
+        "eyebrow": "BAGAIMANA ANDA TAHU IANYA BENAR",
+        "heading": "Sesiapa pun boleh mendakwa pemulihan. Sundae membolehkan anda menyemaknya.",
+        "description": "Angka yang dipulihkan hanya layak dipercayai jika anda dapat melihat sama ada ia benar-benar berlaku. Sundae menjawab tiga soalan yang sentiasa ditanya oleh pengendali yang teliti - atau CFO mereka.",
+        "items": [
+          {
+            "question": "Adakah gelung benar-benar tertutup?",
+            "title": "Kesihatan gelung",
+            "desc": "Lihat berapa banyak kebocoran yang dikesan benar-benar mencapai hasil yang diukur - kadar penutupan sebenar, bukan angka hiasan. Inilah satu-satunya angka yang menunjukkan gelung berfungsi, dan ia kekal jujur apabila angka itu rendah.",
+            "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
           {
-            "name": "Core Pro",
-            "badge": "Paling Popular",
-            "subtitle": "Dioptimumkan untuk Portfolio 30-100 Lokasi",
-            "description": "Untuk pengendali pelbagai lokasi yang sudah mantap yang memerlukan kitaran penyegaran yang lebih cepat dan ramalan yang lebih maju merentasi jenama.",
-            "features": [
-              "Penyegaran 2 jam (12x sehari)",
-              "1,200 kredit asas + 240/lokasi",
-              "75 papan pemuka khusus",
-              "Penyimpanan 3 tahun",
-              "Sokongan Multi-POS",
-              "Sokongan telefon keutamaan (SLA 2 jam)"
-            ],
-            "bestFor": "30-100 lokasi, pengendali pelbagai jenama",
+            "question": "Adakah ia akan berlaku juga?",
+            "title": "Asas perbandingan setara",
+            "desc": "Setiap angka yang dipulihkan diukur terhadap asas seminggu penuh yang sepadan - hari yang sama, rentak yang sama - supaya keuntungan sebenar tidak sekali-kali disalah anggap sebagai minggu yang sekadar sibuk.",
+            "icon": "benchmarking",
             "color": "from-[#F2B45C] to-[#C2410C]"
           },
           {
-            "name": "Enterprise",
-            "badge": "Kustom Segala-galanya",
-            "subtitle": "Dibina untuk 100+ Lokasi",
-            "description": "Untuk operasi berskala besar yang memerlukan frekuensi penyegaran kustom, papan pemuka tanpa had, label putih, SSO, dan sokongan khusus.",
-            "features": [
-              "Frekuensi penyegaran kustom",
-              "Kredit tanpa had",
-              "Papan pemuka tanpa had",
-              "Penyimpanan kustom",
-              "Label putih, SSO, CSM khusus",
-              "Sokongan 24/7 dengan SLA kustom"
-            ],
-            "bestFor": "100+ lokasi, perusahaan pelbagai jenama",
-            "color": "from-orange-500 to-orange-600"
+            "question": "Adakah ia berbaloi?",
+            "title": "Pulangan atas Sundae",
+            "desc": "Lihat nilai yang anda pulihkan berbanding apa yang anda bayar, tempoh demi tempoh - bukti, dalam wang yang diukur, bahawa Sundae menampung kosnya lebih daripada cukup.",
+            "icon": "finance",
+            "color": "from-green-500 to-green-600"
           }
-        ]
+        ],
+        "honesty": "Dan apabila buktinya tiada, Sundae menyatakannya. Setiap keputusan kekal bersifat arah sehingga seseorang mengesahkannya, dan pengesan memilih untuk berdiam daripada mereka-reka angka."
+      },
+      "hero": {
+        "badge": "Sundae Core",
+        "description": "Terhubung dengan POS, tenaga kerja, inventori, dan setiap sistem yang penting. Core mengesan kebocoran margin, menyalurkan pembaikan kepada pemilik yang ditetapkan dan mengukur margin yang dipulihkan berbanding garis dasar.",
+        "primary": "Terokai Tahap Core",
+        "secondary": "Tempah Demo",
+        "title": "Cari kebocoran. Pulihkan keuntungan."
       },
       "dimensions": {
         "heading": "Model Kecerdasan 4D",
@@ -5889,7 +5269,7 @@ export const generatedLocalCopy = {
       "pulse": {
         "badge": "Termasuk dengan Core",
         "heading": "Pulse: Pusat Komando Shift Anda",
-        "description": "Lihat anomali sebaik sahaja ia berlaku. Latih pasukan anda secara langsung. Sahkan hasil sebelum shift berakhir.",
+        "description": "Lihat anomali sebaik sahaja ia berlaku. Salurkan pembaikan kepada pengurus yang bertugas. Kemudian ukur margin yang anda pulihkan berbanding garis dasar.",
         "features": [
           {
             "name": "Jualan & Rentak",
@@ -6007,44 +5387,82 @@ export const generatedLocalCopy = {
         "button": "Jelajahi Semua Modul"
       },
       "watchtower": {
-        "heading": "Core + Watchtower = Kecerdasan Lengkap",
+        "heading": "Watchtower membawa dunia luar ke dalam Core",
         "description": "Core memberitahu anda bagaimana prestasi anda sekarang. Watchtower memberitahu anda apa yang berlaku di sekitar anda. Bersama-sama, mereka memberikan gambaran lengkap - operasi dalaman dan konteks pasaran luar dalam satu lapisan kecerdasan.",
         "button": "Ketahui Lebih Lanjut Tentang Watchtower"
       },
-      "faq": {
-        "heading": "Soalan Lazim",
-        "items": [
+      "cta": {
+        "title": "Berhenti sekadar melaporkan kebocoran. Pulihkannya.",
+        "description": "Lihat cara Core mengesan kebocoran, menyalurkan pembaikan dan mengukur margin yang dipulihkan berbanding garis dasar anda - dengan data sebenar anda.",
+        "primary": "Terokai Tahap Core",
+        "secondary": "Tempah Demo"
+      },
+      "solves": {
+        "eyebrow": "KE MANA MARGIN PERGI",
+        "heading": "Empat tempat untung bocor. Pakej anda menentukan yang mana anda tutup.",
+        "description": "Mulakan daripada kerugian, bukan daripada lesen. Setiap pakej merangkumi gabungan berbeza daripada keempat-empatnya - Core Performance merangkumi kesemuanya.",
+        "areas": [
           {
-            "q": "Apakah perbezaan antara Core Lite dan Core Pro?",
-            "a": "Core Lite: penyegaran 4 jam, 600 kredit asas, 30 papan pemuka, satu POS. Core Pro: penyegaran 2 jam, 1,200 kredit asas, 75 papan pemuka, sokongan multi-POS."
+            "title": "Hasil & Untung",
+            "loss": "Pembatalan, hidangan percuma, diskaun dan item tersalah harga yang tidak pernah muncul sebagai satu baris yang boleh anda persoalkan.",
+            "covered": "Kecerdasan hasil dan untung, jaminan hasil, sumbangan mengikut item."
           },
           {
-            "q": "Bolehkah saya menaik taraf dari Report ke Core?",
-            "a": "Ya. Semua data sejarah akan dipelihara. Peralihan tanpa kehilangan data."
+            "title": "Makanan & Bekalan",
+            "loss": "Jurang antara apa yang dipesan, apa yang digunakan dan apa yang terjual - pembaziran, sisihan dan harga pembekal yang naik senyap.",
+            "covered": "Kecerdasan inventori dan perolehan, penggunaan teori berbanding sebenar, pergerakan pembekal."
           },
           {
-            "q": "Adakah saya memerlukan Core jika saya hanya mempunyai 5 lokasi?",
-            "a": "Tidak diperlukan, tetapi disyorkan jika anda memerlukan kelajuan operasi (penyegaran 2-4 jam). Report berfungsi dengan baik untuk 1-10 lokasi jika laporan harian mencukupi."
+            "title": "Tetamu & Pasaran",
+            "loss": "Tempat yang tidak pernah diisi, tetamu yang tidak kembali, dan margin saluran yang dimakan komisen.",
+            "covered": "Pengalaman tetamu dan CRM, tempahan, ekonomi penghantaran, atribusi pemasaran, penanda aras rakan industri."
           },
           {
-            "q": "Bolehkah Core mengendalikan pelbagai sistem POS?",
-            "a": "Core Pro dan Enterprise menyokong persekitaran multi-POS. Core Lite menyokong satu POS di semua lokasi."
-          },
-          {
-            "q": "Bolehkah saya menggunakan Core dengan Watchtower?",
-            "a": "Sangat disyorkan. Core menyediakan kecerdasan dalaman, Watchtower menambah kecerdasan pasaran luar untuk penglihatan lengkap."
-          },
-          {
-            "q": "Bolehkah saya menggunakan Core dengan Modules?",
-            "a": "Ya. Semua 5 modul khusus berfungsi dengan Core untuk memperdalam kecerdasan dalam bidang operasi tertentu."
+            "title": "Foresight & Action",
+            "loss": "Keputusan yang dibuat lewat, atas angka bulan lalu, tanpa cara untuk tahu selepas itu sama ada ia berkesan.",
+            "covered": "Ramalan, pemodelan senario dan lapisan tindakan dengan kelulusan dalam aliran. Satu pengembangan di atas Core."
           }
         ]
       },
-      "cta": {
-        "title": "Hentikan Mengurus Nombor Semalam",
-        "description": "Lihat bagaimana kecerdasan operasi masa nyata dengan data sebenar anda.",
-        "primary": "Terokai Tahap Core",
-        "secondary": "Tempah Demo"
+      "tiers": {
+        "eyebrow": "PILIH PAKEJ ANDA",
+        "heading": "Empat pakej Core",
+        "description": "Setiap pakej merangkumi gabungan berbeza daripada empat bidang ini. Pilih yang sepadan dengan ke mana margin anda pergi.",
+        "bestForLabel": "Sesuai untuk:",
+        "viewPrefix": "Lihat",
+        "priceLabel": "cawangan pertama / bulan",
+        "bandsLabel": "Selepas itu, bagi setiap cawangan tambahan",
+        "walletLabel": "kredit AI / bulan",
+        "items": [
+          {
+            "areas": "Merangkumi Hasil & Untung",
+            "badge": "Mula di sini",
+            "subtitle": "Asas operasi",
+            "description": "Satu tempat untuk membuat keputusan, merangkumi POS, tenaga kerja, kos dan operasi, dikemas kini semasa syif masih berjalan.",
+            "bestFor": "Kumpulan yang meninggalkan hamparan dan papan pemuka yang tidak bersambung"
+          },
+          {
+            "areas": "Merangkumi Hasil & Untung, Makanan & Bekalan",
+            "badge": "Paling banyak dipilih",
+            "subtitle": "Mendalam pada kos dan kebocoran",
+            "description": "Penggunaan teori berbanding sebenar, pembaziran, susut nilai, pembatalan dan hidangan percuma, serta sumbangan mengikut item.",
+            "bestFor": "Pengendali yang marginnya bocor lebih laju daripada yang mereka nampak"
+          },
+          {
+            "areas": "Merangkumi Hasil & Untung, Tetamu & Pasaran",
+            "badge": "Sebelah permintaan",
+            "subtitle": "Mendalam pada permintaan",
+            "description": "Kohort tetamu dan nilai sepanjang hayat, atribusi promosi mengikut saluran, margin penghantaran selepas komisen.",
+            "bestFor": "Kumpulan yang memacu hasil berulang dan campuran saluran"
+          },
+          {
+            "areas": "Merangkumi kesemua empat bidang, termasuk Foresight & Action",
+            "badge": "Kedalaman penuh",
+            "subtitle": "Berbilang jenama, berbilang wilayah",
+            "description": "Penyatuan merentas jenama dan wilayah, korelasi antara modul, akses terkawal dengan jejak audit.",
+            "bestFor": "Kumpulan besar yang mengendalikan beberapa jenama atau beberapa pasaran"
+          }
+        ]
       }
     }
   }

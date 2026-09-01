@@ -3,30 +3,30 @@
 export const generatedLocalCopy = {
   "aboutCopy": {
     "de": {
-      "metadataTitle": "Über Sundae - Die Entscheidungsintelligenz-Plattform für Restaurants",
-      "metadataDescription": "Sundae vereint über 12 Datenquellen in einer einzigen Intelligenzschicht für Multi-Unit-Restaurantgruppen. Entwickelt von Betreibern, die das Problem selbst erlebt haben. Aktiv in 3 Ländern.",
+      "metadataTitle": "Über Sundae - Die Entscheidungsintelligenz-Plattform für die Gastronomie",
+      "metadataDescription": "Sundae vereint über 12 Datenquellen in einer einzigen Intelligenzschicht für Multi-Unit-Gastronomiegruppen. Entwickelt von Betreibern, die das Problem selbst erlebt haben. Lokalisiert in 22 Sprachen.",
       "badge": "Über Sundae",
       "description": "Restaurantdaten befinden sich normalerweise in einem Dutzend voneinander getrennter Systeme. Sundae bringt dieses Betriebsbild an einem Ort zusammen, damit Teams Entscheidungen auf der Grundlage aktueller Zahlen, Marktkontext und zukunftsorientierter Signale treffen können.",
       "stats": [
         {
-          "value": "6",
-          "label": "Plattform-Säulen"
+          "value": "200+",
+          "label": "Verbundene Systeme"
         },
         {
           "value": "12",
-          "label": "Intelligenzmodule"
+          "label": "Operative Bereiche"
         },
         {
-          "value": "12",
-          "label": "Datenbereiche"
+          "value": "36",
+          "label": "Länder für die Lohnabrechnung"
         },
         {
-          "value": "3",
-          "label": "Aktive Länder"
+          "value": "22",
+          "label": "Sprachen"
         }
       ],
       "builtTitle": "Was wir gebaut haben",
-      "builtDescription": "Sechs verbundene Ebenen, die Betreibern helfen, von der Echtzeitplanung zu 90-Tage-Prognosen zu wechseln, ohne zwischen Systemen zu springen.",
+      "builtDescription": "Sechs verbundene Ebenen, die Betreibern helfen, das Leck zu finden, die Behebung einem Verantwortlichen zuzuweisen und die zurückgewonnene Marge zu messen - von der Echtzeitplanung bis zu 90-Tage-Prognosen, ohne zwischen Systemen zu springen.",
       "missionTitle": "Warum Sundae existiert",
       "missionDescription": "Betriebe mit mehreren Standorten führen komplexe, umsatzstarke Geschäfte über Dutzende von voneinander getrennten Systemen. Das Ergebnis: Millionenentscheidungen basieren auf Bauchgefühl, Margenverluste sind unsichtbar, bis es zu spät ist, und es fehlt an Marktkenntnis für die Leistungsbewertung.",
       "missionSupport": "Wir haben Sundae gegründet, weil wir das Problem selbst erlebt haben. Unser Gründer hat Restaurantkonzepte auf über 10 Millionen Dollar Jahresumsatz skaliert und stieß immer wieder auf dasselbe Problem: zu viele Systeme, zu wenig Klarheit bei Entscheidungen.",
@@ -45,7 +45,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Von Betreibern entwickelt, die das Problem erlebt haben",
-      "teamDescription": "Unser Team bringt über 60 Jahre Erfahrung in den Bereichen Gastronomie, Technologie und Daten mit. Wir haben dieses Problem nicht von der Seitenlinie aus betrachtet. Wir haben den Betrieb geleitet, Konzepte skaliert und uns mit denselben Berichtslücken auseinandergesetzt, mit denen Betreiber jede Woche konfrontiert sind.",
+      "teamDescription": "Unser Team bringt über 40 Jahre aus Gastronomie, Technologie und Daten mit. Wir haben dieses Problem nicht von außen studiert - wir haben den Betrieb geführt, Konzepte skaliert und mit denselben Reporting-Lücken gelebt, die Betreiber jede Woche erleben.",
       "strengthsTitle": "Teamstärken",
       "journeyTitle": "Die Sundae-Reise",
       "journeyDescription": "Das Unternehmen entstand aus den Herausforderungen der Betreiber und entwickelte sich dann zu einer Plattform, die in mehreren Märkten genutzt wird.",
@@ -57,6 +57,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 Minuten, um Ihre Daten gemeinsam zu überprüfen und zu sehen, wo Sundae wirklich nützlich sein könnte.",
       "ctaPrimary": "Eine Demo buchen",
       "ctaSecondary": "Wir stellen ein",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Betriebssuite - Sundae Crew",
+      "ctaHome": "Zurück zur Startseite",
+      "crewPillars": [
+        "Dienstplanung",
+        "Zeiterfassung",
+        "Lohnabrechnung",
+        "Personal & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Bedarfsgerechte Schichtplanung",
+        "Einstempeln, Geofencing, Stundenzettel",
+        "Länderübergreifende Lohnabrechnung",
+        "Personalakten von Einstellung bis Austritt",
+        "Personalanalysen"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -87,39 +104,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategischer Operating Partner",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "5-facher Gründer mit 2 erfolgreichen Exits und Erfahrung im Aufbau von Unternehmen über 100 Millionen USD",
-            "Spezialist für die Schaffung von Kategorien von 0→1 und produktgetriebenem Wachstum",
-            "Über 18 Jahre Erfahrung in Produkt, Marketing und Markteinführung",
-            "Leitet die Marktposition von Sundae im Bereich Restaurantintelligenz und Wachstum"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Leiterin Produkt",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ehemalige Systems Engineer bei Walmart Kanada - entwickelte auf Unternehmensebene",
-            "3 Produktlinien gestartet, alle innerhalb von 18 Monaten profitabel",
-            "Übersetzt die Bedürfnisse der Betreiber in messbaren Produkt-ROI",
-            "Stellt sicher, dass jedes Modul ein echtes Problem löst, mit dem Betreiber während ihrer Schicht konfrontiert sind"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Leiter Technologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Entwickelte Unternehmens-SaaS-Plattformen, die über 10 Millionen Transaktionen täglich abwickeln",
-            "Erfahrener Ingenieur im Automobil- und Unternehmens-SaaS-Bereich auf globaler Ebene",
-            "Experte für sichere, konforme Systemarchitektur",
-            "Verantwortet die Zuverlässigkeit der Infrastruktur von Sundae und die Echtzeit-Datenpipeline"
+            "Tiefe Erfahrung als Senior-Operator und F&B-Geschäftsbeziehungen von Anfang an am Tisch",
+            "Interim-C-Level- und vorstandsnahe Beratung für Multi-Unit-Gastgewerbebetreiber in der GCC-Region und Europa",
+            "Öffnet Türen zu Großkunden und stellt Pulse, Insights und Foresight auf den Prüfstand gegen das, was die F&B-Führung wirklich braucht",
+            "Geschäftsführer von Curfs Consult, der Gründer bei Go-to-Market, Fundraising und Skalierung begleitet"
           ]
         }
       ],
@@ -132,11 +125,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Erste Implementierungen",
-          "description": "Partnerschaften mit Multi-Brand-Restaurantgruppen in den VAE und Kanada. Echte Daten, echte Betreiber, echte Entscheidungen von Anfang an."
+          "description": "Partnerschaften mit Multi-Brand-Restaurantgruppen in den VAE. Echte Daten, echte Betreiber, echte Entscheidungen von Anfang an."
         },
         {
           "year": "2026",
-          "title": "12 Module live",
+          "title": "Volle operative Abdeckung live",
           "description": "Umsatz, Personal, Inventar, Lieferung, Reservierungen, Einkauf, Marketing und Gewinnintelligenz - alles vereint über 12 operative Bereiche."
         },
         {
@@ -147,7 +140,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Globale Expansion",
-          "description": "Expansion nach Europa und Asien-Pazifik. Unternehmensintelligenz für Restaurantmarken in mehreren Ländern."
+          "description": "Expansion nach Europa und Asien-Pazifik. Unternehmensintelligenz für Hospitality-Gruppen in mehreren Ländern."
         }
       ],
       "values": [
@@ -160,71 +153,110 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligenz zuerst",
           "description": "Zerstreute Daten sind teuer. Wir verwandeln 12 Systeme in eine intelligente Schicht, die tatsächlich Entscheidungen trifft.",
-          "proof": "12 Module in 12 operativen Bereichen - von Einnahmen bis Reservierungen.",
+          "proof": "Umsatz, Personal, Bestand, Einkauf, Marketing, Reservierungen, Lieferung und Gäste - an einem Ort abgedeckt.",
           "icon": "insights"
         },
         {
           "title": "Echtzeit-Entscheidungen",
-          "description": "Wöchentliche Berichte kosten Sie Geld. Die Betriebsleiter, die gewinnen, sind die, die Probleme sehen, während sie sie noch beheben können.",
+          "description": "Wöchentliche Berichte kosten Sie Geld. Die Betriebsleiter, die gewinnen, sind die, die Probleme beheben, solange sie es noch können - und hinterher wissen, ob die Behebung wirklich gewirkt hat.",
           "proof": "Pulse aktualisiert sich alle 5 Minuten an jedem Standort.",
           "icon": "speed"
         },
         {
           "title": "Den Standard erhöhen",
-          "description": "Wir möchten, dass Restaurantteams mehr von ihrem Datenstapel erwarten als nur ein weiteres statisches Dashboard.",
-          "proof": "Aktiv in 3 Ländern mit Unternehmensgruppen, die die Plattform umfassend übernehmen.",
+          "description": "Wir möchten, dass Betreiber von einem Datenstapel mehr erwarten als ein weiteres Dashboard: eine Zahl, auf die zu handeln sich lohnt, und den Beleg, dass das Handeln etwas zurückgebracht hat.",
+          "proof": "Lokalisiert in 22 Sprachen, mit Unternehmensgruppen, die die Plattform umfassend übernehmen.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Aktive Märkte",
+        "expanding": "Expansionsmärkte"
+      },
+      "presenceFootnote": "Zu den aktiven Märkten zählen physische Standorte (Amsterdam, Dubai) und der rechtliche Sitz des Unternehmens (USA · Delaware C-Corp). Nordamerika (New York, Toronto) und weitere Expansionsmärkte sind strategische Prioritäten auf der Roadmap; die Zusammenarbeit beginnt von den bestehenden Hubs aus.",
       "regions": [
         {
-          "region": "Naher Osten",
-          "countries": "VAE, KSA, Katar",
-          "label": "Aktiv"
+          "region": "Amsterdam",
+          "countries": "Europa-Hub",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Nordamerika",
-          "countries": "USA, Kanada",
-          "label": "Aktiv"
+          "region": "Dubai",
+          "countries": "MEA-Hub",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Vereinigtes Königreich, Deutschland, Frankreich",
-          "label": "Ziel"
+          "region": "USA",
+          "countries": "Delaware C-Corp",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Asien-Pazifik",
-          "countries": "Australien, Singapur",
-          "label": "Ziel"
+          "region": "New York",
+          "countries": "Nordamerika",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Nordamerika",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapur",
+          "countries": "APAC",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokio",
+          "countries": "APAC",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexiko-Stadt",
+          "countries": "LATAM",
+          "label": "Demnächst",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Demnächst",
+          "tier": "expanding"
         }
       ],
-      "title": "Die Intelligenzebene, die Restaurants nie hatten"
+      "title": "Wir haben die Entscheidungsebene gebaut, die wir brauchten und nirgends fanden."
     },
     "fr": {
-      "metadataTitle": "À propos de Sundae - La plateforme d'intelligence décisionnelle pour les restaurants",
-      "metadataDescription": "Sundae unifie plus de 12 sources de données en une seule couche d'intelligence pour les groupes de restaurants multi-unités. Conçu par des opérateurs ayant vécu le problème. Actif dans 3 pays.",
+      "metadataTitle": "À propos de Sundae - La plateforme d'intelligence décisionnelle pour la restauration",
+      "metadataDescription": "Sundae unifie plus de 12 sources de données en une seule couche d'intelligence pour les groupes de restauration multi-unités. Conçu par des opérateurs ayant vécu le problème. Localisé en 22 langues.",
       "badge": "À propos de Sundae",
       "description": "Les données des restaurants se trouvent généralement dans une douzaine de systèmes déconnectés. Sundae regroupe cette vue d'ensemble en un seul endroit afin que les équipes puissent prendre des décisions avec des chiffres actuels, un contexte de marché et des signaux prospectifs.",
       "stats": [
         {
-          "value": "6",
-          "label": "Piliers de la plateforme"
+          "value": "200+",
+          "label": "Systèmes connectés"
         },
         {
           "value": "12",
-          "label": "Modules d'intelligence"
+          "label": "Domaines opérationnels"
         },
         {
-          "value": "12",
-          "label": "Domaines de données"
+          "value": "36",
+          "label": "Pays pour la paie"
         },
         {
-          "value": "3",
-          "label": "Pays actifs"
+          "value": "22",
+          "label": "Langues"
         }
       ],
       "builtTitle": "Ce que nous avons construit",
-      "builtDescription": "Six couches connectées qui aident les opérateurs à passer de la gestion en temps réel à des prévisions sur 90 jours sans sauter entre les systèmes.",
+      "builtDescription": "Six couches connectées qui aident les opérateurs à trouver la fuite, à confier la correction à un responsable et à mesurer la marge récupérée - du pilotage en temps réel aux prévisions à 90 jours, sans passer d'un système à l'autre.",
       "missionTitle": "Pourquoi Sundae existe",
       "missionDescription": "Les opérateurs de restaurants multi-unités gèrent des entreprises complexes et à fort volume à travers des dizaines de systèmes déconnectés. Le résultat : des décisions de plusieurs millions de dollars prises sur un coup de cœur, des fuites de marge invisibles jusqu'à ce qu'il soit trop tard, et aucun contexte de marché pour évaluer la performance.",
       "missionSupport": "Nous avons créé Sundae parce que nous avons vécu le problème. Notre fondateur a développé des concepts de restaurant dépassant 10 millions de dollars de revenus annuels et a constamment rencontré le même problème : trop de systèmes, trop peu de clarté dans les décisions.",
@@ -243,7 +275,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construit par des opérateurs qui ont vécu le problème",
-      "teamDescription": "Notre équipe cumule plus de 60 ans d'expérience dans les restaurants, la technologie et les données. Nous n'avons pas étudié ce problème de loin. Nous avons géré des opérations, développé des concepts et fait face aux mêmes lacunes de reporting que rencontrent les opérateurs chaque semaine.",
+      "teamDescription": "Notre équipe réunit plus de 40 ans d'expérience en restauration, technologie et données. Nous n'avons pas étudié le problème de l'extérieur : nous avons dirigé l'exploitation, développé les concepts et rencontré les mêmes manques de reporting que les opérateurs affrontent chaque semaine.",
       "strengthsTitle": "Forces de l'équipe",
       "journeyTitle": "Le Voyage Sundae",
       "journeyDescription": "L'entreprise est née de la douleur des opérateurs, puis est devenue une plateforme utilisée sur plusieurs marchés.",
@@ -285,39 +317,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Directeur de la Croissance",
-          "location": "Dubaï",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Partenaire opérationnel stratégique",
+          "location": "GCC & Europe",
+          "image": "",
           "bullets": [
-            "5 fois fondateur avec 2 sorties réussies et expérience dans la construction d'entreprises dépassant 100M$",
-            "Spécialiste de la création de catégories 0→1 et de la croissance axée sur le produit",
-            "Plus de 18 ans dans le produit, le marketing et l'exécution sur le marché",
-            "Dirige la position de marché de Sundae dans l'intelligence et la croissance des restaurants"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Responsable Produit",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ancienne ingénieure systèmes chez Walmart Canada - a construit à l'échelle des entreprises",
-            "3 lignes de produits lancées, toutes rentables en 18 mois",
-            "Traduit les besoins des opérateurs en ROI produit mesurable",
-            "S'assure que chaque module résout un véritable problème auquel les opérateurs sont confrontés lors de leur service"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Responsable Technologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "A construit des plateformes SaaS d'entreprise gérant plus de 10M de transactions quotidiennes",
-            "Ingénieur chevronné dans l'automobile et le SaaS d'entreprise à l'échelle mondiale",
-            "Expert en architecture de systèmes sécurisés et conformes",
-            "Responsable de la fiabilité de l'infrastructure de Sundae et du pipeline de données en temps réel"
+            "Une expertise d'opérateur senior et des relations commerciales F&B autour de la table dès le premier jour",
+            "Conseil de niveau C par intérim et proche des conseils d'administration pour les opérateurs d'hospitalité multi-sites à travers le GCC et l'Europe",
+            "Ouvre les portes des grands comptes et met Pulse, Insights et Foresight à l'épreuve de ce dont les dirigeants F&B ont réellement besoin",
+            "Dirigeant de Curfs Consult, accompagnant les fondateurs sur le go-to-market, la levée de fonds et la mise à l'échelle"
           ]
         }
       ],
@@ -330,11 +338,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Premiers Déploiements",
-          "description": "Partenariat avec des groupes de restaurants multi-marques aux Émirats Arabes Unis et au Canada. Données réelles, opérateurs réels, décisions réelles dès le premier jour."
+          "description": "Partenariat avec des groupes de restaurants multi-marques aux Émirats Arabes Unis. Données réelles, opérateurs réels, décisions réelles dès le premier jour."
         },
         {
           "year": "2026",
-          "title": "12 Modules Actifs",
+          "title": "Couverture opérationnelle complète en production",
           "description": "Revenus, main-d'œuvre, inventaire, livraison, réservations, achats, marketing et intelligence des profits - tous unifiés à travers 12 domaines opérationnels."
         },
         {
@@ -345,7 +353,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Expansion Mondiale",
-          "description": "Expansion en Europe et dans la région Asie-Pacifique. Intelligence d'entreprise pour les marques de restaurants multi-pays."
+          "description": "Expansion en Europe et dans la région Asie-Pacifique. Intelligence d'entreprise pour les groupes hôteliers et de restauration multi-pays."
         }
       ],
       "values": [
@@ -358,70 +366,110 @@ export const generatedLocalCopy = {
         {
           "title": "L'Intelligence d'abord",
           "description": "Des données éparpillées coûtent cher. Nous transformons 12 systèmes en une couche intelligente qui prend réellement des décisions.",
-          "proof": "12 modules dans 12 domaines opérationnels - des revenus aux réservations.",
+          "proof": "Ventes, main-d'œuvre, stocks, achats, marketing, réservations, livraison et clients - couverts au même endroit.",
           "icon": "insights"
         },
         {
           "title": "Décisions en Temps Réel",
-          "description": "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent sont ceux qui voient les problèmes pendant qu'ils peuvent encore les résoudre.",
+          "description": "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent sont ceux qui corrigent les problèmes tant qu'ils le peuvent encore - et qui savent ensuite si la correction a vraiment marché.",
           "proof": "Pulse se rafraîchit toutes les 5 minutes dans chaque emplacement.",
           "icon": "speed"
         },
         {
           "title": "Élever le Standard",
-          "description": "Nous voulons que les équipes de restaurant s'attendent à plus de leur pile de données qu'un simple tableau de bord statique.",
-          "proof": "Actif dans 3 pays avec des groupes d'entreprise adoptant la plateforme dans son ensemble.",
+          "description": "Nous voulons que les opérateurs attendent d'une pile de données plus qu'un tableau de bord de plus : un chiffre qui mérite qu'on agisse, et la preuve que l'action a rapporté quelque chose.",
+          "proof": "Localisé en 22 langues, avec des groupes d'entreprise adoptant la plateforme dans son ensemble.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Marchés actifs",
+        "expanding": "Marchés en expansion"
+      },
+      "presenceFootnote": "Les marchés actifs comprennent des opérations physiques (Amsterdam, Dubaï) et le siège légal de l'entreprise (États-Unis · Delaware C-Corp). L'Amérique du Nord (New York, Toronto) et les autres marchés en expansion sont des priorités stratégiques de la feuille de route ; l'engagement démarre depuis les hubs existants.",
       "regions": [
         {
-          "region": "Moyen-Orient",
-          "countries": "Émirats Arabes Unis, Arabie Saoudite, Qatar",
-          "label": "Actif"
+          "region": "Amsterdam",
+          "countries": "Hub Europe",
+          "label": "Actif",
+          "tier": "active"
         },
         {
-          "region": "Amérique du Nord",
-          "countries": "États-Unis, Canada",
-          "label": "Actif"
+          "region": "Dubaï",
+          "countries": "Hub MEA",
+          "label": "Actif",
+          "tier": "active"
         },
         {
-          "region": "Europe",
-          "countries": "Royaume-Uni, Allemagne, France",
-          "label": "Cible"
+          "region": "États-Unis",
+          "countries": "Delaware C-Corp",
+          "label": "Actif",
+          "tier": "active"
         },
         {
-          "region": "Asie-Pacifique",
-          "countries": "Australie, Singapour",
-          "label": "Cible"
+          "region": "New York",
+          "countries": "Amérique du Nord",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Amérique du Nord",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapour",
+          "countries": "APAC",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico",
+          "countries": "LATAM",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Bientôt disponible",
+          "tier": "expanding"
         }
-      ]
+      ],
+      "title": "Nous avons construit la couche de décision dont nous avions besoin, et que nous ne trouvions nulle part."
     },
     "es": {
-      "metadataTitle": "Acerca de Sundae - La Plataforma de Inteligencia de Decisiones para Restaurantes",
-      "metadataDescription": "Sundae unifica más de 12 fuentes de datos en una única capa de inteligencia para grupos de restaurantes de múltiples unidades. Creado por operadores que vivieron el problema. Activo en 3 países.",
+      "metadataTitle": "Acerca de Sundae - La Plataforma de Inteligencia de Decisiones para la Restauración",
+      "metadataDescription": "Sundae unifica más de 12 fuentes de datos en una única capa de inteligencia para grupos de restauración de múltiples unidades. Creado por operadores que vivieron el problema. Localizado en 22 idiomas.",
       "badge": "Acerca de Sundae",
       "description": "Los datos del restaurante suelen estar en una docena de sistemas desconectados. Sundae reúne esa información en un solo lugar para que los equipos puedan tomar decisiones con números actuales, contexto de mercado y señales futuras.",
       "stats": [
         {
-          "value": "6",
-          "label": "Pilares de la Plataforma"
+          "value": "200+",
+          "label": "Sistemas conectados"
         },
         {
           "value": "12",
-          "label": "Módulos de Inteligencia"
+          "label": "Áreas operativas"
         },
         {
-          "value": "12",
-          "label": "Dominios de Datos"
+          "value": "36",
+          "label": "Países para nóminas"
         },
         {
-          "value": "3",
-          "label": "Países Activos"
+          "value": "22",
+          "label": "Idiomas"
         }
       ],
       "builtTitle": "Lo Que Hemos Construido",
-      "builtDescription": "Seis capas conectadas que ayudan a los operadores a pasar de la programación en tiempo real a pronósticos de 90 días sin saltar entre sistemas.",
+      "builtDescription": "Seis capas conectadas que ayudan a los operadores a encontrar la fuga, asignar la corrección a un responsable y medir el margen recuperado - del ritmo en tiempo real a los pronósticos de 90 días, sin saltar entre sistemas.",
       "missionTitle": "Por qué existe Sundae",
       "missionDescription": "Los operadores de restaurantes de múltiples unidades gestionan negocios complejos y de alto volumen a través de docenas de sistemas desconectados. El resultado: decisiones de millones de dólares tomadas por intuición, fugas de margen invisibles hasta que es demasiado tarde y cero contexto de mercado para evaluar el rendimiento.",
       "missionSupport": "Creamos Sundae porque vivimos el problema. Nuestro fundador escaló conceptos de restaurantes más allá de $10M en ingresos anuales y seguía enfrentándose al mismo problema: demasiados sistemas, poca claridad en la toma de decisiones.",
@@ -440,7 +488,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construido por Operadores que Vivieron el Problema",
-      "teamDescription": "Nuestro equipo aporta más de 60 años de experiencia en restaurantes, tecnología y datos. No estudiamos este problema desde la barrera. Ejecutamos operaciones, escalamos conceptos y enfrentamos las mismas brechas de informes que los operadores enfrentan cada semana.",
+      "teamDescription": "Nuestro equipo suma más de 40 años en restaurantes, tecnología y datos. No estudiamos el problema desde fuera: dirigimos la operación, escalamos los conceptos y chocamos con las mismas carencias de reporting que los operadores afrontan cada semana.",
       "strengthsTitle": "Fortalezas del Equipo",
       "journeyTitle": "El Viaje de Sundae",
       "journeyDescription": "La empresa surgió de las dificultades de los operadores y luego se convirtió en una plataforma utilizada en múltiples mercados.",
@@ -482,39 +530,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Director de Crecimiento",
-          "location": "Dubái",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Socio operativo estratégico",
+          "location": "GCC y Europa",
+          "image": "",
           "bullets": [
-            "Fundador 5 veces con 2 salidas exitosas y experiencia en construir negocios más allá de $100M",
-            "Especialista en creación de categorías 0→1 y crecimiento impulsado por productos",
-            "Más de 18 años en producto, marketing y ejecución de entrada al mercado",
-            "Lidera la posición de mercado de Sundae en inteligencia y crecimiento de restaurantes"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Jefa de Producto",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Antigua ingeniera de sistemas de Walmart Canadá - construyó a escala empresarial",
-            "3 líneas de productos lanzadas, todas rentables en 18 meses",
-            "Traduce las necesidades de los operadores en ROI medible del producto",
-            "Asegura que cada módulo resuelva un problema real que enfrentan los operadores durante el turno"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Jefe de Tecnología",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Construyó plataformas SaaS empresariales que manejan más de 10M de transacciones diarias",
-            "Ingeniero experimentado en automoción y SaaS empresarial a escala global",
-            "Experto en arquitectura de sistemas seguros y conformes",
-            "Es responsable de la fiabilidad de la infraestructura de Sundae y del pipeline de datos en tiempo real"
+            "Profundidad de operador sénior y relaciones comerciales de F&B en la mesa desde el primer día",
+            "Asesoría interina de nivel C y cercana al consejo para operadores de hostelería multilocal en el GCC y Europa",
+            "Abre puertas en grandes cuentas y pone a prueba Pulse, Insights y Foresight frente a lo que la dirección de F&B realmente necesita",
+            "Director de Curfs Consult, acompañando a fundadores en go-to-market, captación de fondos y escalado"
           ]
         }
       ],
@@ -527,11 +551,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Primeras Implementaciones",
-          "description": "Asociados con grupos de restaurantes de múltiples marcas en los EAU y Canadá. Datos reales, operadores reales, decisiones reales desde el primer día."
+          "description": "Asociados con grupos de restaurantes de múltiples marcas en los EAU. Datos reales, operadores reales, decisiones reales desde el primer día."
         },
         {
           "year": "2026",
-          "title": "12 Módulos Activos",
+          "title": "Cobertura operativa completa en vivo",
           "description": "Inteligencia de ingresos, mano de obra, inventario, entrega, reservas, compras, marketing y beneficios - todo unificado en 12 dominios operativos."
         },
         {
@@ -542,7 +566,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Expansión Global",
-          "description": "Escalando hacia Europa y Asia-Pacífico. Inteligencia empresarial para marcas de restaurantes en múltiples países."
+          "description": "Escalando hacia Europa y Asia-Pacífico. Inteligencia empresarial para grupos de hostelería en múltiples países."
         }
       ],
       "values": [
@@ -555,70 +579,110 @@ export const generatedLocalCopy = {
         {
           "title": "Inteligencia Primero",
           "description": "Los datos dispersos son costosos. Convertimos 12 sistemas en una capa inteligente que realmente impulsa decisiones.",
-          "proof": "12 módulos en 12 dominios operativos, desde ingresos hasta reservas.",
+          "proof": "Ventas, personal, inventario, compras, marketing, reservas, delivery y clientes - cubiertos en un solo lugar.",
           "icon": "insights"
         },
         {
           "title": "Decisiones en Tiempo Real",
-          "description": "Los informes semanales te cuestan dinero. Los operadores que ganan son aquellos que ven problemas mientras aún pueden solucionarlos.",
+          "description": "Los informes semanales te cuestan dinero. Los operadores que ganan son los que corrigen los problemas mientras aún pueden, y después saben si la corrección funcionó de verdad.",
           "proof": "Pulse se actualiza cada 5 minutos en cada ubicación.",
           "icon": "speed"
         },
         {
           "title": "Eleva el Estándar",
-          "description": "Queremos que los equipos de restaurantes esperen más de su pila de datos que otro panel estático.",
-          "proof": "Activo en 3 países con grupos empresariales adoptando la plataforma en su totalidad.",
+          "description": "Queremos que los operadores esperen de su stack de datos algo más que otro panel: una cifra que merezca acción y la evidencia de que esa acción devolvió algo.",
+          "proof": "Localizado en 22 idiomas, con grupos empresariales adoptando la plataforma en su totalidad.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Mercados activos",
+        "expanding": "Mercados en expansión"
+      },
+      "presenceFootnote": "Los mercados activos incluyen operaciones físicas (Ámsterdam, Dubái) y la sede legal de la compañía (Estados Unidos · Delaware C-Corp). Norteamérica (Nueva York, Toronto) y otros mercados en expansión son prioridades estratégicas en la hoja de ruta; la actividad comienza desde los hubs existentes.",
       "regions": [
         {
-          "region": "Medio Oriente",
-          "countries": "EAU, KSA, Qatar",
-          "label": "Activo"
+          "region": "Ámsterdam",
+          "countries": "Hub Europa",
+          "label": "Activo",
+          "tier": "active"
         },
         {
-          "region": "América del Norte",
-          "countries": "EE. UU., Canadá",
-          "label": "Activo"
+          "region": "Dubái",
+          "countries": "Hub MEA",
+          "label": "Activo",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Reino Unido, Alemania, Francia",
-          "label": "Objetivo"
+          "region": "Estados Unidos",
+          "countries": "Delaware C-Corp",
+          "label": "Activo",
+          "tier": "active"
         },
         {
-          "region": "Asia-Pacífico",
-          "countries": "Australia, Singapur",
-          "label": "Objetivo"
+          "region": "Nueva York",
+          "countries": "Norteamérica",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Norteamérica",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapur",
+          "countries": "APAC",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokio",
+          "countries": "APAC",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Ciudad de México",
+          "countries": "LATAM",
+          "label": "Próximamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Próximamente",
+          "tier": "expanding"
         }
-      ]
+      ],
+      "title": "Construimos la capa de decisión que necesitábamos y no encontrábamos en ninguna parte."
     },
     "ar": {
-      "metadataTitle": "حول Sundae - منصة الذكاء في اتخاذ القرار للمطاعم",
-      "metadataDescription": "Sundae يجمع أكثر من 12 مصدر بيانات في طبقة ذكاء واحدة لمجموعات المطاعم متعددة الوحدات. تم بناؤه بواسطة مشغلين عاشوا المشكلة. نشط في 3 دول.",
+      "metadataTitle": "حول Sundae - منصة الذكاء في اتخاذ القرار لقطاع خدمات الطعام",
+      "metadataDescription": "Sundae يجمع أكثر من 12 مصدر بيانات في طبقة ذكاء واحدة لمجموعات خدمات الطعام متعددة الوحدات. تم بناؤه بواسطة مشغلين عاشوا المشكلة. متوفّر بـ 22 لغة.",
       "badge": "حول Sundae",
       "description": "تعيش بيانات المطاعم عادةً في مجموعة من الأنظمة المنفصلة. تجمع Sundae هذه الصورة التشغيلية في مكان واحد حتى تتمكن الفرق من اتخاذ قرارات استنادًا إلى الأرقام الحالية وسياق السوق والإشارات المستقبلية.",
       "stats": [
         {
-          "value": "6",
-          "label": "أعمدة المنصة"
+          "value": "200+",
+          "label": "نظاماً متصلاً"
         },
         {
           "value": "12",
-          "label": "وحدات الذكاء"
+          "label": "مجالاً تشغيلياً"
         },
         {
-          "value": "12",
-          "label": "مجالات البيانات"
+          "value": "36",
+          "label": "دولة للرواتب"
         },
         {
-          "value": "3",
-          "label": "الدول النشطة"
+          "value": "22",
+          "label": "لغة"
         }
       ],
       "builtTitle": "ما قمنا ببنائه",
-      "builtDescription": "ست طبقات متصلة تساعد المشغلين على الانتقال من التوقيت الفوري إلى التوقعات لمدة 90 يومًا دون الحاجة للتنقل بين الأنظمة.",
+      "builtDescription": "ست طبقات متصلة تساعد المشغلين على تحديد موضع التسرب، وإسناد المعالجة إلى مسؤول، وقياس الهامش المُستَرَد - من المتابعة اللحظية إلى توقعات التسعين يومًا، دون التنقل بين الأنظمة.",
       "missionTitle": "لماذا توجد Sundae",
       "missionDescription": "يدير مشغّلو المطاعم متعددة الوحدات أعمالًا معقدة وعالية الحجم عبر عشرات الأنظمة غير المتصلة. النتيجة: قرارات بملايين الدولارات تُتخذ بناءً على الحدس، تسرب هوامش غير مرئي حتى فوات الأوان، وعدم وجود سياق سوقي لمعايرة الأداء.",
       "missionSupport": "أنشأنا Sundae لأننا عشنا المشكلة. مؤسسنا قام بتوسيع مفاهيم المطاعم لتتجاوز 10 ملايين دولار في الإيرادات السنوية واستمر في مواجهة نفس المشكلة: أنظمة كثيرة، ووضوح قرار قليل.",
@@ -637,7 +701,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "بُني على يد مشغّلين عاشوا المشكلة",
-      "teamDescription": "يقدم فريقنا أكثر من 60 عامًا من الخبرة في المطاعم والتكنولوجيا والبيانات. لم ندرس هذه المشكلة من الهامش. لقد قمنا بتشغيل العمليات، وتوسيع المفاهيم، وتعاملنا مع نفس فجوات التقارير التي يواجهها المشغلون كل أسبوع.",
+      "teamDescription": "يجمع فريقنا أكثر من 40 سنة من الخبرة في المطاعم والتقنية والبيانات. لم ندرس المشكلة من الخارج - بل أدرنا التشغيل، ووسّعنا المفاهيم، واصطدمنا بنفس فجوات التقارير التي يواجهها المشغّلون كل أسبوع.",
       "strengthsTitle": "قوة الفريق",
       "journeyTitle": "رحلة Sundae",
       "journeyDescription": "نشأت الشركة من معاناة المشغلين، ثم تحولت إلى منصة تُستخدم في أسواق متعددة.",
@@ -679,39 +743,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "دانيش صديقي",
-          "role": "رئيس قسم النمو",
-          "location": "دبي",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "شريك تشغيلي استراتيجي",
+          "location": "GCC وأوروبا",
+          "image": "",
           "bullets": [
-            "مؤسس 5 مرات مع 2 خروج ناجح وخبرة في بناء الأعمال التي تتجاوز 100 مليون دولار",
-            "متخصص في إنشاء الفئات من 0 إلى 1 والنمو المدفوع بالمنتج",
-            "أكثر من 18 عامًا في المنتج والتسويق وتنفيذ الذهاب إلى السوق",
-            "يقود موقع Sundae في سوق ذكاء المطاعم والنمو"
-          ]
-        },
-        {
-          "name": "أليسا باراباني",
-          "role": "رئيسة المنتج",
-          "location": "تورونتو",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "مهندسة أنظمة سابقة في وول مارت كندا - بنت على نطاق المؤسسات",
-            "تم إطلاق 3 خطوط منتجات، جميعها مربحة في غضون 18 شهرًا",
-            "تحول احتياجات المشغلين إلى عائد استثمار قابل للقياس للمنتج",
-            "تضمن أن كل وحدة تحل مشكلة حقيقية يواجهها المشغلون أثناء العمل"
-          ]
-        },
-        {
-          "name": "نويد نادر",
-          "role": "رئيس قسم التكنولوجيا",
-          "location": "تورونتو",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "بنى منصات SaaS مؤسسية تتعامل مع أكثر من 10 ملايين معاملة يوميًا",
-            "مهندس ذو خبرة في السيارات وSaaS المؤسسية على نطاق عالمي",
-            "خبير في بنية الأنظمة الآمنة والمتوافقة",
-            "يتولى موثوقية بنية Sundae التحتية وخط بيانات الوقت الحقيقي"
+            "عمق خبرة تشغيلية رفيعة وعلاقات تجارية في قطاع الأطعمة والمشروبات حاضرة منذ اليوم الأول",
+            "مشورة بمستوى تنفيذي مؤقت وقريبة من مجالس الإدارة لمشغّلي الضيافة متعددي الفروع عبر الخليج وأوروبا",
+            "يفتح أبواب المؤسسات الكبرى ويختبر Pulse وInsights وForesight مقابل ما تحتاجه قيادة الأطعمة والمشروبات فعليًا",
+            "مؤسس Curfs Consult، يعمل مع المؤسسين على دخول السوق وجمع التمويل والتوسع"
           ]
         }
       ],
@@ -724,11 +764,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "أول عمليات نشر",
-          "description": "شراكة مع مجموعات مطاعم متعددة العلامات التجارية عبر الإمارات وكندا. بيانات حقيقية، مشغلون حقيقيون، قرارات حقيقية من اليوم الأول."
+          "description": "شراكة مع مجموعات مطاعم متعددة العلامات التجارية عبر الإمارات. بيانات حقيقية، مشغلون حقيقيون، قرارات حقيقية من اليوم الأول."
         },
         {
           "year": "2026",
-          "title": "12 وحدة حية",
+          "title": "تغطية تشغيلية كاملة قيد التشغيل",
           "description": "الإيرادات، العمالة، المخزون، التوصيل، الحجوزات، الشراء، التسويق، وذكاء الأرباح - جميعها موحدة عبر 12 مجالاً تشغيلياً."
         },
         {
@@ -739,7 +779,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "التوسع العالمي",
-          "description": "التوسع إلى أوروبا وآسيا والمحيط الهادئ. ذكاء المؤسسات لعلامات المطاعم متعددة البلدان."
+          "description": "التوسع إلى أوروبا وآسيا والمحيط الهادئ. ذكاء المؤسسات لمجموعات الضيافة متعددة البلدان."
         }
       ],
       "values": [
@@ -752,70 +792,110 @@ export const generatedLocalCopy = {
         {
           "title": "الذكاء أولاً",
           "description": "البيانات المتناثرة مكلفة. نحن نحول 12 نظامًا إلى طبقة ذكية واحدة تدفع فعليًا القرارات.",
-          "proof": "12 وحدة عبر 12 مجالًا تشغيليًا - من الإيرادات إلى الحجوزات.",
+          "proof": "الإيرادات والعمالة والمخزون والمشتريات والتسويق والحجوزات والتوصيل والضيوف - مغطاة في مكان واحد.",
           "icon": "insights"
         },
         {
           "title": "قرارات في الوقت الحقيقي",
-          "description": "التقارير الأسبوعية تكلفك المال. المشغلون الذين ينجحون هم أولئك الذين يرون المشاكل بينما لا يزال بإمكانهم إصلاحها.",
+          "description": "التقارير الأسبوعية تكلّفك مالاً. المشغّلون الذين ينجحون هم من يعالجون المشكلات وهم ما زالوا قادرين - ثم يعرفون بعدها إن كانت المعالجة قد نجحت فعلاً.",
           "proof": "تتجدد Pulse كل 5 دقائق عبر كل موقع.",
           "icon": "speed"
         },
         {
           "title": "رفع المعايير",
-          "description": "نريد من فرق المطاعم أن تتوقع المزيد من مجموعة بياناتها بدلاً من لوحة معلومات ثابتة أخرى.",
+          "description": "نريد للمشغّلين أن يتوقعوا من منظومة بياناتهم أكثر من لوحة معلومات أخرى: رقماً يستحق التحرك، ودليلاً على أن التحرك أعاد شيئاً.",
           "proof": "نشطون في 3 دول مع مجموعات مؤسسية تعتمد النظام على مستوى المنصة.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "الأسواق النشطة",
+        "expanding": "أسواق التوسّع"
+      },
+      "presenceFootnote": "تشمل الأسواق النشطة عمليات فعلية على الأرض (أمستردام، دبي) والموطن القانوني للشركة (الولايات المتحدة · شركة ديلاوير). تمثّل أمريكا الشمالية (نيويورك، تورونتو) وأسواق التوسّع الأخرى أولويات استراتيجية على خارطة الطريق؛ ويبدأ التواصل انطلاقًا من المراكز القائمة.",
       "regions": [
         {
-          "region": "الشرق الأوسط",
-          "countries": "الإمارات العربية المتحدة، المملكة العربية السعودية، قطر",
-          "label": "نشط"
+          "region": "أمستردام",
+          "countries": "مركز أوروبا",
+          "label": "نشط",
+          "tier": "active"
         },
         {
-          "region": "أمريكا الشمالية",
-          "countries": "الولايات المتحدة الأمريكية، كندا",
-          "label": "نشط"
+          "region": "دبي",
+          "countries": "مركز الشرق الأوسط وأفريقيا",
+          "label": "نشط",
+          "tier": "active"
         },
         {
-          "region": "أوروبا",
-          "countries": "المملكة المتحدة، ألمانيا، فرنسا",
-          "label": "مستهدف"
+          "region": "الولايات المتحدة",
+          "countries": "شركة ديلاوير",
+          "label": "نشط",
+          "tier": "active"
         },
         {
-          "region": "آسيا والمحيط الهادئ",
-          "countries": "أستراليا، سنغافورة",
-          "label": "مستهدف"
+          "region": "نيويورك",
+          "countries": "أمريكا الشمالية",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "تورونتو",
+          "countries": "أمريكا الشمالية",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "سنغافورة",
+          "countries": "آسيا والمحيط الهادئ",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "طوكيو",
+          "countries": "آسيا والمحيط الهادئ",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "مكسيكو سيتي",
+          "countries": "أمريكا اللاتينية",
+          "label": "قريبًا",
+          "tier": "expanding"
+        },
+        {
+          "region": "ساو باولو",
+          "countries": "أمريكا اللاتينية",
+          "label": "قريبًا",
+          "tier": "expanding"
         }
-      ]
+      ],
+      "title": "بنينا طبقة القرار التي احتجناها ولم نجدها في أي مكان."
     },
     "nl": {
-      "metadataTitle": "Over Sundae - Het Besluitvormingsintelligentieplatform voor Restaurants",
-      "metadataDescription": "Sundae verenigt 12+ gegevensbronnen in één intelligentielaag voor multi-unit restaurantgroepen. Gebouwd door operators die het probleem hebben ervaren. Actief in 3 landen.",
+      "metadataTitle": "Over Sundae - Het Besluitvormingsintelligentieplatform voor de foodservice",
+      "metadataDescription": "Sundae verenigt 12+ gegevensbronnen in één intelligentielaag voor multi-unit foodservicegroepen. Gebouwd door operators die het probleem hebben ervaren. Gelokaliseerd in 22 talen.",
       "badge": "Over Sundae",
       "description": "Restaurantdata bevindt zich meestal in een dozijn losgekoppelde systemen. Sundae brengt dat operationele overzicht op één plek samen, zodat teams beslissingen kunnen nemen op basis van actuele cijfers, marktcontext en vooruitziende signalen.",
       "stats": [
         {
-          "value": "6",
-          "label": "Platformpijlers"
+          "value": "200+",
+          "label": "Gekoppelde systemen"
         },
         {
           "value": "12",
-          "label": "Intelligentiemodules"
+          "label": "Operationele gebieden"
         },
         {
-          "value": "12",
-          "label": "Gegevensdomeinen"
+          "value": "36",
+          "label": "Landen voor loonverwerking"
         },
         {
-          "value": "3",
-          "label": "Actieve landen"
+          "value": "22",
+          "label": "Talen"
         }
       ],
       "builtTitle": "Wat We Hebben Gebouwd",
-      "builtDescription": "Zes verbonden lagen die operators helpen om van realtime pacing naar 90-dagenvoorspellingen te gaan zonder tussen systemen te schakelen.",
+      "builtDescription": "Zes verbonden lagen die operators helpen het lek te vinden, de oplossing aan een eigenaar toe te wijzen en de teruggewonnen marge te meten - van realtime pacing tot 90-dagenprognoses, zonder tussen systemen te schakelen.",
       "missionTitle": "Waarom Sundae Bestaat",
       "missionDescription": "Multi-unit restaurantoperators beheren complexe, hoogvolume bedrijven via tientallen losgekoppelde systemen. Het resultaat: miljoenenbeslissingen gebaseerd op onderbuikgevoel, marges die pas zichtbaar worden als het te laat is, en geen marktondersteuning voor het benchmarken van prestaties.",
       "missionSupport": "We hebben Sundae gebouwd omdat we het probleem zelf hebben ervaren. Onze oprichter heeft restaurantconcepten opgeschaald tot meer dan $10M aan jaarlijkse omzet en liep steeds tegen hetzelfde probleem aan: te veel systemen, te weinig duidelijkheid in beslissingen.",
@@ -834,7 +914,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Gebouwd door Operators Die het Probleem Hebben Geleefd",
-      "teamDescription": "Ons team heeft meer dan 60 jaar ervaring in restaurants, technologie en data. We hebben dit probleem niet van de zijlijn bestudeerd. We hebben operaties geleid, concepten opgeschaald en hebben te maken gehad met dezelfde rapportagehiaten waar operators elke week mee te maken hebben.",
+      "teamDescription": "Ons team brengt ruim 40 jaar aan horeca, technologie en data mee. We hebben dit probleem niet van een afstand bestudeerd - we hebben de operatie gerund, concepten opgeschaald en dezelfde rapportagegaten meegemaakt die operators elke week tegenkomen.",
       "strengthsTitle": "Team Kracht",
       "journeyTitle": "De Sundae Reis",
       "journeyDescription": "Het bedrijf is ontstaan uit de pijn van de operator en is uitgegroeid tot een platform dat in meerdere markten wordt gebruikt.",
@@ -846,6 +926,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minuten om samen uw gegevens te bekijken en te zien waar Sundae echt nuttig kan zijn.",
       "ctaPrimary": "Boek een demo",
       "ctaSecondary": "We zijn aan het werven",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Operationele suite - Sundae Crew",
+      "ctaHome": "Terug naar Home",
+      "crewPillars": [
+        "Personeelsplanning",
+        "Tijdregistratie",
+        "Salarisadministratie",
+        "Personeel & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Vraaggestuurde dienstplanning",
+        "Inklokken, geofencing, urenstaten",
+        "Loonverwerking voor meerdere landen",
+        "Personeelsdossiers van indienst tot uitdienst",
+        "Personeelsanalyses"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -876,39 +973,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategisch Operating Partner",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "5x oprichter met 2 succesvolle exits en ervaring in het bouwen van bedrijven boven de $100M",
-            "Specialist in 0→1 categoriecreatie en productgedreven groei",
-            "Meer dan 18 jaar ervaring in product, marketing en go-to-market uitvoering",
-            "Leidt Sundae's marktpositie op het gebied van restaurantintelligentie en groei"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Hoofd Product",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Voormalig systems engineer bij Walmart Canada - gebouwd op ondernemingsniveau",
-            "3 productlijnen gelanceerd, allemaal winstgevend binnen 18 maanden",
-            "Vertaalde operatorbehoeften naar meetbare product ROI",
-            "Zorgt ervoor dat elke module een echt probleem oplost dat operators tijdens hun dienst tegenkomen"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Hoofd Technologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Bouwde enterprise SaaS-platforms die meer dan 10M dagelijkse transacties verwerken",
-            "Ervaren engineer in de automotive en enterprise SaaS op wereldwijde schaal",
-            "Expert in veilige, conforme systeemarchitectuur",
-            "Verantwoordelijk voor de betrouwbaarheid van Sundae's infrastructuur en real-time datastromen"
+            "Diepgaande ervaring als senior operator en F&B-commerciële relaties vanaf dag één aan tafel",
+            "Interim C-level- en bestuursnabij advies voor multi-unit hospitalityoperators in de GCC en Europa",
+            "Opent deuren bij grote ondernemingen en toetst Pulse, Insights en Foresight aan wat F&B-leiderschap echt nodig heeft",
+            "Eigenaar van Curfs Consult, die oprichters begeleidt bij go-to-market, fondsenwerving en opschaling"
           ]
         }
       ],
@@ -921,11 +994,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Eerste Implementaties",
-          "description": "Partnerschappen met multi-merk restaurantgroepen in de VAE en Canada. Echte data, echte operators, echte beslissingen vanaf dag één."
+          "description": "Partnerschappen met multi-merk restaurantgroepen in de VAE. Echte data, echte operators, echte beslissingen vanaf dag één."
         },
         {
           "year": "2026",
-          "title": "12 Modules Live",
+          "title": "Volledige operationele dekking live",
           "description": "Omzet, arbeid, voorraad, levering, reserveringen, inkoop, marketing en winstintelligentie - allemaal verenigd over 12 operationele domeinen."
         },
         {
@@ -936,7 +1009,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Wereldwijde Uitbreiding",
-          "description": "Schaalvergroting naar Europa en Azië-Pacific. Enterprise-intelligentie voor restaurantmerken in meerdere landen."
+          "description": "Schaalvergroting naar Europa en Azië-Pacific. Enterprise-intelligentie voor hospitalitygroepen in meerdere landen."
         }
       ],
       "values": [
@@ -949,71 +1022,110 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligentie Eerst",
           "description": "Verspreide data is duur. We transformeren 12 systemen in één intelligente laag die daadwerkelijk beslissingen aandrijft.",
-          "proof": "12 modules over 12 operationele domeinen - van omzet tot reserveringen.",
+          "proof": "Omzet, personeel, voorraad, inkoop, marketing, reserveringen, bezorging en gasten - op één plek gedekt.",
           "icon": "insights"
         },
         {
           "title": "Beslissingen in Real-Time",
-          "description": "Wekelijkse rapporten kosten je geld. De operators die winnen, zijn degenen die problemen zien terwijl ze ze nog kunnen oplossen.",
+          "description": "Wekelijkse rapporten kosten je geld. De operators die winnen zijn degenen die problemen oplossen zolang het nog kan - en achteraf weten of de oplossing echt werkte.",
           "proof": "Pulse ververst elke 5 minuten op elke locatie.",
           "icon": "speed"
         },
         {
           "title": "Verhoog de Standaard",
-          "description": "We willen dat restaurantteams meer van hun datastack verwachten dan alleen een statisch dashboard.",
-          "proof": "Actief in 3 landen met enterprise groepen die platformbreed adopteren.",
+          "description": "We willen dat operators meer van een datastack verwachten dan weer een dashboard: een getal dat handelen waard is, en het bewijs dat die actie iets opleverde.",
+          "proof": "Gelokaliseerd in 22 talen, met enterprise groepen die platformbreed adopteren.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Actieve markten",
+        "expanding": "Expansiemarkten"
+      },
+      "presenceFootnote": "Actieve markten omvatten fysieke vestigingen (Amsterdam, Dubai) en de juridische thuisbasis van het bedrijf (Verenigde Staten · Delaware C-Corp). Noord-Amerika (New York, Toronto) en andere expansiemarkten zijn strategische prioriteiten op de roadmap; de samenwerking begint vanuit de bestaande hubs.",
       "regions": [
         {
-          "region": "Midden-Oosten",
-          "countries": "VAE, KSA, Qatar",
-          "label": "Actief"
+          "region": "Amsterdam",
+          "countries": "Europa-hub",
+          "label": "Actief",
+          "tier": "active"
         },
         {
-          "region": "Noord-Amerika",
-          "countries": "VS, Canada",
-          "label": "Actief"
+          "region": "Dubai",
+          "countries": "MEA-hub",
+          "label": "Actief",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "VK, Duitsland, Frankrijk",
-          "label": "Doel"
+          "region": "Verenigde Staten",
+          "countries": "Delaware C-Corp",
+          "label": "Actief",
+          "tier": "active"
         },
         {
-          "region": "Azië-Pacific",
-          "countries": "Australië, Singapore",
-          "label": "Doel"
+          "region": "New York",
+          "countries": "Noord-Amerika",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Noord-Amerika",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokio",
+          "countries": "APAC",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico-Stad",
+          "countries": "LATAM",
+          "label": "Binnenkort",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Binnenkort",
+          "tier": "expanding"
         }
       ],
-      "title": "De intelligentielaag die restaurants nooit hadden"
+      "title": "We bouwden de beslissingslaag die we nodig hadden en nergens konden vinden."
     },
     "pt": {
-      "metadataTitle": "Sobre a Sundae - A Plataforma de Inteligência de Decisão para Restaurantes",
-      "metadataDescription": "O Sundae unifica mais de 12 fontes de dados em uma única camada de inteligência para grupos de restaurantes com várias unidades. Criado por operadores que vivenciaram o problema. Atuando em 3 países.",
+      "metadataTitle": "Sobre a Sundae - A Plataforma de Inteligência de Decisão para Serviços de Alimentação",
+      "metadataDescription": "O Sundae unifica mais de 12 fontes de dados em uma única camada de inteligência para grupos de serviços de alimentação com várias unidades. Criado por operadores que vivenciaram o problema. Localizado em 22 idiomas.",
       "badge": "Sobre a Sundae",
       "description": "Os dados do restaurante geralmente estão em uma dúzia de sistemas desconectados. A Sundae reúne essa visão operacional em um só lugar, para que as equipes possam tomar decisões com números atualizados, contexto de mercado e sinais futuros.",
       "stats": [
         {
-          "value": "6",
-          "label": "Pilares da Plataforma"
+          "value": "200+",
+          "label": "Sistemas conectados"
         },
         {
           "value": "12",
-          "label": "Módulos de Inteligência"
+          "label": "Áreas operacionais"
         },
         {
-          "value": "12",
-          "label": "Domínios de Dados"
+          "value": "36",
+          "label": "Países para folha de pagamento"
         },
         {
-          "value": "3",
-          "label": "Países Ativos"
+          "value": "22",
+          "label": "Idiomas"
         }
       ],
       "builtTitle": "O Que Construímos",
-      "builtDescription": "Seis camadas conectadas que ajudam os operadores a passar do ritmo em tempo real para previsões de 90 dias sem precisar alternar entre sistemas.",
+      "builtDescription": "Seis camadas conectadas que ajudam os operadores a encontrar o vazamento, encaminhar a correção a um responsável e medir a margem recuperada - do ritmo em tempo real às previsões de 90 dias, sem alternar entre sistemas.",
       "missionTitle": "Por que a Sundae Existe",
       "missionDescription": "Operadores de restaurantes com várias unidades gerenciam negócios complexos e de alto volume em dezenas de sistemas desconectados. O resultado: decisões de milhões de dólares tomadas com base na intuição, vazamentos de margem invisíveis até que seja tarde demais e nenhum contexto de mercado para avaliar o desempenho.",
       "missionSupport": "Criamos o Sundae porque vivemos o problema. Nosso fundador escalou conceitos de restaurantes além de $10M em receita anual e continuou enfrentando a mesma questão: muitos sistemas, pouca clareza nas decisões.",
@@ -1032,7 +1144,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construído por Operadores que Vivenciaram o Problema",
-      "teamDescription": "Nossa equipe possui mais de 60 anos de experiência em restaurantes, tecnologia e dados. Não estudamos esse problema de fora. Gerenciamos operações, escalamos conceitos e lidamos com as mesmas lacunas de relatórios que os operadores enfrentam toda semana.",
+      "teamDescription": "A nossa equipa reúne mais de 40 anos em restauração, tecnologia e dados. Não estudámos o problema de fora - gerimos a operação, escalámos os conceitos e lidámos com as mesmas lacunas de reporting que os operadores enfrentam todas as semanas.",
       "strengthsTitle": "Forças da Equipe",
       "journeyTitle": "A Jornada Sundae",
       "journeyDescription": "A empresa surgiu da dor dos operadores e, em seguida, se transformou em uma plataforma utilizada em vários mercados.",
@@ -1044,6 +1156,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minutos para revisar seus dados juntos e ver onde o Sundae pode ser realmente útil.",
       "ctaPrimary": "Agende uma Demonstração",
       "ctaSecondary": "Estamos Contratando",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suite Operacional - Sundae Crew",
+      "ctaHome": "Voltar ao Início",
+      "crewPillars": [
+        "Escalas",
+        "Ponto e Presença",
+        "Folha de Pagamento",
+        "Pessoas & RH",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Planeamento de turnos orientado pela procura",
+        "Registo de ponto, geofencing, folhas de horas",
+        "Folha de pagamento pronta para múltiplas regiões",
+        "Registos da contratação à saída",
+        "Análise de força de trabalho"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1074,39 +1203,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Diretor de Crescimento",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Sócio Operacional Estratégico",
+          "location": "GCC e Europa",
+          "image": "",
           "bullets": [
-            "5x fundador com 2 saídas bem-sucedidas e experiência em construir negócios acima de $100M",
-            "Especialista em criação de categorias 0→1 e crescimento orientado por produto",
-            "Mais de 18 anos em produto, marketing e execução de go-to-market",
-            "Lidera a posição de mercado da Sundae em inteligência de restaurantes e crescimento"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Chefe de Produto",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ex-engenheira de sistemas do Walmart Canadá - construiu em escala empresarial",
-            "3 linhas de produtos lançadas, todas lucrativas em 18 meses",
-            "Traduz as necessidades dos operadores em ROI de produto mensurável",
-            "Garante que cada módulo resolva um problema real que os operadores enfrentam durante o turno"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Chefe de Tecnologia",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Construiu plataformas SaaS empresariais lidando com mais de 10M de transações diárias",
-            "Engenheiro experiente em automotivo e SaaS empresarial em escala global",
-            "Especialista em arquitetura de sistemas seguros e em conformidade",
-            "Responsável pela confiabilidade da infraestrutura da Sundae e pelo pipeline de dados em tempo real"
+            "Profundidade de operador sênior e relacionamentos comerciais de F&B à mesa desde o primeiro dia",
+            "Aconselhamento interino de nível C e próximo do conselho para operadores de hospitalidade multiunidade no GCC e na Europa",
+            "Abre portas empresariais e testa sob pressão o Pulse, o Insights e o Foresight em relação ao que a liderança de F&B realmente precisa",
+            "Diretor da Curfs Consult, atuando com fundadores em go-to-market, captação de recursos e escala"
           ]
         }
       ],
@@ -1119,11 +1224,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Primeiros Lançamentos",
-          "description": "Parceria com grupos de restaurantes de múltiplas marcas nos Emirados Árabes Unidos e no Canadá. Dados reais, operadores reais, decisões reais desde o primeiro dia."
+          "description": "Parceria com grupos de restaurantes de múltiplas marcas nos Emirados Árabes Unidos. Dados reais, operadores reais, decisões reais desde o primeiro dia."
         },
         {
           "year": "2026",
-          "title": "12 Módulos Ativos",
+          "title": "Cobertura operacional completa no ar",
           "description": "Receita, mão de obra, inventário, entrega, reservas, compras, marketing e inteligência de lucro - tudo unificado em 12 domínios operacionais."
         },
         {
@@ -1134,7 +1239,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Expansão Global",
-          "description": "Escalando para a Europa e Ásia-Pacífico. Inteligência empresarial para marcas de restaurantes em múltiplos países."
+          "description": "Escalando para a Europa e Ásia-Pacífico. Inteligência empresarial para grupos de hospitalidade em múltiplos países."
         }
       ],
       "values": [
@@ -1147,71 +1252,110 @@ export const generatedLocalCopy = {
         {
           "title": "Inteligência em Primeiro Lugar",
           "description": "Dados dispersos são caros. Transformamos 12 sistemas em uma camada inteligente que realmente orienta decisões.",
-          "proof": "12 módulos em 12 domínios operacionais - de receita a reservas.",
+          "proof": "Vendas, mão de obra, estoque, compras, marketing, reservas, delivery e clientes - cobertos num só lugar.",
           "icon": "insights"
         },
         {
           "title": "Decisões em Tempo Real",
-          "description": "Relatórios semanais custam dinheiro. Os operadores que vencem são aqueles que veem problemas enquanto ainda podem corrigi-los.",
+          "description": "Relatórios semanais custam dinheiro. Os operadores que ganham são os que corrigem os problemas enquanto ainda dá - e depois sabem se a correção realmente funcionou.",
           "proof": "O Pulse é atualizado a cada 5 minutos em todas as localizações.",
           "icon": "speed"
         },
         {
           "title": "Elevar o Padrão",
-          "description": "Queremos que as equipes de restaurantes esperem mais de sua pilha de dados do que apenas outro painel estático.",
-          "proof": "Ativo em 3 países com grupos empresariais adotando a plataforma em toda a sua extensão.",
+          "description": "Queremos que os operadores esperem da sua stack de dados mais do que outro painel: um número que valha a pena agir e a evidência de que essa ação trouxe algo de volta.",
+          "proof": "Localizado em 22 idiomas, com grupos empresariais adotando a plataforma em toda a sua extensão.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Mercados ativos",
+        "expanding": "Mercados de expansão"
+      },
+      "presenceFootnote": "Os mercados ativos incluem operações físicas (Amsterdã, Dubai) e a sede legal da empresa (Estados Unidos · Delaware C-Corp). A América do Norte (Nova York, Toronto) e outros mercados de expansão são prioridades estratégicas no roteiro; o engajamento começa a partir dos hubs existentes.",
       "regions": [
         {
-          "region": "Oriente Médio",
-          "countries": "EAU, Arábia Saudita, Catar",
-          "label": "Ativo"
+          "region": "Amsterdã",
+          "countries": "Hub da Europa",
+          "label": "Ativo",
+          "tier": "active"
         },
         {
-          "region": "América do Norte",
-          "countries": "EUA, Canadá",
-          "label": "Ativo"
+          "region": "Dubai",
+          "countries": "Hub da MEA",
+          "label": "Ativo",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Reino Unido, Alemanha, França",
-          "label": "Alvo"
+          "region": "Estados Unidos",
+          "countries": "Delaware C-Corp",
+          "label": "Ativo",
+          "tier": "active"
         },
         {
-          "region": "Ásia-Pacífico",
-          "countries": "Austrália, Cingapura",
-          "label": "Alvo"
+          "region": "Nova York",
+          "countries": "América do Norte",
+          "label": "Em breve",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "América do Norte",
+          "label": "Em breve",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapura",
+          "countries": "APAC",
+          "label": "Em breve",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tóquio",
+          "countries": "APAC",
+          "label": "Em breve",
+          "tier": "expanding"
+        },
+        {
+          "region": "Cidade do México",
+          "countries": "LATAM",
+          "label": "Em breve",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Em breve",
+          "tier": "expanding"
         }
       ],
-      "title": "A camada de inteligência que os restaurantes nunca tiveram"
+      "title": "Construímos a camada de decisão de que precisávamos e não encontrávamos em lado nenhum."
     },
     "ur": {
-      "metadataTitle": "Sundae کے بارے میں - ریستورانوں کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
-      "metadataDescription": "Sundae 12+ ڈیٹا ذرائع کو ایک واحد ذہانت کی تہہ میں یکجا کرتا ہے جو کثیر یونٹ ریستوراں گروپوں کے لیے ہے۔ یہ آپریٹرز کے ذریعہ بنایا گیا ہے جو اس مسئلے کا سامنا کر چکے ہیں۔ 3 ممالک میں فعال ہے۔",
+      "metadataTitle": "Sundae کے بارے میں - فوڈ سروس کے لیے فیصلہ سازی کی ذہانت کا پلیٹ فارم",
+      "metadataDescription": "Sundae 12+ ڈیٹا ذرائع کو ایک واحد ذہانت کی تہہ میں یکجا کرتا ہے جو کثیر یونٹ فوڈ سروس گروپوں کے لیے ہے۔ یہ آپریٹرز کے ذریعہ بنایا گیا ہے جو اس مسئلے کا سامنا کر چکے ہیں۔ 22 زبانوں میں دستیاب ہے۔",
       "badge": "Sundae کے بارے میں",
       "description": "ریستوران کا ڈیٹا عام طور پر درجن بھر غیر مربوط نظاموں میں موجود ہوتا ہے۔ Sundae اس آپریٹنگ تصویر کو ایک جگہ پر لاتا ہے تاکہ ٹیمیں موجودہ اعداد و شمار، مارکیٹ کے سیاق و سباق، اور مستقبل کی نشانیوں کے ساتھ فیصلے کر سکیں۔",
       "stats": [
         {
-          "value": "6",
-          "label": "پلیٹ فارم کے ستون"
+          "value": "200+",
+          "label": "منسلک نظام"
         },
         {
           "value": "12",
-          "label": "انٹیلی جنس ماڈیولز"
+          "label": "آپریشنل شعبے"
         },
         {
-          "value": "12",
-          "label": "ڈیٹا ڈومینز"
+          "value": "36",
+          "label": "پے رول کے ممالک"
         },
         {
-          "value": "3",
-          "label": "فعال ممالک"
+          "value": "22",
+          "label": "زبانیں"
         }
       ],
       "builtTitle": "ہم نے کیا بنایا ہے",
-      "builtDescription": "چھ جڑے ہوئے تہیں جو آپریٹرز کو حقیقی وقت کی رفتار سے 90 دن کی پیش گوئیوں میں منتقل ہونے میں مدد کرتی ہیں بغیر سسٹمز کے درمیان چھلانگ لگائے۔",
+      "builtDescription": "چھ جڑی ہوئی تہیں جو آپریٹرز کو رساؤ تلاش کرنے، اصلاح کسی ذمہ دار کے سپرد کرنے اور بازیاب شدہ مارجن کی پیمائش کرنے میں مدد دیتی ہیں - حقیقی وقت کی رفتار سے 90 دن کی پیش گوئیوں تک، سسٹمز کے درمیان چھلانگ لگائے بغیر۔",
       "missionTitle": "Sundae کیوں موجود ہے",
       "missionDescription": "کئی یونٹ والے ریستوراں کے آپریٹرز پیچیدہ، بڑے حجم کے کاروبار چلاتے ہیں جو درجنوں غیر مربوط نظاموں میں بکھرے ہوئے ہیں۔ نتیجہ: لاکھوں ڈالر کے فیصلے احساس پر کیے جاتے ہیں، مارجن کی کمی نظر نہیں آتی جب تک کہ بہت دیر نہ ہو جائے، اور کارکردگی کی پیمائش کے لیے مارکیٹ کا کوئی سیاق و سباق نہیں ہوتا۔",
       "missionSupport": "ہم نے Sundae اس لیے بنایا کیونکہ ہم نے اس مسئلے کا سامنا کیا۔ ہمارے بانی نے ریستوران کے تصورات کو سالانہ آمدنی میں 10 ملین ڈالر سے زیادہ تک بڑھایا اور ہمیشہ ایک ہی مسئلے کا سامنا کیا: بہت سے نظام، فیصلہ سازی میں بہت کم وضاحت۔",
@@ -1230,7 +1374,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "آپریٹرز کے ذریعہ بنایا گیا جو مسئلے کا سامنا کر چکے ہیں",
-      "teamDescription": "ہماری ٹیم کے پاس ریستوران، ٹیکنالوجی، اور ڈیٹا میں 60+ سال کا تجربہ ہے۔ ہم نے اس مسئلے کا مطالعہ کنارے سے نہیں کیا۔ ہم نے آپریشنز چلائے، تصورات کو وسعت دی، اور ہر ہفتے آپریٹرز کو درپیش رپورٹنگ کے خلا کا سامنا کیا۔",
+      "teamDescription": "ہماری ٹیم ریستوران، ٹیکنالوجی اور ڈیٹا میں 40 سال سے زائد کا تجربہ رکھتی ہے۔ ہم نے یہ مسئلہ باہر سے نہیں پڑھا - ہم نے آپریشن چلایا، کانسیپٹ بڑھائے، اور اُنہی رپورٹنگ خلا سے نبرد آزما ہوئے جن سے آپریٹرز ہر ہفتے گزرتے ہیں۔",
       "strengthsTitle": "ٹیم کی طاقتیں",
       "journeyTitle": "Sundae کا سفر",
       "journeyDescription": "یہ کمپنی آپریٹر کی مشکلات سے نکلی، پھر ایک ایسا پلیٹ فارم بن گئی جو متعدد مارکیٹوں میں استعمال ہوتا ہے۔",
@@ -1242,6 +1386,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "آپ کے ڈیٹا کا جائزہ لینے اور یہ دیکھنے کے لیے 30 منٹ کہ Sundae واقعی کس طرح مددگار ہو سکتا ہے۔",
       "ctaPrimary": "ایک ڈیمو بک کریں",
       "ctaSecondary": "ہم بھرتی کر رہے ہیں",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "آپریشنل سوٹ - Sundae Crew",
+      "ctaHome": "ہوم پر واپس جائیں",
+      "crewPillars": [
+        "شیڈولنگ",
+        "حاضری اور اوقاتِ کار",
+        "پے رول",
+        "عملہ اور HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "طلب کے مطابق شفٹ پلاننگ",
+        "کلاک ان، جیو فینس، ٹائم شیٹس",
+        "کئی خطوں کے لیے پے رول کی تیاری",
+        "بھرتی سے ریٹائرمنٹ تک ریکارڈ",
+        "افرادی قوت کا تجزیہ"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1272,39 +1433,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "دانیش صدیقی",
-          "role": "چیف گروتھ آفیسر",
-          "location": "دبئی",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "اسٹریٹجک آپریٹنگ پارٹنر",
+          "location": "جی سی سی اور یورپ",
+          "image": "",
           "bullets": [
-            "5 بار کے بانی جن کے 2 کامیاب اخراجات ہیں اور $100M سے زیادہ کاروبار بنانے کا تجربہ",
-            "0→1 زمرہ تخلیق اور پروڈکٹ کی قیادت میں ترقی میں ماہر",
-            "پروڈکٹ، مارکیٹنگ، اور مارکیٹ میں جانے کے عمل میں 18+ سال",
-            "ریستوراں ذہانت اور نمو کے میدان میں Sundae کی مارکیٹ پوزیشن کی قیادت کرتے ہیں"
-          ]
-        },
-        {
-          "name": "الیسہ پربانی",
-          "role": "ہیڈ آف پروڈکٹ",
-          "location": "ٹورنٹو",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "سابق وال مارٹ کینیڈا کے سسٹمز انجینئر - انٹرپرائز پیمانے پر بنایا",
-            "3 پروڈکٹ لائنیں شروع کیں، تمام 18 ماہ کے اندر منافع بخش",
-            "آپریٹر کی ضروریات کو قابل پیمائش پروڈکٹ ROI میں تبدیل کرتا ہے",
-            "یقینی بناتا ہے کہ ہر ماڈیول ایک حقیقی مسئلہ حل کرتا ہے جس کا سامنا آپریٹرز کو شفٹ پر ہوتا ہے"
-          ]
-        },
-        {
-          "name": "نوید نادر",
-          "role": "ہیڈ آف ٹیکنالوجی",
-          "location": "ٹورنٹو",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "ایسی انٹرپرائز SaaS پلیٹ فارم بنائے جو 10M+ روزانہ ٹرانزیکشنز کو سنبھالتے ہیں",
-            "عالمی پیمانے پر آٹوموٹو اور انٹرپرائز SaaS میں تجربہ کار انجینئر",
-            "محفوظ، تعمیل کرنے والے سسٹمز کی تعمیر میں ماہر",
-            "Sundae کی انفراسٹرکچر کی قابل اعتمادی اور حقیقی وقت کے ڈیٹا پائپ لائن کے ذمہ دار"
+            "پہلے دن سے سینئر آپریٹر کی گہرائی اور فوڈ اینڈ بیوریج کے کاروباری تعلقات میز پر موجود",
+            "جی سی سی اور یورپ بھر میں ملٹی یونٹ مہمان نوازی کے آپریٹرز کے لیے عبوری سی لیول اور بورڈ کے قریب مشاورت",
+            "بڑے اداروں کے دروازے کھولتے ہیں اور Pulse، Insights اور Foresight کو اس کسوٹی پر پرکھتے ہیں جو فوڈ اینڈ بیوریج قیادت کو واقعی درکار ہے",
+            "Curfs Consult کے سربراہ، جو بانیوں کے ساتھ مارکیٹ میں جانے، فنڈ ریزنگ اور توسیع پر کام کرتے ہیں"
           ]
         }
       ],
@@ -1317,11 +1454,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "پہلی تعیناتیاں",
-          "description": "متحدہ عرب امارات اور کینیڈا میں ملٹی برانڈ ریستوراں گروپوں کے ساتھ شراکت داری۔ حقیقی ڈیٹا، حقیقی آپریٹرز، پہلے دن سے حقیقی فیصلے۔"
+          "description": "متحدہ عرب امارات میں ملٹی برانڈ ریستوراں گروپوں کے ساتھ شراکت داری۔ حقیقی ڈیٹا، حقیقی آپریٹرز، پہلے دن سے حقیقی فیصلے۔"
         },
         {
           "year": "2026",
-          "title": "12 ماڈیولز فعال",
+          "title": "مکمل آپریشنل کوریج لائیو",
           "description": "آمدنی، مزدوری، انوینٹری، ترسیل، ریزرویشن، خریداری، مارکیٹنگ، اور منافع کی ذہانت - 12 عملیاتی ڈومینز میں سب متحد۔"
         },
         {
@@ -1345,71 +1482,110 @@ export const generatedLocalCopy = {
         {
           "title": "ذہانت پہلے",
           "description": "پھیلا ہوا ڈیٹا مہنگا ہے۔ ہم 12 سسٹمز کو ایک ذہین پرت میں تبدیل کرتے ہیں جو واقعی فیصلے کرتی ہے۔",
-          "proof": "12 عملیاتی ڈومینز میں 12 ماڈیولز - آمدنی سے لے کر ریزرویشن تک۔",
+          "proof": "آمدنی، محنت، انوینٹری، خریداری، مارکیٹنگ، بکنگ، ڈیلیوری اور مہمان - ایک ہی جگہ پر۔",
           "icon": "insights"
         },
         {
           "title": "حقیقی وقت کے فیصلے",
-          "description": "ہفتہ وار رپورٹس آپ کو پیسہ خرچ کرتی ہیں۔ وہ آپریٹرز جو جیتتے ہیں وہ ہیں جو مسائل کو دیکھتے ہیں جب وہ ابھی بھی انہیں حل کر سکتے ہیں۔",
+          "description": "ہفتہ وار رپورٹس آپ کا پیسہ کھاتی ہیں۔ جیتنے والے آپریٹرز وہ ہیں جو مسائل اُسی وقت ٹھیک کرتے ہیں جب ممکن ہو - اور بعد میں جانتے ہیں کہ وہ اصلاح واقعی کام آئی یا نہیں۔",
           "proof": "ہر مقام پر ہر 5 منٹ میں Pulse ریفریش ہوتا ہے۔",
           "icon": "speed"
         },
         {
           "title": "معیار بلند کریں",
-          "description": "ہم چاہتے ہیں کہ ریستوران کی ٹیمیں اپنے ڈیٹا اسٹیک سے مزید توقع کریں بجائے اس کے کہ ایک اور سٹیٹک ڈیش بورڈ۔",
+          "description": "ہم چاہتے ہیں کہ آپریٹرز اپنے ڈیٹا اسٹیک سے ایک اور ڈیش بورڈ سے زیادہ کی توقع رکھیں: ایک ایسا عدد جس پر عمل کرنا بنتا ہو، اور ثبوت کہ اُس عمل سے کچھ واپس آیا۔",
           "proof": "3 ممالک میں فعال، انٹرپرائز گروپ پلیٹ فارم بھر میں اپناتے ہیں۔",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "فعال مارکیٹس",
+        "expanding": "توسیعی مارکیٹس"
+      },
+      "presenceFootnote": "فعال مارکیٹس میں طبیعی آپریشنز (ایمسٹرڈیم، دبئی) اور کمپنی کا قانونی صدر دفتر (امریکہ · ڈیلاویئر سی-کارپ) شامل ہیں۔ شمالی امریکہ (نیویارک، ٹورنٹو) اور دیگر توسیعی مارکیٹس روڈ میپ پر اسٹریٹجک ترجیحات ہیں؛ تعاون موجودہ مراکز سے شروع ہوتا ہے۔",
       "regions": [
         {
-          "region": "مشرق وسطی",
-          "countries": "متحدہ عرب امارات، سعودی عرب، قطر",
-          "label": "فعال"
+          "region": "ایمسٹرڈیم",
+          "countries": "یورپ کا مرکز",
+          "label": "فعال",
+          "tier": "active"
         },
         {
-          "region": "شمالی امریکہ",
-          "countries": "امریکہ، کینیڈا",
-          "label": "فعال"
+          "region": "دبئی",
+          "countries": "ایم ای اے مرکز",
+          "label": "فعال",
+          "tier": "active"
         },
         {
-          "region": "یورپ",
-          "countries": "برطانیہ، جرمنی، فرانس",
-          "label": "ہدف"
+          "region": "امریکہ",
+          "countries": "ڈیلاویئر سی-کارپ",
+          "label": "فعال",
+          "tier": "active"
         },
         {
-          "region": "ایشیا پیسیفک",
-          "countries": "آسٹریلیا، سنگاپور",
-          "label": "ہدف"
+          "region": "نیویارک",
+          "countries": "شمالی امریکہ",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "ٹورنٹو",
+          "countries": "شمالی امریکہ",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "سنگاپور",
+          "countries": "APAC",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "ٹوکیو",
+          "countries": "APAC",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "میکسیکو سٹی",
+          "countries": "LATAM",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
+        },
+        {
+          "region": "ساؤ پالو",
+          "countries": "LATAM",
+          "label": "جلد آرہا ہے",
+          "tier": "expanding"
         }
       ],
-      "title": "وہ انٹیلیجنس پرت جو ریستورانوں کے پاس کبھی نہ تھی"
+      "title": "ہم نے وہ فیصلہ ساز پرت بنائی جس کی ہمیں ضرورت تھی اور جو کہیں نہ ملی۔"
     },
     "hi": {
-      "metadataTitle": "Sundae के बारे में - रेस्तरां के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
-      "metadataDescription": "Sundae 12+ डेटा स्रोतों को मल्टी-यूनिट रेस्तरां समूहों के लिए एकल इंटेलिजेंस लेयर में एकीकृत करता है। इसे उन ऑपरेटरों द्वारा बनाया गया है जिन्होंने इस समस्या का अनुभव किया है। 3 देशों में सक्रिय।",
+      "metadataTitle": "Sundae के बारे में - खाद्य सेवा के लिए निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
+      "metadataDescription": "Sundae 12+ डेटा स्रोतों को मल्टी-यूनिट खाद्य सेवा समूहों के लिए एकल इंटेलिजेंस लेयर में एकीकृत करता है। इसे उन ऑपरेटरों द्वारा बनाया गया है जिन्होंने इस समस्या का अनुभव किया है। 22 भाषाओं में उपलब्ध।",
       "badge": "Sundae के बारे में",
       "description": "रेस्टोरेंट डेटा आमतौर पर दर्जन भर असंबंधित सिस्टम में होता है। Sundae उस संचालन चित्र को एक जगह लाता है ताकि टीमें वर्तमान आंकड़ों, बाजार संदर्भ और भविष्य की संकेतों के साथ निर्णय ले सकें।",
       "stats": [
         {
-          "value": "6",
-          "label": "प्लेटफ़ॉर्म के स्तंभ"
+          "value": "200+",
+          "label": "जुड़े सिस्टम"
         },
         {
           "value": "12",
-          "label": "इंटेलिजेंस मॉड्यूल"
+          "label": "परिचालन क्षेत्र"
         },
         {
-          "value": "12",
-          "label": "डेटा डोमेन"
+          "value": "36",
+          "label": "पेरोल वाले देश"
         },
         {
-          "value": "3",
-          "label": "सक्रिय देश"
+          "value": "22",
+          "label": "भाषाएँ"
         }
       ],
       "builtTitle": "हमने क्या बनाया है",
-      "builtDescription": "छह जुड़े हुए स्तर जो ऑपरेटरों को वास्तविक समय की गति से 90-दिन की पूर्वानुमान में जाने में मदद करते हैं बिना सिस्टम के बीच कूदे।",
+      "builtDescription": "छह जुड़े हुए स्तर जो ऑपरेटरों को रिसाव खोजने, समाधान किसी जिम्मेदार व्यक्ति को सौंपने और वसूल किए गए मार्जिन को मापने में मदद करते हैं - वास्तविक समय की गति से 90-दिन के पूर्वानुमानों तक, सिस्टम के बीच कूदे बिना।",
       "missionTitle": "Sundae का अस्तित्व क्यों है",
       "missionDescription": "मल्टी-यूनिट रेस्तरां ऑपरेटर जटिल, उच्च-वॉल्यूम व्यवसाय चलाते हैं जो दर्जनों असंबंधित सिस्टम में फैले होते हैं। परिणाम: लाखों डॉलर के निर्णय जो अंतर्ज्ञान पर आधारित होते हैं, मार्जिन लीक जो तब तक अदृश्य रहते हैं जब तक कि बहुत देर न हो जाए, और प्रदर्शन की बेंचमार्किंग के लिए कोई बाजार संदर्भ नहीं होता।",
       "missionSupport": "हमने Sundae बनाया क्योंकि हमने इस समस्या का अनुभव किया। हमारे संस्थापक ने रेस्तरां के विचारों को वार्षिक राजस्व में $10M से अधिक बढ़ाया और लगातार एक ही समस्या का सामना किया: बहुत सारे सिस्टम, निर्णय की स्पष्टता बहुत कम।",
@@ -1428,7 +1604,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "समस्या का अनुभव करने वाले ऑपरेटरों द्वारा निर्मित",
-      "teamDescription": "हमारी टीम के पास रेस्तरां, प्रौद्योगिकी और डेटा में 60+ वर्षों का अनुभव है। हमने इस समस्या का अध्ययन किनारे से नहीं किया। हमने संचालन चलाए, अवधारणाओं को बढ़ाया, और उन ही रिपोर्टिंग अंतरालों का सामना किया जो ऑपरेटर हर सप्ताह करते हैं।",
+      "teamDescription": "हमारी टीम रेस्टोरेंट, तकनीक और डेटा में 40+ वर्षों का अनुभव लाती है। हमने इस समस्या को बाहर से नहीं पढ़ा - हमने संचालन चलाया, कॉन्सेप्ट बढ़ाए, और उन्हीं रिपोर्टिंग खाइयों से जूझे जिनसे ऑपरेटर हर हफ़्ते जूझते हैं।",
       "strengthsTitle": "टीम की ताकतें",
       "journeyTitle": "Sundae यात्रा",
       "journeyDescription": "यह कंपनी ऑपरेटर की समस्याओं से विकसित हुई, फिर कई बाजारों में उपयोग होने वाले प्लेटफ़ॉर्म में बदल गई।",
@@ -1440,6 +1616,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "आपके डेटा की समीक्षा करने और यह देखने के लिए 30 मिनट कि Sundae वास्तव में कहाँ उपयोगी हो सकता है।",
       "ctaPrimary": "डेमो बुक करें",
       "ctaSecondary": "हम भर्ती कर रहे हैं",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "ऑपरेशनल सूट - Sundae Crew",
+      "ctaHome": "होम पर वापस जाएं",
+      "crewPillars": [
+        "शेड्यूलिंग",
+        "समय और उपस्थिति",
+        "पेरोल",
+        "स्टाफ और HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "मांग-आधारित शिफ्ट योजना",
+        "क्लॉक-इन, जियोफेंस, टाइमशीट",
+        "कई क्षेत्रों के लिए पेरोल तैयारी",
+        "भर्ती से रिटायरमेंट तक रिकॉर्ड",
+        "कार्यबल विश्लेषण"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1470,39 +1663,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "दानिश सिद्दीकी",
-          "role": "मुख्य विकास अधिकारी",
-          "location": "दुबई",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "रणनीतिक संचालन भागीदार",
+          "location": "जीसीसी और यूरोप",
+          "image": "",
           "bullets": [
-            "5x संस्थापक जिनके 2 सफल निकास हैं और $100M से अधिक व्यवसाय बनाने का अनुभव",
-            "0→1 श्रेणी निर्माण और उत्पाद-नेतृत्व विकास में विशेषज्ञ",
-            "उत्पाद, मार्केटिंग, और गो-टू-मार्केट निष्पादन में 18+ वर्षों का अनुभव",
-            "रेस्तरां बुद्धिमत्ता और विकास में Sundae की बाजार स्थिति का नेतृत्व करते हैं"
-          ]
-        },
-        {
-          "name": "अलिस्सा परबानी",
-          "role": "उत्पाद प्रमुख",
-          "location": "टोरंटो",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "पूर्व Walmart कनाडा सिस्टम इंजीनियर - एंटरप्राइज पैमाने पर बनाया",
-            "3 उत्पाद लाइनें लॉन्च की, सभी 18 महीनों के भीतर लाभदायक",
-            "ऑपरेटर की आवश्यकताओं को मापने योग्य उत्पाद ROI में अनुवादित करती हैं",
-            "सुनिश्चित करती हैं कि प्रत्येक मॉड्यूल एक वास्तविक समस्या का समाधान करता है जिसका सामना ऑपरेटर शिफ्ट पर करते हैं"
-          ]
-        },
-        {
-          "name": "नवीद नादिर",
-          "role": "प्रौद्योगिकी प्रमुख",
-          "location": "टोरंटो",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "10M+ दैनिक लेनदेन संभालने वाले एंटरप्राइज SaaS प्लेटफार्मों का निर्माण किया",
-            "वैश्विक स्तर पर ऑटोमोटिव और एंटरप्राइज SaaS में अनुभवी इंजीनियर",
-            "सुरक्षित, अनुपालन प्रणाली आर्किटेक्चर में विशेषज्ञ",
-            "Sundae की अवसंरचना विश्वसनीयता और वास्तविक समय डेटा पाइपलाइन के मालिक"
+            "पहले दिन से वरिष्ठ ऑपरेटर की गहराई और एफ एंड बी वाणिज्यिक संबंध मेज पर मौजूद",
+            "जीसीसी और यूरोप भर में बहु-इकाई आतिथ्य ऑपरेटरों के लिए अंतरिम सी-स्तर और बोर्ड-निकट परामर्श",
+            "बड़े उद्यमों के दरवाजे खोलते हैं और Pulse, Insights और Foresight को उस कसौटी पर परखते हैं जो एफ एंड बी नेतृत्व को वास्तव में चाहिए",
+            "Curfs Consult के प्रमुख, जो संस्थापकों के साथ गो-टू-मार्केट, फंडरेज़िंग और स्केलिंग पर काम करते हैं"
           ]
         }
       ],
@@ -1515,11 +1684,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "पहली तैनाती",
-          "description": "यूएई और कनाडा में बहु-ब्रांड रेस्तरां समूहों के साथ साझेदारी। वास्तविक डेटा, वास्तविक ऑपरेटर, पहले दिन से वास्तविक निर्णय।"
+          "description": "यूएई में बहु-ब्रांड रेस्तरां समूहों के साथ साझेदारी। वास्तविक डेटा, वास्तविक ऑपरेटर, पहले दिन से वास्तविक निर्णय।"
         },
         {
           "year": "2026",
-          "title": "12 मॉड्यूल लाइव",
+          "title": "पूर्ण परिचालन कवरेज लाइव",
           "description": "राजस्व, श्रम, इन्वेंटरी, डिलीवरी, आरक्षण, खरीदारी, मार्केटिंग, और लाभ बुद्धिमत्ता - सभी 12 परिचालन क्षेत्रों में एकीकृत।"
         },
         {
@@ -1543,71 +1712,110 @@ export const generatedLocalCopy = {
         {
           "title": "बुद्धिमत्ता पहले",
           "description": "बिखरे हुए डेटा की कीमत होती है। हम 12 सिस्टम्स को एक बुद्धिमान परत में बदलते हैं जो वास्तव में निर्णय लेने में मदद करती है।",
-          "proof": "राजस्व से लेकर आरक्षण तक - 12 परिचालन क्षेत्रों में 12 मॉड्यूल।",
+          "proof": "राजस्व, श्रम, इन्वेंट्री, खरीद, मार्केटिंग, आरक्षण, डिलीवरी और मेहमान - एक ही जगह कवर।",
           "icon": "insights"
         },
         {
           "title": "वास्तविक समय के निर्णय",
-          "description": "साप्ताहिक रिपोर्ट्स आपको पैसे खर्च कराती हैं। जो ऑपरेटर जीतते हैं वे वही होते हैं जो समस्याओं को तब देखते हैं जब वे अभी भी उन्हें ठीक कर सकते हैं।",
+          "description": "साप्ताहिक रिपोर्ट आपका पैसा खाती हैं। जीतने वाले ऑपरेटर वे हैं जो समस्याएँ तब ठीक करते हैं जब ठीक हो सकती हैं - और बाद में जानते हैं कि वह सुधार वाकई काम आया या नहीं।",
           "proof": "हर स्थान पर हर 5 मिनट में Pulse रिफ्रेश होता है।",
           "icon": "speed"
         },
         {
           "title": "मानक बढ़ाएं",
-          "description": "हम चाहते हैं कि रेस्तरां की टीमें अपने डेटा स्टैक से एक और स्थिर डैशबोर्ड से अधिक की उम्मीद करें।",
-          "proof": "3 देशों में सक्रिय, एंटरप्राइज समूह प्लेटफॉर्म-व्यापी अपनाने के साथ।",
+          "description": "हम चाहते हैं कि ऑपरेटर अपने डेटा स्टैक से एक और डैशबोर्ड से ज़्यादा की उम्मीद रखें: एक ऐसा आँकड़ा जिस पर काम करना बनता हो, और प्रमाण कि उस काम से कुछ वापस आया।",
+          "proof": "22 भाषाओं में उपलब्ध, एंटरप्राइज समूह प्लेटफॉर्म-व्यापी अपनाने के साथ।",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "सक्रिय बाजार",
+        "expanding": "विस्तार बाजार"
+      },
+      "presenceFootnote": "सक्रिय बाजारों में भौतिक संचालन (एम्स्टर्डम, दुबई) और कंपनी का कानूनी मुख्यालय (संयुक्त राज्य अमेरिका · डेलावेयर सी-कॉर्प) शामिल हैं। उत्तर अमेरिका (न्यूयॉर्क, टोरंटो) और अन्य विस्तार बाजार रोडमैप पर रणनीतिक प्राथमिकताएं हैं; जुड़ाव मौजूदा केंद्रों से शुरू होता है।",
       "regions": [
         {
-          "region": "मध्य पूर्व",
-          "countries": "यूएई, केएसए, कतर",
-          "label": "सक्रिय"
+          "region": "एम्स्टर्डम",
+          "countries": "यूरोप केंद्र",
+          "label": "सक्रिय",
+          "tier": "active"
         },
         {
-          "region": "उत्तर अमेरिका",
-          "countries": "यूएसए, कनाडा",
-          "label": "सक्रिय"
+          "region": "दुबई",
+          "countries": "एमईए केंद्र",
+          "label": "सक्रिय",
+          "tier": "active"
         },
         {
-          "region": "यूरोप",
-          "countries": "यूके, जर्मनी, फ्रांस",
-          "label": "लक्ष्य"
+          "region": "संयुक्त राज्य अमेरिका",
+          "countries": "डेलावेयर सी-कॉर्प",
+          "label": "सक्रिय",
+          "tier": "active"
         },
         {
-          "region": "एशिया प्रशांत",
-          "countries": "ऑस्ट्रेलिया, सिंगापुर",
-          "label": "लक्ष्य"
+          "region": "न्यूयॉर्क",
+          "countries": "उत्तर अमेरिका",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "टोरंटो",
+          "countries": "उत्तर अमेरिका",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "सिंगापुर",
+          "countries": "APAC",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "टोक्यो",
+          "countries": "APAC",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "मेक्सिको सिटी",
+          "countries": "LATAM",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
+        },
+        {
+          "region": "साओ पाउलो",
+          "countries": "LATAM",
+          "label": "जल्द आ रहा है",
+          "tier": "expanding"
         }
       ],
-      "title": "वह इंटेलिजेंस लेयर जो रेस्टोरेंट के पास कभी नहीं थी"
+      "title": "हमने वह निर्णय-परत बनाई जिसकी हमें ज़रूरत थी और जो कहीं मिली नहीं।"
     },
     "it": {
-      "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per ristoranti",
-      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un unico livello di intelligenza per gruppi di ristoranti multi-unità. Creato da operatori che hanno vissuto il problema. Attivo in 3 paesi.",
+      "metadataTitle": "Informazioni su Sundae - La piattaforma di intelligenza decisionale per la ristorazione",
+      "metadataDescription": "Sundae unifica oltre 12 fonti di dati in un unico livello di intelligenza per gruppi di ristorazione multi-unità. Creato da operatori che hanno vissuto il problema. Localizzato in 22 lingue.",
       "badge": "Informazioni su Sundae",
       "description": "I dati del ristorante di solito risiedono in una dozzina di sistemi disconnessi. Sundae raccoglie quell'immagine operativa in un unico posto, così i team possono prendere decisioni con numeri aggiornati, contesto di mercato e segnali futuri.",
       "stats": [
         {
-          "value": "6",
-          "label": "Pilastri della Piattaforma"
+          "value": "200+",
+          "label": "Sistemi collegati"
         },
         {
           "value": "12",
-          "label": "Moduli di Intelligenza"
+          "label": "Aree operative"
         },
         {
-          "value": "12",
-          "label": "Domini dei Dati"
+          "value": "36",
+          "label": "Paesi per le buste paga"
         },
         {
-          "value": "3",
-          "label": "Paesi Attivi"
+          "value": "22",
+          "label": "Lingue"
         }
       ],
       "builtTitle": "Cosa Abbiamo Costruito",
-      "builtDescription": "Sei livelli connessi che aiutano gli operatori a passare dalla pianificazione in tempo reale a previsioni a 90 giorni senza dover saltare tra i sistemi.",
+      "builtDescription": "Sei livelli connessi che aiutano gli operatori a individuare la perdita, assegnare la correzione a un responsabile e misurare il margine recuperato - dal ritmo in tempo reale alle previsioni a 90 giorni, senza passare da un sistema all'altro.",
       "missionTitle": "Perché Sundae Esiste",
       "missionDescription": "Gli operatori di ristoranti multi-unit gestiscono attività complesse e ad alto volume attraverso dozzine di sistemi disconnessi. Il risultato: decisioni da milioni di dollari basate sull'istinto, perdite di margine invisibili fino a quando non è troppo tardi e nessun contesto di mercato per il benchmarking delle performance.",
       "missionSupport": "Abbiamo creato Sundae perché abbiamo vissuto il problema. Il nostro fondatore ha scalato concetti di ristorazione oltre i 10 milioni di dollari di fatturato annuale e continuava a imbattersi nello stesso problema: troppi sistemi, poca chiarezza nelle decisioni.",
@@ -1626,7 +1834,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Costruito da operatori che hanno vissuto il problema",
-      "teamDescription": "Il nostro team vanta oltre 60 anni di esperienza nei ristoranti, nella tecnologia e nei dati. Non abbiamo studiato questo problema da spettatori. Abbiamo gestito operazioni, scalato concetti e affrontato le stesse lacune di reporting che gli operatori devono affrontare ogni settimana.",
+      "teamDescription": "Il nostro team porta oltre 40 anni tra ristorazione, tecnologia e dati. Non abbiamo studiato il problema da fuori: abbiamo gestito l'operatività, fatto crescere i concept e convissuto con le stesse lacune di reporting che gli operatori affrontano ogni settimana.",
       "strengthsTitle": "Punti di Forza del Team",
       "journeyTitle": "Il Viaggio di Sundae",
       "journeyDescription": "L'azienda è nata da un'esigenza degli operatori, per poi evolversi in una piattaforma utilizzata in diversi mercati.",
@@ -1638,6 +1846,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minuti per rivedere insieme i tuoi dati e vedere dove Sundae potrebbe essere davvero utile.",
       "ctaPrimary": "Prenota una demo",
       "ctaSecondary": "Stiamo assumendo",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suite Operativa - Sundae Crew",
+      "ctaHome": "Torna alla Home",
+      "crewPillars": [
+        "Pianificazione turni",
+        "Rilevazione presenze",
+        "Buste paga",
+        "Personale & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Pianificazione turni guidata dalla domanda",
+        "Timbratura, geofencing, fogli ore",
+        "Buste paga pronte per più paesi",
+        "Anagrafiche dall'assunzione all'uscita",
+        "Analisi del personale"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1668,39 +1893,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Partner Operativo Strategico",
+          "location": "GCC ed Europa",
+          "image": "",
           "bullets": [
-            "Fondatore 5 volte con 2 uscite di successo e esperienza nella costruzione di aziende oltre $100M",
-            "Specialista nella creazione di categorie 0→1 e crescita guidata dal prodotto",
-            "Oltre 18 anni di esperienza in prodotto, marketing ed esecuzione go-to-market",
-            "Guida la posizione di mercato di Sundae nell'intelligenza ristorativa e nella crescita"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Responsabile Prodotto",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Ex ingegnere di sistemi di Walmart Canada - costruito su scala enterprise",
-            "3 linee di prodotto lanciate, tutte redditizie entro 18 mesi",
-            "Traduci le esigenze degli operatori in ROI misurabili del prodotto",
-            "Assicura che ogni modulo risolva un problema reale che gli operatori affrontano durante il turno"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Responsabile Tecnologia",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Ha costruito piattaforme SaaS enterprise che gestiscono oltre 10M di transazioni giornaliere",
-            "Ingegnere esperto nel settore automobilistico e SaaS enterprise su scala globale",
-            "Esperto in architettura di sistemi sicuri e conformi",
-            "Gestisce l'affidabilità dell'infrastruttura di Sundae e il pipeline di dati in tempo reale"
+            "Profonda esperienza da operatore senior e relazioni commerciali F&B al tavolo fin dal primo giorno",
+            "Consulenza interim a livello C e vicina al consiglio per operatori dell'ospitalità multi-unit in tutto il GCC e in Europa",
+            "Apre le porte delle grandi aziende e mette alla prova Pulse, Insights e Foresight rispetto a ciò di cui la leadership F&B ha realmente bisogno",
+            "Titolare di Curfs Consult, collabora con i fondatori su go-to-market, raccolta fondi e crescita"
           ]
         }
       ],
@@ -1713,11 +1914,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Prime Implementazioni",
-          "description": "Collaborato con gruppi di ristoranti multi-brand negli Emirati Arabi Uniti e in Canada. Dati reali, operatori reali, decisioni reali fin dal primo giorno."
+          "description": "Collaborato con gruppi di ristoranti multi-brand negli Emirati Arabi Uniti. Dati reali, operatori reali, decisioni reali fin dal primo giorno."
         },
         {
           "year": "2026",
-          "title": "12 Moduli Attivi",
+          "title": "Copertura operativa completa in produzione",
           "description": "Intelligence su ricavi, manodopera, inventario, consegne, prenotazioni, acquisti, marketing e profitti - tutto unificato in 12 domini operativi."
         },
         {
@@ -1728,7 +1929,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Espansione Globale",
-          "description": "Espansione in Europa e Asia Pacifico. Intelligenza enterprise per marchi di ristoranti multi-paese."
+          "description": "Espansione in Europa e Asia Pacifico. Intelligenza enterprise per gruppi dell'ospitalità multi-paese."
         }
       ],
       "values": [
@@ -1741,71 +1942,110 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligenza Prima",
           "description": "I dati sparsi sono costosi. Trasformiamo 12 sistemi in un unico livello intelligente che guida realmente le decisioni.",
-          "proof": "12 moduli in 12 domini operativi - dalle entrate alle prenotazioni.",
+          "proof": "Ricavi, personale, magazzino, acquisti, marketing, prenotazioni, consegne e ospiti - coperti in un unico posto.",
           "icon": "insights"
         },
         {
           "title": "Decisioni in Tempo Reale",
-          "description": "I report settimanali ti costano denaro. Gli operatori che vincono sono quelli che vedono i problemi mentre possono ancora risolverli.",
+          "description": "I report settimanali ti costano denaro. Gli operatori che vincono sono quelli che risolvono i problemi finché sono ancora risolvibili - e poi sanno se la soluzione ha davvero funzionato.",
           "proof": "Il Pulse si aggiorna ogni 5 minuti in ogni sede.",
           "icon": "speed"
         },
         {
           "title": "Alza il Livello",
-          "description": "Vogliamo che i team dei ristoranti si aspettino di più dal loro stack di dati rispetto a un altro dashboard statico.",
-          "proof": "Attivo in 3 paesi con gruppi enterprise che adottano la piattaforma a livello globale.",
+          "description": "Vogliamo che gli operatori si aspettino dal proprio stack di dati più di un'altra dashboard: un numero su cui valga la pena agire e la prova che quell'azione abbia riportato qualcosa.",
+          "proof": "Localizzato in 22 lingue, con gruppi enterprise che adottano la piattaforma a livello globale.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Mercati attivi",
+        "expanding": "Mercati in espansione"
+      },
+      "presenceFootnote": "I mercati attivi includono operazioni fisiche (Amsterdam, Dubai) e la sede legale dell'azienda (Stati Uniti · Delaware C-Corp). Il Nord America (New York, Toronto) e gli altri mercati in espansione sono priorità strategiche nella roadmap; l'attività parte dagli hub esistenti.",
       "regions": [
         {
-          "region": "Medio Oriente",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Attivo"
+          "region": "Amsterdam",
+          "countries": "Hub europeo",
+          "label": "Attivo",
+          "tier": "active"
         },
         {
-          "region": "Nord America",
-          "countries": "USA, Canada",
-          "label": "Attivo"
+          "region": "Dubai",
+          "countries": "Hub MEA",
+          "label": "Attivo",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Regno Unito, Germania, Francia",
-          "label": "Obiettivo"
+          "region": "Stati Uniti",
+          "countries": "Delaware C-Corp",
+          "label": "Attivo",
+          "tier": "active"
         },
         {
-          "region": "Asia Pacifico",
-          "countries": "Australia, Singapore",
-          "label": "Obiettivo"
+          "region": "New York",
+          "countries": "Nord America",
+          "label": "Prossimamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Nord America",
+          "label": "Prossimamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "Prossimamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Prossimamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "Città del Messico",
+          "countries": "LATAM",
+          "label": "Prossimamente",
+          "tier": "expanding"
+        },
+        {
+          "region": "San Paolo",
+          "countries": "LATAM",
+          "label": "Prossimamente",
+          "tier": "expanding"
         }
       ],
-      "title": "Lo strato di intelligence che i ristoranti non hanno mai avuto"
+      "title": "Abbiamo costruito il livello decisionale che ci serviva e che non trovavamo da nessuna parte."
     },
     "pl": {
-      "metadataTitle": "O Sundae - Platforma Inteligencji Decyzyjnej dla Restauracji",
-      "metadataDescription": "Sundae łączy 12+ źródeł danych w jedną warstwę inteligencji dla grup restauracyjnych z wieloma lokalizacjami. Stworzony przez operatorów, którzy doświadczyli tego problemu. Działa w 3 krajach.",
+      "metadataTitle": "O Sundae - Platforma Inteligencji Decyzyjnej dla Gastronomii",
+      "metadataDescription": "Sundae łączy 12+ źródeł danych w jedną warstwę inteligencji dla grup gastronomicznych z wieloma lokalizacjami. Stworzony przez operatorów, którzy doświadczyli tego problemu. Zlokalizowana w 22 językach.",
       "badge": "O Sundae",
       "description": "Dane restauracyjne zazwyczaj znajdują się w kilkunastu odłączonych systemach. Sundae łączy te informacje w jednym miejscu, aby zespoły mogły podejmować decyzje na podstawie aktualnych danych, kontekstu rynkowego i sygnałów przyszłości.",
       "stats": [
         {
-          "value": "6",
-          "label": "Filary platformy"
+          "value": "200+",
+          "label": "Połączone systemy"
         },
         {
           "value": "12",
-          "label": "Moduły inteligencji"
+          "label": "Obszary operacyjne"
         },
         {
-          "value": "12",
-          "label": "Obszary danych"
+          "value": "36",
+          "label": "Kraje obsługi płac"
         },
         {
-          "value": "3",
-          "label": "Kraje aktywne"
+          "value": "22",
+          "label": "Języki"
         }
       ],
       "builtTitle": "Co Zbudowaliśmy",
-      "builtDescription": "Sześć połączonych warstw, które pomagają operatorom przejść od bieżącego tempa do prognoz na 90 dni bez przeskakiwania między systemami.",
+      "builtDescription": "Sześć połączonych warstw, które pomagają operatorom znaleźć wyciek, przypisać naprawę właścicielowi i zmierzyć odzyskaną marżę - od śledzenia w czasie rzeczywistym po prognozy 90-dniowe, bez przeskakiwania między systemami.",
       "missionTitle": "Dlaczego istnieje Sundae",
       "missionDescription": "Operatorzy restauracji wielooddziałowych prowadzą skomplikowane, wysokowolumenowe biznesy w dziesiątkach odłączonych systemów. Efekt: decyzje warte miliony podejmowane na podstawie intuicji, wycieki marży niewidoczne, aż będzie za późno, oraz brak kontekstu rynkowego do benchmarkingu wydajności.",
       "missionSupport": "Stworzyliśmy Sundae, ponieważ doświadczyliśmy tego problemu. Nasz założyciel rozwijał koncepcje restauracyjne, osiągając ponad 10 milionów dolarów rocznych przychodów, i ciągle napotykał ten sam problem: zbyt wiele systemów, zbyt mała klarowność decyzji.",
@@ -1824,7 +2064,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Stworzone przez operatorów, którzy doświadczyli problemu",
-      "teamDescription": "Nasz zespół ma ponad 60-letnie doświadczenie w branży restauracyjnej, technologii i danych. Nie studiowaliśmy tego problemu z boku. Prowadziliśmy operacje, rozwijaliśmy koncepcje i borykaliśmy się z tymi samymi lukami w raportowaniu, z którymi co tydzień zmagają się operatorzy.",
+      "teamDescription": "Nasz zespół wnosi ponad 40 lat doświadczenia w gastronomii, technologii i danych. Nie badaliśmy tego problemu z zewnątrz - prowadziliśmy operacje, skalowaliśmy koncepty i mierzyliśmy się z tymi samymi lukami w raportowaniu, z którymi operatorzy mierzą się co tydzień.",
       "strengthsTitle": "Mocne Strony Zespołu",
       "journeyTitle": "Podróż Sundae",
       "journeyDescription": "Firma powstała z bólu operatorów, a następnie przekształciła się w platformę wykorzystywaną na wielu rynkach.",
@@ -1836,6 +2076,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minut na wspólne przeglądanie danych i zobaczenie, gdzie Sundae może być naprawdę przydatne.",
       "ctaPrimary": "Zarezerwuj demo",
       "ctaSecondary": "Rekrutujemy",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Pakiet operacyjny - Sundae Crew",
+      "ctaHome": "Powrót do strony głównej",
+      "crewPillars": [
+        "Grafiki",
+        "Czas pracy i obecność",
+        "Płace",
+        "Pracownicy i HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Planowanie zmian oparte na popycie",
+        "Rejestracja czasu, geofencing, ewidencja godzin",
+        "Gotowość płacowa dla wielu regionów",
+        "Akta od zatrudnienia do odejścia",
+        "Analityka kadr"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -1866,39 +2123,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Dyrektor ds. Wzrostu",
-          "location": "Dubaj",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategiczny Partner Operacyjny",
+          "location": "GCC i Europa",
+          "image": "",
           "bullets": [
-            "5-krotny założyciel z 2 udanymi wyjściami i doświadczeniem w budowaniu firm przekraczających 100 milionów dolarów",
-            "Specjalista w tworzeniu kategorii 0→1 i wzroście napędzanym produktem",
-            "Ponad 18 lat w produktach, marketingu i realizacji strategii rynkowej",
-            "Kieruje pozycją rynkową Sundae w zakresie inteligencji restauracyjnej i wzrostu"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Kierownik Produktu",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Była inżynier systemów Walmart Canada - budowała na poziomie przedsiębiorstw",
-            "3 linie produktów uruchomione, wszystkie rentowne w ciągu 18 miesięcy",
-            "Przekłada potrzeby operatorów na mierzalny zwrot z inwestycji w produkt",
-            "Zapewnia, że każdy moduł rozwiązuje rzeczywisty problem, z którym borykają się operatorzy podczas zmiany"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Kierownik Technologii",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Zbudował platformy SaaS dla przedsiębiorstw obsługujące ponad 10 milionów transakcji dziennie",
-            "Doświadczony inżynier w branży motoryzacyjnej i SaaS dla przedsiębiorstw na globalną skalę",
-            "Ekspert w zakresie architektury systemów zabezpieczonych i zgodnych z przepisami",
-            "Odpowiada za niezawodność infrastruktury Sundae i strumień danych w czasie rzeczywistym"
+            "Głębokie doświadczenie operacyjne na poziomie senior i relacje handlowe w sektorze F&B obecne od pierwszego dnia",
+            "Tymczasowe doradztwo na poziomie C-level i bliskie zarządowi dla operatorów hotelarstwa wielooddziałowego w regionie GCC i Europie",
+            "Otwiera drzwi do klientów korporacyjnych i poddaje próbie Pulse, Insights oraz Foresight pod kątem rzeczywistych potrzeb liderów F&B",
+            "Założyciel Curfs Consult, współpracujący z founderami w zakresie go-to-market, pozyskiwania kapitału i skalowania"
           ]
         }
       ],
@@ -1911,11 +2144,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Pierwsze wdrożenia",
-          "description": "Współpraca z grupami restauracyjnymi wielobrandowymi w ZEA i Kanadzie. Prawdziwe dane, prawdziwi operatorzy, prawdziwe decyzje od pierwszego dnia."
+          "description": "Współpraca z grupami restauracyjnymi wielobrandowymi w ZEA. Prawdziwe dane, prawdziwi operatorzy, prawdziwe decyzje od pierwszego dnia."
         },
         {
           "year": "2026",
-          "title": "12 modułów na żywo",
+          "title": "Pełne pokrycie operacyjne na żywo",
           "description": "Przychody, praca, zapasy, dostawy, rezerwacje, zakupy, marketing i inteligencja zysków - wszystko zintegrowane w 12 obszarach operacyjnych."
         },
         {
@@ -1939,71 +2172,110 @@ export const generatedLocalCopy = {
         {
           "title": "Pierwszeństwo Inteligencji",
           "description": "Rozproszone dane są kosztowne. Przekształcamy 12 systemów w jedną inteligentną warstwę, która rzeczywiście podejmuje decyzje.",
-          "proof": "12 modułów w 12 obszarach operacyjnych - od przychodów po rezerwacje.",
+          "proof": "Przychody, praca, zapasy, zakupy, marketing, rezerwacje, dostawy i goście - objęte w jednym miejscu.",
           "icon": "insights"
         },
         {
           "title": "Decyzje w Czasie Rzeczywistym",
-          "description": "Cotygodniowe raporty kosztują cię pieniądze. Operatorzy, którzy wygrywają, to ci, którzy dostrzegają problemy, gdy wciąż mogą je naprawić.",
+          "description": "Cotygodniowe raporty kosztują pieniądze. Wygrywają ci operatorzy, którzy naprawiają problemy, póki jeszcze mogą - i potem wiedzą, czy naprawa naprawdę zadziałała.",
           "proof": "Pulse odświeża się co 5 minut w każdej lokalizacji.",
           "icon": "speed"
         },
         {
           "title": "Podnieś Standard",
-          "description": "Chcemy, aby zespoły restauracyjne oczekiwały więcej od swojego stosu danych niż tylko kolejnego statycznego pulpitu nawigacyjnego.",
-          "proof": "Aktywni w 3 krajach z grupami korporacyjnymi przyjmującymi platformę na szeroką skalę.",
+          "description": "Chcemy, by operatorzy oczekiwali od swojego stosu danych czegoś więcej niż kolejnego pulpitu: liczby wartej działania i dowodu, że to działanie coś przyniosło.",
+          "proof": "Zlokalizowana w 22 językach, z grupami korporacyjnymi przyjmującymi platformę na szeroką skalę.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Rynki aktywne",
+        "expanding": "Rynki ekspansji"
+      },
+      "presenceFootnote": "Rynki aktywne obejmują działalność fizyczną (Amsterdam, Dubaj) oraz siedzibę prawną firmy (Stany Zjednoczone · Delaware C-Corp). Ameryka Północna (Nowy Jork, Toronto) i inne rynki ekspansji to strategiczne priorytety w planie rozwoju; działania rozpoczynają się z istniejących hubów.",
       "regions": [
         {
-          "region": "Bliski Wschód",
-          "countries": "ZEA, KSA, Katar",
-          "label": "Aktywny"
+          "region": "Amsterdam",
+          "countries": "Hub Europy",
+          "label": "Aktywny",
+          "tier": "active"
         },
         {
-          "region": "Ameryka Północna",
-          "countries": "USA, Kanada",
-          "label": "Aktywny"
+          "region": "Dubaj",
+          "countries": "Hub MEA",
+          "label": "Aktywny",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Wielka Brytania, Niemcy, Francja",
-          "label": "Docelowy"
+          "region": "Stany Zjednoczone",
+          "countries": "Delaware C-Corp",
+          "label": "Aktywny",
+          "tier": "active"
         },
         {
-          "region": "Azja i Pacyfik",
-          "countries": "Australia, Singapur",
-          "label": "Docelowy"
+          "region": "Nowy Jork",
+          "countries": "Ameryka Północna",
+          "label": "Wkrótce",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Ameryka Północna",
+          "label": "Wkrótce",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapur",
+          "countries": "APAC",
+          "label": "Wkrótce",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokio",
+          "countries": "APAC",
+          "label": "Wkrótce",
+          "tier": "expanding"
+        },
+        {
+          "region": "Meksyk",
+          "countries": "LATAM",
+          "label": "Wkrótce",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Wkrótce",
+          "tier": "expanding"
         }
       ],
-      "title": "Warstwa inteligencji, której restauracje nigdy nie miały"
+      "title": "Zbudowaliśmy warstwę decyzyjną, której potrzebowaliśmy i której nigdzie nie znaleźliśmy."
     },
     "tr": {
-      "metadataTitle": "Sundae Hakkında - Restoranlar için Karar Zeka Platformu",
-      "metadataDescription": "Sundae, çoklu birim restoran grupları için 12'den fazla veri kaynağını tek bir zeka katmanında birleştirir. Sorunu yaşayan operatörler tarafından geliştirildi. 3 ülkede aktiftir.",
+      "metadataTitle": "Sundae Hakkında - Yeme-İçme Sektörü için Karar Zeka Platformu",
+      "metadataDescription": "Sundae, çoklu birim yeme-içme grupları için 12'den fazla veri kaynağını tek bir zeka katmanında birleştirir. Sorunu yaşayan operatörler tarafından geliştirildi. 22 dilde yerelleştirildi.",
       "badge": "Sundae Hakkında",
       "description": "Restoran verileri genellikle bir düzine bağlantısız sistemde bulunur. Sundae, bu işletme resmini tek bir yerde toplar, böylece ekipler güncel rakamlar, piyasa bağlamı ve geleceğe yönelik sinyallerle kararlar alabilir.",
       "stats": [
         {
-          "value": "6",
-          "label": "Platform Temelleri"
+          "value": "200+",
+          "label": "Bağlı sistem"
         },
         {
           "value": "12",
-          "label": "Zeka Modülleri"
+          "label": "Operasyonel alan"
         },
         {
-          "value": "12",
-          "label": "Veri Alanları"
+          "value": "36",
+          "label": "Bordro ülkesi"
         },
         {
-          "value": "3",
-          "label": "Faaliyet Gösterilen Ülkeler"
+          "value": "22",
+          "label": "Dil"
         }
       ],
       "builtTitle": "Ne Yaptık",
-      "builtDescription": "Gerçek zamanlı hızdan 90 günlük tahminlere geçişi sağlayan altı bağlı katman.",
+      "builtDescription": "Operatörlerin sızıntıyı bulmasına, düzeltmeyi bir sorumluya atamasına ve geri kazanılan marjı ölçmesine yardımcı olan altı bağlı katman - gerçek zamanlı takipten 90 günlük tahminlere kadar, sistemler arasında geçiş yapmadan.",
       "missionTitle": "Sundae Neden Var?",
       "missionDescription": "Çoklu birim restoran işletmecileri, birbirinden bağımsız sistemler arasında karmaşık, yüksek hacimli işler yürütmektedir. Sonuç: içgüdüye dayalı milyon dolarlık kararlar, geç kalınana kadar görünmeyen marj kayıpları ve performansı kıyaslamak için sıfır piyasa bağlamı.",
       "missionSupport": "Sundae'yi, bu sorunu yaşadığımız için kurduk. Kurucumuz, restoran konseptlerini yıllık 10 milyon doların üzerinde ölçeklendirdi ve sürekli aynı sorunla karşılaştı: çok fazla sistem, çok az karar netliği.",
@@ -2022,7 +2294,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Sorunu Yaşayan Operatörler Tarafından İnşa Edildi",
-      "teamDescription": "Ekibimiz, restoranlar, teknoloji ve veri alanında 60 yılı aşkın deneyime sahiptir. Bu sorunu kenardan incelemedik. Operasyonları yürüttük, konseptleri büyüttük ve her hafta işletmecilerin karşılaştığı aynı raporlama boşluklarıyla başa çıktık.",
+      "teamDescription": "Ekibimiz restoran, teknoloji ve veri alanlarında 40 yılı aşkın deneyim taşıyor. Bu sorunu dışarıdan incelemedik - operasyonu biz yönettik, konseptleri biz büyüttük ve işletmecilerin her hafta yaşadığı aynı raporlama boşluklarıyla biz uğraştık.",
       "strengthsTitle": "Ekip Güçlü Yönleri",
       "journeyTitle": "Sundae Yolculuğu",
       "journeyDescription": "Şirket, operatör acılarından doğdu ve ardından birden fazla pazarda kullanılan bir platforma dönüştü.",
@@ -2034,6 +2306,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "Verilerinizi birlikte gözden geçirmek ve Sundae'nin gerçekten faydalı olabileceği yerleri görmek için 30 dakika.",
       "ctaPrimary": "Demo Rezervasyonu Yap",
       "ctaSecondary": "Eleman Alımı Yapıyoruz",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Operasyon Paketi - Sundae Crew",
+      "ctaHome": "Ana Sayfaya Dön",
+      "crewPillars": [
+        "Vardiya Planlama",
+        "Zaman ve Devam",
+        "Bordro",
+        "Personel ve İK",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Talebe dayalı vardiya planlaması",
+        "Giriş kaydı, coğrafi sınır, mesai çizelgeleri",
+        "Çok bölgeli bordro hazırlığı",
+        "İşe alımdan ayrılışa kadar kayıtlar",
+        "İş gücü analitiği"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2064,39 +2353,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Büyüme Müdürü",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Stratejik Operasyon Ortağı",
+          "location": "GCC ve Avrupa",
+          "image": "",
           "bullets": [
-            "5 kez kurucu, 2 başarılı çıkış ve $100M'ı aşan işletmeler kurma deneyimi",
-            "0→1 kategori oluşturma ve ürün odaklı büyüme uzmanı",
-            "Ürün, pazarlama ve pazara giriş uygulamalarında 18+ yıl deneyim",
-            "Sundae'nin restoran zekası ve büyüme alanındaki pazar konumunu yönetiyor"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Ürün Müdürü",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Eski Walmart Kanada sistem mühendisi - kurumsal ölçekte inşa etti",
-            "3 ürün hattı başlatıldı, hepsi 18 ay içinde kârlı",
-            "İşletmeci ihtiyaçlarını ölçülebilir ürün ROI'sine çevirir",
-            "Her modülün, işletmecilerin vardiyada karşılaştığı gerçek bir sorunu çözdüğünden emin olur"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Teknoloji Müdürü",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Günde 10M+ işlemi yöneten kurumsal SaaS platformları inşa etti",
-            "Küresel ölçekte otomotiv ve kurumsal SaaS alanında deneyimli mühendis",
-            "Güvenli, uyumlu sistem mimarisi uzmanı",
-            "Sundae'nin altyapı güvenilirliği ve gerçek zamanlı veri akışını yönetiyor"
+            "İlk günden itibaren masada kıdemli işletmeci derinliği ve F&B ticari ilişkileri",
+            "GCC ve Avrupa genelinde çoklu birim konaklama işletmecilerine geçici C-seviye ve yönetim kuruluna yakın danışmanlık",
+            "Kurumsal kapıları açar ve Pulse, Insights ve Foresight'ı F&B liderliğinin gerçekten ihtiyaç duyduğu şeye karşı test eder",
+            "Kurucularla pazara giriş, yatırım toplama ve ölçeklenme konusunda çalışan Curfs Consult'un yöneticisi"
           ]
         }
       ],
@@ -2109,11 +2374,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "İlk Dağıtımlar",
-          "description": "UAE ve Kanada'daki çok markalı restoran gruplarıyla ortaklık kuruldu. Gerçek veriler, gerçek işletmeciler, ilk günden itibaren gerçek kararlar."
+          "description": "BAE'deki çok markalı restoran gruplarıyla ortaklık kuruldu. Gerçek veriler, gerçek işletmeciler, ilk günden itibaren gerçek kararlar."
         },
         {
           "year": "2026",
-          "title": "12 Modül Canlı",
+          "title": "Tam operasyonel kapsam yayında",
           "description": "Gelir, iş gücü, envanter, teslimat, rezervasyonlar, satın alma, pazarlama ve kâr zekası - 12 operasyonel alan boyunca birleştirildi."
         },
         {
@@ -2137,71 +2402,110 @@ export const generatedLocalCopy = {
         {
           "title": "Zeka Öncelikli",
           "description": "Dağınık veriler pahalıdır. 12 sistemi, gerçekten kararları yönlendiren tek bir zeki katmana dönüştürüyoruz.",
-          "proof": "Gelirden rezervasyonlara kadar 12 operasyonel alanda 12 modül.",
+          "proof": "Ciro, işgücü, stok, satın alma, pazarlama, rezervasyon, teslimat ve misafirler - tek bir yerde kapsanır.",
           "icon": "insights"
         },
         {
           "title": "Gerçek Zamanlı Kararlar",
-          "description": "Haftalık raporlar size para kaybettirir. Kazanan operatörler, sorunları hala çözebilecekleri sırada görebilenlerdir.",
+          "description": "Haftalık raporlar size para kaybettirir. Kazanan işletmeciler, sorunları hâlâ çözebilecekken çözen - ve sonrasında o çözümün gerçekten işe yarayıp yaramadığını bilenlerdir.",
           "proof": "Pulse her lokasyonda her 5 dakikada bir güncellenir.",
           "icon": "speed"
         },
         {
           "title": "Standartları Yükselt",
-          "description": "Restoran ekiplerinin veri yığınlarından başka bir statik gösterge panelinden daha fazlasını beklemelerini istiyoruz.",
+          "description": "İşletmecilerin veri yığınlarından bir gösterge panosundan fazlasını beklemesini istiyoruz: harekete değer bir sayı ve o hareketin bir şey kazandırdığının kanıtı.",
           "proof": "Platform genelinde benimseyen kurumsal gruplarla 3 ülkede aktiftir.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Aktif pazarlar",
+        "expanding": "Genişleme pazarları"
+      },
+      "presenceFootnote": "Aktif pazarlar fiziksel operasyonları (Amsterdam, Dubai) ve şirketin yasal merkezini (Amerika Birleşik Devletleri · Delaware C-Corp) kapsar. Kuzey Amerika (New York, Toronto) ve diğer genişleme pazarları yol haritasındaki stratejik önceliklerdir; iş birliği mevcut merkezlerden başlar.",
       "regions": [
         {
-          "region": "Orta Doğu",
-          "countries": "BAE, Suudi Arabistan, Katar",
-          "label": "Aktif"
+          "region": "Amsterdam",
+          "countries": "Avrupa merkezi",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Kuzey Amerika",
-          "countries": "ABD, Kanada",
-          "label": "Aktif"
+          "region": "Dubai",
+          "countries": "MEA merkezi",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Avrupa",
-          "countries": "İngiltere, Almanya, Fransa",
-          "label": "Hedef"
+          "region": "Amerika Birleşik Devletleri",
+          "countries": "Delaware C-Corp",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Asya Pasifik",
-          "countries": "Avustralya, Singapur",
-          "label": "Hedef"
+          "region": "New York",
+          "countries": "Kuzey Amerika",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Kuzey Amerika",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapur",
+          "countries": "APAC",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "Meksiko",
+          "countries": "LATAM",
+          "label": "Yakında",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Yakında",
+          "tier": "expanding"
         }
       ],
-      "title": "Restoranların hiç sahip olmadığı zeka katmanı"
+      "title": "İhtiyacımız olan ve hiçbir yerde bulamadığımız karar katmanını kendimiz kurduk."
     },
     "zh-Hans": {
-      "metadataTitle": "关于Sundae - 餐厅决策智能平台",
-      "metadataDescription": "Sundae 将 12 个以上的数据源统一为一个多单位餐饮集团的智能层。由经历过这一问题的运营商构建。活跃于 3 个国家。",
+      "metadataTitle": "关于Sundae - 餐饮决策智能平台",
+      "metadataDescription": "Sundae 将 12 个以上的数据源统一为一个多单位餐饮集团的智能层。由经历过这一问题的运营商构建。已本地化为 22 种语言。",
       "badge": "关于Sundae",
       "description": "餐厅数据通常分散在十几个不相连的系统中。Sundae 将这些运营信息集中到一个地方，以便团队能够根据当前数据、市场背景和前瞻性信号做出决策。",
       "stats": [
         {
-          "value": "6",
-          "label": "平台支柱"
+          "value": "200+",
+          "label": "已接入系统"
         },
         {
           "value": "12",
-          "label": "智能模块"
+          "label": "运营领域"
         },
         {
-          "value": "12",
-          "label": "数据领域"
+          "value": "36",
+          "label": "薪酬覆盖国家"
         },
         {
-          "value": "3",
-          "label": "活跃国家"
+          "value": "22",
+          "label": "语言"
         }
       ],
       "builtTitle": "我们所构建的",
-      "builtDescription": "六个连接的层次，帮助运营商从实时节奏过渡到90天的预测，无需在系统之间跳转。",
+      "builtDescription": "六个互联的层级，帮助运营者找到漏损、把修复指派给负责人并衡量已挽回的利润率，覆盖从实时监控到90天预测，无需在系统之间切换。",
       "missionTitle": "Sundae 存在的原因",
       "missionDescription": "多单位餐厅运营商在数十个不相连的系统中运营复杂的高容量业务。结果是：基于直觉做出的百万美元决策，直到为时已晚才发现的利润流失，以及缺乏市场背景来基准性能。",
       "missionSupport": "我们创建Sundae是因为我们亲身经历了这个问题。我们的创始人将餐饮概念的年收入提升到超过1000万美元，但始终面临同样的问题：系统过多，决策不清晰。",
@@ -2220,7 +2524,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "由经历过问题的运营者构建",
-      "teamDescription": "我们的团队在餐饮、技术和数据领域拥有超过60年的经验。我们并不是在旁观这个问题，而是亲自参与运营、扩展概念，并处理运营商每周面临的报告差距。",
+      "teamDescription": "我们团队在餐饮、技术与数据领域拥有 40 多年的经验。我们不是从外部研究这个问题的——我们经营过门店、把概念做大，也遇到过运营者每周都会遇到的同样的报表缺口。",
       "strengthsTitle": "团队优势",
       "journeyTitle": "Sundae之旅",
       "journeyDescription": "公司源于运营商的痛点，随后发展成为一个在多个市场中使用的平台。",
@@ -2232,6 +2536,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30分钟一起审查您的数据，看看Sundae在哪里可以真正发挥作用。",
       "ctaPrimary": "预约演示",
       "ctaSecondary": "我们在招聘",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "运营套件 - Sundae Crew",
+      "ctaHome": "返回首页",
+      "crewPillars": [
+        "排班",
+        "考勤",
+        "薪资",
+        "人员与人力资源",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "按需排班",
+        "打卡、地理围栏、工时表",
+        "多地区薪资就绪",
+        "从入职到离职的员工档案",
+        "劳动力分析"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2262,39 +2583,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "达尼什·西迪基",
-          "role": "首席增长官",
-          "location": "迪拜",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "战略运营合伙人",
+          "location": "海湾合作委员会及欧洲",
+          "image": "",
           "bullets": [
-            "5次创始人，2次成功退出，拥有超过1亿美元业务的构建经验",
-            "专注于0→1类别创建和产品驱动增长",
-            "在产品、市场营销和市场执行方面拥有超过18年的经验",
-            "领导Sundae在餐饮智能和增长方面的市场定位"
-          ]
-        },
-        {
-          "name": "阿莉萨·帕拉巴尼",
-          "role": "产品负责人",
-          "location": "多伦多",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "前沃尔玛加拿大系统工程师 - 在企业规模上构建",
-            "推出3条产品线，均在18个月内盈利",
-            "将运营商需求转化为可衡量的产品投资回报",
-            "确保每个模块解决运营商在班次中面临的真实问题"
-          ]
-        },
-        {
-          "name": "纳维德·纳迪尔",
-          "role": "技术负责人",
-          "location": "多伦多",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "构建处理每日超过1000万交易的企业SaaS平台",
-            "在全球范围内的汽车和企业SaaS领域拥有丰富的工程经验",
-            "安全、合规系统架构专家",
-            "负责Sundae的基础设施可靠性和实时数据管道"
+            "从第一天起就带来资深运营商的深度和餐饮商业关系",
+            "为海湾合作委员会和欧洲的多单位酒店运营商提供临时高管层及董事会层面的咨询",
+            "打开大型企业的大门，并以餐饮领导层真正需要的标准检验Pulse、Insights和Foresight",
+            "Curfs Consult负责人，与创始人在市场进入、融资和规模化方面展开合作"
           ]
         }
       ],
@@ -2307,11 +2604,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "首次部署",
-          "description": "与阿联酋和加拿大的多品牌餐饮集团合作。从第一天起，真实数据、真实运营商、真实决策。"
+          "description": "与阿联酋的多品牌餐饮集团合作。从第一天起，真实数据、真实运营商、真实决策。"
         },
         {
           "year": "2026",
-          "title": "12模块上线",
+          "title": "全面运营覆盖上线",
           "description": "收入、劳动力、库存、配送、预订、采购、营销和利润智能 - 在12个运营领域中统一。"
         },
         {
@@ -2335,71 +2632,110 @@ export const generatedLocalCopy = {
         {
           "title": "以智能为先",
           "description": "分散的数据是昂贵的。我们将12个系统转变为一个真正推动决策的智能层。",
-          "proof": "跨越12个运营领域的12个模块 - 从收入到预订。",
+          "proof": "营收、人力、库存、采购、营销、预订、配送与客户--在一处全部覆盖。",
           "icon": "insights"
         },
         {
           "title": "实时决策",
-          "description": "每周报告会让你花钱。获胜的运营商是那些在问题仍可解决时就能看到问题的人。",
+          "description": "周报在让你亏钱。赢的运营者是那些趁还来得及就把问题解决掉的人--并且事后知道这次解决到底有没有奏效。",
           "proof": "每个地点每5分钟刷新一次Pulse。",
           "icon": "speed"
         },
         {
           "title": "提升标准",
-          "description": "我们希望餐厅团队对他们的数据堆栈有更高的期望，而不仅仅是另一个静态仪表板。",
-          "proof": "在3个国家活跃，企业集团正在全平台采用。",
+          "description": "我们希望运营者对数据体系的期待不止于又一块看板：一个值得据以行动的数字，以及这次行动确实带回了什么的证据。",
+          "proof": "已本地化为 22 种语言，企业集团正在全平台采用。",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "活跃市场",
+        "expanding": "拓展市场"
+      },
+      "presenceFootnote": "活跃市场包括实体运营（阿姆斯特丹、迪拜）和公司的法定注册地（美国 · 特拉华州 C-Corp）。北美（纽约、多伦多）及其他拓展市场是路线图上的战略重点；合作将从现有枢纽开始。",
       "regions": [
         {
-          "region": "中东",
-          "countries": "阿联酋, 沙特阿拉伯, 卡塔尔",
-          "label": "活跃"
+          "region": "阿姆斯特丹",
+          "countries": "欧洲枢纽",
+          "label": "活跃",
+          "tier": "active"
         },
         {
-          "region": "北美",
-          "countries": "美国, 加拿大",
-          "label": "活跃"
+          "region": "迪拜",
+          "countries": "中东及非洲枢纽",
+          "label": "活跃",
+          "tier": "active"
         },
         {
-          "region": "欧洲",
-          "countries": "英国, 德国, 法国",
-          "label": "目标"
+          "region": "美国",
+          "countries": "特拉华州 C-Corp",
+          "label": "活跃",
+          "tier": "active"
         },
         {
-          "region": "亚太",
-          "countries": "澳大利亚, 新加坡",
-          "label": "目标"
+          "region": "纽约",
+          "countries": "北美",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "多伦多",
+          "countries": "北美",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "新加坡",
+          "countries": "APAC",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "东京",
+          "countries": "APAC",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "墨西哥城",
+          "countries": "LATAM",
+          "label": "即将推出",
+          "tier": "expanding"
+        },
+        {
+          "region": "圣保罗",
+          "countries": "LATAM",
+          "label": "即将推出",
+          "tier": "expanding"
         }
       ],
-      "title": "餐厅从未拥有的智能层"
+      "title": "我们需要的那层决策能力找不到，于是自己造了出来。"
     },
     "ja": {
-      "metadataTitle": "Sundaeについて - レストラン向けの意思決定インテリジェンスプラットフォーム",
-      "metadataDescription": "Sundaeは、12以上のデータソースを統合し、マルチユニットレストラングループ向けの単一のインテリジェンスレイヤーを提供します。問題を経験したオペレーターによって構築されました。3か国で展開中です。",
+      "metadataTitle": "Sundaeについて - フードサービス向けの意思決定インテリジェンスプラットフォーム",
+      "metadataDescription": "Sundaeは、12以上のデータソースを統合し、マルチユニットのフードサービスグループ向けの単一のインテリジェンスレイヤーを提供します。問題を経験したオペレーターによって構築されました。22言語にローカライズ済み。",
       "badge": "Sundaeについて",
       "description": "レストランデータは通常、数多くの切り離されたシステムに存在します。Sundaeは、その運営状況を一つの場所に集約し、チームが最新の数字、市場の文脈、将来のシグナルをもとに意思決定できるようにします。",
       "stats": [
         {
-          "value": "6",
-          "label": "プラットフォームの柱"
+          "value": "200+",
+          "label": "接続システム"
         },
         {
           "value": "12",
-          "label": "インテリジェンスモジュール"
+          "label": "業務領域"
         },
         {
-          "value": "12",
-          "label": "データドメイン"
+          "value": "36",
+          "label": "給与対応国"
         },
         {
-          "value": "3",
-          "label": "稼働国"
+          "value": "22",
+          "label": "言語"
         }
       ],
       "builtTitle": "私たちが構築したもの",
-      "builtDescription": "リアルタイムのペーシングから90日間の予測に移行するための6つの接続されたレイヤーがあり、システム間を行き来する必要がありません。",
+      "builtDescription": "オペレーターが漏れを見つけ、修正を担当者に割り当て、取り戻したマージンを測定するのに役立つ6つの連携レイヤー。リアルタイムのペーシングから90日間の予測まで、システム間を行き来する必要はありません。",
       "missionTitle": "Sundaeの存在理由",
       "missionDescription": "複数の店舗を運営するレストランオペレーターは、数十の切り離されたシステムを通じて複雑で高ボリュームのビジネスを展開しています。その結果、直感に基づいた百万ドルの意思決定、手遅れになるまで見えないマージンの漏れ、パフォーマンスをベンチマークするための市場コンテキストがゼロになります。",
       "missionSupport": "私たちはSundaeを作りました。なぜなら、私たち自身がその問題を経験したからです。創業者はレストランのコンセプトを年間収益1000万ドル以上に拡大しましたが、常に同じ問題に直面していました：システムが多すぎて、意思決定が不明確すぎるのです。",
@@ -2418,7 +2754,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "問題を経験したオペレーターによって構築されました",
-      "teamDescription": "私たちのチームは、レストラン、テクノロジー、データの分野で60年以上の経験を持っています。この問題を傍観者として研究したわけではありません。私たちはオペレーションを行い、コンセプトを拡大し、オペレーターが毎週直面する同じ報告のギャップに対処してきました。",
+      "teamDescription": "私たちのチームは飲食、テクノロジー、データの領域で40年以上の経験を持っています。この問題を外から研究したのではありません。実際に運営し、業態を伸ばし、運営者が毎週ぶつかるのと同じ報告の穴に向き合ってきました。",
       "strengthsTitle": "チームの強み",
       "journeyTitle": "Sundaeの旅",
       "journeyDescription": "この会社はオペレーターの苦痛から生まれ、次第に複数の市場で使用されるプラットフォームへと成長しました。",
@@ -2430,6 +2766,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30分でデータを一緒に確認し、Sundaeがどのように役立つかを見てみましょう。",
       "ctaPrimary": "デモを予約する",
       "ctaSecondary": "私たちは採用中です",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "オペレーションスイート - Sundae Crew",
+      "ctaHome": "ホームに戻る",
+      "crewPillars": [
+        "シフト管理",
+        "勤怠管理",
+        "給与",
+        "人事・HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "需要に応じたシフト計画",
+        "打刻、ジオフェンス、タイムシート",
+        "多地域対応の給与準備",
+        "採用から退職までの人事記録",
+        "人材アナリティクス"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2460,39 +2813,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "ダーニッシュ・シディキ",
-          "role": "最高成長責任者",
-          "location": "ドバイ",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "戦略オペレーティングパートナー",
+          "location": "GCCおよびヨーロッパ",
+          "image": "",
           "bullets": [
-            "5回の創業者で、2回の成功したエグジットを経験し、1億ドルを超えるビジネスを構築した経験",
-            "0→1のカテゴリー創出とプロダクト主導の成長の専門家",
-            "製品、マーケティング、ゴー・トゥ・マーケット実行で18年以上の経験",
-            "レストランインテリジェンスと成長におけるSundaeの市場ポジションをリード"
-          ]
-        },
-        {
-          "name": "アリッサ・パラバニ",
-          "role": "プロダクト責任者",
-          "location": "トロント",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "元ウォルマートカナダのシステムエンジニア - エンタープライズ規模で構築",
-            "3つのプロダクトラインを立ち上げ、すべて18ヶ月以内に利益を上げた",
-            "オペレーターのニーズを測定可能なプロダクトROIに変換",
-            "すべてのモジュールがオペレーターがシフト中に直面する実際の問題を解決することを保証"
-          ]
-        },
-        {
-          "name": "ナビード・ナディール",
-          "role": "テクノロジー責任者",
-          "location": "トロント",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "1,000万件以上のデイリー取引を処理するエンタープライズSaaSプラットフォームを構築",
-            "自動車およびエンタープライズSaaSでのグローバル規模の経験豊富なエンジニア",
-            "安全でコンプライアンスに準拠したシステムアーキテクチャの専門家",
-            "Sundaeのインフラの信頼性とリアルタイムデータパイプラインを担当"
+            "初日からシニアオペレーターの深い知見とF&Bの商業的関係をテーブルにもたらす",
+            "GCCとヨーロッパ全域のマルチユニットホスピタリティオペレーター向けの暫定的なCレベルおよび取締役会に近い助言",
+            "大企業の扉を開き、F&Bのリーダーシップが本当に必要とするものに照らしてPulse、Insights、Foresightを検証する",
+            "Curfs Consultの代表として、創業者とゴー・トゥ・マーケット、資金調達、スケールに取り組む"
           ]
         }
       ],
@@ -2505,11 +2834,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "初の展開",
-          "description": "UAEとカナダのマルチブランドレストラングループと提携。初日から実データ、実オペレーター、実際の意思決定。"
+          "description": "UAEのマルチブランドレストラングループと提携。初日から実データ、実オペレーター、実際の意思決定。"
         },
         {
           "year": "2026",
-          "title": "12モジュール稼働",
+          "title": "業務全域のカバレッジが稼働",
           "description": "収益、労働、在庫、配送、予約、購買、マーケティング、利益インテリジェンス - 12の運用ドメイン全体で統合。"
         },
         {
@@ -2520,7 +2849,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "グローバル展開",
-          "description": "ヨーロッパとアジア太平洋地域への拡大。複数国のレストランブランド向けの企業インテリジェンス。"
+          "description": "ヨーロッパとアジア太平洋地域への拡大。複数国にまたがるホスピタリティグループ向けの企業インテリジェンス。"
         }
       ],
       "values": [
@@ -2533,71 +2862,110 @@ export const generatedLocalCopy = {
         {
           "title": "インテリジェンス優先",
           "description": "散在するデータはコストがかかります。12のシステムを1つのインテリジェントなレイヤーに統合し、実際に意思決定を促進します。",
-          "proof": "収益から予約まで、12の運用ドメインにわたる12のモジュール。",
+          "proof": "売上、人件費、在庫、購買、マーケティング、予約、デリバリー、顧客 - すべて一か所で。",
           "icon": "insights"
         },
         {
           "title": "リアルタイムの意思決定",
-          "description": "週次レポートはコストがかかります。勝つオペレーターは、問題を修正できるうちにそれを見つける人たちです。",
+          "description": "週次レポートはコストです。勝つ運営者は、まだ手を打てるうちに問題を直し、その手当てが本当に効いたのかを後から把握している人です。",
           "proof": "すべてのロケーションで5分ごとにPulseが更新されます。",
           "icon": "speed"
         },
         {
           "title": "基準を引き上げる",
-          "description": "私たちは、レストランチームが静的なダッシュボード以上のデータスタックを期待することを望んでいます。",
+          "description": "データ基盤に期待すべきは、もう一つのダッシュボードではありません。行動する価値のある数値と、その行動が何かを取り戻した証拠です。",
           "proof": "3か国でアクティブで、企業グループがプラットフォーム全体を採用しています。",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "アクティブ市場",
+        "expanding": "拡大市場"
+      },
+      "presenceFootnote": "アクティブ市場には、物理的な拠点（アムステルダム、ドバイ）と会社の法的本拠地（米国 · デラウェア州C-Corp）が含まれます。北アメリカ（ニューヨーク、トロント）およびその他の拡大市場はロードマップ上の戦略的優先事項であり、取り組みは既存の拠点から始まります。",
       "regions": [
         {
-          "region": "中東",
-          "countries": "UAE, KSA, カタール",
-          "label": "アクティブ"
+          "region": "アムステルダム",
+          "countries": "ヨーロッパ拠点",
+          "label": "アクティブ",
+          "tier": "active"
         },
         {
-          "region": "北アメリカ",
-          "countries": "アメリカ, カナダ",
-          "label": "アクティブ"
+          "region": "ドバイ",
+          "countries": "MEA拠点",
+          "label": "アクティブ",
+          "tier": "active"
         },
         {
-          "region": "ヨーロッパ",
-          "countries": "イギリス, ドイツ, フランス",
-          "label": "ターゲット"
+          "region": "米国",
+          "countries": "デラウェア州C-Corp",
+          "label": "アクティブ",
+          "tier": "active"
         },
         {
-          "region": "アジア太平洋",
-          "countries": "オーストラリア, シンガポール",
-          "label": "ターゲット"
+          "region": "ニューヨーク",
+          "countries": "北アメリカ",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "トロント",
+          "countries": "北アメリカ",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "シンガポール",
+          "countries": "APAC",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "東京",
+          "countries": "APAC",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "メキシコシティ",
+          "countries": "LATAM",
+          "label": "近日公開",
+          "tier": "expanding"
+        },
+        {
+          "region": "サンパウロ",
+          "countries": "LATAM",
+          "label": "近日公開",
+          "tier": "expanding"
         }
       ],
-      "title": "レストランがこれまで持てなかったインテリジェンス層"
+      "title": "必要としながらどこにも見つからなかった意思決定レイヤーを、自分たちで作りました。"
     },
     "id": {
-      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
-      "metadataDescription": "Sundae menggabungkan 12+ sumber data menjadi satu lapisan intelijen untuk grup restoran multi-unit. Dibangun oleh operator yang mengalami masalah tersebut. Aktif di 3 negara.",
+      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Layanan Makanan",
+      "metadataDescription": "Sundae menggabungkan 12+ sumber data menjadi satu lapisan intelijen untuk grup layanan makanan multi-unit. Dibangun oleh operator yang mengalami masalah tersebut. Dilokalkan dalam 22 bahasa.",
       "badge": "Tentang Sundae",
       "description": "Data restoran biasanya tersebar di berbagai sistem yang tidak terhubung. Sundae mengumpulkan informasi tersebut ke dalam satu tempat sehingga tim dapat membuat keputusan dengan angka terkini, konteks pasar, dan sinyal yang mengarah ke depan.",
       "stats": [
         {
-          "value": "6",
-          "label": "Pilar Platform"
+          "value": "200+",
+          "label": "Sistem terhubung"
         },
         {
           "value": "12",
-          "label": "Modul Intelijen"
+          "label": "Area operasional"
         },
         {
-          "value": "12",
-          "label": "Domain Data"
+          "value": "36",
+          "label": "Negara untuk penggajian"
         },
         {
-          "value": "3",
-          "label": "Negara Aktif"
+          "value": "22",
+          "label": "Bahasa"
         }
       ],
       "builtTitle": "Apa yang Telah Kami Bangun",
-      "builtDescription": "Enam lapisan terhubung yang membantu operator beralih dari penjadwalan waktu nyata ke perkiraan 90 hari tanpa berpindah antar sistem.",
+      "builtDescription": "Enam lapisan terhubung yang membantu operator menemukan kebocoran, menugaskan perbaikan kepada penanggung jawab, dan mengukur margin yang dipulihkan - dari pemantauan waktu nyata hingga perkiraan 90 hari, tanpa berpindah antar sistem.",
       "missionTitle": "Mengapa Sundae Ada",
       "missionDescription": "Operator restoran multi-unit menjalankan bisnis yang kompleks dan bervolume tinggi di berbagai sistem yang tidak terhubung. Hasilnya: keputusan bernilai jutaan dolar dibuat berdasarkan insting, kebocoran margin yang tidak terlihat hingga terlambat, dan tidak ada konteks pasar untuk membandingkan kinerja.",
       "missionSupport": "Kami membangun Sundae karena kami mengalami masalah tersebut. Pendiri kami mengembangkan konsep restoran hingga lebih dari $10 juta dalam pendapatan tahunan dan terus menghadapi masalah yang sama: terlalu banyak sistem, terlalu sedikit kejelasan dalam pengambilan keputusan.",
@@ -2616,7 +2984,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Dibangun oleh Operator yang Mengalami Masalahnya",
-      "teamDescription": "Tim kami memiliki pengalaman lebih dari 60 tahun di bidang restoran, teknologi, dan data. Kami tidak mempelajari masalah ini dari pinggir. Kami menjalankan operasi, mengembangkan konsep, dan menghadapi kesenjangan pelaporan yang sama yang dihadapi operator setiap minggu.",
+      "teamDescription": "Tim kami membawa pengalaman lebih dari 40 tahun di restoran, teknologi, dan data. Kami tidak mempelajari masalah ini dari luar - kami yang menjalankan operasinya, membesarkan konsepnya, dan menghadapi kesenjangan pelaporan yang sama seperti yang dialami operator setiap minggu.",
       "strengthsTitle": "Kekuatan Tim",
       "journeyTitle": "Perjalanan Sundae",
       "journeyDescription": "Perusahaan ini lahir dari kesulitan operator, kemudian berkembang menjadi platform yang digunakan di berbagai pasar.",
@@ -2628,6 +2996,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 menit untuk meninjau data Anda bersama dan melihat di mana Sundae bisa benar-benar berguna.",
       "ctaPrimary": "Pesan Demo",
       "ctaSecondary": "Kami Sedang Mencari",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suite Operasional - Sundae Crew",
+      "ctaHome": "Kembali ke Beranda",
+      "crewPillars": [
+        "Penjadwalan",
+        "Absensi & Kehadiran",
+        "Penggajian",
+        "SDM & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Perencanaan shift berbasis permintaan",
+        "Absen masuk, geofence, lembar waktu",
+        "Kesiapan penggajian multi-wilayah",
+        "Catatan dari rekrut hingga purnakarya",
+        "Analitik tenaga kerja"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2658,39 +3043,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Mitra Operasional Strategis",
+          "location": "GCC & Eropa",
+          "image": "",
           "bullets": [
-            "5x pendiri dengan 2 keberhasilan keluar dan pengalaman membangun bisnis lebih dari $100M",
-            "Spesialis dalam penciptaan kategori 0→1 dan pertumbuhan yang dipimpin produk",
-            "18+ tahun di bidang produk, pemasaran, dan eksekusi go-to-market",
-            "Memimpin posisi pasar Sundae di bidang intelijen restoran dan pertumbuhan"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Kepala Produk",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Mantan insinyur sistem Walmart Canada - dibangun pada skala perusahaan",
-            "3 lini produk diluncurkan, semuanya menguntungkan dalam 18 bulan",
-            "Menerjemahkan kebutuhan operator menjadi ROI produk yang terukur",
-            "Memastikan setiap modul menyelesaikan masalah nyata yang dihadapi operator saat bertugas"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Kepala Teknologi",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Membangun platform SaaS perusahaan yang menangani lebih dari 10M transaksi harian",
-            "Insinyur berpengalaman di bidang otomotif dan SaaS perusahaan pada skala global",
-            "Ahli dalam arsitektur sistem yang aman dan sesuai",
-            "Mengelola keandalan infrastruktur Sundae dan saluran data waktu nyata"
+            "Kedalaman operator senior dan relasi komersial F&B di meja sejak hari pertama",
+            "Penasihat tingkat C sementara dan dekat dewan untuk operator perhotelan multi-unit di seluruh GCC dan Eropa",
+            "Membuka pintu perusahaan besar dan menguji Pulse, Insights, dan Foresight terhadap apa yang benar-benar dibutuhkan kepemimpinan F&B",
+            "Principal Curfs Consult, bermitra dengan para pendiri dalam go-to-market, penggalangan dana, dan penskalaan"
           ]
         }
       ],
@@ -2703,11 +3064,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Penerapan Pertama",
-          "description": "Bermitra dengan kelompok restoran multi-merek di UAE dan Kanada. Data nyata, operator nyata, keputusan nyata sejak hari pertama."
+          "description": "Bermitra dengan kelompok restoran multi-merek di UAE. Data nyata, operator nyata, keputusan nyata sejak hari pertama."
         },
         {
           "year": "2026",
-          "title": "12 Modul Aktif",
+          "title": "Cakupan operasional penuh aktif",
           "description": "Pendapatan, tenaga kerja, inventaris, pengiriman, reservasi, pembelian, pemasaran, dan intelijen keuntungan - semuanya terintegrasi di 12 domain operasional."
         },
         {
@@ -2731,71 +3092,110 @@ export const generatedLocalCopy = {
         {
           "title": "Kecerdasan Pertama",
           "description": "Data yang tersebar itu mahal. Kami mengubah 12 sistem menjadi satu lapisan cerdas yang benar-benar mendorong keputusan.",
-          "proof": "12 modul di 12 domain operasional - dari pendapatan hingga reservasi.",
+          "proof": "Pendapatan, tenaga kerja, persediaan, pembelian, pemasaran, reservasi, pengiriman, dan tamu - tercakup di satu tempat.",
           "icon": "insights"
         },
         {
           "title": "Keputusan Waktu Nyata",
-          "description": "Laporan mingguan menghabiskan uang Anda. Operator yang menang adalah mereka yang melihat masalah saat mereka masih bisa memperbaikinya.",
+          "description": "Laporan mingguan menguras uang Anda. Operator yang menang adalah yang memperbaiki masalah selagi masih bisa - dan setelahnya tahu apakah perbaikan itu benar-benar berhasil.",
           "proof": "Pulse diperbarui setiap 5 menit di setiap lokasi.",
           "icon": "speed"
         },
         {
           "title": "Tingkatkan Standar",
-          "description": "Kami ingin tim restoran mengharapkan lebih dari tumpukan data mereka daripada hanya dasbor statis lainnya.",
+          "description": "Kami ingin operator mengharapkan lebih dari tumpukan datanya ketimbang satu dasbor lagi: angka yang layak ditindaklanjuti, dan bukti bahwa tindakan itu mengembalikan sesuatu.",
           "proof": "Aktif di 3 negara dengan grup perusahaan yang mengadopsi di seluruh platform.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Pasar aktif",
+        "expanding": "Pasar ekspansi"
+      },
+      "presenceFootnote": "Pasar aktif mencakup operasi fisik (Amsterdam, Dubai) dan kantor hukum perusahaan (Amerika Serikat · Delaware C-Corp). Amerika Utara (New York, Toronto) dan pasar ekspansi lainnya merupakan prioritas strategis dalam peta jalan; keterlibatan dimulai dari pusat-pusat yang sudah ada.",
       "regions": [
         {
-          "region": "Timur Tengah",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Aktif"
+          "region": "Amsterdam",
+          "countries": "Pusat Eropa",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Amerika Utara",
-          "countries": "USA, Kanada",
-          "label": "Aktif"
+          "region": "Dubai",
+          "countries": "Pusat MEA",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Eropa",
-          "countries": "Inggris, Jerman, Prancis",
-          "label": "Target"
+          "region": "Amerika Serikat",
+          "countries": "Delaware C-Corp",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Asia Pasifik",
-          "countries": "Australia, Singapura",
-          "label": "Target"
+          "region": "New York",
+          "countries": "Amerika Utara",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Amerika Utara",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapura",
+          "countries": "APAC",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Segera hadir",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Segera hadir",
+          "tier": "expanding"
         }
       ],
-      "title": "Lapisan inteligensi yang tak pernah dimiliki restoran"
+      "title": "Kami membangun lapisan keputusan yang kami butuhkan dan tidak kami temukan di mana pun."
     },
     "vi": {
-      "metadataTitle": "Giới thiệu về Sundae - Nền tảng Trí tuệ Quyết định cho Nhà hàng",
-      "metadataDescription": "Sundae hợp nhất hơn 12 nguồn dữ liệu thành một lớp trí tuệ duy nhất cho các nhóm nhà hàng đa đơn vị. Được xây dựng bởi những người điều hành đã trải qua vấn đề này. Hoạt động tại 3 quốc gia.",
+      "metadataTitle": "Giới thiệu về Sundae - Nền tảng Trí tuệ Quyết định cho Dịch vụ Ăn uống",
+      "metadataDescription": "Sundae hợp nhất hơn 12 nguồn dữ liệu thành một lớp trí tuệ duy nhất cho các nhóm dịch vụ ăn uống đa đơn vị. Được xây dựng bởi những người điều hành đã trải qua vấn đề này. Được bản địa hóa bằng 22 ngôn ngữ.",
       "badge": "Về Sundae",
       "description": "Dữ liệu nhà hàng thường nằm rải rác trong nhiều hệ thống không liên kết. Sundae tập hợp bức tranh hoạt động đó vào một nơi để các nhóm có thể đưa ra quyết định dựa trên số liệu hiện tại, bối cảnh thị trường và các tín hiệu dự báo.",
       "stats": [
         {
-          "value": "6",
-          "label": "Trụ cột Nền tảng"
+          "value": "200+",
+          "label": "Hệ thống kết nối"
         },
         {
           "value": "12",
-          "label": "Mô-đun Trí tuệ"
+          "label": "Lĩnh vực vận hành"
         },
         {
-          "value": "12",
-          "label": "Miền Dữ liệu"
+          "value": "36",
+          "label": "Quốc gia tính lương"
         },
         {
-          "value": "3",
-          "label": "Quốc gia Hoạt động"
+          "value": "22",
+          "label": "Ngôn ngữ"
         }
       ],
       "builtTitle": "Những gì chúng tôi đã xây dựng",
-      "builtDescription": "Sáu lớp kết nối giúp các nhà điều hành chuyển từ việc theo dõi thời gian thực sang dự báo 90 ngày mà không cần chuyển đổi giữa các hệ thống.",
+      "builtDescription": "Sáu lớp kết nối giúp các nhà điều hành tìm ra điểm thất thoát, giao việc khắc phục cho một người phụ trách và đo lường phần biên lợi nhuận đã thu hồi - từ theo dõi thời gian thực đến dự báo 90 ngày, mà không cần chuyển đổi giữa các hệ thống.",
       "missionTitle": "Tại sao Sundae tồn tại",
       "missionDescription": "Các nhà điều hành nhà hàng đa đơn vị điều hành các doanh nghiệp phức tạp, có khối lượng lớn trên hàng chục hệ thống không liên kết. Kết quả: những quyết định triệu đô được đưa ra dựa trên cảm tính, sự rò rỉ lợi nhuận không thể nhìn thấy cho đến khi quá muộn, và không có bối cảnh thị trường nào để so sánh hiệu suất.",
       "missionSupport": "Chúng tôi xây dựng Sundae vì chúng tôi đã trải qua vấn đề này. Người sáng lập của chúng tôi đã mở rộng các khái niệm nhà hàng vượt qua 10 triệu đô la doanh thu hàng năm và liên tục gặp phải cùng một vấn đề: quá nhiều hệ thống, quá ít sự rõ ràng trong quyết định.",
@@ -2814,7 +3214,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Được xây dựng bởi những người vận hành đã trải qua vấn đề",
-      "teamDescription": "Đội ngũ của chúng tôi có hơn 60 năm kinh nghiệm trong lĩnh vực nhà hàng, công nghệ và dữ liệu. Chúng tôi không chỉ quan sát vấn đề này từ bên ngoài. Chúng tôi đã điều hành hoạt động, mở rộng các khái niệm và đối mặt với những khoảng trống báo cáo mà các nhà điều hành gặp phải mỗi tuần.",
+      "teamDescription": "Đội ngũ của chúng tôi mang theo hơn 40 năm kinh nghiệm trong nhà hàng, công nghệ và dữ liệu. Chúng tôi không nghiên cứu vấn đề này từ bên ngoài - chúng tôi đã trực tiếp vận hành, mở rộng mô hình và đối mặt với chính những khoảng trống báo cáo mà nhà điều hành gặp mỗi tuần.",
       "strengthsTitle": "Điểm mạnh của đội ngũ",
       "journeyTitle": "Hành Trình Sundae",
       "journeyDescription": "Công ty phát triển từ nỗi đau của nhà điều hành, sau đó trở thành một nền tảng được sử dụng trên nhiều thị trường.",
@@ -2826,6 +3226,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 phút để cùng xem xét dữ liệu của bạn và xem Sundae có thể thực sự hữu ích ở đâu.",
       "ctaPrimary": "Đặt lịch Dùng thử",
       "ctaSecondary": "Chúng tôi đang tuyển dụng",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Bộ công cụ vận hành - Sundae Crew",
+      "ctaHome": "Về Trang chủ",
+      "crewPillars": [
+        "Xếp lịch",
+        "Chấm công",
+        "Bảng lương",
+        "Nhân sự & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Lập kế hoạch ca theo nhu cầu",
+        "Chấm giờ, geofence, bảng chấm công",
+        "Sẵn sàng bảng lương đa khu vực",
+        "Hồ sơ từ tuyển dụng đến nghỉ việc",
+        "Phân tích lực lượng lao động"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -2856,39 +3273,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Giám đốc Tăng trưởng",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Đối tác Vận hành Chiến lược",
+          "location": "GCC & Châu Âu",
+          "image": "",
           "bullets": [
-            "Nhà sáng lập 5 lần với 2 lần thoát thành công và kinh nghiệm xây dựng doanh nghiệp vượt qua 100 triệu đô la",
-            "Chuyên gia trong việc tạo ra danh mục từ 0→1 và tăng trưởng dựa trên sản phẩm",
-            "Hơn 18 năm trong sản phẩm, tiếp thị và thực hiện ra thị trường",
-            "Lãnh đạo vị thế thị trường của Sundae trong lĩnh vực trí tuệ nhà hàng và tăng trưởng"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Trưởng phòng Sản phẩm",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Kỹ sư hệ thống cũ của Walmart Canada - xây dựng ở quy mô doanh nghiệp",
-            "3 dòng sản phẩm được ra mắt, tất cả đều có lãi trong vòng 18 tháng",
-            "Biến nhu cầu của nhà điều hành thành ROI sản phẩm có thể đo lường",
-            "Đảm bảo mỗi mô-đun giải quyết một vấn đề thực sự mà các nhà điều hành gặp phải trong ca làm việc"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Trưởng phòng Công nghệ",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Xây dựng các nền tảng SaaS doanh nghiệp xử lý hơn 10 triệu giao dịch hàng ngày",
-            "Kỹ sư dày dạn trong lĩnh vực ô tô và SaaS doanh nghiệp ở quy mô toàn cầu",
-            "Chuyên gia trong kiến trúc hệ thống an toàn, tuân thủ",
-            "Chịu trách nhiệm về độ tin cậy hạ tầng của Sundae và đường dẫn dữ liệu thời gian thực"
+            "Chiều sâu của một nhà điều hành kỳ cựu và các mối quan hệ thương mại F&B có mặt từ ngày đầu",
+            "Cố vấn cấp C tạm thời và gần với hội đồng quản trị cho các nhà điều hành khách sạn đa đơn vị trên khắp GCC và Châu Âu",
+            "Mở cánh cửa doanh nghiệp lớn và kiểm chứng Pulse, Insights và Foresight so với những gì ban lãnh đạo F&B thực sự cần",
+            "Giám đốc của Curfs Consult, đồng hành cùng các nhà sáng lập về ra thị trường, gọi vốn và mở rộng quy mô"
           ]
         }
       ],
@@ -2901,11 +3294,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Triển Khai Đầu Tiên",
-          "description": "Hợp tác với các nhóm nhà hàng đa thương hiệu trên khắp UAE và Canada. Dữ liệu thực, nhà điều hành thực, quyết định thực ngay từ ngày đầu."
+          "description": "Hợp tác với các nhóm nhà hàng đa thương hiệu trên khắp UAE. Dữ liệu thực, nhà điều hành thực, quyết định thực ngay từ ngày đầu."
         },
         {
           "year": "2026",
-          "title": "12 Mô-đun Hoạt Động",
+          "title": "Phủ toàn bộ vận hành đi vào hoạt động",
           "description": "Doanh thu, lao động, tồn kho, giao hàng, đặt chỗ, mua sắm, tiếp thị và trí tuệ lợi nhuận - tất cả được thống nhất trên 12 lĩnh vực hoạt động."
         },
         {
@@ -2916,7 +3309,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Mở Rộng Toàn Cầu",
-          "description": "Mở rộng vào châu Âu và khu vực Châu Á Thái Bình Dương. Trí tuệ doanh nghiệp cho các thương hiệu nhà hàng đa quốc gia."
+          "description": "Mở rộng vào châu Âu và khu vực Châu Á Thái Bình Dương. Trí tuệ doanh nghiệp cho các tập đoàn dịch vụ khách sạn đa quốc gia."
         }
       ],
       "values": [
@@ -2929,71 +3322,110 @@ export const generatedLocalCopy = {
         {
           "title": "Trí Tuệ Trước Tiên",
           "description": "Dữ liệu phân tán là tốn kém. Chúng tôi biến 12 hệ thống thành một lớp thông minh thực sự thúc đẩy quyết định.",
-          "proof": "12 mô-đun trên 12 lĩnh vực hoạt động - từ doanh thu đến đặt chỗ.",
+          "proof": "Doanh thu, nhân công, tồn kho, mua hàng, tiếp thị, đặt chỗ, giao hàng và khách - phủ trong cùng một nơi.",
           "icon": "insights"
         },
         {
           "title": "Quyết Định Thời Gian Thực",
-          "description": "Báo cáo hàng tuần tốn tiền của bạn. Những người vận hành chiến thắng là những người thấy vấn đề khi họ vẫn có thể sửa chữa.",
+          "description": "Báo cáo hằng tuần khiến bạn mất tiền. Nhà điều hành thắng cuộc là người khắc phục vấn đề khi vẫn còn kịp - và sau đó biết bản sửa ấy có thực sự hiệu quả hay không.",
           "proof": "Pulse làm mới mỗi 5 phút trên mọi địa điểm.",
           "icon": "speed"
         },
         {
           "title": "Nâng Cao Tiêu Chuẩn",
-          "description": "Chúng tôi muốn các đội ngũ nhà hàng mong đợi nhiều hơn từ kho dữ liệu của họ hơn là một bảng điều khiển tĩnh khác.",
+          "description": "Chúng tôi muốn nhà điều hành kỳ vọng ở hệ dữ liệu của mình nhiều hơn một bảng điều khiển nữa: một con số đáng để hành động, và bằng chứng rằng hành động ấy mang lại điều gì đó.",
           "proof": "Hoạt động tại 3 quốc gia với các nhóm doanh nghiệp áp dụng trên toàn nền tảng.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Thị trường đang hoạt động",
+        "expanding": "Thị trường mở rộng"
+      },
+      "presenceFootnote": "Các thị trường đang hoạt động bao gồm hoạt động thực tế (Amsterdam, Dubai) và trụ sở pháp lý của công ty (Hoa Kỳ · Delaware C-Corp). Bắc Mỹ (New York, Toronto) và các thị trường mở rộng khác là những ưu tiên chiến lược trên lộ trình; việc hợp tác bắt đầu từ các trung tâm hiện có.",
       "regions": [
         {
-          "region": "Trung Đông",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Đang hoạt động"
+          "region": "Amsterdam",
+          "countries": "Trung tâm Châu Âu",
+          "label": "Đang hoạt động",
+          "tier": "active"
         },
         {
-          "region": "Bắc Mỹ",
-          "countries": "USA, Canada",
-          "label": "Đang hoạt động"
+          "region": "Dubai",
+          "countries": "Trung tâm MEA",
+          "label": "Đang hoạt động",
+          "tier": "active"
         },
         {
-          "region": "Châu Âu",
-          "countries": "UK, Đức, Pháp",
-          "label": "Mục tiêu"
+          "region": "Hoa Kỳ",
+          "countries": "Delaware C-Corp",
+          "label": "Đang hoạt động",
+          "tier": "active"
         },
         {
-          "region": "Châu Á Thái Bình Dương",
-          "countries": "Úc, Singapore",
-          "label": "Mục tiêu"
+          "region": "New York",
+          "countries": "Bắc Mỹ",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Bắc Mỹ",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Sắp ra mắt",
+          "tier": "expanding"
         }
       ],
-      "title": "Tầng trí tuệ mà nhà hàng chưa từng có"
+      "title": "Chúng tôi tự dựng lớp ra quyết định mà mình cần và không tìm thấy ở đâu cả."
     },
     "ko": {
-      "metadataTitle": "Sundae - 레스토랑을 위한 의사결정 인텔리전스 플랫폼",
-      "metadataDescription": "Sundae는 12개 이상의 데이터 소스를 통합하여 다중 단위 레스토랑 그룹을 위한 단일 인텔리전스 레이어를 제공합니다. 문제를 경험한 운영자들이 만든 솔루션입니다. 3개국에서 활발히 운영되고 있습니다.",
+      "metadataTitle": "Sundae - 외식업을 위한 의사결정 인텔리전스 플랫폼",
+      "metadataDescription": "Sundae는 12개 이상의 데이터 소스를 통합하여 다중 단위 외식 그룹을 위한 단일 인텔리전스 레이어를 제공합니다. 문제를 경험한 운영자들이 만든 솔루션입니다. 22개 언어로 현지화되었습니다.",
       "badge": "Sundae에 대하여",
       "description": "레스토랑 데이터는 보통 여러 개의 분리된 시스템에 존재합니다. Sundae는 이러한 운영 정보를 한 곳으로 모아 팀이 현재 수치, 시장 맥락 및 미래 신호를 기반으로 의사 결정을 할 수 있도록 합니다.",
       "stats": [
         {
-          "value": "6",
-          "label": "플랫폼 기둥"
+          "value": "200+",
+          "label": "연결된 시스템"
         },
         {
           "value": "12",
-          "label": "인텔리전스 모듈"
+          "label": "운영 영역"
         },
         {
-          "value": "12",
-          "label": "데이터 도메인"
+          "value": "36",
+          "label": "급여 지원 국가"
         },
         {
-          "value": "3",
-          "label": "활성 국가"
+          "value": "22",
+          "label": "언어"
         }
       ],
       "builtTitle": "우리가 만든 것",
-      "builtDescription": "운영자가 시스템 간 전환 없이 실시간 속도 조정에서 90일 예측으로 이동할 수 있도록 돕는 6개의 연결된 레이어.",
+      "builtDescription": "운영자가 누수를 찾아내고, 수정 작업을 담당자에게 배정하고, 회수한 마진을 측정하도록 돕는 6개의 연결된 레이어 - 실시간 페이싱부터 90일 예측까지, 시스템 간 전환 없이.",
       "missionTitle": "Sundae가 존재하는 이유",
       "missionDescription": "다수의 매장을 운영하는 레스토랑 운영자들은 수십 개의 분리된 시스템에서 복잡하고 대량의 비즈니스를 운영합니다. 그 결과: 직감에 의한 백만 달러 규모의 결정, 너무 늦기 전까지 보이지 않는 마진 유출, 성과 벤치마킹을 위한 시장 맥락의 부재가 발생합니다.",
       "missionSupport": "우리는 문제를 직접 경험했기 때문에 Sundae를 만들었습니다. 우리의 창립자는 연간 수익 1천만 달러를 넘는 레스토랑 개념을 확장하면서 같은 문제에 계속 부딪혔습니다: 너무 많은 시스템, 너무 적은 의사결정 명확성.",
@@ -3012,7 +3444,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "문제를 경험한 운영자들이 만든 제품",
-      "teamDescription": "우리 팀은 레스토랑, 기술 및 데이터 분야에서 60년 이상의 경험을 가지고 있습니다. 우리는 이 문제를 관망하지 않았습니다. 우리는 운영을 수행하고, 개념을 확장하며, 운영자들이 매주 직면하는 동일한 보고서 격차를 처리했습니다.",
+      "teamDescription": "우리 팀은 외식, 기술, 데이터 분야에서 40년이 넘는 경험을 쌓았습니다. 이 문제를 밖에서 연구하지 않았습니다. 직접 운영을 맡았고, 콘셉트를 키웠으며, 운영자들이 매주 마주하는 것과 같은 보고의 공백을 겪었습니다.",
       "strengthsTitle": "팀 강점",
       "journeyTitle": "Sundae 여정",
       "journeyDescription": "회사는 운영자의 고통에서 시작되어 여러 시장에서 사용되는 플랫폼으로 성장했습니다.",
@@ -3024,6 +3456,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30분 동안 데이터를 함께 검토하고 Sundae가 실제로 유용할 수 있는 부분을 확인하세요.",
       "ctaPrimary": "데모 예약하기",
       "ctaSecondary": "우리는 채용 중입니다",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "운영 스위트 - Sundae Crew",
+      "ctaHome": "홈으로 돌아가기",
+      "crewPillars": [
+        "근무 일정",
+        "근태 관리",
+        "급여",
+        "인사 & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "수요 기반 근무 일정 계획",
+        "출퇴근 기록, 지오펜스, 근무 시간표",
+        "다지역 급여 준비",
+        "채용부터 퇴직까지 인사 기록",
+        "인력 분석"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3054,39 +3503,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "다니시 시디키",
-          "role": "최고 성장 책임자",
-          "location": "두바이",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "전략 운영 파트너",
+          "location": "GCC 및 유럽",
+          "image": "",
           "bullets": [
-            "5번의 창립자로 2번의 성공적인 엑싯 경험과 1억 달러 이상의 비즈니스 구축 경험",
-            "0→1 카테고리 생성 및 제품 주도 성장 전문가",
-            "제품, 마케팅 및 시장 진입 실행 분야에서 18년 이상의 경력",
-            "레스토랑 인텔리전스 및 성장 분야에서 Sundae의 시장 위치를 이끌고 있음"
-          ]
-        },
-        {
-          "name": "알리사 파라바니",
-          "role": "제품 책임자",
-          "location": "토론토",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "전 월마트 캐나다 시스템 엔지니어 - 기업 규모에서 구축 경험",
-            "3개의 제품 라인 출시, 모두 18개월 이내에 수익성 달성",
-            "운영자의 요구를 측정 가능한 제품 ROI로 변환",
-            "모든 모듈이 운영자가 근무 중 직면하는 실제 문제를 해결하도록 보장함"
-          ]
-        },
-        {
-          "name": "나비드 나디르",
-          "role": "기술 책임자",
-          "location": "토론토",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "일일 1천만 건 이상의 거래를 처리하는 기업 SaaS 플랫폼 구축",
-            "글로벌 규모의 자동차 및 기업 SaaS 분야에서 숙련된 엔지니어",
-            "안전하고 규정을 준수하는 시스템 아키텍처 전문가",
-            "Sundae의 인프라 신뢰성과 실시간 데이터 파이프라인을 책임짐"
+            "첫날부터 시니어 운영자의 깊이와 F&B 상업적 관계를 테이블에 제공",
+            "GCC와 유럽 전역의 다중 매장 호스피탈리티 운영자를 위한 임시 C레벨 및 이사회 인접 자문",
+            "대기업의 문을 열고 F&B 리더십이 실제로 필요로 하는 것에 맞춰 Pulse, Insights, Foresight를 검증",
+            "창업자와 함께 시장 진입, 자금 조달, 확장을 추진하는 Curfs Consult 대표"
           ]
         }
       ],
@@ -3099,11 +3524,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "첫 배포",
-          "description": "UAE와 캐나다의 다중 브랜드 레스토랑 그룹과 파트너십을 맺었습니다. 첫날부터 실제 데이터, 실제 운영자, 실제 결정을 제공합니다."
+          "description": "UAE의 다중 브랜드 레스토랑 그룹과 파트너십을 맺었습니다. 첫날부터 실제 데이터, 실제 운영자, 실제 결정을 제공합니다."
         },
         {
           "year": "2026",
-          "title": "12개 모듈 운영 중",
+          "title": "전체 운영 범위 가동",
           "description": "수익, 인력, 재고, 배달, 예약, 구매, 마케팅 및 이익 인텔리전스 - 12개의 운영 도메인 전반에 걸쳐 통합되었습니다."
         },
         {
@@ -3114,7 +3539,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "글로벌 확장",
-          "description": "유럽 및 아시아 태평양으로 확장합니다. 다국적 레스토랑 브랜드를 위한 기업 인텔리전스."
+          "description": "유럽 및 아시아 태평양으로 확장합니다. 다국적 호스피탈리티 그룹을 위한 기업 인텔리전스."
         }
       ],
       "values": [
@@ -3127,71 +3552,110 @@ export const generatedLocalCopy = {
         {
           "title": "지능 우선",
           "description": "분산된 데이터는 비용이 많이 듭니다. 우리는 12개의 시스템을 실제로 결정을 내리는 하나의 지능형 레이어로 통합합니다.",
-          "proof": "수익에서 예약까지 12개의 운영 도메인에 걸쳐 12개의 모듈이 있습니다.",
+          "proof": "매출, 인건비, 재고, 구매, 마케팅, 예약, 배달, 고객 - 한곳에서 모두.",
           "icon": "insights"
         },
         {
           "title": "실시간 결정",
-          "description": "주간 보고서는 비용이 발생합니다. 문제를 해결할 수 있을 때 문제를 볼 수 있는 운영자가 승리합니다.",
+          "description": "주간 보고서는 돈을 잃게 합니다. 이기는 운영자는 아직 고칠 수 있을 때 문제를 고치고, 그 조치가 실제로 효과가 있었는지 나중에 확인하는 사람입니다.",
           "proof": "Pulse는 모든 지점에서 5분마다 새로고침됩니다.",
           "icon": "speed"
         },
         {
           "title": "기준을 높이다",
-          "description": "우리는 레스토랑 팀이 또 다른 정적 대시보드 이상의 데이터 스택을 기대하기를 원합니다.",
+          "description": "운영자가 데이터 스택에 기대해야 할 것은 대시보드 하나가 더 늘어나는 일이 아닙니다. 행동할 가치가 있는 숫자와, 그 행동이 무언가를 되돌려줬다는 증거입니다.",
           "proof": "3개국에서 활동 중이며, 기업 그룹이 플랫폼 전반에 걸쳐 채택하고 있습니다.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "활성 시장",
+        "expanding": "확장 시장"
+      },
+      "presenceFootnote": "활성 시장에는 물리적 운영(암스테르담, 두바이)과 회사의 법적 본사(미국 · 델라웨어 C-Corp)가 포함됩니다. 북미(뉴욕, 토론토) 및 기타 확장 시장은 로드맵상의 전략적 우선순위이며, 협력은 기존 허브에서 시작됩니다.",
       "regions": [
         {
-          "region": "중동",
-          "countries": "UAE, KSA, 카타르",
-          "label": "활성"
+          "region": "암스테르담",
+          "countries": "유럽 허브",
+          "label": "활성",
+          "tier": "active"
         },
         {
-          "region": "북미",
-          "countries": "미국, 캐나다",
-          "label": "활성"
+          "region": "두바이",
+          "countries": "MEA 허브",
+          "label": "활성",
+          "tier": "active"
         },
         {
-          "region": "유럽",
-          "countries": "영국, 독일, 프랑스",
-          "label": "목표"
+          "region": "미국",
+          "countries": "델라웨어 C-Corp",
+          "label": "활성",
+          "tier": "active"
         },
         {
-          "region": "아시아 태평양",
-          "countries": "호주, 싱가포르",
-          "label": "목표"
+          "region": "뉴욕",
+          "countries": "북미",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "토론토",
+          "countries": "북미",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "싱가포르",
+          "countries": "APAC",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "도쿄",
+          "countries": "APAC",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "멕시코시티",
+          "countries": "LATAM",
+          "label": "출시 예정",
+          "tier": "expanding"
+        },
+        {
+          "region": "상파울루",
+          "countries": "LATAM",
+          "label": "출시 예정",
+          "tier": "expanding"
         }
       ],
-      "title": "레스토랑이 갖지 못했던 인텔리전스 레이어"
+      "title": "필요했지만 어디에서도 찾을 수 없던 의사결정 레이어를 우리가 직접 만들었습니다."
     },
     "ro": {
-      "metadataTitle": "Despre Sundae - Platforma de Inteligență Decizională pentru Restaurante",
-      "metadataDescription": "Sundae unifică peste 12 surse de date într-un singur strat de inteligență pentru grupuri de restaurante multi-unitate. Creat de operatori care au trăit problema. Activ în 3 țări.",
+      "metadataTitle": "Despre Sundae - Platforma de Inteligență Decizională pentru Servicii de Alimentație",
+      "metadataDescription": "Sundae unifică peste 12 surse de date într-un singur strat de inteligență pentru grupuri de servicii de alimentație multi-unitate. Creat de operatori care au trăit problema. Localizat în 22 de limbi.",
       "badge": "Despre Sundae",
       "description": "Datele restaurantului trăiesc de obicei în zeci de sisteme deconectate. Sundae adună această imagine operațională într-un singur loc, astfel încât echipele să poată lua decizii bazate pe cifre actuale, context de piață și semnale viitoare.",
       "stats": [
         {
-          "value": "6",
-          "label": "Pilonii platformei"
+          "value": "200+",
+          "label": "Sisteme conectate"
         },
         {
           "value": "12",
-          "label": "Module de inteligență"
+          "label": "Domenii operaționale"
         },
         {
-          "value": "12",
-          "label": "Domenii de date"
+          "value": "36",
+          "label": "Țări pentru salarizare"
         },
         {
-          "value": "3",
-          "label": "Țări active"
+          "value": "22",
+          "label": "Limbi"
         }
       ],
       "builtTitle": "Ce am construit",
-      "builtDescription": "Șase straturi conectate care ajută operatorii să treacă de la ritmul în timp real la prognoze pe 90 de zile fără a sări între sisteme.",
+      "builtDescription": "Șase straturi conectate care ajută operatorii să găsească scurgerea, să atribuie remedierea unui responsabil și să măsoare marja recuperată - de la monitorizarea în timp real la prognoze pe 90 de zile, fără a comuta între sisteme.",
       "missionTitle": "De ce există Sundae",
       "missionDescription": "Operatorii de restaurante multi-unitate conduc afaceri complexe și de mare volum prin zeci de sisteme deconectate. Rezultatul: decizii de milioane de dolari luate pe baza intuiției, pierderi de marjă invizibile până când este prea târziu și lipsa unui context de piață pentru evaluarea performanței.",
       "missionSupport": "Am construit Sundae pentru că am trăit problema. Fondatorul nostru a extins conceptele de restaurant peste 10 milioane de dolari în venituri anuale și s-a confruntat constant cu aceeași problemă: prea multe sisteme, prea puțină claritate în decizii.",
@@ -3210,7 +3674,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Construit de operatori care au trăit problema",
-      "teamDescription": "Echipa noastră aduce peste 60 de ani de experiență în restaurante, tehnologie și date. Nu am studiat această problemă din umbră. Am gestionat operațiuni, am scalat concepte și ne-am confruntat cu aceleași lacune de raportare cu care se confruntă operatorii în fiecare săptămână.",
+      "teamDescription": "Echipa noastră aduce peste 40 de ani în restaurante, tehnologie și date. Nu am studiat problema din exterior - noi am condus operațiunea, am scalat conceptele și ne-am lovit de aceleași goluri de raportare cu care operatorii se confruntă în fiecare săptămână.",
       "strengthsTitle": "Punctele forte ale echipei",
       "journeyTitle": "Călătoria Sundae",
       "journeyDescription": "Compania a crescut din durerea operatorilor, apoi într-o platformă utilizată în mai multe piețe.",
@@ -3222,6 +3686,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 de minute pentru a revizui împreună datele tale și a vedea unde Sundae ar putea fi cu adevărat util.",
       "ctaPrimary": "Rezervați o demonstrație",
       "ctaSecondary": "Angajăm",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suită operațională - Sundae Crew",
+      "ctaHome": "Înapoi la pagina principală",
+      "crewPillars": [
+        "Programare ture",
+        "Pontaj și prezență",
+        "Salarizare",
+        "Personal & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Planificarea turelor în funcție de cerere",
+        "Pontaj, geofencing, fișe de pontaj",
+        "Salarizare pregătită pentru mai multe regiuni",
+        "Evidențe de la angajare la plecare",
+        "Analiză a forței de muncă"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3252,39 +3733,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Director de Creștere",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Partener Strategic Operațional",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "Fondator de 5 ori cu 2 ieșiri de succes și experiență în construirea de afaceri de peste 100M$",
-            "Specialist în crearea de categorii 0→1 și creștere bazată pe produs",
-            "Peste 18 ani în produs, marketing și execuție pe piață",
-            "Conduce poziția de piață a Sundae în domeniul inteligenței restaurantelor și creșterii"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Șef de Produs",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Fost inginer de sisteme Walmart Canada - construit la scară de întreprindere",
-            "3 linii de produse lansate, toate profitabile în termen de 18 luni",
-            "Transpune nevoile operatorilor în ROI măsurabil al produsului",
-            "Asigură că fiecare modul rezolvă o problemă reală cu care se confruntă operatorii în timpul programului"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Șef de Tehnologie",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "A construit platforme SaaS de întreprindere care gestionează peste 10M de tranzacții zilnice",
-            "Inginer experimentat în domeniul auto și SaaS de întreprindere la scară globală",
-            "Expert în arhitectura sistemelor sigure și conforme",
-            "Se ocupă de fiabilitatea infrastructurii Sundae și de fluxul de date în timp real"
+            "Profunzime de operator senior și relații comerciale în F&B la masă încă din prima zi",
+            "Consiliere interimară la nivel C și adiacentă consiliului de administrație pentru operatori de ospitalitate multi-unitate din GCC și Europa",
+            "Deschide uși la nivel enterprise și testează la rezistență Pulse, Insights și Foresight față de ceea ce are cu adevărat nevoie conducerea din F&B",
+            "Principal al Curfs Consult, colaborând cu fondatori pe strategia de go-to-market, strângere de fonduri și scalare"
           ]
         }
       ],
@@ -3297,11 +3754,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Primele Implementări",
-          "description": "Parteneriate cu grupuri de restaurante multi-brand din UAE și Canada. Date reale, operatori reali, decizii reale încă din prima zi."
+          "description": "Parteneriate cu grupuri de restaurante multi-brand din UAE. Date reale, operatori reali, decizii reale încă din prima zi."
         },
         {
           "year": "2026",
-          "title": "12 Module Active",
+          "title": "Acoperire operațională completă în producție",
           "description": "Venituri, forță de muncă, inventar, livrare, rezervări, achiziții, marketing și inteligență a profitului - toate unificate în 12 domenii operaționale."
         },
         {
@@ -3312,7 +3769,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Expansiune Globală",
-          "description": "Extindere în Europa și Asia Pacific. Inteligență de tip enterprise pentru branduri de restaurante din mai multe țări."
+          "description": "Extindere în Europa și Asia Pacific. Inteligență de tip enterprise pentru grupuri de ospitalitate din mai multe țări."
         }
       ],
       "values": [
@@ -3325,71 +3782,110 @@ export const generatedLocalCopy = {
         {
           "title": "Inteligență Primul",
           "description": "Datele dispersate sunt costisitoare. Transformăm 12 sisteme într-un singur strat inteligent care ia cu adevărat decizii.",
-          "proof": "12 module în 12 domenii operaționale - de la venituri la rezervări.",
+          "proof": "Venituri, forță de muncă, stocuri, achiziții, marketing, rezervări, livrare și oaspeți - acoperite într-un singur loc.",
           "icon": "insights"
         },
         {
           "title": "Decizii în Timp Real",
-          "description": "Rapoartele săptămânale te costă bani. Operatorii care câștigă sunt cei care văd problemele în timp ce le pot încă rezolva.",
+          "description": "Rapoartele săptămânale te costă bani. Operatorii care câștigă sunt cei care rezolvă problemele cât încă se poate - și apoi știu dacă rezolvarea chiar a funcționat.",
           "proof": "Pulse se reîmprospătează la fiecare 5 minute în fiecare locație.",
           "icon": "speed"
         },
         {
           "title": "Ridică Standardul",
-          "description": "Vrem ca echipele de restaurante să se aștepte la mai mult de la stiva lor de date decât la un alt tablou de bord static.",
-          "proof": "Activ în 3 țări cu grupuri de întreprindere care adoptă platforma la scară largă.",
+          "description": "Vrem ca operatorii să aștepte de la stiva lor de date mai mult decât încă un tablou de bord: o cifră pentru care merită să acționezi și dovada că acea acțiune a adus ceva înapoi.",
+          "proof": "Localizat în 22 de limbi, cu grupuri de întreprindere care adoptă platforma la scară largă.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Piețe active",
+        "expanding": "Piețe de expansiune"
+      },
+      "presenceFootnote": "Piețele active includ operațiuni fizice (Amsterdam, Dubai) și sediul legal al companiei (Statele Unite · Delaware C-Corp). America de Nord (New York, Toronto) și alte piețe de expansiune sunt priorități strategice pe foaia de parcurs; colaborarea începe din hub-urile existente.",
       "regions": [
         {
-          "region": "Orientul Mijlociu",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Activ"
+          "region": "Amsterdam",
+          "countries": "Hub Europa",
+          "label": "Activ",
+          "tier": "active"
         },
         {
-          "region": "America de Nord",
-          "countries": "SUA, Canada",
-          "label": "Activ"
+          "region": "Dubai",
+          "countries": "Hub MEA",
+          "label": "Activ",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Regatul Unit, Germania, Franța",
-          "label": "Țintă"
+          "region": "Statele Unite",
+          "countries": "Delaware C-Corp",
+          "label": "Activ",
+          "tier": "active"
         },
         {
-          "region": "Asia Pacific",
-          "countries": "Australia, Singapore",
-          "label": "Țintă"
+          "region": "New York",
+          "countries": "America de Nord",
+          "label": "În curând",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "America de Nord",
+          "label": "În curând",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "În curând",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "În curând",
+          "tier": "expanding"
+        },
+        {
+          "region": "Ciudad de México",
+          "countries": "LATAM",
+          "label": "În curând",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "În curând",
+          "tier": "expanding"
         }
       ],
-      "title": "Stratul de inteligență pe care restaurantele nu l-au avut niciodată"
+      "title": "Am construit stratul de decizie de care aveam nevoie și pe care nu îl găseam nicăieri."
     },
     "sv": {
-      "metadataTitle": "Om Sundae - Plattformen för Beslutsintelligens för Restauranger",
-      "metadataDescription": "Sundae förenar 12+ datakällor i ett enda intelligenslager för fleranläggningsrestauranggrupper. Byggt av operatörer som har upplevt problemet. Aktiv i 3 länder.",
+      "metadataTitle": "Om Sundae - Plattformen för Beslutsintelligens för Foodservice",
+      "metadataDescription": "Sundae förenar 12+ datakällor i ett enda intelligenslager för foodservicegrupper med flera anläggningar. Byggt av operatörer som har upplevt problemet. Lokaliserad på 22 språk.",
       "badge": "Om Sundae",
       "description": "Restaurangdata finns vanligtvis i ett dussin avskilda system. Sundae samlar den operativa bilden på ett ställe så att team kan fatta beslut med aktuella siffror, marknadskontext och framtidsinriktade signaler.",
       "stats": [
         {
-          "value": "6",
-          "label": "Plattformspelare"
+          "value": "200+",
+          "label": "Anslutna system"
         },
         {
           "value": "12",
-          "label": "Intelligensmoduler"
+          "label": "Operativa områden"
         },
         {
-          "value": "12",
-          "label": "Datadomäner"
+          "value": "36",
+          "label": "Länder för lönehantering"
         },
         {
-          "value": "3",
-          "label": "Aktiva länder"
+          "value": "22",
+          "label": "Språk"
         }
       ],
       "builtTitle": "Vad vi har byggt",
-      "builtDescription": "Sex sammanlänkade lager som hjälper operatörer att gå från realtidsplanering till 90-dagarsprognoser utan att hoppa mellan system.",
+      "builtDescription": "Sex sammanlänkade lager som hjälper operatörer att hitta läckan, tilldela åtgärden till en ansvarig och mäta den återvunna marginalen - från realtidsuppföljning till 90-dagarsprognoser, utan att hoppa mellan system.",
       "missionTitle": "Varför Sundae Existerar",
       "missionDescription": "Flerenhetsrestaurangoperatörer driver komplexa, högvolymföretag över dussintals avskilda system. Resultatet: miljonbeslut baserade på magkänsla, osynlig marginalförlust tills det är för sent, och ingen marknadskontext för att jämföra prestation.",
       "missionSupport": "Vi byggde Sundae eftersom vi upplevde problemet. Vår grundare skalerade restaurangkoncept till över 10 miljoner dollar i årlig intäkt och stötte ständigt på samma problem: för många system, för lite beslutsklarhet.",
@@ -3408,7 +3904,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Byggd av operatörer som har levt med problemet",
-      "teamDescription": "Vårt team har över 60 års erfarenhet inom restauranger, teknik och data. Vi har inte studerat detta problem från sidan. Vi har drivit verksamheter, skalat koncept och hanterat samma rapporteringsluckor som operatörer står inför varje vecka.",
+      "teamDescription": "Vårt team bär på över 40 år inom restaurang, teknik och data. Vi har inte studerat problemet utifrån - vi har drivit verksamheten, skalat koncepten och levt med samma rapporteringsluckor som operatörer möter varje vecka.",
       "strengthsTitle": "Teamets Styrkor",
       "journeyTitle": "Sundae-resan",
       "journeyDescription": "Företaget växte fram ur operatörers smärta och blev sedan en plattform som används på flera marknader.",
@@ -3420,6 +3916,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minuter för att granska dina data tillsammans och se hur Sundae verkligen kan vara till nytta.",
       "ctaPrimary": "Boka en demo",
       "ctaSecondary": "Vi anställer",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Verksamhetssvit - Sundae Crew",
+      "ctaHome": "Tillbaka till startsidan",
+      "crewPillars": [
+        "Schemaläggning",
+        "Tid och närvaro",
+        "Lön",
+        "Personal & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Efterfrågestyrd schemaläggning",
+        "Instämpling, geofencing, tidrapporter",
+        "Lönehantering redo för flera regioner",
+        "Register från anställning till avslut",
+        "Personalanalys"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3450,39 +3963,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Chief Growth Officer",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Strategisk operativ partner",
+          "location": "GCC & Europa",
+          "image": "",
           "bullets": [
-            "5x grundare med 2 framgångsrika exits och erfarenhet av att bygga företag över 100M USD",
-            "Specialist på 0→1 kategori skapande och produktledd tillväxt",
-            "Över 18 år inom produkt, marknadsföring och go-to-market genomförande",
-            "Leads Sundae's market position across restaurant intelligence and growth"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Produktchef",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Tidigare systemingenjör på Walmart Canada - byggde på företagsnivå",
-            "3 produktlinjer lanserade, alla lönsamma inom 18 månader",
-            "Översätter operatörers behov till mätbar produktavkastning",
-            "Säkerställer att varje modul löser ett verkligt problem som operatörer står inför under arbetspasset"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Teknikchef",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Byggde företags-SaaS-plattformar som hanterar över 10M dagliga transaktioner",
-            "Erfaren ingenjör inom fordons- och företags-SaaS på global nivå",
-            "Expert på säkra, efterlevande systemarkitekturer",
-            "Owns Sundae's infrastructure reliability and real-time data pipeline"
+            "Djup erfarenhet som senior operatör och kommersiella F&B-relationer vid bordet från dag ett",
+            "Tillfällig C-nivå- och styrelsenära rådgivning till fler-enhets gästfrihetoperatörer i GCC och Europa",
+            "Öppnar dörrar till stora företag och stresstestar Pulse, Insights och Foresight mot vad F&B-ledningen faktiskt behöver",
+            "Ägare av Curfs Consult som samarbetar med grundare kring go-to-market, kapitalanskaffning och skalning"
           ]
         }
       ],
@@ -3495,11 +3984,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Första Implementeringar",
-          "description": "Samarbetade med fler-märkes restauranggrupper i UAE och Kanada. Verkliga data, verkliga operatörer, verkliga beslut från dag ett."
+          "description": "Samarbetade med fler-märkes restauranggrupper i UAE. Verkliga data, verkliga operatörer, verkliga beslut från dag ett."
         },
         {
           "year": "2026",
-          "title": "12 Moduler Aktiva",
+          "title": "Full verksamhetstäckning i drift",
           "description": "Intäkter, arbetskraft, lager, leverans, reservationer, inköp, marknadsföring och vinstintelligens - allt enat över 12 operativa domäner."
         },
         {
@@ -3510,7 +3999,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "Global Expansion",
-          "description": "Skalning till Europa och Asien-Stillahavsområdet. Företagsintelligens för flerlands restaurangmärken."
+          "description": "Skalning till Europa och Asien-Stillahavsområdet. Företagsintelligens för hospitalitykoncerner i flera länder."
         }
       ],
       "values": [
@@ -3523,71 +4012,110 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligens Först",
           "description": "Spridd data är dyrt. Vi omvandlar 12 system till ett intelligent lager som faktiskt driver beslut.",
-          "proof": "12 moduler inom 12 operativa områden - från intäkter till bokningar.",
+          "proof": "Intäkter, personal, lager, inköp, marknadsföring, bokningar, leverans och gäster - täckta på ett ställe.",
           "icon": "insights"
         },
         {
           "title": "Beslut i Realtid",
-          "description": "Veckorapporter kostar dig pengar. De operatörer som vinner är de som ser problem medan de fortfarande kan åtgärda dem.",
+          "description": "Veckorapporter kostar dig pengar. De operatörer som vinner är de som åtgärdar problem medan det fortfarande går - och efteråt vet om åtgärden faktiskt fungerade.",
           "proof": "Pulse uppdateras var 5:e minut på varje plats.",
           "icon": "speed"
         },
         {
           "title": "Höj Standarden",
-          "description": "Vi vill att restaurangteam ska förvänta sig mer av sin datastack än bara en annan statisk instrumentpanel.",
-          "proof": "Aktiv i 3 länder med företagsgrupper som antar plattformen brett.",
+          "description": "Vi vill att operatörer ska förvänta sig mer av sin datastack än ännu en instrumentpanel: ett tal värt att agera på, och belägg för att handlingen gav något tillbaka.",
+          "proof": "Lokaliserad på 22 språk, med företagsgrupper som antar plattformen brett.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Aktiva marknader",
+        "expanding": "Expansionsmarknader"
+      },
+      "presenceFootnote": "Aktiva marknader omfattar fysisk verksamhet (Amsterdam, Dubai) och företagets juridiska hemvist (USA · Delaware C-Corp). Nordamerika (New York, Toronto) och andra expansionsmarknader är strategiska prioriteringar på färdplanen; samarbetet börjar från befintliga hubbar.",
       "regions": [
         {
-          "region": "Mellanöstern",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Aktiv"
+          "region": "Amsterdam",
+          "countries": "Europa-hubb",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Nordamerika",
-          "countries": "USA, Kanada",
-          "label": "Aktiv"
+          "region": "Dubai",
+          "countries": "MEA-hubb",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Europa",
-          "countries": "Storbritannien, Tyskland, Frankrike",
-          "label": "Mål"
+          "region": "USA",
+          "countries": "Delaware C-Corp",
+          "label": "Aktiv",
+          "tier": "active"
         },
         {
-          "region": "Asien och Stillahavsområdet",
-          "countries": "Australien, Singapore",
-          "label": "Mål"
+          "region": "New York",
+          "countries": "Nordamerika",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Nordamerika",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapore",
+          "countries": "APAC",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Kommer snart",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Kommer snart",
+          "tier": "expanding"
         }
       ],
-      "title": "Intelligenslagret som restauranger aldrig haft"
+      "title": "Vi byggde beslutslagret vi behövde och inte kunde hitta någonstans."
     },
     "bn": {
-      "metadataTitle": "Sundae সম্পর্কে - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
-      "metadataDescription": "Sundae 12+ ডেটা সোর্সকে একক বুদ্ধিমত্তা স্তরে একত্রিত করে বহু ইউনিট রেস্তোরাঁ গ্রুপের জন্য। যারা সমস্যাটি অনুভব করেছেন তাদের দ্বারা নির্মিত। ৩টি দেশে সক্রিয়।",
+      "metadataTitle": "Sundae সম্পর্কে - খাদ্য পরিষেবার জন্য সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
+      "metadataDescription": "Sundae 12+ ডেটা সোর্সকে একক বুদ্ধিমত্তা স্তরে একত্রিত করে বহু ইউনিট খাদ্য পরিষেবা গ্রুপের জন্য। যারা সমস্যাটি অনুভব করেছেন তাদের দ্বারা নির্মিত। ২২টি ভাষায় স্থানীয়কৃত।",
       "badge": "Sundae সম্পর্কে",
       "description": "রেস্টুরেন্টের তথ্য সাধারণত এক ডজন বিচ্ছিন্ন সিস্টেমে থাকে। Sundae সেই কার্যকরী চিত্রটিকে এক জায়গায় নিয়ে আসে যাতে দলগুলি বর্তমান সংখ্যা, বাজারের প্রেক্ষাপট এবং ভবিষ্যত সংকেতের সাথে সিদ্ধান্ত নিতে পারে।",
       "stats": [
         {
-          "value": "6",
-          "label": "প্ল্যাটফর্মের স্তম্ভ"
+          "value": "200+",
+          "label": "সংযুক্ত সিস্টেম"
         },
         {
           "value": "12",
-          "label": "বুদ্ধিমত্তা মডিউল"
+          "label": "পরিচালন ক্ষেত্র"
         },
         {
-          "value": "12",
-          "label": "ডেটা ডোমেইন"
+          "value": "36",
+          "label": "পে-রোল দেশ"
         },
         {
-          "value": "3",
-          "label": "সক্রিয় দেশ"
+          "value": "22",
+          "label": "ভাষা"
         }
       ],
       "builtTitle": "আমরা কী তৈরি করেছি",
-      "builtDescription": "ছয়টি সংযুক্ত স্তর যা অপারেটরদের বাস্তব সময়ের গতি থেকে 90 দিনের পূর্বাভাসে যেতে সাহায্য করে, সিস্টেমগুলির মধ্যে ঝাঁপিয়ে না গিয়ে।",
+      "builtDescription": "ছয়টি সংযুক্ত স্তর যা অপারেটরদের ফুটো খুঁজে বের করতে, সমাধান একজন দায়িত্বশীলের কাছে হস্তান্তর করতে এবং পুনরুদ্ধার করা মার্জিন পরিমাপ করতে সাহায্য করে - বাস্তব সময়ের গতি থেকে ৯০ দিনের পূর্বাভাস পর্যন্ত, সিস্টেমগুলির মধ্যে লাফ না দিয়ে।",
       "missionTitle": "Sundae কেন রয়েছে",
       "missionDescription": "মাল্টি-ইউনিট রেস্টুরেন্ট অপারেটররা অসংখ্য বিচ্ছিন্ন সিস্টেম জুড়ে জটিল, উচ্চ-পরিমাণ ব্যবসা পরিচালনা করেন। ফলস্বরূপ: অন্তর্দৃষ্টি ভিত্তিক মিলিয়ন ডলারের সিদ্ধান্ত, মার্জিন লিকেজ যা খুব দেরিতে দেখা যায়, এবং কর্মক্ষমতার বেঞ্চমার্কিংয়ের জন্য শূন্য বাজারের প্রেক্ষাপট।",
       "missionSupport": "আমরা Sundae তৈরি করেছি কারণ আমরা সমস্যাটি অনুভব করেছি। আমাদের প্রতিষ্ঠাতা রেস্তোরাঁর ধারণাগুলিকে বার্ষিক $10M রাজস্বের বেশি বৃদ্ধি করেছিলেন এবং একই সমস্যার মুখোমুখি হচ্ছিলেন: অনেক বেশি সিস্টেম, সিদ্ধান্তের স্বচ্ছতার অভাব।",
@@ -3606,7 +4134,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "সমস্যাটি যাঁরা অনুভব করেছেন, তাঁদের দ্বারা নির্মিত",
-      "teamDescription": "আমাদের দলের সদস্যদের রেস্তোরাঁ, প্রযুক্তি এবং ডেটাতে ৬০ বছরেরও বেশি অভিজ্ঞতা রয়েছে। আমরা এই সমস্যাটি পাশ থেকে অধ্যয়ন করিনি। আমরা অপারেশন পরিচালনা করেছি, ধারণাগুলি সম্প্রসারিত করেছি এবং প্রতি সপ্তাহে অপারেটরদের মুখোমুখি হওয়া একই রিপোর্টিং ফাঁকগুলির সাথে মোকাবিলা করেছি।",
+      "teamDescription": "আমাদের টিম রেস্তোরাঁ, প্রযুক্তি ও ডেটায় ৪০ বছরেরও বেশি অভিজ্ঞতা নিয়ে আসে। আমরা এই সমস্যাটি বাইরে থেকে পড়িনি - আমরা নিজেরাই পরিচালনা করেছি, কনসেপ্ট বড় করেছি, আর সেই একই রিপোর্টিং ঘাটতির মুখোমুখি হয়েছি যা অপারেটররা প্রতি সপ্তাহে দেখেন।",
       "strengthsTitle": "দলীয় শক্তি",
       "journeyTitle": "Sundae-এর যাত্রা",
       "journeyDescription": "এই কোম্পানিটি অপারেটরের সমস্যার কারণে গড়ে উঠেছিল, পরে এটি একাধিক বাজারে ব্যবহৃত একটি প্ল্যাটফর্মে পরিণত হয়।",
@@ -3618,6 +4146,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "আপনার ডেটা একসাথে পর্যালোচনা করতে এবং দেখতে ৩০ মিনিট সময় নিন যে Sundae কোথায় সত্যিই উপকারী হতে পারে।",
       "ctaPrimary": "ডেমো বুক করুন",
       "ctaSecondary": "আমরা নিয়োগ দিচ্ছি",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "অপারেশনাল স্যুট - Sundae Crew",
+      "ctaHome": "হোমে ফিরে যান",
+      "crewPillars": [
+        "শিডিউলিং",
+        "সময় ও উপস্থিতি",
+        "পে-রোল",
+        "কর্মী ও HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "চাহিদা-ভিত্তিক শিফট পরিকল্পনা",
+        "ক্লক-ইন, জিওফেন্স, টাইমশিট",
+        "বহু-অঞ্চলের পে-রোল প্রস্তুতি",
+        "নিয়োগ থেকে অবসর পর্যন্ত রেকর্ড",
+        "কর্মশক্তি বিশ্লেষণ"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3648,39 +4193,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "দানিশ সিদ্দিকী",
-          "role": "চিফ গ্রোথ অফিসার",
-          "location": "দুবাই",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "কৌশলগত অপারেটিং পার্টনার",
+          "location": "GCC ও ইউরোপ",
+          "image": "",
           "bullets": [
-            "5x প্রতিষ্ঠাতা, 2 সফল এক্সিট এবং $100M এর বেশি ব্যবসা গড়ে তোলার অভিজ্ঞতা",
-            "0→1 ক্যাটাগরি তৈরি এবং পণ্য-নেতৃত্বাধীন বৃদ্ধিতে বিশেষজ্ঞ",
-            "পণ্য, বিপণন এবং বাজারে প্রবেশের কার্যকরী 18+ বছরের অভিজ্ঞতা",
-            "রেস্তোরাঁ বুদ্ধিমত্তা এবং বৃদ্ধির ক্ষেত্রে Sundaeর বাজার অবস্থান নেতৃত্ব দেন"
-          ]
-        },
-        {
-          "name": "অলিসা প্যারাবানি",
-          "role": "পণ্য প্রধান",
-          "location": "টরন্টো",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "পূর্ববর্তী ওয়ালমার্ট কানাডার সিস্টেম ইঞ্জিনিয়ার - এন্টারপ্রাইজ স্কেলে নির্মাণ করেছেন",
-            "3টি পণ্য লাইন চালু করেছেন, সবই 18 মাসের মধ্যে লাভজনক",
-            "অপারেটরের প্রয়োজনগুলোকে পরিমাপযোগ্য পণ্য ROI-তে রূপান্তরিত করেন",
-            "প্রতিটি মডিউল নিশ্চিত করে যে এটি অপারেটরদের শিফটে সম্মুখীন হওয়া একটি বাস্তব সমস্যা সমাধান করে"
-          ]
-        },
-        {
-          "name": "নাভিদ নাদির",
-          "role": "প্রযুক্তি প্রধান",
-          "location": "টরন্টো",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "10M+ দৈনিক লেনদেন পরিচালনার জন্য এন্টারপ্রাইজ SaaS প্ল্যাটফর্ম তৈরি করেছেন",
-            "বিশ্বব্যাপী স্কেলে অটোমোটিভ এবং এন্টারপ্রাইজ SaaS-এ অভিজ্ঞ প্রকৌশলী",
-            "নিরাপদ, সম্মতিপ্রাপ্ত সিস্টেম আর্কিটেকচারে বিশেষজ্ঞ",
-            "Sundaeর অবকাঠামোর নির্ভরযোগ্যতা এবং রিয়েল-টাইম ডেটা পাইপলাইনের মালিক"
+            "প্রথম দিন থেকেই সিনিয়র অপারেটরের গভীরতা এবং খাদ্য ও পানীয় শিল্পের বাণিজ্যিক সম্পর্ক টেবিলে উপস্থিত",
+            "GCC ও ইউরোপ জুড়ে বহু ইউনিট হসপিটালিটি অপারেটরদের জন্য অন্তর্বর্তী সি-লেভেল এবং বোর্ড-সংলগ্ন পরামর্শ",
+            "বড় প্রতিষ্ঠানের দরজা খোলেন এবং খাদ্য ও পানীয় নেতৃত্বের প্রকৃত প্রয়োজনের নিরিখে Pulse, Insights ও Foresight যাচাই করেন",
+            "Curfs Consult-এর প্রধান, যিনি প্রতিষ্ঠাতাদের সাথে বাজারে প্রবেশ, তহবিল সংগ্রহ এবং সম্প্রসারণে কাজ করেন"
           ]
         }
       ],
@@ -3693,11 +4214,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "প্রথম স্থাপনাগুলি",
-          "description": "UAE এবং কানাডার বহু ব্র্যান্ড রেস্তোরাঁ গ্রুপের সাথে অংশীদারিত্ব। বাস্তব তথ্য, বাস্তব অপারেটর, প্রথম দিন থেকেই বাস্তব সিদ্ধান্ত।"
+          "description": "UAE-এর বহু ব্র্যান্ড রেস্তোরাঁ গ্রুপের সাথে অংশীদারিত্ব। বাস্তব তথ্য, বাস্তব অপারেটর, প্রথম দিন থেকেই বাস্তব সিদ্ধান্ত।"
         },
         {
           "year": "2026",
-          "title": "12 মডিউল লাইভ",
+          "title": "সম্পূর্ণ পরিচালন কভারেজ চালু",
           "description": "রাজস্ব, শ্রম, ইনভেন্টরি, ডেলিভারি, রিজার্ভেশন, ক্রয়, বিপণন এবং লাভের বুদ্ধিমত্তা - 12টি অপারেশনাল ডোমেইনের মধ্যে সবকিছু একত্রিত।"
         },
         {
@@ -3708,7 +4229,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "গ্লোবাল সম্প্রসারণ",
-          "description": "ইউরোপ এবং এশিয়া প্যাসিফিকে সম্প্রসারণ। বহু-দেশের রেস্তোরাঁ ব্র্যান্ডের জন্য এন্টারপ্রাইজ বুদ্ধিমত্তা।"
+          "description": "ইউরোপ এবং এশিয়া প্যাসিফিকে সম্প্রসারণ। বহু-দেশের হসপিটালিটি গ্রুপের জন্য এন্টারপ্রাইজ বুদ্ধিমত্তা।"
         }
       ],
       "values": [
@@ -3721,71 +4242,110 @@ export const generatedLocalCopy = {
         {
           "title": "বুদ্ধিমত্তার প্রথম",
           "description": "বিক্ষিপ্ত তথ্য ব্যয়বহুল। আমরা ১২টি সিস্টেমকে একটি বুদ্ধিমান স্তরে পরিণত করি যা সত্যিই সিদ্ধান্ত গ্রহণে সহায়তা করে।",
-          "proof": "রাজস্ব থেকে রিজার্ভেশন পর্যন্ত ১২টি অপারেশনাল ডোমেইনে ১২টি মডিউল।",
+          "proof": "রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, মার্কেটিং, রিজার্ভেশন, ডেলিভারি ও অতিথি - এক জায়গাতেই।",
           "icon": "insights"
         },
         {
           "title": "রিয়েল-টাইম সিদ্ধান্ত",
-          "description": "সাপ্তাহিক রিপোর্ট আপনাকে অর্থ ব্যয় করে। যারা জিতেন তারা হলেন সেই অপারেটররা যারা সমস্যাগুলি দেখতে পান যখন তারা এখনও সেগুলি সমাধান করতে পারেন।",
+          "description": "সাপ্তাহিক রিপোর্ট আপনার টাকা খরচ করায়। যাঁরা জেতেন, তাঁরা সমস্যা তখনই সারান যখন সারানো যায় - আর পরে জানেন সেই সমাধান সত্যিই কাজ করেছে কি না।",
           "proof": "প্রতিটি লোকেশনে Pulse প্রতি ৫ মিনিটে রিফ্রেশ হয়।",
           "icon": "speed"
         },
         {
           "title": "মান বাড়ান",
-          "description": "আমরা চাই রেস্তোরাঁর দলগুলি তাদের তথ্য স্ট্যাক থেকে আরও কিছু আশা করুক, আরেকটি স্থির ড্যাশবোর্ডের চেয়ে।",
-          "proof": "৩টি দেশে সক্রিয়, যেখানে এন্টারপ্রাইজ গ্রুপগুলি প্ল্যাটফর্ম-ব্যাপী গ্রহণ করছে।",
+          "description": "আমরা চাই অপারেটররা তাঁদের ডেটা স্ট্যাক থেকে আরেকটি ড্যাশবোর্ডের চেয়ে বেশি প্রত্যাশা করুন: এমন একটি সংখ্যা যার ভিত্তিতে পদক্ষেপ নেওয়ার মানে হয়, আর প্রমাণ যে সেই পদক্ষেপ কিছু ফিরিয়ে এনেছে।",
+          "proof": "২২টি ভাষায় স্থানীয়কৃত, যেখানে এন্টারপ্রাইজ গ্রুপগুলি প্ল্যাটফর্ম-ব্যাপী গ্রহণ করছে।",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "সক্রিয় বাজার",
+        "expanding": "সম্প্রসারণ বাজার"
+      },
+      "presenceFootnote": "সক্রিয় বাজারের মধ্যে রয়েছে বাস্তব কার্যক্রম (আমস্টারডাম, দুবাই) এবং কোম্পানির আইনি সদর দপ্তর (মার্কিন যুক্তরাষ্ট্র · ডেলাওয়্যার সি-কর্প)। উত্তর আমেরিকা (নিউ ইয়র্ক, টরন্টো) এবং অন্যান্য সম্প্রসারণ বাজার রোডম্যাপে কৌশলগত অগ্রাধিকার; সম্পৃক্ততা বিদ্যমান কেন্দ্রগুলি থেকে শুরু হয়।",
       "regions": [
         {
-          "region": "মধ্যপ্রাচ্য",
-          "countries": "ইউএই, সৌদি আরব, কাতার",
-          "label": "সক্রিয়"
+          "region": "আমস্টারডাম",
+          "countries": "ইউরোপ কেন্দ্র",
+          "label": "সক্রিয়",
+          "tier": "active"
         },
         {
-          "region": "উত্তর আমেরিকা",
-          "countries": "মার্কিন যুক্তরাষ্ট্র, কানাডা",
-          "label": "সক্রিয়"
+          "region": "দুবাই",
+          "countries": "MEA কেন্দ্র",
+          "label": "সক্রিয়",
+          "tier": "active"
         },
         {
-          "region": "ইউরোপ",
-          "countries": "যুক্তরাজ্য, জার্মানি, ফ্রান্স",
-          "label": "লক্ষ্য"
+          "region": "মার্কিন যুক্তরাষ্ট্র",
+          "countries": "ডেলাওয়্যার সি-কর্প",
+          "label": "সক্রিয়",
+          "tier": "active"
         },
         {
-          "region": "এশিয়া প্যাসিফিক",
-          "countries": "অস্ট্রেলিয়া, সিঙ্গাপুর",
-          "label": "লক্ষ্য"
+          "region": "নিউ ইয়র্ক",
+          "countries": "উত্তর আমেরিকা",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "টরন্টো",
+          "countries": "উত্তর আমেরিকা",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "সিঙ্গাপুর",
+          "countries": "APAC",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "টোকিও",
+          "countries": "APAC",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "মেক্সিকো সিটি",
+          "countries": "LATAM",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
+        },
+        {
+          "region": "সাও পাওলো",
+          "countries": "LATAM",
+          "label": "শীঘ্রই আসছে",
+          "tier": "expanding"
         }
       ],
-      "title": "যে ইন্টেলিজেন্স লেয়ার রেস্তোরাঁর কখনও ছিল না"
+      "title": "আমাদের যে সিদ্ধান্ত-স্তরটি দরকার ছিল আর কোথাও পাইনি, সেটি আমরা নিজেরাই বানিয়েছি।"
     },
     "th": {
-      "metadataTitle": "เกี่ยวกับ Sundae - แพลตฟอร์มการตัดสินใจอัจฉริยะสำหรับร้านอาหาร",
-      "metadataDescription": "Sundae รวมแหล่งข้อมูลกว่า 12 แหล่งเข้าด้วยกันเป็นชั้นข้อมูลอัจฉริยะเดียวสำหรับกลุ่มร้านอาหารหลายแห่ง สร้างขึ้นโดยผู้ดำเนินการที่เคยเผชิญปัญหานี้ ทำงานอยู่ใน 3 ประเทศ",
+      "metadataTitle": "เกี่ยวกับ Sundae - แพลตฟอร์มการตัดสินใจอัจฉริยะสำหรับธุรกิจบริการอาหาร",
+      "metadataDescription": "Sundae รวมแหล่งข้อมูลกว่า 12 แหล่งเข้าด้วยกันเป็นชั้นข้อมูลอัจฉริยะเดียวสำหรับกลุ่มธุรกิจบริการอาหารหลายสาขา สร้างขึ้นโดยผู้ดำเนินการที่เคยเผชิญปัญหานี้ รองรับ 22 ภาษา",
       "badge": "เกี่ยวกับ Sundae",
       "description": "ข้อมูลร้านอาหารมักจะอยู่ในระบบที่ไม่เชื่อมต่อกันหลายสิบระบบ Sundae จึงรวบรวมภาพรวมการดำเนินงานไว้ในที่เดียว เพื่อให้ทีมสามารถตัดสินใจได้ด้วยข้อมูลที่ทันสมัย บริบทของตลาด และสัญญาณที่มองไปข้างหน้า.",
       "stats": [
         {
-          "value": "6",
-          "label": "เสาหลักของแพลตฟอร์ม"
+          "value": "200+",
+          "label": "ระบบที่เชื่อมต่อ"
         },
         {
           "value": "12",
-          "label": "โมดูลอัจฉริยะ"
+          "label": "ด้านการดำเนินงาน"
         },
         {
-          "value": "12",
-          "label": "โดเมนข้อมูล"
+          "value": "36",
+          "label": "ประเทศที่รองรับบัญชีเงินเดือน"
         },
         {
-          "value": "3",
-          "label": "ประเทศที่ใช้งาน"
+          "value": "22",
+          "label": "ภาษา"
         }
       ],
       "builtTitle": "สิ่งที่เราสร้างขึ้น",
-      "builtDescription": "หกชั้นที่เชื่อมต่อกันซึ่งช่วยให้ผู้ปฏิบัติงานสามารถเปลี่ยนจากการติดตามแบบเรียลไทม์ไปสู่การคาดการณ์ 90 วันโดยไม่ต้องสลับระหว่างระบบ.",
+      "builtDescription": "หกชั้นที่เชื่อมต่อกันซึ่งช่วยให้ผู้ปฏิบัติงานค้นหาจุดรั่วไหล มอบหมายการแก้ไขให้ผู้รับผิดชอบ และวัดกำไรที่กู้คืนมาได้ - ตั้งแต่การติดตามแบบเรียลไทม์ไปจนถึงการคาดการณ์ 90 วัน โดยไม่ต้องสลับไปมาระหว่างระบบ",
       "missionTitle": "ทำไมSundaeถึงมีอยู่",
       "missionDescription": "ผู้ดำเนินการร้านอาหารหลายแห่งดำเนินธุรกิจที่ซับซ้อนและมีปริมาณสูงในระบบที่ไม่เชื่อมต่อกันหลายสิบระบบ ผลลัพธ์คือการตัดสินใจมูลค่าหลายล้านดอลลาร์ที่ทำจากความรู้สึก, การรั่วไหลของกำไรที่มองไม่เห็นจนกว่าจะสายเกินไป, และไม่มีบริบทตลาดสำหรับการเปรียบเทียบประสิทธิภาพ.",
       "missionSupport": "เราได้สร้าง Sundae เพราะเราได้ประสบปัญหานี้มาแล้ว ผู้ก่อตั้งของเราได้ขยายแนวคิดร้านอาหารจนมีรายได้เกิน 10 ล้านดอลลาร์ต่อปี และพบเจอปัญหาเดียวกันซ้ำแล้วซ้ำเล่า: ระบบมากเกินไป แต่ความชัดเจนในการตัดสินใจน้อยเกินไป.",
@@ -3804,7 +4364,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "สร้างโดยผู้ดำเนินการที่เคยเผชิญปัญหา",
-      "teamDescription": "ทีมของเรามีประสบการณ์มากกว่า 60 ปีในด้านร้านอาหาร เทคโนโลยี และข้อมูล เราไม่ได้ศึกษาเรื่องนี้จากข้างสนาม แต่เราได้ดำเนินการ ขยายแนวคิด และจัดการกับช่องว่างในการรายงานที่ผู้ประกอบการต้องเผชิญทุกสัปดาห์.",
+      "teamDescription": "ทีมของเรามีประสบการณ์รวมกว่า 40 ปีในร้านอาหาร เทคโนโลยี และข้อมูล เราไม่ได้ศึกษาปัญหานี้จากภายนอก เราลงมือบริหารงานเอง ขยายแบรนด์เอง และเจอช่องว่างของรายงานแบบเดียวกับที่ผู้ดำเนินการเจอทุกสัปดาห์",
       "strengthsTitle": "จุดแข็งของทีม",
       "journeyTitle": "การเดินทางของ Sundae",
       "journeyDescription": "บริษัทเกิดจากความเจ็บปวดของผู้ดำเนินการ ก่อนที่จะพัฒนาเป็นแพลตฟอร์มที่ใช้ในหลายตลาด.",
@@ -3816,6 +4376,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 นาทีในการตรวจสอบข้อมูลของคุณร่วมกันและดูว่า Sundae จะมีประโยชน์จริง ๆ ได้อย่างไร.",
       "ctaPrimary": "จองการสาธิต",
       "ctaSecondary": "เรากำลังรับสมัครงาน",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "ชุดเครื่องมือปฏิบัติการ - Sundae Crew",
+      "ctaHome": "กลับสู่หน้าแรก",
+      "crewPillars": [
+        "การจัดตารางงาน",
+        "เวลาและการเข้างาน",
+        "เงินเดือน",
+        "บุคลากรและ HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "วางแผนกะตามความต้องการ",
+        "ลงเวลา, จีโอเฟนซ์, ใบบันทึกเวลา",
+        "ความพร้อมด้านเงินเดือนหลายภูมิภาค",
+        "บันทึกตั้งแต่จ้างจนถึงพ้นสภาพ",
+        "การวิเคราะห์กำลังคน"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -3846,39 +4423,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "ดานิช ซิดดิกี",
-          "role": "ประธานเจ้าหน้าที่ฝ่ายการเติบโต",
-          "location": "ดูไบ",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "พันธมิตรปฏิบัติการเชิงกลยุทธ์",
+          "location": "GCC และยุโรป",
+          "image": "",
           "bullets": [
-            "ผู้ก่อตั้ง 5 รายที่มีการออกจากธุรกิจที่ประสบความสำเร็จ 2 รายและมีประสบการณ์ในการสร้างธุรกิจที่มีมูลค่ามากกว่า 100 ล้านดอลลาร์สหรัฐ",
-            "ผู้เชี่ยวชาญด้านการสร้างหมวดหมู่จาก 0→1 และการเติบโตที่ขับเคลื่อนด้วยผลิตภัณฑ์",
-            "มีประสบการณ์กว่า 18 ปีในด้านผลิตภัณฑ์ การตลาด และการดำเนินการเข้าสู่ตลาด",
-            "นำตำแหน่งตลาดของ Sundae ในด้านข้อมูลเชิงปฏิบัติการและการเติบโตของร้านอาหาร"
-          ]
-        },
-        {
-          "name": "อลิสซา พาราบานี",
-          "role": "หัวหน้าฝ่ายผลิตภัณฑ์",
-          "location": "โตรอนโต",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "อดีตวิศวกรระบบของ Walmart Canada - สร้างในระดับองค์กร",
-            "เปิดตัวผลิตภัณฑ์ 3 รายการ ซึ่งทั้งหมดมีกำไรภายใน 18 เดือน",
-            "แปลความต้องการของผู้ประกอบการเป็นผลตอบแทนจากการลงทุนที่วัดได้ในผลิตภัณฑ์",
-            "รับประกันว่าทุกโมดูลแก้ปัญหาจริงที่ผู้ประกอบการเผชิญในระหว่างการทำงาน"
-          ]
-        },
-        {
-          "name": "นาวีด นาดีร์",
-          "role": "หัวหน้าฝ่ายเทคโนโลยี",
-          "location": "โตรอนโต",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "สร้างแพลตฟอร์ม SaaS สำหรับองค์กรที่จัดการธุรกรรมมากกว่า 10 ล้านรายการต่อวัน",
-            "วิศวกรที่มีประสบการณ์ในด้านยานยนต์และ SaaS สำหรับองค์กรในระดับโลก",
-            "ผู้เชี่ยวชาญด้านสถาปัตยกรรมระบบที่ปลอดภัยและเป็นไปตามข้อกำหนด",
-            "ดูแลความน่าเชื่อถือของโครงสร้างพื้นฐานของ Sundae และข้อมูลเรียลไทม์"
+            "ความลึกของผู้ประกอบการอาวุโสและความสัมพันธ์เชิงพาณิชย์ด้านอาหารและเครื่องดื่มที่อยู่บนโต๊ะตั้งแต่วันแรก",
+            "ที่ปรึกษาระดับผู้บริหาร C ชั่วคราวและใกล้ชิดคณะกรรมการสำหรับผู้ประกอบการการบริการหลายหน่วยทั่ว GCC และยุโรป",
+            "เปิดประตูสู่องค์กรขนาดใหญ่และทดสอบ Pulse, Insights และ Foresight กับสิ่งที่ผู้นำด้านอาหารและเครื่องดื่มต้องการจริง",
+            "ผู้บริหารของ Curfs Consult ที่ร่วมงานกับผู้ก่อตั้งในด้านการเข้าสู่ตลาด การระดมทุน และการขยายตัว"
           ]
         }
       ],
@@ -3891,11 +4444,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "การใช้งานครั้งแรก",
-          "description": "ร่วมมือกับกลุ่มร้านอาหารหลายแบรนด์ใน UAE และแคนาดา ข้อมูลจริง ผู้ประกอบการจริง การตัดสินใจจริงตั้งแต่วันแรก."
+          "description": "ร่วมมือกับกลุ่มร้านอาหารหลายแบรนด์ใน UAE ข้อมูลจริง ผู้ประกอบการจริง การตัดสินใจจริงตั้งแต่วันแรก."
         },
         {
           "year": "2026",
-          "title": "โมดูล 12 ตัวใช้งานได้",
+          "title": "ครอบคลุมการดำเนินงานเต็มรูปแบบแล้ว",
           "description": "ข้อมูลรายได้ แรงงาน สินค้าคงคลัง การจัดส่ง การจอง การซื้อ การตลาด และข้อมูลกำไร - รวมกันใน 12 ด้านการดำเนินงาน."
         },
         {
@@ -3906,7 +4459,7 @@ export const generatedLocalCopy = {
         {
           "year": "2027+",
           "title": "การขยายตัวทั่วโลก",
-          "description": "ขยายไปยังยุโรปและเอเชียแปซิฟิก ข้อมูลเชิงลึกระดับองค์กรสำหรับแบรนด์ร้านอาหารหลายประเทศ."
+          "description": "ขยายไปยังยุโรปและเอเชียแปซิฟิก ข้อมูลเชิงลึกระดับองค์กรสำหรับกลุ่มธุรกิจบริการหลายประเทศ"
         }
       ],
       "values": [
@@ -3919,71 +4472,110 @@ export const generatedLocalCopy = {
         {
           "title": "ปัญญาเป็นอันดับแรก",
           "description": "ข้อมูลที่กระจัดกระจายมีค่าใช้จ่ายสูง เราเปลี่ยน 12 ระบบให้เป็นชั้นข้อมูลอัจฉริยะชั้นเดียวที่ขับเคลื่อนการตัดสินใจได้จริง",
-          "proof": "12 โมดูลใน 12 ด้านการดำเนินงาน - ตั้งแต่รายได้ไปจนถึงการจอง",
+          "proof": "รายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง การจัดส่ง และลูกค้า - ครอบคลุมในที่เดียว",
           "icon": "insights"
         },
         {
           "title": "การตัดสินใจแบบเรียลไทม์",
-          "description": "รายงานประจำสัปดาห์ทำให้คุณเสียเงิน ผู้ดำเนินการที่ชนะคือผู้ที่เห็นปัญหาในขณะที่พวกเขายังสามารถแก้ไขได้",
+          "description": "รายงานรายสัปดาห์ทำให้คุณเสียเงิน ผู้ดำเนินการที่ชนะคือคนที่แก้ปัญหาตอนที่ยังแก้ได้ และรู้ทีหลังว่าการแก้นั้นได้ผลจริงหรือไม่",
           "proof": "Pulse อัปเดตทุก 5 นาทีในทุกสถานที่",
           "icon": "speed"
         },
         {
           "title": "ยกระดับมาตรฐาน",
-          "description": "เราต้องการให้ทีมร้านอาหารคาดหวังจากชุดข้อมูลของพวกเขามากกว่าแดชบอร์ดแบบคงที่อีกอันหนึ่ง",
-          "proof": "ดำเนินการใน 3 ประเทศโดยกลุ่มองค์กรที่นำแพลตฟอร์มไปใช้ทั่วทั้งองค์กร",
+          "description": "เราอยากให้ผู้ดำเนินการคาดหวังจากชุดข้อมูลของตนมากกว่าแดชบอร์ดอีกหนึ่งอัน นั่นคือตัวเลขที่ควรค่าแก่การลงมือ และหลักฐานว่าการลงมือนั้นได้อะไรกลับคืนมา",
+          "proof": "รองรับ 22 ภาษา โดยกลุ่มองค์กรที่นำแพลตฟอร์มไปใช้ทั่วทั้งองค์กร",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "ตลาดที่ใช้งานอยู่",
+        "expanding": "ตลาดขยายตัว"
+      },
+      "presenceFootnote": "ตลาดที่ใช้งานอยู่รวมถึงการดำเนินงานจริง (อัมสเตอร์ดัม, ดูไบ) และสำนักงานใหญ่ตามกฎหมายของบริษัท (สหรัฐอเมริกา · Delaware C-Corp) อเมริกาเหนือ (นิวยอร์ก, โตรอนโต) และตลาดขยายตัวอื่นๆ เป็นลำดับความสำคัญเชิงกลยุทธ์ในแผนงาน การมีส่วนร่วมเริ่มต้นจากศูนย์กลางที่มีอยู่.",
       "regions": [
         {
-          "region": "ตะวันออกกลาง",
-          "countries": "สหรัฐอาหรับเอมิเรตส์, ซาอุดีอาระเบีย, กาตาร์",
-          "label": "ใช้งานอยู่"
+          "region": "อัมสเตอร์ดัม",
+          "countries": "ศูนย์กลางยุโรป",
+          "label": "ใช้งานอยู่",
+          "tier": "active"
         },
         {
-          "region": "อเมริกาเหนือ",
-          "countries": "สหรัฐอเมริกา, แคนาดา",
-          "label": "ใช้งานอยู่"
+          "region": "ดูไบ",
+          "countries": "ศูนย์กลาง MEA",
+          "label": "ใช้งานอยู่",
+          "tier": "active"
         },
         {
-          "region": "ยุโรป",
-          "countries": "สหราชอาณาจักร, เยอรมนี, ฝรั่งเศส",
-          "label": "เป้าหมาย"
+          "region": "สหรัฐอเมริกา",
+          "countries": "Delaware C-Corp",
+          "label": "ใช้งานอยู่",
+          "tier": "active"
         },
         {
-          "region": "เอเชียแปซิฟิก",
-          "countries": "ออสเตรเลีย, สิงคโปร์",
-          "label": "เป้าหมาย"
+          "region": "นิวยอร์ก",
+          "countries": "อเมริกาเหนือ",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "โตรอนโต",
+          "countries": "อเมริกาเหนือ",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "สิงคโปร์",
+          "countries": "APAC",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "โตเกียว",
+          "countries": "APAC",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "เม็กซิโกซิตี",
+          "countries": "LATAM",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
+        },
+        {
+          "region": "เซาเปาโล",
+          "countries": "LATAM",
+          "label": "เร็วๆ นี้",
+          "tier": "expanding"
         }
       ],
-      "title": "ชั้นอัจฉริยะที่ร้านอาหารไม่เคยมี"
+      "title": "เราสร้างชั้นการตัดสินใจที่เราต้องการแต่หาไม่ได้จากที่ไหนเลย"
     },
     "ms": {
-      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Restoran",
-      "metadataDescription": "Sundae menyatukan 12+ sumber data ke dalam satu lapisan kecerdasan untuk kumpulan restoran berbilang unit. Dibina oleh pengendali yang mengalami masalah tersebut. Aktif di 3 negara.",
+      "metadataTitle": "Tentang Sundae - Platform Kecerdasan Keputusan untuk Perkhidmatan Makanan",
+      "metadataDescription": "Sundae menyatukan 12+ sumber data ke dalam satu lapisan kecerdasan untuk kumpulan perkhidmatan makanan berbilang unit. Dibina oleh pengendali yang mengalami masalah tersebut. Disetempatkan dalam 22 bahasa.",
       "badge": "Tentang Sundae",
       "description": "Data restoran biasanya berada dalam beberapa sistem yang tidak berkaitan. Sundae mengumpulkan gambaran operasi itu ke dalam satu tempat supaya pasukan dapat membuat keputusan dengan angka terkini, konteks pasaran, dan isyarat yang menjangkau masa depan.",
       "stats": [
         {
-          "value": "6",
-          "label": "Tiang Platform"
+          "value": "200+",
+          "label": "Sistem bersambung"
         },
         {
           "value": "12",
-          "label": "Modul Kecerdasan"
+          "label": "Bidang operasi"
         },
         {
-          "value": "12",
-          "label": "Domain Data"
+          "value": "36",
+          "label": "Negara untuk gaji"
         },
         {
-          "value": "3",
-          "label": "Negara Aktif"
+          "value": "22",
+          "label": "Bahasa"
         }
       ],
       "builtTitle": "Apa yang Kami Telah Bina",
-      "builtDescription": "Enam lapisan yang saling terhubung yang membantu pengendali beralih dari penjadualan masa nyata kepada ramalan 90 hari tanpa perlu melompat antara sistem.",
+      "builtDescription": "Enam lapisan bersambung yang membantu pengendali mencari kebocoran, menyerahkan pembetulan kepada seorang penanggungjawab, dan mengukur margin yang dipulihkan - daripada pemantauan masa nyata hingga ramalan 90 hari, tanpa perlu melompat antara sistem.",
       "missionTitle": "Mengapa Sundae Wujud",
       "missionDescription": "Pengendali restoran berbilang unit menjalankan perniagaan yang kompleks dan bervolume tinggi merentasi puluhan sistem yang tidak berkaitan. Hasilnya: keputusan bernilai jutaan dolar dibuat berdasarkan perasaan, kebocoran margin yang tidak dapat dilihat sehingga terlambat, dan tiada konteks pasaran untuk penanda aras prestasi.",
       "missionSupport": "Kami membina Sundae kerana kami mengalami masalah tersebut. Pengasas kami mengembangkan konsep restoran melebihi $10M dalam pendapatan tahunan dan terus menghadapi isu yang sama: terlalu banyak sistem, terlalu sedikit kejelasan keputusan.",
@@ -4002,7 +4594,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Dibina oleh Pengendali yang Mengalami Masalah",
-      "teamDescription": "Pasukan kami mempunyai pengalaman lebih 60 tahun dalam restoran, teknologi, dan data. Kami tidak mempelajari masalah ini dari tepi. Kami menjalankan operasi, mengembangkan konsep, dan menghadapi jurang pelaporan yang sama yang dihadapi oleh pengendali setiap minggu.",
+      "teamDescription": "Pasukan kami membawa lebih 40 tahun pengalaman dalam restoran, teknologi dan data. Kami tidak mengkaji masalah ini dari luar - kami yang menjalankan operasi, membesarkan konsep, dan berdepan jurang pelaporan yang sama seperti yang dihadapi pengendali setiap minggu.",
       "strengthsTitle": "Kekuatan Pasukan",
       "journeyTitle": "Perjalanan Sundae",
       "journeyDescription": "Syarikat ini berkembang daripada kesakitan pengendali, kemudian menjadi platform yang digunakan di pelbagai pasaran.",
@@ -4014,6 +4606,23 @@ export const generatedLocalCopy = {
       "ctaDescription": "30 minit untuk menyemak data anda bersama dan melihat di mana Sundae boleh menjadi berguna.",
       "ctaPrimary": "Tempah Demo",
       "ctaSecondary": "Kami Mencari Kakitangan",
+      "builtCoreLabel": "Decision Intelligence",
+      "builtCrewLabel": "Suit Operasi - Sundae Crew",
+      "ctaHome": "Kembali ke Laman Utama",
+      "crewPillars": [
+        "Penjadualan",
+        "Masa & Kehadiran",
+        "Gaji",
+        "Kakitangan & HR",
+        "People Intelligence"
+      ],
+      "crewPillarsSubtitle": [
+        "Perancangan syif berdasarkan permintaan",
+        "Daftar masuk, geofence, helaian masa",
+        "Kesediaan gaji pelbagai wilayah",
+        "Rekod dari pengambilan ke persaraan",
+        "Analitik tenaga kerja"
+      ],
       "pillars": [
         "Pulse",
         "Benchmarks",
@@ -4044,39 +4653,15 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "name": "Daanish Siddiqui",
-          "role": "Ketua Pertumbuhan",
-          "location": "Dubai",
-          "image": "/team/daanish-siddiqui.jpg",
+          "name": "Mark Curfs",
+          "role": "Rakan Operasi Strategik",
+          "location": "GCC & Eropah",
+          "image": "",
           "bullets": [
-            "Pengasas 5x dengan 2 kejayaan keluar dan pengalaman membina perniagaan melebihi $100M",
-            "Pakar dalam penciptaan kategori 0→1 dan pertumbuhan yang dipimpin produk",
-            "18+ tahun dalam produk, pemasaran, dan pelaksanaan go-to-market",
-            "Memimpin kedudukan pasaran Sundae dalam kecerdasan restoran dan pertumbuhan"
-          ]
-        },
-        {
-          "name": "Alissa Parabani",
-          "role": "Ketua Produk",
-          "location": "Toronto",
-          "image": "/team/alissa-parabani.jpg",
-          "bullets": [
-            "Bekas jurutera sistem Walmart Canada - dibina pada skala perusahaan",
-            "3 barisan produk dilancarkan, semuanya menguntungkan dalam 18 bulan",
-            "Menterjemahkan keperluan operator kepada ROI produk yang boleh diukur",
-            "Memastikan setiap modul menyelesaikan masalah sebenar yang dihadapi operator semasa bertugas"
-          ]
-        },
-        {
-          "name": "Naveed Nadir",
-          "role": "Ketua Teknologi",
-          "location": "Toronto",
-          "image": "/team/naveed-nadir.jpg",
-          "bullets": [
-            "Membina platform SaaS perusahaan yang mengendalikan 10M+ transaksi harian",
-            "Jurutera berpengalaman dalam automotif dan SaaS perusahaan pada skala global",
-            "Pakar dalam seni bina sistem yang selamat dan mematuhi",
-            "Menguruskan kebolehpercayaan infrastruktur Sundae dan saluran data masa nyata"
+            "Kedalaman pengendali kanan dan hubungan komersial F&B di meja sejak hari pertama",
+            "Nasihat peringkat C sementara dan rapat dengan lembaga pengarah untuk pengendali hospitaliti pelbagai unit di seluruh GCC dan Eropah",
+            "Membuka pintu perusahaan besar dan menguji Pulse, Insights dan Foresight terhadap apa yang sebenarnya diperlukan oleh kepimpinan F&B",
+            "Pengarah Curfs Consult, bekerjasama dengan pengasas dalam go-to-market, pengumpulan dana dan penskalaan"
           ]
         }
       ],
@@ -4089,11 +4674,11 @@ export const generatedLocalCopy = {
         {
           "year": "2025",
           "title": "Penghantaran Pertama",
-          "description": "Berkongsi dengan kumpulan restoran pelbagai jenama di UAE dan Kanada. Data sebenar, pengendali sebenar, keputusan sebenar dari hari pertama."
+          "description": "Berkongsi dengan kumpulan restoran pelbagai jenama di UAE. Data sebenar, pengendali sebenar, keputusan sebenar dari hari pertama."
         },
         {
           "year": "2026",
-          "title": "12 Modul Aktif",
+          "title": "Liputan operasi penuh beroperasi",
           "description": "Pendapatan, buruh, inventori, penghantaran, tempahan, pembelian, pemasaran, dan kecerdasan keuntungan - semua disatukan merentasi 12 domain operasi."
         },
         {
@@ -4117,45 +4702,84 @@ export const generatedLocalCopy = {
         {
           "title": "Kecerdasan Pertama",
           "description": "Data yang tersebar adalah mahal. Kami mengubah 12 sistem menjadi satu lapisan pintar yang benar-benar memandu keputusan.",
-          "proof": "12 modul merentasi 12 domain operasi - dari pendapatan hingga tempahan.",
+          "proof": "Hasil, tenaga kerja, inventori, pembelian, pemasaran, tempahan, penghantaran dan tetamu - dilindungi di satu tempat.",
           "icon": "insights"
         },
         {
           "title": "Keputusan Masa Nyata",
-          "description": "Laporan mingguan menghabiskan wang anda. Pengendali yang menang adalah mereka yang melihat masalah semasa mereka masih boleh membetulkannya.",
+          "description": "Laporan mingguan merugikan anda. Pengendali yang menang ialah mereka yang membetulkan masalah semasa masih sempat - dan kemudian tahu sama ada pembetulan itu benar-benar berkesan.",
           "proof": "Pulse menyegarkan setiap 5 minit di setiap lokasi.",
           "icon": "speed"
         },
         {
           "title": "Tingkatkan Standard",
-          "description": "Kami mahu pasukan restoran mengharapkan lebih daripada tumpukan data mereka daripada papan pemuka statik yang lain.",
+          "description": "Kami mahu pengendali mengharapkan lebih daripada timbunan data mereka berbanding satu lagi papan pemuka: nombor yang berbaloi ditindaki, dan bukti bahawa tindakan itu memulangkan sesuatu.",
           "proof": "Aktif di 3 negara dengan kumpulan perusahaan yang mengadopsi di seluruh platform.",
           "icon": "growth"
         }
       ],
+      "presenceSubheadings": {
+        "active": "Pasaran aktif",
+        "expanding": "Pasaran pengembangan"
+      },
+      "presenceFootnote": "Pasaran aktif merangkumi operasi fizikal (Amsterdam, Dubai) dan ibu pejabat sah syarikat (Amerika Syarikat · Delaware C-Corp). Amerika Utara (New York, Toronto) dan pasaran pengembangan lain merupakan keutamaan strategik dalam peta hala tuju; penglibatan bermula daripada hab sedia ada.",
       "regions": [
         {
-          "region": "Timur Tengah",
-          "countries": "UAE, KSA, Qatar",
-          "label": "Aktif"
+          "region": "Amsterdam",
+          "countries": "Hab Eropah",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Amerika Utara",
-          "countries": "USA, Kanada",
-          "label": "Aktif"
+          "region": "Dubai",
+          "countries": "Hab MEA",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Eropah",
-          "countries": "UK, Jerman, Perancis",
-          "label": "Sasaran"
+          "region": "Amerika Syarikat",
+          "countries": "Delaware C-Corp",
+          "label": "Aktif",
+          "tier": "active"
         },
         {
-          "region": "Asia Pasifik",
-          "countries": "Australia, Singapura",
-          "label": "Sasaran"
+          "region": "New York",
+          "countries": "Amerika Utara",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Toronto",
+          "countries": "Amerika Utara",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Singapura",
+          "countries": "APAC",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Tokyo",
+          "countries": "APAC",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "Mexico City",
+          "countries": "LATAM",
+          "label": "Akan datang",
+          "tier": "expanding"
+        },
+        {
+          "region": "São Paulo",
+          "countries": "LATAM",
+          "label": "Akan datang",
+          "tier": "expanding"
         }
       ],
-      "title": "Lapisan kecerdasan yang restoran tidak pernah miliki"
+      "title": "Kami membina lapisan keputusan yang kami perlukan dan tidak kami temui di mana-mana."
     }
   }
 } as const

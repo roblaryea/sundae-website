@@ -6,7 +6,7 @@
 
 ## What Is Sundae?
 
-Sundae is a **Decision Intelligence platform** for restaurant and hospitality operators. It unifies internal operational data, external market signals, workforce operations, and AI support into one operating system for decisions: Performance Reports, Pulse, Benchmark, Watchtower, Insights, Foresight, Sundae Intelligence, Integrations Hub, Crew, and shared support knowledge.
+Sundae is a **Decision Intelligence platform** for restaurant and hospitality operators. It unifies internal operational data, external market signals, workforce operations, and AI support into one operating system for decisions: Performance Reports, Pulse, Benchmark, Watchtower, Insights, Foresight, Ask Sundae, Integrations Hub, Crew, and shared support knowledge.
 
 ## Tech Stack (customer-relevant)
 
@@ -31,7 +31,7 @@ Tracks competitor activity (ratings, reviews, menu pricing), weather with predic
 ### 4. Insights - Intelligence Modules
 Analytical dashboards for deep-diving into operational domains. The codebase includes Performance Report, Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, item profitability, executive summary, franchise health, outlet viability, cross-intelligence, and Foresight routes.
 
-### 5. Sundae Intelligence - AI-Powered Analytics
+### 5. Ask Sundae - AI-Powered Analytics
 Natural-language querying of restaurant data. Available via the web app and through Telegram, Slack, and Microsoft Teams bots. Supports conversation history, folders, scheduled queries, multi-outlet scope selection, and link-code sharing.
 
 ### 6. Integrations Hub - 12-Domain Data Ingestion

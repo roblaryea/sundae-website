@@ -1,7 +1,8 @@
 'use client';
 
-import { Fragment, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { FadeUp } from '@/components/ui/PageAnimations';
+import { balanceEmphasisSentences } from '@/lib/balanceSentences';
 
 /**
  * CreamBreak - a reusable warm "relief" band for inner pages.
@@ -21,15 +22,11 @@ import { FadeUp } from '@/components/ui/PageAnimations';
 const cherry = { color: 'var(--warm-cherry)' } as const;
 
 function renderStatement(statement: string): ReactNode {
-  return statement.split(/\*([^*]+)\*/g).map((part, i) =>
-    i % 2 === 1 ? (
-      <em key={i} className="italic" style={cherry}>
+  return balanceEmphasisSentences(statement, (part, key) => (
+    <em key={key} className="italic" style={cherry}>
         {part}
       </em>
-    ) : (
-      <Fragment key={i}>{part}</Fragment>
-    )
-  );
+  ));
 }
 
 export interface CreamBreakProps {

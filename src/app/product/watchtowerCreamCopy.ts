@@ -30,14 +30,14 @@ export const watchtowerCreamCopy: Record<string, { eyebrow: string; statement: s
     lede: 'المنافسون والطقس والفعاليات - تُرصد قبل أن تصل إلى أرقامك.',
   },
   fr: {
-    eyebrow: 'INTELLIGENCE DE MARCHE',
-    statement: 'Le marche bouge en premier. *Vous*, plus tot.',
-    lede: 'Concurrents, meteo et evenements - suivis avant qu ils ne touchent vos chiffres.',
+    eyebrow: 'INTELLIGENCE DE MARCHÉ',
+    statement: 'Le marché bouge en premier. *Vous*, plus tôt.',
+    lede: "Concurrents, météo et événements - suivis avant qu'ils ne touchent vos chiffres.",
   },
   es: {
     eyebrow: 'INTELIGENCIA DE MERCADO',
-    statement: 'El mercado se mueve primero. *Tu*, antes.',
-    lede: 'Competidores, clima y eventos - detectados antes de que lleguen a tus numeros.',
+    statement: 'El mercado se mueve primero. *Tú*, antes.',
+    lede: 'Competidores, clima y eventos - detectados antes de que lleguen a tus números.',
   },
   de: {
     eyebrow: 'MARKTINTELLIGENZ',
@@ -92,7 +92,7 @@ export const watchtowerCreamCopy: Record<string, { eyebrow: string; statement: s
   ko: {
     eyebrow: '마켓 인텔리전스',
     statement: '시장이 먼저 움직입니다. *당신*은 더 먼저 움직입니다.',
-    lede: '경쟁사, 날씨, 이벤트 - 매출에 닿기 전에 미리 포착합니다.',
+    lede: '경쟁사, 날씨, 이벤트--매출에 닿기 전에 미리 포착합니다.',
   },
   id: {
     eyebrow: 'INTELIJEN PASAR',

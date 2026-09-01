@@ -10,7 +10,10 @@ import {
 
 export const dynamic = 'force-dynamic'
 
-const ADMIN_OAUTH_RELAY_BASE = process.env.ADMIN_OAUTH_RELAY_BASE || 'https://dev.sundaetech.ai'
+// TikTok has approved the public website callback. Admin OAuth states that do
+// not belong to the website flow are relayed from there to the production app,
+// where their signature is verified before any credential is saved.
+const ADMIN_OAUTH_RELAY_BASE = process.env.ADMIN_OAUTH_RELAY_BASE || 'https://app.sundaetech.ai'
 
 export async function GET(request: NextRequest) {
   const expectedState = request.cookies.get(TIKTOK_STATE_COOKIE)?.value

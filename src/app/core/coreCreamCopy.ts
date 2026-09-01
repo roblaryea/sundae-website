@@ -38,13 +38,13 @@ export const coreCreamCopy: Record<string, CoreCreamCopy> = {
   },
   fr: {
     eyebrow: 'LE POSTE DE PILOTAGE',
-    statement: 'Une seule surface pour *toute* votre activite.',
+    statement: 'Une seule surface pour *toute* votre activité.',
     lede: "Pulse, benchmarks, analytics et IA - le quotidien de l'exploitant en un seul endroit.",
   },
   es: {
     eyebrow: 'EL CENTRO DE MANDO',
     statement: 'Una sola pantalla para *todo* el negocio.',
-    lede: 'Pulse, benchmarks, analitica e IA - la base diaria del operador.',
+    lede: 'Pulse, benchmarks, analítica e IA - la base diaria del operador.',
   },
   de: {
     eyebrow: 'DIE KOMMANDOZENTRALE',
@@ -99,7 +99,7 @@ export const coreCreamCopy: Record<string, CoreCreamCopy> = {
   ko: {
     eyebrow: '커맨드 센터',
     statement: '*비즈니스 전체*를 한 화면에서.',
-    lede: 'Pulse, 벤치마크, 분석, AI - 운영자가 매일 머무는 자리.',
+    lede: 'Pulse, 벤치마크, 분석, AI--운영자가 매일 머무는 자리.',
   },
   id: {
     eyebrow: 'PUSAT KENDALI',

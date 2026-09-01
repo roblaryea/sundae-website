@@ -76,8 +76,8 @@ const contactCopy = {
     quickLinksTitle: "Liens rapides",
     links: ["Réserver une demo", "Voir les tarifs", "Explorer les produits", "À propos de Sundae"],
     ctaTitle: "Prêt à voir ce qui vous échappe ?",
-    ctaDescription: "Réservez une demo de 30 minutes pour parcourir vos donnees avec notre equipe et voir si Sundae vous serait utile.",
-    ctaPrimary: "Reserver une demo",
+    ctaDescription: "Réservez une demo de 30 minutes pour parcourir vos données avec notre équipe et voir si Sundae vous serait utile.",
+    ctaPrimary: "Réserver une demo",
     ctaSecondary: "Explorer les produits",
   },
   es: {
@@ -195,7 +195,7 @@ export default async function ContactPage() {
 
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
         <Link href="/demo"><Button variant="cta" size="lg">{copy.ctaPrimary}</Button></Link>
-        <Link href="/product"><Button variant="outline-light" size="lg">{copy.ctaSecondary}</Button></Link>
+        <Link href="/product"><Button variant="outline-ink" size="lg">{copy.ctaSecondary}</Button></Link>
       </PageCTA>
     </div>
   );

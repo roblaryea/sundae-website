@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { ElegantShape } from "@/components/ui/ElegantShape";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -82,11 +81,11 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUTIONS · BY ROLE",
     titleLine1: "One platform.",
     titleLine2: "Every role you run.",
-    description: "Decision intelligence built around the person reading it - from the executive office to the floor.",
+    description: "The same closed-loop profit recovery, framed for the person reading it - every role sees the leak found, the fix owned, and the margin measured back, from the executive office to the floor.",
     nowShowingPrefix: "Now showing:",
     primaryCta: "Book a Working Session",
-    secondaryCta: "Start with Report Lite",
-    shapedByLabel: "Shaped by restaurant operators across",
+    secondaryCta: "See plans",
+    shapedByLabel: "Shaped by operators across",
     formats: ["QSR", "Casual Dining", "Fine Dining", "Cloud Kitchens", "Hospitality Groups", "Multi-Brand Operators"],
     closingEyebrow: "NOT SURE WHICH ONE",
     closingTitle: "We'll tailor the session to your team.",
@@ -101,20 +100,20 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         description: "Decision intelligence built for the executive office, the finance function, and the group that owns the brands.",
         seeSolutionPrefix: "See",
         personas: [
-          { title: "C-Suite & Owners", tagline: "Daily AI briefings across every brand. Margin variance the day it happens." },
+          { title: "C-Suite & Owners", tagline: "Daily AI briefings across every brand. Margin variance found, owned, and measured back." },
           { title: "Finance & FP&A", tagline: "Close in hours. Trace every dollar to the event that moved it." },
           { title: "Multi-Location Groups", tagline: "Portfolio rollup, brand-vs-brand benchmarks, group-level strategic signal." },
         ],
       },
       {
         eyebrow: "OPERATIONS & PEOPLE",
-        title: "Steer the floor while the shift is still running.",
-        description: "Live operational intelligence for the people closest to the guest, the schedule, and the service.",
+        title: "Steer the floor, own the fix, measure the margin back.",
+        description: "Live operational intelligence for the people closest to the guest, the schedule, and the service - every leak routed to an owner and measured back against baseline.",
         seeSolutionPrefix: "See",
         personas: [
-          { title: "Regional & Area Managers", tagline: "Run twelve outlets like you're standing in one. Pacing flags the site that needs you now." },
-          { title: "HR & People", tagline: "Live labor variance. OT risk flagged before it lands. Schedules built from demand." },
-          { title: "Hospitality Operators", tagline: "Every F&B outlet - restaurant, banquet, IRD, lobby - in one unified live view." },
+          { title: "Regional & Area Managers", tagline: "Run twelve outlets like you're standing in one. Pacing flags the site, the fix gets an owner, the recovered margin is measured back." },
+          { title: "HR & People", tagline: "Live labor variance, routed to a named manager and measured back to margin. OT risk flagged before it lands." },
+          { title: "Hospitality Operators", tagline: "Every F&B outlet - restaurant, banquet, IRD, lobby - each leak found, owned, and measured back to margin." },
         ],
       },
       {
@@ -129,7 +128,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "SPECIALIZED FORMATS",
-        title: "Built for how restaurants actually run today.",
+        title: "Built for the formats that do not fit the standard shape.",
         description: "Format-specific intelligence for cloud kitchens, virtual brands, and franchise networks.",
         seeSolutionPrefix: "See",
         personas: [
@@ -143,11 +142,11 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "الحلول · حسب الدور",
     titleLine1: "منصة واحدة.",
     titleLine2: "لكل دور تديره.",
-    description: "ذكاء القرار مصمم حول الشخص الذي يقرأه - من المكتب التنفيذي إلى الموقع.",
+    description: "الاستعادة نفسها للأرباح ضمن حلقة مغلقة، معروضة بلغة الشخص الذي يقرأها - كل دور يرى التسرب وقد رُصد، والحل وقد أُسند، والهامش وقد قِيس مجدداً، من المكتب التنفيذي إلى الموقع.",
     nowShowingPrefix: "نعرض الآن:",
     primaryCta: "احجز جلسة عمل",
-    secondaryCta: "ابدأ بـ Report Lite",
-    shapedByLabel: "صاغته مجموعات مطاعم في",
+    secondaryCta: "اطّلع على الباقات",
+    shapedByLabel: "صاغه مشغلون في",
     formats: ["الوجبات السريعة", "المطاعم العائلية", "المطاعم الراقية", "المطابخ السحابية", "مجموعات الضيافة", "المشغّلين متعددي العلامات"],
     closingEyebrow: "غير متأكد أيها يناسبك",
     closingTitle: "سنصمم الجلسة لفريقك.",
@@ -162,20 +161,20 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         description: "ذكاء قرار مصمم للمكتب التنفيذي والإدارة المالية والمجموعة التي تملك العلامات.",
         seeSolutionPrefix: "شاهد",
         personas: [
-          { title: "القيادة التنفيذية والمالكون", tagline: "إحاطات يومية بالذكاء الاصطناعي عبر كل علامة. تباين الهامش لحظياً." },
+          { title: "القيادة التنفيذية والمالكون", tagline: "إحاطات AI يومية عبر كل علامة. تباين الهامش يُرصد، ويُسنَد، ويُقاس مجدداً." },
           { title: "المالية و FP&A", tagline: "أقفل في ساعات. تتبع كل دولار إلى الحدث الذي حركه." },
           { title: "المجموعات متعددة المواقع", tagline: "تجميع محفظة، معايير علامة بعلامة، إشارة استراتيجية على مستوى المجموعة." },
         ],
       },
       {
         eyebrow: "العمليات والكوادر",
-        title: "وجّه الموقع وهو لا يزال يعمل.",
-        description: "ذكاء تشغيلي حي للأشخاص الأقرب إلى الضيف والجدول والخدمة.",
+        title: "وجّه الموقع، تولَّ الإصلاح، وقِس الهامش مجدداً.",
+        description: "ذكاء تشغيلي حي للأشخاص الأقرب إلى الضيف والجدول والخدمة - كل تسرب يُسنَد إلى مسؤول ويُقاس مجدداً مقابل خط الأساس.",
         seeSolutionPrefix: "شاهد",
         personas: [
-          { title: "المدراء الإقليميون", tagline: "أدر اثني عشر موقعاً وكأنك في واحد. الوتيرة تنبه للموقع الذي يحتاجك الآن." },
-          { title: "الموارد البشرية", tagline: "تباين عمالة حي. خطر OT يُكتشف قبل تسجيله. جداول مبنية من الطلب." },
-          { title: "مشغّلو الضيافة", tagline: "كل منفذ F&B - مطعم، بانكيت، خدمة غرف، لوبي - في عرض حي موحد." },
+          { title: "المدراء الإقليميون", tagline: "أدر اثني عشر موقعاً وكأنك في واحد. الوتيرة تنبه للموقع، والإصلاح يجد مسؤولاً، والهامش المستعاد يُقاس مجدداً." },
+          { title: "الموارد البشرية", tagline: "تباين عمالة حي، يُسنَد إلى مدير محدد ويُقاس مجدداً على الهامش. خطر OT يُرصد قبل وقوعه." },
+          { title: "مشغّلو الضيافة", tagline: "كل منفذ F&B - مطعم، بانكيت، خدمة غرف، لوبي - كل تسرب يُرصد، ويُسنَد، ويُقاس مجدداً على الهامش." },
         ],
       },
       {
@@ -190,7 +189,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "الصيغ المتخصصة",
-        title: "مصمم لكيفية تشغيل المطاعم اليوم.",
+        title: "مصمم للصيغ التي لا تنطبق عليها القوالب المعتادة.",
         description: "ذكاء حسب الصيغة للمطابخ السحابية والعلامات الافتراضية وشبكات الامتياز.",
         seeSolutionPrefix: "شاهد",
         personas: [
@@ -204,11 +203,11 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUTIONS · PAR RÔLE",
     titleLine1: "Une plateforme.",
     titleLine2: "Chaque rôle que vous pilotez.",
-    description: "L'intelligence décisionnelle pensée pour la personne qui la lit - du bureau exécutif jusqu'à la salle.",
+    description: "La même récupération de marge en boucle fermée, formulée pour la personne qui la lit - chaque rôle voit la fuite repérée, la correction prise en charge et la marge remesurée, du bureau exécutif jusqu'à la salle.",
     nowShowingPrefix: "Affiché maintenant :",
     primaryCta: "Réserver une session de travail",
-    secondaryCta: "Commencer avec Report Lite",
-    shapedByLabel: "Façonné par des opérateurs de restauration",
+    secondaryCta: "Voir les offres",
+    shapedByLabel: "Façonné par des opérateurs",
     formats: ["QSR", "Restauration décontractée", "Gastronomie", "Cuisines virtuelles", "Groupes hôteliers", "Opérateurs multi-marques"],
     closingEyebrow: "PAS SÛR DU CHOIX",
     closingTitle: "Nous adaptons la session à votre équipe.",
@@ -223,20 +222,20 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         description: "Intelligence décisionnelle pour la direction, la finance, et le groupe qui possède les marques.",
         seeSolutionPrefix: "Voir",
         personas: [
-          { title: "Dirigeants & propriétaires", tagline: "Briefings IA quotidiens sur chaque marque. Variance de marge en temps réel." },
+          { title: "Dirigeants & propriétaires", tagline: "Briefings IA quotidiens sur chaque marque. Écart de marge repéré, pris en charge et remesuré." },
           { title: "Finance & FP&A", tagline: "Clôture en heures. Tracez chaque euro à l'événement qui l'a déplacé." },
           { title: "Groupes multi-sites", tagline: "Rollup portefeuille, benchmarks marque-vs-marque, signal stratégique groupe." },
         ],
       },
       {
         eyebrow: "OPÉRATIONS & PEOPLE",
-        title: "Pilotez la salle pendant que le service tourne.",
-        description: "Intelligence opérationnelle pour les gens les plus proches du client, du planning et du service.",
+        title: "Pilotez la salle, prenez en charge la correction, remesurez la marge.",
+        description: "Intelligence opérationnelle en direct pour les gens les plus proches du client, du planning et du service - chaque fuite confiée à un responsable et remesurée face au point de référence.",
         seeSolutionPrefix: "Voir",
         personas: [
-          { title: "Managers régionaux", tagline: "Pilotez douze sites comme si vous y étiez. Le rythme signale le site qui a besoin de vous." },
-          { title: "RH & People", tagline: "Variance main-d'œuvre live. Risque heures sup' avant la paie. Plannings tirés de la demande." },
-          { title: "Opérateurs hôtellerie", tagline: "Chaque point F&B - restaurant, banqueting, room service, lobby - dans une vue unifiée." },
+          { title: "Managers régionaux", tagline: "Pilotez douze sites comme si vous y étiez. Le rythme signale le site, la correction trouve un responsable, la marge récupérée est remesurée." },
+          { title: "RH & People", tagline: "Variance main-d'œuvre live, confiée à un manager nommé et remesurée sur la marge. Risque heures sup' signalé avant qu'il ne tombe." },
+          { title: "Opérateurs hôtellerie", tagline: "Chaque point F&B - restaurant, banqueting, room service, lobby - chaque fuite repérée, prise en charge et remesurée sur la marge." },
         ],
       },
       {
@@ -251,7 +250,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "FORMATS SPÉCIALISÉS",
-        title: "Conçu pour la restauration d'aujourd'hui.",
+        title: "Conçu pour les formats qui sortent du modèle standard.",
         description: "Intelligence par format pour cuisines virtuelles, marques virtuelles et réseaux de franchise.",
         seeSolutionPrefix: "Voir",
         personas: [
@@ -265,11 +264,11 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUCIONES · POR ROL",
     titleLine1: "Una plataforma.",
     titleLine2: "Cada rol que diriges.",
-    description: "Inteligencia de decisión construida alrededor de la persona que la lee - desde la dirección hasta el local.",
+    description: "La misma recuperación de margen en ciclo cerrado, formulada para la persona que la lee - cada rol ve la fuga detectada, la corrección asignada y el margen vuelto a medir, desde la dirección hasta el local.",
     nowShowingPrefix: "Mostrando ahora:",
     primaryCta: "Reservar sesión de trabajo",
-    secondaryCta: "Empezar con Report Lite",
-    shapedByLabel: "Forjada por operadores de restaurantes en",
+    secondaryCta: "Ver paquetes",
+    shapedByLabel: "Forjada por operadores en",
     formats: ["QSR", "Casual", "Alta cocina", "Cocinas en la nube", "Grupos de hospitalidad", "Operadores multi-marca"],
     closingEyebrow: "¿NO SABES CUÁL ELEGIR?",
     closingTitle: "Adaptamos la sesión a tu equipo.",
@@ -284,20 +283,20 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         description: "Inteligencia de decisión para la dirección, finanzas y el grupo dueño de las marcas.",
         seeSolutionPrefix: "Ver",
         personas: [
-          { title: "Alta dirección y propietarios", tagline: "Briefings de IA diarios en cada marca. Varianza de margen el día que ocurre." },
+          { title: "Alta dirección y propietarios", tagline: "Briefings de IA diarios en cada marca. Varianza de margen detectada, asumida y vuelta a medir." },
           { title: "Finanzas y FP&A", tagline: "Cierra en horas. Traza cada dólar al evento que lo movió." },
           { title: "Grupos multi-marca", tagline: "Rollup de portafolio, benchmarks marca contra marca, señal estratégica de grupo." },
         ],
       },
       {
         eyebrow: "OPERACIONES Y PEOPLE",
-        title: "Dirige el local mientras el turno aún corre.",
-        description: "Inteligencia operativa para quienes están más cerca del huésped, del horario y del servicio.",
+        title: "Dirige el local, asume la corrección, vuelve a medir el margen.",
+        description: "Inteligencia operativa en vivo para quienes están más cerca del huésped, del horario y del servicio - cada fuga asignada a un responsable y vuelta a medir contra la línea base.",
         seeSolutionPrefix: "Ver",
         personas: [
-          { title: "Gerentes regionales", tagline: "Opera doce locales como si estuvieras en uno. El ritmo señala el local que te necesita." },
-          { title: "RR.HH. y People", tagline: "Varianza de personal en vivo. Riesgo OT antes del cierre. Horarios desde la demanda." },
-          { title: "Operadores de hospitalidad", tagline: "Cada punto A&B - restaurante, banquetes, room service, lobby - en una vista unificada." },
+          { title: "Gerentes regionales", tagline: "Opera doce locales como si estuvieras en uno. El ritmo señala el local, la corrección recibe un responsable, el margen recuperado se vuelve a medir." },
+          { title: "RR.HH. y People", tagline: "Varianza de personal en vivo, asignada a un gerente concreto y vuelta a medir sobre el margen. Riesgo OT señalado antes de que ocurra." },
+          { title: "Operadores de hospitalidad", tagline: "Cada punto A&B - restaurante, banquetes, room service, lobby - cada fuga detectada, asumida y vuelta a medir sobre el margen." },
         ],
       },
       {
@@ -312,7 +311,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
       },
       {
         eyebrow: "FORMATOS ESPECIALIZADOS",
-        title: "Construido para cómo opera la restauración hoy.",
+        title: "Diseñado para los formatos que no encajan en el modelo estándar.",
         description: "Inteligencia por formato para cocinas en la nube, marcas virtuales y redes de franquicia.",
         seeSolutionPrefix: "Ver",
         personas: [
@@ -360,26 +359,19 @@ export default function SolutionsHubPage() {
         {/* HERO */}
         <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
-          <div className="absolute inset-0 bg-grid-texture" />
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
-            <ElegantShape delay={0.5} width={500} height={120} rotate={-15} gradient="from-white/[0.02]" className="right-[-5%] top-[60%]" />
-            <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[10%]" />
-          </div>
 
-          <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-16 items-center">
+          <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-10 lg:gap-16 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] text-[#FF8473]">
-                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
+                <span className="inline-flex items-center gap-2.5 text-[11.5px] font-semibold uppercase tracking-[0.22em] text-[var(--text-secondary)]">
                   {copy.badge}
                 </span>
               </motion.div>
 
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
-                <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">{copy.titleLine1}</span>
+                <span className="text-[var(--text-primary)]">{copy.titleLine1}</span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E]">{copy.titleLine2}</span>
+                <span className="italic text-[#F6C66B]">{copy.titleLine2}</span>
               </motion.h1>
 
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-3">
@@ -477,9 +469,6 @@ export default function SolutionsHubPage() {
 
         {/* CLOSING CTA */}
         <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
-          <div className="absolute inset-0 bg-grid-texture" />
-          <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
-          <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>

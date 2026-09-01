@@ -3,6 +3,7 @@
 import type { ReactNode } from 'react';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { EditorialImage } from '@/components/ui/EditorialImage';
+import { balanceSentences } from '@/lib/balanceSentences';
 
 /**
  * Humanized editorial band - a full-bleed, brand-graded restaurant frame that
@@ -72,7 +73,7 @@ export function SectionEditorialBand({
                 </span>
               </div>
               <h2 className="text-2xl sm:text-3xl lg:text-[2.6rem] font-bold tracking-tight leading-[1.12] text-white text-balance [text-shadow:0_2px_18px_rgba(0,0,0,0.45)]">
-                {headline}
+                {balanceSentences(headline)}
               </h2>
               {sub && (
                 <p className="mt-4 max-w-xl text-sm sm:text-base text-white/80 leading-relaxed [text-shadow:0_1px_12px_rgba(0,0,0,0.5)]">

@@ -20,7 +20,7 @@ import { HeroPulseMockup } from "./HeroPulseMockup";
  *
  * CTA hierarchy:
  *   Primary  - `Book a Working Session` (high-intent, sales-led)
- *   Secondary - `Start with Report Lite` (acquisition)
+ *   Secondary - `See plans` (acquisition)
  */
 export function Hero() {
   const reduceMotion = useReducedMotion();
@@ -82,7 +82,7 @@ export function Hero() {
                 </svg>
               </Button>
               <Button href={REPORT_APP_URL} variant="outline-light" size="lg">
-                Start with Report Lite
+                See plans
               </Button>
             </motion.div>
 

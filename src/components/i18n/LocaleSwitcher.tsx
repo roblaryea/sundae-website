@@ -1,6 +1,6 @@
 'use client'
 
-import { usePathname, useRouter, useSearchParams } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import {
   getLocalizedPathname,
   persistWebsiteLocalePreference,
@@ -33,7 +33,6 @@ export function LocaleSwitcher() {
   const { locale, setLocale, messages } = useWebsiteI18n()
   const pathname = usePathname()
   const router = useRouter()
-  const searchParams = useSearchParams()
 
   return (
     <label className="relative inline-flex items-center">
@@ -70,8 +69,13 @@ export function LocaleSwitcher() {
           if (nextLocale === locale) return
 
           const nextPathname = getLocalizedPathname(pathname, nextLocale)
-          const search = searchParams.toString()
-          const nextUrl = search ? `${nextPathname}?${search}` : nextPathname
+          // Preserve any existing query string (e.g. utm_*) without pulling in
+          // useSearchParams() at render time - that hook forces a client-side
+          // rendering bailout of the nearest Suspense boundary (the root layout
+          // one), which blanked SSR for the whole site. Reading window.location
+          // here (inside the click handler) is client-only and has no such cost.
+          const search = typeof window !== 'undefined' ? window.location.search : ''
+          const nextUrl = search ? `${nextPathname}${search}` : nextPathname
 
           setLocale(nextLocale)
           document.documentElement.lang = nextLocale

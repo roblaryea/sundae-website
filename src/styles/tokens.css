@@ -185,23 +185,28 @@
    ============================================== */
 
 html.light {
-  /* ─── Foundation ─── */
-  --navy-deep: #FFFFFF;
-  --navy: #FAF7F2;
-  --navy-surface: #F3EEE6;
+  /* ─── Foundation ───
+     Light is its OWN system, not a dimmed dark theme: the page is warm PAPER
+     (not cold #FFF) and cards are pure white, so elevation reads from the
+     surface contrast + real shadows below - the way light UIs earn depth. */
+  --navy-deep: #FBF7F1;   /* warm paper page base (was #FFFFFF, cold) */
+  --navy: #FFFFFF;        /* cards sit brighter than the page → they lift */
+  --navy-surface: #FFFFFF;
 
-  --background: #FFFFFF;
+  --background: #FBF7F1;
   --foreground: #2A2320;
 
-  /* ─── Text Hierarchy ─── */
-  --text-primary: #2A2320;
-  --text-secondary: rgba(42, 35, 32, 0.75);
-  --text-supporting: rgba(42, 35, 32, 0.6);
-  --text-muted: rgba(42, 35, 32, 0.5);
-  --text-faint: rgba(42, 35, 32, 0.15);
-  --muted-grey: #8C7F71;
-  --eyebrow: rgba(42, 35, 32, 0.55);   /* muted warm label on light (warm ink, not coral) */
-  --text-display: #2A2320;             /* display headings = warm ink on light (same as --text-primary) */
+  /* ─── Text Hierarchy ───
+     Deeper warm ink than before → display headings carry real contrast punch
+     on warm paper (the light-mode equivalent of dark's bright display). */
+  --text-primary: #241D17;
+  --text-secondary: rgba(36, 29, 23, 0.78);
+  --text-supporting: rgba(36, 29, 23, 0.62);
+  --text-muted: rgba(36, 29, 23, 0.52);
+  --text-faint: rgba(36, 29, 23, 0.16);
+  --muted-grey: #857869;
+  --eyebrow: rgba(36, 29, 23, 0.58);   /* warm label on light (warm ink, not coral) */
+  --text-display: #1E1711;             /* deep warm ink display headings → more punch in light */
 
   /* ─── Surface Transparency Scale ─── */
   --surface-faint: rgba(42, 35, 32, 0.02);
@@ -209,40 +214,45 @@ html.light {
   --surface-hover: rgba(42, 35, 32, 0.05);
   --surface-emphasis: rgba(42, 35, 32, 0.08);
 
-  /* ─── Shadows & Glows (softer for light) ─── */
-  --glow-blue: 0 0 40px rgba(255, 92, 77, 0.12);
-  --glow-strong: 0 0 60px rgba(255, 92, 77, 0.15), 0 0 100px rgba(233, 162, 74, 0.06);
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.06);
-  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+  /* ─── Shadows & Glows ───
+     On white, additive glows vanish - so light earns depth from layered,
+     warm-tinted SHADOWS (brown, not black), and the brand "glow" becomes a
+     soft warm LIFT under CTAs/cards instead of an invisible halo. */
+  --glow-blue: 0 18px 38px -12px rgba(224, 62, 72, 0.36);
+  --glow-strong: 0 26px 52px -18px rgba(224, 62, 72, 0.34), 0 10px 24px -10px rgba(233, 162, 74, 0.24);
+  --shadow-card: 0 1px 2px rgba(74, 49, 32, 0.06), 0 14px 30px -12px rgba(74, 49, 32, 0.20), 0 36px 66px -28px rgba(74, 49, 32, 0.18);
+  --shadow-xl: 0 40px 82px -28px rgba(74, 49, 32, 0.28), 0 16px 36px -16px rgba(74, 49, 32, 0.18);
 
   /* ─── Borders ─── */
-  --border-default: rgba(42, 35, 32, 0.1);
+  --border-default: rgba(42, 35, 32, 0.14);
   --border-hover: rgba(255, 92, 77, 0.3);
   --border-emphasis: rgba(42, 35, 32, 0.15);
 
-  /* ─── Background Meshes (light versions) ─── */
-  --bg-mesh: radial-gradient(ellipse 80% 60% at 20% 40%, rgba(255,92,77,0.045) 0%, transparent 60%),
-             radial-gradient(ellipse 60% 50% at 80% 60%, rgba(233,162,74,0.04) 0%, transparent 50%),
-             #FFFFFF;
-  --bg-top-glow: radial-gradient(ellipse 100% 40% at 50% 0%, rgba(255,92,77,0.05) 0%, transparent 60%),
-                 #FFFFFF;
-  --bg-center-glow: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(255,92,77,0.04) 0%, transparent 60%),
-                    #FFFFFF;
+  /* ─── Background Meshes (light) ───
+     Warm paper end-stop + a touch more tint so sections carry ambient warmth
+     (the dark theme's atmosphere), instead of reading as cold flat white. */
+  --bg-mesh: radial-gradient(ellipse 85% 60% at 18% 36%, rgba(255,120,80,0.075) 0%, transparent 60%),
+             radial-gradient(ellipse 65% 55% at 82% 62%, rgba(233,162,74,0.07) 0%, transparent 52%),
+             #FBF7F1;
+  --bg-top-glow: radial-gradient(ellipse 110% 46% at 50% 0%, rgba(255,150,90,0.12) 0%, transparent 62%),
+                 #FBF7F1;
+  --bg-center-glow: radial-gradient(ellipse 65% 55% at 50% 50%, rgba(255,120,80,0.06) 0%, transparent 60%),
+                    #FBF7F1;
 
   /* ─── Semantic UI Tokens ─── */
   --surface: #FFFFFF;
-  --surface-alt: #FAF7F2;
-  --surface-raised: #F3EEE6;
+  --surface-alt: #FBF7F1;
+  --surface-raised: #FFFFFF;     /* raised elements go pure white so they lift off the warm paper */
   --text: var(--text-primary);
   --text-secondary-ui: var(--text-secondary);
   --border: var(--border-default);
   --border-strong: var(--border-emphasis);
-  --shadow-color: rgba(0, 0, 0, 0.08);
+  --shadow-color: rgba(74, 49, 32, 0.16);  /* warm-tinted shadow, not flat black */
   --hover-bg: var(--surface-hover);
-  --link-hover: #C8392A;
-  --accent-warm: #C8392A;        /* deeper warm so eyebrow/link text holds contrast on white */
-  --cream: #F1E6D1;              /* deeper/warmer in light mode so relief zones read against white */
-  --cream-edge: #E6D8BD;
+  --link-hover: #CC3A1E;
+  --accent-warm: #CC3A1E;        /* confident warm accent, kept dark enough to hold AA on white */
+  --cream: #F6E4C4;              /* richer apricot cream → warmer relief rhythm in light */
+  --cream-edge: #EAD3A8;
 
   /* ─── Trust (warm olive) - deeper on white so it holds contrast ─── */
   --trust: #6E7C3A;

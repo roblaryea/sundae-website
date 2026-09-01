@@ -44,10 +44,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core ←"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "اسأل بياناتك بلغة بسيطة واحصل على إجابة مبنية على أرقام الليلة الحقيقية - AED 96,555 من الإيرادات عبر 379 طلباً، وأكثر أصنافك مبيعاً، ومتابعة مقترحة عندما يقفز صنف مثل Banana Bread فجأة في القائمة. المحادثات والمجموعات تُبقي كل خط أسئلة عند آخر نقطة توقفت عندها.",
-          "alt": "Sundae Intelligence - واجهة قرار حوارية",
-          "productLabel": "Sundae Intelligence ←"
+          "alt": "Ask Sundae - واجهة قرار حوارية",
+          "productLabel": "Ask Sundae ←"
         },
         {
           "caption": "Pulse - لوحة المتابعة الحيّة",
@@ -125,7 +125,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - محاكي السيناريوهات",
           "whatYouSee": "حرّك رافعة واحدة وراقب أثرها يتموّج عبر النموذج كله - الضيوف وقيمة الفاتورة تتدفّق إلى الإيراد، ثم تكلفة الطعام والعمالة، نزولاً حتى EBITDA - مع كل محرّك على شريط تمرير، فترى ما تساويه نقلة واحدة حقاً قبل أن تقدم عليها.",
           "alt": "Intelligence Simulator - تسلسل سيناريو ماذا-لو",
-          "productLabel": "Sundae Intelligence ←"
+          "productLabel": "Ask Sundae ←"
         },
         {
           "caption": "Watchtower - مركز القيادة",
@@ -308,10 +308,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Interrogez vos données en langage courant et obtenez une réponse ancrée dans les chiffres réels de ce soir - AED 96,555 de revenus sur 379 commandes, vos meilleures ventes, et une question de suivi suggérée quand un plat comme Banana Bread grimpe soudain au menu. Les fils et collections gardent chaque ligne de questionnement là où vous l'avez laissée.",
-          "alt": "Sundae Intelligence - interface conversationnelle d'aide à la décision",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interface conversationnelle d'aide à la décision",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Tableau en direct",
@@ -389,7 +389,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulateur de scénarios",
           "whatYouSee": "Tirez un levier et regardez l'effet se propager dans tout le modèle - couverts et ticket alimentent le revenu, puis le coût matière et la main-d'œuvre, jusqu'à l'EBITDA - chaque variable sur un curseur, pour voir ce que vaut vraiment un seul changement avant de le faire.",
           "alt": "Simulateur Intelligence - cascade de scénarios what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centre de commandement",
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
         "c_suite": "Alta dirección",
         "cfo": "Finanzas",
         "multi_loc": "Multilocal",
-        "topology": "Sensible a la topología",
+        "topology": "Multimarca y región",
         "hr": "RR. HH.",
         "marketing": "Marketing",
         "tech": "Tecnología"
@@ -572,10 +572,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Pregunta a tus datos en lenguaje natural y obtén una respuesta basada en las cifras reales de esta noche - AED 96,555 en ingresos sobre 379 pedidos, tus productos más vendidos y un seguimiento sugerido cuando algo como Banana Bread escala de repente en la carta. Hilos y colecciones mantienen cada línea de preguntas justo donde la dejaste.",
-          "alt": "Sundae Intelligence - interfaz conversacional de decisiones",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interfaz conversacional de decisiones",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard en vivo",
@@ -653,7 +653,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulador de escenarios",
           "whatYouSee": "Mueve una palanca y observa cómo se propaga por todo el modelo - comensales y ticket fluyen hacia los ingresos, luego el coste de alimentos y el personal, hasta llegar al EBITDA - con cada variable en un control deslizante, para que veas cuánto vale realmente un solo cambio antes de hacerlo.",
           "alt": "Intelligence Simulador - cascada de escenarios hipotéticos",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centro de mando",
@@ -746,19 +746,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Salud de franquicia",
+          "caption": "Tu estructura de reporte, del grupo al local",
           "whatYouSee": "Un índice de salud compuesto por local en todo tu negocio - Abu Dhabi, Dubái, El Cairo, Riad en una sola matriz de riesgo - para que veas de un vistazo qué unidades prosperan y cuáles necesitan una visita, y luego acotes la vista a cualquier marca o región con un clic.",
           "alt": "Salud de franquicia - 4 locales en ciudades de MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Viabilidad de local",
+          "caption": "Tu estructura de reporte, del grupo al local",
           "whatYouSee": "Evalúa un nuevo local antes de firmar el contrato - proyecta su punto de equilibrio, VAN y P&L del primer año, y luego mueve los controles de capex, alquiler, coste de alimentos y personal, gastos generales y ramp-up hasta que el trato cuadre. El emplazamiento que sale a cuenta y el que no, resueltos en pantalla en lugar de tras la obra.",
           "alt": "Viabilidad de local - modelador de VAN y punto de equilibrio para nuevo local",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Árbol de organización",
+          "caption": "Tu estructura de reporte, del grupo al local",
           "whatYouSee": "Toda tu estructura jerárquica mapeada en un árbol organizativo vivo - decenas de nodos desde el grupo hasta el local, representados como tarjetas con foto y cada línea de reporte trazada - para que quién responde ante quién entre marcas y regiones sea por fin una imagen clara, no un montón de hojas de cálculo.",
           "alt": "Árbol de organización de Crew - estructura jerárquica de 75 nodos",
           "productLabel": "Sundae Crew →"
@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
         "c_suite": "Geschäftsführung",
         "cfo": "Finanzen",
         "multi_loc": "Mehrere Standorte",
-        "topology": "Topologie-fähig",
+        "topology": "Mehrere Marken & Regionen",
         "hr": "Personal",
         "marketing": "Marketing",
         "tech": "Technologie"
@@ -836,10 +836,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Fragen Sie Ihre Daten in natürlicher Sprache und erhalten Sie eine Antwort auf Basis der echten Zahlen von heute Abend - AED 96,555 Umsatz über 379 Bestellungen, Ihre Topseller und eine vorgeschlagene Folgefrage, wenn etwas wie Banana Bread plötzlich in der Menükarte aufsteigt. Threads und Sammlungen halten jeden Gedankenstrang dort, wo Sie ihn verlassen haben.",
-          "alt": "Sundae Intelligence - konversationsbasierte Entscheidungsoberfläche",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - konversationsbasierte Entscheidungsoberfläche",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live-Wallboard",
@@ -917,7 +917,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Szenario-Simulator",
           "whatYouSee": "Ziehen Sie an einem Hebel und beobachten Sie, wie er durch das gesamte Modell wirkt - Gedecke und Bonhöhe fließen in den Umsatz, dann Wareneinsatz und Personal, bis hinunter zum EBITDA - mit jedem Treiber auf einem Regler, damit Sie sehen, was eine einzelne Änderung wirklich wert ist, bevor Sie sie umsetzen.",
           "alt": "Intelligence Simulator - Was-wäre-wenn-Szenariokaskade",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -1010,19 +1010,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Ihre Berichtsstruktur, von der Gruppe bis zum Standort",
           "whatYouSee": "Ein zusammengesetzter Gesundheitswert pro Standort über Ihr gesamtes Netz - Abu Dhabi, Dubai, Kairo, Riad in einer einzigen Risikomatrix - damit Sie auf einen Blick sehen, welche Einheiten florieren und welche einen Besuch brauchen, und die Ansicht mit einem Klick auf jede Marke oder Region eingrenzen.",
           "alt": "Franchise Health - 4 Standorte in MENA-Städten",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Ihre Berichtsstruktur, von der Gruppe bis zum Standort",
           "whatYouSee": "Bewerten Sie einen neuen Standort, bevor Sie den Mietvertrag unterschreiben - prognostizieren Sie Break-even, NPV und P&L des ersten Jahres und verschieben Sie dann Regler für Investitionen, Miete, Wareneinsatz und Personalkosten, Gemeinkosten und Anlaufphase, bis das Geschäft aufgeht. Der Standort, der sich rechnet, und der, der es nicht tut, auf dem Bildschirm entschieden statt nach dem Bau.",
           "alt": "Outlet Viability - NPV- und Break-even-Modellierer für neue Standorte",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organisationsbaum",
+          "caption": "Ihre Berichtsstruktur, von der Gruppe bis zum Standort",
           "whatYouSee": "Ihre gesamte Berichtsstruktur in einem lebendigen Organisationsbaum abgebildet - Dutzende Knoten von der Gruppe bis zum Standort, als Fotokarten mit eingezeichneter Berichtslinie dargestellt - damit endlich auf einem klaren Bild steht, wer über Marken und Regionen hinweg wem unterstellt ist, statt in einem Stapel Tabellen.",
           "alt": "Crew Organisationsbaum - Berichtsstruktur mit 75 Knoten",
           "productLabel": "Sundae Crew →"
@@ -1071,7 +1071,7 @@ export const generatedLocalCopy = {
         "c_suite": "Directie",
         "cfo": "Financiën",
         "multi_loc": "Meerdere locaties",
-        "topology": "Topologiebewust",
+        "topology": "Multi-merk & regio",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Technologie"
@@ -1100,10 +1100,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Stel je vraag in gewone taal en krijg een antwoord dat geworteld is in de echte cijfers van vanavond - AED 96,555 omzet over 379 bestellingen, je toppers, en een vervolgsuggestie wanneer iets als Banana Bread plots stijgt op de kaart. Threads en collecties houden elke vraaglijn precies waar je gebleven was.",
-          "alt": "Sundae Intelligence - conversationele beslisinterface",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - conversationele beslisinterface",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -1181,7 +1181,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "Trek aan één hendel en zie het door het hele model rimpelen - gasten en gemiddelde besteding stromen in de omzet, dan foodcost en personeel, helemaal door tot de EBITDA - met elke driver op een schuif, zodat je ziet wat één enkele wijziging echt waard is voordat je hem doorvoert.",
           "alt": "Intelligence Simulator - what-if-scenario-cascade",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -1274,19 +1274,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Je rapportagestructuur, van groep tot vestiging",
           "whatYouSee": "Eén samengestelde gezondheidsscore per vestiging over je hele keten - Abu Dhabi, Dubai, Cairo, Riyadh op één risicomatrix - zodat je in één oogopslag ziet welke vestigingen floreren en welke een bezoek nodig hebben, en de weergave met één klik kunt inkaderen op elk merk of elke regio.",
           "alt": "Franchise Health - 4 vestigingen in MENA-steden",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Je rapportagestructuur, van groep tot vestiging",
           "whatYouSee": "Onderbouw een nieuwe vestiging voordat je het huurcontract tekent - projecteer break-even, NPV en de P&L van het eerste jaar, en schuif vervolgens met capex, huur, foodcost en loonkosten, overhead en aanloop tot de deal klopt. De locatie die rendeert en die het niet doet, beslecht op het scherm in plaats van na de bouw.",
           "alt": "Outlet Viability - NPV- en break-evenmodel voor nieuwe vestigingen",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "Je rapportagestructuur, van groep tot vestiging",
           "whatYouSee": "Je hele rapportagestructuur in kaart gebracht in één levende organisatieboom - tientallen knooppunten van groep tot vestiging, weergegeven als fotokaarten met elke rapportagelijn ingetekend - zodat wie aan wie rapporteert over merken en regio's eindelijk één helder beeld is, geen stapel spreadsheets.",
           "alt": "Crew Organization Tree - rapportagestructuur van 75 knooppunten",
           "productLabel": "Sundae Crew →"
@@ -1335,7 +1335,7 @@ export const generatedLocalCopy = {
         "c_suite": "Direção executiva",
         "cfo": "Finanças",
         "multi_loc": "Multi-localização",
-        "topology": "Consciente da topologia",
+        "topology": "Multimarca e região",
         "hr": "Recursos Humanos",
         "marketing": "Marketing",
         "tech": "Tecnologia"
@@ -1364,10 +1364,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Pergunte aos seus dados em linguagem natural e receba uma resposta ancorada nos números reais desta noite - AED 96,555 em receita ao longo de 379 pedidos, os seus campeões de vendas e uma sugestão de seguimento quando algo como Banana Bread sobe de repente no menu. Threads e coleções mantêm cada linha de questionamento exatamente onde a deixou.",
-          "alt": "Sundae Intelligence - interface conversacional de decisão",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interface conversacional de decisão",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard ao Vivo",
@@ -1445,7 +1445,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulador de Cenários",
           "whatYouSee": "Puxe uma alavanca e veja-a propagar-se por todo o modelo - clientes servidos e ticket fluem para a receita, depois custo de comida e mão de obra, até chegar ao EBITDA - com cada variável num cursor, para ver quanto vale realmente uma única mudança antes de a fazer.",
           "alt": "Intelligence Simulador - cascata de cenários hipotéticos",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centro de Comando",
@@ -1538,19 +1538,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Saúde da Franquia",
+          "caption": "A sua estrutura hierárquica, do grupo à unidade",
           "whatYouSee": "Um score de saúde composto por estabelecimento em todo o seu negócio - Abu Dhabi, Dubai, Cairo, Riade numa única matriz de risco - para ver num relance que unidades prosperam e quais precisam de uma visita, e depois ajustar a vista a qualquer marca ou região num clique.",
           "alt": "Saúde da Franquia - 4 estabelecimentos em cidades do MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Viabilidade de Estabelecimento",
+          "caption": "A sua estrutura hierárquica, do grupo à unidade",
           "whatYouSee": "Avalie um novo estabelecimento antes de assinar o contrato - projete o seu break-even, NPV e P&L do primeiro ano, depois mova cursores para investimento, renda, custo de comida e mão de obra, despesas gerais e arranque até o negócio fazer sentido. O local que compensa e o que não compensa, decididos no ecrã em vez de depois da obra.",
           "alt": "Viabilidade de Estabelecimento - modelador de NPV + break-even de novo estabelecimento",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Árvore da Organização",
+          "caption": "A sua estrutura hierárquica, do grupo à unidade",
           "whatYouSee": "Toda a sua estrutura hierárquica mapeada numa árvore organizacional viva - dezenas de nós, do grupo até ao estabelecimento, apresentados como cartões com foto e cada linha hierárquica desenhada - para que quem responde a quem entre marcas e regiões seja finalmente uma imagem clara, e não uma pilha de folhas de cálculo.",
           "alt": "Crew Árvore da Organização - estrutura hierárquica de 75 nós",
           "productLabel": "Sundae Crew →"
@@ -1599,7 +1599,7 @@ export const generatedLocalCopy = {
         "c_suite": "शीर्ष नेतृत्व",
         "cfo": "वित्त",
         "multi_loc": "कई लोकेशन",
-        "topology": "टोपोलॉजी-आधारित",
+        "topology": "बहु-ब्रांड और क्षेत्र",
         "hr": "HR",
         "marketing": "मार्केटिंग",
         "tech": "टेक्नोलॉजी"
@@ -1628,10 +1628,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "अपने डेटा से सहज भाषा में सवाल पूछिए और आज रात के असली आँकड़ों पर टिका जवाब पाइए - 379 ऑर्डर में AED 96,555 का रेवेन्यू, आपके टॉप सेलर, और जब Banana Bread जैसा कुछ अचानक मेन्यू में ऊपर चढ़ जाए तो एक सुझाया गया अगला कदम। थ्रेड और कलेक्शन हर सवाल की कड़ी वहीं संभाल कर रखते हैं जहाँ आपने छोड़ी थी।",
-          "alt": "Sundae Intelligence - संवादात्मक निर्णय इंटरफ़ेस",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - संवादात्मक निर्णय इंटरफ़ेस",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - लाइव वॉलबोर्ड",
@@ -1709,7 +1709,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "एक लीवर खींचिए और उसे पूरे मॉडल में लहराते देखिए - कवर और टिकट रेवेन्यू में बहते हैं, फिर फूड कॉस्ट और लेबर, और नीचे EBITDA तक - हर ड्राइवर एक स्लाइडर पर, ताकि बदलाव करने से पहले आप देख लें कि एक अकेला बदलाव वाकई कितने का है।",
           "alt": "Intelligence Simulator - what-if परिदृश्य का असर",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - कमांड सेंटर",
@@ -1802,19 +1802,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "आपकी रिपोर्टिंग संरचना, समूह से आउटलेट तक",
           "whatYouSee": "आपकी पूरी संपदा में प्रति आउटलेट एक संयुक्त हेल्थ स्कोर - Abu Dhabi, Dubai, Cairo, Riyadh एक ही रिस्क मैट्रिक्स पर - ताकि एक नज़र में दिखे कि कौन-सी इकाइयाँ फल-फूल रही हैं और किसे एक दौरे की ज़रूरत है, फिर एक क्लिक में किसी भी ब्रांड या क्षेत्र तक व्यू समेट लीजिए।",
           "alt": "Franchise Health - MENA शहरों में 4 आउटलेट",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "आपकी रिपोर्टिंग संरचना, समूह से आउटलेट तक",
           "whatYouSee": "लीज़ पर हस्ताक्षर करने से पहले नए आउटलेट को परखिए - उसका ब्रेक-ईवन, NPV और पहले साल का P&L प्रक्षेपित कीजिए, फिर capex, किराया, फूड और लेबर कॉस्ट, ओवरहेड और ramp के स्लाइडर तब तक हिलाइए जब तक सौदा बैठ न जाए। जो साइट हिसाब में आती है और जो नहीं, स्क्रीन पर तय - निर्माण के बाद नहीं।",
           "alt": "Outlet Viability - नया-आउटलेट NPV + ब्रेक-ईवन मॉडलर",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - संगठन वृक्ष",
+          "caption": "आपकी रिपोर्टिंग संरचना, समूह से आउटलेट तक",
           "whatYouSee": "आपका पूरा रिपोर्टिंग ढाँचा एक जीवंत org ट्री में मैप - समूह से लेकर आउटलेट तक दर्जनों नोड, हर रिपोर्टिंग लाइन खिंची हुई फ़ोटो कार्ड के रूप में - ताकि ब्रांड और क्षेत्रों में कौन किसके अधीन है, आख़िरकार एक साफ़ तस्वीर बने, स्प्रेडशीट का ढेर नहीं।",
           "alt": "Crew Organization Tree - 75-नोड रिपोर्टिंग ढाँचा",
           "productLabel": "Sundae Crew →"
@@ -1863,7 +1863,7 @@ export const generatedLocalCopy = {
         "c_suite": "C-Suite",
         "cfo": "فنانس",
         "multi_loc": "متعدد لوکیشنز",
-        "topology": "Topology-آگاہ",
+        "topology": "کثیر برانڈ اور خطہ",
         "hr": "HR",
         "marketing": "مارکیٹنگ",
         "tech": "ٹیکنالوجی"
@@ -1892,10 +1892,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "اپنے ڈیٹا سے سادہ زبان میں سوال کریں اور آج رات کے حقیقی اعداد پر مبنی جواب پائیں - 379 آرڈرز پر AED 96,555 کا ریونیو، آپ کے سب سے زیادہ بکنے والے آئٹمز، اور جب Banana Bread جیسی کوئی چیز اچانک مینو میں اوپر چڑھے تو ایک تجویز کردہ اگلا قدم۔ تھریڈز اور کلیکشنز سوال کی ہر لڑی کو وہیں محفوظ رکھتے ہیں جہاں آپ نے چھوڑی تھی۔",
-          "alt": "Sundae Intelligence - گفتگو پر مبنی فیصلہ ساز انٹرفیس",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - گفتگو پر مبنی فیصلہ ساز انٹرفیس",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -1973,7 +1973,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "ایک لیور کھینچیں اور دیکھیں کہ وہ پورے ماڈل میں کیسے لہر بن کر پھیلتا ہے - covers اور ٹکٹ ریونیو میں، پھر فوڈ کاسٹ اور لیبر، نیچے EBITDA تک - ہر driver ایک slider پر، تاکہ آپ کوئی فیصلہ کرنے سے پہلے دیکھ سکیں کہ ایک تبدیلی کی اصل قیمت کیا ہے۔",
           "alt": "Intelligence Simulator - what-if منظرنامہ آبشار",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -2066,19 +2066,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "آپ کا رپورٹنگ ڈھانچہ، گروپ سے برانچ تک",
           "whatYouSee": "آپ کی پوری سلطنت میں فی آؤٹ لیٹ ایک مرکب ہیلتھ اسکور - Abu Dhabi، Dubai، Cairo، Riyadh ایک ہی رِسک میٹرکس پر - تاکہ آپ ایک نظر میں دیکھ لیں کہ کون سی یونٹس پھل پھول رہی ہیں اور کس کو دورہ درکار ہے، پھر ایک ہی کلک میں ویو کو کسی بھی برانڈ یا ریجن تک محدود کریں۔",
           "alt": "Franchise Health - MENA شہروں میں 4 آؤٹ لیٹس",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "آپ کا رپورٹنگ ڈھانچہ، گروپ سے برانچ تک",
           "whatYouSee": "لیز پر دستخط کرنے سے پہلے ایک نئے آؤٹ لیٹ کا تجزیہ کریں - اُس کا break-even، NPV اور پہلے سال کا P&L تخمینہ لگائیں، پھر capex، کرایہ، فوڈ اور لیبر کاسٹ، overhead اور ramp کے لیے sliders حرکت دیں جب تک سودا بن نہ جائے۔ جو سائٹ منافع بخش بنتی ہے اور جو نہیں، تعمیر کے بعد نہیں بلکہ اسکرین پر طے۔",
           "alt": "Outlet Viability - نئے آؤٹ لیٹ کا NPV + break-even ماڈلر",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "آپ کا رپورٹنگ ڈھانچہ، گروپ سے برانچ تک",
           "whatYouSee": "آپ کا پورا رپورٹنگ ڈھانچہ ایک زندہ org tree میں نقشہ بند - گروپ سے لے کر آؤٹ لیٹ تک درجنوں nodes، فوٹو کارڈز کی صورت میں ہر رپورٹنگ لائن کے ساتھ - تاکہ برانڈز اور ریجنز کے آر پار کون کس کو جواب دہ ہے، آخرکار ایک واضح تصویر بن جائے، نہ کہ اسپریڈ شیٹس کا ڈھیر۔",
           "alt": "Crew Organization Tree - 75-node رپورٹنگ ڈھانچہ",
           "productLabel": "Sundae Crew →"
@@ -2127,7 +2127,7 @@ export const generatedLocalCopy = {
         "c_suite": "C-Suite",
         "cfo": "Finanza",
         "multi_loc": "Multi-sede",
-        "topology": "Sensibile alla topologia",
+        "topology": "Multi-marca e area",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Tecnologia"
@@ -2156,10 +2156,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Interroga i tuoi dati in linguaggio naturale e ottieni una risposta basata sui numeri reali di stasera - AED 96,555 di ricavi su 379 ordini, i tuoi piatti più venduti e un approfondimento suggerito quando qualcosa come Banana Bread scala improvvisamente il menu. Thread e collezioni mantengono ogni filo di domande esattamente dove lo avevi lasciato.",
-          "alt": "Sundae Intelligence - interfaccia conversazionale per le decisioni",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interfaccia conversazionale per le decisioni",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard in tempo reale",
@@ -2237,7 +2237,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulatore di scenari",
           "whatYouSee": "Tira una leva e guardala propagarsi attraverso l'intero modello - coperti e scontrino confluiscono nei ricavi, poi food cost e lavoro, fino all'EBITDA - con ogni driver su uno slider, così vedi quanto vale davvero un singolo cambiamento prima di metterlo in atto.",
           "alt": "Intelligence Simulator - cascata di scenari what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centro di comando",
@@ -2330,19 +2330,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Salute del franchising",
+          "caption": "La tua struttura gerarchica, dal gruppo alla sede",
           "whatYouSee": "Un unico indice di salute composito per ogni punto vendita su tutto il tuo network - Abu Dhabi, Dubai, Il Cairo, Riyadh su una sola matrice di rischio - così vedi a colpo d'occhio quali unità prosperano e quali necessitano di una visita, poi restringi la vista a qualsiasi brand o regione con un clic.",
           "alt": "Salute del franchising - 4 punti vendita in città del MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Sostenibilità del punto vendita",
+          "caption": "La tua struttura gerarchica, dal gruppo alla sede",
           "whatYouSee": "Valuta un nuovo punto vendita prima di firmare il contratto - proietta break-even, NPV e P&L del primo anno, poi muovi gli slider di capex, affitto, food cost, lavoro, costi generali e ramp-up finché l'affare regge. La sede che torna e quella che non torna, decise sullo schermo invece che dopo la costruzione.",
           "alt": "Sostenibilità del punto vendita - modellatore di NPV e break-even per nuove sedi",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Albero organizzativo",
+          "caption": "La tua struttura gerarchica, dal gruppo alla sede",
           "whatYouSee": "L'intera struttura di reporting mappata in un unico organigramma vivo - decine di nodi dal gruppo fino al punto vendita, resi come schede con foto e ogni linea di reporting tracciata - così chi risponde a chi tra brand e regioni diventa finalmente un quadro chiaro, non una pila di fogli di calcolo.",
           "alt": "Albero organizzativo Crew - struttura di reporting a 75 nodi",
           "productLabel": "Sundae Crew →"
@@ -2391,7 +2391,7 @@ export const generatedLocalCopy = {
         "c_suite": "Zarząd",
         "cfo": "Finanse",
         "multi_loc": "Wiele lokali",
-        "topology": "Świadomość topologii",
+        "topology": "Wiele marek i regionów",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Technologia"
@@ -2420,10 +2420,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Zapytaj swoje dane zwykłym językiem i otrzymaj odpowiedź opartą na rzeczywistych liczbach dzisiejszego wieczoru - AED 96,555 przychodu z 379 zamówień, Twoi najlepiej sprzedający się pozycje oraz podpowiedź dalszego kroku, gdy coś takiego jak Banana Bread nagle pnie się w górę menu. Wątki i kolekcje trzymają każdy tok pytań tam, gdzie go zostawiłeś.",
-          "alt": "Sundae Intelligence - konwersacyjny interfejs decyzyjny",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - konwersacyjny interfejs decyzyjny",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Tablica na żywo",
@@ -2501,7 +2501,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Symulator scenariuszy",
           "whatYouSee": "Pociągnij jedną dźwignię i patrz, jak fala przechodzi przez cały model - liczba gości i rachunek wpływają na przychód, potem koszt surowca i koszty pracy, aż w dół do EBITDA - z każdym czynnikiem na suwaku, więc widzisz, ile naprawdę warta jest pojedyncza zmiana, zanim jej dokonasz.",
           "alt": "Intelligence Simulator - kaskada scenariusza co-jeśli",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centrum dowodzenia",
@@ -2594,19 +2594,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Kondycja franczyzy",
+          "caption": "Twoja struktura raportowania, od grupy po lokalizację",
           "whatYouSee": "Jeden złożony wskaźnik kondycji na lokal w całej Twojej sieci - Abu Dhabi, Dubaj, Kair, Rijad na jednej macierzy ryzyka - więc na jeden rzut oka widzisz, które jednostki kwitną, a które potrzebują wizyty, a potem zawęzisz widok do dowolnej marki lub regionu jednym kliknięciem.",
           "alt": "Kondycja franczyzy - 4 lokale w miastach regionu MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Rentowność lokalu",
+          "caption": "Twoja struktura raportowania, od grupy po lokalizację",
           "whatYouSee": "Oceń nowy lokal, zanim podpiszesz umowę najmu - sprognozuj jego próg rentowności, NPV i P&L pierwszego roku, a potem ruszaj suwakami kosztów inwestycji, czynszu, surowca i pracy, kosztów ogólnych i rozruchu, aż transakcja zacznie się spinać. Lokalizacja, która się opłaca, i ta, która nie, rozstrzygnięte na ekranie, a nie po budowie.",
           "alt": "Rentowność lokalu - modeler NPV i progu rentowności nowego lokalu",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologia - Drzewo organizacji",
+          "caption": "Twoja struktura raportowania, od grupy po lokalizację",
           "whatYouSee": "Cała Twoja struktura raportowania naniesiona na jedno żywe drzewo organizacji - dziesiątki węzłów od grupy w dół do lokalu, wyrenderowane jako karty ze zdjęciami z każdą linią raportowania - więc kto komu podlega w markach i regionach to wreszcie jeden jasny obraz, a nie stos arkuszy.",
           "alt": "Crew Organization Tree - struktura raportowania z 75 węzłami",
           "productLabel": "Sundae Crew →"
@@ -2684,10 +2684,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Verinize gündelik dille soru sorun, bu geceki gerçek rakamlara dayanan bir yanıt alın - 379 sipariş üzerinden AED 96,555 ciro, en çok satanlarınız ve örneğin Banana Bread menüde aniden yükselişe geçtiğinde önerilen bir takip adımı. Konu başlıkları ve koleksiyonlar her sorgu hattını bıraktığınız yerde tutar.",
-          "alt": "Sundae Intelligence - sohbet tabanlı karar arayüzü",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - sohbet tabanlı karar arayüzü",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Canlı Pano",
@@ -2765,7 +2765,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Senaryo Simülatörü",
           "whatYouSee": "Tek bir kaldıracı çekin ve onun tüm model boyunca yayılışını izleyin - müşteri sayısı ve adisyon gelire akar, sonra gıda maliyeti ve işgücü, ta EBITDA'ya kadar iner - her etken bir kaydırma çubuğunda. Böylece tek bir değişikliğin yapmadan önce gerçekte ne ifade ettiğini görürsünüz.",
           "alt": "Intelligence Simülatör - olası senaryo kademesi",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Komuta Merkezi",
@@ -2858,19 +2858,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Sağlığı",
+          "caption": "Raporlama yapınız, gruptan şubeye",
           "whatYouSee": "Tüm işletmeniz genelinde şube başına tek bir bileşik sağlık skoru - Abu Dhabi, Dubai, Kahire, Riyad tek bir risk matrisinde - böylece hangi şubelerin geliştiğini, hangilerinin bir ziyarete ihtiyacı olduğunu tek bakışta görür, sonra görünümü tek tıkla herhangi bir markaya ya da bölgeye daraltırsınız.",
           "alt": "Franchise Sağlığı - MENA şehirlerinde 4 şube",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Şube Yapılabilirliği",
+          "caption": "Raporlama yapınız, gruptan şubeye",
           "whatYouSee": "Kira sözleşmesini imzalamadan önce yeni bir şubeyi değerlendirin - başabaş noktasını, NPV'sini ve ilk yıl P&L'ini öngörün, sonra anlaşma tutana dek yatırım, kira, gıda ve işgücü maliyeti, genel gider ve devreye alma için kaydırma çubuklarını oynatın. Kâr eden lokasyon ile etmeyen, inşaattan sonra değil, ekranda netleşir.",
           "alt": "Şube Yapılabilirliği - yeni şube NPV + başabaş modelleyici",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organizasyon Ağacı",
+          "caption": "Raporlama yapınız, gruptan şubeye",
           "whatYouSee": "Tüm raporlama yapınız tek bir yaşayan organizasyon ağacına haritalanır - gruptan şubeye kadar onlarca düğüm, her raporlama hattı çizilmiş fotoğraf kartları hâlinde - böylece markalar ve bölgeler genelinde kimin kime bağlı olduğu nihayet net bir resim olur, bir yığın tablo değil.",
           "alt": "Crew Organizasyon Ağacı - 75 düğümlü raporlama yapısı",
           "productLabel": "Sundae Crew →"
@@ -2919,7 +2919,7 @@ export const generatedLocalCopy = {
         "c_suite": "高管层",
         "cfo": "财务",
         "multi_loc": "多门店",
-        "topology": "拓扑感知",
+        "topology": "多品牌与区域",
         "hr": "人力资源",
         "marketing": "营销",
         "tech": "技术"
@@ -2948,10 +2948,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "用大白话向你的数据提问，得到的是建立在今晚真实数字之上的回答 - 379 笔订单带来 AED 96,555 营收、你的畅销品，以及当 Banana Bread 这样的单品突然爬升菜单排名时给出的下一步追问建议。会话与收藏夹让每一条追问的思路都停在你离开的地方。",
-          "alt": "Sundae Intelligence - 对话式决策界面",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - 对话式决策界面",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - 实时看板",
@@ -3029,7 +3029,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - 情景模拟器",
           "whatYouSee": "拉动一根杠杆，看它如何在整个模型里层层传导 - 客流量与客单汇成营收，再到食材成本与人力，一路向下直抵 EBITDA - 每个驱动因素都配有滑块，让你在动手之前就看清一个改动到底值多少。",
           "alt": "Intelligence Simulator - 假设情景的连锁传导",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - 指挥中心",
@@ -3122,19 +3122,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "你的汇报结构，从集团到门店",
           "whatYouSee": "整个版图里每家门店一个综合健康分数 - Abu Dhabi、Dubai、Cairo、Riyadh 同列在一张风险矩阵上 - 让你一眼看清哪些门店蒸蒸日上、哪些需要你亲自走一趟，再一键把视图聚焦到任意品牌或区域。",
           "alt": "Franchise Health - 横跨 MENA 各城市的 4 家门店",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "你的汇报结构，从集团到门店",
           "whatYouSee": "在签下租约之前先为新门店做尽调 - 预测它的盈亏平衡、NPV 与首年 P&L，再拖动滑块调整资本开支、租金、食材与人力成本、管理费用和爬坡期，直到这笔账算得过来。划算的选址和不划算的，在屏幕上就见分晓，而不是等建成之后。",
           "alt": "Outlet Viability - 新门店 NPV 与盈亏平衡建模器",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - 组织树",
+          "caption": "你的汇报结构，从集团到门店",
           "whatYouSee": "把你整套汇报架构画进一棵活的组织树 - 从集团到门店的数十个节点，以照片卡片呈现，每条汇报线都一一画出 - 让谁向谁汇报、跨品牌跨区域的关系终于成为一幅清晰的图，而不是一摞表格。",
           "alt": "Crew Organization Tree - 75 个节点的汇报架构",
           "productLabel": "Sundae Crew →"
@@ -3212,10 +3212,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "ふだんの言葉でデータに尋ねれば、今夜の実数値に裏打ちされた答えが返ります - 379件の注文で売上 AED 96,555、売れ筋トップ、そして Banana Bread のようにメニューを急に駆け上がった一品があれば次の一手まで提案します。スレッドとコレクションが、すべての問いの流れを中断したところに保ちます。",
-          "alt": "Sundae Intelligence - 対話型の意思決定インターフェース",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - 対話型の意思決定インターフェース",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -3293,7 +3293,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "レバーを一つ引けば、それがモデル全体に波及する様子を見られます - 客数と客単価が売上に流れ込み、続いて食材原価と人件費、そして EBITDA まで - すべての要因がスライダーになっているので、たった一つの変更が本当はどれほどの価値を持つかを、実行前に確かめられます。",
           "alt": "Intelligence Simulator - 仮説検証シナリオの連鎖",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -3386,19 +3386,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "グループから店舗までのレポートライン",
           "whatYouSee": "全店舗網で店舗ごとに一つの総合健全性スコア - Abu Dhabi、Dubai、Cairo、Riyadh を一枚のリスクマトリクスに - だからどの店舗が好調でどの店舗が訪問を要するかが一目で分かり、ワンクリックでどのブランドやリージョンにもビューを絞り込めます。",
           "alt": "Franchise Health - MENA 各都市の4店舗",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "グループから店舗までのレポートライン",
           "whatYouSee": "リースに署名する前に、新店を引き受け審査する - 損益分岐点、NPV、初年度 P&L を予測し、設備投資、賃料、食材費、人件費、間接費、立ち上がりのスライダーを動かして案件が成り立つまで詰めます。採算が合う物件と合わない物件を、建ててからではなく画面の上で決着させます。",
           "alt": "Outlet Viability - 新店の NPV と損益分岐点モデラー",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "グループから店舗までのレポートライン",
           "whatYouSee": "あなたの報告体系の全体を、一つの生きた組織ツリーに - グループから店舗まで数十のノードを写真カードで描き、すべての報告ラインを引いて表示 - だからブランドとリージョンをまたいで誰が誰に報告するかが、スプレッドシートの束ではなく、ようやく一枚の明快な絵になります。",
           "alt": "Crew Organization Tree - 75ノードの報告体系",
           "productLabel": "Sundae Crew →"
@@ -3476,10 +3476,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "데이터에게 평소 말투로 묻고 오늘 밤 실제 숫자에 근거한 답을 받으세요. 379건의 주문에서 발생한 AED 96,555의 매출, 가장 잘 팔리는 메뉴, 그리고 Banana Bread처럼 갑자기 메뉴 순위를 치고 올라온 항목이 있을 때 이어서 살펴볼 후속 질문까지. 스레드와 컬렉션이 모든 질문의 흐름을 멈춘 자리에 그대로 보관해 둡니다.",
-          "alt": "Sundae Intelligence - 대화형 의사결정 인터페이스",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - 대화형 의사결정 인터페이스",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -3557,7 +3557,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "레버 하나를 당겨 모델 전체로 번지는 파장을 지켜보세요. 커버 수와 객단가가 매출로 흐르고, 이어 식자재 원가와 인건비를 거쳐 EBITDA까지 내려갑니다. 모든 동인이 슬라이더에 올라 있어, 단 하나의 변화가 실제로 얼마의 가치가 있는지 실행 전에 볼 수 있습니다.",
           "alt": "Intelligence Simulator - 가정 시나리오의 연쇄 효과",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -3650,19 +3650,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "그룹부터 매장까지의 보고 체계",
           "whatYouSee": "전체 매장망에 걸쳐 지점마다 하나의 종합 건강 점수를. Abu Dhabi, Dubai, Cairo, Riyadh를 단일 리스크 매트릭스 위에 올려, 어느 지점이 잘나가고 어느 지점에 방문이 필요한지 한눈에 봅니다. 그런 다음 클릭 한 번으로 어떤 브랜드나 지역으로든 범위를 좁히세요.",
           "alt": "Franchise Health - MENA 도시 전반의 4개 지점",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "그룹부터 매장까지의 보고 체계",
           "whatYouSee": "임대 계약에 서명하기 전에 신규 지점을 심사하세요. 손익분기, NPV, 첫해 P&L을 추정한 뒤, 자본지출, 임대료, 식자재·인건비, 간접비, 가동 단계의 슬라이더를 움직여 거래가 성립할 때까지 조정합니다. 수지가 맞는 입지와 그렇지 않은 입지를, 공사 후가 아니라 화면 위에서 가립니다.",
           "alt": "Outlet Viability - 신규 지점 NPV + 손익분기 모델러",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "그룹부터 매장까지의 보고 체계",
           "whatYouSee": "당신의 전체 보고 체계를 살아 있는 하나의 조직도로. 그룹부터 지점까지 수십 개의 노드를 사진 카드로 렌더링하고 모든 보고 라인을 그려넣습니다. 그래서 브랜드와 지역에 걸쳐 누가 누구에게 보고하는지가 마침내 스프레드시트 더미가 아니라 하나의 명확한 그림이 됩니다.",
           "alt": "Crew Organization Tree - 75개 노드 보고 체계",
           "productLabel": "Sundae Crew →"
@@ -3711,7 +3711,7 @@ export const generatedLocalCopy = {
         "c_suite": "Jajaran Direksi",
         "cfo": "Keuangan",
         "multi_loc": "Multi-lokasi",
-        "topology": "Sadar topologi",
+        "topology": "Multi-merek & wilayah",
         "hr": "SDM",
         "marketing": "Pemasaran",
         "tech": "Teknologi"
@@ -3740,10 +3740,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Tanya data Anda dengan bahasa sehari-hari dan dapatkan jawaban berlandaskan angka nyata malam ini - AED 96,555 pendapatan dari 379 pesanan, menu terlaris Anda, dan saran tindak lanjut saat sesuatu seperti Banana Bread tiba-tiba naik daun. Thread dan koleksi menjaga setiap alur pertanyaan tetap di tempat Anda meninggalkannya.",
-          "alt": "Sundae Intelligence - antarmuka keputusan percakapan",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - antarmuka keputusan percakapan",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard Langsung",
@@ -3821,7 +3821,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulator Skenario",
           "whatYouSee": "Tarik satu tuas dan saksikan riaknya menjalar ke seluruh model - jumlah tamu dan ticket mengalir jadi pendapatan, lalu food cost dan tenaga kerja, sampai ke EBITDA - dengan setiap penggerak pada slider, sehingga Anda bisa melihat nilai sebenarnya dari satu perubahan sebelum melakukannya.",
           "alt": "Intelligence Simulator - kaskade skenario what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Pusat Komando",
@@ -3914,19 +3914,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Kesehatan Waralaba",
+          "caption": "Struktur pelaporan Anda, dari grup hingga gerai",
           "whatYouSee": "Satu skor kesehatan komposit per gerai di seluruh jaringan Anda - Abu Dhabi, Dubai, Cairo, Riyadh dalam satu matriks risiko - sehingga sekilas Anda tahu unit mana yang berkembang dan mana yang butuh dikunjungi, lalu persempit tampilan ke brand atau region mana pun dengan satu klik.",
           "alt": "Franchise Health - 4 gerai di kota-kota MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Kelayakan Gerai",
+          "caption": "Struktur pelaporan Anda, dari grup hingga gerai",
           "whatYouSee": "Telaah gerai baru sebelum Anda menandatangani sewa - proyeksikan break-even, NPV dan P&L tahun pertamanya, lalu geser slider untuk capex, sewa, food dan biaya tenaga kerja, overhead dan ramp sampai kesepakatan masuk akal. Lokasi yang menguntungkan dan yang tidak, diputuskan di layar, bukan setelah pembangunan.",
           "alt": "Outlet Viability - pemodel NPV + break-even gerai baru",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Pohon Organisasi",
+          "caption": "Struktur pelaporan Anda, dari grup hingga gerai",
           "whatYouSee": "Seluruh struktur pelaporan Anda dipetakan dalam satu pohon organisasi yang hidup - puluhan node dari grup hingga gerai, ditampilkan sebagai kartu foto dengan setiap garis pelaporan tergambar - sehingga siapa melapor kepada siapa lintas brand dan region akhirnya jadi satu gambaran jelas, bukan setumpuk spreadsheet.",
           "alt": "Crew Organization Tree - struktur pelaporan 75 node",
           "productLabel": "Sundae Crew →"
@@ -4004,10 +4004,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Hỏi dữ liệu bằng ngôn ngữ thường ngày và nhận câu trả lời dựa trên những con số thật của tối nay - AED 96,555 doanh thu qua 379 đơn hàng, các món bán chạy nhất, cùng một gợi ý theo dõi khi có gì đó như Banana Bread đột ngột leo lên trong thực đơn. Các luồng và bộ sưu tập giữ nguyên mọi mạch câu hỏi ở đúng nơi bạn dừng lại.",
-          "alt": "Sundae Intelligence - giao diện ra quyết định bằng hội thoại",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - giao diện ra quyết định bằng hội thoại",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Bảng theo dõi trực tiếp",
@@ -4085,7 +4085,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "Kéo một cần gạt và xem nó lan tỏa khắp toàn bộ mô hình - lượt khách và hóa đơn chảy vào doanh thu, rồi tới chi phí thực phẩm và nhân công, xuống tận EBITDA - với mỗi yếu tố trên một thanh trượt, để bạn thấy một thay đổi duy nhất thực sự đáng giá bao nhiêu trước khi thực hiện.",
           "alt": "Intelligence Simulator - chuỗi tác động kịch bản what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -4178,19 +4178,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Cấu trúc báo cáo của bạn, từ tập đoàn tới điểm bán",
           "whatYouSee": "Một điểm sức khỏe tổng hợp cho mỗi chi nhánh trên toàn hệ thống của bạn - Abu Dhabi, Dubai, Cairo, Riyadh trên cùng một ma trận rủi ro - để bạn thấy ngay chi nhánh nào đang phát đạt và chi nhánh nào cần ghé thăm, rồi thu hẹp tầm nhìn về bất kỳ thương hiệu hay khu vực nào chỉ bằng một cú nhấp.",
           "alt": "Franchise Health - 4 chi nhánh trên các thành phố MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Cấu trúc báo cáo của bạn, từ tập đoàn tới điểm bán",
           "whatYouSee": "Thẩm định một chi nhánh mới trước khi bạn ký hợp đồng thuê - dự phóng điểm hòa vốn, NPV và P&L năm đầu, rồi kéo các thanh trượt cho vốn đầu tư, tiền thuê, chi phí thực phẩm và nhân công, chi phí chung và thời gian khởi động cho tới khi thương vụ khả thi. Mặt bằng có lời và mặt bằng không, được ngã ngũ ngay trên màn hình thay vì sau khi xây xong.",
           "alt": "Outlet Viability - công cụ mô hình NPV + hòa vốn cho chi nhánh mới",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "Cấu trúc báo cáo của bạn, từ tập đoàn tới điểm bán",
           "whatYouSee": "Toàn bộ cơ cấu báo cáo của bạn được vẽ thành một cây tổ chức sống động - hàng chục đầu mối từ cấp tập đoàn xuống tới chi nhánh, hiển thị dưới dạng thẻ ảnh với từng đường báo cáo được vẽ rõ - để chuyện ai báo cáo cho ai xuyên suốt các thương hiệu và khu vực cuối cùng thành một bức tranh rõ ràng, không còn là một chồng bảng tính.",
           "alt": "Crew Organization Tree - cơ cấu báo cáo 75 đầu mối",
           "productLabel": "Sundae Crew →"
@@ -4239,7 +4239,7 @@ export const generatedLocalCopy = {
         "c_suite": "Conducere executivă",
         "cfo": "Finanțe",
         "multi_loc": "Multi-locație",
-        "topology": "Conștient de topologie",
+        "topology": "Multi-brand și regiune",
         "hr": "HR",
         "marketing": "Marketing",
         "tech": "Tehnologie"
@@ -4268,10 +4268,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Întreabă-ți datele în limbaj firesc și primești un răspuns ancorat în cifrele reale ale serii - AED 96,555 venituri din 379 de comenzi, produsele de top și o întrebare de urmărire sugerată când ceva precum Banana Bread urcă brusc în meniu. Firele și colecțiile țin fiecare linie de întrebări exact unde ai lăsat-o.",
-          "alt": "Sundae Intelligence - interfață conversațională de decizie",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - interfață conversațională de decizie",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Wallboard live",
@@ -4349,7 +4349,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulator de scenarii",
           "whatYouSee": "Trage de o singură pârghie și urmărește cum se propagă prin tot modelul - acoperirile și nota se transformă în venit, apoi în costul mâncării și al muncii, până jos la EBITDA - cu fiecare factor pe un cursor, ca să vezi cât valorează cu adevărat o singură schimbare înainte să o faci.",
           "alt": "Intelligence Simulator - cascadă de scenarii what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Centru de comandă",
@@ -4442,19 +4442,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologie - Sănătatea francizei",
+          "caption": "Structura ta de raportare, de la grup la locație",
           "whatYouSee": "Un singur scor compozit de sănătate per locație în întregul tău patrimoniu - Abu Dhabi, Dubai, Cairo, Riyadh pe o singură matrice de risc - ca să vezi dintr-o privire ce unități prosperă și care au nevoie de o vizită, apoi să restrângi vizualizarea la orice brand sau regiune dintr-un clic.",
           "alt": "Sănătatea francizei - 4 locații în orașe MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologie - Viabilitatea locației",
+          "caption": "Structura ta de raportare, de la grup la locație",
           "whatYouSee": "Evaluează o locație nouă înainte să semnezi contractul - proiectează-i pragul de rentabilitate, NPV-ul și P&L-ul din primul an, apoi mișcă cursoarele pentru capex, chirie, costul mâncării și al muncii, regie și ramp-up până când afacerea funcționează. Locația care iese pe hârtie și cea care nu, decise pe ecran, nu după construcție.",
           "alt": "Viabilitatea locației - modelator NPV și prag de rentabilitate pentru locație nouă",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topologie - Arborele organizației",
+          "caption": "Structura ta de raportare, de la grup la locație",
           "whatYouSee": "Întreaga ta structură de raportare mapată într-un singur arbore organizațional viu - zeci de noduri, de la grup până la locație, randate ca fișe foto cu fiecare linie de raportare trasată - ca să fie în sfârșit o imagine clară cine răspunde în fața cui între branduri și regiuni, nu un teanc de foi de calcul.",
           "alt": "Crew Organization Tree - structură de raportare cu 75 de noduri",
           "productLabel": "Sundae Crew →"
@@ -4503,7 +4503,7 @@ export const generatedLocalCopy = {
         "c_suite": "Ledning",
         "cfo": "Ekonomi",
         "multi_loc": "Flera enheter",
-        "topology": "Topologimedveten",
+        "topology": "Flera varumärken & regioner",
         "hr": "HR",
         "marketing": "Marknadsföring",
         "tech": "Teknik"
@@ -4532,10 +4532,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Fråga dina data på vanligt språk och få ett svar förankrat i kvällens verkliga siffror - AED 96,555 i omsättning fördelat på 379 order, dina storsäljare och en föreslagen följdfråga när något som Banana Bread plötsligt klättrar på menyn. Trådar och samlingar håller varje resonemang precis där du lämnade det.",
-          "alt": "Sundae Intelligence - konversationsgränssnitt för beslut",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - konversationsgränssnitt för beslut",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -4613,7 +4613,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "Dra i en spak och se den rippla genom hela modellen - gäster och notor flödar in i omsättning, sedan råvarukostnad och personal, hela vägen ner till EBITDA - med varje drivkraft på ett reglage, så att du kan se vad en enskild förändring verkligen är värd innan du gör den.",
           "alt": "Intelligence Simulator - tänk-om-scenario som kaskad",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -4706,19 +4706,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "Er rapporteringsstruktur, från koncern till enhet",
           "whatYouSee": "Ett sammansatt hälsovärde per enhet över hela din verksamhet - Abu Dhabi, Dubai, Cairo, Riyadh i en enda riskmatris - så att du i en blick ser vilka enheter som blomstrar och vilka som behöver ett besök, sedan avgränsar du vyn till valfritt varumärke eller region med ett klick.",
           "alt": "Franchise Health - 4 enheter över MENA-städer",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "Er rapporteringsstruktur, från koncern till enhet",
           "whatYouSee": "Underbygg en ny enhet innan du skriver på hyreskontraktet - prognostisera dess break-even, NPV och första årets P&L, dra sedan i reglage för capex, hyra, råvaru- och personalkostnad, omkostnader och upprampning tills affären går ihop. Platsen som går runt och den som inte gör det, avgjort på skärmen i stället för efter bygget.",
           "alt": "Outlet Viability - modellerare för NPV och break-even för ny enhet",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "Er rapporteringsstruktur, från koncern till enhet",
           "whatYouSee": "Hela din rapporteringsstruktur kartlagd i ett levande organisationsträd - dussintals noder från koncern ner till enhet, renderade som fotokort med varje rapporteringslinje inritad - så att vem som svarar inför vem över varumärken och regioner äntligen blir en tydlig bild, inte en hög med kalkylark.",
           "alt": "Crew Organization Tree - rapporteringsstruktur med 75 noder",
           "productLabel": "Sundae Crew →"
@@ -4767,7 +4767,7 @@ export const generatedLocalCopy = {
         "c_suite": "C-Suite",
         "cfo": "ফাইন্যান্স",
         "multi_loc": "মাল্টি-লোকেশন",
-        "topology": "টপোলজি-সচেতন",
+        "topology": "বহু-ব্র্যান্ড ও অঞ্চল",
         "hr": "HR",
         "marketing": "মার্কেটিং",
         "tech": "টেকনোলজি"
@@ -4796,10 +4796,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "সাধারণ ভাষায় আপনার ডেটাকে প্রশ্ন করুন আর আজ রাতের বাস্তব সংখ্যায় ভিত্তি করা উত্তর পান - ৩৭৯টি অর্ডারে AED 96,555 রেভিনিউ, আপনার সবচেয়ে বেশি বিক্রি হওয়া আইটেম, আর Banana Bread হঠাৎ মেনুতে উপরে উঠে এলে তেমন কিছুর জন্য একটি সম্ভাব্য পরবর্তী পদক্ষেপের পরামর্শ। থ্রেড আর কালেকশন প্রতিটি প্রশ্নের ধারা যেখানে রেখে গিয়েছিলেন সেখানেই ধরে রাখে।",
-          "alt": "Sundae Intelligence - কথোপকথনভিত্তিক সিদ্ধান্ত ইন্টারফেস",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - কথোপকথনভিত্তিক সিদ্ধান্ত ইন্টারফেস",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -4877,7 +4877,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "একটি লিভার টানুন আর দেখুন তা গোটা মডেল জুড়ে ছড়িয়ে যাচ্ছে - কভার আর টিকিট গিয়ে মেশে রেভিনিউতে, তারপর ফুড কস্ট ও লেবার, একদম নিচে EBITDA পর্যন্ত - প্রতিটি ড্রাইভার একটি স্লাইডারে, যাতে একটি পরিবর্তন করার আগেই দেখতে পান তা আসলে কতটা মূল্যবান।",
           "alt": "Intelligence Simulator - হোয়াট-ইফ সিনারিও ক্যাসকেড",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -4970,19 +4970,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "আপনার রিপোর্টিং কাঠামো, গ্রুপ থেকে আউটলেট",
           "whatYouSee": "আপনার পুরো এস্টেট জুড়ে প্রতি আউটলেটে একটিই কম্পোজিট হেলথ স্কোর - Abu Dhabi, Dubai, Cairo, Riyadh একটিমাত্র রিস্ক ম্যাট্রিক্সে - যাতে এক নজরে দেখতে পান কোন ইউনিটগুলো ফুলেফেঁপে উঠছে আর কোনগুলোতে একটা ভিজিট দরকার, তারপর এক ক্লিকেই ভিউটাকে যেকোনো ব্র্যান্ড বা রিজিয়নে স্কোপ করুন।",
           "alt": "Franchise Health - MENA শহর জুড়ে 4টি আউটলেট",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "আপনার রিপোর্টিং কাঠামো, গ্রুপ থেকে আউটলেট",
           "whatYouSee": "লিজ সই করার আগেই একটি নতুন আউটলেট আন্ডাররাইট করুন - এর ব্রেক-ইভেন, NPV ও প্রথম বছরের P&L প্রক্ষেপণ করুন, তারপর ক্যাপেক্স, ভাড়া, ফুড ও লেবার কস্ট, ওভারহেড ও র‍্যাম্পের স্লাইডার নাড়ুন যতক্ষণ না ডিলটা মেলে। যে সাইটটা হিসেবে মেলে আর যেটা মেলে না, স্ক্রিনেই মীমাংসা, বানানোর পরে নয়।",
           "alt": "Outlet Viability - নতুন-আউটলেট NPV + ব্রেক-ইভেন মডেলার",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "আপনার রিপোর্টিং কাঠামো, গ্রুপ থেকে আউটলেট",
           "whatYouSee": "আপনার গোটা রিপোর্টিং কাঠামো একটিই জীবন্ত অর্গ ট্রিতে ম্যাপ করা - গ্রুপ থেকে আউটলেট পর্যন্ত কয়েক ডজন নোড, প্রতিটি রিপোর্টিং লাইন আঁকা ফটো কার্ড হিসেবে রেন্ডার করা - যাতে ব্র্যান্ড ও রিজিয়ন জুড়ে কে কার অধীনে তা অবশেষে একটি স্পষ্ট ছবি হয়, স্প্রেডশিটের স্তূপ নয়।",
           "alt": "Crew Organization Tree - 75-নোড রিপোর্টিং কাঠামো",
           "productLabel": "Sundae Crew →"
@@ -5060,10 +5060,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "ถามข้อมูลของคุณด้วยภาษาธรรมดา แล้วได้คำตอบที่อิงตัวเลขจริงของคืนนี้ - รายได้ AED 96,555 จาก 379 ออเดอร์ เมนูขายดีของคุณ และคำถามต่อยอดที่แนะนำเมื่อมีอะไรอย่าง Banana Bread พุ่งขึ้นมาในเมนูแบบกะทันหัน Threads และ collections เก็บทุกแนวคำถามไว้ตรงจุดที่คุณค้างไว้",
-          "alt": "Sundae Intelligence - อินเทอร์เฟซตัดสินใจแบบสนทนา",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - อินเทอร์เฟซตัดสินใจแบบสนทนา",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Live Wallboard",
@@ -5141,7 +5141,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Scenario Simulator",
           "whatYouSee": "ดึงคันโยกหนึ่งตัวแล้วดูมันส่งผลกระเพื่อมไปทั้งโมเดล - จำนวนแขกและยอดต่อบิลไหลเข้าเป็นรายได้ จากนั้นต้นทุนอาหารและแรงงาน ไล่ลงไปจนถึง EBITDA - ทุกตัวแปรอยู่บนแถบเลื่อน คุณจึงเห็นว่าการเปลี่ยนแปลงเพียงจุดเดียวมีค่าจริงเท่าไรก่อนตัดสินใจทำ",
           "alt": "Intelligence Simulator - การไล่ผลกระทบของสถานการณ์ what-if",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Command Center",
@@ -5234,19 +5234,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Franchise Health",
+          "caption": "โครงสร้างการรายงานของคุณ ตั้งแต่กลุ่มถึงสาขา",
           "whatYouSee": "คะแนนสุขภาพรวมหนึ่งค่าต่อสาขาทั่วทั้งเครือ - Abu Dhabi, Dubai, Cairo, Riyadh บนเมทริกซ์ความเสี่ยงเดียว - คุณจึงเห็นในพริบตาว่าสาขาไหนกำลังรุ่งและสาขาไหนต้องไปเยี่ยม แล้วซูมมุมมองไปยังแบรนด์หรือภูมิภาคใดก็ได้ในคลิกเดียว",
           "alt": "Franchise Health - 4 สาขาทั่วเมืองในภูมิภาค MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Outlet Viability",
+          "caption": "โครงสร้างการรายงานของคุณ ตั้งแต่กลุ่มถึงสาขา",
           "whatYouSee": "ประเมินสาขาใหม่ก่อนเซ็นสัญญาเช่า - คาดการณ์จุดคุ้มทุน NPV และ P&L ปีแรก แล้วเลื่อนแถบปรับ capex ค่าเช่า ต้นทุนอาหารและแรงงาน ค่าใช้จ่ายส่วนกลาง และช่วงปั้นยอด จนกว่าดีลจะลงตัว ทำเลที่คุ้มและที่ไม่คุ้ม ตัดสินบนหน้าจอแทนที่จะรู้หลังสร้างเสร็จ",
           "alt": "Outlet Viability - ตัวจำลอง NPV และจุดคุ้มทุนสำหรับสาขาใหม่",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Organization Tree",
+          "caption": "โครงสร้างการรายงานของคุณ ตั้งแต่กลุ่มถึงสาขา",
           "whatYouSee": "โครงสร้างการรายงานทั้งหมดของคุณแมปเป็นแผนผังองค์กรที่มีชีวิตหนึ่งเดียว - หลายสิบโหนดจากระดับกลุ่มลงไปถึงสาขา แสดงเป็นการ์ดรูปถ่ายพร้อมเส้นสายการรายงานทุกเส้น ใครรายงานต่อใครข้ามแบรนด์และภูมิภาคจึงกลายเป็นภาพเดียวที่ชัดเจนเสียที ไม่ใช่กองสเปรดชีต",
           "alt": "Crew Organization Tree - โครงสร้างการรายงาน 75 โหนด",
           "productLabel": "Sundae Crew →"
@@ -5295,7 +5295,7 @@ export const generatedLocalCopy = {
         "c_suite": "Eksekutif Kanan",
         "cfo": "Kewangan",
         "multi_loc": "Pelbagai lokasi",
-        "topology": "Sedar-topologi",
+        "topology": "Pelbagai jenama & wilayah",
         "hr": "Sumber Manusia",
         "marketing": "Pemasaran",
         "tech": "Teknologi"
@@ -5324,10 +5324,10 @@ export const generatedLocalCopy = {
           "productLabel": "Sundae Core →"
         },
         {
-          "caption": "Sundae Intelligence",
+          "caption": "Ask Sundae",
           "whatYouSee": "Tanya data anda dalam bahasa biasa dan dapat jawapan berasaskan angka sebenar malam ini - AED 96,555 hasil merentas 379 pesanan, jualan terlaris anda, dan cadangan susulan apabila sesuatu seperti Banana Bread tiba-tiba melonjak dalam menu. Bebenang dan koleksi menyimpan setiap aliran soalan di tempat anda tinggalkan.",
-          "alt": "Sundae Intelligence - antara muka keputusan perbualan",
-          "productLabel": "Sundae Intelligence →"
+          "alt": "Ask Sundae - antara muka keputusan perbualan",
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Pulse - Papan Dinding Langsung",
@@ -5405,7 +5405,7 @@ export const generatedLocalCopy = {
           "caption": "Intelligence - Simulator Senario",
           "whatYouSee": "Tarik satu tuas dan lihat ia bergema menyeluruh model - bilangan tetamu dan bil mengalir ke hasil, kemudian kos makanan dan buruh, terus hingga ke EBITDA - dengan setiap pemacu pada peluncur, supaya anda nampak nilai sebenar satu perubahan sebelum anda lakukannya.",
           "alt": "Simulator Intelligence - lata senario apa-jika",
-          "productLabel": "Sundae Intelligence →"
+          "productLabel": "Ask Sundae →"
         },
         {
           "caption": "Watchtower - Pusat Arahan",
@@ -5498,19 +5498,19 @@ export const generatedLocalCopy = {
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Kesihatan Francais",
+          "caption": "Struktur pelaporan anda, dari kumpulan ke cawangan",
           "whatYouSee": "Satu skor kesihatan komposit setiap cawangan merentas seluruh estet anda - Abu Dhabi, Dubai, Cairo, Riyadh pada satu matriks risiko - supaya anda boleh nampak sepintas lalu unit mana yang berkembang maju dan mana yang perlukan lawatan, kemudian skopkan paparan kepada mana-mana jenama atau wilayah dengan satu klik.",
           "alt": "Kesihatan Francais - 4 cawangan merentas bandar MENA",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Daya Maju Cawangan",
+          "caption": "Struktur pelaporan anda, dari kumpulan ke cawangan",
           "whatYouSee": "Tanggung jamin cawangan baharu sebelum anda menandatangani pajakan - unjur pulang modal, NPV dan P&L tahun pertamanya, kemudian gerakkan peluncur untuk capex, sewa, kos makanan dan buruh, overhed dan pendakian sehingga perjanjian itu berhasil. Tapak yang berbaloi dan yang tidak, diselesaikan di skrin, bukan selepas pembinaan.",
           "alt": "Daya Maju Cawangan - pemodel NPV + pulang modal cawangan baharu",
           "productLabel": "Insights →"
         },
         {
-          "caption": "Topology - Pokok Organisasi",
+          "caption": "Struktur pelaporan anda, dari kumpulan ke cawangan",
           "whatYouSee": "Seluruh struktur pelaporan anda dipetakan menjadi satu pokok organisasi hidup - berpuluh nod daripada kumpulan turun ke cawangan, dipaparkan sebagai kad foto dengan setiap garis pelaporan dilukis - supaya siapa melapor kepada siapa merentas jenama dan wilayah akhirnya menjadi satu gambaran jelas, bukan setimbun hamparan.",
           "alt": "Pokok Organisasi Crew - struktur pelaporan 75 nod",
           "productLabel": "Sundae Crew →"
