@@ -92,7 +92,7 @@ export default function DiagnosticPage() {
       answered: answeredCount(data.responses),
     });
 
-    // Call AI gateway (Sonnet 4.6 primary → GPT-5 fallback). On any failure we
+    // Call the fast structured-report model with a cross-provider fallback. On any failure we
     // fall back to the deterministic engine (with a localized note for non-EN)
     // rather than dead-ending — a prospect who finished the assessment should
     // always get a report.
@@ -100,10 +100,13 @@ export default function DiagnosticPage() {
     // Internal-only: which engine produced the report (for sales/debug). Never
     // surfaced to the prospect - only attached to the lead metadata.
     let aiSource: string | null = null;
+    const generationController = new AbortController();
+    const generationTimeout = window.setTimeout(() => generationController.abort(), 36_000);
     try {
       const res = await fetch("/api/diagnostic", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: generationController.signal,
         body: JSON.stringify({
           responses: data.responses,
           leadData: { name: data.name, role: data.role, country: data.country, company: data.company },
@@ -125,6 +128,8 @@ export default function DiagnosticPage() {
       // operator still gets their report instead of an error dead-end.
       result = runDiagnostic(data.responses, locale);
       aiSource = "client-heuristic";
+    } finally {
+      window.clearTimeout(generationTimeout);
     }
 
     setReport(result);

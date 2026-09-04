@@ -57,9 +57,15 @@ export const DiagnosticReportSchema = z.object({
   profileLine: z.string().describe('One-line summary: "QSR + casual operator · 16 outlets · UAE + KSA"'),
   summary: z.string().describe('2-3 sentence summary referencing their specific blind spot and priority'),
   topLeaks: z.array(LeakHypothesisSchema).min(2).max(3),
-  recommendedStack: z.array(StackRecommendationSchema).min(2).max(6),
+  recommendedStack: z.array(StackRecommendationSchema).min(1).max(6),
   expectedImpact: z.array(ExpectedImpactSchema).min(2).max(4),
   quickWins: z.array(QuickWinSchema).length(3).describe('Exactly one entry per horizon: 30, 60, 90'),
   tierFit: z.string().describe('One-line stack summary e.g. "Core Plus + Crew Operating Suite + Watchtower"'),
   economics: EconomicsSchema.optional().describe('Cost / savings / EBITDA uplift / soft uplifts - always include unless inputs are too sparse'),
 });
+
+// Provider-compatible structured narrative. OpenAI strict schemas require
+// every declared property to be required, so the optional economics field
+// cannot be included here. Economics are always attached from the canonical
+// price book by reportGuard after the model returns.
+export const DiagnosticNarrativeSchema = DiagnosticReportSchema.omit({ economics: true });

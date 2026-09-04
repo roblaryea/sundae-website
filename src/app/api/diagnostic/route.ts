@@ -5,38 +5,42 @@
 //   Returns: DiagnosticReport (same shape as the heuristic engine - UI-compatible)
 //
 // Resolution chain (direct provider keys first; gateway is a residual fallback):
-//   1. Direct Anthropic  (ANTHROPIC_API_KEY)  → claude-sonnet-4-6  [primary voice]
-//   2. Direct OpenAI     (OPENAI_API_KEY)      → gpt-5             [cross-provider resilience]
+//   1. Direct OpenAI     (OPENAI_API_KEY)      → gpt-5-mini        [fast structured report]
+//   2. Direct Anthropic  (ANTHROPIC_API_KEY)   → claude-haiku-4-5  [cross-provider resilience]
 //   3. Vercel AI Gateway (AI_GATEWAY_API_KEY / VERCEL_OIDC_TOKEN) → bare "provider/model"
 //      strings via ai-gateway.vercel.sh. Residual only - used when no direct key is set.
-//      (Gateway model access is plan-gated; the free tier 403s anthropic/claude-sonnet-4-6.)
+//      (Gateway model access may be plan-gated; direct provider keys remain preferred.)
 //   4. Deterministic heuristic engine - guarantees a report is ALWAYS produced.
 //
 // Env vars (set per environment in the Vercel project):
-//   ANTHROPIC_API_KEY  - direct Anthropic key (sk-ant-...). Primary path.
-//   OPENAI_API_KEY     - direct OpenAI key (sk-...). Fallback path.
+//   OPENAI_API_KEY     - direct OpenAI key (sk-...). Primary path.
+//   ANTHROPIC_API_KEY  - direct Anthropic key (sk-ant-...). Fallback path.
 //   AI_GATEWAY_API_KEY - optional Vercel AI Gateway key (residual path only).
 
 import { NextResponse } from 'next/server';
 import { generateObject, type LanguageModel } from 'ai';
+import type { SharedV3ProviderOptions } from '@ai-sdk/provider';
 import { anthropic } from '@ai-sdk/anthropic';
 import { openai } from '@ai-sdk/openai';
 import { checkBotId } from 'botid/server';
-import { DiagnosticReportSchema } from '@/lib/diagnostic/schema';
+import { DiagnosticNarrativeSchema } from '@/lib/diagnostic/schema';
 import { SYSTEM_PROMPT, buildUserMessage } from '@/lib/diagnostic/promptBuilder';
 import { runDiagnostic, type DiagnosticResponses } from '@/lib/diagnostic/engine';
+import { groundGeneratedDiagnostic } from '@/lib/diagnostic/reportGuard';
 import { getClientIp, isSameOrigin, checkRateLimit } from '@/lib/diagnostic/abuse-guard';
 import { normalizeWebsiteLocale, type WebsiteLocale } from '@/lib/i18n';
 
 export const runtime = 'nodejs';
-// The residual gateway path can spend up to ~60s on a plan-blocked model before
-// erroring; the direct paths are far faster. Keep generous headroom so the
-// function is never killed mid-flight (Vercel allows up to 300s). Without this
-// a slow chain would 504 and the client-side heuristic would fire after a long spin.
-export const maxDuration = 180;
+// Keep the function above the explicit generation budget. The route stops slow
+// provider attempts and returns the deterministic report before the browser's
+// own safety timeout, so a finished prospect never waits through a long chain.
+export const maxDuration = 60;
 
-const ANTHROPIC_MODEL = 'claude-sonnet-4-6';
-const OPENAI_MODEL = 'gpt-5';
+const ANTHROPIC_MODEL = 'claude-haiku-4-5';
+const OPENAI_MODEL = 'gpt-5-mini';
+const TOTAL_GENERATION_BUDGET_MS = 32_000;
+const MODEL_ATTEMPT_TIMEOUT_MS = 28_000;
+const MIN_FALLBACK_ATTEMPT_MS = 6_000;
 
 type LeadData = {
   name: string;
@@ -45,7 +49,12 @@ type LeadData = {
   company: string;
 };
 
-type Attempt = { source: string; model: LanguageModel; temperature?: number };
+type Attempt = {
+  source: string;
+  model: LanguageModel;
+  temperature?: number;
+  providerOptions?: SharedV3ProviderOptions;
+};
 
 function hasKey(name: string): boolean {
   const v = process.env[name];
@@ -57,18 +66,27 @@ function hasKey(name: string): boolean {
 function buildChain(): Attempt[] {
   const chain: Attempt[] = [];
 
-  if (hasKey('ANTHROPIC_API_KEY')) {
-    chain.push({ source: 'sonnet-4.6', model: anthropic(ANTHROPIC_MODEL), temperature: 0.6 });
-  }
   if (hasKey('OPENAI_API_KEY')) {
-    // gpt-5 is a reasoning model - omit temperature (it can reject non-default values).
-    chain.push({ source: 'gpt-5', model: openai(OPENAI_MODEL) });
+    // Keep reasoning minimal: the deterministic layer already owns eligibility,
+    // quantified claims, and pricing; the model is writing the narrative.
+    chain.push({
+      source: 'gpt-5-mini',
+      model: openai(OPENAI_MODEL),
+      providerOptions: { openai: { reasoningEffort: 'minimal' } },
+    });
+  }
+  if (hasKey('ANTHROPIC_API_KEY')) {
+    chain.push({ source: 'haiku-4.5', model: anthropic(ANTHROPIC_MODEL), temperature: 0.4 });
   }
 
   // Residual: only reached if the direct keys are absent or both fail.
   if (hasKey('AI_GATEWAY_API_KEY') || hasKey('VERCEL_OIDC_TOKEN')) {
-    chain.push({ source: 'gateway:sonnet-4.6', model: `anthropic/${ANTHROPIC_MODEL}`, temperature: 0.6 });
-    chain.push({ source: 'gateway:gpt-5', model: `openai/${OPENAI_MODEL}` });
+    chain.push({
+      source: 'gateway:gpt-5-mini',
+      model: `openai/${OPENAI_MODEL}`,
+      providerOptions: { openai: { reasoningEffort: 'minimal' } },
+    });
+    chain.push({ source: 'gateway:haiku-4.5', model: `anthropic/${ANTHROPIC_MODEL}`, temperature: 0.4 });
   }
 
   return chain;
@@ -79,8 +97,10 @@ async function generateWithModel(
   responses: DiagnosticResponses,
   leadData: LeadData,
   locale: WebsiteLocale,
+  abortSignal: AbortSignal,
 ) {
-  const userMessage = buildUserMessage(responses, leadData, locale);
+  const referenceReport = runDiagnostic(responses, locale);
+  const userMessage = buildUserMessage(responses, leadData, locale, referenceReport);
 
   // Vercel AI SDK with structured output. A LanguageModel instance from
   // @ai-sdk/anthropic / @ai-sdk/openai uses the direct provider key
@@ -89,29 +109,17 @@ async function generateWithModel(
   // the Vercel AI Gateway - that is the residual path only.
   const result = await generateObject({
     model: attempt.model,
-    schema: DiagnosticReportSchema,
+    schema: DiagnosticNarrativeSchema,
     system: SYSTEM_PROMPT,
     prompt: userMessage,
     temperature: attempt.temperature,
-    maxRetries: 1,
+    maxRetries: 0,
+    maxOutputTokens: 2_200,
+    providerOptions: attempt.providerOptions,
+    abortSignal,
   });
 
-  const report = result.object;
-  // The economics block is schema-optional, and the model occasionally omits it
-  // on sparse inputs — which drops the entire "What it costs & returns" section.
-  // Backfill it deterministically from the heuristic engine so the apples-to-
-  // apples cost/return comparison is ALWAYS present. The numbers are
-  // language-neutral; only the short basis text is English on this fallback.
-  if (!report.economics) {
-    try {
-      const heuristic = runDiagnostic(responses, locale);
-      if (heuristic.economics) report.economics = heuristic.economics;
-    } catch {
-      /* non-fatal — report still renders without the economics block */
-    }
-  }
-
-  return report;
+  return groundGeneratedDiagnostic(result.object, referenceReport);
 }
 
 export async function POST(req: Request) {
@@ -162,9 +170,22 @@ export async function POST(req: Request) {
 
   // ─── Walk the resolution chain: direct providers → gateway → heuristic ───
   const chain = buildChain();
+  const generationStartedAt = Date.now();
   for (const attempt of chain) {
+    const remainingMs = TOTAL_GENERATION_BUDGET_MS - (Date.now() - generationStartedAt);
+    // A provider cannot reliably produce and validate this structured report
+    // in only a few residual seconds. Return the grounded deterministic report
+    // instead of spending that time on a fallback that is certain to time out.
+    if (remainingMs < MIN_FALLBACK_ATTEMPT_MS) break;
     try {
-      const report = await generateWithModel(attempt, responses, leadData, locale);
+      const attemptTimeoutMs = Math.min(MODEL_ATTEMPT_TIMEOUT_MS, remainingMs);
+      const report = await generateWithModel(
+        attempt,
+        responses,
+        leadData,
+        locale,
+        AbortSignal.timeout(attemptTimeoutMs),
+      );
       return NextResponse.json({ report, source: attempt.source });
     } catch (err) {
       console.error(`[diagnostic] ${attempt.source} failed:`, err);
