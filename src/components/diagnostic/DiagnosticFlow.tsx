@@ -10,7 +10,7 @@
  * email + name (captured at the end).
  */
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, CheckCircle2, AlertCircle, Search } from "lucide-react";
 import { PUBLIC_DIAGNOSTIC_QUESTIONS, QUESTIONS } from "@/lib/diagnostic/questions";
@@ -139,6 +139,7 @@ const OPTION_SEARCH_COPY: Record<WebsiteLocale, { search: string; noMatches: str
 };
 
 export function DiagnosticFlow({ onComplete, locale, initialProgress }: DiagnosticFlowProps) {
+  const flowTopRef = useRef<HTMLDivElement>(null);
   const catalog = getDiagnosticCatalogCopy(locale);
   const optionSearchCopy = OPTION_SEARCH_COPY[locale as keyof typeof OPTION_SEARCH_COPY];
   const regionNames =
@@ -201,6 +202,13 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
       capture: { name, email, company, phone, role, country },
     });
   }, [responses, step, showCapture, name, email, company, phone, role, country]);
+
+  // A previous question can be much taller than the next one, especially on
+  // mobile. Reset the document scroll position so every step opens with its
+  // progress and prompt visible instead of inheriting a half-page scroll.
+  useEffect(() => {
+    flowTopRef.current?.scrollIntoView({ block: "start", behavior: "auto" });
+  }, [step, showCapture]);
 
   const total = PUBLIC_DIAGNOSTIC_QUESTIONS.length;
   const q = PUBLIC_DIAGNOSTIC_QUESTIONS[step];
@@ -293,7 +301,7 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
   };
 
   return (
-    <div className="min-h-screen bg-[var(--navy-deep)] pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+    <div ref={flowTopRef} className="min-h-screen bg-[var(--navy-deep)] pt-24 pb-16 px-4 sm:px-6 lg:px-8">
       {/* Progress bar */}
       <div className="max-w-3xl mx-auto mb-8">
         <div className="flex justify-between items-center mb-3">
