@@ -154,12 +154,12 @@ const en: DiagnosticCopy = {
   nativeLanguageName: "English",
   languageInstruction: languageInstructions.en,
   intro: {
-    eyebrow: "AI-guided · 10 minutes",
+    eyebrow: "AI-guided · About 7 minutes",
     title: "Get your Sundae Operations Diagnostic.",
     body:
-      "Answer strategic questions about your operation. Sundae generates a personalized diagnostic showing the margin leaks we'd surface, the recommended stack, and a 30 / 60 / 90 plan you can share with your team.",
+      "Answer 14 focused questions about your operation. Sundae generates a personalized diagnostic showing the margin leaks we'd surface, the recommended stack, and a 30 / 60 / 90 plan you can share with your team.",
     start: "Start your diagnostic",
-    note: "Takes about 10 minutes · No credit card · Premium report at the end",
+    note: "Takes about 7 minutes · No credit card · Personalized report at the end",
     whatYouGet: "What you get",
     whatWeAsk: "What we'll ask about",
     classicDemoLead: "Prefer a classic demo request?",
@@ -167,9 +167,9 @@ const en: DiagnosticCopy = {
   },
   features: [
     {
-      title: "10 minutes",
+      title: "About 7 minutes",
       detail:
-        "Chip-based questions across operation, workforce, decision intelligence, foresight, and tech stack.",
+        "14 focused questions across your operation, workforce, decision-making, planning, and systems.",
     },
     {
       title: "Premium report",
@@ -296,19 +296,19 @@ const en: DiagnosticCopy = {
 const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   ar: {
     features: [
-      { title: "10 دقائق", detail: "أسئلة على شكل خيارات تغطي التشغيل والفريق وذكاء القرار والتنبؤ والحزمة التقنية." },
+      { title: "نحو 7 دقائق", detail: "أسئلة على شكل خيارات تغطي التشغيل والفريق وذكاء القرار والتنبؤ والحزمة التقنية." },
       { title: "تقرير متميز", detail: "أبرز فرضيات تسرّب الهامش، وحزمة Sundae الموصى بها، ونطاقات الأثر المتوقعة، وخطة 30 / 60 / 90 قابلة للمشاركة." },
       { title: "مخرَج صادق", detail: "نطاقات توجيهية فقط. نخبرك بما سنرصده، لا بما سنعد به." },
     ],
     languageInstruction: languageInstructions.ar,
     intro: {
       ...en.intro,
-      eyebrow: "موجّه بالذكاء الاصطناعي · 10 دقائق",
+      eyebrow: "موجّه بالذكاء الاصطناعي · نحو 7 دقائق",
       title: "احصل على تشخيص عمليات Sundae.",
       body:
         "أجب عن أسئلة استراتيجية حول تشغيلك. ينشئ Sundae تشخيصاً مخصصاً يوضح تسربات الهامش التي سنكشفها، والحزمة الموصى بها، وخطة 30 / 60 / 90 يوماً لمشاركتها مع فريقك.",
       start: "ابدأ التشخيص",
-      note: "نحو 10 دقائق · بدون بطاقة ائتمان · تقرير متميز في النهاية",
+      note: "نحو 7 دقائق · بدون بطاقة ائتمان · تقرير متميز في النهاية",
       whatYouGet: "ما الذي ستحصل عليه",
       whatWeAsk: "ما الذي سنسأل عنه",
       classicDemoLead: "تفضل طلب عرض تقليدي؟",
@@ -418,19 +418,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   fr: {
     features: [
-      { title: "10 minutes", detail: "Des questions à puces couvrant l'exploitation, les équipes, la décision intelligente, la prévision et la stack technique." },
+      { title: "Environ 7 minutes", detail: "Des questions à puces couvrant l'exploitation, les équipes, la décision intelligente, la prévision et la stack technique." },
       { title: "Rapport premium", detail: "Les principales hypothèses de fuite de marge, la stack Sundae recommandée, les fourchettes d'impact attendues et un plan 30 / 60 / 90 partageable." },
       { title: "Une lecture honnête", detail: "Des fourchettes directionnelles uniquement. Nous vous disons ce que nous identifierions, pas ce que nous promettrions." },
     ],
     languageInstruction: languageInstructions.fr,
     intro: {
       ...en.intro,
-      eyebrow: "Guidé par l'IA · 10 minutes",
+      eyebrow: "Guidé par l'IA · Environ 7 minutes",
       title: "Obtenez votre diagnostic opérationnel Sundae.",
       body:
         "Répondez à des questions stratégiques sur votre exploitation. Sundae génère un diagnostic personnalisé avec les fuites de marge à investiguer, la suite recommandée et un plan 30 / 60 / 90 jours.",
       start: "Lancer le diagnostic",
-      note: "Environ 10 minutes · Sans carte bancaire · Rapport premium à la fin",
+      note: "Environ 7 minutes · Sans carte bancaire · Rapport premium à la fin",
       whatYouGet: "Ce que vous obtenez",
       whatWeAsk: "Ce que nous allons demander",
       classicDemoLead: "Vous préférez demander une démo classique ?",
@@ -542,19 +542,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   es: {
     features: [
-      { title: "10 minutos", detail: "Preguntas tipo chip sobre operación, equipos, inteligencia de decisión, previsión y stack tecnológica." },
+      { title: "Unos 7 minutos", detail: "Preguntas tipo chip sobre operación, equipos, inteligencia de decisión, previsión y stack tecnológica." },
       { title: "Informe premium", detail: "Las principales hipótesis de fuga de margen, la stack Sundae recomendada, los rangos de impacto previstos y un plan de 30 / 60 / 90 que puedes compartir." },
       { title: "Resultado honesto", detail: "Solo rangos orientativos. Te decimos lo que detectaríamos, no lo que prometeríamos." },
     ],
     languageInstruction: languageInstructions.es,
     intro: {
       ...en.intro,
-      eyebrow: "Guiado por IA · 10 minutos",
+      eyebrow: "Guiado por IA · Unos 7 minutos",
       title: "Obtén tu diagnóstico operativo de Sundae.",
       body:
         "Responde preguntas estratégicas sobre tu operación. Sundae genera un diagnóstico personalizado con fugas de margen, stack recomendado y un plan de 30 / 60 / 90 días.",
       start: "Iniciar diagnóstico",
-      note: "Unos 10 minutos · Sin tarjeta · Informe premium al final",
+      note: "Unos 7 minutos · Sin tarjeta · Informe premium al final",
       whatYouGet: "Qué recibirás",
       whatWeAsk: "Qué vamos a preguntar",
       classicDemoLead: "¿Prefieres pedir una demo clásica?",
@@ -662,19 +662,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   de: {
     features: [
-      { title: "10 Minuten", detail: "Chip-basierte Fragen zu Betrieb, Team, Entscheidungsintelligenz, Foresight und Tech-Stack." },
+      { title: "Etwa 7 Minuten", detail: "Chip-basierte Fragen zu Betrieb, Team, Entscheidungsintelligenz, Foresight und Tech-Stack." },
       { title: "Premium-Report", detail: "Die wichtigsten Hypothesen zu Margenlecks, die empfohlene Sundae-Stack, erwartete Wirkungsspannen und ein teilbarer 30 / 60 / 90-Plan." },
       { title: "Ehrliches Ergebnis", detail: "Nur richtungsweisende Spannen. Wir sagen Ihnen, was wir aufdecken würden, nicht was wir versprechen würden." },
     ],
     languageInstruction: languageInstructions.de,
     intro: {
       ...en.intro,
-      eyebrow: "KI-geführt · 10 Minuten",
+      eyebrow: "KI-geführt · Etwa 7 Minuten",
       title: "Erhalten Sie Ihre Sundae Betriebsdiagnose.",
       body:
         "Beantworten Sie strategische Fragen zu Ihrem Restaurantbetrieb. Sundae erstellt eine personalisierte Diagnose mit möglichen Margenverlusten, dem empfohlenen Stack und einem 30 / 60 / 90-Tage-Plan für Ihr Team.",
       start: "Diagnose starten",
-      note: "Dauert etwa 10 Minuten · Keine Kreditkarte · Premium-Report am Ende",
+      note: "Dauert etwa 7 Minuten · Keine Kreditkarte · Premium-Report am Ende",
       whatYouGet: "Was Sie erhalten",
       whatWeAsk: "Was wir abfragen",
       classicDemoLead: "Lieber eine klassische Demo anfragen?",
@@ -787,19 +787,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   nl: {
     features: [
-      { title: "10 minuten", detail: "Chip-gebaseerde vragen over operatie, team, decision intelligence, foresight en tech-stack." },
+      { title: "Ongeveer 7 minuten", detail: "Chip-gebaseerde vragen over operatie, team, decision intelligence, foresight en tech-stack." },
       { title: "Premium rapport", detail: "De belangrijkste hypotheses over margelekken, de aanbevolen Sundae-stack, verwachte impactranges en een deelbaar 30 / 60 / 90-plan." },
       { title: "Eerlijke uitkomst", detail: "Alleen richtinggevende ranges. We vertellen je wat we zouden blootleggen, niet wat we zouden beloven." },
     ],
     languageInstruction: languageInstructions.nl,
     intro: {
       ...en.intro,
-      eyebrow: "AI-gestuurd · 10 minuten",
+      eyebrow: "AI-gestuurd · Ongeveer 7 minuten",
       title: "Ontvang je Sundae operationele diagnose.",
       body:
         "Beantwoord strategische vragen over je operatie. Sundae maakt een persoonlijke diagnose met mogelijke margelekken, de aanbevolen stack en een 30 / 60 / 90-dagenplan voor je team.",
       start: "Diagnose starten",
-      note: "Duurt ongeveer 10 minuten · Geen creditcard · Premiumrapport aan het einde",
+      note: "Duurt ongeveer 7 minuten · Geen creditcard · Premiumrapport aan het einde",
       whatYouGet: "Wat je krijgt",
       whatWeAsk: "Wat we vragen",
       classicDemoLead: "Liever een klassieke demo aanvragen?",
@@ -912,19 +912,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   pt: {
     features: [
-      { title: "10 minutos", detail: "Perguntas em formato de chip sobre operação, equipa, inteligência de decisão, previsão e stack tecnológica." },
+      { title: "Cerca de 7 minutos", detail: "Perguntas em formato de chip sobre operação, equipa, inteligência de decisão, previsão e stack tecnológica." },
       { title: "Relatório premium", detail: "As principais hipóteses de fuga de margem, a stack Sundae recomendada, os intervalos de impacto previstos e um plano de 30 / 60 / 90 partilhável." },
       { title: "Resultado honesto", detail: "Apenas intervalos orientativos. Dizemos-lhe o que identificaríamos, não o que prometeríamos." },
     ],
     languageInstruction: languageInstructions.pt,
     intro: {
       ...en.intro,
-      eyebrow: "Guiado por IA · 10 minutos",
+      eyebrow: "Guiado por IA · Cerca de 7 minutos",
       title: "Receba seu diagnóstico operacional Sundae.",
       body:
         "Responda perguntas estratégicas sobre sua operação. A Sundae gera um diagnóstico personalizado com possíveis vazamentos de margem, stack recomendado e um plano de 30 / 60 / 90 dias para compartilhar com o time.",
       start: "Iniciar diagnóstico",
-      note: "Leva cerca de 10 minutos · Sem cartão de crédito · Relatório premium ao final",
+      note: "Leva cerca de 7 minutos · Sem cartão de crédito · Relatório premium ao final",
       whatYouGet: "O que você recebe",
       whatWeAsk: "O que vamos perguntar",
       classicDemoLead: "Prefere pedir uma demo tradicional?",
@@ -1037,19 +1037,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   hi: {
     features: [
-      { title: "10 मिनट", detail: "संचालन, कार्यबल, decision intelligence, foresight और टेक स्टैक पर चिप-आधारित सवाल।" },
+      { title: "लगभग 7 मिनट", detail: "संचालन, कार्यबल, decision intelligence, foresight और टेक स्टैक पर चिप-आधारित सवाल।" },
       { title: "प्रीमियम रिपोर्ट", detail: "शीर्ष मार्जिन-रिसाव परिकल्पनाएँ, अनुशंसित Sundae स्टैक, अपेक्षित प्रभाव सीमाएँ, और एक साझा करने योग्य 30 / 60 / 90 योजना।" },
       { title: "ईमानदार नतीजा", detail: "केवल दिशात्मक सीमाएँ। हम बताते हैं कि हम क्या उजागर करेंगे, न कि क्या वादा करेंगे।" },
     ],
     languageInstruction: languageInstructions.hi,
     intro: {
       ...en.intro,
-      eyebrow: "AI-निर्देशित · 10 मिनट",
+      eyebrow: "AI-निर्देशित · लगभग 7 मिनट",
       title: "अपना Sundae ऑपरेशंस डायग्नोस्टिक पाएं।",
       body:
         "अपने ऑपरेशन पर रणनीतिक सवालों के जवाब दें। Sundae संभावित मार्जिन लीकेज, सुझाए गए स्टैक और आपकी टीम के लिए 30 / 60 / 90-दिन की योजना के साथ एक व्यक्तिगत डायग्नोस्टिक बनाता है।",
       start: "डायग्नोस्टिक शुरू करें",
-      note: "लगभग 10 मिनट · क्रेडिट कार्ड नहीं · अंत में प्रीमियम रिपोर्ट",
+      note: "लगभग 7 मिनट · क्रेडिट कार्ड नहीं · अंत में प्रीमियम रिपोर्ट",
       whatYouGet: "आपको क्या मिलेगा",
       whatWeAsk: "हम क्या पूछेंगे",
       classicDemoLead: "क्लासिक डेमो मांगना पसंद करेंगे?",
@@ -1158,19 +1158,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   ur: {
     features: [
-      { title: "10 منٹ", detail: "آپریشن، افرادی قوت، decision intelligence، foresight اور ٹیک اسٹیک پر چِپ پر مبنی سوالات۔" },
+      { title: "تقریباً 7 منٹ", detail: "آپریشن، افرادی قوت، decision intelligence، foresight اور ٹیک اسٹیک پر چِپ پر مبنی سوالات۔" },
       { title: "پریمیم رپورٹ", detail: "اہم مارجن لیک مفروضے، تجویز کردہ Sundae اسٹیک، متوقع اثر کی حدود، اور ایک قابلِ اشتراک 30 / 60 / 90 منصوبہ۔" },
       { title: "ایماندار نتیجہ", detail: "صرف سمتی حدود۔ ہم بتاتے ہیں کہ ہم کیا سامنے لائیں گے، نہ کہ کیا وعدہ کریں گے۔" },
     ],
     languageInstruction: languageInstructions.ur,
     intro: {
       ...en.intro,
-      eyebrow: "AI رہنمائی · 10 منٹ",
+      eyebrow: "AI رہنمائی · تقریباً 7 منٹ",
       title: "اپنا Sundae آپریشنز ڈائیگناسٹک حاصل کریں۔",
       body:
         "اپنے آپریشن کے بارے میں اسٹریٹجک سوالات کے جواب دیں۔ Sundae ممکنہ مارجن لیکیج، تجویز کردہ اسٹیک، اور آپ کی ٹیم کے لیے 30 / 60 / 90 دن کا منصوبہ بناتا ہے۔",
       start: "ڈائیگناسٹک شروع کریں",
-      note: "تقریباً 10 منٹ · کریڈٹ کارڈ نہیں · آخر میں پریمیم رپورٹ",
+      note: "تقریباً 7 منٹ · کریڈٹ کارڈ نہیں · آخر میں پریمیم رپورٹ",
       whatYouGet: "آپ کو کیا ملے گا",
       whatWeAsk: "ہم کیا پوچھیں گے",
       classicDemoLead: "کلاسک ڈیمو مانگنا پسند کریں گے؟",
@@ -1279,19 +1279,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   it: {
     features: [
-      { title: "10 minuti", detail: "Domande a chip su operatività, team, intelligenza decisionale, foresight e stack tecnologico." },
+      { title: "Circa 7 minuti", detail: "Domande a chip su operatività, team, intelligenza decisionale, foresight e stack tecnologico." },
       { title: "Report premium", detail: "Le principali ipotesi sulle perdite di margine, lo stack Sundae consigliato, gli intervalli di impatto previsti e un piano 30 / 60 / 90 condivisibile." },
       { title: "Risultato onesto", detail: "Solo intervalli orientativi. Ti diciamo cosa faremmo emergere, non cosa prometteremmo." },
     ],
     languageInstruction: languageInstructions.it,
     intro: {
       ...en.intro,
-      eyebrow: "Guidato dall'IA · 10 minuti",
+      eyebrow: "Guidato dall'IA · Circa 7 minuti",
       title: "Ottieni il tuo diagnostic operativo Sundae.",
       body:
         "Rispondi a domande strategiche sulla tua operazione. Sundae genera un diagnostic personalizzato con possibili perdite di margine, stack consigliato e piano 30 / 60 / 90 giorni per il team.",
       start: "Avvia il diagnostic",
-      note: "Circa 10 minuti · Nessuna carta di credito · Report premium alla fine",
+      note: "Circa 7 minuti · Nessuna carta di credito · Report premium alla fine",
       whatYouGet: "Cosa ricevi",
       whatWeAsk: "Cosa chiederemo",
       classicDemoLead: "Preferisci richiedere una demo classica?",
@@ -1404,19 +1404,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   pl: {
     features: [
-      { title: "10 minut", detail: "Pytania oparte na chipach obejmujące operacje, zespół, decision intelligence, prognozowanie i stos technologiczny." },
+      { title: "Około 7 minut", detail: "Pytania oparte na chipach obejmujące operacje, zespół, decision intelligence, prognozowanie i stos technologiczny." },
       { title: "Raport premium", detail: "Najważniejsze hipotezy wycieków marży, rekomendowany zestaw Sundae, spodziewane zakresy wpływu oraz gotowy do udostępnienia plan 30 / 60 / 90." },
       { title: "Uczciwy wynik", detail: "Wyłącznie zakresy kierunkowe. Mówimy, co byśmy ujawnili, a nie co obiecujemy." },
     ],
     languageInstruction: languageInstructions.pl,
     intro: {
       ...en.intro,
-      eyebrow: "Z pomocą AI · 10 minut",
+      eyebrow: "Z pomocą AI · Około 7 minut",
       title: "Odbierz diagnozę operacyjną Sundae.",
       body:
         "Odpowiedz na strategiczne pytania o swoją operację. Sundae przygotuje spersonalizowaną diagnozę z potencjalnymi wyciekami marży, rekomendowanym stackiem i planem 30 / 60 / 90 dni dla zespołu.",
       start: "Rozpocznij diagnozę",
-      note: "Około 10 minut · Bez karty kredytowej · Raport premium na końcu",
+      note: "Około 7 minut · Bez karty kredytowej · Raport premium na końcu",
       whatYouGet: "Co otrzymasz",
       whatWeAsk: "O co zapytamy",
       classicDemoLead: "Wolisz klasyczną prośbę o demo?",
@@ -1529,19 +1529,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   tr: {
     features: [
-      { title: "10 dakika", detail: "Operasyon, ekip, decision intelligence, öngörü ve teknoloji kurgusunu kapsayan seçim tabanlı sorular." },
+      { title: "Yaklaşık 7 dakika", detail: "Operasyon, ekip, decision intelligence, öngörü ve teknoloji kurgusunu kapsayan seçim tabanlı sorular." },
       { title: "Premium rapor", detail: "Öncelikli marj kaybı hipotezleri, önerilen Sundae kurgusu, beklenen etki aralıkları ve paylaşılabilir bir 30 / 60 / 90 planı." },
       { title: "Dürüst çıktı", detail: "Yalnızca yön gösteren aralıklar. Size ne vaat edeceğimizi değil, neyi ortaya çıkaracağımızı söyleriz." },
     ],
     languageInstruction: languageInstructions.tr,
     intro: {
       ...en.intro,
-      eyebrow: "AI destekli · 10 dakika",
+      eyebrow: "AI destekli · Yaklaşık 7 dakika",
       title: "Sundae operasyon teşhisinizi alın.",
       body:
         "Operasyonunuzla ilgili stratejik soruları yanıtlayın. Sundae, marj kaçağı hipotezlerini, önerilen stack'i ve ekibinizle paylaşabileceğiniz 30 / 60 / 90 günlük planı içeren kişisel bir teşhis üretir.",
       start: "Teşhisi başlat",
-      note: "Yaklaşık 10 dakika · Kredi kartı gerekmez · Sonda premium rapor",
+      note: "Yaklaşık 7 dakika · Kredi kartı gerekmez · Sonda premium rapor",
       whatYouGet: "Ne alacaksınız",
       whatWeAsk: "Ne soracağız",
       classicDemoLead: "Klasik demo talebi mi tercih edersiniz?",
@@ -1654,19 +1654,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   ro: {
     features: [
-      { title: "10 minute", detail: "Întrebări cu opțiuni rapide despre operațiuni, echipă, decision intelligence, previziune și stivă tehnologică." },
+      { title: "Aproximativ 7 minute", detail: "Întrebări cu opțiuni rapide despre operațiuni, echipă, decision intelligence, previziune și stivă tehnologică." },
       { title: "Raport premium", detail: "Principalele ipoteze de pierdere a marjei, configurația Sundae recomandată, intervalele de impact estimate și un plan 30 / 60 / 90 ușor de distribuit." },
       { title: "Rezultat onest", detail: "Doar intervale orientative. Îți spunem ce am scoate la iveală, nu ce ți-am promite." },
     ],
     languageInstruction: languageInstructions.ro,
     intro: {
       ...en.intro,
-      eyebrow: "Ghidat de AI · 10 minute",
+      eyebrow: "Ghidat de AI · Aproximativ 7 minute",
       title: "Primește diagnosticul operațional Sundae.",
       body:
         "Răspunde la întrebări strategice despre operațiunea ta. Sundae generează un diagnostic personalizat cu posibile pierderi de marjă, stack-ul recomandat și un plan de 30 / 60 / 90 de zile pentru echipă.",
       start: "Începe diagnosticul",
-      note: "Durează circa 10 minute · Fără card · Raport premium la final",
+      note: "Durează circa 7 minute · Fără card · Raport premium la final",
       whatYouGet: "Ce primești",
       whatWeAsk: "Ce vom întreba",
       classicDemoLead: "Preferi o cerere clasică de demo?",
@@ -1779,19 +1779,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   sv: {
     features: [
-      { title: "10 minuter", detail: "Valbaserade frågor som täcker verksamhet, team, decision intelligence, framsyn och teknikstack." },
+      { title: "Cirka 7 minuter", detail: "Valbaserade frågor som täcker verksamhet, team, decision intelligence, framsyn och teknikstack." },
       { title: "Premiumrapport", detail: "De främsta hypoteserna om marginalläckor, rekommenderad Sundae-uppsättning, förväntade effektintervall och en delbar 30 / 60 / 90-plan." },
       { title: "Ärligt resultat", detail: "Endast vägledande intervall. Vi berättar vad vi skulle lyfta fram, inte vad vi skulle lova." },
     ],
     languageInstruction: languageInstructions.sv,
     intro: {
       ...en.intro,
-      eyebrow: "AI-vägledd · 10 minuter",
+      eyebrow: "AI-vägledd · Cirka 7 minuter",
       title: "Få din Sundae driftsdiagnos.",
       body:
         "Svara på strategiska frågor om din restaurangdrift. Sundae skapar en personlig diagnos med möjliga marginaläckage, rekommenderad stack och en 30 / 60 / 90-dagarsplan för teamet.",
       start: "Starta diagnosen",
-      note: "Tar cirka 10 minuter · Inget kreditkort · Premiumrapport i slutet",
+      note: "Tar cirka 7 minuter · Inget kreditkort · Premiumrapport i slutet",
       whatYouGet: "Det du får",
       whatWeAsk: "Det vi frågar om",
       classicDemoLead: "Föredrar du en klassisk demoförfrågan?",
@@ -1904,19 +1904,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   id: {
     features: [
-      { title: "10 menit", detail: "Pertanyaan berbasis chip mencakup operasi, tenaga kerja, decision intelligence, foresight, dan tech stack." },
+      { title: "Sekitar 7 menit", detail: "Pertanyaan berbasis chip mencakup operasi, tenaga kerja, decision intelligence, foresight, dan tech stack." },
       { title: "Laporan premium", detail: "Hipotesis kebocoran margin teratas, stack Sundae yang direkomendasikan, rentang dampak yang diharapkan, dan rencana 30 / 60 / 90 yang bisa dibagikan." },
       { title: "Hasil yang jujur", detail: "Hanya rentang arah. Kami beri tahu apa yang akan kami ungkap, bukan apa yang kami janjikan." },
     ],
     languageInstruction: languageInstructions.id,
     intro: {
       ...en.intro,
-      eyebrow: "Dipandu AI · 10 menit",
+      eyebrow: "Dipandu AI · Sekitar 7 menit",
       title: "Dapatkan diagnosis operasional Sundae.",
       body:
         "Jawab pertanyaan strategis tentang operasi restoran Anda. Sundae membuat diagnosis personal berisi dugaan kebocoran margin, stack yang direkomendasikan, dan rencana 30 / 60 / 90 hari untuk tim.",
       start: "Mulai diagnosis",
-      note: "Sekitar 10 menit · Tanpa kartu kredit · Laporan premium di akhir",
+      note: "Sekitar 7 menit · Tanpa kartu kredit · Laporan premium di akhir",
       whatYouGet: "Yang Anda dapatkan",
       whatWeAsk: "Yang kami tanyakan",
       classicDemoLead: "Lebih suka meminta demo biasa?",
@@ -2029,19 +2029,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   vi: {
     features: [
-      { title: "10 phút", detail: "Câu hỏi dạng chip trải khắp vận hành, nhân sự, decision intelligence, foresight và tech stack." },
+      { title: "Khoảng 7 phút", detail: "Câu hỏi dạng chip trải khắp vận hành, nhân sự, decision intelligence, foresight và tech stack." },
       { title: "Báo cáo cao cấp", detail: "Các giả thuyết thất thoát biên lợi nhuận hàng đầu, bộ giải pháp Sundae được đề xuất, khoảng tác động kỳ vọng, và kế hoạch 30 / 60 / 90 có thể chia sẻ." },
       { title: "Kết quả trung thực", detail: "Chỉ là các khoảng định hướng. Chúng tôi cho bạn biết những gì chúng tôi sẽ phát hiện, chứ không phải những gì chúng tôi hứa hẹn." },
     ],
     languageInstruction: languageInstructions.vi,
     intro: {
       ...en.intro,
-      eyebrow: "AI hướng dẫn · 10 phút",
+      eyebrow: "AI hướng dẫn · Khoảng 7 phút",
       title: "Nhận diagnostic vận hành Sundae của bạn.",
       body:
         "Trả lời các câu hỏi chiến lược về vận hành nhà hàng. Sundae tạo diagnostic cá nhân hóa với các giả thuyết rò rỉ biên lợi nhuận, stack được đề xuất và kế hoạch 30 / 60 / 90 ngày cho đội ngũ.",
       start: "Bắt đầu diagnostic",
-      note: "Khoảng 10 phút · Không cần thẻ tín dụng · Báo cáo premium ở cuối",
+      note: "Khoảng 7 phút · Không cần thẻ tín dụng · Báo cáo premium ở cuối",
       whatYouGet: "Bạn nhận được gì",
       whatWeAsk: "Chúng tôi sẽ hỏi gì",
       classicDemoLead: "Muốn gửi yêu cầu demo kiểu truyền thống?",
@@ -2154,19 +2154,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   ms: {
     features: [
-      { title: "10 minit", detail: "Soalan berasaskan cip merangkumi operasi, tenaga kerja, decision intelligence, foresight, dan tech stack." },
+      { title: "Lebih kurang 7 minit", detail: "Soalan berasaskan cip merangkumi operasi, tenaga kerja, decision intelligence, foresight, dan tech stack." },
       { title: "Laporan premium", detail: "Hipotesis kebocoran margin utama, stack Sundae yang disyorkan, julat impak yang dijangka, dan pelan 30 / 60 / 90 yang boleh dikongsi." },
       { title: "Hasil yang jujur", detail: "Julat berarah sahaja. Kami beritahu apa yang akan kami dedahkan, bukan apa yang kami janjikan." },
     ],
     languageInstruction: languageInstructions.ms,
     intro: {
       ...en.intro,
-      eyebrow: "Dipandu AI · 10 minit",
+      eyebrow: "Dipandu AI · Lebih kurang 7 minit",
       title: "Dapatkan diagnostik operasi Sundae anda.",
       body:
         "Jawab soalan strategik tentang operasi restoran anda. Sundae menjana diagnostik peribadi dengan hipotesis kebocoran margin, stack disyorkan dan pelan 30 / 60 / 90 hari untuk pasukan.",
       start: "Mulakan diagnostik",
-      note: "Lebih kurang 10 minit · Tiada kad kredit · Laporan premium di akhir",
+      note: "Lebih kurang 7 minit · Tiada kad kredit · Laporan premium di akhir",
       whatYouGet: "Apa yang anda dapat",
       whatWeAsk: "Apa yang kami tanya",
       classicDemoLead: "Lebih suka permintaan demo biasa?",
@@ -2279,19 +2279,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   th: {
     features: [
-      { title: "10 นาที", detail: "คำถามแบบเลือกชิปครอบคลุมการดำเนินงาน บุคลากร decision intelligence, foresight และ tech stack" },
+      { title: "ประมาณ 7 นาที", detail: "คำถามแบบเลือกชิปครอบคลุมการดำเนินงาน บุคลากร decision intelligence, foresight และ tech stack" },
       { title: "รายงานระดับพรีเมียม", detail: "สมมติฐานจุดรั่วไหลของมาร์จิ้นที่สำคัญที่สุด ชุดเครื่องมือ Sundae ที่แนะนำ ช่วงผลกระทบที่คาดการณ์ และแผน 30 / 60 / 90 ที่แชร์ได้" },
       { title: "ผลลัพธ์ที่ตรงไปตรงมา", detail: "เป็นเพียงช่วงเชิงทิศทางเท่านั้น เราบอกคุณว่าเราจะค้นพบอะไร ไม่ใช่สิ่งที่เราจะสัญญา" },
     ],
     languageInstruction: languageInstructions.th,
     intro: {
       ...en.intro,
-      eyebrow: "นำทางด้วย AI · 10 นาที",
+      eyebrow: "นำทางด้วย AI · ประมาณ 7 นาที",
       title: "รับ diagnostic การดำเนินงาน Sundae ของคุณ",
       body:
         "ตอบคำถามเชิงกลยุทธ์เกี่ยวกับการดำเนินงานร้านอาหารของคุณ Sundae จะสร้าง diagnostic เฉพาะสำหรับคุณ พร้อมสมมติฐาน margin leak, stack ที่แนะนำ และแผน 30 / 60 / 90 วันสำหรับทีม",
       start: "เริ่ม diagnostic",
-      note: "ใช้เวลาประมาณ 10 นาที · ไม่ต้องใช้บัตรเครดิต · มีรายงานพรีเมียมตอนท้าย",
+      note: "ใช้เวลาประมาณ 7 นาที · ไม่ต้องใช้บัตรเครดิต · มีรายงานพรีเมียมตอนท้าย",
       whatYouGet: "สิ่งที่คุณจะได้รับ",
       whatWeAsk: "สิ่งที่เราจะถาม",
       classicDemoLead: "ต้องการขอเดโมแบบปกติใช่ไหม?",
@@ -2404,19 +2404,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   "zh-Hans": {
     features: [
-      { title: "10 分钟", detail: "基于选项的问题，覆盖运营、团队、decision intelligence、前瞻预测与技术栈。" },
+      { title: "约 7 分钟", detail: "基于选项的问题，覆盖运营、团队、decision intelligence、前瞻预测与技术栈。" },
       { title: "高级报告", detail: "首要的利润流失假设、推荐的 Sundae 方案组合、预期影响区间，以及一份可分享的 30 / 60 / 90 计划。" },
       { title: "诚实的输出", detail: "仅提供方向性区间。我们告诉你我们会发现什么，而非我们会承诺什么。" },
     ],
     languageInstruction: languageInstructions["zh-Hans"],
     intro: {
       ...en.intro,
-      eyebrow: "AI 引导 · 10 分钟",
+      eyebrow: "AI 引导 · 约 7 分钟",
       title: "获取你的 Sundae 运营诊断。",
       body:
         "回答关于餐厅运营的战略问题。Sundae 会生成个性化诊断，展示可能的利润流失点、推荐的 stack，以及可分享给团队的 30 / 60 / 90 天计划。",
       start: "开始诊断",
-      note: "约 10 分钟 · 无需信用卡 · 结束时获得高级报告",
+      note: "约 7 分钟 · 无需信用卡 · 结束时获得高级报告",
       whatYouGet: "你将获得",
       whatWeAsk: "我们会询问",
       classicDemoLead: "更想提交传统 demo 申请？",
@@ -2529,19 +2529,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   ja: {
     features: [
-      { title: "10 分", detail: "オペレーション、人材、decision intelligence、予測、技術スタックにわたる選択式の質問。" },
+      { title: "約7分", detail: "オペレーション、人材、decision intelligence、予測、技術スタックにわたる選択式の質問。" },
       { title: "プレミアムレポート", detail: "主要な利益漏れの仮説、推奨する Sundae 構成、見込まれるインパクトの範囲、そして共有できる 30 / 60 / 90 プラン。" },
       { title: "正直な出力", detail: "あくまで方向性を示す範囲のみ。約束することではなく、見つけ出すことをお伝えします。" },
     ],
     languageInstruction: languageInstructions.ja,
     intro: {
       ...en.intro,
-      eyebrow: "AI ガイド · 10分",
+      eyebrow: "AI ガイド · 約7分",
       title: "Sundae のオペレーション診断を受け取る。",
       body:
         "レストラン運営に関する戦略的な質問に回答してください。Sundae が、想定される利益率の漏れ、推奨 stack、チームに共有できる 30 / 60 / 90 日プランを含むパーソナライズ診断を作成します。",
       start: "診断を開始",
-      note: "約10分 · クレジットカード不要 · 最後にプレミアムレポート",
+      note: "約7分 · クレジットカード不要 · 最後にプレミアムレポート",
       whatYouGet: "受け取れるもの",
       whatWeAsk: "お聞きする内容",
       classicDemoLead: "通常のデモ依頼をご希望ですか？",
@@ -2654,19 +2654,19 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   ko: {
     features: [
-      { title: "10분", detail: "운영, 인력, decision intelligence, 예측, 기술 스택을 아우르는 선택형 질문." },
+      { title: "약 7분", detail: "운영, 인력, decision intelligence, 예측, 기술 스택을 아우르는 선택형 질문." },
       { title: "프리미엄 리포트", detail: "핵심 마진 누수 가설, 추천 Sundae 구성, 예상 영향 범위, 그리고 공유 가능한 30 / 60 / 90 플랜." },
       { title: "솔직한 결과물", detail: "방향을 제시하는 범위만 제공합니다. 무엇을 약속할지가 아니라, 무엇을 찾아낼지를 말씀드립니다." },
     ],
     languageInstruction: languageInstructions.ko,
     intro: {
       ...en.intro,
-      eyebrow: "AI 안내 · 10분",
+      eyebrow: "AI 안내 · 약 7분",
       title: "Sundae 운영 진단을 받아보세요.",
       body:
         "운영에 대한 전략적 질문에 답하면 Sundae가 잠재적인 마진 누수, 추천 스택, 팀과 공유할 30 / 60 / 90일 계획이 담긴 맞춤 진단을 생성합니다.",
       start: "진단 시작",
-      note: "약 10분 · 신용카드 불필요 · 마지막에 프리미엄 리포트 제공",
+      note: "약 7분 · 신용카드 불필요 · 마지막에 프리미엄 리포트 제공",
       whatYouGet: "받게 되는 내용",
       whatWeAsk: "질문 내용",
       classicDemoLead: "일반 데모를 요청하시겠습니까?",
@@ -2775,7 +2775,7 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
   },
   bn: {
     features: [
-      { title: "10 মিনিট", detail: "অপারেশন, কর্মীবাহিনী, decision intelligence, foresight এবং টেক স্ট্যাক জুড়ে চিপ-ভিত্তিক প্রশ্ন।" },
+      { title: "প্রায় 7 মিনিট", detail: "অপারেশন, কর্মীবাহিনী, decision intelligence, foresight এবং টেক স্ট্যাক জুড়ে চিপ-ভিত্তিক প্রশ্ন।" },
       { title: "প্রিমিয়াম রিপোর্ট", detail: "শীর্ষ মার্জিন-লিক অনুমান, প্রস্তাবিত Sundae স্ট্যাক, প্রত্যাশিত প্রভাবের পরিসর, এবং একটি শেয়ারযোগ্য 30 / 60 / 90 পরিকল্পনা।" },
       { title: "সৎ ফলাফল", detail: "শুধু দিকনির্দেশক পরিসর। আমরা বলি আমরা কী সামনে আনব, কী প্রতিশ্রুতি দেব তা নয়।" },
     ],
@@ -2929,7 +2929,7 @@ function buildGenericCopy(locale: WebsiteLocale): DiagnosticCopy {
     languageInstruction: languageInstructions[locale],
     intro: {
       ...en.intro,
-      eyebrow: `${nativeName} · 10 min`,
+      eyebrow: `${nativeName} · ~7 min`,
       title: `Sundae Operations Diagnostic (${nativeName})`,
       body:
         "This diagnostic uses your selected language for generated recommendations, email, and the shareable report. Product names remain unchanged for consistency.",

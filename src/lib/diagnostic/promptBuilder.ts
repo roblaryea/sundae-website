@@ -1,19 +1,20 @@
 // Sundae-grounded system prompt + user message builder for the AI gateway.
 // The system prompt frames Sundae's positioning, modules, tier ladder,
 // and required honesty rules. The user message serialises the prospect's
-// 20 responses (18 chip-flow + 2 free-text) in a structured way so the model
+// focused public responses in a structured way so the model
 // can reason over them.
 
-import type { DiagnosticResponses } from './engine';
+import type { DiagnosticReport, DiagnosticResponses } from './engine';
 import { QUESTIONS } from './questions';
 import type { WebsiteLocale } from '@/lib/i18n';
 import { priceBookForPrompt } from '@/lib/pricing/priceBook';
 import { getDiagnosticPromptInstruction } from './i18n';
+import { diagnosticOtherDetails } from './flowLogic';
 
 export const SYSTEM_PROMPT = `You are the diagnostic engine for Sundae Technologies - a Decision Intelligence platform for restaurants.
 
 # Your role
-Generate a personalised diagnostic report from a prospect's responses to a 20-question survey. Your output is a structured JSON object the website renders as a premium-styled report. This is a high-conversion sales surface; output quality directly drives qualified leads. Be sharp, specific, and honest.
+Generate a personalised diagnostic report from a prospect's focused operating assessment. Your output is a structured JSON object the website renders as a premium-styled report. This is a high-conversion sales surface; output quality directly drives qualified leads. Be sharp, specific, and honest.
 
 # Sundae's product (so your recommendations are grounded)
 
@@ -47,8 +48,8 @@ ${priceBookForPrompt()}
 
 # Output rules (NON-NEGOTIABLE)
 
-1. **Honest ranges only** - Every quantified impact must be a directional range derived from comparable operator engagements. NEVER a customer-specific projection. Use phrases like "Operators with similar profiles typically..." or "Comparable engagements show..."
-2. **Read the free-text fields** (\`blind_spot\` and \`priority\`) and tie at least one leak hypothesis and one quick-win directly to what they wrote.
+1. **Honest ranges only** - Use ONLY the quantified ranges supplied in the authoritative envelope in the user message. Never invent a benchmark, typical result, implementation duration, analyst headcount, current software budget, or customer-specific projection. When the envelope has no supported number, state what must be measured before an estimate can be made.
+2. **Read the operator's own words** - tie at least one leak hypothesis and one quick-win directly to their \`priority\` response. If a legacy \`blind_spot\` response is present, use it too.
 3. **Multi-select context matters** - if they picked overstaffing + OT leakage + buddy-punching, synthesize ONE connected narrative about their scheduling-to-payroll waste loop, not three separate paragraphs.
 4. **Be region/segment specific** - Multi-region operators need country-pack relevance. Fine-dining vs QSR vs cloud kitchen have different leak vectors.
 5. **No template language** - Avoid phrases like "Sundae helps..." or "Our platform offers...". Write as a knowledgeable consultant reading their data.
@@ -58,7 +59,7 @@ ${priceBookForPrompt()}
    - Write like a consultant reading their P&L, not like a vendor pitching.
 6. **Package fit must match the flagged GAPS, not the outlet count** - pick the Core package whose capability answers what they said they cannot see today, and default DOWN to Core Foundation when the signal is thin. Never name a retired SKU (Report Lite/Plus/Pro, Core Lite, Core Pro) and never imply a free tier exists.
 7. **Top leaks ranked by impact band** - high → medium → low, max 3 hypotheses.
-8. **Recommended stack - RIGHT-SIZED to their scale and budget (CRITICAL)** - 2-6 layers. Always include Core. Recommend the stack a group of THEIR size and budget would realistically land on, not a maximal end-state bundle:
+8. **Recommended stack - RIGHT-SIZED to their scale and budget (CRITICAL)** - 1-6 layers. Always include Core. Recommend the stack a group of THEIR size and budget would realistically land on, not a maximal end-state bundle:
    - Crew: only if labor pain or manual scheduling. Pick the RIGHT Crew packaging - Crew Operating (Manage + Time + Pay) ONLY for multi-region payroll (2+ payroll countries) or 16+ outlets; otherwise Crew Schedule, or Schedule & Time if buddy-punching/no-shows. Do NOT default everyone to the priciest Crew bundle.
    - Watchtower: only at SCALE (≥6 outlets) AND a genuine competitor concern. It has NO published list price - describe it as scoped and quoted separately, and keep it OUT of the monthly figure. Never invent a number for it.
    - Intelligence (Ask Sundae / NL-to-SQL) is part of Core - include it as a layer for the narrative but it does NOT add a separate cost line.
@@ -66,6 +67,8 @@ ${priceBookForPrompt()}
    - Foresight & Action: if a forecasting gap or 2+ what-if scenarios.
    - For small operators (≤15 outlets and/or sub-$25K SaaS spend) keep the stack focused (Core + one Crew package + at most one or two specialised lenses). If broader capability fits later, describe it as an EXPANSION PATH in prose - never bundle it into the headline cost. A $10-25K-spend operator running Core + Crew Operating + Watchtower + Foresight & Action is not believable and reads as a sales-y over-quote.
 9. **Quick wins** - exactly 3 entries, one per horizon (30, 60, 90 days). Reference their specific tools/integrations where possible.
+   - Day 30 is discovery, connection, reconciliation, and a small pilot. Never promise an all-outlet or multi-country rollout in one sprint unless the intake explicitly says the sources are already connected and validated.
+   - Day 60 may expand a proven pilot. Day 90 may establish the recurring management rhythm. Make prerequisites visible rather than presenting implementation as automatic.
 10. **Profile line** - one tight line: "[Segments] operator · [N] outlets · [Region(s)]"
 11. **Name discipline (HARD LIMIT)** - Use the operator's first name AT MOST TWICE in the ENTIRE report - ideally once in the summary and nowhere else. Count your uses before finishing. Everywhere else use "you" / "your operation" / "the group". More than twice reads like a mail-merge, not a consultant who knows the business.
 12. **Vendor neutrality** - NEVER name the AI model, provider, or vendor behind this analysis, and never describe the output as "AI-generated" or "powered by [X]". You are Sundae's diagnostic engine - speak as Sundae, in the first person plural where natural ("we'd surface...").
@@ -86,7 +89,7 @@ Sharp B2B consultant. Direct. Numbers when honest. Empathetic to the operator's 
 
 # Voice consistency
 
-This prompt may be executed by Claude Sonnet 4.6 or GPT-5 depending on
+This prompt may be executed by GPT-5 mini or Claude Haiku 4.5 depending on
 provider availability. Maintain identical structural rigor, identical
 honesty about impact ranges, and identical refusal to use marketing
 language regardless of which model you are. The prospect cannot tell
@@ -143,6 +146,7 @@ export function buildUserMessage(
   responses: DiagnosticResponses,
   leadData: { name: string; role: string; country: string; company: string },
   locale: WebsiteLocale = 'en',
+  referenceReport?: DiagnosticReport,
 ): string {
   const segments = arr(responses.segment);
   const regions = arr(responses.region);
@@ -173,7 +177,9 @@ export function buildUserMessage(
   lines.push(`## Decision intelligence`);
   lines.push(`- **KPIs tracked today:** ${labelize('kpis_measured', arr(responses.kpis_measured)) || '(not specified)'}`);
   lines.push(`- **KPIs they WISH they could measure but can't (THE GAP - read carefully):** ${labelize('kpis_wished', arr(responses.kpis_wished)) || '(none flagged)'}`);
-  lines.push(`- **Last major decision - data sources used:** ${labelize('decision_data', arr(responses.decision_data)) || '(not specified)'}`);
+  if (responses.decision_data) {
+    lines.push(`- **Last major decision - data sources used:** ${labelize('decision_data', arr(responses.decision_data))}`);
+  }
   lines.push('');
 
   lines.push(`## Foresight / Strategy`);
@@ -188,10 +194,13 @@ export function buildUserMessage(
   lines.push(`## Tech stack + context`);
   lines.push(`- **POS systems:** ${labelize('pos', arr(responses.pos)) || '(not specified)'}`);
   lines.push(`- **Other ops tools:** ${labelize('ops_tools', arr(responses.ops_tools)) || '(none flagged)'}`);
-  lines.push(`- **Timeline to be live:** ${labelize('timeline', arr(responses.timeline)) || responses.timeline || '(not specified)'}`);
-  lines.push(`- **Current decision lag (signal-to-action):** ${labelize('decision_lag', arr(responses.decision_lag)) || responses.decision_lag || '(not specified)'}`);
-  lines.push(`- **Annual ops tech spend (software/SaaS):** ${labelize('budget_band', arr(responses.budget_band)) || responses.budget_band || '(not specified)'}`);
-  lines.push(`- **In-house tech headcount (analysts, BI devs, data engineers):** ${responses.tech_headcount ?? '(not specified)'}`);
+  if (responses.timeline) lines.push(`- **Timeline to be live:** ${labelize('timeline', arr(responses.timeline)) || responses.timeline}`);
+  if (responses.decision_lag) lines.push(`- **Current decision lag (signal-to-action):** ${labelize('decision_lag', arr(responses.decision_lag)) || responses.decision_lag}`);
+  if (responses.budget_band) lines.push(`- **Annual ops tech spend (software/SaaS):** ${labelize('budget_band', arr(responses.budget_band)) || responses.budget_band}`);
+  if (responses.tech_headcount) lines.push(`- **In-house tech headcount (analysts, BI devs, data engineers):** ${responses.tech_headcount}`);
+  for (const { questionId, detail } of diagnosticOtherDetails(responses, ['scheduling_tool', 'payroll_regions', 'pos'])) {
+    lines.push(`- **Other ${questionId.replaceAll('_', ' ')} detail:** ${detail}`);
+  }
   if (responses.priority) {
     lines.push('');
     lines.push(`- **90-day priority (operator's own words - TIE A QUICK-WIN DIRECTLY TO THIS):**`);
@@ -201,6 +210,16 @@ export function buildUserMessage(
 
   lines.push(`# Now generate the diagnostic`);
   lines.push(``);
+  if (referenceReport) {
+    lines.push(`## Authoritative product and evidence envelope (DO NOT OVERRIDE)`);
+    lines.push(`- **Eligible starting stack:** ${referenceReport.tierFit}`);
+    lines.push(`- **Allowed product layers:** ${referenceReport.recommendedStack.map((item) => `${item.layer}: ${item.label}`).join('; ')}`);
+    lines.push(`- **Allowed quantified outcomes:** ${referenceReport.expectedImpact.map((item) => `${item.metric}: ${item.range}`).join('; ')}`);
+    lines.push(`- **Allowed leak evidence:** ${referenceReport.topLeaks.map((item) => `${item.title}: ${item.impactCopy}`).join('; ')}`);
+    lines.push(`- Canonical pricing and economics are applied after generation. Do not output an economics block and do not calculate or infer a different outlet point, budget, analyst headcount, or price.`);
+    lines.push(`- Do not recommend a product layer that is absent from the eligible starting stack. Describe other capability only as a future validation question, not as part of the recommendation.`);
+    lines.push(``);
+  }
   lines.push(`## Framing for this buyer (role: ${leadData.role || "unspecified"})`);
   lines.push(roleFraming(leadData.role || ""));
   lines.push(``);
@@ -209,10 +228,10 @@ export function buildUserMessage(
   lines.push(``);
   lines.push(`Return a structured JSON object matching the DiagnosticReport schema. Remember:`);
   lines.push(`- Address the operation as "you" / "your operation" / "the group". You may use the first name "${leadData.name.split(' ')[0]}" ONCE, in the summary only - never again anywhere in the report (hard limit).`)
-  lines.push(`- Tie at least one leak hypothesis to their **blind_spot** answer (if provided)`);
+  lines.push(`- Tie at least one leak hypothesis to their own words in **priority** (and **blind_spot** if a legacy answer is present)`);
   lines.push(`- Tie at least one quick-win to their **priority** answer (if provided)`);
   lines.push(`- Synthesise multi-select answers into connected narratives, not parallel paragraphs`);
-  lines.push(`- Match tier fit to outlet count exactly`);
+  lines.push(`- Match tier fit and product layers to the authoritative eligibility envelope exactly`);
   lines.push(`- Output prose as a sharp B2B consultant, not as marketing copy`);
 
   return lines.join('\n');

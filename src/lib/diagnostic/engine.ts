@@ -27,6 +27,7 @@ import {
   type CorePackageId,
 } from "@/lib/pricing/priceBook";
 import { QUESTIONS } from "./questions";
+import { buildEvidenceSafeFallbackFindings } from "./fallbackFindings";
 
 export type DiagnosticResponses = Record<string, string | string[]>;
 
@@ -422,6 +423,15 @@ export function runDiagnostic(
     });
   }
 
+  // Sparse, mature, or highly selective responses should still produce a
+  // useful assessment. These evidence-safe observations do not invent a loss
+  // figure; they turn the required 90-day priority and selected systems into
+  // concrete validation work.
+  for (const finding of buildEvidenceSafeFallbackFindings(responses)) {
+    if (topLeaks.length >= 2) break;
+    if (!topLeaks.some((item) => item.id === finding.id)) topLeaks.push(finding);
+  }
+
   // Cap at top 3, sorted by impact band
   const bandOrder = { high: 0, medium: 1, low: 2 };
   const ranked = topLeaks.sort((a, b) => bandOrder[a.impactBand] - bandOrder[b.impactBand]).slice(0, 3);
@@ -449,7 +459,11 @@ export function runDiagnostic(
   });
 
   // Crew if labor pain or non-trivial scheduling
-  if (arr(responses.labor_pain).some((p) => p !== "none") || responses.scheduling_tool === "manual" || responses.scheduling_tool === "none") {
+  if (
+    arr(responses.labor_pain).some((p) => p !== "none") ||
+    has(responses.scheduling_tool, "manual") ||
+    has(responses.scheduling_tool, "none")
+  ) {
     const payrollScope = arr(responses.payroll_regions);
     if (payrollScope.length >= 2) {
       recommendedStack.push({
@@ -540,22 +554,29 @@ export function runDiagnostic(
   }
   // Default if empty
   if (expectedImpact.length === 0) {
-    expectedImpact.push({ metric: "Decision speed", range: "Weekly close → Live (sub-shift)" });
-    expectedImpact.push({ metric: "Tool consolidation", range: "Replaces 3-5 disconnected dashboards" });
+    expectedImpact.push({ metric: "Baseline readiness", range: "Source coverage and starting measure agreed in the first 30 days" });
+    expectedImpact.push({ metric: "Integration confidence", range: "POS, workforce, and cost totals reconciled before any return claim" });
   }
 
   // ─── Quick wins (30/60/90) ───────────────────────────────────────
   const quickWins: QuickWin[] = [];
+  const priority = typeof responses.priority === "string" ? responses.priority.trim() : "";
   quickWins.push({
     horizon: "30",
-    title: "Connect POS + scheduling",
-    detail: "Most ${segment} integrations under 5 minutes. Pulse populates within 24 hours of data flow.".replace("${segment}", segment),
+    title: priority ? "Baseline your 90-day priority" : "Connect POS + scheduling",
+    detail: priority
+      ? `You said: “${priority.slice(0, 160)}${priority.length > 160 ? "…" : ""}” Connect the relevant POS and workforce data, agree the starting measure, and name the owner before changing the process.`
+      : "Connect the relevant POS and scheduling sources, confirm data completeness, and establish the starting operational baseline.",
   });
-  if (recommendedStack.some((s) => s.layer === "crew")) {
+  const crewRecommendation = recommendedStack.find((s) => s.layer === "crew");
+  if (crewRecommendation) {
+    const includesTime = crewRecommendation.label === "Schedule & Time" || crewRecommendation.label === "Crew Operating";
     quickWins.push({
       horizon: "60",
-      title: "Crew live across pilot outlets",
-      detail: "Scheduling + T&A live on 2-3 pilot outlets. Pulse surfaces the first labor leak fix in week 1.",
+      title: `${crewRecommendation.label} live across pilot outlets`,
+      detail: includesTime
+        ? "Scheduling and time capture live on 2-3 pilot outlets, with source totals reconciled before expansion."
+        : "Scheduling live on 2-3 pilot outlets, with manager workflow and roster quality measured before expansion.",
     });
   } else {
     quickWins.push({
@@ -564,11 +585,21 @@ export function runDiagnostic(
       detail: "Pulse-driven decision logged and re-measured. Decision Replay surface captures the loop.",
     });
   }
-  if (recommendedStack.some((s) => s.layer === "foresight" || s.layer === "watchtower")) {
+  const hasForesight = recommendedStack.some((s) => s.layer === "foresight");
+  const hasWatchtower = recommendedStack.some((s) => s.layer === "watchtower");
+  if (hasForesight || hasWatchtower) {
     quickWins.push({
       horizon: "90",
-      title: "Foresight + competitive signal live",
-      detail: "Forecasts and Watchtower briefings folded into weekly leadership rhythm. Scenario modeling unlocked.",
+      title: hasForesight && hasWatchtower
+        ? "Forecasting and market signals in the weekly rhythm"
+        : hasForesight
+          ? "First scenario reviewed with Foresight"
+          : "Market signals in the weekly rhythm",
+      detail: hasForesight && hasWatchtower
+        ? "Review the first measured forecast and Watchtower briefing with leadership, then record the decision and owner."
+        : hasForesight
+          ? "Review one priority scenario against the agreed baseline, record the decision, and measure the result before expanding the model."
+          : "Review the first relevant market briefing with leadership, record the response, and measure the result.",
     });
   } else {
     quickWins.push({
@@ -597,7 +628,10 @@ export function runDiagnostic(
     if (t === "asap" || t === "next_quarter") return " Given your timeline, the fastest path is starting with the highest-leak module above and layering up.";
     return "";
   })();
-  const summary = `${profileLine}. Based on your responses, the highest-leverage moves are ${ranked.length > 0 ? ranked[0].title.toLowerCase() : "consolidating decision flow on Sundae"}${ranked.length > 1 ? ` and ${ranked[1].title.toLowerCase()}` : ""}.${blindSpotLine}${lagLine}${timelineLine} Your recommended stack starts with ${tierFit}.`;
+  const priorityLine = priority
+    ? ` Your 90-day priority is “${priority.slice(0, 160)}${priority.length > 160 ? "…" : ""}” — the first action below turns that into a measured baseline.`
+    : "";
+  const summary = `${profileLine}. Based on your responses, the highest-leverage moves are ${ranked.length > 0 ? ranked[0].title.toLowerCase() : "consolidating decision flow on Sundae"}${ranked.length > 1 ? ` and ${ranked[1].title.toLowerCase()}` : ""}.${priorityLine}${blindSpotLine}${lagLine}${timelineLine} Your recommended stack starts with ${tierFit}.`;
 
   const report: DiagnosticReport = {
     summary,
