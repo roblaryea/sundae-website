@@ -22,6 +22,7 @@ import {
   type SundaeLeadPayload,
 } from '@/lib/sundaeLeadClient';
 import { normalizeWebsiteLocale } from '@/lib/i18n';
+import { isPhoneRequiredForLead, isValidOptionalPhone } from '@/lib/leadValidation';
 
 // Force Node.js runtime (required for crypto)
 export const runtime = 'nodejs';
@@ -98,6 +99,7 @@ export async function POST(request: NextRequest) {
       message,
       ctaLabel,
       sourcePage,
+      source,
       utmSource,
       utmMedium,
       utmCampaign,
@@ -113,7 +115,7 @@ export async function POST(request: NextRequest) {
     if (!company?.trim()) missingFields.push('company');
     if (!role?.trim()) missingFields.push('role');
     if (!country?.trim()) missingFields.push('country');
-    if (!phone?.trim()) missingFields.push('phone');
+    if (isPhoneRequiredForLead(sourcePage, source) && !phone?.trim()) missingFields.push('phone');
     if (!numberOfLocations?.trim()) missingFields.push('numberOfLocations');
     if (!primaryPOS?.trim()) missingFields.push('primaryPOS');
     if (!message?.trim()) missingFields.push('message');
@@ -144,8 +146,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const phoneDigits = phone.replace(/[\s\-()]/g, '');
-    if (!/\d{6,}/.test(phoneDigits)) {
+    if (!isValidOptionalPhone(phone)) {
       return NextResponse.json(
         {
           success: false,
