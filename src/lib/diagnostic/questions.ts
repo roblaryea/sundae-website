@@ -1,10 +1,11 @@
 /**
  * Sundae Operations Diagnostic - question framework.
  *
- * 20 questions (18 chip + 2 free-text) across 5 dimensions (Operation profile, Crew,
- * Core, Foresight, Tech stack). Designed for ~10-minute completion. Two
- * free-text fields max - everything else is chip selection (single or
- * multi).
+ * The complete question bank spans 20 questions across 5 dimensions. The
+ * public diagnostic intentionally uses a focused subset (exported below) so
+ * a prospect gets a useful report without completing an internal sales-
+ * qualification form. The full bank remains available to the report engine
+ * and for backwards-compatible saved responses.
  *
  * The responses feed `lib/diagnostic/engine.ts` which maps response
  * patterns to Sundae module recommendations + leak hypotheses. When the
@@ -20,7 +21,7 @@ export type Question = {
   kind: QuestionKind;
   prompt: string;
   helper?: string;
-  options?: { value: string; label: string }[];
+  options?: { value: string; label: string; searchTerms?: string[] }[];
   /** For free text only - placeholder + max length */
   placeholder?: string;
   maxLength?: number;
@@ -34,8 +35,8 @@ export const QUESTIONS: Question[] = [
     id: "segment",
     dimension: "profile",
     kind: "multi",
-    prompt: "What segments do you operate in?",
-    helper: "Select all that apply - multi-concept groups can pick multiple. Segment affects what Sundae prioritizes.",
+    prompt: "Which types of food and hospitality business do you run?",
+    helper: "Choose all that apply. Multi-concept groups can select more than one.",
     options: [
       { value: "qsr",          label: "QSR / Fast food" },
       { value: "fast_casual",  label: "Fast-casual" },
@@ -69,8 +70,8 @@ export const QUESTIONS: Question[] = [
     dimension: "profile",
     kind: "single",
     optional: true,
-    prompt: "Roughly, what's your average annual revenue per outlet (AUV)?",
-    helper: "Optional - sharpens the cost, savings, and EBITDA ranges in your report. Skip if you'd rather not say.",
+    prompt: "About how much revenue does each location make in a typical year?",
+    helper: "Optional. Use the closest USD equivalent so we can make the financial ranges in your report more useful.",
     options: [
       { value: "under_500k", label: "Under $500K" },
       { value: "500k_1m",    label: "$500K-1M" },
@@ -85,29 +86,29 @@ export const QUESTIONS: Question[] = [
     dimension: "profile",
     kind: "multi",
     prompt: "Where do you operate?",
-    helper: "Select all regions - multi-region operators get country-pack readiness mapped to each one.",
+    helper: "Choose every country or region where you currently operate.",
     options: [
-      { value: "us",          label: "United States" },
+      { value: "us",          label: "United States", searchTerms: ["USA", "US", "America"] },
       { value: "canada",      label: "Canada" },
-      { value: "uk",          label: "United Kingdom" },
+      { value: "uk",          label: "United Kingdom", searchTerms: ["UK", "Great Britain", "Britain"] },
       { value: "ireland",     label: "Ireland" },
       { value: "europe_west", label: "Europe (Western)" },
       { value: "europe_nord", label: "Europe (Nordic)" },
       { value: "europe_east", label: "Europe (Eastern)" },
-      { value: "uae",         label: "UAE" },
-      { value: "ksa",         label: "Saudi Arabia" },
+      { value: "uae",         label: "UAE", searchTerms: ["United Arab Emirates", "Dubai", "Abu Dhabi"] },
+      { value: "ksa",         label: "Saudi Arabia", searchTerms: ["KSA"] },
       { value: "qatar",       label: "Qatar" },
       { value: "kuwait",      label: "Kuwait" },
       { value: "bahrain",     label: "Bahrain" },
       { value: "oman",        label: "Oman" },
       { value: "egypt",       label: "Egypt" },
       { value: "africa",      label: "Africa (other)" },
-      { value: "sea",         label: "Southeast Asia" },
+      { value: "sea",         label: "Southeast Asia", searchTerms: ["SEA"] },
       { value: "india",       label: "India" },
       { value: "japan",       label: "Japan" },
       { value: "korea",       label: "Korea" },
       { value: "china_hk",    label: "China / Hong Kong" },
-      { value: "anzac",       label: "Australia / New Zealand" },
+      { value: "anzac",       label: "Australia / New Zealand", searchTerms: ["ANZ", "ANZAC"] },
       { value: "mexico",      label: "Mexico" },
       { value: "brazil",      label: "Brazil" },
       { value: "latam_other", label: "Latin America (other)" },
@@ -147,7 +148,7 @@ export const QUESTIONS: Question[] = [
     id: "labor_pain",
     dimension: "crew",
     kind: "multi",
-    prompt: "Where does labor cost leak most?",
+    prompt: "Which workforce problems cost you the most time or money?",
     helper: "Select all that apply.",
     options: [
       { value: "overstaffing",     label: "Overstaffing in slow windows" },
@@ -164,8 +165,9 @@ export const QUESTIONS: Question[] = [
     id: "payroll_regions",
     dimension: "crew",
     kind: "multi",
-    prompt: "Which countries does payroll touch?",
-    helper: "Select all that apply - affects which country packs would be relevant.",
+    optional: true,
+    prompt: "Where do you run payroll?",
+    helper: "Choose every country or region that applies, or skip if payroll is not part of what you want to assess.",
     options: [
       { value: "us",          label: "United States" },
       { value: "canada",      label: "Canada" },
@@ -174,7 +176,7 @@ export const QUESTIONS: Question[] = [
       { value: "uae",         label: "UAE" },
       { value: "ksa",         label: "Saudi Arabia" },
       { value: "qatar",       label: "Qatar / Bahrain / Oman" },
-      { value: "other",       label: "Other (write below)" },
+      { value: "other",       label: "Another country or region" },
     ],
   },
 
@@ -183,8 +185,9 @@ export const QUESTIONS: Question[] = [
     id: "kpis_measured",
     dimension: "core",
     kind: "multi",
-    prompt: "Which KPIs do you actively track today?",
-    helper: "Select all that apply.",
+    optional: true,
+    prompt: "Which performance numbers can you reliably see today?",
+    helper: "Choose all that apply, or skip if you are not sure.",
     options: [
       { value: "labor_pct",       label: "Labor cost %" },
       { value: "food_cost",       label: "Food cost %" },
@@ -192,7 +195,7 @@ export const QUESTIONS: Question[] = [
       { value: "avg_check",       label: "Average check" },
       { value: "upsell",          label: "Upsell / Attach rate" },
       { value: "guest_retention", label: "Guest retention" },
-      { value: "ebitda",          label: "EBITDA per outlet" },
+      { value: "ebitda",          label: "Operating profit (EBITDA) per location" },
       { value: "forecast_acc",    label: "Forecast accuracy" },
       { value: "compset",         label: "Competitive position" },
     ],
@@ -201,25 +204,26 @@ export const QUESTIONS: Question[] = [
     id: "kpis_wished",
     dimension: "core",
     kind: "multi",
-    prompt: "Which KPIs do you wish you could measure but can't today?",
-    helper: "This is the gap Sundae fills - be honest, multi-select. Includes Sundae-native calculations operators rarely have access to.",
+    optional: true,
+    prompt: "What would you like to understand better?",
+    helper: "Choose the questions you cannot answer reliably today. You can search the list or skip if you are not sure.",
     options: [
       { value: "real_time_margin",      label: "Real-time margin per shift" },
       { value: "daypart_leak",          label: "Daypart-level labor leak" },
       { value: "labor_productivity",    label: "Real-time labor productivity (sales per labor hour)" },
       { value: "live_labor_vs_demand",  label: "Live labor vs demand (real-time staffing pace)" },
       { value: "overtime_leakage",      label: "Overtime risk & leakage, live" },
-      { value: "daypart_revpash",       label: "Daypart RevPASH (Revenue per Available Seat Hour)" },
+      { value: "daypart_revpash",       label: "Revenue earned per available seat and hour" },
       { value: "hourly_food_cost",      label: "Hour-level food cost variance" },
-      { value: "theoretical_actual",    label: "Theoretical vs actual COGS variance" },
+      { value: "theoretical_actual",    label: "Expected versus actual ingredient cost" },
       { value: "item_profitability",    label: "True item-level profitability" },
-      { value: "menu_engineering",      label: "Menu engineering matrix (Stars / Plowhorses / Puzzles / Dogs)" },
+      { value: "menu_engineering",      label: "Which menu items to promote, improve, or remove" },
       { value: "server_upsell",         label: "Server-level upsell attach rate" },
-      { value: "cannibalization",       label: "Cross-day / cross-channel cannibalization" },
+      { value: "cannibalization",       label: "Whether one offer or sales channel reduces another" },
       { value: "promo_roi",             label: "Promo ROI by channel" },
       { value: "delivery_margin",       label: "Delivery channel margin (third-party commission drag)" },
       { value: "guest_ltv",             label: "Guest lifetime value" },
-      { value: "cohort_retention",      label: "Customer cohort retention curves" },
+      { value: "cohort_retention",      label: "How often different guest groups return" },
       { value: "noshow_prediction",     label: "Reservation no-show prediction" },
       { value: "inventory_shrinkage",   label: "Inventory shrinkage by item category" },
       { value: "cash_variance",         label: "Cash & revenue-assurance variance (skim detection)" },
@@ -227,7 +231,7 @@ export const QUESTIONS: Question[] = [
       { value: "competitor_pricing",    label: "Competitor pricing tracking" },
       { value: "forecast_per_outlet",   label: "Forecast per outlet, daily" },
       { value: "scheduling_eff",        label: "Scheduling efficiency vs demand" },
-      { value: "decision_replay",       label: "Decision-to-outcome closed-loop scoring" },
+      { value: "decision_replay",       label: "Whether past management actions improved results" },
       { value: "cross_module",          label: "Cross-module correlation insights" },
       { value: "multi_brand_pnl",       label: "Multi-brand consolidated P&L" },
       { value: "compliance_drift",      label: "Compliance / brand-standard drift" },
@@ -276,8 +280,9 @@ export const QUESTIONS: Question[] = [
     id: "scenario_wish",
     dimension: "foresight",
     kind: "multi",
-    prompt: "Which what-if scenarios do you wish you could model?",
-    helper: "Select all that apply.",
+    optional: true,
+    prompt: "Which decisions would you like to test before acting?",
+    helper: "Choose all that apply, or skip if this is not a current need.",
     options: [
       { value: "new_location",   label: "Opening a new location" },
       { value: "menu_change",    label: "Menu / pricing change impact" },
@@ -305,7 +310,7 @@ export const QUESTIONS: Question[] = [
     dimension: "tech",
     kind: "multi",
     prompt: "Which POS system(s) do you use?",
-    helper: "Select all that apply - multi-brand groups often run multiple.",
+    helper: "Choose all that apply. Multi-brand groups can select more than one; search if you do not see yours immediately.",
     options: [
       { value: "toast",       label: "Toast" },
       { value: "square",      label: "Square" },
@@ -337,8 +342,9 @@ export const QUESTIONS: Question[] = [
     id: "ops_tools",
     dimension: "tech",
     kind: "multi",
-    prompt: "What other ops tools do you currently run?",
-    helper: "Select all that apply.",
+    optional: true,
+    prompt: "Which other systems support your day-to-day operation?",
+    helper: "Choose all that apply, or skip if none of these are relevant.",
     options: [
       { value: "scheduling",   label: "Workforce scheduling" },
       { value: "payroll",      label: "Payroll provider" },
@@ -427,3 +433,36 @@ export const QUESTIONS: Question[] = [
     ],
   },
 ];
+
+/**
+ * Public, conversion-friendly questionnaire.
+ *
+ * These 14 questions are the minimum set needed to produce a useful operating
+ * profile, workforce read, visibility-gap assessment, scenario recommendation,
+ * integration view, and a specific 30/60/90-day plan. The six omitted bank
+ * questions are either duplicated by the 90-day priority or are internal sales
+ * qualification fields that should not stand between a visitor and their
+ * promised report.
+ */
+export const PUBLIC_DIAGNOSTIC_QUESTION_IDS = [
+  "segment",
+  "outlets",
+  "avg_unit_volume",
+  "region",
+  "scheduling_tool",
+  "labor_pain",
+  "payroll_regions",
+  "kpis_measured",
+  "kpis_wished",
+  "forecasting",
+  "scenario_wish",
+  "pos",
+  "ops_tools",
+  "priority",
+] as const;
+
+const publicQuestionIds = new Set<string>(PUBLIC_DIAGNOSTIC_QUESTION_IDS);
+
+export const PUBLIC_DIAGNOSTIC_QUESTIONS: Question[] = QUESTIONS.filter((question) =>
+  publicQuestionIds.has(question.id),
+);

@@ -1,7 +1,7 @@
 /**
  * Save & resume for the Operations Diagnostic.
  *
- * The flow is 20 questions + a contact step — long enough that a refresh, an
+ * The flow is a focused questionnaire + a contact step — long enough that a refresh, an
  * accidental back-swipe, or a "let me finish this later" used to wipe every
  * answer. We persist progress to localStorage so the visitor can pick up
  * exactly where they left off. Cleared on successful completion.
@@ -24,6 +24,8 @@ export interface CaptureDraft {
 export interface DiagnosticProgress {
   responses: DiagnosticResponses;
   step: number;
+  /** Stable across future question-bank reordering; absent on older drafts. */
+  questionId?: string;
   showCapture: boolean;
   capture: CaptureDraft;
   savedAt: number;

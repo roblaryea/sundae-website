@@ -94,7 +94,7 @@ export default function DiagnosticPage() {
 
     // Call AI gateway (Sonnet 4.6 primary → GPT-5 fallback). On any failure we
     // fall back to the deterministic engine (with a localized note for non-EN)
-    // rather than dead-ending — a prospect who finished 20 questions should
+    // rather than dead-ending — a prospect who finished the assessment should
     // always get a report.
     let result: DiagnosticReportType;
     // Internal-only: which engine produced the report (for sales/debug). Never
