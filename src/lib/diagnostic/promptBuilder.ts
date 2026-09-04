@@ -1,7 +1,7 @@
 // Sundae-grounded system prompt + user message builder for the AI gateway.
 // The system prompt frames Sundae's positioning, modules, tier ladder,
 // and required honesty rules. The user message serialises the prospect's
-// 20 responses (18 chip-flow + 2 free-text) in a structured way so the model
+// focused public responses in a structured way so the model
 // can reason over them.
 
 import type { DiagnosticResponses } from './engine';
@@ -9,11 +9,12 @@ import { QUESTIONS } from './questions';
 import type { WebsiteLocale } from '@/lib/i18n';
 import { priceBookForPrompt } from '@/lib/pricing/priceBook';
 import { getDiagnosticPromptInstruction } from './i18n';
+import { diagnosticOtherDetails } from './flowLogic';
 
 export const SYSTEM_PROMPT = `You are the diagnostic engine for Sundae Technologies - a Decision Intelligence platform for restaurants.
 
 # Your role
-Generate a personalised diagnostic report from a prospect's responses to a 20-question survey. Your output is a structured JSON object the website renders as a premium-styled report. This is a high-conversion sales surface; output quality directly drives qualified leads. Be sharp, specific, and honest.
+Generate a personalised diagnostic report from a prospect's focused operating assessment. Your output is a structured JSON object the website renders as a premium-styled report. This is a high-conversion sales surface; output quality directly drives qualified leads. Be sharp, specific, and honest.
 
 # Sundae's product (so your recommendations are grounded)
 
@@ -48,7 +49,7 @@ ${priceBookForPrompt()}
 # Output rules (NON-NEGOTIABLE)
 
 1. **Honest ranges only** - Every quantified impact must be a directional range derived from comparable operator engagements. NEVER a customer-specific projection. Use phrases like "Operators with similar profiles typically..." or "Comparable engagements show..."
-2. **Read the free-text fields** (\`blind_spot\` and \`priority\`) and tie at least one leak hypothesis and one quick-win directly to what they wrote.
+2. **Read the operator's own words** - tie at least one leak hypothesis and one quick-win directly to their \`priority\` response. If a legacy \`blind_spot\` response is present, use it too.
 3. **Multi-select context matters** - if they picked overstaffing + OT leakage + buddy-punching, synthesize ONE connected narrative about their scheduling-to-payroll waste loop, not three separate paragraphs.
 4. **Be region/segment specific** - Multi-region operators need country-pack relevance. Fine-dining vs QSR vs cloud kitchen have different leak vectors.
 5. **No template language** - Avoid phrases like "Sundae helps..." or "Our platform offers...". Write as a knowledgeable consultant reading their data.
@@ -173,7 +174,9 @@ export function buildUserMessage(
   lines.push(`## Decision intelligence`);
   lines.push(`- **KPIs tracked today:** ${labelize('kpis_measured', arr(responses.kpis_measured)) || '(not specified)'}`);
   lines.push(`- **KPIs they WISH they could measure but can't (THE GAP - read carefully):** ${labelize('kpis_wished', arr(responses.kpis_wished)) || '(none flagged)'}`);
-  lines.push(`- **Last major decision - data sources used:** ${labelize('decision_data', arr(responses.decision_data)) || '(not specified)'}`);
+  if (responses.decision_data) {
+    lines.push(`- **Last major decision - data sources used:** ${labelize('decision_data', arr(responses.decision_data))}`);
+  }
   lines.push('');
 
   lines.push(`## Foresight / Strategy`);
@@ -188,10 +191,13 @@ export function buildUserMessage(
   lines.push(`## Tech stack + context`);
   lines.push(`- **POS systems:** ${labelize('pos', arr(responses.pos)) || '(not specified)'}`);
   lines.push(`- **Other ops tools:** ${labelize('ops_tools', arr(responses.ops_tools)) || '(none flagged)'}`);
-  lines.push(`- **Timeline to be live:** ${labelize('timeline', arr(responses.timeline)) || responses.timeline || '(not specified)'}`);
-  lines.push(`- **Current decision lag (signal-to-action):** ${labelize('decision_lag', arr(responses.decision_lag)) || responses.decision_lag || '(not specified)'}`);
-  lines.push(`- **Annual ops tech spend (software/SaaS):** ${labelize('budget_band', arr(responses.budget_band)) || responses.budget_band || '(not specified)'}`);
-  lines.push(`- **In-house tech headcount (analysts, BI devs, data engineers):** ${responses.tech_headcount ?? '(not specified)'}`);
+  if (responses.timeline) lines.push(`- **Timeline to be live:** ${labelize('timeline', arr(responses.timeline)) || responses.timeline}`);
+  if (responses.decision_lag) lines.push(`- **Current decision lag (signal-to-action):** ${labelize('decision_lag', arr(responses.decision_lag)) || responses.decision_lag}`);
+  if (responses.budget_band) lines.push(`- **Annual ops tech spend (software/SaaS):** ${labelize('budget_band', arr(responses.budget_band)) || responses.budget_band}`);
+  if (responses.tech_headcount) lines.push(`- **In-house tech headcount (analysts, BI devs, data engineers):** ${responses.tech_headcount}`);
+  for (const { questionId, detail } of diagnosticOtherDetails(responses, ['scheduling_tool', 'payroll_regions', 'pos'])) {
+    lines.push(`- **Other ${questionId.replaceAll('_', ' ')} detail:** ${detail}`);
+  }
   if (responses.priority) {
     lines.push('');
     lines.push(`- **90-day priority (operator's own words - TIE A QUICK-WIN DIRECTLY TO THIS):**`);
@@ -209,7 +215,7 @@ export function buildUserMessage(
   lines.push(``);
   lines.push(`Return a structured JSON object matching the DiagnosticReport schema. Remember:`);
   lines.push(`- Address the operation as "you" / "your operation" / "the group". You may use the first name "${leadData.name.split(' ')[0]}" ONCE, in the summary only - never again anywhere in the report (hard limit).`)
-  lines.push(`- Tie at least one leak hypothesis to their **blind_spot** answer (if provided)`);
+  lines.push(`- Tie at least one leak hypothesis to their own words in **priority** (and **blind_spot** if a legacy answer is present)`);
   lines.push(`- Tie at least one quick-win to their **priority** answer (if provided)`);
   lines.push(`- Synthesise multi-select answers into connected narratives, not parallel paragraphs`);
   lines.push(`- Match tier fit to outlet count exactly`);

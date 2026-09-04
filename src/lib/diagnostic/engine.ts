@@ -449,7 +449,11 @@ export function runDiagnostic(
   });
 
   // Crew if labor pain or non-trivial scheduling
-  if (arr(responses.labor_pain).some((p) => p !== "none") || responses.scheduling_tool === "manual" || responses.scheduling_tool === "none") {
+  if (
+    arr(responses.labor_pain).some((p) => p !== "none") ||
+    has(responses.scheduling_tool, "manual") ||
+    has(responses.scheduling_tool, "none")
+  ) {
     const payrollScope = arr(responses.payroll_regions);
     if (payrollScope.length >= 2) {
       recommendedStack.push({
@@ -546,10 +550,13 @@ export function runDiagnostic(
 
   // ─── Quick wins (30/60/90) ───────────────────────────────────────
   const quickWins: QuickWin[] = [];
+  const priority = typeof responses.priority === "string" ? responses.priority.trim() : "";
   quickWins.push({
     horizon: "30",
-    title: "Connect POS + scheduling",
-    detail: "Most ${segment} integrations under 5 minutes. Pulse populates within 24 hours of data flow.".replace("${segment}", segment),
+    title: priority ? "Baseline your 90-day priority" : "Connect POS + scheduling",
+    detail: priority
+      ? `You said: “${priority.slice(0, 160)}${priority.length > 160 ? "…" : ""}” Connect the relevant POS and workforce data, agree the starting measure, and name the owner before changing the process.`
+      : "Connect the relevant POS and scheduling sources, confirm data completeness, and establish the starting operational baseline.",
   });
   if (recommendedStack.some((s) => s.layer === "crew")) {
     quickWins.push({
@@ -597,7 +604,10 @@ export function runDiagnostic(
     if (t === "asap" || t === "next_quarter") return " Given your timeline, the fastest path is starting with the highest-leak module above and layering up.";
     return "";
   })();
-  const summary = `${profileLine}. Based on your responses, the highest-leverage moves are ${ranked.length > 0 ? ranked[0].title.toLowerCase() : "consolidating decision flow on Sundae"}${ranked.length > 1 ? ` and ${ranked[1].title.toLowerCase()}` : ""}.${blindSpotLine}${lagLine}${timelineLine} Your recommended stack starts with ${tierFit}.`;
+  const priorityLine = priority
+    ? ` Your 90-day priority is “${priority.slice(0, 160)}${priority.length > 160 ? "…" : ""}” — the first action below turns that into a measured baseline.`
+    : "";
+  const summary = `${profileLine}. Based on your responses, the highest-leverage moves are ${ranked.length > 0 ? ranked[0].title.toLowerCase() : "consolidating decision flow on Sundae"}${ranked.length > 1 ? ` and ${ranked[1].title.toLowerCase()}` : ""}.${priorityLine}${blindSpotLine}${lagLine}${timelineLine} Your recommended stack starts with ${tierFit}.`;
 
   const report: DiagnosticReport = {
     summary,

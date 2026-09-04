@@ -12,14 +12,21 @@
 
 import { useEffect, useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight, CheckCircle2, AlertCircle } from "lucide-react";
-import { QUESTIONS } from "@/lib/diagnostic/questions";
+import { ChevronLeft, ChevronRight, CheckCircle2, AlertCircle, Search } from "lucide-react";
+import { PUBLIC_DIAGNOSTIC_QUESTIONS, QUESTIONS } from "@/lib/diagnostic/questions";
 import type { DiagnosticResponses } from "@/lib/diagnostic/engine";
 import { getWebsiteIntlLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getDiagnosticCatalogCopy, getDiagnosticQuestionCopy } from "@/lib/diagnostic/questionTranslations";
 import { saveProgress, type DiagnosticProgress } from "@/lib/diagnostic/progress";
 import { companyFromEmail, emailDomain, isFreeMail } from "@/lib/diagnostic/enrich";
 import { trackEvent } from "@/lib/posthog";
+import {
+  canAdvanceDiagnosticQuestion,
+  diagnosticOtherKey,
+  filterDiagnosticOptions,
+  hasDiagnosticAnswer,
+  toggleDiagnosticMultiValue,
+} from "@/lib/diagnostic/flowLogic";
 
 interface DiagnosticFlowProps {
   locale: WebsiteLocale;
@@ -106,14 +113,58 @@ const COUNTRY_REGION_CODES: Record<string, string> = {
   "South Africa": "ZA",
 };
 
+const OPTION_SEARCH_COPY: Record<WebsiteLocale, { search: string; noMatches: string }> = {
+  en: { search: "Search these options", noMatches: "No matching options" },
+  ar: { search: "ابحث في الخيارات", noMatches: "لا توجد خيارات مطابقة" },
+  fr: { search: "Rechercher dans les options", noMatches: "Aucune option correspondante" },
+  es: { search: "Buscar en las opciones", noMatches: "No hay opciones coincidentes" },
+  de: { search: "Optionen durchsuchen", noMatches: "Keine passenden Optionen" },
+  nl: { search: "Opties doorzoeken", noMatches: "Geen overeenkomende opties" },
+  pt: { search: "Pesquisar opções", noMatches: "Nenhuma opção correspondente" },
+  hi: { search: "विकल्प खोजें", noMatches: "कोई मिलता विकल्प नहीं" },
+  ur: { search: "اختیارات تلاش کریں", noMatches: "کوئی متعلقہ اختیار نہیں" },
+  it: { search: "Cerca nelle opzioni", noMatches: "Nessuna opzione corrispondente" },
+  pl: { search: "Przeszukaj opcje", noMatches: "Brak pasujących opcji" },
+  tr: { search: "Seçeneklerde ara", noMatches: "Eşleşen seçenek yok" },
+  "zh-Hans": { search: "搜索选项", noMatches: "没有匹配的选项" },
+  ja: { search: "選択肢を検索", noMatches: "一致する選択肢はありません" },
+  ko: { search: "옵션 검색", noMatches: "일치하는 옵션이 없습니다" },
+  id: { search: "Cari pilihan", noMatches: "Tidak ada pilihan yang cocok" },
+  vi: { search: "Tìm trong các lựa chọn", noMatches: "Không có lựa chọn phù hợp" },
+  ro: { search: "Caută în opțiuni", noMatches: "Nicio opțiune potrivită" },
+  sv: { search: "Sök bland alternativen", noMatches: "Inga matchande alternativ" },
+  bn: { search: "বিকল্প খুঁজুন", noMatches: "কোনো মিল পাওয়া যায়নি" },
+  th: { search: "ค้นหาตัวเลือก", noMatches: "ไม่พบตัวเลือกที่ตรงกัน" },
+  ms: { search: "Cari pilihan", noMatches: "Tiada pilihan yang sepadan" },
+};
+
 export function DiagnosticFlow({ onComplete, locale, initialProgress }: DiagnosticFlowProps) {
   const catalog = getDiagnosticCatalogCopy(locale);
+  const optionSearchCopy = OPTION_SEARCH_COPY[locale as keyof typeof OPTION_SEARCH_COPY];
   const regionNames =
     typeof Intl.DisplayNames !== "undefined"
       ? new Intl.DisplayNames([getWebsiteIntlLocale(locale)], { type: "region" })
       : null;
   const cap = initialProgress?.capture;
-  const [step, setStep] = useState(initialProgress?.step ?? 0);
+  const [step, setStep] = useState(() => {
+    if (!initialProgress) return 0;
+    const savedQuestionId = initialProgress.questionId ?? QUESTIONS[initialProgress.step]?.id;
+    const exactIndex = PUBLIC_DIAGNOSTIC_QUESTIONS.findIndex(
+      (question) => question.id === savedQuestionId,
+    );
+    if (exactIndex >= 0) return exactIndex;
+
+    // An older draft may have stopped on one of the six questions removed
+    // from the public flow. Resume at the next retained question rather than
+    // jumping to a numerically similar (but unrelated) step.
+    for (let legacyIndex = initialProgress.step + 1; legacyIndex < QUESTIONS.length; legacyIndex += 1) {
+      const nextIndex = PUBLIC_DIAGNOSTIC_QUESTIONS.findIndex(
+        (question) => question.id === QUESTIONS[legacyIndex]?.id,
+      );
+      if (nextIndex >= 0) return nextIndex;
+    }
+    return PUBLIC_DIAGNOSTIC_QUESTIONS.length - 1;
+  });
   const [responses, setResponses] = useState<DiagnosticResponses>(initialProgress?.responses ?? {});
   const [showCapture, setShowCapture] = useState(initialProgress?.showCapture ?? false);
   const [email, setEmail] = useState(cap?.email ?? "");
@@ -126,9 +177,10 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
   const [emailTouched, setEmailTouched] = useState(false);
   const [phoneTouched, setPhoneTouched] = useState(false);
   const [companyAutoFilled, setCompanyAutoFilled] = useState(false);
+  const [optionQuery, setOptionQuery] = useState("");
 
   const emailValid = EMAIL_RE.test(email.trim());
-  const phoneValid = phoneOk(phone);
+  const phoneValid = phone.trim().length === 0 || phoneOk(phone);
   const showEmailErr = emailTouched && email.trim().length > 0 && !emailValid;
   const showPhoneErr = phoneTouched && phone.trim().length > 0 && !phoneValid;
   const VAL_COPY: Record<string, { email: string; phone: string; autofill: string }> = {
@@ -144,26 +196,30 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
     saveProgress({
       responses,
       step,
+      questionId: PUBLIC_DIAGNOSTIC_QUESTIONS[step]?.id,
       showCapture,
       capture: { name, email, company, phone, role, country },
     });
   }, [responses, step, showCapture, name, email, company, phone, role, country]);
 
-  const total = QUESTIONS.length;
-  const q = QUESTIONS[step];
+  const total = PUBLIC_DIAGNOSTIC_QUESTIONS.length;
+  const q = PUBLIC_DIAGNOSTIC_QUESTIONS[step];
   const localizedQuestion = q ? getDiagnosticQuestionCopy(locale, q.id) : undefined;
-  const progress = ((step + (showCapture ? 1 : 0)) / (total + 1)) * 100;
+  const progress = showCapture ? 100 : ((step + 1) / total) * 100;
 
   const currentValue = responses[q?.id];
 
-  const canAdvance = useMemo(() => {
-    if (!q) return false;
-    if (q.optional) return true;
-    const v = responses[q.id];
-    if (q.kind === "text") return typeof v === "string" && v.trim().length > 0;
-    if (q.kind === "multi") return Array.isArray(v) && v.length > 0;
-    return typeof v === "string" && v.length > 0;
-  }, [q, responses]);
+  const canAdvance = useMemo(
+    () => (q ? canAdvanceDiagnosticQuestion(q, responses) : false),
+    [q, responses],
+  );
+  const hasAnswer = q ? hasDiagnosticAnswer(q, responses) : false;
+  const filteredOptions = useMemo(
+    () => q?.options
+      ? filterDiagnosticOptions(q.options, localizedQuestion?.options, optionQuery)
+      : [],
+    [q, localizedQuestion?.options, optionQuery],
+  );
 
   const handleChipToggle = (value: string) => {
     if (!q) return;
@@ -171,10 +227,11 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
       setResponses({ ...responses, [q.id]: value });
     } else if (q.kind === "multi") {
       const arr = Array.isArray(responses[q.id]) ? (responses[q.id] as string[]) : [];
-      setResponses({
-        ...responses,
-        [q.id]: arr.includes(value) ? arr.filter((v) => v !== value) : [...arr, value],
-      });
+      const next = toggleDiagnosticMultiValue(arr, value);
+      const otherKey = diagnosticOtherKey(q.id);
+      const nextResponses = { ...responses, [q.id]: next };
+      if (!next.includes("other")) delete nextResponses[otherKey];
+      setResponses(nextResponses);
     }
   };
 
@@ -186,8 +243,9 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
   const handleNext = () => {
     if (step < total - 1) {
       const next = step + 1;
+      setOptionQuery("");
       setStep(next);
-      trackEvent("diagnostic_step", { locale, step: next + 1, total: total + 1, dimension: QUESTIONS[next]?.dimension });
+      trackEvent("diagnostic_step", { locale, step: next + 1, total, dimension: PUBLIC_DIAGNOSTIC_QUESTIONS[next]?.dimension });
     } else {
       setShowCapture(true);
       trackEvent("diagnostic_capture_shown", { locale });
@@ -211,13 +269,14 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
     if (showCapture) {
       setShowCapture(false);
     } else if (step > 0) {
+      setOptionQuery("");
       setStep(step - 1);
     }
   };
 
   const handleSubmit = () => {
     setEmailTouched(true);
-    setPhoneTouched(true);
+    if (phone.trim()) setPhoneTouched(true);
     if (
       emailValid && phoneValid && name.trim() && role.trim() &&
       country.trim() && company.trim()
@@ -242,7 +301,7 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
             {showCapture ? catalog.navigation.finalStep : catalog.dimensions[q?.dimension ?? "profile"]}
           </span>
           <span className="text-[11px] text-[var(--text-muted)] tabular-nums">
-            {showCapture ? total + 1 : step + 1} / {total + 1}
+            {showCapture ? "" : `${step + 1} / ${total}`}
           </span>
         </div>
         <div className="h-1 bg-white/[0.05] rounded-full overflow-hidden">
@@ -272,32 +331,73 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
                 <p className="text-sm text-[var(--text-muted)] mb-8">{localizedQuestion?.helper ?? q.helper}</p>
               )}
 
+              {q.optional && (
+                <span className="inline-flex mb-4 rounded-full border border-[var(--border-default)] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+                  {catalog.navigation.optional}
+                </span>
+              )}
+
               {/* Chip select */}
               {(q.kind === "single" || q.kind === "multi") && q.options && (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-8">
-                  {q.options.map((opt) => {
-                    const isSelected = q.kind === "single"
-                      ? currentValue === opt.value
-                      : Array.isArray(currentValue) && currentValue.includes(opt.value);
-                    return (
-                      <button
-                        key={opt.value}
-                        onClick={() => handleChipToggle(opt.value)}
-                        className={`text-left px-4 py-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
-                          isSelected
-                            ? "bg-[var(--warm-coral)]/12 border-[var(--warm-coral)] text-[var(--text-primary)]"
-                            : "bg-white/[0.02] border-[var(--border-default)] text-[var(--text-secondary)] hover:border-[var(--warm-coral)]/40"
-                        }`}
-                      >
-                        <span className={`flex-shrink-0 w-4 h-4 rounded-full border-2 flex items-center justify-center ${
-                          isSelected ? "bg-[var(--warm-coral)] border-[var(--warm-coral)]" : "border-[var(--border-default)]"
-                        }`}>
-                          {isSelected && <CheckCircle2 className="w-3 h-3 text-white" />}
-                        </span>
-                        <span className="text-sm font-medium">{localizedQuestion?.options?.[opt.value] ?? opt.label}</span>
-                      </button>
-                    );
-                  })}
+                <div className="mb-8">
+                  {q.options.length > 12 && (
+                    <label className="relative mb-4 block">
+                      <span className="sr-only">{optionSearchCopy.search}</span>
+                      <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--text-muted)]" />
+                      <input
+                        type="search"
+                        value={optionQuery}
+                        onChange={(event) => setOptionQuery(event.target.value)}
+                        placeholder={optionSearchCopy.search}
+                        className="w-full rounded-xl border-2 border-[var(--border-default)] bg-white/[0.04] py-3 pl-11 pr-4 text-sm text-[var(--text-primary)] focus:border-[var(--warm-coral)] focus:outline-none"
+                      />
+                    </label>
+                  )}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {filteredOptions.map((opt) => {
+                      const isSelected = q.kind === "single"
+                        ? currentValue === opt.value
+                        : Array.isArray(currentValue) && currentValue.includes(opt.value);
+                      return (
+                        <button
+                          key={opt.value}
+                          onClick={() => handleChipToggle(opt.value)}
+                          aria-pressed={isSelected}
+                          className={`text-left px-4 py-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
+                            isSelected
+                              ? "bg-[var(--warm-coral)]/12 border-[var(--warm-coral)] text-[var(--text-primary)]"
+                              : "bg-white/[0.02] border-[var(--border-default)] text-[var(--text-secondary)] hover:border-[var(--warm-coral)]/40"
+                          }`}
+                        >
+                          <span className={`flex-shrink-0 w-4 h-4 rounded-full border-2 flex items-center justify-center ${
+                            isSelected ? "bg-[var(--warm-coral)] border-[var(--warm-coral)]" : "border-[var(--border-default)]"
+                          }`}>
+                            {isSelected && <CheckCircle2 className="w-3 h-3 text-white" />}
+                          </span>
+                          <span className="text-sm font-medium">{localizedQuestion?.options?.[opt.value] ?? opt.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                  {filteredOptions.length === 0 && (
+                    <p className="py-6 text-center text-sm text-[var(--text-muted)]">
+                      {optionSearchCopy.noMatches}
+                    </p>
+                  )}
+                  {(Array.isArray(currentValue) ? currentValue : currentValue ? [currentValue] : []).includes("other") && (
+                    <input
+                      type="text"
+                      value={(responses[diagnosticOtherKey(q.id)] as string) ?? ""}
+                      onChange={(event) => setResponses({
+                        ...responses,
+                        [diagnosticOtherKey(q.id)]: event.target.value,
+                      })}
+                      placeholder={`${localizedQuestion?.options?.other ?? q.options.find((option) => option.value === "other")?.label ?? "Other"}…`}
+                      maxLength={120}
+                      autoFocus
+                      className="mt-4 w-full rounded-xl border-2 border-[var(--border-default)] bg-white/[0.04] px-4 py-3 text-sm text-[var(--text-primary)] focus:border-[var(--warm-coral)] focus:outline-none"
+                    />
+                  )}
                 </div>
               )}
 
@@ -391,7 +491,7 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    {catalog.capture.fields.phone}
+                    {catalog.capture.fields.phone.replace(/\s*\*\s*$/, "")} ({catalog.navigation.optional})
                   </label>
                   <input
                     type="tel"
@@ -399,7 +499,6 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
                     onChange={(e) => setPhone(e.target.value)}
                     onBlur={() => setPhoneTouched(true)}
                     placeholder={catalog.capture.placeholders.phone}
-                    required
                     aria-invalid={showPhoneErr}
                     className={`w-full bg-white/[0.04] border-2 rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none ${
                       showPhoneErr ? "border-red-500/60 focus:border-red-500" : "border-[var(--border-default)] focus:border-[var(--warm-coral)]"
@@ -480,7 +579,11 @@ export function DiagnosticFlow({ onComplete, locale, initialProgress }: Diagnost
               disabled={!canAdvance}
               className="flex items-center gap-2 px-6 py-2.5 bg-[var(--warm-coral)] text-white font-semibold rounded-xl disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[var(--warm-coral)]/90 transition-colors"
             >
-              {step === total - 1 ? catalog.navigation.continue : catalog.navigation.next}
+              {q?.optional && !hasAnswer
+                ? `${catalog.navigation.continue} · ${catalog.navigation.optional}`
+                : step === total - 1
+                  ? catalog.navigation.continue
+                  : catalog.navigation.next}
               <ChevronRight className="w-4 h-4" />
             </button>
           )}
