@@ -87,7 +87,7 @@ export function ApprovedPolicyPage({
             <p className="text-[var(--text-supporting)]">
               Questions? Email{" "}
               <a
-                className="font-medium text-[#FF8473] hover:underline"
+                className="font-medium text-[#FF8473] underline underline-offset-2 hover:text-[#FFB0A6]"
                 href={`mailto:${contactEmail}`}
               >
                 {contactEmail}
