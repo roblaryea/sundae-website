@@ -171,7 +171,7 @@ export function CookieConsent({ initialConsent = null }: { initialConsent?: Cons
           </button>
           <button
             onClick={handleAccept}
-            className="rounded-md bg-[#FF5C4D] [html.light_&]:bg-[var(--ink)] px-2.5 py-1 text-[11px] font-semibold text-white transition-transform hover:-translate-y-px focus:outline-none focus:ring-2 focus:ring-[#FF8473] sm:rounded-lg sm:px-4 sm:py-1.5 sm:text-[13px]"
+            className="rounded-md bg-[#C8392A] [html.light_&]:bg-[var(--ink)] px-2.5 py-1 text-[11px] font-semibold text-white transition-transform hover:-translate-y-px focus:outline-none focus:ring-2 focus:ring-[#FF8473] sm:rounded-lg sm:px-4 sm:py-1.5 sm:text-[13px]"
           >
             {copy.accept}
           </button>

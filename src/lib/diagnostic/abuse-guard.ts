@@ -1,6 +1,6 @@
 // Anti-abuse guards for the expensive /api/diagnostic endpoint.
 //
-// Every diagnostic call hits a paid LLM (claude-sonnet-4-6 / gpt-5), so an
+// Every diagnostic call hits a paid LLM (gpt-5-mini / claude-haiku-4-5), so an
 // unprotected endpoint is a direct line to burning AI credits - scrapers,
 // crawlers, and scripted abuse all cost real money per request. These guards
 // run BEFORE any model call so rejected traffic costs ~nothing:
