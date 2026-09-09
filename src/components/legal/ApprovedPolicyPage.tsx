@@ -13,6 +13,9 @@ type ApprovedPolicyPageProps = {
   alternateHref: "/privacy" | "/terms";
   alternateLabel: string;
   contactEmail: string;
+  effectiveDateLabel: string;
+  versionLabel: string;
+  questionsLabel: string;
 };
 
 export function ApprovedPolicyPage({
@@ -26,6 +29,9 @@ export function ApprovedPolicyPage({
   alternateHref,
   alternateLabel,
   contactEmail,
+  effectiveDateLabel,
+  versionLabel,
+  questionsLabel,
 }: ApprovedPolicyPageProps) {
   return (
     <main className="min-h-screen bg-[var(--navy-deep)]">
@@ -42,7 +48,7 @@ export function ApprovedPolicyPage({
             {description}
           </p>
           <p className="mt-4 text-sm text-[var(--text-supporting)]">
-            Effective {effectiveDate} · Version {version}
+            {effectiveDateLabel} {effectiveDate} · {versionLabel} {version}
           </p>
         </div>
       </header>
@@ -85,7 +91,7 @@ export function ApprovedPolicyPage({
 
           <footer className="mt-16 border-t border-white/10 pt-8 text-center">
             <p className="text-[var(--text-supporting)]">
-              Questions? Email{" "}
+              {questionsLabel}{" "}
               <a
                 className="font-medium text-[#FF8473] underline underline-offset-2 hover:text-[#FFB0A6]"
                 href={`mailto:${contactEmail}`}
