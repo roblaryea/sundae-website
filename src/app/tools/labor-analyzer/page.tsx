@@ -362,11 +362,15 @@ export default function LaborAnalyzerPage() {
 
         <div className="mt-12 text-center">
           <p className="text-[var(--text-supporting)] mb-6">{copy.cta.intro}</p>
-          <Link href="/demo">
-            <Button variant="primary" size="lg">
-              {copy.cta.button}
-            </Button>
-          </Link>
+          <Button
+            href="/demo"
+            variant="primary"
+            size="lg"
+            trackingLabel="book_demo_labor_analyzer_tool"
+            trackingMetadata={{ location: "tool_footer" }}
+          >
+            {copy.cta.button}
+          </Button>
         </div>
       </div>
     </div>

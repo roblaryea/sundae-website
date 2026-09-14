@@ -340,7 +340,13 @@ export default function LaborCostCalculator() {
       </div>
 
       <PageCTA title={copy.cta.title} description={copy.cta.description}>
-        <Button variant="cta" size="lg" href="/demo">
+        <Button
+          variant="cta"
+          size="lg"
+          href="/demo"
+          trackingLabel="book_demo_labor_cost_tool"
+          trackingMetadata={{ location: "tool_footer" }}
+        >
           {copy.cta.button}
         </Button>
       </PageCTA>
