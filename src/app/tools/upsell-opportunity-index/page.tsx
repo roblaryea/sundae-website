@@ -346,7 +346,13 @@ export default function UpsellOpportunityIndexPage() {
                   </div>
                 )}
 
-                <Button href="/demo" variant="primary" className="w-full">
+                <Button
+                  href="/demo"
+                  variant="primary"
+                  className="w-full"
+                  trackingLabel="book_demo_upsell_opportunity_tool"
+                  trackingMetadata={{ location: "tool_results" }}
+                >
                   {copy.cta}
                 </Button>
               </div>

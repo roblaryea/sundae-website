@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { trackCta, type CtaMetadata } from '@/lib/cta';
 
 interface ButtonBaseProps {
   children: React.ReactNode;
@@ -9,6 +10,8 @@ interface ButtonBaseProps {
   className?: string;
   disabled?: boolean;
   fullWidth?: boolean;
+  trackingLabel?: string;
+  trackingMetadata?: CtaMetadata;
 }
 
 interface ButtonAsButton extends ButtonBaseProps {
@@ -37,6 +40,8 @@ export const Button: React.FC<ButtonProps> = (props) => {
     className = '',
     disabled = false,
     fullWidth = false,
+    trackingLabel,
+    trackingMetadata,
   } = props;
 
   const baseStyles = 'inline-flex items-center justify-center whitespace-nowrap font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#FF5C4D] focus-visible:ring-offset-[var(--navy-deep)]';
@@ -84,13 +89,18 @@ export const Button: React.FC<ButtonProps> = (props) => {
   const combinedClassName = `${baseStyles} ${variants[variant]} ${sizes[size]} ${disabledStyles} ${widthStyles} ${className}`;
 
   if ('href' in props && props.href) {
+    const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+      if (trackingLabel) trackCta(trackingLabel, trackingMetadata);
+      props.onClick?.(event);
+    };
+
     return (
       <a
         href={props.href}
         target={props.target}
         rel={props.rel}
         className={combinedClassName}
-        onClick={props.onClick as (e: React.MouseEvent<HTMLAnchorElement>) => void}
+        onClick={handleClick}
         aria-disabled={disabled || undefined}
       >
         {children}

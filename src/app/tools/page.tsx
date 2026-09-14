@@ -231,7 +231,13 @@ export default function ToolsPage() {
       </section>
 
       <PageCTA title={copy.cta.title} description={copy.cta.description}>
-        <Button variant="cta" size="lg" href="/demo">
+        <Button
+          variant="cta"
+          size="lg"
+          href="/demo"
+          trackingLabel="book_demo_tools_hub"
+          trackingMetadata={{ location: "tools_footer" }}
+        >
           {copy.cta.primary}
         </Button>
         <Button variant="outline-ink" size="lg" href="/product">
