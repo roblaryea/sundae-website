@@ -16,6 +16,13 @@ Sundae does not claim to remove macroeconomic pressures such as wage increases, 
 - [Blog](https://www.sundae.io/blog): Research, guidance, and product updates
 - [Book a demo](https://www.sundae.io/demo): Product demonstration
 
+## Evidence and methodology
+
+- [Restaurant benchmarking](https://www.sundae.io/product/benchmarking): Peer comparison and location benchmarking product
+- [Benchmarking methodology](https://www.sundae.io/blog/restaurant-benchmarking-methodology): Cohort, metric, privacy, freshness, and confidence principles
+- [Benchmark readiness score](https://www.sundae.io/tools/benchmark-readiness): Data and operating-process readiness assessment
+- [Restaurant intelligence](https://www.sundae.io/product/intelligence): Natural-language analysis across connected restaurant data
+
 ## Official profiles
 
 - [LinkedIn](https://www.linkedin.com/company/managewithsundae)

@@ -40,6 +40,9 @@ jobs:
       - name: Translation quality QA
         run: npm run qa:translation
 
+      - name: SEO inventory tests
+        run: npm run test:seo
+
       # Content must not be hidden behind a reduced-motion check, and a
       # position:fixed overlay must not be trapped by a transformed or
       # filtered ancestor. Both shipped to production before these existed.

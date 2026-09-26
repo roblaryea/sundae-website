@@ -2,6 +2,126 @@ import type { BlogPost } from './types';
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "restaurant-benchmarking-methodology",
+    title: "Restaurant Benchmarking Methodology: How to Make Peer Comparisons Useful",
+    category: "Benchmarks",
+    date: "2026-09-26",
+    summary: "A transparent guide to restaurant benchmark cohorts, metric definitions, privacy, freshness, confidence, and the questions operators should ask before acting on a comparison.",
+    readTime: "7 min read",
+    tags: ["restaurant benchmarking methodology", "food cost benchmarking", "multi-location restaurant analytics", "restaurant benchmarks", "peer comparison"],
+    content: `## A benchmark is context, not a target
+
+A restaurant benchmark should answer a specific question: how does this location or group compare with genuinely similar operations, using the same metric definition and a comparable period?
+
+That sounds straightforward. In practice, a benchmark can mislead when it mixes different service models, markets, accounting treatments, or time windows. A food-cost percentage from a delivery-heavy virtual brand is not automatically comparable with one from a full-service dining room. A labor benchmark built from scheduled hours is not interchangeable with one built from paid hours.
+
+Good restaurant benchmarking therefore starts with methodology, not a league table.
+
+## Start with a precise metric contract
+
+Every comparison needs a shared definition for the numerator, denominator, period, and treatment of exceptions.
+
+For food-cost percentage, operators should establish:
+
+- whether the numerator is purchases, actual usage, or cost of goods sold;
+- whether beverages are included;
+- how transfers, waste, complimentary items, and inventory adjustments are handled;
+- whether the denominator is gross sales or net sales;
+- which trading dates and locations are included.
+
+The same discipline applies to labor cost, average check, RevPASH, delivery contribution, waste, and guest measures. Two dashboards can display the same label while calculating materially different results.
+
+Sundae treats the metric definition as part of the evidence. The comparison is only useful when an operator can understand what was measured and reproduce the logic from source data.
+
+## Build cohorts before calculating percentiles
+
+A credible peer set groups restaurants by the operating characteristics that materially change the metric. Depending on the question, useful cohort dimensions can include:
+
+- service model, such as QSR, fast casual, casual dining, or fine dining;
+- concept and cuisine;
+- market and currency;
+- location type, including high street, mall, hotel, transport hub, or delivery kitchen;
+- revenue or unit-size band;
+- dine-in, takeaway, and delivery mix;
+- trading maturity and comparable opening history.
+
+More filters are not always better. A cohort that is extremely narrow may feel precise while containing too little evidence to be stable. The correct balance is a peer group specific enough to be relevant and broad enough to protect privacy and resist one-location distortions.
+
+## Prefer distributions to a single average
+
+A single industry average hides the range of normal performance. A stronger benchmark shows the distribution, commonly through percentiles or bands, so an operator can distinguish the middle of the cohort from its stronger and weaker edges.
+
+Medians are often more useful than simple averages because one extreme location is less able to move the result. Percentile bands add further context, but they should never be presented as automatic targets. A location can sit above a cost benchmark for a deliberate reason, such as premium ingredients, a new-opening training period, or a service model that supports a higher check.
+
+The benchmark identifies where to ask a better question. It does not replace operational judgment.
+
+## Normalize time, currency, and operating structure
+
+Comparisons should use compatible periods and units. Useful controls include:
+
+1. matching trading days and complete reporting periods;
+2. separating newly opened locations from mature sites where appropriate;
+3. converting currencies with a documented convention when monetary values are compared;
+4. using ratios or indexed measures when scale would otherwise dominate;
+5. flagging missing, stale, or structurally inconsistent source data;
+6. retaining the source and transformation history behind the published result.
+
+Normalization should make unlike systems comparable without erasing genuine operating differences.
+
+## Protect contributors and disclose confidence
+
+Peer benchmarking should not expose another restaurant's identifiable performance. Results should be aggregated, access-controlled, and withheld when a comparison would reveal too much about an individual contributor.
+
+Operators should also know when evidence is limited. Confidence can be reduced by small cohorts, stale periods, incomplete fields, unstable definitions, or a participant mix that does not represent the question being asked. In those cases, the responsible output is a wider range, a lower-confidence label, or no benchmark at all.
+
+False precision is worse than an honest gap.
+
+## Separate external peers from internal benchmarks
+
+Multi-location groups have two valuable comparison sets:
+
+- **External peers** show how performance sits relative to similar operators in the market.
+- **Internal peers** show which locations, brands, or managers already achieve stronger results under the group's own constraints.
+
+Internal comparisons can be especially actionable because the operating practices are transferable. External comparisons provide market context and help prevent a group from treating its own average as the definition of good performance.
+
+Used together, they answer different questions: what is possible inside our estate, and how does the estate compare with the market?
+
+## Turn the comparison into a measured decision
+
+A benchmark becomes valuable only when it changes a decision. The operating loop should be:
+
+1. identify the material variance;
+2. confirm that the cohort and metric definition fit the question;
+3. investigate the local drivers rather than assuming the benchmark explains them;
+4. assign one action to an accountable owner;
+5. record the baseline and expected effect;
+6. measure what changed after the action;
+7. share the practice with comparable locations when the result holds.
+
+This prevents benchmark dashboards from becoming another passive ranking exercise.
+
+## Questions to ask any benchmarking provider
+
+Before using a peer comparison for pricing, staffing, purchasing, or investment decisions, ask:
+
+- How is this metric defined?
+- Which locations and periods qualify for the cohort?
+- What makes the peers comparable to us?
+- How fresh is the underlying data?
+- How are outliers and missing values treated?
+- What privacy rule prevents an individual contributor from being identified?
+- Can we see the distribution rather than only an average?
+- Is confidence or coverage disclosed?
+- Can we trace the result back to our normalized source data?
+
+If those questions cannot be answered, the benchmark should be treated as directional rather than decision-grade.
+
+## Apply the methodology
+
+Use the [free Benchmark Readiness Score](/tools/benchmark-readiness) to assess whether your data and operating processes are ready for reliable comparison. Explore [Sundae restaurant benchmarking software](/product/benchmarking) to see how peer context can connect to location-level action and measured outcomes.`
+  },
+  {
     slug: "revenue-grew-profit-fell-restaurant-operators",
     title: "Revenue Grew. Restaurant Profit Fell 44%. What Operators Can Still Control",
     category: "Industry Insights",
