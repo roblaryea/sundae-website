@@ -85,6 +85,34 @@ The dashboard contains all six required views:
 
 The first decision-grade comparison should be made after at least 14 complete days of post-deployment event collection. Search Console should be checked again once Google replaces the processing message with performance data.
 
+## Follow-up baseline — 26 September 2026
+
+This is the first decision-grade follow-up after the 30 August launch baseline. Search Console data was available through approximately 24 September; PostHog and Vercel Analytics were read on 26 September.
+
+### Google Search Console
+
+- Overall search performance: 54 clicks, 1.5K impressions, 3.6% click-through rate, and average position 10.4.
+- The Search Console AI visibility report showed 192 generative-AI impressions across 45 pages. The leading pages were the homepage (81), careers (30), about (21), sign-in (12), and Watchtower (11).
+- The submitted sitemap still contained 1,445 URLs. Of submitted URLs, 718 were indexed and 727 were not indexed: 370 discovered-not-indexed, 354 crawled-not-indexed, two duplicate URLs where Google selected another canonical, and one alternate page with a proper canonical.
+- The excluded inventory was dominated by localized URLs. Representative Arabic, Spanish, Vietnamese, Japanese, Korean, Dutch, Polish, and French pages were present in the report. This is a crawl/indexing backlog across the 22-locale launch inventory, not evidence that priority English commercial pages are broadly broken.
+- Live inspection confirmed that `/product/recovery`, `/diagnostic`, `/faq`, `/core`, `/getting-started`, and `/solutions/multi-location-groups` were indexed. All reported valid HTTPS and breadcrumb enhancement status.
+- `/tools/labor-cost` was the one priority exception. Google's stored crawl from 29 May still declared `https://sundaetech.ai/tools/labor-cost` as canonical. Production now correctly declares `https://www.sundae.io/tools/labor-cost`; a fresh indexing request was accepted into Google's priority crawl queue on 26 September. Do not add another canonical change unless the new crawl still reports the old host.
+- Representative localized pages (`/ar/about`, `/es/contact`, `/vi/tools/benchmark-readiness`, and `/ja/faq`) returned translated titles and H1s, self-referencing canonicals, and 39-42 internal links each. These samples do not support a thin-shell or missing-internal-link diagnosis.
+- Commercial non-branded discovery has started but is still shallow. Early query themes include multi-location restaurant analytics, restaurant GDPR compliance, food-cost benchmarking, restaurant intelligence, restaurant data platforms, cloud-kitchen software, and restaurant efficiency tools. `restaurant profit recovery software` had not yet appeared as a query.
+
+Interpretation: preserve the existing locale sitemap while Google completes the early crawl cycle. Monitor the submitted-only exclusion cohorts by locale and page type; prioritize content or sitemap changes only if the same cohorts remain stalled after another complete reporting cycle or live inspection exposes a current technical defect.
+
+### PostHog and Vercel Analytics
+
+- PostHog's acquisition funnel recorded 66 unique pageview entrants, two people reaching `cta_click` (3.03%), and no `lead_form_submitted` event. Median pageview-to-CTA time was 33m 32s.
+- The diagnostic funnel, landing-page conversion view, and form-friction view had no matching completion or failure events.
+- CTA results included one `book_demo_navbar` click from `/` and one from `/demo`. Older CTA rows without `source_page` remain visible, but the deployed centralized tracker currently adds `window.location.pathname`; do not patch this without a new event proving the property is still absent.
+- Across the 90-day weekly trend, pageviews ranged from 255 to 1,390 while consented unique visitors ranged from 7 to 27; lead and diagnostic captures were zero throughout.
+- Vercel Analytics reported 254 visitors and 454 pageviews for the latest seven-day view, with a 33% bounce rate. Google referred 27 visits, Bing three, ChatGPT three, and Yandex three.
+- `/privacy` and `/terms` each showed approximately 148 Vercel visitors. Combined with the much smaller consented PostHog audience, this indicates material crawler or automated traffic. Vercel headline traffic and consent-gated PostHog people are not interchangeable measures.
+
+Interpretation: the current evidence is consistent with low human volume and zero captured leads, not a demonstrated form-instrumentation failure. CTA and form events are consent-gated; the successful lead event fires only after the lead API returns success and contains no PII. Continue to use qualified completions, Search Console clicks, and per-page CTA movement as the decision metrics rather than raw Vercel visits.
+
 ## Commercial outcome hierarchy
 
 1. Qualified demo or working-session request.
