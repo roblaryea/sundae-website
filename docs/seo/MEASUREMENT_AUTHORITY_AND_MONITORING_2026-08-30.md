@@ -113,6 +113,15 @@ Interpretation: preserve the existing locale sitemap while Google completes the 
 
 Interpretation: the current evidence is consistent with low human volume and zero captured leads, not a demonstrated form-instrumentation failure. CTA and form events are consent-gated; the successful lead event fires only after the lead API returns success and contains no PII. Continue to use qualified completions, Search Console clicks, and per-page CTA movement as the decision metrics rather than raw Vercel visits.
 
+### Search-discovery automation — 26 September 2026
+
+- The production site publishes a public IndexNow verification key and submits the canonical priority route set after each merge to `main`, following a production-alias settling period.
+- A scheduled GitHub workflow audits the live sitemap every Monday. It fails on duplicate, off-host, non-HTTPS, missing-priority, or incomplete-locale inventory.
+- `npm run seo:sitemap-report` provides an on-demand locale and content-type inventory. `npm run seo:indexnow -- --dry-run` previews the URL submission without contacting IndexNow; `--all` is reserved for an intentional full-sitemap notification.
+- The first authority article, `/blog/restaurant-benchmarking-methodology`, documents metric contracts, peer cohorts, normalization, privacy, confidence, and decision use. It is listed in `llms.txt` and links directly to the benchmarking product and benchmark-readiness tool.
+- A monthly local heartbeat reviews Search Console, PostHog, Vercel Analytics, Core Web Vitals, priority canonical status, GEO citations, and crawler anomalies against this baseline. It stays quiet unless there is a meaningful change or required action.
+- Bing Webmaster Tools account import remains an owner-authenticated portal step. Once imported, set `NEXT_PUBLIC_BING_SITE_VERIFICATION` only if Bing supplies a meta-verification token; the root metadata already supports it.
+
 ## Commercial outcome hierarchy
 
 1. Qualified demo or working-session request.

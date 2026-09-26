@@ -68,6 +68,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const routeTitle = resolvePageTitle(normalizedPath, locale);
   const routeDescription = resolvePageDescription(normalizedPath, locale);
   const metadataDescription = routeDescription ?? messages.metadata.description;
+  const bingSiteVerification = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
 
   return {
     metadataBase: new URL(baseUrl),
@@ -92,6 +93,9 @@ export async function generateMetadata(): Promise<Metadata> {
     authors: [{ name: "Sundae Team" }],
     creator: "Sundae",
     publisher: "Sundae",
+    verification: bingSiteVerification
+      ? { other: { 'msvalidate.01': bingSiteVerification } }
+      : undefined,
     icons: {
       icon: [
         { url: "/logos/sundae-app-icon.png", sizes: "512x512", type: "image/png" },
