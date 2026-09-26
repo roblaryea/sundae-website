@@ -9,6 +9,7 @@ import {
   getSourceBlogPosts,
 } from '@/lib/blogTranslations';
 import { getLocalizedPathname, resolveWebsiteLocale, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { resolvePageTitle } from '@/lib/pageTitles';
 import { BlogContent } from './BlogContent';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_blog_slug_page'
@@ -34,6 +35,15 @@ type BlogPostPageCopy = {
   viewEnglish: string;
   categories: Record<string, string>;
 };
+
+const relatedResourceRoutes = {
+  Product: ['/product', '/core'],
+  'Industry Insights': ['/product', '/diagnostic'],
+  Playbooks: ['/diagnostic', '/resources'],
+  'Data & AI': ['/product/intelligence', '/architecture'],
+  Benchmarks: ['/product/benchmarking', '/tools/benchmark-readiness'],
+  Research: ['/product/foresight', '/product/insights'],
+} as const;
 
 const localizedBlogPostPageCopy: RequiredEnglishLocalizedRecord<BlogPostPageCopy> = {
   en: {
@@ -134,6 +144,13 @@ export default async function BlogPostPage({
     notFound();
   }
 
+  const relatedResources = (relatedResourceRoutes[post.category as keyof typeof relatedResourceRoutes] ?? relatedResourceRoutes['Industry Insights'])
+    .map((path) => ({
+      path: getLocalizedPathname(path, locale),
+      title: resolvePageTitle(path, locale),
+    }))
+    .filter((resource): resource is { path: string; title: string } => Boolean(resource.title));
+
   // JSON-LD Structured Data for Article
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -221,6 +238,24 @@ export default async function BlogPostPage({
               </Link>
             </div>
           )}
+
+          {post.translationAvailable && relatedResources.length > 0 ? (
+            <aside className="mt-14 rounded-2xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-6 sm:p-8" aria-label={copy.seeInAction}>
+              <h2 className="text-xl font-semibold text-[var(--text-primary)] mb-5">{copy.seeInAction}</h2>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {relatedResources.map((resource) => (
+                  <Link
+                    key={resource.path}
+                    href={resource.path}
+                    className="group rounded-xl border border-[var(--border-default)] bg-white/[0.03] px-5 py-4 text-[var(--text-primary)] transition-colors hover:border-[#FF8473]/50 hover:bg-white/[0.06]"
+                  >
+                    <span className="font-medium leading-snug">{resource.title}</span>
+                    <span aria-hidden className="ml-2 text-[#FF8473] transition-transform group-hover:translate-x-1 inline-block">→</span>
+                  </Link>
+                ))}
+              </div>
+            </aside>
+          ) : null}
 
           {/* Footer */}
           <footer className="mt-16 pt-8 border-t border-[var(--border-default)]">

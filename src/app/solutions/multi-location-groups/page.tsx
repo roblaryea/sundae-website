@@ -12,7 +12,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     badge: "For Multi-Location Groups",
     titleLine1: "One platform.",
     titleLine2: "Every brand. Every market.",
-    description: "Portfolio rollup across brands, regions, and concepts. Brand-vs-brand benchmarks. Find a margin leak in any brand, route the fix to an accountable owner, and measure the recovery across the group - the closed loop no single POS can run.",
+    description: "Multi-location restaurant analytics across brands, regions, and concepts. Benchmark every site, find a margin leak, route the fix to an accountable owner, and measure recovery across the group - the closed loop no single POS can run.",
     primaryCta: "Book a Group Walk-through",
     secondaryCta: "See Group Demo",
     problemsEyebrow: "WHERE THE GROUP LOSES LEVERAGE",
