@@ -183,7 +183,7 @@ export default async function RootLayout({
         description:
           "Sundae provides decision intelligence for closed-loop profit recovery in multi-location food-service operations.",
         sameAs: [
-          "https://www.linkedin.com/company/managewithsundae",
+          "https://www.linkedin.com/company/sundae-io",
           "https://x.com/sundae_io",
           "https://www.youtube.com/@Sundae_io",
         ],
