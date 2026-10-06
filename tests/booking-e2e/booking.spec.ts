@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { readFile } from 'node:fs/promises';
 
 test('golden path: timezone, 24-hour time, question, confirmation and calendar links', async ({ page, request }) => {
   await page.goto('/book?token=optional&eventType=demo');
@@ -17,6 +18,13 @@ test('golden path: timezone, 24-hour time, question, confirmation and calendar l
   await expect(page.getByRole('link', { name: 'Google Calendar', exact: true })).toHaveAttribute('href', /20261027T100000Z/);
   await expect(page.getByRole('link', { name: 'Outlook', exact: true })).toHaveAttribute('href', /startdt=/);
   await expect(page.getByRole('button', { name: 'Download ICS', exact: true })).toBeVisible();
+  const downloadPromise = page.waitForEvent('download');
+  await page.getByRole('button', { name: 'Download ICS', exact: true }).click();
+  const download = await downloadPromise;
+  expect(download.suggestedFilename()).toBe('sundae-call.ics');
+  const downloadPath = await download.path();
+  expect(downloadPath).not.toBeNull();
+  expect(await readFile(downloadPath!, 'utf8')).toBe('BEGIN:VCALENDAR\r\nEND:VCALENDAR');
   await page.getByRole('button', { name: 'Reschedule', exact: true }).click();
   await page.getByRole('button', { name: '14:00', exact: true }).click();
   await expect(page.getByLabel('What would you like to discuss?')).toHaveCount(0);
