@@ -12,6 +12,7 @@
     "lead:preflight": "node scripts/check-lead-capture-env.mjs",
     "test:diagnostic-lead": "node --test tests/diagnostic-lead-outbox.test.mjs tests/diagnostic-flow-contract.test.mjs tests/diagnostic-report-grounding.test.mjs",
     "test:booking": "node --test tests/booking-timezones.test.mjs",
+    "test:booking:e2e": "playwright test --config playwright.booking.config.ts",
     "test:observability": "node --test tests/sentry-runtime-policy.test.mjs",
     "test:seo": "node --test tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
@@ -52,6 +53,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

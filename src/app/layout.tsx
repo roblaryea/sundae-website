@@ -4,9 +4,7 @@ import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
 import { BotIdClient } from "botid/client";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { WebsiteChrome } from "@/components/WebsiteChrome";
 import { PostHogProvider } from "@/components/PostHogProvider";
 import { CookieConsent } from "@/components/CookieConsent";
 import { ThemeProvider, ThemeScript } from "@/components/ui/ThemeProvider";
@@ -241,14 +239,7 @@ export default async function RootLayout({
         <PostHogProvider>
           <LocaleProvider initialLocale={locale}>
             <ThemeProvider>
-              <header role="banner">
-                <Navbar />
-              </header>
-              <main id="main-content" className="relative min-h-screen overflow-x-hidden" role="main">
-                <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
-                {children}
-              </main>
-              <Footer />
+              <WebsiteChrome>{children}</WebsiteChrome>
               <Analytics />
               <CookieConsent initialConsent={initialConsent} />
             </ThemeProvider>
