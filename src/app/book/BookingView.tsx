@@ -36,9 +36,11 @@ import {
 import {
   websiteLocaleDirection,
   getWebsiteIntlLocale,
+  getLocalizedCopy,
   type WebsiteLocale,
 } from '@/lib/i18n';
-import { bookingCopy, formatSlotLabel } from '@/lib/booking/copy';
+import { bookingCopy } from '@/lib/booking/copy';
+import { bookingControlsCopy } from '@/lib/booking/controls-copy';
 import {
   buildBookingTimezoneOptions,
   detectBookingTimezone,
@@ -70,12 +72,6 @@ function resolveBookingCopy(locale: WebsiteLocale): Record<string, unknown> {
   return {};
 }
 
-const fmtSlot = formatSlotLabel as unknown as (
-  startUtc: string,
-  tz: string,
-  locale: string,
-) => string;
-
 function makeIdempotencyKey(): string {
   try {
     if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
@@ -103,6 +99,8 @@ type BookResult = {
   joinUrl?: string | null;
   manageToken?: string | null;
   ics?: string | null;
+  googleCalendarUrl?: string;
+  outlookCalendarUrl?: string;
   error?: string;
 };
 
@@ -120,6 +118,8 @@ type ConfirmedBooking = {
   joinUrl: string | null;
   manageToken: string | null;
   ics: string | null;
+  googleCalendarUrl?: string;
+  outlookCalendarUrl?: string;
 };
 
 type Mode = 'select' | 'reschedule' | 'confirmed' | 'existing' | 'canceled';
@@ -135,7 +135,10 @@ export function BookingView({
   ctx: BookingContext;
 }) {
   const dir = websiteLocaleDirection[locale] ?? 'ltr';
-  const copy = useMemo(() => resolveBookingCopy(locale), [locale]);
+  const copy = useMemo<Record<string, unknown>>(
+    () => ({ ...resolveBookingCopy(locale), ...getLocalizedCopy(bookingControlsCopy, locale) }),
+    [locale],
+  );
   const t = useCallback(
     (key: string, fallback: string): string => {
       const v = copy[key];
@@ -166,6 +169,11 @@ export function BookingView({
   const [actionError, setActionError] = useState<ActionError | null>(null);
   const [confirmCancel, setConfirmCancel] = useState(false);
   const [canceling, setCanceling] = useState(false);
+  const [reviewSlot, setReviewSlot] = useState<Slot | null>(null);
+  const [discussion, setDiscussion] = useState('');
+  const [hour12, setHour12] = useState(true);
+  const slotsRequestRef = useRef(0);
+  const reschedulingId = mode === 'reschedule' ? confirmed?.booking.id : undefined;
 
   const idempotencyKeyRef = useRef('');
   if (!idempotencyKeyRef.current) idempotencyKeyRef.current = makeIdempotencyKey();
@@ -179,19 +187,23 @@ export function BookingView({
 
   const loadSlots = useCallback(
     async (from: string, tz: string) => {
+      const requestId = ++slotsRequestRef.current;
       setSlotsLoading(true);
       setSlotsError(null);
       try {
-        const params = new URLSearchParams({ token, tz, from });
+        const params = new URLSearchParams({ token, tz, from, eventType: ctx.eventTypeId || 'discovery' });
+        if (reschedulingId) params.set('bookingId', reschedulingId);
         const res = await fetch(`/api/book/slots?${params.toString()}`, {
           headers: { accept: 'application/json' },
         });
+        if (requestId !== slotsRequestRef.current) return;
         if (!res.ok) {
           setSlotsData(null);
           setSlotsError(res.status === 503 ? 'unavailable' : 'error');
           return;
         }
         const json = (await res.json().catch(() => ({}))) as SlotsResponse;
+        if (requestId !== slotsRequestRef.current) return;
         setSlotsData({
           days: Array.isArray(json.days) ? json.days : [],
           firstAvailableUtc: json.firstAvailableUtc ?? null,
@@ -201,13 +213,14 @@ export function BookingView({
           durationMinutes: json.durationMinutes ?? ctx.durationMinutes ?? null,
         });
       } catch {
+        if (requestId !== slotsRequestRef.current) return;
         setSlotsData(null);
         setSlotsError('error');
       } finally {
-        setSlotsLoading(false);
+        if (requestId === slotsRequestRef.current) setSlotsLoading(false);
       }
     },
-    [token, ctx.teamTimezone, ctx.durationMinutes],
+    [token, ctx.teamTimezone, ctx.durationMinutes, ctx.eventTypeId, reschedulingId],
   );
 
   // Load slots on mount + whenever the visitor tz, window start, or slot-picking
@@ -216,6 +229,7 @@ export function BookingView({
     if (mode !== 'select' && mode !== 'reschedule') return;
     if (!visitorTz) return;
     void loadSlots(fromIso, visitorTz);
+    return () => { slotsRequestRef.current += 1; };
   }, [mode, visitorTz, fromIso, loadSlots]);
 
   // Whenever fresh slot data arrives, seed the calendar month + selected day to
@@ -235,6 +249,11 @@ export function BookingView({
 
   const handleBookingError = useCallback(
     (status: number, code: string | undefined) => {
+      if (status === 409 || code === 'E_BOOKING_SLOT_UNAVAILABLE') setReviewSlot(null);
+      if (code === 'invalid_discussion') {
+        setActionError({ tone: 'warn', text: t('discussionError', 'Please answer the discussion question (up to 2,000 characters).') });
+        return;
+      }
       if (status === 409 && code === 'E_BOOKING_SLOT_TAKEN') {
         setActionError({
           tone: 'warn',
@@ -294,7 +313,8 @@ export function BookingView({
       const res = await fetch(`/api/book?${params.toString()}`, {
         method: 'POST',
         headers: { 'content-type': 'application/json', accept: 'application/json' },
-        body: JSON.stringify({ slotStart: slot.startUtc, idempotencyKey: idempotencyKeyRef.current }),
+        body: JSON.stringify({ slotStart: slot.startUtc, idempotencyKey: idempotencyKeyRef.current,
+          eventTypeId: ctx.eventTypeId || 'discovery', discussion }),
       });
       const json = (await res.json().catch(() => ({}))) as BookResult;
       if (res.status === 201 && json.booking) {
@@ -303,9 +323,12 @@ export function BookingView({
           joinUrl: json.joinUrl ?? json.booking.joinUrl ?? null,
           manageToken: json.manageToken ?? null,
           ics: json.ics ?? null,
+          googleCalendarUrl: json.googleCalendarUrl,
+          outlookCalendarUrl: json.outlookCalendarUrl,
         });
         setActionError(null);
         setMode('confirmed');
+        setReviewSlot(null);
         return;
       }
       handleBookingError(res.status, json.error);
@@ -337,9 +360,12 @@ export function BookingView({
           joinUrl: json.joinUrl ?? json.booking.joinUrl ?? confirmed.joinUrl,
           manageToken: confirmed.manageToken,
           ics: json.ics ?? confirmed.ics,
+          googleCalendarUrl: json.googleCalendarUrl,
+          outlookCalendarUrl: json.outlookCalendarUrl,
         });
         setActionError(null);
         setMode('confirmed');
+        setReviewSlot(null);
         return;
       }
       handleBookingError(res.status, json.error);
@@ -407,6 +433,9 @@ export function BookingView({
   };
 
   const bookAgain = () => {
+    idempotencyKeyRef.current = makeIdempotencyKey();
+    setReviewSlot(null);
+    setDiscussion('');
     setConfirmed(null);
     setActionError(null);
     setConfirmCancel(false);
@@ -429,7 +458,7 @@ export function BookingView({
       ]),
     [locale, visitorTz, teamTz],
   );
-  const duration = ctx.durationMinutes ?? slotsData?.durationMinutes ?? null;
+  const duration = mode === 'reschedule' ? slotsData?.durationMinutes ?? ctx.durationMinutes : ctx.durationMinutes ?? slotsData?.durationMinutes ?? null;
   const graphDegraded = !!slotsData?.graphDegraded;
   const joinUrl = confirmed?.joinUrl || confirmed?.booking?.joinUrl || null;
   const isLoadingSlots =
@@ -445,6 +474,7 @@ export function BookingView({
         hour: 'numeric',
         minute: '2-digit',
         timeZone: tz || undefined,
+        hour12,
       }).format(new Date(iso));
     } catch {
       return iso;
@@ -452,18 +482,12 @@ export function BookingView({
   };
 
   const slotLabel = (slot: Slot, tz: string): string => {
-    if (slot.label) return slot.label;
-    try {
-      const l = fmtSlot(slot.startUtc, tz, locale);
-      if (typeof l === 'string' && l.length > 0) return l;
-    } catch {
-      /* fall through */
-    }
     try {
       return new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), {
         hour: 'numeric',
         minute: '2-digit',
         timeZone: tz || undefined,
+        hour12,
       }).format(new Date(slot.startUtc));
     } catch {
       return slot.startLocal || slot.startUtc;
@@ -814,6 +838,7 @@ export function BookingView({
                 <button
                   onClick={() => {
                     setActionError(null);
+                    setReviewSlot(null);
                     setMode('confirmed');
                   }}
                   className={`inline-flex items-center gap-1.5 text-sm ${muted} hover:opacity-80 transition-opacity`}
@@ -870,6 +895,9 @@ export function BookingView({
                       id="booking-timezone"
                       value={visitorTz}
                       onChange={(event) => {
+                        if (event.target.value === visitorTz) return;
+                        setReviewSlot(null);
+                        setSlotsData(null);
                         setSelectedDate(null);
                         setCalMonth(null);
                         setVisitorTz(event.target.value);
@@ -895,7 +923,45 @@ export function BookingView({
                 </div>
               )}
 
-              {renderSlotGrid(mode === 'reschedule' ? rescheduleSlot : bookSlot)}
+              <div className="flex items-center justify-end gap-2 text-sm" aria-label={t('timeFormat', 'Time format')}>
+                {([true, false] as const).map((value) => (
+                  <button key={String(value)} type="button" aria-pressed={hour12 === value}
+                    onClick={() => setHour12(value)} className={hour12 === value ? coralBtn : secondaryBtn}>
+                    {value ? '12h' : '24h'}
+                  </button>
+                ))}
+              </div>
+
+              {reviewSlot ? (
+                <form className={`rounded-2xl border p-5 space-y-4 ${cardCls}`} onSubmit={(event) => {
+                  event.preventDefault();
+                  if (submittingSlot) return;
+                  void (mode === 'reschedule' ? rescheduleSlot(reviewSlot) : bookSlot(reviewSlot));
+                }}>
+                  <h2 className={`text-lg font-bold ${heading}`}>{t('reviewTitle', 'Review your booking')}</h2>
+                  <p className={body}>{formatWhen(reviewSlot.startUtc, displayTz)} · {displayTz}</p>
+                  <p className={`text-sm ${muted}`}>{duration} {t('minutesLabel', 'minutes')} · {ctx.email}</p>
+                  {mode === 'select' && ctx.bookingQuestion?.enabled && (
+                    <div className="space-y-2">
+                      <label htmlFor="booking-discussion" className={`block text-sm font-semibold ${heading}`}>
+                        {ctx.bookingQuestion.label} {!ctx.bookingQuestion.required && <span className={muted}>({t('optional', 'optional')})</span>}
+                      </label>
+                      <textarea id="booking-discussion" rows={4} maxLength={2000} required={ctx.bookingQuestion.required}
+                        value={discussion} onChange={(event) => setDiscussion(event.target.value)}
+                        className={`w-full rounded-lg border p-3 text-sm focus:ring-2 focus:ring-[#FF5C4D] outline-none ${cardCls}`} />
+                    </div>
+                  )}
+                  <div className="flex flex-wrap gap-3">
+                    <button type="submit" disabled={!!submittingSlot} className={coralBtn}>
+                      {submittingSlot && <Loader2 className="w-4 h-4 animate-spin" />}
+                      {mode === 'reschedule' ? t('confirmReschedule', 'Confirm new time') : t('confirmCta', 'Confirm booking')}
+                    </button>
+                    <button type="button" disabled={!!submittingSlot} onClick={() => setReviewSlot(null)} className={secondaryBtn}>
+                      {t('changeTime', 'Choose another time')}
+                    </button>
+                  </div>
+                </form>
+              ) : renderSlotGrid((slot) => { setActionError(null); setReviewSlot(slot); })}
 
               {requestAnother}
             </>
@@ -930,9 +996,11 @@ export function BookingView({
                   )}
                   {confirmed.ics && (
                     <button onClick={() => downloadIcs(confirmed.ics)} className={secondaryBtn}>
-                      <Download className="w-4 h-4" /> {t('addToCalendar', 'Add to calendar')}
+                      <Download className="w-4 h-4" /> {t('downloadIcs', 'Download ICS')}
                     </button>
                   )}
+                  {confirmed.googleCalendarUrl && <a href={confirmed.googleCalendarUrl} target="_blank" rel="noreferrer noopener" className={secondaryBtn}>Google Calendar</a>}
+                  {confirmed.outlookCalendarUrl && <a href={confirmed.outlookCalendarUrl} target="_blank" rel="noreferrer noopener" className={secondaryBtn}>Outlook</a>}
                 </div>
 
                 {confirmed.manageToken ? (
