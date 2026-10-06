@@ -45,10 +45,10 @@ function BookingNotFound({ locale }: { locale: WebsiteLocale }) {
 export default async function BookPage({
   searchParams,
 }: {
-  searchParams: Promise<{ token?: string; locale?: string }>;
+  searchParams: Promise<{ token?: string; locale?: string; eventType?: string }>;
 }) {
-  const { token, locale: queryLocale } = await searchParams;
-  const result = await fetchBookingContext(token ?? '');
+  const { token, locale: queryLocale, eventType } = await searchParams;
+  const result = await fetchBookingContext(token ?? '', eventType);
   const locale = normalizeWebsiteLocale(result?.context?.locale ?? queryLocale);
 
   if (!result?.ok || !result.context) {
