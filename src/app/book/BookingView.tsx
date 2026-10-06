@@ -30,6 +30,8 @@ import {
   AlertCircle,
   Download,
   X,
+  Globe2,
+  ChevronDown,
 } from 'lucide-react';
 import {
   websiteLocaleDirection,
@@ -37,6 +39,10 @@ import {
   type WebsiteLocale,
 } from '@/lib/i18n';
 import { bookingCopy, formatSlotLabel } from '@/lib/booking/copy';
+import {
+  buildBookingTimezoneOptions,
+  detectBookingTimezone,
+} from '@/lib/booking/timezones';
 import type { BookingContext, Slot, BookingDay, BookingSummary } from '@/lib/sundaeBookingClient';
 
 // --- decouple from the parallel copy module's exact signatures ---------------
@@ -164,14 +170,12 @@ export function BookingView({
   const idempotencyKeyRef = useRef('');
   if (!idempotencyKeyRef.current) idempotencyKeyRef.current = makeIdempotencyKey();
 
-  // Detect the visitor's time zone once on mount (client-only).
+  // Detect the visitor's time zone once on mount (client-only). The host zone
+  // is a safe fallback for browsers that cannot expose an IANA zone; the user
+  // can always override it with the visible selector below.
   useEffect(() => {
-    try {
-      setVisitorTz(Intl.DateTimeFormat().resolvedOptions().timeZone || '');
-    } catch {
-      setVisitorTz('');
-    }
-  }, []);
+    setVisitorTz(detectBookingTimezone(ctx.teamTimezone || 'UTC'));
+  }, [ctx.teamTimezone]);
 
   const loadSlots = useCallback(
     async (from: string, tz: string) => {
@@ -417,6 +421,14 @@ export function BookingView({
   // --- derived --------------------------------------------------------------
   const displayTz = visitorTz || slotsData?.visitorTimezone || '';
   const teamTz = ctx.teamTimezone || slotsData?.teamTimezone || null;
+  const timezoneOptions = useMemo(
+    () =>
+      buildBookingTimezoneOptions(getWebsiteIntlLocale(locale), [
+        visitorTz,
+        teamTz,
+      ]),
+    [locale, visitorTz, teamTz],
+  );
   const duration = ctx.durationMinutes ?? slotsData?.durationMinutes ?? null;
   const graphDegraded = !!slotsData?.graphDegraded;
   const joinUrl = confirmed?.joinUrl || confirmed?.booking?.joinUrl || null;
@@ -839,9 +851,48 @@ export function BookingView({
               )}
 
               {displayTz && (
-                <p className={`text-xs ${muted}`}>
-                  {`${t('yourTzNote', 'All times shown in your time zone')} · ${displayTz}`}
-                </p>
+                <div
+                  className={`rounded-xl border px-3.5 py-3 sm:flex sm:items-center sm:justify-between sm:gap-4 ${cardCls}`}
+                >
+                  <div className="flex items-start gap-2.5">
+                    <Globe2 className={`mt-0.5 h-4 w-4 shrink-0 ${muted}`} aria-hidden="true" />
+                    <div>
+                      <label htmlFor="booking-timezone" className={`text-sm font-semibold ${heading}`}>
+                        {t('timezonePickerLabel', 'Your time zone')}
+                      </label>
+                      <p id="booking-timezone-help" className={`mt-0.5 text-xs ${muted}`}>
+                        {t('timezonePickerHelp', 'Available times update automatically.')}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative mt-3 sm:mt-0 sm:min-w-[17rem]">
+                    <select
+                      id="booking-timezone"
+                      value={visitorTz}
+                      onChange={(event) => {
+                        setSelectedDate(null);
+                        setCalMonth(null);
+                        setVisitorTz(event.target.value);
+                      }}
+                      aria-describedby="booking-timezone-help"
+                      className={`h-11 w-full appearance-none rounded-lg border py-2 ps-3 pe-9 text-sm font-medium outline-none transition-colors focus:border-[#FF5C4D] focus:ring-2 focus:ring-[#FF5C4D]/25 ${
+                        dark
+                          ? 'border-white/10 bg-[#0B1220] text-stone-100'
+                          : 'border-gray-200 bg-white text-gray-900'
+                      }`}
+                    >
+                      {timezoneOptions.map((option) => (
+                        <option key={option.value} value={option.value}>
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                    <ChevronDown
+                      className={`pointer-events-none absolute end-3 top-1/2 h-4 w-4 -translate-y-1/2 ${muted}`}
+                      aria-hidden="true"
+                    />
+                  </div>
+                </div>
               )}
 
               {renderSlotGrid(mode === 'reschedule' ? rescheduleSlot : bookSlot)}
