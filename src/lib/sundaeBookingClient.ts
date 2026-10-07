@@ -32,6 +32,7 @@ export interface BookingContext {
   company: string | null;
   email: string;
   durationMinutes: number | null;
+  durationOptions?: number[];
   teamTimezone: string | null;
   locale: string | null;
   offering: string;
@@ -155,7 +156,8 @@ export async function fetchSlots(
   from: string,
   to: string,
   eventType = 'discovery',
-  bookingId?: string
+  bookingId?: string,
+  durationMinutes?: string
 ): Promise<{
   ok: boolean;
   status: number;
@@ -170,6 +172,7 @@ export async function fetchSlots(
 }> {
   const params = new URLSearchParams({ token, tz, from, to, eventType });
   if (bookingId) params.set('bookingId', bookingId);
+  if (durationMinutes !== undefined) params.set('durationMinutes', durationMinutes);
   const query = params.toString();
   const result = await callBackend<SlotsBackendResponse>(
     `/api/v1/public/marketing/bookings/slots?${query}`
@@ -196,7 +199,7 @@ export async function fetchSlots(
 export async function createBooking(
   token: string,
   slotStart: string,
-  opts?: { idempotencyKey?: string; ip?: string; ua?: string; eventTypeId?: string; discussion?: string }
+  opts?: { idempotencyKey?: string; ip?: string; ua?: string; eventTypeId?: string; discussion?: string; durationMinutes?: number }
 ): Promise<{
   ok: boolean;
   status: number;
@@ -221,6 +224,7 @@ export async function createBooking(
         slotStart,
         eventTypeId: opts?.eventTypeId,
         discussion: opts?.discussion,
+        durationMinutes: opts?.durationMinutes,
         ...(opts?.idempotencyKey ? { idempotencyKey: opts.idempotencyKey } : {}),
       }),
     }

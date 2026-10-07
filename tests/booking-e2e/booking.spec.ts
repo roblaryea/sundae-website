@@ -1,6 +1,31 @@
 import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 
+test('duration choice refreshes slots, clears review, forwards selection and remains fixed on reschedule', async ({ page, request }) => {
+  await page.goto('/book?token=multiple');
+  await page.getByLabel('Your time zone').selectOption('UTC');
+  await expect(page.getByLabel('Call duration')).toHaveValue('60');
+  await page.getByRole('button', { name: '10:00 AM', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Review your booking' })).toBeVisible();
+  await page.getByLabel('Call duration').selectOption('30');
+  await expect(page.getByRole('heading', { name: 'Review your booking' })).toHaveCount(0);
+  await page.getByRole('button', { name: '10:00 AM', exact: true }).click();
+  let captured = await (await request.get('http://127.0.0.1:4311/captured')).json();
+  expect(captured.slotQuery.durationMinutes).toBe('30');
+  await expect(page.getByText('30 minutes · juan@example.com')).toBeVisible();
+  await page.getByRole('button', { name: 'Confirm booking', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'You’re booked' })).toBeVisible();
+  captured = await (await request.get('http://127.0.0.1:4311/captured')).json();
+  expect(captured.body.durationMinutes).toBe(30);
+  await page.getByRole('button', { name: 'Reschedule', exact: true }).click();
+  await expect(page.getByLabel('Call duration')).toHaveCount(0);
+  await page.getByRole('button', { name: '10:00 AM', exact: true }).click();
+  captured = await (await request.get('http://127.0.0.1:4311/captured')).json();
+  expect(captured.slotQuery.durationMinutes).toBe('30');
+  expect(captured.slotQuery.bookingId).toBe('fixture-booking');
+  await expect(page.getByText('30 minutes · juan@example.com')).toBeVisible();
+});
+
 test('golden path: timezone, 24-hour time, question, confirmation and calendar links', async ({ page, request }) => {
   await page.goto('/book?token=optional&eventType=demo');
   await page.getByLabel('Your time zone').selectOption('Asia/Dubai');
