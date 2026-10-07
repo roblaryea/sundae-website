@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
 
   const token = request.nextUrl.searchParams.get('token') ?? '';
 
-  let body: { slotStart?: string; idempotencyKey?: string } = {};
+  let body: { slotStart?: string; idempotencyKey?: string; eventTypeId?: string; discussion?: string } = {};
   try {
     body = await request.json();
   } catch {
@@ -63,6 +63,8 @@ export async function POST(request: NextRequest) {
   const ua = request.headers.get('user-agent') ?? undefined;
   const result = await createBooking(token, slotStart, {
     idempotencyKey: body.idempotencyKey,
+    eventTypeId: body.eventTypeId,
+    discussion: body.discussion,
     ip,
     ua,
   });

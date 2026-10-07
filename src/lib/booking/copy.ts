@@ -14,6 +14,8 @@ export interface BookingCopy {
   offeringPrefix: string;
   /** Label preceding the resolved timezone, e.g. "Times shown in". */
   timezoneLabel: string;
+  timezonePickerLabel: string;
+  timezonePickerHelp: string;
   pickATime: string;
   confirmCta: string;
   confirmedTitle: string;
@@ -44,6 +46,8 @@ export const bookingCopy: BookingCopy = {
     'Pick a time that works for you - we’ll send the invite and a calendar hold straight to your inbox.',
   offeringPrefix: 'About your ',
   timezoneLabel: 'Times shown in',
+  timezonePickerLabel: 'Your time zone',
+  timezonePickerHelp: 'Available times update automatically.',
   pickATime: 'Pick a time',
   confirmCta: 'Confirm booking',
   confirmedTitle: 'You’re booked',

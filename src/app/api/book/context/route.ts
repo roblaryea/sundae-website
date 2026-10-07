@@ -15,6 +15,6 @@ export const runtime = 'nodejs';
 
 export async function GET(request: NextRequest) {
   const token = request.nextUrl.searchParams.get('token') ?? '';
-  const result = await fetchBookingContext(token);
+  const result = await fetchBookingContext(token, request.nextUrl.searchParams.get('eventType') || 'discovery');
   return NextResponse.json(result, { status: result.status || 502 });
 }
