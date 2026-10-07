@@ -1,6 +1,7 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
 const english = {
+  durationLabel: 'Call duration',
   reviewTitle: 'Review your booking',
   timeFormat: 'Time format',
   optional: 'optional',
@@ -20,6 +21,7 @@ type ControlsCopy = Record<keyof typeof english, string>;
 export const bookingControlsCopy = {
   en: english,
   ar: {
+    durationLabel: "مدة المكالمة",
     reviewTitle: 'راجع حجزك', timeFormat: 'تنسيق الوقت', optional: 'اختياري',
     changeTime: 'اختر وقتًا آخر', confirmReschedule: 'تأكيد الوقت الجديد', confirmCta: 'تأكيد الحجز',
     minutesLabel: 'دقيقة', downloadIcs: 'تنزيل ملف ICS',
@@ -27,6 +29,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'منطقتك الزمنية', timezonePickerHelp: 'تُحدَّث الأوقات المتاحة تلقائيًا.',
   },
   fr: {
+    durationLabel: "Durée de l’appel",
     reviewTitle: 'Vérifiez votre réservation', timeFormat: 'Format de l’heure', optional: 'facultatif',
     changeTime: 'Choisir un autre horaire', confirmReschedule: 'Confirmer le nouvel horaire', confirmCta: 'Confirmer la réservation',
     minutesLabel: 'minutes', downloadIcs: 'Télécharger le fichier ICS',
@@ -34,6 +37,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Votre fuseau horaire', timezonePickerHelp: 'Les horaires disponibles se mettent à jour automatiquement.',
   },
   es: {
+    durationLabel: "Duración de la llamada",
     reviewTitle: 'Revisa tu reserva', timeFormat: 'Formato de hora', optional: 'opcional',
     changeTime: 'Elegir otra hora', confirmReschedule: 'Confirmar la nueva hora', confirmCta: 'Confirmar reserva',
     minutesLabel: 'minutos', downloadIcs: 'Descargar archivo ICS',
@@ -41,6 +45,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Tu zona horaria', timezonePickerHelp: 'Los horarios disponibles se actualizan automáticamente.',
   },
   de: {
+    durationLabel: "Anrufdauer",
     reviewTitle: 'Buchung überprüfen', timeFormat: 'Zeitformat', optional: 'optional',
     changeTime: 'Andere Uhrzeit wählen', confirmReschedule: 'Neue Uhrzeit bestätigen', confirmCta: 'Buchung bestätigen',
     minutesLabel: 'Minuten', downloadIcs: 'ICS-Datei herunterladen',
@@ -48,6 +53,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Ihre Zeitzone', timezonePickerHelp: 'Verfügbare Zeiten werden automatisch aktualisiert.',
   },
   nl: {
+    durationLabel: "Gespreksduur",
     reviewTitle: 'Controleer je boeking', timeFormat: 'Tijdnotatie', optional: 'optioneel',
     changeTime: 'Kies een ander tijdstip', confirmReschedule: 'Nieuw tijdstip bevestigen', confirmCta: 'Boeking bevestigen',
     minutesLabel: 'minuten', downloadIcs: 'ICS-bestand downloaden',
@@ -55,6 +61,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Je tijdzone', timezonePickerHelp: 'Beschikbare tijden worden automatisch bijgewerkt.',
   },
   pt: {
+    durationLabel: "Duração da chamada",
     reviewTitle: 'Revise sua reserva', timeFormat: 'Formato de hora', optional: 'opcional',
     changeTime: 'Escolher outro horário', confirmReschedule: 'Confirmar novo horário', confirmCta: 'Confirmar reserva',
     minutesLabel: 'minutos', downloadIcs: 'Baixar arquivo ICS',
@@ -62,6 +69,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Seu fuso horário', timezonePickerHelp: 'Os horários disponíveis são atualizados automaticamente.',
   },
   hi: {
+    durationLabel: "कॉल की अवधि",
     reviewTitle: 'अपनी बुकिंग की समीक्षा करें', timeFormat: 'समय का प्रारूप', optional: 'वैकल्पिक',
     changeTime: 'दूसरा समय चुनें', confirmReschedule: 'नए समय की पुष्टि करें', confirmCta: 'बुकिंग की पुष्टि करें',
     minutesLabel: 'मिनट', downloadIcs: 'ICS फ़ाइल डाउनलोड करें',
@@ -69,6 +77,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'आपका समय क्षेत्र', timezonePickerHelp: 'उपलब्ध समय अपने आप अपडेट होते हैं।',
   },
   ur: {
+    durationLabel: "کال کا دورانیہ",
     reviewTitle: 'اپنی بکنگ کا جائزہ لیں', timeFormat: 'وقت کا انداز', optional: 'اختیاری',
     changeTime: 'دوسرا وقت منتخب کریں', confirmReschedule: 'نئے وقت کی تصدیق کریں', confirmCta: 'بکنگ کی تصدیق کریں',
     minutesLabel: 'منٹ', downloadIcs: 'ICS فائل ڈاؤن لوڈ کریں',
@@ -76,6 +85,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'آپ کا ٹائم زون', timezonePickerHelp: 'دستیاب اوقات خود بخود اپ ڈیٹ ہوتے ہیں۔',
   },
   it: {
+    durationLabel: "Durata della chiamata",
     reviewTitle: 'Controlla la prenotazione', timeFormat: 'Formato ora', optional: 'facoltativo',
     changeTime: 'Scegli un altro orario', confirmReschedule: 'Conferma il nuovo orario', confirmCta: 'Conferma prenotazione',
     minutesLabel: 'minuti', downloadIcs: 'Scarica file ICS',
@@ -83,6 +93,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Il tuo fuso orario', timezonePickerHelp: 'Gli orari disponibili si aggiornano automaticamente.',
   },
   pl: {
+    durationLabel: "Czas rozmowy",
     reviewTitle: 'Sprawdź rezerwację', timeFormat: 'Format czasu', optional: 'opcjonalnie',
     changeTime: 'Wybierz inny termin', confirmReschedule: 'Potwierdź nowy termin', confirmCta: 'Potwierdź rezerwację',
     minutesLabel: 'min', downloadIcs: 'Pobierz plik ICS',
@@ -90,6 +101,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Twoja strefa czasowa', timezonePickerHelp: 'Dostępne terminy aktualizują się automatycznie.',
   },
   tr: {
+    durationLabel: "Görüşme süresi",
     reviewTitle: 'Rezervasyonunuzu gözden geçirin', timeFormat: 'Saat biçimi', optional: 'isteğe bağlı',
     changeTime: 'Başka bir saat seçin', confirmReschedule: 'Yeni saati onayla', confirmCta: 'Rezervasyonu onayla',
     minutesLabel: 'dakika', downloadIcs: 'ICS dosyasını indir',
@@ -97,6 +109,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Saat diliminiz', timezonePickerHelp: 'Uygun saatler otomatik olarak güncellenir.',
   },
   'zh-Hans': {
+    durationLabel: "通话时长",
     reviewTitle: '确认预约详情', timeFormat: '时间格式', optional: '选填',
     changeTime: '选择其他时间', confirmReschedule: '确认新时间', confirmCta: '确认预约',
     minutesLabel: '分钟', downloadIcs: '下载 ICS 文件',
@@ -104,6 +117,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: '你的时区', timezonePickerHelp: '可预约时间会自动更新。',
   },
   ja: {
+    durationLabel: "通話時間",
     reviewTitle: '予約内容の確認', timeFormat: '時刻の表示形式', optional: '任意',
     changeTime: '別の時間を選ぶ', confirmReschedule: '新しい時間を確定', confirmCta: '予約を確定',
     minutesLabel: '分', downloadIcs: 'ICS ファイルをダウンロード',
@@ -111,6 +125,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'タイムゾーン', timezonePickerHelp: '予約可能な時間は自動で更新されます。',
   },
   ko: {
+    durationLabel: "통화 시간",
     reviewTitle: '예약 내용 확인', timeFormat: '시간 표시 형식', optional: '선택 사항',
     changeTime: '다른 시간 선택', confirmReschedule: '새 시간 확정', confirmCta: '예약 확정',
     minutesLabel: '분', downloadIcs: 'ICS 파일 다운로드',
@@ -118,6 +133,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: '시간대', timezonePickerHelp: '예약 가능한 시간이 자동으로 업데이트됩니다.',
   },
   id: {
+    durationLabel: "Durasi panggilan",
     reviewTitle: 'Tinjau pemesanan Anda', timeFormat: 'Format waktu', optional: 'opsional',
     changeTime: 'Pilih waktu lain', confirmReschedule: 'Konfirmasi waktu baru', confirmCta: 'Konfirmasi pemesanan',
     minutesLabel: 'menit', downloadIcs: 'Unduh berkas ICS',
@@ -125,6 +141,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Zona waktu Anda', timezonePickerHelp: 'Waktu yang tersedia diperbarui secara otomatis.',
   },
   vi: {
+    durationLabel: "Thời lượng cuộc gọi",
     reviewTitle: 'Kiểm tra lịch hẹn', timeFormat: 'Định dạng giờ', optional: 'không bắt buộc',
     changeTime: 'Chọn giờ khác', confirmReschedule: 'Xác nhận giờ mới', confirmCta: 'Xác nhận lịch hẹn',
     minutesLabel: 'phút', downloadIcs: 'Tải tệp ICS',
@@ -132,6 +149,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Múi giờ của bạn', timezonePickerHelp: 'Các khung giờ trống được cập nhật tự động.',
   },
   ro: {
+    durationLabel: "Durata apelului",
     reviewTitle: 'Verifică programarea', timeFormat: 'Formatul orei', optional: 'opțional',
     changeTime: 'Alege altă oră', confirmReschedule: 'Confirmă noua oră', confirmCta: 'Confirmă programarea',
     minutesLabel: 'minute', downloadIcs: 'Descarcă fișierul ICS',
@@ -139,6 +157,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Fusul tău orar', timezonePickerHelp: 'Orele disponibile se actualizează automat.',
   },
   sv: {
+    durationLabel: "Samtalslängd",
     reviewTitle: 'Granska din bokning', timeFormat: 'Tidsformat', optional: 'valfritt',
     changeTime: 'Välj en annan tid', confirmReschedule: 'Bekräfta ny tid', confirmCta: 'Bekräfta bokning',
     minutesLabel: 'minuter', downloadIcs: 'Ladda ner ICS-fil',
@@ -146,6 +165,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'Din tidszon', timezonePickerHelp: 'Tillgängliga tider uppdateras automatiskt.',
   },
   bn: {
+    durationLabel: "কলের সময়কাল",
     reviewTitle: 'আপনার বুকিং যাচাই করুন', timeFormat: 'সময়ের বিন্যাস', optional: 'ঐচ্ছিক',
     changeTime: 'অন্য সময় বেছে নিন', confirmReschedule: 'নতুন সময় নিশ্চিত করুন', confirmCta: 'বুকিং নিশ্চিত করুন',
     minutesLabel: 'মিনিট', downloadIcs: 'ICS ফাইল ডাউনলোড করুন',
@@ -153,6 +173,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'আপনার সময় অঞ্চল', timezonePickerHelp: 'উপলব্ধ সময় স্বয়ংক্রিয়ভাবে আপডেট হয়।',
   },
   th: {
+    durationLabel: "ระยะเวลาการโทร",
     reviewTitle: 'ตรวจสอบการจอง', timeFormat: 'รูปแบบเวลา', optional: 'ไม่บังคับ',
     changeTime: 'เลือกเวลาอื่น', confirmReschedule: 'ยืนยันเวลาใหม่', confirmCta: 'ยืนยันการจอง',
     minutesLabel: 'นาที', downloadIcs: 'ดาวน์โหลดไฟล์ ICS',
@@ -160,6 +181,7 @@ export const bookingControlsCopy = {
     timezonePickerLabel: 'เขตเวลาของคุณ', timezonePickerHelp: 'เวลาที่ว่างจะอัปเดตโดยอัตโนมัติ',
   },
   ms: {
+    durationLabel: "Tempoh panggilan",
     reviewTitle: 'Semak tempahan anda', timeFormat: 'Format masa', optional: 'pilihan',
     changeTime: 'Pilih masa lain', confirmReschedule: 'Sahkan masa baharu', confirmCta: 'Sahkan tempahan',
     minutesLabel: 'minit', downloadIcs: 'Muat turun fail ICS',

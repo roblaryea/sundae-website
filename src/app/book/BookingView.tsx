@@ -171,9 +171,14 @@ export function BookingView({
   const [canceling, setCanceling] = useState(false);
   const [reviewSlot, setReviewSlot] = useState<Slot | null>(null);
   const [discussion, setDiscussion] = useState('');
+  const [selectedDuration, setSelectedDuration] = useState(ctx.durationMinutes);
   const [hour12, setHour12] = useState(true);
   const slotsRequestRef = useRef(0);
   const reschedulingId = mode === 'reschedule' ? confirmed?.booking.id : undefined;
+  const bookedDuration = confirmed?.booking.startAt && confirmed.booking.endAt
+    ? (Date.parse(confirmed.booking.endAt) - Date.parse(confirmed.booking.startAt)) / 60000 : ctx.durationMinutes;
+  const requestedDuration = mode === 'reschedule' ? bookedDuration : selectedDuration;
+  const durationOptions = ctx.durationOptions ?? (ctx.durationMinutes ? [ctx.durationMinutes] : []);
 
   const idempotencyKeyRef = useRef('');
   if (!idempotencyKeyRef.current) idempotencyKeyRef.current = makeIdempotencyKey();
@@ -193,6 +198,7 @@ export function BookingView({
       try {
         const params = new URLSearchParams({ token, tz, from, eventType: ctx.eventTypeId || 'discovery' });
         if (reschedulingId) params.set('bookingId', reschedulingId);
+        if (requestedDuration !== null) params.set('durationMinutes', String(requestedDuration));
         const res = await fetch(`/api/book/slots?${params.toString()}`, {
           headers: { accept: 'application/json' },
         });
@@ -220,7 +226,7 @@ export function BookingView({
         if (requestId === slotsRequestRef.current) setSlotsLoading(false);
       }
     },
-    [token, ctx.teamTimezone, ctx.durationMinutes, ctx.eventTypeId, reschedulingId],
+    [token, ctx.teamTimezone, ctx.durationMinutes, ctx.eventTypeId, reschedulingId, requestedDuration],
   );
 
   // Load slots on mount + whenever the visitor tz, window start, or slot-picking
@@ -314,7 +320,7 @@ export function BookingView({
         method: 'POST',
         headers: { 'content-type': 'application/json', accept: 'application/json' },
         body: JSON.stringify({ slotStart: slot.startUtc, idempotencyKey: idempotencyKeyRef.current,
-          eventTypeId: ctx.eventTypeId || 'discovery', discussion }),
+          eventTypeId: ctx.eventTypeId || 'discovery', discussion, durationMinutes: selectedDuration ?? undefined }),
       });
       const json = (await res.json().catch(() => ({}))) as BookResult;
       if (res.status === 201 && json.booking) {
@@ -458,7 +464,7 @@ export function BookingView({
       ]),
     [locale, visitorTz, teamTz],
   );
-  const duration = mode === 'reschedule' ? slotsData?.durationMinutes ?? ctx.durationMinutes : ctx.durationMinutes ?? slotsData?.durationMinutes ?? null;
+  const duration = confirmed || initialActive ? bookedDuration : requestedDuration;
   const graphDegraded = !!slotsData?.graphDegraded;
   const joinUrl = confirmed?.joinUrl || confirmed?.booking?.joinUrl || null;
   const isLoadingSlots =
@@ -920,6 +926,23 @@ export function BookingView({
                       aria-hidden="true"
                     />
                   </div>
+                </div>
+              )}
+
+              {mode === 'select' && durationOptions.length > 1 && (
+                <div className="space-y-2">
+                  <label htmlFor="booking-duration" className={`block text-sm font-semibold ${heading}`}>{t('durationLabel', 'Call duration')}</label>
+                  <select id="booking-duration" value={selectedDuration ?? ''} disabled={!!submittingSlot}
+                    className={`h-11 w-full rounded-lg border px-3 text-sm ${dark ? 'border-white/10 bg-[#0B1220] text-stone-100' : 'border-gray-200 bg-white text-gray-900'}`}
+                    onChange={(event) => {
+                      const next = Number(event.target.value);
+                      if (next === selectedDuration) return;
+                      slotsRequestRef.current += 1;
+                      setReviewSlot(null); setSlotsData(null); setSelectedDate(null); setCalMonth(null); setActionError(null);
+                      setSlotsLoading(true); setSelectedDuration(next);
+                    }}>
+                    {durationOptions.map((n) => <option key={n} value={n}>{n} {t('minutesLabel', 'minutes')}</option>)}
+                  </select>
                 </div>
               )}
 
