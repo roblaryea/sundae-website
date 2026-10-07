@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
 
   const token = request.nextUrl.searchParams.get('token') ?? '';
 
-  let body: { slotStart?: string; idempotencyKey?: string; eventTypeId?: string; discussion?: string } = {};
+  let body: { slotStart?: string; idempotencyKey?: string; eventTypeId?: string; discussion?: string; durationMinutes?: number } = {};
   try {
     body = await request.json();
   } catch {
@@ -65,6 +65,7 @@ export async function POST(request: NextRequest) {
     idempotencyKey: body.idempotencyKey,
     eventTypeId: body.eventTypeId,
     discussion: body.discussion,
+    durationMinutes: body.durationMinutes,
     ip,
     ua,
   });
