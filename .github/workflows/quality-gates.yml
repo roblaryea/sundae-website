@@ -25,6 +25,9 @@ jobs:
       - name: Security audit
         run: npm audit --audit-level=high
 
+      - name: Next lint directory-glob compatibility
+        run: npm run test:lint-glob
+
       - name: Lint
         run: npm run lint
 
