@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   webServer: [
     { command: 'node tests/booking-e2e/backend-fixture.mjs', url: 'http://127.0.0.1:4311/health', reuseExistingServer: false },
-    { command: 'npm run dev -- --hostname 127.0.0.1 --port 4310', url: 'http://127.0.0.1:4310', timeout: 180_000,
+    { command: process.env.BOOKING_E2E_PRODUCTION === '1' ? 'npm run start -- --hostname 127.0.0.1 --port 4310' : 'npm run dev -- --hostname 127.0.0.1 --port 4310', url: 'http://127.0.0.1:4310', timeout: 180_000,
       env: { SUNDAE_BACKEND_URL: 'http://127.0.0.1:4311' }, reuseExistingServer: false },
   ],
 });

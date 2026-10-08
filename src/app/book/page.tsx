@@ -5,6 +5,7 @@
 // NotFound rather than leaking anything.
 
 import Link from 'next/link';
+import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
 import type { Metadata } from 'next';
 import { fetchBookingContext } from '@/lib/sundaeBookingClient';
 import { BookingView } from './BookingView';
@@ -13,6 +14,7 @@ import { normalizeWebsiteLocale, websiteLocaleDirection, type WebsiteLocale } fr
 export const metadata: Metadata = {
   title: 'Book a call · Sundae',
   robots: { index: false, follow: false },
+  referrer: 'no-referrer',
 };
 
 // Tokenised, per-request - never statically cache a booking surface.
@@ -21,19 +23,17 @@ export const dynamic = 'force-dynamic';
 function BookingNotFound({ locale }: { locale: WebsiteLocale }) {
   const dir = websiteLocaleDirection[locale] ?? 'ltr';
   return (
-    <div className="min-h-screen bg-[#020617] text-stone-100 grid place-items-center px-6" dir={dir}>
+    <div className="min-h-screen bg-[var(--navy-deep)] text-[var(--text-primary)] grid place-items-center px-6" dir={dir}>
       <div className="text-center max-w-md">
-        <span className="text-2xl font-extrabold tracking-tight">
-          sundae<span className="text-[#FF5C4D]">.</span>
-        </span>
-        <h1 className="text-xl font-bold mt-6">This booking link has expired</h1>
-        <p className="text-sm text-stone-400 mt-2">
+        <SundaeLogotype className="text-4xl text-[var(--text-display)]" />
+        <h1 className="text-3xl font-display mt-6">This booking link has expired</h1>
+        <p className="text-sm text-[var(--text-secondary)] mt-2">
           The link may have already been used or timed out. Reply to your email from Sundae and
           we&rsquo;ll send a fresh one.
         </p>
         <Link
           href="/contact"
-          className="inline-flex items-center gap-1.5 mt-6 px-5 py-2.5 rounded-xl bg-[#FF5C4D] hover:bg-[#C2410C] text-white text-sm font-bold transition-colors"
+          className="inline-flex items-center gap-1.5 mt-6 px-5 py-2.5 rounded-xl bg-[var(--accent-warm)] hover:bg-[var(--warm-deep)] text-white text-sm font-semibold transition-colors"
         >
           Contact the team
         </Link>
