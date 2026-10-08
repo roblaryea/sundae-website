@@ -27,6 +27,9 @@ jobs:
         # monitored by Dependabot until its upstream glob chain ships a fix.
         run: npm audit --omit=dev --audit-level=high
 
+      - name: Next lint directory-glob compatibility
+        run: npm run test:lint-glob
+
       - name: Lint
         run: npm run lint
 
