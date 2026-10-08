@@ -26,6 +26,7 @@ test('new guest verifies email, chooses duration and timezone, reloads private p
   await page.getByRole('button', { name: 'Confirm booking', exact: true }).click();
   await expect(page).toHaveURL(/\/book\/manage\?id=.*&token=fixture-private/);
   await expect(page.getByRole('heading', { name: 'You’re booked' })).toBeVisible();
+  await expect(page.getByRole('img', { name: 'Sundae', exact: true })).toBeVisible();
   await expect(page.getByText(/could not send the management email/)).toBeVisible();
   let captured = await (await request.get('http://127.0.0.1:4311/captured')).json();
   expect(captured.body.durationMinutes).toBe(90);
@@ -42,6 +43,7 @@ test('new guest verifies email, chooses duration and timezone, reloads private p
   await page.getByRole('button', { name: 'Cancel', exact: true }).click();
   await page.getByRole('button', { name: 'Yes, cancel', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Your call is canceled' })).toBeVisible();
+  await expect(page.getByRole('img', { name: 'Sundae', exact: true })).toBeVisible();
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Your call is canceled' })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
