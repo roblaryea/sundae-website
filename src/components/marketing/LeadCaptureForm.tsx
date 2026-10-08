@@ -1,5 +1,8 @@
 'use client';
 
+import type { PricingIntent } from '@/lib/pricingIntent';
+import { INTENT_TERMS } from '@/lib/pricingIntent';
+import { pricingIntentCopy, pricingOfferNames } from '@/lib/pricingHandoffCopy';
 import React, { useRef, useState, useEffect, type FormEvent } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
@@ -13,6 +16,7 @@ interface LeadCaptureFormProps {
   ctaLabel: string;
   defaultMessage?: string;
   className?: string;
+  pricingIntent?: PricingIntent;
 }
 
 interface FormData {
@@ -229,8 +233,10 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   ctaLabel,
   defaultMessage = '',
   className = '',
+  pricingIntent,
 }) => {
   const { locale } = useWebsiteI18n();
+  const intentCopy = pricingIntentCopy[locale as keyof typeof pricingIntentCopy] ?? pricingIntentCopy.en;
   const copy = formCopy[locale as keyof typeof formCopy] ?? getGeneratedLocalCopy(formCopy, generatedLocalCopy.formCopy, locale) ?? formCopy.en;
   const [formData, setFormData] = useState<FormData>({
     name: '',
@@ -373,6 +379,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
         },
         body: JSON.stringify({
           ...formData,
+          message: pricingIntent ? `${formData.message}\n\nPricing selection (recheck pricing and eligibility before activation): ${JSON.stringify(pricingIntent)}` : formData.message,
           phone: normalizePhoneForStorage(fullPhone),
           ctaLabel,
           sourcePage,
@@ -445,6 +452,17 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   return (
     <div className={`max-w-2xl mx-auto ${className}`}>
       <form onSubmit={handleSubmit} className="space-y-6" noValidate>
+        {pricingIntent && <div className="mb-6 rounded-xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-4 text-sm text-[var(--text-primary)]">
+          <strong>Sundae {pricingIntent.layer === 'both' ? 'Core + Crew' : pricingIntent.layer === 'crew' ? 'Crew' : 'Core'}</strong>
+          <p className="mt-1">{intentCopy.scope}: {pricingIntent.locations}</p>
+          <p className="mt-2 text-xs text-[var(--text-muted)]">{[...(pricingIntent.layer !== 'crew' ? [pricingIntent.corePackage] : []), ...pricingIntent.crewSkus, ...pricingIntent.addOns, ...pricingIntent.watchtowerModules].map((id) => pricingOfferNames[id]).join(' · ')}</p>
+          <p className="mt-1 text-xs text-[var(--text-muted)]">{intentCopy.terms[INTENT_TERMS.indexOf(pricingIntent.billingCycle)]}</p>
+          {pricingIntent.crossIntelligence === 'pro' && <p className="mt-1 text-xs text-[var(--text-muted)]">Cross-Intelligence Pro</p>}
+          {pricingIntent.layer !== 'core' && pricingIntent.employees !== null && <p className="mt-1 text-xs text-[var(--text-muted)]">{intentCopy.workforce}: {pricingIntent.employees}</p>}
+          {pricingIntent.payrollCountry && <p className="mt-1 text-xs text-[var(--text-muted)]">{intentCopy.payroll}: {pricingIntent.payrollCountry}</p>}
+          <p className="mt-2 text-xs text-[var(--text-muted)]">{intentCopy.note}</p>
+        </div>}
+
         <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, overflow: 'hidden' }}>
           <label htmlFor="website_url">{copy.websiteLabel}</label>
           <input id="website_url" name="website_url" type="text" value={honeypot} onChange={(e) => setHoneypot(e.target.value)} tabIndex={-1} autoComplete="off" />
