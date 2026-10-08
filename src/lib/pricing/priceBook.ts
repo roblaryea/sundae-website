@@ -1,5 +1,9 @@
 /**
- * Sundae canonical price book — v1.7.
+ * Sundae canonical price book.
+ *
+ * Internal version labels (e.g. "v1.8.2") belong in commit history and
+ * back-office docs only. Nothing in this file may print one into customer-
+ * visible text or into the model prompt — see tests/price-book-no-version-leak.test.mjs.
  *
  * SINGLE SOURCE OF TRUTH for every price this marketing site renders,
  * computes, or hands to a model. Nothing on the public site may quote a
@@ -17,21 +21,22 @@
  *    Therefore: never render or compute a flat "$X per location" rate for a
  *    banded SKU, and never write "includes N locations" / "base covers 3,
  *    then $X/loc beyond 3". That is the RETIRED v1.6 mechanic and it is
- *    factually wrong under v1.7. A blended average (total ÷ units) may be
+ *    factually wrong under the current price book. A blended average (total ÷ units) may be
  *    shown ONLY when explicitly labelled as an average of the total.
  *
  * 2. THE ELEVEN CORE DOMAIN MODULES ARE PACKAGE COMPONENTS, never
  *    a-la-carte offers. They describe what a Core package INCLUDES. There
  *    is no per-module price on this site.
  *
- * ── Retired in v1.7 (must not be offered or advertised anywhere) ───────
+ * ── Retired (must not be offered or advertised anywhere) ───────────────
  *    report_lite, report_plus, report_pro, core_lite, core_pro
  *    ("Report Lite / Plus / Pro", "Core Lite", "Core Pro").
  *    Those ids may survive ONLY as internal compatibility aliases when
  *    reading an existing subscription — never as something we sell.
  */
 
-export const PRICE_BOOK_VERSION = 'v1.7'
+/** Internal only. Never render this or put it in a prompt. */
+export const PRICE_BOOK_VERSION = 'v1.8.2'
 
 /** Every price in this file is monthly USD unless the field says otherwise. */
 export const PRICE_BOOK_CURRENCY = 'USD'
@@ -63,23 +68,41 @@ export interface MarginalBand {
   monthlyPerUnit: number
 }
 
-/** Band boundaries are identical across every banded SKU in v1.7. */
+/**
+ * Band boundaries are shared by every banded SKU. A SKU publishes a prefix of
+ * this list: Core packages publish all six bands (to 250 locations), Foresight
+ * & Action publishes the first four (to 100).
+ */
 export const MARGINAL_BAND_RANGES = [
   { fromUnit: 2, toUnit: 10 },
   { fromUnit: 11, toUnit: 25 },
   { fromUnit: 26, toUnit: 50 },
   { fromUnit: 51, toUnit: 100 },
+  { fromUnit: 101, toUnit: 150 },
+  { fromUnit: 151, toUnit: 250 },
 ] as const
 
-/** Highest unit index the published bands cover. Above this: talk to us. */
-export const BANDED_UNIT_CEILING = 100
+/**
+ * Highest unit index the Core package bands cover. Above this: talk to us
+ * (250+ locations is an Enterprise agreement). Each SKU's own ceiling is the
+ * last band it publishes — see `bandCeilingFor`.
+ */
+export const BANDED_UNIT_CEILING = 250
 
-function bands(rates: [number, number, number, number]): MarginalBand[] {
-  return MARGINAL_BAND_RANGES.map((range, index) => ({
-    fromUnit: range.fromUnit,
-    toUnit: range.toUnit,
-    monthlyPerUnit: rates[index],
+function bands(rates: number[]): MarginalBand[] {
+  if (rates.length > MARGINAL_BAND_RANGES.length) {
+    throw new Error('More band rates than published band ranges')
+  }
+  return rates.map((rate, index) => ({
+    fromUnit: MARGINAL_BAND_RANGES[index].fromUnit,
+    toUnit: MARGINAL_BAND_RANGES[index].toUnit,
+    monthlyPerUnit: rate,
   }))
+}
+
+/** Highest unit a SKU's published bands cover. */
+export function bandCeilingFor(sku: BandedSku): number {
+  return sku.bands.length > 0 ? sku.bands[sku.bands.length - 1].toUnit : 1
 }
 
 export interface BandedSku {
@@ -87,7 +110,7 @@ export interface BandedSku {
   name: string
   /** Monthly price of the first unit — the anchor. */
   firstUnitMonthly: number
-  /** Marginal monthly rate for units 2-10 / 11-25 / 26-50 / 51-100. */
+  /** Marginal monthly rate per published band (units 2-10, 11-25, 26-50, ...). */
   bands: MarginalBand[]
 }
 
@@ -108,28 +131,28 @@ export const CORE_PACKAGES: CorePackage[] = [
     id: 'core_foundation',
     name: 'Core Foundation',
     firstUnitMonthly: 1195,
-    bands: bands([175, 150, 125, 105]),
+    bands: bands([175, 150, 125, 115, 110, 105]),
     aiCreditWallet: 14_000,
   },
   {
     id: 'core_margin',
     name: 'Core Margin',
     firstUnitMonthly: 1650,
-    bands: bands([245, 210, 175, 145]),
+    bands: bands([245, 210, 175, 165, 155, 145]),
     aiCreditWallet: 16_000,
   },
   {
     id: 'core_growth',
     name: 'Core Growth',
     firstUnitMonthly: 1925,
-    bands: bands([260, 225, 190, 155]),
+    bands: bands([260, 225, 190, 180, 170, 160]),
     aiCreditWallet: 18_000,
   },
   {
     id: 'core_performance',
     name: 'Core Performance',
     firstUnitMonthly: 2980,
-    bands: bands([409, 348, 290, 236]),
+    bands: bands([409, 348, 290, 275, 255, 245]),
     aiCreditWallet: 24_000,
   },
 ]
@@ -140,7 +163,7 @@ export const CORE_PACKAGES_BY_ID: Record<CorePackageId, CorePackage> =
     CorePackage
   >
 
-/** Foresight & Action is banded on the same boundaries as the Core packages. */
+/** Foresight & Action is banded on the same boundaries as the Core packages, to 100 locations. */
 export const FORESIGHT_AND_ACTION: BandedSku = {
   id: 'foresight_action',
   name: 'Foresight & Action',
@@ -211,14 +234,22 @@ export const IMPLEMENTATION_CLASSES: ImplementationClass[] = [
 
 export type BillingCycle = 'monthly' | 'annual' | 'two_year'
 
+/**
+ * Commitment discounts depend on HOW the commitment is paid. The cycle toggle
+ * shows the paid-upfront rates; an annual commitment paid quarterly earns
+ * ANNUAL_QUARTERLY_DISCOUNT instead.
+ */
 export const BILLING_CYCLE_DISCOUNTS: Record<BillingCycle, number> = {
   monthly: 0,
-  annual: 0.1,
-  two_year: 0.15,
+  annual: 0.12,
+  two_year: 0.2,
 }
 
-/** Volume + billing-cycle discounts stack, but never past this ceiling. */
-export const COMBINED_DISCOUNT_CAP = 0.15
+/** Annual commitment paid quarterly (annual paid upfront is BILLING_CYCLE_DISCOUNTS.annual). */
+export const ANNUAL_QUARTERLY_DISCOUNT = 0.05
+
+/** A volume OR a billing-cycle discount applies, never both, and never past this ceiling. */
+export const COMBINED_DISCOUNT_CAP = 0.2
 
 export interface VolumeBand {
   fromUnits: number
@@ -271,9 +302,9 @@ export interface BandedQuote {
   /** Units actually priced by the published bands. */
   pricedUnits: number
   /**
-   * True when `units` exceeds the published band ceiling. The bands stop at
-   * unit 100; above that the marginal rate is not published, so a caller MUST
-   * present "talk to us" rather than extrapolate.
+   * True when `units` exceeds the SKU's published band ceiling (250 for a Core
+   * package, 100 for Foresight & Action). Above that the marginal rate is not
+   * published, so a caller MUST present "talk to us" rather than extrapolate.
    */
   beyondBandedRange: boolean
   /**
@@ -291,7 +322,8 @@ export interface BandedQuote {
  */
 export function bandedMonthlyTotal(sku: BandedSku, units: number): BandedQuote {
   const requested = Math.max(1, Math.floor(units))
-  const pricedUnits = Math.min(requested, BANDED_UNIT_CEILING)
+  const ceiling = bandCeilingFor(sku)
+  const pricedUnits = Math.min(requested, ceiling)
 
   let monthlyTotal = sku.firstUnitMonthly
   for (const band of sku.bands) {
@@ -303,7 +335,7 @@ export function bandedMonthlyTotal(sku: BandedSku, units: number): BandedQuote {
   return {
     monthlyTotal,
     pricedUnits,
-    beyondBandedRange: requested > BANDED_UNIT_CEILING,
+    beyondBandedRange: requested > ceiling,
     blendedAveragePerUnit: Math.round(monthlyTotal / pricedUnits),
   }
 }
@@ -323,13 +355,14 @@ export function volumeDiscountRate(units: number): number | null {
 }
 
 /**
- * Volume + billing-cycle discount, capped at COMBINED_DISCOUNT_CAP.
+ * Discount that applies at checkout: the volume discount OR the billing-cycle
+ * discount, whichever is larger (they do not stack), capped at COMBINED_DISCOUNT_CAP.
  * Returns null when the location count is Enterprise-only (no self-serve rate).
  */
 export function combinedDiscountRate(units: number, cycle: BillingCycle): number | null {
   const volume = volumeDiscountRate(units)
   if (volume === null) return null
-  return Math.min(volume + BILLING_CYCLE_DISCOUNTS[cycle], COMBINED_DISCOUNT_CAP)
+  return Math.min(Math.max(volume, BILLING_CYCLE_DISCOUNTS[cycle]), COMBINED_DISCOUNT_CAP)
 }
 
 /** Implementation is charged once, at the highest class in the selection. */
@@ -351,7 +384,7 @@ export function usd(amount: number): string {
 }
 
 /**
- * "then $175 (2-10) / $150 (11-25) / $125 (26-50) / $105 (51-100) per
+ * "then $175 (2-10) / $150 (11-25) / $125 (26-50) / $115 (51-100) / ... per
  * additional location per month" — the only sanctioned way to render bands
  * as a single line. Never collapses to one flat per-location number.
  */
@@ -383,7 +416,7 @@ export function priceBookForPrompt(): string {
   ).join(' · ')
 
   return [
-    `Sundae price book ${PRICE_BOOK_VERSION} (monthly ${PRICE_BOOK_CURRENCY}).`,
+    `Sundae price book (monthly ${PRICE_BOOK_CURRENCY}).`,
     '',
     'CORE PACKAGES - priced as a FIRST-LOCATION anchor plus MARGINAL bands.',
     'Bands are marginal: crossing a band does NOT reprice earlier locations.',
@@ -393,12 +426,13 @@ export function priceBookForPrompt(): string {
     '',
     `FORESIGHT & ACTION: ${usd(FORESIGHT_AND_ACTION.firstUnitMonthly)} first location, then ${describeBands(FORESIGHT_AND_ACTION)} per ADDITIONAL location/mo.`,
     '',
-    `CREW: ${crew}`,
+    `CREW (first-location monthly price; additional locations are priced on declining bands, so a multi-location total is lower than first-location price x locations — indicative only): ${crew}`,
     `CREW BUNDLES: ${crewBundles}`,
     `CONCEPTS: ${concepts}`,
     '',
     `IMPLEMENTATION (one-off, charged ONCE at the highest class in the selection): ${implementation}`,
-    `BILLING CYCLE: annual 10% · 2-year 15%. Volume + cycle discounts combined are capped at ${COMBINED_DISCOUNT_CAP * 100}%.`,
+    `BILLING CYCLE: annual paid upfront ${BILLING_CYCLE_DISCOUNTS.annual * 100}% (annual paid quarterly ${ANNUAL_QUARTERLY_DISCOUNT * 100}%) · 2-year paid upfront ${BILLING_CYCLE_DISCOUNTS.two_year * 100}%. A volume discount OR a billing-cycle discount applies - whichever is larger, never both - capped at ${COMBINED_DISCOUNT_CAP * 100}%.`,
+    `PUBLISHED BANDS: Core packages to ${BANDED_UNIT_CEILING} locations, Foresight & Action to ${bandCeilingFor(FORESIGHT_AND_ACTION)}. Beyond that is quoted - never extrapolate.`,
     `VOLUME LADDER: ${volume}`,
     '',
     'The eleven Core domain modules (Labor, Inventory, Purchasing, Marketing,',

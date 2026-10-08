@@ -28,7 +28,8 @@
     "positioning:generate": "node scripts/generate-positioning-locales.mjs && node scripts/sync-positioning-hotfix.mjs",
     "quality": "npm run lint && npm run test:diagnostic-lead && npm run test:observability && npm run test:seo && npm run test:booking && npm run lead:preflight && npm run qa:blog-copy && npm run qa:blog-locales && npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning && npm run qa:page-copy && npm run build",
     "qa:reduced-motion": "node scripts/qa-reduced-motion.mjs",
-    "qa:fixed-position": "node scripts/qa-fixed-containing-block.mjs"
+    "qa:fixed-position": "node scripts/qa-fixed-containing-block.mjs",
+    "test:pricing": "node --test tests/price-book.test.mjs"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.81",
