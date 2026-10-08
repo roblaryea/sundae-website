@@ -103,7 +103,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Do I need a long-term contract?',
           content:
-            'No. Every package is available month to month and you can cancel without penalty. Annual and 2-year commitments exist because they cost less - 10% and 15% off - not because they are required.',
+            'No. Every package is available month to month and you can cancel without penalty. Annual and 2-year commitments exist because they cost less - 12% off an annual commitment paid upfront (5% if paid quarterly) and 20% off a 2-year commitment paid upfront - not because they are required.',
         },
       ],
     },
@@ -463,7 +463,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'هل أحتاج إلى عقد طويل الأجل؟',
           content:
-            'لا. كل باقة متاحة شهريًا ويمكنك الإلغاء دون غرامة. الالتزام السنوي ولمدة سنتين موجود لأنه أقل تكلفة - خصم 10% و15% - لا لأنه إلزامي.',
+            'لا. كل باقة متاحة شهريًا ويمكنك الإلغاء دون غرامة. الالتزام السنوي ولمدة سنتين موجود لأنه أقل تكلفة - خصم 12% للالتزام السنوي المدفوع مقدمًا (5% عند الدفع ربع سنويًا) و20% للالتزام لسنتين المدفوع مقدمًا - لا لأنه إلزامي.',
         },
       ],
     },
@@ -823,7 +823,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'Dois-je signer un contrat long terme ?',
           content:
-            'Non. Chaque offre est disponible au mois et résiliable sans pénalité. Les engagements annuel et 2 ans existent parce qu’ils coûtent moins cher - 10 % et 15 % de remise - pas parce qu’ils sont obligatoires.',
+            'Non. Chaque offre est disponible au mois et résiliable sans pénalité. Les engagements annuel et 2 ans existent parce qu’ils coûtent moins cher - 12 % de remise sur l’annuel payé d’avance (5 % s’il est payé chaque trimestre) et 20 % sur le 2 ans payé d’avance - pas parce qu’ils sont obligatoires.',
         },
       ],
     },
@@ -1183,7 +1183,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: '¿Necesito un contrato a largo plazo?',
           content:
-            'No. Cada paquete está disponible mes a mes y puedes cancelar sin penalización. Los compromisos anual y de 2 años existen porque cuestan menos - 10% y 15% de descuento - no porque sean obligatorios.',
+            'No. Cada paquete está disponible mes a mes y puedes cancelar sin penalización. Los compromisos anual y de 2 años existen porque cuestan menos - 12% de descuento en el anual pagado por adelantado (5% si se paga trimestralmente) y 20% en el de 2 años pagado por adelantado - no porque sean obligatorios.',
         },
       ],
     },

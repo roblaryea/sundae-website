@@ -65,35 +65,36 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 
 ---
 
-## Core Packages (price book v1.7)
+## Core Packages
 
 > Source: `src/lib/pricing/priceBook.ts` — the canonical price book for this site.
 > The previous table here listed the Report Lite/Plus/Pro and Core Lite/Pro
-> ladder, which v1.7 retires. Those SKUs must never be quoted or advertised.
+> ladder, which is retired. Those SKUs must never be quoted or advertised.
 
 Core packages are **banded**: a first-location anchor plus a **marginal** rate
 for each additional location. Crossing a band does NOT reprice the locations
 below it, and a banded SKU has **no included locations** — never write
 "covers N locations" or "$X per location beyond N".
 
-| Package | First location | 2-10 | 11-25 | 26-50 | 51-100 | AI credits/mo |
-|---|---|---|---|---|---|---|
-| Core Foundation | $1,195 | $175 | $150 | $125 | $105 | 14,000 |
-| Core Margin | $1,650 | $245 | $210 | $175 | $145 | 16,000 |
-| Core Growth | $1,925 | $260 | $225 | $190 | $155 | 18,000 |
-| Core Performance | $2,980 | $409 | $348 | $290 | $236 | 24,000 |
+| Package | First location | 2-10 | 11-25 | 26-50 | 51-100 | 101-150 | 151-250 | AI credits/mo |
+|---|---|---|---|---|---|---|---|---|
+| Core Foundation | $1,195 | $175 | $150 | $125 | $115 | $110 | $105 | 14,000 |
+| Core Margin | $1,650 | $245 | $210 | $175 | $165 | $155 | $145 | 16,000 |
+| Core Growth | $1,925 | $260 | $225 | $190 | $180 | $170 | $160 | 18,000 |
+| Core Performance | $2,980 | $409 | $348 | $290 | $275 | $255 | $245 | 24,000 |
 
 **Worked example:** 5 Core Foundation locations = 1,195 + 4 × 175 = **$1,895/mo**
 (a $379 blended average of the total — not a rate).
 
 **Foresight & Action:** $495 first location, then $65 / $55 / $45 / $35 per
-additional location across the same bands.
+additional location across the first four bands (to 100 locations).
 
-**Above 100 locations:** the published bands stop. Enterprise, quoted.
+**Above 250 locations (Core) / 100 locations (Foresight & Action):** the published bands stop. Enterprise, quoted.
 
-**Billing cycle:** annual 10%, two-year 15%. Volume: 0% under 50, 2.5% at 50-99,
-5% at 100-199, 7% at 200-249, 250+ Enterprise. Volume and cycle discounts stack
-but are capped at **15% combined**.
+**Billing cycle:** annual paid upfront 12% (5% if paid quarterly), two-year paid
+upfront 20%. Volume: 0% under 50, 2.5% at 50-99, 5% at 100-199, 7% at 200-249,
+250+ Enterprise. A volume discount OR a billing-cycle discount applies - whichever
+is larger, never both - capped at **20%**.
 
 **Implementation:** charged **once**, at the highest class in the selection —
 never summed. $0 self-service / $1,500 A / $2,500 B / $7,500 C / from $12,500 D.
