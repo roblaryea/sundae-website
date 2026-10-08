@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
-import { Analytics } from "@vercel/analytics/next";
+import { PrivacyAwareAnalytics } from "@/components/PrivacyAwareAnalytics";
 import { BotIdClient } from "botid/client";
 import "./globals.css";
 import { WebsiteChrome } from "@/components/WebsiteChrome";
@@ -240,7 +240,7 @@ export default async function RootLayout({
           <LocaleProvider initialLocale={locale}>
             <ThemeProvider>
               <WebsiteChrome>{children}</WebsiteChrome>
-              <Analytics />
+              <PrivacyAwareAnalytics />
               <CookieConsent initialConsent={initialConsent} />
             </ThemeProvider>
           </LocaleProvider>
