@@ -10,7 +10,7 @@ import { parseWebsiteLocaleFromPathname } from '@/lib/i18n';
 /** Root layouts persist across client navigation, so chrome must follow the live route. */
 export function WebsiteChrome({ children }: { children: ReactNode }) {
   const { pathname } = parseWebsiteLocaleFromPathname(usePathname());
-  if (pathname === '/book') {
+  if (pathname === '/book' || pathname.startsWith('/book/')) {
     return <div id="main-content" className="min-h-screen">{children}</div>;
   }
   return <>

@@ -83,13 +83,14 @@ interface BackendResult<T> {
  * REQUEST_TIMEOUT_MS. Never throws — transport failures resolve to
  * `{ ok: false, status: 0, error }`, mirroring sundaeLeadClient.
  */
-async function callBackend<T = Record<string, unknown>>(
+export async function callBackend<T = Record<string, unknown>>(
   path: string,
-  init?: RequestInit
+  init?: RequestInit,
+  timeoutMs = REQUEST_TIMEOUT_MS
 ): Promise<BackendResult<T>> {
   const url = `${getBackendUrl()}${path}`;
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
     const resp = await fetch(url, {

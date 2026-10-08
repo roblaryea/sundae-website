@@ -2,7 +2,7 @@
 
 import { Suspense, useEffect, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { initPostHog, trackPageView } from "@/lib/posthog";
+import { initPostHog, trackPageView, protectBookingPrivacy } from "@/lib/posthog";
 import { hasConsent } from "@/components/CookieConsent";
 
 /**
@@ -20,6 +20,7 @@ function PostHogPageView({ consentGiven }: { consentGiven: boolean }) {
 
   useEffect(() => {
     if (!consentGiven || !pathname) return;
+    protectBookingPrivacy(pathname);
     const url = searchParams?.toString() ? `${pathname}?${searchParams.toString()}` : pathname;
     trackPageView(window.location.origin + url);
   }, [pathname, searchParams, consentGiven]);
