@@ -23,6 +23,8 @@ export interface BookingSummary {
   endAt: string | null;
   timezone: string;
   joinUrl: string | null;
+  eventTypeId?: string | null;
+  eventTypeName?: string | null;
 }
 
 export interface BookingContext {
@@ -30,10 +32,13 @@ export interface BookingContext {
   company: string | null;
   email: string;
   durationMinutes: number | null;
+  durationOptions?: number[];
   teamTimezone: string | null;
   locale: string | null;
   offering: string;
   activeBooking: BookingSummary | null;
+  eventTypeId?: string;
+  bookingQuestion?: { label: string; required: boolean; enabled: boolean } | null;
 }
 
 export interface Slot {
@@ -55,6 +60,8 @@ export interface BookingConfirmation {
   joinUrl: string;
   manageToken: string | null;
   ics: string;
+  googleCalendarUrl?: string;
+  outlookCalendarUrl?: string;
 }
 
 const DEFAULT_BACKEND_URL = 'https://api.sundaetech.ai';
@@ -76,13 +83,14 @@ interface BackendResult<T> {
  * REQUEST_TIMEOUT_MS. Never throws — transport failures resolve to
  * `{ ok: false, status: 0, error }`, mirroring sundaeLeadClient.
  */
-async function callBackend<T = Record<string, unknown>>(
+export async function callBackend<T = Record<string, unknown>>(
   path: string,
-  init?: RequestInit
+  init?: RequestInit,
+  timeoutMs = REQUEST_TIMEOUT_MS
 ): Promise<BackendResult<T>> {
   const url = `${getBackendUrl()}${path}`;
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
     const resp = await fetch(url, {
@@ -120,10 +128,11 @@ function tokenQuery(token: string): string {
 }
 
 export async function fetchBookingContext(
-  token: string
+  token: string,
+  eventType = 'discovery'
 ): Promise<{ ok: boolean; status: number; context?: BookingContext; error?: string }> {
   const result = await callBackend<BookingContext>(
-    `/api/v1/public/marketing/bookings/context?${tokenQuery(token)}`
+    `/api/v1/public/marketing/bookings/context?${tokenQuery(token)}&eventType=${encodeURIComponent(eventType)}`
   );
 
   if (!result.ok) {
@@ -146,7 +155,10 @@ export async function fetchSlots(
   token: string,
   tz: string,
   from: string,
-  to: string
+  to: string,
+  eventType = 'discovery',
+  bookingId?: string,
+  durationMinutes?: string
 ): Promise<{
   ok: boolean;
   status: number;
@@ -159,7 +171,10 @@ export async function fetchSlots(
   graphDegraded?: boolean;
   error?: string;
 }> {
-  const query = new URLSearchParams({ token, tz, from, to }).toString();
+  const params = new URLSearchParams({ token, tz, from, to, eventType });
+  if (bookingId) params.set('bookingId', bookingId);
+  if (durationMinutes !== undefined) params.set('durationMinutes', durationMinutes);
+  const query = params.toString();
   const result = await callBackend<SlotsBackendResponse>(
     `/api/v1/public/marketing/bookings/slots?${query}`
   );
@@ -185,7 +200,7 @@ export async function fetchSlots(
 export async function createBooking(
   token: string,
   slotStart: string,
-  opts?: { idempotencyKey?: string; ip?: string; ua?: string }
+  opts?: { idempotencyKey?: string; ip?: string; ua?: string; eventTypeId?: string; discussion?: string; durationMinutes?: number }
 ): Promise<{
   ok: boolean;
   status: number;
@@ -193,6 +208,8 @@ export async function createBooking(
   joinUrl?: string;
   manageToken?: string | null;
   ics?: string;
+  googleCalendarUrl?: string;
+  outlookCalendarUrl?: string;
   error?: string;
 }> {
   const headers: Record<string, string> = { 'Content-Type': 'application/json' };
@@ -206,6 +223,9 @@ export async function createBooking(
       headers,
       body: JSON.stringify({
         slotStart,
+        eventTypeId: opts?.eventTypeId,
+        discussion: opts?.discussion,
+        durationMinutes: opts?.durationMinutes,
         ...(opts?.idempotencyKey ? { idempotencyKey: opts.idempotencyKey } : {}),
       }),
     }
@@ -223,6 +243,8 @@ export async function createBooking(
     joinUrl: body.joinUrl,
     manageToken: body.manageToken,
     ics: body.ics,
+    googleCalendarUrl: body.googleCalendarUrl,
+    outlookCalendarUrl: body.outlookCalendarUrl,
   };
 }
 
@@ -236,9 +258,11 @@ export async function rescheduleBooking(
   booking?: BookingSummary;
   joinUrl?: string;
   ics?: string;
+  googleCalendarUrl?: string;
+  outlookCalendarUrl?: string;
   error?: string;
 }> {
-  const result = await callBackend<{ booking: BookingSummary; joinUrl: string; ics: string }>(
+  const result = await callBackend<BookingConfirmation>(
     `/api/v1/public/marketing/bookings/${encodeURIComponent(id)}/reschedule?${tokenQuery(manageToken)}`,
     {
       method: 'POST',
@@ -258,6 +282,8 @@ export async function rescheduleBooking(
     booking: body.booking,
     joinUrl: body.joinUrl,
     ics: body.ics,
+    googleCalendarUrl: body.googleCalendarUrl,
+    outlookCalendarUrl: body.outlookCalendarUrl,
   };
 }
 

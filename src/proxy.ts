@@ -72,6 +72,11 @@ export function proxy(request: NextRequest) {
     sameSite: 'lax',
   })
 
+  if (internalPathname === '/book' || internalPathname.startsWith('/book/')) {
+    response.headers.set('Referrer-Policy', 'no-referrer')
+    response.headers.set('Cache-Control', 'no-store')
+  }
+
   return response
 }
 

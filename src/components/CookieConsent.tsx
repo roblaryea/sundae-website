@@ -7,6 +7,7 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { localizeWebsiteHref, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_CookieConsent'
+import { isBookingUrl } from '@/lib/booking/privacy';
 
 const CONSENT_KEY = "sundae_cookie_consent";
 
@@ -80,6 +81,11 @@ export function hasConsent(): boolean {
 function loadGA4() {
   const ga4Id = process.env.NEXT_PUBLIC_GA4_ID;
   if (!ga4Id || typeof window === "undefined") return;
+  if (isBookingUrl(window.location.href) || isBookingUrl(document.referrer)) {
+    disableBookingAnalytics();
+    return;
+  }
+  if ((window as unknown as Record<string, unknown>)[`ga-disable-${ga4Id}`]) return;
 
   if (document.querySelector(`script[src*="googletagmanager.com/gtag/js?id=${ga4Id}"]`)) return;
 
@@ -93,7 +99,22 @@ function loadGA4() {
   // @ts-expect-error gtag global
   function gtag(...args: unknown[]) { window.dataLayer.push(args); }
   gtag("js", new Date());
-  gtag("config", ga4Id, { page_path: window.location.pathname });
+  // Booking paths carry credentials. Do not delegate automatic/history-based
+  // page views to the external tag; the privacy-aware website analytics owns them.
+  gtag("config", ga4Id, { send_page_view: false });
+  gtag("event", "page_view", {
+    page_location: window.location.href,
+    page_referrer: document.referrer,
+    page_title: document.title,
+  });
+}
+
+function disableBookingAnalytics() {
+  const ga4Id = process.env.NEXT_PUBLIC_GA4_ID;
+  if (ga4Id && typeof window !== 'undefined') {
+    // A private booking session stays opted out even after leaving that page.
+    (window as unknown as Record<string, unknown>)[`ga-disable-${ga4Id}`] = true;
+  }
 }
 
 function dispatchConsentEvent(status: ConsentStatus) {
@@ -115,6 +136,7 @@ function subscribeConsent(onStoreChange: () => void): () => void {
 export function CookieConsent({ initialConsent = null }: { initialConsent?: ConsentStatus }) {
   const { locale } = useWebsiteI18n();
   const pathname = usePathname();
+  const bookingPage = isBookingUrl(pathname);
   const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? getGeneratedLocalCopy(cookieConsentCopy, generatedLocalCopy.cookieConsentCopy, locale) ?? cookieConsentCopy.en;
   // Read consent via useSyncExternalStore. getServerSnapshot returns the value
   // the SERVER read from the mirrored consent cookie (initialConsent), so the
@@ -124,10 +146,31 @@ export function CookieConsent({ initialConsent = null }: { initialConsent?: Cons
   const consent = useSyncExternalStore(subscribeConsent, getConsentStatus, () => initialConsent);
 
   useEffect(() => {
+    if (bookingPage || isBookingUrl(document.referrer)) {
+      disableBookingAnalytics();
+      return;
+    }
     if (getConsentStatus() === "accepted") {
       loadGA4();
       dispatchConsentEvent("accepted");
     }
+  }, [bookingPage]);
+
+  useEffect(() => {
+    // Disable before client navigation can change the URL. Popstate and the
+    // route effect cover back/forward and programmatic navigation as well.
+    const onClick = (event: MouseEvent) => {
+      const target = event.target;
+      const link = target instanceof Element ? target.closest('a[href]') : null;
+      if (link && isBookingUrl((link as HTMLAnchorElement).href)) disableBookingAnalytics();
+    };
+    const onPopState = () => { if (isBookingUrl(window.location.href)) disableBookingAnalytics(); };
+    document.addEventListener('click', onClick, true);
+    window.addEventListener('popstate', onPopState);
+    return () => {
+      document.removeEventListener('click', onClick, true);
+      window.removeEventListener('popstate', onPopState);
+    };
   }, []);
 
   const handleAccept = useCallback(() => {
@@ -143,7 +186,9 @@ export function CookieConsent({ initialConsent = null }: { initialConsent?: Cons
     dispatchConsentEvent("declined");
   }, []);
 
-  if (consent !== null || pathname === "/tiktok-review") return null;
+  // Booking routes use only essential scheduling state and suppress analytics;
+  // a marketing consent prompt is irrelevant and can obscure mobile actions.
+  if (bookingPage || consent !== null || pathname === "/tiktok-review") return null;
 
   return (
     <div

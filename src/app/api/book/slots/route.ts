@@ -20,6 +20,6 @@ export async function GET(request: NextRequest) {
   const from = params.get('from') ?? '';
   const to = params.get('to') ?? '';
 
-  const result = await fetchSlots(token, tz, from, to);
+  const result = await fetchSlots(token, tz, from, to, params.get('eventType') || 'discovery', params.get('bookingId') || undefined, params.get('durationMinutes') ?? undefined);
   return NextResponse.json(result, { status: result.status || 502 });
 }
