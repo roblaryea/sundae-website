@@ -4,7 +4,7 @@
  * App-styled, token-gated booking surface. Renders as a self-contained
  * full-viewport screen (fixed inset-0) so it reads like an in-product Sundae
  * screen - independent of the marketing site's chrome/theme - mirroring the
- * diagnostic report shell (wordmark + coral dot, working light/dark, rounded-2xl
+ * diagnostic report shell (brand lockup, working light/dark, rounded-2xl
  * cards, coral CTAs).
  *
  * Flow: detect the visitor's time zone -> load live slots from the same-origin
@@ -48,7 +48,7 @@ import {
 } from '@/lib/booking/timezones';
 import type { BookingContext, Slot, BookingDay, BookingSummary } from '@/lib/sundaeBookingClient';
 import type { PersonalBookingContext } from '@/lib/personalBookingClient';
-import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
+import { BookingBrand } from './BookingBrand';
 import { useTheme } from '@/components/ui/ThemeProvider';
 import { useRouter } from 'next/navigation';
 
@@ -852,9 +852,7 @@ function BookingState({
       <header className="shrink-0 border-b bg-[var(--navy-deep)] border-[var(--border-default)]">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2.5 min-w-0">
-            <span className="text-lg font-extrabold tracking-tight">
-              <SundaeLogotype className="text-3xl text-[var(--text-display)]" />
-            </span>
+            <BookingBrand />
             <span
               className={`hidden sm:inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider px-2 py-1 rounded-full ${chip}`}
             >
