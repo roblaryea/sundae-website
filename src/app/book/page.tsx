@@ -5,7 +5,7 @@
 // NotFound rather than leaking anything.
 
 import Link from 'next/link';
-import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
+import { BookingBrand } from './BookingBrand';
 import type { Metadata } from 'next';
 import { fetchBookingContext } from '@/lib/sundaeBookingClient';
 import { BookingView } from './BookingView';
@@ -25,7 +25,7 @@ function BookingNotFound({ locale }: { locale: WebsiteLocale }) {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)] text-[var(--text-primary)] grid place-items-center px-6" dir={dir}>
       <div className="text-center max-w-md">
-        <SundaeLogotype className="text-4xl text-[var(--text-display)]" />
+        <BookingBrand centered />
         <h1 className="text-3xl font-display mt-6">This booking link has expired</h1>
         <p className="text-sm text-[var(--text-secondary)] mt-2">
           The link may have already been used or timed out. Reply to your email from Sundae and
