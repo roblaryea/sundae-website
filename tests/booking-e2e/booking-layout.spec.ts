@@ -31,7 +31,7 @@ for (const width of [375, 390, 768, 1280]) {
       expect(calBox.y + calBox.height).toBeLessThanOrEqual(812);
     }
     const day = page.getByRole('button', { name: 'Wednesday, Oct 28', exact: true });
-    expect((await day.boundingBox())!.height).toBe(44);
+    expect((await day.boundingBox())!.height).toBe(width >= 640 ? 48 : 44);
     await day.click();
     await expect(times.getByRole('heading')).toHaveText('Wednesday, Oct 28');
     await expect(times.getByRole('button').first()).toBeInViewport();
