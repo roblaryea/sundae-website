@@ -77,7 +77,7 @@ test('Arabic personal visitor verifies email with translated controls and RTL la
   await page.getByLabel('عنوان البريد الإلكتروني', { exact: true }).fill('robbyl84@gmail.com');
   await page.getByRole('button', { name: 'إرسال رمز التحقق', exact: true }).click();
   await expect(page.getByLabel('رمز التحقق', { exact: true })).toBeVisible();
-  await expect(page.locator('[dir="rtl"]').filter({ has: page.getByLabel('رمز التحقق', { exact: true }) })).toHaveCount(1);
+  await expect(page.locator('[data-booking-shell]')).toHaveAttribute('dir', 'rtl');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: test.info().outputPath('personal-arabic.png'), fullPage: true });
 });

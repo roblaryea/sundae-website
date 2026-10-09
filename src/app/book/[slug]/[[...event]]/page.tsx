@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { fetchPersonalContext } from '@/lib/personalBookingClient';
 import { BookingView } from '../../BookingView';
 import { BookingUnavailable } from '../../BookingUnavailable';
-import { normalizeWebsiteLocale } from '@/lib/i18n';
+import { resolveBookingLocale } from '@/lib/booking/locales';
 import { cookies } from 'next/headers';
-import { resolveWebsiteLocale } from '@/lib/i18n';
+import { WEBSITE_LOCALE_COOKIE } from '@/lib/i18n';
 
 export const metadata: Metadata = { title: 'Book a call · Sundae', robots: { index: false, follow: false }, referrer: 'no-referrer' };
 export const dynamic = 'force-dynamic';
@@ -13,7 +13,7 @@ export default async function PersonalBookPage({ params, searchParams }: {
   searchParams: Promise<{ locale?: string }>;
 }) {
   const [{ slug, event }, { locale: rawLocale }] = await Promise.all([params, searchParams]);
-  const locale = rawLocale ? normalizeWebsiteLocale(rawLocale) : resolveWebsiteLocale(await cookies());
+  const locale = resolveBookingLocale(rawLocale || (await cookies()).get(WEBSITE_LOCALE_COOKIE)?.value);
   if ((event?.length || 0) > 1) return <BookingUnavailable locale={locale} />;
   const result = await fetchPersonalContext(slug, event?.[0]);
   if (!result.ok) return <BookingUnavailable locale={locale} />;

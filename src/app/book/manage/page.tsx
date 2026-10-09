@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { fetchManagedPersonalContext } from '@/lib/personalBookingClient';
-import { normalizeWebsiteLocale } from '@/lib/i18n';
+import { resolveBookingLocale } from '@/lib/booking/locales';
 import { cookies } from 'next/headers';
-import { resolveWebsiteLocale } from '@/lib/i18n';
+import { WEBSITE_LOCALE_COOKIE } from '@/lib/i18n';
 import { BookingView } from '../BookingView';
 import { BookingUnavailable } from '../BookingUnavailable';
 
@@ -12,7 +12,7 @@ export default async function ManagePersonalBooking({ searchParams }: {
   searchParams: Promise<{ id?: string; token?: string; locale?: string }>;
 }) {
   const query = await searchParams;
-  const locale = query.locale ? normalizeWebsiteLocale(query.locale) : resolveWebsiteLocale(await cookies());
+  const locale = resolveBookingLocale(query.locale || (await cookies()).get(WEBSITE_LOCALE_COOKIE)?.value);
   if (!query.id || !query.token) return <BookingUnavailable locale={locale} />;
   const result = await fetchManagedPersonalContext(query.id, query.token);
   if (!result.ok) return <BookingUnavailable locale={locale} />;
