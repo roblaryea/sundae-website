@@ -56,6 +56,27 @@ export const SIGNIN_URL = `${APP_URL}/sign-in`;
 /** Sign up URL - derived from APP_URL */
 export const SIGNUP_URL = `${APP_URL}/sign-up`;
 
+/** Keep an internal post-auth destination when crossing from the website to the app. */
+export function appAuthUrl(authUrl: string, returnUrl: unknown): string {
+  if (typeof returnUrl !== 'string' || returnUrl.length > 6000 ||
+    !returnUrl.startsWith('/') || returnUrl.startsWith('//') ||
+    /[\\\u0000-\u001f\u007f]/.test(returnUrl)) return authUrl;
+  try {
+    const appOrigin = new URL(APP_URL).origin;
+    const destination = new URL(returnUrl, appOrigin);
+    // Encoded separators/control characters must not become an external URL
+    // when a later auth step decodes the path.
+    const decodedPath = decodeURIComponent(destination.pathname);
+    if (destination.origin !== appOrigin || decodedPath.startsWith('//') ||
+      /[\\\u0000-\u001f\u007f]/.test(decodedPath)) return authUrl;
+    const url = new URL(authUrl);
+    url.searchParams.set('returnUrl', returnUrl);
+    return url.toString();
+  } catch {
+    return authUrl;
+  }
+}
+
 /**
  * Back-link to marketing site (for use from the app project).
  * Alias kept explicit so the app codebase can import MARKETING_URL
