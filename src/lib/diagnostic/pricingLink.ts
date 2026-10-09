@@ -10,6 +10,7 @@
  */
 
 import type { DiagnosticResponses, DiagnosticReport } from "./engine";
+import { encodePricingIntent, type PricingIntent } from "../pricingIntent";
 
 const SIM_BASE = "https://pricing.sundae.io";
 
@@ -17,44 +18,7 @@ const OUTLET_TO_LOCATIONS: Record<string, number> = {
   "1": 1, "2_5": 4, "6_15": 10, "16_50": 33, "51_150": 100, "150_plus": 200,
 };
 
-// diagnostic kpis_wished value → pricing-simulator module id. Unmapped wishes
-// (benchmark, watchtower, foresight, cross-cutting) are handled elsewhere or
-// skipped. Simulator module ids: labor, inventory, marketing, purchasing,
-// reservations, profit, revenue, delivery, guest, accounting, guest_crm, economic.
-const KPI_TO_MODULE: Record<string, string> = {
-  real_time_margin: "labor", daypart_leak: "labor", labor_productivity: "labor",
-  live_labor_vs_demand: "labor", overtime_leakage: "labor", scheduling_eff: "labor",
-  payroll_readiness: "labor", gratuity_distribution: "labor", speed_of_service: "labor",
-  daypart_revpash: "revenue", cannibalization: "revenue", server_upsell: "revenue",
-  cash_variance: "revenue",
-  hourly_food_cost: "inventory", theoretical_actual: "inventory",
-  inventory_shrinkage: "inventory", food_waste: "inventory",
-  item_profitability: "profit", menu_engineering: "profit",
-  promo_roi: "marketing",
-  delivery_margin: "delivery",
-  guest_ltv: "guest_crm", cohort_retention: "guest_crm", guest_sentiment: "guest_crm",
-  noshow_prediction: "reservations",
-};
-
-// diagnostic ops_tools value → simulator module id (coarse).
-const OPS_TOOL_TO_MODULE: Record<string, string> = {
-  purchasing: "purchasing", reservations: "reservations", crm: "guest_crm",
-};
-
-const MAX_MODULES = 6;
-
-export interface SimPrefill {
-  v: 1;
-  layer: "report" | "core";
-  tier: "lite" | "pro";
-  locations: number;
-  modules: string[];
-  watchtower: boolean;
-  crewSkus: string[];
-}
-
-const arr = (v: string | string[] | undefined): string[] =>
-  Array.isArray(v) ? v : v ? [v] : [];
+export type SimPrefill = PricingIntent;
 
 function crewSkusFromStack(report: DiagnosticReport): string[] {
   const crew = report.recommendedStack.find((s) => s.layer === "crew");
@@ -78,67 +42,25 @@ export function buildSimPrefill(
   );
   const locations = OUTLET_TO_LOCATIONS[outletKey] ?? 1;
 
-  // COMPATIBILITY ALIAS — NOT AN OFFER.
-  //
-  // `layer`/`tier` are the wire format the external pricing simulator
-  // (sundae-pricing, pricing.sundae.io) reads out of the `cfg` param. Those
-  // token values are that app's vocabulary, not v1.7 catalogue keys, and this
-  // site never renders them. They are left as-is deliberately: changing the
-  // wire format here without shipping the matching reader change in the
-  // simulator repo would silently break the prefill.
-  //
-  // The simulator itself still has to be cut over to price book v1.7 — until
-  // it is, it will quote its own (retired) ladder regardless of what we send.
-  const layer: SimPrefill["layer"] = locations <= 1 ? "report" : "core";
-  const tier: SimPrefill["tier"] = locations >= 16 ? "pro" : layer === "report" ? "pro" : "lite";
-
-  // Modules only apply on the Core path.
-  const modules: string[] = [];
-  if (layer === "core") {
-    const seen = new Set<string>();
-    for (const w of arr(responses.kpis_wished)) {
-      const m = KPI_TO_MODULE[w];
-      if (m && !seen.has(m)) { seen.add(m); modules.push(m); }
-    }
-    for (const t of arr(responses.ops_tools)) {
-      const m = OPS_TOOL_TO_MODULE[t];
-      if (m && !seen.has(m)) { seen.add(m); modules.push(m); }
-    }
-  }
-
-  const watchtower = report.recommendedStack.some((s) => s.layer === "watchtower");
-
+  const core = report.recommendedStack.find((s) => s.layer === 'core');
+  const label = core?.label ?? '';
+  const corePackage = /performance/i.test(label) ? 'core_performance'
+    : /growth/i.test(label) ? 'core_growth' : /margin/i.test(label) ? 'core_margin' : 'core_foundation';
+  const crewSkus = crewSkusFromStack(report) as PricingIntent['crewSkus'];
+  const watchtower = report.recommendedStack.some((s) => s.layer === 'watchtower') && ['core_growth','core_performance'].includes(corePackage);
   return {
-    v: 1,
-    layer,
-    tier,
-    locations,
-    modules: modules.slice(0, MAX_MODULES),
-    watchtower,
-    crewSkus: crewSkusFromStack(report),
+    v: 2, layer: crewSkus.length ? (core ? 'both' : 'crew') : 'core', corePackage,
+    locations, addOns: [], crewSkus, watchtowerModules: watchtower ? ['bundle'] : [],
+    crossIntelligence: 'none', billingCycle: 'monthly', operatingModels: [], employees: null, payrollCountry: '',
   };
-}
-
-// Base64url encode (cfg is pure ASCII: ids + numbers, so btoa is safe).
-function encodeCfg(prefill: SimPrefill): string {
-  const json = JSON.stringify(prefill);
-  const b64 = typeof btoa !== "undefined"
-    ? btoa(json)
-    : Buffer.from(json, "utf8").toString("base64");
-  return b64.replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
 export function buildPricingSimUrl(
   responses: DiagnosticResponses,
   report: DiagnosticReport,
-  leadData: { email: string; name: string; company: string; country: string },
+  ..._unusedLeadContext: [{ email: string; name: string; company: string; country: string }]
 ): string {
-  const params = new URLSearchParams({
-    cfg: encodeCfg(buildSimPrefill(responses, report)),
-    email: leadData.email,
-    name: leadData.name,
-    company: leadData.company || "",
-    country: leadData.country,
-  });
+  void _unusedLeadContext; // Contact details belong in the lead record, never the simulator URL.
+  const params = new URLSearchParams({ cfg: encodePricingIntent(buildSimPrefill(responses, report)) });
   return `${SIM_BASE}/simulator?${params.toString()}`;
 }
