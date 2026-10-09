@@ -733,10 +733,10 @@ function BookingState({
       : 'grid place-items-center w-11 h-11 rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-default';
 
     return (
-      <div data-booking-calendar-grid className="grid items-start gap-4 sm:grid-cols-[minmax(0,1fr)_minmax(160px,0.65fr)]">
+      <div data-booking-calendar-grid className="grid items-start gap-4 sm:gap-6 sm:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]">
         {/* Month calendar */}
-        <div data-booking-calendar className={`min-w-0 rounded-2xl border p-2 sm:p-4 ${cardCls}`}>
-          <div className="flex items-center justify-between gap-2 mb-3">
+        <div data-booking-calendar className={`min-w-0 rounded-2xl border p-2 sm:p-5 ${cardCls}`}>
+          <div className="flex items-center justify-between gap-2 mb-3 sm:mb-4">
             <button
               type="button"
               onClick={() => canPrev && setCalMonth(shiftMonth(-1))}
@@ -757,9 +757,9 @@ function BookingState({
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
-          <div className={`grid grid-cols-7 gap-0.5 mb-1 text-center text-[11px] font-semibold ${muted}`}>
+          <div className={`grid grid-cols-7 gap-0.5 mb-1 sm:mb-2 text-center text-[11px] font-semibold ${muted}`}>
             {weekdayNames.map((wd, i) => (
-              <span key={i} className="py-1">
+              <span key={i} className="py-1 sm:py-2">
                 {wd}
               </span>
             ))}
@@ -774,7 +774,7 @@ function BookingState({
               const isAvailable = availableDates.has(dateStr);
               const isSelected = dateStr === selectedDay.date;
               const base =
-                'relative grid h-11 place-items-center w-full rounded-lg text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-warm)]';
+                'relative grid h-11 sm:h-12 place-items-center w-full rounded-lg text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-warm)]';
               let cellCls: string;
               if (isSelected) {
                 cellCls = `${base} ${accentSolid}`;
@@ -815,7 +815,7 @@ function BookingState({
         {/* Selected day's slots */}
         <div data-booking-times className="min-w-0">
           <h3 ref={timeChoicesRef} tabIndex={-1} aria-live="polite" className={`text-sm font-bold mb-2.5 focus:outline-none ${heading}`}>{dayHeading(selectedDay)}</h3>
-          <div className="grid grid-cols-2 gap-2 sm:max-h-[352px] sm:overflow-y-auto sm:pe-1">
+          <div className="grid grid-cols-2 gap-2 sm:max-h-[400px] sm:overflow-y-auto sm:pe-1">
             {selectedDay.slots.map((slot) => {
               const busy = submittingSlot === slot.startUtc;
               return (
@@ -824,7 +824,7 @@ function BookingState({
                   onClick={() => onPick(slot)}
                   disabled={!!submittingSlot}
                   aria-label={slotLabel(slot, displayTz)}
-                  className={`flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-semibold transition-colors disabled:opacity-50 ${
+                  className={`flex items-center justify-center gap-1.5 px-3 py-2.5 sm:min-h-12 rounded-xl border text-sm font-semibold transition-colors disabled:opacity-50 ${
                     dark
                       ? 'border-white/10 text-stone-200 hover:border-[var(--accent-warm)]/50 hover:bg-[var(--accent-warm)]/10'
                       : 'border-gray-200 text-gray-800 hover:border-[var(--accent-warm)]/50 hover:bg-[var(--accent-warm)]/5'
@@ -886,7 +886,7 @@ function BookingState({
 
       {/* Scrolling canvas */}
       <main id="booking-main-content" tabIndex={-1} className="flex-1 min-h-0 overflow-y-auto focus:outline-none">
-        <div className={`mx-auto px-4 sm:px-6 py-3 sm:py-6 space-y-5 ${choosingTime ? 'max-w-[1220px]' : 'max-w-2xl'}`}>
+        <div className={`mx-auto px-4 sm:px-6 py-3 sm:py-6 space-y-5 ${choosingTime ? 'max-w-[1320px] md:min-h-full md:flex md:flex-col md:justify-center md:py-10' : 'max-w-2xl'}`}>
           {/* Hero - only for the slot-picking states */}
           {choosingTime && (
             <div data-booking-workspace className="grid items-start gap-3 sm:gap-5 lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-8">
