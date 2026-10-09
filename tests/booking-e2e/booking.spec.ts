@@ -90,7 +90,7 @@ test('Arabic visitor controls are translated and the review flows right to left'
   await expect(page.getByRole('heading', { name: 'راجع حجزك' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'تأكيد الحجز' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'اختر وقتًا آخر' })).toBeVisible();
-  await expect(page.locator('[dir="rtl"]').filter({ has: page.getByRole('heading', { name: 'راجع حجزك' }) })).toHaveCount(1);
+  await expect(page.locator('[data-booking-shell]')).toHaveAttribute('dir', 'rtl');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 

@@ -40,6 +40,9 @@ export function LocaleProvider({
   }, [initialLocale])
 
   useEffect(() => {
+    // Booking owns a wider locale catalogue and a state-preserving picker.
+    // Do not overwrite its language/cookie with the marketing-only catalogue.
+    if (/\/(?:book)(?:\/|$)/.test(window.location.pathname)) return
     const dir = websiteLocaleDirection[locale]
     document.documentElement.lang = locale
     document.documentElement.dir = dir

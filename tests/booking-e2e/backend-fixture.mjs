@@ -31,13 +31,21 @@ const server = createServer(async (req, res) => {
     if (req.method === 'GET' && action === 'context') {
       if (managed) return json({ ...personalContext, events: undefined, email: personalEmail, durationMinutes: personalDuration, durationOptions: [personalDuration],
         activeBooking: personalBooking, confirmation: { booking: personalBooking, manageToken: 'fixture-private', joinUrl: booking.joinUrl, ...calendar } });
-      return json({ ...personalContext, eventTypeId: url.searchParams.get('eventType') || 'intro' });
+      return json({ ...personalContext, slug: parts[0], eventTypeId: url.searchParams.get('eventType') || 'intro' });
     }
     if (req.method === 'GET' && action === 'slots') {
       captured = { slotQuery: Object.fromEntries(url.searchParams), path: url.pathname };
       const duration = managed ? personalDuration : Number(url.searchParams.get('durationMinutes') || 60);
       const slot = { startUtc: startAt, endUtc: new Date(Date.parse(startAt) + duration * 60000).toISOString(), startLocal: startAt, label: '10:00 AM', dayKey: '2026-10-27' };
-      return json({ slots: [slot], days: [{ date: slot.dayKey, weekdayLabel: 'Tue', slots: [slot] }], visitorTimezone: url.searchParams.get('tz') || 'UTC', teamTimezone: 'UTC', durationMinutes: duration });
+      const days = parts[0] === 'qa-layout' ? [27, 28, 29].map((date) => {
+        const dayKey = `2026-10-${date}`;
+        const slots = Array.from({ length: 16 }, (_, i) => {
+          const startUtc = new Date(Date.parse(`${dayKey}T06:00:00Z`) + i * 1800000).toISOString();
+          return { ...slot, startUtc, endUtc: new Date(Date.parse(startUtc) + duration * 60000).toISOString(), dayKey };
+        });
+        return { date: dayKey, weekdayLabel: 'Tue', slots };
+      }) : [{ date: slot.dayKey, weekdayLabel: 'Tue', slots: [slot] }];
+      return json({ slots: days.flatMap((day) => day.slots), days, visitorTimezone: url.searchParams.get('tz') || 'UTC', teamTimezone: 'UTC', durationMinutes: duration });
     }
     if (req.method === 'POST') {
       let raw = ''; for await (const chunk of req) raw += chunk;

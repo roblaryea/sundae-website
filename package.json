@@ -15,7 +15,7 @@
     "test:seo": "node --test tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "seo:sitemap-report": "node scripts/report-sitemap-inventory.mjs",
-    "test:booking": "node --test tests/booking-timezones.test.mjs",
+    "test:booking": "node --test tests/booking-timezones.test.mjs tests/booking-date-format.test.mjs",
     "test:booking:e2e": "playwright test --config playwright.booking.config.ts",
     "test:lint-glob": "node --test tests/next-lint-glob.test.mjs",
     "qa:blog-copy": "node scripts/qa-blog-copy.mjs",
