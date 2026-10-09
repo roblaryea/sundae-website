@@ -886,7 +886,7 @@ function BookingState({
 
       {/* Scrolling canvas */}
       <main id="booking-main-content" tabIndex={-1} className="flex-1 min-h-0 overflow-y-auto focus:outline-none">
-        <div className={`mx-auto px-4 sm:px-6 py-3 sm:py-6 space-y-5 ${choosingTime ? 'max-w-[1320px] md:min-h-full md:flex md:flex-col md:justify-center md:py-10' : 'max-w-2xl'}`}>
+        <div className={`mx-auto px-4 sm:px-6 py-3 sm:py-6 space-y-5 ${choosingTime ? 'max-w-[1320px] md:pt-12 md:pb-16' : 'max-w-2xl'}`}>
           {/* Hero - only for the slot-picking states */}
           {choosingTime && (
             <div data-booking-workspace className="grid items-start gap-3 sm:gap-5 lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-8">
