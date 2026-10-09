@@ -34,14 +34,12 @@ import {
   ChevronDown,
 } from 'lucide-react';
 import {
-  websiteLocaleDirection,
-  getWebsiteIntlLocale,
-  getLocalizedCopy,
-  type WebsiteLocale,
+  WEBSITE_LOCALE_COOKIE,
+  getSharedWebsiteCookieDomain,
 } from '@/lib/i18n';
-import { bookingCopy } from '@/lib/booking/copy';
-import { bookingControlsCopy } from '@/lib/booking/controls-copy';
-import { personalBookingCopy } from '@/lib/booking/personal-copy';
+import { bookingIntlLocale as getWebsiteIntlLocale, bookingLocales, bookingLocaleProfiles, getBookingLocaleProfile, normalizeBookingLocale, type BookingLocale } from '@/lib/booking/locales';
+import { getBookingUiCopy, type BookingUiKey } from '@/lib/booking/ui-copy';
+import { formatBookingDate } from '@/lib/booking/date-format';
 import {
   buildBookingTimezoneOptions,
   detectBookingTimezone,
@@ -51,31 +49,6 @@ import type { PersonalBookingContext } from '@/lib/personalBookingClient';
 import { BookingBrand } from './BookingBrand';
 import { useTheme } from '@/components/ui/ThemeProvider';
 import { useRouter } from 'next/navigation';
-
-// --- decouple from the parallel copy module's exact signatures ---------------
-// bookingCopy may be a function (locale -> copy), a Record<locale, copy>, or a
-// flat copy object; the formatters have documented arg shapes. Cast through
-// unknown so this compiles regardless of the final exported types, and always
-// fall back to good English if a key is missing.
-const isObj = (v: unknown): v is Record<string, unknown> => !!v && typeof v === 'object';
-
-function resolveBookingCopy(locale: WebsiteLocale): Record<string, unknown> {
-  const src: unknown = bookingCopy;
-  try {
-    if (typeof src === 'function') {
-      const r = (src as (l: WebsiteLocale) => unknown)(locale);
-      return isObj(r) ? r : {};
-    }
-    if (isObj(src)) {
-      const byLocale = src[locale as keyof typeof src] ?? src.en;
-      if (isObj(byLocale)) return byLocale;
-      return src;
-    }
-  } catch {
-    /* fall through to empty */
-  }
-  return {};
-}
 
 function makeIdempotencyKey(): string {
   try {
@@ -128,9 +101,9 @@ type ConfirmedBooking = {
 };
 
 type Mode = 'select' | 'reschedule' | 'confirmed' | 'existing' | 'canceled';
-type ActionError = { tone: 'warn' | 'error'; text: string };
+type ActionError = { tone: 'warn' | 'error'; key: BookingUiKey };
 
-type BookingViewProps = { token: string; locale: WebsiteLocale; ctx: BookingContext; personal?: PersonalBookingContext };
+type BookingViewProps = { token: string; locale: BookingLocale; ctx: BookingContext; personal?: PersonalBookingContext };
 
 export function BookingView(props: BookingViewProps) {
   // Each public context has a fresh form nonce. A return from a private canceled
@@ -140,23 +113,34 @@ export function BookingView(props: BookingViewProps) {
 
 function BookingState({
   token,
-  locale,
+  locale: initialLocale,
   ctx,
   personal,
 }: BookingViewProps) {
   const router = useRouter();
-  const dir = websiteLocaleDirection[locale] ?? 'ltr';
-  const copy = useMemo<Record<string, unknown>>(
-    () => ({ ...resolveBookingCopy(locale), ...getLocalizedCopy(bookingControlsCopy, locale), ...getLocalizedCopy(personalBookingCopy, locale) }),
-    [locale],
-  );
+  const [locale, setLocale] = useState(initialLocale);
+  const dir = getBookingLocaleProfile(locale).dir;
+  const copy = useMemo(() => getBookingUiCopy(locale), [locale]);
   const t = useCallback(
-    (key: string, fallback: string): string => {
-      const v = copy[key];
-      return typeof v === 'string' && v.length > 0 ? v : fallback;
-    },
+    (key: BookingUiKey, fallback: string): string => copy[key] ?? fallback,
     [copy],
   );
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+    document.documentElement.dir = dir;
+  }, [locale, dir]);
+
+  const changeLanguage = (value: string) => {
+    const nextLocale = normalizeBookingLocale(value);
+    setLocale(nextLocale);
+    const url = new URL(window.location.href);
+    url.searchParams.set('locale', nextLocale);
+    // Keep the existing path, private token, selected slot and form state.
+    window.history.replaceState(null, '', url);
+    const domain = getSharedWebsiteCookieDomain();
+    document.cookie = `${WEBSITE_LOCALE_COOKIE}=${nextLocale}; path=/; max-age=31536000; samesite=lax${domain ? `; domain=${domain}` : ''}${url.protocol === 'https:' ? '; secure' : ''}`;
+  };
 
   const initialActive =
     ctx.activeBooking && ctx.activeBooking.status !== 'canceled' ? ctx.activeBooking : null;
@@ -194,6 +178,8 @@ function BookingState({
   const [confirmCancel, setConfirmCancel] = useState(false);
   const [canceling, setCanceling] = useState(false);
   const [reviewSlot, setReviewSlot] = useState<Slot | null>(null);
+  const reviewHeadingRef = useRef<HTMLHeadingElement>(null);
+  const timeChoicesRef = useRef<HTMLHeadingElement>(null);
   const [discussion, setDiscussion] = useState('');
   const [selectedDuration, setSelectedDuration] = useState(ctx.durationMinutes);
   const [hour12, setHour12] = useState(true);
@@ -287,13 +273,13 @@ function BookingState({
     (status: number, code: string | undefined) => {
       if (status === 409 || code === 'E_BOOKING_SLOT_UNAVAILABLE') setReviewSlot(null);
       if (code === 'invalid_discussion') {
-        setActionError({ tone: 'warn', text: t('discussionError', 'Please answer the discussion question (up to 2,000 characters).') });
+        setActionError({ tone: 'warn', key: 'discussionError' });
         return;
       }
       if (status === 409 && code === 'E_BOOKING_SLOT_TAKEN') {
         setActionError({
           tone: 'warn',
-          text: t('errorTaken', 'That time was just taken - here are the latest openings.'),
+          key: 'errorTaken',
         });
         if (visitorTz) void loadSlots(fromIso, visitorTz);
         return;
@@ -301,17 +287,14 @@ function BookingState({
       if (status === 409 && code === 'E_BOOKING_LEAD_ALREADY_ACTIVE') {
         setActionError({
           tone: 'warn',
-          text: t(
-            'errorAlreadyActive',
-            'You already have a call booked. Check your confirmation email to manage it.',
-          ),
+          key: 'errorAlreadyActive',
         });
         return;
       }
       if (status === 422 && code === 'E_BOOKING_SLOT_UNAVAILABLE') {
         setActionError({
           tone: 'warn',
-          text: t('errorUnavailable', 'That time is no longer available. Please choose another.'),
+          key: 'errorUnavailable',
         });
         if (visitorTz) void loadSlots(fromIso, visitorTz);
         return;
@@ -319,26 +302,20 @@ function BookingState({
       if (status === 502 && code === 'E_BOOKING_GRAPH_UNAVAILABLE') {
         setActionError({
           tone: 'error',
-          text: t(
-            'errorGraph',
-            'We could not reach the calendar just now. Please try again in a moment.',
-          ),
+          key: 'errorGraph',
         });
         return;
       }
       if (status === 401) {
         setActionError({
           tone: 'error',
-          text: t(
-            'errorExpired',
-            'This booking link has expired. Reply to your email and we will send a new one.',
-          ),
+          key: 'errorExpired',
         });
         return;
       }
-      setActionError({ tone: 'error', text: t('errorGeneric', 'Something went wrong. Please try again.') });
+      setActionError({ tone: 'error', key: 'errorGeneric' });
     },
-    [t, visitorTz, fromIso, loadSlots],
+    [visitorTz, fromIso, loadSlots],
   );
 
   const bookSlot = async (slot: Slot) => {
@@ -352,7 +329,7 @@ function BookingState({
         });
         const result = await response.json();
         if (response.status !== 202 || !result.verificationId) {
-          setActionError({ tone: 'error', text: t(response.status === 429 ? 'tooManyRequests' : 'verificationFailed', '') });
+          setActionError({ tone: 'error', key: response.status === 429 ? 'tooManyRequests' : 'verificationFailed' });
           return;
         }
         setVerificationId(result.verificationId);
@@ -372,6 +349,7 @@ function BookingState({
         if (personal && json.manageToken) {
           const manage = new URL('/book/manage', window.location.origin);
           manage.searchParams.set('id', json.booking.id); manage.searchParams.set('token', json.manageToken);
+          manage.searchParams.set('locale', locale);
           window.history.replaceState(null, '', manage);
         }
         setManagementEmailFailed((json as BookResult & { managementEmailSent?: boolean }).managementEmailSent === false);
@@ -389,10 +367,10 @@ function BookingState({
         return;
       }
       if (personal && json.error === 'invalid_or_expired_code') {
-        setActionError({ tone: 'error', text: t('invalidCode', '') });
+        setActionError({ tone: 'error', key: 'invalidCode' });
       } else handleBookingError(res.status, json.error);
     } catch {
-      setActionError({ tone: 'error', text: t('errorGeneric', 'Something went wrong. Please try again.') });
+      setActionError({ tone: 'error', key: 'errorGeneric' });
     } finally {
       setSubmittingSlot(null);
     }
@@ -429,7 +407,7 @@ function BookingState({
       }
       handleBookingError(res.status, json.error);
     } catch {
-      setActionError({ tone: 'error', text: t('errorGeneric', 'Something went wrong. Please try again.') });
+      setActionError({ tone: 'error', key: 'errorGeneric' });
     } finally {
       setSubmittingSlot(null);
     }
@@ -459,16 +437,13 @@ function BookingState({
         setConfirmCancel(false);
         setActionError({
           tone: 'warn',
-          text: t(
-            'cutoff',
-            'This call is too soon to change online. Reply to your confirmation email and we will help.',
-          ),
+          key: 'cutoff',
         });
         return;
       }
       handleBookingError(res.status, json.error);
     } catch {
-      setActionError({ tone: 'error', text: t('errorGeneric', 'Something went wrong. Please try again.') });
+      setActionError({ tone: 'error', key: 'errorGeneric' });
     } finally {
       setCanceling(false);
     }
@@ -493,7 +468,7 @@ function BookingState({
 
   const bookAgain = () => {
     if (personal?.slug) {
-      router.push(`/book/${encodeURIComponent(personal.slug)}`);
+      router.push(`/book/${encodeURIComponent(personal.slug)}?locale=${locale}`);
       return;
     }
     idempotencyKeyRef.current = makeIdempotencyKey();
@@ -526,11 +501,16 @@ function BookingState({
   const joinUrl = confirmed?.joinUrl || confirmed?.booking?.joinUrl || null;
   const isLoadingSlots =
     slotsLoading || (!visitorTz && (mode === 'select' || mode === 'reschedule'));
+  const choosingTime = mode === 'select' || mode === 'reschedule';
+
+  useEffect(() => {
+    if (reviewSlot) reviewHeadingRef.current?.focus();
+  }, [reviewSlot]);
 
   const formatWhen = (iso: string | null | undefined, tz: string): string => {
     if (!iso) return '';
     try {
-      return new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), {
+      return formatBookingDate(new Date(iso), locale === 'pap' ? 'pap' : getWebsiteIntlLocale(locale), {
         weekday: 'long',
         month: 'long',
         day: 'numeric',
@@ -538,7 +518,7 @@ function BookingState({
         minute: '2-digit',
         timeZone: tz || undefined,
         hour12,
-      }).format(new Date(iso));
+      });
     } catch {
       return iso;
     }
@@ -561,12 +541,12 @@ function BookingState({
     // day.date is the visitor-tz calendar date ("yyyy-MM-dd"); format it at UTC
     // midnight so the weekday can't drift a day in either direction.
     try {
-      const h = new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), {
+      const h = formatBookingDate(new Date(`${day.date}T00:00:00Z`), locale === 'pap' ? 'pap' : getWebsiteIntlLocale(locale), {
         weekday: 'long',
         month: 'short',
         day: 'numeric',
         timeZone: 'UTC',
-      }).format(new Date(`${day.date}T00:00:00Z`));
+      });
       if (h && h.length > 0) return h;
     } catch {
       /* fall through */
@@ -584,7 +564,7 @@ function BookingState({
 
   const accentSolid = dark ? 'bg-[var(--accent-warm)] text-stone-950 hover:bg-[var(--link-hover)]' : 'bg-[var(--warm-deep)] text-white hover:brightness-90';
   const coralBtn =
-    `inline-flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-xl ${accentSolid} text-sm font-bold transition-colors disabled:opacity-60`;
+    `inline-flex min-h-11 items-center justify-center gap-1.5 px-5 py-2.5 rounded-xl ${accentSolid} text-sm font-bold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-warm)] disabled:opacity-60`;
   const secondaryBtn = dark
     ? 'inline-flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-xl border border-white/10 hover:bg-white/5 text-stone-200 text-sm font-semibold transition-colors disabled:opacity-60'
     : 'inline-flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-xl border border-gray-200 hover:bg-gray-100 text-gray-700 text-sm font-semibold transition-colors disabled:opacity-60';
@@ -598,11 +578,11 @@ function BookingState({
     : 'text-sm font-semibold text-red-600 hover:text-red-500 transition-colors';
 
   const metaRow = (Icon: typeof Clock, text: string) => (
-    <div className="flex items-center gap-2.5">
-      <span className={`grid place-items-center w-8 h-8 rounded-lg shrink-0 ${chip}`}>
-        <Icon className="w-4 h-4" />
+    <div className="flex items-start gap-2.5 min-w-0">
+      <span className={`grid place-items-center w-5 h-5 lg:w-8 lg:h-8 rounded-lg shrink-0 ${chip}`}>
+        <Icon className="w-4 h-4" aria-hidden="true" />
       </span>
-      <span className={`text-sm ${body}`}>{text}</span>
+      <span className={`text-sm break-words lg:pt-1.5 ${body}`}>{text}</span>
     </div>
   );
 
@@ -619,7 +599,7 @@ function BookingState({
       }`}
     >
       <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
-      <span>{err.text}</span>
+      <span>{copy[err.key]}</span>
     </div>
   );
 
@@ -630,6 +610,18 @@ function BookingState({
         'Prefer a time you do not see here? Reply to your email and we will set it up.',
       )}
     </p>
+  );
+
+  const meetingDetails = (
+    <div className="space-y-3">
+      {personal?.headline && <p className={`text-sm ${body}`}>{personal.headline}</p>}
+      {personal?.bio && <p className={`text-sm whitespace-pre-line ${body}`}>{personal.bio}</p>}
+      <div className={`border-t pt-3 space-y-2 lg:pt-5 lg:space-y-3 ${rule}`}>
+        {duration != null && metaRow(Clock, `${duration} ${t('minutesLabel', 'minutes')}`)}
+        {metaRow(Video, t('videoCall', 'Video call'))}
+        {teamTz && metaRow(CalendarClock, `${t('teamTz', 'Host time zone')}: ${teamTz}`)}
+      </div>
+    </div>
   );
 
   const renderSlotGrid = (onPick: (slot: Slot) => void): ReactNode => {
@@ -695,8 +687,8 @@ function BookingState({
       );
     }
 
-    // --- Calendly-style layout: month calendar (left) + selected day's slots
-    // (right). `days` is already filtered to open days only. ------------------
+    // The shared workspace keeps calendar and times alongside one another on
+    // tablet/desktop; phones use date -> time -> details in document order.
     const availableDates = new Set(days.map((d) => d.date));
     const firstAvailableMonth = days[0].date.slice(0, 7);
     const lastAvailableMonth = days[days.length - 1].date.slice(0, 7);
@@ -708,11 +700,11 @@ function BookingState({
 
     const monthLabel = (() => {
       try {
-        return new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), {
+        return formatBookingDate(new Date(`${month}-01T00:00:00Z`), locale === 'pap' ? 'pap' : getWebsiteIntlLocale(locale), {
           month: 'long',
           year: 'numeric',
           timeZone: 'UTC',
-        }).format(new Date(`${month}-01T00:00:00Z`));
+        });
       } catch {
         return month;
       }
@@ -724,10 +716,10 @@ function BookingState({
     const leadingBlanks = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
     const daysInMonth = new Date(Date.UTC(y, m, 0)).getUTCDate();
     const weekdayNames = Array.from({ length: 7 }, (_, i) =>
-      new Intl.DateTimeFormat(getWebsiteIntlLocale(locale), {
+      formatBookingDate(new Date(Date.UTC(2023, 0, 1 + i)), locale === 'pap' ? 'pap' : getWebsiteIntlLocale(locale), {
         weekday: 'short',
         timeZone: 'UTC',
-      }).format(new Date(Date.UTC(2023, 0, 1 + i))),
+      }),
     );
 
     const shiftMonth = (delta: number): string => {
@@ -737,14 +729,14 @@ function BookingState({
     const canPrev = month > firstAvailableMonth;
     const canNext = month < lastAvailableMonth;
     const calNavBtn = dark
-      ? 'grid place-items-center w-8 h-8 rounded-lg border border-white/10 text-stone-300 hover:bg-white/5 transition-colors disabled:opacity-30 disabled:cursor-default'
-      : 'grid place-items-center w-8 h-8 rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-default';
+      ? 'grid place-items-center w-11 h-11 rounded-lg border border-white/10 text-stone-300 hover:bg-white/5 transition-colors disabled:opacity-30 disabled:cursor-default'
+      : 'grid place-items-center w-11 h-11 rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-default';
 
     return (
-      <div className="grid gap-6 md:grid-cols-[minmax(0,280px),1fr]">
+      <div data-booking-calendar-grid className="grid items-start gap-4 sm:gap-6 sm:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]">
         {/* Month calendar */}
-        <div className={`rounded-2xl border p-4 ${cardCls}`}>
-          <div className="flex items-center justify-between gap-2 mb-3">
+        <div data-booking-calendar className={`min-w-0 rounded-2xl border p-2 sm:p-5 ${cardCls}`}>
+          <div className="flex items-center justify-between gap-2 mb-3 sm:mb-4">
             <button
               type="button"
               onClick={() => canPrev && setCalMonth(shiftMonth(-1))}
@@ -765,14 +757,14 @@ function BookingState({
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
-          <div className={`grid grid-cols-7 gap-1 mb-1 text-center text-[11px] font-semibold ${muted}`}>
+          <div className={`grid grid-cols-7 gap-0.5 mb-1 sm:mb-2 text-center text-[11px] font-semibold ${muted}`}>
             {weekdayNames.map((wd, i) => (
-              <span key={i} className="py-1">
+              <span key={i} className="py-1 sm:py-2">
                 {wd}
               </span>
             ))}
           </div>
-          <div className="grid grid-cols-7 gap-1">
+          <div className="grid grid-cols-7 gap-0.5">
             {Array.from({ length: leadingBlanks }, (_, i) => (
               <span key={`blank-${i}`} aria-hidden="true" />
             ))}
@@ -782,7 +774,7 @@ function BookingState({
               const isAvailable = availableDates.has(dateStr);
               const isSelected = dateStr === selectedDay.date;
               const base =
-                'relative grid place-items-center aspect-square w-full rounded-lg text-sm font-semibold transition-colors';
+                'relative grid h-11 sm:h-12 place-items-center w-full rounded-lg text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-warm)]';
               let cellCls: string;
               if (isSelected) {
                 cellCls = `${base} ${accentSolid}`;
@@ -797,7 +789,14 @@ function BookingState({
                 <button
                   key={dateStr}
                   type="button"
-                  onClick={() => isAvailable && setSelectedDate(dateStr)}
+                  onClick={() => {
+                    if (!isAvailable) return;
+                    setSelectedDate(dateStr);
+                    if (window.matchMedia('(max-width: 639px)').matches) {
+                      timeChoicesRef.current?.focus({ preventScroll: true });
+                      timeChoicesRef.current?.scrollIntoView({ block: 'start' });
+                    }
+                  }}
                   disabled={!isAvailable}
                   aria-pressed={isSelected}
                   aria-label={dayHeading({ date: dateStr, weekdayLabel: '', slots: [] })}
@@ -814,9 +813,9 @@ function BookingState({
         </div>
 
         {/* Selected day's slots */}
-        <div>
-          <h3 className={`text-sm font-bold mb-2.5 ${heading}`}>{dayHeading(selectedDay)}</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+        <div data-booking-times className="min-w-0">
+          <h3 ref={timeChoicesRef} tabIndex={-1} aria-live="polite" className={`text-sm font-bold mb-2.5 focus:outline-none ${heading}`}>{dayHeading(selectedDay)}</h3>
+          <div className="grid grid-cols-2 gap-2 sm:max-h-[400px] sm:overflow-y-auto sm:pe-1">
             {selectedDay.slots.map((slot) => {
               const busy = submittingSlot === slot.startUtc;
               return (
@@ -825,7 +824,7 @@ function BookingState({
                   onClick={() => onPick(slot)}
                   disabled={!!submittingSlot}
                   aria-label={slotLabel(slot, displayTz)}
-                  className={`flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl border text-sm font-semibold transition-colors disabled:opacity-50 ${
+                  className={`flex items-center justify-center gap-1.5 px-3 py-2.5 sm:min-h-12 rounded-xl border text-sm font-semibold transition-colors disabled:opacity-50 ${
                     dark
                       ? 'border-white/10 text-stone-200 hover:border-[var(--accent-warm)]/50 hover:bg-[var(--accent-warm)]/10'
                       : 'border-gray-200 text-gray-800 hover:border-[var(--accent-warm)]/50 hover:bg-[var(--accent-warm)]/5'
@@ -843,14 +842,18 @@ function BookingState({
 
   return (
     <div
+      data-booking-shell
       className="fixed inset-0 z-50 flex flex-col bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors"
       style={{ colorScheme: dark ? 'dark' : 'light' }}
       lang={locale}
       dir={dir}
     >
+      <a href="#booking-main-content" className="sr-only focus:not-sr-only focus:absolute focus:start-4 focus:top-2 focus:z-10 focus:rounded-lg focus:bg-[var(--warm-deep)] focus:px-4 focus:py-3 focus:text-white">
+        {t('skipToContent', 'Skip to main content')}
+      </a>
       {/* App top bar */}
       <header className="shrink-0 border-b bg-[var(--navy-deep)] border-[var(--border-default)]">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+        <div className="max-w-[1220px] mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2.5 min-w-0">
             <BookingBrand />
             <span
@@ -859,51 +862,74 @@ function BookingState({
               <CalendarClock className="w-3 h-3" /> {t('badge', 'Book a call')}
             </span>
           </div>
+          <div className="flex shrink-0 items-center gap-2">
+          <label className={`relative flex h-11 w-20 items-center justify-center gap-1.5 rounded-lg border text-xs font-semibold ${dark ? 'border-white/10 text-stone-200' : 'border-gray-200 text-gray-700'}`}>
+            <Globe2 className="h-4 w-4" aria-hidden="true" />
+            <span aria-hidden="true">{locale.split('-')[0].toUpperCase()}</span>
+            <select aria-label={t('language', 'Language')} value={locale} onChange={(event) => changeLanguage(event.target.value)}
+              className="absolute inset-0 h-full w-full cursor-pointer rounded-lg opacity-0 focus-visible:opacity-100 focus-visible:bg-[var(--navy-deep)]">
+              {bookingLocales.map((item) => <option key={item} value={item}>{bookingLocaleProfiles[item].nativeName}</option>)}
+            </select>
+          </label>
           <button
             onClick={toggleTheme}
-            className={`grid place-items-center w-9 h-9 rounded-lg border transition-colors ${
+            className={`grid place-items-center w-11 h-11 rounded-lg border transition-colors ${
               dark ? 'border-white/10 hover:bg-white/5 text-stone-300' : 'border-gray-200 hover:bg-gray-100 text-gray-600'
             }`}
             aria-label={t('themeToggle', 'Toggle light or dark mode')}
           >
             {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
+          </div>
         </div>
       </header>
 
       {/* Scrolling canvas */}
-      <main className="flex-1 min-h-0 overflow-y-auto">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 py-8 space-y-5">
+      <main id="booking-main-content" tabIndex={-1} className="flex-1 min-h-0 overflow-y-auto focus:outline-none">
+        <div className={`mx-auto px-4 sm:px-6 py-3 sm:py-6 space-y-5 ${choosingTime ? 'max-w-[1320px] md:pt-12 md:pb-16' : 'max-w-2xl'}`}>
           {/* Hero - only for the slot-picking states */}
-          {(mode === 'select' || mode === 'reschedule') && (
+          {choosingTime && (
+            <div data-booking-workspace className="grid items-start gap-3 sm:gap-5 lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-8">
+            <aside data-booking-summary className="min-w-0 space-y-2 sm:space-y-3 lg:space-y-5">
             <div>
               <p className={`text-xs font-semibold uppercase tracking-wider ${muted}`}>
                 {ctx.company || t('brand', 'Sundae')}
               </p>
-              <h1 className={`text-3xl sm:text-4xl font-display font-normal mt-1 ${heading}`}>
+              <h1 className={`text-3xl font-display font-normal mt-1 ${heading}`}>
                 {mode === 'reschedule' ? t('rescheduleTitle', 'Pick a new time') : t('title', 'Book a call')}
               </h1>
-              <p className={`text-sm mt-1.5 ${body}`}>
+              {(!personal || personal.events?.length === 1 || mode === 'reschedule') && <p className={`text-sm mt-1.5 ${body}`}>
                 {mode === 'reschedule'
                   ? t('rescheduleSub', 'Choose a new slot that works better for you.')
                   : ctx.offering}
-              </p>
+              </p>}
               {personal && <div className="mt-3 space-y-2">
-                <p className={`font-medium ${heading}`}>{personal.displayName}</p>
-                {personal.headline && <p className={`text-sm ${body}`}>{personal.headline}</p>}
-                {personal.bio && <p className={`text-sm whitespace-pre-line ${body}`}>{personal.bio}</p>}
-                {mode === 'select' && personal.events && personal.events.length > 1 && <nav className="flex flex-wrap gap-2 pt-2" aria-label={t('eventTypes', '')}>
-                  {personal.events.map((event) => <a key={event.id} href={`/book/${personal.slug}/${event.id}`}
+                {mode === 'select' && personal.events && personal.events.length > 1 && <nav className="space-y-2 pt-1" aria-label={t('eventTypes', '')}>
+                  <label htmlFor="booking-event-type" className={`block text-xs font-semibold lg:hidden ${muted}`}>{t('eventTypes', '')}</label>
+                  <select id="booking-event-type" value={ctx.eventTypeId} className={`h-11 w-full min-w-0 rounded-lg border px-3 text-sm lg:hidden ${cardCls}`}
+                    onChange={(event) => {
+                      if (personal.slug) router.push(`/book/${encodeURIComponent(personal.slug)}/${encodeURIComponent(event.target.value)}?locale=${locale}`);
+                    }}>
+                    {personal.events.map((event) => <option key={event.id} value={event.id}>{event.name}</option>)}
+                  </select>
+                  <div className="hidden space-y-2 lg:block">{personal.events.map((event) => <a key={event.id} href={`/book/${personal.slug}/${event.id}?locale=${locale}`}
                     aria-current={ctx.eventTypeId === event.id ? 'page' : undefined}
-                    className={ctx.eventTypeId === event.id ? coralBtn : secondaryBtn}>{event.name}</a>)}
+                    className={`block min-h-11 w-full rounded-xl border px-3 py-3 text-sm font-semibold break-words transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-warm)] ${ctx.eventTypeId === event.id ? accentSolid : cardCls}`}><span className="flex items-center justify-between gap-2"><span className="min-w-0">{event.name}</span><ChevronRight aria-hidden="true" className="h-4 w-4 shrink-0 rtl:rotate-180" /></span></a>)}</div>
                 </nav>}
               </div>}
             </div>
-          )}
+            <div className="hidden lg:block">{meetingDetails}</div>
+            <details className={`rounded-xl border px-3 lg:hidden ${cardCls}`}>
+              <summary className={`flex min-h-11 cursor-pointer list-none items-center justify-between gap-2 text-sm ${body}`}>
+                <span>{duration != null && <span className={`font-semibold ${heading}`}>{duration} {t('minutesLabel', 'minutes')} · </span>}{t('meetingDetails', 'Meeting details')}</span>
+                <ChevronDown className="h-4 w-4 shrink-0" aria-hidden="true" />
+              </summary>
+              <div className="pb-3">{meetingDetails}</div>
+            </details>
+            </aside>
 
-          {/* SELECT / RESCHEDULE */}
-          {(mode === 'select' || mode === 'reschedule') && (
-            <>
+            {/* SELECT / RESCHEDULE */}
+            <section data-booking-picker className="min-w-0 space-y-3 sm:space-y-4">
               {mode === 'reschedule' && (
                 <button
                   onClick={() => {
@@ -915,19 +941,6 @@ function BookingState({
                 >
                   <ArrowLeft className="w-4 h-4" /> {t('back', 'Back to your booking')}
                 </button>
-              )}
-
-              {mode === 'select' && (
-                <div className={`rounded-2xl border p-5 ${cardCls}`}>
-                  <p className={`text-[15px] leading-relaxed ${dark ? 'text-stone-200' : 'text-gray-700'}`}>
-                    {ctx.offering}
-                  </p>
-                  <div className={`mt-4 pt-4 border-t space-y-2.5 ${rule}`}>
-                    {duration != null && metaRow(Clock, `${duration} ${t('minutesLabel', 'minutes')}`)}
-                    {metaRow(Video, t('videoCall', 'Video call - the join link lands in your invite'))}
-                    {teamTz && metaRow(CalendarClock, `${t('teamTz', 'Host time zone')}: ${teamTz}`)}
-                  </div>
-                </div>
               )}
 
               {actionError && errorBanner(actionError)}
@@ -947,7 +960,7 @@ function BookingState({
 
               {displayTz && (
                 <div
-                  className={`rounded-xl border px-3.5 py-3 sm:flex sm:items-center sm:justify-between sm:gap-4 ${cardCls}`}
+                  className={`min-w-0 rounded-xl border px-3.5 py-2 sm:py-3 sm:flex sm:items-center sm:justify-between sm:gap-4 ${cardCls}`}
                 >
                   <div className="flex items-start gap-2.5">
                     <Globe2 className={`mt-0.5 h-4 w-4 shrink-0 ${muted}`} aria-hidden="true" />
@@ -955,12 +968,12 @@ function BookingState({
                       <label htmlFor="booking-timezone" className={`text-sm font-semibold ${heading}`}>
                         {t('timezonePickerLabel', 'Your time zone')}
                       </label>
-                      <p id="booking-timezone-help" className={`mt-0.5 text-xs ${muted}`}>
+                      <p id="booking-timezone-help" className={`sr-only sm:not-sr-only sm:mt-0.5 text-xs ${muted}`}>
                         {t('timezonePickerHelp', 'Available times update automatically.')}
                       </p>
                     </div>
                   </div>
-                  <div className="relative mt-3 sm:mt-0 sm:min-w-[17rem]">
+                  <div className="relative min-w-0 mt-2 sm:mt-0 sm:w-64 sm:shrink-0">
                     <select
                       id="booking-timezone"
                       value={visitorTz}
@@ -993,8 +1006,9 @@ function BookingState({
                 </div>
               )}
 
+              <div className="flex items-end justify-between gap-3">
               {mode === 'select' && durationOptions.length > 1 && (
-                <div className="space-y-2">
+                <div className="min-w-0 flex-1 max-w-60 space-y-2">
                   <label htmlFor="booking-duration" className={`block text-sm font-semibold ${heading}`}>{t('durationLabel', 'Call duration')}</label>
                   <select id="booking-duration" value={selectedDuration ?? ''} disabled={!!submittingSlot}
                     className={`h-11 w-full rounded-lg border px-3 text-sm ${dark ? 'border-white/10 bg-[#0B1220] text-stone-100' : 'border-gray-200 bg-white text-gray-900'}`}
@@ -1010,13 +1024,14 @@ function BookingState({
                 </div>
               )}
 
-              <div className="flex items-center justify-end gap-2 text-sm" aria-label={t('timeFormat', 'Time format')}>
+              <div className="ms-auto flex shrink-0 items-center justify-end gap-2 text-sm" aria-label={t('timeFormat', 'Time format')}>
                 {([true, false] as const).map((value) => (
                   <button key={String(value)} type="button" aria-pressed={hour12 === value}
-                    onClick={() => setHour12(value)} className={hour12 === value ? coralBtn : secondaryBtn}>
+                    onClick={() => setHour12(value)} className={`${hour12 === value ? coralBtn : secondaryBtn} !px-3`}>
                     {value ? '12h' : '24h'}
                   </button>
                 ))}
+              </div>
               </div>
 
               {reviewSlot ? (
@@ -1025,9 +1040,9 @@ function BookingState({
                   if (submittingSlot) return;
                   void (mode === 'reschedule' ? rescheduleSlot(reviewSlot) : bookSlot(reviewSlot));
                 }}>
-                  <h2 className={`text-lg font-bold ${heading}`}>{t('reviewTitle', 'Review your booking')}</h2>
+                  <h2 ref={reviewHeadingRef} tabIndex={-1} className={`text-lg font-bold focus:outline-none ${heading}`}>{t('reviewTitle', 'Review your booking')}</h2>
                   <p className={body}>{formatWhen(reviewSlot.startUtc, displayTz)} · {displayTz}</p>
-                  <p className={`text-sm ${muted}`}>{duration} {t('minutesLabel', 'minutes')} · {ctx.email}</p>
+                  <p className={`text-sm ${muted}`}>{duration} {t('minutesLabel', 'minutes')}{ctx.email ? ` · ${ctx.email}` : ''}</p>
                   {personal && mode === 'select' && <div className="space-y-4">
                     <div className="space-y-2"><label htmlFor="visitor-name" className={`text-sm font-semibold ${heading}`}>{t('yourName', '')}</label>
                       <input id="visitor-name" autoComplete="name" required maxLength={120} disabled={!!verificationId} value={visitorName} onChange={(e) => setVisitorName(e.target.value)} className={`w-full rounded-lg border p-3 ${cardCls}`} /></div>
@@ -1057,7 +1072,7 @@ function BookingState({
                       {submittingSlot && <Loader2 className="w-4 h-4 animate-spin" />}
                       {mode === 'reschedule' ? t('confirmReschedule', 'Confirm new time') : personal && !verificationId ? t('sendCode', '') : t('confirmCta', 'Confirm booking')}
                     </button>
-                    <button type="button" disabled={!!submittingSlot} onClick={() => setReviewSlot(null)} className={secondaryBtn}>
+                    <button type="button" disabled={!!submittingSlot} onClick={() => { setReviewSlot(null); }} className={secondaryBtn}>
                       {t('changeTime', 'Choose another time')}
                     </button>
                   </div>
@@ -1065,7 +1080,8 @@ function BookingState({
               ) : renderSlotGrid((slot) => { setActionError(null); setReviewSlot(slot); })}
 
               {requestAnother}
-            </>
+            </section>
+            </div>
           )}
 
           {/* CONFIRMED */}
