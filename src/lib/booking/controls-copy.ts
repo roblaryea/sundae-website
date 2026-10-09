@@ -1,4 +1,4 @@
-import type { WebsiteLocale } from '@/lib/i18n';
+import type { BookingLocale } from './locales';
 
 const english = {
   durationLabel: 'Call duration',
@@ -188,4 +188,22 @@ export const bookingControlsCopy = {
     discussionError: 'Sila jawab soalan perbincangan (maksimum 2,000 aksara).',
     timezonePickerLabel: 'Zon waktu anda', timezonePickerHelp: 'Masa yang tersedia dikemas kini secara automatik.',
   },
-} satisfies Record<WebsiteLocale, ControlsCopy>;
+  pap: {
+    durationLabel: 'Duracion di e yamada', reviewTitle: 'Revisa bo reservacion', timeFormat: 'Formato di ora', optional: 'opcional',
+    changeTime: 'Skohe un otro ora', confirmReschedule: 'Confirma e ora nobo', confirmCta: 'Confirma reservacion',
+    minutesLabel: 'minuto', downloadIcs: 'Descarga archivo ICS', discussionError: 'Contesta e pregunta tocante e conversacion (maximo 2.000 caracter).',
+    timezonePickerLabel: 'Bo zona di tempo', timezonePickerHelp: 'E oranan disponibel ta actualisa automaticamente.',
+  },
+  az: {
+    durationLabel: 'Görüşün müddəti', reviewTitle: 'Görüş məlumatlarını yoxlayın', timeFormat: 'Saat formatı', optional: 'istəyə bağlı',
+    changeTime: 'Başqa vaxt seçin', confirmReschedule: 'Yeni vaxtı təsdiqləyin', confirmCta: 'Görüşü təsdiqləyin',
+    minutesLabel: 'dəqiqə', downloadIcs: 'ICS faylını endirin', discussionError: 'Müzakirə sualını cavablandırın (ən çox 2 000 simvol).',
+    timezonePickerLabel: 'Saat qurşağınız', timezonePickerHelp: 'Əlçatan vaxtlar avtomatik yenilənir.',
+  },
+  ru: {
+    durationLabel: 'Длительность звонка', reviewTitle: 'Проверьте данные записи', timeFormat: 'Формат времени', optional: 'необязательно',
+    changeTime: 'Выбрать другое время', confirmReschedule: 'Подтвердить новое время', confirmCta: 'Подтвердить запись',
+    minutesLabel: 'мин.', downloadIcs: 'Скачать файл ICS', discussionError: 'Ответьте на вопрос о теме обсуждения (до 2 000 символов).',
+    timezonePickerLabel: 'Ваш часовой пояс', timezonePickerHelp: 'Доступное время обновляется автоматически.',
+  },
+} satisfies Record<BookingLocale, ControlsCopy>;

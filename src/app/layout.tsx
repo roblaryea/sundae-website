@@ -10,6 +10,7 @@ import { CookieConsent } from "@/components/CookieConsent";
 import { ThemeProvider, ThemeScript } from "@/components/ui/ThemeProvider";
 import {
   WEBSITE_PUBLIC_PATH_HEADER,
+  WEBSITE_LOCALE_HEADER,
   buildWebsiteAlternateUrls,
   getWebsiteMessages,
   getLocalizedPathname,
@@ -21,6 +22,8 @@ import {
 } from "@/lib/i18n";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
 import { resolvePageDescription, resolvePageTitle } from "@/lib/pageTitles";
+import { isBookingUrl } from '@/lib/booking/privacy';
+import { getBookingLocaleProfile, normalizeBookingLocale } from '@/lib/booking/locales';
 
 // Display - warm, optical serif for headlines & key numbers (the human, premium voice).
 const fraunces = Fraunces({
@@ -151,6 +154,9 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const cookieStore = await cookies();
+  const headerStore = await headers();
+  const bookingRoute = isBookingUrl(headerStore.get(WEBSITE_PUBLIC_PATH_HEADER) || '/');
+  const bookingLocale = bookingRoute ? normalizeBookingLocale(headerStore.get(WEBSITE_LOCALE_HEADER)) : null;
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
   const dir = websiteLocaleDirection[locale];
@@ -209,7 +215,7 @@ export default async function RootLayout({
   };
 
   return (
-    <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang={bookingLocale || locale} dir={bookingLocale ? getBookingLocaleProfile(bookingLocale).dir : dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
         {/* Vercel BotID - instruments the expensive AI diagnostic endpoint so
@@ -226,12 +232,12 @@ export default async function RootLayout({
             __html: JSON.stringify(globalJsonLd).replace(/</g, "\\u003c"),
           }}
         />
-        <a
+        {!bookingRoute && <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#FF5C4D] focus:text-white focus:rounded-lg focus:outline-none"
         >
           {messages.layout.skipToContent}
-        </a>
+        </a>}
         <PostHogProvider>
           <LocaleProvider initialLocale={locale}>
             <ThemeProvider>

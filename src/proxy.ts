@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { resolveBookingLocale } from '@/lib/booking/locales'
 import {
   WEBSITE_LOCALE_COOKIE,
   WEBSITE_LOCALE_HEADER,
@@ -40,6 +41,20 @@ export function proxy(request: NextRequest) {
 
   const { pathname, search } = request.nextUrl
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
+  // Public booking supports additional languages without exposing partially
+  // translated marketing pages. Keep personal/manage URLs and credentials intact.
+  if (internalPathname === '/book' || internalPathname.startsWith('/book/')) {
+    const locale = resolveBookingLocale(request.nextUrl.searchParams.get('locale') || localeFromPath ||
+      request.cookies.get(WEBSITE_LOCALE_COOKIE)?.value, request.headers.get('accept-language'))
+    const requestHeaders = withLocaleHeaders(request, locale, pathname)
+    const response = localeFromPath
+      ? NextResponse.rewrite(new URL(`${internalPathname}${search}`, request.url), { request: { headers: requestHeaders } })
+      : NextResponse.next({ request: { headers: requestHeaders } })
+    response.cookies.set(WEBSITE_LOCALE_COOKIE, locale, { path: '/', maxAge: 60 * 60 * 24 * 365, sameSite: 'lax' })
+    response.headers.set('Referrer-Policy', 'no-referrer')
+    response.headers.set('Cache-Control', 'no-store')
+    return response
+  }
   const cookieLocale = normalizeWebsiteLocale(request.cookies.get(WEBSITE_LOCALE_COOKIE)?.value)
 
   if (localeFromPath === defaultWebsiteLocale) {
@@ -71,11 +86,6 @@ export function proxy(request: NextRequest) {
     maxAge: 60 * 60 * 24 * 365,
     sameSite: 'lax',
   })
-
-  if (internalPathname === '/book' || internalPathname.startsWith('/book/')) {
-    response.headers.set('Referrer-Policy', 'no-referrer')
-    response.headers.set('Cache-Control', 'no-store')
-  }
 
   return response
 }

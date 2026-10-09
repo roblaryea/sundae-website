@@ -1,4 +1,4 @@
-import type { WebsiteLocale } from '@/lib/i18n';
+import type { BookingLocale } from './locales';
 
 type PersonalBookingCopy = Record<'codeSent' | 'requestNewCode' | 'verificationHelp' | 'sendCode' | 'tooManyRequests' | 'verificationFailed' | 'invalidCode' | 'savePrivateLink' | 'emailFailed' | 'personalFooter' | 'pageUnavailable' | 'pageUnavailableHelp' | 'contactTeam' | 'eventTypes' | 'yourName' | 'emailAddress' | 'website' | 'codeLabel', string>;
 
@@ -442,5 +442,35 @@ export const personalBookingCopy = {
     "emailAddress": "ที่อยู่อีเมล",
     "website": "เว็บไซต์",
     "codeLabel": "รหัสยืนยัน"
-  }
-} satisfies Record<WebsiteLocale, PersonalBookingCopy>;
+  },
+  pap: {
+    codeSent: 'Nos a manda un codigo di seis cifra na {email}. E ta caduca den 10 minuut. Bo ora no ta reserva te ora bo confirma.',
+    requestNewCode: 'Cambia e-mail of pidi un codigo nobo', verificationHelp: 'Nos lo manda un codigo di verificacion prome cu crea bo invitacion di kalender.',
+    sendCode: 'Manda codigo di verificacion', tooManyRequests: 'Tin demasiado peticion. Purba atrobe mas despues.',
+    verificationFailed: 'Nos no por a manda e codigo. Refresca e pagina y purba atrobe.', invalidCode: 'E codigo no ta corecto of a caduca. Check bo e-mail of pidi un codigo nobo.',
+    savePrivateLink: 'Warda e link priva aki pa maneha bo reservacion despues.', emailFailed: 'Nos no por a manda e e-mail pa maneha bo reservacion; bo invitacion di kalender ainda ta valido.',
+    personalFooter: 'Reserva via Sundae. E ora ta reserva solamente ora bo confirma e reservacion.',
+    pageUnavailable: 'E pagina di reservacion no ta disponibel', pageUnavailableHelp: 'E pagina por ta pausa of e link a caduca. Pidi bo anfitrion un link nobo.',
+    contactTeam: 'Contacta e team', eventTypes: 'Tipo di reunion', yourName: 'Bo nomber', emailAddress: 'Adres di e-mail', website: 'Website', codeLabel: 'Codigo di verificacion',
+  },
+  az: {
+    codeSent: '{email} ünvanına altırəqəmli kod göndərdik. Kod 10 dəqiqə qüvvədədir. Təsdiqləyənədək vaxtınız rezerv edilmir.',
+    requestNewCode: 'E-poçtu dəyişin və ya yeni kod istəyin', verificationHelp: 'Təqvim dəvətini yaratmazdan əvvəl təsdiq kodu göndərəcəyik.',
+    sendCode: 'Təsdiq kodunu göndərin', tooManyRequests: 'Çox sayda sorğu göndərilib. Bir az sonra yenidən cəhd edin.',
+    verificationFailed: 'Təsdiq kodunu göndərmək mümkün olmadı. Səhifəni yeniləyin və yenidən cəhd edin.', invalidCode: 'Kod yanlışdır və ya müddəti bitib. E-poçtunuzu yoxlayın və ya yeni kod istəyin.',
+    savePrivateLink: 'Görüşünüzü sonradan idarə etmək üçün bu şəxsi keçidi saxlayın.', emailFailed: 'İdarəetmə e-poçtunu göndərmək mümkün olmadı; təqvim dəvətiniz hələ də etibarlıdır.',
+    personalFooter: 'Sundae vasitəsilə rezerv edilib. Vaxt yalnız görüşü təsdiqlədiyinizdə rezerv edilir.',
+    pageUnavailable: 'Bu rezervasiya səhifəsi əlçatan deyil', pageUnavailableHelp: 'Səhifə dayandırılmış və ya keçidin müddəti bitmiş ola bilər. Təşkilatçıdan yeni keçid istəyin.',
+    contactTeam: 'Komanda ilə əlaqə saxlayın', eventTypes: 'Görüş növləri', yourName: 'Adınız', emailAddress: 'E-poçt ünvanı', website: 'Veb-sayt', codeLabel: 'Təsdiq kodu',
+  },
+  ru: {
+    codeSent: 'Мы отправили шестизначный код на {email}. Он действует 10 минут. Время не резервируется до подтверждения.',
+    requestNewCode: 'Изменить почту или запросить новый код', verificationHelp: 'Перед созданием приглашения в календаре мы отправим код подтверждения.',
+    sendCode: 'Отправить код подтверждения', tooManyRequests: 'Слишком много запросов. Повторите попытку позже.',
+    verificationFailed: 'Не удалось отправить код. Обновите страницу и попробуйте снова.', invalidCode: 'Код неверен или срок его действия истёк. Проверьте почту или запросите новый код.',
+    savePrivateLink: 'Сохраните эту личную ссылку, чтобы управлять записью позже.', emailFailed: 'Не удалось отправить письмо для управления записью; приглашение в календаре остаётся действительным.',
+    personalFooter: 'Запись через Sundae. Время резервируется только после подтверждения.',
+    pageUnavailable: 'Эта страница записи недоступна', pageUnavailableHelp: 'Страница может быть приостановлена или ссылка просрочена. Попросите организатора прислать новую ссылку.',
+    contactTeam: 'Связаться с командой', eventTypes: 'Типы встреч', yourName: 'Ваше имя', emailAddress: 'Электронная почта', website: 'Сайт', codeLabel: 'Код подтверждения',
+  },
+} satisfies Record<BookingLocale, PersonalBookingCopy>;

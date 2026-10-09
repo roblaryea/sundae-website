@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { BookingBrand } from './BookingBrand';
-import { personalBookingCopy } from '@/lib/booking/personal-copy';
-import { getLocalizedCopy, websiteLocaleDirection, type WebsiteLocale } from '@/lib/i18n';
+import { getBookingUiCopy } from '@/lib/booking/ui-copy';
+import { getBookingLocaleProfile, type BookingLocale } from '@/lib/booking/locales';
 
-export function BookingUnavailable({ locale = 'en' }: { locale?: WebsiteLocale }) {
-  const copy = getLocalizedCopy(personalBookingCopy, locale);
-  return <div dir={websiteLocaleDirection[locale]} className="min-h-screen bg-[var(--navy-deep)] text-[var(--text-primary)] grid place-items-center px-6">
+export function BookingUnavailable({ locale = 'en' }: { locale?: BookingLocale }) {
+  const copy = getBookingUiCopy(locale);
+  return <div lang={locale} dir={getBookingLocaleProfile(locale).dir} className="min-h-screen bg-[var(--navy-deep)] text-[var(--text-primary)] grid place-items-center px-6">
     <div className="max-w-md text-center space-y-5">
       <BookingBrand centered />
       <h1 className="font-display text-3xl">{copy.pageUnavailable}</h1>
