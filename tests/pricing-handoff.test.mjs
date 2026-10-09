@@ -10,6 +10,27 @@ registerHooks({ resolve(specifier, context, nextResolve) {
 } });
 const { buildPricingSimUrl } = await import('../src/lib/diagnostic/pricingLink.ts');
 const { decodePricingIntent } = await import('../src/lib/pricingIntent.ts');
+const { appAuthUrl, SIGNIN_URL, SIGNUP_URL } = await import('../src/lib/urls.ts');
+
+test('website sign-in and sign-up preserve the reviewed pricing intent and locale', () => {
+  const pricing = new URL(buildPricingSimUrl({outlets:'6_15'}, {recommendedStack:[{layer:'core',label:'Core Growth'},{layer:'crew',label:'Crew Operating'}]}, {email:'',name:'',company:'',country:''}));
+  const returnUrl = `/onboarding?lang=ru&cfg=${pricing.searchParams.get('cfg')}`;
+  for (const authUrl of [SIGNIN_URL, SIGNUP_URL]) {
+    const link = new URL(appAuthUrl(authUrl, returnUrl));
+    assert.equal(link.searchParams.get('returnUrl'), returnUrl);
+    const received = new URL(link.searchParams.get('returnUrl'), link.origin);
+    assert.equal(received.searchParams.get('lang'), 'ru');
+    assert.deepEqual(decodePricingIntent(received.searchParams.get('cfg')), decodePricingIntent(pricing.searchParams.get('cfg')));
+    assert.deepEqual([...link.searchParams.keys()], ['returnUrl']);
+  }
+});
+
+test('website auth handoff rejects external, ambiguous and malformed destinations', () => {
+  for (const invalid of [undefined, null, [], ['/onboarding'], 'https://evil.test', '//evil.test', '/\\evil.test', '/%2f%2fevil.test', '/%5cevil.test', '/%0aevil.test', '/bad%path', '/'+ 'a'.repeat(6000)]) {
+    assert.equal(appAuthUrl(SIGNIN_URL, invalid), SIGNIN_URL);
+  }
+  assert.equal(new URL(appAuthUrl(SIGNIN_URL, '/core?tab=overview')).searchParams.get('returnUrl'), '/core?tab=overview');
+});
 
 test('diagnostic pricing preserves actual package and Crew recommendations without contact details', () => {
   const url = new URL(buildPricingSimUrl({outlets:'6_15'}, {recommendedStack:[{layer:'core',label:'Core Growth'},{layer:'crew',label:'Crew Operating'},{layer:'watchtower',label:'Watchtower'}]}, {email:'private@example.test',name:'Private Buyer',company:'Private Group',country:'AE'}));
