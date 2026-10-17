@@ -12,6 +12,7 @@
     "lead:preflight": "node scripts/check-lead-capture-env.mjs",
     "test:diagnostic-lead": "node --test tests/diagnostic-lead-outbox.test.mjs tests/diagnostic-flow-contract.test.mjs tests/diagnostic-report-grounding.test.mjs",
     "test:observability": "node --test tests/sentry-runtime-policy.test.mjs",
+    "test:profile-card": "node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs",
     "test:seo": "node --test tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "seo:sitemap-report": "node scripts/report-sitemap-inventory.mjs",

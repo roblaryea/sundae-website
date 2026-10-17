@@ -6,11 +6,12 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import { Breadcrumbs } from './ui/Breadcrumbs';
 import { parseWebsiteLocaleFromPathname } from '@/lib/i18n';
+import { isProfileCardPath } from '@/lib/profileHandles';
 
 /** Root layouts persist across client navigation, so chrome must follow the live route. */
 export function WebsiteChrome({ children }: { children: ReactNode }) {
   const { pathname } = parseWebsiteLocaleFromPathname(usePathname());
-  if (pathname === '/book' || pathname.startsWith('/book/')) {
+  if (pathname === '/book' || pathname.startsWith('/book/') || isProfileCardPath(pathname)) {
     return <div id="main-content" className="min-h-screen">{children}</div>;
   }
   return <>
