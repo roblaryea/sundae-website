@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs";
 import { withBotId } from "botid/next/config";
+import { PROFILE_HANDLES } from "./src/lib/profileHandles";
 
 const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sundae.io').replace(/\/+$/, '');
 
@@ -48,6 +49,16 @@ const nextConfig: NextConfig = {
         ],
       },
     ];
+  },
+  // Profile cards (sundae.io/<handle>, the destination of the QR on Sundae business cards)
+  // are served by src/app/p/[handle]. Only registered handles are rewritten, so the rest of
+  // the site keeps its normal 404 behaviour: a root-level [handle] segment would turn every
+  // unknown URL into a soft 404 in production.
+  async rewrites() {
+    return PROFILE_HANDLES.flatMap((handle) => [
+      { source: `/${handle}`, destination: `/p/${handle}` },
+      { source: `/${handle}/contact.vcf`, destination: `/p/${handle}/contact.vcf` },
+    ]);
   },
   async redirects() {
     return [

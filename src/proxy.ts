@@ -9,6 +9,7 @@ import {
   normalizeWebsiteLocale,
   parseWebsiteLocaleFromPathname,
 } from '@/lib/i18n'
+import { isProfileHandle } from '@/lib/profileHandles'
 
 function withLocaleHeaders(request: NextRequest, locale: string, publicPathname: string) {
   const requestHeaders = new Headers(request.headers)
@@ -41,6 +42,15 @@ export function proxy(request: NextRequest) {
 
   const { pathname, search } = request.nextUrl
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
+
+  // Profile card handles are lowercase, but phone keyboards capitalise the first letter
+  // when someone types sundae.io/Robert. Send any casing to the canonical lowercase path.
+  const firstSegment = internalPathname.split('/')[1]
+  if (firstSegment && firstSegment !== firstSegment.toLowerCase() && isProfileHandle(firstSegment.toLowerCase())) {
+    const redirectUrl = request.nextUrl.clone()
+    redirectUrl.pathname = pathname.replace(`/${firstSegment}`, `/${firstSegment.toLowerCase()}`)
+    return NextResponse.redirect(redirectUrl, 308)
+  }
   // Public booking supports additional languages without exposing partially
   // translated marketing pages. Keep personal/manage URLs and credentials intact.
   if (internalPathname === '/book' || internalPathname.startsWith('/book/')) {
@@ -56,6 +66,14 @@ export function proxy(request: NextRequest) {
     return response
   }
   const cookieLocale = normalizeWebsiteLocale(request.cookies.get(WEBSITE_LOCALE_COOKIE)?.value)
+
+  // /p/... is the internal home of profile cards (see rewrites in next.config.ts). The
+  // public URL is /<handle>; send direct hits there so /p/<anything> never serves a page.
+  if (internalPathname === '/p' || internalPathname.startsWith('/p/')) {
+    const redirectUrl = request.nextUrl.clone()
+    redirectUrl.pathname = pathname.replace(/\/p(?=\/|$)/, '') || '/'
+    return NextResponse.redirect(redirectUrl, 308)
+  }
 
   if (localeFromPath === defaultWebsiteLocale) {
     const redirectUrl = request.nextUrl.clone()
