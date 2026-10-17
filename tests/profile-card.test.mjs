@@ -261,3 +261,11 @@ test("the visitor's language is chosen explicit first, then the browser", () => 
   assert.equal(cardLocaleDirection("ur"), "rtl");
   assert.equal(cardLocaleDirection("ru"), "ltr");
 });
+
+test("a booking slug, when set, is a valid personal booking page slug", () => {
+  for (const [handle, profile] of Object.entries(PROFILES)) {
+    if (profile.bookingSlug === undefined) continue;
+    assert.match(profile.bookingSlug, /^[a-z0-9][a-z0-9-]{1,62}$/, handle);
+  }
+  assert.equal(PROFILES.robert.bookingSlug, "robert");
+});

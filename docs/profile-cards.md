@@ -13,6 +13,9 @@ rewritten in `next.config.ts` for registered handles only, so unknown URLs keep 
    - `titleForm` is the person's own choice of grammatical form for languages that have one
      (French, Spanish, German, Arabic and others). Ask them; never infer it from a name.
    - `phone` is E.164 (`+971...`), `phoneDisplay` is how it reads on the page.
+   - `bookingSlug` is the slug of the person's published personal booking page in the Sundae admin
+     (Marketing > Booking settings). "Book a working session" opens `sundae.io/book/<slug>`, so the
+     person must create and publish that page first; without a slug the card links to the demo page.
 3. **Role and city.** Use an existing key in `src/lib/profileCatalogue.ts`. If the role or city is
    new, add it with **all 25 locales** (the website's 22 plus Russian, Azerbaijani and Papiamento); the tests fail otherwise. Languages with gendered titles
    need both a `masculine` and a `feminine` form. Countries need no entry: they come from the

@@ -76,6 +76,8 @@ export default async function ProfilePage({ params }: PageProps) {
   const location = locationText(profile.cityKey, locale)
   // Always explicit, English included, so the file's language never depends on request headers.
   const vcardHref = `/${profile.handle}/contact.vcf?lang=${encodeURIComponent(locale)}`
+  // The owner's own booking page (their availability, in the visitor's language); the general demo page only when they have none.
+  const bookHref = profile.bookingSlug ? `/book/${encodeURIComponent(profile.bookingSlug)}?locale=${encodeURIComponent(locale)}` : DEMO_URL
   const languageOptions = CARD_LOCALES.map((code) => ({ value: code, label: cardLocaleNativeName(code) }))
   const rise = (delay: number) => ({ '--pc-delay': `${delay}ms` }) as React.CSSProperties
 
@@ -116,7 +118,7 @@ export default async function ProfilePage({ params }: PageProps) {
               <ProfileActions
                 handle={profile.handle}
                 vcardHref={vcardHref}
-                bookHref={DEMO_URL}
+                bookHref={bookHref}
                 copy={copy}
                 phone={profile.phone}
                 phoneDisplay={profile.phoneDisplay}
