@@ -56,6 +56,16 @@
   border-radius: 0 0 32px 32px;
   overflow: hidden;
 }
+/* Short phones (an SE-class screen is ~667px tall): a compact hero keeps Save contact above the
+   first-visit cookie notice instead of underneath it. */
+@media (max-width: 1023px) and (max-height: 740px) {
+  .pc-hero { height: clamp(180px, 29vh, 240px); }
+  .pc-main { padding-top: 1.25rem; }
+}
+/* The very smallest phones (iPhone SE first generation, 568px): the tagline is the one line that can go. */
+@media (max-width: 1023px) and (max-height: 600px) {
+  .pc-tagline { display: none; }
+}
 .pc-glow {
   position: absolute;
   inset: 0;

@@ -13,7 +13,11 @@ import type { PersonProfile } from './profileData'
 export const CONSENT_VERSION = '2026-10-17'
 export const CONSENT_TEXT_EN = 'I agree that Sundae may contact me about this.'
 
-/** Ignore submissions faster than a person can fill a form (bots), and absurdly old forms. */
+/**
+ * Timing is a risk signal, not proof of a bot: AutoFill can complete a form in well under two
+ * seconds, and a tab can sit open for a day. Such submissions are asked to retry rather than
+ * acknowledged and dropped, so a real connection is never lost behind a success message.
+ */
 export const MIN_FILL_MS = 2000
 export const MAX_FORM_AGE_MS = 24 * 60 * 60 * 1000
 
@@ -30,8 +34,10 @@ export type ConnectData = {
 
 export type ConnectParse =
   | { kind: 'ok'; data: ConnectData }
-  /** Looks automated (honeypot filled or submitted too fast): accept silently, forward nothing. */
+  /** Strong evidence of automation (honeypot filled, no usable timestamp): accept silently, forward nothing. */
   | { kind: 'ignored' }
+  /** Suspicious timing only: do not store, and tell the client to retry (never report success). */
+  | { kind: 'retry' }
   | { kind: 'invalid'; fields: string[] }
 
 const CONTROL_CHARS = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g
@@ -51,9 +57,8 @@ export function parseConnectSubmission(
 
   const startedAt = typeof input.startedAt === 'number' ? input.startedAt : NaN
   const elapsed = options.now - startedAt
-  if (clean(input.website) !== '' || !Number.isFinite(elapsed) || elapsed < MIN_FILL_MS || elapsed > MAX_FORM_AGE_MS) {
-    return { kind: 'ignored' }
-  }
+  if (clean(input.website) !== '' || !Number.isFinite(elapsed)) return { kind: 'ignored' }
+  if (elapsed < MIN_FILL_MS || elapsed > MAX_FORM_AGE_MS) return { kind: 'retry' }
 
   const data: ConnectData = {
     handle: clean(input.handle).toLowerCase(),
@@ -93,9 +98,18 @@ export type LeadPayload = {
 export function buildLeadPayload(
   profile: Pick<PersonProfile, 'handle' | 'givenName' | 'familyName' | 'email'>,
   data: ConnectData,
-  context: { locale: string | null; referrer: string | null; at: Date },
+  context: {
+    /** The card language the visitor used (already normalized to a supported locale). */
+    locale: string | null
+    /** The consent sentence exactly as shown to the visitor in that language. */
+    consentText: string
+    referrer: string | null
+    at: Date
+  },
 ): LeadPayload {
   const ownerName = `${profile.givenName} ${profile.familyName}`
+  // Record the wording the visitor actually saw, in the language they saw it, plus the English
+  // reference text so staff can read it.
   return {
     fullName: data.name,
     email: data.email,
@@ -116,7 +130,10 @@ export function buildLeadPayload(
       consent: {
         given: true,
         version: CONSENT_VERSION,
-        text: CONSENT_TEXT_EN,
+        locale: context.locale,
+        text: context.consentText,
+        text_en: CONSENT_TEXT_EN,
+        privacy_url: 'https://www.sundae.io/privacy',
         at: context.at.toISOString(),
       },
     },
