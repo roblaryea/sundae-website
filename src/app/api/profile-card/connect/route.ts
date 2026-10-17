@@ -112,10 +112,12 @@ export async function POST(request: NextRequest) {
     at: new Date(now),
   })
 
-  // One lead per person per card per day: a double tap or a retry never creates a duplicate.
-  const day = new Date(now).toISOString().slice(0, 10)
+  // Retries of one submission share a key (a double tap or the automatic retry never duplicates), but
+  // a second, intentional message from the same person is its own interaction. Clients that do not
+  // send a submission id fall back to one per person per card per day.
+  const identity = parsed.data.submissionId ?? new Date(now).toISOString().slice(0, 10)
   const idempotencyKey = `profile-card:${profile.handle}:${createHash('sha256')
-    .update(`${parsed.data.email}|${parsed.data.name}|${day}`)
+    .update(`${parsed.data.email}|${parsed.data.name}|${identity}`)
     .digest('hex')
     .slice(0, 40)}`
 

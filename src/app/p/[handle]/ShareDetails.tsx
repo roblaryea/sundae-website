@@ -61,6 +61,8 @@ export function ShareDetails({
   const [badFields, setBadFields] = useState<string[]>([])
   const [filled, setFilled] = useState(false)
   const openedAt = useRef<number>(0)
+  // One id per submission attempt: the automatic retry and a double tap reuse it, a later message does not.
+  const submissionId = useRef<string>('')
   const doneRef = useRef<HTMLDivElement>(null)
   const formRef = useRef<HTMLFormElement>(null)
   const panelId = useId()
@@ -71,6 +73,8 @@ export function ShareDetails({
   function toggle() {
     if (!open) {
       openedAt.current = Date.now()
+      // randomUUID needs a secure context and iOS 15.4+; the fallback only has to be unique per attempt.
+      submissionId.current = globalThis.crypto?.randomUUID?.() ?? `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 12)}`
       trackCta('profile_card_share_details_open', { handle })
     }
     setOpen(!open)
@@ -118,6 +122,7 @@ export function ShareDetails({
           consent: form.get('consent') === 'on',
           website: value('website'),
           startedAt: openedAt.current,
+          submissionId: submissionId.current,
         }),
       })
     try {

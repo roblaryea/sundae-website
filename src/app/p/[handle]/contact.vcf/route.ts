@@ -1,4 +1,4 @@
-import { resolveCardLocale } from '@/lib/profileCardLocale'
+import { matchCardLocale, resolveCardLocale } from '@/lib/profileCardLocale'
 import { PROFILE_AVATAR_PNG_BASE64 } from '@/lib/profileAvatar'
 import { cityName, countryName, roleTitle } from '@/lib/profileCatalogue'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
@@ -37,7 +37,9 @@ export async function GET(request: Request, { params }: { params: Promise<{ hand
   // With ?lang= the URL itself identifies the language, so shared caching is safe. Without it the
   // language comes from the Accept-Language header, which a shared cache may not key on, so that
   // response is private and always revalidated.
-  const explicitLanguage = lang !== null && lang !== ''
+  // Only a supported value counts as explicit: an unsupported one falls back to the header, so it must
+  // not be cached as if the URL alone decided the language.
+  const explicitLanguage = matchCardLocale(lang) !== null
   return new Response(body, {
     headers: {
       'Content-Type': 'text/vcard; charset=utf-8',

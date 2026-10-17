@@ -168,3 +168,21 @@ test("request bodies are limited by bytes actually read, with or without Content
   await assert.rejects(readTextLimited(lying, 16), BodyTooLargeError);
   assert.equal(await readTextLimited(new Request("http://localhost/x", { method: "POST" }), 16), "");
 });
+
+test("a submission id separates a retry from a second message", () => {
+  const first = parseConnectSubmission({ ...valid(), submissionId: "3f1c9d2e-aaaa-4bbb-8ccc-000000000001" }, opts).data;
+  assert.equal(first.submissionId, "3f1c9d2e-aaaa-4bbb-8ccc-000000000001");
+  assert.equal(parseConnectSubmission(valid(), opts).data.submissionId, null);
+  for (const bad of ["x", "has space and <tags>", "a".repeat(65), 7, {}]) {
+    assert.equal(parseConnectSubmission({ ...valid(), submissionId: bad }, opts).data.submissionId, null, String(bad));
+  }
+});
+
+test("only supported languages are treated as explicit", async () => {
+  const { matchCardLocale } = await import("../src/lib/profileCardLocale.ts");
+  assert.equal(matchCardLocale("fr"), "fr");
+  assert.equal(matchCardLocale("pap"), "pap");
+  assert.equal(matchCardLocale("xx"), null);
+  assert.equal(matchCardLocale(""), null);
+  assert.equal(matchCardLocale(null), null);
+});
