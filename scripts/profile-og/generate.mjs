@@ -7,8 +7,7 @@
 //   npx playwright install chromium   or run it from any checkout that has Playwright).
 // Re-run it, and commit the PNG, whenever a person's name or role changes.
 import { createRequire } from 'node:module'
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
-import os from 'node:os'
+import { mkdirSync, readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { PROFILES } from '../../src/lib/profileData.ts'
@@ -55,9 +54,8 @@ mkdirSync(path.join(root, 'public/profile'), { recursive: true })
 const browser = await chromium.launch({ channel: 'chrome' }).catch(() => chromium.launch())
 for (const handle of handles) {
   const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 })
-  const file = path.join(os.tmpdir(), `profile-og-${handle}.html`)
-  writeFileSync(file, html(PROFILES[handle]))
-  await page.goto(`file://${file}`)
+  // Rendered in memory: fonts and the wordmark are embedded in the markup, so no file is written.
+  await page.setContent(html(PROFILES[handle]), { waitUntil: 'load' })
   await page.evaluate(() => document.fonts.ready)
   await page.screenshot({ path: path.join(root, `public/profile/${handle}-og.png`) })
   await page.close()
