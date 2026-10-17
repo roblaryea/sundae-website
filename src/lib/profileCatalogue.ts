@@ -1,4 +1,4 @@
-import type { WebsiteLocale } from '@/lib/i18n'
+import type { CardLocale } from './profileCardLocale'
 
 /**
  * Shared, fully localized vocabulary for profile cards: job titles and cities.
@@ -15,7 +15,7 @@ import type { WebsiteLocale } from '@/lib/i18n'
 export type TitleForm = 'masculine' | 'feminine'
 export type GenderedText = { masculine: string; feminine: string }
 export type TitleText = string | GenderedText
-type ByLocale<T> = Record<WebsiteLocale, T>
+type ByLocale<T> = Record<CardLocale, T>
 
 export const ROLE_TITLES = {
   'founder-ceo': {
@@ -41,6 +41,9 @@ export const ROLE_TITLES = {
     bn: 'প্রতিষ্ঠাতা ও সিইও',
     th: 'ผู้ก่อตั้งและซีอีโอ',
     ms: 'Pengasas dan CEO',
+    ru: { masculine: 'Основатель и CEO', feminine: 'Основательница и CEO' },
+    az: 'Qurucu və CEO',
+    pap: 'Fundador y CEO',
   } satisfies ByLocale<TitleText>,
 } as const
 
@@ -72,6 +75,9 @@ export const CITIES = {
       bn: 'দুবাই',
       th: 'ดูไบ',
       ms: 'Dubai',
+      ru: 'Дубай',
+      az: 'Dubay',
+      pap: 'Dubai',
     } satisfies ByLocale<string>,
   },
 } as const
@@ -79,7 +85,7 @@ export const CITIES = {
 export type CityKey = keyof typeof CITIES
 
 /** Separator between city and country, per writing system. */
-const LIST_SEPARATOR: Partial<Record<WebsiteLocale, string>> = {
+const LIST_SEPARATOR: Partial<Record<CardLocale, string>> = {
   ar: '، ',
   ur: '، ',
   'zh-Hans': '，',
@@ -91,19 +97,30 @@ export function titleText(value: TitleText, form: TitleForm): string {
 }
 
 /** The job title in a locale, in the card owner's grammatical form. */
-export function roleTitle(roleKey: RoleKey, form: TitleForm, locale: WebsiteLocale): string {
-  const entry = ROLE_TITLES[roleKey] as Partial<Record<WebsiteLocale, TitleText>> & { en: TitleText }
+export function roleTitle(roleKey: RoleKey, form: TitleForm, locale: CardLocale): string {
+  const entry = ROLE_TITLES[roleKey] as Partial<Record<CardLocale, TitleText>> & { en: TitleText }
   return titleText(entry[locale] ?? entry.en, form)
 }
 
-export function cityName(cityKey: CityKey, locale: WebsiteLocale): string {
-  const names = CITIES[cityKey].names as Partial<Record<WebsiteLocale, string>> & { en: string }
+export function cityName(cityKey: CityKey, locale: CardLocale): string {
+  const names = CITIES[cityKey].names as Partial<Record<CardLocale, string>> & { en: string }
   return names[locale] ?? names.en
 }
 
-/** Localized country name from platform locale data, falling back to the ISO code's English name. */
-export function countryName(cityKey: CityKey, locale: WebsiteLocale): string {
+/**
+ * Country names for languages whose platform locale data is missing or unreliable. Papiamento
+ * has no CLDR coverage in many runtimes, so its country names are listed here. Every country
+ * used by a city in CITIES needs an entry (a test enforces it).
+ */
+export const COUNTRY_NAME_OVERRIDES: Partial<Record<CardLocale, Record<string, string>>> = {
+  pap: { AE: 'Emiratonan Arabe Uni' },
+}
+
+/** Localized country name: explicit override, then platform locale data, then the English name. */
+export function countryName(cityKey: CityKey, locale: CardLocale): string {
   const code: string = CITIES[cityKey].country
+  const override = COUNTRY_NAME_OVERRIDES[locale]?.[code]
+  if (override) return override
   try {
     return new Intl.DisplayNames([locale], { type: 'region' }).of(code) ?? code
   } catch {
@@ -111,7 +128,7 @@ export function countryName(cityKey: CityKey, locale: WebsiteLocale): string {
   }
 }
 
-export function locationText(cityKey: CityKey, locale: WebsiteLocale): string {
+export function locationText(cityKey: CityKey, locale: CardLocale): string {
   const separator = LIST_SEPARATOR[locale] ?? ', '
   return `${cityName(cityKey, locale)}${separator}${countryName(cityKey, locale)}`
 }

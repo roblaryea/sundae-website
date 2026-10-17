@@ -34,6 +34,12 @@ for (const handle of handles) {
   const title = (text) => (text.match(/\r\nTITLE:([^\r\n]*)/) || [])[1]
   check('contact file follows ?lang= for the job title', Boolean(title(arabic)) && title(arabic) !== title(card), `${title(card)} / ${title(arabic)}`)
 
+  const russian = await get(`/${handle}`, { headers: { 'Accept-Language': 'ru-RU,ru;q=0.9' } })
+  const russianHtml = await russian.text()
+  check('card follows the browser language (Russian)', /<html[^>]*lang="ru"/.test(russianHtml) && russianHtml.includes('Сохранить контакт'))
+  const papiamento = await get(`/${handle}?lang=pap`)
+  const papiamentoHtml = await papiamento.text()
+  check('?lang= selects Papiamento and remembers it for the card', /<html[^>]*lang="pap"/.test(papiamentoHtml) && papiamentoHtml.includes('Guarda contacto') && /sundae_card_locale=pap/.test(papiamento.headers.get('set-cookie') || ''))
   const og = await get(`/profile/${handle}-og.png`)
   check('link-preview image is served', og.status === 200 && (og.headers.get('content-type') || '').includes('image/png'))
 

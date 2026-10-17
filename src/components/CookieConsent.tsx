@@ -4,7 +4,7 @@ import { useCallback, useEffect, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { localizeWebsiteHref, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { localizeWebsiteHref, normalizeWebsiteLocale, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_CookieConsent'
 import { isBookingUrl } from '@/lib/booking/privacy';
@@ -49,6 +49,32 @@ const cookieConsentCopy: RequiredEnglishLocalizedRecord<CookieConsentCopy> = {
     privacy: "Política de privacidad",
     decline: "Rechazar",
     accept: "Aceptar",
+  },
+};
+
+// Profile cards add Russian, Azerbaijani and Papiamento to the website's languages. The rest of
+// the site is not translated into them, so the banner is the only place they need copy here.
+const cardOnlyCookieCopy: Record<string, CookieConsentCopy> = {
+  ru: {
+    ariaLabel: "Согласие на использование файлов cookie",
+    message: "Мы используем файлы cookie, чтобы улучшить ваш опыт и анализировать использование сайта.",
+    privacy: "Политика конфиденциальности",
+    decline: "Отклонить",
+    accept: "Принять",
+  },
+  az: {
+    ariaLabel: "Kuki razılığı",
+    message: "Təcrübənizi yaxşılaşdırmaq və saytdan istifadəni təhlil etmək üçün kukilərdən istifadə edirik.",
+    privacy: "Gizlilik Siyasəti",
+    decline: "Rədd et",
+    accept: "Qəbul et",
+  },
+  pap: {
+    ariaLabel: "Consentimento di cookie",
+    message: "Nos ta usa cookie pa mehora bo experiencia y analisá uso di e website.",
+    privacy: "Politica di Privacidad",
+    decline: "Rechasa",
+    accept: "Acepta",
   },
 };
 
@@ -133,11 +159,19 @@ function subscribeConsent(onStoreChange: () => void): () => void {
   };
 }
 
-export function CookieConsent({ initialConsent = null }: { initialConsent?: ConsentStatus }) {
-  const { locale } = useWebsiteI18n();
+export function CookieConsent({
+  initialConsent = null,
+  cardLocale = null,
+}: {
+  initialConsent?: ConsentStatus;
+  /** Set on profile-card pages, where the card's language (one of 25) drives the banner. */
+  cardLocale?: string | null;
+}) {
+  const { locale: siteLocale } = useWebsiteI18n();
+  const locale = cardLocale ? normalizeWebsiteLocale(cardLocale) : siteLocale;
   const pathname = usePathname();
   const bookingPage = isBookingUrl(pathname);
-  const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? getGeneratedLocalCopy(cookieConsentCopy, generatedLocalCopy.cookieConsentCopy, locale) ?? cookieConsentCopy.en;
+  const copy = (cardLocale ? cardOnlyCookieCopy[cardLocale] : undefined) ?? cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? getGeneratedLocalCopy(cookieConsentCopy, generatedLocalCopy.cookieConsentCopy, locale) ?? cookieConsentCopy.en;
   // Read consent via useSyncExternalStore. getServerSnapshot returns the value
   // the SERVER read from the mirrored consent cookie (initialConsent), so the
   // SSR HTML and the first client render agree: a returning visitor who already
@@ -202,6 +236,9 @@ export function CookieConsent({ initialConsent = null }: { initialConsent?: Cons
           {copy.message}{" "}
           <Link
             href={localizeWebsiteHref("/privacy", locale)}
+            // On a card the page language is the card's own; prefetching a localized website page would
+            // set the visitor's website language cookie before they chose to leave the card.
+            prefetch={cardLocale ? false : undefined}
             className="underline underline-offset-2 hover:text-[var(--text-primary)] transition-colors"
           >
             {copy.privacy}

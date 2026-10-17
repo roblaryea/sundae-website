@@ -1,17 +1,18 @@
 import type { Metadata, Viewport } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { cookies } from 'next/headers'
 import { notFound } from 'next/navigation'
-import { getLocalizedCopy, resolveWebsiteLocale } from '@/lib/i18n'
 import { locationText, roleTitle } from '@/lib/profileCatalogue'
-import { profileCardCopy } from '@/lib/profileCardCopy'
+import { getProfileCardCopy } from '@/lib/profileCardCopy'
+import { CARD_LOCALES, cardLocaleNativeName } from '@/lib/profileCardLocale'
+import { getCardLocale } from '@/lib/profileCardLocale.server'
 import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
 import { displayHost, getProfile, linkedinHandle, profileFullName } from '@/lib/profiles'
 import { DEMO_URL } from '@/lib/urls'
 import { ProfileActions } from './ProfileActions'
 import { ProfileArt } from './ProfileArt'
+import { LanguageSwitcher } from './LanguageSwitcher'
 import { ShareButton } from './ShareButton'
 import { ShowQr } from './ShowQr'
 import { ThemeToggle } from './ThemeToggle'
@@ -47,8 +48,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { handle } = await params
   const profile = getProfile(handle)
   if (!profile) return {}
-  const locale = resolveWebsiteLocale(await cookies())
-  const copy = getLocalizedCopy(profileCardCopy, locale)
+  const locale = await getCardLocale()
+  const copy = getProfileCardCopy(locale)
   const name = profileFullName(profile)
   const role = roleTitle(profile.roleKey, profile.titleForm, locale)
   const description = `${name} · ${role} · Sundae · ${copy.saveContact}`
@@ -71,12 +72,13 @@ export default async function ProfilePage({ params }: PageProps) {
   const profile = getProfile(handle)
   if (!profile) notFound()
 
-  const locale = resolveWebsiteLocale(await cookies())
-  const copy = getLocalizedCopy(profileCardCopy, locale)
+  const locale = await getCardLocale()
+  const copy = getProfileCardCopy(locale)
   const name = profileFullName(profile)
   const role = roleTitle(profile.roleKey, profile.titleForm, locale)
   const location = locationText(profile.cityKey, locale)
   const vcardHref = `/${profile.handle}/contact.vcf${locale === 'en' ? '' : `?lang=${encodeURIComponent(locale)}`}`
+  const languageOptions = CARD_LOCALES.map((code) => ({ value: code, label: cardLocaleNativeName(code) }))
   const rise = (delay: number) => ({ '--pc-delay': `${delay}ms` }) as React.CSSProperties
 
   return (
@@ -95,6 +97,7 @@ export default async function ProfilePage({ params }: PageProps) {
               <Image src="/logos/sundae-wordmark-card-ink.svg" alt="" width={112} height={34} unoptimized priority className="pc-wm-ink h-[34px] w-auto" />
             </Link>
             <div className="flex items-center gap-2">
+              <LanguageSwitcher handle={profile.handle} label={copy.language} value={locale} options={languageOptions} />
               <ShowQr handle={profile.handle} showLabel={copy.showQr} title={copy.qrTitle} closeLabel={copy.close} />
               <ThemeToggle handle={profile.handle} label={copy.themeToggle} />
               <ShareButton handle={profile.handle} title={name} shareLabel={copy.share} copiedLabel={copy.linkCopied} />
