@@ -66,9 +66,9 @@ export function ProfileActions(props: ProfileActionsProps) {
         <UserPlus className="h-5 w-5" aria-hidden="true" />
         {copy.saveContact}
       </a>
-      <p className="mt-3 text-balance text-center text-[13px] leading-snug text-[#D8CBBD]">{copy.saveHint}</p>
+      <p className="pc-hint">{copy.saveHint}</p>
 
-      <ul className="mt-6 divide-y divide-[#FBF8F4]/10 overflow-hidden rounded-2xl border border-[#FBF8F4]/12 bg-[#FBF8F4]/[.04]">
+      <ul className="pc-list mt-6">
         {rows.map(({ key, href, label, value, external, Icon }) => (
           <li key={key}>
             <a
@@ -77,19 +77,16 @@ export function ProfileActions(props: ProfileActionsProps) {
               onClick={() => trackCta(`profile_card_${key}`, { handle })}
               className="pc-row group flex min-h-[60px] items-center gap-4 px-4 py-3"
             >
-              <Icon className="h-5 w-5 shrink-0 text-[#FF5C4D]" aria-hidden="true" />
+              <Icon className="pc-icon h-5 w-5 shrink-0" aria-hidden="true" />
               <span className="flex min-w-0 flex-1 flex-col text-start">
-                <span className="text-[11px] font-medium uppercase tracking-[0.12em] text-[#D8CBBD]">{label}</span>
-                <span className="block truncate text-start text-[16px] font-medium text-[#FBF8F4]">
+                <span className="pc-label">{label}</span>
+                <span className="pc-fg block truncate text-start text-[16px] font-medium">
                   <bdi dir="ltr" className="inline-block max-w-full truncate align-top">
                     {value}
                   </bdi>
                 </span>
               </span>
-              <ArrowUpRight
-                className="h-4 w-4 shrink-0 text-[#9A8B7C] transition group-hover:text-[#FBF8F4] rtl:-scale-x-100"
-                aria-hidden="true"
-              />
+              <ArrowUpRight className="pc-muted h-4 w-4 shrink-0 rtl:-scale-x-100" aria-hidden="true" />
             </a>
           </li>
         ))}
@@ -100,7 +97,7 @@ export function ProfileActions(props: ProfileActionsProps) {
       <a
         href={props.bookHref}
         onClick={() => trackCta('profile_card_book_session', { handle })}
-        className="mt-5 inline-flex min-h-[44px] items-center gap-2 text-[15px] font-medium text-[#FBF8F4] underline decoration-[#FF5C4D] decoration-2 underline-offset-[6px] hover:decoration-[#FBF8F4]"
+        className="pc-fg mt-5 inline-flex min-h-[44px] items-center gap-2 text-[15px] font-medium underline decoration-[var(--pc-accent)] decoration-2 underline-offset-[6px]"
       >
         {copy.bookSession}
         <ArrowUpRight className="h-4 w-4 rtl:-scale-x-100" aria-hidden="true" />

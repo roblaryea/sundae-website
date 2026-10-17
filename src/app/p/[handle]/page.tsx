@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { cookies } from 'next/headers'
@@ -12,6 +12,8 @@ import { DEMO_URL } from '@/lib/urls'
 import { ProfileActions } from './ProfileActions'
 import { ProfileArt } from './ProfileArt'
 import { ShareButton } from './ShareButton'
+import { ShowQr } from './ShowQr'
+import { ThemeToggle } from './ThemeToggle'
 import { ShareDetails } from './ShareDetails'
 import './profile-card.css'
 
@@ -28,6 +30,18 @@ export function generateStaticParams() {
 
 type PageProps = { params: Promise<{ handle: string }> }
 
+/** Browser chrome follows the visitor's system theme, matching the card's own default. */
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#FBF8F4' },
+    { media: '(prefers-color-scheme: dark)', color: '#171210' },
+  ],
+}
+
+/** Applies a stored light/dark choice before first paint, so a returning visitor sees no flash. */
+const THEME_BOOT = "try{var t=localStorage.getItem('sundae-card-theme');if(t==='light'||t==='dark'){document.currentScript.parentElement.setAttribute('data-theme',t)}}catch(e){}"
+
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { handle } = await params
   const profile = getProfile(handle)
@@ -42,7 +56,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description,
     // Personal contact details: reachable by link and QR, not indexed.
     robots: { index: false, follow: false },
-    openGraph: { title: `${name} · Sundae`, description },
+    openGraph: {
+      title: `${name} · Sundae`,
+      description,
+      images: [{ url: `/profile/${profile.handle}-og.png`, width: 1200, height: 630, alt: `${name}, ${role}` }],
+    },
+    twitter: { card: 'summary_large_image', title: `${name} · Sundae`, description, images: [`/profile/${profile.handle}-og.png`] },
   }
 }
 
@@ -57,87 +76,67 @@ export default async function ProfilePage({ params }: PageProps) {
   const role = roleTitle(profile.roleKey, profile.titleForm, locale)
   const location = locationText(profile.cityKey, locale)
   const vcardHref = `/${profile.handle}/contact.vcf${locale === 'en' ? '' : `?lang=${encodeURIComponent(locale)}`}`
+  const rise = (delay: number) => ({ '--pc-delay': `${delay}ms` }) as React.CSSProperties
 
   return (
-    <div className="pc-root relative isolate min-h-[100dvh] overflow-hidden bg-[#171210] text-[#FBF8F4]">
-      <div className="pc-glow absolute inset-0 -z-10" aria-hidden="true" />
-      <ProfileArt className="pc-art" />
-      <div className="pc-fade" aria-hidden="true" />
+    <div className="pc-root" suppressHydrationWarning>
+      <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
+      <div className="pc-shell">
+        <aside className="pc-hero" aria-hidden="true">
+          <div className="pc-glow" />
+          <ProfileArt className="pc-art" />
+        </aside>
 
-      <div
-        className="relative z-10 mx-auto flex min-h-[100dvh] w-full max-w-[1180px] flex-col px-6 sm:px-10 lg:px-16"
-        style={{
-          paddingTop: 'max(1.5rem, env(safe-area-inset-top))',
-          paddingBottom: 'max(1.5rem, env(safe-area-inset-bottom))',
-        }}
-      >
-        <header className="flex items-center justify-between">
-          <Link href="/" aria-label="Sundae" className="inline-flex min-h-[44px] items-center">
-            <Image
-              src="/logos/sundae-wordmark-card-cream.svg"
-              alt="Sundae"
-              width={112}
-              height={34}
-              unoptimized
-              priority
-              className="h-[34px] w-auto"
-            />
-          </Link>
-          <ShareButton handle={profile.handle} title={name} shareLabel={copy.share} copiedLabel={copy.linkCopied} />
-        </header>
+        <div className="pc-content">
+          <header className="pc-header">
+            <Link href="/" aria-label="Sundae" className="inline-flex min-h-[44px] items-center">
+              <Image src="/logos/sundae-wordmark-card-cream.svg" alt="Sundae" width={112} height={34} unoptimized priority className="pc-wm-cream h-[34px] w-auto" />
+              <Image src="/logos/sundae-wordmark-card-ink.svg" alt="" width={112} height={34} unoptimized priority className="pc-wm-ink h-[34px] w-auto" />
+            </Link>
+            <div className="flex items-center gap-2">
+              <ShowQr handle={profile.handle} showLabel={copy.showQr} title={copy.qrTitle} closeLabel={copy.close} />
+              <ThemeToggle handle={profile.handle} label={copy.themeToggle} />
+              <ShareButton handle={profile.handle} title={name} shareLabel={copy.share} copiedLabel={copy.linkCopied} />
+            </div>
+          </header>
 
-        <main className="my-auto w-full max-w-[460px] pb-10 pt-[min(41vh,340px)] lg:pt-10">
-          <p className="pc-rise text-[12px] font-semibold uppercase tracking-[0.16em] text-[#FF5C4D]" style={{ '--pc-delay': '40ms' } as React.CSSProperties}>
-            {copy.eyebrow}
-          </p>
-          <h1 className="pc-name pc-rise mt-3 text-[clamp(2.6rem,10vw,3.75rem)]" style={{ '--pc-delay': '100ms' } as React.CSSProperties}>
-            {name}
-          </h1>
-          <div className="pc-rise mt-3" style={{ '--pc-delay': '160ms' } as React.CSSProperties}>
-            <p className="text-[18px] font-semibold text-[#FF5C4D]"><bdi>{role}</bdi></p>
-            <p className="mt-2 text-[15px] leading-snug text-[#FBF8F4]/90"><bdi>{profile.company}</bdi></p>
-            <p className="mt-0.5 text-[15px] leading-snug text-[#D8CBBD]">
-              <bdi>{location}</bdi>
-            </p>
-            <p className="mt-4 max-w-[30ch] text-balance text-[14px] leading-snug text-[#9A8B7C]">{copy.tagline}</p>
-          </div>
+          <main className="pc-main">
+            <p className="pc-eyebrow pc-rise" style={rise(40)}>{copy.eyebrow}</p>
+            <h1 className="pc-name pc-rise mt-3" style={rise(100)}>{name}</h1>
+            <div className="pc-rise mt-3" style={rise(160)}>
+              <p className="pc-role"><bdi>{role}</bdi></p>
+              <p className="pc-line1 mt-2"><bdi>{profile.company}</bdi></p>
+              <p className="pc-line2"><bdi>{location}</bdi></p>
+              <p className="pc-tagline">{copy.tagline}</p>
+            </div>
 
-          <div className="pc-rise mt-8" style={{ '--pc-delay': '240ms' } as React.CSSProperties}>
-            <ProfileActions
-              handle={profile.handle}
-              vcardHref={vcardHref}
-              bookHref={DEMO_URL}
-              copy={copy}
-              phone={profile.phone}
-              phoneDisplay={profile.phoneDisplay}
-              email={profile.email}
-              linkedinUrl={profile.linkedin}
-              linkedinHandle={profile.linkedin ? linkedinHandle(profile.linkedin) : undefined}
-              websiteUrl={profile.website}
-              websiteDisplay={displayHost(profile.website)}
-            >
-              <ShareDetails
+            <div className="pc-rise mt-8" style={rise(240)}>
+              <ProfileActions
                 handle={profile.handle}
-                ownerFirstName={profile.givenName}
-                ownerEmail={profile.email}
-                locale={locale}
+                vcardHref={vcardHref}
+                bookHref={DEMO_URL}
                 copy={copy}
-              />
-            </ProfileActions>
-          </div>
-        </main>
+                phone={profile.phone}
+                phoneDisplay={profile.phoneDisplay}
+                email={profile.email}
+                linkedinUrl={profile.linkedin}
+                linkedinHandle={profile.linkedin ? linkedinHandle(profile.linkedin) : undefined}
+                websiteUrl={profile.website}
+                websiteDisplay={displayHost(profile.website)}
+              >
+                <ShareDetails handle={profile.handle} ownerFirstName={profile.givenName} ownerEmail={profile.email} locale={locale} copy={copy} />
+              </ProfileActions>
+            </div>
+          </main>
 
-        <footer className="flex flex-wrap items-center justify-between gap-x-6 gap-y-1 pt-4 text-[12px] text-[#9A8B7C]">
-          <bdi>{profile.company}</bdi>
-          <nav aria-label={`${copy.privacy}, ${copy.terms}`} className="flex items-center gap-1">
-            <Link href="/privacy" className="inline-flex min-h-[44px] items-center px-2 hover:text-[#FBF8F4]">
-              {copy.privacy}
-            </Link>
-            <Link href="/terms" className="inline-flex min-h-[44px] items-center px-2 hover:text-[#FBF8F4]">
-              {copy.terms}
-            </Link>
-          </nav>
-        </footer>
+          <footer className="pc-muted flex flex-wrap items-center justify-between gap-x-6 gap-y-1 pt-2 text-[12px]">
+            <bdi>{profile.company}</bdi>
+            <nav aria-label={`${copy.privacy}, ${copy.terms}`} className="flex items-center gap-1">
+              <Link href="/privacy" className="inline-flex min-h-[44px] items-center px-2">{copy.privacy}</Link>
+              <Link href="/terms" className="inline-flex min-h-[44px] items-center px-2">{copy.terms}</Link>
+            </nav>
+          </footer>
+        </div>
       </div>
     </div>
   )

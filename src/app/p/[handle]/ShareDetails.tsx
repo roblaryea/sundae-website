@@ -1,7 +1,7 @@
 'use client'
 
-import { useId, useRef, useState, type FormEvent } from 'react'
-import { ChevronDown, ChevronUp, Send, UserRoundCheck } from 'lucide-react'
+import { useId, useRef, useState, useSyncExternalStore, type FormEvent } from 'react'
+import { ChevronDown, ChevronUp, ContactRound, Send, UserRoundCheck } from 'lucide-react'
 import Link from 'next/link'
 import { trackCta } from '@/lib/cta'
 import { splitTemplate } from '@/lib/profileConnect'
@@ -9,15 +9,24 @@ import type { ProfileCardCopy } from '@/lib/profileCardCopy'
 
 type Status = 'idle' | 'sending' | 'sent' | 'invalid' | 'error'
 
-const inputClass =
-  'mt-1.5 block h-12 w-full rounded-xl border border-[#FBF8F4]/20 bg-[#FBF8F4]/[.06] px-3.5 text-[16px] text-[#FBF8F4] placeholder:text-[#9A8B7C] focus:border-[#FBF8F4]/60 focus:outline-none aria-[invalid=true]:border-[#FF8A7D]'
+/** The Contact Picker API (Chrome on Android). Not available on iOS Safari or desktop. */
+type PickedContact = { name?: string[]; email?: string[]; tel?: string[] }
+type ContactsApi = { select(properties: string[], options?: { multiple?: boolean }): Promise<PickedContact[]> }
+
+const subscribeNever = () => () => {}
+function detectContactPicker(): boolean {
+  const contacts = (navigator as Navigator & { contacts?: ContactsApi }).contacts
+  return Boolean(contacts && typeof contacts.select === 'function' && 'ContactsManager' in window)
+}
+
+const inputClass = 'pc-field mt-1.5 block h-12 w-full rounded-xl px-3.5 text-[16px]'
 
 /** A localized sentence with {name} replaced by the owner's name, isolated so it reads correctly in right-to-left text. */
 function WithName({ template, name }: { template: string; name: string }) {
   return (
     <>
       {splitTemplate(template, name).map((part, index) =>
-        part.isName ? <bdi key={index} className="font-medium text-[#FBF8F4]">{part.text}</bdi> : <span key={index}>{part.text}</span>,
+        part.isName ? <bdi key={index} className="pc-fg font-medium">{part.text}</bdi> : <span key={index}>{part.text}</span>,
       )}
     </>
   )
@@ -25,8 +34,14 @@ function WithName({ template, name }: { template: string; name: string }) {
 
 /**
  * Two-way exchange: the visitor can leave their details for the card owner. Collapsed by
- * default so the card stays one clear action; opens inline. Name and email are required,
- * everything else is optional, and consent is explicit.
+ * default so the card stays one clear action. Name and email are required, everything else
+ * is optional, and consent is explicit.
+ *
+ * Retyping is avoided wherever the platform allows it:
+ *  - iOS and most desktop browsers fill name, email, phone and company from the visitor's own
+ *    contact card in one tap, through standard autocomplete tokens on the fields.
+ *  - Chrome on Android also offers "Fill from my contacts" (the Contact Picker API). It only
+ *    fills the form: everything stays editable and nothing is sent until the visitor submits.
  */
 export function ShareDetails({
   handle,
@@ -44,9 +59,14 @@ export function ShareDetails({
   const [open, setOpen] = useState(false)
   const [status, setStatus] = useState<Status>('idle')
   const [badFields, setBadFields] = useState<string[]>([])
+  const [filled, setFilled] = useState(false)
   const openedAt = useRef<number>(0)
   const doneRef = useRef<HTMLDivElement>(null)
+  const formRef = useRef<HTMLFormElement>(null)
   const panelId = useId()
+
+  // Feature detection without a hydration mismatch: the server snapshot is always false.
+  const canPick = useSyncExternalStore(subscribeNever, detectContactPicker, () => false)
 
   function toggle() {
     if (!open) {
@@ -54,6 +74,27 @@ export function ShareDetails({
       trackCta('profile_card_share_details_open', { handle })
     }
     setOpen(!open)
+  }
+
+  function setField(name: string, value: string | undefined) {
+    const element = formRef.current?.elements.namedItem(name)
+    if (value && element instanceof HTMLInputElement) element.value = value.trim()
+  }
+
+  async function fillFromContacts() {
+    const contacts = (navigator as Navigator & { contacts?: ContactsApi }).contacts
+    if (!contacts) return
+    try {
+      const [picked] = await contacts.select(['name', 'email', 'tel'], { multiple: false })
+      if (!picked) return
+      setField('name', picked.name?.[0])
+      setField('email', picked.email?.[0])
+      setField('phone', picked.tel?.[0])
+      setFilled(true)
+      trackCta('profile_card_fill_from_contacts', { handle })
+    } catch {
+      /* The visitor dismissed the picker or declined access. They can still type. */
+    }
   }
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
@@ -106,50 +147,62 @@ export function ShareDetails({
         onClick={toggle}
         aria-expanded={open}
         aria-controls={panelId}
-        className="pc-row flex min-h-[56px] w-full items-center justify-between gap-3 rounded-2xl border border-[#FBF8F4]/20 px-4 text-start text-[16px] font-medium text-[#FBF8F4]"
+        className="pc-outline pc-row flex min-h-[56px] w-full items-center justify-between gap-3 px-4 text-start text-[16px] font-medium"
       >
         <span className="flex items-center gap-3">
-          <UserRoundCheck className="h-5 w-5 text-[#FF5C4D]" aria-hidden="true" />
+          <UserRoundCheck className="pc-icon h-5 w-5" aria-hidden="true" />
           {copy.shareDetails}
         </span>
-        {open ? (
-          <ChevronUp className="h-4 w-4 text-[#9A8B7C]" aria-hidden="true" />
-        ) : (
-          <ChevronDown className="h-4 w-4 text-[#9A8B7C]" aria-hidden="true" />
-        )}
+        {open ? <ChevronUp className="pc-muted h-4 w-4" aria-hidden="true" /> : <ChevronDown className="pc-muted h-4 w-4" aria-hidden="true" />}
       </button>
 
-      <div id={panelId} hidden={!open} className="mt-3 rounded-2xl border border-[#FBF8F4]/12 bg-[#FBF8F4]/[.04] p-4">
+      <div id={panelId} hidden={!open} className="pc-panel mt-3 p-4">
         {status === 'sent' ? (
           <div ref={doneRef} tabIndex={-1} role="status" className="py-2 outline-none">
-            <p className="text-[18px] font-semibold text-[#FBF8F4]">{copy.thanksTitle}</p>
-            <p className="mt-1 text-[15px] text-[#D8CBBD]">
+            <p className="pc-fg text-[18px] font-semibold">{copy.thanksTitle}</p>
+            <p className="pc-soft mt-1 text-[15px]">
               <WithName template={copy.thanksBody} name={ownerFirstName} />
             </p>
           </div>
         ) : (
-          <form onSubmit={onSubmit} noValidate={false} className="space-y-3.5">
-            <p className="text-[14px] leading-snug text-[#D8CBBD]">
+          <form ref={formRef} onSubmit={onSubmit} autoComplete="on" className="space-y-3.5">
+            <p className="pc-soft text-[14px] leading-snug">
               <WithName template={copy.shareDetailsHint} name={ownerFirstName} />
             </p>
 
-            <label className="block text-[13px] font-medium text-[#D8CBBD]">
+            {canPick && (
+              <div>
+                <button
+                  type="button"
+                  onClick={fillFromContacts}
+                  className="pc-outline pc-row flex min-h-[48px] w-full items-center justify-center gap-2.5 px-4 text-[15px] font-medium"
+                >
+                  <ContactRound className="pc-icon h-[18px] w-[18px]" aria-hidden="true" />
+                  {copy.fillFromContacts}
+                </button>
+                <p role="status" className="pc-soft mt-2 min-h-[1.1rem] text-[13px]">
+                  {filled ? copy.fillHint : ''}
+                </p>
+              </div>
+            )}
+
+            <label className="pc-soft block text-[13px] font-medium">
               {copy.fieldName}
-              <input name="name" type="text" required minLength={2} maxLength={120} autoComplete="name" aria-invalid={invalid('name')} className={inputClass} />
+              <input name="name" type="text" required minLength={2} maxLength={120} autoComplete="name" enterKeyHint="next" aria-invalid={invalid('name')} className={inputClass} />
             </label>
-            <label className="block text-[13px] font-medium text-[#D8CBBD]">
+            <label className="pc-soft block text-[13px] font-medium">
               {copy.email}
-              <input name="email" type="email" required maxLength={254} autoComplete="email" inputMode="email" dir="ltr" aria-invalid={invalid('email')} className={`${inputClass} text-start`} />
+              <input name="email" type="email" required maxLength={254} autoComplete="email" inputMode="email" enterKeyHint="next" dir="ltr" aria-invalid={invalid('email')} className={`${inputClass} text-start`} />
             </label>
-            <label className="block text-[13px] font-medium text-[#D8CBBD]">
+            <label className="pc-soft block text-[13px] font-medium">
               {copy.fieldPhone}
-              <input name="phone" type="tel" maxLength={30} autoComplete="tel" inputMode="tel" dir="ltr" aria-invalid={invalid('phone')} className={`${inputClass} text-start`} />
+              <input name="phone" type="tel" maxLength={30} autoComplete="tel" inputMode="tel" enterKeyHint="next" dir="ltr" aria-invalid={invalid('phone')} className={`${inputClass} text-start`} />
             </label>
-            <label className="block text-[13px] font-medium text-[#D8CBBD]">
+            <label className="pc-soft block text-[13px] font-medium">
               {copy.fieldCompany}
-              <input name="company" type="text" maxLength={120} autoComplete="organization" aria-invalid={invalid('company')} className={inputClass} />
+              <input name="company" type="text" maxLength={120} autoComplete="organization" enterKeyHint="next" aria-invalid={invalid('company')} className={inputClass} />
             </label>
-            <label className="block text-[13px] font-medium text-[#D8CBBD]">
+            <label className="pc-soft block text-[13px] font-medium">
               {copy.fieldNote}
               <textarea name="note" rows={3} maxLength={1000} aria-invalid={invalid('note')} className={`${inputClass} h-auto py-3`} />
             </label>
@@ -157,17 +210,17 @@ export function ShareDetails({
             {/* Honeypot: invisible to people, tempting to bots. */}
             <input name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 opacity-0" />
 
-            <label className="flex items-start gap-3 text-[13.5px] leading-snug text-[#D8CBBD]">
-              <input name="consent" type="checkbox" required aria-invalid={invalid('consent')} className="mt-0.5 h-5 w-5 shrink-0 accent-[#FF5C4D]" />
+            <label className="pc-soft flex items-start gap-3 text-[13.5px] leading-snug">
+              <input name="consent" type="checkbox" required aria-invalid={invalid('consent')} className="mt-0.5 h-5 w-5 shrink-0 accent-[#ff5c4d]" />
               <span>
                 {copy.consent}{' '}
-                <Link href="/privacy" target="_blank" className="underline decoration-[#FF5C4D] underline-offset-4 hover:text-[#FBF8F4]">
+                <Link href="/privacy" target="_blank" className="pc-fg underline decoration-[var(--pc-accent)] underline-offset-4">
                   {copy.privacy}
                 </Link>
               </span>
             </label>
 
-            <div aria-live="polite" className="min-h-[1.25rem] text-[13.5px] text-[#FF8A7D]">
+            <div aria-live="polite" className="pc-danger min-h-[1.25rem] text-[13.5px]">
               {status === 'invalid' && copy.formInvalid}
               {status === 'error' && (
                 <span>

@@ -26,6 +26,31 @@ rewritten in `next.config.ts` for registered handles only, so unknown URLs keep 
 The downloaded contact file follows the visitor's language for the job title and place names
 (`?lang=`); the person's name is always kept as written.
 
+## Look and feel
+
+- **Light and dark.** The card follows the visitor's system theme and has its own toggle (stored on
+  the device). The hero panel is always espresso: it holds the layered S, whose cream top would
+  vanish on paper. Palettes live in `profile-card.css`; do not use the site theme here.
+- **Show QR.** The QR button opens a full-screen code for this card so someone beside you can scan it
+  from your phone, no physical card needed.
+- **Link preview.** `public/profile/<handle>-og.png` is the image shown when the link is shared in
+  WhatsApp, iMessage, LinkedIn or Slack. Regenerate and commit it when a name or role changes:
+  `node --no-warnings scripts/profile-og/generate.mjs` (needs Playwright). Tests fail if it is missing.
+
+## Sharing details without retyping
+
+- **iPhone and most desktop browsers:** the form's fields carry standard autocomplete tokens, so
+  Safari/Chrome offer to fill name, email, phone and company from the visitor's own contact card in one tap.
+- **Chrome on Android:** a "Fill from my contacts" button uses the Contact Picker API. It only fills
+  the form; everything stays editable and nothing is sent until the visitor submits.
+- iOS Safari has no web API to read contacts, so AutoFill is the best available path there.
+
+## Before and after a deploy
+
+`npm run smoke:profile-card -- https://www.sundae.io` checks the page, the contact file, the link
+preview, redirects, the form endpoint (with an input that is rejected, so no lead is created) and that
+unknown URLs still 404. Run it before printing any cards that carry the link.
+
 ## Contact exchange and the CRM list
 
 Visitors can leave their own details ("Share your details": name and email required, phone,

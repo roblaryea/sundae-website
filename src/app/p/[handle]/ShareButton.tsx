@@ -44,19 +44,13 @@ export function ShareButton({
   }
 
   return (
-    <div className="relative flex items-center gap-3">
-      <span role="status" aria-live="polite" className={copied ? 'text-[13px] text-[#D8CBBD]' : 'sr-only'}>
+    <>
+      <span role="status" aria-live="polite" className={copied ? 'pc-chip-text text-[13px]' : 'sr-only'} style={copied ? { color: 'var(--pc-header-fg)' } : undefined}>
         {copied ? copiedLabel : ''}
       </span>
-      <button
-        type="button"
-        onClick={onShare}
-        aria-label={shareLabel}
-        title={shareLabel}
-        className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[#FBF8F4]/25 bg-[#171210]/70 text-[#FBF8F4] transition hover:bg-[#FBF8F4]/15 active:scale-95"
-      >
+      <button type="button" onClick={onShare} aria-label={shareLabel} title={shareLabel} className="pc-iconbtn">
         <Share2 className="h-[18px] w-[18px]" aria-hidden="true" />
       </button>
-    </div>
+    </>
   )
 }

@@ -35,6 +35,13 @@ export type ProfileCardCopy = {
   thanksBody: string
   errorBody: string
   formInvalid: string
+  /** Convenience and sharing. */
+  fillFromContacts: string
+  fillHint: string
+  themeToggle: string
+  showQr: string
+  qrTitle: string
+  close: string
 }
 
 export const PROFILE_CARD_COPY_KEYS: (keyof ProfileCardCopy)[] = [
@@ -64,6 +71,12 @@ export const PROFILE_CARD_COPY_KEYS: (keyof ProfileCardCopy)[] = [
   'thanksBody',
   'errorBody',
   'formInvalid',
+  'fillFromContacts',
+  'fillHint',
+  'themeToggle',
+  'showQr',
+  'qrTitle',
+  'close',
 ]
 
 export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = {
@@ -94,6 +107,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} will be in touch soon.',
     errorBody: 'We could not send your details. Please try again, or email {name} directly.',
     formInvalid: 'Please check the highlighted fields.',
+    fillFromContacts: 'Fill from my contacts',
+    fillHint: 'Review and edit anything before you send.',
+    themeToggle: 'Switch between light and dark',
+    showQr: 'Show QR code',
+    qrTitle: 'Scan to open this card',
+    close: 'Close',
   },
   ar: {
     eyebrow: 'تواصل',
@@ -122,6 +141,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: 'سيتواصل معك {name} قريبًا.',
     errorBody: 'تعذّر إرسال بياناتك. حاول مرة أخرى أو راسل {name} مباشرة.',
     formInvalid: 'يرجى مراجعة الحقول المميّزة.',
+    fillFromContacts: 'املأ من جهات اتصالي',
+    fillHint: 'راجع البيانات وعدّلها قبل الإرسال.',
+    themeToggle: 'التبديل بين الوضع الفاتح والداكن',
+    showQr: 'عرض رمز QR',
+    qrTitle: 'امسح الرمز لفتح هذه البطاقة',
+    close: 'إغلاق',
   },
   fr: {
     eyebrow: 'Contact',
@@ -150,6 +175,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} vous répondra bientôt.',
     errorBody: 'Nous n’avons pas pu envoyer vos coordonnées. Réessayez ou écrivez directement à {name}.',
     formInvalid: 'Vérifiez les champs signalés.',
+    fillFromContacts: 'Remplir depuis mes contacts',
+    fillHint: 'Vérifiez et modifiez avant d’envoyer.',
+    themeToggle: 'Basculer entre clair et sombre',
+    showQr: 'Afficher le code QR',
+    qrTitle: 'Scannez pour ouvrir cette carte',
+    close: 'Fermer',
   },
   es: {
     eyebrow: 'Contacto',
@@ -178,6 +209,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} se pondrá en contacto pronto.',
     errorBody: 'No pudimos enviar tus datos. Inténtalo de nuevo o escribe directamente a {name}.',
     formInvalid: 'Revisa los campos marcados.',
+    fillFromContacts: 'Rellenar desde mis contactos',
+    fillHint: 'Revisa y edita todo antes de enviar.',
+    themeToggle: 'Cambiar entre claro y oscuro',
+    showQr: 'Mostrar código QR',
+    qrTitle: 'Escanea para abrir esta tarjeta',
+    close: 'Cerrar',
   },
   de: {
     eyebrow: 'Kontakt',
@@ -206,6 +243,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} meldet sich in Kürze.',
     errorBody: 'Ihre Daten konnten nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an {name}.',
     formInvalid: 'Bitte prüfen Sie die markierten Felder.',
+    fillFromContacts: 'Aus meinen Kontakten übernehmen',
+    fillHint: 'Bitte prüfen und bei Bedarf ändern, bevor Sie senden.',
+    themeToggle: 'Zwischen hell und dunkel wechseln',
+    showQr: 'QR-Code anzeigen',
+    qrTitle: 'Scannen, um diese Karte zu öffnen',
+    close: 'Schließen',
   },
   nl: {
     eyebrow: 'Contact',
@@ -234,6 +277,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} neemt binnenkort contact op.',
     errorBody: 'We konden je gegevens niet verzenden. Probeer het opnieuw of mail {name} rechtstreeks.',
     formInvalid: 'Controleer de gemarkeerde velden.',
+    fillFromContacts: 'Invullen vanuit mijn contacten',
+    fillHint: 'Controleer en pas aan voordat je verzendt.',
+    themeToggle: 'Wisselen tussen licht en donker',
+    showQr: 'QR-code tonen',
+    qrTitle: 'Scan om deze kaart te openen',
+    close: 'Sluiten',
   },
   pt: {
     eyebrow: 'Contato',
@@ -262,6 +311,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} entrará em contato em breve.',
     errorBody: 'Não foi possível enviar seus dados. Tente novamente ou escreva diretamente para {name}.',
     formInvalid: 'Confira os campos destacados.',
+    fillFromContacts: 'Preencher com meus contatos',
+    fillHint: 'Revise e edite tudo antes de enviar.',
+    themeToggle: 'Alternar entre claro e escuro',
+    showQr: 'Mostrar código QR',
+    qrTitle: 'Escaneie para abrir este cartão',
+    close: 'Fechar',
   },
   hi: {
     eyebrow: 'संपर्क',
@@ -290,6 +345,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} जल्द ही आपसे संपर्क करेंगे।',
     errorBody: 'आपकी जानकारी नहीं भेजी जा सकी। कृपया फिर कोशिश करें या सीधे {name} को ईमेल करें।',
     formInvalid: 'कृपया चिह्नित फ़ील्ड जाँचें।',
+    fillFromContacts: 'मेरे संपर्कों से भरें',
+    fillHint: 'भेजने से पहले जाँचें और ज़रूरत हो तो बदलें।',
+    themeToggle: 'हल्के और गहरे मोड के बीच बदलें',
+    showQr: 'QR कोड दिखाएँ',
+    qrTitle: 'इस कार्ड को खोलने के लिए स्कैन करें',
+    close: 'बंद करें',
   },
   ur: {
     eyebrow: 'رابطہ',
@@ -318,6 +379,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} جلد آپ سے رابطہ کریں گے۔',
     errorBody: 'آپ کی معلومات نہیں بھیجی جا سکیں۔ دوبارہ کوشش کریں یا براہِ راست {name} کو ای میل کریں۔',
     formInvalid: 'براہِ کرم نشان زد خانے چیک کریں۔',
+    fillFromContacts: 'میرے رابطوں سے بھریں',
+    fillHint: 'بھیجنے سے پہلے جانچیں اور ضرورت ہو تو بدل لیں۔',
+    themeToggle: 'ہلکے اور گہرے موڈ کے درمیان تبدیل کریں',
+    showQr: 'QR کوڈ دکھائیں',
+    qrTitle: 'اس کارڈ کو کھولنے کے لیے اسکین کریں',
+    close: 'بند کریں',
   },
   it: {
     eyebrow: 'Contatto',
@@ -346,6 +413,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} ti contatterà presto.',
     errorBody: 'Non è stato possibile inviare i tuoi dati. Riprova o scrivi direttamente a {name}.',
     formInvalid: 'Controlla i campi evidenziati.',
+    fillFromContacts: 'Compila dai miei contatti',
+    fillHint: 'Controlla e modifica prima di inviare.',
+    themeToggle: 'Passa da chiaro a scuro',
+    showQr: 'Mostra il codice QR',
+    qrTitle: 'Scansiona per aprire questo biglietto',
+    close: 'Chiudi',
   },
   pl: {
     eyebrow: 'Kontakt',
@@ -374,6 +447,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} wkrótce się odezwie.',
     errorBody: 'Nie udało się wysłać danych. Spróbuj ponownie lub napisz bezpośrednio do {name}.',
     formInvalid: 'Sprawdź zaznaczone pola.',
+    fillFromContacts: 'Uzupełnij z moich kontaktów',
+    fillHint: 'Sprawdź i popraw dane przed wysłaniem.',
+    themeToggle: 'Przełącz jasny i ciemny motyw',
+    showQr: 'Pokaż kod QR',
+    qrTitle: 'Zeskanuj, aby otworzyć tę wizytówkę',
+    close: 'Zamknij',
   },
   tr: {
     eyebrow: 'İletişim',
@@ -402,6 +481,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} kısa süre içinde sizinle iletişime geçecek.',
     errorBody: 'Bilgileriniz gönderilemedi. Lütfen tekrar deneyin veya doğrudan {name} ile e-posta yoluyla iletişime geçin.',
     formInvalid: 'Lütfen işaretli alanları kontrol edin.',
+    fillFromContacts: 'Kişilerimden doldur',
+    fillHint: 'Göndermeden önce kontrol edip düzenleyin.',
+    themeToggle: 'Açık ve koyu mod arasında geçiş yap',
+    showQr: 'QR kodunu göster',
+    qrTitle: 'Bu kartı açmak için tarayın',
+    close: 'Kapat',
   },
   'zh-Hans': {
     eyebrow: '联系',
@@ -430,6 +515,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} 将很快与您联系。',
     errorBody: '未能发送您的信息。请重试，或直接给 {name} 发送邮件。',
     formInvalid: '请检查标出的字段。',
+    fillFromContacts: '从我的通讯录填写',
+    fillHint: '发送前请检查并按需修改。',
+    themeToggle: '在浅色和深色之间切换',
+    showQr: '显示二维码',
+    qrTitle: '扫描以打开此名片',
+    close: '关闭',
   },
   ja: {
     eyebrow: '連絡先',
@@ -458,6 +549,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} から近日中にご連絡します。',
     errorBody: '情報を送信できませんでした。もう一度お試しいただくか、{name} に直接メールしてください。',
     formInvalid: '強調表示された項目をご確認ください。',
+    fillFromContacts: '連絡先から入力',
+    fillHint: '送信前に内容を確認し、必要に応じて修正してください。',
+    themeToggle: 'ライトとダークを切り替え',
+    showQr: 'QRコードを表示',
+    qrTitle: 'スキャンしてこのカードを開く',
+    close: '閉じる',
   },
   ko: {
     eyebrow: '연락처',
@@ -486,6 +583,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name}님이 곧 연락드리겠습니다.',
     errorBody: '정보를 보내지 못했습니다. 다시 시도하시거나 {name}님께 직접 이메일을 보내 주세요.',
     formInvalid: '표시된 항목을 확인해 주세요.',
+    fillFromContacts: '내 연락처에서 채우기',
+    fillHint: '보내기 전에 내용을 확인하고 필요하면 수정해 주세요.',
+    themeToggle: '라이트/다크 모드 전환',
+    showQr: 'QR 코드 보기',
+    qrTitle: '스캔하여 이 명함 열기',
+    close: '닫기',
   },
   id: {
     eyebrow: 'Kontak',
@@ -514,6 +617,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} akan segera menghubungi Anda.',
     errorBody: 'Data Anda tidak dapat dikirim. Coba lagi atau kirim email langsung ke {name}.',
     formInvalid: 'Periksa kolom yang ditandai.',
+    fillFromContacts: 'Isi dari kontak saya',
+    fillHint: 'Periksa dan ubah sebelum mengirim.',
+    themeToggle: 'Beralih antara terang dan gelap',
+    showQr: 'Tampilkan kode QR',
+    qrTitle: 'Pindai untuk membuka kartu ini',
+    close: 'Tutup',
   },
   vi: {
     eyebrow: 'Liên hệ',
@@ -542,6 +651,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} sẽ sớm liên hệ với bạn.',
     errorBody: 'Không thể gửi thông tin của bạn. Vui lòng thử lại hoặc gửi email trực tiếp cho {name}.',
     formInvalid: 'Vui lòng kiểm tra các trường được đánh dấu.',
+    fillFromContacts: 'Điền từ danh bạ của tôi',
+    fillHint: 'Hãy kiểm tra và chỉnh sửa trước khi gửi.',
+    themeToggle: 'Chuyển giữa chế độ sáng và tối',
+    showQr: 'Hiện mã QR',
+    qrTitle: 'Quét để mở danh thiếp này',
+    close: 'Đóng',
   },
   ro: {
     eyebrow: 'Contact',
@@ -570,6 +685,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} te va contacta în curând.',
     errorBody: 'Nu am putut trimite datele tale. Încearcă din nou sau scrie direct lui {name}.',
     formInvalid: 'Verifică câmpurile marcate.',
+    fillFromContacts: 'Completează din contactele mele',
+    fillHint: 'Verifică și modifică înainte de a trimite.',
+    themeToggle: 'Comută între luminos și întunecat',
+    showQr: 'Arată codul QR',
+    qrTitle: 'Scanează pentru a deschide această carte',
+    close: 'Închide',
   },
   sv: {
     eyebrow: 'Kontakt',
@@ -598,6 +719,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} hör av sig inom kort.',
     errorBody: 'Vi kunde inte skicka dina uppgifter. Försök igen eller mejla {name} direkt.',
     formInvalid: 'Kontrollera de markerade fälten.',
+    fillFromContacts: 'Fyll i från mina kontakter',
+    fillHint: 'Granska och ändra innan du skickar.',
+    themeToggle: 'Växla mellan ljust och mörkt',
+    showQr: 'Visa QR-kod',
+    qrTitle: 'Skanna för att öppna det här kortet',
+    close: 'Stäng',
   },
   bn: {
     eyebrow: 'যোগাযোগ',
@@ -626,6 +753,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} শিগগিরই আপনার সঙ্গে যোগাযোগ করবেন।',
     errorBody: 'আপনার তথ্য পাঠানো যায়নি। আবার চেষ্টা করুন অথবা সরাসরি {name}-কে ইমেইল করুন।',
     formInvalid: 'চিহ্নিত ঘরগুলো দেখে নিন।',
+    fillFromContacts: 'আমার কন্টাক্ট থেকে পূরণ করুন',
+    fillHint: 'পাঠানোর আগে দেখে নিন ও প্রয়োজনে বদলান।',
+    themeToggle: 'হালকা ও গাঢ় মোডের মধ্যে বদলান',
+    showQr: 'QR কোড দেখান',
+    qrTitle: 'এই কার্ড খুলতে স্ক্যান করুন',
+    close: 'বন্ধ করুন',
   },
   th: {
     eyebrow: 'ติดต่อ',
@@ -654,6 +787,12 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} จะติดต่อกลับเร็ว ๆ นี้',
     errorBody: 'ไม่สามารถส่งข้อมูลของคุณได้ โปรดลองอีกครั้งหรืออีเมลถึง {name} โดยตรง',
     formInvalid: 'โปรดตรวจสอบช่องที่ทำเครื่องหมายไว้',
+    fillFromContacts: 'กรอกจากรายชื่อติดต่อของฉัน',
+    fillHint: 'ตรวจสอบและแก้ไขก่อนส่ง',
+    themeToggle: 'สลับระหว่างโหมดสว่างและมืด',
+    showQr: 'แสดงรหัส QR',
+    qrTitle: 'สแกนเพื่อเปิดนามบัตรนี้',
+    close: 'ปิด',
   },
   ms: {
     eyebrow: 'Hubungi',
@@ -682,5 +821,11 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     thanksBody: '{name} akan menghubungi anda tidak lama lagi.',
     errorBody: 'Maklumat anda tidak dapat dihantar. Sila cuba lagi atau e-mel terus kepada {name}.',
     formInvalid: 'Sila semak medan yang ditandakan.',
+    fillFromContacts: 'Isi daripada kenalan saya',
+    fillHint: 'Semak dan ubah sebelum menghantar.',
+    themeToggle: 'Tukar antara mod cerah dan gelap',
+    showQr: 'Papar kod QR',
+    qrTitle: 'Imbas untuk membuka kad ini',
+    close: 'Tutup',
   },
 }

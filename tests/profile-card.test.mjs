@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { existsSync, readFileSync } from "node:fs";
 import test from "node:test";
 
 import { buildVCard, escapeVCardText, foldLine, vCardFilename } from "../src/lib/vcard.ts";
@@ -195,5 +196,24 @@ test("localized strings avoid em dashes", () => {
     for (const key of PROFILE_CARD_COPY_KEYS) assert.doesNotMatch(profileCardCopy[locale][key], /[—–]/);
     const role = roleTitle("founder-ceo", "masculine", locale);
     assert.doesNotMatch(role, /[—–]/);
+  }
+});
+
+test("every profile has a 1200x630 link-preview image", () => {
+  for (const handle of PROFILE_HANDLES) {
+    const file = new URL(`../public/profile/${handle}-og.png`, import.meta.url);
+    assert.ok(existsSync(file), `public/profile/${handle}-og.png is missing (run scripts/profile-og/generate.mjs)`);
+    const png = readFileSync(file);
+    assert.equal(png.subarray(1, 4).toString(), "PNG");
+    assert.equal(png.readUInt32BE(16), 1200, `${handle}: preview width`);
+    assert.equal(png.readUInt32BE(20), 630, `${handle}: preview height`);
+  }
+});
+
+test("the new convenience strings are translated in every locale", () => {
+  for (const locale of WEBSITE_LOCALES.filter((l) => l !== "en")) {
+    for (const key of ["fillFromContacts", "fillHint", "themeToggle", "showQr", "qrTitle", "close"]) {
+      assert.notEqual(profileCardCopy[locale][key], profileCardCopy.en[key], `${locale}.${key} equals English`);
+    }
   }
 });
