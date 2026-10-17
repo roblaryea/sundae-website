@@ -4,7 +4,7 @@ import { useId, useRef, useState, useSyncExternalStore, type FormEvent } from 'r
 import { ChevronDown, ChevronUp, ContactRound, Send, UserRoundCheck } from 'lucide-react'
 import Link from 'next/link'
 import { trackCta } from '@/lib/cta'
-import { splitTemplate } from '@/lib/profileConnect'
+import { MIN_FILL_MS, splitTemplate } from '@/lib/profileConnect'
 import type { ProfileCardCopy } from '@/lib/profileCardCopy'
 
 type Status = 'idle' | 'sending' | 'sent' | 'invalid' | 'error'
@@ -103,8 +103,8 @@ export function ShareDetails({
     const value = (key: string) => String(form.get(key) ?? '')
     setStatus('sending')
     setBadFields([])
-    try {
-      const response = await fetch('/api/profile-card/connect', {
+    const send = () =>
+      fetch('/api/profile-card/connect', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -120,6 +120,15 @@ export function ShareDetails({
           startedAt: openedAt.current,
         }),
       })
+    try {
+      let response = await send()
+      if (response.status === 409) {
+        // The server found the timing unusual (for example AutoFill completed instantly, or the tab
+        // sat open for a day). A person is clearly here, so retry once with a fresh timer instead of
+        // losing their details.
+        openedAt.current = Date.now() - MIN_FILL_MS - 1000
+        response = await send()
+      }
       if (response.ok) {
         trackCta('profile_card_share_details_sent', { handle })
         setStatus('sent')

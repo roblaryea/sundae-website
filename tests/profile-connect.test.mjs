@@ -60,12 +60,14 @@ test("rejects missing consent, bad email, short name, unknown handle, bad phone"
   }
 });
 
-test("bots are ignored silently: honeypot filled, too fast, or stale form", () => {
+test("a honeypot or missing timestamp is ignored silently; odd timing asks for a retry", () => {
   assert.equal(parseConnectSubmission({ ...valid(), website: "http://spam.example" }, opts).kind, "ignored");
-  assert.equal(parseConnectSubmission({ ...valid(), startedAt: NOW - (MIN_FILL_MS - 1) }, opts).kind, "ignored");
-  assert.equal(parseConnectSubmission({ ...valid(), startedAt: NOW - MAX_FORM_AGE_MS - 1 }, opts).kind, "ignored");
   assert.equal(parseConnectSubmission({ ...valid(), startedAt: "now" }, opts).kind, "ignored");
   assert.equal(parseConnectSubmission({ ...valid(), startedAt: undefined }, opts).kind, "ignored");
+  // A fast AutoFill or a day-old tab is a risk signal, never a silent drop behind a success message.
+  assert.equal(parseConnectSubmission({ ...valid(), startedAt: NOW - (MIN_FILL_MS - 1) }, opts).kind, "retry");
+  assert.equal(parseConnectSubmission({ ...valid(), startedAt: NOW - MAX_FORM_AGE_MS - 1 }, opts).kind, "retry");
+  assert.equal(parseConnectSubmission({ ...valid(), startedAt: NOW - MIN_FILL_MS }, opts).kind, "ok");
 });
 
 test("non-object bodies are invalid, never throw", () => {
@@ -83,7 +85,7 @@ test("control characters are stripped and non-strings are rejected", () => {
 
 test("lead payload carries source, owner and consent evidence for the CRM", () => {
   const data = parseConnectSubmission(valid(), opts).data;
-  const payload = buildLeadPayload(robert, data, { locale: "ar", referrer: "https://www.sundae.io/robert", at: new Date("2026-10-17T10:00:00Z") });
+  const payload = buildLeadPayload(robert, data, { locale: "ar", consentText: profileCardCopy.ar.consent, referrer: "https://www.sundae.io/robert", at: new Date("2026-10-17T10:00:00Z") });
   assert.equal(payload.fullName, "Ada Lovelace");
   assert.equal(payload.email, "ada@example.com");
   assert.equal(payload.sourcePage, "/robert");
@@ -91,7 +93,15 @@ test("lead payload carries source, owner and consent evidence for the CRM", () =
   assert.equal(payload.locale, "ar");
   assert.equal(payload.company, "Analytical Engines Ltd");
   assert.equal(payload.message, "Met at the summit.");
-  assert.deepEqual(payload.metadata.consent, { given: true, version: CONSENT_VERSION, text: CONSENT_TEXT_EN, at: "2026-10-17T10:00:00.000Z" });
+  assert.deepEqual(payload.metadata.consent, {
+    given: true,
+    version: CONSENT_VERSION,
+    locale: "ar",
+    text: profileCardCopy.ar.consent,
+    text_en: CONSENT_TEXT_EN,
+    privacy_url: "https://www.sundae.io/privacy",
+    at: "2026-10-17T10:00:00.000Z",
+  });
   assert.equal(payload.metadata.channel, "qr_card");
   assert.equal(payload.metadata.profile_handle, "robert");
   assert.equal(payload.metadata.profile_owner_email, "robert@sundaetech.ai");
@@ -99,7 +109,7 @@ test("lead payload carries source, owner and consent evidence for the CRM", () =
 
 test("empty optional fields become null, not empty strings", () => {
   const data = parseConnectSubmission({ ...valid(), phone: "", company: "", note: "" }, opts).data;
-  const payload = buildLeadPayload(robert, data, { locale: null, referrer: null, at: new Date() });
+  const payload = buildLeadPayload(robert, data, { locale: null, consentText: CONSENT_TEXT_EN, referrer: null, at: new Date() });
   assert.equal(payload.phone, null);
   assert.equal(payload.company, null);
   assert.equal(payload.message, null);
@@ -130,4 +140,31 @@ test("consent wording names Sundae in every locale", () => {
   for (const [locale, copy] of Object.entries(profileCardCopy)) {
     assert.ok(copy.consent.includes("Sundae"), `${locale}.consent should name Sundae`);
   }
+});
+
+test("saved consent evidence is the wording shown in the visitor's language", () => {
+  const data = parseConnectSubmission(valid(), opts).data;
+  const at = new Date("2026-10-17T10:00:00Z");
+  for (const locale of ["en", "ar", "fr", "ru", "az", "pap", "zh-Hans"]) {
+    const payload = buildLeadPayload(robert, data, { locale, consentText: profileCardCopy[locale].consent, referrer: null, at });
+    assert.equal(payload.metadata.consent.text, profileCardCopy[locale].consent, locale);
+    assert.equal(payload.metadata.consent.locale, locale);
+    assert.equal(payload.metadata.consent.text_en, CONSENT_TEXT_EN);
+  }
+  assert.equal(CONSENT_TEXT_EN, profileCardCopy.en.consent);
+});
+
+test("request bodies are limited by bytes actually read, with or without Content-Length", async () => {
+  const { readTextLimited, BodyTooLargeError } = await import("../src/lib/readBodyLimited.ts");
+  const make = (text, headers = {}) => new Request("http://localhost/x", { method: "POST", body: text, headers });
+  assert.equal(await readTextLimited(make("hello"), 16), "hello");
+  assert.equal(await readTextLimited(make("é".repeat(8)), 16), "é".repeat(8));
+  await assert.rejects(readTextLimited(make("x".repeat(17)), 16), BodyTooLargeError);
+  // A declared length over the limit is rejected before reading.
+  await assert.rejects(readTextLimited(make("x", { "content-length": "99999" }), 16), BodyTooLargeError);
+  // An understated Content-Length cannot smuggle a large body past the check.
+  const stream = new ReadableStream({ start(c) { c.enqueue(new Uint8Array(10)); c.enqueue(new Uint8Array(10)); c.close(); } });
+  const lying = new Request("http://localhost/x", { method: "POST", body: stream, duplex: "half", headers: { "content-length": "5" } });
+  await assert.rejects(readTextLimited(lying, 16), BodyTooLargeError);
+  assert.equal(await readTextLimited(new Request("http://localhost/x", { method: "POST" }), 16), "");
 });

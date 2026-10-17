@@ -74,7 +74,8 @@ export default async function ProfilePage({ params }: PageProps) {
   const name = profileFullName(profile)
   const role = roleTitle(profile.roleKey, profile.titleForm, locale)
   const location = locationText(profile.cityKey, locale)
-  const vcardHref = `/${profile.handle}/contact.vcf${locale === 'en' ? '' : `?lang=${encodeURIComponent(locale)}`}`
+  // Always explicit, English included, so the file's language never depends on request headers.
+  const vcardHref = `/${profile.handle}/contact.vcf?lang=${encodeURIComponent(locale)}`
   const languageOptions = CARD_LOCALES.map((code) => ({ value: code, label: cardLocaleNativeName(code) }))
   const rise = (delay: number) => ({ '--pc-delay': `${delay}ms` }) as React.CSSProperties
 

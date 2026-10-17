@@ -1,9 +1,11 @@
 import { createHash, randomUUID } from 'node:crypto'
 import { NextRequest, NextResponse } from 'next/server'
+import { getProfileCardCopy } from '@/lib/profileCardCopy'
 import { normalizeCardLocale } from '@/lib/profileCardLocale'
 import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
 import { buildLeadPayload, parseConnectSubmission } from '@/lib/profileConnect'
+import { BodyTooLargeError, readTextLimited } from '@/lib/readBodyLimited'
 import { getProfile } from '@/lib/profiles'
 import { isSundaeBackendConfigured, submitLeadToSundae } from '@/lib/sundaeLeadClient'
 
@@ -11,8 +13,9 @@ import { isSundaeBackendConfigured, submitLeadToSundae } from '@/lib/sundaeLeadC
  * Receives "Share your details" from a profile card and forwards it to the Sundae
  * marketing-leads store (the same signed intake the website forms use), where it shows up
  * in the CRM lead list. Deliberately lean: name and email are the only required fields.
- * Abuse controls: honeypot and minimum fill time (both accepted silently), same-origin check,
- * per-IP rate limit, payload limits. Personal data is never written to logs.
+ * Abuse controls: honeypot (accepted silently), fill-time signal (asked to retry, never silently
+ * dropped), same-origin check, per-IP rate limit (process-local, so a speed bump only), and a
+ * byte-counted payload limit. Personal data is never written to logs.
  */
 export const runtime = 'nodejs'
 
@@ -20,7 +23,16 @@ const RATE_WINDOW_MS = 60 * 60 * 1000
 const RATE_MAX = 5
 const attempts = new Map<string, number[]>()
 
+const MAX_BODY_BYTES = 16_000
+const PRUNE_ABOVE = 500
+
 function rateLimited(ip: string, now: number): boolean {
+  // Drop addresses with no recent attempts so the map cannot grow without bound.
+  if (attempts.size > PRUNE_ABOVE) {
+    for (const [key, times] of attempts) {
+      if (times.every((t) => now - t >= RATE_WINDOW_MS)) attempts.delete(key)
+    }
+  }
   const recent = (attempts.get(ip) ?? []).filter((t) => now - t < RATE_WINDOW_MS)
   if (recent.length >= RATE_MAX) {
     attempts.set(ip, recent)
@@ -59,22 +71,26 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: 'rate_limited' }, { status: 429, headers: { 'Retry-After': '3600' } })
   }
 
-  const contentLength = Number(request.headers.get('content-length') ?? 0)
-  if (contentLength > 16_000) {
-    return NextResponse.json({ ok: false, error: 'too_large' }, { status: 413 })
+  if (!(request.headers.get('content-type') ?? '').toLowerCase().startsWith('application/json')) {
+    return NextResponse.json({ ok: false, error: 'unsupported_media_type' }, { status: 415 })
   }
 
   let raw: unknown
   try {
-    raw = await request.json()
-  } catch {
+    raw = JSON.parse(await readTextLimited(request, MAX_BODY_BYTES))
+  } catch (error) {
+    if (error instanceof BodyTooLargeError) return NextResponse.json({ ok: false, error: 'too_large' }, { status: 413 })
     return NextResponse.json({ ok: false, error: 'invalid_json' }, { status: 400 })
   }
 
   const parsed = parseConnectSubmission(raw, { now, knownHandles: PROFILE_HANDLES })
   if (parsed.kind === 'ignored') {
-    // Looks automated. Report success so a bot learns nothing, and forward nothing.
+    // Honeypot filled or no usable timestamp. Report success so a bot learns nothing, and forward nothing.
     return NextResponse.json({ ok: true })
+  }
+  if (parsed.kind === 'retry') {
+    // Timing looked unusual. Never claim success for something we did not store: ask the client to retry.
+    return NextResponse.json({ ok: false, error: 'retry' }, { status: 409 })
   }
   if (parsed.kind === 'invalid') {
     return NextResponse.json({ ok: false, error: 'invalid', fields: parsed.fields }, { status: 400 })
@@ -91,6 +107,7 @@ export async function POST(request: NextRequest) {
   const locale = normalizeCardLocale((raw as { locale?: string }).locale)
   const payload = buildLeadPayload(profile, parsed.data, {
     locale,
+    consentText: getProfileCardCopy(locale).consent,
     referrer: request.headers.get('referer'),
     at: new Date(now),
   })

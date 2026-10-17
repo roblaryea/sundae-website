@@ -34,11 +34,18 @@ export async function GET(request: Request, { params }: { params: Promise<{ hand
     country: countryName(profile.cityKey, locale),
     photoPngBase64: PROFILE_AVATAR_PNG_BASE64,
   })
+  // With ?lang= the URL itself identifies the language, so shared caching is safe. Without it the
+  // language comes from the Accept-Language header, which a shared cache may not key on, so that
+  // response is private and always revalidated.
+  const explicitLanguage = lang !== null && lang !== ''
   return new Response(body, {
     headers: {
       'Content-Type': 'text/vcard; charset=utf-8',
       'Content-Disposition': `inline; filename="${vCardFilename(profile)}"`,
-      'Cache-Control': 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400',
+      'Cache-Control': explicitLanguage
+        ? 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400'
+        : 'private, max-age=0, must-revalidate',
+      Vary: 'Accept-Language',
       'X-Robots-Tag': 'noindex, nofollow',
       'X-Content-Type-Options': 'nosniff',
     },
