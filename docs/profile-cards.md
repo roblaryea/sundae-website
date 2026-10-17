@@ -53,6 +53,10 @@ unknown URLs still 404. Run it before printing any cards that carry the link.
 
 ## Contact exchange and the CRM list
 
+> **Off by default.** The form and its API route only exist when the hosting environment sets
+> `PROFILE_CARD_LEAD_FORM=on`. Leave it unset until the consent wording and privacy-policy coverage
+> are approved; the page and Save contact work without it.
+
 Visitors can leave their own details ("Share your details": name and email required, phone,
 company and message optional, explicit consent). It posts to `/api/profile-card/connect`, which
 forwards a signed lead to the Sundae backend's marketing-leads intake, the same intake the

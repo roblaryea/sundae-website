@@ -5,6 +5,7 @@ import test from "node:test";
 import { buildVCard, escapeVCardText, foldLine, vCardFilename } from "../src/lib/vcard.ts";
 import { PROFILE_CARD_COPY_KEYS, profileCardCopy } from "../src/lib/profileCardCopy.ts";
 import { PROFILE_HANDLES, isProfileCardPath, isProfileHandle } from "../src/lib/profileHandles.ts";
+import { isLeadFormEnabled } from "../src/lib/profileFeatures.ts";
 import { CITIES, ROLE_TITLES, cityName, countryName, locationText, roleTitle } from "../src/lib/profileCatalogue.ts";
 import { PROFILES, COMPANY_LEGAL_NAME, displayHost, linkedinHandle } from "../src/lib/profileData.ts";
 
@@ -216,4 +217,12 @@ test("the new convenience strings are translated in every locale", () => {
       assert.notEqual(profileCardCopy[locale][key], profileCardCopy.en[key], `${locale}.${key} equals English`);
     }
   }
+});
+
+test("the lead form is off unless explicitly switched on", () => {
+  assert.equal(isLeadFormEnabled({}), false);
+  for (const value of ["", "off", "true", "1", "ON", "yes", " on"]) {
+    assert.equal(isLeadFormEnabled({ PROFILE_CARD_LEAD_FORM: value }), false, JSON.stringify(value));
+  }
+  assert.equal(isLeadFormEnabled({ PROFILE_CARD_LEAD_FORM: "on" }), true);
 });

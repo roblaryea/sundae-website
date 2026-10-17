@@ -47,7 +47,8 @@ for (const handle of handles) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ handle, name: 'Smoke Test', email: 'smoke@example.com', consent: false, website: '', startedAt: Date.now() - 60_000 }),
   })
-  check('lead form endpoint is alive and rejects input without consent', post.status === 400, `status ${post.status}`)
+  // 404 means the lead form is switched off (PROFILE_CARD_LEAD_FORM is not "on"): expected until it is approved.
+  check('lead form endpoint is off, or on and rejecting input without consent', post.status === 404 || post.status === 400, post.status === 404 ? 'switched off' : `status ${post.status}`)
 }
 
 console.log('\n-- rest of the site')

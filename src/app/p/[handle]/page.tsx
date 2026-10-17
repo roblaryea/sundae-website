@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation'
 import { getLocalizedCopy, resolveWebsiteLocale } from '@/lib/i18n'
 import { locationText, roleTitle } from '@/lib/profileCatalogue'
 import { profileCardCopy } from '@/lib/profileCardCopy'
+import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
 import { displayHost, getProfile, linkedinHandle, profileFullName } from '@/lib/profiles'
 import { DEMO_URL } from '@/lib/urls'
@@ -124,7 +125,9 @@ export default async function ProfilePage({ params }: PageProps) {
                 websiteUrl={profile.website}
                 websiteDisplay={displayHost(profile.website)}
               >
-                <ShareDetails handle={profile.handle} ownerFirstName={profile.givenName} ownerEmail={profile.email} locale={locale} copy={copy} />
+                {isLeadFormEnabled() && (
+                  <ShareDetails handle={profile.handle} ownerFirstName={profile.givenName} ownerEmail={profile.email} locale={locale} copy={copy} />
+                )}
               </ProfileActions>
             </div>
           </main>

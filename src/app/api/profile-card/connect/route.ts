@@ -1,6 +1,7 @@
 import { createHash, randomUUID } from 'node:crypto'
 import { NextRequest, NextResponse } from 'next/server'
 import { normalizeWebsiteLocale } from '@/lib/i18n'
+import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
 import { buildLeadPayload, parseConnectSubmission } from '@/lib/profileConnect'
 import { getProfile } from '@/lib/profiles'
@@ -41,6 +42,11 @@ function sameOrigin(request: NextRequest): boolean {
 }
 
 export async function POST(request: NextRequest) {
+  // Off until the consent wording and privacy coverage are approved (see profileFeatures.ts).
+  if (!isLeadFormEnabled()) {
+    return NextResponse.json({ ok: false, error: 'disabled' }, { status: 404 })
+  }
+
   const requestId = randomUUID()
   const now = Date.now()
 
