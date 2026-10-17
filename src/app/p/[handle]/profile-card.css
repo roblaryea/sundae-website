@@ -1,48 +1,11 @@
 /* Profile card page (sundae.io/<handle>). A brand object, not a themed marketing page:
-   it carries its own dark and light palettes (system preference by default, a visitor
-   toggle overrides it) and does not use the site's theme. The hero panel is always
+   it carries its own light and dark palettes (light by default, a visitor toggle switches
+   and remembers the choice on that device) and does not use the site's theme. The hero panel is always
    espresso: it holds the layered S, whose cream top would disappear on paper.
    Motion is additive only: everything is visible without it. */
 
 /* ---------- palettes ---------- */
 .pc-root {
-  --pc-bg: #171210;
-  --pc-fg: #fbf8f4;
-  --pc-soft: #d8cbbd;
-  --pc-muted: #9a8b7c;
-  --pc-accent: #ff5c4d;
-  --pc-line: rgba(251, 248, 244, 0.12);
-  --pc-line-2: rgba(251, 248, 244, 0.22);
-  --pc-surface: rgba(251, 248, 244, 0.04);
-  --pc-surface-hover: rgba(251, 248, 244, 0.07);
-  --pc-field: rgba(251, 248, 244, 0.06);
-  --pc-danger: #ff8a7d;
-  --pc-shadow: none;
-  --pc-hero: #171210;
-  --pc-hero-fg: #fbf8f4;
-  --pc-header-fg: var(--pc-hero-fg);
-  --pc-header-chip: rgba(23, 18, 16, 0.55);
-  background: var(--pc-bg);
-  color: var(--pc-fg);
-}
-
-@media (prefers-color-scheme: light) {
-  .pc-root:not([data-theme]) {
-    --pc-bg: #fbf8f4;
-    --pc-fg: #241e1a;
-    --pc-soft: #5f544b;
-    --pc-muted: #6e6157;
-    --pc-accent: #b93a2b;
-    --pc-line: rgba(36, 30, 26, 0.12);
-    --pc-line-2: rgba(36, 30, 26, 0.24);
-    --pc-surface: #ffffff;
-    --pc-surface-hover: #f5efe7;
-    --pc-field: #ffffff;
-    --pc-danger: #b42318;
-    --pc-shadow: 0 1px 2px rgba(36, 30, 26, 0.04), 0 18px 36px -24px rgba(36, 30, 26, 0.28);
-  }
-}
-.pc-root[data-theme="light"] {
   --pc-bg: #fbf8f4;
   --pc-fg: #241e1a;
   --pc-soft: #5f544b;
@@ -55,6 +18,26 @@
   --pc-field: #ffffff;
   --pc-danger: #b42318;
   --pc-shadow: 0 1px 2px rgba(36, 30, 26, 0.04), 0 18px 36px -24px rgba(36, 30, 26, 0.28);
+  --pc-hero: #171210;
+  --pc-hero-fg: #fbf8f4;
+  --pc-header-fg: var(--pc-hero-fg);
+  --pc-header-chip: rgba(23, 18, 16, 0.55);
+  background: var(--pc-bg);
+  color: var(--pc-fg);
+}
+.pc-root[data-theme="dark"] {
+  --pc-bg: #171210;
+  --pc-fg: #fbf8f4;
+  --pc-soft: #d8cbbd;
+  --pc-muted: #9a8b7c;
+  --pc-accent: #ff5c4d;
+  --pc-line: rgba(251, 248, 244, 0.12);
+  --pc-line-2: rgba(251, 248, 244, 0.22);
+  --pc-surface: rgba(251, 248, 244, 0.04);
+  --pc-surface-hover: rgba(251, 248, 244, 0.07);
+  --pc-field: rgba(251, 248, 244, 0.06);
+  --pc-danger: #ff8a7d;
+  --pc-shadow: none;
 }
 
 /* ---------- layout: hero on top on phones, framed side panel on wide screens ---------- */
@@ -142,23 +125,15 @@
 
 /* Wordmark: cream on the dark hero (phones, dark theme); ink on paper (light theme, wide screens). */
 .pc-wm-ink { display: none; }
-@media (min-width: 1024px) and (prefers-color-scheme: light) {
-  .pc-root:not([data-theme]) .pc-wm-cream { display: none; }
-  .pc-root:not([data-theme]) .pc-wm-ink { display: block; }
-}
 @media (min-width: 1024px) {
-  .pc-root[data-theme="light"] .pc-wm-cream { display: none; }
-  .pc-root[data-theme="light"] .pc-wm-ink { display: block; }
+  .pc-root:not([data-theme="dark"]) .pc-wm-cream { display: none; }
+  .pc-root:not([data-theme="dark"]) .pc-wm-ink { display: block; }
 }
 
 /* Theme toggle icon: shows the mode you would switch to. */
-.pc-moon { display: none; }
-@media (prefers-color-scheme: light) {
-  .pc-root:not([data-theme]) .pc-sun { display: none; }
-  .pc-root:not([data-theme]) .pc-moon { display: block; }
-}
-.pc-root[data-theme="light"] .pc-sun { display: none; }
-.pc-root[data-theme="light"] .pc-moon { display: block; }
+.pc-sun { display: none; }
+.pc-root[data-theme="dark"] .pc-sun { display: block; }
+.pc-root[data-theme="dark"] .pc-moon { display: none; }
 
 /* ---------- type ---------- */
 .pc-name {

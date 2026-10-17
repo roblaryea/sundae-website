@@ -1,6 +1,6 @@
 import { createHash, randomUUID } from 'node:crypto'
 import { NextRequest, NextResponse } from 'next/server'
-import { normalizeWebsiteLocale } from '@/lib/i18n'
+import { normalizeCardLocale } from '@/lib/profileCardLocale'
 import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
 import { buildLeadPayload, parseConnectSubmission } from '@/lib/profileConnect'
@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: 'unavailable' }, { status: 503 })
   }
 
-  const locale = normalizeWebsiteLocale((raw as { locale?: string }).locale)
+  const locale = normalizeCardLocale((raw as { locale?: string }).locale)
   const payload = buildLeadPayload(profile, parsed.data, {
     locale,
     referrer: request.headers.get('referer'),

@@ -7,14 +7,16 @@ import { PROFILE_CARD_COPY_KEYS, profileCardCopy } from "../src/lib/profileCardC
 import { PROFILE_HANDLES, isProfileCardPath, isProfileHandle } from "../src/lib/profileHandles.ts";
 import { isLeadFormEnabled } from "../src/lib/profileFeatures.ts";
 import { CITIES, ROLE_TITLES, cityName, countryName, locationText, roleTitle } from "../src/lib/profileCatalogue.ts";
+import { CARD_LOCALES, cardLocaleDirection, resolveCardLocale } from "../src/lib/profileCardLocale.ts";
 import { PROFILES, COMPANY_LEGAL_NAME, displayHost, linkedinHandle } from "../src/lib/profileData.ts";
 
+// 25 languages: the website's 22 plus Papiamento, Russian and Azerbaijani (the booking set).
 const WEBSITE_LOCALES = [
   "en", "ar", "fr", "es", "de", "nl", "pt", "hi", "ur", "it", "pl", "tr",
-  "zh-Hans", "ja", "ko", "id", "vi", "ro", "sv", "bn", "th", "ms",
+  "zh-Hans", "ja", "ko", "id", "vi", "ro", "sv", "bn", "th", "ms", "ru", "az", "pap",
 ];
 // Languages whose job titles carry grammatical gender and therefore need both forms.
-const GENDERED = ["ar", "fr", "es", "de", "pt", "it", "pl", "ro"];
+const GENDERED = ["ar", "fr", "es", "de", "pt", "it", "pl", "ro", "ru"];
 
 const robert = PROFILES.robert;
 const vcardOptions = { title: "Founder & CEO", city: "Dubai", country: "United Arab Emirates" };
@@ -225,4 +227,37 @@ test("the lead form is off unless explicitly switched on", () => {
     assert.equal(isLeadFormEnabled({ PROFILE_CARD_LEAD_FORM: value }), false, JSON.stringify(value));
   }
   assert.equal(isLeadFormEnabled({ PROFILE_CARD_LEAD_FORM: "on" }), true);
+});
+
+// ----------------------------------------------------- 25-language resolution
+
+test("the card supports exactly the 25 booking languages", () => {
+  assert.deepEqual([...CARD_LOCALES].sort(), [...WEBSITE_LOCALES].sort());
+  assert.equal(CARD_LOCALES.length, 25);
+});
+
+test("Russian, Azerbaijani and Papiamento render natively", () => {
+  assert.equal(profileCardCopy.ru.saveContact, "Сохранить контакт");
+  assert.equal(profileCardCopy.az.saveContact, "Kontaktı yadda saxla");
+  assert.equal(profileCardCopy.pap.saveContact, "Guarda contacto");
+  assert.match(roleTitle("founder-ceo", "masculine", "ru"), /[А-Яа-я]/);
+  assert.notEqual(roleTitle("founder-ceo", "masculine", "ru"), roleTitle("founder-ceo", "feminine", "ru"));
+  assert.match(locationText("dubai", "ru"), /[А-Яа-я]/);
+  assert.doesNotMatch(locationText("dubai", "ru"), /[A-Za-z]/);
+  assert.match(locationText("dubai", "az"), /Dubay/);
+  assert.match(locationText("dubai", "pap"), /Emiratonan Arabe Uni/);
+});
+
+test("the visitor's language is chosen explicit first, then the browser", () => {
+  assert.equal(resolveCardLocale(["ru"], null), "ru");
+  assert.equal(resolveCardLocale(["pap", "fr"], "de"), "pap");
+  assert.equal(resolveCardLocale([null, undefined], "ru-RU,ru;q=0.9,en;q=0.5"), "ru");
+  assert.equal(resolveCardLocale([null], "az-AZ,az;q=0.9"), "az");
+  assert.equal(resolveCardLocale([null], null), "en");
+  assert.equal(resolveCardLocale(["xx"], null), "en");
+  // An explicit English choice is respected even when the browser prefers another language.
+  assert.equal(resolveCardLocale(["en"], "ru-RU,ru;q=0.9"), "en");
+  assert.equal(cardLocaleDirection("ar"), "rtl");
+  assert.equal(cardLocaleDirection("ur"), "rtl");
+  assert.equal(cardLocaleDirection("ru"), "ltr");
 });

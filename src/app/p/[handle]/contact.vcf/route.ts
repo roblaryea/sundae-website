@@ -1,4 +1,4 @@
-import { normalizeWebsiteLocale } from '@/lib/i18n'
+import { resolveCardLocale } from '@/lib/profileCardLocale'
 import { PROFILE_AVATAR_PNG_BASE64 } from '@/lib/profileAvatar'
 import { cityName, countryName, roleTitle } from '@/lib/profileCatalogue'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
@@ -24,8 +24,9 @@ export async function GET(request: Request, { params }: { params: Promise<{ hand
   const profile = getProfile(handle)
   if (!profile) return new Response('Not found', { status: 404 })
 
+  // ?lang= is what the page's Save contact link sends; a direct hit falls back to the browser language.
   const lang = new URL(request.url).searchParams.get('lang')
-  const locale = normalizeWebsiteLocale(lang)
+  const locale = resolveCardLocale([lang], request.headers.get('accept-language'))
 
   const body = buildVCard(profile, {
     title: roleTitle(profile.roleKey, profile.titleForm, locale),

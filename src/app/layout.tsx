@@ -17,6 +17,7 @@ import {
   normalizeWebsitePathname,
   parseWebsiteLocaleFromPathname,
   resolveWebsiteLocale,
+  normalizeWebsiteLocale,
   type WebsiteMessages,
   websiteLocaleDirection,
 } from "@/lib/i18n";
@@ -24,6 +25,8 @@ import { LocaleProvider } from "@/components/i18n/LocaleProvider";
 import { resolvePageDescription, resolvePageTitle } from "@/lib/pageTitles";
 import { isBookingUrl } from '@/lib/booking/privacy';
 import { getBookingLocaleProfile, normalizeBookingLocale } from '@/lib/booking/locales';
+import { isProfileCardPath } from '@/lib/profileHandles';
+import { cardLocaleDirection, normalizeCardLocale } from '@/lib/profileCardLocale';
 
 // Display - warm, optical serif for headlines & key numbers (the human, premium voice).
 const fraunces = Fraunces({
@@ -161,7 +164,12 @@ export default async function RootLayout({
   const headerStore = await headers();
   const bookingRoute = isBookingUrl(headerStore.get(WEBSITE_PUBLIC_PATH_HEADER) || '/');
   const bookingLocale = bookingRoute ? normalizeBookingLocale(headerStore.get(WEBSITE_LOCALE_HEADER)) : null;
-  const locale = resolveWebsiteLocale(cookieStore);
+  // Profile cards are served in 25 languages. The proxy decides which one and passes it in the
+  // locale header; the page language and direction follow it, while the website's own language
+  // cookie is left alone.
+  const cardRoute = isProfileCardPath(headerStore.get(WEBSITE_PUBLIC_PATH_HEADER) || '/');
+  const cardLocale = cardRoute ? normalizeCardLocale(headerStore.get(WEBSITE_LOCALE_HEADER)) : null;
+  const locale = cardLocale ? normalizeWebsiteLocale(cardLocale) : resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
   const dir = websiteLocaleDirection[locale];
   // Read the consent decision server-side so the banner is suppressed in the
@@ -219,7 +227,7 @@ export default async function RootLayout({
   };
 
   return (
-    <html lang={bookingLocale || locale} dir={bookingLocale ? getBookingLocaleProfile(bookingLocale).dir : dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang={bookingLocale || cardLocale || locale} dir={bookingLocale ? getBookingLocaleProfile(bookingLocale).dir : cardLocale ? cardLocaleDirection(cardLocale) : dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
         {/* Vercel BotID - instruments the expensive AI diagnostic endpoint so
@@ -236,7 +244,7 @@ export default async function RootLayout({
             __html: JSON.stringify(globalJsonLd).replace(/</g, "\\u003c"),
           }}
         />
-        {!bookingRoute && <a
+        {!bookingRoute && !cardRoute && <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#FF5C4D] focus:text-white focus:rounded-lg focus:outline-none"
         >
@@ -247,7 +255,7 @@ export default async function RootLayout({
             <ThemeProvider>
               <WebsiteChrome>{children}</WebsiteChrome>
               <PrivacyAwareAnalytics />
-              <CookieConsent initialConsent={initialConsent} />
+              <CookieConsent initialConsent={initialConsent} cardLocale={cardLocale} />
             </ThemeProvider>
           </LocaleProvider>
         </PostHogProvider>

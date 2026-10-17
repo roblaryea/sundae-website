@@ -1,4 +1,4 @@
-import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n'
+import type { CardLocale } from './profileCardLocale'
 
 /**
  * UI copy for the profile card page (sundae.io/<handle>) in every website locale.
@@ -42,6 +42,8 @@ export type ProfileCardCopy = {
   showQr: string
   qrTitle: string
   close: string
+  /** Label of the language menu. */
+  language: string
 }
 
 export const PROFILE_CARD_COPY_KEYS: (keyof ProfileCardCopy)[] = [
@@ -77,9 +79,14 @@ export const PROFILE_CARD_COPY_KEYS: (keyof ProfileCardCopy)[] = [
   'showQr',
   'qrTitle',
   'close',
+  'language',
 ]
 
-export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = {
+export function getProfileCardCopy(locale: CardLocale): ProfileCardCopy {
+  return profileCardCopy[locale] ?? profileCardCopy.en
+}
+
+export const profileCardCopy: Record<CardLocale, ProfileCardCopy> = {
   en: {
     eyebrow: 'Connect',
     saveContact: 'Save contact',
@@ -113,6 +120,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Show QR code',
     qrTitle: 'Scan to open this card',
     close: 'Close',
+    language: 'Language',
   },
   ar: {
     eyebrow: 'تواصل',
@@ -147,6 +155,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'عرض رمز QR',
     qrTitle: 'امسح الرمز لفتح هذه البطاقة',
     close: 'إغلاق',
+    language: 'اللغة',
   },
   fr: {
     eyebrow: 'Contact',
@@ -181,6 +190,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Afficher le code QR',
     qrTitle: 'Scannez pour ouvrir cette carte',
     close: 'Fermer',
+    language: 'Langue',
   },
   es: {
     eyebrow: 'Contacto',
@@ -215,6 +225,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Mostrar código QR',
     qrTitle: 'Escanea para abrir esta tarjeta',
     close: 'Cerrar',
+    language: 'Idioma',
   },
   de: {
     eyebrow: 'Kontakt',
@@ -249,6 +260,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QR-Code anzeigen',
     qrTitle: 'Scannen, um diese Karte zu öffnen',
     close: 'Schließen',
+    language: 'Sprache',
   },
   nl: {
     eyebrow: 'Contact',
@@ -283,6 +295,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QR-code tonen',
     qrTitle: 'Scan om deze kaart te openen',
     close: 'Sluiten',
+    language: 'Taal',
   },
   pt: {
     eyebrow: 'Contato',
@@ -317,6 +330,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Mostrar código QR',
     qrTitle: 'Escaneie para abrir este cartão',
     close: 'Fechar',
+    language: 'Idioma',
   },
   hi: {
     eyebrow: 'संपर्क',
@@ -351,6 +365,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QR कोड दिखाएँ',
     qrTitle: 'इस कार्ड को खोलने के लिए स्कैन करें',
     close: 'बंद करें',
+    language: 'भाषा',
   },
   ur: {
     eyebrow: 'رابطہ',
@@ -385,6 +400,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QR کوڈ دکھائیں',
     qrTitle: 'اس کارڈ کو کھولنے کے لیے اسکین کریں',
     close: 'بند کریں',
+    language: 'زبان',
   },
   it: {
     eyebrow: 'Contatto',
@@ -419,6 +435,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Mostra il codice QR',
     qrTitle: 'Scansiona per aprire questo biglietto',
     close: 'Chiudi',
+    language: 'Lingua',
   },
   pl: {
     eyebrow: 'Kontakt',
@@ -453,6 +470,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Pokaż kod QR',
     qrTitle: 'Zeskanuj, aby otworzyć tę wizytówkę',
     close: 'Zamknij',
+    language: 'Język',
   },
   tr: {
     eyebrow: 'İletişim',
@@ -487,6 +505,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QR kodunu göster',
     qrTitle: 'Bu kartı açmak için tarayın',
     close: 'Kapat',
+    language: 'Dil',
   },
   'zh-Hans': {
     eyebrow: '联系',
@@ -521,6 +540,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: '显示二维码',
     qrTitle: '扫描以打开此名片',
     close: '关闭',
+    language: '语言',
   },
   ja: {
     eyebrow: '連絡先',
@@ -555,6 +575,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QRコードを表示',
     qrTitle: 'スキャンしてこのカードを開く',
     close: '閉じる',
+    language: '言語',
   },
   ko: {
     eyebrow: '연락처',
@@ -589,6 +610,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QR 코드 보기',
     qrTitle: '스캔하여 이 명함 열기',
     close: '닫기',
+    language: '언어',
   },
   id: {
     eyebrow: 'Kontak',
@@ -623,6 +645,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Tampilkan kode QR',
     qrTitle: 'Pindai untuk membuka kartu ini',
     close: 'Tutup',
+    language: 'Bahasa',
   },
   vi: {
     eyebrow: 'Liên hệ',
@@ -657,6 +680,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Hiện mã QR',
     qrTitle: 'Quét để mở danh thiếp này',
     close: 'Đóng',
+    language: 'Ngôn ngữ',
   },
   ro: {
     eyebrow: 'Contact',
@@ -691,6 +715,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Arată codul QR',
     qrTitle: 'Scanează pentru a deschide această carte',
     close: 'Închide',
+    language: 'Limbă',
   },
   sv: {
     eyebrow: 'Kontakt',
@@ -725,6 +750,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Visa QR-kod',
     qrTitle: 'Skanna för att öppna det här kortet',
     close: 'Stäng',
+    language: 'Språk',
   },
   bn: {
     eyebrow: 'যোগাযোগ',
@@ -759,6 +785,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'QR কোড দেখান',
     qrTitle: 'এই কার্ড খুলতে স্ক্যান করুন',
     close: 'বন্ধ করুন',
+    language: 'ভাষা',
   },
   th: {
     eyebrow: 'ติดต่อ',
@@ -793,6 +820,7 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'แสดงรหัส QR',
     qrTitle: 'สแกนเพื่อเปิดนามบัตรนี้',
     close: 'ปิด',
+    language: 'ภาษา',
   },
   ms: {
     eyebrow: 'Hubungi',
@@ -827,5 +855,111 @@ export const profileCardCopy: RequiredEnglishLocalizedRecord<ProfileCardCopy> = 
     showQr: 'Papar kod QR',
     qrTitle: 'Imbas untuk membuka kad ini',
     close: 'Tutup',
+    language: 'Bahasa',
+  },
+  ru: {
+    eyebrow: 'Контакты',
+    saveContact: 'Сохранить контакт',
+    saveHint: 'Откроется в приложении «Контакты». Аккаунт не нужен.',
+    call: 'Позвонить',
+    email: 'Электронная почта',
+    linkedin: 'LinkedIn',
+    website: 'Сайт',
+    bookSession: 'Назначить рабочую встречу',
+    share: 'Поделиться',
+    linkCopied: 'Ссылка скопирована',
+    tagline: 'Платформа «Интеллект принятия решений» для компаний с несколькими локациями',
+    privacy: 'Конфиденциальность',
+    terms: 'Условия',
+    shareDetails: 'Поделиться своими данными',
+    shareDetailsHint: 'Оставьте свои данные, и {name} свяжется с вами.',
+    fieldName: 'Ваше имя',
+    fieldPhone: 'Телефон (необязательно)',
+    fieldCompany: 'Компания (необязательно)',
+    fieldNote: 'Сообщение (необязательно)',
+    consent: 'Я даю согласие на связь со мной со стороны Sundae по этому вопросу.',
+    send: 'Отправить данные',
+    sending: 'Отправка',
+    thanksTitle: 'Спасибо',
+    thanksBody: '{name} свяжется с вами в ближайшее время.',
+    errorBody: 'Не удалось отправить ваши данные. Попробуйте ещё раз или напишите {name} напрямую.',
+    formInvalid: 'Проверьте выделенные поля.',
+    fillFromContacts: 'Заполнить из моих контактов',
+    fillHint: 'Проверьте и при необходимости исправьте данные перед отправкой.',
+    themeToggle: 'Переключить светлую или тёмную тему',
+    showQr: 'Показать QR-код',
+    qrTitle: 'Отсканируйте, чтобы открыть эту карточку',
+    close: 'Закрыть',
+    language: 'Язык',
+  },
+  az: {
+    eyebrow: 'Əlaqə',
+    saveContact: 'Kontaktı yadda saxla',
+    saveHint: 'Telefonunuzdakı Kontaktlar tətbiqində açılır. Hesab tələb olunmur.',
+    call: 'Zəng et',
+    email: 'E-poçt',
+    linkedin: 'LinkedIn',
+    website: 'Veb-sayt',
+    bookSession: 'İş görüşü təyin edin',
+    share: 'Paylaş',
+    linkCopied: 'Keçid kopyalandı',
+    tagline: 'Çoxməkanlı operatorlar üçün Qərar Zəkası platforması',
+    privacy: 'Gizlilik',
+    terms: 'Şərtlər',
+    shareDetails: 'Məlumatlarınızı paylaşın',
+    shareDetailsHint: 'Məlumatlarınızı qoyun, {name} sizinlə əlaqə saxlayacaq.',
+    fieldName: 'Adınız',
+    fieldPhone: 'Telefon (istəyə bağlı)',
+    fieldCompany: 'Şirkət (istəyə bağlı)',
+    fieldNote: 'Mesaj (istəyə bağlı)',
+    consent: 'Sundae-nin bu məsələ ilə bağlı mənimlə əlaqə saxlamasına razıyam.',
+    send: 'Məlumatları göndər',
+    sending: 'Göndərilir',
+    thanksTitle: 'Təşəkkür edirik',
+    thanksBody: '{name} tezliklə sizinlə əlaqə saxlayacaq.',
+    errorBody: 'Məlumatlarınızı göndərmək mümkün olmadı. Yenidən cəhd edin və ya birbaşa {name} ilə e-poçtla əlaqə saxlayın.',
+    formInvalid: 'Seçilmiş sahələri yoxlayın.',
+    fillFromContacts: 'Kontaktlarımdan doldur',
+    fillHint: 'Göndərməzdən əvvəl hər şeyi yoxlayın və lazım olsa düzəldin.',
+    themeToggle: 'Açıq və ya tünd rejimə keçin',
+    showQr: 'QR kodu göstər',
+    qrTitle: 'Bu kartı açmaq üçün skan edin',
+    close: 'Bağla',
+    language: 'Dil',
+  },
+  pap: {
+    eyebrow: 'Contacto',
+    saveContact: 'Guarda contacto',
+    saveHint: 'Ta habri den bo aplicacion di contactonan. No ta necesario un cuenta.',
+    call: 'Yama',
+    email: 'E-mail',
+    linkedin: 'LinkedIn',
+    website: 'Website',
+    bookSession: 'Reserva un sesion di trabou',
+    share: 'Comparti',
+    linkCopied: 'Link a wordo copia',
+    tagline: 'Plataforma di inteligencia di decision pa operadonan cu varios locacion',
+    privacy: 'Privacidad',
+    terms: 'Terminonan',
+    shareDetails: 'Comparti bo datonan',
+    shareDetailsHint: 'Laga bo datonan y {name} lo tuma contacto cu bo.',
+    fieldName: 'Bo nomber',
+    fieldPhone: 'Telefon (opcional)',
+    fieldCompany: 'Compania (opcional)',
+    fieldNote: 'Mensahe (opcional)',
+    consent: 'Mi ta acepta cu Sundae por tuma contacto cu mi tocante esaki.',
+    send: 'Manda datonan',
+    sending: 'Ta manda',
+    thanksTitle: 'Danki',
+    thanksBody: '{name} lo tuma contacto cu bo pronto.',
+    errorBody: 'Nos no a logra manda bo datonan. Purba atrobe, of manda un e-mail directamente na {name}.',
+    formInvalid: 'Por fabor revisa e camponan marca.',
+    fillFromContacts: 'Yena for di mi contactonan',
+    fillHint: 'Revisa y cambia loke ta necesario promé cu bo manda.',
+    themeToggle: 'Cambia entre modo cla y scur',
+    showQr: 'Mustra e codigo QR',
+    qrTitle: 'Scan pa habri e cart aki',
+    close: 'Cera',
+    language: 'Idioma',
   },
 }

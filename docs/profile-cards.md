@@ -14,7 +14,7 @@ rewritten in `next.config.ts` for registered handles only, so unknown URLs keep 
      (French, Spanish, German, Arabic and others). Ask them; never infer it from a name.
    - `phone` is E.164 (`+971...`), `phoneDisplay` is how it reads on the page.
 3. **Role and city.** Use an existing key in `src/lib/profileCatalogue.ts`. If the role or city is
-   new, add it with **all 22 locales**; the tests fail otherwise. Languages with gendered titles
+   new, add it with **all 25 locales** (the website's 22 plus Russian, Azerbaijani and Papiamento); the tests fail otherwise. Languages with gendered titles
    need both a `masculine` and a `feminine` form. Countries need no entry: they come from the
    platform's locale data via the city's ISO code.
 4. **Run** `npm run test:profile-card`, then `npm run build` (it runs the site's i18n gates).
@@ -28,8 +28,8 @@ The downloaded contact file follows the visitor's language for the job title and
 
 ## Look and feel
 
-- **Light and dark.** The card follows the visitor's system theme and has its own toggle (stored on
-  the device). The hero panel is always espresso: it holds the layered S, whose cream top would
+- **Light and dark.** The card opens in light for everyone, regardless of the phone's theme, and has its
+  own toggle (the choice is stored on the device). The hero panel is always espresso: it holds the layered S, whose cream top would
   vanish on paper. Palettes live in `profile-card.css`; do not use the site theme here.
 - **Show QR.** The QR button opens a full-screen code for this card so someone beside you can scan it
   from your phone, no physical card needed.
@@ -66,12 +66,12 @@ website forms use. It needs the same two environment variables as those forms:
 - **Where staff see them:** the existing lead list at `/admin/marketing/leads` in the Sundae app.
   Each lead is labelled `Profile card: <owner name>`, has source page `/<handle>`, and carries the
   owner, channel and consent evidence (wording, version, timestamp) in its metadata.
-- **What the backend does on its own:** creates the CRM lead, sends its standard auto-reply from
-  sales@sundaetechnologies.com, starts the response clock and notifies admins.
-- **Not automatic yet (backend follow-ups):** assigning the lead to the card owner, filtering the
-  list by source, and a card-specific auto-reply. Until then leads arrive unassigned.
+- **What the backend does on its own:** creates the CRM lead, assigns it to the card owner (matched
+  by the owner email sent in the lead metadata), sends the visitor a card-specific auto-reply in
+  their language, starts the response clock and notifies admins.
+- **Not built:** a "Source" filter in the lead list.
 - **Consent:** bump `CONSENT_VERSION` in `src/lib/profileConnect.ts` whenever the consent wording
-  changes (all 22 locales). Confirm the privacy policy covers this collection before launch.
+  changes (all 25 locales). Confirm the privacy policy covers this collection before launch.
 - **Spam controls:** honeypot, minimum fill time, same-origin check, per-IP limit, payload limits.
   The per-IP limit is in-memory (as on the existing forms), so treat it as a speed bump; add Vercel
   BotID if abuse appears.
@@ -80,7 +80,14 @@ website forms use. It needs the same two environment variables as those forms:
 ## Notes
 
 - The page is `noindex`. It carries a personal phone number and is reachable by link and QR.
-- Interface strings live in `src/lib/profileCardCopy.ts` (22 locales). Have a native speaker review a
-  locale before a wide rollout.
+- Interface strings live in `src/lib/profileCardCopy.ts` (25 locales). Have a native speaker review a
+  locale before a wide rollout. Russian, Azerbaijani and Papiamento were drafted with machine
+  assistance and especially need native review. Papiamento follows the Aruba-style spelling used
+  by the website's booking pages; Curaçao writes it differently.
+- **Language choice:** `?lang=` (set by the globe menu on the card), then the `sundae_card_locale`
+  cookie, then the website language cookie, then the browser's `Accept-Language`, then English. The
+  card cookie is separate, so choosing a language on a card never changes the rest of the website.
+  Russian, Azerbaijani and Papiamento exist only on cards and the booking flow, so their cookie
+  banner copy lives in `CookieConsent.tsx`.
 - Profiles are code, so each change is reviewed and versioned. If the list grows beyond a handful of
   people, move the registry behind an admin-managed store.
