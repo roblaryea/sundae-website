@@ -32,12 +32,9 @@ export function generateStaticParams() {
 
 type PageProps = { params: Promise<{ handle: string }> }
 
-/** Browser chrome follows the visitor's system theme, matching the card's own default. */
+/** The card opens light (the espresso hero keeps it branded), so browser chrome matches paper. */
 export const viewport: Viewport = {
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#FBF8F4' },
-    { media: '(prefers-color-scheme: dark)', color: '#171210' },
-  ],
+  themeColor: '#FBF8F4',
 }
 
 /** Applies a stored light/dark choice before first paint, so a returning visitor sees no flash. */

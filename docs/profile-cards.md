@@ -28,8 +28,8 @@ The downloaded contact file follows the visitor's language for the job title and
 
 ## Look and feel
 
-- **Light and dark.** The card follows the visitor's system theme and has its own toggle (stored on
-  the device). The hero panel is always espresso: it holds the layered S, whose cream top would
+- **Light and dark.** The card opens in light for everyone, regardless of the phone's theme, and has its
+  own toggle (the choice is stored on the device). The hero panel is always espresso: it holds the layered S, whose cream top would
   vanish on paper. Palettes live in `profile-card.css`; do not use the site theme here.
 - **Show QR.** The QR button opens a full-screen code for this card so someone beside you can scan it
   from your phone, no physical card needed.
