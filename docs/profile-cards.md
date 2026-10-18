@@ -116,7 +116,11 @@ website forms use. It needs the same two environment variables as those forms:
 - Too many attempts (5 stored submissions per address per hour, process-local) shows an explanation
   and a Try again button that unlocks when the wait ends. The automatic timing retry and fixable
   validation errors do not use up attempts.
-- This limit is a speed bump, not a deployment-wide control. The backend holds acknowledgement
+- **Deployment-wide limit:** a Vercel Firewall rule "Profile card form rate limit" (POST
+  `/api/profile-card/connect`, 20 requests per 10 minutes per address, fixed window, 429) was published
+  to production on 2026-10-18. It applies to that endpoint only; the card page and contact file are not
+  affected. Manage it with `vercel firewall rules list | edit | disable`. Do not add a block duration:
+  it would block the visitor from the whole site. The in-app counter below remains as a second layer.
+- The in-app limit is a speed bump, not a deployment-wide control. The backend holds acknowledgement
   emails to an hourly budget (`PROFILE_CARD_ACK_HOURLY_BUDGET`, default 100) and sends at most one
-  acknowledgement per email address, which bounds mail volume. A shared per-address limit still needs
-  an edge (WAF) rule or a hosted counter.
+  acknowledgement per email address, which bounds mail volume.
