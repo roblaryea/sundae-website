@@ -37,6 +37,12 @@ export type PersonProfile = {
    * card falls back to the general demo page.
    */
   bookingSlug?: string
+  /**
+   * Set to false when the person leaves. The handle stays reserved (printed QR codes keep working)
+   * but the card stops showing their details, the contact file is gone and the form is closed; the
+   * visitor is pointed to the Sundae team instead. Never reuse a printed handle for someone else.
+   */
+  active?: boolean
 }
 
 export const COMPANY_LEGAL_NAME = 'Sundae Technologies Inc.'
@@ -59,6 +65,10 @@ export const PROFILES: Record<ProfileHandle, PersonProfile> = {
     cityKey: 'dubai',
     bookingSlug: 'robert',
   },
+}
+
+export function isProfileActive(profile: PersonProfile): boolean {
+  return profile.active !== false
 }
 
 export function profileFullName(profile: PersonProfile): string {

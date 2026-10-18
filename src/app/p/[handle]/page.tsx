@@ -8,10 +8,11 @@ import { CARD_LOCALES, cardLocaleNativeName } from '@/lib/profileCardLocale'
 import { getCardLocale } from '@/lib/profileCardLocale.server'
 import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
-import { displayHost, getProfile, linkedinHandle, profileFullName } from '@/lib/profiles'
+import { displayHost, getProfile, isProfileActive, linkedinHandle, profileFullName } from '@/lib/profiles'
 import { DEMO_URL } from '@/lib/urls'
 import { ProfileActions } from './ProfileActions'
 import { ProfileArt } from './ProfileArt'
+import { InactiveCard } from './InactiveCard'
 import { LanguageSwitcher } from './LanguageSwitcher'
 import { ShareButton } from './ShareButton'
 import { ShowQr } from './ShowQr'
@@ -45,6 +46,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { handle } = await params
   const profile = getProfile(handle)
   if (!profile) return {}
+  if (!isProfileActive(profile)) {
+    // A retired card shows no personal details, so neither does its preview.
+    return { title: 'Sundae', robots: { index: false, follow: false } }
+  }
   const locale = await getCardLocale()
   const copy = getProfileCardCopy(locale)
   const name = profileFullName(profile)
@@ -71,6 +76,7 @@ export default async function ProfilePage({ params }: PageProps) {
 
   const locale = await getCardLocale()
   const copy = getProfileCardCopy(locale)
+  if (!isProfileActive(profile)) return <InactiveCard copy={copy} />
   const name = profileFullName(profile)
   const role = roleTitle(profile.roleKey, profile.titleForm, locale)
   const location = locationText(profile.cityKey, locale)

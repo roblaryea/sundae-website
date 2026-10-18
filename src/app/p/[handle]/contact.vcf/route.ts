@@ -2,7 +2,7 @@ import { matchCardLocale, resolveCardLocale } from '@/lib/profileCardLocale'
 import { PROFILE_AVATAR_PNG_BASE64 } from '@/lib/profileAvatar'
 import { cityName, countryName, roleTitle } from '@/lib/profileCatalogue'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
-import { getProfile } from '@/lib/profiles'
+import { getProfile, isProfileActive } from '@/lib/profiles'
 import { buildVCard, vCardFilename } from '@/lib/vcard'
 
 /**
@@ -23,6 +23,8 @@ export async function GET(request: Request, { params }: { params: Promise<{ hand
   const { handle } = await params
   const profile = getProfile(handle)
   if (!profile) return new Response('Not found', { status: 404 })
+  // A retired card keeps its handle but no longer hands out the person's details.
+  if (!isProfileActive(profile)) return new Response('Gone', { status: 410, headers: { 'X-Robots-Tag': 'noindex, nofollow' } })
 
   // ?lang= is what the page's Save contact link sends; a direct hit falls back to the browser language.
   const lang = new URL(request.url).searchParams.get('lang')
