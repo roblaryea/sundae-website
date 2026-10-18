@@ -13,7 +13,7 @@
     "test:diagnostic-lead": "node --test tests/diagnostic-lead-outbox.test.mjs tests/diagnostic-flow-contract.test.mjs tests/diagnostic-report-grounding.test.mjs",
     "test:observability": "node --test tests/sentry-runtime-policy.test.mjs",
     "smoke:profile-card": "node --no-warnings scripts/smoke-profile-card.mjs",
-    "test:profile-card": "node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs",
+    "test:profile-card": "node --test tests/profile-card.test.mjs tests/profile-connect.test.mjs tests/public-profiles.test.mjs",
     "test:seo": "node --test tests/sitemap-inventory.test.mjs tests/search-discovery.test.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "seo:sitemap-report": "node scripts/report-sitemap-inventory.mjs",

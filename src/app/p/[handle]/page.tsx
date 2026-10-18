@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { locationText, roleTitle } from '@/lib/profileCatalogue'
+import { profileLocation, profileRole } from '@/lib/profileCatalogue'
 import { getProfileCardCopy } from '@/lib/profileCardCopy'
 import { CARD_LOCALES, cardLocaleNativeName } from '@/lib/profileCardLocale'
 import { getCardLocale } from '@/lib/profileCardLocale.server'
@@ -25,7 +25,8 @@ import './profile-card.css'
  * (sundae.io/<handle>, rewritten here from next.config.ts). One job: put the right person into the visitor's contacts in a
  * single tap, with no account. Unknown handles 404.
  */
-export const dynamicParams = false
+export const dynamicParams = true
+export const dynamic = 'force-dynamic'
 
 export function generateStaticParams() {
   return PROFILE_HANDLES.map((handle) => ({ handle }))
@@ -44,7 +45,7 @@ const THEME_BOOT = "try{var t=localStorage.getItem('sundae-card-theme');if(t==='
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { handle } = await params
-  const profile = getProfile(handle)
+  const profile = await getProfile(handle)
   if (!profile) return {}
   if (!isProfileActive(profile)) {
     // A retired card shows no personal details, so neither does its preview.
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale = await getCardLocale()
   const copy = getProfileCardCopy(locale)
   const name = profileFullName(profile)
-  const role = roleTitle(profile.roleKey, profile.titleForm, locale)
+  const role = profileRole(profile, locale)
   const description = `${name} · ${role} · Sundae · ${copy.saveContact}`
   return {
     title: `${name} · ${profile.company}`,
@@ -63,23 +64,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title: `${name} · Sundae`,
       description,
-      images: [{ url: `/profile/${profile.handle}-og.png`, width: 1200, height: 630, alt: `${name}, ${role}` }],
+      images: profile.handle === 'robert' ? [{ url: '/profile/robert-og.png', width: 1200, height: 630, alt: `${name}, ${role}` }] : [],
     },
-    twitter: { card: 'summary_large_image', title: `${name} · Sundae`, description, images: [`/profile/${profile.handle}-og.png`] },
+    twitter: { card: 'summary_large_image', title: `${name} · Sundae`, description, images: profile.handle === 'robert' ? ['/profile/robert-og.png'] : [] },
   }
 }
 
 export default async function ProfilePage({ params }: PageProps) {
   const { handle } = await params
-  const profile = getProfile(handle)
+  const profile = await getProfile(handle)
   if (!profile) notFound()
 
   const locale = await getCardLocale()
   const copy = getProfileCardCopy(locale)
   if (!isProfileActive(profile)) return <InactiveCard copy={copy} />
   const name = profileFullName(profile)
-  const role = roleTitle(profile.roleKey, profile.titleForm, locale)
-  const location = locationText(profile.cityKey, locale)
+  const role = profileRole(profile, locale)
+  const location = profileLocation(profile, locale)
   // Always explicit, English included, so the file's language never depends on request headers.
   const vcardHref = `/${profile.handle}/contact.vcf?lang=${encodeURIComponent(locale)}`
   // The owner's own booking page (their availability, in the visitor's language); the general demo page only when they have none.

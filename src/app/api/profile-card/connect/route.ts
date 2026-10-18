@@ -3,7 +3,6 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getProfileCardCopy } from '@/lib/profileCardCopy'
 import { normalizeCardLocale } from '@/lib/profileCardLocale'
 import { isLeadFormEnabled } from '@/lib/profileFeatures'
-import { PROFILE_HANDLES } from '@/lib/profileHandles'
 import { buildLeadPayload, parseConnectSubmission } from '@/lib/profileConnect'
 import { BodyTooLargeError, readTextLimited } from '@/lib/readBodyLimited'
 import { getProfile, isProfileActive } from '@/lib/profiles'
@@ -92,7 +91,9 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: 'invalid_json' }, { status: 400 })
   }
 
-  const parsed = parseConnectSubmission(raw, { now, knownHandles: PROFILE_HANDLES })
+  const handle = raw && typeof raw === 'object' && typeof (raw as { handle?: unknown }).handle === 'string' ? (raw as { handle: string }).handle : ''
+  const profile = await getProfile(handle)
+  const parsed = parseConnectSubmission(raw, { now, knownHandles: profile ? [profile.handle] : [] })
   if (parsed.kind === 'ignored') {
     // Honeypot filled or no usable timestamp. Report success so a bot learns nothing, and forward nothing.
     recordAttempt(ip, now)
@@ -106,7 +107,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ ok: false, error: 'invalid', fields: parsed.fields }, { status: 400 })
   }
 
-  const profile = getProfile(parsed.data.handle)
   if (!profile) return NextResponse.json({ ok: false, error: 'invalid', fields: ['handle'] }, { status: 400 })
   // The form is closed on a retired card: nothing is stored for someone who has left.
   if (!isProfileActive(profile)) return NextResponse.json({ ok: false, error: 'inactive' }, { status: 410 })

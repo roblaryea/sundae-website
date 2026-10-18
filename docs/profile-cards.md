@@ -2,32 +2,61 @@
 
 The page behind the QR code on Sundae business cards. One tap saves the person into the
 visitor's contacts, with no account. Served at `/<handle>` (internally `src/app/p/[handle]`,
-rewritten in `next.config.ts` for registered handles only, so unknown URLs keep their normal 404).
+with a runtime staff directory and legacy rewrites). Unknown root handles are checked before
+streaming so they return a real HTTP 404.
 
-## Add a staff member
+## Add a staff member in Admin
 
-1. **Handle.** Add it to `PROFILE_HANDLES` in `src/lib/profileHandles.ts`. Lowercase letters,
-   digits and hyphens; this becomes `sundae.io/<handle>`.
-2. **Profile.** Add the entry to `PROFILES` in `src/lib/profileData.ts`. TypeScript will not
-   build until every handle has a profile. Only include details the person has agreed to publish.
-   - `titleForm` is the person's own choice of grammatical form for languages that have one
-     (French, Spanish, German, Arabic and others). Ask them; never infer it from a name.
-   - `phone` is E.164 (`+971...`), `phoneDisplay` is how it reads on the page.
-   - `bookingSlug` is the slug of the person's published personal booking page in the Sundae admin
-     (Marketing > Booking settings). "Book a working session" opens `sundae.io/book/<slug>`, so the
-     person must create and publish that page first; without a slug the card links to the demo page.
-3. **Role and city.** Use an existing key in `src/lib/profileCatalogue.ts`. If the role or city is
-   new, add it with **all 25 locales** (the website's 22 plus Russian, Azerbaijani and Papiamento); the tests fail otherwise. Languages with gendered titles
-   need both a `masculine` and a `feminine` form. Countries need no entry: they come from the
-   platform's locale data via the city's ISO code.
-4. **Run** `npm run test:profile-card`, then `npm run build` (it runs the site's i18n gates).
-5. **Check** `/<handle>` in English and one right-to-left language (Arabic), and download the
-   contact file from the Save contact button.
-6. **Print.** Open the PVC card page in the app repo (`brand/business-cards`), set the scan link
-   to `https://sundae.io/<handle>`, and export. Paper cards are personalised on their own page.
+This workflow requires the coordinated team-profile backend, app and website release. Deploy the
+backend migration/API first, then the website runtime reader and Admin editor. Source files and
+isolated previews are not evidence that this release is live.
 
-The downloaded contact file follows the visitor's language for the job title and place names
-(`?lang=`); the person's name is always kept as written.
+1. In **Admin Access Management**, invite the person with the narrow role they need. For personal
+   booking, the existing **Scheduling Host** role grants their own scheduling, not general Admin
+   access. The person must accept the invitation before they appear as an active staff owner.
+   Access to their own CRM contacts is a separate role capability.
+2. A super admin opens **My Scheduling > Team profiles**, selects the staff member and enters the
+   public business details. The email comes from the staff account and cannot be replaced with
+   someone else's mailbox. Only publish details the person has agreed to share.
+3. Set a lowercase handle such as `mark`. Reserved marketing/app routes cannot be claimed. After
+   its first save the handle is permanent, including while the card is paused. Check it before
+   printing. The phone display must match its E.164 call number.
+4. Use **Calendar & availability** to configure that person's booking page. A banner identifies the
+   selected owner. Changes retain the real admin actor in the audit trail; there is no identity
+   swap or impersonation token. Only a super admin can select another scheduling owner.
+5. Configure the owner's mailbox, call-taker, working hours, timezone and event types. Save and
+   publish the booking profile. Existing publication gates check calendar access and enabled
+   events; a rule change pauses the page until it is published again.
+6. Publish the contact card, then verify `/<handle>`, `/<handle>/contact.vcf?lang=en`, an RTL view
+   and the person's `/book/<slug>` link. The runtime card includes only a published, usable
+   booking page belonging to the same owner. Otherwise it retains the general demo fallback.
+7. Print only after the real public URLs work. No website rebuild is needed to add the next
+   staff member through this editor.
+
+Interface labels cover the 25 registered languages. Custom title/city text remains as authored;
+optional `titleTranslations` and `cityTranslations` are accepted by the directory contract and are
+preserved on edits. The legacy Robert record retains its existing localized title/city catalogue.
+
+## Runtime contract and lifecycle
+
+- Backend `team_card_profiles` stores one record per admin owner with a unique permanent handle,
+  validated public details, publication state, edit version and real updating admin.
+- `GET /api/admin/marketing/team-profiles` and `PUT .../:ownerAdminId/card` require SUPER_ADMIN.
+  Stale edits return a conflict instead of overwriting another admin's changes.
+- The existing personal-booking API accepts `ownerAdminId` only for a SUPER_ADMIN acting on an
+  active scheduling owner. Owner-only requests and restricted custom roles retain their scope.
+- `GET /api/v1/public/team-profiles/:handle` exposes a field whitelist and is rate limited.
+  Paused cards or inactive/retired/deleted owners return a tombstone with no contact details.
+  An account email change also hides an old card until its email is reviewed and saved again.
+- Website profile lookups and downloadable contacts use no-store/private caching so a pause is
+  checked on the next request. Paused contact files return 410. Unknown cards return 404.
+- Robert's existing code record is a transitional fallback only when the API returns 404. A
+  directory tombstone or an upstream failure never falls back to an old active record.
+
+Mark's agreed setup is Amsterdam, Netherlands; +31 6 41 50 92 55; 30-minute calls; Europe/Amsterdam,
+Monday to Friday 09:00-17:00. His Scheduling Host invitation was still pending at the live review
+on 18 October 2026. He will accept it later; no role was activated, production page published,
+real booking created or invitation resent during the review.
 
 ## Look and feel
 
@@ -36,9 +65,9 @@ The downloaded contact file follows the visitor's language for the job title and
   vanish on paper. Palettes live in `profile-card.css`; do not use the site theme here.
 - **Show QR.** The QR button opens a full-screen code for this card so someone beside you can scan it
   from your phone, no physical card needed.
-- **Link preview.** `public/profile/<handle>-og.png` is the image shown when the link is shared in
-  WhatsApp, iMessage, LinkedIn or Slack. Regenerate and commit it when a name or role changes:
-  `node --no-warnings scripts/profile-og/generate.mjs` (needs Playwright). Tests fail if it is missing.
+- **Link preview.** Robert retains `public/profile/robert-og.png`. Runtime staff cards use
+  text metadata and do not reference a nonexistent per-person image. Per-person social artwork
+  can be added later without blocking contact-page publishing.
 
 ## Sharing details without retyping
 
@@ -92,17 +121,15 @@ website forms use. It needs the same two environment variables as those forms:
   card cookie is separate, so choosing a language on a card never changes the rest of the website.
   Russian, Azerbaijani and Papiamento exist only on cards and the booking flow, so their cookie
   banner copy lives in `CookieConsent.tsx`.
-- Profiles are code, so each change is reviewed and versioned. If the list grows beyond a handful of
-  people, move the registry behind an admin-managed store.
+- Profiles are managed in Admin after this coordinated release; publication changes are audited
+  and protected against stale edits. The code registry remains only for legacy compatibility.
 
 ## Staff lifecycle
 
-- **Leaving:** set `active: false` on the person's profile in `src/lib/profileData.ts`. The handle stays
-  reserved, so printed QR codes keep working, but the card stops showing the person's details (name,
-  phone, email, LinkedIn), the contact file returns 410 Gone, the form is closed and the visitor is
-  pointed to the Sundae team. Never reuse a printed handle for someone else.
-- **Joining:** add the profile (see "Adding a person") through a reviewed pull request. Their personal
-  booking page must exist and be published first (`bookingSlug`).
+- **Leaving:** pause the contact card in Team profiles and deactivate or retire the person's Admin
+  access through the existing access workflow. The handle stays reserved, their details are hidden,
+  contact downloads return 410, and the exchange form is closed. Never reassign a printed handle.
+- **Joining:** use Admin Access Management and Team profiles, not a website source-code change.
 - **Their contacts:** contacts stay in the Sundae admin (Marketing & Comms > Contacts) owned by the
   person. When someone leaves, reassign their contacts before deactivating their admin access, or a
   super admin can filter by owner and bulk-assign them.

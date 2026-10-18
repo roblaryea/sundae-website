@@ -1,6 +1,8 @@
 import { COMPANY } from './company'
 import { COMPANY_LEGAL_NAME, COMPANY_WEBSITE, PROFILES, type PersonProfile } from './profileData'
-import { isProfileHandle } from './profileHandles'
+import { isProfileHandleCandidate } from './profileHandles'
+import { cache } from 'react'
+import { loadPublicProfile } from './publicProfileClient'
 
 export * from './profileData'
 
@@ -10,7 +12,9 @@ if (COMPANY_LEGAL_NAME !== COMPANY.legalName || COMPANY_WEBSITE !== COMPANY.webs
   throw new Error('profileData company constants are out of sync with src/lib/company.ts')
 }
 
-export function getProfile(handle: string): PersonProfile | null {
+/** Runtime directory: newly published staff cards require no website rebuild. */
+export const getProfile = cache(async (handle: string): Promise<PersonProfile | null> => {
   const key = handle.toLowerCase()
-  return isProfileHandle(key) ? PROFILES[key] : null
-}
+  if (!isProfileHandleCandidate(key)) return null
+  return (await loadPublicProfile(key)) ?? PROFILES[key] ?? null
+})

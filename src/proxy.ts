@@ -9,7 +9,7 @@ import {
   normalizeWebsiteLocale,
   parseWebsiteLocaleFromPathname,
 } from '@/lib/i18n'
-import { isProfileCardPath, isProfileHandle } from '@/lib/profileHandles'
+import { isProfileCardPath, isProfileHandle, isProfileHandleCandidate } from '@/lib/profileHandles'
 import { CARD_LOCALE_COOKIE, resolveCardLocale } from '@/lib/profileCardLocale'
 
 function withLocaleHeaders(request: NextRequest, locale: string, publicPathname: string) {
@@ -34,7 +34,7 @@ function withLocaleHeaders(request: NextRequest, locale: string, publicPathname:
 const CANONICAL_HOST = 'www.sundae.io'
 const REDIRECT_HOSTS = new Set(['sundaetech.ai', 'www.sundaetech.ai'])
 
-export function proxy(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const host = request.headers.get('host')?.toLowerCase().split(':')[0]
   if (host && REDIRECT_HOSTS.has(host)) {
     const target = new URL(`${request.nextUrl.pathname}${request.nextUrl.search}`, `https://${CANONICAL_HOST}`)
@@ -47,7 +47,7 @@ export function proxy(request: NextRequest) {
   // Profile card handles are lowercase, but phone keyboards capitalise the first letter
   // when someone types sundae.io/Robert. Send any casing to the canonical lowercase path.
   const firstSegment = internalPathname.split('/')[1]
-  if (firstSegment && firstSegment !== firstSegment.toLowerCase() && isProfileHandle(firstSegment.toLowerCase())) {
+  if (firstSegment && firstSegment !== firstSegment.toLowerCase() && isProfileHandleCandidate(firstSegment.toLowerCase())) {
     const redirectUrl = request.nextUrl.clone()
     redirectUrl.pathname = pathname.replace(`/${firstSegment}`, `/${firstSegment.toLowerCase()}`)
     return NextResponse.redirect(redirectUrl, 308)
@@ -80,6 +80,23 @@ export function proxy(request: NextRequest) {
     const redirectUrl = request.nextUrl.clone()
     redirectUrl.pathname = internalPathname
     return NextResponse.redirect(redirectUrl)
+  }
+
+  // Resolve unknown root handles before streaming begins, so an absent card has
+  // a real 404 status. Static marketing routes are excluded by the candidate guard.
+  if (isProfileCardPath(internalPathname) && internalPathname.split('/').filter(Boolean).length === 1 && !isProfileHandle(firstSegment.toLowerCase())) {
+    const base = (process.env.SUNDAE_BACKEND_URL || 'https://api.sundaetech.ai').replace(/\/$/, '')
+    try {
+      const lookup = await fetch(`${base}/api/v1/public/team-profiles/${encodeURIComponent(firstSegment.toLowerCase())}`, { signal: AbortSignal.timeout(2500) })
+      if (lookup.status === 404) {
+        const response = NextResponse.rewrite(new URL('/404', request.url), { status: 404 })
+        response.headers.set('Cache-Control', 'no-store')
+        response.headers.set('X-Robots-Tag', 'noindex, nofollow')
+        return response
+      }
+    } catch {
+      // The page's authoritative lookup reports an outage, never a false 404.
+    }
   }
 
   // Profile cards are shown in 25 languages (the website's 22 plus Papiamento, Russian and

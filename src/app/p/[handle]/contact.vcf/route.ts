@@ -1,6 +1,6 @@
-import { matchCardLocale, resolveCardLocale } from '@/lib/profileCardLocale'
+import { resolveCardLocale } from '@/lib/profileCardLocale'
 import { PROFILE_AVATAR_PNG_BASE64 } from '@/lib/profileAvatar'
-import { cityName, countryName, roleTitle } from '@/lib/profileCatalogue'
+import { profileCity, profileCountry, profileRole } from '@/lib/profileCatalogue'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
 import { getProfile, isProfileActive } from '@/lib/profiles'
 import { buildVCard, vCardFilename } from '@/lib/vcard'
@@ -13,7 +13,8 @@ import { buildVCard, vCardFilename } from '@/lib/vcard'
  * ?lang= parameter is normalized against the supported locales and only selects the
  * language of the job title and place names; it never reaches the file as text.
  */
-export const dynamicParams = false
+export const dynamicParams = true
+export const dynamic = 'force-dynamic'
 
 export function generateStaticParams() {
   return PROFILE_HANDLES.map((handle) => ({ handle }))
@@ -21,7 +22,7 @@ export function generateStaticParams() {
 
 export async function GET(request: Request, { params }: { params: Promise<{ handle: string }> }) {
   const { handle } = await params
-  const profile = getProfile(handle)
+  const profile = await getProfile(handle)
   if (!profile) return new Response('Not found', { status: 404 })
   // A retired card keeps its handle but no longer hands out the person's details.
   if (!isProfileActive(profile)) return new Response('Gone', { status: 410, headers: { 'X-Robots-Tag': 'noindex, nofollow' } })
@@ -31,24 +32,17 @@ export async function GET(request: Request, { params }: { params: Promise<{ hand
   const locale = resolveCardLocale([lang], request.headers.get('accept-language'))
 
   const body = buildVCard(profile, {
-    title: roleTitle(profile.roleKey, profile.titleForm, locale),
-    city: cityName(profile.cityKey, locale),
-    country: countryName(profile.cityKey, locale),
+    title: profileRole(profile, locale),
+    city: profileCity(profile, locale),
+    country: profileCountry(profile, locale),
     photoPngBase64: PROFILE_AVATAR_PNG_BASE64,
   })
-  // With ?lang= the URL itself identifies the language, so shared caching is safe. Without it the
-  // language comes from the Accept-Language header, which a shared cache may not key on, so that
-  // response is private and always revalidated.
-  // Only a supported value counts as explicit: an unsupported one falls back to the header, so it must
-  // not be cached as if the URL alone decided the language.
-  const explicitLanguage = matchCardLocale(lang) !== null
+  // Revalidate against the runtime directory; pausing must stop contact downloads.
   return new Response(body, {
     headers: {
       'Content-Type': 'text/vcard; charset=utf-8',
       'Content-Disposition': `inline; filename="${vCardFilename(profile)}"`,
-      'Cache-Control': explicitLanguage
-        ? 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400'
-        : 'private, max-age=0, must-revalidate',
+      'Cache-Control': 'private, no-store',
       Vary: 'Accept-Language',
       'X-Robots-Tag': 'noindex, nofollow',
       'X-Content-Type-Options': 'nosniff',

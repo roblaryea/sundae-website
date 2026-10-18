@@ -132,3 +132,20 @@ export function locationText(cityKey: CityKey, locale: CardLocale): string {
   const separator = LIST_SEPARATOR[locale] ?? ', '
   return `${cityName(cityKey, locale)}${separator}${countryName(cityKey, locale)}`
 }
+
+// Admin-authored business fields remain as entered unless a translation was saved.
+export function profileRole(profile: import('./profileData').PersonProfile, locale: CardLocale): string {
+  return profile.roleKey ? roleTitle(profile.roleKey, profile.titleForm, locale) : profile.titleTranslations?.[locale] || profile.title || ''
+}
+export function profileCity(profile: import('./profileData').PersonProfile, locale: CardLocale): string {
+  return profile.cityKey ? cityName(profile.cityKey, locale) : profile.cityTranslations?.[locale] || profile.city || ''
+}
+export function profileCountry(profile: import('./profileData').PersonProfile, locale: CardLocale): string {
+  if (profile.cityKey) return countryName(profile.cityKey, locale)
+  const code = profile.countryCode || ''
+  if (locale === 'pap') return ({ AE: 'Emiratonan Arabe Uni', NL: 'Hulanda' } as Record<string,string>)[code] || code
+  return new Intl.DisplayNames([locale], { type: 'region' }).of(code) || code
+}
+export function profileLocation(profile: import('./profileData').PersonProfile, locale: CardLocale): string {
+  return profileCity(profile, locale) + (LIST_SEPARATOR[locale] || ', ') + profileCountry(profile, locale)
+}

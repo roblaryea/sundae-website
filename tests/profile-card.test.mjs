@@ -102,7 +102,8 @@ test("profile handles are lowercase url-safe and resolve to chrome-free paths", 
   assert.equal(new Set(PROFILE_HANDLES).size, PROFILE_HANDLES.length, "duplicate handle");
   assert.equal(isProfileCardPath("/"), false);
   assert.equal(isProfileCardPath("/pricing"), false);
-  assert.equal(isProfileCardPath("/robertson"), false);
+  assert.equal(isProfileCardPath("/robertson"), true, "new root handles use the card layout; the directory decides whether they exist");
+  assert.equal(isProfileHandle("robertson"), false, "an unregistered handle is not in the legacy registry");
 });
 
 test("every handle has exactly one well-formed profile", () => {
