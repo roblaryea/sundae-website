@@ -125,8 +125,8 @@ type PricingPageCopy = {
 const enCopy: PricingPageCopy = {
   cyclesLabel: 'Billing cycle',
   cycleMonthly: 'Monthly',
-  cycleAnnual: 'Annual',
-  cycleTwoYear: '2-year',
+  cycleAnnual: 'Annual (paid upfront)',
+  cycleTwoYear: '2-year (paid upfront)',
   coreEyebrow: 'Sundae Core',
   coreTitle: 'Four Core packages',
   coreDescription:
@@ -164,7 +164,7 @@ const enCopy: PricingPageCopy = {
   volumeDescription: 'Location count discounts the whole monthly subscription.',
   volumeEnterprise: 'Enterprise agreement',
   volumeCapNote:
-    'Volume and billing-cycle discounts stack, up to a combined ceiling of 15%.',
+    'A volume discount or a billing-cycle discount applies - whichever is larger, never both - up to a ceiling of 20%.',
   discountNone: 'No volume discount',
   perMonthLabel: '/month',
   oneOffLabel: 'one-off',
@@ -217,7 +217,7 @@ const enCopy: PricingPageCopy = {
     {
       title: 'How do the discounts combine?',
       content:
-        'Annual billing takes 10% off and a 2-year commitment takes 15%. Volume discounts stack on top, but the combined discount is capped at 15%.',
+        'An annual commitment paid upfront takes 12% off (5% if you pay it quarterly) and a 2-year commitment paid upfront takes 20%. A volume discount applies instead when it is larger - the two do not stack - and the maximum is 20%.',
     },
     {
       title: 'Do I need a long-term contract?',
@@ -241,8 +241,8 @@ const pricingPageCopy: Partial<Record<Exclude<WebsiteLocale, 'en'>, PricingPageC
     ...enCopy,
     cyclesLabel: 'دورة الفوترة',
     cycleMonthly: 'شهري',
-    cycleAnnual: 'سنوي',
-    cycleTwoYear: 'سنتان',
+    cycleAnnual: 'سنوي (دفع مقدم)',
+    cycleTwoYear: 'سنتان (دفع مقدم)',
     coreEyebrow: 'Sundae Core',
     coreTitle: 'أربع باقات Core',
     coreDescription:
@@ -275,7 +275,7 @@ const pricingPageCopy: Partial<Record<Exclude<WebsiteLocale, 'en'>, PricingPageC
     volumeTitle: 'الحجم',
     volumeDescription: 'عدد المواقع يخصم من إجمالي الاشتراك الشهري.',
     volumeEnterprise: 'اتفاقية Enterprise',
-    volumeCapNote: 'تتراكم خصومات الحجم ودورة الفوترة بحد أقصى مجمّع 15%.',
+    volumeCapNote: 'يُطبَّق خصم الحجم أو خصم دورة الفوترة - أيهما أكبر وليس كلاهما - بحد أقصى 20%.',
     discountNone: 'بدون خصم حجم',
     perMonthLabel: '/شهريًا',
     oneOffLabel: 'مرة واحدة',
@@ -319,7 +319,7 @@ const pricingPageCopy: Partial<Record<Exclude<WebsiteLocale, 'en'>, PricingPageC
     volumeTitle: 'Volume',
     volumeDescription: "Le nombre de sites réduit l'abonnement mensuel total.",
     volumeEnterprise: 'Accord Enterprise',
-    volumeCapNote: 'Les remises volume et cycle se cumulent, dans la limite de 15 %.',
+    volumeCapNote: 'La remise volume ou la remise de cycle s’applique - la plus élevée, jamais les deux - dans la limite de 20 %.',
     discountNone: 'Pas de remise volume',
     perMonthLabel: '/mois',
     oneOffLabel: 'unique',
@@ -363,7 +363,7 @@ const pricingPageCopy: Partial<Record<Exclude<WebsiteLocale, 'en'>, PricingPageC
     volumeTitle: 'Volumen',
     volumeDescription: 'El número de locales descuenta toda la suscripción mensual.',
     volumeEnterprise: 'Acuerdo Enterprise',
-    volumeCapNote: 'Los descuentos por volumen y por ciclo se acumulan, con un tope combinado del 15%.',
+    volumeCapNote: 'Se aplica el descuento por volumen o el de ciclo - el mayor, nunca ambos - con un tope del 20%.',
     discountNone: 'Sin descuento por volumen',
     perMonthLabel: '/mes',
     oneOffLabel: 'pago único',
