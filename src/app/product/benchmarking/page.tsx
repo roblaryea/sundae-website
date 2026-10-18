@@ -21,7 +21,7 @@ const localizedBenchmarkCopy = {
   en: {
     badge: "Competitive Intelligence",
     title: "Stop Guessing. Start Knowing.",
-    description: "Compare your numbers against anonymized peer data, including RevPASH Index, seat occupancy, average check, and revenue indexes, with context that shows where you stand.",
+    description: "Restaurant benchmarking software for food cost, labor, RevPASH, seat occupancy, average check, and revenue indexes, using anonymized peer context that shows where every location stands.",
     heroPrimary: "See Benchmarks In A Demo",
     heroSecondary: "Book a Demo",
     howTitle: "How Sundae Benchmarks Work",

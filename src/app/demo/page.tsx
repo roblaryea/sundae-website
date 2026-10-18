@@ -1,3 +1,4 @@
+import { decodePricingIntent } from "@/lib/pricingIntent";
 import type { Metadata } from "next";
 import React from 'react';
 import Link from 'next/link';
@@ -19,7 +20,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function DemoPage() {
+export default async function DemoPage({ searchParams }: { searchParams: Promise<{ cfg?: string | string[] }> }) {
+  const params = await searchParams;
+  const pricingIntent = typeof params.cfg === "string" ? decodePricingIntent(params.cfg) : null;
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getWebsiteMessages(locale).pages.demo;
   const positioning = getPositioningCopy(locale).critical;
@@ -70,6 +73,7 @@ export default async function DemoPage() {
           <LeadCaptureForm
             ctaLabel={copy.ctaLabel}
             defaultMessage={copy.defaultMessage}
+            pricingIntent={pricingIntent ?? undefined}
           />
         </div>
       </section>

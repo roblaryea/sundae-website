@@ -168,7 +168,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/company/managewithsundae"
+                href="https://www.linkedin.com/company/sundae-io"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"

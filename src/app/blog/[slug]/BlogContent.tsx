@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -35,16 +36,19 @@ export function BlogContent({ content }: { content: string }) {
           em: ({ children }) => (
             <em className="text-[var(--text-supporting)] italic">{children}</em>
           ),
-          a: ({ href, children }) => (
-            <a
-              href={href}
-              className="text-[#FF8473] hover:text-[#FFB59E] underline underline-offset-2 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {children}
-            </a>
-          ),
+          a: ({ href, children }) => {
+            const className = 'text-[#FF8473] hover:text-[#FFB59E] underline underline-offset-2 transition-colors';
+
+            if (href?.startsWith('/')) {
+              return <Link href={href} className={className}>{children}</Link>;
+            }
+
+            return (
+              <a href={href} className={className} target="_blank" rel="noopener noreferrer">
+                {children}
+              </a>
+            );
+          },
           ul: ({ children }) => (
             <ul className="list-disc list-outside pl-6 mb-6 space-y-2 text-[var(--text-secondary)]">
               {children}

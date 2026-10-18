@@ -33,9 +33,14 @@ export default function RecoveryPage() {
         description={copy.description}
       >
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href={href("/demo")}>
-            <Button size="lg">{copy.ctaPrimary}</Button>
-          </Link>
+          <Button
+            href={href("/demo")}
+            size="lg"
+            trackingLabel="book_demo_profit_recovery_hero"
+            trackingMetadata={{ location: "hero" }}
+          >
+            {copy.ctaPrimary}
+          </Button>
           <Link href={href("/core")}>
             <Button size="lg" variant="secondary">
               {copy.ctaSecondary}
@@ -196,9 +201,14 @@ export default function RecoveryPage() {
       </section>
 
       <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Link href={href("/demo")}>
-          <Button size="lg">{copy.ctaPrimary}</Button>
-        </Link>
+        <Button
+          href={href("/demo")}
+          size="lg"
+          trackingLabel="book_demo_profit_recovery_footer"
+          trackingMetadata={{ location: "footer" }}
+        >
+          {copy.ctaPrimary}
+        </Button>
       </PageCTA>
     </main>
   );

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sundae for Cloud Kitchen Operators - Real Margin per Brand, per Platform",
+  title: "Cloud Kitchen Software for Margin & Operations",
   description:
-    "Real margin per virtual brand, per platform, per kitchen - with platform-health monitoring and commission, packaging, and refund reconciliation built in.",
+    "Cloud kitchen software for real margin by virtual brand, delivery platform, and kitchen, with commission, packaging, refund, and operating-performance intelligence.",
 };
 
 export default function Layout({

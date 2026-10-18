@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import Image from 'next/image';
 import { useEffect, useState, type ReactNode } from 'react';
 import { useRef } from 'react';
@@ -172,7 +173,7 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
                 <p className="text-sm font-medium sm:text-[15px]" style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}>
                   {variantCopy.proof}
                 </p>
-                <a
+                <Link
                   href="/product/pulse"
                   className="group/cta inline-flex items-center gap-1.5 whitespace-nowrap text-sm font-semibold transition-colors hover:opacity-80"
                   style={{ color: 'var(--warm-coral)' }}
@@ -181,7 +182,7 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
                   <svg width="13" height="13" viewBox="0 0 12 12" fill="none" aria-hidden className="transition-transform duration-300 group-hover/cta:translate-x-0.5">
                     <path d="M3 6h6M6.5 3.5 9 6 6.5 8.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </FadeUp>
           )}
