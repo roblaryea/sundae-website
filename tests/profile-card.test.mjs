@@ -8,7 +8,7 @@ import { PROFILE_HANDLES, isProfileCardPath, isProfileHandle } from "../src/lib/
 import { isLeadFormEnabled } from "../src/lib/profileFeatures.ts";
 import { CITIES, ROLE_TITLES, cityName, countryName, locationText, roleTitle } from "../src/lib/profileCatalogue.ts";
 import { CARD_LOCALES, cardLocaleDirection, resolveCardLocale } from "../src/lib/profileCardLocale.ts";
-import { PROFILES, COMPANY_LEGAL_NAME, displayHost, linkedinHandle } from "../src/lib/profileData.ts";
+import { PROFILES, COMPANY_LEGAL_NAME, displayHost, isProfileActive, linkedinHandle } from "../src/lib/profileData.ts";
 
 // 25 languages: the website's 22 plus Papiamento, Russian and Azerbaijani (the booking set).
 const WEBSITE_LOCALES = [
@@ -260,4 +260,25 @@ test("the visitor's language is chosen explicit first, then the browser", () => 
   assert.equal(cardLocaleDirection("ar"), "rtl");
   assert.equal(cardLocaleDirection("ur"), "rtl");
   assert.equal(cardLocaleDirection("ru"), "ltr");
+});
+
+test("a booking slug, when set, is a valid personal booking page slug", () => {
+  for (const [handle, profile] of Object.entries(PROFILES)) {
+    if (profile.bookingSlug === undefined) continue;
+    assert.match(profile.bookingSlug, /^[a-z0-9][a-z0-9-]{1,62}$/, handle);
+  }
+  assert.equal(PROFILES.robert.bookingSlug, "robert");
+});
+
+test("a retired profile is inactive only when explicitly marked, and every language explains it", () => {
+  assert.equal(isProfileActive(PROFILES.robert), true);
+  assert.equal(isProfileActive({ ...PROFILES.robert, active: true }), true);
+  assert.equal(isProfileActive({ ...PROFILES.robert, active: false }), false);
+  for (const locale of WEBSITE_LOCALES) {
+    for (const key of ["cardInactiveTitle", "cardInactiveBody", "cardInactiveAction", "rateLimited", "tryAgain", "fieldErrorName", "fieldErrorEmail", "fieldErrorPhone", "fieldErrorConsent"]) {
+      assert.ok(profileCardCopy[locale][key].trim(), `${locale}.${key}`);
+      if (locale !== "en") assert.notEqual(profileCardCopy[locale][key], profileCardCopy.en[key], `${locale}.${key} equals English`);
+    }
+    assert.ok(profileCardCopy[locale].cardInactiveBody.includes("Sundae"), `${locale} names Sundae`);
+  }
 });

@@ -31,6 +31,18 @@ export type PersonProfile = {
   linkedin?: string
   /** Key into CITIES; the city and country are shown in the visitor's language. */
   cityKey: CityKey
+  /**
+   * Slug of this person's published personal booking page in the Sundae admin (sundae.io/book/<slug>).
+   * "Book a working session" opens it, so a visitor books time with this person. Without one the
+   * card falls back to the general demo page.
+   */
+  bookingSlug?: string
+  /**
+   * Set to false when the person leaves. The handle stays reserved (printed QR codes keep working)
+   * but the card stops showing their details, the contact file is gone and the form is closed; the
+   * visitor is pointed to the Sundae team instead. Never reuse a printed handle for someone else.
+   */
+  active?: boolean
 }
 
 export const COMPANY_LEGAL_NAME = 'Sundae Technologies Inc.'
@@ -51,7 +63,12 @@ export const PROFILES: Record<ProfileHandle, PersonProfile> = {
     website: COMPANY_WEBSITE,
     linkedin: 'https://www.linkedin.com/in/robertalaryea',
     cityKey: 'dubai',
+    bookingSlug: 'robert',
   },
+}
+
+export function isProfileActive(profile: PersonProfile): boolean {
+  return profile.active !== false
 }
 
 export function profileFullName(profile: PersonProfile): string {

@@ -13,6 +13,9 @@ rewritten in `next.config.ts` for registered handles only, so unknown URLs keep 
    - `titleForm` is the person's own choice of grammatical form for languages that have one
      (French, Spanish, German, Arabic and others). Ask them; never infer it from a name.
    - `phone` is E.164 (`+971...`), `phoneDisplay` is how it reads on the page.
+   - `bookingSlug` is the slug of the person's published personal booking page in the Sundae admin
+     (Marketing > Booking settings). "Book a working session" opens `sundae.io/book/<slug>`, so the
+     person must create and publish that page first; without a slug the card links to the demo page.
 3. **Role and city.** Use an existing key in `src/lib/profileCatalogue.ts`. If the role or city is
    new, add it with **all 25 locales** (the website's 22 plus Russian, Azerbaijani and Papiamento); the tests fail otherwise. Languages with gendered titles
    need both a `masculine` and a `feminine` form. Countries need no entry: they come from the
@@ -91,3 +94,29 @@ website forms use. It needs the same two environment variables as those forms:
   banner copy lives in `CookieConsent.tsx`.
 - Profiles are code, so each change is reviewed and versioned. If the list grows beyond a handful of
   people, move the registry behind an admin-managed store.
+
+## Staff lifecycle
+
+- **Leaving:** set `active: false` on the person's profile in `src/lib/profileData.ts`. The handle stays
+  reserved, so printed QR codes keep working, but the card stops showing the person's details (name,
+  phone, email, LinkedIn), the contact file returns 410 Gone, the form is closed and the visitor is
+  pointed to the Sundae team. Never reuse a printed handle for someone else.
+- **Joining:** add the profile (see "Adding a person") through a reviewed pull request. Their personal
+  booking page must exist and be published first (`bookingSlug`).
+- **Their contacts:** contacts stay in the Sundae admin (Marketing & Comms > Contacts) owned by the
+  person. When someone leaves, reassign their contacts before deactivating their admin access, or a
+  super admin can filter by owner and bulk-assign them.
+- **Limited access:** a custom admin role with the "My contacts" capability sees only the contacts
+  assigned to them; it cannot convert to pipeline leads or see other people's contacts.
+
+## Form recovery and limits
+
+- Field-specific messages (name, email, phone, consent) appear under the field, the first one is
+  focused, and the field is linked with `aria-describedby`.
+- Too many attempts (5 stored submissions per address per hour, process-local) shows an explanation
+  and a Try again button that unlocks when the wait ends. The automatic timing retry and fixable
+  validation errors do not use up attempts.
+- This limit is a speed bump, not a deployment-wide control. The backend holds acknowledgement
+  emails to an hourly budget (`PROFILE_CARD_ACK_HOURLY_BUDGET`, default 100) and sends at most one
+  acknowledgement per email address, which bounds mail volume. A shared per-address limit still needs
+  an edge (WAF) rule or a hosted counter.

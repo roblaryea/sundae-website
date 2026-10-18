@@ -23,8 +23,13 @@ export const MAX_FORM_AGE_MS = 24 * 60 * 60 * 1000
 
 export const LIMITS = { name: 120, email: 254, phone: 30, company: 120, note: 1000 } as const
 
+/** A client-generated id for one submission attempt; retries of the same attempt reuse it. */
+const SUBMISSION_ID = /^[A-Za-z0-9-]{8,64}$/
+
 export type ConnectData = {
   handle: string
+  /** Identifies this submission so a transport retry is deduplicated but a second message is not. */
+  submissionId: string | null
   name: string
   email: string
   phone: string
@@ -60,8 +65,10 @@ export function parseConnectSubmission(
   if (clean(input.website) !== '' || !Number.isFinite(elapsed)) return { kind: 'ignored' }
   if (elapsed < MIN_FILL_MS || elapsed > MAX_FORM_AGE_MS) return { kind: 'retry' }
 
+  const submissionId = typeof input.submissionId === 'string' && SUBMISSION_ID.test(input.submissionId) ? input.submissionId : null
   const data: ConnectData = {
     handle: clean(input.handle).toLowerCase(),
+    submissionId,
     name: clean(input.name),
     email: clean(input.email).toLowerCase(),
     phone: clean(input.phone),
