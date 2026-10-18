@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import type { WebsiteLocale } from "@/lib/i18n";
 
@@ -181,13 +182,13 @@ export function DemoDiagnosticPromo() {
         <p className="text-base text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
           {c.description}
         </p>
-        <a
+        <Link
           href="/diagnostic"
           className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white font-bold rounded-xl shadow-xl shadow-[var(--warm-coral)]/20 hover:shadow-[var(--warm-coral)]/40 transition-all"
         >
           {c.cta}
           <span aria-hidden>→</span>
-        </a>
+        </Link>
         <p className="text-[11px] text-[var(--text-muted)] mt-3">
           {c.disclaimer}
         </p>

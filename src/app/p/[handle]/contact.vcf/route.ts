@@ -1,0 +1,51 @@
+import { resolveCardLocale } from '@/lib/profileCardLocale'
+import { PROFILE_AVATAR_PNG_BASE64 } from '@/lib/profileAvatar'
+import { profileCity, profileCountry, profileRole } from '@/lib/profileCatalogue'
+import { PROFILE_HANDLES } from '@/lib/profileHandles'
+import { getProfile, isProfileActive } from '@/lib/profiles'
+import { buildVCard, vCardFilename } from '@/lib/vcard'
+
+/**
+ * Downloadable contact file for a profile card (sundae.io/<handle>/contact.vcf).
+ * Served inline with a vCard content type, which makes iOS and macOS offer "Add
+ * Contact" directly and makes Android and desktop browsers hand the file to the
+ * contacts app. Content comes only from the typed profile registry. The optional
+ * ?lang= parameter is normalized against the supported locales and only selects the
+ * language of the job title and place names; it never reaches the file as text.
+ */
+export const dynamicParams = true
+export const dynamic = 'force-dynamic'
+
+export function generateStaticParams() {
+  return PROFILE_HANDLES.map((handle) => ({ handle }))
+}
+
+export async function GET(request: Request, { params }: { params: Promise<{ handle: string }> }) {
+  const { handle } = await params
+  const profile = await getProfile(handle)
+  if (!profile) return new Response('Not found', { status: 404 })
+  // A retired card keeps its handle but no longer hands out the person's details.
+  if (!isProfileActive(profile)) return new Response('Gone', { status: 410, headers: { 'X-Robots-Tag': 'noindex, nofollow' } })
+
+  // ?lang= is what the page's Save contact link sends; a direct hit falls back to the browser language.
+  const lang = new URL(request.url).searchParams.get('lang')
+  const locale = resolveCardLocale([lang], request.headers.get('accept-language'))
+
+  const body = buildVCard(profile, {
+    title: profileRole(profile, locale),
+    city: profileCity(profile, locale),
+    country: profileCountry(profile, locale),
+    photoPngBase64: PROFILE_AVATAR_PNG_BASE64,
+  })
+  // Revalidate against the runtime directory; pausing must stop contact downloads.
+  return new Response(body, {
+    headers: {
+      'Content-Type': 'text/vcard; charset=utf-8',
+      'Content-Disposition': `inline; filename="${vCardFilename(profile)}"`,
+      'Cache-Control': 'private, no-store',
+      Vary: 'Accept-Language',
+      'X-Robots-Tag': 'noindex, nofollow',
+      'X-Content-Type-Options': 'nosniff',
+    },
+  })
+}

@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs";
 import { withBotId } from "botid/next/config";
+import { PROFILE_HANDLES } from "./src/lib/profileHandles";
 
 const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sundae.io').replace(/\/+$/, '');
 
@@ -48,6 +49,15 @@ const nextConfig: NextConfig = {
         ],
       },
     ];
+  },
+  // Profile cards (sundae.io/<handle>, the destination of the QR on Sundae business cards)
+  // keep legacy rewrites. Runtime staff handles also resolve through the root dynamic
+  // route, whose directory lookup calls notFound() for unknown handles.
+  async rewrites() {
+    return PROFILE_HANDLES.flatMap((handle) => [
+      { source: `/${handle}`, destination: `/p/${handle}` },
+      { source: `/${handle}/contact.vcf`, destination: `/p/${handle}/contact.vcf` },
+    ]);
   },
   async redirects() {
     return [

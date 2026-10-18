@@ -6,9 +6,9 @@ import { generatedLocalCopy } from '@/generated-locales/app_solutions_multi_loca
 
 const copy = {
   en: {
-    title: "Multi-Location Restaurant Groups - Unified Intelligence Across Every Site",
+    title: "Multi-Location Restaurant Analytics & Intelligence",
     description:
-      "Sundae gives multi-location restaurant operators a single view of performance across all sites - benchmark locations, spot outliers, and standardize what works.",
+      "Restaurant analytics software for multi-location groups: unify performance data, benchmark every site, find margin outliers, assign action, and measure recovery.",
   },
   ar: {
     title: "مجموعات المطاعم متعددة المواقع - ذكاء موحد عبر كل موقع",

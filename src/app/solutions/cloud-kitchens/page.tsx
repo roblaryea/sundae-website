@@ -12,7 +12,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     badge: "For Cloud Kitchens & Virtual Brands",
     titleLine1: "Every platform.",
     titleLine2: "Every brand. One ledger.",
-    description: "Live order, channel, and commission data across DoorDash, UberEats, Talabat, and your direct channels. Margin per platform, not just per brand.",
+    description: "Cloud kitchen software that unifies live order, channel, and commission data across DoorDash, UberEats, Talabat, and direct channels. See margin per platform, kitchen, and virtual brand.",
     primaryCta: "Book a Cloud Kitchen Walk-through",
     secondaryCta: "See Delivery Demo",
     problemsEyebrow: "WHERE CLOUD KITCHENS LOSE MARGIN",

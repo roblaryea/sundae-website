@@ -23,13 +23,18 @@ jobs:
         run: npm ci
 
       - name: Security audit
-        run: npm audit --audit-level=high
+        # Runtime packages gate releases. Development-only lint tooling is
+        # monitored by Dependabot until its upstream glob chain ships a fix.
+        run: npm audit --omit=dev --audit-level=high
 
       - name: Next lint directory-glob compatibility
         run: npm run test:lint-glob
 
       - name: Lint
         run: npm run lint
+
+      - name: Pricing handoff regression tests
+        run: npm run test:pricing-handoff
 
       - name: Blog copy QA
         run: npm run qa:blog-copy
@@ -42,6 +47,9 @@ jobs:
 
       - name: Translation quality QA
         run: npm run qa:translation
+
+      - name: SEO inventory tests
+        run: npm run test:seo
 
       # Content must not be hidden behind a reduced-motion check, and a
       # position:fixed overlay must not be trapped by a transformed or

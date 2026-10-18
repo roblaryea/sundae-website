@@ -1,13 +1,13 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import { use, useState, FormEvent } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FormField } from '@/components/auth/FormField';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { SundaeLogotype } from '@/components/ui/SundaeLogotype';
 import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
-import { APP_URL, SIGNIN_URL, SIGNUP_URL } from '@/lib/urls';
+import { APP_URL, SIGNIN_URL, SIGNUP_URL, appAuthUrl } from '@/lib/urls';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_sign_in_page'
 
@@ -64,7 +64,12 @@ const localizedShellCopy: RequiredEnglishLocalizedRecord<
 /* ---------------------------------------------------------------
  Page
  --------------------------------------------------------------- */
-export default function SignInPage() {
+export default function SignInPage({ searchParams }: {
+ searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+ const params = use(searchParams);
+ const signInUrl = appAuthUrl(SIGNIN_URL, params.returnUrl);
+ const signUpUrl = appAuthUrl(SIGNUP_URL, params.returnUrl);
  const { messages, locale } = useWebsiteI18n();
  const copy = messages.pages.signIn;
  const shellCopy = localizedShellCopy[locale as keyof typeof localizedShellCopy] ?? getGeneratedLocalCopy(localizedShellCopy, generatedLocalCopy.localizedShellCopy, locale) ?? localizedShellCopy.en;
@@ -101,7 +106,7 @@ async function handleSubmit(e: FormEvent) {
  e.preventDefault();
  setFormError('');
  if (!hasAuth) {
- window.location.href = SIGNIN_URL;
+ window.location.href = signInUrl;
  return;
  }
  if (!validate()) return;
@@ -347,7 +352,7 @@ async function handleSubmit(e: FormEvent) {
  </ul>
  </div>
  <a
- href={SIGNIN_URL}
+ href={signInUrl}
  className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-[var(--text-primary)] bg-[var(--navy-deep)] shadow-lg shadow-stone-900/25 hover:shadow-xl hover:shadow-stone-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-stone-900"
  >
  {copy.continueToApp}
@@ -368,7 +373,7 @@ async function handleSubmit(e: FormEvent) {
  <p className="mt-8 text-center text-sm text-[var(--text-muted)]">
  {copy.noAccount}{' '}
  <a
- href={SIGNUP_URL}
+ href={signUpUrl}
  className="font-medium text-[var(--text-primary)] hover:text-white/90 transition-colors"
  >
  {copy.getStartedFree}

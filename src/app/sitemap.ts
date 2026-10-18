@@ -6,87 +6,12 @@ import {
   normalizeWebsitePathname,
   websiteLocales,
 } from '@/lib/i18n'
+import { sitemapStaticRoutes } from '@/lib/sitemapInventory.mjs'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io'
   
-  // Core pages
-  const corePages = [
-    '',
-    '/about',
-    '/demo',
-    '/diagnostic',
-    '/contact',
-    '/blog',
-    '/faq',
-    '/tools',
-    '/resources',
-    '/getting-started',
-    '/core',
-    '/4d-intelligence',
-    '/architecture',
-    '/why-sundae',
-    '/careers',
-    '/privacy',
-    '/terms',
-    '/docs',
-    '/security',
-    '/integrations',
-    '/solutions',
-  ]
-
-  // Product pages
-  const productPages = [
-    '/product',
-    '/product/pulse',
-    '/product/watchtower',
-    '/product/foresight',
-    '/product/cross-intelligence',
-    '/product/intelligence',
-    '/product/insights',
-    '/product/benchmarking',
-    '/product/recovery',
-  ]
-
-  // Crew pages (operational suite + per-module surfaces)
-  const crewPages = [
-    '/crew',
-    '/crew/scheduling',
-    '/crew/time-attendance',
-    '/crew/payroll',
-    '/crew/people',
-    '/crew/people-intelligence',
-  ]
-
-  // Solutions pages
-  const solutionPages = [
-    '/solutions/multi-location-groups',
-    '/solutions/franchises',
-    '/solutions/cloud-kitchens',
-    '/solutions/hospitality-operators',
-    '/solutions/regional-managers',
-    '/solutions/c-suite-executives',
-    '/solutions/finance-teams',
-    '/solutions/marketing-teams',
-    '/solutions/technology-teams',
-    '/solutions/hr-teams',
-  ]
-
-  // Tools pages
-  const toolPages = [
-    '/tools/labor-cost',
-    '/tools/menu-margin',
-    '/tools/breakeven-covers',
-    '/tools/labor-analyzer',
-    '/tools/benchmark-readiness',
-    '/tools/multi-location-uplift',
-    '/tools/daypart-margin-leak',
-    '/tools/upsell-opportunity-index',
-  ]
-
-  const staticRoutes = [...corePages, ...productPages, ...crewPages, ...solutionPages, ...toolPages]
-
-  const staticPages = staticRoutes.flatMap((route) => {
+  const staticPages = sitemapStaticRoutes.flatMap((route) => {
     const normalizedRoute = normalizeWebsitePathname(route)
     const alternates = buildWebsiteAlternateUrls(normalizedRoute, baseUrl)
 

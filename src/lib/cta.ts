@@ -10,7 +10,7 @@
 import { trackEvent } from "@/lib/posthog";
 
 type GtagValue = string | number | boolean | null | undefined;
-type CtaMetadata = Record<string, GtagValue>;
+export type CtaMetadata = Record<string, GtagValue>;
 
 /**
  * Track a CTA click in the site's consent-gated PostHog instance.
@@ -22,6 +22,7 @@ export const trackCta = (label: string, metadata: CtaMetadata = {}) => {
   trackEvent("cta_click", {
     event_category: "CTA",
     event_label: label,
+    source_page: typeof window !== "undefined" ? window.location.pathname : undefined,
     ...metadata,
   });
   

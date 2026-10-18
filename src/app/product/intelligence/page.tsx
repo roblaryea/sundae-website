@@ -23,7 +23,7 @@ const localizedChatCopy = {
     heroBadge: "Ask Sundae",
     heroTitle: "Ask Your Data Anything. Get Answers in Seconds.",
     heroDescription:
-      "Natural language questions, structured visual answers - powered by your POS, inventory, labor, and delivery data in real time.",
+      "A restaurant intelligence platform for natural-language questions and structured visual answers, powered by your POS, inventory, labor, and delivery data in real time.",
     heroPrimary: "Try It Free",
     heroSecondary: "Book a Demo",
     platforms: ["Web App", "Telegram", "Slack", "Microsoft Teams", "Voice Input"],

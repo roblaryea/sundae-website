@@ -520,7 +520,13 @@ export default function DaypartMarginLeakPage() {
                   </div>
                 )}
 
-                <Button href="/demo" variant="primary" className="w-full">
+                <Button
+                  href="/demo"
+                  variant="primary"
+                  className="w-full"
+                  trackingLabel="book_demo_daypart_margin_tool"
+                  trackingMetadata={{ location: "tool_results" }}
+                >
                   {copy.cta}
                 </Button>
               </div>

@@ -21,10 +21,10 @@ import { generatedLocalCopy } from '@/generated-locales/lib_page_titles';
  */
 export const pageTitlesEn: Record<string, string> = {
   '/product': 'The Sundae Platform - Six Layers of Restaurant Decision Intelligence',
-  '/product/benchmarking': 'Sundae Benchmarking - Compare Every Location Against the Market',
+  '/product/benchmarking': 'Restaurant Benchmarking Software - Compare Every Location | Sundae',
   '/product/foresight': 'Sundae Foresight - Predictive Forecasting & Scenario Planning',
   '/product/insights': 'Sundae Insights - 12 Deep Analytics Modules for Restaurants',
-  '/product/intelligence': 'Ask Sundae - Ask Your Restaurant Data Anything',
+  '/product/intelligence': 'Restaurant Intelligence Platform - Ask Your Data Anything | Sundae',
   '/core': 'Sundae Core - The Decision Intelligence Workspace',
   '/4d-intelligence': 'The 4D Intelligence Model - How Sundae Reads Your Business',
   '/architecture': 'Platform Architecture - How Sundae Unifies Your Data',
@@ -60,6 +60,8 @@ const pageDescriptionsEn: Record<string, string> = {
     'Explore Sundae decision intelligence for multi-location food-service: detect profit leaks, route accountable action, and measure what changed.',
   '/product/intelligence':
     'Ask Sundae is restaurant AI for operational decisions. Ask questions across POS, labor, cost, inventory and guest data, then act on answers with evidence.',
+  '/product/benchmarking':
+    'Restaurant benchmarking software for multi-location operators. Compare food cost, labor, revenue, occupancy and RevPASH against relevant anonymized peers.',
   '/diagnostic':
     'Take the free restaurant operations diagnostic to identify decision delays, disconnected data and likely sources of preventable profit loss across your locations.',
   '/blog':

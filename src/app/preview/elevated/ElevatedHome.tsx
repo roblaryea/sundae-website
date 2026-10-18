@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useEffect, useState, type CSSProperties, type ReactNode } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { SectionCinematicIntro } from '@/components/home/SectionCinematicIntro';
@@ -307,7 +308,7 @@ function ClosingCheck() {
             <span style={{ fontSize: 13, color: '#6b6259' }}>TOTAL</span>
             <span style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 22, color: T.creamInk }}>One clear move</span>
           </div>
-          <a
+          <Link
             href="/demo"
             style={{
               display: 'block',
@@ -324,7 +325,7 @@ function ClosingCheck() {
             }}
           >
             Book a demo
-          </a>
+          </Link>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: 16 }}>
             <Barcode />
             <span style={{ fontSize: 10, color: '#9a8f80' }}>THANK YOU - PLEASE COME AGAIN</span>

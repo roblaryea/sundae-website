@@ -100,7 +100,7 @@ async function generateWithModel(
   abortSignal: AbortSignal,
 ) {
   const referenceReport = runDiagnostic(responses, locale);
-  const userMessage = buildUserMessage(responses, leadData, locale);
+  const userMessage = buildUserMessage(responses, leadData, locale, referenceReport);
 
   // Vercel AI SDK with structured output. A LanguageModel instance from
   // @ai-sdk/anthropic / @ai-sdk/openai uses the direct provider key
