@@ -53,7 +53,7 @@ preserved on edits. The legacy Robert record retains its existing localized titl
 - Robert's existing code record is a transitional fallback only when the API returns 404. A
   directory tombstone or an upstream failure never falls back to an old active record.
 
-Mark's agreed setup is Amsterdam, Netherlands; +31 6 41 50 92 55; 30-minute calls; Europe/Amsterdam,
+Mark's agreed setup is Amsterdam, Netherlands; +31 6 41 50 92 55; 60-minute calls; Europe/Amsterdam,
 Monday to Friday 09:00-17:00. His Scheduling Host invitation was still pending at the live review
 on 18 October 2026. He will accept it later; no role was activated, production page published,
 real booking created or invitation resent during the review.

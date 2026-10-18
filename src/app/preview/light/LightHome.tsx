@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useEffect, type CSSProperties, type ReactNode } from 'react';
 import { motion } from 'framer-motion';
 
@@ -383,7 +384,7 @@ function ClosingCTA() {
               <br />
               on <span style={{ fontStyle: 'italic', color: L.caramel }}>yesterday&apos;s numbers.</span>
             </h2>
-            <a
+            <Link
               href="/demo"
               style={{
                 display: 'inline-flex',
@@ -400,7 +401,7 @@ function ClosingCTA() {
               }}
             >
               Book a demo
-            </a>
+            </Link>
           </div>
         </Reveal>
       </div>
