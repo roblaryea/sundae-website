@@ -16,9 +16,14 @@ export type PersonProfile = {
   givenName: string
   familyName: string
   /** Key into ROLE_TITLES; the title is shown in the visitor's language. */
-  roleKey: RoleKey
+  roleKey?: RoleKey
   /** Grammatical form of the title in languages that have one. Chosen by the card owner. */
   titleForm: TitleForm
+  title?: string
+  city?: string
+  countryCode?: string
+  titleTranslations?: Partial<Record<string, string>>
+  cityTranslations?: Partial<Record<string, string>>
   /** Legal entity name, shown as written in every language. */
   company: string
   /** E.164, used for tel: links and the contact file. */
@@ -30,7 +35,7 @@ export type PersonProfile = {
   website: string
   linkedin?: string
   /** Key into CITIES; the city and country are shown in the visitor's language. */
-  cityKey: CityKey
+  cityKey?: CityKey
   /**
    * Slug of this person's published personal booking page in the Sundae admin (sundae.io/book/<slug>).
    * "Book a working session" opens it, so a visitor books time with this person. Without one the

@@ -51,9 +51,8 @@ const nextConfig: NextConfig = {
     ];
   },
   // Profile cards (sundae.io/<handle>, the destination of the QR on Sundae business cards)
-  // are served by src/app/p/[handle]. Only registered handles are rewritten, so the rest of
-  // the site keeps its normal 404 behaviour: a root-level [handle] segment would turn every
-  // unknown URL into a soft 404 in production.
+  // keep legacy rewrites. Runtime staff handles also resolve through the root dynamic
+  // route, whose directory lookup calls notFound() for unknown handles.
   async rewrites() {
     return PROFILE_HANDLES.flatMap((handle) => [
       { source: `/${handle}`, destination: `/p/${handle}` },
