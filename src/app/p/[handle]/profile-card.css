@@ -51,7 +51,8 @@
 .pc-hero {
   position: relative;
   order: -1;
-  height: clamp(300px, 46vh, 440px);
+  /* Compact enough that Save contact and Share your details both sit in the first screen, above the cookie notice. */
+  height: clamp(236px, 33vh, 380px);
   background: var(--pc-hero);
   border-radius: 0 0 32px 32px;
   overflow: hidden;
@@ -80,7 +81,8 @@
 }
 .pc-art {
   position: absolute;
-  width: min(78vw, 380px);
+  /* Sized from the hero's height too, so the S never spills past the compact phone hero. */
+  width: min(78vw, 380px, 30vh);
   aspect-ratio: 1;
   right: -12vw;
   top: 50%;
@@ -179,6 +181,20 @@
 .pc-primary:hover { background: #ff6e61; }
 .pc-primary:active { transform: scale(0.985); }
 
+/* Second main action: ink on paper (cream on espresso in dark), so it reads as equal weight to the coral one. */
+.pc-ink {
+  background: var(--pc-fg);
+  color: var(--pc-bg);
+  box-shadow: 0 14px 30px -18px rgba(36, 30, 26, 0.55);
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+.pc-ink:hover { opacity: 0.92; }
+.pc-ink:active { transform: scale(0.985); }
+
+/* Post-save prompt: quiet, one line, dismissible. */
+.pc-nudge { border: 1px solid var(--pc-line); background: var(--pc-surface); border-radius: 16px; box-shadow: var(--pc-shadow); }
+.pc-nudge-action { color: var(--pc-accent); min-height: 44px; }
+
 .pc-list {
   border: 1px solid var(--pc-line);
   background: var(--pc-surface);
@@ -226,20 +242,66 @@
   border-radius: 14px;
 }
 
-/* ---------- QR dialog ---------- */
-.pc-dialog {
+/* ---------- bottom sheets (share + contact exchange) ----------
+   Native <dialog>: a bottom sheet on phones, a centred card from 640px. The card stays visible
+   behind the dimmed backdrop, so the visitor never loses sight of who they are connecting with. */
+.pc-sheet {
   border: 1px solid var(--pc-line-2);
-  border-radius: 28px;
-  padding: 1.5rem;
   background: var(--pc-bg);
   color: var(--pc-fg);
-  width: min(92vw, 380px);
-  margin: auto;
-  box-shadow: 0 40px 80px -30px rgba(0, 0, 0, 0.6);
+  padding: 0.75rem 1.5rem max(1.5rem, env(safe-area-inset-bottom));
+  width: 100%;
+  max-width: 100%;
+  max-height: min(92dvh, 760px);
+  margin: auto 0 0;
+  border-radius: 28px 28px 0 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  box-shadow: 0 -30px 80px -30px rgba(0, 0, 0, 0.55);
 }
-.pc-dialog::backdrop { background: rgba(10, 8, 7, 0.68); }
-.pc-qr { background: #ffffff; border-radius: 18px; padding: 16px; }
+.pc-sheet::backdrop { background: rgba(10, 8, 7, 0.6); backdrop-filter: blur(2px); }
+.pc-sheet-grip { width: 40px; height: 4px; border-radius: 9999px; background: var(--pc-line-2); margin: 0 auto 0.75rem; }
+.pc-sheet-title {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 550;
+  font-size: 1.625rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--pc-fg);
+  text-wrap: balance;
+}
+@media (min-width: 640px) {
+  .pc-sheet { width: min(92vw, 440px); margin: auto; border-radius: 28px; padding-top: 1.5rem; }
+  .pc-sheet-grip { display: none; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .pc-sheet[open] { animation: pc-sheet-in 320ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .pc-sheet[open]::backdrop { animation: pc-fade-in 240ms ease both; }
+}
+@keyframes pc-sheet-in { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pc-fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+.pc-qr { background: #ffffff; border-radius: 18px; padding: 16px; max-width: 260px; margin-inline: auto; }
 .pc-qr svg { display: block; width: 100%; height: auto; }
+.pc-share-list > li + li { border-top: 1px solid var(--pc-line); }
+.pc-more { color: var(--pc-soft); }
+.pc-more:hover { color: var(--pc-fg); }
+
+.pc-done { text-align: center; }
+.pc-done-mark {
+  display: inline-flex;
+  height: 56px;
+  width: 56px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: #ff5c4d;
+  color: #171210;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .pc-done-mark { animation: pc-pop 420ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+}
+@keyframes pc-pop { from { transform: scale(0.6); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 
 @keyframes pc-rise {
   from { opacity: 0; transform: translateY(10px); }

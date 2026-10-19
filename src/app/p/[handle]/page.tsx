@@ -14,10 +14,8 @@ import { ProfileActions } from './ProfileActions'
 import { ProfileArt } from './ProfileArt'
 import { InactiveCard } from './InactiveCard'
 import { LanguageSwitcher } from './LanguageSwitcher'
-import { ShareButton } from './ShareButton'
-import { ShowQr } from './ShowQr'
+import { ShareSheet } from './ShareSheet'
 import { ThemeToggle } from './ThemeToggle'
-import { ShareDetails } from './ShareDetails'
 import './profile-card.css'
 
 /**
@@ -105,9 +103,8 @@ export default async function ProfilePage({ params }: PageProps) {
             </Link>
             <div className="flex items-center gap-2">
               <LanguageSwitcher handle={profile.handle} label={copy.language} value={locale} options={languageOptions} />
-              <ShowQr handle={profile.handle} showLabel={copy.showQr} title={copy.qrTitle} closeLabel={copy.close} />
               <ThemeToggle handle={profile.handle} label={copy.themeToggle} />
-              <ShareButton handle={profile.handle} title={name} shareLabel={copy.share} copiedLabel={copy.linkCopied} />
+              <ShareSheet handle={profile.handle} name={name} copy={copy} />
             </div>
           </header>
 
@@ -134,11 +131,8 @@ export default async function ProfilePage({ params }: PageProps) {
                 linkedinHandle={profile.linkedin ? linkedinHandle(profile.linkedin) : undefined}
                 websiteUrl={profile.website}
                 websiteDisplay={displayHost(profile.website)}
-              >
-                {isLeadFormEnabled() && (
-                  <ShareDetails handle={profile.handle} ownerFirstName={profile.givenName} ownerEmail={profile.email} locale={locale} copy={copy} />
-                )}
-              </ProfileActions>
+                exchange={isLeadFormEnabled() ? { ownerFirstName: profile.givenName, ownerEmail: profile.email, locale } : undefined}
+              />
             </div>
           </main>
 

@@ -216,10 +216,40 @@ test("every profile has a 1200x630 link-preview image", () => {
 
 test("the new convenience strings are translated in every locale", () => {
   for (const locale of WEBSITE_LOCALES.filter((l) => l !== "en")) {
-    for (const key of ["fillFromContacts", "fillHint", "themeToggle", "showQr", "qrTitle", "close"]) {
+    for (const key of ["fillFromContacts", "fillHint", "themeToggle", "qrTitle", "close", "connectTitle", "addMoreInfo", "exchangeNudge", "copyLink", "shareBySms", "shareByEmail", "shareByWhatsApp", "shareMore"]) {
       assert.notEqual(profileCardCopy[locale][key], profileCardCopy.en[key], `${locale}.${key} equals English`);
     }
   }
+});
+
+test("the exchange prompt names the card owner in every locale and never hard-codes a gender", () => {
+  for (const locale of WEBSITE_LOCALES) {
+    assert.match(profileCardCopy[locale].exchangeNudge, /\{name\}/, `${locale}.exchangeNudge needs the {name} placeholder`);
+    assert.match(profileCardCopy[locale].shareDetailsHint, /\{name\}/, `${locale}.shareDetailsHint needs the {name} placeholder`);
+  }
+});
+
+test("the share sheet, exchange sheet and card page are wired together", () => {
+  const dir = new URL("../src/app/p/[handle]/", import.meta.url);
+  const page = readFileSync(new URL("page.tsx", dir), "utf8");
+  const actions = readFileSync(new URL("ProfileActions.tsx", dir), "utf8");
+  const sheet = readFileSync(new URL("ExchangeSheet.tsx", dir), "utf8");
+  const share = readFileSync(new URL("ShareSheet.tsx", dir), "utf8");
+  // The exchange only exists when the feature flag is on, and is passed as data rather than children.
+  assert.match(page, /exchange=\{isLeadFormEnabled\(\)/);
+  assert.match(page, /<ShareSheet /);
+  assert.match(actions, /<ExchangeSheet/);
+  // Consent stays an explicit, required checkbox inside the sheet.
+  assert.match(sheet, /name="consent" type="checkbox" required/);
+  // Name and email are still required; company and message sit behind the disclosure.
+  assert.match(sheet, /name="name" type="text" required/);
+  assert.match(sheet, /name="email" type="email" required/);
+  assert.match(sheet, /id=\{`\$\{panelId\}-more`\} hidden=\{!more\}/);
+  // Sharing offers the channels people use, from the clean (language-free) card address.
+  for (const needle of ["sms:", "mailto:", "https://wa.me/", "navigator.clipboard.writeText", "navigator.share"]) {
+    assert.ok(share.includes(needle), `ShareSheet should offer ${needle}`);
+  }
+  assert.ok(!share.includes("?lang="), "the shared link must not pin the sender's language");
 });
 
 test("the lead form is off unless explicitly switched on", () => {

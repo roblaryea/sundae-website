@@ -124,12 +124,13 @@ test("name placeholders split cleanly for bidi isolation", () => {
   assert.deepEqual(splitTemplate("no placeholder", "R"), [{ text: "no placeholder", isName: false }]);
 });
 
-test("every locale has the name placeholder in the three owner-addressed sentences", () => {
+test("every locale has the name placeholder in the four owner-addressed sentences", () => {
+  const OWNER_ADDRESSED = ["shareDetailsHint", "thanksBody", "errorBody", "exchangeNudge"];
   for (const [locale, copy] of Object.entries(profileCardCopy)) {
-    for (const key of ["shareDetailsHint", "thanksBody", "errorBody"]) {
+    for (const key of OWNER_ADDRESSED) {
       assert.equal(copy[key].split("{name}").length, 2, `${locale}.${key} needs exactly one {name}`);
     }
-    for (const key of PROFILE_CARD_COPY_KEYS.filter((k) => !["shareDetailsHint", "thanksBody", "errorBody"].includes(k))) {
+    for (const key of PROFILE_CARD_COPY_KEYS.filter((k) => !OWNER_ADDRESSED.includes(k))) {
       assert.ok(!copy[key].includes("{name}"), `${locale}.${key} must not contain {name}`);
     }
     assert.doesNotMatch(copy.consent, /[—–]/);
