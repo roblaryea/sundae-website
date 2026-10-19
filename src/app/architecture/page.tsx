@@ -543,6 +543,20 @@ export default function ArchitecturePage() {
                   </div>
                 ))}
               </div>
+              <Button
+                variant="outline-light"
+                className="mt-8"
+                href="/blog/gdpr-data-privacy-restaurant-groups"
+                trackingLabel="architecture_gdpr_guide"
+              >
+                {locale === "ar"
+                  ? "اقرأ دليل امتثال المطاعم للائحة GDPR"
+                  : locale === "fr"
+                    ? "Lire le guide RGPD pour les groupes de restauration"
+                    : locale === "es"
+                      ? "Leer la guía de cumplimiento GDPR para restaurantes"
+                      : "Read the restaurant GDPR compliance guide"}
+              </Button>
             </FadeUp>
 
             <FadeUp delay={0.15}>
