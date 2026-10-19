@@ -29,6 +29,7 @@ type SecurityCopy = {
   ctaDescription: string;
   ctaPrimary: string;
   ctaSecondary: string;
+  gdprGuide: string;
   pillars: SecurityPillar[];
   compliance: SecurityComplianceItem[];
 };
@@ -45,6 +46,7 @@ const securityCopy: Record<"en" | "ar" | "fr" | "es", SecurityCopy> = {
     ctaDescription: "Our team is happy to discuss our security practices and compliance certifications.",
     ctaPrimary: "Contact Us",
     ctaSecondary: "View Documentation",
+    gdprGuide: "Read the restaurant GDPR compliance guide",
     pillars: [
       { icon: "alerts", title: "Encryption at Rest & in Transit", description: "All data is encrypted using AES-256 at rest and TLS 1.3 in transit. API keys and credentials are stored in isolated, encrypted vaults - never in source code." },
       { icon: "integration", title: "Secure Integrations", description: "POS, payroll, and inventory connections use OAuth 2.0 or encrypted API tokens with least-privilege scoping. We never store raw credentials from third-party systems." },
@@ -71,6 +73,7 @@ const securityCopy: Record<"en" | "ar" | "fr" | "es", SecurityCopy> = {
     ctaDescription: "يسعد فريقنا مناقشة ممارساتنا الأمنية وشهادات الامتثال.",
     ctaPrimary: "اتصل بنا",
     ctaSecondary: "عرض الوثائق",
+    gdprGuide: "اقرأ دليل امتثال المطاعم للائحة GDPR",
     pillars: [
       { icon: "alerts", title: "التشفير أثناء التخزين والنقل", description: "تُشفّر كل البيانات باستخدام AES-256 أثناء التخزين وTLS 1.3 أثناء النقل. تُحفظ مفاتيح API وبيانات الاعتماد في خزائن معزولة ومشفرة - وليس في الشيفرة المصدرية." },
       { icon: "integration", title: "تكاملات آمنة", description: "تستخدم اتصالات POS والرواتب والمخزون OAuth 2.0 أو رموز API مشفرة مع أقل قدر من الصلاحيات. لا نخزن بيانات اعتماد خام من أنظمة خارجية." },
@@ -97,6 +100,7 @@ const securityCopy: Record<"en" | "ar" | "fr" | "es", SecurityCopy> = {
     ctaDescription: "Notre équipe sera ravie de discuter de nos pratiques de sécurité et de nos certifications.",
     ctaPrimary: "Nous contacter",
     ctaSecondary: "Voir la documentation",
+    gdprGuide: "Lire le guide RGPD pour les groupes de restauration",
     pillars: [
       { icon: "alerts", title: "Chiffrement au repos et en transit", description: "Toutes les données sont chiffrées avec AES-256 au repos et TLS 1.3 en transit. Les clés API et identifiants sont stockés dans des coffres isolés et chiffrés - jamais dans le code source." },
       { icon: "integration", title: "Intégrations sécurisées", description: "Les connexions POS, paie et stock utilisent OAuth 2.0 ou des jetons API chiffrés avec des permissions minimales. Nous ne stockons jamais les identifiants bruts de systèmes tiers." },
@@ -123,6 +127,7 @@ const securityCopy: Record<"en" | "ar" | "fr" | "es", SecurityCopy> = {
     ctaDescription: "Nuestro equipo estará encantado de hablar sobre nuestras prácticas de seguridad y certificaciones.",
     ctaPrimary: "Contáctanos",
     ctaSecondary: "Ver documentación",
+    gdprGuide: "Leer la guía de cumplimiento GDPR para restaurantes",
     pillars: [
       { icon: "alerts", title: "Cifrado en reposo y en tránsito", description: "Todos los datos se cifran con AES-256 en reposo y TLS 1.3 en tránsito. Las API keys y credenciales se guardan en bóvedas aisladas y cifradas - nunca en el código fuente." },
       { icon: "integration", title: "Integraciones seguras", description: "Las conexiones de POS, nómina e inventario usan OAuth 2.0 o tokens API cifrados con mínimos privilegios. Nunca almacenamos credenciales en bruto de terceros." },
@@ -190,6 +195,15 @@ export default async function SecurityPage() {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="mt-10 text-center">
+              <Button
+                variant="outline-light"
+                href="/blog/gdpr-data-privacy-restaurant-groups"
+                trackingLabel="security_gdpr_guide"
+              >
+                {copy.gdprGuide}
+              </Button>
             </div>
           </div>
         </section>
