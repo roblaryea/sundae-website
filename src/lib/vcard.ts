@@ -46,6 +46,8 @@ export type BuildVCardOptions = {
   country: string
   /** Base64 PNG embedded as the contact photo. Omit to skip the photo. */
   photoPngBase64?: string
+  /** Base64 JPEG contact photo (a person's portrait). Takes precedence over the PNG. */
+  photoJpegBase64?: string
 }
 
 export function buildVCard(profile: PersonProfile, options: BuildVCardOptions): string {
@@ -68,7 +70,9 @@ export function buildVCard(profile: PersonProfile, options: BuildVCardOptions): 
   lines.push(
     `ADR;TYPE=WORK:;;;${escapeVCardText(options.city)};;;${escapeVCardText(options.country)}`,
   )
-  if (options.photoPngBase64) {
+  if (options.photoJpegBase64) {
+    lines.push(`PHOTO;ENCODING=b;TYPE=JPEG:${options.photoJpegBase64}`)
+  } else if (options.photoPngBase64) {
     lines.push(`PHOTO;ENCODING=b;TYPE=PNG:${options.photoPngBase64}`)
   }
   lines.push('END:VCARD')

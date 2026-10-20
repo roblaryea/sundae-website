@@ -6,6 +6,7 @@ import { buildVCard, escapeVCardText, foldLine, vCardFilename } from "../src/lib
 import { PROFILE_CARD_COPY_KEYS, profileCardCopy } from "../src/lib/profileCardCopy.ts";
 import { PROFILE_HANDLES, isProfileCardPath, isProfileHandle } from "../src/lib/profileHandles.ts";
 import { isLeadFormEnabled } from "../src/lib/profileFeatures.ts";
+import { PROFILE_PHOTOS, profilePhoto } from "../src/lib/profilePhotos.ts";
 import { CITIES, ROLE_TITLES, cityName, countryName, locationText, roleTitle } from "../src/lib/profileCatalogue.ts";
 import { CARD_LOCALES, cardLocaleDirection, resolveCardLocale } from "../src/lib/profileCardLocale.ts";
 import { PROFILES, COMPANY_LEGAL_NAME, displayHost, isProfileActive, linkedinHandle } from "../src/lib/profileData.ts";
@@ -82,6 +83,26 @@ test("embeds the contact photo when provided and omits it otherwise", () => {
   assert.doesNotMatch(buildVCard(robert, vcardOptions), /PHOTO/);
   const card = buildVCard(robert, { ...vcardOptions, photoPngBase64: "iVBORw0KGgo=" });
   assert.match(card.replace(/\r\n /g, ""), /PHOTO;ENCODING=b;TYPE=PNG:iVBORw0KGgo=/);
+});
+
+test("a person's portrait is embedded as a JPEG and replaces the brand mark", () => {
+  const card = buildVCard(robert, { ...vcardOptions, photoPngBase64: "iVBORw0KGgo=", photoJpegBase64: "/9j/4AAQ" });
+  const flat = card.replace(/\r\n /g, "");
+  assert.match(flat, /PHOTO;ENCODING=b;TYPE=JPEG:\/9j\/4AAQ/);
+  assert.doesNotMatch(flat, /TYPE=PNG/);
+});
+
+test("every portrait has a public image and a valid 192 px JPEG for the contact file", () => {
+  for (const [handle, photo] of Object.entries(PROFILE_PHOTOS)) {
+    assert.ok(existsSync(new URL(`../public${photo.src}`, import.meta.url)), `${handle}: public${photo.src} is missing`);
+    const jpeg = Buffer.from(photo.vcardJpegBase64, "base64");
+    assert.equal(jpeg[0], 0xff, `${handle}: not a JPEG`);
+    assert.equal(jpeg[1], 0xd8, `${handle}: not a JPEG`);
+    assert.ok(jpeg.length > 1000 && jpeg.length < 40_000, `${handle}: contact photo should be small (${jpeg.length} bytes)`);
+    assert.equal(profilePhoto(handle), photo);
+  }
+  assert.equal(profilePhoto("nobody"), undefined);
+  assert.equal(profilePhoto("constructor"), undefined, "prototype keys must not resolve to a photo");
 });
 
 test("download filename is safe", () => {

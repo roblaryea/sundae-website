@@ -8,6 +8,7 @@ import { CARD_LOCALES, cardLocaleNativeName } from '@/lib/profileCardLocale'
 import { getCardLocale } from '@/lib/profileCardLocale.server'
 import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
+import { profilePhoto } from '@/lib/profilePhotos'
 import { displayHost, getProfile, isProfileActive, linkedinHandle, profileFullName } from '@/lib/profiles'
 import { DEMO_URL } from '@/lib/urls'
 import { ProfileActions } from './ProfileActions'
@@ -83,6 +84,7 @@ export default async function ProfilePage({ params }: PageProps) {
   const vcardHref = `/${profile.handle}/contact.vcf?lang=${encodeURIComponent(locale)}`
   // The owner's own booking page (their availability, in the visitor's language); the general demo page only when they have none.
   const bookHref = profile.bookingSlug ? `/book/${encodeURIComponent(profile.bookingSlug)}?locale=${encodeURIComponent(locale)}` : DEMO_URL
+  const photo = profilePhoto(profile.handle)
   const languageOptions = CARD_LOCALES.map((code) => ({ value: code, label: cardLocaleNativeName(code) }))
   const rise = (delay: number) => ({ '--pc-delay': `${delay}ms` }) as React.CSSProperties
 
@@ -109,6 +111,9 @@ export default async function ProfilePage({ params }: PageProps) {
           </header>
 
           <main className="pc-main">
+            {photo && (
+              <Image src={photo.src} alt={name} width={photo.width} height={photo.height} sizes="112px" priority className="pc-photo pc-rise" style={rise(0)} />
+            )}
             <p className="pc-eyebrow pc-rise" style={rise(40)}>{copy.eyebrow}</p>
             <h1 className="pc-name pc-rise mt-3" style={rise(100)}>{name}</h1>
             <div className="pc-rise mt-3" style={rise(160)}>
