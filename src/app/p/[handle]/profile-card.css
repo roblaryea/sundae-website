@@ -242,6 +242,44 @@
 .pc-field:focus { border-color: var(--pc-fg); outline: none; }
 .pc-field[aria-invalid="true"] { border-color: var(--pc-danger); }
 
+/* Consent row. The site-wide 44px touch-target rule (styles/accessibility.css) also hits input[type=checkbox],
+   which stretched this box to 20x44 and left it hanging below the first line of text. The whole row is the
+   tap target instead, and the box is drawn at its true size. */
+.pc-consent { display: flex; align-items: flex-start; gap: 0.75rem; min-height: 44px; cursor: pointer; }
+.pc-check {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: none;
+  display: grid;
+  place-content: center;
+  width: 22px;
+  height: 22px;
+  min-height: 0;
+  margin: 0;
+  border: 1.5px solid var(--pc-line-2);
+  border-radius: 7px;
+  background: var(--pc-field);
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+.pc-check::after {
+  content: "";
+  width: 10px;
+  height: 6px;
+  margin-top: -2px;
+  border-left: 2px solid #171210;
+  border-bottom: 2px solid #171210;
+  transform: rotate(-45deg) scale(0);
+  transition: transform 120ms ease;
+}
+.pc-check:checked { background: #ff5c4d; border-color: #ff5c4d; }
+.pc-check:checked::after { transform: rotate(-45deg) scale(1); }
+.pc-check:focus-visible { outline: 2px solid var(--pc-fg); outline-offset: 2px; }
+.pc-check[aria-invalid="true"] { border-color: var(--pc-danger); }
+@media (prefers-reduced-motion: reduce) {
+  .pc-check, .pc-check::after { transition: none; }
+}
+
 .pc-iconbtn {
   display: inline-flex;
   align-items: center;

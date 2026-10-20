@@ -268,7 +268,7 @@ export function ExchangeSheet({
         </div>
       ) : (
         <form ref={formRef} onSubmit={onSubmit} autoComplete="on" className="mt-3 space-y-3.5">
-          <p className="pc-soft text-[15px] leading-snug">
+          <p className="pc-soft pb-1 text-[15px] leading-snug">
             <WithName template={copy.shareDetailsHint} name={ownerFirstName} />
           </p>
 
@@ -342,8 +342,8 @@ export function ExchangeSheet({
           {/* Honeypot: invisible to people, tempting to bots. */}
           <input name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 opacity-0" />
 
-          <label className="pc-soft flex items-start gap-3 text-[13.5px] leading-snug">
-            <input name="consent" type="checkbox" required aria-invalid={invalid('consent')} aria-describedby={invalid('consent') ? errorId('consent') : undefined} className="mt-0.5 h-5 w-5 shrink-0 accent-[#ff5c4d]" />
+          <label className="pc-soft pc-consent text-[14px] leading-[1.4]">
+            <input name="consent" type="checkbox" required aria-invalid={invalid('consent')} aria-describedby={invalid('consent') ? errorId('consent') : undefined} className="pc-check mt-px" />
             <span>
               {copy.consent}{' '}
               <Link href="/privacy" target="_blank" className="pc-fg underline decoration-[var(--pc-accent)] underline-offset-4">
@@ -353,42 +353,45 @@ export function ExchangeSheet({
             </span>
           </label>
 
-          <div aria-live="polite" className="pc-danger min-h-[1.25rem] text-[13.5px]">
-            {status === 'invalid' && copy.formInvalid}
-            {status === 'limited' && (
-              <span className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                <span>{copy.rateLimited}</span>
-                <button
-                  type="button"
-                  disabled={cooldownUntil !== null}
-                  onClick={() => {
-                    setStatus('idle')
-                    setCooldownUntil(null)
-                  }}
-                  className="underline underline-offset-4 disabled:no-underline disabled:opacity-60"
-                >
-                  {copy.tryAgain}
-                </button>
-              </span>
-            )}
-            {status === 'error' && (
-              <span>
-                <WithName template={copy.errorBody} name={ownerFirstName} />{' '}
-                <a href={`mailto:${ownerEmail}`} dir="ltr" className="underline underline-offset-4">
-                  {ownerEmail}
-                </a>
-              </span>
-            )}
-          </div>
+          {/* The status line and the button are one block, so an empty status line adds no extra gap above Send. */}
+          <div>
+            <div aria-live="polite" className="pc-danger text-[13.5px]">
+              {status === 'invalid' && <p className="pb-3.5">{copy.formInvalid}</p>}
+              {status === 'limited' && (
+                <p className="flex flex-wrap items-center gap-x-3 gap-y-1 pb-3.5">
+                  <span>{copy.rateLimited}</span>
+                  <button
+                    type="button"
+                    disabled={cooldownUntil !== null}
+                    onClick={() => {
+                      setStatus('idle')
+                      setCooldownUntil(null)
+                    }}
+                    className="underline underline-offset-4 disabled:no-underline disabled:opacity-60"
+                  >
+                    {copy.tryAgain}
+                  </button>
+                </p>
+              )}
+              {status === 'error' && (
+                <p className="pb-3.5">
+                  <WithName template={copy.errorBody} name={ownerFirstName} />{' '}
+                  <a href={`mailto:${ownerEmail}`} dir="ltr" className="underline underline-offset-4">
+                    {ownerEmail}
+                  </a>
+                </p>
+              )}
+            </div>
 
-          <button
-            type="submit"
-            disabled={status === 'sending'}
-            className="pc-primary inline-flex h-14 w-full items-center justify-center gap-2.5 rounded-2xl px-5 text-[17px] font-semibold disabled:opacity-60"
-          >
-            <Send className="h-[18px] w-[18px] rtl:-scale-x-100" aria-hidden="true" />
-            {status === 'sending' ? copy.sending : copy.send}
-          </button>
+            <button
+              type="submit"
+              disabled={status === 'sending'}
+              className="pc-primary inline-flex h-14 w-full items-center justify-center gap-2.5 rounded-2xl px-5 text-[17px] font-semibold disabled:opacity-60"
+            >
+              <Send className="h-[18px] w-[18px] rtl:-scale-x-100" aria-hidden="true" />
+              {status === 'sending' ? copy.sending : copy.send}
+            </button>
+          </div>
         </form>
       )}
     </dialog>
