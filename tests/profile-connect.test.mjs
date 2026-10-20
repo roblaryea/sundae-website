@@ -34,10 +34,15 @@ test("accepts a valid submission and normalises it", () => {
   assert.equal(result.data.name, "Ada Lovelace");
 });
 
-test("only name, email and consent are required", () => {
-  const result = parseConnectSubmission({ ...valid(), phone: "", company: "", note: "" }, opts);
+test("name, email, phone and consent are required; company and message are optional", () => {
+  const result = parseConnectSubmission({ ...valid(), company: "", note: "" }, opts);
   assert.equal(result.kind, "ok");
-  assert.equal(result.data.phone, "");
+  assert.equal(result.data.company, "");
+  const noPhone = parseConnectSubmission({ ...valid(), phone: "" }, opts);
+  assert.equal(noPhone.kind, "invalid");
+  assert.ok(noPhone.fields.includes("phone"), "a missing phone number must be flagged");
+  const blankPhone = parseConnectSubmission({ ...valid(), phone: "   " }, opts);
+  assert.equal(blankPhone.kind, "invalid");
 });
 
 test("rejects missing consent, bad email, short name, unknown handle, bad phone", () => {
@@ -108,9 +113,9 @@ test("lead payload carries source, owner and consent evidence for the CRM", () =
 });
 
 test("empty optional fields become null, not empty strings", () => {
-  const data = parseConnectSubmission({ ...valid(), phone: "", company: "", note: "" }, opts).data;
+  const data = parseConnectSubmission({ ...valid(), company: "", note: "" }, opts).data;
   const payload = buildLeadPayload(robert, data, { locale: null, consentText: CONSENT_TEXT_EN, referrer: null, at: new Date() });
-  assert.equal(payload.phone, null);
+  assert.equal(payload.phone, "+44 20 7946 0958");
   assert.equal(payload.company, null);
   assert.equal(payload.message, null);
 });

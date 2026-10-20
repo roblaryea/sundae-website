@@ -3,7 +3,7 @@
  * (type imports only) so it can be unit-tested. The route handler in
  * src/app/api/profile-card/connect/route.ts does the I/O.
  *
- * A visitor who scanned a Sundae card shares their name and email (more is optional) and
+ * A visitor who scanned a Sundae card shares their name, email and phone number (company and message are optional) and
  * agrees to be contacted. The lead lands in the Sundae marketing-leads store, which is the
  * CRM list staff already work from, tagged with the card it came from.
  */
@@ -80,7 +80,8 @@ export function parseConnectSubmission(
   if (!options.knownHandles.includes(data.handle)) fields.push('handle')
   if (data.name.length < 2 || data.name.length > LIMITS.name) fields.push('name')
   if (!EMAIL.test(data.email) || data.email.length > LIMITS.email) fields.push('email')
-  if (data.phone && (data.phone.length > LIMITS.phone || !PHONE_CHARS.test(data.phone) || !/\d{6,}/.test(data.phone.replace(/[\s\-().]/g, '')))) fields.push('phone')
+  // The phone number is required: a call or WhatsApp message is how most visitors prefer to be reached.
+  if (!data.phone || data.phone.length > LIMITS.phone || !PHONE_CHARS.test(data.phone) || !/\d{6,}/.test(data.phone.replace(/[\s\-().]/g, ''))) fields.push('phone')
   if (data.company.length > LIMITS.company) fields.push('company')
   if (data.note.length > LIMITS.note) fields.push('note')
   if (input.consent !== true) fields.push('consent')

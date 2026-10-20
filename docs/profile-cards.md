@@ -106,12 +106,12 @@ unknown URLs still 404. Run it before printing any cards that carry the link.
 > are approved; the page and Save contact work without it.
 
 Visitors can leave their own details. "Share your details" is a second main action next to Save contact
-and opens a bottom sheet over the card ("Let's connect"). Name and email are required, phone is optional
-and visible, company and message sit behind "Add more information", and consent is an explicit checkbox.
+and opens a bottom sheet over the card ("Let's connect"). Name, email and phone are required, company and
+message sit behind "Add more information", and consent is an explicit checkbox.
 After a visitor taps Save contact, a quiet one-time prompt ("Want {name} to have your details too?")
 offers the same sheet (once per visit; dismissible). After sending, the sheet offers the owner's booking page.
-Phone-only leads are not supported: the backend lead record needs an email (it is the dedupe key and the
-auto-reply address), so that needs a backend change first. It posts to `/api/profile-card/connect`, which
+Email and phone are both required: the email is the dedupe key and auto-reply address in the backend lead
+record, and the phone number is how the owner follows up. It posts to `/api/profile-card/connect`, which
 forwards a signed lead to the Sundae backend's marketing-leads intake, the same intake the
 website forms use. It needs the same two environment variables as those forms:
 `SUNDAE_BACKEND_URL` and `MARKETING_LEAD_HMAC_SECRET`.
