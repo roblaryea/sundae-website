@@ -63,8 +63,13 @@ real booking created or invitation resent during the review.
 - **Light and dark.** The card opens in light for everyone, regardless of the phone's theme, and has its
   own toggle (the choice is stored on the device). The hero panel is always espresso: it holds the layered S, whose cream top would
   vanish on paper. Palettes live in `profile-card.css`; do not use the site theme here.
-- **Show QR.** The QR button opens a full-screen code for this card so someone beside you can scan it
-  from your phone, no physical card needed.
+- **Share sheet.** The share button in the header opens one sheet with this card's QR code (so someone
+  beside you can scan it from your phone, no physical card needed) and the ways people actually pass a
+  card on: copy link, text, email, WhatsApp, and the device's own share menu where the browser has one.
+  The shared link is the clean `/<handle>` address with no language pinned, so the recipient sees it in
+  their own language.
+- **First screen.** On phones the hero is compact so Save contact and "Share your details" both sit above
+  the first-visit cookie notice on an iPhone-sized screen.
 - **Link preview.** Robert retains `public/profile/robert-og.png`. Runtime staff cards use
   text metadata and do not reference a nonexistent per-person image. Per-person social artwork
   can be added later without blocking contact-page publishing.
@@ -89,8 +94,13 @@ unknown URLs still 404. Run it before printing any cards that carry the link.
 > `PROFILE_CARD_LEAD_FORM=on`. Leave it unset until the consent wording and privacy-policy coverage
 > are approved; the page and Save contact work without it.
 
-Visitors can leave their own details ("Share your details": name and email required, phone,
-company and message optional, explicit consent). It posts to `/api/profile-card/connect`, which
+Visitors can leave their own details. "Share your details" is a second main action next to Save contact
+and opens a bottom sheet over the card ("Let's connect"). Name and email are required, phone is optional
+and visible, company and message sit behind "Add more information", and consent is an explicit checkbox.
+After a visitor taps Save contact, a quiet one-time prompt ("Want {name} to have your details too?")
+offers the same sheet (once per visit; dismissible). After sending, the sheet offers the owner's booking page.
+Phone-only leads are not supported: the backend lead record needs an email (it is the dedupe key and the
+auto-reply address), so that needs a backend change first. It posts to `/api/profile-card/connect`, which
 forwards a signed lead to the Sundae backend's marketing-leads intake, the same intake the
 website forms use. It needs the same two environment variables as those forms:
 `SUNDAE_BACKEND_URL` and `MARKETING_LEAD_HMAC_SECRET`.
