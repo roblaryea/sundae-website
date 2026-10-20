@@ -532,6 +532,31 @@ test("numbers handed over by a phone's contact card split correctly whatever the
   assert.equal(splitInternationalNumber("+\u0669\u0667\u0661 \u0665\u0660 \u0661\u0662\u0663 \u0664\u0665\u0666\u0667", "US").country, "AE");
 });
 
+test("the selected country's calling code is never repeated in the number box", () => {
+  const nationalAE = { country: "AE", text: "050 123 4567", switched: false };
+  // Every common way of writing the selected code in front of the number is removed.
+  for (const raw of [
+    "+971 50 123 4567", "+971501234567", "00971 50 123 4567", "(+971) 50 123 4567",
+    "+971 (0) 50 123 4567", "971501234567", "971 50 123 4567", "971-50-123-4567", "\u200E+971 50 123 4567",
+  ]) {
+    assert.deepEqual(splitInternationalNumber(raw, "AE"), nationalAE, JSON.stringify(raw));
+  }
+  // An incomplete or invalid number must not keep the code either; the server decides validity.
+  for (const raw of ["+971 55", "00971 55", "+971 (0) 55"]) {
+    const result = splitInternationalNumber(raw, "AE");
+    assert.doesNotMatch(result.text, /971/, raw);
+    assert.equal(result.country, "AE", raw);
+  }
+  // Real national numbers that happen to start with the same digits are left alone (Dutch 0318 numbers, +31).
+  assert.equal(splitInternationalNumber("318 123 456", "NL").text, "318 123 456");
+  assert.equal(splitInternationalNumber("0641509255", "NL").text, "0641509255");
+  // A bare code of another country is not touched.
+  assert.deepEqual(splitInternationalNumber("971501234567", "NL").country, "NL");
+  // Only the code alone, partial prefixes and a different code are left as typed or follow the number.
+  assert.equal(splitInternationalNumber("+971", "AE").text, "+971");
+  assert.equal(splitInternationalNumber("+9", "AE").text, "+9");
+});
+
 test("cleaned phone text only ever contains characters the server accepts", () => {
   const serverChars = /^[0-9+()\-.\s]+$/;
   for (const raw of ["\u202D+971 50 123 4567\u202C", "\u200F\u0660\u0665\u0660 \u0661\u0662\u0663 \u0664\u0665\u0666\u0667", "\uFF0B31\u00A06\u00A041509255"]) {

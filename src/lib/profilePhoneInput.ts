@@ -134,15 +134,45 @@ export function splitInternationalNumber(raw: string, selected: CountryCode): Ph
   const cleaned = cleanPhoneInput(raw)
   const unchanged: PhoneSplit = { country: selected, text: cleaned, switched: false }
   const trimmed = cleaned.trim()
-  if (!/^(\+|00)/.test(trimmed)) return unchanged
+  if (!/^(\+|00)/.test(trimmed)) return withoutRedundantDialCode(trimmed, selected) ?? unchanged
   const international = trimmed.startsWith('00') ? `+${trimmed.slice(2)}` : trimmed
   const number = parsePhoneNumberFromString(international)
-  if (!number) return unchanged
+  if (!number) return withoutRedundantDialCode(trimmed, selected) ?? unchanged
   // A calling code can serve several countries (+1, +44). Keep the visitor's choice when the number
   // does not say otherwise, and follow the number when it does.
   const detected = number.country && isPhoneCountry(number.country) ? number.country : null
   const shares = number.countryCallingCode === getCountryCallingCode(selected)
   const country = detected && !(shares && detected !== selected && !number.isValid()) ? detected : shares ? selected : null
-  if (!country) return unchanged
+  if (!country) return withoutRedundantDialCode(trimmed, selected) ?? unchanged
   return { country, text: number.formatNational(), switched: country !== selected }
+}
+
+/**
+ * The selector already shows "+971", so the number box must not repeat it. When the text starts with
+ * the selected country's own calling code, in any common form ("+971 50...", "00971 50...",
+ * "(+971) 50...", "+971 (0) 50...", or bare "971 50..."), the code is removed and only the national
+ * number is kept. Used when the full number could not be read as a valid international number (an
+ * incomplete or mistyped number still must not show the code twice) and for a bare code.
+ *
+ * A bare code is only removed when the text is not a valid national number on its own but is once the
+ * code is removed (or the library itself reads the whole text as the same number), because some real
+ * national numbers legitimately begin with the same digits (Dutch "318..." for the +31 selector).
+ * Returns null when there is nothing to remove.
+ */
+export function withoutRedundantDialCode(text: string, selected: CountryCode): PhoneSplit | null {
+  const dial = getCountryCallingCode(selected)
+  const explicit = new RegExp(`^(?:\\(?\\+|\\(?00)\\s*${dial}\\)?[\\s.-]*(?:\\(0\\)[\\s.-]*)?(?=\\S)`)
+  const match = text.match(explicit)
+  if (match) {
+    const rest = text.slice(match[0].length).trim()
+    const parsed = parsePhoneNumberFromString(rest, selected)
+    return { country: selected, text: parsed?.isValid() ? parsed.formatNational() : rest, switched: false }
+  }
+  const bare = text.match(new RegExp(`^\\(?${dial}\\)?[\\s.-]*(?:\\(0\\)[\\s.-]*)?(?=\\d)`))
+  if (!bare || text.slice(bare[0].length).replace(/\D/g, '').length < 5) return null
+  const whole = parsePhoneNumberFromString(text, selected)
+  if (whole?.isValid()) return whole.countryCallingCode === dial && whole.nationalNumber !== text.replace(/\D/g, '') ? { country: selected, text: whole.formatNational(), switched: false } : null
+  const rest = text.slice(bare[0].length).trim()
+  const stripped = parsePhoneNumberFromString(rest, selected)
+  return stripped?.isValid() ? { country: selected, text: stripped.formatNational(), switched: false } : null
 }
