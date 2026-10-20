@@ -243,6 +243,15 @@ test("the new convenience strings are translated in every locale", () => {
   }
 });
 
+test("the phone field is no longer labelled optional in any language", () => {
+  for (const locale of WEBSITE_LOCALES) {
+    assert.doesNotMatch(profileCardCopy[locale].fieldPhone, /[（(]/, `${locale}.fieldPhone still carries an optional marker`);
+    assert.ok(profileCardCopy[locale].fieldPhone.trim().length >= 2, `${locale}.fieldPhone is empty`);
+  }
+  const sheet = readFileSync(new URL("../src/app/p/[handle]/ExchangeSheet.tsx", import.meta.url), "utf8");
+  assert.match(sheet, /name="phone" type="tel" required/);
+});
+
 test("the exchange prompt names the card owner in every locale and never hard-codes a gender", () => {
   for (const locale of WEBSITE_LOCALES) {
     assert.match(profileCardCopy[locale].exchangeNudge, /\{name\}/, `${locale}.exchangeNudge needs the {name} placeholder`);

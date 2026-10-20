@@ -36,9 +36,9 @@ function WithName({ template, name }: { template: string; name: string }) {
 
 /**
  * Two-way exchange, as a sheet over the card: the visitor can leave their details for the card
- * owner without losing sight of who they are talking to. Name and email are required; phone is
- * optional and visible (many visitors prefer to be reached on it); company and message sit behind
- * "Add more information" so the first view stays short. Consent is explicit.
+ * owner without losing sight of who they are talking to. Name, email and phone are required;
+ * company and message sit behind "Add more information" so the first view stays short. Consent is
+ * explicit.
  *
  * Retyping is avoided wherever the platform allows it:
  *  - iOS and most desktop browsers fill name, email, phone and company from the visitor's own
@@ -272,7 +272,7 @@ export function ExchangeSheet({
           </label>
           <label className="pc-soft block text-[13px] font-medium">
             {copy.fieldPhone}
-            <input name="phone" type="tel" maxLength={30} autoComplete="tel" inputMode="tel" enterKeyHint="next" dir="ltr" aria-invalid={invalid('phone')} aria-describedby={invalid('phone') ? errorId('phone') : undefined} className={`${inputClass} text-start`} />
+            <input name="phone" type="tel" required maxLength={30} autoComplete="tel" inputMode="tel" enterKeyHint="next" dir="ltr" aria-invalid={invalid('phone')} aria-describedby={invalid('phone') ? errorId('phone') : undefined} className={`${inputClass} text-start`} />
             {fieldError('phone', copy.fieldErrorPhone)}
           </label>
 
