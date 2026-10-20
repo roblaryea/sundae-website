@@ -7,7 +7,7 @@ import { trackCta } from '@/lib/cta'
 import type { CountryCode } from 'libphonenumber-js/min'
 import { MIN_FILL_MS } from '@/lib/profileConnectTiming'
 import { splitTemplate } from '@/lib/profileTemplate'
-import { splitInternationalNumber } from '@/lib/profilePhoneInput'
+import { cleanPhoneInput, splitInternationalNumber } from '@/lib/profilePhoneInput'
 import { regionName } from '@/lib/profileRegionNames'
 import type { ProfileCardCopy } from '@/lib/profileCardCopy'
 import { normalizeCardLocale } from '@/lib/profileCardLocale'
@@ -17,13 +17,28 @@ type Status = 'idle' | 'sending' | 'sent' | 'invalid' | 'error' | 'limited'
 
 /** The Contact Picker API (Chrome on Android). Not available on iOS Safari or desktop. */
 type PickedContact = { name?: string[]; email?: string[]; tel?: string[] }
-type ContactsApi = { select(properties: string[], options?: { multiple?: boolean }): Promise<PickedContact[]> }
+type ContactsApi = {
+  select(properties: string[], options?: { multiple?: boolean }): Promise<PickedContact[]>
+  getProperties?(): Promise<string[]>
+}
 
 const subscribeNever = () => () => {}
 function detectContactPicker(): boolean {
   const contacts = (navigator as Navigator & { contacts?: ContactsApi }).contacts
   return Boolean(contacts && typeof contacts.select === 'function' && 'ContactsManager' in window)
 }
+/**
+ * A phone-like device: the main pointer is a finger. Used only to decide whether to offer the
+ * "use my phone's details" prompt where there is no Contact Picker (iPhone, other mobile browsers);
+ * desktop browsers keep their normal AutoFill dropdown and get no extra button. No user-agent sniffing.
+ */
+function detectTouchDevice(): boolean {
+  return typeof window.matchMedia === 'function' && window.matchMedia('(pointer: coarse)').matches
+}
+
+/** The fields a contact card can fill. Several of them changing within this window means AutoFill, not typing. */
+const PREFILL_FIELDS = ['name', 'email', 'phone']
+const AUTOFILL_SETTLE_MS = 250
 
 const FIELD_ORDER = ['name', 'email', 'phone', 'company', 'note', 'consent'] as const
 
@@ -47,10 +62,13 @@ function WithName({ template, name, token = 'name' }: { template: string; name: 
  * explicit.
  *
  * Retyping is avoided wherever the platform allows it:
- *  - iOS and most desktop browsers fill name, email, phone and company from the visitor's own
- *    contact card in one tap, through standard autocomplete tokens on the fields.
- *  - Chrome on Android also offers "Fill from my contacts" (the Contact Picker API). It only
- *    fills the form: everything stays editable and nothing is sent until the visitor submits.
+ *  - iOS Safari fills name, email and phone from the visitor's own contact card ("AutoFill Contact"
+ *    in the keyboard bar) through standard autocomplete tokens on the fields. iOS has no Contact
+ *    Picker, so on touch devices without one a button focuses the name box to bring that bar up.
+ *  - Chrome on Android offers "Fill from my contacts" (the Contact Picker API), first in the form.
+ *  - Every path only fills the form: everything stays editable, and the same consent and phone
+ *    rules apply. Once name, email and phone are in, focus moves to the consent box so the visitor's
+ *    remaining work is one tick and one tap on Send. Nothing is sent until they do.
  *
  * The sheet is a native <dialog>: focus is trapped, Escape closes it and the backdrop is free.
  * It is controlled by the parent so the page's actions (and the post-save prompt) can open it.
@@ -105,6 +123,20 @@ export function ExchangeSheet({
 
   // Feature detection without a hydration mismatch: the server snapshot is always false.
   const canPick = useSyncExternalStore(subscribeNever, detectContactPicker, () => false)
+  const isTouch = useSyncExternalStore(subscribeNever, detectTouchDevice, () => false)
+  const hintId = `${panelId}-autofill-hint`
+  const nameRef = useRef<HTMLInputElement>(null)
+  const sendRef = useRef<HTMLButtonElement>(null)
+  // Fields that changed by a bulk (AutoFill-style) input event within the current burst.
+  const bulkFields = useRef<Set<string>>(new Set())
+  const settleTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  useEffect(
+    () => () => {
+      if (settleTimer.current) clearTimeout(settleTimer.current)
+    },
+    [],
+  )
 
   // Opening and closing is driven by the parent; the native dialog owns focus and Escape.
   useEffect(() => {
@@ -134,20 +166,89 @@ export function ExchangeSheet({
     if (value && element instanceof HTMLInputElement) element.value = value.trim()
   }
 
+  /**
+   * Runs once a contact card has filled the form (picker or AutoFill). The phone box has already split a
+   * whole international number into selector + national number (applyPhone for the picker, the box's own
+   * change handler for AutoFill). This must not split it again: it can run from a closure that still holds
+   * the previous country. Stale "please fix" flags on the replaced fields are cleared, and focus moves on: to the first required field still empty, else to the consent box (scrolled so
+   * Send is in view). Consent is never ticked for the visitor.
+   */
+  function settlePrefill(source: 'picker' | 'autofill') {
+    const form = formRef.current
+    const phone = phoneRef.current
+    if (!form || !phone) return
+    const read = (name: string) => (name === 'phone' ? phone : (form.elements.namedItem(name) as HTMLInputElement | null))
+    const missing = PREFILL_FIELDS.find((name) => !read(name)?.value.trim())
+    const touched = PREFILL_FIELDS.filter((name) => read(name)?.value.trim())
+    setBadFields((fields) => fields.filter((field) => !touched.includes(field)))
+    if (missing) {
+      // The contact card lacked something (often an email). Take the visitor straight to it.
+      if (source === 'picker') read(missing)?.focus()
+      return
+    }
+    setFilled(true)
+    setStatus((current) => (current === 'invalid' ? 'idle' : current))
+    const consent = form.elements.namedItem('consent')
+    if (consent instanceof HTMLInputElement && !consent.checked) {
+      consent.focus({ preventScroll: true })
+      sendRef.current?.scrollIntoView({ block: 'nearest' })
+    } else {
+      sendRef.current?.focus()
+    }
+  }
+
+  /**
+   * AutoFill (iOS "AutoFill Contact", Chrome) writes several fields at once. Typing, paste and the
+   * keyboard's single-word suggestions never do, so two or more of the three fields changing by a
+   * bulk input event inside one short burst is treated as AutoFill and everything else is left alone.
+   */
+  function onFormInput(event: FormEvent<HTMLFormElement>) {
+    const target = event.target
+    if (!(target instanceof HTMLInputElement) || !PREFILL_FIELDS.includes(target.name)) return
+    const type = (event.nativeEvent as InputEvent).inputType
+    if (type && type !== 'insertReplacementText') return
+    bulkFields.current.add(target.name)
+    if (settleTimer.current) clearTimeout(settleTimer.current)
+    settleTimer.current = setTimeout(() => {
+      const burst = bulkFields.current.size
+      bulkFields.current = new Set()
+      if (burst >= 2) {
+        trackCta('profile_card_autofill', { handle })
+        settlePrefill('autofill')
+      }
+    }, AUTOFILL_SETTLE_MS)
+  }
+
   async function fillFromContacts() {
     const contacts = (navigator as Navigator & { contacts?: ContactsApi }).contacts
     if (!contacts) return
     try {
-      const [picked] = await contacts.select(['name', 'email', 'tel'], { multiple: false })
+      // Ask only for what the form uses, and only for what this device's picker supports.
+      let properties = ['name', 'email', 'tel']
+      try {
+        const supported = await contacts.getProperties?.()
+        const usable = supported ? properties.filter((property) => supported.includes(property)) : []
+        if (usable.length > 0) properties = usable
+      } catch {
+        /* Not every build exposes getProperties. Ask for all three. */
+      }
+      const [picked] = await contacts.select(properties, { multiple: false })
       if (!picked) return
+      // A contact with several numbers or addresses: the first of each, all still editable.
       setField('name', picked.name?.[0])
       setField('email', picked.email?.[0])
       if (picked.tel?.[0]) applyPhone(picked.tel[0])
-      setFilled(true)
       trackCta('profile_card_fill_from_contacts', { handle })
+      settlePrefill('picker')
     } catch {
       /* The visitor dismissed the picker or declined access. They can still type. */
     }
+  }
+
+  /** No Contact Picker here (iPhone): focus the name box so the keyboard's AutoFill Contact bar appears. */
+  function focusForAutofill() {
+    trackCta('profile_card_autofill_prompt', { handle })
+    nameRef.current?.focus()
   }
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
@@ -156,7 +257,7 @@ export function ExchangeSheet({
     const value = (key: string) => String(form.get(key) ?? '')
     // A full international number typed into the national box and sent without leaving it: the server
     // reads the number in the country that matches it.
-    const phoneText = value('phone')
+    const phoneText = cleanPhoneInput(value('phone'))
     const sendCountry = splitInternationalNumber(phoneText, phoneCountry).country
     setStatus('sending')
     setBadFields([])
@@ -267,30 +368,34 @@ export function ExchangeSheet({
           </a>
         </div>
       ) : (
-        <form ref={formRef} onSubmit={onSubmit} autoComplete="on" className="mt-3 space-y-3.5">
+        <form ref={formRef} onSubmit={onSubmit} onInput={onFormInput} autoComplete="on" className="mt-3 space-y-3.5">
           <p className="pc-soft pb-1 text-[15px] leading-snug">
             <WithName template={copy.shareDetailsHint} name={ownerFirstName} />
           </p>
 
-          {canPick && (
+          {/* The fastest route first: the Contact Picker where there is one (Chrome on Android), else a prompt for the keyboard's AutoFill. */}
+          {(canPick || isTouch) && (
             <div>
               <button
                 type="button"
-                onClick={fillFromContacts}
-                className="pc-outline pc-row flex min-h-[48px] w-full items-center justify-center gap-2.5 px-4 text-[15px] font-medium"
+                onClick={canPick ? fillFromContacts : focusForAutofill}
+                aria-describedby={canPick ? undefined : hintId}
+                className="pc-assist flex min-h-[52px] w-full items-center justify-center gap-2.5 px-4 text-[16px] font-semibold"
               >
-                <ContactRound className="pc-icon h-[18px] w-[18px]" aria-hidden="true" />
-                {copy.fillFromContacts}
+                <ContactRound className="pc-icon h-5 w-5" aria-hidden="true" />
+                {canPick ? copy.fillFromContacts : copy.useMyPhoneDetails}
               </button>
-              <p role="status" className="pc-soft mt-2 min-h-[1.1rem] text-[13px]">
-                {filled ? copy.fillHint : ''}
-              </p>
+              {!canPick && (
+                <p id={hintId} className="pc-soft mt-2 text-center text-[13px] leading-snug">
+                  {copy.useMyPhoneHint}
+                </p>
+              )}
             </div>
           )}
 
           <label className="pc-soft block text-[13px] font-medium">
             {copy.fieldName}
-            <input name="name" type="text" required minLength={2} maxLength={120} autoComplete="name" enterKeyHint="next" aria-invalid={invalid('name')} aria-describedby={invalid('name') ? errorId('name') : undefined} className={inputClass} />
+            <input ref={nameRef} name="name" type="text" required minLength={2} maxLength={120} autoComplete="name" autoCapitalize="words" enterKeyHint="next" aria-invalid={invalid('name')} aria-describedby={invalid('name') ? errorId('name') : undefined} className={inputClass} />
             {fieldError('name', copy.fieldErrorName)}
           </label>
           <label className="pc-soft block text-[13px] font-medium">
@@ -342,16 +447,22 @@ export function ExchangeSheet({
           {/* Honeypot: invisible to people, tempting to bots. */}
           <input name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 opacity-0" />
 
-          <label className="pc-soft pc-consent text-[14px] leading-[1.4]">
-            <input name="consent" type="checkbox" required aria-invalid={invalid('consent')} aria-describedby={invalid('consent') ? errorId('consent') : undefined} className="pc-check mt-px" />
-            <span>
-              {copy.consent}{' '}
-              <Link href="/privacy" target="_blank" className="pc-fg underline decoration-[var(--pc-accent)] underline-offset-4">
-                {copy.privacy}
-              </Link>
-              {fieldError('consent', copy.fieldErrorConsent)}
-            </span>
-          </label>
+          <div>
+            {/* Always mounted so screen readers announce it when details arrive; empty (and gap-free) until then. */}
+            <div role="status" aria-live="polite">
+              {filled && <p className="pc-ready mb-2.5 text-[14px] leading-snug">{copy.fillHint}</p>}
+            </div>
+            <label className="pc-soft pc-consent text-[14px] leading-[1.4]">
+              <input name="consent" type="checkbox" required aria-invalid={invalid('consent')} aria-describedby={invalid('consent') ? errorId('consent') : undefined} className="pc-check mt-px" />
+              <span>
+                {copy.consent}{' '}
+                <Link href="/privacy" target="_blank" className="pc-fg underline decoration-[var(--pc-accent)] underline-offset-4">
+                  {copy.privacy}
+                </Link>
+                {fieldError('consent', copy.fieldErrorConsent)}
+              </span>
+            </label>
+          </div>
 
           {/* The status line and the button are one block, so an empty status line adds no extra gap above Send. */}
           <div>
@@ -384,6 +495,7 @@ export function ExchangeSheet({
             </div>
 
             <button
+              ref={sendRef}
               type="submit"
               disabled={status === 'sending'}
               className="pc-primary inline-flex h-14 w-full items-center justify-center gap-2.5 rounded-2xl px-5 text-[17px] font-semibold disabled:opacity-60"

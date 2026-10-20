@@ -87,14 +87,51 @@ real booking created or invitation resent during the review.
 
 ## Sharing details without retyping
 
-- **iPhone and most desktop browsers:** the form's fields carry standard autocomplete tokens, so
-  Safari/Chrome offer to fill name, email, phone and company from the visitor's own contact card in one tap.
-  The number box keeps `autocomplete="tel"`; browsers fill it with a whole international number, which
-  the form splits into the country selector and the national number (see "Phone number and country").
-- **Chrome on Android:** a "Fill from my contacts" button uses the Contact Picker API. It only fills
-  the form; everything stays editable and nothing is sent until the visitor submits. The picked number
-  goes through the same splitting.
-- iOS Safari has no web API to read contacts, so AutoFill is the best available path there.
+These are only ways to **fill the same form**. Every path ends in the same submission to
+`/api/profile-card/connect`, so it creates the same CRM lead with the same required phone and
+explicit consent. Nothing is sent until the visitor taps Send, and every filled value stays editable.
+
+| Device | What the visitor sees | What fills the form |
+| --- | --- | --- |
+| **Android, Chrome** (Contact Picker available) | A tinted **Fill from my contacts** button first in the form | The picker returns name, email and phone for the one contact chosen (the form asks for `name`, `email`, `tel` only, and only those the device supports). If the contact has several numbers or addresses, the first of each is used. |
+| **iPhone / iPad, Safari** (no picker) | A tinted **Use my phone's details** button with a one-line hint | The button focuses the name box, which brings up the keyboard's **AutoFill Contact** bar; one tap there fills name, email and phone from the contact card set in iOS Settings > Apps > Safari > AutoFill > Use Contact Info (the path differs by iOS version). |
+| **Other mobile browsers without the picker** (for example Firefox, Samsung Internet) | The same **Use my phone's details** button and hint | The browser's own autofill suggestion, where the visitor has saved details. |
+| **Desktop** | No extra button | The browser's normal AutoFill dropdown when a field is clicked. |
+
+After any of these fills name, email and phone, the form does the next step for the visitor:
+
+- A whole international number (`+31 6 41 50 92 55`, `00 31 ...`, `+1 (650) 253-0000`, with spaces,
+  parentheses, hyphens, non-breaking spaces, invisible direction marks, a full-width `+` or Arabic-Indic
+  digits) is cleaned and split into the country selector plus the national number, as for typed numbers.
+- A short confirmation ("Your details are in. Check them, tick the box, then tap Send.") appears above
+  the consent box, and **focus moves to the consent checkbox** with Send scrolled into view, so the
+  remaining work is one tick and one tap. Consent is never ticked for the visitor, and phone remains required.
+- If the contact card lacked something (usually an email), the Contact Picker path focuses the first
+  empty required field instead.
+- Company and message stay collapsed. Browsers skip fields that are not visible, so company is only
+  AutoFilled when "Add more information" is open.
+- The existing automatic retry still covers the server's "filled too quickly" response (HTTP 409), which
+  is the normal case when AutoFill completes the form instantly.
+
+How AutoFill is detected: two or more of name, email and phone changing by a bulk input event within
+250 ms. Typing, paste and the keyboard's one-word suggestions do not trigger it, so the form never
+takes focus away from someone who is typing.
+
+Autocomplete tokens on the fields: `name`, `email`, and `tel` on the phone box (not `tel-national`,
+even though the box holds a national number: `tel` is what iOS AutoFill Contact and Android Chrome
+recognise, and both fill a whole international number that the form then splits). Company uses
+`organization`. The hidden honeypot field uses `off`.
+
+What is **not** possible:
+
+- **iOS Safari has no web Contact Picker API.** A web page cannot read the visitor's contacts on iPhone.
+  AutoFill Contact in the keyboard bar is the only route there, and it only works if the visitor has a
+  "My Info" contact card set and Safari's contact AutoFill switched on.
+- **AirDrop and "Share Contact" from the Contacts app cannot be triggered or captured by a web page.** If
+  someone sends their contact that way, it arrives in the owner's phone, not through this form, and
+  creates no lead.
+- The Contact Picker needs a secure context and a tap; it is shown only where the browser reports it.
+- The touch-device check uses the `(pointer: coarse)` media query, not the user agent.
 
 ## Before and after a deploy
 
