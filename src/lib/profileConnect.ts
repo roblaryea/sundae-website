@@ -8,18 +8,17 @@
  * CRM list staff already work from, tagged with the card it came from.
  */
 import type { PersonProfile } from './profileData'
+import { MIN_FILL_MS, MAX_FORM_AGE_MS } from './profileConnectTiming.ts'
+import { checkPhone } from './profilePhone.ts'
+
+// Re-exported for the server code and tests that already import them from here. Browser code imports
+// the small modules directly so it never loads the full phone metadata.
+export { MIN_FILL_MS, MAX_FORM_AGE_MS }
+export { splitTemplate } from './profileTemplate.ts'
 
 /** Bump when the consent wording changes; stored with every lead as evidence of what was agreed. */
 export const CONSENT_VERSION = '2026-10-17'
 export const CONSENT_TEXT_EN = 'I agree that Sundae may contact me about this.'
-
-/**
- * Timing is a risk signal, not proof of a bot: AutoFill can complete a form in well under two
- * seconds, and a tab can sit open for a day. Such submissions are asked to retry rather than
- * acknowledged and dropped, so a real connection is never lost behind a success message.
- */
-export const MIN_FILL_MS = 2000
-export const MAX_FORM_AGE_MS = 24 * 60 * 60 * 1000
 
 export const LIMITS = { name: 120, email: 254, phone: 30, company: 120, note: 1000 } as const
 
@@ -32,7 +31,10 @@ export type ConnectData = {
   submissionId: string | null
   name: string
   email: string
+  /** E.164 (for example +971501234567) once validated for {@link ConnectData.phoneCountry}. */
   phone: string
+  /** ISO 3166-1 alpha-2 country of the phone number. */
+  phoneCountry: string
   company: string
   note: string
 }
@@ -66,12 +68,17 @@ export function parseConnectSubmission(
   if (elapsed < MIN_FILL_MS || elapsed > MAX_FORM_AGE_MS) return { kind: 'retry' }
 
   const submissionId = typeof input.submissionId === 'string' && SUBMISSION_ID.test(input.submissionId) ? input.submissionId : null
+  // The phone number is required and is checked on the server whatever the browser did: it must be a
+  // valid number for the chosen country (national or international input) and is kept as E.164.
+  const rawPhone = clean(input.phone)
+  const phone = rawPhone && rawPhone.length <= LIMITS.phone && PHONE_CHARS.test(rawPhone) ? checkPhone(rawPhone, input.phoneCountry) : null
   const data: ConnectData = {
     handle: clean(input.handle).toLowerCase(),
     submissionId,
     name: clean(input.name),
     email: clean(input.email).toLowerCase(),
-    phone: clean(input.phone),
+    phone: phone?.ok ? phone.e164 : rawPhone,
+    phoneCountry: phone?.ok ? phone.country : '',
     company: clean(input.company),
     note: typeof input.note === 'string' ? input.note.replace(CONTROL_CHARS, '').replace(/\r\n?/g, '\n').trim() : '',
   }
@@ -80,8 +87,8 @@ export function parseConnectSubmission(
   if (!options.knownHandles.includes(data.handle)) fields.push('handle')
   if (data.name.length < 2 || data.name.length > LIMITS.name) fields.push('name')
   if (!EMAIL.test(data.email) || data.email.length > LIMITS.email) fields.push('email')
-  // The phone number is required: a call or WhatsApp message is how most visitors prefer to be reached.
-  if (!data.phone || data.phone.length > LIMITS.phone || !PHONE_CHARS.test(data.phone) || !/\d{6,}/.test(data.phone.replace(/[\s\-().]/g, ''))) fields.push('phone')
+  // A call or WhatsApp message is how most visitors prefer to be reached, so the number must be real.
+  if (!phone?.ok) fields.push('phone')
   if (data.company.length > LIMITS.company) fields.push('company')
   if (data.note.length > LIMITS.note) fields.push('note')
   if (input.consent !== true) fields.push('consent')
@@ -123,6 +130,7 @@ export function buildLeadPayload(
     email: data.email,
     company: data.company || null,
     role: null,
+    // E.164, validated against the visitor's country on the server.
     phone: data.phone || null,
     message: data.note || null,
     // Shown in the lead list, so a human can see which card it came from.
@@ -135,6 +143,7 @@ export function buildLeadPayload(
       profile_handle: profile.handle,
       profile_owner_name: ownerName,
       profile_owner_email: profile.email,
+      phone_country: data.phoneCountry || null,
       consent: {
         given: true,
         version: CONSENT_VERSION,
@@ -146,14 +155,4 @@ export function buildLeadPayload(
       },
     },
   }
-}
-
-/** Replaces {name} in a localized template; returns text parts so the caller can isolate the name for bidi. */
-export function splitTemplate(template: string, name: string): { text: string; isName: boolean }[] {
-  return template
-    .split('{name}')
-    .flatMap((part, index, parts) =>
-      index < parts.length - 1 ? [{ text: part, isName: false }, { text: name, isName: true }] : [{ text: part, isName: false }],
-    )
-    .filter((part) => part.text !== '')
 }

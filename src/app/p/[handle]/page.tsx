@@ -2,12 +2,13 @@ import type { Metadata, Viewport } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { profileLocation, profileRole } from '@/lib/profileCatalogue'
+import { profileCountryCode, profileLocation, profileRole } from '@/lib/profileCatalogue'
 import { getProfileCardCopy } from '@/lib/profileCardCopy'
 import { CARD_LOCALES, cardLocaleNativeName } from '@/lib/profileCardLocale'
-import { getCardLocale } from '@/lib/profileCardLocale.server'
+import { getCardLocale, getVisitorCountryHeader } from '@/lib/profileCardLocale.server'
 import { isLeadFormEnabled } from '@/lib/profileFeatures'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
+import { resolveDefaultPhoneCountry } from '@/lib/profilePhoneInput'
 import { profilePhoto } from '@/lib/profilePhotos'
 import { displayHost, getProfile, isProfileActive, linkedinHandle, profileFullName } from '@/lib/profiles'
 import { DEMO_URL } from '@/lib/urls'
@@ -86,6 +87,15 @@ export default async function ProfilePage({ params }: PageProps) {
   const bookHref = profile.bookingSlug ? `/book/${encodeURIComponent(profile.bookingSlug)}?locale=${encodeURIComponent(locale)}` : DEMO_URL
   const photo = profilePhoto(profile.handle)
   const languageOptions = CARD_LOCALES.map((code) => ({ value: code, label: cardLocaleNativeName(code) }))
+  // Where the phone country selector starts: the visitor's country, else the card language's, else the owner's.
+  const exchange = isLeadFormEnabled()
+    ? {
+        ownerFirstName: profile.givenName,
+        ownerEmail: profile.email,
+        locale,
+        phoneCountry: resolveDefaultPhoneCountry({ ipCountry: await getVisitorCountryHeader(), locale, ownerCountry: profileCountryCode(profile) }),
+      }
+    : undefined
   const rise = (delay: number) => ({ '--pc-delay': `${delay}ms` }) as React.CSSProperties
 
   return (
@@ -136,7 +146,7 @@ export default async function ProfilePage({ params }: PageProps) {
                 linkedinHandle={profile.linkedin ? linkedinHandle(profile.linkedin) : undefined}
                 websiteUrl={profile.website}
                 websiteDisplay={displayHost(profile.website)}
-                exchange={isLeadFormEnabled() ? { ownerFirstName: profile.givenName, ownerEmail: profile.email, locale } : undefined}
+                exchange={exchange}
               />
             </div>
           </main>
