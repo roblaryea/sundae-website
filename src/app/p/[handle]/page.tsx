@@ -112,7 +112,7 @@ export default async function ProfilePage({ params }: PageProps) {
 
           <main className="pc-main">
             {photo && (
-              <Image src={photo.src} alt={name} width={photo.width} height={photo.height} sizes="112px" priority className="pc-photo pc-rise" style={rise(0)} />
+              <Image src={photo.src} alt={name} width={photo.width} height={photo.height} sizes="(min-width: 1024px) 184px, 148px" priority className="pc-photo pc-rise" style={rise(0)} />
             )}
             <p className="pc-eyebrow pc-rise" style={rise(40)}>{copy.eyebrow}</p>
             <h1 className="pc-name pc-rise mt-3" style={rise(100)}>{name}</h1>
