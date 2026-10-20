@@ -8,7 +8,7 @@ import { PROFILE_HANDLES, isProfileCardPath, isProfileHandle } from "../src/lib/
 import { isLeadFormEnabled } from "../src/lib/profileFeatures.ts";
 import { PROFILE_PHOTOS, profilePhoto } from "../src/lib/profilePhotos.ts";
 import { CITIES, COUNTRY_NAME_OVERRIDES, ROLE_TITLES, cityName, countryName, locationText, profileCountryCode, regionName, roleTitle } from "../src/lib/profileCatalogue.ts";
-import { LOCALE_PHONE_COUNTRY, filterPhoneCountries, flagEmoji, foldForSearch, phoneCountries, resolveDefaultPhoneCountry, splitInternationalNumber } from "../src/lib/profilePhoneInput.ts";
+import { LOCALE_PHONE_COUNTRY, cleanPhoneInput, filterPhoneCountries, flagEmoji, foldForSearch, phoneCountries, resolveDefaultPhoneCountry, splitInternationalNumber } from "../src/lib/profilePhoneInput.ts";
 import { CARD_LOCALES, cardLocaleDirection, resolveCardLocale } from "../src/lib/profileCardLocale.ts";
 import { PROFILES, COMPANY_LEGAL_NAME, displayHost, isProfileActive, linkedinHandle } from "../src/lib/profileData.ts";
 
@@ -238,7 +238,7 @@ test("every profile has a 1200x630 link-preview image", () => {
 
 test("the new convenience strings are translated in every locale", () => {
   for (const locale of WEBSITE_LOCALES.filter((l) => l !== "en")) {
-    for (const key of ["fillFromContacts", "fillHint", "themeToggle", "qrTitle", "close", "connectTitle", "addMoreInfo", "exchangeNudge", "copyLink", "shareBySms", "shareByEmail", "shareByWhatsApp", "shareMore"]) {
+    for (const key of ["fillFromContacts", "fillHint", "useMyPhoneDetails", "useMyPhoneHint", "themeToggle", "qrTitle", "close", "connectTitle", "addMoreInfo", "exchangeNudge", "copyLink", "shareBySms", "shareByEmail", "shareByWhatsApp", "shareMore"]) {
       assert.notEqual(profileCardCopy[locale][key], profileCardCopy.en[key], `${locale}.${key} equals English`);
     }
   }
@@ -509,4 +509,66 @@ test("a retired profile is inactive only when explicitly marked, and every langu
     }
     assert.ok(profileCardCopy[locale].cardInactiveBody.includes("Sundae"), `${locale} names Sundae`);
   }
+});
+
+// ------------------------------------------------ prefill from the phone's own contact card
+
+test("numbers handed over by a phone's contact card split correctly whatever their formatting", () => {
+  const nl = { country: "NL", text: "06 41509255", switched: true };
+  for (const raw of [
+    "+31 6 41 50 92 55",
+    "+31 (0)6 41 50 92 55",
+    "+31-6-41509255",
+    "00 31 6 41 50 92 55",
+    "\u202D+31 6 41 50 92 55\u202C", // direction marks around the number
+    "\u200E+31\u00A06\u00A041\u00A050\u00A092\u00A055", // left-to-right mark and non-breaking spaces
+    "\uFF0B31 6 41 50 92 55", // full-width plus
+  ]) {
+    assert.deepEqual(splitInternationalNumber(raw, "AE"), nl, JSON.stringify(raw));
+  }
+  assert.deepEqual(splitInternationalNumber("+1 (650) 253-0000", "AE"), { country: "US", text: "(650) 253-0000", switched: true });
+  assert.deepEqual(splitInternationalNumber("+44 (0) 20 7946 0958", "AE"), { country: "GB", text: "020 7946 0958", switched: true });
+  // Arabic-Indic digits, as stored on many Arabic and Urdu phones.
+  assert.equal(splitInternationalNumber("+\u0669\u0667\u0661 \u0665\u0660 \u0661\u0662\u0663 \u0664\u0665\u0666\u0667", "US").country, "AE");
+});
+
+test("cleaned phone text only ever contains characters the server accepts", () => {
+  const serverChars = /^[0-9+()\-.\s]+$/;
+  for (const raw of ["\u202D+971 50 123 4567\u202C", "\u200F\u0660\u0665\u0660 \u0661\u0662\u0663 \u0664\u0665\u0666\u0667", "\uFF0B31\u00A06\u00A041509255"]) {
+    assert.match(cleanPhoneInput(raw), serverChars, JSON.stringify(raw));
+  }
+  assert.equal(cleanPhoneInput("050 123 4567"), "050 123 4567");
+});
+
+test("the exchange sheet leads with one prefill action and hands the visitor on to consent and Send", () => {
+  const sheet = readFileSync(new URL("../src/app/p/[handle]/ExchangeSheet.tsx", import.meta.url), "utf8");
+  const phone = readFileSync(new URL("../src/app/p/[handle]/PhoneField.tsx", import.meta.url), "utf8");
+  // Picker only asks for what the form uses; the iPhone path is gated on touch and a missing picker.
+  assert.match(sheet, /\['name', 'email', 'tel'\]/);
+  assert.match(sheet, /\(canPick \|\| isTouch\)/);
+  assert.match(sheet, /\(pointer: coarse\)/);
+  assert.ok(!/userAgent/i.test(sheet), "no user-agent sniffing");
+  assert.match(sheet, /canPick \? fillFromContacts : focusForAutofill/);
+  // Standard tokens for one-tap AutoFill; the phone box keeps `tel`, never `tel-national`.
+  assert.match(sheet, /autoComplete="name"/);
+  assert.match(sheet, /autoComplete="email"/);
+  assert.match(phone, /autoComplete="tel"/);
+  assert.ok(!/tel-national/.test(phone + sheet));
+  // Focus moves to consent after a prefill, but consent is never ticked on the visitor's behalf and stays required.
+  assert.match(sheet, /consent\.focus\(/);
+  assert.ok(!/consent\.checked\s*=\s*true/.test(sheet));
+  assert.match(sheet, /name="consent" type="checkbox" required/);
+  // The phone is cleaned before it is read for submission, and the 409 retry is still there.
+  assert.match(sheet, /cleanPhoneInput\(value\('phone'\)\)/);
+  assert.match(sheet, /response\.status === 409/);
+});
+
+test("the prefill strings are translated and the iPhone hint stays a single sentence", () => {
+  for (const locale of WEBSITE_LOCALES.filter((l) => l !== "en")) {
+    for (const key of ["useMyPhoneDetails", "useMyPhoneHint", "fillHint"]) {
+      assert.notEqual(profileCardCopy[locale][key], profileCardCopy.en[key], `${locale}.${key} equals English`);
+    }
+  }
+  assert.match(profileCardCopy.en.useMyPhoneHint, /AutoFill Contact/);
+  assert.doesNotMatch(profileCardCopy.pap.useMyPhoneHint + profileCardCopy.pap.useMyPhoneDetails + profileCardCopy.pap.fillHint, /[\u00C0-\u017F]/, "pap uses the Aruban spelling without accents");
 });

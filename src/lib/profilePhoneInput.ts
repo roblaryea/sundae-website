@@ -108,6 +108,21 @@ export function filterPhoneCountries(options: PhoneCountryOption[], query: strin
 export type PhoneSplit = { country: CountryCode; text: string; switched: boolean }
 
 /**
+ * Makes a number from a phone's own contact card safe to parse and to send. Contact cards and
+ * AutoFill can hand over invisible direction marks (left-to-right marks around a number, common for
+ * Arabic and Urdu contacts), non-breaking spaces, a full-width plus sign or Arabic-Indic digits. None
+ * of those pass the server's character check, so they are normalised here to plain digits, spaces
+ * and punctuation.
+ */
+export function cleanPhoneInput(raw: string): string {
+  return raw
+    .normalize('NFKC')
+    .replace(/[\u200B-\u200F\u202A-\u202E\u2060\u2066-\u2069\uFEFF]/g, '')
+    .replace(/[\u0660-\u0669]/g, (digit) => String(digit.charCodeAt(0) - 0x0660))
+    .replace(/[\u06F0-\u06F9]/g, (digit) => String(digit.charCodeAt(0) - 0x06f0))
+}
+
+/**
  * If `raw` is a full international number ("+971 50 123 4567" or "00971..."), returns its country and
  * its national form; otherwise returns the selected country and the text unchanged. Browsers AutoFill
  * `tel` with a whole international number, and the Contact Picker returns numbers in whatever form
@@ -116,8 +131,9 @@ export type PhoneSplit = { country: CountryCode; text: string; switched: boolean
  * Not for keystrokes: "+971 50" already parses, so run it on paste, AutoFill, blur and submit.
  */
 export function splitInternationalNumber(raw: string, selected: CountryCode): PhoneSplit {
-  const unchanged: PhoneSplit = { country: selected, text: raw, switched: false }
-  const trimmed = raw.trim()
+  const cleaned = cleanPhoneInput(raw)
+  const unchanged: PhoneSplit = { country: selected, text: cleaned, switched: false }
+  const trimmed = cleaned.trim()
   if (!/^(\+|00)/.test(trimmed)) return unchanged
   const international = trimmed.startsWith('00') ? `+${trimmed.slice(2)}` : trimmed
   const number = parsePhoneNumberFromString(international)

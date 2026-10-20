@@ -16,6 +16,8 @@
   --pc-surface: #ffffff;
   --pc-surface-hover: #f5efe7;
   --pc-field: #ffffff;
+  /* Opaque twin of --pc-field, painted over a browser's AutoFill tint. */
+  --pc-field-solid: #ffffff;
   --pc-danger: #b42318;
   --pc-shadow: 0 1px 2px rgba(36, 30, 26, 0.04), 0 18px 36px -24px rgba(36, 30, 26, 0.28);
   --pc-hero: #171210;
@@ -36,6 +38,7 @@
   --pc-surface: rgba(251, 248, 244, 0.04);
   --pc-surface-hover: rgba(251, 248, 244, 0.07);
   --pc-field: rgba(251, 248, 244, 0.06);
+  --pc-field-solid: #25201e;
   --pc-danger: #ff8a7d;
   --pc-shadow: none;
 }
@@ -241,6 +244,30 @@
 .pc-field::placeholder { color: var(--pc-muted); }
 .pc-field:focus { border-color: var(--pc-fg); outline: none; }
 .pc-field[aria-invalid="true"] { border-color: var(--pc-danger); }
+/* Browsers tint AutoFilled fields (pale blue or yellow, with dark text). On the dark theme that would put
+   cream text on a pale field, so keep the card's own colours when a contact card fills the form. */
+.pc-field:-webkit-autofill,
+.pc-field:-webkit-autofill:hover,
+.pc-field:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--pc-fg);
+  caret-color: var(--pc-fg);
+  box-shadow: 0 0 0 1000px var(--pc-field-solid) inset;
+  transition: background-color 9999s ease-out 0s;
+}
+
+/* The one prefill action at the top of the exchange form (Contact Picker, or the AutoFill prompt on iPhone):
+   a tinted accent surface, so it reads as the first thing to do without competing with the coral Send. */
+.pc-assist {
+  border: 1px solid color-mix(in srgb, var(--pc-accent) 42%, transparent);
+  background: color-mix(in srgb, var(--pc-accent) 10%, var(--pc-surface));
+  color: var(--pc-fg);
+  border-radius: 16px;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+.pc-assist:hover { background: color-mix(in srgb, var(--pc-accent) 16%, var(--pc-surface)); }
+.pc-assist:active { transform: scale(0.985); }
+/* Shown above the consent box once a contact card has filled the form. */
+.pc-ready { color: var(--pc-fg); font-weight: 500; }
 
 /* Consent row. The site-wide 44px touch-target rule (styles/accessibility.css) also hits input[type=checkbox],
    which stretched this box to 20x44 and left it hanging below the first line of text. The whole row is the
