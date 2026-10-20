@@ -18,7 +18,8 @@ const valid = () => ({
   handle: "robert",
   name: "Ada Lovelace",
   email: "Ada@Example.com",
-  phone: "+44 20 7946 0958",
+  phoneCountry: "GB",
+  phone: "020 7946 0958",
   company: "Analytical Engines Ltd",
   note: "Met at the summit.",
   consent: true,
@@ -32,6 +33,9 @@ test("accepts a valid submission and normalises it", () => {
   assert.equal(result.kind, "ok");
   assert.equal(result.data.email, "ada@example.com");
   assert.equal(result.data.name, "Ada Lovelace");
+  // The national number the visitor typed is stored as E.164, with the country it belongs to.
+  assert.equal(result.data.phone, "+442079460958");
+  assert.equal(result.data.phoneCountry, "GB");
 });
 
 test("name, email, phone and consent are required; company and message are optional", () => {
@@ -43,6 +47,12 @@ test("name, email, phone and consent are required; company and message are optio
   assert.ok(noPhone.fields.includes("phone"), "a missing phone number must be flagged");
   const blankPhone = parseConnectSubmission({ ...valid(), phone: "   " }, opts);
   assert.equal(blankPhone.kind, "invalid");
+  assert.ok(blankPhone.fields.includes("phone"));
+  const absent = parseConnectSubmission({ ...valid(), phone: undefined, phoneCountry: undefined }, opts);
+  assert.equal(absent.kind, "invalid");
+  assert.deepEqual(absent.fields, ["phone"]);
+  const wrongType = parseConnectSubmission({ ...valid(), phone: 447911123456 }, opts);
+  assert.deepEqual(wrongType.fields, ["phone"]);
 });
 
 test("rejects missing consent, bad email, short name, unknown handle, bad phone", () => {
@@ -107,6 +117,9 @@ test("lead payload carries source, owner and consent evidence for the CRM", () =
     privacy_url: "https://www.sundae.io/privacy",
     at: "2026-10-17T10:00:00.000Z",
   });
+  // The lead carries the E.164 number and, in free metadata, the country it was validated for.
+  assert.equal(payload.phone, "+442079460958");
+  assert.equal(payload.metadata.phone_country, "GB");
   assert.equal(payload.metadata.channel, "qr_card");
   assert.equal(payload.metadata.profile_handle, "robert");
   assert.equal(payload.metadata.profile_owner_email, "robert@sundaetech.ai");
@@ -115,9 +128,75 @@ test("lead payload carries source, owner and consent evidence for the CRM", () =
 test("empty optional fields become null, not empty strings", () => {
   const data = parseConnectSubmission({ ...valid(), company: "", note: "" }, opts).data;
   const payload = buildLeadPayload(robert, data, { locale: null, consentText: CONSENT_TEXT_EN, referrer: null, at: new Date() });
-  assert.equal(payload.phone, "+44 20 7946 0958");
+  assert.equal(payload.phone, "+442079460958");
   assert.equal(payload.company, null);
   assert.equal(payload.message, null);
+});
+
+test("national numbers are validated for the chosen country and stored as E.164", () => {
+  const cases = [
+    ["AE", "050 123 4567", "+971501234567"],
+    ["AE", "0501234567", "+971501234567"],
+    ["GB", "020 7946 0958", "+442079460958"],
+    ["US", "(650) 253-0000", "+16502530000"],
+    ["us", "650-253-0000", "+16502530000"],
+    ["NL", "06 41 50 92 55", "+31641509255"],
+    ["IN", "98765 43210", "+919876543210"],
+    ["JP", "090-1234-5678", "+819012345678"],
+    ["DE", "0171 1234567", "+491711234567"],
+    ["SA", "055 123 4567", "+966551234567"],
+    ["FR", "06 12 34 56 78", "+33612345678"],
+  ];
+  for (const [phoneCountry, phone, e164] of cases) {
+    const result = parseConnectSubmission({ ...valid(), phoneCountry, phone }, opts);
+    assert.equal(result.kind, "ok", `${phoneCountry} ${phone}`);
+    assert.equal(result.data.phone, e164, `${phoneCountry} ${phone}`);
+    assert.equal(result.data.phoneCountry, phoneCountry.toUpperCase());
+  }
+});
+
+test("a number that is not valid for the chosen country is flagged as the phone field", () => {
+  const cases = [
+    ["AE", "123"], // too short
+    ["AE", "020 7946 0958"], // a UK number read as UAE
+    ["US", "123 456 7890"], // US area codes cannot start with 1
+    ["GB", "050 123 4567"], // a UAE number read as UK
+    ["FR", "00000000"],
+    ["ZZ", "050 123 4567"], // not a country
+    ["", "050 123 4567"], // a national number needs a country
+    [undefined, "050 123 4567"],
+    [42, "050 123 4567"],
+  ];
+  for (const [phoneCountry, phone] of cases) {
+    const result = parseConnectSubmission({ ...valid(), phoneCountry, phone }, opts);
+    assert.equal(result.kind, "invalid", `${phoneCountry} ${phone}`);
+    assert.deepEqual(result.fields, ["phone"], `${phoneCountry} ${phone}`);
+  }
+});
+
+test("an international number is accepted when it matches the chosen country, and rejected when it does not", () => {
+  const ok = (phoneCountry, phone) => parseConnectSubmission({ ...valid(), phoneCountry, phone }, opts);
+  assert.equal(ok("AE", "+971 50 123 4567").data.phone, "+971501234567");
+  assert.equal(ok("AE", "00971 50 123 4567").data.phone, "+971501234567");
+  assert.equal(ok("AE", "+971 (0)50 123 4567").kind, "ok");
+  // Another country's number under a mismatched selector is not silently accepted.
+  const mismatch = ok("AE", "+44 20 7946 0958");
+  assert.equal(mismatch.kind, "invalid");
+  assert.deepEqual(mismatch.fields, ["phone"]);
+  // With no country at all an international number still identifies itself.
+  assert.equal(ok(undefined, "+31 6 41 50 92 55").data.phone, "+31641509255");
+  assert.equal(ok(undefined, "+31 6 41 50 92 55").data.phoneCountry, "NL");
+  // Calling codes shared by several countries: the number's own country is recorded.
+  assert.equal(ok("US", "+1 416 555 0123").data.phoneCountry, "CA");
+  // An extension is not part of an E.164 number.
+  assert.equal(ok("GB", "020 7946 0958 x12").kind, "invalid");
+});
+
+test("phone validation does not change the spam controls", () => {
+  // The honeypot and timing checks still run before any phone work, whatever the phone looks like.
+  assert.equal(parseConnectSubmission({ ...valid(), website: "x", phone: "nonsense" }, opts).kind, "ignored");
+  assert.equal(parseConnectSubmission({ ...valid(), startedAt: NOW - 1, phone: "nonsense" }, opts).kind, "retry");
+  assert.equal(parseConnectSubmission({ ...valid(), phone: "0".repeat(31) }, opts).kind, "invalid");
 });
 
 test("name placeholders split cleanly for bidi isolation", () => {
@@ -126,6 +205,7 @@ test("name placeholders split cleanly for bidi isolation", () => {
     { text: " will be in touch soon.", isName: false },
   ]);
   assert.deepEqual(splitTemplate("a {name} b", "R").map((p) => p.text), ["a ", "R", " b"]);
+  assert.deepEqual(splitTemplate("not valid for {country}.", "Chad", "country").map((p) => p.text), ["not valid for ", "Chad", "."]);
   assert.deepEqual(splitTemplate("no placeholder", "R"), [{ text: "no placeholder", isName: false }]);
 });
 

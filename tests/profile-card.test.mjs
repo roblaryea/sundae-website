@@ -7,7 +7,8 @@ import { PROFILE_CARD_COPY_KEYS, profileCardCopy } from "../src/lib/profileCardC
 import { PROFILE_HANDLES, isProfileCardPath, isProfileHandle } from "../src/lib/profileHandles.ts";
 import { isLeadFormEnabled } from "../src/lib/profileFeatures.ts";
 import { PROFILE_PHOTOS, profilePhoto } from "../src/lib/profilePhotos.ts";
-import { CITIES, ROLE_TITLES, cityName, countryName, locationText, roleTitle } from "../src/lib/profileCatalogue.ts";
+import { CITIES, COUNTRY_NAME_OVERRIDES, ROLE_TITLES, cityName, countryName, locationText, profileCountryCode, regionName, roleTitle } from "../src/lib/profileCatalogue.ts";
+import { LOCALE_PHONE_COUNTRY, filterPhoneCountries, flagEmoji, foldForSearch, phoneCountries, resolveDefaultPhoneCountry, splitInternationalNumber } from "../src/lib/profilePhoneInput.ts";
 import { CARD_LOCALES, cardLocaleDirection, resolveCardLocale } from "../src/lib/profileCardLocale.ts";
 import { PROFILES, COMPANY_LEGAL_NAME, displayHost, isProfileActive, linkedinHandle } from "../src/lib/profileData.ts";
 
@@ -248,8 +249,171 @@ test("the phone field is no longer labelled optional in any language", () => {
     assert.doesNotMatch(profileCardCopy[locale].fieldPhone, /[（(]/, `${locale}.fieldPhone still carries an optional marker`);
     assert.ok(profileCardCopy[locale].fieldPhone.trim().length >= 2, `${locale}.fieldPhone is empty`);
   }
-  const sheet = readFileSync(new URL("../src/app/p/[handle]/ExchangeSheet.tsx", import.meta.url), "utf8");
-  assert.match(sheet, /name="phone" type="tel" required/);
+  const field = readFileSync(new URL("../src/app/p/[handle]/PhoneField.tsx", import.meta.url), "utf8");
+  assert.match(field, /name="phone"\s+type="tel"\s+required/);
+});
+
+// ------------------------------------------------ phone country selector
+
+const NEW_PHONE_KEYS = ["fieldErrorPhone", "fieldErrorPhoneCountry", "phoneCountry", "phoneCountrySearch", "phoneCountryNoMatch"];
+
+test("the phone country strings are translated in every locale", () => {
+  for (const locale of WEBSITE_LOCALES.filter((l) => l !== "en")) {
+    for (const key of NEW_PHONE_KEYS) {
+      assert.notEqual(profileCardCopy[locale][key], profileCardCopy.en[key], `${locale}.${key} equals English`);
+    }
+  }
+});
+
+test("the invalid-for-country message names the country exactly once, in every locale", () => {
+  for (const locale of WEBSITE_LOCALES) {
+    const copy = profileCardCopy[locale];
+    assert.equal(copy.fieldErrorPhoneCountry.split("{country}").length, 2, `${locale}.fieldErrorPhoneCountry needs exactly one {country}`);
+    for (const key of PROFILE_CARD_COPY_KEYS.filter((k) => k !== "fieldErrorPhoneCountry")) {
+      assert.ok(!copy[key].includes("{country}"), `${locale}.${key} must not contain {country}`);
+    }
+  }
+});
+
+test("Papiamento phone strings use the Aruban spelling without accents", () => {
+  for (const key of NEW_PHONE_KEYS) {
+    assert.doesNotMatch(profileCardCopy.pap[key], /[\u00C0-\u017F]/, `pap.${key} has an accented letter`);
+  }
+});
+
+test("country names come from the card language, with Papiamento overrides and an English fallback", () => {
+  assert.equal(regionName("NL", "en"), "Netherlands");
+  assert.equal(regionName("NL", "ar"), "هولندا");
+  assert.equal(regionName("DE", "ja"), "ドイツ");
+  assert.equal(regionName("NL", "pap"), "Hulanda");
+  assert.equal(regionName("AE", "pap"), "Emiratonan Arabe Uni");
+  // Papiamento has no platform locale data: a country without an override is the English name, never another language.
+  assert.equal(regionName("TV", "pap"), "Tuvalu");
+  // Every country in the selector has a real name in every language (never the bare code), and the
+  // Papiamento overrides do not name a country the selector lacks.
+  for (const locale of WEBSITE_LOCALES) {
+    for (const { code } of phoneCountries()) {
+      const name = regionName(code, locale);
+      assert.ok(name && name.length > 0, `${locale}/${code}`);
+      assert.notEqual(name, code, `${locale}/${code} fell back to the bare code`);
+    }
+  }
+  const selectable = new Set(phoneCountries().map((c) => c.code));
+  for (const code of Object.keys(COUNTRY_NAME_OVERRIDES.pap)) assert.ok(selectable.has(code), `pap override for unknown country ${code}`);
+  assert.doesNotMatch(Object.values(COUNTRY_NAME_OVERRIDES.pap).join(" "), /[áéíóúàèìòùâêîôû]/, "pap names use no accented vowels");
+});
+
+test("the selector starts on the visitor's country, then the card language's, then the owner's", () => {
+  const resolve = (input) => resolveDefaultPhoneCountry({ locale: "en", ownerCountry: "AE", ...input });
+  // 1. The hosting platform's country header wins, in any case.
+  assert.equal(resolve({ ipCountry: "NL" }), "NL");
+  assert.equal(resolve({ ipCountry: "nl", locale: "ja" }), "NL");
+  assert.equal(resolve({ ipCountry: " gb " }), "GB");
+  // Junk and unknown values fall through (Vercel uses XX for unknown and T1 for Tor).
+  for (const ipCountry of ["XX", "T1", "", "  ", null, undefined, "USA", "1", "ZZ"]) {
+    assert.equal(resolve({ ipCountry }), "AE", `header ${JSON.stringify(ipCountry)} should be ignored`);
+  }
+  // 2. Then the country a single-country language implies.
+  assert.equal(resolve({ locale: "ja" }), "JP");
+  assert.equal(resolve({ locale: "de", ipCountry: "XX" }), "DE");
+  assert.equal(resolve({ locale: "pap" }), "AW");
+  assert.equal(resolve({ locale: "zh-Hans" }), "CN");
+  // Languages spoken in many countries do not guess: the owner's country is used instead.
+  for (const locale of ["en", "ar", "fr", "es", "pt"]) assert.equal(resolve({ locale }), "AE", locale);
+  // 3. Then the owner's country, then a last-resort default.
+  assert.equal(resolve({ ownerCountry: "NL" }), "NL");
+  assert.equal(resolve({ ownerCountry: null }), "US");
+  assert.equal(resolve({ ownerCountry: "ZZ" }), "US");
+  for (const [locale, country] of Object.entries(LOCALE_PHONE_COUNTRY)) {
+    assert.ok(WEBSITE_LOCALES.includes(locale), locale);
+    assert.ok(phoneCountries().some((c) => c.code === country), `${locale} -> ${country} is not a selectable country`);
+  }
+});
+
+test("a card owner's country comes from the catalogue city, else the directory country code", () => {
+  assert.equal(profileCountryCode(PROFILES.robert), "AE");
+  assert.equal(profileCountryCode({ ...PROFILES.robert, cityKey: undefined, countryCode: "nl" }), "NL");
+  assert.equal(profileCountryCode({ ...PROFILES.robert, cityKey: undefined, countryCode: undefined }), null);
+  assert.equal(profileCountryCode({ ...PROFILES.robert, cityKey: undefined, countryCode: "Netherlands" }), null);
+});
+
+test("the country list has flags, calling codes and accent-folded search text", () => {
+  const countries = phoneCountries();
+  assert.ok(countries.length > 200);
+  assert.deepEqual(countries.find((c) => c.code === "AE"), { code: "AE", dial: "971" });
+  assert.deepEqual(countries.find((c) => c.code === "US"), { code: "US", dial: "1" });
+  assert.equal(flagEmoji("AE"), "\u{1F1E6}\u{1F1EA}");
+  assert.equal(flagEmoji("x"), "");
+  assert.equal(foldForSearch("  Côte d’Ivoire "), "cote d’ivoire");
+  assert.equal(foldForSearch("Türkiye"), "turkiye");
+});
+
+test("the country search matches names in the card language and English, ISO codes and calling codes", () => {
+  const options = (locale) =>
+    phoneCountries().map(({ code, dial }) => {
+      const name = regionName(code, locale);
+      const english = regionName(code, "en");
+      return { code, dial, name, english, folded: foldForSearch(name), foldedEnglish: foldForSearch(english) };
+    });
+  const en = options("en");
+  const find = (list, query) => filterPhoneCountries(list, query).map((o) => o.code);
+  assert.equal(find(en, "").length, en.length, "an empty query lists everything");
+  assert.deepEqual(find(en, "neth").slice(0, 2).sort(), ["BQ", "NL"]);
+  assert.equal(find(en, "United Arab")[0], "AE");
+  assert.deepEqual(find(en, "zzzz"), []);
+  // Calling codes, with or without the plus; the country most people mean comes first.
+  assert.equal(find(en, "+44")[0], "GB");
+  assert.deepEqual(new Set(find(en, "44")), new Set(["GB", "GG", "IM", "JE"]));
+  assert.equal(find(en, "+1")[0], "US");
+  assert.equal(find(en, "971")[0], "AE");
+  // ISO codes, case and accents ignored.
+  assert.equal(find(en, "nl")[0], "NL");
+  assert.equal(find(en, "TURKIYE")[0], "TR");
+  // A visitor on a non-English card can search in their own language or in English.
+  const ja = options("ja");
+  assert.equal(find(ja, "オランダ")[0], "NL");
+  assert.equal(find(ja, "netherlands")[0], "NL");
+  const ar = options("ar");
+  assert.equal(find(ar, "الإمارات")[0], "AE");
+  const pap = options("pap");
+  assert.equal(find(pap, "hulanda")[0], "NL");
+  assert.equal(find(pap, "tuvalu")[0], "TV");
+});
+
+test("browser code never imports the full phone metadata", () => {
+  // profilePhone.ts and profileConnect.ts carry libphonenumber's full metadata (about 39 KB gzipped
+  // more than the browser needs). A client component importing either would ship it to every visitor.
+  const dir = new URL("../src/app/p/[handle]/", import.meta.url);
+  for (const file of ["ExchangeSheet.tsx", "PhoneField.tsx", "ProfileActions.tsx", "ShareSheet.tsx", "LanguageSwitcher.tsx", "ThemeToggle.tsx"]) {
+    const source = readFileSync(new URL(file, dir), "utf8");
+    assert.doesNotMatch(source, /lib\/profileConnect'|lib\/profilePhone'|libphonenumber-js\/max/, `${file} must not import the server-side phone code`);
+  }
+  const input = readFileSync(new URL("../src/lib/profilePhoneInput.ts", import.meta.url), "utf8");
+  assert.match(input, /from 'libphonenumber-js\/min'/);
+  assert.doesNotMatch(input, /libphonenumber-js\/max/);
+  const server = readFileSync(new URL("../src/lib/profilePhone.ts", import.meta.url), "utf8");
+  assert.match(server, /from 'libphonenumber-js\/max'/);
+});
+
+test("an international number typed, pasted or AutoFilled into the national box moves the selector", () => {
+  const split = (raw, selected) => splitInternationalNumber(raw, selected);
+  // iOS and desktop AutoFill hand over the whole number.
+  assert.deepEqual(split("+971501234567", "US"), { country: "AE", text: "050 123 4567", switched: true });
+  assert.deepEqual(split("+971 50 123 4567", "AE"), { country: "AE", text: "050 123 4567", switched: false });
+  assert.deepEqual(split("00971 50 123 4567", "GB"), { country: "AE", text: "050 123 4567", switched: true });
+  assert.equal(split("+44 20 7946 0958", "AE").country, "GB");
+  assert.equal(split("+31 6 41 50 92 55", "AE").country, "NL");
+  assert.equal(split("+81 90 1234 5678", "US").country, "JP");
+  // Numbers sharing a calling code follow the number when it says which country, and the visitor otherwise.
+  assert.equal(split("+1 416 555 0123", "US").country, "CA");
+  assert.equal(split("+1 650 253 0000", "CA").country, "US");
+  // National numbers, partial input and junk are left alone.
+  for (const raw of ["050 123 4567", "0501234567", "", "+", "+9", "abc", "+999 123"]) {
+    const result = split(raw, "AE");
+    assert.equal(result.switched, false, raw);
+    assert.equal(result.country, "AE", raw);
+    assert.equal(result.text, raw, raw);
+  }
 });
 
 test("the exchange prompt names the card owner in every locale and never hard-codes a gender", () => {
@@ -266,9 +430,12 @@ test("the share sheet, exchange sheet and card page are wired together", () => {
   const sheet = readFileSync(new URL("ExchangeSheet.tsx", dir), "utf8");
   const share = readFileSync(new URL("ShareSheet.tsx", dir), "utf8");
   // The exchange only exists when the feature flag is on, and is passed as data rather than children.
-  assert.match(page, /exchange=\{isLeadFormEnabled\(\)/);
+  assert.match(page, /const exchange = isLeadFormEnabled\(\)/);
+  assert.match(page, /exchange=\{exchange\}/);
+  assert.match(page, /getVisitorCountryHeader\(\)/);
   assert.match(page, /<ShareSheet /);
   assert.match(actions, /<ExchangeSheet/);
+  assert.match(actions, /defaultPhoneCountry=\{exchange\.phoneCountry\}/);
   // Consent stays an explicit, required checkbox inside the sheet.
   assert.match(sheet, /name="consent" type="checkbox" required/);
   // Name and email are still required; company and message sit behind the disclosure.

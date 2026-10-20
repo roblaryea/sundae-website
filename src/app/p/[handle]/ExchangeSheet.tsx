@@ -4,8 +4,14 @@ import { useEffect, useId, useRef, useState, useSyncExternalStore, type FormEven
 import { CalendarCheck, Check, ContactRound, Plus, Send, X } from 'lucide-react'
 import Link from 'next/link'
 import { trackCta } from '@/lib/cta'
-import { MIN_FILL_MS, splitTemplate } from '@/lib/profileConnect'
+import type { CountryCode } from 'libphonenumber-js/min'
+import { MIN_FILL_MS } from '@/lib/profileConnectTiming'
+import { splitTemplate } from '@/lib/profileTemplate'
+import { splitInternationalNumber } from '@/lib/profilePhoneInput'
+import { regionName } from '@/lib/profileRegionNames'
 import type { ProfileCardCopy } from '@/lib/profileCardCopy'
+import { normalizeCardLocale } from '@/lib/profileCardLocale'
+import { PhoneField } from './PhoneField'
 
 type Status = 'idle' | 'sending' | 'sent' | 'invalid' | 'error' | 'limited'
 
@@ -24,10 +30,10 @@ const FIELD_ORDER = ['name', 'email', 'phone', 'company', 'note', 'consent'] as 
 const inputClass = 'pc-field mt-1.5 block h-12 w-full rounded-xl px-3.5 text-[16px]'
 
 /** A localized sentence with {name} replaced by the owner's name, isolated so it reads correctly in right-to-left text. */
-function WithName({ template, name }: { template: string; name: string }) {
+function WithName({ template, name, token = 'name' }: { template: string; name: string; token?: string }) {
   return (
     <>
-      {splitTemplate(template, name).map((part, index) =>
+      {splitTemplate(template, name, token).map((part, index) =>
         part.isName ? <bdi key={index} className="pc-fg font-medium">{part.text}</bdi> : <span key={index}>{part.text}</span>,
       )}
     </>
@@ -56,6 +62,7 @@ export function ExchangeSheet({
   locale,
   copy,
   bookHref,
+  defaultPhoneCountry,
   open,
   onClose,
 }: {
@@ -65,6 +72,8 @@ export function ExchangeSheet({
   locale: string
   copy: ProfileCardCopy
   bookHref: string
+  /** Where the country selector starts: the visitor's country, else the language's, else the owner's. */
+  defaultPhoneCountry: string
   open: boolean
   onClose: () => void
 }) {
@@ -72,6 +81,11 @@ export function ExchangeSheet({
   const [status, setStatus] = useState<Status>('idle')
   const [badFields, setBadFields] = useState<string[]>([])
   const [filled, setFilled] = useState(false)
+  const [phoneCountry, setPhoneCountry] = useState<CountryCode>(defaultPhoneCountry as CountryCode)
+  // Whether the flagged phone box was empty, to choose between "enter your number" and "not valid for {country}".
+  const [phoneWasEmpty, setPhoneWasEmpty] = useState(false)
+  const cardLocale = normalizeCardLocale(locale)
+  const phoneRef = useRef<HTMLInputElement>(null)
   // When too many attempts were made, the time the form may be used again (epoch ms).
   const [cooldownUntil, setCooldownUntil] = useState<number | null>(null)
   const openedAt = useRef<number>(0)
@@ -107,6 +121,14 @@ export function ExchangeSheet({
     }
   }, [open, handle])
 
+  /** Sets the phone box and selector from a number in any form (national, or a full international number). */
+  function applyPhone(raw: string) {
+    const split = splitInternationalNumber(raw.trim(), phoneCountry)
+    if (phoneRef.current) phoneRef.current.value = split.text
+    setPhoneCountry(split.country)
+    setBadFields((fields) => fields.filter((field) => field !== 'phone'))
+  }
+
   function setField(name: string, value: string | undefined) {
     const element = formRef.current?.elements.namedItem(name)
     if (value && element instanceof HTMLInputElement) element.value = value.trim()
@@ -120,7 +142,7 @@ export function ExchangeSheet({
       if (!picked) return
       setField('name', picked.name?.[0])
       setField('email', picked.email?.[0])
-      setField('phone', picked.tel?.[0])
+      if (picked.tel?.[0]) applyPhone(picked.tel[0])
       setFilled(true)
       trackCta('profile_card_fill_from_contacts', { handle })
     } catch {
@@ -132,6 +154,10 @@ export function ExchangeSheet({
     event.preventDefault()
     const form = new FormData(event.currentTarget)
     const value = (key: string) => String(form.get(key) ?? '')
+    // A full international number typed into the national box and sent without leaving it: the server
+    // reads the number in the country that matches it.
+    const phoneText = value('phone')
+    const sendCountry = splitInternationalNumber(phoneText, phoneCountry).country
     setStatus('sending')
     setBadFields([])
     const send = () =>
@@ -143,7 +169,8 @@ export function ExchangeSheet({
           locale,
           name: value('name'),
           email: value('email'),
-          phone: value('phone'),
+          phone: phoneText,
+          phoneCountry: sendCountry,
           company: value('company'),
           note: value('note'),
           consent: form.get('consent') === 'on',
@@ -171,6 +198,7 @@ export function ExchangeSheet({
         const body = (await response.json().catch(() => ({}))) as { fields?: string[] }
         const fields = body.fields ?? []
         setBadFields(fields)
+        setPhoneWasEmpty(phoneText.trim() === '')
         if (fields.includes('company') || fields.includes('note')) setMore(true)
         setStatus('invalid')
         // Put the visitor on the first field that needs attention.
@@ -193,7 +221,7 @@ export function ExchangeSheet({
 
   const invalid = (field: string) => badFields.includes(field)
   const errorId = (field: string) => `${panelId}-${field}-error`
-  const fieldError = (field: string, message: string) =>
+  const fieldError = (field: string, message: React.ReactNode) =>
     invalid(field) ? (
       <span id={errorId(field)} className="pc-danger mt-1 block text-[13px] font-normal">
         {message}
@@ -270,11 +298,23 @@ export function ExchangeSheet({
             <input name="email" type="email" required maxLength={254} autoComplete="email" inputMode="email" enterKeyHint="next" dir="ltr" aria-invalid={invalid('email')} aria-describedby={invalid('email') ? errorId('email') : undefined} className={`${inputClass} text-start`} />
             {fieldError('email', copy.fieldErrorEmail)}
           </label>
-          <label className="pc-soft block text-[13px] font-medium">
-            {copy.fieldPhone}
-            <input name="phone" type="tel" required maxLength={30} autoComplete="tel" inputMode="tel" enterKeyHint="next" dir="ltr" aria-invalid={invalid('phone')} aria-describedby={invalid('phone') ? errorId('phone') : undefined} className={`${inputClass} text-start`} />
-            {fieldError('phone', copy.fieldErrorPhone)}
-          </label>
+          <PhoneField
+            copy={copy}
+            locale={cardLocale}
+            country={phoneCountry}
+            onCountryChange={(code) => {
+              setPhoneCountry(code)
+              // The message names the country; it no longer applies once the country changes.
+              setBadFields((fields) => fields.filter((field) => field !== 'phone'))
+            }}
+            inputRef={phoneRef}
+            invalid={invalid('phone')}
+            errorId={errorId('phone')}
+            error={fieldError(
+              'phone',
+              phoneWasEmpty ? copy.fieldErrorPhone : <WithName template={copy.fieldErrorPhoneCountry} name={regionName(phoneCountry, cardLocale)} token="country" />,
+            )}
+          />
 
           {/* Company and message stay mounted (so AutoFill and a typed value survive) but start collapsed. */}
           <button

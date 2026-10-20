@@ -4,8 +4,12 @@ import { useEffect, useRef, useState } from 'react'
 import { ArrowUpRight, Globe, Linkedin, Mail, Phone, UserPlus, UserRoundCheck, X } from 'lucide-react'
 import { trackCta } from '@/lib/cta'
 import type { ProfileCardCopy } from '@/lib/profileCardCopy'
-import { splitTemplate } from '@/lib/profileConnect'
-import { ExchangeSheet } from './ExchangeSheet'
+import { splitTemplate } from '@/lib/profileTemplate'
+import dynamic from 'next/dynamic'
+
+// The exchange sheet carries the phone-number library (about 48 KB gzipped), so it is loaded after the
+// card has rendered rather than with it: the card, Save contact and the contact rows never wait for it.
+const ExchangeSheet = dynamic(() => import('./ExchangeSheet').then((module) => module.ExchangeSheet), { ssr: false })
 
 type Row = {
   key: 'call' | 'email' | 'linkedin' | 'website'
@@ -29,7 +33,7 @@ export type ProfileActionsProps = {
   websiteUrl: string
   websiteDisplay: string
   /** Present only when the contact exchange is switched on; absent means Save contact stands alone. */
-  exchange?: { ownerFirstName: string; ownerEmail: string; locale: string }
+  exchange?: { ownerFirstName: string; ownerEmail: string; locale: string; phoneCountry: string }
 }
 
 /** How long after tapping Save contact to offer the exchange (the contacts sheet has had time to appear). */
@@ -48,6 +52,14 @@ export function ProfileActions(props: ProfileActionsProps) {
   const [exchangeOpen, setExchangeOpen] = useState(false)
   const [nudge, setNudge] = useState(false)
   const nudgeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  // Mount the (lazy) sheet once the page is idle, or sooner if the visitor reaches for it.
+  const [sheetReady, setSheetReady] = useState(false)
+  const hasExchange = Boolean(exchange)
+  useEffect(() => {
+    if (!hasExchange) return
+    const timer = setTimeout(() => setSheetReady(true), 1500)
+    return () => clearTimeout(timer)
+  }, [hasExchange])
 
   useEffect(
     () => () => {
@@ -115,6 +127,9 @@ export function ProfileActions(props: ProfileActionsProps) {
           <button
             type="button"
             onClick={() => openExchange('button')}
+            onPointerEnter={() => setSheetReady(true)}
+            onFocus={() => setSheetReady(true)}
+            onTouchStart={() => setSheetReady(true)}
             aria-haspopup="dialog"
             className="pc-ink mt-4 inline-flex h-14 w-full items-center justify-center gap-3 rounded-2xl px-6 text-[17px] font-semibold"
           >
@@ -171,7 +186,7 @@ export function ProfileActions(props: ProfileActionsProps) {
         {copy.bookSession}
         <ArrowUpRight className="h-4 w-4 rtl:-scale-x-100" aria-hidden="true" />
       </a>
-      {exchange && (
+      {exchange && (sheetReady || exchangeOpen) && (
         <ExchangeSheet
           handle={handle}
           ownerFirstName={exchange.ownerFirstName}
@@ -179,6 +194,7 @@ export function ProfileActions(props: ProfileActionsProps) {
           locale={exchange.locale}
           copy={copy}
           bookHref={props.bookHref}
+          defaultPhoneCountry={exchange.phoneCountry}
           open={exchangeOpen}
           onClose={() => setExchangeOpen(false)}
         />

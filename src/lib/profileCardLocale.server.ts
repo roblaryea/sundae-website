@@ -17,3 +17,12 @@ export async function getCardLocale(): Promise<CardLocale> {
     headerStore.get('accept-language'),
   )
 }
+
+/**
+ * The visitor's country as reported by the hosting platform (`x-vercel-ip-country`, an ISO 3166-1
+ * alpha-2 code), or null. Only a starting point for the phone country selector; values such as "XX"
+ * or "T1" are rejected by the caller. Never used to store anything about the visitor.
+ */
+export async function getVisitorCountryHeader(): Promise<string | null> {
+  return (await headers()).get('x-vercel-ip-country')
+}

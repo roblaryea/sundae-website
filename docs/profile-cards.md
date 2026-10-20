@@ -89,8 +89,11 @@ real booking created or invitation resent during the review.
 
 - **iPhone and most desktop browsers:** the form's fields carry standard autocomplete tokens, so
   Safari/Chrome offer to fill name, email, phone and company from the visitor's own contact card in one tap.
+  The number box keeps `autocomplete="tel"`; browsers fill it with a whole international number, which
+  the form splits into the country selector and the national number (see "Phone number and country").
 - **Chrome on Android:** a "Fill from my contacts" button uses the Contact Picker API. It only fills
-  the form; everything stays editable and nothing is sent until the visitor submits.
+  the form; everything stays editable and nothing is sent until the visitor submits. The picked number
+  goes through the same splitting.
 - iOS Safari has no web API to read contacts, so AutoFill is the best available path there.
 
 ## Before and after a deploy
@@ -157,9 +160,45 @@ website forms use. It needs the same two environment variables as those forms:
 - **Limited access:** a custom admin role with the "My contacts" capability sees only the contacts
   assigned to them; it cannot convert to pipeline leads or see other people's contacts.
 
+## Phone number and country
+
+The phone number is required and is entered as a country selector (flag and calling code) beside a
+national-number box, so the visitor types only the local number.
+
+- **Starting country:** the visitor's own country from the `x-vercel-ip-country` request header (read on
+  the server and passed to the form as a prop), else the country the card language implies, else the card
+  owner's country (catalogue city, or the directory `countryCode`), else US. Junk header values
+  (`XX`, `T1`, empty, not a real country) are ignored. Languages spoken in many countries (English,
+  Arabic, French, Spanish, Portuguese) deliberately do not imply a country; the table is
+  `LOCALE_PHONE_COUNTRY` in `src/lib/profilePhoneInput.ts`. The header only chooses a default and is not
+  stored.
+- **Selector:** a combobox (search box plus listbox) that searches the localized name, the English name,
+  the ISO code and the calling code (`+44` lists the United Kingdom first). Names come from
+  `Intl.DisplayNames` in the card language; Papiamento has no platform data, so
+  `COUNTRY_NAME_OVERRIDES.pap` (`src/lib/profileRegionNames.ts`, Aruban spelling) lists 112 countries
+  and the rest fall back to the English name. Flags are emoji; Windows desktop browsers show the two-letter
+  code instead of a flag.
+- **International numbers:** a whole number pasted, AutoFilled or Contact-Picked into the box (or typed
+  and then left, or sent) moves the selector to its country and keeps only the national part. Typing is
+  never rewritten mid-keystroke.
+- **Server check (the one that counts):** `parseConnectSubmission` validates `{phoneCountry, phone}` with
+  libphonenumber-js's full ("max") metadata in `src/lib/profilePhone.ts`. A national number must be valid for
+  the chosen country; an international number must be valid and share that country's calling code (so a
+  UK number under a UAE selector is rejected, while +1 or +44 numbers of sibling countries are accepted).
+  Failures are reported as field `phone`. The honeypot, timing, consent and idempotency logic is unchanged.
+- **What the backend gets:** `phone` as E.164 (for example `+971501234567`) and `metadata.phone_country`
+  (ISO 3166-1 alpha-2, the number's own country). No backend change is needed: the marketing-leads intake
+  already accepts a free `metadata` object.
+- **Bundle cost:** the browser uses libphonenumber-js's smaller ("min") metadata in
+  `src/lib/profilePhoneInput.ts`, and the exchange sheet is loaded lazily after the card has rendered, so
+  the card's initial JavaScript is unchanged. The lazy sheet chunk is about 36 KB gzipped (31 KB brotli),
+  of which the phone library is the bulk. The full ("max") metadata (about 157 KB raw, 39 KB gzipped)
+  stays server-side in the API route. A test fails if a client component imports the server-side
+  phone code. Never import `profilePhone.ts` or `profileConnect.ts` from a client component.
+
 ## Form recovery and limits
 
-- Field-specific messages (name, email, phone, consent) appear under the field, the first one is
+- Field-specific messages (name, email, phone, consent) appear under the field (an empty phone asks for the number; a rejected one says it does not look valid for the selected country), the first one is
   focused, and the field is linked with `aria-describedby`.
 - Too many attempts (5 stored submissions per address per hour, process-local) shows an explanation
   and a Try again button that unlocks when the wait ends. The automatic timing retry and fixable

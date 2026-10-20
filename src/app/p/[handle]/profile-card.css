@@ -334,3 +334,48 @@
 @media (prefers-reduced-motion: no-preference) {
   .pc-rise { animation: pc-rise 640ms cubic-bezier(0.22, 1, 0.36, 1) both; animation-delay: var(--pc-delay, 0ms); }
 }
+
+/* ---------- phone country selector (contact exchange sheet) ---------- */
+.pc-phone-trigger {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.4rem;
+  height: 3rem;
+  margin-top: 0;
+  padding-inline: 0.75rem;
+  border-radius: 0.75rem;
+  font-size: 16px;
+  color: var(--pc-fg);
+  cursor: pointer;
+}
+.pc-phone-trigger:focus-visible { outline: 2px solid var(--pc-fg); outline-offset: 2px; }
+.pc-phone-panel {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--pc-line-2);
+  border-radius: 14px;
+  background: var(--pc-surface);
+}
+.pc-phone-panel input[role="combobox"]:focus-visible { outline: 2px solid var(--pc-fg); outline-offset: 2px; }
+.pc-phone-list {
+  margin-top: 0.5rem;
+  max-height: min(15rem, 34dvh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.pc-phone-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--pc-fg);
+  cursor: pointer;
+}
+.pc-phone-option[data-active="true"] { background: var(--pc-surface-hover); }
+.pc-phone-option[aria-selected="true"] { font-weight: 600; }
+.pc-phone-flag { width: 1.5rem; flex-shrink: 0; text-align: center; font-size: 1.15rem; line-height: 1; }

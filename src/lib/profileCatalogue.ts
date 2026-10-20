@@ -107,25 +107,22 @@ export function cityName(cityKey: CityKey, locale: CardLocale): string {
   return names[locale] ?? names.en
 }
 
-/**
- * Country names for languages whose platform locale data is missing or unreliable. Papiamento
- * has no CLDR coverage in many runtimes, so its country names are listed here. Every country
- * used by a city in CITIES needs an entry (a test enforces it).
- */
-export const COUNTRY_NAME_OVERRIDES: Partial<Record<CardLocale, Record<string, string>>> = {
-  pap: { AE: 'Emiratonan Arabe Uni' },
-}
+import { COUNTRY_NAME_OVERRIDES, regionName } from './profileRegionNames.ts'
+
+// Country names live in their own module so the browser's phone country selector can use them
+// without loading the job-title and city tables above. Re-exported here for existing callers.
+export { COUNTRY_NAME_OVERRIDES, regionName }
 
 /** Localized country name: explicit override, then platform locale data, then the English name. */
 export function countryName(cityKey: CityKey, locale: CardLocale): string {
-  const code: string = CITIES[cityKey].country
-  const override = COUNTRY_NAME_OVERRIDES[locale]?.[code]
-  if (override) return override
-  try {
-    return new Intl.DisplayNames([locale], { type: 'region' }).of(code) ?? code
-  } catch {
-    return new Intl.DisplayNames(['en'], { type: 'region' }).of(code) ?? code
-  }
+  return regionName(CITIES[cityKey].country, locale)
+}
+
+/** ISO country of a profile: its catalogue city's, else the admin-authored `countryCode`. */
+export function profileCountryCode(profile: import('./profileData').PersonProfile): string | null {
+  if (profile.cityKey) return CITIES[profile.cityKey].country
+  const code = (profile.countryCode ?? '').trim().toUpperCase()
+  return /^[A-Z]{2}$/.test(code) ? code : null
 }
 
 export function locationText(cityKey: CityKey, locale: CardLocale): string {
@@ -143,8 +140,7 @@ export function profileCity(profile: import('./profileData').PersonProfile, loca
 export function profileCountry(profile: import('./profileData').PersonProfile, locale: CardLocale): string {
   if (profile.cityKey) return countryName(profile.cityKey, locale)
   const code = profile.countryCode || ''
-  if (locale === 'pap') return ({ AE: 'Emiratonan Arabe Uni', NL: 'Hulanda' } as Record<string,string>)[code] || code
-  return new Intl.DisplayNames([locale], { type: 'region' }).of(code) || code
+  return code ? regionName(code, locale) : ''
 }
 export function profileLocation(profile: import('./profileData').PersonProfile, locale: CardLocale): string {
   return profileCity(profile, locale) + (LIST_SEPARATOR[locale] || ', ') + profileCountry(profile, locale)
