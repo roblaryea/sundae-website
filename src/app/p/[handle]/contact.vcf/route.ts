@@ -2,6 +2,7 @@ import { resolveCardLocale } from '@/lib/profileCardLocale'
 import { PROFILE_AVATAR_PNG_BASE64 } from '@/lib/profileAvatar'
 import { profileCity, profileCountry, profileRole } from '@/lib/profileCatalogue'
 import { PROFILE_HANDLES } from '@/lib/profileHandles'
+import { profilePhoto } from '@/lib/profilePhotos'
 import { getProfile, isProfileActive } from '@/lib/profiles'
 import { buildVCard, vCardFilename } from '@/lib/vcard'
 
@@ -36,6 +37,8 @@ export async function GET(request: Request, { params }: { params: Promise<{ hand
     city: profileCity(profile, locale),
     country: profileCountry(profile, locale),
     photoPngBase64: PROFILE_AVATAR_PNG_BASE64,
+    // A person's own portrait replaces the brand mark in their saved contact.
+    photoJpegBase64: profilePhoto(profile.handle)?.vcardJpegBase64,
   })
   // Revalidate against the runtime directory; pausing must stop contact downloads.
   return new Response(body, {

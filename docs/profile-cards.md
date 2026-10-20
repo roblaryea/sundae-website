@@ -37,6 +37,17 @@ Interface labels cover the 25 registered languages. Custom title/city text remai
 optional `titleTranslations` and `cityTranslations` are accepted by the directory contract and are
 preserved on edits. The legacy Robert record retains its existing localized title/city catalogue.
 
+
+## Portrait photos
+
+A card shows a round portrait over the hero, and the saved contact carries it instead of the Sundae
+mark, when the handle has an entry in `PROFILE_PHOTOS` (`src/lib/profilePhotos.ts`). Photos exist for
+`robert` and `mark` (the approved photos from the About page in `public/team`). To add one: put the
+person's approved photo in `public/team`, then add an entry with its public path, its size and a
+192 px square JPEG as base64 (crop to a square, resize, encode). Without an entry the card keeps the
+brand mark. Photos for staff added through Admin are not editable there yet; that needs a
+photo field in the team-profile backend.
+
 ## Runtime contract and lifecycle
 
 - Backend `team_card_profiles` stores one record per admin owner with a unique permanent handle,
