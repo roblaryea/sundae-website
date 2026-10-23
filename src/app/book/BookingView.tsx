@@ -46,6 +46,16 @@ import {
 } from '@/lib/booking/timezones';
 import type { BookingContext, Slot, BookingDay, BookingSummary } from '@/lib/sundaeBookingClient';
 import type { PersonalBookingContext } from '@/lib/personalBookingClient';
+import {
+  buildContactMailto,
+  classifyVerificationResponse,
+  cooldownSecondsLeft,
+  fillTemplate,
+  formatWait,
+  safeSenderEmail,
+  splitAtToken,
+  type VerificationOutcome,
+} from '@/lib/booking/verification';
 import { BookingBrand } from './BookingBrand';
 import { useTheme } from '@/components/ui/ThemeProvider';
 import { useRouter } from 'next/navigation';
@@ -101,7 +111,8 @@ type ConfirmedBooking = {
 };
 
 type Mode = 'select' | 'reschedule' | 'confirmed' | 'existing' | 'canceled';
-type ActionError = { tone: 'warn' | 'error'; key: BookingUiKey };
+/** `wait` fills {wait} (seconds); `contact` appends the "email the host" fallback link. */
+type ActionError = { tone: 'warn' | 'error'; key: BookingUiKey; wait?: number; contact?: boolean };
 
 type BookingViewProps = { token: string; locale: BookingLocale; ctx: BookingContext; personal?: PersonalBookingContext };
 
@@ -157,6 +168,26 @@ function BookingState({
   const [verificationCode, setVerificationCode] = useState('');
   const [verificationReady, setVerificationReady] = useState(false);
   const [managementEmailFailed, setManagementEmailFailed] = useState(false);
+  // Resend cooldown (visible countdown). The server enforces the same window.
+  const [cooldownEndsAt, setCooldownEndsAt] = useState<number | null>(null);
+  const [clock, setClock] = useState(() => Date.now());
+  const [resending, setResending] = useState(false);
+  const [resendNotice, setResendNotice] = useState(false);
+  const cooldownLeft = cooldownSecondsLeft(cooldownEndsAt, clock);
+  useEffect(() => {
+    if (cooldownEndsAt === null || Date.now() >= cooldownEndsAt) return;
+    const timer = setInterval(() => {
+      const now = Date.now();
+      setClock(now);
+      if (now >= cooldownEndsAt) clearInterval(timer);
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [cooldownEndsAt]);
+  const startCooldown = (seconds: number) => {
+    const now = Date.now();
+    setClock(now);
+    setCooldownEndsAt(now + seconds * 1000);
+  };
   useEffect(() => {
     const timer = setTimeout(() => setVerificationReady(true), 3000);
     return () => clearTimeout(timer);
@@ -318,21 +349,66 @@ function BookingState({
     [visitorTz, fromIso, loadSlots],
   );
 
+  const postVerification = async (path: string, payload: Record<string, unknown>) => {
+    const response = await fetch(`/api/personal-book/${personal?.slug}/${path}`, {
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload),
+    });
+    const body: unknown = await response.json().catch(() => ({}));
+    return { response, body, outcome: classifyVerificationResponse(response.status, body, response.headers.get('retry-after')) };
+  };
+
+  const showVerificationFailure = (outcome: Exclude<VerificationOutcome, { kind: 'sent' }>) => {
+    if (outcome.kind === 'rate_limited') {
+      setActionError({ tone: 'error', key: outcome.retryAfterSeconds ? 'tooManyRequestsWait' : 'tooManyRequests', wait: outcome.retryAfterSeconds ?? undefined });
+    } else if (outcome.kind === 'cooldown') {
+      startCooldown(outcome.retryAfterSeconds);
+    } else if (outcome.kind === 'email_unavailable') {
+      setActionError({ tone: 'error', key: 'emailUnavailable', contact: true });
+    } else if (outcome.kind === 'expired') {
+      // The challenge is gone: go back to the form with name and email kept.
+      setVerificationId(null); setVerificationCode(''); setCooldownEndsAt(null);
+      setActionError({ tone: 'warn', key: 'verificationExpired' });
+    } else {
+      setActionError({ tone: 'error', key: 'verificationFailed' });
+    }
+  };
+
+  /** First code request for this name and email. Returns whether a code was sent. */
+  const requestCode = async (): Promise<boolean> => {
+    if (!personal) return false;
+    const { outcome } = await postVerification('verification', { name: visitorName, email: visitorEmail, formToken: personal.formToken, website: honeypot });
+    if (outcome.kind !== 'sent') { showVerificationFailure(outcome); return false; }
+    setVerificationId(outcome.verificationId);
+    startCooldown(outcome.cooldownSeconds);
+    return true;
+  };
+
+  /** Re-send for the SAME challenge: form values are kept and the old code stops working. */
+  const resendCode = async () => {
+    if (!personal || !verificationId || resending || cooldownLeft > 0) return;
+    setResending(true); setActionError(null); setResendNotice(false);
+    try {
+      const { outcome, body } = await postVerification('verification/resend', { verificationId, formToken: personal.formToken, website: honeypot });
+      if ((body as { error?: string }).error === 'backend_status_404') {
+        // Backend without the resend route: fall back to a fresh request with the same values.
+        if (await requestCode()) { setVerificationCode(''); setResendNotice(true); }
+      } else if (outcome.kind === 'sent') {
+        setVerificationCode(''); setResendNotice(true); startCooldown(outcome.cooldownSeconds);
+      } else showVerificationFailure(outcome);
+    } catch {
+      setActionError({ tone: 'error', key: 'verificationFailed' });
+    } finally {
+      setResending(false);
+    }
+  };
+
   const bookSlot = async (slot: Slot) => {
     setSubmittingSlot(slot.startUtc);
     setActionError(null);
     try {
       if (personal && !verificationId) {
-        const response = await fetch(`/api/personal-book/${personal.slug}/verification`, {
-          method: 'POST', headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({ name: visitorName, email: visitorEmail, formToken: personal.formToken, website: honeypot }),
-        });
-        const result = await response.json();
-        if (response.status !== 202 || !result.verificationId) {
-          setActionError({ tone: 'error', key: response.status === 429 ? 'tooManyRequests' : 'verificationFailed' });
-          return;
-        }
-        setVerificationId(result.verificationId);
+        setResendNotice(false);
+        await requestCode();
         return;
       }
       const params = new URLSearchParams({ token });
@@ -586,8 +662,39 @@ function BookingState({
     </div>
   );
 
+  // "Email the host" fallback. Only a plain mailbox from the backend is ever used.
+  const hostEmail = safeSenderEmail(personal?.senderEmail);
+  const hostName = personal?.displayName || 'Sundae';
+  const waitLabel = (seconds: number) => formatWait(seconds, copy, locale === 'pap' ? 'pap' : getWebsiteIntlLocale(locale));
+  const contactMailto = hostEmail
+    ? buildContactMailto({
+        to: hostEmail,
+        subject: copy.mailtoSubject,
+        body: fillTemplate(copy.mailtoBody, {
+          name: hostName,
+          visitorName,
+          visitorEmail,
+          slot: reviewSlot ? `${formatWhen(reviewSlot.startUtc, displayTz)} · ${displayTz}` : '',
+          duration: String(duration ?? ''),
+        }),
+      })
+    : null;
+
+  /** Substitute {token} with an LTR-isolated value so addresses stay intact inside RTL text. */
+  const withSlot = (template: string, token: string, value: string): ReactNode => {
+    const [before, after] = splitAtToken(template, token);
+    return <>{before}<bdi dir="ltr" className="font-semibold break-all">{value}</bdi>{after}</>;
+  };
+
+  // A failure above the fold of a long form (mobile) must not go unnoticed.
+  useEffect(() => {
+    if (actionError) document.getElementById('booking-action-error')?.scrollIntoView({ block: 'nearest' });
+  }, [actionError]);
+
   const errorBanner = (err: ActionError) => (
     <div
+      id="booking-action-error"
+      role="alert"
       className={`flex items-start gap-2 rounded-xl border px-3.5 py-3 text-sm ${
         err.tone === 'error'
           ? dark
@@ -599,7 +706,12 @@ function BookingState({
       }`}
     >
       <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
-      <span>{copy[err.key]}</span>
+      <span>
+        {err.wait ? fillTemplate(String(copy[err.key]), { wait: waitLabel(err.wait) }) : copy[err.key]}
+        {err.contact && contactMailto && (
+          <> <a href={contactMailto} className="font-semibold underline underline-offset-2">{fillTemplate(copy.noCodeEmail, { name: hostName })}</a></>
+        )}
+      </span>
     </div>
   );
 
@@ -1050,11 +1162,21 @@ function BookingState({
                       <input id="visitor-email" type="email" autoComplete="email" required maxLength={254} disabled={!!verificationId} value={visitorEmail} onChange={(e) => setVisitorEmail(e.target.value)} className={`w-full rounded-lg border p-3 ${cardCls}`} /></div>
                     <div aria-hidden="true" className="hidden"><label htmlFor="visitor-website">{t('website', '')}</label><input id="visitor-website" tabIndex={-1} autoComplete="off" value={honeypot} onChange={(e) => setHoneypot(e.target.value)} /></div>
                     {verificationId ? <div className="space-y-2" aria-live="polite">
-                      <p className={`text-sm ${body}`}>{t('codeSent', '').replace('{email}', visitorEmail)}</p>
+                      <p className={`text-sm ${body}`}>{withSlot(t('codeSent', ''), 'email', visitorEmail)}</p>
+                      {resendNotice && <p className={`text-sm font-semibold ${heading}`}>{withSlot(t('codeResent', ''), 'email', visitorEmail)}</p>}
+                      {hostEmail && <p className={`text-sm ${body}`}>{withSlot(t('codeSentFrom', ''), 'sender', hostEmail)}</p>}
+                      <p className={`text-sm ${muted}`}>{t('codeSpamHint', '')}</p>
                       <label htmlFor="verification-code" className={`block text-sm font-semibold ${heading}`}>{t('codeLabel', '')}</label>
                       <input id="verification-code" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" minLength={6} maxLength={6} required value={verificationCode}
                         onChange={(e) => setVerificationCode(e.target.value.replace(/\D/g, ''))} className={`w-full rounded-lg border p-3 ${cardCls}`} />
-                      <button type="button" disabled={!!submittingSlot} className={linkAccent} onClick={() => { setVerificationId(null); setVerificationCode(''); setActionError(null); }}>{t('requestNewCode', '')}</button>
+                      <div className="flex flex-wrap items-center gap-x-4 gap-y-2" aria-live="off">
+                        <button type="button" disabled={!!submittingSlot || resending || cooldownLeft > 0} className={cooldownLeft > 0 ? `inline-flex min-h-11 items-center gap-1.5 text-sm font-medium cursor-default ${muted}` : `${linkAccent} min-h-11 disabled:opacity-60`} onClick={() => void resendCode()}>
+                          {resending && <Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" />}
+                          {cooldownLeft > 0 ? fillTemplate(t('resendIn', ''), { wait: waitLabel(cooldownLeft) }) : t('resendCode', '')}
+                        </button>
+                        <button type="button" disabled={!!submittingSlot} className={`${linkAccent} min-h-11`} onClick={() => { setVerificationId(null); setVerificationCode(''); setActionError(null); setCooldownEndsAt(null); setResendNotice(false); }}>{t('requestNewCode', '')}</button>
+                      </div>
+                      {contactMailto && <p className={`text-sm ${body}`}><a href={contactMailto} className={`${linkAccent} underline underline-offset-2`}>{fillTemplate(t('noCodeEmail', ''), { name: hostName })}</a></p>}
                     </div> : <p className={`text-sm ${muted}`}>{t('verificationHelp', '')}</p>}
                   </div>}
                   {mode === 'select' && ctx.bookingQuestion?.enabled && (
