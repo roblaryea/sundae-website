@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prebuild": "npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning",
+    "prebuild": "npm run qa:security-claims && npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning",
     "start": "next start",
     "lint": "eslint",
     "linkcheck": "node scripts/linkcheck.mjs",
@@ -31,7 +31,9 @@
     "quality": "npm run lint && npm run test:diagnostic-lead && npm run test:observability && npm run test:seo && npm run test:booking && npm run lead:preflight && npm run qa:blog-copy && npm run qa:blog-locales && npm run qa:i18n && npm run qa:translation && npm run qa:diagnostic-i18n && npm run qa:positioning && npm run qa:page-copy && npm run build",
     "qa:reduced-motion": "node scripts/qa-reduced-motion.mjs",
     "qa:fixed-position": "node scripts/qa-fixed-containing-block.mjs",
-    "test:pricing-handoff": "node --test tests/pricing-handoff.test.mjs"
+    "test:pricing-handoff": "node --test tests/pricing-handoff.test.mjs",
+    "security:sync-claims": "node scripts/sync-security-claims.mjs",
+    "qa:security-claims": "node scripts/sync-security-claims.mjs --check"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.81",
@@ -39,7 +41,7 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.6.1",
     "@react-three/postprocessing": "^3.0.4",
-    "@sentry/nextjs": "^10.42.0",
+    "@sentry/nextjs": "^10.75.2",
     "@vercel/analytics": "^1.6.1",
     "ai": "^6.0.193",
     "botid": "^1.5.11",
@@ -48,7 +50,7 @@
     "gsap": "^3.15.0",
     "libphonenumber-js": "^1.13.15",
     "lucide-react": "^0.577.0",
-    "next": "~16.3.8",
+    "next": "^16.4.3",
     "posthog-js": "^1.359.1",
     "qrcode-generator": "2.0.4",
     "react": "^19.2.4",
@@ -67,15 +69,16 @@
     "@types/three": "^0.185.0",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "~16.3.8",
+    "eslint-config-next": "^16.4.3",
     "fast-glob": "file:tooling/next-lint-glob",
     "puppeteer-core": "^25.2.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
   "overrides": {
+    "eslint-plugin-react-hooks": "7.0.1",
     "fast-uri": "3.1.8",
-    "dompurify": "3.4.16",
+    "dompurify": "^3.4.17",
     "postcss": "8.5.24",
     "sharp": "^0.35.5",
     "source-map-js": "1.2.2",
