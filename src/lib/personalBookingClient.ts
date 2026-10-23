@@ -6,6 +6,8 @@ export interface PersonalBookingContext extends BookingContext {
   headline: string;
   bio: string;
   formToken?: string;
+  /** Mailbox the verification and confirmation mail is sent from; absent on older backends. */
+  senderEmail?: string | null;
   events?: { id: string; name: string; durationMinutes: number; durationOptions: number[] }[];
   confirmation?: BookingConfirmation;
 }

@@ -12,16 +12,18 @@ const verificationId = '22222222-2222-4222-8222-222222222222';
 let personalBooking = null;
 let personalDuration = 60;
 let personalEmail = '';
+let resends = 0;
 const personalContext = { name: '', email: '', company: 'QA Host', displayName: 'QA Host', headline: 'Sundae team', bio: 'A conversation about your business.',
   slug: 'qa-host', durationMinutes: 60, durationOptions: [30, 60, 90], offering: 'Introduction', teamTimezone: 'UTC', eventTypeId: 'intro',
   events: [{ id: 'intro', name: 'Introduction', durationMinutes: 60, durationOptions: [30, 60, 90] }, { id: 'demo', name: 'Demo', durationMinutes: 30, durationOptions: [30] }],
-  formToken: 'fixture-form', locale: null, activeBooking: null };
+  formToken: 'fixture-form', senderEmail: 'host@example.com', locale: null, activeBooking: null };
 const server = createServer(async (req, res) => {
   const url = new URL(req.url, 'http://127.0.0.1');
   const token = url.searchParams.get('token');
   const json = (body, status = 200) => { res.writeHead(status, { 'content-type': 'application/json' }); res.end(JSON.stringify(body)); };
   if (url.pathname === '/health') return json({ ok: true });
   if (url.pathname === '/captured') return json(captured);
+  if (url.pathname === '/resends') return json({ resends });
   if (url.pathname.startsWith('/api/v1/public/scheduling/')) {
     const parts = url.pathname.split('/').slice(5);
     const managed = parts[0] === 'manage';
@@ -50,7 +52,17 @@ const server = createServer(async (req, res) => {
     if (req.method === 'POST') {
       let raw = ''; for await (const chunk of req) raw += chunk;
       captured = { body: JSON.parse(raw), path: url.pathname };
-      if (action === 'verification') { personalBooking = null; personalEmail = captured.body.email; return json({ verificationId }, 202); }
+      // Addresses select contract scenarios; the cooldown is short so specs can wait it out.
+      if (action === 'verification') {
+        if (captured.body.email === 'rate@example.com') return json({ error: 'rate_limited', retryAfterSeconds: 1800 }, 429);
+        if (captured.body.email === 'down@example.com') return json({ error: 'verification_email_unavailable' }, 503);
+        personalBooking = null; personalEmail = captured.body.email; return json({ verificationId, cooldownSeconds: Number(process.env.FIXTURE_COOLDOWN || 3) }, 202);
+      }
+      if (action === 'resend') {
+        if (captured.body.verificationId !== verificationId || personalEmail === 'gone@example.com') return json({ error: 'verification_not_found' }, 404);
+        if (personalEmail === 'soon@example.com') return json({ error: 'resend_too_soon', retryAfterSeconds: 2 }, 429);
+        resends++; return json({ verificationId, cooldownSeconds: Number(process.env.FIXTURE_COOLDOWN || 3) }, 202);
+      }
       if (action === 'book') {
         if (captured.body.code !== '123456') return json({ error: 'invalid_or_expired_code' }, 401);
         personalDuration = captured.body.durationMinutes;
