@@ -13,6 +13,8 @@ let personalBooking = null;
 let personalDuration = 60;
 let personalEmail = '';
 let resends = 0;
+const requestBodies = [];
+const decisions = [];
 const personalContext = { name: '', email: '', company: 'QA Host', displayName: 'QA Host', headline: 'Sundae team', bio: 'A conversation about your business.',
   slug: 'qa-host', durationMinutes: 60, durationOptions: [30, 60, 90], offering: 'Introduction', teamTimezone: 'UTC', eventTypeId: 'intro',
   events: [{ id: 'intro', name: 'Introduction', durationMinutes: 60, durationOptions: [30, 60, 90] }, { id: 'demo', name: 'Demo', durationMinutes: 30, durationOptions: [30] }],
@@ -24,12 +26,24 @@ const server = createServer(async (req, res) => {
   if (url.pathname === '/health') return json({ ok: true });
   if (url.pathname === '/captured') return json(captured);
   if (url.pathname === '/resends') return json({ resends });
+  if (url.pathname === '/requests') return json({ requests: requestBodies, decisions });
   if (url.pathname.startsWith('/api/v1/public/scheduling/')) {
     const parts = url.pathname.split('/').slice(5);
     const managed = parts[0] === 'manage';
     const action = parts.at(-1);
     if (parts[0] === 'paused') return json({ error: 'page_unavailable' }, 404);
     if (managed && (parts[1] !== personalId || token !== 'fixture-private' || !personalBooking)) return json({ error: 'invalid_link' }, 401);
+    if (parts[0] === 'requests' && req.method === 'GET') {
+      // Host approval page. The token selects the scenario; anything else is an invalid link.
+      const view = { displayName: 'QA Host', timezone: 'UTC' };
+      if (token === 'fixture-expired') return json({ ...view, status: 'expired' });
+      if (token === 'fixture-used') return json({ ...view, status: 'approved' });
+      if (token === 'fixture-approve' || token === 'fixture-taken')
+        return json({ ...view, status: 'pending', visitor: { name: 'Ada Visitor', email: 'ada@example.com' },
+          slot: { startUtc: startAt, label: 'Tue 27 Oct 2026, 10:00 UTC' }, eventTypeName: 'Introduction', durationMinutes: 30,
+          discussion: 'About scheduling', expiresAt: '2026-10-29T10:00:00.000Z' });
+      return json({ error: 'invalid_link' }, 401);
+    }
     if (req.method === 'GET' && action === 'context') {
       if (managed) return json({ ...personalContext, events: undefined, email: personalEmail, durationMinutes: personalDuration, durationOptions: [personalDuration],
         activeBooking: personalBooking, confirmation: { booking: personalBooking, manageToken: 'fixture-private', joinUrl: booking.joinUrl, ...calendar } });
@@ -57,6 +71,25 @@ const server = createServer(async (req, res) => {
         if (captured.body.email === 'rate@example.com') return json({ error: 'rate_limited', retryAfterSeconds: 1800 }, 429);
         if (captured.body.email === 'down@example.com') return json({ error: 'verification_email_unavailable' }, 503);
         personalBooking = null; personalEmail = captured.body.email; return json({ verificationId, cooldownSeconds: Number(process.env.FIXTURE_COOLDOWN || 3) }, 202);
+      }
+      if (parts[0] === 'requests') {
+        decisions.push({ action, body: captured.body });
+        const sent = captured.body.token;
+        if (sent !== 'fixture-approve' && sent !== 'fixture-taken') return json({ error: sent === 'fixture-used' ? 'request_already_decided' : 'invalid_link' }, sent === 'fixture-used' ? 409 : 401);
+        if (action === 'decline') return json({ status: 'declined' });
+        if (sent === 'fixture-taken' && !captured.body.slotStart)
+          return json({ error: 'slot_taken', alternatives: [
+            { startUtc: '2026-10-27T12:00:00.000Z', label: 'Tue 27 Oct 2026, 12:00 UTC' },
+            { startUtc: '2026-10-27T13:30:00.000Z', label: 'Tue 27 Oct 2026, 13:30 UTC' }] }, 409);
+        return json({ status: 'approved', booking: { id: personalId, startAt: captured.body.slotStart || startAt, endAt: endAt }, visitorEmail: 'ada@example.com', managementEmailSent: true });
+      }
+      if (action === 'request') {
+        requestBodies.push(captured.body);
+        if (captured.body.email === 'rrate@example.com') return json({ error: 'too_many_pending_requests', retryAfterSeconds: 5400 }, 429);
+        if (captured.body.email === 'rdown@example.com') return json({ error: 'request_unavailable' }, 503);
+        if (captured.body.email === 'rtaken@example.com') return json({ error: 'slot_unavailable' }, 409);
+        if (captured.body.email === 'rold@example.com') return json({ error: 'not_found' }, 404);
+        return json({ requestId: '33333333-3333-4333-8333-333333333333', expiresAt: '2026-10-29T10:00:00.000Z' }, 202);
       }
       if (action === 'resend') {
         if (captured.body.verificationId !== verificationId || personalEmail === 'gone@example.com') return json({ error: 'verification_not_found' }, 404);

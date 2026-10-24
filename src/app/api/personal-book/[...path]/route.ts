@@ -7,14 +7,20 @@ const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 async function forward(request: NextRequest, ctx: { params: Promise<{ path: string[] }> }) {
   const { path } = await ctx.params;
   const manage = path[0] === 'manage';
-  const action = path[manage ? 2 : 1];
-  const identity = path[manage ? 1 : 0];
+  // The host's approval page: requests/:id/(details GET | approve | decline POST). 'requests' is a
+  // reserved slug on the backend, so it can never be a booking page.
+  const decision = path[0] === 'requests';
+  const keyed = manage || decision;
+  const action = path[keyed ? 2 : 1];
+  const identity = path[keyed ? 1 : 0];
   const post = request.method === 'POST';
-  // Public pages: context|slots (GET), verification|book|verification/resend (POST).
+  // Public pages: context|slots (GET), verification|request|book and verification/resend (POST).
   // Private management: manage/:id/(slots|context) (GET), reschedule|cancel (POST).
-  const resend = !manage && post && path[1] === 'verification' && path[2] === 'resend';
-  const actions = request.method === 'GET' ? ['context', 'slots'] : manage ? ['reschedule', 'cancel'] : ['verification', 'book'];
-  if (!(manage ? uuid : slug).test(identity || '') || !actions.includes(action) || (path.length !== (manage ? 3 : 2) && !(resend && path.length === 3)))
+  const resend = !keyed && post && path[1] === 'verification' && path[2] === 'resend';
+  const actions = request.method === 'GET'
+    ? (decision ? ['details'] : ['context', 'slots'])
+    : decision ? ['approve', 'decline'] : manage ? ['reschedule', 'cancel'] : ['verification', 'request', 'book'];
+  if (!(keyed ? uuid : slug).test(identity || '') || !actions.includes(action) || (path.length !== (keyed ? 3 : 2) && !(resend && path.length === 3)))
     return NextResponse.json({ error: 'not_found' }, { status: 404 });
   // Next may normalize nextUrl.hostname to localhost behind its server. The
   // received Host is the browser-facing authority (and includes the port).
@@ -48,9 +54,21 @@ async function forward(request: NextRequest, ctx: { params: Promise<{ path: stri
   // A rate-limited caller is told the real wait (seconds), not a fixed hour.
   const retryAfter = result.status === 429 ? waitSeconds((result.body as { retryAfterSeconds?: unknown }).retryAfterSeconds) : null;
   return NextResponse.json(result.ok ? { ok: true, ...result.body } : { ok: false, error: result.status ? result.error : 'scheduler_unavailable',
-    ...(retryAfter ? { retryAfterSeconds: retryAfter } : {}) }, {
+    ...(retryAfter ? { retryAfterSeconds: retryAfter } : {}),
+    ...(result.status === 409 ? alternativesOf(result.body) : {}) }, {
     status: result.status || 503, headers: { 'Cache-Control': 'no-store', 'Referrer-Policy': 'no-referrer', ...(result.status === 429 ? { 'Retry-After': String(retryAfter ?? 3600) } : {}) },
   });
+}
+/** Free times offered to the host when the requested time was taken; shape-checked, never passed through raw. */
+function alternativesOf(body: unknown): { alternatives?: Array<{ startUtc: string; label: string }> } {
+  const raw = (body as { alternatives?: unknown } | null)?.alternatives;
+  if (!Array.isArray(raw)) return {};
+  const alternatives = raw.slice(0, 6).flatMap((item) => {
+    const entry = item as { startUtc?: unknown; label?: unknown };
+    return typeof entry?.startUtc === 'string' && !Number.isNaN(Date.parse(entry.startUtc))
+      ? [{ startUtc: entry.startUtc, label: typeof entry.label === 'string' ? entry.label.slice(0, 80) : entry.startUtc }] : [];
+  });
+  return { alternatives };
 }
 function waitSeconds(value: unknown): number | null {
   return typeof value === 'number' && Number.isFinite(value) && value > 0 ? Math.min(Math.ceil(value), 86_400) : null;
