@@ -117,3 +117,84 @@ export function buildContactMailto(input: {
 }): string {
   return `mailto:${input.to}?subject=${encodeURIComponent(input.subject)}&body=${encodeURIComponent(input.body)}`;
 }
+
+/** What the page does after "request this time instead" (the visitor side). */
+export type RequestOutcome =
+  | { kind: 'sent' }
+  | { kind: 'rate_limited'; retryAfterSeconds: number | null }
+  /** The chosen time can no longer be booked. */
+  | { kind: 'slot_unavailable' }
+  /** The host could not be reached, or the backend predates the route: offer the mailto fallback. */
+  | { kind: 'unavailable' }
+  | { kind: 'failed' };
+
+export function classifyRequestResponse(
+  status: number,
+  body: unknown,
+  retryAfterHeader?: string | null,
+): RequestOutcome {
+  const data = asRecord(body);
+  const error = typeof data.error === 'string' ? data.error : '';
+  if (status === 202 && typeof data.requestId === 'string' && data.requestId) return { kind: 'sent' };
+  if (status === 429) return { kind: 'rate_limited', retryAfterSeconds: readRetryAfterSeconds(body, retryAfterHeader) };
+  if (status === 409 && error === 'slot_unavailable') return { kind: 'slot_unavailable' };
+  if (status === 503 || (status === 404 && error === 'backend_status_404')) return { kind: 'unavailable' };
+  return { kind: 'failed' };
+}
+
+export type AlternativeSlot = { startUtc: string; label: string };
+
+/** The host's decision on a request (the approval page). */
+export type DecisionOutcome =
+  | { kind: 'approved'; email: string }
+  | { kind: 'declined' }
+  | { kind: 'slot_taken'; alternatives: AlternativeSlot[] }
+  | { kind: 'expired' }
+  | { kind: 'used' }
+  | { kind: 'invalid' }
+  | { kind: 'already_booked' }
+  | { kind: 'error' };
+
+export function classifyDecisionResponse(status: number, body: unknown): DecisionOutcome {
+  const data = asRecord(body);
+  const error = typeof data.error === 'string' ? data.error : '';
+  if (status === 200 && data.status === 'approved') {
+    return { kind: 'approved', email: typeof data.visitorEmail === 'string' ? data.visitorEmail : '' };
+  }
+  if (status === 200 && data.status === 'declined') return { kind: 'declined' };
+  if (status === 409 && error === 'slot_taken') {
+    const raw = Array.isArray(data.alternatives) ? data.alternatives : [];
+    const alternatives = raw
+      .map((item) => asRecord(item))
+      .filter((item) => typeof item.startUtc === 'string' && !Number.isNaN(Date.parse(item.startUtc as string)))
+      .slice(0, 6)
+      .map((item) => ({ startUtc: item.startUtc as string, label: typeof item.label === 'string' ? item.label : (item.startUtc as string) }));
+    return { kind: 'slot_taken', alternatives };
+  }
+  if (status === 409 && (error === 'request_already_decided' || error === 'request_in_progress')) return { kind: 'used' };
+  if (status === 409 && error === 'already_booked') return { kind: 'already_booked' };
+  if (status === 410) return { kind: 'expired' };
+  if (status === 401) return { kind: 'invalid' };
+  return { kind: 'error' };
+}
+
+/** Only the backend's own status names are trusted for the approval page. */
+export type RequestStatus = 'pending' | 'approving' | 'approved' | 'declined' | 'expired';
+export function readRequestStatus(value: unknown): RequestStatus | null {
+  return value === 'pending' || value === 'approving' || value === 'approved' || value === 'declined' || value === 'expired' ? value : null;
+}
+
+export type TemplatePart = { text: string } | { token: string };
+
+/** Split a copy template into literal text and `{token}` placeholders, in order (for element substitution). */
+export function templateParts(template: string): TemplatePart[] {
+  const parts: TemplatePart[] = [];
+  let last = 0;
+  for (const match of template.matchAll(/\{(\w+)\}/g)) {
+    if (match.index > last) parts.push({ text: template.slice(last, match.index) });
+    parts.push({ token: match[1] });
+    last = match.index + match[0].length;
+  }
+  if (last < template.length) parts.push({ text: template.slice(last) });
+  return parts;
+}

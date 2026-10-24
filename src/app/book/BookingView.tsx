@@ -48,7 +48,9 @@ import type { BookingContext, Slot, BookingDay, BookingSummary } from '@/lib/sun
 import type { PersonalBookingContext } from '@/lib/personalBookingClient';
 import {
   buildContactMailto,
+  classifyRequestResponse,
   classifyVerificationResponse,
+  templateParts,
   cooldownSecondsLeft,
   fillTemplate,
   formatWait,
@@ -173,6 +175,9 @@ function BookingState({
   const [clock, setClock] = useState(() => Date.now());
   const [resending, setResending] = useState(false);
   const [resendNotice, setResendNotice] = useState(false);
+  // "Request this time instead": a pending request for the host, no code needed.
+  const [requesting, setRequesting] = useState(false);
+  const [requestSent, setRequestSent] = useState<Slot | null>(null);
   const cooldownLeft = cooldownSecondsLeft(cooldownEndsAt, clock);
   useEffect(() => {
     if (cooldownEndsAt === null || Date.now() >= cooldownEndsAt) return;
@@ -374,13 +379,53 @@ function BookingState({
   };
 
   /** First code request for this name and email. Returns whether a code was sent. */
-  const requestCode = async (): Promise<boolean> => {
+  const requestCode = async (slot?: Slot): Promise<boolean> => {
     if (!personal) return false;
-    const { outcome } = await postVerification('verification', { name: visitorName, email: visitorEmail, formToken: personal.formToken, website: honeypot });
+    // What the visitor chose is saved with the unverified lead, so the host can follow up.
+    const { outcome } = await postVerification('verification', {
+      name: visitorName, email: visitorEmail, formToken: personal.formToken, website: honeypot,
+      ...(slot ? { slotStart: slot.startUtc } : {}),
+      eventTypeId: ctx.eventTypeId || 'discovery',
+      ...(selectedDuration ? { durationMinutes: selectedDuration } : {}),
+      locale,
+      ...(displayTz ? { timezone: displayTz } : {}),
+    });
     if (outcome.kind !== 'sent') { showVerificationFailure(outcome); return false; }
     setVerificationId(outcome.verificationId);
     startCooldown(outcome.cooldownSeconds);
     return true;
+  };
+
+  /**
+   * No code: submit the name, email and chosen time as a pending request for the host. Nothing is
+   * booked and nothing is emailed to the visitor until the host approves.
+   */
+  const requestInstead = async (slot: Slot) => {
+    if (!personal || requesting) return;
+    setRequesting(true); setActionError(null);
+    try {
+      const response = await fetch(`/api/personal-book/${personal.slug}/request`, {
+        method: 'POST', headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          name: visitorName, email: visitorEmail, formToken: personal.formToken, website: honeypot,
+          slotStart: slot.startUtc, eventTypeId: ctx.eventTypeId || 'discovery', durationMinutes: selectedDuration ?? ctx.durationMinutes,
+          ...(discussion.trim() ? { discussion: discussion.trim() } : {}), locale, ...(displayTz ? { timezone: displayTz } : {}),
+        }),
+      });
+      const outcome = classifyRequestResponse(response.status, await response.json().catch(() => ({})), response.headers.get('retry-after'));
+      if (outcome.kind === 'sent') setRequestSent(slot);
+      else if (outcome.kind === 'rate_limited') setActionError({ tone: 'error', key: outcome.retryAfterSeconds ? 'tooManyRequestsWait' : 'tooManyRequests', wait: outcome.retryAfterSeconds ?? undefined });
+      else if (outcome.kind === 'slot_unavailable') {
+        // Back to the time picker with fresh availability.
+        setReviewSlot(null);
+        setActionError({ tone: 'warn', key: 'requestSlotTaken' });
+        if (visitorTz) void loadSlots(fromIso, visitorTz);
+      } else setActionError({ tone: 'error', key: 'requestFailed', contact: true });
+    } catch {
+      setActionError({ tone: 'error', key: 'requestFailed', contact: true });
+    } finally {
+      setRequesting(false);
+    }
   };
 
   /** Re-send for the SAME challenge: form values are kept and the old code stops working. */
@@ -408,7 +453,7 @@ function BookingState({
     try {
       if (personal && !verificationId) {
         setResendNotice(false);
-        await requestCode();
+        await requestCode(slot);
         return;
       }
       const params = new URLSearchParams({ token });
@@ -683,13 +728,19 @@ function BookingState({
   /** Substitute {token} with an LTR-isolated value so addresses stay intact inside RTL text. */
   const withSlot = (template: string, token: string, value: string): ReactNode => {
     const [before, after] = splitAtToken(template, token);
-    return <>{before}<bdi dir="ltr" className="font-semibold break-all">{value}</bdi>{after}</>;
+    return <>{before}<bdi dir="ltr" className="font-semibold [overflow-wrap:anywhere]">{value}</bdi>{after}</>;
   };
 
   // A failure above the fold of a long form (mobile) must not go unnoticed.
   useEffect(() => {
     if (actionError) document.getElementById('booking-action-error')?.scrollIntoView({ block: 'nearest' });
   }, [actionError]);
+
+  /** Fill several {tokens} at once, each LTR-isolated so names and addresses survive RTL text. */
+  const withSlots = (template: string, values: Record<string, string>): ReactNode =>
+    templateParts(template).map((part, index) => 'text' in part
+      ? <span key={index}>{part.text}</span>
+      : <bdi key={index} dir="ltr" className="font-semibold [overflow-wrap:anywhere]">{values[part.token] ?? ''}</bdi>);
 
   const errorBanner = (err: ActionError) => (
     <div
@@ -1146,7 +1197,19 @@ function BookingState({
               </div>
               </div>
 
-              {reviewSlot ? (
+              {requestSent ? (
+                <div role="status" className={`rounded-2xl border p-5 space-y-3 ${cardCls}`}>
+                  <h2 className={`flex items-start gap-2 text-lg font-bold ${heading}`}>
+                    <CheckCircle2 className="w-5 h-5 mt-0.5 shrink-0" aria-hidden="true" />
+                    <span>{withSlots(t('requestSent', ''), { name: hostName })}</span>
+                  </h2>
+                  <p className={body}>{formatWhen(requestSent.startUtc, displayTz)} · {displayTz}</p>
+                  <p className={`text-sm ${body}`}>{withSlots(t('requestSentDetail', ''), { name: hostName, email: visitorEmail })}</p>
+                  <button type="button" className={secondaryBtn} onClick={() => {
+                    setRequestSent(null); setReviewSlot(null); setVerificationId(null); setVerificationCode(''); setCooldownEndsAt(null); setResendNotice(false); setActionError(null);
+                  }}>{t('changeTime', 'Choose another time')}</button>
+                </div>
+              ) : reviewSlot ? (
                 <form className={`rounded-2xl border p-5 space-y-4 ${cardCls}`} onSubmit={(event) => {
                   event.preventDefault();
                   if (submittingSlot) return;
@@ -1177,7 +1240,11 @@ function BookingState({
                         <button type="button" disabled={!!submittingSlot} className={`${linkAccent} min-h-11`} onClick={() => { setVerificationId(null); setVerificationCode(''); setActionError(null); setCooldownEndsAt(null); setResendNotice(false); }}>{t('requestNewCode', '')}</button>
                       </div>
                       {contactMailto && <p className={`text-sm ${body}`}><a href={contactMailto} className={`${linkAccent} underline underline-offset-2`}>{fillTemplate(t('noCodeEmail', ''), { name: hostName })}</a></p>}
+                      <p><button type="button" disabled={!!submittingSlot || requesting} className={`${linkAccent} min-h-11 underline underline-offset-2`} onClick={() => void requestInstead(reviewSlot)}>
+                        {requesting && <Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" />}{t('requestInstead', '')}
+                      </button></p>
                     </div> : <p className={`text-sm ${muted}`}>{t('verificationHelp', '')}</p>}
+                    <p className={`text-xs ${muted}`}>{t('attemptNotice', '')}</p>
                   </div>}
                   {mode === 'select' && ctx.bookingQuestion?.enabled && (
                     <div className="space-y-2">
