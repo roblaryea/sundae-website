@@ -9,8 +9,12 @@ async function forward(request: NextRequest, ctx: { params: Promise<{ path: stri
   const manage = path[0] === 'manage';
   const action = path[manage ? 2 : 1];
   const identity = path[manage ? 1 : 0];
+  const post = request.method === 'POST';
+  // Public pages: context|slots (GET), verification|book|verification/resend (POST).
+  // Private management: manage/:id/(slots|context) (GET), reschedule|cancel (POST).
+  const resend = !manage && post && path[1] === 'verification' && path[2] === 'resend';
   const actions = request.method === 'GET' ? ['context', 'slots'] : manage ? ['reschedule', 'cancel'] : ['verification', 'book'];
-  if (path.length !== (manage ? 3 : 2) || !(manage ? uuid : slug).test(identity || '') || !actions.includes(action))
+  if (!(manage ? uuid : slug).test(identity || '') || !actions.includes(action) || (path.length !== (manage ? 3 : 2) && !(resend && path.length === 3)))
     return NextResponse.json({ error: 'not_found' }, { status: 404 });
   // Next may normalize nextUrl.hostname to localhost behind its server. The
   // received Host is the browser-facing authority (and includes the port).
@@ -41,9 +45,15 @@ async function forward(request: NextRequest, ctx: { params: Promise<{ path: stri
       ...(forwarded ? { 'X-Forwarded-For': forwarded } : {}),
       'User-Agent': request.headers.get('user-agent') || 'Sundae booking website' }, body,
   }, 40_000);
-  return NextResponse.json(result.ok ? { ok: true, ...result.body } : { ok: false, error: result.status ? result.error : 'scheduler_unavailable' }, {
-    status: result.status || 503, headers: { 'Cache-Control': 'no-store', 'Referrer-Policy': 'no-referrer', ...(result.status === 429 ? { 'Retry-After': '3600' } : {}) },
+  // A rate-limited caller is told the real wait (seconds), not a fixed hour.
+  const retryAfter = result.status === 429 ? waitSeconds((result.body as { retryAfterSeconds?: unknown }).retryAfterSeconds) : null;
+  return NextResponse.json(result.ok ? { ok: true, ...result.body } : { ok: false, error: result.status ? result.error : 'scheduler_unavailable',
+    ...(retryAfter ? { retryAfterSeconds: retryAfter } : {}) }, {
+    status: result.status || 503, headers: { 'Cache-Control': 'no-store', 'Referrer-Policy': 'no-referrer', ...(result.status === 429 ? { 'Retry-After': String(retryAfter ?? 3600) } : {}) },
   });
+}
+function waitSeconds(value: unknown): number | null {
+  return typeof value === 'number' && Number.isFinite(value) && value > 0 ? Math.min(Math.ceil(value), 86_400) : null;
 }
 export const GET = forward;
 export const POST = forward;

@@ -98,3 +98,65 @@ test('accepted marketing consent does not load Google Analytics on a private boo
     expect(await page.evaluate((id) => (window as unknown as Record<string, unknown>)[`ga-disable-${id}`], process.env.NEXT_PUBLIC_GA4_ID)).toBe(true);
   }
 });
+
+/** Pick the 10:00 slot and fill the visitor form up to (not including) "Send verification code". */
+async function reachVerification(page: import('@playwright/test').Page, email: string) {
+  await page.goto('/book/qa-host/intro');
+  await page.getByLabel('Your time zone').selectOption('UTC');
+  await page.getByRole('button', { name: '10:00 AM', exact: true }).click();
+  await page.getByLabel('Your name', { exact: true }).fill('QA Guest');
+  await page.getByLabel('Email address', { exact: true }).fill(email);
+  await page.getByRole('button', { name: 'Send verification code', exact: true }).click();
+}
+
+test('code step names the sender, hints at Junk/Spam, resends with a visible cooldown and offers an email fallback', async ({ page, request }) => {
+  await reachVerification(page, 'resend@example.com');
+  await expect(page.getByLabel('Verification code', { exact: true })).toBeVisible();
+  await expect(page.getByText('host@example.com', { exact: false }).first()).toBeVisible();
+  await expect(page.getByText(/Junk or Spam folder/)).toBeVisible();
+  const fallback = page.getByRole('link', { name: /Didn't get a code\? Email QA Host/ });
+  const href = (await fallback.getAttribute('href'))!;
+  expect(href.startsWith('mailto:host@example.com?')).toBe(true);
+  const params = new URLSearchParams(href.slice(href.indexOf('?') + 1));
+  expect(params.get('subject')).toBe('Please book a call for me');
+  for (const part of ['QA Guest', 'resend@example.com', '10:00', 'UTC', '60 min']) expect(params.get('body')).toContain(part);
+
+  // Visible cooldown, then the resend path; the form values are kept.
+  const resend = page.getByRole('button', { name: /Resend available in \d+ s/ });
+  await expect(resend).toBeDisabled();
+  const ready = page.getByRole('button', { name: 'Resend code', exact: true });
+  await expect(ready).toBeEnabled({ timeout: 8000 });
+  const resendsBefore = (await (await request.get('http://127.0.0.1:4311/resends')).json()).resends;
+  await page.getByLabel('Verification code', { exact: true }).fill('999999');
+  await ready.click();
+  await expect(page.getByText(/We sent a new code to/)).toBeVisible();
+  expect((await (await request.get('http://127.0.0.1:4311/resends')).json()).resends).toBe(resendsBefore + 1);
+  await expect(page.getByLabel('Verification code', { exact: true })).toHaveValue('');
+  await expect(page.getByLabel('Your name', { exact: true })).toHaveValue('QA Guest');
+  await expect(page.getByLabel('Email address', { exact: true })).toHaveValue('resend@example.com');
+  await expect(page.getByRole('button', { name: /Resend available in/ })).toBeDisabled();
+  // The old reset path still works.
+  await page.getByRole('button', { name: 'Change email or request a new code', exact: true }).click();
+  await expect(page.getByLabel('Email address', { exact: true })).toBeEnabled();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test('429 shows the real wait, 503 explains the email outage with a mailto fallback, an expired challenge returns to the form', async ({ page }) => {
+  await reachVerification(page, 'rate@example.com');
+  await expect(page.getByText('Too many requests. Please try again in 30 min.')).toBeVisible();
+  await expect(page.getByLabel('Verification code', { exact: true })).toHaveCount(0);
+
+  await page.getByLabel('Email address', { exact: true }).fill('down@example.com');
+  await page.getByRole('button', { name: 'Send verification code', exact: true }).click();
+  await expect(page.getByText(/We cannot send verification emails right now/)).toBeVisible();
+  await expect(page.getByRole('link', { name: /Didn't get a code\? Email QA Host/ })).toHaveAttribute('href', /^mailto:host@example\.com\?/);
+
+  await page.getByLabel('Email address', { exact: true }).fill('gone@example.com');
+  await page.getByRole('button', { name: 'Send verification code', exact: true }).click();
+  await expect(page.getByLabel('Verification code', { exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Resend code', exact: true })).toBeEnabled({ timeout: 8000 });
+  await page.getByRole('button', { name: 'Resend code', exact: true }).click();
+  await expect(page.getByText('This code request has expired. Please request a new code.')).toBeVisible();
+  await expect(page.getByLabel('Verification code', { exact: true })).toHaveCount(0);
+  await expect(page.getByLabel('Email address', { exact: true })).toHaveValue('gone@example.com');
+});
