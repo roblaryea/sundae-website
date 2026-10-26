@@ -10528,7 +10528,7 @@ Khalid's 3 AM phone call ended with a security incident report filed and archive
     title: "GDPR and Data Privacy for Restaurant Groups: A Practical Compliance Guide",
     category: "Data & AI",
     date: "2026-03-20",
-    summary: "Restaurant groups collect guest names, emails, phone numbers, dietary preferences, and payment data every day. Here is how to handle that data responsibly  -  with GDPR-compliant consent, deletion requests, data exports, PII masking, and audit trails that satisfy regulators without disrupting operations.",
+    summary: "A practical restaurant GDPR compliance guide covering consent, data requests, deletion, PII masking, audit trails, and accountable operations.",
     readTime: "10 min read",
     tags: ["GDPR", "data-privacy", "compliance", "PII", "consent", "deletion-requests", "data-export"],
     content: `## The Email That Changes Everything
