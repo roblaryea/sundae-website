@@ -263,6 +263,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   const [apiError, setApiError] = useState('');
   const fieldRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const submissionKeyRef = useRef<string>(globalThis.crypto.randomUUID());
+  const formStartedRef = useRef(false);
 
   useEffect(() => {
     if (!messageEdited) {
@@ -299,6 +300,17 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
       setErrors((prev) => ({ ...prev, country: '' }));
     }
     if (apiError) setApiError('');
+  };
+
+  const analyticsContext = () => ({
+    cta_label: ctaLabel,
+    source_page: window.location.pathname,
+  });
+
+  const trackFormStart = () => {
+    if (formStartedRef.current) return;
+    formStartedRef.current = true;
+    trackEvent('lead_form_started', analyticsContext());
   };
 
   const validateEmail = (email: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -353,6 +365,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
       setIsSuccess(true);
       return;
     }
+    trackEvent('lead_form_submit_attempted', analyticsContext());
     const validationErrors = validateForm();
     if (Object.keys(validationErrors).length > 0) {
       trackEvent('lead_form_validation_failed', {
@@ -451,7 +464,14 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
 
   return (
     <div className={`max-w-2xl mx-auto ${className}`}>
-      <form onSubmit={handleSubmit} className="space-y-6" noValidate>
+      <form
+        onSubmit={handleSubmit}
+        onFocusCapture={(event) => {
+          if (event.target.getAttribute('name') !== 'website_url') trackFormStart();
+        }}
+        className="space-y-6"
+        noValidate
+      >
         {pricingIntent && <div className="mb-6 rounded-xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-4 text-sm text-[var(--text-primary)]">
           <strong>Sundae {pricingIntent.layer === 'both' ? 'Core + Crew' : pricingIntent.layer === 'crew' ? 'Crew' : 'Core'}</strong>
           <p className="mt-1">{intentCopy.scope}: {pricingIntent.locations}</p>
