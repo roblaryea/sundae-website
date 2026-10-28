@@ -19,6 +19,8 @@ Google Analytics is not required while Vercel Analytics and PostHog cover the ag
 | --- | --- | --- | --- |
 | `$pageview` | Consented website page view | `$current_url` | Funnel entry |
 | `cta_click` | Tracked navigation or CTA interaction | `event_label`, `destination`, page/location where supplied | Intent signal |
+| `lead_form_started` | Visitor focused a real lead-form field for the first time | `cta_label`, `source_page` | Form engagement |
+| `lead_form_submit_attempted` | Visitor pressed submit, before validation | `cta_label`, `source_page` | Submission intent |
 | `lead_form_validation_failed` | Demo/contact form failed local validation | `cta_label`, `source_page`, `invalid_fields` | Friction |
 | `lead_form_submitted` | Lead form accepted by the website API | `cta_label`, `source_page`, UTM fields where present | Primary conversion |
 | `lead_form_submission_failed` | Lead form API submission failed | `cta_label`, `source_page` | Reliability |
@@ -37,7 +39,7 @@ No email address, phone number, personal name, company name, free-text message, 
 2. Diagnostic funnel: `diagnostic_started` -> `diagnostic_lead_captured` -> `diagnostic_submitted` -> `diagnostic_report_shown` -> `diagnostic_cta_click`.
 3. Landing-page conversion table by entry URL and UTM campaign.
 4. CTA performance by `event_label` and source page.
-5. Form friction by invalid field and submission-failure rate.
+5. Form engagement and friction: started -> submit attempted -> submitted, plus invalid field and submission-failure rate.
 6. Weekly unique visitors and qualified conversions, separated from total traffic.
 
 ## Search Console baseline
