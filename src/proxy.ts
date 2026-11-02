@@ -11,6 +11,10 @@ import {
 } from '@/lib/i18n'
 import { isProfileCardPath, isProfileHandle, isProfileHandleCandidate } from '@/lib/profileHandles'
 import { CARD_LOCALE_COOKIE, resolveCardLocale } from '@/lib/profileCardLocale'
+import {
+  BLOG_EVIDENCE_REVIEW_REDIRECT,
+  requiresBlogEvidenceReview,
+} from '@/lib/blogEvidence'
 
 function withLocaleHeaders(request: NextRequest, locale: string, publicPathname: string) {
   const requestHeaders = new Headers(request.headers)
@@ -43,6 +47,16 @@ export async function proxy(request: NextRequest) {
 
   const { pathname, search } = request.nextUrl
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
+
+  const blogSlug = internalPathname.match(/^\/blog\/([^/]+)\/?$/)?.[1]
+  if (blogSlug && requiresBlogEvidenceReview(blogSlug)) {
+    const redirectUrl = request.nextUrl.clone()
+    redirectUrl.pathname = getLocalizedPathname(
+      BLOG_EVIDENCE_REVIEW_REDIRECT,
+      localeFromPath ?? defaultWebsiteLocale,
+    )
+    return NextResponse.redirect(redirectUrl, 308)
+  }
 
   // Profile card handles are lowercase, but phone keyboards capitalise the first letter
   // when someone types sundae.io/Robert. Send any casing to the canonical lowercase path.

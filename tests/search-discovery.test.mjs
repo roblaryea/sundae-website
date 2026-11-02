@@ -40,3 +40,24 @@ test('benchmark methodology article links evidence to the relevant product and r
   assert.match(source, /\[Sundae restaurant benchmarking software\]\(\/product\/benchmarking\)/)
   assert.match(llms, /https:\/\/www\.sundae\.io\/blog\/restaurant-benchmarking-methodology/)
 })
+
+test('unsupported legacy research is withdrawn from discovery and redirected to methodology', () => {
+  const evidencePolicy = fs.readFileSync(path.join(root, 'src/lib/blogEvidence.ts'), 'utf8')
+  const translations = fs.readFileSync(path.join(root, 'src/lib/blogTranslations.ts'), 'utf8')
+  const articlePage = fs.readFileSync(path.join(root, 'src/app/blog/[slug]/page.tsx'), 'utf8')
+  const proxy = fs.readFileSync(path.join(root, 'src/proxy.ts'), 'utf8')
+
+  for (const slug of [
+    '2026-state-of-restaurant-intelligence',
+    'gcc-restaurant-benchmarks-2026',
+    'labor-benchmarks-gcc',
+  ]) {
+    assert.match(evidencePolicy, new RegExp(`['"]${slug}['"]`))
+  }
+
+  assert.match(evidencePolicy, /BLOG_EVIDENCE_REVIEW_REDIRECT = '\/blog\/restaurant-benchmarking-methodology'/)
+  assert.match(translations, /filter\(\(post\) => !requiresBlogEvidenceReview\(post\.slug\)\)/)
+  assert.match(articlePage, /permanentRedirect\(getLocalizedPathname\(BLOG_EVIDENCE_REVIEW_REDIRECT, locale\)\)/)
+  assert.match(proxy, /requiresBlogEvidenceReview\(blogSlug\)/)
+  assert.match(proxy, /NextResponse\.redirect\(redirectUrl, 308\)/)
+})
