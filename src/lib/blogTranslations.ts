@@ -6,6 +6,7 @@ import {
   type BlogTranslationStatus,
 } from '@/content/blog/locales';
 import type { NonEnglishBlogLocale } from '@/content/blog/types';
+import { requiresBlogEvidenceReview } from '@/lib/blogEvidence';
 
 export type BlogTranslation = BlogLocaleTranslation;
 
@@ -17,10 +18,11 @@ export type LocalizedBlogPost = BlogPost & {
 export const blogTranslations = blogLocaleTranslations;
 
 export function getSourceBlogPosts(): BlogPost[] {
-  return blogPosts;
+  return blogPosts.filter((post) => !requiresBlogEvidenceReview(post.slug));
 }
 
 export function getSourceBlogPost(slug: string): BlogPost | null {
+  if (requiresBlogEvidenceReview(slug)) return null;
   return blogPosts.find((entry) => entry.slug === slug) ?? null;
 }
 
@@ -47,8 +49,10 @@ function mergeLocalizedPost(
 export function getLocalizedBlogPosts(
   locale: WebsiteLocale,
 ): LocalizedBlogPost[] {
+  const publishablePosts = blogPosts.filter((post) => !requiresBlogEvidenceReview(post.slug));
+
   if (locale === 'en') {
-    return blogPosts.map((post) => ({
+    return publishablePosts.map((post) => ({
       ...post,
       translationAvailable: true,
       translationStatus: 'source',
@@ -57,7 +61,7 @@ export function getLocalizedBlogPosts(
 
   const localizedPosts: LocalizedBlogPost[] = [];
 
-  for (const post of blogPosts) {
+  for (const post of publishablePosts) {
     const translation = getTranslation(locale, post.slug);
     if (translation?.status !== 'translated') {
       continue;
@@ -77,6 +81,7 @@ export function getLocalizedBlogPost(
   slug: string,
   locale: WebsiteLocale,
 ): LocalizedBlogPost | null {
+  if (requiresBlogEvidenceReview(slug)) return null;
   const post = blogPosts.find((entry) => entry.slug === slug);
   if (!post) return null;
 
@@ -140,7 +145,7 @@ export type BlogTranslationCoverageRow = {
 };
 
 export function getBlogTranslationCoverage(): BlogTranslationCoverageRow[] {
-  return blogPosts.map((post) => ({
+  return getSourceBlogPosts().map((post) => ({
     slug: post.slug,
     sourceTitle: post.title,
     statuses: {

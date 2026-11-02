@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import Script from 'next/script';
 import { cookies } from 'next/headers';
@@ -13,6 +13,10 @@ import { resolvePageTitle } from '@/lib/pageTitles';
 import { BlogContent } from './BlogContent';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_blog_slug_page'
+import {
+  BLOG_EVIDENCE_REVIEW_REDIRECT,
+  requiresBlogEvidenceReview,
+} from '@/lib/blogEvidence';
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -132,6 +136,9 @@ export default async function BlogPostPage({
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const forcedEnglish = resolvedSearchParams?.lang === 'en';
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
+  if (requiresBlogEvidenceReview(slug)) {
+    permanentRedirect(getLocalizedPathname(BLOG_EVIDENCE_REVIEW_REDIRECT, locale));
+  }
   const copy = localizedBlogPostPageCopy[locale as keyof typeof localizedBlogPostPageCopy] ?? getGeneratedLocalCopy(localizedBlogPostPageCopy, generatedLocalCopy.localizedBlogPostPageCopy, locale) ?? localizedBlogPostPageCopy.en;
   const post = getLocalizedBlogPost(slug, locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sundae.io';
