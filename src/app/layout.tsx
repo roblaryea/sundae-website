@@ -117,7 +117,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       type: "website",
       siteName: "Sundae",
-      title: messages.metadata.title,
+      title: routeTitle ?? messages.metadata.title,
       description: metadataDescription,
       url: new URL(localizedCanonicalPath, baseUrl).toString(),
       images: [
@@ -131,7 +131,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: messages.metadata.title,
+      title: routeTitle ?? messages.metadata.title,
       description: metadataDescription,
       images: ["/logos/og-card.png"],
     },
@@ -182,7 +182,96 @@ export default async function RootLayout({
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.sundae.io";
   const organizationId = new URL("/#organization", baseUrl).toString();
   const websiteId = new URL("/#website", baseUrl).toString();
-  const softwareId = new URL("/product/recovery#software", baseUrl).toString();
+  const softwareId = new URL("/product#software", baseUrl).toString();
+  const productEntities = [
+    {
+      id: "/product/pulse#software",
+      name: "Sundae Pulse",
+      subcategory: "Real-time restaurant operations intelligence",
+      path: "/product/pulse",
+      description:
+        "Real-time restaurant operations intelligence for shift exceptions, prioritized action, operational coaching, and action tracking.",
+    },
+    {
+      id: "/product/foresight#software",
+      name: "Sundae Foresight",
+      subcategory: "Restaurant demand forecasting and scenario planning",
+      path: "/product/foresight",
+      description:
+        "Predictive restaurant forecasting and scenario planning across demand, sales, labor, cost, and operating decisions.",
+    },
+    {
+      id: "/product/benchmarking#software",
+      name: "Sundae Benchmarking",
+      subcategory: "Restaurant benchmarking",
+      path: "/product/benchmarking",
+      description:
+        "Anonymized peer context and location comparison across restaurant revenue, labor, food cost, occupancy, average check, and RevPASH metrics.",
+    },
+    {
+      id: "/product/watchtower#software",
+      name: "Sundae Watchtower",
+      subcategory: "Restaurant competitor and market intelligence",
+      path: "/product/watchtower",
+      description:
+        "External restaurant intelligence covering named competitors, local events, weather, and market trends.",
+    },
+    {
+      id: "/product/insights#software",
+      name: "Sundae Insights",
+      subcategory: "Restaurant analytics",
+      path: "/product/insights",
+      description:
+        "Cross-domain restaurant analytics across revenue, labor, inventory, purchasing, marketing, reservations, delivery, guests, and profit.",
+    },
+    {
+      id: "/product/cross-intelligence#software",
+      name: "Sundae Cross-Intelligence",
+      subcategory: "Cross-domain restaurant intelligence",
+      path: "/product/cross-intelligence",
+      description:
+        "Connected analysis of relationships between restaurant operating signals that are normally reviewed in isolation.",
+    },
+    {
+      id: "/product/recovery#software",
+      name: "Sundae Profit Recovery",
+      subcategory: "Closed-loop restaurant profit recovery",
+      path: "/product/recovery",
+      description:
+        "A governed detect, decide, execute, measure, and learn workflow for preventable profit loss.",
+    },
+    {
+      id: "/product/intelligence#software",
+      name: "Ask Sundae",
+      subcategory: "Conversational restaurant intelligence",
+      path: "/product/intelligence",
+      description:
+        "Natural-language questions and evidence-based answers across connected restaurant operating data.",
+    },
+    {
+      id: "/crew#software",
+      name: "Sundae Crew",
+      subcategory: "Hospitality workforce operations",
+      path: "/crew",
+      description:
+        "Workforce operations for restaurant and hospitality scheduling, time and attendance, HR records, payroll readiness, self-service, and workforce intelligence.",
+    },
+  ].map((product) => ({
+    "@type": "SoftwareApplication",
+    "@id": new URL(product.id, baseUrl).toString(),
+    name: product.name,
+    applicationCategory: "BusinessApplication",
+    applicationSubCategory: product.subcategory,
+    operatingSystem: "Web",
+    url: new URL(product.path, baseUrl).toString(),
+    description: product.description,
+    provider: { "@id": organizationId },
+    isPartOf: { "@id": softwareId },
+    audience: {
+      "@type": "BusinessAudience",
+      audienceType: "Food-service and hospitality operators",
+    },
+  }));
   const globalJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -214,15 +303,17 @@ export default async function RootLayout({
         applicationCategory: "BusinessApplication",
         applicationSubCategory: "Restaurant decision intelligence",
         operatingSystem: "Web",
-        url: new URL("/product/recovery", baseUrl).toString(),
+        url: new URL("/product", baseUrl).toString(),
         description:
           "Sundae finds where profit is slipping, helps the right person act, and measures what changed across multi-location food-service operations.",
         provider: { "@id": organizationId },
+        hasPart: productEntities.map((product) => ({ "@id": product["@id"] })),
         audience: {
           "@type": "BusinessAudience",
           audienceType: "Multi-location food-service operators",
         },
       },
+      ...productEntities,
     ],
   };
 

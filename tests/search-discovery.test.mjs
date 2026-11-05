@@ -115,6 +115,74 @@ test('Crew workforce pages expose localized metadata and AI discovery links', ()
   }
 })
 
+test('AI discovery maps every decision-intelligence product and trust surface', () => {
+  const llms = fs.readFileSync(path.join(root, 'public/llms.txt'), 'utf8')
+  const routes = [
+    '/core',
+    '/product/pulse',
+    '/product/benchmarking',
+    '/product/foresight',
+    '/product/watchtower',
+    '/product/insights',
+    '/product/cross-intelligence',
+    '/product/recovery',
+    '/product/intelligence',
+    '/integrations',
+    '/architecture',
+    '/security',
+    '/4d-intelligence',
+  ]
+
+  for (const route of routes) {
+    assert.match(llms, new RegExp(`https:\\/\\/www\\.sundae\\.io${route.replaceAll('/', '\\/')}(?:\\)|:)`))
+  }
+})
+
+test('central metadata gives discovery routes specific descriptions and social titles', () => {
+  const titles = fs.readFileSync(path.join(root, 'src/lib/pageTitles.ts'), 'utf8')
+  const layout = fs.readFileSync(path.join(root, 'src/app/layout.tsx'), 'utf8')
+
+  for (const route of [
+    '/product',
+    '/product/foresight',
+    '/product/insights',
+    '/product/benchmarking',
+    '/core',
+    '/4d-intelligence',
+    '/architecture',
+    '/modules',
+    '/security',
+    '/resources',
+    '/docs',
+  ]) {
+    assert.match(titles, new RegExp(`['"]${route.replaceAll('/', '\\/')}['"]:\\s*`))
+  }
+
+  assert.match(layout, /openGraph:[\s\S]*?title: routeTitle \?\? messages\.metadata\.title/)
+  assert.match(layout, /twitter:[\s\S]*?title: routeTitle \?\? messages\.metadata\.title/)
+})
+
+test('structured data connects the platform to its shipped product entities', () => {
+  const layout = fs.readFileSync(path.join(root, 'src/app/layout.tsx'), 'utf8')
+
+  assert.match(layout, /const softwareId = new URL\("\/product#software"/)
+  assert.match(layout, /hasPart: productEntities\.map/)
+  assert.match(layout, /isPartOf: \{ "@id": softwareId \}/)
+  for (const name of [
+    'Sundae Pulse',
+    'Sundae Benchmarking',
+    'Sundae Foresight',
+    'Sundae Watchtower',
+    'Sundae Insights',
+    'Sundae Cross-Intelligence',
+    'Sundae Profit Recovery',
+    'Ask Sundae',
+    'Sundae Crew',
+  ]) {
+    assert.match(layout, new RegExp(`name: ["']${name}["']`))
+  }
+})
+
 test('Crew conversion paths expose stable PostHog labels', () => {
   const hub = fs.readFileSync(path.join(root, 'src/app/crew/page.tsx'), 'utf8')
   const modulePage = fs.readFileSync(path.join(root, 'src/components/crew/CrewModulePage.tsx'), 'utf8')

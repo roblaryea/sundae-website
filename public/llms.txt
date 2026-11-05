@@ -24,6 +24,27 @@ Sundae does not claim to remove macroeconomic pressures such as wage increases, 
 - [Benchmark readiness score](https://www.sundae.io/tools/benchmark-readiness): Data and operating-process readiness assessment
 - [Restaurant intelligence](https://www.sundae.io/product/intelligence): Natural-language analysis across connected restaurant data
 
+## Decision intelligence products
+
+Sundae connects live operations, forecasting, external context, cross-domain analysis, benchmarking, accountable execution, and outcome measurement. Each product below has a distinct role in that operating system.
+
+- [Sundae Core](https://www.sundae.io/core): Decision workspace for evidence, priorities, accountable action, and measured outcomes
+- [Pulse](https://www.sundae.io/product/pulse): Real-time restaurant operations, shift exceptions, action tracking, and operational coaching
+- [Benchmarking](https://www.sundae.io/product/benchmarking): Anonymized peer context and location comparison across restaurant operating metrics
+- [Foresight](https://www.sundae.io/product/foresight): Restaurant demand forecasting, predictive planning, and scenario modelling
+- [Watchtower](https://www.sundae.io/product/watchtower): Competitor, local event, weather, and market intelligence for restaurant operators
+- [Insights](https://www.sundae.io/product/insights): Cross-domain restaurant analytics across revenue, labour, inventory, purchasing, marketing, reservations, delivery, guests, and profit
+- [Cross-Intelligence](https://www.sundae.io/product/cross-intelligence): Connected analysis of relationships between operational signals that are normally reviewed in isolation
+- [Ask Sundae](https://www.sundae.io/product/intelligence): Natural-language questions and evidence-based answers across connected restaurant data
+- [Profit Recovery](https://www.sundae.io/product/recovery): Governed detect, decide, execute, measure, and learn workflow for preventable profit loss
+
+## Data, trust, and platform design
+
+- [Integrations](https://www.sundae.io/integrations): Connection and data-health approach for POS, labour, inventory, purchasing, reservations, delivery, and other operating systems
+- [Platform architecture](https://www.sundae.io/architecture): How connected food-service data becomes governed decisions, owned actions, and measured recovery
+- [Security](https://www.sundae.io/security): Sundae's current security, privacy, access-control, and assurance posture
+- [4D Intelligence model](https://www.sundae.io/4d-intelligence): Framework for reading performance across time, location, operating domain, and external context
+
 ## Workforce operations for hospitality
 
 Sundae Crew connects workforce execution to the same decision-intelligence layer used for restaurant and hospitality performance. It covers scheduling, time and attendance, people and HR records, payroll readiness, employee self-service, and workforce intelligence. Customers can use Crew directly or connect an existing HR or payroll provider.

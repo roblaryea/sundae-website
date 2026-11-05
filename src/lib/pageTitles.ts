@@ -58,10 +58,28 @@ export const pageTitlesEn: Record<string, string> = {
 const pageDescriptionsEn: Record<string, string> = {
   '/product':
     'Explore Sundae decision intelligence for multi-location food-service: detect profit leaks, route accountable action, and measure what changed.',
+  '/product/foresight':
+    'Restaurant demand forecasting and scenario planning that connects expected sales, labor, cost and operating decisions with visible confidence and evidence.',
+  '/product/insights':
+    'Restaurant analytics across revenue, labor, inventory, purchasing, marketing, reservations, delivery, guests and profit in one decision-intelligence platform.',
   '/product/intelligence':
     'Ask Sundae is restaurant AI for operational decisions. Ask questions across POS, labor, cost, inventory and guest data, then act on answers with evidence.',
   '/product/benchmarking':
     'Restaurant benchmarking software for multi-location operators. Compare food cost, labor, revenue, occupancy and RevPASH against relevant anonymized peers.',
+  '/core':
+    'Sundae Core brings evidence, priorities, accountable action and measured outcomes into one decision-intelligence workspace for food-service operators.',
+  '/4d-intelligence':
+    'See how Sundae reads restaurant performance across time, location, operating domain and external context to surface decisions that isolated dashboards miss.',
+  '/architecture':
+    'Explore how Sundae turns connected food-service data into governed decisions, accountable actions and measured profit recovery across its platform architecture.',
+  '/modules':
+    'Explore Sundae analytics for revenue, labor, inventory, purchasing, marketing, reservations, delivery, guests, profit and cross-domain restaurant performance.',
+  '/security':
+    'Review Sundae security, privacy, tenant isolation, access controls, encryption, monitoring and the current status of its assurance program.',
+  '/resources':
+    'Explore Sundae guides, restaurant operations tools, research and practical resources for profit recovery, decision intelligence, labor and margin management.',
+  '/docs':
+    'Find Sundae product documentation and guidance for decision intelligence, restaurant operations, integrations, workforce workflows and platform capabilities.',
   '/diagnostic':
     'Take the free restaurant operations diagnostic to identify decision delays, disconnected data and likely sources of preventable profit loss across your locations.',
   '/blog':
