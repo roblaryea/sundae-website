@@ -21,6 +21,9 @@ Sundae does not claim to remove macroeconomic pressures such as wage increases, 
 
 - [Restaurant benchmarking](https://www.sundae.io/product/benchmarking): Peer comparison and location benchmarking product
 - [Benchmarking methodology](https://www.sundae.io/blog/restaurant-benchmarking-methodology): Cohort, metric, privacy, freshness, and confidence principles
+- [Restaurant demand forecasting guide](https://www.sundae.io/blog/restaurant-demand-forecasting-guide): Data quality, horizons, confidence, scenarios, operating decisions, and forecast review
+- [Real-time restaurant operations guide](https://www.sundae.io/blog/real-time-restaurant-operations-guide): Data freshness, contextual exceptions, action ownership, resolution, and outcome measurement
+- [Restaurant competitor intelligence guide](https://www.sundae.io/blog/restaurant-competitor-intelligence-guide): Competitor selection, public-market signals, events, weather, relevance, provenance, and operating use
 - [Benchmark readiness score](https://www.sundae.io/tools/benchmark-readiness): Data and operating-process readiness assessment
 - [Restaurant intelligence](https://www.sundae.io/product/intelligence): Natural-language analysis across connected restaurant data
 

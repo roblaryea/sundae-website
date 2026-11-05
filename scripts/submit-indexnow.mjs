@@ -48,6 +48,9 @@ function priorityUrls() {
   const additionalPriorityPaths = [
     '/',
     '/blog/restaurant-benchmarking-methodology',
+    '/blog/restaurant-demand-forecasting-guide',
+    '/blog/real-time-restaurant-operations-guide',
+    '/blog/restaurant-competitor-intelligence-guide',
   ]
   return [...new Set([...additionalPriorityPaths, ...sitemapStaticRoutes])]
     .map((path) => new URL(path || '/', siteUrl).toString())

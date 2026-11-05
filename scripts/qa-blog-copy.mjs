@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const blogDataPath = path.join(process.cwd(), 'src/lib/blogData.ts');
+const blogDataPath = path.join(process.cwd(), 'src/content/blog/en.ts');
 const source = fs.readFileSync(blogDataPath, 'utf8');
 
 function countMatches(text, pattern) {

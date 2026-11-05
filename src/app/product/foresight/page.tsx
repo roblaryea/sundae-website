@@ -20,6 +20,7 @@ import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreForesightMobile } from '@/components/core/CoreForesightMobile';
 import { FORESIGHT_AND_ACTION, usd } from '@/lib/pricing/priceBook'
 import { balanceSentences } from '@/lib/balanceSentences';
+import { AuthorityGuideCallout } from '@/components/seo/AuthorityGuideCallout';
 
 type ForesightMockupCopy = {
   timeline: {
@@ -761,6 +762,15 @@ export default function ForesightPage() {
       </section>
 
       <CoreMobileShowcase screens={[<CoreForesightMobile key="foresight" />]} />
+
+      {locale === 'en' ? (
+        <AuthorityGuideCallout
+          href="/blog/restaurant-demand-forecasting-guide"
+          eyebrow="Planning guide"
+          title="How to evaluate restaurant demand forecasting"
+          description="Learn how data quality, forecast horizons, confidence ranges, scenarios, and forecast-versus-actual review should shape labor, purchasing, inventory, and margin decisions."
+        />
+      ) : null}
 
       {/* Product gallery - Foresight surfaces in detail */}
       <SectionProductGallery

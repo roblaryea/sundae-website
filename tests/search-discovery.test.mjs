@@ -17,12 +17,45 @@ test('IndexNow key is publicly verifiable and priority submission stays on the c
     { cwd: root, encoding: 'utf8' },
   )
   const report = JSON.parse(output)
+  const submittedUrls = new Set(report.urls)
 
   assert.equal(report.host, 'www.sundae.io')
   assert.equal(report.keyLocation, `https://www.sundae.io/${indexNowKey}.txt`)
-  assert.ok(report.urls.includes('https://www.sundae.io/product/recovery'))
-  assert.ok(report.urls.includes('https://www.sundae.io/blog/restaurant-benchmarking-methodology'))
+  assert.equal(submittedUrls.has('https://www.sundae.io/product/recovery'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/restaurant-benchmarking-methodology'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/restaurant-demand-forecasting-guide'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/real-time-restaurant-operations-guide'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/restaurant-competitor-intelligence-guide'), true)
   assert.ok(report.urls.every((value) => new URL(value).host === 'www.sundae.io'))
+})
+
+test('authority guides support distinct product intents and bidirectional internal links', () => {
+  const source = fs.readFileSync(path.join(root, 'src/content/blog/en.ts'), 'utf8')
+  const llms = fs.readFileSync(path.join(root, 'public/llms.txt'), 'utf8')
+  const routes = [
+    ['restaurant-demand-forecasting-guide', 'foresight'],
+    ['real-time-restaurant-operations-guide', 'pulse'],
+    ['restaurant-competitor-intelligence-guide', 'watchtower'],
+  ]
+
+  for (const [slug, product] of routes) {
+    assert.match(source, new RegExp(`slug: "${slug}"`))
+    assert.match(source, new RegExp(`\\]\\(\\/product\\/${product}\\)`))
+    assert.match(llms, new RegExp(`https:\\/\\/www\\.sundae\\.io\\/blog\\/${slug}`))
+
+    const productPage = fs.readFileSync(
+      path.join(root, `src/app/product/${product}/page.tsx`),
+      'utf8',
+    )
+    assert.match(productPage, new RegExp(`href="\\/blog\\/${slug}"`))
+    assert.match(productPage, /locale === 'en'/)
+  }
+})
+
+test('blog copy QA scans the source catalogue rather than its re-export shim', () => {
+  const qa = fs.readFileSync(path.join(root, 'scripts/qa-blog-copy.mjs'), 'utf8')
+  assert.match(qa, /src\/content\/blog\/en\.ts/)
+  assert.doesNotMatch(qa, /src\/lib\/blogData\.ts/)
 })
 
 test('search discovery workflow monitors production and notifies IndexNow', () => {
@@ -160,6 +193,7 @@ test('central metadata gives discovery routes specific descriptions and social t
 
   assert.match(layout, /openGraph:[\s\S]*?title: routeTitle \?\? messages\.metadata\.title/)
   assert.match(layout, /twitter:[\s\S]*?title: routeTitle \?\? messages\.metadata\.title/)
+  assert.match(titles, /resolveLocalizedPageDescription\(path, locale\) \?\? englishDescription/)
 })
 
 test('structured data connects the platform to its shipped product entities', () => {

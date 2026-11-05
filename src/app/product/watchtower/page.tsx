@@ -20,6 +20,7 @@ import { SectionConviction } from "@/components/home/sections/SectionConviction"
 import { watchtowerConviction } from "@/components/home/sections/routeConvictionCopy";
 import { CoreMobileShowcase } from '@/components/core/CoreMobileShowcase';
 import { CoreWatchtowerMobile } from '@/components/core/CoreWatchtowerMobile';
+import { AuthorityGuideCallout } from '@/components/seo/AuthorityGuideCallout';
 
 const localizedWatchtowerCopy = {
   en: {
@@ -659,6 +660,15 @@ export default function WatchtowerPage() {
       </section>
 
       <CoreMobileShowcase screens={[<CoreWatchtowerMobile key="watch" />]} />
+
+      {locale === 'en' ? (
+        <AuthorityGuideCallout
+          href="/blog/restaurant-competitor-intelligence-guide"
+          eyebrow="Market intelligence guide"
+          title="How to use competitor and local-market signals responsibly"
+          description="Learn how to select relevant competitors, interpret public ratings, reviews, menu and pricing context, and combine events and weather with internal operating evidence."
+        />
+      ) : null}
 
       {/* Product gallery - Watchtower surfaces in detail */}
       <SectionProductGallery
