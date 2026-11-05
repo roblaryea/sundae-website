@@ -183,6 +183,13 @@ test('structured data connects the platform to its shipped product entities', ()
   }
 })
 
+test('documentation renders its localized client hook on the client boundary', () => {
+  const docs = fs.readFileSync(path.join(root, 'src/app/docs/page.tsx'), 'utf8')
+
+  assert.match(docs, /^['"]use client['"];/)
+  assert.match(docs, /useWebsiteI18n\(\)/)
+})
+
 test('Crew conversion paths expose stable PostHog labels', () => {
   const hub = fs.readFileSync(path.join(root, 'src/app/crew/page.tsx'), 'utf8')
   const modulePage = fs.readFileSync(path.join(root, 'src/components/crew/CrewModulePage.tsx'), 'utf8')
