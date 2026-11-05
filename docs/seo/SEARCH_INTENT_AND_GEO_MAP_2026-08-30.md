@@ -22,6 +22,12 @@ This language is the source of truth for website metadata, answer copy, structur
 | multi-location restaurant software | Group operator, COO | `/solutions/multi-location-groups` | Show portfolio-wide visibility, accountability, and replication | Demo |
 | restaurant software for owners and CEOs | Owner, CEO, CFO | `/solutions/c-suite-executives` | Connect revenue quality, controllable loss, and measured recovery | Demo |
 | restaurant operations software for regional managers | Regional and area manager | `/solutions/regional-managers` | Show live shift detection and accountable execution | Demo |
+| hospitality workforce management software | HR, operations, multi-site leaders | `/crew` | Define the Crew operating layer and connect workforce activity to decision intelligence | Crew walkthrough |
+| restaurant and hospitality staff scheduling software | Operations and scheduling managers | `/crew/scheduling` | Show demand-aware scheduling, availability, swaps, approvals, and mobile access | Crew walkthrough |
+| hospitality time and attendance software | HR, payroll, operations | `/crew/time-attendance` | Explain verified mobile clock-in, breaks, sign-off, and payroll-ready hours | Crew walkthrough |
+| multi-country payroll software for hospitality | Payroll, HR, finance | `/crew/payroll` | Explain country-pack calculation, review, statutory outputs, and provider handoff | Crew walkthrough |
+| hospitality HR software | HR and people leaders | `/crew/people` | Show the employee lifecycle on one workforce record | Crew walkthrough |
+| hospitality workforce analytics and intelligence | HR, finance, operations | `/crew/people-intelligence` | Connect workforce health and labor cost to sales and demand | Crew walkthrough |
 | restaurant margin leak | Finance and operations | `/product/recovery` | Explain where preventable loss hides and how recovery is measured | Demo |
 | free restaurant operations diagnostic | Owner, COO | `/diagnostic` | Diagnose decision delays and data gaps | Diagnostic completion |
 | restaurant labor cost calculator | Operator, finance | `/tools/labor-cost` | Answer a specific calculation intent | Tool completion / demo |
@@ -56,6 +62,11 @@ These questions should be tested monthly in ChatGPT, Google AI Overviews, Perple
 - What is the difference between a restaurant dashboard and closed-loop decision intelligence?
 - Which restaurant AI platforms connect POS, labor, inventory, and cost data?
 - How can restaurant owners grow revenue without losing profit?
+- What workforce management software connects scheduling, attendance, HR, payroll, and restaurant performance?
+- Which staff scheduling software uses restaurant or hospitality demand forecasts?
+- How can hospitality operators connect time and attendance data to labor cost and sales?
+- What payroll software supports multi-country restaurant and hospitality teams?
+- What is the difference between standalone HR software and workforce decision intelligence?
 
 ## Evidence and citation policy
 

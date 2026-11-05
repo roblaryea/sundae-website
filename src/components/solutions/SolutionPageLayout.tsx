@@ -103,8 +103,26 @@ export function SolutionPageLayout({
                 {copy.description}
               </motion.p>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
-                <Link href={primaryCtaHref}><Button variant="primary" size="lg">{copy.primaryCta}</Button></Link>
-                <a href={secondaryCtaHref}><Button variant="outline-light" size="lg">{copy.secondaryCta}</Button></a>
+                <Link href={primaryCtaHref}>
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    trackingLabel="solution_hero_primary"
+                    trackingMetadata={{ section: "hero", destination: primaryCtaHref }}
+                  >
+                    {copy.primaryCta}
+                  </Button>
+                </Link>
+                <a href={secondaryCtaHref}>
+                  <Button
+                    variant="outline-light"
+                    size="lg"
+                    trackingLabel="solution_hero_secondary"
+                    trackingMetadata={{ section: "hero", destination: secondaryCtaHref }}
+                  >
+                    {copy.secondaryCta}
+                  </Button>
+                </a>
               </motion.div>
             </div>
             <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
@@ -241,7 +259,12 @@ export function SolutionPageLayout({
                     </div>
                     <div className="flex-shrink-0">
                       <Link href="/crew">
-                        <Button variant="outline-light" size="lg">
+                        <Button
+                          variant="outline-light"
+                          size="lg"
+                          trackingLabel="solution_crew_crosslink"
+                          trackingMetadata={{ section: "crew_callout", destination: "/crew" }}
+                        >
                           {copy.crewCallout.ctaText} →
                         </Button>
                       </Link>
@@ -267,7 +290,16 @@ export function SolutionPageLayout({
             <FadeUp>
               <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>{copy.ctaTitle}</h2>
               <p className="body-lg mb-10 max-w-xl mx-auto" style={{ color: 'rgba(26,20,15,0.66)' }}>{copy.ctaDescription}</p>
-              <Link href={ctaButtonHref}><Button variant="cta" size="lg">{copy.ctaButton}</Button></Link>
+              <Link href={ctaButtonHref}>
+                <Button
+                  variant="cta"
+                  size="lg"
+                  trackingLabel="solution_closing_primary"
+                  trackingMetadata={{ section: "closing", destination: ctaButtonHref }}
+                >
+                  {copy.ctaButton}
+                </Button>
+              </Link>
             </FadeUp>
           </div>
         </section>

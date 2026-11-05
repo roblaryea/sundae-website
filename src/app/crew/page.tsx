@@ -626,8 +626,16 @@ export default function CrewPage() {
                 {copy.description}
               </motion.p>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
-                <Link href="/demo"><Button variant="primary" size="lg">{copy.primaryCta}</Button></Link>
-                <a href={REPORT_APP_URL}><Button variant="outline-light" size="lg">{copy.secondaryCta}</Button></a>
+                <Link href="/demo">
+                  <Button variant="primary" size="lg" trackingLabel="crew_hub_hero_primary" trackingMetadata={{ destination: "/demo" }}>
+                    {copy.primaryCta}
+                  </Button>
+                </Link>
+                <a href={REPORT_APP_URL}>
+                  <Button variant="outline-light" size="lg" trackingLabel="crew_hub_hero_secondary" trackingMetadata={{ destination: REPORT_APP_URL }}>
+                    {copy.secondaryCta}
+                  </Button>
+                </a>
               </motion.div>
 
               {/* Hero proof strip - quantified depth of the multi-region payroll shipment */}
@@ -982,8 +990,16 @@ export default function CrewPage() {
               <h2 className="section-h2 mb-4">{copy.ctaTitle}</h2>
               <p className="body-lg mb-10 max-w-xl mx-auto">{copy.ctaDescription}</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <Link href="/demo"><Button variant="cta" size="lg">{copy.ctaPrimary}</Button></Link>
-                <Link href="/"><Button variant="outline-light" size="lg">{copy.ctaSecondary}</Button></Link>
+                <Link href="/demo">
+                  <Button variant="cta" size="lg" trackingLabel="crew_hub_closing_primary" trackingMetadata={{ destination: "/demo" }}>
+                    {copy.ctaPrimary}
+                  </Button>
+                </Link>
+                <Link href="/">
+                  <Button variant="outline-light" size="lg" trackingLabel="crew_hub_closing_secondary" trackingMetadata={{ destination: "/" }}>
+                    {copy.ctaSecondary}
+                  </Button>
+                </Link>
               </div>
             </FadeUp>
           </div>

@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { resolveWebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_solutions_multi_location_groups_layout'
+import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata'
 
 const copy = {
   en: {
@@ -29,7 +30,12 @@ const copy = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  return copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
+  const metadataCopy = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
+  return buildResolvedPageMetadata({
+    locale,
+    pathname: '/solutions/multi-location-groups',
+    ...metadataCopy,
+  });
 }
 
 export default function MultiLocationLayout({ children }: { children: React.ReactNode }) {
