@@ -2,6 +2,233 @@ import type { BlogPost } from './types';
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "restaurant-demand-forecasting-guide",
+    title: "Restaurant Demand Forecasting: Data, Confidence, Scenarios, and Decisions",
+    category: "Playbooks",
+    date: "2026-11-06",
+    summary: "A practical guide to restaurant demand forecasting, from source-data quality and forecast horizons to confidence ranges, scenarios, labor, purchasing, inventory, and margin decisions.",
+    readTime: "8 min read",
+    tags: ["restaurant demand forecasting", "restaurant sales forecasting", "restaurant scenario planning", "labor forecasting", "restaurant inventory planning"],
+    content: `## What restaurant demand forecasting should do
+
+Restaurant demand forecasting estimates the sales, covers, channel mix, or item demand likely over a future period. Its purpose is to improve a decision made before service: how many people to schedule, what to order, which daypart needs attention, and how much uncertainty the plan must absorb.
+
+A forecast is useful when an operator can inspect its inputs, horizon, assumptions, and confidence. A single precise-looking number without that context can create more risk than it removes.
+
+## Begin with the decision and horizon
+
+Different decisions require different horizons. An hourly or daypart forecast can inform a coming shift. A 7 to 14-day view can support schedules and purchasing. A monthly or quarterly view can help finance test a budget or capacity plan.
+
+Start by naming the decision, its deadline, and the level at which action is possible. A portfolio forecast may help finance, while a location and daypart forecast is more useful to a restaurant manager. Item-level demand may matter to purchasing, but only when menu and inventory records are reliable enough to support it.
+
+## Establish a trustworthy data foundation
+
+Historical sales alone rarely explain demand. Useful inputs can include:
+
+- trading dates, opening hours, closures, and partial days;
+- covers, average check, transactions, and channel mix;
+- menu availability, promotions, price changes, and stockouts;
+- scheduled and actual labor;
+- reservations and known group bookings;
+- local events, public holidays, weather, and seasonal patterns;
+- data freshness, missing periods, and changes in source definitions.
+
+The objective is not to add every available variable. It is to retain the signals that relate to the operating question and disclose when the evidence is incomplete.
+
+## Show a range, not false certainty
+
+A forecast should communicate uncertainty. Confidence bands can show the plausible range around the central estimate, while provenance should identify the sources and assumptions behind it.
+
+Confidence may be lower for a new location, an unusual event, a recent menu change, or a period with missing source data. Teams should see that limitation before committing labor or purchasing spend. Forecast accuracy should also be reviewed against actual results over time; it is a measured property, not a permanent product claim.
+
+## Separate forecasts from scenarios
+
+A forecast asks what is likely under the current assumptions. A scenario asks what could happen if an assumption changes.
+
+Useful restaurant scenarios include:
+
+1. changing a menu price or promotion;
+2. extending or reducing opening hours;
+3. adding capacity for an event period;
+4. changing staffing or labor-cost assumptions;
+5. testing a supplier-price increase;
+6. comparing expected, upside, and downside demand.
+
+Keeping these concepts separate prevents a preferred plan from being presented as the most likely outcome. A scenario should preserve its changed assumptions so another person can understand and challenge it.
+
+## Connect demand to the operating plan
+
+Demand forecasting creates value through downstream decisions. Expected covers and channel mix can inform role and daypart coverage. Item demand can inform purchasing, prep, and par levels. Revenue and cost assumptions can feed a forward P&L. Confidence can determine whether the team commits early or keeps capacity flexible.
+
+The links are not automatic proof that a decision will work. Managers still need constraints such as staff availability, supplier lead times, food safety, service standards, and local knowledge. The forecast makes those trade-offs visible earlier.
+
+## Measure and learn after service
+
+After the period closes, compare forecast with actual performance at the same grain. Review the error, identify whether it came from data, an assumption, or an unexpected event, and record the operational decision that followed.
+
+A useful review asks:
+
+- Was the source data complete and current?
+- Did actual demand fall inside the confidence range?
+- Which assumption contributed most to the variance?
+- Did the staffing or purchasing decision change because of the forecast?
+- What should be retained, corrected, or retired before the next cycle?
+
+This creates a planning record rather than a sequence of disconnected predictions.
+
+## How Sundae supports the workflow
+
+[Sundae Foresight](/product/foresight) brings forecast tables, confidence and provenance, scenario planning, P&L views, assumptions, forecast-versus-actual evidence, and decision replay into one planning workflow. It connects demand to labor, purchasing, inventory, and margin questions without claiming that every outcome can be predicted or guaranteed.
+
+For the data path behind those plans, review [Sundae integrations](/integrations). To explore connected analysis across operating domains, see [Sundae Insights](/product/insights).`
+  },
+  {
+    slug: "real-time-restaurant-operations-guide",
+    title: "Real-Time Restaurant Operations: From Live Dashboards to Accountable Action",
+    category: "Playbooks",
+    date: "2026-11-06",
+    summary: "A guide to real-time restaurant operations software: data freshness, shift exceptions, prioritization, ownership, resolution, and measuring whether an intervention worked.",
+    readTime: "7 min read",
+    tags: ["real-time restaurant operations", "restaurant operations software", "restaurant shift dashboard", "restaurant exception management", "restaurant action tracking"],
+    content: `## Real-time visibility is only the starting point
+
+Real-time restaurant operations software should help a team change the outcome of a shift while there is still time to act. That requires more than refreshing a dashboard quickly. It requires trustworthy data, a clear exception, operating context, one accountable owner, a resolution path, and a later check on the result.
+
+A live number without those elements may increase attention without improving execution.
+
+## Define what real time means for each signal
+
+Not every restaurant measure needs the same refresh rate. Sales pacing and ticket flow may need intraday updates. Labor hours may depend on clock events and payroll rules. Inventory and purchasing data can arrive on a different cadence.
+
+The interface should disclose when each source last updated and whether the expected feed is healthy. A stale number styled as live can produce false confidence, especially when managers are comparing locations with different connection states.
+
+## Turn movement into a meaningful exception
+
+A threshold crossing is not automatically an operational problem. Useful exception logic considers the target, time of day, expected demand, recent pattern, data quality, and the cost of waiting.
+
+For example, labor running above target early in a shift may reflect training, a booking, or preparation for a known event. The same signal later in the day, with demand behind pace and no operational explanation, may require action. Context helps the manager distinguish expected variance from a controllable issue.
+
+## Prioritize the few actions that matter now
+
+Restaurant teams cannot respond to every signal at once. A useful operating view groups related symptoms, identifies severity, and ranks work by urgency and likely operating impact.
+
+The prioritized item should answer four questions:
+
+- What changed?
+- Why does it matter now?
+- Which evidence supports the alert?
+- What is the next safe action to consider?
+
+Recommendations should remain inspectable. If the source is incomplete or the system has low confidence, the manager should see that before acting.
+
+## Assign ownership and preserve judgment
+
+Once a team chooses an action, one person should own it. The action needs a deadline, location, operating context, and status. Managers should be able to acknowledge, resolve, dismiss with a reason, or escalate an issue.
+
+This creates a record of human judgment. It also prevents a common failure in multi-location operations: several people see the same alert, each assumes somebody else is handling it, and the issue returns in the next shift report.
+
+Workforce execution matters here. A labor or service-flow action may become a scheduling change, manager task, handover, or coaching conversation. [Sundae Crew](/crew) connects those workforce workflows to the wider operating context.
+
+## Close the loop after the shift
+
+Resolution is not the same as success. The team should compare the result with an appropriate baseline and ask whether the intended metric changed without creating a new problem elsewhere.
+
+A closed-loop review can include:
+
+1. the signal and baseline at detection;
+2. the action, owner, and timestamp;
+3. the post-action observation window;
+4. the measured result and relevant side effects;
+5. the decision to repeat, adapt, or retire the response.
+
+This evidence helps a restaurant group turn one manager's effective response into a reusable practice without assuming that every location has the same conditions.
+
+## Evaluate real-time operations software
+
+Ask a provider how it handles stale data, threshold configuration, location overrides, acknowledgement, resolution, action ownership, audit history, and outcome measurement. Check whether the product distinguishes a generated recommendation from a confirmed action and whether managers can explain why they chose a different response.
+
+The objective is not maximum alert volume. It is a shorter, more reliable path from a material shift signal to an accountable and measurable decision.
+
+## How Sundae supports live operations
+
+[Sundae Pulse](/product/pulse) brings sales pacing, labor, flow, leakage, stockouts, exceptions, coaching, scorecards, and data-health context into a same-shift operating view. Managers can acknowledge and resolve exceptions and route chosen work into an accountable action path.
+
+For the broader detect, decide, execute, measure, and learn workflow, explore [Sundae Profit Recovery](/product/recovery).`
+  },
+  {
+    slug: "restaurant-competitor-intelligence-guide",
+    title: "Restaurant Competitor Intelligence: Using Market Signals Without Losing Context",
+    category: "Research",
+    date: "2026-11-06",
+    summary: "A practical guide to restaurant competitor intelligence across competitor selection, public ratings and reviews, pricing, menus, events, weather, signal relevance, and operating decisions.",
+    readTime: "7 min read",
+    tags: ["restaurant competitor intelligence", "restaurant market intelligence", "competitor menu monitoring", "restaurant event intelligence", "restaurant weather forecasting"],
+    content: `## Competitor intelligence should improve a decision
+
+Restaurant competitor intelligence collects public market signals and connects them to an operating question. It can help a team understand changes in local supply, customer sentiment, public pricing, events, weather, and the competitive landscape around each location.
+
+It should not be treated as surveillance or as proof of a competitor's private performance. Public signals are incomplete. Their value comes from relevance, provenance, and disciplined use alongside a restaurant's own data.
+
+## Choose competitors for a stated reason
+
+The nearest restaurant is not always the most useful comparison. A competitor set may consider cuisine, service model, price range, daypart, delivery radius, guest occasion, location type, and market.
+
+Document why each restaurant is included. A premium full-service venue, a mall QSR, and a delivery kitchen can respond differently to the same event even when they are geographically close. The set should change when the operating question changes.
+
+Competitor intelligence also differs from anonymized [restaurant benchmarking](/product/benchmarking). Named public-market monitoring shows visible changes around specific businesses. Benchmarking compares normalized operating metrics across an eligible peer cohort. Both provide context, but they answer different questions.
+
+## Use public signals with provenance
+
+Useful public signals can include:
+
+- opening hours and temporary closures;
+- ratings, review volume, and recurring sentiment themes;
+- publicly listed menu items and prices;
+- new openings and changes in local restaurant density;
+- visible promotions or changes in public positioning;
+- event calendars, holidays, and weather forecasts.
+
+Every signal should retain its source and observation time. Menu availability and prices may vary by channel. Reviews are a selected sample of guest opinion. Opening-hour listings can be wrong. A signal should therefore prompt verification and analysis rather than an automatic reaction.
+
+## Add local events and weather to the picture
+
+Competitors are only one part of external demand. A concert, conference, sporting event, school holiday, religious observance, or severe weather period can change covers, daypart mix, delivery demand, staffing needs, and preparation.
+
+Distance alone does not establish impact. Consider venue capacity, event timing, transport routes, audience fit, historical response, and the operating constraints of the location. Weather effects also vary by concept and channel: conditions that reduce terrace demand may increase delivery orders.
+
+## Filter noise before it reaches operators
+
+External sources can generate many low-value changes. Teams need rules for materiality, freshness, duplication, and local relevance.
+
+A useful signal explains:
+
+1. what changed and when it was observed;
+2. which location or market may be affected;
+3. why the change may matter;
+4. what internal evidence supports or contradicts it;
+5. what the operator should verify before acting.
+
+This keeps a rating movement, price change, or event listing from becoming an unsupported conclusion about demand or competitor performance.
+
+## Connect the signal to an operating choice
+
+External context becomes valuable when it informs a decision the team can own. Examples include reviewing a daypart forecast, adjusting a staffing plan, changing prep quantities, checking a public listing, testing a promotion, or monitoring a menu-positioning question.
+
+The chosen response should have an owner and observation window. If the event or market signal was expected to affect demand, compare that expectation with actual results. Record whether the assumption held so future planning can improve.
+
+## Keep clear limits
+
+Competitor intelligence cannot reveal another operator's private sales, costs, contracts, or strategy. It should use lawful public sources and respect platform terms, privacy, and access controls. It should not encourage copying a competitor without understanding the economics and guest promise of the operator's own concept.
+
+When a source is missing, stale, or ambiguous, show the limitation. A smaller set of traceable signals is more useful than a large feed that managers cannot validate.
+
+## How Sundae supports external intelligence
+
+[Sundae Watchtower](/product/watchtower) brings competitor discovery, maps, public ratings and reviews, menu and pricing context, local events, holidays, weather, market trends, signals, and briefings into one external-intelligence workflow. It connects those signals to internal operating context while preserving the distinction between an observation and a confirmed business result.
+
+External assumptions can also feed forward planning in [Sundae Foresight](/product/foresight), where teams can review confidence, scenarios, and forecast-versus-actual evidence. For peer operating comparisons, use [Sundae Benchmarking](/product/benchmarking).`
+  },
+  {
     slug: "restaurant-benchmarking-methodology",
     title: "Restaurant Benchmarking Methodology: How to Make Peer Comparisons Useful",
     category: "Benchmarks",

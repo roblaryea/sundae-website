@@ -1,5 +1,6 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 import { generatedLocalCopy } from '@/generated-locales/lib_page_titles';
+import { resolveLocalizedPageDescription } from '@/lib/localizedPageDescriptions';
 
 /**
  * Central per-route <title> map.
@@ -119,6 +120,7 @@ export function resolvePageTitle(path: string, locale: WebsiteLocale): string | 
 }
 
 export function resolvePageDescription(path: string, locale: WebsiteLocale): string | null {
-  if (locale !== 'en') return null;
-  return pageDescriptionsEn[path] ?? null;
+  const englishDescription = pageDescriptionsEn[path] ?? null;
+  if (locale === 'en') return englishDescription;
+  return resolveLocalizedPageDescription(path, locale) ?? englishDescription;
 }

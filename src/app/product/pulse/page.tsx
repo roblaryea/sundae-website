@@ -25,6 +25,7 @@ import { CoreMobileShowcase } from "@/components/core/CoreMobileShowcase";
 import { CorePulseFloorMobile } from "@/components/core/CorePulseFloorMobile";
 import { CoreHomeMobile } from "@/components/core/CoreHomeMobile";
 import { balanceSentences } from '@/lib/balanceSentences';
+import { AuthorityGuideCallout } from '@/components/seo/AuthorityGuideCallout';
 
 const localizedPulseCopy = {
   en: {
@@ -1444,6 +1445,15 @@ export default function PulsePage() {
       </section>
 
       <CoreMobileShowcase screens={[<CorePulseFloorMobile key="floor" />, <CoreHomeMobile key="home" />]} />
+
+      {locale === 'en' ? (
+        <AuthorityGuideCallout
+          href="/blog/real-time-restaurant-operations-guide"
+          eyebrow="Operations guide"
+          title="What makes real-time restaurant operations actionable"
+          description="See how data freshness, contextual exceptions, prioritization, ownership, resolution, and outcome measurement turn a live dashboard into a reliable operating loop."
+        />
+      ) : null}
 
       {/* Product gallery - every Pulse surface in detail */}
       <SectionProductGallery

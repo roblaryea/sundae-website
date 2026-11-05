@@ -105,6 +105,9 @@ These questions should be tested monthly in ChatGPT, Google AI Overviews, Perple
 - Profit Recovery page: canonical commercial page.
 - FAQ page: canonical answer surface with FAQ structured data.
 - “Revenue Grew. Restaurant Profit Fell 44%”: timely evidence article connecting macro pressure to controllable execution.
+- Restaurant demand forecasting guide: supports `/product/foresight` with data, confidence, scenarios, planning links, and validation limits.
+- Real-time restaurant operations guide: supports `/product/pulse` with data freshness, contextual exceptions, ownership, resolution, and outcome measurement.
+- Restaurant competitor intelligence guide: supports `/product/watchtower` with competitor selection, public-signal provenance, events, weather, and operating-use limits.
 - Tools hub and calculators: acquisition surfaces for specific operator questions.
 
 ## Next content candidates
@@ -117,12 +120,9 @@ These are the next durable website assets, subject to evidence and product revie
 4. How to measure whether a shift-level action recovered margin.
 5. Restaurant AI buyer's guide for multi-location operators.
 6. Controllable vs uncontrollable restaurant costs.
-7. Restaurant demand forecasting: data, confidence, scenarios, and operating decisions.
-8. Real-time restaurant operations: dashboards versus accountable closed-loop execution.
-9. Restaurant competitor intelligence: using events, weather, pricing, and local market signals.
-10. Restaurant analytics architecture: connecting POS, labor, inventory, delivery, reservations, and guests.
-11. Hospitality workforce management: connecting demand, scheduling, attendance, payroll readiness, and labor intelligence.
-12. Cloud-kitchen and delivery margin: a channel-economics operating guide.
-13. Franchise performance: portfolio visibility, brand consistency, and local accountability.
-14. Hotel F&B operating intelligence across outlets, venues, labor, and guest demand.
+7. Restaurant analytics architecture: connecting POS, labor, inventory, delivery, reservations, and guests.
+8. Hospitality workforce management: connecting demand, scheduling, attendance, payroll readiness, and labor intelligence.
+9. Cloud-kitchen and delivery margin: a channel-economics operating guide.
+10. Franchise performance: portfolio visibility, brand consistency, and local accountability.
+11. Hotel F&B operating intelligence across outlets, venues, labor, and guest demand.
 
