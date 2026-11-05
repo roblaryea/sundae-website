@@ -1,34 +1,19 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
-import { resolveWebsiteLocale, getLocalizedCopy, type RequiredEnglishLocalizedRecord } from "@/lib/i18n";
-
-type PageMeta = {
-  title: string;
-  description: string;
-  openGraphTitle: string;
-  openGraphDescription: string;
-};
-
-const copy: RequiredEnglishLocalizedRecord<PageMeta> = {
-  en: {
-    title: "Multi-Country Payroll for Food Service - Sundae Crew Pay",
-    description:
-      "Crew Pay calculates gross to net across 36+ countries from versioned country packs, then produces the payslips, statutory filings and year-end forms each one expects - reviewed by your team before anyone is paid.",
-    openGraphTitle: "Sundae Crew Pay - Payroll across 36+ countries",
-    openGraphDescription:
-      "Calculate gross to net, produce payslips and statutory filings, and close the month in every country you operate - or keep your provider and export to them.",
-  },
-};
+import { generatedLocalCopy } from "@/generated-locales/app_crew_payroll_page";
+import { resolveWebsiteLocale } from "@/lib/i18n";
+import { buildCrewPageMetadata } from "@/lib/crewPageMetadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  const c = getLocalizedCopy(copy, locale);
-  return {
-    title: c.title,
-    description: c.description,
-    openGraph: { title: c.openGraphTitle, description: c.openGraphDescription },
-    twitter: { title: c.openGraphTitle, description: c.openGraphDescription },
-  };
+  return buildCrewPageMetadata({
+    locale,
+    pathname: "/crew/payroll",
+    englishTitle: "Multi-Country Payroll for Food Service - Sundae Crew Pay",
+    englishDescription:
+      "Crew Pay calculates gross to net across 36+ countries from versioned country packs, then produces payslips, statutory files and year-end forms for team review before payment or provider handoff.",
+    generatedLocalCopy: generatedLocalCopy.copy,
+  });
 }
 
 export default function CrewPayrollLayout({ children }: { children: React.ReactNode }) {

@@ -12,6 +12,7 @@ Sundae does not claim to remove macroeconomic pressures such as wage increases, 
 - [Profit Recovery](https://www.sundae.io/product/recovery): Closed-loop profit recovery workflow
 - [Why Sundae](https://www.sundae.io/why-sundae): Product differentiation
 - [Solutions](https://www.sundae.io/solutions): Food-service use cases
+- [Sundae Crew](https://www.sundae.io/crew): Workforce operations for restaurant and hospitality teams
 - [Tools](https://www.sundae.io/tools): Operator tools and calculators
 - [Blog](https://www.sundae.io/blog): Research, guidance, and product updates
 - [Book a demo](https://www.sundae.io/demo): Product demonstration
@@ -22,6 +23,19 @@ Sundae does not claim to remove macroeconomic pressures such as wage increases, 
 - [Benchmarking methodology](https://www.sundae.io/blog/restaurant-benchmarking-methodology): Cohort, metric, privacy, freshness, and confidence principles
 - [Benchmark readiness score](https://www.sundae.io/tools/benchmark-readiness): Data and operating-process readiness assessment
 - [Restaurant intelligence](https://www.sundae.io/product/intelligence): Natural-language analysis across connected restaurant data
+
+## Workforce operations for hospitality
+
+Sundae Crew connects workforce execution to the same decision-intelligence layer used for restaurant and hospitality performance. It covers scheduling, time and attendance, people and HR records, payroll readiness, employee self-service, and workforce intelligence. Customers can use Crew directly or connect an existing HR or payroll provider.
+
+- [Crew overview](https://www.sundae.io/crew): Workforce operations, HR, payroll readiness, and employee self-service
+- [Staff scheduling](https://www.sundae.io/crew/scheduling): Demand-aware scheduling, availability, shift swaps, and approvals
+- [Time and attendance](https://www.sundae.io/crew/time-attendance): Mobile clock-in, break records, verification, and payroll-ready hours
+- [Payroll](https://www.sundae.io/crew/payroll): Multi-country payroll calculation, review, statutory outputs, and provider handoff
+- [People and HR](https://www.sundae.io/crew/people): Recruiting, onboarding, employee records, documents, reviews, leave, and offboarding
+- [Workforce intelligence](https://www.sundae.io/crew/people-intelligence): Workforce health, no-show risk, overtime, and labor cost alongside sales and demand
+- [Hospitality operators](https://www.sundae.io/solutions/hospitality-operators): Operating intelligence across hospitality F&B outlets and revenue streams
+- [HR and people teams](https://www.sundae.io/solutions/hr-teams): Labor visibility and accountable workforce action by shift
 
 ## Official profiles
 

@@ -61,3 +61,87 @@ test('unsupported legacy research is withdrawn from discovery and redirected to 
   assert.match(proxy, /requiresBlogEvidenceReview\(blogSlug\)/)
   assert.match(proxy, /NextResponse\.redirect\(redirectUrl, 308\)/)
 })
+
+test('localized solution routes derive metadata from their translated page copy', () => {
+  const routes = [
+    '',
+    'cloud-kitchens',
+    'finance-teams',
+    'franchises',
+    'hospitality-operators',
+    'hr-teams',
+    'marketing-teams',
+    'regional-managers',
+    'technology-teams',
+  ]
+
+  for (const route of routes) {
+    const layoutPath = path.join(root, 'src/app/solutions', route, 'layout.tsx')
+    const source = fs.readFileSync(layoutPath, 'utf8')
+
+    assert.doesNotMatch(source, /export const metadata/)
+    assert.match(source, /export async function generateMetadata/)
+    assert.match(source, /resolveWebsiteLocale\(await cookies\(\)\)/)
+    assert.match(source, /buildSolutionPageMetadata/)
+    assert.match(source, /generatedLocalCopy: generatedLocalCopy\.localizedCopy/)
+  }
+})
+
+test('every localized solution layout emits page-specific social metadata', () => {
+  for (const route of ['c-suite-executives', 'multi-location-groups']) {
+    const source = fs.readFileSync(
+      path.join(root, 'src/app/solutions', route, 'layout.tsx'),
+      'utf8',
+    )
+
+    assert.match(source, /buildResolvedPageMetadata/)
+    assert.match(source, new RegExp(`pathname: ["']\\/solutions\\/${route}["']`))
+  }
+})
+
+test('Crew workforce pages expose localized metadata and AI discovery links', () => {
+  const routes = ['', 'scheduling', 'time-attendance', 'payroll', 'people', 'people-intelligence']
+  const llms = fs.readFileSync(path.join(root, 'public/llms.txt'), 'utf8')
+
+  for (const route of routes) {
+    const layoutPath = path.join(root, 'src/app/crew', route, 'layout.tsx')
+    const source = fs.readFileSync(layoutPath, 'utf8')
+    const pathname = route ? `/crew/${route}` : '/crew'
+
+    assert.match(source, /buildCrewPageMetadata/)
+    assert.match(source, /resolveWebsiteLocale\(await cookies\(\)\)/)
+    assert.match(source, /generatedLocalCopy:/)
+    assert.match(llms, new RegExp(`https:\\/\\/www\\.sundae\\.io${pathname.replaceAll('/', '\\/')}(?:\\)|:)`))
+  }
+})
+
+test('Crew conversion paths expose stable PostHog labels', () => {
+  const hub = fs.readFileSync(path.join(root, 'src/app/crew/page.tsx'), 'utf8')
+  const modulePage = fs.readFileSync(path.join(root, 'src/components/crew/CrewModulePage.tsx'), 'utf8')
+
+  for (const label of ['crew_hub_hero_primary', 'crew_hub_closing_primary']) {
+    assert.match(hub, new RegExp(`trackingLabel="${label}"`))
+  }
+  for (const label of ['crew_module_hero_primary', 'crew_module_closing_primary']) {
+    assert.match(modulePage, new RegExp(`trackingLabel="${label}"`))
+  }
+})
+
+test('shared solution CTAs expose stable conversion labels and context', () => {
+  const source = fs.readFileSync(
+    path.join(root, 'src/components/solutions/SolutionPageLayout.tsx'),
+    'utf8',
+  )
+
+  for (const label of [
+    'solution_hero_primary',
+    'solution_hero_secondary',
+    'solution_crew_crosslink',
+    'solution_closing_primary',
+  ]) {
+    assert.match(source, new RegExp(`trackingLabel="${label}"`))
+  }
+
+  assert.match(source, /trackingMetadata=\{\{ section: "hero", destination: primaryCtaHref \}\}/)
+  assert.match(source, /trackingMetadata=\{\{ section: "closing", destination: ctaButtonHref \}\}/)
+})
