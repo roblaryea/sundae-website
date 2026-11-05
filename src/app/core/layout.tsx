@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { resolveWebsiteLocale, getLocalizedCopy, type RequiredEnglishLocalizedRecord } from "@/lib/i18n";
+import { resolvePageDescription, resolvePageTitle } from '@/lib/pageTitles';
+import { buildResolvedPageMetadata } from '@/lib/solutionPageMetadata';
 
 type PageMeta = {
   title: string;
@@ -23,12 +25,12 @@ const copy: RequiredEnglishLocalizedRecord<PageMeta> = {
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
   const c = getLocalizedCopy(copy, locale);
-  return {
-    title: c.title,
-    description: c.description,
-    openGraph: { title: c.openGraphTitle, description: c.openGraphDescription },
-    twitter: { title: c.openGraphTitle, description: c.openGraphDescription },
-  };
+  return buildResolvedPageMetadata({
+    locale,
+    pathname: '/core',
+    title: resolvePageTitle('/core', locale) ?? c.title,
+    description: resolvePageDescription('/core', locale) ?? c.description,
+  });
 }
 
 export default function CoreLayout({ children }: { children: React.ReactNode }) {
