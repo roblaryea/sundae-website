@@ -17,14 +17,15 @@ test('IndexNow key is publicly verifiable and priority submission stays on the c
     { cwd: root, encoding: 'utf8' },
   )
   const report = JSON.parse(output)
+  const submittedUrls = new Set(report.urls)
 
   assert.equal(report.host, 'www.sundae.io')
   assert.equal(report.keyLocation, `https://www.sundae.io/${indexNowKey}.txt`)
-  assert.ok(report.urls.includes('https://www.sundae.io/product/recovery'))
-  assert.ok(report.urls.includes('https://www.sundae.io/blog/restaurant-benchmarking-methodology'))
-  assert.ok(report.urls.includes('https://www.sundae.io/blog/restaurant-demand-forecasting-guide'))
-  assert.ok(report.urls.includes('https://www.sundae.io/blog/real-time-restaurant-operations-guide'))
-  assert.ok(report.urls.includes('https://www.sundae.io/blog/restaurant-competitor-intelligence-guide'))
+  assert.equal(submittedUrls.has('https://www.sundae.io/product/recovery'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/restaurant-benchmarking-methodology'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/restaurant-demand-forecasting-guide'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/real-time-restaurant-operations-guide'), true)
+  assert.equal(submittedUrls.has('https://www.sundae.io/blog/restaurant-competitor-intelligence-guide'), true)
   assert.ok(report.urls.every((value) => new URL(value).host === 'www.sundae.io'))
 })
 
