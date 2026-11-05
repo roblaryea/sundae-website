@@ -196,6 +196,15 @@ test('central metadata gives discovery routes specific descriptions and social t
   assert.match(titles, /resolveLocalizedPageDescription\(path, locale\) \?\? englishDescription/)
 })
 
+test('Core layout preserves localized route metadata and canonical social fields', () => {
+  const coreLayout = fs.readFileSync(path.join(root, 'src/app/core/layout.tsx'), 'utf8')
+
+  assert.match(coreLayout, /resolvePageTitle\('\/core', locale\)/)
+  assert.match(coreLayout, /resolvePageDescription\('\/core', locale\)/)
+  assert.match(coreLayout, /buildResolvedPageMetadata\(\{/)
+  assert.match(coreLayout, /pathname: '\/core'/)
+})
+
 test('structured data connects the platform to its shipped product entities', () => {
   const layout = fs.readFileSync(path.join(root, 'src/app/layout.tsx'), 'utf8')
 
