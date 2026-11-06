@@ -1,5 +1,8 @@
 "use client";
 
+import securityClaims from '@/lib/security-claims.json'
+import { getLocalizedCopy } from '@/lib/i18n'
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from 'framer-motion';
@@ -104,7 +107,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     modulesTitle: "Architecture Modules",
     modulesDescription: "Five core modules that power the Ask Sundae Stack",
     securityTitle: "Enterprise Security & Compliance",
-    securityDescription: "SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
+    securityDescription: "An evidence-based security-readiness program is active. Sundae does not currently hold a SOC 2 report.",
     engineeringTitle: "Built with Premium Engineering",
     engineeringDescription: "A production stack built for reliability, speed, and operational scale.",
     ctaTitle: "See the Architecture in Action",
@@ -136,23 +139,18 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Watchtower", description: "Market intelligence and competitive benchmarking engine", icon: "watchtower", features: ["Market Insights", "Competitor Data", "Trend Analysis", "Geographic Intelligence"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
-      { title: "End-to-End Encryption", description: "AES-256 encryption for data in transit and at rest", icon: "alerts" },
-      { title: "Access Control", description: "Role-based access with multi-factor authentication", icon: "integration" },
-      { title: "Compliance Programme", description: "SOC 2 Type II certification is in progress; GDPR and CCPA controls remain part of the security programme", icon: "success" },
+      { title: "Security and data controls", description: "TLS and encryption protect supported services. Key management and provider coverage depend on the deployment.", icon: "alerts" },
+      { title: "Access Control", description: "Organization, hierarchy and role controls restrict access to customer records.", icon: "integration" },
+      { title: "Compliance Programme", description: "An evidence-based security-readiness program is active. Sundae does not currently hold a SOC 2 report.", icon: "success" },
     ],
-    certs: [
-      { label: "SOC 2 Type II", state: "In progress", stateClass: "text-amber-600" },
-      { label: "GDPR", state: "✓ Compliant", stateClass: "text-[#FF8473]" },
-      { label: "CCPA", state: "✓ Compliant", stateClass: "text-[#C2410C]" },
-      { label: "ISO 27001", state: "In Progress", stateClass: "text-amber-600" },
-    ],
+    certs: [{"label":"SOC 2 Type II","state":"In progress","stateClass":"text-amber-600"}],
     engineeringCards: [
       { title: "Multi-Agent AI", icon: "intelligence", color: "from-[#F2B45C] to-[#C2410C]", features: ["Multi-agent AI engine", "Continuous learning models", "Predictive analytics", "Natural language processing"] },
       { title: "Real-Time Processing", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["Real-time data processing", "Sub-second response times", "Active monitoring and resilient infrastructure", "Auto-scaling infrastructure"] },
       { title: "Integration Engine", icon: "integration", color: "from-green-500 to-green-600", features: ["12-domain data connectors", "RESTful API architecture", "Webhook support", "Custom integration tools"] },
       { title: "Intelligence Core", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Advanced algorithms", "Machine learning models", "Pattern recognition", "Anomaly detection"] },
       { title: "Delivery Layer", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["Interactive dashboards", "Natural language queries", "Mobile-responsive design", "Real-time alerts"] },
-      { title: "Security & Governance", icon: "quality", color: "from-red-500 to-red-600", features: ["SOC 2 Type II programme in progress", "End-to-end encryption", "Role-based access control", "Regular security audits"] },
+      { title: "Security & Governance", icon: "quality", color: "from-red-500 to-red-600", features: ["Security and data controls","Access Control","Compliance Programme"] },
     ],
   },
   ar: {
@@ -169,7 +167,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     modulesTitle: "وحدات المعمارية",
     modulesDescription: "خمس طبقات أساسية تنظّم كيف تتحرك البيانات والتحليلات عبر المنصة",
     securityTitle: "أمن وامتثال على مستوى المؤسسات",
-    securityDescription: "الحصول على شهادة SOC 2 Type II قيد التنفيذ، وتظل ضوابط GDPR وCCPA جزءاً من برنامج الأمن لدى Sundae.",
+    securityDescription: "يوجد برنامج نشط للاستعداد الأمني قائم على الأدلة. لا تملك Sundae حالياً تقرير SOC 2.",
     engineeringTitle: "مبني بهندسة عملية",
     engineeringDescription: "بنية موثوقة مصممة للتشغيل المستمر، والسرعة، والتوسع الآمن",
     ctaTitle: "شاهد المعمارية أثناء العمل",
@@ -201,23 +199,18 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Watchtower", description: "محرك ذكاء سوقي ومقارنة تنافسية", icon: "watchtower", features: ["رؤى السوق", "بيانات المنافسين", "تحليل الاتجاهات", "ذكاء جغرافي"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
-      { title: "تشفير شامل", description: "تشفير AES-256 للبيانات أثناء النقل والتخزين", icon: "alerts" },
-      { title: "التحكم بالوصول", description: "وصول قائم على الأدوار مع مصادقة متعددة العوامل", icon: "integration" },
-      { title: "برنامج الامتثال", description: "الحصول على شهادة SOC 2 Type II قيد التنفيذ، وتظل ضوابط GDPR وCCPA جزءاً من برنامج الأمن", icon: "success" },
+      { title: "الأمن وضوابط البيانات", description: "تحمي تقنيات TLS والتشفير الخدمات المدعومة. تختلف إدارة المفاتيح وتغطية المزوّدين بحسب بيئة النشر.", icon: "alerts" },
+      { title: "التحكم بالوصول", description: "تقيّد ضوابط المؤسسة والتسلسل التنظيمي والأدوار الوصول إلى سجلات العملاء.", icon: "integration" },
+      { title: "برنامج الامتثال", description: "يوجد برنامج نشط للاستعداد الأمني قائم على الأدلة. لا تملك Sundae حالياً تقرير SOC 2.", icon: "success" },
     ],
-    certs: [
-      { label: "SOC 2 Type II", state: "قيد التنفيذ", stateClass: "text-amber-600" },
-      { label: "GDPR", state: "✓ متوافق", stateClass: "text-[#FF8473]" },
-      { label: "CCPA", state: "✓ متوافق", stateClass: "text-[#C2410C]" },
-      { label: "ISO 27001", state: "قيد التنفيذ", stateClass: "text-amber-600" },
-    ],
+    certs: [{"label":"SOC 2 Type II","state":"قيد التنفيذ","stateClass":"text-amber-600"}],
     engineeringCards: [
       { title: "ذكاء متعدد الوكلاء", icon: "intelligence", color: "from-[#F2B45C] to-[#C2410C]", features: ["محرك ذكاء متعدد الوكلاء", "نماذج تتعلم باستمرار", "تحليلات تنبؤية", "معالجة لغة طبيعية"] },
       { title: "معالجة فورية", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["معالجة بيانات لحظية", "استجابة في أقل من ثانية", "مراقبة نشطة وبنية مرنة", "بنية قابلة للتوسع تلقائيًا"] },
       { title: "محرك التكامل", icon: "integration", color: "from-green-500 to-green-600", features: ["موصلات بيانات عبر 12 مجالًا", "معمارية RESTful", "دعم Webhook", "أدوات تكامل مخصصة"] },
       { title: "نواة الذكاء", icon: "insights", color: "from-orange-500 to-orange-600", features: ["خوارزميات متقدمة", "نماذج تعلم آلي", "التعرف على الأنماط", "اكتشاف الشذوذ"] },
       { title: "طبقة الإخراج", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["لوحات تفاعلية", "استعلامات باللغة الطبيعية", "تصميم متجاوب للجوال", "تنبيهات فورية"] },
-      { title: "الأمن والحوكمة", icon: "quality", color: "from-red-500 to-red-600", features: ["برنامج SOC 2 Type II قيد التنفيذ", "تشفير شامل", "التحكم بالوصول حسب الدور", "مراجعات أمنية منتظمة"] },
+      { title: "الأمن والحوكمة", icon: "quality", color: "from-red-500 to-red-600", features: ["الأمن وضوابط البيانات","التحكم بالوصول","برنامج الامتثال"] },
     ],
   },
   fr: {
@@ -234,7 +227,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     modulesTitle: "Modules d'architecture",
     modulesDescription: "Cinq couches principales qui structurent la circulation des données et des analyses dans la plateforme",
     securityTitle: "Sécurité et conformité d'entreprise",
-    securityDescription: "La certification SOC 2 Type II est en cours. Les contrôles RGPD et CCPA restent intégrés au programme de sécurité de Sundae.",
+    securityDescription: "Un programme de préparation à la sécurité fondé sur des preuves est actif. Sundae ne dispose actuellement d’aucun rapport SOC 2.",
     engineeringTitle: "Conçu avec une ingénierie solide",
     engineeringDescription: "Une base technique pensée pour la continuité de service, la vitesse et une croissance fiable",
     ctaTitle: "Voir l'architecture en action",
@@ -266,23 +259,18 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Watchtower", description: "Moteur de veille marché et benchmarking concurrentiel", icon: "watchtower", features: ["Insights marché", "Données concurrents", "Analyse de tendances", "Intelligence géographique"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
-      { title: "Chiffrement de bout en bout", description: "AES-256 pour les données en transit et au repos", icon: "alerts" },
-      { title: "Contrôle d'accès", description: "Accès basé sur les rôles avec authentification multi-facteur", icon: "integration" },
-      { title: "Programme de conformité", description: "La certification SOC 2 Type II est en cours ; les contrôles RGPD et CCPA restent intégrés au programme de sécurité", icon: "success" },
+      { title: "Sécurité et contrôle des données", description: "TLS et le chiffrement protègent les services pris en charge. La gestion des clés et la couverture des fournisseurs dépendent du déploiement.", icon: "alerts" },
+      { title: "Contrôle d'accès", description: "Les contrôles par organisation, hiérarchie et rôle limitent l’accès aux dossiers clients.", icon: "integration" },
+      { title: "Programme de conformité", description: "Un programme de préparation à la sécurité fondé sur des preuves est actif. Sundae ne dispose actuellement d’aucun rapport SOC 2.", icon: "success" },
     ],
-    certs: [
-      { label: "SOC 2 Type II", state: "En cours", stateClass: "text-amber-600" },
-      { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#FF8473]" },
-      { label: "CCPA", state: "✓ Conforme", stateClass: "text-[#C2410C]" },
-      { label: "ISO 27001", state: "En cours", stateClass: "text-amber-600" },
-    ],
+    certs: [{"label":"SOC 2 Type II","state":"En cours","stateClass":"text-amber-600"}],
     engineeringCards: [
       { title: "IA multi-agents", icon: "intelligence", color: "from-[#F2B45C] to-[#C2410C]", features: ["Moteur IA multi-agents", "Modèles à apprentissage continu", "Analytique prédictive", "Traitement du langage naturel"] },
       { title: "Traitement temps réel", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["Traitement temps réel", "Réponses sub-seconde", "Monitoring actif et infrastructure résiliente", "Auto-scaling"] },
       { title: "Moteur d'intégration", icon: "integration", color: "from-green-500 to-green-600", features: ["Connecteurs 12 domaines", "Architecture API REST", "Support webhook", "Outils d'intégration personnalisés"] },
       { title: "Core intelligence", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Algorithmes avancés", "Modèles ML", "Reconnaissance de motifs", "Détection d'anomalies"] },
       { title: "Couche de diffusion", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["Dashboards interactifs", "Requêtes en langage naturel", "Design responsive", "Alertes temps réel"] },
-      { title: "Sécurité et gouvernance", icon: "quality", color: "from-red-500 to-red-600", features: ["Programme SOC 2 Type II en cours", "Chiffrement de bout en bout", "Contrôle d'accès par rôle", "Audits de sécurité réguliers"] },
+      { title: "Sécurité et gouvernance", icon: "quality", color: "from-red-500 to-red-600", features: ["Sécurité et contrôle des données","Contrôle d'accès","Programme de conformité"] },
     ],
   },
   es: {
@@ -299,7 +287,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     modulesTitle: "Módulos de arquitectura",
     modulesDescription: "Cinco capas principales que ordenan cómo circulan los datos y el análisis por la plataforma",
     securityTitle: "Seguridad y cumplimiento empresarial",
-    securityDescription: "La certificación SOC 2 Type II está en curso. Los controles GDPR y CCPA siguen formando parte del programa de seguridad de Sundae.",
+    securityDescription: "Hay un programa activo de preparación de seguridad basado en evidencias. Sundae no dispone actualmente de un informe SOC 2.",
     engineeringTitle: "Construido con ingeniería sólida",
     engineeringDescription: "Una base técnica pensada para continuidad operativa, velocidad y crecimiento fiable",
     ctaTitle: "Ver la arquitectura en acción",
@@ -331,23 +319,18 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Watchtower", description: "Motor de inteligencia de mercado y benchmarking competitivo", icon: "watchtower", features: ["Insights de mercado", "Datos de competidores", "Análisis de tendencias", "Inteligencia geográfica"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
-      { title: "Cifrado de extremo a extremo", description: "AES-256 para datos en tránsito y en reposo", icon: "alerts" },
-      { title: "Control de acceso", description: "Acceso basado en roles con autenticación multifactor", icon: "integration" },
-      { title: "Programa de cumplimiento", description: "La certificación SOC 2 Type II está en curso; los controles GDPR y CCPA siguen formando parte del programa de seguridad", icon: "success" },
+      { title: "Seguridad y controles de datos", description: "TLS y el cifrado protegen los servicios compatibles. La gestión de claves y la cobertura de proveedores dependen del despliegue.", icon: "alerts" },
+      { title: "Control de acceso", description: "Los controles por organización, jerarquía y rol restringen el acceso a los registros del cliente.", icon: "integration" },
+      { title: "Programa de cumplimiento", description: "Hay un programa activo de preparación de seguridad basado en evidencias. Sundae no dispone actualmente de un informe SOC 2.", icon: "success" },
     ],
-    certs: [
-      { label: "SOC 2 Type II", state: "En curso", stateClass: "text-amber-600" },
-      { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#FF8473]" },
-      { label: "CCPA", state: "✓ Conforme", stateClass: "text-[#C2410C]" },
-      { label: "ISO 27001", state: "En progreso", stateClass: "text-amber-600" },
-    ],
+    certs: [{"label":"SOC 2 Type II","state":"En curso","stateClass":"text-amber-600"}],
     engineeringCards: [
       { title: "IA multiagente", icon: "intelligence", color: "from-[#F2B45C] to-[#C2410C]", features: ["Motor IA multiagente", "Modelos de aprendizaje continuo", "Analítica predictiva", "Procesamiento de lenguaje natural"] },
       { title: "Procesamiento en tiempo real", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["Procesamiento en tiempo real", "Respuesta en menos de un segundo", "Monitorización activa e infraestructura resiliente", "Autoescalado"] },
       { title: "Motor de integración", icon: "integration", color: "from-green-500 to-green-600", features: ["Conectores de 12 dominios", "Arquitectura API REST", "Soporte de webhooks", "Herramientas de integración personalizadas"] },
       { title: "Núcleo de inteligencia", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Algoritmos avanzados", "Modelos ML", "Reconocimiento de patrones", "Detección de anomalías"] },
       { title: "Capa de entrega", icon: "canvas", color: "from-[#F2C078] to-[#E9A24A]", features: ["Paneles interactivos", "Consultas en lenguaje natural", "Diseño responsive", "Alertas en tiempo real"] },
-      { title: "Seguridad y gobernanza", icon: "quality", color: "from-red-500 to-red-600", features: ["Programa SOC 2 Type II en curso", "Cifrado de extremo a extremo", "Control de acceso por roles", "Auditorías de seguridad regulares"] },
+      { title: "Seguridad y gobernanza", icon: "quality", color: "from-red-500 to-red-600", features: ["Seguridad y controles de datos","Control de acceso","Programa de cumplimiento"] },
     ],
   },
 } as const;
@@ -565,7 +548,7 @@ export default function ArchitecturePage() {
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                     <SundaeIcon name="success" size="xl" className="text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-[var(--text-primary)]">{locale === "ar" ? "الشهادات" : locale === "fr" ? "Certifications" : locale === "es" ? "Certificaciones" : "Certifications"}</h3>
+                  <h3 className="text-2xl font-bold text-[var(--text-primary)]">{getLocalizedCopy(securityClaims, locale)[2]}</h3>
                 </div>
                 <div className="space-y-4">
                   {ui.certs.map((cert) => (

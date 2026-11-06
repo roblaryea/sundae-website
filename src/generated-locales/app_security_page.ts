@@ -4,1324 +4,1324 @@ export const generatedLocalCopy = {
   "securityCopy": {
     "es": {
       "badge": "Seguridad y Cumplimiento",
-      "title": "Seguridad de nivel empresarial",
-      "description": "Tus datos están protegidos por prácticas de seguridad líderes en la industria, cifrado y estándares de cumplimiento.",
+      "title": "Seguridad y controles de datos",
+      "description": "Controles documentados, un programa activo de corrección y evidencias disponibles para revisión.",
       "architectureTitle": "Arquitectura de Seguridad",
       "architectureDescription": "Seis pilares que protegen tus datos desde la ingesta hasta la información.",
-      "complianceTitle": "Cumplimiento y Certificaciones",
+      "complianceTitle": "Estado de las garantías",
       "ctaTitle": "¿Preguntas sobre seguridad?",
-      "ctaDescription": "Nuestro equipo está feliz de discutir nuestras prácticas de seguridad y certificaciones de cumplimiento.",
+      "ctaDescription": "Controles documentados, un programa activo de corrección y evidencias disponibles para revisión.",
       "ctaPrimary": "Contáctanos",
       "ctaSecondary": "Ver Documentación",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Cifrado en reposo y en tránsito",
-          "description": "Todos los datos están cifrados utilizando AES-256 en reposo y TLS 1.3 en tránsito. Las claves API y credenciales se almacenan en bóvedas aisladas y cifradas, nunca en el código fuente."
+          "description": "TLS y el cifrado protegen los servicios compatibles. La gestión de claves y la cobertura de proveedores dependen del despliegue."
         },
         {
           "icon": "integration",
           "title": "Integraciones Seguras",
-          "description": "Las conexiones de POS, nómina e inventario utilizan OAuth 2.0 o tokens API cifrados con un alcance de privilegios mínimos. Nunca almacenamos credenciales en bruto de sistemas de terceros."
+          "description": "Las integraciones usan accesos delimitados y almacenamiento cifrado de credenciales cuando se admite."
         },
         {
           "icon": "operators",
           "title": "Control de Acceso Basado en Roles",
-          "description": "RBAC granular te permite controlar quién ve qué, desde operadores a nivel de ubicación hasta ejecutivos a nivel de cartera. Cada acción se registra en auditoría."
+          "description": "Los controles por organización, jerarquía y rol restringen el acceso a los registros del cliente."
         },
         {
           "icon": "data",
           "title": "Aislamiento y Residencia de Datos",
-          "description": "Los datos de cada cliente están lógicamente aislados. Apoyamos los requisitos de residencia de datos regionales y podemos implementar dentro de geografías específicas bajo solicitud."
+          "description": "La residencia regional y el alojamiento del cliente requieren una implementación delimitada y condiciones de despliegue firmadas."
         },
         {
           "icon": "performance",
           "title": "Infraestructura y Monitoreo",
-          "description": "Alojado en infraestructura en la nube de nivel empresarial con conmutación por error automatizada, monitoreo activo y prácticas documentadas de respuesta a incidentes."
+          "description": "Existen procedimientos de supervisión e incidentes. Los objetivos de recuperación requieren pruebas de restauración medidas."
         },
         {
           "icon": "dashboard",
           "title": "Registro de Auditoría y Transparencia",
-          "description": "Cada acceso a datos, exportación y cambio de configuración se registra. Los clientes pueden solicitar registros de auditoría y documentación de cumplimiento en cualquier momento."
+          "description": "Los registros de auditoría cubren acciones específicas. Solicite evidencias de los servicios y el período incluidos."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Cumplimiento total con el Reglamento General de Protección de Datos de la UE, incluyendo derechos de los interesados, bases legales para el tratamiento y disponibilidad de DPA."
+          "description": "Existen políticas de privacidad y procesos de derechos. Su cobertura y excepciones dependen del tratamiento incluido."
         },
         {
           "title": "SOC 2 Tipo II",
-          "description": "Buscando la certificación SOC 2 Tipo II que cubre criterios de confianza en seguridad, disponibilidad y confidencialidad.",
+          "description": "Hay un programa activo de preparación de seguridad basado en evidencias. Sundae no dispone actualmente de un informe SOC 2.",
           "note": "En progreso"
         },
         {
           "title": "Acuerdos de Procesamiento de Datos",
-          "description": "DPAs estándar disponibles para todos los clientes empresariales. Términos personalizados de manejo de datos negociables para grandes implementaciones."
+          "description": "Confirme el DPA vigente, los anexos de tratamiento y la versión aprobada del registro de subencargados antes de firmar."
         },
         {
           "title": "Pruebas de Penetración",
-          "description": "Pruebas de penetración regulares por terceros y evaluaciones de vulnerabilidad. Los hallazgos se corrigen dentro de los SLA definidos."
+          "description": "Se está buscando un proveedor independiente de pruebas de penetración. No se afirma disponer de un informe de terceros completado."
         }
       ]
     },
     "de": {
       "badge": "Sicherheit & Compliance",
-      "title": "Sicherheit auf Unternehmensniveau",
-      "description": "Ihre Daten sind durch branchenführende Sicherheitspraktiken, Verschlüsselung und Compliance-Standards geschützt.",
+      "title": "Sicherheit und Datenkontrollen",
+      "description": "Dokumentierte Kontrollen, ein laufendes Maßnahmenprogramm und einsehbare Nachweise.",
       "architectureTitle": "Sicherheitsarchitektur",
       "architectureDescription": "Sechs Säulen, die Ihre Daten vom Eingang bis zur Einsicht schützen.",
-      "complianceTitle": "Compliance & Zertifizierungen",
+      "complianceTitle": "Stand der Nachweise",
       "ctaTitle": "Fragen zur Sicherheit?",
-      "ctaDescription": "Unser Team freut sich, unsere Sicherheitspraktiken und Compliance-Zertifizierungen zu besprechen.",
+      "ctaDescription": "Dokumentierte Kontrollen, ein laufendes Maßnahmenprogramm und einsehbare Nachweise.",
       "ctaPrimary": "Kontaktieren Sie uns",
       "ctaSecondary": "Dokumentation anzeigen",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Verschlüsselung im Ruhezustand & während der Übertragung",
-          "description": "Alle Daten werden im Ruhezustand mit AES-256 und während der Übertragung mit TLS 1.3 verschlüsselt. API-Schlüssel und Anmeldeinformationen werden in isolierten, verschlüsselten Tresoren gespeichert - niemals im Quellcode."
+          "description": "TLS und Verschlüsselung schützen unterstützte Dienste. Schlüsselverwaltung und Anbieterabdeckung hängen von der Bereitstellung ab."
         },
         {
           "icon": "integration",
           "title": "Sichere Integrationen",
-          "description": "POS-, Lohn- und Bestandsverbindungen verwenden OAuth 2.0 oder verschlüsselte API-Token mit minimalen Berechtigungen. Wir speichern niemals rohe Anmeldeinformationen von Drittsystemen."
+          "description": "Integrationen verwenden begrenzte Zugriffsrechte und, soweit unterstützt, verschlüsselt gespeicherte Zugangsdaten."
         },
         {
           "icon": "operators",
           "title": "Rollenbasierte Zugriffskontrolle",
-          "description": "Granulare RBAC ermöglicht es Ihnen, zu steuern, wer was sieht - von standortbezogenen Betreibern bis hin zu portfoliobasierten Führungskräften. Jede Aktion wird protokolliert."
+          "description": "Organisations-, Hierarchie- und Rollenkontrollen beschränken den Zugriff auf Kundendaten."
         },
         {
           "icon": "data",
           "title": "Datenisolierung & -residenz",
-          "description": "Die Daten jedes Kunden sind logisch isoliert. Wir unterstützen regionale Anforderungen an die Datenresidenz und können auf Anfrage in bestimmten geografischen Regionen bereitgestellt werden."
+          "description": "Regionale Datenresidenz und kundeneigenes Hosting erfordern einen definierten Implementierungsumfang und unterzeichnete Bereitstellungsbedingungen."
         },
         {
           "icon": "performance",
           "title": "Infrastruktur & Überwachung",
-          "description": "Gehostet auf Cloud-Infrastruktur der Unternehmensklasse mit automatischem Failover, aktiver Überwachung und dokumentierten Vorfallreaktionspraktiken."
+          "description": "Überwachungs- und Vorfallprozesse bestehen. Wiederherstellungsziele müssen durch gemessene Wiederherstellungstests belegt werden."
         },
         {
           "icon": "dashboard",
           "title": "Audit-Protokollierung & Transparenz",
-          "description": "Jeder Datenzugriff, Export und jede Konfigurationsänderung wird protokolliert. Kunden können jederzeit Audit-Trails und Compliance-Dokumentationen anfordern."
+          "description": "Auditprotokolle erfassen ausgewählte Aktionen. Fordern Sie Nachweise für die betroffenen Dienste und Zeiträume an."
         }
       ],
       "compliance": [
         {
           "title": "DSGVO",
-          "description": "Vollständige Einhaltung der EU-Datenschutz-Grundverordnung, einschließlich der Rechte der betroffenen Personen, rechtmäßiger Verarbeitung und Verfügbarkeit von DPA."
+          "description": "Datenschutzrichtlinien und Verfahren für Betroffenenrechte bestehen. Abdeckung und Ausnahmen hängen von den jeweiligen Verarbeitungen ab."
         },
         {
           "title": "SOC 2 Typ II",
-          "description": "Verfolgung der SOC 2 Typ II-Zertifizierung, die Sicherheits-, Verfügbarkeits- und Vertraulichkeitskriterien abdeckt.",
+          "description": "Ein nachweisgestütztes Sicherheitsprogramm läuft. Sundae verfügt derzeit über keinen SOC-2-Bericht.",
           "note": "In Bearbeitung"
         },
         {
           "title": "Datenverarbeitungsverträge",
-          "description": "Standard-DPAs für alle Unternehmenskunden verfügbar. Individuelle Datenverarbeitungsbedingungen verhandelbar für große Implementierungen."
+          "description": "Bestätigen Sie vor Unterzeichnung den gültigen AV-Vertrag, die Verarbeitungsanhänge und die freigegebene Version des Unterauftragsverarbeiterregisters."
         },
         {
           "title": "Penetrationstests",
-          "description": "Regelmäßige Penetrationstests durch Dritte und Schwachstellenbewertungen. Ergebnisse werden innerhalb definierter SLAs behoben."
+          "description": "Ein unabhängiger Anbieter für Penetrationstests wird gesucht. Ein abgeschlossener Testbericht Dritter wird nicht behauptet."
         }
       ]
     },
     "nl": {
       "badge": "Beveiliging & Naleving",
-      "title": "Beveiliging van ondernemingsniveau",
-      "description": "Uw gegevens zijn beschermd door toonaangevende beveiligingspraktijken, encryptie en nalevingsnormen.",
+      "title": "Beveiliging en gegevensbeheer",
+      "description": "Gedocumenteerde maatregelen, een actief verbeterprogramma en beschikbare bewijsstukken.",
       "architectureTitle": "Beveiligingsarchitectuur",
       "architectureDescription": "Zes pijlers die uw gegevens beschermen van inname tot inzicht.",
-      "complianceTitle": "Naleving & Certificeringen",
+      "complianceTitle": "Status van de onderbouwing",
       "ctaTitle": "Vragen Over Beveiliging?",
-      "ctaDescription": "Ons team bespreekt graag onze beveiligingspraktijken en nalevingscertificeringen.",
+      "ctaDescription": "Gedocumenteerde maatregelen, een actief verbeterprogramma en beschikbare bewijsstukken.",
       "ctaPrimary": "Neem contact met ons op",
       "ctaSecondary": "Bekijk Documentatie",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Versleuteling in Rust & tijdens Transport",
-          "description": "Alle gegevens zijn versleuteld met AES-256 in rust en TLS 1.3 tijdens transport. API-sleutels en inloggegevens worden opgeslagen in geïsoleerde, versleutelde kluizen - nooit in de broncode."
+          "description": "TLS en versleuteling beschermen ondersteunde diensten. Sleutelbeheer en leveranciersdekking hangen af van de implementatie."
         },
         {
           "icon": "integration",
           "title": "Veilige Integraties",
-          "description": "POS-, salaris- en voorraadverbindingen gebruiken OAuth 2.0 of versleutelde API-tokens met minimale toegangsrechten. We slaan nooit ruwe inloggegevens van externe systemen op."
+          "description": "Integraties gebruiken beperkte toegang en versleutelde opslag van inloggegevens waar dit wordt ondersteund."
         },
         {
           "icon": "operators",
           "title": "Rolgebaseerde Toegangscontrole",
-          "description": "Granulaire RBAC stelt je in staat te controleren wie wat ziet - van locatiegebonden operators tot portefeuille-executives. Elke actie wordt gelogd."
+          "description": "Controles op organisatie, hiërarchie en rol beperken de toegang tot klantgegevens."
         },
         {
           "icon": "data",
           "title": "Gegevensisolatie & Verblijfplaats",
-          "description": "De gegevens van elke klant zijn logisch geïsoleerd. We ondersteunen regionale vereisten voor gegevensverblijf en kunnen op verzoek binnen specifieke geografische gebieden implementeren."
+          "description": "Regionale gegevensopslag en hosting bij de klant vereisen een afgebakende implementatie en ondertekende afspraken."
         },
         {
           "icon": "performance",
           "title": "Infrastructuur & Monitoring",
-          "description": "Gehost op cloudinfrastructuur van ondernemingskwaliteit met automatische failover, actieve monitoring en gedocumenteerde incidentresponspraktijken."
+          "description": "Er zijn procedures voor monitoring en incidenten. Hersteldoelen vereisen gemeten hersteltests."
         },
         {
           "icon": "dashboard",
           "title": "Auditlogging & Transparantie",
-          "description": "Elke toegang tot gegevens, export en configuratiewijziging wordt gelogd. Klanten kunnen op elk moment verzoeken om auditsporen en compliance-documentatie."
+          "description": "Auditlogboeken dekken bepaalde handelingen. Vraag bewijs voor de betrokken diensten en periode."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Volledige naleving van de EU Algemene Verordening Gegevensbescherming, inclusief rechten van betrokkenen, rechtmatige basisverwerking en beschikbaarheid van DPA."
+          "description": "Er zijn privacybeleidsregels en procedures voor betrokkenenrechten. Dekking en uitzonderingen hangen af van de verwerking."
         },
         {
           "title": "SOC 2 Type II",
-          "description": "Streven naar SOC 2 Type II-certificering die de criteria voor beveiliging, beschikbaarheid en vertrouwelijkheid dekt.",
+          "description": "Een op bewijs gebaseerd beveiligingsprogramma is actief. Sundae heeft momenteel geen SOC 2-rapport.",
           "note": "In uitvoering"
         },
         {
           "title": "Gegevensverwerkingsovereenkomsten",
-          "description": "Standaard DPA's beschikbaar voor alle zakelijke klanten. Aangepaste gegevensverwerkingsvoorwaarden bespreekbaar voor grote implementaties."
+          "description": "Bevestig vóór ondertekening de geldende verwerkersovereenkomst, verwerkingsbijlagen en goedgekeurde versie van het subverwerkersregister."
         },
         {
           "title": "Penetratietests",
-          "description": "Regelmatige penetratietests door derden en kwetsbaarheidsbeoordelingen. Bevindingen worden binnen gedefinieerde SLA's verholpen."
+          "description": "Er wordt een onafhankelijke partij voor penetratests gezocht. Er wordt geen afgerond testrapport van derden geclaimd."
         }
       ]
     },
     "fr": {
       "badge": "Sécurité et conformité",
-      "title": "Sécurité de niveau entreprise",
-      "description": "Vos données sont protégées par des pratiques de sécurité de pointe, un chiffrement et des normes de conformité.",
+      "title": "Sécurité et contrôle des données",
+      "description": "Des contrôles documentés, un programme de remédiation actif et des preuves consultables.",
       "architectureTitle": "Architecture de sécurité",
       "architectureDescription": "Six piliers qui protègent vos données de l'ingestion à l'analyse.",
-      "complianceTitle": "Conformité & Certifications",
+      "complianceTitle": "État des garanties",
       "ctaTitle": "Des questions sur la sécurité ?",
-      "ctaDescription": "Notre équipe est heureuse de discuter de nos pratiques de sécurité et de nos certifications de conformité.",
+      "ctaDescription": "Des contrôles documentés, un programme de remédiation actif et des preuves consultables.",
       "ctaPrimary": "Contactez-nous",
       "ctaSecondary": "Voir la documentation",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Chiffrement au repos et en transit",
-          "description": "Toutes les données sont chiffrées en utilisant AES-256 au repos et TLS 1.3 en transit. Les clés API et les identifiants sont stockés dans des coffres-forts isolés et chiffrés - jamais dans le code source."
+          "description": "TLS et le chiffrement protègent les services pris en charge. La gestion des clés et la couverture des fournisseurs dépendent du déploiement."
         },
         {
           "icon": "integration",
           "title": "Intégrations Sécurisées",
-          "description": "Les connexions POS, de paie et d'inventaire utilisent OAuth 2.0 ou des jetons API chiffrés avec un périmètre de moindre privilège. Nous ne stockons jamais d'identifiants bruts provenant de systèmes tiers."
+          "description": "Les intégrations utilisent des accès limités et un stockage chiffré des identifiants lorsque ces mécanismes sont pris en charge."
         },
         {
           "icon": "operators",
           "title": "Contrôle d'Accès Basé sur les Rôles",
-          "description": "Le RBAC granulaire vous permet de contrôler qui voit quoi - des opérateurs au niveau de l'emplacement aux cadres au niveau du portefeuille. Chaque action est enregistrée dans un audit."
+          "description": "Les contrôles par organisation, hiérarchie et rôle limitent l’accès aux dossiers clients."
         },
         {
           "icon": "data",
           "title": "Isolation et Résidence des Données",
-          "description": "Les données de chaque client sont logiquement isolées. Nous soutenons les exigences de résidence des données régionales et pouvons déployer dans des géographies spécifiques sur demande."
+          "description": "La résidence régionale et l’hébergement chez le client nécessitent un périmètre de mise en œuvre et des conditions de déploiement signées."
         },
         {
           "icon": "performance",
           "title": "Infrastructure et Surveillance",
-          "description": "Hébergé sur une infrastructure cloud de niveau entreprise avec basculement automatique, surveillance active et pratiques documentées de réponse aux incidents."
+          "description": "Des procédures de surveillance et de gestion des incidents existent. Les objectifs de reprise nécessitent des tests de restauration mesurés."
         },
         {
           "icon": "dashboard",
           "title": "Journalisation des Audits et Transparence",
-          "description": "Chaque accès aux données, exportation et changement de configuration est enregistré. Les clients peuvent demander des pistes d'audit et des documents de conformité à tout moment."
+          "description": "Les journaux couvrent certaines actions. Demandez les preuves correspondant aux services et à la période concernés."
         }
       ],
       "compliance": [
         {
           "title": "RGPD",
-          "description": "Conformité totale au Règlement Général sur la Protection des Données de l'UE, y compris les droits des personnes concernées, le traitement sur une base légale et la disponibilité des DPA."
+          "description": "Des politiques de confidentialité et des procédures d’exercice des droits existent. Leur couverture et leurs exceptions dépendent des traitements concernés."
         },
         {
           "title": "SOC 2 Type II",
-          "description": "Poursuite de la certification SOC 2 Type II couvrant les critères de confiance en matière de sécurité, de disponibilité et de confidentialité.",
+          "description": "Un programme de préparation à la sécurité fondé sur des preuves est actif. Sundae ne dispose actuellement d’aucun rapport SOC 2.",
           "note": "En cours"
         },
         {
           "title": "Accords de Traitement des Données",
-          "description": "DPA standard disponibles pour tous les clients entreprises. Conditions de traitement des données personnalisées négociables pour les grandes déploiements."
+          "description": "Confirmez le DPA en vigueur, les annexes de traitement et la version approuvée du registre des sous-traitants avant signature."
         },
         {
           "title": "Tests de Pénétration",
-          "description": "Tests de pénétration réguliers par des tiers et évaluations de vulnérabilité. Les résultats sont corrigés dans les SLA définis."
+          "description": "Un prestataire indépendant de test d’intrusion est en cours de sélection. Aucun rapport de test tiers achevé n’est revendiqué."
         }
       ]
     },
     "ar": {
       "badge": "الأمان والامتثال",
-      "title": "أمان على مستوى المؤسسات",
-      "description": "تتم حماية بياناتك بواسطة ممارسات أمان رائدة في الصناعة، والتشفير، ومعايير الامتثال.",
+      "title": "الأمن وضوابط البيانات",
+      "description": "ضوابط موثقة وبرنامج معالجة نشط وأدلة متاحة للمراجعة.",
       "architectureTitle": "بنية الأمان",
       "architectureDescription": "ستة أعمدة تحمي بياناتك من الاستيعاب إلى الرؤية.",
-      "complianceTitle": "الامتثال والشهادات",
+      "complianceTitle": "حالة الضمان الأمني",
       "ctaTitle": "أسئلة حول الأمان؟",
-      "ctaDescription": "يسعد فريقنا بمناقشة ممارساتنا الأمنية وشهادات الامتثال.",
+      "ctaDescription": "ضوابط موثقة وبرنامج معالجة نشط وأدلة متاحة للمراجعة.",
       "ctaPrimary": "اتصل بنا",
       "ctaSecondary": "عرض الوثائق",
       "pillars": [
         {
           "icon": "alerts",
           "title": "تشفير البيانات أثناء الراحة والنقل",
-          "description": "جميع البيانات مشفرة باستخدام AES-256 أثناء الراحة وTLS 1.3 أثناء النقل. يتم تخزين مفاتيح API والبيانات الاعتمادية في خزائن معزولة ومشفرة - وليس في شفرة المصدر."
+          "description": "تحمي تقنيات TLS والتشفير الخدمات المدعومة. تختلف إدارة المفاتيح وتغطية المزوّدين بحسب بيئة النشر."
         },
         {
           "icon": "integration",
           "title": "تكاملات آمنة",
-          "description": "تستخدم اتصالات POS والرواتب والمخزون OAuth 2.0 أو رموز API مشفرة مع نطاق الحد الأدنى من الامتيازات. نحن لا نخزن أبدًا بيانات الاعتماد الخام من الأنظمة الخارجية."
+          "description": "تستخدم التكاملات صلاحيات محددة وتخزيناً مشفراً لبيانات الاعتماد حيثما كان ذلك مدعوماً."
         },
         {
           "icon": "operators",
           "title": "التحكم في الوصول القائم على الدور",
-          "description": "يسمح لك RBAC الدقيق بالتحكم في من يرى ماذا - من المشغلين على مستوى الموقع إلى التنفيذيين على مستوى المحفظة. يتم تسجيل كل إجراء."
+          "description": "تقيّد ضوابط المؤسسة والتسلسل التنظيمي والأدوار الوصول إلى سجلات العملاء."
         },
         {
           "icon": "data",
           "title": "عزل البيانات والإقامة",
-          "description": "بيانات كل عميل معزولة منطقيًا. نحن ندعم متطلبات الإقامة الإقليمية للبيانات ويمكننا النشر ضمن جغرافيا محددة عند الطلب."
+          "description": "تتطلب إقامة البيانات إقليمياً والاستضافة المملوكة للعميل تنفيذاً محدد النطاق وشروط نشر موقّعة."
         },
         {
           "icon": "performance",
           "title": "البنية التحتية والمراقبة",
-          "description": "مستضافة على بنية تحتية سحابية من الدرجة المؤسسية مع فشل تلقائي، ومراقبة نشطة، وممارسات موثقة للاستجابة للحوادث."
+          "description": "توجد إجراءات للمراقبة والاستجابة للحوادث. تتطلب أهداف التعافي اختبارات استعادة مقاسة."
         },
         {
           "icon": "dashboard",
           "title": "تسجيل التدقيق والشفافية",
-          "description": "يتم تسجيل كل وصول إلى البيانات، والتصدير، وتغيير التكوين. يمكن للعملاء طلب سجلات التدقيق ووثائق الامتثال في أي وقت."
+          "description": "تغطي سجلات التدقيق إجراءات محددة. اطلب الأدلة الخاصة بالخدمات والفترة المشمولة."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "الامتثال الكامل للائحة حماية البيانات العامة للاتحاد الأوروبي بما في ذلك حقوق موضوع البيانات، ومعالجة الأسس القانونية، وتوافر اتفاقيات معالجة البيانات."
+          "description": "توجد سياسات للخصوصية ومسارات لطلبات الحقوق. تعتمد التغطية والاستثناءات على المعالجة المشمولة."
         },
         {
           "title": "SOC 2 Type II",
-          "description": "السعي للحصول على شهادة SOC 2 Type II التي تغطي معايير الثقة للأمان، والتوافر، والسرية.",
+          "description": "يوجد برنامج نشط للاستعداد الأمني قائم على الأدلة. لا تملك Sundae حالياً تقرير SOC 2.",
           "note": "قيد التقدم"
         },
         {
           "title": "اتفاقيات معالجة البيانات",
-          "description": "اتفاقيات معالجة البيانات القياسية متاحة لجميع العملاء من الشركات. شروط معالجة البيانات المخصصة قابلة للتفاوض للنشر الكبير."
+          "description": "تحقّق من اتفاقية معالجة البيانات النافذة وملاحق المعالجة وإصدار سجل المعالجين الفرعيين المعتمد قبل التوقيع."
         },
         {
           "title": "اختبار الاختراق",
-          "description": "اختبارات اختراق منتظمة من طرف ثالث وتقييمات الثغرات. يتم معالجة النتائج ضمن اتفاقيات مستوى الخدمة المحددة."
+          "description": "يجري البحث عن جهة مستقلة لاختبار الاختراق. لا ندّعي وجود تقرير مكتمل لاختبار أجراه طرف ثالث."
         }
       ]
     },
     "pt": {
       "badge": "Segurança e Conformidade",
-      "title": "Segurança de Nível Empresarial",
-      "description": "Seus dados estão protegidos por práticas de segurança líderes do setor, criptografia e padrões de conformidade.",
+      "title": "Segurança e controles de dados",
+      "description": "Controles documentados, um programa ativo de correção e evidências disponíveis para análise.",
       "architectureTitle": "Arquitetura de Segurança",
       "architectureDescription": "Seis pilares que protegem seus dados desde a ingestão até a análise.",
-      "complianceTitle": "Conformidade e Certificações",
+      "complianceTitle": "Situação das evidências",
       "ctaTitle": "Perguntas sobre Segurança?",
-      "ctaDescription": "Nossa equipe está à disposição para discutir nossas práticas de segurança e certificações de conformidade.",
+      "ctaDescription": "Controles documentados, um programa ativo de correção e evidências disponíveis para análise.",
       "ctaPrimary": "Entre em Contato",
       "ctaSecondary": "Ver Documentação",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Criptografia em Repouso e em Trânsito",
-          "description": "Todos os dados são criptografados usando AES-256 em repouso e TLS 1.3 em trânsito. Chaves de API e credenciais são armazenadas em cofres isolados e criptografados - nunca no código-fonte."
+          "description": "TLS e criptografia protegem os serviços compatíveis. A gestão de chaves e a cobertura dos fornecedores dependem da implantação."
         },
         {
           "icon": "integration",
           "title": "Integrações Seguras",
-          "description": "Conexões de POS, folha de pagamento e inventário usam OAuth 2.0 ou tokens de API criptografados com escopo de menor privilégio. Nunca armazenamos credenciais brutas de sistemas de terceiros."
+          "description": "As integrações usam acesso delimitado e armazenamento criptografado de credenciais quando há suporte."
         },
         {
           "icon": "operators",
           "title": "Controle de Acesso Baseado em Funções",
-          "description": "RBAC granular permite controlar quem vê o quê - desde operadores em nível de local até executivos em nível de portfólio. Cada ação é registrada em auditoria."
+          "description": "Controles por organização, hierarquia e função restringem o acesso aos registros dos clientes."
         },
         {
           "icon": "data",
           "title": "Isolamento e Residência de Dados",
-          "description": "Os dados de cada cliente são logicamente isolados. Suportamos requisitos regionais de residência de dados e podemos implantar dentro de geografias específicas mediante solicitação."
+          "description": "Residência regional e hospedagem do cliente exigem implementação com escopo definido e condições de implantação assinadas."
         },
         {
           "icon": "performance",
           "title": "Infraestrutura e Monitoramento",
-          "description": "Hospedado em infraestrutura de nuvem de nível empresarial com failover automático, monitoramento ativo e práticas documentadas de resposta a incidentes."
+          "description": "Existem procedimentos de monitoramento e incidentes. As metas de recuperação exigem testes de restauração medidos."
         },
         {
           "icon": "dashboard",
           "title": "Registro de Auditoria e Transparência",
-          "description": "Cada acesso a dados, exportação e alteração de configuração é registrado. Os clientes podem solicitar trilhas de auditoria e documentação de conformidade a qualquer momento."
+          "description": "Os registros de auditoria abrangem ações específicas. Solicite evidências dos serviços e do período em questão."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Conformidade total com o Regulamento Geral sobre a Proteção de Dados da UE, incluindo direitos dos titulares de dados, bases legais para processamento e disponibilidade de DPA."
+          "description": "Existem políticas de privacidade e processos para exercício de direitos. A cobertura e as exceções dependem do tratamento em questão."
         },
         {
           "title": "SOC 2 Tipo II",
-          "description": "Buscando certificação SOC 2 Tipo II cobrindo critérios de confiança de segurança, disponibilidade e confidencialidade.",
+          "description": "Há um programa ativo de preparação de segurança baseado em evidências. A Sundae não possui atualmente um relatório SOC 2.",
           "note": "Em andamento"
         },
         {
           "title": "Acordos de Processamento de Dados",
-          "description": "DPAs padrão disponíveis para todos os clientes corporativos. Termos personalizados de manuseio de dados negociáveis para grandes implantações."
+          "description": "Confirme o DPA vigente, os anexos de tratamento e a versão aprovada do registro de suboperadores antes da assinatura."
         },
         {
           "title": "Teste de Penetração",
-          "description": "Testes de penetração regulares de terceiros e avaliações de vulnerabilidade. Resultados são corrigidos dentro dos SLAs definidos."
+          "description": "Está sendo selecionado um fornecedor independente de testes de invasão. Não se afirma possuir relatório de terceiros concluído."
         }
       ]
     },
     "ur": {
       "badge": "سیکیورٹی اور تعمیل",
-      "title": "انٹرپرائز-گریڈ سیکیورٹی",
-      "description": "آپ کے ڈیٹا کی حفاظت صنعت کے بہترین سیکیورٹی طریقوں، انکرپشن، اور تعمیل کے معیارات کے ذریعے کی جاتی ہے۔",
+      "title": "سکیورٹی اور ڈیٹا کنٹرولز",
+      "description": "دستاویزی کنٹرولز، اصلاح کا فعال پروگرام اور جائزے کے لیے دستیاب شواہد۔",
       "architectureTitle": "سیکیورٹی آرکیٹیکچر",
       "architectureDescription": "چھ ستون جو آپ کے ڈیٹا کو حاصل کرنے سے لے کر بصیرت تک محفوظ رکھتے ہیں۔",
-      "complianceTitle": "مطابقت اور سرٹیفیکیشنز",
+      "complianceTitle": "یقین دہانی کی صورت حال",
       "ctaTitle": "سیکیورٹی کے بارے میں سوالات؟",
-      "ctaDescription": "ہماری ٹیم ہمارے سیکیورٹی طریقوں اور تعمیل کی تصدیقوں پر بات کرنے کے لیے خوش ہے۔",
+      "ctaDescription": "دستاویزی کنٹرولز، اصلاح کا فعال پروگرام اور جائزے کے لیے دستیاب شواہد۔",
       "ctaPrimary": "ہم سے رابطہ کریں",
       "ctaSecondary": "دستاویزات دیکھیں",
       "pillars": [
         {
           "icon": "alerts",
           "title": "آرام اور منتقلی میں انکرپشن",
-          "description": "تمام ڈیٹا کو آرام میں AES-256 اور منتقلی میں TLS 1.3 کے ذریعے انکرپٹ کیا جاتا ہے۔ API کیز اور اسناد کو الگ، انکرپٹڈ والٹس میں محفوظ کیا جاتا ہے - کبھی بھی سورس کوڈ میں نہیں۔"
+          "description": "معاون خدمات میں TLS اور انکرپشن استعمال ہوتے ہیں۔ کلیدوں کا انتظام اور فراہم کنندگان کی کوریج تعیناتی پر منحصر ہیں۔"
         },
         {
           "icon": "integration",
           "title": "محفوظ انضمام",
-          "description": "POS، تنخواہ، اور انوینٹری کنکشن OAuth 2.0 یا انکرپٹڈ API ٹوکن کے ساتھ کم سے کم اجازت کی دائرہ بندی کا استعمال کرتے ہیں۔ ہم کبھی بھی تیسرے فریق کے نظام سے خام اسناد کو محفوظ نہیں کرتے۔"
+          "description": "انضمام میں محدود رسائی اور جہاں معاونت ہو، اسناد کا انکرپٹڈ ذخیرہ استعمال ہوتا ہے۔"
         },
         {
           "icon": "operators",
           "title": "کردار پر مبنی رسائی کنٹرول",
-          "description": "تفصیلی RBAC آپ کو کنٹرول کرنے کی اجازت دیتا ہے کہ کون کیا دیکھتا ہے - مقام کی سطح کے آپریٹرز سے لے کر پورٹ فولیو کی سطح کے ایگزیکٹوز تک۔ ہر عمل کا آڈٹ لاگ ہوتا ہے۔"
+          "description": "ادارے، تنظیمی درجہ بندی اور کردار کے کنٹرولز صارفین کے ریکارڈ تک رسائی محدود کرتے ہیں۔"
         },
         {
           "icon": "data",
           "title": "ڈیٹا کی علیحدگی اور رہائش",
-          "description": "ہر گاہک کا ڈیٹا منطقی طور پر علیحدہ ہوتا ہے۔ ہم علاقائی ڈیٹا رہائش کی ضروریات کی حمایت کرتے ہیں اور درخواست پر مخصوص جغرافیوں میں تعینات کر سکتے ہیں۔"
+          "description": "علاقائی ڈیٹا رہائش اور صارف کی اپنی ہوسٹنگ کے لیے متعین نفاذ اور دستخط شدہ تعیناتی شرائط درکار ہیں۔"
         },
         {
           "icon": "performance",
           "title": "انفراسٹرکچر اور نگرانی",
-          "description": "انٹرپرائز گریڈ کلاؤڈ انفراسٹرکچر پر ہوسٹ کیا گیا ہے جس میں خودکار فیل اوور، فعال نگرانی، اور دستاویزی واقعہ کے جواب کے طریقے شامل ہیں۔"
+          "description": "نگرانی اور واقعات کے طریقہ کار موجود ہیں۔ بحالی کے اہداف کے لیے ناپے گئے بحالی ٹیسٹ درکار ہیں۔"
         },
         {
           "icon": "dashboard",
           "title": "آڈٹ لاگنگ اور شفافیت",
-          "description": "ہر ڈیٹا تک رسائی، برآمد، اور تشکیل میں تبدیلی کا لاگ ہوتا ہے۔ گاہک کسی بھی وقت آڈٹ ٹریل اور تعمیل کی دستاویزات کی درخواست کر سکتے ہیں۔"
+          "description": "آڈٹ ریکارڈ مخصوص اقدامات کا احاطہ کرتے ہیں۔ متعلقہ خدمات اور مدت کے شواہد طلب کریں۔"
         }
       ],
       "compliance": [
         {
           "title": "جی ڈی پی آر",
-          "description": "EU جنرل ڈیٹا پروٹیکشن ریگولیشن کے ساتھ مکمل تعمیل بشمول ڈیٹا سبجیکٹ کے حقوق، قانونی بنیاد پر پروسیسنگ، اور ڈی پی اے کی دستیابی۔"
+          "description": "رازداری کی پالیسیاں اور حقوق کی درخواستوں کے طریقہ کار موجود ہیں۔ کوریج اور استثنا متعلقہ پروسیسنگ پر منحصر ہیں۔"
         },
         {
           "title": "SOC 2 قسم II",
-          "description": "سیکیورٹی، دستیابی، اور رازداری کے اعتماد کی خدمات کے معیار کا احاطہ کرنے والی SOC 2 قسم II کی تصدیق کے حصول کی کوشش۔",
+          "description": "شواہد پر مبنی سکیورٹی تیاری کا پروگرام فعال ہے۔ Sundae کے پاس فی الحال SOC 2 رپورٹ نہیں ہے۔",
           "note": "جاری ہے"
         },
         {
           "title": "ڈیٹا پروسیسنگ معاہدے",
-          "description": "تمام انٹرپرائز صارفین کے لیے معیاری ڈی پی اے دستیاب ہیں۔ بڑے ڈپلائمنٹس کے لیے حسب ضرورت ڈیٹا ہینڈلنگ کی شرائط پر بات چیت کی جا سکتی ہے۔"
+          "description": "دستخط سے پہلے نافذ DPA، پروسیسنگ ضمیموں اور منظور شدہ ذیلی پروسیسر رجسٹر کے نسخے کی تصدیق کریں۔"
         },
         {
           "title": "پینیٹریشن ٹیسٹنگ",
-          "description": "باقاعدہ تیسری پارٹی کی پینیٹریشن ٹیسٹنگ اور خطرات کا اندازہ۔ نتائج کو متعین SLA کے اندر درست کیا جاتا ہے۔"
+          "description": "آزاد پینیٹریشن ٹیسٹنگ فراہم کنندہ کی تلاش جاری ہے۔ مکمل شدہ تیسرے فریق کی ٹیسٹ رپورٹ کا دعویٰ نہیں کیا جاتا۔"
         }
       ]
     },
     "hi": {
       "badge": "सुरक्षा और अनुपालन",
-      "title": "उद्यम-स्तरीय सुरक्षा",
-      "description": "आपका डेटा उद्योग में अग्रणी सुरक्षा प्रथाओं, एन्क्रिप्शन और अनुपालन मानकों द्वारा सुरक्षित है।",
+      "title": "सुरक्षा और डेटा नियंत्रण",
+      "description": "दस्तावेज़ित नियंत्रण, सक्रिय सुधार कार्यक्रम और समीक्षा के लिए उपलब्ध साक्ष्य।",
       "architectureTitle": "सुरक्षा आर्किटेक्चर",
       "architectureDescription": "आपके डेटा को संग्रहण से अंतर्दृष्टि तक सुरक्षित रखने वाले छह स्तंभ।",
-      "complianceTitle": "अनुपालन और प्रमाणन",
+      "complianceTitle": "आश्वासन की स्थिति",
       "ctaTitle": "सुरक्षा के बारे में प्रश्न?",
-      "ctaDescription": "हमारी टीम हमारी सुरक्षा प्रथाओं और अनुपालन प्रमाणपत्रों पर चर्चा करने के लिए खुश है।",
+      "ctaDescription": "दस्तावेज़ित नियंत्रण, सक्रिय सुधार कार्यक्रम और समीक्षा के लिए उपलब्ध साक्ष्य।",
       "ctaPrimary": "हमसे संपर्क करें",
       "ctaSecondary": "दस्तावेज़ देखें",
       "pillars": [
         {
           "icon": "alerts",
           "title": "विश्राम और ट्रांजिट में एन्क्रिप्शन",
-          "description": "सभी डेटा को विश्राम में AES-256 और ट्रांजिट में TLS 1.3 का उपयोग करके एन्क्रिप्ट किया गया है। API कुंजी और क्रेडेंशियल्स को अलग, एन्क्रिप्टेड वॉल्ट में संग्रहीत किया जाता है - कभी भी स्रोत कोड में नहीं।"
+          "description": "समर्थित सेवाओं में TLS और एन्क्रिप्शन का उपयोग होता है। कुंजी प्रबंधन और प्रदाता कवरेज परिनियोजन पर निर्भर हैं।"
         },
         {
           "icon": "integration",
           "title": "सुरक्षित एकीकरण",
-          "description": "POS, पेरोल, और इन्वेंटरी कनेक्शन OAuth 2.0 या एन्क्रिप्टेड API टोकन का उपयोग करते हैं जिनमें न्यूनतम विशेषाधिकार स्कोपिंग होती है। हम कभी भी तीसरे पक्ष के सिस्टम से कच्चे क्रेडेंशियल्स को संग्रहीत नहीं करते।"
+          "description": "इंटीग्रेशन में सीमित पहुँच और जहाँ समर्थित हो, एन्क्रिप्टेड क्रेडेंशियल स्टोरेज का उपयोग होता है।"
         },
         {
           "icon": "operators",
           "title": "भूमिका-आधारित पहुंच नियंत्रण",
-          "description": "सूक्ष्म RBAC आपको यह नियंत्रित करने की अनुमति देता है कि कौन क्या देखता है - स्थान-स्तरीय ऑपरेटरों से लेकर पोर्टफोलियो-स्तरीय कार्यकारी तक। प्रत्येक क्रिया का ऑडिट-लॉग किया जाता है।"
+          "description": "संगठन, पदानुक्रम और भूमिका संबंधी नियंत्रण ग्राहक रिकॉर्ड तक पहुँच सीमित करते हैं।"
         },
         {
           "icon": "data",
           "title": "डेटा पृथक्करण और निवास",
-          "description": "प्रत्येक ग्राहक का डेटा तार्किक रूप से पृथक होता है। हम क्षेत्रीय डेटा निवास आवश्यकताओं का समर्थन करते हैं और अनुरोध पर विशिष्ट भौगोलिक क्षेत्रों में तैनात कर सकते हैं।"
+          "description": "क्षेत्रीय डेटा निवास और ग्राहक की होस्टिंग के लिए तय दायरे का कार्यान्वयन और हस्ताक्षरित परिनियोजन शर्तें आवश्यक हैं।"
         },
         {
           "icon": "performance",
           "title": "इन्फ्रास्ट्रक्चर और निगरानी",
-          "description": "स्वचालित फेलओवर, सक्रिय निगरानी, और प्रलेखित घटना प्रतिक्रिया प्रथाओं के साथ उद्यम-ग्रेड क्लाउड इन्फ्रास्ट्रक्चर पर होस्ट किया गया।"
+          "description": "निगरानी और घटना संबंधी प्रक्रियाएँ मौजूद हैं। पुनर्प्राप्ति लक्ष्यों के लिए मापे गए बहाली परीक्षण आवश्यक हैं।"
         },
         {
           "icon": "dashboard",
           "title": "ऑडिट लॉगिंग और पारदर्शिता",
-          "description": "प्रत्येक डेटा एक्सेस, निर्यात, और कॉन्फ़िगरेशन परिवर्तन को लॉग किया जाता है। ग्राहक किसी भी समय ऑडिट ट्रेल और अनुपालन दस्तावेज़ों का अनुरोध कर सकते हैं।"
+          "description": "ऑडिट रिकॉर्ड चुनी हुई कार्रवाइयों को कवर करते हैं। संबंधित सेवाओं और अवधि के साक्ष्य माँगें।"
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "ईयू सामान्य डेटा संरक्षण विनियमन के साथ पूर्ण अनुपालन जिसमें डेटा विषय अधिकार, कानूनी आधार प्रसंस्करण, और DPA उपलब्धता शामिल है।"
+          "description": "गोपनीयता नीतियाँ और अधिकार अनुरोध की प्रक्रियाएँ मौजूद हैं। कवरेज और अपवाद संबंधित प्रोसेसिंग पर निर्भर हैं।"
         },
         {
           "title": "SOC 2 प्रकार II",
-          "description": "सुरक्षा, उपलब्धता, और गोपनीयता ट्रस्ट सेवा मानदंडों को कवर करने वाले SOC 2 प्रकार II प्रमाणन की प्रक्रिया।",
+          "description": "साक्ष्य आधारित सुरक्षा तैयारी कार्यक्रम सक्रिय है। Sundae के पास अभी SOC 2 रिपोर्ट नहीं है।",
           "note": "प्रगति पर"
         },
         {
           "title": "डेटा प्रोसेसिंग समझौते",
-          "description": "सभी उद्यम ग्राहकों के लिए मानक DPA उपलब्ध हैं। बड़े कार्यान्वयन के लिए कस्टम डेटा हैंडलिंग शर्तें बातचीत योग्य हैं।"
+          "description": "हस्ताक्षर से पहले प्रभावी DPA, प्रोसेसिंग परिशिष्ट और स्वीकृत उप-प्रोसेसर रजिस्टर संस्करण की पुष्टि करें।"
         },
         {
           "title": "पेनिट्रेशन परीक्षण",
-          "description": "नियमित तृतीय-पक्ष पेनिट्रेशन परीक्षण और कमजोरियों का आकलन। निष्कर्षों को परिभाषित SLA के भीतर सुधारित किया जाता है।"
+          "description": "स्वतंत्र पेनिट्रेशन परीक्षण प्रदाता की तलाश जारी है। किसी पूर्ण तृतीय-पक्ष परीक्षण रिपोर्ट का दावा नहीं किया जाता।"
         }
       ]
     },
     "it": {
       "badge": "Sicurezza e Conformità",
-      "title": "Sicurezza di livello enterprise",
-      "description": "I tuoi dati sono protetti da pratiche di sicurezza leader del settore, crittografia e standard di conformità.",
+      "title": "Sicurezza e controlli sui dati",
+      "description": "Controlli documentati, un programma attivo di correzione ed evidenze disponibili per la verifica.",
       "architectureTitle": "Architettura della Sicurezza",
       "architectureDescription": "Sei pilastri che proteggono i tuoi dati dall'ingestione all'analisi.",
-      "complianceTitle": "Conformità e Certificazioni",
+      "complianceTitle": "Stato delle garanzie",
       "ctaTitle": "Domande sulla sicurezza?",
-      "ctaDescription": "Il nostro team è felice di discutere le nostre pratiche di sicurezza e le certificazioni di conformità.",
+      "ctaDescription": "Controlli documentati, un programma attivo di correzione ed evidenze disponibili per la verifica.",
       "ctaPrimary": "Contattaci",
       "ctaSecondary": "Visualizza la documentazione",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Crittografia a Riposo e in Transito",
-          "description": "Tutti i dati sono crittografati utilizzando AES-256 a riposo e TLS 1.3 in transito. Le chiavi API e le credenziali sono memorizzate in vault isolati e crittografati - mai nel codice sorgente."
+          "description": "TLS e crittografia proteggono i servizi supportati. La gestione delle chiavi e la copertura dei fornitori dipendono dall’implementazione."
         },
         {
           "icon": "integration",
           "title": "Integrazioni Sicure",
-          "description": "Le connessioni POS, buste paga e inventario utilizzano OAuth 2.0 o token API crittografati con ambito di privilegio minimo. Non memorizziamo mai credenziali grezze da sistemi di terze parti."
+          "description": "Le integrazioni usano accessi limitati e archiviazione cifrata delle credenziali dove supportato."
         },
         {
           "icon": "operators",
           "title": "Controllo degli Accessi Basato sui Ruoli",
-          "description": "RBAC granulare ti consente di controllare chi vede cosa - dagli operatori a livello di posizione agli executive a livello di portafoglio. Ogni azione è registrata nel log di audit."
+          "description": "I controlli per organizzazione, gerarchia e ruolo limitano l’accesso ai dati dei clienti."
         },
         {
           "icon": "data",
           "title": "Isolamento e Residenza dei Dati",
-          "description": "I dati di ciascun cliente sono logicamente isolati. Supportiamo i requisiti di residenza dei dati regionali e possiamo implementare in specifiche geografie su richiesta."
+          "description": "Residenza regionale e hosting del cliente richiedono un’implementazione definita e condizioni di distribuzione firmate."
         },
         {
           "icon": "performance",
           "title": "Infrastruttura e Monitoraggio",
-          "description": "Ospitato su un'infrastruttura cloud di livello enterprise con failover automatico, monitoraggio attivo e pratiche documentate di risposta agli incidenti."
+          "description": "Sono presenti procedure di monitoraggio e gestione degli incidenti. Gli obiettivi di ripristino richiedono test misurati."
         },
         {
           "icon": "dashboard",
           "title": "Registrazione Audit e Trasparenza",
-          "description": "Ogni accesso ai dati, esportazione e modifica della configurazione è registrata. I clienti possono richiedere tracce di audit e documentazione di conformità in qualsiasi momento."
+          "description": "I registri di audit coprono azioni specifiche. Richiedete evidenze per i servizi e il periodo interessati."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Piena conformità al Regolamento Generale sulla Protezione dei Dati dell'UE, inclusi i diritti degli interessati, le basi giuridiche per il trattamento e la disponibilità di DPA."
+          "description": "Esistono politiche sulla privacy e procedure per i diritti. Copertura ed eccezioni dipendono dai trattamenti interessati."
         },
         {
           "title": "SOC 2 Tipo II",
-          "description": "In fase di ottenimento della certificazione SOC 2 Tipo II che copre i criteri di fiducia relativi a sicurezza, disponibilità e riservatezza.",
+          "description": "È attivo un programma di preparazione alla sicurezza basato su evidenze. Sundae non dispone attualmente di un rapporto SOC 2.",
           "note": "In corso"
         },
         {
           "title": "Contratti di Elaborazione dei Dati",
-          "description": "DPA standard disponibili per tutti i clienti enterprise. Termini personalizzati per la gestione dei dati negoziabili per grandi implementazioni."
+          "description": "Prima della firma, confermate il DPA vigente, gli allegati sul trattamento e la versione approvata del registro dei sub-responsabili."
         },
         {
           "title": "Test di Penetrazione",
-          "description": "Test di penetrazione regolari da parte di terzi e valutazioni delle vulnerabilità. I risultati vengono risolti entro SLA definiti."
+          "description": "È in corso la selezione di un fornitore indipendente per i test di penetrazione. Non viene dichiarato alcun rapporto di terzi completato."
         }
       ]
     },
     "pl": {
       "badge": "Bezpieczeństwo i zgodność",
-      "title": "Bezpieczeństwo na poziomie przedsiębiorstwa",
-      "description": "Twoje dane są chronione przez wiodące w branży praktyki bezpieczeństwa, szyfrowanie i standardy zgodności.",
+      "title": "Bezpieczeństwo i kontrola danych",
+      "description": "Udokumentowane zabezpieczenia, aktywny program naprawczy i dowody dostępne do przeglądu.",
       "architectureTitle": "Architektura bezpieczeństwa",
       "architectureDescription": "Sześć filarów, które chronią Twoje dane od pozyskania do analizy.",
-      "complianceTitle": "Zgodność i certyfikaty",
+      "complianceTitle": "Stan potwierdzenia zabezpieczeń",
       "ctaTitle": "Pytania dotyczące bezpieczeństwa?",
-      "ctaDescription": "Nasz zespół chętnie omówi nasze praktyki bezpieczeństwa oraz certyfikaty zgodności.",
+      "ctaDescription": "Udokumentowane zabezpieczenia, aktywny program naprawczy i dowody dostępne do przeglądu.",
       "ctaPrimary": "Skontaktuj się z nami",
       "ctaSecondary": "Zobacz dokumentację",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Szyfrowanie w spoczynku i w tranzycie",
-          "description": "Wszystkie dane są szyfrowane przy użyciu AES-256 w spoczynku i TLS 1.3 w tranzycie. Klucze API i dane uwierzytelniające są przechowywane w izolowanych, szyfrowanych skarbcach - nigdy w kodzie źródłowym."
+          "description": "TLS i szyfrowanie chronią obsługiwane usługi. Zarządzanie kluczami i zakres dostawców zależą od wdrożenia."
         },
         {
           "icon": "integration",
           "title": "Bezpieczne integracje",
-          "description": "Połączenia POS, płacowe i inwentaryzacyjne korzystają z OAuth 2.0 lub szyfrowanych tokenów API z ograniczonym zakresem uprawnień. Nigdy nie przechowujemy surowych danych uwierzytelniających z systemów zewnętrznych."
+          "description": "Integracje korzystają z ograniczonego dostępu i szyfrowanego przechowywania poświadczeń, gdy jest to obsługiwane."
         },
         {
           "icon": "operators",
           "title": "Kontrola dostępu oparta na rolach",
-          "description": "Szczegółowy RBAC pozwala kontrolować, kto widzi co - od operatorów na poziomie lokalizacji po kierowników na poziomie portfela. Każda akcja jest rejestrowana w audycie."
+          "description": "Kontrole organizacji, hierarchii i ról ograniczają dostęp do danych klientów."
         },
         {
           "icon": "data",
           "title": "Izolacja danych i rezydencja",
-          "description": "Dane każdego klienta są logicznie izolowane. Wspieramy regionalne wymagania dotyczące rezydencji danych i możemy wdrożyć w określonych lokalizacjach na życzenie."
+          "description": "Regionalna lokalizacja danych i hosting klienta wymagają określonego wdrożenia oraz podpisanych warunków."
         },
         {
           "icon": "performance",
           "title": "Infrastruktura i monitorowanie",
-          "description": "Hostowane na infrastrukturze chmurowej klasy enterprise z automatycznym przełączaniem awaryjnym, aktywnym monitorowaniem i udokumentowanymi praktykami reagowania na incydenty."
+          "description": "Istnieją procedury monitorowania i reagowania na incydenty. Cele odtwarzania wymagają zmierzonych testów przywracania."
         },
         {
           "icon": "dashboard",
           "title": "Rejestrowanie audytów i przejrzystość",
-          "description": "Każdy dostęp do danych, eksport i zmiana konfiguracji są rejestrowane. Klienci mogą w każdej chwili żądać śladów audytowych i dokumentacji zgodności."
+          "description": "Dzienniki audytowe obejmują wybrane działania. Poproś o dowody dotyczące określonych usług i okresu."
         }
       ],
       "compliance": [
         {
           "title": "RODO",
-          "description": "Pełna zgodność z ogólnym rozporządzeniem o ochronie danych osobowych UE, w tym prawa osób, podstawy prawne przetwarzania oraz dostępność umów o przetwarzaniu danych."
+          "description": "Istnieją polityki prywatności i procedury realizacji praw. Zakres oraz wyjątki zależą od danego przetwarzania."
         },
         {
           "title": "SOC 2 Typ II",
-          "description": "Dążenie do uzyskania certyfikatu SOC 2 Typ II obejmującego kryteria zaufania dotyczące bezpieczeństwa, dostępności i poufności.",
+          "description": "Działa program przygotowania zabezpieczeń oparty na dowodach. Sundae nie posiada obecnie raportu SOC 2.",
           "note": "W trakcie realizacji"
         },
         {
           "title": "Umowy o przetwarzaniu danych",
-          "description": "Standardowe umowy DP dostępne dla wszystkich klientów korporacyjnych. Warunki przetwarzania danych do negocjacji dla dużych wdrożeń."
+          "description": "Przed podpisaniem potwierdź obowiązującą umowę powierzenia, załączniki dotyczące przetwarzania i zatwierdzoną wersję rejestru podmiotów podprzetwarzających."
         },
         {
           "title": "Testy penetracyjne",
-          "description": "Regularne testy penetracyjne przeprowadzane przez strony trzecie oraz oceny podatności. Wyniki są usuwane w ramach określonych SLA."
+          "description": "Trwa wybór niezależnego wykonawcy testów penetracyjnych. Nie deklarujemy posiadania ukończonego raportu z testów strony trzeciej."
         }
       ]
     },
     "zh-Hans": {
       "badge": "安全与合规",
-      "title": "企业级安全",
-      "description": "您的数据受到行业领先的安全实践、加密和合规标准的保护。",
+      "title": "安全与数据控制",
+      "description": "提供成文控制措施、持续整改计划及可供审阅的证据。",
       "architectureTitle": "安全架构",
       "architectureDescription": "六大支柱保护您的数据，从采集到洞察。",
-      "complianceTitle": "合规与认证",
+      "complianceTitle": "保障状态",
       "ctaTitle": "关于安全的问题？",
-      "ctaDescription": "我们的团队很高兴与您讨论我们的安全实践和合规认证。",
+      "ctaDescription": "提供成文控制措施、持续整改计划及可供审阅的证据。",
       "ctaPrimary": "联系我们",
       "ctaSecondary": "查看文档",
       "pillars": [
         {
           "icon": "alerts",
           "title": "静态与动态加密",
-          "description": "所有数据在静态时使用AES-256加密，在传输时使用TLS 1.3加密。API密钥和凭证存储在隔离的加密保险库中，绝不存储在源代码中。"
+          "description": "受支持的服务采用 TLS 和加密保护。密钥管理及供应商覆盖范围取决于部署方式。"
         },
         {
           "icon": "integration",
           "title": "安全集成",
-          "description": "POS、工资和库存连接使用OAuth 2.0或加密API令牌，采用最小权限范围。我们从不存储第三方系统的原始凭证。"
+          "description": "集成采用限定范围的访问权限，并在受支持的场景中加密存储凭据。"
         },
         {
           "icon": "operators",
           "title": "基于角色的访问控制",
-          "description": "细粒度的RBAC让您控制谁可以看到什么 - 从位置级操作员到投资组合级高管。每个操作都有审计日志记录。"
+          "description": "通过组织、层级和角色控制限制客户记录的访问。"
         },
         {
           "icon": "data",
           "title": "数据隔离与驻留",
-          "description": "每个客户的数据在逻辑上是隔离的。我们支持区域数据驻留要求，并可以根据请求在特定地理区域内部署。"
+          "description": "区域数据驻留及客户自有托管需要明确的实施范围和已签署的部署条款。"
         },
         {
           "icon": "performance",
           "title": "基础设施与监控",
-          "description": "托管在企业级云基础设施上，具有自动故障转移、主动监控和文档化的事件响应实践。"
+          "description": "已建立监控和事件处理流程。恢复目标需要通过实测还原测试验证。"
         },
         {
           "icon": "dashboard",
           "title": "审计日志与透明度",
-          "description": "每次数据访问、导出和配置更改都会被记录。客户可以随时请求审计记录和合规文档。"
+          "description": "审计记录涵盖特定操作。请索取与相关服务和期间相符的证据。"
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "完全遵守欧盟通用数据保护条例，包括数据主体权利、合法处理依据和数据处理协议的可用性。"
+          "description": "已建立隐私政策和权利请求流程。覆盖范围及例外取决于具体的数据处理。"
         },
         {
           "title": "SOC 2 Type II",
-          "description": "正在追求SOC 2 Type II认证，涵盖安全性、可用性和保密性信任服务标准。",
+          "description": "基于证据的安全准备计划正在推进。Sundae 目前尚无 SOC 2 报告。",
           "note": "进行中"
         },
         {
           "title": "数据处理协议",
-          "description": "为所有企业客户提供标准数据处理协议。对于大规模部署，可协商定制数据处理条款。"
+          "description": "签署前请确认生效的 DPA、处理附件及经批准的分包处理者名录版本。"
         },
         {
           "title": "渗透测试",
-          "description": "定期进行第三方渗透测试和漏洞评估。发现的问题将在定义的服务水平协议内进行修复。"
+          "description": "正在寻找独立渗透测试服务商。目前不声称持有已完成的第三方测试报告。"
         }
       ]
     },
     "tr": {
       "badge": "Güvenlik & Uyum",
-      "title": "Kurumsal Düzeyde Güvenlik",
-      "description": "Verileriniz, sektörün önde gelen güvenlik uygulamaları, şifreleme ve uyum standartlarıyla korunmaktadır.",
+      "title": "Güvenlik ve veri kontrolleri",
+      "description": "Belgelenmiş kontroller, etkin bir iyileştirme programı ve incelemeye açık kanıtlar.",
       "architectureTitle": "Güvenlik Mimarisi",
       "architectureDescription": "Verilerinizi alımdan içgörüye kadar koruyan altı sütun.",
-      "complianceTitle": "Uyumluluk ve Sertifikalar",
+      "complianceTitle": "Güvence durumu",
       "ctaTitle": "Güvenlik Hakkında Sorular mı?",
-      "ctaDescription": "Ekibimiz, güvenlik uygulamalarımız ve uyum sertifikalarımız hakkında konuşmaktan mutluluk duyar.",
+      "ctaDescription": "Belgelenmiş kontroller, etkin bir iyileştirme programı ve incelemeye açık kanıtlar.",
       "ctaPrimary": "Bize Ulaşın",
       "ctaSecondary": "Belgeleri Görüntüle",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Dinlenme ve Taşıma Sırasında Şifreleme",
-          "description": "Tüm veriler, dinlenme sırasında AES-256 ve taşıma sırasında TLS 1.3 kullanılarak şifrelenir. API anahtarları ve kimlik bilgileri, kaynak kodunda asla yer almayan izole, şifreli kasalarda saklanır."
+          "description": "TLS ve şifreleme desteklenen hizmetleri korur. Anahtar yönetimi ve sağlayıcı kapsamı dağıtıma bağlıdır."
         },
         {
           "icon": "integration",
           "title": "Güvenli Entegrasyonlar",
-          "description": "POS, bordro ve envanter bağlantıları, en az ayrıcalık kapsamıyla OAuth 2.0 veya şifreli API jetonları kullanır. Üçüncü taraf sistemlerden ham kimlik bilgilerini asla saklamıyoruz."
+          "description": "Entegrasyonlar, desteklendiği yerlerde sınırlı erişim ve şifreli kimlik bilgisi depolaması kullanır."
         },
         {
           "icon": "operators",
           "title": "Rol Tabanlı Erişim Kontrolü",
-          "description": "Ayrıntılı RBAC, kimin neyi göreceğini kontrol etmenizi sağlar - konum düzeyindeki operatörlerden portföy düzeyindeki yöneticilere kadar. Her işlem denetim kaydına alınır."
+          "description": "Kuruluş, hiyerarşi ve rol kontrolleri müşteri kayıtlarına erişimi sınırlar."
         },
         {
           "icon": "data",
           "title": "Veri İzolasyonu ve İkamet",
-          "description": "Her müşterinin verisi mantıksal olarak izole edilmiştir. Bölgesel veri ikamet gereksinimlerini destekliyoruz ve talep üzerine belirli coğrafyalarda dağıtım yapabiliyoruz."
+          "description": "Bölgesel veri yerleşimi ve müşteriye ait barındırma, kapsamı belirli bir uygulama ve imzalı dağıtım koşulları gerektirir."
         },
         {
           "icon": "performance",
           "title": "Altyapı ve İzleme",
-          "description": "Otomatik geçiş, aktif izleme ve belgelenmiş olay yanıt uygulamaları ile kurumsal düzeyde bulut altyapısında barındırılmaktadır."
+          "description": "İzleme ve olay prosedürleri mevcuttur. Kurtarma hedefleri ölçülmüş geri yükleme testleri gerektirir."
         },
         {
           "icon": "dashboard",
           "title": "Denetim Kaydı ve Şeffaflık",
-          "description": "Her veri erişimi, dışa aktarma ve yapılandırma değişikliği kaydedilir. Müşteriler, her zaman denetim izleri ve uyum belgeleri talep edebilir."
+          "description": "Denetim kayıtları belirli işlemleri kapsar. İlgili hizmetler ve dönem için kanıt isteyin."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "AB Genel Veri Koruma Yönetmeliği'ne tam uyum, veri sahibi hakları, yasal işleme temelleri ve DPA erişilebilirliği."
+          "description": "Gizlilik politikaları ve hak talebi süreçleri mevcuttur. Kapsam ve istisnalar ilgili veri işlemeye bağlıdır."
         },
         {
           "title": "SOC 2 Tip II",
-          "description": "Güvenlik, erişilebilirlik ve gizlilik güven hizmeti kriterlerini kapsayan SOC 2 Tip II sertifikası için çalışmalar sürüyor.",
+          "description": "Kanıta dayalı etkin bir güvenlik hazırlık programı vardır. Sundae’nin şu anda bir SOC 2 raporu yoktur.",
           "note": "Devam ediyor"
         },
         {
           "title": "Veri İşleme Sözleşmeleri",
-          "description": "Tüm kurumsal müşteriler için standart DPA'lar mevcuttur. Büyük dağıtımlar için özel veri işleme şartları müzakere edilebilir."
+          "description": "İmzadan önce yürürlükteki DPA’yı, işleme eklerini ve onaylı alt işleyen sicili sürümünü doğrulayın."
         },
         {
           "title": "Sızma Testi",
-          "description": "Düzenli üçüncü taraf sızma testleri ve güvenlik açığı değerlendirmeleri. Bulgular belirlenen SLA'lar içinde giderilmektedir."
+          "description": "Bağımsız sızma testi sağlayıcısı aranmaktadır. Tamamlanmış bir üçüncü taraf test raporu bulunduğu iddia edilmez."
         }
       ]
     },
     "ja": {
       "badge": "セキュリティとコンプライアンス",
-      "title": "エンタープライズグレードのセキュリティ",
-      "description": "あなたのデータは、業界をリードするセキュリティ対策、暗号化、およびコンプライアンス基準によって保護されています。",
+      "title": "セキュリティとデータ管理",
+      "description": "文書化された管理策、継続的な改善プログラム、確認可能な証拠をご用意しています。",
       "architectureTitle": "セキュリティアーキテクチャ",
       "architectureDescription": "データを取り込みから洞察まで保護する6つの柱。",
-      "complianceTitle": "コンプライアンスと認証",
+      "complianceTitle": "保証の状況",
       "ctaTitle": "セキュリティに関する質問はありますか？",
-      "ctaDescription": "私たちのチームは、セキュリティ対策とコンプライアンス認証についてお話しできることを嬉しく思います。",
+      "ctaDescription": "文書化された管理策、継続的な改善プログラム、確認可能な証拠をご用意しています。",
       "ctaPrimary": "お問い合わせ",
       "ctaSecondary": "ドキュメントを見る",
       "pillars": [
         {
           "icon": "alerts",
           "title": "静止時および転送時の暗号化",
-          "description": "すべてのデータは、静止時にAES-256、転送時にTLS 1.3を使用して暗号化されています。APIキーと認証情報は、ソースコードではなく、隔離された暗号化ボールトに保存されます。"
+          "description": "対応サービスでは TLS と暗号化を使用します。鍵管理と事業者の適用範囲は導入構成により異なります。"
         },
         {
           "icon": "integration",
           "title": "安全な統合",
-          "description": "POS、給与、在庫接続は、OAuth 2.0または最小権限スコープの暗号化APIトークンを使用します。サードパーティシステムからの生の認証情報は決して保存しません。"
+          "description": "連携には範囲を限定したアクセスを使用し、対応する場合は認証情報を暗号化して保管します。"
         },
         {
           "icon": "operators",
           "title": "役割ベースのアクセス制御",
-          "description": "詳細なRBACにより、誰が何を見られるかを制御できます - ロケーションレベルのオペレーターからポートフォリオレベルの幹部まで。すべてのアクションは監査ログに記録されます。"
+          "description": "組織、階層、役割に基づく管理により顧客記録へのアクセスを制限します。"
         },
         {
           "icon": "data",
           "title": "データの分離と居住地",
-          "description": "各顧客のデータは論理的に分離されています。地域のデータ居住要件をサポートし、特定の地理的地域内での展開が可能です。"
+          "description": "地域指定のデータ保管や顧客所有環境への導入には、実装範囲の確定と導入条件への署名が必要です。"
         },
         {
           "icon": "performance",
           "title": "インフラストラクチャと監視",
-          "description": "自動フェイルオーバー、アクティブ監視、文書化されたインシデント対応手順を備えたエンタープライズグレードのクラウドインフラストラクチャ上でホストされています。"
+          "description": "監視とインシデント対応の手順があります。復旧目標は実測のリストアテストで検証する必要があります。"
         },
         {
           "icon": "dashboard",
           "title": "監査ログと透明性",
-          "description": "すべてのデータアクセス、エクスポート、構成変更がログに記録されます。顧客はいつでも監査トレイルとコンプライアンス文書を要求できます。"
+          "description": "監査記録は特定の操作を対象とします。対象サービスと期間に合った証拠をご請求ください。"
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "EU一般データ保護規則に完全準拠。データ主体の権利、合法的な処理の根拠、DPAの利用可能性を含む。"
+          "description": "プライバシーポリシーと権利請求の手順があります。適用範囲と例外は対象の処理によって異なります。"
         },
         {
           "title": "SOC 2 Type II",
-          "description": "セキュリティ、可用性、機密性の信頼サービス基準をカバーするSOC 2 Type II認証を追求中。",
+          "description": "証拠に基づくセキュリティ準備プログラムを進めています。Sundae は現在 SOC 2 報告書を保有していません。",
           "note": "進行中"
         },
         {
           "title": "データ処理契約",
-          "description": "すべてのエンタープライズ顧客向けに標準DPAを提供。大規模な展開向けにはカスタムデータ処理条件の交渉が可能。"
+          "description": "契約締結前に、有効な DPA、処理に関する付属書、承認済みのサブプロセッサー名簿の版を確認してください。"
         },
         {
           "title": "ペネトレーションテスト",
-          "description": "定期的な第三者によるペネトレーションテストと脆弱性評価。発見された問題は定義されたSLA内で修正される。"
+          "description": "独立した侵入テスト事業者を選定中です。完了済みの第三者テスト報告書があるとは表明していません。"
         }
       ]
     },
     "ko": {
       "badge": "보안 및 규정 준수",
-      "title": "기업 수준의 보안",
-      "description": "귀하의 데이터는 업계 최고의 보안 관행, 암호화 및 준수 기준에 의해 보호됩니다.",
+      "title": "보안 및 데이터 통제",
+      "description": "문서화된 통제, 진행 중인 개선 프로그램, 검토 가능한 증빙을 제공합니다.",
       "architectureTitle": "보안 아키텍처",
       "architectureDescription": "데이터를 수집에서 통찰까지 보호하는 여섯 가지 기둥.",
-      "complianceTitle": "규정 준수 및 인증",
+      "complianceTitle": "보증 현황",
       "ctaTitle": "보안에 대한 질문이 있으신가요?",
-      "ctaDescription": "저희 팀은 보안 관행 및 준수 인증에 대해 기꺼이 논의하겠습니다.",
+      "ctaDescription": "문서화된 통제, 진행 중인 개선 프로그램, 검토 가능한 증빙을 제공합니다.",
       "ctaPrimary": "문의하기",
       "ctaSecondary": "문서 보기",
       "pillars": [
         {
           "icon": "alerts",
           "title": "전송 및 저장 시 암호화",
-          "description": "모든 데이터는 저장 시 AES-256, 전송 시 TLS 1.3로 암호화됩니다. API 키와 자격 증명은 격리된 암호화된 금고에 저장되며, 소스 코드에는 저장되지 않습니다."
+          "description": "지원되는 서비스는 TLS와 암호화를 사용합니다. 키 관리와 공급업체 적용 범위는 배포 구성에 따라 달라집니다."
         },
         {
           "icon": "integration",
           "title": "안전한 통합",
-          "description": "POS, 급여 및 재고 연결은 OAuth 2.0 또는 최소 권한 범위를 가진 암호화된 API 토큰을 사용합니다. 우리는 제3자 시스템의 원시 자격 증명을 저장하지 않습니다."
+          "description": "연동에는 범위가 제한된 접근 권한과 지원되는 경우 암호화된 자격 증명 저장을 사용합니다."
         },
         {
           "icon": "operators",
           "title": "역할 기반 접근 제어",
-          "description": "세분화된 RBAC를 통해 누가 무엇을 볼 수 있는지 제어할 수 있습니다 - 위치 수준 운영자부터 포트폴리오 수준 임원까지. 모든 작업은 감사 로그에 기록됩니다."
+          "description": "조직, 계층, 역할별 통제로 고객 기록에 대한 접근을 제한합니다."
         },
         {
           "icon": "data",
           "title": "데이터 격리 및 거주지",
-          "description": "각 고객의 데이터는 논리적으로 격리됩니다. 우리는 지역 데이터 거주 요구 사항을 지원하며 요청 시 특정 지역 내에 배포할 수 있습니다."
+          "description": "지역별 데이터 상주와 고객 소유 호스팅에는 구체적인 구현 범위와 서명된 배포 조건이 필요합니다."
         },
         {
           "icon": "performance",
           "title": "인프라 및 모니터링",
-          "description": "자동 장애 조치, 능동 모니터링 및 문서화된 사고 대응 관행을 갖춘 기업급 클라우드 인프라에서 호스팅됩니다."
+          "description": "모니터링 및 사고 대응 절차가 있습니다. 복구 목표는 측정된 복원 테스트로 검증해야 합니다."
         },
         {
           "icon": "dashboard",
           "title": "감사 로그 및 투명성",
-          "description": "모든 데이터 접근, 내보내기 및 구성 변경이 기록됩니다. 고객은 언제든지 감사 추적 및 준수 문서를 요청할 수 있습니다."
+          "description": "감사 기록은 특정 작업을 대상으로 합니다. 해당 서비스와 기간에 맞는 증빙을 요청하세요."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "EU 일반 데이터 보호 규정(GDPR)에 완전 준수, 데이터 주체 권리, 합법적 처리 근거 및 DPA 가용성 포함."
+          "description": "개인정보 처리방침과 권리 요청 절차가 있습니다. 적용 범위와 예외는 관련 처리에 따라 달라집니다."
         },
         {
           "title": "SOC 2 Type II",
-          "description": "보안, 가용성 및 기밀성 신뢰 서비스 기준을 포함하는 SOC 2 Type II 인증을 추구합니다.",
+          "description": "증빙 기반 보안 준비 프로그램이 진행 중입니다. Sundae는 현재 SOC 2 보고서를 보유하지 않습니다.",
           "note": "진행 중"
         },
         {
           "title": "데이터 처리 계약",
-          "description": "모든 기업 고객을 위한 표준 DPA 제공. 대규모 배포를 위한 맞춤형 데이터 처리 조건 협상 가능."
+          "description": "서명 전에 유효한 DPA, 처리 부속서, 승인된 하위 처리자 명부 버전을 확인하세요."
         },
         {
           "title": "침투 테스트",
-          "description": "정기적인 제3자 침투 테스트 및 취약성 평가. 발견된 문제는 정의된 SLA 내에서 수정됩니다."
+          "description": "독립 침투 테스트 업체를 선정 중입니다. 완료된 제3자 테스트 보고서가 있다고 주장하지 않습니다."
         }
       ]
     },
     "ro": {
       "badge": "Securitate & Conformitate",
-      "title": "Securitate de nivel enterprise",
-      "description": "Datele dumneavoastră sunt protejate prin practici de securitate de vârf în industrie, criptare și standarde de conformitate.",
+      "title": "Securitate și controlul datelor",
+      "description": "Controale documentate, un program activ de remediere și dovezi disponibile pentru analiză.",
       "architectureTitle": "Arhitectura de Securitate",
       "architectureDescription": "Șase piloni care protejează datele tale de la ingestie până la analiză.",
-      "complianceTitle": "Conformitate și Certificări",
+      "complianceTitle": "Stadiul garanțiilor",
       "ctaTitle": "Întrebări despre securitate?",
-      "ctaDescription": "Echipa noastră este bucuroasă să discute despre practicile noastre de securitate și certificările de conformitate.",
+      "ctaDescription": "Controale documentate, un program activ de remediere și dovezi disponibile pentru analiză.",
       "ctaPrimary": "Contactați-ne",
       "ctaSecondary": "Vezi Documentația",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Criptare în repaus și în tranzit",
-          "description": "Toate datele sunt criptate folosind AES-256 în repaus și TLS 1.3 în tranzit. Cheile API și acreditivele sunt stocate în seifuri izolate și criptate - niciodată în codul sursă."
+          "description": "TLS și criptarea protejează serviciile compatibile. Administrarea cheilor și acoperirea furnizorilor depind de implementare."
         },
         {
           "icon": "integration",
           "title": "Integrări Securizate",
-          "description": "Conexiunile POS, de salarii și de inventar folosesc OAuth 2.0 sau tokenuri API criptate cu scoping de privilegii minime. Nu stocăm niciodată acreditive brute din sisteme terțe."
+          "description": "Integrările folosesc acces limitat și stocarea criptată a credențialelor acolo unde există suport."
         },
         {
           "icon": "operators",
           "title": "Controlul Accesului Bazat pe Roluri",
-          "description": "RBAC granular vă permite să controlați cine vede ce - de la operatori la nivel de locație până la executivi la nivel de portofoliu. Fiecare acțiune este înregistrată în jurnal de audit."
+          "description": "Controalele pe organizație, ierarhie și rol limitează accesul la înregistrările clienților."
         },
         {
           "icon": "data",
           "title": "Izolarea și Rezidența Datelor",
-          "description": "Datele fiecărui client sunt izolate logic. Susținem cerințele regionale de rezidență a datelor și putem desfășura în anumite geografii la cerere."
+          "description": "Rezidența regională și găzduirea la client necesită o implementare cu domeniu definit și condiții de implementare semnate."
         },
         {
           "icon": "performance",
           "title": "Infrastructură și Monitorizare",
-          "description": "Găzduit pe o infrastructură cloud de nivel enterprise cu failover automat, monitorizare activă și practici documentate de răspuns la incidente."
+          "description": "Există proceduri de monitorizare și gestionare a incidentelor. Obiectivele de recuperare necesită teste de restaurare măsurate."
         },
         {
           "icon": "dashboard",
           "title": "Jurnalizare de Audit și Transparență",
-          "description": "Fiecare acces la date, export și modificare a configurației este înregistrat. Clienții pot solicita oricând trail-uri de audit și documentație de conformitate."
+          "description": "Jurnalele de audit acoperă acțiuni selectate. Solicitați dovezi pentru serviciile și perioada vizate."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Conformitate totală cu Regulamentul General privind Protecția Datelor al UE, inclusiv drepturile subiecților de date, procesarea pe baza unei baze legale și disponibilitatea DPA."
+          "description": "Există politici de confidențialitate și proceduri pentru exercitarea drepturilor. Acoperirea și excepțiile depind de prelucrarea vizată."
         },
         {
           "title": "SOC 2 Tip II",
-          "description": "Obținerea certificării SOC 2 Tip II care acoperă criteriile de încredere privind securitatea, disponibilitatea și confidențialitatea.",
+          "description": "Este activ un program de pregătire pentru securitate bazat pe dovezi. Sundae nu deține în prezent un raport SOC 2.",
           "note": "În curs de desfășurare"
         },
         {
           "title": "Acorduri de Procesare a Datelor",
-          "description": "DPA standard disponibile pentru toți clienții enterprise. Termeni personalizați de gestionare a datelor negociabili pentru implementări mari."
+          "description": "Înainte de semnare, confirmați DPA-ul în vigoare, anexele de prelucrare și versiunea aprobată a registrului subîmputerniciților."
         },
         {
           "title": "Testare de Penetrare",
-          "description": "Testări de penetrare și evaluări de vulnerabilitate efectuate regulat de terți. Constatarea problemelor este remediată în cadrul SLA-urilor definite."
+          "description": "Se caută un furnizor independent de teste de penetrare. Nu se afirmă existența unui raport terț de testare finalizat."
         }
       ]
     },
     "bn": {
       "badge": "নিরাপত্তা ও সম্মতি",
-      "title": "এন্টারপ্রাইজ-গ্রেড নিরাপত্তা",
-      "description": "আপনার ডেটা শিল্পের শীর্ষ নিরাপত্তা পদ্ধতি, এনক্রিপশন এবং সম্মতি মান দ্বারা সুরক্ষিত।",
+      "title": "নিরাপত্তা ও ডেটা নিয়ন্ত্রণ",
+      "description": "নথিভুক্ত নিয়ন্ত্রণ, সক্রিয় সংশোধন কর্মসূচি এবং পর্যালোচনার জন্য উপলব্ধ প্রমাণ।",
       "architectureTitle": "নিরাপত্তা স্থাপত্য",
       "architectureDescription": "আপনার ডেটাকে গ্রহণ থেকে অন্তর্দৃষ্টিতে রক্ষা করার জন্য ছয়টি স্তম্ভ।",
-      "complianceTitle": "অনুবর্তিতা ও সার্টিফিকেশন",
+      "complianceTitle": "নিশ্চয়তার অবস্থা",
       "ctaTitle": "নিরাপত্তা সম্পর্কে প্রশ্ন?",
-      "ctaDescription": "আমাদের দল আমাদের নিরাপত্তা অনুশীলন এবং সম্মতি সার্টিফিকেট নিয়ে আলোচনা করতে খুশি।",
+      "ctaDescription": "নথিভুক্ত নিয়ন্ত্রণ, সক্রিয় সংশোধন কর্মসূচি এবং পর্যালোচনার জন্য উপলব্ধ প্রমাণ।",
       "ctaPrimary": "আমাদের সাথে যোগাযোগ করুন",
       "ctaSecondary": "ডকুমেন্টেশন দেখুন",
       "pillars": [
         {
           "icon": "alerts",
           "title": "বিশ্রামে ও পরিবহনে এনক্রিপশন",
-          "description": "সমস্ত ডেটা বিশ্রামে AES-256 এবং পরিবহনে TLS 1.3 ব্যবহার করে এনক্রিপ্ট করা হয়। API কী এবং শংসাপত্রগুলি বিচ্ছিন্ন, এনক্রিপ্টেড ভল্টে সংরক্ষিত থাকে - কখনই সোর্স কোডে নয়।"
+          "description": "সমর্থিত পরিষেবায় TLS ও এনক্রিপশন ব্যবহার করা হয়। কী ব্যবস্থাপনা ও সরবরাহকারীর আওতা স্থাপনার ওপর নির্ভরশীল।"
         },
         {
           "icon": "integration",
           "title": "নিরাপদ ইন্টিগ্রেশন",
-          "description": "POS, পে-রোল, এবং ইনভেন্টরি সংযোগগুলি OAuth 2.0 বা এনক্রিপ্টেড API টোকেন ব্যবহার করে যা সর্বনিম্ন-অধিকার স্কোপিংয়ের সাথে। আমরা কখনই তৃতীয় পক্ষের সিস্টেম থেকে কাঁচা শংসাপত্র সংরক্ষণ করি না।"
+          "description": "ইন্টিগ্রেশনে সীমিত প্রবেশাধিকার এবং যেখানে সমর্থিত, এনক্রিপ্ট করা পরিচয়পত্র সংরক্ষণ ব্যবহার করা হয়।"
         },
         {
           "icon": "operators",
           "title": "ভূমিকা-ভিত্তিক অ্যাক্সেস নিয়ন্ত্রণ",
-          "description": "বিস্তৃত RBAC আপনাকে নিয়ন্ত্রণ করতে দেয় কে কী দেখবে - অবস্থান-স্তরের অপারেটর থেকে পোর্টফোলিও-স্তরের নির্বাহীদের। প্রতিটি ক্রিয়া অডিট-লগ করা হয়।"
+          "description": "প্রতিষ্ঠান, সাংগঠনিক স্তর ও ভূমিকার নিয়ন্ত্রণ গ্রাহকের রেকর্ডে প্রবেশ সীমিত করে।"
         },
         {
           "icon": "data",
           "title": "ডেটা বিচ্ছিন্নতা ও আবাসন",
-          "description": "প্রতিটি গ্রাহকের ডেটা যুক্তিগতভাবে বিচ্ছিন্ন। আমরা আঞ্চলিক ডেটা আবাসন প্রয়োজনীয়তাগুলি সমর্থন করি এবং অনুরোধে নির্দিষ্ট ভৌগলিক স্থানে স্থাপন করতে পারি।"
+          "description": "আঞ্চলিক ডেটা অবস্থান ও গ্রাহকের নিজস্ব হোস্টিংয়ের জন্য নির্দিষ্ট বাস্তবায়ন এবং স্বাক্ষরিত স্থাপনার শর্ত দরকার।"
         },
         {
           "icon": "performance",
           "title": "অবকাঠামো ও পর্যবেক্ষণ",
-          "description": "স্বয়ংক্রিয় ফেইলওভার, সক্রিয় পর্যবেক্ষণ, এবং নথিভুক্ত ঘটনা প্রতিক্রিয়া অনুশীলনের সাথে এন্টারপ্রাইজ-গ্রেড ক্লাউড অবকাঠামোতে হোস্ট করা হয়েছে।"
+          "description": "নজরদারি ও ঘটনা ব্যবস্থাপনার পদ্ধতি রয়েছে। পুনরুদ্ধারের লক্ষ্য যাচাই করতে পরিমাপ করা পুনঃস্থাপন পরীক্ষা দরকার।"
         },
         {
           "icon": "dashboard",
           "title": "অডিট লগিং ও স্বচ্ছতা",
-          "description": "প্রতিটি ডেটা অ্যাক্সেস, রপ্তানি, এবং কনফিগারেশন পরিবর্তন লগ করা হয়। গ্রাহকরা যে কোনও সময় অডিট ট্রেইল এবং সম্মতি নথি অনুরোধ করতে পারেন।"
+          "description": "অডিট রেকর্ড নির্দিষ্ট কার্যক্রম অন্তর্ভুক্ত করে। সংশ্লিষ্ট পরিষেবা ও সময়কালের প্রমাণ চাইতে পারেন।"
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "ইইউ সাধারণ ডেটা সুরক্ষা বিধিমালা অনুযায়ী সম্পূর্ণ সম্মতি, যার মধ্যে ডেটা বিষয়ের অধিকার, আইনগত ভিত্তিতে প্রক্রিয়াকরণ এবং ডিপিএ উপলব্ধতা অন্তর্ভুক্ত।"
+          "description": "গোপনীয়তার নীতি ও অধিকার অনুরোধের পদ্ধতি রয়েছে। আওতা ও ব্যতিক্রম সংশ্লিষ্ট প্রক্রিয়াকরণের ওপর নির্ভরশীল।"
         },
         {
           "title": "SOC 2 টাইপ II",
-          "description": "নিরাপত্তা, উপলব্ধতা এবং গোপনীয়তা ট্রাস্ট সার্ভিস মানদণ্ডের আওতায় SOC 2 টাইপ II সার্টিফিকেশন অর্জনের চেষ্টা।",
+          "description": "প্রমাণভিত্তিক নিরাপত্তা প্রস্তুতি কর্মসূচি সক্রিয়। Sundae-এর বর্তমানে SOC 2 রিপোর্ট নেই।",
           "note": "চলমান"
         },
         {
           "title": "ডেটা প্রক্রিয়াকরণ চুক্তি",
-          "description": "সমস্ত এন্টারপ্রাইজ গ্রাহকদের জন্য স্ট্যান্ডার্ড ডিপিএ উপলব্ধ। বড় স্থাপনার জন্য কাস্টম ডেটা পরিচালনার শর্তাবলী আলোচনা সাপেক্ষ।"
+          "description": "স্বাক্ষরের আগে কার্যকর DPA, প্রক্রিয়াকরণের সংযোজনী এবং অনুমোদিত উপ-প্রক্রিয়াকারীর তালিকার সংস্করণ নিশ্চিত করুন।"
         },
         {
           "title": "পেনিট্রেশন টেস্টিং",
-          "description": "নিয়মিত তৃতীয় পক্ষের পেনিট্রেশন টেস্টিং এবং দুর্বলতা মূল্যায়ন। ফলাফল নির্ধারিত SLA-এর মধ্যে সমাধান করা হয়।"
+          "description": "স্বাধীন পেনিট্রেশন পরীক্ষার সরবরাহকারী খোঁজা হচ্ছে। সম্পূর্ণ তৃতীয়-পক্ষ পরীক্ষার রিপোর্ট আছে বলে দাবি করা হয় না।"
         }
       ]
     },
     "vi": {
       "badge": "Bảo mật & Tuân thủ",
-      "title": "Bảo mật cấp doanh nghiệp",
-      "description": "Dữ liệu của bạn được bảo vệ bởi các phương pháp bảo mật hàng đầu trong ngành, mã hóa và tiêu chuẩn tuân thủ.",
+      "title": "Bảo mật và kiểm soát dữ liệu",
+      "description": "Các biện pháp được lập thành văn bản, chương trình khắc phục đang hoạt động và bằng chứng có thể xem xét.",
       "architectureTitle": "Kiến trúc Bảo mật",
       "architectureDescription": "Sáu trụ cột bảo vệ dữ liệu của bạn từ việc thu thập đến phân tích.",
-      "complianceTitle": "Tuân thủ & Chứng nhận",
+      "complianceTitle": "Tình trạng bảo đảm",
       "ctaTitle": "Câu hỏi về Bảo mật?",
-      "ctaDescription": "Đội ngũ của chúng tôi rất vui được thảo luận về các thực hành bảo mật và chứng nhận tuân thủ của chúng tôi.",
+      "ctaDescription": "Các biện pháp được lập thành văn bản, chương trình khắc phục đang hoạt động và bằng chứng có thể xem xét.",
       "ctaPrimary": "Liên hệ với chúng tôi",
       "ctaSecondary": "Xem Tài liệu",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Mã hóa khi nghỉ & khi truyền",
-          "description": "Tất cả dữ liệu được mã hóa bằng AES-256 khi nghỉ và TLS 1.3 khi truyền. Các khóa API và thông tin xác thực được lưu trữ trong các kho mã hóa tách biệt - không bao giờ trong mã nguồn."
+          "description": "TLS và mã hóa bảo vệ các dịch vụ được hỗ trợ. Quản lý khóa và phạm vi nhà cung cấp tùy thuộc vào cách triển khai."
         },
         {
           "icon": "integration",
           "title": "Tích hợp An toàn",
-          "description": "Các kết nối POS, bảng lương và tồn kho sử dụng OAuth 2.0 hoặc mã thông báo API được mã hóa với phạm vi quyền tối thiểu. Chúng tôi không bao giờ lưu trữ thông tin xác thực thô từ các hệ thống bên thứ ba."
+          "description": "Tích hợp sử dụng quyền truy cập giới hạn và lưu trữ thông tin xác thực được mã hóa khi được hỗ trợ."
         },
         {
           "icon": "operators",
           "title": "Kiểm soát Truy cập Dựa trên Vai trò",
-          "description": "RBAC chi tiết cho phép bạn kiểm soát ai thấy gì - từ các nhà điều hành cấp địa điểm đến các giám đốc cấp danh mục. Mọi hành động đều được ghi lại trong nhật ký kiểm toán."
+          "description": "Kiểm soát theo tổ chức, phân cấp và vai trò hạn chế quyền truy cập hồ sơ khách hàng."
         },
         {
           "icon": "data",
           "title": "Cách ly & Cư trú Dữ liệu",
-          "description": "Dữ liệu của mỗi khách hàng được cách ly một cách logic. Chúng tôi hỗ trợ các yêu cầu về cư trú dữ liệu khu vực và có thể triển khai trong các khu vực cụ thể theo yêu cầu."
+          "description": "Lưu trú dữ liệu theo khu vực và hạ tầng của khách hàng cần phạm vi triển khai rõ ràng cùng điều khoản đã ký."
         },
         {
           "icon": "performance",
           "title": "Hạ tầng & Giám sát",
-          "description": "Được lưu trữ trên hạ tầng đám mây cấp doanh nghiệp với khả năng chuyển đổi tự động, giám sát chủ động và các quy trình phản ứng sự cố đã được tài liệu hóa."
+          "description": "Có quy trình giám sát và xử lý sự cố. Mục tiêu phục hồi cần được kiểm chứng bằng thử nghiệm khôi phục có đo lường."
         },
         {
           "icon": "dashboard",
           "title": "Ghi nhật ký Kiểm toán & Minh bạch",
-          "description": "Mọi truy cập dữ liệu, xuất khẩu và thay đổi cấu hình đều được ghi lại. Khách hàng có thể yêu cầu các bản ghi kiểm toán và tài liệu tuân thủ bất cứ lúc nào."
+          "description": "Nhật ký kiểm toán bao quát các thao tác cụ thể. Hãy yêu cầu bằng chứng cho dịch vụ và thời kỳ liên quan."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Tuân thủ đầy đủ Quy định Bảo vệ Dữ liệu Chung của EU, bao gồm quyền của chủ thể dữ liệu, cơ sở hợp pháp để xử lý và khả năng cung cấp DPA."
+          "description": "Có chính sách quyền riêng tư và quy trình thực hiện quyền. Phạm vi và ngoại lệ tùy thuộc vào hoạt động xử lý liên quan."
         },
         {
           "title": "SOC 2 Type II",
-          "description": "Theo đuổi chứng nhận SOC 2 Type II bao gồm các tiêu chí dịch vụ tin cậy về bảo mật, khả năng sử dụng và tính bảo mật.",
+          "description": "Chương trình chuẩn bị bảo mật dựa trên bằng chứng đang được thực hiện. Sundae hiện chưa có báo cáo SOC 2.",
           "note": "Đang tiến hành"
         },
         {
           "title": "Thỏa thuận Xử lý Dữ liệu",
-          "description": "Các DPA tiêu chuẩn có sẵn cho tất cả khách hàng doanh nghiệp. Điều khoản xử lý dữ liệu tùy chỉnh có thể thương lượng cho các triển khai lớn."
+          "description": "Trước khi ký, hãy xác nhận DPA có hiệu lực, các phụ lục xử lý và phiên bản danh mục bên xử lý phụ đã được phê duyệt."
         },
         {
           "title": "Kiểm tra Thâm nhập",
-          "description": "Kiểm tra thâm nhập và đánh giá lỗ hổng thường xuyên bởi bên thứ ba. Các phát hiện được khắc phục trong thời gian SLA đã định."
+          "description": "Đang tìm nhà cung cấp kiểm thử xâm nhập độc lập. Không tuyên bố có báo cáo kiểm thử bên thứ ba đã hoàn tất."
         }
       ]
     },
     "id": {
       "badge": "Keamanan & Kepatuhan",
-      "title": "Keamanan Kelas Perusahaan",
-      "description": "Data Anda dilindungi oleh praktik keamanan terkemuka di industri, enkripsi, dan standar kepatuhan.",
+      "title": "Keamanan dan kontrol data",
+      "description": "Kontrol terdokumentasi, program perbaikan aktif, dan bukti yang tersedia untuk ditinjau.",
       "architectureTitle": "Arsitektur Keamanan",
       "architectureDescription": "Enam pilar yang melindungi data Anda dari pengambilan hingga wawasan.",
-      "complianceTitle": "Kepatuhan & Sertifikasi",
+      "complianceTitle": "Status jaminan",
       "ctaTitle": "Pertanyaan Tentang Keamanan?",
-      "ctaDescription": "Tim kami senang untuk membahas praktik keamanan dan sertifikasi kepatuhan kami.",
+      "ctaDescription": "Kontrol terdokumentasi, program perbaikan aktif, dan bukti yang tersedia untuk ditinjau.",
       "ctaPrimary": "Hubungi Kami",
       "ctaSecondary": "Lihat Dokumentasi",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Enkripsi Saat Diam & Dalam Perjalanan",
-          "description": "Semua data dienkripsi menggunakan AES-256 saat diam dan TLS 1.3 dalam perjalanan. Kunci API dan kredensial disimpan dalam brankas terenkripsi yang terisolasi - tidak pernah dalam kode sumber."
+          "description": "TLS dan enkripsi melindungi layanan yang didukung. Pengelolaan kunci dan cakupan penyedia bergantung pada penerapan."
         },
         {
           "icon": "integration",
           "title": "Integrasi Aman",
-          "description": "Koneksi POS, penggajian, dan inventaris menggunakan OAuth 2.0 atau token API terenkripsi dengan cakupan hak akses minimal. Kami tidak pernah menyimpan kredensial mentah dari sistem pihak ketiga."
+          "description": "Integrasi menggunakan akses terbatas dan penyimpanan kredensial terenkripsi jika didukung."
         },
         {
           "icon": "operators",
           "title": "Kontrol Akses Berdasarkan Peran",
-          "description": "RBAC yang terperinci memungkinkan Anda mengontrol siapa yang melihat apa - dari operator tingkat lokasi hingga eksekutif tingkat portofolio. Setiap tindakan dicatat dalam audit."
+          "description": "Kontrol organisasi, hierarki, dan peran membatasi akses ke catatan pelanggan."
         },
         {
           "icon": "data",
           "title": "Isolasi & Residensi Data",
-          "description": "Data setiap pelanggan diisolasi secara logis. Kami mendukung persyaratan residensi data regional dan dapat diterapkan dalam geografi tertentu atas permintaan."
+          "description": "Residensi regional dan hosting milik pelanggan memerlukan cakupan implementasi serta ketentuan penerapan yang ditandatangani."
         },
         {
           "icon": "performance",
           "title": "Infrastruktur & Pemantauan",
-          "description": "Dihosting di infrastruktur cloud kelas enterprise dengan failover otomatis, pemantauan aktif, dan praktik respons insiden yang terdokumentasi."
+          "description": "Prosedur pemantauan dan insiden tersedia. Target pemulihan memerlukan pengujian pemulihan yang terukur."
         },
         {
           "icon": "dashboard",
           "title": "Pencatatan Audit & Transparansi",
-          "description": "Setiap akses data, ekspor, dan perubahan konfigurasi dicatat. Pelanggan dapat meminta jejak audit dan dokumentasi kepatuhan kapan saja."
+          "description": "Catatan audit mencakup tindakan tertentu. Mintalah bukti untuk layanan dan periode yang terkait."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Kepatuhan penuh terhadap Peraturan Perlindungan Data Umum UE termasuk hak subjek data, pemrosesan berdasarkan dasar hukum, dan ketersediaan DPA."
+          "description": "Kebijakan privasi dan alur permintaan hak tersedia. Cakupan serta pengecualian bergantung pada pemrosesan terkait."
         },
         {
           "title": "SOC 2 Type II",
-          "description": "Mengejar sertifikasi SOC 2 Type II yang mencakup kriteria layanan kepercayaan keamanan, ketersediaan, dan kerahasiaan.",
+          "description": "Program kesiapan keamanan berbasis bukti sedang berjalan. Sundae saat ini tidak memiliki laporan SOC 2.",
           "note": "Sedang berlangsung"
         },
         {
           "title": "Perjanjian Pemrosesan Data",
-          "description": "DPA standar tersedia untuk semua pelanggan perusahaan. Ketentuan penanganan data kustom dapat dinegosiasikan untuk penerapan besar."
+          "description": "Sebelum penandatanganan, konfirmasikan DPA yang berlaku, lampiran pemrosesan, dan versi daftar subprosesor yang disetujui."
         },
         {
           "title": "Pengujian Penetrasi",
-          "description": "Pengujian penetrasi pihak ketiga secara rutin dan penilaian kerentanan. Temuan diperbaiki dalam SLA yang ditentukan."
+          "description": "Penyedia uji penetrasi independen sedang dicari. Kami tidak mengklaim memiliki laporan pengujian pihak ketiga yang telah selesai."
         }
       ]
     },
     "th": {
       "badge": "ความปลอดภัย & การปฏิบัติตาม",
-      "title": "ความปลอดภัยระดับองค์กร",
-      "description": "ข้อมูลของคุณได้รับการปกป้องโดยแนวทางด้านความปลอดภัยที่เป็นผู้นำในอุตสาหกรรม การเข้ารหัส และมาตรฐานการปฏิบัติตามข้อกำหนด.",
+      "title": "ความปลอดภัยและการควบคุมข้อมูล",
+      "description": "มาตรการที่มีเอกสารรองรับ แผนแก้ไขที่ดำเนินอยู่ และหลักฐานที่ขอตรวจสอบได้",
       "architectureTitle": "สถาปัตยกรรมความปลอดภัย",
       "architectureDescription": "หกเสาหลักที่ปกป้องข้อมูลของคุณตั้งแต่การเก็บข้อมูลจนถึงการวิเคราะห์ข้อมูล.",
-      "complianceTitle": "การปฏิบัติตามกฎระเบียบและการรับรอง",
+      "complianceTitle": "สถานะการรับรองด้วยหลักฐาน",
       "ctaTitle": "มีคำถามเกี่ยวกับความปลอดภัยไหม?",
-      "ctaDescription": "ทีมของเรายินดีที่จะพูดคุยเกี่ยวกับแนวทางด้านความปลอดภัยและการรับรองความสอดคล้องของเรา.",
+      "ctaDescription": "มาตรการที่มีเอกสารรองรับ แผนแก้ไขที่ดำเนินอยู่ และหลักฐานที่ขอตรวจสอบได้",
       "ctaPrimary": "ติดต่อเรา",
       "ctaSecondary": "ดูเอกสาร",
       "pillars": [
         {
           "icon": "alerts",
           "title": "การเข้ารหัสข้อมูลขณะพักและขณะส่ง",
-          "description": "ข้อมูลทั้งหมดถูกเข้ารหัสด้วย AES-256 ขณะพักและ TLS 1.3 ขณะส่ง คีย์ API และข้อมูลรับรองจะถูกเก็บในห้องนิรภัยที่เข้ารหัสและแยกออก - ไม่เคยอยู่ในโค้ดต้นฉบับ."
+          "description": "บริการที่รองรับใช้ TLS และการเข้ารหัส การจัดการกุญแจและขอบเขตผู้ให้บริการขึ้นอยู่กับรูปแบบการติดตั้ง"
         },
         {
           "icon": "integration",
           "title": "การเชื่อมต่อที่ปลอดภัย",
-          "description": "การเชื่อมต่อ POS, เงินเดือน และสินค้าคงคลังใช้ OAuth 2.0 หรือโทเค็น API ที่เข้ารหัสโดยมีการกำหนดสิทธิ์ขั้นต่ำ เราไม่เก็บข้อมูลรับรองดิบจากระบบของบุคคลที่สาม."
+          "description": "การเชื่อมต่อใช้สิทธิ์เข้าถึงที่จำกัดและจัดเก็บข้อมูลรับรองแบบเข้ารหัสเมื่อระบบรองรับ"
         },
         {
           "icon": "operators",
           "title": "การควบคุมการเข้าถึงตามบทบาท",
-          "description": "RBAC ที่ละเอียดช่วยให้คุณควบคุมว่าใครเห็นอะไร - ตั้งแต่ผู้ปฏิบัติงานระดับสถานที่ไปจนถึงผู้บริหารระดับพอร์ตโฟลิโอ ทุกการกระทำจะถูกบันทึกในบันทึกการตรวจสอบ."
+          "description": "การควบคุมตามองค์กร ลำดับชั้น และบทบาทจำกัดการเข้าถึงข้อมูลลูกค้า"
         },
         {
           "icon": "data",
           "title": "การแยกข้อมูลและการพำนัก",
-          "description": "ข้อมูลของลูกค้าแต่ละรายจะถูกแยกอย่างมีเหตุผล เราสนับสนุนข้อกำหนดการพำนักข้อมูลในภูมิภาคและสามารถปรับใช้ในภูมิศาสตร์เฉพาะตามคำขอ."
+          "description": "การเก็บข้อมูลในภูมิภาคและโฮสติ้งของลูกค้าต้องมีขอบเขตการดำเนินงานและเงื่อนไขการติดตั้งที่ลงนามแล้ว"
         },
         {
           "icon": "performance",
           "title": "โครงสร้างพื้นฐานและการตรวจสอบ",
-          "description": "โฮสต์บนโครงสร้างพื้นฐานคลาวด์ระดับองค์กรที่มีการเปลี่ยนผ่านอัตโนมัติ การตรวจสอบที่ใช้งานอยู่ และแนวทางการตอบสนองต่อเหตุการณ์ที่มีเอกสาร."
+          "description": "มีขั้นตอนการติดตามและจัดการเหตุการณ์ เป้าหมายการกู้คืนต้องผ่านการทดสอบคืนค่าที่วัดผลได้"
         },
         {
           "icon": "dashboard",
           "title": "การบันทึกการตรวจสอบและความโปร่งใส",
-          "description": "การเข้าถึงข้อมูล การส่งออก และการเปลี่ยนแปลงการกำหนดค่าทุกครั้งจะถูกบันทึก ลูกค้าสามารถขอเส้นทางการตรวจสอบและเอกสารการปฏิบัติตามได้ตลอดเวลา."
+          "description": "บันทึกการตรวจสอบครอบคลุมการดำเนินการบางประเภท ขอหลักฐานสำหรับบริการและช่วงเวลาที่เกี่ยวข้องได้"
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "ปฏิบัติตามข้อกำหนดของ EU General Data Protection Regulation อย่างเต็มที่ รวมถึงสิทธิของเจ้าของข้อมูล, การประมวลผลตามฐานทางกฎหมาย, และความพร้อมใช้งานของ DPA."
+          "description": "มีนโยบายความเป็นส่วนตัวและขั้นตอนคำขอใช้สิทธิ ขอบเขตและข้อยกเว้นขึ้นอยู่กับการประมวลผลที่เกี่ยวข้อง"
         },
         {
           "title": "SOC 2 Type II",
-          "description": "กำลังดำเนินการรับรอง SOC 2 Type II ซึ่งครอบคลุมเกณฑ์ความปลอดภัย, ความพร้อมใช้งาน, และความลับของบริการที่เชื่อถือได้.",
+          "description": "กำลังดำเนินโครงการเตรียมความพร้อมด้านความปลอดภัยโดยใช้หลักฐาน ปัจจุบัน Sundae ยังไม่มีรายงาน SOC 2",
           "note": "อยู่ในระหว่างดำเนินการ"
         },
         {
           "title": "Data Processing Agreements",
-          "description": "มี DPAs มาตรฐานสำหรับลูกค้าองค์กรทั้งหมด เงื่อนไขการจัดการข้อมูลที่กำหนดเองสามารถเจรจาได้สำหรับการใช้งานขนาดใหญ่."
+          "description": "ก่อนลงนาม โปรดยืนยัน DPA ที่มีผล ภาคผนวกการประมวลผล และรุ่นทะเบียนผู้ประมวลผลช่วงที่ได้รับอนุมัติ"
         },
         {
           "title": "Penetration Testing",
-          "description": "การทดสอบการเจาะระบบและการประเมินความเสี่ยงจากบุคคลที่สามเป็นประจำ ผลการตรวจสอบจะได้รับการแก้ไขภายใน SLA ที่กำหนด."
+          "description": "กำลังจัดหาผู้ทดสอบเจาะระบบอิสระ โดยไม่ได้อ้างว่ามีรายงานการทดสอบจากบุคคลที่สามที่เสร็จสมบูรณ์แล้ว"
         }
       ]
     },
     "ms": {
       "badge": "Keselamatan & Pematuhan",
-      "title": "Keselamatan Tahap Perusahaan",
-      "description": "Data anda dilindungi oleh amalan keselamatan terkemuka dalam industri, penyulitan, dan piawaian pematuhan.",
+      "title": "Keselamatan dan kawalan data",
+      "description": "Kawalan berdokumen, program pemulihan aktif dan bukti yang tersedia untuk semakan.",
       "architectureTitle": "Arsitektur Keselamatan",
       "architectureDescription": "Enam tiang yang melindungi data anda dari pengambilan hingga wawasan.",
-      "complianceTitle": "Pematuhan & Sijil",
+      "complianceTitle": "Status jaminan",
       "ctaTitle": "Soalan Mengenai Keselamatan?",
-      "ctaDescription": "Pasukan kami gembira untuk membincangkan amalan keselamatan dan sijil pematuhan kami.",
+      "ctaDescription": "Kawalan berdokumen, program pemulihan aktif dan bukti yang tersedia untuk semakan.",
       "ctaPrimary": "Hubungi Kami",
       "ctaSecondary": "Lihat Dokumentasi",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Penyulitan Semasa Rehat & Dalam Transit",
-          "description": "Semua data disulitkan menggunakan AES-256 semasa rehat dan TLS 1.3 dalam transit. Kunci API dan kelayakan disimpan dalam peti besi yang terasing dan disulitkan - tidak pernah dalam kod sumber."
+          "description": "TLS dan penyulitan melindungi perkhidmatan yang disokong. Pengurusan kunci dan liputan pembekal bergantung pada pelaksanaan."
         },
         {
           "icon": "integration",
           "title": "Integrasi Selamat",
-          "description": "Sambungan POS, gaji, dan inventori menggunakan OAuth 2.0 atau token API yang disulitkan dengan skop keistimewaan minimum. Kami tidak pernah menyimpan kelayakan mentah dari sistem pihak ketiga."
+          "description": "Integrasi menggunakan akses terhad dan penyimpanan kelayakan tersulit apabila disokong."
         },
         {
           "icon": "operators",
           "title": "Kawalan Akses Berdasarkan Peranan",
-          "description": "RBAC yang terperinci membolehkan anda mengawal siapa yang melihat apa - dari pengendali peringkat lokasi hingga eksekutif peringkat portfolio. Setiap tindakan dicatat dalam log audit."
+          "description": "Kawalan organisasi, hierarki dan peranan mengehadkan akses kepada rekod pelanggan."
         },
         {
           "icon": "data",
           "title": "Pengasingan & Kediaman Data",
-          "description": "Data setiap pelanggan diasingkan secara logik. Kami menyokong keperluan kediaman data serantau dan boleh melaksanakan dalam geografi tertentu atas permintaan."
+          "description": "Residensi serantau dan pengehosan milik pelanggan memerlukan skop pelaksanaan serta syarat penempatan yang ditandatangani."
         },
         {
           "icon": "performance",
           "title": "Infrastruktur & Pemantauan",
-          "description": "Dihoskan pada infrastruktur awan tahap perusahaan dengan pemulihan automatik, pemantauan aktif, dan amalan respons insiden yang didokumenkan."
+          "description": "Prosedur pemantauan dan insiden tersedia. Sasaran pemulihan memerlukan ujian pemulihan yang diukur."
         },
         {
           "icon": "dashboard",
           "title": "Log Audit & Ketelusan",
-          "description": "Setiap akses data, eksport, dan perubahan konfigurasi dicatat. Pelanggan boleh meminta jejak audit dan dokumentasi pematuhan pada bila-bila masa."
+          "description": "Rekod audit meliputi tindakan tertentu. Minta bukti bagi perkhidmatan dan tempoh yang berkenaan."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Pematuhan penuh dengan Peraturan Perlindungan Data Umum EU termasuk hak subjek data, pemprosesan asas yang sah, dan ketersediaan DPA."
+          "description": "Dasar privasi dan proses permintaan hak tersedia. Liputan dan pengecualian bergantung pada pemprosesan yang berkenaan."
         },
         {
           "title": "SOC 2 Type II",
-          "description": "Mengejar pensijilan SOC 2 Type II yang merangkumi kriteria perkhidmatan kepercayaan keselamatan, ketersediaan, dan kerahsiaan.",
+          "description": "Program kesiapsiagaan keselamatan berasaskan bukti sedang berjalan. Sundae kini tidak mempunyai laporan SOC 2.",
           "note": "Dalam proses"
         },
         {
           "title": "Perjanjian Pemprosesan Data",
-          "description": "DPA standard tersedia untuk semua pelanggan perusahaan. Terma pengendalian data khusus boleh dirunding untuk penyebaran besar."
+          "description": "Sebelum menandatangani, sahkan DPA yang berkuat kuasa, lampiran pemprosesan dan versi daftar subpemproses yang diluluskan."
         },
         {
           "title": "Ujian Penetrasi",
-          "description": "Ujian penetrasi pihak ketiga secara berkala dan penilaian kerentanan. Penemuan akan diperbaiki dalam SLA yang ditetapkan."
+          "description": "Pembekal ujian penembusan bebas sedang dicari. Tiada laporan ujian pihak ketiga yang telah selesai didakwa tersedia."
         }
       ]
     },
     "sv": {
       "badge": "Säkerhet & Efterlevnad",
-      "title": "Säkerhet av företagsklass",
-      "description": "Dina uppgifter skyddas av branschledande säkerhetspraxis, kryptering och efterlevnadsstandarder.",
+      "title": "Säkerhet och datakontroller",
+      "description": "Dokumenterade kontroller, ett aktivt åtgärdsprogram och underlag som kan granskas.",
       "architectureTitle": "Säkerhetsarkitektur",
       "architectureDescription": "Sex pelare som skyddar dina data från insamling till insikt.",
-      "complianceTitle": "Efterlevnad & Certifieringar",
+      "complianceTitle": "Status för säkerhetsunderlag",
       "ctaTitle": "Frågor om säkerhet?",
-      "ctaDescription": "Vårt team är glada att diskutera våra säkerhetsrutiner och efterlevnadsintyg.",
+      "ctaDescription": "Dokumenterade kontroller, ett aktivt åtgärdsprogram och underlag som kan granskas.",
       "ctaPrimary": "Kontakta oss",
       "ctaSecondary": "Se dokumentation",
       "pillars": [
         {
           "icon": "alerts",
           "title": "Kryptering i vila och under överföring",
-          "description": "All data är krypterad med AES-256 i vila och TLS 1.3 under överföring. API-nycklar och autentiseringsuppgifter lagras i isolerade, krypterade valv - aldrig i källkoden."
+          "description": "TLS och kryptering skyddar tjänster som stöds. Nyckelhantering och leverantörstäckning beror på driftsättningen."
         },
         {
           "icon": "integration",
           "title": "Säkra integrationer",
-          "description": "POS, löne- och lagerkopplingar använder OAuth 2.0 eller krypterade API-token med minimiåtkomst. Vi lagrar aldrig råa autentiseringsuppgifter från tredjepartssystem."
+          "description": "Integrationer använder avgränsad åtkomst och krypterad lagring av inloggningsuppgifter där det stöds."
         },
         {
           "icon": "operators",
           "title": "Rollbaserad åtkomstkontroll",
-          "description": "Granulär RBAC låter dig kontrollera vem som ser vad - från platsnivåoperatörer till portföljnivåledare. Varje åtgärd loggas."
+          "description": "Kontroller för organisation, hierarki och roller begränsar åtkomsten till kunduppgifter."
         },
         {
           "icon": "data",
           "title": "Dataisolering och bosättning",
-          "description": "Varje kunds data är logiskt isolerad. Vi stödjer regionala krav på datalagring och kan implementera inom specifika geografiska områden på begäran."
+          "description": "Regional datalagring och kundägd drift kräver en avgränsad implementation och undertecknade driftsvillkor."
         },
         {
           "icon": "performance",
           "title": "Infrastruktur och övervakning",
-          "description": "Värd på företagsklassad molninfrastruktur med automatisk övergång, aktiv övervakning och dokumenterade incidenthanteringsrutiner."
+          "description": "Rutiner för övervakning och incidenter finns. Återställningsmål måste verifieras med uppmätta återställningstester."
         },
         {
           "icon": "dashboard",
           "title": "Revisionsloggning och transparens",
-          "description": "Varje datatillgång, export och konfigurationsändring loggas. Kunder kan begära revisionsspår och efterlevnadsdokumentation när som helst."
+          "description": "Revisionsloggar omfattar utvalda åtgärder. Begär underlag för berörda tjänster och tidsperioder."
         }
       ],
       "compliance": [
         {
           "title": "GDPR",
-          "description": "Fullständig efterlevnad av EU:s allmänna dataskyddsförordning inklusive rättigheter för registrerade, laglig grund för behandling och tillgång till DPA."
+          "description": "Integritetspolicyer och rutiner för rättighetsbegäranden finns. Omfattning och undantag beror på den aktuella behandlingen."
         },
         {
           "title": "SOC 2 Typ II",
-          "description": "Strävar efter SOC 2 Typ II-certifiering som täcker säkerhet, tillgänglighet och konfidentialitet enligt förtroendetjänstkriterier.",
+          "description": "Ett evidensbaserat säkerhetsprogram pågår. Sundae har för närvarande ingen SOC 2-rapport.",
           "note": "Pågående"
         },
         {
           "title": "Databehandlingsavtal",
-          "description": "Standard DPA:er tillgängliga för alla företagskunder. Anpassade villkor för databehandling kan förhandlas för stora implementationer."
+          "description": "Bekräfta gällande personuppgiftsbiträdesavtal, behandlingsbilagor och godkänd version av underbiträdesregistret före undertecknande."
         },
         {
           "title": "Penetrationstestning",
-          "description": "Regelbunden penetrationstestning av tredje part och sårbarhetsbedömningar. Resultat åtgärdas inom definierade SLA:er."
+          "description": "En oberoende leverantör av penetrationstester söks. Ingen färdig testrapport från tredje part åberopas."
         }
       ]
     }
