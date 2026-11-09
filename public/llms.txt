@@ -64,6 +64,9 @@ Sundae Crew connects workforce execution to the same decision-intelligence layer
 - [Payroll](https://www.sundae.io/crew/payroll): Multi-country payroll calculation, review, statutory outputs, and provider handoff
 - [People and HR](https://www.sundae.io/crew/people): Recruiting, onboarding, employee records, documents, reviews, leave, and offboarding
 - [Workforce intelligence](https://www.sundae.io/crew/people-intelligence): Workforce health, no-show risk, overtime, and labor cost alongside sales and demand
+- [Restaurant task management](https://www.sundae.io/restaurant-task-management): Opening, closing, recurring and exception work with ownership, approvals and evidence
+- [Digital restaurant logbook](https://www.sundae.io/restaurant-logbook): Shift notes, handovers, issues, searchable history and follow-up
+- [Restaurant tip management](https://www.sundae.io/restaurant-tip-management): Tip workflows, reviewable calculations and payroll-ready evidence
 - [Hospitality operators](https://www.sundae.io/solutions/hospitality-operators): Operating intelligence across hospitality F&B outlets and revenue streams
 - [HR and people teams](https://www.sundae.io/solutions/hr-teams): Labor visibility and accountable workforce action by shift
 

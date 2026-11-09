@@ -46,6 +46,9 @@ export const sitemapRouteGroups = {
     '/crew/payroll',
     '/crew/people',
     '/crew/people-intelligence',
+    '/restaurant-task-management',
+    '/restaurant-logbook',
+    '/restaurant-tip-management',
   ],
   solutions: [
     '/solutions/multi-location-groups',

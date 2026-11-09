@@ -26,9 +26,9 @@ This language is the source of truth for website metadata, answer copy, structur
 | restaurant software for owners and CEOs | Owner, CEO, CFO | `/solutions/c-suite-executives` | Connect revenue quality, controllable loss, and measured recovery | Demo |
 | restaurant operations software for regional managers | Regional and area manager | `/solutions/regional-managers` | Show live shift detection and accountable execution | Demo |
 | restaurant management software for multi-location operators | Owner, COO, operations leader | `/` | Establish Sundae as the operating platform that connects people, shifts, workflows, data and measured recovery | Demo |
-| restaurant task management software | Operations and regional managers | `/crew` | Explain assigned tasks, approvals, workflow evidence and follow-through across locations | Crew walkthrough |
-| restaurant logbook and shift handover software | General managers, area managers | `/crew` | Explain searchable shift communication, handovers, issues and accountable follow-up | Crew walkthrough |
-| restaurant tip management software | Payroll, HR and operations | `/crew/payroll` | Explain tip workflows as part of payroll readiness and region-aware review | Crew walkthrough |
+| restaurant task management software | Operations and regional managers | `/restaurant-task-management` | Explain assigned tasks, approvals, workflow evidence and follow-through across locations | Crew walkthrough |
+| restaurant logbook and shift handover software | General managers, area managers | `/restaurant-logbook` | Explain searchable shift communication, handovers, issues and accountable follow-up | Crew walkthrough |
+| restaurant tip management software | Payroll, HR and operations | `/restaurant-tip-management` | Explain tip workflows as part of payroll readiness and region-aware review | Crew walkthrough |
 | restaurant workforce and operations management software | HR, payroll, operations, COO | `/crew` | Connect scheduling, attendance, tasks, communication, HR, payroll readiness and workforce intelligence | Crew walkthrough |
 | real-time restaurant operations software | Operations, regional and area managers | `/product/pulse` | Show how live shift signals become prioritized, accountable actions | Demo |
 | restaurant demand forecasting and scenario planning | Operations, finance, planning | `/product/foresight` | Explain demand forecasting, confidence, scenarios, and decision support | Demo |
@@ -114,8 +114,6 @@ These questions should be tested monthly in ChatGPT, Google AI Overviews, Perple
 - Real-time restaurant operations guide: supports `/product/pulse` with data freshness, contextual exceptions, ownership, resolution, and outcome measurement.
 - Restaurant competitor intelligence guide: supports `/product/watchtower` with competitor selection, public-signal provenance, events, weather, and operating-use limits.
 - Restaurant management platform guide: explains the operating layer across shifts, tasks, handovers, workforce and measured decisions.
-- Restaurant task management and checklist guide: explains opening, closing, recurring and exception workflows with owner and completion evidence.
-- Digital restaurant logbook and shift handover guide: explains searchable manager notes, issue escalation and cross-location follow-through.
 - Tools hub and calculators: acquisition surfaces for specific operator questions.
 
 ## Next content candidates
