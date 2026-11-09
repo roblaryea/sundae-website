@@ -11,7 +11,7 @@ Owner: Website / SEO / GEO session
 - Promise: Run every shift and recover preventable profit across every location.
 - Explanation: Sundae connects daily restaurant management workflows to accountable action, decision support, and measured outcomes.
 - Loop: Detect -> decide -> execute -> measure -> learn.
-- Category: Restaurant management and decision intelligence for multi-location food-service.
+- Category: Operating platform and decision intelligence for multi-location hospitality and food-service.
 
 This language is the source of truth for website metadata, answer copy, structured data, `llms.txt`, and future search content.
 
@@ -25,7 +25,7 @@ This language is the source of truth for website metadata, answer copy, structur
 | multi-location restaurant software | Group operator, COO | `/solutions/multi-location-groups` | Show portfolio-wide visibility, accountability, and replication | Demo |
 | restaurant software for owners and CEOs | Owner, CEO, CFO | `/solutions/c-suite-executives` | Connect revenue quality, controllable loss, and measured recovery | Demo |
 | restaurant operations software for regional managers | Regional and area manager | `/solutions/regional-managers` | Show live shift detection and accountable execution | Demo |
-| restaurant management software for multi-location operators | Owner, COO, operations leader | `/` | Establish Sundae as the operating platform that connects people, shifts, workflows, data and measured recovery | Demo |
+| restaurant management software for multi-location operators | Owner, COO, operations leader | `/restaurant-management-platform` | Capture restaurant-management demand and lead operators into Sundae's broader hospitality and food-service operating platform | Demo |
 | restaurant task management software | Operations and regional managers | `/restaurant-task-management` | Explain assigned tasks, approvals, workflow evidence and follow-through across locations | Crew walkthrough |
 | restaurant logbook and shift handover software | General managers, area managers | `/restaurant-logbook` | Explain searchable shift communication, handovers, issues and accountable follow-up | Crew walkthrough |
 | restaurant tip management software | Payroll, HR and operations | `/restaurant-tip-management` | Explain tip workflows as part of payroll readiness and region-aware review | Crew walkthrough |
