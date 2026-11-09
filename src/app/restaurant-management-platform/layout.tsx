@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import { cookies } from 'next/headers'
+import { resolveWebsiteLocale } from '@/lib/i18n'
+import { buildOperatorWorkflowMetadata } from '@/lib/operatorWorkflowMetadata'
 
-export const metadata: Metadata = {
-  title: 'Restaurant Management Platform for Multi-Location Operators | Sundae',
-  description: 'Restaurant management software for multi-location groups, connected to a broader hospitality and food-service operating platform with decision intelligence.',
+export async function generateMetadata(): Promise<Metadata> {
+  return buildOperatorWorkflowMetadata(resolveWebsiteLocale(await cookies()), '/restaurant-management-platform')
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {

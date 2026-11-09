@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import { cookies } from 'next/headers'
+import { resolveWebsiteLocale } from '@/lib/i18n'
+import { buildOperatorWorkflowMetadata } from '@/lib/operatorWorkflowMetadata'
 
-export const metadata: Metadata = {
-  title: 'Restaurant Task Management Software | Sundae',
-  description: 'Assign, approve and measure restaurant tasks and checklists across every shift and location with Sundae Crew.',
+export async function generateMetadata(): Promise<Metadata> {
+  return buildOperatorWorkflowMetadata(resolveWebsiteLocale(await cookies()), '/restaurant-task-management')
 }
 
 export default function Layout({ children }: { children: React.ReactNode }) {
