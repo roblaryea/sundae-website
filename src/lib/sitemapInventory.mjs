@@ -50,6 +50,7 @@ export const sitemapRouteGroups = {
     '/restaurant-logbook',
     '/restaurant-tip-management',
     '/restaurant-management-platform',
+    '/restaurant365-alternative',
   ],
   solutions: [
     '/solutions/multi-location-groups',

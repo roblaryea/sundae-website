@@ -68,6 +68,7 @@ Sundae Crew connects workforce execution to the same decision-intelligence layer
 - [Digital restaurant logbook](https://www.sundae.io/restaurant-logbook): Shift notes, handovers, issues, searchable history and follow-up
 - [Restaurant tip management](https://www.sundae.io/restaurant-tip-management): Tip workflows, reviewable calculations and payroll-ready evidence
 - [Restaurant management platform](https://www.sundae.io/restaurant-management-platform): Restaurant-management entry point into Sundae's broader hospitality and food-service operating platform
+- [Restaurant365 alternative guide](https://www.sundae.io/restaurant365-alternative): Neutral evaluation criteria for multi-location operators comparing operating model, workforce, regional fit and decision intelligence
 - [Hospitality operators](https://www.sundae.io/solutions/hospitality-operators): Operating intelligence across hospitality F&B outlets and revenue streams
 - [HR and people teams](https://www.sundae.io/solutions/hr-teams): Labor visibility and accountable workforce action by shift
 

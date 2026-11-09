@@ -26,6 +26,7 @@ This language is the source of truth for website metadata, answer copy, structur
 | restaurant software for owners and CEOs | Owner, CEO, CFO | `/solutions/c-suite-executives` | Connect revenue quality, controllable loss, and measured recovery | Demo |
 | restaurant operations software for regional managers | Regional and area manager | `/solutions/regional-managers` | Show live shift detection and accountable execution | Demo |
 | restaurant management software for multi-location operators | Owner, COO, operations leader | `/restaurant-management-platform` | Capture restaurant-management demand and lead operators into Sundae's broader hospitality and food-service operating platform | Demo |
+| restaurant365 alternative | Owner, COO, operations leader | `/restaurant365-alternative` | Provide a neutral, evidence-led comparison framework for multi-location operators evaluating platform fit | Working session |
 | restaurant task management software | Operations and regional managers | `/restaurant-task-management` | Explain assigned tasks, approvals, workflow evidence and follow-through across locations | Crew walkthrough |
 | restaurant logbook and shift handover software | General managers, area managers | `/restaurant-logbook` | Explain searchable shift communication, handovers, issues and accountable follow-up | Crew walkthrough |
 | restaurant tip management software | Payroll, HR and operations | `/restaurant-tip-management` | Explain tip workflows as part of payroll readiness and region-aware review | Crew walkthrough |
