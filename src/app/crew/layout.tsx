@@ -9,9 +9,9 @@ export async function generateMetadata(): Promise<Metadata> {
   return buildCrewPageMetadata({
     locale,
     pathname: "/crew",
-    englishTitle: "Workforce Operations, Scheduling, HR and Payroll - Sundae Crew",
+    englishTitle: "Restaurant Workforce and Operations Management Software - Sundae Crew",
     englishDescription:
-      "Crew runs the people side of the operation: demand-aware scheduling, time and attendance, HR records, people intelligence and multi-country payroll readiness - or connects to the HR system you already run.",
+      "Sundae Crew connects restaurant scheduling, task and approval workflows, shift communication, time and attendance, HR, tip workflows, payroll readiness and workforce intelligence for multi-location teams.",
     generatedLocalCopy: generatedLocalCopy.localizedCopy,
   });
 }

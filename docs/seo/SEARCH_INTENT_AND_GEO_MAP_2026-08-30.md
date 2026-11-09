@@ -8,10 +8,10 @@ Owner: Website / SEO / GEO session
 
 ## Canonical message
 
-- Promise: Recover preventable profit loss across every location.
-- Explanation: Sundae finds where profit is slipping, helps the right person act, and measures what changed.
+- Promise: Run every shift and recover preventable profit across every location.
+- Explanation: Sundae connects daily restaurant management workflows to accountable action, decision support, and measured outcomes.
 - Loop: Detect -> decide -> execute -> measure -> learn.
-- Category: Decision Intelligence for closed-loop profit recovery.
+- Category: Restaurant management and decision intelligence for multi-location food-service.
 
 This language is the source of truth for website metadata, answer copy, structured data, `llms.txt`, and future search content.
 
@@ -25,6 +25,11 @@ This language is the source of truth for website metadata, answer copy, structur
 | multi-location restaurant software | Group operator, COO | `/solutions/multi-location-groups` | Show portfolio-wide visibility, accountability, and replication | Demo |
 | restaurant software for owners and CEOs | Owner, CEO, CFO | `/solutions/c-suite-executives` | Connect revenue quality, controllable loss, and measured recovery | Demo |
 | restaurant operations software for regional managers | Regional and area manager | `/solutions/regional-managers` | Show live shift detection and accountable execution | Demo |
+| restaurant management software for multi-location operators | Owner, COO, operations leader | `/` | Establish Sundae as the operating platform that connects people, shifts, workflows, data and measured recovery | Demo |
+| restaurant task management software | Operations and regional managers | `/crew` | Explain assigned tasks, approvals, workflow evidence and follow-through across locations | Crew walkthrough |
+| restaurant logbook and shift handover software | General managers, area managers | `/crew` | Explain searchable shift communication, handovers, issues and accountable follow-up | Crew walkthrough |
+| restaurant tip management software | Payroll, HR and operations | `/crew/payroll` | Explain tip workflows as part of payroll readiness and region-aware review | Crew walkthrough |
+| restaurant workforce and operations management software | HR, payroll, operations, COO | `/crew` | Connect scheduling, attendance, tasks, communication, HR, payroll readiness and workforce intelligence | Crew walkthrough |
 | real-time restaurant operations software | Operations, regional and area managers | `/product/pulse` | Show how live shift signals become prioritized, accountable actions | Demo |
 | restaurant demand forecasting and scenario planning | Operations, finance, planning | `/product/foresight` | Explain demand forecasting, confidence, scenarios, and decision support | Demo |
 | restaurant competitor, event and weather intelligence | Operations, marketing, strategy | `/product/watchtower` | Connect external market signals to location-level operating decisions | Demo |
@@ -108,6 +113,9 @@ These questions should be tested monthly in ChatGPT, Google AI Overviews, Perple
 - Restaurant demand forecasting guide: supports `/product/foresight` with data, confidence, scenarios, planning links, and validation limits.
 - Real-time restaurant operations guide: supports `/product/pulse` with data freshness, contextual exceptions, ownership, resolution, and outcome measurement.
 - Restaurant competitor intelligence guide: supports `/product/watchtower` with competitor selection, public-signal provenance, events, weather, and operating-use limits.
+- Restaurant management platform guide: explains the operating layer across shifts, tasks, handovers, workforce and measured decisions.
+- Restaurant task management and checklist guide: explains opening, closing, recurring and exception workflows with owner and completion evidence.
+- Digital restaurant logbook and shift handover guide: explains searchable manager notes, issue escalation and cross-location follow-through.
 - Tools hub and calculators: acquisition surfaces for specific operator questions.
 
 ## Next content candidates

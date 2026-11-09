@@ -1,10 +1,16 @@
 # Sundae
 
-> Sundae is a decision intelligence platform for closed-loop profit recovery in multi-location food-service operations.
+> Sundae is a restaurant management and decision intelligence platform for multi-location food-service operators. It connects daily operating workflows to accountable action and measured profit recovery.
 
-Sundae helps operators recover preventable profit loss across every location. It finds where profit is slipping, helps the right person act, and measures what changed. Its operating loop is: detect, decide, execute, measure, learn.
+Sundae helps operators run every shift and recover preventable profit loss across every location. It brings workforce operations, daily execution, connected restaurant data, decision support and measured outcomes into one operating loop: detect, decide, execute, measure, learn.
 
 Sundae does not claim to remove macroeconomic pressures such as wage increases, taxes, rates, or commodity inflation. It helps teams distinguish controllable operational losses, route accountable action, and measure whether margin was protected or recovered.
+
+## Restaurant management and operating layer
+
+Sundae Crew is the workforce and daily-operations layer for restaurant groups. It covers demand-aware scheduling, time and attendance, task and approval workflows, shift communication, HR and people records, tip workflows, payroll readiness, employee self-service and workforce intelligence. These workflows can run with Sundae Crew or connect to an HR or payroll system the operator already uses.
+
+The operating layer is connected to Sundae's decision-intelligence products, so a schedule, attendance event, task, handover, payroll cycle or workforce signal can become context for an operating decision and a measured outcome.
 
 ## Primary pages
 
