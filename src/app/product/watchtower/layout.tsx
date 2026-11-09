@@ -6,12 +6,12 @@ import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_l
 
 const copy = {
   en: {
-    title: "Sundae Watchtower - External Intelligence Engine for Restaurants",
+    title: "Restaurant Competitive Intelligence Software | Sundae Watchtower",
     description:
-      "AI-powered daily briefings, named competitor tracking, local event impact analysis, and market trend intelligence. The outside world, contextualized for your restaurant.",
-    openGraphTitle: "Sundae Watchtower - External Intelligence Engine for Restaurants",
+      "Restaurant competitive intelligence software with named competitor tracking, local event impact analysis, market trends, and AI-powered daily briefings.",
+    openGraphTitle: "Restaurant Competitive Intelligence Software | Sundae Watchtower",
     openGraphDescription:
-      "AI-powered daily briefings, named competitor tracking, local event impact analysis, and market trend intelligence.",
+      "Track competitors, local events, and market signals, then connect the outside world to restaurant operating decisions.",
   },
   ar: {
     title: "Sundae Watchtower - محرك ذكاء خارجي للمطاعم",

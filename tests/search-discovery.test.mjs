@@ -175,6 +175,13 @@ test('AI discovery maps every decision-intelligence product and trust surface', 
   }
 })
 
+test('Watchtower metadata owns restaurant competitive-intelligence intent', () => {
+  const layout = fs.readFileSync(path.join(root, 'src/app/product/watchtower/layout.tsx'), 'utf8')
+  assert.match(layout, /title: "Restaurant Competitive Intelligence Software \| Sundae Watchtower"/)
+  assert.match(layout, /Restaurant competitive intelligence software with named competitor tracking/)
+  assert.match(layout, /Track competitors, local events, and market signals/)
+})
+
 test('central metadata gives discovery routes specific descriptions and social titles', () => {
   const titles = fs.readFileSync(path.join(root, 'src/lib/pageTitles.ts'), 'utf8')
   const layout = fs.readFileSync(path.join(root, 'src/app/layout.tsx'), 'utf8')
