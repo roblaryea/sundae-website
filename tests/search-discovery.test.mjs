@@ -83,15 +83,19 @@ test('unsupported legacy research is withdrawn from discovery and redirected to 
   for (const slug of [
     '2026-state-of-restaurant-intelligence',
     'gcc-restaurant-benchmarks-2026',
+    'inside-sundae-canvas',
     'labor-benchmarks-gcc',
+    'why-nexus-replaces-dashboard-suite',
   ]) {
     assert.match(evidencePolicy, new RegExp(`['"]${slug}['"]`))
   }
 
   assert.match(evidencePolicy, /BLOG_EVIDENCE_REVIEW_REDIRECT = '\/blog\/restaurant-benchmarking-methodology'/)
+  assert.match(evidencePolicy, /\['inside-sundae-canvas', '\/core'\]/)
+  assert.match(evidencePolicy, /\['why-nexus-replaces-dashboard-suite', '\/product\/intelligence'\]/)
   assert.match(translations, /filter\(\(post\) => !requiresBlogEvidenceReview\(post\.slug\)\)/)
-  assert.match(articlePage, /permanentRedirect\(getLocalizedPathname\(BLOG_EVIDENCE_REVIEW_REDIRECT, locale\)\)/)
-  assert.match(proxy, /requiresBlogEvidenceReview\(blogSlug\)/)
+  assert.match(articlePage, /permanentRedirect\(getLocalizedPathname\(evidenceRedirect, locale\)\)/)
+  assert.match(proxy, /getBlogEvidenceReviewRedirect\(blogSlug\)/)
   assert.match(proxy, /NextResponse\.redirect\(redirectUrl, 308\)/)
 })
 

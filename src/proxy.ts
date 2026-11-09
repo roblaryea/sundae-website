@@ -12,8 +12,7 @@ import {
 import { isProfileCardPath, isProfileHandle, isProfileHandleCandidate } from '@/lib/profileHandles'
 import { CARD_LOCALE_COOKIE, resolveCardLocale } from '@/lib/profileCardLocale'
 import {
-  BLOG_EVIDENCE_REVIEW_REDIRECT,
-  requiresBlogEvidenceReview,
+  getBlogEvidenceReviewRedirect,
 } from '@/lib/blogEvidence'
 
 function withLocaleHeaders(request: NextRequest, locale: string, publicPathname: string) {
@@ -49,10 +48,11 @@ export async function proxy(request: NextRequest) {
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
 
   const blogSlug = internalPathname.match(/^\/blog\/([^/]+)\/?$/)?.[1]
-  if (blogSlug && requiresBlogEvidenceReview(blogSlug)) {
+  const evidenceRedirect = blogSlug ? getBlogEvidenceReviewRedirect(blogSlug) : null
+  if (evidenceRedirect) {
     const redirectUrl = request.nextUrl.clone()
     redirectUrl.pathname = getLocalizedPathname(
-      BLOG_EVIDENCE_REVIEW_REDIRECT,
+      evidenceRedirect,
       localeFromPath ?? defaultWebsiteLocale,
     )
     return NextResponse.redirect(redirectUrl, 308)
