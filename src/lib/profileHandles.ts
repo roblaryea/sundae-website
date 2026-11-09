@@ -13,7 +13,7 @@ export type ProfileHandle = string
 
 // Existing marketing routes retain their own layout and routing. Unknown root
 // handles may resolve dynamically, but never consume an established site path.
-const RESERVED = new Set('4d-intelligence about api architecture blog book brand careers chat-with-data contact core crew demo diagnostic docs faq getting-started integrations modules p preview pricing privacy product resources security sign-in signin solutions terms tiktok-review tools why-sundae restaurant-task-management restaurant-logbook restaurant-tip-management restaurant-management-platform admin auth login logout signup sign-up sitemap robots'.split(' '))
+const RESERVED = new Set('4d-intelligence about api architecture blog book brand careers chat-with-data contact core crew demo diagnostic docs faq getting-started integrations modules p preview pricing privacy product resources security sign-in signin solutions terms tiktok-review tools why-sundae restaurant-task-management restaurant-logbook restaurant-tip-management restaurant-management-platform restaurant365-alternative admin auth login logout signup sign-up sitemap robots'.split(' '))
 export function isProfileHandleCandidate(value: string): boolean {
   return /^[a-z][a-z0-9-]{2,63}$/.test(value) && !value.endsWith('-') && !RESERVED.has(value)
 }
