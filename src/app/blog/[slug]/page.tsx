@@ -14,8 +14,7 @@ import { BlogContent } from './BlogContent';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_blog_slug_page'
 import {
-  BLOG_EVIDENCE_REVIEW_REDIRECT,
-  requiresBlogEvidenceReview,
+  getBlogEvidenceReviewRedirect,
 } from '@/lib/blogEvidence';
 
 interface BlogPostPageProps {
@@ -136,8 +135,9 @@ export default async function BlogPostPage({
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const forcedEnglish = resolvedSearchParams?.lang === 'en';
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
-  if (requiresBlogEvidenceReview(slug)) {
-    permanentRedirect(getLocalizedPathname(BLOG_EVIDENCE_REVIEW_REDIRECT, locale));
+  const evidenceRedirect = getBlogEvidenceReviewRedirect(slug);
+  if (evidenceRedirect) {
+    permanentRedirect(getLocalizedPathname(evidenceRedirect, locale));
   }
   const copy = localizedBlogPostPageCopy[locale as keyof typeof localizedBlogPostPageCopy] ?? getGeneratedLocalCopy(localizedBlogPostPageCopy, generatedLocalCopy.localizedBlogPostPageCopy, locale) ?? localizedBlogPostPageCopy.en;
   const post = getLocalizedBlogPost(slug, locale);
