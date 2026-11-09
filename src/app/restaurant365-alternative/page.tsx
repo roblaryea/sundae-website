@@ -82,9 +82,9 @@ export default function Restaurant365AlternativePage() {
       </section>
 
       <section className="px-4 py-20 sm:px-6 lg:px-8">
-        <div className="mx-auto grid max-w-6xl gap-6 md:grid-cols-3">
+        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-3">
           {questions.map((item) => (
-            <article key={item.title} className="rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6">
+            <article key={item.title} className="border-t-2 border-[#FF5C4D] pt-5">
               <h2 className="mb-3 text-lg font-semibold">{item.title}</h2>
               <p className="body-base text-[var(--text-supporting)]">{item.body}</p>
             </article>
