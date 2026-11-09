@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/Button'
 import { CreamBreak } from '@/components/ui/CreamBreak'
 import { StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations'
@@ -51,15 +50,15 @@ export function OperatorWorkflowPage({
         <div className={`absolute inset-0 bg-gradient-to-br ${accent} opacity-[0.14]`} aria-hidden />
         <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.8fr)]">
           <div>
-            <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }} className="eyebrow mb-5">{eyebrow}</motion.p>
-            <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.08 }} className="hero-h1 max-w-4xl text-balance">{title}</motion.h1>
-            <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.16 }} className="body-xl mt-7 max-w-2xl text-[var(--text-supporting)]">{description}</motion.p>
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.24 }} className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <p className="eyebrow mb-5">{eyebrow}</p>
+            <h1 className="hero-h1 max-w-4xl text-balance">{title}</h1>
+            <p className="body-xl mt-7 max-w-2xl text-[var(--text-supporting)]">{description}</p>
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Link href="/demo"><Button variant="primary" size="lg">Book a walkthrough</Button></Link>
               <Link href="/crew"><Button variant="outline-light" size="lg">See Sundae Crew</Button></Link>
-            </motion.div>
+            </div>
           </div>
-          <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="border-l border-[var(--border-default)] pl-7 lg:pl-10">
+          <div className="border-l border-[var(--border-default)] pl-7 lg:pl-10">
             <p className="eyebrow mb-6">THE OPERATING RHYTHM</p>
             <ol className="space-y-6">
               {['Capture the work', 'Carry the context', 'Assign the next action', 'Measure what changed'].map((step, index) => (
@@ -69,7 +68,7 @@ export function OperatorWorkflowPage({
                 </li>
               ))}
             </ol>
-          </motion.div>
+          </div>
         </div>
       </section>
 
