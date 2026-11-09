@@ -248,9 +248,9 @@ export function buildWebsiteAlternateUrls(pathname: string, baseUrl: string) {
 export const websiteMessages = {
   en: {
     metadata: {
-      title: 'Sundae - Restaurant Management and Decision Intelligence for Multi-Location Operators',
+      title: 'Sundae - Decision Intelligence for Hospitality and Food-Service Operators',
       description:
-        'Restaurant management and decision intelligence for multi-location food-service - Sundae connects daily operating workflows to accountable action and measured profit recovery.',
+        'Decision intelligence for multi-location hospitality and food-service operators - Sundae connects daily workflows to accountable action and measured profit recovery.',
     },
     layout: {
       skipToContent: 'Skip to main content',

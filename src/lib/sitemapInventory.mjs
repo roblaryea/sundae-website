@@ -49,6 +49,7 @@ export const sitemapRouteGroups = {
     '/restaurant-task-management',
     '/restaurant-logbook',
     '/restaurant-tip-management',
+    '/restaurant-management-platform',
   ],
   solutions: [
     '/solutions/multi-location-groups',

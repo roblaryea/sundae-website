@@ -1,14 +1,14 @@
 # Sundae
 
-> Sundae is a restaurant management and decision intelligence platform for multi-location food-service operators. It connects daily operating workflows to accountable action and measured profit recovery.
+> Sundae is an operating platform with decision intelligence for multi-location hospitality and food-service operators. It connects daily operating workflows to accountable action and measured profit recovery.
 
-Sundae helps operators run every shift and recover preventable profit loss across every location. It brings workforce operations, daily execution, connected restaurant data, decision support and measured outcomes into one operating loop: detect, decide, execute, measure, learn.
+Sundae helps hospitality and food-service operators run every shift and recover preventable profit loss across every location. It brings workforce operations, daily execution, connected operating data, decision support and measured outcomes into one operating loop: detect, decide, execute, measure, learn.
 
 Sundae does not claim to remove macroeconomic pressures such as wage increases, taxes, rates, or commodity inflation. It helps teams distinguish controllable operational losses, route accountable action, and measure whether margin was protected or recovered.
 
-## Restaurant management and operating layer
+## Hospitality and food-service operating layer
 
-Sundae Crew is the workforce and daily-operations layer for restaurant groups. It covers demand-aware scheduling, time and attendance, task and approval workflows, shift communication, HR and people records, tip workflows, payroll readiness, employee self-service and workforce intelligence. These workflows can run with Sundae Crew or connect to an HR or payroll system the operator already uses.
+Sundae Crew is the workforce and daily-operations layer for hospitality and food-service groups. It covers demand-aware scheduling, time and attendance, task and approval workflows, shift communication, HR and people records, tip workflows, payroll readiness, employee self-service and workforce intelligence. These workflows can run with Sundae Crew or connect to an HR or payroll system the operator already uses.
 
 The operating layer is connected to Sundae's decision-intelligence products, so a schedule, attendance event, task, handover, payroll cycle or workforce signal can become context for an operating decision and a measured outcome.
 
@@ -67,6 +67,7 @@ Sundae Crew connects workforce execution to the same decision-intelligence layer
 - [Restaurant task management](https://www.sundae.io/restaurant-task-management): Opening, closing, recurring and exception work with ownership, approvals and evidence
 - [Digital restaurant logbook](https://www.sundae.io/restaurant-logbook): Shift notes, handovers, issues, searchable history and follow-up
 - [Restaurant tip management](https://www.sundae.io/restaurant-tip-management): Tip workflows, reviewable calculations and payroll-ready evidence
+- [Restaurant management platform](https://www.sundae.io/restaurant-management-platform): Restaurant-management entry point into Sundae's broader hospitality and food-service operating platform
 - [Hospitality operators](https://www.sundae.io/solutions/hospitality-operators): Operating intelligence across hospitality F&B outlets and revenue streams
 - [HR and people teams](https://www.sundae.io/solutions/hr-teams): Labor visibility and accountable workforce action by shift
 
