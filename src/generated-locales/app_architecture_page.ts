@@ -16,7 +16,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "وحدات الهندسة المعمارية",
       "modulesDescription": "خمس وحدات أساسية تعمل على تشغيل Ask Sundae Stack",
       "securityTitle": "أمن المؤسسات والامتثال",
-      "securityDescription": "Sundae: شهادة SOC 2 Type II قيد العمل. تظل ضوابط GDPR وCCPA جزءًا من برنامج أمان Sundae.",
+      "securityDescription": "يوجد برنامج نشط للاستعداد الأمني قائم على الأدلة. لا تملك Sundae حالياً تقرير SOC 2.",
       "engineeringTitle": "بنيت مع الهندسة المتميزة",
       "engineeringDescription": "مجموعة إنتاج مصممة لتحقيق الموثوقية والسرعة والنطاق التشغيلي.",
       "ctaTitle": "انظر الهندسة المعمارية في العمل",
@@ -162,43 +162,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "التشفير من النهاية إلى النهاية",
-          "description": "تشفير AES-256 للبيانات أثناء النقل والراحة",
+          "title": "الأمن وضوابط البيانات",
+          "description": "تحمي تقنيات TLS والتشفير الخدمات المدعومة. تختلف إدارة المفاتيح وتغطية المزوّدين بحسب بيئة النشر.",
           "icon": "alerts"
         },
         {
           "title": "التحكم في الوصول",
-          "description": "الوصول المستند إلى الدور مع مصادقة متعددة العوامل",
+          "description": "تقيّد ضوابط المؤسسة والتسلسل التنظيمي والأدوار الوصول إلى سجلات العملاء.",
           "icon": "integration"
         },
         {
           "title": "معايير الامتثال",
-          "description": "شهادة SOC 2 Type II قيد العمل. تظل ضوابط GDPR وCCPA جزءًا من برنامج أمان Sundae.",
+          "description": "يوجد برنامج نشط للاستعداد الأمني قائم على الأدلة. لا تملك Sundae حالياً تقرير SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 النوع الثاني",
-          "state": "قيد التنفيذ",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "اللائحة العامة لحماية البيانات",
-          "state": "✓ متوافق",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "قانون خصوصية المستهلك في كاليفورنيا",
-          "state": "✓ متوافق",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ايزو 27001",
-          "state": "قيد التقدم",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 النوع الثاني","state":"قيد التنفيذ","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "الذكاء الاصطناعي متعدد الوكلاء",
@@ -259,12 +238,7 @@ export const generatedLocalCopy = {
           "title": "الأمن والحوكمة",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "برنامج SOC 2 Type II قيد التنفيذ",
-            "التشفير من النهاية إلى النهاية",
-            "التحكم في الوصول على أساس الدور",
-            "عمليات تدقيق أمنية منتظمة"
-          ]
+          "features": ["الأمن وضوابط البيانات","التحكم في الوصول","معايير الامتثال"]
         }
       ]
     },
@@ -282,7 +256,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Módulos de arquitectura",
       "modulesDescription": "Cinco módulos principales que impulsan Ask Sundae Stack",
       "securityTitle": "Seguridad y cumplimiento empresarial",
-      "securityDescription": "Sundae: La certificación SOC 2 Type II está en curso. Los controles GDPR y CCPA siguen formando parte del programa de seguridad de Sundae.",
+      "securityDescription": "Hay un programa activo de preparación de seguridad basado en evidencias. Sundae no dispone actualmente de un informe SOC 2.",
       "engineeringTitle": "Construido con ingeniería premium",
       "engineeringDescription": "Una pila de producción diseñada para brindar confiabilidad, velocidad y escala operativa.",
       "ctaTitle": "Vea la arquitectura en acción",
@@ -428,43 +402,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Cifrado de extremo a extremo",
-          "description": "Cifrado AES-256 para datos en tránsito y en reposo",
+          "title": "Seguridad y controles de datos",
+          "description": "TLS y el cifrado protegen los servicios compatibles. La gestión de claves y la cobertura de proveedores dependen del despliegue.",
           "icon": "alerts"
         },
         {
           "title": "Control de acceso",
-          "description": "Acceso basado en roles con autenticación multifactor",
+          "description": "Los controles por organización, jerarquía y rol restringen el acceso a los registros del cliente.",
           "icon": "integration"
         },
         {
           "title": "Estándares de cumplimiento",
-          "description": "La certificación SOC 2 Type II está en curso. Los controles GDPR y CCPA siguen formando parte del programa de seguridad de Sundae.",
+          "description": "Hay un programa activo de preparación de seguridad basado en evidencias. Sundae no dispone actualmente de un informe SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Tipo II",
-          "state": "En curso",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "RGPD",
-          "state": "✓ Cumple",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Cumple",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "En progreso",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Tipo II","state":"En curso","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "IA multiagente",
@@ -525,12 +478,7 @@ export const generatedLocalCopy = {
           "title": "Seguridad y gobernanza",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Programa SOC 2 Type II en curso",
-            "Cifrado de extremo a extremo",
-            "Control de acceso basado en roles",
-            "Auditorías de seguridad periódicas"
-          ]
+          "features": ["Seguridad y controles de datos","Control de acceso","Estándares de cumplimiento"]
         }
       ]
     },
@@ -548,7 +496,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Modules d'architecture",
       "modulesDescription": "Cinq modules de base qui alimentent la Ask Sundae Stack",
       "securityTitle": "Sécurité et conformité d'entreprise",
-      "securityDescription": "Sundae: La certification SOC 2 Type II est en cours. Les contrôles GDPR et CCPA restent partie intégrante du programme de sécurité de Sundae.",
+      "securityDescription": "Un programme de préparation à la sécurité fondé sur des preuves est actif. Sundae ne dispose actuellement d’aucun rapport SOC 2.",
       "engineeringTitle": "Construit avec une ingénierie premium",
       "engineeringDescription": "Une pile de production conçue pour la fiabilité, la vitesse et l’échelle opérationnelle.",
       "ctaTitle": "Voir l'architecture en action",
@@ -694,43 +642,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Chiffrement de bout en bout",
-          "description": "Chiffrement AES-256 pour les données en transit et au repos",
+          "title": "Sécurité et contrôle des données",
+          "description": "TLS et le chiffrement protègent les services pris en charge. La gestion des clés et la couverture des fournisseurs dépendent du déploiement.",
           "icon": "alerts"
         },
         {
           "title": "Contrôle d'accès",
-          "description": "Accès basé sur les rôles avec authentification multifacteur",
+          "description": "Les contrôles par organisation, hiérarchie et rôle limitent l’accès aux dossiers clients.",
           "icon": "integration"
         },
         {
           "title": "Normes de conformité",
-          "description": "La certification SOC 2 Type II est en cours. Les contrôles GDPR et CCPA restent partie intégrante du programme de sécurité de Sundae.",
+          "description": "Un programme de préparation à la sécurité fondé sur des preuves est actif. Sundae ne dispose actuellement d’aucun rapport SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC2 Type II",
-          "state": "En cours",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "RGPD",
-          "state": "✓ Conforme",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Conforme",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "En cours",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC2 Type II","state":"En cours","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "IA multi-agents",
@@ -791,12 +718,7 @@ export const generatedLocalCopy = {
           "title": "Sécurité et gouvernance",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Programme SOC 2 Type II en cours",
-            "Chiffrement de bout en bout",
-            "Contrôle d'accès basé sur les rôles",
-            "Audits de sécurité réguliers"
-          ]
+          "features": ["Sécurité et contrôle des données","Contrôle d'accès","Normes de conformité"]
         }
       ]
     },
@@ -814,7 +736,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Architekturmodule",
       "modulesDescription": "Fünf Kernmodule, die den Ask Sundae Stack antreiben",
       "securityTitle": "Unternehmenssicherheit und Compliance",
-      "securityDescription": "Sundae: Die SOC 2 Type II‑Zertifizierung läuft. GDPR‑ und CCPA‑Kontrollen bleiben Teil des Sicherheitsprogramms von Sundae.",
+      "securityDescription": "Ein nachweisgestütztes Sicherheitsprogramm läuft. Sundae verfügt derzeit über keinen SOC-2-Bericht.",
       "engineeringTitle": "Gebaut mit erstklassiger Technik",
       "engineeringDescription": "Ein Produktions-Stack, der auf Zuverlässigkeit, Geschwindigkeit und betriebliche Skalierbarkeit ausgelegt ist.",
       "ctaTitle": "Sehen Sie die Architektur in Aktion",
@@ -960,43 +882,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Ende-zu-Ende-Verschlüsselung",
-          "description": "AES-256-Verschlüsselung für Daten während der Übertragung und im Ruhezustand",
+          "title": "Sicherheit und Datenkontrollen",
+          "description": "TLS und Verschlüsselung schützen unterstützte Dienste. Schlüsselverwaltung und Anbieterabdeckung hängen von der Bereitstellung ab.",
           "icon": "alerts"
         },
         {
           "title": "Zugangskontrolle",
-          "description": "Rollenbasierter Zugriff mit Multi-Faktor-Authentifizierung",
+          "description": "Organisations-, Hierarchie- und Rollenkontrollen beschränken den Zugriff auf Kundendaten.",
           "icon": "integration"
         },
         {
           "title": "Compliance-Standards",
-          "description": "Die SOC 2 Type II‑Zertifizierung läuft. GDPR‑ und CCPA‑Kontrollen bleiben Teil des Sicherheitsprogramms von Sundae.",
+          "description": "Ein nachweisgestütztes Sicherheitsprogramm läuft. Sundae verfügt derzeit über keinen SOC-2-Bericht.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Typ II",
-          "state": "In Bearbeitung",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "DSGVO",
-          "state": "✓ Konform",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Konform",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "In Bearbeitung",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Typ II","state":"In Bearbeitung","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "Multi-Agent-KI",
@@ -1057,12 +958,7 @@ export const generatedLocalCopy = {
           "title": "Sicherheit und Governance",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II‑Programm in Bearbeitung",
-            "Ende-zu-Ende-Verschlüsselung",
-            "Rollenbasierte Zugriffskontrolle",
-            "Regelmäßige Sicherheitsaudits"
-          ]
+          "features": ["Sicherheit und Datenkontrollen","Zugangskontrolle","Compliance-Standards"]
         }
       ]
     },
@@ -1080,7 +976,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Módulos de Arquitetura",
       "modulesDescription": "Cinco módulos principais que alimentam o Ask Sundae Stack",
       "securityTitle": "Segurança e conformidade empresarial",
-      "securityDescription": "Sundae: A certificação SOC 2 Type II está em progresso. Os controlos GDPR e CCPA continuam a fazer parte do programa de segurança da Sundae.",
+      "securityDescription": "Há um programa ativo de preparação de segurança baseado em evidências. A Sundae não possui atualmente um relatório SOC 2.",
       "engineeringTitle": "Construído com Engenharia Premium",
       "engineeringDescription": "Uma pilha de produção construída para oferecer confiabilidade, velocidade e escala operacional.",
       "ctaTitle": "Veja a arquitetura em ação",
@@ -1226,43 +1122,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Criptografia ponta a ponta",
-          "description": "Criptografia AES-256 para dados em trânsito e em repouso",
+          "title": "Segurança e controles de dados",
+          "description": "TLS e criptografia protegem os serviços compatíveis. A gestão de chaves e a cobertura dos fornecedores dependem da implantação.",
           "icon": "alerts"
         },
         {
           "title": "Controle de acesso",
-          "description": "Acesso baseado em função com autenticação multifator",
+          "description": "Controles por organização, hierarquia e função restringem o acesso aos registros dos clientes.",
           "icon": "integration"
         },
         {
           "title": "Padrões de Conformidade",
-          "description": "A certificação SOC 2 Type II está em progresso. Os controlos GDPR e CCPA continuam a fazer parte do programa de segurança da Sundae.",
+          "description": "Há um programa ativo de preparação de segurança baseado em evidências. A Sundae não possui atualmente um relatório SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Tipo II",
-          "state": "Em progresso",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Compatível",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Compatível",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "Em andamento",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Tipo II","state":"Em progresso","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "IA multiagente",
@@ -1323,12 +1198,7 @@ export const generatedLocalCopy = {
           "title": "Segurança e Governança",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Programa SOC 2 Type II em progresso",
-            "Criptografia ponta a ponta",
-            "Controle de acesso baseado em função",
-            "Auditorias regulares de segurança"
-          ]
+          "features": ["Segurança e controles de dados","Controle de acesso","Padrões de Conformidade"]
         }
       ]
     },
@@ -1346,7 +1216,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Architectuurmodules",
       "modulesDescription": "Vijf kernmodules die de Ask Sundae Stack aandrijven",
       "securityTitle": "Bedrijfsbeveiliging en compliance",
-      "securityDescription": "Sundae: SOC 2 Type II-certificering is in uitvoering. GDPR- en CCPA-controles blijven onderdeel van Sundae's beveiligingsprogramma.",
+      "securityDescription": "Een op bewijs gebaseerd beveiligingsprogramma is actief. Sundae heeft momenteel geen SOC 2-rapport.",
       "engineeringTitle": "Gebouwd met premium techniek",
       "engineeringDescription": "Een productiestack gebouwd voor betrouwbaarheid, snelheid en operationele schaal.",
       "ctaTitle": "Zie de architectuur in actie",
@@ -1492,43 +1362,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "End-to-end-codering",
-          "description": "AES-256-codering voor gegevens die onderweg en in rust zijn",
+          "title": "Beveiliging en gegevensbeheer",
+          "description": "TLS en versleuteling beschermen ondersteunde diensten. Sleutelbeheer en leveranciersdekking hangen af van de implementatie.",
           "icon": "alerts"
         },
         {
           "title": "Toegangscontrole",
-          "description": "Rolgebaseerde toegang met meervoudige authenticatie",
+          "description": "Controles op organisatie, hiërarchie en rol beperken de toegang tot klantgegevens.",
           "icon": "integration"
         },
         {
           "title": "Nalevingsnormen",
-          "description": "SOC 2 Type II-certificering is in uitvoering. GDPR- en CCPA-controles blijven onderdeel van Sundae's beveiligingsprogramma.",
+          "description": "Een op bewijs gebaseerd beveiligingsprogramma is actief. Sundae heeft momenteel geen SOC 2-rapport.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Type II",
-          "state": "In uitvoering",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "AVG",
-          "state": "✓ Conform",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Conform",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO27001",
-          "state": "In uitvoering",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Type II","state":"In uitvoering","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "AI met meerdere agenten",
@@ -1589,12 +1438,7 @@ export const generatedLocalCopy = {
           "title": "Beveiliging en bestuur",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II-programma in uitvoering",
-            "End-to-end-codering",
-            "Rolgebaseerde toegangscontrole",
-            "Regelmatige veiligheidsaudits"
-          ]
+          "features": ["Beveiliging en gegevensbeheer","Toegangscontrole","Nalevingsnormen"]
         }
       ]
     },
@@ -1612,7 +1456,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "آرکیٹیکچر ماڈیولز",
       "modulesDescription": "پانچ بنیادی ماڈیولز جو Ask Sundae Stack کو طاقت دیتے ہیں۔",
       "securityTitle": "انٹرپرائز سیکیورٹی اور تعمیل",
-      "securityDescription": "Sundae: SOC 2 Type II سرٹیفیکیشن جاری ہے۔ GDPR اور CCPA کنٹرولز Sundae کے سیکیورٹی پروگرام کا حصہ رہیں گے۔",
+      "securityDescription": "شواہد پر مبنی سکیورٹی تیاری کا پروگرام فعال ہے۔ Sundae کے پاس فی الحال SOC 2 رپورٹ نہیں ہے۔",
       "engineeringTitle": "پریمیم انجینئرنگ کے ساتھ بنایا گیا۔",
       "engineeringDescription": "وشوسنییتا، رفتار، اور آپریشنل پیمانے کے لیے بنایا گیا پروڈکشن اسٹیک۔",
       "ctaTitle": "آرکیٹیکچر ان ایکشن دیکھیں",
@@ -1758,43 +1602,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "اینڈ ٹو اینڈ انکرپشن",
-          "description": "ٹرانزٹ اور آرام میں ڈیٹا کے لیے AES-256 انکرپشن",
+          "title": "سکیورٹی اور ڈیٹا کنٹرولز",
+          "description": "معاون خدمات میں TLS اور انکرپشن استعمال ہوتے ہیں۔ کلیدوں کا انتظام اور فراہم کنندگان کی کوریج تعیناتی پر منحصر ہیں۔",
           "icon": "alerts"
         },
         {
           "title": "رسائی کنٹرول",
-          "description": "کثیر عنصر کی توثیق کے ساتھ کردار پر مبنی رسائی",
+          "description": "ادارے، تنظیمی درجہ بندی اور کردار کے کنٹرولز صارفین کے ریکارڈ تک رسائی محدود کرتے ہیں۔",
           "icon": "integration"
         },
         {
           "title": "تعمیل کے معیارات",
-          "description": "SOC 2 Type II سرٹیفیکیشن جاری ہے۔ GDPR اور CCPA کنٹرولز Sundae کے سیکیورٹی پروگرام کا حصہ رہیں گے۔",
+          "description": "شواہد پر مبنی سکیورٹی تیاری کا پروگرام فعال ہے۔ Sundae کے پاس فی الحال SOC 2 رپورٹ نہیں ہے۔",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 قسم II",
-          "state": "جاری ہے",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "جی ڈی پی آر",
-          "state": "✓ مطابق",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "سی سی پی اے",
-          "state": "✓ مطابق",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "آئی ایس او 27001",
-          "state": "جاری ہے۔",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 قسم II","state":"جاری ہے","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "ملٹی ایجنٹ AI",
@@ -1855,12 +1678,7 @@ export const generatedLocalCopy = {
           "title": "سیکیورٹی اور گورننس",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II پروگرام جاری ہے",
-            "اینڈ ٹو اینڈ انکرپشن",
-            "کردار پر مبنی رسائی کنٹرول",
-            "باقاعدگی سے سیکورٹی آڈٹ"
-          ]
+          "features": ["سکیورٹی اور ڈیٹا کنٹرولز","رسائی کنٹرول","تعمیل کے معیارات"]
         }
       ]
     },
@@ -1878,7 +1696,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Moduli di architettura",
       "modulesDescription": "Cinque moduli principali che alimentano il Ask Sundae Stack",
       "securityTitle": "Sicurezza e conformità aziendale",
-      "securityDescription": "Sundae: La certificazione SOC 2 Type II è in corso. I controlli GDPR e CCPA restano parte del programma di sicurezza di Sundae.",
+      "securityDescription": "È attivo un programma di preparazione alla sicurezza basato su evidenze. Sundae non dispone attualmente di un rapporto SOC 2.",
       "engineeringTitle": "Costruito con ingegneria premium",
       "engineeringDescription": "Uno stack di produzione costruito per garantire affidabilità, velocità e scala operativa.",
       "ctaTitle": "Guarda l'architettura in azione",
@@ -2024,43 +1842,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Crittografia end-to-end",
-          "description": "Crittografia AES-256 per i dati in transito e inattivi",
+          "title": "Sicurezza e controlli sui dati",
+          "description": "TLS e crittografia proteggono i servizi supportati. La gestione delle chiavi e la copertura dei fornitori dipendono dall’implementazione.",
           "icon": "alerts"
         },
         {
           "title": "Controllo degli accessi",
-          "description": "Accesso basato sui ruoli con autenticazione a più fattori",
+          "description": "I controlli per organizzazione, gerarchia e ruolo limitano l’accesso ai dati dei clienti.",
           "icon": "integration"
         },
         {
           "title": "Standard di conformità",
-          "description": "La certificazione SOC 2 Type II è in corso. I controlli GDPR e CCPA restano parte del programma di sicurezza di Sundae.",
+          "description": "È attivo un programma di preparazione alla sicurezza basato su evidenze. Sundae non dispone attualmente di un rapporto SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC2 Tipo II",
-          "state": "In corso",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Conforme",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Conforme",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO27001",
-          "state": "In corso",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC2 Tipo II","state":"In corso","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "IA multiagente",
@@ -2121,12 +1918,7 @@ export const generatedLocalCopy = {
           "title": "Sicurezza e governance",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Programma SOC 2 Type II in corso",
-            "Crittografia end-to-end",
-            "Controllo degli accessi basato sui ruoli",
-            "Controlli di sicurezza regolari"
-          ]
+          "features": ["Sicurezza e controlli sui dati","Controllo degli accessi","Standard di conformità"]
         }
       ]
     },
@@ -2144,7 +1936,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "वास्तुकला मॉड्यूल",
       "modulesDescription": "पांच मुख्य मॉड्यूल जो Sundae इंटेलिजेंस स्टैक को शक्ति प्रदान करते हैं",
       "securityTitle": "उद्यम सुरक्षा एवं अनुपालन",
-      "securityDescription": "Sundae: SOC 2 Type II प्रमाणन प्रक्रिया में है। GDPR और CCPA नियंत्रण Sundae के सुरक्षा कार्यक्रम का हिस्सा बने हुए हैं।",
+      "securityDescription": "साक्ष्य आधारित सुरक्षा तैयारी कार्यक्रम सक्रिय है। Sundae के पास अभी SOC 2 रिपोर्ट नहीं है।",
       "engineeringTitle": "प्रीमियम इंजीनियरिंग से निर्मित",
       "engineeringDescription": "विश्वसनीयता, गति और परिचालन पैमाने के लिए बनाया गया उत्पादन स्टैक।",
       "ctaTitle": "कार्रवाई में वास्तुकला देखें",
@@ -2290,43 +2082,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "एंड-टू-एंड एन्क्रिप्शन",
-          "description": "पारगमन और आराम के दौरान डेटा के लिए AES-256 एन्क्रिप्शन",
+          "title": "सुरक्षा और डेटा नियंत्रण",
+          "description": "समर्थित सेवाओं में TLS और एन्क्रिप्शन का उपयोग होता है। कुंजी प्रबंधन और प्रदाता कवरेज परिनियोजन पर निर्भर हैं।",
           "icon": "alerts"
         },
         {
           "title": "अभिगम नियंत्रण",
-          "description": "बहु-कारक प्रमाणीकरण के साथ भूमिका-आधारित पहुंच",
+          "description": "संगठन, पदानुक्रम और भूमिका संबंधी नियंत्रण ग्राहक रिकॉर्ड तक पहुँच सीमित करते हैं।",
           "icon": "integration"
         },
         {
           "title": "अनुपालन मानक",
-          "description": "SOC 2 Type II प्रमाणन प्रक्रिया में है। GDPR और CCPA नियंत्रण Sundae के सुरक्षा कार्यक्रम का हिस्सा बने हुए हैं।",
+          "description": "साक्ष्य आधारित सुरक्षा तैयारी कार्यक्रम सक्रिय है। Sundae के पास अभी SOC 2 रिपोर्ट नहीं है।",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "एसओसी 2 प्रकार II",
-          "state": "प्रगति में",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "जीडीपीआर",
-          "state": "✓ आज्ञाकारी",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "सीसीपीए",
-          "state": "✓ आज्ञाकारी",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "आईएसओ 27001",
-          "state": "प्रगति पर है",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"एसओसी 2 प्रकार II","state":"प्रगति में","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "मल्टी-एजेंट एआई",
@@ -2387,12 +2158,7 @@ export const generatedLocalCopy = {
           "title": "सुरक्षा एवं शासन",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II कार्यक्रम प्रगति में",
-            "एंड-टू-एंड एन्क्रिप्शन",
-            "भूमिका-आधारित अभिगम नियंत्रण",
-            "नियमित सुरक्षा ऑडिट"
-          ]
+          "features": ["सुरक्षा और डेटा नियंत्रण","अभिगम नियंत्रण","अनुपालन मानक"]
         }
       ]
     },
@@ -2410,7 +2176,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Mimari Modüller",
       "modulesDescription": "Ask Sundae Stack'a güç veren beş temel modül",
       "securityTitle": "Kurumsal Güvenlik ve Uyumluluk",
-      "securityDescription": "Sundae: SOC 2 Type II sertifikasyonu devam ediyor. GDPR ve CCPA kontrolleri Sundae'nin güvenlik programının parçası olmaya devam ediyor.",
+      "securityDescription": "Kanıta dayalı etkin bir güvenlik hazırlık programı vardır. Sundae’nin şu anda bir SOC 2 raporu yoktur.",
       "engineeringTitle": "Üstün Mühendislik ile Üretildi",
       "engineeringDescription": "Güvenilirlik, hız ve operasyonel ölçek için oluşturulmuş bir üretim yığını.",
       "ctaTitle": "Mimariyi Çalışırken Görün",
@@ -2556,43 +2322,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Uçtan Uca Şifreleme",
-          "description": "Aktarılan ve kullanılmayan veriler için AES-256 şifrelemesi",
+          "title": "Güvenlik ve veri kontrolleri",
+          "description": "TLS ve şifreleme desteklenen hizmetleri korur. Anahtar yönetimi ve sağlayıcı kapsamı dağıtıma bağlıdır.",
           "icon": "alerts"
         },
         {
           "title": "Erişim Kontrolü",
-          "description": "Çok faktörlü kimlik doğrulamayla rol tabanlı erişim",
+          "description": "Kuruluş, hiyerarşi ve rol kontrolleri müşteri kayıtlarına erişimi sınırlar.",
           "icon": "integration"
         },
         {
           "title": "Uyumluluk Standartları",
-          "description": "SOC 2 Type II sertifikasyonu devam ediyor. GDPR ve CCPA kontrolleri Sundae'nin güvenlik programının parçası olmaya devam ediyor.",
+          "description": "Kanıta dayalı etkin bir güvenlik hazırlık programı vardır. Sundae’nin şu anda bir SOC 2 raporu yoktur.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Tip II",
-          "state": "Devam ediyor",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Uyumlu",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Uyumlu",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "Devam Ediyor",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Tip II","state":"Devam ediyor","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "Çok Aracılı Yapay Zeka",
@@ -2653,12 +2398,7 @@ export const generatedLocalCopy = {
           "title": "Güvenlik ve Yönetişim",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II programı devam ediyor",
-            "Uçtan uca şifreleme",
-            "Rol tabanlı erişim kontrolü",
-            "Düzenli güvenlik denetimleri"
-          ]
+          "features": ["Güvenlik ve veri kontrolleri","Erişim Kontrolü","Uyumluluk Standartları"]
         }
       ]
     },
@@ -2676,7 +2416,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Moduły architektury",
       "modulesDescription": "Pięć podstawowych modułów zasilających stos Ask Sundae",
       "securityTitle": "Bezpieczeństwo i zgodność w przedsiębiorstwie",
-      "securityDescription": "Sundae: SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
+      "securityDescription": "Działa program przygotowania zabezpieczeń oparty na dowodach. Sundae nie posiada obecnie raportu SOC 2.",
       "engineeringTitle": "Zbudowany w oparciu o inżynierię Premium",
       "engineeringDescription": "Stos produkcyjny zbudowany z myślą o niezawodności, szybkości i skali operacyjnej.",
       "ctaTitle": "Zobacz architekturę w działaniu",
@@ -2822,43 +2562,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Szyfrowanie typu end-to-end",
-          "description": "Szyfrowanie AES-256 dla danych przesyłanych i przechowywanych",
+          "title": "Bezpieczeństwo i kontrola danych",
+          "description": "TLS i szyfrowanie chronią obsługiwane usługi. Zarządzanie kluczami i zakres dostawców zależą od wdrożenia.",
           "icon": "alerts"
         },
         {
           "title": "Kontrola dostępu",
-          "description": "Dostęp oparty na rolach z uwierzytelnianiem wieloskładnikowym",
+          "description": "Kontrole organizacji, hierarchii i ról ograniczają dostęp do danych klientów.",
           "icon": "integration"
         },
         {
           "title": "Standardy zgodności",
-          "description": "SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
+          "description": "Działa program przygotowania zabezpieczeń oparty na dowodach. Sundae nie posiada obecnie raportu SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Typ II",
-          "state": "W toku",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "RODO",
-          "state": "✓ Zgodny",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Zgodny",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO27001",
-          "state": "W toku",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Typ II","state":"W toku","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "Wieloagentowa sztuczna inteligencja",
@@ -2919,12 +2638,7 @@ export const generatedLocalCopy = {
           "title": "Bezpieczeństwo i zarządzanie",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Program SOC 2 Type II w toku",
-            "Szyfrowanie typu end-to-end",
-            "Kontrola dostępu oparta na rolach",
-            "Regularne audyty bezpieczeństwa"
-          ]
+          "features": ["Bezpieczeństwo i kontrola danych","Kontrola dostępu","Standardy zgodności"]
         }
       ]
     },
@@ -2942,7 +2656,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "架构模块",
       "modulesDescription": "为Sundae智能堆栈提供动力的五个核心模块",
       "securityTitle": "企业安全与合规性",
-      "securityDescription": "Sundae: SOC 2 Type II 认证正在进行中。GDPR 和 CCPA 控制仍是 Sundae 安全计划的一部分。",
+      "securityDescription": "基于证据的安全准备计划正在推进。Sundae 目前尚无 SOC 2 报告。",
       "engineeringTitle": "采用优质工程建造",
       "engineeringDescription": "专为可靠性、速度和运营规模而构建的生产堆栈。",
       "ctaTitle": "查看实际架构",
@@ -3088,43 +2802,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "端到端加密",
-          "description": "对传输中和静态数据进行 AES-256 加密",
+          "title": "安全与数据控制",
+          "description": "受支持的服务采用 TLS 和加密保护。密钥管理及供应商覆盖范围取决于部署方式。",
           "icon": "alerts"
         },
         {
           "title": "访问控制",
-          "description": "具有多重身份验证的基于角色的访问",
+          "description": "通过组织、层级和角色控制限制客户记录的访问。",
           "icon": "integration"
         },
         {
           "title": "合规标准",
-          "description": "SOC 2 Type II 认证正在进行中。GDPR 和 CCPA 控制仍是 Sundae 安全计划的一部分。",
+          "description": "基于证据的安全准备计划正在推进。Sundae 目前尚无 SOC 2 报告。",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 类型 II",
-          "state": "进行中",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ 合规",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ 合规",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "进行中",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 类型 II","state":"进行中","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "多智能体人工智能",
@@ -3185,12 +2878,7 @@ export const generatedLocalCopy = {
           "title": "安全与治理",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II 计划进行中",
-            "端到端加密",
-            "基于角色的访问控制",
-            "定期安全审核"
-          ]
+          "features": ["安全与数据控制","访问控制","合规标准"]
         }
       ]
     },
@@ -3208,7 +2896,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "아키텍처 모듈",
       "modulesDescription": "Ask Sundae Stack을 구동하는 5개의 핵심 모듈",
       "securityTitle": "기업 보안 및 규정 준수",
-      "securityDescription": "Sundae: SOC 2 Type II 인증 진행 중입니다. GDPR 및 CCPA 통제는 Sundae의 보안 프로그램의 일부로 유지됩니다.",
+      "securityDescription": "증빙 기반 보안 준비 프로그램이 진행 중입니다. Sundae는 현재 SOC 2 보고서를 보유하지 않습니다.",
       "engineeringTitle": "프리미엄 엔지니어링으로 제작",
       "engineeringDescription": "신뢰성, 속도 및 운영 규모를 위해 구축된 생산 스택입니다.",
       "ctaTitle": "실제 아키텍처 보기",
@@ -3354,43 +3042,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "종단 간 암호화",
-          "description": "전송 중 및 저장 중인 데이터에 대한 AES-256 암호화",
+          "title": "보안 및 데이터 통제",
+          "description": "지원되는 서비스는 TLS와 암호화를 사용합니다. 키 관리와 공급업체 적용 범위는 배포 구성에 따라 달라집니다.",
           "icon": "alerts"
         },
         {
           "title": "접근 제어",
-          "description": "다단계 인증을 통한 역할 기반 액세스",
+          "description": "조직, 계층, 역할별 통제로 고객 기록에 대한 접근을 제한합니다.",
           "icon": "integration"
         },
         {
           "title": "규정 준수 표준",
-          "description": "SOC 2 Type II 인증 진행 중입니다. GDPR 및 CCPA 통제는 Sundae의 보안 프로그램의 일부로 유지됩니다.",
+          "description": "증빙 기반 보안 준비 프로그램이 진행 중입니다. Sundae는 현재 SOC 2 보고서를 보유하지 않습니다.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 유형 II",
-          "state": "진행 중",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ 준수",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ 준수",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "진행 중",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 유형 II","state":"진행 중","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "다중 에이전트 AI",
@@ -3451,12 +3118,7 @@ export const generatedLocalCopy = {
           "title": "보안 및 거버넌스",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II 프로그램 진행 중",
-            "엔드투엔드 암호화",
-            "역할 기반 액세스 제어",
-            "정기 보안 감사"
-          ]
+          "features": ["보안 및 데이터 통제","접근 제어","규정 준수 표준"]
         }
       ]
     },
@@ -3474,7 +3136,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Module de arhitectură",
       "modulesDescription": "Cinci module de bază care alimentează Ask Sundae Stack",
       "securityTitle": "Securitatea și conformitatea întreprinderilor",
-      "securityDescription": "Sundae: SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
+      "securityDescription": "Este activ un program de pregătire pentru securitate bazat pe dovezi. Sundae nu deține în prezent un raport SOC 2.",
       "engineeringTitle": "Construit cu Premium Engineering",
       "engineeringDescription": "O stivă de producție construită pentru fiabilitate, viteză și scară operațională.",
       "ctaTitle": "Vedeți Arhitectura în acțiune",
@@ -3620,43 +3282,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Criptare end-to-end",
-          "description": "Criptare AES-256 pentru datele în tranzit și în repaus",
+          "title": "Securitate și controlul datelor",
+          "description": "TLS și criptarea protejează serviciile compatibile. Administrarea cheilor și acoperirea furnizorilor depind de implementare.",
           "icon": "alerts"
         },
         {
           "title": "Control acces",
-          "description": "Acces bazat pe roluri cu autentificare multifactor",
+          "description": "Controalele pe organizație, ierarhie și rol limitează accesul la înregistrările clienților.",
           "icon": "integration"
         },
         {
           "title": "Standarde de conformitate",
-          "description": "SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae's security programme.",
+          "description": "Este activ un program de pregătire pentru securitate bazat pe dovezi. Sundae nu deține în prezent un raport SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Tip II",
-          "state": "În curs",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Conform",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Conform",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "În curs",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Tip II","state":"În curs","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "AI multi-agent",
@@ -3717,12 +3358,7 @@ export const generatedLocalCopy = {
           "title": "Securitate și guvernare",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Program SOC 2 Type II în curs",
-            "Criptare end-to-end",
-            "Controlul accesului bazat pe roluri",
-            "Audituri regulate de securitate"
-          ]
+          "features": ["Securitate și controlul datelor","Control acces","Standarde de conformitate"]
         }
       ]
     },
@@ -3740,7 +3376,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "アーキテクチャモジュール",
       "modulesDescription": "Sundae インテリジェンス スタックを強化する 5 つのコア モジュール",
       "securityTitle": "エンタープライズセキュリティとコンプライアンス",
-      "securityDescription": "Sundae: SOC 2 Type IIの認証は進行中です。GDPRおよびCCPAのコントロールはSundaeのセキュリティプログラムの一部として維持されています。",
+      "securityDescription": "証拠に基づくセキュリティ準備プログラムを進めています。Sundae は現在 SOC 2 報告書を保有していません。",
       "engineeringTitle": "プレミアムエンジニアリングで構築",
       "engineeringDescription": "信頼性、速度、運用規模を考慮して構築された実稼働スタック。",
       "ctaTitle": "実際のアーキテクチャをご覧ください",
@@ -3886,43 +3522,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "エンドツーエンドの暗号化",
-          "description": "転送中および保存中のデータに対する AES-256 暗号化",
+          "title": "セキュリティとデータ管理",
+          "description": "対応サービスでは TLS と暗号化を使用します。鍵管理と事業者の適用範囲は導入構成により異なります。",
           "icon": "alerts"
         },
         {
           "title": "アクセス制御",
-          "description": "多要素認証によるロールベースのアクセス",
+          "description": "組織、階層、役割に基づく管理により顧客記録へのアクセスを制限します。",
           "icon": "integration"
         },
         {
           "title": "準拠基準",
-          "description": "SOC 2 Type IIの認証は進行中です。GDPRおよびCCPAのコントロールはSundaeのセキュリティプログラムの一部として維持されています。",
+          "description": "証拠に基づくセキュリティ準備プログラムを進めています。Sundae は現在 SOC 2 報告書を保有していません。",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 タイプ II",
-          "state": "進行中",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ 準拠",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ 準拠",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO27001",
-          "state": "進行中",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 タイプ II","state":"進行中","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "マルチエージェント AI",
@@ -3983,12 +3598,7 @@ export const generatedLocalCopy = {
           "title": "セキュリティとガバナンス",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type IIプログラム進行中",
-            "エンドツーエンドの暗号化",
-            "役割ベースのアクセス制御",
-            "定期的なセキュリティ監査"
-          ]
+          "features": ["セキュリティとデータ管理","アクセス制御","準拠基準"]
         }
       ]
     },
@@ -4006,7 +3616,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Modul Arsitektur",
       "modulesDescription": "Lima modul inti yang mendukung Ask Sundae Stack",
       "securityTitle": "Keamanan & Kepatuhan Perusahaan",
-      "securityDescription": "Sundae: Sertifikasi SOC 2 Type II sedang dalam proses. Kontrol GDPR dan CCPA tetap menjadi bagian dari program keamanan Sundae.",
+      "securityDescription": "Program kesiapan keamanan berbasis bukti sedang berjalan. Sundae saat ini tidak memiliki laporan SOC 2.",
       "engineeringTitle": "Dibangun dengan Rekayasa Premium",
       "engineeringDescription": "Tumpukan produksi dibuat untuk keandalan, kecepatan, dan skala operasional.",
       "ctaTitle": "Lihat Arsitektur dalam Aksi",
@@ -4152,43 +3762,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Enkripsi ujung ke ujung",
-          "description": "Enkripsi AES-256 untuk data saat transit dan saat istirahat",
+          "title": "Keamanan dan kontrol data",
+          "description": "TLS dan enkripsi melindungi layanan yang didukung. Pengelolaan kunci dan cakupan penyedia bergantung pada penerapan.",
           "icon": "alerts"
         },
         {
           "title": "Kontrol Akses",
-          "description": "Akses berbasis peran dengan autentikasi multifaktor",
+          "description": "Kontrol organisasi, hierarki, dan peran membatasi akses ke catatan pelanggan.",
           "icon": "integration"
         },
         {
           "title": "Standar Kepatuhan",
-          "description": "Sertifikasi SOC 2 Type II sedang dalam proses. Kontrol GDPR dan CCPA tetap menjadi bagian dari program keamanan Sundae.",
+          "description": "Program kesiapan keamanan berbasis bukti sedang berjalan. Sundae saat ini tidak memiliki laporan SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Tipe II",
-          "state": "In progress",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Sesuai",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Sesuai",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "Sedang Berlangsung",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Tipe II","state":"In progress","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "AI Multi-Agen",
@@ -4249,12 +3838,7 @@ export const generatedLocalCopy = {
           "title": "Keamanan & Tata Kelola",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Program SOC 2 Type II sedang berlangsung",
-            "Enkripsi ujung ke ujung",
-            "Kontrol akses berbasis peran",
-            "Audit keamanan rutin"
-          ]
+          "features": ["Keamanan dan kontrol data","Kontrol Akses","Standar Kepatuhan"]
         }
       ]
     },
@@ -4272,7 +3856,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Mô-đun kiến trúc",
       "modulesDescription": "Năm mô-đun cốt lõi hỗ trợ Ask Sundae Stack",
       "securityTitle": "Bảo mật & Tuân thủ Doanh nghiệp",
-      "securityDescription": "Sundae: Chứng nhận SOC 2 Type II đang được thực hiện. Các biện pháp kiểm soát GDPR và CCPA vẫn là phần của chương trình bảo mật của Sundae.",
+      "securityDescription": "Chương trình chuẩn bị bảo mật dựa trên bằng chứng đang được thực hiện. Sundae hiện chưa có báo cáo SOC 2.",
       "engineeringTitle": "Được xây dựng với kỹ thuật cao cấp",
       "engineeringDescription": "Một ngăn xếp sản xuất được xây dựng để đảm bảo độ tin cậy, tốc độ và quy mô hoạt động.",
       "ctaTitle": "Xem Kiến trúc đang hoạt động",
@@ -4418,43 +4002,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Mã hóa đầu cuối",
-          "description": "Mã hóa AES-256 cho dữ liệu đang truyền và ở trạng thái nghỉ",
+          "title": "Bảo mật và kiểm soát dữ liệu",
+          "description": "TLS và mã hóa bảo vệ các dịch vụ được hỗ trợ. Quản lý khóa và phạm vi nhà cung cấp tùy thuộc vào cách triển khai.",
           "icon": "alerts"
         },
         {
           "title": "Kiểm soát truy cập",
-          "description": "Truy cập dựa trên vai trò với xác thực đa yếu tố",
+          "description": "Kiểm soát theo tổ chức, phân cấp và vai trò hạn chế quyền truy cập hồ sơ khách hàng.",
           "icon": "integration"
         },
         {
           "title": "Tiêu chuẩn tuân thủ",
-          "description": "Chứng nhận SOC 2 Type II đang được thực hiện. Các biện pháp kiểm soát GDPR và CCPA vẫn là phần của chương trình bảo mật của Sundae.",
+          "description": "Chương trình chuẩn bị bảo mật dựa trên bằng chứng đang được thực hiện. Sundae hiện chưa có báo cáo SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Loại II",
-          "state": "Đang tiến hành",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Tuân thủ",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Tuân thủ",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "Đang tiến hành",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Loại II","state":"Đang tiến hành","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "AI đa tác nhân",
@@ -4515,12 +4078,7 @@ export const generatedLocalCopy = {
           "title": "An ninh & Quản trị",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Chương trình SOC 2 Type II đang được thực hiện",
-            "Mã hóa đầu cuối",
-            "Kiểm soát truy cập dựa trên vai trò",
-            "Kiểm tra an ninh thường xuyên"
-          ]
+          "features": ["Bảo mật và kiểm soát dữ liệu","Kiểm soát truy cập","Tiêu chuẩn tuân thủ"]
         }
       ]
     },
@@ -4538,7 +4096,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "আর্কিটেকচার মডিউল",
       "modulesDescription": "পাঁচটি মূল মডিউল যা Sundae ইন্টেলিজেন্স স্ট্যাককে শক্তি দেয়",
       "securityTitle": "এন্টারপ্রাইজ নিরাপত্তা এবং সম্মতি",
-      "securityDescription": "Sundae: SOC 2 Type II সার্টিফিকেশন প্রক্রিয়াধীন। GDPR and CCPA নিয়ন্ত্রণগুলি Sundae-এর সিকিউরিটি প্রোগ্রামের অংশ হিসেবে বজায় আছে।",
+      "securityDescription": "প্রমাণভিত্তিক নিরাপত্তা প্রস্তুতি কর্মসূচি সক্রিয়। Sundae-এর বর্তমানে SOC 2 রিপোর্ট নেই।",
       "engineeringTitle": "প্রিমিয়াম ইঞ্জিনিয়ারিং দিয়ে তৈরি",
       "engineeringDescription": "নির্ভরযোগ্যতা, গতি এবং অপারেশনাল স্কেলের জন্য তৈরি একটি প্রোডাকশন স্ট্যাক।",
       "ctaTitle": "অ্যাকশনে আর্কিটেকচার দেখুন",
@@ -4684,43 +4242,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "এন্ড-টু-এন্ড এনক্রিপশন",
-          "description": "ট্রানজিট এবং বিশ্রামে ডেটার জন্য AES-256 এনক্রিপশন",
+          "title": "নিরাপত্তা ও ডেটা নিয়ন্ত্রণ",
+          "description": "সমর্থিত পরিষেবায় TLS ও এনক্রিপশন ব্যবহার করা হয়। কী ব্যবস্থাপনা ও সরবরাহকারীর আওতা স্থাপনার ওপর নির্ভরশীল।",
           "icon": "alerts"
         },
         {
           "title": "অ্যাক্সেস কন্ট্রোল",
-          "description": "মাল্টি-ফ্যাক্টর প্রমাণীকরণ সহ ভূমিকা-ভিত্তিক অ্যাক্সেস",
+          "description": "প্রতিষ্ঠান, সাংগঠনিক স্তর ও ভূমিকার নিয়ন্ত্রণ গ্রাহকের রেকর্ডে প্রবেশ সীমিত করে।",
           "icon": "integration"
         },
         {
           "title": "কমপ্লায়েন্স স্ট্যান্ডার্ড",
-          "description": "SOC 2 Type II সার্টিফিকেশন প্রক্রিয়াধীন। GDPR and CCPA নিয়ন্ত্রণগুলি Sundae-এর সিকিউরিটি প্রোগ্রামের অংশ হিসেবে বজায় আছে।",
+          "description": "প্রমাণভিত্তিক নিরাপত্তা প্রস্তুতি কর্মসূচি সক্রিয়। Sundae-এর বর্তমানে SOC 2 রিপোর্ট নেই।",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 প্রকার II",
-          "state": "প্রক্রিয়াধীন",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "জিডিপিআর",
-          "state": "✓ অনুগত",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ অনুগত",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "চলছে",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 প্রকার II","state":"প্রক্রিয়াধীন","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "মাল্টি-এজেন্ট এআই",
@@ -4781,12 +4318,7 @@ export const generatedLocalCopy = {
           "title": "নিরাপত্তা ও শাসন",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II প্রোগ্রাম প্রক্রিয়াধীন",
-            "এন্ড-টু-এন্ড এনক্রিপশন",
-            "ভূমিকা-ভিত্তিক অ্যাক্সেস নিয়ন্ত্রণ",
-            "নিয়মিত নিরাপত্তা অডিট"
-          ]
+          "features": ["নিরাপত্তা ও ডেটা নিয়ন্ত্রণ","অ্যাক্সেস কন্ট্রোল","কমপ্লায়েন্স স্ট্যান্ডার্ড"]
         }
       ]
     },
@@ -4804,7 +4336,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Arkitekturmoduler",
       "modulesDescription": "Fem kärnmoduler som driver Ask Sundae Stack",
       "securityTitle": "Företagssäkerhet och efterlevnad",
-      "securityDescription": "Sundae: SOC 2 Type II‑certifiering pågår. GDPR‑ och CCPA‑kontroller är fortfarande en del av Sundaes säkerhetsprogram.",
+      "securityDescription": "Ett evidensbaserat säkerhetsprogram pågår. Sundae har för närvarande ingen SOC 2-rapport.",
       "engineeringTitle": "Byggd med Premium Engineering",
       "engineeringDescription": "En produktionsstack byggd för tillförlitlighet, hastighet och driftskala.",
       "ctaTitle": "Se Arkitektur i aktion",
@@ -4950,43 +4482,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "End-to-end-kryptering",
-          "description": "AES-256-kryptering för data under överföring och vila",
+          "title": "Säkerhet och datakontroller",
+          "description": "TLS och kryptering skyddar tjänster som stöds. Nyckelhantering och leverantörstäckning beror på driftsättningen.",
           "icon": "alerts"
         },
         {
           "title": "Åtkomstkontroll",
-          "description": "Rollbaserad åtkomst med multifaktorautentisering",
+          "description": "Kontroller för organisation, hierarki och roller begränsar åtkomsten till kunduppgifter.",
           "icon": "integration"
         },
         {
           "title": "Överensstämmelsestandarder",
-          "description": "SOC 2 Type II‑certifiering pågår. GDPR‑ och CCPA‑kontroller är fortfarande en del av Sundaes säkerhetsprogram.",
+          "description": "Ett evidensbaserat säkerhetsprogram pågår. Sundae har för närvarande ingen SOC 2-rapport.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 typ II",
-          "state": "Pågår",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Överensstämmer",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Överensstämmer",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "Pågår",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 typ II","state":"Pågår","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "Multi-Agent AI",
@@ -5047,12 +4558,7 @@ export const generatedLocalCopy = {
           "title": "Säkerhet och styrning",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "SOC 2 Type II‑program pågår",
-            "End-to-end-kryptering",
-            "Rollbaserad åtkomstkontroll",
-            "Regelbundna säkerhetsrevisioner"
-          ]
+          "features": ["Säkerhet och datakontroller","Åtkomstkontroll","Överensstämmelsestandarder"]
         }
       ]
     },
@@ -5070,7 +4576,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "โมดูลสถาปัตยกรรม",
       "modulesDescription": "โมดูลหลักห้าโมดูลที่ขับเคลื่อน Ask Sundae Stack",
       "securityTitle": "การรักษาความปลอดภัยและการปฏิบัติตามข้อกำหนดขององค์กร",
-      "securityDescription": "Sundae: การรับรอง SOC 2 Type II อยู่ระหว่างดำเนินการ ขณะเดียวกันการควบคุมตาม GDPR และ CCPA ยังคงเป็นส่วนหนึ่งของโปรแกรมความปลอดภัยของ Sundae",
+      "securityDescription": "กำลังดำเนินโครงการเตรียมความพร้อมด้านความปลอดภัยโดยใช้หลักฐาน ปัจจุบัน Sundae ยังไม่มีรายงาน SOC 2",
       "engineeringTitle": "สร้างด้วยวิศวกรรมระดับพรีเมียม",
       "engineeringDescription": "กลุ่มการผลิตที่สร้างขึ้นเพื่อความน่าเชื่อถือ ความเร็ว และขนาดการปฏิบัติงาน",
       "ctaTitle": "ดูสถาปัตยกรรมในการใช้งานจริง",
@@ -5216,43 +4722,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "การเข้ารหัสจากต้นทางถึงปลายทาง",
-          "description": "การเข้ารหัส AES-256 สำหรับข้อมูลระหว่างทางและที่เหลือ",
+          "title": "ความปลอดภัยและการควบคุมข้อมูล",
+          "description": "บริการที่รองรับใช้ TLS และการเข้ารหัส การจัดการกุญแจและขอบเขตผู้ให้บริการขึ้นอยู่กับรูปแบบการติดตั้ง",
           "icon": "alerts"
         },
         {
           "title": "การควบคุมการเข้าถึง",
-          "description": "การเข้าถึงตามบทบาทพร้อมการรับรองความถูกต้องแบบหลายปัจจัย",
+          "description": "การควบคุมตามองค์กร ลำดับชั้น และบทบาทจำกัดการเข้าถึงข้อมูลลูกค้า",
           "icon": "integration"
         },
         {
           "title": "มาตรฐานการปฏิบัติตาม",
-          "description": "การรับรอง SOC 2 Type II อยู่ระหว่างดำเนินการ ขณะเดียวกันการควบคุมตาม GDPR และ CCPA ยังคงเป็นส่วนหนึ่งของโปรแกรมความปลอดภัยของ Sundae",
+          "description": "กำลังดำเนินโครงการเตรียมความพร้อมด้านความปลอดภัยโดยใช้หลักฐาน ปัจจุบัน Sundae ยังไม่มีรายงาน SOC 2",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 ประเภท II",
-          "state": "อยู่ระหว่างดำเนินการ",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ เป็นไปตามข้อกำหนด",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ เป็นไปตามข้อกำหนด",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO27001",
-          "state": "อยู่ระหว่างดำเนินการ",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 ประเภท II","state":"อยู่ระหว่างดำเนินการ","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "AI หลายตัวแทน",
@@ -5313,12 +4798,7 @@ export const generatedLocalCopy = {
           "title": "การรักษาความปลอดภัยและการกำกับดูแล",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "โปรแกรม SOC 2 Type II อยู่ระหว่างดำเนินการ",
-            "การเข้ารหัสจากต้นทางถึงปลายทาง",
-            "การควบคุมการเข้าถึงตามบทบาท",
-            "การตรวจสอบความปลอดภัยเป็นประจำ"
-          ]
+          "features": ["ความปลอดภัยและการควบคุมข้อมูล","การควบคุมการเข้าถึง","มาตรฐานการปฏิบัติตาม"]
         }
       ]
     },
@@ -5336,7 +4816,7 @@ export const generatedLocalCopy = {
       "modulesTitle": "Modul Seni Bina",
       "modulesDescription": "Lima modul teras yang menguasakan Timbunan Perisikan Sundae",
       "securityTitle": "Keselamatan & Pematuhan Perusahaan",
-      "securityDescription": "Sundae: Pensijilan SOC 2 Type II sedang dalam proses. Kawalan GDPR dan CCPA kekal menjadi sebahagian daripada program keselamatan Sundae.",
+      "securityDescription": "Program kesiapsiagaan keselamatan berasaskan bukti sedang berjalan. Sundae kini tidak mempunyai laporan SOC 2.",
       "engineeringTitle": "Dibina dengan Kejuruteraan Premium",
       "engineeringDescription": "Timbunan pengeluaran yang dibina untuk kebolehpercayaan, kelajuan dan skala operasi.",
       "ctaTitle": "Lihat Seni Bina dalam Tindakan",
@@ -5482,43 +4962,22 @@ export const generatedLocalCopy = {
       ],
       "securityBullets": [
         {
-          "title": "Penyulitan Hujung ke Hujung",
-          "description": "Penyulitan AES-256 untuk data dalam transit dan dalam keadaan rehat",
+          "title": "Keselamatan dan kawalan data",
+          "description": "TLS dan penyulitan melindungi perkhidmatan yang disokong. Pengurusan kunci dan liputan pembekal bergantung pada pelaksanaan.",
           "icon": "alerts"
         },
         {
           "title": "Kawalan Akses",
-          "description": "Akses berasaskan peranan dengan pengesahan berbilang faktor",
+          "description": "Kawalan organisasi, hierarki dan peranan mengehadkan akses kepada rekod pelanggan.",
           "icon": "integration"
         },
         {
           "title": "Piawaian Pematuhan",
-          "description": "Pensijilan SOC 2 Type II sedang dalam proses. Kawalan GDPR dan CCPA kekal menjadi sebahagian daripada program keselamatan Sundae.",
+          "description": "Program kesiapsiagaan keselamatan berasaskan bukti sedang berjalan. Sundae kini tidak mempunyai laporan SOC 2.",
           "icon": "success"
         }
       ],
-      "certs": [
-        {
-          "label": "SOC 2 Jenis II",
-          "state": "Dalam proses",
-          "stateClass": "text-amber-600"
-        },
-        {
-          "label": "GDPR",
-          "state": "✓ Mematuhi",
-          "stateClass": "text-[#60A5FA]"
-        },
-        {
-          "label": "CCPA",
-          "state": "✓ Mematuhi",
-          "stateClass": "text-purple-600"
-        },
-        {
-          "label": "ISO 27001",
-          "state": "Sedang Berlangsung",
-          "stateClass": "text-amber-600"
-        }
-      ],
+      "certs": [{"label":"SOC 2 Jenis II","state":"Dalam proses","stateClass":"text-amber-600"}],
       "engineeringCards": [
         {
           "title": "AI Berbilang Ejen",
@@ -5579,12 +5038,7 @@ export const generatedLocalCopy = {
           "title": "Keselamatan & Tadbir Urus",
           "icon": "quality",
           "color": "from-red-500 to-red-600",
-          "features": [
-            "Program SOC 2 Type II sedang dijalankan",
-            "Penyulitan hujung ke hujung",
-            "Kawalan akses berasaskan peranan",
-            "Audit keselamatan yang kerap"
-          ]
+          "features": ["Keselamatan dan kawalan data","Kawalan Akses","Piawaian Pematuhan"]
         }
       ]
     }

@@ -15,7 +15,7 @@ type LocalizedCopy = {
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   en: {
     eyebrow: "BUILT ENTERPRISE-GRADE",
-    headline: "Audit-ready. API-first. From day one.",
+    headline: "Security and data controls",
     items: [
       { title: "RBAC", supporting: "Granular role permissions" },
       { title: "Audit Trails", supporting: "Every metric to source row" },
@@ -27,7 +27,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   },
   ar: {
     eyebrow: "مبني بمعايير المؤسسات",
-    headline: "جاهز للتدقيق. API أولاً. من اليوم الأول.",
+    headline: "الأمن وضوابط البيانات",
     items: [
       { title: "RBAC", supporting: "صلاحيات أدوار دقيقة" },
       { title: "سجلات تدقيق", supporting: "كل مقياس إلى صف المصدر" },
@@ -39,7 +39,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   },
   fr: {
     eyebrow: "GRADE ENTREPRISE",
-    headline: "Audit-ready. API-first. Dès le premier jour.",
+    headline: "Sécurité et contrôle des données",
     items: [
       { title: "RBAC", supporting: "Permissions de rôle granulaires" },
       { title: "Pistes d'audit", supporting: "Chaque métrique à la source" },
@@ -51,7 +51,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   },
   es: {
     eyebrow: "GRADO EMPRESARIAL",
-    headline: "Listo para auditoría. API-first. Desde el día uno.",
+    headline: "Seguridad y controles de datos",
     items: [
       { title: "RBAC", supporting: "Permisos de rol granulares" },
       { title: "Pistas de auditoría", supporting: "Cada métrica a la fuente" },

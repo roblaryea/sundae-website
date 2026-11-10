@@ -10,6 +10,8 @@ if (!apiKey) {
   throw new Error('OPENAI_API_KEY is required to refresh positioning locales')
 }
 
+const reviewedSecurityClaims = JSON.parse(await fs.readFile(path.join(root, 'src/lib/security-claims.json'), 'utf8'))
+
 const English = {
   critical: {
     productHeroTitle: 'One auditable recovery loop.',
@@ -25,9 +27,9 @@ const English = {
     architectureEngineDescription:
       'Specialised services detect, rank, route and measure each recovery decision while keeping the evidence attached.',
     soc2Description:
-      'SOC 2 Type II certification is in progress. GDPR and CCPA controls remain part of Sundae\'s security programme.',
+      reviewedSecurityClaims.en[10],
     soc2State: 'In progress',
-    securityCardSoc2: 'SOC 2 Type II programme in progress',
+    securityCardSoc2: reviewedSecurityClaims.en[0],
     cSuiteMetaTitle: 'Sundae for CEOs and Owners - Measured Profit Recovery Across the Portfolio',
     cSuiteMetaDescription:
       'See where portfolio margin is leaking, give each fix to an accountable operator, and measure what came back against a baseline.',
