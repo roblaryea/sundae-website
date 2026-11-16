@@ -1,3 +1,4 @@
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
 import type { SundaeIconName } from '@/components/icons';
 import type { RequiredEnglishLocalizedRecord, WebsiteLocale } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -10,6 +11,7 @@ import {
   CREW_SKUS,
   bandedMonthlyTotal,
   usd,
+  describeBands,
 } from '@/lib/pricing/priceBook'
 
 /**
@@ -27,11 +29,11 @@ const AI_WALLET_LINES = CORE_PACKAGES.map(
  * to the SKUs inside them. Generating both lists means neither can drift.
  */
 const CREW_SKU_LINES = CREW_SKUS.map(
-  (sku) => `- **${sku.name}** - ${usd(sku.monthly)}/mo`,
+  (sku) => `- **${sku.name}** - ${usd(sku.monthly)} first location/mo; ${describeBands(sku)} per additional location/mo`,
 ).join('\n')
 
 const CREW_BUNDLE_LINES = CREW_BUNDLES.map(
-  (sku) => `- **${sku.name}** - ${usd(sku.monthly)}/mo`,
+  (sku) => `- **${sku.name}** - ${usd(sku.monthly)} first location/mo; ${describeBands(sku)} per additional location/mo`,
 ).join('\n')
 
 /**
@@ -1561,12 +1563,21 @@ export function getLocalizedFaqSections(
 ): LocalizedFaqSection[] {
   const sections = localizedFaqSections[locale as keyof typeof localizedFaqSections] ?? getGeneratedLocalCopy(localizedFaqSections, generatedLocalCopy.localizedFaqSections, locale) ?? localizedFaqSections.en;
 
+  const commercial = getCommercialCopy(locale);
+  const corrections: Record<string, Record<number, string>> = {
+    'getting-started': { 0: commercial.productOverview, 3: commercial.packageScope, 4: commercial.terms },
+    'products-tiers': { 0: commercial.productOverview, 1: commercial.packageScope, 3: commercial.packageScope },
+    modules: { 0: commercial.packageScope, 1: commercial.packageScope, 2: commercial.packageScope, 3: commercial.packageScope, 4: commercial.packageScope },
+    'pricing-billing': { 1: commercial.setup, 3: commercial.terms },
+    comparisons: { 2: commercial.packageScope + ' ' + commercial.setup },
+    crew: { 1: commercial.payroll, 2: commercial.payroll, 4: commercial.firstLocation + ': [pricing.sundae.io](https://pricing.sundae.io). ' + commercial.extraLocations },
+  };
   return sections.map((section, index) => ({
     ...section,
     title: categoryTitles[index] ?? localizedFaqSections.en[index]?.id ?? section.id,
-    faqs: section.faqs.map((faq) => ({
+    faqs: section.faqs.map((faq, faqIndex) => ({
       ...faq,
-      content: applyFaqTokens(faq.content, locale),
+      content: corrections[section.id]?.[faqIndex] ?? applyFaqTokens(faq.content, locale),
     })),
   }));
 }

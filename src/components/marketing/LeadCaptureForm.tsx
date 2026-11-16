@@ -1,5 +1,7 @@
 'use client';
 
+import { getCampaignParams } from "@/lib/campaign";
+
 import type { PricingIntent } from '@/lib/pricingIntent';
 import { INTENT_TERMS } from '@/lib/pricingIntent';
 import { pricingIntentCopy, pricingOfferNames } from '@/lib/pricingHandoffCopy';
@@ -379,7 +381,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     setIsSubmitting(true);
     try {
       const sourcePage = window.location.pathname;
-      const searchParams = new URLSearchParams(window.location.search);
+      const campaign = getCampaignParams();
       const localPhone = formData.phone.trim();
       const fullPhone = localPhone.startsWith('+')
         ? localPhone
@@ -397,9 +399,9 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
           ctaLabel,
           sourcePage,
           locale,
-          utmSource: searchParams.get('utm_source') || undefined,
-          utmMedium: searchParams.get('utm_medium') || undefined,
-          utmCampaign: searchParams.get('utm_campaign') || undefined,
+          utmSource: campaign.utm_source || undefined,
+          utmMedium: campaign.utm_medium || undefined,
+          utmCampaign: campaign.utm_campaign || undefined,
         }),
       });
       const data = await response.json();
@@ -409,9 +411,9 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
       trackEvent('lead_form_submitted', {
         cta_label: ctaLabel,
         source_page: sourcePage,
-        utm_source: searchParams.get('utm_source') || undefined,
-        utm_medium: searchParams.get('utm_medium') || undefined,
-        utm_campaign: searchParams.get('utm_campaign') || undefined,
+        utm_source: campaign.utm_source || undefined,
+        utm_medium: campaign.utm_medium || undefined,
+        utm_campaign: campaign.utm_campaign || undefined,
       });
       setIsSuccess(true);
       submissionKeyRef.current = globalThis.crypto.randomUUID();

@@ -1,0 +1,222 @@
+{
+  "en": {
+    "packageScope": "Core packages include different capabilities. Check the selected package and any eligible extensions in the pricing calculator.",
+    "firstLocation": "first location / month",
+    "extraLocations": "Additional locations are priced separately.",
+    "terms": "Discounts depend on commitment, payment schedule and eligible scope. Confirm current terms in the pricing calculator.",
+    "setup": "Implementation fees depend on the selected products and onboarding scope. Confirm them in your estimate.",
+    "productOverview": "Sundae brings daily operations, workforce management and performance insight together for hospitality and food-service operators.",
+    "stackBasis": "Based on the operating needs you selected. Confirm scope and prerequisites during your walkthrough.",
+    "payroll": "Crew Pay calculates gross to net across 36+ ISO countries, with versioned country rules, payslips and reviewed statutory exports. Filing and payment handoffs depend on the country and provider."
+  },
+  "ar": {
+    "packageScope": "تتضمن باقات Core قدرات مختلفة. راجع الباقة المختارة والإضافات المؤهلة في حاسبة الأسعار.",
+    "firstLocation": "للموقع الأول / شهر",
+    "extraLocations": "تُسعَّر المواقع الإضافية بشكل منفصل.",
+    "terms": "تعتمد الخصومات على مدة الالتزام وجدول الدفع والنطاق المؤهل. تحقّق من الشروط الحالية في حاسبة الأسعار.",
+    "setup": "تعتمد رسوم التنفيذ على المنتجات المختارة ونطاق الإعداد. تأكد منها في تقدير السعر.",
+    "productOverview": "تجمع Sundae العمليات اليومية وإدارة القوى العاملة وتحليل الأداء لمشغّلي الضيافة وخدمات الأغذية.",
+    "stackBasis": "بناءً على الاحتياجات التشغيلية التي حددتها. تأكد من النطاق والمتطلبات خلال العرض التوضيحي.",
+    "payroll": "تحسب Crew Pay الراتب من الإجمالي إلى الصافي في أكثر من 36 دولة حسب رموز ISO، مع قواعد وطنية محددة الإصدار وكشوف رواتب وتصديرات نظامية خاضعة للمراجعة. يعتمد تقديم الإقرارات وصرف الرواتب على الدولة ومزود الخدمة."
+  },
+  "fr": {
+    "packageScope": "Les offres Core comprennent des capacités différentes. Vérifiez l’offre choisie et les extensions éligibles dans le simulateur de prix.",
+    "firstLocation": "premier site / mois",
+    "extraLocations": "Les sites supplémentaires sont facturés séparément.",
+    "terms": "Les remises dépendent de l’engagement, de l’échéancier et du périmètre éligible. Confirmez les conditions dans le simulateur.",
+    "setup": "Les frais de mise en œuvre dépendent des produits choisis et du périmètre de déploiement. Confirmez-les dans votre estimation.",
+    "productOverview": "Sundae réunit les opérations quotidiennes, la gestion des équipes et l’analyse des performances pour l’hôtellerie et la restauration.",
+    "stackBasis": "Selon les besoins opérationnels indiqués. Confirmez le périmètre et les prérequis lors de la démonstration.",
+    "payroll": "Crew Pay calcule le brut au net dans plus de 36 pays ISO, avec règles nationales versionnées, bulletins et exports réglementaires à valider. Les déclarations et paiements dépendent du pays et du prestataire."
+  },
+  "es": {
+    "packageScope": "Los paquetes Core incluyen capacidades diferentes. Revisa el paquete elegido y las extensiones disponibles en la calculadora de precios.",
+    "firstLocation": "primer local / mes",
+    "extraLocations": "Los locales adicionales se cobran por separado.",
+    "terms": "Los descuentos dependen del compromiso, el calendario de pagos y el alcance elegible. Confirma las condiciones en la calculadora.",
+    "setup": "Los costes de implementación dependen de los productos elegidos y del alcance de la puesta en marcha. Confírmalos en tu estimación.",
+    "productOverview": "Sundae reúne operaciones diarias, gestión de personal y análisis del rendimiento para hostelería y servicios de alimentación.",
+    "stackBasis": "Según las necesidades operativas indicadas. Confirma el alcance y los requisitos en la demostración.",
+    "payroll": "Crew Pay calcula del bruto al neto en más de 36 países ISO, con reglas versionadas, recibos y exportaciones legales revisadas. La presentación y el pago dependen del país y del proveedor."
+  },
+  "de": {
+    "packageScope": "Die Core-Pakete enthalten unterschiedliche Funktionen. Prüfen Sie das gewählte Paket und verfügbare Erweiterungen im Preisrechner.",
+    "firstLocation": "erster Standort / Monat",
+    "extraLocations": "Zusätzliche Standorte werden gesondert berechnet.",
+    "terms": "Rabatte hängen von Laufzeit, Zahlungsplan und Leistungsumfang ab. Prüfen Sie die aktuellen Konditionen im Preisrechner.",
+    "setup": "Die Einführungskosten hängen von den gewählten Produkten und dem Einführungsumfang ab. Prüfen Sie diese in Ihrer Kalkulation.",
+    "productOverview": "Sundae verbindet den täglichen Betrieb, Personalmanagement und Leistungsanalysen für Gastronomie und Hospitality.",
+    "stackBasis": "Auf Grundlage Ihrer betrieblichen Anforderungen. Bestätigen Sie Umfang und Voraussetzungen bei der Vorführung.",
+    "payroll": "Crew Pay berechnet Brutto- und Nettolohn für über 36 ISO-Länder, mit versionierten Landesregeln, Abrechnungen und geprüften gesetzlichen Exporten. Meldungen und Zahlungen hängen von Land und Anbieter ab."
+  },
+  "it": {
+    "packageScope": "I pacchetti Core includono funzionalità diverse. Verifica il pacchetto scelto e le estensioni disponibili nel calcolatore dei prezzi.",
+    "firstLocation": "prima sede / mese",
+    "extraLocations": "Le sedi aggiuntive vengono addebitate separatamente.",
+    "terms": "Gli sconti dipendono da durata, piano di pagamento e ambito previsto. Verifica le condizioni nel calcolatore.",
+    "setup": "I costi di implementazione dipendono dai prodotti scelti e dall’ambito di avvio. Confermali nel preventivo.",
+    "productOverview": "Sundae riunisce operazioni quotidiane, gestione del personale e analisi delle prestazioni per ospitalità e ristorazione.",
+    "stackBasis": "In base alle esigenze operative indicate. Conferma ambito e prerequisiti durante la dimostrazione.",
+    "payroll": "Crew Pay calcola dal lordo al netto in oltre 36 paesi ISO, con regole nazionali versionate, cedolini ed esportazioni normative da verificare. Invio e pagamento dipendono dal paese e dal fornitore."
+  },
+  "pt": {
+    "packageScope": "Os pacotes Core incluem capacidades diferentes. Confirme o pacote escolhido e as extensões elegíveis no simulador de preços.",
+    "firstLocation": "primeira unidade / mês",
+    "extraLocations": "As unidades adicionais são cobradas separadamente.",
+    "terms": "Os descontos dependem do compromisso, do calendário de pagamento e do âmbito elegível. Confirme as condições no simulador.",
+    "setup": "Os custos de implementação dependem dos produtos escolhidos e do âmbito da configuração. Confirme-os na estimativa.",
+    "productOverview": "A Sundae reúne operações diárias, gestão de equipas e análise de desempenho para hotelaria e serviços de alimentação.",
+    "stackBasis": "Com base nas necessidades operacionais indicadas. Confirme o âmbito e os requisitos na demonstração.",
+    "payroll": "Crew Pay calcula do bruto ao líquido em mais de 36 países ISO, com regras nacionais versionadas, recibos e exportações legais sujeitas a revisão. Declarações e pagamentos dependem do país e do prestador."
+  },
+  "nl": {
+    "packageScope": "Core-pakketten bevatten verschillende functies. Controleer het gekozen pakket en beschikbare uitbreidingen in de prijscalculator.",
+    "firstLocation": "eerste locatie / maand",
+    "extraLocations": "Extra locaties worden afzonderlijk berekend.",
+    "terms": "Kortingen hangen af van de looptijd, het betalingsschema en de toepasselijke omvang. Controleer de voorwaarden in de prijscalculator.",
+    "setup": "Implementatiekosten hangen af van de gekozen producten en de omvang van de invoering. Controleer deze in uw raming.",
+    "productOverview": "Sundae brengt dagelijkse bedrijfsvoering, personeelsbeheer en prestatie-inzicht samen voor horeca en foodservice.",
+    "stackBasis": "Op basis van de aangegeven operationele behoeften. Bevestig omvang en voorwaarden tijdens de demonstratie.",
+    "payroll": "Crew Pay berekent bruto naar netto voor meer dan 36 ISO-landen, met versiebeheer van landregels, loonstroken en gecontroleerde wettelijke exports. Aangifte en betaling hangen af van land en aanbieder."
+  },
+  "pl": {
+    "packageScope": "Pakiety Core obejmują różne funkcje. Sprawdź wybrany pakiet i dostępne rozszerzenia w kalkulatorze cen.",
+    "firstLocation": "pierwsza lokalizacja / miesiąc",
+    "extraLocations": "Dodatkowe lokalizacje są rozliczane osobno.",
+    "terms": "Rabaty zależą od okresu zobowiązania, harmonogramu płatności i zakresu oferty. Sprawdź aktualne warunki w kalkulatorze.",
+    "setup": "Koszty wdrożenia zależą od wybranych produktów i zakresu uruchomienia. Potwierdź je w wycenie.",
+    "productOverview": "Sundae łączy codzienne operacje, zarządzanie personelem i analizę wyników dla hotelarstwa i gastronomii.",
+    "stackBasis": "Na podstawie wskazanych potrzeb operacyjnych. Potwierdź zakres i wymagania podczas prezentacji.",
+    "payroll": "Crew Pay oblicza wynagrodzenie brutto i netto dla ponad 36 krajów ISO, z wersjonowanymi regułami, paskami płacowymi i eksportami ustawowymi do weryfikacji. Zgłoszenia i płatności zależą od kraju i dostawcy."
+  },
+  "ro": {
+    "packageScope": "Pachetele Core includ funcționalități diferite. Verificați pachetul ales și extensiile eligibile în calculatorul de prețuri.",
+    "firstLocation": "prima locație / lună",
+    "extraLocations": "Locațiile suplimentare se taxează separat.",
+    "terms": "Reducerile depind de angajament, calendarul plăților și serviciile eligibile. Confirmați condițiile în calculator.",
+    "setup": "Costurile de implementare depind de produsele alese și de amploarea configurării. Confirmați-le în estimare.",
+    "productOverview": "Sundae reunește operațiunile zilnice, gestionarea personalului și analiza performanței pentru ospitalitate și servicii alimentare.",
+    "stackBasis": "Pe baza nevoilor operaționale indicate. Confirmați domeniul și cerințele în demonstrație.",
+    "payroll": "Crew Pay calculează salariul brut și net pentru peste 36 de țări ISO, cu reguli naționale versionate, fluturași și exporturi legale verificate. Depunerea și plata depind de țară și furnizor."
+  },
+  "sv": {
+    "packageScope": "Core-paketen innehåller olika funktioner. Kontrollera valt paket och tillgängliga tillägg i priskalkylatorn.",
+    "firstLocation": "första platsen / månad",
+    "extraLocations": "Ytterligare platser debiteras separat.",
+    "terms": "Rabatter beror på bindningstid, betalningsplan och omfattning. Bekräfta aktuella villkor i priskalkylatorn.",
+    "setup": "Implementeringskostnader beror på valda produkter och införandets omfattning. Bekräfta dem i prisberäkningen.",
+    "productOverview": "Sundae samlar daglig drift, personalhantering och resultatanalys för hotell, restaurang och måltidsverksamhet.",
+    "stackBasis": "Utifrån de operativa behov du angett. Bekräfta omfattning och förutsättningar under demonstrationen.",
+    "payroll": "Crew Pay beräknar brutto till netto för över 36 ISO-länder, med versionshanterade landsregler, lönebesked och granskade lagstadgade exporter. Rapportering och betalning beror på land och leverantör."
+  },
+  "tr": {
+    "packageScope": "Core paketleri farklı özellikler içerir. Seçilen paketi ve uygun eklentileri fiyat hesaplayıcısında kontrol edin.",
+    "firstLocation": "ilk lokasyon / ay",
+    "extraLocations": "Ek lokasyonlar ayrıca fiyatlandırılır.",
+    "terms": "İndirimler taahhüde, ödeme planına ve uygun kapsama bağlıdır. Güncel koşulları fiyat hesaplayıcısında doğrulayın.",
+    "setup": "Uygulama ücretleri seçilen ürünlere ve kurulum kapsamına bağlıdır. Tahmininizde bunları doğrulayın.",
+    "productOverview": "Sundae, konaklama ve yiyecek hizmetleri işletmeleri için günlük operasyonları, iş gücü yönetimini ve performans analizini birleştirir.",
+    "stackBasis": "Seçtiğiniz operasyonel ihtiyaçlara göre. Kapsamı ve ön koşulları tanıtım sırasında doğrulayın.",
+    "payroll": "Crew Pay, sürümlenmiş ülke kuralları, bordrolar ve incelenen yasal çıktılarla 36’dan fazla ISO ülkesinde brütten nete hesaplama yapar. Bildirim ve ödeme işlemleri ülkeye ve sağlayıcıya bağlıdır."
+  },
+  "hi": {
+    "packageScope": "Core पैकेजों में अलग-अलग क्षमताएँ शामिल हैं। चुने हुए पैकेज और उपलब्ध विस्तारों की जाँच मूल्य कैलकुलेटर में करें।",
+    "firstLocation": "पहला स्थान / महीना",
+    "extraLocations": "अतिरिक्त स्थानों की कीमत अलग से तय होती है।",
+    "terms": "छूट प्रतिबद्धता, भुगतान समय-सारणी और पात्र दायरे पर निर्भर करती है। वर्तमान शर्तें मूल्य कैलकुलेटर में जाँचें।",
+    "setup": "कार्यान्वयन शुल्क चुने हुए उत्पादों और सेटअप के दायरे पर निर्भर करता है। अपने अनुमान में इसकी पुष्टि करें।",
+    "productOverview": "Sundae आतिथ्य और खाद्य सेवा संचालकों के लिए दैनिक संचालन, कार्यबल प्रबंधन और प्रदर्शन विश्लेषण को एक साथ लाता है।",
+    "stackBasis": "आपकी चुनी हुई संचालन संबंधी आवश्यकताओं के आधार पर। डेमो के दौरान दायरे और पूर्वापेक्षाओं की पुष्टि करें।",
+    "payroll": "Crew Pay 36 से अधिक ISO देशों में देश-विशिष्ट संस्करणबद्ध नियमों, वेतन पर्चियों और समीक्षा किए गए वैधानिक निर्यात के साथ सकल से शुद्ध वेतन की गणना करता है। दाखिल करने और भुगतान की प्रक्रिया देश और प्रदाता पर निर्भर करती है।"
+  },
+  "bn": {
+    "packageScope": "Core প্যাকেজে ভিন্ন ভিন্ন সুবিধা রয়েছে। নির্বাচিত প্যাকেজ ও উপযুক্ত এক্সটেনশন মূল্য ক্যালকুলেটরে যাচাই করুন।",
+    "firstLocation": "প্রথম লোকেশন / মাস",
+    "extraLocations": "অতিরিক্ত লোকেশনের মূল্য আলাদাভাবে নির্ধারিত হয়।",
+    "terms": "ছাড় নির্ভর করে অঙ্গীকারের মেয়াদ, পেমেন্টের সময়সূচি ও প্রযোজ্য পরিসরের ওপর। মূল্য ক্যালকুলেটরে বর্তমান শর্ত যাচাই করুন।",
+    "setup": "বাস্তবায়ন ফি নির্বাচিত পণ্য ও সেটআপের পরিসরের ওপর নির্ভর করে। আপনার মূল্যায়নে তা নিশ্চিত করুন।",
+    "productOverview": "Sundae আতিথেয়তা ও খাদ্যসেবা পরিচালকদের দৈনন্দিন কার্যক্রম, কর্মী ব্যবস্থাপনা ও কর্মক্ষমতার বিশ্লেষণ একত্র করে।",
+    "stackBasis": "আপনার নির্বাচিত পরিচালনাগত চাহিদার ভিত্তিতে। প্রদর্শনীর সময় পরিসর ও পূর্বশর্ত নিশ্চিত করুন।",
+    "payroll": "Crew Pay 36টির বেশি ISO দেশে সংস্করণভিত্তিক দেশীয় নিয়ম, বেতন স্লিপ ও পর্যালোচিত বিধিবদ্ধ এক্সপোর্টসহ মোট থেকে নিট বেতন হিসাব করে। দাখিল ও পেমেন্ট দেশ এবং সেবাদাতার ওপর নির্ভর করে।"
+  },
+  "ur": {
+    "packageScope": "Core پیکیجز میں مختلف صلاحیتیں شامل ہیں۔ منتخب پیکیج اور اہل اضافوں کو قیمت کے کیلکولیٹر میں دیکھیں۔",
+    "firstLocation": "پہلی جگہ / ماہ",
+    "extraLocations": "اضافی جگہوں کی قیمت الگ مقرر ہوتی ہے۔",
+    "terms": "رعایت مدت، ادائیگی کے شیڈول اور اہل دائرۂ کار پر منحصر ہے۔ موجودہ شرائط قیمت کے کیلکولیٹر میں دیکھیں۔",
+    "setup": "نفاذ کی فیس منتخب مصنوعات اور ابتدائی سیٹ اپ کے دائرۂ کار پر منحصر ہے۔ اپنے تخمینے میں اس کی تصدیق کریں۔",
+    "productOverview": "Sundae مہمان نوازی اور غذائی خدمات کے منتظمین کے لیے روزمرہ کام، افرادی قوت کے انتظام اور کارکردگی کے تجزیے کو یکجا کرتا ہے۔",
+    "stackBasis": "آپ کی منتخب کردہ عملی ضروریات کی بنیاد پر۔ ڈیمو کے دوران دائرہ اور پیشگی تقاضے تصدیق کریں۔",
+    "payroll": "Crew Pay ورژن شدہ ملکی قواعد، پے سلپس اور جائزہ شدہ قانونی ایکسپورٹس کے ساتھ 36 سے زیادہ ISO ممالک میں مجموعی سے خالص تنخواہ کا حساب کرتا ہے۔ فائلنگ اور ادائیگی ملک اور فراہم کنندہ پر منحصر ہیں۔"
+  },
+  "zh-Hans": {
+    "packageScope": "Core 套餐包含不同的功能。请在价格计算器中核实所选套餐及可用扩展。",
+    "firstLocation": "首个门店 / 月",
+    "extraLocations": "新增门店单独计价。",
+    "terms": "折扣取决于合同期限、付款安排和适用范围。请在价格计算器中确认当前条款。",
+    "setup": "实施费用取决于所选产品和上线范围。请在估算中确认。",
+    "productOverview": "Sundae 为酒店及餐饮服务运营者整合日常运营、员工管理和经营绩效分析。",
+    "stackBasis": "根据您选择的运营需求。请在演示中确认范围和前提条件。",
+    "payroll": "Crew Pay 支持 36 个以上 ISO 国家从税前到税后工资的计算，提供版本化国家规则、工资单和经审核的法定导出。申报和付款交接取决于国家与服务商。"
+  },
+  "ja": {
+    "packageScope": "Core の各プランに含まれる機能は異なります。選択したプランと利用可能な拡張機能を料金シミュレーターでご確認ください。",
+    "firstLocation": "最初の拠点 / 月",
+    "extraLocations": "追加拠点は別途課金されます。",
+    "terms": "割引は契約期間、支払方法、対象範囲によって異なります。最新の条件は料金シミュレーターでご確認ください。",
+    "setup": "導入費用は選択した製品と導入範囲によって異なります。見積もりでご確認ください。",
+    "productOverview": "Sundae は宿泊・飲食サービス事業者の日常業務、人員管理、経営分析を一つにつなげます。",
+    "stackBasis": "選択した業務上のニーズに基づきます。デモで対象範囲と前提条件をご確認ください。",
+    "payroll": "Crew Pay は ISO 基準で36か国以上の総支給額から手取り額を計算し、バージョン管理された国別ルール、給与明細、確認対象の法定エクスポートに対応します。申告と支払いの引き継ぎは国と事業者によって異なります。"
+  },
+  "ko": {
+    "packageScope": "Core 패키지마다 포함 기능이 다릅니다. 선택한 패키지와 이용 가능한 확장 기능을 요금 계산기에서 확인하세요.",
+    "firstLocation": "첫 지점 / 월",
+    "extraLocations": "추가 지점은 별도로 요금이 책정됩니다.",
+    "terms": "할인은 약정 기간, 결제 일정 및 적용 범위에 따라 달라집니다. 요금 계산기에서 최신 조건을 확인하세요.",
+    "setup": "도입 비용은 선택한 제품과 구축 범위에 따라 달라집니다. 견적에서 확인하세요.",
+    "productOverview": "Sundae는 숙박 및 외식 서비스 운영자를 위해 일상 운영, 인력 관리, 성과 분석을 연결합니다.",
+    "stackBasis": "선택한 운영 요구 사항을 기준으로 합니다. 데모에서 범위와 사전 요건을 확인하세요.",
+    "payroll": "Crew Pay는 36개 이상의 ISO 국가에서 버전 관리되는 국가별 규칙, 급여명세서 및 검토된 법정 내보내기를 바탕으로 총급여에서 실수령액을 계산합니다. 신고와 지급 연계는 국가와 제공업체에 따라 다릅니다."
+  },
+  "id": {
+    "packageScope": "Paket Core mencakup kemampuan yang berbeda. Periksa paket pilihan dan ekstensi yang memenuhi syarat di kalkulator harga.",
+    "firstLocation": "lokasi pertama / bulan",
+    "extraLocations": "Lokasi tambahan dikenai biaya terpisah.",
+    "terms": "Diskon bergantung pada komitmen, jadwal pembayaran, dan cakupan yang memenuhi syarat. Konfirmasikan ketentuan terkini di kalkulator.",
+    "setup": "Biaya implementasi bergantung pada produk pilihan dan cakupan penyiapan. Konfirmasikan dalam estimasi Anda.",
+    "productOverview": "Sundae menyatukan operasional harian, manajemen tenaga kerja, dan wawasan kinerja bagi pengelola perhotelan dan layanan makanan.",
+    "stackBasis": "Berdasarkan kebutuhan operasional yang Anda pilih. Konfirmasikan cakupan dan prasyarat saat demo.",
+    "payroll": "Crew Pay menghitung gaji bruto ke neto di lebih dari 36 negara ISO, dengan aturan negara berversi, slip gaji, dan ekspor wajib yang ditinjau. Pelaporan dan pembayaran bergantung pada negara dan penyedia."
+  },
+  "ms": {
+    "packageScope": "Pakej Core merangkumi keupayaan yang berbeza. Semak pakej pilihan dan sambungan yang layak dalam kalkulator harga.",
+    "firstLocation": "lokasi pertama / bulan",
+    "extraLocations": "Lokasi tambahan dikenakan harga berasingan.",
+    "terms": "Diskaun bergantung pada komitmen, jadual pembayaran dan skop yang layak. Sahkan syarat semasa dalam kalkulator.",
+    "setup": "Yuran pelaksanaan bergantung pada produk pilihan dan skop persediaan. Sahkan dalam anggaran anda.",
+    "productOverview": "Sundae menyatukan operasi harian, pengurusan tenaga kerja dan analisis prestasi untuk pengendali hospitaliti dan perkhidmatan makanan.",
+    "stackBasis": "Berdasarkan keperluan operasi yang anda pilih. Sahkan skop dan prasyarat semasa demonstrasi.",
+    "payroll": "Crew Pay mengira gaji kasar kepada bersih di lebih 36 negara ISO, dengan peraturan negara berversi, slip gaji dan eksport berkanun yang disemak. Pemfailan dan pembayaran bergantung pada negara dan penyedia."
+  },
+  "vi": {
+    "packageScope": "Các gói Core bao gồm những tính năng khác nhau. Kiểm tra gói đã chọn và các tiện ích mở rộng phù hợp trong công cụ tính giá.",
+    "firstLocation": "địa điểm đầu tiên / tháng",
+    "extraLocations": "Các địa điểm bổ sung được tính phí riêng.",
+    "terms": "Chiết khấu phụ thuộc vào cam kết, lịch thanh toán và phạm vi áp dụng. Xác nhận điều khoản hiện hành trong công cụ tính giá.",
+    "setup": "Phí triển khai phụ thuộc vào sản phẩm đã chọn và phạm vi thiết lập. Xác nhận trong dự toán của bạn.",
+    "productOverview": "Sundae kết hợp vận hành hằng ngày, quản lý nhân sự và phân tích hiệu quả cho đơn vị kinh doanh lưu trú và dịch vụ ăn uống.",
+    "stackBasis": "Dựa trên nhu cầu vận hành bạn đã chọn. Xác nhận phạm vi và điều kiện tiên quyết trong buổi giới thiệu.",
+    "payroll": "Crew Pay tính lương từ tổng đến thực nhận cho hơn 36 quốc gia ISO, với quy tắc quốc gia có phiên bản, phiếu lương và dữ liệu xuất theo luật được rà soát. Việc kê khai và thanh toán phụ thuộc vào quốc gia và nhà cung cấp."
+  },
+  "th": {
+    "packageScope": "แพ็กเกจ Core มีความสามารถต่างกัน โปรดตรวจสอบแพ็กเกจที่เลือกและส่วนเสริมที่ใช้ได้ในเครื่องคำนวณราคา",
+    "firstLocation": "สาขาแรก / เดือน",
+    "extraLocations": "สาขาเพิ่มเติมคิดราคาแยกต่างหาก",
+    "terms": "ส่วนลดขึ้นอยู่กับระยะสัญญา กำหนดชำระเงิน และขอบเขตที่เข้าเกณฑ์ โปรดยืนยันเงื่อนไขปัจจุบันในเครื่องคำนวณราคา",
+    "setup": "ค่าติดตั้งใช้งานขึ้นอยู่กับผลิตภัณฑ์ที่เลือกและขอบเขตการเริ่มใช้งาน โปรดยืนยันในประมาณการราคา",
+    "productOverview": "Sundae เชื่อมงานประจำวัน การจัดการพนักงาน และการวิเคราะห์ผลประกอบการสำหรับธุรกิจบริการและอาหาร",
+    "stackBasis": "ตามความต้องการดำเนินงานที่คุณเลือก โปรดยืนยันขอบเขตและเงื่อนไขก่อนเริ่มในระหว่างการสาธิต",
+    "payroll": "Crew Pay คำนวณเงินเดือนจากยอดรวมเป็นยอดสุทธิในกว่า 36 ประเทศตามรหัส ISO พร้อมกฎประเทศแบบมีเวอร์ชัน สลิปเงินเดือน และข้อมูลส่งออกตามกฎหมายที่ผ่านการตรวจทาน การยื่นและส่งต่อการจ่ายขึ้นอยู่กับประเทศและผู้ให้บริการ"
+  }
+}

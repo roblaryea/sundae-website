@@ -25,6 +25,8 @@ import {
   describeBands,
   usd,
   type CorePackageId,
+  PRICE_BOOK_VERSION,
+  PRICE_BOOK_VERIFIED_ON,
 } from "@/lib/pricing/priceBook";
 import { QUESTIONS } from "./questions";
 import { buildEvidenceSafeFallbackFindings } from "./fallbackFindings";
@@ -169,7 +171,7 @@ function pickCorePackage(
 
   // Large, multi-region groups carrying both margin AND growth gaps are the
   // Performance profile. Everything else steps down from there.
-  if (outlets >= 26 && wantsMargin && (wantsGrowth || multiRegionPayroll)) return "core_performance";
+  if (wantsMargin && wantsGrowth || (outlets >= 26 && wantsMargin && multiRegionPayroll)) return "core_performance";
   if (wantsGrowth) return "core_growth";
   if (wantsMargin) return "core_margin";
   return "core_foundation";
@@ -199,7 +201,7 @@ function computeEconomics(
 
   // Above the published band ceiling (100 locations) the marginal rate is not
   // published, so we must not extrapolate a number at all.
-  const beyondPublishedBands = coreQuote.beyondBandedRange;
+  let beyondPublishedBands = coreQuote.beyondBandedRange;
 
   // Crew: flat monthly SKUs in v1.7 — no per-location component.
   const crewOperating = CREW_BUNDLES.find((s) => s.id === "crew_operating")!;
@@ -208,17 +210,17 @@ function computeEconomics(
   let crewLabel = "";
   if (crew) {
     if (/crew operating/i.test(crew.label)) {
-      monthly += crewOperating.monthly; crewLabel = crewOperating.name;
+      const quote = bandedMonthlyTotal(crewOperating, outlets); monthly += quote.monthlyTotal; beyondPublishedBands ||= quote.beyondBandedRange; crewLabel = crewOperating.name;
     } else if (/schedule & time/i.test(crew.label)) {
-      monthly += crewScheduleTime.monthly; crewLabel = crewScheduleTime.name;
+      const quote = bandedMonthlyTotal(crewScheduleTime, outlets); monthly += quote.monthlyTotal; beyondPublishedBands ||= quote.beyondBandedRange; crewLabel = crewScheduleTime.name;
     } else {
-      monthly += crewSchedule.monthly; crewLabel = crewSchedule.name;
+      const quote = bandedMonthlyTotal(crewSchedule, outlets); monthly += quote.monthlyTotal; beyondPublishedBands ||= quote.beyondBandedRange; crewLabel = crewSchedule.name;
     }
   }
 
   // Foresight & Action is banded on the same boundaries as the Core packages.
-  const foresightQuote = hasForesight ? bandedMonthlyTotal(FORESIGHT_AND_ACTION, outlets) : null;
-  if (foresightQuote) monthly += foresightQuote.monthlyTotal;
+  const foresightQuote = hasForesight && !corePackage.includedModuleIds.includes("foresight") ? bandedMonthlyTotal(FORESIGHT_AND_ACTION, outlets) : null;
+  if (foresightQuote) { monthly += foresightQuote.monthlyTotal; beyondPublishedBands ||= foresightQuote.beyondBandedRange; }
 
   // Watchtower carries no published v1.7 list price, so it is described as a
   // quoted capability and deliberately kept OUT of the arithmetic. Quoting a
@@ -226,11 +228,7 @@ function computeEconomics(
 
   const costBasis = [
     `${corePackage.name} (${usd(corePackage.firstUnitMonthly)} first location, then ${describeBands(corePackage)} per additional location)`,
-    crewLabel && `${crewLabel} (${usd(
-      crewLabel === crewOperating.name ? crewOperating.monthly
-      : crewLabel === crewScheduleTime.name ? crewScheduleTime.monthly
-      : crewSchedule.monthly,
-    )}/mo)`,
+    crewLabel && `${crewLabel} (first-location price plus marginal additional-location bands)`,
     foresightQuote && `Foresight & Action (${usd(FORESIGHT_AND_ACTION.firstUnitMonthly)} first location, then ${describeBands(FORESIGHT_AND_ACTION)} per additional location)`,
   ].filter(Boolean).join(" + ");
 
@@ -263,11 +261,11 @@ function computeEconomics(
   const monthlyCost = beyondPublishedBands
     ? {
         range: "Enterprise - quoted",
-        basis: `${costBasis}. Above 100 locations the marginal bands give way to an Enterprise agreement, so we scope the figure with you rather than publish one.${expansionNote}`,
+        basis: `${costBasis}. This selection exceeds one or more published self-service ranges, so confirm a scoped estimate in the pricing calculator.${expansionNote}`,
       }
     : {
         range: `${usd(monthly)} / mo at list`,
-        basis: `${costBasis}, across ~${outlets} outlet${outlets === 1 ? "" : "s"} - ${usd(monthly)}/mo at list, a ${usd(coreQuote.blendedAveragePerUnit)} blended average per location on the Core line (an average of the total, not a per-location rate). Indicative list pricing, a starting footprint, not a quote.${expansionNote}`,
+        basis: `${costBasis}, across ~${outlets} outlet${outlets === 1 ? "" : "s"} - ${usd(monthly)}/mo at list, a ${usd(coreQuote.blendedAveragePerUnit)} blended average per location on the Core line (an average of the total, not a per-location rate). Catalogue snapshot ${PRICE_BOOK_VERSION}, verified ${PRICE_BOOK_VERIFIED_ON}. Indicative monthly list pricing before discounts, implementation fees, taxes and separately scoped extensions; confirm the current estimate in the pricing calculator.${expansionNote}`,
       };
 
   return {
@@ -385,15 +383,13 @@ export function runDiagnostic(
   // ─── Recommended stack ───────────────────────────────────────────
   const recommendedStack: StackRecommendation[] = [];
 
-  // Core layer baseline — the package is chosen on capability fit, and every
-  // Core package already INCLUDES the eleven domain modules (they are package
-  // components in v1.7, never separate purchases).
+  // Package-specific entitlements come from the verified active catalogue.
   const corePackage = CORE_PACKAGES_BY_ID[pickCorePackage(responses, outlets)];
   recommendedStack.push({
     layer: "core",
     label: "Sundae Core",
     detail: corePackage.name,
-    why: "Unifies POS + labor + cost + ops into one decision substrate - replaces the BI/dashboard layer entirely. The eleven domain modules ship inside the package.",
+    why: "Connects operating evidence for the selected Core package. Included capabilities vary by package; confirm extensions and integration scope during the walkthrough.",
   });
 
   // Pulse always
@@ -423,7 +419,7 @@ export function runDiagnostic(
         layer: "crew",
         label: "Schedule & Time",
         detail: "Schedule + clock-in with eligibility-checked assignment",
-        why: "PWA clock-in eliminates buddy-punching and surfaces no-show risk before the shift starts.",
+        why: "Time capture and attendance checks support manager review of clock-in exceptions and no-show risk.",
       });
     } else {
       recommendedStack.push({
@@ -439,7 +435,7 @@ export function runDiagnostic(
   // network-effect market intelligence isn't worth a line item for a small
   // operator, and quoting it to one is exactly the over-scoping we're fixing.
   if (
-    outlets >= 6 &&
+    (corePackage.id === "core_growth" || corePackage.id === "core_performance") && outlets >= 6 &&
     (has(responses.kpis_wished, "competitor_pricing") || has(responses.scenario_wish, "competitor"))
   ) {
     recommendedStack.push({
@@ -456,7 +452,7 @@ export function runDiagnostic(
       layer: "intelligence",
       label: "Ask Sundae",
       detail: "Ask-your-data NL → SQL with source citations",
-      why: "Replaces the spreadsheet-pull → analyst → answer loop with sub-minute, sourced answers.",
+      why: "Ask questions of connected operating data and review the supporting sources.",
     });
   }
 

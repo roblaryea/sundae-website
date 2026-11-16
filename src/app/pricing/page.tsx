@@ -1,5 +1,7 @@
 'use client';
 
+import { getCommercialCopy } from '@/lib/pricing/commercialCopy';
+
 import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
@@ -24,50 +26,8 @@ import {
   VOLUME_LADDER,
   type BandedSku,
   type BillingCycle,
-  type CorePackageId,
+  PRICE_BOOK_VERIFIED_ON,
 } from '@/lib/pricing/priceBook';
-
-/**
- * Public rate card - Sundae price book v1.7.
- *
- * Every number on this page is read from `@/lib/pricing/priceBook`. Nothing is
- * hand-typed here, and nothing is fetched from the live catalog API: the Core
- * packages are MARGINAL-BAND SKUs (first-location anchor + a stepped marginal
- * rate per additional location) and the catalog endpoint speaks the retired
- * flat `basePrice + perLocationPrice` shape, which would silently reintroduce
- * a per-location rate this price book does not have.
- */
-
-const PACKAGE_INCLUDES: Record<CorePackageId, string[]> = {
-  core_foundation: [
-    'One decision substrate over POS, labor, cost and operations',
-    'All eleven Core domain modules, included',
-    'Pulse real-time shift monitoring',
-    'Ask Sundae - ask your data in plain language',
-    'Anonymous peer benchmarking',
-  ],
-  core_margin: [
-    'Everything in Core Foundation',
-    'Cost and leakage depth: theoretical vs. actual, waste, shrinkage',
-    'Void, comp and discount pattern detection',
-    'Item and outlet-level contribution analysis',
-    'Faster refresh for same-shift intervention',
-  ],
-  core_growth: [
-    'Everything in Core Margin',
-    'Guest cohort retention and lifetime value',
-    'Promo and campaign attribution by channel',
-    'Delivery channel margin after commission',
-    'Reservation pacing and no-show risk',
-  ],
-  core_performance: [
-    'Everything in Core Growth',
-    'Multi-brand and multi-region consolidation',
-    'Cross-module correlation and attribution',
-    'Governance: role-based access with audit trails',
-    'Priority support with contractual response times',
-  ],
-};
 
 type PricingFaq = { title: string; content: string };
 
@@ -125,8 +85,8 @@ type PricingPageCopy = {
 const enCopy: PricingPageCopy = {
   cyclesLabel: 'Billing cycle',
   cycleMonthly: 'Monthly',
-  cycleAnnual: 'Annual',
-  cycleTwoYear: '2-year',
+  cycleAnnual: 'Annual · upfront',
+  cycleTwoYear: '2-year · upfront',
   coreEyebrow: 'Sundae Core',
   coreTitle: 'Four Core packages',
   coreDescription:
@@ -210,7 +170,7 @@ const enCopy: PricingPageCopy = {
         'No. The eleven domain modules are components of a Core package, not separate products. Choosing a package is how you get all of them.',
     },
     {
-      title: 'What happens past 100 locations?',
+      title: 'When should I discuss an Enterprise agreement?',
       content:
         'The published bands run to 100. Above that we scope an Enterprise agreement with you rather than publish a rate. Groups of 250 or more are always Enterprise.',
     },
@@ -420,7 +380,20 @@ function BandTable({
 export default function PricingPage() {
   const { locale, messages } = useWebsiteI18n();
   const heroCopy = messages.pages.pricing;
-  const copy = pricingPageCopy[locale as Exclude<WebsiteLocale, 'en'>] ?? enCopy;
+  const originalCopy = pricingPageCopy[locale as Exclude<WebsiteLocale, 'en'>] ?? enCopy;
+  const commercial = getCommercialCopy(locale);
+  const copy = {
+    ...originalCopy,
+    coreDescription: commercial.packageScope,
+    modulesTitle: originalCopy.includesLabel,
+    modulesBody: commercial.packageScope,
+    crewDescription: `${commercial.productOverview} ${commercial.extraLocations}`,
+    conceptsDescription: commercial.extraLocations,
+    volumeCapNote: commercial.terms,
+    faqs: originalCopy.faqs.map((faq, index) => ({ ...faq,
+      content: index === 3 || index === 4 ? commercial.packageScope : index === 5 ? commercial.terms : faq.content,
+    })),
+  };
   const [cycle, setCycle] = useState<BillingCycle>('monthly');
   const cream = pricingCreamCopy[locale as keyof typeof pricingCreamCopy] ?? pricingCreamCopy.en;
 
@@ -507,7 +480,7 @@ export default function PricingPage() {
                       {copy.includesLabel}
                     </p>
                     <ul className="space-y-2.5 mb-6">
-                      {PACKAGE_INCLUDES[pkg.id].map((feature) => (
+                      {pkg.includedModuleIds.map(id => CORE_DOMAIN_MODULES.find(module => module.id === id)?.name ?? id).map((feature) => (
                         <li key={feature} className="flex items-start space-x-2.5">
                           <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -606,12 +579,13 @@ export default function PricingPage() {
           <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
             {CREW_SKUS.map((sku) => (
               <StaggerItem key={sku.id}>
-                <div className="h-full rounded-lg border border-[var(--border-default)] p-5 flex items-baseline justify-between gap-4">
+                <div className="h-full rounded-lg border border-[var(--border-default)] p-5">
                   <span className="text-sm font-semibold text-[var(--text-primary)]">{sku.name}</span>
                   <span className="text-lg font-bold text-[var(--text-primary)] tabular-nums whitespace-nowrap">
                     {money(applyCycle(sku.monthly, cycle), locale)}
-                    <span className="text-xs font-normal text-[var(--text-muted)]">{copy.perMonthLabel}</span>
+                    <span className="text-xs font-normal text-[var(--text-muted)]">{commercial.firstLocation}</span>
                   </span>
+                  <details className="mt-4 text-xs text-[var(--text-supporting)]"><summary className="cursor-pointer">{copy.thenLabel}</summary><div className="mt-3"><BandTable sku={sku} cycle={cycle} copy={copy} locale={locale} /></div></details>
                 </div>
               </StaggerItem>
             ))}
@@ -626,8 +600,9 @@ export default function PricingPage() {
                   <p className="text-sm font-semibold text-[var(--text-primary)] mb-2">{sku.name}</p>
                   <p className="text-2xl font-bold text-[var(--text-primary)] tabular-nums">
                     {money(applyCycle(sku.monthly, cycle), locale)}
-                    <span className="text-xs font-normal text-[var(--text-muted)]">{copy.perMonthLabel}</span>
+                    <span className="text-xs font-normal text-[var(--text-muted)]">{commercial.firstLocation}</span>
                   </p>
+                  <details className="mt-4 text-xs text-[var(--text-supporting)]"><summary className="cursor-pointer">{copy.thenLabel}</summary><div className="mt-3 text-start"><BandTable sku={sku} cycle={cycle} copy={copy} locale={locale} /></div></details>
                 </div>
               ))}
             </div>
@@ -647,12 +622,13 @@ export default function PricingPage() {
           <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {CONCEPT_SKUS.map((sku) => (
               <StaggerItem key={sku.id}>
-                <div className="h-full rounded-lg border border-[var(--border-default)] p-5 flex items-baseline justify-between gap-4">
+                <div className="h-full rounded-lg border border-[var(--border-default)] p-5">
                   <span className="text-sm font-semibold text-[var(--text-primary)]">{sku.name}</span>
                   <span className="text-lg font-bold text-[var(--text-primary)] tabular-nums whitespace-nowrap">
                     {money(applyCycle(sku.monthly, cycle), locale)}
-                    <span className="text-xs font-normal text-[var(--text-muted)]">{copy.perMonthLabel}</span>
+                    <span className="text-xs font-normal text-[var(--text-muted)]">{commercial.firstLocation}</span>
                   </span>
+                  <details className="mt-4 text-xs text-[var(--text-supporting)]"><summary className="cursor-pointer">{copy.thenLabel}</summary><div className="mt-3"><BandTable sku={sku} cycle={cycle} copy={copy} locale={locale} /></div></details>
                 </div>
               </StaggerItem>
             ))}
@@ -796,6 +772,7 @@ export default function PricingPage() {
           </FadeUp>
 
           <FadeUp delay={0.15}>
+            <p className="text-xs text-[var(--text-muted)] mb-6">{PRICE_BOOK_VERIFIED_ON} · <a className="underline" href={PRICING_URL}>{copy.secondaryCta}</a></p>
             <Accordion items={copy.faqs} defaultOpenIndex={0} />
           </FadeUp>
         </div>

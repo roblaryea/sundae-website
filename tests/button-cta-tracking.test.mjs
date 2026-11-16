@@ -9,7 +9,7 @@ const require = createRequire(import.meta.url)
 const events = []
 const sandbox = {
   exports: {},
-  require: (name) => name === '@/lib/cta' ? { trackCta: (label, metadata) => events.push({ label, metadata }) } : require(name),
+  require: (name) => name === '@/lib/cta' ? { trackCta: (label, metadata) => events.push({ label, metadata }) } : name === '@/lib/campaign' ? { appendCampaign: href => `${href}?utm_source=linkedin` } : require(name),
 }
 vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/components/ui/Button.tsx', 'utf8'), {
   compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true },
@@ -23,7 +23,9 @@ for (const mode of ['button', 'link']) {
     const metadata = { destination: '/fr/demo', source_page: '/fr/crew' }
     const element = Button({ children: 'Voir la démo', trackingLabel: 'crew_demo', trackingMetadata: metadata, onClick: () => clicks++, ...(mode === 'link' ? { href: '/fr/demo' } : {}) })
     assert.equal(element.type, mode === 'link' ? 'a' : 'button')
-    element.props.onClick({})
+    const event = { currentTarget: { href: '/fr/demo' } }
+    element.props.onClick(event)
+    if (mode === 'link') assert.equal(event.currentTarget.href, '/fr/demo?utm_source=linkedin')
     assert.equal(clicks, 1)
     assert.equal(events.length, 1)
     assert.equal(events[0].label, 'crew_demo')

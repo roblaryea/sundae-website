@@ -1,3 +1,4 @@
+import type { WebsiteLocale } from '../i18n';
 import type {
   DiagnosticReport,
   QuickWin,
@@ -23,36 +24,20 @@ function referencesUnavailableProduct(
 function groundedStack(
   generated: DiagnosticReport["recommendedStack"],
   reference: DiagnosticReport["recommendedStack"],
+  locale: WebsiteLocale,
+  localizedStackBasis?: string,
 ): DiagnosticReport["recommendedStack"] {
-  const usedGenerated = new Set<number>();
-
-  // Core Foundation and Pulse intentionally share the `core` layer, so layer
-  // alone is not a product identity. Match Pulse explicitly and treat the
-  // remaining core entry as the package. This prevents a safety guard from
-  // accidentally removing an eligible Pulse recommendation.
-  const sameProduct = (candidate: StackRecommendation, canonical: StackRecommendation) => {
-    if (candidate.layer !== canonical.layer) return false;
-    if (canonical.layer !== "core") return true;
-    const candidateIsPulse = /\bpulse\b/i.test(`${candidate.label} ${candidate.detail}`);
-    const canonicalIsPulse = /\bpulse\b/i.test(`${canonical.label} ${canonical.detail}`);
-    return candidateIsPulse === canonicalIsPulse;
-  };
-
-  return reference.slice(0, 6).map((canonical) => {
-    const generatedIndex = generated.findIndex(
-      (candidate, index) => !usedGenerated.has(index) && sameProduct(candidate, canonical),
-    );
-    if (generatedIndex === -1) return canonical;
-
-    usedGenerated.add(generatedIndex);
-    const narrative = generated[generatedIndex];
-    return {
-      ...narrative,
-      // Product/package names come from the price book and eligibility engine,
-      // never from the language model.
-      label: canonical.label === "Sundae Core" ? canonical.detail : canonical.label,
-    };
-  });
+  // Model prose must never change the package identity or add entitlements
+  // inside a correctly named recommendation. Localized narrative remains in
+  // the findings and actions; this list is a grounded product selection.
+  void generated;
+  const stackBasis = localizedStackBasis ?? 'Confirm scope and prerequisites during your walkthrough.';
+  return reference.slice(0, 6).map(canonical => ({
+    ...canonical,
+    label: canonical.label === 'Sundae Core' ? canonical.detail : canonical.label,
+    detail: canonical.label === 'Sundae Core' ? canonical.detail : canonical.label,
+    why: locale === 'en' ? canonical.why : stackBasis,
+  }));
 }
 
 function groundedLeaks(
@@ -80,8 +65,10 @@ function groundedLeaks(
 export function groundGeneratedDiagnostic(
   generated: DiagnosticReport,
   reference: DiagnosticReport,
+  locale: WebsiteLocale = 'en',
+  localizedStackBasis?: string,
 ): DiagnosticReport {
-  const recommendedStack = groundedStack(generated.recommendedStack, reference.recommendedStack);
+  const recommendedStack = groundedStack(generated.recommendedStack, reference.recommendedStack, locale, localizedStackBasis);
   const allowedLayers = new Set(recommendedStack.map((item) => item.layer));
   const fallbackWins = new Map(reference.quickWins.map((win) => [win.horizon, win]));
   const generatedWins = new Map(generated.quickWins.map((win) => [win.horizon, win]));

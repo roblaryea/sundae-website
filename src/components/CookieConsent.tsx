@@ -8,10 +8,8 @@ import { localizeWebsiteHref, normalizeWebsiteLocale, type RequiredEnglishLocali
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_CookieConsent'
 import { isBookingUrl } from '@/lib/booking/privacy';
-
-const CONSENT_KEY = "sundae_cookie_consent";
-
-type ConsentStatus = "accepted" | "declined" | null;
+import { CONSENT_KEY, getConsentStatus, type ConsentStatus } from '@/lib/consent';
+export { getConsentStatus, hasConsent } from '@/lib/consent';
 
 type CookieConsentCopy = {
   ariaLabel: string;
@@ -78,30 +76,12 @@ const cardOnlyCookieCopy: Record<string, CookieConsentCopy> = {
   },
 };
 
-function readConsentCookie(): ConsentStatus {
-  if (typeof document === "undefined") return null;
-  const match = document.cookie.match(/(?:^|;\s*)sundae_cookie_consent=(accepted|declined)/);
-  return match ? (match[1] as ConsentStatus) : null;
-}
-
 function writeConsentCookie(status: Exclude<ConsentStatus, null>): void {
   if (typeof document === "undefined") return;
   // 1-year, same-site cookie so the SERVER can read the decision on the next
   // request and suppress the banner in SSR HTML (no post-hydration flash).
   const secure = window.location.protocol === "https:" ? "; Secure" : "";
   document.cookie = `${CONSENT_KEY}=${status}; path=/; max-age=31536000; SameSite=Lax${secure}`;
-}
-
-export function getConsentStatus(): ConsentStatus {
-  if (typeof window === "undefined") return null;
-  const value = localStorage.getItem(CONSENT_KEY);
-  if (value === "accepted" || value === "declined") return value;
-  // Fall back to the mirrored cookie (e.g. localStorage cleared but cookie kept).
-  return readConsentCookie();
-}
-
-export function hasConsent(): boolean {
-  return getConsentStatus() === "accepted";
 }
 
 function loadGA4() {

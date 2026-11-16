@@ -4,6 +4,7 @@ import { Suspense, useEffect, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { initPostHog, trackPageView, protectBookingPrivacy } from "@/lib/posthog";
 import { hasConsent } from "@/components/CookieConsent";
+import { getCampaignParams } from '@/lib/campaign';
 
 /**
  * Page-view tracker, isolated from the provider because it reads
@@ -19,6 +20,7 @@ function PostHogPageView({ consentGiven }: { consentGiven: boolean }) {
   const searchParams = useSearchParams();
 
   useEffect(() => {
+    getCampaignParams();
     if (!consentGiven || !pathname) return;
     protectBookingPrivacy(pathname);
     const url = searchParams?.toString() ? `${pathname}?${searchParams.toString()}` : pathname;
@@ -42,7 +44,10 @@ export function PostHogProvider({ children }: { children: React.ReactNode }) {
       if (detail === "accepted") {
         setConsentGiven(true);
         initPostHog();
+      } else {
+        setConsentGiven(false);
       }
+      getCampaignParams();
     };
 
     window.addEventListener("sundae_consent_change", handler);

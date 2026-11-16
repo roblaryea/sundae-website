@@ -1,5 +1,8 @@
 # Website and visibility completion matrix — 16 November 2026
 
+> Extended audit: [REQUIREMENTS_AUDIT_2026-11-16.md](REQUIREMENTS_AUDIT_2026-11-16.md). The deeper review found campaign continuity and commercial-scope gaps. Earlier statements about exact diagnostic pricing and retained UTMs are superseded by that record. Communication acceptance remains explicitly open until its listed journeys are reviewed.
+
+
 ## Current release status
 
 The implementation and verification work identified in this review is complete. Google recrawling/indexing, qualified distribution and measurable commercial response remain ongoing work; they are not prerequisites that can be declared achieved by shipping pages.
