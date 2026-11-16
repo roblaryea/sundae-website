@@ -606,7 +606,7 @@ export default function CrewPage() {
     pillarsTitle: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewHeadline,
     pillarsDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,
     pillars: sourceCopy.pillars.map((item, index) => index === 2 ? { ...item, title: payrollTitle, body: commercial.payroll } : { ...item, body: operatorText(item.body), chips: item.chips.map(operatorText) }),
-    payrollTitle: 'Crew Pay · 36+ ISO',
+    payrollTitle,
     payrollDescription: commercial.payroll,
     modulesTitle: 'Sundae Crew',
     modulesDescription: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.crewDescription,

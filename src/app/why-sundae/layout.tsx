@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import { resolveWebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_layout'
-import { getPositioningCopy } from '@/lib/positioningCopy';
+import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 
 const copy = {
   en: {
@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const localized = copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
   return {
     ...localized,
-    description: getPositioningCopy(locale).critical.whyMetaDescription,
+    description: operatorNavigationCopy[locale as keyof typeof operatorNavigationCopy].brand.description,
   };
 }
 

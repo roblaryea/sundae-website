@@ -230,24 +230,26 @@ test('Core layout preserves localized route metadata and canonical social fields
   assert.match(coreLayout, /pathname: '\/core'/)
 })
 
-test('structured data connects the platform to its shipped product entities', () => {
+test('structured data keeps Core and Crew as the two platform offerings', () => {
   const layout = fs.readFileSync(path.join(root, 'src/app/layout.tsx'), 'utf8')
-
-  assert.match(layout, /const softwareId = new URL\("\/product#software"/)
-  assert.match(layout, /hasPart: productEntities\.map/)
-  assert.match(layout, /isPartOf: \{ "@id": softwareId \}/)
-  for (const name of [
-    'Sundae Pulse',
-    'Sundae Benchmarking',
-    'Sundae Foresight',
-    'Sundae Watchtower',
-    'Sundae Insights',
-    'Sundae Cross-Intelligence',
-    'Sundae Profit Recovery',
-    'Ask Sundae',
-    'Sundae Crew',
-  ]) {
-    assert.match(layout, new RegExp(`name: ["']${name}["']`))
+  const start = layout.lastIndexOf('  const baseUrl =', layout.indexOf('  const softwareId ='))
+  const end = layout.indexOf('\n  return (', start)
+  assert.ok(start > 0 && end > start)
+  // Evaluate only the deterministic JSON-LD construction, without rendering the app.
+  const { globalJsonLd } = new Function('URL', 'process', `${layout.slice(start, end)}; return { globalJsonLd }`)(URL, { env: { NEXT_PUBLIC_SITE_URL: 'https://www.sundae.io' } })
+  const graph = globalJsonLd['@graph']
+  const platform = graph.find(item => item.name === 'Sundae' && item['@type'] === 'SoftwareApplication')
+  const core = graph.find(item => item.name === 'Sundae Core')
+  const crew = graph.find(item => item.name === 'Sundae Crew')
+  assert.deepEqual(platform.hasPart.map(item => item['@id']).sort(), [core['@id'], crew['@id']].sort())
+  assert.equal(core.isPartOf['@id'], platform['@id'])
+  assert.equal(crew.isPartOf['@id'], platform['@id'])
+  assert.match(crew.description, /payroll calculation and review/)
+  for (const name of ['Sundae Pulse', 'Sundae Benchmarking', 'Sundae Foresight', 'Sundae Watchtower', 'Sundae Insights', 'Sundae Cross-Intelligence', 'Sundae Profit Recovery', 'Ask Sundae']) {
+    const capability = graph.find(item => item.name === name)
+    assert.ok(capability, name)
+    assert.equal(capability.isPartOf['@id'], core['@id'], name)
+    assert.ok(core.hasPart.some(item => item['@id'] === capability['@id']), name)
   }
 })
 

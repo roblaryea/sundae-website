@@ -1,6 +1,7 @@
 'use client';
 
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
+import proofCopy from '@/content/workflow-proof.json';
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -75,7 +76,7 @@ const Footer = () => {
   // the retired Report ladder and Core that price book v1.7 leaves with nothing
   // to compare, so the row is gone rather than repointed at a duplicate.
   const planLinks = [
-    ...nav.plansList.map((item) => ({ name: item.name, href: item.href })),
+    ...[...nav.plansList].sort((a, b) => (a.href === '/core' ? 0 : a.href === '/crew' ? 1 : 2) - (b.href === '/core' ? 0 : b.href === '/crew' ? 1 : 2)).map((item) => ({ name: item.name, href: item.href })),
   ];
 
   // Sundae Crew operational modules — mirrors the header's "Sundae Crew" group.
@@ -99,7 +100,7 @@ const Footer = () => {
     ...footer.extraResources,
   ];
 
-  const companyLinks: ReadonlyArray<FooterLink> = footer.companyLinks;
+  const companyLinks: ReadonlyArray<FooterLink> = [{ name: proofCopy[locale as keyof typeof proofCopy].whySundae, href: '/why-sundae' }, ...footer.companyLinks.filter(item => item.href !== '/why-sundae')];
 
   return (
     <footer className="bg-[var(--navy-deep)] text-[var(--text-primary)]" role="contentinfo">
@@ -210,7 +211,7 @@ const Footer = () => {
               </svg>
             </button>
             <div className={openSections.has('product') ? 'block' : 'hidden md:block'}>
-            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-2">Core</p>
+            <Link href={localizeHref('/core')} className="mb-3 block text-sm font-semibold text-[var(--text-primary)] hover:underline">Sundae Core →</Link>
             <ul className="space-y-2">
               {pillarLinks.map((link) => (
                 <li key={link.name}>
@@ -221,7 +222,7 @@ const Footer = () => {
               ))}
             </ul>
             <div className="border-t border-[var(--border-default)] my-3"></div>
-            <p className="text-[10px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-2">Sundae Crew</p>
+            <Link href={localizeHref('/crew')} className="mb-3 block text-sm font-semibold text-[var(--text-primary)] hover:underline">Sundae Crew →</Link>
             <ul className="space-y-2">
               {crewLinks.map((link) => (
                 <li key={link.name}>

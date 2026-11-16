@@ -1,5 +1,7 @@
 # Sundae
 
+Sundae has two peer offerings: Sundae Core for performance and decision intelligence, and Sundae Crew for workforce and daily operations. Payroll (Crew Pay) is a capability within Crew, alongside scheduling, attendance, people records and shift workflows. It is not a third platform family. Core capabilities and optional commercial extensions keep their package-specific scope; a two-offering explanation does not imply every capability is included in every package.
+
 > Sundae provides operations management and decision intelligence for multi-location hospitality and food-service operators. It connects daily operating workflows to accountable action and measured profit recovery.
 
 Sundae helps hospitality and food-service operators run every shift and recover preventable profit loss across every location. It brings workforce operations, daily execution, connected operating data, decision support and measured outcomes into one operating loop: detect, decide, execute, measure, learn.
