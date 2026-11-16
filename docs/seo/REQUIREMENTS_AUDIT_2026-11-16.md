@@ -19,12 +19,12 @@ The independent positioning review confirmed that the current first-screen categ
 
 | Requirement | Disposition | Acceptance evidence needed |
 | --- | --- | --- |
-| Show practical work and Core/Crew early | In progress | Home heading scan explains operating work before repeated intelligence/recovery exposition; keep existing premium visual language. |
-| Positive Restaurant365 shortlist case | In progress | Explain when Sundae fits, R365's native accounting strength, retained POS/accounting boundaries and scoped cost evaluation; link current sources and product proof. No unverified better/cheaper claim. |
-| Walkthrough promise continuity | In progress | Workflow → demo offers a product walkthrough without a data prerequisite; diagnostic stays optional and workflow context reaches the request. |
+| Show practical work and Core/Crew early | Implemented in PR 218; production verification pending | Home heading scan explains operating work before repeated intelligence/recovery exposition; keep existing premium visual language. |
+| Positive Restaurant365 shortlist case | Implemented in PR 218; production verification pending | Explain when Sundae fits, R365's native accounting strength, retained POS/accounting boundaries and scoped cost evaluation; link current sources and product proof. No unverified better/cheaper claim. |
+| Walkthrough promise continuity | Implemented in PR 218; production verification pending | Workflow → demo offers a product walkthrough without a data prerequisite; diagnostic stays optional and workflow context reaches the request. |
 | Product visual evidence | Needs source verification | Reuse existing verified native screens only for the workflows they actually show. Do not call a scheduling screenshot a logbook or tasks screen. Label illustrative examples. |
-| Secondary jargon/claims | In progress | Remove universal integration, guaranteed day-one recovery and unsupported price-advantage language. Preserve approved payroll calculation capability. |
-| Historical guidance | In progress | Mark August recovery-first messaging recommendations superseded by the November operations-first direction. Preserve factual evidence/history. |
+| Secondary jargon/claims | Implemented in PR 218; production verification pending | Remove universal integration, guaranteed day-one recovery and unsupported price-advantage language. Preserve approved payroll calculation capability. |
+| Historical guidance | Implemented in PR 218 | Mark August recovery-first messaging recommendations superseded by the November operations-first direction. Preserve factual evidence/history. |
 
 ## Monitoring and external dependencies
 
@@ -42,3 +42,11 @@ Keep the existing Monday checkpoint (23 November) and complete post-release fort
 ### Product proof boundary
 
 The existing screenshot manifest was checked. `crew-scheduling.png` is a June capture showing an empty outlet selector and read-only state; it is unsuitable as proof of a working scheduling flow and must not be reused as task/logbook proof. A fresh, populated, permission-safe native capture for tasks/logbook/tips remains an evidence dependency. Existing illustrative product views remain illustrations. This does not block the corrected website journeys, but it prevents signing off a claim that every practical workflow now has native screenshot proof.
+
+## Release and verification ledger
+
+- PR [217](https://github.com/roblaryea/sundae-website/pull/217), merged 16:15:32 UTC: campaign continuity and authoritative commercial scope. All hosted checks passed. Production Search Discovery run `43905495983` passed.
+- PR [218](https://github.com/roblaryea/sundae-website/pull/218), merged 16:34:38 UTC: visitor story, direct walkthrough, positive comparison fit, canonical navigation and historical guidance. All hosted checks passed.
+- Local browser acceptance: **88 main-page journeys** (Home, platform, Core, Crew × 22 locales); **110 workflow/comparison pages**; **22 walkthrough journeys** with localized context, direct form, title/canonical, RTL, mobile width and no page errors. No form was submitted. Full lint had zero errors; 54 SEO tests, 17 diagnostic tests, type checks and build passed. Local-only Vercel analytics-script 404s were not misreported as production app errors.
+- The existing Monday automation now reads this audit and checks pricing parity, retained campaign context and communication acceptance. The next checkpoint remains 23 November; no duplicate schedule was added.
+- Robert designated **systems@sundae.io, organisation 33, dev.sundaetech.ai** for fresh product proof. The supplied `dev.sundatech.ai` spelling did not resolve; the established Sundae domain does. Current controllable Chrome opens at sign-in and browser interaction is disconnected. The tab is retained for the user to restore the signed-in organisation 33 session. No credentials, private employee data or empty screens were published as product proof.

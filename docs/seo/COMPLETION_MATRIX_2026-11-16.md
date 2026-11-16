@@ -41,3 +41,7 @@ The existing positioning/content/LinkedIn sessions retain their worktrees and pu
 3. **Post-release measurement:** use finalized complete periods. Google and PostHog dates differ; keep their boundaries explicit. The two accepted QA records and the earlier empty-form test are not demand. The tagged tests are excluded from all six saved insights; the earlier untagged 12:59 validation test remains identified by annotation 590814 for manual interpretation.
 
 No additional owner approval is required for the completed work. Further live submissions that send confirmation emails need a fresh explicit go-ahead; routine read-only checks and bounded corrections remain covered by the standing instruction.
+
+## Extended audit releases
+
+PRs [217](https://github.com/roblaryea/sundae-website/pull/217) and [218](https://github.com/roblaryea/sundae-website/pull/218) are merged after green checks. They correct campaign continuity, pricing/package accuracy and the visible operator journey. Full HTTP discovery audit: 1,539 sitemap URLs and 107 supplementary internal destinations reachable. Browser acceptance: 88 main journeys, 110 workflow/comparison pages, 22 localized walkthroughs. Production release verification is recorded in the [extended audit](REQUIREMENTS_AUDIT_2026-11-16.md). Fresh populated native task/logbook/tip captures remain a named proof dependency; the owner designated organisation 33 and is restoring the browser session. This matrix does not certify third-party channel publishing or a ranking outcome.
