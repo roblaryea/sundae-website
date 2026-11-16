@@ -26,9 +26,10 @@ Google Analytics is not required while Vercel Analytics and PostHog cover the ag
 | `lead_form_submission_failed` | Lead form API submission failed | `cta_label`, `source_page` | Reliability |
 | `diagnostic_started` | Operations diagnostic started | `locale`, resume state | Diagnostic entry |
 | `diagnostic_step` | Diagnostic progressed | `locale`, step, total, dimension | Funnel depth |
-| `diagnostic_lead_captured` | Diagnostic contact step completed | Non-PII funnel properties only | Lead conversion |
+| `diagnostic_lead_captured` | Diagnostic contact step completed | Non-PII funnel properties only | Contact step |
 | `diagnostic_submitted` | Diagnostic answers submitted | Non-PII diagnostic properties | Core conversion |
 | `diagnostic_report_shown` | Report rendered | `locale`, source, tier fit | Value reached |
+| `diagnostic_lead_delivered` | Diagnostic outbox request acknowledged by the website API | `locale` | Accepted delivery proxy; not automatically sales-qualified |
 | `diagnostic_cta_click` | Post-report CTA selected | CTA name and non-PII context | Sales intent |
 
 No email address, phone number, personal name, company name, free-text message, or raw diagnostic answer should be sent to PostHog.
@@ -195,3 +196,9 @@ For 19 October–15 November 2026 (complete UTC days), the marketing site record
 Full dates, 7/14/28-day comparisons, scope definitions, source limitations, dashboard corrections and follow-up work are in [PostHog marketing baseline — 16 November](POSTHOG_MARKETING_BASELINE_2026-11-16.md). Treat this as the current marketing baseline. The November 16 native-button tracking correction affects later CTA comparisons. Accepted forms and diagnostic contact steps are event proxies, not automatically qualified leads. Fresh Search Console verification remains separate and pending.
 
 At 12:59 UTC on 16 November, the owner's normal-browser empty-form test on `/demo` delivered one form-start, one submit-attempt and one validation-failure event to production PostHog, with no accepted-form event recorded. Dashboard annotation `590814` identifies this as QA rather than customer demand; annotations do not exclude events automatically. See the baseline's controlled-verification section for timestamps and reporting treatment. Successful accepted-form delivery and the diagnostic funnel remain unverified; engagement/validation event delivery is now confirmed.
+
+## Verified closeout — 16 November 2026
+
+The later owner-authorised demo and diagnostic tests closed those live-delivery gaps: accepted events, the diagnostic acknowledgment and both recipient emails were verified. See [completion matrix](COMPLETION_MATRIX_2026-11-16.md) for exact times, release links, QA exclusions, production checks and remaining operational dependencies. Earlier pending statements describe the state at that earlier check, not the current state.
+
+Fresh Google evidence is in [Search Console review](SEARCH_CONSOLE_REVIEW_2026-11-16.md), including complete 7/14/28-day comparisons ending 14 November, the 40 localized alias repairs, accepted sitemap/crawl requests and Google's resolved labor-calculator canonical. Keep these dates distinct from the PostHog baseline's complete UTC days through 15 November. Review the next weekly checkpoint on 23 November and a complete post-release fortnight at or after 30 November. The existing Monday automation remains active and reads both records.

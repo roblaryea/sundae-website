@@ -58,3 +58,5 @@ Google's **Generative AI features (Beta)** report records 231 impressions versus
 3. Review new-page discovery and non-branded CTR after a complete post-release period. Separate internal QA from customer demand. Continue the existing Monday cadence; the next checkpoint is 23 November and the first full fortnight after this release ends 30 November.
 
 The signed-in browser blocked the CSV export attempt. Evidence was instead saved from the complete visible query/page tables, date dialogs and report snapshots in ignored `output/seo` files. No hidden account APIs or inferred figures were used.
+
+Post-release verification: PR 214 is merged and all 40 affected localized legacy URLs returned 308 with successor locations on production. The remaining 12 missing examples are ten obsolete deployment assets and two malformed URLs. The later production sitemap audit again found 1,539 unique URLs and no inventory health failures. Complete delivery and follow-through status is in [completion matrix](COMPLETION_MATRIX_2026-11-16.md).

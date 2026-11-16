@@ -58,7 +58,7 @@ The homepage and About page have the most recorded production pageviews. Demo ha
 ## Interpretation and next actions
 
 1. **Qualified distribution:** the immediate constraint is a small recorded marketing audience. Give the existing content/LinkedIn owner specific workflow landing pages with tagged links. Use one operator problem per item and a clear path into Crew or the platform. Validate outcomes by relevant landing visits and genuine lead journeys, not total project events.
-2. **Conversion verification:** consented form engagement and empty-form validation delivery were verified by the owner's normal-browser test on 16 November (see below). Accepted-form delivery and the diagnostic journey still need observation through a genuine submission or an explicitly identified test that is kept out of sales-demand reporting. Do not redesign forms from three recorded Demo visitors.
+2. **Conversion verification completed:** consented form engagement and empty-form validation delivery were verified by the owner's normal-browser test on 16 November. Two subsequently authorised QA submissions verified demo acceptance and confirmation-mail delivery, plus diagnostic generation, acknowledged lead delivery and report-mail receipt. Both are identified as internal QA and excluded from the six saved marketing reports by their URL campaign source. Do not redesign forms from three pre-release recorded Demo visitors.
 3. **Search evidence:** obtain fresh Search Console query, page and indexation reports before diagnosing ranking, indexing or non-branded discovery. PostHog referral counts cannot establish search impressions, ranking, CTR or AI-answer citations.
 
 Keep the dashboard's pathname filter synchronized when marketing routes or locales change. Preserve the old definitions in this thread's operating record; never compare mixed app/card figures with the corrected marketing series.
@@ -80,6 +80,16 @@ This confirms that consented form engagement, submission-attempt and validation 
 Dashboard annotation `590814` marks this sequence as controlled QA. Preserve the raw events, but exclude or explicitly identify this sequence when interpreting 16 November form demand and friction. The annotation labels the test; it does not itself filter events from dashboard totals. Complete-period baselines above end on 15 November and are unchanged. No genuine prospect or accepted conversion should be inferred from this test.
 
 ## Content-session handoff
+
+### Accepted submission and diagnostic verification — 16 November
+
+The owner explicitly authorised two live QA records using the systems mailbox and synthetic operating details. Demo acceptance was recorded at 13:41:56.756 UTC, and its confirmation email arrived at 13:42:01. The diagnostic resumed its saved fourteen-answer draft, submitted at 14:01:15, displayed a live generated report at 14:01:30.730, recorded the new `diagnostic_lead_delivered` acknowledgment at 14:01:31.450, and delivered the report email at 14:01:33. This closes the earlier live-delivery gap; no sales-call CTA was submitted.
+
+Dashboard annotation `590933` records the evidence and QA treatment. All six saved insights now exclude events whose `$current_url` contains `utm_source=internal_qa`. Their route inventory includes `/tools/daypart-margin-leak`. The weekly trend adds acknowledged diagnostic delivery separately from contact capture; the historical diagnostic funnel remains unchanged. Re-running the complete 19 October–15 November UTC window retains 52 pageviews and the 29 → 3 → 0 acquisition funnel. Neither test is customer demand or a sales-qualified lead. The earlier untagged empty-form test remains documented separately; an annotation alone does not exclude it from charts.
+
+For the full website, release, search and conversion checklist, see [completion matrix](COMPLETION_MATRIX_2026-11-16.md). Fresh Search Console evidence is now recorded in [search review](SEARCH_CONSOLE_REVIEW_2026-11-16.md); earlier statements that access was pending are historical.
+
+### Distribution criteria
 
 Use one clear operator need, one canonical landing page and one campaign identifier. Suggested links for the existing content owner:
 

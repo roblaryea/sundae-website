@@ -22,7 +22,7 @@
 
 ## Measurement status
 
-Fresh 7-day, 28-day and 14-day account comparisons are still pending authenticated browser access in this execution. No current Search Console or PostHog trend is claimed. The visible ambient PostHog URL is not a verified refreshed dashboard reading.
+Fresh complete 7-day, 28-day and 14-day account comparisons are now recorded in [Search Console review](SEARCH_CONSOLE_REVIEW_2026-11-16.md) and [corrected PostHog baseline](POSTHOG_MARKETING_BASELINE_2026-11-16.md). Search Console ends 14 November; the analytics baseline ends 15 November UTC. Signed-in account access was exercised directly; these are refreshed readings, not ambient-tab assumptions.
 
 Use complete periods when access is restored: Search Console's most recent finalized date should determine its comparison boundaries; exclude the current partial day from analytics comparisons. Record both exact dates and selected filters. Separate branded from non-branded queries and qualified completions from consented visitors, crawler-heavy traffic or CTA clicks. Existing historical baselines remain historical, not new weekly measurements.
 
@@ -39,8 +39,8 @@ The existing content/LinkedIn owner retains publishing ownership. This website s
 - Support any outcome claim with a traceable source and clear scope. Do not present illustrative figures as customer results, copy competitor wording or assert that Restaurant365 is unavailable in a region without evidence.
 - Prefer a cited operator evidence article or documented workflow example over more overlapping category pages. New material should support an existing intent page rather than compete with it.
 
-## Remaining measurement work
+## Verified follow-through
 
-1. Refresh Search Console search performance, indexing, sitemap and Core Web Vitals; compare complete 7/28-day periods, priority pages, non-branded queries and positions 4–20.
-2. Refresh PostHog acquisition, diagnostic, CTA and form-friction views for complete 7/28-day periods; verify corrected click ingestion and qualified conversion signals.
-3. Record the first defensible 14-day comparison using actual complete-period exports. Make conversion changes only when the volume and evidence support a specific issue.
+1. Search Console performance, indexing, sitemap and Core Web Vitals were refreshed; the 7/14/28-day comparisons, visible-query limitations and positions 4–20 opportunities are recorded. CSV export was blocked, so complete visible tables and dated report snapshots provide the evidence.
+2. All six PostHog insights use production marketing scope and exclude tagged internal QA. Actual form acceptance, diagnostic generation, acknowledged lead delivery and recipient-email receipt were verified through the two authorised tests.
+3. PR 213 clarified the visible first-screen hierarchy and direct workflow navigation; PR 214 repaired localized retired aliases; PR 215 removed unsupported diagnostic outcome claims and added acknowledged-delivery tracking. See [completion matrix](COMPLETION_MATRIX_2026-11-16.md) for production validation and the next checkpoint. Qualified distribution, Google recrawling and post-release commercial response remain operational follow-through.
