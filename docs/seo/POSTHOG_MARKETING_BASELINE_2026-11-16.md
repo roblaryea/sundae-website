@@ -58,10 +58,26 @@ The homepage and About page have the most recorded production pageviews. Demo ha
 ## Interpretation and next actions
 
 1. **Qualified distribution:** the immediate constraint is a small recorded marketing audience. Give the existing content/LinkedIn owner specific workflow landing pages with tagged links. Use one operator problem per item and a clear path into Crew or the platform. Validate outcomes by relevant landing visits and genuine lead journeys, not total project events.
-2. **Conversion verification:** exercise form engagement, validation and submission delivery in a controlled QA flow, with explicit test attribution and no invented customer leads. The 16 November click-tracking fix is verified in source tests, but natural post-release event ingestion and the full live form/diagnostic journey still need observation. Do not redesign forms from three recorded Demo visitors.
+2. **Conversion verification:** consented form engagement and empty-form validation delivery were verified by the owner's normal-browser test on 16 November (see below). Accepted-form delivery and the diagnostic journey still need observation through a genuine submission or an explicitly identified test that is kept out of sales-demand reporting. Do not redesign forms from three recorded Demo visitors.
 3. **Search evidence:** obtain fresh Search Console query, page and indexation reports before diagnosing ranking, indexing or non-branded discovery. PostHog referral counts cannot establish search impressions, ranking, CTR or AI-answer citations.
 
 Keep the dashboard's pathname filter synchronized when marketing routes or locales change. Preserve the old definitions in this thread's operating record; never compare mixed app/card figures with the corrected marketing series.
+
+## Controlled form-delivery verification — 16 November, 12:59 UTC
+
+After accepting analytics cookies on the live `/demo` page, the owner focused a field and pressed the submit button with the form empty. A fresh raw-events query in project `332239`, intentionally without host, path or internal/test-account filters, found:
+
+| Event | UTC timestamp | Count |
+| --- | --- | ---: |
+| `lead_form_started` | 2026-11-16 12:59:25.883 | 1 |
+| `lead_form_submit_attempted` | 2026-11-16 12:59:28.526 | 1 |
+| `lead_form_validation_failed` | 2026-11-16 12:59:28.526 | 1 |
+
+All three events identify `www.sundae.io`, pathname and source page `/demo`, and CTA label `Book a Demo`. The validation event names the eight empty required fields; no field values were retrieved. No `lead_form_submitted` event was recorded in the queried 12:00–13:10 UTC window. The two simultaneous events have the same timestamp, so their stored row ordering is not a sequencing assertion.
+
+This confirms that consented form engagement, submission-attempt and validation events reach production PostHog from a normal browser. It does not verify successful accepted-form ingestion, CRM delivery or the diagnostic funnel. Earlier automated-browser transport results are not evidence of a production tracking defect given this observed delivery.
+
+Dashboard annotation `590814` marks this sequence as controlled QA. Preserve the raw events, but exclude or explicitly identify this sequence when interpreting 16 November form demand and friction. The annotation labels the test; it does not itself filter events from dashboard totals. Complete-period baselines above end on 15 November and are unchanged. No genuine prospect or accepted conversion should be inferred from this test.
 
 ## Content-session handoff
 
