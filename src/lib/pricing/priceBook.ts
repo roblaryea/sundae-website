@@ -326,7 +326,7 @@ export function priceBookForPrompt(): string {
 
   const crew = CREW_SKUS.map((sku) => `${sku.name}: ${usd(sku.monthly)} first location, then ${describeBands(sku)} per additional location/mo`).join(' · ')
   const crewBundles = CREW_BUNDLES.map((sku) => `${sku.name}: ${usd(sku.monthly)} first location, then ${describeBands(sku)} per additional location/mo`).join(' · ')
-  const concepts = CONCEPT_SKUS.map((sku) => `${sku.name} ${usd(sku.monthly)}`).join(' · ')
+  const concepts = CONCEPT_SKUS.map((sku) => `${sku.name}: ${usd(sku.monthly)} first location, then ${describeBands(sku)} per additional location/mo`).join(' · ')
   const implementation = IMPLEMENTATION_CLASSES.map(
     (cls) => `${cls.name} ${cls.from ? 'from ' : ''}${usd(cls.oneOff)}`,
   ).join(' · ')

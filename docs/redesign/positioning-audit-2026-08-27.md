@@ -1,5 +1,7 @@
 # Sundae.io positioning audit — 27 August 2026
 
+> Historical messaging recommendation, superseded on 16 November 2026. Robert's current direction leads with hospitality and food-service operations management: practical daily work and workforce execution through Crew, connected performance and measured decisions through Core, with AI embedded. Recovery remains a supported use case, not the umbrella category or a prerequisite for a product walkthrough. Use [the current acceptance record](../seo/REQUIREMENTS_AUDIT_2026-11-16.md) and the reviewed workflow/navigation copy for active changes. Product evidence and unresolved factual claims below remain historical reference, not new publishing authorization.
+
 ## Executive finding
 
 The new site has the right strategic centre: **Find the leak. Recover the profit.** The homepage, Core page and Profit Recovery page are visually premium, operator-friendly and substantially differentiated from generic “AI insights” software.

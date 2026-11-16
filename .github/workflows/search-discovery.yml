@@ -25,6 +25,8 @@ jobs:
         run: sleep 90
       - name: Report locale and content inventory
         run: node scripts/report-sitemap-inventory.mjs
+      - name: Check website pricing against the active catalogue
+        run: node scripts/check-pricing-catalog.mjs
 
   indexnow:
     name: Notify Bing and IndexNow

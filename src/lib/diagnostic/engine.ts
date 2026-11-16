@@ -187,7 +187,7 @@ function computeEconomics(
   const hasForesight = stack.some((s) => s.layer === "foresight");
 
   // ── Right-sized monthly investment ──────────────────────────────────
-  // Price the STARTING footprint against the v1.7 price book — the substrate
+  // Price the STARTING footprint against the reviewed catalogue snapshot — the substrate
   // the operator actually lands on, not a maximal end-state bundle.
   //
   // Core packages and Foresight & Action are MARGINAL-BAND SKUs: a first-
@@ -203,7 +203,7 @@ function computeEconomics(
   // published, so we must not extrapolate a number at all.
   let beyondPublishedBands = coreQuote.beyondBandedRange;
 
-  // Crew: flat monthly SKUs in v1.7 — no per-location component.
+  // Crew uses the selected product’s own marginal location bands.
   const crewOperating = CREW_BUNDLES.find((s) => s.id === "crew_operating")!;
   const crewScheduleTime = CREW_BUNDLES.find((s) => s.id === "crew_schedule_time")!;
   const crewSchedule = CREW_SKUS.find((s) => s.id === "crew_schedule")!;
@@ -222,9 +222,8 @@ function computeEconomics(
   const foresightQuote = hasForesight && !corePackage.includedModuleIds.includes("foresight") ? bandedMonthlyTotal(FORESIGHT_AND_ACTION, outlets) : null;
   if (foresightQuote) { monthly += foresightQuote.monthlyTotal; beyondPublishedBands ||= foresightQuote.beyondBandedRange; }
 
-  // Watchtower carries no published v1.7 list price, so it is described as a
-  // quoted capability and deliberately kept OUT of the arithmetic. Quoting a
-  // number we do not have is exactly what this cutover removes.
+  // Watchtower is separately scoped here and excluded from the headline estimate.
+  // Its current eligibility and price are resolved by the live calculator.
 
   const costBasis = [
     `${corePackage.name} (${usd(corePackage.firstUnitMonthly)} first location, then ${describeBands(corePackage)} per additional location)`,

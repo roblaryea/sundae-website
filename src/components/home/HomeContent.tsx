@@ -14,15 +14,12 @@ import { HeroLiveDashboard } from "./HeroLiveDashboard";
 import { SectionEditorialBand } from "./sections/SectionEditorialBand";
 import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
 import { SectionCreamRelief } from "./sections/SectionCreamRelief";
-import { SectionManifesto } from "./sections/SectionManifesto";
-import { SectionShiftMoment } from "./sections/SectionShiftMoment";
 import { SectionOperatorVoice } from "./sections/SectionOperatorVoice";
 import { SectionEcosystemStrip } from "./sections/SectionEcosystemStrip";
 import { SundaeWordmark } from "./sections/SundaeWordmark";
 import { editorialCopy, type EditorialCopy } from "./sections/editorialCopy";
 import { closerLineCopy } from "./closerCopy";
 import { heroDashboardCopy } from "./heroDashboardCopy";
-import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
 import { SectionThreeMoats } from "./sections/SectionThreeMoats";
 import { Section4DScene } from "./sections/Section4DScene";
@@ -35,10 +32,9 @@ import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 // glass filling up - and each node jumps to its chapter.
 const HOME_CHAPTERS: Omit<HomeChapter, "label">[] = [
   { id: "chapter-overview", color: "#E03E48" },
-  { id: "chapter-shift", color: "#FF5C4D" },
+  { id: "chapter-crew", color: "#FF5C4D" },
   { id: "chapter-platform", color: "#FF7E6F" },
   { id: "chapter-moats", color: "#F7A088" },
-  { id: "chapter-crew", color: "#E9A24A" },
   { id: "chapter-proof", color: "#F6C66B" },
   { id: "chapter-cta", color: "#F6F1E8" },
 ];
@@ -126,7 +122,7 @@ export default function HomeContent() {
         <HomeScrollSpine
           chapters={HOME_CHAPTERS.map((c, i) => ({
             ...c,
-            label: (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[i],
+            label: ["Sundae", "Core + Crew", "Core", (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[3], (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[5], (CHAPTER_LABELS[locale as keyof typeof CHAPTER_LABELS] ?? CHAPTER_LABELS.en)[6]][i],
           }))}
         />
         {/* ════════════════════════════════════════════════
@@ -311,18 +307,9 @@ export default function HomeContent() {
           </motion.div>
         </section>
 
-        {/* ════════════════════════════════════════════════
-            1b. MANIFESTO - the belief beat (copy-first, before product earns its place)
-        ════════════════════════════════════════════════ */}
-        <SectionManifesto />
-
-        {/* ════════════════════════════════════════════════
-            2-signature. WATCH THE NIGHT TURN - the signature interaction.
-            Scrub a service night; at 7:15 Sundae surfaces the signal you can
-            still act on. The interactive proof of the manifesto/operator copy.
-        ════════════════════════════════════════════════ */}
-        <div id="chapter-shift" className="scroll-mt-24">
-          <SectionShiftMoment />
+        {/* Explain the operating products and daily workflows before the intelligence detail. */}
+        <div id="chapter-crew" className="scroll-mt-24">
+          <SectionCrewSubstrate />
         </div>
 
         {/* ════════════════════════════════════════════════
@@ -345,7 +332,6 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             2c. THE OLD TRADEOFF IS DEAD - Speed · Quality · Cost
         ════════════════════════════════════════════════ */}
-        <SectionSpeedQualityCost />
 
         {/* ════════════════════════════════════════════════
             3. SIX LAYERS - Platform pillars
@@ -459,9 +445,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             3d. CREW - the operational substrate that feeds the intelligence
         ════════════════════════════════════════════════ */}
-        <div id="chapter-crew" className="scroll-mt-24">
-          <SectionCrewSubstrate />
-        </div>
+
 
         {/* ════════════════════════════════════════════════
             4b-relief. SECOND CREAM BREAK - keeps warmth alive through the lower half
@@ -542,7 +526,7 @@ export default function HomeContent() {
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <FadeUp>
               <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>
-                {home.closingTitle}
+                {home.closingTitle}{" "}
                 {/* cherry-toned sign-off - matches the cream relief emphasis */}
                 <span className="mt-1 block" style={{ color: 'var(--warm-cherry)' }}>{closerLine}</span>
               </h2>
