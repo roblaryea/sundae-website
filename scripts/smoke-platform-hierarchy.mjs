@@ -4,6 +4,7 @@ import assert from 'node:assert/strict'
 const root=process.cwd()
 const base=process.env.SMOKE_BASE_URL||'http://localhost:3104'
 const stories=JSON.parse(await fs.readFile(`${root}/src/content/platform-story.json`,'utf8'))
+const corePaths=['/product/pulse','/product/benchmarking','/product/watchtower','/product/insights','/product/intelligence','/product/foresight','/product/recovery']
 const browser=await chromium.launch();const results=[]
 try {
  for(const locale of Object.keys(stories)) {
@@ -20,6 +21,7 @@ try {
     assert.equal(await products.locator('[data-offering="crew"] h3').innerText(),stories[locale].crewRole)
     assert.equal(await products.locator('[data-offering="crew"] a[href$="/crew/payroll"]').count(),1)
     assert.equal(await products.locator('[data-offering="core"] a[href$="/crew/payroll"]').count(),0)
+    for(const capability of corePaths)assert.equal(await products.locator(`[data-offering="core"] a[href="${prefix}${capability}"]`).count(),1,`${route} ${capability}`)
    }
    if(path==='/'){const graph=JSON.parse(await page.locator('#sundae-global-structured-data').textContent())['@graph'];const platform=graph.find(item=>item.name==='Sundae'&&item['@type']==='SoftwareApplication');assert.equal(platform.hasPart.length,2);assert.ok(platform.hasPart.some(item=>item['@id'].endsWith('/core#software')));assert.ok(platform.hasPart.some(item=>item['@id'].endsWith('/crew#software')))}
    if(path==='/why-sundae') {assert.equal(await page.locator('[data-choice-reason]').count(),3);assert.ok((await page.locator('[data-choice-reasons]').innerText()).includes(stories[locale].measureReason));assert.notEqual(await page.locator('[data-choice-reasons] a[href$="/product/recovery"]').innerText(),'Sundae Crew')}
@@ -32,6 +34,7 @@ try {
   await page.locator('button[aria-haspopup="true"]').first().click()
   const groups=page.locator('[data-desktop-product-groups]');await groups.waitFor({state:'visible'})
   assert.equal(await groups.locator('[data-nav-offering]').count(),2)
+  for(const capability of corePaths){assert.equal(await groups.locator(`[data-nav-offering="core"] a[href="${prefix}${capability}"]`).count(),1,`${locale} menu ${capability}`);assert.ok(await page.locator(`footer a[href="${prefix}${capability}"]`).count(),`${locale} footer ${capability}`)}
   assert.deepEqual(await groups.locator('a div').evaluateAll(nodes=>nodes.filter(n=>n.scrollWidth>n.clientWidth+1).map(n=>n.textContent)),[],`${locale}: menu labels overflow`)
   for(const name of ['core','crew']){const link=groups.locator(`[data-nav-offering="${name}"] > a`);const r=await link.boundingBox();assert.ok(r&&r.x>=0&&r.x+r.width<=1441&&r.y+r.height<=900);assert.equal(await link.getAttribute('href'),`${prefix}/${name}`)}
   await page.keyboard.press('Escape');await page.setViewportSize({width:390,height:844})

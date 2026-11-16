@@ -10,6 +10,7 @@ import { operatorNavigationCopy } from '@/content/operator-workflows/navigation'
 import storyCopy from '@/content/platform-story.json'
 import { getCommercialCopy } from '@/lib/pricing/commercialCopy'
 import { trackCta } from '@/lib/cta'
+import { getCoreNavigation } from '@/lib/coreNavigation'
 
 /** Two peer offerings. Product capabilities stay within their parent offering. */
 export function PlatformOfferings({ showIntro = true }: { showIntro?: boolean }) {
@@ -18,7 +19,7 @@ export function PlatformOfferings({ showIntro = true }: { showIntro?: boolean })
   const copy = storyCopy[locale as keyof typeof storyCopy]
   const crew = crewNavLocales[locale as keyof typeof crewNavLocales]
   const offerings = [
-    { id: 'core', name: 'Sundae Core', role: copy.coreRole, description: brand.coreDescription, links: messages.navbar.pillars },
+    { id: 'core', name: 'Sundae Core', role: copy.coreRole, description: brand.coreDescription, links: getCoreNavigation(messages.navbar.pillars, locale) },
     { id: 'crew', name: 'Sundae Crew', role: copy.crewRole, description: brand.crewDescription, links: [
       ...crew.crewList,
       { name: links.tasks, href: '/restaurant-task-management' },

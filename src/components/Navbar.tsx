@@ -18,6 +18,7 @@ import { localizeWebsiteHref } from '@/lib/i18n';
 import { crewNavLocales } from '@/lib/crewNavLocales';
 import storyCopy from '@/content/platform-story.json';
 import proofCopy from '@/content/workflow-proof.json';
+import { getCoreNavigation } from '@/lib/coreNavigation';
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 
 type NavbarLink = {
@@ -219,7 +220,7 @@ const Navbar = () => {
   }, []);
 
   // Six Intelligence Layers
-  const pillars: ReadonlyArray<NavbarLink> = nav.pillars;
+  const pillars: ReadonlyArray<NavbarLink> = getCoreNavigation(nav.pillars, locale);
 
   // Product Tiers (now surfaced under the Pricing dropdown)
   const plans: ReadonlyArray<NavbarLink> = nav.plansList.map(plan => plan.href === '/core' ? { ...plan, description: story.coreRole } : plan.href === '/crew' ? { ...plan, description: story.crewRole } : plan).sort((a, b) => (a.href === '/core' ? 0 : a.href === '/crew' ? 1 : 2) - (b.href === '/core' ? 0 : b.href === '/crew' ? 1 : 2));

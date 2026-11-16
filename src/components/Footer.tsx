@@ -2,6 +2,7 @@
 
 import { operatorNavigationCopy } from '@/content/operator-workflows/navigation';
 import proofCopy from '@/content/workflow-proof.json';
+import { getCoreNavigation } from '@/lib/coreNavigation';
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -68,7 +69,7 @@ const Footer = () => {
   // Show ALL pillars (incl. Foresight) so the footer stays in sync with the
   // header's product menu - both read from navbar.pillars.
   const pillarLinks = [
-    ...nav.pillars.map((item) => ({ name: item.name, href: item.href })),
+    ...getCoreNavigation(nav.pillars, locale).map((item) => ({ name: item.name, href: item.href })),
   ];
 
   // plansList already carries every purchasable line (Foresight & Action, Core,
